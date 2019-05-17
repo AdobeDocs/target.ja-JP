@@ -1,0 +1,61 @@
+Overview of Target with Mobile
+Test ideas unique to Mobile
+Implementation
+Adding Views
+Adding Locations–Making the requests
+Params
+Any out of the box?
+How is visitor id and session id handled?
+Leveraging a data layer
+Dependency on requests to retrieve data to pass to Target
+Mbox Params
+Profile params
+Entity params
+Property token and Workspace support
+Engagement metric params
+Order Params
+Category affinity
+Mbox Host param
+Customer Id
+Any params required for integrations?
+Order Confirmation Mbox
+Batch
+Prefetch
+How does it work? Diagram?
+Impact on A4T
+Impact on P&A
+Impact on Customer Attribugtes
+Handling the Responses
+Experience Cloud Integrations
+A4T
+P&A
+Customer Attributes
+Cross Device
+AEM Cloud Service
+AEM Experience Fragments
+Launch
+Audience building considerations to the platform
+Hybrid implementation usecases
+QA
+Preview links and alternatives
+Debugging
+Debugger
+IDE tools
+Charles
+Adobe Debug
+mboxTrace
+Release considerations
+setting expectations
+App Store considerations
+planning a roadmap
+Activities
+What activity types are supported/not-supported?
+VEC and Form Composer available?
+Multi-activity delivery support (incl. batch)
+Offers
+what types are supported?
+Any offer constraints to be aware of?
+Audience considerations
+Flicker considerations
+Analyzing activity results/reports
+is there anything different about this platform that needs to be called out?
