@@ -1,0 +1,91 @@
+---
+description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
+keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
+seo-description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
+seo-title: Users
+solution: 'Target '
+subtopic: 導入
+title: Users
+topic: Standard
+uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# ユーザー{#users}
+
+Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
+
+>[!NOTE]
+>
+>[!UICONTROL プロパティ]と[!UICONTROL 権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
+>
+>**[!DNL Target]Standard のお客様**： 「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合、ライセンスは、[!DNL Target] Standard です。[!DNL Target Standard のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>
+>**[!DNL Target]Premium のお客様**： 「[!UICONTROL プロパティ]」タブ（[!UICONTROL 設定／プロパティ]）が表示された場合、ライセンスは [!DNL Target] Premium です。[!DNL Target] Premium のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、[ Enterprise ユーザーの権限 ](/help/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限 ](/help/administrating-target/c-user-management/property-channel/properties-overview.md) の設定の手順に従ってください。
+
+システム管理者ユーザーのみが、ユーザーを追加し、ユーザーの権限を管理できます。システム管理者の役割は [!DNL Experience Cloud] レベルで割り当てられます。[!DNL Experience Cloud] の役割は各ソリューションで管理される役割とは独立しています。
+
+[!DNL Adobe Target] を初めて使用するときには、[!DNL Adobe Experience Cloud] アカウントのところに、「Adobe.com」で終わる ID があらかじめ表示されています。これらの ID は Adobe チームのメンバーのもので、新しいアカウントや [!DNL Adobe Target] の使い方について疑問点があるときに、メンバーに質問をすることができます。質問があるときは、通常の方法で Adobe チームにご連絡ください。
+
+新しいユーザーは、Adobe Experience Cloud のアカウントでログインしてから、[!UICONTROL  カードをクリックして ] にログインするまでは、[!DNL Target Standard/Premium]ユーザー [!DNL Target] ページに表示されません。
+
+デフォルトでは、すべての [!DNL Target] ユーザーはまず監視者権限を持ちます。
+
+システム管理者ユーザーは、ユーザーリストで識別できます。アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
+
+## Adobe Admin Console へのアクセス {#section_79796E0227D048F59BAE0AB02E544EBE}
+
+Adobe Admin Console で実行するタスクの場合は、次の手順でコンソールにアクセスします。
+
+1. [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) に移動し、まだログインしていない場合は Adobe ID でサインインします。
+
+   または
+
+   既にExperience Cloudにログインしている場合は、 [https://www.marketing.adobe.comに移動](https://www.marketing.adobe.com/)し、上部ナビゲーションバーの [!UICONTROL アプリ] アイコンをクリックして、右側の **[!UICONTROL 「管理」]** をクリックし、「管理コンソール **[!UICONTROL の起動」をクリック]**します。
+
+1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
+
+## ユーザーの追加 {#section_A92AF0F921B743FEB9E9033433BD816A}
+
+ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
+
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で、「**[!UICONTROL ユーザー管理]**」／「**[!UICONTROL ユーザー]**」の順にクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
+1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+
+## ユーザーグループの作成 {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+
+開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
+
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で、「**[!UICONTROL ユーザー管理]**」／「**[!UICONTROL ユーザーグループ]**」の順にクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
+1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+
+## 役割および権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+
+システム管理者のみ、[!DNL Target] のユーザーの役割を指定できます。例えば、Standard の承認者ユーザーは、Experience Cloud の管理者権限を併せ持たない限り、監視者を承認者に変更できません。
+
+システム管理者ユーザーはシステムにユーザーを追加する必要があります。ユーザーは自動的には追加されません。ユーザーのアカウントを登録する前に、Experience Cloud から招待の電子メールを送信して、電子メールアドレスを確認する必要があります。
+
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で、「**[!UICONTROL 製品]**」をクリックして、目的の製品名を選択します。
+
+   ![](assets/workspace.png)
+
+1. 目的の設定の名前をクリックします。
+1. 「**[!UICONTROL 構成ユーザー]**」をクリックします。
+
+   「[!UICONTROL 構成ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
+
+   ![](assets/configuration_users.png)
+
+1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（監視者、編集者、承認者）を選択します。
+
+| 役割 | 説明 |
+|--- |--- |
+| 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
+| 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+| 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+
+詳しくは、*Enterprise ユーザーガイド*の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
