@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -24,15 +24,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 2019年2月21日に、ヨーロッパ、日本、APACの各地域でAdobe Targetインフラストラクチャがアップグレードされ、TLS1.1以降をサポートしていない古いデバイスまたはWebブラウザーを使用したエンドユーザーからデータを収集することがなくなりました。このアップグレードは、2019年4月1日の **北米地域向けに予定**されています。TLS 1.2 への移行により、セキュリティが向上します。重要なのは、詳細を調べて、スムーズな移行を実現するためにITチームによる変更を計画することです。詳しくは [、TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)を参照してください。
 * [!DNL Target] と [!DNL Adobe Marketing Cloud] は、2019 年 3 月に Microsoft Internet Explorer 11 のサポートを終了します。この変更は [!DNL Target] オーサリングにのみ影響します。この変更は、エクスペリエンス配信に影響しません。Microsoft Edge か別のブラウザーに切り替えてください。詳しくは、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)」を参照してください。
 
-## Mobile App Visual Experience Composer（2019年5月14日）{mobile- vec}
+## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
 
-| 機能/拡張機能 | 説明 |
-| --- | --- |
-| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
-
-## [!DNL Target] Standard/Premium19.4.2（2019年4月30日） {#release-19-4-2}
-
-このリリースには、次の機能、変更および機能強化が含まれています。
+このリリースには、次の機能、変更点、および機能強化が含まれています。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
 
@@ -40,31 +34,17 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 | 機能/拡張機能 | 説明 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | [!UICONTROL Visual Experience Composer] （VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>クリック追跡の設定時にDOMパス機能が使用できるようになりました。<br>詳しくは [、クリック追跡](/help/c-activities/r-success-metrics/click-tracking.md#considerations)を参照してください。</li><li>スタイルパネルを使用して、選択した要素の既存のスタイルの値を表示または編集します。さらに、スタイル設定を追加することもできます。<br>スタイルパネルにアクセスするには、VEC内からページ要素をクリックし、 [!UICONTROL 編集] / [!UICONTROL スタイルをクリック]します。<br>スタイルパネルは、VECの右側に表示されます。パネルには、選択した要素を編集または追加できるスタイルのリストが含まれています。リアルタイムCSSエディターを使用すると、カスケーディングスタイルシート（CSS）を使用する場合や開発者からコードを受け取った場合に、変更を表示したりスタイルを追加したりできます。<br>詳しくは、Visual Experience [Composerのオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) の *スタイル*を参照してください。</li><li>リッチテキストエディターで、ネストされたHTML5要素がサポートされるようになりました。<br>HTML5仕様では、ネスト用の新しいタグの組み合わせが可能です。以前のバージョンのリッチテキストエディターは、HTML5仕様で許可されているタグの新しいネストをサポートしていませんでした。その結果、VECで選択されたネストされた要素が正しく処理されず、不要なHTMLが変更されていました。（TGT-33618）<br>詳しくは、Visual Experience [Composerのオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) の *テキスト/HTMLの編集を参照*してください。</li> |
+| シングルページアプリケーションの Visual Experience Composer（SPA VEC） | SPA VEC に、作業を高速化または効率化するための以下の機能が追加されました。<ul><li>SPA内のアクションをクリックすると、このアクションが適用されるサイト上の要素が強調表示されます。ビューで作成される各VECアクションには、対応する4つのアイコンがあります。情報、編集、移動および削除。このリリースで新しい「移動」機能を使用すると、変更パネルにあるページ読み込みイベントまたはその他の表示にアクションを移動できます。（TGT-33746）</li><li>VEC でページがロードされる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-33851 および TGT-34149）</li></ul>詳細については、「[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。 |
 
 ### 機能強化、修正、変更点
 
-* VEC を使用してアセットを削除する際のワークフローを改善しました。削除されたアセットは [!UICONTROL 、オファーライブラリ] から削除されるようになりました [!DNL Scene7] （該当する場合）。削除されたアセットは、検索結果に表示されなくなりました。（TGT-31981）
-* アセットが含まれていても、アセットフォルダを削除できるようになりました。（TGT-33265）
+* VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
 
-   以前は、Target画像から空でないフォルダを削除できませんでした（[!UICONTROL オファー] / [!UICONTROL 画像オファー]）。「フォルダーが空ではありません!&quot;と表示されます。通知が表示されます。この機能を使用すると、フォルダーの削除を実行して、任意の数のアセットとサブフォルダーを含むフォルダー全体を削除する機能を追加できます。この機能は、Adobe Experience Cloud Assets UIでもTarget UIで使用できます。
+## Mobile App Visual Experience Composer（2019年5月14日）{mobile- vec}
 
-   * 画像オファーライブラリ内の空のフォルダは削除できます。フォルダー内のすべての画像がどのアクティビティでも参照されていない場合、フォルダー全体とそのコンテンツが削除されます。フォルダー内の一部の画像がどのアクティビティでも参照されている場合、参照されていないすべての画像は削除されますが、参照画像とそれらの画像を含むフォルダは保持されます。
-   * 画像アセットピッカーでの画像オファーのレンダリングは、高速で効率的に実行できます。
-   詳しくは、ライブラリ内の [コンテンツの操作](/help/c-experiences/c-manage-content/assets-working.md)を参照してください。（TGT-32897）
-
-* アセットピッカーの画像オファーのレンダリングを改善しました。画像オファーの表示および選択がよりすばやく効率的になりました。（TGT-32897）
-* VEC 内でページの読み込みをキャンセルする際の URL へのリダイレクトの処理を改善しました。（TGT-33815）
-* コレクションピッカーから [!UICONTROL Recommendations] コレクションを選択した後、 [!UICONTROL 「保存」] ボタンをクリックする必要があります。このワークフローは、他 [!DNL Target]のワークフローと一致しています。（TGT-33205）
-* インサイトレポートの小さなセットが実際のコンバージョン率ではなく0%のコンバージョン率を返す問題を修正しました。（TNT-32125）
-
-## [!DNL Target] Standard/Premium19.4.1（2019年4月16日） {#release-19-4-1}
-
-このリリースは、メンテナンスリリースです。以下のような変更が含まれています。
-
-（括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
-
-* ブランディングと製品の変更を反映する [!DNL Adobe Experience Cloud] ようにUIを更新しました。（TGT-33546、TGT-33272 および TGT-33331）
+| 機能/拡張機能 | 説明 |
+| --- | --- |
+| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
