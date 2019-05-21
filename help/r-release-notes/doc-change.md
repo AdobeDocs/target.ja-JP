@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # ドキュメントの変更点{#documentation-changes}
 
 このページには [!DNL Adobe Target] 、ドキュメントに対して重要な変更が記載されています。
+
+## Adobe Target Standard/Premium19.5.1（2019年5月21日）{tgt-19-5-1}
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2019年5月22日 | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>「移動」オプションに関する情報を更新しました。</li><li>VECでページが読み込まれる前に、またはページの読み込みに失敗した場合でも、多くのアクションを実行できることに注意してください。 </li></ul> |
+|  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 古いテキスト、更新された画像、およびトレーニングビデオが追加されました。 |
+|  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 日付の多いテキストと画像 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 顧客属性エイリアスIDの文字制限を追加しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md): 19.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium19.4.2（2019年4月30日）{19-4-2}
 
