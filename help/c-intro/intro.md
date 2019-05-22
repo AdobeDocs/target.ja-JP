@@ -8,7 +8,7 @@ title: Target の概要
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -93,6 +93,12 @@ Automated Personalization には自動学習機能が備わっており、分析
 [!DNL Recommendations Classic] は、Web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
 詳しくは、『[Recommendations Classic ドキュメント](../assets/adobe-recommendations-classic.pdf)』を参照してください。
+
+## Experience League:Adobe Targetスタートアップキット {#kit}
+
+Adobe Targetの最適化プログラムとパーソナライゼーションプログラムを、このようこそキットで構築します。最初のAdobe Targetアクティビティの準備や開始に役立つ重要な情報、ツール、リソースが含まれています。短期間の優先課題と長期的な最適化戦略があります。
+
+[Adobe Targetスタートアップキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## トレーニングビデオ： アクティビティのタイプ（9:03）
 
