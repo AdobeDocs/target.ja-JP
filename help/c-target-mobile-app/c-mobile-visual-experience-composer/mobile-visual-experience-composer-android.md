@@ -8,7 +8,7 @@ title: Android - モバイルアプリケーションのセットアップ
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
+## チュートリアル:Mobile AndroidアプリケーションへのExperience Cloudの実装 {#tutorial}
+
+* [Mobile AndroidアプリケーションへのExperience Cloudの実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+このチュートリアルを完了すると、次のことが可能になります。
+
+* モバイル開始プロパティの作成
+* Androidアプリへの起動プロパティのインストール
+* 以下のAdobe Experience Cloudソリューションを実装します。
+   * Experience Cloud ID サービス
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 開発環境、ステージング環境および実稼動環境での変更の発行
