@@ -7,7 +7,7 @@ title: モバイルアプリケーション Visual Experience Composer
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -199,4 +199,4 @@ Targetオファーがプリフェッチされるたびに、可能であれば�
 
 ## トレーニングビデオ:Adobe Target Mobile App Visual Experience Composer（3:33） {#video}
 
->[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
+>[!VIDEO](https://video.tv.adobe.com/v/27528)
