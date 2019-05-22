@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -38,6 +38,12 @@ source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 ### 機能強化、修正、変更点
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
+
+## Mobile App Visual Experience Composer（2019年5月14日）{mobile- vec}
+
+| 機能/拡張機能 | 説明 |
+| --- | --- |
+| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[ビデオ:Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
