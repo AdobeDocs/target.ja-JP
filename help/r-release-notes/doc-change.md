@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年5月23日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | トレーニングビデオを追加しました。 |
 | 2019年5月22日 | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>「移動」オプションに関する情報を更新しました。</li><li>VECでページが読み込まれる前に、またはページの読み込みに失敗した場合でも、多くのアクションを実行できることに注意してください。 </li></ul> |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 古いテキスト、更新された画像、およびトレーニングビデオが追加されました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 日付の多いテキストと画像 |
