@@ -8,7 +8,7 @@ title: A/B テストの複数のエクスペリエンスバージョン
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
 ---
 

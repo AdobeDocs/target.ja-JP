@@ -9,7 +9,7 @@ title: Target の実装
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 3bfed90752235909ed0e19dab460a4ec1a16dc78
 
 ---
 

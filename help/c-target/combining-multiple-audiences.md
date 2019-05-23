@@ -8,7 +8,7 @@ title: 複数のオーディエンスの結合
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 ---
 

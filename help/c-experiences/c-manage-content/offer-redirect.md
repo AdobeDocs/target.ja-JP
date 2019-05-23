@@ -8,7 +8,7 @@ title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 ---
 

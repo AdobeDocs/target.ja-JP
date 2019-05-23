@@ -5,7 +5,7 @@ seo-title: Adobe Target Visual Experience Composer（VEC）
 title: Visual Experience Composer（VEC）
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 ---
 

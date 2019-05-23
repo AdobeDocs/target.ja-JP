@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
 
 ---
 

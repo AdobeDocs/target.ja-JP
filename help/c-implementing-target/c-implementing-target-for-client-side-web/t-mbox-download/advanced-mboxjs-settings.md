@@ -7,7 +7,7 @@ solution: 'Target '
 title: mbox.js を設定
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
 
 ---
 

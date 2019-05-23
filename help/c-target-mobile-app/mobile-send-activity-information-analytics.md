@@ -5,7 +5,7 @@ seo-title: アクティビティ情報のAdobe Analyticsへの送信
 title: アクティビティ情報のAdobe Analyticsへの送信
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 ---
 

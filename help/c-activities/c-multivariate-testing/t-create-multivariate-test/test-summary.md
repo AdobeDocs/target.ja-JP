@@ -8,7 +8,7 @@ title: テスト概要
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
 
 ---
 

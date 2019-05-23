@@ -9,7 +9,7 @@ title: Target 実装の準備
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a8de7d55bcb549c09114bbadbb1ae0a4a5f63478
 
 ---
 

@@ -8,7 +8,7 @@ title: Target の従来の API から Adobe I/O への移行
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 7f4f49ee2eeee042b5d3c9dbab042205a9f5806a
 
 ---
 

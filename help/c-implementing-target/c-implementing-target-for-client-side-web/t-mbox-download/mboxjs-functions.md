@@ -7,7 +7,7 @@ solution: 'Target '
 title: mbox.js 関数
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
 
 ---
 

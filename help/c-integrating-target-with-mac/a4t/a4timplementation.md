@@ -8,7 +8,7 @@ title: Analytics for Target の実装
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
 
 ---
 

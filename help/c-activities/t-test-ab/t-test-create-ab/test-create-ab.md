@@ -8,7 +8,7 @@ title: A/B テストの作成
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ---
 

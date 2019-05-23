@@ -9,7 +9,7 @@ title: ブラウザー
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 ---
 

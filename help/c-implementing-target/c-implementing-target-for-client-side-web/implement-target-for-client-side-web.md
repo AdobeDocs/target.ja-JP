@@ -7,7 +7,7 @@ title: 概要-クライアント側Web用のTargetの実装
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 0d5aa4d1f46bc64b0c88ee1ca0298cb09238f7e1
 
 ---
 

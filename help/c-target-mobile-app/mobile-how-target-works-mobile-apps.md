@@ -5,7 +5,7 @@ seo-title: モバイルアプリにおける Target の仕組み
 title: モバイルアプリにおける Target の仕組み
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 ---
 

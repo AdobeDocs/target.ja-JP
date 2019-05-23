@@ -9,7 +9,7 @@ title: A4T での水増しされた訪問と訪問者カウントの最小化
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
 
 ---
 

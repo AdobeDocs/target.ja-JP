@@ -8,7 +8,7 @@ title: カテゴリ親和性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
 
 ---
 

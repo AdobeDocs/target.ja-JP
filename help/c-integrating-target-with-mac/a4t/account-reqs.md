@@ -8,7 +8,7 @@ title: ユーザー権限の要件
 topic: Reports and Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 ---
 

@@ -7,7 +7,7 @@ solution: 'Target '
 title: ターゲット設定の仕組み
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ---
 

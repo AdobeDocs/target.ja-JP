@@ -8,7 +8,7 @@ subtopic: 導入
 title: mbox.js のバージョンの詳細
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
 
 ---
 

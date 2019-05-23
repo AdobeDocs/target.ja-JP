@@ -9,7 +9,7 @@ title: 顧客属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
 
 ---
 

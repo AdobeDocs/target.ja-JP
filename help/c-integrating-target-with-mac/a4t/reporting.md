@@ -9,7 +9,7 @@ title: A4T レポート
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 
 ---
 

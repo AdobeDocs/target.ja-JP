@@ -8,7 +8,7 @@ title: アクティビティの設定 - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ---
 

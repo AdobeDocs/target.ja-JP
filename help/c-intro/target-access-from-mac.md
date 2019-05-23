@@ -9,7 +9,7 @@ title: Adobe Experience Cloud からの Target へのアクセス
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 
 ---
 

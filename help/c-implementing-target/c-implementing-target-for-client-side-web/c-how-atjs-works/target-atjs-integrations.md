@@ -8,7 +8,7 @@ title: at.js の統合
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ---
 

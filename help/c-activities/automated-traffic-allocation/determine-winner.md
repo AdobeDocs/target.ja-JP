@@ -8,7 +8,7 @@ title: 勝者の特定
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 ---
 

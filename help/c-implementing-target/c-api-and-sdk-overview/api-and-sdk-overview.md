@@ -8,7 +8,7 @@ title: サーバー側 Target の実装
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 845fdba274a5aef740ffd4787d36e62bd769942a
 
 ---
 

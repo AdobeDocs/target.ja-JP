@@ -7,7 +7,7 @@ title: テストを成功させるために必要なトラフィックの見積�
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
 
 ---
 

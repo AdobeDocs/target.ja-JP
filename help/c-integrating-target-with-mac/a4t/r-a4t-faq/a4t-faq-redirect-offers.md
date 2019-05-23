@@ -8,7 +8,7 @@ title: リダイレクトオファー - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 ---
 

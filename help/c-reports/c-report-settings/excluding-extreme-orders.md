@@ -8,7 +8,7 @@ title: 極端な値の除外
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ---
 

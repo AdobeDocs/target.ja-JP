@@ -9,7 +9,7 @@ title: トレーニングと資格認定
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ---
 

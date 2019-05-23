@@ -8,7 +8,7 @@ title: デザインの概要
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
 
 ---
 

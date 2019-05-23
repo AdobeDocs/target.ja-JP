@@ -8,7 +8,7 @@ title: AEM エクスペリエンスフラグメント
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 ---
 

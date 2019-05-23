@@ -8,7 +8,7 @@ title: エクスペリエンスターゲット設定でのエクスペリエン�
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 ---
 

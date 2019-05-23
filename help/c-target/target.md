@@ -7,7 +7,7 @@ solution: 'Target '
 title: オーディエンス
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ---
 

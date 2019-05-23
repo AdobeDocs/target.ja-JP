@@ -8,7 +8,7 @@ title: 多変量分析テスト
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ---
 

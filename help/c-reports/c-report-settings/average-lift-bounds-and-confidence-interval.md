@@ -8,7 +8,7 @@ title: 平均上昇率、上昇率範囲および信頼区間
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
 
 ---
 

@@ -9,7 +9,7 @@ title: 環境設定
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
 
 ---
 

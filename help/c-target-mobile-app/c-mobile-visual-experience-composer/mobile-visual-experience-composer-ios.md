@@ -8,7 +8,7 @@ title: iOS - モバイルアプリケーションのセットアップ
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 29e82d6bcb42b0f05b0b175be7df017184358c38
 
 ---
 

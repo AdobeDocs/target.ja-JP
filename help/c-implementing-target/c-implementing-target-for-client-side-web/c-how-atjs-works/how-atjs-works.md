@@ -8,7 +8,7 @@ title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
 
 ---
 

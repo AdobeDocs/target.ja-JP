@@ -8,7 +8,7 @@ title: カスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 ---
 

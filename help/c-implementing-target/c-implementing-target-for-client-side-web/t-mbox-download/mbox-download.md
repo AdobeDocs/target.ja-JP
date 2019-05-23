@@ -9,7 +9,7 @@ title: mbox.js の実装
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 ---
 

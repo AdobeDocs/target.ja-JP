@@ -8,7 +8,7 @@ title: レポート設定
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 ---
 

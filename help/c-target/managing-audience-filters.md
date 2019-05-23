@@ -7,7 +7,7 @@ solution: 'Target '
 title: レポート用のオーディエンスフィルター
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ---
 

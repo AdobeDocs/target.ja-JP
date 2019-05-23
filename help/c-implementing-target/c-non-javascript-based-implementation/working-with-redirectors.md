@@ -9,7 +9,7 @@ title: リダイレクターの使用
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 ---
 

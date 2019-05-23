@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
 
 ---
 

@@ -8,7 +8,7 @@ subtopic: 導入
 title: targetPageParamsAll()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: d60f2d193fb9e157cb64f93f76d88f97b02a76e8
 
 ---
 

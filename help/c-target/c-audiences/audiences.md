@@ -8,7 +8,7 @@ title: オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 ---
 

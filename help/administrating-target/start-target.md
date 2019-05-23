@@ -9,7 +9,7 @@ title: 管理者の最初の手順
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 ---
 

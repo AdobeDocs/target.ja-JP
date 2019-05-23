@@ -9,7 +9,7 @@ title: 画像用 adbox の作成
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 ---
 

@@ -8,7 +8,7 @@ title: at.js のデプロイ方法
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 78de93b565f970e03ffe2147e3e48962dd607beb
 
 ---
 

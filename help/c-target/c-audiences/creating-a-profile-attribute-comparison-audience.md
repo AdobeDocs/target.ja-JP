@@ -8,7 +8,7 @@ title: プロファイル属性比較オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ---
 

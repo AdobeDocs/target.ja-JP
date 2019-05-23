@@ -8,7 +8,7 @@ title: 制限
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: 5e8edb25f0b0255247c535bcac1d960b6e8acf94
 
 ---
 

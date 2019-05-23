@@ -9,7 +9,7 @@ title: 電子メール：Target の実装
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 2c329fdfe0047740ed803b9b0478ce107a23c8dc
 
 ---
 

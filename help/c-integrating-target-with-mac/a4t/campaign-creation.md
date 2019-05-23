@@ -8,7 +8,7 @@ title: アクティビティの作成
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
 
 ---
 

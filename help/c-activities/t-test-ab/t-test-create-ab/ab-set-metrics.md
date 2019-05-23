@@ -7,7 +7,7 @@ solution: Target,standard
 title: 指標の設定
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 ---
 

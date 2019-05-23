@@ -8,7 +8,7 @@ title: オファーフォルダーの作成
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 ---
 

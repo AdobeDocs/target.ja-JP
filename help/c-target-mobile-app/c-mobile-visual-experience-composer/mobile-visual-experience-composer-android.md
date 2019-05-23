@@ -8,7 +8,7 @@ title: Android - モバイルアプリケーションのセットアップ
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: e77022281fa03c8ff8bac111088bdfa4a600783f
 
 ---
 

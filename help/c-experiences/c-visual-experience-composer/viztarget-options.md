@@ -8,7 +8,7 @@ title: Visual Experience Composer のオプション
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: cd6bfcda582b7432c4082144dbd8e561f71673a5
 
 ---
 

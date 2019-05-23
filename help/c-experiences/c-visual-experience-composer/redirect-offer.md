@@ -8,7 +8,7 @@ title: URL にリダイレクト
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
 ---
 

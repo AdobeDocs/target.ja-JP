@@ -8,7 +8,7 @@ title: ページ修正のシナリオ
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 ---
 

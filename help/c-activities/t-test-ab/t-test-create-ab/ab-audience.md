@@ -8,7 +8,7 @@ title: オーディエンスの選択
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 ---
 

@@ -8,7 +8,7 @@ title: エクスペリエンスのターゲット設定アクティビティの�
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
 
 ---
 

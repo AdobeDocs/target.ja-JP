@@ -9,7 +9,7 @@ title-outputclass: Premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 
 ---
 

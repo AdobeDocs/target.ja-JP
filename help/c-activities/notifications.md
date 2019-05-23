@@ -8,7 +8,7 @@ title: アクティビティの通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 ---
 

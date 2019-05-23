@@ -8,7 +8,7 @@ title: 除外
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
 
 ---
 

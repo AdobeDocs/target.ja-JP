@@ -8,7 +8,7 @@ title: 動的データをオファーに渡す
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
 
 ---
 

@@ -10,7 +10,7 @@ topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ---
 

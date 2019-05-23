@@ -9,7 +9,7 @@ title: サポートされているブラウザー
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
 
 ---
 

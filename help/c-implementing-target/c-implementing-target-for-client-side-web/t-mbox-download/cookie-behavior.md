@@ -9,7 +9,7 @@ title: mbox.js の Cookie
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 75f097e0f38cb2dc19922383260958606e8c53b2
 
 ---
 

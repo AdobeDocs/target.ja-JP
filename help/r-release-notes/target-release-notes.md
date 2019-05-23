@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
+source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 ---
 

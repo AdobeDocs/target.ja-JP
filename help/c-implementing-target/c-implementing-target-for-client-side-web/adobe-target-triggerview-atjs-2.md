@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
 
 ---
 

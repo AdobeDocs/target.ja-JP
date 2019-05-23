@@ -8,7 +8,7 @@ title: TLS（Transport Layer Security）暗号化の変更
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
 
 ---
 

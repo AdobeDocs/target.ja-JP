@@ -7,7 +7,7 @@ solution: 'Target '
 title: 成功指標
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 ---
 

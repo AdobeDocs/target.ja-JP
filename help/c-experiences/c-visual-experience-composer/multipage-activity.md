@@ -8,7 +8,7 @@ title: 複数ページアクティビティ
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 ---
 

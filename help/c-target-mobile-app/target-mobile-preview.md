@@ -8,7 +8,7 @@ title: Target モバイルのプレビュー
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 ---
 

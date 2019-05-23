@@ -9,7 +9,7 @@ title: mbox.js の機能
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 ---
 

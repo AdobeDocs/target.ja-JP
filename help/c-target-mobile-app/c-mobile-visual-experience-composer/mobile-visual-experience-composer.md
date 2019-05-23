@@ -7,7 +7,7 @@ title: モバイルアプリケーション Visual Experience Composer
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
 
 ---
 

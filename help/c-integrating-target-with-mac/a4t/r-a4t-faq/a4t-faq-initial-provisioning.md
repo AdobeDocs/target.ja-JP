@@ -8,7 +8,7 @@ title: 初期プロビジョニング - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 ---
 

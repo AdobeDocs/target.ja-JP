@@ -8,7 +8,7 @@ title: JSON オファーの作成
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ---
 

@@ -7,7 +7,7 @@ title: アクティビティの変更ログ
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 ---
 

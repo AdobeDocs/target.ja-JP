@@ -8,7 +8,7 @@ title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
 
 ---
 

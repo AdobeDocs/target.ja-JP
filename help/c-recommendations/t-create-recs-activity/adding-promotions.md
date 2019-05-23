@@ -10,7 +10,7 @@ topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 
 ---
 

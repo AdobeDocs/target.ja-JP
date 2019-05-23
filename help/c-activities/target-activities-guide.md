@@ -8,7 +8,7 @@ title: Target のアクティビティのタイプ
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
 
 ---
 

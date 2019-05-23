@@ -8,7 +8,7 @@ title: プロファイルと変数の用語集
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 
 ---
 

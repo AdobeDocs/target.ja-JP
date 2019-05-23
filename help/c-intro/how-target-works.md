@@ -9,7 +9,7 @@ title: Adobe Target の仕組み
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
 
 ---
 

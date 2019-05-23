@@ -9,7 +9,7 @@ title: Target の管理
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
 
 ---
 

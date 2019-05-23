@@ -8,7 +8,7 @@ title: mbox.js から at.js に移行する方法
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ---
 

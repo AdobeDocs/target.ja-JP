@@ -9,7 +9,7 @@ title: グローバル mbox にパラメーターを渡す
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 ---
 

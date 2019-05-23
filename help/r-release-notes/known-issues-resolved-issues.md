@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 ---
 

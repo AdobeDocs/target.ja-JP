@@ -8,7 +8,7 @@ title: シングルページアプリケーション（SPA）Visual Experience C
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: 62552bfe5a6eb65dc1760b17543a0f5c84f0ecc5
 
 ---
 
