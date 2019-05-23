@@ -8,16 +8,14 @@ title: フォームベースの Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # フォームベースの Experience Composer{#form-based-experience-composer} 
 
-フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。
-
-この機能を使用すると、Visual Experience Composer では動作しない電子メール、モバイルアプリ、キオスク、その他の場所に Target Standard の A/B テスト、エクスペリエンスのターゲット設定、自動パーソナライゼーションおよび Recommendations アクティビティを配信できます。
+フォームベースのExperience Composerは、Visual Experience Composerが使用できない場合や実用的である場合に、A/Bテスト、エクスペリエンスターゲット設定、自動パーソナライゼーションおよびRecommendationsアクティビティで使用するエクスペリエンスを作成する際に役立つ、非視覚的なエクスペリエンスおよびオファーの作成インターフェイスです。例えば、フォームベースのコンポーザーを使用して、電子メール、キオスクおよびボイスアシスタントで配信するエクスペリエンスおよびオファーを作成できます。
 
 Recommendations アクティビティを作成している場合、エクスペリエンスはありません。条件およびデザインを選択します。複数の条件またはデザインを選択する場合、Target は自動的にエクスペリエンスを生成します。
 
