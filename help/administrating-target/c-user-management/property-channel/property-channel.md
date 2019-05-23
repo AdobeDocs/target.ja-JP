@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise ユーザーの権限{#enterprise-user-permissions}
 
-Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
+Enterpriseユーザー権限は、Targetへのエンタープライズ規模のユーザーアクセスを公式に管理する手段です。Targetにユーザーを追加し、ロールに基づいて権限を割り当て、様々な部門、グローバル場所、チャネルおよびその他の論理的なグループに基づいて、チーム用のワークスペースを作成します。監視者、編集者または承認者の役割をユーザーに割り当てることができます。
 
 ## Enterprise ユーザー権限へのアクセス権があるかどうかを判断する
 
