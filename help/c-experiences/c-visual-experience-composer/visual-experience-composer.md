@@ -5,7 +5,7 @@ seo-title: Adobe Target Visual Experience Composer（VEC）
 title: Visual Experience Composer（VEC）
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Visual Experience Composer（VEC）の使用に関する情報です。
 
-VECは、主な機能の1つ [!DNL Adobe Target]です。VECは、マーケターやデザイナーが視覚的なインターフェイスを使用してコンテンツを作成および変更できるエディターです。コードを直接編集することなく、多くのデザインの選択肢を作成できます。コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
+VECは、サイトコンテキスト内でパーソナライズされたエクスペリエンスとオファーを簡単に作成およびテストできるWYSIWYGユーザーインターフェイスです。Webページ（オファー）またはモバイルWebページのレイアウトとコンテンツをドラッグ&amp;ドロップ、スワップおよび変更して、Targetアクティビティのエクスペリエンスおよびオファーを作成できます。
+
+VECは、主な機能の1つ [!DNL Adobe Target]です。VECを使用すると、マーケティング担当者やデザイナーは視覚的なインターフェイスを使用してコンテンツを作成および変更できます。コードを直接編集することなく、多くのデザインの選択肢を作成できます。コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
 
 Target の **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**タブで、デフォルト Visual Experience Composer URL を入力できます。
 
