@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年5月24日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 紹介のテキストが更新されました。 |
+|  | [エクスペリエンスとオファー](/help/c-experiences/experiences.md) | 紹介のテキストが更新されました。 |
+|  | [オーディエンス](/help/c-target/target.md) | 紹介のテキストが更新されました。 |
+|  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | 紹介のテキストが更新されました。 |
+|  | [レポート](/help/c-reports/reports.md) | 紹介のテキストが更新されました。 |
+|  | [Visual Experience Composer（VEC）](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 紹介のテキストが更新されました。 |
+|  | [フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) | 紹介のテキストが更新されました。 |
+|  | [Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 紹介のテキストが更新されました。 |
+|  | [用語集](/help/c-intro/glossary.md) | 複数のエントリを追加および更新しました。 |
 | 2019年5月23日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | トレーニングビデオを追加しました。 |
 |  | [iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 新しいチュートリアルへのリンクを追加しました。<ul><li>Mobile iOS Objective- CアプリケーションにExperience Cloudを実装する</li><li>Mobile iOS SwiftアプリケーションへのExperience Cloudの実装</li></ul> |
 |  | [Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 新しいチュートリアルへのリンクを追加しました。<ul><li>Mobile AndroidアプリケーションへのExperience Cloudの実装</li></ul> |
