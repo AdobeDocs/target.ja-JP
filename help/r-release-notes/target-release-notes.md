@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2019 年 5 月 21 日**
+**最終更新日：2019 年 5 月 24 日**
 
 >[!NOTE]
 >
 >これらのリリースノートには、プレリリース情報が含まれています。リリース日、機能などの情報は、変更されることがあります。現在のリリースに関する情報を表示するには [、Targetリリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。
+
+## at. jsバージョン2.1.0（2019年5月28日）
+
+at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
+
+| 機能/拡張機能 | 説明 |
+| --- | --- |
+| アドビオプトインサポート | アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。<br>アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
+| 業界標準CSP準拠 | at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。 |
+| クライアント側の分析ログ | 顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーが自由に制御できます。 |
+| 通知の送信 | エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされたときに、開発者が通知を送信できるように `applyOffers()`します。 |
+| ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
 
 ## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#release-19-5-1-prerelease}
 
