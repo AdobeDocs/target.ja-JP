@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,7 +21,9 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年5月24日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 紹介のテキストが更新されました。 |
+| 2019年5月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0 に関する情報を追加しました。 |
+| 2019年5月24日 | [除外の管理](/help/c-activities/t-automated-personalization/managing-exclusions.md) | ターゲットルールを使用してAPアクティビティで特定のオファーを表示できるオーディエンスを制限する情報およびリンクを追加しました。 |
+|  | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 紹介のテキストが更新されました。 |
 |  | [エクスペリエンスとオファー](/help/c-experiences/experiences.md) | 紹介のテキストが更新されました。 |
 |  | [オーディエンス](/help/c-target/target.md) | 紹介のテキストが更新されました。 |
 |  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | 紹介のテキストが更新されました。 |
