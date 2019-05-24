@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 除外の管理
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ Automated Personalization（AP）アクティビティで除外グループと�
 Automated Personalization（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
 
 除外グループは、複数の場所における同一のエクスペリエンスで、不適切なオファーが提示されないようにできる便利な機能です。例えば、全商品を対象とした 20％割引と 15％割引の 2 つのオファーがあるとします。この 2 つのオファーが、同一のエクスペリエンスの訪問者に提示されないようにする必要があります。その場合はこの 2 つのオファーを除外グループに追加することで対処できます。
+
+APアクティビティで特定のオファーを表示できるオーディエンスを制限することもできます。詳しくは [、Target自動パーソナライゼーションオファー](/help/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
 
 **除外グループを作成する手順は次のとおりです。**
 
