@@ -9,7 +9,7 @@ title: 環境設定
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
 |--- |--- |
 | デフォルトの Visual Experience Composer URL | [!UICONTROL Visual Experience Composer] で使用されるデフォルトの URL を設定します。これは、新しいアクティビティのそれぞれに対してエクスペリエンスをセットアップするときに必ず使用される、ホームページのようなデフォルトのページです。デフォルトの URL を設定しない場合は、各アクティビティを作成するたびに URL を入力する必要があります。 |
 | 拡張された Experience Composer を有効にする | iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは拡張版と互換性がない場合があります。元の Experience Composer に戻すには、このオプションの選択を解除します。サイトでのアクティビティの配信はこの選択の影響を受けません。<br>詳しくは、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。<br>**注意**：アクティビティレベルで拡張 Experience Composer を有効にすることもできます。 |
-| 混在コンテンツの読み込み | 拡張Experience Composerを使用してWebサイトを開くときに混合コンテンツを有効にします。このオプションを有効にすると、Targetプロキシサーバーを介して静的リソースを読み込む余分なオーバーヘッドを回避できます。 |
+| 混在コンテンツの読み込み | 拡張Experience Composer（EEC）を使用してWebサイトを開くときに混合コンテンツを有効にします。このオプションを有効にすると、Targetプロキシサーバーを介して静的リソースを読み込むオーバーヘッドを回避できます。<br>このオプションは、例えば、Content Security Policy（CSP）ヘッダーでEECが有効になっているプロキシサーバーを使用せずに混合コンテンツの読み込みを許可する場合などに役立ちます。<br>このオプションは、HTTP Webサイトが、JavaScript、画像などのプロキシ経由で読み込みに時間がかかるので、HTTP Webサイトの読み込み時間が長くなる場合にも役立ちます。 |
 | エクスペリエンスのスナップショットを生成 | エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。 |
 
 ## モバイルビューポート設定 {#section_42176D062BCE4A28ADBB784CC4BEF84D}
