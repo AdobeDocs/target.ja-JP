@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 |  | [勝者の特定](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 情報のp値が更新されました。 |
 |  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Targetが複数レベルのiframeを処理する方法に関するトラブルシューティングの節を追加しました。 |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新しいFAQを追加しました。&quot;Recommendationsの操作で予想されるインジェスト時間枠は何ですか?&quot; |
+|  | [Adobe Launch を使用した Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Target Launch Extensionを使用して、「実装at. jsの利点」の情報を更新しました。 |
+|  | T[roubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 無効なdoctypeを使用している場合にat. jsに関する新しいトラブルシューティングの節が追加されました。 |
 | 2019年5月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0 に関する情報を追加しました。 |
 | 2019年5月24日 | [除外の管理](/help/c-activities/t-automated-personalization/managing-exclusions.md) | ターゲットルールを使用してAPアクティビティで特定のオファーを表示できるオーディエンスを制限する情報およびリンクを追加しました。 |
 |  | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 紹介のテキストが更新されました。 |
