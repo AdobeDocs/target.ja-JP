@@ -9,7 +9,7 @@ title: Adobe Experience Cloud からの Target へのアクセス
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -55,6 +55,7 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
    UIは [!DNL Target] 次の言語で使用できます。
 
    * 英語
+   * スペイン語
    * フランス語
    * ドイツ語
    * 日本語
@@ -67,6 +68,31 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 1. 「 **[!UICONTROL 保存]**」をクリックします。
 
 1. ログアウトする [!DNL Adobe Experience Cloud] か [!DNL Target]、再度ログインして変更を有効にします。
+
+## Target製品ドキュメントの言語の変更 {#doc-lang}
+
+オペレーティングシステムまたはブラウザーの設定で、希望の言語を検出し、その言語にドキュメントを表示する必要があります（可能な場合）。Targetドキュメントは自動的に翻訳され、英語版のドキュメントに加えられた変更の数時間以内に英語版と同期されます。
+
+ページヘッダーのリンクをクリックすると、言語を元の英語バージョンに簡単に変更できます。
+
+![元の言語に変更](/help/c-intro/assets/mt-original.png)
+
+ページヘッダー（ ![言語切り替えバー](/help/c-intro/assets/icon-language-switcher.png) ）の右上にある言語切り替えアイコンをクリックすると、言語をサポートされている言語にすばやく変更できます。
+
+![言語切り替えバー](/help/c-intro/assets/language-switcher.png)
+
+[!DNL Target] ドキュメントは次の言語で利用できます。
+
+* 英語
+* スペイン語
+* フランス語
+* ドイツ語
+* 日本語
+* イタリア語
+* ポルトガル語（ブラジル）
+* 簡体字中国語（近日発売）
+* 繁体字中国語
+* 韓国語
 
 ## トレーニングビデオ： Experience Cloud における Adobe Target（4:59）
 
