@@ -9,7 +9,7 @@ title: コンテンツ配信のトラブルシューティング
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 リモートオファーの場合、mbox の応答は、`/* invalid remote offer URL */`を含められます。
 
 mbox 応答をブラウザーで確認するか、mboxTrace を使用して確認できます。有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
+
+## mboxがサイトで実行されない。
+
+at. jsは、無効なdoctypeを使用している場合、Target mboxは実行しません。at. jsにはHTML5doctypeが必要です。
 
 ## トレーニングビデオ
 
