@@ -7,7 +7,7 @@ solution: 'Target '
 title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 Visual Experience Composer（VEC）と拡張 Experience Composer（EEC）では、特定の条件下で表示の問題が発生することがあります。
+
+## Targetは複数レベルのiframeをサポートしていますか。
+
+Targetは複数レベルのiframeをサポートしていません。Webサイトが子iframeを持つiframeを読み込む場合、Targetライブラリ（at. jsおよびmbox. js）は親iframeのみとやり取りします。Targetライブラリは子iframeを操作しません。
+
+回避策として、子iframeのURLを使用してエクスペリエンスにページを追加できます。
 
 ## ページを編集しようとすると、ページではなく、スピナーが表示されます。（VEC と EEC）{#section_313001039F79446DB28C70D932AF5F58}
 
