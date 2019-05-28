@@ -6,7 +6,7 @@ seo-title: Adobe Launch を使用した Target の実装
 title: Adobe Launch を使用した Target の実装
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ Launch の詳細な情報を取得できる様々なソースを次の表に示�
 
 次のメリットは、Adobe Launch を使用して at.js を実装する場合にのみ適用されます。そのため、DTM または at.js の手動実装ではなく Adobe Launch を使用することを強くお勧めします。
 
-* **Target の非同期デプロイが可能：**詳しくは、「[Adobe Target 拡張機能のドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension)」（）の「非同期デプロイが可能な Adobe Target 拡張機能」を参照してください。
-* **Analytics と Target の競合状態の解消：** Analytics の呼び出しは Target の呼び出しより先に実行される可能性があるので、Target の呼び出しは Analytics の呼び出しには結合されません。この結果、不正なデータが発生するおそれがあります。Launch 0.6.0 以降を使用すると、Target Launch 拡張機能では、Target の呼び出しが（成功するにせよ失敗するにせよ）完了するまで Analytics のビーコン呼び出しが待機するようになります。これで、お客様が経験した可能性のあるデータ不整合の問題が解決されます。
-* **不正なリダイレクトオファー処理の防止**ページに Target と Analytics の両方があり、Target によってリダイレクトオファーが実行される場合、Analytics トラッカーが誤ってリクエストを発行する状況に陥る可能性があります。これは、ユーザーが別の URL にリダイレクトされようとしているからです。Launch を通じて Target と Analytics を実装する場合は、このような問題は発生しません。Target が Launch を使用して、Analytics ビーコンリクエストを中止するように Analytics に指示するからです。
-
+* **AnalyticsとTarget競合条件の解決:** Analytics呼び出しはTarget呼び出しの前に実行されることがあるので、Target呼び出しはAnalytics呼び出しに繋ぎ合わされません。これは不正なデータにつながる可能性があります。0.6.0から、Target起動拡張機能により、Targetの呼び出しが完了するまでAnalyticsビーコンの呼び出しが待機し、成功したかどうかが確認されます。これで、お客様が経験した可能性のあるデータ不整合の問題が解決されます。
+* **リダイレクトオファーの処理の誤りを防止:** ページ上にTargetとAnalyticsがある場合、Targetによってリダイレクトオファーが実行された場合、Analyticsトラッカーがリクエストを実行したときにリクエストが実行される可能性があります（ユーザーが別のURLにリダイレクトされるので）。TargetとAnalyticsを起動して実装する場合、この問題は発生しません。「開始」を使用すると、AnalyticsはAnalyticsビーコンリクエストを中止するようAnalyticsに指示します。
