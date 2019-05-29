@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -49,7 +49,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
    + 実装する前に {#before-implement}
       + [実装する前に](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Target JavaScript ライブラリについて](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + プライバシー {#privacy}
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
