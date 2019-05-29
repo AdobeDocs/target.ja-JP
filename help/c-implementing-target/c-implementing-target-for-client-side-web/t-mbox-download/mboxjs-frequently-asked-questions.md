@@ -8,7 +8,7 @@ subtopic: 導入
 title: mbox.js に関するよくある質問
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -19,7 +19,7 @@ mbox.js に関するよくある質問への回答を紹介します。
 
 ## mbox.js はページ読み込み時間にどのように影響しますか。{#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-詳細については、「[Target JavaScript ライブラリの理解](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)」を参照してください。
+詳しくは、at. jsの [利点](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
 ## mbox.js および document.write を使用すると Google Chrome で「Parser-blocking」警告メッセージが表示されるのはなぜですか。{#section_355A3A5BF02F42EEB8271C96EF41590A}
 
