@@ -9,7 +9,7 @@ title: 実装する前に
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a0234d8dc1e539438130b2ba323d3f9eb4e7a022
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -24,7 +24,6 @@ Adobe Target を実装する前に対処すべき考慮事項について説明�
 >
 >at. jsまたはmbox. jsへの変更は、アドビカスタマーケアではサポートされません。
 
-- [Target JavaScript ライブラリについて](target-implement.md)
 - [Target 実装の準備](prepare-to-implement-target.md)
 - [プライバシー](c-privacy/privacy.md)
 - [データを Target に送信する方法](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
