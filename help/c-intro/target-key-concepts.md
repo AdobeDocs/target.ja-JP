@@ -9,7 +9,7 @@ title: Target の主要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Targetには、複数のアクティビティタイプがあります。次の�
 
 [!DNL Target Standard] では、追跡する各ページの `<head>` セクションに [!DNL Target] を有効化する 1 行のコードが含まれている限り、ページ上の任意の要素を場所にできます。このコードの行は、情報を収集し、訪問者に対してターゲット設定したエクスペリエンスを提供するために必要な JavaScript ライブラリを呼び出します。
 
-[!DNL Target Standard] の場所の実装と[!DNL Target Classic] の mbox の実装の違いに関する詳細については、「[Target JavaScript ライブラリの理解](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)」を参照してください。
+in. jsの場所の実装とmboxの実装の違いについて詳しくは、 [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) の利点 [!DNL Target Standard] を参照 [!DNL Target Classic]してください。
 
 場所をオーディエンスと組み合わせて使用することで、情報のターゲティングをおこなうための無数ともいえる選択肢が提供されます。例えば、過去にサイトを訪問したことがない新規訪問者に対しては、割引クーポンを表示できます。同様に、リターン訪問者には、ページを変更して、リターン訪問者に適したオファーを表示できます。
 
