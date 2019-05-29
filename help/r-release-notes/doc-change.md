@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 | 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | テキストの差異を明確にしまし `user.categoryId``entity.categoryId`た。 |
 |  | [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 次のトピックに移動しました。at. jsの利点。 |
 |  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?&quot; |
+|  | [動的データをオファーに渡す](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 過去の動作行の構文を修正しました。 |
 | 2019年5月28日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 新しい節を追加しました。&quot;Target製品ドキュメントの言語の変更」を参照してください。 |
 |  | [勝者の特定](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 情報のp値が更新されました。 |
 |  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Targetが複数レベルのiframeを処理する方法に関するトラブルシューティングの節を追加しました。 |
