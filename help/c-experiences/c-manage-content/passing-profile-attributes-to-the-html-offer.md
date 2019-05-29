@@ -8,7 +8,7 @@ title: 動的データをオファーに渡す
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ Targetプロファイルに保存されている訪問者情報を動的に表�
 | 一意の訪問者 ID | `${user.pcId}` |
 | 一意のセッション ID | `${user.sessionId}` |
 | 訪問者の最初のセッション（true または false） | `${user.isFirstSession}` |
-| 過去の行動 | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| 過去の行動 | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 コンソールにデバッグ用のログ情報（ `${campaign.name}``${campaign.id}``${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`、 `${campaign.name}`
 
