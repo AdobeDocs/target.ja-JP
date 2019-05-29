@@ -8,7 +8,7 @@ title: カテゴリ親和性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
 
 ## カテゴリ親和性情報のTargetへの引き渡し {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-ユーザーがサイトを訪問したときには常に、訪問者に固有のプロファイルパラメーターが [!DNL Target] データベースに記録されます。データはユーザーの Cookie に結び付けられます。特に便利なパラメーターとして、製品 `categoryId` ページに割り当てられたmboxパラメーターがあります。訪問者が閲覧を続けるか、別のセッションに戻る場合に、特定のユーザーが閲覧する製品のカテゴリを記録することができます。カテゴリ情報の記録は、任意の mbox（ネストされた mbox を含む）の mbox パラメーター `user.categoryId` または URL パラメーター `user.categoryId` として、またはグローバル mbox を使用した Target ページのパラメーターで渡すことによっても実行できます。詳しくはアカウント担当者にお問い合わせください。
+ユーザーがサイトを訪問したときには常に、訪問者に固有のプロファイルパラメーターが [!DNL Target] データベースに記録されます。データはユーザーの Cookie に結び付けられます。特に便利なパラメーターとして、製品 `user.categoryId` ページに割り当てられたmboxパラメーターがあります。訪問者が閲覧を続けるか、別のセッションに戻る場合に、特定のユーザーが閲覧する製品のカテゴリを記録することができます。カテゴリ情報の記録は、任意の mbox（ネストされた mbox を含む）の mbox パラメーター `user.categoryId` または URL パラメーター `user.categoryId` として、またはグローバル mbox を使用した Target ページのパラメーターで渡すことによっても実行できます。詳しくはアカウント担当者にお問い合わせください。
 
-ばらばらのカテゴリを作成するには、カテゴリをコンマで区切って指定します。次に例を示します。
+カテゴリを複数のカテゴリに含めるには、カテゴリをコンマで区切ります。次に例を示します。
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 製品カテゴリに対する訪問の頻度とリーセンシーに基づいて、ユーザーのカテゴリ親和性が（存在する場合）記録されます。カテゴリ親和性は、アクティビティに対して訪問者をターゲット設定するために使用できます。
 
 プロファイルスクリプト `user.categoryAffinities[]` では、訪問者が入力した親和性の配列を返すことができます。
+
+>[!IMPORTANT]
+>
+>Adobe Targetのカテゴリ親和性のアルゴリズムに使用される `user.categoryId` 属性は、Adobe Target Recommendationsの製品およびコンテンツのレコメンデーションに使用される `entity.categoryId` 属性とは異なります。`user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
 
 ## カテゴリ親和性のビジネス事例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
