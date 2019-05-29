@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 88d13804e4808d81f0ef1dd4036de9938cd801f2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -148,7 +148,7 @@ function targetPageParams() {
 
 [!DNL mbox.js] の実装について詳しくは、[Mbox.js の実装](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)を参照してください。
 
-2 つの Target Javascript ライブラリの違いについて詳しくは、 [Target JavaScript ライブラリについて](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)を参照してください。
+2つのTarget JavaScriptライブラリの違いについて詳しくは、at. jsの [利点](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
 ## カテゴリページ {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
