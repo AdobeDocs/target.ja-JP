@@ -8,7 +8,7 @@ title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **実装用の JavaScript ファイルは、at.js と mbox.js のどちらを使用すればよいですか？**
 
-at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。2 つのライブラリの違いについては、「[Target JavaScript ライブラリについて](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)」を参照してください。新規のお客様は、at.js を使用してください。
+at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。2 [つのライブラリの違いについては、at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) の利点を参照してください。新規のお客様は、at.js を使用してください。
 
 at.js をご利用の既存のお客様も、at.js に移行する必要があります。移行に取りかかる前に、[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)手順を参照してください。
 
