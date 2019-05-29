@@ -7,7 +7,7 @@ solution: 'Target '
 title: ターゲット設定の仕組み
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target は、at.js または mbox.js JavaScript ライブラリによって Web ページと統合できます。
 
-[!DNL Target Classic] では、ターゲットコンテンツや収集データを表示するページの各領域で mbox を使用しています。これらのmboxは、で [!DNL Target Standard] は必要ありません。代わりに、各ページで参照する [JavaScriptライブラリ](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) は、最適化アクティビティを実行する必要があります。
+[!DNL Target Classic] では、ターゲットコンテンツや収集データを表示するページの各領域で mbox を使用しています。これらのmboxは、で [!DNL Target Standard] は必要ありません。代わりに、各ページで参照する JavaScriptライブラリ は、最適化アクティビティを実行する必要があります。
 
 訪問者が が有効なページをリクエストするたびに、[!DNL Target]Target は次の処理によってオファーを表示します。
 
