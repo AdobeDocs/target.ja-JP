@@ -6,7 +6,7 @@ title: Adobe Target 製品ドキュメント
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日:2019年5月28日（[変更](r-release-notes/doc-change.md)点を参照）**
+**最終更新日:2019年5月30日（[変更内容を参照](r-release-notes/doc-change.md)）**
 
 以下の節では、一般的な職務機能に基づく、意図したオーディエンスによる有用なリンクをこのガイドに示します。
 
@@ -58,4 +58,4 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 | アドビ [!DNL Target] ソリューションヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[Adobe Targetラーニングとサポート](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud ヘルプホーム](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[Adobe Targetラーニングとサポート](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud ヘルプホーム](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
