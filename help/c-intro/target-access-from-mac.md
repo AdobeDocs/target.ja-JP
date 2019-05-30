@@ -9,7 +9,7 @@ title: Adobe Experience Cloud からの Target へのアクセス
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -38,11 +38,11 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ## Target UIのデフォルト言語の変更 {#language}
 
-1. サインインした後、また [!DNL Adobe Experience Cloud ] は [!DNL Target]プロファイルのアバターをクリックして、「プロファイルを編集」をクリック **[!UICONTROL ]**します。
+1. サインインした後、また [!DNL Adobe Experience Cloud ] は [!DNL Target]プロファイルのアバターをクリックして、「プロファイルを編集」をクリック **[!UICONTROL ]** します。
 
    ![プロファイルを編集](/help/c-intro/assets/change-language.png)
 
-1. 「個人情報 **[!UICONTROL を編集」をクリック]**します。
+1. 「個人情報 **[!UICONTROL を編集」をクリック]** します。
 
 1. 上部のメニューバーにある **[!UICONTROL 「通信]** 」タブをクリックします。
 
@@ -90,7 +90,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 * 日本語
 * イタリア語
 * ポルトガル語（ブラジル）
-* 簡体字中国語（近日発売）
+* 簡体字中国語
 * 繁体字中国語
 * 韓国語
 
