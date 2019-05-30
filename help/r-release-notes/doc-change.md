@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
+|  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。&quot;TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
 | 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | テキストの差異を明確にしまし `user.categoryId``entity.categoryId`た。 |
 |  | [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 次のトピックに移動しました。at. jsの利点。 |
 |  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?&quot; |
@@ -137,7 +139,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 |  | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | クライアント側実装を説明するための入門段落を追加しました。 |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。「エンティティを動的に除外できますか?&quot; |
 | 2019 年 3 月 12 日 | [Adobe Experience Cloudデバッガーを使用したat. js1. xからat. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) へ [のアップグレードおよびat. jsのデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | デバッガーはat. js2. xとの統合に対応しました。 |
-| 2019 年 3 月 11 日 | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Targetリリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)および <br>[TLS（Transport Layer Security）の暗号化に関する変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 2019年4月1日に **TLSの変更が発生することを示すテキストを更新**しました。 |
+| 2019 年 3 月 11 日 | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Targetリリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)および <br>[TLS（Transport Layer Security）の暗号化に関する変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 2019年4月1日に **TLSの変更が発生することを示すテキストを更新** しました。 |
 |  | [adobe. target. getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次の節を追加しました。&quot;getOffers（）およびapplyOffers（）を使用した複数のmboxからのデータの取得およびレンダリング」 |
 | 2019 年 3 月 6 日 | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at_ property行をat. js1. xのパラメーターに&quot;at. js1. xのペイロードマッピング」テーブルに追加しました。 |
 |  | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新しい節を追加しました。&quot;tat. js2. xとSPAでA4Tが正しく動作することを確認するには、&quot;triggerView»を使用してください |
@@ -147,7 +149,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 |  | [Target の概要](/help/c-intro/intro.md) | &quot;Target Premium&quot;の下に&quot;RecommendationsとしてRecommendations&quot;を追加しました。 |
 |  | [Target の主要概念](/help/c-intro/target-key-concepts.md) | 「アクティビティタイプ」テーブルを更新しました。 |
 | 2019 年 26 月 2 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | Target APIでのエンタープライズ権限のサポートに関する既知の問題を追加しました。 |
-| 2019 年 25 月 2 日 | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)、 <br>[Targetリリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)および <br>[TLS（Transport Layer Security）の暗号化に関する変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 次の情報を更新しました。<br>2019年2月21日に、Adobe TargetインフラストラクチャがEMEA、日本およびAPAC地域でアップグレードされ、TLS1.1以降をサポートしていない古いデバイスまたはWebブラウザーを使用したエンドユーザーからデータを収集することがなくなりました。このアップグレードは、2019 **年3月4日に北米の地域に対して予定**されています。TLS 1.2 への移行により、セキュリティが向上します。移行をスムーズに実施するため、詳細を確認し、変更の計画を立てることが重要です。 |
+| 2019 年 25 月 2 日 | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)、 <br>[Targetリリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)および <br>[TLS（Transport Layer Security）の暗号化に関する変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 次の情報を更新しました。<br>2019年2月21日に、Adobe TargetインフラストラクチャがEMEA、日本およびAPAC地域でアップグレードされ、TLS1.1以降をサポートしていない古いデバイスまたはWebブラウザーを使用したエンドユーザーからデータを収集することがなくなりました。このアップグレードは、2019 **年3月4日に北米の地域に対して予定** されています。TLS 1.2 への移行により、セキュリティが向上します。移行をスムーズに実施するため、詳細を確認し、変更の計画を立てることが重要です。 |
 |  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新規セクション:&quot;at. js1. xのパラメーターto. js2. xペイロードマッピング」 |
 |  | [拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | ホワイトリストのIPアドレスに&quot;Hostnames&quot;列を追加しました。 |
 | 2019 年 22 月 2 日 | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「ワークスペースIDの取得」節を追加しました。 |
