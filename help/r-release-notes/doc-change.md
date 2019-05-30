@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 | --- | --- | --- |
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
 |  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。&quot;TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
+|  | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) | スクリーンショットが更新されました。 |
 | 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | テキストの差異を明確にしまし `user.categoryId``entity.categoryId`た。 |
 |  | [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 次のトピックに移動しました。at. jsの利点。 |
 |  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?&quot; |
