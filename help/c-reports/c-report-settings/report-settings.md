@@ -8,7 +8,7 @@ title: レポート設定
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 レポートを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**レポート]」タブをクリックします。[!UICONTROL **
 
-![](assets/report_ui.png)
+![レポートUI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target プリセット {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 1. アクティビティのレポートを必要に応じて設定します（指標、日付範囲、オーディエンス、詳細設定など）。
 1. **[!UICONTROL 「Target プリセット]**」の横の3つの垂直の楕円アイコン/新規として **[!UICONTROL 保存をクリック]** します。
 
-   ![](assets/report_preset.png)
+   ![レポートプリセット](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    新規プリセットダイアログボックスが表示されます。
 
-   ![](assets/report_preset_dialog.png)
+   ![新規プリセットダイアログボックス](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. フィルターおよび設定セクションの情報をレビューして、レポートが必要に応じて設定されていることを確認し、 **[!UICONTROL プリセット名]** （最大50文字）を指定します。
 1. （条件付き）これをデフォルトまたはお気に入りのレポートビューにする場合は、「**[!UICONTROL これをデフォルトのプリセットに設定]」切り替えをオンの位置にスライドします。**
@@ -46,7 +46,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 目的のプリセットを **[!UICONTROL Target プリセット]ドロップダウンリストから選択します。**
 
-![](assets/report_preset_drop-down.png)
+![プリセットドロップダウンリスト](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **プリセットの編集**
 
@@ -55,7 +55,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    レポートの設定を編集した後に「[!UICONTROL 保存]」をクリックすると、プリセット名の後にアスタリスク（*）が表示され、プリセットが変更されたことを示します（下図を参照）。
 
-   ![](assets/report_preset_asterisk.png)
+   ![アスタリスク付きのレポートプリセット](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 縦並びの省略記号アイコン／**[!UICONTROL 新規保存]をクリックして新しいプリセットを作成します。**
 
@@ -63,14 +63,14 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    縦並びの省略記号アイコン／**[!UICONTROL 更新]をクリックして現在のプリセットを更新します。**
 
-   ![](assets/report_preset_update.png)
+   ![レポートのデフォルトの更新](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **プリセットの削除**
 
 1. 削除するプリセットを選択します。
 1. 3つの垂直方向の楕円アイコン/ **[!UICONTROL 削除]** をクリックします。
 
-   ![](assets/report_preset_delete.png)
+   ![レポートのデフォルトの削除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. 再度「**[!UICONTROL 削除]」をクリックして、削除を確定します。**
 
@@ -104,11 +104,11 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 日付範囲ボックスには、レポートの現在の日付範囲が表示されます。ドロップダウンアイコンをクリックすると、レポートの日付範囲を変更できるカレンダーが表示されます。
 
-![](assets/date_range.png)
+![カレンダー](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-レポートの新しい**[!UICONTROL 開始]**と**停止]の日付を選択します。[!UICONTROL **また、「**[!UICONTROL アクティビティの開始から]**」チェックボックスと「**アクティビティの終了まで]」チェックボックスを使用することもできます。[!UICONTROL **
+レポートの新しい **[!UICONTROL 開始]** と **停止]の日付を選択します。[!UICONTROL ** また、「**[!UICONTROL アクティビティの開始から]**」チェックボックスと「**アクティビティの終了まで]」チェックボックスを使用することもできます。[!UICONTROL **
 
-「**[!UICONTROL カスタム日付]」をクリックすると、過去 7 日間、過去 15 日間、過去 30 日間のいずれかの事前定義済み日付範囲を選択できます。**この事前定義された日付範囲は、繰り出し範囲です。開始の日付が、選択された日数よりも近い場合、カレンダーは開始日付からの範囲となりますが、アクティビティ期間が長くなり、選択された日数よりも開始日付が過去のものとなると、範囲は繰り出されて延びていきます。を参照してください。
+「**[!UICONTROL カスタム日付]」をクリックすると、過去 7 日間、過去 15 日間、過去 30 日間のいずれかの事前定義済み日付範囲を選択できます。** この事前定義された日付範囲は、繰り出し範囲です。開始の日付が、選択された日数よりも近い場合、カレンダーは開始日付からの範囲となりますが、アクティビティ期間が長くなり、選択された日数よりも開始日付が過去のものとなると、範囲は繰り出されて延びていきます。を参照してください。
 
 レポートの日付には以下の制限事項があります。
 
@@ -122,19 +122,19 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 次の図に、A/B アクティビティの設定ダイアログボックスを示します。
 
-![](assets/ab_settings_dialog.png)
+![設定ダイアログボックス](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 選択したアクティビティのタイプによって、オプションは変わります。
 
-* **カウント方法：**目的の方法を選択します。
+* **カウント方法：** 目的の方法を選択します。
 
    * 訪問者数
    * 訪問回数
    * アクティビティのインプレッション
 
-* **コントロール：**上昇率の計算および比較に使用するコントロールエクスペリエンスを選択します。
-* **環境：**レポートに使用する環境（ホストグループ）を選択します。詳しくは、「[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)」を参照してください。
-* **レポートデータをリセット：**レポートデータをリセットして、古いデータを削除します。現在の訪問者は、アクティビティに残されます。このオプションは、承認者権限を持つユーザーのみ使用できます。
+* **コントロール：** 上昇率の計算および比較に使用するコントロールエクスペリエンスを選択します。
+* **環境：** レポートに使用する環境（ホストグループ）を選択します。詳しくは、「[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)」を参照してください。
+* **レポートデータをリセット：** レポートデータをリセットして、古いデータを削除します。現在の訪問者は、アクティビティに残されます。このオプションは、承認者権限を持つユーザーのみ使用できます。
 
    >[!IMPORTANT]
    >
@@ -183,9 +183,9 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 チャートの左側でエクスペリエンスを選択（または非選択に）することで、対応するエクスペリエンスをチャートに表示（または非表示に）します。
 
-以下の図の場合、エクスペリエンス B および C のみがレポートに表示されます。
+次の図では、レポートに「デフォルト」、「中東」、「合計」のみが表示されます。アジアのエクスペリエンスはグラフに表示されません。
 
-![](assets/report_experiences.png)
+![エクスペリエンス](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## 現在の平均 {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 * 毎日
 * 日別上昇率（Daily Lift）
 
-![](assets/report_running_average.png)
+![レポート実行平均](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -210,17 +210,17 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 レポート内のグラフのカウント手法を選択できます。この機能は自動パーソナライゼーション（AP）アクティビティには対応していません。
 
-カウント手法オプションにアクセスするには、レポートをグラフモードで表示して**[!UICONTROL 主な目標]ドロップダウンをクリックし、カウント手法を選択します。**
+カウント手法オプションにアクセスするには、レポートをグラフモードで表示して **[!UICONTROL 主な目標]ドロップダウンをクリックし、カウント手法を選択します。**
 
 カウント手法は、前述の[!UICONTROL 設定]ダイアログで設定したものと同じになります。
 
-![](assets/counting_methodology.png)
+![カウント手法](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 デフォルトでは、グラフは「[!UICONTROL 日別]」モードでプロットされます。
 
 このモードは、[!UICONTROL 日別]ドロップダウンをクリックし、「[!UICONTROL 累積]」を選択することで変更できます。
 
-![](assets/counting_methodology_2.png)
+![累積](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
