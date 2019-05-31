@@ -8,7 +8,7 @@ title: モバイル
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
    * 画面の幅 (px)
    >[!NOTE]
    >
+   >iOS12.2で導入された新しい変更により、デバイスマーケティング名によって定義されたルールを使用してオーディエンスを作成し、iPhoneモデルを指定するデバイスモデルに影響を与えます。iOS12.2をインストールしたiPhoneを搭載したユーザーをターゲットにすることはできません。ただし、これらのユーザーにiOS12.2がない場合は、iPhoneモデルのターゲット設定が引き続き正しく動作します。
+   >
+   >iOS12.2へのアップグレードはiOS12.2へのアップグレードをサポートしていないので、iOS12.2のアップデートは次のモデルの識別には影響しません。iPhone、iPhone3G、iPhone3GS、iPhone4、iPhone4s、iPad5c、iPad5c、iPad、iPad2、iPad/Retinaディスプレイ、iPad Retina（4th Gen）、iPod Touch4、iPod Touch5。
+
+   >[!NOTE]
+   >
    >[地域設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
 1. （オプション）「**[!UICONTROL ルールを追加]」をクリックして、オーディエンス用の追加のルールを設定します。**
@@ -72,4 +78,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
