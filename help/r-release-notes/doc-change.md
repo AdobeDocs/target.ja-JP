@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -21,7 +21,8 @@ source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年6月1日 | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | コードサンプルを更新しました。 |
+| 2019年6月1日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS12.2を実行するターゲットデバイスに関する注意事項を追加しました。 |
+|  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | コードサンプルを更新しました。 |
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
 |  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。&quot;TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
 |  | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) | スクリーンショットが更新されました。 |
