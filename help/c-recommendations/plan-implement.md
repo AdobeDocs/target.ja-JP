@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -98,17 +98,15 @@ Recommendations アクティビティを作成する前に知っておくべき�
 例えば、商品またはコンテンツページのヘッダーセクションで以下のコードを使用できます。
 
 ```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "id": " 
-32323", 
-         "categoryId": " 
-My Category", 
-         "value": 105.56, 
-         "inventory": 329 
-      } 
-   } 
+function targetPageParams() {
+ return {
+    "entity": {
+       "id": "32323",
+       "categoryId": "My Category",
+       "value": 105.56,
+       "inventory": 329
+    }
+ }
 }
 ```
 
