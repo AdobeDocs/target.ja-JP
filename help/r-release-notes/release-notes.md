@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,12 +21,29 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 以下の重要なお知らせに注意してください。
 
-* 2019年2月21日に、ヨーロッパ、日本、APACの各地域でAdobe Targetインフラストラクチャがアップグレードされ、TLS1.1以降をサポートしていない古いデバイスまたはWebブラウザーを使用したエンドユーザーからデータを収集することがなくなりました。このアップグレードは、2019年4月1日の **北米地域向けに予定**されています。TLS 1.2 への移行により、セキュリティが向上します。重要なのは、詳細を調べて、スムーズな移行を実現するためにITチームによる変更を計画することです。詳しくは [、TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)を参照してください。
+* 2019年2月21日に、ヨーロッパ、日本、APACの各地域でAdobe Targetインフラストラクチャがアップグレードされ、TLS1.1以降をサポートしていない古いデバイスまたはWebブラウザーを使用したエンドユーザーからデータを収集することがなくなりました。このアップグレードは、2019年4月1日の **北米地域向けに予定** されています。TLS 1.2 への移行により、セキュリティが向上します。重要なのは、詳細を調べて、スムーズな移行を実現するためにITチームによる変更を計画することです。詳しくは [、TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)を参照してください。
 * [!DNL Target] と [!DNL Adobe Marketing Cloud] は、2019 年 3 月に Microsoft Internet Explorer 11 のサポートを終了します。この変更は [!DNL Target] オーサリングにのみ影響します。この変更は、エクスペリエンス配信に影響しません。Microsoft Edge か別のブラウザーに切り替えてください。詳しくは、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)」を参照してください。
 
-## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
+## at. jsバージョン2.1.0（2019年6月3日）
 
-このリリースには、次の機能、変更点、および機能強化が含まれています。
+at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
+
+| 機能/拡張機能 | 説明 |
+| --- | --- |
+| アドビオプトインサポート | アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。<br>アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
+| 業界標準CSP準拠 | at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。 |
+| クライアント側の分析ログ | 顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーが自由に制御できます。<br>詳しくは、実装する前に [、クライアント側のAnalyticsログを参照](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)**してください。 |
+| 通知の送信 | エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされたときに、開発者が通知を送信できるように `applyOffers()`します。<br>詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。 |
+| ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
+| at. jsドキュメントの更新 | at. js2.1.0リリースにより更新されたすべての記事の完全なリストについては [、「ドキュメントの変更](/help/r-release-notes/doc-change.md)」の2019年6月3日のエントリを参照してください。 |
+
+## Mobile App Visual Experience Composer（2019年5月14日） {#mobile-app-vec-may14-1}
+
+| 機能/拡張機能 | 説明 |
+| --- | --- |
+| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
 
@@ -40,7 +57,7 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
 
-## Mobile App Visual Experience Composer（2019年5月14日）{mobile- vec}
+## Mobile App Visual Experience Composer（2019年5月14日） {#mobile-vec-may14-2}
 
 | 機能/拡張機能 | 説明 |
 | --- | --- |
