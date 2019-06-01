@@ -9,7 +9,7 @@ title: at.js 関数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ Adobe Target の at.js JavaScript ライブラリで使用できる関数のリ�
 | [targetPageParams（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | このメソッドにより、リクエストコードの外部からグローバル mbox にパラメーターを付加できます。 |
 | [targetPageParamsAll（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | このメソッドにより、リクエストコードの外部からすべての mbox にパラメーターを付加できます。 |
 | [registerExtension（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>（at. js1. x） | 特定の拡張を登録するための標準的な方法を提供します。<br>**注意:** この関数はat. jsバージョン1で利用できます。*x* のみ。この関数はat. js2. xのリリースで廃止されました。この関数は、at. js2. xと共に使用される場合、デフォルトコンテンツを返します。 |
-| [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)       | at. jsカスタムイベントを使用すると、mboxリクエストまたはオファーが成功または失敗した場合に通知できます。 |
+| [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)       | at. jsカスタムイベントを使用すると、mboxリクエストやオファーが失敗または成功した場合に通知できます。 |
+| [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>（at. js2.1.0） | エクスペリエンスが使用 `adobe.target.applyOffer()` せずにレンダリングされると、この関数はTargetエッジに通知を送信し `adobe.target.applyOffers()`ます。<br>**注意**:この関数はat. js2.1.0で導入されており、2.1.0より前のバージョンで使用できます。 |
+
