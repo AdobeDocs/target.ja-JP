@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 
-## 制限数{limit}
+## 制限 {#limits}
 
 最大 100 個のカスタムエンティティ属性を使用して、カタログの項目に関する追加情報を定義することができます。例えば、`entity.genre` という名前のカスタム属性を作成して、書籍や映画を定義できます。また、チケット業者はイベントが開催される施設の属性を作成して、スポーツイベントでの来訪チームやコンサートの前座など第 2 のパフォーマーを追加することができます。
 
