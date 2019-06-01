@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,6 +21,14 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年6月4日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md) | at. js2.1.0の今後のリリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at. js2.1.0の今後のリリースに関する情報を追加しました。 |
+|  | [事前準備](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新しい節を追加しました。「クライアント側のAnalyticsログ」 |
+|  | [Analytics for Target の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 手順7を改訂しました。 |
+|  | [adobe. target. getOffers（options）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次のフィールド名のテーブルに行を追加しました。<ul><li>リクエスト/ExperienceCloud</li><li>リクエスト&gt; ExperienceCloud&gt; analytics</li><li>リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ</li></ul> |
+|  | [at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | テーブルに行を追加 `adobe.target.sendNotifications(options)`しました。 |
+|  | [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新規トピックです。 |
+|  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | at. js2.1.0のアドビオプトインサポートに関する情報を追加しました。 |
 | 2019年6月1日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS12.2を実行するターゲットデバイスに関する注意事項を追加しました。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | コードサンプルを更新しました。 |
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
