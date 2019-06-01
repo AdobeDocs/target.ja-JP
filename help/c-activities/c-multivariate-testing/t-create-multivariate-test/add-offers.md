@@ -1,11 +1,11 @@
 ---
 description: Visual Experience Composer を使用して、テストに組み込むオファーを作成します。
 seo-description: Visual Experience Composer を使用して、テストに組み込むオファーを作成します。
-seo-title: 組み合わせの作成
+seo-title: Adobe Targetでの組み合わせの作成
 title: 組み合わせの作成
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 ---
 
