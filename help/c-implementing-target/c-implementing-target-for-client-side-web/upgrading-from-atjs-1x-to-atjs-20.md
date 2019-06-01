@@ -8,7 +8,7 @@ subtopic: 導入
 title: at. js1. xからat. js2. xへのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -189,20 +189,20 @@ at. js2. xで非推奨となった関数がいくつかあります。
 
 | メソッド | 対応? | 新規? | 廃止? <br>（デフォルトコンテンツが表示されます） |
 | --- | --- | --- | --- |
-| `getOffer()` | ○ |
-| `getOffers()` | ○ |
-| `applyOffer()` | ○ |
-| `applyOffers()` | ○ |
-| `triggerView()` | ○ |
-| `trackEvent()` | ○ |
-| `mboxCreate()` | ○ |
-| `mboxDefine()`<br>`mboxUpdate()` | ○ |
-| `targetGlobalSettings()` | ○ |
-| `Data Providers` | ○ |
-| `targetPageParams()` | ○ |
-| `targetPageParamsAll()` | ○ |
-| `registerExtension()` | ○ |
-| `At.js Custom Events` | ○ |
+| `getOffer()` | ○ |  |  |
+| `getOffers()` |  | ○ |  |
+| `applyOffer()` | ○ |  |  |
+| `applyOffers()` |  | ○ |  |
+| `triggerView()` |  | ○ |  |
+| `trackEvent()` | ○ |  |  |
+| `mboxCreate()` |  |  | ○ |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | ○ |
+| `targetGlobalSettings()` | ○ |  |  |
+| `Data Providers` | ○ |  |  |
+| `targetPageParams()` | ○ |  |  |
+| `targetPageParamsAll()` | ○ |  |  |
+| `registerExtension()` |  |  | ○ |
+| `At.js Custom Events` | ○ |  |  |
 
 ## 制限事項と注意事項
 
@@ -334,7 +334,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 >
 >自動ターゲットアクティビティは、すべての変更が適用されるときにat. js2. xおよびVEC経由でサポート `Page Load Event`されます。特定のビューに変更が追加された場合、A/Bテスト、自動配分およびエクスペリエンスターゲット設定（XT）アクティビティのみがサポートされます。
 
-### 統合
+### 統合 {#integrations}
 
 | タイプ | 対応? |
 | --- | --- |
@@ -346,7 +346,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 | デバッガー | ○ |
 | Auditor | ルールはat. js2. x用にまだ更新されていません |
 | Dynamic Tag Manager（DTM） | ○ |
-| Opt-In | × |
+| Opt-In | ×の呼び出しの後におこなわれる場合です。[DGPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) のオプトインサポートは、at. jsバージョン2.1.0で [サポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)されています。 |
 | AEM Enhanced Personalization powered by Adobe Target | × |
 
 ### 機能
@@ -848,6 +848,6 @@ at. js2. x JSONペイロード:
 
 at. js2. xは、Adobe TargetのSPAサポートを強化し、他のExperience Cloudソリューションと統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
 詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
