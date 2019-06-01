@@ -8,7 +8,7 @@ title: Analytics for Target の実装
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
+source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
 
 ---
 
@@ -55,27 +55,110 @@ at.js または mbox.js を事前にデプロイしている場合、既存の�
 
 配置していない場合は、最新のファイルを Visitor ID サービスおよび AppMeasurement for JavaScript のファイルとともにホストします。これらのファイルは、サイトのすべてのページからアクセス可能な Web サーバーでホストする必要があります。これらのファイルへのパスを、次の手順で使用します。
 
-## 手順 7： サイトのすべてのページから at.js または mbox.js を参照します。
+## 手順 7： サイトのすべてのページから at.js または mbox.js を参照します。 {#step7}
 
-各ページの <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> タグ内に次のコードを追加して、VisitorAPI.js の下に at.js または mbox.js を含めます。
+各ページのタグに次のコードを追加して、VisitorAPI. jsの下にat. jsまたはmbox. jsを含めます。
 
 at.js の場合：
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
 mbox.js の場合：
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-VisitorAPI.js は、at.js または mbox.js の前にロードされている必要があります。そのため既存の at.js または mbox.js を更新するときは、必ずロードする順序を確認してください。
+VisitorAPI. jsは、at. jsまたはmbox. jsの前にロードする必要があります。既存のat. jsまたはmbox. jsファイルを更新する場合は、読み込み順序を確認してください。
 
-## 手順 8： 実装を検証します。
+TargetとAnalyticsの統合の設定をTargetとAnalyticsの統合に設定する方法は、ページから渡されたSDIDを使用して、TargetおよびAnalyticsリクエストを自動的にバックエンドで結合することです。
+
+ただし、レポートのためにTargetに関連する分析データをAnalyticsに送信する方法や、TargetおよびAnalyticsを使用してAnalyticsデータを自動的に結合する場合のデフォルト設定については、&quot;sID&quot;を使用してAnalyticsデータを自動的に結合し、 **window. targetGlobalSettings** を使用し **てAnalyticsのLogticsLogging= client_ sideを設定することはできません**。注意:2.1より下のバージョンでは、この方法はサポートされていません。
+
+次に例を示します。
+
+```
+window.targetGlobalSettings = {
+  analyticsLogging: "client_side"
+};
+```
+
+この設定にはグローバル効果があります。つまり、at. jsによって行われるすべての呼び出しに **はAnalyticsLoggingが含まれます。&quot;client_ side&quot;** がTargetリクエスト内で送信され、リクエストごとにAnalyticsペイロードが返されます。この設定を行うと、ペイロードの形式は次のようになります。
+
+```
+"analytics": {
+   "payload": {
+      "pe": "tnt",
+      "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+   }
+}
+```
+
+その後、Data Insertion [APIを使用してペイロードをAnalyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+
+グローバル設定が不要で、オンデマンドアプローチがより優れている場合は、at. js関数 [getOffers（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、analyticsLoggingを **渡すことでこれを実現できます。&quot;client_ side&quot;**.この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
+
+次に例を示します。
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+この呼び出しによって、Analyticsのペイロードを抽出できる応答が呼び出されます。
+
+応答は次のようになります。
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+その後、Data Insertion [APIを使用してペイロードをAnalyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+
+## 手順 8： 実装を検証します。{#step8}
 
 JavaScript ライブラリを更新した後でページをロードして、Target 呼び出しの mboxMCSDID パラメーター値が Analytics ページビュー呼び出しの sdid パラメーター値と一致していることを確認します。
 
