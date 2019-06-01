@@ -8,7 +8,7 @@ title: 実装する前に
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
+source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 ---
 
@@ -76,3 +76,9 @@ Analytics および Target からのデータを含むヒットには、追加�
 * この統合をサポートするバージョンの [!DNL mbox.js] が導入されている
 
 トラブルシューティングをおこなう場合は、Analytics のヒットに追加の ID があることを確認してください。
+
+## クライアント側のAnalyticsログ {#client-side}
+
+デフォルトでは、 [!DNL Experience Cloud Visitor ID Service]at. js、およびAppMeasurement. jsがページ上にある場合、前述のように、適切な追加IDがページに含まれている限り、バックエンドでレポートおよび分析の目的でイベントを正しくステッチ [!DNL Adobe Analytics] および [!DNL Target] ステッチします。A4Tが正しく機能するために、追加の操作を管理し、実行する必要はありません。
+
+ただし、レポートの目的に関連する分析データをいつ送信するか、およびどのように送信するかを制御 [!DNL Target][!DNL Analytics] することができます。社内分析ツールを利用して社内の分析を行うこともできますが、社内の分析製品 [!DNL Analytics] を通じて分析データを社内分析製品に送信して、視覚的なレポートソースとして利用 [!DNL Analytics] できるようにすることもできます。[手順7を参照してください。詳細については、Analytics for Target実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) の *すべてのサイトページのat. jsまたはmbox. js* を参照してください。
