@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
@@ -20,6 +20,24 @@ source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
 >[!IMPORTANT]
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
+
+## at. jsバージョン2.1.0（発表日）
+
+このリリースには、次の機能および機能強化が含まれています。
+
+* **アドビオプトインのサポート**:アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。
+
+* **業界標準のCSP準拠**:at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。
+
+* **クライアント側の分析ログ**:顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーに完全に制御します。
+
+   詳しくは、実装する前に [、クライアント側のAnalyticsログを参照](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)**してください。
+
+* **通知** の送信:エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされた場合に、開発者に通知を送信することを許可 `applyOffers()`します。
+
+   詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。
+
+* **at. jsサイズが~24%減少** した場合:at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。
 
 ## at. jsバージョン2.0.1（2019年3月20日）
 
@@ -67,7 +85,7 @@ at. js2. xの導入によって、次の機能が廃止されました。
 
 >[!NOTE]
 >
->[一般的なデータ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) （GGPR）のAdobeオプトインサポートが必要な場合は、現在at. js1.7.0を使用している必要があります。オプトインサポートは、at. js2. xでは現在サポートされていません。
+>[一般的なデータ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) （GGPR）のAdobeオプトインサポートが必要な場合は、現在at. js1.7.0またはat. js2.1.0を使用する必要があります。
 
 ## at.js バージョン 1.7.0 {#at-js-170}
 
@@ -79,7 +97,7 @@ Adobe Opt-in に関する詳細については、「[プライバシーと一般
 
 >[! 注意]
 >
->GDPR のために Adobe Opt-in サポートが必要な場合、現在 at.js 1.7.0 を使用している必要があります。オプトインサポートは、現在at. js2. xでサポートされていません。<br>すべてのバージョンのリストについては、at. jsバージョンの詳細を参照 [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
+>GGPRのアドビオプトインサポートが必要な場合は、現在at. js1.7.0または2.1.0を使用する必要があります。<br>すべてのバージョンのリストについては [、at. jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
 ## at.js バージョン 1.6.4 {#at-js-164}
 
