@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -68,11 +68,11 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 1. 目的のワークスペース（製品プロファイル）を作成します。
 
-   * **デフォルトアクセス：**既存のすべてのアクティビティは、「デフォルトアクセス」と呼ばれる単一のプロジェクトに結合されます。これは、顧客には影響しません。すべてのユーザーの役割および機能は、この変更より前とまったく同じように残ります。
+   * **デフォルトアクセス：** 既存のすべてのアクティビティは、「デフォルトアクセス」と呼ばれる単一のプロジェクトに結合されます。これは、顧客には影響しません。すべてのユーザーの役割および機能は、この変更より前とまったく同じように残ります。
 
       [!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services] および [!DNL Target Classic] を使用して作成されたすべてのアクティビティも、「デフォルトアクセス」ワークスペースの一部です。現在は、プロジェクトを「デフォルトアクセス」から別のプロジェクトに移動することはできません。
 
-   * **新規ワークスペース（製品プロファイル）：**次の手順を実行することで、新しい権限機能の利用を開始できます。
+   * **新規ワークスペース（製品プロファイル）：** 次の手順を実行することで、新しい権限機能の利用を開始できます。
 
       * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
       * Target プロパティのワークスペースへの割り当て。
@@ -83,7 +83,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
-### ワークスペースID{workspace- id}の取得
+### ワークスペースIDの取得 {#workspace-id}
 
 Target APIの [Enterprise権限を活用するには、ワークスペースIDを渡す必要](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)があります。
 
@@ -107,7 +107,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**をクリックして、[!UICONTROL プロパティ]リストを表示します。
+1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]** をクリックして、[!UICONTROL プロパティ]リストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -115,7 +115,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
    以下のフィールドを設定します。
 
    * **チャネル:** プロパティの目的のチャネルを選択します。Web、モバイルアプリ、電子メール、またはその他/API（セットトップボックスまたはPlayStationコンソールなど）。
-   * **名前（必須）：**プロパティのわかりやすい名前を指定します。
+   * **名前（必須）：** プロパティのわかりやすい名前を指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
 
 1. 「**[!UICONTROL コードを生成]**」をクリックして、[5. at_property パラメーターを含めるための実装の更新](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)のステップの実行時に使用するコードを生成します。
@@ -135,7 +135,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
    または
 
-   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**をクリックして、[!UICONTROL プロパティ]リストを表示します。
+   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]** をクリックして、[!UICONTROL プロパティ]リストを表示します。
 
    1. 目的のプロパティの[!UICONTROL 最終更新日]列の上にマウスポインターを置いて、[!UICONTROL コード]アイコンを表示し、クリックします。
 
@@ -159,7 +159,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
       詳しくは、Dynamic Tag Management 製品ドキュメント**の[グローバルパラメーター - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) を参照してください。
 
-   * **targetPageParams() 関数を使用：**タグの以下のコードを <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> at.js または mbox.js 参照の上に置きます。
+   * **targetPageParams() 関数を使用：** タグの以下のコードを <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> at.js または mbox.js 参照の上に置きます。
 
       ![](assets/property_token_1.png)
 
@@ -214,7 +214,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=jpn)
 
 ### Adobe Target でプロパティを作成する方法（3:05）
 
@@ -226,4 +226,4 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
    * モバイルアプリ
    * 電子メール、セットトップボックス、API 呼び出し
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=jpn)
