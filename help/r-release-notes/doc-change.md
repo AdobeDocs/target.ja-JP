@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 このページには [!DNL Adobe Target] 、ドキュメントに対して重要な変更が記載されています。
 
-## Adobe Target Standard/Premium19.5.1（2019年5月21日）{tgt-19-5-1}
+## Adobe Target Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 顧客属性エイリアスIDの文字制限を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md): 19.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
-## Adobe Target Standard/Premium19.4.2（2019年4月30日）{19-4-2}
+## Adobe Target Standard/Premium 19.4.2（2019 年 4 月 30 日） {#target-19-4-2}
 
 **注意**:Target Standard/Premium19.4.1リリースは、ブランディングと製品の変更を反映するために、Adobe Experience Cloud UIを更新するためのメジャーリリースです。
 
