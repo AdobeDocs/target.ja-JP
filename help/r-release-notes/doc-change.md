@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 |  | [at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | テーブルに行を追加 `adobe.target.sendNotifications(options)`しました。 |
 |  | [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新規トピックです。 |
 |  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | at. js2.1.0のアドビオプトインサポートに関する情報を追加しました。 |
+|  | [プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | at. js2.1.0のオプトインサポートに関する情報を更新しました。 |
 | 2019年6月1日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS12.2を実行するターゲットデバイスに関する注意事項を追加しました。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | コードサンプルを更新しました。 |
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
