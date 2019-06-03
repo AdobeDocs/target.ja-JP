@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -51,7 +51,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
 
-## Mobile App Visual Experience Composer（2019年5月14日）{mobile- vec- may14}
+## Mobile App Visual Experience Composer（2019年5月14日） {#mobile-vec-may14}
 
 | 機能/拡張機能 | 説明 |
 | --- | --- |
