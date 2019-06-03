@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
+source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
 
-## at. jsバージョン2.1.0（発表日）
+## at. jsバージョン2.1.0（2019年6月3日）
 
 このリリースには、次の機能および機能強化が含まれています。
 
