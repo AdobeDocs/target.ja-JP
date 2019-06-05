@@ -9,7 +9,7 @@ title: Target の主要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -31,8 +31,8 @@ Targetには、複数のアクティビティタイプがあります。次の�
 | アクティビティのタイプ | 説明 |
 |--- |--- |
 | [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。<br>**注意:** A/Bテストアクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。<br>**注意:** 自動配分アクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には、 [Target Premiumライセンスが必要であることが必要](/help/c-intro/intro.md#premium)です。 |
-| [Auto- TargetTarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。<br>**注意:** 自動ターゲットアクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [、Target Premiumライセンスをお持ち](/help/c-intro/intro.md#premium)である必要があります。 |
+| [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。<br>**注意:** 自動配分アクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
+| [Auto- TargetTarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。<br>**注意:** 自動ターゲットアクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
 | [Analyticsデータの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) （A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
 | [SPA 向けのエクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**注意:** エクスペリエンスのターゲット設定アクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
@@ -120,7 +120,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=jpn)
 
 ### Adobe Target での Audiences の使用（6:21）
 
@@ -132,4 +132,4 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=jpn)
