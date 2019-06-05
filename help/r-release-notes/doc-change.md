@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019 年 6 月 6 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | [新しいトラブルシューティング](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) の節を追加しました。 |
+|  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adobe Launchを使用したat. jsのデプロイに関する情報を更新しました。これは推奨される導入方法です。 |
 |  | [Target の主要概念](/help/c-intro/target-key-concepts.md) | 重要度の低いテキストを編集しました。 |
 | 2019年6月4日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md) | at. js2.1.0の今後のリリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at. js2.1.0の今後のリリースに関する情報を追加しました。 |
