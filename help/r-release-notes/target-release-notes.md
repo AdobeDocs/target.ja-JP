@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >
 >これらのリリースノートには、プレリリース情報が含まれています。リリース日、機能などの情報は、変更されることがあります。現在のリリースに関する情報を表示するには [、Targetリリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。
 
-## at. jsバージョン2.1.0（2019年6月3日）
-
-at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
+## Target Standard/Premium19.6.1（2019年6月26日） {#tgt-19-6-1}
 
 | 機能/拡張機能 | 説明 |
 | --- | --- |
-| アドビオプトインサポート | アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。<br>アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
-| 業界標準CSP準拠 | at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。 |
-| クライアント側の分析ログ | 顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーが自由に制御できます。 |
-| 通知の送信 | エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされたときに、開発者が通知を送信できるように `applyOffers()`します。 |
-| ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
-
-## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#release-19-5-1-prerelease}
-
-このリリースには、次の機能、変更点、および機能強化が含まれています。
-
-（括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
-
-### 機能の更新
-
-| 機能/拡張機能 | 説明 |
-| --- | --- |
-| シングルページアプリケーションの Visual Experience Composer（SPA VEC） | SPA VEC に、作業を高速化または効率化するための以下の機能が追加されました。<ul><li>SPA内のアクションをクリックすると、このアクションが適用されるサイト上の要素が強調表示されます。ビューで作成される各VECアクションには、対応する4つのアイコンがあります。情報、編集、移動および削除。このリリースで新しい「移動」機能を使用すると、変更パネルにあるページ読み込みイベントまたはその他の表示にアクションを移動できます。（TGT-33746）</li><li>VEC でページがロードされる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-33851 および TGT-34149）</li></ul>詳細については、「[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。 |
+| Visual Experience Composer（VEC） | <ul><li>VECの [!DNL Styles > Background] メニューを使用して、選択した要素の背景画像と色を変更できるようになりました。（TGT-15001）</li><li>VECでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。画像をクリックすると、次 [!DNL Replace With]の2つの新しいオプションが表示されます。 [!DNL HTML][エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。<br> 画像をHTMLに置換すると、HTMLオプションにアクセスする親要素を選択しなくても要素をフルコントロールできます。エクスペリエンスフラグメントを使用すると、Adobe Experience Manager（AEM）で作成された要素をTargetのアクティビティにすばやく挿入できます。（TGT-34097）</li></ul> |
+| シングルページアプリ（SPA） Visual Experience Composer（VEC） | <ul><li>新しいガイド付きワークフローは、単一ページアプリ用にアクティビティを実行して実行するために、ページ配信ルール設定をどのように設定すべきかを理解するのに役立ちます。（TGT-33718）</li><li>SPA VECを使用して変更を定義し、その変更を単一ページアプリの他のビューで使用するためにコピーできるようになりました。（TGT-33882）</li><li>SPA VEC内でのクリック追跡の設定プロセスを改善しました。<br>クリック追跡で使用する要素を選択する際、使用可能なすべてのエレメントの名前が右側の変更パネルに表示され、目的の要素をすばやく簡単に選択できます。<br>3つのガイドによるアクティビティワークフローの [!DNL Goals & Settings] ページには、クリック追跡用に選択した要素数を表す数値が表示されます。この番号にマウスポインターを置くと、選択したすべての要素の名前を表示できます。（TGT-33878） </li></ul> |
+| Mobile Visual Experience Composer（VEC） | <ul><li>モバイルアプリの複数バージョンのアクティビティを作成できるようになりました。これにより、バージョンが非常によく似ており、アプリのUIを大幅に変更する必要がないので、時間と労力を節約できます。（TGT-34231）</li></ul> |
+| ![Premium BadgeAutomated](/help/assets/premium.png)<br>Personalization（AP）および自動ターゲットアクティビティ:コントロールとしてのエクスペリエンス | <ul><li>AP または自動ターゲットアクエィビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングすることができます。その後、コントロールエクスペリエンスに対するパーソナライズされた配信のパフォーマンスを評価できます。（TGT-32801 および TGT-26572）</li></ul> |
 
 ### 機能強化、修正、変更点
 
-* VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
-
-## Mobile App Visual Experience Composer（2019年5月14日） {#mobile-vec-may14}
-
-| 機能/拡張機能 | 説明 |
-| --- | --- |
-| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[ビデオ:Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* Adobe コード内の   <BODY> タグが、ページ上の要素をクリックしたときにVECの下部に表示されるDOMパスに表示されるようになり、 <BODY> 。（TGT-33736）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
