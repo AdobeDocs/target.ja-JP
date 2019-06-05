@@ -8,7 +8,7 @@ subtopic: 導入
 title: at. js1. xからat. js2. xへのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ## at. js2. xのデプロイ {#deploy-atjs-200}
 
-1. Target UIを使用してat. js2. xをダウンロードします。
-
-   ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
+1. [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能を使用してat. js2. xをデプロイします。
 
    >[!NOTE]
    >
-   >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能を使用したat. js2. xのインストールは、まだサポートされていません。
+   > Adobe Launchを使用したat. jsのデプロイが推奨される方法です。
+
+   または
+
+   Target UIを使用してat. js2. xを手動でダウンロードし、選択した [方法を使用してデプロイ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)します。
 
 ## 廃止された at.js 関数
 
@@ -342,7 +344,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 | オーディエンス | ○ |
 | 顧客属性 | ○ |
 | AEM エクスペリエンスフラグメント | ○ |
-| Adobe Launch 拡張機能 | 現在未対応 |
+| Adobe Launch 拡張機能 | [○](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | デバッガー | ○ |
 | Auditor | ルールはat. js2. x用にまだ更新されていません |
 | Dynamic Tag Manager（DTM） | ○ |
