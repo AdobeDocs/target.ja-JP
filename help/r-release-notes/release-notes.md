@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
@@ -36,12 +36,6 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 | 通知の送信 | エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされたときに、開発者が通知を送信できるように `applyOffers()`します。<br>詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。 |
 | ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
 | at. jsドキュメントの更新 | at. js2.1.0リリースにより更新されたすべての記事の完全なリストについては [、「ドキュメントの変更](/help/r-release-notes/doc-change.md)」の2019年6月3日のエントリを参照してください。 |
-
-## Mobile App Visual Experience Composer（2019年5月14日） {#mobile-app-vec-may14-1}
-
-| 機能/拡張機能 | 説明 |
-| --- | --- |
-| Mobile App Visual Experience Composer（VEC） | Mobile App VECを使用すると、継続的な開発依存関係やアプリリリースサイクルを使用せずに、アクティビティを作成し、ネイティブモバイルアプリケーションにコンテンツをパーソナライズできます。<br>詳しくは、以下を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
 
 ## [!DNL Target] Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
 
