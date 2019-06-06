@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -24,16 +24,20 @@ source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
 | パラメーター | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
 | viewName | 文字列 | ○ | ビューを表す文字列型として任意の名前を渡します。このビュー名は、VEC の「[!UICONTROL 変更]」パネルに表示されます。マーケティング担当者はこれを使用してアクションを作成し、A/B および XT アクティビティを実行します。 |
-| options | オブジェクト | × |
-| options &gt; page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>**FALSE:** page= falseの場合、インプレッション数の増分に通知は送信されません。これは、オファーを含むページ上のコンポーネントを再レンダリングするだけの場合に使用します。 |
+| options | オブジェクト | × |  |
+| options &gt; page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>アクティビティのエクスペリエンスまたはアクティビティ指標がビューに関連付けられていない場合、通知は送信されません。<br>**FALSE:** page= falseの場合、インプレッション数の増分に通知は送信されません。これは、オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
-## インプレッション数を増加させるために Target のバックエンドに通知を送信する `triggerView()` の呼び出し例
+## 例:True
+
+`triggerView()` 呼び出しを呼び出して、アクティビティインプレッションおよび他の指標を増分するための通知をTargetバックエンドに送信します。
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## Target のバックエンドにインプレッション数のための通知を送信しないようにする `triggerView()` の呼び出し例
+## 例:False
+
+`triggerView()` 呼び出しのカウントのためにTargetバックエンドに送信されない通知を呼び出します。
 
 ```
 adobe.target.triggerView("homeView", {page: false})
