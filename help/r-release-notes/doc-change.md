@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 6 月 7 日 | [adobe. target. triggerView（viewName， options）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | `options > page` パラメーターの説明を更新しました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target19.6.1リリースの暫定リリースノートを追加しました。 |
 | 2019 年 6 月 6 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | [新しいトラブルシューティング](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) の節を追加しました。 |
 |  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adobe Launchを使用したat. jsのデプロイに関する情報を更新しました。これは推奨される導入方法です。 |
 |  | [Target の主要概念](/help/c-intro/target-key-concepts.md) | 重要度の低いテキストを編集しました。 |
