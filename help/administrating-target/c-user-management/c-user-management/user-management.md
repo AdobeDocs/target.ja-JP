@@ -9,7 +9,7 @@ title: Users
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Admin Console でユーザーを追加したり権限を管理したりで
 
 システム管理者ユーザーは、ユーザーリストで識別できます。アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
 
-## Adobe Admin Console へのアクセス {#section_79796E0227D048F59BAE0AB02E544EBE}
+## Adobe Admin Console へのアクセス {#access}
 
 Adobe Admin Console で実行するタスクの場合は、次の手順でコンソールにアクセスします。
 
@@ -49,21 +49,21 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
-## ユーザーの追加 {#section_A92AF0F921B743FEB9E9033433BD816A}
+## ユーザーの追加 {#add-users}
 
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザー]** をクリックして新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
-## ユーザーグループの作成 {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## ユーザーグループの作成 {#user-groups}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザーグループ]** をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
 1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
-## 役割および権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 役割および権限の指定 {#roles-permissions}
 
 システム管理者のみ、[!DNL Target] のユーザーの役割を指定できます。例えば、Standard の承認者ユーザーは、Experience Cloud の管理者権限を併せ持たない限り、監視者を承認者に変更できません。
 
@@ -100,4 +100,4 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
    * プロパティをワークスペースに追加します
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=jpn)
