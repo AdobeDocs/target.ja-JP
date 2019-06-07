@@ -8,7 +8,7 @@ title: Adobe Target Standard および Premium のトレーニングビデオ
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
 
 トレーニングビデオは、このガイドの関連するトピック内に埋め込まれています。ビデオ画像をクリックして、ヘルプから離れることなくビデオを再生します。
 
-## Adobe Target-チュートリアルとビデオ
+## Adobe Target - チュートリアルとビデオ
 
-Adobe Target Experience [Suite](https://guided.adobe.com/#recommended/solutions/target) ページで、Targetの機能を解説したハウツービデオやチュートリアルのコレクションを利用できます。
+Target の機能をハイライトした一連のハウツービデオやチュートリアルが、[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) ページで利用できます。
 
-![Experience Leagueビデオ](/help/c-intro/assets/experience-league.png)
+![Experience League ビデオ](/help/c-intro/assets/experience-league.png)
 
-## Adobe Targetチュートリアル
+## Adobe Target チュートリアル {#tutorials}
 
-概念とツールを [!DNL Target] 紹介するビデオは [、Adobe Targetのチュートリアル](https://helpx.adobe.com/target/tutorials.html) ページで視聴できます。
+概念とツールを [!DNL Target] 紹介するビデオは [、Adobe Targetのチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) ページで視聴できます。
 
-![Adobe Targetチュートリアル](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target チュートリアル](/help/c-intro/assets/adobe-target-tutorials-new.png)
