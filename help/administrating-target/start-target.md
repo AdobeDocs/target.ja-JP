@@ -9,7 +9,7 @@ title: 管理者の最初の手順
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -18,23 +18,17 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 このセクションでは、 [!DNL Target] 管理者が招待メールを受け取った後に行う最初の手順について説明 [!DNL Adobe Experience Cloud]します。
 
-## ユーザーの Target への招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Targetに招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-管理者は、ユーザーを招待して [!DNL Target] に追加します。
+のシステム管理者は、参加するように招待 [!DNL Adobe Admin Console] することで、ユーザー [!DNL Target] をユーザーとして追加する必要があります。システム管理者は、1つまたは複数のロールに固有のグループにユーザーを追加する必要があります。これらのタスクはどちらも [Adobe管理コンソールで実行](https://adminconsole.adobe.com)されます。
 
-1. Enterprise Dashboard で、役割用のグループに新しいユーザーを追加します。
+詳しくは、Experience [Cloudおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) のExperience *Cloudユーザーおよび製品の管理*を参照してください。
 
-   ユーザーを追加したら、そのユーザーは招待メールを受け取ります。
-
-1. ユーザーが招待に同意して [!DNL Target] にログインした後、 [!DNL Target Standard/Premium] の[!UICONTROL ユーザー]ページ（**[!UICONTROL セットアップ]**／**[!UICONTROL ユーザー]**）でユーザーの権限レベルを設定します。
-
-   新しいユーザーは、 のアカウントでログインしてから、[!UICONTROL  カードをクリックして ] にログインするまでは、[!DNL Adobe Experience Cloud]ユーザー[!DNL Target Standard/Premium][!DNL Target] ページに表示されません。
-
-   ![ターゲットカード](/help/administrating-target/assets/target_card_new.png)
+システム管理者がこれらの手順を実行すると、招待の電子メールが届きます。
 
 ## 招待の受諾 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud] への招待メールを受け取ったら、招待を受諾し、ログインして、エンドユーザー使用許諾契約（EULA）に同意します。
+参加の招待を受け取ったら、招待を [!DNL Adobe Experience Cloud]受諾し、ログインし、エンドユーザ使用許諾契約（EULA）に同意します。
 
 1. [!DNL Adobe Experience Cloud] への招待を受諾します。
 1. Adobe ID をまだ持っていない場合は、作成するよう求められます。 
@@ -46,7 +40,7 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
    >[!NOTE]
    >
-   >アカウントをリンクしないと、[!DNL Adobe Target Standard] にアクセスできません。
+   >アカウントをリンクしないと、[!DNL Target] にアクセスできません。
 
    リンクページにすべての Experience Cloud 製品が表示されます。Standard および Classic にアクセスするために、「`Link Test&Target`」をクリックし、Test&amp;Target のユーザー名とパスワードを入力します。
 1. 「**[!UICONTROL Experience Cloud を続行]**」をクリックします。
@@ -58,15 +52,10 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 ## 承認者の役割の割り当て {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-[!DNL Adobe Experience Cloud] への招待を受諾してログインしたら、自分の [!DNL Experience Cloud] アカウントに Standard が追加されていることを確認し、自分自身に [!UICONTROL  の]承認者[!DNL Target Standard]の役割を割り当てます。
+参加し [!DNL Adobe Experience Cloud] てログインする招待を受け入れたら、Targetが [!DNL Experience Cloud] アカウントに追加されていることを確認し、 [!UICONTROL 承認者] の役割を自分に割り当て [!DNL Target]ます。
 
-1. [!DNL Adobe Experience Cloud] にログインし、「**[!UICONTROL Target]**」をクリックします。
+組織に [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) ライセンスがある場合は、ユーザーのロールと権限 [](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) の指定を参照 **してください。
 
-   [!DNL Target Standard] カードが表示されます。これにより、この [!DNL Experience Cloud] アカウントに Standard が追加されたことが確認できます。この時点では、[!UICONTROL 承認者]の役割がまだ割り当てられていないので、アクティビティを作成できません。
-1. 「[!UICONTROL Target Standard]」カード／Standard 内で「**[!UICONTROL セットアップ]**」／「**[!UICONTROL ユーザー]**」の順にクリックします。
+[Target Premium](/help/c-intro/intro.md#premium) ライセンスをお持ちの場合は、手順6を参照 [してください。エンタープライズ権限を設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) するに *は、ロールと権限を指定*します。
 
-   ユーザーリストに自分の名前が表示されます。
-1. [!DNL Approver]ラジオボタンをクリックします。
-
-   これで承認者になったので、アクティビティ、オーディエンス、コンテンツの作成および編集ができます。アクティビティの承認も可能です。
-1. 次の手順である[ユーザーと役割の設定](../administrating-target/c-user-management/c-user-management/user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE)に進みます。
+次の手順は、Target StandardおよびTarget Premiumでユーザーを設定することです。詳しくは [、User Management](/help/administrating-target/c-user-management/user-management.md)を参照してください。
