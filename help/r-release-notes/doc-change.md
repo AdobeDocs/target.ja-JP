@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019 年 6 月 7 日 | [adobe. target. triggerView（viewName， options）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | `options > page` パラメーターの説明を更新しました。 |
+|  | [管理者の最初の手順](/help/administrating-target/start-target.md) | 記事全体を更新しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target19.6.1リリースの暫定リリースノートを追加しました。 |
 | 2019 年 6 月 6 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | [新しいトラブルシューティング](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) の節を追加しました。 |
 |  | [at. js1. xからat. js2. xへのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adobe Launchを使用したat. jsのデプロイに関する情報を更新しました。これは推奨される導入方法です。 |
@@ -256,7 +257,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 |  | [オーディエンスについて](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Target アクティビティで参照されているオーディエンスが Adobe Audience Manager（AAM）で削除された場合の扱いに関する情報を追加しました。 |
 |  | [at.js の統合](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | トピックを更新しました。 |
 |  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しいセクション「at.js の実装」を追加しました。 |
-|  | リリース 18.10.1 [リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | リリース 18.10.1[リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 27 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
