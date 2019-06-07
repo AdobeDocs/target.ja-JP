@@ -9,7 +9,7 @@ title: ユーザー管理
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -22,6 +22,6 @@ Target Standard でユーザーを管理する方法と、Target Premium で Ent
 
 保有しているライセンスが Standard か Premium かどうかは、Target の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
 
-* **Target Standard のお客様：**「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定]／[!UICONTROL ユーザー]）が表示された場合は、ライセンスは Target Standard です。Target Standard のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、このトピックの手順に従ってください。
+* **Target Standard のお客様：**「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定]／[!UICONTROL ユーザー]）が表示された場合は、ライセンスは Target Standard です。Target Standardのお客様は、 [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) を追加し、Adobe Admin Consoleで権限を割り当てることができます。
 * **Target Premium のお客様：**「[!UICONTROL プロパティ]」タブ（[!UICONTROL 設定]／[!UICONTROL プロパティ]）が表示された場合は、ライセンスは Target Premium です。Target Premium のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[Enterprise ユーザー権限](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)と [Enterprise 権限の設定](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)の手順に従ってください。
 
