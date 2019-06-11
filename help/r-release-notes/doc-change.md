@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年6月11日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A4Tを使用している場合にトラッキングサーバーを指定することを示す注記を削除しました。 |
+|  | [アクティビティ](/help/c-activities/activities.md) | 削除したアクティビティを復元できないことを示しました。ベストプラクティスとして、必要に応じてアーカイブをアーカイブ解除できるように、アクティビティをアーカイブできます。 |
+|  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at. js2. xでExperience Cloud Debuggerが完全にサポートされていないことを説明する制限が取り除かれました。 |
 | 2019 年 6 月 8 日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新しい節を追加しました。「シナリオ:nullチェックロジックを使用して4x2デフォルトのRecommendationsデザインを作成します」。 |
 |  | [Adobe Target Standard および Premium のトレーニングビデオ](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 新しいAdobe Targetチュートリアルサイトへのリンクを更新しました。 |
 |  | [iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | テキストおよびコードスニペットが更新されました。 |
