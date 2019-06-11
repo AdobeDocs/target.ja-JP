@@ -1,33 +1,33 @@
 ---
-description: at. js1. xからat. js2. xへのアップグレード
+description: at.js 1.x から at.js 2.x へのアップグレード
 keywords: at.js リリース;at.js バージョン;シングルページアプリ;SPA
 seo-description: Adobe Target at.js 1.x から at.js バージョン 2.0.0 へアップグレードする方法に関する詳細情報
 seo-title: 'Adobe Target の at js バージョン 1. x から at.js バージョン 2.0.0 へのアップグレード '
 solution: 'Target '
 subtopic: 導入
-title: at. js1. xからat. js2. xへのアップグレード
+title: at.js 1.x から at.js 2.x へのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
 
-# at. js1. xからat. js2. xへのアップグレード {#upgrading-from-atjs-1x-to-atjs-200}
+# at.js 1.x から at.js 2.x へのアップグレード{#upgrading-from-atjs-1x-to-atjs-200}
 
-最新 [!DNL Adobe Target] バージョンのat. jsでは、ビジネスを均等化する豊富な機能セットを提供して、次世代のクライアントテクノロジーでパーソナライゼーションを実行します。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
+at.js の最新バージョンは、次世代のクライアント側のテクノロジーで、パーソナライゼーションを実行するための機能セットを提供します。[!DNL Adobe Target]この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
 
-以前のバージョンでは利用できないat. js2. xを使用する利点を次に示します。
+以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。
 
 * ページ読み込み時にすべてのオファーをキャッシュし、複数のサーバー呼び出しを単一のサーバー呼び出しに減らす機能。
 * 従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。
 * 1 行のシンプルなコードと開発者による 1 回限りのセットアップで、マーケティング担当者は SPA 上で VEC を使用して A/B および XT アクティビティを作成し、実行できます。
 
-## at. js2. xシステムダイアグラム
+## at.js 2.x のシステム図
 
-以下の図では、at. js2. xのワークフローを把握し、これによりSPA統合を強化する方法について説明します。at. js2. xで使用される概念のより優れた紹介を行うには、 [「シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。
+次の図は、ビューを使用した at.js 2 ワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.x で使用されている概念に関するより詳しい概要については、「[シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。
 
-![at. js2. xを使用したTargetフロー](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![at.js 2.x での Target のフロー](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | 呼び出し | 詳細 |
 | --- | --- |
@@ -38,11 +38,11 @@ source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
 | 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA でのユーザーアクションの結果として表示されるビューのターゲットコンテンツは、ブラウザーにキャッシュされます。そのため、`triggerView()` を介してビューがトリガーされたときに追加のサーバー呼び出しをおこなわずに即座にターゲットコンテンツを適用できます。 |
 | 7 | Analytics データがデータ収集サーバーに送信されます。 |
-| 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。Analytics for Target（A4T）レポートを使用して、<br>Analytics データが Analytics および Target に表示できるようになります。 |
+| 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。<br>A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
 これで、`triggerView()` が SPA のどこに 実装されているかに関わらず、ビューとアクションはキャッシュから取得され、サーバー呼び出しなしでユーザーに表示されるようになります。`triggerView()` は、インプレッション数を増分して記録するために、[!DNL Target] バックエンド に通知リクエストもおこないます。
 
-![Targetのフローat. js2. xのトリガービュー](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target フローの at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | 呼び出し | 詳細 |
 | --- | --- |
@@ -51,9 +51,9 @@ source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 | 3 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
 | 4 | 通知リクエストが [!DNL Target] プロファイルストア に送信され、アクティビティで訪問者がカウントされ、指標が増分されます。 |
 | 5 | Analytics データがデータ収集サーバーに送信されます。 |
-| 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics および Target に表示できるようになります。 |
+| 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
-## at. js2. xのデプロイ {#deploy-atjs-200}
+## at.js 2.x のデプロイ{#deploy-atjs-200}
 
 1. [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能を使用してat. js2. xをデプロイします。
 
@@ -67,20 +67,20 @@ source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ## 廃止された at.js 関数
 
-at. js2. xで非推奨となった関数がいくつかあります。
+at.js 2.x では、いくつかの関数が廃止されました。
 
 >[!IMPORTANT]
 >
->at. js2. xがデプロイされているときに、これらの非推奨の関数がサイトで引き続き使用されている場合、コンソール警告が表示されます。アップグレードの際に推奨されるアプローチは、ステージング環境でat. js2. xのデプロイメントをテストし、コンソールに記録されているすべての警告と、非推奨の関数をat. js2. xで導入された新しい関数に変換することです。
+>at.js 2.x がデプロイされているときにこれらの廃止された関数がサイトで引き続き使用されている場合、コンソールに警告が表示されます。アップグレードする際に推奨されるアプローチは、ステージング環境で at.js 2.x のデプロイメントをテストし、コンソールに記録されているすべての警告を確認し、廃止された関数を at.js 2.x で導入された新しい関数に変換することです。
 
 廃止された関数とそれらに対応する関数は、以下のとおりです。関数の全リストは、「[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」を参照してください。
 
 >[!NOTE]
->at. js2. xは、マークされた要素を自動的に非表示 `mboxDefault` にすることはなくなりました。したがって、サイト上またはタグマネージャーを介して、あらかじめ非表示にするロジックを手動で用意する必要があります。
+>at.js 2.x では、`mboxDefault` としてマークされた要素は自動的に非表示されなくなりました。したがって、サイト上またはタグマネージャーを介して、あらかじめ非表示にするロジックを手動で用意する必要があります。
 
 ### mboxCreate(mbox,params)
 
-**説明**:
+**説明**：
 
 リクエストを実行し、`mboxDefault` クラス名を持つ最も近い DIV にオファーを適用します。
 
@@ -95,7 +95,7 @@ at. js2. xで非推奨となった関数がいくつかあります。
 </script>
 ```
 
-**at. js2. xと同等**
+**at.js 2.x と同等のもの**
 
 `mboxCreate(mbox, params)` に代わるものは、`getOffer()` および `applyOffer()` です。
 
@@ -130,7 +130,7 @@ at. js2. xで非推奨となった関数がいくつかあります。
 
 ### mboxDefine() と mboxUpdate()
 
-**説明**:
+**説明**：
 
 要素と mbox 名の間の内部マッピングを作成しますが、リクエストを実行しません。`mboxUpdate()` と併用します。この mboxUpdate がリクエストを実行し、`mboxDefine()` の nodeId で識別された要素にオファーを適用します。また、`mboxCreate` によって開始された mbox を更新するために使用できます。
 
@@ -144,7 +144,7 @@ at. js2. xで非推奨となった関数がいくつかあります。
 </script>
 ```
 
-**at. js2. xと同等**:
+**at.js 2.x と同等のもの**：
 
 `mboxDefine()` と `mboxUpdate` に代わるものは、`getOffer()` と `applyOffer()`（`applyOffer()` でセレクターオプションを使用）です。この方法を使用すると、ID を持つ要素だけではなく、CSS セレクターを使用してオファーを要素にマッピングできます。
 
@@ -181,15 +181,15 @@ at. js2. xで非推奨となった関数がいくつかあります。
 
 ### adobe.target.registerExtension()
 
-**説明**:
+**説明**：
 
 特定の拡張を登録するための標準的な方法を提供します。
 
 この関数はサポートされなくなったため、使用しないでください。
 
-## 2.0 で廃止、新規追加およびサポートされた at.js functio 関数の概要
+## 2.0 で廃止、新規追加およびサポートされている at.js functio 関数の概要
 
-| メソッド | 対応? | 新規? | 廃止? <br>（デフォルトコンテンツが表示されます） |
+| メソッド | 対応? | 新登場? | 廃止? <br>（デフォルトコンテンツが表示されます） |
 | --- | --- | --- | --- |
 | `getOffer()` | ○ |  |  |
 | `getOffers()` |  | ○ |  |
@@ -218,23 +218,17 @@ at. js2. xで非推奨となった関数がいくつかあります。
 
 `mboxCreate()` を `getOffer()` または `applyOffer()` で置き換えない場合、オファーが配信されない場合があります。
 
-**at. js2. xは、at. js1の間に使用できます。*x*またはmbox. jsは他のページにありますか。**
+**at.js 1.*x*または mbox.js が他のページにあるときに、at.js 2.x をを一部のページで使用できますか？**
 
 できます。訪問者プロファイルは、異なるバージョンやライブラリを使用してページ間で保持されます。Cookie の形式は同じです。
 
-**Adobe Experience Cloud Debuggerはat. js2. xで完全にはサポートされていません**
+**at.js 2.x で新しい API を使用**
 
-[!DNL Adobe Experience Cloud Debugger] [!UICONROL Summary Tab] features and [!UICONTROL Disable and Console Logging] tools are supported, but Network Requests and mboxTrace are not supported for at.js 2.x.
-
-これは、at. js2. xでは、キーと値のペアの代わりにJSONペイロードが送信されるためです。[!DNL Target] リクエストを検証するには、ブラウザーの開発者ツールの「[!UICONTROL Network]」タブで、「delivery」、「`tt.omtrdc.net`」、またはクライアントコードをフィルタリングします。追跡データは、クエリ文字列パラメーターと認証トークンを使用して引き続き検証できます。詳細については、「[mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 」を参照してください。
-
-**at. js2. xでの新しいAPIの使用**
-
-at. js2. xは、新しいAPIを使用して、配信APIを呼び出します。at.js が [!DNL Target] エッジサーバーを正しく呼び出しているかどうかデバッグするには、ブラウザーの開発者ツールの「ネットワーク」タブで「delivery」、「`tt.omtrdc.net`」、またはクライアントモードをフィルタリングします。また、[!DNL Target] はキーと値のペアの変わりに JSON ペイロードを送信します。
+at.js 2.x は、Delivery API と呼ばれる新しい API を使用します。at.js が [!DNL Target] エッジサーバーを正しく呼び出しているかどうかデバッグするには、ブラウザーの開発者ツールの「ネットワーク」タブで「delivery」、「`tt.omtrdc.net`」、またはクライアントモードをフィルタリングします。また、[!DNL Target] はキーと値のペアの変わりに JSON ペイロードを送信します。
 
 **Target グローバル mbox の廃止**
 
-at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」が表示されなくなりました。代わりに、[!DNL Target] サーバーに送信される JSON ペイロードの「`target-global-mbox`」構文を以下のように「`execute > pageLoad`」に置き換えました。
+at.js 2.x では、ネットワーク呼び出しで「`target-global-mbox`」が表示されなくなりました。代わりに、[!DNL Target] サーバーに送信される JSON ペイロードの「`target-global-mbox`」構文を以下のように「`execute > pageLoad`」に置き換えました。
 
 ```
 {
@@ -255,7 +249,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 **at.js のグローバル mbox 名は重要ではなくなりましたか？**
 
-「[!UICONTROL Target」／「セットアップ」／「実装」／「at.js 設定を編集]」の順に移動して、グローバル mbox 名を指定できます。この設定は [!DNL Target] エッジサーバーによって使用され、execute &gt; pageLoad が [!DNL Target] UI に表示されるグローバル mbox 名に変換されます。これにより、ユーザーはサーバーサイド API、フォームベースのコンポーザー、プロファイルスクリプトの使用、およびグローバル mbox 名を使用したオーディエンスを引き続き作成できます。まだ at.js 1.*x* または mbox.js を使用しているページがある場合、次の図のように「[!UICONTROL セットアップ」／「環境設定]」ページの順に移動して、同じグローバル mbox 名 を設定することを強くお勧めします。
+[!UICONTROL Target／セットアップ／実装／at.js 設定を編集] を使用して、グローバル mbox 名を指定できます。この設定は [!DNL Target] エッジサーバーによって使用され、execute &gt; pageLoad が [!DNL Target] UI に表示されるグローバル mbox 名に変換されます。これにより、ユーザーはサーバーサイド API、フォームベースのコンポーザー、プロファイルスクリプトの使用、およびグローバル mbox 名を使用したオーディエンスを引き続き作成できます。まだ at.js 1.*x* または mbox.js を使用しているページがある場合、次の図のように「[!UICONTROL セットアップ／環境設定]」ページの順に移動して、同じグローバル mbox 名 を設定することを強くお勧めします。
 
 ![at.js ダイアログの変更](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -263,11 +257,11 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 ![カスタムグローバル mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/custom-global-mbox.png)
 
-**at. js2. xではグローバルmbox設定をオンにする必要がありますか。**
+**at.js 2.x では、自動作成 mbox 設定を有効にする必要がありますか？**
 
-ほとんどの場合では、有効にする必要があります。この設定は、ページ読み込み時に [!DNL Target] エッジサーバーへのリクエストを実行するようにat. js2. xに指示します。グローバル mbox は execute &gt; pageLoad に変換されているため、ページ読み込み時にリクエストを送信する場合、この設定を有効にする必要があります。
+ほとんどの場合では、有効にする必要があります。この設定は、ページ読み込み時に[!DNL Target] エッジサーバーにリクエストを送信するように at.js 2.x に指示します。グローバル mbox は execute &gt; pageLoad に変換されているため、ページ読み込み時にリクエストを送信する場合、この設定を有効にする必要があります。
 
-**ターゲットのグローバルmbox名がat. js2. xから指定されていない場合でも、既存のVECアクティビティは引き続き動作しますか。**
+**at.js 2.x で Target のグローバル mbox 名が指定されていない場合でも、既存の VEC アクティビティは引き続き動作しますか？**
 
 動作します。execute &gt; pageLoad は、`target-global-mbox` のような [!DNL Target] バックエンドで処理されるためです。
 
@@ -275,7 +269,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 機能します。execute &gt; pageLoad は、`target-global-mbox` のような [!DNL Target] エッジサーバーで処理されるためです。
 
-**at. js2. xの設定でサポートされ、サポートされていない設定**
+**サポート対象およびサポート対象外の at.js 2.x 設定**
 
 | 設定 | 対応? |
 | --- | --- |
@@ -285,15 +279,15 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 **クロスドメイントラッキングはサポートされて*いません***
 
-クロスドメイントラッキングを使用すると、異なる ドメインを持つ 2 つの関連するサイト上のセッションを、単一のセッションと見なせます。`siteA.com` と `siteB.com` にまたがる [!DNL Target] アクティビティを作成し、訪問者がドメインを移るときに同じエクスペリエンスを維持できます。この機能は、Target のサードパーティおよびファーストパーティ Cookie の動作に結びついています。
+クロスドメイントラッキングを使用すると、異なるドメインを持つ 2 つの関連するサイト上のセッションを、単一のセッションと見なすことができます。`siteA.com` と `siteB.com` にまたがる [!DNL Target] アクティビティを作成し、訪問者がドメインを移るときに同じエクスペリエンスを維持できます。この機能は、Target のサードパーティおよびファーストパーティ Cookie の動作に結びついています。
 
 [!DNL Target] では、サードパーティ Cookie は `[CLIENTCODE].tt.omtrdc.net` に、ファーストパーティ Cookie は `clientdomain.com` にそれぞれ保存されます。最初のリクエストは、HTTP 応答ヘッダーを返します。このヘッダーによって、`mboxSession` および `mboxPC` という名前のサードパーティ Cookie の設定が試行され、リダイレクトリクエストが追加のパラメーター（`mboxXDomainCheck=true`）と共に返されます。ブラウザーがサードパーティ Cookie を受け入れる場合、リダイレクトリクエストにはそれらの Cookie が含まれており、オファーが返されます。このワークフローは、HTTP GET メソッドの使用により可能になっています。
 
-ただし、at. js2. xでは、HTTP GETは使用されなくなり、代わりにHTTP POSTを使用します。JSON ページロードを [!DNL Target] エッジサーバーに送信するために、at.js を介して HTTP POST が使用されるようになりました。つまり、ブラウザがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストはべき等トランザクションであるのに対して HTTP POST は非べき等であり、任意の繰り返しを防ぐ必要があるためです。したがって、at. js2. xのクロスドメイントラッキングはサポートされなくなります。
+ただし、at.js 2.x では、HTTP GET は使用されなくなり、代わりに HTTP POST が使用されています。JSON ページロードを [!DNL Target] エッジサーバーに送信するために、at.js を介して HTTP POST が使用されるようになりました。つまり、ブラウザがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストはべき等トランザクションであるのに対して HTTP POST は非べき等であり、任意の繰り返しを防ぐ必要があるためです。したがって、at.js 2.x でのクロスドメイントラッキングはサポートされなくなりました。
 
 **グローバル mbox 自動作成はサポートされています**
 
-この設定により、at. js2. xによって、ページ読み込み時 [!DNL Target] にエッジサーバーへのリクエストが実行されます。[!DNL Target] エッジサーバーがグローバル mbox を execute&gt; pageLoad に変換します。ページロード時にリクエストを発行する場合、この設定を有効にする必要があります。
+この設定は、ページ読み込み時に [!DNL Target] エッジサーバーにリクエストを送信するように at.js 2.x に指示します。[!DNL Target] エッジサーバーがグローバル mbox を execute&gt; pageLoad に変換します。ページロード時にリクエストを発行する場合、この設定を有効にする必要があります。
 
 **グローバル mbox 名はサポートされています**
 
@@ -314,7 +308,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 **ちらつきに対処するために、`triggerView()`を呼び出す前に、事前に非表示になるコードを追加する必要がありますか？**
 
-不要です。`triggerView()` を呼び出す前に、事前に非表示になるコードを追加する必要はありません。at. js2. xは、ビューが表示および適用される前に、非表示およびちらつきのロジックを管理します。
+不要です。`triggerView()` を呼び出す前に、事前に非表示になるコードを追加する必要はありません。at.js 2.x は、ビューが表示され適用される前に、事前非表示およびちらつきのロジックを管理します。
 
 ## at.js の互換性
 
@@ -334,7 +328,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 >[!NOTE]
 >
->自動ターゲットアクティビティは、すべての変更が適用されるときにat. js2. xおよびVEC経由でサポート `Page Load Event`されます。特定のビューに変更が追加された場合、A/Bテスト、自動配分およびエクスペリエンスターゲット設定（XT）アクティビティのみがサポートされます。
+>すべての変更が `Page Load Event` に適用されると、自動ターゲットアクティビティは at.js 2.x と VEC を通じてサポートされます。特定のビューに変更が追加された場合、A/Bテスト、自動配分およびエクスペリエンスターゲット設定（XT）のアクティビティのみがサポートされます。
 
 ### 統合 {#integrations}
 
@@ -346,7 +340,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 | AEM エクスペリエンスフラグメント | ○ |
 | Adobe Launch 拡張機能 | [○](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | デバッガー | ○ |
-| Auditor | ルールはat. js2. x用にまだ更新されていません |
+| Auditor | ルールはまだ at.js 2.x 向けに更新されていません。 |
 | Dynamic Tag Manager（DTM） | ○ |
 | Opt-In | ×の呼び出しの後におこなわれる場合です。[DGPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) のオプトインサポートは、at. jsバージョン2.1.0で [サポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)されています。 |
 | AEM Enhanced Personalization powered by Adobe Target | × |
@@ -363,7 +357,7 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 | カスタムコード | ○ |
 | レスポンストークン | [○](#response-tokens) |
 | クリックの追跡 | ○ |
-| マルチアクティビティ配信 | ○ |
+| 複数アクティビティ配信 | ○ |
 | targetGlobalSettings | はい（ただし X-Domain は不可） |
 | at.js のメソッド | デフォルトコンテンツを表示する<br>`mboxCreate()`<br>`mboxUpdate()`<br>`mboxDefine()`<br>を除いてすべてがサポートされています。 |
 
@@ -379,30 +373,30 @@ at. js2. xでは、ネットワーク呼び出しで「`target-global-mbox`」�
 
 ## レスポンストークン {#response-tokens}
 
-at.js 2.*x*. js1と同様。*x*は、カスタムイベント `at-request-succeeded` を応答トークンに使用します。`at-request-succeeded` カスタムイベントを使用するコード例については [、応答トークン](/help/administrating-target/response-tokens.md)を参照してください。
+at.js 2.*x* は、at.js 1.*x* と同様に、カスタムイベント `at-request-succeeded` を応答トークンに使用します。`at-request-succeeded` カスタムイベントを使用するコード例については「[応答トークン](/help/administrating-target/response-tokens.md)」を参照してください。
 
-## at. js1. xのパラメーター（at. js2. xのペイロードマッピング） {#payload-mapping}
+## at.js 2.x ペイロードマッピングへの at.js 1.x パラメータ{#payload-mapping}
 
-ここでは、at. js1のマッピングについて説明します。*x* およびat. js2. x.
+ここでは、at.js 1.*x* と at.js 2.x 間のマッピングについて説明します。
 
-パラメーターマッピングを削除する前に、これらのライブラリバージョンが使用しているエンドポイントが変更されました。
+パラメーターマッピングを詳しく調べる前に、これらのライブラリバージョンが使用しているエンドポイントが変更されています。
 
 * at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* at. js2. x- `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* at.js 2.x - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
-もう1つの大きな違いは次のとおりです。
+もう 1 つの大きな違いは次のとおりです。
 
-* at.js 1.*x* -クライアントコードがパスの一部
-* at. js2. x-クライアントコードは、次のようなクエリ文字列パラメーターとして送信されます。
+* at.js 1.*x* - クライアントコードはパスの一部です
+* At.js 2.x - クライアントコードは、次のようなクエリ文字列パラメーターとして送信されます
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下の節では、各at. js1について説明しています。*x* パラメータ、その説明、および対応する2.0.0JSONペイロード（該当する場合）:
+以下のセクションでは、各 at.js 1.*x* パラメーター、その説明および対応する 2.0.0 JSON ペイロード（該当する場合）について説明しています。
 
-### at_ property
+### at_property
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-[Enterpriseユーザー権限に使用](/help/administrating-target/c-user-management/property-channel/property-channel.md)されます。
+[Enterprise ユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)に使用されます。
 
 ```
 {
@@ -416,11 +410,11 @@ at.js 2.*x*. js1と同様。*x*は、カスタムイベント `at-request-succee
 
 ### browserHeight
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-訪問者のブラウザーウィンドウの高さ。
+訪問者のブラウザーウィンドウの高さです。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -434,11 +428,11 @@ at. js2. x JSONペイロード:
 
 ### browserWidth
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-訪問者のブラウザーウィンドウの幅。
+訪問者のブラウザーウィンドウの幅です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -452,11 +446,11 @@ at. js2. x JSONペイロード:
 
 ### browserTimeOffset
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*X* パラメーター）
 
-タイムゾーンのオフセット。
+タイムゾーンのオフセットです。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -468,11 +462,11 @@ at. js2. x JSONペイロード:
 
 ### screenHeight
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-訪問者の画面の高さ。
+訪問者の画面の高さです。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -486,11 +480,11 @@ at. js2. x JSONペイロード:
 
 ### screenWidth
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-訪問者の画面の幅。
+訪問者の画面の幅です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -504,11 +498,11 @@ at. js2. x JSONペイロード:
 
 ### colorDepth
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-訪問者の画面の色深度。
+訪問者の画面の色深度です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -522,11 +516,11 @@ at. js2. x JSONペイロード:
 
 ### mboxHost
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Targetライブラリが実行されるページのドメイン。
+Target ライブラリが実行されるページのドメインです。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -540,11 +534,11 @@ at. js2. x JSONペイロード:
 
 ### webGLRenderer
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-ブラウザーのWEB GLレンダラー機能。これは、訪問者のデバイスがデスクトップ、iPhone、Androidデバイスなどであるかどうかを判断するためにデバイス検出メカニズムで使用されます。
+ブラウザーの WEB GL レンダラー機能です。これは、訪問者のデバイスがデスクトップ、iPhone、Android デバイスなどであるかどうかを判断するためにデバイス検出メカニズムで使用されます。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -558,11 +552,11 @@ at. js2. x JSONペイロード:
 
 ### mboxURL
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-ページURL。
+ページ URL です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -576,11 +570,11 @@ at. js2. x JSONペイロード:
 
 ### mboxReferrer
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-ページリファラー。
+ページリファラーです。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -592,13 +586,13 @@ at. js2. x JSONペイロード:
 }
 ```
 
-### mbox（名前）がグローバルmboxと等しい
+### Mbox（名前）がグローバル mbox と等しい
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-配信APIにグローバルmboxの概念がなくなりました。JSONペイロードでは、使用する必要 `execute > pageLoad`があります。
+配信 API にグローバル mbox の概念がなくなりました。JSON ペイロードでは、`execute > pageLoad` を使用する必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -612,13 +606,13 @@ at. js2. x JSONペイロード:
 }
 ```
 
-### mbox（名前）が *グローバルmbox* と等しくない
+### Mbox（名前）が * グローバル mbox * と等しくない
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-mbox名を使用するには、に渡し `execute > mboxes`ます。mboxにはインデックスと名前が必要です。
+mbox 名を使用するには、`execute > mboxes` に渡します。mbox にはインデックスと名前が必要です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -636,23 +630,23 @@ at. js2. x JSONペイロード:
 
 ### mboxId
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
 廃止。
 
 ### mboxCount
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
 廃止。
 
-### mboxGrid
+### mboxRid
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-デバッグに役立つように、ダウンストリームシステムで使用されるリクエストID。
+デバッグに役立つように、ダウンストリームシステムで使用されるリクエスト ID です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -663,23 +657,23 @@ at. js2. x JSONペイロード:
 
 ### mboxTime
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
 廃止。
 
 ### mboxSession
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-セッションIDは、クエリ文字列パラメータ（`sessionId`）として配信APIエンドポイントに送信されます。
+セッション ID は、クエリ文字列パラメーター（`sessionId`）として配信 API エンドポイントに送信されます。
 
 ### mboxPC
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-TNT IDが渡さ `id > tntId`れます。
+`id > tntId` に TNT ID が渡されます。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -692,11 +686,11 @@ at. js2. x JSONペイロード:
 
 ### mboxMCGVID
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Marketing Cloud訪問者IDが渡さ `id > marketingCloudVisitorId`れます。
+`id > marketingCloudVisitorId` に Marketing Cloud Visitor ID が渡されます。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -707,13 +701,13 @@ at. js2. x JSONペイロード:
 }
 ```
 
-### vst. aaa. idおよびvst. aaa. authState
+### vst.aaa.id および vst.aaa.authState
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-顧客IDを渡す必要 `id > customerIds`があります。
+`id > customerIds` に顧客 ID を渡す必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -730,11 +724,11 @@ at. js2. x JSONペイロード:
 
 ### mbox3rdPartyId
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-異なるTarget IDをリンクするために使用される顧客サードパーティID。
+異なる Target ID をリンクするために使用される顧客サードパーティ ID です。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -747,11 +741,11 @@ at. js2. x JSONペイロード:
 
 ### mboxMCSDID
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-SDID（追加データIDとも呼ばれます）。渡される必要 `experienceCloud > analytics > supplementalDataId`があります。
+SDID です（追加データ ID とも呼ばれます）。`experienceCloud > analytics > supplementalDataId` に渡される必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -766,11 +760,11 @@ at. js2. x JSONペイロード:
 
 ### vst. trk
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Analyticsトラッキングサーバー。渡される必要 `experienceCloud > analytics > trackingServer`があります。
+Analytics トラッキングサーバーです。`experienceCloud > analytics > trackingServer` に渡される必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -785,11 +779,11 @@ at. js2. x JSONペイロード:
 
 ### vst. trks
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Analyticsトラッキングサーバーのセキュリティ保護渡される必要 `experienceCloud > analytics > trackingServerSecure`があります。
+Analytics トラッキングサーバーのセキュリティ保護`experienceCloud > analytics > trackingServerSecure` に渡される必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -804,11 +798,11 @@ at. js2. x JSONペイロード:
 
 ### mboxMCGLH
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Audience Managerのロケーションヒント渡される必要 `experienceCloud > audienceManager > locationHint`があります。
+Audience Manager のロケーションヒント`experienceCloud > audienceManager > locationHint` に渡される必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -823,11 +817,11 @@ at. js2. x JSONペイロード:
 
 ### mboxAAMB
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-Audience Manager blob。渡される必要 `experienceCloud > audienceManager > blob`があります。
+Audience Manager BLOB です。`experienceCloud > audienceManager > blob` に渡される必要があります。
 
-at. js2. x JSONペイロード:
+at.js 2.x JSON ペイロード：
 
 ```
 {
@@ -842,13 +836,13 @@ at. js2. x JSONペイロード:
 
 ### mboxVersion
 
-(at.js 1.*x* パラメーター）
+（at.js 1.*x* パラメーター）
 
-バージョンは、versionパラメーターを使用してクエリ文字列パラメーターとして送信されます。
+バージョンは、version パラメーターを使用して、クエリ文字列パラメーターとして送信されます。
 
-## トレーニングビデオ:at. js2. xアーキテクチャ図
+## トレーニングビデオ： at.js 2.x のアーキテクチャ図
 
-at. js2. xは、Adobe TargetのSPAサポートを強化し、他のExperience Cloudソリューションと統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
+at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
