@@ -8,7 +8,7 @@ title: アクティビティ URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,15 +21,17 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 >[!NOTE]
 >
->[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。結果として、[!DNL `http://www.adobe.com`] と [!DNL `https://www.adobe.com`] は両方とも合致します。
+>[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://www.adobe.com`] の両方が一致します。
 
-デフォルトでは、アカウントの基本設定で指定されたページが [!UICONTROL Visual Experience Composer] で開かれます。アクティビティ作成中に、異なるページを指定することもできます。
+## 別のURLの指定
 
-[!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]**の歯車アイコンをクリックして、「**[!UICONTROL ページ配信**」を選択します。]「アクティビティ URL」フィールドに URL を入力します。
+デフォルトでは、 [!UICONTROL Visual Experience Composer] は [、Targetアカウント環境設定で指定したページを開き](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)ます。アクティビティ作成中に、異なるページを指定することもできます。
 
-![](assets/url-config.png)
+[!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]** の歯車アイコンをクリックして、「**[!UICONTROL ページ配信**」を選択します。]「アクティビティ URL」フィールドに URL を入力します。
 
-アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]」をクリックします。**
+![ページ配信ダイアログボックス](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+
+アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]**」をクリックします。
 
 追加のルールは、以下のいずれかに基づいています。
 
@@ -52,4 +54,4 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 >[!NOTE]
 >
->1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、行った変更が失われます。
+>1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
