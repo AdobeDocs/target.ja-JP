@@ -8,7 +8,7 @@ title: オーディエンスの選択
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -39,15 +39,15 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 アクティビティに含める資格のある訪問者の割合を指定できます。例えば、すべての訪問者の 50％を含めることを選択できます。
 
-![](assets/audperc.png)
+![オーディエンスの割合](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Target が[トラフィックの自動割り当て](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)をおこなうように選択することもできます。
+Targetが自動的にトラフィック [を割り当てるように選択すること](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)もできます。
 
 ## トレーニングビデオ
 
-次のビデオでは、この記事に記載されている概念についてさらに詳しく説明します。
+以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Adobe Target での Audiences の使用（6：21）
+### Adobe Target での Audiences の使用（6:21）
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -57,7 +57,7 @@ Target が[トラフィックの自動割り当て](../../../c-activities/automa
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=jpn)
 
 ### アクティビティワークフロー - ターゲット設定（2:14）
 
@@ -68,6 +68,6 @@ Target が[トラフィックの自動割り当て](../../../c-activities/automa
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=jpn)
 
 詳しくは、[オーディエンス](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)を参照してください。
