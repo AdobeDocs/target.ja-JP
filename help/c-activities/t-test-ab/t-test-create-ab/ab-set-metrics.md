@@ -7,7 +7,7 @@ solution: Target,standard
 title: 指標の設定
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,7 +21,7 @@ A/B アクティビティの指標を使用して、訪問が成功かどうか�
 1. アクティビティの目標を指定します。
 1. [成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を選択します。
 
-   ![](assets/ab_metrics.png)
+   ![成功指標を選択](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    [!UICONTROL 成功指標]ページには、アクティビティ用に選択できる成功指標の一覧が表示されます。成功指標は次のカテゴリに分類されます。
 
@@ -62,4 +62,4 @@ A/B アクティビティの指標を使用して、訪問が成功かどうか�
 * コンバージョン、収益、エンゲージメントの指標の理解と構築
 * クリック追跡指標の構築
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=jpn)
