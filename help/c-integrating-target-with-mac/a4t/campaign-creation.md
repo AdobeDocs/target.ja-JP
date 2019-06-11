@@ -8,7 +8,7 @@ title: アクティビティの作成
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -28,7 +28,7 @@ Analytics をレポートソースとして使用する Target Standard のア�
    >Analytics をレポートソースとして使用する場合、アクティビティ名に「%」は含められません。
 
 1. アクティビティのタイプを選択して、アクティビティの設定を開始します。
-1. アクティビティ作成フローの**[!UICONTROL 設定]**の段階までたどり着いたら、「**[!UICONTROL Adobe Analytics]**」を選択し、会社を指定します。
+1. アクティビティ作成フローの **[!UICONTROL 設定]** の段階までたどり着いたら、「**[!UICONTROL Adobe Analytics]**」を選択し、会社を指定します。
 1. レポートスイートを選択します。
 
    Adobe Analytics で使用可能なレポートスイートはどれでも選択できます。レポートスイートによって、収集されたデータを利用できる場所が定義されます。仮想レポートスイートはレポートスイートのリストに含まれません。を参照してください。
@@ -45,10 +45,6 @@ Analytics をレポートソースとして使用する Target Standard のア�
 1. トラッキングサーバーを指定します。
 
    詳細については、「[Analytics トラッキングサーバーの使用](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)」を参照してください。
-
-   >[!NOTE]
-   >
-   >Adobe Analytics をアクティビティのレポートソースとして使用する場合、 mbox.js バージョン 61 （またはそれ以降）または at.js バージョン 0.9.1 （またはそれ以降）を使用しているのであれば、アクティビティを作成する際にトラッキングサーバーを指定する必要はありません。mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 
 1. エクスペリエンスを定義します。
 1. アクティビティの目標を指定します。
