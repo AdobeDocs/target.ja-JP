@@ -8,7 +8,7 @@ title: A/B テストの複数のエクスペリエンスバージョン
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -35,9 +35,9 @@ A/B アクティビティで、同じエクスペリエンスの複数バージ�
 
    複数のバージョンを持つエクスペリエンスを設定する際に、次の手順のようにして各バージョンのオーディエンスを選択します。
 
-1. エクスペリエンスを選択し、 **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンス]**をクリックします。
+1. エクスペリエンスを選択し、 **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンス]** をクリックします。
 
-   ![](assets/multiple-audiences.png)
+   ![複数のオーディエンスオプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. 「**[!UICONTROL オーディエンスを追加]**」をクリックし、ターゲットにしたい最初のオーディエンスを選択します。各オーディエンスについて繰り返します。
 
