@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 | --- | --- | --- |
 | 2019年6月11日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A4Tを使用している場合にトラッキングサーバーを指定することを示す注記を削除しました。 |
 |  | [A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | テキストと画像が更新されました。 |
+|  | A/Bテスト: [アクティビティURL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | テキストと画像が更新されました。 |
+|  | A/Bテスト: [オーディエンスの選択](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | テキストと画像が更新されました。 |
+|  | A/Bテスト: [目標と設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | テキストと画像が更新されました。 |
+|  | A/Bテスト: [指標の設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | テキストと画像が更新されました。 |
+|  | [A/B テストの複数のエクスペリエンスバージョン](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | テキストと画像が更新されました。 |
 |  | [アクティビティ](/help/c-activities/activities.md) | 削除したアクティビティを復元できないことを示しました。ベストプラクティスとして、必要に応じてアーカイブをアーカイブ解除できるように、アクティビティをアーカイブできます。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at. js2. xでExperience Cloud Debuggerが完全にサポートされていないことを説明する制限が取り除かれました。 |
-|  | [レポート](/help/c-reports/reports.md) | マイナーテキストの更新と新しい画像。 |
+|  | [レポート](/help/c-reports/reports.md) | テキストと画像が更新されました。 |
 | 2019 年 6 月 8 日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新しい節を追加しました。「シナリオ:nullチェックロジックを使用して4x2デフォルトのRecommendationsデザインを作成します」。 |
 |  | [Adobe Target Standard および Premium のトレーニングビデオ](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 新しいAdobe Targetチュートリアルサイトへのリンクを更新しました。 |
 |  | [iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | テキストおよびコードスニペットが更新されました。 |
