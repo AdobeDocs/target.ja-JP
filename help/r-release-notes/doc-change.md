@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年6月13日 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | テキストと画像が更新されました。 |
+|  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md) | 中国でのTargetの使用に関する重要な注意事項を追加しました。 |
 | 2019年6月11日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A4Tを使用している場合にトラッキングサーバーを指定することを示す注記を削除しました。 |
 |  | [A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | テキストと画像が更新されました。 |
 |  | A/Bテスト: [アクティビティURL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | テキストと画像が更新されました。 |
