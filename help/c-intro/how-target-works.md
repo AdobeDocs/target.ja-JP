@@ -9,16 +9,16 @@ title: Adobe Target の仕組み
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Adobe Target の仕組み{#how-adobe-target-works}
 
-Target JavaScriptライブラリ（at. jsおよびmbox. js）に関する情報、およびTargetに含まれる様々なアクティビティタイプなど、Adobe Targetの仕組みについて取り上げます。
+Target JavaScript ライブラリ（at.js および mbox.js）の情報や Target に含まれている様々なアクティビティタイプなど、Adobe Target の動作の仕組みについて説明します。
 
-## Target JavaScriptライブラリ {#libraries}
+## Target JavaScript ライブラリ {#libraries}
 
 Adobe Target は、2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます（at.js または mbox.js）。
 
@@ -27,7 +27,7 @@ Adobe Target は、2 つの JavaScript ライブラリのいずれかによっ�
 
 >[!IMPORTANT]
 >
->すべてのお客様が at.js に移行する必要があります。詳細については、「[mbox.js から at.js への移行を参照](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 サイト上のすべてのページでいずれかの Target JavaScript ファイルを参照する必要があります。例えば、これをグローバルヘッダーに追加します。
 
@@ -66,11 +66,11 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 詳細については、「[Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)」を参照してください。
 
-Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なオファーのバリエーションを表示しながら、コンテンツをパーソナライズして上昇率を高めていきます。
+Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なオファーのバリエーションを表示しながら、コンテンツをパーソナライズして上昇率を高めます。
 
 ### エクスペリエンスターゲット設定（XT）
 
-[SPA 向けのエクスペリエンスのターゲット設定](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
+[エクスペリエンスのターゲット設定](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
@@ -105,6 +105,10 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 1 つの場所からすべてのターゲットリクエストに応答するのではなく、リクエストの発生地点に最も近い Edge 環境から応答することで、ネットワークやインターネットでのデータ移動時間の影響が緩和されます。
 
 Edge ネットワークは、フェイルオーバーメカニズムの役割も果たします。あるエッジノードが機能していない場合、リクエストは次の最も近いノードにリダイレクトされるので、ユーザーにデフォルトコンテンツ（リクエストを完了できない場合の一般的なバックアップ応答）が提供されるようなことはありません。
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] 現在、中国にはEdgeネットワークがありません。また、エンドユーザーのパフォーマンスは、中国のお客様向けに [!DNL Target] 引き続き制限されます。優れたファイアウォールと、国内のEdgeノードが不足しているので、デプロイさ [!DNL Target] れているサイトのエクスペリエンスはレンダリングに時間がかかり、ページロードに影響します。[!DNL Target] また、ユーザーインターフェイスでも遅延が発生する可能性があります。
 
 ## 保護されたユーザーエクスペリエンス {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
