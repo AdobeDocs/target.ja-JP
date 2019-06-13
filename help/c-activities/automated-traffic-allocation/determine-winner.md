@@ -8,7 +8,7 @@ title: 勝者の特定
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 [!UICONTROL 自動配分]機能を使用すると、[!DNL Target] は、アクティビティが十分な信頼性のあるコンバージョンの最低数に達するまで、アクティビティのページの最上部に「まだ勝者がありません」ということを示すバッジを表示します。
 
-![](assets/auto_traffic_no_winner.png)
+![勝者バッジなし](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 明らかな勝者が宣言されると、[!DNL Target] は、「勝者：エクスペリエンス X」と表示します。
 
