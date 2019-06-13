@@ -1,6 +1,6 @@
 ---
 description: Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定アクティビティを作成し、Target 内でページの一部を変更することができます。
-seo-description: Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定アクティビティを作成し、Target 内でページの一部を変更することができます。
+seo-description: Visual Experience Composerを使用して、Target対応のページにエクスペリエンスのターゲット設定アクティビティを作成し、Adobe Target内でページの一部を変更します。
 seo-title: エクスペリエンスのターゲット設定アクティビティの作成
 solution: 'Target '
 subtopic: 多変量分析テスト
@@ -8,38 +8,48 @@ title: エクスペリエンスのターゲット設定アクティビティの�
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
 
 # エクスペリエンスのターゲット設定アクティビティの作成{#create-an-experience-targeting-activity}
 
-Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定アクティビティを作成し、Target 内でページの一部を変更することができます。
+[!UICONTROL Visual Experience Composer] （VEC）を使用して、Target対応ページで [!UICONTROL エクスペリエンスターゲット設定] （XT）アクティビティを作成し、ページの一部を変更 [!DNL Adobe Target]します。
 
 1. 「[!UICONTROL アクティビティ]」リストで、「**[!UICONTROL アクティビティを作成**]／**[!UICONTROL エクスペリエンスのターゲット設定]**」の順に選択します。
 
-   ![](assets/xt_select.png)
+   ![アクティビティを作成/エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。
+   >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、自動パーソナライゼーションは [Target Premium機能](/help/c-intro/intro.md#premium)です。
 
-   アクティビティタイプについて詳しくは、[アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. [アクティビティ URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を入力してから、「**[!UICONTROL 次へ]**」をクリックします。
+   アクティビティのタイプについて詳しくは [、アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) および [Targetアクティビティのタイプ](/help/c-activities/target-activities-guide.md)を参照してください。
 
-   ![](assets/form_url.png)
+1. 必要に応じて **[!UICONTROL 、「ビジュアル（デフォルト）]**」を選択します。
 
-   アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。デフォルトの URL を別の URL に変更できます。
-
-   問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)を参照してください。
+   ![エクスペリエンスターゲット設定アクティビティの作成ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
    フォームベースの Experience Composer を使用したい場合は、そちらのオプションを選択します。詳しくは、[フォームベースの Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) を参照してください。
 
+   >[!NOTE]
+   >
+   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+
+   問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)を参照してください。
+
+1. [アクティビティURLを指定](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)し、「 **[!UICONTROL 次へ]**」をクリックします。
+
+   アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。デフォルトの URL を別の URL に変更できます。
+
    Visual Experience Composer が表示され、URL で指定したページが表示されます。
+
+   ![VEC内のエクスペリエンスターゲット設定アクティビティ](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+
 1. 用意されている領域に、アクティビティの名前を入力します。
 
-   ![](assets/xt_name.png)
+   ![名前フィールド](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
    次の文字はアクティビティ名として入力できません。
 
@@ -56,13 +66,13 @@ Visual Experience Composer を使用すると、Target を有効にしたペー�
 
 1. [新しいエクスペリエンスを作成します](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)（ページ上の要素の変更）。
 
-   「アカウントの基本設定」で指定されたページが Experience Composer（[エクスペリエンス](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)を参照）で開かれます。別のページを表示するには、地球のアイコンをクリックして、Experience Composer の「URL の選択」ボックスに URL を入力し、「**[!UICONTROL 続行]**」をクリックします。Target Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。
+
 
    デフォルトでは、バナーの回転など JavaScript を含む要素については、Visual Experience Composer で変更できません。このような要素を Visual Experience Composer を使用して変更するには、JavaScript を無効にします。
 
    >[!NOTE]
    >
-   >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、行った変更が失われます。
+   >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
 
    ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。
 
@@ -79,11 +89,11 @@ Visual Experience Composer を使用すると、Target を有効にしたペー�
    ![](assets/xt_diagram.png)
 
    フロー図を使用すると、アクティビティに対するオーディエンスの選択、およびエクスペリエンスの設定を順に実行できます。
-1. オーディエンスにカーソルを合わせ、表示された「**[!UICONTROL 編集]**」アイコン（3 つの縦並びの省略記号）／「**[!UICONTROL オーディエンスを変更]**」の順にクリックし、アクティビティの最初のエクスペリエンスのオーディエンスを選択します。
+1. オーディエンスにカーソルを合わせ、表示された「**[!UICONTROL 編集]**」アイコン（縦並びの省略記号）／「**[!UICONTROL オーディエンスを変更]**」の順にクリックし、アクティビティの最初のエクスペリエンスのオーディエンスを選択します。
 
    ![](assets/xt_change_audience.png)
 
-   オーディエンスライブラリが表示されます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、または   [新しいオーディエンスを作成](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。すべての参加者に同じエクスペリエンスを表示する場合は、「すべての訪問者数」を選択します。
+   オーディエンスライブラリが表示されます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、または[新しいオーディエンスを作成](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。すべての参加者に同じエクスペリエンスを表示する場合は、「すべての訪問者数」を選択します。
 
    >[!NOTE]
    >
@@ -93,14 +103,14 @@ Visual Experience Composer を使用すると、Target を有効にしたペー�
 
    >[!NOTE]
    >
-   >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合、オーディエンスがバックグラウンドで自動的にインポートされます。
+   >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
 
    表示された[!UICONTROL 編集]アイコン（縦並びの省略記号）をクリックし、「[!UICONTROL オーディエンスを削除]」をクリックして既存のオーディエンスを削除します。
 1. 「**[!UICONTROL エクスペリエンスのターゲット設定を追加]**」をクリックします。
 
    >[!NOTE]
    >
-   >オーディエンスに対してエクスペリエンスをターゲット設定する場合、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。オーディエンスを選択するように促すメッセージが表示されます。
+   >オーディエンスに対してエクスペリエンスをターゲット設定する場合は、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。オーディエンスを選択するように促すメッセージが表示されます。
 
 1. （オプション）「**[!UICONTROL 追加]**」をクリックして、ターゲットを設定したエクスペリエンスを追加で設定します。
 
