@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ Automated Personalization アクティビティワークフローは、他のア
 1. Visual Experience Composer（VEC）を使用するには、「**[!UICONTROL ビジュアル**]」（デフォルト）をクリックします。
 
    フォームベースの Experience Composer を使用する場合、「**[!UICONTROL フォーム]**」を選択します。この 2 つのコンポーザーについて詳しくは、「[エクスペリエンス](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)」を参照してください。
+
+   >[!NOTE]
+   >
+   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
 
 1. アクティビティ URL を確認または入力してから、「**[!UICONTROL 次へ]**」をクリックします。
 
