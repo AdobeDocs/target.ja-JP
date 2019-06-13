@@ -8,7 +8,7 @@ title: A/B テストの作成
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
    >[!NOTE]
    >
-   >VECおよびフォームベースのVECに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なVsについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
 
    問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)を参照してください。
 
