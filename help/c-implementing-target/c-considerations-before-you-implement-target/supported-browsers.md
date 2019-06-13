@@ -9,7 +9,7 @@ title: サポートされているブラウザー
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -20,13 +20,13 @@ source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
 
 TLS に関する追加の重要情報については、「[TLS（トランスポート層セキュリティ）暗号化の変更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)」を参照してください。
 
-## [!DNL Target] Standard/Premium のインターフェイス {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard/Premiumのインターフェイス {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 [!DNL[!DNL Target]] Standard/Premium] インターフェイスは、次のブラウザーおよびデバイスをサポートしています。
 
 | デバイスタイプ | ブラウザーのバージョン |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11.<br>**注意**： [!DNL Target] および Adobe Marketing Cloud では 2019 年 3 月から Microsoft Internet Explorer 11 がサポートされなくなります。この変更は [!DNL Target] オーサリングのみに影響し、エクスペリエンス配信には影響しません。Microsoft Edge または別のサポート対象ブラウザーへの切り替えをお願いします。</li><li>Microsoft Edge</li><li>Google Chrome（最新、最新の 1 つ前）</li><li>Mozilla Firefox（最新、最新の 1 つ前）</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome（最新、最新の 1 つ前）</li><li>Mozilla Firefox（最新、最新の 1 つ前）</li></ul> |
 | Mac | <ul><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
 
 ## コンテンツ配信 {#section_1045A946056441268D40025529918D3D}
