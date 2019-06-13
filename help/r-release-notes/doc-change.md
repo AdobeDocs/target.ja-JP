@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 6 月 14 日 | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | テキストと画像が更新されました。 |
+|  | [成功のために必要なトラフィックの見積もり](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 新しい画像を追加しました。 |
+|  | [Visual Experience Composer での Automated Personalization のエクスペリエンスのプレビュー](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | テキストと画像が更新されました。 |
+|  | [Target の Automated Personalization オファー](/help/c-activities/t-automated-personalization/ap-target-offers.md) | テキストと画像が更新されました。 |
 | 2019年6月13日 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | テキストと画像が更新されました。 |
 |  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md) | 中国でのTargetの使用に関する重要な注意事項を追加しました。 |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot;Target Standard/Premiumインターフェイス」セクションからMicrosoft Internet Explorer11（IE11）を削除しました。Targetは、IE11の互換性をサポートまたは維持しなくなりました。この変更は、Target UIにのみ影響します。コンテンツ配信は影響を受けません。この変更は、Adobe Analytics、Adobe Experience PlatformおよびAdobe Audience Managerによって行われた類似のお知らせに従います。サポートされているブラウザーに切り替えることをお勧めします。 |
