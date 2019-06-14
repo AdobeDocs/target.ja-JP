@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年6月14日 | [エクスペリエンスの作成](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | テキストと画像が更新されました。 |
+| 2019年6月14日 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | ユースケースシナリオを追加しました。 |
 |  | [エクスペリエンスのターゲット設定アクティビティの作成](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | テキストと画像が更新されました。 |
+|  | XT: [アクティビティURL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | テキストを更新しました。 |
+|  | XT: [エクスペリエンスの作成](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | テキストと画像が更新されました。 |
+|  | [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | テキストと画像が更新されました。 |
+|  | XT: [目標と設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | テキストと画像が更新されました。 |
+|  | XT: [指標の設定](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | テキストと図を更新しました。 |
 | 2019 年 6 月 14 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新しいFAQを追加しました。「特定の自動セグメントについて、他のオファーやエクスペリエンスと比較して、コンバージョン率がより大きいオファー/エクスペリエンスがあるのはなぜですか?&quot; |
 |  | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | テキストと画像が更新されました。 |
 |  | [成功のために必要なトラフィックの見積もり](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 新しい画像を追加しました。 |
