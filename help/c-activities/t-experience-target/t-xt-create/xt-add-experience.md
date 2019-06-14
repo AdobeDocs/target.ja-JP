@@ -1,96 +1,106 @@
 ---
-description: Experience Composer は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
+description: Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
-seo-description: Experience Composer は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
+seo-description: Adobe Target Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 seo-title: エクスペリエンスを作成
 solution: 'Target '
 title: エクスペリエンスを作成
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
 
-# エクスペリエンスを作成{#create-experience}
+# エクスペリエンスの作成{#create-experience}
 
-Experience Composer は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
-
-エクスペリエンスについて詳しくは、[エクスペリエンス](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
-
-1. 「**[!UICONTROL エクスペリエンスを追加]**」をクリックします。
-
-   >[!NOTE]
-   >
-   >オーディエンスに対してエクスペリエンスをターゲット設定する場合は、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。オーディエンスを選択するように促すメッセージが表示されます。
-
-1. アクティビティ URL の入力を求められたら、URL を入力します。`https://` を含む完全な URL を入力して、「**[!UICONTROL 続行]**」をクリックします。
-
-   「アカウントの基本設定」で指定されたページが Experience Composer（[エクスペリエンス](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)を参照）で開かれます。別のページを表示するには、地球のアイコンをクリックして、Experience Composer の「URL の選択」ボックスに URL を入力し、「**[!UICONTROL 続行]**」をクリックします。Target Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。
-
-   デフォルトでは、バナーの回転など JavaScript を含む要素については、Visual Experience Composer で変更できません。このような要素を Visual Experience Composer を使用して変更するには、JavaScript を無効にします。
-
-   >[!NOTE]
-   >
-   >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
+Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスです。
 
 1. 変更する要素を選択し、必要な変更をおこないます。
 
-   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。
+   XTアクティビティ [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)の作成時に、3つのガイドによるワークフロー（エクスペリエンス）の1つに、デフォルト [!UICONTROL のエクスペリエンスA] が [!UICONTROL すべての訪問者] のオーディエンスと共に表示されます。
+
+   ![すべての訪問者オーディエンス](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+
+   変更内容は、エクスペリエンスAに適用されます。次の手順で、「エクスペリエンスのターゲット設定 [!UICONTROL ] を追加」をクリックして、エクスペリエンスを追加します。
+
+   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。ハイライトされている要素は、VECを使用して変更できます。エクスペリエンスを変更するために要素上で実行できるアクションのリストについては [、Visual Experience Composerのオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
    Target Classic（旧称 Test&amp;Target）を使用してページに mbox を作成していた場合は、mbox 名を表示する要素として mbox が表示され、他の要素と同様に修正することができます。
 
-   エクスペリエンスを変更するために表示されるページの要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+1. エクスペリエンスを追加するには、「エクスペリエンスのターゲット設定 **[!A」をクリック]** します。
+
+   ![エクスペリエンスターゲット設定のリンクの追加](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+
+   オーディエンス [!UICONTROL を選択] ダイアログボックスが表示されます。オーディエンスにエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
+
+   オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、または[新しいオーディエンスを作成](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。すべての参加者に同じエクスペリエンスを表示する場合は、「すべての訪問者数」を選択します。
 
    >[!NOTE]
    >
-   >メインページ以外のソースから画像を提供する場合（例えば、akamai.net 上でホストされている画像を dell.com で提供する場合）、フロー図内のページのサムネールには画像が表示されません。
+   >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-1. エクスペリエンスの設計が終了したら、チェックマークのボタンをクリックします。
+   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。「カスタムパラメーター」から mbox を選択し、必要なパラメーターを指定します。
+
+   >[!NOTE]
+   >
+   >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
+
+1. エクスペリエンスをターゲットにする1つまたは複数のオーディエンスを選択し、 **[!UICONTROL 「完了]**」をクリックします。
+
+   ![エクスペリエンス B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
+
+   エクスペリエンスBが前の図に表示され、このエクスペリエンスが米国の訪問者のオーディエンスをターゲットにしていることがわかります。
+
+1. このエクスペリエンスに変更する要素を選択し、上記の手順1で説明した変更を行います。
+
+1. 上記の手順を繰り返して、必要に応じてターゲット設定したエクスペリエンスを追加します。
+
+1. エクスペリエンスの設計が終了したら、「 **[!UICONTROL 次へ」]** をクリックします。
 
    アクティビティ図が表示されます。
 
-   ![](assets/xt_diagram.png)
+   ![XTターゲティング図](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
-   エクスペリエンスにクロスドメインコンテンツが含まれる場合、サムネールは正確に表示されないことがあります（その場合はアイコンに置き換えられます）。
-1. 必要に応じて、追加のエクスペリエンスを作成します。
+1. （オプション） XTアクティビティを作成または編集中にオーディエンス/エクスペリエンスのペアをドラッグ&amp;ドロップして、ペアを目的の順序で並べ替えます。
 
-   >[!NOTE]
-   >
-   >XT アクティビティの作成または編集時に、ドラッグ＆ドロップでオーディエンス／エクスペリエンスのペアの順番を変更できます。訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。
+   訪問者は、上から下に順にエクスペリエンスの評価を行います。
 
-   ![](assets/move_experiences.jpg)
+   ![エクスペリエンスの移動](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
    エクスペリエンスのターゲット設定では、この順番が重要です。訪問者が最初のオーディエンス／エクスペリエンスのペアに該当する場合は、その最初のエクスペリエンスが配信されます。
 
    例えば、順番が重要であることを知らずに、XT アクティビティを作成したとします。その場合、エクスペリエンス B または C の条件に該当すると思っていた訪問者が、エクスペリエンス A に該当することになっていることに後で気が付くことがあります。こうした問題が生じるのは、各オーディエンスが相互に排他的ではなく、適切な順番になっていないことが原因です。例えば、エクスペリエンス A が米国、エクスペリエンス B がサンフランシスコ、エクスペリエンス C がカリフォルニアになっているとします。この例では、米国のユーザーは、サンフランシスコ在住でもカリフォルニアの他の地域在住でも、すべてエクスペリエンス A に該当することになります。オーディエンス／エクスペリエンスのペアは、アクティビティ全体を作り直さなくても、条件が狭い方から順に並べ替えることができます（この例では、サンフランシスコ &gt; カリフォルニア &gt; 米国）。
 
-## エクスペリエンスの名前の変更、編集または削除
+## エクスペリエンスの名前変更または編集
 
-A/B テストまたはエクスペリエンスターゲット設定（XT）アクティビティでは、エクスペリエンスの編集アイコン（3 つの縦並びの省略記号）をクリックして、次のオプションから必要に応じて選択できます。
+XTアクティビティのエクスペリエンス上の [!UICONTROL 編集] アイコン（3つの垂直の楕円）をクリックし、必要に応じて次のオプションから選択できます。
 
 * 名前変更
 * 編集
-* 削除
 
-![](assets/experience_edit.png)
+![名前変更および編集オプション](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-この手順を終了したら、「**[!UICONTROL 続行]」をクリックします。**
+## エクスペリエンスの削除
+
+**[!UICONTROL エクスペリエンス]** ページ（3ステップガイドのワークフローの最初の手順）で、3つの垂直方向の楕円/ **[!UICONTROL 削除をクリック]** します。
+
+![エクスペリエンスの削除](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## エクスペリエンスの複製
 
 エクスペリエンスのターゲット設定（XT）アクティビティでエクスペリエンスをコピーできるようになり、ゼロからエクスペリエンスを再作成しなくても、エクスペリエンスにマイナーな変更を加えられるようになりました。
 
-**[!UICONTROL エクスペリエンス]**ページ（3 ステップのガイドによるワークフローの最初の手順）で、3 つの縦並びの省略記号をクリックして、「**[!UICONTROL 複製]**」をクリックします。
+**[!UICONTROL エクスペリエンス]** ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]** をクリックします。
 
-![](assets/duplicate_experience.png)
+![エクスペリエンスの複製](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
-## トレーニングビデオ： Visual Experience Composer の使用
+## トレーニングビデオ：Visual Experience Composer の使用
 
 このビデオでは、Visual Experience Composer のオプションの使用に関する情報を提供しています。
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/17399?captions=jpn)
