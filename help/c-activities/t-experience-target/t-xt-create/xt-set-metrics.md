@@ -1,13 +1,13 @@
 ---
 description: エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 keywords: エクスペリエンスのターゲット設定;xt;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-seo-description: エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
+seo-description: Adobe Targetエクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功したかどうかを判断します。
 seo-title: 指標の設定
 solution: Target,standard
 title: 指標の設定
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. アクティビティの目標を指定します。
 1. [成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を選択します。
 
-   ![](assets/ab_metrics.png)
+   ![成功指標を選択](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    [!UICONTROL 成功指標]ページには、アクティビティ用に選択できる成功指標の一覧が表示されます。成功指標は次のカテゴリに分類されます。
 
@@ -61,4 +61,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * コンバージョン、収益、エンゲージメントの指標の理解と構築
 * クリック追跡指標の構築
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=jpn)
