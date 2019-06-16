@@ -8,14 +8,14 @@ title: 多変量分析テストのベストプラクティス
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # 多変量分析テストのベストプラクティス{#multivariate-test-best-practices}
 
-多変量分析（MVT）のテストアクティビティの作成および実行時に発生する可能性のある、パフォーマンスの向上、問題の回避、既知の問題の修正に役立つヒント [!DNL Adobe Target]です。
+多変量分析テスト（MVT）アクティビティの作成と実行時に発生する可能性のある、パフォーマンスの向上、問題の回避、既知の問題の修正に役立つヒントです [!DNL Adobe Target]。
 
 ## 計画 {#section_4D4A1F6226F042379BF48DB753608579}
 
