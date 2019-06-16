@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -29,11 +29,17 @@ Automated Personalization アクティビティワークフローは、他のア
 
 1. Visual Experience Composer（VEC）を使用するには、「**[!UICONTROL ビジュアル**]」（デフォルト）をクリックします。
 
-   フォームベースの Experience Composer を使用する場合、「**[!UICONTROL フォーム]**」を選択します。この 2 つのコンポーザーについて詳しくは、「[エクスペリエンス](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)」を参照してください。
+   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
    >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >
+   >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+   >
+   >前述の図の [!UICONTROL 「勤務先を選択」] オプションは [、Target Premium](/help/c-intro/intro.md) 機能です。このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
+
+1. （条件付き） Target Premiumのお客様の場合は、ワークスペース [を選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
 
 1. アクティビティ URL を確認または入力してから、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -45,7 +51,6 @@ Automated Personalization アクティビティワークフローは、他のア
 
    ![自動パーソナライゼーションアクティビティの作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)を参照してください。
 1. アクティビティに名前を付けるには、「名前」フィールドをクリックして、アクティビティ名を入力します。
 
    ![名前フィールド](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
