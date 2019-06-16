@@ -8,7 +8,7 @@ title: A/B テストの作成
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -24,23 +24,24 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
    >[!NOTE]
    >
    >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば [!UICONTROL 、Recommendations] は [Target Premium機能](/help/c-intro/intro.md#premium)です。
+   >
+   >各種アクティビティのタイプについて詳しくは [、アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) および [Targetアクティビティガイド](/help/c-activities/target-activities-guide.md)を参照してください。
 
-   各種アクティビティのタイプについて詳しくは [、アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) および [Targetアクティビティガイド](/help/c-activities/target-activities-guide.md)を参照してください。
-
-   ![A/Bテストアクティビティの作成ダイアログボックス](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![A/Bテスト用文字の作成](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. 必要に応じて **[!UICONTROL 、「ビジュアル（デフォルト）]**」を選択します。
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) を参照してください。
+   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
    >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >
+   >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
+   >
+   >[!UACROL [の前の「勤務先」](/help/administrating-target/c-user-management/property-channel/property-channel.md) オプションは [、Target Premium](/help/c-intro/intro.md) 機能です。このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
 
-   問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)を参照してください。
-
-1. （条件付き） [Target Premium](/help/c-intro/intro.md#premium) のお客様の場合は [、ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
-
+1. （条件付き） Target Premiumのお客様の場合は、ワークスペースを選択します。
 
 1. [アクティビティURLを指定](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)し、「 **[!UICONTROL 次へ]**」をクリックします。
 
