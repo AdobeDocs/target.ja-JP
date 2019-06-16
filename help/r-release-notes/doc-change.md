@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年6月17日 | 多変量分析テストの作成 | テキストと画像が更新されました。 |
 | 2019 年 6 月 16 日 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | マイナーテキスト編集を行いました。 |
 |  | [多変量分析テストのベストプラクティス](/help/c-activities/c-multivariate-testing/best-practices.md) | マイナーテキスト編集を行いました。 |
 |  | [多変量分析テストの計画](/help/c-activities/c-multivariate-testing/plan-mvt.md) | マイナーテキスト編集を行いました。 |
