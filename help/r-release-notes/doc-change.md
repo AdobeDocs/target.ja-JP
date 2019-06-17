@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年6月18日 | [アクティビティ URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | テキストと画像が更新されました。 |
+|  | [組み合わせの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | テキストと画像が更新されました。 |
+|  | [多変量分析テストのエクスペリエンスのプレビュー](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | テキストと画像が更新されました。 |
+|  | [目標と設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | テキストと画像が更新されました。 |
+|  | [指標の設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | テキストと図を更新しました。 |
+|  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | テキストと画像が更新されました。 |
+|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md) | テキストと画像が更新されました。 |
+|  | [アクティビティの変更ログ](/help/c-activities/change-log.md) | テキストと図を更新しました。 |
+|  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | テキストと画像が更新されました。 |
 | 2019年6月17日 | [多変量分析テストの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | テキストと画像が更新されました。 |
 | 2019 年 6 月 16 日 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | マイナーテキスト編集を行いました。 |
 |  | [多変量分析テストのベストプラクティス](/help/c-activities/c-multivariate-testing/best-practices.md) | マイナーテキスト編集を行いました。 |
