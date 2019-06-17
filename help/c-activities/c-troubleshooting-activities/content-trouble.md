@@ -9,7 +9,7 @@ title: コンテンツ配信のトラブルシューティング
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -34,9 +34,11 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 1. 「**[!UICONTROL mbox.js]**」または「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL 認証トークンを生成]**」をクリックします。
 
-   ![](assets/gen-auth-token.png)
+   ![認証トークンの生成](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 生成されたトークンをパラメーターとして URL に追加して、高度なデバッグツールの 1 つを有効にします。
+
+   ![認証トークン](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -148,20 +150,20 @@ mbox 応答をブラウザーで確認するか、mboxTrace を使用して確�
 
 ## mboxがサイトで実行されない。
 
-at. jsは、無効なdoctypeを使用している場合、Target mboxは実行しません。at. jsにはHTML5doctypeが必要です。
+at. jsは、無効なdoctypeを使用している場合、Target mboxは実行しません。a.js には HTML5 の doctype が必要です。
 
 ## トレーニングビデオ
 
-以下のビデオでは、この記事で説明されている概念について詳しく説明しています。
+以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
 ### 拡張機能の追加
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=jpn)
 
 ### 基本的な Target デバッグ
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=jpn)
 
 ### Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=jpn)
