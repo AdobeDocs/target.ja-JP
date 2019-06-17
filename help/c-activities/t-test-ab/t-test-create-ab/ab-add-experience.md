@@ -7,7 +7,7 @@ solution: 'Target '
 title: エクスペリエンスの追加
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Visual Experience Composer（VEC）は、ページ上のエクスペリエンス
    >
    >メインページ以外のソースから画像を提供する場合（例えば、akamai.net 上でホストされている画像を dell.com で提供する場合）、フロー図内のページのサムネールには画像が表示されません。
 
-1. エクスペリエンスの設計が終了したら **[!S、「保存」]** をクリックします。
+1. エクスペリエンスの設計が終了したら **[!UICONTROL 、「保存]** 」をクリックします。
 
 ## エクスペリエンス名の変更
 
