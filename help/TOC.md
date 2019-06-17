@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
+source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [TLS（Transport Layer Security）暗号化の変更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + クライアント側 Web：Target の実装 {#client-side}
-      + [概要:Targetをクライアント側Webに実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [概要：Target をクライアント側 Web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + at.js の仕組み {#at-js}
          + [at.js の仕組みの概要](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [at.js によるちらつきの制御方法](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -75,27 +75,27 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [シングルページアプリケーションの実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js 関数 {#functions-overview}
          + [at.ｊs 関数の概要](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe. target. getOffer（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe. target. getOffers（）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe. target. applyOffer（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe. target. applyOffers（）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe. target. triggerView（）- at. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe. target. trackEvent（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [mboxCreate（）- at. js1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
          + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
          + [mboxDefine() と mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
          + [sendNotifications（）- at. js2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-         + [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)      
+         + [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Target でのクラウドベースのインスタンスの使用](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
       + at.js に関するよくある質問 {#faq-at-js}
          + [at.js の FAQ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [グローバル mbox に関するよくある質問](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [at.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [at. js1. xからat. js2. xへのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+      + [at.js 1.x から at.js 2.x へのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [at.js の cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js の実装 {#mbox-implement}
          + [mbox.js の実装の概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
@@ -133,6 +133,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Android - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [モバイル VEC でのクリック追跡のセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
+         + [GREK](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -172,7 +173,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
    + [Target のアクティビティのタイプ](c-activities/target-activities-guide.md)
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
-      + [A/B テストを実行すべき期間はどのくらいですか](c-activities/t-test-ab/sample-size-determination.md)
+      + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
       + [9 つの一般的な A/B テストの落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B テストの作成 {#create}
          + [テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
@@ -200,7 +201,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
-   + SPA 向けのエクスペリエンスのターゲット設定 {#experience-targeting}
+   + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
       + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
          + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
@@ -225,7 +226,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations アクティビティ](c-activities/recommendations-activity.md)
    + [アクティビティを編集またはドラフトとして保存](c-activities/edit-activity.md)
-   + [優先順位](c-activities/priority.md)
+   + [優先度](c-activities/priority.md)
    + [アクティビティの設定](c-activities/activity-settings.md)
    + 成功指標 {#success-metrics}
       + [成功指標](c-activities/r-success-metrics/success-metrics.md)
@@ -244,7 +245,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
    + [オーディエンスの概要](c-target/target.md)
    + [ターゲット設定の仕組み](c-target/target-how-target-works.md)
    + オーディエンスの作成 {#create-audiences}
-      + [次に、](c-target/c-audiences/audiences.md)
+      + [作成](c-target/c-audiences/audiences.md)
       + [Target でのオーディエンスの構築](c-target/c-audiences/create-audience.md)
       + オーディエンスのカテゴリ {#categories-audiences}
          + [オーディエンスのカテゴリの概要の](c-target/c-audiences/c-target-rules/target-rules.md)
@@ -292,8 +293,8 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + Visual Experience Composer のトラブルシューティング {#troubleshoot-composer}
          + [Visual Experience Composer のトラブルシューティングの概要](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Visual Experience Composer と拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-         + [Visual Experience Composerのトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-         + [拡張Experience Composerのトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+         + [Visual Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+         + [拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [ブラウザーでの混在するコンテンツの有効化](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [ページ修正のシナリオ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
@@ -361,12 +362,12 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
    + [オファーとしての Recommendations](c-recommendations/recommendations-as-an-offer.md)
-   + よくある質問（FAQ） {#recommendations-faq}
+   + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Recommendations と電子メールの統合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Recommendations フィード処理サーバーで使用される IP アドレス](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Recommendations Classic と Target Premium の Recommendations アクティビティ](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classicドキュメント](/help/c-recommendations/recommendations-classic-documentaton.md)
+   + [Recommendations Classic ドキュメント](/help/c-recommendations/recommendations-classic-documentaton.md)
 + Target のトラブルシューティング {#troubleshoot}
    + [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)
    + [制限](r-troubleshooting-target/target-limits.md)
