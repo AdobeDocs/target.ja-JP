@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ Automated Personalization アクティビティワークフローは、他のア
 
    ![アクティビティの作成:自動パーソナライゼーション](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 対象のチャネルとして「Web」を指定します。
-
-   「モバイルアプリ」、「電子メール」または「その他 / API」も選択できます。
-
 1. Visual Experience Composer（VEC）を使用するには、「**[!UICONTROL ビジュアル**]」（デフォルト）をクリックします。
+
+   ![自動パーソナライゼーションアクティビティの作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
@@ -48,8 +46,6 @@ Automated Personalization アクティビティワークフローは、他のア
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] の両方が一致します。
 
    指定された URL のページが Visual Experience Composer で開きます。
-
-   ![自動パーソナライゼーションアクティビティの作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. アクティビティに名前を付けるには、「名前」フィールドをクリックして、アクティビティ名を入力します。
 
