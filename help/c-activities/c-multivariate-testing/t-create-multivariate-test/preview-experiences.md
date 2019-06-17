@@ -7,7 +7,7 @@ title: 多変量分析テストのエクスペリエンスのプレビュー
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 1. リストでエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. 多変量分析テストからエクスペリエンスを除外するには、そのエクスペリエンスを選択して、「**[!UICONTROL 除外]**」をクリックします。
+1. 多変量分析テストから1つ以上のエクスペリエンスを除外するには、目的のエクスペリエンスを選択し、「除外」をクリック **[!UICONTROL ]** します。
 
-   ![](assets/excludeexperience.png)
+   ![エクスペリエンスの除外](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
