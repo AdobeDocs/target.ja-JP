@@ -9,7 +9,7 @@ title: アクティビティの設定
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -53,11 +53,11 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 * [A/B テスト](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [SPA 向けのエクスペリエンスのターゲット設定](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [エクスペリエンスのターゲット設定](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [多変量分析テスト](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [推奨事項](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ： アクティビティの設定**
+## トレーニングビデオ： アクティビティの設定
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -67,4 +67,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=jpn)
