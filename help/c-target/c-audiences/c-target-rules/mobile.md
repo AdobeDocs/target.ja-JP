@@ -1,21 +1,21 @@
 ---
-description: モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づく Target モバイルデバイスです。
+description: モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲットにするオーディエンスを作成します。
 keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-seo-description: モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づく Target モバイルデバイスです。
-seo-title: モバイル
+seo-description: Adobe Targetのオーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲットにします。
+seo-title: Adobe Targetのモバイルオーディエンス
 solution: 'Target '
 title: モバイル
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # モバイル{#mobile}
 
-モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づく Target モバイルデバイスです。
+モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲットにするオーディエンスを作成します。
 
 例えば、携帯電話からページに訪問するユーザーに対しては、コンピューターから訪問するユーザーとは別のコンテンツを表示するとします。この場合、モバイルオーディエンスを選択して「**[!UICONTROL 携帯電話]」オプションを選択し、携帯電話の種類や画面のサイズ（ピクセル単位）など重要となる特定の詳細を追加します。**
 
@@ -35,19 +35,16 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 >[!NOTE]
 >
->モバイル SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、 [at.jsバージョン1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
+>モバイル SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、[at.js バージョン 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
 
 複数のモバイルデバイスプロパティを選択できます。OR を使用して複数の選択肢を結合できます。
 
 （at.js または Mobile SDK を使用していない）カスタム統合を使用しているユーザーは、これらのパラメーターを手動で収集して mbox パラメーターとして渡すことができます。
 
-1. [!DNL Target] インターフェイスで **[!UICONTROL 、Audiences]** /Audiences **[!UICONTROL を作成をクリック]** します。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付けます。
-1. ルール **[!UICONTROL を追加]** / **[!UICONTROL モバイル]** をクリックします。
-
-   ![](assets/target_mobile.png)
-
-1. **[!UICONTROL 「選択」をクリック]** し、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL モバイル]**」をクリックします。
+1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
    * デバイスのマーケティング名
    * デバイスモデル
@@ -66,12 +63,16 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
    >[!NOTE]
    >
-   >[地域設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) を使用してモバイルデバイスの通信事業者にターゲット設定できます。
+   >[地域設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
-1. （オプション）「**[!UICONTROL ルールを追加]」をクリックして、オーディエンス用の追加のルールを設定します。**
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ: Audiencesの作成
+次の図に、モバイルデバイスであるGoogleによって生成されたデバイスを使用した訪問者のターゲットを示します。
+
+![Targetモバイルデバイス](assets/target_mobile.png)
+
+## トレーニングビデオ：オーディエンスの作成
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
