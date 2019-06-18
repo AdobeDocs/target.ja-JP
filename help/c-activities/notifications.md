@@ -8,7 +8,7 @@ title: アクティビティの通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -23,7 +23,7 @@ Target は、Adobe Pulse を使用して、他の Adobe Experience Cloud ソリ�
 
 アクティビティ作成ワークフロー内を除いて、[!DNL Target] の任意の場所から通知にアクセスできます。ページヘッダーにあるベルのアイコンをクリックして、通知ウィジェットの表示／非表示を切り替えます。
 
-![](assets/notifications-shell.png)
+![通知アイコン](assets/notifications-shell.png)
 
 [!DNL Target] は、すべてのアクティビティタイプに関して 2 種類の通知を送信します。
 
