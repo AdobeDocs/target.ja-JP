@@ -1,29 +1,29 @@
 ---
-description: 特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
+description: 特定のプロファイルパラメーターを満たす訪問者をターゲットにするためのオーディエンスを作成します。
 keywords: visitorプロファイル、ターゲット訪問者プロファイル
-seo-description: 特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
+seo-description: Adobe Targetでオーディエンスを作成して、特定のプロファイルパラメーターを満たす訪問者をターゲットにします。
 seo-title: 訪問者プロファイル
 solution: 'Target '
-title: 訪問者プロファイル
+title: Adobe Targetを使用して訪問者プロファイルをターゲットにするためのオーディエンスの作成
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 訪問者プロファイル{#visitor-profile}
 
-特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
+特定のプロファイルパラメーターを満たす訪問者をターゲットにするためのオーディエンスを作成します。
 
-1. [!DNL Target] インターフェイスで **[!UICONTROL 、Audiences]** /Audiences **[!UICONTROL を作成をクリック]** します。
+1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付けます。
-1. ルール **[!UICONTROL を追加]** / **[!UICONTROL 訪問者プロファイル]** をクリックします。
+1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**」をクリックします。
 
    ![](assets/target_visitor_profile.png)
 
-1. **[!UICONTROL 「選択」をクリック]** し、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
    訪問者プロファイルのパラメーターは mbox（プロファイル）を介して渡されます。新しい訪問者と再訪問者のいずれもターゲットに設定することができます。さらに、すべてのユーザーを含めることも可能です。
 
@@ -40,14 +40,14 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
    カスタムプロファイルパラメーターと `user.` パラメーターをターゲット設定できます。アクティビティのターゲット設定で使用するパラメーターを選択します。必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。
 
-1. （オプション）「**[!UICONTROL ルールを追加]」をクリックして、オーディエンス用の追加のルールを設定します。**
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ: Audiencesの作成
+## トレーニングビデオ：オーディエンスの作成
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
