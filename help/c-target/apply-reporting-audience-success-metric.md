@@ -1,13 +1,13 @@
 ---
 description: ユーザーがレポート用オーディエンスの条件を満たしていると見なすための成功指標を選択します。
 keywords: ターゲット設定、オーディエンス、レポート、成功指標
-seo-description: ユーザーがレポート用オーディエンスの条件を満たしていると見なすための成功指標を選択します。
-seo-title: 成功指標へのレポート用オーディエンスの適用
+seo-description: レポートオーディエンスのユーザーに資格を与える成功指標をAdobe Targetで選択します。
+seo-title: Adobe Targetの成功指標へのレポートオーディエンスの適用
 solution: 'Target '
 title: 成功指標へのレポート用オーディエンスの適用
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
