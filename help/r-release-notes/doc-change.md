@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -21,50 +21,16 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年6月18日 | [アクティビティ URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | テキストと画像が更新されました。 |
-|  | [組み合わせの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | テキストと画像が更新されました。 |
-|  | [多変量分析テストのエクスペリエンスのプレビュー](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | テキストと画像が更新されました。 |
-|  | [目標と設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | テキストと画像が更新されました。 |
-|  | [指標の設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | テキストと図を更新しました。 |
-|  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | テキストと画像が更新されました。 |
-|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md) | テキストと画像が更新されました。 |
-|  | [アクティビティの変更ログ](/help/c-activities/change-log.md) | テキストと図を更新しました。 |
-|  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | テキストと画像が更新されました。 |
-| 2019年6月17日 | [多変量分析テストの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | テキストと画像が更新されました。 |
-| 2019 年 6 月 16 日 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | マイナーテキスト編集を行いました。 |
-|  | [多変量分析テストのベストプラクティス](/help/c-activities/c-multivariate-testing/best-practices.md) | マイナーテキスト編集を行いました。 |
-|  | [多変量分析テストの計画](/help/c-activities/c-multivariate-testing/plan-mvt.md) | マイナーテキスト編集を行いました。 |
-| 2019年6月14日 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | ユースケースシナリオを追加しました。 |
-|  | [エクスペリエンスのターゲット設定アクティビティの作成](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | テキストと画像が更新されました。 |
-|  | XT: [アクティビティURL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | テキストを更新しました。 |
-|  | XT: [エクスペリエンスの作成](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | テキストと画像が更新されました。 |
-|  | [エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | テキストと画像が更新されました。 |
-|  | XT: [目標と設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | テキストと画像が更新されました。 |
-|  | XT: [指標の設定](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | テキストと図を更新しました。 |
+| 2019年6月20日 | [プロモーションの追加](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | アクティビティの条件により推奨される項目に対して重複排除されるプロモーションに関する情報を追加しました。 |
 | 2019 年 6 月 14 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新しいFAQを追加しました。「特定の自動セグメントについて、他のオファーやエクスペリエンスと比較して、コンバージョン率がより大きいオファー/エクスペリエンスがあるのはなぜですか?&quot; |
-|  | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | テキストと画像が更新されました。 |
-|  | [成功のために必要なトラフィックの見積もり](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 新しい画像を追加しました。 |
-|  | [Visual Experience Composer での Automated Personalization のエクスペリエンスのプレビュー](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | テキストと画像が更新されました。 |
-|  | [Target の Automated Personalization オファー](/help/c-activities/t-automated-personalization/ap-target-offers.md) | テキストと画像が更新されました。 |
-|  | [除外の管理](/help/c-activities/t-automated-personalization/managing-exclusions.md) | テキストと画像が更新されました。 |
-| 2019年6月13日 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | テキストと画像が更新されました。 |
 |  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md) | 中国でのTargetの使用に関する重要な注意事項を追加しました。 |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot;Target Standard/Premiumインターフェイス」セクションからMicrosoft Internet Explorer11（IE11）を削除しました。Targetは、IE11の互換性をサポートまたは維持しなくなりました。この変更は、Target UIにのみ影響します。コンテンツ配信は影響を受けません。この変更は、Adobe Analytics、Adobe Experience PlatformおよびAdobe Audience Managerによって行われた類似のお知らせに従います。サポートされているブラウザーに切り替えることをお勧めします。 |
 | 2019年6月11日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A4Tを使用している場合にトラッキングサーバーを指定することを示す注記を削除しました。 |
-|  | [A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | テキストと画像が更新されました。 |
-|  | A/Bテスト: [アクティビティURL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | テキストと画像が更新されました。 |
-|  | A/Bテスト: [オーディエンスの選択](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | テキストと画像が更新されました。 |
-|  | A/Bテスト: [目標と設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | テキストと画像が更新されました。 |
-|  | A/Bテスト: [指標の設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | テキストと画像が更新されました。 |
-|  | [A/B テストの複数のエクスペリエンスバージョン](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | テキストと画像が更新されました。 |
 |  | [アクティビティ](/help/c-activities/activities.md) | 削除したアクティビティを復元できないことを示しました。ベストプラクティスとして、必要に応じてアーカイブをアーカイブ解除できるように、アクティビティをアーカイブできます。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at. js2. xでExperience Cloud Debuggerが完全にサポートされていないことを説明する制限が取り除かれました。 |
-|  | [レポート](/help/c-reports/reports.md) | テキストと画像が更新されました。 |
 | 2019 年 6 月 8 日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新しい節を追加しました。「シナリオ:nullチェックロジックを使用して4x2デフォルトのRecommendationsデザインを作成します」。 |
 |  | [Adobe Target Standard および Premium のトレーニングビデオ](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 新しいAdobe Targetチュートリアルサイトへのリンクを更新しました。 |
 |  | [iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | テキストおよびコードスニペットが更新されました。 |
-|  | [訪問者プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | マイナーテキスト編集を行いました。 |
-|  | [電子メール画像 adbox のテスト](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | マイナーテキスト編集を行いました。 |
 | 2019 年 6 月 7 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | `options > page` パラメーターの説明を更新しました。 |
 |  | [管理者の最初の手順](/help/administrating-target/start-target.md) | 記事全体を更新しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target19.6.1リリースの暫定リリースノートを追加しました。 |
