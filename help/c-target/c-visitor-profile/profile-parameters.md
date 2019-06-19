@@ -8,7 +8,7 @@ title: プロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 「[!UICONTROL スクリプト情報]」タブには、「名前」、「ステータス」、「トークンの種類」、「スクリプト ID」、「変更ログ」、「説明」の各情報が含まれています。
 
-![](assets/profile_script_info_card.png)
+![プロファイルスクリプト情報カード](assets/profile_script_info_card.png)
 
 「[!UICONTROL スクリプト使用状況]」タブには、選択したプロファイルスクリプトを参照するアクティビティ（およびワークスペース）が一覧表示されます。
 
-![](assets/profile_script_info_card_usage_tab.png)
+![プロファイルスクリプト情報カード/スクリプトの使用状況タブ](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
