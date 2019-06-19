@@ -2,13 +2,13 @@
 description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
 keywords: targetドキュメントの変更ログ;ドキュメントの更新
 seo-description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
-seo-title: ドキュメントの変更点
+seo-title: ドキュメントの変更点Adobe Target製品ドキュメント
 solution: 'Target '
 title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
