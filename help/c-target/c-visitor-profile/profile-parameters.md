@@ -1,35 +1,33 @@
 ---
-description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、キャンペーンで使用可能な訪問者に関する情報を提供します。
+description: プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、Adobe Targetアクティビティで使用できる訪問者に関する情報を提供します。
 keywords: プロファイルスクリプト、プロファイルスクリプト属性、プロファイルスクリプトのベストプラクティスdebug、デバッグ
-seo-description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、キャンペーンで使用可能な訪問者に関する情報を提供します。
-seo-title: プロファイル属性
+seo-description: プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、Adobe Targetアクティビティで使用できる訪問者に関する情報を提供します。
+seo-title: Adobe Targetのプロファイル属性
 solution: 'Target '
 title: プロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # プロファイル属性{#profile-attributes}
 
-プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、キャンペーンで使用可能な訪問者に関する情報を提供します。
+プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、アクティビティで使用できる訪問者に関する情報を提供します。
 
-## プロファイル属性 {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、キャンペーンで使用可能な訪問者に関する情報を提供します。
-
-訪問者が閲覧したり、別のセッションに戻ったりするとき、保存されたプロファイル属性を使用してコンテンツをターゲット設定することや、セグメントフィルターの情報を記録することができます。
+訪問者がWebサイトを閲覧したり、訪問者が別のセッションに戻ったりするとき、保存されたプロファイル属性を使用して、コンテンツのターゲット設定や、セグメントフィルターの情報の記録を行うことができます。
 
 プロファイル属性を設定するには、 **[!UICONTROL Audiences]** / **[!UICONTROL プロファイルスクリプトをクリックします。]**
+
+![「プロファイルスクリプト」タブ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 以下のタイプのプロファイル属性を利用できます。
 
 | パラメータータイプ | 説明 |
 |--- |--- |
-| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、Adobe Target APIドキュメントの [プロファイルの更新](http://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**** 注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、Adobe Target APIドキュメントの [プロファイルの更新](http://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
 | script | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -56,7 +54,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
-![](assets/profile-script.png)
+![プロファイルスクリプトの作成ダイアログボックス](assets/profile-script.png)
 
 プロファイルスクリプトは、各場所リクエストでプロファイル属性「catchers」を実行します。場所リクエストを受信すると、Target はどのアクティビティを実行するかを決定し、そのアクティビティおよびそのエクスペリエンスに適したコンテンツを表示し、アクティビティの成功を追跡し、関連するプロファイルスクリプトを実行します。これによって、訪問者の場所、時間帯、訪問者がサイトを訪問した回数、購入歴があるかなど、訪問に関する情報を追跡できます。この情報は次に、訪問者のプロファイルに追加され、サイトでの訪問者のアクティビティをより詳細に追跡できます。
 
@@ -70,10 +68,10 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* コード内で、`user.get('parameterName')` &#39;) を使用して、プロファイルスクリプト属性をいくつか参照します（定義中のパラメーター自体も含む）。
-* `user.setLocal('variable_name', 'value')` &#39;) を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。変数を参照 `user.getLocal('variable_name')` します。これは、最後のリクエストの日時を参照する場合に便利です。
-* パラメーターおよび値の大文字と小文字は区別されます。キャンペーンまたはテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
-* より多くのJavaScript構文については、後述の「スクリプトプロファイルパラメーターのJavaScriptリファレンス」を参照してください。
+* コード内で、`user.get('parameterName')` を使用して、プロファイルスクリプト属性をいくつか参照します（定義中のパラメーター自体も含む）。
+* `user.setLocal('variable_name', 'value')` を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。変数を参照 `user.getLocal('variable_name')` します。これは、最後のリクエストの日時を参照する場合に便利です。
+* パラメーターおよび値の大文字と小文字は区別されます。アクティビティまたはテスト中に受け取るパラメーターと値の大文字と小文字を一致させます。
+* その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
 
 ## プロファイルスクリプト情報カードの表示 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -97,7 +95,7 @@ if (mbox.name == 'Track_Interest') {
 
 
 
-## Targetは、特定の状況でプロファイルスクリプトを無効にします {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
+## 特定の状況での Target によるプロファイルスクリプトの無効化 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
 [!DNL Target] は、実行に時間がかかりすぎる場合や多くの命令がある場合など、特定の状況で、プロファイルスクリプトを自動的に無効化します。
 
@@ -116,7 +114,7 @@ if (mbox.name == 'Track_Interest') {
 * 使用される JavaScript 命令が多すぎる。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * 後述の[ベストプラクティス](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)の節で取り上げられている項目に従っていない。
 
-## ベストプラクティス {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
+## ベストプラクティス{#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
 
 次のガイドラインは、エラーや失敗をできるだけなくした簡潔なプロファイルスクリプトを記述するためのもので、正常に失敗するコードを記述することで、プロファイルスクリプトの処理時にシステムスクリプトの停止が起こらないようにするものです。これらのガイドラインは、効果的に実行されることが証明されたベストプラクティスによるものです。このガイドラインは、Rhino 開発者コミュニティによる原則および推奨事項に従い適用されるものです。
 
@@ -130,7 +128,7 @@ if (mbox.name == 'Track_Interest') {
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
 * 詳細については、JS Rhinoエンジンのドキュメントを参照してください。 [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
-## 相互に排他的なアクティビティをテストするプロファイルスクリプト {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+## 相互に排他的なアクティビティをテストするためのプロファイルスクリプト {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 プロファイル属性を使用すると、同じ訪問者を各アクティビティに参加させずに、複数のアクティビティを比較するテストを設定することができます。
 
@@ -143,7 +141,7 @@ if (mbox.name == 'Track_Interest') {
 * プロファイルスクリプトは、アクティビティの開始前に実行する必要があります。また、アクティビティの実行中は変更しないでください。
 * この手法ではアクティビティのトラフィック量が減るので、必要なアクティビティ実行期間が長くなる場合があります。アクティビティの期間を推定する際は、この点を考慮に入れてください。
 
-### 2つのアクティビティの設定
+### 2 つのアクティビティの設定
 
 異なるアクティビティを閲覧するそれぞれのグループに訪問者を分けるには、プロファイル属性を作成する必要があります。プロファイル属性によって、訪問者を複数のグループのいずれかに分類することができます。「twogroups」というプロファイル属性を設定するには、次のスクリプトを作成します。
 
@@ -172,7 +170,7 @@ if (!user.get('twogroups')) {
 
 ユーザープロファイルパラメーター `user.twogroups` が GroupB に指定した値と一致するように 2 番目のキャンペーンを設定します。
 
-### 3つ以上のアクティビティの設定
+### 3 つ以上のアクティビティの設定
 
 相互に排他的なアクティビティを 3 つ以上設定する方法は、2 つのアクティビティの場合と同様ですが、アクティビティごとにグループが作成されるようにプロファイル属性 JavaScript を変更して、各アクティビティを閲覧する訪問者を決める必要があります。乱数の生成は、作成するグループの数が奇数か偶数かによって異なります。
 
@@ -218,7 +216,7 @@ if (!user.get('threegroups')) {
 }
 ```
 
-## Debugプロファイルスクリプト {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
+## プロファイルスクリプトのデバッグ {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
 プロファイルスクリプトのデバッグには、次のメソッドを使用できます。
 
@@ -236,7 +234,7 @@ if (!user.get('threegroups')) {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークン]**を生成をクリックして生成できる認証トークンが必要です。
+   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークン]** を生成をクリックして生成できる認証トークンが必要です。
 
    その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
 
@@ -244,21 +242,21 @@ if (!user.get('threegroups')) {
 
    ![](assets/debug_profile_script_2.png)
 
-## プロファイルスクリプトのFAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
+## プロファイルスクリプトの FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
 プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の[データを Target に送信する方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)を使用する必要があります。データを Target に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
-## スクリプトプロファイルパラメーターのJavaScriptリファレンス
+## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 
-スクリプトプロファイルパラメーターを効率的に使用するには、シンプルなJavaScriptの知識が必要です。ここでは、この機能を使用して生産性を生産できるようにするためのクイックリファレンスについて説明します。
+スクリプトプロファイルパラメーターを効率的に使用するには、JavaScript に関する基本的な知識が必要です。こセクションは、この機能を使用してわずか数分で生産性を高めるためのクイックリファレンスの役割を担います。
 
-scriptプロファイルパラメーターは、&quot;mbox/プロファイル」タブの下にあります。JavaScriptの種類（文字列、整数、配列など）を返すJavascriptプログラムを作成できます。
+スクリプトプロファイルパラメーターは、「mbox/プロファイル」タブの下にあります。JavaScript の種類（文字列、整数、配列など）を返す Javascript プログラムを記述できます。
 
-### scriptプロファイルパラメーターの例
+### スクリプトプロファイルパラメーターの例
 
-**名前:***user. recency*
+**名前：***user. recency*
 
 ```
 var dayInMillis = 3600 * 24 * 1000;
@@ -271,9 +269,9 @@ if (lastPurchaseTime) {
 }
 ```
 
-日の変数をミリ秒単位で作成します。mbox名が指定されている `orderThankyouPage`場合は、現在の日時の値を取るように名前を付け `lastPurchaseTime` たローカル（非表示）のユーザープロファイル属性を設定します。前回の購入時間の値が読み取り、定義されている場合は、前回の購入時間以降に渡された時刻を返します（最終購入からの日数）。
+日の変数をミリ秒単位で作成します。mbox 名が `orderThankyouPage` の場合は、現在の日付と時間の値を取得するために、`lastPurchaseTime` と名前を付けたローカル（非表示）のユーザープロファイル属性を設定します。前回購入時間の値が読み取られており、その値が定義されている場合は、1 日のミリ秒数で割り算された、前回購入時間以降に経過した時間を返します（前回購入からの日数になります）。
 
-**名前:***user. frequency*
+**名前：***user. frequency*
 
 ```
 var frequency = user.get('frequency') || 0;
@@ -282,9 +280,9 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-頻度と呼ばれる変数を作成し、前の値のいずれかに初期化して、以前の値がない場合は0にします。mbox名がある `orderThankyouPage`場合、インクリメント値が返されます。
+頻度と呼ばれる変数を作成し、以前の値、または以前の値がない場合は 0 に初期化します。mbox 名が `orderThankyouPage` の場合、増分された値が返されます。
 
-**名前:***user. morearyValue*
+**名前：***user.monetaryValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
@@ -293,46 +291,46 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-変数を作成 `monetaryValue`し、特定の訪問者の現在の値を検索します（以前の値がない場合は0に設定します）。mbox名が指定 `orderThankyouPage`されている場合、mboxに渡される `orderTotal` パラメーターの前と値を追加することによって、新しい金額が返されます。
+`monetaryValue` と呼ばれる変数を作成し、特定の訪問者の現在の値を検索します（または以前の値がない場合は 0 に設定します）。mbox 名が `orderThankyouPage` の場合、以前の値と mbox に渡される `orderTotal` パラメーターの値を追加することによって、新しい金額が返されます。
 
 ### オブジェクトとメソッド
 
-次のプロパティおよびメソッドはscriptプロファイルパラメーターから参照できます。
+次のプロパティとメソッドは、スクリプトプロファイルパラメーターで参照できます。
 
 | オブジェクトまたはメソッド | 詳細 |
 | --- | --- |
-| `page.url` | 現在のURL。 |
-| `page.protocol` | ページに使用されるプロトコル（httpまたはhttps）。 |
-| page.domain | 現在のURLドメイン（最初のスラッシュより前のすべて）。`www.acme.com``http://www.acme.com/categories/men_jeans?color=blu e&size=small`（in. |
-| `page.query` | 現在のページのクエリ文字列。&quot;?&quot;の後のすべて&#39;.`blue&size=small``http://www.acme.com/categories/mens_jeans?color=blue&size=small`（in. |
-| `page.param(‘<par_name>’)` | で示されるパラメーターの値 `<par_name>`。現在のURLがGoogleの検索ページで、入力済み `page.param('hl')`の場合、URLの&quot;en&quot;を取得 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`します。 |
-| `page.referrer` | リファラーおよびランディングに適用される操作のセットと同じです（referrer. urlはリファラーのURLアドレスになります）。 |
-| `landing.url`, `landing.protocol`, `landing.query`, および `landing.param` | ページと同様ですが、ランディングページに似ています。 |
-| `mbox.name` | アクティブなmboxの名前。 |
-| `mbox.param(‘<par_name>’)` | アクティブなmbox内の指定した名前によるmboxパラメーター。 |
-| `profile.get(‘<par_name>’)` | クライアントが作成したユーザープロファイルパラメーター `<par_name>`。例えば、ユーザーが&quot;gender&quot;という名前のプロファイルパラメーターを設定した場合、値は&quot;profile. gender&quot;を使用して抽出できます。現在の訪問者の「`profile.<par_name>`」セットの値を返します。値が設定されていない場合はnullを返します。 |
-| `user.get(‘<par_name>’)` | 現在の訪問者の「`user.<par_name>`」セットの値を返します。値が設定されていない場合はnullを返します。 |
-| `user.categoryAffinity` | 最適なカテゴリの名前を返します。 |
-| `user.categoryAffinities` | 最適なカテゴリを持つ配列を返します。 |
-| `user.isFirstSession` | 訪問者の最初のセッションであれば、trueを返します。 |
-| `user.browser` | HTTPヘッダーにユーザーエージェントを返します。例えば、Safariユーザーのみを対象とするエクスプレッションターゲットを作成できます。 `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
+| `page.url` | 現在の URL。 |
+| `page.protocol` | このページに使用するプロトコル（http または https）。 |
+| page.domain | 現在の URL ドメイン（最初のスラッシュより前のすべて）。例えば、`http://www.acme.com/categories/men_jeans?color=blu e&size=small` の `www.acme.com`。 |
+| `page.query` | 現在のページのクエリ文字列。?の後のすべて。例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
+| `page.param(‘<par_name>’)` | `<par_name>` に示すパラメーターの値。現在の URL が Google の検索ページであり、`page.param('hl')` を入力していた場合、URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` の「en」が取得されます。 |
+| `page.referrer` | 上記と同じ一連の操作がリファラーとランディングに適用されます（referrer. url はリファラーの URL アドレスになります）。 |
+| `landing.url`, `landing.protocol`, `landing.query`, および `landing.param` | ページのものと同様ですが、ランディングページ用です。 |
+| `mbox.name` | アクティブな mbox の名前。 |
+| `mbox.param(‘<par_name>’)` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
+| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
+| `user.get(‘<par_name>’)` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
+| `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
+| `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
+| `user.isFirstSession` | 訪問者の最初のセッションの場合は true が返されます。 |
+| `user.browser` | HTTP ヘッダーにユーザーエージェントが返されます。例えば、Safari ユーザーのみを対象とするターゲット式 を作成できます。`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### 共通演算子
 
 
-すべての標準JavaScript演算子は、存在し、使用可能です。JavaScript演算子は、文字列および数値（他のデータ型と同様）に使用できます。クイックブリーフィング:
+すべての標準 JavaScript 演算子が存在し、使用可能です。JavaScript 演算子は、文字列および数字（他のデータタイプも同様）に使用できます。簡単な説明：
 
 | 演算子 | 説明 |
 | --- | --- |
-| `==` | 等価を示します。いずれかの辺の演算値が等しい場合にtrueを保持します。 |
-| `!=` | 不等価を示します。いずれかの辺の演算値が等しくない場合にtrueを保持します。 |
-| `<` | 左側の変数が右側の変数より小さいことを示します。変数が等しい場合はfalseに評価されます。 |
-| `>` | 左側の変数が右側の変数より大きいことを示します。変数が等しい場合はfalseに評価されます。 |
-| `<=` | 変数が等しいかどうか `<` を除いて、trueに評価されます。 |
-| `>=` | 変数が等しいかどうか `>` を除いて、trueに評価されます。 |
-| `&&` | 論理的に&quot;AND&quot;を指定した場合、その左側と右側の式はtrueになります（両側がtrueの場合）。 |
-| `||` | 論理的に&quot;OR&quot;を指定した場合、その左側と右側の式はtrueになります（つまり、いずれかの辺がtrueの場合はtrue）。 |
-| `//` | ソースboolean（Array source、Array target）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//` は、（regexpに対応）ターゲットからサブ文字列を抽出し、デコード `Array/*String*/ decode(String encoding, String regexp, String target)`します。<br>この機能では、定数文字列値、グループ化（`condition1 || condition2) && condition3`および正規表現）の使用もサポート`/[^a-z]$/.test(landing.referring.url)`されています。 |
+| `==` | 等価を示します。いずれかの辺の演算値が等しい場合に true を保持します。 |
+| `!=` | 不等価を示します。いずれかの辺の演算値が等しくない場合に true を保持します。 |
+| `<` | 左辺の変数が右辺の変数より小さいことを示します。変数が等しい場合は false に評価されます。 |
+| `>` | 左辺の変数が右辺の変数より大きいことを示します。変数が等しい場合は false に評価されます。 |
+| `<=` | `<`と同様に、変数が等しい場合を除いて true に評価されます。 |
+| `>=` | `>`と同様に、変数が等しい場合を除いて true に評価されます。 |
+| `&&` | 論理演算子「AND」の左右に式を書いた場合は、両辺の式がともに true の場合にのみ true になります（そうでなければ false になります）。 |
+| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
+| `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコード します。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
 ## トレーニングビデオ: プロファイルスクリプト
 
@@ -344,4 +342,4 @@ if (mbox.name == 'orderThankyouPage') {
 * 利用可能なオプションにアクセスするための利用可能なトークンメニューの使用
 * プロファイルスクリプトの有効化と無効化
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=jpn)
