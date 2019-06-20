@@ -20,7 +20,7 @@ Target JavaScript ライブラリ（at.js および mbox.js）の情報や Targe
 
 Adobe Target は、2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます（at.js または mbox.js）。
 
-* **at.js：**[at.js library](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
+* **at.js：** [at.js library](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
 * **mbox.js：** mbox.js ライブラリは、Target のレガシー実装ライブラリです。mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。
 
 >[!IMPORTANT]
@@ -140,11 +140,11 @@ Google はユーザーテストを推奨するとともに、ドキュメンテ�
 
    Target は、プラットフォームとしては検索エンジンボットを他のユーザーと同様に扱うよう設定されています。このため、ボットがランダムに選択してテストのバリエーションを「見た」場合、実行するテストにボットも含まれる場合があります。
 
-* **rel=&quot;canonical&quot; を使う** - バリエーションを付けるために異なる URL を使用して A/B テストを設定する必要のあることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに含ませます。例えば、Adobe がバリエーションごとに異なる URL を使用してホームページをテストしていた場合、ホームページの次の canonical タグをそれぞれのバリエーションの `<head>` タグに入れます。
+* **を使う** - バリエーションを付けるために異なる URL を使用して A/B テストを設定する必要のあることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに含ませます。例えば、Adobe がバリエーションごとに異なる URL を使用してホームページをテストしていた場合、ホームページの次の canonical タグをそれぞれのバリエーションの `<head>` タグに入れます。
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **rel=&quot;canonical&quot; 302（一時的）リダイレクトを使う** - テストで複数バリエーションのページで異なる URL が使用される場合、Google は 302 リダイレクトを使用してテストバリエーションに直接トラフィックをリダイレクトすることを勧めています。こうすると、リダイレクトは一時的で、テストが動作している間のみ有効なものである、と検索エンジンに教えることになります。
+* ** 302（一時的）リダイレクトを使う** - テストで複数バリエーションのページで異なる URL が使用される場合、Google は 302 リダイレクトを使用してテストバリエーションに直接トラフィックをリダイレクトすることを勧めています。こうすると、リダイレクトは一時的で、テストが動作している間のみ有効なものである、と検索エンジンに教えることになります。
 
    302 リダイレクトは、サーバー側のリダイレクトで、Target は他の大多数の最適化プロバイダーと同様、クライアント側の機能を使います。このため、これは Target が Google の推奨事項に完全に準拠していない部分になります。ただし、これはほんの一部のテストに影響するだけです。Target でテストを実行するための基本的アプローチは、1 つの URL 内でコンテンツを変更することであり、リダイレクトの必要はありません。クライアントのテストバリエーションに相当するように複数の URL を使う必要がある場合もあります。そういった場合には、Target は JavaScript の `window.location` コマンドを使い、テストバリエーションにユーザーをリダイレクトしますが、この方法では、リダイレクトが 301 なのか 302 なのか、明示的に示しません。
 
