@@ -29,7 +29,7 @@ source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
 
 ## at.js 1.*x* およびat. js2. xワークフローダイアグラム
 
-&zwsp;2. O [から2. Oに導入された違いについて詳しくは、at. js1. xからat. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) へのアップグレードを参照してください。*x*.
+2.O [から2. Oに導入された違いについて詳しくは、at. js1. xからat. js2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) へのアップグレードを参照してください。*x*.
 
 抽象度の高い表示では、2 つのバージョン間にいくつかの違いがあります。
 
