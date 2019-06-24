@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 
 ---
 
@@ -17,7 +17,17 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
 
-## Adobe Target Standard/Premium19.5.1（2019年5月22日） {#tgt-19-5-1}
+## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日） {#tgt-19-6-1}
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2019年6月27日 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL コピー] アクションに関する情報を追加しました。 |
+|  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新規セクション:&quot;SPA VECのページ配信設定」 |
+|  | [Google Chromeサイトのcookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 新規トピックです。 |
+
+## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -42,7 +52,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 |  | [事前準備](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新しい節を追加しました。「クライアント側のAnalyticsログ」 |
 |  | [Analytics for Target の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 手順7を改訂しました。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次のフィールド名のテーブルに行を追加しました。<ul><li>リクエスト/ExperienceCloud</li><li>リクエスト&gt; ExperienceCloud&gt; analytics</li><li>リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ</li></ul> |
-|  | [at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | テーブルに行を追加 `adobe.target.sendNotifications(options)`しました。 |
+|  | [at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新規トピックです。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | at. js2.1.0のアドビオプトインサポートに関する情報を追加しました。 |
 |  | [プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | at. js2.1.0のオプトインサポートに関する情報を更新しました。 |
@@ -51,7 +61,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
 |  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。&quot;TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
 |  | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) | スクリーンショットが更新されました。 |
-| 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | テキストの差異を明確にしまし `user.categoryId``entity.categoryId`た。 |
+| 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
 |  | [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 次のトピックに移動しました。at. jsの利点。 |
 |  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?&quot; |
 |  | [動的データをオファーに渡す](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 過去の動作行の構文を修正しました。 |
