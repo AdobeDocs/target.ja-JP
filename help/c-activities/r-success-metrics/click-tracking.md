@@ -9,7 +9,7 @@ title: クリックの追跡
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -22,7 +22,7 @@ Target では、任意の要素に対するクリックを成功指標として�
 >
 >クリックの追跡は、ターゲットグローバル mbox がフォームベースのアクティビティの場所として使用されている場合はサポートされません。
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## クリックの追跡の設定 {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]** 成功指標を選択します。
 1. アクションの場合、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択**]」をクリックします。
@@ -36,32 +36,6 @@ Target では、任意の要素に対するクリックを成功指標として�
 1. 画面上部にあるチェックマークをクリックして、選択を保存します。
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
-
-## Selected Elements panel {#selected-elements}
-
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
-
-![選択したエレメントパネル](/help/c-activities/r-success-metrics/assets/selected-elements.png)
-
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 次の表で、要素に対して実行できる各アクションについて説明します。
-
-| アクション | 説明 |
-| --- | --- |
-| 情報 | 要素タイプと、セレクターへのフルDOMパスを表示します。 |
-| 編集 | CSSセレクターを編集できます。 |
-| 削除 | 要素を削除します。 |
-
-### 要素の追加
-
-セレクターのDOMパスが既にわかっている場合は、パネルの上部にあるプラスアイコンをクリックして手動で追加できます。
-
-![要素を追加アイコン](/help/c-activities/r-success-metrics/assets/add-element.png)
-
-### 選択したエレメントカーソルポップアップ
-
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. このリストには、選択した要素がクリック追跡に使用されることを検証するために、要素の完全なDOMパスが含まれています。
-
-![エレメント選択リンク](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 注意点 {#considerations}
 
