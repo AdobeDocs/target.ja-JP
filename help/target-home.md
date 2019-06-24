@@ -1,12 +1,14 @@
 ---
-keywords: Target、home、よく読まれるトピック
+title: Adobe Target 製品ドキュメント
 seo-title: Adobe Target 製品ドキュメント
 solution: 'Target '
-title: Adobe Target 製品ドキュメント
+description: Adobe Targetの技術ドキュメント
+seo-description: Adobe Targetの技術ドキュメント、ドキュメント、リリースノートおよびセルフサービス資料。
+keywords: Target、home、よく読まれるトピック
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 6c4ea7fa0ad3098789f8af89f2d6967204ee0b8f
 
 ---
 
