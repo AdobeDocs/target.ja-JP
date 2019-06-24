@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
+source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [プライバシーと一般データ保護規則（GDPR）](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Google Chromeサイトのcookieポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
