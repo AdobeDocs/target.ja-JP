@@ -8,18 +8,18 @@ title: Android - モバイルアプリケーションのセットアップ
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: e77022281fa03c8ff8bac111088bdfa4a600783f
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Android - モバイルアプリケーションのセットアップ{#android-set-up-the-mobile-app}
 
-Adobe Target Mobile App Visual Experience Composer（VEC）を使用すると、開発者はAndroidモバイルアプリで1回限りの設定を行い、マーケティング担当者がモバイルアプリVECの機能を使用できるようになります。
+Adobe Target Mobile App Visual Experience Composer（VEC）を使用すると、開発者は Android モバイルアプリで 1 回限りの設定を行い、マーケティング担当者がモバイルアプリ VEC の機能を使用できるようになります。
 
-Adobe Target VEC拡張機能の有効化について詳しくは、Adobe [Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) のAdobe Target- Visual Experience *Composerを参照*してください。
+Adobe Target VEC 拡張機能の有効化について詳しくは、[Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) の *Adobe Target - Visual Experience Composer* を参照してください。
 
-## Mobile SDKとTargetライブラリのインクルード {#sdk-library}
+## Mobile SDK と Target のライブラリを追加する {#sdk-library}
 
 1. SDK V5 の初期化について詳しくは、[SDK の初期化とトラッキングのセットアップ](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk)を参照してください。
 1. 次の行を dependencies セクションに追加します。
@@ -28,7 +28,7 @@ Adobe Target VEC拡張機能の有効化について詳しくは、Adobe [Experi
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
-1. モバイルアプリVECでは、次のアーティファクトを依存関係として含める必要 `build.gradle`があります。
+1. モバイルアプリ VEC では、次のアーティファクトを依存関係として `build.gradle` に含める必要があります。
 
    ```
     implementation 'com.google.code.gson:gson:2.8.2'
@@ -39,7 +39,7 @@ Adobe Target VEC拡張機能の有効化について詳しくは、Adobe [Experi
     implementation 'com.android.support:design:28.0.0'
    ```
 
-1. `AndroidManifest.XML` ファイルにインテントフィルターを追加し、モバイルアプリVECオーサリング用の一意のディープリンクスキーム（例えば `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`、）を選択します。
+1. `AndroidManifest.XML` ファイルに intent-filter を追加します。その際、Mobile VEC オーサリング用に一意のディープリンクスキームを選択します（例えば `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`）。
 
    ```
    <activity 
@@ -95,17 +95,17 @@ Adobe Target VEC拡張機能の有効化について詳しくは、Adobe [Experi
 
    1. `Application::OnCreate override`
    1. `AndroidManifest.XML`
-   1. `build.gradle` Androidアプリケーションの
+   1. Android アプリケーションの `build.gradle`
 
-## モバイルアプリでのターゲットビューの設定 {#views}
+## モバイルアプリケーションで Target ビューをセットアップ {#views}
 
-Adobe Mobile SDK は、新しいビューが表示された際にトリガーする新しいメソッドを開発者に公開します。開発者は、ビューの名前が一意であり、UI のメインスレッド上で `targetView` が呼び出されるようにしなければなりません。この節では、最初に、2つの異なるデモアプリケーションでこれらの呼び出しを挿入する方法を説明し、任意のAndroidアプリに対してTargetビューAPI呼び出しを適切に挿入する方法についての一般的なガイドラインについて説明します。
+Adobe Mobile SDK は、新しいビューが表示された際にトリガーする新しいメソッドを開発者に公開します。開発者は、ビューの名前が一意であり、UI のメインスレッド上で `targetView` が呼び出されるようにしなければなりません。この節では、まず、2 つの異なるデモンストレーションアプリケーションでこれらの呼び出しを適切に挿入する方法を示し、あらゆる Android アプリケーションで Target ビュー API の呼び出しを適切に挿入する方法について全般的なガイドラインを説明します。
 
 >[!NOTE]
 >
->トリガーされない場合、 `targetView function` VEC拡張機能はAndroidアクティビティからの表示を識別しようとします。動的ビューを持たないアプリケーションの場合、これはオプションの手順です。
+>トリガーされない場合、`targetView function` VEC拡張機能は Android アクティビティからの表示を識別しようとします。動的ビューを持たないアプリケーションの場合、これはオプションの手順です。
 
-ターゲットビューは、関数の呼び出しでトリガーできます。任意のターゲティングパラメーターは、オプションでビューに提供できます。
+Target ビューは、関数の呼び出しでトリガーできます。任意のターゲティングパラメーターは、オプションでビューに提供できます。
 
 ```
 public class TargetVEC { 
@@ -131,12 +131,12 @@ public class TargetVEC {
 }
 ```
 
-最初のプロジェクト例は、単純なバスのスケジュールアプリケーションのモックアップです。Mobile App VECで使用するためにこのアプリケーションを設定するには:
+最初のプロジェクト例は、単純なバスのスケジュールアプリケーションのモックアップです。Mobile アプリケーション VEC でこのアプリケーションを利用するには以下の通り設定します。
 
 1. Android Studio で、`build.gradle` パッケージサブディレクトリ内の `BusBooking` ファイルでプロジェクトを開きます。
-1. `DemoApplication::OnCreate` このメソッドで、 `TargetVEC.registerExtension()` Target VEC拡張機能を他の拡張機能と共に登録します。
+1. `DemoApplication::OnCreate` このメソッドで、`TargetVEC.registerExtension()` Target VEC拡張機能を他の拡張機能と共に登録します。
 1. アプリケーションをビルドして実行します。
-1. モバイルアプリVECオーサリングモードに入るには、URLスキーム [!DNL sdkbetabus://com.adobe.sdkbetabus] として使用し、デバイス上で生成されたディープリンクを開きます（下記の指示を参照）。
+1. Mobile アプリケーション VEC オーサリングモードに入るには、[!DNL sdkbetabus://com.adobe.sdkbetabus] を URL スキームとして使用し、デバイスで生成されたディープリンクを開きます（下記の説明を参照してください）。
 
 このシンプルなバス予約アプリケーションから、アクティビティライフサイクルに関連して自動生成されたすべての Target ビューを利用します。さらに、隠れたボタンをクリックした際に動的に追加されるカスタムビュー要素の Target ビュー API を呼び出し、API の柔軟性を示します（画面上のオファー画像）。この新しい Target ビューは、コードの `OfferDetailsActivity.java:40` で API 呼び出しを挿入することで実装されています。隠れたボタンをクリックすると、「SURPRISE_VIEW」という新しい Target ビュー要素が呼び出され、マーケティング担当者がアプリケーションエクスペリエンス上の変更のターゲットをより正確に決められます。
 
@@ -218,9 +218,9 @@ public class OfferDetailsActivity extends AppCompatActivity {
 }
 ```
 
-## プロファイルパラメーターとその他のグローバルパラメーターの設定 {#parameters}
+## プロファイルパラメーターとその他のグローバルパラメーターの設定{#parameters}
 
-各API呼び出しで渡されるグローバルパラメーターの設定、および対応するビューにmbox/ビューパラメーターを渡すことができるようになりました。
+この時点で、各 API 呼び出しで渡されるグローバルパラメーターを設定する操作と、mbox／ビューパラメーターを対応するビューに渡す操作がサポートされるようになりました。
 
 パラメーターには次のものがあります。
 
@@ -245,9 +245,9 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-**次のビュートリガーのパラメーターを渡す操作：**
+**次のビュートリガーのパラメーターを渡す場合：**
 
-アプリにあるアクティビティおよびフラグメントごとに、`AUTO_<activity|fragment name>`デフォルトで作成される自動表示がいくつか用意されています。これらのパラメーターを渡すには、次の API を呼び出します。
+アプリケーションに存在する各アクティビティとフラグメントに対してデフォルトで作成される自動ビュー（「`AUTO_<activity|fragment name>`」など）がいくつか用意されました。これらのパラメーターを渡すには、次の API を呼び出します。
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
@@ -263,9 +263,9 @@ TargetVEC.setRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-**特定のビューにパラメーターを渡す:**
+**特定のビューにパラメーターを渡す操作：**
 
-APIのトリガービューを確認 `TargetVEC.targetView("view_name")`しました。次のように、特定のビューに固有のパラメーターを渡すこともできます。
+`TargetVEC.targetView("view_name")` 経由でビューをトリガーする API については既に紹介しました。次のように、特定のビューに固有のパラメーターを渡すこともできます。
 
 ```
 Map<String, String> profileParams = new HashMap<>(); 
@@ -277,7 +277,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
                 .build());
 ```
 
-## プリフェッチAPIの明示的な呼び出し {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
+## プリフェッチ API の明示的な呼び出し {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
 
 ときには、プリフェッチ API を再度呼び出してキャッシュに保存されているオファーを更新しなければならないことがあります。公開されている API とその説明を以下に示します。
 
@@ -305,7 +305,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## チュートリアル:Mobile AndroidアプリケーションへのExperience Cloudの実装 {#tutorial}
+## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
 
 * [Mobile AndroidアプリケーションへのExperience Cloudの実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
