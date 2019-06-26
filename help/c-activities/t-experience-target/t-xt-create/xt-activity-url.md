@@ -7,7 +7,7 @@ solution: 'Target '
 title: アクティビティ URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 アクティビティURLは、アクティビティの設計時に、エクスペリエンスターゲット設定（XT）アクティビティで使用されるページ、およびVisual Experience Composer（VEC）またはフォームベースのExperience Composerで表示されるページを決定します。
 
-1. XTアクティビティ [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)の作成時に、アクティビティURLを指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL アクティビティを作成]**」をクリックします。
+1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. `https://` を含む完全な URL を入力して、「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
    >[!NOTE]
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
    >
-   >デフォルトでは、VECまたはフォームベースのExperience Composerは [、アカウント環境設定で指定したページを開き](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)ます。アクティビティ作成中に、異なるページを指定することもできます。
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). アクティビティ作成中に、異なるページを指定することもできます。
    >
    >Target StandardのJavaScriptコードを含まないサイトのURLを指定すると、ページエレメントを選択できません。
 
@@ -34,7 +34,7 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
    >
    >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
 
-1. （オプション）「テンプレートルール **[!UICONTROL ]** を追加」をクリックして、アクティビティにページまたはセクションを追加します。
+1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
 
    追加のルールは、以下のいずれかに基づいています。
 
