@@ -8,7 +8,7 @@ title: 売上高上昇の予測
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ Target では、すべてのユーザーが勝者エクスペリエンスを表�
 
 売上高の上昇予測は、主な目標の指標から取得される訪問あたりの売上高（RPV）を基に算出されます。
 
-上昇予測は、次の数式を使用して計算します。（&lt;勝者エクスペリエンスRPV&gt;-&lt;コントロールエクスペリエンスRPV&lt;）*&lt;アクティビティ内の合計訪問者数&gt;
+上昇予測は、（&lt;勝者エクスペリエンス RPV&gt; - &lt;コントロールエクスペリエンス RPV&gt;） * &lt;該当アクティビティでの合計訪問者数&gt; で計算します。
 
 算出された数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。例：$1.6M、$60K、$900、$8.5K、$205K
 
