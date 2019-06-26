@@ -5,7 +5,7 @@ seo-title: Recommendations アクティビティ
 title: Recommendations アクティビティ
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
