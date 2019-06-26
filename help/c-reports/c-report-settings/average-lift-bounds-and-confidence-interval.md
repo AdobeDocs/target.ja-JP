@@ -8,7 +8,7 @@ title: 平均上昇率、上昇率範囲および信頼区間
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -50,7 +50,7 @@ Target のレポート UI には、上昇率関連の次の情報が含まれて
 
 上昇率範囲の数値の算出には、他にもいくつかの要素が考慮されます。
 
-* **t 値：** アドビの 95％信頼水準の t 値は 1.96 です。詳しくは、[t 値の詳細](https://en.wikipedia.org/wiki/T-statistic)を参照してください。
+* **t- value:** 当社95%信頼水準の重要な統計は1.96です。 [t- values](https://en.wikipedia.org/wiki/T-statistic)の詳細については、を参照してください。
 * **上昇率の平方偏差：** 上昇率の平方偏差を求めるためには、エクスペリエンス N の成功指標の標準誤差と、コントロールエクスペリエンスの成功指標の標準誤差が必要です。計算式は次のとおりです（成功指標をコンバージョンとした場合の例です）。
 
    ![](assets/lift_variance.png)
