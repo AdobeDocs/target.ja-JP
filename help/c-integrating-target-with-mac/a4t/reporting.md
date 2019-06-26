@@ -9,7 +9,7 @@ title: A4T レポート
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -36,9 +36,9 @@ Analytics および Target の両方のレポートでは、サイトへの訪�
 
 ## Analytics のレポート {#section_F6884872DC864AE7913587FAED4CD11C}
 
-Analytics の左側のメニューで、**[!UICONTROL ターゲット]**／**[!UICONTROL ターゲットアクティビティ]**をクリックします。Target では、アクティビティのレポートに自動的に Analytics のデータ、指標およびセグメントが表示されます。これらのレポートでは、データがサイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、オーディエンスおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
+Analytics の左側のメニューで、**[!UICONTROL ターゲット]**／**[!UICONTROL ターゲットアクティビティ]** をクリックします。Target では、アクティビティのレポートに自動的に Analytics のデータ、指標およびセグメントが表示されます。これらのレポートでは、データがサイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、オーディエンスおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
 
-Analytics で Target アクティビティの結果を表示するには、ターゲットアクティビティレポートを使用します。Test&amp;Target（従来の）レポートは、以前の Test&amp;Target プラグインスタイルのページ統合についての情報を提供しますが、Analytics for Target データは含まれません。アクティビティレポートで Target のエクスペリエンスについての情報を表示します。「**[!UICONTROL 指標]**」をクリックして、「**Target[!UICONTROL 」指標タイプを選択します。]**レポートでは、2 つの指標を利用できます。
+Analytics で Target アクティビティの結果を表示するには、ターゲットアクティビティレポートを使用します。Test&amp;Target（従来の）レポートは、以前の Test&amp;Target プラグインスタイルのページ統合についての情報を提供しますが、Analytics for Target データは含まれません。アクティビティレポートで Target のエクスペリエンスについての情報を表示します。「**[!UICONTROL 指標]**」をクリックして、「**Target[!UICONTROL 」指標タイプを選択します。]** レポートでは、2 つの指標を利用できます。
 
 * **アクティビティのエントリ：** Target レポートの参加者数に対応します。
 * **アクティビティのコンバージョン：** Target レポートのカスタムコンバージョン数に対応します。
@@ -66,11 +66,11 @@ Analytics で Target アクティビティの結果を表示するには、タ�
 
 アクティビティレポートページから直接完全な Analytics レポートをクリックして表示します。
 
-## Analysis Workspaceのレポート {#reports-in-analysis-workspace}
+## Analysis Workspace のレポート {#reports-in-analysis-workspace}
 
-データをより深く分析したり、表面の下に隠れているインサイトを目立たないようにする [!DNL Adobe Analysis Workspace] ことができます。
+[!DNL Adobe Analysis Workspace] を使用すると、データをより深く分析したり、データを可視化したり、表に現れない隠れたインサイトを明らかにしたりできます。
 
-詳しくは [、Analytics&amp; Targetを開きます。分析のベストプラクティス」を](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)参照してください。
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## アクティビティの作成 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
