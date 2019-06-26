@@ -8,7 +8,7 @@ title: プロファイルと変数の用語集
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | プロファイル | メモ |
 |--- |--- |
 | user. activeActivationesUser<br>. activeCampaigns | 現在のセッションでユーザーがキャンペーン／アクティビティでインタラクションをおこなっていなくても、ユーザーがいるすべてのキャンペーン／アクティビティのキャンペーン ID を返します。 |
-| user.pcId |
-| user.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| user.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | 訪問者が入力した親和性の配列を返します。 |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
 | user.header(&#39;x-cluster-client-ip&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
@@ -40,16 +40,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | user.header(&#39;accept&#39;) | 訪問者の言語および文字エンコード |
 | user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
 | user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount |  |
 | parameter= | mbox に渡された追加の値を示す一般的な用語で、通常は名前と値のペアです。`profile.parameter` か `user.parameter` を使用しない限り、永続的ではありません。 |
 
 ## URL 変数 {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,8 +80,8 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 
 | 変数 | メモ |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および[顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
