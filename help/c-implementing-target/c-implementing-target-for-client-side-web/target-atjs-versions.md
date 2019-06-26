@@ -8,14 +8,14 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # at.js のバージョンの詳細 {#at-js-version-details}
 
-[!DNL Adobe Target] at. js JavaScriptライブラリの各バージョンの変更点についての詳細。
+[!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。
 
 >[!IMPORTANT]
 >
@@ -25,63 +25,63 @@ source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 このリリースには、次の機能および機能強化が含まれています。
 
-* **アドビオプトインのサポート**:アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。
+* **アドビオプトインのサポート**:アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 * **業界標準のCSP準拠**:at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。
 
 * **クライアント側の分析ログ**:顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーに完全に制御します。
 
-   詳しくは、実装する前に [、クライアント側のAnalyticsログを参照](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)**してください。
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **通知** の送信:エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされた場合に、開発者に通知を送信することを許可 `applyOffers()`します。
 
-   詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at. jsサイズが~24%減少** した場合:at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。
 
-## at. jsバージョン2.0.1（2019年3月20日）
+## at.js バージョン 2.0.1（2019 年 3 月 20 日）
 
 これはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-（括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
+（括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-* 特定の顧客にJavaScriptの例外が発生する、DOMポーリングコードの競合条件を修正しました。（TNT-31869）
-* 表示される通知が、クリック追跡イベントハンドラーから切り離されていた問題を修正しました。最初は、レンダリングされたビューに属するクリックイベントハンドラーをアタッチできなかった場合、Targetは通知を送信しませんでした。Targetで、クリック要素が見つからない場合でも、ビュー通知が送信されるようになりました。（TNT-31969）
-* リクエストに成功したイベントのリダイレクトフラグが常にtrueに設定されていた問題を修正しました。（TNT-31907）
-* 要素がない場合でもVECの並べ替えアクションが成功として記録される問題を修正しました。（TNT-31924）
-* 特定のお客様にEnterprise Permissionsプロパティトークンが含まれない問題を修正しました。（TNT-31999）
+* 特定の顧客に JavaScript の例外が発生する、DOM ポーリングコードの競合状態を解消しました。（TNT-31869）
+* 表示される通知が、クリック追跡イベントハンドラーから切り離されていた問題を修正しました。当初、レンダリングされたビューに属するクリックイベントハンドラーをアタッチできなかった場合、Target は通知を送信しませんでした。クリック要素が見つからない場合でも、Target がビュー通知を送信するようになりました。（TNT-31969）
+* リクエストに成功したイベントのリダイレクトフラグが常に true に設定されていた問題を修正しました。（TNT-31907）
+* 要素が見つからない場合でも VEC の並べ替えアクションが成功として記録される問題を修正しました。（TNT-31924）
+* 特定の顧客への通知に Enterprise 権限のプロパティトークンが含まれていない問題を修正しました。（TNT-31999）
 
-## at. jsバージョン1.7.1（2019年3月20日）
+## at.js バージョン 1.7.1（2019 年 3 月 20 日）
 
 これはメンテナンスリリースで、次の修正が含まれています。
 
-（括弧内の問題番号は [!DNL Adobe] 内部で使用されます）。
+（括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-* 特定の顧客にJavaScriptの例外が発生する、DOMポーリングコードの競合条件を修正しました。（TNT-31869）
+* 特定の顧客に JavaScript の例外が発生する、DOM ポーリングコードの競合状態を解消しました。（TNT-31869）
 
 ## at.js バージョン 2.0.0 {#at-js-200}
 
-at. js2. xは、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットを提供します。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
+at.js 2.x は、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能セットを提供します。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
 
-以前のバージョンでは利用できないat. js2. xを使用する利点を次に示します。
+以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。
 
 * ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。
-* 従来のサーバー呼び出しが導入された遅延時間なしで、オファーがすぐにキャッシュ経由で表示されるので、サイトでのエンドユーザーのエクスペリエンスが著しく向上しました。
-* 単純な1行のコードおよび1回限りの開発者セットアップで、マーケティング担当者は、シングルページアプリケーション上でVisual Experience Composer（VEC）を介してA/Bおよびエクスペリエンス（XT）アクティビティを作成して実行できます。
+* 従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。
+* 単純な 1 行のコードと一度限りの開発者セットアップで、マーケティング担当者は、シングルページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。
 
-at. js2. xには、次の新しい関数が導入されています。
+at.js 2.x では、次の新しい関数が導入されています。
 
 * getOffers（）
 * applyOffers（）
 * triggerView（）
 
-at. js2. xの導入によって、次の機能が廃止されました。
+at.js 2 x の導入に伴い、次の関数が廃止されました。
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-詳しくは、at. js1. xからat. js [2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) および [at. js関数へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)を参照してください。
+詳しくは、「[at.js 1.x から at.js 2 へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)」と「[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -91,26 +91,26 @@ at. js2. xの導入によって、次の機能が廃止されました。
 
 at.js 1.7.0 では、Adobe Opt-in サポートが導入されています。Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。
 
-Adobe Opt-in に関する詳細については、「[プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GGPR）」を参照してください。
+Adobe Opt-in に関する詳細については、「[プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）」を参照してください。
 
 また、このリリースでは、リダイレクト URL から取得されたパラメーターを使用して Target がリダイレクト URL パラメーターを上書きする場合がある問題も修正されました。
 
 >[! 注意]
 >
->GGPRのアドビオプトインサポートが必要な場合は、現在at. js1.7.0または2.1.0を使用する必要があります。<br>すべてのバージョンのリストについては [、at. jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js バージョン 1.6.4 {#at-js-164}
 
 at.js 1.6.4 は メンテナンスリリースで、次の問題に対応しています。
 
-* Microsoft Internet Explorer 11 で発生し、重複するオファーが適用される原因となっていた競合条件を修正しました。
+* Microsoft Internet Explorer 11 で、重複するオファーが適用される競合条件のマニフェストを修正しました。
 
 ## at.js バージョン 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
 at.js バージョン 1.6.3 には、次の修正および機能強化が含まれています。
 
-* 先頭が数字または 2 つのハイフンであるか、1 つのハイフンで始まり数字が続く（例えば #-123）ID や CSS クラスがセレクターに含まれる場合、セレクターは CSS エスケープされるようになりました。（TNT-31061）
-* at.js 1.6.2 で導入された、同じCSSセレクターに適用される異なるアクティビティから Visual Experience Composer（VEC）オファーがアクティビティの優先順位を適用しなかった問題を修正しました。（TNT-31052）
+* 先頭が数字、2 つのハイフン、またはハイフンの後に数字が続く（例えば #-123）ID や CSS クラスがセレクターに含まれる場合、セレクターは CSS エスケープされるようになりました。（TNT-31061）
+* at.js 1.6.2 で発生した、同じ CSS セレクターに適用される異なるアクティビティから Visual Experience Composer（VEC）オファーによってアクティビティの優先度が考慮されない問題を修正しました。（TNT-31052）
 * プロミスのネイティブサポートがない環境で、プロミスのタイムアウトに関する問題を修正しました。（TNT-30974）
 * コンテンツレンダリングに失敗したイベントを使用して、問題が正しくキャプチャおよびレポートされるようになりました。以前は、JavaScript が大文字と小文字が異なる場合でも、正常に実行されていた可能性がありました。（TNT-30599）
 
@@ -176,14 +176,14 @@ at.js バージョン 1.3.0 がリリースされました。
 
 * データプロバイダーから取得した追加パラメーターを利用して at.js リクエストを拡張できます。データプロバイダーは、`dataProviders key` の `window.targetGlobalSettings` に追加する必要があります。
 
-   詳しくは [、データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)を参照してください。
+   詳細については、「[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)」を参照してください。
 
 * at.js リクエストで GET が使用されるようになりましたが、URL が 2,048 文字を超える場合は POST に切り替わります。`urlSizeLimit` という名前の新しいプロパティを利用して、この文字数の上限を引き上げることができます。この変更により Target は、at.js と、同一の技術を使用する AppMeasurement を連携させることができるようになります。
 * Target では、`adobe.target.applyOffer(options)` 関数で `mbox` キーが強制されるようになりました。これまでもこのキーは必須でしたが、Target では、適切な検証がおこなわれ、お客様がこの関数を正しく利用するために、使用が強制されるようになりました。
 * at.js のイベントとクリック追跡機能が強化されました。at.js では、`navigator.sendBeacon()` を使用してイベント追跡データを送信し、`navigator.sendBeacon()` がサポートされていない場合は同期 XHR にフォールバックします。このフォールバックが影響するのは、主に Internet Explorer 10 および 11 と、Safari の一部のバージョンです。Safari では、今後の iOS 11.3 のリリースで `navigator.sendBeacon()` のサポートが追加されます。
 * at.js で、バックグラウンドタブでページが開かれている場合でもオファーをレンダリングできるようになりました。Target の一部のお客様では、バックグラウンドのタブに対するブラウザーの調整動作が原因で、`requestAnimationFrame()` が無効になっている場合に問題が発生していました。
 * このリリースで、Chrome の CPU プロファイルを検査する際のコールスタックの短縮など、パフォーマンスの改良が多数加えられています。
-* at.js 1.3.0 では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポートされなくなりました。サポートされているブラウザーの一覧については、[サポートされているブラウザー](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。今後、すべてのリクエストは、JSONP リクエストを使用せず、CORS に対応した `XMLHttpRequest` を介して実行されます。この変更によってセキュリティが大幅に高まります。
+* at.js 1.3.0 では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。サポートされているブラウザーの一覧については、[サポートされているブラウザー](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。今後、すべてのリクエストは、JSONP リクエストを使用せず、CORS に対応した `XMLHttpRequest` を介して実行されます。この変更によってセキュリティが大幅に高まります。
 
 ## at.js バージョン 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -227,7 +227,7 @@ at.js バージョン 1.3.0 がリリースされました。
 
 [!DNL at.js] バージョン 1.1 には、次の機能強化および修正が含まれています。
 
-* レスポンストークン処理を追加しました。詳しくは、[レスポンストークン](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)を参照してください。
+* レスポンストークンの処理を追加しました。詳しくは、[レスポンストークン](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)を参照してください。
 * 問題を解消し、`document.currentScript polyfill` が Angular 1.X に干渉しないようにしました。
 * 変更を加え、クリック追跡が visibility プロパティに干渉しないようにしました。クリック追跡要素が、`at-element-click-tracking` ではなく `at-element-marker` の CSS クラスに分類されます。
 
@@ -245,7 +245,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 * アクティビティ配信時のカスタムイベントのバグ／エラーレポート。
 * Microsoft Internet Explorer 11 のパフォーマンスの問題を修正。
 * 一部の Web サイトで `getOffer()` 関数によりエラーが発生する問題を修正。
-* Target ライブラリを非同期で読み込み。詳しくは、[at.js に関するよくある質](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)を参照してください。
+* Target ライブラリを非同期で読み込み。詳細については、「[at.js に関するよくある質問](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)」を参照してください。
 
 ## at.js バージョン 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -269,7 +269,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 * `selectorsPollingTimeout` 設定が追加されました。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * `getOffer()` からの応答の形式が変更されました。詳しくは、[adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) を参照してください。
 * サポートされていない `<!DOCTYPE>` 宣言のコンソールログが追加されました。
-* 1つの mbox に複数のデフォルトオファーが配信されると [!DNL Target Classic] のプラグインが正しく適用されない問題が修正されました。（TGT-22664）詳しくは、Adobe Target Classicドキュメントの [プラグイン](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) を参照してください。
+* 1つの mbox に複数のデフォルトオファーが配信されると [!DNL Target Classic] のプラグインが正しく適用されない問題が修正されました。（TGT-22664） For more information, see [Plug-Ins](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation.
 * 2 文字のトップレベルドメイン（TLD）の Cookie 設定が改良され、これらのドメイン（[!DNL test.no]、[!DNL autodrives.ca] など）に対して mbox Cookie が正しく設定されるようになりました。
 * at.js バージョン 0.9.6 で、Cookie の保存時に使用するトップレベルドメインを抽出するアルゴリズムが変更されました。これにより、IP を使用するアドレスには Cookie を保存できなくなりました。IP アドレスはテスト目的で使用されるケースがほとんどですが、DNS エントリを使用したり、ローカルボックスのホストファイルを変更したりすることで対処できます。
 * プロパティが整数値ではなく文字列値の場合の移動および整列操作の処理に関する記述を修正しました。
@@ -345,7 +345,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 >[!NOTE]
 >
->[!DNL at.js] は [!DNL mbox.js] を置き換えますが、mbox.js は引き続きサポートされます。ほとんどのユーザーにとって、[!DNL at.js] には [!DNL mbox.js] よりもメリットがあります。このサポートの継続により、[!DNL at.js] をテストしてページ上の実装を変更するための時間が得られます。
+>[!DNL at.js] は [!DNL mbox.js] に替わって使用されますが、mbox.js も引き続きサポートされます。ほとんどのユーザーにとって、[!DNL at.js] には [!DNL mbox.js] よりもメリットがあります。このサポートの継続により、[!DNL at.js] をテストしてページ上の実装を変更するための時間が得られます。
 
 多くのメリットがある中でも、[!DNL at.js] は、Web 実装のページ読み込み時間を強化し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
 
