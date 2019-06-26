@@ -8,7 +8,7 @@ subtopic: 導入
 title: mbox.js のバージョンの詳細
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
 
 >[!NOTE]
 >
->mbox.js ライブラリは開発が終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、[mbox.js から at.js への移行を参照](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)を参照してください。
+>mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ## mbox.js バージョン 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
