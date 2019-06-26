@@ -8,7 +8,7 @@ title: 多変量分析テスト
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Target では、各組み合わせが 1 つのエクスペリエンスになり�
 
 いくつかの基本的な用語を理解しておくと、多変量分析テストを設定する場合に役立ちます。
 
-業界全体で様々な意味で使用されている用語がいくつかあります。ここでは、使用 [!DNL Target]する用語を定義します。
+業界全体で様々な意味で使用されている用語がいくつかあります。This section defines the terms used by [!DNL Target].
 
 **組み合わせ：** 複数の場所で複数のコンテンツオプションをテストする場合に作成するコンテンツのバリエーション。例えば、3 つの場所でそれぞれ 3 つのコンテンツオプションをテストする場合、可能な組み合わせは 27（3 x 3 x 3）になります。サイトの訪問者には、そのうちの 1 つの組み合わせが表示されます。これは「エクスペリエンス」とも呼ばれます。
 
@@ -70,7 +70,7 @@ Target では、各組み合わせが 1 つのエクスペリエンスになり�
    例えば、同じテスト内でレイアウトとコンテンツをテストしないでください。
 * エクスペリエンスの数が多くなるので、計画段階でテストに十分な時間を割り当て、品質を確保します。
 
-   [!DNL Target] では、全因子多変量分析テストがビルトインアクティビティオプションとして用意されています。統計において、実験計画法は、どの因子が結果に影響を与えるかを判断するためのアプローチまたはデザインを数多く提供します。そのうちの1つは [、部分因子テスト](https://en.wikipedia.org/wiki/Taguchi_methods) の田口メソッドです。田口メソッドにより、マーケティング担当者は一連の前提を作成して、テストする必要があるエクスペリエンスの順列の数を減らすことができます。その結果、多変量テストのトラフィック要件が小さくなります。この機能とテスト方法は、このオフラインスプレッドシート [!DNL Target] を使用 [して利用](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)できます。
+   [!DNL Target] では、全因子多変量分析テストがビルトインアクティビティオプションとして用意されています。統計において、実験計画法は、どの因子が結果に影響を与えるかを判断するためのアプローチまたはデザインを数多く提供します。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口メソッドにより、マーケティング担当者は一連の前提を作成して、テストする必要があるエクスペリエンスの順列の数を減らすことができます。その結果、多変量テストのトラフィック要件が小さくなります。This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    チームで他の実験計画法アプローチを使用している場合は、この計算スプレッドシートをカスタム実験デザインのリファレンス実装として使用できます。
 
