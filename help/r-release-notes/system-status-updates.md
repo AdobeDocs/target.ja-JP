@@ -8,12 +8,12 @@ title: システムステータスの更新
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: fcfbd04b9761b2a183afa383e730bcd836699501
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# システムステータスの更新とアクティブ通知
+# システムステータスの更新と事前通知
 
 [!UICONTROL アドビのシステムステータス] ページとアドビの通知を使用して [!DNL Adobe] 、製品と [!DNL Adobe Experience Cloud] ソリューションのステータスに気をつけてください。アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
 
@@ -25,7 +25,7 @@ source-git-commit: fcfbd04b9761b2a183afa383e730bcd836699501
 
 [https://status.adobe.com](https://status.adobe.com)
 
-ソリューションの [!DNL Experience Cloud] ステータスを確認するには、「Experience [!DNL Target] [!UICONTROL クラウド] 」タブをクリックします。
+ソリューションの [!DNL Experience Cloud] ステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
 
 ![](assets/system_status.png)
 
