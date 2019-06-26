@@ -8,7 +8,7 @@ title: 水増しされた訪問および訪問者のカウント - A4T FAQ
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 2016 年 11 月 14 日以降は、[!DNL Target] タグと [!DNL Analytics] タグの両方が実行された場合にのみ、データが含まれます。この変更はさかのぼっては適用されません。履歴レポートに水増しされたカウントが表示され、レポートからそれらのカウントを除外したい場合は、「部分的なデータを除外して履歴トレンドを表示する方法」（[A4T での水増しされた訪問と訪問者カウントの最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-部分的なデータヒットを最小限に抑えるために実行できる手順もあります。詳細については、「[A4T での水増しされた訪問と訪問者カウントの最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)」の「部分的なデータを減らすためのベストプラクティス」を参照してください。
+部分的なデータヒットを最小限に抑えるために実行できる手順もあります。詳細は、[A4T での水増しされた訪問と訪問者カウントの最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)の「部分的なデータを減らすためのベストプラクティス」を参照してください。
 
 ## 部分的なデータヒットデータがレポートから削除された場合、Target または Analytics の重要なデータが失われることはありませんか？{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
