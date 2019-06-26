@@ -9,7 +9,7 @@ title: スコアキャプチャ
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,13 +38,13 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 * mbox コードで、`mboxPageValue` という mbox パラメーターを作成します。
 
-   例: `('global_mbox', 'mboxPageValue=10');`
+   例：`('global_mbox', 'mboxPageValue=10');`
 
    その mbox を含むページを表示するごとに、指定した値が加算されます。ページ内の複数の mbox にそれぞれスコア値が割り当てられている場合、そのページのスコアはすべての mbox の値の合計になります。`mboxPageValue` は、mbox に値を渡してエンゲージメントスコアをキャプチャするための予約済みパラメーターです。正の値も負の値も渡される可能性があります。各訪問者の訪問の最後に合計が計算され、その訪問の合計スコアが算出されます。
 
 * ページの URL で `?mboxPageValue=n` パラメーターを渡します。
 
-   例: `https://www.mydomain.com?mboxPageValue=5`
+   例：`https://www.mydomain.com?mboxPageValue=5`
 
    この方法では、指定した値がページ内の各 mbox ごとに、スコアに加算されます。例えば、パラメーター `?mboxPageValue=10` を渡し、ページに 3 つの mbox がある場合、そのページのスコアは 30 となります。
 
