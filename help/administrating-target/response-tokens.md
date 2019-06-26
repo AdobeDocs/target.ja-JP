@@ -9,7 +9,7 @@ title: レスポンストークン
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Target Classic には、mbox の応答時に実行される JavaScript を
 
    詳しくは、[at.js のダウンロード](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL レスポンストークン]**をクリックします。
+1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL レスポンストークン]** をクリックします。
 
    ![](assets/response_tokens.png)
 
@@ -73,7 +73,7 @@ Adobe Target Classic には、mbox の応答時に実行される JavaScript を
 
 1. アクティビティを作成します。
 
-[at. jsカスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) を使用してmboxの応答をリッスンし、応答トークンを読み取ります。
+[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)を使用して mbox の応答をリッスンし、レスポンストークンを読み取ります。
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 
@@ -286,4 +286,4 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 
 次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=jpn)
