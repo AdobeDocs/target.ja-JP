@@ -8,7 +8,7 @@ title: 指標、オーディエンス、レポートの共有 - A4T FAQ
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 412e87a3e4274ec08324db29bdf4e713cfb7feb3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 412e87a3e4274ec08324db29bdf4e713cfb7feb3
 
 ## ユーザーのためにレポートをキュレート（共有）するにはどうしたらよいですか？{#section_24176388591A488C86F972213CD6A123}
 
-異なるユーザーグループ用にテストのビューを作成して、テスト結果を簡単に考察できるようにしたいと思うことはよくあります。Analyticsでは、指標、日付範囲、セグメント、その他のデータなど、レポートの現在のビューを保存するブックマークを作成できます。
+異なるユーザーグループ用にテストのビューを作成して、テスト結果を簡単に考察できるようにしたいと思うことはよくあります。Analytics では、レポートの現在のビュー（指標、データ範囲、セグメントなどのデータ）を保存するブックマークを作成できます。
 
 詳しくは、[ブックマークの作成](https://marketing.adobe.com/resources/help/en_US/sc/user/t_bookmarks_creating.html)を参照してください。
 
