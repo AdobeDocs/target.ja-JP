@@ -8,7 +8,7 @@ title: レポート設定
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
 
-レポートを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**レポート]」タブをクリックします。[!UICONTROL **
+レポートをを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**[!UICONTROL レポート]**」タブをクリックします。
 
 ![レポートUI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -30,7 +30,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 **プリセットまたはデフォルトプリセットの作成**
 
 1. アクティビティのレポートを必要に応じて設定します（指標、日付範囲、オーディエンス、詳細設定など）。
-1. **[!UICONTROL 「Target プリセット]**」の横の3つの垂直の楕円アイコン/新規として **[!UICONTROL 保存をクリック]** します。
+1. 「**[!UICONTROL Target プリセット]**」の横の縦並びの省略記号／「**[!UICONTROL 新規として保存]**」をクリックします。
 
    ![レポートプリセット](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -38,13 +38,13 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
    ![新規プリセットダイアログボックス](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. フィルターおよび設定セクションの情報をレビューして、レポートが必要に応じて設定されていることを確認し、 **[!UICONTROL プリセット名]** （最大50文字）を指定します。
-1. （条件付き）これをデフォルトまたはお気に入りのレポートビューにする場合は、「**[!UICONTROL これをデフォルトのプリセットに設定]」切り替えをオンの位置にスライドします。**
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. フィルターおよび設定セクションの情報をレビューして、レポートが必要に応じて設定されていることを確認し、**[!UICONTROL プリセット名]**（最大50文字）を指定します。
+1. （条件付き）これをデフォルトまたはお気に入りのレポートビューにする場合は、「**[!UICONTROL これをデフォルトのプリセットに設定]**」切り替えをオンの位置にスライドします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 **別のプリセットの選択**
 
-目的のプリセットを **[!UICONTROL Target プリセット]ドロップダウンリストから選択します。**
+目的のプリセットを **[!UICONTROL Target プリセット]** ドロップダウンリストから選択します。
 
 ![プリセットドロップダウンリスト](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
@@ -68,7 +68,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 **プリセットの削除**
 
 1. 削除するプリセットを選択します。
-1. 3つの垂直方向の楕円アイコン/ **[!UICONTROL 削除]** をクリックします。
+1. 縦並びの省略記号／**[!UICONTROL 削除]** をクリックします。
 
    ![レポートのデフォルトの削除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
@@ -133,7 +133,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
    * アクティビティのインプレッション
 
 * **コントロール：** 上昇率の計算および比較に使用するコントロールエクスペリエンスを選択します。
-* **環境：** レポートに使用する環境（ホストグループ）を選択します。詳しくは、「[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)」を参照してください。
+* **環境：** レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
 * **レポートデータをリセット：** レポートデータをリセットして、古いデータを削除します。現在の訪問者は、アクティビティに残されます。このオプションは、承認者権限を持つユーザーのみ使用できます。
 
    >[!IMPORTANT]
@@ -156,7 +156,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ## テーブル表示 {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
-**[!UICONTROL テーブル表示]アイコンをクリックして、レポートをテーブルとして表示します。**
+**[!UICONTROL テーブル表示]** アイコンをクリックして、レポートをテーブルとして表示します。
 
 ## グラフ表示 {#section_0D24B902A8D142468ADB7EEF1D941786}
 
@@ -166,7 +166,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 
-詳しくは、「[平均上昇率、上昇率範囲および信頼区間](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)」を参照してください。
+詳しくは、[平均上昇率、上昇率範囲および信頼区間](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)を参照してください。
 
 次の点に留意してください。
 
@@ -210,7 +210,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 レポート内のグラフのカウント手法を選択できます。この機能は自動パーソナライゼーション（AP）アクティビティには対応していません。
 
-カウント手法オプションにアクセスするには、レポートをグラフモードで表示して **[!UICONTROL 主な目標]ドロップダウンをクリックし、カウント手法を選択します。**
+カウント手法オプションにアクセスするには、レポートをグラフモードで表示して **[!UICONTROL 主な目標]** ドロップダウンをクリックし、カウント手法を選択します。
 
 カウント手法は、前述の[!UICONTROL 設定]ダイアログで設定したものと同じになります。
 
