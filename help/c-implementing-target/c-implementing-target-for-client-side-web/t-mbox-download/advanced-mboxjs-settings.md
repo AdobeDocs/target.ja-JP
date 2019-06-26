@@ -7,7 +7,7 @@ solution: 'Target '
 title: mbox.js を設定
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ mbox.js の設定ページでいくつかの設定をおこなう方法を説明
 
 [!DNL mbox.js] の設定を変更する必要がある場合は、アカウント担当者に相談してください。
 
-次の設定を利用できます。
+以下の設定を使用できます。
 
 ## クライアント
 
