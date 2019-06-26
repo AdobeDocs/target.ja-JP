@@ -8,7 +8,7 @@ title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 77dd9ec5cf97e4f45d40a49f83fe239267d38435
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -46,9 +46,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [Visual Experience Composer（VEC）](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:24<br>2017年12月 | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは [、エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
+| [Visual Experience Composer（VEC）](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:24<br>2017年12月 | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
 | [Adobe Target:Analytics/Target統合（A4T）](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at. js:メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは [、at. jsの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
+| [at. js:メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Adobe Target Insider は、Adobe Target コミュニティのメンバーを対�
 
 | 問題 | 詳細 |
 |--- |--- |
-|  |
+|  |  |
 | 2018 年 11 月（1 巻 11 号） | この問題では、Forrester のプリンシパルアナリストの James McCorkk 氏による、エクスペリエンス最適化プラットフォームの最近のウェビナーについて説明します。顧客が何度以上使用するかを開発するための、モバイルアプリの開発方法を紹介します。最適化成功の通信について、WestJet の Matt Ravlich からアドバイスを受ける。Adobe Sensei によって推進されている 2 つの強力な AI 機能が、スケールでのパーソナライゼーションを有効にする方法を調査します。Adobe Summit の日付を忘れずに保存してください。 |
 | 2018 年 10 月（1 巻 10 号） | 最近の TechCrrip 記事で取り上げられていた、Adobe Target の優れた新機能および機能強化をいくつか追加しました。関連するブログ記事に加えて、Adobe Target の新機能について詳しく説明します。また、David Parker 氏が、企業の Web サイトで、通信事業者の巨大企業が顧客の遍歴全体を最適化する方法を学びます。 |
 | 2018 年 9 月（1 巻 9 号） | このエディションの Adobe Target Inder の Leen Habbal 氏は、夏のインターンとして、Adobe Target Product Marketing チームの夏のインターンとして体験を共有しています。また、Adobe Cloud Platform Auditor も、アドビのテクノロジーを正しく実装しているかどうかを検証できるツールとして導入されています。ここでは、顧客の遍歴を次のレベルにプッシュする方法と Adobe Target 認証の取得方法について説明します。さらに、英国の電気通信業界の Rob Mccaughtlin から、顧客に大規模なパーソナライゼーションを提供する方法などの情報を提供しています。 |
@@ -110,7 +110,7 @@ ClientCare は、どのような問題でも解決を支援できる体制を整
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-質問については [、Experience CloudコミュニティでAdobe Targetの専門家に](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) 問い合わせるか、@ AdobeExpCareで [Twitterをご確認](https://twitter.com/adobeexpcare)ください。
+For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
@@ -195,6 +195,6 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 [利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use) | [プライバシーセンター](https://www.adobe.com/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
