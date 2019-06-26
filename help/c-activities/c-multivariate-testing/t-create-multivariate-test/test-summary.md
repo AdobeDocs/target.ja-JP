@@ -8,7 +8,7 @@ title: テスト概要
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
    現在、利用可能なアルゴリズムは「全因子」のみです。アルゴリズム名は、使用されているアルゴリズムについての情報を提供する目的でのみ表示されています。
 * 組み込まれているエクスペリエンスおよび除外されているエクスペリエンスの数
 
-テストの設定が終わったら、「**[!UICONTROL 続行]」をクリックします。**目標と設定ページが表示されます。
+テストの設定が終わったら、「**[!UICONTROL 続行]」をクリックします。** 目標と設定ページが表示されます。
