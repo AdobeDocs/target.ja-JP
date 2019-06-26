@@ -1,18 +1,18 @@
 ---
-description: この節では、Targetモバイルアプリアクティビティ情報をAdobe Analyticsに送信して、ポストアドホックセグメント化する方法について説明します。
-seo-description: この節では、Targetモバイルアプリアクティビティ情報をAdobe Analyticsに送信して、ポストアドホックセグメント化する方法について説明します。
-seo-title: アクティビティ情報のAdobe Analyticsへの送信
-title: アクティビティ情報のAdobe Analyticsへの送信
+description: この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
+seo-description: この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
+seo-title: アクティビティ情報の Adobe Analytics への送信
+title: アクティビティ情報の Adobe Analytics への送信
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# アクティビティ情報のAdobe Analyticsへの送信{#send-activity-information-to-adobe-analytics}
+# アクティビティ情報の Adobe Analytics への送信{#send-activity-information-to-adobe-analytics}
 
-この節では、Targetモバイルアプリアクティビティ情報をAdobe Analyticsに送信して、ポストアドホックセグメント化する方法について説明します。
+この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
 
 **前提条件**
 
@@ -55,12 +55,12 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
    コールバックでTargetから返された応答を解析します。NSSonsSerializationを使用してこの応答を解析し、dictまたは配列に格納できます。
 
-   詳しくは [、NSDSONSerializationのドキュメント](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) を参照してください。
+   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
 1. データをAnalyticsに送信します。
 
    解析呼び出しのコンテキストデータオブジェクトに、解析されたアクティビティ情報（上記の応答 `tntVal` など）を追加します。コンテキストデータを含むAnalytics呼び出しは、即座に実行することも、次のAnalytics呼び出しが実行されるまで待機することもできます。
 
-   例えば、 `targetLoadRequest` 呼び出しのコールバックでこの呼び出しを呼び出すことができます。
+   例えば、`targetLoadRequest` 呼び出しのコールバックでこの呼び出しを実行できます。
 
    ```
    [ADBMobile trackAction:@"Welcome Screen"  
