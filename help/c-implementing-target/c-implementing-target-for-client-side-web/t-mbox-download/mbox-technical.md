@@ -9,7 +9,7 @@ title: mbox.js の機能
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,6 +37,9 @@ Target Standard では、[!DNL mbox.js] は別の JavaScript ファイル [!DNL 
 
 さらに、DOM をポーリングするために次のスニペットが使用されます。
 
+
+
+
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js と Visual Experience Composer {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -50,4 +53,4 @@ Target Standard では、[!DNL mbox.js] は別の JavaScript ファイル [!DNL 
 
 Target を角度サイトまたはシングルページアプリケーション（SPA）で実装する場合、mbox.js ではなく at.js ライブラリを使用する必要があります。
 
-詳細については、「[at.js の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)」を参照してください。
+詳しくは、「[at.js の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)」を参照してください。
