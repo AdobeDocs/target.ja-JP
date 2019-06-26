@@ -8,7 +8,7 @@ title: カテゴリ親和性
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 >[!IMPORTANT]
 >
->Adobe Targetのカテゴリ親和性のアルゴリズムに使用される `user.categoryId` 属性は、Adobe Target Recommendationsの製品およびコンテンツのレコメンデーションに使用される `entity.categoryId` 属性とは異なります。`user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
+>The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
 
 ## カテゴリ親和性のビジネス事例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
