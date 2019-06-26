@@ -8,7 +8,7 @@ title: カスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 
 1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付けます。
-1. ルール **[!UICONTROL を追加]** / **[!UICONTROL カスタム]** をクリックします。
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    目的のパラメーターを選択するには：
 
