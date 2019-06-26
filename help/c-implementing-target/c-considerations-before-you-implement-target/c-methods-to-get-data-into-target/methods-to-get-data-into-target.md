@@ -9,7 +9,7 @@ title: データを Target に送信する方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * データを後続のページ／サーバー呼び出しでのターゲティングで使用する必要がある場合は、プロファイルスクリプトに変換する必要があります。
 * [Internet Engineering Task Force（IETF）標準](https://www.ietf.org/rfc/rfc3986.txt)では、クエリ文字列に文字のみを含めることができます。
 
-   Target では、IETF サイトに記載されている文字に加え、クエリ文字列で次の文字も使用できます。
+   Targetでは、IETFサイトで言及されているこれらの文字に加え、クエリ文字列で以下の文字を使用できます。
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
