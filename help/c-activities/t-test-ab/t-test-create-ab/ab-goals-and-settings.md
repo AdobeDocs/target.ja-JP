@@ -7,7 +7,7 @@ title: 目標と設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 目標と設定ページでは、テストの目標についての情報を入力します。
 
-使用できる設定は、Targetまた [はAnalyticsをデータソース](/help/c-integrating-target-with-mac/a4t/a4t.md) として使用するかどうかによって異なります。
+The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
 ![アクティビティ設定ダイアログボックス](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
