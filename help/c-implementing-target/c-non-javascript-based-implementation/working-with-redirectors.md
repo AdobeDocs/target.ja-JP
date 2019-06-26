@@ -9,7 +9,7 @@ title: リダイレクターの使用
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * お客様のクライアントコードの場所 `yourclientcode` 。クライアントコードはすべて小文字で、特殊文字は含まれません。
+   * `yourclientcode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
       * **at.js**： クライアントコードは、[!UICONTROL  インターフェイスの「]セットアップ」／「実装」／「at.js 設定を編集[!DNL Target]」ページの最上部にあります。
 
@@ -54,7 +54,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
       リダイレクターの機能は他の mbox とは異なりますが、他の mbox と同様にアカウントで表示されます。アカウント内の標準タイプの mbox と区別しやすいようなリダイレクターの名前を指定してください。mbox の名前には、&#39;redirectorlink&#39; を先頭に付けることをお勧めします。
 
-   * デフォルト `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` の宛先です。
+   * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` はデフォルトの宛先です。
 
       URL エンコードをおこない、絶対参照にする必要があります。[HTML URLエンコーディングリファレンス](https://www.w3schools.com/tags/ref_urlencode.asp) を使用すると、URLを簡単にエンコードできます
 
@@ -97,7 +97,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 >[!NOTE]
 >
->「エンゲージメント」で説明するように、「訪問あたり **のスコア** 」エンゲージメント指標を使用してコストの値を決定することをお [勧め](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)します。
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 `&mboxPageValue=-value` を URL に追加します。負の値であることに注意してください。
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->「エンゲージメント」で説明したように、「訪問あたり **のスコア** 」エンゲージメント指標を使用して売上高の値を決定することをお [勧め](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)します。
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 `&mboxPageValue=value` を URL に追加します。
 
