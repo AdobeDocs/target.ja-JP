@@ -8,14 +8,14 @@ title: グローバル mbox に関するよくある質問
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # グローバル mbox に関するよくある質問{#global-mbox-frequently-asked-questions}
 
-グローバルmboxに関するよくある質問（FAQ）のリストです。
+グローバル mbox に関するよくある質問（FAQ）のリストです。
 
 ## Target アカウントが複数のドメインにまたがって設定されている場合、複数のグローバル mbox を使用できますか？{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 アクティビティに URL ルールを追加することで、アクティビティの実行場所を制限できます。詳しくは、[類似のページに同じエクスペリエンスを組み込む](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を参照してください。
 
-また、targetPageParamsを使用し [てページ上のパラメーターを渡す](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) ことも、 [!UICONTROL Visual Experience Composer] （VEC）の«URLを設定»セクションでこれらのパラメーターを選択するか、フォームベースのExperience Composerでパラメーターを«絞り込み»として追加することもできます。
+また、[targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) を使用し、これらのパラメーターを [!UICONTROL Visual Experience Composer]（VEC）の「URL を設定」セクションで選択するか、このパラメーターをフォームベースの Experience Composer で「絞り込み条件」として追加することで、ページにパラメーターを渡せます。
 
 ## Target のグローバル mbox に売上高データを渡すには、どうすればよいですか？{#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -43,6 +43,6 @@ target-global-mbox で売上高と注文の情報を収集するには、「mbox
 
 上図のオプションは、以下の設定で構成されています。
 
-* **このアクティビティでは何を測定しますか？：**売上高
-* **レポートのデフォルトの表示：**訪問者あたりの売上高（RPV）
+* **このアクティビティでは何を測定しますか？：** 売上高
+* **レポートのデフォルトの表示：** 訪問者あたりの売上高（RPV）
 * **目標を達成したことを示すオーディエンスのアクションは何ですか？** mbox が表示された、target-global-mbox
