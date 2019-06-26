@@ -8,7 +8,7 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
