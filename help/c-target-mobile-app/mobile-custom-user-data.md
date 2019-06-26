@@ -7,7 +7,7 @@ title: iOS - カスタムユーザーデータの送信
 topic: 'Target '
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
