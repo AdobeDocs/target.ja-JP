@@ -8,7 +8,7 @@ title: ユーザー管理のトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,4 +21,4 @@ Adobe Target でのユーザー管理のトラブルシューティングにつ�
 
 新しいユーザーは、Adobe Experience Cloud のアカウントでログインしてから、[!DNL Target] カードをクリックして [!DNL Target Standard/Premium] にログインするまでは、[!UICONTROL ユーザー] ページに表示されません。
 
-![ターゲットカード](/help/administrating-target/assets/target_card_new.png)
+![Target カード](/help/administrating-target/assets/target_card_new.png)
