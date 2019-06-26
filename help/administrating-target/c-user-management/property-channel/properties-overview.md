@@ -1,7 +1,7 @@
 ---
 description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
-seo-description: Adobe Target実装にユーザーを追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループおよびプロパティの作成、Target実装を更新してat_ propertyパラメーターを含めます。ロールと権限を指定します。
+seo-description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 seo-title: Enterprise 権限の設定
 solution: 'Target '
 subtopic: 導入
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 >[!NOTE]
 >
->プロパティと権限の機能は [Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Standard] ライセンスのない [!DNL Target Premium] では利用できません。
+>プロパティと権限の機能は [Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
 次の表に、プロパティを作成し、ユーザーの役割および権限を割り当てるために必要なタスクを示します。各タスクについて詳しくは、以下のセクションを参照してください。
 
@@ -37,11 +37,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 Adobe Admin Console for Enterprise で実行するタスクの場合は、次の手順でコンソールにアクセスします。
 
-1. まだログインしていない場合は、 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &lt; ID&gt;を使用してログインします。
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
 
    または
 
-   既にExperience Cloudにログインしている場合は、 [https://www.experiencecloud.adobe.comに移動](https://experiencecloud.adobe.com)し、上部ナビゲーションバーの [!UICONTROL アプリ] アイコンをクリックして、右側の **[!UICONTROL 「管理者」]** をクリックします。
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
@@ -83,20 +83,20 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
-### ワークスペースIDの取得 {#workspace-id}
+### Obtain your Workspace ID {#workspace-id}
 
-Target APIの [Enterprise権限を活用するには、ワークスペースIDを渡す必要](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)があります。
+[Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
-1. [Adobe Admin Console](https://adminconsole.adobe.com)で [!UICONTROL 、「製品] 」タブをクリックし、左側のメニューで製品をクリックして、&quot;PX（ワークスペース）」リストを表示します。
-1. 目的のXSD（ワークスペース）をクリックし、次に示すようにURLで「プロファイル」 IDを探します。
+1. [Adobe Admin Console ](https://adminconsole.adobe.com)で 、[!UICONTROL 「製品」] タブをクリックし、左側のメニューで製品をクリックして、PLC（ワークスペース）」リストを表示します。
+1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
 
-   ![workspaceId](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![ワークスペース ID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## 手順 3.ユーザーグループの作成（オプション）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. Admin Console で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**ユーザーグループ]」をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。[!UICONTROL **
+1. Admin Console で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
 1. *Enterprise ユーザーガイド*の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -120,7 +120,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
 1. 「**[!UICONTROL コードを生成]**」をクリックして、[5. at_property パラメーターを含めるための実装の更新](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)のステップの実行時に使用するコードを生成します。
 1. コードをクリップボードにコピーします。
-1. 終了したら「**[!UICONTROL Save]」をクリックします。**
+1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >プロパティ作成について詳しくは、以下のトレーニングビデオをご覧ください。
@@ -151,7 +151,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
    * **「グローバルパラメーター[!DNL Adobe Launch]」の&quot;**
 
-      詳しく [は、](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)*Adobe Experience Platform Launch* のドキュメントの「グローバルmboxパラメーターの追加」を参照してください。
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **「グローバルパラメーター」の使用[!DNL Dynamic Tag Management]:**
 
@@ -169,7 +169,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
       ![](assets/property_token_3.png)
 
-      at.js を使用してこれをおこなう方法については、[targetPageParams（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) および [mboxCreate（mbox， params）](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      at.js を使用してこれをおこなう方法については、[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) および [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## ステップ 6. 役割および権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -179,7 +179,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
    >[!NOTE]
    >
-   >プロパティおよび権限機能は、Target Standard/Premiumに [](/help/c-intro/intro.md#premium) のみ適用されます。この機能は [!DNL Target Classic] では使用できません。
+   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. この機能は [!DNL Target Classic] では使用できません。
 
 1. 目的のプロファイルの名前をクリックします。
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
@@ -200,7 +200,7 @@ Target APIの [Enterprise権限を活用するには、ワークスペースID�
 
 ## トレーニングビデオ
 
-次のビデオでは、この記事に記載されている概念についてさらに詳しく説明します。
+以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
 ### Target のワークスペースの設定方法（6:55）
 
