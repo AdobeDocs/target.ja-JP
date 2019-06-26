@@ -9,7 +9,7 @@ title: CSV ファイル内のデータのダウンロード
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ CSV ファイル内のデータをダウンロードするには：
 
    多数のアクティビティが表示される場合は、「[!UICONTROL 種類]」、「[!UICONTROL ステータス]」、「[!UICONTROL レポートソース]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL 指標のタイプ]」、「[!UICONTROL アクティビティソース]」のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
-1. 「**[!UICONTROL レポート]」タブをクリックします。**
+1. 「**[!UICONTROL レポート]**」タブをクリックします。
 1. [!UICONTROL ダウンロード]アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。
 
 ## レポートを CSV に書き出す {#section_38BD9743EB254453B5F4A0A6F2720CD3}
