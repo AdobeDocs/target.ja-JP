@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 # ドキュメントの変更点{#documentation-changes}
 
 このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
+
+## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日） {#tgt-19-6-1}
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2019年6月27日 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL コピー] アクションに関する情報を追加しました。 |
+|  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新規セクション:&quot;SPA VECのページ配信設定」 |
+|  | [自動パーソナライゼーションまたは自動ターゲットアクティビティのコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md) | 新規トピックです。 |
+|  | [Google Chromeサイトのcookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 新規トピックです。 |
+|  | [Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md) | 個々の属性を説明し、例を与えるための新しい表を追加しました。 |
+|  | [自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新しいFAQを追加しました。「コントロールとして使用する特定のエクスペリエンスを指定できますか?&quot;<br>次のFAQを編集しました。「自動パーソナライゼーションアクティビティを設定するためのベストプラクティスは何ですか?&quot; |
+|  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | コントロールとして使用する特定のエクスペリエンスの指定に関する情報とFAQを追加しました。<br>「トラフィック配分の決定」セクションを更新しました。 |
+|  | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 特定のエクスペリエンスをデフォルトとして選択するための情報を追加しました。 |
+|  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 複数のモバイルアプリケーションバージョンの管理方法に関する情報を追加しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：19.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 
