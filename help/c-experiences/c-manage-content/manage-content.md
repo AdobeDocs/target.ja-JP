@@ -7,7 +7,7 @@ solution: 'Target '
 title: オファー
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 >
 >2017 年 1 月のリリースでは、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で作成されたオファーが [!DNL Target Standard/Premium] ユーザーインターフェイスに表示されるようになりました。過去 2 年間（2015 年 1 月以降）にこれらの方法で更新されたオファーが表示されます。組織の任意のユーザーが[!UICONTROL オファー]ページを初めて開く際に、最初の同期が発生します。最初の同期にかかる時間は、データ量によって異なります。最初の同期の後、データは増分で同期されます。このリリース以前にコードとイメージを同一フォルダー内に保存していた場合、コードとイメージは [!DNL Target] によって 2 つの重複フォルダーに分けられます。更新日時は、フォルダーが移行された際の時間を示し、元々フォルダーを作成した日付は反映されないことに注意してください。
 
-**[!UICONTROL オファー]をクリックして、ライブラリを開きます。**ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で設定されたオファーが含まれています。[!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
+**[!UICONTROL オファー]をクリックして、ライブラリを開きます。** ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services]（AMS）および API で設定されたオファーが含まれています。[!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
 
 [!UICONTROL オファー]ページには、右側に「コードオファー」と「画像オファー」の 2 つのタブがあり、タイプ別にオファーを表示できます。
 
@@ -86,7 +86,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * リダイレクト URL のタイプ
 * 絶対 URL または相対 URL
 
-## トレーニングビデオ:Content Repository
+## トレーニングビデオ：コンテンツリポジトリ
 
 このビデオでは、オファーの管理について説明します。
 
@@ -94,4 +94,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=jpn)
