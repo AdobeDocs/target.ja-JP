@@ -8,7 +8,7 @@ title: レポートでの複数の指標の表示
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 **複数の指標を選択してレポートに表示する方法は次のとおりです。**
 
-1. レポートを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**レポート]」タブをクリックします。[!UICONTROL **
-1. **[!UICONTROL レポート指標]**ドロップダウンリストをクリックし、「[!UICONTROL 表示されている指標]」と「[!UICONTROL 非表示の指標]」リストを表示します。
+1. レポートをを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**[!UICONTROL レポート]**」タブをクリックします。
+1. **[!UICONTROL レポート指標]** ドロップダウンリストをクリックし、「[!UICONTROL 表示されている指標]」と「[!UICONTROL 非表示の指標]」リストを表示します。
 
    ![](assets/multiple_metrics.png)
 
