@@ -8,7 +8,7 @@ title: Target モバイルのプレビュー
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,14 +27,14 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 ## 前提条件 {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **サポートされているバージョンの SDK を使用する：**モバイルプレビュー機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードして対応するアプリにインストールする必要があります。
+1. **サポートされているバージョンの SDK を使用する：** モバイルプレビュー機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードして対応するアプリにインストールする必要があります。
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
    * **iOS：**『[Experience Cloud ソリューション向け iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)』ガイドの*事前準備*。
    * **Android：**『Experience Cloud ソリューション用 Android SDK 4.x』ガイドの[事前準備](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*。*
 
-1. **URL スキームを設定する：**プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
+1. **URL スキームを設定する：** プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
    iOS の例を次の図に示します。
 
@@ -46,7 +46,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 1. **アドビの DeepLink を追跡する**
 
-   **iOS：**アプリケーションデリゲートで、 デリゲートが前の手順で指定した URL スキームでリソースを開くように要求されたときに `[ADBMobile trackAdobeDeepLink:url` を呼び出します。
+   **iOS：** アプリケーションデリゲートで、 デリゲートが前の手順で指定した URL スキームでリソースを開くように要求されたときに `[ADBMobile trackAdobeDeepLink:url` を呼び出します。
 
    コードスニペットの例を次に示します。
 
@@ -62,7 +62,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
    } 
    ```
 
-   **Android：**アプリケーションで、 呼び出し元が前の手順で指定した URL スキームでリソースを開くように要求されたときに `Config.trackAdobeDeepLink(URL);` を呼び出します。
+   **Android：** アプリケーションで、 呼び出し元が前の手順で指定した URL スキームでリソースを開くように要求されたときに `Config.trackAdobeDeepLink(URL);` を呼び出します。
 
    ```
     private Boolean shouldOpenDeeplinkUrl() { 
@@ -85,7 +85,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 ## プレビューリンクの生成 {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. Target UI で、「**[!UICONTROL その他のオプション]**」アイコン（3 つの垂直の楕円）をクリックし、「**[!UICONTROL モバイルプレビューを作成]**」を選択します。
+1. Target UI で、「**[!UICONTROL その他のオプション]**」アイコン（縦並びの省略記号）をクリックし、「**[!UICONTROL モバイルプレビューを作成]**」を選択します。
 
    ![](assets/mobile-preview-create.png)
 
@@ -103,7 +103,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. 「 **[!UICONTROL モバイルプレビューリンクを生成」をクリック]** して、リンクをコピーします。
+1. 「**[!UICONTROL モバイルプレビューリンクを生成」をクリック]** して、リンクをコピーします。
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
