@@ -8,7 +8,7 @@ title: 実装する前に
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,28 +19,28 @@ Analytics を Target のレポートソースとして有効化する場合（A4
 
 この統合を使用する前に、以降の節を確認して、レポートプロセスへの影響を検討してください。
 
-## 実装要件 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
+## 導入に必要な条件 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
 >A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの依頼には[このフォーム](https://www.adobe.com/go/audiences)を使用します。
 
-このA4T統合では、A4Tでリダイレクトオファーを使用するかどうかに応じて、以下のライブラリバージョン（またはそれ以降）を実装する必要があります。
+この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
-### A4Tでリダイレクトオファーを使用 *しない* 場合に必要な要件
+### A4T でリダイレクトオファーを使用 *しない* 場合に必要な要件
 
-この統合では、A4Tでリダイレクトオファーを使用しない場合は、以下のライブラリバージョン（またはそれ以降）を実装する必要があります。リストされる順序は、操作の順序です。
+この統合で、A4T でのリダイレクトオファーを使用しない場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
 * Experience Cloud 訪問者 ID サービス：visitorAPI.js バージョン 1.8.0
 * Adobe Target（実装によって異なります）：at.js バージョン 0.9.1 または mbox.js バージョン 61
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
-### A4Tでリダイレクトオファーを使用する場合に必要な要件
+### A4T でリダイレクトオファーを使用する場合に必要な要件
 
-A4Tでリダイレクトオファーを使用するには、以下のライブラリバージョン（またはそれ以降）を実装する必要があります。リストされる順序は、操作の順序です。
+A4T でリダイレクトオファーを使用する場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
 * Experience Cloud 訪問者 ID サービス：visitorAPI.js バージョン 2.3.0
-* Adobe Target:at. jsバージョン1.6.2
+* Adobe Target：at.js バージョン 1.6.2
 
    **注意：** mbox.js ライブラリは A4T によるリダイレクトオファーをサポートしていません。実装では at.js を使用する必要があります。
 
@@ -77,8 +77,8 @@ Analytics および Target からのデータを含むヒットには、追加�
 
 トラブルシューティングをおこなう場合は、Analytics のヒットに追加の ID があることを確認してください。
 
-## クライアント側のAnalyticsログ {#client-side}
+## Client-side Analytics logging {#client-side}
 
-デフォルトでは、 [!DNL Experience Cloud Visitor ID Service]at. js、およびAppMeasurement. jsがページ上にある場合、前述のように、適切な追加IDがページに含まれている限り、バックエンドでレポートおよび分析の目的でイベントを正しくステッチ [!DNL Adobe Analytics] および [!DNL Target] ステッチします。A4Tが正しく機能するために、追加の操作を管理し、実行する必要はありません。
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. A4Tが正しく機能するために、追加の操作を管理し、実行する必要はありません。
 
-ただし、レポートの目的に関連する分析データをいつ送信するか、およびどのように送信するかを制御 [!DNL Target][!DNL Analytics] することができます。社内分析ツールを利用して社内の分析を行うこともできますが、社内の分析製品 [!DNL Analytics] を通じて分析データを社内分析製品に送信して、視覚的なレポートソースとして利用 [!DNL Analytics] できるようにすることもできます。[手順7を参照してください。詳細については、Analytics for Target実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) の *すべてのサイトページのat. jsまたはmbox. js* を参照してください。
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. [手順7を参照してください。詳細については、Analytics for Target実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) の *すべてのサイトページのat. jsまたはmbox. js* を参照してください。
