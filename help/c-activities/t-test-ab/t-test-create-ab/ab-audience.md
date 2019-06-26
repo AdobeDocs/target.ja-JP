@@ -8,7 +8,7 @@ title: オーディエンスの選択
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ![オーディエンスを置換オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択したり、新しいオーディエンス [](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)を作成したり、アクティビティのみのオーディエンス [を作成](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)したりできます。特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
+デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
 
 以下のように、[!UICONTROL オーディエンスを選択]ダイアログボックスで対象のオーディエンスにカーソルを合わせることで、オーディエンスを編集またはコピーすることもできます。オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。このホバー機能は、他のタイプのアクティビティでも利用できます。
 
@@ -43,7 +43,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ![オーディエンスの割合](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Targetが自動的にトラフィック [を割り当てるように選択すること](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)もできます。
+You can also choose to let Target [allocate traffic automatically](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## トレーニングビデオ
 
