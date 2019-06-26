@@ -8,7 +8,7 @@ title: 目標と設定
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -132,8 +132,8 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 依存関係を追加する手順は次のとおりです。
 
-1. 追加の指標を追加したら、 **[!UICONTROL 「詳細設定]**」をクリックします。
-2. 「依存関係 **[!UICONTROL を追加」をクリック]** します。
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![依存関係リンクの追加](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
