@@ -8,14 +8,14 @@ title: mbox.js から at.js に移行する方法
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # mbox.js から at.js に移行する方法{#how-to-migrate-to-at-js-from-mbox-js}
 
-mbox. jsからat. jsへの移行は [!DNL Adobe Target] 、簡単なプロセスです。
+[!DNL Adobe Target] での mbox.js から at.js への移行は簡単なプロセスです。
 
 次の手順に従って、[!DNL mbox.js] から [!DNL at.js] に移行し、移行をチェックしてください。
 
@@ -61,7 +61,7 @@ mbox. jsからat. jsへの移行は [!DNL Adobe Target] 、簡単なプロセス
    * AAM（従来のフロントエンド）
    * AEM
    * Data Workbench
-   一部の従来の統合は、[!DNL at.js] ではサポートされません。詳細については、「[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)」ページを参照してください。
+   一部の従来の統合は、[!DNL at.js] ではサポートされません。詳しくは、[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)ページを参照してください。
 
    **[!DNL Target]をサードパーティツールと統合しているかどうか。**
 
