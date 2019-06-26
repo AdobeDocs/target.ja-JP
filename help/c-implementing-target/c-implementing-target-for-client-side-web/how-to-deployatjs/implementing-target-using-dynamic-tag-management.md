@@ -6,7 +6,7 @@ seo-title: Dynamic Tag Management（DTM）を使用した Target の実装
 title: Dynamic Tag Management（DTM）を使用した Target の実装
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
 translation-type: tm+mt
-source-git-commit: bb819ec9779e351a884c48f9a3f5abdd126422f8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
