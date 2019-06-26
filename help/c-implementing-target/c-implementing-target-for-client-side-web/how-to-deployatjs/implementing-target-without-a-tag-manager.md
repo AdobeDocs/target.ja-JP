@@ -9,14 +9,14 @@ title: タグマネージャーを使用しない Target の実装
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # タグマネージャーを使用しない Target の実装{#implement-target-without-a-tag-manager}
 
-タグマネージャー（Adobe LaunchまたはDynamic Tag Management）を使用 [!DNL Adobe Target] せずに実装する方法について説明します。
+タグマネージャー（Adobe Launch または Dynamic Tag Management）を使用せずに [!DNL Adobe Target] を実装する方法について説明します。
 
 ## タグマネージャーを使用しない Target の実装 {#topic_397FFA3D6918456BBE02A9FBE9537894}
 
@@ -86,13 +86,13 @@ ov2/c_target-configure-atjs.xml
 
 >[!IMPORTANT]
 >
->Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンに関する詳細については、「[at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)」を参照してください。
+>Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
 ## Target インターフェイスを使用した at.js のダウンロード {#section_1F5EE401C2314338910FC57F9592894E}
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**をクリックします。
+1. 「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順にクリックします。
 1. 「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL at.js をダウンロード]**」をクリックします。
 
@@ -102,7 +102,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 1. クライアントコードを取得します。
 
-   クライアントコードは、[!DNL Target] インターフェイスの「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**ページの最上部にあります。
+   クライアントコードは、[!DNL Target] インターフェイスの「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」** ページの最上部にあります。
 
 1. 管理番号を取得します。
 
@@ -205,7 +205,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 次の重要な注意点を考慮してください。
 
 * HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
-* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合、`<client code>` を独自のクライアントコードに置き換えてください。このコードは、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**ページから取得できます。
+* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合、`<client code>` を独自のクライアントコードに置き換えてください。このコードは、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」** ページから取得できます。
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
 * 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
@@ -232,7 +232,7 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
    >
    >複数の製品 ID を区切るには、コンマを使用してください。
 
-   **ヒント：**任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
+   **ヒント：** 任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
 
    ```
    <script type="text/javascript"> 
