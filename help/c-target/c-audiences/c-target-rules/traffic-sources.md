@@ -7,7 +7,7 @@ solution: 'Target '
 title: トラフィックソース
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 オーディエンスを作成して、サイトに導いた検索エンジンまたはランディングページに基づいて訪問者をターゲット設定します。
 
-例えば、訪問者のブラウザー、検索エンジンまたは参照元ランディングページを基にターゲットを定めることができます。参照ランディングページは、訪問者がこのセッションの対象としてクリックしたページです。（例えば、訪問者がGoogle上の広告をクリックし、その訪問者を `adobe.com` ホームページに誘導した場合、参照ランディングページが表示 `google.com`されます）。
+例えば、訪問者のブラウザー、検索エンジンまたは参照元ランディングページを基にターゲットを定めることができます。参照ランディングページは、訪問者がこのセッションの対象としてクリックしたページです。(For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 複数のトラフィックソースを組み合わせて複雑なターゲットルールを作成できます。
 
