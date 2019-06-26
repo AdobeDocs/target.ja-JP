@@ -7,7 +7,7 @@ solution: 'Target '
 title: Analytics データの使用
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
