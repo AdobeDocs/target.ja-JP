@@ -1,25 +1,25 @@
 ---
-description: 'at. jsのadobe. target. applyOffers（options）関数について取り上げます。 '
+description: 'at.js の adobe.target.applyOffers(options) 関数について説明します。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのadobe. target. applyOffers（options）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのadobe. target. applyOffers（options）関数について取り上げます。
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. applyOffers（options）- at. js2. x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 この関数を使用すると、`adobe.target.getOffers()` で取得した複数のオファーを適用できます。
 
 >[!NOTE]
 >
->この関数はat. js2. xで導入されました。この関数はat. jsバージョン1では使用できません。*x*.
+>この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1 では使用できません。*x*.
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
@@ -59,7 +59,7 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | `clickThrough` 指標のリストが含まれています。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | mbox の名前。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | レスポンスが、リクエストからのこのインデックスを持つ mbox に対するものであることを示します。 |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; analytics &gt; payload | mbox の適用後に Analytics に送信する必要がある、クライアントサイド統合用の Analytics ペイロード（「A4T が有効なキャンペーン」セクションを参照してください）。 |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; analytics &gt; payload | mbox の適用後に Analytics に送信する必要がある、クライアントサイド統合用の Analytics ペイロード（「A4T が有効なキャンペーン」セクションを参照してください） |
 | response &gt; execute &gt; mboxes | 実行された mbox のリスト。 |
 | response &gt; execute &gt; pageLoad &gt; options &gt; content | 注意：「オプション」の内容は明確に定義されておらず、オプションのタイプ／テンプレートの構造に直接依存しています。 |
 | response &gt; execute &gt; pageLoad &gt; options &gt; type | オプションのタイプ。「コンテンツ」フィールドのタイプを反映します。サポートされているタイプは、html、redirect、JSON、dynamic、および action です。 |
