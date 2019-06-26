@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 |  | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 特定のエクスペリエンスをデフォルトとして選択するための情報を追加しました。 |
 |  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 複数のモバイルアプリケーションバージョンの管理方法に関する情報を追加しました。 |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | 以前購入した品目レコメンデーションキーに関する情報を追加しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 特定の状況で自動ターゲットアクティビティのレンダリングに失敗したレポートに関する情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：19.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
