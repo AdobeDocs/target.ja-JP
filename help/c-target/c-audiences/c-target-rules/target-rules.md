@@ -7,7 +7,7 @@ solution: 'Target '
 title: オーディエンスのカテゴリ
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 より多くの条件を追加するか、他のカテゴリ内で条件を作成することで、ルールをさらに改良できます。例えば、Google からサイトにアクセスしたサンフランシスコの Firefox ユーザーのみをターゲットにするには、サンフランシスコのユーザーをターゲットにするよう[!UICONTROL 地域]カテゴリを設定し、[!UICONTROL 訪問者の行動]カテゴリを Firefox に、[!UICONTROL トラフィックソース]カテゴリを Google に設定します。カテゴリを横断して作成したルールはすべて「AND」で結合されます。カテゴリを横断した「OR」操作を含む複雑なターゲットルールを作成するには、エクスプレッションターゲットを作成します。
 
-カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを追加する場合は、 **[!UICONTROL 「訪問者プロファイル]**」をクリックして、アクティビティのターゲット設定に使用するパラメーターを選択します。必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
+カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
 [!UICONTROL オーディエンス]リストを検索するには、検索ボックスを使用します。オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
