@@ -7,24 +7,24 @@ solution: 'Target '
 title: アクティビティ URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # アクティビティ URL{#activity-url}
 
-アクティビティURLは [!M、&quot;Ultiavatate Test] （MVT）」で使用され、テストが設計されたときに開くページを決定 [!DNL Adobe Target]します。
+The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
 
-[アクティビティの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中に、アクティビティURLを指定します。完全なURL（を含む `https://`）を入力し、「 **[!UICONTROL 次へ]**」をクリックします。
+[アクティビティの作成](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中に、アクティビティURLを指定します。Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
 >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
 
-デフォルトで [!UICONTROL は、Visual Experience Composer] （VEC）は [、アカウント環境設定で指定されたページを開き](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)ます。アクティビティ作成中に、異なるページを指定することもできます。
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). アクティビティ作成中に、異なるページを指定することもできます。
 
-VECを開いた後に異なるページを表示するには **[!UICONTROL 、設定]** アイコンをクリックし、「ページ配信 **[!UICONTROL 」を選択]** してURLを指定します。
+To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
 
 ![ページ配信ダイアログボックス](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
