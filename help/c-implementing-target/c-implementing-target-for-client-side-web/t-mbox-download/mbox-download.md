@@ -9,7 +9,7 @@ title: mbox.js の実装
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Target Standard または Target Premium を使用するには、コードを 1 
 
 >[!NOTE]
 >
->mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。すべてのお客様が at.js に移行する必要があります。詳細については、「[mbox.js から at.js に移行する方法](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 各ページの [!DNL mbox.js] への単一の参照は、すべてのアクティビティに必要なライブラリを提供します。[!DNL mbox.js] は、[!DNL mbox.js] ファイルを参照するすべてのページから [!DNL Target] を呼び出します。これにより、[!DNL Target] で次の作業ができるようになります。
 
