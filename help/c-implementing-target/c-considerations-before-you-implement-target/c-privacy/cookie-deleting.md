@@ -7,7 +7,7 @@ title: Target の Cookie の削除
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ Cookie がない場合、新しい訪問者と見なされ、新しいエクス�
 1. ファイルメニューから「**[!UICONTROL 削除]**」を選択するか、ファイルを選択して **[!UICONTROL Delete]** キーを押します。
    **Firefox で Cookie を削除するには：**
 
-1. **ツール**／**オプション**／**プライバシー**をクリックします。
+1. **ツール**／**オプション**／**プライバシー** をクリックします。
 
 1. 「**Cookie を表示**」をクリックします。
 1. Cookie 名で並べ替え、Target の Cookie を探します。
