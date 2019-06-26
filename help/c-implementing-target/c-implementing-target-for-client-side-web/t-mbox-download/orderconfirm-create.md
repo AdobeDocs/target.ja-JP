@@ -8,7 +8,7 @@ subtopic: 導入
 title: 注文の確認 mbox の作成 - mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
    >
    >複数の製品 ID を区切るには、コンマを使用してください。
 
-   **ヒント：**任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
+   **ヒント：** 任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
 
    ```
    <div class="mboxDefault"> 
@@ -52,4 +52,4 @@ source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
 |--- |--- |
 | `orderId` | 注文を識別する一意の値（コンバージョンのカウントに使用）。<br>`orderId` は一意である必要があります。重複する注文はレポートで無視されます。 |
 | `orderTotal` | 購入金額。<br>通貨記号を渡さないでください。（コンマではなく）小数点を使用して、10 進数値を示します。 |
-| `productPurchasedId` (オプション) | この注文で購入された製品 ID のコンマ区切りのリスト。<br>これらの製品 ID は監査レポートに表示され、さらに詳細なレポート分析ができます。 |
+| `productPurchasedId`（オプション） | この注文で購入された製品 ID のコンマ区切りのリスト。<br>これらの製品 ID は監査レポートに表示され、さらに詳細なレポート分析ができます。 |
