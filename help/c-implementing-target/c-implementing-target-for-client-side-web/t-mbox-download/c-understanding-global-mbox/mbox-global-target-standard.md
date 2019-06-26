@@ -9,7 +9,7 @@ title: レガシー実装のグローバル mbox の使用
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ Target Standard は、デフォルトで target-global-mbox というグロー�
 
 [!DNL Target Standard] とレガシー実装の両方で既存のグローバル mbox を使用するには、いくつかのパラメーターを設定する必要があります。
 
-1. [!DNL Target Standard] に移動して、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順にクリックします。
+1. [!DNL Target Standard] に移動して、「**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**」の順にクリックします。
 
    デフォルトで、「[!UICONTROL グローバル mbox 自動作成]」が有効になっており、カスタムグローバル mbox の名前が `target-global-mbox` になっています。
 1. 既存の mbox を使用する場合は、「[!UICONTROL グローバル mbox 自動作成]」を無効にして、以前に作成したグローバル mbox の名前を「[!UICONTROL カスタムグローバル mbox]」フィールドに指定します。
@@ -36,7 +36,7 @@ Target Standard は、デフォルトで target-global-mbox というグロー�
 1. 新しい mbox.js ファイルをダウンロードして、サイトで参照します。
 
    本稼動サイトを新しい mbox.js ファイルで更新した後、環境設定を設定します。
-1. 「**[!UICONTROL セットアップ]**」／「 **[!UICONTROL 環境設定]**」の順にクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]** をクリックします。
 1. 「[!UICONTROL カスタムグローバル mbox]」フィールドに、実装ページで選択したグローバル mbox の名前を指定します。
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
