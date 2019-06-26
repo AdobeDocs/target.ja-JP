@@ -8,7 +8,7 @@ title: Adobe Target Standard および Premium のトレーニングビデオ
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,6 +39,6 @@ Target の機能をハイライトした一連のハウツービデオやチュ�
 
 ## Adobe Target チュートリアル {#tutorials}
 
-概念とツールを [!DNL Target] 紹介するビデオは [、Adobe Targetのチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) ページで視聴できます。
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
 ![Adobe Target チュートリアル](/help/c-intro/assets/adobe-target-tutorials-new.png)
