@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -63,10 +63,10 @@ The following table shows the data collected by Automated Personalization and Au
 | ブラウザー-時間帯 | 訪問者がアクティビティにアクセスした時間。 | 0 to 168<br>(Sunday midnight is 0) |
 | ブラウザー - 言語設定 | アクティビティへのアクセスに使用された訪問者のブラウザーで指定された言語。 | English<br>German |
 | ブラウザー-画面の高さ（px） | アクティビティにアクセスするために使用されるデバイスのブラウザー画面の高さ（ピクセル単位）。 | 1、2、3など |
-| ブラウザー-時間帯 | 訪問者がアクティビティにアクセスしたときのブラウザーの時刻。 | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| ブラウザー-時間帯 | 訪問者がアクティビティにアクセスしたときのブラウザーの時刻。 | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | ブラウザー - タイムゾーン | アクティビティにアクセスする際の訪問者のタイムゾーン。 | Pacific Time<br>Eastern Time<br>GMT |
 | ブラウザー - タイプ | アクティビティへのアクセス中に訪問者が使用したブラウザーのタイプ。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| ブラウザー-平日/週末 | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の無料時間）。 | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| ブラウザー-平日/週末 | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の無料時間）。 | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | ブラウザー-ウィンドウの高さ（px） | アクティビティへのアクセスに使用されるブラウザーのウィンドウの高さ（ピクセル単位）。 | 1、2、3など |
 | ブラウザー-ウィンドウの幅（px） | アクティビティへのアクセスに使用されるブラウザーのウィンドウの幅（ピクセル単位）。 | 1、2、3など |
 | デバイス-画面の高さ | 訪問者がアクティビティにアクセスするために使用したデバイスの画面の高さ。 | 1、2、3など |
