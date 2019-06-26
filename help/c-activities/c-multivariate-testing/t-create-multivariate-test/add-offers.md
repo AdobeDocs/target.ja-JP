@@ -5,7 +5,7 @@ seo-title: Adobe Targetを使用した多変量分析テスト（MVT）の組み
 title: 組み合わせの作成
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 Adobe TargetのVisual Experience Composer（VEC）を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
 
-VECを使用してオファーを作成および編集する方法について詳しくは [、Visual Experience Composerのオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
