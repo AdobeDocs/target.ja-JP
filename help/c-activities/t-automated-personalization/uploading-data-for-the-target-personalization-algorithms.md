@@ -7,7 +7,7 @@ title: Target のパーソナライゼーションアルゴリズムのデータ
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、パーソナライゼーションモデルを構築する際に非常に重要となることがあります。
 
-Automated Personalization（AP）および 自動ターゲット のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。Targetにデータを取得する方法に [加えて、Experience Cloud共有](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)オーディエンス（Adobe Analytics、Audience Management）およびアクティビティ内レポートオーディエンスも、アドビのアルゴリズムで使用されます。
+Automated Personalization（AP）および 自動ターゲット のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。[データを Target に送信する方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)で紹介している方法の他に、Experience Cloud 共有オーディエンス（Adobe Analytics、Audience Management）やアクティビティ内レポート用オーディエンスも使用されます。
 
 自動的に収集され、Automated Personalization および自動ターゲットのパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)」を参照してください。
 
