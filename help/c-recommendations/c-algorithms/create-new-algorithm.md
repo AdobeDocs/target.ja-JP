@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -326,6 +326,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 訪問者の履歴（複数セッションにわたる）を使用して、デザインのスロット数に基づいて、訪問者が閲覧した最後の *x* 品目を提示します。
 
 最近表示された項目の条件で、特定の[環境](/help/administrating-target/hosts.md)に固有の結果が返されるようになりました。別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。同じ環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、訪問者には、両方のサイトで最近表示された共通の項目が表示されます。
+
+**サイトで使用する場所**
+
+ホームまたはランディングページとオフサイト広告などの、一般的なページ。
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 2つのサイトが異なる環境に属し、訪問者が2つのサイトを切り替えた場合、各サイトには、適切なサイトから最近購入した品目のみが表示されます。2つのサイトが同じ環境にあり、訪問者が2つのサイト間を切り替えた場合、訪問者には、両方のサイトで同じ最近購入した品目が表示されます。
 
 **サイトで使用する場所**
 
