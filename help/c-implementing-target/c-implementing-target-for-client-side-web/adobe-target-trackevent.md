@@ -1,14 +1,14 @@
 ---
-description: 'at. jsのadobe. target. trackEvent（options）関数について取り上げます。 '
+description: 'at.js の adobe.target.trackEvent(options) 関数について説明します。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのadobe. target. trackEvent（options）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのadobe. target. trackEvent（options）関数について取り上げます。
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
