@@ -8,7 +8,7 @@ title: オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 オーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 
-オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。アクティビティをターゲット設定する場合、 [!UICONTROL オーディエンス] リストから再利用可能なオーディエンスを選択し [、アクティビティ固有のオーディエンスを作成](/help/c-target/creating-activity-only-audience.md) してターゲットを設定するか [、複数のオーディエンス](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) を結合してアドホックオーディエンスを作成できます。
+オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 
 リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。[Experience Cloud 製品ドキュメントのオーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
 
@@ -26,7 +26,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 * **ターゲット設定するオーディエンス：** 異なる種類の訪問者に異なるコンテンツを配信するために使用します。
 * **レポート用オーディエンス：** 同じコンテンツに異なる種類の訪問者がどのように反応するかを判断し、テスト結果を分析するために使用します。
 
-   [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [DIL Adobe](/help/c-integrating-target-with-mac/a4t/a4t.md) Analyticsを使用する場合は、内部でレポートオーディエンスを設定する必要 [!DNL Analytics]があります。
+   [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## オーディエンスリストの使用
 
@@ -41,13 +41,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 * AAM でオーディエンスが削除されている場合、[!UICONTROL オーディエンス]リストとオーディエンスピッカーの両方に警告アイコンが表示されます。また、UI のツールチップにも、AAM でオーディエンスが削除されていることが表示されます。
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
-カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを追加する場合は、ルール **[!UICONTROL を追加]** / **[!UICONTROL 訪問者プロファイル]** をクリックし、アクティビティのターゲット設定に使用するパラメーターを選択します。必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
+カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
 [!UICONTROL オーディエンス]リストを検索するには、検索ボックスを使用します。オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
 [!UICONTROL オーディエンス]リストは、オーディエンス名または最終更新日付で並べ替えることができます。名前や日付で並べ替える場合は、列見出しをクリックし、昇順または降順でオーディエンスを表示するよう選択します。
 
-## オーディエンス定義の表示 {#section_11B9C4A777E14D36BA1E925021945780}
+## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
 
 オーディエンス定義の詳細は、オーディエンスを開かなくても、Target UI の様々な場所に表示されるポップアップカードで確認できます。この機能は、Target Standard／Premium で作成されたオーディエンス、Target Classic からインポートされたオーディエンス、API を使用して作成されたオーディエンスで利用できます。
 
