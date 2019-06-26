@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 
-1. **[!UICONTROL アクティビティを作成]**／**[!UICONTROL レコメンデーション]**をクリックします。
+1. **[!UICONTROL アクティビティを作成]**／**[!UICONTROL レコメンデーション]** をクリックします。
 
    ![](assets/Menu_CreateActivity.png)
 
@@ -27,7 +27,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >[!DNL Target] では、URL プロトコル（[!DNL https] と [!DNL http]）は区別されません。結果として、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] は両方とも合致します。
+   >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] の両方が一致します。
 
    アクティビティ URL は、レコメンデーションが表示されるページです。
 
@@ -53,7 +53,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]」チェックボックスのチェックを外します。**お使いの Recommendations の設定（**[!UICONTROL Recommendations]**／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、[!UICONTROL 互換性]オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]」チェックボックスのチェックを外します。** お使いの Recommendations の設定（**[!UICONTROL Recommendations]**／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、[!UICONTROL 互換性]オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
    ![](assets/SCRN_SelectCriteria2.png)
 
@@ -63,8 +63,8 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-* 新しい条件を作成するには、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件を作成]**をクリックし、新しい条件についての情報を入力します。新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
-* また、条件をシーケンスにグループ化することもできます。新しい条件のシーケンスを作成するには、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]**をクリックします。詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+* 新しい条件を作成するには、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件を作成]** をクリックし、新しい条件についての情報を入力します。新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+* また、条件をシーケンスにグループ化することもできます。新しい条件のシーケンスを作成するには、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]** をクリックします。詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. デザインを選択します。
@@ -79,7 +79,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    複数の条件を選択した場合は、選択できるデザインは 1 つだけです。
 
-* カスタムデザインを作成するには、「**[!UICONTROL 新規作成]**」をクリックして新しいデザインの名前とコードを入力します。「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして、**[!UICONTROL 完了]**／**[!UICONTROL 完了]**をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+* カスタムデザインを作成するには、「**[!UICONTROL 新規作成]**」をクリックして新しいデザインの名前とコードを入力します。「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして、**[!UICONTROL 完了]**／**[!UICONTROL 完了]** をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
