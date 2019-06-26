@@ -8,7 +8,7 @@ title: アクティビティの設定 - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,6 +34,6 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 ![](assets/select-per-activity.png)
 
-アクティビティを作成および編集する****目標と設定]画面で、**[!UICONTROL レポートソース]ドロップダウンリストが有効になります。[!UICONTROL **
+アクティビティを作成および編集する **** 目標と設定]画面で、**[!UICONTROL レポートソース]ドロップダウンリストが有効になります。[!UICONTROL **
 
 レポートソースとして常に Analytics を使用するには、「セットアップ」のドロップダウンリストから「**[!UICONTROL Adobe Analytics]」を選択します。**
