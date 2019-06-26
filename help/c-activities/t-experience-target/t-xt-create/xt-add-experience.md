@@ -8,24 +8,24 @@ title: エクスペリエンスを作成
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# エクスペリエンスの作成{#create-experience}
+# Create experience{#create-experience}
 
 Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスです。
 
 1. 変更する要素を選択し、必要な変更をおこないます。
 
-   XTアクティビティ [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)の作成時に、3つのガイドによるワークフロー（エクスペリエンス）の1つに、デフォルト [!UICONTROL のエクスペリエンスA] が [!UICONTROL すべての訪問者] のオーディエンスと共に表示されます。
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![すべての訪問者オーディエンス](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   変更内容は、エクスペリエンスAに適用されます。次の手順で、「エクスペリエンスのターゲット設定 **[!UICONTROL ]** を追加」をクリックして、エクスペリエンスを追加します。
+   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
-   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。ハイライトされている要素は、VECを使用して変更できます。エクスペリエンスを変更するために要素上で実行できるアクションのリストについては [、Visual Experience Composerのオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。ハイライトされている要素は、VECを使用して変更できます。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Target Classic（旧称 Test&amp;Target）を使用してページに mbox を作成していた場合は、mbox 名を表示する要素として mbox が表示され、他の要素と同様に修正することができます。
 
@@ -33,11 +33,11 @@ Visual Experience Composer（VEC）は、エクスペリエンスターゲット
    >
    >デフォルトでは、バナーの回転など JavaScript を含む要素については、Visual Experience Composer で変更できません。VECを使用してこれらのエレメントを変更できるようにするには、JavaScriptを無効にします。
 
-1. エクスペリエンスを追加するには、「エクスペリエンスのターゲット設定 **[!A」をクリック]** します。
+1. To create additional experiences, click **[!Add Experience Targeting]**.
 
    ![エクスペリエンスターゲット設定のリンクの追加](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   オーディエンス [!UICONTROL を選択] ダイアログボックスが表示されます。オーディエンスにエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
+   The [!UICONTROL Choose Audience] dialog box displays. オーディエンスにエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
 
    オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、または[新しいオーディエンスを作成](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。
 
@@ -51,7 +51,7 @@ Visual Experience Composer（VEC）は、エクスペリエンスターゲット
    >
    >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
 
-1. エクスペリエンスをターゲットにする1つまたは複数のオーディエンスを選択し、 **[!UICONTROL 「完了]**」をクリックします。
+1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
 
    ![エクスペリエンス B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -61,7 +61,7 @@ Visual Experience Composer（VEC）は、エクスペリエンスターゲット
 
 1. 上記の手順を繰り返して、必要に応じてターゲット設定したエクスペリエンスを追加します。
 
-1. エクスペリエンスの設計が終了したら、 **[!UICONTROL 「次へ」]** をクリックします。
+1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
    アクティビティ図が表示されます。
 
@@ -85,7 +85,7 @@ Visual Experience Composer（VEC）は、エクスペリエンスターゲット
 
 ## エクスペリエンスの名前変更または編集
 
-XTアクティビティのエクスペリエンス上の [!UICONTROL 編集] アイコン（3つの垂直の楕円）をクリックし、必要に応じて次のオプションから選択できます。
+You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
 * 名前変更
 * 編集
