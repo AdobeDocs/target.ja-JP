@@ -8,7 +8,7 @@ title: アクティビティ QA とサーバー側配信の使用
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
