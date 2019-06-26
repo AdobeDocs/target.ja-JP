@@ -9,7 +9,7 @@ title: レポート
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
    例えば、[!UICONTROL タイプ]ドロップダウンリストから「[!UICONTROL A/B テスト]」と「[!UICONTROL エクスペリエンスターゲット設定]」を選択し、[!UICONTROL ステータス]ドロップダウンリストから「[!UICONTROL ライブ]」を選択すると、アクティブな状態にある A/B テストとエクスペリエンスターゲット設定のアクティビティのみが表示されます。
 
-   以下の図に、2 つのタイプが選択された[!UICONTROL タイプ]ドロップダウンリストを示します。A/Bテストおよびエクスペリエンスのターゲット設定を参照してください。デフォルトでは、3種類のA/Bテスト（手動 [、自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、 [自動ターゲット](/help/c-activities/auto-target-to-optimize.md)）が選択されています。必要に応じて、1つまたは複数のタイプを選択解除できます。
+   以下の図に、2 つのタイプが選択された[!UICONTROL タイプ]ドロップダウンリストを示します。A/Bテストおよびエクスペリエンスのターゲット設定を参照してください。Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 必要に応じて、1つまたは複数のタイプを選択解除できます。
 
    ![タイプ別のレポートのフィルター](/help/c-reports/assets/report_filters-new.png)
 
