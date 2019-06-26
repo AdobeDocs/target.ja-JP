@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 除外の管理
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 除外グループの作成、重複オファーの除外、特定のエクスペリエンスを除く、自動パーソナライゼーション（AP）アクティビティのデフォルトコンテンツの除外による除外の管理。
 
-## 排他グループの作成 {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 Automated Personalization（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
 
 除外グループは、複数の場所における同一のエクスペリエンスで、不適切なオファーが提示されないようにできる便利な機能です。例えば、全商品を対象とした 20％割引と 15％割引の 2 つのオファーがあるとします。この 2 つのオファーが、同一のエクスペリエンスの訪問者に提示されないようにする必要があります。その場合はこの 2 つのオファーを除外グループに追加することで対処できます。
 
-APアクティビティで特定のオファーを表示できるオーディエンスを制限することもできます。詳しくは [、Target自動パーソナライゼーションオファー](/help/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
+APアクティビティで特定のオファーを表示できるオーディエンスを制限することもできます。For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **除外グループを作成する手順は次のとおりです。**
 
-1. APアクティビティを [作成または編集中に、ヘッダー](/help/c-activities/t-automated-personalization/create-ap-activity.md)バーの「コンテンツ **[!UICONTROL ]** を管理」をクリックします。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **[!UICONTROL Manage Content]** in the header bar.
 
    ![コンテンツの管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -52,7 +52,7 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
 除外グループのオファーは、以降、同一のエクスペリエンスから自動的に除外されます。
 
-## 重複するオファーの除外 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 オファーライブラリからのオファーが [!UICONTROL Automated Personalization] アクティビティの複数のロケーションで使用される場合に重複しないようにします。
 
@@ -62,13 +62,13 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
 ![重複するオファーオプション](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## 特定のエクスペリエンスの除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 特定のオファーの組み合わせを Automated Personalization アクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
 
 効果的ではない組み合わせがある場合や、テスト対象のエクスペリエンスの数を制限し、アクティビティのトラフィック要件を下げたい場合もあるでしょう。
 
-1. APアクティビティを [作成または編集中に、ヘッダー](/help/c-activities/t-automated-personalization/create-ap-activity.md)バーの「コンテンツ **** を管理」をクリックします。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
 
    ![コンテンツの管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -80,7 +80,7 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
    ![カーソルを合わせてエクスペリエンスを除外](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   または、関連するエクスペリエンスのチェックボックスを選択してエクスペリエンスを除外/含めたり、ダイアログボックスの右上隅にある **[UACROL除外]** アイコンをクリックしたりできます。1つ以上のエクスペリエンスがチェックされている場合、 [!UICONTROL 除外] アイコンが表示されます。
+   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
 
    ![エクスペリエンスをバッチ除外する](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
@@ -90,7 +90,7 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
    ![除外されたエクスペリエンス](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## デフォルトコンテンツの除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
 デフォルトのコンテンツを、Automated Personalization アクティビティから除外したい場合もあるでしょう。この設定方法は、除外グループの作成方法とは異なります。このメソッドを使用すると、APアクティビティの一部として、1つのオファー（デフォルトコンテンツとは異なる）のみを指定できます。
 
@@ -98,7 +98,7 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
 **Visual Experience Composer（VEC）を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
-1. APアクティビティを [作成または編集中に](/help/c-activities/t-automated-personalization/create-ap-activity.md)、置換するコンテンツを選択し、「テキスト/HTML **[!UICONTROL を変更]**」、「画像 **[!UICONTROL を変更」]** または「背景色 **[!UICONTROL を変更」にアクセスし]** ます。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**含める**」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。
 
    コンテンツ／オファーのタイプによっては、「[!UICONTROL 含める]」チェックボックスの位置が若干異なります。
