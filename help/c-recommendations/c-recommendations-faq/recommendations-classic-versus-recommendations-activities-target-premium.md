@@ -10,7 +10,7 @@ topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 ## オファーとしての Recommendations 
 
-[!UICONTROL A/Bテスト] （ [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲットを含む]）および [!UICONTROL エクスペリエンスターゲット設定] （XT）アクティビティ内にレコメンデーションを含めることができます。
+[!UICONTROL A/B テスト]（ [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
 
 この機能により、次のようなことがおこなえるようになります。
 
