@@ -8,7 +8,7 @@ title: mbox3rdPartyID のリアルタイムプロファイル同期
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,4 +34,4 @@ mbox3rdPartyID は、会社のロイヤルティプログラムのメンバー�
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 目標（MID）が変更された場合（例えば、訪問者 [!DNL Adobe Experience Cloud] がデバイスを変更した場合）、プロファイルが [!DNL Target] mbox3rdPartyIDに基づいて結合され、まだアクティビティ情報がある場合でも、目標が追跡されません。同じMID（同じデバイスでページにアクセスした訪問者）で識別される訪問者の場合、（A4T） [!DNL Analytics for Target] は期待どおりに動作します。
+>[!DNL Target] プロファイルが mbox3rdPartyID に基づいて結合され、プロファイルにまだアクティビティ情報がある場合でも、[!DNL Adobe Experience Cloud] ID（MID）が変更された場合（例えば、訪問者がデバイスを変更した場合など）は、[!DNL Adobe Analytics] 目標は追跡されません。同じ MID で識別される訪問者（同じデバイスでページにアクセスした訪問者）の場合、[!DNL Analytics for Target]（A4T）は想定どおりに動作します。
