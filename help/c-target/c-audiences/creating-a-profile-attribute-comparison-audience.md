@@ -8,14 +8,14 @@ title: プロファイル属性比較オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # プロファイル属性比較オーディエンスの作成{#create-a-profile-attribute-comparison-audience}
 
-オーディエンスを定義して [、オーディエンスライブラリまた](/help/c-target/c-audiences/audiences.md) は [アクティビティのみのオーディエンスの2つのプロファイル属性を比較](/help/c-target/creating-activity-only-audience.md)します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
