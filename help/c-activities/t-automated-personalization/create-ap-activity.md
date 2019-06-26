@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -27,17 +27,17 @@ Automated Personalization アクティビティワークフローは、他のア
 
    ![自動パーソナライゼーションアクティビティの作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
+   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前述の図の [!UICONTROL 「勤務先を選択」] オプションは [、Target Premium](/help/c-intro/intro.md) 機能です。このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
 
-1. （条件付き） Target Premiumのお客様の場合は、ワークスペース [を選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. アクティビティ URL を確認または入力してから、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -64,7 +64,7 @@ Automated Personalization アクティビティワークフローは、他のア
    | - | マイナス |
    | @ | アットマーク |
 
-1. Visual Experience Composerのオプションの [説明に従って、ページ要素を変更](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)します。
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    アセットマネージャーから一度に複数の画像を選択できます。これにより、各画像がアクティビティ用に設定されたページをすばやく表示できます。また、オファー内のテキスト要素を容易に編集することもできます。要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
 
@@ -90,7 +90,7 @@ Automated Personalization アクティビティワークフローは、他のア
 
    ![バッチ除外オプション](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   このリストビューをフィルタリングして、除外のみを表示するか、 **「ステータス** 」ドロップダウンリストをクリックしてのみアクティビティを含めることができます。
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
 1. （条件付き）「**[!UICONTROL オファー]**」をクリックして、コンテンツを選択してレポートグループに割り当てたり、ターゲット設定によって特定のオファーの閲覧を特定の訪問者のみに許可したりします。
 
@@ -120,7 +120,7 @@ Automated Personalization アクティビティワークフローは、他のア
 
    既存の除外グループを編集するには、編集するグループにカーソルを合わせてから鉛筆アイコンをクリックします。
 
-1. アクティビティのコンテンツの設定が終了したら、 **[!UICONTROL 「完了]** 」をクリックします。
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
 1. **ターゲット設定** のステップは、Target の他のタイプのアクティビティと同様です。ここでは、オーディエンスを選択してから、「**[!UICONTROL カスタム配分]**」ドロップダウンリストをクリックして、コントロールエクスペリエンスを表示する訪問者の割合を指定し、「**次へ**」をクリックできます。
 
@@ -128,9 +128,12 @@ Automated Personalization アクティビティワークフローは、他のア
 
    ![トラフィック配分目標ドロップダウンリスト](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **パーソナライゼーションアルゴリズムを評価 (50/50)：** 目標がアルゴリズムのテストの場合は、50:50 の比率でコントロールとターゲットアルゴリズムに訪問者を配分します。この配分により、上昇率を最も正確に推定できます。
-   * **パーソナライゼーショントラフィックを最大化 (90/10)：**「常時稼働」のアクティビティを作成することが目標の場合は、10％の訪問者をコントロールに配分し、アルゴリズムによる学習の継続に必要なデータを確保します。この場合は、トラフィックの大部分をパーソナライズ対象に回す代わりに、推定上昇率の精度が落ちるというデメリットがあります。
+   * **パーソナライゼーションアルゴリズムを評価 (50/50)：** 目標がアルゴリズムのテストの場合は、50:50 の比率でコントロールとターゲットアルゴリズムに訪問者を配分します。この配分により、上昇率を最も正確に推定できます。コントロールとして「ランダムエクスペリエンス」を使用することを推奨します。
+   * **パーソナライゼーショントラフィックを最大化 (90/10)：**「常時稼働」のアクティビティを作成することが目標の場合は、10％の訪問者をコントロールに配分し、アルゴリズムによる学習の継続に必要なデータを確保します。この場合は、トラフィックの大部分をパーソナライズ対象に回す代わりに、推定上昇率の精度が落ちるというデメリットがあります。目標にかかわらず、これは特定のエクスペリエンスをコントロールとして使用する場合の推奨トラフィックです。
    * **配分をカスタマイズ**： 配分の割合を手動で調節します。
+
+1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。
 
    Automated Personalization は、常にコントロールグループに基づいてパフォーマンスを測定します。少なくとも訪問者の 10％はコントロールグループに配分することをお勧めします。与えられたデータに対し、パーソナライゼーションアルゴリズムがパーソナライゼーションなしの場合（コントロールでエクスペリエンスがランダムに提供される場合）と比べ、優れたパフォーマンスを発揮するかどうかをテストすることが目標の場合は、コントロールとパーソナライゼーションアルゴリズムの配分を 50:50 に設定すると、最も早く、最も精度の高いテスト結果が得られます。パーソナライゼーション対象のトラフィック量を最大化したいと考えており、アクティビティの上昇率の正確性が多少低くても構わない場合は、コントロールとパーソナライゼーションアルゴリズムに 10:90 でトラフィックを配分すると、最も早く、最も精度の高いテスト結果が得られます。
@@ -139,7 +142,7 @@ Automated Personalization アクティビティワークフローは、他のア
    >
    >Automated Personalization アクティビティでは、エントリ基準（URL ターゲット設定、テンプレートルール、オーディエンスのターゲット）がリクエストごとに評価されます。以前のバージョンでは、エントリ条件はセッションごとに 1 度評価されていました。
 
-1. 「 **[!UICONTROL 次へ」]** をクリックして **[!UICONTROL 目標と設定]** ページを表示します。
+1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
 1. 次の設定を使用してアクティビティを構成し、「**[!UICONTROL 保存して閉じる**]」をクリックします。
 
    | 設定 | 説明 |
