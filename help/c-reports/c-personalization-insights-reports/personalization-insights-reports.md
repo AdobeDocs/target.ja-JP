@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,6 +58,6 @@ Target に追加データを渡して、AP および AT アクティビティの
 
 ## トレーニングビデオ：パーソナライゼーションインサイトレポートの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=jpn)
 
-詳しくは、Adobe Targetのパーソナライゼーションインサイトレポート [の使用](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)を参照してください。
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
