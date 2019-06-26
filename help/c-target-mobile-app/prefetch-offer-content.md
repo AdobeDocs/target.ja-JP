@@ -8,7 +8,7 @@ title: プリフェッチオファーコンテンツ
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: 5d8d4bb43a6181dfff2be49072d1cc7fbbcbba68
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
