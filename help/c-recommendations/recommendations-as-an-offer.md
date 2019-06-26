@@ -8,14 +8,14 @@ title: 'オファーとしての Recommendations '
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9825c8faa6fcd4d74b57ac0d994da35e25d785ea
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) オファーとしての Recommendations
 
-[!UICONTROL A/B テスト]（ [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
+[!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
 
 この機能により、次のようなことがおこなえるようになります。
 
