@@ -8,7 +8,7 @@ title: リダイレクトオファー - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,15 +27,15 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 * Experience Cloud 訪問者 ID サービス：[!DNL visitorAPI.js] バージョン 2.3.0 以降。
 * Adobe Analytics：[!DNL appMeasurement.js] バージョン 2.1。
-* Adobe Target: [!DNL at.js] バージョン1.6.2以降。
+* Adobe Target：[!DNL at.js] バージョン 1.6.2 以降。
 
    [!DNL mbox.js] ライブラリを使用している場合、A4T によるリダイレクトオファーはサポートされません。実装では [!DNL at.js] を使用する必要があります。
 
 これら 3 つのライブラリを、リダイレクトオファーを使用するページと訪問者のリダイレクト先となるページの両方に含める必要があります。
 
-## A4TとAnalyticsの間でデータに相違があるのはなぜですか。
+## 場合により A4T と Analytics の間でデータに相違があるのはなぜですか。
 
-データに相違があることがあります。詳しくは、A4Tを使用しない場合のTargetとAnalyticsの間で [のデータの相違を参照](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)してください。
+データに多少相違があることが予想されます。詳しくは、[A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)を参照してください。
 
 ## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
