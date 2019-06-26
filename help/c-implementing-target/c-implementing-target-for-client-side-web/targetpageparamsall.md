@@ -1,14 +1,14 @@
 ---
-description: 'at. jsのtargetPageParamsAll（）関数について取り上げます。 '
+description: 'at.js のtargetPageParamsAll() 関数について説明します。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのtargetPageParamsAll（）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのtargetPageParamsAll（）関数について取り上げます。
+seo-description: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: targetPageParamsAll()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d60f2d193fb9e157cb64f93f76d88f97b02a76e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: d60f2d193fb9e157cb64f93f76d88f97b02a76e8
 
 このメソッドにより、リクエストコードの外部からすべての mbox にパラメーターを付加できます。
 
-これは、同じパラメーターのセットを複数の mbox 呼び出しに含めるのに非常に便利です。この関数は、お客様によって定義される必要があります。ページでリクエストするすべての mbox に渡されるパラメーターの配列を返す必要があります。この関数は、at.js が読み込まれる前、または**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]**で定義できます。
+これは、同じパラメーターのセットを複数の mbox 呼び出しに含めるのに非常に便利です。この関数は、お客様によって定義される必要があります。ページでリクエストするすべての mbox に渡されるパラメーターの配列を返す必要があります。この関数は、at.js が読み込まれる前、または **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]** で定義できます。
 
 次のいずれかの方法で、targetPageParamsAll() 関数を使用して target-global-mbox にパラメーターを渡すことができます。
 
