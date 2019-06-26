@@ -8,7 +8,7 @@ title: 極端な値の除外
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 1. 売上高またはエンゲージメント指標タイプを含むアクティビティを開き、「 **[!UICONTROL レポート]** 」タブをクリックします。
 1. 歯車アイコンをクリックして、「[!UICONTROL レポート設定]」オプションを表示します。
 
-   ![ステップ結果](assets/exclude_extreme_values.png)
+   ![ステップの結果](assets/exclude_extreme_values.png)
 
 1. 必要に応じて、「極端な値 **[!UICONTROL を除外」]** オプションのオン/オフを切り替えます。
 1. 「設定 **[!UICONTROL を保存」をクリック]** します。
