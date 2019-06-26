@@ -8,7 +8,7 @@ title: Visual Experience Composer で使用される要素セレクター
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 CSS セレクターの基本的な情報については、Mozilla Developer Network（MDN）にある[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についてのドキュメントを参照してください。
 
-アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL セットアップ / 環境設定]**をクリックして、希望する CSS セレクターを選択します。
+アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL セットアップ / 環境設定]** をクリックして、希望する CSS セレクターを選択します。
 
 ![](assets/css_selectors.png)
 
