@@ -8,7 +8,7 @@ title: デザインの概要
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ Target では、電子メールメッセージ、IoT（モノのインターネ�
 
 | パラメーター | 値 |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Targetクライアントコード（../target/products.html# recsSettings/Recommendations APIトークン/クライアントコード） |
+| `[YOUR_CLIENT_CODE]` | Target クライアントコードです（../target/products.html#recsSettings／Recommendation API トークン／クライアントコードから入手できます）。 |
 | `[YOUR_MBOX_NAME]` | フォームベースの Recommendations の「場所」セクションで選択した名前です。このケースでは YOUR_CLIENT_CODE です。 |
 | `[ENTITY_ID`] | カタログ内の項目の `entity.id` です。 |
 | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
