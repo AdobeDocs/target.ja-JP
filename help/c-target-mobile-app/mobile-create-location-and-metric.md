@@ -7,7 +7,7 @@ title: iOS - Target の位置と成功指標の作成
 topic: 'Target '
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 >[!NOTE]
 >
->使用可能なすべてのTargetメソッドの一覧については [、Mobileのドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) を参照してください。
+>See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
 
 アプリで Target 位置を作成してリクエストをおこなうためのメソッドには、主に次の 2 種類があります。
 
@@ -40,8 +40,8 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
    | パラメーター | 説明 |
    |---|---|
-   | `ADBTargetLocationRequest *myRequest` | アプリの名前 `myRequest` に置換 `targetLocation` します。 |
-   | `targetCreateRequestWithName:@"heroBanner"` | Targetの名前 `heroBanner` に置換 `targetLocation` します。これは mbox 名と同じです。このヒーローバナーは Target インターフェイスに表示されます。 |
+   | `ADBTargetLocationRequest *myRequest` | `myRequest` をアプリの `targetLocation` の名前に置き換えます。 |
+   | `targetCreateRequestWithName:@"heroBanner"` | `heroBanner` を Target の `targetLocation` の名前に置き換えます。これは mbox 名と同じです。このヒーローバナーは Target インターフェイスに表示されます。 |
    | `defaultContent:@"default.png"` | 「`default.png`」を Target が応答しない場合にアプリが使用する値に置き換えます。 |
    | `parameters:nil` | プロファイルまたは mbox パラメーターを指定します。詳しくは「カスタムデータの引き渡し」を参照してください。 |
 
@@ -57,7 +57,7 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
    | パラメーター | 説明 |
    |---|---|
-   | `targetLoadRequest:myRequest` | アプリの名前 `myRequest` に置換 `targetLocation` します。 |
+   | `targetLoadRequest:myRequest` | `myRequest` をアプリの `targetLocation` の名前に置き換えます。 |
    | `NSString *content` | 「content」を Adobe から返される実際のコンテンツに置き換えます。文字列は XML、JSON、プレーン文字列のいずれかにできます。コードのこの部分を使用して、変数の定義、画像パスの設定、コントローラーフローやトランザクションポイントの表示などの任意の作業ができます。Target は UI で入力されたコンテンツを完全に同じ形式で返します。 |
    | `heroImage.image = [UIImage imageNamed:content];` | 例えば、コンテンツを取得して、ヒーローイメージのパスを設定します。 |
 
