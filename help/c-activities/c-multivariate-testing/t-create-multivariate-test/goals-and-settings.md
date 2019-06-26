@@ -8,7 +8,7 @@ title: 目標と設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -122,7 +122,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 依存関係を追加する手順は次のとおりです。
 
-1. 追加の指標を追加したら、 **[!UICONTROL 「詳細設定]**」をクリックします。
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
 2. 「依存関係を追加」オプションをクリックします。
 
    ![依存関係を追加](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
