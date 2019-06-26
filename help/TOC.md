@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [プライバシーと一般データ保護規則（GDPR）](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Google Chromeサイトのcookieポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -197,6 +198,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
       + [Visual Experience Composer での自動パーソナライゼーションテストのエクスペリエンスの ](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [自動パーソナライゼーションまたは自動ターゲットアクティビティのコントロールを選択します](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
