@@ -8,25 +8,25 @@ title: アクティビティのみのオーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # アクティビティのみのオーディエンスの作成{#create-an-activity-only-audience}
 
-アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所で使用できますが、他のアクティビティで使用する [!UICONTROL ためのオーディエンスライブラリ] には保存されません。
+アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
 
 アクティビティのみのオーディエンスには次のようなメリットがあります。
 
-* アクティビティのみのオーディエンスを使用して、1回のみ使用するオーディエンスを作成し、 [!UICONTROL オーディエンスライブラリに保存]することはできません。これにより [!UICONTROL 、オーディエンスライブラリ] に、再使用したくないオーディエンスが整理されなくなります。
-* アクティビティのみのオーディエンスは [!UICONTROL オーディエンスライブラリに表示]されません。このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
+* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
+* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
 
 1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]** します。
 
    ![ステップの結果](assets/edit_audience.png)
 
-1. オーディエンス [!UICONTROL を選択] ページで、 **[!UICONTROL 「アクティビティのみのオーディエンス]**」をクリックします。
+1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
 
    ![](assets/activity-only-aud.png)
 
