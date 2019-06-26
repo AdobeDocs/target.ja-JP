@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js に関するよくある質問
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ at.js に関するよくある質問への回答を紹介します。
 
 ## mbox.js と比較して at.js を使用するメリットは何ですか。{#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
-[!DNL at.js]が[!DNL mbox.js]に替わって使用されますが、[!DNL mbox.js] も引き続きサポートされます。ただし、ほとんどのユーザーにとって、[!DNL at.js] には [!DNL mbox.js] よりも優れた利点があります。
+[!DNL at.js] は [!DNL mbox.js] に替わって使用されますが、[!DNL mbox.js] も引き続きサポートされます。ただし、ほとんどのユーザーにとって、[!DNL at.js] には [!DNL mbox.js] よりも優れた利点があります。
 
 [!DNL at.js] のメリットの例として、Web 実装のページ読み込み時間の改善、セキュリティの強化、シングルページアプリケーション向けのより優れた実装オプションの提供があげられます。
 
@@ -29,7 +29,7 @@ at.js に関するよくある質問への回答を紹介します。
 
 上の図に示される通り、mbox.js を使用すると、[!DNL Target] の呼び出しが完了するまでページ内容が読み込まれません。at.js を使用すると、[!DNL Target] の呼び出しが開始するとページ内容が読み込まれ、呼び出しが完了するまで待ちません。 
 
-## ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか。 {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 特に新しいユーザーとリピートユーザーのコンテキストにおいて [!DNL at.js] と [!DNL mbox.js] がページ読み込み時間に与える影響を知りたいと考えているお客様やコンサルタントは数多くいます。残念ながら、[!DNL at.js] または [!DNL mbox.js] が各ページの読み込み時間にどのように影響するかはお客様の実装に左右されるので、具体的な数値を測定して示すことは困難です。
 
@@ -90,7 +90,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは、Adobe LaunchまたはAdobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。詳しくは [、起動チュートリアルを使用したWebサイトへのExperience](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) Cloud [の実装の&quot;Adobe](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) Targetの追加」のレッスンを参照してください。
+* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。例えば、次のようにします。
 
    ```
@@ -108,11 +108,11 @@ at.js を非同期で読み込む手順は次のとおりです。
 
 at.js を非同期で読み込む方法は、ブラウザーによるレンダリングのブロックを防ぐのに最適ですが、Web ページにちらつきが生じることがあります。
 
-ページ（または指定した部分）を非表示にして、at. jsの後に表示し、グローバルリクエストが完全に読み込まれた後に、ちらつきを回避することができます。このスニペットは、at.js の読み込みの前に追加する必要があります。
+ページ（または指定された部分）を事前に非表示にし、at.js とグローバルリクエストが完全に読み込まれてから表示されるスニペットを使用すると、ちらつきを回避できます。このスニペットは、at.js の読み込みの前に追加する必要があります。
 
-非同期起動の実装を通じてat. jsをデプロイする場合は、&quot;Launch（起動）」チュートリアルを使用して、&quot;WebサイトでのExperience [Cloudの実装」の「スニペットを非表示にする」](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) セクションの説明に従って、「埋め込みコードを起動」の前に [、ページに直接スニペットを非表示にするようにし](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)てください。
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-同期DTM実装を介してat. jsを導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
+同期 DTM 実装を介して at.js を導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
 
 詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。
 
@@ -152,7 +152,7 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 
 ## Target Visual Experience Composer をシングルページアプリケーションで使用できますか。{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-はい、at. js2. xを利用している場合は、SPA用にVECを使用できます。詳しくは [、「シングルページ（SPA） Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。
+はい。at.js 2.x を利用する場合、SPA 向けの VEC を使用できます。詳しくは、「[シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。
 
 ## Adobe Experience Cloud デバッガーを at.js の実装と一緒に使用できますか。{#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
@@ -176,9 +176,9 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 >
 >次の例は、at.js バージョン 1.2 以降を使用する場合は不要です。
 
-[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)の使用方法によっては、at. jsのダウンロード後にコードを変更する必要があることがあります。例えば、様々な Web サイトで [!DNL Target] の実装にそれぞれ若干異なる設定が必要で、これらの設定をカスタム JavaScript により動的に定義することができない場合、ファイルをダウンロードした後、各 Web サイトにアップロードする前に、カスタマイズを手動でおこなってください。
+[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) の使用方法によっては、at.js をダウンロードした後にコードを追加修正する必要があります。例えば、様々な Web サイトで [!DNL Target] の実装にそれぞれ若干異なる設定が必要で、これらの設定をカスタム JavaScript により動的に定義することができない場合、ファイルをダウンロードした後、各 Web サイトにアップロードする前に、カスタマイズを手動でおこなってください。
 
-次の例では、 `targetGlobalSettings()` at.js 関数を使用して、IP アドレスをサポートするためのコードスニペットを挿入できます。
+次の例では、`targetGlobalSettings()` at.js 関数を使用して、IP アドレスをサポートするためのコードスニペットを挿入できます。
 
 この例は単一の IP アドレス向けです。
 
@@ -264,12 +264,12 @@ Target のタイムアウトは 5 秒です。ヒーロー画像をカスタマ�
 
 最初は、画像ヒーロー DOM 要素は非表示になっています。Target からの応答を受信した後、at.js は、DOM の変更（IMG の置き換え、カスタマイズされたヒーロー画像の表示など）を適用します。
 
-## at. jsにはどのようなHTML doctypeが必要ですか?
+## at.js にはどのような HTML の doctype が必要ですか?
 
-at. jsにはHTML5doctypeが必要です。
+a.js には HTML5 の doctype が必要です。
 
 この構文は次のとおりです。
 
 `<!DOCTYPE html>`
 
-HTML5doctypeを使用すると、ページが標準モードで読み込まれます。互換モードでロードする場合、at. jsが依存する一部のJS APIは無効になります。Targetは、互換モードでat. jsを無効にします。
+HTML5 の doctype を使用すると、ページが標準モードで読み込まれます。互換モードでロードする場合、at.js が依存する一部の JS API は無効になります。Targetは、互換モードで at.js を無効にします。
