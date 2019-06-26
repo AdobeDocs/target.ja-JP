@@ -8,7 +8,7 @@ title: Scene7 設定
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Target Standard を Adobe Scene7 と統合して、コンテンツライブラ�
 
 Scene7 アカウントがある場合は、Scene7 の資格情報を指定できます。Scene7 アカウントがない場合は、アドビの担当者までお問い合わせいただけば、お客様の Target アカウント専用の無料 Scene7 アカウントを使用してこの機能を設定いたします。このアカウントは、Target での使用のみに用途が限定されています。このサービスは、ワークフローに画像の入れ替え機能が必要なお客様向けのものです。
 
-この機能が設定されていない場合は、アクティビティ作成ワークフロー内で、スワップ画像オファーのオプションを利用することはできません。この機能が設定されたら、画像オファーを交換／変更するオプションを  [Visual Experience Composer とフォームベースの Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で利用できます。以降は、Adobe Experience Cloud からアップロードした画像を含むオファーを Target アクティビティで利用できます。
+この機能が設定されていない場合は、アクティビティ作成ワークフロー内で、スワップ画像オファーのオプションを利用することはできません。この機能が設定されたら、画像オファーを交換／変更するオプションを     [Visual Experience Composer とフォームベースの Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で利用できます。以降は、Adobe Experience Cloud からアップロードした画像を含むオファーを Target アクティビティで利用できます。
 
 アクティビティの作成中に、オファーやカスタムコードで公開画像 URL を直接参照したい場合は、各自の Web サーバーに画像を展開し、コードで独自の URL を使用する必要があります。Experience Cloud にアップロードされた画像の公開済み URL を取得し、直接使用することや、Adobe Target のターゲット設定ワークフロー以外で使用することはできません。契約内容にあるように、この機能は許可されません。
 
@@ -36,7 +36,7 @@ Scene7 と統合するには、Scene7 の情報をいくつか指定する必要
 
    **Scene7 の地域：** Scene7 アカウントの地域は、北米、ヨーロッパ、アジアです。
 
-   **Scene7 アドホックフォルダー：**ターゲットフォルダーの外部に存在し、Scene7 に手動でアップロードされるコンテンツの場所
+   **Scene7 アドホックフォルダー：** ターゲットフォルダーの外部に存在し、Scene7 に手動でアップロードされるコンテンツの場所
 
    **Scene7 電子メールアドレス：** Scene7 へのログインに使用する電子メールアドレス
 
