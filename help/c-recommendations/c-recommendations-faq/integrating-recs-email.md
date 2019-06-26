@@ -10,7 +10,7 @@ topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
 translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -103,14 +103,14 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Recommendations で使用されるクライアントのコード。この値はアドビコンサルタントから入手できます。 |
+| `client_code` | *client_code* | Recommendations で使用されるクライアントのコード。この値はアドビコンサルタントから入手できます。 |  |
 | `mbox` | *mboxName* | ターゲット設定に使用される mbox 名。 | すべての mbox 呼び出しと同じ検証。<br>上限 250 文字.<br>次の文字を含めることはできません：`', ", %22, %27, <, >, %3C, %3E` |
-| `mboxXDomain` | 無効 | 非 Web 環境において応答で cookie を設定しないようにします。 |
-| `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |
-| `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |
-| `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。 |
-| `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |
+| `mboxXDomain` | 無効 | 非 Web 環境において応答で cookie を設定しないようにします。 |  |
+| `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
+| `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
+| `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。 |  |
+| `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しない場合は、1 つのプロファイル内で多数のイベントが生成されるので、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。（ドット）.<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
 **オプションのパラメーター**：
@@ -118,8 +118,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
 | `mboxPC`<br>（オプション） | *mboxPCId* | Target の訪問者 ID。複数の訪問で元のサイトに戻るユーザーを追跡する場合、またはユーザープロファイルパラメーターを使用する場合に、この値を使用します。<br>この値は、ユーザーの実際の Adobe Target PCID である必要があります（Adobe Target PCID は、Web サイトから CRM にエクスポートされます）。電子メールプロバイダーは、この ID を CRM または Data Ｗarehouse から取得し、このパラメーターの値に使用します。<br>`mboxPC` 値も、レコメンデーションが A/B アクティビティの一部である場合の指標追跡で、複数の訪問での訪問者のサイトでの行動を追跡するのに便利です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しない場合は、1 つのプロファイル内で多数のイベントが生成されるので、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。（ドット）.<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
-| `mboxNoRedirect`<br>（オプション） | 1 | デフォルトでは、配信可能なコンテンツが見つからない場合、呼び出し元がリダイレクトされます。デフォルトの動作を無効にする場合に使用します。 |
-| `mbox3rdPartyId` | *xxx* | 独自のカスタム訪問者 ID をプロファイルのターゲット設定に使用する場合、これを使用します。 |
+| `mboxNoRedirect`<br>（オプション） | 1 | デフォルトでは、配信可能なコンテンツが見つからない場合、呼び出し元がリダイレクトされます。デフォルトの動作を無効にする場合に使用します。 |  |
+| `mbox3rdPartyId` | *xxx* | 独自のカスタム訪問者 ID をプロファイルのターゲット設定に使用する場合、これを使用します。 |  |
 
 **Target サーバーの応答**：
 
