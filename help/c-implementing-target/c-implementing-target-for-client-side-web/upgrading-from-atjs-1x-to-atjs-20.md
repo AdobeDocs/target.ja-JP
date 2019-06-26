@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js 1.x から at.js 2.x へのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -63,7 +63,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 
    または
 
-   Target UIを使用してat. js2. xを手動でダウンロードし、選択した [方法を使用してデプロイ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)します。
+   Manually download at.js 2.x using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## 廃止された at.js 関数
 
@@ -846,4 +846,4 @@ at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
-詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
