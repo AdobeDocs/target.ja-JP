@@ -7,7 +7,7 @@ solution: 'Target '
 title: エクスペリエンスのターゲット設定
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-エクスペリエンスターゲット設定（ [地域ターゲティング](/help/c-target/c-audiences/c-target-rules/geo.md)を含む）は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義するのに便利です。アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。
 
 訪問者がサイトを表示すると、エクスペリエンスのターゲット設定（XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。条件に一致した場合、その訪問者はアクティビティに組み込まれて、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
@@ -26,7 +26,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 Webサイトに屋外機器が搭載されているとします。A/Bテストのレポートでは、異なるオーディエンスで共鳴する3つのエクスペリエンスがあることを示します。この発見を活用するには、訪問者の場所や趣味に応じて、ホームページに異なるヒーロー画像を表示して、これらの異なるオーディエンスを惹きつけます。このシナリオでは、ニュージャージー州からの訪問者に対してハイキング画像を表示し、ハワイからの訪問者に対してサーフィン画像を表示します。また、「いいね!&quot;をクリックするオーディエンスもあります。bikingオーディエンスにアピールする3つ目のヒーロー画像を表示したい。
 
-XTアクティビティを使用すると、各オーディエンスにアピールする異なるヒーロー画像を持つ3つのオーディエンスをターゲット設定できます。以下のビデオでは、「エクスペリエンスのターゲット設定 *»から«エクスペリエンスのターゲット設定* »に、biking愛好家をターゲットとした3つ目のエクスペリエンスと3つ目のエクスペリエンスをターゲットにしたエクスペリエンスの作成方法を示します。ビデオでは、目標達成に3つのエクスペリエンスを注文する方法も示しています。ビデオを視聴し、「エクスペリエンスターゲット設定の [作成」アクティビティに進み](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)ます。
+XTアクティビティを使用すると、各オーディエンスにアピールする異なるヒーロー画像を持つ3つのオーディエンスをターゲット設定できます。The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. ビデオでは、目標達成に3つのエクスペリエンスを注文する方法も示しています。Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## トレーニングビデオ：
 
