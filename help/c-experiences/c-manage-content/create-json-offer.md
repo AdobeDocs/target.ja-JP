@@ -8,7 +8,7 @@ title: JSON オファーの作成
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,19 +26,19 @@ JSON オファーを使用する際は次の点を考慮してください。
 * JSON オファーは、サーバー側 API、Mobile SDK または NodeJS SDK を使用している場合は直接取得できます。
 * ブラウザーでは、JSON オファーは、at.js 1.2.3 以降と[getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) を介して、`setJson` アクションによってアクションをフィルタリングすることでのみ取得できます。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
-* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は  [getOffer（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)を参照してください。
+* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は[getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) を使用して、オファーを明示的に取得するコードを作成する必要があります。
 * JSON オファーは、mbox.js を使用している場合はサポートされません。
 
 ## JSON オファーの作成方法 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
-1. **[!UICONTROL 作成]** / **[!UICONTROL JSON オファー]**をクリックします。
+1. **[!UICONTROL 作成]** ／**[!UICONTROL JSON オファー]** をクリックします。
 
    ![](assets/offer-json.png)
 
 1. オファー名を入力します。
 1. 「**[!UICONTROL コード]」ボックスに JSON コードを入力するか貼り付けます。**
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## 例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -131,7 +131,7 @@ adobe.target.getOffer({
 
 ## JSON オファータイプでのオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL 種類]**ドロップダウンリストをクリックし、「**JSON オファー[!UICONTROL 」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
+**[!UICONTROL 種類]** ドロップダウンリストをクリックし、「**JSON オファー[!UICONTROL 」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
 
 ![](assets/offer-json-filter.png)
 
