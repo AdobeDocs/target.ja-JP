@@ -8,7 +8,7 @@ title: プロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 | パラメータータイプ | 説明 |
 |--- |--- |
-| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**** 注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、Adobe Target APIドキュメントの [プロファイルの更新](http://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**** 注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | script | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -126,7 +126,7 @@ if (mbox.name == 'Track_Interest') {
 * JavaScript 命令は 2,000 個を超えないようにします。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * スクリプトのパフォーマンスだけでなく、組み合わされたすべてのスクリプトのパフォーマンスにも注意してください。ベストプラクティスとして、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、2 KB を超えるスクリプトは自動的に無効になることです。実行できるスクリプト数に制限はありませんが、各スクリプトは mbox 呼び出しごとに実行されます。必要なスクリプトだけを実行します。
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
-* 詳細については、JS Rhinoエンジンのドキュメントを参照してください。 [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## 相互に排他的なアクティビティをテストするためのプロファイルスクリプト {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
