@@ -7,14 +7,14 @@ solution: 'Target '
 title: 多変量分析テストの作成
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 多変量分析テストの作成{#create-a-multivariate-test}
 
-の [!UICONTROL Visual Experience Composer] （VEC）を使用すると、 [!DNL Target] Target対応ページ上でテストを簡単に作成し、ページの一部を変更 [!DNL Target]できます。
+The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
 
 Target のポイント＆クリック方式のエディターを使用して、任意の場所を選択し、複数のオファーを追加できます。
 
@@ -26,25 +26,25 @@ Target のポイント＆クリック方式のエディターを使用して、�
 
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、 [!UICONTROL 自動パーソナライゼーション] は [Target Premium機能](/help/c-intro/intro.md#premium)です。
+   >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >使用可能な様々なアクティビティタイプ [!DNL Target] とその違いについて詳しくは [、アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。必要なアクティビティのタイプを決定するには [、Targetアクティビティのタイプ](/help/c-activities/target-activities-guide.md) を参照してください。
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. 必要に応じて **[!UICONTROL 、「ビジュアル（デフォルト）]**」を選択します。
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
    ![エクスペリエンスターゲット設定アクティビティの作成ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは [、フォームベースのExperience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
+   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。様々なコンポーザーについて詳しくは [、エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前述の図の [!UICONTROL 「勤務先を選択」] オプションは [、Target Premium](/help/c-intro/intro.md) 機能です。このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
 
-1. （条件付き） Target Premiumのお客様の場合は、ワークスペース [を選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [テストするページ](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) のURLを指定し、「 **[!UICONTROL 次へ]**」をクリックします。
 
@@ -83,11 +83,11 @@ Target のポイント＆クリック方式のエディターを使用して、�
    * 画像
    * テキスト
 
-1. 「 **[!UICONTROL プレビュー」]** をクリックして、エクスペリエンスを [プレビュー](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)します。
+1. Click **[!UICONTROL Preview]** to [preview your experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![エクスペリエンスのプレビュー](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   各エクスペリエンスを表示し、テストに組み込まないエクスペリエンスを除外できます。1つ以上のエクスペリエンスを除外するには、目的のチェックボックスを選択して **[!UICONTROL 、「除外]** 」をクリックします。
+   各エクスペリエンスを表示し、テストに組み込まないエクスペリエンスを除外できます。To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
 
    ![エクスペリエンスの除外](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
