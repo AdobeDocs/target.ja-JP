@@ -9,16 +9,17 @@ title: Adobe Experience Cloud からの Target へのアクセス
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Adobe Experience Cloud からの Target へのアクセス{#access-target-from-the-adobe-experience-cloud}
 
-デフォルトのランディングページからのアクセス [!DNL Adobe Target][!DNL Adobe Experience Cloud]、デフォルトのランディングページの設定および [!DNL Target] ユーザーインターフェイスの言語の変更について説明します。
 
-## Adobe Targetにサインインし、デフォルトの表示を設定する
+[!DNL Adobe Experience Cloud]から[!DNL Adobe Target]へのアクセス、デフォルトのランディングページの設定、および[!DNL Target]ユーザーインターフェイスの言語の変更に関する情報。
+
+## Adobe Target にサインインし、デフォルトの表示を設定する
 
 1. [!DNL Experience Cloud] へサインインしたら、ナビゲーションバーのアプリアイコンをクリックします。
 
@@ -26,33 +27,33 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 1. アプリメニューで [!DNL Target] アイコンをクリックします。
 
-   ![ターゲットアイコン](/help/c-intro/assets/appmenu-target-new.png)
+   ![Target アイコン](/help/c-intro/assets/appmenu-target-new.png)
 
 1. [!DNL Target] カードの「**[!UICONTROL 開く]**」をクリックします。
 
-   ![Targetの起動](/help/c-intro/assets/target-launch-new.png)
+   ![Target の起動](/help/c-intro/assets/target-launch-new.png)
 
 1. （オプション）[!DNL Target] を [!DNL Experience Cloud] にログインした際のデフォルトビューとして設定するには、プロファイルのアバターの下にある「**[!UICONTROL プロファイルを編集]**」をクリックして、ランディングページを設定します。
 
    ![ランディングページ](/help/c-intro/assets/pagepref-new.png)
 
-## Target UIのデフォルト言語の変更 {#language}
+## Target UI のデフォルト言語の変更 {#language}
 
-1. サインインした後、また [!DNL Adobe Experience Cloud ] は [!DNL Target]プロファイルのアバターをクリックして、「プロファイルを編集」をクリック **[!UICONTROL ]** します。
+1. [!DNL Adobe Experience Cloud ]または[!DNL Target]にサインインした後、自分のプロフィールのアバターをクリックしてから、「**[!UICONTROL プロフィールの編集]**」をクリックします。
 
    ![プロファイルを編集](/help/c-intro/assets/change-language.png)
 
-1. 「個人情報 **[!UICONTROL を編集」をクリック]** します。
+1. 「**[!UICONTROL 個人情報を編集]**」をクリックします。
 
-1. 上部のメニューバーにある **[!UICONTROL 「通信]** 」タブをクリックします。
+1. 上部のメニューバーにある「**[!UICONTROL コミュニケーション]**」タブをクリックします。
 
    ![優先言語](/help/c-intro/assets/prefered-language.png)
 
-   テキストは、これがあなたに到達したときに使用 [!DNL Adobe] する言語であることを示します。これは、UIや [!DNL Target] 他 [!DNL Adobe Experience Cloud] のソリューションで使用される言語です。複数の言語を選択できます。
+   このテキストは、私たちがコンタクトを取る際に、あなたが[!DNL Adobe]使用したい言語であることを示します。これは、UI や[!DNL Target]他の[!DNL Adobe Experience Cloud]のソリューションで使用される言語です。複数の言語を選択できます。
 
-1. 最初の言語（プライマリ）を選択し、必要に応じて2番目の言語を選択します。
+1. 最初の言語（プライマリ）を選択し、必要に応じて二番目の言語を選択します。
 
-   UIは [!DNL Target] 次の言語で使用できます。
+   The [!DNL Target] UI is available in the following languages:
 
    * 英語
    * スペイン語
@@ -65,11 +66,11 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
    * 繁体字中国語
    * 韓国語
 
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. ログアウトする [!DNL Adobe Experience Cloud] か [!DNL Target]、再度ログインして変更を有効にします。
+1. [!DNL Adobe Experience Cloud]または[!DNL Target]からログアウトして、再度ログインして変更内容を有効にします。
 
-## Target製品ドキュメントの言語の変更 {#doc-lang}
+## Change the language for the Target product documentation {#doc-lang}
 
 オペレーティングシステムまたはブラウザーの設定で、希望の言語を検出し、その言語にドキュメントを表示する必要があります（可能な場合）。Targetドキュメントは自動的に翻訳され、英語版のドキュメントに加えられた変更の数時間以内に英語版と同期されます。
 
@@ -77,7 +78,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ![元の言語に変更](/help/c-intro/assets/mt-original.png)
 
-ページヘッダー（ ![言語切り替えバー](/help/c-intro/assets/icon-language-switcher.png) ）の右上にある言語切り替えアイコンをクリックすると、言語をサポートされている言語にすばやく変更できます。
+You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
 
 ![言語切り替えバー](/help/c-intro/assets/language-switcher.png)
 
