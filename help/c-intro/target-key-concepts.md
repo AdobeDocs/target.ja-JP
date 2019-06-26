@@ -9,7 +9,7 @@ title: Target の主要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,18 +26,18 @@ Adobe Target の機能を理解するのに役立つ主要概念について説�
 
 アクティビティを作成する際は、入念な計画が必要です。まず、アクティビティを開始するタイミングと実行期間を決定します。その後、オファーの一覧を作成し、それぞれにターゲットとなるオーディエンスを割り当てます。
 
-Targetには、複数のアクティビティタイプがあります。次の表に、各アクティビティタイプの概要を示し、さらに詳しく説明します。目的に合わせて最適なアクティビティタイプを選ぶために、 [Adobe Targetアクティビティガイドも作成](/help/c-activities/target-activities-guide.md)しました。
+Target には、複数のアクティビティタイプがあります。次の表は、各アクティビティタイプの概要と学習に役立つリンクを示しています。目的に合わせて最適なアクティビティタイプを選択できるように、[Adobe Target アクティビティガイド](/help/c-activities/target-activities-guide.md)も作成しました。
 
 | アクティビティのタイプ | 説明 |
 |--- |--- |
-| [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。<br>**注意:** A/Bテストアクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。<br>**注意:** 自動配分アクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [Auto- TargetTarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。<br>**注意:** 自動ターゲットアクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [Analyticsデータの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) （A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
+| [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。<br>**メモ：**[ A/B テストアクティビティ内に レコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
+| [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
+| [自動ターゲット](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。<br>**メモ：**[自動ターゲットアクティビティ内にレコメンデーションを](/help/c-recommendations/recommendations-as-an-offer.md)含めることができるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
+| [Analytics データの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
-| [SPA 向けのエクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**注意:** エクスペリエンスのターゲット設定アクティビティ内に [レコメンデーションを含めることができるよう](/help/c-recommendations/recommendations-as-an-offer.md)になりました。この機能には [Target Premiumライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動パーソナライゼーションTarget](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Premium](/help/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
-| [Recommendations StarNet](/help/c-recommendations/recommendations.md)<br>![Premium](/help/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**注意:** A/Bテスト（自動配分および自動ターゲットを含む）およびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを含めることができるようになりました。詳しくは [、レコメンデーションとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
+| [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
+| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![（Target Premium）](/help/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**メモ：** A/B テスト（自動配分と自動ターゲットを含む）アクティビティおよびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを組み込めるようになりました。[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
 
 ## 場所 {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -50,7 +50,7 @@ Targetには、複数のアクティビティタイプがあります。次の�
 
 [!DNL Target Standard] では、追跡する各ページの `<head>` セクションに [!DNL Target] を有効化する 1 行のコードが含まれている限り、ページ上の任意の要素を場所にできます。このコードの行は、情報を収集し、訪問者に対してターゲット設定したエクスペリエンスを提供するために必要な JavaScript ライブラリを呼び出します。
 
-in. jsの場所の実装とmboxの実装の違いについて詳しくは、 [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) の利点 [!DNL Target Standard] を参照 [!DNL Target Classic]してください。
+See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
 
 場所をオーディエンスと組み合わせて使用することで、情報のターゲティングをおこなうための無数ともいえる選択肢が提供されます。例えば、過去にサイトを訪問したことがない新規訪問者に対しては、割引クーポンを表示できます。同様に、リターン訪問者には、ページを変更して、リターン訪問者に適したオファーを表示できます。
 
@@ -104,7 +104,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 |--- |--- |
 | 再利用可能なオーディエンス | 任意のテストに対して、再利用可能なオーディエンスを選択できます。これらのオーディエンスのいずれかを変更すると、そのオーディエンスを使用しているすべてのアクティビティに対して変更が適用されます。 |
 | カスタムセグメント | 「カスタムセグメント」（別名「キャンペーン固有のセグメント」）は、Target Classic のキャンペーンに固有のものです。キャンペーンの一部として作成され、他のキャンペーンで再利用することはできません。 |
-| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud] ソリューション全体で共有できます。例については、[Experience Cloud オーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。 |
+| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。例については、[Experience Cloud オーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。 |
 
 訪問者プロファイルによるサイト訪問者情報の追跡に関する詳細については、「[訪問者プロファイル](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)」を参照してください。
 
@@ -116,7 +116,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
 
-* に含まれるアクティビティのタイプの説明[!DNL Adobe Target]
+* [!DNL Adobe Target] に含まれるアクティビティのタイプの説明
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
