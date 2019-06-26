@@ -8,7 +8,7 @@ title: 複数のオーディエンスの結合
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 [!DNL Target] UI 全体の様々な場所で、結合オーディエンスの作成や利用が可能です。
 
-## アクティビティの作成中に結合オーディエンスを作成する {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 3 ステップのガイドによるワークフローを実行する際に、アクティビティの [!UICONTROL Target] ページで結合オーディエンスをアドホックに作成できます。
 
@@ -77,7 +77,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 1. 結合オーディエンスにわかりやすい名前を付け、「**[!UICONTROL 保存]**」をクリックします。
 
-## 指標ターゲティングで使用する結合オーディエンスを作成します {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
@@ -103,7 +103,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 
-## アクティビティの編集中に結合オーディエンスを作成する {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 既存のアクティビティの編集時に結合オーディエンスをアドホックに作成することができます。
 
