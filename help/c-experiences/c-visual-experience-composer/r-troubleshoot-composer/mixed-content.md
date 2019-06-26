@@ -8,7 +8,7 @@ title: ブラウザーでの混在するコンテンツの有効化
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -64,7 +64,7 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**をクリックします。
+1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]** をクリックします。
 1. 「[!UICONTROL セキュリティ]」タブを開きます。
 1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL カスタムレベル]**」をクリックします。
 1. 「**[!UICONTROL その他]**」を選択します。
