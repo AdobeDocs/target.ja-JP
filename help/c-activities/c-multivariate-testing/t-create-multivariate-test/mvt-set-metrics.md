@@ -7,7 +7,7 @@ solution: Target,standard
 title: 指標の設定
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
-   詳しくは、成功指標を [参照してください](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   For more information, see [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. （オプション）さらに指標を追加します。
 1. 指標の設定が終了したら、「**[!UICONTROL 続行]**」をクリックします。
 指標に名前を付けたり、名前を変更したりする場合、以下の文字は使用できないことに注意してください。
