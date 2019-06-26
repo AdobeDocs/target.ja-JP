@@ -8,7 +8,7 @@ title: Analytics for Target の実装
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -43,7 +43,7 @@ appMeasurement.js の必要なバージョンを実装するか、そのバー�
 
 移行の場合は、[AppMeasurement for JavaScript への移行](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate)を参照してください。
 
-## 手順 5： at.js または mbox.js をダウンロードして更新します。
+## 手順 5：at.js または mbox.js をダウンロードして更新します。
 
 実稼動アカウントで使用する at.js または mbox.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。コードの修正は必要ありません。
 
@@ -77,7 +77,7 @@ VisitorAPI. jsは、at. jsまたはmbox. jsの前にロードする必要があ�
 
 TargetとAnalyticsの統合の設定をTargetとAnalyticsの統合に設定する方法は、ページから渡されたSDIDを使用して、TargetおよびAnalyticsリクエストを自動的にバックエンドで結合することです。
 
-ただし、レポートのためにTargetに関連する分析データをAnalyticsに送信する方法や、TargetおよびAnalyticsを使用してAnalyticsデータを自動的に結合する場合のデフォルト設定については、&quot;sID&quot;を使用してAnalyticsデータを自動的に結合し、 **window. targetGlobalSettings** を使用し **てAnalyticsのLogticsLogging= client_ sideを設定することはできません**。注意:2.1より下のバージョンでは、この方法はサポートされていません。
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意:2.1より下のバージョンでは、この方法はサポートされていません。
 
 次に例を示します。
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-この設定にはグローバル効果があります。つまり、at. jsによって行われるすべての呼び出しに **はAnalyticsLoggingが含まれます。&quot;client_ side&quot;** がTargetリクエスト内で送信され、リクエストごとにAnalyticsペイロードが返されます。この設定を行うと、ペイロードの形式は次のようになります。
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. この設定を行うと、ペイロードの形式は次のようになります。
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-その後、Data Insertion [APIを使用してペイロードをAnalyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-グローバル設定が不要で、オンデマンドアプローチがより優れている場合は、at. js関数 [getOffers（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、analyticsLoggingを **渡すことでこれを実現できます。&quot;client_ side&quot;**.この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
 
 次に例を示します。
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-その後、Data Insertion [APIを使用してペイロードをAnalyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 手順 8： 実装を検証します。{#step8}
 
