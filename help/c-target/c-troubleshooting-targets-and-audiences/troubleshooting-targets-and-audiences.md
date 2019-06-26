@@ -8,7 +8,7 @@ title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 
 ## Target、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスライブラリに異なる名前を付けるのはなぜですか。{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-オーディエンス名 [!DNL Target] は一意です。ただし、in [!DNL AAM] およびinに [!DNL Audience Library]は、複数のオーディエンスに同じ名前を付けることができます（異なるフォルダーにある場合）。 [!DNL Target] オーディエンス名に対応するオーディエンス名が検出されたら、名前に«#&lt; [!DNL AAM][!DNL Audience Library] number&gt;» [!DNL Target] を追加します。
+[!DNL Target] で名前を付けられたオーディエンスは一意ですが、[!DNL AAM] および [!DNL Audience Library] では、複数のオーディエンスに同じ名前を付けることができます（異なるフォルダーにある場合）。[!DNL AAM] または [!DNL Audience Library] のオーディエンスに対応するオーディエンス名が [!DNL Target] で検出された場合、[!DNL Target] はその名前に「#&lt;number&gt;」を追加します。
 
 例えば、「PC Users」（[!DNL AAM]）および「PC Users #1」（[!DNL Target]）というオーディエンスが表示されることがあります。
 
