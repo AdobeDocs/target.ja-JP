@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,9 +45,9 @@ source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
 
 [!UICONTROL 条件のシーケンスを作成]画面を表示するには、複数の方法があります。一部の画面オプションは、画面の表示方法によって異なります。
 
-* [!UICONTROL Recommendations] アクティビティを作成している場合、[!UICONTROL 条件を選択]画面の**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]**をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件のシーケンスを保存するオプションがあります。
-* [!UICONTROL Recommendations] アクティビティを編集している場合、ページの「[!UICONTROL レコメンデーションの場所] 」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」をクリックします。[!UICONTROL 条件を選択]画面で、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]**をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
-* **[!UICONTROL レコメンデーション]** ／**[!UICONTROL 条件]**ライブラリ画面で、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件のシーケンスを作成]**をクリックします。ここで作成した条件は、自動的にすべての [!UICONTROL Recommendations] アクティビティで利用できるようになります。
+* [!UICONTROL Recommendations] アクティビティを作成している場合、[!UICONTROL 条件を選択]画面の **[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]** をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件のシーケンスを保存するオプションがあります。
+* [!UICONTROL Recommendations] アクティビティを編集している場合、ページの「[!UICONTROL レコメンデーションの場所] 」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」をクリックします。[!UICONTROL 条件を選択]画面で、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]** をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
+* **[!UICONTROL レコメンデーション]** ／**[!UICONTROL 条件]** ライブラリ画面で、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件のシーケンスを作成]** をクリックします。ここで作成した条件は、自動的にすべての [!UICONTROL Recommendations] アクティビティで利用できるようになります。
 
 1. 「**[!UICONTROL 条件を作成]**」または「**[!UICONTROL 新規作成]**」をクリックします。
 
@@ -57,19 +57,19 @@ source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. シーケンスの**[!UICONTROL 名前]**を入力します。
+1. シーケンスの **[!UICONTROL 名前]** を入力します。
 
    これは、条件のシーケンスの説明に使用される「内部」名です。サイトの訪問者にこの名前は表示されません。
-1. シーケンス内の複数の条件を使用して [!UICONTROL Recommendations] デザインを埋める場合は、公開される**[!UICONTROL 一般表示タイトル]**を入力します。このタイトルはページに表示されます。
+1. シーケンス内の複数の条件を使用して [!UICONTROL Recommendations] デザインを埋める場合は、公開される **[!UICONTROL 一般表示タイトル]** を入力します。このタイトルはページに表示されます。
 
    例えば、複数の[!UICONTROL レコメンデーション]キーに基づく品目がデザインに含まれている場合は、「これを見たお客様はこちらも...」を「お勧め」に置き換えることができます。
-1. 条件のシーケンスの簡単な**[!UICONTROL 説明]**を入力します。
+1. 条件のシーケンスの簡単な **[!UICONTROL 説明]** を入力します。
 
    説明は条件のシーケンスの特定に役立ちます。ここに条件のシーケンスの目的についての情報を含めることもできます。
 1. 「**[!UICONTROL 業種]**」を選択します。
 
    デフォルトの業種が自動的に表示されます。
-1. **[!UICONTROL ページタイプ]**を選択します。
+1. **[!UICONTROL ページタイプ]** を選択します。
 
    複数のページタイプを選択できます。
 
