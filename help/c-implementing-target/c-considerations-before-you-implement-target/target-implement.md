@@ -7,7 +7,7 @@ title: Target JavaScript ライブラリについて
 topic: 'Target '
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: f99fbba17dc7e33454f162c823577db0ba78ac29
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
