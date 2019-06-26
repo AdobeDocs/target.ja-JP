@@ -9,7 +9,7 @@ title: 画像用 adbox の作成
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,16 +30,16 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
-   * お客様のクライアントコードの場所 `myClientCode` 。クライアントコードはすべて小文字で、特殊文字は含まれません。
+   * `myClientCode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
       * **at.js**： クライアントコードは、[!UICONTROL  インターフェイスの「]セットアップ」／「実装」／「at.js 設定を編集[!DNL Target]」ページの最上部にあります。
 
       * **mbox.js**： クライアントコードは、「[!UICONTROL セットアップ」／「実装」／「mbox.js 設定を編集」ページの最上部にあります。]
-   * 呼び出し `image` タイプ。この場合は画像です。
+   * `image` は呼び出しのタイプです。この場合は画像です。
 
-   * adbox `emailHeroImage123_320x200` の名前。
+   * `emailHeroImage123_320x200` は adbox の名前です。
 
-   * mboxの `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` デフォルトコンテンツ。画像にする必要があります。
+   * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` は mbox のデフォルトコンテンツです。画像にする必要があります。
 
       URL エンコードをおこない、絶対参照にする必要があります。[HTML URLエンコーディングリファレンス](https://www.w3schools.com/tags/ref_urlencode.asp) を使用すると、URLをすばやくエンコードできます。
 
