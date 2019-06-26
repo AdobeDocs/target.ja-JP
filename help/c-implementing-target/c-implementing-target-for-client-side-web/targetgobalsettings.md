@@ -1,14 +1,14 @@
 ---
-description: 'at. jsのtargetGlobalSettings（）関数について取り上げます。 '
+description: 'at.js の targetGlobalSettings() 関数について説明します。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのtargetGlobalSettings（）関数に関する情報です。
-seo-title: Adobe Target at. js JavaScriptライブラリのtargetGlobalSettings（）関数に関する情報です。
+seo-description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 | 有効 | ブール値 | true |  at.js がライブラリとして有効になっているか、つまりこのライブラリが何らかの処理を実行するかどうかを示します。この設定は主に、cookie のオプトアウトや、その他 at.js の機能をカスタムに無効にする場合に使用します。 |
 | defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
 | defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
-| bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳細については、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
+| bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
 | bodyHidingEnabled | ブール値 | true | Visual Experience Composer で作成されたオファー（ビジュアルオファー）の配信に `target-global-mbox` が使用されている場合に、ちらつきの制御に使用します。 |
 | imsOrgId | 文字列 | IMS ORG ID | IMS ORG ID を表します。 |
 | secureOnly | ブール値 | false | at.js で HTTPS のみを使用するか、ページのプロトコルに基づいて HTTP と HTTPS との切り替えを許可するかを示します。 |
@@ -47,7 +47,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-この関数は、at.js が読み込まれる前、または「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]**」／「**[!UICONTROL コード設定]**」／「**[!UICONTROL ライブラリヘッダー]**」の順に移動して定義できます。
+この関数は、at.js が読み込まれる前、または **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]** で定義できます。
 
 「ライブラリのヘッダー」フィールドでは、JavaScript を自由形式で入力できます。カスタマイズコードは次の例のようになります。
 
