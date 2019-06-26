@@ -8,7 +8,7 @@ title: at.js の制限
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ at.js と mbox.js にはいくつかの違いがあります。このセクシ�
 
 [!DNL mbox.js] 内の一部の関数は、[!DNL at.js] では利用できません。内部 [mbox.js オブジェクトおよびメソッド](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（`mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` など）は、[!DNL at.js] ではサポートされません（例： `mboxFactoryDefault`）。これは設計によるもので、長期的に見ると実装を機能しなくさせ、アップグレードできなくさせる可能性のある、サポートされていない機能を開発するために [!DNL at.js] を「ハッキング」するのを阻止することを目的としています。公開されたメソッドのみ、このドキュメントの API ページで説明しています。理由は以下のとおりです。
 
-* 従来のアドビソリューションとのページベース [の統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) は動作しない可能性があり、より新しいサーバー側統合にアップグレードする必要があります。
+* 他のアドビソリューションとの従来のページベースの[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)は、動作しない可能性があり、より新しいサーバー側統合にアップグレードする必要がある。
 * [mbox.js 用に開発されたカスタムプラグイン](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)は、[!DNL at.js] 用に更新しない限り、動作しない可能性がある。
 
    すべての[プラグイン](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)をテストの一部として含めるようにします。
