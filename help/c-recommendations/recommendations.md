@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -57,10 +57,10 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=jpn)
 
-## Adobe Target Basicsウェビナー:Recommendationsの概要 {#intro-to-recs}
+## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
 
-Recommendationsのウェビナーの概要には、価値を活用するための詳細な調査が含ま [!DNL Adobe Target Recommendations]れています。以前の訪問に基づいてリアルタイムの提案を最適化することで、 [!DNL Target] このアクティビティが顧客に興味を持つ可能性のある製品またはコンテンツをどのように表示するかを確認します。[!DNL Target] さらに、 [!DNL Recommendations] アクティビティの構築方法の概要を説明します。
+Recommendationsのウェビナーには、[!DNL Adobe Target Recommendations]の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
 [Recommendationsの概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
