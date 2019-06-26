@@ -1,6 +1,6 @@
 ---
 description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
-keywords: 実装;導入
+keywords: 実装;実装する
 seo-description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 seo-title: 実装する前に
 solution: 'Target '
@@ -9,7 +9,7 @@ title: 実装する前に
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Target を実装する前に対処すべき考慮事項について説明�
 
 >[!IMPORTANT]
 >
->at. jsまたはmbox. jsへの変更は、アドビカスタマーケアではサポートされません。
+>at.js または mbox.js の変更は、アドビカスタマーケアではサポートされません。
 
 - [Target 実装の準備](prepare-to-implement-target.md)
 - [プライバシー](c-privacy/privacy.md)
