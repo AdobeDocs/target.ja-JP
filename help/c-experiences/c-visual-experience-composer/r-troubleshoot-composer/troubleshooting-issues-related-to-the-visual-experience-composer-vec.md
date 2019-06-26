@@ -7,7 +7,7 @@ solution: 'Target '
 title: Visual Experience Composer に関連する問題のトラブルシューティング
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ Web サイト（特に単一ページアプリ）で、ページの再読み込�
 
 拡張 Experience Composer で問題が発生した場合、拡張 Experience Composer をオフにして、代わりに Visual Experience Composer を使用します。
 
-拡張 Experience Composer を無効にするには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]**に移動し、「**[!UICONTROL 拡張 Experience Composer を有効にする]**」オプションをオフにします。
+拡張 Experience Composer を無効にするには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]** に移動し、「**[!UICONTROL 拡張 Experience Composer を有効にする]**」オプションをオフにします。
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
@@ -67,13 +67,13 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
 1. 拡張 Experienced Composer をオフにします。
 1. Chrome または Firefox に Requestly ブラウザー拡張機能をインストールします。
 1. 拡張機能を開いて、次を使用するように設定します。
-1. 「 **[!UICONTROL Modify headers（ヘッダーを変更）]**」を選択します。
+1. 「**[!UICONTROL Modify headers（ヘッダーを変更）]**」を選択します。
 1. 以下を入力します。
 
    * ルール名
    * 変更ルール
 
-      * 「**[!UICONTROL Add（追加）]** 」を「 **[!UICONTROL Remove（削除）]**」に切り替えます。
+      * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
       * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
       * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
       * 前述の手順を繰り返し、ヘッダー名に「x-frame-options」と入力します。
@@ -86,7 +86,7 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
       ![](assets/chrome_extension.png)
 
 
-1. 「 **[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/requestly.png)
 
@@ -100,8 +100,8 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
 1. Action（アクション）ドロップダウンから **[!UICONTROL Filter（フィルター）]を選択します。**
 1. 「Header Name（ヘッダー名）」フィールドに、「**[!UICONTROL X- Frame- Options]**」と入力します。
 1. 手順 4 と 5 を繰り返して、**[!UICONTROL x-frame-options]** によるフィルターを追加します。
-1. 「 **[!UICONTROL Add（追加）]**」をクリックします。
-1. 「 **[!UICONTROL Start（開始）]**」をクリックします。
+1. 「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL Start（開始）]**」をクリックします。
 
 ![](assets/firefox_extension.png)
 
