@@ -8,7 +8,7 @@ title: オファーフォルダーの作成
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 オファーライブラリのアイテムを保存するフォルダーを作成します。
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、必要に応じて「**[!UICONTROL コードオファー]**」または「**[!UICONTROL 画像オファー]**」タブを選択します。
-1. **[!UICONTROL 作成]**／**[!UICONTROL フォルダー]**をクリックします。
+1. **[!UICONTROL 作成]**／**[!UICONTROL フォルダー]** をクリックします。
 1. 以下のフィールドを設定します。
 
    | フィールド | 説明 |
