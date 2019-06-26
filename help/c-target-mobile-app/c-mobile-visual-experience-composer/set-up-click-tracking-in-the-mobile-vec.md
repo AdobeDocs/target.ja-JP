@@ -1,27 +1,27 @@
 ---
-description: Mobile Visual Experience Composer（VEC）は、Targetアクティビティのクリック追跡目標の設定をサポートします。
-keywords: Mobile App VEC;mobile visual experience composer;mobile experience composerオプション;モバイルエクスペリエンスオプション;ターゲットビュー;クリック、click tracking;track
+description: Mobile Visual Experience Composer（VEC）は、Target アクティビティのクリック追跡目標の設定をサポートします。
+keywords: モバイルアプリ VEC;mobile visual experience composer;mobile experience composer options;mobile experience options;target view;clicks;click tracking;track
 seo-description: Mobile Visual Experience Composer（VEC）は、Adobe Targetアクティビティのクリック追跡目標の設定をサポートします。
-seo-title: Mobile App VECでのクリック追跡の設定
+seo-title: モバイルアプリ VEC でのクリック追跡のセットアップ
 solution: 'Target '
-title: Mobile App VECでのクリック追跡の設定
+title: モバイルアプリ VEC でのクリック追跡のセットアップ
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Mobile App VECでのクリック追跡の設定{#set-up-click-tracking-in-the-mobile-vec}
+# モバイルアプリ VEC でのクリック追跡のセットアップ{#set-up-click-tracking-in-the-mobile-vec}
 
-Mobile App VECは、アクティビティの [!DNL Target] クリック追跡目標の設定をサポートしています。
+モバイルアプリ VEC は、アクティビティの [!DNL Target] クリック追跡目標の設定をサポートしています。
 
 1. アクティビティの目標と設定ページで目標を設定する際に、[!UICONTROL コンバージョン]成功指標を選択します。
 
    ![](assets/mobile-vec-clicktrack1.png)
 
-1. アクションの場合、「要素を **[!UICONTROL クリック」を選択]** し、「エレメント **[!UICONTROL を選択」をクリック]** します。
+1. アクションの場合、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択]**」をクリックします。
 
    Visual Experience Composer（VEC）でモバイルアプリケーションが開きます。
 
@@ -45,8 +45,8 @@ Mobile App VECは、アクティビティの [!DNL Target] クリック追跡目
 
 要素の選択時にいくつか検討すべき事項があります。
 
-* 複数の要素が選択されており、訪問者がこれらの要素のいずれかをクリックすると、クリックがカウントされます。各クリックを個別にカウントするには、各要素の個別の成功指標を設定します。
+* 複数の要素が選択されていて、訪問者がこれらの要素のいずれかをクリックした場合、クリックはカウントされます。各クリックを個別にカウントするには、各要素に対して個別の成功指標を設定します。
 * クリックイベントは、ユーザーが要素をクリックするとすぐに Target に送信されます。
-* Mobile App VECでは、クリックハンドラーを持つ要素のみを選択できます。
+* Mobile App VECでは、クリックハンドラを持つ要素のみを選択できます。
 * アプリケーションのセクションはどれでも参照できますが、クリック追跡の対象となる要素を選択するセクションに対して[ビュー](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)が定義されていることを確認してください。
-* アクティビティを編集する際、手順 1 で既にデバイスを選択している場合は、デバイスを再度選択する必要はありません。ただし、クリック追跡ページに直接ランディングすると、デバイスの選択画面が表示され、認証済みのデバイスが選択されます。
+* アクティビティを編集する際、手順 1 で既にデバイスを選択している場合は、デバイスを再度選択する必要はありません。ただし、クリック追跡ページに直接アクセスした場合は、認証されたデバイスを選択するためのデバイス選択ページが表示されます。
