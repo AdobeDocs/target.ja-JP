@@ -1,6 +1,6 @@
 ---
 description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
-keywords: entity;entity属性;情報をRecommendationsに渡す、行動データ;データカウンター;相対URLの定義;表示在庫レベル;define price;利益幅を定義する;カスタム属性
+keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
 seo-description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
 seo-title: エンティティの属性
 solution: 'Target '
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
 translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
 
 この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [DNL Adobe Experience Cloud] 製品（ [!DNL Analytics] を含む）で同じにする必要があります。
 
-`entity.id` の値には、REST API呼び出しで渡される場合にURLエンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
+`entity.id` の値には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
 
-例: `'entity.id=67833'`
+例：`'entity.id=67833'`
 
 ### `entity.name`
 
@@ -39,7 +39,7 @@ source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
 
 商品がレコメンデーションされる際に Web サイトに表示される商品名。
 
-例: `'entity.name=Giants& vs& Rockies& 5/12'`
+例：`'entity.name=Giants& vs& Rockies& 5/12'`
 
 ### `entity.categoryId`
 
@@ -75,7 +75,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 品目のブランド名を表示します。
 
-例: `'entity.brand=brandxyz'`
+例：`'entity.brand=brandxyz'`
 
 ### `entity.pageUrl`
 
@@ -83,7 +83,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 その品目を購入できるページの相対 URL を定義します。
 
-例: `'entity.pageUrl=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
+例：`'entity.pageUrl=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
 
 ### `entity.thumbnailUrl`
 
@@ -91,7 +91,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 品目と共に表示されるサムネールの相対 URL を定義します。
 
-例: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
+例：`'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 ### `entity.message`
 
@@ -99,7 +99,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 「特価」や「クリアランス」など、レコメンデーションに表示する商品についてのメッセージです。メッセージは通常、商品名よりも長いものとなります。テンプレート内の商品とともに表示する追加情報の定義に使用します。を参照してください。
 
-例: `'entity.message=Family&nbsp;special'`
+例：`'entity.message=Family&nbsp;special'`
 
 ### `entity.inventory`
 
@@ -107,13 +107,13 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 品目の在庫レベルを表示します。
 
-例: `'entity.inventory=1'`
+例：`'entity.inventory=1'`
 
-**空の在庫属性処理：**配信については、`entity.inventory` &gt; 0 または `entity.inventory` = 0 に設定されたインクルージョンルール、収集ルール、または条件があり、商品の在庫が設定されていない場合、 [!DNL Target] はこれを TRUE と評価し、在庫が設定されていない商品を含めます。これはデフォルトでおこなわれるので、在庫が設定されていない商品が推奨の結果に表示されます。
+**空の在庫属性処理：** 配信については、`entity.inventory` &gt; 0 または `entity.inventory` = 0 に設定されたインクルージョンルール、収集ルール、または条件があり、商品の在庫が設定されていない場合、 [!DNL Target] はこれを TRUE と評価し、在庫が設定されていない商品を含めます。これはデフォルトでおこなわれるので、在庫が設定されていない商品が推奨の結果に表示されます。
 
 同様に、`entity.inventory` = 0 で `entity.inventory` が設定されていないグローバル除外ルールがある場合は、[!DNL Target] はこのルールを TRUE と評価し、その商品を除外します。
 
-**既知の問題：**在庫値の属性が設定されていない場合、製品検索に配信との整合性がありません。例えば、`entity.inventory` = 0 のルールの場合、製品検索は在庫値が設定されていない商品を表示しません。
+**既知の問題：** 在庫値の属性が設定されていない場合、製品検索に配信との整合性がありません。例えば、`entity.inventory` = 0 のルールの場合、製品検索は在庫値が設定されていない商品を表示しません。
 
 ### `entity.value`
 
@@ -121,7 +121,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 品目の価格や価値を定義します。
 
-例: `'entity.value=15.99'`
+例：`'entity.value=15.99'`
 
 ### `entity.margin`
 
@@ -129,7 +129,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 その品目の利益幅またはその他の価値。
 
-例: `'entity.margin=1.00'`
+例：`'entity.margin=1.00'`
 
 ### `entity.<custom>`
 
@@ -148,9 +148,9 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 `'entity.secondary=Rockies'`
 
-カスタムエンティティの属性では、複数の値がサポートされます。文字および値の制限に関する [カスタムエンティティ属性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) を参照してください。
+カスタムエンティティの属性では、複数の値がサポートされます。文字および値の制限については、[カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)を参照してください。
 
-例: `'entity.secondary=["band1",&nbsp;"band2"]'`
+例：`'entity.secondary=["band1",&nbsp;"band2"]'`
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 mbox の呼び出しによって、アルゴリズムの行動データカウンターが増加することを回避するために使用します。
 
-例: `'entity.event.detailsOnly=true'`
+例：`'entity.event.detailsOnly=true'`
 
 次の例では、最初の mbox 呼び出しによって、カタログと行動データが更新されます。2 回目の mbox 呼び出しでは、カタログのみが更新されます。
 
@@ -237,6 +237,6 @@ mboxCreate('productPage',
 
 mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方を含めることができます。そのどちらが表示されるかは選択されているアルゴリズムで決定されます。商品 ID は親和性アルゴリズムで使用され、カテゴリ ID はカテゴリアルゴリズムで使用されます。
 
-## 関連トピック:
+## 関連トピック：
 
 * [カスタムエンティティの属性](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
