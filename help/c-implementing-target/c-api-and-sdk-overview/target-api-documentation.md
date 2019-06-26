@@ -8,7 +8,7 @@ title: Target の従来の API から Adobe I/O への移行
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 7f4f49ee2eeee042b5d3c9dbab042205a9f5806a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -48,20 +48,20 @@ Recommendations Classic の API については、この予定の影響はあり
 | グループ | 従来の API メソッド | 新しい API メソッド | メモ |
 |--- |--- |--- |--- |
 | キャンペーン／アクティビティ | キャンペーンの作成 | [AB アクティビティの作成](http://developers.adobetarget.com/api/#create-ab-activity)<br>[XT アクティビティの作成](http://developers.adobetarget.com/api/#create-xt-activity) | 新しい API では、AB と XT で別々の作成メソッドを使用します。 |
-|  | キャンペーンの更新 | [AB アクティビティの更新](http://developers.adobetarget.com/api/#update-ab-activity)<br>[XT アクティビティの更新](http://developers.adobetarget.com/api/#update-xt-activity) |
+|  | キャンペーンの更新 | [AB アクティビティの更新](http://developers.adobetarget.com/api/#update-ab-activity)<br>[XT アクティビティの更新](http://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | キャンペーンのコピー | 該当なし | アクティビティの作成 API を使用します。 |
-|  | キャンペーンリスト | [アクティビティのリスト](http://developers.adobetarget.com/api/#list-activities) |
-|  | キャンペーン状態 | [アクティビティ状態の更新](http://developers.adobetarget.com/api/#update-activity-state) |
-|  | キャンペーン表示 | [ID での AB アクティビティの取得](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[ID での XT アクティビティの取得](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |
+|  | キャンペーンリスト | [アクティビティのリスト](http://developers.adobetarget.com/api/#list-activities) |  |
+|  | キャンペーン状態 | [アクティビティ状態の更新](http://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | キャンペーン表示 | [ID での AB アクティビティの取得](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[ID での XT アクティビティの取得](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | サードパーティキャンペーン ID | 該当なし | thirdpartyID を使用する場合は、該当のアクティビティメソッドを使用できます。 |
-| オファー | オファー作成 | [オファーの作成](http://developers.adobetarget.com/api/#create-offer) |
-|  | オファー取得 | [ID でのオファーの取得](http://developers.adobetarget.com/api/#get-offer-by-id) |
-|  | オファーリスト | [オファーのリスト](http://developers.adobetarget.com/api/#list-offers) |
+| オファー | オファー作成 | [オファーの作成](http://developers.adobetarget.com/api/#create-offer) |  |
+|  | オファー取得 | [ID でのオファーの取得](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | オファーリスト | [オファーのリスト](http://developers.adobetarget.com/api/#list-offers) |  |
 |  | フォルダーリスト | 該当なし | Target Standard/Premium ではフォルダーはサポートされていません。 |
-| レポート | キャンペーンのパフォーマンスレポート | [AB パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[XT パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-xt-performance-report) |
-|  | 監査レポート | [監査レポートの取得](http://developers.adobetarget.com/api/#get-audit-report) |
-|  | 1:1 コンテンツレポート | [AP パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |
-| アカウントの設定 | ホストグループの取得 | [環境のリスト](http://developers.adobetarget.com/api/#list-environments) |
+| レポート | キャンペーンのパフォーマンスレポート | [AB パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[XT パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | 監査レポート | [監査レポートの取得](http://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | 1:1 コンテンツレポート | [AP パフォーマンスレポートの取得](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| アカウントの設定 | ホストグループの取得 | [環境のリスト](http://developers.adobetarget.com/api/#list-environments) |  |
 
 ## 例外 {#section_09CF9A0E289149279783B4801D1B6D4C}
 
