@@ -8,7 +8,7 @@ title: レポートの FAQ
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
