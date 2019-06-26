@@ -7,7 +7,7 @@ solution: 'Target '
 title: Target のセキュリティの概要
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
