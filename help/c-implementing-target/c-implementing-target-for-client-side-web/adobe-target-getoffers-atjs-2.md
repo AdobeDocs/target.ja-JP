@@ -1,25 +1,25 @@
 ---
-description: 'at. jsのadobe. target. getOffers（options）関数について取り上げます。 '
+description: 'at.js の adobe.target.getOffers(options) 関数についての情報です。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのadobe. target. getOffers（options）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのadobe. target. getOffers（options）関数について取り上げます。
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getOffers（options）- at. js2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 この関数を使用すると、複数の mbox を渡すことで複数のオファーを取得できます。さらに、アクティブなアクティビティのすべてのビュー向けに複数のオファーを取得できます。
 
 >[!NOTE]
 >
->この関数はat. js2. xで導入されました。この関数はat. jsバージョン1では使用できません。*x*.
+>この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1 では使用できません。*x*.
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | Request &gt; id &gt; thirdPartyId | × | 最大サイズ = 128 |  |  |
 | リクエスト/ExperienceCloud | × |  |  |
 | リクエスト&gt; ExperienceCloud&gt; analytics | × |  | Adobe Analyticsの統合 |
-| リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ | × | 次のページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement. js</li></ul> | 次の値がサポートされています。<br>**client_ side**:指定した場合、Analyticsペイロードは、Data Insertion APIを介してAdobe Analyticsに送信するために使用される呼び出し元に返されます。<br>**server_ side**:これは、TargetとAnalyticsのバックエンドが、レポート用に呼び出しを組み合わせるためにSDIDを使用するデフォルト値です。 |
+| リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ | × | 次のページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**:これは、TargetとAnalyticsのバックエンドが、レポート用に呼び出しを組み合わせるためにSDIDを使用するデフォルト値です。 |
 | Request &gt; prefetch | × |  |  |
 | Request &gt; prefetch &gt; views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
 | Request &gt; prefetch &gt; views &gt; profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
@@ -56,7 +56,7 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | Request &gt; execute &gt; pageLoad &gt; order | × |  |  |
 | Request &gt; execute &gt; pageLoad &gt; order &gt; id | × | 最大長 = 250 | ページ読み込み時に、指定された注文 ID を使用してオファーを取得します。 |
 | Request &gt; execute &gt; pageLoad &gt; order &gt; total | × | `>=` 0 | ページ読み込み時に、指定された注文の合計を使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | × | 値は空白にできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>商品 ID の合計の長さ `<=` 250 | ページ読み込み時に、指定された購入 ID を使用してオファーを取得します。 |
+| Request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ `<=` 250 | ページ読み込み時に、指定された購入 ID を使用してオファーを取得します。 |
 | Request &gt; execute &gt; mboxes | × | 最大サイズ = 50<br>null 要素は使用できません |  |
 | Request &gt; execute &gt; mboxes&gt;mbox | ○ | 空白にはできません<br>「-clicked」サフィックスは使用できません<br>最大サイズ = 250<br>使用できる文字： `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox の名前。 |
 | Request &gt; execute &gt; mboxes&gt;mbox&gt;index | ○ | null は使用できません<br>一意<br>`>=` 0 | 注意： インデックスは、mbox が処理される順序を表すものではありません。複数のリージョナル mbox を持つ Web ページと同様、mbox が処理される順序は指定できません。 |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-その後、Data Insertion APIを [使用してペイロードをAdobe Analyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## getOffers（）およびapplyOffers（）を使用した複数のmboxからのデータの取得およびレンダリング {#multiple}
+## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
 
-at. js2. xを使用すると、 `getOffers()` APIを使用して複数のmboxを取得できます。また、複数のmboxのデータを取得して、 `applyOffers()` CSSセレクターによって識別される様々な場所でデータをレンダリングすることもできます。
+at.js 2.x を使用すると、`getOffers()` API を使用して複数の mbox を取得できます。複数の mbox のデータを取得して、`applyOffers()` CSS セレクターによって識別されるさまざまな場所で、データをレンダリングすることもできます。
 
-次の例は、at. js2. xを実装した単純なHTMLページを示しています。
+次の例は、at.js 2.x を実装した単純な HTML ページを示しています。
 
 ```
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ at. js2. xを使用すると、 `getOffers()` APIを使用して複数のmboxを
 </html>
 ```
 
-コンテンツを受信したコンテンツを使用して変更する3つのコンテナがあるとし [!DNL Target]ます。それぞれのmboxに、それぞれのコンテナにレンダリングするコンテンツがある3つのmboxに対して単一のリクエストを作成できます。
+[!DNL Target] から受け取ったコンテンツを介して変更したい 3 つのコンテナがあるとします。3 つの mbox に対して 1 つのリクエストを作成し、それぞれの mbox に、それぞれのコンテナにレンダリングするためのコンテンツを含めることができます。
 
 リクエストおよびレンダリングコードは次の例のようになります。
 
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-`request > prefetch > mboxes` このセクションでは、3つの異なるmboxがあります。リクエストが正常に完了した場合は、各mboxに対する応答を受信 `response > prefetch > mboxes`します。応答およびレンダリングに使用する場所があると、取得したコンテンツをレンダリング `applyOffers()` するために呼び出すこと [!DNL Target]ができます。この例では、次のマッピングがあります。
+`request > prefetch > mboxes` セクションでは、3 つの異なる mbox があります。リクエストが正常に完了した場合は、それぞれの mbox に対する応答を `response > prefetch > mboxes` から受信します。レスポンスとレンダリングに使用する場所が決まったら、`applyOffers()` を呼び出して [!DNL Target] から取得したコンテンツをレンダリングできます。この例では、次のマッピングがあります。
 
-* mbox1/CSSセレクター# container1
-* mbox2&gt; CSSセレクター# container2
-* mbox3/CSSセレクター# container3
+* mbox1／CSS セレクター# container1
+* mbox2／CSS セレクター# container2
+* mbox3／CSS セレクター# container3
 
-この例では、count変数を使用してCSSセレクターを作成します。実際のシナリオでは、CSSセレクターとmboxとの異なるマッピングを使用できます。
+この例では、count 変数を使用して CSS セレクターを作成します。実際のシナリオでは、CSS セレクターと mbox との異なるマッピングを使用できます。
 
-この例では使用さ `prefetch > mboxes`れていますが、使用 `execute > mboxes`することもできます。で `getOffers()`プリフェッチを使用する場合は `applyOffers()` 、呼び出しでもプリフェッチを使用する必要があります。
+この例では `prefetch > mboxes` を使用していますが、`execute > mboxes` を使用することもできます。`getOffers()` でプリフェッチを使用する場合は、`applyOffers()` 呼び出しでもプリフェッチを使用する必要があります。
