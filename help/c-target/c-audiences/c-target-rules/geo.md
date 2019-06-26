@@ -8,7 +8,7 @@ title: Adobe Targetの地域ターゲット設定
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ## 精度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。訪問者がセルラーデータ接続を使用している場合、地域ルックアップの精度は、場所、プロバイダーの [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)とのデータ関連性、その他の要因の影響を受ける可能性があります。携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。モバイルのGeo- Locationに関するいくつかの問題は [、Geolocation APIを使用して解決](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)できます。
+GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 以下の表に、[DigitalEnvoy](https://www.digitalelement.com/solutions/) が有線または WiFi インターネット接続用に提供する IP ベースの地理情報の精度を示します。DigitalEnvoy は、業界で最も正確なデータを提供します。グローバルな精度は、国レベルで 99.9％を超え、市レベルでは最大 97％の正確性です。精度情報は、携帯電話基地局ベースのネットワークには適用されません。
 
@@ -115,7 +115,7 @@ GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続�
 
 **モバイルデバイスでは GeoTargeting はどのように動作しますか？**
 
-ほとんどのモバイルデバイスユーザーは WiFi 経由でコンテンツにアクセスします。つまり、Target の IP ベースの GeoTargeting はデスクトップと同様に正確です。携帯電話基地局ベースの接続では、信号が補足される基地局に基づいて訪問者の IP アドレスが決まるので、正確性に劣る場合があります。モバイルのGeo- Locationに関するいくつかの問題は [、Geolocation APIを使用して解決](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)できます。
+ほとんどのモバイルデバイスユーザーは WiFi 経由でコンテンツにアクセスします。つまり、Target の IP ベースの GeoTargeting はデスクトップと同様に正確です。携帯電話基地局ベースの接続では、信号が補足される基地局に基づいて訪問者の IP アドレスが決まるので、正確性に劣る場合があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **AOL 経由の訪問者は地域ターゲット設定ではどのように処理されますか?**
 
