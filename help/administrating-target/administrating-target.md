@@ -1,22 +1,22 @@
 ---
-description: 環境設定、実装、ユーザー管理、プロパティ、Scene7設定、ホストの管理、応答トークンなど、Targetのセットアップに役立つ情報です。
+description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Target の設定について説明します。
 keywords: 実装;実装する;設定;セットアップ
-seo-description: 環境設定、実装、ユーザー管理、プロパティ、Scene7設定、ホストの管理、応答トークンなど、Adobe Targetのセットアップに役立つ情報です。
-seo-title: Adobe Targetの管理
+seo-description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
+seo-title: Adobe Target の管理
 solution: 'Target '
 subtopic: 導入
 title: Target の管理
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Target の管理{#administer-target}
 
-環境設定、実装、ユーザー管理、プロパティ、Scene7設定、ホストの管理、応答トークンなど、Adobe Targetのセットアップに役立つ情報です。
+環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
 
 [!UICONTROL セットアップ]メニュー項目にアクセスするには、上部のメニューバーで「**[!UICONTROL セットアップ]」をクリックしてから、左側で目的のタブをクリックします。**
 
@@ -28,4 +28,4 @@ source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
 * [ホスト](/help/administrating-target/hosts.md)
 * [レスポンストークン](/help/administrating-target/response-tokens.md)
 
-![Adobe Targetセットアップメニュー](/help/administrating-target/assets/setup_menu_new.png)
+![Adobe Target 設定メニュー](/help/administrating-target/assets/setup_menu_new.png)
