@@ -7,7 +7,7 @@ title: Adobe Experience Cloud デバッガーを使用した at.js のデバッ�
 topic: 'Target '
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,12 +26,12 @@ Target の実装をすばやく簡単に理解できる Adobe Experience Cloud �
 
 ### Adobe Experience Cloud デバッガー拡張の追加 {#section_8CD96F76E397476193529573F3199615}
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=jpn)
 
 ### Adobe Experience Cloud デバッガーを使用した Target での基本的なデバッグ {#section_AB2814A994DC4A86BABDD0441343D911}
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=jpn)
 
 ### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=jpn)
