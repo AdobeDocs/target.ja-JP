@@ -8,7 +8,7 @@ title: アクティビティを編集またはドラフトとして保存
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 Target では、UI 内の様々な場所で既存のアクティビティを編集できます。編集方法によって手順は変わります。
 
-## アクティビティページのホバーボタンを使用したアクティビティの編集 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. **[!UICONTROL アクティビティ]** ページで編集するアクティビティにカーソルを合わせ、**編集[!UICONTROL アイコンをクリックします。]**
 
    ![編集アイコン](/help/c-activities/assets/hover_edit.png)
 
-   TargetはVisual Experience Composer（VEC）でアクティビティを開き、 [!UICONTROL エクスペリエンス] ページ（3ステップのガイドのワークフローの最初の手順）を表示します。
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
 1. [VECオプションを使用して、アクティビティを編集](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)します。
 
@@ -37,7 +37,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
    * **保存して閉じる：** 現在のステップで必要な変更を加え、スプリットボタンのドロップダウンをクリックして「**[!UICONTROL 保存して閉じる]**」を選択すると、変更内容が保存され、アクティビティの[!UICONTROL 概要]ページが表示されます。
    * **保存：** 各ステップで必要な変更を加え、スプリットボタンのドロップダウンをクリックして「**[!UICONTROL 保存]」を選択すると、変更内容が保存されます。この場合は現在のステップに留まり、変更作業を続行できます。** 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
-## アクティビティページで名前をクリックしてアクティビティを編集し、アクティビティを編集します {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. ワークフローのステップを進める代わりに、アクティビティページで目的のアクティビティをクリックして開き、**[!UICONTROL アクティビティを編集]ドロップダウンリストからオプションを選択することもできます。**
 
@@ -60,7 +60,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
 
 
-## ドラフトフォームでのアクティビティの保存 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 まだ保存されていない新しいアクティビティを作成しているときや、以前にドラフトとして保存されたアクティビティを編集しているときは、スプリットボタンに「ドラフトを保存」オプションが表示されます。
 
