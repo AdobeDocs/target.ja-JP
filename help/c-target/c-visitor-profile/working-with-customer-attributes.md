@@ -9,7 +9,7 @@ title: 顧客属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
    例えば、ユーザーの特定に `vst.myDataSource.id` パラメーター（`myDataSource` はデータソースのエイリアス）を使用しており、MCID もサードパーティ ID も存在しない場合には、パラメーター `vst.myDataSource.authState=0` を使用しても、顧客属性インポートにより作成されるなどした認証済みプロファイルが取得されることはありません。認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が 1（AUTHENTICATED）になっている必要があります。
 
-* 次の文字は送信 `mbox3rdPartyID`できません。プラス記号（+）とスラッシュ（/）
+* 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
 ## Target での顧客属性のワークフロー {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
@@ -98,7 +98,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 ### ターゲットオーディエンスを作成する
 
-[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。すべての顧客属性には、リストに&lt; data_ source_ name&gt;プレフィックスが付いています。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。リスト内の顧客属性はすべて先頭に &lt; data_source_name &gt; が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![Target オーディエンス](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -148,4 +148,4 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 このビデオでは、CRM、ヘルプデスク、POS などのオフラインのマーケティングデータを Experience Cloud の People サービスにインポートし、既知の ID を使用して訪問者に関連付ける方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=jpn)
