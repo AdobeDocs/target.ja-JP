@@ -8,7 +8,7 @@ title: Target のトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 * [Target の最適化とパーソナライゼーションに関する FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [アクティビティのトラブルシューティング](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/Bテスト]、 [!UICONTROL 自動配分]、 [!UICONTROL 自動Target] （AT）
+### [!UICONTROL A/Bテスト]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]（AT）
 
 * [9 つの一般的な A/B テストの落とし穴と回避方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -51,17 +51,17 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 ## Analytics と Target の統合（A4T）
 
 * [AnalyticsとTargetの統合のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。「[Adobe Target（A4T）のレポートソースとしての Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
+* アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
 * A4T に関するよくある質問
-   * [A4Tでの水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
+   * [A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [初期プロビジョニング - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [アクティビティの設定- A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
-   * [レポートの表示- A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
+   * [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
    * [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
    * [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [指標の定義 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [指標、セグメント、レポートの共有- A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [水増しされた訪問と訪問者のカウント- A4TのFAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
+   * [水増しされた訪問および訪問者のカウント - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
@@ -90,7 +90,7 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 * [グローバル mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-## ホスト/環境
+## ホスト／環境
 
 * [ホストのトラブルシューティング](/help/administrating-target/hosts.md)
 
@@ -110,8 +110,8 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 ### at.js
 
 * [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Adobe Experience Cloudデバッガーを使用したat.jsのデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.jsの制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
+* [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+* [at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。[at.jsの実装を](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) 参照してください。
 
@@ -135,7 +135,7 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 ## 検索エンジン最適化（SEO）
 
-* [検索エンジン最適化（SEO）フレンドリーなテスト](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [検索エンジン最適化（SEO）対応テスト](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## システムステータス
 
@@ -145,14 +145,14 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 * [地域](/help/c-target/c-audiences/c-target-rules/geo.md)
 
-## Users
+## ユーザー
 
 * [ユーザー管理のトラブルシューティング](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
 ## Visual Experience Composer（VEC）
 
 * [Target の最適化とパーソナライゼーションに関する FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
-* [Visual Experience Composerのトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-* [Visual Experience Composerのベストプラクティスと制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+* [Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Visual Experience Composer のベストプラクティスと制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。[Visual Experience Composer（VEC）を参照](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) してください。
