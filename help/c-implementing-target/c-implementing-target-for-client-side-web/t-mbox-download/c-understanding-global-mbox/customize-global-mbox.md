@@ -9,7 +9,7 @@ title: グローバル mbox のカスタマイズ
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
