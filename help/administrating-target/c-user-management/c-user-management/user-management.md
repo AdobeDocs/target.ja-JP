@@ -2,14 +2,14 @@
 description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
 keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
 seo-description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
-seo-title: Users
+seo-title: ユーザー
 solution: 'Target '
 subtopic: 導入
-title: Users
+title: ユーザー
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Admin Console でユーザーを追加したり権限を管理したりで
 
 [!DNL Adobe Target] を初めて使用するときには、[!DNL Adobe Experience Cloud] アカウントのところに、「Adobe.com」で終わる ID があらかじめ表示されています。これらの ID は Adobe チームのメンバーのもので、新しいアカウントや [!DNL Adobe Target] の使い方について疑問点があるときに、メンバーに質問をすることができます。質問があるときは、通常の方法で Adobe チームにご連絡ください。
 
-新しいユーザーは、Adobe Experience Cloud のアカウントでログインしてから、[!UICONTROL  カードをクリックして ] にログインするまでは、[!DNL Target Standard/Premium]ユーザー [!DNL Target] ページに表示されません。
+新しいユーザーは、Adobe Experience Cloud のアカウントでログインしてから、[!UICONTROL  カードをクリックして ] にログインするまでは、[!DNL Target Standard/Premium]ユーザー[!DNL Target] ページに表示されません。
 
 デフォルトでは、すべての [!DNL Target] ユーザーはまず監視者権限を持ちます。
 
@@ -45,7 +45,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
    または
 
-   既にExperience Cloudにログインしている場合は、 [https://www.experiencecloud.adobe.comに移動](https://experiencecloud.adobe.com)し、上部ナビゲーションバーの [!UICONTROL アプリ] アイコンをクリックして、右側の **[!UICONTROL 「管理者」]** をクリックします。
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
@@ -69,7 +69,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 システム管理者ユーザーはシステムにユーザーを追加する必要があります。ユーザーは自動的には追加されません。ユーザーのアカウントを登録する前に、Experience Cloud から招待の電子メールを送信して、電子メールアドレスを確認する必要があります。
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で、「**[!UICONTROL 製品]**」をクリックして、目的の製品名を選択します。
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
    ![「製品」タブ](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
