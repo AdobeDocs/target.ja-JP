@@ -8,14 +8,14 @@ title: 多変量分析テストのベストプラクティス
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 多変量分析テストのベストプラクティス{#multivariate-test-best-practices}
 
-多変量分析テスト（MVT）アクティビティの作成と実行時に発生する可能性のある、パフォーマンスの向上、問題の回避、既知の問題の修正に役立つヒントです [!DNL Adobe Target]。
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## 計画 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -50,11 +50,11 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 * [場所の貢献度レポート](/help/c-reports/location-contribution-report.md) を頻繁に使用して、各場所および各オファーのパフォーマンスを監視します。
 * [エクスペリエンスのパフォーマンスレポート](/help/c-reports/experience-performance-report.md)で、上位5件と下位5件のフィルターを使用して表示されるデータに基づいて決定を行います。
 
-   [!UICONTROL すべて] のフィルターにより、必要な情報を抽出するのが困難になり、すべてのエクスペリエンスがグラフに表示できるわけではありません。上位5件または下位5件にない特定のエクスペリエンスを確認する場合は [!UICONTROL 、「すべて」] フィルターを使用します。
+   [!UICONTROL すべて] のフィルターにより、必要な情報を抽出するのが困難になり、すべてのエクスペリエンスがグラフに表示できるわけではありません。Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## フォローアップ {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* アクティブなアクティビティを編集 [!DNL Target] することができますが、進行中のアクティビティを編集するとテストがリセットされることがあります。そのため、レポートで一部の変更が認識されない場合があります。オファーライブラリに含まれている HTML オファーに変更を加えることは安全です。
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. そのため、レポートで一部の変更が認識されない場合があります。オファーライブラリに含まれている HTML オファーに変更を加えることは安全です。
 
    エクスペリエンス名やレポートがリセットされるアクションには、次のものがあります。
 
