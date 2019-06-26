@@ -8,7 +8,7 @@ title: プライバシーと一般データ保護規則（GDPR）
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -109,7 +109,7 @@ Target を含む Experience Cloud ソリューションに関する GDPR 要請�
 
 ### データサブジェクト／ユーザーの要請に応える形で、アドビを利用して顧客が削除できる情報には何がありますか？ {#section_4B51D00924EC4166B2442218B69214F0}
 
-個々の訪問者に関する Target 内の情報は、Target 訪問者プロファイルに格納されています。お客様は、Adobe Target を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除することができます。Adobe Target が保存するプロファイルデータの例については、[訪問者プロファイル](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+個々の訪問者に関する Target 内の情報は、Target 訪問者プロファイルに格納されています。お客様は、Adobe Target を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除することができます。Adobe Target が保存するプロファイルデータの例については、[訪問者プロファイル](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)を参照してください。
 
 個人を特定しない集約化されたあるいは匿名化されたデータ（レポートデータなど）または特定の個人に関連しないデータ（コンテンツデータなど）は、ユーザーからの削除要請の範疇外となります。
 
@@ -246,8 +246,8 @@ Target のアクセス API 応答は次の例のようになります。
 |--- |--- |
 | jobId | Central GDPR API からの GDPR ジョブ ID を示します。 |
 | imsOrgID | お客様の会社の一意識別子を提供します。 |
-| namespace | データソースとも呼ばれます。このトピックの「Target で顧客が GDPR アクセスと削除の要請を行うためにはどのような ID が利用できるのでしょうか？」を参照してください。 |
-| type | GDPR データアクセスを要請した ID のタイプ。Target はいくつかの ID タイプを受け付けます。一部は標準的なものですが、その他は Target に特化したものです。このトピックの「Target で顧客が GDPR アクセスと削除の要請を行うためにはどのような ID が利用できるのでしょうか？」を参照してください。 |
+| namespace | データソースとも呼ばれます。このトピックの「Target で顧客が GDPR アクセスと削除の要請をおこなうためにはどのような ID が利用できるのでしょうか？」を参照してください。 |
+| type | GDPR データアクセスを要請した ID のタイプ。Target はいくつかの ID タイプを受け付けます。一部は標準的なものですが、その他は Target に特化したものです。このトピックの「Target で顧客が GDPR アクセスと削除の要請をおこなうためにはどのような ID が利用できるのでしょうか？」を参照してください。 |
 | value | 名前空間／データソースの ID。このトピックの「Target で顧客が GDPR アクセスと削除の要請をおこなうためにはどのような ID が利用できるのでしょうか？」（許容値について） |
 | 統合コード | Integration code は、データソースの分かりやすい名前で、データソース ID を使用するより簡単にデータソースの追跡をおこなうことができます。 |
 
@@ -273,7 +273,7 @@ Target のアクセス API 応答は次の例のようになります。
 
 | フィールド | 説明 |
 |--- |--- |
-| Sample_Parameter | Target プロファイル内の多数の情報が、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して Target プロファイルにパラメーターがアップロードされました。詳しくは、[データを Target に送信する方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Target プロファイル内の多数の情報が、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して Target プロファイルにパラメーターがアップロードされました。詳しくは、[データを Target に送信する方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)を参照してください。 |
 | user.ReturnTimeOfDay | この標準的なフィールドには、ユーザーの最後の再訪問の日時が含まれています。 |
 | firstSessionStart | この標準的なフィールドには、ユーザーの初めてのセッションが開始された日時が含まれています。 |
 | user.sessionCountScript | Target プロファイル内の多数の情報が、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトで作ったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
@@ -284,4 +284,4 @@ Target のアクセス API 応答は次の例のようになります。
 
 ## Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target を GDPR 実装の一部として使用するように選択した場合、Target は Target 内の IP の不明化に対応します。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target を GDPR 実装の一部として使用するように選択した場合、Target は Target 内の IP の不明化に対応します。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
