@@ -8,7 +8,7 @@ title: エクスペリエンスのパフォーマンスレポート（MVT）
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。エクスペリエンスのパフォーマンスレポートについては 8:20 の時点から説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=jpn)
