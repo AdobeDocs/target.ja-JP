@@ -8,12 +8,12 @@ title: エクスペリエンスターゲット設定でのエクスペリエン�
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# エクスペリエンスのターゲット設定でのエクスペリエンスの切り替え{#switching-experiences-in-experience-targeting}
+# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
 
 プロファイルの発展に応じて、訪問者がエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスを切り替える方法について説明します。
 
