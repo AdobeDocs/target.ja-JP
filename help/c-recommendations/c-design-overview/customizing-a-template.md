@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
 
-## Velocityの概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Velocity について詳しくは、[](https://velocity.apache.org)https://velocity.apache.org を参照してください。
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 また、デザインで `algorithm.name` と `algorithm.dayCount` を変数として使用できるので、1 つのデザインで複数の条件をテストでき、条件名をデザインに動的に表示できます。これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの変数はまた `dayCount`（「過去 2 日間のトップセラー」などのように、データがその条件で使用された日数）の表示にも使用できます。
 
-## シナリオ:推奨商品を含む主要品目を表示する {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 他の推奨商品と並べて重要品目を表示するようにデザインを変更することができます。例えば、レコメンデーションの隣に参考のため現在の品目を表示してみてはどうでしょうか。
 
@@ -180,7 +180,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 [!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 
-## シナリオ:小数点を販売価格のコンマ区切り文字に置き換えます {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 米国で使用されている小数点区切りを、ヨーロッパおよびその他の国で使用されているコンマ区切りに置き換えるようにデザインを変更できます。
 
@@ -206,14 +206,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## シナリオ:nullチェックロジックを使用した4x2デフォルトのRecommendationsデザインの作成 {#default}
+## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Velocityスクリプトを使用してエンティティ表示の動的サイズ調整を制御すると、次のテンプレートは1対多の結果に対応し、返されたエンティティが返されない場合に空のHTML要素が作成されないようにし [!DNL Recommendations]ます。このスクリプトは、バックアップレコメンデーションが意味を持たず、部分的なテンプレートレンダリング [!UICONTROL ] が有効になっている場合に、シナリオに最適です。
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 次のHTMLスニペットは、デフォルトの4x2のデザインの既存のHTML部分を置き換えます（簡潔にするために、ここにCSSは含まれていません）。
 
-* 5つ目のエンティティが存在する場合、スクリプトは終了divを挿入して、新しい行を開き `<div class="at-table-row">`ます。
-* 4x2では、表示される最大結果は8になりますが、これは変更によって小さいリストまたは大きいリストに合わせてカスタマイズ `$count <=8`できます。
+* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
+* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
 * ロジックでは、複数行のエンティティのバランスが保たれないことに注意してください。例えば、表示するエンティティが5つまたは6つある場合、動的にトップと2の上に3つ、下部に3つという3つのエンティティがダイナミックになりません。一番上の行には、2行目を開始する前に4つの項目が表示されます。
 
 ```
