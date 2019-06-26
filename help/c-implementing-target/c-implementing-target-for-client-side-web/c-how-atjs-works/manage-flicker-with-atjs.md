@@ -8,7 +8,7 @@ title: at.js によるちらつきの制御方法
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,9 +29,9 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 不透明度 0 が実装で機能しない場合は、`bodyHiddenStyle` をカスタマイズし、`body {visibility:hidden !important}` に設定することで、ちらつきを制御することもできます。値として body `{opacity:0 !important`} または `body {visibility:hidden !important}` のどちらでも、特定の環境に適したものを使用できます。
 
-次の図は、本文非表示と本文表示の呼び出しを at.js 1.*x* およびat. js2. x.
+次の図は、本文非表示と本文表示の呼び出しを at.js 1.*x* と at.js 2.x の両方について示しています。
 
-**at. js2. x**
+**at.js 2.x**
 
 ![Target フロー： at.js ページ読み込みリクエスト](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 body {opacity: 0 !important}
 ```
 
-## triggerView（）用のat. js2. xのちらつきの管理
+## at.js 2.x の triggerView() でのちらつき制御
 
-SPA でターゲットとなるコンテンツを表示するために `triggerView()` を使用する場合、ちらつき制御が初期設定で提供されます。つまり、事前に非表示にするロジックを手動で追加する必要はありません。代わりに、at. js2. xは、ターゲットコンテンツを適用する前にビューを表示する必要がある位置を事前に非表示にします。
+SPA でターゲットとなるコンテンツを表示するために `triggerView()` を使用する場合、ちらつき制御が初期設定で提供されます。つまり、事前に非表示にするロジックを手動で追加する必要はありません。代わりに、at.js 2.x では、ターゲットとなるコンテンツを適用する前にビューの表示が必要になる場所を事前に非表示にします。
 
 ## getOffer() および applyOffer() によるちらつき制御
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## at. js1. xでのmboxCreate（）との地域のmboxの使用（at. js2. xではサポートされていません）
+## at.js 1.x での mboxCreate() によるリージョナル mbox の使用（at.js 2.x では未サポート）
 
 リージョナル mbox 実装を使用する場合、`mboxCreate()` を以下のサンプルコードと同様にプロビジョニングされたページと共に使用できます。
 
