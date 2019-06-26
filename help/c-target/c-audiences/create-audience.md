@@ -8,7 +8,7 @@ title: Target でのオーディエンスの構築
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 両方のブール演算子を混在させて複雑なルールを作成できますが、同じルールレベルの演算子は一致している必要があります。ユーザーインターフェイスは自動的に適切な演算子を適用します。
 
-例えば、次のルールはWindowsコンピューターでChrome *また* はFirefoxを使用する訪問者をターゲットにします。
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![オーディエンスの作成](assets/audience_create.png)
 
 >[!NOTE]
 >
->すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、Chrome *と* Firefoxを同時に使用してページを訪問することはできません。
+>すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## 新しいオーディエンスの作成
 
