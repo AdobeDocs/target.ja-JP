@@ -9,14 +9,14 @@ title: データを Target に送信する方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # データを Target に送信する方法{#methods-to-get-data-into-target}
 
-ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、一括プロファイル更新API、単一のプロファイル更新API、顧客属性など、Targetにデータを取得するために使用できる様々なメソッドについて取り上げます。
+ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、プロファイル一括更新 API、単一プロファイル更新 API、顧客属性など、データを Target に送信する様々な方法について説明します。
 
 ## ページパラメーター（mbox パラメーター）{#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -58,7 +58,7 @@ source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   これ以外の文字はすべて URL エンコードする必要があります。標準では、以下のように、次の形式（ [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ）を指定しています。
+   これ以外の文字はすべて URL エンコードする必要があります。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -225,7 +225,7 @@ at.js では、データはキャッシュされません。データプロバ�
 
 ドキュメント：[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
 
-### トレーニングビデオ:
+### トレーニングビデオ：
 
 * [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
 * [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
@@ -240,7 +240,7 @@ API を介して、多数の訪問者のプロファイル更新を含む .csv �
 * 顧客属性データは Analytics と共有できます。プロファイルの一括更新は Target のみで使用できます。
 * 顧客属性の場合は、Target がまだ認識していないユーザーのプロファイルも作成できます。プロファイル一括更新 API では、既存の Target プロファイルのみが更新されます。
 * 顧客属性の場合は Experience Cloud ID（ECID）を使用する必要があります。プロファイル一括更新 API では、TNT ID または `mbox3rdPartyId` が必要です。
-* 次の文字は送信 `mbox3rdPartyID`できません。プラス記号（+）とスラッシュ（/）
+* 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
 ### 形式
 
