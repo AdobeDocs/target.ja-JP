@@ -1,14 +1,14 @@
 ---
-description: 'at. jsのadobe. target. getOffer（options）関数について取り上げます。 '
+description: 'at.js の adobe.target.getOffer(options) 関数について説明します。 '
 keywords: adobe.target.notification;要素;セレクター;通知;拡張子
-seo-description: Adobe Target at. js JavaScriptライブラリのadobe. target. getOffer（options）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのadobe. target. getOffer（options）関数について取り上げます。
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffer(options) 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffer(options) 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.getOffer(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -128,5 +128,5 @@ error コールバックに渡される「status」および「error」パラメ
 
 | 名前 | タイプ | 説明 |
 |--- |--- |--- |
-| status | 文字列 | エラーの状態を表します。このパラメーターは次の値を持つことができます。<ul><li>timeout:リクエストがタイムアウトしたことを示します。</li><li>parseerror:JSONではなくHTMLまたはプレーンテキストを受け取る場合など、応答を解析できなかったことを示します。</li><li>error:HTTPステータスが200OKと異なるなどの一般的なエラーを示します</li></ul> |
+| status | 文字列 | エラーの状態を表します。このパラメーターは次の値を持つことができます。<ul><li>timeout：リクエストがタイムアウトしたことを示します。</li><li>parseerror：例えば、JSON ではなく HTML またはプレーンテキストを受け取るなど、応答が解析できなかったことを示します。</li><li>error：200 OK ではない HTTP ステータスを受け取ったなど、一般的なエラーを示します。</li></ul> |
 | error | 文字列 | 例外メッセージやその他トラブルシューティングに役立つ可能性のある、追加のデータが含まれています。 |
