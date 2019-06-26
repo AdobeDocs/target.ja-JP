@@ -7,7 +7,7 @@ solution: 'Target '
 title: Visual Experience Composer ヘルパー拡張機能
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,17 +35,17 @@ VEC ヘルパー拡張機能を使用する利点：
 
 ## VEC ヘルパーブラウザー拡張の取得とインストール
 
-1. Chrome Web Storeの [Adobe Target VECヘルパーブラウザー拡張機能に移動](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)します。
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. [!UICONTROL Chrome に追加 / 拡張機能を追加]をクリックします。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
 
-次の図に、 [!UICONTROL &quot;Inject target Libraries] 」設定が有効になっているVECヘルパーを示します。
+「[!UICONTROL Target ライブラリを挿入]」設定が有効になっている VEC ヘルパーを次の図に示します。
 
-![VECヘルパー1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+![VEC ヘルパー 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-次の図に、オーサリングを有効にするためにページにライブラリを挿入 [!DNL Target] するかどうかを尋ねるVEC Helperを示します。
+オーサリングを有効にするためにページに[!DNL Target]ライブラリを挿入するかどうかを VEC ヘルパーが確認している様子を次の図に示します。
 
-![VECヘルパー2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+![VEC ヘルパー 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
 ## メモ
 
