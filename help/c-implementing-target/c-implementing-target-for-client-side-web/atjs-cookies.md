@@ -1,23 +1,23 @@
 ---
-description: at. js2. xおよびat. js1. xのcookieの処理方法について詳しく説明します
+description: at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
 keywords: at.js;2.0;1.x;Cookie
-seo-description: Adobe Target at. js2. xおよびat. js1. xのcookieの処理方法について詳しく説明します
+seo-description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
 seo-title: Adobe Target の at.js の Cookie
 solution: 'Target '
 subtopic: 導入
-title: at.js の Cookie
+title: at.js の cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# at.js の Cookie {#at-js-cookies}
+# at.js の cookie {#at-js-cookies}
 
-at. js2. xおよびat. js1に関する情報です。*x* の Cookie の動作に関する情報です。
+at.js 2.x および at.js 1 に関する情報です。*x* の Cookie の動作に関する情報です。
 
-## at. js2. xのCookieの動作
+## at.js 2.x の Cookie の動作
 
 at.js バージョン 2.0.0 では、*ファーストパーティ Cookie のみがサポートされています*。at.js 1.*x* の場合と同様、ファーストパーティ Cookie「mbox」は、`clientdomain.com`（`clientdomain` はドメインの場所）に格納されます。
 
@@ -27,13 +27,13 @@ at.js はセッション ID を生成し、Cookie に保存します。最初の
 
 ### サードパーティ Cookie とクロスドメイン追跡はサポートされていません。
 
-クロスドメイン追跡を使用すると、ドメインが異なる 2 つの関連サイト上のセッション同士を単一のセッションとして確認できます。`siteA.com` と `siteB.com` にまたがる [!DNL Target] アクティビティを作成可能です。その場合、訪問者はドメインをまたいでも同じエクスペリエンスを維持できます。この機能は at.js 1.*x* のサードパーティ Cookie とファーストパーティ Cookie の動作に関連付けられています。
+クロスドメイン追跡を使用すると、ドメインが異なる 2 つの関連サイト上のセッション同士を単一のセッションとして確認できます。`siteA.com` と `siteB.com` にまたがる [!DNL Target] アクティビティを作成し、訪問者がドメインを移るときに同じエクスペリエンスを維持できます。この機能は at.js 1.*x* のサードパーティ Cookie とファーストパーティ Cookie の動作に関連付けられています。
 
 at.js 1.*x* の場合、サードパーティ Cookie は `[CLIENTCODE].tt.omtrdc.net` ドメインに保存され、ファーストパーティ Cookie が `clientdomain.com` に保存されていました。最初のリクエストは HTTP 応答ヘッダーを返していました。このヘッダーにより、`mboxSession` および `mboxPC` というサードパーティ Cookie の設定が試行され、リダイレクトリクエストが追加のパラメーター（`mboxXDomainCheck=true`）と共に送り返されていました。ブラウザーがサードパーティ Cookie を受け入れた場合、リダイレクトリクエストにはそれらの Cookie が含まれ、オファーが返されていました。こうしたワークフローが可能だったのは、at.js 1.*x* が HTTP GET メソッドを使用していたためです。
 
-ただし、at. js2. xでは、HTTP GETは使用されなくなり、代わりにHTTP POSTが使用されます。キー値パラメーターの代わりに JSON ペイロードを [!DNL Target] エッジサーバーに送信するために、HTTP POST が at.js によって使用されるようになりました。つまり、リダイレクトリクエストにより、生成されたサードパーティ Cookie がブラウザーでサポートされているかどうかが確認されます。これは、HTTP GET リクエストがべき等性のあるトランザクションであるのに対し、HTTP POST はべき等性がなく、恣意的に繰り返してはならないためです。
+ただし、at.js 2.x では、HTTP GET は使用されなくなり、代わりに HTTP POST を使用しています。キー値パラメーターの代わりに JSON ペイロードを [!DNL Target] エッジサーバーに送信するために、HTTP POST が at.js によって使用されるようになりました。つまり、ブラウザがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストがべき等性のあるトランザクションであるのに対し、HTTP POST はべき等性がなく、恣意的に繰り返してはならないためです。
 
-したがって、at. js2.0.0ではサードパーティcookieもクロスドメイントラッキングもサポートされていません。
+そのため、at.js 2.0.0 ではサードパーティ Cookie もクロスドメイン追跡もサポートされていません。
 
 ## at.js 1.*x* の Cookie に関する動作 {#at-js-1x-cookie-behavior}
 
@@ -124,7 +124,7 @@ Cookie は、キャンペーンでの訪問者のエクスペリエンスを管�
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が mbox.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、1 時間存続します。 |
 
-## Apple WebKit 追跡の変更による Safari 訪問者の Target に対する影響
+## Safari 訪問者の Target に対する Apple WebKit 追跡の変更の影響
 
 次の点に注意してください。
 
@@ -154,4 +154,4 @@ Apple の発表内容：
 | 影響を受ける機能 | 詳細 |
 |--- |--- |
 | オプトアウトのサポート | Apple の WebKit 追跡における変更により、オプトアウトのサポートが影響を受けます。<br>Target のオプトアウトでは、`clientcode.tt.omtrdc.net` ドメインの Cookie が使用されます。詳しくは、「[プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)」を参照してください。<br>Target では、次の 2 種類のオプトアウトがサポートされます。<ul><li>クライアントごと（クライアントがオプトアウトリンクを管理します）。</li><li>アドビ経由。すべてのお客様のすべての Target 機能からユーザーをオプトアウトします。</li></ul>どちらの方法でもサードパーティ Cookie が使用されます。 |
-| Target アクティビティ | お客様は、Target アカウントの[プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)を選択できます（最長 90 日）。アカウントのプロファイル有効期間が 30 日を超過し、顧客のドメインがユーザーをクロスサイト追跡中とマークされているためにファーストパーティ Cookie がパージされた場合、Safari 訪問者の動作が Target の次の領域で影響を受けることになります。<br>**Target レポート**： Safari ユーザーがアクティビティに入り、30 日後に戻ってからコンバージョンを行った場合、そのユーザーは 2 人の訪問者および 1 つのコンバージョンとしてカウントされます。<br>この動作は、Analytics をレポートソースに使用する（A4T）アクティビティでも同じです。<br>**プロファイルおよびアクティビティメンバーシップ**:<ul><li>プロファイルデータは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li>アクティビティメンバーシップは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li> サードパーティ Cookie 実装またはファーストパーティおよびサードパーティ Cookie 実装を使用しているアカウントの Safari では、Target は動作しません。この動作は新しいものではありません。Safari では、サードパーティ Cookie を以前から許可していません。</li></ul><br>**提案** ： 顧客ドメインがセッションを横断して訪問者を追跡しているとマークされているか心配な場合、Target でプロファイルの有効期間を 30 日以下に設定するのが安全です。これにより、ユーザーは Safari と他のすべてのブラウザーで同様に追跡されます。 |
+| Target アクティビティ | お客様は、Target アカウントの[プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)を選択できます（最長 90 日）。アカウントのプロファイル有効期間が 30 日を超過し、顧客のドメインがユーザーをクロスサイト追跡中とマークされているためにファーストパーティ Cookie がパージされた場合、Safari 訪問者の動作が Target の次の領域で影響を受けることになります。<br>**Target レポート**： Safari ユーザーがアクティビティに入り、30 日後に戻ってからコンバージョンをおこなった場合、そのユーザーは 2 人の訪問者および 1 つのコンバージョンとしてカウントされます。<br>この動作は、Analytics をレポートソースに使用する（A4T）アクティビティでも同じです。<br>**プロファイルおよびアクティビティメンバーシップ**：<ul><li>プロファイルデータは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li>アクティビティメンバーシップは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li> サードパーティ Cookie 実装またはファーストパーティおよびサードパーティ Cookie 実装を使用しているアカウントの Safari では、Target は動作しません。この動作は新しいものではありません。Safari では、サードパーティ Cookie を以前から許可していません。</li></ul><br>**提案**：顧客ドメインがセッションを横断して訪問者を追跡しているとマークされているか心配な場合、Target でプロファイルの有効期間を 30 日以下に設定するのが安全です。これにより、ユーザーは Safari と他のすべてのブラウザーで同様に追跡されます。 |
