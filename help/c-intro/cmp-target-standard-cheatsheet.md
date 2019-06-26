@@ -8,7 +8,7 @@ title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **実装用の JavaScript ファイルは、at.js と mbox.js のどちらを使用すればよいですか？**
 
-at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。2 [つのライブラリの違いについては、at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) の利点を参照してください。新規のお客様は、at.js を使用してください。
+at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. 新規のお客様は、at.js を使用してください。
 
 at.js をご利用の既存のお客様も、at.js に移行する必要があります。移行に取りかかる前に、[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)手順を参照してください。
 
@@ -123,7 +123,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 **Target の判定機能を利用し、シングルページアプリケーション（SPA）またはサーバー側の統合で使用できるエクスペリエンスやオファーを受け取るには、どうすればよいですか？**
 
-その場合、[フォームベースのアクティビティ](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
+その場合は、[フォームベースのアクティビティ](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
 **2 つのアクティビティを設定しました。訪問者にどちらが表示されるのかを把握するには、どうすればよいですか？**
 
@@ -170,7 +170,7 @@ mbox と[カスタムオーディエンス](../c-target/c-audiences/c-target-rul
 
 **訪問者数が比較的少ない場合でも、アクティビティを開始できますか？**
 
-その場合、[Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)で、割合による配分調整を使用して、アクティビティの設定方法を指定できます。
+その場合は、[Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)で、割合による配分調整を使用して、アクティビティの設定方法を指定できます。
 
 **Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
@@ -287,7 +287,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
-[デバッガー](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)をチェックしてください。
+[デバッガー](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
 **Target の判定機能を利用し、シングルページアプリケーション（SPA）またはサーバー側の統合で使用できるエクスペリエンスやオファーを受け取ることはできますか？**
 
