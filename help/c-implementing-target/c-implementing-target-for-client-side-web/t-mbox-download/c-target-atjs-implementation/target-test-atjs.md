@@ -5,7 +5,7 @@ seo-title: at.js の実稼動環境以外へのデプロイ
 title: at.js の実稼動環境以外へのデプロイ
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ DTM を使用する場合、Adobe Target ツール設定に簡単に at.js を�
 
 >[!NOTE]
 >
->次の情報に加えて、Google Chrome 用の [Adobe Target VEC Helper ブラウザー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
+>以下の情報に加えて、Google Chrome 用 [Adobe Target VEC ヘルパーブラウザー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
 
 [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) は、無料の Chrome 拡張機能です。リクエストを代替 URL にリダイレクトできます。
 
