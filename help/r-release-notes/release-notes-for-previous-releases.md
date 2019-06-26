@@ -990,7 +990,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルのバッチおよびプリフェッチ配信 </p> </td> 
-   <td colname="col2"> <p><b>更新日：2017 年 10 月 13 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="../c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">プリフェッチオファーコンテンツ</a>. </p> </td> 
+   <td colname="col2"> <p><b>更新日：2017 年 10 月 13 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、  <a href="../c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">プリフェッチオファーコンテンツ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティ </p> </td> 
@@ -1644,7 +1644,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：外部プロモーションの挿入 </td> 
-   <td colname="col2"> <p>プロモーション項目を追加して、Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>. </p> </td> 
+   <td colname="col2"> <p>プロモーション項目を追加して、Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>ファーストルック</b> </p> A/B アクティビティの自動ターゲット設定 </td> 
@@ -1783,7 +1783,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * 現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
 
-### Target プラットフォームの変更点（2016 年 8 月）  {#section_8D8BA8C628E747338C84564EC34CE0FD}
+### Target プラットフォームの変更点（2016 年 8 月） {#section_8D8BA8C628E747338C84564EC34CE0FD}
 
 <table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
  <thead> 
@@ -2105,7 +2105,7 @@ at.js を実装する際には、以下のことに注意してください。
  <tbody> 
   <tr> 
    <td colname="col1"> Experience Cloud の通知 </td> 
-   <td colname="col2"> <p>Target からの通知は、すべての Adobe Experience Cloud ソリューションで表示されます。通知は、アクティビティがアクティブ化または非アクティブ化されると自動的に送信されます。これらの通知は、Target Standard／Premium へのアクセス権を持つすべてのユーザーが使用できます。 </p> <p>また、通知は、Target Standard/Premium で表示されます。 </p> <p>詳しくは、<a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> 通知 </a> </p> </td> 
+   <td colname="col2"> <p>Target からの通知は、すべての Adobe Experience Cloud ソリューションで表示されます。通知は、アクティビティがアクティブ化または非アクティブ化されると自動的に送信されます。これらの通知は、Target Standard／Premium へのアクセス権を持つすべてのユーザーが使用できます。 </p> <p>また、通知は、Target Standard／Premium で表示されます。 </p> <p><a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local">通知</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ユーザーインターフェイスの改良 </td> 
@@ -2289,7 +2289,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 成功指標レポートのダウンロード </p> </td> 
-   <td colname="col2"> <p> アクティビティの最終目標のみを含むレポートではなく、すべての成功指標がリストされた単一の csv ファイルをダウンロードします。 </p> <p>詳しくは、 <a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> レポート </a>. </p> </td> 
+   <td colname="col2"> <p> アクティビティの最終目標のみを含むレポートではなく、すべての成功指標がリストされた単一の csv ファイルをダウンロードします。 </p> <p><a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">レポート</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2565,12 +2565,12 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 新しいモバイルデバイスのターゲティングオプション </td> 
-   <td colname="col2"> <p>プロファイルスクリプトがなくても、複数のモバイルデバイスをターゲット設定できるようになりました。 </p> <p>詳しくは、<a href="../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> モバイル </a>. </p> </td> 
+   <td colname="col2"> <p>プロファイルスクリプトがなくても、複数のモバイルデバイスをターゲット設定できるようになりました。 </p> <p><a href="../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local">モバイル</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1（2015 年 7 月 30 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe Target Standard／Premium 15.7.1（2015 年 8 月 1 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 このリリースには、次の機能および機能強化が含まれています。
 
