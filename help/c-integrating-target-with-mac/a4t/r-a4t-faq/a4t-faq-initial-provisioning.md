@@ -8,7 +8,7 @@ title: 初期プロビジョニング - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
 
-## 複数ページのA4Tアクティビティを設定する方法を教えてください。
+## 複数ページの A4T アクティビティを設定する方法を教えてください。
 
-基本的な複数ページのA4Tユースケースを実装するには:
+基本的な複数ページの A4T ユースケースを実装するには：
 
-* アクティビティランディングURL/ページでTarget（at. jsまたはmbox. js）とAnalyticsの両方にJavaScriptライブラリを実装します。両方のソリューションを実装すると、各訪問者のAnalyticsデータを使用してTargetデータが結び付けられます。このデータは、デフォルトの有効期限が90日に設定されるまで、Analyticsに残ります。
+* アクティビティランディング URL /ページに Target（at.js または mbox.js）と Analytics の両方の JavaScript ライブラリを実装します。両方のソリューションを実装すると、各訪問者のターゲットデータと Analytics データが結合されます。このデータは、デフォルトで設定された 90日の有効期限が切れるまで Analytics に残ります。
 
-* Analytics指標だけを追跡するサイトの残りのページについては、Analyticsの指標をそれらのページに実装します。これらのページにTargetを実装する必要はありません。これらのページでキャプチャされたAnalytics指標は、前の箇条書きからその訪問者に添付されたTarget情報に基づいて、ユーザーが最初に修飾したTargetアクティビティに自動的に関連付けられます。
+* 追跡すべき Analytics の指標があるサイトの残りのページに、Analytics を実装します。これらのページに Target を実装する必要はありません。これらのページにわたって取得された Analytics の指標は、前述の箇条書きにある訪問者のターゲット情報に基づき、ユーザーが最初に認定したターゲットアクティビティに自動的に統合されます。
 
 ## Target アカウントで A4T が有効になっているかどうかはどうしたらわかりますか？{#section_4437D284448F4313BF953D4B6EDBACA6}
 
