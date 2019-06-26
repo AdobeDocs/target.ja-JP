@@ -7,7 +7,7 @@ solution: 'Target '
 title: エクスペリエンスの追加
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Visual Experience Composer（VEC）は、ページ上のエクスペリエンス
    >
    >メインページ以外のソースから画像を提供する場合（例えば、akamai.net 上でホストされている画像を dell.com で提供する場合）、フロー図内のページのサムネールには画像が表示されません。
 
-1. エクスペリエンスの設計が終了したら **[!UICONTROL 、「保存]** 」をクリックします。
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## エクスペリエンス名の変更
 
-エクスペリエンスに新しい名前を付けるには、A/Bテストまたはエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスのエクスペリエンス [!UICONTROL ] の名前を変更アイコンをクリックします。
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![エクスペリエンス名の変更](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Visual Experience Composer（VEC）は、ページ上のエクスペリエンス
 
 ## URL にリダイレクト
 
-A/Bテストまたはエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスにあるその他（3つの垂直の楕円）アイコンをクリックし、&quot;URLにリダイレクト」をクリック [!UICONTROL ]します。
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-詳しくは、URLへのリダイレクトを [](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)参照してください。
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **注意**:エクスペリエンスの命名または名前変更を行う場合、次の文字は使用できません。
 
