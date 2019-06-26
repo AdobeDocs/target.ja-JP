@@ -9,7 +9,7 @@ title-outputclass: Premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: Premium
 translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 
 >[!NOTE]
 >
->Automated Personalizationは [!DNL Target Premium] 、ソリューションの一部として利用できます。ライセンス版 [!DNL Target Standard] なしでは含まれませ [!DNL Target Premium] ん。
+>Automated Personalization は、[!DNL Target Premium] ソリューションの一部として利用できます。[!DNL Target Premium] ライセンスがない場合、[!DNL Target Standard] には含まれません。
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的の [!UICONTROL Automated Personalization] アクティビティをクリックし、「**レポート[!UICONTROL 」タブをクリックします。]**
 
@@ -30,7 +30,7 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 
 >[!NOTE]
 >
->[!UICONTROL 設定] アイコンは [!UICONTROL 、Automated Personalizationレポート] では使用できません。
+>[!UICONTROL 設定] アイコンは、[!UICONTROL Automated Personalization] レポートでは使用できません。
 
 [!UICONTROL Automated Personalization] では次のレポートを利用できます。
 
