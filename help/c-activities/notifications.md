@@ -8,7 +8,7 @@ title: アクティビティの通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Target は、Adobe Pulse を使用して、他の Adobe Experience Cloud ソリ�
 
 [!DNL Target Standard/Premium] の [!DNL Experience Cloud] 製品コンテキストを持つユーザーは、すべてのソリューションで、[!DNL Target] からの通知を見れます。
 
-通知の設定について詳しくは、ドキュメントの [「通知](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html)[!DNL Adobe Experience Cloud] 」を参照してください。
+For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
 
 アクティビティ作成ワークフロー内を除いて、[!DNL Target] の任意の場所から通知にアクセスできます。ページヘッダーにあるベルのアイコンをクリックして、通知ウィジェットの表示／非表示を切り替えます。
 
