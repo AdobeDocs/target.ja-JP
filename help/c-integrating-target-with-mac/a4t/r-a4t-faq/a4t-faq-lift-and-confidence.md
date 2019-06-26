@@ -8,7 +8,7 @@ title: 上昇率と信頼性 - A4T FAQ
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
