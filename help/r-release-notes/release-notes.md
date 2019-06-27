@@ -2,13 +2,13 @@
 description: 以下のリリースノートでは、Target Standard および Target Premium の各リリースの機能、機能強化、修正および既知の問題について説明します。
 keywords: リリースノート、プレリリース版
 seo-description: これらのリリースノートでは、Adobe Target Standard および Target Premium の各リリースの機能、機能強化、修正および既知の問題について説明します。
-seo-title: Target リリースノート（現行）
+seo-title: Adobe Targetリリースノート（現在）
 solution: 'Target '
 title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
