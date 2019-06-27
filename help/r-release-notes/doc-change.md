@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+|  | [既知の問題と解決さ](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[れた](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Issues](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A4Tでリダイレクトを使用して、関連付けられていないヒット率の高い割合を確認するという既知の問題に関する情報を追加しました。 |
 | 2019年6月27日 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL コピー] アクションに関する情報を追加しました。 |
 |  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
