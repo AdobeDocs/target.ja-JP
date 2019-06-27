@@ -1,5 +1,5 @@
 ---
-description: これらのリリースノートでは、最新または今後の Target リリースの機能、機能強化、修正および既知の問題について説明します。
+description: これらのリリースノートでは、最新または今後の Adobe Target リリースの機能、機能強化、修正および既知の問題について説明します。
 keywords: リリースノート
 seo-description: これらのリリースノートでは、最新または今後の Adobe Target リリースの機能、機能強化、修正および既知の問題について説明します。
 seo-title: Adobe Targetリリースノート（プレリリース版）
@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
