@@ -2,13 +2,13 @@
 description: このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
 keywords: 既知の問題、解決された問題、リリースノート
 seo-description: このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
-seo-title: 既知の問題と解決された問題
+seo-title: Adobe Targetの既知の問題と解決された問題
 solution: 'Target '
 title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### リダイレクトオファー {#redirect}
+
+リダイレクトオファーの既知の問題を以下に示します。
+
+* 一部の条件では、Analytics for Target（A4T）で設定されたアクティビティでリダイレクトオファーを使用する場合、限られた数の顧客がトラフィック分布の分散度を高くしています。アドビのエンジニアは、現在この問題を扱っています。
+* ページに競合条件があると、元のページとリダイレクトページでページビュー数がカウントされることがあります。この競合状態を避けるために、アップデートはat. js実装に計画されています。問題および回避策について詳しくは [、リダイレクトオファー- A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
+* at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
 ### カスタムエクスペリエンスをコントロールとして使用した場合に、自動ターゲットアクティビティのグラフレポートがレンダリングされない
 
@@ -92,13 +100,6 @@ at.js の既知の問題を以下に示します。
 mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に*対応しています*。
 
 **注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
-
-### リダイレクトオファー
-
-リダイレクトオファーの既知の問題を以下に示します。
-
-* ページに競合条件があると、元のページとリダイレクトページでページビュー数がカウントされることがあります。2018 年第 2 四半期には at.js の実装のアップデートを予定しています。このアップデートにより、この競合条件を回避できるようになる予定です。問題および回避策について詳しくは [、リダイレクトオファー- A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
-* at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
 ### 実装：グローバル mbox 自動作成
 
