@@ -8,7 +8,7 @@ title: リダイレクトオファー - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 はい。実装で [!DNL at.js] が使用されている場合にサポートされます。ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
+
+>[!NOTE]
+>
+>既知の問題が出てきました。A4Tでリダイレクトを使用して、関連付けられていないヒット率の高い割合を確認すると、限られた数の顧客がリダイレクトされます。[既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
 
 ## A4T でリダイレクトオファーを使用するために必要な最小要件を教えてください。{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
