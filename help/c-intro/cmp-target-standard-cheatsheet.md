@@ -8,7 +8,7 @@ title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **複数の場所（チェックアウトプロセスの各ページなど）でオファーを適用できますか？**
 
-エクスペリエンス内に複数のページを作成できる[複数ページアクティビティ機能](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)をお試しださい。
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **目標（プライマリまたはセカンダリ）の達成後はユーザーに再度そのアクティビティを表示することはせず、別のアクティビティを表示するようにするには、どうすればよいですか？**
 
@@ -89,9 +89,9 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 このケースでは、「カウントを増分、ユーザーをリリース、再入場を許可しない」と「デフォルト / 他のアクティビティのコンテンツ」を選択することで対処できます。他のオプションもチェックしてみてください。
 
-**アクティビティで複数の目標を作成しました。レポートや分析のために、ファネルとして一連の目標の流れを作成することはできますか？
+**アクティビティで複数の目標を作成しました。レポートや分析のために、ファネルとして一連の目標の流れを作成することはできますか？**
 
-例えば、特定のファネルの数値を追跡するために、ユーザーが目標 A を達成した後に目標 B を追跡したいと考えています。**
+**例えば、特定のファネルの数値を追跡するために、ユーザーが目標 A を達成した後に目標 B を追跡したいと考えています。**
 
 Target の指標依存関係の機能を利用すれば可能です。[他の成功指標の依存関係](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)を追加するだけです。「到達」、「未到達」などのオプションを利用したり、様々な方法で指標を結合し、あらゆる組み合わせを作成したりできます。
 
@@ -107,7 +107,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 3 ステップのガイドによるワークフローの[目標と設定ステップのスケジュール設定機能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)で、開始日時と終了日時を指定できます。
 
-忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブのキャンペーンのみです。終了日に達したら、そのアクティビティのステータスは終了になります。
+アクティビティをアクティブ化してください。指定したスケジュールに従って、ライブアクティビティのみが表示されます。終了日に達したら、そのアクティビティのステータスは終了になります。
 
 **3 ステップのガイドによるワークフロー全体ではなく、ターゲット設定のステップのみに変更を加えることはできますか？**
 
@@ -131,24 +131,12 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 Target の 3 ステップのガイドによるワークフローのステップ 3 で、優先度設定を使用して[アクティビティの優先度を設定](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)できます。
 
-いくつかのオプションがあります。
-
-* [Target JavaScript ライブラリ（at.js および mbox.js）](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* デフォルトは 3 つのレベル（低／中／高）
-* カスタムは 0 ～ 999 の範囲。カスタムの場合は、優先度の詳細設定機能（セットアップ／環境設定）を有効にします。
-
-## オーディエンス{#section_FA6314777ABC46D8B198D6F388051460}
-
-**2 つのアクティビティを設定しました。訪問者にはどちらが表示されますか？**
-
-**アクティビティに優先順位を設定することはできますか？**
-
-Target の 3 ステップのガイドによるワークフローのステップ 3 で、優先度設定を使用して[アクティビティの優先度を設定](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)できます。
-
 2 つのオプションがあります。
 
 * デフォルトは 3 つのレベル（低／中／高）
 * カスタムは 0 ～ 999 の範囲。カスタムの場合は、優先度の詳細設定機能（セットアップ／環境設定）を有効にします。
+
+## オーディエンス{#section_FA6314777ABC46D8B198D6F388051460}
 
 **特定のアクティビティ専用のオーディエンスセグメントを作成できますか？オーディエンスライブラリには再利用の要素がないので、そのようなオーディエンスは作成できないように見えます。**
 
@@ -246,21 +234,6 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 「[フォームベースの手法](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でアクティビティを作成してください。
 
-**訪問者数が比較的少ない場合でも、アクティビティを開始できますか。**
-
-その場合は、[Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)で、割合による配分調整を使用して、アクティビティの設定方法を指定できます。
-
-**2 つのアクティビティを設定しました。訪問者にはどちらが表示されますか？**
-
-**アクティビティに優先順位を設定することはできますか？**
-
-Target の 3 ステップのガイドによるワークフローのステップ 3 で、優先度設定を使用して[アクティビティの優先度を設定](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)できます。
-
-2 つのオプションがあります。
-
-* デフォルトは 3 つのレベル（低／中／高）
-* カスタムは 0 ～ 999 の範囲。カスタムの場合は、優先度の詳細設定機能（セットアップ／環境設定）を有効にします。
-
 **ユーザーのあらゆるデバイス全体を対象に、一貫性のある同一のエクスペリエンスが提供されているかを確認することはできますか？**
 
 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
@@ -283,7 +256,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 **QA プロセスでコンテンツ配信がおこなわれないのはなぜですか？**
 
-お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セレクター](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)の「CSS セレクター」を参照してください。
+お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSSセレクター](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)を参照してください。
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
@@ -295,7 +268,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 ## レポート（Analytics for Target - A4T を含む）{#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？
+**Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
 以下の製品情報を参照してください。
 
@@ -306,33 +279,29 @@ Adobe Analytics も利用しているのですが、Target と連携させて活
 * [オーディエンス](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-複数のユーザーセグメントを対象に、レポートのデータを多角的に分析することはできますか？
+**複数のユーザーセグメントを対象に、レポートのデータを多角的に分析することはできますか？**
 
 その場合は、3 ステップのガイドによるアクティビティワークフローのステップ 3 の目標と設定ページで利用できる[レポート対象のオーディエンス機能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)が最適です。
 
-対象のセグメントを 50 個追加したり、アプリケーションポイント（キャンペーンのエントリまたは特定の指標）を追加したりして、データを多角的に分析できます。
+50個のセグメントや、アプリケーションポイント（アクティビティエントリまたは特定の指標）を追加して、スライスおよびダイスを有効にすることができます。
 
 この場合 Target では、対象のオーディエンスを追加した時点からデータを収集します。そのため、テストの実施前にセグメントを追加していなかった場合は、このような分析はおこなえません。
 
-アクティビティの実行前にオーディエンスを定義することができません。Target アクティビティのレポート用オーディエンスは、この点が不便だと思います。
+**アクティビティの実行前にオーディエンスを定義することができません。Target アクティビティのレポート用オーディエンスは、この点が不便だと思います。**
 
-このプロセスを簡略化するには、どうすればよいですか？
+**このプロセスを簡略化するには、どうすればよいですか？**
 
-そのためにあるのが[ Analytics for Target（A4T）](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。Adobe Analytics を利用している場合は、ソースとして Analytics を選択すればこの問題を解消できます。あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Adobe Analytics を利用している場合は、ソースとして Analytics を選択すればこの問題を解消できます。あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
 
-いったんレポートのデータをクリーンアップしてからデータの記録を開始することはできますか？例えば最初に記録されたヒットが、テストの際に自分でアクティビティに対して実行したヒットだった場合などです。
+**オフラインでレポートの計算を実行することはできますか？**
 
-その場合は、[レポートデータのリセット](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)機能を使用します。
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-オフラインでレポートの計算を実行することはできますか？
+**レポートを評価するためにコントロールエクスペリエンスを変更したり、カウント手法を訪問者から訪問に変更したりできますか？**
 
-レポートページで、[レポートを CSV にエクスポートするオプションと、注文の詳細を CSV にダウンロードするオプション](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)を利用して、対象のレポートデータをダウンロードしてください。
+Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). これらの設定で、計算方法がどう変わるかをご確認ください。
 
-レポートを評価するためにコントロールエクスペリエンスを変更したり、カウント手法を訪問者から訪問に変更したりできますか？
-
-こうした変更を加える場合は、[レポートページの設定ギアアイコン](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用します。これらの設定で、計算方法がどう変わるかをご確認ください。
-
-レポートのデータの見方を教えてください。
+**レポートのデータの見方を教えてください。**
 
 レポートは、[信頼区間のバー、上昇率範囲、有意性／信頼度、複数の指標の選択、表、グラフ、実行期間の平均など](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)の機能によって、できるだけ直感的に理解できる仕組みになっているので、効果的な分析を簡単におこなえます。また、[Analytics for Target（A4T）](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)アクティビティを使用している場合、Analytics を参照してさらに詳細な分析をオーディエンスに掛けられます。
 
