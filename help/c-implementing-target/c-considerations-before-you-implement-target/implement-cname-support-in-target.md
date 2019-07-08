@@ -8,14 +8,14 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
 
 # CNAME と Adobe Target{#cname-and-adobe-target}
 
-Adobe Client Care と連携しながら Adobe Target で CNAME（正規名）サポートを実装する方法について説明します。
+Adobe Client Care と連携しながら Adobe Target で CNAME（正規名）サポートを実装する方法について説明します。広告ブロッキングの問題を最大限に扱うために、CNAMEは、アドビが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われるように使用されます。
 
 Target で CNAME サポートを要求するには、次の手順を実行します。
 
