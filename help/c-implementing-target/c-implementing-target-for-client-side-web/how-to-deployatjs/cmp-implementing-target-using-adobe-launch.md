@@ -6,7 +6,7 @@ seo-title: Adobe Launch を使用した Target の実装
 title: Adobe Launch を使用した Target の実装
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,8 +24,8 @@ Launch の詳細な情報を取得できる様々なソースを次の表に示�
 | リソース | 詳細 |
 |--- |--- |
 | [Adobe Target Extensionチュートリアルを使用したTargetの実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | このチュートリアルでは、Launch を使用して Web サイトで Adobe Target を実装する手順を詳しく説明します。at.js JavaScript ライブラリの追加、グローバル mbox の発行、パラメーターの追加、他のソリューションとの統合といったトピックが含まれます。この記事は、Adobe Launch の実装方法やその他の Adobe Experience Cloud ソリューションの実装方法を示す長尺のチュートリアルの一部になっています。 |
-| [Adobe Launch ドキュメント](https://docs.adobelaunch.com/getting-started) | 適切な顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグのデプロイおよび管理に関する情報。 |
-| [Adobe Target Extensionドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension) | Launch を使用した Target の実装に関する情報。 |
+| [Adobe Launch ドキュメント](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | 適切な顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグのデプロイおよび管理に関する情報。 |
+| [Adobe Target Extensionドキュメント](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch を使用した Target の実装に関する情報。 |
 
 ## Target Launch 拡張機能を使用して at.js を実装するメリット {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
