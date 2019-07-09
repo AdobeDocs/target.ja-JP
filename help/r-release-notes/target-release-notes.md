@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日:2019年6月26日**
+**最終更新日：2019 年 7 月 9 日**
 
 >[!NOTE]
 >
@@ -25,18 +25,15 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}
+## Target Standard／Premium 19.7.1（2019 年 7 月 23 日）{#tgt-19-7-1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Visual Experience Composer（VEC） | **新しいVECメニューオプション**:VECでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。<ul><li>[!UICONTROL スタイル/背景] オプションを使用して、選択した要素の背景画像と色を変更できるようになりました。（TGT-15001）</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**クリック追跡の改善**:VECおよびシングルページアプリケーション（SPA） VEC内でのクリック追跡の設定プロセスを改善しました。<ul><li>クリック追跡で使用する要素を選択する際、使用可能なすべてのエレメントの名前が右側の変更パネルに表示され、目的の要素をすばやく簡単に選択できます。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. この番号にマウスポインターを置くと、選択したすべての要素の名前を表示できます。（TGT-33878）</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイド付きワークフロー**:新しいガイド付きワークフローは、単一ページアプリ用にアクティビティを実行して実行するために、ページ配信ルール設定をどのように設定すべきかを理解するのに役立ちます。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**コピーの変更**:SPA VECを使用して変更を定義し、その変更を単一ページアプリの他のビューで使用するためにコピーできるようになりました。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| Mobile Visual Experience Composer | **複数のアプリケーションバージョン**:モバイルアプリの複数バージョンのアクティビティを作成できるようになりました。これにより、バージョンが類似していて、アプリケーションのUIを大幅に変更する必要がなくなります。(TGT-34231)<br>See &quot;Manage multiple app versions&quot; in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Premiumバッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）および自動ターゲット | **コントロールとしての特定のエクスペリエンス**:APまたは自動ターゲットアクティビティの作成時に、コントロールとして使用するエクスペリエンスを選択できます。この機能により、アクティビティで設定されたトラフィック配分の割合に基づいて、特定のエクスペリエンスにコントロールトラフィック全体をルーティングできます。その後、その1つのエクスペリエンスへのトラフィックを制御するために、パーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在の制御オプション（ランダムに提供されるエクスペリエンス）は引き続き使用できます。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**パーソナライゼーションインサイトレポート**:訪問者が特定の場所で特定のコンテンツ部分を表示したときに、属性にわかりやすい名前を付けると、より有意義な情報を提供します。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Premiumバッジ](/help/assets/premium.png) の推奨事項 | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件を作成»の?«最近表示した項目?[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) |
-| Google Chromeサイトのcookieポリシー | Googleは最近、2019年7月30日リリース用に設定されているChrome76から開始し、開発者はWebサイト間で動作できるcookieとユーザーを追跡できるcookieを明示的に指定する必要があります。<br>業界では、消費者向けにより安全なWebを作成するために、Targetは、訪問者に対して、ミーティング中にパーソナライズされたエクスペリエンスを配信し、訪問者のプライバシー期待を超えていることに積極的にコミットされています。<br>[Google Chrome SAeSite cookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
+| Visual Experience Composer（VEC） | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**:HTMLで画像を置換して、親要素を選択してHTMLオプションにアクセスすることなく要素をフルコントロールできます。</li><li>**エクスペリエンスフラグメント**:画像をAdobe Experience Manager（AEM） [エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) に置き換えて、Targetアクティビティで作成した要素をすばやく挿入できます。</li></ul>（TGT-34097） |
+| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。（TGT-31741） |
+| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティのPremiumバッジ](/help/assets/premium.png) の推奨 | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。（TGT-33649） |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
