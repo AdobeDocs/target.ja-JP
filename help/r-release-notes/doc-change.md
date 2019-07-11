@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年7月11日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の項目に関する制限情報を追加しました。<ul><li>アクティビティごとのエキスパートイン数。</li><li>アクティビティごとの成功指標の数。</li><li>アクティビティごとのレポートオーディエンス/セグメントの数。</li><li>mbox、指標およびエクスペリエンスごとのオーディエンス数。</li><li>ターゲットルールごとの一意の値の数。</li><li>ターゲットルールごとの一意のオーディエンス数。</li><li>アクティビティごとの一意のターゲットルール数。</li><li>アクティブプロファイルスクリプトの数。</li><li>プロファイルスクリプトの合計数。</li><li>プロファイルスクリプトごとの合計ループ数。</li><li>ライブアクティビティの数。</li><li>アクティブな保存済み（および終了していない）アクティビティの数。</li><li>プロパティの数。</li><li>オファー数.</li></ul> |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のTarget19.7.1リリース（2019年7月23日）に関する情報を追加しました。<br>なお、この情報は変更されることがあります。 |
 | 2019年7月8日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAMEを使用する理由を説明する情報を追加しました。 |
 | 2019年6月29日 | [既知の問題と解決さ](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[れた](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Issues](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A4Tでリダイレクトを使用して、関連付けられていないヒット率の高い割合を確認するという既知の問題に関する情報を追加しました。 |
 | 2019年6月27日 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
