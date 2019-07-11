@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
 
 この方法は、相対的に設定された商品カタログがあるものの、特定の季節の品目や特価の品目を強調したい小売店などに好まれます。ほとんどの顧客は主にフィードを経由して情報を提供し、特定の場合のみページの調整をおこないます。
 
-静的なままでよい情報の提供には、フィードを使用します。CSV ファイルと Google フィードのどちらを使用する場合でも、次のパラメーターを使用します。
+フィードを使用して、頻繁に変更されない情報を提供します。CSV ファイルと Google フィードのどちらを使用する場合でも、次のパラメーターを使用します。
 
 * 必須パラメーター
 
@@ -62,12 +62,15 @@ Recommendations アクティビティを作成する前に知っておくべき�
 
 * 便利なパラメーター
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * その他の全属性
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * すべてのカスタム属性
 
-フィードが設定されて [!DNL Recommendations] に渡された後、頻繁に変更する品目のページにパラメーターを渡します。
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * 必須パラメーター
 
@@ -156,8 +159,7 @@ For more information about the differences between the two Target Javascript lib
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ function targetPageParams() {
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
