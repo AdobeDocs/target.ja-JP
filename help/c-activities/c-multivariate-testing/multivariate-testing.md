@@ -8,7 +8,7 @@ title: 多変量分析テスト
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ Target では、各組み合わせが 1 つのエクスペリエンスになり�
    * 変更する要素と各要素のバージョン数（3x2、4x3 など）を選択します。
    * 番号付けの方法には一貫性を持たせます。例えば、ボタンが要素 1 で、オプションが青、緑、黄の場合、青色のボタンを 1-1、緑色のボタンを 1-2、黄色のボタンを 1-3 とします。
    * オフラインスプレッドシートには、必要になるエクスペリエンスの数が示されています（例えば、3x2 の場合は 4 つ、4x3 の場合は 9 つ）。
-   * [Visual Experience Composer（VEC）またはフォームベースのExperience Composerを使用して、A/Bワークフローでエクスペリエンスを作成](/help/c-experiences/experiences.md)します。VEC を使用する場合は、カスタムコードの使用、HTML の編集、WYSIWYG または任意の組み合わせを使用できます。
+   * [Visual Experience Composer（VEC）を使用して、A/Bワークフローでエクスペリエンスを作成](/help/c-experiences/experiences.md)します。カスタムコードを使用したり、HTML、WYSIWYG、または任意の組み合わせを編集したりできます。
    * （サンプルサイズ計算ツールに基づいて）アクティビティが終了したら、スプレッドシートで結果を処理して、他の詳細を取得します。
 
 その他の考慮事項およびベストプラクティスについては [、多変量分析テストのベストプラクティス](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD) を参照してください。
