@@ -1,14 +1,14 @@
 ---
-description: これらのリリースノートでは、最新または今後の Adobe Target リリースの機能、機能強化、修正および既知の問題について説明します。
+description: これらのリリースノートでは、最新または今後の[!DNL Adobe Target]リリースを参照してください。
 keywords: リリースノート
-seo-description: これらのリリースノートでは、最新または今後の Adobe Target リリースの機能、機能強化、修正および既知の問題について説明します。
+seo-description: これらのリリースノートでは、最新または今後の[!DNL Adobe Target]リリースを参照してください。
 seo-title: Adobe Targetリリースノート（プレリリース版）
 solution: 'Target '
 title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -33,7 +33,8 @@ source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
 | --- | --- |
 | Visual Experience Composer（VEC） | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**:HTMLで画像を置換して、親要素を選択してHTMLオプションにアクセスすることなく要素をフルコントロールできます。</li><li>**エクスペリエンスフラグメント**:画像をAdobe Experience Manager（AEM） [エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) に置き換えて、Targetアクティビティで作成した要素をすばやく挿入できます。</li></ul>（TGT-34097） |
 | モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。（TGT-31741） |
-| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティのPremiumバッジ](/help/assets/premium.png) の推奨 | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。（TGT-33649） |
+| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。（TGT-33649） |
+| Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。It is highly recommended to use [Experience Cloud ID library 4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html). |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
