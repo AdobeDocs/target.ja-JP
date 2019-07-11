@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 ## Target Standard／Premium 19.6.1（2019 年 6 月 26 日）
 
 このリリースには、次の新機能および機能強化が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
