@@ -1,13 +1,13 @@
 ---
-description: Target の Visual Experience Composer を使用すると、Target に対応したページで適切なテストを作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
+description: TargetのVisual Experience Composerを使用すると、Targetが有効なページに対して多変量分析テスト（MVT）を作成したり、Target内でページの一部を変更したりできます。
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成中;mvt の方法;多変量分析テスト方法
-seo-description: Target の Visual Experience Composer を使用すると、Target に対応したページで適切なテストを作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
+seo-description: Adobe TargetのVisual Experience Composer（VEC）を使用すると、Targetが有効なページに対して多変量分析テスト（MVT）を作成し、Target内のページの一部を変更することが容易になります。
 seo-title: 多変量分析テストの作成
 solution: 'Target '
 title: 多変量分析テストの作成
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ Target のポイント＆クリック方式のエディターを使用して、�
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![エクスペリエンスターゲット設定アクティビティの作成ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![多変量分析テストアクティビティの作成ダイアログボックス](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
