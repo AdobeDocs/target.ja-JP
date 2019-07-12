@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics データの使用](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B テストの複数のエクスペリエンスバージョン](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/Bテストの複数エクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動配分 {#auto-allocate}
       + [自動配分](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [勝者の特定](c-activities/automated-traffic-allocation/determine-winner.md)
