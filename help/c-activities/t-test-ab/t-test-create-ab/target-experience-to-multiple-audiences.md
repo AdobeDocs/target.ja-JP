@@ -8,12 +8,12 @@ title: A/B テストの複数のエクスペリエンスバージョン
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# A/B テストの複数のエクスペリエンスバージョン{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 A/B アクティビティで、同じエクスペリエンスの複数バージョンをそれぞれ異なるオーディエンスにターゲット設定することができます。Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
 
