@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
+source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2019 年 7 月 11 日**
+**最終更新日：2019 年 7 月 12 日**
 
 >[!NOTE]
 >
@@ -31,7 +31,6 @@ source-git-commit: 7cdff6e1beca45a4900090bc91a38be7e000f289
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Visual Experience Composer（VEC） | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**:HTMLで画像を置換して、親要素を選択してHTMLオプションにアクセスすることなく要素をフルコントロールできます。</li><li>**エクスペリエンスフラグメント**:画像をAdobe Experience Manager（AEM） [エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) に置き換えて、Targetアクティビティで作成した要素をすばやく挿入できます。</li></ul>（TGT-34097） |
 | モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。（TGT-31741） |
 | ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。（TGT-33649） |
 | Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。 |
