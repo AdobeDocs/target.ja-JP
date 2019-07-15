@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Googleは最近、Chrome76（2019年7月30日リリース用）で始まることを発表しました。開発者は、Webサイト間で動作できるcookieと、ユーザーを追跡できるcookieを明示的に指定する必要があります。
 
-## SAMSSiteの概要
+## SAMESiteの概要
 
 Google Chrome76（以降）で、cookieをサイト間で送信できるようにするときにセキュリティ保護を提供するために、GoogleはGoogle Chrome76（以降）で&quot;sameSite&quot;という名前のサポートを追加しています。SameSite requires web developers to manage cookies with the SameSite attribute component in the `Set-Cookie` header.
 
@@ -37,7 +37,7 @@ sameSite属性に渡すことができる値は3つあります。厳密、ラ�
 | デフォルトのcookieでSAMSSiteを使用 | When set, all cookies that don&#39;t specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | sameSiteのないcookieは保護されている必要があります | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. このコンテキストで保護されている場合、すべてのブラウザーリクエストはHTTPSプロトコルに従う必要があります。この要件に準拠しないcookieは拒否されます。 |
 
-![[SAMSSite]設定ページ](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
+![SameSite settings page 設定ページ](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
 ## Targetは、Googleのセキュリティのベストプラクティスに従います
 
