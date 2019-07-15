@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
       + Enterprise ユーザーの権限 {#enterprise}
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
-   + [Scene7 設定](administrating-target/scene7-settings.md)
+   + [Dynamic Media Classicの統合](administrating-target/scene7-settings.md)
    + [ホスト](administrating-target/hosts.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
 + Target の実装 {#implement-target}
