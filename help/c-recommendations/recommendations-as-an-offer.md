@@ -8,7 +8,7 @@ title: 'オファーとしての Recommendations '
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、Recommendations をオファーとして追加する要素をクリックして、[!UICONTROL 前に挿入]、[!UICONTROL 後ろに挿入]、または[!UICONTROL 次で置換]アクションを選択してから、[!UICONTROL Recommendation] を選択します。
+1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、«前 **[!UICONTROL に挿入»]**、«後 **[!UICONTROL で挿入»]** または **[!UICONTROL «次のアクションを置換]** »アクションを選択して、«レコメンデーション»を選択 [!UICONTROL ]します。
 
    次の図に、[!UICONTROL 後ろに挿入／Recommendation] オプションを示します。
 
@@ -42,11 +42,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. ページタイプ別の一般的な Recommendations 条件を表示するには、次のオプションから選択します。
 
-   * 記事ページ
    * 買い物かごページ
    * カテゴリページ
    * ホームページ
    * ランディングページ
+   * 製品紹介ページ
+   * 検索結果ページ
+   * 「ありがとうございます」ページ
+   * その他の
 
 1. 希望する[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択してから、「[!UICONTROL 次へ]」をクリックします。
 1. 希望する[デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択してから、「[!UICONTROL 次へ]」をクリックします。
