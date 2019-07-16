@@ -8,7 +8,7 @@ title: A/B テストの作成
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
 ---
 
@@ -41,7 +41,7 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
    >
    >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
 
-1. （条件付き） Target Premiumのお客様の場合は、ワークスペースを選択します。
+1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [アクティビティURLを指定](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)し、「 **[!UICONTROL 次へ]**」をクリックします。
 
