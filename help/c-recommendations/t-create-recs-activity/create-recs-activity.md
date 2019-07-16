@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1e0118d18d49235c7d5c437148db09273c218659
+source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 ---
 
@@ -82,11 +82,11 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    複数の条件を選択すると、トラフィックは選択した条件間で等しく分割されます。例えば、2 つの条件が選択されており、アクティビティ参加者の 20％にデフォルトコンテンツを表示するようにアクティビティがデザインされている場合、各条件によって制御されるレコメンデーションがアクティビティ参加者の 40％に表示されます。各条件の割合を変更するオプションはありません。
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-   [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
+
+      [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
    * また、条件をシーケンスにグループ化することもできます。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
-
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択します。
