@@ -40,7 +40,7 @@ Adobe Target VEC 拡張機能の有効化について詳しくは、[Adobe Exper
       * 識別子：`com.adobe.sdktest`
       * URL スキーム：`vectester`
       * 役割：Editor
-   1. アプリケーションプロジェクト設定／**[!UICONTROL 一般]** をクリックします。
+   1. アプリケーションプロジェクト設定／**[!UICONTROL 一般]**&#x200B;をクリックします。
    1. Objective-C アプリケーションプロジェクト設定／**[!UICONTROL Info]** を再度クリックして、設定が保存されたことを確認します。
 
       URL のタイプの例では、アプリケーションの URL スキームは次のようになります。
