@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **リモートオファーを作成するには：**
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
-1. **[!UICONTROL 作成]** / **[!UICONTROL リモートオファー]** をクリックします。
+1. **[!UICONTROL 作成]** / **[!UICONTROL リモートオファー]**&#x200B;をクリックします。
 
    ![](assets/remote_offer_ui.png)
 
