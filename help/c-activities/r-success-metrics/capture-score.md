@@ -48,13 +48,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    この方法では、指定した値がページ内の各 mbox ごとに、スコアに加算されます。例えば、パラメーター `?mboxPageValue=10` を渡し、ページに 3 つの mbox がある場合、そのページのスコアは 30 となります。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >キャンペーンの最初のディスプレイ mbox の上にある mbox はスコアには含まれません。
 
 スコアに加算されるようにする最良の方法は、mbox コードで値を割り当てることです。これにより、各 mbox のコンテンツに基づいて、ページの値を正確に計測することができます。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >メンテナンスを容易にするために、JavaScript の条件ロジックを含んだ [!DNL at.js] または [!DNL mbox.js] ファイル内で、サイトのページスコア値の割り当てを設定できます。これにより、ページに多くのコードを記述しなくても済みます。サポートが必要な場合は、担当のアカウントコンサルタントにお問い合わせください。
 
