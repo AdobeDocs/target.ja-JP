@@ -9,8 +9,8 @@ tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/target/kt/index/target-videos.html
 git-repo: https://github.com/AdobeDocs/target.en
 index: true
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 60b49bfb19c5ddf39ec6ea0504b0e3b703d923d5
 
 ---
 
