@@ -26,7 +26,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 * フォームベースの Experience Composer を使用する場合、リダイレクトオファーはページの一部である mbox で使用しないでください。リダイレクトオファーは、HTML の`<head>`の一部であるスクリプトタグからのみ使用する必要があります。常に自動作成を使用して、グローバル mbox にリダイレクトオファーを設定する必要があります。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >ランディングページのリファラー値を渡す場合、リダイレクトオファーではなく HTML オファーを使用することをお勧めします。
 
