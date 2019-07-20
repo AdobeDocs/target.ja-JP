@@ -56,7 +56,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
    Targetでは、IETFサイトで言及されているこれらの文字に加え、クエリ文字列で以下の文字を使用できます。
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    これ以外の文字はすべて URL エンコードする必要があります。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
