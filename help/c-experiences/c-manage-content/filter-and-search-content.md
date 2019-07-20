@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## キーワードによるアセットの検索 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]** をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
+1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]**&#x200B;をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
 
    右上隅の[!UICONTROL カード表示]アイコンをクリックして、カード表示形式でアセットを表示します。
 
@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    右上隅の[!UICONTROL リスト表示]アイコンをクリックして、リスト表示形式でアセットを表示します。
 
-1. 左上隅の **[!UICONTROL コンテンツのみ]アイコンをクリックして、検索ボックスを表示します。**
+1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]アイコンをクリックして、検索ボックスを表示します。**
 
    ![](assets/search_assets.png)
 
@@ -42,12 +42,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 スマートコレクションと呼ばれる保存済み検索を作成して、同様の検索を実行する際に時間を節約できます。保存済み検索によって、検索結果が自動的に更新されるスマートコレクションが作成されます。
 
-1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]** をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
+1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]**&#x200B;をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
 
    ![](assets/content.png)
 
-1. 左上隅の **[!UICONTROL コンテンツのみ]** アイコンをクリックして、左側のレールに[!UICONTROL フィルターおよびオプション]パネルを表示します。
-1. **[!UICONTROL 参照]** アイコンをクリックして、[!UICONTROL パスを選択]ダイアログボックスを表示します。
+1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、左側のレールに[!UICONTROL フィルターおよびオプション]パネルを表示します。
+1. **[!UICONTROL 参照]**&#x200B;アイコンをクリックして、[!UICONTROL パスを選択]ダイアログボックスを表示します。
 
    ![](assets/browse_folders.png)
 
