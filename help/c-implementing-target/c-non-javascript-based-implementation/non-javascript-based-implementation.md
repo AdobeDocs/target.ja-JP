@@ -26,8 +26,8 @@ adbox 広告およびリダイレクターは、あらゆるアクティビテ�
 
 |  | 目的 | 使用するタイミング | URL 構成 | オファータイプ | オファーコンテンツ |
 |--- |--- |--- |--- |--- |--- |
-| adbox | 別の画像を広告に返す | 広告のコンテンツを変更する場合 | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | リダイレクトオファー | 画像の URL |
-| リダイレクター | 訪問者を別の Web ページにリダイレクトする | 広告のランディングページを変更する場合 | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | リダイレクトオファー | ページの URL |
+| adbox | 別の画像を広告に返す | 広告のコンテンツを変更する場合 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | リダイレクトオファー | 画像の URL |
+| リダイレクター | 訪問者を別の Web ページにリダイレクトする | 広告のランディングページを変更する場合 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | リダイレクトオファー | ページの URL |
 
 ## 制限事項 {#section_38F559DCF1324271926608BCD4AB1227}
 
