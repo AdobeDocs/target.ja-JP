@@ -102,7 +102,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、[*Adobe Experience Cloud デバッガー拡張*のドキュメント](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)を参照してください。
+詳しくは、[*Adobe Experience Cloud デバッガー拡張*&#x200B;のドキュメント](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)を参照してください。
 
 ## 配信中に target.js を読み込めなかった場合 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -110,7 +110,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 ## レコメンデーションにトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SIteCatalyst: purchase`*mbox は、購入アルゴリズムトラフィックデータには使用できません。代わりに*`orderConfirmPage`* mbox を使用します。
+*`SIteCatalyst: purchase`* mbox は、購入アルゴリズムトラフィックデータには使用できません。代わりに&#x200B;*`orderConfirmPage`* mbox を使用します。
 
 ## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
 
