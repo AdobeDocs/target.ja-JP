@@ -37,7 +37,7 @@ Adobe Target Classic には、mbox の応答時に実行される JavaScript を
 
    詳しくは、[at.js のダウンロード](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL レスポンストークン]** をクリックします。
+1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックします。
 
    ![](assets/response_tokens.png)
 
