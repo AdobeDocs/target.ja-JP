@@ -68,6 +68,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * [!UICONTROL レポートを CSV に書き出す]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
 
-1. （オプション）**[!UICONTROL テーブル表示]** および **]グラフ表示[!UICONTROL ** アイコンをクリックして、レポートの形式を切り替えます。
+1. （オプション）**[!UICONTROL テーブル表示]**&#x200B;および&#x200B;**]グラフ表示[!UICONTROL **&#x200B;アイコンをクリックして、レポートの形式を切り替えます。
 
    多変量分析テストの場合のみ、**[!UICONTROL 場所の貢献度]** （![場所の貢献度アイコン](assets/icon_location_contribution.png)）アイコンをクリックして、場所ごとの貢献度を表示するレポートを切り替えます。
