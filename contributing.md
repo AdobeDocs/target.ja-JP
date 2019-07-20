@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+translation-type: tm+mt
 
 ---
 # 寄稿
@@ -20,11 +20,12 @@ translation-type: ht
 
 ## 寄稿者使用許諾契約書
 
-このプロジェクトへのすべてのサードパーティの寄稿者は、寄稿者使用許諾契約書に署名している必要があります。これにより、寄稿をプロジェクトの一環として再配布するための Adobe 権限が付与されます。[CLA](http://opensource.adobe.com/cla.html) に署名します。Adobe CLA は一度だけ提出する必要があるので、既に提出されている場合は署名する必要はありません。
+このプロジェクトへのすべてのサードパーティの寄稿者は、寄稿者使用許諾契約書に署名している必要があります。これにより、寄稿をプロジェクトの一環として再配布するための Adobe 権限が付与されます。[CLAに署名](http://opensource.adobe.com/cla.html)します。Adobe CLA は一度だけ提出する必要があるので、既に提出されている場合は署名する必要はありません。
 
 ## 行動規範のレビュー
 
-提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。プルリクエスト送信について詳しくは、[GitHub のプルリクエストのドキュメント](https://help.github.com/articles/about-pull-requests/)をお読みください。
+提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
+for more information on sending pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -37,4 +38,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、この問題トラッカーでは報告できません。代わりに、[問題を当社のセキュリティエキスパート](https://helpx.adobe.com/jp/security/alertus.html)に提出してください。
+セキュリティ上の問題は、この問題トラッカーでは報告できません。Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
