@@ -23,7 +23,7 @@ Visual Experience Composer（VEC）は、エクスペリエンスターゲット
 
    ![すべての訪問者オーディエンス](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。ハイライトされている要素は、VECを使用して変更できます。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -94,7 +94,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ## エクスペリエンスの削除
 
-**[!UICONTROL エクスペリエンス]** ページ（3ステップガイドのワークフローの最初の手順）で、3つの垂直方向の楕円/ **[!UICONTROL 削除をクリック]** します。
+**[!UICONTROL エクスペリエンス]** ページ（3ステップガイドのワークフローの最初の手順）で、3つの垂直方向の楕円/ **[!UICONTROL 削除をクリック]**&#x200B;します。
 
 ![エクスペリエンスの削除](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -102,7 +102,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 エクスペリエンスのターゲット設定（XT）アクティビティでエクスペリエンスをコピーできるようになり、ゼロからエクスペリエンスを再作成しなくても、エクスペリエンスにマイナーな変更を加えられるようになりました。
 
-**[!UICONTROL エクスペリエンス]** ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]** をクリックします。
+**[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]**&#x200B;をクリックします。
 
 ![エクスペリエンスの複製](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
