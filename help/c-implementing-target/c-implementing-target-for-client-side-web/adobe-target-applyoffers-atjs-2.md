@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | オプションのタイプ。「コンテンツ」フィールドのタイプを反映します。サポートされているタイプは、html、redirect、JSON、および dynamic です。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | レスポンスオプション。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | クリックイベントのトークン。 |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | "click" |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | `clickThrough` 指標のリストが含まれています。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | mbox の名前。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | レスポンスが、リクエストからのこのインデックスを持つ mbox に対するものであることを示します。 |
