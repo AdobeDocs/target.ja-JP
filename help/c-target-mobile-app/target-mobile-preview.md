@@ -27,14 +27,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 前提条件 {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **サポートされているバージョンの SDK を使用する：** モバイルプレビュー機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードして対応するアプリにインストールする必要があります。
+1. **サポートされているバージョンの SDK を使用する：**&#x200B;モバイルプレビュー機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードして対応するアプリにインストールする必要があります。
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
-   * **iOS：**『[Experience Cloud ソリューション向け iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)』ガイドの*事前準備*。
+   * **iOS：**『[Experience Cloud ソリューション向け iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)』ガイドの&#x200B;*事前準備*。
    * **Android：**『Experience Cloud ソリューション用 Android SDK 4.x』ガイドの[事前準備](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*。*
 
-1. **URL スキームを設定する：** プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
+1. **URL スキームを設定する：**&#x200B;プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
    iOS の例を次の図に示します。
 
@@ -46,7 +46,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. **アドビの DeepLink を追跡する**
 
-   **iOS：** アプリケーションデリゲートで、 デリゲートが前の手順で指定した URL スキームでリソースを開くように要求されたときに `[ADBMobile trackAdobeDeepLink:url` を呼び出します。
+   **iOS：**&#x200B;アプリケーションデリゲートで、 デリゲートが前の手順で指定した URL スキームでリソースを開くように要求されたときに `[ADBMobile trackAdobeDeepLink:url` を呼び出します。
 
    コードスニペットの例を次に示します。
 
@@ -62,7 +62,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    } 
    ```
 
-   **Android：** アプリケーションで、 呼び出し元が前の手順で指定した URL スキームでリソースを開くように要求されたときに `Config.trackAdobeDeepLink(URL);` を呼び出します。
+   **Android：**&#x200B;アプリケーションで、 呼び出し元が前の手順で指定した URL スキームでリソースを開くように要求されたときに `Config.trackAdobeDeepLink(URL);` を呼び出します。
 
    ```
     private Boolean shouldOpenDeeplinkUrl() { 
