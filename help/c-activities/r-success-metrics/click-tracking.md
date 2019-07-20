@@ -24,7 +24,7 @@ Target では、任意の要素に対するクリックを成功指標として�
 
 ## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]** 成功指標を選択します。
+1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]**&#x200B;成功指標を選択します。
 1. アクションの場合、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択**]」をクリックします。
 
    [!UICONTROL Visual Experience Composer]（VEC）でページが開きます。
@@ -59,7 +59,7 @@ There are a several actions that can be applied when you hover over an element i
 
 ### 選択したエレメントカーソルポップアップ
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. このリストには、選択した要素がクリック追跡に使用されることを検証するために、要素の完全なDOMパスが含まれています。
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. このリストには、選択した要素がクリック追跡に使用されることを検証するために、要素の完全なDOMパスが含まれています。
 
 ![エレメント選択リンク](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -73,7 +73,7 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
    アクティビティ作成ワークフローの手順1でエクスペリエンスを作成するときと同様に、ページ下部の DOM パスセレクターで要素を選択できます。DOM パスから要素を選択すると、VEC 内の対応する要素が「選択済み」と表示されます。選択した要素の選択を解除するには、DOM パスセレクターの要素を再度クリックするか、VEC 内の「選択済み」ボックスをクリックします。
 
-   詳しくは、Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) の *[「DOM パスを使用して要素をナビゲートする」を*参照してください。
+   詳しくは、Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) の *[「DOM パスを使用して要素をナビゲートする」を*&#x200B;参照してください。
 
 * 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。この異なるページは、[複数ページ機能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用するアクティビティに含める必要があり、[!DNL at.js] または [!DNL mbox.js] を実装する必要があります。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。
