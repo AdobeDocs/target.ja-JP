@@ -45,7 +45,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 レコメンデーションに表示したい製品を整理するために、コレクションを作成します。
 
-1. **[!UICONTROL Recommendations]**／**[!UICONTROL ｌコレクション]** をクリックして、既存のコレクションのリストを表示します。
+1. **[!UICONTROL Recommendations]**／**[!UICONTROL ｌコレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
    [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
@@ -53,13 +53,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
-1. （条件付き）コレクションの作成（または更新）時に、環境を **[!UICONTROL 環境]** フィルターから選択して、その環境のコレクションのコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）コレクションの作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**&#x200B;フィルターから選択して、その環境のコレクションのコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
    ![コレクションの作成](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. コレクションの **[!UICONTROL 名前]** を入力します。
+1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-   オプションで **[!UICONTROL 説明]** を入力することもできます。
+   オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を入力することもできます。
 
 1. コレクションの構築に使用するルールを設定します。
 
