@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
 
 ## カテゴリ親和性のビジネス事例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -107,7 +107,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## カテゴリ親和性を使用するオーディエンスの作成 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. **[!UICONTROL オーディエンス]** のリストから、「**[!UICONTROL + オーディエンスを作成]**」をクリックします。
+1. **[!UICONTROL オーディエンス]**&#x200B;のリストから、「**[!UICONTROL + オーディエンスを作成]**」をクリックします。
 
    または
 
@@ -115,7 +115,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. わかりやすいオーディエンスの名前を入力します。
 1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]** をクリックします。
-1. **[!UICONTROL 訪問者プロファイル]** ドロップダウンリストから、「**[!UICONTROL カテゴリーの親和性]**」を選択します。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、「**[!UICONTROL カテゴリーの親和性]**」を選択します。
 
    ![訪問者プロファイル/カテゴリ親和性](assets/affinity.png)
 
