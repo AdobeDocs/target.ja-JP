@@ -83,13 +83,13 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 A/B テストでは、エクスペリエンスをコピーすることで、ゼロからエクスペリエンスを再作成しなくても、エクスペリエンスに軽微な変更を加えることができます。
 
-**[!UICONTROL エクスペリエンス]** ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]** をクリックします。
+**[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]**&#x200B;をクリックします。
 
 ![エクスペリエンスの複製オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## エクスペリエンスの削除
 
-**[!UICONTROL エクスペリエンス]** ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]** をクリックします。
+**[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]**&#x200B;をクリックします。
 
 ![エクスペリエンスの削除オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
