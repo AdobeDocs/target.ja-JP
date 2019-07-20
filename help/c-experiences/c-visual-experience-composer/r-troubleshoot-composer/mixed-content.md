@@ -64,7 +64,7 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]** をクリックします。
+1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**&#x200B;をクリックします。
 1. 「[!UICONTROL セキュリティ]」タブを開きます。
 1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL カスタムレベル]**」をクリックします。
 1. 「**[!UICONTROL その他]**」を選択します。
