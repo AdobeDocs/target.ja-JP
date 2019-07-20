@@ -49,8 +49,8 @@ Adobe Admin Console for Enterprise で実行するタスクの場合は、次の
 
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [管理コンソール](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページ上部の **[!UICONTROL 「ユーザー]** 」タブをクリックし、新規ユーザーを作成するか、既存のユーザーを編集するための「ユーザー **[!UICONTROL ]** を追加」タブをクリックします。
-1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+1. [管理コンソール](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページ上部の **[!UICONTROL 「ユーザー]** 」タブをクリックし、新規ユーザーを作成するか、既存のユーザーを編集するための「ユーザー **** を追加」タブをクリックします。
+1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペース（製品プロファイル）の作成{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -68,17 +68,17 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 1. 目的のワークスペース（製品プロファイル）を作成します。
 
-   * **デフォルトアクセス：** 既存のすべてのアクティビティは、「デフォルトアクセス」と呼ばれる単一のプロジェクトに結合されます。これは、顧客には影響しません。すべてのユーザーの役割および機能は、この変更より前とまったく同じように残ります。
+   * **デフォルトアクセス：**&#x200B;既存のすべてのアクティビティは、「デフォルトアクセス」と呼ばれる単一のプロジェクトに結合されます。これは、顧客には影響しません。すべてのユーザーの役割および機能は、この変更より前とまったく同じように残ります。
 
       [!DNL Adobe Experience Manager]（AEM）、[!DNL Adobe Mobile Services] および [!DNL Target Classic] を使用して作成されたすべてのアクティビティも、「デフォルトアクセス」ワークスペースの一部です。現在は、プロジェクトを「デフォルトアクセス」から別のプロジェクトに移動することはできません。
 
-   * **新規ワークスペース（製品プロファイル）：** 次の手順を実行することで、新しい権限機能の利用を開始できます。
+   * **新規ワークスペース（製品プロファイル）：**&#x200B;次の手順を実行することで、新しい権限機能の利用を開始できます。
 
       * [!DNL Admin Console for Enterprise] での新しいワークスペースの作成。
       * Target プロパティのワークスペースへの割り当て。
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
-1. *Enterprise ユーザーガイド*の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
@@ -97,7 +97,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. Admin Console で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
-1. *Enterprise ユーザーガイド*の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -107,7 +107,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]** をクリックして、[!UICONTROL プロパティ]リストを表示します。
+1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -115,7 +115,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
    以下のフィールドを設定します。
 
    * **チャネル:** プロパティの目的のチャネルを選択します。Web、モバイルアプリ、電子メール、またはその他/API（セットトップボックスまたはPlayStationコンソールなど）。
-   * **名前（必須）：** プロパティのわかりやすい名前を指定します。
+   * **名前（必須）：**&#x200B;プロパティのわかりやすい名前を指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
 
 1. 「**[!UICONTROL コードを生成]**」をクリックして、[5. at_property パラメーターを含めるための実装の更新](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)のステップの実行時に使用するコードを生成します。
@@ -135,7 +135,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    または
 
-   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]** をクリックして、[!UICONTROL プロパティ]リストを表示します。
+   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
 
    1. 目的のプロパティの[!UICONTROL 最終更新日]列の上にマウスポインターを置いて、[!UICONTROL コード]アイコンを表示し、クリックします。
 
@@ -149,7 +149,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
-   * **「グローバルパラメーター[!DNL Adobe Launch]」の&quot;**
+   * **「グローバルパラメーター[!DNL Adobe Launch]」の"**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
@@ -157,9 +157,9 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
       ![](assets/property_token_2.png)
 
-      詳しくは、Dynamic Tag Management 製品ドキュメント**の[グローバルパラメーター - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) を参照してください。
+      詳しくは、Dynamic Tag Management 製品ドキュメント&#x200B;**&#x200B;の[グローバルパラメーター - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) を参照してください。
 
-   * **targetPageParams() 関数を使用：** タグの以下のコードを <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> at.js または mbox.js 参照の上に置きます。
+   * **targetPageParams() 関数を使用：**&#x200B;タグの以下のコードを <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> at.js または mbox.js 参照の上に置きます。
 
       ![](assets/property_token_1.png)
 
@@ -196,7 +196,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
    | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
 
-   詳しくは、*Enterprise ユーザーガイド*の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
+   詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
 ## トレーニングビデオ
 
