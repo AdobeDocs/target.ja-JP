@@ -207,7 +207,7 @@ function targetPageParams() {
 
 設定を使用して [!DNL Recommendations] の実装を管理します。
 
-[!UICONTROL Recommendations 設定]オプションにアクセスするには、[!DNL Target] を [!DNL Adobe Experience Cloud] で開き、**[!UICONTROL レコメンデーション]** ／**[!UICONTROL 設定]** をクリックします。
+[!UICONTROL Recommendations 設定]オプションにアクセスするには、[!DNL Target] を [!DNL Adobe Experience Cloud] で開き、**[!UICONTROL レコメンデーション]** ／**[!UICONTROL 設定]**&#x200B;をクリックします。
 
 ![](assets/recs_settings.png)
 
