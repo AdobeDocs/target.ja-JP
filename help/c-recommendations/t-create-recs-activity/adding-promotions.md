@@ -37,11 +37,11 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. **[!UICONTROL [オプション]** ]ページで[ **[!UICONTROL プロモーション]]** または[プロモーション **[!UICONTROL の戻る]** ]切り替えをクリックします。
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![プロモーションの追加オプション](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
-   条件の結果の前と**後のどちらにもプロモーションを挿入できます。
+   条件の結果の前と&#x200B;**&#x200B;後のどちらにもプロモーションを挿入できます。
 1. プロモーション項目に使用するデザインスロットの数を設定します。
 
    [!DNL Recommendations] デザインによりますが、最大で 20 個のスロットを使用できます。使用した各スロットは、条件に基づいて返されたレコメンデーションには使用できません。
@@ -50,17 +50,17 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
    開始日を設定しない場合、プロモーションはすぐに開始されます。終了日を設定しない場合、プロモーションは無期限に実行されます。
 
-1. **[!UICONTROL プロモーションタイプを選択]** します。
+1. **[!UICONTROL プロモーションタイプを選択]**&#x200B;します。
 
    * 「**[!UICONTROL 項目のリスト]**」を選択し、プロモーションする特定の項目の `entity.id` 値をコンマで区切って入力します。
 
-      プロモーションに設定したスロット数より多くの項目がリストに含まれている場合は、「**[!UICONTROL 項目の順序をランダム化]」チェックボックスをオンにして、デザインに表示されるプロモーション項目が変わるようにすることができます。** このオプションを選択すると、各訪問のプロモーションセット全体から、テンプレート内のプロモーションに対して有効になっている項目数がランダムに選択されます。
+      プロモーションに設定したスロット数より多くの項目がリストに含まれている場合は、「**[!UICONTROL 項目の順序をランダム化]」チェックボックスをオンにして、デザインに表示されるプロモーション項目が変わるようにすることができます。**&#x200B;このオプションを選択すると、各訪問のプロモーションセット全体から、テンプレート内のプロモーションに対して有効になっている項目数がランダムに選択されます。
 
    * 「**[!UICONTROL 属性別にプロモート]」を選択し、プロモーションする項目の属性を定義するルールを追加します。**
 
       「属性別にプロモート」を選択すると、動的な一致を作成できます。詳しくは、[動的および静的インクルージョンルールの使用](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
-   * 「**[!UICONTROL コレクションをプロモート]」を選択し、プロモーションする項目のコレクションを選択します。** プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
+   * 「**[!UICONTROL コレクションをプロモート]」を選択し、プロモーションする項目のコレクションを選択します。**&#x200B;プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
