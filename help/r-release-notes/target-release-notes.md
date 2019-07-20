@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
+source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2019 年 7 月 12 日**
+**最終更新日：2019 年 7 月 19 日**
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard／Premium 19.7.1（2019 年 7 月 23 日）{#tgt-19-7-1}
+## Target Standard／Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
