@@ -19,7 +19,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 
-1. **[!UICONTROL アクティビティを作成]**／**[!UICONTROL レコメンデーション]** をクリックします。
+1. **[!UICONTROL アクティビティを作成]**／**[!UICONTROL レコメンデーション]**&#x200B;をクリックします。
 
    ![Recommendationsアクティビティの作成](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -75,7 +75,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]」チェックボックスのチェックを外します。** お使いの Recommendations の設定（**[!UICONTROL Recommendations]**／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、[!UICONTROL 互換性]オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]」チェックボックスのチェックを外します。**&#x200B;お使いの Recommendations の設定（**[!UICONTROL Recommendations]**／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、[!UICONTROL 互換性]オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
    ![条件の選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -101,7 +101,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
       複数の条件を選択した場合は、1つのデザインのみを選択できます。
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして、**[!UICONTROL 完了]**／**[!UICONTROL 完了]** をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして、**[!UICONTROL 完了]**／**[!UICONTROL 完了]**&#x200B;をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
