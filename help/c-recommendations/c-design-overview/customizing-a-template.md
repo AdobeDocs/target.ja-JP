@@ -151,7 +151,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >変数値の後に情報を追加したい場合、正式な表記法を使用しておこなうことができます。例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
@@ -208,7 +208,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 次のHTMLスニペットは、デフォルトの4x2のデザインの既存のHTML部分を置き換えます（簡潔にするために、ここにCSSは含まれていません）。
 
