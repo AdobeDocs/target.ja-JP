@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | パラメータータイプ | 説明 |
 |--- |--- |
-| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**** 注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>****&#x200B;注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | script | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -234,9 +234,9 @@ if (!user.get('threegroups')) {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークン]** を生成をクリックして生成できる認証トークンが必要です。
+   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークン]**&#x200B;を生成をクリックして生成できる認証トークンが必要です。
 
-   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
+   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の "?" のうしろに加えます。
 
    これは、プロファイルの実行前後のスナップショットを取得できるため、レスポンストークンよりもやや詳細な情報を提供します。また、使用可能なすべてのプロファイルも表示されます。
 
