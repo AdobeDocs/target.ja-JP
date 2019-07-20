@@ -4,8 +4,8 @@ solution: 'Target '
 title: Experience Cloud デバッガーでの Target のデバッグ
 seo-title: Experience Cloud デバッガーでの Target のデバッグ
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 
 ---
 
@@ -14,18 +14,18 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 拡張機能の追加
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12&captions=jpn)
 
 ## 基本的な Target デバッグ
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12&captions=jpn)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12&captions=jpn)
 
 ## その他のリソース
 
-+ [Chrome Store の Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja)
-+ [Target のトラブルシューティングのヘルプドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/target/?f=r_troubleshooting_target)
-+ [Experience Cloud デバッガーの使用方法のビデオ](https://helpx.adobe.com/jp/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [ChromeストアのAdobe Experience Cloudデバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Targetヘルプドキュメントのトラブルシューティング](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
++ [Experience Cloudデバッガーのビデオの使用方法](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
