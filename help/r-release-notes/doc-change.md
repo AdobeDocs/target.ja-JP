@@ -28,11 +28,11 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 | 2019年6月27日 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL コピー] アクションに関する情報を追加しました。 |
 |  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
-|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新規セクション:&quot;SPA VECのページ配信設定」 |
+|  | [シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新規セクション:"SPA VECのページ配信設定」 |
 |  | [自動パーソナライゼーションまたは自動ターゲットアクティビティのコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md) | 新規トピックです。 |
 |  | [Google Chromeサイトのcookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 新規トピックです。 |
 |  | [Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md) | 個々の属性を説明し、例を与えるための新しい表を追加しました。 |
-|  | [自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新しいFAQを追加しました。「コントロールとして使用する特定のエクスペリエンスを指定できますか?&quot;<br>次のFAQを編集しました。「自動パーソナライゼーションアクティビティを設定するためのベストプラクティスは何ですか?&quot; |
+|  | [自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新しいFAQを追加しました。「コントロールとして使用する特定のエクスペリエンスを指定できますか?"<br>次のFAQを編集しました。「自動パーソナライゼーションアクティビティを設定するためのベストプラクティスは何ですか?" |
 |  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | コントロールとして使用する特定のエクスペリエンスの指定に関する情報とFAQを追加しました。<br>「トラフィック配分の決定」セクションを更新しました。 |
 |  | [Automated Personalization アクティビティの作成](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 特定のエクスペリエンスをデフォルトとして選択するための情報を追加しました。 |
 |  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 複数のモバイルアプリケーションバージョンの管理方法に関する情報を追加しました。 |
@@ -45,9 +45,9 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019年6月20日 | [プロモーションの追加](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | アクティビティの条件により推奨される項目に対して重複排除されるプロモーションに関する情報を追加しました。 |
-| 2019 年 6 月 14 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新しいFAQを追加しました。「特定の自動セグメントについて、他のオファーやエクスペリエンスと比較して、コンバージョン率がより大きいオファー/エクスペリエンスがあるのはなぜですか?&quot; |
+| 2019 年 6 月 14 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新しいFAQを追加しました。「特定の自動セグメントについて、他のオファーやエクスペリエンスと比較して、コンバージョン率がより大きいオファー/エクスペリエンスがあるのはなぜですか?" |
 |  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md) | 中国でのTargetの使用に関する重要な注意事項を追加しました。 |
-|  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot;Target Standard/Premiumインターフェイス」セクションからMicrosoft Internet Explorer11（IE11）を削除しました。Targetは、IE11の互換性をサポートまたは維持しなくなりました。この変更は、Target UIにのみ影響します。コンテンツ配信は影響を受けません。この変更は、Adobe Analytics、Adobe Experience PlatformおよびAdobe Audience Managerによって行われた類似のお知らせに従います。サポートされているブラウザーに切り替えることをお勧めします。 |
+|  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | "Target Standard/Premiumインターフェイス」セクションからMicrosoft Internet Explorer11（IE11）を削除しました。Targetは、IE11の互換性をサポートまたは維持しなくなりました。この変更は、Target UIにのみ影響します。コンテンツ配信は影響を受けません。この変更は、Adobe Analytics、Adobe Experience PlatformおよびAdobe Audience Managerによって行われた類似のお知らせに従います。サポートされているブラウザーに切り替えることをお勧めします。 |
 | 2019年6月11日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A4Tを使用している場合にトラッキングサーバーを指定することを示す注記を削除しました。 |
 |  | [アクティビティ](/help/c-activities/activities.md) | 削除したアクティビティを復元できないことを示しました。ベストプラクティスとして、必要に応じてアーカイブをアーカイブ解除できるように、アクティビティをアーカイブできます。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at. js2. xでExperience Cloud Debuggerが完全にサポートされていないことを説明する制限が取り除かれました。 |
@@ -72,16 +72,16 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 | 2019年6月1日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS12.2を実行するターゲットデバイスに関する注意事項を追加しました。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | コードサンプルを更新しました。 |
 | 2019年5月31日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 中国語の簡体字言語でドキュメントを利用できるようになりました。 |
-|  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。&quot;TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
+|  | [CSV ファイル内のデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md) | 「注文の詳細をCSVにエクスポート」セクションに新しい注意を追加しました。"TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません」。 |
 |  | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) | スクリーンショットが更新されました。 |
 | 2019年5月29日 | [カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
 |  | [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 次のトピックに移動しました。at. jsの利点。 |
-|  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?&quot; |
+|  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のトピックに移動しました。「ページ読み込み時間にat. jsとmbox. jsが及ぼす影響は何ですか?" |
 |  | [動的データをオファーに渡す](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 過去の動作行の構文を修正しました。 |
-| 2019年5月28日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 新しい節を追加しました。&quot;Target製品ドキュメントの言語の変更」を参照してください。 |
+| 2019年5月28日 | [Adobe Experience Cloud からの Target へのアクセス](/help/c-intro/target-access-from-mac.md#doc-lang) | 新しい節を追加しました。"Target製品ドキュメントの言語の変更」を参照してください。 |
 |  | [勝者の特定](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 情報のp値が更新されました。 |
 |  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Targetが複数レベルのiframeを処理する方法に関するトラブルシューティングの節を追加しました。 |
-|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新しいFAQを追加しました。&quot;Recommendationsの操作で予想されるインジェスト時間枠は何ですか?&quot; |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新しいFAQを追加しました。"Recommendationsの操作で予想されるインジェスト時間枠は何ですか?" |
 |  | [Adobe Launch を使用した Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Target Launch Extensionを使用して、「実装at. jsの利点」の情報を更新しました。 |
 |  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 無効なdoctypeを使用している場合にat. jsに関する新しいトラブルシューティングの節が追加されました。 |
 | 2019年5月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0 に関する情報を追加しました。 |
@@ -190,7 +190,7 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 |  | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | クライアント側実装を説明するための導入区分を追加しました。 |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。「エンティティを動的に除外できますか?」 |
 | 2019 年 3 月 13 日 | [Adobe Experience Cloud デバッガーを使用し、at. js 1.x から at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) へ [のアップグレードおよびat.jsのデバッグを実施](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | デバッガーは at.js 2.x との統合に対応しました。 |
-| 2019 年 3 月 12 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)、および<br>[TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | **2019 年 4 月 2 日** に TLS の変更が発生することを示すテキストを更新しました。 |
+| 2019 年 3 月 12 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)、および<br>[TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | **2019 年 4 月 2 日**&#x200B;に TLS の変更が発生することを示すテキストを更新しました。 |
 |  | [adobe.target.getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次の節を追加しました。「getOffers() および applyOffers() を使用した複数の mbox からのデータの取得およびレンダリング」 |
 | 2019 年 3 月 7 日 | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at_ property 行を「at.js 1.x のパラメーターと at.js 2.x のペイロードマッピング」テーブルに追加しました。 |
 |  | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新しい節を追加しました。「tat.js 2.x と SPA で A4T を正しく作動させるために、triggerView を使用する」 |
@@ -200,7 +200,7 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 |  | [Target の概要](/help/c-intro/intro.md) | 「Target Premium」の下に「オファーとしての Recommendations」を追加しました。 |
 |  | [Target の主要概念](/help/c-intro/target-key-concepts.md) | 「アクティビティタイプ」テーブルを更新しました。 |
 | 2019 年 2 月 27 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | Target API でのエンタープライズ権限のサポートに関する既知の問題を追加しました。 |
-| 2019 年 2 月 26 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)、および<br>[TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 次の情報を更新しました。<br>2019 年 2 月 21 日に、Adobe Target のインフラストラクチャが EMEA、日本および APAC 地域でアップグレードされ、TLS1.1 以降をサポートしていない古いデバイスまたは Web ブラウザーを使用して、エンドユーザーからデータを収集することがなくなりました。このアップグレードは、**2019 年 3 月 5 日** に北米の地域に対して予定されています。TLS 1.2 への移行により、セキュリティが向上します。移行をスムーズに実施するため、詳細を確認し、変更の計画を立てることが重要です。 |
+| 2019 年 2 月 26 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md)、<br>[Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md)、および<br>[TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 次の情報を更新しました。<br>2019 年 2 月 21 日に、Adobe Target のインフラストラクチャが EMEA、日本および APAC 地域でアップグレードされ、TLS1.1 以降をサポートしていない古いデバイスまたは Web ブラウザーを使用して、エンドユーザーからデータを収集することがなくなりました。このアップグレードは、**2019 年 3 月 5 日**&#x200B;に北米の地域に対して予定されています。TLS 1.2 への移行により、セキュリティが向上します。移行をスムーズに実施するため、詳細を確認し、変更の計画を立てることが重要です。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新規セクション：「at.js 1.x のパラメーターから at.js 2.x へのペイロードマッピング」 |
 |  | [拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | ホワイトリストの IP アドレスに「ホスト名」列を追加しました。 |
 | 2019 年 2 月 23 日 | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「ワークスペース ID の取得」のセクションを追加しました。 |
@@ -246,7 +246,7 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target 19.1.1 および at.js 11.6.4 リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 11.6.4リリースに関する情報を追加しました。 |
 |  | [A4Tでの訪問数と訪問者数の最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md) | 2016 年 11 月 15 日以降、リダイレクトオファーを使用して A4T アクティビティを作成できなくなるという注記を削除しました。 |
-|  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 「元のページでページビューが表示されるのはなぜですか?&quot;というメモが追加され、リダイレクトページではカウントされることがありました。 |
+|  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 「元のページでページビューが表示されるのはなぜですか?"というメモが追加され、リダイレクトページではカウントされることがありました。 |
 | 2018 年 12 月 21 日 | [Target のサーバーサイドの実装](../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | CORS に関する注意事項を追加しました。 |
 | 2018 年 12 月 15 日 | [Adobe Launch を使用した Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 新しいトレーニングビデオへのリンクを追加しました。Adobe Launch チュートリアルでのTargetの実装を参照してください。 |
 |  | [パーソナライゼーションインサイトレポート](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | トレーニングビデオへのリンクを追加しました。 |
@@ -259,7 +259,7 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 |  | [多変量分析テストのエクスペリエンスのプレビュー](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 画像が更新されました。 |
 |  | [組み合わせの作成](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | テキストと画像が更新されました。 |
 |  | [多変量分析テストの作成](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | テキストと画像が更新されました。 |
-| 2018 年 12 月 12 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | overrideMboxEdgeServerのデフォルト値がat.js 1バージョン1.6.2から&quot;true&quot;になっていることを追加しました。 |
+| 2018 年 12 月 12 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | overrideMboxEdgeServerのデフォルト値がat.js 1バージョン1.6.2から"true"になっていることを追加しました。 |
 | 2018 年 12 月 8 日 | [ 既知の問題と解決された問題 ](known-issues-resolved-issues.md) | 既知の問題テーブルから、解決された問題テーブルに移動しました。 <ul><li>at.js：at.js と Visitor API2.2.0.0 の間のインタラクションが原因で、.js バージョン 1.0 へのアップグレード後に Microsoft Explorer 11 ブラウザーで mbox が呼び出されない。</li><li>地域と言語によるターゲット設定: 地域ターゲティングオーディエンスを作成する際に、特殊文字（スペースやコンマなど）を含む文字列を検索することは現在機能しません。</li></ul> |
 | 2018 年 12 月 6 日 | [ パーソナライゼーションインサイトレポート ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | パーソナライゼーションインサイトレポートはデフォルトの環境でのみ使用できることに注意してください。 |
 |  | [ Adobe TargetのレポートソースとしてのAdobe Analytics（AT） ](../c-integrating-target-with-mac/a4t/a4t.md) | A4T がサーバー側デプロイメントをサポートしていることを示すための表を更新しました。 |
