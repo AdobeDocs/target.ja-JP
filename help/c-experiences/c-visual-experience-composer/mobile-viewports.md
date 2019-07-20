@@ -61,11 +61,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | Samsung Galaxy Tab 10 | 800（w） x 1280（h） | 800（w） x 1280（h） |
 | Chromebook Pixel | 1280（w） x 850（h） | 2560（w） x 1700（h） |
 
-人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
+人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
 特定のデバイスを使用するユーザーにアクティビティを配信したい場合、アクティビティ図でそのデバイスに最適なオーディエンスを選択します。Mobile Web Composer を使用して、そのデバイスのアクティビティのページを編集します。デジタルエクスペリエンス全体にわたってアクティビティを実行したい場合で、すべてのデバイスで良好な見た目になるようにする場合、ターゲティングを適用せず、モバイルビューポートを使用して各スクリーンサイズでアクティビティをプレビューしてください。
 
-レスポンシブサイトがある場合、通常、サイトは、特定の画面サイズのデバイスでアクセスされると、異なるビューで開くようにデザインされています。新しいビューをトリガーするこれらの画面サイズは、*CSS ブレークポイント*とも呼ばれます。Target で CSS ブレークポイントを保存して、定義した各ビューでエクスペリエンスをプレビューできます。これらの各エクスペリエンスは、Target インターフェイスのモバイルビューポートに表示されます。ディスプレイの上部にあるビューポートをクリックして、各画面サイズのビューを開きます。
+レスポンシブサイトがある場合、通常、サイトは、特定の画面サイズのデバイスでアクセスされると、異なるビューで開くようにデザインされています。新しいビューをトリガーするこれらの画面サイズは、*CSS ブレークポイント*&#x200B;とも呼ばれます。Target で CSS ブレークポイントを保存して、定義した各ビューでエクスペリエンスをプレビューできます。これらの各エクスペリエンスは、Target インターフェイスのモバイルビューポートに表示されます。ディスプレイの上部にあるビューポートをクリックして、各画面サイズのビューを開きます。
 
 サイトがレスポンシブでない場合、アクティビティが特定のデバイスをターゲットにしていれば、引き続き Mobile Web Composer を使用してサイトを表示できます。
 
@@ -77,7 +77,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 エクスペリエンスを作成する際に、使用可能にするモバイルビューポートを設定します。
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]** をクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 1. アカウント環境設定ページの「モバイルビューポート設定」セクションで、「**[!UICONTROL 新規追加]**」をクリックしてモバイルビューポートを追加します。
 
    既存のモバイルビューポートの設定を変更するには、そのビューポートを選択して、編集（鉛筆）アイコンをクリックします。
@@ -130,7 +130,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 この使用例では、Target Standard のモバイルビューポート機能を使用して、iPhone 6 と iPhone 6 Plus の 2 つのバージョンでエクスペリエンスを設定する方法を示しています。
 
-1. Target Standard で、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]** をクリックします。
+1. Target Standard で、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 1. 環境設定ページのモバイルビューポート設定セクションで、iPhone 6 と iPhone 6 plus のモバイルビューポートを作成します。
 
    各ビューポートで次の設定を使用します。
