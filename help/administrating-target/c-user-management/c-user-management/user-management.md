@@ -54,14 +54,14 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザー]** をクリックして新しいユーザーを作成するか、既存のユーザーを編集します。
-1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## ユーザーグループの作成 {#user-groups}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザーグループ]** をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
-1. *Enterprise ユーザーガイド*の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
 
@@ -88,7 +88,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
    | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
 
-詳しくは、*Enterprise ユーザーガイド*の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
+詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
 ## トレーニングビデオ:Target Workspaceの設定方法
 
