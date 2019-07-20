@@ -102,7 +102,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 1. クライアントコードを取得します。
 
-   クライアントコードは、[!DNL Target] インターフェイスの「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」** ページの最上部にあります。
+   クライアントコードは、[!DNL Target] インターフェイスの「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**&#x200B;ページの最上部にあります。
 
 1. 管理番号を取得します。
 
@@ -205,7 +205,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 次の重要な注意点を考慮してください。
 
 * HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
-* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合、`<client code>` を独自のクライアントコードに置き換えてください。このコードは、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」** ページから取得できます。
+* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合、`<client code>` を独自のクライアントコードに置き換えてください。このコードは、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**&#x200B;ページから取得できます。
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
 * 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
@@ -232,7 +232,7 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
    >
    >複数の製品 ID を区切るには、コンマを使用してください。
 
-   **ヒント：** 任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
+   **ヒント：**&#x200B;任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
 
    ```
    <script type="text/javascript"> 
