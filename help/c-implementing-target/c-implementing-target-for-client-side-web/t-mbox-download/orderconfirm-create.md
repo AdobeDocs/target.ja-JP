@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >複数の製品 ID を区切るには、コンマを使用してください。
 
-   **ヒント：** 任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
+   **ヒント：**&#x200B;任意の mbox に注文情報を渡すこともできます（`orderConfirmPage` という名前にする必要はありません）。また、同じキャンペーン内の複数の mbox に注文情報を渡すこともできます。
 
    ```
    <div class="mboxDefault"> 
