@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 アカウントで[!DNL Target Standard]または[!DNL Target Premium]が正しく機能するように、アカウントの環境設定をおこないます。
 
-アカウント環境設定を設定するには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]** をクリックして、希望する環境設定を構成してから、「**[!UICONTROL 送信]**」をクリックします。
+アカウント環境設定を設定するには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]**&#x200B;をクリックして、希望する環境設定を構成してから、「**[!UICONTROL 送信]**」をクリックします。
 
 次の図は、[!UICONTROL アカウント設定]ページで利用できる設定を示しています。
 
