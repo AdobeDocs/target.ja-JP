@@ -19,4 +19,4 @@ translation-type: tm+mt
 
 ## 行動規範のレビュー
 
-提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
