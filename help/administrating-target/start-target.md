@@ -56,6 +56,6 @@ After accepting the invitation to join the [!DNL Adobe Experience Cloud] and log
 
 If your organization has a [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) license, see [Specify roles and permissions](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
 
-[Target Premium](/help/c-intro/intro.md#premium) ライセンスをお持ちの場合は、手順6を参照 [してください。エンタープライズ権限を設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) するに *は、ロールと権限を指定*します。
+[Target Premium](/help/c-intro/intro.md#premium) ライセンスをお持ちの場合は、手順6を参照 [してください。エンタープライズ権限を設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) するに *は、ロールと権限を指定*&#x200B;します。
 
 次の手順は、Target StandardおよびTarget Premiumでユーザーを設定することです。For more information, see [User management](/help/administrating-target/c-user-management/user-management.md).
