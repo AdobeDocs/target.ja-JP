@@ -15,7 +15,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 # A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違{#expected-data-variances-when-not-using-a-t}
 
-Analytics をレポートソース（A4T）として*使用する*場合と*使用しない*場合の [!DNL Target] と Adobe [!DNL Analytics] の予期されるデータの相違に関する情報。A4T はデータの相違を大幅に削減します.
+Analytics をレポートソース（A4T）として&#x200B;*使用する*&#x200B;場合と&#x200B;*使用しない*&#x200B;場合の [!DNL Target] と Adobe [!DNL Analytics] の予期されるデータの相違に関する情報。A4T はデータの相違を大幅に削減します.
 
 ## A4T を利用しない場合に予期されるデータの相違{#expected-using-a4t}
 
@@ -37,7 +37,7 @@ A4T では、Analytics と Target のアクティビティのレポート双方�
 
    A4T をサポートするアクティビティタイプの全リストは、[サポートされているアクティビティのタイプ](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)を参照してください。
 
-## A4T を*利用しない*場合に予期されるデータの相違 {#expected-not-using-a4t}
+## A4T を&#x200B;*利用しない*&#x200B;場合に予期されるデータの相違 {#expected-not-using-a4t}
 
 15 ～ 20％の相違は正常な状態であり、同じデータセットとして見なされます。システムでのカウントが異なる場合は、データの相違がより大きくなり、35 ～ 50％ほどの相違になります。場合によっては、相違がさらに大きくなることもあります。
 
