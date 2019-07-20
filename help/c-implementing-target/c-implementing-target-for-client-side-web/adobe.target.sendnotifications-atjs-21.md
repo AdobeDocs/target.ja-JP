@@ -34,8 +34,8 @@ This function sends a notification to Target edge when an experience is rendered
 | リクエスト&gt;通知&gt;アドレス | オブジェクト | × |  |  |
 | リクエスト&gt;通知&gt;アドレス&gt; url | 文字列 | × |  | 通知が実行されたURL。 |
 | リクエスト&gt;通知&gt; address&gt; referringURL | 文字列 | × |  | 通知が実行された参照元URL。 |
-| リクエスト&gt;通知&gt;パラメーター | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は&quot;profile&quot;で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
-| リクエスト&gt;通知&gt; ProfileParameters | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は&quot;profile&quot;で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
+| リクエスト&gt;通知&gt;パラメーター | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は"profile"で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
+| リクエスト&gt;通知&gt; ProfileParameters | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は"profile"で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
 | リクエスト/通知/順序 | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
 | リクエスト&gt;通知&gt;注文&gt; ID | 文字列 | × | `<=` 250 文字. | 注文 ID. |
 | リクエスト&gt;通知&gt;注文&gt;合計 | 文字列 | × | `>=` 0 | 合計注文額. |
@@ -45,7 +45,7 @@ This function sends a notification to Target edge when an experience is rendered
 | リクエスト&gt;通知&gt; product&gt; categoryId | 文字列 | × | `<=` 128文字;は空白にできません。 | カテゴリ ID. |
 | リクエスト&gt;通知&gt; ID | 文字列 | ○ | `<=` 200文字。 | 通知IDは応答に返され、通知が正常に処理されたことを示します。 |
 | リクエスト/通知/印象ID | 文字列 | × | `<= 128` 文字. | インプレッションIDは、現在の通知を以前の通知または実行リクエストとステッチ（リンク）するために使用します。両者が一致する場合、2つ目以降のリクエストは、アクティビティまたはエクスペリエンスに新しいインプレッションを生成しません。 |
-| リクエスト/通知/タイプ | 文字列 | ○ | &quot;click&quot;または&quot;display&quot;がサポートされています。 | 通知タイプ。 |
+| リクエスト/通知/タイプ | 文字列 | ○ | "click"または"display"がサポートされています。 | 通知タイプ。 |
 | リクエスト&gt;通知&gt;タイムスタンプ | Number`<int64>` | ○ |  | UNIXエポック以降の経過ミリ秒単位の通知のタイムスタンプ。 |
 | リクエスト/通知/トークン | Array of String | ○ |  | 通知の種類に基づいて表示されるコンテンツまたはクリックされたセレクターのトークンのリスト。 |
 | リクエスト&gt;通知&gt; mbox | オブジェクト | × |  | mboxの通知。 |
