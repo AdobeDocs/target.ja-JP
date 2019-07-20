@@ -375,7 +375,7 @@ adobe.target.getOffers({
 
 [!UICONTROL ページ配信] の設定では、オーディエンスに対してTargetアクティビティを有効にして実行するタイミングを決定するルールを設定できます。
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![ページ配信オプションダイアログボックス](/help/c-experiences/assets/page-delivery.png)
 
