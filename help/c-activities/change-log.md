@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
 
-1. アクティビティを開き、**[!UICONTROL 「変更ログ」]** をクリックします。
+1. アクティビティを開き、**[!UICONTROL 「変更ログ」]**&#x200B;をクリックします。
 
    ![アクティビティの変更ログ](/help/c-activities/assets/change_log.png)
 
