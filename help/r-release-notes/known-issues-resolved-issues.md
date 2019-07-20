@@ -53,7 +53,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ### Target API でのエンタープライズパーミッション {#api}
 
-オファーのリストが GET API を使用して取得された場合、オファーライブラリの Target UI から作成されたコードオファーがデフォルトのワークスペースに表示されることがあります。この問題は 2019 年 3 月の第一週に修正されます。この修正が行われると、API から取得すると、コードオファーが適切なワークスペースに表示されます。この問題は API から作成されたオファーには影響*しません*。例えば、API から作成したコードオファーは、GET API を使用して取得されたか、Target UI から取得されたかにかかわらず、作成されたワークスペースに表示されます。
+オファーのリストが GET API を使用して取得された場合、オファーライブラリの Target UI から作成されたコードオファーがデフォルトのワークスペースに表示されることがあります。この問題は 2019 年 3 月の第一週に修正されます。この修正が行われると、API から取得すると、コードオファーが適切なワークスペースに表示されます。この問題は API から作成されたオファーには影響&#x200B;*しません*。例えば、API から作成したコードオファーは、GET API を使用して取得されたか、Target UI から取得されたかにかかわらず、作成されたワークスペースに表示されます。
 
 ### Recommendations
 
@@ -93,11 +93,11 @@ at.js の既知の問題を以下に示します。
 * at.js バージョン 1.0 にアップグレードすると、at.js と Visitor API 2.2.0 とのインタラクションが原因で、Microsoft Explorer 11 ブラウザーでは mbox が実行されません。この問題が関係するのは、at.js バージョン 0.9.6 以降です。（TNT-27600）
 * at.js は、ファーストパーティ cookie が現在サポートされていないので、Cordova／ハイブリッドアプリで動作しない可能性があります。（TNT-26166）
 
-   **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
+   **対処法**："x- only" オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
 
 ### mbox.js
 
-mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に*対応しています*。
+mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
 
 **注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
