@@ -33,11 +33,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
-* **通知** の送信:エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされた場合に、開発者に通知を送信することを許可 `applyOffers()`します。
+* **通知**&#x200B;の送信:エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされた場合に、開発者に通知を送信することを許可 `applyOffers()`します。
 
    For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
-* **at. jsサイズが~24%減少** した場合:at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。
+* **at. jsサイズが~24%減少**&#x200B;した場合:at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。
 
 ## at.js バージョン 2.0.1（2019 年 3 月 20 日）
 
@@ -204,7 +204,7 @@ at.js バージョン 1.3.0 がリリースされました。
 
 [!DNL at.js] バージョン 1.2.1 がリリースされました。
 
-* target=&quot;_blank&quot; を含むリンクでのクリック追跡時に、Target からリンクを新しいタブで開くことができない問題を修正しました。
+* target="_blank" を含むリンクでのクリック追跡時に、Target からリンクを新しいタブで開くことができない問題を修正しました。
 
 ## at.js バージョン 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
