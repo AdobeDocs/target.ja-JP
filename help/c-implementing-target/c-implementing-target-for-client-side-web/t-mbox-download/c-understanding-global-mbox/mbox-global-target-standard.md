@@ -36,7 +36,7 @@ Target Standard は、デフォルトで target-global-mbox というグロー�
 1. 新しい mbox.js ファイルをダウンロードして、サイトで参照します。
 
    本稼動サイトを新しい mbox.js ファイルで更新した後、環境設定を設定します。
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]** をクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 1. 「[!UICONTROL カスタムグローバル mbox]」フィールドに、実装ページで選択したグローバル mbox の名前を指定します。
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
