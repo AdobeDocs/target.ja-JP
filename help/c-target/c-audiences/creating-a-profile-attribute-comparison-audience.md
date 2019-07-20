@@ -36,7 +36,7 @@ Define an audience to compare two profile attributes for your [Audience library]
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL オーディエンス]**／オーディエンスを作成 **[!UICONTROL ]**／ルールを追加 **[!UICONTROL ]**／**[!UICONTROL 訪問者プロファイル]** をクリックします。
+1. **[!UICONTROL オーディエンス]**／オーディエンスを作成&#x200B;****／ルールを追加&#x200B;****／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 訪問者プロファイル]**」ドロップダウンリストから、属性を選択します。
 
    ![傾向スコア1](assets/propensity_score_1.png)
