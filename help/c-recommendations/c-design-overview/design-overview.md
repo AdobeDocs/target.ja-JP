@@ -68,7 +68,7 @@ Target では、電子メールメッセージ、IoT（モノのインターネ�
    1. 「**[!UICONTROL Recommendations]**」を選択します。
    1. 「**[!UICONTROL Experience Composer を選択]**」で、「**[!UICONTROL フォーム]**」を選択します。
 
-   1. 「場所」で &quot;Sample_Recs_Response&quot; というテキストを入力します。
+   1. 「場所」で "Sample_Recs_Response" というテキストを入力します。
    1. 「**[!UICONTROL デフォルトコンテンツ]**」で、下矢印、「**[!UICONTROL レコメンデーションの追加]**」の順にクリックします。
    1. 「ページタイプ」を選択します。これにより、次の画面の最初のフィルタリングが決まります。
    1. 条件カードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
@@ -97,7 +97,7 @@ Target では、電子メールメッセージ、IoT（モノのインターネ�
 
 アルゴリズムを実行して結果が得られたら、応答は次のようになります。
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## JSON オブジェクトに関するその他のヒントとテクニック {#section_C305673C68944749969DB239E3221DC2}
 
