@@ -31,22 +31,22 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
-| user.header(&#39;x-cluster-client-ip&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
-| user.header(&#39;host&#39;) | Web サイトのホスト名 |
-| user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
-| user.header(&#39;user-agent&#39;) | 訪問者のブラウザーのユーザーエージェント |
-| user.header(&#39;accept-language&#39;) | 訪問者の言語 |
-| user.header(&#39;accept-encoding&#39;) | 訪問者の文字エンコード |
-| user.header(&#39;accept&#39;) | 訪問者の言語および文字エンコード |
-| user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
-| user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.get(&#39;param_name&#39;) |  |
+| user.header('x-cluster-client-ip') | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
+| user.header('host') | Web サイトのホスト名 |
+| user.header('cookie') | 訪問者の cookie データ |
+| user.header('user-agent') | 訪問者のブラウザーのユーザーエージェント |
+| user.header('accept-language') | 訪問者の言語 |
+| user.header('accept-encoding') | 訪問者の文字エンコード |
+| user.header('accept') | 訪問者の言語および文字エンコード |
+| user.header('connection') | サーバー接続。例：keep-live |
+| user.header('referrer') | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
+| user.getLocal('param_name','value'); |  |
+| user.setLocal('param_name','value'); |  |
+| user.get('param_name') |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
-| profile.get(&#39;param_name&#39;) |  |
-| profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
+| profile.get('param_name') |  |
+| profile.param('param_name'); |  |
+| profile.parameter('parameter_name'); | profile.  prefix. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -81,9 +81,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 変数 | メモ |
 |--- |--- |
 | `mbox.name` |  |
-| mbox.param(&#39;param_name&#39;) |  |
-| リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
-| 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
+| mbox.param('param_name') |  |
+| リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param('browserHeight')</li><li>mbox.param('browserTimeOffset')</li><li>mbox.param('browserWidth')</li><li>mbox.param('colorDepth')</li><li>mbox.param('mboxXDomain')</li><li>mbox.param('mboxTime')</li><li>mbox.param('screenHeight')</li><li>mbox.param('screenWidth')</li></ul> |
+| 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul> |
 | mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および[顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
 | mboxDebug | デバッグ情報にのみ使用されます。mbox.js が探すページ URL に追加されます。 |
