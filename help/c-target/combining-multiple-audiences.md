@@ -29,7 +29,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 3 ステップのガイドによるワークフローを実行する際に、アクティビティの [!UICONTROL Target] ページで結合オーディエンスをアドホックに作成できます。
 
-1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]** します。
+1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]**&#x200B;します。
 
    ![ステップの結果](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    1. ドラッグ＆ドロップ機能を使用して、既存のセクション内にオーディエンスをレベル 2 の構成要素として追加することができます。レベル1の構成要素を追加するには、目的のオーディエンスの横にあるチェックボックスを選択し、「**[!UICONTROL ルールに追加]**」をクリックします。
 
-      例えば、前の例で、Safariユーザーを結合オーディエンスに含めるとします。次の例のように、&quot;Safari Browser&quot;オーディエンスを検索して右側の&quot;Firefox Browser&quot;ボックスにドラッグします。
+      例えば、前の例で、Safariユーザーを結合オーディエンスに含めるとします。次の例のように、"Safari Browser"オーディエンスを検索して右側の"Firefox Browser"ボックスにドラッグします。
 
       ![](assets/combine_multiple_audiences3.png)
 
-      2 つのブラウザータイプオーディエンスの間の演算子は「AND」になっています。&quot;And&quot;ドロップダウンリストを選択し、それを&quot;OR&quot;に変更して、FirefoxまたはSafariを使用する新規訪問者の新しい結合オーディエンスを作成します。すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、FirefoxおよびSafariを同時に使用してページを訪問することはできません。
+      2 つのブラウザータイプオーディエンスの間の演算子は「AND」になっています。"And"ドロップダウンリストを選択し、それを"OR"に変更して、FirefoxまたはSafariを使用する新規訪問者の新しい結合オーディエンスを作成します。すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、FirefoxおよびSafariを同時に使用してページを訪問することはできません。
 
       >[!NOTE]
       >
@@ -81,7 +81,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の **[!UICONTROL コンバージョン]** を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
+1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
    ![](assets/combine_multiple_audiences4.png)
@@ -97,7 +97,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. 編集中または[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]** ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
+1. 編集中または[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
 
    ![](assets/combine_multiple_audiences6.png)
 
@@ -113,7 +113,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    目的のアクティビティをクリックして開き、「**[!UICONTROL アクティビティ を編集]**」をクリックします。
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンス]** をクリックします。
+1. **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
 
    ![設定/オーディエンス/複数のオーディエンス](/help/c-target/assets/combine_multiple_audiences7.png)
 
