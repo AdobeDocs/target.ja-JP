@@ -39,7 +39,7 @@ Adobe Target では、個々のユーザーごとにプロファイルが作成�
    >
    >API を使用してプロファイル認証トークンを生成もできます。詳しくは、[Adobe Target Developers の Web サイト](https://developers.adobetarget.com/)の[プロファイル](https://developers.adobetarget.com/api/#profiles)を参照してください。
 
-1. トークンをコピーし、リクエストのヘッダーに追加します（形式は &quot;Authorization&quot; : &quot;Bearer&quot;）。
+1. トークンをコピーし、リクエストのヘッダーに追加します（形式は "Authorization" : "Bearer"）。
 
 必要に応じて「[!UICONTROL プロファイル認証トークンを再生成]」をクリックし、トークンを再生成します。
 
