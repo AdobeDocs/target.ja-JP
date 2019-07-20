@@ -28,7 +28,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 顧客属性と Target を使用する際は次の点に注意してください。
 
-* [!UICONTROL  コアサービスの]顧客属性[!DNL People]機能を使用するには、いくつかの前提条件を満たしておく必要があります。詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*の[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)の「顧客属性をアップロードするための前提条件」を参照してください。[!DNL at.js]（任意のバージョン）または [!DNL mbox.js]（バージョン 58 以降）が必要です。
+* [!UICONTROL  コアサービスの]顧客属性[!DNL People]機能を使用するには、いくつかの前提条件を満たしておく必要があります。詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)の「顧客属性をアップロードするための前提条件」を参照してください。[!DNL at.js]（任意のバージョン）または [!DNL mbox.js]（バージョン 58 以降）が必要です。
 * 必ずしも、CRM データベースの顧客属性（訪問者プロファイル）データがすべて Experience Cloud に転送され、Taeget でのターゲット設定に利用できるとは限りません。現在の設計では、データのごく一部が転送されない可能性があります。
 * Experience Cloud から Target にインポートした顧客属性データの有効期間は、訪問者プロファイルの有効期間（デフォルトでは 14 日間）によって決まります。詳しくは、[訪問者プロファイルの有効期間](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * `vst.*` がユーザーを特定する唯一のパラメーターである場合は、`authState` が UNAUTHENTICATED (0) である限り、既存の「認証済み」プロファイルが取得されません。認証済みプロファイルは、`authState` が UNAUTHENTICATED（1）に変わったときに取得されます。
@@ -43,7 +43,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 ![](assets/crm_workflow.png)
 
-次の各タスクを実行する方法について詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)を参照してください。
+次の各タスクを実行する方法について詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)を参照してください。
 
 1. データファイルを作成します。
 
@@ -122,12 +122,12 @@ mbox3rdPartyId をパラメーターとして、`targetPageParams()` () メソ�
 
 ### Experience Cloud ID サービスの使用
 
-Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。詳しくは、*Experience Cloud ID サービスのドキュメント*で、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。
+Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。詳しくは、*Experience Cloud ID サービスのドキュメント*&#x200B;で、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* *Experience Cloud およびコアサービス製品ドキュメント*の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
-* *Digital Marketing ブログ*の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
+* *Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+* *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## よくある問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
