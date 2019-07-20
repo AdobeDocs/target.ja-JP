@@ -34,7 +34,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、«前 **[!UICONTROL に挿入»]**、«後 **[!UICONTROL で挿入»]** または **[!UICONTROL «次のアクションを置換]** »アクションを選択して、«レコメンデーション»を選択 [!UICONTROL ]します。
+1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、«前 **[!UICONTROL に挿入»]**、«後 **[!UICONTROL で挿入»]**&#x200B;または **[!UICONTROL «次のアクションを置換]** »アクションを選択して、«レコメンデーション»を選択 します。
 
    次の図に、[!UICONTROL 後ろに挿入／Recommendation] オプションを示します。
 
@@ -85,7 +85,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 変更パネルを使用した Recommendations オファーの編集
 
-1. [!UICONTROL 変更]アイコン *`&lt;/&gt;&#39;* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
+1. [!UICONTROL 変更]アイコン *`&lt;/&gt;'* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
 1. 目的のアクションの上にカーソルを移動し、[!UICONTROL 編集]アイコンをクリックします。
 
    ![変更パネル](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,7 +107,7 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. [!UICONTROL 変更]アイコン *`&lt;/&gt;&#39;* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
+1. [!UICONTROL 変更]アイコン *`&lt;/&gt;'* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
 1. 目的のアクションの上にカーソルを移動し、[!UICONTROL 削除]アイコンをクリックします。
 
    ![削除アイコン](/help/c-recommendations/assets/recs-offer-delete.png)
