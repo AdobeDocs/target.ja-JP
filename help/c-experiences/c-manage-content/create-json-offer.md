@@ -32,7 +32,7 @@ JSON オファーを使用する際は次の点を考慮してください。
 ## JSON オファーの作成方法 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
-1. **[!UICONTROL 作成]** ／**[!UICONTROL JSON オファー]** をクリックします。
+1. **[!UICONTROL 作成]** ／**[!UICONTROL JSON オファー]**&#x200B;をクリックします。
 
    ![](assets/offer-json.png)
 
@@ -131,7 +131,7 @@ adobe.target.getOffer({
 
 ## JSON オファータイプでのオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL 種類]** ドロップダウンリストをクリックし、「**JSON オファー[!UICONTROL 」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
+**[!UICONTROL 種類]**&#x200B;ドロップダウンリストをクリックし、「**JSON オファー[!UICONTROL 」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
 
 ![](assets/offer-json-filter.png)
 
