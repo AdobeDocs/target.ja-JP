@@ -38,11 +38,11 @@ Target では次のエラーメッセージが表示される場合がありま�
 
 * **問題：** Web サイトのドメイン（ISP）によって拡張 Experience Composer がブロックされています。
 
-   **解決方法：** 上述のリストの IP アドレスをホワイトリストに登録します。
+   **解決方法：**&#x200B;上述のリストの IP アドレスをホワイトリストに登録します。
 
 * **問題：** IP アドレスはホワイトリストに登録されていますが、Web サイトが TLS バージョン 1.2 をサポートしていません。Target は現在 1.2 のデフォルト設定を利用します。Target 18.4.1 （2018 年 4 月 26 日）前までは、デフォルト設定で TLS 1.0 をサポートしていました。詳細は、「[TLS（Transport Layer Security）暗号化の変更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)」を参照してください。
 
-   **解決策：** 次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。
+   **解決策：**&#x200B;次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
@@ -51,7 +51,7 @@ Target では次のエラーメッセージが表示される場合がありま�
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
 1. Firefox で対象の Web サイトを開きます。
-1. ブラウザーのアドレスバーにある **[!UICONTROL サイトの情報を表示します]アイコンをクリックします。**
+1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]アイコンをクリックします。**
 
    ![](assets/firefox_more_info.png)
 
