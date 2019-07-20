@@ -34,6 +34,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![](assets/select-per-activity.png)
 
-アクティビティを作成および編集する **** 目標と設定]画面で、**[!UICONTROL レポートソース]ドロップダウンリストが有効になります。[!UICONTROL **
+アクティビティを作成および編集する&#x200B;****&#x200B;目標と設定]画面で、**[!UICONTROL レポートソース]ドロップダウンリストが有効になります。[!UICONTROL **
 
 レポートソースとして常に Analytics を使用するには、「セットアップ」のドロップダウンリストから「**[!UICONTROL Adobe Analytics]」を選択します。**
