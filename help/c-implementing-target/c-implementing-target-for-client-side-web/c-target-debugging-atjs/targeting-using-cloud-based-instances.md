@@ -22,8 +22,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 これらのドメインは、他の多くのドメインと同様に[パブリックサフィックスリスト](https://publicsuffix.org/list/public_suffix_list.dat)に含まれています。
 
-**問題：** 最新型のブラウザーでは、これらのドメインを使用していると Cookie が保存されません。
+**問題：**&#x200B;最新型のブラウザーでは、これらのドメインを使用していると Cookie が保存されません。
 
 [!DNL at.js] と [!DNL mbox.js] JavaScript ライブラリでは、Cookie を使用してユーザーを追跡し、[!DNL Target] で常に一貫性のあるエクスペリエンスを提供できるようにしています。[!DNL Target] の JavaScript ライブラリで Cookie を保存できないと、[!DNL Target] のリクエストが無効になります。
 
-**解決策：** パブリックサフィックスリストに含まれているドメインを使用してクラウドベースのインスタンスを利用する必要がある場合は、`cookieDomain` 設定をカスタマイズすることをお勧めします。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+**解決策：**&#x200B;パブリックサフィックスリストに含まれているドメインを使用してクラウドベースのインスタンスを利用する必要がある場合は、`cookieDomain` 設定をカスタマイズすることをお勧めします。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
