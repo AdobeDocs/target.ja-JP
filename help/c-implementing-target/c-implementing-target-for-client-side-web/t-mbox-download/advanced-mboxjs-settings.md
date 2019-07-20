@@ -50,7 +50,7 @@ mbox.js ライブラリファイルをどの程度圧縮するかを指定しま
 
 次に例を示します。
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## mboxSupported() 関数本体
 
@@ -58,7 +58,7 @@ return &quot;test=123&quot;;
 
 次に例を示します。
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
+return !navigator.userAgent.indexOf('Safari') ! = -1;
 
 以下のブラウザーを受け入れるか、または除外することができます。
 
@@ -73,7 +73,7 @@ return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
 
 次に例を示します。
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## 追加の JavaScript
 
