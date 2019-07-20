@@ -58,7 +58,7 @@ Recommendations のデザインについては、[デザインの概要](/help/c
 
 `${user.parameter}`
 
-Recommendations のデザインで動的属性を使用する場合、動的値を正しくレンダリングするには、`\${user.endpoint.lastViewedEntity}` のようにドル記号（&#39;$&#39;）の前にバックスラッシュ（&#39;\&#39;）を挿入する必要があります。
+Recommendations のデザインで動的属性を使用する場合、動的値を正しくレンダリングするには、`\${user.endpoint.lastViewedEntity}` のようにドル記号（'$'）の前にバックスラッシュ（'\'）を挿入する必要があります。
 
 これらの変数はサーバーサイドの値で置き換えられるので、引用符やその他の JavaScript がなくても正しく表示されます。
 
