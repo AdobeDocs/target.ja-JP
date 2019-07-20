@@ -24,7 +24,7 @@ Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-tar
 
 ## シナリオ:エクスペリエンスのターゲット設定
 
-Webサイトに屋外機器が搭載されているとします。A/Bテストのレポートでは、異なるオーディエンスで共鳴する3つのエクスペリエンスがあることを示します。この発見を活用するには、訪問者の場所や趣味に応じて、ホームページに異なるヒーロー画像を表示して、これらの異なるオーディエンスを惹きつけます。このシナリオでは、ニュージャージー州からの訪問者に対してハイキング画像を表示し、ハワイからの訪問者に対してサーフィン画像を表示します。また、「いいね!&quot;をクリックするオーディエンスもあります。bikingオーディエンスにアピールする3つ目のヒーロー画像を表示したい。
+Webサイトに屋外機器が搭載されているとします。A/Bテストのレポートでは、異なるオーディエンスで共鳴する3つのエクスペリエンスがあることを示します。この発見を活用するには、訪問者の場所や趣味に応じて、ホームページに異なるヒーロー画像を表示して、これらの異なるオーディエンスを惹きつけます。このシナリオでは、ニュージャージー州からの訪問者に対してハイキング画像を表示し、ハワイからの訪問者に対してサーフィン画像を表示します。また、「いいね!"をクリックするオーディエンスもあります。bikingオーディエンスにアピールする3つ目のヒーロー画像を表示したい。
 
 XTアクティビティを使用すると、各オーディエンスにアピールする異なるヒーロー画像を持つ3つのオーディエンスをターゲット設定できます。The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. ビデオでは、目標達成に3つのエクスペリエンスを注文する方法も示しています。Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
