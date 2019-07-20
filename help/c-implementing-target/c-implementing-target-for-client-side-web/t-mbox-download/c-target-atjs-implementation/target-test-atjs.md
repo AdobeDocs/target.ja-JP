@@ -20,7 +20,7 @@ DTM を使用する場合、Adobe Target ツール設定に簡単に at.js を�
 
 ライブラリを保存すると、DTM Switch ツールを使用して、実稼動用コードに対してテストできます。また、これにより、アドビのコンサルタントがユーザーをサポートしやすくなります。
 
-詳しくは、Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス__ガイドの[オプション 3：DTM でホストされた Target JavaScript ライブラリによる Target の手動での実装](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)を参照してください。
+詳しくは、Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス&#x200B;__&#x200B;ガイドの[オプション 3：DTM でホストされた Target JavaScript ライブラリによる Target の手動での実装](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)を参照してください。
 
 ## Chrome 拡張機能「Requestly」を使用した別のファイルへのマッピング
 
