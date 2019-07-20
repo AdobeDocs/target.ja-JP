@@ -22,7 +22,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
 * Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
 
-1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]** します。
+1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]**&#x200B;します。
 
    ![ステップの結果](assets/edit_audience.png)
 
