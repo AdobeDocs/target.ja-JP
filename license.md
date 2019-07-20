@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+translation-type: tm+mt
 
 ---
 # MITライセンス
@@ -17,7 +17,7 @@ translation-type: ht
 上記の著作権表示とこの権限通知は、本ソフトウェアのすべての
 コピーまたは主要部分に含める必要があります。
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT.いかなる場合も、作者または著作権保持者は、本ソフトウェアまたは本ソフトウェアの使用もしくはその他の取り扱いから、またはそれらに関連して生じる一切の請求、損害、その他の責任に対して、契約上の行為、不法行為またはそれ以外にかかわらず、いかなる責任も負いません。
