@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. この設定を行うと、ペイロードの形式は次のようになります。
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. この設定を行うと、ペイロードの形式は次のようになります。
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
 
 次に例を示します。
 
