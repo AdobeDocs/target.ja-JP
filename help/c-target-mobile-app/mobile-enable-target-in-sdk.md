@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    [コア実装とライフサイクル](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html)の説明を参照してください。
 1. クライアントコードとタイムアウトを追加し、SSL を有効にします。
 
-   Experience Cloud で、Mobile Services を開き、**[!UICONTROL アプリケーション設定 を管理]**／**[!UICONTROL SDK Target オプション]** に移動します。
+   Experience Cloud で、Mobile Services を開き、**[!UICONTROL アプリケーション設定 を管理]**／**[!UICONTROL SDK Target オプション]**&#x200B;に移動します。
 
    Target クライアントコードとタイムアウトを追加します。クライアントコードは、それぞれのアカウントまたは会社で一意になります。タイムアウトは、Target がデフォルトのコンテンツを表示する前に応答を待つ時間を秒数で示したものです。Adobe Mobile Services のアプリ設定ページで「**[!UICONTROL HTTPS を使用]」オプションがチェックされていることを確認します。** HTTPS が有効になっていない場合、Target サーバーをホワイトリストに入れない限り、iOS9 以降のすべての呼び出しがブロックされます。
 
