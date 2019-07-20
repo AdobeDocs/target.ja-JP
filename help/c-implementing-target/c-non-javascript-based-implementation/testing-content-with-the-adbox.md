@@ -46,7 +46,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
 1. 各代替画像の[リダイレクトオファー](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を作成します。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >adbox は、リダイレクトオファーまたはデフォルトコンテンツオファーを使用して読み込む必要があります。その他のオファータイプは使用できません。adbox は URL なので、受け取った URL しか表示できません。つまり、リダイレクトオファーのみが機能します。
 
