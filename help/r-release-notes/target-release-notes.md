@@ -1,14 +1,14 @@
 ---
-description: これらのリリースノートでは、最新または今後の[!DNL Adobe Target]リリースを参照してください。
+description: 最新または今後の[!DNL Adobe Target]リリースを参照してください。
 keywords: リリースノート
-seo-description: これらのリリースノートでは、最新または今後の[!DNL Adobe Target]リリースを参照してください。
+seo-description: 最新または今後の[!DNL Adobe Target]リリースを参照してください。
 seo-title: Adobe Targetリリースノート（プレリリース版）
 solution: 'Target '
 title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
+source-git-commit: 48d265feb329355f5aabe34a6a950d78df981966
 
 ---
 
