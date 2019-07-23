@@ -8,7 +8,7 @@ title: モバイルアプリ VEC でのクリック追跡のセットアップ
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * Mobile App VECでは、クリックハンドラを持つ要素のみを選択できます。
 * アプリケーションのセクションはどれでも参照できますが、クリック追跡の対象となる要素を選択するセクションに対して[ビュー](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)が定義されていることを確認してください。
 * アクティビティを編集する際、手順 1 で既にデバイスを選択している場合は、デバイスを再度選択する必要はありません。ただし、クリック追跡ページに直接アクセスした場合は、認証されたデバイスを選択するためのデバイス選択ページが表示されます。
+* モバイルアプリVECには、クリック追跡用に設定した要素を表示する変更パネルが表示されます。
+
+   ![クリック追跡を表示する変更パネル
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
