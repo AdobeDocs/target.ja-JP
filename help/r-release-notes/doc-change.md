@@ -1,14 +1,14 @@
 ---
 description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
 keywords: targetドキュメントの変更ログ;ドキュメントの更新
-seo-description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
-seo-title: ドキュメントの変更点Adobe Target製品ドキュメント
+seo-description: このページには、Adobe Targetのドキュメントに加えられた重要な変更点が記載されています。
+seo-title: Adobe Target製品ドキュメントのドキュメントの変更点
 solution: 'Target '
 title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 # ドキュメントの変更点{#documentation-changes}
 
 このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
+
+## Adobe Target Standard/Premium 19.7.1（2019 年 7 月 23 日） {#tgt-19-7-1}
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2019年7月25日 | [at. js1.*x* からat. js2.*xへのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple Intelligent Tracking Prevention（ITP）2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新規トピックです。 |
+|  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新しい節を追加しました。「レコメンデーションオファーのステータスの表示」を参照してください。 |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md) | カタログの更新方法に関するテキストを更新しました。 |
+|  | [モバイルアプリ でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | クリック追跡用に設定した要素を表示する変更パネルに関する情報を追加しました。 |
+|  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md#bots) | 新しい節を追加しました。「ボット」 |
+|  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 正規表現の実行を遅く避けるためにベストプラクティスを追加しました。 |
+|  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 「トラブルシューティング」セクションが更新され、文字制限がアプリ名に適用されなくなりました。制限はIDにのみ適用されます。 |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md#steps) | サポートされているFTPサーバー設定を手順に追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.1.1 に関する情報を追加しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：19.7.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日） {#tgt-19-6-1}
 
