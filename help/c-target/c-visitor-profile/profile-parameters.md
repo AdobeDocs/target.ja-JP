@@ -8,7 +8,7 @@ title: プロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 5af98ebdb15ddbb3c57a4e76c66db2a5ce1c576f
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -114,7 +114,7 @@ if (mbox.name == 'Track_Interest') {
 * 使用される JavaScript 命令が多すぎる。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * 後述の[ベストプラクティス](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)の節で取り上げられている項目に従っていない。
 
-## ベストプラクティス{#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
+## ベストプラクティス{#best}
 
 次のガイドラインは、エラーや失敗をできるだけなくした簡潔なプロファイルスクリプトを記述するためのもので、正常に失敗するコードを記述することで、プロファイルスクリプトの処理時にシステムスクリプトの停止が起こらないようにするものです。これらのガイドラインは、効果的に実行されることが証明されたベストプラクティスによるものです。このガイドラインは、Rhino 開発者コミュニティによる原則および推奨事項に従い適用されるものです。
 
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 文字列の長さは 1,300 文字、ループ回数は 50 回を超えないようにします。
 * JavaScript 命令は 2,000 個を超えないようにします。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * スクリプトのパフォーマンスだけでなく、組み合わされたすべてのスクリプトのパフォーマンスにも注意してください。ベストプラクティスとして、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、2 KB を超えるスクリプトは自動的に無効になることです。実行できるスクリプト数に制限はありませんが、各スクリプトは mbox 呼び出しごとに実行されます。必要なスクリプトだけを実行します。
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed: the regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. このようなregexが十分な入力データに一致する場合、スクリプト実行は中断できます（最大数の文字を使用できます）。
+* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. このようなregexが十分な入力データに一致する場合、スクリプトの実行は中断できます（100文字未満の値になる可能性があります）。
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
