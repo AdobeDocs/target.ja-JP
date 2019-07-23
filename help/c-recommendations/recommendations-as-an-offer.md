@@ -8,7 +8,7 @@ title: 'オファーとしての Recommendations '
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 編集メニューを使用した Recommendations オファーの編集
 
-1. 編集するオファーをクリックし、「編集」をクリックします。
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![編集メニュー](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![レコメンデーションオファーの編集](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 次のオプションから選択します。
 
@@ -85,8 +85,8 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 変更パネルを使用した Recommendations オファーの編集
 
-1. [!UICONTROL 変更]アイコン *`&lt;/&gt;'* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
-1. 目的のアクションの上にカーソルを移動し、[!UICONTROL 編集]アイコンをクリックします。
+1. [!UICONTROL 変更] アイコン **（`</>`）** をクリックして [、変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) パネルを表示します。
+1. 目的のアクションの上にカーソルを移動し、**[!UICONTROL 編集]アイコンをクリックします。**
 
    ![変更パネル](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 編集メニューを使用した Recommendations オファーの削除
 
-1. 削除するオファーをクリックし、[!UICONTROL レイアウト／削除]をクリックします。
+1. Click the offer you want to remove, then click **[!UICONTROL Layout &gt; Remove]**.
 
    ![削除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. [!UICONTROL 変更]アイコン *`&lt;/&gt;'* をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
+1. [!UICONTROL 変更] アイコン **（&lt;/&gt;）** をクリックして [、変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) パネルを表示します。
 1. 目的のアクションの上にカーソルを移動し、[!UICONTROL 削除]アイコンをクリックします。
 
    ![削除アイコン](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* 結果準備完了
+* 結果が準備できていません
+* フィード失敗
+
+![Recommendationsオファーのステータス](/help/c-recommendations/assets/recs-offer-status.png)
