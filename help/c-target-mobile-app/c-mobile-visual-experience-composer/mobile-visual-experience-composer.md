@@ -7,7 +7,7 @@ title: モバイルアプリケーション Visual Experience Composer
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ VEC で実施した処理は、リアルタイムでアプリケーション内�
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![バージョンの管理ダイアログボックス](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## トラブルシューティング {#troubleshooting}
-
-**アプリの接続が切断されたという警告がモバイルアプリ VEC に表示されます。**
-
-インターネット接続が切断された可能性があります。インターネットが利用可能になってからアプリケーションを再起動すれば、新たな接続が確立されます。WiFi 接続でモバイルアプリ VEC のアクティビティをオーサリングすることをお勧めします。
-
-**モバイルアプリ VEC がモバイルアプリと同期しません。**
-
-VEC の「[!UICONTROL 更新]」ボタンをクリックして、画面を同期させます。
 
 ## Target ビューとモバイルアプリケーション {#target-views}
 
@@ -194,9 +184,17 @@ Target オファーがプリフェッチされるたびに、`AdobeTargetMobile.
 
 ## トラブルシューティング {#ts}
 
-**"context. application. name"値に禁止されている文字が含まれているというエラーを受け取りました。What characters are allowed in mobile app names?**
+**アプリの接続が切断されたという警告がモバイルアプリ VEC に表示されます。**
 
-モバイルアプリ名で使用できる文字には、次のものがあります。
+インターネット接続が切断された可能性があります。インターネットが利用可能になってからアプリケーションを再起動すれば、新たな接続が確立されます。WiFi 接続でモバイルアプリ VEC のアクティビティをオーサリングすることをお勧めします。
+
+**モバイルアプリ VEC がモバイルアプリと同期しません。**
+
+VEC の「[!UICONTROL 更新]」ボタンをクリックして、画面を同期させます。
+
+**"context. application. id"値に禁止されている文字が含まれているというエラーを受け取りました。What characters are allowed in mobile app IDs?**
+
+モバイルアプリIDで使用できる文字には、次のものがあります。
 
 | 許可されている文字 | 説明 |
 | --- | --- |
@@ -215,7 +213,7 @@ Target オファーがプリフェッチされるたびに、`AdobeTargetMobile.
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## 既知の制限事項 {#limitations}
