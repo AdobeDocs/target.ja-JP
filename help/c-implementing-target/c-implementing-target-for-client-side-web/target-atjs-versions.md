@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -20,6 +20,24 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!IMPORTANT]
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
+
+## at. jsバージョン2.1.1（2019年7月24日）
+
+at. jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+* Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
+* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
+* URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
+* `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
+* 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
+* 複数のエクスペリエンスにわたるクリック追跡が期待どおりに動作しない問題を修正しました。（TNT-32644）
+* 最初の指標のレンダリングに失敗した後に、at. jsが2番目の指標を適用できない問題を修正しました。（TNT-32628）
+* `mboxThirdPartyId``targetPageParams` リクエストのペイロードがクエリパラメーターまたはリクエストのペイロードに存在しない場合に、リクエストのペイロードが送信されない問題を修正しました。（TNT-32613）
+* Chromeベースのブラウザー（Google Chromeを含む）で表示およびクリック通知応答がブロックされる問題を修正しました。（TNT-32290）
 
 ## at. jsバージョン2.1.0（2019年6月3日）
 
