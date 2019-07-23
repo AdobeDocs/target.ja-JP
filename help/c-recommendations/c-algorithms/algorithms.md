@@ -1,7 +1,7 @@
 ---
 description: 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
-keywords: レコメンデーション;レコメンデーションアクティビティ;条件
-seo-description: 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+keywords: レコメンデーション;レコメンデーションアクティビティ;条件;;アルゴリズム
+seo-description: Adobe Targetの条件は、事前に定義された訪問者の行動に基づいてレコメンデーションする製品を決定するルールです。
 seo-title: 条件
 solution: 'Target '
 title: 条件
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ポップアップカードにカーソルを合わせてから、条件カードの情報アイコンをクリックすると、条件を開くことなくポップアップカードの条件の詳細を表示できます。
 
-![](assets/criteria_hover.png)
+![条件カードのポイント](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 「**[!UICONTROL アルゴリズム情報]」タブをクリックして、選択した条件に関する一般的な情報（名前、説明、業種、ページタイプ、レコメンデーションキー、レコメンデーションロジック、アルゴリズム ID など）を表示します。**
 
-![](assets/criteria_info.png)
+![「アルゴリズム情報」タブ](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 「**[!UICONTROL アルゴリズム使用状況]」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。**&#x200B;カードには、アクティブなアクティビティと非アクティブなアクティビティが一覧表示されます。「ライブアクティビティ」または「非アクティブなアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
 
-![](assets/criteria_usage.png)
+![「条件の使用」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## 条件の結果を表示するタイミングの決定 {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,8 +91,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 次の図は、Recommendations アクティビティの概要ページのアクティビティ図を示しています。また、アクティビティ作成ワークフローの手順 2 で、条件ステータスの結果を示すアクティビティ図を表示することもできます。
 
-![](assets/criteria_status.png)
+![概要ページの条件のステータス](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 ステータスの結果には、次の図に示すように、Results Ready（結果を表示できます）、Results Not Ready（結果は準備中です）、Feed Failure（フィードに問題があります）が含まれます。
 
-![](assets/crit
+![](assets/criteria_status_multi.png)
+
