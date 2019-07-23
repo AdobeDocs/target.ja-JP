@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
 
 ---
 
@@ -23,7 +23,35 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ## リリースノート - 2019 年 {#releases-2019}
 
-### [!DNL Target] Standard／Premium 19.5.1（2019 年 5 月 22 日）{#tgt-19-5-1-historica}
+## Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1-historical}
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Visual Experience Composer（VEC） | **新しいVECメニューオプション**:VECでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。<ul><li>[!UICONTROL スタイル/背景] オプションを使用して、選択した要素の背景画像と色を変更できるようになりました。（TGT-15001）</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**クリック追跡の改善**:VECおよびシングルページアプリケーション（SPA） VEC内でのクリック追跡の設定プロセスを改善しました。<ul><li>クリック追跡で使用する要素を選択する際、使用可能なすべてのエレメントの名前が右側の変更パネルに表示され、目的の要素をすばやく簡単に選択できます。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. この番号にマウスポインターを置くと、選択したすべての要素の名前を表示できます。（TGT-33878）</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
+| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイド付きワークフロー**:新しいガイド付きワークフローは、単一ページアプリ用にアクティビティを実行して実行するために、ページ配信ルール設定をどのように設定すべきかを理解するのに役立ちます。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**コピーの変更**:SPA VECを使用して変更を定義し、その変更を単一ページアプリの他のビューで使用するためにコピーできるようになりました。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Mobile Visual Experience Composer | **複数のアプリケーションバージョン**:モバイルアプリの複数バージョンのアクティビティを作成できるようになりました。これにより、バージョンが類似していて、アプリケーションのUIを大幅に変更する必要がなくなります。(TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
+| ![Premiumバッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）および自動ターゲット | **コントロールとしての特定のエクスペリエンス**:APまたは自動ターゲットアクティビティの作成時に、コントロールとして使用するエクスペリエンスを選択できます。この機能により、アクティビティで設定されたトラフィック配分の割合に基づいて、特定のエクスペリエンスにコントロールトラフィック全体をルーティングできます。その後、その1つのエクスペリエンスへのトラフィックを制御するために、パーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在の制御オプション（ランダムに提供されるエクスペリエンス）は引き続き使用できます。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**パーソナライゼーションインサイトレポート**:訪問者が特定の場所で特定のコンテンツ部分を表示したときに、属性にわかりやすい名前を付けると、より有意義な情報を提供します。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premiumバッジ](/help/assets/premium.png) の推奨事項 | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件を作成»の?«最近表示した項目?[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) |
+| Google Chromeサイトのcookieポリシー | Googleは最近、2019年7月30日リリース用に設定されているChrome76から開始し、開発者はWebサイト間で動作できるcookieとユーザーを追跡できるcookieを明示的に指定する必要があります。<br>業界では、消費者向けにより安全なWebを作成するために、Targetは、訪問者に対して、ミーティング中にパーソナライズされたエクスペリエンスを配信し、訪問者のプライバシー期待を超えていることに積極的にコミットされています。<br>[Google Chrome SAeSite cookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
+
+## at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+
+at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| アドビオプトインサポート | Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
+| 業界標準CSP準拠 | at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。 |
+| クライアント側の分析ログ | 顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーが自由に制御できます。<br>詳しくは、実装する前に [、クライアント側のAnalyticsログを参照](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)**&#x200B;してください。 |
+| 通知の送信 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。 |
+| ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
+| at. jsドキュメントの更新 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+
+### [!DNL Target] Standard／Premium 19.5.1（2019 年 5 月 22 日）{#tgt-19-5-1-historical}
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
