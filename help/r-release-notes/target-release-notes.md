@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 71419ee6053eeb86ab6595cfba2f05d8506e05b3
+source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 
 ---
 
@@ -35,6 +35,26 @@ source-git-commit: 71419ee6053eeb86ab6595cfba2f05d8506e05b3
 | ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリ4.3を使用したAppleのTP2.1およびITP2.2のTargetサポート | 今日、Targetのお客様は、アドビのCNAME認定プログラムを利用してAppleのTP2.1およびITP2.2を軽減することができます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。EIDライブラリは、ブラウザーによって導入されるCookieポリシーの変更に堅牢なソリューションを提供する、ロールアウト機能の強化を継続します。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
+
+## at. jsバージョン2.1.1（2019年7月24日）
+
+at. jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+* Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
+* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
+* URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
+* `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
+* 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
+* 複数のエクスペリエンスにわたるクリック追跡が期待どおりに動作しない問題を修正しました。（TNT-32644）
+* 最初の指標のレンダリングに失敗した後に、at. jsが2番目の指標を適用できない問題を修正しました。（TNT-32628）
+* `mboxThirdPartyId``targetPageParams` リクエストのペイロードがクエリパラメーターまたはリクエストのペイロードに存在しない場合に、リクエストのペイロードが送信されない問題を修正しました。（TNT-32613）
+* Chromeベースのブラウザー（Google Chromeを含む）で表示およびクリック通知応答がブロックされる問題を修正しました。（TNT-32290）
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 **機能強化、修正、変更点**
 
