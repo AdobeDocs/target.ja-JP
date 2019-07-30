@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 ---
 
@@ -330,6 +330,8 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 **サイトで使用する場所**
 
 ホームまたはランディングページとオフサイト広告などの、一般的なページ。
+
+[!NOTE]最近表示した項目は、グローバル設定と、アクティビティの選択したコレクション設定の両方に従います。項目がグローバル除外によって除外されるか、選択したコレクションに含まれていない場合、その項目は表示されません。したがって、最近表示した項目の条件を使用する場合、通常は「すべてのコレクション」の設定を使用する必要があります。
 
 ### Previously Purchased Items {#previously-purchased}
 
