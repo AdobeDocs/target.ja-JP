@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -43,7 +43,7 @@ With the upcoming [!DNL Target] September 2019 release, Target Enterprise Permis
 
 **必要なアクション**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客の場合、すべてのワークスペースにおけるリソース（アクティビティ、オーディエンス、オファーおよびレポート）は、使用事例に従って、すべてのワークスペースへのアクセス権を付与する必要があります。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. これで、目的の役割を選択できます。
 
-This action *must* be performed before September 4, 2019 to not face any disruption on your end. このアクションが実行されない場合、DNL Target99月リリースでは、アクセス制御がアクティブになり、現在設定されている場合にのみデフォルトのワークスペースへのアクセス権を確認できます。上記のガイドラインに従って、統合の設定に悪影響を及ぼすことはありません。この変更を早くすると、改善につながります。組織内のワークスペースの数によっては、これを設定するのに小さい時間が必要です。このプロセスでは、既存の統合をワークスペースに追加して、目的のロールを持つワークスペースに追加するだけで済みます。
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 上記のガイドラインに従って、統合の設定に悪影響を及ぼすことはありません。この変更を早くすると、改善につながります。組織内のワークスペースの数によっては、これを設定するのに小さい時間が必要です。このプロセスでは、既存の統合をワークスペースに追加して、目的のロールを持つワークスペースに追加するだけで済みます。
 
 ## Target Standard／Premium 19.8.1（2019 年 8 月 20 日） {#tgt-19-8-1}
 
