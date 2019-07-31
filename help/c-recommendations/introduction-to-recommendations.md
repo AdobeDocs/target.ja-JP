@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ Besides user behavior in aggregate, you need to pass [!DNL Target] the specific 
 
 ![以下に、レコメンデーションアクティビティの構成要素を示します。オーディエンス、条件およびデザイン](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. これらの各項目をカスタマイズしたり、独自のアイテムを追加したりできます。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. ここでは、魔女項目を定義する条件の定義について説明します。
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. これらの各項目をカスタマイズしたり、独自のアイテムを追加したりできます。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. ここでは、レコメンデーションする品目を定義する条件の定義について説明します。
 
 Targetは、条件カードの概念を使用します。条件カードは、パーソナライゼーションのレシピと似ています。
 
@@ -166,7 +166,7 @@ The following sections describe the various parts of this funnel and how they wo
 * 最後に購入または買い物かごに追加した品目
 * 訪問者または項目に関連するカスタム属性
 
-これらのキーに基づいて、次のように推奨ロジックを選択します。
+これらのキーに基づいて、目的のレコメンデーションロジックを選択します。
 
 * 類似の属性を持つ品目
 * 特定のカテゴリで最も閲覧された品目
