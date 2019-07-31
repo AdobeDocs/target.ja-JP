@@ -1,5 +1,5 @@
 ---
-description: 既存のAdobe I/O統合を許可することに関する情報は、目的のロールを持つすべてのワークスペースにアクセスできます。
+description: Adobe I/O統合を許可することに関する情報は、目的のロールを持つすべてのワークスペースにアクセスできます。
 keywords: 統合;役割;ユーザー権限;admin console
 seo-description: 既存のAdobe I/O統合を許可することに関する情報は、Adobe Targetで目的のロールを持つすべてのワークスペースにアクセスできます
 seo-title: Adobe I/O統合のワークスペースへのアクセス権の付与、およびAdobe Targetでのロールの割り当て
@@ -7,7 +7,7 @@ solution: 'Target '
 subtopic: 導入
 title: Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![「統合」タブ](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. **[!UICONTROL 製品の役割]** ドロップダウンリストから、そのワークスペースに対して目的のロールを選択します。
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL 承認者]
+   * [!UICONTROL 編集者]
+   * [!UICONTROL 監視者]
    ![製品プロファイルの役割の選択](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
