@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
 
 ---
 
@@ -42,6 +42,7 @@ source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
       + Enterprise ユーザーの権限 {#enterprise}
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
+         + [Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classicの統合](administrating-target/scene7-settings.md)
    + [ホスト](administrating-target/hosts.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
