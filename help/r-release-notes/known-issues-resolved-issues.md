@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### リンクのプレビュー {#preview}
+
+アカウントに保存されているアクティビティが多すぎる場合、保存したアクティビティのリンクのプレビューが読み込まれないことがあります。プレビューリンクを再試行すると、機能しなくなります。これが継続的に発生しないようにするには、保存されなくなった保存済みアクティビティをアーカイブします。（TNT-32697）
 
 ### リダイレクトオファー {#redirect}
 
