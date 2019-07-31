@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -337,6 +337,7 @@ source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)
+   + [Recommendationsの概要](/help/c-recommendations/introduction-to-recommendations.md)
    + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
    + エンティティ {#entities}
       + [エンティティの概要](c-recommendations/c-products/products.md)
