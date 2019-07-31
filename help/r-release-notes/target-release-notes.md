@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2019 年 7 月 24 日**
+**最終更新日：2019 年 7 月 31 日**
 
 >[!NOTE]
 >
@@ -25,42 +25,31 @@ source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard／Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
+## 発表
 
-このリリースには、次の新機能および機能強化が含まれています。
+Enterprise Permissions allows [!DNL Target] customers to use a single organization, but divide it into workspaces for their different teams or workflows. これにより、チーム全体で最適化プログラムを効果的に拡大・縮小できます。Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier this year. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February update granted access to all workspaces with [!UICONTROL Approver] access.
 
-| 機能／拡張機能 | 説明 |
-| --- | --- |
-| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
-| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
-| Experience Cloud ID（ECID）ライブラリ4.3を使用したAppleのTP2.1およびITP2.2のTargetサポート | 今日、Targetのお客様は、アドビのCNAME認定プログラムを利用してAppleのTP2.1およびITP2.2を軽減することができます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。EIDライブラリは、ブラウザーによって導入されるCookieポリシーの変更に堅牢なソリューションを提供する、ロールアウト機能の強化を継続します。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
+With the upcoming [!DNL Target] September 2019 release, Target Enterprise Permissions will provide customers with the following access controls:
 
-## at. jsバージョン2.1.1（2019年7月24日）
+* 統合を適用できるワークスペースを選択できます
+* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
 
-at. jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+この更新では、以下の使用例がサポートされます。
 
-（括弧内の問題番号はアドビ社内で使用されます。）
+* Grant the Adobe I/O integration access to all workspaces with the [!UICONTROL Observer] role for reporting purposes with no rights to create or edit resources.
+* Adobe I/Oの統合に適切な役割を持つワークスペースを選択することにより、チームは、少数のワークスペースでのAPIによる変更の実施を中央チームに許可します。
+* ワークスペースを所有する各チームは、チームがAPIを参照できる準備が整っていて、それに応じてロールを選択するたびに、独自の統合を行うことを決定します。
+* 上記のいずれかのシナリオをミックスして一致させます。
 
-* Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
-* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
-* URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
-* `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
-* 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
-* 複数のエクスペリエンスにわたるクリック追跡が期待どおりに動作しない問題を修正しました。（TNT-32644）
-* 最初の指標のレンダリングに失敗した後に、at. jsが2番目の指標を適用できない問題を修正しました。（TNT-32628）
-* `mboxThirdPartyId``targetPageParams` リクエストのペイロードがクエリパラメーターまたはリクエストのペイロードに存在しない場合に、リクエストのペイロードが送信されない問題を修正しました。（TNT-32613）
-* Chromeベースのブラウザー（Google Chromeを含む）で表示およびクリック通知応答がブロックされる問題を修正しました。（TNT-32290）
+**必要なアクション**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客の場合、すべてのワークスペースにおけるリソース（アクティビティ、オーディエンス、オファーおよびレポート）は、使用事例に従って、すべてのワークスペースへのアクセス権を付与する必要があります。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. これで、目的の役割を選択できます。
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. このアクションが実行されない場合、DNL Target99月リリースでは、アクセス制御がアクティブになり、現在設定されている場合にのみデフォルトのワークスペースへのアクセス権を確認できます。上記のガイドラインに従って、統合の設定に悪影響を及ぼすことはありません。この変更を早くすると、改善につながります。組織内のワークスペースの数によっては、これを設定するのに小さい時間が必要です。このプロセスでは、既存の統合をワークスペースに追加して、目的のロールを持つワークスペースに追加するだけで済みます。
 
-**機能強化、修正、変更点**
+## Target Standard／Premium 19.8.1（2019 年 8 月 20 日） {#tgt-19-8-1}
 
-* 重複値を追加するとRecommendationsアクティビティの除外値がクリアされない問題を修正しました。（TGT-34996）
-* ターゲットページから、Recommendationsアクティビティのデザインを削除できるようになりました（3つのガイドによるワークフローの手順2）。デザインを削除するには、複数のデザインが選択されている必要があります。（TGT-35118）
-* 一部の顧客がTarget UIで適切に読み込まれるか、編集可能になるためにカスタム条件カードが使用できない問題を修正しました。（TGT-35170）
+このメンテナンスリリースには、次の機能強化が含まれています。
+
+* Visual Experience Composer（VEC）のリッチテキストエディター（RTE）へのセキュリティを含む、いくつかのセキュリティ修正が行われています。（TGT-35383）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
