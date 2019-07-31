@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年7月31日 | [Recommendationsの概要](/help/c-recommendations/introduction-to-recommendations.md) | 新規トピックです。 |
+|  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 最近表示した項目に注意を追加しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | プレビューリンクに既知の問題が追加されました。 |
 | 2019年7月29日 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
 | 2019年7月25日 | [at. js1.*x* からat. js2.*xへのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention（ITP）2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新規トピックです。 |
