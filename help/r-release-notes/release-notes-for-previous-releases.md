@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -23,7 +23,46 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ## リリースノート - 2019 年 {#releases-2019}
 
-## Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1-historical}
+### Target Standard／Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
+
+このリリースには、次の新機能および機能強化が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリ4.3を使用したAppleのTP2.1およびITP2.2のTargetサポート | 今日、Targetのお客様は、アドビのCNAME認定プログラムを利用してAppleのTP2.1およびITP2.2を軽減することができます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。EIDライブラリは、ブラウザーによって導入されるCookieポリシーの変更に堅牢なソリューションを提供する、ロールアウト機能の強化を継続します。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
+
+**機能強化、修正、変更点**
+
+* 重複値を追加するとRecommendationsアクティビティの除外値がクリアされない問題を修正しました。（TGT-34996）
+* ターゲットページから、Recommendationsアクティビティのデザインを削除できるようになりました（3つのガイドによるワークフローの手順2）。デザインを削除するには、複数のデザインが選択されている必要があります。（TGT-35118）
+* 一部の顧客がTarget UIで適切に読み込まれるか、編集可能になるためにカスタム条件カードが使用できない問題を修正しました。（TGT-35170）
+
+### at. jsバージョン2.1.1（2019年7月24日）
+
+at. jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+* Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
+* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
+* URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
+* `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
+* 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
+* 複数のエクスペリエンスにわたるクリック追跡が期待どおりに動作しない問題を修正しました。（TNT-32644）
+* 最初の指標のレンダリングに失敗した後に、at. jsが2番目の指標を適用できない問題を修正しました。（TNT-32628）
+* `mboxThirdPartyId``targetPageParams` リクエストのペイロードがクエリパラメーターまたはリクエストのペイロードに存在しない場合に、リクエストのペイロードが送信されない問題を修正しました。（TNT-32613）
+* Chromeベースのブラウザー（Google Chromeを含む）で表示およびクリック通知応答がブロックされる問題を修正しました。（TNT-32290）
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+### Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1-historical}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -38,7 +77,7 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 | ![Premiumバッジ](/help/assets/premium.png) の推奨事項 | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件を作成»の?«最近表示した項目?[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) |
 | Google Chromeサイトのcookieポリシー | Googleは最近、2019年7月30日リリース用に設定されているChrome76から開始し、開発者はWebサイト間で動作できるcookieとユーザーを追跡できるcookieを明示的に指定する必要があります。<br>業界では、消費者向けにより安全なWebを作成するために、Targetは、訪問者に対して、ミーティング中にパーソナライズされたエクスペリエンスを配信し、訪問者のプライバシー期待を超えていることに積極的にコミットされています。<br>[Google Chrome SAeSite cookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
 
-## at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+### at.js version 2.1.0 (June 3, 2019) {#atjs-210}
 
 at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
 
