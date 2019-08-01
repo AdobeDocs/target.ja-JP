@@ -8,7 +8,7 @@ title: AEM エクスペリエンスフラグメント
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -54,6 +54,7 @@ AEM エクスペリエンスフラグメントを Target で使用する手順�
 
 * **Adobe Experience Manager 6.3** のドキュメントの [AEM 6.3：](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)_Adobe Analytics と Adobe Target のオプトイン_。
 * **Adobe Experience Manager 6.4** のドキュメントの [AEM 6.4：](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)_Adobe Analytics と Adobe Target のオプトイン_。
+* **AEM6.5:**[Adobe AnalyticsおよびAdobe Targetのオプトイン](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
 
 ### 手順 2：エクスペリエンスフラグメントを作成する
 
@@ -61,6 +62,7 @@ AEM エクスペリエンスフラグメントを Target で使用する手順�
 
 * **Adobe Experience Manager 6.3** のドキュメントの [AEM 6.3：](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)*エクスペリエンスフラグメント*。
 * **Adobe Experience Manager 6.4** のドキュメントの [AEM 6.4：](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)*エクスペリエンスフラグメント*。
+* **AEM6.5:**[エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 
 ### ステップ 3：AEM でエクスペリエンスフラグメントを Target と共有するよう設定する
 
