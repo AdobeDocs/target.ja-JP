@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019年8月1日 | [Targetリリースノート（現在）](/help/r-release-notes/release-notes.md) | エンタープライズ権限のAPIサポートに関する重要なお知らせを追加しました。 |
-|  | Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て | 新規トピックです。 |
+|  | [Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新規トピックです。 |
 | 2019年7月1日 | [Recommendationsの概要](/help/c-recommendations/introduction-to-recommendations.md) | 新規トピックです。 |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 最近表示した項目に注意を追加しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Activity QAプレビューリンクに既知の問題が追加されました。 |
