@@ -37,7 +37,7 @@ sameSite属性に渡すことができる値は3つあります。厳密、ラ�
 | デフォルトのcookieでSAMSSiteを使用 | When set, all cookies that don't specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | sameSiteのないcookieは保護されている必要があります | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. このコンテキストで保護されている場合、すべてのブラウザーリクエストはHTTPSプロトコルに従う必要があります。この要件に準拠しないcookieは拒否されます。 |
 
-![[SAMSSite]設定ページ](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
+![SAMSSite]設定ページ](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
 ## Targetは、Googleのセキュリティのベストプラクティスに従います
 
