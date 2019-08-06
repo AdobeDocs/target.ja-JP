@@ -8,7 +8,7 @@ title: レポートの表示 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 計算指標を含む指標にセグメントを適用できます。これは、通常、新しいタイプの成功指標を作成したい場合におこなわれます。例えば、アクティビティがもたらした再訪問者の数や、あるページへの訪問者のうちテストを表示した人数を確認したい場合です。現在のところ、上昇率および信頼性は、計算指標用に生成できないことに注意してください。
 
-## レポートを表示する際に、訪問者数、アクティビティのインプレッションまたは訪問回数を使用する必要はありますか？ {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## レポートを表示する際に、訪問者数、アクティビティのインプレッションまたは訪問回数を使用する必要はありますか？ {#metrics}
 
 いくつかのオプションがあり、それぞれに独自の利点があります。
 
@@ -52,13 +52,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * 上記の指標はすべて、ユーザーがアクティビティの対象となり、[!DNL Target] からコンテンツが返されたときにトリガーされます。したがって、必ずしもそのユーザーがオファーを見たかどうかはわかりません。アクティビティエクスペリエンスがスクロールしないと見えない場所にある場合、[!DNL Target] によってオファーが配信されていても、ユーザーがページを下にスクロールしなければ、オファーは見られていないことになります。
 * （[!UICONTROL  によって測定される）]アクティビティのインプレッション[!DNL Target]と（[!UICONTROL  によって測定される）]インスタンス[!DNL Analytics]は同じ値になります。ただし、同じアクティビティで複数の mbox 呼び出しが同じページに対しておこなわれた場合を例外です。この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
-* 芸材のところ、[!UICONTROL アクティビティのインプレッション]と[!UICONTROL アクティビティのコンバージョン]の指標は [!DNL Analysis Workspace] で水増しされるので、この問題が解決するまでは使用しないようにしてください。
+* アクティビティ [!UICONTROL インプレッション] および [!UICONTROL アクティビティコンバージョン] 指標を使用する場合 [!DNL Analysis Workspace]は、両方の指標が [!UICONTROL 同じタッチ] アトリビューションモデルを適用していることを確認してください。モデルを適用するには、列設定ギアをクリックし、 [!UICONTROL デフォルトでないアトリビューションモデルを有効に]して、 [!UICONTROL 「同じタッチ]」を選択します。属性IQの [概要](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) について詳しくは *、Analyticsツールガイド*&#x200B;の説明を参照してください。
 
 ## アクティビティの設定中にマーケティング担当者が Analytics 指標を選択する場合、「アクティビティコンバージョン」は何を意味しますか？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
 アクティビティのコンバージョン指標として Analytics 指標が選択されると、アクティビティコンバージョンは、空になります。
 
-## Analytics レポートで「未指定」と表示されるのはなぜですか？これはどういう意味ですか。{#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Analytics レポートで「未指定」と表示されるのはなぜですか？これはどういう意味ですか。 {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
 
 ![](assets/unspecified.png)
 
