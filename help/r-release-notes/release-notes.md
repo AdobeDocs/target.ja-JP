@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
 
 ---
 
@@ -21,18 +21,29 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 **2019年7月1日**
 
-[!UICONTROL エンタープライズ権限] を使用すると [!DNL Target] 、顧客は単一の組織を使用できますが、異なるチームやワークフローのワークスペースに分割することができます。[!UICONTROL エンタープライズ権限] 機能により、チーム間で最適化プログラムを効率的に拡大・縮小できます。Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. アドビは管理者APIを更新して、統合アカウントを使用して組織で作成されたすべてのワークスペースにアクセスできるようにしました。So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL エンタープライズ権限] を使用すると [!DNL Target] 、顧客は単一の組織を使用できますが、異なるチームやワークフローのワークスペースに分割することができます。[!UICONTROL エンタープライズ権限] 機能により、チーム間で最適化プログラムを効率的に拡大・縮小できます。この機能は [!DNL Target] UIで使用できましたが、管理APIは2019 [!DNL Target] 年2月リリースまで対応しています。アドビは管理者APIを更新して、統合アカウントを使用して組織で作成されたすべてのワークスペースにアクセスできるようにしました。これにより、管理者APIはデフォルトのワークスペースに制限されていましたが、2019年2月アップデートで [!UICONTROL は承認者] アクセスを持つすべてのワークスペースへのアクセス権が付与されました。
 
-With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+2019 [!DNL Target] 年9月にリリースされたリリースで [!UICONTROL は、次] のアクセス制御をお客様に提供します。
 
 * 統合を適用できるワークスペースを選択できます
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Adobe I/O統合にロールを適用できます。 [!UICONTROL 承認者]、 [!UICONTROL エディター]または [!UICONTROL 監視者]。
 
-**Action Required**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客は、目的のロールを持つすべてのワークスペースへの既存のAdobe I/O統合アクセス権を付与する必要があります。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 今後のリリースで、目的の役割を選択できるようになりました。
+**Action Required**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客は、目的のロールを持つすべてのワークスペースへの既存のAdobe I/O統合アクセス権を付与する必要があります。9月のリリースより前は、製品の役割ドロップダウンリストから選択したロールに関係なく [!UICONTROL 、承認者] アクセスを使用して操作され [!UICONTROL たすべての統合] があります。今後のリリースで、目的の役割を選択できるようになりました。
 
-This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 統合の役割を事前に設定することに悪影響はありません。
+このアクションは2019年8月 **の間に実行**&#x200B;されます。2019 [!DNL Target] 年9月リリース以降は、アクセス制御がアクティブになり、現在設定されている場合にのみデフォルトのワークスペースへのアクセス権を確認できます。統合の役割を事前に設定することに悪影響はありません。
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+手順について詳しくは、Adobe I/O統合のワークスペースへ [のアクセス権限の付与およびロールの割り当てを参照](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)してください。
+
+## Target Mobile VEC SDK iOS2.1.0およびAndroid1.1.0（2019年8月8日）
+
+Mobile VEC SDKのこのリリースには、次の機能強化および修正が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+* モバイルデバイスでのビジュアルアクティビティのプレビューのサポートを追加しました。（TGT-27875）
+* 使用状況に `UIImagePickerController` よってApple Standardの違反が発生する問題を修正しました。
+* Android SDKからGSON依存性を削除しました。（TGT-31710）
+* 作成時に配信オファーがリセットされない問題を修正しました。（TGT-35270）
 
 ## Target Standard／Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
@@ -42,7 +53,7 @@ For step-by-step instructions and more information, see [Grant Adobe I/O integra
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。（TGT-31741）<br> モバイルアプリでのクリック追跡の [設定を参照](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)してください。 |
 | ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリ4.3を使用したAppleのTP2.1およびITP2.2のTargetサポート | 今日、Targetのお客様は、アドビのCNAME認定プログラムを利用してAppleのTP2.1およびITP2.2を軽減することができます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。EIDライブラリは、ブラウザーによって導入されるCookieポリシーの変更に堅牢なソリューションを提供する、ロールアウト機能の強化を継続します。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
@@ -60,9 +71,9 @@ at. jsのこのリリースはメンテナンスリリースであり、次の�
 （括弧内の問題番号はアドビ社内で使用されます。）
 
 * Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
-* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
+* オファーが複数回レンダリング `triggerView()` されない問題を修正しました。（TNT-32780）
+* リクエストにMarketing `triggerView()` Cloud ID（MCID）情報が含まれる問題を修正しました。（TNT-32776）
+* 保存されたビューがない場合でも `triggerView()` 、通知を実行できない問題を修正しました。（TNT-32614）
 * URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
 * `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
 * 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
