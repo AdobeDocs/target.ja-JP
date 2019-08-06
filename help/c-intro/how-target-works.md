@@ -9,7 +9,7 @@ title: Adobe Target の仕組み
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Targetは、2つのJavaScriptライブラリのいずれかによってWeb
 >
 >すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
-サイトのすべてのページでTarget JavaScriptライブラリファイルを参照する必要があります。例えば、これをグローバルヘッダーに追加します。Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+サイトのすべてのページでTarget JavaScriptライブラリファイルを参照する必要があります。例えば、これをグローバルヘッダーに追加します。または、Adobe Launch Tag Managerを使用 [することも検討してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 訪問者が Target に最適化されたページを要求するたびに、そのリクエストがターゲット設定システムに送信され、訪問者に提供するコンテンツが特定されます。このプロセスはリアルタイムで実行されます—ページが読み込まれるたびに、コンテンツへのリクエストが実行され、システムによって処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。応答率、獲得率および売上高が最大化されるように、各サイト訪問者が応答し、やり取りをおこない、最終的に購入する可能性の最も高いコンテンツが提供されます。
 
@@ -98,17 +98,17 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 ![コアエッジサイトおよびエッジサイトとのマッピング](assets/edge_network.png)
 
-アドビでは現在、米国内のオレゴンおよびテキサス州にコアエッジサイトを設置しています。ロンドン、英国、およびシンガポール。アドビでは現在、バージニア（米国）、アムステルダム、オランダにエッジサイトを設置しています。東京、日本、およびシドニー、シドニー。
+このmboxのソースは [、"Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 」ホワイトペーパーです。
 
-コアエッジサイト拠点には、データ収集センターとデータ処理センターの両方が設置されています。エッジサイト拠点には、データ収集センターのみ設置されています。個々のレポートスイートは特定のデータ処理センターに割り当てられています。
+Adobe Targetソリューションは、アドビが所有するデータセンターおよびアドビが所有するデータセンターでホストされます。管理サーバーは、ロンドン、シンガポールおよび米国全体の複数の地域で、オレゴンやバージニアを含め、アドビが所有するデータセンター内で完全にホストされています。Edgeサーバーは、ロンドン、香港、シンガポール、東京、およびシドニーのAmazon AWSデータセンターで、アドビが所有するサーバーおよびアドビによって所有されるサーバー上でホストされます。
 
-現在、アドビのデータセンターは、北米、欧州、アジアの複数の地域を含め、複数の大陸にあります。
+管理サーバーの場所には、データ収集センターとデータ処理センターの両方があります。エッジサイト拠点には、データ収集センターのみ設置されています。個々のレポートスイートは特定のデータ処理センターに割り当てられています。
 
 1か所からのすべてのターゲットリクエストに応答するのではなく、リクエストは訪問者に最も近いEdge環境によって処理されるので、ネットワーク/インターネットの旅行時間が軽減されます。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 現在、中国にはEdgeネットワークがありません。また、エンドユーザーのパフォーマンスは、中国のお客様向けに [!DNL Target] 引き続き制限されます。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] 現在、中国にはEdgeネットワークがありません。また、エンドユーザーのパフォーマンスは、中国のお客様向けに [!DNL Target] 引き続き制限されます。優れたファイアウォールと、国内のEdgeノードが不足しているので、デプロイさ [!DNL Target] れているサイトのエクスペリエンスはレンダリングに時間がかかり、ページロードに影響します。また、マーケティング担当者は [!DNL Target] オーサリングUIの使用時に遅延が発生する可能性があります。
 
 ## 保護されたユーザーエクスペリエンス {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Google は例として、「ユーザーに表示される組み合わせに関�
 
 ## ボット {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. ボットによって生成されたトラフィックは、通常のユーザーなどのコンテンツを提供し、SEOガイドラインに従っていることを確認します。ボットトラフィックを使用すると、A/Bテストまたはパーソナライゼーションアルゴリズムを通常のユーザーと同様に歪曲することができます。したがって、Targetアクティビティで既知のボットが検出されると、トラフィックは少し異なります。ボットトラフィックを削除すると、ユーザーアクティビティをより正確に測定できます。
+Adobe Targetで [は、DeviceAtlas](https://deviceatlas.com/) を使用して既知のボットを検出します。ボットによって生成されたトラフィックは、通常のユーザーなどのコンテンツを提供し、SEOガイドラインに従っていることを確認します。ボットトラフィックを使用すると、A/Bテストまたはパーソナライゼーションアルゴリズムを通常のユーザーと同様に歪曲することができます。したがって、Targetアクティビティで既知のボットが検出されると、トラフィックは少し異なります。ボットトラフィックを削除すると、ユーザーアクティビティをより正確に測定できます。
 
 具体的には、既知のボットトラフィックTargetでは次のことはありません。
 
