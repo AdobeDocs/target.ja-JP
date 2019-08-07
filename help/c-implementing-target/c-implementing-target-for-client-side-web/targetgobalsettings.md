@@ -1,6 +1,6 @@
 ---
 description: 'at.js の targetGlobalSettings() 関数について説明します。 '
-keywords: adobe.target.notification;要素;セレクター;通知;拡張子
+keywords: targetGlobalSettings;targetglobalsettings;GlobalSettings;globalsettings;グローバル設定;at. js;関数、関数;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;オプトアウト;selectorPolicyTimeout;dataProviders
 seo-description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 solution: 'Target '
@@ -8,7 +8,7 @@ subtopic: 導入
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 ---
 
