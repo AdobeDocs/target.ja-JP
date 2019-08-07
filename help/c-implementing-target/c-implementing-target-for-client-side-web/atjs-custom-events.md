@@ -1,6 +1,6 @@
 ---
 description: 'at.js のカスタムイベントについて説明します。 '
-keywords: adobe.target.notification;要素;セレクター;通知;拡張子
+keywords: カスタムイベント、at. js;リクエストに失敗しました。リクエストが成功した場合、コンテンツのレンダリングに失敗しました。コンテンツのレンダリングが成功した場合、library loaded;リクエスト開始;コンテンツレンダリング開始;コンテンツレンダリングのオファーなし;コンテンツレンダリングのreret
 seo-description: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
 solution: 'Target '
@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js カスタムイベント
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
