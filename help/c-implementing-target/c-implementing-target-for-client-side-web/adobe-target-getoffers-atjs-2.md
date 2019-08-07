@@ -1,14 +1,14 @@
 ---
-description: 'at.js の adobe.target.getOffers(options) 関数についての情報です。 '
-keywords: adobe.target.notification;要素;セレクター;通知;拡張子
+description: 'at.js の adobe.target.getOffers() 関数についての情報です。 '
+keywords: adobe. target. getOffers;getOffers;getオファー;オファーの取得、at. js;関数、関数
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（） 関数に関する情報です。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | Request &gt; id &gt; thirdPartyId | × | 最大サイズ = 128 |  |  |
 | リクエスト/ExperienceCloud | × |  |  |
 | リクエスト&gt; ExperienceCloud&gt; analytics | × |  | Adobe Analyticsの統合 |
-| リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ | × | 次のページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**:これは、TargetとAnalyticsのバックエンドが、レポート用に呼び出しを組み合わせるためにSDIDを使用するデフォルト値です。 |
+| リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ | × | 次のページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement. js</li></ul> | 次の値がサポートされています。<br>**client_ side**:指定した場合、Analyticsペイロードは、Data Insertion APIを介してAdobe Analyticsに送信するために使用される呼び出し元に返されます。<br>**server_ side**:これは、TargetとAnalyticsのバックエンドが、レポート用に呼び出しを組み合わせるためにSDIDを使用するデフォルト値です。 |
 | Request &gt; prefetch | × |  |  |
 | Request &gt; prefetch &gt; views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
 | Request &gt; prefetch &gt; views &gt; profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+その後、Data Insertion APIを [使用してペイロードをAdobe Analyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
 
 ## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
 
