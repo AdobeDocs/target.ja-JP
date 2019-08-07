@@ -9,7 +9,7 @@ title: Analytics と Target の統合（A4T）のトラブルシューティン�
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 * [!DNL Target] の分類が完全に処理されていない。
 
-   分類の処理には、アクティビティが最初に保存されてから 24 時間もかかることがあります。
+   分類では通常、24時間から72時間の間に、最初の保存後にレポートの分類が行われます。
 
 * レポートスイートにはデータが全く含まれていないが、[!DNL Target] はヒットの分類を試行した。[!DNL Target] は最初のヒットが発生するまで、データの分類をおこなうことができません。
 
