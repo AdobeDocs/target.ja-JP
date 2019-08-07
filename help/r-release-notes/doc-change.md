@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019年8月7日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS2.1.0およびAndroid1.1.0リリースのリリースノートを追加しました。 |
-|  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | Analyticsの期待される基準処理時間を更新しました。 |
+|  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 次の節を更新しました。「予想される基準処理時間」 |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | [!UICONTROL アクティビティのインプレッション] および [!UICONTROL アクティビティコンバージョン] 指標の使用に関する考慮事項を更新 [!DNL Analysis Workspace]しました。 |
 | 2019年8月1日 | [Targetリリースノート（現在）](/help/r-release-notes/release-notes.md) | エンタープライズ権限のAPIサポートに関する重要なお知らせを追加しました。 |
 |  | [Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新規トピックです。 |
