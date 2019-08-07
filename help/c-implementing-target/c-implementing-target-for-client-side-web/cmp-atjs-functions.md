@@ -1,6 +1,6 @@
 ---
-description: at.js で使用できる関数のリストです。
-keywords: adobe.target.notification;要素;セレクター;通知;拡張子
+description: Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。
+keywords: at. js;関数、javascriptライブラリ
 seo-description: Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。
 seo-title: Adobe Target at.js 関数
 solution: 'Target '
@@ -9,7 +9,7 @@ title: at.js 関数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -33,5 +33,5 @@ Adobe Target の at.js JavaScript ライブラリで使用できる関数のリ�
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | このメソッドにより、リクエストコードの外部からすべての mbox にパラメーターを付加できます。 |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 特定の拡張を登録するための標準的な方法を提供します。<br>**注：**&#x200B;この関数は at.js バージョン 1.*x* のみで使用できます。この関数は at.js 2.x のリリースで廃止されました。at.js 2.x で使用する場合、この関数はデフォルトコンテンツを返します。 |
 | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. jsカスタムイベントを使用すると、mboxリクエストやオファーが失敗または成功した場合に通知できます。 |
-| [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>（at. js2.1.0） | This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.<br>**注意**:この関数はat. js2.1.0で導入されており、2.1.0より前のバージョンで使用できます。 |
+| [adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>（at. js2.1.0） | エクスペリエンスが使用 `adobe.target.applyOffer()` せずにレンダリングされると、この関数はTargetエッジに通知を送信し `adobe.target.applyOffers()`ます。<br>**注意**:この関数はat. js2.1.0で導入されており、2.1.0より前のバージョンで使用できます。 |
 
