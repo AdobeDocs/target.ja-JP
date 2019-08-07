@@ -1,14 +1,14 @@
 ---
-description: 'at.js の adobe.target.applyOffer(options) 関数について説明します。 '
-keywords: adobe.target.notification;要素;セレクター;通知;拡張子
+description: 'at.js の adobe.target.applyOffer() 関数について説明します。 '
+keywords: adobe. target. applyOffer;applyOffer;applyffer;オファーの適用;at. js;関数、関数
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer() 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.applyOffer(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
