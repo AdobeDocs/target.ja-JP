@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 8 月 8 日 | [プリフェッチオファーコンテンツ](/help/c-target-mobile-app/prefetch-offer-content.md) | SDKのプリフェッチ機能は自動ターゲット、自動割り当て、自動パーソナライゼーションアクティビティタイプでサポートされていないことに注意してください。 |
+|  | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 分類処理の完了時間を示す注記を更新しました。 |
 | 2019年8月7日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS2.1.0およびAndroid1.1.0リリースのリリースノートを追加しました。 |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 次の節を更新しました。「予想される基準処理時間」 |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | [!UICONTROL アクティビティのインプレッション] および [!UICONTROL アクティビティコンバージョン] 指標の使用に関する考慮事項を更新 [!DNL Analysis Workspace]しました。 |
