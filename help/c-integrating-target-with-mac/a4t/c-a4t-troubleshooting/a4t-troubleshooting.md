@@ -9,7 +9,7 @@ title: Analytics と Target の統合（A4T）のトラブルシューティン�
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 このトピックでは、Analytics を Target のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
 
-## Analytics にアクティビティのデータが表示されず、その代わり、「未指定」と表示されます。{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## Analytics にアクティビティのデータが表示されず、その代わり、「未指定」と表示されます。{#unspecified}
 
 こうなる理由はいくつか考えられます。
 
@@ -34,9 +34,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    [カスタマーケア](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
-新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。レポートを分類するには、最初の保存から 24 時間もかかることがあります。
-
 >[!NOTE]
+>
+>新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。通常、レポートの分類には24時間から72時間の時間がかかります。
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
