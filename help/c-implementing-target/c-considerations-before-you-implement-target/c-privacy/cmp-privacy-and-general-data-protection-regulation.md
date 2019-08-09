@@ -8,7 +8,7 @@ title: プライバシーとデータ保護規則
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ A sample [!DNL Target] access API response could look like this:
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. [!DNL Target] プロファイルのフィールドの多くは標準ではありません。何が返ってくるかは、その特定の訪問者のプロファイルに含まれる情報に左右されます。
 
-## Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] は、GGPRまたはCCCPAの導入方法の一部として使用する場合、IPの不明化をサポートします。For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
