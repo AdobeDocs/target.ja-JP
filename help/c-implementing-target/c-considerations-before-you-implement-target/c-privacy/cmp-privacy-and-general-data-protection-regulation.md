@@ -1,21 +1,21 @@
 ---
-description: 欧州連合のGeneral Data Protection規制（GGPR）とカリフォルニア消費者プライバシー法（CCCPA）に関する情報、およびこれらの規制における組織およびAdobe Targetの影響について説明します。
+description: 欧州連合の一般的なデータ保護規制（GGPR）、カリフォルニア消費者プライバシー法（CCCPA）、その他の国際プライバシー要件、およびこれらの規制における組織およびAdobe Targetへの影響について説明します。
 keywords: dgpr;eu;European union;privacy;faq;よくある質問、カリフォルニア消費者プライバシー行為、cppa;privacy;データ保護、オプトアウト;オプトアウト;government;規則
-seo-description: 欧州連合のGeneral Data Protection規制（GGPR）とカリフォルニア消費者プライバシー法（CCCPA）に関する情報、およびこれらの規制における組織およびAdobe Targetの影響について説明します。
-seo-title: 一般的なデータ保護規則（GGPR）、カリフォルニア消費者プライバシー法（CCPA）、およびAdobe Target
+seo-description: 欧州連合の一般的なデータ保護規制（GGPR）、カリフォルニア消費者プライバシー法（CCCPA）、その他の国際プライバシー要件、およびこれらの規制における組織およびAdobe Targetへの影響について説明します。
+seo-title: 欧州連合の一般的なデータ保護規制（GGPR）、カリフォルニア消費者プライバシー法（CCCPA）、その他の国際プライバシー要件、およびこれらの規制における組織およびAdobe Targetへの影響について説明します。
 solution: 'Target '
 title: プライバシーとデータ保護規則
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # プライバシーとデータ保護規則 {#privacy-and-general-data-protection-regulation-gdpr}
 
-欧州連合の一般的なデータ保護規制（GGPR）およびカリフォルニア消費者プライバシー法（CCCPA）およびこれらの規制における組織への影響について説明 [!DNL Adobe Target]します。
+欧州連合の一般的なデータ保護規制（GGPR）、カリフォルニア消費者プライバシー法（CCCPA）、その他の国際プライバシー要件、およびこれらの規制における組織およびAdobe Targetへの影響について説明します。
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## カリフォルニア消費者プライバシー法（CCCPA）の概要
 
-カリフォルニア消費者プライバシー法（CCCPA）は、2020年1月1日に有効です。デザインによって、カリフォルニア管理者による調整を行い、詳細を明確にし、自然に多くの質問を持つことがあるということを意味します。お客様の質問がある場合、これだけではないだけでなく、法律上の不信頼性を活用し、法的要件、運用要件、技術的要件に対処するためのアプローチを理解および開発しようとしています。
-
-CCCPAは、カリフォルニア州の消費者に個人情報に関する新しい権利を提供し、カリフォルニアでビジネスを実行する特定エンティティに関するデータ保護の責任を提供します。高レベルでは、法律には、以下の権利を含む、カリフォルニア州のいくつかの主要な権限があります。
+カリフォルニア消費者プライバシー法（CCCPA）は、カリフォルニア州の消費者に個人情報に関する新しい権利を提供し、カリフォルニアでビジネスを実行する特定エンティティに関するデータ保護の責任を提供します。高レベルでは、法律には、以下の権利を含む、カリフォルニア州のいくつかの主要な権限があります。
 
 * リクエスト情報（データアクセス）
 * 個人情報の販売をオプトアウト（サードパーティとの情報の共有をオプトアウトする権利を大幅に定義）
@@ -102,7 +100,7 @@ window.targetGlobalSettings = {
 
 ## プライバシーおよびデータ保護規則に関するFAQ {#concept_41F88DE95D2943178BEC382736B5C038}
 
-一般的なデータ保護規制（GGPR）およびカリフォルニア消費者プライバシー法（CCCPA）に関するよくある質問（CCPA）について [!DNL Target]説明します。
+欧州連合の一般的なデータ保護規制（GGPR）、カリフォルニア消費者プライバシー法（CCCPA）、およびTargetに特有のその他のプライバシー要件に関するよくある質問（FAQ）です。
 
 ### これらの規制に関するアドビのポリシーは何ですか。 {#section_A6849628D6524C80A6E16946DC5D25A9}
 
