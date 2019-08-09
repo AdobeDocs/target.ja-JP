@@ -8,7 +8,7 @@ title: Visual Experience Composer のオプション
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 ### 取り消し／やり直し
 
 編集セッション中にアクティビティにおこなった変更を取り消します。以前に取り消した変更をやり直すこともできます。
+
+## 注意点 {#considerations}
+
+* オファーにHTMLコンテンツが含まれる場合は、"at at. jsでのHTMLコンテンツのオファーのレンダリング方法」（ [詳しくは、at. jsの機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) ）を参照してください。
 
 ## DOM パス {#dom-path} を使用して要素をナビゲートする
 
