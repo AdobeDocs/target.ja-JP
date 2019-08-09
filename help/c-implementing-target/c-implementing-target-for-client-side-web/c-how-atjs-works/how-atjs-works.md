@@ -8,7 +8,7 @@ title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
 | 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。[!DNL Analytics for Target]（A4T）レポートを使用して、<br>[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。 |
 
+## at. jsがHTMLコンテンツを使用してオファーをレンダリングする方法 {#render}
+
+HTMLコンテンツを使用してオファーをレンダリングする場合、at. jsは次のアルゴリズムを適用します。
+
+1. 画像はプリロードされます（HTMLコンテンツにタグが `<img>` ある場合）。
+
+1. HTMLコンテンツはDOMノードに添付されます。
+
+1. インラインスクリプトが実行されます（タグで `<script>` 囲まれたコード）。
+
+1. リモートスクリプトは非同期に読み込まれ、実行されます（`<script>` 属性のある `src` タグ）。
+
+重要な注意事項:
+
+* at. jsは、リモートスクリプト実行の順序を保証しません。これは、非同期で読み込まれるためです。
+* インラインスクリプトでは、リモートスクリプトの依存関係を持つことはできません。これは、後で読み込まれて実行するためです。
+
 ## トレーニングビデオ： at.js 2.x のアーキテクチャ図
 
 at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
