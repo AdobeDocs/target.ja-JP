@@ -8,7 +8,7 @@ title: アクティビティを編集またはドラフトとして保存
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,7 +25,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
    ![編集アイコン](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   TargetはVisual Experience Composer（VEC）でアクティビティを開き、 [!UICONTROL エクスペリエンス] ページ（3ステップのガイドのワークフローの最初の手順）を表示します。
 
 1. [VECオプションを使用して、アクティビティを編集](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)します。
 
@@ -59,6 +59,18 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
       * 「**[!UICONTROL 保存]」をクリックすると変更内容が保存されますが、現在のステップに留まり、変更作業を続行できます。**&#x200B;保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
 
+
+## Adobe Target Classicで作成されたレガシーアクティビティの使用 {#classic}
+
+[!UICONTROL アクティビティ] リストには、様々なソースで作成されたアクティビティが表示 [!DNL Adobe Target Classic]されます。次のアクションは、で作成した既存のアクティビティを操作する際に使用 [!DNL Target Classic]できます。
+
+* [!UICONTROL アクティブ化]
+* [!UICONTROL 非アクティブ化]
+* [!UICONTROL アーカイブ]
+* [!UICONTROL コピー]
+* [!UICONTROL 削除]
+
+[!DNL Target Classic] アクティビティを直接編集することはできません。アクティビティを編集する場合は、アクティビティ [!DNL Target Standard/Premium] のコピーを作成してから、新しく作成したアクティビティを保存します。
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
