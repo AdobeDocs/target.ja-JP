@@ -8,7 +8,7 @@ title: プライバシーとデータ保護規則
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## カリフォルニア消費者プライバシー法（CCCPA）の概要
 
-カリフォルニア消費者プライバシー法（CCCPA）は、カリフォルニア州の消費者に個人情報に関する新しい権利を提供し、カリフォルニアでビジネスを実行する特定エンティティに関するデータ保護の責任を提供します。高レベルでは、法律には、以下の権利を含む、カリフォルニア州のいくつかの主要な権限があります。
+カリフォルニア消費者プライバシー法（CCCPA）は、カリフォルニア州の消費者に個人情報に関する新しい権利を提供し、カリフォルニアでビジネスを実行する特定エンティティに関するデータ保護の責任を提供します。CCCPAは2020年1月1日に有効になります。
+
+高レベルでは、法律には、以下の権利を含む、カリフォルニア州のいくつかの主要な権限があります。
 
 * リクエスト情報（データアクセス）
 * 個人情報の販売をオプトアウト（サードパーティとの情報の共有をオプトアウトする権利を大幅に定義）
@@ -281,7 +283,7 @@ A sample [!DNL Target] access API response could look like this:
 | Sample_Parameter | [!DNL Target] プロファイル内の多くの情報がアップロードされ、データコントローラーから直接提供されます。In this example, a parameter was uploaded into the [!DNL Target] profile using the Profile Update API. 詳しくは、"Targetにデータを取得する [方法」を](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)参照してください。 |
 | user.ReturnTimeOfDay | この標準的なフィールドには、ユーザーの最後の再訪問の日時が含まれています。 |
 | firstSessionStart | この標準的なフィールドには、ユーザーの初めてのセッションが開始された日時が含まれています。 |
-| user.sessionCountScript | [!DNL Target] プロファイル内の多くの情報がアップロードされ、データコントローラーから直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトで作ったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
+| user.sessionCountScript | [!DNL Target] プロファイル内の多くの情報がアップロードされ、データコントローラーから直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトで作ったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)の「プロファイルスクリプト情報カードの表示」セクションを参照してください。 |
 
 >[!NOTE]
 >
