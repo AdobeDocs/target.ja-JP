@@ -8,7 +8,7 @@ title: アクティビティを編集またはドラフトとして保存
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
 
 
-## Adobe Target Classicで作成されたレガシーアクティビティの使用 {#classic}
+## Recommendations Classicで作成された従来のアクティビティの使用 {#classic}
 
-[!UICONTROL アクティビティ] リストには、様々なソースで作成されたアクティビティが表示 [!DNL Adobe Target Classic]されます。次のアクションは、で作成した既存のアクティビティを操作する際に使用 [!DNL Target Classic]できます。
+[!UICONTROL アクティビティ] リストには、様々なソースで作成されたアクティビティが表示 [!DNL Recommendations Classic]されます。次のアクションは、で作成した既存のアクティビティを操作する際に使用 [!DNL Recommendations Classic]できます。
 
 * [!UICONTROL アクティブ化]
 * [!UICONTROL 非アクティブ化]
@@ -70,7 +70,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 * [!UICONTROL コピー]
 * [!UICONTROL 削除]
 
-[!DNL Target Classic] アクティビティを直接編集することはできません。アクティビティを編集する場合は、アクティビティ [!DNL Target Standard/Premium] のコピーを作成してから、新しく作成したアクティビティを保存します。
+[!DNL Recommendations] アクティビティを直接編集することはできません。アクティビティを編集する場合は、アクティビティ [!DNL Target Premium] のコピーを作成してから、新しく作成したアクティビティを保存します。この新しいアクティビティは、必要に応じて編集できます。
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
