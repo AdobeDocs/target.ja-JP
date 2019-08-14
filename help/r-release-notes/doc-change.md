@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -21,9 +21,10 @@ source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 8 月 15 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | テキストが更新され、トレーニングビデオリンクが追加されました。 |
 | 2019年8月13日 | [Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 依存関係とアーティファクトに関する情報を更新しました。<br>`AndroidManifest.XML` ファイルのコードサンプルを更新しました。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | "Target Mobile VEC SDK iOS2.1.0&amp; Android1.1.1"の節の拡張機能および修正点の一覧を更新しました。 |
-|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md#classic) | 新しい節を追加しました。"Adobe Target Classicで作成されたレガシーアクティビティの使用」 |
+|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md#classic) | 新しい節を追加しました。"Recommendations Classicで作成した従来のアクティビティを使用する」 |
 | 2019 年 8 月 10 日 | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新しい節を追加しました。"at. jsがHTMLコンテンツを使用してオファーをレンダリングする方法」 |
 |  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新しい節を追加しました。「考慮事項」 |
 | 2019 年 8 月 8 日 | [プリフェッチオファーコンテンツ](/help/c-target-mobile-app/prefetch-offer-content.md) | SDKのプリフェッチ機能は自動ターゲット、自動割り当て、自動パーソナライゼーションアクティビティタイプでサポートされていないことに注意してください。 |
