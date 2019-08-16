@@ -1,14 +1,14 @@
 ---
 description: リダイレクトオファーを使用すると、ブラウザーで新しいページへのリダイレクトがおこなわれます。
 keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-seo-description: リダイレクトオファーを使用すると、ブラウザーで新しいページへのリダイレクトがおこなわれます。
+seo-description: ブラウザーが新しいページにリダイレクトされる原因となる、Adobe Targetのリダイレクトオファーに関する情報です。
 seo-title: リダイレクトオファーの作成
 solution: 'Target '
 title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE] {class="- topic/note "}
 >
 >ajax mbox（`mboxUpdate`）では、リダイレクトオファーは使用できません。
-
->[!NOTE]
 >
 >A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 
