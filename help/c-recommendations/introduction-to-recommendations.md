@@ -3,22 +3,22 @@ description: 以前のユーザーアクティビティまたは他のアルゴ�
 keywords: Recommendations;
 seo-description: 以前のユーザーアクティビティまたは他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示するAdobe Target Recommendationsアクティビティの概要です。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 seo-title: Adobe TargetのRecommendationsアクティビティの概要
-solution: 'Target '
+solution: Target
 title: Recommendationsの概要
 title-outputclass: premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b487392873f18899168ed5aab3963b7e75614cf7
 
 ---
 
 
 # ![Premium](/help/assets/premium.png) Recommendationsの概要
 
-The text in this article comes from the *Introduction to Recommendations* webinar, which you can view in its entirety below.
+この記事のテキストは、Recommendations ** のウェビナーの概要であり、以下の全体を参照できます。
 
-*Recommendationsの* ウェビナーの概要には、価値を活用するための詳細な調査が含ま [!DNL Adobe Target Recommendations]れています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
+*Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
 ## はじめに
 
@@ -32,7 +32,7 @@ The text in this article comes from the *Introduction to Recommendations* webina
 
 ![デジタルファーストブランドのレコメンデーション](/help/c-recommendations/assets/intro-2.png)
 
-Marketers use [!DNL Adobe Target] to drive personalized experiences across a wide variety of industries, customer types, and channels.
+マーケターは、様々な業種、顧客タイプ、チャネルにわたってパーソナライズされたエクスペリエンスを推進する [!DNL Adobe Target] ために使用します。
 
 [!DNL Adobe Target] パーソナライズされたコンテンツをどこでも配信できます。
 
@@ -41,9 +41,11 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **投稿**:Web発行者は、記事をサイト訪問者にレコメンデーションし、エンゲージメントの増加を推進する [!DNL Target Recommendations] ために使用します。
 * **ビデオチュートリアル**: [!DNL Adobe Creative Cloud] を [!DNL Target] 使用して、PhotoshopアプリケーションでPhotoshopユーザーにビデオチュートリアルを推奨します。
 * **ゲーム**:ゲーム会社は、ゲームやコンテンツをコンソール上のユーザーに勧める [!DNL Target] ために使用します。
-* **B2B販売**:企業間の企業は、ビデオ、ホワイトペーパー、ブログの投稿をB2Bの見込み客に勧める [!DNL Target] ために使用します。ダウンロード、ダウンロード、既存の顧客（https://theblog.adobe.com/testing-shifts-high-gear-intel)）にヘルプを提供します。
-* **旅行**:ドイツ語の旅行ブックホルダーはホテルなどを旅行業者に勧める [!DNL Target] ために使用します（https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)）。
-* **小売**:主要なB2B小売業者は、トップ [!DNL Target] カテゴリと製品を推奨して、ブラウザーおよびモバイルアプリ（https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)）で訪問者を再訪問することを推奨します。
+* **B2B販売**: [企業間の企業は、Targetを使用して、ビデオ、ホワイトペーパー、ブログの投稿をB2Bの見込み客に勧める。ダウンロード、ダウンロード、また、既存の顧客にヘルプを提供](https://theblog.adobe.com/testing-shifts-high-gear-intel)します。
+
+* **旅行**: [ドイツ語旅行ブックブックは、ホテルや旅行者に対してホテルを勧めるためにTargetを使用](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)します。
+
+* **小売**: [主要なB2B小売業者は、Targetを使用して、ブラウザーおよびモバイルアプリで訪問者を再訪問することを推奨](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)します。
 
 これらは、顧客がパーソナライズされたレコメンデーションを配信するためにTargetを使用する方法のほんの一部です。
 
@@ -67,19 +69,19 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **レコメンデーションを表示する場所を教えてください。** 次に、レコメンデーションを作成する場所について考えてみましょう。大まかなチャネル（Web、モバイル、店頭、キオスクなど）。顧客の遍歴のどの部分にレコメンデーションが含まれているか。サイト上のどのページにレコメンデーションが含まれているか。
 * **レコメンデーションが成功したかどうかを判断するにはどうしますか。** レコメンデーションのないエクスペリエンスやレコメンデーションのエクスペリエンスを持っていない場合、または2種類のレコメンデーションがあるとします。どのエクスペリエンスが顧客にとってより優れたエクスペリエンスだったかを判断するにはどうしますか。指標の中には、他の指標よりも難しいものもあります。例えば、顧客ライフタイム値に対するレコメンデーションの影響は、多くの場合、直接到達するのが困難です。したがって、少ない抽象指標や、より具体的な指標（訪問あたりの売上高、平均注文額、クリック数など）をより簡単に把握できます。場合によっては、サポートコール数など、指標を最小限に抑えることが考えられます。
 
-After you come up with your strategy, you are ready to start the implementation of [!DNL Target Recommendations].
+戦略が完成したら、実装を開始する準備が [!DNL Target Recommendations]整いました。
 
 recommendations実装の作成には、次の3つの手順があります。
 
 ![レコメンデーション実装を作成する手順を示す図](/help/c-recommendations/assets/intro-6.png)
 
-1. Teach [!DNL Target] about your context or products.
+1. コンテキストまたは製品につい [!DNL Target] て学習します。
 1. ユーザーの行動をキャプチャします。
 1. 適切なコンテキストでレコメンデーションを取得します。
 
-### Teach [!DNL Target] about your context or products
+### コンテキストまたは製品につい [!DNL Target] て教える
 
-When you start with [!DNL Recommendations], you pass information about every item you want to recommend. [!DNL Target] に、カタログを作成するための複数の統合オプションを用意します。
+最初に、 [!DNL Recommendations]レコメンデーションするすべての品目に関する情報を渡します。[!DNL Target] に、カタログを作成するための複数の統合オプションを用意します。
 
 ![コンテキストまたは製品についてTargetを学習する方法を示す図](/help/c-recommendations/assets/intro-7.png)
 
@@ -99,21 +101,21 @@ When you start with [!DNL Recommendations], you pass information about every ite
 
 ### ユーザ行動の捕捉
 
-Next, you should add tags or leverage you existing [!DNL Analytics] implementation to track the conversion events (such as views and purchases) that drive [!DNL Target] algorithms.
+次に、タグを追加するか、既存 [!DNL Analytics] の実装を活用して、アルゴリズムを駆動 [!DNL Target] するコンバージョンイベント（ビューや購入など）を追跡します。
 
 ![ユーザーの行動をキャプチャする方法を示す図](/help/c-recommendations/assets/intro-9.png)
 
-You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. 購入がお客様のコンテキストに関連しない場合、例えば、PDFのダウンロード、調査の完了、ニュースレターの購読、ビデオの視聴など、様々なタイプのコンバージョンイベントを追跡できます。
+ユーザーが表示および [!DNL Target] 購入している品目を確実に認識する必要があります。購入がお客様のコンテキストに関連しない場合、例えば、PDFのダウンロード、調査の完了、ニュースレターの購読、ビデオの視聴など、様々なタイプのコンバージョンイベントを追跡できます。
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+サイトでA/Bテストアクティビティを既に実行 [!DNL Target] している場合は、既にこの手順を完了している可能性があります。また、既にサイト訪問やコンバージョン行動のレポート [!DNL Adobe Analytics] に使用している場合は、行動データソース [!DNL Analytics] として使用できます。そうでない場合は、 [Adobe Launchなどのタグマネージャーを使用してこの設定を簡単に行う](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)ことができます。また、リアルタイムAPI [!DNL Target] 経由でオフラインまたはアプリ内のインタラクションを送信することもできます。
 
 ### 適切なコンテキストによるレコメンデーションの取得
 
-Pass information about the user and context at the point of interaction to [!DNL Target] to return relevant and personalized recommendations.
+ユーザーおよびコンテキストに関する情報を渡すことで、関連性の高いパーソナライズされたレコメンデーションを返すこと [!DNL Target] ができます。
 
 ![適切なコンテキストでレコメンデーションを取得する方法を示す図](/help/c-recommendations/assets/intro-10.png)
 
-Besides user behavior in aggregate, you need to pass [!DNL Target] the specific context where recommendations are being shown. これには、ページに関する情報と、ユーザープロファイルからの情報が含まれます。[!DNL Target] この情報を使用して、パーソナライズされたレコメンデーションを作成します。例えば、小売Webサイトでは、訪問者が現在閲覧している製品および製品カテゴリを把握する必要があります。また、そのユーザー（お気に入りのブランド、お気に入りの製品カテゴリ、忠誠層など）に関する情報も知りたいものです。This information is important so that [!DNL Target] can filter items and improve the personalization of recommendations.
+集計におけるユーザーの行動以外に、レコメンデーションが表示される特定のコンテキストを渡す [!DNL Target] 必要があります。これには、ページに関する情報と、ユーザープロファイルからの情報が含まれます。[!DNL Target] この情報を使用して、パーソナライズされたレコメンデーションを作成します。例えば、小売Webサイトでは、訪問者が現在閲覧している製品および製品カテゴリを把握する必要があります。また、そのユーザー（お気に入りのブランド、お気に入りの製品カテゴリ、忠誠層など）に関する情報も知りたいものです。この情報は、品目をフィルターしてレコメンデーションのパーソナライゼーションを改善 [!DNL Target] できるようにするために重要です。
 
 ## Recommendationsアクティビティの作成
 
@@ -129,7 +131,7 @@ Besides user behavior in aggregate, you need to pass [!DNL Target] the specific 
 
 ![以下に、レコメンデーションアクティビティの構成要素を示します。オーディエンス、条件およびデザイン](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. これらの各項目をカスタマイズしたり、独自のアイテムを追加したりできます。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. ここでは、レコメンデーションする品目を定義する条件の定義について説明します。
+初期設定では、14の組み込みオーディエンス、42ビルトインの条件、10ビルトインのデザインテンプレート [!DNL Target] が含まれています。これらの各項目をカスタマイズしたり、独自のアイテムを追加したりできます。では、オーディエンスの構築に関する [ウェビナーが以前に用意](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)[!DNL Target]されています。ここでは、レコメンデーションする品目を定義する条件の定義について説明します。
 
 Targetは、条件カードの概念を使用します。条件カードは、パーソナライゼーションのレシピと似ています。
 
@@ -139,7 +141,7 @@ Targetは、条件カードの概念を使用します。条件カードは、�
 
 ![ファンネル図](/help/c-recommendations/assets/intro-14.png)
 
-The following sections describe the various parts of this funnel and how they work in [!DNL Target]:
+以下のセクションでは、このファネルのさまざまな部分とその機能について説明 [!DNL Target]します。
 
 ### 静的フィルター（コレクションと除外）
 
@@ -173,7 +175,7 @@ The following sections describe the various parts of this funnel and how they wo
 * この品目を購入した顧客もこれらの品目を購入した
 * カスタム属性
 
-Out of the box, [!DNL Target] includes a portfolio of algorithms.
+初期設定では、アルゴリズムのポートフォリオ [!DNL Target] が含まれています。
 
 ![アルゴリズムの図のポートフォリオ](/help/c-recommendations/assets/intro-15.png)
 
@@ -193,7 +195,7 @@ Out of the box, [!DNL Target] includes a portfolio of algorithms.
 
 ## Demo
 
-レコメンデーションファネルに示されているタスクを完了すると、最終的なレコメンデーションで終了します。To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
+レコメンデーションファネルに示されているタスクを完了すると、最終的なレコメンデーションで終了します。内製品 [!DNL Target]内デモンストレーションを観るために、デモは *Adobe Target Basicsウェビナー*&#x200B;の21:00から始まり、以下にリンクされています。
 
 ## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
 
