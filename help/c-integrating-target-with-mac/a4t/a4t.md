@@ -9,7 +9,7 @@ title: Adobe Target のレポートソースとしての Adobe Analytics（A4T�
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 * Analytics での使用に最適なレポートの詳細
 * A4T に関するよくある質問への回答
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=jpn)
+[Analytics/Target統合（A4T） Office時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
