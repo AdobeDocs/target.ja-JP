@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 ---
 
@@ -225,6 +225,7 @@ recs/t_feeds_create.xml
    * パッシブFTPを使用するには、FTPおよびFTPSを設定する必要があります。
    * FTPSの場合、明示的なFTPS接続を受け入れるようにサーバーを設定します。
    * SFTPはサポートされていません。
+   * 接続を開始するポートを手動で指定できます（例:ftp://ftp.yoursite.com:2121)）。ポートを指定しない場合、デフォルトのFTPまたはFTPSポートが使用されます。
    URL を選択した場合は、URL を指定します。
 
 1. 「**[!UICONTROL 次へ]**」矢印をクリックして、「[!UICONTROL スケジュール]」オプションを表示します。
