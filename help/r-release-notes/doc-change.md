@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019年8月21日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Premium19.8.1リリース（2019年8月21日）を延期しました。このリリースのコンテンツは19.9.1リリース（2019年9月24日）にまとめられます。 |
+|  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 次のFAQを追加しました。「推奨品目の価格に、小数点以下の値が表示されません。表示方法を教えてください」。 |
 | 2019 年 8 月 17 日 | [mbox3rdPartyID のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新しい節を追加しました。「考慮事項」 |
 |  | [Recommendations アクティビティの作成](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | トレーニングビデオを追加しました。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md) | トレーニングビデオが追加されました。 |
