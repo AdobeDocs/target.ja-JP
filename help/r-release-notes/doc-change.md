@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年8月21日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Premium19.8.1リリース（2019年8月21日）を延期しました。このリリースのコンテンツは19.9.1リリース（2019年9月24日）にまとめられます。 |
 | 2019 年 8 月 17 日 | [mbox3rdPartyID のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新しい節を追加しました。「考慮事項」 |
 |  | [Recommendations アクティビティの作成](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | トレーニングビデオを追加しました。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md) | トレーニングビデオが追加されました。 |
@@ -336,8 +337,8 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 |  | [エクスペリエンスの追加](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | A/B テストでのエクスペリエンスの複製に関する情報を追加しました。 |
 |  | [オーディエンスについて](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Target アクティビティで参照されているオーディエンスが Adobe Audience Manager（AAM）で削除された場合の扱いに関する情報を追加しました。 |
 |  | [at.js の統合](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | トピックを更新しました。 |
-|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しい節「at.js の実装」を追加しました。 |
-|  | リリース 18.10.1 [リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しいセクション「at.js の実装」を追加しました。 |
+|  | リリース 18.10.1[リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 27 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -673,7 +674,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>リリース 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local">リリースノート </a> </p> </td> 
+   <td colname="col2"> <p>リリース 18.8.1<a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> リリースノート </a> </p> </td> 
    <td colname="col3"> <p>このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 </p> </td> 
   </tr> 
  </tbody> 
