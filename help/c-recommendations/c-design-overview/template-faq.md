@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) デザイン FAQ{#design-faq}
 
 Recommendations デザインに関するよくある質問（FAQ）のリストです。
+
+## 推奨品目の価格に、小数点以下の両方の値が表示されません。表示する方法
+
+デフォルトでは、デザインテンプレートで返される数値（など `entity.value`）は小数点以下のゼロを表示しません。例えば、アイテムが$35.00で、 `entity.value` 35に等しく、35のみがページに表示され、35ドルのみがページに表示されるとします。
+
+この問題に対処するには、2つのオプションがあります。
+
+* VelocityスクリプトまたはJavascriptを使用して、戻り値に書式を適用できます。
+
+* 品目の価格を2つの個別のエンティティ属性に渡すことができます。最初に `entity.value`、数値比較（価格比較ルールなど）を使用できます。2つ目は、エンティティの値を文字列として `entity.displayValue` 保存し、適切なレンダリングを可能にするためのカスタム属性です。
+
+   例：
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## カテゴリがデザインに表示されないのはなぜですか？$entity1.categoryId を使用しています。{#section_073309B8051049C7953D396A93EA0713}
 
