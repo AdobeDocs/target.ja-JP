@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | モバイルアプリIDの禁止文字の使用に関する情報を削除しました。制限がなくなりました。 |
+|  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新しい節を追加しました。「考慮事項」 |
+|  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 次の文を更新しました。カスタム条件の更新はデフォルトで「累積的」です。既存のキー値ペアが、CSV アップロードファイルで指定した新しいキー値ペアで上書きされます。CSVアップロードでキーが指定されていない既存のキーと値のペアは、引き続き配信できます。また、CSVファイルの一部として最後にアップロードされた時点から31日後に期限切れになります。 |
 | 2019年8月21日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Premium19.8.1リリース（2019年8月21日）を延期しました。このリリースのコンテンツは19.9.1リリース（2019年9月24日）にまとめられます。 |
 |  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 次のFAQを追加しました。「推奨品目の価格に、小数点以下の値が表示されません。表示方法を教えてください」。 |
 | 2019 年 8 月 17 日 | [mbox3rdPartyID のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新しい節を追加しました。「考慮事項」 |
