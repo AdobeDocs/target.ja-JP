@@ -1,15 +1,15 @@
 ---
 description: レスポンストークンを利用すると、Target 固有の情報（キャンペーンの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力し、デバッグや、サードパーティシステム（Clicktale など）との統合に利用することができます
-keywords: レスポンストークン; トークン; プラグイン
+keywords: レスポンストークン; トークン; プラグイン;at.js
 seo-description: レスポンストークンを利用すると、Target 固有の情報（キャンペーンの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力し、デバッグや、サードパーティシステム（Clicktale など）との統合に利用することができます
-seo-title: レスポンストークン
+seo-title: Adobe Targetの応答トークン
 solution: 'Target '
 subtopic: 導入
 title: レスポンストークン
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
->[!NOTE]
->
->ttMETAプラグインはサポートされなくなりました。For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
+応答トークンおよびat. jsカスタムイベントを使用して、Targetからサードパーティ製システムにプロファイル情報を共有する方法については、次のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=jpn)
