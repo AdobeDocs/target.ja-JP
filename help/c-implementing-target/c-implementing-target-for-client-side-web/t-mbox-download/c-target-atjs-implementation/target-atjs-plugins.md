@@ -1,19 +1,19 @@
 ---
 description: サポート対象およびサポート対象外の at.js プラグインに関する情報を紹介します。
-keywords: at.jsプラグイン;サポートされているプラグイン;サポートされていないプラグイン
-seo-description: サポート対象およびサポート対象外の at.js プラグインに関する情報を紹介します。
-seo-title: at.js プラグイン
+keywords: at.jsプラグイン;サポートされているプラグイン;サポートされていないプラグイン;;ttMeta;ttmeta;mboxTrack
+seo-description: Adobe Targetのサポート対象とサポートされていないat. jsプラグインに関する情報です。
+seo-title: Adobe Target用at. jsプラグイン
 solution: 'Target '
 title: at.js プラグイン
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
 
-# at.js プラグイン{#at-js-plug-ins}
+# at.js plug-ins{#at-js-plug-ins}
 
 サポート対象およびサポート対象外の at.js プラグインに関する情報を紹介します。
 
@@ -27,4 +27,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 |--- |--- |
 | mboxTrack | 非対応。<br>これは [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 関数に置き換わります。新しい関数を適用するために、プラグインを更新します。<br>詳細については、「[統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)」ページを参照してください。 |
 | 永続的プロファイルバックアッププラグイン | 非対応。<br>このプラグインは、Target プロファイルの有効期間が 2 週間から 90 日に延長された際に廃止されました。mbox cookie の有効期限をチェックして、アカウントのプロファイル有効期間設定を確認します。<br>プロファイルの有効期間を 90 日に延長したい場合は、ClientCare にお問い合わせください。 |
-| ttMeta | 対応.<br>このプラグインは、at.js で引き続き使用できます。 |
+| ttMeta | 非対応。<br>このプラグインの代わりに [、応答トークンを使用](/help/administrating-target/response-tokens.md)します。 |
