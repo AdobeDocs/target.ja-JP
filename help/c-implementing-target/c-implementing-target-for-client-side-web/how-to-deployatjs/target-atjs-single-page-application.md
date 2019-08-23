@@ -1,14 +1,14 @@
 ---
 description: at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x
+keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x;;at. js;単一ページアプリケーション;単一ページアプリ
 seo-description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-seo-title: シングルページアプリケーションの実装
+seo-title: Adobe Targetでのシングルページアプリケーションの実装
 solution: 'Target '
 title: シングルページアプリケーションの実装
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
 
 ### SPA での at.js 2.x の実装
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=jpn)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+詳しく [は、「シングルページアプリケーション（SPA）](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 」にあるAdobe Targetのat. js2. xの実装を参照してください。
 
 ### Adobe Target での SPA 用 VEC の使用
 
