@@ -2,9 +2,9 @@
 product: target
 audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classicの統合](administrating-target/scene7-settings.md)
+   + [Dynamic Media Classic の統合](administrating-target/scene7-settings.md)
    + [ホスト](administrating-target/hosts.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
 + Target の実装 {#implement-target}
@@ -55,7 +55,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [プライバシーとデータ保護規則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chromeサイトのcookieポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention（ITP）2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -90,7 +90,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [sendNotifications（）- at. js2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Target でのクラウドベースのインスタンスの使用](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -185,25 +185,25 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics データの使用](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/Bテストの複数エクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動配分 {#auto-allocate}
       + [自動配分](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [勝者の特定](c-activities/automated-traffic-allocation/determine-winner.md)
    + [自動ターゲット](c-activities/auto-target-to-optimize.md)
-   + Automated Personalization {#automated-personalization}
-      + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
+   + 自動パーソナライゼーション{#automated-personalization}
+      + [自動パーソナライゼーションの概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [自動パーソナライゼーションアクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Target のパーソナライゼーションアルゴリズムのデータのアップロード](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target のパーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Visual Experience Composer での自動パーソナライゼーションテストのエクスペリエンスの ](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target の自動パーソナライゼーションオファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [自動パーソナライゼーションまたは自動ターゲットアクティビティのコントロールを選択します](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有](c-activities/t-automated-personalization/experience-preview.md)
-      + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
+      + [自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
+      + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Target 外で自動パーソナライゼーションのプレビューを確認できるエクスペリエンス URL を共有](c-activities/t-automated-personalization/experience-preview.md)
+      + [自動パーソナライゼーションのトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
       + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyID のリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyIDのリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
       + [プロファイルと変数の用語集](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + ターゲットとオーディエンスに関する FAQ {#faq-audiences}
       + [ターゲットとオーディエンスに関する FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -324,12 +324,12 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [自動ターゲット概要レポート](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization 概要レポート](c-reports/reports-ap.md)
+   + [自動パーソナライゼーション概要レポート](c-reports/reports-ap.md)
    + パーソナライゼーションインサイトレポート {#insights}
       + [パーソナライゼーションインサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動セグメントレポート](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要な属性レポート](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Automated Personalization のオファーレポートグループ](c-reports/offer-reporting-groups-in-automated-personalization.md)
+   + [自動パーソナライゼーションのオファーレポートグループ](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + [エクスペリエンスのパフォーマンスレポート（MVT）](c-reports/experience-performance-report.md)
    + [場所の貢献度レポート（MVT）](c-reports/location-contribution-report.md)
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
