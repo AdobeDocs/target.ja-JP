@@ -1,6 +1,6 @@
 ---
 description: at.js を使用する自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す Target システム図です。
-keywords: システム図;ちらつき;Target Standard;at.js;実装
+keywords: システム図;ちらつき;Target Standard;at.js;実装;;javascriptライブラリ;js
 seo-description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 seo-title: Adobe Target の at.js の仕組み
 solution: 'Target '
@@ -8,7 +8,7 @@ title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 | 手順 | 詳細 |
 | --- | --- |
 | 1 | 呼び出しユーザーが認証されると、呼び出しが [!DNL Experience Cloud ID]を返し、別の呼び出しが顧客 ID を同期します。 |
-| 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at. jsは、非同期でロードすることもできます。オプションで、ページに実装されているスニペットを非表示にすることもできます。 |
+| 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.js は、ページに実装されているオプションの非表示スニペットを使用して非同期で読み込むこともできます。 |
 | 3 | すべての設定済みパラメーター（MCID、SDID および顧客 ID）を含む、ページ読み込みリクエストがおこなわれます。 |
 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、オーディエンスライブラリから正規のオーディエンスをリクエストします（例えば、Adobe Analytics、Audience Management などから共有されたオーディエンス）。<br>顧客属性がバッチ処理でプロファイルストアに送信されます。 |
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
@@ -68,7 +68,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ## at.js 1.x の図
 
-![](assets/target-flow.png)
+![Targetフロー- at. js1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 手順 | 説明 | 呼び出し | 説明 |
 |--- |--- |--- |--- |
