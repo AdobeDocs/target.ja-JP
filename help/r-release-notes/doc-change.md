@@ -2,13 +2,13 @@
 description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
 keywords: targetドキュメントの変更ログ;ドキュメントの更新
 seo-description: このページには、Adobe Targetのドキュメントに加えられた重要な変更点が記載されています。
-seo-title: Adobe Target製品ドキュメントのドキュメントの変更点
+seo-title: Adobe Target製品ドキュメントのドキュメントの変更点です。
 solution: 'Target '
 title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
+source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 ---
 
@@ -22,7 +22,6 @@ source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | のコードスニペットが更新 `AndroidManifest.xml`されました。 |
-|  | [at. jsプラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | ttMETA行を更新しました。このプラグインはサポートされなくなりました。代わりに応答トークンを使用します。 |
 | 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | モバイルアプリIDの禁止文字の使用に関する情報を削除しました。制限がなくなりました。 |
 |  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新しい節を追加しました。「考慮事項」 |
 |  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 次の文を更新しました。カスタム条件の更新はデフォルトで「累積的」です。既存のキー値ペアが、CSV アップロードファイルで指定した新しいキー値ペアで上書きされます。CSVアップロードでキーが指定されていない既存のキーと値のペアは、引き続き配信できます。また、CSVファイルの一部として最後にアップロードされた時点から31日後に期限切れになります。 |
