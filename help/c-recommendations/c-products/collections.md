@@ -1,8 +1,8 @@
 ---
 description: コレクションは、レコメンデーションに使用できる商品または品目のセットです。
 keywords: コレクション;ターゲット設定
-seo-description: コレクションは、レコメンデーションに使用できる商品または品目のセットです。
-seo-title: コレクション
+seo-description: コレクションは、レコメンデーションに適格なAdobe Targetの製品または品目のセットです。
+seo-title: Adobe Targetのコレクション
 solution: 'Target '
 title: コレクション
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
 
-## コレクション {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-コレクションは、レコメンデーションに使用できる商品または品目のセットです。
-
 一般的に、コレクションは、単一の製品コレクションなどの同一または関連する品目のセットです。しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。
 
 コレクションは、製品や論理的な格納場所を整理するために使用できます。例えば、ある品目が一部の地域のみで利用可能な場合、訪問者の地域で利用できない品目を除いたコレクションを作成することができます。また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
 
-レコメンデーション内の各条件に対して生成される代替レコメンデーションでもこのコレクションが使用されるので、コレクション内の品目だけが代替レコメンデーションに含まれます。コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
 
 コレクションは、各条件が実行されるたびに、再構築または更新されます。
 
@@ -47,9 +43,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL ｌコレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
 
-   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
+   ![コレクションのリスト](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
@@ -67,7 +63,15 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。複数のルールを、AND で結合することができます。コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。カタログ検索ページの詳細検索（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）を使用して、コレクションを作成することもできます。「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクション]をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## アドバンス検索を使用したコレクションの作成
+
+[また、カタログ検索](/help/c-recommendations/c-products/catalog-search.md) ページでアドバンス検索を使用してコレクションを作成することもできます（[!UICONTROL レコメンデーション] / [!UICONTROL カタログ検索] / [!UICONTROL アドバンス検索]）。
+
+![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
+
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクション]をクリックします。
 
 >[!IMPORTANT]
 >
