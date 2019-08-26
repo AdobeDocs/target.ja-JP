@@ -1,8 +1,8 @@
 ---
 description: エンティティとは、レコメンデーションする項目を指します。製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
 keywords: 製品;コレクション
-seo-description: エンティティとは、レコメンデーションする項目を指します。製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
-seo-title: エンティティ
+seo-description: エンティティは、Adobe Targetを使用してレコメンデーションする品目を指します。製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
+seo-title: Adobe Targetのエンティティ
 solution: 'Target '
 title: エンティティ
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5a10156bfe235d894c7ee3518cbf685deed324ca
 
 ---
 
