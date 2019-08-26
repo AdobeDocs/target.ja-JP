@@ -1,8 +1,8 @@
 ---
 description: カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 keywords: カタログ;検索
-seo-description: カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
-seo-title: カタログ検索
+seo-description: Adobe Targetのカタログ検索を使用すると、カタログ内の製品やコンテンツを検索できます。
+seo-title: Adobe Targetでのカタログ検索
 solution: 'Target '
 title: カタログ検索
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 ---
 
@@ -19,19 +19,36 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 
+カタログ検索にアクセスするには、 **[!UICONTROL レコメンデーション]** / **[!UICONTROL カタログ検索]**&#x200B;をクリックします。
+
 検索フィールドで下矢印をクリックすると、オプションメニューが表示されます。そこから検索オプションを選択すると、詳細検索が可能です。
 
 ![](assets/searchproductsmenu.png)
 
+検索オプションには、次のものがあります。
+
+* ALL
+* 名前
+* ブランド
+* カテゴリ
+* ID
+* メッセージ
+
 **[!UICONTROL 「すべて]**」は、すべての他の検索条件の OR 条件を使用して検索します。
 
-検索結果で「**[UICONTROL 環境]**」フィルターをクリックし、カタログを表示している実稼動ホストグループ環境を指定します。検索結果で品目をスクロールして、サムネールなどの製品情報を表示することもできます。
+検索結果で「**[!UICONTROL 環境]**」フィルターをクリックし、カタログを表示している実稼動ホストグループ環境を指定します。[](/help/administrating-target/hosts.md)検索結果で品目をスクロールして、サムネールなどの製品情報を表示することもできます。
 
 「製品」のとなりに表示されている数字は、指定された環境での有効数の中で検索語句に一致した製品の数です。
 
 フィードファイル、APIまたはmboxの更新を使用して更新を受信すると、カタログが自動的に更新されます。通常、アップデートは1時間で完了します。更新が進行中の場合、最新のアップデートが開始された時間が表示されます。更新が進行中でない場合、最新のアップデートが開始および終了した時間が表示されます。
 
-カタログ検索ページの詳細検索（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）を使用して、コレクションや除外を作成できます。「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクションまたは除外]をクリックします。
+## アドバンス検索に基づくコレクションまたは除外の作成
+
+You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
+
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクションまたは除外]をクリックします。
 
 >[!IMPORTANT]
 >
