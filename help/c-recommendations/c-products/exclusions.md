@@ -1,14 +1,14 @@
 ---
 description: 除外リストを作成すると、品目がレコメンデーションされないようにできます。
 keywords: 除外
-seo-description: 除外リストを作成すると、品目がレコメンデーションされないようにできます。
-seo-title: 除外
+seo-description: Adobe Targetで除外リストを作成して、品目のレコメンデーションを防ぎます。
+seo-title: Adobe Targetの除外
 solution: 'Target '
 title: 除外
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
+**除外を作成するには:**
+
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL 除外]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
-   [!UICONTROL 除外]リストビューで各除外について報告される「項目数」は、現在設定されているデフォルトの Recommendations [ホストグループ](/help/administrating-target/hosts.md)（環境）内でその除外のルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
-
    ![](assets/exclusions_list.png)
+
+   [!UICONTROL 除外]リストビューで各除外について報告される「項目数」は、現在設定されているデフォルトの Recommendations [ホストグループ](/help/administrating-target/hosts.md)（環境）内でその除外のルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 
@@ -41,7 +43,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   カタログ検索ページの詳細検索（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）を使用して、除外を作成することもできます。「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。
+## アドバンス検索を使用した除外の作成
+
+カタログ検索ページの詳細検索（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）を使用して、除外を作成することもできます。
+
+[名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
+
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは [、カタログ検索](/help/c-recommendations/c-products/catalog-search.md)を参照してください。
 
 >[!IMPORTANT]
 >
