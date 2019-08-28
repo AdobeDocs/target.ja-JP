@@ -9,7 +9,7 @@ title: 管理者の最初の手順
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 ---
 
@@ -18,17 +18,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ここでは、[!DNL Target] 管理者が [!DNL Adobe Experience Cloud] への招待メールを受け取った後に最初におこなう手順について説明します。
 
-## Get invited to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Target への招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. システム管理者は、1つまたは複数のロールに固有のグループにユーザーを追加する必要があります。Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
+[!DNL Adobe Admin Console] のシステム管理者は、参加させたいひとを招待することで [!DNL Target] にユーザーとして追加する必要があります。次に、システム管理者が、1 つ以上の役割用のグループに追加する必要があります。これらの作業は、共に [Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
+詳しくは、Experience [Cloudおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) のExperience *Cloudユーザーおよび製品の管理*&#x200B;を参照してください。
 
-システム管理者がこれらの手順を実行すると、招待の電子メールが届きます。
+システム管理者がこれらの手順を実行すると、招待の電子メールが送信されます。
 
 ## 招待の受諾 {#task_24FE66659E634B24AB61DB8497772E17}
 
-After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept the invitation, log in, and accept the End User License Agreement (EULA).
+[!DNL Adobe Experience Cloud] への招待メールを受け取ったら、招待を受諾し、ログインして、エンドユーザー使用許諾契約（EULA）に同意します。
 
 1. [!DNL Adobe Experience Cloud] への招待を受諾します。
 1. Adobe ID をまだ持っていない場合は、作成するよう求められます。 
@@ -42,7 +42,7 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
    >
    >アカウントをリンクしないと、[!DNL Target] にアクセスできません。
 
-   リンクページにすべての Experience Cloud 製品が表示されます。Standard および Classic にアクセスするために、「`Link Test&Target`」をクリックし、Test&amp;Target のユーザー名とパスワードを入力します。
+   リンクページにすべての Experience Cloud 製品が表示されます。Click `Link Target` and enter your Target username and password to access Target Standard.
 1. 「**[!UICONTROL Experience Cloud を続行]**」をクリックします。
 
    この時点では、リンクできる権限を持ったグループはまだ設定されていません。
@@ -52,10 +52,10 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
 
 ## 承認者の役割の割り当て {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-After accepting the invitation to join the [!DNL Adobe Experience Cloud] and logging in, confirm that Target has been added to your [!DNL Experience Cloud] account, then assign yourself the [!UICONTROL Approver] role for [!DNL Target].
+[!DNL Adobe Experience Cloud] への招待を受諾してログインしたら、自分の [!DNL Experience Cloud] アカウントに Target が追加されていることを確認し、自分自身に [!DNL Target] の[!UICONTROL 承認者]の役割を割り当てます。
 
-If your organization has a [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) license, see [Specify roles and permissions](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
+お客様の組織が [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) ライセンスを所有している場合、*ユーザー*&#x200B;の[役割および権限の指定](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)を参照してください。
 
-[Target Premium](/help/c-intro/intro.md#premium) ライセンスをお持ちの場合は、手順6を参照 [してください。エンタープライズ権限を設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) するに *は、ロールと権限を指定*&#x200B;します。
+お客様の組織が [Target Premium](/help/c-intro/intro.md#premium) ライセンスを所有している場合、*エンタープライズ権限の設定*&#x200B;の[手順 6：役割および権限の指定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)を参照してください。
 
-次の手順は、Target StandardおよびTarget Premiumでユーザーを設定することです。For more information, see [User management](/help/administrating-target/c-user-management/user-management.md).
+次の手順では、Target Standard および Target Premium でユーザーを設定します。詳しくは、[ユーザー管理](/help/administrating-target/c-user-management/user-management.md)を参
