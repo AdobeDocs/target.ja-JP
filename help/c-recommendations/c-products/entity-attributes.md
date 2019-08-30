@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 単一値のみ。
 
-この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [DNL Adobe Experience Cloud] 製品（ [!DNL Analytics] を含む）で同じにする必要があります。
+この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [!DNL Adobe Experience Cloud] 製品（ [!DNL Analytics] を含む）で同じにする必要があります。
 
 `entity.id` の値には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
 
