@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
+source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 9 月 5 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | のコードスニペットが更新 `AndroidManifest.xml`されました。 |
 | 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | モバイルアプリIDの禁止文字の使用に関する情報を削除しました。制限がなくなりました。 |
 |  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新しい節を追加しました。「考慮事項」 |
@@ -57,13 +58,13 @@ source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 最近表示した項目に注意を追加しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Activity QAプレビューリンクに既知の問題が追加されました。 |
 | 2019年7月29日 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 新しいFAQを追加しました。「 [!UICONTROL エクスペリエンスターゲット設定] （XT）レポートに、コントロールエクスペリエンスの指標が含まれているのはなぜですか?" |
-| 2019年7月25日 | [at. js1.*x* からat. js2.*xへのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新しい節を追加しました。 [at. js2. xのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| July 24, 2019 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新しい節を追加しました。 [at. js2. xのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention（ITP）2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新規トピックです。 |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新しい節を追加しました。「レコメンデーションオファーのステータスの表示」を参照してください。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md) | 「項目の読み込み」行を更新し、「フィードのステータス」の下に「インポート済みのフィードが正常に *フィード*&#x200B;されました」という行 [を追加](/help/c-recommendations/c-products/feeds.md#status)しました。 |
 |  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md) | カタログの更新方法に関するテキストを更新しました。 |
 |  | [モバイルアプリ でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | クリック追跡用に設定した要素を表示する変更パネルに関する情報を追加しました。 |
-|  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md#bots) | 新しい節を追加しました。「ボット」 |
+|  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md#bots) | Added new section: "Bots." |
 |  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 正規表現の実行を遅く避けるためにベストプラクティスを追加しました。 |
 |  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 「トラブルシューティング」セクションが更新され、文字制限がアプリ名に適用されなくなりました。制限はIDにのみ適用されます。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md#steps) | サポートされているFTPサーバー設定を手順に追加しました。 |
