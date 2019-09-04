@@ -8,30 +8,27 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
 
 ---
 
 
-# CNAME と Adobe Target{#cname-and-adobe-target}
+# CNAME と Adobe Target {#cname-and-adobe-target}
 
-Adobe Client Care と連携しながら Adobe Target で CNAME（正規名）サポートを実装する方法について説明します。広告ブロッキングの問題を最大限に扱うために、CNAMEは、アドビが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われるように使用されます。
+Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Target]. 広告ブロックの問題やITP関連のcookieポリシーを最適に取り扱うために、CNAMEは、アドビが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われるように使用されます。
 
-Target で CNAME サポートを要求するには、次の手順を実行します。
+Perform the following steps to request CNAME support in [!DNL Target]:
 
-1. 「[カスタマーケアチケット](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)」を開いて、Adobe Target 呼び出しの CNAME サポートを要求します。
-1. [Adobe Managed Certificate（AMC）Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) に登録し、『[!DNL Adobe Analytics]*ファーストパーティ Cookie*』ガイドに記載されている実装手順に従います。[!DNL Target] は [!DNL Analytics] 、CNAMEサポートと同じメソッドを使用します。
+1. Open a [Customer Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) for your [!DNL Target] calls.
 
-   AMC Program を利用することで、ファーストパーティ Cookie を実装する際の労力と混乱を回避できます。このプログラムに登録すると、証明書の購入と発行や、セキュアサーバーへの証明書のインストールがアドビ側でおこなわれます。
+1. CNAMEレコードを作成します（下記の手順を参照）。
 
-   >[!NOTE]
-   >
-   >AMC Program に登録する前に、CNAME を設定する必要があります。
+   チケットを受信すると、FPSSLスペシャリストはCNAMEレコードのペアを提供する必要があります。これらのレコードは、アドビが証明書を購入する前に、会社のDNSサーバー上で設定する必要があります。
+
+   CNAMESは、次の例のようになります。
+
+   `DNS record: metrics.example.com IN CNAME metricsexample-fpssl.tt.omtrdc.net`
+
+1. これらのCNAMEを設定すると、アドビの実稼働サーバーに証明書を購入してインストールするDigicgerと連携します。
 
 1. 上記のタスクを完了したら、at. jsの新しいCNAME `serverDomain` に更新する必要があります。
-
-## トレーニングビデオ:ファーストパーティcookieとAdobe Managed Certificates
-
-This video is a recording of [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), an initiative led by the Adobe Customer Care team. Adobe Managed Certificateプログラムのディスカッションは10:21から開始します。
-
-[Adobe Analytics:ファーストパーティcookieとAdobe Managed Certificatesの使用](https://helpx.adobe.com/customer-care-office-hours/analytics/first-party-cookies-adobe-managed-certificates.html)
