@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
+source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
 
 ---
 
@@ -136,6 +136,7 @@ source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
          + [Android - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [モバイル VEC でのクリック追跡のセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
+      + [モバイルアプリのFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
