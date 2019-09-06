@@ -8,7 +8,7 @@ title: サイトのページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    * **mbox：**&#x200B;ターゲットとしている mbox。例えば、合計 100 ドル以上の注文をカウントする場合、ここで指定したターゲット設定を含む mbox パラメーターとして `orderTotal` を渡します。
    * **ドメイン：**&#x200B;ページの完全ドメイン。ドメインを指定する際には、ベストプラクティスとして、「次を含む」を使用することが推奨されます。例えば、「ドメインがfacebook.comに等しい」は受け入れ `m.facebook.com` られ `www.facebook.com` ません。「facebook.com を含むドメイン」では、facebook.com のあらゆるバリエーションが含まれます。
-   * **クエリ：**&#x200B;最初の疑問符（?）後の URL のコンテンツ。例えば、次のサンプル URL ではクエリが太字で表示されています。
+   * **クエリ：**&#x200B;最初の疑問符（?）後の URL のコンテンツ。
 
       `foo.html?e0a72cb2a2c7`
 
