@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ Automated Personalization（AP）および自動ターゲット（AT）アクテ
 >パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
 >パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
+>
+>パーソナライゼーションインサイトレポートは、ライブステータスにあるアクティビティに対してのみ生成され、少なくとも15日間アクティブ化および受信されたアクティビティに対してのみ生成されます。
 
 ## パーソナライゼーションインサイトレポートの概要 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ Automated Personalization（AP）および自動ターゲット（AT）アクテ
 
 パーソナライゼーションインサイトレポートの目標は、どの訪問者にどのようなコンテンツを表示するかが Target のパーソナライゼーションモデルでどう決定されたかを理解することです。そのため、パーソナライゼーションインサイトレポートでは、AP または AT アクティビティで提供されたすべてのトラフィックのサブセグメントだけを反映します。具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。つまり、パーソナライゼーションインサイトレポートでは、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません。
 
-以下では 2 つのレポートが使用できます。
+2つのパーソナライゼーションインサイトレポートを利用できます。
 
 | レポート | 詳細 |
 |--- |--- |
@@ -60,4 +62,4 @@ Target に追加データを渡して、AP および AT アクティビティの
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=jpn)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+詳しくは、Adobe Targetのパーソナライゼーションインサイトレポート [の使用](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)を参照してください。
