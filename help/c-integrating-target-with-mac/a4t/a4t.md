@@ -9,7 +9,7 @@ title: Adobe Target のレポートソースとしての Adobe Analytics（A4T�
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * 既存の Target アクティビティは引き続き Target のデータ収集を使用するので、A4T を有効にしても影響を受けません。
 * Analytics をレポートソースとして使用する場合、許可される mbox ベースの指標は 1 つのみです。
 * Target から Analytics へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が Analytics に送られます。この統合によって、Target または Analytics に追加のサーバーコールが生じることはありません。
+
+   状況によっては、TargetからAnalyticsへの分類呼び出しに失敗し、アクティビティにAnalyticsのデータが表示されないことがあります。これが発生した場合は、AnalyticsとTargetの統合 [のトラブルシューティング（A4T）](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。さらに詳しく [は、ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) にお問い合わせください。
 
 ## サポートされているアクティビティのタイプ {#section_F487896214BF4803AF78C552EF1669AA}
 
