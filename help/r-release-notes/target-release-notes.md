@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | 今後のTarget2019年9月リリースでは、Enterprise Permissionsにより次のアクセス制御をお客様に提供できます。<UL><li>統合を適用するワークスペースを選択できます。</li><li>Adobe I/O統合にロールを適用できます。承認者、エディターまたは監視者。</li></ul>手順について詳しくは、Adobe I/O統合のワークスペースへ [のアクセス権限の付与およびロールの割り当てを参照](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)してください。 |
+| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Targetの2019年9月リリースでは、次のアクセス制御をお客様に提供しています。<UL><li>統合を適用するワークスペースを選択できます。</li><li>Adobe I/O統合にロールを適用できます。承認者、エディターまたは監視者。</li></ul>手順について詳しくは、Adobe I/O統合のワークスペースへ [のアクセス権限の付与およびロールの割り当てを参照](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)してください。 |
 
 ## Target Standard/Premium 19.9.2（2019 年 9 月 24 日）
 
