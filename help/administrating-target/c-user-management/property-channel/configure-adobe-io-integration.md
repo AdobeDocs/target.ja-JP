@@ -7,7 +7,7 @@ solution: 'Target '
 subtopic: 導入
 title: Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -20,23 +20,25 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 >
 >プロパティと権限の機能は [Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
-[!UICONTROL エンタープライズ権限] 機能により、チーム間で最適化プログラムを効率的に拡大・縮小できます。Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier in 2019. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL エンタープライズ権限] 機能により、チーム間で最適化プログラムを効率的に拡大・縮小できます。この機能は [!DNL Target] UIで使用できましたが、管理APIは2019年の以前のサポートに対応していません。2019 [!DNL Target] 年2月のリリースでは、アドビは管理者APIを更新して、統合アカウントを使用して組織で作成されたすべてのワークスペースにアクセスできるようにしました。したがって、管理者APIはデフォルトのワークスペースのみに制限されていましたが、2019年2月アップデートで [!UICONTROL は承認者] アクセスを持つすべてのワークスペースへのアクセス権が付与されました。
 
-With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+2019 [!DNL Target] 年9月のリリースで [!DNL Target][!UICONTROL は、Enterprise権限] により次のアクセス制御をお客様に提供します。
 
 * 統合を適用できるワークスペースを選択できます
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Adobe I/O統合にロールを適用できます。 [!UICONTROL 承認者]、 [!UICONTROL エディター]または [!UICONTROL 監視者]。
 
 このアップデートでは、次の使用例をサポートしています。
 
-* Grant the Adobe I/O integration access to all workspaces with the [!UICONTROL Observer] role for reporting purposes with no rights to create or edit resources.
+* Adobe I/Oの統合アクセスに、リソースを作成または編集する権利を持たない、レポート目的の [!UICONTROL すべて] のワークスペースへの統合アクセス権を付与します。
 * Adobe I/Oの統合に適切な役割を持つワークスペースを選択することにより、チームは、少数のワークスペースでのAPIによる変更の実施を中央チームに許可します。
 * チームがAPIを参照できるように準備されていて、それに応じてロールを選択するたびに、ワークスペース所有者ごとに独自の統合を許可する。
 * 上記のいずれかのシナリオをミックスして一致させます。
 
-**必要なアクション**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客の場合、すべてのワークスペースにおけるリソース（アクティビティ、オーディエンス、オファーおよびレポート）は、使用事例に従って、すべてのワークスペースへのアクセス権を付与する必要があります。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. これで、目的の役割を選択できます。
+**必要なアクション**:現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するAPIを利用している顧客の場合、すべてのワークスペースにおけるリソース（アクティビティ、オーディエンス、オファーおよびレポート）は、使用事例に従って、すべてのワークスペースへのアクセス権を付与する必要があります。そのためには、「統合」タブで [!DNL Target][!UICONTROL 各製品プロファイル] を選択 [!DNL Adobe Admin Console] し、統合を [!UICONTROL 追加します。]9月のリリースより前に、製品の役割ドロップダウンリストからの選択にかかわらず [!UICONTROL 、承認者] のアクセスを使用して操作した [!UICONTROL すべての統合] が実行されます。これで、目的の役割を選択できます。
 
-This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 統合の設定に悪影響はありません。この変更を早くすると、改善につながります。組織内のワークスペースの数によっては、これを設定するのに小さい時間が必要です。このプロセスでは、既存の統合をワークスペースに追加して、目的のロールを持つワークスペースに追加するだけで済みます。
+>[!NOTE]
+>
+>このアクションが実行されない場合は [!DNL Target] 、2019年9月リリース以降、アクセスコントロールがアクティブになり、現在設定されている場合にのみデフォルトのワークスペースへのアクセス権が表示されます。統合の設定に悪影響はありません。この変更を早くすると、改善につながります。組織内のワークスペースの数によっては、このプロセスでは、既存の統合を目的のロールを持つワークスペースに追加するためのクリック数が数回しかかかりません。
 
 **Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てるには:**
 
@@ -54,7 +56,7 @@ This action should be performed during the month of **August 2019** to not face 
 
    ![「統合」タブ](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+1. （条件付き）新しい統合を追加するには、「統合 **[!UICONTROL を追加»をクリック??し、目的の統合を選択して、??«保存??]******
 
 1. **[!UICONTROL 製品の役割]** ドロップダウンリストから、そのワークスペースに対して目的のロールを選択します。
 
