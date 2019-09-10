@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -23,7 +23,19 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ## リリースノート - 2019 年 {#releases-2019}
 
-### Target Standard／Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
+### Target Mobile VEC SDK iOS2.1.0およびAndroid1.1.1（2019年8月8日）
+
+Mobile VEC SDKのこのリリースには、次の機能強化および修正が含まれています。
+
+（括弧内の問題番号はアドビ社内で使用されます。）
+
+* モバイルデバイスでのビジュアルアクティビティのプレビューのサポートを追加しました。（TGT-27875）
+* 使用状況に `UIImagePickerController` よってApple Standardの違反が発生する問題を修正しました。
+* Android SDKからGSON依存性を削除しました。（TGT-31710）
+* 他の冗長なGradle依存関係を削除（TGT-35479）
+* 作成時に配信オファーがリセットされない問題を修正しました。（TGT-35270）
+
+### Target Standard／Premium 19.7.1（2019 年 7 月 25 日）{#tgt-19-7-1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -31,10 +43,10 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer | Mobile App VECに、クリック追跡用に設定した要素を表示する新しい変更パネルが表示されます。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
-| ![A/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティ](/help/assets/premium.png)<br>のプレミアムバッジ | Recommendationsオファー（アルゴリズム）のステータスは、Recommendationsオファーを含むA/BテストおよびXTアクティビティの概要ページに表示されます。次のようなステータスがあります。結果準備完了、結果が準備されていない、フィード失敗。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Experience Cloud ID（ECID）ライブラリを使用したat. js2.0以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングはat. js2ではサポートされていませんでした。*x*. このリリースでは、at. js2.0以上を使用するお客様は、ECIDライブラリを通じてクロスドメイントラッキングを利用できるようになりました。クロスドメイントラッキングを機能させるには、ページにEIDライブラリをat. js2.0以上と組み合わせてインストールする必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
-| Experience Cloud ID（ECID）ライブラリ4.3を使用したAppleのTP2.1およびITP2.2のTargetサポート | 今日、Targetのお客様は、アドビのCNAME認定プログラムを利用してAppleのTP2.1およびITP2.2を軽減することができます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。EIDライブラリは、ブラウザーによって導入されるCookieポリシーの変更に堅牢なソリューションを提供する、ロールアウト機能の強化を継続します。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
+| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> モバイルアプリでのクリック追跡の [設定](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の用意ができました」、「結果の用意ができました」および「フィードエラー」があります。（TGT-33649）<br>[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md#status)を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 必要があります。<br>at. js2. xの [クロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、Targetは、EIDライブラリ4.3とシームレスに統合して、サーバー側のcookieを利用してITP2.1およびITP2.2を軽減します。TargetのJavaScriptライブラリと共に [EIDライブラリ4.3以上](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) をデプロイして将来のASTリリースを緩和することを強くお勧めします。ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提要する機能強化が引き続き公開されます。<br>[Apple Intelligent Tracking Prevention（ITP）2. xを参照](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)してください。 |
 
 **機能強化、修正、変更点**
 
@@ -49,9 +61,9 @@ at. jsのこのリリースはメンテナンスリリースであり、次の�
 （括弧内の問題番号はアドビ社内で使用されます。）
 
 * Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
-* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
+* オファーが複数回レンダリング `triggerView()` されない問題を修正しました。（TNT-32780）
+* リクエストにMarketing `triggerView()` Cloud ID（MCID）情報が含まれる問題を修正しました。（TNT-32776）
+* 保存されたビューがない場合でも `triggerView()` 、通知を実行できない問題を修正しました。（TNT-32614）
 * URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
 * `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
 * 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
@@ -70,25 +82,25 @@ For information about this and previous versions of at.js, see [at.js version de
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Visual Experience Composer（VEC） | **新しいVECメニューオプション**:VECでページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。<ul><li>[!UICONTROL スタイル/背景] オプションを使用して、選択した要素の背景画像と色を変更できるようになりました。（TGT-15001）</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**クリック追跡の改善**:VECおよびシングルページアプリケーション（SPA） VEC内でのクリック追跡の設定プロセスを改善しました。<ul><li>クリック追跡で使用する要素を選択する際、使用可能なすべてのエレメントの名前が右側の変更パネルに表示され、目的の要素をすばやく簡単に選択できます。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. この番号にマウスポインターを置くと、選択したすべての要素の名前を表示できます。（TGT-33878）</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイド付きワークフロー**:新しいガイド付きワークフローは、単一ページアプリ用にアクティビティを実行して実行するために、ページ配信ルール設定をどのように設定すべきかを理解するのに役立ちます。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**コピーの変更**:SPA VECを使用して変更を定義し、その変更を単一ページアプリの他のビューで使用するためにコピーできるようになりました。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| Mobile Visual Experience Composer | **複数のアプリケーションバージョン**:モバイルアプリの複数バージョンのアクティビティを作成できるようになりました。これにより、バージョンが類似していて、アプリケーションのUIを大幅に変更する必要がなくなります。(TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Premiumバッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）および自動ターゲット | **コントロールとしての特定のエクスペリエンス**:APまたは自動ターゲットアクティビティの作成時に、コントロールとして使用するエクスペリエンスを選択できます。この機能により、アクティビティで設定されたトラフィック配分の割合に基づいて、特定のエクスペリエンスにコントロールトラフィック全体をルーティングできます。その後、その1つのエクスペリエンスへのトラフィックを制御するために、パーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在の制御オプション（ランダムに提供されるエクスペリエンス）は引き続き使用できます。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**パーソナライゼーションインサイトレポート**:訪問者が特定の場所で特定のコンテンツ部分を表示したときに、属性にわかりやすい名前を付けると、より有意義な情報を提供します。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Premiumバッジ](/help/assets/premium.png) の推奨事項 | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件を作成»の?«最近表示した項目?[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) |
-| Google Chromeサイトのcookieポリシー | Googleは最近、2019年7月30日リリース用に設定されているChrome76から開始し、開発者はWebサイト間で動作できるcookieとユーザーを追跡できるcookieを明示的に指定する必要があります。<br>業界では、消費者向けにより安全なWebを作成するために、Targetは、訪問者に対して、ミーティング中にパーソナライズされたエクスペリエンスを配信し、訪問者のプライバシー期待を超えていることに積極的にコミットされています。<br>[Google Chrome SAeSite cookieポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
+| Visual Experience Composer（VEC） | **新しい VEC メニューオプション**：VEC でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。<ul><li>[!UICONTROL スタイル／背景]オプションを使用して、選択された要素の背景画像および色を変更できるようになりました。（TGT-15001）</li></ul>[Visual Experience オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)の&#x200B;*スタイル*&#x200B;を参照してください。<br>**クリックの追跡の改善**：VEC およびシングルページアプリケーション（SPA）VEC 内のクリックの追跡の設定手順を改善しました。<ul><li>クリックの追跡で使用するために要素を選択する際に、すべての使用可能な要素の名前が右側の変更パネルに表示され、すばやく簡単に目的の要素を選択できます。</li><li>3 ステップのガイドによるアクティビティワークフローの[!UICONTROL 目標と設定]ページに、クリックの追跡用に選択した要素の数が表示されます。この数にマウスポインターを置くと、すべての選択された要素の名前が表示されます。（TGT-33878）</li></ul>[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。 |
+| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイドによるワークフロー**：新しいガイドによるワークフローを使用すると、シングルページアプリ用にアクティビティを正常に実行するには、ページ配信ルール設定をどのように設定する必要があるかを理解できます。（TGT-33718）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) を参照してください。<br>**クローンの変更**：SPA VEC を使用した変更を定義して、シングルページアプリの他のビューで使用するために、その変更をクローンできるようになりました。（TGT-33882）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) を参照してください。 |
+| Mobile Visual Experience Composer | **複数のアプリバージョン**：複数のバージョンのモバイルアプリ用にアクティビティを作成できるようになりました。これにより、バージョンが同じで、アプリの UI をそれほど変更する必要がない場合に、時間と労力を節約できます。（TGT-34231）<br>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec) の「複数のアプリバージョンの管理」を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）と自動ターゲット | **特定のエクスペリエンスをコントロールとして**：AP または自動ターゲットアクティビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在のコントロール オプション（ランダムに提供されるエクスペリエンス）は、引き続き使用できます。（TGT-32801、TGT-26572、&amp; TGT-26571）<br>[自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。この機能に関する[現在の既知の問題](/help/r-release-notes/known-issues-resolved-issues.md)があります。<br>**パーソナライゼーションインサイトレポート**：訪問者がコンテンツの特定の部分を特定の場所で表示する際に、属性の名前がマーケティング担当者にとってわかりやすくなり、より有用な情報が提供されます。（TGT-33421、TGT-34957）<br>[Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
+| Google Chrome SameSite cookie ポリシー | Google は、先日、Chrome 76（2019 年 7 月 30 日リリース予定）から、開発者はどの cookie が Web サイトで機能できるか、およびどの cookie がユーザーを追跡できるかを厳密に指定する必要があると発表しました。<br>業界はお客様向けにより安全な Web を作成する方向に進んでおり、Target では、訪問者のプライバシーに対する期待を満たし、超えると同時に、パーソナライズされたエクスペリエンスを配信することに全力で取り組んでいます。<br>[Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
 
-### at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+### at.js バージョン 2.1.0（2019 年 6 月 4 日） {#atjs-210}
 
-at. js2.1.0では、以下のエキサイティングな機能をお知らせします。
+at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| アドビオプトインサポート | Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>アドビのオプトインについて詳しくは [、プライバシーおよび一般的なデータ保護規則（GGPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
-| 業界標準CSP準拠 | at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。 |
-| クライアント側の分析ログ | 顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーが自由に制御できます。<br>詳しくは、実装する前に [、クライアント側のAnalyticsログを参照](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)**&#x200B;してください。 |
-| 通知の送信 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>詳しくは [、adobe. target. sendNotifications（options）](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)を参照してください。 |
-| ファイルサイズの削減 | at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。 |
-| at. jsドキュメントの更新 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+| Adobe Opt-in サポート | Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>Adobe Opt-in について詳しくは、[プライバシーと一般データ保護規則（GDPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。 |
+| 業界標準の CSP 準拠 | at.js は、eval() を使用して JavaScript を実行しなくなりました。 |
+| クライアント側分析ログ | お客様は、クライアント側とサーバー側とを問わず、分析データの Adobe Analytics への送信方法を完全に制御できます。<br>詳しくは、*実装する前に*&#x200B;の[クライアント側分析ログ](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)を参照してください。 |
+| 通知の送信 | `applyOffer()` または `applyOffers()` を使用する代わりにコードでエクスペリエンスがレンダリングされる場合、開発者は通知を送信できます。<br>詳しくは、[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) を参照してください。 |
+| 縮小されたファイルサイズ | at.js のサイズが最大 24％小さくなります。ファイルサイズが小さくなることで、ページ読み込みパフォーマンスが向上し、ページへの at.js ダウンロード時間が短縮します。 |
+| at.js ドキュメントの更新 | at.js 2.1.0 リリースに伴って更新されたすべての記事の完全なリストについては、[ドキュメントの変更](/help/r-release-notes/doc-change.md)の 2019 年 6 月 3 日のエントリを参照してください。 |
 
 ### [!DNL Target] Standard／Premium 19.5.1（2019 年 5 月 22 日）{#tgt-19-5-1-historical}
 
@@ -98,17 +110,17 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| シングルページアプリケーションの Visual Experience Composer（SPA VEC） | SPA VEC に、作業を高速化または効率化するための以下の機能が追加されました。<ul><li>SPA アクションをクリックすると、このアクションが適用されるサイト上の要素が強調表示されます。ビューの下に作成された各 VEC アクションには、「情報」、「編集」、「移動」、および「削除」の 4 つのアイコンがあります。このリリースの新しい機能「移動」を使用すると、変更パネルにあるページ読み込みイベントまたはその他の表示にアクションを移動できます。（TGT-33746）</li><li>VEC でページがロードされる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-33851 および TGT-34149）</li></ul>詳細については、「[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。 |
+| シングルページアプリケーション Visual Experience Composer （SPA VEC） | SPA VEC に、作業を高速化または効率化するための以下の機能が追加されました。<ul><li>SPA アクションをクリックすると、このアクションが適用されるサイト上の要素が強調表示されます。ビューの下に作成された各 VEC アクションには、「情報」、「編集」、「移動」、および「削除」の 4 つのアイコンがあります。このリリースの新しい機能「移動」を使用すると、変更パネルにあるページ読み込みイベントまたはその他の表示にアクションを移動できます。（TGT-33746）</li><li>VEC でページが読み込まれる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-33851 および TGT-34149）</li></ul>詳しくは、[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) を参照してください。 |
 
 #### 機能強化、修正、変更点
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
 
-### Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec-may14-2}
+### モバイルアプリケーション Visual Experience Composer（2019 年 5 月 15 日）{#mobile-vec-may14-2}
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer（VEC） | モバイルアプリケーション VEC を使用すると、継続的な開発の依存関係やアプリケーションのリリースサイクルに関係なく、ユーザーが自らネイティブモバイルアプリケーションでアクティビティを作成したりコンテンツをパーソナライズすることができます。<br>詳しくは、次を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[ビデオ:Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+| モバイルアプリケーション Visual Experience Composer（VEC） | モバイルアプリケーション VEC を使用すると、継続的な開発の依存関係やアプリケーションのリリースサイクルに関係なく、ユーザーが自らネイティブモバイルアプリケーションでアクティビティを作成したりコンテンツをパーソナライズすることができます。<br>詳しくは、次を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[ビデオ：モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard／Premium 19.4.2（2019 年 5 月 1 日）{#release-19-4-2}
 
@@ -138,7 +150,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 * コレクションピッカーから[!UICONTROL レコメンデーションコレクション]を選択した後、「[!UICONTROL 保存]」ボタンをクリックしなければならなくなりました。このワークフローは、 内の他のワークフローと一致します[!DNL Target]。（TGT-33205）
 * 少部数のインサイトレポートが実際のコンバージョン率ではなく 0% のコンバージョン率を返す問題を修正しました。（TNT-32125）
 
-### [!DNL Target] Standard／Premium 19.4.1（2019 年 4 月 15 日）{#release-19-4-1}
+### [!DNL Target] Standard／Premium 19.4.1（2019 年 4 月 16 日）{#release-19-4-1}
 
 このリリースは、メンテナンスリリースです。以下のような変更が含まれています。
 
@@ -154,7 +166,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>VEC で Web サイトの読み込みをキャンセルし、アクティビティを編集できない状況を解消できるようになりました。アクティビティに小規模な編集を加える、設定を確認、カスタムコードを追加するといった場合や、サイトの読み込みを待てない場合などに便利です。（TGT-31288）<br>[VEC 内でページの読み込みをキャンセルする](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)を参照してください。</li><li>VEC でページがロードされる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-31288、TGT-31611 および TGT-32602）<br>[ページの読み込み中またはページの読み込みに失敗した後でページを編集する](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)を参照してください。</li><li>VEC に DOM パスが表示されるので、エクスペリエンスの作成時や編集時に適切な要素を選択しやすくなりました。（TGT-13422）<br>[DOM パスを使用して要素をナビゲートする](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。</li></ul> |
+| Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>VEC で Web サイトの読み込みをキャンセルし、アクティビティを編集できない状況を解消できるようになりました。アクティビティに小規模な編集を加える、設定を確認、カスタムコードを追加するといった場合や、サイトの読み込みを待てない場合などに便利です。（TGT-31288）<br>[VEC 内でページの読み込みをキャンセルする](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)を参照してください。</li><li>VEC でページが読み込まれる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-31288、TGT-31611 および TGT-32602）<br>[ページの読み込み中またはページの読み込みに失敗した後でページを編集する](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)を参照してください。</li><li>VEC に DOM パスが表示されるので、エクスペリエンスの作成時や編集時に適切な要素を選択しやすくなりました。（TGT-13422）<br>[DOM パスを使用して要素をナビゲートする](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。</li></ul> |
 
 ### at.js バージョン 2.0.1（2019 年 3 月 20 日） {#atjs201}
 
@@ -198,7 +210,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 | シングルページアプリケーションの Visual Experience Composer | シングルページアプリケーション（SPA）用の Visual Experience Composer（VEC）を使用すると、マーケティング担当者は、継続的な開発依存関係なく、マーケティング担当者が SPA 上のテストを作成し、コンテンツをパーソナライズできます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。（TGT-27916）<br>詳しくは、「[シングルページアプリケーション（SPA） Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」および「[シングルページアプリケーションの統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。<br>上記の記事に加えて、この機能に対処する SPA および at.js に関するトピックと、実装方法に関するトピックが多数あります。詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md)」を参照してください。 |
 | Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>[AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)の挿入中に VEC の「前挿入」オプションと「後挿入」オプションを使用できるようになりました。「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」を参照してください。（TGT-32385）</li><li>Google Chrome のための [!DNL Adobe Target] VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトをロードして、作成と QA Web エクスペリエンスをすばやくできます。「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。（TGT-32746）</li></ul> |
 | ![Premium バッジ](/help/assets/premium.png)[!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスターゲット設定]アクティビティの <br>Recommendations | [!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。これにより、次のようなまったく新しい機能が可能になります。<ul><li>同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。</li><li>複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。</li><li>[!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。</li><li>[!UICONTROL 自動ターゲット]を使用して、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスに訪問者を動的に割り当てます。</li></ul>開始するには、VEC を使用して [!UICONTROL A/B テスト]または[!UICONTROL エクスペリエンスターゲット設定]アクティビティを作成し、[!UICONTROL 前挿入]、[!UICONTROL 後挿入]、[!UICONTROL 置換]などのアクションを使用して、エクスペリエンスに Recommendations を追加します。（RECS-6166）<br>詳しくは、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」を参照してください。 |
-| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;より、システム管理者はプログラムデータにプログラム的にアクセスし、任意のワークスペース内でアクティビティ、オファー、オーディエンスを作成・管理できるようになります。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。Automated Personalization（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
+| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;より、システム管理者はプログラムデータにプログラム的にアクセスし、任意のワークスペース内でアクティビティ、オファー、オーディエンスを作成・管理できるようになります。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
 
 **機能強化、修正、変更点**
 
@@ -208,11 +220,11 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ターゲット設定<br>2019 年 1 月 25 日 | プロファイルスクリプト、プロファイルパラメーターなど、プロファイルスクリプトまたはその他の入力ソースによって返される小数値と小数値の比較が、「等しい」比較の関数と一致するように変更されました。<br>詳しくは、[Target とオーディエンス](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) の FAQ を参照してください。 |
+| ターゲット設定<br>2019 年 1 月 26 日 | プロファイルスクリプト、プロファイルパラメーターなど、プロファイルスクリプトまたはその他の入力ソースによって返される小数値と小数値の比較が、「等しい」比較の関数と一致するように変更されました。<br>詳しくは、[Target とオーディエンス](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) の FAQ を参照してください。 |
 | プロファイルスクリプト<br>2019 年 1 月 18 日 | パフォーマンス上の理由から、256 文字以下の戻り値を返すことをお勧めします。<br>文字列戻り値の場合、戻り値のサイズが 2048 文字を超えると、スクリプトはシステムによって無効になります。<br>配列の戻り値の場合、配列の連結された値のサイズが2048文字を超えると、スクリプトはシステムによって無効になります。<br>文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメータなど）について詳しくは、これらの制限は、Target のアクティビティやその他の要素に影響を与えます。 「[制限](../r-troubleshooting-target/target-limits.md)」を参照ください。 |
 | at.js<br>2019 年 1 月 17 日 | at.js 1.6.4 はメンテナンスリリースで、以下の問題に対応しています。<ul><li>Microsoft Internet Explorer 11 で、重複するオファーが適用される競合条件のマニフェストを修正しました。（TNT-31374）</li><li>クリックトークンおよび HTML オファーを使用したデフォルトオファーがある場合にクリック追跡が実行される問題を修正しました。（TNT-31493）</li><li>各 Target リクエストで mboxEdgeSatik cookie を拡張しました。これは、mboxedGetOverride が有効な場合にのみ使用されます。（TNT-31485）</li></ul> |
 
-### [!DNL Target] Standard／Premium 19.1.1（2019 年 1 月 22 日） {#release-19-1-1-previous}
+### [!DNL Target] Standard／Premium 19.1.1（2019 年 1 月 23 日） {#release-19-1-1-previous}
 
 このリリースには、次の機能、変更および機能強化が含まれています。
 
@@ -220,7 +232,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![APIでのTarget Premium Badge大規模法人](/help/assets/premium.png)<br/>[!UICONTROL 権限] [!DNL Target] のサポート | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;から、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成・管理がおこなえます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。Automated Personalization（AP）アクティビティのサポートは、将来のリリースでおこなわれます。 |
+| ![APIでのTarget Premium Badge大規模法人](/help/assets/premium.png)<br/>[!UICONTROL 権限] [!DNL Target] のサポート | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;から、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成・管理がおこなえます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。 |
 | ![Target Premium のバッジ](/help/assets/premium.png)<br/>Recommendations: 環境別のコレクションおよび除外のフィルター（ホストグループ） | [!UICONTROL Recommendations] のコレクションと選択した環境（ホストグループ）の除外のコンテンツをプレビューできるようになりました。<br/>以前は、コレクションまたは除外を表示すると、表示されている項目がデフォルトホストグループの結果でした（[!UICONTROL Recommendations／設定／デフォルトホストグループ]で指定）。<br/>コレクションまたは除外を作成または更新するときに、[!UICONTROL 環境]セレクターを使用して、結果をプレビューする環境を選択できます。新しい[!UICONTROL 環境]フィルターでは、コレクションと除外を作成・編集する前に「[!UICONTROL 設定]」ページで適切なデフォルトホストグループに移動する必要がなくなるので、時間と労力を節約できます。<br/>**注意：** 選択した環境を変更した後、 「[!UICONTROL 検索]」をクリックして返された結果を更新する必要があります。<br/>新しい [!UICONTROL 環境] フィルターは、[!DNL Target] UI の次の場所から利用できます。<ul><li>[!UICONTROL カタログ検索]（[!UICONTROL Recommendations／カタログ検索]）</li><li>「[!UICONTROL コレクションを作成]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「[!UICONTROL コレクションを更新]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「[!UICONTROL 除外を作成]」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「[!UICONTROL 除外を更新]」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul><br>詳しくは、次のトピックを参照してください。<uL><li>[コレクション](/help/c-recommendations/c-products/collections.md)</li><li>[除外](/help/c-recommendations/c-products/exclusions.md)</li><li>[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations：環境（ホストグループ）別にコレクションと除外をフィルター](/help/administrating-target/hosts.md)</li></ul>（TGT-20622）</ul> |
 
 **機能強化、修正、変更点**
@@ -229,7 +241,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
 
 ## リリースノート - 2018 年 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
-### プラットフォーム（2018 年 11 月 15 日） {#section_484A56774E004282B98FFFF851E4E670}
+### プラットフォーム（2018 年 11 月 16 日） {#section_484A56774E004282B98FFFF851E4E670}
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
  <thead> 
@@ -266,7 +278,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>パーソナライゼーションインサイトレポート </p> <p> <p>注意：2018 年 11 月 15 日から利用できるようになります。 </p> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">Automated Personalization（AP）</span>および<span class="wintitle">自動ターゲット（AT）</span>アクティビティのユーザーは、次の 2 つの特殊なレポートを利用できます。 </p> <p> 
+   <td colname="col2"> <p><span class="wintitle">自動パーソナライゼーション（AP）</span>および<span class="wintitle">自動ターゲット（AT）</span>アクティビティのユーザーは、次の 2 つの特殊なレポートを利用できます。 </p> <p> 
      <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
       <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle">自動セグメント</span>：</b>AP／AT アクティビティでのオファーやエクスペリエンスへの反応は、訪問者によって異なります。このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。 </p> </li> 
       <li id="li_48556C9BAD48476DA00DD666F5265E2B"> <p><b><span class="wintitle">重要な属性</span>：</b>異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。 </p> </li> 
@@ -294,7 +306,7 @@ at. js2.1.0では、以下のエキサイティングな機能をお知らせし
    <td colname="col2"> <p>エクスペリエンスのターゲット設定（XT）アクティビティでエクスペリエンスをコピーできるようになり、ゼロからエクスペリエンスを再作成しなくても、エクスペリエンスに軽微な変更を加えられるようになりました。A/B テストには以前からこの機能がありました。（TGT-31504） </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_xt_add_experience.html" format="html" scope="external">エクスペリエンスを作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティのオファー </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティのオファー </p> </td> 
    <td colname="col2"> <p>2018 年 9 月のリリースでは、レポートグループを指定してオファーをフィルターする機能が追加されました。割り当てられていないオファーをフィルターして、現在どのレポートグループにも割り当てられていないオファーにレポートグループを割り当てられるようになりました。（TGT-31882） </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_create_ap_activity.html" format="html" scope="external">Automated Personalization アクティビティの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -359,11 +371,11 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティのオファー </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティのオファー </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9C39ACD865CE4167BDBAA093EDFD3B68"> 
       <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>除外グループで同じ場所から複数のオファーを使用できるようになりました。除外が多数（1,000 以上）ある場合は、Automated Personalization（AP）アクティビティを作成する際に、コンテンツを管理ダイアログボックスとプレビューページの読み込みも高速になります。（TGT-31329）<a href="../c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> 除外の管理 </a>. </p> </li> 
-      <li id="li_542C66E2998541BC87D0A96F4672C665"> <p>レポートグループを基準にしてオファーをフィルターできるようになりました。（TGT-31643）<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization アクティビティの作成 </a>. </p> </li> 
+      <li id="li_542C66E2998541BC87D0A96F4672C665"> <p>レポートグループを基準にしてオファーをフィルターできるようになりました。（TGT-31643）<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーションアクティビティの作成 </a>を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -486,7 +498,7 @@ target/r_release-notes-2018.xml
 この [!DNL Target] リリースには、以下の機能強化、修正および変更が含まれています。
 
 * リッチテキストエディターモーダルのサイズが大きくなって、より使いやすくなりました。（TGT-24775）
-* 自動化パーソナライゼーション（AP）および多変量分析テスト（MVT）アクティビティの Target 手順（3 つの手順から成るガイド付きワークフローの手順 2）を再設計することで、A/B、エクスペリエンスターゲット設定（XT）、Recommendations の各アクティビティに使用されるデザインとの一貫性が向上しました。（TGT-30712）
+* 自動パーソナライゼーション（AP）および多変量分析テスト（MVT）アクティビティの Target 手順（3 つの手順から成るガイド付きワークフローの手順 2）を再設計することで、A/B、エクスペリエンスターゲット設定（XT）、Recommendations の各アクティビティに使用されるデザインとの一貫性が向上しました。（TGT-30712）
 * 多変量分析テスト（MVT）の場所の貢献度レポートの指標値が他の指標の値と整合するようになりました。小数点以下 2 桁に四捨五入されます。（TGT-30921）
 
 ### at.js バージョン 1.5.0（2018 年 6 月 23 日）{#section_53C622F4978F4BC9ACD932D4B7194C12}
@@ -755,8 +767,8 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col2"> <p>範囲の算出方法を説明するツールチップなど、レポートの上昇率と範囲に関する情報が改善され、よりわかりやすく有用になりました。（TGT-28729） </p> <p>詳しくは、<a href="../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">平均上昇率、上昇率範囲および信頼区間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティと自動ターゲットアクティビティ </p> </td> 
-   <td colname="col2"> <p>UI とヘルプで、Automated Personalization（AP）アクティビティと自動ターゲットアクティビティで効果的にトラフィックを配分するのに役立つ追加のガイダンスを参照できます。 </p> <p>詳しくは、トラフィック配分 <a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local"> の決定 </a> および Automated Personalization アクティビティの作成 <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> </a> </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティと自動ターゲットアクティビティ </p> </td> 
+   <td colname="col2"> <p>UI とヘルプで、自動パーソナライゼーション（AP）アクティビティと自動ターゲットアクティビティで効果的にトラフィックを配分するのに役立つ追加のガイダンスを参照できます。 </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">トラフィック配分の決定</a>および<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーションアクティビティの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>レコメンデーション：カスタム条件のインクルージョンルール、コレクションおよび除外 </p> </td> 
@@ -855,7 +867,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。詳しくは、<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにカーソルを合わせると、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>アクティビティのみのオーディエンスに複数のアクティビティをまたいで同じ名前を設定できるようになりました。以前は、名前が重複しているとタイムスタンプが追加されていました。例えば「Target on Weekday」というオーディエンスが重複していると、「Target on Weekday-1456732099201」という名前で保存されていました。 </p> <p>ライブラリオーディエンスは引き続き、名前を一意にする必要があります。（TGT-17967） </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -903,7 +915,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 ## リリース 2017 {#reference_59C7622A111C4147804A8AAC6D27BB8D}
 
-### Target プラットフォーム（2017 年 11 月 8 日） {#section_536B3C0F32ED441C8D82704B94F6AF7E}
+### Target プラットフォーム（2017 年 11 月 9 日） {#section_536B3C0F32ED441C8D82704B94F6AF7E}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -1039,7 +1051,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 17.9.1（2017 年 9 月 25 日および 2017 年 10 月 12 日） {#section_ECC5DD8B6ED443788B46F53E25FC896E}
+### Target Standard／Premium 17.9.1（2017 年 9 月 26 日および 2017 年 10 月 13 日） {#section_ECC5DD8B6ED443788B46F53E25FC896E}
 
 このリリースには、次の機能と機能強化が含まれています（括弧内の問題番号はアドビ社内で使用されます）。
 
@@ -1066,14 +1078,14 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_AB8F12B3CF654120BD16EAE570517741"> <p>アクティビティの編集時に表示中のステップで変更を加えたら、スプリットボタンのドロップダウンをクリックできます。そこで「<span class="wintitle">次へ</span>」を選択すると次のステップに進みます。「<span class="wintitle">保存して閉じる</span>」をクリックすると、変更内容が保存され、アクティビティの<span class="wintitle">概要</span>ページが表示されます。「<span class="wintitle">保存</span>」をクリックすると、変更内容が保存され、表示中のステップに留まります。 </p> <p> <img src="assets/edit_split_button_2.png" id="image_ABC7EE42F5D341EC88AACC54CA98DA2F" /> </p> <p>詳しくは、<a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">アクティビティの編集またはドラフトとして保存</a>を参照してください。 </p> </li> 
       <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>アクティビティの編集時に、ワークフローの任意のステップを開いて変更を加えたら（エクスペリエンスの割合、オーディエンスなど）、3 ステップのガイドによるワークフローを進めなくても、アクティビティを保存したり閉じたりすることができます。 </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>詳しくは、<a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">アクティビティの編集またはドラフトとして保存</a>を参照してください。 </p> </li> 
       <li id="li_43C15B13E4F7475E9376A98222AA0253"> <p>まだ保存されていない新しいアクティビティを作成しているときや、以前にドラフトとして保存されたアクティビティを編集しているときは、スプリットボタンに「<span class="wintitle">ドラフトを保存</span>」オプションが表示されます。 </p> <p> <img src="assets/save_draft.png" id="image_3975786947CE4E39B900AA81D838B9B3" /> </p> <p>詳しくは、<a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">アクティビティの編集またはドラフトとして保存</a>を参照してください。 </p> </li> 
-      <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>3 ステップのガイドによるワークフローのステップ 2 でターゲット設定を選択する際に、<span class="wintitle">オーディエンスを選択</span>ダイアログボックスでオーディエンスにカーソルを合わせることで、オーディエンスを編集またはコピーできるようになりました。 </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
+      <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>3 ステップのガイドによるワークフローのステップ 2 でターゲット設定を選択する際に、<span class="wintitle">オーディエンスを選択</span>ダイアログボックスでオーディエンスにマウスポインターを置くことで、オーディエンスを編集またはコピーできるようになりました。 </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
      </ul> </p> <p>詳しくは、<a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local">オーディエンスの選択</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポート </p> </td> 
    <td colname="col2"> <p>レポートに次の新機能と機能強化が加えられました。 </p> <p> 
      <ul id="ul_2D1AF91D1B4E478FBFFA0B83EE30075E"> 
-      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>レポート内のグラフのカウント手法を選択できます。この機能は自動ターゲットと Automated Personalization（AP）アクティビティには対応していません。 </p> <p>詳しくは、<a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>にある「カウント方法」の行を参照してください。 </p> </li> 
+      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>レポート内のグラフのカウント手法を選択できます。この機能は自動ターゲットと自動パーソナライゼーション（AP）アクティビティには対応していません。 </p> <p>詳しくは、<a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>にある「カウント方法」の行を参照してください。 </p> </li> 
       <li id="li_5803CE90DB764C9E983702CB6C1AFEE3"> <p>自動ターゲット A/B アクティビティで、1 つのレポートに複数の指標を表示できます。（TGT-23464） </p> <p>詳しくは、<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">レポートでの複数の指標の表示</a>を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1148,7 +1160,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 17.8.1（2017 年 8 月 22 日） {#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard／Premium 17.8.1（2017 年 8 月 23 日） {#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1367,11 +1379,11 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティ </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティ </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F5BB1074DD4140C798CB55D68DEEF824"> 
-      <li id="li_9596AABA14C64DEEB2E70E8ADED8AA74">Automated Personalization アクティビティはフォームベースのコンポーザーを使用して作成できます。 </li> 
-      <li id="li_315F5FF590404670A677FEA6E4E0DF5D">Automated Personalization 用の新しい信頼性関連の数値 </li> 
+      <li id="li_9596AABA14C64DEEB2E70E8ADED8AA74">自動パーソナライゼーションアクティビティはフォームベースのコンポーザーを使用して作成できます。 </li> 
+      <li id="li_315F5FF590404670A677FEA6E4E0DF5D">自動パーソナライゼーション用の新しい信頼性関連の数値 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1411,7 +1423,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col2"> <p>A/B、XT、Recommendations アクティビティのレポートには、信頼区間や上昇率を視覚的に確認できるビジュアル表現が含まれているので、より的確に勝者を見極めることができます。このビジュアル表現にカーソルを合わせると、実際の数値を確認できます。この機能は、Analytics をレポートソースに使用する（A4T）アクティビティでは利用できません。。 </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>詳しくは、<a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティ </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティ </p> </td> 
    <td colname="col2"> <p>AP アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスを自動的に除外できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -1457,7 +1469,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * アクティビティの詳細設定の「カウントを増分、ユーザーをリリース、再入場を許可」が適切に機能しなくなる問題を修正しました。（TNT-26556）
 * Experience Cloud のユーザーインターフェイスで顧客属性データを NULL に更新すると、Target から削除できなくなる問題を修正しました。（TNT-26462）
 
-### Target プラットフォームの変更（2017 年 4 月 13 日） {#section_B59C26405EB7482AA80820D6D39B9C44}
+### Target プラットフォームの変更（2017 年 4 月 14 日） {#section_B59C26405EB7482AA80820D6D39B9C44}
 
 <table id="table_6167ECB7B44F40DCADF299F46F1F795C"> 
  <thead> 
@@ -1531,9 +1543,9 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    * [!UICONTROL オファー]ライブラリで、オファーはリストにカードとして表示されます。その他の小さな UI の変更が[!UICONTROL オファー]ライブラリ UI 全体に加えられました。
 
 * [!UICONTROL アクティビティ]および[!UICONTROL オーディエンス]のリストのパフォーマンスが大幅に向上しました。また、検索結果の読み込み時間が、大幅に高速になりました。
-* 表示数は、[!UICONTROL Automated Personalization] レポートの[!UICONTROL オファーレベルのレポート]に「訪問回数」として表示されます。
-* [!DNL Target] は、[!UICONTROL Automated Personalization] アクティビティの環境（ホストグループ）の切り替えをサポートするようになりました。
-* [!UICONTROL Automated Personalization] アクティビティは、ホストグループをサポートするようになりました。
+* 表示数は、[!UICONTROL 自動パーソナライゼーション]レポートの[!UICONTROL オファーレベルのレポート]に「訪問回数」として表示されます。
+* [!DNL Target] は、[!UICONTROL 自動パーソナライゼーション]アクティビティの環境（ホストグループ）の切り替えをサポートするようになりました。
+* [!UICONTROL 自動パーソナライゼーション]アクティビティは、ホストグループをサポートするようになりました。
 
 ### Target Standard／Premium 17.2.1（2017 年 2 月 22 日）{#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
@@ -1629,11 +1641,11 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      </ul> </p> <p>詳しくは、<a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>と<a href="../c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">カウント手法</a>を参照してください。 </p> <p>ダウンロード可能な CSV レポートが次のように強化されました。 </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>オファーレベルの CSV レポートに各オファーに関する詳細情報が含まれるようになりました。（TGT-18995） </p> </li> 
-      <li id="li_659D126E846348D4BE4544962F41539F"> <p>ダウンロードしたオファーレベルの CSV ファイルに、<span class="wintitle">Automated Personalization</span> レポートのコントロールとターゲットセグメントに関するデータが含まれるようになりました。（TGT-22000） </p> </li> 
-     </ul> </p> <p>Automated Personalization（AP）レポートが次のように強化されました。 </p> <p> 
+      <li id="li_659D126E846348D4BE4544962F41539F"> <p>ダウンロードしたオファーレベルの CSV ファイルに、<span class="wintitle">自動パーソナライゼーション</span>レポートのコントロールとターゲットセグメントに関するデータが含まれるようになりました。（TGT-22000） </p> </li> 
+     </ul> </p> <p>自動パーソナライゼーション（AP）レポートが次のように強化されました。 </p> <p> 
      <ul id="ul_5743684487CD4905BA998C298FD423D7"> 
-      <li id="li_EB48BA21E00C4878B4408D24DD23BA9C"> <p>Automated Personalization アクティビティの読み込み時間が改善されました。 </p> </li> 
-      <li id="li_B8ECCE250A674B83A66705AD5C45B9C3"> <p>連続変数（売上高とエンゲージメントの指標タイプ）の信頼区間が、Automated Personalization（AP）の概要レポートに表示されるようになりました。 </p> </li> 
+      <li id="li_EB48BA21E00C4878B4408D24DD23BA9C"> <p>自動パーソナライゼーションアクティビティの読み込み時間が改善されました。 </p> </li> 
+      <li id="li_B8ECCE250A674B83A66705AD5C45B9C3"> <p>連続変数（売上高とエンゲージメントの指標タイプ）の信頼区間が、自動パーソナライゼーション（AP）の概要レポートに表示されるようになりました。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1644,7 +1656,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_684F9FC5CF414F4A892E6495352B5939"> <p>多変量分析テストを作成する際、テストから 10％を超えるエクスペリエンスを除外することができるようになりました。ただし、分析にはオフラインレポートを使用しなければならないという警告に同意する必要があります。（TGT-21719） </p> <p>詳しくは、<a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local">多変量分析テストのエクスペリエンスのプレビュー</a>を参照してください。 </p> </li> 
       <li id="li_B2FC7414C76848B39AD6EA20EE483F06"> <p>Campaign ID が各アクティビティの概要ページに表示されるようになりました。API やトラブルシューティングの際に便利です。（TGT-20928） </p> </li> 
       <li id="li_5A9880AFE5FB46168D92255AA088B854"> <p>衝突と変更ログページのデザインが改善されました。 </p> </li> 
-      <li id="li_1489EA6C30C94B2AB394189E5FAFF6F6"> <p>Automated Personalization（AP）アクティビティの匿名オファー名の最大長が 30 文字から 250 文字に拡張されました。 </p> </li> 
+      <li id="li_1489EA6C30C94B2AB394189E5FAFF6F6"> <p>自動パーソナライゼーション（AP）アクティビティの匿名オファー名の最大長が 30 文字から 250 文字に拡張されました。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1669,7 +1681,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-## リリース2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
+## リリース 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
 ### Target Standard／Premium 16.10.2（2016 年 11 月 9 日）{#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
@@ -1711,7 +1723,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：外部プロモーションの挿入 </td> 
-   <td colname="col2"> <p>プロモーション項目を追加して、Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>プロモーション項目を追加して、 Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>ファーストルック</b> </p> A/B アクティビティの自動ターゲット設定 </td> 
@@ -1871,9 +1883,9 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Adobe Target Standard／Premium 16.8.1（2016 年 8 月 23 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
-Adobe Target Standard／Premium 16.8.1（2016 年 8 月 23 日）リリースには次の機能および機能強化が含まれています。
+Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日）リリースには次の機能および機能強化が含まれています。
 
 <table id="table_AE048CB9EA1C4C7BBC2E9D90D26F7395"> 
  <thead> 
@@ -1896,8 +1908,8 @@ Adobe Target Standard／Premium 16.8.1（2016 年 8 月 23 日）リリースに
    <td colname="col2"> <p>アカウントレベルで<span class="wintitle">拡張 Experience Composer</span> を有効化／無効化するか（アカウント内で作成されるすべてのアクティビティに適用）または個々のアクティビティレベルで有効化／無効化します。 </p> <p>以前は、アカウントレベルでのみ拡張 Experience Composer を有効化／無効化することができました。 </p> <p>詳しくは、<a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local">エクスペリエンス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization：オファーパフォーマンスレポート </p> </td> 
-   <td colname="col2"> <p>すべての Automated Personalization アクティビティの成功指標が記載されたオファーパフォーマンスレポートをダウンロードします。 </p> </td> 
+   <td colname="col1"> <p class="premium">自動パーソナライゼーション：オファーパフォーマンスレポート </p> </td> 
+   <td colname="col2"> <p>すべての自動パーソナライゼーションアクティビティの成功指標が記載されたオファーパフォーマンスレポートをダウンロードします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1960,10 +1972,10 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
  <tbody> 
   <tr> 
    <td colname="col1"> アクティビティの優先度設定 </td> 
-   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>このオプションは、<span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で有効化する必要があります。 </p> <p>細かい優先度のオプションは、A/B テスト、Automated Personalization、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
+   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>このオプションは、<span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で有効化する必要があります。 </p> <p>細かい優先度のオプションは、A/B テスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B テスト：</b><a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
-      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization: </b> <a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
+      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>自動パーソナライゼーション：</b><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a> </li> 
       <li id="li_84B893C214994246AB36E28E84C51460"><b>エクスペリエンスのターゲティング：</b><a href="../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
       <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>多変量分析テスト：</b><a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
       <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>アクティビティ：</b><a href="../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local">アクティビティの設定 </a> </li> 
@@ -1983,7 +1995,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
   </tr> 
   <tr> 
    <td colname="col1"> クラスを使用した要素セレクターの決定 </td> 
-   <td colname="col2"> <p>Automated Personalization と多変量分析テストアクティビティのクラスまたは ID に基づく要素セレクターを生成できるようになりました。以前のバージョンでは、このオプションは A/B テストでのみ使用できました。 </p> <p>詳しくは、<a href="../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local">Visual Experience Composer で使用される要素セレクター</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>自動パーソナライゼーションと多変量分析テストアクティビティのクラスまたは ID に基づく要素セレクターを生成できるようになりました。以前のバージョンでは、このオプションは A/B テストでのみ使用できました。 </p> <p>詳しくは、<a href="../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local">Visual Experience Composer で使用される要素セレクター</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations：コンテンツの類似性 </td> 
@@ -2005,8 +2017,8 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
    <td colname="col2"> <p>成功指標レポートのダウンロードで、 ID の代わりに指標とセグメント名が表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Automated Personalization アクティビティ内の各リクエストの mbox エントリ条件の評価 </td> 
-   <td colname="col2"> <p>オファー配信の正確さ実現のため、Automated Personalization アクティビティでは、エントリ条件（URL ターゲット化、テンプレートルール、オーディエンスターゲット）がリクエストごとに評価されます。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a> を参照してください。 </p> </td> 
+   <td colname="col1" class="premium"> 自動パーソナライゼーションアクティビティ内の各リクエストの mbox エントリ条件の評価 </td> 
+   <td colname="col2"> <p>オファー配信の正確さ実現のため、自動パーソナライゼーションアクティビティでは、エントリ条件（URL ターゲット化、テンプレートルール、オーディエンスターゲット）がリクエストごとに評価されます。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2112,7 +2124,7 @@ A4T プロビジョニング処理を改善するための改良をおこない�
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
 * リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
-### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 5 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
+### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js は、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Target の新しい実装ライブラリです。
 
@@ -2201,7 +2213,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> AP：従属成功指標 </td> 
-   <td colname="col2"> Automated Personalization は、以前、成功指標が既に満たされている場合にだけカウントするように成功指標を制限する機能をサポートします。 <p>詳しくは、<a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">成功指標</a>を参照してください。 </p> </td> 
+   <td colname="col2"> 自動パーソナライゼーションは、以前、成功指標が既に満たされている場合にだけカウントするように成功指標を制限する機能をサポートします。 <p>詳しくは、<a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">成功指標</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> AP：レポート概要ビューのダウロード </td> 
@@ -2258,7 +2270,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> 従属成功指標 </td> 
-   <td colname="col2"> <p>この機能は、以前に別の成功指標に到達している場合にのみ、訪問者を成功指標に到達したものとしてカウントするために、成功指標ごとにオプションを提供します。 </p> <p> 例えば、テストによってホームページのメイン画像が変更される可能性があります。マーケティング担当者は、メイン画面をクリックした訪問者のコンバージョンだけをカウントしたいことがあります。その場合、マーケティング担当者は、成功指標を「ホームページのメイン画像をクリックした」に設定して、購入用に別の指標を設定できます。次に、マーケティング担当者は、訪問者が最初に「ホームページのメイン画像をクリックした」成功指標を達成するようにするルールを「購入」指標に追加できます。 </p> <p> <p>注意：成功指標で場所にターゲット設定したオーディエンスが設定された場合、この機能はその指標をサポートしません。 </p> </p> <p> 従属成功指標は、AB、XT および MVT アクティビティのみをサポートします。Automated Personalization およびレコメンデーションのサポートは、後日利用できるようになります。 </p> <p>詳しくは、<a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">成功指標</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>この機能は、以前に別の成功指標に到達している場合にのみ、訪問者を成功指標に到達したものとしてカウントするために、成功指標ごとにオプションを提供します。 </p> <p> 例えば、テストによってホームページのメイン画像が変更される可能性があります。マーケティング担当者は、メイン画面をクリックした訪問者のコンバージョンだけをカウントしたいことがあります。その場合、マーケティング担当者は、成功指標を「ホームページのメイン画像をクリックした」に設定して、購入用に別の指標を設定できます。次に、マーケティング担当者は、訪問者が最初に「ホームページのメイン画像をクリックした」成功指標を達成するようにするルールを「購入」指標に追加できます。 </p> <p> <p>注意：成功指標で場所にターゲット設定したオーディエンスが設定された場合、この機能はその指標をサポートしません。 </p> </p> <p> 従属成功指標は、AB、XT および MVT アクティビティのみをサポートします。自動パーソナライゼーションおよびレコメンデーションのサポートは、後日利用できるようになります。 </p> <p>詳しくは、<a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">成功指標</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 自動配分のユーザビリティの強化 </td> 
@@ -2293,7 +2305,7 @@ at.js を実装する際には、以下のことに注意してください。
 | 割合でターゲット設定するアクティビティエントリ | エントリを、[A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) および訪問者またはオーディエンスメンバーの割合に対する [多変量分析アクティビティ](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)に制限できるようになりました。例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。 |
 | 自動配分で、売上高、注文、エンゲージメントをサポートします。 | 売上高（RPV）、注文、エンゲージメント指標を、選択された自動配分を使用した A/B アクティビティの目標として選択できるようになりました。以前は、コンバージョン指標のみをサポートしていました。[自動トラフィック配分](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。 |
 | ソースによるフィルター | アクティビティが作成されたソースで、アクティビティリストをフィルターできるようになりました。選択肢は、Adobe Target および Adobe Experience Manager です。詳しくは、[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 |
-| Automated Personalization のパフォーマンスの強化 | Automated Personalization は、多数のオファーと場所を組み合わせてパフォーマンスを向上させるように設計し直されました。 |
+| 自動パーソナライゼーションのパフォーマンスの強化 | 自動パーソナライゼーションは、多数のオファーと場所を組み合わせてパフォーマンスを向上させるように設計し直されました。 |
 
 **既知の問題**
 
@@ -2328,7 +2340,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> レポートでのホストグループの選択 </td> 
-   <td colname="col2"> <p>ホストグループがレポートで利用できます。 </p> <p> <p>注意：このオプションは、Automated Personalization では使用できません。 </p> </p> </td> 
+   <td colname="col2"> <p>ホストグループがレポートで利用できます。 </p> <p> <p>注意：このオプションは、自動パーソナライゼーションでは使用できません。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Internet Explorer 11 のサポート </td> 
@@ -2348,7 +2360,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客生涯価値（LTV）の機械学習強化技法 </p> </td> 
-   <td colname="col2"> <p>この新しいアルゴリズムは、このセッションのみのコンバージョンを改善することに重点を置くのではなく、多くのセッションにわたる長期間のコンバージョンに重点を置いています。この技法は、訪問者との全体的なインタラクションの全体的な売上高に最適化されているので、多くの再訪問者がいるサイトに適しています。 </p> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>この新しいアルゴリズムは、このセッションのみのコンバージョンを改善することに重点を置くのではなく、多くのセッションにわたる長期間のコンバージョンに重点を置いています。この技法は、訪問者との全体的なインタラクションの全体的な売上高に最適化されているので、多くの再訪問者がいるサイトに適しています。 </p> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>機能強化：ハッシュ（#）フラグメントをターゲットにすることが可能に </p> </td> 
@@ -2384,7 +2396,7 @@ at.js を実装する際には、以下のことに注意してください。
    * Firefox または Internet Explorer を使用します。
    * 「**[!UICONTROL 設定]**／**[!UICONTROL 環境設定]**」タブから、拡張 Experience Composer を有効にします。
 
-## リリース　2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
+## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
 ### Adobe Target Standard／Premium 15.10.1（2015 年 11 月 3 日） {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
@@ -2517,12 +2529,12 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p> mbox の場所にターゲット設定を適用して、アクティビティが表示される場所を制限します。 </p> <p>詳しくは、<a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">フォームベースの Experience Composer</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> MVT および Automated Personalization アクティビティに対する Visual Experience Composer での背景色の選択 </td> 
-   <td colname="col2"> <p>Automated Personalization および多変量分析テストアクティビティの編集時に、カラーピッカーを使用して背景色を設定できます。 </p> <p>この機能は、以前は A/B およびエクスペリエンスターゲット設定アクティビティでのみ利用できました。 </p> <p><a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer のオプション</a>を参照してください。 </p> </td> 
+   <td colname="col1"> MVT および自動パーソナライゼーションアクティビティに対する Visual Experience Composer での背景色の選択 </td> 
+   <td colname="col2"> <p>自動パーソナライゼーションおよび多変量分析テストアクティビティの編集時に、カラーピッカーを使用して背景色を設定できます。 </p> <p>この機能は、以前は A/B およびエクスペリエンスターゲット設定アクティビティでのみ利用できました。 </p> <p><a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer のオプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> MVT および Automated Personalization アクティビティに対する Visual Experience Composer でのリッチテキストおよび HTML の編集 </td> 
-   <td colname="col2"> <p> Automated Personalization および多変量分析テストアクティビティの編集時に、ワードプロセッサーのようなウィンドウでテキストおよび HTML を書式設定します。 </p> <p> この機能は、以前は A/B およびエクスペリエンスターゲット設定アクティビティでのみ利用できました。 </p> <p>これらのアクションは、HTML タグを追加したりスタイルを適用することで、リッチテキストの編集機能を提供します。任意のアクションに対するリッチテキストエディターでのこれらの変更は、ソースビューで確認できます。リッチテキストエディターの HTML ボタンを押すと、ソースビューを表示できます。リッチテキストエディターで追加されたスタイルは、お客様の Web サイトのスタイルに影響する可能性があります。この場合、ユーザーは、ソースビューに移動して、Web サイトのスタイルに合わせて修正することができます。 </p> <p><a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer のオプション</a>を参照してください。 </p> </td> 
+   <td colname="col1"> MVT および自動パーソナライゼーションアクティビティに対する Visual Experience Composer でのリッチテキストおよび HTML の編集 </td> 
+   <td colname="col2"> <p> 自動パーソナライゼーションおよび多変量分析テストアクティビティの編集時に、ワードプロセッサーのようなウィンドウでテキストおよび HTML を書式設定します。 </p> <p> この機能は、以前は A/B およびエクスペリエンスターゲット設定アクティビティでのみ利用できました。 </p> <p>これらのアクションは、HTML タグを追加したりスタイルを適用することで、リッチテキストの編集機能を提供します。任意のアクションに対するリッチテキストエディターでのこれらの変更は、ソースビューで確認できます。リッチテキストエディターの HTML ボタンを押すと、ソースビューを表示できます。リッチテキストエディターで追加されたスタイルは、お客様の Web サイトのスタイルに影響する可能性があります。この場合、ユーザーは、ソースビューに移動して、Web サイトのスタイルに合わせて修正することができます。 </p> <p><a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer のオプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">フォームベースのレコメンデーション </p> </td> 
@@ -2533,7 +2545,7 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>Recommendations デザインで主要品目を表示します。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_customizing_a_template.html" format="https" scope="external">デザインのカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>コンバージョンベースのレポート </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">自動パーソナライゼーション </p> <p>コンバージョンベースのレポート </p> </td> 
    <td colname="col2"> <p> 最適化目標がコンバージョン指標の場合、オファー詳細レポートは、上昇率とインクリメンタルコンバージョンにおける上位の予測変数の影響を示すようになりました。このレポートは以前は売上高ベースのみでしたが、この機能により、売上高データのないアクティビティでも、関連性があり、すぐに使用できるインサイトを生成するようにします。 </p> <p>詳しくは、<a href="../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">自動パーソナライゼーションレポート </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -2611,8 +2623,8 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>アクティビティをアーカイブに送信します。アーカイブしたアクティビティは、再度アクティブにすることができます。アーカイブのアクティビティは、デフォルトではアクティビティリストには表示されません。 </p> <p>詳しくは、<a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">アクティビティ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization </p> <p>オファーレベルのターゲット設定 </p> </td> 
-   <td colname="col2"> <p>マーケティング担当者は、Automated Personalization のオファーにターゲットルールを適用できます。指定したグループのメンバーに対して特定のオファーが表示されるのを除外することができます。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local">AP オファーのターゲット設定</a>を参照してください。 </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション </p> <p>オファーレベルのターゲット設定 </p> </td> 
+   <td colname="col2"> <p>マーケティング担当者は、自動パーソナライゼーションのオファーにターゲットルールを適用できます。指定したグループのメンバーに対して特定のオファーが表示されるのを除外することができます。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local">AP オファーのターゲット設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>デザインで使用するアクティビティ数の表示 </p> </td> 
@@ -2637,7 +2649,7 @@ target/r_release-notes-2015.xml
  </tbody> 
 </table>
 
-### Adobe Target Standard／Premium 15.7.1（2015 年 8 月 1 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe Target Standard／Premium 15.7.1（2015 年 7 月 31 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2686,8 +2698,8 @@ target/r_release-notes-2015.xml
    <td colname="col2"> ファセット名を検索できるようになりました。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Automated Personalization：目標達成後の指標追跡 </td> 
-   <td colname="col2"> <p> 以前は、訪問者がモデリングの目標に達した場合、エクスペリエンスが改めて最初から開始されていました。このリリースでは、モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができるようになりました。 </p> <p> 例えば、Automated Personalization アクティビティは、多くの場合、クリック率の向上を目的に使用され、クリック率がモデリング目標として設定されます。しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。 </p> <a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> を参照してください。 </td> 
+   <td colname="col1" class="premium"> 自動パーソナライゼーション：目標達成後の指標追跡 </td> 
+   <td colname="col2"> <p> 以前は、訪問者がモデリングの目標に達した場合、エクスペリエンスが改めて最初から開始されていました。このリリースでは、モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができるようになりました。 </p> <p> 例えば、自動パーソナライゼーションアクティビティは、多くの場合、クリック率の向上を目的に使用され、クリック率がモデリング目標として設定されます。しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。 </p> <a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a>を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2728,7 +2740,7 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>エクスペリエンスのターゲット設定アクティビティで、Analytics をレポートソースとして使用できるようになりました。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_xt_goals_and_settings.html" format="https" scope="external">目標と設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization：モデルのステータスの視覚的表示 </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション：モデルのステータスの視覚的表示 </p> </td> 
    <td colname="col2"> <p> 予測モデルから必要な品質基準が渡され、有効であると見なされると、モデルが準備完了となり、オファーの決定のためのパーソナライズされたスコアの計算に使用されます。モデルが準備完了になると、時計アイコンがチェックマークに変わり、Target からパーソナライズされたコンテンツを配信できます。モデルが準備完了になった後にのみ指標の上昇が期待されるので、視覚的な表示によって、適切に予想を立てることができます。Visual Experience Composer のトラフィック見積もりは、いつモデルが準備されるかについてのガイドラインとして使用できます。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_ap_traffic_estimator.html" format="https" scope="external">成功のために必要なトラフィックの見積もり</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -2754,7 +2766,7 @@ target/r_release-notes-2015.xml
 * URL のリダイレクトが低速になっていた問題を修正しました。
 * アクティビティの他の成功指標が削除された場合にクリック追跡成功指標が破損していた問題を修正しました。
 * Recommendations デザインにアップロードされた画像が Visual Experience Composer で正しく表示されていなかった問題を修正しました。
-* Automated Personalization アクティビティのトラフィック見積もりで、すべての場所のオファー合計の代わりに、組み合わせ数が使用されていた問題を修正しました。
+* 自動パーソナライゼーションアクティビティのトラフィック見積もりで、すべての場所のオファー合計の代わりに、組み合わせ数が使用されていた問題を修正しました。
 * オーディエンス作成画面に mbox パラメーターが常に表示されない問題を修正しました。
 * Recommendations デザインのサムネールの更新をブロックしていた問題を修正しました。
 
@@ -2825,8 +2837,8 @@ target/r_release-notes-2015.xml
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization：QA リンクの追加 </p> </td> 
-   <td colname="col2"> <p> エクスペリエンスが配信されたときの外観をプレビューできるようになりました。サイト上の AP エクスペリエンスへのリンクを表示および共有して、Target の Visual Experience Composer の外部でエクスペリエンスの「実際の表示」をプレビューできます。 </p> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> を参照してください。 </p> </td> 
+   <td colname="col1" class="premium"> <p>自動パーソナライゼーション：QA リンクの追加 </p> </td> 
+   <td colname="col2"> <p> エクスペリエンスが配信されたときの外観をプレビューできるようになりました。サイト上の AP エクスペリエンスへのリンクを表示および共有して、Target の Visual Experience Composer の外部でエクスペリエンスの「実際の表示」をプレビューできます。 </p> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics による MVT：パフォーマンスレポートからのエクスペリエンスのプレビュー </p> </td> 
@@ -2834,11 +2846,11 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B テストおよびエクスペリエンスのターゲット設定：3 ステップのアクティビティ作成フロー </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> エクスペリエンスのTarget設定 </a> アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、Automated Personalization や多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> エクスペリエンスのTarget設定 </a> アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、自動パーソナライゼーションや多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートソースとしての Analytics をほとんどのアクティビティタイプで使用可能 </p> </td> 
-   <td colname="col2"> <p> Analytics での A/B アクティビティというタイプは存在しなくなりました。レポートソースとして Analytics を使用するオプションは、Automated Personalization とエクスペリエンスのターゲット設定を除いて、「目標と設定」ページですべてのアクティビティタイプで利用できるようになりました。そのため、「Analytics データを使用した A/B テスト」というアクティビティタイプは別途存在しません。 </p> </td> 
+   <td colname="col2"> <p> Analytics での A/B アクティビティというタイプは存在しなくなりました。レポートソースとして Analytics を使用するオプションは、自動パーソナライゼーションとエクスペリエンスのターゲット設定を除いて、「目標と設定」ページですべてのアクティビティタイプで利用できるようになりました。そのため、「Analytics データを使用した A/B テスト」というアクティビティタイプは別途存在しません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Target Standard のアクティビティリストへの外部キャンペーンの表示 </p> </td> 
@@ -2881,11 +2893,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>フライアウトメニューやミニカートなど、マウスポインターを置いたときにのみ表示されるコンテンツを、Visual Experience Composer での編集作業で選択できるようになりました。 </p> <p>詳しくは、「<a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local">エクスペリエンス</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization：トラフィック見積もり </p> </td> 
-   <td colname="col2"> <p>トラフィック見積もりを Automated Personalization のアクティビティでも使用できるようになりました。以前は、多変量分析テストのアクティビティタイプでしか使用できませんでした。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714" format="dita" scope="local">成功のために必要なトラフィックの見積もり</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p class="premium">自動パーソナライゼーション：トラフィック見積もり </p> </td> 
+   <td colname="col2"> <p>トラフィック見積もりを自動パーソナライゼーションのアクティビティでも使用できるようになりました。以前は、多変量分析テストのアクティビティタイプでしか使用できませんでした。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714" format="dita" scope="local">成功のために必要なトラフィックの見積もり</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization：視覚的な表示 </p> </td> 
+   <td colname="col1"> <p class="premium">自動パーソナライゼーション：視覚的な表示 </p> </td> 
    <td colname="col2"> <p>各コンテンツの組み合わせを Visual Experience Composer 内で視覚的にプレビューします。 </p> <p>詳しくは、<a href="../c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local">自動パーソナライゼーションテストのエクスペリエンスのプレビュー</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -2917,7 +2929,7 @@ target/r_release-notes-2015.xml
 
    バージョン 56 以降のすべての設定には名前空間が付加されます。「extra JavaScript」に関数が宣言されている場合は、ウィンドウでプレフィックスを付ける必要があります。詳しくは、[mbox.js の変更ログ](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html)を参照してください。
 
-### Adobe Target 15.2.1（2015 年 2 月 19 日） {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe Target 15.2.1（2015 年 2 月 20 日） {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2975,8 +2987,8 @@ target/r_release-notes-2015.xml
    <td colname="col2"> オーディエンスを作成するときに、モバイルデバイスオプションを選択できます。 <p>詳しくは、<a href="../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">オーディエンス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> クリック追跡（Automated Personalization） </td> 
-   <td colname="col2"> <p>Automated Personalization でクリックを追跡できるようになりました。 </p> </td> 
+   <td colname="col1"> クリック追跡（自動パーソナライゼーション） </td> 
+   <td colname="col2"> <p>自動パーソナライゼーションでクリックを追跡できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> mboxTrace デバッグユーティリティ </td> 
@@ -2991,9 +3003,9 @@ target/r_release-notes-2015.xml
 
 * IE10 でスクロールが適切に機能しなかった問題を修正しました。
 
-## リリース2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
+## リリース 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2（2014 年 11 月 6 日） {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe Target 14.10.2（2014 年 11 月 7 日） {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3011,7 +3023,7 @@ target/r_release-notes-2014.xml
 |---|---|
 | リダイレクトオファー | エクスペリエンスを別の URL にリダイレクトして、一方のページと他方のページをテストできます。詳しくは、[リダイレクトオファーの作成](../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)」を参照してください。 |
 | 成功指標に対するターゲティングの適用 | 成功指標に適用する保存済みのオーディエンスを選択します。この機能を使用すると、特定の成功イベントに対して意味を持つアクションを制限できます。例えば、コンバージョンを注文額が $0 を超える場合に制限することで、ユーザーがアクティビティを入力するときと同じセッションで特定のページを表示している場合にのみ成功がカウントされるようにすることができます。 |
-| Automated Personalization：RPV／AOV 指標に対する選択とレポート | Automated Personalization エクスペリエンス作成フローで、RPV および AOV 指標を選択できるようになりました。Automated Personalization アクティビティについては[Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9). |
+| 自動パーソナライゼーション：RPV／AOV 指標に対する選択とレポート | 自動パーソナライゼーションエクスペリエンス作成フローで、RPV および AOV 指標を選択できるようになりました。自動パーソナライゼーションアクティビティについては[自動パーソナライゼーション](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。 |
 | 権限制御の改善 | 十分な権限を持つユーザーのみがオーディエンスを編集できます。 |
 
 このリリースで強化された機能は次のとおりです。
@@ -3033,7 +3045,7 @@ target/r_release-notes-2014.xml
 
 * Firefox でビデオオファーが適切に配信されなかった問題を修正しました。
 * リンクを編集を元に戻しても Visual Experience Composer で元に戻したものとして表示されなかった問題を修正しました。
-* Automated Personalization のエクスペリエンスエディターで、変更したビデオオファーが変更したものとして表示されなかった問題を修正しました。
+* 自動パーソナライゼーションのエクスペリエンスエディターで、変更したビデオオファーが変更したものとして表示されなかった問題を修正しました。
 * アクティビティの競合ページが Google Chrome で空白のページとして表示されなかった問題を修正しました。
 
 ### Adobe Target 14.8.1（2014 年 8 月 22 日） {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
@@ -3076,8 +3088,8 @@ target/r_release-notes-2014.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="keyword">Automated Personalization（Target Premium）</span> </td> 
-   <td colname="col2"> <p> <span class="keyword">Automated Personalization</span> は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。 </p> <p> <p>注意：<span class="keyword">Automated Personalization</span> は <span class="keyword">Target Premium</span> ソリューションの一部です。<span class="keyword">Target Premium</span> ライセンスのない <span class="keyword">Target Standard</span> には含まれません。<span class="keyword">Target Standard</span> または <span class="keyword">Target Premium</span> のライセンスをお持ちの場合は、Adobe Experience Cloud では <span class="keyword">Target</span> カードをご利用ください。 </p> </p> <p>あるファイルをサイトに実装し、任意のコンテンツをクリックしてこの機能を有効にすると、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。その後は、モデリングシステムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断します。この機能により、訪問者ごとにパーソナライズしたエクスペリエンスを提供することができます。マーケティング担当者は、テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという手順を踏まなくても、最適化による上昇を実感できます。 </p> <p> <span class="keyword">Automated Personalization</span> の主な機能を次に示します。 </p> 
+   <td colname="col1"> <span class="keyword">自動パーソナライゼーション（Target Premium）</span> </td> 
+   <td colname="col2"> <p> <span class="keyword">自動パーソナライゼーション</span>は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。 </p> <p> <p>注意：<span class="keyword">自動パーソナライゼーション</span>は <span class="keyword">Target Premium</span> ソリューションの一部です。<span class="keyword">Target Premium</span> ライセンスのない <span class="keyword">Target Standard</span> には含まれません。<span class="keyword">Target Standard</span> または <span class="keyword">Target Premium</span> のライセンスをお持ちの場合は、Adobe Experience Cloud では <span class="keyword">Target</span> カードをご利用ください。 </p> </p> <p>あるファイルをサイトに実装し、任意のコンテンツをクリックしてこの機能を有効にすると、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。その後は、モデリングシステムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断します。この機能により、訪問者ごとにパーソナライズしたエクスペリエンスを提供することができます。マーケティング担当者は、テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという手順を踏まなくても、最適化による上昇を実感できます。 </p> <p> <span class="keyword">自動パーソナライゼーション</span>の主な機能を次に示します。 </p> 
     <ul id="ul_9EF654B10FFA46169EE2E033683BA82E"> 
      <li id="li_8D201BF8F37B4B2489D039A0340E065E">2 種類の機械学習アルゴリズム： 
       <ul id="ul_E1DF69071C9047EEA692B5EF01176E4B"> 
@@ -3087,7 +3099,7 @@ target/r_release-notes-2014.xml
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">1 行のコード実装と WYSIWYG のコンテンツ編集機能 </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">現在、このアクティビティのプライマリ目標ではコンバージョン指標を使用します。追加の指標として、売上高とエンゲージメントを利用できます。 </li> 
      <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B"><span class="keyword">Master Marketing Profile</span> への接続により高度な訪問者行動データをシームレスに収集 </li> 
-    </ul> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> を参照してください。 </p> </td> 
+    </ul> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 つのページで複数のアクティビティに対応 </td> 
@@ -3257,7 +3269,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> オーディエンスの設定時の場所のターゲット化 </td> 
-   <td colname="col2"> <p>オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 </p> <p>詳しくは、<a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local">新しいオーディエンスの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 </p> <p>See <a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> Creating a New Audience </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リンクのプレビュー（機能強化） </td> 
@@ -3277,9 +3289,9 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 
-## リリース2013
+## リリース 2013
 
-### Adobe Target Standard1.3（2013年11月19日） {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe Target Standard 1.3（2013 年 11 月 20 日）{#section_D633ACA56FA941648219EB3748D814EC}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3301,7 +3313,7 @@ target/r_release-notes-2014.xml
 * Visual Experience Composer を使用して再配置された要素で、クリックの追跡が動作しません。このバグが修正されるまで、再配置された要素にクリックの追跡を設定しないでください。
 * mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]アクションは選択できません。**
 
-### Adobe Target Standard1.2（2013年10月31日） {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe Target Standard 1.2（2013 年 11 月 1 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
 このリリースには既知の問題が 4 つあります。これらの問題は、今後の更新で修正される予定です。
 
