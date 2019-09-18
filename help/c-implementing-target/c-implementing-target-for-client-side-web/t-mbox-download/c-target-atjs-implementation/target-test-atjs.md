@@ -5,7 +5,7 @@ seo-title: at.js の実稼動環境以外へのデプロイ
 title: at.js の実稼動環境以外へのデプロイ
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -20,7 +20,7 @@ DTM を使用する場合、Adobe Target ツール設定に簡単に at.js を�
 
 ライブラリを保存すると、DTM Switch ツールを使用して、実稼動用コードに対してテストできます。また、これにより、アドビのコンサルタントがユーザーをサポートしやすくなります。
 
-詳しくは、Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス&#x200B;__&#x200B;ガイドの[オプション 3：DTM でホストされた Target JavaScript ライブラリによる Target の手動での実装](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)を参照してください。
+詳しくは、Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス&#x200B;**&#x200B;ガイドの[オプション 3：DTM でホストされた Target JavaScript ライブラリによる Target の手動での実装](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)を参照してください。
 
 ## Chrome 拡張機能「Requestly」を使用した別のファイルへのマッピング
 
