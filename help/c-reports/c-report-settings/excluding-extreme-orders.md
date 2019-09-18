@@ -1,14 +1,14 @@
 ---
 description: 対象のレポートから極端な注文を除外して、少数の稀な注文がアクティビティの結果に影響を与えないようにすることができます。稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
 keywords: Target、レポート、レポート設定、極端な注文、極端な値
-seo-description: 対象のレポートから極端な注文を除外して、少数の稀な注文がアクティビティの結果に影響を与えないようにすることができます。稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
-seo-title: 極端な値の除外
+seo-description: Adobe targetの影響を受けるレポートから極端な注文を除外して、少数の珍しい注文がアクティビティの結果に影響を与えないようにすることができます。 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
+seo-title: Adobe targetレポートでの極端な値の除外
 solution: 'Target '
 title: 極端な値の除外
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **レポートから極端な値を除外するには：**
 
 1. 売上高またはエンゲージメント指標タイプを含むアクティビティを開き、「 **[!UICONTROL レポート]** 」タブをクリックします。
-1. 歯車アイコンをクリックして、「[!UICONTROL レポート設定]」オプションを表示します。
+1. 歯車アイコンをクリックします。
+
+   ![レポート設定](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   [レポー [!UICONTROL ト設定] ]オプションダイアログボックスが表示されます。
 
    ![ステップの結果](assets/exclude_extreme_values.png)
 
 1. 必要に応じて、「極端な値 **[!UICONTROL を除外」]** オプションのオン/オフを切り替えます。
-1. 「設定 **[!UICONTROL を保存」をクリック]** します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
