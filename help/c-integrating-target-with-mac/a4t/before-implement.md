@@ -8,7 +8,7 @@ title: 実装する前に
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -46,7 +46,7 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 * Adobe Analytics：appMeasurement.js バージョン 2.1
 
-ダウンロードおよび導入の手順については、[Analytics for Target の実装](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_a4timplementation.html)に記載されています。
+Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -70,15 +70,15 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 A4T が正しく機能するためには、A4T アクティビティがコンテンツを配信したり目標指標を記録したりするために使用するすべての Target 呼び出しに、同じ追加の ID を共有する、対応する Analytics ヒットが必要です。
 
-Analytics および Target からのデータを含むヒットには、追加のデータ ID が含まれています。この ID は、[Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=debugger) で `sdid` パラメーターとして確認できます。例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
+Analytics および Target からのデータを含むヒットには、追加のデータ ID が含まれています。You can see this ID in the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. 例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
 
 * 訪問者 ID サービスが導入されている
 * この統合をサポートするバージョンの [!DNL mbox.js] が導入されている
 
 トラブルシューティングをおこなう場合は、Analytics のヒットに追加の ID があることを確認してください。
 
-## Client-side Analytics logging {#client-side}
+## クライアント側分析ログ {#client-side}
 
-By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. A4Tが正しく機能するために、追加の操作を管理し、実行する必要はありません。
+デフォルトでは、at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js がページ上にある場合、前述のように、ページから正しい追加の ID が含まれている限り、[!DNL Adobe Analytics] および [!DNL Target] は、レポートおよび分析目的で、バックエンドでイベントを正しくスティッチします。A4T が正しく機能するために、追加の操作を管理および実行する必要はありません。
 
-However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. [手順7を参照してください。詳細については、Analytics for Target実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) の *すべてのサイトページのat. jsまたはmbox. js* を参照してください。
+ただし、[!DNL Target] に関連する分析データをレポート目的で [!DNL Analytics] にいつどのように送信するかをより制御するほうが良い場合があります。社内で活用するための社内分析ツールがあり、社内分析製品を使用して分析データを [!DNL Analytics] に送信したい場合、お客様の組織の他のメンバーが [!DNL Analytics] をビジュアルレポートソースとして引き続き使用できます。詳しくは、*Analytics for Target の実装*&#x200B;の[手順 7： サイトのすべてのページから at.js または mbox.js を参照](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)を参照してください。
