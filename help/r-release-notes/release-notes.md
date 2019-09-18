@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Targetの2019年9月リリースでは、次のアクセス制御をお客様に提供しています。<UL><li>統合を適用するワークスペースを選択できます。</li><li>Adobe I/O統合にロールを適用できます。承認者、エディターまたは監視者。</li></ul>手順について詳しくは、Adobe I/O統合のワークスペースへ [のアクセス権限の付与およびロールの割り当てを参照](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)してください。 |
+| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Target 2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御を利用できます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O統合に次の役割を適用できます。承認者、編集者または監視者。</li></ul>手順と詳細については、「Adobe I/O統合にワークスペースへのアク [セス権を付与し、ロールを割り当てる」を参照してください](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
@@ -31,7 +31,7 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 |--- |--- |
 | ドキュメントの変更点 | リリースノートに含まれない可能性のある、このガイドの更新点に関する詳細情報が表示されます。<br>詳しくは、「[ドキュメントの変更](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)」を参照してください。 |
 | 以前のリリースのリリースノート | 以前のリリースの Target Standard および Target Premium の新機能および機能拡張に関する情報を確認してください。<br>詳しくは、「[以前のリリースのドキュメントの変更](../r-release-notes/release-notes-for-previous-releases.md)」を参照してください。 |
-| Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは [、Experience Cloudリリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。 |
+| Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは、 [Experience cloudリリースノートを参照してください](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
