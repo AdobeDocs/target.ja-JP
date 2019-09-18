@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -167,10 +167,10 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    * デザインのコードを表示します。
 
 1. （オプション）[!UICONTROL レポート]ページを開いて、[!DNL Recommendations] アクティビティのパフォーマンスのレポートを表示します。
-1. （オプション）[!UICONTROL 衝突]ページを開いて、発生した可能性がある[アクティビティの衝突](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)を表示します。
+1. （オプション）[!UICONTROL 衝突]ページを開いて、発生した可能性がある[アクティビティの衝突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示します。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ:Recommendationsアクティビティの作成（7:15）
+## トレーニングビデオ：Recommendationsアクティビティの作成(7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=jpn)
