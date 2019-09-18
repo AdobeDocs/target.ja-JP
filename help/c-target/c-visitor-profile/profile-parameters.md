@@ -1,25 +1,25 @@
 ---
-description: プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、Adobe Targetアクティビティで使用できる訪問者に関する情報を提供します。
+description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 keywords: プロファイルスクリプト、プロファイルスクリプト属性、プロファイルスクリプトのベストプラクティスdebug、デバッグ
-seo-description: プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、Adobe Targetアクティビティで使用できる訪問者に関する情報を提供します。
-seo-title: Adobe Targetのプロファイル属性
+seo-description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
+seo-title: Adobe Target のプロファイル属性
 solution: 'Target '
 title: プロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # プロファイル属性{#profile-attributes}
 
-プロファイル属性は、訪問者に固有のパラメーターです。これらの属性は訪問者のプロファイルに保存され、アクティビティで使用できる訪問者に関する情報を提供します。
+プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、アクティビティで使用可能な訪問者に関する情報を提供します。
 
-訪問者がWebサイトを閲覧したり、訪問者が別のセッションに戻ったりするとき、保存されたプロファイル属性を使用して、コンテンツのターゲット設定や、セグメントフィルターの情報の記録を行うことができます。
+訪問者が Web サイトを閲覧したり、別のセッションに戻ったりする際に、保存されたプロファイル属性を使用してコンテンツをターゲット設定したり、セグメントフィルターの情報を記録したりできます。
 
-プロファイル属性を設定するには、 **[!UICONTROL Audiences]** / **[!UICONTROL プロファイルスクリプトをクリックします。]**
+プロファイル属性を設定するには、**[!UICONTROL Audiences]**／**[!UICONTROL プロファイルスクリプト]**&#x200B;をクリックします。
 
 ![「プロファイルスクリプト」タブ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -27,7 +27,7 @@ source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 | パラメータータイプ | 説明 |
 |--- |--- |
-| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>****&#x200B;注意： Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | script | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -50,11 +50,11 @@ source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 または
 
-既存のプロファイルスクリプトをコピーするには、 [!UICONTROL プロファイルスクリプト] リストから目的のスクリプトにマウスポインターを置き、 **[!UICONTROL コピー]** アイコンをクリックします。（アセット/icon_ copy. png）
+既存のプロファイルスクリプトをコピーするには、 [!UICONTROL プロファイルスクリプト] リストから目的のスクリプトにマウスポインターを置き、**[!UICONTROL コピー]**&#x200B;アイコン（assets/icon_copy.png）をクリックします。
 
 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
-![プロファイルスクリプトの作成ダイアログボックス](assets/profile-script.png)
+![プロファイルスクリプトを作成ダイアログボックス](assets/profile-script.png)
 
 プロファイルスクリプトは、各場所リクエストでプロファイル属性「catchers」を実行します。場所リクエストを受信すると、Target はどのアクティビティを実行するかを決定し、そのアクティビティおよびそのエクスペリエンスに適したコンテンツを表示し、アクティビティの成功を追跡し、関連するプロファイルスクリプトを実行します。これによって、訪問者の場所、時間帯、訪問者がサイトを訪問した回数、購入歴があるかなど、訪問に関する情報を追跡できます。この情報は次に、訪問者のプロファイルに追加され、サイトでの訪問者のアクティビティをより詳細に追跡できます。
 
@@ -70,14 +70,14 @@ if (mbox.name == 'Track_Interest') {
 
 * コード内で、`user.get('parameterName')` を使用して、プロファイルスクリプト属性をいくつか参照します（定義中のパラメーター自体も含む）。
 * `user.setLocal('variable_name', 'value')` を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。変数を参照 `user.getLocal('variable_name')` します。これは、最後のリクエストの日時を参照する場合に便利です。
-* パラメーターおよび値の大文字と小文字は区別されます。アクティビティまたはテスト中に受け取るパラメーターと値の大文字と小文字を一致させます。
+* パラメーターおよび値の大文字と小文字は区別されます。オーディエンスまたはテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
 * その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
 
 ## プロファイルスクリプト情報カードの表示 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
 オファー情報カードに似たプロファイルスクリプト情報ポップアップカードを表示できます。これらのプロファイルスクリプト情報カードでは、選択したプロファイルスクリプトを参照しているアクティビティのリストやその他の有用なメタデータが表示されます。
 
-例えば、次のプロファイルスクリプト情報カードは、プロファイルスクリプトリスト（Audiences／プロファイルスクリプト）のプロファイルスクリプトにカーソルを合わせてから、情報アイコンをクリックしてアクセスします。
+例えば、次のプロファイルスクリプト情報カードは、プロファイルスクリプトリスト（Audiences／プロファイルスクリプト）のプロファイルスクリプトにマウスポインターを置いてから、情報アイコンをクリックしてアクセスします。
 
 「[!UICONTROL スクリプト情報]」タブには、「名前」、「ステータス」、「トークンの種類」、「スクリプト ID」、「変更ログ」、「説明」の各情報が含まれています。
 
@@ -85,7 +85,7 @@ if (mbox.name == 'Track_Interest') {
 
 「[!UICONTROL スクリプト使用状況]」タブには、選択したプロファイルスクリプトを参照するアクティビティ（およびワークスペース）が一覧表示されます。
 
-![プロファイルスクリプト情報カード/スクリプトの使用状況タブ](assets/profile_script_info_card_usage_tab.png)
+![プロファイルスクリプト情報カード／「スクリプトの使用状況」タブ](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 文字列の長さは 1,300 文字、ループ回数は 50 回を超えないようにします。
 * JavaScript 命令は 2,000 個を超えないようにします。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * スクリプトのパフォーマンスだけでなく、組み合わされたすべてのスクリプトのパフォーマンスにも注意してください。ベストプラクティスとして、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、2 KB を超えるスクリプトは自動的に無効になることです。実行できるスクリプト数に制限はありませんが、各スクリプトは mbox 呼び出しごとに実行されます。必要なスクリプトだけを実行します。
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. このようなregexが十分な入力データに一致する場合、スクリプトの実行は中断できます（100文字未満の値になる可能性があります）。
+* regexでは、先頭にドットスターを付ける(例： `/.*match/`、 `/a|.*b/`)はほとんど必要ありません。 regex検索は文字列中のすべての位置から始まるので(結び付けられていな `^`い限り)、ドットスターが既に想定されています。 長い入力データ（数百文字まで）に一致する場合、スクリプトの実行が中断される可能性があります。
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ if (mbox.name == 'Track_Interest') {
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ if (!user.get('twogroups')) {
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ if (!user.get('fourgroups')) {
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
