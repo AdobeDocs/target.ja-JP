@@ -9,7 +9,7 @@ title: Adobe Target のレポートソースとしての Adobe Analytics（A4T�
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * Analytics をレポートソースとして使用する場合、許可される mbox ベースの指標は 1 つのみです。
 * Target から Analytics へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が Analytics に送られます。この統合によって、Target または Analytics に追加のサーバーコールが生じることはありません。
 
-   状況によっては、TargetからAnalyticsへの分類呼び出しに失敗し、アクティビティにAnalyticsのデータが表示されないことがあります。これが発生した場合は、AnalyticsとTargetの統合 [のトラブルシューティング（A4T）](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。さらに詳しく [は、ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) にお問い合わせください。
+   状況によっては、TargetからAnalyticsへの分類呼び出しが失敗し、アクティビティにAnalyticsのデータが表示されない場合があります。 この問題が発生した場合は、AnalyticsとTarget [の統合のトラブルシューティング(A4T)を参照してください](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 ClientCareにお問い合わせの [場合も](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、ご不明な点があります。
 
 ## サポートされているアクティビティのタイプ {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 | 多変量分析テスト（MVT） | ○ | 要素貢献度レポートを取得するには、mbox ベースの目標指標の目標が必要です。要素貢献度レポートは現在、Analytics の指標をサポートしていません。 |
 | 自動パーソナライゼーション（AP）アクティビティ | × |  |
 | Recommendations アクティビティ | ○ |  |
-| モバイルアプリ | ○ | Mobile Services SDK バージョン 4.13.1 以降でサポートされています。詳しくは、[Mobile Services のドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/)を参照してください。 |
+| モバイルアプリ | ○ | Mobile Services SDK バージョン 4.13.1 以降でサポートされています。詳しくは、[Mobile Services のドキュメント](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)を参照してください。 |
 | 電子メール | × |  |
 | Server Side Delivery API | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
 | NodeJS SDK | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
@@ -130,4 +130,4 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 * Analytics での使用に最適なレポートの詳細
 * A4T に関するよくある質問への回答
 
-[Analytics/Target統合（A4T） Office時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target統合(A4T)の営業時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
