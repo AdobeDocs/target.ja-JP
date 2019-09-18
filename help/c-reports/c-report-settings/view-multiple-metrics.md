@@ -1,14 +1,14 @@
 ---
 description: レポートに表示する指標を複数選択できます。
 keywords: Target、レポート、レポート設定、複数の指標、metrics
-seo-description: レポートに表示する指標を複数選択できます。
-seo-title: レポートでの複数の指標の表示
+seo-description: Adobe targetを使用してレポートに表示する複数の指標を選択します。
+seo-title: Adobe targetを使用したレポートでの複数の指標の表示
 solution: 'Target '
 title: レポートでの複数の指標の表示
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 複数の指標をレポートに表示する際は、次の点に注意してください。
 
-* 複数の指標を表示する機能は、A/B とエクスペリエンスのターゲット設定（XT）のアクティビティでのみ利用できます。
-* Analytics for Target（A4T）を使用するアクティビティのレポートに追加できる指標は 20 個までです。A4T を使用していないアクティビティのレポートでは、アクティビティで設定されている指標をすべて追加できます。
-* 複数の指標を選択した場合は、「[!UICONTROL ダウンロード]」オプションを使用して CSV 形式でレポートをダウンロードすることはできません。「[!UICONTROL ダウンロード]」オプションを利用するには、指標を 1 つだけ選択する必要があります。
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* 複数の指標を選択した場合は、「[](/help/c-reports/downloading-data-in-csv-file.md)ダウンロード」オプションを使用して CSV 形式でレポートをダウンロードすることはできません。「[!UICONTROL ダウンロード]」オプションを利用するには、指標を 1 つだけ選択する必要があります。
 * 2015 年 7 月 31 日以前の Target のリリースで作成したアクティビティでは、複数の指標を表示することはできません。
 
 **複数の指標を選択してレポートに表示する方法は次のとおりです。**
@@ -46,17 +46,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    「[!UICONTROL 表示されている指標]」リストでは、ドラッグ＆ドロップで指標の順番を自由に並べ替えることができます。ここで選択した順番は、テーブル表示とグラフ表示に反映されます。「[!UICONTROL 表示されている指標]」リストから指標を削除するには、該当の指標にカーソルを合わせて **X** アイコンをクリックします。
 
 1. 終了したら「**[!UICONTROL 保存]」をクリックします。**
-1. レポートのテーブル表示中に、指標の列見出しにカーソルを合わせると青い矢印が表示されます。この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
+1. （条件付き）レポートをテーブルビューで表示中に、指標の列ヘッダーにマウスポインターを置くと、青い矢印が表示されます。 この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
 
    ![](assets/multiple_metrics_table.png)
 
    指標と列は、一度に 1 つのみ展開できます。再度矢印をクリックすると、列が折りたたまれます。
 
-1. レポートのグラフ表示中に、ドロップダウンリストから個々の指標を選択して表示できます。
+1. （条件付き）グラフ表示でレポートを表示中に、ドロップダウンリストから表示する個々の指標を選択できます。
 
    ![](assets/multiple_metrics_graph.png)
-
-   また、レポートのグラフ表示中は、売上高のディメンションもドロップダウンリストに表示されます。
-
-   ![](assets/muttiple_revenue.png)
 
