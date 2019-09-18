@@ -1,15 +1,15 @@
 ---
 description: .csv 形式のデータをダウンロードして、Excel、Access またはその他のデータ分析プログラムにすばやくインポートできます。
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-seo-description: .csv 形式のデータをダウンロードして、Excel、Access またはその他のデータ分析プログラムにすばやくインポートできます。
-seo-title: CSV ファイル内のデータのダウンロード
+seo-description: .csv形式のデータをダウンロードして、Adobe targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
+seo-title: Adobe targetを使用したCSVファイル内のデータのダウンロード
 solution: 'Target '
 subtopic: 多変量分析テスト
 title: CSV ファイル内のデータのダウンロード
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 CSV ファイル内のデータをダウンロードするには：
 
-1. をクリック [!DNL Activities] し、リストから目的のアクティビティをクリックします。
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックします。
 
-   多数のアクティビティが表示される場合は、「[!UICONTROL 種類]」、「[!UICONTROL ステータス]」、「[!UICONTROL レポートソース]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL 指標のタイプ]」、「[!UICONTROL アクティビティソース]」のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
+   多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」タブをクリックします。
-1. [!UICONTROL ダウンロード]アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。
+1. **[!UICONTROL ダウンロード]アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。**
+
+   * [!UICONTROL レポートをCSVにエクスポート]
+   * [!UICONTROL 注文の詳細を CSV に書き出す]
+   ![ダウンロードオプション](/help/c-reports/assets/download-options.png)
 
 ## レポートを CSV に書き出す {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSV レポートには、生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。これらの計算指標を計算するには、[Target の Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel ファイルをダウンロードしてアクティビティの値を入力するか、[Target で使用される統計指標](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)を確認します。
+>CSVレポートには生データのみが含まれ、A/Bテストで使用される1訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 注文の詳細を CSV に書き出す {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 次の情報が「ダウンロード」オプションに適用されます。
 
-* A/B、自動パーソナライゼーション、エクスペリエンスターゲット設定、多変量分析のアクティビティについて両方のレポートをダウンロードできます。Recommendation アクティビティの成功指標レポートはダウンロードできません。
+* A/Bテスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用に、両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
 * 「ダウンロード」オプションは、Target バージョン 15.7.1（2015 年 7 月）より前のバージョンを使用して作成された A/B およびエクスペリエンスターゲット設定のアクティビティでは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
-* TargetレポートUIで適用されたオーディエンスは、ダウンロードレポートには引き継がれません。
+* Target レポート UI で適用されたオーディエンスは、ダウンロードレポートに引き継がれません。
