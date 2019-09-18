@@ -1,14 +1,14 @@
 ---
 description: モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
-keywords: qa;preview;プレビューリンク;mobile;モバイルプレビュー
+keywords: qa；プレビュー；リンクのプレビュー；モバイル；モバイルプレビュー
 seo-description: モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
-seo-title: Adobe Targetモバイルのモバイルプレビューリンクの使用
+seo-title: Adobe targetモバイルでのモバイルプレビューリンクの使用
 solution: 'Target '
 title: Target モバイルのプレビュー
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
-   * **iOS：**『[Experience Cloud ソリューション向け iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)』ガイドの&#x200B;*事前準備*。
-   * **Android：**『Experience Cloud ソリューション用 Android SDK 4.x』ガイドの[事前準備](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*。*
+   * **** iOS: [Mobile](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) Services *iOSヘルプを開始する前に*、
+   * **** Android: [Mobile](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) Services Androidヘルプを *開始する前に*、
 
 1. **URL スキームを設定する：**&#x200B;プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
