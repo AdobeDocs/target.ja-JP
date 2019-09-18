@@ -8,7 +8,7 @@ title: at.js の統合
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 | プロファイルおよびオーディエンス（P&amp;A） | 『コアサ [ービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』ユーザーガ *イドの「オーディエンス*」を参照してください。 |
 | Experience Cloud ID サービス | [Adobe Experience Cloud ID サービスのドキュメント](https://docs.adobe.com/content/help/en/id-service/using/home.html)を参照してください。 |
 | Adobe Launch | Launch は、アドビの次世代のタグ管理プラットフォームで、Adobe Target を実装するための推奨される方法です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。「[Adobe Launch を使用した Target の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)」を参照してください。 |
-| Dynamic Tag Management（DTM） | [Dynamic Tag Management を使用した Target の実装ガイド](https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html)を参照してください。重要： [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための、最新の推奨される方法です。Target を新たに実装する場合は、Launch を使用してください。以下のガイドは、DTM 実装を使用している既存のお客様向けのものです。DTM 統合を使用する際には、次の点を考慮してください。 <ul><li>ライブラリ管理：at.js を使用するには、「カスタム」ホスティングオプションを使用します。自動管理は現在サポートされていません。 </li></ul> |
+| Dynamic Tag Management（DTM） | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   重要： [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための、最新の推奨される方法です。Target を新たに実装する場合は、Launch を使用してください。以下のガイドは、DTM 実装を使用している既存のお客様向けのものです。DTM 統合を使用する際には、次の点を考慮してください。 <ul><li>ライブラリ管理：at.js を使用するには、「カスタム」ホスティングオプションを使用します。自動管理は現在サポートされていません。 </li></ul> |
 | Adobe Experience Manager（AEM）クラウドサービス | AEM クラウドサービスを使用すると、AEM ワークフロー内で A/B テストおよびエクスペリエンスのターゲット設定アクティビティを作成できます。at.js は、FP-11577（またはそれ以降）が適用された Adobe Experience Manager 6.2 でサポートされます。詳しくは、[Adobe Target との統合](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)を参照し、対象の AEM バージョンを選択してください。 |
 | AEM エクスペリエンスフラグメント | AEM で作成したエクスペリエンスフラグメントを Target アクティビティで使用すると、AEM の使いやすさおよび機能性と、Target の強力な自動インテリジェンス（AI）機能および機械学習（ML）機能を組み合わせ、幅広くエクスペリエンスをテストしてパーソナライズできます。AEM では、パーソナライゼーション戦略に生かせるよう、すべてのコンテンツとアセットが一元化されます。コードを記述しなくても、デスクトップ、タブレット、モバイルデバイス向けのコンテンツを 1 か所で簡単に作成できます。デバイスごとにページを作成する必要はありません。コンテンツを基に、各デバイスのエクスペリエンスが自動調整されます。「[AEM エクスペリエンスフラグメント](../../../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)」を参照してください。 |
 
