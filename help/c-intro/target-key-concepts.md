@@ -9,7 +9,7 @@ title: Target の主要概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -36,7 +36,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | [Analytics データの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
+| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | 自動パーソナライゼーション（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![（Target Premium）](/help/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**メモ：** A/B テスト（自動配分と自動ターゲットを含む）アクティビティおよびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを組み込めるようになりました。[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
 
 ## 場所 {#section_F18FBF1ED23340ED9F39C51971A4E874}
@@ -50,7 +50,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 
 [!DNL Target Standard] では、追跡する各ページの `<head>` セクションに [!DNL Target] を有効化する 1 行のコードが含まれている限り、ページ上の任意の要素を場所にできます。このコードの行は、情報を収集し、訪問者に対してターゲット設定したエクスペリエンスを提供するために必要な JavaScript ライブラリを呼び出します。
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
+[!DNL Target Standard] の場所の実装と [!DNL Target Classic] の mbox の実装の違いについて詳しくは、[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
 場所をオーディエンスと組み合わせて使用することで、情報のターゲティングをおこなうための無数ともいえる選択肢が提供されます。例えば、過去にサイトを訪問したことがない新規訪問者に対しては、割引クーポンを表示できます。同様に、リターン訪問者には、ページを変更して、リターン訪問者に適したオファーを表示できます。
 
@@ -98,13 +98,13 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 また、1 つの地域からの訪問者や、特定の検索エンジンからページにアクセスした人をターゲットとすることができます。
 
-オーディエンスを保存して複数のアクティビティで再利用することも、特定のアクティビティ用に作成することもできます。
+オーディエンスを保存して複数のアクティビティで再利用することも、特定のアクティビティに対してオーディエンスを作成することもできます。
 
 | オーディエンスのタイプ | 説明 |
 |--- |--- |
-| 再利用可能なオーディエンス | 任意のアクティビティに対して再利用可能なオーディエンスを選択できます。これらのオーディエンスのいずれかを変更すると、そのオーディエンスを使用しているすべてのアクティビティに対して変更が適用されます。 |
+| 再利用可能なオーディエンス | 任意のアクティビティに対して、再利用可能なオーディエンスを選択できます。これらのオーディエンスのいずれかを変更すると、そのオーディエンスを使用しているすべてのアクティビティに対して変更が適用されます。 |
 | カスタムセグメント | 「カスタムセグメント」（別名「キャンペーン固有のセグメント」）は、Target Classic のキャンペーンに固有のものです。キャンペーンの一部として作成され、他のキャンペーンで再利用することはできません。 |
-| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。例については、[Experience Cloud オーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。 |
+| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 訪問者プロファイルによるサイト訪問者情報の追跡に関する詳細については、「[訪問者プロファイル](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)」を参照してください。
 
