@@ -8,7 +8,7 @@ title: Target のアクティビティのタイプ
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Target の様々なアクティビティタイプ（Recommendations を除
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
+>For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
 
 ## 各アクティビティの機能{#section_4ECAACC68723402EB3649033190E1BBC}
 
