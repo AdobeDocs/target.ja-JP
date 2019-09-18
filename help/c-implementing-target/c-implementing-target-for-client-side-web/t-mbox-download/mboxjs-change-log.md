@@ -8,7 +8,7 @@ subtopic: 導入
 title: mbox.js のバージョンの詳細
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **Target リリース：** 17.7.1
 
-[!DNL mbox.js] バージョン 63 がリリースされました。詳しくは、[mbox.js のダウンロード](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)を参照してください。
+[!DNL mbox.js] バージョン 63 がリリースされました。詳しくは、[mbox.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)を参照してください。
 
 [!DNL mbox.js] バージョン 63 には、次の機能強化および修正が含まれています。
 
@@ -246,7 +246,7 @@ mboxParameter 関数が Target Standard/Premium で動作するようになり�
 
 Analytics の追跡が IE 9 および 11 で動作しなかった問題を修正しました。この変更は、Analytics のユーザーのみに影響します。
 
-targetPageParams() 関数を使用して target-global-mbox に配列、JSON オブジェクトまたはコンマ区切り形式のリスト（以前サポートされていた方法）で[パラメーターを渡す](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)ことができるようになりました。
+targetPageParams() 関数を使用して target-global-mbox に配列、JSON オブジェクトまたはコンマ区切り形式のリスト（以前サポートされていた方法）で[パラメーターを渡す](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)ことができるようになりました。
 
 M2PcId、および VisitorId に関連するすべての名前を変更しました。
 
