@@ -8,7 +8,7 @@ title: レポートの表示 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 アクティビティレポートについては、管理者がデフォルト指標を変更できるので、同じ指標を表示するレポートをいつでも実行できます。それ以外については、レポートは、最後に使用したレポートに適用した最後の指標がデフォルトになります。
 
-詳細については、*Reports and Analytics のインターフェイスのヘルプ*&#x200B;ガイドの[デフォルトのレポート指標の選択](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)を参照してください。
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## セグメントをレポートに適用するのに対して、いつセグメントを指標（計算指標を含む）に適用すればよいですか？{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * 上記の指標はすべて、ユーザーがアクティビティの対象となり、[!DNL Target] からコンテンツが返されたときにトリガーされます。したがって、必ずしもそのユーザーがオファーを見たかどうかはわかりません。アクティビティエクスペリエンスがスクロールしないと見えない場所にある場合、[!DNL Target] によってオファーが配信されていても、ユーザーがページを下にスクロールしなければ、オファーは見られていないことになります。
 * （[!UICONTROL  によって測定される）]アクティビティのインプレッション[!DNL Target]と（[!UICONTROL  によって測定される）]インスタンス[!DNL Analytics]は同じ値になります。ただし、同じアクティビティで複数の mbox 呼び出しが同じページに対しておこなわれた場合を例外です。この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
-* アクティビティ [!UICONTROL インプレッション] および [!UICONTROL アクティビティコンバージョン] 指標を使用する場合 [!DNL Analysis Workspace]は、両方の指標が [!UICONTROL 同じタッチ] アトリビューションモデルを適用していることを確認してください。モデルを適用するには、列設定ギアをクリックし、 [!UICONTROL デフォルトでないアトリビューションモデルを有効に]して、 [!UICONTROL 「同じタッチ]」を選択します。属性IQの [概要](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) について詳しくは *、Analyticsツールガイド*&#x200B;の説明を参照してください。
+* でアクティビティ [!UICONTROL のインプレッション数とア] クティビティのコンバージョン [!UICONTROL 指標を使用する場合は、両方の指標に同じタッチアトリビューションモ][!DNL Analysis Workspace] デルが適用されていることを確認します。 モデルを適用するには、列設定の歯車をクリックし、「デフォルト以外のアトリビ [!UICONTROL ューションモデル」を有効にし]、「同じタッチ」を [!UICONTROL 選択します]。 アトリビューションについて詳し [くは、Analyticsツールガイドの](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 「属性IQの概要」 *を参照してください*。
 
 ## アクティビティの設定中にマーケティング担当者が Analytics 指標を選択する場合、「アクティビティコンバージョン」は何を意味しますか？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ![](assets/unspecified.png)
 
-他のレポートの場合、「未指定」は、データが分類ルールを満たしていなかったことを意味しますが、A4T の場合は、これは発生しないはずです。「未指定」と表示される場合、分類サービスがまだ実行されていません。通常、アクティビティデータがレポートに表示されるまでには24~72時間かかります。それまではアクティビティがこのレポートに表示されないとしても、これらのアクティビティに結び付けられたすべての訪問者データは、キャプチャされ、分類が完了すると表示されます。
+他のレポートの場合、「未指定」は、データが分類ルールを満たしていなかったことを意味しますが、A4T の場合は、これは発生しないはずです。「未指定」と表示される場合、分類サービスがまだ実行されていません。通常、アクティビティデータがレポートに表示されるまでに24 ～ 72時間かかります。 それまではアクティビティがこのレポートに表示されないとしても、これらのアクティビティに結び付けられたすべての訪問者データは、キャプチャされ、分類が完了すると表示されます。
 
 分類期間後、これらのレポートでは、データが Web サイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、セグメントおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
 
@@ -110,7 +110,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 両方のエクスペリエンスがコンバージョン前に表示されているので、両方とも注文の「クレジット」を受け取ります。しかし、システムでの注文は 1 回のみなので、合計にはそれが反映されています。Target レポートの場合、どちらがより成功しているかを確認するためのアクティビティに対する Target アクティビティを設定していないので、ユーザーに表示されるすべてのアクティビティがクレジットを獲得することは問題にはなりません。1 つのアクティビティ内の 2 つの項目の結果を比較しており、ユーザーは同じアクティビティで異なるエクスペリエンスを表示できないので、注文クレジットの二次汚染を心配する必要はありません。
 
-詳しくは、Analytics ヘルプの[コンバージョン変数（eVar）](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)を参照してください。
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Analytics と Analytics for Target（A4T）が実訪問者数指標の数を違うように計算するのはなぜですか？{#section_0C3B648AB54041F9A2AA839D51791883}
 
