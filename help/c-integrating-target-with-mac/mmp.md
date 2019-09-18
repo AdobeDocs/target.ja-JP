@@ -8,7 +8,7 @@ title: Experience Cloud オーディエンス
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Experience Cloud オーディエンスによって、Adobe Experience Cloud の複数のソリューションが Web サイトの訪問者に関する情報を交換、共有し、各ソリューションで同じデータを使用することが可能になります。
 
-詳しくは、Experience Cloud 製品のドキュメントの[オーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
+詳しくは、『コアサービスユーザ [ーガイド](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』の「オーデ *ィエンス」を参照してください*。
