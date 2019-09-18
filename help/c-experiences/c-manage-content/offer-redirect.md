@@ -1,14 +1,14 @@
 ---
 description: リダイレクトオファーを使用すると、ブラウザーで新しいページへのリダイレクトがおこなわれます。
 keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-seo-description: ブラウザーが新しいページにリダイレクトされる原因となる、Adobe Targetのリダイレクトオファーに関する情報です。
+seo-description: ブラウザーが新しいページにリダイレクトする原因となるAdobe targetのリダイレクトオファーに関する情報です。
 seo-title: リダイレクトオファーの作成
 solution: 'Target '
 title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 このビデオでは、コンテンツの管理について説明します。
 
-* [Experience Cloud アセットライブラリ](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
