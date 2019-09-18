@@ -8,7 +8,7 @@ title: 目標と設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ Target Standard/Premium の以前のバージョンで作成されたアクテ�
 
 ### レポートソリューション
 
-データを Adobe Target または Adobe Analytics のどちらから収集するかを指定します。各レポートソリューションの差異およびそれぞれのメリットについて詳しくは、[Adobe Target のレポートソースとしての Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)を参照してください。
+データを Adobe Target または Adobe Analytics のどちらから収集するかを指定します。各レポートソリューションの差異およびそれぞれのメリットについて詳しくは、[Adobe Target のレポートソースとしての Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。
 
 Analytics を Target のレポートソースとして選択する場合、Target アクティビティデータを受け取るための Analytics レポートスイートを選択します。これをおこなうには、最初にアカウントに結び付けられた Analytics の任意のログインカンパニーから選択し、次に、アクティビティに適したレポートスイートを選択します。Adobe Target に接続するようにプロビジョニングされたレポートスイートだけを選択できます。対象のレポートスイートが表示されない場合、最初に、Adobe Experience Cloud からログアウトしてからログインし直して、もう一度試してみてください。それでもレポートスイートがリストに表示されない場合は、カスタマーケアまでお問い合わせください。
 
@@ -102,7 +102,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 ## 詳細設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 
-多変量分析テスト目標指標について、詳細設定を利用できます。
+多変量分析テストの目標指標について、詳細設定を利用できます。
 
 ![詳細設定メニュー](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
@@ -122,14 +122,14 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 依存関係を追加する手順は次のとおりです。
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+1. 指標を追加したら、「**[!UICONTROL 詳細設定]**」をクリックします。
 2. 「依存関係を追加」オプションをクリックします。
 
    ![依存関係を追加](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
 3. 目的の指標を左側のパネルから右側のパネルにドラッグ＆ドロップしてから、「**[!UICONTROL 到達]**」をクリックし、「到達」と「未到達」を切り替えて設定します。
 
-   ![依存関係に達しました](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
+   ![依存関係に達する](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 追加した依存関係は後で編集または削除できます。
 
