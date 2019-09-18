@@ -7,7 +7,7 @@ solution: 'Target '
 title: オファー
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 このビデオでは、オファーの管理について説明します。
 
-* [Experience Cloud アセットライブラリ](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
