@@ -8,7 +8,7 @@ title: 目標と設定
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ Target Standard/Premium の以前のバージョンで作成されたアクテ�
 
 ### レポートソリューション
 
-データを Adobe Target または Adobe Analytics のどちらから収集するかを指定します。各レポートソリューションの差異およびそれぞれのメリットについて詳しくは、[Adobe Target のレポートソースとしての Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)を参照してください。
+データを Adobe Target または Adobe Analytics のどちらから収集するかを指定します。各レポートソリューションの差異およびそれぞれのメリットについて詳しくは、[Adobe Target のレポートソースとしての Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。
 
 Analytics を Target のレポートソースとして選択する場合、Target アクティビティデータを受け取るための Analytics レポートスイートを選択します。これをおこなうには、最初にアカウントに結び付けられた Analytics の任意のログインカンパニーから選択し、次に、アクティビティに適したレポートスイートを選択します。Adobe Target に接続するようにプロビジョニングされたレポートスイートだけを選択できます。対象のレポートスイートが表示されない場合、最初に、Adobe Experience Cloud からログアウトしてからログインし直して、もう一度試してみてください。それでもレポートスイートがリストに表示されない場合は、カスタマーケアまでお問い合わせください。
 
@@ -122,7 +122,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 ### この指標を増分する前に達成する必要がある成功指標はどれですか？
 
-訪問者が以前に別の成功指標に到達している場合にのみ、成功指標に到達したものとしてカウントしたいときに、このオプションを使用します。例えば、訪問者がオファーをクリックするか、コンバートする前に特定のページに到達した場合にのみ、テストコンバージョンが有効になる可能性があります。
+訪問者が以前に別の成功指標に到達している場合にのみ、成功指標に到達したものとしてカウントしたいときに、このオプションを使用します。例えば、訪問者が特定のオファーをクリックした場合、または、コンバートする前に特定のページに到達した場合にのみ、テストコンバージョンが有効になることがあります。
 
 複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。
 
@@ -132,14 +132,14 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 依存関係を追加する手順は次のとおりです。
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
-2. Click **[!UICONTROL Add Dependency]**:
+1. 指標を追加したら、「**[!UICONTROL 詳細設定]**」をクリックします。
+2. 「**[!UICONTROL 依存関係を追加]**」をクリックします。
 
-   ![依存関係リンクの追加](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![依存関係を追加リンク](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. 目的の指標を左側のパネルから右側のパネルにドラッグ＆ドロップしてから、「到達」をクリックし、「到達」と「未到達」を切り替えて設定します。
 
-   ![指標依存関係の追加ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
+   ![指標依存関係を追加ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 追加した依存関係は後で編集または削除できます。
 
