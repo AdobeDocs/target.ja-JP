@@ -8,7 +8,7 @@ title: ライブラリ内のコンテンツの操作
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 このビデオでは、コンテンツの管理について説明します。(4:56)
 
-* [Experience Cloud アセットライブラリ](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
