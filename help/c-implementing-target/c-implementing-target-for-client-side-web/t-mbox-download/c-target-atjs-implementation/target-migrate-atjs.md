@@ -8,7 +8,7 @@ title: mbox.js から at.js に移行する方法
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    >[!NOTE]
    >
-   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。アドビの [Dynamic Tag Management](https://dtm.adobe.com) は、[!DNL Target] のお客様は無料で利用でき、[!DNL Target] のデプロイにお勧めの方法です。詳しくは、[Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス](https://marketing.adobe.com/resources/help/en_US/dtm/target/)を参照してください。
+   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。アドビの [Dynamic Tag Management](https://dtm.adobe.com) は、[!DNL Target] のお客様は無料で利用でき、[!DNL Target] のデプロイにお勧めの方法です。詳しくは、[Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)を参照してください。
 
 1. 現在のすべてのアクティビティおよび統合が期待どおりに動作していることを検証します。
 
