@@ -2,13 +2,13 @@
 description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 keywords: カスタムパラメーター、targetカスタムパラメーター、targetpageparams、ターゲットmboxパラメーター
 seo-description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
-seo-title: Adobe Targetのカスタムパラメーター
+seo-title: Adobe targetのカスタムパラメーター
 solution: 'Target '
 title: カスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 
-詳しくは、[グローバル mbox にパラメーターを渡す](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)を参照してください。
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 
@@ -52,7 +52,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 
 ## 注意点 {#considerations}
 
-* 特定のmboxについてオーディエンスとアクティビティが評価されます。例えば、グローバルmboxが特定のパラメーターを渡すが、地域mboxがない場合、そのパラメーターをターゲットとするアクティビティ/オーディエンスのターゲット設定は、地域のmboxでは資格を得ません。
+* オーディエンスとアクティビティは、特定のmboxに対して評価されます。 例えば、グローバルmboxが特定のパラメーターを渡しても、地域mboxが渡さない場合、そのパラメーターをターゲットとするアクティビティ/オーディエンスは、地域mboxでの資格を得ません。
 
 ## トレーニングビデオ：オーディエンスの作成
 
