@@ -8,7 +8,7 @@ title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **実装用の JavaScript ファイルは、at.js と mbox.js のどちらを使用すればよいですか？**
 
-at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. 新規のお客様は、at.js を使用してください。
+at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照して、この 2 つのライブラリの違いを把握してください。新規のお客様は、at.js を使用してください。
 
 at.js をご利用の既存のお客様も、at.js に移行する必要があります。移行に取りかかる前に、[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)手順を参照してください。
 
@@ -81,7 +81,7 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **複数の場所（チェックアウトプロセスの各ページなど）でオファーを適用できますか？**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+エクスペリエンス内で複数ページを使用できる[複数ページアクティビティ機能](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)をお試しださい。
 
 **目標（プライマリまたはセカンダリ）の達成後はユーザーに再度そのアクティビティを表示することはせず、別のアクティビティを表示するようにするには、どうすればよいですか？**
 
@@ -107,7 +107,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 3 ステップのガイドによるワークフローの[目標と設定ステップのスケジュール設定機能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)で、開始日時と終了日時を指定できます。
 
-アクティビティをアクティブ化してください。指定したスケジュールに従って、ライブアクティビティのみが表示されます。終了日に達したら、そのアクティビティのステータスは終了になります。
+忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブアクティビティのみです。終了日に達したら、そのアクティビティのステータスは終了になります。
 
 **3 ステップのガイドによるワークフロー全体ではなく、ターゲット設定のステップのみに変更を加えることはできますか？**
 
@@ -236,7 +236,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **ユーザーのあらゆるデバイス全体を対象に、一貫性のある同一のエクスペリエンスが提供されているかを確認することはできますか？**
 
-[Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
+[Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
 
 Co-op 対象地域のお客様であれば、目標と設定ページのシンプルなフラグでこの機能を有効にできます。レポートのデータも、訪問者ではなく人を基準とした形に変わります。この機能を利用できるのは一部の地域のみなので、詳しくはアドビの担当者までお問い合わせください。
 
@@ -256,7 +256,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 **QA プロセスでコンテンツ配信がおこなわれないのはなぜですか？**
 
-お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSSセレクター](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)を参照してください。
+お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セクター](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)を参照してください。
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
@@ -283,23 +283,23 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 その場合は、3 ステップのガイドによるアクティビティワークフローのステップ 3 の目標と設定ページで利用できる[レポート対象のオーディエンス機能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)が最適です。
 
-50個のセグメントや、アプリケーションポイント（アクティビティエントリまたは特定の指標）を追加して、スライスおよびダイスを有効にすることができます。
+対象のセグメントを 50 個追加したり、アプリケーションポイント（アクティビティのエントリまたは特定の指標）を追加したりして、データを多角的に分析できます。
 
 この場合 Target では、対象のオーディエンスを追加した時点からデータを収集します。そのため、テストの実施前にセグメントを追加していなかった場合は、このような分析はおこなえません。
 
-**アクティビティの実行前にオーディエンスを定義することができません。Target アクティビティのレポート用オーディエンスは、この点が不便だと思います。**
+**アクティビティの実行前にオーディエンスを定義できません。Target アクティビティのレポート用オーディエンスは、この点が不便だと思います。**
 
 **このプロセスを簡略化するには、どうすればよいですか？**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Adobe Analytics を利用している場合は、ソースとして Analytics を選択すればこの問題を解消できます。あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
+そのためにあるのが [Analytics for Target（A4T）](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。Adobe Analytics を利用している場合は、ソースとして Analytics を選択すればこの問題を解消できます。あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
 
 **オフラインでレポートの計算を実行することはできますか？**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+[レポートを CSV にエクスポートするオプションと、注文の詳細を CSV にダウンロードするオプション](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)を利用して、対象のレポートデータをダウンロードしてください。
 
 **レポートを評価するためにコントロールエクスペリエンスを変更したり、カウント手法を訪問者から訪問に変更したりできますか？**
 
-Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). これらの設定で、計算方法がどう変わるかをご確認ください。
+[ レポートページの設定歯車](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用してこれらの変更をおこないます。これらの設定で、計算方法がどう変わるかについて確認してください。
 
 **レポートのデータの見方を教えてください。**
 
