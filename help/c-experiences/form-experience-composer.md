@@ -8,14 +8,14 @@ title: フォームベースの Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # フォームベースの Experience Composer{#form-based-experience-composer} 
 
-フォームベースのExperience Composerは、Visual Experience Composerが使用できない場合や実用的である場合に、A/Bテスト、エクスペリエンスターゲット設定、自動パーソナライゼーションおよびRecommendationsアクティビティで使用するエクスペリエンスを作成する際に役立つ、非視覚的なエクスペリエンスおよびオファーの作成インターフェイスです。例えば、フォームベースのコンポーザーを使用して、電子メール、キオスクおよびボイスアシスタントで配信するエクスペリエンスおよびオファーを作成できます。
+フォームベースの Experience Composer は、Visual Experience Composer が使用できない、または使用が実用的でない場合に、A/B テスト、エクスペリエンスターゲット設定、自動パーソナライゼーション、Recommendations アクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
 
 Recommendations アクティビティを作成している場合、エクスペリエンスはありません。条件およびデザインを選択します。複数の条件またはデザインを選択する場合、Target は自動的にエクスペリエンスを生成します。
 
@@ -77,7 +77,7 @@ Recommendations アクティビティを作成している場合、エクスペ�
    1. オファー名を入力します。
    1. 「コード」ボックスに JSON コードを入力するか貼り付けます。
    1. 「[!UICONTROL 保存]」をクリックします。
-   Recommendations アクティビティでは、コンテンツドロップダウンに「Recommendation を追加」オプションが表示されます。「**[!UICONTROL Recommendation を追加]**」をクリックして、ページタイプを選択します。次に、[Recommendations アクティビティを作成する](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html)ためにインターフェイスで定義した通常の手順に従います。
+   Recommendations アクティビティでは、コンテンツドロップダウンに「Recommendation を追加」オプションが表示されます。「**[!UICONTROL Recommendation を追加]**」をクリックして、ページタイプを選択します。次に、[Recommendations アクティビティを作成する](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)ためにインターフェイスで定義した通常の手順に従います。
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
 
@@ -87,7 +87,7 @@ Recommendations アクティビティを作成している場合、エクスペ�
 
    ![](assets/change_criteria_2.png)
 
-1. （AB アクティビティ、Automated Personalization、エクスペリエンスのターゲット設定の場合はオプション）このプロセスをその他の場所に対して繰り返すには、`Add Location` をクリックして場所とコンテンツを設定します。
+1. （AB アクティビティ、自動パーソナライゼーション、エクスペリエンスのターゲット設定の場合はオプション）このプロセスをその他の場所に対して繰り返すには、`Add Location` をクリックして場所とコンテンツを設定します。
 1. 「**[!UICONTROL 続行]**」をクリックして、アクティビティタイプに対して、通常どおりアクティビティ作成手順を実行します。
 
 * [A/B テストの作成](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
