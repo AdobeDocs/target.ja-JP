@@ -1,14 +1,14 @@
 ---
 description: オーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、ターゲットオーディエンス、レポートオーディエンス、レポートオーディエンス、セグメント、カスタムプロファイルパラメーター、オーディエンス定義、オーディエンスリスト
-seo-description: Adobe Targetのオーディエンスによって、ターゲットアクティビティのコンテンツとエクスペリエンスを誰に表示するかが決まります。
-seo-title: Adobe Targetでのオーディエンスの作成
+seo-description: Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
+seo-title: Adobe Target でのオーディエンスの作成
 solution: 'Target '
 title: オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,47 +17,47 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 オーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 
-オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
+オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。アクティビティをターゲティングする場合、[!UICONTROL オーディエンス]リストから再利用可能なオーディエンスを選択するか、[アクティビティ専用のオーディエンス](/help/c-target/creating-activity-only-audience.md)を作成します。または、[複数のオーディエンスを組み合わせて](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アドホックオーディエンスを作成します。
 
-リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。[Experience Cloud 製品ドキュメントのオーディエンス](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
+リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。『コアサ [ービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』ユーザーガ *イドの「オーディエンス*」を参照してください。
 
 [!DNL Target] では、次の 2 種類のオーディエンスが定義されます。
 
 * **ターゲット設定するオーディエンス：**&#x200B;異なる種類の訪問者に異なるコンテンツを配信するために使用します。
 * **レポート用オーディエンス：**&#x200B;同じコンテンツに異なる種類の訪問者がどのように反応するかを判断し、テスト結果を分析するために使用します。
 
-   [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
+   [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [DNL Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する場合は、[!DNL Analytics] 内でレポート用オーディエンスを設定する必要があります。
 
 ## オーディエンスリストの使用
 
-[!UICONTROL オーディエンス]リストにアクセスするには、上部のメニューバーで「**[!UICONTROL オーディエンス]」をクリックします。**
+[!UICONTROL オーディエンス]リストにアクセスするには、上部のメニューバーで「**[!UICONTROL オーディエンス]**」をクリックします。
 
 ![オーディエンスリスト](assets/audiences_list.png)
 
-[!UICONTROL オーディエンス]リストには、アクティビティで使用できるすべてのオーディエンスが含まれています。[!UICONTROL オーディエンス]リストを使用して、オーディエンスの作成、編集、削除、コピー、組み合わせが可能です。また、オーディエンスが作成されたソース（ [!DNL Target]、 [!DNL Target Classic] [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] など）も表示されます。「新しい訪問者」や「再訪問者」などの事前定義されたオーディエンスは、名前を変更できません。
+[!UICONTROL オーディエンス]リストには、アクティビティで使用できるすべてのオーディエンスが含まれています。[!UICONTROL オーディエンス]リストを使用して、オーディエンスの作成、編集、削除、コピー、組み合わせが可能です。また、オーディエンスが作成されたソース（[!DNL Target]、[!DNL Target Classic]、[!DNL Adobe Audience Manager (AAM),]、[!DNL Experience Cloud] など）も表示されます。「新しい訪問者」や「再訪問者」などの事前定義されたオーディエンスは、名前を変更できません。
 
 もともと AAM で作成されたオーディエンスを操作する場合、後から AAM で削除された Target アクティビティ内のオーディエンスを参照すると、Target によって警告が表示されます。
 
 * AAM でオーディエンスが削除されている場合、[!UICONTROL オーディエンス]リストとオーディエンスピッカーの両方に警告アイコンが表示されます。また、UI のツールチップにも、AAM でオーディエンスが削除されていることが表示されます。
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
-カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
+カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを追加する場合、**[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックして、アクティビティをターゲット設定するために使用するパラメーターを選択します。必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
 [!UICONTROL オーディエンス]リストを検索するには、検索ボックスを使用します。オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
 [!UICONTROL オーディエンス]リストは、オーディエンス名または最終更新日付で並べ替えることができます。名前や日付で並べ替える場合は、列見出しをクリックし、昇順または降順でオーディエンスを表示するよう選択します。
 
-## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
+## オーディエンス定義を表示 {#section_11B9C4A777E14D36BA1E925021945780}
 
 オーディエンス定義の詳細は、オーディエンスを開かなくても、Target UI の様々な場所に表示されるポップアップカードで確認できます。この機能は、Target Standard／Premium で作成されたオーディエンス、Target Classic からインポートされたオーディエンス、API を使用して作成されたオーディエンスで利用できます。
 
 例えば、次のオーディエンス定義カードは、オーディエンスリスト上のオーディエンスにカーソルを合わせ、表示アイコンをクリックすると表示されます。
 
-![アクティビティ/オーディエンスの定義](assets/audience_definition_list.png)
+![アクティビティ／オーディエンス定義](assets/audience_definition_list.png)
 
 次のオーディエンス定義カードは、アクティビティの概要ページにある表示アイコンをクリックすると表示されます。
 
-![アクティビティ/オーディエンスの定義](assets/audience_definition_list.png)
+![アクティビティ／オーディエンス定義](assets/audience_definition_list.png)
 
 「[!UICONTROL オーディエンスの使用状況]」タブをクリックすると、そのオーディエンスを参照している他のアクティビティを確認できます。これにより、オーディエンスの編集中に他のアクティビティに不測の影響が及ぶことを防止できます。ライブアクティビティ、非アクティブなアクティビティ、アーカイブ済みアクティビティ、同期中のアクティビティなどの情報を参照できます。この機能は、すべてのオーディエンス（ライブラリオーディエンスおよび[アクティビティのみのオーディエンス](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）で利用できます。
 
@@ -67,7 +67,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 次のオーディエンス定義カードは、Adobe Experience Cloud からインポートしたオーディエンスのものです。この例では、オーディエンスは Adobe Audience Manager（AAM）からインポートされています。
 
-![オーディエンス定義カードの「使用状況」タブ](assets/audience_definition_mc.png)
+![オーディエンス定義カード上のタブの使用](assets/audience_definition_mc.png)
 
 インポートしたオーディエンスのタイプごとに確認できる詳細情報は次のとおりです。
 
