@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
       + Enterprise ユーザーの権限 {#enterprise}
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Adobe I/O統合のワークスペースへのアクセス権の付与およびロールの割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てる](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic の統合](administrating-target/scene7-settings.md)
    + [ホスト](administrating-target/hosts.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
@@ -51,12 +51,13 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
    + 実装する前に {#before-implement}
       + [実装する前に](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + プライバシー {#privacy}
+      + プライバシーとセキュリティ {#privacy}
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [プライバシーとデータ保護規則](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [プライバシーとデータ保護に関する規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention（ITP）2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -136,7 +137,7 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
          + [Android - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - モバイルアプリケーションのセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [モバイル VEC でのクリック追跡のセットアップ](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [モバイルアプリのFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -275,7 +276,7 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyIDのリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyIdのリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
       + [プロファイルと変数の用語集](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + ターゲットとオーディエンスに関する FAQ {#faq-audiences}
       + [ターゲットとオーディエンスに関する FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
