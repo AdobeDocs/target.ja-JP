@@ -9,7 +9,7 @@ title: データを Target に送信する方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 * データを後続のページ／サーバー呼び出しでのターゲティングで使用する必要がある場合は、プロファイルスクリプトに変換する必要があります。
 * [Internet Engineering Task Force（IETF）標準](https://www.ietf.org/rfc/rfc3986.txt)では、クエリ文字列に文字のみを含めることができます。
 
-   Targetでは、IETFサイトで言及されているこれらの文字に加え、クエリ文字列で以下の文字を使用できます。
+   Target では、IETF サイトに記載されている文字に加え、クエリ文字列で以下の文字も使用できます。
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Experience Cloud ID（ECID）の実装が必要です。
 
 ### コードの例
 
-詳しくは、[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)を参照してください。
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### 関連情報のリンク
 
-[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[顧客属性ソースの作成とデータファイルのアップロード](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
