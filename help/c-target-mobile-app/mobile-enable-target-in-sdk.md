@@ -7,7 +7,7 @@ title: SDK での Target の有効化
 topic: 'Target '
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
 
 ---
 
@@ -20,7 +20,8 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 1. アプリに Adobe Mobile Services SDK を追加します。
 
-   You can find the instructions under [Core implementation and lifecycle](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html).
+   [コア実装とライフサイクル](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html)の説明を参照してください。
+
 1. クライアントコードとタイムアウトを追加し、SSL を有効にします。
 
    Experience Cloud で、Mobile Services を開き、**[!UICONTROL アプリケーション設定 を管理]**／**[!UICONTROL SDK Target オプション]**&#x200B;に移動します。
