@@ -7,7 +7,7 @@ title: Adobe Experience Cloud デバッガーを使用した at.js のデバッ�
 topic: 'Target '
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -18,7 +18,7 @@ Target の実装をすばやく簡単に理解できる Adobe Experience Cloud �
 
 ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloud への認証をおこなうと、強力な Mbox Trace ツールを使用して、アクティビティ、オーディエンスの資格情報、訪問者プロファイルを調査できます。
 
-詳しくは、[Adobe Experience Cloud デバッガー拡張のドキュメント](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)を参照してください。Target に固有の情報は、[ツール](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html)セクションに記載されています。
+詳しくは、[Adobe Experience Cloud デバッガー拡張のドキュメント](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)を参照してください。Target に固有の情報は、[ツール](https://docs.adobe.com/content/help/en/debugger/using/tools.html)セクションに記載されています。
 
 ## トレーニングビデオ
 
