@@ -1,25 +1,25 @@
 ---
-description: Target QA ブックマークレットを使用し、QA モードから強制的に離脱するよう設定する際に役立つ情報をまとめています。
+description: Adobe Target QAブックマークレットを使用してTargetにQAモードからのリリースを強制するのに役立つ情報です。
 keywords: qa、preview、ブックマークレット、リンクのプレビュー
-seo-description: Target QA ブックマークレットを使用し、QA モードから強制的に離脱するよう設定する際に役立つ情報をまとめています。
-seo-title: アクティビティ QA ブックマークレット
+seo-description: Adobe Target QAブックマークレットを使用してTargetにQAモードからのリリースを強制するのに役立つ情報です。
+seo-title: Adobe targetのアクティビティQAブックマークレット
 solution: 'Target '
 title: アクティビティ QA ブックマークレット
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
 
 # アクティビティ QA ブックマークレット{#activity-qa-bookmarklet}
 
-Target QA ブックマークレットを使用し、QA モードから強制的に離脱するよう設定する際に役立つ情報をまとめています。
+Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
 
-[QAモード](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) は定着なので、QAモードでWebサイトを参照すると、Targetセッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、TargetモードからTargetをリリースする必要があります。Target QA ブックマークレットを使用すると、QA モードから強制的に離脱できます。
+[QAモード](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) は定着なので、QAモードでWebサイトを参照すると、セッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、モードからTargetをリリースする必要があります。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-Target QAブックマークレットを使用するには、次のJavaScriptコードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
 
 ```
 javascript:(
@@ -44,4 +44,8 @@ javascript:(
 >
 >ブックマークレットを作成するプロセスは、ブラウザーのタイプとバージョンによって異なります。ブラウザーのヘルプを参照するか、インターネットで特定の方向に検索してください。
 
-また、値が空の `at_preview_token` 場合（など `https://www.mysite.com/?at_preview_token=`）、サイト上のページを読み込むことでQAモードを手動で強制的に除外することもできます。
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+次に例を示します。
+
+`https://www.mysite.com/?at_preview_token=`
