@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -21,41 +21,41 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
 
-## at. jsバージョン2.1.1（2019年7月24日）
+## at.jsバージョン2.1.1（2019年7月25日）
 
-at. jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+at.jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
 
 （括弧内の問題番号はアドビ社内で使用されます。）
 
-* Visual Experience Composer（VEC）の目標と設定ページの「クリック追跡」指標を使用すると、複数のビーコンが起動する問題を修正しました。（TNT-32812）
-* Fixed an issue that caused `triggerView()` to not render offers more than once. （TNT-32780）
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. （TNT-32776）
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. （TNT-32614）
-* URLに形式設定されたクエリ文字列パラメーターが含まれていると、DecodeURIComponentの使用によってエラーが発生する問題を修正しました。（TNT-32710）
-* `Navigator.sendBeacon()` API経由で送信される配信リクエストのコンテキストで、ビーコンフラグが"true"に設定されるようになりました。（TNT-32683）
-* 数名の顧客のWebサイトにRecommendationsオファーが表示されない問題を修正しました。お客様は、配信API呼び出しでオファーコンテンツを表示できますが、オファーはWebサイトに適用されませんでした。（TNT-32680）
-* 複数のエクスペリエンスにわたるクリック追跡が期待どおりに動作しない問題を修正しました。（TNT-32644）
-* 最初の指標のレンダリングに失敗した後に、at. jsが2番目の指標を適用できない問題を修正しました。（TNT-32628）
-* `mboxThirdPartyId``targetPageParams` リクエストのペイロードがクエリパラメーターまたはリクエストのペイロードに存在しない場合に、リクエストのペイロードが送信されない問題を修正しました。（TNT-32613）
-* Chromeベースのブラウザー（Google Chromeを含む）で表示およびクリック通知応答がブロックされる問題を修正しました。（TNT-32290）
+* Visual Experience Composer(VEC)の目標と設定ページでクリック追跡指標を使用すると、複数のビーコンが起動する問題を修正しました。 （TNT-32812）
+* オファーが複数回レンダリ `triggerView()` ングされない問題を修正しました。 （TNT-32780）
+* リクエストにMarketing Cloud ID(MCID) `triggerView()` 情報が含まれるように問題が修正されました。 （TNT-32776）
+* 保存されたビューがない場合 `triggerView()` でも通知が実行されない問題を修正しました。 （TNT-32614）
+* URLに不正な形式のクエリ文字列パラメーターが含まれる場合に、decodeURIcomponentの使用によってエラーが発生する問題を修正しました。 （TNT-32710）
+* 現在は、 `Navigator.sendBeacon()` APIを介して送信される配信リクエストのコンテキストで、ビーコンフラグが「true」に設定されています。 （TNT-32683）
+* 少数の顧客のWebサイトにレコメンデーションオファーが表示されない問題を修正しました。 顧客は、配信API呼び出しでオファーコンテンツを表示できましたが、オファーがWebサイトに適用されませんでした。 （TNT-32680）
+* 複数のエクスペリエンスでのクリック追跡が期待どおりに機能しない問題を修正しました。 （TNT-32644）
+* 最初の指標のレンダリングに失敗した後、at.jsが2番目の指標を適用できない問題を修正しました。 （TNT-32628）
+* 関数を使用して渡すと、ク `mboxThirdPartyId` エリパラメ `targetPageParams` ーターまたはリクエストペイロードにリクエストペイロードが存在しない問題を修正しました。 （TNT-32613）
+* Chromiumベースのブラウザー（Google Chromeを含む）で、表示およびクリックの通知応答がブロックされる問題を修正しました。 （TNT-32290）
 
-## at. jsバージョン2.1.0（2019年6月3日）
+## at.js バージョン 2.1.0（2019 年 6 月 4 日）
 
 このリリースには、次の機能および機能強化が含まれています。
 
-* **アドビオプトインのサポート**:アドビオプトインは、アドビソリューション統合を、同意管理プラットフォームと単純化するための手段です。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Adobe Opt-In サポート**：Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。Adobe Opt-in について詳しくは、[プライバシーと一般データ保護規則（GDPR）](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。
 
-* **業界標準のCSP準拠**:at. jsは、eval（）を使用してJavaScriptを実行しなくなりました。
+* **業界標準の CSP 準拠**：at.js は、eval() を使用して JavaScript を実行しなくなりました。
 
-* **クライアント側の分析ログ**:顧客側またはサーバー側でAnalyticsデータをAdobe Analyticsに送信する方法をユーザーに完全に制御します。
+* **クライアント側分析ログ**：お客様は、クライアント側とサーバー側とを問わず、分析データの Adobe Analytics への送信方法を完全に制御できます。
 
-   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
+   詳しくは、*実装する前に*&#x200B;の[クライアント側分析ログ](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)を参照してください。
 
-* **通知**&#x200B;の送信:エクスペリエンスが使用 `applyOffer()` せずにコードによってレンダリングされた場合に、開発者に通知を送信することを許可 `applyOffers()`します。
+* **通知の送信**：`applyOffer()` または `applyOffers()` を使用する代わりにコードでエクスペリエンスがレンダリングされる場合、開発者は通知を送信できます。
 
-   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   詳しくは、[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) を参照してください。
 
-* **at. jsサイズが~24%減少**&#x200B;した場合:at. jsのサイズは24%減少します。ファイルサイズが小さければページの読み込みパフォーマンスが向上し、ページにat. jsをダウンロードする時間が短縮されます。
+* **at.js のサイズが最大 24％減少**：at.js のサイズが最大 24％小さくなります。ファイルサイズが小さくなることで、ページ読み込みパフォーマンスが向上し、ページへの at.js ダウンロード時間が短縮します。
 
 ## at.js バージョン 2.0.1（2019 年 3 月 20 日）
 
@@ -103,7 +103,7 @@ at.js 2 x の導入に伴い、次の関数が廃止されました。
 
 >[!NOTE]
 >
->[一般的なデータ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) （GGPR）のAdobeオプトインサポートが必要な場合は、現在at. js1.7.0またはat. js2.1.0を使用する必要があります。
+>[一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）のために Adobe Opt-in サポートが必要な場合、現在 at.js 1.7.0 または at.js 2.1.0 を使用している必要があります。
 
 ## at.js バージョン 1.7.0 {#at-js-170}
 
@@ -115,7 +115,7 @@ Adobe Opt-in に関する詳細については、「[プライバシーと一般
 
 >[! 注意]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>GDPR のために Adobe Opt-in サポートが必要な場合、現在 at.js 1.7.0 または at.js 2.1.0 を使用している必要があります。<br>すべてのバージョンのリストについては、[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
 ## at.js バージョン 1.6.4 {#at-js-164}
 
@@ -287,7 +287,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 * `selectorsPollingTimeout` 設定が追加されました。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * `getOffer()` からの応答の形式が変更されました。詳しくは、[adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) を参照してください。
 * サポートされていない `<!DOCTYPE>` 宣言のコンソールログが追加されました。
-* 1つの mbox に複数のデフォルトオファーが配信されると [!DNL Target Classic] のプラグインが正しく適用されない問題が修正されました。（TGT-22664） For more information, see [Plug-Ins](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation.
+* 1つの mbox に複数のデフォルトオファーが配信されると [!DNL Target Classic] のプラグインが正しく適用されない問題が修正されました。（TGT-22664）
 * 2 文字のトップレベルドメイン（TLD）の Cookie 設定が改良され、これらのドメイン（[!DNL test.no]、[!DNL autodrives.ca] など）に対して mbox Cookie が正しく設定されるようになりました。
 * at.js バージョン 0.9.6 で、Cookie の保存時に使用するトップレベルドメインを抽出するアルゴリズムが変更されました。これにより、IP を使用するアドレスには Cookie を保存できなくなりました。IP アドレスはテスト目的で使用されるケースがほとんどですが、DNS エントリを使用したり、ローカルボックスのホストファイルを変更したりすることで対処できます。
 * プロパティが整数値ではなく文字列値の場合の移動および整列操作の処理に関する記述を修正しました。
@@ -298,7 +298,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 * mbox.js 使用時の mbox 名のネーミング要件に対応して、mbox 名にアンパサンド（&amp;）を含む特殊文字を使用できるようになりました。
 
-   使用可能な特殊文字のリストについては、「[at.js の設定](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)」を参照してください。
+   使用可能な特殊文字のリストについては、[at.js の設定](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)を参照してください。
 
 * `secureOnly` 設定が追加され、at.js で HTTPS のみを使用するか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。この詳細設定のデフォルト値は False で、`targetGlobalSettings` で上書きできます。
 * 「[!UICONTROL レガシーブラウザーのサポート]」オプションは、at.js バージョン 0.9.3 以前で使用できます。このオプションは、at.js バージョン 0.9.4 で削除されました。
