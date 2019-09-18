@@ -5,7 +5,7 @@ title: Experience Cloud デバッガーでの Target のデバッグ
 seo-title: Experience Cloud デバッガーでの Target のデバッグ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 
 ## その他のリソース
 
-+ [ChromeストアのAdobe Experience Cloudデバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Targetヘルプドキュメントのトラブルシューティング](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Experience Cloudデバッガーのビデオの使用方法](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [ChromeストアのAdobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Targetヘルプドキュメントのトラブルシューティング](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [ビデオ「Experience Cloudデバッガーの使用方法」](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
