@@ -8,7 +8,7 @@ title: コンバージョン率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 小売データ {#section_30A674731BA6440E9BB93C421BE990EE}
 
-[発注](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html)（`orderConfirmPage`）mbox を挿入して、これをコンバージョン mbox として選択すると、AOV、RPV、販売データが各エクスペリエンスに表示されます。
+[発注](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)（`orderConfirmPage`）mbox を挿入して、これをコンバージョン mbox として選択すると、AOV、RPV、販売データが各エクスペリエンスに表示されます。
 
 ## 信頼水準および信頼区間 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 1. 「**[!UICONTROL ツール]**」／「**[!UICONTROL Data Warehouse]**」をクリックします。
 1. 「**[!UICONTROL Data Warehouse リクエスト]」タブで、各フィールドに記入します。**
 
-   各フィールドについて詳しくは、[Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html) の「Data Warehouse の説明」を参照してください。
+   各フィールドについて詳しくは、[Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) の「Data Warehouse の説明」を参照してください。
 
    | フィールド | 説明 |
    |--- |--- |
@@ -147,8 +147,8 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
-* [Data Warehouse リクエストの作成](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse のベストプラクティス](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Data Warehouse リクエストの作成](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouseのベストプラクティス](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## カウント手法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
