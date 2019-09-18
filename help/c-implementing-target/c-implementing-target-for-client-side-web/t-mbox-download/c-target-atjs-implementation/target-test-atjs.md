@@ -5,12 +5,12 @@ seo-title: at.js の実稼動環境以外へのデプロイ
 title: at.js の実稼動環境以外へのデプロイ
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
-# at.js の実稼動環境以外へのデプロイ{#deploy-at-js-to-a-non-production-environment}
+# Deploy at.js to a non-production environment{#deploy-at-js-to-a-non-production-environment}
 
 実稼動環境以外に at.js を安全にデプロイするためのテクノロジーに関する情報を紹介します。
 
