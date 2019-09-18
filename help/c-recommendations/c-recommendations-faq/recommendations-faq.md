@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Target で「[!UICONTROL 互換性あり]」チェックボックスが表示さ
 * インデックスが最新か確認します。[!DNL /target/products.html#productSearch] に移動し、何時間前にインデックスが作成されたかチェックしてください（例：「3 時間前にインデックス作成」）。必要に応じてインデックスを更新できます。
 * エンティティがコレクションのルールに一致しなくなる変更をフィードまたはデータレイヤーに加えていないか確認します。大文字と小文字が一致しているかチェックしてください（大文字と小文字は区別されます）。
 * フィードが適切に実行されているか確認します。FTP ディレクトリやパスワードなどが変更されていないかチェックしてください。
-* Target は、（顧客のページやアプリに）配信の更新をできる限り早く反映します。一方で、マーケティング担当者のために UI にデータを表示する必要もあります。配信の更新が遅れるのは、必ずしも UI の更新が同期されるのを待っているためではありません。[mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) を使用すると、リクエスト受信時のシステムの状況を確認できます。
+* Target は、（顧客のページやアプリに）配信の更新をできる限り早く反映します。一方で、マーケティング担当者のために UI にデータを表示する必要もあります。配信の更新が遅れるのは、必ずしも UI の更新が同期されるのを待っているためではありません。[mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) を使用すると、リクエスト受信時のシステムの状況を確認できます。
 
 ## 一般的な属性の重み付けと、コンテンツの類似性用の属性の重み付けには、どのような違いがありますか？{#section_FCD96598CBB44B16A4C6C084649928FF}
 
