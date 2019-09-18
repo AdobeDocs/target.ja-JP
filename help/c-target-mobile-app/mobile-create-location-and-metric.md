@@ -7,7 +7,7 @@ title: iOS - Target の位置と成功指標の作成
 topic: 'Target '
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 モバイルアプリで Target を使用するには、場所と成功指標を作成します。
 
-この節では、アプリのテンプレートとして使用できるサンプルコードを紹介します。この節のサンプルには、iOS 用のコードがあります。Android でも同じパターンを使用します。Android 専用の構文は [Experience Cloud 用 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html)ソリューションガイドで紹介しています。
+この節では、アプリのテンプレートとして使用できるサンプルコードを紹介します。この節のサンプルには、iOS 用のコードがあります。Android でも同じパターンを使用します。Android 専用の構文は [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Experience Cloud 用 Android SDK 4.xソリューションガイドで紹介しています。
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 アプリで Target 位置を作成してリクエストをおこなうためのメソッドには、主に次の 2 種類があります。
 
