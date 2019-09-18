@@ -9,7 +9,7 @@ title: 顧客属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -28,7 +28,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 顧客属性と Target を使用する際は次の点に注意してください。
 
-* [!UICONTROL  コアサービスの]顧客属性[!DNL People]機能を使用するには、いくつかの前提条件を満たしておく必要があります。詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)の「顧客属性をアップロードするための前提条件」を参照してください。[!DNL at.js]（任意のバージョン）または [!DNL mbox.js]（バージョン 58 以降）が必要です。
+* [!UICONTROL  コアサービスの]顧客属性[!DNL People]機能を使用するには、いくつかの前提条件を満たしておく必要があります。For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. [!DNL at.js]（任意のバージョン）または [!DNL mbox.js]（バージョン 58 以降）が必要です。
 * 必ずしも、CRM データベースの顧客属性（訪問者プロファイル）データがすべて Experience Cloud に転送され、Taeget でのターゲット設定に利用できるとは限りません。現在の設計では、データのごく一部が転送されない可能性があります。
 * Experience Cloud から Target にインポートした顧客属性データの有効期間は、訪問者プロファイルの有効期間（デフォルトでは 14 日間）によって決まります。詳しくは、[訪問者プロファイルの有効期間](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * `vst.*` がユーザーを特定する唯一のパラメーターである場合は、`authState` が UNAUTHENTICATED (0) である限り、既存の「認証済み」プロファイルが取得されません。認証済みプロファイルは、`authState` が UNAUTHENTICATED（1）に変わったときに取得されます。
@@ -43,7 +43,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 ![](assets/crm_workflow.png)
 
-次の各タスクを実行する方法について詳しくは、*Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)を参照してください。
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide*.
 
 1. データファイルを作成します。
 
@@ -64,7 +64,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
    HTTP メソッドを使用して最大 100 MB のデータファイルをアップロードできます。100 MB を超えるファイルについては、FTP 経由で最大 4 GB までアップロードできます。
 
    * **HTTPS：**[!DNL .csv]データファイルをドラッグ＆ドロップするか、「[!UICONTROL 参照]」をクリックしてファイルシステムからアップロードします。
-   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)します。まず、アドビが指定した FTP サーバーのパスワードを入力します。パスワードを入力したら、「[!UICONTROL 完了]」をクリックします。
+   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)します。まず、アドビが指定した FTP サーバーのパスワードを入力します。パスワードを入力したら、「[!UICONTROL 完了]」をクリックします。
 
       CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と [!DNL .fin] 拡張子の新しいファイルを作成します。この空のファイルをサーバーに転送します。これにより、転送が完了したことが示され、Experience Cloud がデータファイルの処理を開始します。
 
@@ -80,7 +80,7 @@ People コアサービスは [!DNL Adobe Experience Cloud] の一部であり、
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)すると、Experience Cloud とソリューション間のデータフローが設定されます。属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読の設定では](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、Experience cloudとソリューションの間のデータフローを設定します。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![](assets/solution.png)
 
@@ -122,11 +122,11 @@ mbox3rdPartyId をパラメーターとして、`targetPageParams()` () メソ�
 
 ### Experience Cloud ID サービスの使用
 
-Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。詳しくは、*Experience Cloud ID サービスのドキュメント*&#x200B;で、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。
+Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* *Experience Cloud およびコアサービス製品ドキュメント*&#x200B;の[顧客属性ソースの作成とデータファイルのアップロード](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+* 顧客属[性ソースの作成と、コアサービスユーザーガイド](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) (英語のみ *)でのデータファイルのアップロード*
 * *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## よくある問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
