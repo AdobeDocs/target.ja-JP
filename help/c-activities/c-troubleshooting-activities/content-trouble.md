@@ -9,7 +9,7 @@ title: コンテンツ配信のトラブルシューティング
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -34,7 +34,7 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 1. 「**[!UICONTROL mbox.js]**」または「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL 認証トークンを生成]**」をクリックします。
 
-   ![認証トークンの生成](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![認証トークンを生成](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 生成されたトークンをパラメーターとして URL に追加して、高度なデバッグツールの 1 つを有効にします。
 
@@ -102,7 +102,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、[*Adobe Experience Cloud デバッガー拡張*&#x200B;のドキュメント](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)を参照してください。
+詳しくは、Adobe Experience cloudデバッガーを使用し [たat.jsのデバッグを参照してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 配信中に target.js を読み込めなかった場合 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -128,7 +128,7 @@ mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、�
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)」を参照してください。を参照してください。
+サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)」を参照してください。.
 
 ## 要素が AEM パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない{#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -148,9 +148,9 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 mbox 応答をブラウザーで確認するか、mboxTrace を使用して確認できます。有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
 
-## mboxがサイトで実行されない。
+## mbox がサイトで実行されません。
 
-at. jsは、無効なdoctypeを使用している場合、Target mboxは実行しません。a.js には HTML5 の doctype が必要です。
+無効な doctype を使用している場合、at.js は Target mbox を実行しません。a.js には HTML5 の doctype が必要です。
 
 ## トレーニングビデオ
 
