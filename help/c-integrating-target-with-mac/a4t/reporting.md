@@ -9,7 +9,7 @@ title: A4T レポート
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ Analytics で Target アクティビティの結果を表示するには、タ�
 
 >[!NOTE]
 >
->Target の上昇率と信頼性の詳細は、Analytics でも利用できます。詳しくは、Adobe Analytics 製品ドキュメントの [Target の上昇率と信頼性レポートのタイプ](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)を参照してください。
+>Target の上昇率と信頼性の詳細は、Analytics でも利用できます。詳しくは、 [Analyticsコンポーネントガイドの](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) Targetの上昇率と信頼性を *参照してください*。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ Analytics で Target アクティビティの結果を表示するには、タ�
 * オーディエンスリストには Analytics レポートスイートから利用できるオーディエンスが表示されます。
 * 指標リストには Analytics を通じて利用できるすべての指標が表示されます。
 
-   カスタム指標や Analytics に組み込まれている計算指標を含む、すべての指標を利用できます。を参照してください。
+   カスタム指標や Analytics に組み込まれている計算指標を含む、すべての指標を利用できます。.
 
    このレポートでは、実際には数値の上昇が好ましくない状況であっても、数値の上昇が肯定的な現象として表示されることに注意してください。例えば、バウンス率を低く抑えたい場合であっても、最も高いバウンス率を持つものが勝者として表示されます。このような指標の取り扱いには注意が必要です。ポートに基づいて判断をおこなう場合には、数値が低下した方が好ましいのか、上昇した方が好ましいのかを確認してください。
 
