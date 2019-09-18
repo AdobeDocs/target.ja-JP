@@ -7,7 +7,7 @@ solution: 'Target '
 title: Analytics データの使用
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 
-Target のデータソースとしての Analytics の設定について詳しくは、[Adobe Target のレポートソースとしての Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)を参照してください。
+For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Analytics をレポートソースとして使用するアクティビティを設定する前に、アクティビティの目標を設定します。例えば、訪問者 1 人あたりの収益（RPV）や、ショッピングカートのクリック増加数などです。キャンペーンの最終的な成功指標を選択します。Analytics ではいつでも追加的な指標を選択できますが、このテストで効果を確かめたい特定の指標を 1 つ指定する必要があります。
 
