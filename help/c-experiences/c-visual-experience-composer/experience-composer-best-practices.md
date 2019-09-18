@@ -8,7 +8,7 @@ title: Visual Experience Composer のベストプラクティスと制限事項
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ OR
 **インライン要素内では、ブロックレベルの要素を避ける。**
 
 アンカーやスパンなどのインライン要素内でブロックレベルの要素を使用しないでください。インライン要素内でブロックレベルの要素を使用すると、高さと幅が失われ、その結果、Visual Experience Composer のオーバーレイツールが期待どおりに機能しないことがあります。
-
-**クラシック mbox のオファーを更新するときは、mbox が説明どおりに作成されていることを確認する（Target Classic ヘルプの「[単一の mbox の作成](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)」）。**
-
-mbox 内に要素や要素のグループを配置することを検討している場合は、`class mboxDefault` を使用した新しい div 内でそれらの要素を折り返します。
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **Web サイト内で base タグを使用して URL とリンクを解決してはならない。**
 
