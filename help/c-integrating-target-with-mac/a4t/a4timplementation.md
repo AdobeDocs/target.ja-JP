@@ -8,7 +8,7 @@ title: Analytics for Target の実装
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics を Target のレポートソースとして実装する場合�
 
 ## 手順1： Analytics と Target のプロビジョニングを依頼します。
 
-Analytics を Target のレポートソースとして実装した後、Analytics および Target のプロビジョニングをおこなう必要があります。[プロビジョニングにはこのフォームを使用](http://www.adobe.com/go/audiences)してください。
+Analytics を Target のレポートソースとして実装した後、Analytics および Target のプロビジョニングをおこなう必要があります。[このフォームを使用して、プロビジョニングをリクエストします](http://www.adobe.com/go/audiences)。
 
 ## 手順 2： ユーザー権限を設定します。
 
@@ -33,15 +33,15 @@ Adobe Target で Adobe Analytics ベースのアクティビティを作成す�
 
 訪問者 ID サービスによって、Experience Cloud ソリューション全体でユーザーを特定することができます。Experience Cloud 訪問者 ID の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-[Experience Cloud ID サービスの Target への実装](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)（Experience Cloud 訪問者 ID サービスのドキュメント）を参照してください。
+[Experience Cloud ID サービスの Target への実装](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html)（Experience Cloud 訪問者 ID サービスのドキュメント）を参照してください。
 
 ## 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
 appMeasurement.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新規導入の場合は、[Analytics JavaScript の導入](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)を参照してください。
+新規導入の場合は、 [Analytics導入ガイドの](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript導入の概要 *を参照してください*。
 
-移行の場合は、[AppMeasurement for JavaScript への移行](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate)を参照してください。
+移行については、 [Analytics導入ガイドのJavaScript版AppMeasurementへの移行](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) を参照 *してください*。
 
 ## 手順 5：at.js または mbox.js をダウンロードして更新します。
 
@@ -57,7 +57,7 @@ at.js または mbox.js を事前にデプロイしている場合、既存の�
 
 ## 手順 7： サイトのすべてのページから at.js または mbox.js を参照します。 {#step7}
 
-各ページのタグに次のコードを追加して、VisitorAPI. jsの下にat. jsまたはmbox. jsを含めます。
+各ページのタグ内に以下のコードを追加して、VisitorAPI.js の下に at.js または mbox.js を含めます。
 
 at.js の場合：
 
@@ -73,11 +73,11 @@ mbox.js の場合：
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-VisitorAPI. jsは、at. jsまたはmbox. jsの前にロードする必要があります。既存のat. jsまたはmbox. jsファイルを更新する場合は、読み込み順序を確認してください。
+VisitorAPI.js は、at.js や mbox.js より先に読み込まれている必要があります。既存の at.js や mbox.js ファイルを更新中の場合、読み込む順序を必ず確認してください。
 
-TargetとAnalyticsの統合の設定をTargetとAnalyticsの統合に設定する方法は、ページから渡されたSDIDを使用して、TargetおよびAnalyticsリクエストを自動的にバックエンドで結合することです。
+あらかじめ用意されている設定で、実装の観点から Target および Analytics の統合用に設定された方法は、ページから渡された SDID を使用して、Target および Analytics リクエストを共にバックエンドで自動的にスティッチします。
 
-However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意:2.1より下のバージョンでは、この方法はサポートされていません。
+ただし、レポート目的で Target に関連する分析データを Analytics に送信する方法およびタイミングをより制御したい場合で、Target および Analytics で分析データを SDID で自動的にスティッチさせるデフォルト設定をオプトインしたくない場合、**window.targetGlobalSettings** で **analyticsLogging = client_side** を設定できます。注意：2.1 未満のバージョンでは、この方法をサポートしていません。
 
 次に例を示します。
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. この設定を行うと、ペイロードの形式は次のようになります。
+この設定は全体的に影響します。つまり、at.js によっておこなわれた各呼び出しには、Target リクエストと共に送信された **analyticsLogging: "client_side"** があり、各リクエストに対して分析ペイロードが返されます。これが設定された場合、返されるペイロードの形式は、以下のようになります。
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+その後、ペイロードは [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. この呼び出しのみでAnalyticsペイロードが返され、TargetバックエンドはペイロードをAnalyticsに転送しません。このアプローチを実行することで、at. jsのTargetリクエストはデフォルトでペイロードを返しませんが、代わりに必要な場合にのみ指定します。
+グローバル設定は望まず、よりオンデマンドな方法が好ましい場合は、at.js 関数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、**analyticsLogging: "client_side"** に渡すことでこれを実現します。分析ペイロードはこの呼び出しに対してのみ返され、Target バックエンドは、ペイロードを Analytics に転送しません。この方法を続けることで、各 at.js Target リクエストはデフォルトではペイロードを返しませんが、代わりに、必要に応じて指定した場合に返します。
 
 次に例を示します。
 
@@ -123,9 +123,9 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-この呼び出しによって、Analyticsのペイロードを抽出できる応答が呼び出されます。
+この呼び出しは、分析ペイロードを抽出できる応答を呼び出します。
 
-応答は次のようになります。
+応答は以下のようになります。
 
 ```
 {
@@ -156,9 +156,9 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+その後、ペイロードは [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
-## 手順 8： 実装を検証します。{#step8}
+## 手順 8：実装を検証します。{#step8}
 
 JavaScript ライブラリを更新した後でページをロードして、Target 呼び出しの mboxMCSDID パラメーター値が Analytics ページビュー呼び出しの sdid パラメーター値と一致していることを確認します。
 
