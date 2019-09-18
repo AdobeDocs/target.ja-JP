@@ -6,7 +6,7 @@ seo-title: Analytics トラッキングサーバーの使用
 title: Analytics トラッキングサーバーの使用
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ Target のデータが Analytics の適切な場所に送信されるように�
 
 1. アクティビティを作成しているページから、Adobe Experience Cloud デバッガーを起動します。
 
-   デバッガーがまだインストールされていない場合は、[Adobe デバッガーのインストール手順](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)を参照してください。
+   デバッガーをインストールしていない場合は、「Experience cloudデバッガーのイ [ンストール」を参照してくださ](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)い。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
