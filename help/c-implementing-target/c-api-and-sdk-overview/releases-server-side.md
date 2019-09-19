@@ -1,17 +1,17 @@
 ---
-description: サーバー側のTarget実装に関連する更新に関する情報です。
-keywords: at.js;api;sdk;release;updates
-seo-description: サーバー側のAdobe targetの実装に関連する更新に関する情報です。
-seo-title: サーバー側のAdobe target実装に関する更新
+description: Adobe targetのサーバー側APIおよびSDKに関するリリースノート
+keywords: at.js;api;sdk;release;updates;apis;sdks;server side;serverside;server-side
+seo-description: Adobe targetのサーバー側APIおよびSDKに関するリリースノート
+seo-title: Adobe targetのサーバー側APIおよびSDKに関するリリースノート
 solution: Target
-title: サーバー側実装に関連するリリース
+title: リリースノート — APIとSDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ---
 
 
-# サーバー側実装に関連するリリース
+# リリースノート — APIとSDK
 
-APIおよびSDKの更新を含む、サーバー側のTarget実装に関連する更新に関する情報です。
+Adobe targetのサーバー側APIおよびSDKに関するリリースノートです。
