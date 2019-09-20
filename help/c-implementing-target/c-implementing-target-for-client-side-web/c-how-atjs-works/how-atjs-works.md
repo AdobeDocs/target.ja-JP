@@ -1,6 +1,6 @@
 ---
 description: at.js を使用する自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す Target システム図です。
-keywords: システム図;ちらつき;Target Standard;at.js;実装;;javascriptライブラリ;js
+keywords: システム図;ちらつき;Target Standard;at.js;実装;javascriptライブラリ；js
 seo-description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 seo-title: Adobe Target の at.js の仕組み
 solution: 'Target '
@@ -8,7 +8,7 @@ title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 詳細については、「[Target JavaScript ライブラリ](/help/c-intro/how-target-works.md#libraries)」を参照してください。
 
-下の図に示す [!DNL Target] 実装では、Analytics、Target、およびAudience Management の [!DNL Adobe Experience Cloud] ソリューションが実装されています。さらに、Adobe Launch、オーディエンスおよび訪問者 ID サービスの Experience Cloud コアサービスが実装されています。
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. さらに、Adobe Launch、オーディエンスおよび訪問者 ID サービスの Experience Cloud コアサービスが実装されています。
 
 ## at.js 1.*x* と at.js 2.x のワークフロー図の違いは何ですか？
 
@@ -34,7 +34,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 抽象度の高い表示では、2 つのバージョン間にいくつかの違いがあります。
 
 * at.js 2.x は、グローバル mbox リクエストの概念がなく、ページ読み込みリクエストを使用します。ページ読み込みリクエストは、Web サイトの最初のページ読み込み時に適用されるコンテンツを取得するリクエストとして表示できます。
-* at.js 2.x は、シングルページアプリケーション（SPA）で使用されるビューの概念を管理します。at.js 1.*x* はこの概念に対応していません。
+* at.js 2.xは、シングルページアプリケーション(SPA)で使用されるビューと呼ばれる概念を管理します。 at.js 1.*x* はこの概念に対応していません。
 
 ## at.js 2.x 図
 
@@ -49,7 +49,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 | 3 | すべての設定済みパラメーター（MCID、SDID および顧客 ID）を含む、ページ読み込みリクエストがおこなわれます。 |
 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、オーディエンスライブラリから正規のオーディエンスをリクエストします（例えば、Adobe Analytics、Audience Management などから共有されたオーディエンス）。<br>顧客属性がバッチ処理でプロファイルストアに送信されます。 |
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
-| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA でのユーザーアクションの結果として表示されるビューのターゲットコンテンツは、ブラウザーにキャッシュされます。そのため、`triggerView()` を介してビューがトリガーされたときに追加のサーバー呼び出しをおこなわずに即座にターゲットコンテンツを適用できます。 |
+| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA内のユーザー操作の結果として表示されるビューのターゲットコンテンツは、ブラウザーにキャッシュされるので、ビューがトリガーされたときに追加のサーバー呼び出しを行うことなく、即座に適用できま `triggerView()`す。 |
 | 7 | Analytics データがデータ収集サーバーに送信されます。 |
 | 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。<br>A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
@@ -68,7 +68,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ## at.js 1.x の図
 
-![Targetフロー- at. js1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Targetフロー — at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 手順 | 説明 | 呼び出し | 説明 |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
 | 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。[!DNL Analytics for Target]（A4T）レポートを使用して、<br>[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。 |
 
-## at. jsがHTMLコンテンツを使用してオファーをレンダリングする方法 {#render}
+## at.jsがHTMLコンテンツでオファーをレンダリングする方法 {#render}
 
-HTMLコンテンツを使用してオファーをレンダリングする場合、at. jsは次のアルゴリズムを適用します。
+HTMLコンテンツでオファーをレンダリングする場合、at.jsは次のアルゴリズムを適用します。
 
-1. 画像はプリロードされます（HTMLコンテンツにタグが `<img>` ある場合）。
+1. 画像がプリロードされます(HTMLコンテンツにタグが `<img>` ある場合)。
 
 1. HTMLコンテンツはDOMノードに添付されます。
 
-1. インラインスクリプトが実行されます（タグで `<script>` 囲まれたコード）。
+1. インラインスクリプト(タグで囲まれたコ `<script>` ード)が実行されます。
 
-1. リモートスクリプトは非同期に読み込まれ、実行されます（`<script>` 属性のある `src` タグ）。
+1. リモートスクリプトは非同期で読み込まれ、実行されます(`<script>` 属性を持つ `src` タグ)。
 
-重要な注意事項:
+重要な注意：
 
-* at. jsは、リモートスクリプト実行の順序を保証しません。これは、非同期で読み込まれるためです。
-* インラインスクリプトでは、リモートスクリプトの依存関係を持つことはできません。これは、後で読み込まれて実行するためです。
+* at.jsは、リモートスクリプトの実行順序に関する保証を提供しません。リモートスクリプトの実行順序は非同期で読み込まれるからです。
+* インラインスクリプトは後で読み込まれ実行されるので、リモートスクリプトには依存しないでください。
 
 ## トレーニングビデオ： at.js 2.x のアーキテクチャ図
 
@@ -100,4 +100,4 @@ at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
-詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
+詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) を参照してください。
