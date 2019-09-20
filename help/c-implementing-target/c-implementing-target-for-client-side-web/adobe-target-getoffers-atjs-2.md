@@ -1,6 +1,6 @@
 ---
 description: 'at.js の adobe.target.getOffers() 関数についての情報です。 '
-keywords: adobe. target. getOffers;getOffers;getオファー;オファーの取得、at. js;関数、関数
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;get offers;at.js;function;function
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
 seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（） 関数に関する情報です。
 solution: 'Target '
@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 >[!NOTE]
 >
->この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1 では使用できません。*x*.
+>この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1.x では使用できません。*x*.
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に用いられる補助的なデータ ID を生成するために使用されます。このキーは訪問者ごとの一意の文字列です。 |
+| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に用いられる補助的なデータ ID を生成するために使用されます。このキーは、訪問者ごとに一意の文字列です。 |
 | リクエスト | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
-| timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
+| timeout | 数値  | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
 
@@ -33,9 +33,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 | --- | --- | --- | --- |
 | request &gt; id | × |  | `tntId`、`thirdPartyId`、または `marketingCloudVisitorId` のいずれか 1 つが必須です。 |
 | Request &gt; id &gt; thirdPartyId | × | 最大サイズ = 128 |  |  |
-| リクエスト/ExperienceCloud | × |  |  |
-| リクエスト&gt; ExperienceCloud&gt; analytics | × |  | Adobe Analyticsの統合 |
-| リクエスト&gt; ExperienceCloud&gt; analytics&gt;ログ | × | 次のページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement. js</li></ul> | 次の値がサポートされています。<br>**client_ side**:指定した場合、Analyticsペイロードは、Data Insertion APIを介してAdobe Analyticsに送信するために使用される呼び出し元に返されます。<br>**server_ side**:これは、TargetとAnalyticsのバックエンドが、レポート用に呼び出しを組み合わせるためにSDIDを使用するデフォルト値です。 |
+| Request &gt; experienceCloud | × |  |  |
+| Request &gt; experienceCloud &gt; analytics | × |  | Adobe Analytics の統合 |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | × | 以下をページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement.js</li></ul> | 以下の値がサポートされます。<br>**client_side**：指定された場合、Data Insertion API を使用して Adobe Analytics に送信するために使用される必要がある呼び出し元に分析ペイロードが返されます。<br>**server_side**：これはデフォルト値で、Target および Analytics バックエンドが SDID を使用して、レポート処理のために呼び出しを共にスティッチします。 |
 | Request &gt; prefetch | × |  |  |
 | Request &gt; prefetch &gt; views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
 | Request &gt; prefetch &gt; views &gt; profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
@@ -74,8 +74,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers（）を呼び出して、クライアント側からAnalyticsペイロードを取得します
+## getOffers() を呼び出してクライアント側から分析ペイロードを取得
 
 ```
 adobe.target.getOffers({
@@ -150,7 +151,7 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-**応答**:
+**応答**：
 
 ```
 {
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-その後、Data Insertion APIを [使用してペイロードをAdobe Analyticsに転送](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)できます。
+その後、ペイロードは [Data Insertion APIを介してAdobe Analyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
 
