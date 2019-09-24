@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,19 +120,19 @@ source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ## 予期される条件の処理時間 {#process-time}
 
-条件を保存した後、レコメンデーション [!DNL Target] を計算します。 この計算の実行には時間がかかり、時間枠は、選択したレコメンデーションロジック、データ範囲、カタログ内の項目数、顧客が生成した行動データの量、選択した行動データソースによって異なります。 行動データソースは、次のように処理時間に最も大きな影響を与えます。
+After saving an Activity containing a Criteria, [!DNL Target] computes recommendations based on the selected Collection and Criteria. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
 ### mbox
 
-行動データソースとしてmboxを選択した場合、条件が作成されるとすぐに実行されます。 使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。条件の設定を変更すると、通常、アルゴリズムが再実行されます。 変更内容に応じて、以前に計算されたレコメンデーションは、再実行が完了するまで使用できる場合や、大きな変更に対しては、再実行が完了するまでバックアップまたはデフォルトコンテンツのみを使用できます。 アルゴリズムが変更されない場合、選択したデータ範囲に応じて、12 ～ 48時 [!DNL Target] 間ごとに自動的に再実行されます。
+If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. 使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。条件の設定を変更すると、通常、アルゴリズムが再実行されます。 Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. If an algorithm is not modified, it is automatically re-run by  every 12-48 hours, depending on the selected data range.[!DNL Target]
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **1回限りのレポートスイートの設定**:特定のデータ範囲のルックバックウィンドウでレポートスイートを初めて使用する場合、2 ～ [!DNL Target Recommendations] 7日かけて、選択したレポートスイートの行動データを完全にダウンロードできます [!DNL Analytics]。 この時間枠はシステムの負荷に [!DNL Analytics] 依存します。
-* **既に利用可能なレポートスイートを使用して新しい条件または編集した条件**:新しい条件を作成する場合や既存の条件を編集する場合、選択したレポートスイートが既に使用されていて、選択したデータ範囲と同じかそれ未満のデータ範囲を持つ場合は、データがすぐに使用可能になり、一度の設定は不要です。 [!DNL Target Recommendations]この場合、または選択したレポートスイートやデータ範囲を変更せずにアルゴリズムの設定を編集した場合、アルゴリズムは12時間以内に実行または再実行されます。
-* **実行中のアルゴリズム**:データのフロ [!DNL Analytics] ーは [!DNL Target Recommendations] 毎日行われます。 例えば、表示された親和性 [!UICONTROL のレコメンデーションの場合] 、ユーザーが製品を表示すると、製品ビュートラッキングコールがリアルタイムに近い [!DNL Analytics] 場所に渡されます。 データ [!DNL Analytics] は翌日の早い時 [!DNL Target] 間にプッシュされ、12時間 [!DNL Target] 以内にアルゴリズムが実行されます。
+* **One-time report suite setup: The first time a report suite is used with a given data range lookback window,  can take from two to seven days to fully download the behavioral data for the selected report suite from .**[!DNL Target Recommendations][!DNL Analytics]This timeframe is dependent on the  system load.[!DNL Analytics]
+* **New or edited criteria using an already available report suite: When creating a new criteria or editing an existing criteria, if the selected report suite has already been used with , with a data range equal to or lesser than the selected data range, then the data is immediately available and no one-time setup is required.**[!DNL Target Recommendations]この場合、または選択したレポートスイートやデータ範囲を変更せずにアルゴリズムの設定を編集した場合、アルゴリズムは12時間以内に実行または再実行されます。
+* **Ongoing algorithm runs**: Data flows from [!DNL Analytics] to [!DNL Target Recommendations] on a daily basis. 例えば、表示された親和性 [!UICONTROL のレコメンデーションの場合] 、ユーザーが製品を表示すると、製品ビュートラッキングコールがリアルタイムに近い [!DNL Analytics] 場所に渡されます。 データ [!DNL Analytics] は翌日の早い時 [!DNL Target] 間にプッシュされ、12時間 [!DNL Target] 以内にアルゴリズムが実行されます。
 
 ## レコメンデーションキーに基づくレコメンデーションの設定 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
