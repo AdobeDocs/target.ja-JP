@@ -8,7 +8,7 @@ title: 'オファーとしての Recommendations '
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、«前 **[!UICONTROL に挿入»]**、«後 **[!UICONTROL で挿入»]**&#x200B;または **[!UICONTROL «次のアクションを置換]** »アクションを選択して、«レコメンデーション»を選択 します。
+1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、Recommendations をオファーとして追加する要素をクリックして、**[!UICONTROL 前に挿入]**、**[!UICONTROL 後ろに挿入]**&#x200B;または&#x200B;**[!UICONTROL 次で置換]**&#x200B;アクションを選択してから、[!UICONTROL レコメンデーション]を選択します。
 
    次の図に、[!UICONTROL 後ろに挿入／Recommendation] オプションを示します。
 
@@ -49,7 +49,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
    * 製品紹介ページ
    * 検索結果ページ
    * 「ありがとうございます」ページ
-   * その他の
+   * その他
 
 1. 希望する[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択してから、「[!UICONTROL 次へ]」をクリックします。
 1. 希望する[デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択してから、「[!UICONTROL 次へ]」をクリックします。
@@ -85,8 +85,8 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ### 変更パネルを使用した Recommendations オファーの編集
 
-1. [!UICONTROL 変更] アイコン **（`</>`）** をクリックして [、変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) パネルを表示します。
-1. 目的のアクションの上にカーソルを移動し、**[!UICONTROL 編集]アイコンをクリックします。**
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. 目的のアクションの上にマウスポインターを置いて、**[!UICONTROL 編集]アイコンをクリックします。**
 
    ![変更パネル](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -107,17 +107,21 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. [!UICONTROL 変更] アイコン **（&lt;/&gt;）** をクリックして [、変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) パネルを表示します。
-1. 目的のアクションの上にカーソルを移動し、[!UICONTROL 削除]アイコンをクリックします。
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. 目的のアクションの上にマウスポインターを置いて、[!UICONTROL 削除]アイコンをクリックします。
 
    ![削除アイコン](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### レコメンデーションオファーのステータスの表示 {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
 * 結果準備完了
-* 結果が準備できていません
-* フィード失敗
+* 結果の準備ができていません
+* フィードエラー
 
-![Recommendationsオファーのステータス](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendationsオファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
+
+## トレーニングビデオ：オファーとしてのレコメンデーション
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=jpn)
