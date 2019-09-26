@@ -1,14 +1,14 @@
 ---
 description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
 keywords: targetドキュメントの変更ログ;ドキュメントの更新
-seo-description: このページには、Adobe targetドキュメントに対して行われた重要な変更の一覧を示します。
+seo-description: This page lists important changes made to the Adobe Target documentation.
 seo-title: Adobe target製品ドキュメントのドキュメントに変更があります。
 solution: 'Target '
 title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -21,20 +21,21 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Standard 19.2.1リリースの日付を2019年9月30日に変更しました。 |
+| 2019 年 9 月 27 日 | [Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md) | 新規トピックです。 |
+| September 24, 2019 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Standard 19.2.1リリースの日付を2019年9月30日に変更しました。 |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | トレーニングビデオを追加しました。 |
 | 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 19.9.1リリースに関する情報を追加しました。 |
 | 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 「考慮事項」節を追加しました。 |
-|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | トピック全体のテキストを更新しました。 |
+|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [コンテンツセキュリティポリシー(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新規トピックです。 |
 | 2019年9月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1（2019年9月10日）リリースに関する情報を追加しました。 |
-|  | [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
+|  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
 | 2019 年 9 月 5 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
-| 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | のコードスニペットを更新しまし `AndroidManifest.xml`た。 |
-| 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | モバイルアプリIDでの禁止文字の使用に関する情報を削除しました。 もはや制限はありません。 |
-|  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 次の節を追加しました。「考慮事項」 |
+| 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | Updated code snippet in .`AndroidManifest.xml` |
+| 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Removed information about using prohibited characters in mobile app IDs. もはや制限はありません。 |
+|  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Added new section: "Considerations." |
 |  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 次の文を更新しました。カスタム条件の更新は、デフォルトでは「累積的」です。 既存のキー値ペアが、CSV アップロードファイルで指定した新しいキー値ペアで上書きされます。CSVアップロードで指定されたキーを持たない既存のキーと値のペアは引き続き配信可能で、CSVファイルの一部として最後にアップロードされた時点から31日で有効期限が切れます。 |
-| 2019年8月21日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1リリース（2019年8月21日）を延期しました。 このリリースのコンテンツは、19.9.1リリース（2019年9月24日）にロールインされます。 |
+| August 20, 2019 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1リリース（2019年8月21日）を延期しました。 このリリースのコンテンツは、19.9.1リリース（2019年9月24日）にロールインされます。 |
 |  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 次のFAQを追加しました。「レコメンデーション品目の価格が、小数点以下の値を両方とも表示していません。 どうやって見せればいい？」 |
 | 2019 年 8 月 17 日 | [mbox3rdPartyID のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 次の節を追加しました。「考慮事項」 |
 |  | [Recommendations アクティビティの作成](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | トレーニングビデオを追加しました。 |
@@ -45,37 +46,37 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 |  | [デザインの作成](/help/c-recommendations/c-design-overview/create-design.md) | トレーニングビデオを追加しました。 |
 |  | [コレクション](/help/c-recommendations/c-products/collections.md) | トレーニングビデオを追加しました。 |
 |  | [除外](/help/c-recommendations/c-products/exclusions.md) | トレーニングビデオを追加しました。 |
-| 2019 年 8 月 15 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | テキストを更新し、トレーニングビデオリンクを追加しました。 |
+| 2019 年 8 月 15 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Updated text and added training video link. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | キーに関する情報を収集 `consumerID` しました。 |
 |  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 「レイアウト/移動」セクションの情報を更新しました。 |
-| August 12, 2019 | [Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 依存関係とアーティファクトに関する情報を更新しました。<br>ファイルの更新済みコードサン `AndroidManifest.XML` プル。 |
-|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 「Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1」の節の機能強化および修正のリストを更新しました。 |
-|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md#classic) | 次の節を追加しました。「Recommendations Classicで作成された既存のアクティビティを使用する」 |
+| 2019年8月13日 | [Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 依存関係とアーティファクトに関する情報を更新しました。<br>Updated code sample for the `AndroidManifest.XML` file. |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Updated the list of enhancements and fixes in the "Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1" section. |
+|  | [アクティビティを編集またはドラフトとして保存](/help/c-activities/edit-activity.md#classic) | Added new section: "Work with legacy activities created in Recommendations Classic." |
 | 2019 年 8 月 10 日 | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 次の節を追加しました。「at.jsがHTMLコンテンツでオファーをレンダリングする方法」 |
-|  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Added new section: "Considerations." |
-| 2019 年 8 月 8 日 | [プリフェッチオファーコンテンツ](/help/c-target-mobile-app/prefetch-offer-content.md) | SDKのプリフェッチ機能は、自動ターゲット、自動配分、自動パーソナライゼーションの各アクティビティタイプではサポートされていないことに注意してください。 |
+|  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 次の節を追加しました。「考慮事項」 |
+| 2019 年 8 月 8 日 | [プリフェッチオファーコンテンツ](/help/c-target-mobile-app/prefetch-offer-content.md) | Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types. |
 |  | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 分類プロセスの完了に要する時間を示すメモを更新しました。 |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 分類プロセスの完了に要する時間を示すメモを更新しました。 |
 |  | [プライバシーとデータ保護に関する規制](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | カリフォルニア消費者プライバシー法(CCPA)に関する情報を含むようにトピックを更新しました。 |
-| August 6, 2019 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Added release notes for the Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 release. |
+| 2019年8月7日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS 2.1.0およびAndroid 1.1.0リリースのリリースノートを追加しました。 |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 次の節を更新しました。"条件の処理時間が予想されます。" |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | でのアクティビティインプレッション [!UICONTROL とアクティビティコンバ] ージョン指標の使用 [!UICONTROL を考慮し][!DNL Analysis Workspace]ました。 |
 | 2019年8月1日 | [Target Release notes (current)](/help/r-release-notes/release-notes.md) | エンタープライズ権限のAPIサポートに関する重要なお知らせを追加しました。 |
-|  | [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新規トピックです。 |
-| July 31, 2019 | [Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | 新規トピックです。 |
+|  | [Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てる](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新規トピックです。 |
+| July 31, 2019 | [Recommendationsの概要](/help/c-recommendations/introduction-to-recommendations.md) | 新規トピックです。 |
 |  | [Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Added note to Recently Viewed Items. |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Added known issue with Activity QA preview links. |
-| 2019年7月29日 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
-| 2019年7月25日 | [at.js 1.*xからat* .js 2.*xへのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: Cross-domain tracking support in at.js 2.x[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| July 29, 2019 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my Experience Targeting (XT) reports contain metrics for control experiences?" |
+| July 24, 2019 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 次の節を追加しました。at.js 2.x [でのクロスドメイントラッキングのサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新規トピックです。 |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | Added new section: "Viewing the recommendations offer's status." |
-|  | [フィード](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at time" row under Feed Statuses.**[](/help/c-recommendations/c-products/feeds.md#status) |
-|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md) | カタログの更新方法に関するテキストを更新しました。 |
-|  | [モバイルアプリ でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Added information about the Modifications panel that shows elements you have set up for click-tracking. |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md) | 「項目の読み込み」行を更新し、「フィードのステータス」の下に「フ *ィードは*、正常に読み込まれ [ました」行を追加しまし](/help/c-recommendations/c-products/feeds.md#status)た。 |
+|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md) | Updated text about how the catalog is refreshed. |
+|  | [モバイルアプリ でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | クリック追跡用に設定した要素を表示する変更パネルに関する情報を追加しました。 |
 |  | [Adobe Target の仕組み](/help/c-intro/how-target-works.md#bots) | 次の節を追加しました。「ボットだ。」 |
-|  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Added best practices to avoid slow regex execution. |
-|  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only. |
-|  | [フィード](/help/c-recommendations/c-products/feeds.md#steps) | Added supported FTP server settings to steps. |
+|  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | regexの実行の遅さを回避するためのベストプラクティスを追加しました。 |
+|  | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 「トラブルシューティング」セクションを更新し、文字制限がアプリ名に適用されなくなったことを確認しました。 制限はIDにのみ適用されます。 |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md#steps) | サポートされるFTPサーバー設定を手順に追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.1.1 に関する情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：19.7.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
@@ -350,8 +351,8 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 |  | [エクスペリエンスの追加](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | A/B テストでのエクスペリエンスの複製に関する情報を追加しました。 |
 |  | [オーディエンスについて](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Target アクティビティで参照されているオーディエンスが Adobe Audience Manager（AAM）で削除された場合の扱いに関する情報を追加しました。 |
 |  | [at.js の統合](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | トピックを更新しました。 |
-|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しい節「at.js の実装」を追加しました。 |
-|  | リリース 18.10.1 [リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しいセクション「at.js の実装」を追加しました。 |
+|  | リリース 18.10.1[リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 27 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -687,7 +688,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>リリース 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local">リリースノート </a> </p> </td> 
+   <td colname="col2"> <p>リリース 18.8.1<a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> リリースノート </a> </p> </td> 
    <td colname="col3"> <p>このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 </p> </td> 
   </tr> 
  </tbody> 
