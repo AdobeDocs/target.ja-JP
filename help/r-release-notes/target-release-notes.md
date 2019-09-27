@@ -1,14 +1,14 @@
 ---
-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
-keywords: リリースノート
-seo-description: '[!DNL Adobe Target]の最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。'
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
+keywords: リリースノート；リリース；更新；将来のリリース；拡張；新機能；修正点
+seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
 seo-title: Adobe Target リリースノート（プレリリース）
 solution: 'Target '
 title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
