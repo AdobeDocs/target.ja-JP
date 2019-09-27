@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
 
 ---
 
@@ -141,7 +141,6 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
    + サーバー側：Target の実装 {#server-side}
       + [リリースノート — APIとSDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [機能のフラグ付け](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
       + [電子メール：Target の実装の概要](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -343,7 +342,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)
-   + [Recommendationsの概要](c-recommendations/introduction-to-recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
    + エンティティ {#entities}
       + [エンティティの概要](c-recommendations/c-products/products.md)
