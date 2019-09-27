@@ -1,14 +1,14 @@
 ---
 description: このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
-keywords: 既知の問題、解決された問題、リリースノート
-seo-description: このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
+keywords: 既知の問題、解決された問題、リリースノート；バグ；問題；修正
+seo-description: このリリースのAdobe targetの既知の問題に関する情報です。 また、解決された問題に関する情報も含まれています。
 seo-title: Adobe Target の既知の問題と解決された問題
 solution: 'Target '
 title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
