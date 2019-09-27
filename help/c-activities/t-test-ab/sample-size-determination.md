@@ -7,7 +7,7 @@ solution: 'Target '
 title: A/B テストを実行すべき期間はどのくらいですか？
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,7 +34,7 @@ Target には、コンバージョン目標を達成するのに十分な大き�
 
    詳しくは、 [自動配分](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
 
-* **Target サンプルサイズ計算ツール：**&#x200B;自動配分をおこなわずに A/B テストを手動で使用する場合は、Target サンプルサイズ計算ツールを使用すると、テストの成功に必要なサンプルサイズを判断できます。計算ツールの使い方について詳しくは、以降の節を参照してください。
+* **Target サンプルサイズ計算ツール：**&#x200B;自動配分をおこなわずに A/B テストを手動で使用する場合は、Target サンプルサイズ計算ツールを使用すると、テストの成功に必要なサンプルサイズを判断できます。手動のA/Bテストは固定水平線テストなので、計算ツールが非常に役立ちます。 自動配分は推奨結果を宣言するので、自動配分アクティビティの計算ツールの使用はオプションです。 計算ツールを使用すると、必要なサンプルサイズの概算が表示されます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
 
 ## Adobe Target サンプルサイズ計算ツール {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
