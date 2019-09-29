@@ -1,6 +1,6 @@
 ---
 description: 'at.js の adobe.target.getOffer() 関数について説明します。 '
-keywords: adobe. target. getOffer;getOffer;getOffer;getオファー;at. js;関数、関数
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;function;function
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffer(options) 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffer(options) 関数について説明します。
 solution: 'Target '
@@ -25,7 +25,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | params | オブジェクト | × | mbox パラメーター。次の構造を持つキーと値のペアのオブジェクト。<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | 関数 | ○ | サーバーから応答を受け取ると、コールバックが実行されます。success コールバック関数は、オファーオブジェクトの配列を表す単一のパラメーターを受け取ります。以下に、成功コールバックの例を示します。<br>`function handleSuccess(response){......}`<br>詳細については、以下の「応答」を参照してください。 |
 | error | 関数 | ○ | エラーを受け取ると、コールバックが実行されます。エラーと見なされる状況がいくつかあります。<ul><li>HTTP ステータスコードが 200 OK ではない</li><li>応答が解析できない。例えば、脆弱な構造の JSON や、JSON ではなく HTML など。</li><li>応答には「エラー」キーが含まれます。例えば、危険にさらされて例外がスローされ、リクエストが適切に処理されない可能性があります。mbox がブロックされ、そのコンテンツを取得できないなどの場合にエラーが発生する可能性があります。error コールバック関数は、status と error の 2 つのパラメーターを受け取ります。次に error コールバックの例を示します。 `function handleError(status, error){......}`</li></ul>詳しくは、以下の「エラー応答」を参照してください。 |
-| timeout | 数値 | × | タイムアウト（ミリ秒）。指定しない場合は、at.js のデフォルトのタイムアウトが使用されます。<br>デフォルトのタイムアウトは、[!UICONTROL セットアップ／実装／mbox.js 設定を編集／タイムアウト]にある [!DNL Target] UI から設定できます。 |
+| timeout | 数値  | × | タイムアウト（ミリ秒）。指定しない場合は、at.js のデフォルトのタイムアウトが使用されます。<br>デフォルトのタイムアウトは、[!UICONTROL セットアップ／実装／mbox.js 設定を編集／タイムアウト]にある [!DNL Target] UI から設定できます。 |
 
 ## 例 {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
