@@ -25,7 +25,7 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ### Target Mobile VEC SDK iOS 2.1.0およびAndroid 1.1.1（2019年8月7日）
 
-Mobile VEC SDKのこのリリースには、次の機能強化および修正が含まれています。
+This release of Mobile VEC SDK includes the following enhancements and fixes:
 
 （括弧内の問題番号はアドビ社内で使用されます。）
 
@@ -43,10 +43,10 @@ Mobile VEC SDKのこのリリースには、次の機能強化および修正が
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> 詳しくは、 [モバイルアプリでのクリック追跡の設定を参照してください](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
+| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> See Set up click tracking in the Mobile App.[](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) |
 | ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の用意ができました」、「結果の用意ができました」および「フィードエラー」があります。（TGT-33649）<br>[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md#status)を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する必要が](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) あります。<br>at.js 2.x [でのクロスドメイントラッキングのサポートを参照してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、TargetはECIDライブラリ4.3とのシームレスな統合を導入しています。ECIDライブラリ4.3は、サーバー側cookieを利用してITP 2.1およびITP 2.2を軽減します。Targetのお客様は、今後のITPリリースを軽減するために、 [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ECIDライブラリ4.3以降をTargetのJavaScriptライブラリと組み合わせて導入することを強くお勧めします。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提要する機能強化が引き続き公開されます。<br>[Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提要する機能強化が引き続き公開されます。<br>[Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **機能強化、修正、変更点**
 
@@ -56,7 +56,7 @@ Mobile VEC SDKのこのリリースには、次の機能強化および修正が
 
 ### at.jsバージョン2.1.1（2019年7月25日）
 
-at.jsのこのリリースはメンテナンスリリースであり、次の機能強化および修正が含まれています。
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
 （括弧内の問題番号はアドビ社内で使用されます。）
 
