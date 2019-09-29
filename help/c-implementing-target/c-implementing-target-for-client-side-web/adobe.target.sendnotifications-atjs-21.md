@@ -1,11 +1,11 @@
 ---
-description: 'at. jsのadobe. target. sendNotifications（options）関数について取り上げます。 '
-keywords: adobe. target. sendNotifications;sendNotifications;sendnotifications;通知の送信、notifications;at. js;関数、関数
-seo-description: Adobe Target at. js JavaScriptライブラリのadobe. target. sendNotifications（options）関数について取り上げます。
-seo-title: Adobe Target at. js JavaScriptライブラリのadobe. target. sendNotifications（options）関数について取り上げます。
+description: 'at.js の adobe.target.sendNotifications(options) 関数についての情報です。 '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;function;function
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
 solution: 'Target '
 subtopic: 導入
-title: adobe. target. sendNotifications（options）
+title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,58 +13,58 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendNotifications（options）
+# adobe.target.sendNotifications(options)
 
-エクスペリエンスが使用 `adobe.target.applyOffer()` せずにレンダリングされると、この関数はTargetエッジに通知を送信し `adobe.target.applyOffers()`ます。
+この関数は、`adobe.target.applyOffer()` や `adobe.target.applyOffers()` を使用せずにエクスペリエンスがレンダリングされる場合、Target Edge に通知を送信します。
 
 >[!NOTE]
 >
->この関数はat. js2.1.0で導入されており、2.1.0より前のバージョンで使用できます。
+>この関数は、at.js 2.1.0 で導入され、2.1.0 以上の任意のバージョンで使用できます。
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
 | consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に用いられる補助的なデータ ID を生成するために使用されます。 |
 | リクエスト | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
-| timeout | 数値 | × | リクエストのタイムアウト. 指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
+| timeout | 数値  | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
 
 | フィールド名 | タイプ | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- | --- |
-| リクエスト/通知 | オブジェクトの配列 | ○ |  | 表示されたコンテンツ、クリックされたセレクター、または訪問またはmboxの通知。 |
-| リクエスト&gt;通知&gt;アドレス | オブジェクト | × |  |  |
-| リクエスト&gt;通知&gt;アドレス&gt; url | 文字列 | × |  | 通知が実行されたURL。 |
-| リクエスト&gt;通知&gt; address&gt; referringURL | 文字列 | × |  | 通知が実行された参照元URL。 |
-| リクエスト&gt;通知&gt;パラメーター | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は"profile"で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
-| リクエスト&gt;通知&gt; ProfileParameters | オブジェクト | × | パラメーターには次の名前は使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIDs</li></ul>次の点に留意してください。<ul><li>最大50パラメーターの制限。</li><li>パラメーター名は空白にできません。</li><li>パラメータ名の最大長128。</li><li>パラメーター名は"profile"で始まらないでください。</li><li>パラメータ値の長さの最大5000</li></ul> |  |
-| リクエスト/通知/順序 | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
-| リクエスト&gt;通知&gt;注文&gt; ID | 文字列 | × | `<=` 250 文字. | 注文 ID. |
-| リクエスト&gt;通知&gt;注文&gt;合計 | 文字列 | × | `>=` 0 | 合計注文額. |
-| リクエスト&gt;通知&gt;注文&gt; purchaseProductIDs | Array of String | × | <ul><li>空白値は許可されません。</li><li>各製品IDの最大長50。</li><li>製品IDをコンマで区切って連結し、合計の長さは250を超えないようにします。</li></ul> | 製品IDを注文します。 |
-| リクエスト&gt;通知&gt;製品 | オブジェクト | × |  |  |
-| リクエスト&gt;通知&gt; product&gt; id | 文字列 | × | `<=` 128文字;は空白にできません。 | 製品 ID. |
-| リクエスト&gt;通知&gt; product&gt; categoryId | 文字列 | × | `<=` 128文字;は空白にできません。 | カテゴリ ID. |
-| リクエスト&gt;通知&gt; ID | 文字列 | ○ | `<=` 200文字。 | 通知IDは応答に返され、通知が正常に処理されたことを示します。 |
-| リクエスト/通知/印象ID | 文字列 | × | `<= 128` 文字. | インプレッションIDは、現在の通知を以前の通知または実行リクエストとステッチ（リンク）するために使用します。両者が一致する場合、2つ目以降のリクエストは、アクティビティまたはエクスペリエンスに新しいインプレッションを生成しません。 |
-| リクエスト/通知/タイプ | 文字列 | ○ | "click"または"display"がサポートされています。 | 通知タイプ。 |
-| リクエスト&gt;通知&gt;タイムスタンプ | Number`<int64>` | ○ |  | UNIXエポック以降の経過ミリ秒単位の通知のタイムスタンプ。 |
-| リクエスト/通知/トークン | Array of String | ○ |  | 通知の種類に基づいて表示されるコンテンツまたはクリックされたセレクターのトークンのリスト。 |
-| リクエスト&gt;通知&gt; mbox | オブジェクト | × |  | mboxの通知。 |
-| リクエスト/通知/mbox/名前 | 文字列 | × | 空白値は許可されません。<br>許可されている文字:次の表を参照してください。 | mbox 名. |
-| リクエスト/通知/mbox/状態 | 文字列 | × |  | mbox状態トークン |
-| リクエスト/通知/表示 | オブジェクト | × |  |  |
-| リクエスト&gt;通知&gt;表示&gt; ID | 整数 `<int64>` | × |  | IDを表示します。ビューがビューAPIで作成されたときにビューに割り当てられたID。 |
-| リクエスト&gt;通知&gt;表示&gt;名前 | 文字列 | × | `<= 128` 文字. | ビューの名前。 |
-| リクエスト&gt;通知&gt;表示&gt;キー | 文字列 | × | `<=` 512文字。 | キーを表示します。API経由でビューに設定されたキー。 |
-| リクエスト/通知/表示/状態 | 文字列 | × |  | 状態トークンを表示します。 |
+| Request &gt; notifications | オブジェクトの配列 | ○ |  | 表示されるコンテンツに対する通知、クリックされたセクター、訪問されたビューまたは mbox。 |
+| Request &gt; notifications &gt; address | オブジェクト | × |  |  |
+| Request &gt; notifications &gt; address &gt; url | 文字列 | × |  | 通知の送信元の URL。 |
+| Request &gt; notifications &gt; address &gt; referringUrl | 文字列 | × |  | 通知の送信元のリファラル URL。 |
+| Request &gt; notifications &gt; parameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request &gt; notifications &gt; order | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
+| Request &gt; notifications &gt; order &gt; id | 文字列 | × | `<=` 250 文字。 | 注文 ID。 |
+| Request &gt; notifications &gt; order &gt; total | 文字列 | × | `>=` 0 | 合計注文額。 |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | 文字列の配列 | × | <ul><li>空の値は許可されない。</li><li>各製品 ID の最大長は 50。</li><li>（コンマ区切りで連結された）製品 ID の合計の長さは 250 以内。</li></ul> | 注文製品 ID。 |
+| Request &gt; notifications &gt; product | オブジェクト | × |  |  |
+| Request &gt; notifications &gt; product &gt; id | 文字列 | × | `<=` 128 文字。空にできない。 | 製品 ID。 |
+| Request &gt; notifications &gt; product &gt; categoryId | 文字列 | × | `<=` 128 文字。空にできない。 | カテゴリ ID. |
+| Request &gt; notifications &gt; id | 文字列 | ○ | `<=` 200 文字。 | 通知 ID は応答で返され、通知が正常に処理されたことを示す。 |
+| Request &gt; notifications &gt; impressionId | 文字列 | × | `<= 128` 文字。 | インプレッション ID が、現在の通知を以前の通知とスティッチ（リンク）したり、リクエストを実行したりするのに使用される。それらの両方が一致する場合、2 番目以降のクエストはアクティビティまたはエクスペリエンスに新しいインプレッションを生成しません。 |
+| Request &gt; notifications &gt; type | 文字列 | ○ | 「click」または「display」がサポートされる。 | 通知タイプ。 |
+| Request &gt; notifications &gt; timestamp | 数値 `<int64>` | ○ |  | UNIX エポックから経過したミリ秒で示す通知のタイムスタンプ。 |
+| Request &gt; notifications &gt; tokens | 文字列の配列 | ○ |  | 通知のタイプに基づく、表示されたコンテンツまたはクリックされたセクターのトークンのリスト。 |
+| Request &gt; notifications &gt; mbox | オブジェクト | × |  | mbox の通知。 |
+| Request &gt; notifications &gt; mbox &gt; name | 文字列 | × | 空の値は許可されない。<br>許可される文字：この表の後にある注意を参照。 | mbox 名。 |
+| Request &gt; notifications &gt; mbox &gt; state | 文字列 | × |  | mbox 状態トークン。 |
+| Request &gt; notifications &gt; view | オブジェクト | × |  |  |
+| Request &gt; notifications &gt; view &gt; id | 整数 `<int64>` | × |  | ビュー ID。ビューがビュー API で作成された際にビューに割り当てられた ID。 |
+| Request &gt; notifications &gt; view &gt; name | 文字列 | × | `<= 128` 文字。 | ビューの名前。 |
+| Request &gt; notifications &gt; view &gt; key | 文字列 | × | `<=` 512 文字。 | ビューキー。API でビューに設定されたキー。 |
+| Request &gt; notifications &gt; view &gt; state | 文字列 | × |  | ビュー状態トークン。 |
 
-**注意**:次の文字を使用 `Request > notifications > mbox > name`できます。
+**注意**：`Request > notifications > mbox > name` では、以下の文字は使用できません。
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## prefered mboxのレンダリング後のsendNotifications（）呼び出し
+## プリフェッチされた mbox のレンダリング後の sendNotifications() 呼び出し
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->プリフェッチのみ `getOffers()` を使用してAdobe `sendNotifications()`Analyticsを使用している場合、実行後 `sendNotifications()` にAnalyticsリクエストを実行する必要があります。この目的は、SIDによって生成されたSDID `sendNotifications()` が、AnalyticsおよびTargetに送信されたSDIDと一致することです。
+>Adobe Analytics、プリフェッチのみの `getOffers()` および `sendNotifications()` を使用している場合、Analytics リクエストは、`sendNotifications()` が実行された後におこなう必要があります。この目的は、`sendNotifications()` によって生成された SDID が Analytics および Target に送信された SDID と一致するようにするためです。
