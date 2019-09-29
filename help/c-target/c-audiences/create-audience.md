@@ -27,13 +27,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 両方のブール演算子を混在させて複雑なルールを作成できますが、同じルールレベルの演算子は一致している必要があります。ユーザーインターフェイスは自動的に適切な演算子を適用します。
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+例えば、以下のルールは、Windows コンピューターで Chrome *または* Firefox のどちらかを使用している訪問者をターゲットにします。
 
-![オーディエンスの作成](assets/audience_create.png)
+![オーディエンスを作成](assets/audience_create.png)
 
 >[!NOTE]
 >
->すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、Chrome *と* Firefox を同時に使用してページに訪問することはできません。
 
 ## 新しいオーディエンスの作成
 
