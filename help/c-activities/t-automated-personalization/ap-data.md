@@ -1,8 +1,8 @@
 ---
-description: Adobe Targetは自動的に様々なデータを収集して使用し、自動パーソナライゼーション（AP）アクティビティおよび自動ターゲット（AT）アクティビティにパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
-keywords: 環境データ;セッションデータ、geo data;地理データ;デバイスデータ;モバイルデータ;属性、プロファイル属性
-seo-description: Adobe Targetは自動的に様々なデータを収集して使用し、自動パーソナライゼーション（AP）アクティビティおよび自動ターゲット（AT）アクティビティにパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
-seo-title: Adobe Targetのパーソナライゼーションアルゴリズムのデータ収集
+description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
+keywords: 環境データ;セッションデータ;ジオデータ;地理データ;デバイスデータ;モバイルデータ;属性;プロファイル属性
+seo-description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
+seo-title: Adobe Target のパーソナライゼーションアルゴリズムのデータ収集
 solution: 'Target '
 title: Target のパーソナライゼーションアルゴリズムのデータ収集
 title-outputclass: Premium
@@ -15,101 +15,101 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 ---
 
 
-# ![Premium](/help/assets/premium.png) Target パーソナライゼーションアルゴリズムのデータ収集{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Target パーソナライゼーションアルゴリズムのデータ収集{#data-collection-for-the-target-personalization-algorithms}
 
-Target では、様々なデータを自動的に収集し、それを基に Automated Personalization（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
+Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
 
 Target のパーソナライゼーションアルゴリズムについて詳しくは、[ランダムフォレストアルゴリズム](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)を参照してください。
 
-The following table shows the data collected by Automated Personalization and Auto-Target by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)を参照してください。
+以下の表に、マーケティング担当者が何もしなくてもデフォルトで自動パーソナライゼーションおよび自動ターゲットで収集されるデータと、これらの属性を[パーソナライゼーションインサイトレポート](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)で表示するときに使用する命名規則を示します。入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)を参照してください。
 
 | データタイプ | 説明 | データタイプの命名規則 | 属性の例 |
 | --- | --- | --- | --- |
-| [デバイスおよびモバイルデータ](#device-mobile) | デバイスとモバイル固有の情報。<br>後述の「デバイスとモバイルデータ」を参照してください。 | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
-| [環境データ](#env) | 訪問者のオペレーティングシステムに関する情報、および訪問者がアクティビティにアクセスしている日時について説明します。 | `Browser - / Operating System] - [Attribute Name]` | ブラウザー - タイプ |
-| Experience Cloudセグメント | Audience ManagerまたはAnalyticsで作成され、Experience Cloud全体で共有されるオーディエンス | `Custom - Experience Cloud Audience - [Audience Name]` | カスタムデータ |
-| [地理データ](#geo) | 訪問者の所在地に関する情報。<br>以下の「地理的データ」を参照してください。 | `Geo - [geo attribute]` | 市町村<br>国<br>地域／州<br>郵便番号<br>緯度<br>経度<br> ISP または携帯電話会社 |
-| プロファイル属性 | 更新APIを介してTargetプロファイルに直接アップロードされたプロファイルスクリプトまたは属性 | `Custom - Visitor Profile - [attribute name]` | カスタムデータ |
-| 参照URLパラメーター | 一般に参照 URL とは、mbox 呼び出しが実行された特定のページを参照した URL のことを指します。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
-| レポートセグメント | アクティビティのセットアップで設定されたセグメント。 | `Reporting Segment -[Segment Name]` | カスタムデータ |
-| [セッションデータ](#session) | アクティビティにアクセスするときのセッションでの訪問者の行動に関する情報です。 | `Visitor Profile - [Attribute Name]` | 訪問者プロファイル - 最新の訪問の開始 |
+| [デバイスとモバイルデータ](#device-mobile) | デバイスおよびモバイルに特有の情報。<br>後述の「デバイスとモバイルデータ」を参照。 | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | モバイルデバイス OS<br>モバイル画面サイズ |
+| [環境データ](#env) | 訪問者のオペレーティングシステムおよび訪問者がアクティビティにいつどのようにしてアクセスするかに関する情報。 | `Browser - / Operating System] - [Attribute Name]` | Browser - Type |
+| Experience Cloud セグメント | Audience Manager または Analytics で作成したオーディエンスおよび Experience Cloud の共有アクセス | `Custom - Experience Cloud Audience - [Audience Name]` | カスタムデータ |
+| [地理データ](#geo) | 訪問者の所在地に関する情報。<br>後述の「地理データ」を参照。 | `Geo - [geo attribute]` | 市町村<br>国<br>地域／州<br>郵便番号<br>緯度<br>経度<br>ISP または携帯電話会社 |
+| プロファイル属性 | 更新 API を使用して Target プロファイルに直接アップロードされるプロファイルスクリプトまたは属性 | `Custom - Visitor Profile - [attribute name]` | カスタムデータ |
+| 参照 URL パラメーター | 一般に参照 URL とは、mbox 呼び出しが実行された特定のページを参照した URL のことを指します。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
+| レポートするセグメント | アクティビティ設定で設定したセグメント | `Reporting Segment -[Segment Name]` | カスタムデータ |
+| [セッションデータ](#session) | アクティビティへのアクセス時のセッションでの訪問者の行動に関する情報。 | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | URL パラメーター | Target では、URL を解析して URL パラメーターを抽出します。 | `Custom - URL Parameter - [URL Parameter]` | カスタムデータ |
 
-次の節に、属性名、説明、サンプル値など、様々なデータタイプに関する詳細情報を示します。
+以下の節には、属性名、説明、サンプル値を含む、様々なデータタイプに関する詳細情報が含まれています。
 
-## Device and Mobile data {#device-mobile}
+## デバイスとモバイルデータ {#device-mobile}
 
-| Attribute name | 属性の説明 | サンプル値 |
+| 属性名 | 属性の説明 | サンプル値 |
 | --- | --- | --- |
-| モバイル-デバイス-ブランド | アクティビティにアクセスするために訪問者が使用したモバイルデバイスのブランド。 | Apple |
-| モバイル-デバイス- eReader | デバイスがeReaderであるかどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-デバイス-ゲームコンソール | デバイスがゲームコンソールかどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-デバイス-メディアプレイヤー | デバイスがメディアプレイヤーかどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-デバイス-携帯電話 | デバイスが携帯電話かどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-デバイス-モデル名 | アクティビティにアクセスするために訪問者が使用したモバイルデバイスのモデル名。 | iPhone XS |
-| デバイス-トップボックス | デバイスがセットトップボックスであるかどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-デバイス-タブレット | デバイスがタブレットかどうかを指定します。 | 0がFalse、1はTrue |
-| モバイル-ピクセル密度（ppi） | モバイルデバイスのピクセル密度。訪問者がアクティビティへのアクセスに使用した密度です。 | 1、2、3など |
-| モバイル- OS- OSX（Android、Windowsなど） | ユーザーがOSX（またはAndroid、Windowsなど）を使用したかどうかを指定します。デバイスにアクセスして、アクティビティにアクセスします。 | 0がFalse、1はTrue |
-| モバイル-画面の高さ（px） | アクティビティへのアクセスに使用されるモバイルデバイスの画面の高さ（ピクセル単位）。 | 1、2、3など |
-| モバイル-画面の幅（px） | アクティビティへのアクセスに使用されるモバイルデバイスの画面の幅（ピクセル単位）です。 | 1、2、3など |
+| Mobile - Device - Brand | 訪問者がアクティビティへのアクセスに使用したモバイルデバイスのブランド。 | Apple |
+| Mobile - Device - eReader | デバイスが eReader かどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Device - Game Console | デバイスがゲームコンソールかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Device - Media Player | デバイスがメディアプレーヤーかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Device - Mobile Phone | デバイスがモバイルフォンかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Device - Model Name | 訪問者がアクティビティへのアクセスに使用したモバイルデバイスのモデル名。 | iPhone XS |
+| Device - Set-Top Box | デバイスがセットトップボックスかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Device - Tablet | デバイスがタブレットかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Pixel Density (ppi) | 訪問者がアクティビティへのアクセスに使用したモバイルデバイスのピクセル密度。 | 1、2、3、など。 |
+| Mobile - OS – OSX（Android、Windows、など） | ユーザーが OSX（または Android、Windows など）デバイスをアクティビティへのアクセスに使用したかどうかを指定します。 | 0 は False、1 は True |
+| Mobile - Screen Height (px) | 訪問者がアクティビティへのアクセスに使用したモバイルデバイスの画面の高さ（ピクセル単位）。 | 1、2、3、など。 |
+| Mobile - Screen Width (px) | 訪問者がアクティビティへのアクセスに使用したモバイルデバイスの画面の幅（ピクセル単位）。 | 1、2、3、など。 |
 
-## Environmental data {#env}
+## 環境データ {#env}
 
-| Attribute name | 属性の説明 | サンプル値 |
+| 属性名 | 属性の説明 | サンプル値 |
 | --- | --- | --- |
-| ブラウザー - 曜日 | 訪問者がアクティビティにアクセスした曜日。 | 0~6。<br>（0は日曜日） |
-| ブラウザー-時間帯 | 訪問者がアクティビティにアクセスした時間。 | 0 to 23<br>(0 is midnight) |
-| ブラウザー-時間帯 | 訪問者がアクティビティにアクセスした時間。 | 0 to 168<br>(Sunday midnight is 0) |
-| ブラウザー - 言語設定 | アクティビティへのアクセスに使用された訪問者のブラウザーで指定された言語。 | English<br>German |
-| ブラウザー-画面の高さ（px） | アクティビティにアクセスするために使用されるデバイスのブラウザー画面の高さ（ピクセル単位）。 | 1、2、3など |
-| ブラウザー-時間帯 | 訪問者がアクティビティにアクセスしたときのブラウザーの時刻。 | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
-| ブラウザー - タイムゾーン | アクティビティにアクセスする際の訪問者のタイムゾーン。 | Pacific Time<br>Eastern Time<br>GMT |
-| ブラウザー - タイプ | アクティビティへのアクセス中に訪問者が使用したブラウザーのタイプ。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| ブラウザー-平日/週末 | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の無料時間）。 | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
-| ブラウザー-ウィンドウの高さ（px） | アクティビティへのアクセスに使用されるブラウザーのウィンドウの高さ（ピクセル単位）。 | 1、2、3など |
-| ブラウザー-ウィンドウの幅（px） | アクティビティへのアクセスに使用されるブラウザーのウィンドウの幅（ピクセル単位）。 | 1、2、3など |
-| デバイス-画面の高さ | 訪問者がアクティビティにアクセスするために使用したデバイスの画面の高さ。 | 1、2、3など |
-| デバイス-画面の幅 | アクティビティへのアクセスに使用されたデバイスの画面の幅。 | 1、2、3など |
-| オペレーティングシステム | アクティビティにアクセスするために使用される訪問者のデバイス上のオペレーティングシステム。 | Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS |
-| オペレーティングシステム-バージョン | アクティビティにアクセスするために訪問者が使用したオペレーティングシステムのバージョン。 | Windows 10<br>Mac OS 10 |
-| トラフィックソース-参照ランディングページURL | 訪問者がサイトにアクセスした最初のページ。 | `https://www.adobe.com/ecloud.html` |
+| Browser - Day of Week | 訪問者がアクティビティにアクセスしたときの曜日。 | 0 ～ 6。<br>（0 は日曜日） |
+| Browser - Hour of Day | 訪問者がアクティビティにアクセスしたときの時刻。 | 0 ～ 23<br>（0 は午前 0 時） |
+| Browser - Hour of Week | 訪問者がアクティビティにアクセスしたときの週の時間。 | 0 ～ 168<br>（日曜日午前 0 時は 0） |
+| Browser - Language Setting | 訪問者がアクティビティへのアクセスに使用したブラウザーで指定された言語。 | English<br>German |
+| Browser - Screen Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザー画面の高さ（ピクセル単位）。 | 1、2、3、など。 |
+| Browser - Time of Day | 訪問者がアクティビティにアクセスしたときのブラウザーの時間。 | 0, 6, 12, 18<br>（0 は夜、6 は朝、<br>12 は午後、18 は夜） |
+| Browser - Timezone | 訪問者がアクティビティにアクセスしたときのタイムゾーン。 | Pacific Time<br>Eastern Time<br>GMT |
+| Browser - Type | 訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| Browser - Weekday/Weekend | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の自由時間）。 | 土曜日および日曜日は週末<br>月曜日～金曜日の 0900 ～ 1800 は勤務時間<br>月曜日～金曜日の 1800 以降 0900 までは平日の自由時間 |
+| Browser - Window Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの高さ（ピクセル単位）。 | 1、2、3、など。 |
+| Browser - Window Width (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの幅（ピクセル単位）。 | 1、2、3、など。 |
+| Device - Screen Height | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の高さ。 | 1、2、3、など。 |
+| Device - Screen Width | 訪問者がアクティビティへのアクセスに使用したデバイスの画面の幅。 | 1、2、3、など。 |
+| オペレーティングシステム | 訪問者がアクティビティへのアクセスに使用したデバイスのオペレーティングシステム。 | Mac OS<br>Windows<br>Linux<br>Search Bot<br>OS Unknown |
+| Operating System - Version | 訪問者がアクティビティへのアクセスに使用したオペレーティングシステムのバージョン。 | Windows 10<br>Mac OS 10 |
+| Traffic Sources - Referring Landing Page URL | サイトにアクセスした際に訪問者が見た最初のページ。 | `https://www.adobe.com/ecloud.html` |
 
-## Geographical data {#geo}
+## 地理データ {#geo}
 
-| Attribute name | 属性の説明 | サンプル値 |
+| 属性名 | 属性の説明 | サンプル値 |
 | --- | --- | --- |
-| 地域-市区町村 | 訪問者がアクティビティにアクセスした市区町村。 | San Francisco |
-| 地域-国 | 訪問者がアクティビティにアクセスした国。 | ドイツ |
-| 地域- DMA | 訪問者がアクティビティにアクセスした指定販売地域（DMA）。 | Charlottesville |
-| 地域-緯度 | 訪問者がアクティビティにアクセスした緯度。 | 47.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy) |
-| 地域-経度 | 訪問者がアクティビティにアクセスした経度。 | -122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy) |
-| 地域-州/地域 | 訪問者がアクティビティにアクセスした州または地域。 | Utah<br>New South Wales |
-| 地域-郵便番号 | 訪問者がアクティビティにアクセスした郵便番号。 | 84004 |
-| モバイル-通信事業者 | アクティビティにアクセスしたときに訪問者が使用した携帯電話会社。 | Vodafone<br>T-Mobile |
-| ネットワーク-接続速度 | 訪問者がアクティビティにアクセスしたときのデバイスのネットワーク接続速度。 | Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite |
-| ネットワーク-ドメイン名 | 訪問者がアクティビティにアクセスしたネットワークドメインの名前。 | `nnt.net` |
-| ネットワーク- ISP | 訪問者がアクティビティにアクセスしたネットワーク。 | nnt通信会社 |
+| Geo - City | アクティビティにアクセスした訪問者のいる都市。 | サンフランシスコ |
+| Geo - Country | アクティビティにアクセスした訪問者のいる国。 | ドイツ |
+| Geo - DMA | アクティビティにアクセスした訪問者のいる Designated Marketing Area（DMA）。 | Charlottesville |
+| Geo - Latitude | アクティビティにアクセスした訪問者のいる緯度。 | 47.269<br>小数点以下 3 桁で四捨五入（約 100 m の精度） |
+| Geo - Longitude | アクティビティにアクセスした訪問者のいる経度。 | -122.269<br>小数点以下 3 桁で四捨五入（約 100 m の精度） |
+| Geo - State/Region | アクティビティにアクセスした訪問者のいる州または地域。 | Utah<br>New South Wales |
+| Geo - Zip Code | アクティビティにアクセスした訪問者のいる場所の郵便番号。 | 84004 |
+| Mobile - Carrier | 訪問者がアクティビティへのアクセスに使用した携帯電話会社 | Vodafone<br>T-Mobile |
+| Network - Connection Speed | 訪問者がアクティビティへのアクセスに使用したデバイスのネットワーク接続速度。 | Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite |
+| Network - Domain Name | 訪問者がアクティビティにアクセスしたときのネットワークドメインの名前。 | `nnt.net` |
+| Network - ISP | アクティビティにアクセスした訪問者のいるネットワーク。 | nnt communications corporation |
 
-## Session data {#session}
+## セッションデータ {#session}
 
-| Attribute name | 属性の説明 | サンプル値 |
+| 属性名 | 属性の説明 | サンプル値 |
 | --- | --- | --- |
-| 訪問者プロファイル-アクティビティのライフタイム注文値 | すべての訪問/セッションにわたるすべての注文値の合計を特定のアクティビティに指定します。 | 二重 |
-| 訪問者プロファイル-サイト滞在時間の有効期間 | 現在のセッションを除く訪問者の合計滞在時間を指定し、セッションの期限が切れると更新されます。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-アクティビティ中の訪問あたりの平均ページビュー数 | 現在のセッションを除く、セッションあたりの平均ページビュー数を指定します。 | 二重 |
-| 訪問者プロファイル - 訪問 1 回あたりの平均滞在時間 | 訪問別/セッション別の平均滞在時間を指定します。現在のセッションは含まれません。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-初回訪問 | ユーザーがTargetに対して行った最初の訪問の時間を指定します。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-前回の訪問からの時間 | この特定のアクティビティの最後の訪問からの時間を指定します。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
-| 訪問者プロファイル-場所/コンテンツのインプレッション | 特定のアクティビティの特定の場所/コンテンツの組み合わせに対するインプレッション数を指定します。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
-| 訪問者プロファイル-最後のターゲットインタラクション | Targetとの最後のインタラクションの時間を指定します。Targetの現在の実装ではリクエストごとにプロファイルが更新されるので、インタラクションはすべてのmboxリクエストで発生します。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-アクティビティ前に閲覧されたページ | 訪問者がアクティビティに入るまでの、現在の訪問/セッションを含む合計ページビュー数（インプレッション数）の数を指定します。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
-| 訪問者プロファイル-現在の訪問のページビュー | 訪問者がアクティビティに入るまで、現在の訪問/セッションでのページビュー数を指定します。より正確なインプレッション数。これらのインプレッションは、実際のページビューではありません。これは、リクエストがTargetに到達した回数です。Targetでは、タイムアウトや、ユーザーがコンテンツを受信または表示しなかった他の理由を区別できません。 | 倍（整数正の数のみ） |
-| 訪問者プロファイル-現在の訪問の開始 | Targetを使用した現在の訪問/セッションが開始された時間を指定します。Targetを使用した訪問は、アクティビティを入力せずに開始できます。必要なすべてのmboxを呼び出します。訪問者は、アクティビティに入るまでしばらくかかる場合があります。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル - 最新の訪問の開始 | Targetを使用した最後の訪問/セッションの開始時間を指定します。この属性は、セッションの期限が切れると更新されます。<br>これが訪問者の最初のセッションであれば、 `LAST_SESSION_START = 0.` | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-最初の入力のアクティビティ時に前回の訪問から開始 | 前回のセッションとユーザーがアクティビティに入る時間との間の期間を指定します。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル-アクティビティを入力する前に訪問する時間 | Targetとの最後のインタラクションと現在の訪問が開始したときの違いを指定します。この属性は、ユーザーがアクティビティに参加してスナップショットが実行されるまで、訪問回数/セッション期間と見なすことができます。<br>負の値は、セッション開始時および最後の更新時間が同じmbox呼び出しによってトリガーされたときに発生します。除外値は0（ゼロ）と見なす必要があります。 | 倍精度浮動小数点数（ミリ秒） |
-| 訪問者プロファイル - 合計訪問回数 | 訪問回数/セッション数の合計を指定します。現在の訪問/セッションは含まれません。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
-| 訪問者プロファイル-アクティビティへの合計訪問回数 | 特定のアクティビティへの訪問回数を指定します。以前の訪問がない場合は、0（ゼロ）を返します。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
-| 訪問者プロファイル-コンバージョンによるアクティビティへの合計訪問回数 | 訪問中に1つ以上のコンバージョンがあった場合に特定のアクティビティに対する訪問回数/セッション数を指定します。 | 二重 |
-| 訪問者プロファイル-コンバージョンなしのアクティビティへの訪問 | 特定のアクティビティへのコンバージョンなしの訪問回数/セッション数。この値は変換後はゼロにリセットされ、変換が起こらない場合は-1にリセットされます。 | 倍精度浮動小数点数（整数のみ）1、2、3など |
+| Visitor Profile - Activity Lifetime Order Value | 特定のアクティビティに対するすべての訪問／セッションのすべての注文の値の合計を指定します。 | ダブル |
+| Visitor Profile - Activity Lifetime Time on Site | 訪問者のサイトでの合計滞在時間を指定します（現在のセッションを除く）。セッションの有効期限が切れると更新されます。 | ダブル、ミリ秒 |
+| Visitor Profile -Average Page Views per Visit during Activity | セッションあたりの平均ページビュー数を指定します（現在のセッションを除く）。 | ダブル |
+| Visitor Profile - Average Time per Visit | 訪問／セッションあたりの平均滞在時間を指定します。これには現在のセッションは含まれません。 | ダブル、ミリ秒 |
+| Visitor Profile - First Visit | ユーザーが Target とやり取りした最初の訪問の時間を指定します。 | ダブル、ミリ秒 |
+| Visitor Profile - Hours since Last Visit | このアクティビティへの最後の訪問からの経過時間を指定します。 | ダブル（正の整数のみ）1、2、3 など |
+| Visitor Profile - Impressions of Location/Content | 特定のアクティビティでの特定の場所／コンテンツの組み合わせに対するインプレッション数を指定します。 | ダブル（正の整数のみ）1、2、3 など |
+| Visitor Profile - Last Target Interaction | Target との最後のやり取りの時間を指定します。Target の現在の実装はリクエストごとにプロファイルを更新するので、やり取りは mbox リクエストごとに発生します。 | ダブル、ミリ秒 |
+| Visitor Profile - Pages Seen Before Activity | 合計ページビュー数（インプレッション）を指定します（訪問者がアクティビティに入るまでは、現在の訪問／セッションを含む）。 | ダブル（正の整数のみ）1、2、3 など |
+| Visitor Profile - Page Views in Current Visit | 訪問者がアクティビティに入るまでの、現在の訪問／セッションのページビュー数を指定します。もっと正確に言えば、インプレッション数です。これらのインプレッション数は、実際のページビュー数ではなく、リクエストが Target に到達した回数です。Target では、タイムアウトやユーザーがコンテンツを受け取らなかった／表示したその他の理由を区別できません。 | ダブル（正の整数のみ） |
+| Visitor Profile - Start of Current Visit | Target を使用した現在の訪問／セッションが開始した時間を指定します。Target を使用した訪問は、アクティビティに入らなくても開始できます。必要なのは任意の mbox への呼び出しだけです。訪問者は、アクティビティに入り、スナップショットが取られるまで時間がかかる可能性があります。 | ダブル、ミリ秒 |
+| Visitor Profile - Start of Most Recent Visit | Target を使用した最後の訪問／セッションが開始した時間を指定します。この属性は、セッションの有効期限が切れると更新されます。<br>これが訪問者にとっての最初のセッションの場合、結果は `LAST_SESSION_START = 0.` になります。 | ダブル、ミリ秒 |
+| Visitor Profile - Time Since Most Recent Visit When First Enter Activity | 以前のセッションとユーザーがアクティビティに入ってスナップショットが実行されたときの間の期間を指定します。 | ダブル、ミリ秒 |
+| Visitor Profile - Time in Visit Before Enter Activity | Target との最後のやり取りと現在の訪問が開始したときの間の差を指定します。この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br>セッションが開始して最後の更新時間が同じ mbox 呼び出しでトリガーされる場合、負の値になります。負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 |
+| 訪問者プロファイル - 合計訪問回数 | 訪問／セッションの合計数を指定します。現在の訪問／セッションは含まれません。 | ダブル（正の整数のみ）1、2、3 など |
+| Visitor Profile - Total Visits to Activity | 特定のアクティビティへの訪問数を指定します。以前の訪問がない場合、0（ゼロ）を返します。 | ダブル（正の整数のみ）1、2、3 など |
+| Visitor Profile - Total Visits to Activity with Conversion | 訪問中に少なくとも 1 つのコンバージョンがある場合の、特定のアクティビティへの訪問／セッションの数を指定します。 | ダブル |
+| Visitor Profile - Visits to Activity with No Conversion | 特定のアクティビティに対するコンバージョンがない訪問／セッションの数。この値は、コンバージョンの後に 0 にリセットされます。または、コンバージョンが発生しなかった場合、-1 になります。 | ダブル（正の整数のみ）1、2、3 など |
