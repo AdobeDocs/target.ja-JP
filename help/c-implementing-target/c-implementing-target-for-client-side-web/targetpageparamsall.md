@@ -1,6 +1,6 @@
 ---
 description: 'at.js のtargetPageParamsAll() 関数について説明します。 '
-keywords: targetPageParamsAll;targetpageparamsall;pageParamsAll;pageparamsall;page params;pageパラメーター、at. js;関数、関数
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page params;page parameters;at.js;function;function
 seo-description: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
 solution: 'Target '
