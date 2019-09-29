@@ -47,7 +47,7 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 Analytics によるアクティビティのレポートを作成または表示する前に、**[!UICONTROL 全てのレポートアクセス]**&#x200B;グループのメンバー、または使用したいレポートスイート内の少なくとも1つのレポートにアクセスできるグループのメンバーである必要があります。レポートを表示できない場合は、これらのいずれかのグループのメンバーであることを確認してください。
 
-For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+詳しくは、「製品のプロファイルとグ [ループ」を参照してください](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
 
 ### Web サービスアクセスグループへのアクセスの設定
 
