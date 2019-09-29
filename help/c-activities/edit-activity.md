@@ -19,29 +19,29 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 Target では、UI 内の様々な場所で既存のアクティビティを編集できます。編集方法によって手順は変わります。
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## アクティビティページでボタンの上にマウスポインターを置いてアクティビティを編集 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. **[!UICONTROL アクティビティ]**&#x200B;ページで編集するアクティビティにカーソルを合わせ、**編集[!UICONTROL アイコンをクリックします。]**
+1. **[!UICONTROL アクティビティ]**&#x200B;ページで編集するアクティビティにマウスポインターを置いて、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    ![編集アイコン](/help/c-activities/assets/hover_edit.png)
 
-   TargetはVisual Experience Composer（VEC）でアクティビティを開き、 [!UICONTROL エクスペリエンス] ページ（3ステップのガイドのワークフローの最初の手順）を表示します。
+   Visual Experience Composer（VEC）でアクティビティが開き、[!UICONTROL エクスペリエンス]ページが表示されます（3 ステップのガイドによるワークフローの最初の手順）。
 
-1. [VECオプションを使用して、アクティビティを編集](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)します。
+1. [VEC オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を使用して、目的に応じてアクティビティを編集します。
 
-1. 分割ボタンをクリックして次のステップに進むか、アクティビティを保存します。
+1. 分割ボタンを使用して、次の手順に進むか、アクティビティを保存します。
 
-   !["Split"ボタン](/help/c-activities/assets/edit_split_button_2.png)
+   ![分割ボタン](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **次へ：** 3 ステップのワークフローの別のページを編集する場合は、「**[!UICONTROL 次へ]」をクリックして目的のステップに進みます。**&#x200B;例えば、上記の図では、「[!UICONTROL 次へ]」をクリックすると「ターゲット設定」のステップが表示されます。
+   * **次へ：** 3 ステップのワークフローの別のページを編集する場合は、「**[!UICONTROL 次へ]**」をクリックして目的のステップに進みます。例えば、上記の図では、「[!UICONTROL 次へ]」をクリックすると「[!UICONTROL ターゲット設定]」のステップが表示されます。
    * **保存して閉じる：**&#x200B;現在のステップで必要な変更を加え、スプリットボタンのドロップダウンをクリックして「**[!UICONTROL 保存して閉じる]**」を選択すると、変更内容が保存され、アクティビティの[!UICONTROL 概要]ページが表示されます。
    * **保存：**&#x200B;各ステップで必要な変更を加え、スプリットボタンのドロップダウンをクリックして「**[!UICONTROL 保存]」を選択すると、変更内容が保存されます。この場合は現在のステップに留まり、変更作業を続行できます。**&#x200B;保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## アクティビティページでアクティビティの名前をクリックしてアクティビティを開き、編集する {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. ワークフローのステップを進める代わりに、アクティビティページで目的のアクティビティをクリックして開き、**[!UICONTROL アクティビティを編集]ドロップダウンリストからオプションを選択することもできます。**
+1. ワークフローのステップを進める代わりに、アクティビティページで目的のアクティビティをクリックして開き、**[!UICONTROL アクティビティを編集]**&#x200B;ドロップダウンリストからオプションを選択することもできます。
 
-   ![アクティビティの編集ドロップダウン](/help/c-activities/assets/edit_activity.png)
+   ![アクティビティを編集ドロップダウン](/help/c-activities/assets/edit_activity.png)
 
 1. 選択できるオプションは次のとおりです。
 
@@ -60,9 +60,9 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
 
 
-## Recommendations Classicで作成された従来のアクティビティの使用 {#classic}
+## Recommendations Classicで作成した既存のアクティビティの操作 {#classic}
 
-[!UICONTROL アクティビティ] リストには、様々なソースで作成されたアクティビティが表示 [!DNL Recommendations Classic]されます。次のアクションは、で作成した既存のアクティビティを操作する際に使用 [!DNL Recommendations Classic]できます。
+「アクテ [!UICONTROL ィビティ] 」リストには、を含む様々なソースで作成されたアクティビティが表示され [!DNL Recommendations Classic]ます。 で作成した既存のアクティビティを使用する場合は、次の操作を実行できま [!DNL Recommendations Classic]す。
 
 * [!UICONTROL アクティブ化]
 * [!UICONTROL 非アクティブ化]
@@ -70,9 +70,9 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 * [!UICONTROL コピー]
 * [!UICONTROL 削除]
 
-[!DNL Recommendations] アクティビティを直接編集することはできません。アクティビティを編集する場合は、アクティビティ [!DNL Target Premium] のコピーを作成してから、新しく作成したアクティビティを保存します。この新しいアクティビティは、必要に応じて編集できます。
+アクティビティを直接編集す [!DNL Recommendations] ることはできません。 アクティビティを編集する場合は、を使用してアクティビティのコピーを作成し、新しく作成したア [!DNL Target Premium] クティビティを保存する必要があります。 この新しく作成されたアクティビティは、必要に応じて編集できます。
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## アクティビティをドラフトとして保存する {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 まだ保存されていない新しいアクティビティを作成しているときや、以前にドラフトとして保存されたアクティビティを編集しているときは、スプリットボタンに「ドラフトを保存」オプションが表示されます。
 
@@ -81,7 +81,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 1. 新しいアクティビティを作成するか、ドラフト形式の既存のアクティビティを編集します。
 1. スプリットボタンから目的のオプションを選択します。
 
-   ![ドラフトを保存](/help/c-activities/assets/save_draft.png)
+   ![ドラフトとして保存](/help/c-activities/assets/save_draft.png)
 
    * **次へ：** 3 ステップのワークフローの別のページを編集する場合は、「**[!UICONTROL 次へ]」をクリックして目的のステップに進みます。**
    * **ドラフトを保存して閉じる：**&#x200B;現在のステップで必要な変更を加え、スプリットボタンのドロップダウンをクリックして「**[!UICONTROL ドラフトを保存して閉じる]**」を選択すると、変更内容が保存され、アクティビティの[!UICONTROL 概要]ページが表示されます。
@@ -99,7 +99,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
 ワークスペースと Enterprise ユーザーの権限の機能について詳しくは、[Enterprise ユーザーの権限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL アクティビティ]ページで、コピーするアクティビティにカーソルを合わせて[!UICONTROL コピー]アイコンをクリックした後、ドロップダウンリストから対象のワークスペースを選択します。
+環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL アクティビティ]ページで、コピーするアクティビティにマウスポインターを置いて[!UICONTROL コピー]アイコンをクリックした後、ドロップダウンリストから対象のワークスペースを選択します。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
