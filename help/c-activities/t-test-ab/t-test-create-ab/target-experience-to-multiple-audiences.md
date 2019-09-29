@@ -13,7 +13,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 ---
 
 
-# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
+# A/B テストの複数のエクスペリエンスオーディエンス{#multiple-experience-versions-in-an-a-b-test}
 
 A/B アクティビティで、同じエクスペリエンスの複数バージョンをそれぞれ異なるオーディエンスにターゲット設定することができます。Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
 
@@ -35,9 +35,9 @@ A/B アクティビティで、同じエクスペリエンスの複数バージ�
 
    複数のバージョンを持つエクスペリエンスを設定する際に、次の手順のようにして各バージョンのオーディエンスを選択します。
 
-1. Select the experience, then click **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
+1. エクスペリエンスを選択し、**[!UICONTROL 設定]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
 
-   ![複数のオーディエンスオプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![「複数のオーディエンス」オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. 「**[!UICONTROL オーディエンスを追加]**」をクリックし、ターゲットにしたい最初のオーディエンスを選択します。各オーディエンスについて繰り返します。
 
