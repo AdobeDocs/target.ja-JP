@@ -23,27 +23,27 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Recommendations] は [Target Premium 機能](/help/c-intro/intro.md#premium)です。
    >
-   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
+   >様々なアクティビティタイプについて詳しくは、[アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)および [Target アクティビティのガイド](/help/c-activities/target-activities-guide.md)を参照してください。
 
-   ![A/Bテスト用文字の作成](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![A/B テストアクティビティの作成](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 必要に応じて、「**[!UICONTROL ビジュアル (デフォルト)]**」を選択します。
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECおよびフォームベースのExperience Composerに加えて、Targetは単一ページアプリケーションVECおよびVEC forモバイルアプリを提供します。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >VEC およびフォームベースの Experience Composer に加えて、Target はシングルページアプリケーション VEC およびモバイルアプリ向け VEC を提供します。様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、組織にTarget Standardライセンスがあります。
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. （条件付き）[Target Premium](/help/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
-1. [アクティビティURLを指定](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)し、「 **[!UICONTROL 次へ]**」をクリックします。
+1. [アクティビティ URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定してから、「**[!UICONTROL 次へ]**」をクリックします。
 
    アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。デフォルトの URL を別の URL に変更できます。
 
@@ -53,7 +53,7 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
 1. 用意されている領域に、アクティビティの名前を入力します。
 
-   ![名前フィールド](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
+   ![「名前」フィールド](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
    次の文字はアクティビティ名として入力できません。
 
@@ -74,13 +74,13 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
    [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加と変更について詳しくは、[エクスペリエンスの追加](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00).エクスペリエンス B を変更するには、ステップ 3 から始めます。
 
-1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
+1. [!UICONTROL Visual Experience Composer] の上部にある&#x200B;**[!UICONTROL ターゲット設定]**&#x200B;をクリックして、3 ステップのガイドによるワークフロー内の次のステップに移ります。
 
    フロー図が開きます。
 
-   ![A/Bテストターゲットステップ](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
+   ![A/B テストのターゲット設定手順](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
-   フロー図を使用すると、アクティビティに対するオーディエンスの選択、およびエクスペリエンスの設定を順に実行できます。
+   フロー図を使用すると、アクティビティに対するオーディエンスの選択およびエクスペリエンスの設定を順に実行できます。
 1. [!UICONTROL オーディエンス]ボックスで編集アイコンをクリックし、アクティビティの[オーディエンスを選択](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)します。
 
    デフォルトで、オーディエンスはすべての訪問者に設定されています。
@@ -97,18 +97,18 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
    目的のトラフィック配分方法を選択します。
 
-   * **[!UICONTROL 手動（デフォルト）]**:各エクスペリエンスを表示する参加者の割合を指定します。この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。
+   * **[!UICONTROL 手動（デフォルト）]**：各エクスペリエンスを表示する参加者の割合を指定します。この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。
 
-   * **[!UICONTROL 最高のエクスペリエンスへの自動配分]**:ほとんどのアクティビティ参加者は、パフォーマンスの高いエクスペリエンスに自動的に誘導されます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。[自動トラフィック配分](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
+   * **[!UICONTROL 最良のエクスペリエンスに自動配分]**：ほとんどのアクティビティ参加者がパフォーマンスの高いエクスペリエンスに自動的にリダイレクトされます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。[自動トラフィック配分](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
 
-   * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**:Targetは高度な機械学習アルゴリズムを使用して、目標を最大化するために、訪問者を自動的に最適なエクスペリエンスに誘導します。詳しくは、[自動ターゲットで最適化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)を参照してください。
+   * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**：Target は高度な機械学習アルゴリズムを使用して、目標を最大化できるよう訪問者を自動的に最適なエクスペリエンスに関連付けます。詳しくは、[自動ターゲットで最適化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)を参照してください。
    「**[!UICONTROL エクスペリエンスを追加]」をクリックして別のエクスペリエンスをアクティビティに追加することもできます。**
 
 1. オーディエンスとエクスペリエンスの選択が完了したら、「**[!UICONTROL 次へ]**」をクリックして、3 ステップのガイドによるワークフロー内の 3 番目のステップに移ります。
 
 1. アクティビティの[目標と設定](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)を指定します。
 
-   ![A/Bアクティビティの設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+   ![A/B アクティビティ設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
