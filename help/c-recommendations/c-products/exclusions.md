@@ -1,8 +1,8 @@
 ---
 description: 除外リストを作成すると、品目がレコメンデーションされないようにできます。
 keywords: 除外
-seo-description: Adobe Targetで除外リストを作成して、品目のレコメンデーションを防ぎます。
-seo-title: Adobe Targetの除外
+seo-description: Adobe targetで除外リストを作成し、品目がレコメンデーションされないようにします。
+seo-title: Adobe targetでの除外
 solution: 'Target '
 title: 除外
 topic: Premium
@@ -21,7 +21,7 @@ source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
-**除外を作成するには:**
+**除外を作成するには：**
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL 除外]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
@@ -49,15 +49,15 @@ source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 [名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
 
-「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは [、カタログ検索](/help/c-recommendations/c-products/catalog-search.md)を参照してください。
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは、カタログ検索を参照 [してください](/help/c-recommendations/c-products/catalog-search.md)。
 
 >[!IMPORTANT]
 >
 >詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にして除外を作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を除外することを目的とした除外を作成すると、「holiday」を含む商品のみが除外されます。「Holiday」を含む商品は除外されません。
 
-## トレーニングビデオ:Recommendationsでのコレクションと除外の作成（7:05）
+## トレーニングビデオ：Recommendationsでのコレクションと除外の作成(7:05)
 
-このビデオには、次の情報が含まれています。
+このビデオでは、次の情報を提供しています。
 
 * コレクションの作成
 * 除外の作成
