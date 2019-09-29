@@ -43,6 +43,6 @@ mboxPC={123456}” border=“0"/>
 | clientcode | お客様のクライアントコード。at.js または mbox.js の `clientCode='yourclientcode'` を確認してください。このコードはすべて小文字で表され、特殊文字は含みません。 |
 | image | オファータイプ。常に、グラフィック広告の場合は「image」、リダイレクターの場合は「page」になります。 |
 | email_header | adbox の名前。 |
-| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必須。URLをadboxの適切なデフォルトコンテンツに置き換えます。これには絶対参照を指定し、URL エンコードする必要があります。 |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必須。URL を adbox の適切なデフォルトコンテンツに置き換えます。これには絶対参照を指定し、URL エンコードする必要があります。 |
 | `mboxXDomain=disabled` | cookie を設定しないよう Target に指示します。 |
 | `mboxSession=123456` および `mboxPC=123456` | このユーザーのプロファイルをサイトの既存のプロファイルと結合するために Target で必要な 2 つの値です。123456 は、電子メールごとに生成される一意の識別子です。この値は、すべての adbox およびリダイレクターの URL に動的に挿入します。この数字は、各受信者に送信される電子メールごとに一意である必要があります。毎週 1,000 人の受信者に電子メールを送信する場合は、一意の ID を 1,000 個生成する必要があります。<br>それぞれの電子メールの一意の識別子を、各 adbox およびリダイレクターの URL の mboxSession と mboxPC に割り当てる必要があります。この識別子に推奨される形式は、timestamp-NNNNN です。NNNNN はランダムな 5 桁の数字ですが、任意の英数字の形式も使用できます。大規模な電子メールサービスおよびプログラミング言語の中には、この一意の識別子を生成できるものがあります。 |
