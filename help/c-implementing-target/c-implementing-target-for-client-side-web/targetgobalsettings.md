@@ -1,6 +1,6 @@
 ---
 description: 'at.js の targetGlobalSettings() 関数について説明します。 '
-keywords: targetGlobalSettings;targetglobalsettings;GlobalSettings;globalsettings;グローバル設定;at. js;関数、関数;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;オプトアウト;selectorPolicyTimeout;dataProviders
+keywords: targetGlobalSettings;targetglobalSettings;globalSettings;globalsettings;globalsettings;global settings;at.js;function;clientcode;serverDomain;serverdomain;cookieDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHidenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviders
 seo-description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 solution: 'Target '
@@ -29,9 +29,9 @@ source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 | serverDomain | 文字列 | UI から設定された値 | Target エッジサーバーを表します。 |
 | cookieDomain | 文字列 | 可能であればトップレベルドメインに設定 | Cookie の保存時に使用するドメインを表します。 |
 | crossDomain | 文字列 | UI から設定された値 | クロスドメイントラッキングが有効になっているかどうかを表します。<br>使用できる値は次のとおりです。<ul><li>無効</li><li>有効</li><li>x のみ</li></ul> |
-| timeout | 数値 | UI から設定された値 | Target エッジリクエストのタイムアウト |
+| timeout | 数値  | UI から設定された値 | Target エッジリクエストのタイムアウト |
 | globalMboxAutoCreate | ブール値 | UI から設定された値 | グローバル mbox リクエストを実行するかどうかを示します。 |
-| visitorApiTimeout | 数値 | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
+| visitorApiTimeout | 数値  | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
 | 有効 | ブール値 | true |  at.js がライブラリとして有効になっているか、つまりこのライブラリが何らかの処理を実行するかどうかを示します。この設定は主に、cookie のオプトアウトや、その他 at.js の機能をカスタムに無効にする場合に使用します。 |
 | defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
 | defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
@@ -40,9 +40,9 @@ source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 | imsOrgId | 文字列 | IMS ORG ID | IMS ORG ID を表します。 |
 | secureOnly | ブール値 | false | at.js で HTTPS のみを使用するか、ページのプロトコルに基づいて HTTP と HTTPS との切り替えを許可するかを示します。 |
 | overrideMboxEdgeServer | ブール値 | true（at.js バージョン 1.6.2 以降） | `<clientCode>.tt.omtrdc.net` ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。<br>この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは cookie に保存されます。 |
-| overrideMboxEdgeServerTimeout | 数値 | 1860000 =&gt; 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
+| overrideMboxEdgeServerTimeout | 数値  | 1860000 =&gt; 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
 | optoutEnabled | ブール値 | false | Target が訪問者 API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。これは、デバイスグラフ有効化の一部です。 |
-| selectorsPollingTimeout | 数値 | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
+| selectorsPollingTimeout | 数値  | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
 | dataProviders | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 |
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
@@ -82,7 +82,7 @@ window.targetGlobalSettings = {
 |--- |--- |--- |
 | name | 文字列 | プロバイダーの名前。 |
 | version | 文字列 | プロバイダーのバージョン。このキーはプロバイダーの展開に使用されます。 |
-| timeout | 数値 | ネットワークリクエストの場合は、プロバイダーのタイムアウトを表します。このキーはオプションです。 |
+| timeout | 数値  | ネットワークリクエストの場合は、プロバイダーのタイムアウトを表します。このキーはオプションです。 |
 | provider | 関数 | プロバイダーデータの取得ロジックを含む関数。<br>この関数の必須パラメーターは `callback` のみです。この callback パラメーターは、データを適切に取得した場合またはエラーが発生した場合にのみ呼び出す必要があります。<br>このコールバックは、次の 2 つのパラメーターを受け取ります。<ul><li>error：エラーの有無を表します。エラーがない場合、このパラメーターは null に設定されます。</li><li>params：Target リクエストで送信されるパラメーターを表す JSON オブジェクト。</li></ul> |
 
 データプロバイダーで同期実行を使用する場合の例は次のとおりです。
