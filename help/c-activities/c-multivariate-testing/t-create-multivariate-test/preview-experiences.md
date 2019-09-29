@@ -24,9 +24,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. リストでエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 
-1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
+1. 多変量分析テストから 1 つ以上のエクスペリエンスを除外するには、目的のチェックボックスをオンにしてから、「**[!UICONTROL 除外]**」をクリックします。
 
-   ![エクスペリエンスの除外](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+   ![エクスペリエンスを除外](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
