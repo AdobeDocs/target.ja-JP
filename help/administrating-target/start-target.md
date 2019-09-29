@@ -22,7 +22,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 [!DNL Adobe Admin Console] のシステム管理者は、参加させたいひとを招待することで [!DNL Target] にユーザーとして追加する必要があります。次に、システム管理者が、1 つ以上の役割用のグループに追加する必要があります。これらの作業は、共に [Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、Experience [Cloudおよびコアサービスヘルプ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) のExperience *Cloudユーザーおよび製品の管理*&#x200B;を参照してください。
+詳しくは、 [Experience cloudとコアサービスヘルプのExperience cloudユ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) ーザーと製品の管理 *(*&#x200B;英語のみ)を参照してください。
 
 システム管理者がこれらの手順を実行すると、招待の電子メールが送信されます。
 
@@ -58,4 +58,4 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 お客様の組織が [Target Premium](/help/c-intro/intro.md#premium) ライセンスを所有している場合、*エンタープライズ権限の設定*&#x200B;の[手順 6：役割および権限の指定](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)を参照してください。
 
-次の手順では、Target Standard および Target Premium でユーザーを設定します。詳しくは、[ユーザー管理](/help/administrating-target/c-user-management/user-management.md)を参
+次の手順では、Target Standard および Target Premium でユーザーを設定します。詳しくは、[ユーザー管理](/help/administrating-target/c-user-management/user-management.md)を参照してください。
