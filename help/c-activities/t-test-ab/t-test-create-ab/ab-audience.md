@@ -23,13 +23,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 「[!UICONTROL オーディエンス]」ボックスで、編集アイコン（縦並びの省略記号）をクリックしてから、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
 
-![オーディエンスを置換オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+![「オーディエンスを置換」オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
+デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択したり、[新しいオーディエンスを作成](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)したり、[アクティビティのみのオーディエンスを作成](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)したりできます。特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
 
-以下のように、[!UICONTROL オーディエンスを選択]ダイアログボックスで対象のオーディエンスにカーソルを合わせることで、オーディエンスを編集またはコピーすることもできます。オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。このホバー機能は、他のタイプのアクティビティでも利用できます。
+以下のように、[!UICONTROL オーディエンスを選択]ダイアログボックスで対象のオーディエンスにマウスポインターを置くことで、オーディエンスを編集またはコピーすることもできます。オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。このホバー機能は、他のタイプのアクティビティでも利用できます。
 
-![オーディエンスのポイント](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+![オーディエンスにマウスポインターを置く](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。「カスタムパラメーター」から mbox を選択し、必要なパラメーターを指定します。
 
@@ -43,7 +43,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![オーディエンスの割合](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-You can also choose to let Target [allocate traffic automatically](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+また、Target で[自動的にトラフィックを割り当てる](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)こともできます。
 
 ## トレーニングビデオ
 
