@@ -1,7 +1,7 @@
 ---
-description: Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスです。
+description: Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
-seo-description: Adobe Target Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスです。
+seo-description: Adobe Target Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 seo-title: エクスペリエンスを作成
 solution: 'Target '
 title: エクスペリエンスを作成
@@ -13,9 +13,9 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 ---
 
 
-# Create experience{#create-experience}
+# エクスペリエンスの作成{#create-experience}
 
-[!UICONTROL Visual Experience Composer] （VEC）は [!UICONTROL 、エクスペリエンスターゲット設定] （XT）アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスです。
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. 変更する要素を選択し、必要な変更をおこないます。
 
@@ -23,21 +23,21 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
    ![すべての訪問者オーディエンス](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   今おこなった変更は、エクスペリエンス A に適用されます。以下の手順では、「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックして、追加のエクスペリエンスを作成します。
 
-   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。ハイライトされている要素は、VECを使用して変更できます。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。エクスペリエンスを変更するために要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
    If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >デフォルトでは、バナーの回転などJavaScriptを含む要素に対する変更は許可されません。JavaScriptを無効にして、VECを使用してこれらのエレメントを変更することができます。
+   >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。JavaScriptを無効にして、VECを使用してこれらの要素を変更できます。
 
 1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
-   ![エクスペリエンスターゲット設定のリンクの追加](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![エクスペリエンスのターゲットを追加リンク](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. オーディエンスにエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
+   [!UICONTROL オーディエンスを選択]ダイアログボックスが表示されます。オーディエンスに対してエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
 
    The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -45,35 +45,35 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
    >
    >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。[!UICONTROL 「カスタム] （オーディエンスを作成/ルールを追加/カスタム）」で、mboxを選択し、目的のパラメーターを指定します。
+   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。[!UICONTROL カスタム]（オーディエンスを作成／ルールを追加／カスタム）で、mbox を選択してから、必要なパラメーターを指定します。
 
    >[!NOTE]
    >
    >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
 
-1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
+1. エクスペリエンスでターゲットとする 1 つ以上のオーディエンスを選択して、「**[!UICONTROL 完了]**」をクリックします。
 
    ![エクスペリエンス B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   エクスペリエンスBが前の図に表示され、このエクスペリエンスが米国の訪問者のオーディエンスをターゲットにしていることがわかります。
+   前述の図にエクスペリエンス B が表示され、このエクスペリエンスが米国の訪問者オーディエンスをターゲットとしていることがわかります。
 
-1. このエクスペリエンスに変更する要素を選択し、上記の手順1で説明した変更を行います。
+1. 前述の手順 1 で説明したように、このエクスペリエンス用に変更する要素を選択し、必要な変更をおこないます。
 
-1. 上記の手順を繰り返して、必要に応じてターゲット設定したエクスペリエンスを追加します。
+1. 必要に応じて、前述の手順を繰り返して、追加のターゲット設定されたエクスペリエンスを作成します。
 
-1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
+1. エクスペリエンスのデザインが終了したら、「**[!UICONTROL 次へ]**」をクリックします。
 
    アクティビティ図が表示されます。
 
-   ![XTターゲティング図](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![XT ターゲット設定の図](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
    >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
-1. （オプション） XTアクティビティを作成または編集中にオーディエンス/エクスペリエンスのペアをドラッグ&amp;ドロップして、ペアを目的の順序で並べ替えます。
+1. （条件付き）XT アクティビティの作成または編集時に、オーディエンス／エクスペリエンスのペアをドラッグ＆ドロップして順番を変更します。
 
-   訪問者は、上から下に順にエクスペリエンスの評価を行います。
+   訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。
 
    ![エクスペリエンスの移動](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
@@ -81,30 +81,30 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
    例えば、順番が重要であることを知らずに、XT アクティビティを作成したとします。その場合、エクスペリエンス B または C の条件に該当すると思っていた訪問者が、エクスペリエンス A に該当することになっていることに後で気が付くことがあります。こうした問題が生じるのは、各オーディエンスが相互に排他的ではなく、適切な順番になっていないことが原因です。例えば、エクスペリエンス A が米国、エクスペリエンス B がサンフランシスコ、エクスペリエンス C がカリフォルニアになっているとします。この例では、米国のユーザーは、サンフランシスコ在住でもカリフォルニアの他の地域在住でも、すべてエクスペリエンス A に該当することになります。オーディエンス／エクスペリエンスのペアは、アクティビティ全体を作り直さなくても、条件が狭い方から順に並べ替えることができます（この例では、サンフランシスコ &gt; カリフォルニア &gt; 米国）。
 
-   [!UICONTROL すべての訪問者] のオーディエンスがある場合は、図の最初のオーディエンスではないことを確認してください。ターゲット設定アクティビティで最後のエクスペリエンスとして「すべての訪問者」をターゲットに設定しているエクスペリエンスを使用すると、他のどのエクスペリエンスにも該当しない訪問者を「捕捉」することができます。
+   [!UICONTROL すべての訪問者]オーディエンスがある場合、この図で最初のオーディエンスでないことを確認します。ターゲット設定アクティビティで最後のエクスペリエンスとして「すべての訪問者」をターゲットに設定しているエクスペリエンスを使用すると、他のどのエクスペリエンスにも該当しない訪問者を「捕捉」することができます。
 
-## エクスペリエンスの名前変更または編集
+## エクスペリエンスの名前の変更または編集
 
-You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
+必要に応じて、XT アクティビティのエクスペリエンスの[!UICONTROL 編集]アイコン（縦並びの省略記号）をクリックして、以下のオプションから選択できます。
 
 * 名前変更
 * 編集
 
-![名前変更および編集オプション](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+![名前の変更および編集オプション](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-## エクスペリエンスの削除
+## エクスペリエンスを削除する
 
-**[!UICONTROL エクスペリエンス]** ページ（3ステップガイドのワークフローの最初の手順）で、3つの垂直方向の楕円/ **[!UICONTROL 削除をクリック]**&#x200B;します。
+**[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 削除]**&#x200B;をクリックします。
 
-![エクスペリエンスの削除](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
+![エクスペリエンスを削除](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## エクスペリエンスの複製
 
-エクスペリエンスをXTアクティビティでコピーすると、エクスペリエンスをゼロから再作成することなく、わずかな変更を加えることができます。
+XTアクティビティのエクスペリエンスをコピーして、最初からエクスペリエンスを再作成しなくても、そのエクスペリエンスに小さな変更を加えることができます。
 
 **[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]**&#x200B;をクリックします。
 
-![エクスペリエンスの複製](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+![エクスペリエンスを複製](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## トレーニングビデオ：
 
@@ -130,7 +130,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386?captions=jpn)
 
-### Visual Experience Composerの使用
+### Visual Experience Composer の使用
 
 このビデオでは、Visual Experience Composer のオプションの使用に関する情報を提供しています。
 
