@@ -1,8 +1,8 @@
 ---
-description: Adobe Targetで多変量分析テストアクティビティを作成および実行する際に発生する可能性のある、パフォーマンスの向上、問題の回避、既知の問題の修正に役立つヒントです。
-keywords: mvt、多変量分析テスト、多変量分析テストのベストプラクティスmvtベストプラクティス、mvtの組み合わせ、mvtレポート
-seo-description: Adobe Targetで多変量分析テストアクティビティを作成および実行する際に発生する可能性のある、パフォーマンスの向上、問題の回避、既知の問題の修正に役立つヒントです。
-seo-title: 多変量分析テストにおけるAdobe Targetを使用したベストプラクティス
+description: Adobe Target で多変量分析テストアクティビティを作成および実行する際の、パフォーマンスの向上、問題の回避、発生する可能性がある既知の問題の修正に役立つヒントです。
+keywords: mvt;多変量分析テスト;多変量分析テストのベストプラクティス;mvtベストプラクティス;mvtの組み合わせ;mvt レポート
+seo-description: Adobe Target で多変量分析テストアクティビティを作成および実行する際の、パフォーマンスの向上、問題の回避、発生する可能性がある既知の問題の修正に役立つヒントです。
+seo-title: Adobe Target を使用した多変量分析テストのベストプラクティス
 solution: 'Target '
 title: 多変量分析テストのベストプラクティス
 topic: Standard
@@ -15,13 +15,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 多変量分析テストのベストプラクティス{#multivariate-test-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
+[!DNL Adobe Target] で多変量分析テスト（MVT）アクティビティを作成および実行する際の、パフォーマンスの向上、問題の回避、発生する可能性がある既知の問題の修正に役立つヒントです。
 
 ## 計画 {#section_4D4A1F6226F042379BF48DB753608579}
 
 * 有意な結果をもたらす可能性があるページの場所に注目します。
 
-   例えば、バナーやヒーロー画像は、フッターの変更よりも多くのコンバージョンにつながる可能性があります。テストに効果の低い場所を組み込むと、ページ上のより効果の高い場所をテストするのに必要なトラフィック量や時間が増えることになります。
+   例えば、バナーやメイン画像は、フッターを変更するよりも多くのコンバージョンにつながる可能性があります。テストに効果の低い場所を組み込むと、ページ上のより効果の高い場所をテストするのに必要なトラフィック量や時間が増えることになります。
 * 事前にページのバリエーションを準備します。
 
    各オファーのコンテンツの差異を把握し、MVT テストで使用する画像、テキストおよび HTML オファーを作成します。
@@ -30,7 +30,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 * テストに必要となる以上の組み合わせを組み込まないでください。
 
-   テストする組み合わせの数が増えると、期待に添った結果を実現するために必要なトラフィック量および時間が大幅に増加します。例えば、それぞれ3つのオファーのある3つの場所がある場合、27の組み合わせ（3x3x3）があります。3つの場所に3つの場所があり、3つの場所に3つのオファーがあり、1つの場所に2つのオファーがあります（3x3x2）。場所やオファーの数が増えると、組み合わせの数は大きく増加します。
+   テストする組み合わせの数が増えると、期待に添った結果を実現するために必要なトラフィック量および時間が大幅に増加します。例えば、それぞれ 3 つのオファーが組み込まれた場所が 3 つある場合、27 の組み合わせ（3 x 3 x 3）になります。3 つの場所があり、そのうちの 2 つの場所に 3 つのオファーが、1 つの場所に 2 つのオファーが組み込まれている場合、組み合わせは 18（3 x 3 x 2）になります。場所やオファーの数が増えると、組み合わせの数は大きく増加します。
 
 * 場所およびオファーに名前を付けます。
 
@@ -40,21 +40,21 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
    テストを開始する前に、テストによって生成されるすべてのエクスペリエンスを確認します。矛盾する内容を謳う組み合わせ（同じエクスペリエンスで 20％オフと 19 ドルオフを謳うなど）がないかや、同じ色を背景色と前景色で使用するなどの不適切なデザインがないかを確認します。
 
-* [トラフィック見積もり](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) を使用して、ページが受け取るトラフィック量をテストします。
+* [トラフィック見積もり](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)を使用して、ページで予想されるトラフィック量に合ったテストをおこないます。
 
    望ましい結果を得ることができるように、トラフィック見積もりでテスト設定が適切であることを確認します。
 * 各要素の代替オプションの内容を大幅に変えることをお勧めします。
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* [場所の貢献度レポート](/help/c-reports/location-contribution-report.md) を頻繁に使用して、各場所および各オファーのパフォーマンスを監視します。
-* [エクスペリエンスのパフォーマンスレポート](/help/c-reports/experience-performance-report.md)で、上位5件と下位5件のフィルターを使用して表示されるデータに基づいて決定を行います。
+* [場所の貢献度レポート](/help/c-reports/location-contribution-report.md)を頻繁に参照して、それぞれの場所とオファーのパフォーマンスを監視します。
+* [エクスペリエンスのパフォーマンスレポート](/help/c-reports/experience-performance-report.md)では、上位 5 件と下位 5 件のフィルターに表示されるデータに基づいて判断をおこないます。
 
-   [!UICONTROL すべて] のフィルターにより、必要な情報を抽出するのが困難になり、すべてのエクスペリエンスがグラフに表示できるわけではありません。Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
+   [!UICONTROL すべて]のエクスペリエンスを表示フィルターでは、必要な情報を抽出するのが困難であり、またすべてのエクスペリエンスがグラフに表示されるわけではありません。[!UICONTROL すべて]のフィルターは、上位 5 件または下位 5 件に含まれていない特定のエクスペリエンスを確認する場合に使用します。
 
 ## フォローアップ {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. そのため、レポートで一部の変更が認識されない場合があります。オファーライブラリに含まれている HTML オファーに変更を加えることは安全です。
+* [!DNL Target] では、テストが開始されているアクティビティを編集することができますが、進行中のアクティビティを編集するとテストがリセットされる場合があることに注意してください。そのため、レポートで一部の変更が認識されない場合があります。オファーライブラリに含まれている HTML オファーに変更を加えることは安全です。
 
    エクスペリエンス名やレポートがリセットされるアクションには、次のものがあります。
 
