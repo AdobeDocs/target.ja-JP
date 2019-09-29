@@ -33,7 +33,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | [Analytics データの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
+| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | 自動パーソナライゼーション（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![（Target Premium）](/help/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**メモ：** A/B テスト（自動配分と自動ターゲットを含む）アクティビティおよびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを組み込めるようになりました。[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
 
 ## アクティビティリスト {#section_DE8E2DB30D534962A931EF8BB48240F5}
@@ -70,13 +70,13 @@ Target には、複数のアクティビティタイプがあります。次の�
 | アクティブ化 | 非アクティブまたは準備完了（Ready）のアクティビティを開始します。 |
 | アーカイブ | アクティビティをアーカイブに送信します。デフォルトでは、アーカイブ済みアクティビティは、アクティビティリストに表示されません。アクティビティリストのフィルターを変更して、アーカイブ済みアクティビティが含まれるようにして、表示されるようにします。アーカイブ済みアクティビティをアクティブ化して、もう一度使用することができます。<br>アクティビティを非アクティブ化またはアーカイブした後に再度アクティブ化した場合、非アクティブ化またはアーカイブ以前からアクティビティに含まれていた訪問者は、再アクティブ化の後も引き続きアクティビティに含まれます。非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
 | コピー | アクティビティをコピーします。どのアクティビティもコピーできます。アクティビティをコピーすると、同じ名前に「Copy」と付いた、新しいアクティビティが作成されます。例えば、「ブラウザーオファー」というテストは、「ブラウザーオファー Copy」という名前でコピーされます。<br>ビジュアルオファーは、アクティビティと共にコピーされます。元のアクティビティに影響を与えることなく、コピー内で安全にオファーを編集できます。唯一の例外は、コンテンツ／アセットフォルダー内に保存したオファーおよび画像です。 |
-| 削除 | ドラフトまたは準備完了（）のアクティビティを削除します。<BR>**注意**:削除されたアクティビティは復元できません。Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. その後、必要に応じてアクティビティを再アクティブ化できます。 |
+| 削除 | ドラフトまたはアクティビティを削除します。<BR>**注意**：削除されたアクティビティを元に戻すことはできません。このアクティビティが再び必要になることがないと確信できない限り、[!UICONTROL アーカイブ]操作を使用します。その後、必要に応じて、アクティビティを再アクティブ化できます。 |
 
 アクティビティリストについては、次の点に注意してください。
 
 * アーカイブ済みおよび終了したアクティビティは、[!UICONTROL アクティビティ]リストには表示されません。これらのアクティビティを表示するには、左側のレールのアドバンスフィルター設定を使用してフィルタリングします。
 * もともと [!DNL Target Classic] で作成されたアクティビティを非アクティブ化または削除すると、そのアクティビティはすぐに [!DNL Target Standard/Premium] から削除されます。削除されると、もともと [!DNL Target Classic] で作成されたアクティビティは、[!DNL Target Standard/Premium] の [!UICONTROL アーカイブ]フォルダーに送信されません。アーカイブ済みフォルダー機能は、[!DNL Target Standard/Premium] で作成されたアクティビティにのみ適用されます。
-* [!UICONTROL Automated Personalization]（AP）、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]以外のすべてのタイプのアクティビティでは、データソースとして[!DNL Target]または[!DNL Adobe Analytics]のいずれかを使用できます。[!UICONTROL AP]、[!UICONTROL 自動配分]、および [!UICONTROL 自動ターゲット]では、*常に* [!DNL Target] データが使用されます。
+* [!UICONTROL 自動パーソナライゼーション]（AP）、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]以外のすべてのタイプのアクティビティでは、データソースとして[!DNL Target]または[!DNL Adobe Analytics]のいずれかを使用できます。[!UICONTROL AP]、[!UICONTROL 自動配分]、および [!UICONTROL 自動ターゲット]では、*常に* [!DNL Target] データが使用されます。
 * アクティビティは複数のチャネルで利用可能です。
 
    * Web およびモバイルサイト
@@ -107,7 +107,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 
 | フィルターカテゴリ | フィルター |
 |--- |--- |
-| タイプ | A/B テスト：[手動](/help/c-activities/t-test-ab/test-ab.md)、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/c-activities/auto-target-to-optimize.md)。<br>[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)<br>多変量分析テスト[レコメンデーション](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[](/help/c-recommendations/recommendations.md) |
+| タイプ | A/B テスト：[手動](/help/c-activities/t-test-ab/test-ab.md)、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/c-activities/auto-target-to-optimize.md)。<br>[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)<br>多変量分析テスト[レコメンデーション](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[](/help/c-recommendations/recommendations.md) |
 | ステータス | ライブ<br>ドラフト<br>スケジュール済み<br>非アクティブ<br>同期中<br>終了<br>アーカイブ済み |
 | レポートソース | Target<br>Analytics |
 | Experience Composer | 視覚的<br>フォームベース |
