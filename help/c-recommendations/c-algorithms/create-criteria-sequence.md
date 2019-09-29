@@ -92,9 +92,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ:Recommendationsでの条件の作成（12:33）
+## トレーニングビデオ：Recommendationsでの条件の作成(12:33)
 
-このビデオには、次の情報が含まれています。
+このビデオでは、次の情報を提供しています。
 
 * 条件の作成
 * 条件のシーケンスの作成
