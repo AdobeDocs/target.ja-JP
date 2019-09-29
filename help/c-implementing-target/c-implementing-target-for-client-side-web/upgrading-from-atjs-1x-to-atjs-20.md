@@ -1,8 +1,8 @@
 ---
 description: at.js 1.*x*からat.js 2.*x*へのアップグレード
-keywords: at.jsリリース；at.jsバージョン；単一ページアプリ；spa；クロスドメイン；クロスドメイン
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 seo-description: Adobe Target at.js 1.*x*からat.jsバージョン2.0.0にアップグレードする方法に関する詳細情報
-seo-title: Adobe Target at.jsバージョン1からアップグレードします。*x*をat.jsバージョン2に変更します。*x*
+seo-title: Upgrade from Adobe Target at.js version 1.*x* to at.js version 2.*x*
 solution: 'Target '
 subtopic: 導入
 title: at.js 1.*x*からat.js 2.*x*へのアップグレード
@@ -55,7 +55,7 @@ The following diagrams help you understand the workflow of at.js 2.*x* with View
 
 ## at.js 2をデプロイします。*x* {#deploy-atjs-200}
 
-1. at.js 2をデプロイします。*Adobe* Launch [拡張機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 。
+1. at.js 2をデプロイします。*x* via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension.
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 </script>
 ```
 
-**at.js 2.*x相当*数**
+**at.js 2.*x equivalent***
 
 `mboxCreate(mbox, params)` に代わるものは、`getOffer()` および `applyOffer()` です。
 
@@ -144,7 +144,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 </script>
 ```
 
-**at.js 2.*x相当***:
+**at.js 2.*x equivalent:***
 
 `mboxDefine()` と `mboxUpdate` に代わるものは、`getOffer()` と `applyOffer()`（`applyOffer()` でセレクターオプションを使用）です。この方法を使用すると、ID を持つ要素だけではなく、CSS セレクターを使用してオファーを要素にマッピングできます。
 
@@ -218,7 +218,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 
 `mboxCreate()` を `getOffer()` または `applyOffer()` で置き換えない場合、オファーが配信されない場合があります。
 
-### at.js 2が可能。*at.js* 1の間は、一部のページでxが使用されます。*x* または mbox.js が他のページにあるときに、at.js 2.x をを一部のページで使用できますか？
+### Can at.js 2.*x* be used on some pages while at.js 1.*x* または mbox.js が他のページにあるときに、at.js 2.x をを一部のページで使用できますか？
 
 できます。訪問者プロファイルは、異なるバージョンやライブラリを使用してページ間で保持されます。Cookie の形式は同じです。
 
@@ -228,7 +228,7 @@ at.js 2.*x* は、Delivery API と呼ばれる新しい API を使用します�
 
 ### Target グローバル mbox の廃止
 
-at.js 2.*x,*`target-global-mbox`, the network calls. 代わりに、[!DNL Target] サーバーに送信される JSON ペイロードの「`target-global-mbox`」構文を以下のように「`execute > pageLoad`」に置き換えました。
+at.js 2.*x*, you no longer see “`target-global-mbox`” visibly in the network calls. 代わりに、[!DNL Target] サーバーに送信される JSON ペイロードの「`target-global-mbox`」構文を以下のように「`execute > pageLoad`」に置き換えました。
 
 ```
 {
@@ -277,17 +277,17 @@ at.js 2.*x,*`target-global-mbox`, the network calls. 代わりに、[!DNL Target
 | グローバル mbox 自動作成 | ○ |
 | グローバル mbox 名 | ○ |
 
-### at.js 2.xでのクロスドメイントラッキングのサポート {#cross-domain}
+### Cross-domain tracking support in at.js 2.x {#cross-domain}
 
 クロスドメイントラッキングを使用すると、異なるドメイン間で訪問者を縫い合わせることができます。 ドメインごとに新しいcookieを作成する必要があるので、訪問者がドメイン間を移動する際に、訪問者を追跡するのは困難です。 クロスドメイントラッキングを実現するために、 [!DNL Target] サードパーティcookieを使用してドメイン間で訪問者を追跡します。 これにより、個別のドメイン間を移動した場合に、同じエクスペリエ `siteA.com` ンスにま `siteB.com` たがって訪問者が残るTargetアクティビティを作成できます。 この機能は、Target のサードパーティおよびファーストパーティ Cookie の動作に結びついています。
 
 >[!NOTE]
 >
->クロスドメイントラッキングは、at.js 2の初期設定ではサポートされていません。*x* ではサポートされていませんでした。クロスドメイントラッキングはat.js 2でサポートされています。*Experience* Cloud ID(ECID)ライブラリv4.3.0以降を使用して、
+>クロスドメイントラッキングは、at.js 2の初期設定ではサポートされていません。*x* ではサポートされていませんでした。Cross-domain tracking is supported in at.js 2.*Experience* Cloud ID(ECID)ライブラリv4.3.0以降を使用して、
 
-Targetでは、サードパーティCookieがに保存されます `<CLIENTCODE>.tt.omtrdc.net`。 ファーストパーティCookieはに保存されま `clientdomain.com`す。 最初のリクエストは、HTTP 応答ヘッダーを返します。このヘッダーによって、`mboxSession` および `mboxPC` という名前のサードパーティ Cookie の設定が試行され、リダイレクトリクエストが追加のパラメーター（`mboxXDomainCheck=true`）と共に返されます。ブラウザーがサードパーティcookieを受け入れる場合、リダイレクトリクエストにはそれらのcookieが含まれ、エクスペリエンスが返されます。 このワークフローは、HTTP GET メソッドの使用により可能になっています。
+Targetでは、サードパーティCookieがに保存されます `<CLIENTCODE>.tt.omtrdc.net`。 ファーストパーティCookieはに保存されま `clientdomain.com`す。 最初のリクエストは、HTTP 応答ヘッダーを返します。このヘッダーによって、`mboxSession` および `mboxPC` という名前のサードパーティ Cookie の設定が試行され、リダイレクトリクエストが追加のパラメーター（`mboxXDomainCheck=true`）と共に返されます。If the browser accepts third-party cookies, the redirect request includes those cookies, and the experience is returned. このワークフローは、HTTP GET メソッドの使用により可能になっています。
 
-However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POSTがat.js 2を介して使用されるようになりました。*xを指定し* 、JSONペイロードをTarget edgeサーバーに送信します。 つまり、ブラウザがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET要求は等価なトランザクションですが、HTTP POSTは非等価で、任意に繰り返してはいけないからです。 したがって、at.js 2でのクロスドメイントラッキングです。*xは既製* でサポートされなくなりました。 at.js 1のみ。*xには* 、クロスドメイントラッキングの追加設定不要なサポートが含まれています。
+However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POSTがat.js 2を介して使用されるようになりました。*xを指定し* 、JSONペイロードをTarget edgeサーバーに送信します。 つまり、ブラウザがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。This is because HTTP GET requests are idempotent transactions, while HTTP POST is non-idempotent and must not be arbitrarily repeated. したがって、at.js 2でのクロスドメイントラッキングです。*xは既製* でサポートされなくなりました。 at.js 1のみ。*xには* 、クロスドメイントラッキングの追加設定不要なサポートが含まれています。
 
 クロスドメイントラッキングを使用する場合は、 [ECIDライブラリv4.3.0+をat.js 2と共にインストールする](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 必要があります。*x* ではサポートされていませんでした。ECIDライブラリは、複数のドメインで訪問者を識別するために使用される永続的なIDを管理するために存在します。 ECIDライブラリv4.3.0以降とat.js 2をインストールした後。*x*、一意のドメインにまたがるアクティビティを作成し、ユーザーを追跡できます。
 
@@ -598,7 +598,7 @@ at.js 2.*x* JSONペイロード：
 
 配信 API にグローバル mbox の概念がなくなりました。JSON ペイロードでは、`execute > pageLoad` を使用する必要があります。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -618,7 +618,7 @@ at.js 2.*x* JSONペイロード：
 
 mbox 名を使用するには、`execute > mboxes` に渡します。mbox にはインデックスと名前が必要です。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -652,7 +652,7 @@ at.js 2.*x* JSONペイロード：
 
 デバッグに役立つように、ダウンストリームシステムで使用されるリクエスト ID です。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -679,7 +679,7 @@ at.js 2.*x* JSONペイロード：
 
 `id > tntId` に TNT ID が渡されます。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -696,7 +696,7 @@ at.js 2.*x* JSONペイロード：
 
 `id > marketingCloudVisitorId` に Experience Cloud Visitor ID が渡されます。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -713,7 +713,7 @@ at.js 2.*x* JSONペイロード：
 
 `id > customerIds` に顧客 ID を渡す必要があります。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -734,7 +734,7 @@ at.js 2.*x* JSONペイロード：
 
 異なる Target ID をリンクするために使用される顧客サードパーティ ID です。
 
-at.js 2.*x* JSONペイロード：
+at.js 2.*x* JSON payload:
 
 ```
 {
