@@ -1,8 +1,8 @@
 ---
-description: オーディエンスを定義して、Targetオーディエンスライブラリまたはアクティビティのみのオーディエンスの2つのプロファイル属性を比較します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+description: Target オーディエンスライブラリに対して、またはアクティビティのみのオーディエンスにおいて、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 keywords: オーディエンス、傾向、profile属性、比較、比較、オーディエンスの作成、オーディエンスの作成
-seo-description: オーディエンスを定義して、Targetオーディエンスライブラリまたはアクティビティのみのオーディエンスの2つのプロファイル属性を比較します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
-seo-title: プロファイル属性比較オーディエンスの作成Adobe Target
+seo-description: Target オーディエンスライブラリに対して、またはアクティビティのみのオーディエンスにおいて、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+seo-title: プロファイル属性比較オーディエンスの作成（Adobe Target）
 solution: 'Target '
 title: プロファイル属性比較オーディエンスの作成
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # プロファイル属性比較オーディエンスの作成{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+[オーディエンスライブラリ](/help/c-target/c-audiences/audiences.md)に対して、または[アクティビティのみのオーディエンス](/help/c-target/creating-activity-only-audience.md)において、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
@@ -37,19 +37,19 @@ Define an audience to compare two profile attributes for your [Audience library]
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. **[!UICONTROL オーディエンス]**／オーディエンスを作成&#x200B;****／ルールを追加&#x200B;****／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
-1. 「**[!UICONTROL 訪問者プロファイル]**」ドロップダウンリストから、属性を選択します。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、属性を選択します。
 
-   ![傾向スコア1](assets/propensity_score_1.png)
+   ![傾向スコア 1](assets/propensity_score_1.png)
 
 1. 評価基準を選択します。
 
-   ![傾向スコア2](assets/propensity_score_2.png)
+   ![傾向スコア 2](assets/propensity_score_2.png)
 
-1. 「**[!UICONTROL 比較書式を選択]**」ドロップダウンリストから、「**[!UICONTROL 属性]**」を選択します。
+1. **[!UICONTROL 比較書式を選択]**&#x200B;ドロップダウンリストから、「**[!UICONTROL 属性]**」を選択します。
 
    「static value」の比較タイプを使用すると、訪問者プロファイル属性を特定の値と比較できます。
 
-   ![傾向スコア3](assets/propensity_score_3.png)
+   ![傾向スコア 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
