@@ -1,6 +1,6 @@
 ---
 description: 'at.js の adobe.target.triggerView (viewName, options) 関数について説明します。 '
-keywords: adobe. target. triggerView;triggerView;triggerview;トリガビュー;at. js;関数、関数;viewName;viewname;ビュー名
+keywords: adobe.target.triggerView;triggerView;triggerview;triggerview;at.js;function;function;viewName;viewname;view name
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
 solution: 'Target '
@@ -19,25 +19,25 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 >[!NOTE]
 >
->この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1 では使用できません。*x*.
+>この関数は at.js 2.x で導入されました。この関数は at.js バージョン 1.x では使用できません。*x*.
 
 | パラメーター | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
 | viewName | 文字列 | ○ | ビューを表す文字列型として任意の名前を渡します。このビュー名は、VEC の「[!UICONTROL 変更]」パネルに表示されます。マーケティング担当者はこれを使用してアクションを作成し、A/B および XT アクティビティを実行します。 |
 | options | オブジェクト | × |  |
-| options &gt; page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>アクティビティのエクスペリエンスまたはアクティビティ指標がビューに関連付けられていない場合、通知は送信されません。<br>**FALSE：** page = false の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
+| options &gt; page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>アクティビティエクスペリエンスまたはアクティビティ指標がビューに関連付けられていない場合、通知は送信されません。<br>**FALSE：** page = false の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
-## 例:True
+## 例：True
 
-`triggerView()` 呼び出しを呼び出して、アクティビティインプレッションおよび他の指標を増分するための通知をTargetバックエンドに送信します。
+アクティビティインプレッション数およびその他の指標の値を増加させるために Target バックエンドに通知を送信するための `triggerView()` 呼び出し。
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## 例:False
+## 例：False
 
-`triggerView()` 呼び出しのカウントのためにTargetバックエンドに送信されない通知を呼び出します。
+Target バックエンドにインプレッションをカウントするための通知を送信しないようにするための `triggerView()` 呼び出し。
 
 ```
 adobe.target.triggerView("homeView", {page: false})
