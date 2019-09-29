@@ -24,7 +24,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * [!DNL Target] の分類が完全に処理されていない。
 
-   分類では通常、24時間から72時間の間に、最初の保存後にレポートの分類が行われます。
+   Classification generally takes between 24 and 72 hours to classify reports after the first save.
 
 * レポートスイートにはデータが全く含まれていないが、[!DNL Target] はヒットの分類を試行した。[!DNL Target] は最初のヒットが発生するまで、データの分類をおこなうことができません。
 
@@ -36,7 +36,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 >[!NOTE]
 >
->新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。通常、レポートの分類には24時間から72時間の時間がかかります。
+>新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。Remember that it generally takes between 24 and 72 hours to classify reports after the first save.
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
