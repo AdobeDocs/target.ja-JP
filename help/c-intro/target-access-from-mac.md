@@ -16,8 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Adobe Experience Cloud からの Target へのアクセス{#access-target-from-the-adobe-experience-cloud}
 
-
-[!DNL Adobe Experience Cloud]から[!DNL Adobe Target]へのアクセス、デフォルトのランディングページの設定、および[!DNL Target]ユーザーインターフェイスの言語の変更に関する情報。
+[!DNL Adobe Experience Cloud] から [!DNL Adobe Target] へのアクセス、デフォルトのランディングページの設定および [!DNL Target] ユーザーインターフェイスの言語の変更に関する情報です。
 
 ## Adobe Target にサインインし、デフォルトの表示を設定する
 
@@ -53,7 +52,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 最初の言語（プライマリ）を選択し、必要に応じて二番目の言語を選択します。
 
-   The [!DNL Target] UI is available in the following languages:
+   [!DNL Target] UI は、以下の言語で利用できます。
 
    * 英語
    * スペイン語
@@ -70,19 +69,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. [!DNL Adobe Experience Cloud]または[!DNL Target]からログアウトして、再度ログインして変更内容を有効にします。
 
-## Change the language for the Target product documentation {#doc-lang}
+## Target 製品ドキュメントの言語の変更 {#doc-lang}
 
-オペレーティングシステムまたはブラウザーの設定で、希望の言語を検出し、その言語にドキュメントを表示する必要があります（可能な場合）。Targetドキュメントは自動的に翻訳され、英語版のドキュメントに加えられた変更の数時間以内に英語版と同期されます。
+お使いのオペレーティングシステムやブラウザーの設定で、優先言語を検出し、その言語のドキュメント（使用できる場合）を表示する必要があります。Target ドキュメントは、自動的に翻訳され、英語ドキュメントの変更後数時間以内に英語バージョンと同期されます。
 
-ページヘッダーのリンクをクリックすると、言語を元の英語バージョンに簡単に変更できます。
+ページヘッダーのリンクをクリックすることで、言語を元の英語バージョンにすばやく変更できます。
 
-![元の言語に変更](/help/c-intro/assets/mt-original.png)
+![元の言語への変更](/help/c-intro/assets/mt-original.png)
 
-You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
+また、ページヘッダーの右上にある言語スイッチャーアイコン（ ![言語 スイッチャー](/help/c-intro/assets/icon-language-switcher.png) ）をクリックすることで、サポートされる言語にすばやく変更できます。
 
-![言語切り替えバー](/help/c-intro/assets/language-switcher.png)
+![言語スイッチャー](/help/c-intro/assets/language-switcher.png)
 
-[!DNL Target] ドキュメントは次の言語で利用できます。
+[!DNL Target] ドキュメントは、以下の言語で利用できます。
 
 * 英語
 * スペイン語
