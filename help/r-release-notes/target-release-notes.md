@@ -1,7 +1,7 @@
 ---
-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
+description: Adobe targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
 keywords: リリースノート；リリース；更新；将来のリリース；拡張；新機能；修正点
-seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
+seo-description: DNL Adobe targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
 seo-title: Adobe Target リリースノート（プレリリース）
 solution: 'Target '
 title: Target リリースノート（プレリリース）
