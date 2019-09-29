@@ -1,8 +1,8 @@
 ---
 description: いくつかの設定によって、Recommendations アクティビティの説明を記述したり、制御したりすることができます。
 keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
-seo-description: いくつかの設定を使用して、Adobe TargetのRecommendationsアクティビティを説明し、制御できます。
-seo-title: Adobe TargetのRecommendationsアクティビティ設定
+seo-description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
+seo-title: Adobe Target での Recommendations アクティビティの設定
 solution: 'Target '
 subtopic: Recommendations
 title: Recommendations アクティビティの設定
@@ -18,9 +18,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの設定{#recommendations-activity-settings}
 
-[!UICONTROL Recommendations] アクティビティの説明と制御に使用できる設定に関する情報。
+[!UICONTROL Recommendations] アクティビティの説明と制御に使用できる設定に関する情報です。
 
-![Recommendationsの目標と設定ページ](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Recommendations 目標と設定ページ](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 次のセクションでは、[!UICONTROL Recommendations] アクティビティで使用可能な設定について説明します。
 
@@ -55,12 +55,12 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 アクティビティの期間を設定します。
 
-アクティビティは、アクティブ化したときに開始することも、特定の日時を設定することもできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
+アクティビティは、アクティブ化されたときに開始したり、特定の日時を設定したりできます。同様に、非アクティブ化されたときに終了させたり、日時を設定したりできます。タイムピッカーは 24 時間の時計を使用します。00:00 は真夜中です。タイムゾーンはブラウザーで設定されたタイムゾーンに設定されます。別のタイムゾーンを使用するには、ブラウザーのタイムゾーンを変更してからブラウザーを再起動します。
 
 ## レポート設定
 
-* **レポートソース:** レポートソースを選択します。Adobe Targetまたは [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。アクティビティがライブになった後、レポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートが不統一になります。
-* **目標指標:** アクティビティが成功したかどうかを判断する成功指標を選択します。
+* **レポートソース：** Adobe Target または [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) からレポートソースを選択します。アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
+* **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
 * **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。
 * **レポート対象のオーディエンス：**&#x200B;レポートをフィルタリングする際に使用できるオーディエンスを定義します。
 
