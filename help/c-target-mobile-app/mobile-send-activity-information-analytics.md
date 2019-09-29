@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    コールバックでTargetから返された応答を解析します。NSSonsSerializationを使用してこの応答を解析し、dictまたは配列に格納できます。
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   詳細は、 [NSJSONSerializationのドキュメント](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) を参照してください。
 1. データをAnalyticsに送信します。
 
    解析呼び出しのコンテキストデータオブジェクトに、解析されたアクティビティ情報（上記の応答 `tntVal` など）を追加します。コンテキストデータを含むAnalytics呼び出しは、即座に実行することも、次のAnalytics呼び出しが実行されるまで待機することもできます。
