@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
 
-[!DNL mbox.js] または [!DNL at.js] の 2 つのライブラリリファレンスのいずれかを使用できます。[at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) の利点により、2つのライブラリの違いがわかります。
+[!DNL mbox.js] または [!DNL at.js] の 2 つのライブラリリファレンスのいずれかを使用できます。[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)では、この 2 つのライブラリの違いを説明しています。
 
 >[!NOTE]
 >
