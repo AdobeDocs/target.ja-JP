@@ -1,6 +1,6 @@
 ---
 description: 'at.js の mboxCreate(mbox,params) 関数について説明します。 '
-keywords: mboxCreate;mboxcreate;mbox作成;at. js;関数、関数
+keywords: mboxCreate;mboxcreate;mbox create;at.js;function;function
 seo-description: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
 solution: 'Target '
