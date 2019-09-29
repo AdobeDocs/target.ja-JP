@@ -27,7 +27,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ### アクティビティQAプレビューリンク {#preview}
 
-[アカウントに保存されたアクティビティが多すぎる場合、保存されたアクティビティのアクティビティQAプレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクが読み込まれない場合があります。 プレビューリンクを再試行すると、正常に機能します。 この問題が引き続き発生するのを防ぐために、アクティブに使用されなくなった保存済みのアクティビティをアーカイブします。 （TNT-32697）
+[アカウントに保存されたアクティビティが多すぎる場合、保存されたアクティビティのアクティビティQAプレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクが読み込まれない場合があります。 プレビューリンクを再試行すると、正常に機能します。 To prevent this from continuing to happen, archive saved activities that are no longer actively used. （TNT-32697）
 
 ### リダイレクトオファー {#redirect}
 
@@ -124,7 +124,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 * Recommendationsフィードインデックスで、フィード内の項目が前回の実行と同じである場合、「インデックスを待機中」と表示されることがあります。配信の製品取り込みに影響しません。（RECS-6663）
 
-   この問題はTarget 19.4.2リリースで修正されました。
+   This issue was fixed in the Target 19.4.2 release.
 
 * Recommendations フィードの処理が予想よりも時間がかかります。（COR-2836）
 
@@ -138,7 +138,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 ページに競合条件があると、元のページとリダイレクトページでページビュー数がカウントされることがあります。at.js 実装のアップデートを予定しています。このアップデートにより、この競合条件を回避できるようになる予定です。
 
-この問題はat.js 1.6.3で修正されました。
+This issue was fixed in at.js 1.6.3.
 
 ### 除外グループ
 
