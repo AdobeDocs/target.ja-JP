@@ -1,7 +1,7 @@
 ---
-description: 除外グループの作成、重複オファーの除外、特定のエクスペリエンスを除く、自動パーソナライゼーション（AP）アクティビティのデフォルトコンテンツの除外による除外の管理。
+description: 自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 keywords: 重複;重複を許可;重複するオファーを除外;自動パーソナライゼーション;重複するオファーを許可しない
-seo-description: 除外グループの作成、重複オファーの除外、特定のエクスペリエンスを除く、Adobe Target自動パーソナライゼーション（AP）アクティビティのデフォルトコンテンツの除外による除外の管理。
+seo-description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 seo-title: 除外の管理
 solution: Target,Analytics
 title: 除外の管理
@@ -12,33 +12,33 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# ![Premiumバッジ](/help/assets/premium.png) :除外の管理{#manage-exclusions}
+# ![Premium バッジ](/help/assets/premium.png) 除外の管理{#manage-exclusions}
 
-除外グループの作成、重複オファーの除外、特定のエクスペリエンスを除く、自動パーソナライゼーション（AP）アクティビティのデフォルトコンテンツの除外による除外の管理。
+自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 
-## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## 除外グループの作成 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
-Automated Personalization（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
+自動パーソナライゼーション（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
 
 除外グループは、複数の場所における同一のエクスペリエンスで、不適切なオファーが提示されないようにできる便利な機能です。例えば、全商品を対象とした 20％割引と 15％割引の 2 つのオファーがあるとします。この 2 つのオファーが、同一のエクスペリエンスの訪問者に提示されないようにする必要があります。その場合はこの 2 つのオファーを除外グループに追加することで対処できます。
 
-APアクティビティで特定のオファーを表示できるオーディエンスを制限することもできます。For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
+また、どのオーディエンスが AP アクティビティの特定のオファーを表示できるかを制限できます。詳しくは、[Target の自動パーソナライゼーションオファー](/help/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
 
 **除外グループを作成する手順は次のとおりです。**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **[!UICONTROL Manage Content]** in the header bar.
+1. [AP アクティビティの作成または編集](/help/c-activities/t-automated-personalization/create-ap-activity.md)時に、ヘッダーバーの「**[!UICONTROL コンテンツを管理]**」をクリックします。
 
-   ![コンテンツの管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![コンテンツを管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. 「[!UICONTROL コンテンツを管理]」 ダイアログボックスで、「**[!UICONTROL 排他グループ]**」をクリックします。
+1. [!UICONTROL コンテンツを管理]ダイアログボックスで、「**[!UICONTROL 除外グループ]**」をクリックします。
 
-   ![コンテンツを管理/排他グループダイアログボックス](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![コンテンツを管理／除外グループダイアログボックス](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    以前に作成した除外グループがある場合は、リスト内に表示されます。除外グループをまだ作成していない場合は、作成するよう求められます。
 
 1. 「**[!UICONTROL 除外グループを作成]**」をクリックします。
 
-   ![排他グループを作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
+   ![除外グループを作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
 1. （必須）除外グループにわかりやすい名前を付けます。
 
@@ -52,37 +52,37 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
 除外グループのオファーは、以降、同一のエクスペリエンスから自動的に除外されます。
 
-## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## 重複するオファーの除外 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-オファーライブラリからのオファーが [!UICONTROL Automated Personalization] アクティビティの複数のロケーションで使用される場合に重複しないようにします。
+オファーライブラリからのオファーが[!UICONTROL 自動パーソナライゼーション]アクティビティの複数のロケーションで使用される場合に重複しないようにします。
 
 例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能では、同一アクティビティ内の別の場所で、重複するオファーが同時に表示されるのを防ぐことができます。
 
 「**[!UICONTROL 設定]**」／「**[!UICONTROL 重複オファー]**」／「**[!UICONTROL 重複を許可]**」または「**[!UICONTROL 重複を許可しない**]」の順にクリックします。
 
-![重複するオファーオプション](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+![重複オファーのオプション](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## 特定のエクスペリエンスの除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-特定のオファーの組み合わせを Automated Personalization アクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
+特定のオファーの組み合わせを自動パーソナライゼーションアクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
 
 効果的ではない組み合わせがある場合や、テスト対象のエクスペリエンスの数を制限し、アクティビティのトラフィック要件を下げたい場合もあるでしょう。
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
+1. [AP アクティビティの作成または編集](/help/c-activities/t-automated-personalization/create-ap-activity.md)時に、ヘッダーバーの「**コンテンツを管理**」をクリックします。
 
-   ![コンテンツの管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![コンテンツを管理リンク](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    [!UICONTROL エクスペリエンス]のリストに、すべてのコンテンツと場所のオプションの順列を基に作成された各エクスペリエンスが表示されます。
 
 1. 必要に応じてエクスペリエンスを除外します。
 
-   エクスペリエンスを除外する際は、対象のエクスペリエンスにカーソルを合わせてから除外アイコンをクリックします。
+   エクスペリエンスを除外する際は、対象のエクスペリエンスにマウスポインターを置いてから除外アイコンをクリックします。
 
-   ![カーソルを合わせてエクスペリエンスを除外](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   ![マウスポインターを置いてエクスペリエンスを除外](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
+   複数のエクスペリエンスのチェックボックスをオンにしてから、ダイアログボックスの右上隅にある「**[UICONTROL 除外]**」アイコンをクリックすることで、エクスペリエンスを一括で除外（または追加）できます。「[!UICONTROL 除外]」アイコンは、1 つ以上のエクスペリエンスのチェックボックスがオンになっている場合に表示されます。
 
-   ![エクスペリエンスをバッチ除外する](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
+   ![エクスペリエンスの一括除外](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
    このリスト表示では、[!UICONTROL ステータス]ドロップダウンリストをクリックすることでフィルターを適用し、除外済みのアクティビティまたは追加済みのアクティビティのみを表示できます。
 
@@ -90,30 +90,30 @@ APアクティビティで特定のオファーを表示できるオーディエ
 
    ![除外されたエクスペリエンス](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## デフォルトコンテンツの除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-デフォルトのコンテンツを、Automated Personalization アクティビティから除外したい場合もあるでしょう。この設定方法は、除外グループの作成方法とは異なります。このメソッドを使用すると、APアクティビティの一部として、1つのオファー（デフォルトコンテンツとは異なる）のみを指定できます。
+デフォルトのコンテンツを、自動パーソナライゼーションアクティビティから除外したい場合もあるでしょう。この設定方法は、除外グループの作成方法とは異なります。この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
 
-デフォルトコンテンツを除外することは、APアクティビティでテストしているオファーに合わせて、ページの残りの部分のルック&amp;フィールを変更する優れた方法です。例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
+AP アクティビティでテストするオファーに合わせてページの他の部分のデザインを変更したい場合は、デフォルトのコンテンツを除外する方法が効果的です。例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
 
 **Visual Experience Composer（VEC）を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. [AP アクティビティを作成または編集](/help/c-activities/t-automated-personalization/create-ap-activity.md)する際に、置き換えるコンテンツを選択し、「**[!UICONTROL テキスト／HTML を変更]**」、「**[!UICONTROL 画像を変更]**」または「**[!UICONTROL 背景色を変更]**」をクリックします。
 1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**含める**」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。
 
    コンテンツ／オファーのタイプによっては、「[!UICONTROL 含める]」チェックボックスの位置が若干異なります。
 
    テキスト／HTML コンテンツの場合：
 
-   ![テキスト/HTMLを編集ダイアログボックスにチェックボックスを追加](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   ![テキスト / HTML を編集ダイアログボックスの「含める」チェックボックス](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    画像／ビデオコンテンツの場合：
 
-   ![Select Contentダイアログボックスにチェックボックスを追加する](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![コンテンツを選択ダイアログボックスの「含める」チェックボックス](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
    背景色の場合：
 
-   ![背景色を編集ダイアログボックスにチェックボックスを追加](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![背景色を編集ダイアログボックスの「含める」チェックボックス](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
