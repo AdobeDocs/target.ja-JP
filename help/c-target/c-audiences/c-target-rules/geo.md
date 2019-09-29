@@ -1,10 +1,10 @@
 ---
-description: オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲット設定します。
+description: オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 keywords: ターゲット設定;a4t;地理;ジオターゲティング;ジオターゲティングの精度;国;都道府県;市区町村;郵便番号;dma;携帯電話会社;cityコード;regionコード;countryコード;metro code;プロファイルスクリプト;ジオターゲティングプロファイルスクリプト;ジオターゲティングモバイル
-seo-description: Adobe Targetオーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社などの地理的な場所に基づいてユーザーをターゲット設定します。
+seo-description: Adobe Target オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 seo-title: 地域
 solution: Target,Analytics
-title: Adobe Targetの地域ターゲット設定
+title: Adobe Target のジオターゲティング
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 地域{#geo}
 
-オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲット設定します。
+オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 
-地域パラメーターを使用することで、訪問者の地域情報に基づいてアクティビティとエクスペリエンスをターゲット設定することができます。国、都道府県、市区町村、郵便番号、緯度、経度、DMAまたは携帯電話会社に基づいて訪問者を含めたり除外したりできます。このデータは、Targetリクエストと共に送信され、訪問者のIPアドレスに基づいて送信されます。他のターゲット値と同様に、これらのパラメーターを選択します。
+地域パラメーターを使用することで、訪問者の地域情報に基づいてアクティビティとエクスペリエンスをターゲット設定することができます。国、都道府県、市区町村、郵便番号、緯度、経度、DMA または携帯電話会社に基づいて訪問者を選択または除外することができます。このデータは、訪問者の IP アドレスに基づいて、Target リクエストごとに送信されます。他のターゲット値と同様に、これらのパラメーターを選択します。
 
 ## GeoTargeting を使用するオーディエンスの作成 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -43,13 +43,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-次の図に、アクティビティにアクセスしたユーザーを、44度より大きい緯度と22度未満の経度からターゲットにするオーディエンスを示します。
+以下の図に、緯度 44 度より上、経度 22 度未満からアクティビティにアクセスするユーザーをターゲットにするオーディエンスを示します。
 
 ![](assets/target_geo.png)
 
 ## 精度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。訪問者がモバイルデータ通信を使用している場合、地域ルックアップの精度は、場所、プロバイダーの [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) とのデータの関係性、およびその他の要因の影響を受ける可能性があります。携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 以下の表に、[DigitalEnvoy](https://www.digitalelement.com/solutions/) が有線または WiFi インターネット接続用に提供する IP ベースの地理情報の精度を示します。DigitalEnvoy は、業界で最も正確なデータを提供します。グローバルな精度は、国レベルで 99.9％を超え、市レベルでは最大 97％の正確性です。精度情報は、携帯電話基地局ベースのネットワークには適用されません。
 
@@ -130,7 +130,7 @@ AOL がトラフィックをプロキシする方法が原因で、国レベル�
 * DMA/ITV（英国） - 米国、英国
 * 携帯電話会社 - グローバル
 
-**別の場所からのユーザーとしてアクティビティをテストするにはどうしたらよいですか。**
+**別の場所からアクセスするユーザーとして、自分のキャンペーンをテストすることができますか？**
 
 IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.browserIp url` パラメーターを使用することができます。例えば、会社が英国にあり、グローバルキャンペーンがニュージーランドのオークランドの訪問者をターゲットにする場合は、オークランドの IP アドレスを `60.234.0.39` と仮定して、次の形式の URL を使用します。
 
