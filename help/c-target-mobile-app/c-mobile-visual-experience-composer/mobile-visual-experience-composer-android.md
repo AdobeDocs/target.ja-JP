@@ -1,8 +1,8 @@
 ---
 description: Target の新たな SDK ライブラリを利用すると、デベロッパーが Android のモバイルアプリケーションのセットアップを一度おこなえば、マーケティング担当者がモバイル Visual Experience Composer（VEC）の機能を使用できるようになります。
 keywords: mobile vec;mobile visual experience composer;mobile experience composerオプション;設定;android
-seo-description: Adobe Targetの新しいSDKライブラリを使用すると、開発者はAndroidモバイルアプリで1回限りのセットアップを行うことができ、マーケティング担当者はMobile Visual Experience Composer（VEC）の機能を使用できます。
-seo-title: Android- Adobe Target用のモバイルアプリの設定
+seo-description: Adobe targetの新しいSDKライブラリを使用すると、開発者はAndroidモバイルアプリを1回限り設定し、マーケターはMobile Visual Experience Composer(VEC)の機能を使用できます。
+seo-title: Android - Adobe targetのモバイルアプリの設定
 solution: 'Target '
 title: Android - モバイルアプリケーションのセットアップ
 topic: Standard
@@ -299,18 +299,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## チュートリアル:Mobile AndroidアプリケーションへのExperience Cloudの実装 {#tutorial}
+## チュートリアル：モバイル Android アプリケーションへの Experience Cloud の実装 {#tutorial}
 
-* [Mobile AndroidアプリケーションへのExperience Cloudの実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [モバイル Android アプリケーションへの Experience Cloud の実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-このチュートリアルを完了すると、次のことが可能になります。
+このチュートリアルでは、以下の内容について学習します。
 
-* モバイル開始プロパティの作成
-* Androidアプリへの起動プロパティのインストール
-* 以下のAdobe Experience Cloudソリューションを実装します。
+* モバイル Launch プロパティの作成
+* Android アプリへの Launch プロパティのインストール
+* 以下の Adobe Experience Cloud ソリューションの実装：
    * Experience Cloud ID サービス
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 開発環境、ステージング環境および実稼動環境での変更の発行
+* 開発、ステージングおよび実稼動環境を使用した Launch の変更の公開
