@@ -32,22 +32,22 @@ Apple ITP 2.1および2.1は、次の領域 [!DNL Target] に影響を与えま�
 
 | 影響 | 詳細 |
 | --- | --- |
-| 個別訪問者数の増加の可能性 | 有効期限が7日（ITP 2.1を使用）と1日（ITP 2.2を使用）に設定されているため、Safariブラウザーからの個別訪問者数が増加する場合があります。 訪問者が7日後(ITP 2.1)または1日後にドメインを再訪問した場合(ITP 2.2)、期限切れのcookieの代わりに新しい [!DNL Target][!DNL Target] cookieをドメインに配置する必要があります。 新しいcookie [!DNL Target] は、ユーザーが同じであっても、新しい個別訪問者に変換されます。 |
-| アクティビティのルックバック期間の [!DNL Target] 短縮 | アクティビティの訪問者プ [!DNL Target] ロファイルでは、判定のルックバック期間が短くなった可能性があります。 [!DNL Target] cookieは、訪問者を識別し、パーソナライゼーションのためにユーザープロファイル属性を保存するために使用されます。 cookieが7日 [!DNL Target] (ITP 2.1)または1日(ITP 2.2)の間にSafariで有効期限切れになる場合があるので、削除されたcookieに結び付けられたユーザープロファイルデータを判定に使用することはで [!DNL Target] きません。 |
+| 個別訪問者数の増加の可能性 | 有効期限が7日（ITP 2.1を使用）と1日（ITP 2.2を使用）に設定されているため、Safariブラウザーからの個別訪問者数が増加する場合があります。 If your visitors revisit your domain after seven days (ITP 2.1) or one day (ITP 2.2),  is forced to place a new  cookie on your domain in place of the expired cookie. [!DNL Target][!DNL Target]The new  cookie translates to a new unique visitor even though the user is the same.[!DNL Target] |
+| Decreased lookback periods for  activities[!DNL Target] | Visitor profiles for  activities might have a decreased lookback period for decisioning. [!DNL Target][!DNL Target] cookies are leveraged to identity a visitor and store user profile attributes for personalization. Given that  cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2), the user profile data that was tied to the purged  cookie cannot be used for decisioning.[!DNL Target][!DNL Target] |
 
-## 現在の実装に影響があ [!DNL Target] るか。
+## Is my current implementation of  impacted?[!DNL Target]
 
-Safariブラウザーで、 [!DNL Target] JavaScriptライブラリがあるWebサイトに移動します。 例えば、CNAMEのコ [!DNL Target] ンテキストにCookieが設定されている場合、 `analytics.company.com`ITP 2.1または2.2の影響を受けません。
+In a Safari browser, navigate to your website on which you have a  JavaScript library. [!DNL Target]If you see a  cookie set in the context of a CNAME, such as , then you are not impacted by ITP 2.1 or 2.2.[!DNL Target]`analytics.company.com`
 
-Target javaScriptライブラリに加えてExperience Cloud ID(ECID)ライブラリを使用している場合は、この記事に示す方法で実装に影響が及びます。Safari ITP 2.1がAdobe Experience cloudおよびExperience Platformのお客様に与える影響 [](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+If you are using the Experience Cloud ID (ECID) library in addition to the Target JavaScript library, your implementation will be impacted in the ways listed in this article: Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers.[](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
 
-## ITP 2.1、ITP 2.2および今後のITPリリースの影響を軽減するにはどうすればよいです [!DNL Target]か。
+## How can I mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to ?[!DNL Target]
 
-ITP 2.1、ITP 2.2および今後のITPリリースの影響を軽減するには、次の [!DNL Target]タスクを実行します。
+To mitigate the impact of ITP 2.1, ITP 2.2, and future ITP releases to , complete the following tasks:[!DNL Target]
 
-1. Experience Cloud ID(ECID)ライブラリをページにデプロイします。
+1. Deploy the Experience Cloud ID (ECID) library to your pages.
 
-   ECIDライブラリを使用すると、Experience cloudコアソリューションの人物識別フレームワークを有効にできます。 ECIDライブラリを使用すると、永続的な識別子と一意の識別子を割り当てることで、異なるExperience cloudソリューション内の同じサイト訪問者とそのデータを識別できます。 ECIDライブラリは頻繁に更新され、導入に影響を与えるITP関連の変更を軽減できるようになります。
+   The ECID library enables the people identification framework for Experience Cloud Core solutions. The ECID library allows you to identify same site visitors and their data in different Experience Cloud solutions by assigning persistent and unique identifiers. ECIDライブラリは頻繁に更新され、導入に影響を与えるITP関連の変更を軽減できるようになります。
 
    ITP 2.1およびITP 2.2の場合、緩和のために [ECIDライブラリ4.3.0+を](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 使用する必要があります。
 
