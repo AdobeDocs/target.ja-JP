@@ -22,6 +22,6 @@ Target Standard でユーザーを管理する方法と、Target Premium で Ent
 
 保有しているライセンスが Standard か Premium かどうかは、Target の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
 
-* **Target Standard のお客様：**「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定]／[!UICONTROL ユーザー]）が表示された場合は、ライセンスは Target Standard です。Target Standard customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
+* **Target Standard のお客様：**「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定]／[!UICONTROL ユーザー]）が表示された場合は、ライセンスは Target Standard です。Target Standard のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
 * **Target Premium のお客様：**「[!UICONTROL プロパティ]」タブ（[!UICONTROL 設定]／[!UICONTROL プロパティ]）が表示された場合は、ライセンスは Target Premium です。Target Premium のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[Enterprise ユーザー権限](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)と [Enterprise 権限の設定](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)の手順に従ってください。
 
