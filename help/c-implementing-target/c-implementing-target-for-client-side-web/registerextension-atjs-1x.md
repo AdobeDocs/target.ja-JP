@@ -1,6 +1,6 @@
 ---
 description: 'at.js の registerExtension() 関数について説明します。 '
-keywords: registerExtension;registerextension;レジスタ拡張;at. js;関数、関数;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
+keywords: registerExtension;registerextension;register extension;at.js;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 seo-description: Adobe Target at.js JavaScript ライブラリの registerExtension() 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの registerExtension() 関数について説明します。
 solution: 'Target '
@@ -44,7 +44,7 @@ options パラメーターは必須で、以下の構造を持ちます。
 | serverDomain | 文字列 | Edge サーバードメイン |
 | globalMboxName | 文字列 | Target のグローバル mbox 名 |
 | globalMboxAutoCreate | ブール値 | 自動作成が有効化されているかどうかを示します。 |
-| timeout | 数値 | リクエストのタイムアウト |
+| timeout | 数値  | リクエストのタイムアウト |
 
 ## Logger Module メソッド {#section_10AF62B49AEF48F981E950D26E176138}
 
