@@ -1,7 +1,7 @@
 ---
-description: Adobe TargetのVisual Experience Composer（VEC）を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
-seo-description: Adobe TargetのVisual Experience Composer（VEC）を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
-seo-title: Adobe Targetを使用した多変量分析テスト（MVT）の組み合わせの作成
+description: Adobe Target で Visual Experience Composer（VEC） を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
+seo-description: Adobe Target で Visual Experience Composer（VEC） を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
+seo-title: Adobe Target を使用した多変量分析テスト（MVT）の組み合わせの作成
 title: 組み合わせの作成
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
@@ -12,15 +12,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 組み合わせの作成{#create-combinations}
 
-Adobe TargetのVisual Experience Composer（VEC）を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
+Adobe Target で Visual Experience Composer（VEC） を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
 
-For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+VEC を使用したオファーの作成および編集について詳しくは、[Visual Experience Composer オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
 >[!NOTE]
 >
 >ページ上のオブジェクトを選択するときに「**[!UICONTROL 選択範囲を拡張]**」をクリックすると、選択した要素に加えて親要素を選択できます。親要素を選択しているときは、その要素のすべての子が自動的に選択されます。選択の拡張は繰り返し実行できます。
 >
->[DOMパス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) を使用して要素を移動することもできます。
+>また、[DOM パス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を使用して要素をナビゲートすることもできます。
 
 ## 画像オファー {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 1. ページ上の画像をクリックし、「**[!UICONTROL 画像を変更]**」を選択します。
 
-   ![画像の変更オプション](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
+   ![「画像を変更」オプション](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. テストに含めるすべての画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![画像の追加に使用するコンテンツダイアログボックスの選択](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+   ![画像を追加するのに使用されるコンテンツを選択ダイアログボックス](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 各画像は、その場所での別々のエクスペリエンスになります。
 
@@ -42,11 +42,11 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 1. ページのテキスト／HTML オファーをクリックし、「**[!UICONTROL テキスト/HTML を変更]**」をクリックします。
 
-   ![テキスト/HTMLの変更](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+   ![テキスト／HTML を変更](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
 1. 「**[!UICONTROL テキスト/HTML オファーを追加]**」をクリックし、オファーに名前を付けて、テキスト／HTML オ ファーのコードを入力または貼り付けます。
 
-   ![オファーの編集](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
+   ![オファーを編集](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    追加のテキスト／HTMLオファーを追加します。
 
