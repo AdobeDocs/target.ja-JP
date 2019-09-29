@@ -41,7 +41,7 @@ Adobe Admin Console for Enterprise で実行するタスクの場合は、次の
 
    または
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   既に Experience Cloud にログインしている場合は、「[https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動してから、上部のナビゲーションバーで[!UICONTROL アプリ]アイコンをクリックし、右側の&#x200B;**[!UICONTROL 管理]**」をクリックします。
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
@@ -49,7 +49,7 @@ Adobe Admin Console for Enterprise で実行するタスクの場合は、次の
 
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [管理コンソール](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)で、ページ上部の **[!UICONTROL 「ユーザー]** 」タブをクリックし、新規ユーザーを作成するか、既存のユーザーを編集するための「ユーザー **** を追加」タブをクリックします。
+1. [Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペース（製品プロファイル）の作成{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,7 +58,7 @@ Adobe Admin Console for Enterprise で実行するタスクの場合は、次の
 
 Admin Console 内で新しいワークスペースを作成し、それらのワークスペースに Target プロパティを割り当て、「デフォルトのワークスペース」設定からこれらのアクセス制限付きの新しいワークスペースにユーザーを移行することで、Enterprise 権限機能を活用できるようになります。
 
-ユーザーはこれらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別、または選択した他の方法で、様々なチームへのアクセスを分けることができます。
+これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。
 
 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つこともできます。
 
@@ -83,7 +83,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
-### Obtain your Workspace ID {#workspace-id}
+### ワークスペース ID の取得 {#workspace-id}
 
 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
@@ -101,9 +101,9 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をターゲットに設定します。
+プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をTargetに追加します。
 
-プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属していますを参照してください。
+プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
@@ -114,7 +114,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    以下のフィールドを設定します。
 
-   * **チャネル:** プロパティの目的のチャネルを選択します。Web、モバイルアプリ、電子メール、またはその他/API（セットトップボックスまたはPlayStationコンソールなど）。
+   * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
    * **名前（必須）：**&#x200B;プロパティのわかりやすい名前を指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
 
@@ -149,11 +149,11 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
-   * **「グローバルパラメーター[!DNL Adobe Launch]」の"**
+   * **の「グローバルパラメーター」を使用[!DNL Adobe Launch]：**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **「グローバルパラメーター」の使用[!DNL Dynamic Tag Management]:**
+   * **の「グローバルパラメーター」を使用[!DNL Dynamic Tag Management]：**
 
       ![](assets/property_token_2.png)
 
@@ -179,12 +179,12 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    >[!NOTE]
    >
-   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. この機能は [!DNL Target Classic] では使用できません。
+   >プロパティおよび権限機能は、[Target Standard／Premium](/help/c-intro/intro.md#premium) にのみ適用されます。この機能は [!DNL Target Classic] では使用できません。
 
 1. 目的のプロファイルの名前をクリックします。
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
-   [!UICONTROL 「ユーザー] 」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
 
    ![ユーザーの設定](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
