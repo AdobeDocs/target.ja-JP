@@ -1,8 +1,8 @@
 ---
 description: at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x;;at. js;単一ページアプリケーション;単一ページアプリ
+keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x;at.js；シングルページアプリ；シングルページアプリ
 seo-description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-seo-title: Adobe Targetでのシングルページアプリケーションの実装
+seo-title: Adobe targetでの単一ページアプリの実装
 solution: 'Target '
 title: シングルページアプリケーションの実装
 topic: Standard
@@ -33,13 +33,13 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ビューとは何かをさらに説明するために、React で実装された架空のオンライン e コマースサイトを操作して、いくつかビューの例を見てみましょう。下のリンクをクリックして、このサイトを新しいブラウザタブで開きます。
 
-**リンク:[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
+**リンク：ホーム[サイト](https://target.enablementadobe.com/react/demo/#/)**
 
 ![ホームサイト](/help/c-experiences/assets/home.png)
 
 ホームサイトに移動すると、イースターセールを宣伝するヒーロー画像やこのサイトで販売されている最新の製品がすぐに表示されます。この場合、ビューはホームサイト全体として定義できます。この点については、後述の「Adobe Target ビューの実装」セクションで詳しく説明します。
 
-**リンク:[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+**リンク：製[品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![製品サイト](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 「Load More」ボタンをクリックして、サイト上のより多くの製品を見てみることにします。この場合、Web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。このビューは「PRODUCTS-PAGE-2」と呼べます。
 
-**リンク:[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+**リンク：チェックア[ウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![チェックアウトページ](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    次に、仮想的な e コマース SPA 向けに React で `triggerView()` 関数を呼び出す方法の使用例を見てみましょう。
 
-   **リンク:[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
+   **リンク：ホーム[サイト](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**リンク:[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+**リンク：製[品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
 それでは、もう少し複雑な例を見てみましょう。マーケティング担当者の立場から、ユーザーが「Load More」ボタンをクリックした後に「Price」ラベルの色を赤にして、2 列目の製品をパーソナライズするとしましょう。
 
@@ -147,7 +147,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
  }
 ```
 
-**リンク:[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+**リンク：チェックア[ウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![React チェックアウト](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
 
-詳しくは、at. js2. xの仕組み [](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) についてを参照してください。
+詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) を参照してください。
 
 ### SPA での at.js 2.x の実装
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=jpn)
 
-詳しく [は、「シングルページアプリケーション（SPA）](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 」にあるAdobe Targetのat. js2. xの実装を参照してください。
+詳し [くは、「Adobe targetのat.js 2.xのシングルページアプリケーション(SPA)への実装」を参照してください](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
 ### Adobe Target での SPA 用 VEC の使用
 
