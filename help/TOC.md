@@ -342,7 +342,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)
-   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
+   + [Recommendationsの概要](c-recommendations/introduction-to-recommendations.md)
    + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
    + エンティティ {#entities}
       + [エンティティの概要](c-recommendations/c-products/products.md)
