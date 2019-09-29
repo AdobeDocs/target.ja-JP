@@ -44,7 +44,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
 | メソッド | 説明 |
 |--- |--- |
 | 直接ページにパラメーターを渡す | この方法は、頻繁に変更される品目に適しています。しかし、ページを直接変更する必要があるため、多くの組織では IT 部門やページを実装する人が関与することが求められます。 |
-| Google フィードまたは CSV フィードによってパラメーターを渡す | この方法は、頻繁に変更されないコレクションに適しています。フィードを経由して商品情報を提供する場合、通常は の実装や他のページのコードを変更する必要はありません。ただし、商品リストは静的なままなので、すばやい変更は難しくなります。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
+| Google フィードまたは CSV フィードによってパラメーターを渡す | この方法は、頻繁に変更されないコレクションに適しています。フィードを経由して商品情報を提供する場合、通常は実装や他のページのコードを変更する必要はありません。ただし、商品リストは静的なままなので、すばやい変更は難しくなります。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
 
 上記の方法は、次の例のように個別に使用することも、組み合わせて使用することもできます。
 
@@ -54,7 +54,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
 
 この方法は、相対的に設定された商品カタログがあるものの、特定の季節の品目や特価の品目を強調したい小売店などに好まれます。ほとんどの顧客は主にフィードを経由して情報を提供し、特定の場合のみページの調整をおこないます。
 
-フィードを使用して、頻繁に変更されない情報を提供します。CSV ファイルと Google フィードのどちらを使用する場合でも、次のパラメーターを使用します。
+頻繁に変更されない情報の提供には、フィードを使用します。CSV ファイルと Google フィードのどちらを使用する場合でも、次のパラメーターを使用します。
 
 * 必須パラメーター
 
@@ -70,7 +70,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
    * `entity.message`
    * すべてのカスタム属性
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+フィードが設定されて [!DNL Recommendations] に渡されたら、頻繁に（つまり 1 日 2 回以上）変更する属性のページにパラメーターを渡します。
 
 * 必須パラメーター
 
@@ -149,7 +149,7 @@ function targetPageParams() {
 
 [!DNL mbox.js] の実装について詳しくは、[Mbox.js の実装](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)を参照してください。
 
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+この 2 つの Target JavaScript ライブラリの違いについて詳しくは、[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
 ## カテゴリページ {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -196,7 +196,7 @@ function targetPageParams() {
 </script>
 ```
 
-## 「ありがとうございます」ページ {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## 「ありがとうございます」ページ{#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 「ありがとうございます」ページでは、別の品目のレコメンデーションをおこなわずに、注文の合計、注文 ID、購入した製品を表示することができます。2 つ目の mbox を実装し、注文情報を取得できます。
 
