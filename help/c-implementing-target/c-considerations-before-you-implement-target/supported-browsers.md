@@ -18,9 +18,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL Adobe Target] アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
 
-TLS に関する追加の重要情報については、「[TLS（トランスポート層セキュリティ）暗号化の変更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)」を参照してください。
+TLS に関する追加の重要情報については、[TLS（トランスポート層セキュリティ）暗号化の変更](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を参照してください。
 
-## [!DNL Target] Standard/Premiumのインターフェイス {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target]Standard／Premium インターフェイス{#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 [!DNL[!DNL Target]] Standard/Premium] インターフェイスは、次のブラウザーおよびデバイスをサポートしています。
 
@@ -29,7 +29,7 @@ TLS に関する追加の重要情報については、「[TLS（トランスポ
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome（最新、最新の 1 つ前）</li><li>Mozilla Firefox（最新、最新の 1 つ前）</li></ul> |
 | Mac | <ul><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
 
-## Content delivery {#section_1045A946056441268D40025529918D3D}
+## コンテンツ配信 {#section_1045A946056441268D40025529918D3D}
 
 コンテンツ配信は、次のブラウザーおよびデバイスでテストされています。
 
