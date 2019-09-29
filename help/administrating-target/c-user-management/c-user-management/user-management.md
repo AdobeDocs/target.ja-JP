@@ -45,7 +45,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
    または
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   既に Experience Cloud にログインしている場合は、「[https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動してから、上部のナビゲーションバーで[!UICONTROL アプリ]アイコンをクリックし、右側の&#x200B;**[!UICONTROL 管理]**」をクリックします。
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
@@ -53,14 +53,14 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザー]** をクリックして新しいユーザーを作成するか、既存のユーザーを編集します。
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザー]**&#x200B;をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## ユーザーグループの作成 {#user-groups}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. [管理コンソール](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)で **[!UICONTROL 、ユーザー]** / **[!UICONTROL ユーザーグループ]** をクリックして、新しいユーザーグループを作成するか、既存のグループを編集します。
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザーグループ]**&#x200B;をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
@@ -76,7 +76,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 1. 目的の設定の名前をクリックします。
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
-   [!UICONTROL 「ユーザー] 」タブには、そのワークスペース内のすべてのユーザーが表示されます。
+   「[!UICONTROL ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
@@ -90,12 +90,12 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
-## トレーニングビデオ:Target Workspaceの設定方法
+## トレーニングビデオ：Target のワークスペースの設定方法
 
 学習内容：
 
-* Adobe TargetインターフェイスからAdobe Admin Consoleにアクセスする（3つの方法）
-* Adobe Admin Consoleでのワークスペースの設定
+* Adobe Target インターフェイスから Adobe Admin Console へのアクセス（3 つの方法）
+* Adobe Admin Console でのワークスペースの設定
    * ユーザーをワークスペースに追加します
    * プロパティをワークスペースに追加します
 * デフォルトのワークスペースの概要を説明します
