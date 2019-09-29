@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-以下の図に、Macintosh OSを使用するオーディエンスのターゲット設定を示します。
+以下の図に、Macintosh OS を使用する訪問者をターゲットにしたオーディエンスを示します。
 
 ![](assets/target_os.png)
 
