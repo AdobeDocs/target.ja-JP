@@ -1,8 +1,8 @@
 ---
 description: アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、アクティビティのみ、activity- only、アドホック
-seo-description: アクティビティを作成する際に、Adobe Targetの3ステップのガイドによるワークフロー内から、アクティビティのみのオーディエンスを作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。
-seo-title: アクティビティのみのオーディエンスの作成Adobe Target
+seo-description: アクティビティのみのオーディエンスは、Adobe Target でアクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。
+seo-title: アクティビティのみのオーディエンスの作成（Adobe Target）
 solution: 'Target '
 title: アクティビティのみのオーディエンスの作成
 topic: Advanced,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # アクティビティのみのオーディエンスの作成{#create-an-activity-only-audience}
 
-アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるように[!UICONTROL オーディエンスライブラリ]に保存されることはありません。
 
 アクティビティのみのオーディエンスには次のようなメリットがあります。
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
+* アクティビティのみのオーディエンスを使用すると、1 回だけ使用して[!UICONTROL オーディエンスライブラリ]には格納されないオーディエンスを作成できます。これにより、[!UICONTROL オーディエンスライブラリ]がもう一度使用することのないオーディエンスであふれるのを防ぐことができます。
+* アクティビティのみのオーディエンスは、[!UICONTROL オーディエンスライブラリ]に表示されません。このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
 
-1. [アクティビティの作成時](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)に **[!UICONTROL 、ターゲット]** ページで3つの垂直の楕円をクリックし、「オーディエンス **[!UICONTROL を置換」をクリック]**&#x200B;します。
+1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成時に、**[!UICONTROL Target]** ページで縦並びの省略記号をクリックし、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. [!UICONTROL オーディエンスを選択]ページで、「**[!UICONTROL アクティビティのみのオーディエンス]**」をクリックします。
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 アクティビティのみのオーディエンスを操作する際は、次の情報に注意してください。
 
 * アクティビティのみのオーディエンスは、Visual Experience Composer（VEC）またはフォームベースの Experience Composer で作成できます。この機能は、以前のバージョンの Target の絞り込みルールに代わるものです。
-* [!UICONTROL オーディエンスライブラリ] に保存するアクティビティを作成して、他のアクティビティで再利用したり、アクティビティのみのオーディエンスを作成したりできます。オーディエンスを保存した後にオーディエンスタイプを変更することはできません。
+* [!UICONTROL オーディエンスライブラリ]に格納して他のアクティビティで再利用できるアクティビティを作成することも、アクティビティのみのオーディエンスを作成することもできます。オーディエンスを保存した後にオーディエンスタイプを変更することはできません。
 * 既存のアクティビティの絞り込みは、アクティビティのみのオーディエンスに移行されます。
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. 未使用のアクティビティのみのオーディエンスは、アクティビティが保存されるまで表示されます。アクティビティのみのオーディエンスを使用しないままアクティビティを保存しようとすると、未使用のアクティビティのみのオーディエンスが削除されることを示す警告メッセージが表示されます。
+* アクティビティのみのオーディエンスには、「[!UICONTROL 使用済み]」または「[!UICONTROL 未使用]」のステータスがあります。未使用のアクティビティのみのオーディエンスは、アクティビティが保存されるまで表示されます。アクティビティのみのオーディエンスを使用しないままアクティビティを保存しようとすると、未使用のアクティビティのみのオーディエンスが削除されることを示す警告メッセージが表示されます。
 * オーディエンス定義の詳細は、オーディエンスを開かなくても、オーディエンスピッカーからアクセスできるポップアップカードで確認できます。
-* 次のことができます[複数のオーディエンスを組み合わせて](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アクティビティのみのオーディエンスを作成できます。
+* 次の操作を実行できます。[複数のオーディエンスを組み合わせて](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アクティビティのみのオーディエンスを作成できます。
 
