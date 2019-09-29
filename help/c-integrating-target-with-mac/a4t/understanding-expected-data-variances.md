@@ -15,7 +15,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 # A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違{#expected-data-variances-when-not-using-a-t}
 
-Analytics をレポートソース（A4T）として&#x200B;*使用する*&#x200B;場合と&#x200B;*使用しない*&#x200B;場合の [!DNL Target] と Adobe [!DNL Analytics] の予期されるデータの相違に関する情報。A4T はデータの相違を大幅に削減します.
+Analytics をレポートソース（A4T）として&#x200B;*使用する*&#x200B;場合と&#x200B;*使用しない*&#x200B;場合の [!DNL Target] と Adobe [!DNL Analytics] の予期されるデータの相違に関する情報です。A4T はデータの相違を大幅に削減します.
 
 ## A4T を利用しない場合に予期されるデータの相違{#expected-using-a4t}
 
@@ -31,7 +31,7 @@ A4T では、Analytics と Target のアクティビティのレポート双方�
 
    >[!NOTE]
    >
-   >既知の問題が出てきました。A4Tでリダイレクトを使用して、関連付けられていないヒット率の高い割合を確認すると、限られた数の顧客がリダイレクトされます。[既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
+   >A4T によるリダイレクトを使用するお客様の数に制限があることにより、未関連付けヒット率の割合が高く表示されるという既知の問題があります。[既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
 
 * 特定のページへのすべての訪問者に対して自動配分アクティビティを作成するとします。自動配分アクティビティは A4T をサポートしないため、すべてのアクティビティデータは [!DNL Target] が収集します。[!DNL Target] レポートのアクティビティへの訪問者は、同じ日付範囲の [!DNL Analytics] レポートのページへの訪問者に一致すると考えるかもしれません。このシナリオでは、以下に説明する通り相違が予期されます。
 
