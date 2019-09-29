@@ -21,7 +21,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 >[!NOTE]
 >
->[!DNL Recommendations] アクティビティは [、Target Premiumソリューションの一部として使用](/help/c-intro/intro.md#premium)できます。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
+>[!DNL Recommendations] アクティビティは、[Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 >
 >現在 [!DNL Recommendations Classic] がある場合、2 つのソリューションについて詳しくは、[Recommendations Classic と Target Premium の Recommendations アクティビティ](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)を参照してください。
 
@@ -61,6 +61,6 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 ## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
 
-*Recommendationsの* ウェビナーの概要には、価値を活用するための詳細な調査が含ま [!DNL Adobe Target Recommendations]れています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
+*Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
 [Recommendationsの概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
