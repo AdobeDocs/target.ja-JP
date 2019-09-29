@@ -29,7 +29,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックしてから、希望する [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) アクティビティをリストからクリックします。
 
-   多数のアクティビティが表示される場合は、「[!UICONTROL 種類]」、「[!UICONTROL ステータス]」、「[!UICONTROL レポートソース]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL 指標のタイプ]」、「[!UICONTROL アクティビティソース]」のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
+   多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
