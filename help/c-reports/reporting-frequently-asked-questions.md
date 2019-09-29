@@ -1,8 +1,8 @@
 ---
 description: Target のレポートに関するよくある質問のリストです。
 keywords: トラブルシューティング。指標の相違、FAQ、レポート
-seo-description: Adobe Targetのレポートに関するよくある質問のリストです。
-seo-title: Adobe TargetのレポートFAQ
+seo-description: Adobe targetのレポートに関するよくある質問のリストです。
+seo-title: Adobe targetのレポートFAQ
 solution: 'Target '
 title: レポートの FAQ
 topic: Standard
@@ -17,16 +17,16 @@ source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 [!DNL Target] のレポートに関するよくある質問のリストです。
 
-## [!UICONTROL エクスペリエンスターゲット設定] （XT）レポートにコントロールエクスペリエンスの指標が含まれているのはなぜですか。
+## エクスペリエンスのターゲ [!UICONTROL ット設定] (XT)レポートにコントロールエクスペリエンスの指標が含まれるのはなぜですか。
 
-XTアクティビティには、常にコントロールのエクスペリエンスが必要です。If you are using an XT activity in a similar manner to an [!UICONTROL A/B Test] activity, which is a fairly common scenario, the control experience data is useful. レポートで有用でない場合は、コントロールのエクスペリエンスデータを無視できます。
+XTアクティビティは常にコントロールのエクスペリエンスを持つ必要があります。 XTアクティビティを [!UICONTROL A/B Test] （かなり一般的なシナリオ）と同様の方法で使用している場合は、コントロールエクスペリエンスのデータが役に立ちます。 コントロールエクスペリエンスのデータがレポートで役に立たない場合は、そのデータを無視できます。
 
 ## Why are the number of visits lower in [!DNL Target] than in other [!DNL Adobe Experience Cloud] solutions? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 [!DNL Target] が報告する訪問などの指標の数値が、他の [!DNL Experience Cloud] ソリューションが報告する数値よりも常に低いのには多数の理由があります。
 
 * [!DNL Target] はアクティビティに該当する訪問者のみの訪問数を数えます。他のソリューションは、訪問者をページに導いたアクティビティが何であったかに関わらず、ページを表示する訪問者の訪問を数えます。
-* 異なるアクティビティが同じ場所（相互に排他的）で競合している場合があります。その結果、訪問者は Web ページ上で異なるコンテンツを見ることになり、[!DNL Target] が報告する指標の数値に影響します。
+* 異なるアクティビティが同じ場所（相互に排他的）を競い合う状況が発生する可能性があります。 その結果、訪問者は Web ページ上で異なるコンテンツを見ることになり、[!DNL Target] が報告する指標の数値に影響します。
 
 ## アクティビティのレポートにデータがないのはなぜでしょうか。{#section_E4722F6445884130951DF79981C8289B}
 
