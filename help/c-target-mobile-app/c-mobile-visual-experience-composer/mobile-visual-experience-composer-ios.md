@@ -233,19 +233,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## チュートリアル：モバイル iOS Objective-C および Swift アプリケーションへの Experience Cloud の実装 {#tutorial}
 
-* [Mobile iOS Objective- CアプリケーションにExperience Cloudを実装する](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Mobile iOS SwiftアプリケーションへのExperience Cloudの実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [モバイル iOS Objective-C アプリケーションへの Experience Cloud の実装](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [モバイル Swift アプリケーションへの Experience Cloud の実装 ](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-これらのチュートリアルを完了すると、次のことが可能になります。
+これらのチュートリアルでは、以下の内容について学習します。
 
-* モバイル開始プロパティの作成
-* Objective- CまたはSwiftアプリケーションに起動プロパティをインストールする
-* 以下のAdobe Experience Cloudソリューションを実装します。
+* モバイル Launch プロパティの作成
+* Objective-C または Swift アプリへの Launch プロパティのインストール
+* 以下の Adobe Experience Cloud ソリューションの実装：
    * Experience Cloud ID サービス
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 開発環境、ステージング環境および実稼動環境での変更の発行
+* 開発、ステージングおよび実稼動環境を使用した Launch の変更の公開
