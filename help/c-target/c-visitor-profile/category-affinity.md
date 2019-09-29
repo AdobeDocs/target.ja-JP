@@ -1,8 +1,8 @@
 ---
 description: カテゴリ親和性機能では、ターゲット設定とセグメント化のために、ユーザーが訪問するカテゴリを自動的にキャプチャし、そのカテゴリに対するユーザーの親和性を計算します。これによって、コンテンツをその情報に基づいて行動を起こす可能性が最も高い訪問者にターゲット設定することができます。
 keywords: 親和性、カテゴリ親和性
-seo-description: Adobe Targetのカテゴリ親和性機能は、ユーザーが訪問するカテゴリを自動的にキャプチャし、ターゲット設定およびセグメント化できるように、カテゴリに対するユーザーの親和性を計算します。これによって、コンテンツをその情報に基づいて行動を起こす可能性が最も高い訪問者にターゲット設定することができます。
-seo-title: Adobe Targetでのカテゴリ親和性の使用
+seo-description: Adobe Target のカテゴリ親和性機能では、ターゲット設定とセグメント化のために、ユーザーが訪問するカテゴリを自動的にキャプチャし、そのカテゴリに対するユーザーの親和性を計算します。これによって、コンテンツをその情報に基づいて行動を起こす可能性が最も高い訪問者にターゲット設定することができます。
+seo-title: Adobe Target でのカテゴリ親和性の使用
 solution: 'Target '
 title: カテゴリ親和性
 topic: Standard
@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ユーザーがサイトを訪問したときには常に、訪問者に固有のプロファイルパラメーターが [!DNL Target] データベースに記録されます。データはユーザーの Cookie に結び付けられます。特に便利なパラメーターとして、製品 `user.categoryId` ページに割り当てられたmboxパラメーターがあります。訪問者が閲覧を続けるか、別のセッションに戻る場合に、特定のユーザーが閲覧する製品のカテゴリを記録することができます。カテゴリ情報の記録は、任意の mbox（ネストされた mbox を含む）の mbox パラメーター `user.categoryId` または URL パラメーター `user.categoryId` として、またはグローバル mbox を使用した Target ページのパラメーターで渡すことによっても実行できます。詳しくはアカウント担当者にお問い合わせください。
 
-カテゴリを複数のカテゴリに含めるには、カテゴリをコンマで区切ります。次に例を示します。
+項目を複数のカテゴリに含めるには、カテゴリをコンマで区切ります。次に例を示します。
 
 * `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` は、ユーザーのお気に入りのカテゴリを追跡するために必要です。`entity.categoryId` は、現在のページまたは現在の品目のカテゴリに基づいてレコメンデーションをベースにする必要があります。両方の機能を使用する場合は、両方の値をAdobe Targetに渡します。
+>Adobe Target のカテゴリ親和性アルゴリズムに使用する `user.categoryId` 属性は、Adobe Target Recommendations の製品およびコンテンツレコメンデーションに使用される `entity.categoryId` 属性とは異なります。ユーザーのお気に入りのカテゴリを追跡するには、`user.categoryId` が必要です。現在のページのカテゴリまたは現在の項目のカテゴリに関するレコメンデーションをベースにするには、`entity.categoryId` が必要です。両方の機能を使用したい場合、両方の値を Adobe Target に渡します。
 
 ## カテゴリ親和性のビジネス事例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -115,15 +115,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. わかりやすいオーディエンスの名前を入力します。
 1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]** をクリックします。
-1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、「**[!UICONTROL カテゴリーの親和性]**」を選択します。
+1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、**[!UICONTROL カテゴリーの親和性]**&#x200B;を選択します。
 
-   ![訪問者プロファイル/カテゴリ親和性](assets/affinity.png)
+   ![訪問者プロファイル／カテゴリ親和性](assets/affinity.png)
 
 1. 目的のカテゴリを選択します。
 
-   ![カテゴリ親和性/カテゴリ](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![カテゴリ親和性／カテゴリ](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
-   カテゴリには次のようなものがあります。
+   カテゴリには、以下が含まれます。
 
    * お気に入りのカテゴリ
    * 最初のカテゴリ
