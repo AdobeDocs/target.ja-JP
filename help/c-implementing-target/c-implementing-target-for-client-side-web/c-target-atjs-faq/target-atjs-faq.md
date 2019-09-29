@@ -29,7 +29,7 @@ at.js に関するよくある質問への回答を紹介します。
 
 上の図に示される通り、mbox.js を使用すると、[!DNL Target] の呼び出しが完了するまでページ内容が読み込まれません。at.js を使用すると、[!DNL Target] の呼び出しが開始するとページ内容が読み込まれ、呼び出しが完了するまで待ちません。 
 
-## What is the impact of at.js and mbox.js on page-load time? {#page-load}
+## at.js および mbox.js はページ読み込み時間にどのように影響しますか？{#page-load}
 
 特に新しいユーザーとリピートユーザーのコンテキストにおいて [!DNL at.js] と [!DNL mbox.js] がページ読み込み時間に与える影響を知りたいと考えているお客様やコンサルタントは数多くいます。残念ながら、[!DNL at.js] または [!DNL mbox.js] が各ページの読み込み時間にどのように影響するかはお客様の実装に左右されるので、具体的な数値を測定して示すことは困難です。
 
@@ -82,7 +82,7 @@ at.js に関するよくある質問への回答を紹介します。
  <li> at.js 1.0.0 以降：すべての Target リクエストの応答時間 = リクエストの応答時間の最大値 </li> 
 </ul>
 
-このように、[!DNL at.js] 1.0.0 の方がリクエストの処理が早く完了します。また、[!DNL at.js] のリクエストは非同期なので、Target によってページレンダリングがブロックされることはありません。リクエストの処理に数秒を要した場合でも、レンダリングされたページが表示されます。Target が Target エッジからの応答を受け取るまで、ページの一部分が空白になるだけです。
+このように、[!DNL at.js] 1.0.0 の方がリクエストの処理が早く完了します。また、[!DNL at.js] のリクエストは非同期なので、Target によってページレンダリングがブロックされることはありません。リクエストの処理に数秒を要した場合でも、レンダリングされたページが表示されます。Target が Target Edge からの応答を受け取るまで、ページの一部分が空白になるだけです。
 
 ## Target ライブラリを非同期で読み込むことはできますか。{#section_AB9A0CA30C5440C693413F1455841470}
 
@@ -120,15 +120,15 @@ If you are deploying at.js through an asynchronous Launch implementation, be sur
 
 [!DNL Adobe Experience Manager] 6.2 と FP-11577（またはそれ以降）で、[!DNL at.js] 実装とその [!UICONTROL Adobe Target Cloud Services] 統合をサポートします。詳しくは、*Adobe Experience Manager 6.2* ドキュメントの[機能パック](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)および [Adobe Target との統合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)を参照してください。
 
-## どうしたら at.js を使用してページ読み込み時のちらつきを回避できますか。{#section_4D78AAAE73C24E578C974743A3C65919}
+## どうしたら at.js を使用してページ読み込み時のちらつきを回避できますか？{#section_4D78AAAE73C24E578C974743A3C65919}
 
 Target には、ページ読み込み時のちらつきを回避する方法がいくつか用意されています。詳しくは、「[at.js によるちらつきの回避](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)」を参照してください。
 
-## at.js のファイルサイズはどれほどですか。{#section_6A25C9A14C66441785A7635FEF5C4475}
+## at.js のファイルサイズはどれくらいですか？{#section_6A25C9A14C66441785A7635FEF5C4475}
 
 at.js ファイルはダウンロード時には約 109 KB あります。ただし、ほとんどのサーバーは自動的にファイルを圧縮してファイルのサイズを小さくするので、（GZIP またはその他の方法を使用して）サーバーで圧縮され、ユーザーが Web サイトを訪問した際に読み込まれる at.js は約 34 KB になります。at.js をインストールしたサーバーの圧縮設定により、実際の圧縮サイズが決まります。
 
-## at.js が mbox.js よりも大きいのはなぜですか。{#section_AA1C43897E46448FA3E26EEC10ED7E51}
+## at.js が mbox.js よりも大きいのはなぜですか？{#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
 at.js 実装が単一のライブラリ（[!DNL at.js]）を使用するのに対して、mbox.js 実装は、実際には 2 つのライブラリ（[!DNL mbox.js] および [!DNL target.js]）を使用します。そのため、より公平な比較は、at.js 対 mbox.js *および* `target.js` になります。2 つのバージョンの gzip 圧縮サイズを比較すると、at.js バージョン 1.2 は 34 KB で、mbox.js バージョン 63 は 26.2 KB です。
 
@@ -156,7 +156,7 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 
 ## Adobe Experience Cloud デバッガーを at.js の実装と一緒に使用できますか。{#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-はい。また、mboxTrace をデバッグ目的で使用したり、ブラウザーの開発者ツールを使用して、ネットワーク要求を調査し、「mbox」にフィルターして mbox 呼び出しを分離することもできます。
+はい。 また、mboxTrace をデバッグ目的で使用したり、ブラウザーの開発者ツールを使用して、ネットワーク要求を調査し、「mbox」にフィルターして mbox 呼び出しを分離することもできます。
 
 ## at.js を使用した mbox 名に特殊文字を使用できますか。{#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -252,7 +252,7 @@ at.js は、ページのレンダリングをブロックしません。ユー�
 
 ## 完全にキャッシュされたページは上記のシナリオにどのように影響しますか？ページ上の他のコンテンツが読み込まれた後は、アクティビティのコンテンツがよりはっきりと見えるようになるのですか？ {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-ユーザーの場所から近くても Target エッジからは遠い CDN にページがキャッシュされている場合、そのユーザーは多少の遅延を感じる可能性があります。ただし、Target エッジは世界中に分散されているので、ほとんどの場合、これは問題になりません。
+ユーザーの場所から近くても Target Edge からは遠い CDN にページがキャッシュされている場合、そのユーザーは多少の遅延を感じる可能性があります。ただし、Target エッジは世界中に分散されているので、ほとんどの場合、これは問題になりません。
 
 ## ヒーロー画像が表示された後に、少し遅れてスワップアウトされる可能性はありますか？ {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
