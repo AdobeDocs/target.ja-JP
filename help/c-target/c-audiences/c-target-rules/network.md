@@ -1,8 +1,8 @@
 ---
 description: ネットワークの詳細に基づいたオーディエンスを作成できます。
 keywords: ターゲット設定、network、ターゲットネットワーク、isp、domain name、接続速度、target isp、targetドメイン名、ターゲット接続速度
-seo-description: ネットワークの詳細に基づいて、Adobe Targetでオーディエンスを作成できます。
-seo-title: ネットワークの詳細に基づいて、Adobe Targetでオーディエンスを作成します。
+seo-description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
+seo-title: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成します。
 solution: 'Target '
 title: ネットワーク
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+以下の図に、[!UICONTROL モバイル]の接続速度の AT&amp;T を使用する訪問者をターゲットにするオーディエンスを示します。
 
 ![ネットワークターゲット](assets/target_network.png)
 
