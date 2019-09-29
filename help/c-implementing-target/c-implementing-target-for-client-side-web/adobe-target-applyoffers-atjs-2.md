@@ -1,6 +1,6 @@
 ---
 description: 'at.js の adobe.target.applyOffers() 関数について説明します。 '
-keywords: adobe. target. applyOffers;applyOffers;applyers;オファーの適用、at. js;関数、関数
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;function;function
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
 solution: 'Target '
