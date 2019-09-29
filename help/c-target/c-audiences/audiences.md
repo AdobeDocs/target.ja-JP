@@ -19,7 +19,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。アクティビティをターゲティングする場合、[!UICONTROL オーディエンス]リストから再利用可能なオーディエンスを選択するか、[アクティビティ専用のオーディエンス](/help/c-target/creating-activity-only-audience.md)を作成します。または、[複数のオーディエンスを組み合わせて](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アドホックオーディエンスを作成します。
 
-リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。『コアサ [ービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』ユーザーガ *イドの「オーディエンス*」を参照してください。
+リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。See Audiences in the Core Services User Guide.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)**
 
 [!DNL Target] では、次の 2 種類のオーディエンスが定義されます。
 
