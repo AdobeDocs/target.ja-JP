@@ -22,7 +22,7 @@ Target では、任意の要素に対するクリックを成功指標として�
 >
 >クリックの追跡は、ターゲットグローバル mbox がフォームベースのアクティビティの場所として使用されている場合はサポートされません。
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## クリックの追跡の設定 {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]**&#x200B;成功指標を選択します。
 1. アクションの場合、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択**]」をクリックします。
@@ -37,31 +37,31 @@ Target では、任意の要素に対するクリックを成功指標として�
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
-## Selected Elements panel {#selected-elements}
+## 選択された要素パネル {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+A/B テスト、エクスペリエンスターゲット設定（XT）、自動パーソナライゼーション（AP）および多変量分析テスト（MVT）アクティビティの場合、[!UICONTROL 選択された要素]パネルには、クリックの追跡用に選択されたすべての要素が右側にリストされます。
 
-![選択したエレメントパネル](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![選択された要素パネル](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 次の表で、要素に対して実行できる各アクションについて説明します。
+[!UICONTROL 選択された要素]パネルの要素にマウスポインターを置くと、いくつかの操作を適用できます。以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
-| 情報 | 要素タイプと、セレクターへのフルDOMパスを表示します。 |
-| 編集 | CSSセレクターを編集できます。 |
+| 情報 | 要素タイプおよびセクターへの完全な DOM パスを表示します。 |
+| 編集 | CSS セクターを編集できます。 |
 | 削除 | 要素を削除します。 |
 
-### 要素の追加
+### 要素を追加
 
-セレクターのDOMパスが既にわかっている場合は、パネルの上部にあるプラスアイコンをクリックして手動で追加できます。
+セクターへの DOM パスを既に知っている場合、パネルの上部にあるプラスアイコンをクリックして、手動で追加できます。
 
 ![要素を追加アイコン](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### 選択したエレメントカーソルポップアップ
+### 選択された要素ポップアップ
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. このリストには、選択した要素がクリック追跡に使用されることを検証するために、要素の完全なDOMパスが含まれています。
+クリックの追跡用の複数の要素を選択したら、アクティビティの[!UICONTROL 目標と設定]ステップの[!UICONTROL 選択した要素]リンクをクリックして、クリックの追跡用に選択した要素の完全なリストを表示します。リストには、要素への完全な DOM パスが含まれています。選択された要素がクリックの追跡用に使用されていることを検証できます。
 
-![エレメント選択リンク](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![選択された要素リンク](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 注意点 {#considerations}
 
@@ -86,7 +86,7 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
    |---|---|
    | # | 番号記号またはハッシュ |
    | : | コロン |
-   | を参照してください。 | ピリオド |
+   | 。 | ピリオド |
    | $ | ドル記号 |
    | `[ ]` | 角括弧 |
 
