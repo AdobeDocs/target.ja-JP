@@ -1,10 +1,10 @@
 ---
-description: 自動パーソナライゼーションアクティビティでは、ページ上の複数のオファーを比較するので、各エクスペリエンスでページをプレビューすると便利です。
+description: 自動パーソナライゼーションアクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 keywords: Recommendations
-seo-description: 自動パーソナライゼーション（AP）アクティビティでは、ページ上の複数のオファーを比較するので、各エクスペリエンスでページをプレビューすると便利です。
-seo-title: Adobe Target Visual Experience Composerでの自動パーソナライゼーション（AP）アクティビティのエクスペリエンスのプレビュー
+seo-description: 自動パーソナライゼーション（AP）アクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
+seo-title: Adobe Target Visual Experience Composer での自動パーソナライゼーション（AP）アクティビティのエクスペリエンスのプレビュー
 solution: 'Target '
-title: Visual Experience Composer での Automated Personalization のエクスペリエンスのプレビュー
+title: Visual Experience Composer での自動パーソナライゼーションのエクスペリエンスのプレビュー
 title-outputclass: Premium
 topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
@@ -15,21 +15,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Visual Experience Composer での Automated Personalization のエクスペリエンスのプレビュー{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![PREMIUM](/help/assets/premium.png) Visual Experience Composer での自動パーソナライゼーションのエクスペリエンスのプレビュー{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-自動パーソナライゼーション（AP）アクティビティでは、ページ上の複数のオファーを比較するので、各エクスペリエンスでページをプレビューすると便利です。
+自動パーソナライゼーション（AP）アクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 
-1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
+1. Visual Experience Composer で、「**[!UICONTROL プレビュー]**」をクリックします。
 
    ![プレビューアイコン](/help/c-activities/t-automated-personalization/assets/preview.png)
 
    すべてのエクスペリエンスのリストが表示されます。
 
-   ![エクスペリエンスのプレビュー](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
+   ![エクスペリエンスをプレビュー](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
 1. リスト内の特定のエクスペリエンスをクリックして表示します。
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
+1. （条件付き）1 つ以上のエクスペリエンスをアクティビティから除外するには、「**[!UICONTROL 除外]**」アイコンをクリックします。
 
    ![除外アイコン](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
@@ -39,12 +39,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
-   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
+   エクスペリエンスを除外するには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL 除外]**」アイコンをクリックします。
 
-   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
+   複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスをオンにしてから、リストの右上にある「**[!UICONTROL 除外]**」アイコンをクリックします。
 
-   自動パーソナライゼーションアクティビティには、デフォルトで、すべてのエクスペリエンスが組み込まれます。To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
+   自動パーソナライゼーションアクティビティには、デフォルトで、すべてのエクスペリエンスが組み込まれます。除外したエクスペリエンスを含めるには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL 含める]**」アイコンをクリックします。
 
-   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
+   除外した複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスをオンにしてから、リストの右上にある「**[!UICONTROL 含める]**」アイコンをクリックします。
 
-1. **[!UICONTROL 「構成」]** をクリックしてVisual Experience Composerに戻り、変更を加えるか、「 **[!UICONTROL 次へ」]** をクリックして [!UICONTROL ターゲット] 設定手順に進みます。
+1. 「**[!UICONTROL 作成]**」をクリックして Visual Experience Composer に戻り、変更を加えるか、「**[!UICONTROL 次へ]**」をクリックして、[!UICONTROL ターゲット設定]ステップに移動します。
