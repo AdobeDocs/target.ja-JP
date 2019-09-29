@@ -1,7 +1,7 @@
 ---
-description: アクティビティURLは、アクティビティの設計時に、エクスペリエンスターゲット設定アクティビティで使用されるページと、Visual Experience Composer（VEC）またはフォームベースのExperience Composerで表示されるページを決定します。
+description: アクティビティ URL は、エクスペリエンスターゲット設定アクティビティで使用され、アクティビティを設計する際に Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
 keywords: ターゲット設定
-seo-description: アクティビティURLは、アクティビティの設計時に、エクスペリエンスターゲット設定アクティビティで使用されるページと、Adobe Target Visual Experience Composer（VEC）またはフォームベースのExperience Composerで表示されるページを決定します。
+seo-description: アクティビティ URL は、エクスペリエンスターゲット設定アクティビティで使用され、アクティビティを設計する際に Adobe Target Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
 seo-title: アクティビティ URL
 solution: 'Target '
 title: アクティビティ URL
@@ -14,19 +14,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # アクティビティ URL{#activity-url}
 
-アクティビティURLは、アクティビティの設計時に、エクスペリエンスターゲット設定（XT）アクティビティで使用されるページ、およびVisual Experience Composer（VEC）またはフォームベースのExperience Composerで表示されるページを決定します。
+アクティビティ URL は、エクスペリエンスターゲット設定（XT）アクティビティで使用され、アクティビティを設計する際に Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
 
-1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. `https://` を含む完全な URL を入力して、「**[!UICONTROL アクティビティを作成]**」をクリックします。
+1. [XT アクティビティを作成する](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)際にアクティビティ URL の入力を求められたら、URL を指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
    >[!NOTE]
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). アクティビティ作成中に、異なるページを指定することもできます。
+   >デフォルトでは、[アカウントの基本設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)で指定されたページが VEC または フォームベースの Experience Composer で開かれます。アクティビティ作成中に、異なるページを指定することもできます。
    >
-   >Target StandardのJavaScriptコードを含まないサイトのURLを指定すると、ページエレメントを選択できません。
+   >Target Standard の JavaScript コードを含まないサイトの URL を指定すると、ページ要素を選択できません。
 
-1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, and specify the URL in the [!UICONTROL URL] field.
+1. （条件付き）VEC を開いた後に異なるページを表示するには、「**[!UICONTROL 設定]**」をクリックして「**[!UICONTROL ページ配信]**」を選択し、「[!UICONTROL URL]」フィールドに URL を指定します。
 
    ![ページ配信ダイアログボックス](/help/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
 
-1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
+1. （条件付き）アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]**」をクリックします。
 
    追加のルールは、以下のいずれかに基づいています。
 
