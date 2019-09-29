@@ -38,7 +38,7 @@ Target のレポート UI には、上昇率関連の次の情報が含まれて
 
 次の図には、上昇率範囲と信頼水準の情報がまとめられています。
 
-![上昇率レベルと信頼性レベルの平均レポート](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![平均上昇率および信頼性レベルレポート](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 上昇率範囲の算出方法 {#section_1D360781D972483693680BE0F07AEAD1}
 
