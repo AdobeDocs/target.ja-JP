@@ -1,8 +1,8 @@
 ---
-description: Targetのサポート対象とサポートされていないat. jsプラグインに関する情報です。
-keywords: at. jsプラグイン;サポートされているプラグイン;サポートされていないプラグイン;ttMeta;ttmeta;mboxTrack
-seo-description: Adobe Targetのサポート対象とサポートされていないat. jsプラグインに関する情報です。
-seo-title: Adobe Target用at. jsプラグイン
+description: Targetでサポートされる、およびサポートされないat.jsプラグインに関する情報です。
+keywords: at.jsプラグイン；サポートされているプラグイン；サポートされていないプラグイン；ttMeta;ttmeta;mboxTrack
+seo-description: Adobe targetのサポート対象およびサポート対象外のat.jsプラグインに関する情報です。
+seo-title: Adobe target用のat.jsプラグイン
 solution: 'Target '
 title: at.js プラグイン
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Adobe Targetのサポート対象とサポートされていないat. jsプラグインに関する情報です。
+Adobe targetでサポートされている、またはサポートされていないat.jsプラグインに関する情報です。
 
 多くのユーザーが、カスタマイズしたプラグインおよび [!DNL mbox.js] の応答プラグインを構築しています。こうしたカスタムプラグインは、更新しないと [!DNL at.js] でサポートされない可能性があります。
 
