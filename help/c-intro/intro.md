@@ -1,6 +1,6 @@
 ---
 description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
-keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動ターゲット;自動的なターゲット;権限
+keywords: Target Standard;Recommendations;Target Premium;自動パーソナライゼーション;自動ターゲット;自動的なターゲット;権限
 seo-description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
 seo-title: Target の概要
 solution: 'Target '
@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
 
-次のビデオでは、Targetが他のAdobe Experience Cloudソリューションと共にどのようにTargetを達成するかについて、基本的な理解を深めてくれます。
+以下のビデオでは、Target を他の Adobe Experience Cloud ソリューションと共に組織の目標達成に役立てる方法に関する基礎知識を提供します。
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -43,13 +43,13 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 
 Target Premium には次のようなプレミアム機能があります。
 
-### Automated Personalization
+### 自動パーソナライゼーション
 
-[Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。
+[自動パーソナライゼーション](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。
 
-Automated Personalization（旧称 Test&amp;Target 1:1）は、サイト上での訪問者のアクティビティを記録して、訪問者のプロファイルを構築することで、コンテンツのターゲットを類似する訪問者に設定できます。コンテンツに対する反応を、訪問者個人と訪問者全体の両方について記録し、高度なモデリングアプローチを使用して、情報に基づいてひとりひとりの訪問者を自動的にターゲット設定します。
+自動パーソナライゼーション（旧称 Test&amp;Target 1:1）は、サイト上での訪問者のアクティビティを記録して、訪問者のプロファイルを構築することで、コンテンツのターゲットを類似する訪問者に設定できます。コンテンツに対する反応を、訪問者個人と訪問者全体の両方について記録し、高度なモデリングアプローチを使用して、情報に基づいてひとりひとりの訪問者を自動的にターゲット設定します。
 
-Automated Personalization には自動学習機能が備わっており、分析者の作業を省力化します。完全自動化で、継続的に学習します。モデルを作成し、個々の訪問者が最も関心を持つ可能性のある製品について自動的に学習します。訪問者がサイトを操作するたびに、情報を収集し、訪問者プロファイルに保存します。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
+自動パーソナライゼーションには自動学習機能が備わっており、分析者の作業を省力化します。完全自動化で、継続的に学習します。モデルを作成し、個々の訪問者が最も関心を持つ可能性のある製品について自動的に学習します。訪問者がサイトを操作するたびに、情報を収集し、訪問者プロファイルに保存します。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
 
 ### 自動ターゲット
 
@@ -94,11 +94,11 @@ Automated Personalization には自動学習機能が備わっており、分析
 
 詳しくは、『[Recommendations Classic ドキュメント](../assets/adobe-recommendations-classic.pdf)』を参照してください。
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League：Adobe Target Welcome Kit {#kit}
 
-Adobe Targetの最適化プログラムとパーソナライゼーションプログラムを、このようこそキットで構築します。最初のAdobe Targetアクティビティの準備や開始に役立つ重要な情報、ツール、リソースが含まれています。短期間の優先課題と長期的な最適化戦略があります。
+この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。最初の Adobe Target アクティビティを準備および開始するのに役立つ主要情報、ツールおよびリソースが含まれており、短期間でのすばやい成果と長期間の最適化戦略を実現します。
 
-[Adobe Targetスタートアップキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## トレーニングビデオ：アクティビティのタイプ（9:03）
 
