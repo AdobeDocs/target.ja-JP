@@ -33,7 +33,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 コミュニティフォーラムでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「Target の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。
 
-[過去のセッションを視聴する場合や、今後のセッションおよび登録情報について詳しくは、ここをクリック](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)してください。
+[ここをクリックして、過去のセッションを見たり、今後のセッションや登録情報の詳細を確認したりします](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## アドビカスタマーケアの営業時間 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -46,9 +46,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [Visual Experience Composer（VEC）](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:24<br>2017年12月 | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
-| [Adobe Target:Analytics/Target統合（A4T）](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at. js:メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017<br>年12月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
+| [Adobe Target:Analytics/Targetの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
+| [at.js:メリットと実装のベストプラク](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>ティス26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Target Insider は、Adobe Target コミュニティのメンバーを対�
 
 >[!IMPORTANT]
 >
->[サインアップすると、インボックスでAdobe Target Invererのニュースレターが自動的に受信](https://www.adobe.com/subscription/adobe_target_newsletter.html)されます。
+>[新規登録すると、受信トレイにAdobe Target Insiderニュースレターが自動的に届きます](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
 
 以前のニュースレターを見逃した場合は、次のリンクをクリックして、見落としがないようにしてください。
 
