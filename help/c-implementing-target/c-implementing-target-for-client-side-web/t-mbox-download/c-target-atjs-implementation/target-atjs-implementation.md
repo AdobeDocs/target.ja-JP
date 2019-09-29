@@ -25,7 +25,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 >
 >（FP-11577 以降）が適用された Adobe Experience Manager（AEM）6.2 では、at.js 実装とその Adobe Target Cloud Services 統合がサポートされています。詳しくは、*Adobe Experience Manager 6.2 ドキュメント*&#x200B;の[機能パック](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)および [Adobe Target との統合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)を参照してください。
 
-## Benefits of at.js {#benefits}
+## at.js のメリット {#benefits}
 
 次の表は、この 2 つのライブラリの違いを説明しています。
 
@@ -34,7 +34,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 | at.js | at.js は、mbox.js に替わる [!DNL Target] 実装ライブラリです。<br>多くのメリットがある中でも、at.js は、Web 実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chrome での document.write 警告を回避し、シングルページアプリケーション向けのより優れた実装オプションを提供します。<br>詳しくは、「[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)」を参照してください。 |
 | mbox.js | [!DNL Target] 16.3.1（2016 年 3 月）以前は、[!DNL Target] がアクティビティの配信、クリックの追跡、および最も成功した指標の追跡を行うためには、[!DNL Target] が mbox.js を呼び出して必要なグローバル mbox を作成する必要がありました。mbox.js ファイルには、各アクティビティに必要なものがすべて格納されています。アクティビティごとに異なる mbox.js ファイルを管理する必要はありません。<br>古いスタイルの [!DNL Target] 実装から既にページに mbox のラッピングが含まれている場合、その mbox は、新しいインターフェイスでもそのまま使用できます。更新された mbox.js ファイルは引き続き必要になりますが、これらの mbox は、アクティビティ用に選択したり、Visual Experience Composer を使用して編集したりすることができます。<br>[!DNL Target] Standard および Premium では、target.js ファイルを参照することで mbox.js が更新および補完されます。target.js ファイルは、アドビがホストしています。target.js によって、事前定義された mbox がページに含まれていなくても、Visual Experience Composer を使用してどのページでもコンテンツの編集が可能になります。このファイルは、サイト上のすべてのページで参照する必要があります。<br>詳しくは、「[mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)」を参照してください。<br>**重要**： mbox.js ライブラリは引き続きサポートされますが、機能はアップデートされません。すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>」を参照してください。 |
 
-## at. jsの実装
+## at.js の実装
 
 [!DNL at.js] を使用するには、実装したいページの [!DNL mbox.js] 参照を置き換えます。[!DNL mbox.js] と [!DNL at.js] の両方をシングルページで使用できません。ただし、サイトのページごとにどちらかを使用できます。
 
