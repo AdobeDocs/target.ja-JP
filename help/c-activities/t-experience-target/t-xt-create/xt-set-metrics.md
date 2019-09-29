@@ -1,7 +1,7 @@
 ---
 description: エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 keywords: エクスペリエンスのターゲット設定;xt;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-seo-description: Adobe Targetエクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功したかどうかを判断します。
+seo-description: Adobe Target エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 seo-title: 指標の設定
 solution: Target,standard
 title: 指標の設定
