@@ -38,24 +38,24 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ![Targetが様々な場所でレコメンデーションを提供する方法を示す図](/help/c-recommendations/assets/intro-3.png)
 
-* **投稿**:Web発行者は、記事をサ [!DNL Target Recommendations] イト訪問者に勧め、より多くのアクションを促進するために使用します。
-* **ビデオチュートリアル**:を使用し [!DNL Adobe Creative Cloud][!DNL Target] て、PhotoshopアプリケーションのPhotoshopユーザにビデオチュートリアルを勧めます。
-* **ゲーム**:ゲーム会社は、ゲーム [!DNL Target] やコンテンツを自分のコンソールのユーザに勧めるのに使っています。
-* **B2B販売**:B2B [の見込み客にビデオ、ホワイトペーパー、ブログ投稿をレコメンデーションするには、Targetを使用します。ダウンロードを配信する既存のお客様に支援を提供します](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **Publishing: Web publishers use  to recommend articles to site visitors and drive increased engagement.**[!DNL Target Recommendations]
+* **Video Tutorials:  uses  to recommend video tutorials to Photoshop users in the Photoshop application.**[!DNL Adobe Creative Cloud][!DNL Target]
+* **Gaming: Gaming companies use  to recommend games and content to users on their consoles.**[!DNL Target]
+* **B2B Sales: Business-to-business companies use Target to recommend videos, whitepapers, and blog posts to B2B prospects; deliver downloads; and provide help to existing customers.**[](https://theblog.adobe.com/testing-shifts-high-gear-intel)
 
-* **旅行**:ドイツ [人の旅行予約者は、Targetを使用してホテルなどを旅行者に勧めます](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **Travel: A German travel booker uses Target to recommend hotels and more to travelers.**[](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)
 
-* **小売**:主要なB2B [小売業者は、Targetを使用して、ブラウザーとモバイルアプリで訪問者を再訪させるためのトップカテゴリと商品をレコメンデーションします](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
+* **Retail: A leading B2B retailer uses Target to recommend top categories and products to return visitors in the browser and in its mobile app.**[](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)
 
-これらは、顧客がTargetを使用してパーソナライズされたレコメンデーションを提供する方法のほんの一部にすぎません。
+These are just a few of the ways customers use Target to deliver personalized recommendations.
 
-素晴らしい推奨の理由は何ですか。
+What makes for great recommendations?
 
-![優れた推奨事項を示す3つの要素を示す図](/help/c-recommendations/assets/intro-4.png)
+![Illustration showing the three elements that make great recommendations](/help/c-recommendations/assets/intro-4.png)
 
-優れた推奨事項は、適切でパーソナライズされたものである必要があります。 つまり、関連性とパーソナライゼーションを推進するには3つの要素が必要です。
+Great recommendations should be relevant and personalized. This means you need three things to drive relevance and personalization:
 
-* **レコメンデーションされる品目の関連性を高めるのに役立つように** 、マーケティング担当者がコントロールします。 マーケティング担当者は、貴重なコンテキストを表に表示し、商品やコンテンツの属性がレコメンデーションモデルに関連しているかを知ることができます。 ビデオサイトを運営している場合、ユーザは同じ監督の映画を見たいと思うかもしれませんが、同じスタジオで制作された映画を見たいとは思わないでしょう。 [!DNL Target] を使用すると、このドメインの知識によってアルゴリズムを強化できるコントロールを強化できます。
+* **Marketer controls to help drive relevance of the items that are recommended.** As a marketer, you bring valuable context to the table and you know what attributes of your products or content are relevant for a recommendations model to consider. ビデオサイトを運営している場合、ユーザは同じ監督の映画を見たいと思うかもしれませんが、同じスタジオで制作された映画を見たいとは思わないでしょう。 [!DNL Target] を使用すると、このドメインの知識によってアルゴリズムを強化できるコントロールを強化できます。
 * **カタログ** やインタラクションイベントに含まれる数百万の品目を把握できる高度なモデル。 [!DNL Target] 10年以上の経験を通じて高度な機械学習機能を構築し、年間で数十億件の推奨事項を扱っています。
 * **レコメンデーションが** 、タイムリーでユーザーに関連性のあるものであることを確認するユーザーコンテキスト。 誰かが見たビデオや、買い物かごに追加したシャツをレコメンデーションしないでください。 Targetのリッチユーザープロファイルをレコメンデーションで使用して、パーソナライゼーションを実現できます。
 
@@ -71,21 +71,21 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 戦略を策定したら、の実装を開始する準備が整いました [!DNL Target Recommendations]。
 
-レコメンデーションの実装の作成には、次の3つの大まかな手順が含まれます。
+There are three broad steps involved in creating your recommendations implementation:
 
 ![推奨の実装を作成する手順を示す図](/help/c-recommendations/assets/intro-6.png)
 
-1. 状況や [!DNL Target] 商品について教えてください。
+1. Teach  about your context or products.[!DNL Target]
 1. ユーザーの行動を捕捉します。
 1. 適切なコンテキストでレコメンデーションを取得します。
 
-### コンテキ [!DNL Target] ストや製品について教える
+### Teach [!DNL Target] about your context or products
 
-最初に、レコメンデ [!DNL Recommendations]ーションするすべての品目に関する情報を渡します。 [!DNL Target] には、カタログを作成するためのいくつかの統合オプションが用意されています。
+最初に、レコメンデ [!DNL Recommendations]ーションするすべての品目に関する情報を渡します。 [!DNL Target] offers several integration options to create your catalog.
 
 ![コンテキストや製品についてTargetに教える方法を示す図](/help/c-recommendations/assets/intro-7.png)
 
-最も簡単で最も頻繁に使用される方法は、製品情報管理システムまたはコンテンツ管理システムからCSVファイルを毎日または毎週送信する方法です。 また、 [!DNL Adobe Target] JavaScriptライブラリを使用してページからデータレイヤー上の情報を渡したり、APIを利用してソースシステムから直接情報を渡したり、既にカタログデータを渡している場合は、統合を使用したりすることも [!DNL Adobe Analytics] できます [!DNL Analytics]。
+The simplest, and most frequently used method is to send a CSV file on a daily or weekly basis from your product information management system or from your content management system. また、 [!DNL Adobe Target] JavaScriptライブラリを使用してページからデータレイヤー上の情報を渡したり、APIを利用してソースシステムから直接情報を渡したり、既にカタログデータを渡している場合は、統合を使用したりすることも [!DNL Adobe Analytics] できます [!DNL Analytics]。
 
 多くの日別データをCSVファイルで渡したり、APIを使用して在庫の更新をより頻繁に渡したりするなど、複数のオプションを一緒に使用する場合があります。
 
@@ -115,7 +115,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ![適切なコンテキストでレコメンデーションを取得する方法を示す図](/help/c-recommendations/assets/intro-10.png)
 
-集計でのユーザーの行動に加えて、レコメンデーションが表示され [!DNL Target] る特定のコンテキストを渡す必要があります。 これには、ページに関する情報や、ユーザープロファイルからの情報が含まれます。 [!DNL Target] この情報を使用して、パーソナライズされたレコメンデーションを作成します。 例えば、小売Webサイトで、訪問者が現在閲覧している製品と製品カテゴリを知る必要があるとします。 また、そのユーザーに関する情報（お気に入りのブランド、お気に入りの製品カテゴリ、忠誠度層など）を知りたい場合もあります。 この情報は、品目をフィルターしてレコメンデー [!DNL Target] ションのパーソナライゼーションを向上させるために重要です。
+集計でのユーザーの行動に加えて、レコメンデーションが表示され [!DNL Target] る特定のコンテキストを渡す必要があります。 これには、ページに関する情報や、ユーザープロファイルからの情報が含まれます。 [!DNL Target] この情報を使用して、パーソナライズされたレコメンデーションを作成します。 For example, on a retail website, you want to know the product and product category that the visitor is currently viewing. また、そのユーザーに関する情報（お気に入りのブランド、お気に入りの製品カテゴリ、忠誠度層など）を知りたい場合もあります。 この情報は、品目をフィルターしてレコメンデー [!DNL Target] ションのパーソナライゼーションを向上させるために重要です。
 
 ## 初めてのRecommendationsアクティビティの作成
 
