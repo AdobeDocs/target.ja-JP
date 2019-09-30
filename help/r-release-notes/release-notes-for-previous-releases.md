@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -23,17 +23,24 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ## リリースノート - 2019 年 {#releases-2019}
 
-### Target Mobile VEC SDK iOS 2.1.0およびAndroid 1.1.1（2019年8月7日）
+### Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
 
-This release of Mobile VEC SDK includes the following enhancements and fixes:
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Target 2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御を利用できます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O 統合（承認者、編集者または監視者）に役割を適用できます。</li></ul>操作手順と詳細情報については、[ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)を参照してください。 |
+
+
+### Target Mobile VEC SDK iOS 2.1.0 および Android 1.1.1（2019 年 8 月 8 日）
+
+Mobile VEC SDK のこのリリースには、次の機能強化および修正が含まれています。
 
 （括弧内の問題番号はアドビ社内で使用されます。）
 
-* モバイルデバイスでのビジュアルアクティビティのプレビューのサポートが追加されました。 （TGT-27875）
-* 使用状況によってApple Standard違反が発生する問題を修正し `UIImagePickerController` ました。
-* Android SDKからGSON依存関係を削除しました。 （TGT-31710）
-* 他の冗長グラード依存関係を削除しました。(TGT-35479)
-* オーサリング時に配信オファーがリセットされない問題を修正しました。 （TGT-35270）
+* モバイルデバイスでのビジュアルアクティビティのプレビューのサポートを追加しました。（TGT-27875）
+* `UIImagePickerController` 使用による Apple Standard 違反の問題を修正しました。
+* Android SDK から GSON の依存関係を削除しました。（TGT-31710）
+* 他の冗長な Gradle の依存関係を削除しました（TGT-35479）
+* 配信オファーが原因でオーサリングの時間がリセットされない問題を修正しました。（TGT-35270）
 
 ### Target Standard／Premium 19.7.1（2019 年 7 月 25 日）{#tgt-19-7-1}
 
@@ -43,38 +50,38 @@ This release of Mobile VEC SDK includes the following enhancements and fixes:
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> See Set up click tracking in the Mobile App.[](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) |
-| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の用意ができました」、「結果の用意ができました」および「フィードエラー」があります。（TGT-33649）<br>[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md#status)を参照してください。 |
-| Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する必要が](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) あります。<br>at.js 2.x [でのクロスドメイントラッキングのサポートを参照してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提要する機能強化が引き続き公開されます。<br>[Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> [モバイルアプリでのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する必要が](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) あります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
 
 **機能強化、修正、変更点**
 
-* 重複する値を追加すると、Recommendationsアクティビティの除外値がクリアされない問題を修正しました。 （TGT-34996）
-* ターゲット設定ページからRecommendationsアクティビティのデザインを削除できるようになりました（3つの部分から成るガイド付きワークフローの手順2）。 デザインを削除するには、複数のデザインを選択する必要があります。 （TGT-35118）
-* 一部の顧客のカスタム条件カードがTarget UIに正しく読み込まれなかったり、編集できなかった問題を修正しました。 （TGT-35170）
+* 重複した値を追加すると、Recommendations アクティビティで除外値がクリアされなかった問題を修正しました。（TGT-34996）
+* 現在は、ターゲット設定ページ（3 ステップのガイドによるワークフローのステップ 2）から Recommendations アクティビティのデザインを削除できるようになりました。デザインを削除するには、1 つ以上のデザインを選択する必要があります。（TGT-35118）
+* 一部のお客様のカスタム条件カードが Target UI で適切に読み込めなかったり、編集できなかったりした問題を修正しました。（TGT-35170）
 
-### at.jsバージョン2.1.1（2019年7月25日）
+### at.js バージョン 2.1.1（2019 年 7 月 25 日）
 
-This release of at.js is a maintenance release and includes the following enhancements and fixes:
+at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
 （括弧内の問題番号はアドビ社内で使用されます。）
 
-* Visual Experience Composer(VEC)の目標と設定ページでクリック追跡指標を使用すると、複数のビーコンが起動する問題を修正しました。 （TNT-32812）
-* オファーが複数回レンダリ `triggerView()` ングされない問題を修正しました。 （TNT-32780）
-* リクエストにMarketing Cloud ID(MCID) `triggerView()` 情報が含まれるように問題が修正されました。 （TNT-32776）
-* 保存されたビューがない場合 `triggerView()` でも通知が実行されない問題を修正しました。 （TNT-32614）
-* URLに不正な形式のクエリ文字列パラメーターが含まれる場合に、decodeURIcomponentの使用によってエラーが発生する問題を修正しました。 （TNT-32710）
-* 現在は、 `Navigator.sendBeacon()` APIを介して送信される配信リクエストのコンテキストで、ビーコンフラグが「true」に設定されています。 （TNT-32683）
-* 少数の顧客のWebサイトにレコメンデーションオファーが表示されない問題を修正しました。 顧客は、配信API呼び出しでオファーコンテンツを表示できましたが、オファーがWebサイトに適用されませんでした。 （TNT-32680）
-* 複数のエクスペリエンスでのクリック追跡が期待どおりに機能しない問題を修正しました。 （TNT-32644）
-* 最初の指標のレンダリングに失敗した後、at.jsが2番目の指標を適用できない問題を修正しました。 （TNT-32628）
-* 関数を使用して渡すと、ク `mboxThirdPartyId` エリパラメ `targetPageParams` ーターまたはリクエストペイロードにリクエストペイロードが存在しない問題を修正しました。 （TNT-32613）
-* Chromiumベースのブラウザー（Google Chromeを含む）で、表示およびクリックの通知応答がブロックされる問題を修正しました。 （TNT-32290）
+* Visual Experience Composer（VEC）の目標と設定ページでクリックの追跡指標を使用する際に複数のビーコンが実行される問題を修正しました。（TNT-32812）
+* `triggerView()` が 2 回以上オファーをレンダリングしない問題を修正しました。（TNT-32780）
+* 要求に Experience Cloud ID（ECID）情報が含まれるようにするための `triggerView()` の問題を修正しました。（TNT-32776）
+* 保存されたビューがない場合に `triggerView()` 通知が送付されない問題を修正しました。（TNT-32614）
+* URL に正しくないクエリ文字列パラメーターが含まれる場合に decodeURIcomponent の使用によりエラーが発生する問題を修正しました。（TNT-32710）
+* `Navigator.sendBeacon()` API を使用して送信された配信要求のコンテキストで、ビーコンフラグが「true」に設定されるようになりました。（TNT-32683）
+* 少数のお客様に対して、Recommendations オファーが Web サイトに表示されない問題を修正しました。お客様に配信 API 呼び出しのオファーコンテンツが表示されたとしても、そのオファーは Web サイトに適用されていませんでした。（TNT-32680）
+* 複数のエクスペリエンスにわたるクリックの追跡が期待どおりに機能していなかった問題を修正しました。（TNT-32644）
+* 最初の指標のレンダリングに失敗した後、at.js が 2 番目の指標に適用されなかった問題を修正しました。（TNT-32628）
+* `targetPageParams` 関数を使用して `mboxThirdPartyId` を渡す際に、要求ペイロードがクエリパラメーターか要求ペイロードのいずれかに存在しなかった問題を修正しました。（TNT-32613）
+* Chromium ベースのブラウザー（Google Chrome を含む）で、表示およびクリック通知応答がブロックされていた問題を修正しました。（TNT-32290）
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+at.js のこのバージョンおよび過去のバージョンについて詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
-### Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1-historical}
+### Target Standard／Premium 19.6.1（2019 年 6 月 27 日）{#tgt-19-6-1-historical}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -210,7 +217,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | シングルページアプリケーションの Visual Experience Composer | シングルページアプリケーション（SPA）用の Visual Experience Composer（VEC）を使用すると、マーケティング担当者は、継続的な開発依存関係なく、マーケティング担当者が SPA 上のテストを作成し、コンテンツをパーソナライズできます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。（TGT-27916）<br>詳しくは、「[シングルページアプリケーション（SPA） Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」および「[シングルページアプリケーションの統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。<br>上記の記事に加えて、この機能に対処する SPA および at.js に関するトピックと、実装方法に関するトピックが多数あります。詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md)」を参照してください。 |
 | Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>[AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)の挿入中に VEC の「前挿入」オプションと「後挿入」オプションを使用できるようになりました。「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」を参照してください。（TGT-32385）</li><li>Google Chrome のための [!DNL Adobe Target] VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトをロードして、作成と QA Web エクスペリエンスをすばやくできます。「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。（TGT-32746）</li></ul> |
 | ![Premium バッジ](/help/assets/premium.png)[!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスターゲット設定]アクティビティの <br>Recommendations | [!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。これにより、次のようなまったく新しい機能が可能になります。<ul><li>同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。</li><li>複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。</li><li>[!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。</li><li>[!UICONTROL 自動ターゲット]を使用して、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスに訪問者を動的に割り当てます。</li></ul>開始するには、VEC を使用して [!UICONTROL A/B テスト]または[!UICONTROL エクスペリエンスターゲット設定]アクティビティを作成し、[!UICONTROL 前挿入]、[!UICONTROL 後挿入]、[!UICONTROL 置換]などのアクションを使用して、エクスペリエンスに Recommendations を追加します。（RECS-6166）<br>詳しくは、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」を参照してください。 |
-| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;より、システム管理者はプログラムデータにプログラム的にアクセスし、任意のワークスペース内でアクティビティ、オファー、オーディエンスを作成・管理できるようになります。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
+| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 22 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
 
 **機能強化、修正、変更点**
 
@@ -232,7 +239,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![APIでのTarget Premium Badge大規模法人](/help/assets/premium.png)<br/>[!UICONTROL 権限] [!DNL Target] のサポート | [Adobe Target 管理者の API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;から、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成・管理がおこなえます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。 |
+| ![APIでのTarget Premium Badge大規模法人](/help/assets/premium.png)<br/>[!UICONTROL 権限] [!DNL Target] のサポート | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 22 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。 |
 | ![Target Premium のバッジ](/help/assets/premium.png)<br/>Recommendations: 環境別のコレクションおよび除外のフィルター（ホストグループ） | [!UICONTROL Recommendations] のコレクションと選択した環境（ホストグループ）の除外のコンテンツをプレビューできるようになりました。<br/>以前は、コレクションまたは除外を表示すると、表示されている項目がデフォルトホストグループの結果でした（[!UICONTROL Recommendations／設定／デフォルトホストグループ]で指定）。<br/>コレクションまたは除外を作成または更新するときに、[!UICONTROL 環境]セレクターを使用して、結果をプレビューする環境を選択できます。新しい[!UICONTROL 環境]フィルターでは、コレクションと除外を作成・編集する前に「[!UICONTROL 設定]」ページで適切なデフォルトホストグループに移動する必要がなくなるので、時間と労力を節約できます。<br/>**注意：** 選択した環境を変更した後、 「[!UICONTROL 検索]」をクリックして返された結果を更新する必要があります。<br/>新しい [!UICONTROL 環境] フィルターは、[!DNL Target] UI の次の場所から利用できます。<ul><li>[!UICONTROL カタログ検索]（[!UICONTROL Recommendations／カタログ検索]）</li><li>「[!UICONTROL コレクションを作成]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「[!UICONTROL コレクションを更新]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「[!UICONTROL 除外を作成]」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「[!UICONTROL 除外を更新]」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul><br>詳しくは、次のトピックを参照してください。<uL><li>[コレクション](/help/c-recommendations/c-products/collections.md)</li><li>[除外](/help/c-recommendations/c-products/exclusions.md)</li><li>[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations：環境（ホストグループ）別にコレクションと除外をフィルター](/help/administrating-target/hosts.md)</li></ul>（TGT-20622）</ul> |
 
 **機能強化、修正、変更点**
@@ -577,7 +584,7 @@ target/r_release-notes-2018.xml
 
 * 最新の電話モデルが含まれるように、デバイスリストを更新しました。デバイスのマーケティング名またはデバイスモデルを使用することで、特定の iPhone モデルにターゲットコンテンツを配信できるようになりました。
 
-   モバイル SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.js を使用しているお客様は、at.js バージョン 1.5.0 にアップグレードする必要があります。
+   Mobile SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.js を使用しているお客様は、at.js バージョン 1.5.0 にアップグレードする必要があります。
 
    詳しくは、[モバイル](../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)を参照してください。（TNT-26714 &amp; TNT-28288）
 
@@ -837,7 +844,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>at.js 1.2.3 では、JSON オファーのサポートが追加されています。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。詳しくは、<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。 </p> </td> 
+   <td colname="col2"> <p>at.js 1.2.3 では、JSON オファーのサポートが追加されています。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。See<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>その他の変更 </p> </td> 
@@ -867,7 +874,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。詳しくは、<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>アクティビティのみのオーディエンスに複数のアクティビティをまたいで同じ名前を設定できるようになりました。以前は、名前が重複しているとタイムスタンプが追加されていました。例えば「Target on Weekday」というオーディエンスが重複していると、「Target on Weekday-1456732099201」という名前で保存されていました。 </p> <p>ライブラリオーディエンスは引き続き、名前を一意にする必要があります。（TGT-17967） </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -990,7 +997,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オーディエンス </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成できます。このオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。（TGT-25474） </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">アクティビティのみのオーディエンスの作成</a>を参照してください。 </p> </li> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>アクティビティのみのオーディエンスは、アクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成できます。このオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。（TGT-25474） </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> アクティビティのみのオーディエンスの作成</a>を参照してください。 </p> </li> 
       <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>すべてのアクティビティに対し、ユーザーがオーディエンスの条件を満たしていると見なされるための成功指標を選択できます。従来の Target では、ユーザーはアクティビティに参加したときにオーディエンスの条件を満たしていると見なされました。現在では、成功指標を選択することでオーディエンスを評価するタイミングを選択できます。（TGT-15805） </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
      </ul> </p> <p>詳しくは、<a href="../c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local">成功指標へのレポート用オーディエンスの適用</a>を参照してください。 </p> </td> 
   </tr> 
@@ -1723,7 +1730,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：外部プロモーションの挿入 </td> 
-   <td colname="col2"> <p>プロモーション項目を追加して、 Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>プロモーション項目を追加して、Recommendations デザインでの配置を制御します。 </p> <p>詳しくは、<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">プロモーションの追加</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>ファーストルック</b> </p> A/B アクティビティの自動ターゲット設定 </td> 
@@ -3036,7 +3043,7 @@ target/r_release-notes-2014.xml
 
 | 機能／拡張機能 | 説明 |
 |---|---|
-| JavaScript の挿入および編集を許可 | エクスペリエンスエディターで、アクションメニューから「**[!UICONTROL HTML を編集]」を選択すると、カスタム JavaScript を編集および挿入できる機能が追加されました。** |
+| JavaScript の挿入および編集を許可 | エクスペリエンスエディターで、アクションメニューから「**[!UICONTROL HTML を編集]**」を選択すると、カスタム JavaScript を編集および挿入できる機能が追加されました。 |
 | 自動オーディエンスインポート | ユーザーがオーディエンスリストを開いたとき、インポートされたオーディエンスが 10 分以上経っている場合、オーディエンスはバックグラウンドで自動的にインポートされます。 |
 | [!DNL Target Classic] と同期できる以上に HTML オファーのサイズが増加 | 以前の 64 KB 制限から 256 KB に増加しました。 |
 
@@ -3268,7 +3275,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> オーディエンスの設定時の場所のターゲット化 </td> 
-   <td colname="col2"> <p>オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 </p> <p>See <a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> Creating a New Audience </a>. </p> </td> 
+   <td colname="col2"> <p>オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。 </p> <p><a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local">新しいオーディエンスの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リンクのプレビュー（機能強化） </td> 
@@ -3310,7 +3317,7 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 * Visual Experience Composer を使用して再配置された要素で、クリックの追跡が動作しません。このバグが修正されるまで、再配置された要素にクリックの追跡を設定しないでください。
-* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]アクションは選択できません。**
+* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**&#x200B;アクションは選択できません。
 
 ### Adobe Target Standard 1.2（2013 年 11 月 1 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
