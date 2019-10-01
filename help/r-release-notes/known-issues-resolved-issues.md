@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
 
-### アクティビティQAプレビューリンク {#preview}
+### アクティビティ QA プレビューリンク {#preview}
 
-[アカウントに保存されたアクティビティが多すぎる場合、保存されたアクティビティのアクティビティQAプレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクが読み込まれない場合があります。 プレビューリンクを再試行すると、正常に機能します。 To prevent this from continuing to happen, archive saved activities that are no longer actively used. （TNT-32697）
+アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティの[アクティビティ QA プレビュー](/help/c-activities/c-activity-qa/activity-qa.md)リンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。これが継続して発生するのを避けるには、アクティブに使用しなくなった、保存されたアクティビティをアーカイブします。（TNT-32697）
 
 ### リダイレクトオファー {#redirect}
 
@@ -62,8 +62,9 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 Recommendations アクティビティの既知の問題は次のとおりです。
 
-* 特定のプロファイル属性を条件キーとして使用している場合、Recommendations の「error.restapi.algorithmProfileAttributeInvalid」というエラーが発生します。
-* Recommendations アクティビティで「プロモーション - 後」を使用している場合、条件のインクルージョンフィルターがバックアップの ER に適用されません。
+* フィードまたはAPIを介して更新を受信しなかった60日後に、エンティティの有効期限が正しく切れます。ただし、有効期限切れのエンティティは、有効期限切れの後にカタログ検索インデックスから削除されません。 (IRI-857)
+* 条件およびデザインの「使用状況情報」オーバーレイに、A/Bおよびエクスペリエンスのターゲット設定アクティビティでの使用が反映されません。(TGT-34331)
+* A/Bのレコメンデーションオファーおよびエクスペリエンスのターゲット設定アクティビティで、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
 
 ### 多変量分析テスト（MVT）アクティビティ
 
@@ -124,7 +125,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 * Recommendationsフィードインデックスで、フィード内の項目が前回の実行と同じである場合、「インデックスを待機中」と表示されることがあります。配信の製品取り込みに影響しません。（RECS-6663）
 
-   This issue was fixed in the Target 19.4.2 release.
+   この問題は、Target 19.4.2 リリースで修正されました。
 
 * Recommendations フィードの処理が予想よりも時間がかかります。（COR-2836）
 
@@ -138,7 +139,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 ページに競合条件があると、元のページとリダイレクトページでページビュー数がカウントされることがあります。at.js 実装のアップデートを予定しています。このアップデートにより、この競合条件を回避できるようになる予定です。
 
-This issue was fixed in at.js 1.6.3.
+この問題は、at.js 1.6.3 で修正されました。
 
 ### 除外グループ
 
