@@ -8,7 +8,7 @@ title: プロファイルと変数の用語集
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -93,4 +93,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 顧客属性は、プロファイルスクリプトで参照でき、形式 `crs.get('<Datasource Name>.<Attribute name>')`　設定されています。
 
-この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `$crs.datasourceName.attributeName` を参照してください。
+この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。内のスペースは、API呼び出し `datasourceName` から削除する必要があります。
