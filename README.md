@@ -1,6 +1,6 @@
 ---
 source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 貢献に関する記事
@@ -15,13 +15,13 @@ Adobe のコミュニティやドキュメントチーム以外の従業員か�
 
 ## Adobe コンテンツへの貢献について
 
-["Adobe Docs寄稿者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
+「[Adobe Docs 貢献者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
 どのように貢献するかは、貢献者の技術経験度と、貢献者がどのような変更に貢献したいかによって異なります。
 
 ### マイナーな変更
 
-善意でマイナーな更新を行う場合は、その記事にアクセスして、**「編集」** リンクをクリックすると、その記事のGitHubソースに移動します。その後、GitHub UIを使用してアップデートを行います。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+善意でマイナーな更新を行う場合は、その記事にアクセスして、**「編集」** リンクをクリックすると、その記事のGitHubソースに移動します。その後、GitHub UIを使用してアップデートを行います。詳しくは、「[Adobe Docs 貢献者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
 このリポジトリのドキュメントおよびコード例について送信したマイナーな修正や説明は、アドビの利用条件の適用を受けます。
 
@@ -43,14 +43,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 コミュニティの貢献者は、GitHub UI を使用して、基本的な編集をしたり、リポジトリを分岐させたりして、大きな貢献をすることができます。
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
+詳しくは、「[Adobe Docs 貢献者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
 ## マークダウンを使用してトピックをフォーマットする方法
 
 このリポジトリのどの記事も、GitHub 固有の マークダウンを使用しています。マークダウンの詳細は、以下を参照してください。
 
-* [マーケティングの基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [印刷可能なマーチャンダイジングシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [マークダウンの基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [マークダウン記法のチートシート（印刷用）](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 
