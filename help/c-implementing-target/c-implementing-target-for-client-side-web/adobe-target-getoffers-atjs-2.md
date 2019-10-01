@@ -1,14 +1,14 @@
 ---
-description: 'at.js の adobe.target.getOffers() 関数についての情報です。 '
-keywords: adobe.target.getOffers;getOffers;getoffers;get offers;get offers;at.js;function;function
-seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数に関する情報です。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（） 関数に関する情報です。
+description: 'at.js の adobe.target.getOffers() 関数について説明します。 '
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;関数
+seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数について説明します。
+seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers() 関数について説明します。
 solution: 'Target '
 subtopic: 導入
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -23,9 +23,9 @@ source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に用いられる補助的なデータ ID を生成するために使用されます。このキーは、訪問者ごとに一意の文字列です。 |
-| リクエスト | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
-| timeout | 数値  | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
+| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に使用される補助的なデータ ID を生成するために使用されます。このキーは、訪問者ごとの一意の文字列です。 |
+| request | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
+| timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
 
@@ -76,7 +76,7 @@ source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
