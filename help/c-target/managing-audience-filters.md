@@ -1,13 +1,13 @@
 ---
 description: オーディエンスフィルター（またはオーディエンス）は、特定の 1 つの特性または複数の特性を共有する訪問者のグループです。
-keywords: ターゲット設定、オーディエンスフィルター、オーディエンス
-seo-description: オーディエンスフィルター（またはオーディエンス）は、特定の 1 つの特性または複数の特性を共有する訪問者のグループです。
-seo-title: レポート用のオーディエンスフィルター
+keywords: ターゲット設定、オーディエンスフィルター、オーディエンス;filter
+seo-description: Adobe targetのオーディエンスフィルター（オーディエンス）は、特定の1つの特性または複数の特性を共有する訪問者のグループです。
+seo-title: Adobe targetでのレポート用オーディエンスフィルター
 solution: 'Target '
 title: レポート用のオーディエンスフィルター
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 アクティビティ向けにオーディエンスフィルターを使用する計画を立てる場合、以下のガイドラインを考慮します。
 
-* **訪問者は複数のオーディエンスに配置できます。** 2 つのオーディエンスを設定している場合（例えば、「新規訪問者」と「Google からの訪問者」）、両方の条件に該当する訪問者は、両方のオーディエンスでカウントされ追跡されます。その結果、各オーディエンスの訪問者を合計した数は、アクティビティの訪問者数と一致しません。
+* **訪問者は複数のオーディエンスに配置できます。** 2つのオーディエンスが設定されていて（例えば、「新規訪問者」と「Googleからの訪問者」）、1人が両方の条件を満たしている場合、この訪問者は両方のオーディエンスでカウントされ、追跡されます。 その結果、各オーディエンスの訪問者を合計した数は、アクティビティの訪問者数と一致しません。
 * **アクティビティを開始する前にオーディエンスを設定します。**&#x200B;オーディエンスデータを遡って取得することはできません。アクティビティの開始前にオーディエンスフィルターを設定せず、アクティビティをしばらく実行した後で使用することを決定した場合は、既に経過した時間のデータは収集されません。
 * **2 ～ 4 オーディエンスで開始します。**&#x200B;トラフィックソースのような、基本情報に重点を置きます。
 * **必要に応じてオーディエンスの名前を変更します。**&#x200B;アクティビティがアクティブであっても、収集された結果向けにオーディエンス名をより意味のあるものにするために、データに影響を与えることなくオーディエンスの名前を変更できます。
@@ -36,6 +36,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 適切なアクティビティまたはテストを作成する。 | [アクティビティとテスト](/help/c-intro/target-key-concepts.md) |
 | 必要に応じて、オーディエンスを作成する。 | [オーディエンスの作成](/help/c-target/c-audiences/create-audience.md) |
 | 必要に応じて、複数のオーディエンスを組み合わせる。 | [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md) |
-| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/Bテスト: [目標と設定自動](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>パーソナライゼーション: [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>エクスペリエンスターゲット設定: [目標と設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多変量分析テスト: [目標および設定アクティビティ](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>の設定: [アクティビティの設定](/help/c-activities/activity-settings.md) |
-| オーディエンスフィルターに関する情報をレポートに表示する。 | レポート設定 |
+| アクティビティの目標と設定ページにオーディエンスを適用する。 | A/B Test: [Goals and Settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Goals and Settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariate Test:  [Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations activity settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Activity Settings: [Activity Settings](/help/c-activities/activity-settings.md) |
+| オーディエンスフィルターに関する情報をレポートに表示する。 | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) |
 
