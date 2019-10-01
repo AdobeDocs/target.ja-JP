@@ -1,6 +1,6 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe Codeの実施
@@ -66,4 +66,4 @@ translation-type: tm+mt
 
 ## アトリビューション
 
-この行動規範は、「[Contributor Covenant（貢献者協定）](https://contributor-covenant.org)」の第 1.4 版を参考にしています。（[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)）。
+この行動規範は、「[Contributor Covenant（貢献者協定）](https://contributor-covenant.org)」の第 1.4 版を参考にしています。（[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)）から入手できます。
