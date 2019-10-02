@@ -1,14 +1,14 @@
 ---
 description: Adobe targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
-keywords: リリースノート；リリース；更新；将来のリリース；拡張；新機能；修正点
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes
 seo-description: DNL Adobe targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
-seo-title: Adobe Target リリースノート（プレリリース）
+seo-title: Adobe Target prerelease notes
 solution: 'Target '
 title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2019 年 9 月 24 日**
+**Last Updated: October 2, 2019**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 >
 >括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## 発表
-
-**2019年7月31日**
-
-[!UICONTROL Enterprise権限では] 、顧客は [!DNL Target] 単一の組織を使用できますが、異なるチームやワークフローのワークスペースに分割できます。 エンタープラ [!UICONTROL イズ権限機能は] 、チーム間で最適化プログラムを効果的に拡大/縮小するのを容易にします。 この機能はUIで使用できましたが、2019年2月のリリ [!DNL Target] ースまで、管理APIには対応するサポートが [!DNL Target] ありませんでした。 アドビは管理APIを更新し、統合アカウントを使用して組織で作成されたすべてのワークスペースにアクセスできるようにしました。 以前は、管理APIはデフォルトのワークスペースに制限されていましたが、2019年2月の更新では、承認者アクセス権を持つすべてのワークスペースに対するアク [!UICONTROL セス権] が付与されました。
-
-今後の2019年9月のリリ [!DNL Target] ースでは、 [!UICONTROL Enterprise権限によって] 、お客様に次のアクセス制御が提供されます。
-
-* 統合を適用できるワークスペースを選択できます
-* Adobe I/O統合に次の役割を適用できます。承認 [!UICONTROL 者]、編 [!UICONTROL 集者]、監視 [!UICONTROL 者]。
-
-**必要なアクション**:現在、すべてのワークスペースでリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するCRUD操作のAPIを利用しているお客様は、目的の役割を持つすべてのワークスペースに対して、既存のAdobe I/O統合アクセス権を付与する必要があります。 9月のリリースより前は、「製品の役割」ドロップダウンリストで選択した役割に関係なく、すべての統合は [!UICONTROL 「承認者」アクセスを使用して] 実行されていました  。 今後のリリースで、目的のロールを選択できるようになりました。
-
-この操作は2019年8月に実行する必要が **あります**。 2019年9月のリリ [!DNL Target] ース以降、アクセスコントロールがアクティブになり、デフォルトのワークスペースのみが現在の設定になっている場合は、そのアクセス権のみが確認されます。 事前に統合ロールを設定しても、悪影響はありません。
-
-手順と詳細については、「Adobe I/O統合にワークスペースへのアク [セス権を付与し、ロールを割り当てる」を参照してください](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
-
-## Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
-
-このメンテナンスリリースには、次の機能強化が含まれています。
-
-* Visual Experience Composer(VEC)のリッチテキストエディター(RTE)のセキュリティ更新を含む、いくつかのセキュリティ修正が行われました。 （TGT-35383）
-
-## Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
+## Target platform (Dates to be determined)
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Target 2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御を利用できます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O統合に次の役割を適用できます。承認者、編集者または監視者。</li></ul>手順と詳細については、「Adobe I/O統合にワークスペースへのアク [セス権を付与し、ロールを割り当てる」を参照してください](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| Node.js SDK version 1.0 | The Target Node.js SDK lets you deploy Target server-side.<br>This Node.js SDK helps you easily integrate Target with other Experience Cloud solutions, such as the Adobe Experience Cloud Identity Service, Adobe Analytics, and Adobe Audience Manager.<br>The Node.js SDK introduces best practices and removes complexities when integrating with Adobe Target via our delivery API so that your engineering teams can focus on business logic. The following are notable features that we are introducing in the latest version:<ul><li>Support for prefetching and notifications that allows you to optimize for performance via caching.</li><li>Support for optimizing performance when you have a hybrid integration of Target on both your web pages and server-side. We are introducing a setting called  that will be populated by experiences retrieved via the server-side so that at.js 2.2 will no longer make an additional server call to retrieve the experiences. `serverState`This approach optimizes page load performance.</li><li> 新しい配信APIで可能になった、Node.js SDKを介したVECで作成されたアクティビティの取得のサポート。</li><li>Open sourced so your developers can contribute to the Node.js SDK.</li></ul> |
+| 配信API | An entirely new delivery API endpoint (/v1/delivery) will be available in production. 主な機能は次のとおりです。<ul><li>1つ以上のmboxのエクスペリエンスを取得するための1つのエンドポイント。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用されるビューと呼ばれる、まったく新しいオブジェクトのサポート。</li></ul> |
+| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するには、ECIDライブラリv4.4と共にat.js 2.2またはat.js 1.8にアップグレードします。 |
+
+
+## Target Standard／Premium 19.10.1（2019 年 10 月 22 日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations | 各訪問者の閲覧、閲覧、購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件を使用すると、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを配信できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、訪問者がサイトを閲覧するにつれて、よりパーソナライズされます。 |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
