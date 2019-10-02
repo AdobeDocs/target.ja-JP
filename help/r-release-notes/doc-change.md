@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 
 ---
 
@@ -17,10 +17,11 @@ source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
 
-## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+## Adobe Target/Standard/Premium 19.9.1（2019年9月31日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2029 年 10 月 3 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のリリースに関する情報を追加しました。 |
 | 2019年10月1日 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「顧客属性」セクションのテキストを更新しました。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 「すべてのビューに対するgetOffers()の呼び出し」セクションのコードサンプルを更新しました。 |
 | 2019年9月31日 | [リリースノート](/help/r-release-notes/release-notes.md)：19.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
@@ -29,16 +30,16 @@ source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | Targetサンプルサイズ計算ツールに関するテキストを更新しました。 |
+| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
 |  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Targetサンプルサイズ計算ツールに関するテキストを更新しました。 |
-| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Standard 19.2.1リリースの日付を2019年9月30日に変更しました。 |
+| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | トレーニングビデオを追加しました。 |
-| 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 19.9.1リリースに関する情報を追加しました。 |
-| 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 「考慮事項」節を追加しました。 |
-|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | トピック全体のテキストを更新しました。 |
+| 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
+| 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [コンテンツセキュリティポリシー(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新規トピックです。 |
-| 2019年9月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
-|  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
+| 2019年9月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1（2019年9月10日）リリースに関する情報を追加しました。 |
+|  | [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
 | 2019 年 9 月 5 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | `AndroidManifest.xml` のコードスニペットを更新しました。 |
 | 2018 年 8 月 23 日 | [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | モバイルアプリ ID での禁止された文字の使用に関する情報を削除しました。制限はなくなりました。 |
