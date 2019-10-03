@@ -1,14 +1,14 @@
 ---
 description: このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
-keywords: 既知の問題、解決された問題、リリースノート；バグ；問題；修正
-seo-description: このリリースのAdobe targetの既知の問題に関する情報です。 また、解決された問題に関する情報も含まれています。
+keywords: 既知の問題、解決された問題、リリースノート;bugs;issues;fixes
+seo-description: Information about known issues for this release of Adobe Target. また、解決された問題に関する情報も含まれています。
 seo-title: Adobe Target の既知の問題と解決された問題
 solution: 'Target '
 title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -62,9 +62,11 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 Recommendations アクティビティの既知の問題は次のとおりです。
 
-* フィードまたはAPIを介して更新を受信しなかった60日後に、エンティティの有効期限が正しく切れます。ただし、有効期限切れのエンティティは、有効期限切れの後にカタログ検索インデックスから削除されません。 (IRI-857)
-* 条件およびデザインの「使用状況情報」オーバーレイに、A/Bおよびエクスペリエンスのターゲット設定アクティビティでの使用が反映されません。(TGT-34331)
-* A/Bのレコメンデーションオファーおよびエクスペリエンスのターゲット設定アクティビティで、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. （TGT-35777）
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API
 
 ### 多変量分析テスト（MVT）アクティビティ
 
@@ -74,9 +76,9 @@ MVT アクティビティでは、指標をチェックしているときに、�
 
 at.js の既知の問題を以下に示します。
 
-* at.js 2を使用して、変更のないエクスペリエンスを作成する場合。*x* （例えば、デフォルトのエクスペリエンス）では、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
+* If you create an experience with no modifications using at.js 2.*x* （例えば、デフォルトのエクスペリエンス）では、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
 
-   回避策として、エクスペリエンスコンテンツに空白を使用します。 （TNT-33366）
+   As a workaround, use a whitespace in the experience content. （TNT-33366）
 
 * Visual Experience Composer（VEC）にページを読み込む際、Target は、グローバル mbox の設定が有効かどうかと、ユーザーが VEC でレコメンデーションを適用しようとしている場所に entityID または categoryID があるかどうかを確認する必要があります。この情報を基に条件のリストがフィルタリングされます。デフォルトのリストではアルゴリズムがフィルタリングされていますが、[「互換性あり」チェックボックス](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)を使用すると、すべてのアルゴリズムのリストを表示できます。
 
