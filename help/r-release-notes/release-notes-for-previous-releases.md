@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -873,7 +873,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オーディエンス </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
-      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。詳しくは、<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
+      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。See<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>アクティビティのみのオーディエンスに複数のアクティビティをまたいで同じ名前を設定できるようになりました。以前は、名前が重複しているとタイムスタンプが追加されていました。例えば「Target on Weekday」というオーディエンスが重複していると、「Target on Weekday-1456732099201」という名前で保存されていました。 </p> <p>ライブラリオーディエンスは引き続き、名前を一意にする必要があります。（TGT-17967） </p> </li> 
      </ul> </p> </td> 
@@ -890,7 +890,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オファー </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_BD0C5B260E7E4F139FBC1FBA286C0B81"> 
-      <li id="li_FCDBABE6C5034A3596F5BBF024245FB9"> <p>オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成できるようになりました。詳しくは、<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。（TGT-27064） </p> </li> 
+      <li id="li_FCDBABE6C5034A3596F5BBF024245FB9"> <p>オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成できるようになりました。See<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。（TGT-27064） </p> </li> 
       <li id="li_5500AE7DCF4146E88E4619382CE8E836"> <p>それぞれのオファーの定義ポップアップカードで、コードオファーを参照するアクティビティを表示できるようになりました。この機能は画像オファーには適用されません。<a href="../c-experiences/c-manage-content/manage-content.md#concept_17874A6FCBB743AA84C5988E8571CCF3" format="dita" scope="local">オファー</a>を参照してください。（TGT-26277） </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1194,7 +1194,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * オーディエンス定義の詳細を確認できる場所が増えました。オーディエンスを開かなくても、Target UI 内に表示されるポップアップカードで確認できます。この機能は、 [!DNL Target Standard/Premium. (TGT-25772)]
 * アクティビティの作成／概要内で、アドホックオーディエンスの定義を表示できるようになりました。（TGT-25570）
-* 次の変数が[Velocity](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
+* The following variables are now available as[Velocity](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
 
 ### Target プラットフォームの変更点（2017 年 8 月 4 日）{#section_FA5BF6808EA74F3A9E8E941530879208}
 
@@ -2189,10 +2189,6 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Experience Cloud の通知 </td> 
-   <td colname="col2"> <p>Target からの通知は、すべての Adobe Experience Cloud ソリューションで表示されます。通知は、アクティビティがアクティブ化または非アクティブ化されると自動的に送信されます。これらの通知は、Target Standard／Premium へのアクセス権を持つすべてのユーザーが使用できます。 </p> <p>また、通知は、Target Standard／Premium で表示されます。 </p> <p><a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local">通知</a>を参照してください。 </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> ユーザーインターフェイスの改良 </td> 
    <td colname="col2"> <p>ユーザーインターフェイスは、このリリースで大幅に変更されました。最も顕著な変更を次に示します。 </p> <p> 
