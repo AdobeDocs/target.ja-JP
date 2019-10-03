@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Enterprise ユーザーの権限 {#enterprise}
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てる](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic の統合](administrating-target/scene7-settings.md)
    + [ホスト](administrating-target/hosts.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
@@ -53,10 +53,10 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + プライバシーとセキュリティ {#privacy}
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [プライバシーとデータ保護に関する規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [プライバシーとデータ保護規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [アクティビティ QA の概要](c-activities/c-activity-qa/activity-qa.md)
       + [アクティビティ QA ブックマークレット](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [アクティビティ QA とサーバー側配信の使用](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [アクティビティの通知](c-activities/notifications.md)
 + オーディエンス{#audiences}
    + [オーディエンスの概要](c-target/target.md)
    + [ターゲット設定の仕組み](c-target/target-how-target-works.md)
@@ -278,7 +277,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyIdのリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyId のリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
       + [プロファイルと変数の用語集](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + ターゲットとオーディエンスに関する FAQ {#faq-audiences}
       + [ターゲットとオーディエンスに関する FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -342,7 +341,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)
-   + [Recommendationsの概要](c-recommendations/introduction-to-recommendations.md)
+   + [Recommendations の概要](c-recommendations/introduction-to-recommendations.md)
    + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
    + エンティティ {#entities}
       + [エンティティの概要](c-recommendations/c-products/products.md)
