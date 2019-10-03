@@ -1,15 +1,15 @@
 ---
 description: ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
 keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
-seo-description: ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
-seo-title: コンテンツ配信のトラブルシューティング
+seo-description: ページに必要なコンテンツが表示されない場合は、Adobe targetでコンテンツ配信をデバッグするためのいくつかの手順を実行できます。
+seo-title: Troubleshoot content delivery in Adobe Target
 solution: 'Target '
 subtopic: 多変量分析テスト
 title: コンテンツ配信のトラブルシューティング
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -79,7 +79,7 @@ mboxTrace を使用すると、mbox のリプライに付属する追跡情報�
 
 サイトの通常の機能や外見は、mboxTrace の影響を受けません。訪問者には、通常のレコメンデーションのデザインが表示されます。
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 mboxDebug を使用するには、URL の末尾に mboxDebug パラメーターを追加します。mbox に関連する URL パラメーターについての情報を次の表に示します。
 
@@ -95,6 +95,10 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 | `mboxDebug=x-profile` | プロファイルセットを表示 |
 | `mboxDebug=x-time` | 個々の mbox リクエストに対する応答時間を表示 |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting のテスト<br>Geotargeting をこの URL パラメーターでテストします。この属性の値に IP アドレスを入力すると、Test&amp;Target のジオターゲティングがこの IP アドレスを評価し、キャンペーン内のジオターゲティングまたはセグメント化セットに一致させます。 |
+
+>[!NOTE]
+>
+>Ensure that the URL fragment is after query string parameters. Anything after the first `#` is a fragment identifier and causes debugging parameters not to function correctly.
 
 ## Adobe Experience Cloud デバッガー {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
