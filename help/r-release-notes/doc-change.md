@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 10 月 1 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | at.js 2を使用して変更なしでエクスペリエンスを作成する場合の既知の問題と回避策を追加しました。*x* library. |
+|  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 「mboxDebug」節に注意を追加しました。 |
 | 2029 年 10 月 3 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のリリースに関する情報を追加しました。 |
 | 2019年10月1日 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「顧客属性」セクションのテキストを更新しました。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 「すべてのビューに対するgetOffers()の呼び出し」セクションのコードサンプルを更新しました。 |
@@ -30,13 +32,13 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
+| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | Targetサンプルサイズ計算ツールに関するテキストを更新しました。 |
 |  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Targetサンプルサイズ計算ツールに関するテキストを更新しました。 |
-| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
+| September 24, 2019 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target/Standard 19.2.1リリースの日付を2019年9月30日に変更しました。 |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | トレーニングビデオを追加しました。 |
 | 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
-| 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
-|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
+| 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 「考慮事項」節を追加しました。 |
+|  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | トピック全体のテキストを更新しました。 |
 |  | [コンテンツセキュリティポリシー(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新規トピックです。 |
 | 2019年9月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1（2019年9月10日）リリースに関する情報を追加しました。 |
 |  | [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
@@ -361,8 +363,8 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 |  | [エクスペリエンスの追加](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | A/B テストでのエクスペリエンスの複製に関する情報を追加しました。 |
 |  | [オーディエンスについて](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Target アクティビティで参照されているオーディエンスが Adobe Audience Manager（AAM）で削除された場合の扱いに関する情報を追加しました。 |
 |  | [at.js の統合](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | トピックを更新しました。 |
-|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しい節「at.js の実装」を追加しました。 |
-|  | リリース 18.10.1 [リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [タグマネージャーを使用しない Target の実装](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | すべてのセクションを更新しました。新しいセクション「at.js の実装」を追加しました。 |
+|  | リリース 18.10.1[リリースノート](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 27 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -698,7 +700,7 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>リリース 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local">リリースノート </a> </p> </td> 
+   <td colname="col2"> <p>リリース 18.8.1<a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> リリースノート </a> </p> </td> 
    <td colname="col3"> <p>このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 </p> </td> 
   </tr> 
  </tbody> 
