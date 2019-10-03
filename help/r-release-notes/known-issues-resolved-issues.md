@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -73,6 +73,10 @@ MVT アクティビティでは、指標をチェックしているときに、�
 ### at.js
 
 at.js の既知の問題を以下に示します。
+
+* at.js 2を使用して、変更のないエクスペリエンスを作成する場合。*x* （例えば、デフォルトのエクスペリエンス）では、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
+
+   回避策として、エクスペリエンスコンテンツに空白を使用します。 （TNT-33366）
 
 * Visual Experience Composer（VEC）にページを読み込む際、Target は、グローバル mbox の設定が有効かどうかと、ユーザーが VEC でレコメンデーションを適用しようとしている場所に entityID または categoryID があるかどうかを確認する必要があります。この情報を基に条件のリストがフィルタリングされます。デフォルトのリストではアルゴリズムがフィルタリングされていますが、[「互換性あり」チェックボックス](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)を使用すると、すべてのアルゴリズムのリストを表示できます。
 
