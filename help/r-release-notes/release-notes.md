@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
 
 * Visual Experience Composer（VEC）のリッチテキストエディター（RTE）に対するセキュリティ更新を含む、いくつかのセキュリティを修正しました。（TGT-35383）
 * A/Bテストとエクスペリエンスのターゲット設定アクティビティで、DIVに加えて、DIV以外の要素（P、UL、H1など）にレコメンデーションオファーを追加できるようになりました。 （TGT-34333）
+* イベント通知（Target UIのベルのアイコン）は使用できなくなりました。 通知の新しいルックが近日公開されます。
 
 ## Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
 
