@@ -1,21 +1,21 @@
 ---
-description: at.js を使用する自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す Target システム図です。
-keywords: システム図;ちらつき;Target Standard;at.js;実装;javascriptライブラリ；js
+description: at.jsを使用して自動作成されたグローバルmboxに対して送信または収集された呼び出しと情報のフローを示すTargetシステムダイアグラム。
+keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js
 seo-description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
-seo-title: Adobe Target の at.js の仕組み
+seo-title: Adobe Target at.js javaScriptライブラリの仕組み
 solution: 'Target '
 title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # at.js の仕組み{#how-at-js-works}
 
-クライアント側の [!DNL Adobe Target] を実装するには、at.js ライブラリを使用する必要があります。
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 クライアント側での [!DNL Adobe Target] の実装では、[!DNL Target] アクティビティに関連付けられたエクスペリエンスをクライアントブラウザーに直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアント側の実装では、WYSIWYG エディターの [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）または非ビジュアルインターフェイスである[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。
 
@@ -68,7 +68,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 ## at.js 1.x の図
 
-![Targetフロー — at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Target フロー - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 手順 | 説明 | 呼び出し | 説明 |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
 | 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。[!DNL Analytics for Target]（A4T）レポートを使用して、<br>[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。 |
 
-## at.jsがHTMLコンテンツでオファーをレンダリングする方法 {#render}
+## at.js による HTML コンテンツを使用したオファーのレンダリング方法 {#render}
 
-HTMLコンテンツでオファーをレンダリングする場合、at.jsは次のアルゴリズムを適用します。
+HTML コンテンツを使用してオファー をレンダリングする場合、at.js は次のアルゴリズムを適用します。
 
-1. 画像がプリロードされます(HTMLコンテンツにタグが `<img>` ある場合)。
+1. 画像がプリロードされます（HTML コンテンツに `<img>` タグがある場合）。
 
-1. HTMLコンテンツはDOMノードに添付されます。
+1. HTML コンテンツが DOM ノードに添付されます。
 
-1. インラインスクリプト(タグで囲まれたコ `<script>` ード)が実行されます。
+1. インラインスクリプトが実行されます（`<script>` タグで囲まれたコード）。
 
-1. リモートスクリプトは非同期で読み込まれ、実行されます(`<script>` 属性を持つ `src` タグ)。
+1. リモートスクリプトが非同期的に読み込まれ、実行されます（`src` 属性の `<script>` タグ）。
 
-重要な注意：
+重要事項：
 
-* at.jsは、リモートスクリプトの実行順序に関する保証を提供しません。リモートスクリプトの実行順序は非同期で読み込まれるからです。
-* インラインスクリプトは後で読み込まれ実行されるので、リモートスクリプトには依存しないでください。
+* at.js は、非同期的に読み込まれるので、リモートスクリプトの実行順序を保証しません。
+* インラインスクリプトは、後で読み込まれて実行されるので、リモートスクリプトへの依存関係を持たせないようにします。
 
 ## トレーニングビデオ： at.js 2.x のアーキテクチャ図
 
