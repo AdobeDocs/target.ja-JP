@@ -1,8 +1,8 @@
 ---
 description: Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-keywords: Recommendations;Recommendations 条件;レコメンデーションアルゴリズム;レコメンデーションアクティビティ;条件;レコメンデーションターゲット化
-seo-description: Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-seo-title: Recommendations
+keywords: Recommendations;Recommendations 条件;レコメンデーションアルゴリズム;レコメンデーションアクティビティ;条件;レコメンデーションターゲット化;recs
+seo-description: Adobe targetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+seo-title: Adobe Target Recommendations
 solution: 'Target '
 title: Recommendations
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -63,4 +63,4 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
-[Recommendationsの概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations の概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
