@@ -1,6 +1,6 @@
 ---
 description: Target at.js JavaScript ライブラリでページやアプリの読み込み中にちらつきを回避する方法について説明します。
-keywords: ちらつき;Target Standard;at.js;実装
+keywords: ちらつき；at.js；実装
 seo-description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
 seo-title: Adobe Target の at.js によるちらつきの制御方法
 solution: 'Target '
@@ -8,7 +8,7 @@ title: at.js によるちらつきの制御方法
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -19,7 +19,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 ちらつきは、デフォルトコンテンツがアクティビティコンテンツに置き換わる前に訪問者に一時的に表示される際に発生します。ちらつきは、訪問者を混乱させる可能性があるので、望ましくありません。
 
-## 自動作成されたグローバル mbox の使用 {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## 自動作成されたグローバルmboxの使用 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 「[グローバル mbox を自動作成](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)」設定を at.js 設定時に有効にすると、at.js はページの読み込み時に不透明度の設定を変更し、ちらつきを制御します。at.js が読み込まれると、その要素の不透明度の設定が <body> 「0」に変更され、そのページが最初は訪問者に対して表示されなくなります。Target からの応答を受信した、または Target のリクエストにエラーが検出された場合、at.js は不透明度を「1」にリセットします。これにより、訪問者は、アクティビティのコンテンツが適用された後にのみページを表示できます。
 
@@ -103,11 +103,11 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 body {opacity: 0 !important}
 ```
 
-## at.js 2.x の triggerView() でのちらつき制御
+## triggerView()のat.js 2.xでのちらつきを管理
 
 SPA でターゲットとなるコンテンツを表示するために `triggerView()` を使用する場合、ちらつき制御が初期設定で提供されます。つまり、事前に非表示にするロジックを手動で追加する必要はありません。代わりに、at.js 2.x では、ターゲットとなるコンテンツを適用する前にビューの表示が必要になる場所を事前に非表示にします。
 
-## getOffer() および applyOffer() によるちらつき制御
+## getOffer()およびapplyOffer()を使用してちらつきを管理
 
 `getOffer()` と `applyOffer()` はどちらも、抽象度の低い API であるため、ちらつき制御の機能は組み込まれていません。セレクターまたは HTML 要素をオプションとして `applyOffer()` に渡せます。この場合、`applyOffer()` はアクティビティコンテンツをこの特定の要素に追加します。ただし、`getOffer()` および `applyOffer()` が呼び出される前に、この要素が適切に事前に非表示になっていることを確認する必要があります。
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## at.js 1.x での mboxCreate() によるリージョナル mbox の使用（at.js 2.x では未サポート）
+## at.js 1.xでのmboxCreate()を含む地域mboxの使用（at.js 2.xではサポートされていません）
 
 リージョナル mbox 実装を使用する場合、`mboxCreate()` を以下のサンプルコードと同様にプロビジョニングされたページと共に使用できます。
 
