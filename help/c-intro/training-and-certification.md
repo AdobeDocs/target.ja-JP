@@ -1,22 +1,22 @@
 ---
-description: アドビトレーニングサービスは、各種クラスや資格認定をおこなっています。
-keywords: 概要およびリファレンス
-seo-description: アドビトレーニングサービスは、各種クラスや資格認定をおこなっています。
-seo-title: トレーニングと資格認定
+description: アドビトレーニングサービスは、Adobe Targetを含むアドビの製品およびソリューションに関するクラスと認定資格を提供します。
+keywords: トレーニング；認定；ターゲット；オンラインコース；コース；クラス；クラス
+seo-description: アドビトレーニングサービスは、Adobe Targetを含むアドビの製品およびソリューションに関するクラスと認定資格を提供します。
+seo-title: Adobe targetを含むアドビの製品およびソリューションのトレーニングと認定資格
 solution: 'Target '
 subtopic: 導入
-title: トレーニングと資格認定
+title: Adobe targetのトレーニングと認定
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # トレーニングと資格認定{#training-and-certification}
 
-アドビトレーニングサービスは、各種クラスや資格認定をおこなっています。
+アドビトレーニングサービスは、Adobe Targetを含むアドビの製品およびソリューションに関するクラスと認定資格を提供します。
 
 ご利用いただける講師によるコースやオンラインコースのリストについては、[アドビカスタマートレーニング Web サイト](https://training.adobe.com/training/courses.html#solution=adobeTarget)を参照してください。
 
