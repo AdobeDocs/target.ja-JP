@@ -1,14 +1,14 @@
 ---
 description: 電子メール内の画像を動的にテストし、電子メールが開かれたときにそれらの画像をその場で変更することもできます。
-keywords: 電子メール;adbox
-seo-description: 電子メール内の画像を動的にテストし、電子メールが開かれたときにそれらの画像をその場で変更することもできます。
-seo-title: 電子メール画像 adbox のテスト
+keywords: email;adbox；電子メール画像adbox
+seo-description: Adobe targetを使用して、電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更することもできます。
+seo-title: Adobe targetを使用した電子メール画像adboxのテスト
 solution: 'Target '
 title: 電子メール画像 adbox のテスト
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **電子メール画像 adbox のサンプルコード：**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 ここで、以下の値はユーザー特有の値です。
