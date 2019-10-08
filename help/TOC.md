@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 + Target リリースノート {#release-notes}
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
+   + [Target Insiderニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
