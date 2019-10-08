@@ -1,14 +1,14 @@
 ---
 description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
-keywords: Target Standard;Recommendations;Target Premium;自動パーソナライゼーション;自動ターゲット;自動的なターゲット;権限
+keywords: Target Standard;Recommendations;Target Premium;自動パーソナライゼーション;自動ターゲット;自動的なターゲット;権限;adobe targetとは；
 seo-description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
-seo-title: Target の概要
+seo-title: Adobe Target の概要
 solution: 'Target '
 title: Target の概要
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
