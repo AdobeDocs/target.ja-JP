@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 10 月 10 日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | トピックを更新しました。 |
+|  | [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新規トピックです。 |
+|  | [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新規トピックです。 |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | V1/Delivery APIおよびNode.js SDKリリースに関する情報を追加しました。 |
 | 2019 年 10 月 9 日 | [Target Insiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | 新しいトピックで、ニュースレターの最初のバッチへのリンクが追加されました。 |
 | 2019 年 10 月 1 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 以下を追加しました。 <ul><li>at.js 2を使用して変更を加えずにエクスペリエンスを作成する場合の既知の問題と回避策です。*x* library.</li><li>APIを使用して作成されたコレクション、除外、条件およびデザインは、Targetのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。</li><li>APIを使用して作成されたレコメンデーションアクティビティはユーザーインターフェイスで表示できますが、編集はAPIを使用してのみ可能です。</li></ul> |
 |  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 「mboxDebug」節に注意を追加しました。 |
