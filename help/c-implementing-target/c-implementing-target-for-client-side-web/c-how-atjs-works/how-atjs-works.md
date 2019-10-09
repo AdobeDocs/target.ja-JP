@@ -1,6 +1,6 @@
 ---
 description: at.jsを使用して自動作成されたグローバルmboxに対して送信または収集された呼び出しと情報のフローを示すTargetシステムダイアグラム。
-keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js
+keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js;atjs
 seo-description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 seo-title: Adobe Target at.js javaScriptライブラリの仕組み
 solution: 'Target '
@@ -8,7 +8,7 @@ title: at.js の仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. さらに、Adobe Launch、オーディエンスおよび訪問者 ID サービスの Experience Cloud コアサービスが実装されています。
 
-## at.js 1.*x* と at.js 2.x のワークフロー図の違いは何ですか？
+## at.js 1との違いは何ですか。*x* と at.js 2.x のワークフロー図の違いは何ですか？
 
 2.0 と 1. のバージョン間の違いについて詳しくは、「[at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)」を参照してください。*x*.
 
