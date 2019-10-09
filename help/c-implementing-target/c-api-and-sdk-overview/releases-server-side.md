@@ -7,14 +7,14 @@ solution: Target
 title: リリースノート — Targetサーバー側API
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # リリースノート — Targetサーバー側API
 
-サーバー側APIに関するリ [!DNL Adobe Target] リースノートです。
+[Adobe targetのサーバー側APIに関するリリースノートです](https://developers.adobetarget.com/api/delivery-api/)。
 
 ## V1/配信（2019年10月9日）
 
