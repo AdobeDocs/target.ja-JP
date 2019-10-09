@@ -7,14 +7,14 @@ solution: Target
 title: リリースノート — Target Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # リリースノート — Target Node.js SDK
 
-Adobe targetのNode.js SDKに関するリリースノートです。
+[Adobe targetのNode.js SDKに関するリリースノートです](https://github.com/adobe/target-nodejs-sdk)。
 
 ## バージョン1.0.0（2019年10月9日）
 
