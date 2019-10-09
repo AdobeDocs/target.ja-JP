@@ -1,14 +1,14 @@
 ---
 description: at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x;at.js；シングルページアプリ；シングルページアプリ
+keywords: シングルページアプリケーションの実装;シングルページアプリケーションを実装する;SPA;at.js 2.x;at.js;シングルページアプリケーション;シングルページアプリ;spa;SPAs
 seo-description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-seo-title: Adobe targetでの単一ページアプリの実装
+seo-title: Adobe Target でのシングルページアプリケーションの実装
 solution: 'Target '
 title: シングルページアプリケーションの実装
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
