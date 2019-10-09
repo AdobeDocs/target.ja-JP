@@ -1,95 +1,58 @@
 ---
-description: Target Server Side Delivery API、Recommendations API および NodeJS SDK について説明します。
-keywords: server side; サーバー側; api, sdk; nodejs; node js; recommendations api
-seo-description: Adobe Target Server Side Delivery API、Recommendations API および NodeJS SDK について説明します。
-seo-title: Adobe Target のサーバー側実装
+description: Adobe targetのサーバー側配信API、Node.js SDKおよびTarget Recommendations APIに関する情報です。
+keywords: サーバー側；サーバー側；api;sdk;node.js;nodejs;node js;recommendations api;api:apis
+seo-description: Adobe targetのサーバー側配信API、Node.js SDKおよびTarget Recommendations APIに関する情報です。
+seo-title: Adobe targetのサーバー側配信API、Node.js SDKおよびTarget Recommendations APIに関する情報です。
 solution: Target
 title: Target のサーバー側実装
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
 
 # サーバー側：Target の実装{#server-side-implement-target}
 
-[!DNL Adobe Target] Server Side Delivery API、Server Side Batch Delivery API、NodeJS SDK、[!DNL Target Recommendations] API、[!DNL Target Classic] API（廃止）に関する情報です。
+サーバー [!DNL Adobe Target] 側配信API、Node.js SDKおよびAPIに関する情報で [!DNL Target Recommendations] す。
 
 以下の処理は、[!DNL Target] のサーバー側実装で発生します。
 
 1. クライアントデバイスがサーバーを通じてエクスペリエンスのリクエストをおこないます。
 1. サーバーは、そのリクエストを [!DNL Target] に送信します。
 1. [!DNL Target] は、サーバーに応答を送り返します。
-1. サーバーは、エクスペリエンスをレンダリングするクライアントデバイスに対して、どのエクスペリエンスを配信するかを決定します。
+1. サーバーは、どのエクスペリエンスをクライアントデバイスに配信してレンダリングするかを決定します。
 
-エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。
+エクスペリエンスをブラウザーに表示する必要はありません。 エクスペリエンスは、電子メールやキオスク、音声アシスタント、または他のビジュアルでないエクスペリエンスやブラウザーベースでないデバイスを通じて表示できます。 サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。
 
-以下のセクションに、様々な API および NodeJS SDK の一覧と詳細情報を示します。
+以下の節では、様々なAPIとNodeJS SDKについて詳しく説明します。
 
-## Server Side Delivery API
+## Server Sice Delivery API
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
+Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
-`/rest/v1/mbox`
+`/rest/v1/delivery`
 
-[!DNL Target] を使用すると、アプリケーションは、ブラウザー、モバイルデバイスまたは別のサーバーから mbox を呼び出すことができます。Server Side Delivery API は、HTTP／HTTPS 呼び出しをおこなうサーバー側プラットフォームと [!DNL Target] を統合するように設計されています。
+Delivery APIを使用し [!DNL Target] て、次のことができます。
 
-API を使用して、カスタムアプリケーションを [!DNL Target] と統合できます。これは、接続されている TV、キオスク、店内のデジタルスクリーンをはじめとした、ブラウザーベースでない IoT デバイスをターゲットに配信する場合に特に役立ちます。
+* SPAやモバイルチャネルを含むWeb上で、また、接続されたTV、キオスク、店頭のデジタル画面など、ブラウザーベース以外のIoTデバイスを使用してエクスペリエンスを提供します。
+* HTTP/s呼び出しを行える任意のサーバー側プラットフォームまたはアプリケーションからエクスペリエンスを提供します。
+* 訪問者がビジネスに関与するために使用したチャネルやデバイスに関係なく、一貫したパーソナライズされたエクスペリエンスを訪問者に提供します。
+* サーバー上のセッション内の訪問者のエクスペリエンスをキャッシュして、複数のAPI呼び出しを回避できるようにします。これにより、パフォーマンスが向上します。
+* 製品(AAM) [!DNL Adobe Experience Cloud] や、サーバー側 [!DNL Adobe Analytics]の製品と [!DNL Adobe Audience Manager] シームレスに [!DNL Experience Cloud ID Service] 統合できます。
 
-このエンドポイントでは、通常の mbox のみにオファーを返すことができます。また、単一の mbox のみに対してコンテンツを取得することもできます。
+## Node.js SDK
 
-この API は、RESTful 形式で既存の mbox 機能を実装します。
+リンク： [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
 
-この API は、Cookie またはリダイレクトの呼び出しを処理しません。
+Node.js SDKは、Cookie、セッションの管理、製品（、など）との統合に伴う複雑さを排除した高度なソ [!DNL Experience Cloud] フトウェア開発キ [!DNL Analytics]ット [!DNL Experience Cloud Visitor ID Service]です [!DNL Audience Manager]。 背後で、Node.js SDKは `/rest/v1/delivery` APIを使用します。 Node.js SDKでサポートされる主な機能を以下に示します。
 
-## Server Side Batch Delivery API
+* **** プリフェッチと、キャッシュを使用したパフォーマンスの最適化を可能にする通知のサポート：Node.js SDKを使用して、エクスペリエンスを取得し、Node.jsサーバー上でローカルにキャッシュできます。これにより、アプリケーションのパフォーマンスを最小限に抑え、サーバー呼び出 [!DNL Target] しを最適化できます。
+* **** VECで作成されたアクティビティの取得機能：サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターが含まれ、このセレクターは、パーソナライズする必要があるページの一部のみを事前に非表示にするために使用できます。 これは、ページの [First Contentful Paint指標の最適化に役立ちます](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)。これは、 [Google pageRankシステムで高スコアを達成するためのビジネスにとって重要なKPIです](https://en.wikipedia.org/wiki/PageRank) 。
 
-Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
-
-`/rest/v2/batchmbox`
-
-Batch Delivery API を使用すると、アプリケーションは 1 回の呼び出しで複数の mbox のコンテンツをリクエストします。また、モバイルアプリ、サーバーなどのクライアントが 1 回のリクエストで複数の mbox のコンテンツを取得してローカルにキャッシュし、後でユーザーがそれらの mbox を訪問したときに [!DNL Target] に通知できるようにするプリフェッチモードもあります。
-
-このエンドポイントでは、通常の mbox のみにオファーを返すことができます。複数の mbox のコンテンツを取得できるので、パフォーマンスの点から一括 mbox API を使用することをお勧めします。これにより、高い負荷がかかる可能性がある複数の HTTP リクエストの実行を回避できます。
-
-## NodeJS SDK
-
-リンク： [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
-
-現在アドビでは、1 種類の SDK（NodeJS SDK）のみを提供しています。
-
-NodeJS SDK は、NodeJS の HTTP／HTTPS コアモジュールを囲む thin ラッパーです。NodeJS SDK API は、バックグラウンドで同じ Server Side Delivery API を使用します。
-
-マッピングを次に示します。
-
-* `MarketingCloudClient.getOffer() \*- invokes \*/res/v1/mbox endpoint`
-* `MarketingCloudClient.getOffers() \*- invokes \*/res/v2/batchmbox endpoint`
-
-## [!DNL Target Recommendations] API
+## Target Recommendations API
 
 Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
 
-Recommendations API を使用すると、プログラムによって Target の Recommendations サーバーとのインタラクションをおこなうことができます。これらの API は様々なアプリケーションスタックと統合して、通常ユーザーインターフェイスから実行する関数を実行できます。
-
-## [!DNL Target Classic] API
-
-[!DNL Target Classic] UI および API は廃止されました。Target の最新の API への切り替えについて詳しくは、[従来の Target API から Adobe I/O への移行](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2)を参照してください。
-
->[!NOTE]
->（アクティビティ、オファー、オーディエンスなどを作成する）オーサリング API は、クロスオリジンリソース共有（CORS）をサポートしていません。
-
-## Server Side Delivery API と NodeJS SDK の違い {#section_10336B7934F54CE98E35907A4748A4A4}
-
-Server Side Delivery API と NodeJS SDK の違いがわからないという方も多くいらっしゃることでしょう。特に、パフォーマンスについては相違がほとんどありません。
-
-次の FAQ は、どちらを使用するべきかを決定するのに役立ちます。
-
-**「生の」Server Side API と NodeJS SDK は、それぞれどのような場合に使用するべきですか？**
-
-NodeJS をバックエンドテクノロジーとして使用している場合は、必然的に NodeJS SDK を選択することになります。SDK は、Cookie、ヘッダー、データソースなどの多くの詳細情報を処理します。これにより、アプリケーションのコア機能に注力できます。
-
-**NodeJS SDK を使用すると、パフォーマンスが向上しますか？**
-
-残念ながら、パフォーマンスに関するデータは提供しておりません。しかし、一般的に、NodeJS SDK を使用すると、NodeJS のイベントドリブン型のアーキテクチャによりパフォーマンスが向上します。処理のほとんどが [!DNL Target] のバックエンドでおこなわれます。NodeJS SDK による処理はごくわずかです。SDK は、基本的に [!DNL Target] のリクエストをパッケージ化し、[!DNL Target] の応答を解析する役割を担います。
+The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
