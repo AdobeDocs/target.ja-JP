@@ -1,6 +1,6 @@
 ---
 description: このページでは、Target ドキュメントに加えられた重要な変更について説明します。
-keywords: targetドキュメントの変更ログ;ドキュメントの更新
+keywords: targetドキュメントの変更ログ;ドキュメントの更新；新規トピック；編集
 seo-description: このページでは、Adobe Target ドキュメントに加えられた重要な変更について説明します。
 seo-title: Adobe Target 製品ドキュメントの変更
 solution: 'Target '
@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 10 月 11 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 次の節を追加しました。"serverState." |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
 | 2019 年 10 月 10 日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | トピックを更新しました。 |
 |  | [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新規トピックです。 |
 |  | [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新規トピックです。 |
