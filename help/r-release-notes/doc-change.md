@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 | 2019 年 10 月 11 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 次の節を追加しました。"serverState." |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
+|  | [アクティビティのトラブルシューティング](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 次の節を追加しました。「Target UIを使用してアクティビティを作成したが、APIを使用して更新できない。」 |
 | 2019 年 10 月 10 日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | トピックを更新しました。 |
 |  | [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新規トピックです。 |
 |  | [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新規トピックです。 |
