@@ -8,7 +8,7 @@ title: 勝者の特定
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    自動配分は、特定のエクスペリエンスがアクティビティのすべてのエクスペリエンスにわたる真の勝者になる確率を示します。これは、勝者エクスペリエンス（勝者になる可能性が最も高い）のみが、ゼロ以外の信頼性の値を持つことを意味します。その他すべては、敗者になる可能性が最も高く、0％と表示されます。
 
-* 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。自動配分は、通常の A/B テストの約 2 倍高速です。通常の A/B テストが実行されるのにどれくらい時間がかかるかを判断するには、[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)を使用して、対照のコンバージョン率を「ベースラインコンバージョン率」に、5％ を「上昇率」に、95％ を「信頼性」に代入してください。通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
+* 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。これらの信頼性レベルは、通常、通常のA/Bテストが完了するのにかかる時間の約半分後に表示されます（ただし、これは保証されません）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
