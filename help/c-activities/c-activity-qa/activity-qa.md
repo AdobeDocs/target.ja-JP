@@ -8,7 +8,7 @@ title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ QA URL を利用すると、変更されないプレビューリンク、オプ�
 * エクスペリエンスを別個にプレビューすることや、配信条件（ページ／mbox／オーディエンス）を満たす他の実際のアクティビティと共にプレビューすることができる。
 * ユーザージャーニー全体を QA の対象にできます。QA リンクを使用してサイトに 1 回アクセスすれば、アクティビティ QA 内でサイト全体を閲覧することができます。セッションを終了するか、[QA Target ブックマークレット](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)を使用してアクティビティ QA から強制的に離脱しない限り、アクティビティ QA 内にとどまります。この機能は、複数の Web ページにわたるアクティビティがある場合に特に便利です。
 
->[!NOTE]
->
->これは、バージョン2を使用するat.js実装に当てはまります。*x* 以降。 at.js 1の場合。*x* およびmbox.jsの実装では、訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
+   >[!NOTE]
+   >
+   >これは、バージョン2を使用するat.js実装に当てはまります。*x* 以降。 at.js 1の場合。*x* およびmbox.jsの実装では、訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
 
 ## QA URL へのアクセスおよび共有 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
