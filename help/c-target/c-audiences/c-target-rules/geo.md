@@ -8,7 +8,7 @@ title: Adobe Target のジオターゲティング
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ---
 
