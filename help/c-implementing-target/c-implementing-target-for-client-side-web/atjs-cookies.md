@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js の cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -25,7 +25,7 @@ at.js はセッション ID を生成し、Cookie に保存します。最初の
 
 `AMCV_###@AdobeOrg` ファーストパーティ Cookie は常に [!DNL Experience Cloud ID Service] によって設定されます。ただし、`ECID` は [!DNL Target] リクエストで渡されます。
 
-### サードパーティ Cookie とクロスドメイン追跡はサポートされていません。
+### サードパーティ Cookie とクロスドメイントラッキングはサポートされていません。
 
 クロスドメイン追跡を使用すると、ドメインが異なる 2 つの関連サイト上のセッション同士を単一のセッションとして確認できます。`siteA.com` と `siteB.com` にまたがる [!DNL Target] アクティビティを作成し、訪問者がドメインを移るときに同じエクスペリエンスを維持できます。この機能は at.js 1.*x* のサードパーティ Cookie とファーストパーティ Cookie の動作に関連付けられています。
 
@@ -112,7 +112,7 @@ Cookie にはいくつかのデフォルト設定があります。cookie の期
 | cookie 名 | mbox。 |
 | cookie ドメイン | コンテンツを提供するドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. |
 | サーバードメイン | `clientcode.tt.omtrdc.net`。アカウントのクライアントコードを使用します。 |
-| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 週間です。cookie の期間は変更できません。 |
+| cookie の期間 | cookieは、訪問者の最後のログインから2年間、訪問者のブラウザーに残ります。 cookie の期間は変更できません。 |
 | P3P ポリシー | ほとんどのブラウザーのデフォルト設定の要求に従って、cookie は P3P ポリシーに基づいて発行されます。P3P ポリシーはブラウザーに対して、cookie を扱うユーザーおよびその情報の使用方法を指示します。 |
 
 Cookie は、キャンペーンでの訪問者のエクスペリエンスを管理するための様々な値を保持します。
