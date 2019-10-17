@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年10月18日 | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | アクティビティQAがサードパーティcookieと連携する仕組みを説明するトピックを更新しました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | リリースノートを更新し、Unified shellの変更に関する情報を含めました。 |
 | 2019 年 10 月 11 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 次の節を追加しました。"serverState." |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
