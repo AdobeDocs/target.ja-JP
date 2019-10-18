@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
+source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
 
 ---
 
@@ -33,29 +33,25 @@ source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ### 機能強化、修正および変更
 
-* シェルに変更を加 [!DNL Experience Cloud] えます。
+* にログインすると、新しいヘ [!DNL Adobe Experience Cloud]ッダーナビゲーションが表示されます。 前のナビゲーションの上部に黒いバーが表示されているのと非常に似ていますが、次の点が改善されました。
 
-   アドビは、すべてのソリューションでエクスペリエンスを統合し、向上させるために、既存のシェル(ソリューションの上部に [!DNL Experience Cloud] ある黒いバー)を更新し [!DNL Adobe Experience Cloud] ています。
+   * (IMS)組織間 [!DNL Identity Management System] または別のソリューションへの切り替えが容易になりました。
+   * ユーザーヘルプの改善：検索結果には、製品ドキュメントの結 [!DNL Target] 果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスして最大限の活用を図ることができま [!DNL Target]す。 また、ヘルプメニューにフィードバックのメカニズムが追加さ [!UICONTROL れ] 、問題の報告やアイデアの共有が簡単になりました。
 
-   現在のワークフローには変更はありません。これらのシンプルに見える変更は、小さくて重要な方法での生活をより簡単にするように設計されています。
-
-   にログインすると、新 [!DNL Adobe Experience Cloud]しいシェルに移動します。 前のシェルの上部に黒いバーが表示されているのと非常に似ていますが、次の点が改善されています。
-
-   * IMS(Identity Management System)組織間または別のExperience cloudソリューション間の切り替えが [!E容易に] 。
-   * ユーザーヘルプの改善：検索結果には、製品ドキュメントの結 [!DNL Target] 果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスして最大限の活用を図ることができま [!DNL Target]す。 また、ヘルプメニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
-   * ネットプロモータースコア(NPS)機能を改善しました。 調査の頻度が、意図したよ [!DNL Target] りも高い場合もあります。 さらに、作業の流れを妨げる調査モーダルを使用します。 この機能は完全に更新されたので、もう押し付けがましい小さな調査になります。 さらに、新しい設計により、調査の頻度をより適切に制御できるようになりました。
-   * ログインフローが改善されました。 以前は、すべての顧客 [!DNL Target] は、シェル上のアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次に示すように、お客様がRecommendations Classic [!DNL Target Standard/Premium]、 [!DNl]Recommendations [!DNL Search&Promote]Classic、またはを使用できました。
+   * ネットプロモータースコア(NPS)のフィードバック機能が改善され、調査モーダルが作業の流れを妨げないようになりました。
+   * ログインフローが改善されました。 以前は、すべての顧客 [!DNL Target] はヘッダーのアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次に示すように、お客様はRecommendations Classic [!DNL Target Standard/Premium]、 [!DNL Search&Promote]または [!DNl Recommendations]Classicを使用できるようになりました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
 
-      このランディングページをすべてのお客様に対して削除しました。 アイコンをクリックすると、常にアクティビティリ [!UICONTROL ストページに] 直接移動するようにな [!DNL Target] りました。
+      このランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーのアイコンをクリ [!UICONTROL ックすると] 、常にアクティビティリスト [!DNL Target] ページに直接移動するようになりました。
 
       使用する場合は、 [!DNL Recommendations Classic]次に示すように、ソリューションに直接移動するか、「 [!UICONTROL Recommendations] 」タブで作成した短いリンクから移動できます。
 
       ![Recs Classicディープリンク](/help/r-release-notes/assets/recs-classic.png)
 
       を使用する場合 [!DNL Search&Promote]は、リンクに直接移動する必要があります。 の内側から到達す [!DNL Search&Promote] るパスが完全 [!DNL Adobe Target] に削除されました。
-   * 現在、シェ [!DNL Target] ルの「通知」ドロップダウンに [!UICONTROL 通知が表示されなくなりました] 。
+
+   * の通知は、現 [!DNL Target] 在、ヘッダーの「通知  」ドロップダウンでは使用できません。
    >[!NOTE]
    >
    >これらの機能は一度に展開されたり、すべての顧客に一括して展開されることはありません。 これらの機能は、19.10.1（2019年10月22日）リリースから数日 [!DNL Target Standard/Premium] 後にロールアウトされます。
