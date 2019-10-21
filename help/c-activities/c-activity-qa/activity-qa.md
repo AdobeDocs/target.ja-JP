@@ -8,7 +8,7 @@ title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ QA URL を利用すると、変更されないプレビューリンク、オプ�
    また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
 
 * "URLが」を指定して、Visual Experience [Composerのフォームベースのコンポーザー](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [ページ配信オプションでアクティビティの絞り込みを作成した場合、](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) アクティビティQAはURLパラメーターを追加するので、QA URLは機能しません。この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
-* at.js 1を使用している場合。*x* またはmbox.jsで、ブラウザーがサードパーティCookieをブロックする場合、Activity QAモードは固定されません。 このような場合は、移動先の各URLにプレビューパラメーターを追加する必要があります。
+* at.js 1を使用している場合。*Safariまたはサードパーティcookieをブロックする他のブラウザーを使用する場合、x*、つまりmbox.jsのActivity QAモードは固定されません。 このような場合は、移動先の各URLにプレビューパラメーターを追加する必要があります。
 * アクティビティが複数のエクスペリエンスオーディエンス（たとえば、同じアクティビティに含まれる米国と英国のサイト）を使用している場合、4つの組み合わせ（エクスペリエンスA / USサイト、エクスペリエンスA / UKサイト、エクスペリエンスB / USサイト、Experience B / Ukサイト）に対して QA リンクは生成されません。エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。英国の QA ユーザーには、米国サイトは表示されません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
 
