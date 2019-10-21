@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
+source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
    * ユーザーヘルプの改善：検索結果には、製品ドキュメントの結 [!DNL Target] 果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスして最大限の活用を図ることができま [!DNL Target]す。 また、ヘルプメニューにフィードバックのメカニズムが追加さ [!UICONTROL れ] 、問題の報告やアイデアの共有が簡単になりました。
 
    * ネットプロモータースコア(NPS)のフィードバック機能が改善され、調査モーダルが作業の流れを妨げないようになりました。
-   * ログインフローが改善されました。 以前は、すべての顧客 [!DNL Target] はヘッダーのアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次に示すように、お客様はRecommendations Classic [!DNL Target Standard/Premium]、 [!DNL Search&Promote]または [!DNl Recommendations]Classicを使用できるようになりました。
+   * ログインフローが改善されました。 以前は、すべての顧客 [!DNL Target] はヘッダーのアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次のように、顧客が [!DNL Target Standard/Premium]、、、ま [!DNL Search&Promote]たは [!DNL Recommendations Classic]を進めることができました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
       ![Recs Classicディープリンク](/help/r-release-notes/assets/recs-classic.png)
 
-      を使用する場合 [!DNL Search&Promote]は、リンクに直接移動する必要があります。 の内側から到達す [!DNL Search&Promote] るパスが完全 [!DNL Adobe Target] に削除されました。
+      使用する場 [!DNL Search&Promote]合は、 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 の内側から到達す [!DNL Search&Promote] るパスが完全 [!DNL Adobe Target] に削除されました。
 
    * の通知は、現 [!DNL Target] 在、ヘッダーの「通知  」ドロップダウンでは使用できません。
    >[!NOTE]
