@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -16,6 +16,13 @@ source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 # ドキュメントの変更点{#documentation-changes}
 
 このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
+
+## Adobe Target/Standard/Premium 19.10.1（2019年10月23日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2019 年 10 月 23 日 |  |  |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：19.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月31日）
 
