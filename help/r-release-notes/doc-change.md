@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019 年 10 月 23 日 |  |  |
+| 2019 年 10 月 23 日 | [条件／アルゴリズム](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | ユーザーベースのレコメンデーションの行を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：19.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月31日）
