@@ -8,7 +8,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -22,6 +22,27 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2019 年 {#releases-2019}
+
+### at.jsバージョン2.2および1.8（2019年10月11日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、at.jsがエクスペリエンスを取得する前に、ECIDは2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するには、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードします。<ul><li>**serverState**:at.js v2.2以降で使用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。<br>詳しくは、targetGlobalSettingsの「serverState」を参照してく [ださい](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+
+### Targetプラットフォーム（2019年10月9日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Node.js SDKバージョン1.0 | Target Node.js SDKを使用すると、Targetサーバー側をデプロイできます。<br>このNode.js SDKを使用すると、TargetをAdobe Experience Cloud Identity Service、Adobe Analytics、Adobe Audience Managerなどの他のExperience cloudソリューションと簡単に統合できます。<br>Node.js SDKは、アドビの配信APIを使用してAdobe targetと統合する際に、ベストプラクティスを導入し、複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でTargetをハイブリッド統合している場合のパフォーマンス最適化のサポート。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを介したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、オープンソースです。</li></ul><br>詳しくは、リリースノー [ト — Target Node.js SDKを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
+| 配信API | 完全に新しい配信APIエンドポイント（/v1/配信）が実稼働環境で使用できます。 主な機能は次のとおりです。<ul><li>1つ以上のmboxのエクスペリエンスを取得するための1つのエンドポイント。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用されるビューと呼ばれる、まったく新しいオブジェクトのサポート。</li></ul><br>詳しくは、リリースノート — [Targetサーバー側APIを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
+
+### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
+
+このメンテナンスリリースで強化された機能は次のとおりです。
+
+* Visual Experience Composer（VEC）のリッチテキストエディター（RTE）に対するセキュリティ更新を含む、いくつかのセキュリティを修正しました。（TGT-35383）
+* A/Bテストとエクスペリエンスのターゲット設定アクティビティで、DIVに加えて、DIV以外の要素（P、UL、H1など）にレコメンデーションオファーを追加できるようになりました。 （TGT-34333）
+* イベント通知（Target UIのベルのアイコン）は使用できなくなりました。 通知の新しいルックが近日公開されます。
 
 ### Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
 
@@ -53,7 +74,7 @@ Mobile VEC SDK のこのリリースには、次の機能強化および修正�
 | モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> [モバイルアプリでのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)を参照してください。 |
 | ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する必要が](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) あります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
-| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、TargetはECIDライブラリ4.3とのシームレスな統合を導入しています。ECIDライブラリ4.3は、サーバー側cookieを利用してITP 2.1およびITP 2.2を軽減します。Targetのお客様は、今後のITPリリースを軽減するために、 [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ECIDライブラリ4.3以降をTargetのJavaScriptライブラリと組み合わせて導入することを強くお勧めします。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
 
 **機能強化、修正、変更点**
 
@@ -529,8 +550,8 @@ target/r_release-notes-2018.xml
       <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Adobe Audience Manager（AAM）のロケーションヒントが送信されないことがある問題を修正しました。（TNT-29695） </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>これをサポートしているブラウザーの場合、at.js 1.5.0 はセレクターポーリングの際に MutationObserver に切り替わります。at.js 1.0.0 以前のバージョンでは、MutationObserver ポリフィルを使用していましたが、これは問題があることがわかっていました。ポリフィルの問題を回避するために、バージョン 1.5.0 では次の擬似コードを使用して、どのスケジューリングメカニズムを使用するかを決定しています。 </p> <p> 
         <code>
- mutationObserverがsuler= mutationObserverをサポートしている場合は、ドキュメントがvisitor= requestAnimationFrame else scheduler= setTimeoutの場合 
- </code> </p> </li> 
+          if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
+        </code> </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -844,7 +865,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>at.js 1.2.3 では、JSON オファーのサポートが追加されています。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。See<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。 </p> </td> 
+   <td colname="col2"> <p>at.js 1.2.3 では、JSON オファーのサポートが追加されています。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。詳しくは、<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>その他の変更 </p> </td> 
@@ -873,7 +894,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オーディエンス </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
-      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。See<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
+      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。詳しくは、<a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>アクティビティのみのオーディエンスに複数のアクティビティをまたいで同じ名前を設定できるようになりました。以前は、名前が重複しているとタイムスタンプが追加されていました。例えば「Target on Weekday」というオーディエンスが重複していると、「Target on Weekday-1456732099201」という名前で保存されていました。 </p> <p>ライブラリオーディエンスは引き続き、名前を一意にする必要があります。（TGT-17967） </p> </li> 
      </ul> </p> </td> 
@@ -890,7 +911,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オファー </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_BD0C5B260E7E4F139FBC1FBA286C0B81"> 
-      <li id="li_FCDBABE6C5034A3596F5BBF024245FB9"> <p>オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成できるようになりました。See<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。（TGT-27064） </p> </li> 
+      <li id="li_FCDBABE6C5034A3596F5BBF024245FB9"> <p>オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成できるようになりました。詳しくは、<a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local">JSON オファーを作成します</a>。（TGT-27064） </p> </li> 
       <li id="li_5500AE7DCF4146E88E4619382CE8E836"> <p>それぞれのオファーの定義ポップアップカードで、コードオファーを参照するアクティビティを表示できるようになりました。この機能は画像オファーには適用されません。<a href="../c-experiences/c-manage-content/manage-content.md#concept_17874A6FCBB743AA84C5988E8571CCF3" format="dita" scope="local">オファー</a>を参照してください。（TGT-26277） </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1194,7 +1215,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * オーディエンス定義の詳細を確認できる場所が増えました。オーディエンスを開かなくても、Target UI 内に表示されるポップアップカードで確認できます。この機能は、 [!DNL Target Standard/Premium. (TGT-25772)]
 * アクティビティの作成／概要内で、アドホックオーディエンスの定義を表示できるようになりました。（TGT-25570）
-* The following variables are now available as[Velocity](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
+* 次の変数が[Velocity](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
 
 ### Target プラットフォームの変更点（2017 年 8 月 4 日）{#section_FA5BF6808EA74F3A9E8E941530879208}
 
@@ -2115,7 +2136,10 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）リリースに
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations の CSV ダウンロード </td> 
-   <td colname="col2"> <p>CSV ダウンロードでは、エンティティレコメンデーションを持たない環境（例えば、<code># environment: 1724</code>）を含むすべての環境のための行を含むようになりました。 </p> </td> 
+   <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
+     <code>
+       # environment: 1724 
+     </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
