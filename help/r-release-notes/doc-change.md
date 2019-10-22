@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019 年 10 月 23 日 | [条件／アルゴリズム](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | ユーザーベースのレコメンデーションの行を追加しました。 |
+|  | [条件](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 次の節を追加しました。「カスタムレコメンデーションキーの使用」 |
 |  | [Targetとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。"複雑なURL文字列を作成する場合、URL全 [!DNL Target] 体が評価されますか？" |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：19.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
