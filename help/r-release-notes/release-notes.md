@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 | --- | --- |
 | ![Premiumバッジ](/help/assets/premium.png) User-Based Recommendations<br>（2019年10月25日） | 各訪問者の閲覧、閲覧、購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件を使用すると、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを配信できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、訪問者がサイトを閲覧するにつれて、よりパーソナライズされます。<br>詳しくは、条件/アルゴリズムの「ユーザーベースのレコメンデーション」 [を参照してください](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
-### 機能強化、修正および変更
+### Adobe Experience cloudのナビゲーション
 
 * にログインすると、新しいヘ [!DNL Adobe Experience Cloud]ッダーナビゲーションが表示されます。 前のナビゲーションの上部に黒いバーが表示されているのと非常に似ていますが、次の点が改善されました。
 
@@ -48,7 +48,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
    * の通知は、現 [!DNL Target] 在、ヘッダーの「通知  」ドロップダウンでは使用できません。
    >[!NOTE]
    >
-   >これらの機能は一度に展開されたり、すべての顧客に一括して展開されることはありません。 これらの機能は、19.10.1（2019年10月22日）リリースから数日 [!DNL Target Standard/Premium] 後にロールアウトされます。
+   >これらの機能は一度に展開されたり、すべての顧客に一括して展開されることはありません。 これらの機能は、 [!DNL Target Standard/Premium] 19.10.1（2019年10月22日）リリースから、今後数週間のうちに公開されます。
    >
    >新しいナビゲーションバーの展開の一部として、URLの変化にも気付きます。 以前にブックマークされたリンクは、引き続き機能しますが、すばやく開くために新しいリンクをブックマークすることをお勧めします。
 
