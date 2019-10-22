@@ -8,7 +8,7 @@ title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ターゲットとオーディエンスに関する FAQ{#targets-and-audiences-faq}
 
 エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
+
+## 複雑なURL文字列を作成する場合、はURL [!DNL Target] 全体を評価しますか。
+
+URL文字列で同じパラメータ名を複数回使用する場合、HTTPは最初のパラメータ名を考慮し、同じ名前の後続のパラメータを無視します。
+
+例えば、次のURL文字列の場合：
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+パラメーターの最初のインス `Category` タンスが評価され、2番目のパラメーター `Category` は無視されます。
 
 ## オーディエンスの構築時に、ターゲットライブラリにある事前設計されたオーディエンスが他のカテゴリで見つかるのはなぜですか。{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
