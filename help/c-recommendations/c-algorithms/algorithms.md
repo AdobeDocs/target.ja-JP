@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
 | メディア／投稿 | エンゲージメント |
 
-## レコメンデーションキー {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 選択するレコメンデーションキーが条件の種類を決定します。いくつかの条件の種類があり、[!DNL Recommendations] アクティビティを設定する際に条件カードとして表示されます。
 
@@ -43,6 +43,35 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 人気度 | 関連するカテゴリで一番人気のあるビデオや、サイトで一番表示されている製品など、一番人気のある品目がレコメンデーションされます。<ul><li>人気度</li></ul> |
 | 最近表示された項目 | 訪問者が前回サイトに訪問した際に表示した品目や、現在一番好まれている記事など、訪問者が最近表示した品目をレコメンドします。<br>「最近表示された項目」アルゴリズムは、[環境](/help/administrating-target/hosts.md)内の訪問者のアクティビティ固有の結果を返します。2 つのサイトが異なる環境に属している場合、訪問者が 2 つのサイトを切り替えると、アルゴリズムは適切なサイトから最近表示された項目のみを返します。<br>この条件タイプは、コレクションによって制限されません。<ul><li>最近表示された項目</li></ul>**注意：**&#x200B;最近表示された項目の条件は、バックアップレコメンデーションには使用できません。<br>最近表示された項目／メディアは、フィルターを適用し、特定の属性を含む項目のみを表示できます。<ul><li>最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更可能です。</li><li>他の条件と同じ方法で、[コレクション](/help/c-recommendations/c-products/collections.md)、[除外](/help/c-recommendations/c-products/exclusions.md)、および[インクルージョン](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（価格および在庫用の特殊なルールも含む）を使用できます。</li></ul>主な使用例は次のとおりです。<ul><li>複数のビジネスを営む多国籍企業で、複数のデジタルプロパティで項目を閲覧する訪問者がいるとします。その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。これにより、最近表示された項目が別のデジタルプロパティでレコメンデーションされるのを防ぐことができます。</li></ul> |
 
+## Using a custom recommendations key {#custom-key}
+
+また、カスタムプロファイル属性の値を基にレコメンデーションを作成することもできます。
+
+>[!NOTE]
+>
+>カスタムプロファイルパラメーターは、JavaScript、APIまたは統合を通じてTargetに渡すことができます。 カスタムプロファイル属性について詳しくは、訪問者プロファ [イルを参照](/help/c-target/c-visitor-profile/visitor-profile.md))。
+
+例えば、ユーザーが最近キューに追加した映画に基づいて、レコメンデーションされた映画を表示するとします。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+
+Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+
+![新しい条件を作成ダイアログボックス](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+
+例えば、ユーザーのお気に入りのブランドで売れ筋商品を表示するとします。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+
+Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+
+「[!UICONTROL 次の一意の値でグループ化]」オプションが表示されます。選択したキーに一致するエンティティ属性を選択します。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+
+[!DNL Recommendations] 各ブランドの「トップセラー」リストが作成され、「お気に入りのブランド  」プロファイル属性に保存された値に基づいて、適切な「トップセラー」リストがユーザーに表示されるようになりました。
+
+![トップセラー属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## 条件／アルゴリズム {#criteria-algorithms}
 
