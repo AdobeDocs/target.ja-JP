@@ -1,5 +1,5 @@
 ---
-description: オーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
+description: Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、ターゲットオーディエンス、レポートオーディエンス、レポートオーディエンス、セグメント、カスタムプロファイルパラメーター、オーディエンス定義、オーディエンスリスト
 seo-description: Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 seo-title: Adobe Target でのオーディエンスの作成
@@ -8,18 +8,18 @@ title: オーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # オーディエンスの作成{#create-audiences}
 
-オーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
+Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 
 オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。アクティビティをターゲティングする場合、[!UICONTROL オーディエンス]リストから再利用可能なオーディエンスを選択するか、[アクティビティ専用のオーディエンス](/help/c-target/creating-activity-only-audience.md)を作成します。または、[複数のオーディエンスを組み合わせて](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アドホックオーディエンスを作成します。
 
-リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。See Audiences in the Core Services User Guide.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)**
+リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。『コアサ [ービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』ユーザーガ *イドの「オーディエンス*」を参照してください。
 
 [!DNL Target] では、次の 2 種類のオーディエンスが定義されます。
 
@@ -51,7 +51,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 オーディエンス定義の詳細は、オーディエンスを開かなくても、Target UI の様々な場所に表示されるポップアップカードで確認できます。この機能は、Target Standard／Premium で作成されたオーディエンス、Target Classic からインポートされたオーディエンス、API を使用して作成されたオーディエンスで利用できます。
 
-例えば、次のオーディエンス定義カードは、オーディエンスリスト上のオーディエンスにカーソルを合わせ、表示アイコンをクリックすると表示されます。
+例えば、次のオーディエンス定義カードは、オーディエンスリスト上のオーディエンスにマウスポインターを置き、表示アイコンをクリックすると表示されます。
 
 ![アクティビティ／オーディエンス定義](assets/audience_definition_list.png)
 
