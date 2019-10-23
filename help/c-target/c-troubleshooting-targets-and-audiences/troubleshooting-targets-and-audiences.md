@@ -8,7 +8,7 @@ title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
@@ -26,6 +26,10 @@ URL文字列で同じパラメータ名を複数回使用する場合、HTTPは�
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 パラメーターの最初のインス `Category` タンスが評価され、2番目のパラメーター `Category` は無視されます。
+
+次に示すように、1つのカテゴリに複数の値を関連付けることをお勧めします。
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## オーディエンスの構築時に、ターゲットライブラリにある事前設計されたオーディエンスが他のカテゴリで見つかるのはなぜですか。{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
