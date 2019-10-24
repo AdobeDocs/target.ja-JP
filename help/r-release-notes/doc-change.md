@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 10 月 25 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 次のFAQのテキストを更新しました。「Targetがレコメンデーションを表示できないことがあるのはなぜですか？」 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 以前のバージョンのat.js（バージョン2.2.0より前）に影響する既知の問題に注意を追加しました。 |
+|  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | A4Tを使用するアクティビティの成功指標のデフォルト動作に関する注意を追加しました。 |
 | 2019 年 10 月 23 日 | [条件／アルゴリズム](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | ユーザーベースのレコメンデーションの行を追加しました。 |
 |  | [条件](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 次の節を追加しました。「カスタムレコメンデーションキーの使用」 |
 |  | [Targetとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。"複雑なURL文字列を作成する場合、URL全 [!DNL Target] 体が評価されますか？" |
