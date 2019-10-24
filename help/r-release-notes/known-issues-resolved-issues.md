@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -72,13 +72,17 @@ Recommendations アクティビティの既知の問題は次のとおりです�
 
 MVT アクティビティでは、指標をチェックしているときに、テーブルとグラフに表示される勝者が一致しない場合があります。この問題は、ユーザーが概要ビューからグラフ表示に切り替えた後、概要ビューに戻り、指標を変更してからグラフ表示に切り替えると発生します。この問題が発生しても、概要ビューには常に正しい勝者が表示されます。概要ビューとグラフ表示を切り替えなければ、グラフ表示にも正しい勝者が表示されます。
 
-### at.js
+### at.js {#atjs}
 
 at.js の既知の問題を以下に示します。
 
-* at.js 2を使用して、変更のないエクスペリエンスを作成する場合。*x* （例えば、デフォルトのエクスペリエンス）では、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* at.js 2.1.1以前（例えば、デフォルトのエクスペリエンス）を使用して変更のないエクスペリエンスを作成した場合、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、Adobe AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
 
    回避策として、エクスペリエンスコンテンツに空白を使用します。 （TNT-33366）
+
+   >[!NOTE]
+   >
+   >この問題の修正は、at.js 2.2.0に含まれていました。最新バージョンまたはat.js [にアップグレードするか](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 、上記の回避策を2.2.0より前のバージョンのat.jsにのみ使用してください。
 
 * Visual Experience Composer（VEC）にページを読み込む際、Target は、グローバル mbox の設定が有効かどうかと、ユーザーが VEC でレコメンデーションを適用しようとしている場所に entityID または categoryID があるかどうかを確認する必要があります。この情報を基に条件のリストがフィルタリングされます。デフォルトのリストではアルゴリズムがフィルタリングされていますが、[「互換性あり」チェックボックス](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)を使用すると、すべてのアルゴリズムのリストを表示できます。
 
