@@ -9,7 +9,7 @@ title: タグマネージャーを使用しない Target の実装
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   ` < *`client code`*>` を手順 1 のクライアントコードで置き換えます。
+   Replace `client code` with the client code from Step 1.
 
    この URL を読み込んだ結果は、次の例のようになります。
 
@@ -132,9 +132,9 @@ API を使用して [!DNL at.js] をダウンロードするには：
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * ` < *`admin number`*>` を管理番号で置き換えます。
-   * ` < *`client code`*>` を手順 1 のクライアントコードで置き換えます。
-   * ` < *`version number`*>` を目的の [[!DNL at.js] バージョン番号](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)（例： 1.6.2）で置き換えます。
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
