@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js のバージョンの詳細
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
 
-## at.jsバージョン2.2（2019年10月11日）
+## at.jsバージョン2.2.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
@@ -34,7 +34,7 @@ at.jsのこのリリースには、次の機能強化および修正が含まれ
 
 * at.jsバージョン2.2には、という新しい設定も用意されていま `serverState`す。 この設定は、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.jsバージョン1.8（2019年10月11日）
+## at.jsバージョン1.8.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
