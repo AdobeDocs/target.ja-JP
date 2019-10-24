@@ -1,8 +1,8 @@
 ---
 description: Recommendations アクティビティに関するよくある質問（FAQ）のリストです。
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-seo-description: Recommendations アクティビティに関するよくある質問（FAQ）のリストです。
-seo-title: Recommendations FAQ
+seo-description: Adobe Target Recommendationsアクティビティに関するよくある質問(FAQ)のリストです。
+seo-title: Adobe Target Recommendations FAQ
 solution: 'Target '
 title: Recommendations FAQ
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
 
-Recommendations アクティビティに関するよくある質問（FAQ）のリストです。
+Adobe Target Recommendationsアクティビティに関するよくある質問(FAQ)のリストです。
 
 ## カタログの項目を更新してサイトに反映されるまで、どれくらいかかりますか？
 
@@ -119,9 +119,9 @@ Target で「[!UICONTROL 互換性あり]」チェックボックスが表示さ
 
 Target では、利用できるレコメンデーションが少ないことが原因で、レコメンデーションを表示できないことがあります。
 
-条件ごとに生成される値の数は、デザインで指定したエンティティ数の 5 倍になります。ランタイムフィルタリング（在庫、mbox 属性のマッチングなど）が、5 倍の値が生成された後に適用されるので、値の数が提供時に 5 倍未満になることもあります。これを軽減するためには、追加のエンティティを非表示にして、デザインのエンティティ数を増やします。
+条件ごとに生成される値の数は、デザインで指定したエンティティ数の 3 倍になります。ランタイムフィルタリング（在庫、mbox 属性のマッチングなど）が、3 倍の値が生成された後に適用されるので、値の数が提供時に 3 倍未満になることもあります。これを軽減するためには、追加のエンティティを非表示にして、デザインのエンティティ数を増やします。
 
-次の JavaScript は、デザインの始めで利用可能で、リクエストされるエンティティの数を増やすことができます。この例では、リクエストされたエンティティの数は 50（5 x 10）になります。
+次の JavaScript は、デザインの始めで利用可能で、リクエストされるエンティティの数を増やすことができます。この例では、リクエストされたエンティティの数は 30（3 x 10）になります。
 
 ```
 #foreach($entity in $entities) 
