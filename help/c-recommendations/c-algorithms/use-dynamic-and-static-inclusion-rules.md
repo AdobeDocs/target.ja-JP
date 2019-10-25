@@ -1,8 +1,8 @@
 ---
 description: 条件とプロモーションのインクルージョンルールを作成する方法と、動的フィルタールールまたは静的フィルタールールを追加して成果を高める方法について説明します。
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-seo-description: 条件とプロモーションのインクルージョンルールを作成する方法と、動的フィルタールールまたは静的フィルタールールを追加して成果を高める方法について説明します。
-seo-title: 動的および静的インクルージョンルールの使用
+seo-description: Adobe Target Recommendationsでの条件とプロモーションのインクルージョンルールの作成、より良い結果を得るための動的または静的フィルタールールの追加に関する情報です。
+seo-title: Adobe Target Recommendationsでの動的および静的インクルージョンルールの使用
 solution: 'Target '
 title: 動的および静的インクルージョンルールの使用
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
+source-git-commit: 5ab3258eda4363072b7cec1d4b5284f1d5638472
 
 ---
 
