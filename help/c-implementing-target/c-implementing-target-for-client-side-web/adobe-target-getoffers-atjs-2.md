@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 | timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
+
+>[!NOTE]
+>
+>以下に示すすべて [のフィールドで使用できるタイプについては](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 、Delivery APIのドキュメントを参照してください。
 
 | フィールド名 | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- |
