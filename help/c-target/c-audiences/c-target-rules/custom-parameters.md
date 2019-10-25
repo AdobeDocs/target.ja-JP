@@ -2,13 +2,13 @@
 description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 keywords: カスタムパラメーター、targetカスタムパラメーター、targetpageparams、ターゲットmboxパラメーター
 seo-description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
-seo-title: Adobe targetのカスタムパラメーター
+seo-title: Adobe Target のカスタムパラメーター
 solution: 'Target '
 title: カスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -52,7 +52,8 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 
 ## 注意点 {#considerations}
 
-* オーディエンスとアクティビティは、特定のmboxに対して評価されます。 例えば、グローバルmboxが特定のパラメーターを渡しても、地域mboxが渡さない場合、そのパラメーターをターゲットとするアクティビティ/オーディエンスは、地域mboxでの資格を得ません。
+* オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡すが、リージョナル mbox は渡さない場合、そのパラメーターをターゲットにしたアクティビティ／オーディエンスでは、リージョナル mbox は対象になりません。
+* ターゲット設定は、mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId、mboxVersionなどの内部mboxパラメーターでは評価されません。
 
 ## トレーニングビデオ：オーディエンスの作成
 
