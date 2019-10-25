@@ -1,21 +1,21 @@
 ---
 description: 指定したページを閲覧している、または指定した mbox パラメーターが設定されている訪問者をターゲットにします。
 keywords: site pages、targetサイトページ、ターゲット設定、current page、target現在のページ、前のページ、target前のページ、ランディングページ、targetランディングページ、mbox、ターゲットmbox
-seo-description: 指定したページを閲覧している、または指定した mbox パラメーターが設定されている訪問者をターゲットにします。
-seo-title: サイトのページ
+seo-description: Adobe targetを使用して、特定のページにいる訪問者や特定のmboxパラメーターがある訪問者をターゲットに設定できます。
+seo-title: Adobe targetのサイトページ
 solution: 'Target '
 title: サイトのページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # サイトのページ{#site-pages}
 
-指定したページを閲覧している、または指定した mbox パラメーターが設定されている訪問者をターゲットにします。
+特定のページにいる訪問者や、特定のmboxパラメーターがある訪問者をターゲットに設定できます。
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 次の図を参照してください。
 
 ![](assets/site_pages.png)
+
+## トラブルシューティング {#ts}
+
+* ランディングページのオーディエンスが正しく機能するには、リクエストに `mboxReferrer` mboxパラメーターが正しく設定されている必要があります。 at.js javaScriptライブラリは、を使用して `mboxReferrer` ページから取得しま `document.referrer`す。
+
+   これらのパラメーターが正しく設定されていない場合、訪問者は後続のページに移動した後にアクティビティを終了する可能性があります。 例えば、がランディ `document.referrer` ングページで使用され、それ以降のページで使用されない場合、訪問者がアクティビティに [!DNL Target] 残っていることを確認することはできません。
+
+   この状況が発生した場合は、次のいずれかの操作を行うことを検討してください。
+
+   * Webサイトが正しく読み込まれることを確 `document.referrer` 認します。
+   * ターゲット [設定の目的で使用](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)[!DNL Target] するmboxパラメーターを渡します。
+   * ランディングペ [ージアクティビティの代わりに](/help/c-activities/t-test-ab/test-ab.md) 、A/B testアクティビティを使用します。 A/Bテストアクティビティでは、同じ訪問者のエクスペリエンスは切り替わりません。
+   * 代わりに、訪問者プ [ロファイルを使用](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
 ## トレーニングビデオ：オーディエンスの作成
 
