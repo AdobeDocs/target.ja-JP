@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -21,6 +21,12 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年10月26日 | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 認証済みユーザーと非認証ユーザーの間で識別する方法を説明する注記を追加しました。 |
+|  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 「考慮事項」に新しい項目を追加し、ターゲット設定が内部mboxパラメーターで評価されないことを説明しました。 |
+|  | [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | トピックを完全に更新し、古い例を削除しました。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するのに役立つ、Target Delivery APIドキュメントへのメモのリンクを追加しました。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するのに役立つ、Target Delivery APIドキュメントへのメモのリンクを追加しました。 |
+|  | [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 「トラブルシューティング」節を追加しました。 |
 | 2019 年 10 月 25 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 次のFAQのテキストを更新しました。「Targetがレコメンデーションを表示できないことがあるのはなぜですか？」 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 以前のバージョンのat.js（バージョン2.2.0より前）に影響する既知の問題に注意を追加しました。 |
 |  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | A4Tを使用するアクティビティの成功指標のデフォルト動作に関する注意を追加しました。 |
