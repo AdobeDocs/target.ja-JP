@@ -1,6 +1,6 @@
 ---
 description: 'at.js の adobe.target.applyOffers() 関数について説明します。 '
-keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;function;function
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;関数
 seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
 seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffers(options) 関数について説明します。
 solution: 'Target '
@@ -8,7 +8,7 @@ subtopic: 導入
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | 応答 | オブジェクト | ○ | `getOffers()` からのレスポンスオブジェクト。<br>下の「リクエスト」の表を参照してください。 |
 
 ## 応答
+
+>[!NOTE]
+>
+>以下に示すすべて [のフィールドで使用できるタイプについては](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 、Delivery APIのドキュメントを参照してください。
 
 | フィールド名 | 説明 |
 | --- | --- |
