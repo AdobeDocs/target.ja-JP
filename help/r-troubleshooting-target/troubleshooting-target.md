@@ -2,13 +2,13 @@
 description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
 keywords: Target のトラブルシューティング;Target のトラブルシューティング
 seo-description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
-seo-title: Target のトラブルシューティング
+seo-title: Adobe targetのトラブルシューティング
 solution: 'Target '
 title: Target のトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 * [Target の最適化とパーソナライゼーションに関する FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## コンテンツ
 
