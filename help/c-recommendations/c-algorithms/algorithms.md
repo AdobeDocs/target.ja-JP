@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 「**[!UICONTROL アルゴリズム使用状況]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。カードには、アクティブなアクティビティと非アクティブなアクティビティが一覧表示されます。「ライブアクティビティ」または「非アクティブなアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
 
 ![「条件使用状況」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-アクティビティ図では、条件カードに結果を表示するタイミングが示されるようになりました。結果が表示されているかどうかを確認することにより、アクティビティをライブにできるかどうかを判断できます。また、結果が表示されているかどうかを確認することにより、条件に問題があるかどうかを把握するのに役立ちます。
-
->[!NOTE]
->
->読み込み時間の説明については、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)の「予期される条件の処理時間」を参照してください。
-
-次の図は、Recommendations アクティビティの概要ページのアクティビティ図を示しています。また、アクティビティ作成ワークフローの手順 2 で、条件ステータスの結果を示すアクティビティ図を表示することもできます。
-
-![概要ページの条件ステータス](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-ステータスの結果には、次の図に示すように、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。
-
-![](assets/criteria_status_multi.png)
 
