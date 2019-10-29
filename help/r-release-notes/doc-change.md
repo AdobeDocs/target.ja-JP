@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2019年10月29日 | [コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | メモを追加しました。 |
-|  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 「考慮事項」に新しい項目を追加し、ターゲット設定が内部mboxパラメーターで評価されないことを説明しました。 |
+| 2019年10月26日 | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 「考慮事項」に新しい項目を追加し、ターゲット設定が内部mboxパラメーターで評価されないことを説明しました。 |
 |  | [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | トピックを完全に更新し、古い例を削除しました。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するのに役立つ、Target Delivery APIドキュメントへのメモのリンクを追加しました。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するのに役立つ、Target Delivery APIドキュメントへのメモのリンクを追加しました。 |
