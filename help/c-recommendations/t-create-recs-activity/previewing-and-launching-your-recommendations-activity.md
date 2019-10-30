@@ -10,7 +10,7 @@ title-outputclass: premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ Recommendationsを含む [!UICONTROL Recommendations]、 [!UICONTROL A/B Test]�
 
 アクティビティの作成後、アルゴリズム [!DNL Recommendations] を実行してレコメンデーションを生成します。 このアルゴリズムの実行には数時間かかる場合があります。
 
+アルゴリズムの実行が完了したかどうかは、条件のステータスが表示さ [!UICONTROL れる] 「アクティビティの概要」図で確認できます。 The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
 
 ![Recommendationsアクティビティの概要ページ](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ Recommendationsを含む [!UICONTROL Recommendations]、 [!UICONTROL A/B Test]�
 * [!UICONTROL Results Not Ready]:アルゴリズムの実行が完了していないことを示します。
 * [!UICONTROL フィードの失敗]:カスタム条件のフィードファイルを取得できなかったことを示します。
 
-![結果ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![結果ダイアログボックス](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## アルゴリズムの実行にはどのくらい時間がかかりますか。
 
@@ -48,7 +49,7 @@ Recommendationsを含む [!UICONTROL Recommendations]、 [!UICONTROL A/B Test]�
 
 mbox が行動データソースとして選択される場合、一旦作成されると、条件は即座に実行されます。使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。条件の設定を変更すると、通常、アルゴリズムが再実行されます。変更内容によっては、以前に計算されたレコメンデーションは、再実行が完了するまで使用できない場合や、大きな変更を行う場合は、再実行が完了するまでバックアップまたはデフォルトコンテンツのみを使用できます。 アルゴリズムが変更されない場合、選択されたデータ範囲に応じて 12 ～ 48 時間ごとに、[!DNL Target] によって自動的に再実行されます。
 
-## Adobe Analytics
+### Adobe Analytics
 
 [!DNL Adobe Analytics] を行動データソースとして使用する条件を作成した場合は、選択されているレポートスイートとルックバックウィンドウが他の条件でも使用されているかどうかに応じて、条件が使用可能になる時間が異なります。
 
