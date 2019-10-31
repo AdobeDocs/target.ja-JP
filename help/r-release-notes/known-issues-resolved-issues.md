@@ -8,7 +8,7 @@ title: 既知の問題と解決された問題
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### ページ配信 {#page-delivery}
+
+ページ配信に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合は [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)、ルールの先頭に余分なスペースが追加されます。 これは外観上の問題であり、オーディエンス定義の作成とオファーの配信には影響しません。 （TGT-35916）
 
 ### アクティビティ QA プレビューリンク {#preview}
 
