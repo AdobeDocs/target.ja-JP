@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -142,6 +142,7 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
    + サーバー側：Target の実装 {#server-side}
       + [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
