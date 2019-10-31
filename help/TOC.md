@@ -4,7 +4,7 @@ audience: エンドユーザー
 user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/ja-JP/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -120,7 +120,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
          + [mbox.js の Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
          + グローバル mbox について {#global-mbox}
-            + [グローバル mbox ついての概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+            + [グローバルmboxの概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
             + [グローバル mbox のカスタマイズ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [レガシー実装のグローバル mbox の使用](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [グローバル mbox にパラメーターを渡す](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
@@ -360,6 +360,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
       + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
+      + [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
