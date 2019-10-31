@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js 1.*x* から at.js 2.*x* へのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 不要です。`triggerView()` を呼び出す前に、事前に非表示になるコードを追加する必要はありません。at.js 2.*x* は、ビューが表示および適用される前に、事前非表示およびちらつきのロジックを管理します。
 
+### at.js 1 *オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*? {#audience-parameters}
+
+次のat.js 1.xパラメーターは、at.js ** 2を使用する場合のオーディエンス作成に対しては現在サポートされていません。*x*）を示します。
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## at.js の互換性
 
 次の表で、at.jsについて説明します。 2.*x様々なアクティビティタイプ* 、統合、機能およびat.js関数との互換性
@@ -411,112 +424,6 @@ at.js 2.*x* は、at.js 1.*x* と同様に、カスタムイベント `at-reques
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-（at.js 1.*x* パラメーター）
-
-訪問者のブラウザーウィンドウの高さです。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-（at.js 1.*x* パラメーター）
-
-訪問者のブラウザーウィンドウの幅です。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-（at.js 1.*X* パラメーター）
-
-タイムゾーンのオフセットです。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-（at.js 1.*x* パラメーター）
-
-訪問者の画面の高さです。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-（at.js 1.*x* パラメーター）
-
-訪問者の画面の幅です。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-（at.js 1.*x* パラメーター）
-
-訪問者の画面の色深度です。
-
-at.js 2.*x* JSON ペイロード：
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
