@@ -1,22 +1,22 @@
 ---
-description: グローバル mbox について説明します。グローバル mbox とは、Target 実装の各 Web ページの最上部でおこなわれる単一のサーバーコールを参照するために使用される名前です。
+description: グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
 keywords: グローバル mbox;mbox.js の実装;at.js の実装
-seo-description: グローバル mbox について説明します。グローバル mbox とは、Target 実装の各 Web ページの最上部でおこなわれる単一のサーバーコールを参照するために使用される名前です。
+seo-description: グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
 seo-title: グローバル mbox について
 solution: 'Target '
 subtopic: 導入
-title: グローバル mbox について
+title: グローバル mbox について（Adobe Target）
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
 
 # グローバル mbox について{#understand-the-global-mbox}
 
-グローバル mbox について説明します。グローバル mbox とは、Target 実装の各 Web ページの最上部でおこなわれる単一のサーバーコールを参照するために使用される名前です。
+グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
 
 デフォルトでは、グローバル mbox は、[!DNL target-global-mbox] という名前が付いています。必要に応じて、アカウント用に名前を変更できます。
 
