@@ -8,7 +8,7 @@ title: Target リリースノート（プレリリース）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -34,10 +34,6 @@ source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 ## Target Standard／Premium 20.1.1
 
 Target Standard/Premium 20.1.1リリースは2020年1月に予定されています。 日付、機能、機能強化については、こちらからお知らせします。
-
->[!NOTE]
->
->Target Standard/Premium 19.10.2リリースは2019年10月31日に予定されています。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
