@@ -8,7 +8,7 @@ title: Target のサーバー側実装
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 以下の節では、様々なAPIとNodeJS SDKについて詳しく説明します。
 
-## Server Sice Delivery API
+## Server Side Delivery API
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
@@ -50,6 +50,13 @@ Node.js SDKは、Cookie、セッションの管理、製品（、など）との
 
 * **** プリフェッチと、キャッシュを使用したパフォーマンスの最適化を可能にする通知のサポート：Node.js SDKを使用して、エクスペリエンスを取得し、Node.jsサーバー上でローカルにキャッシュできます。これにより、アプリケーションのパフォーマンスを最小限に抑え、サーバー呼び出 [!DNL Target] しを最適化できます。
 * **** VECで作成されたアクティビティの取得機能：サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターが含まれ、このセレクターは、パーソナライズする必要があるページの一部のみを事前に非表示にするために使用できます。 これは、ページの [First Contentful Paint指標の最適化に役立ちます](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)。これは、 [Google pageRankシステムで高スコアを達成するためのビジネスにとって重要なKPIです](https://en.wikipedia.org/wiki/PageRank) 。
+
+## Target Java SDK
+
+Java SDKは、Cookie、セッションの管理、および、などのソリューションとの統合に伴う複雑さを排除した、高度なソ [!DNL Adobe Experience Cloud] フトウェア開発キ [!DNL Adobe Analytics]ット [!DNL Experience Cloud Visitor ID Service]です [!DNL Adobe Audience Manager]。 内部では、Java SDKが `/rest/v1/delivery` APIを使用します。 Java SDKでサポートされる主な機能を以下に示します。
+
+* **プリフェッチと、キャッシュを使用したパフォーマンスの最適化を可能にする通知のサポート**:JavaSDKを使用して、エクスペリエンスを取得し、Javaサーバー上でローカルにキャッシュできます。これにより、アプリケーションのパフォーマンスを最適化し、サーバーコ [!DNL Target] ールを最小限に抑えることができます。
+* **VECで作成されたアクティビティの取得**:サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターが含まれ、このセレクターは、パーソナライズする必要があるページの一部のみを事前に非表示にするために使用できます。 これは、ページの [First Contentful Paint](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) （最初のコンテンツのペイント）指標の最適化に役立ちます。これは、 [Google pageRank](https://en.wikipedia.org/wiki/PageRank) (Google pageRank)システムで高いスコアを達成するためのビジネスにとって重要なKPIです。
 
 ## Target Recommendations API
 
