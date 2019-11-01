@@ -8,7 +8,7 @@ title: Target リリースノート（現行）
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 71368bd89283df158f454293afd819bfd6589430
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 71368bd89283df158f454293afd819bfd6589430
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Java SDK | Java SDKを使 [!DNL Target] 用すると、サーバー側 [!DNL Target] をデプロイできます。 このJava SDKを使用すると、、、などの他のソ [!DNL Target] リューシ [!DNL Adobe Experience Cloud] ョンとの統合を簡単に [!DNL Adobe Experience Cloud Identity Service]行うこ [!DNL Adobe Analytics]とができま [!DNL Adobe Audience Manager]す。<br>Java SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑 [!DNL Target] さを排除して、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でのハイブリッド統合を使用する場合のパフ [!DNL Target] ォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>Java SDKを使用したVECで作成されたアクティビティの取得のサポートが追加されました。これは、新しい配信APIで可能になりました。</li><li>開発者が [Target Java SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。 |
+| Java SDK | Java SDKを使 [!DNL Target] 用すると、サーバー側 [!DNL Target] をデプロイできます。 このJava SDKを使用すると、、、などの他のソ [!DNL Target] リューシ [!DNL Adobe Experience Cloud] ョンとの統合を簡単に [!DNL Adobe Experience Cloud Identity Service]行うこ [!DNL Adobe Analytics]とができま [!DNL Adobe Audience Manager]す。<br>Java SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑 [!DNL Target] さを排除して、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でのハイブリッド統合を使用する場合のパフ [!DNL Target] ォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>Java SDKを使用したVECで作成されたアクティビティの取得のサポートが追加されました。これは、新しい配信APIで可能になりました。</li><li>開発者が [Target Java SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>新しいTarget Java SDKを使用したサーバ側の最適化に関するアドビ [のテクニカルブログ（英語）で詳しく説明します](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ## Target Standard／Premium 19.10.2（2019 年 10 月 31 日）
 
@@ -74,7 +74,7 @@ source-git-commit: 71368bd89283df158f454293afd819bfd6589430
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Node.js SDKバージョン1.0 | Target Node.js SDKを使用すると、Targetサーバー側をデプロイできます。<br>このNode.js SDKを使用すると、TargetをAdobe Experience Cloud Identity Service、Adobe Analytics、Adobe Audience Managerなどの他のExperience cloudソリューションと簡単に統合できます。<br>Node.js SDKは、アドビの配信APIを使用してAdobe targetと統合する際に、ベストプラクティスを導入し、複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でTargetをハイブリッド統合している場合のパフォーマンス最適化のサポート。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを介したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、オープンソースです。</li></ul><br>詳しくは、リリースノー [ト — Target Node.js SDKを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
+| Node.js SDKバージョン1.0 | Target Node.js SDKを使用すると、Targetサーバー側をデプロイできます。<br>このNode.js SDKを使用すると、TargetをAdobe Experience Cloud Identity Service、Adobe Analytics、Adobe Audience Managerなどの他のExperience cloudソリューションと簡単に統合できます。<br>Node.js SDKは、アドビの配信APIを使用してAdobe targetと統合する際に、ベストプラクティスを導入し、複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でTargetをハイブリッド統合している場合のパフォーマンス最適化のサポート。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを介したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、オープンソースです。</li></ul><br>詳しくは、リリースノー [ト — Target Node.js SDKを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。<br>Adobe Tech BlogのOpen Sourcing the New Adobe Target Node.js SDKで、Target Node.js SDKの詳細をご覧くだ [さい](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc)。 |
 | 配信API | 完全に新しい配信APIエンドポイント（/v1/配信）が実稼働環境で使用できます。 主な機能は次のとおりです。<ul><li>1つ以上のmboxのエクスペリエンスを取得するための1つのエンドポイント。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用されるビューと呼ばれる、まったく新しいオブジェクトのサポート。</li></ul><br>詳しくは、リリースノート — [Targetサーバー側APIを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
 
 ## その他のリリースノートとバージョンの詳細
