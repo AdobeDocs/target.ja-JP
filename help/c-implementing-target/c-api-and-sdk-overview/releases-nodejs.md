@@ -7,7 +7,7 @@ solution: Target
 title: リリースノート — Target Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -21,6 +21,8 @@ Target Node.js SDKを使用すると、サーバー側でデプ [!DNL Target] �
 このNode.js SDKを使用すると、、、などの他のソ [!DNL Target] リューシ [!DNL Adobe Experience Cloud] ョンとの統合を簡 [!DNL Adobe Experience Cloud Identity Service]単に行 [!DNL Adobe Analytics]えま [!DNL Adobe Audience Manager]す。
 
 Node.js SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑さを排除し [!DNL Target] て、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。
+
+Adobe Tech BlogのOpen Sourcing the New Adobe Target Node.js SDKで、Target Node.js SDKの詳細をご覧くだ [さい](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc)。
 
 ## バージョン1.0.0（2019年10月9日）
 
