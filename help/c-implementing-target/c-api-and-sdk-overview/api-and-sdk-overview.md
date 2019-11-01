@@ -8,7 +8,7 @@ title: Target のサーバー側実装
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -52,6 +52,8 @@ Node.js SDKは、Cookie、セッションの管理、製品（、など）との
 * **** VECで作成されたアクティビティの取得機能：サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターが含まれ、このセレクターは、パーソナライズする必要があるページの一部のみを事前に非表示にするために使用できます。 これは、ページの [First Contentful Paint指標の最適化に役立ちます](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)。これは、 [Google pageRankシステムで高スコアを達成するためのビジネスにとって重要なKPIです](https://en.wikipedia.org/wiki/PageRank) 。
 
 ## Target Java SDK
+
+リンク： [Target Java SDK](https://github.com/adobe/target-java-sdk)
 
 Java SDKは、Cookie、セッションの管理、および、などのソリューションとの統合に伴う複雑さを排除した、高度なソ [!DNL Adobe Experience Cloud] フトウェア開発キ [!DNL Adobe Analytics]ット [!DNL Experience Cloud Visitor ID Service]です [!DNL Adobe Audience Manager]。 内部では、Java SDKが `/rest/v1/delivery` APIを使用します。 Java SDKでサポートされる主な機能を以下に示します。
 
