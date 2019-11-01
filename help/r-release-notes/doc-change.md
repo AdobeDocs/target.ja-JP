@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 | --- | --- | --- |
 | 2019年10月31日 | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新規トピックです。 |
 |  | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新規トピックです。 |
-|  | [at.js 1.*x* から at.js 2.*x* へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 次の節を追加しました。「at.js 1。*オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*?" |
+|  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 次の節を追加しました。「at.js 1。*オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*?" |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | テンプレートルールに追加された余分なスペースに関する新しい既知の問題を追加しました。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Premium 19.10.2リリースとTarget Java SDKリリースに関する情報を追加しました。 |
 | 2019年10月31日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Premium 19.10.2（2019年10月31日）リリースに関する情報を追加しました。 |
