@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年11月5日 | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のFAQのテキストを更新しました。"セレクターがないアクションなどの警告メッセージが表示されるのはなぜですか？" |
 | 2019年10月31日 | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新規トピックです。 |
 |  | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新規トピックです。 |
 |  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 次の節を追加しました。「at.js 1。*オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*?" |
