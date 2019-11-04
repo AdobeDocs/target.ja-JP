@@ -8,7 +8,7 @@ subtopic: 導入
 title: at.js に関するよくある質問
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -142,7 +142,7 @@ at.js は、現在、jQuery の一部を使用しています。そのため、a
 
 ## at.js は、Safari とクロスドメインの「x のみ」の設定をサポートしますか。{#section_114EC271A6E045E1B2183B66F1B71285}
 
-いいえ、クロスドメインが「x のみ」に設定され、 Safari がサードパーティの cookie を無効化している場合、[!DNL mbox.js] と at.js の双方が無効化された cookie を設定し、そのクライアントのドメインでは mbox のリクエストが実行されません。
+いいえ、クロスドメインが「x のみ」に設定され、Safari がサードパーティの cookie を無効化している場合、[!DNL mbox.js] と at.js の双方が無効化された cookie を設定し、そのクライアントのドメインでは mbox のリクエストが実行されません。
 
 Safari の訪問者をサポートするには、「無効化」（ファーストパーティの cookie のみ設定）または「有効化」（Safari ではファーストパーティの cookie のみ設定、他のブラウザーではファーストパーティとサードパーティの cookie を設定）の方がクロスドメインの設定として優れています。
 
@@ -156,7 +156,7 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 
 ## Adobe Experience Cloud デバッガーを at.js の実装と一緒に使用できますか。{#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-はい。 また、mboxTrace をデバッグ目的で使用したり、ブラウザーの開発者ツールを使用して、ネットワーク要求を調査し、「mbox」にフィルターして mbox 呼び出しを分離することもできます。
+はい。また、mboxTrace をデバッグ目的で使用したり、ブラウザーの開発者ツールを使用して、ネットワーク要求を調査し、「mbox」にフィルターして mbox 呼び出しを分離することもできます。
 
 ## at.js を使用した mbox 名に特殊文字を使用できますか。{#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -204,6 +204,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 この警告メッセージが表示された場合は、次のような原因が考えられます。
 
+* ページは動的に構築中で、at.jsが要素を見つけられません。
+* ユーザーが低速のネットワークを使用しており、at.jsがDOMでセレクターを見つけられない。
 * アクティビティが実行されているページの構造が変更されている。Visual Experience Composer（VEC）でアクティビティを再度開くと、警告メッセージが表示されます。アクティビティを更新して、必要な要素がすべて見つかるようにする必要があります。
 * 基になるページがシングルページアプリケーション（SPA）の一部であるか、ページの下部に表示される要素がページに含まれていて、[!DNL at.js] の「セレクターポーリングメカニズム」がこれらの要素を見つけることができない。`selectorsPollingTimeout` の値を増やすと問題が解決する場合があります。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * いずれかのクリック追跡指標が、その指標が設定された URL に関係なく、それ自体をすべてのページに追加しようとしている。害はありませんが、この状況ではこれらのメッセージの多くが表示されます。[!DNL at.js] の最新バージョンではこれらのメッセージは出力されませんが、多くのお客様は [!DNL at.js] または [!DNL mbox.js] の以前のバージョンを使用しています。
