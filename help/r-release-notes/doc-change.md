@@ -8,7 +8,7 @@ title: ドキュメントの変更点
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 11 月 6 日 | [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 「トラブルシューティング」の節のテキストを更新しました。 |
 | 2019年11月5日 | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のFAQのテキストを更新しました。"セレクターがないアクションなどの警告メッセージが表示されるのはなぜですか？" |
 | 2019年10月31日 | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新規トピックです。 |
 |  | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新規トピックです。 |
