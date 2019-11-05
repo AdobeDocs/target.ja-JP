@@ -8,7 +8,7 @@ title: サイトのページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ## トラブルシューティング {#ts}
 
-* ランディングページのオーディエンスが正しく機能するには、リクエストに `mboxReferrer` mboxパラメーターが正しく設定されている必要があります。 at.js javaScriptライブラリは、を使用して `mboxReferrer` ページから取得しま `document.referrer`す。
+* ランディングページのオーディエンスが正しく機能するには、at.js javaScriptライブラリが属性を使用してページから取得するパラメーターが、リクエストに設定されている(Delivery API用の `mboxReferrer` )必要があ `context.address.referringUrl``document.referrer` ります。 この属 `HTMLDocument` 性は、ユーザーが移動元のページのURIを返します。 この属性の値は、ユーザーがページに直接（リンクを介さずに、ブックマークを介して）移動した場合に空の文字列になります。
 
-   これらのパラメーターが正しく設定されていない場合、訪問者は後続のページに移動した後にアクティビティを終了する可能性があります。 例えば、がランディ `document.referrer` ングページで使用され、それ以降のページで使用されない場合、訪問者がアクティビティに [!DNL Target] 残っていることを確認することはできません。
+   この動作が要件を満たさない場合は、次のいずれかの操作を行うことを検討してください。
 
-   この状況が発生した場合は、次のいずれかの操作を行うことを検討してください。
-
-   * Webサイトが正しく読み込まれることを確 `document.referrer` 認します。
    * ターゲット [設定の目的で使用](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)[!DNL Target] するmboxパラメーターを渡します。
    * ランディングペ [ージアクティビティの代わりに](/help/c-activities/t-test-ab/test-ab.md) 、A/B testアクティビティを使用します。 A/Bテストアクティビティでは、同じ訪問者のエクスペリエンスは切り替わりません。
    * 代わりに、訪問者プ [ロファイルを使用](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
