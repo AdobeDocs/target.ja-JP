@@ -1,29 +1,30 @@
 ---
 description: この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
-seo-description: この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
-seo-title: アクティビティ情報の Adobe Analytics への送信
+keywords: モバイル；tntVal;analytics;adobe analytics；統合；sdk；モバイルsdk;
+seo-description: ここでは、Adobe targetモバイルアプリのアクティビティ情報をAdobe Analyticsに送信してAdobe Analyticsのポストアクティブセグメント化の方法について説明します。
+seo-title: Adobe targetのアクティビティ情報をAdobe Analyticsに送信
 title: アクティビティ情報の Adobe Analytics への送信
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
 
 ---
 
 
 # アクティビティ情報の Adobe Analytics への送信{#send-activity-information-to-adobe-analytics}
 
-この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
+This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
 
 **前提条件**
 
-* 統合には、モバイルSDKを使用してAnalyticsとTargetが実装されている必要があります。
-* レポートスイートがTargetからアクティビティ情報を受け取ることが有効になっていることを確認します。
+* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
+* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
 
-   これは通常、TargetクライアントコードをAnalyticsレポートスイートに追加することでおこなわれます。これは、WebアクティビティにSiteCatalyst- Test&amp;Target統合を使用している場合に、既に有効になっている可能性があります。この手順については、Adobe ClientCareにお問い合わせください。
+   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. これは、WebアクティビティにSiteCatalyst- Test&amp;Target統合を使用している場合に、既に有効になっている可能性があります。この手順については、Adobe ClientCareにお問い合わせください。
 
 1. アクティビティ情報を取得します。
 
-   エクスペリエンスコンテンツに次のような文字列を含めると、Analyticsに送信できるキャンペーン情報がTargetによって返されます。
+   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
    ```
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -39,9 +40,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    }
    ```
 
-   この例では、変数' `tntVal`'を持つノードが追加され、アクティビティ情報が取得されます。適切なタイトルとメッセージを使用して、他のエクスペリエンスに類似したコードを追加します。
+   In this example, a node with the variable `tntVal` is added to obtain the activity information. 適切なタイトルとメッセージを使用して、他のエクスペリエンスに類似したコードを追加します。
 
-   この文字列は、Targetからの応答に数値（115110: 0: 0など）を配信します。これは、アクティビティID、エクスペリエンスIDおよびトラフィックタイプを示します。Targetからのスワイデント応答は次のとおりです。
+   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. これは、アクティビティID、エクスペリエンスIDおよびトラフィックタイプを示します。 The following is a sample response from [!DNL Target]:
 
    ```
    { 
@@ -53,12 +54,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. JSONオブジェクトを解析します。
 
-   コールバックでTargetから返された応答を解析します。NSSonsSerializationを使用してこの応答を解析し、dictまたは配列に格納できます。
+   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
 
    詳細は、 [NSJSONSerializationのドキュメント](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) を参照してください。
-1. データをAnalyticsに送信します。
 
-   解析呼び出しのコンテキストデータオブジェクトに、解析されたアクティビティ情報（上記の応答 `tntVal` など）を追加します。コンテキストデータを含むAnalytics呼び出しは、即座に実行することも、次のAnalytics呼び出しが実行されるまで待機することもできます。
+1. Send the data to [!DNL Analytics].
+
+   Add the parsed activity information (such as `tntVal` in the above response) to your context data object in an [!DNL Analytics] call. This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
 
    例えば、`targetLoadRequest` 呼び出しのコールバックでこの呼び出しを実行できます。
 
@@ -69,5 +71,5 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    >[!NOTE]
    >
-   >`&&tnt`は、モバイルSDKの予約イベントキーです。Analyticsで `tntVal` の変数の分類は、Web上のと同様にモバイルSDKでも機能します(JavaScript)。Analyticsで情報が処理されると、Analyticsインターフェイスにアクティビティ名とエクスペリエンス名が表示されます。
+   >`&&tnt`は、モバイル SDK の予約イベントキーです。The post-classification of the `tntVal` variable in [!DNL Analytics] works in the same way in the mobile SDK as it does on the web (JavaScript). After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
 
