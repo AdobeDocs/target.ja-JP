@@ -1,14 +1,10 @@
 ---
-description: HTML オファーまたは JSON オファーに、プロファイル値やキャンペーン情報を直接表示することができます。
 keywords: 動的データ、アセット、データ、オファー、パーソナライズオファー、パーソナルオファー、トークン置換
-seo-description: HTML オファーまたは JSON オファーに、プロファイル値やキャンペーン情報を直接表示することができます。
-seo-title: 動的データをオファーに渡す
-solution: Target
+description: HTML オファーまたは JSON オファーに、プロファイル値やキャンペーン情報を直接表示することができます。
 title: 動的データをオファーに渡す
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
