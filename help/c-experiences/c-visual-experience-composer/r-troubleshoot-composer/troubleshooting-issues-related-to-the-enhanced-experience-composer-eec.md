@@ -1,13 +1,10 @@
 ---
-description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
 keywords: ターゲット設定;eec;visual experience composer;拡張 experience composer のトラブルシューティング;トラブルシューティング
-seo-description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
-seo-title: 拡張 Experience Composer に関連する問題のトラブルシューティング
-solution: 'Target '
+description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
