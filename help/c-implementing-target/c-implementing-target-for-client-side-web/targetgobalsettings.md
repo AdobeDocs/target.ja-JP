@@ -1,14 +1,11 @@
 ---
-description: 'at.js の targetGlobalSettings() 関数について説明します。 '
 keywords: serverstate;targetGlobalSettings;globalSettings;globalSettings;globalsettings;globalsettings;at.js;function;clientCode;clientcode;serverDomain;cookieDomain;crossdomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentContentFutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeEdgeServer;optoutEnabled;optout;selectorsPollingTimeout;dataProviders
-seo-description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
-solution: 'Target '
+description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
+title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 subtopic: 導入
-title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
