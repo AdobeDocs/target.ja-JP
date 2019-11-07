@@ -1,13 +1,10 @@
 ---
-description: Adobe targetのNode.js SDKに関するリリースノート
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
-seo-description: Adobe targetのサーバー側APIに関するリリースノートです。
-seo-title: Adobe targetのNode.js SDKに関するリリースノートです。
-solution: Target
-title: リリースノート — Target Node.js SDK
+description: Adobe targetのサーバー側APIに関するリリースノートです。
+title: Adobe targetのNode.js SDKに関するリリースノートです。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
