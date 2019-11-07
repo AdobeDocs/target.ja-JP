@@ -1,14 +1,11 @@
 ---
-description: 最高水準のプライバシーと透明性を確保しながら、参加企業の連携によって複数のデジタルタッチポイントを持つ消費者をより正確に識別できるようにするプログラムである Adobe Experience Cloud Device Co-op に関する情報。
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;デバイスグラフ
-seo-description: 最高水準のプライバシーと透明性を確保しながら、参加企業の連携によって複数のデジタルタッチポイントを持つ消費者をより正確に識別できるようにするプログラムである Adobe Experience Cloud Device Co-op に関する情報。
-seo-title: Experience Cloud Device Co-op
-solution: 'Target '
+description: 最高水準のプライバシーと透明性を確保しながら、参加企業の連携によって複数のデジタルタッチポイントを持つ消費者をより正確に識別できるようにするプログラムである Adobe Experience Cloud Device Co-op に関する情報。
 title: Experience Cloud Device Co-op
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
