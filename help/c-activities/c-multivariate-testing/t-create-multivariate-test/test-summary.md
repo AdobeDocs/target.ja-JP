@@ -1,14 +1,11 @@
 ---
-description: テスト概要には、多変量分析テストの概要が視覚的に表示されます。
 keywords: 概要およびリファレンス
-seo-description: テスト概要には、多変量分析テストの概要が視覚的に表示されます。
-seo-title: テスト概要
-solution: 'Target '
+description: テスト概要には、多変量分析テストの概要が視覚的に表示されます。
 title: テスト概要
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
