@@ -1,17 +1,11 @@
 ---
-description: いくつかの設定によって、Recommendations アクティビティの説明を記述したり、制御したりすることができます。
 keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
-seo-description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
-seo-title: Adobe Target での Recommendations アクティビティの設定
-solution: 'Target '
+description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
+title: Adobe Target での Recommendations アクティビティの設定
 subtopic: Recommendations
-title: Recommendations アクティビティの設定
-title-outputclass: premium
-topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
