@@ -1,12 +1,10 @@
 ---
-description: Launch は、アドビの次世代のタグ管理プラットフォームで、Adobe Target を実装するための推奨される方法です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
-keywords: 実装;実装する;導入;Adobe Launch;Launch;競合;リダイレクト；エクスペリエンスプラットフォームの起動
-seo-description: Adobe Experience Platform Launchは、アドビが提供する次世代のタグ管理プラットフォームで、Adobe targetの実装に推奨される方法です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
-seo-title: Adobe Launch を使用した Target の実装
+keywords: 実装；実装；実装；adobe launch;launch;race;redirect；エクスペリエンスプラットフォーム起動
+description: Adobe Experience Platform Launchは、アドビが提供する次世代のタグ管理プラットフォームで、Adobe targetの実装に推奨される方法です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
 title: Adobe Launch を使用した Target の実装
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
