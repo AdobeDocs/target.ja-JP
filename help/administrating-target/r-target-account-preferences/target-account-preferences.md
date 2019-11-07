@@ -1,15 +1,12 @@
 ---
-description: アカウントで Target Standard または Target Premium が正しく機能するように、アカウント設定をおこないます。
 keywords: アカウント環境設定;環境設定;サイト詳細;カスタム mbox 名;レポートに使用する Experience Cloud ソリューション;収益の推定上昇率を表示;css セレクター;要素クラスの使用;デフォルトの Visual Experience Composer URL;拡張 Experience Composer の有効化;エクスペリエンススナップショットの生成;モバイルビューポート設定;業種;非互換の条件をフィルター
-seo-description: アカウントの環境設定をして、Adobe Target Standard または Target Premium が自分のアカウントと正しく連携するように設定します。
-seo-title: 環境設定
-solution: 'Target '
-subtopic: 導入
+description: アカウントの環境設定をして、Adobe Target Standard または Target Premium が自分のアカウントと正しく連携するように設定します。
 title: 環境設定
+subtopic: 導入
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
