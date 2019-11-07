@@ -1,23 +1,17 @@
 ---
-description: プロモーション項目を追加して、 Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 keywords: プロモーション;プロモーション - 前;プロモーション - 後;プロモーションタイプ
-seo-description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
-seo-title: Adobe Target Recommendations デザインにプロモーションを追加します。
-solution: 'Target '
-title: プロモーションの追加
-title-outputclass: premium
-topic: Premium
+description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
+title: Adobe Target Recommendations デザインにプロモーションを追加します。
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) プロモーションの追加{#add-promotions}
 
-プロモーション項目を追加して、 Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
+プロモーション項目を追加して、Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 
 >[!IMPORTANT]
 >
