@@ -1,15 +1,12 @@
 ---
-description: ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
 keywords: css セレクター;カスタムコード;コードエディター;モバイル Web エクスペリエンスエディター
-seo-description: ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
-seo-title: 変更
-solution: 'Target '
-subtopic: コードエディター
+description: ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
 title: 変更
+subtopic: コードエディター
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -34,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/codeeditor_viewchange.png)
 
-* 既存のアクションの編集。希望する変更の上にカーソルを合わせて、**[!UICONTROL 編集]アイコンをクリックします。**
+* 既存のアクションの編集。目的の変更の上にマウスポインターを置いて、**[!UICONTROL 編集]アイコンをクリックします。**
 
    ![](assets/codeeditor_edit.png)
 
@@ -42,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/codeeditor_changechange1.png)
 
-* 既存のアクションの削除の呼び出しの後におこなわれる場合です。希望する変更の上にカーソルを合わせて、**[!UICONTROL 削除]アイコンをクリックします。**
+* 既存のアクションの削除の呼び出しの後におこなわれる場合です。目的の変更の上にマウスポインターを置いて、**[!UICONTROL 削除]アイコンをクリックします。**
 
    ![](assets/codeditor_delete.png)
 
