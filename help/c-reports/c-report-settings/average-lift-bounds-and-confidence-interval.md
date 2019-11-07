@@ -1,14 +1,10 @@
 ---
-description: レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 keywords: Target、レポート、レポート設定、environment、上昇率、上昇率バインド、平方偏差、confidence、control
-seo-description: レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
-seo-title: 平均上昇率、上昇率範囲および信頼区間
-solution: 'Target '
+description: レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 title: 平均上昇率、上昇率範囲および信頼区間
-topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
