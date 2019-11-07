@@ -1,16 +1,10 @@
 ---
-description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 keywords: トラブルシューティング;よくある質問;FAQ;FAQ;自動パーソナライゼーション
-seo-description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
-seo-title: 自動パーソナライゼーションに関する FAQ
-solution: 'Target '
+description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 title: 自動パーソナライゼーションに関する FAQ
-title-outputclass: Premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
