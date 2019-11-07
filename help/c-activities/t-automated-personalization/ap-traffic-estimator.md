@@ -1,15 +1,10 @@
 ---
 description: トラフィック見積もりでは、アクティビティを正常に完了させるために十分なトラフィックが確保されているかどうかを知らせるフィードバックが提供されます。
-seo-description: トラフィック見積もりでは、アクティビティを正常に完了させるために十分なトラフィックが確保されているかどうかを知らせるフィードバックが提供されます。
-seo-title: 成功のために必要なトラフィックの見積もり
-solution: 'Target '
 title: 成功のために必要なトラフィックの見積もり
-title-outputclass: Premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
