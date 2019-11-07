@@ -1,14 +1,11 @@
 ---
-description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
 keywords: ターゲット設定
-seo-description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
-seo-title: コンバージョン率
-solution: 'Target '
+description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
 title: コンバージョン率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
