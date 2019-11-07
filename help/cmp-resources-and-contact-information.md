@@ -1,14 +1,11 @@
 ---
-description: Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
-seo-description: Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
-seo-title: リソースおよび連絡先情報
-solution: 'Target '
+description: Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -46,9 +43,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017<br>年12月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md). |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017<br>年12月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
 | [Adobe Target:Analytics/Targetの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at.js:メリットと実装のベストプラク](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>ティス26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at.js:メリットと実装のベストプラク](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>ティス26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -143,6 +140,6 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 [利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use) | [プライバシーセンター](https://www.adobe.com/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
