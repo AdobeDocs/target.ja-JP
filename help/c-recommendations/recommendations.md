@@ -1,16 +1,10 @@
 ---
-description: Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-keywords: Recommendations;Recommendations 条件;レコメンデーションアルゴリズム;レコメンデーションアクティビティ;条件;レコメンデーションターゲット化;recs
-seo-description: Adobe targetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-seo-title: Adobe Target Recommendations
-solution: 'Target '
-title: Recommendations
-title-outputclass: premium
-topic: Premium
+keywords: Recommendations;Recommendations条件；Recommendationsアルゴリズム；Recommendationsアクティビティ；条件；Recommendationsターゲット設定；Recs
+description: Adobe targetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
-badge: premium
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
