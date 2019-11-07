@@ -1,14 +1,11 @@
 ---
-description: 'at.js のカスタムイベントについて説明します。 '
-keywords: カスタムイベント；at.js；要求が失敗しました；要求が成功しました；コンテンツのレンダリングに失敗しました；コンテンツのレンダリングに成功しました；ライブラリの読み込み；要求の開始；コンテンツのレンダリング開始；コンテンツのレンダリングにオファーなし；コンテンツのレンダリングリダイレクト
-seo-description: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
-solution: 'Target '
+keywords: カスタムイベント;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+description: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
+title: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
 subtopic: 導入
-title: at.js カスタムイベント
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
