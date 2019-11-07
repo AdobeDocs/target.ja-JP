@@ -1,16 +1,10 @@
 ---
-description: カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 keywords: カタログ;検索
-seo-description: Adobe targetのカタログ検索を使用すると、カタログ内の製品やコンテンツを検索できます。
-seo-title: Adobe targetでのカタログ検索
-solution: 'Target '
-title: カタログ検索
-title-outputclass: premium
-topic: Premium
+description: Adobe Target でカタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
+title: Adobe Target のカタログ検索
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,32 +13,32 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 
-カタログ検索にアクセスするには、レコメンデーション/ **[!UICONTROL カタログ検索]** を **[!UICONTROL クリックします]**。
+カタログ検索にアクセスするには、**[!UICONTROL レコメンデーション]**／**[!UICONTROL カタログ検索]**&#x200B;をクリックします。
 
-検索フィールドで下矢印をクリックすると、オプションメニューが表示されます。そこから検索オプションを選択すると、詳細検索が可能です。
+検索フィールドで下矢印をクリックすると表示されるオプションメニューから検索オプションを選択することで、検索を絞り込むことができます。
 
 ![](assets/searchproductsmenu.png)
 
-検索オプションには、次のものがあります。
+次の検索オプションがあります。
 
-* ALL
+* すべて
 * 名前
 * ブランド
 * カテゴリ
 * ID
 * メッセージ
 
-**[!UICONTROL 「すべて]**」は、すべての他の検索条件の OR 条件を使用して検索します。
+「**[!UICONTROL すべて]**」は、すべての他の検索条件の OR 論理を使用して検索します。
 
-検索結果で「**[!UICONTROL 環境]**」フィルターをクリックし、カタログを表示している実稼動ホストグループ環境を指定します。[](/help/administrating-target/hosts.md)検索結果で品目をスクロールして、サムネールなどの製品情報を表示することもできます。
+検索結果で「**[!UICONTROL 環境]**」フィルターをクリックし、カタログを表示している実稼動[ホストグループ環境](/help/administrating-target/hosts.md)を指定します。検索結果で品目をスクロールして、サムネールなどの製品情報を表示することもできます。
 
 「製品」のとなりに表示されている数字は、指定された環境での有効数の中で検索語句に一致した製品の数です。
 
-フィードファイル、APIまたはmboxの更新を介して更新を受け取ると、カタログは自動的に更新されます。 更新は通常1時間で完了します。 更新が進行中の場合は、最新の更新が開始された時刻が表示されます。 進行中の更新がない場合は、最新の更新が開始および終了した時刻が表示されます。
+カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は、通常、1 時間で完了します。更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
-## アドバンス検索に基づくコレクションまたは除外の作成
+## 詳細検索に基づいたコレクションまたは除外の作成
 
-You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+カタログ検索ページ（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）の詳細検索を使用して、[コレクション](/help/c-recommendations/c-products/collections.md)または[除外](/help/c-recommendations/c-products/exclusions.md)を作成できます。
 
 ![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
 
