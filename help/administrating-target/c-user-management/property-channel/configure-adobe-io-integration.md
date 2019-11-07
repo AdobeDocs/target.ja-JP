@@ -1,66 +1,63 @@
 ---
-description: Adobe I/O統合に目的の役割を持つすべてのワークスペースへのアクセス権を付与する方法に関する情報です。
-keywords: 統合；ロール；ユーザー権限；管理コンソール
-seo-description: 既存のAdobe I/O統合に対して、Adobe targetで目的の役割を持つすべてのワークスペースへのアクセス権を付与する方法に関する情報です
-seo-title: Adobe I/O統合にワークスペースへのアクセス権を付与し、Adobe targetでロールを割り当てる
-solution: 'Target '
+keywords: 統合;役割;ユーザー権限;admin console
+description: Adobe Target で目的の役割を持つすべてのワークスペースに対する既存の Adobe I/O 統合のアクセス権の付与について説明します
+title: Adobe Target でのワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
 subtopic: 導入
-title: Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てる
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Grant Adobe I/O integrations access to workspaces and assign roles
+# ![PREMIUM](/help/assets/premium.png) ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
 
-[!UICONTROL Enterprise権限を使用すると][!DNL Target] 、顧客は1つの組織を使用できますが、異なるチームやワークフロー用のワークスペースに分割できます。
+[!UICONTROL エンタープライズ権限]を使用すると、[!DNL Target] のお客様は、単一の組織を使用できますが、その様々なチームやワークフロー用にワークスペースに分割できます。
 
 >[!NOTE]
 >
 >プロパティと権限の機能は [Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
-エンタープラ [!UICONTROL イズ権限機能は] 、チーム間で最適化プログラムを効果的に拡大/縮小するのを容易にします。 この機能はUIで使用できましたが、2019 [!DNL Target] 年の初めまでは、Admin APIに対応するサポートがありませんでした。 2019年2月のリリ [!DNL Target] ースでは、アドビが管理APIを更新し、統合アカウントを使用して組織で作成されたすべてのワークスペースにアクセスできるようになりました。 以前は、管理APIはデフォルトのワークスペースに制限されていましたが、2019年2月の更新では承認者アクセス権を持つすべてのワークスペースに対するアク [!UICONTROL セス権] が付与されました。
+[!UICONTROL エンタープライズ権限]機能は、チームをまたいだ最適化プログラムの効果的な拡大を促進します。この機能は [!DNL Target] UI でのみ使用できましたが、Admin API には、2019 年初めまでは対応するサポートがありませんでした。[!DNL Target] 2019 年 2 月リリースで、アドビは、組織で作成したすべてのワークスペースに対して統合アカウントを使用できるように Admin API を更新しました。そのため、初期では、Admin API はデフォルトワークスペースのみに制限されていましたが、2019 年 2 月の更新で、[!UICONTROL 承認者]アクセス権を持つすべてのワークスペースに対してアクセス権が付与されました。
 
-2019年9月のリリースでは、 [!DNL Target][!DNL Target] Enterprise Permissionsによって  、お客様に次のアクセス制御を提供します。
+With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
 
-* 統合を適用できるワークスペースを選択できます
-* Adobe I/O統合に次の役割を適用できます。承認 [!UICONTROL 者]、編 [!UICONTROL 集者]、監視 [!UICONTROL 者]。
+* 統合を適用できるワークスペースを選択できます。
+* Adobe I/O 統合（[!UICONTROL 承認者]、[!UICONTROL 編集者]または[!UICONTROL 監視者]）に役割を適用できます。
 
-この更新では、次の使用例がサポートされます。
+この更新では、次の使用例をサポートします。
 
-* リソースを作成または編集する権限を持たないレポート作成用に、 [!UICONTROL Observer] （監視者）ロールを持つすべてのワークスペースにAdobe I/O統合アクセス権を付与します。
-* Adobe I/O統合に適切な役割を持つ選択したワークスペースへのアクセス権を付与し、中央チームがAPIに基づく変更を行えるのは少数のワークスペースのみにします。
-* APIを調査する準備が整った時点で、ワークスペースを所有する各チームに独自の統合を許可し、それに応じてロールを選択します。
-* 上記のシナリオを組み合わせます。
+* リソースの作成または編集権限なしでのレポート用に、[!UICONTROL 監視者]の役割を持つすべてのワークスペースに対して Adobe I/O 統合のアクセス権を付与する。
+* 中央のチームがわずかなワークスペースにのみ API 主導の変更を加えることができるように、適切な役割を持つ、限定されたワークスペースに対して Adobe I/O 統合のアクセス権を付与する。
+* チームが API を調査し、それに応じて役割を選択する準備ができたときはいつでも、ワークスペースを所有する各チームに、その独自の統合を持つことを許可する。
+* 上記のシナリオの任意の組み合わせ。
 
-**必要なアクション**:現在、すべてのワークスペースでリソース（アクティビティ、オーディエンス、オファーおよびレポート）に対するCRUD操作のAPIを利用しているお客様は、使用事例に従って、すべてのワークスペースに対して、既存のAdobe I/O統合アクセス権を付与する必要があります。 これを行うには、で各製品プロフ [!DNL Target] ァ [!UICONTROL イルを選択し] 、「統 [!DNL Adobe Admin Console] 合」タブで統合を追加 [!UICONTROL します] 。 9月のリリースより前は、「製品の役割」ドロップダウンリストで選択した [!UICONTROL 内容に関係なく、すべての] 統合が承認者  のアクセスを使用して操作されていました。 これで、目的のロールを選択できます。
+**必要なアクション**：現在、すべてのワークスペースのリソース（アクティビティ、オーディエンス、オファーおよびレポート）の CRUD 操作に API を活用しているお客様は、その使用例ごとに、目的の役割を持つすべてのワークスペースに対して既存の Adobe I/O 統合のアクセス権を付与する必要があります。それには、[!DNL Adobe Admin Console] で各 [!DNL Target] [!UICONTROL 製品プロファイル]を選択し、「[!UICONTROL 統合]」タブで統合を追加します。9 月リリースより前は、[!UICONTROL 製品の役割]ドロップダウンリストでおこなった選択にかかわらず、すべての統合は[!UICONTROL 承認者]アクセス権を使用して操作していました。現在は、目的の役割を選択できます。
 
 >[!NOTE]
 >
->この操作を実行しない場合、2019年9月のリリース以降、アクセス制御がアクティブになり、現在の設定がデフォルトのワークスペースのみである場合は、そのアクセス権が確認されます。 [!DNL Target] 事前に統合を設定しても、悪影響はありません。 この変更を早く行うほうが良い。 組織内のワークスペースの数に応じて、このプロセスでは、目的のロールを持つワークスペースに既存の統合を追加するのに数回のクリックしかかかりません。
+>このアクションが実行されないと、[!DNL Target] 2019 年 9 月リリースの後、このアクセス制御がアクティブ化され、デフォルトワークスペース（現在設定されている場合）のみに対するアクセス権が観測されます。あらかじめ統合を設定することに対する副作用はありません。この変更をおこなうのは、早ければ早いほど良いです。組織内のワークスペースの数に応じて、このプロセスでは、目的のロールを持つワークスペースに既存の統合を追加するのに数回のクリックしかかかりません。
 
-**Adobe I/O統合にワークスペースへのアクセス権を付与し、ロールを割り当てるには：**
+**ワークスペースに対する Adobe I/O 統合のアクセス権を付与し、役割を割り当てるには**
 
-1. Adobe Admin Console **[を開きます](https://adminconsole.adobe.com)**。
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
-1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
+1. 「**[!UICONTROL 製品]**」タブをクリックしてから、目的の製品の名前を選択します。
 
-   ![Adobe Admin Consoleで製品を選択](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![Adobe Admin Console で製品を選択](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
 1. 目的のワークスペース（製品プロファイル）を選択します。
 
-   ![製品プロファイルの選択](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
+   ![製品プロファイルを選択](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
-1. Click the **[!UICONTROL Integrations]** tab.
+1. 「**[!UICONTROL 統合]**」タブをクリックします。
 
    ![「統合」タブ](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. （条件付き）新しい統合を追加するには、「統合を追加 **[!UICONTROL 」をクリックし]**、目的の統合を選択して「保存」をクリック **[!UICONTROL します]**。
+1. （条件付き）新しい統合を追加するには、「**[!UICONTROL 統合を追加]**」をクリックし、目的の統合を選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-1. 「製品の役割 **[!UICONTROL 」ドロップダウンリスト]** で、そのワークスペースに対して目的の役割を選択します。
+1. **[!UICONTROL 製品の役割]**&#x200B;ドロップダウンリストから、そのワークスペース用の目的の役割を選択します。
 
    * [!UICONTROL 承認者]
    * [!UICONTROL 編集者]
    * [!UICONTROL 監視者]
-   ![製品プロファイルロールの選択](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   ![製品プロファイルの役割を選択](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
