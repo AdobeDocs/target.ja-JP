@@ -1,13 +1,10 @@
 ---
-description: オーディエンスを作成して、サイトに導いた検索エンジンやランディングページに基づいて訪問者をターゲット設定します。
 keywords: ターゲット設定;トラフィックソース;ターゲットトラフィックソース;target 検索エンジン;検索エンジン;ランディングページ;target ランディングページ;参照ランディングページ
-seo-description: Adobe Target でオーディエンスを作成して、サイトに導いた検索エンジンやランディングページに基づいて訪問者をターゲット設定します。
-seo-title: Adobe Target でのトラフィックソースのターゲット設定
-solution: 'Target '
-title: トラフィックソース
+description: Adobe Target でオーディエンスを作成して、サイトに導いた検索エンジンやランディングページに基づいて訪問者をターゲット設定します。
+title: Adobe Target でのトラフィックソースのターゲット設定
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
