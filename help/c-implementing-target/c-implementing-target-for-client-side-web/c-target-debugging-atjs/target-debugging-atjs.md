@@ -1,13 +1,11 @@
 ---
-description: Target の実装をすばやく簡単に理解できる Adobe Experience Cloud デバッガー拡張を使用する方法について説明します。
 keywords: at.js;at.js のデバッグ;Adobe Experience Cloud デバッガー;Experience Cloud デバッガー;mbox トレース;mbox ハイライト;デバッグ;デバッグ処理
-seo-description: Target の実装をすばやく簡単に理解できる Adobe Experience Cloud デバッガー拡張を使用する方法について説明します。
-seo-title: Adobe Experience Cloud デバッガーを使用した at.js のデバッグ
+description: Target の実装をすばやく簡単に理解できる Adobe Experience Cloud デバッガー拡張を使用する方法について説明します。
 title: Adobe Experience Cloud デバッガーを使用した at.js のデバッグ
 topic: 'Target '
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
