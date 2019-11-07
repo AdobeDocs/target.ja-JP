@@ -1,14 +1,10 @@
 ---
-description: レコメンデーションがページに表示される方法を定義するデザインに関する概要情報です。
 keywords: レコメンデーションのデザイン;テンプレート;デザインの作成;配信;出力
-seo-description: レコメンデーションがページに表示される方法を定義するデザインに関する概要情報です。
-seo-title: デザインの概要
-solution: 'Target '
+description: レコメンデーションがページに表示される方法を定義するデザインに関する概要情報です。
 title: デザインの概要
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
