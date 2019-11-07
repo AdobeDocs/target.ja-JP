@@ -1,16 +1,10 @@
 ---
-description: 自動パーソナライゼーションアクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 keywords: Recommendations
-seo-description: 自動パーソナライゼーション（AP）アクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
-seo-title: Adobe Target Visual Experience Composer での自動パーソナライゼーション（AP）アクティビティのエクスペリエンスのプレビュー
-solution: 'Target '
-title: Visual Experience Composer での自動パーソナライゼーションのエクスペリエンスのプレビュー
-title-outputclass: Premium
-topic: Premium
+description: 自動パーソナライゼーション（AP）アクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
+title: Adobe Target Visual Experience Composer での自動パーソナライゼーション（AP）アクティビティのエクスペリエンスのプレビュー
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
