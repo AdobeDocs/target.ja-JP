@@ -1,15 +1,12 @@
 ---
-description: レスポンストークンを利用すると、Target 固有の情報（キャンペーンの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力し、デバッグや、サードパーティシステム（Clicktale など）との統合に利用することができます
-keywords: レスポンストークン; トークン; プラグイン;at.js；応答
-seo-description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用するTarget固有の情報（アクティビティの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力できます
-seo-title: Adobe Target のレスポンストークン
-solution: 'Target '
+keywords: 応答トークン；トークン；プラグイン；プラグイン；at.js；応答
+description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用するTarget固有の情報（アクティビティの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力できます
+title: Adobe Target のレスポンストークン
 subtopic: 導入
-title: レスポンストークン
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
