@@ -1,15 +1,12 @@
 ---
-description: このトピックでは Visual Experience Composer（VEC）内で編集できるカルーセルの作成方法を説明します。
 keywords: Visual Experience Composer;VEC;カルーセル
-seo-description: このトピックでは Visual Experience Composer（VEC）内で編集できるカルーセルの作成方法を説明します。
-seo-title: Visual Experience Composer 内で動作するカルーセルの作成
-solution: 'Target '
-subtopic: 多変量分析テスト
+description: このトピックでは Visual Experience Composer（VEC）内で編集できるカルーセルの作成方法を説明します。
 title: Visual Experience Composer 内で動作するカルーセルの作成
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
