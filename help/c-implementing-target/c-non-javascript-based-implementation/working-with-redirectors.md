@@ -1,15 +1,12 @@
 ---
-description: リダイレクターは、テストで mbox を使用する場合と同様に使用します。
 keywords: 実装;mbox.js 非 JavaScript;リダイレクター;クリックあたりのコスト;クリックあたりの売上高
-seo-description: リダイレクターは、テストで mbox を使用する場合と同様に使用します。
-seo-title: リダイレクターの使用
-solution: 'Target '
-subtopic: 導入
+description: リダイレクターは、テストで mbox を使用する場合と同様に使用します。
 title: リダイレクターの使用
+subtopic: 導入
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
