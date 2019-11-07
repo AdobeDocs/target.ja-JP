@@ -1,13 +1,10 @@
 ---
-description: Target の Visual Experience Composer を使用すると、Target に対応したページで適切な多変量分析テスト（MVT）を作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-seo-description: Adobe Target の Visual Experience Composer（VEC）を使用すると、Target に対応したページで適切な多変量分析テスト（MVT）を作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
-seo-title: 多変量分析テストの作成
-solution: 'Target '
+description: Adobe Target の Visual Experience Composer（VEC）を使用すると、Target に対応したページで適切な多変量分析テスト（MVT）を作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
 title: 多変量分析テストの作成
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
