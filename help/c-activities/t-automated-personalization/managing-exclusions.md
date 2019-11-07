@@ -1,13 +1,11 @@
 ---
-description: 自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 keywords: 重複;重複を許可;重複するオファーを除外;自動パーソナライゼーション;重複するオファーを許可しない
-seo-description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
-seo-title: 除外の管理
-solution: Target,Analytics
+description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 title: 除外の管理
+solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
