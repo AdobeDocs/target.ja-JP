@@ -1,14 +1,11 @@
 ---
-description: Target は、使用する Target インターフェイスおよびアクティビティ作成機能（Visual Experience Composer またはフォームベースの Experience Composer）に応じて別々に、どのアクティビティをページに配信するかを決定します。
 keywords: 設定;優先度
-seo-description: Adobe targetは、使用しているTargetインターフェイスとアクティビティ作成機能（Visual Experience ComposerまたはフォームベースのComposer）に応じて、ページに配信するアクティビティ（またはアクティビティ）を決定します。
-seo-title: Adobe targetでの優先順位
-solution: 'Target '
-title: 優先度
+description: Adobe targetは、使用しているTargetインターフェイスとアクティビティ作成機能（Visual Experience ComposerまたはフォームベースのComposer）に応じて、ページに配信するアクティビティ（またはアクティビティ）を決定します。
+title: Adobe targetでの優先順位
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
