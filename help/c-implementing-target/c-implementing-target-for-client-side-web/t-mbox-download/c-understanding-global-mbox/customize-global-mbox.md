@@ -1,15 +1,12 @@
 ---
-description: at.js および mbox.js の両方でグローバル mbox をカスタマイズするために役立つ情報を紹介します。
 keywords: グローバル mbox;グローバル mbox のカスタマイズ;mbox.js の編集;at.js の編集;at.js;mbox.js の実装;at.js の実装
-seo-description: at.js および mbox.js の両方でグローバル mbox をカスタマイズするために役立つ情報を紹介します。
-seo-title: グローバル mbox のカスタマイズ
-solution: 'Target '
-subtopic: 導入
+description: at.js および mbox.js の両方でグローバル mbox をカスタマイズするために役立つ情報を紹介します。
 title: グローバル mbox のカスタマイズ
+subtopic: 導入
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -32,7 +29,7 @@ at.js および mbox.js の両方でグローバル mbox をカスタマイズ�
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   終了したら「**[!UICONTROL 保存]」をクリックします。**
+   終了したら「**[!UICONTROL 保存]**」をクリックします。
 1. [!DNL mbox.js] または [!DNL at.js] ライブラリをサイトに導入します。
 
 * mbox. js については、「[mbox. js の実装](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)」を参照してください。
