@@ -1,14 +1,10 @@
 ---
-description: at.js と mbox.js にはいくつかの違いがあります。このセクションでは、at.js で成功するために役立つ、いくつかの違いと制限を取り上げます。
 keywords: visual experience composer の制限;ブラウザーサポート;統合;プラグイン;非同期の考慮事項
-seo-description: at.js と mbox.js にはいくつかの違いがあります。このセクションでは、at.js で成功するために役立つ、いくつかの違いと制限を取り上げます。
-seo-title: at.js の制限
-solution: 'Target '
+description: at.js と mbox.js にはいくつかの違いがあります。このセクションでは、at.js で成功するために役立つ、いくつかの違いと制限を取り上げます。
 title: at.js の制限
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
