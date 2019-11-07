@@ -1,16 +1,10 @@
 ---
-description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
 keywords: recommendations デザイン;デザインの作成;デザインのコピー
-seo-description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
-seo-title: デザインの作成
-solution: 'Target '
+description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
 title: デザインの作成
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,7 +13,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
 
-[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。**[!UICONTROL レコメンデーション／デザイン]スクリーンには、デフォルトデザインカードと過去に作成したすべてのデザインが表示されます。**&#x200B;デフォルトのデザインの編集や削除はできません。
+[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。**[!UICONTROL レコメンデーション／デザイン]**&#x200B;スクリーンには、デフォルトデザインカードと過去に作成したすべてのデザインが表示されます。デフォルトのデザインの編集や削除はできません。
 
 1. **[!UICONTROL レコメンデーション／デザイン]**&#x200B;画面で、作成するデザインのカードの上にマウスを移動します。
 
@@ -35,7 +29,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 「**[!UICONTROL コンテンツ名]**」を追加します。
 
-   デフォルトデザインを使用した場合には、デザイン名と「コピー」が「**[!UICONTROL コンテンツ名]」フィールドに表示されます。**&#x200B;名前は編集できます。1.（オプション）デザインカード上に表示する画像をクリックして選択します。
+   デフォルトデザインを使用した場合には、デザイン名と「コピー」が「**[!UICONTROL コンテンツ名]**」フィールドに表示されます。名前は編集できます。1.（オプション）デザインカード上に表示する画像をクリックして選択します。
 1. デザインの&#x200B;**[!UICONTROL コード]**&#x200B;を編集します。
 
    レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocity について詳しくは、[](https://velocity.apache.org)https://velocity.apache.org を参照してください。
@@ -48,11 +42,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：Recommendationsでのカスタムデザインの作成(3:20)
+## トレーニングビデオ：Recommendations でのカスタムデザインの作成（3:20）
 
-このビデオでは、次の情報を提供しています。
+このビデオには、次の情報が含まれています。
 
 * カスタムデザインの作成
-* デザインで表示変数を参照する方法を理解する
+* デザインでの表示変数の参照方法の説明
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=jpn)
