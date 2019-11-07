@@ -1,14 +1,11 @@
 ---
-description: at.js ライブラリは、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Adobe Target の新しい実装ライブラリです。
 keywords: Target Standard;at.js;実装
-seo-description: at.js ライブラリは、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Adobe Target の新しい実装ライブラリです。
-seo-title: mbox.js から at.js への移行
-solution: 'Target '
+description: at.js ライブラリは、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Adobe Target の新しい実装ライブラリです。
 title: mbox.js から at.js への移行
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
