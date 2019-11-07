@@ -1,13 +1,11 @@
 ---
-description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
 keywords: モバイルアプリ;　モバイルアプリの場所;　targetモバイルアプリ;　モバイルターゲット場所;　モバイルアプリ成功指標
-seo-description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
-seo-title: iOS - Target の位置と成功指標の作成
+description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
 title: iOS - Target の位置と成功指標の作成
 topic: 'Target '
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
