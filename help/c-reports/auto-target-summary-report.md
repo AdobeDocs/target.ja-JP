@@ -1,15 +1,12 @@
 ---
-description: 自動ターゲット概要レポートの解釈方法に関する情報。
 keywords: レポート;自動ターゲット;AT
-seo-description: 自動ターゲット概要レポートの解釈方法に関する情報。
-seo-title: 自動ターゲット概要レポート
-solution: 'Target '
-subtopic: 多変量分析テスト
+description: 自動ターゲット概要レポートの解釈方法に関する情報。
 title: 自動ターゲット概要レポート
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
