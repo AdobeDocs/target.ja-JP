@@ -1,14 +1,10 @@
 ---
-description: この記事に記載されるシナリオは、ページに変更を加えることが Target のエクスペリエンス表示機能にどのように影響するかを示します。
 keywords: Recommendations
-seo-description: この記事に記載されるシナリオは、ページに変更を加えることが Target のエクスペリエンス表示機能にどのように影響するかを示します。
-seo-title: ページ修正のシナリオ
-solution: 'Target '
+description: この記事に記載されるシナリオは、ページに変更を加えることが Target のエクスペリエンス表示機能にどのように影響するかを示します。
 title: ページ修正のシナリオ
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
