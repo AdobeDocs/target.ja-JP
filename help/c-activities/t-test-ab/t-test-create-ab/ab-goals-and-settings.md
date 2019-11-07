@@ -1,13 +1,11 @@
 ---
-description: 目標と設定ページでは、テストの目標についての情報を入力します。
 keywords: アクティビティ設定;A/B 目標と設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;主な目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのためのオーディエンス;指標を増分する前にどの成功指標に達するべきか;この目的指標にユーザーが達した後はどうなるか;メモ
-seo-description: 目標と設定ページでは、テストの目標についての情報を入力します。
-seo-title: 目標と設定
+description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
