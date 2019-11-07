@@ -1,15 +1,12 @@
 ---
-description: このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
 keywords: モバイル Web エクスペリエンスエディター
-seo-description: このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
-seo-title: 多変量分析テストのトラブルシューティング
-solution: 'Target '
-subtopic: レスポンシブエクスペリエンスのための
+description: このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
 title: 多変量分析テストのトラブルシューティング
+subtopic: レスポンシブエクスペリエンスのための
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
