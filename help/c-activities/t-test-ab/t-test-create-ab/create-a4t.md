@@ -1,13 +1,10 @@
 ---
-description: Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 keywords: ターゲット設定;analytics;トラッキングサーバー
-seo-description: Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
-seo-title: Analytics データの使用
-solution: 'Target '
+description: Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 title: Analytics データの使用
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
