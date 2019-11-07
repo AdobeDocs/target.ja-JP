@@ -1,14 +1,11 @@
 ---
-description: at.js 1.*x* から at.js 2.*x* へのアップグレード
 keywords: at.js リリース;at.js バージョンs;シングルページアプリ;spa;クロスドメイン;ドメイン間
-seo-description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
-seo-title: Adobe Target の at js バージョン 1.*x* から at.js バージョン 2.0.0 へのアップグレード*x*
-solution: 'Target '
+description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
+title: Adobe Target の at js バージョン 1.*x* から at.js バージョン 2.0.0 へのアップグレード*x*
 subtopic: 導入
-title: at.js 1.*x* から at.js 2.*x* へのアップグレード
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
