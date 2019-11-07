@@ -1,14 +1,9 @@
 ---
-description: A/B テストおよびエクスペリエンスのターゲット設定アクティビティにおけるオファーとしての Adobe Recommendations。
 keywords: Recommendations;オファー
-seo-description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
-seo-title: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
-solution: 'Target '
-title: 'オファーとしての Recommendations '
-title-outputclass: premium
-topic: Premium
+description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
+title: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -70,9 +65,9 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 編集メニューを使用した Recommendations オファーの編集
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+1. 編集するオファーをクリックし、「**[!UICONTROL 編集]**」をクリックします。
 
-   ![レコメンデーションオファーの編集](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Recommendations オファーの編集](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 次のオプションから選択します。
 
@@ -85,8 +80,8 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 変更パネルを使用した Recommendations オファーの編集
 
-1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
-1. 目的のアクションの上にマウスポインターを置いて、**[!UICONTROL 編集]アイコンをクリックします。**
+1. [!UICONTROL 変更]アイコン **（`</>`）** をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
+1. 目的のアクションの上にマウスポインターを置いて、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    ![変更パネル](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,26 +96,26 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 編集メニューを使用した Recommendations オファーの削除
 
-1. Click the offer you want to remove, then click **[!UICONTROL Layout &gt; Remove]**.
+1. 削除するオファーをクリックし、**[!UICONTROL レイアウト／削除]**&#x200B;をクリックします。
 
    ![削除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. [!UICONTROL 変更]アイコン&#x200B;**（&lt;/&gt;）**&#x200B;をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
 1. 目的のアクションの上にマウスポインターを置いて、[!UICONTROL 削除]アイコンをクリックします。
 
    ![削除アイコン](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### レコメンデーションオファーのステータスの表示 {#status}
+### Recommendations オファーのステータスの表示 {#status}
 
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+Recommendations オファーの（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの[!UICONTROL 概要]ページの下部に表示されます。
 
-* 結果準備完了
+* 結果の準備ができました
 * 結果の準備ができていません
 * フィードエラー
 
-![Recommendationsオファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations オファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
 
 ## トレーニングビデオ：オファーとしてのレコメンデーション
 
