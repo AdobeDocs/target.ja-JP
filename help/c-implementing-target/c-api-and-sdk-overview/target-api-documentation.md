@@ -1,14 +1,11 @@
 ---
-description: Target の従来の API から Adobe I/O の新しい API への移行について説明します。
 keywords: api;adobe i/o
-seo-description: Target の従来の API から Adobe I/O の新しい API への移行について説明します。
-seo-title: Target の従来の API から Adobe I/O への移行
-solution: 'Target '
+description: Target の従来の API から Adobe I/O の新しい API への移行について説明します。
 title: Target の従来の API から Adobe I/O への移行
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
