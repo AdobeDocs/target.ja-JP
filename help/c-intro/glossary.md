@@ -1,13 +1,10 @@
 ---
-description: Adobe Target で使用される用語の定義です。
-seo-description: 用語の定義について説明します。
-seo-title: Adobe Target 用語集
-solution: 'Target '
-title: 用語集
+description: 用語の定義について説明します。
+title: Adobe Target 用語集
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
