@@ -1,14 +1,11 @@
 ---
-description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
 keywords: ターゲット設定、targetオペレーティングシステム、オペレーティングシステム、target os、os、target linux、linux、ターゲットウィンドウ、windows、target Macintosh、Macintosh、mac、ターゲットmac、win、ターゲットwin
-seo-description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
-seo-title: オペレーティングシステム
-solution: 'Target '
+description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
 title: オペレーティングシステム
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
