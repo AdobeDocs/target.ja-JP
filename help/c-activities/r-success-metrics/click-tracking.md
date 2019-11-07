@@ -1,15 +1,12 @@
 ---
-description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
 keywords: クリック追跡;クリックの追跡;クリック;AppMeasurement
-seo-description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
-seo-title: クリックの追跡
-solution: 'Target '
-subtopic: 導入
+description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
 title: クリックの追跡
+subtopic: 導入
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
