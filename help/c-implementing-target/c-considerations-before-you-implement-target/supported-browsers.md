@@ -1,15 +1,12 @@
 ---
-description: Adobe Target アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
 keywords: ブラウザー;前提条件;要件;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-seo-description: Adobe Target アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
-seo-title: サポートされているブラウザー
-solution: 'Target '
-subtopic: 導入
+description: Adobe Target アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
 title: サポートされているブラウザー
+subtopic: 導入
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
