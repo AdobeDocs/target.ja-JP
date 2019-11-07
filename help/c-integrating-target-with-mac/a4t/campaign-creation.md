@@ -1,14 +1,11 @@
 ---
-description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
-seo-description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
-seo-title: アクティビティの作成
-solution: 'Target '
+description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 title: アクティビティの作成
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
