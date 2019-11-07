@@ -1,13 +1,10 @@
 ---
-description: Target Visual Experience Composer（VEC）ヘルパーブラウザー拡張を使用して、VEC 内で確実に Web サイトを読み込み、エクスペリエンスを迅速に作成および QA する方法について説明します。
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-seo-description: Adobe Target Visual Experience Composer（VEC）ヘルパーブラウザー拡張を使用して、VEC 内で確実に Web サイトを読み込み、エクスペリエンスを迅速に作成および QA する方法について説明します。
-seo-title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
-solution: 'Target '
-title: Visual Experience Composer ヘルパー拡張機能
+description: Adobe Target Visual Experience Composer（VEC）ヘルパーブラウザー拡張を使用して、VEC 内で確実に Web サイトを読み込み、エクスペリエンスを迅速に作成および QA する方法について説明します。
+title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
