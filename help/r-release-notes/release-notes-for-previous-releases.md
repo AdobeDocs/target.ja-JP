@@ -1,14 +1,11 @@
 ---
-description: Target Standard／Premium、Target プラットフォームおよび Target JavaScript ライブラリ（at.js と mbox.js）のリリースノートなど、Target の以前のリリースに関するリリースノートです。リリースノートは、リリースの年月に従って新しい順に整理されています。
 keywords: リリースノート
-seo-description: Target Standard／Premium、Target プラットフォームおよび Target JavaScript ライブラリ（at.js と mbox.js）のリリースノートなど、Target の以前のリリースに関するリリースノートです。リリースノートは、リリースの年月に従って新しい順に整理されています。
-seo-title: 以前のリリースのリリースノート
-solution: 'Target '
+description: Target Standard／Premium、Target プラットフォームおよび Target JavaScript ライブラリ（at.js と mbox.js）のリリースノートなど、Target の以前のリリースに関するリリースノートです。リリースノートは、リリースの年月に従って新しい順に整理されています。
 title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
