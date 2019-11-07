@@ -1,14 +1,11 @@
 ---
-description: 'at.js の adobe.target.trackEvent(options) 関数について説明します。 '
-keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
-seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
-solution: 'Target '
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;関数;preventDefault;preventdefault;prevent default
+description: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
+title: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
 subtopic: 導入
-title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -28,7 +25,7 @@ API の詳細を次に示します。
 | type | 文字列 | × | 登録されたイベントタイプを表します。クリック、マウスダウンなどの HTML の既知のイベントとカスタム HTML イベントの両方が可能です。 |
 | preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意**： `form[submit] and ` と [クリック]のみがサポートされています。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
 | params | オブジェクト | × | mbox パラメーター。次の構造を持つキーと値のペアのオブジェクト。<br>`{ "param1": "value1", "param2": "value2"}` |
-| timeout | 数値  | × | タイムアウト（ミリ秒）。<br>指定しない場合は、次のデフォルト値が使用されます。<br>`...timeoutInSeconds: 0.15...}` |
+| timeout | 数値 | × | タイムアウト（ミリ秒）。<br>指定しない場合は、次のデフォルト値が使用されます。<br>`...timeoutInSeconds: 0.15...}` |
 | success | 関数 | × | イベントが繰り返されたことを伝えるために使用されるコールバック関数。 |
 | error | 関数 | × | イベントを繰り返せなかったことを伝えるために使用されるコールバック関数。 |
 
