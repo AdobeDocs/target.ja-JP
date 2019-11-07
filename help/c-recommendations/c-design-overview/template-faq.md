@@ -1,16 +1,10 @@
 ---
-description: Recommendations デザインに関するよくある質問（FAQ）のリストです。
 keywords: recommendations;よくある質問;faq
-seo-description: Recommendations デザインに関するよくある質問（FAQ）のリストです。
-seo-title: デザイン FAQ
-solution: 'Target '
+description: Recommendations デザインに関するよくある質問（FAQ）のリストです。
 title: デザイン FAQ
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Recommendations デザインに関するよくある質問（FAQ）のリストです。
 
-## レコメンデーション品目の価格が小数点以下の値を両方とも表示していない。 表示する方法
+## 推奨品目の価格で小数点の右側に値が表示されません。どうすれば表示できますか？
 
-デフォルトでは、デザインテンプレートで返さ `entity.value`れる数値（例えば）には、小数点以下の後ろのゼロは表示されません。 例えば、項目が$35.00で、が35で、 `entity.value` が$35.00ではなく35のみがページに表示されます。
+デフォルトでは、デザインテンプレートで返される数値（`entity.value` など）には、小数点の後の末尾のゼロは表示されません。例えば、品目が $35.00 の場合、`entity.value` は 35 に等しくなり、$35.00 ではなく、35 のみがページに表示されます。
 
-この問題に対処するには、2つのオプションを使用できます。
+この問題に対処するには、2 つのオプションがあります。
 
-* VelocityスクリプティングまたはJavaScriptを使用して、戻り値に形式設定を適用できます。
+* Velocity スクリプトまたは JavaScript を使用して、戻り値に書式を適用します。
 
-* 品目の価格は、2つの異なるエンティティ属性に渡すことができます。 1つ目は、 `entity.value`数値の比較（価格比較ルールなど）に使用できます。 2つ目はカスタム属性で、適切なレンダリングを `entity.displayValue` 可能にするためにエンティティの値を文字列として保存します。
+* 品目の価格を 2 つの異なるエンティティ属性に渡すことができます。最初の `entity.value` は、数値の比較（価格比較ルールなど）に使用します。2 番目は、適切にレンダリングできるようにエンティティの値を文字列として格納するカスタム属性（`entity.displayValue` など）である必要があります。
 
    例：
 
@@ -55,4 +49,4 @@ JavaScript で改行をしないスペースを送信することで可能だと
 
 ## Recommendations デザインにプロファイルスクリプトを使用できますか？{#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-はい。 ただし、プロファイルスクリプト名にある $ の前にバックスラッシュ（\）を追加する必要があります。
+はい。ただし、プロファイルスクリプト名にある $ の前にバックスラッシュ（\）を追加する必要があります。
