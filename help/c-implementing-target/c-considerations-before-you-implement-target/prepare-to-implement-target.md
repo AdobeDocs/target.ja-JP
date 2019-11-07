@@ -1,15 +1,12 @@
 ---
-description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
 keywords: 実装;導入;RFI;情報のリクエスト
-seo-description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
-seo-title: Adobe Target 実装の準備
-solution: 'Target '
+description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
+title: Adobe Target 実装の準備
 subtopic: 導入
-title: Target 実装の準備
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
