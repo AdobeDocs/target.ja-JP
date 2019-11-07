@@ -1,14 +1,10 @@
 ---
-description: 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
 keywords: 多変量分析テスト、mvt、fullファセット、mvtまたはa/b、multivariate a/b、トラフィック見積もり、mvtを使用する場合、mvt considerations、多変量分析
-seo-description: Adobe Target の多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
-seo-title: 多変量分析テスト
-solution: 'Target '
+description: Adobe Target の多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
 title: 多変量分析テスト
-topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
