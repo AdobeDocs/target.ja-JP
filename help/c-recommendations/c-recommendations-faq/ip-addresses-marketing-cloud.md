@@ -1,15 +1,10 @@
 ---
-description: ファイアウォールを設定してアドビサーバーからの IP アドレスを許可するのに役立つ、オレゴンデータセンターにある Recommendations フィード処理サーバーで使用される IP アドレスのリスト。
 keywords: IP アドレス;IP アドレス;ホワイトリスト, ファイアウォール;recs;フィード;サーバー; adobe experience cloud;recommendations
-seo-description: ファイアウォールを設定してアドビサーバーからの IP アドレスを許可するのに役立つ、オレゴンデータセンターにある Recommendations フィード処理サーバーで使用される IP アドレスのリスト。
-seo-title: Recommendations フィード処理サーバーで使用される IP アドレス
+description: ファイアウォールを設定してアドビサーバーからの IP アドレスを許可するのに役立つ、オレゴンデータセンターにある Recommendations フィード処理サーバーで使用される IP アドレスのリスト。
 title: Recommendations フィード処理サーバーで使用される IP アドレス
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
