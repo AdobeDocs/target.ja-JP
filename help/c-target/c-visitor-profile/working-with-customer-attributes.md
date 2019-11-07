@@ -1,15 +1,12 @@
 ---
-description: アドビのプロファイルおよびオーディエンスコアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
 keywords: 顧客レコードサービス;crs;crm;mbox3rdpartyid;顧客属性;ターゲット設定
-seo-description: アドビのプロファイルおよびオーディエンスコアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
-seo-title: 顧客属性（Adobe Target）
-solution: 'Target '
+description: アドビのプロファイルおよびオーディエンスコアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
+title: 顧客属性（Adobe Target）
 subtopic: 導入
-title: 顧客属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +32,7 @@ Consider the following information as your work with customer attributes and [!D
    >[!DNL at.js] （任意のバージョン）または [!DNL mbox.js] バージョン58以降が必要です。
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、データのごく一部が転送されない可能性があります。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see Visitor Profile Lifetime.[](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「訪問者プロファイルの有 [効期間」を参照してください](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 認証済みプロファイルは、`authState` が UNAUTHENTICATED（1）に変わったときに取得されます。
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が 1（AUTHENTICATED）になっている必要があります。
@@ -52,7 +49,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. データファイルを作成します。
 
-   CRM の顧客データを CSV 形式にエクスポートして、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。Ensure that first row of the CSV file is the header and all rows (customer data) have the same number of entries.
+   CRM の顧客データを CSV 形式にエクスポートして、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。CSVファイルの最初の行がヘッダーで、すべての行（顧客データ）のエントリ数が同じであることを確認します。
 
    ![](assets/CRS_sample.png)
 
@@ -85,7 +82,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[Configure subscriptions](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) sets up the data flow between the [!DNL Experience Cloud] and solutions. 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定すると](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、とソリューションの間のデータフローが [!DNL Experience Cloud] 設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![](assets/solution.png)
 
