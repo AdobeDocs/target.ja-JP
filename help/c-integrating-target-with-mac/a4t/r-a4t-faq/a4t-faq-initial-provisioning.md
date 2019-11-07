@@ -1,14 +1,11 @@
 ---
-description: このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
 keywords: FAQ;よくある質問;analytics for target;A4T;プロビジョニング;プロビジョニング;adobe Experience Cloud
-seo-description: このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
-seo-title: 初期プロビジョニング - A4T FAQ
-solution: 'Target '
+description: このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
 title: 初期プロビジョニング - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
