@@ -1,14 +1,11 @@
 ---
-description: Adobe Experience Manager（AEM）で作成したエクスペリエンスフラグメントを Target アクティビティで使用し、最適化やパーソナライゼーションを助けることに関する情報です。
 keywords: エクスペリエンス；json;aem;Adobe Experience Manager;Adobe targetへの書き出し；エクスペリエンスフラグメント；フラグメント；XF
-seo-description: Adobe Experience Manager(AEM)で作成されたエクスペリエンスフラグメントをAdobe targetアクティビティで使用して、最適化やパーソナライゼーションを支援する方法について説明します。
-seo-title: Adobe targetのAdobe Experience Manager(AEM)エクスペリエンスフラグメント
-solution: 'Target '
-title: AEM エクスペリエンスフラグメント
+description: Adobe Experience Manager(AEM)で作成されたエクスペリエンスフラグメントをAdobe targetアクティビティで使用して、最適化やパーソナライゼーションを支援する方法について説明します。
+title: Adobe targetのAdobe Experience Manager(AEM)エクスペリエンスフラグメント
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
