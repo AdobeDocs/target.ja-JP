@@ -1,17 +1,11 @@
 ---
-description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
-seo-description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
-seo-title: Enterprise ユーザーの権限
-solution: 'Target '
-subtopic: 導入
+description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 title: Enterprise ユーザーの権限
-title-outputclass: premium
-topic: Premium
+subtopic: 導入
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
