@@ -1,14 +1,11 @@
 ---
-description: 'at.js の mboxCreate(mbox,params) 関数について説明します。 '
-keywords: mboxCreate;mboxcreate;mbox create;at.js;function;function
-seo-description: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
-solution: 'Target '
+keywords: mboxCreate;mboxcreate;mbox create;at.js;関数
+description: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
+title: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
 subtopic: 導入
-title: mboxCreate(mbox,params) - at.js 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
