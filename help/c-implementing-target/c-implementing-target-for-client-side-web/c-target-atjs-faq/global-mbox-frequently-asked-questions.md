@@ -1,14 +1,11 @@
 ---
-description: グローバル mbox に関するよくある質問（FAQ）のリストです。
 keywords: トラブルシューティング;よくある質問;FAQ;グローバル;グローバル mbox
-seo-description: グローバル mbox に関するよくある質問（FAQ）のリストです。
-seo-title: グローバル mbox に関するよくある質問
-solution: 'Target '
+description: グローバル mbox に関するよくある質問（FAQ）のリストです。
 title: グローバル mbox に関するよくある質問
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
