@@ -1,16 +1,10 @@
 ---
-description: Recommendations アクティビティを作成する前に知っておくべきこと。
 keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィルター;デフォルトホストグループ;サムネールのベース URL;Recommendation API トークン
-seo-description: Recommendations アクティビティを作成する前に知っておくべきこと。
-seo-title: Recommendations の計画と実装
-solution: 'Target '
+description: Recommendations アクティビティを作成する前に知っておくべきこと。
 title: Recommendations の計画と実装
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
