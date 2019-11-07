@@ -1,17 +1,11 @@
 ---
-description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
-seo-description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
-seo-title: Enterprise 権限の設定
-solution: 'Target '
-subtopic: 導入
+description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 title: Enterprise 権限の設定
-title-outputclass: premium
-topic: Premium
+subtopic: 導入
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
