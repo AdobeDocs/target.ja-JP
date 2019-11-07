@@ -1,15 +1,11 @@
 ---
-description: Adobe Targetでオーディエンスを作成して、ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定できます。
 keywords: ブラウザーオプション;タイプ;ブラウザータイプ;ブラウザー言語;言語;バージョン;ブラウザーバージョン
-seo-description: Adobe Targetでオーディエンスを作成して、ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定できます。
-seo-title: Adobe Target オーディエンスのブラウザーオプション
-solution: 'Target '
+description: Adobe Targetでオーディエンスを作成して、ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定できます。
+title: Adobe Target オーディエンスのブラウザーオプション
 subtopic: 多変量分析テスト
-title: ブラウザー
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
