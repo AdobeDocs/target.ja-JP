@@ -1,16 +1,10 @@
 ---
-description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
 keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
-seo-description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
-seo-title: エンティティの属性
-solution: 'Target '
+description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
 title: エンティティの属性
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +21,7 @@ source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
 
 単一値のみ。
 
-この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [!DNL Adobe Experience Cloud] 製品（ [!DNL Analytics] を含む）で同じにする必要があります。
+この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [!DNL Adobe Experience Cloud] 製品（[!DNL Analytics] を含む）で同じにする必要があります。
 
 `entity.id` の値には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
 
