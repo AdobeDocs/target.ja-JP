@@ -1,14 +1,11 @@
 ---
-description: at.jsを使用して自動作成されたグローバルmboxに対して送信または収集された呼び出しと情報のフローを示すTargetシステムダイアグラム。
 keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js;atjs
-seo-description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
-seo-title: Adobe Target at.js javaScriptライブラリの仕組み
-solution: 'Target '
-title: at.js の仕組み
+description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
+title: Adobe Target at.js javaScriptライブラリの仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
