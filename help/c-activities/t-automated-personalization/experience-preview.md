@@ -1,16 +1,11 @@
 ---
-description: アクティビティをライブにする前に、プレビューおよび QA の目的で、Target の Automated Personalization アクティビティのエクスペリエンス URL を生成して、エクスペリエンスのコンテンツをサイトで直接確認できます。エクスペリエンス URL は、ターゲット設定を無視し、特定のエクスペリエンスを強制的に表示します。
 keywords: エクスペリエンスのプレビュー;エクスペリエンスURL;URLの生成;エクスペリエンスのURLの表示
-seo-description: アクティビティをライブにする前に、プレビューおよび QA の目的で、Target の Automated Personalization アクティビティのエクスペリエンス URL を生成して、エクスペリエンスのコンテンツをサイトで直接確認できます。エクスペリエンス URL は、ターゲット設定を無視し、特定のエクスペリエンスを強制的に表示します。
-seo-title: Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有
-solution: 'Target '
+description: アクティビティをライブにする前に、プレビューおよび QA の目的で、Target の Automated Personalization アクティビティのエクスペリエンス URL を生成して、エクスペリエンスのコンテンツをサイトで直接確認できます。エクスペリエンス URL は、ターゲット設定を無視し、特定のエクスペリエンスを強制的に表示します。
 title: Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有
-title-outputclass: Premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
