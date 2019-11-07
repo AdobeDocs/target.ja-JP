@@ -1,13 +1,10 @@
 ---
 description: すべてのエクスペリエンスを検証できるようにするには、ブラウザーの Target の Cookie を削除します。
-seo-description: すべてのエクスペリエンスを検証できるようにするには、ブラウザーの Target の Cookie を削除します。
-seo-title: Target の Cookie の削除
-solution: 'Target '
 title: Target の Cookie の削除
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
