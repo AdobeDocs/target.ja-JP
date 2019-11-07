@@ -1,13 +1,10 @@
 ---
-description: Adobe targetでは、成功指標はレポートと追跡の両方の目的で事前に設定されています。
 keywords: ターゲット設定；成功；コンバージョン指標；ページスコア指標；ページビュー指標；売上高指標；サイト滞在時間指標；予測値；詳細設定；成功指標
-seo-description: Adobe targetでは、成功指標はレポートと追跡の両方の目的で事前に設定されています。
-seo-title: Adobe targetの成功指標
-solution: 'Target '
-title: 成功指標
+description: Adobe targetでは、成功指標はレポートと追跡の両方の目的で事前に設定されています。
+title: Adobe targetの成功指標
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
