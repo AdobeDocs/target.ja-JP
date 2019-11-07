@@ -1,13 +1,11 @@
 ---
-description: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)です。
 keywords: モバイルアプリ；よくある質問；faq;targetモバイルアプリ
-seo-description: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)です。
-seo-title: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)
-title: モバイルアプリ用Adobe Target FAQ
+description: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)です。
+title: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)
 topic: 'Target '
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
