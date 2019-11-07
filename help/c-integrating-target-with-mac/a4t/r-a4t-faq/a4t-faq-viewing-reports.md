@@ -1,14 +1,11 @@
 ---
-description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のレポートの表示に関するよくある質問に対する回答が含まれています。
 keywords: FAQ;よくある質問;analytics for target;A4T;レポート;レポート;レポートを表示;レポート作成;カウント手法;インプレッション;訪問者;訪問;デフォルト指標;アクティビティのコンバージョン;未指定
-seo-description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のレポートの表示に関するよくある質問に対する回答が含まれています。
-seo-title: レポートの表示 - A4T FAQ
-solution: 'Target '
+description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のレポートの表示に関するよくある質問に対する回答が含まれています。
 title: レポートの表示 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -52,7 +49,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 上記の指標はすべて、ユーザーがアクティビティの対象となり、[!DNL Target] からコンテンツが返されたときにトリガーされます。したがって、必ずしもそのユーザーがオファーを見たかどうかはわかりません。アクティビティエクスペリエンスがスクロールしないと見えない場所にある場合、[!DNL Target] によってオファーが配信されていても、ユーザーがページを下にスクロールしなければ、オファーは見られていないことになります。
 * （[!UICONTROL  によって測定される）]アクティビティのインプレッション[!DNL Target]と（[!UICONTROL  によって測定される）]インスタンス[!DNL Analytics]は同じ値になります。ただし、同じアクティビティで複数の mbox 呼び出しが同じページに対しておこなわれた場合を例外です。この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
-* でアクティビティ [!UICONTROL のインプレッション数とア] クティビティのコンバージョン [!UICONTROL 指標を使用する場合は、両方の指標に同じタッチアトリビューションモ][!DNL Analysis Workspace] デルが適用されていることを確認します。 モデルを適用するには、列設定の歯車をクリックし、「デフォルト以外のアトリビ [!UICONTROL ューションモデル」を有効にし]、「同じタッチ」を [!UICONTROL 選択します]。 アトリビューションについて詳し [くは、Analyticsツールガイドの](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 「属性IQの概要」 *を参照してください*。
+* [!DNL Analysis Workspace] で[!UICONTROL アクティビティのインプレッション]および[!UICONTROL アクティビティのコンバージョン]指標を使用する場合、両方の指標に[!UICONTROL 同じタッチ]アトリビューションモデルが適用されるようにします。モデルは、列設定の歯車をクリックして、[!UICONTROL デフォルト以外のアトリビューションモデル]を有効にしてから、[!UICONTROL 同じタッチ]を選択することで適用できます。アトリビューションについて詳し [くは、Analyticsツールガイドの](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 「属性IQの概要」 *を参照してください*。
 
 ## アクティビティの設定中にマーケティング担当者が Analytics 指標を選択する場合、「アクティビティコンバージョン」は何を意味しますか？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +59,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 ![](assets/unspecified.png)
 
-他のレポートの場合、「未指定」は、データが分類ルールを満たしていなかったことを意味しますが、A4T の場合は、これは発生しないはずです。「未指定」と表示される場合、分類サービスがまだ実行されていません。通常、アクティビティデータがレポートに表示されるまでに24 ～ 72時間かかります。 それまではアクティビティがこのレポートに表示されないとしても、これらのアクティビティに結び付けられたすべての訪問者データは、キャプチャされ、分類が完了すると表示されます。
+他のレポートの場合、「未指定」は、データが分類ルールを満たしていなかったことを意味しますが、A4T の場合は、これは発生しないはずです。「未指定」と表示される場合、分類サービスがまだ実行されていません。アクティビティデータがレポートに表示されるまで、通常、24 ～ 72 時間かかります。それまではアクティビティがこのレポートに表示されないとしても、これらのアクティビティに結び付けられたすべての訪問者データは、キャプチャされ、分類が完了すると表示されます。
 
 分類期間後、これらのレポートでは、データが Web サイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、セグメントおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
 
@@ -127,7 +124,7 @@ Target 変数がセッションに至るまでの持続時間を短縮できま�
 Analytics で、同一の訪問者が複数のエクスペリエンスでカウントされる理由は次のとおりです。
 
 * Target プロファイルの有効期限は切れましたが、Analytics の Cookie がまだ残っています。その場合は、Target は該当のユーザーを再評価しますが、Analytics は該当の訪問者が同一ユーザーであると認識します。
-* 訪問者が `mbox3rdPartyId` を使用している場合、その匿名の訪問者がサードパーティの ID プロファイルと統合されると、Target はサードパーティの ID と適合させるために、訪問者に別のエクスペリエンスを割り当てます。詳細については、「[mbox3rdPartyID のリアルタイムプロファイル同期](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)」を参照してください。
+* 訪問者が `mbox3rdPartyId` を使用している場合、その匿名の訪問者がサードパーティの ID プロファイルと統合されると、Target はサードパーティの ID と適合させるために、訪問者に別のエクスペリエンスを割り当てます。詳しくは、[mbox3rdPartyId のリアルタイムプロファイル同期](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)を参照してください。
 * Analytics は、Target とは違う方法で、複数のデバイスを同一の訪問者として追跡する場合があります。Target で設定されたサードパーティ ID は、Analytics のものとは異なるためです。
 
 ## A4Tは仮想レポートスイートをサポートしていますか?
