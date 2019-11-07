@@ -1,14 +1,11 @@
 ---
-description: 目標と設定ページでは、テストの目標についての情報を入力します。
 keywords: アクティビティ設定;mvt目標と設定;多変量分析目標と設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;プライマリ目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのオーディエンス;この指標を増分する前に達成する必要のある成功指標はどれですか;ユーザーがこの目標指標に達した後、どうなりますか;注意
-seo-description: 目標と設定ページでは、テストの目標についての情報を入力します。
-seo-title: 目標と設定
-solution: 'Target '
+description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
