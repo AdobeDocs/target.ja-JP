@@ -1,15 +1,12 @@
 ---
-description: ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
 keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
-seo-description: ページに必要なコンテンツが表示されない場合は、Adobe targetでコンテンツ配信をデバッグするためのいくつかの手順を実行できます。
-seo-title: Troubleshoot content delivery in Adobe Target
-solution: 'Target '
+description: ページに必要なコンテンツが表示されない場合は、Adobe targetでコンテンツ配信をデバッグするためのいくつかの手順を実行できます。
+title: Adobe targetでのコンテンツ配信のトラブルシューティング
 subtopic: 多変量分析テスト
-title: コンテンツ配信のトラブルシューティング
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -98,7 +95,7 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 
 >[!NOTE]
 >
->Ensure that the URL fragment is after query string parameters. Anything after the first `#` is a fragment identifier and causes debugging parameters not to function correctly.
+>URLフラグメントがクエリ文字列パラメーターの後にあることを確認します。 最初の値より後の値はフラ `#` グメント識別子で、デバッグパラメーターが正しく機能しません。
 
 ## Adobe Experience Cloud デバッガー {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
