@@ -1,14 +1,11 @@
 ---
-description: このページには、mbox.js の各バージョンに対する変更が表示されます。
 keywords: mbox. jsの変更;mbox. jsのバージョン
-seo-description: このページには、mbox.js の各バージョンに対する変更が表示されます。
-seo-title: mbox.js のバージョンの詳細
-solution: 'Target '
-subtopic: 導入
+description: このページには、mbox.js の各バージョンに対する変更が表示されます。
 title: mbox.js のバージョンの詳細
+subtopic: 導入
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
