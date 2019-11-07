@@ -1,13 +1,10 @@
 ---
-description: mbox.js で実装するときに使用する mbox.js 関数のリスト。
 keywords: mbox 関数
-seo-description: mbox.js で実装するときに使用する mbox.js 関数のリスト。
-seo-title: mbox.js 関数
-solution: 'Target '
+description: mbox.js で実装するときに使用する mbox.js 関数のリスト。
 title: mbox.js 関数
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
