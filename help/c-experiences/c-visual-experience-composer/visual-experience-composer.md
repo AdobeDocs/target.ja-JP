@@ -1,11 +1,9 @@
 ---
-description: Visual Experience Composer（VEC）の使用に関する情報です。
-seo-description: Adobe Target での Visual Experience Composer（VEC）の使用に関する情報です。
-seo-title: Adobe Target Visual Experience Composer（VEC）
-title: Visual Experience Composer（VEC）
+description: Adobe Target での Visual Experience Composer（VEC）の使用に関する情報です。
+title: Adobe Target Visual Experience Composer（VEC）
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
