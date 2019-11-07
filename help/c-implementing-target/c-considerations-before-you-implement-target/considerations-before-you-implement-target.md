@@ -1,15 +1,12 @@
 ---
-description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 keywords: 実装;実装する
-seo-description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
-seo-title: 実装する前に
-solution: 'Target '
-subtopic: 導入
+description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 title: 実装する前に
+subtopic: 導入
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
