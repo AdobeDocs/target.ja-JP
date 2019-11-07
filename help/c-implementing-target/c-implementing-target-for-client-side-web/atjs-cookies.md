@@ -1,14 +1,11 @@
 ---
-description: at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
 keywords: at.js;2.0;1.x;Cookie
-seo-description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
-seo-title: Adobe Target の at.js の Cookie
-solution: 'Target '
+description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
+title: Adobe Target の at.js の Cookie
 subtopic: 導入
-title: at.js の cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
