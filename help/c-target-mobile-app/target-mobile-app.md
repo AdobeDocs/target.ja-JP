@@ -1,13 +1,11 @@
 ---
-description: Target を使用して、モバイルアプリの最適化とパーソナライゼーションをおこなうことができます。
 keywords: モバイルアプリ、モバイルアプリプロセス、targetモバイルアプリ、モバイルターゲット場所、モバイルアプリ成功指標
-seo-description: Target を使用して、モバイルアプリの最適化とパーソナライゼーションをおこなうことができます。
-seo-title: モバイルアプリのための Target
+description: Target を使用して、モバイルアプリの最適化とパーソナライゼーションをおこなうことができます。
 title: モバイルアプリのための Target
 topic: 'Target '
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
