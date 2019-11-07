@@ -1,15 +1,12 @@
 ---
-description: ここでは、Target 管理者が Adobe Experience Cloud への招待メールを受け取った後に最初におこなう手順について説明します。
 keywords: 管理;承認者の役割;承認者
-seo-description: ここでは、Adobe Target 管理者が Adobe Experience Cloud への招待メールを受け取った後に最初におこなう手順について説明します。
-seo-title: 管理者の最初の手順
-solution: 'Target '
-subtopic: 導入
+description: ここでは、Adobe Target 管理者が Adobe Experience Cloud への招待メールを受け取った後に最初におこなう手順について説明します。
 title: 管理者の最初の手順
+subtopic: 導入
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,7 +39,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
    >
    >アカウントをリンクしないと、[!DNL Target] にアクセスできません。
 
-   リンクページにすべての Experience Cloud 製品が表示されます。Click `Link Target` and enter your Target username and password to access Target Standard.
+   リンクページにすべての Experience Cloud 製品が表示されます。「`Link Target`」をクリックし、Target のユーザー名とパスワードを入力して、Target Standard にアクセスします。
 1. 「**[!UICONTROL Experience Cloud を続行]**」をクリックします。
 
    この時点では、リンクできる権限を持ったグループはまだ設定されていません。
