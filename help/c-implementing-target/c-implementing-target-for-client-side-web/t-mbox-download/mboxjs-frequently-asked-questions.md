@@ -1,14 +1,11 @@
 ---
-description: mbox.js に関するよくある質問への回答を紹介します。
 keywords: mbox. js faq;mbox. jsに関するよくある質問; document. write;tt.omtrdc.net; 解析ブロック
-seo-description: mbox.js に関するよくある質問への回答を紹介します。
-seo-title: mbox.js に関するよくある質問
-solution: 'Target '
-subtopic: 導入
+description: mbox.js に関するよくある質問への回答を紹介します。
 title: mbox.js に関するよくある質問
+subtopic: 導入
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
