@@ -1,14 +1,11 @@
 ---
-description: A/B アクティビティで、同じエクスペリエンスの複数バージョンをそれぞれ異なるオーディエンスにターゲット設定することができます。Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
 keywords: 複数オーディエンス;エクスペリエンスバージョン;ターゲットエクスペリエンスバージョン
-seo-description: A/B アクティビティで、同じエクスペリエンスの複数バージョンをそれぞれ異なるオーディエンスにターゲット設定することができます。Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
-seo-title: A/B テストの複数のエクスペリエンスバージョン
-solution: 'Target '
+description: A/B アクティビティで、同じエクスペリエンスの複数バージョンをそれぞれ異なるオーディエンスにターゲット設定することができます。Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
 title: A/B テストの複数のエクスペリエンスバージョン
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
