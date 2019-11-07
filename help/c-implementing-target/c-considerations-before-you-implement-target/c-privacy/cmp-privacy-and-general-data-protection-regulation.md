@@ -1,56 +1,53 @@
 ---
-description: EUのGDPR(General Data Protection Regulation)、California Consumer Privacy Act(CCPA)、その他の国際プライバシー要件、およびこれらの規制がお客様の組織とAdobe targetに与える影響に関する情報です。
-keywords: gdpr;eu;european union;privacy;faq;faq;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt-out;government;regulation
-seo-description: EUのGDPR(General Data Protection Regulation)、California Consumer Privacy Act(CCPA)、その他の国際プライバシー要件、およびこれらの規制がお客様の組織とAdobe targetに与える影響に関する情報です。
-seo-title: EUのGDPR(General Data Protection Regulation)、California Consumer Privacy Act(CCPA)、その他の国際プライバシー要件、およびこれらの規制がお客様の組織とAdobe targetに与える影響に関する情報です。
-solution: Target
-title: プライバシーとデータ保護に関する規制
+keywords: gdpr;eu;欧州連合;プライバシー;faq;よくある質問;カリフォルニア州消費者プライバシー法;ccpa;プライバシー;データ 保護;オプトアウト;政府;規制
+description: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
+title: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# プライバシーとデータ保護に関する規制 {#privacy-and-general-data-protection-regulation-gdpr}
+# プライバシーとデータ保護規制 {#privacy-and-general-data-protection-regulation-gdpr}
 
-EUのGDPR(General Data Protection Regulation)、California Consumer Privacy Act(CCPA)、その他の国際プライバシー要件、およびこれらの規制がお客様の組織とAdobe targetに与える影響に関する情報です。
+欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
 
-## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
+## プライバシーと一般データ保護規則（GDPR）の概要 {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
-2018年5月25日、欧州連合(EU)のGDPRが施行された。 これにはどのような意味があるのか、詳細は、[GDPR とビジネス](https://www.adobe.com/privacy/general-data-protection-regulation.html)を参照してください。
+2018 年 5 月 25 日に、欧州連合の GDPR が発効されました。これにはどのような意味があるのか、詳細は、[GDPR とビジネス](https://www.adobe.com/privacy/general-data-protection-regulation.html)を参照してください。
 
-When [!DNL Adobe] is providing software and services to an enterprise, [!DNL Adobe] is acting as a Data Processor for any personal data it processes and stores as part of providing these services. As a Data Processor, [!DNL Adobe] processes personal data in accordance with your company's permission and instructions (for example, as set out in your agreement with [!DNL Adobe]).
+[!DNL Adobe] が企業に対してソフトウェアやサービスを提供する場合、[!DNL Adobe] はサービス提供の一環として同社が処理または保管する個人データのデータ処理事業者に該当します。[!DNL Adobe] はデータ処理者として、お客様の許可と指示（お客様と [!DNL Adobe] との間で締結された契約の内容など）に従って個人データを処理します。
 
-As the Data Controller, you determine the personal data that [!DNL Adobe] processes and stores on your behalf. If you use [!DNL Adobe Experience Cloud] solutions, [!DNL Adobe] might host personal data for you, depending on the solutions you use and the information you choose to send to your [!DNL Adobe Experience Cloud] account. 詳細な例については、[Adobe Experience Cloud のプライバシー](https://www.adobe.com/privacy/marketing-cloud.html#collect)を参照してください。
+データ管理者であるお客様は、[!DNL Adobe] に処理および保管を委任する個人データを決めます。[!DNL Adobe Experience Cloud] ソリューションをご利用のお客様の場合は、お客様が使用しているソリューションと、お客様が [!DNL Adobe Experience Cloud] アカウントに送信するよう設定した情報に基づいて、[!DNL Adobe] は個人データをホストします。詳細な例については、[Adobe Experience Cloud のプライバシー](https://www.adobe.com/privacy/marketing-cloud.html#collect)を参照してください。
 
-[!DNL Adobe Experience Cloud] 以下のタスクを完了できるGDPR対応のデータ・コントローラ用APIを提供：
+[!DNL Adobe Experience Cloud] にはデータ管理者向けの GDPR に対応した API があり、これらの API を利用することで次のタスクを実行できます。
 
-*  に保存されているデータサブジェクト情報へのアクセス[!DNL Target]
-*  に保存されているデータサブジェクト情報の削除[!DNL Target]
+* [!DNL Target] に保存されているデータ主体情報へのアクセス
+* [!DNL Target] に保存されているデータ主体情報の削除
 
 詳しくは、次を参照してください。
 
 * [アドビ一般データ保護規則 API Web サイト](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [GDPR のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
-## カリフォルニア消費者プライバシー法(CCPA)の概要
+## カリフォルニア州消費者プライバシー法（CCPA）の概要
 
-カリフォルニア州消費者プライバシー法(CCPA)は、カリフォルニア州の消費者に対し、個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスを行う特定の事業者に対するデータ保護責任を課します。 2020年1月1日から施行。
+カリフォルニア州消費者プライバシー法（CCPA）は、カリフォルニア州の消費者に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。CCPA は 2020 年 1 月 1 日に施行されます。
 
-高いレベルでは、法律はカリフォルニア州に対して、以下の権利を含むいくつかの主要な権利を与える。
+概要としては、この法律は、カリフォルニアの人々に次の権利を含む、いくつかの主要な権利を提供します。
 
-* 情報の要求（データアクセス）
-* 個人情報の販売を停止する（第三者との情報の共有を停止する非常に広く定義された権利）
-* 個人情報を削除する
-* 個人情報が開示または販売されていることを知らせる
+* 要求情報（データアクセス）
+* 個人情報の販売のオプトアウト（サードパーティとの情報の共有をオプトアウトするために非常に広く定義された権利）
+* 個人情報を削除させる
+* 個人情報が公開または販売されたことを知る
 
-昨年ヨーロッパのプライバシー法(GDPR)の準備に忙しかったら、これらの権利の一部は身近なもので、あなたが行った作業の多くは転用できるかもしれません。
+昨年の欧州のプライバシー法（GDPR）の準備に取り組んでいた場合、これらの権利の一部に精通しており、おこなった作業の多くは再利用できる可能性があります。
 
-## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe Target と [!DNL Experience Platform Launch] のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] は、同意管理戦略をサポートするために、オ [!DNL Launch] プトイン機能をサポートしています。 Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. 詳しくは、「[Launch のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)」を参照してください。
+[!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Launch] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Launch] では、[!DNL Launch] 拡張機能インストール表示の [!UICONTROL GDPR オプトイン]ドロップダウンリストから「有効」を選択する必要があります。詳しくは、「[Launch のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)」を参照してください。
 
 次のコードスニペットに、`optinEnabled=true` 設定を有効にする方法を示します。
 
@@ -62,15 +59,15 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->オプトイン機能は、at.jsバージョン1.7.0およびat.js 2.1.0以降でサポートされています。 オプトインは、at.jsバージョン2.0.0および2.0.1ではサポートされていません。
+>オプトイン機能は、at.js バージョン 1.7.0 および at.js 2.1.0 以降でサポートされます。オプトインは、at.js バージョン 2.0.0 および 2.0.1 ではサポートされていません。
 >
->Using [!DNL Experience Platform Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide selected elements of your page prior to [!DNL Target] firing that are helpful to leverage as part of your consent strategy.
+>オプトインの管理には、[!DNL Experience Platform Launch] を使用することをお勧めします。[!DNL Launch] ではオプトインをきめ細かく制御でき、[!DNL Target] による処理が許可されるまでページ内の特定の要素を非表示にすることができるので、お客様の同意戦略の一環として役立ちます。
 
 オプトインを使用する場合に検討すべきシナリオには、以下の 3 つがあります。
 
-1. **[!DNL Target]タグ[!DNL Launch]は次を介して事前に承認され[!DNL Target]ています(または、以前に承認されたデータサブジェ**&#x200B;クト)。タグは [!DNL Target] 同意を得るために保持されず、期待どおりに機能します。
-1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が FALSE に設定されている：** タグは、お客様から同意が得られるまで実行されません。[!DNL Target]同意が得られるまでは、デフォルトコンテンツのみを使用できます。After consent is received, [!DNL Target] is called and personalized content is available to the data subject (visitor). 同意が得られるまではデフォルトコンテンツしか使用できないので、適切な戦略を採用することが重要です。例えば、スプラッシュページを使用してページの一部やパーソナライズされる可能性があるコンテンツを覆い隠すことなどを検討してください。これにより、データ主体（訪問者）のエクスペリエンスの一貫性を維持することができます。
-1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が TRUE に設定されている：** タグは、お客様から同意が得られるまで実行されません。[!DNL Target]同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、 タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。[!DNL Target]デフォルトでは、`bodyHiddenStyle` が `body { opacity:0;`} に設定されているので、HTML body タグは非表示になります。以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。This setup configures [!DNL Target] so that it hides the page content container only. [これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
+1. **[!DNL Target]タグが[!DNL Launch]を介して事前に承認されている（またはデータ主体が[!DNL Target]を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
+1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が FALSE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。同意が得られると [!DNL Target] が呼び出されて、パーソナライズされたコンテンツがデータ主体（訪問者）に対して提供されるようになります。同意が得られるまではデフォルトコンテンツしか使用できないので、適切な戦略を採用することが重要です。例えば、スプラッシュページを使用してページの一部やパーソナライズされる可能性があるコンテンツを覆い隠すことなどを検討してください。これにより、データ主体（訪問者）のエクスペリエンスの一貫性を維持することができます。
+1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。デフォルトでは、`bodyHiddenStyle` が `body { opacity:0;`} に設定されているので、HTML body タグは非表示になります。以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
 
    次に、3 つ目のシナリオで推奨されるページ設定を示します。
 
@@ -100,31 +97,31 @@ window.targetGlobalSettings = {
    #pageContent { opacity:0;}
    ```
 
-## プライバシーとデータ保護に関する規制FAQ {#concept_41F88DE95D2943178BEC382736B5C038}
+## プライバシーとデータ保護規制 FAQ {#concept_41F88DE95D2943178BEC382736B5C038}
 
-EUのGDPR(General Data Protection Regulation)、CCPA(California Consumer Privacy Act)、およびTargetに固有のその他の国際プライバシー要件に関するFAQです。
+欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）および Target に特有のその他の国際的なプライバシー要件に関するよくある質問です。
 
-### これらの規制に対するアドビのポリシーは何ですか。 {#section_A6849628D6524C80A6E16946DC5D25A9}
+### これらの規制に対するアドビの方針はどのようなものですか？{#section_A6849628D6524C80A6E16946DC5D25A9}
 
-[!DNL Adobe] データプロセッサとしての義務を既に満たしているか、実装中であるかのいずれかです。 デルは、設計上、セキュリティおよびプライバシーに関する認定コントロールの強力な基盤を持ち、2018年5月の締め切りに先立って製品の機能を強化しました。 大規模法人のお客様には、これらの機能強化を実装し、必要な方針や手順を更新するという責任があります。
+[!DNL Adobe] は、データ処理者としての義務を既に果たしているか、または履行中です。認定済みのセキュリティとプライバシー制御の強固な基盤を計画的に保持しており、2018 年 5 月の期限に先立って、製品の機能強化をおこないました。大規模法人のお客様には、これらの機能強化を実装し、必要な方針や手順を更新するという責任があります。
 
-### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each [!DNL Adobe Experience Cloud] solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### データ管理者となる私の会社は、使用する [!DNL Adobe Experience Cloud] の各ソリューションにおいて GDPR または CCPA 要求を送信する必要がありますか？{#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
-No, [!DNL Adobe] is providing a central way to help Data Controllers meet their GDPR and CCPA requirements. データ管理者は、各ソリューションで直接作業する必要はありません。
+いいえ、[!DNL Adobe] では、データ管理者が GDPR および CCPA の要件を満たすのに役立つ一元化された手段を提供します。データ管理者は、各ソリューションで直接作業する必要はありません。
 
-All GDPR and CCPA requests across [!DNL Experience Cloud] solutions, including [!DNL Target], will be made through a central Adobe API, currently called the GDPR API. The API will then complete the request across the Data Controller's [!DNL Experience Cloud] solution suite.
+[!DNL Target] を含む [!DNL Experience Cloud] ソリューションに関する GDPR および CCPA 要求は、一元化された Adobe API を介しておこわれます。現在、この API は GDPR API と呼ばれています。この API は、データ管理者の [!DNL Experience Cloud] ソリューションスイートを介して要求を完了します。
 
-### What information will [!DNL Adobe] enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
+### データ主体／ユーザーの要求に応じて [!DNL Adobe] で顧客が削除できる情報には何がありますか？{#section_4B51D00924EC4166B2442218B69214F0}
 
-The information related to an individual visitor within [!DNL Target] is contained within the [!DNL Target] Visitor Profile. [!DNL Target]お客様は、 を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除することができます。プロファイルデータストアの例については、「訪 [!DNL Target] 問者プロファイル」を [参照してくださ](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)い。
+個々の訪問者に関する [!DNL Target] 内の情報は、[!DNL Target] 訪問者プロファイルに格納されています。お客様は、[!DNL Target] を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除できます。プロファイルデータ [!DNL Target] ストアの例については、[訪問者プロファイル](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)を参照してください。
 
-個人を特定しない集約化されたあるいは匿名化されたデータ（レポートデータなど）または特定の個人に関連しないデータ（コンテンツデータなど）は、ユーザーからの削除要請の範疇外となります。
+個人を特定しない集計されたデータや匿名化されたデータ（レポートデータなど）、または特定の個人に関連しないデータ（コンテンツデータなど）は、ユーザーからの削除要求の対象外です。
 
-[!DNL Target]90 日間非アクティブであった の訪問者プロファイルは、特に作業をおこなわなくてもデフォルト設定で削除されます。
+90 日間非アクティブであった [!DNL Target] の訪問者プロファイルは、特に作業をおこなわなくてもデフォルト設定で削除されます。
 
-### What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for [!DNL Target]? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### [!DNL Target] で顧客が GDPR または CCPA のアクセスおよび削除要求をおこなうには、どのような ID を利用できますか？{#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
-[!DNL Target]顧客プロファイルを見つけるために がサポートするのは次の ID タイプです。
+顧客プロファイルを見つけるために [!DNL Target] がサポートするのは、次の ID タイプです。
 
 | ユーザー ID | 名前空間 ID タイプ | 名前空間 ID | 定義 |
 |--- |--- |--- |--- |
@@ -134,17 +131,17 @@ The information related to an individual visitor within [!DNL Target] is contain
 
 >[!NOTE]
 >
->Although [!DNL Target] supports both first-party and third-party cross-domain cookies, first-party [!DNL Target] cookies only are recommended for GDPR and CCPA.
+>[!DNL Target] では、ファーストパーティとサードパーティのクロスドメイン Cookie が両方ともサポートされていますが、GDPR および CCPA を確実に順守するには、ファーストパーティの [!DNL Target] Cookie のみを使用することをお勧めします。
 
-### How does [!DNL Target] handle consent management? {#section_C86BF5EE4FAA47039659850E7594A6BA}
+### [!DNL Target] はどのように同意の管理をおこないますか？{#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-GDPR and CCPA do not change when you need to get consent, but how you get it. それぞれのお客様の同意戦略は、データ収集と利用の手法およびプライバシーポリシーに左右されます。Consent management isn’t supported by and shouldn’t be achieved via [!DNL Target] for GDPR and CCPA.
+GDPR および CCPA では、いつ同意の取得が必要となるかに関する変更はありませんが、同意を得る方法が変更されます。それぞれのお客様の同意戦略は、データ収集と利用の手法およびプライバシーポリシーに左右されます。[!DNL Target] では、GDPR および CCPA に対する同意の管理をサポートしておらず、またそれを実現すべきではありません。
 
-[!DNL Adobe] does not currently offer a Consent Management Solution, but there are various tools developing in the market to address some of the new requirements. For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] では、現在、同意管理ソリューションは提供していませんが、市場では新たな要件のいくつかに対処するための様々なツールが開発されています。For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
 
-[!DNL Target] は、同意管理戦略のサポートを提供す [!DNL Launch] るために、オプトイン機能をサポートします。 Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. Using [!DNL Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide select elements of your page prior to the [!DNL Target] firing that might be helpful to leverage as part of your consent strategy.
+[!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Launch] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。オプトインの管理には、[!DNL Launch] を使用することをお勧めします。[!DNL Launch] ではオプトインをきめ細かく制御でき、[!DNL Target] による処理が許可されるまでページ内の特定の要素を非表示にすることができるので、お客様の同意戦略の一環として役立ちます。
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Also, see the *Adobe Target and Experience Platform Launch opt-in* section above.
+For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). また、前述の *Adobe Target と Adobe Launch のオプトイン*&#x200B;節も参照してください。
 
 ### AdobePrivacy.js は情報を GDPR API に送信しますか？{#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -152,13 +149,13 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### removeIdentities は何を削除するのですか？{#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities] が削除するのは、ブラウザーからの識別子&#x200B;*のみ*[!DNL Adobe]で、 ソリューションが実装したものかどうかによって決まります。
+[!DNL removeIdentities] が削除するのは、ブラウザーからの識別子&#x200B;*のみ*&#x200B;で、[!DNL Adobe] ソリューションが実装したものかどうかによって決まります。
 
-For example, [!DNL Target] deletes the cookies storing its IDs, but [!DNL Adobe Audience Manager] (AAM) does not delete the demdex ID that is stored in a third-party cookie.
+例えば、[!DNL Target] は ID を保存した Cookie を削除しますが、[!DNL Adobe Audience Manager]（AAM）はサードパーティ Cookie に保存された demdex ID は削除しません。
 
-### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Target GDPR または CCPA 要求には、どのような情報を含める必要がありますか？{#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-In addition to the requirements from Central Privacy Service, a valid GDPR or CCPA message for [!DNL Target] contains:
+Central Privacy Service からの要件に加えて、[!DNL Target] の有効な GDPR または CCPA メッセージには次のものが含まれます。
 
 ```
 { 
@@ -199,18 +196,18 @@ In addition to the requirements from Central Privacy Service, a valid GDPR or CC
 
 ### GDPR API を介した Target からの想定される応答には、どのような種類がありますか？{#section_F67263D2A72B4641A47CE36729CCAE8F}
 
-| リクエストのステータス | Target の応答メッセージ | シナリオ |
+| 要求のステータス | Target の応答メッセージ | シナリオ |
 |--- |--- |--- |
-| 処理中 | 処理中 | TargetはGDPRまたはCCPA要求を受け取り、処理中です。 |
-| 完了 | 該当なし - 会社のコンテキストは適用できません | GDPRまたはCCPA要求内のIMS IDは、どのTargetクライアントにもマッピングされません。<br>一部の会社には複数の IMS ID があることに注意してください。Target がプロビジョニングされた IMS ID を送信する必要があります。 |
-| 完了 | 該当なし - ユーザーのコンテキストがありません | 特定の訪問者またはデータサブジェクトに対してGDPRまたはCCPAリクエストで指定されたIDがTargetプロファイルストアに存在しない。<br>この結果は、Target でサポートされていない名前空間 ID タイプを送信しようとした場合も返されます（サポートされている ID については、上記を参照してください）。 |
-| エラー | エラーメッセージ（詳細はエラーのタイプによって異なります） | 要求されたデータサブジェクトのプロファイルの取得または削除中にエラーが発生しました。<br>アクセス要請のために Azure にアップロード中にエラーが発生しました。 |
+| 処理中 | 処理中 | Target は GDPR または CCPA 要求を受信し、処理中です。 |
+| 完了 | 該当なし - 会社のコンテキストは適用できません | GDPR または CCPA 要求内の IMS ID は、Target クライアントにマップされていません。<br>一部の会社には複数の IMS ID があることに注意してください。Target がプロビジョニングされた IMS ID を送信する必要があります。 |
+| 完了 | 該当なし - ユーザーのコンテキストがありません | GDPR または CCPA 要求で提供された特定の訪問者またはデータ主体の ID は、Target プロファイルストアにありません。<br>この結果は、Target でサポートされていない名前空間 ID タイプを送信しようとした場合も返されます（サポートされている ID については、上記を参照してください）。 |
+| エラー | エラーメッセージ（詳細はエラーのタイプによって異なります） | 要求されたデータ主体のプロファイルの取得または削除中にエラーが発生しました。<br>アクセス要求のために Azure にアップロード中にエラーが発生しました。 |
 
-### Target は、アクセスの要請に対して GDPR API にどのような応答を送信しますか？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### Target は、アクセスの要求に対して GDPR API にどのような応答を送信しますか？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
-Responses to access data requests contain a summary of the [!DNL Target] profile for the visitor in question. Note that this return is sent to the [!DNL Experience Cloud] GDPR API, which in turn sends Data Controllers a response.
+データアクセスの要求への応答には、該当する訪問者の [!DNL Target] プロファイルの概要が含まれます。この返信は [!DNL Experience Cloud] GDPR API に送られ、GDPR API がデータ管理者に応答を送信することに注意してください。
 
-A sample [!DNL Target] access API response could look like this:
+[!DNL Target] のアクセス API 応答の例を次に示します。
 
 ```
 { 
@@ -251,16 +248,16 @@ A sample [!DNL Target] access API response could look like this:
 
 | フィールド | 説明 |
 |--- |--- |
-| jobId | Indicates the GDPR or CCPA job ID from the Central GDPR API. |
+| jobId | Central GDPR API からの GDPR または CCPA のジョブ ID を示します。 |
 | imsOrgID | お客様の会社の一意識別子を提供します。 |
-| namespace | データソースとも呼ばれます。See "What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for Target?" を参照してください。 |
-| type | The type of ID for which you requested the GDPR or CCPA data access. Target はいくつかの ID タイプを受け付けます。一部は標準的なものですが、その他は Target に特化したものです。「GDPRまたはCCPAのアクセスおよびTargetの削除リクエストを完了する際に役立つIDは何ですか。」を参照してください。 を参照してください。 |
-| value | 名前空間／データソースの ID。「GDPRまたはCCPAのアクセスおよびTargetの削除リクエストを完了する際に役立つIDは何ですか。」を参照してください。 （許容値について） |
+| namespace | データソースとも呼ばれます。このトピックの「Target で顧客が GDPR または CCPA のアクセスおよび削除要求をおこなうには、どのような ID を利用できますか？」を参照してください。 |
+| type | GDPR または CCPA データアクセスを要求した ID のタイプ。Target はいくつかの ID タイプを受け入れます。一部は標準的なものですが、その他は Target に特有のものです。このトピックの「Target で顧客が GDPR または CCPA のアクセスおよび削除要求をおこなうには、どのような ID を利用できますか？」を参照してください。 |
+| value | 名前空間／データソースの ID。指定できる値については、「Target で顧客が GDPR または CCPA のアクセスおよび削除要求をおこなうには、どのような ID を利用できますか？」を参照してください。 |
 | 統合コード | Integration code は、データソースの分かりやすい名前で、データソース ID を使用するより簡単にデータソースの追跡をおこなうことができます。 |
 
-プロファイルを識別するために複数の値が提示される場合、有効な識別子それぞれに 1 つのプロファイルのファイルがあるということです。The profile file(s) are sent to the central GDPR Azure Blob through the GDPR Central API, in the format of [!DNL Target] Profile JSON response.
+プロファイルを識別するために複数の値が提示される場合、有効な識別子それぞれに 1 つのプロファイルのファイルがあるということです。プロファイルのファイルは、[!DNL Target] プロファイル JSON 応答の形で GDPR Central API を介して一元化された GDPR Azure Blob に送信されます。
 
-A sample [!DNL Target] Profile JSON could look like the following example:
+サンプルの [!DNL Target] プロファイル JSON は次の例のようになります。
 
 ```
 {"profileAttributes": 
@@ -280,15 +277,15 @@ A sample [!DNL Target] Profile JSON could look like the following example:
 
 | フィールド | 説明 |
 |--- |--- |
-| Sample_Parameter | Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the [!DNL Target] profile using the Profile Update API. 詳しくは、Targetにデータを取 [得する方法を参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。 |
+| Sample_Parameter | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して [!DNL Target] プロファイルにパラメーターがアップロードされました。詳しくは、[データを Target に送信する方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)を参照してください。 |
 | user.ReturnTimeOfDay | この標準的なフィールドには、ユーザーの最後の再訪問の日時が含まれています。 |
 | firstSessionStart | この標準的なフィールドには、ユーザーの初めてのセッションが開始された日時が含まれています。 |
-| user.sessionCountScript | Many pieces of information in the [!DNL Target] profile are uploaded or directly provided by the Data Controller. この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトで作ったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
+| user.sessionCountScript | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトでおこなったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
 
 >[!NOTE]
 >
->This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. 何が返ってくるかは、その特定の訪問者のプロファイルに含まれる情報に左右されます。
+>これは、説明目的で [!DNL Target] プロファイル JSON を短くしたものです。[!DNL Target] プロファイルのフィールドの多くは、標準的なものではありません。何が返ってくるかは、その特定の訪問者のプロファイルに含まれる情報に左右されます。
 
 ### Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] は、GDPRまたはCCPAの導入戦略の一部としてIPの不明化を使用する場合に、IPの不明化をサポートします。 For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
