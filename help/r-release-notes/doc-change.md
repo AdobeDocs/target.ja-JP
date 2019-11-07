@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 11 月 8 日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | adobeQAパラメーターのコードサンプルを追加しました。 |
 | 2019 年 11 月 6 日 | [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 「トラブルシューティング」の節のテキストを更新しました。 |
 | 2019年11月5日 | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のFAQのテキストを更新しました。"セレクターがないアクションなどの警告メッセージが表示されるのはなぜですか？" |
 | 2019年10月31日 | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新規トピックです。 |
