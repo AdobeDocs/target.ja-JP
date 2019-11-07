@@ -1,14 +1,11 @@
 ---
-description: at.js の各バージョンでの変更の詳細について説明します。
 keywords: at.js リリース;at.js バージョン
-seo-description: at.js の各バージョンでの変更の詳細について説明します。
-seo-title: at.js のバージョンの詳細
-solution: 'Target '
-subtopic: 導入
+description: at.js の各バージョンでの変更の詳細について説明します。
 title: at.js のバージョンの詳細
+subtopic: 導入
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
