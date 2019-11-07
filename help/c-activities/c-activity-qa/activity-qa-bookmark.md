@@ -1,14 +1,11 @@
 ---
-description: Adobe Target QAブックマークレットを使用してTargetにQAモードからのリリースを強制するのに役立つ情報です。
 keywords: qa、preview、ブックマークレット、リンクのプレビュー
-seo-description: Adobe Target QAブックマークレットを使用してTargetにQAモードからのリリースを強制するのに役立つ情報です。
-seo-title: Adobe targetのアクティビティQAブックマークレット
-solution: 'Target '
-title: アクティビティ QA ブックマークレット
+description: Adobe Target QAブックマークレットを使用してTargetにQAモードからのリリースを強制するのに役立つ情報です。
+title: Adobe targetのアクティビティQAブックマークレット
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
