@@ -1,14 +1,10 @@
 ---
-description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
 keywords: Recommendations
-seo-description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
-seo-title: 実装する前にAdobe Target のレポートソースとしての Adobe Analytics（A4T）
-solution: 'Target '
-title: 実装する前に
-topic: Premium
+description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
+title: 実装する前にAdobe Target のレポートソースとしての Adobe Analytics（A4T）
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
