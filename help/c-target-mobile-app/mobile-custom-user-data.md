@@ -1,13 +1,11 @@
 ---
-description: 場所やユーザーに関する追加情報を名前と値のペアとして Target に送信できます。
 keywords: モバイルアプリ、モバイルアプリ送信データ、targetモバイルアプリ、モバイルカスタムユーザーデータ、モバイルアプリのカスタムデータ
-seo-description: 場所やユーザーに関する追加情報を名前と値のペアとして Target に送信できます。
-seo-title: iOS - カスタムユーザーデータの送信
+description: 場所やユーザーに関する追加情報を名前と値のペアとして Target に送信できます。
 title: iOS - カスタムユーザーデータの送信
 topic: 'Target '
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
