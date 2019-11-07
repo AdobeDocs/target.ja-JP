@@ -1,45 +1,42 @@
 ---
-description: Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
-seo-description: Adobe Target Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
-seo-title: エクスペリエンスを作成
-solution: 'Target '
+description: Adobe Target Visual Experience Composer（VEC）は、エクスペリエンスターゲット設定（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 title: エクスペリエンスを作成
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # エクスペリエンスの作成{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+[!UICONTROL Visual Experience Composer]（VEC）は、[!UICONTROL エクスペリエンスターゲット設定]（XT）アクティビティのページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 
 1. 変更する要素を選択し、必要な変更をおこないます。
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   [XT アクティビティを作成する](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)際に、3 ステップのガイドによるワークフローの手順 1（[!UICONTROL エクスペリエンス]）で、[!UICONTROL すべての訪問者]オーディエンスを含むデフォルトの[!UICONTROL エクスペリエンス A] が表示されます。
 
    ![すべての訪問者オーディエンス](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
    今おこなった変更は、エクスペリエンス A に適用されます。以下の手順では、「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックして、追加のエクスペリエンスを作成します。
 
-   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。エクスペリエンスを変更するために要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
+   ページ上の要素にマウスポインターを置くと、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。エクスペリエンスを変更するために要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   [!DNL Target Classic] を使用してページに mbox を作成していた場合は、mbox 名を表示する要素として mbox が表示され、他の要素と同様に修正することができます。
 
    >[!NOTE]
    >
-   >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。JavaScriptを無効にして、VECを使用してこれらの要素を変更できます。
+   >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。このような要素を VEC を使用して変更するには、JavaScript を無効にします。
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. 追加のエクスペリエンスを作成するには、「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックします。
 
    ![エクスペリエンスのターゲットを追加リンク](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    [!UICONTROL オーディエンスを選択]ダイアログボックスが表示されます。オーディエンスに対してエクスペリエンスをターゲット設定するには、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   オーディエンスライブラリには、[!DNL Target] の一部として事前にビルドされた一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、[新しいオーディエンスを作成](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >メインページ以外のソースから画像を提供する場合（例えば、`akamai.net` 上でホストされている画像を `adobe.com` で提供する場合）、フロー図内のページのサムネールには画像が表示されません。
 
 1. （条件付き）XT アクティビティの作成または編集時に、オーディエンス／エクスペリエンスのペアをドラッグ＆ドロップして順番を変更します。
 
@@ -100,7 +97,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
 ## エクスペリエンスの複製
 
-XTアクティビティのエクスペリエンスをコピーして、最初からエクスペリエンスを再作成しなくても、そのエクスペリエンスに小さな変更を加えることができます。
+XT アクティビティでエクスペリエンスをコピーできるようになり、ゼロからエクスペリエンスを再作成しなくても、エクスペリエンスにマイナーな変更を加えられるようになりました。
 
 **[!UICONTROL エクスペリエンス]**&#x200B;ページ（3 ステップのガイドによるワークフローの最初の手順）で、縦並びの省略記号／**[!UICONTROL 複製]**&#x200B;をクリックします。
 
