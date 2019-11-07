@@ -1,14 +1,11 @@
 ---
-description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
 keywords: Target のトラブルシューティング;Target のトラブルシューティング
-seo-description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
-seo-title: Adobe targetのトラブルシューティング
-solution: 'Target '
-title: Target のトラブルシューティング
+description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
+title: Adobe targetのトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
