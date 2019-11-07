@@ -1,15 +1,12 @@
 ---
-description: Adobe Target の機能を理解するのに役立つ主要概念について説明します。
 keywords: 概要とリファレンス;アクティビティ
-seo-description: Adobe Target の機能を理解するのに役立つ主要概念について説明します。
-seo-title: Target の主要概念
-solution: 'Target '
-subtopic: 導入
+description: Adobe Target の機能を理解するのに役立つ主要概念について説明します。
 title: Target の主要概念
+subtopic: 導入
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
