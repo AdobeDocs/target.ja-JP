@@ -1,14 +1,11 @@
 ---
-description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成
-seo-description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
-seo-title: Target でのオーディエンスの構築
-solution: 'Target '
+description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
 title: Target でのオーディエンスの構築
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
