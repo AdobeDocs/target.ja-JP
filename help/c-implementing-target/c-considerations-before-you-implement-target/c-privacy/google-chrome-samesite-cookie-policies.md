@@ -1,15 +1,12 @@
 ---
-description: Target と、Google Chrome バージョン 76 以降で使用される SameSite IETF 標準に関する情報です。
-keywords: google;samesite;cookie;chrome 80;ietf
-seo-description: Adobe Target と、Google Chrome バージョン 80 で導入された SameSite IETF 標準に関する情報です。
-seo-title: Adobe targetとGoogleのSameSite cookieポリシー
-solution: 'Target '
+keywords: google;samesite;cookies;chrome 80;ietf
+description: Adobe Target と、Google Chrome バージョン 80 で導入された SameSite IETF 標準に関する情報です。
+title: Adobe targetとGoogleのSameSite cookieポリシー
 subtopic: 導入
-title: Google Chrome SameSite cookie ポリシー
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -36,7 +33,7 @@ cookieは、Webを閲覧する際のユーザーの操作性を高めるので�
 
 これは、サードパーティcookieを使用することで可能です。 この場合、サードパーティCookieがのブラウザーに保存され、ユ `platform.friends.com`ーザーに代わ `platform.friends.com` って友達アプリで投稿できるようになります。
 
-サードパーティcookieを使用しないでこの使用事例を実現する方法を少し考えると、ユーザーは多くの手動手順に従う必要があります。 まず、ユーザーはニュース記事へのリンクをコピーする必要があります。 2つ目は、ユーザーは別々にFriendsアプリにログインする必要がある場合です。 次に、「投稿を作成」ボタンをクリックします。 その後、ユーザーはテキストフィールドにリンクをコピーして貼り付け、最後に「投稿」をクリックします。 As you can see, third-party cookies immensely help the user experience as manual steps can be drastically reduced.
+サードパーティcookieを使用しないでこの使用事例を実現する方法を少し考えると、ユーザーは多くの手動手順に従う必要があります。 まず、ユーザーはニュース記事へのリンクをコピーする必要があります。 2つ目は、ユーザーは別々に友達アプリにログインする必要がある場合です。 次に、「投稿を作成」ボタンをクリックします。 その後、ユーザーはテキストフィールドにリンクをコピーして貼り付け、最後に「投稿」をクリックします。 ご覧の通り、サードパーティcookieは、手動の手順を大幅に減らすことができるので、ユーザーにとって非常に役立ちます。
 
 一般に、サードパーティcookieを使用すると、ユーザーがWebサイトを明示的に訪問する必要なく、ユーザーのブラウザーにデータを保存できます。
 
@@ -62,7 +59,7 @@ Strict、Lax または None の 3 つの異なる値を SameSite 属性に渡す
 | Lax | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. したがって、このオプションは、cookieがサードパーティで使用できる場合に使用されますが、CSRF攻撃による被害を防ぐセキュリティ上の利点が追加されている場合に使用されます。 |
 | None | この設定のCookieは、今日のCookieと同じように機能します。 |
 
-Keeping the above in mind, Chrome 80 introduces two independent settings for users: "SameSite by default cookies" and "Cookies without SameSite must be secure." これらの設定は、Chrome 80ではデフォルトで有効になります。
+上記の点に留意して、Chrome 80ではユーザーに対して2つの独立した設定が導入されています。"SameSite by default cookies"と"SameSiteを使用しないcookieはセキュリティで保護する必要があります。" これらの設定は、Chrome 80ではデフォルトで有効になります。
 
 ![SameSiteダイアログボックス](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
@@ -85,11 +82,11 @@ Google Chrome 80以降のユーザーが引き続き使 [!DNL Target] 用する�
 
 * **Target javaScript Library**:mbox.jsを使用している場合は、at.js 1。*x* または at.js 2.*xを設定します* 。
 * **SameSite by default cookies = Enabled**:ユーザーが「デフォルトで同じサイトのCookie」を有効にしている場合、その影響と、作業を続けるために必要な操作が [!DNL Target] あります。
-* **Cookies without SameSite must be secure = Enabled**: If your users have "Cookies without SameSite must be secure" enabled, how does it impact you and is there anything you need to do to have [!DNL Target] continue to work.
+* **SameSiteを使用しないcookieはセキュア=有効にする**:ユーザーが「同じサイトのないcookieはセキュリティで保護する必要があります」を有効にしている場合、その影響と、作業を続けるために必要な作業が何かあ [!DNL Target] りますか。
 
 | Target javaScriptライブラリ | SameSite by default cookies = 有効 | Cookies without SameSite must be secure = 有効 |
 | --- | --- | --- |
-| mbox.jsをファーストパーティcookieのみで使用する。 | 影響なし。 | No impact if you are not using cross-domain tracking. |
+| mbox.jsをファーストパーティcookieのみで使用する。 | 影響なし。 | クロスドメイントラッキングを使用しない場合は、影響はありません。 |
 | mbox.jsでクロスドメイントラッキングが有効になっている。 | 影響なし。 | サイトでHTTPSプロトコルを有効にする必要があります。<br>[!DNL Target] はサードパーティcookieを使用してユーザーを追跡し、Googleはサードパーティcookieに「保護」フラグを設定する `SameSite = None` 必要があります。 セキュアフラグを使用するには、サイトでHTTPSプロトコルを使用する必要があります。 |
 | at.js 1.*x* ファーストパーティcookieを使用する場合。 | 影響なし。 | クロスドメイントラッキングを使用しない場合は、影響はありません。 |
 | at.js 1.*x* クロスドメイントラッキングを有効にした場合。 | 影響なし。 | サイトでHTTPSプロトコルを有効にする必要があります。<br>[!DNL Target] はサードパーティcookieを使用してユーザーを追跡し、Googleはサードパーティcookieに「保護」フラグを設定する `SameSite = None` 必要があります。 セキュアフラグを使用するには、サイトでHTTPSプロトコルを使用する必要があります。 |
@@ -103,13 +100,13 @@ Google Chrome 80以降のユーザーが引き続き使 [!DNL Target] 用する�
 | --- | --- | --- |
 | mbox.jsをファーストパーティcookieのみで使用する。 | 影響なし。 | クロスドメイントラッキングを使用しない場合は、影響はありません。 |
 | mbox.jsでクロスドメイントラッキングが有効になっている。 | 影響なし。 | [!DNL Target] サーバ `SameSite = None` ーが呼び出されるときに、サードパーティcookieに保護フラグ [!DNL Target] が追加されます。 |
-| at.js 1.*x* ファーストパーティcookieを使用する場合。 | 影響なし。 | No impact if you are not using cross-domain tracking. |
+| at.js 1.*x* ファーストパーティcookieを使用する場合。 | 影響なし。 | クロスドメイントラッキングを使用しない場合は、影響はありません。 |
 | at.js 1.*x* クロスドメイントラッキングを有効にした場合。 | 影響なし。 | at.js 1.*x* クロスドメイントラッキングを有効にした場合。 |
 | at.js 2.*x* | 影響なし。 | 影響なし。 |
 
 ## HTTPSプロトコルを使用しない場合の影響は何ですか。
 
-影響を与える唯一の使用例は、mbox.jsまたはat.js 1でクロスドメイントラッキング機能 [!DNL Target] を使用している場合です。*x* ではサポートされていませんでした。Googleが必要とするHTTPSに移動しないと、Googleが使用するサードパーティcookieがGoogleによって破棄されるので、ドメイン間での実訪問者数が急増します。 また、サードパーティCookieが破棄されるので、ユーザーがドメイン間を移動する際に、そのユーザーに対して一貫性のあるパーソナライズされたエクスペリエンスを提供することはできません。 [!DNL Target] サードパーティCookieは、主に、所有するドメイン間を移動する単一のユーザーを識別するために使用されます。
+影響を与える唯一の使用例は、mbox.jsまたはat.js 1でクロスドメイントラッキング機能 [!DNL Target] を使用している場合です。*x* では、標準設定ではサポートされていません。Googleが必要とするHTTPSに移動しないと、Googleが使用するサードパーティcookieがGoogleによって破棄されるので、ドメイン間での実訪問者数が急増します。 また、サードパーティCookieが破棄されるので、ユーザーがドメイン間を移動する際に、そのユーザーに対して一貫性のあるパーソナライズされたエクスペリエンスを提供することはできません。 [!DNL Target] サードパーティCookieは、主に、所有するドメイン間を移動する単一のユーザーを識別するために使用されます。
 
 ## まとめ
 
