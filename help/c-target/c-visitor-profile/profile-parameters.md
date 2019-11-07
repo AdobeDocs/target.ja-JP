@@ -1,14 +1,11 @@
 ---
-description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 keywords: プロファイルスクリプト；プロファイルスクリプト属性；プロファイルスクリプト属性；プロファイルスクリプトのベストプラクティス；デバッグ；スクリプト；プロファイルスクリプト；属性；属性；パラメータ
-seo-description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
-seo-title: Adobe Target のプロファイル属性
-solution: 'Target '
-title: プロファイル属性
+description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
+title: Adobe Target のプロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -255,7 +252,7 @@ if (!user.get('threegroups')) {
 
 スクリプトプロファイルパラメーターは、「mbox/プロファイル」タブの下にあります。JavaScript の種類（文字列、整数、配列など）を返す Javascript プログラムを記述できます。
 
-### スクリプトプロファイルパラメーターの例
+### スクリプトプロファイルパラメーターの例 {#examples}
 
 **名前：***user. recency*
 
@@ -281,7 +278,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-頻度と呼ばれる変数を作成し、以前の値、または以前の値がない場合は 0 に初期化します。mbox 名が `orderThankyouPage` の場合、増分された値が返されます。
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. mbox 名が `orderThankyouPage` の場合、増分された値が返されます。
 
 **名前：***user.monetaryValue*
 
@@ -293,6 +290,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 `monetaryValue` と呼ばれる変数を作成し、特定の訪問者の現在の値を検索します（または以前の値がない場合は 0 に設定します）。mbox 名が `orderThankyouPage` の場合、以前の値と mbox に渡される `orderTotal` パラメーターの値を追加することによって、新しい金額が返されます。
+
+**** 名前：adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+アクティビティQAのユーザ `adobeQA` ーを追跡するために呼び出される変 [数を作成します](/help/c-activities/c-activity-qa/activity-qa.md)。
+
 
 ### オブジェクトとメソッド
 
