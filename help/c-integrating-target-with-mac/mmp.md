@@ -1,14 +1,11 @@
 ---
-description: Experience Cloud オーディエンスによって、Adobe Experience Cloud の複数のソリューションが Web サイトの訪問者に関する情報を交換、共有し、各ソリューションで同じデータを使用することが可能になります。
 keywords: Experience Cloud オーディエンス;オーディエンス
-seo-description: Experience Cloud オーディエンスによって、Adobe Experience Cloud の複数のソリューションが Web サイトの訪問者に関する情報を交換、共有し、各ソリューションで同じデータを使用することが可能になります。
-seo-title: Experience Cloud オーディエンス
-solution: 'Target '
+description: Experience Cloud オーディエンスによって、Adobe Experience Cloud の複数のソリューションが Web サイトの訪問者に関する情報を交換、共有し、各ソリューションで同じデータを使用することが可能になります。
 title: Experience Cloud オーディエンス
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
