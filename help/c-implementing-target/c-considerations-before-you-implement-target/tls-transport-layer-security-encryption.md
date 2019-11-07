@@ -1,14 +1,11 @@
 ---
-description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 keywords: TLS;TLS 1.0;トランスポート層セキュリティ;暗号化
-seo-description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
-seo-title: TLS（Transport Layer Security）暗号化の変更
-solution: 'Target '
+description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 title: TLS（Transport Layer Security）暗号化の変更
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
