@@ -1,14 +1,10 @@
 ---
 description: 自動パーソナライゼーションアクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
-seo-description: 自動パーソナライゼーションアクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
-seo-title: Target の自動パーソナライゼーションオファー
-solution: Target,Analytics
 title: Target の自動パーソナライゼーションオファー
-title-outputclass: Premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
