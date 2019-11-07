@@ -1,15 +1,12 @@
 ---
-description: このトピックでは、Analytics を Target のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
 keywords: Analytics トラッキングサーバー;A4T;Analytics セグメント;レポートスイート;誤ったデータ;親なし;sdid;VisitorAPI.js;mboxMCSDID;ファントム;未指定
-seo-description: このトピックでは、Analytics を Target のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
-seo-title: Analytics と Target の統合（A4T）のトラブルシューティング
-solution: 'Target '
-subtopic: 多変量分析テスト
+description: このトピックでは、Analytics を Target のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
 title: Analytics と Target の統合（A4T）のトラブルシューティング
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * [!DNL Target] の分類が完全に処理されていない。
 
-   Classification generally takes between 24 and 72 hours to classify reports after the first save.
+   レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかります。
 
 * レポートスイートにはデータが全く含まれていないが、[!DNL Target] はヒットの分類を試行した。[!DNL Target] は最初のヒットが発生するまで、データの分類をおこなうことができません。
 
@@ -36,7 +33,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 >[!NOTE]
 >
->新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。Remember that it generally takes between 24 and 72 hours to classify reports after the first save.
+>新しいアクティビティが追加されてその分類が完了していないことが原因で、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかりることに注意してください。
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
