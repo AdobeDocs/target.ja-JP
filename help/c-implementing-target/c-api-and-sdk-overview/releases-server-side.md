@@ -1,13 +1,10 @@
 ---
-description: Adobe targetのサーバー側APIおよびSDKに関するリリースノート
 keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side;api;delivery api
-seo-description: Adobe targetのサーバー側APIに関するリリースノートです。
-seo-title: Adobe targetのサーバー側APIに関するリリースノートです。
-solution: Target
-title: リリースノート — Targetサーバー側API
+description: Adobe targetのサーバー側APIに関するリリースノートです。
+title: Adobe targetのサーバー側APIに関するリリースノートです。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
