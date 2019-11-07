@@ -1,15 +1,12 @@
 ---
-description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
 keywords: 目標と設定;目的;優先度;期間
-seo-description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
-seo-title: アクティビティの設定
-solution: 'Target '
-subtopic: 多変量分析テスト
+description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
 title: アクティビティの設定
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
