@@ -1,14 +1,11 @@
 ---
-description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
 keywords: エクスペリエンスのターゲット設定;ランディングページテスト
-seo-description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
-seo-title: Visual Experience Composer で使用される要素セレクター
-solution: 'Target '
+description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
 title: Visual Experience Composer で使用される要素セレクター
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
