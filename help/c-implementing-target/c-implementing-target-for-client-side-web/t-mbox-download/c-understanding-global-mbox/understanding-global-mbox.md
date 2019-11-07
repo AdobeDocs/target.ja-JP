@@ -1,15 +1,12 @@
 ---
-description: グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
 keywords: グローバル mbox;mbox.js の実装;at.js の実装
-seo-description: グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
-seo-title: グローバル mbox について
-solution: 'Target '
+description: グローバルmboxに関する情報です。グローバルmboxとは、Adobe target実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
+title: グローバル mbox について
 subtopic: 導入
-title: グローバル mbox について（Adobe Target）
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
