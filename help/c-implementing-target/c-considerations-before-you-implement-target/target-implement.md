@@ -1,13 +1,11 @@
 ---
-description: Web ページで Target ライブラリ（at.js または mbox.js）を参照し、Target を実装します。
 keywords: document.write;Target;実装;Target の実装;DTM;Dynamic Tag Management;at.js;mbox.js;target.js;mbox
-seo-description: Web ページで Target ライブラリ（at.js または mbox.js）を参照し、Target を実装します。
-seo-title: Target JavaScript ライブラリについて
+description: Web ページで Target ライブラリ（at.js または mbox.js）を参照し、Target を実装します。
 title: Target JavaScript ライブラリについて
 topic: 'Target '
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
