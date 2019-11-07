@@ -1,13 +1,10 @@
 ---
-description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 keywords: セキュリティ;セキュリティ対策
-seo-description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
-seo-title: Target のセキュリティの概要
-solution: 'Target '
+description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 title: Target のセキュリティの概要
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
