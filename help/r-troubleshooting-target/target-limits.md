@@ -1,14 +1,11 @@
 ---
-description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 keywords: 文字制限;mbox パラメーター;バッチ配信 api;プロファイルパラメーター;制限;組み込みプロファイル;最大;制限;制約;文字;ベストプラクティス;orderId;orderTotal;mbox3rdPartyId;カテゴリ;categoryId
-seo-description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
-seo-title: 制限
-solution: 'Target '
+description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: 制限
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
