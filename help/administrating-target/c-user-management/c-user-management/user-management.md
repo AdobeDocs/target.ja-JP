@@ -1,15 +1,12 @@
 ---
-description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
 keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
-seo-description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
-seo-title: ユーザー
-solution: 'Target '
-subtopic: 導入
+description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
 title: ユーザー
+subtopic: 導入
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
