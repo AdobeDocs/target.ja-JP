@@ -1,16 +1,11 @@
 ---
-description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
-seo-description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
-seo-title: Recommendations と電子メールの統合
-solution: 'Target '
+description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
 title: Recommendations と電子メールの統合
-title-outputclass: premium
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
