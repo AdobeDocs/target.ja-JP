@@ -1,14 +1,11 @@
 ---
-description: オーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
 keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-seo-description: Adobe Target でオーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
-seo-title: Adobe Target のモバイルオーディエンス
-solution: 'Target '
-title: モバイル
+description: Adobe Target でオーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
+title: Adobe Target のモバイルオーディエンス
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->モバイル SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、[at.js バージョン 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
+>Mobile SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、[at.js バージョン 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
 
 複数のモバイルデバイスプロパティを選択できます。OR を使用して複数の選択肢を結合できます。
 
