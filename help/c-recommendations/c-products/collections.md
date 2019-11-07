@@ -1,16 +1,10 @@
 ---
-description: コレクションは、レコメンデーションに使用できる商品または品目のセットです。
 keywords: コレクション;ターゲット設定
-seo-description: コレクションは、レコメンデーションの対象となるAdobe targetの製品または品目のセットです。
-seo-title: Adobe targetのコレクション
-solution: 'Target '
-title: コレクション
-title-outputclass: premium
-topic: Premium
+description: Adobe Target のコレクションは、レコメンデーションに使用できる商品または品目のセットです。
+title: Adobe Target のコレクション
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 コレクションは、製品や論理的な格納場所を整理するために使用できます。例えば、ある品目が一部の地域のみで利用可能な場合、訪問者の地域で利用できない品目を除いたコレクションを作成することができます。また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+レコメンデーション内の各条件に対して生成される[代替レコメンデーション](/help/c-recommendations/c-algorithms/backup-recs.md)でもこのコレクションが使用されるので、コレクション内の品目だけが代替レコメンデーションに含まれます。コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
 
 コレクションは、各条件が実行されるたびに、再構築または更新されます。
 
@@ -65,9 +59,9 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## アドバンス検索を使用したコレクションの作成
+## 詳細検索を使用したコレクションの作成
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+また、[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)ページ（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）の詳細検索を使用してコレクションを作成することもできます。
 
 ![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -77,9 +71,9 @@ You can also create collections using Advanced Search on the [Catalog Search](/h
 >
 >詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にしてコレクションを作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。
 
-## トレーニングビデオ：Recommendationsでのコレクションと除外の作成(7:05)
+## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05）
 
-このビデオでは、次の情報を提供しています。
+このビデオには、次の情報が含まれています。
 
 * コレクションの作成
 * 除外の作成
