@@ -1,16 +1,10 @@
 ---
-description: 'Recommendationsオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのアクティビティをプレビューして結果が使用可能であることを確認します。 Target Recommendationsでは、レコメンデーションをプレビューする複数の方法が用意されています。 '
 keywords: Recommendations；オファー；プレビュー；起動
-seo-description: 'Adobe Target Recommendationsオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのアクティビティをプレビューして結果が利用可能であることを確認します。 Target Recommendationsでは、レコメンデーションをプレビューする複数の方法が用意されています。 '
-seo-title: 'Adobe Target Recommendationsオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのアクティビティをプレビューして結果が利用可能であることを確認します。 Target Recommendationsでは、レコメンデーションをプレビューする複数の方法が用意されています。 '
-solution: 'Target '
+description: 'Adobe Target Recommendationsオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのアクティビティをプレビューして結果が利用可能であることを確認します。 Target Recommendationsでは、レコメンデーションをプレビューする複数の方法が用意されています。 '
+title: 'Adobe Target Recommendationsオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのアクティビティをプレビューして結果が利用可能であることを確認します。 Target Recommendationsでは、レコメンデーションをプレビューする複数の方法が用意されています。 '
 subtopic: Recommendations
-title: Recommendationsアクティビティのプレビューと起動
-title-outputclass: premium
-topic: Premium
-badge: Premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
