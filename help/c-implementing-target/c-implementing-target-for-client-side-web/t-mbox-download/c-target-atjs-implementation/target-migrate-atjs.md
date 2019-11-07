@@ -1,14 +1,11 @@
 ---
-description: mbox.js から at.js への移行は、簡単なプロセスです。
 keywords: Target;at.js;at.js への移行;準備;at.js の監査;at.js の統合
-seo-description: mbox.js から at.js への移行は、簡単なプロセスです。
-seo-title: mbox.js から at.js に移行する方法
-solution: 'Target '
+description: mbox.js から at.js への移行は、簡単なプロセスです。
 title: mbox.js から at.js に移行する方法
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
