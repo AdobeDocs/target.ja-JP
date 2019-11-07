@@ -1,14 +1,12 @@
 ---
-description: Adobe Analytics に基づいたアクティビティを Adobe Target 内で作成する場合（A4T）のユーザーアカウントの要件です。
 keywords: レポートソースとしてのAnalytics;a4t;A4T
-seo-description: Adobe Analytics に基づいたアクティビティを Adobe Target 内で作成する場合（A4T）のユーザーアカウントの要件です。
-seo-title: ユーザー権限の要件
-solution: Target,Analytics
+description: Adobe Analytics に基づいたアクティビティを Adobe Target 内で作成する場合（A4T）のユーザーアカウントの要件です。
 title: ユーザー権限の要件
+solution: Target,Analytics
 topic: Reports and Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Complete the following tasks in the [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com):
+[!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com) で、次の作業を実行します。
 
 ### ソリューションアカウントを Adobe ID にリンクします。
 
@@ -40,7 +38,7 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-次のタスクを完成させます。[!DNL Adobe Analytics]
+次の作業を実行します。[!DNL Adobe Analytics]
 
 ### Analytics レポートスイートへのアクセスの設定
 
