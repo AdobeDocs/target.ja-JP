@@ -1,14 +1,11 @@
 ---
 description: 同じページにコンテンツを表示するのではなく、訪問者を別のページに送る場合に、このオプションを使用します。
-seo-description: 同じページにコンテンツを表示するのではなく、訪問者を別のページに送る場合に、このオプションを使用します。
-seo-title: URL にリダイレクト
-solution: 'Target '
-subtopic: 多変量分析テスト
 title: URL にリダイレクト
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -33,7 +30,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 リダイレクトオファーを作成する手順は次のとおりです。
 
 1. エクスペリエンスを作成します。
-1. マウスでエクスペリエンスの上にカーソルを移動し、「URL にリダイレクト」アイコン（![](assets/icon_redirect_url.png)）をクリックします。
+1. エクスペリエンスの上にマウスポインターを置いて、「URL にリダイレクト」アイコン（![](assets/icon_redirect_url.png)）をクリックします。
 
    ![](assets/exp_actions.png)
 
