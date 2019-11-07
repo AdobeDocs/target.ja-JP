@@ -1,14 +1,10 @@
 ---
-description: モバイルビューポートを使用すると、様々な画面サイズでのアクティビティの表示をプレビューできます。
 keywords: レスポンシブ;モバイルビューポート;ビューポート;デバイス;モバイルの例;iPhone
-seo-description: モバイルビューポートを使用すると、様々な画面サイズでのアクティビティの表示をプレビューできます。
-seo-title: レスポンシブエクスペリエンスのためのモバイルビューポート
-solution: 'Target '
+description: モバイルビューポートを使用すると、様々な画面サイズでのアクティビティの表示をプレビューできます。
 title: レスポンシブエクスペリエンスのためのモバイルビューポート
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
