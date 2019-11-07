@@ -1,14 +1,10 @@
 ---
-description: ライブラリ内のアセットで実行できるタスクは多数あります。
 keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
-seo-description: ライブラリ内のアセットで実行できるタスクは多数あります。
-seo-title: ライブラリ内のコンテンツの操作
-solution: 'Target '
+description: ライブラリ内のアセットで実行できるタスクは多数あります。
 title: ライブラリ内のコンテンツの操作
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
