@@ -1,13 +1,10 @@
 ---
-description: mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
 keywords: 高度な mbox.js 設定;クライアント;サーバードメイン;xdomain;圧縮レベル;クライアントセッション id サポート;secureOnly;クライアント pc id サポート;ページを渡す;参照 url;トラフィックレベル;トラフィックの期間;mboxParameters() 関数本体;mboxSupported() 関数本体;mboxCookieDomain() 関数本体;Extra JavaScript;SiteCatalyst プラグイン;自己解凍型 JavaScript として mbox.js を取得;ちらつき;本文非表示;本文を隠す
-seo-description: mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
-seo-title: mbox.js を設定
-solution: 'Target '
+description: mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
 title: mbox.js を設定
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
