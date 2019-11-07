@@ -1,14 +1,11 @@
 ---
+keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate
 description: Adobe Client Care と連携しながら Adobe Target で CNAME（正規名）サポートを実装する方法について説明します。
-keywords: ClientCare;CNAME;証明書プログラム;正規名;Cookie;証明書;amc;adobe管理証明書
-seo-description: Adobe Client Care と連携しながら Adobe Target で CNAME（正規名）サポートを実装する方法について説明します。
-seo-title: CNAME と Adobe Target
-solution: 'Target '
 title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,4 +28,4 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. これらのCNAMESが導入されると、アドビはDigiCertと連携して、アドビの実稼働サーバーに証明書を購入してインストールします。
 
-1. 前述のタスクを完了したら、at.jsの新しいCNAME `serverDomain` にを更新する必要があります。
+1. ここまでのタスクを完了したら、`serverDomain` を at.js の新しい CNAME に更新する必要があります。
