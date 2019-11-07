@@ -1,15 +1,12 @@
 ---
-description: Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
 keywords: 概要およびリファレンス
-seo-description: Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
-seo-title: プライバシー
-solution: 'Target '
-subtopic: 導入
+description: Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
 title: プライバシー
+subtopic: 導入
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
