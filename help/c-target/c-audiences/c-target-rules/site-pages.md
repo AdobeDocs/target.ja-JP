@@ -1,14 +1,11 @@
 ---
-description: 指定したページを閲覧している、または指定した mbox パラメーターが設定されている訪問者をターゲットにします。
 keywords: site pages、targetサイトページ、ターゲット設定、current page、target現在のページ、前のページ、target前のページ、ランディングページ、targetランディングページ、mbox、ターゲットmbox
-seo-description: Adobe targetを使用して、特定のページにいる訪問者や特定のmboxパラメーターがある訪問者をターゲットに設定できます。
-seo-title: Adobe targetのサイトページ
-solution: 'Target '
-title: サイトのページ
+description: Adobe targetを使用して、特定のページにいる訪問者や特定のmboxパラメーターがある訪問者をターゲットに設定できます。
+title: Adobe targetのサイトページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
