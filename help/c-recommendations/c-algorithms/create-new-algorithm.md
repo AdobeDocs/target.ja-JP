@@ -1,15 +1,9 @@
 ---
-description: 条件は、Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
-seo-description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
-seo-title: 条件の作成
-solution: 'Target '
+description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
 title: 条件の作成
-title-outputclass: premium
-topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -106,7 +100,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
    インクルージョンルールによって、レコメンデーションに含める品目を決めることができます。使用できるオプションは、業種によって異なります。
 
-   詳しくは、[インクルージョンルール](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   詳しくは、[インクルージョンルール](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)を参照してください。
 
 1. 「**[!UICONTROL 属性の重み付け]**」を設定します。
 
