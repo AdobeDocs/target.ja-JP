@@ -1,14 +1,11 @@
 ---
-description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 keywords: トラブルシューティング、よくある質問、FAQ、FAQ、ターゲット、オーディエンス
-seo-description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
-seo-title: ターゲットとオーディエンスに関する FAQ
-solution: 'Target '
+description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
