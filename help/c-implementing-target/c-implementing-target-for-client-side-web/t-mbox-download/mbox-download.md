@@ -1,15 +1,12 @@
 ---
-description: Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
 keywords: 実装;Mbox; mbox.js のダウンロード;api のダウンロード;mbox.js api
-seo-description: Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
-seo-title: mbox.js の実装
-solution: 'Target '
-subtopic: 導入
+description: Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
 title: mbox.js の実装
+subtopic: 導入
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
