@@ -1,14 +1,11 @@
 ---
-description: at.js に関するよくある質問への回答を紹介します。
 keywords: at.js の FAQ;at.js に関するよくある質問;FAQ;ちらつき;ローダー;ページローダー;クロスドメイン;ファイルサイズ;ファイルのサイズ;x-domain;at.js と mbox.js;x のみ;クロスドメイン;Safari;シングルページアプリ;セレクターが見つかりません;セレクター;シングルページアプリケーション;tt.omtrdc.net;SPA;Adobe Experience Manager;AEM;IP アドレス;httponly;HttpOnly;Secure;IP;Cookie ドメイン
-seo-description: Adobe Target の at.js JavaScript ライブラリに関するよくある質問への回答を紹介します。
-seo-title: Adobe Target の at.js に関するよくある質問
-solution: 'Target '
+description: Adobe Target の at.js JavaScript ライブラリに関するよくある質問への回答を紹介します。
+title: Adobe Target の at.js に関するよくある質問
 subtopic: 導入
-title: at.js に関するよくある質問
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -254,7 +251,7 @@ at.js は、ページのレンダリングをブロックしません。ユー�
 
 ## 完全にキャッシュされたページは上記のシナリオにどのように影響しますか？ページ上の他のコンテンツが読み込まれた後は、アクティビティのコンテンツがよりはっきりと見えるようになるのですか？ {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-ユーザーの場所から近くても Target Edge からは遠い CDN にページがキャッシュされている場合、そのユーザーは多少の遅延を感じる可能性があります。ただし、Target Edge は世界中に分散されているので、ほとんどの場合、これは問題になりません。
+ユーザーの場所から近くても Target Edge からは遠い CDN にページがキャッシュされている場合、そのユーザーは多少の遅延を感じる可能性があります。ただし、Target エッジは世界中に分散されているので、ほとんどの場合、これは問題になりません。
 
 ## ヒーロー画像が表示された後に、少し遅れてスワップアウトされる可能性はありますか？ {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
