@@ -1,16 +1,11 @@
 ---
-description: Automated Personalization（AP）アクティビティでのレポートグループの使用に関する情報。
-keywords: 自動パーソナライゼーション、オファー、レポート、グループ；レポートグループ
-seo-description: Adobe targetでの自動パーソナライゼーション(AP)アクティビティでのレポートグループの使用に関する情報です。
-seo-title: Adobe targetの自動パーソナライゼーション(AP)アクティビティのレポートグループを提供します。
-solution: 'Target '
-title: Automated Personalization のオファーレポートグループ
-title-outputclass: Premium
+keywords: 自動パーソナライゼーション；オファー；レポート；グループ；レポートグループ
+description: Adobe targetでの自動パーソナライゼーション(AP)アクティビティでのレポートグループの使用に関する情報です。
+title: Adobe targetの自動パーソナライゼーション(AP)アクティビティのレポートグループを提供します。
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,7 +36,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
    ![](assets/ap_manage_content.png)
 
 1. 「[!UICONTROL Manage Content]」ダイアログボックス上部の「**[!UICONTROL Offers]**」タブをクリックします。
-1. （条件付き）特定のオファーにカーソルを合わせてから **[!UICONTROL Reporting Group]** のフォルダーアイコンをクリックして、特定のエクスペリエンスをレポートグループに追加します。
+1. （条件付き）特定のオファーにマウスポインターを置いてから **[!UICONTROL Reporting Group]** のフォルダーアイコンをクリックして、特定のエクスペリエンスをレポートグループに追加します。
 
    ![](assets/ap_manage_content_2.png)
 
