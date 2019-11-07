@@ -1,15 +1,12 @@
 ---
-description: .csv 形式のデータをダウンロードして、Excel、Access またはその他のデータ分析プログラムにすばやくインポートできます。
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-seo-description: .csv形式のデータをダウンロードして、Adobe targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
-seo-title: Adobe targetを使用したCSVファイル内のデータのダウンロード
-solution: 'Target '
+description: .csv形式のデータをダウンロードして、Adobe targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
+title: Adobe targetを使用したCSVファイル内のデータのダウンロード
 subtopic: 多変量分析テスト
-title: CSV ファイル内のデータのダウンロード
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -85,7 +82,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 次の情報が「ダウンロード」オプションに適用されます。
 
-* You can download both reports for A/B Test, Automated Personalization, Experience Targeting, and Multivariate activities. Recommendation アクティビティの成功指標レポートはダウンロードできません。
+* A/Bテスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用に、両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
 * 「ダウンロード」オプションは、Target バージョン 15.7.1（2015 年 7 月）より前のバージョンを使用して作成された A/B およびエクスペリエンスターゲット設定のアクティビティでは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * Target レポート UI で適用されたオーディエンスは、ダウンロードレポートに引き継がれません。
