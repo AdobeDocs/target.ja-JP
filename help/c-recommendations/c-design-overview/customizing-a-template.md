@@ -1,16 +1,10 @@
 ---
-description: オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-seo-description: オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
-seo-title: Velocity を使用したデザインのカスタマイズ
-solution: 'Target '
+description: オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
 title: Velocity を使用したデザインのカスタマイズ
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -37,7 +31,7 @@ Velocity 変数名は、次の文字に制限されます。
 
 * アルファベット（a-z、A-Z）
 * 数字（0-9）
-* ハイフン ( - )
+* ハイフン（-）
 * アンダースコア（_）
 
 次の変数は Velocity 配列として利用できるので、繰り返し処理したり、インデックスで参照したりできます。
