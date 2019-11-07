@@ -1,15 +1,12 @@
 ---
-description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Target の設定について説明します。
 keywords: 実装;実装する;設定;セットアップ
-seo-description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
-seo-title: Adobe Target の管理
-solution: 'Target '
+description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
+title: Adobe Target の管理
 subtopic: 導入
-title: Target の管理
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
