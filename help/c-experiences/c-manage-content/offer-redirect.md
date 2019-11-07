@@ -1,14 +1,11 @@
 ---
-description: リダイレクトオファーを使用すると、ブラウザーで新しいページへのリダイレクトがおこなわれます。
 keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-seo-description: ブラウザーが新しいページにリダイレクトする原因となるAdobe targetのリダイレクトオファーに関する情報です。
-seo-title: リダイレクトオファーの作成
-solution: 'Target '
+description: ブラウザーが新しいページにリダイレクトされる Adobe Target のリダイレクトオファーについて説明します。
 title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
