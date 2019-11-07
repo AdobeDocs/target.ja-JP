@@ -1,15 +1,12 @@
 ---
-description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
 keywords: A4T;分析;ターゲットの分析;analytics レポートソース;ターゲットのレポートソースとしての adobe analytics
-seo-description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
-seo-title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
-solution: 'Target '
-subtopic: 統合
+description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
 title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
+subtopic: 統合
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
