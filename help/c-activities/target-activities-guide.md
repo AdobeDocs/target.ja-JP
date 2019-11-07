@@ -1,14 +1,11 @@
 ---
-description: Adobe Target の様々なアクティビティタイプ（Recommendations を除く）について説明した、インタラクティブ PDF をダウンロードできます。
 keywords: アクティビティのガイド;アクティビティ;アクティビティのタイプ;アクティビティの操作
-seo-description: Adobe Target の様々なアクティビティタイプ（Recommendations を除く）について説明した、インタラクティブ PDF をダウンロードできます。
-seo-title: Target のアクティビティのタイプ
-solution: 'Target '
+description: Adobe Target の様々なアクティビティタイプ（Recommendations を除く）について説明した、インタラクティブ PDF をダウンロードできます。
 title: Target のアクティビティのタイプ
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
