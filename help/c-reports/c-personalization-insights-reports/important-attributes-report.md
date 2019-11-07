@@ -1,15 +1,10 @@
 ---
-description: 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 keywords: ターゲット設定;AP レポート;自動パーソナライゼーションレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
-seo-description: 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
-seo-title: 重要な属性レポート
-solution: 'Target '
+description: 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 title: 重要な属性レポート
-title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
