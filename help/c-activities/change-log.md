@@ -1,13 +1,10 @@
 ---
 description: 変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
-seo-description: 変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
-seo-title: Adobe targetのアクティビティ変更ログ
-solution: Target
 title: Adobe targetのアクティビティ変更ログ
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
