@@ -1,29 +1,23 @@
 ---
-description: フィードを使用して Recommendations にインポートされたエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
-keywords: レコメンデーションフィード;フィード;SAINT;ftp;csv；分類；分析分類
-seo-description: フィードを使用して、Adobe Recommendationsにエンティティを読み込みます。 エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
-seo-title: フィード
-solution: 'Target '
+keywords: recommendationsフィード；フィード；SAINT;ftp;csv；分類；分析分類
+description: フィードを使用して Adobe Recommendations に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
 title: フィード
-title-outputclass: premium
-topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
-badge: premium
 translation-type: tm+mt
-source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) フィード{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. エンティティは、CSVファイル、Googleによる製品検索のフィード形式およびAdobe Analytics製品分類を使用して送信できます。
+フィードを使用して [!DNL Recommendations] に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。
 
 ## フィードの概要 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 フィードによって、[エンティティ](/help/c-recommendations/c-products/products.md)を渡したり、ページ上で使用できない、またはページから直接送信するのは安全でない情報（利益幅や売上原価など）を mbox データに追加したりできます。
 
-You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. 各品目のデータのうち、選択した部分が、テンプレート表示やレコメンデーションの制御に使用できるようになります。
+[!DNL Target] の製品分類ファイル、または Google による製品検索のファイルのどの列を [!DNL Recommendations] サーバーに送信するかを選択できます。各品目のデータのうち、選択した部分が、テンプレート表示やレコメンデーションの制御に使用できるようになります。
 
 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
@@ -31,14 +25,14 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 ![フィードページ](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-フィードページには、次の列が含まれます。
+フィードページには、次の列が含まれています。
 
-* **名前**:作成中に指定されたフィードの名前。 フィードの名前を編集するには、フィード自体を編集する必要があります。新しい名前で保存すると、フィードは更新されます。
-* **タイプ**:タイプに [は、](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)CSV [、](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)Google Product Feed [、](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)Analytics Classificationsが含まれます。
-* **ステータス**:フィードの現在のステー [タス](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **スケジュール**:フィードの更新スケジュールを表示します。日別、週別、2週間ごと、なし。
-* **項目**:フィード内の項目数を表示します。
-* **最終更新日**:フィードが最後に更新された日時と、フィードを更新した人の名前が表示されます。 If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **名前**：作成中に指定されたフィードの名前。フィードの名前を編集するには、フィード自体を編集する必要があります。新しい名前で保存すると、フィードは更新されます。
+* **タイプ**：タイプには、[CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[Google 製品フィード](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)および [Analytics 分類](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)が含まれます。
+* **ステータス**：フィードの現在の[ステータス](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
+* **スケジュール**：フィード更新スケジュールを表示します（毎日、毎週、2 週間ごと、なし）。
+* **項目**：フィード内の項目数を表示します。
+* **最終更新日**：フィードが最後に更新された日時とフィードを更新した人物の名前を表示します。[!UICONTROL 最終更新日]フィードが「未定義」である場合、そのフィードは [!DNL Recommendations Classic] フィードです。[!DNL Target Premium Recommendations] 内では変更できません。
 
 ## CSV{#section_65CC1148C7DD448FB213FDF499D35FCA} へのエクスポート 
 
@@ -56,7 +50,7 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 >[!IMPORTANT]
 >
->意図的でない限り、.csvファイルで値を二重引用符( " )で囲まないでください。 値を二重引用符で囲む場合、別の二重引用符のセットで囲んでエスケープする必要があります。エスケープされていない二重引用符を使用すると、レコメンデーションフィードが正しく読み込めなくなります。
+>意図的でない限り、.csv ファイルで値を二重引用符（"）で囲まないでください。値を二重引用符で囲む場合、別の二重引用符のセットで囲んでエスケープする必要があります。エスケープしていない二重引用符は、レコメンデーションフィードの適切な読み込みを妨げます。
 
 例えば、以下の構文は間違っています。
 
@@ -94,7 +88,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 フィードのタイプが Google による製品検索の場合は、Google の形式が使用されます。これは、Adobe 固有の csv アップロード形式とは異なります。
 
-既存のGoogle製品フィードがある場合は、それをインポートファイルとして使用できます。
+Google 製品フィードを利用している場合は、それをインポートファイルとして使用できます。
 
 >[!NOTE]
 >
@@ -195,7 +189,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!IMPORTANT]
 >
->Analytics の製品分類を使用してエンティティデータを Recommendations にインポートすることもできますが、推奨の手法ではありません。
+>Analytics の製品分類を使用してエンティティデータを Recommendations に読み込むこともできますが、推奨の手法ではありません。
 >
 > その際は次の点にご注意ください。
 >* エンティティ属性を更新すると、最大で 24 時間の遅延が生じます。
@@ -208,30 +202,30 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 1. Target インターフェイスから、**[!UICONTROL レコメンデーション]**／**[!UICONTROL フィード]**／**[!UICONTROL フィードを作成]**&#x200B;をクリックします。
 
-   ![フィードの作成ダイアログボックス](assets/CreateFeed.png)
+   ![フィードを作成ダイアログボックス](assets/CreateFeed.png)
 
 1. フィードにわかりやすい名前を指定します。
 1. 「**[!UICONTROL ソースタイプ]**」を選択します。
 
-   * CSV へのエクスポート
-   * Google製品フィード
-   * Analytics分類
-   CSVおよびGoogle製品フィードのタイプについて詳しくは、「フィードの概要」を参照 [してください](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。 また、モデルCSVガ [イドをダウンロードして](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 、フィードを正しくフォーマットすることもできます。
+   * CSV
+   * Google 製品フィード
+   * Analytics 分類
+   CSV および Google 製品フィードフィードタイプについて詳しくは、[フィードの概要](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. （条件付き）「 **[!UICONTROL CSV]** 」または「 **[!UICONTROL Google Product Feed]**」を選択した場合は、フィードにアクセスできる場所を指定します。
+1. （条件付き）**[!UICONTROL CSV]** または **[!UICONTROL Google 製品フィード]**&#x200B;を選択した場合、フィードがアクセスできる場所を指定します。
 
-   * **FTP**:「FTP」を選択した場合は、FTPサーバー情報、ログイン資格情報、ファイル名、FTPディレクトリを指定します。 より安全な読み込みのために、FTP with SSL（FTPS）を使用することもできます。
+   * **FTP**：FTP を選択した場合は、FTP サーバー情報、ログイン資格情報、ファイル名、FTP ディレクトリを指定します。より安全なアップロードのために、SSL を使用した FTP（FTPS）を使用することもできます。
 
-      サポートされるFTPサーバーの設定：
+      サポートされる FTP サーバー設定：
 
-      * パッシブFTPを使用するには、FTPとFTPSを設定する必要があります。
-      * FTPSの場合は、明示的なFTPS接続を受け入れるようにサーバーを設定します。
-      * SFTPはサポートされていません。
-      * 接続を開始するポートを手動で指定できます(例： `ftp://ftp.yoursite.com:2121`)。 ポートを指定しない場合は、デフォルトのFTPまたはFTPSポートが使用されます。
-   * **URL**:URLを選択した場合は、URLを指定します。
+      * FTP および FTPS は、パッシブ FTP を使用するように設定する必要があります。
+      * FTPS の場合、明示的な FTPS 接続を受け入れるようにサーバーを設定します。
+      * SFTP はサポートされていません。
+      * 接続を開始するポートを手動で指定できます（例：`ftp://ftp.yoursite.com:2121`）。ポートを指定しない場合、デフォルト FTP または FTPS ポートが使用されます。
+   * **URL**：URL を選択した場合は、URL を指定します。
 
 
-1. （条件付き）「 **[!UICONTROL Analytics分類」を選択した場合]**、ドロップダウンリストからレポートスイートを選択します。
+1. （条件付き）**[!UICONTROL Analytics 分類]**&#x200B;を選択した場合、ドロップダウンリストからレポートスイートを選択します。
 
 1. 「**[!UICONTROL 次へ]**」矢印をクリックして、「[!UICONTROL スケジュール]」オプションを表示します。
 
@@ -242,7 +236,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
    * 毎日
    * 毎週
    * 2 週間ごと
-   * なし：更新のスケジュールを設定しない。 このフィードを実行したくない場合に、これを選択します。
+   * なし：更新のスケジュールは設定しません。このフィードを実行したくない場合に、これを選択します。
 
 1. フィードを実行する時間を指定します。
 
@@ -280,8 +274,8 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 | *スケジュールされた日時* | フィードは実行されていませんが、特定の日時に実行するようスケジュールされています。 |
 | ダウンロードを待機中 | Target はフィードファイルをダウンロードする準備中です。 |
 | フィードファイルのダウンロード | Target はフィードファイルをダウンロード中です。 |
-| 項目の読み込み | Target は、フィードファイルから項目をインポートしています。 |
-| フィードの読み込み時 *点* | Targetは、フィードファイルをコンテンツ配信システムに読み込みました。 品目属性に対する変更はコンテンツ配信システムで行われ、まもなく配信済みのレコメンデーションに反映されます。 期待される変更が表示されない場合は、しばらくしてから再試行し、レコメンデーションを含むページを更新してください。<br>** 注1:品目の属性を変更すると、品目がレコメンデーションから除外される場合、除外は直ちに反映されます。 品目が新しく追加された場合、または属性を変更した場合に、品目がレコメンデーションから除外されなくなった場合 ** 、24時間以内に発生する次のアルゴリズムの更新まで反映されません。<br>** 注2:このステータスが表示されている場合、更新がカタログ検索ユーザーインターフェイスに反映されない場合があります。 カタログ検索には、検索可能なカタログが最後に更新された時刻を示す別のステータスが表示されます。 |
+| 項目の読み込み | Target は、フィードファイルから項目を読み込んでいます。 |
+| フィードを正常に読み込みました：*時間* | Target は、フィードファイルをそのコンテンツ配信システムに読み込みました。コンテンツ配信システムで項目属性に対する変更がおこなわれ、配信されたレコメンデーションがすぐに反映されます。期待された変更が表示されない場合、すぐに再試行して、レコメンデーションを含むページを更新します。<br>*注意 1：*&#x200B;項目の属性に対する変更によって項目がレコメンデーションから除外されると、除外が即座に反映されます。項目が新しく追加された、または属性に対する変更によって項目がレコメンデーションから除外されなくなった場合&#x200B;**、次のアルゴリズム更新（24 時間以内におこなわれる）まで反映されません。<br>*注意 2：*&#x200B;このステータスが表示されたときに、カタログ検索ユーザーインターフェイスで更新がまだ反映されていない可能性があります。前回検索可能なカタログが更新されたことを示す別のステータスがカタログ検索にリストされます。 |
 | インデックスに失敗しました | インデックス操作が失敗しました。再試行してください。 |
 | サーバーが見つかりません | FTP または URL の場所が無効か、そうでなければ到達不能です。 |
 
@@ -321,20 +315,20 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Recommendationsのフィードについて(3:01)
+### Recommendations のフィードの説明（3:01）
 
-このビデオでは、次の情報を提供しています。
+このビデオには、次の情報が含まれています。
 
-* フィードの目的の理解
-* フィードの価値の把握
+* フィードの目的の説明
+* フィードの値の説明
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=jpn)
 
-### フィードの作成(6:44)
+### フィードの作成（6:44）
 
-このビデオでは、次の情報を提供しています。
+このビデオには、次の情報が含まれています。
 
 * フィードの設定
-* 使用するフィードのタイプを把握する
+* 使用するフィードのタイプの説明
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=jpn)
