@@ -1,14 +1,11 @@
 ---
-description: このトピックには、指標の定義と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 keywords: FAQ;よくある質問;analytics for target;A4T;指標;指標の定義
-seo-description: このトピックには、指標の定義と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
-seo-title: 指標の定義 - A4T FAQ
-solution: 'Target '
+description: このトピックには、指標の定義と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: 指標の定義 - A4T FAQ
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,4 +28,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## A4T では、コンバージョンを複数のキャンペーンによるものだと考えますか？ {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-はい。 これは、配分設定をフルにすることでおこなわれます。
+はい。これは、配分設定をフルにすることでおこなわれます。
