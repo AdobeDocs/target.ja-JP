@@ -1,16 +1,10 @@
 ---
-description: Recommendations アクティビティで使用する条件を選択します。
 keywords: レコメンデーション;レコメンデーションアクティビティ;条件
-seo-description: Adobe Target Recommendations アクティビティで使用する条件を選択します。
-seo-title: 条件の選択
-solution: 'Target '
+description: Adobe Target Recommendations アクティビティで使用する条件を選択します。
 title: 条件の選択
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,6 +33,6 @@ Recommendations アクティビティで使用する[条件](/help/c-recommendat
 
    * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。デフォルトの業種を変更するには、「**[!UICONTROL 設定]**」をクリックし、目的のデフォルト&#x200B;**業種]設定を選択します。[!UICONTROL **
    * **ページタイプ：**&#x200B;ページタイプによって、レコメンデーションが分類しやすくなります。それぞれのページタイプで選択できるビルトイン条件もあります。
-   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]」チェックボックスのチェックを外します。**&#x200B;このオプションは、[!DNL Target][!UICONTROL  の環境設定]で有効と無効を切り替えることができます。
+   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。このオプションは、[!DNL Target][!UICONTROL  の環境設定]で有効と無効を切り替えることができます。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして、[デザインを選択](/help/c-recommendations/c-design-overview/design-overview.md)ダイアログボックスを表示します。
