@@ -1,14 +1,11 @@
 ---
-description: Adobe Target のモバイル Visual Experience Composer（VEC）を利用すると、開発者が iOS モバイルアプリへのセットアップを一度おこなえば、マーケティング担当者がモバイルアプリ VEC の機能を使用できるようになります。
 keywords: モバイルアプリ vec;モバイル visual experience composer;モバイル experience composer オプション;設定;ios;apple
-seo-description: Adobe Target のモバイル Visual Experience Composer（VEC）を利用すると、開発者が iOS モバイルアプリへのセットアップを一度おこなえば、マーケティング担当者がモバイルアプリ VEC の機能を使用できるようになります。
-seo-title: iOS - モバイルアプリケーションのセットアップ
-solution: 'Target '
+description: Adobe Target のモバイル Visual Experience Composer（VEC）を利用すると、開発者が iOS モバイルアプリへのセットアップを一度おこなえば、マーケティング担当者がモバイルアプリ VEC の機能を使用できるようになります。
 title: iOS - モバイルアプリケーションのセットアップ
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
