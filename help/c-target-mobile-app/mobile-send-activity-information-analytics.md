@@ -1,12 +1,10 @@
 ---
-description: この節では、Target モバイルアプリアクティビティ情報を Adobe Analytics に送信して、ポストアドホックセグメント化する方法について説明します。
 keywords: モバイル；tntVal;analytics;adobe analytics；統合；sdk；モバイルsdk;
-seo-description: ここでは、Adobe targetモバイルアプリのアクティビティ情報をAdobe Analyticsに送信してAdobe Analyticsのポストアクティブセグメント化の方法について説明します。
-seo-title: Adobe targetのアクティビティ情報をAdobe Analyticsに送信
-title: アクティビティ情報の Adobe Analytics への送信
+description: ここでは、Adobe targetモバイルアプリのアクティビティ情報をAdobe Analyticsに送信してAdobe Analyticsのポストアクティブセグメント化の方法について説明します。
+title: Adobe targetのアクティビティ情報をAdobe Analyticsに送信
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
