@@ -1,13 +1,9 @@
 ---
 description: CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、パーソナライゼーションモデルを構築する際に非常に重要となることがあります。
-seo-description: CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、パーソナライゼーションモデルを構築する際に非常に重要となることがあります。
-seo-title: Target のパーソナライゼーションアルゴリズムのデータのアップロード
-solution: 'Target '
 title: Target のパーソナライゼーションアルゴリズムのデータのアップロード
-topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
