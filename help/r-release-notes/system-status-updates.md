@@ -1,14 +1,11 @@
 ---
-description: アドビシステムステータスページを使用して、アドビ製品および Target を含む Experience Cloud ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 keywords: システム更新、トラブルシューティング、メンテナンス、システムステータス、更新ステータス
-seo-description: アドビシステムステータスページを使用して、アドビ製品および Target を含む Experience Cloud ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
-seo-title: システムステータスの更新
-solution: 'Target '
+description: アドビシステムステータスページを使用して、アドビ製品および Target を含む Experience Cloud ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 title: システムステータスの更新
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
