@@ -1,13 +1,11 @@
 ---
-description: 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
 keywords: 多変量分析;mvt;指標;指標の設定;目標指標;アクティビティ設定;成功指標;コンバージョン;売上高;エンゲージメント
-seo-description: 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
-seo-title: 指標の設定
-solution: Target,standard
+description: 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
+solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
