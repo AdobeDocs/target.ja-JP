@@ -1,11 +1,9 @@
 ---
-description: Adobe Mobile SDK は、ユーザーに適切なエクスペリエンスを表示するため、Target サーバーに接続してコンテンツと他のデータポイントを取得します。
-seo-description: Adobe Mobile SDK は、ユーザーに適切なエクスペリエンスを表示するため、Target サーバーに接続してコンテンツと他のデータポイントを取得します。
-seo-title: モバイルアプリにおける Target の仕組み
+description: Adobe Mobile SDK は、ユーザーに適切なエクスペリエンスを表示するために、Target サーバーに接続してコンテンツと他のデータポイントを取得します。
 title: モバイルアプリにおける Target の仕組み
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
