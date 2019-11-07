@@ -1,16 +1,10 @@
 ---
-description: Recommendations アクティビティに関するよくある質問（FAQ）のリストです。
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-seo-description: Adobe Target Recommendationsアクティビティに関するよくある質問(FAQ)のリストです。
-seo-title: Adobe Target Recommendations FAQ
-solution: 'Target '
-title: Recommendations FAQ
-title-outputclass: premium
-topic: Premium
+description: Adobe Target Recommendationsアクティビティに関するよくある質問(FAQ)のリストです。
+title: Adobe Target Recommendations FAQ
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
-badge: premium
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
