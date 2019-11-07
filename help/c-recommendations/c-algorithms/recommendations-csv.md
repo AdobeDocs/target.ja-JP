@@ -1,16 +1,10 @@
 ---
-description: CSV ファイルをアップロードしてレコメンデーションをカスタマイズします。
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-seo-description: CSV ファイルをアップロードしてレコメンデーションをカスタマイズします。
-seo-title: カスタム条件のアップロード
-solution: 'Target '
+description: CSV ファイルをアップロードしてレコメンデーションをカスタマイズします。
 title: カスタム条件のアップロード
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
