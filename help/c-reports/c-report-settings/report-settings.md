@@ -1,14 +1,10 @@
 ---
-description: レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
 keywords: Target、レポート、レポート設定、プリセット、ターゲットプリセット、metric、オーディエンス、日付範囲、設定、ダウンロード、table view、グラフビュー、平均上昇率、上昇率、上昇率バインド、頼区間、confidence、場所の貢献度、running Average、カウント手法
-seo-description: レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
-seo-title: レポート設定
-solution: 'Target '
+description: レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
 title: レポート設定
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
