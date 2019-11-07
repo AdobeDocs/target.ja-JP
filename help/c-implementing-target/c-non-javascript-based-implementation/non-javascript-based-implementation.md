@@ -1,15 +1,12 @@
 ---
-description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
 keywords: 実装;mbox.js 非 JavaScript;adbox;リダイレクター;mbox
-seo-description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
-seo-title: 電子メール：Target の実装
-solution: 'Target '
-subtopic: 導入
+description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
 title: 電子メール：Target の実装
+subtopic: 導入
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
