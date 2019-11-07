@@ -1,13 +1,10 @@
 ---
-description: クラウドベースのインスタンスを使用して Adobe Target をテストする際の問題に関する情報をまとめています。
 keywords: クラウドインスタンス;パブリックサフィックスリスト;パブリックサフィックス;Cookie;ファーストパーティ Cookie;ファーストパーティ Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: クラウドベースのインスタンスを使用して Adobe Target をテストする際の問題に関する情報をまとめています。
-seo-title: Target でのクラウドベースのインスタンスの使用
-solution: 'Target '
+description: クラウドベースのインスタンスを使用して Adobe Target をテストする際の問題に関する情報をまとめています。
 title: Target でのクラウドベースのインスタンスの使用
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
