@@ -1,15 +1,12 @@
 ---
-description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
 keywords: Experience Cloud;サインイン
-seo-description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
-seo-title: Adobe Experience Cloud からの Target へのアクセス
-solution: 'Target '
-subtopic: 導入
+description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
 title: Adobe Experience Cloud からの Target へのアクセス
+subtopic: 導入
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
