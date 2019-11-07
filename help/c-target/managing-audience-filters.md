@@ -1,13 +1,10 @@
 ---
-description: オーディエンスフィルター（またはオーディエンス）は、特定の 1 つの特性または複数の特性を共有する訪問者のグループです。
-keywords: ターゲット設定、オーディエンスフィルター、オーディエンス;filter
-seo-description: Adobe targetのオーディエンスフィルター（オーディエンス）は、特定の1つの特性または複数の特性を共有する訪問者のグループです。
-seo-title: Adobe targetでのレポート用オーディエンスフィルター
-solution: 'Target '
-title: レポート用のオーディエンスフィルター
+keywords: ターゲット設定；オーディエンスフィルター；オーディエンス；フィルター
+description: Adobe targetのオーディエンスフィルター（オーディエンス）は、特定の1つの特性または複数の特性を共有する訪問者のグループです。
+title: Adobe targetでのレポート用オーディエンスフィルター
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
