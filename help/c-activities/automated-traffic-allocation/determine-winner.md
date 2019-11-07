@@ -1,14 +1,11 @@
 ---
-description: 自動配分の A/B アクティビティの勝者を特定するには、Target UI の表示を確認します。
 keywords: 自動トラフィック配分, ターゲティング, 勝者, 統計的保証, 信頼度, 勝者の特定
-seo-description: 自動配分の A/B アクティビティの勝者を特定するには、Target UI の表示を確認します。
-seo-title: 勝者の特定
-solution: 'Target '
+description: 自動配分の A/B アクティビティの勝者を特定するには、Target UI の表示を確認します。
 title: 勝者の特定
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
