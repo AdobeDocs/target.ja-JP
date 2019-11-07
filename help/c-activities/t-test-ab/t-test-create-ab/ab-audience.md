@@ -1,14 +1,11 @@
 ---
-description: オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
 keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
-seo-description: オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
-seo-title: オーディエンスの選択
-solution: 'Target '
+description: オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
 title: オーディエンスの選択
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
