@@ -1,16 +1,10 @@
 ---
-description: 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
-keywords: レコメンデーション;レコメンデーションアクティビティ;条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リード生成；b2b；金融サービス；メディア；公開
-seo-description: Adobe Target Recommendationsの条件は、事前に決められた訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
-seo-title: Adobe Target Recommendationsの条件
-solution: 'Target '
-title: 条件
-title-outputclass: premium
-topic: Premium
+keywords: recommendations;recommendationsアクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リード生成；b2b；金融サービス；メディア；公開
+description: Adobe Target Recommendationsの条件は、事前に決められた訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+title: Adobe Target Recommendationsの条件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
