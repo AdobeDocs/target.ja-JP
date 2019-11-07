@@ -1,15 +1,10 @@
 ---
-description: Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
 keywords: ターゲット設定
-seo-description: Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
-seo-title: ランダムフォレストアルゴリズム
-solution: 'Target '
+description: Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
 title: ランダムフォレストアルゴリズム
-title-outputclass: Premium
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
