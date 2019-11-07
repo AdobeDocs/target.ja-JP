@@ -1,15 +1,10 @@
 ---
-description: Automated Personalization のユーザーは特殊なレポートを使用できます。
 keywords: Target設定、APレポート、自動パーソナライゼーションレポート、アクティビティレベルレポート、オファーレベルレポート、オファー詳細レポート
-seo-description: Automated Personalization のユーザーは特殊なレポートを使用できます。
-seo-title: Automated Personalization 概要レポート
-solution: 'Target '
+description: Automated Personalization のユーザーは特殊なレポートを使用できます。
 title: Automated Personalization 概要レポート
-title-outputclass: Premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
