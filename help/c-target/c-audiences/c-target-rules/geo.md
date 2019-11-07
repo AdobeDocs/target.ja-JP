@@ -1,14 +1,12 @@
 ---
-description: オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 keywords: ターゲット設定;a4t;地理;ジオターゲティング;ジオターゲティングの精度;国;都道府県;市区町村;郵便番号;dma;携帯電話会社;cityコード;regionコード;countryコード;metro code;プロファイルスクリプト;ジオターゲティングプロファイルスクリプト;ジオターゲティングモバイル
-seo-description: Adobe Target オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
-seo-title: 地域
+description: Adobe Target オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
+title: 地域
 solution: Target,Analytics
-title: Adobe Target のジオターゲティング
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
