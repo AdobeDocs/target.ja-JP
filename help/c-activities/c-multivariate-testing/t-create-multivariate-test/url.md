@@ -1,13 +1,10 @@
 ---
-description: アクティビティ URL は、多変量分析テスト（MVT）で使用され、Target でテストが設計された場合に表示されるページを指定します。
 keywords: ターゲット設定
-seo-description: アクティビティ URL は、多変量分析テスト（MVT）で使用され、Adobe Target でテストが設計された場合に表示されるページを指定します。
-seo-title: アクティビティ URL
-solution: 'Target '
+description: アクティビティ URL は、多変量分析テスト（MVT）で使用され、Adobe Target でテストが設計された場合に表示されるページを指定します。
 title: アクティビティ URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
