@@ -1,13 +1,11 @@
 ---
-description: アプリに Adobe Mobile Services SDK を追加します。
 keywords: モバイルアプリ;モバイルアプリ sdk;ターゲットモバイルアプリ;モバイルターゲット sdk;モバイルアプリ sdk;sdk での target の有効化
-seo-description: アプリに Adobe Mobile Services SDK を追加します。
-seo-title: SDK での Target の有効化
+description: アプリに Adobe Mobile Services SDK を追加します。
 title: SDK での Target の有効化
 topic: 'Target '
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
