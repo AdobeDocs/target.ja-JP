@@ -1,15 +1,12 @@
 ---
+keywords: at.js;関数;JavaScript ライブラリ
 description: Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。
-keywords: at.js；関数；javascriptライブラリ
-seo-description: Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。
-seo-title: Adobe Target at.js 関数
-solution: 'Target '
+title: Adobe Target at.js 関数
 subtopic: 導入
-title: at.js 関数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
