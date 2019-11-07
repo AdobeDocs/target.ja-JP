@@ -1,13 +1,10 @@
 ---
-description: Visual Experience Composer は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
-seo-description: Adobe Target の Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
-seo-title: エクスペリエンスの追加
-solution: 'Target '
+description: Adobe Target の Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 title: エクスペリエンスの追加
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -28,7 +25,7 @@ Visual Experience Composer（VEC）は、ページ上のエクスペリエンス
 
 1. 変更する要素を選択し、必要な変更をおこないます。
 
-   ページ上の要素にマウスカーソルを重ねると、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。
+   ページ上の要素にマウスポインターを置くと、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。
 
    Target Classic（旧称 Test&amp;Target）を使用してページに mbox を作成していた場合は、mbox 名を表示する要素として mbox が表示され、他の要素と同様に修正することができます。
 
