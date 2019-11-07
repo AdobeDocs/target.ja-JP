@@ -1,14 +1,11 @@
 ---
-description: 'at.js の adobe.target.sendNotifications(options) 関数についての情報です。 '
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;function;function
-seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
-solution: 'Target '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;関数
+description: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
+title: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
 subtopic: 導入
-title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,9 +20,9 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に用いられる補助的なデータ ID を生成するために使用されます。 |
+| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に使用される補助的なデータ ID を生成するために使用されます。 |
 | リクエスト | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
-| timeout | 数値  | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
+| timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
 
