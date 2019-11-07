@@ -1,14 +1,11 @@
 ---
-description: オファーライブラリのアイテムを保存するフォルダーを作成します。
 keywords: コンテンツ;フォルダーの作成;アセット;フォルダーの移動;フォルダーのコピー;フォルダーの削除;フォルダーのダウンロード;フォルダー
-seo-description: オファーライブラリのアイテムを保存するフォルダーを作成します。
-seo-title: オファーフォルダーの作成
-solution: 'Target '
+description: オファーライブラリのアイテムを保存するフォルダーを作成します。
 title: オファーフォルダーの作成
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
