@@ -1,14 +1,11 @@
 ---
-description: 電子メール内の画像を動的にテストし、電子メールが開かれたときにそれらの画像をその場で変更することもできます。
 keywords: email;adbox；電子メール画像adbox
-seo-description: Adobe targetを使用して、電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更することもできます。
-seo-title: Adobe targetを使用した電子メール画像adboxのテスト
-solution: 'Target '
-title: 電子メール画像 adbox のテスト
+description: Adobe targetを使用して、電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更することもできます。
+title: Adobe targetを使用した電子メール画像adboxのテスト
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
