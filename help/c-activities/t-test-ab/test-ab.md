@@ -1,13 +1,10 @@
 ---
-description: A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。
 keywords: AB;A/B;AB...n;エクスペリエンスの比較;ターゲット設定;コンテンツの比較
-seo-description: A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。
-seo-title: A/B テスト
-solution: 'Target '
+description: A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。
 title: A/B テスト
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
