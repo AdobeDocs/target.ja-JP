@@ -1,14 +1,11 @@
 ---
-description: Target at.js JavaScript ライブラリでページやアプリの読み込み中にちらつきを回避する方法について説明します。
 keywords: ちらつき；at.js；実装
-seo-description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
-seo-title: Adobe Target の at.js によるちらつきの制御方法
-solution: 'Target '
-title: at.js によるちらつきの制御方法
+description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
+title: Adobe Target の at.js によるちらつきの制御方法
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
