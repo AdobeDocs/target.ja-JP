@@ -1,14 +1,11 @@
 ---
-description: Analytics をレポートソースとして使用しない場合に予期される Target と Adobe Analytics のデータの相違に関する情報（Analytics をレポートソースとして使用すると（A4T）データの相違はなくなります）。
 keywords: データ相違;analytics;差異;相違;A4T;analytics for target;レポートソースとしての analytics;差違;不整合
-seo-description: Analytics をレポートソースとして使用しない場合に予期される Target と Adobe Analytics のデータの相違に関する情報（Analytics をレポートソースとして使用すると（A4T）データの相違はなくなります）。
-seo-title: A4T を利用しない場合に予期されるデータの相違
-solution: 'Target '
+description: Analytics をレポートソースとして使用しない場合に予期される Target と Adobe Analytics のデータの相違に関する情報（Analytics をレポートソースとして使用すると（A4T）データの相違はなくなります）。
 title: A4T を利用しない場合に予期されるデータの相違
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
