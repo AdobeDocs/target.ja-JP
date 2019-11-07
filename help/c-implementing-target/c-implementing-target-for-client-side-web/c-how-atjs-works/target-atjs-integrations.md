@@ -1,14 +1,11 @@
 ---
-description: Target の一般的な統合と at.js のサポート状況について説明します。
 keywords: at.js 統合;サポートされる統合;サポートされない統合;サードパーティ統合
-seo-description: Target の一般的な統合と at.js のサポート状況について説明します。
-seo-title: at.js の統合
-solution: 'Target '
+description: Target の一般的な統合と at.js のサポート状況について説明します。
 title: at.js の統合
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
