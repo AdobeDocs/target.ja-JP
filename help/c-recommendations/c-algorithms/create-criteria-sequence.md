@@ -1,16 +1,10 @@
 ---
-description: 最大 5 つの条件のシーケンスを使用して、Recommendations アクティビティで表示される項目をより詳細に制御します。
 keywords: 条件のシーケンス;複数の条件;アルゴリズム;条件;レコメンデーション条件
-seo-description: 最大 5 つの条件のシーケンスを使用して、Recommendations アクティビティで表示される項目をより詳細に制御します。
-seo-title: 条件のシーケンスの作成
-solution: 'Target '
+description: 最大 5 つの条件のシーケンスを使用して、Recommendations アクティビティで表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
-title-outputclass: premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,9 +86,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：Recommendationsでの条件の作成(12:33)
+## トレーニングビデオ：Recommendations の条件の作成（12:33）
 
-このビデオでは、次の情報を提供しています。
+このビデオには、次の情報が含まれています。
 
 * 条件の作成
 * 条件のシーケンスの作成
