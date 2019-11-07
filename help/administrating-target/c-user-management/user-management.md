@@ -1,15 +1,12 @@
 ---
-description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
 keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
-seo-description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
-seo-title: ユーザー管理
-solution: 'Target '
-subtopic: 導入
+description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
 title: ユーザー管理
+subtopic: 導入
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
