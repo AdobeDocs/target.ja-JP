@@ -1,14 +1,11 @@
 ---
-description: 'at.js の adobe.target.applyOffer() 関数について説明します。 '
-keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;function;function
-seo-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
-seo-title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer() 関数について説明します。
-solution: 'Target '
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;関数
+description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
+title: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer() 関数について説明します。
 subtopic: 導入
-title: adobe.target.applyOffer(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
