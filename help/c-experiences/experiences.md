@@ -1,14 +1,11 @@
 ---
-description: エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
 keywords: エクスペリエンス; visual experience composer; 拡張 experience composer; フォームベースの experience composer; フォームコンポーザー; visual composer; experience composer; 混合コンテンツ; iframe, iframe バスティング; iframe のバスティング; x-frame-options; x フレームオプション; クロスオリジン; クロスオリジンの問題; 認証ワークフロー; ip ブラックリスト; ip ホワイトリスト
-seo-description: エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
-seo-title: エクスペリエンスとオファー
-solution: 'Target '
+description: エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
 title: エクスペリエンスとオファー
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
