@@ -1,14 +1,11 @@
 ---
-description: Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。
 keywords: visual experience composer のオプション; エクスペリエンスコンポーザーのオプション; エクスペリエンスのオプション; テキストの編集; html の編集; テキスト／html の編集; 背景色の編集; 背景色; 要素の挿入; リンクの編集; リンク; visual experience composer リンク; css クラスの編集; css クラス; オファーの置き換え; オファー置き換え; 画像の置き換え; 画像置き換え; 項目の削除; 項目削除; 項目の非表示; 項目を隠す; 再配置; 要素の移動; 要素移動; 要素のリサイズ; 要素リサイズ; 要素; 選択項目の拡張; このリンクへのナビゲーション; リンクのナビゲーション; リンクのナビゲート; 移動; リンク; 元に戻す; やり直し; 元に戻す／やり直し
-seo-description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
-seo-title: Adobe Target Visual Experience Composer（VEC）オプション
-solution: 'Target '
-title: Visual Experience Composer のオプション
+description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
+title: Adobe Target Visual Experience Composer（VEC）オプション
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -317,7 +314,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ページ上の要素を移動します。「[!UICONTROL 整列]」オプションとは異なり、「[!UICONTROL 移動]」では、移動される要素用の場所を空けるために別の要素の位置が調整されることはありません。移動を細かく調整するには、矢印キーを使用します。（今後の拡張予定：移動後の要素が他の要素の背後に隠れないようにする予定です。）
 
-状況によっては（CSS の制限により要素を親要素内に置いておく必要がある場合など）、要素を親要素の外側に移動できないこともあります。次のCSSプロパティを持つコンテナの外側に要素を移動することはできません。 `overflow: hidden`.
+状況によっては（CSS の制限により要素を親要素内に置いておく必要がある場合など）、要素を親要素の外側に移動できないこともあります。CSS プロパティ `overflow: hidden` を持つコンテナの外側に要素を移動することはできません。
 
 #### 非表示
 
@@ -343,7 +340,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ## 注意点 {#considerations}
 
-* オファーにHTMLコンテンツが含まれる場合、詳しくは、 [at.jsの仕組みの「at.jsがHTMLコンテンツでオファーをレンダリングする方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) 」を参照してください。
+* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。
 
 ## DOM パス {#dom-path} を使用して要素をナビゲートする
 
