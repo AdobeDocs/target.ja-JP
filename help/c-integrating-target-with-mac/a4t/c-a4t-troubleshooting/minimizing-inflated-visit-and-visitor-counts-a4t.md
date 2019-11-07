@@ -1,15 +1,12 @@
 ---
-description: Analytics をレポートソースとして使用している場合に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法について説明します。
 keywords: 部分的なデータ;部分的なデータ;A4T; 矛盾;Analytics for Target;親なし;仮想レポートスイート;ファントム;トラブルシューティング;未関連付け;水増し;未指定
-seo-description: Analytics をレポートソースとして使用している場合に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法について説明します。
-seo-title: A4T での水増しされた訪問と訪問者カウントの最小化
-solution: 'Target '
-subtopic: 多変量分析テスト
+description: Analytics をレポートソースとして使用している場合に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法について説明します。
 title: A4T での水増しされた訪問と訪問者カウントの最小化
+subtopic: 多変量分析テスト
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
