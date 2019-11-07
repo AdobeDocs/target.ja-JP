@@ -1,15 +1,9 @@
 ---
-description: 特別な複数値演算子を使用したAdobe Target Recommendationsでの複数値フィールドの操作に関する情報です。
 keywords: 複数値；属性；レコメンデーション；複数値；複数値
-seo-description: 特別な複数値演算子を使用したAdobe Target Recommendationsでの複数値フィールドの操作に関する情報です。
-seo-title: Adobe Target Recommendationsでの複数値の属性の操作
-solution: Target
-title: 複数値の属性の操作
-title-outputclass: premium
-topic: Premium
-badge: Premium
+description: 特別な複数値演算子を使用したAdobe Target Recommendationsでの複数値フィールドの操作に関する情報です。
+title: Adobe Target Recommendationsでの複数値の属性の操作
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
