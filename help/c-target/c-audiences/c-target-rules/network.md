@@ -1,13 +1,10 @@
 ---
-description: ネットワークの詳細に基づいたオーディエンスを作成できます。
 keywords: ターゲット設定、network、ターゲットネットワーク、isp、domain name、接続速度、target isp、targetドメイン名、ターゲット接続速度
-seo-description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
-seo-title: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成します。
-solution: 'Target '
-title: ネットワーク
+description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
+title: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成します。
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
