@@ -1,15 +1,12 @@
 ---
-description: 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
 keywords: 概要およびリファレンス
-seo-description: 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
-seo-title: 訪問者プロファイル
-solution: 'Target '
-subtopic: 導入
+description: 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
 title: 訪問者プロファイル
+subtopic: 導入
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -26,5 +23,5 @@ Target を Adobe Analytics などの他の Adobe Marketing Suite ソリューシ
 - [プロファイル属性](profile-parameters.md)
 - [カテゴリ親和性](category-affinity.md)
 - [顧客属性](working-with-customer-attributes.md)
-- [mbox3rdPartyID のリアルタイムプロファイル同期](3rd-party-id.md)
+- [mbox3rdPartyId のリアルタイムプロファイル同期](3rd-party-id.md)
 - [プロファイルと変数の用語集](variables-profiles-parameters-methods.md)
