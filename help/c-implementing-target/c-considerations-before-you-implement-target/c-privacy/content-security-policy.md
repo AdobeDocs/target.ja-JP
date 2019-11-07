@@ -1,14 +1,11 @@
 ---
-description: Adobe Target at.js 2.1以降を使用する場合に追加する必要があるコンテンツセキュリティポリシー(CSP)ディレクティブに関する情報です。
 keywords: コンテンツセキュリティポリシー；csp;at.js;whitelist;flicker;pre-hide;pre-hiding;pre-hiding;pre-hiding;pre-hiding
-seo-description: Adobe Target at.js 2.1以降を使用する場合に追加する必要があるコンテンツセキュリティポリシー(CSP)ディレクティブに関する情報です。
-seo-title: コンテンツセキュリティポリシー(CSP)
-solution: 'Target '
+description: Adobe Target at.js 2.1以降を使用する場合に追加する必要があるコンテンツセキュリティポリシー(CSP)ディレクティブに関する情報です。
+title: コンテンツセキュリティポリシー(CSP)
 subtopic: 導入
-title: コンテンツセキュリティポリシー(CSP)ディレクティブ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
