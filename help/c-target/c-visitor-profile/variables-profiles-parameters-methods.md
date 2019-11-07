@@ -1,14 +1,11 @@
 ---
-description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
-seo-description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
-seo-title: プロファイルと変数の用語集
-solution: 'Target '
+description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 title: プロファイルと変数の用語集
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
