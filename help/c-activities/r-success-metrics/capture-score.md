@@ -1,15 +1,12 @@
 ---
-description: スコアキャプチャのエンゲージメント指標では、閲覧されたサイトのページに割り当てられた値に基づいて、訪問者がキャンペーンの最初の表示 mbox を最初に見た時点からの集計スコアを計算します。
 keywords: キャプチャスコア;スコア
-seo-description: スコアキャプチャのエンゲージメント指標では、閲覧されたサイトのページに割り当てられた値に基づいて、訪問者がキャンペーンの最初の表示 mbox を最初に見た時点からの集計スコアを計算します。
-seo-title: スコアキャプチャ
-solution: 'Target '
-subtopic: 導入
+description: スコアキャプチャのエンゲージメント指標では、閲覧されたサイトのページに割り当てられた値に基づいて、訪問者がキャンペーンの最初の表示 mbox を最初に見た時点からの集計スコアを計算します。
 title: スコアキャプチャ
+subtopic: 導入
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
