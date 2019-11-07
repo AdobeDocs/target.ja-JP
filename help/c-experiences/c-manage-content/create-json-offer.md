@@ -1,14 +1,11 @@
 ---
-description: オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
 keywords: リモートオファー;リモートオファーの作成
-seo-description: オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
-seo-title: JSON オファーの作成
-solution: 'Target '
+description: オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
 title: JSON オファーの作成
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
