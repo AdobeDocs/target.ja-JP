@@ -1,15 +1,12 @@
 ---
-description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
 keywords: 実装;実装する
-seo-description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
-seo-title: Target の実装
-solution: 'Target '
-subtopic: 導入
+description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
 title: Target の実装
+subtopic: 導入
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
