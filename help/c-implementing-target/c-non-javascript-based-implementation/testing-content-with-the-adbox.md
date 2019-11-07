@@ -1,15 +1,12 @@
 ---
-description: adbox を使用してオフサイト実装で画像を配信します。
 keywords: 実装;mbox.js 非 JavaScript;mbox;adbox
-seo-description: adboxを使用して、Adobe Targetを使用してオフサイト実装で画像を配信します。
-seo-title: Adobe targetを使用した画像用adboxの作成
-solution: 'Target '
+description: adboxを使用して、Adobe Targetを使用してオフサイト実装で画像を配信します。
+title: Adobe targetを使用した画像用adboxの作成
 subtopic: 導入
-title: 画像用 adbox の作成 adobe targetの使用
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
