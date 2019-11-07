@@ -1,16 +1,10 @@
 ---
-description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
-seo-description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
-seo-title: カスタムエンティティの属性
-solution: 'Target '
+description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 title: カスタムエンティティの属性
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 translation-type: tm+mt
-source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
