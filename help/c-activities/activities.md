@@ -1,14 +1,11 @@
 ---
-description: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
 keywords: アクティビティリスト；アクティビティ；アクティビティ；アクティビティタイプ；アクティビティの編集；アクティビティアクション；アクティビティ属性；アクティビティリストフィルタ；アクティビティ制限；パーソナライズ；パーソナライズ
-seo-description: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
-seo-title: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
-solution: 'Target '
-title: アクティビティ
+description: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
+title: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
