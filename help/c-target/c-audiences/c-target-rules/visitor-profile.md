@@ -1,14 +1,10 @@
 ---
-description: オーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
 keywords: 訪問者プロファイル;Target 訪問者プロファイル
-seo-description: Adobe Target でオーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
-seo-title: 訪問者プロファイル
-solution: 'Target '
-title: Adobe Target でオーディエンスを作成して、訪問者プロファイルをターゲット設定します
-topic: Premium
+description: Adobe Target でオーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
+title: 訪問者プロファイル
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
