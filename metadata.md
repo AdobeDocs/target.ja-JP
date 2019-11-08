@@ -1,5 +1,6 @@
 ---
 cloud: experience- クラウド
+product: target
 solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/target.html
 solution-image: assets/target-icon-24.png
@@ -10,7 +11,7 @@ tutorials-url: https://helpx.adobe.com/jp/target/kt/index/target-videos.html
 git-repo: https://github.com/AdobeDocs/target.en
 index: true
 translation-type: tm+mt
-source-git-commit: 41777a093dbbcedf2d1a90bf0e2c5c282d31f032
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
