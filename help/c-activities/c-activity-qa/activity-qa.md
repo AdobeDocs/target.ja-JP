@@ -1,18 +1,18 @@
 ---
-keywords: qa、preview、リンクのプレビュー
-description: QA URL を利用すると、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なエンドツーエンドのアクティビティ QA を実行できます。
+keywords: qa；プレビュー；リンクのプレビュー；Adobe Target;Target
+description: Adobe Target QA URLを使用すると、変更のないプレビューリンク、オプションのオーディエンスのターゲット設定、およびライブアクティビティデータからセグメント化されたQAレポートを使用して、エンドツーエンドのアクティビティQAを簡単に実行できます。
 title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # アクティビティ QA {#activity-qa}
 
-QA URL を利用すると、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なエンドツーエンドのアクティビティ QA を実行できます。
+Adobe targetのQA URLを使用して、実稼動中のアクティビティデータからセグメント化された状態で、変更のないプレビューリンク、オプションのオーディエンスのターゲット設定、QAレポートを使用して、エンドツーエンドのアクティビティQAを簡単に実行します。
 
 ## 概要 {#section_11B761A522A14E61978275772210A4C2}
 
