@@ -5,7 +5,7 @@ title: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフ�
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 個人情報が公開または販売されたことを知る
 
 昨年の欧州のプライバシー法（GDPR）の準備に取り組んでいた場合、これらの権利の一部に精通しており、おこなった作業の多くは再利用できる可能性があります。
+
+>[!NOTE]
+>
+>CCPAに適用されるデータへのアクセスと削除は、GDPRと同じプロセスに従います。
 
 ## Adobe Target と [!DNL Experience Platform Launch] のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 ### Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
+
+### データが第三者と共有されたり販売されたりするのを防ぐために何かする必要があるか。
+
+Targetでは、顧客がTargetからサードパーティに直接データを共有または販売できないので、Targetのオプトアウト販売はありません。
