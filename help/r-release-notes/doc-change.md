@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
 | --- | --- | --- |
 | 2019年11月12日 | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.0.1 に関する情報を追加しました。 |
 |  | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | が郵便番号などの地 [!DNL Target] 域情報を保存しないことを説明する情報を追加しました。 |
 | 2019 年 11 月 9 日 | [Target Insiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | その他の過去の問題へのリンクを追加しました。 |
 |  | [プライバシーとデータ保護規制](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPAの節を新しいメモで更新しました。<br>Targetでは、顧客がTargetからサードパーティに直接データを共有または販売できないので、Targetの販売をオプトアウトできないことをお知らせする新しいFAQを追加しました。 |
 | 2019 年 11 月 8 日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | adobeQAパラメーターのコードサンプルを追加しました。 |
