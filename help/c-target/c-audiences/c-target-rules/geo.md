@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 **プエルトリコや香港などの地域はジオターゲティング構造にどのようにマッピングされますか？**
 
 プエルトリコや香港などの地域は、個別の「国」として扱われます。
+
+**アクティビティ[!DNL Target]が地域ターゲティング機能でターゲット設定されている場合、郵便番号などの情報を取得（および保存）できますか。**
+
+いいえ。セ [!DNL Target] ッション中のみ地域データを使用し、データは破棄されます。
 
 ## トレーニングビデオ：オーディエンスの作成
 
