@@ -4,7 +4,7 @@ description: Adobe targetのJava SDKに関するリリースノートです。
 title: Adobe targetのJava SDKに関するリリースノートです。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,14 @@ Java SDKを使 [!DNL Target] 用すると、サーバー側 [!DNL Target] をデ
 Java SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑 [!DNL Target] さを排除して、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。
 
 新しいTarget Java SDKを使用したサーバ側の最適化に関するアドビ [のテクニカルブログ（英語）で詳しく説明します](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。
+
+## バージョン1.0.1（2019年11月12日）
+
+次の節では、Target Java SDKのバージョン1.0.1について詳しく説明します。
+
+### 固定
+
+* 訪問者API cookieが存在しない場合でも、Targetリクエストに追加のデータIDを送信します。
 
 ## バージョン1.0.0（2019年10月31日）
 
