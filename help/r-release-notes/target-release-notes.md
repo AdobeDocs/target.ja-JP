@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >これらのリリースノートには、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。
 >
 >括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Target Java SDKバージョン1.0.1（2019年11月12日）
+
+バージョン1.0.1では、次の問題が修正されました。
+
+* 訪問者API cookieが存在しない場合でも、Targetリクエストに追加のデータIDを送信します。
+
+詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## Targetプラットフォーム（2019年10月31日）
 
