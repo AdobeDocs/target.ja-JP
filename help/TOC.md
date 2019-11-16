@@ -1,10 +1,10 @@
 ---
 product: target
-audience: エンドユーザー
-user-guide-title: Adobe Target ヘルプ
-user-guide-url: /content/help/ja-JP/target/using/target-home.html
+audience: end-user
+user-guide-title: Adobe Target Help
+user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
-      + [9 つの一般的な A/B テストの落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [10件の一般的なA/Bテストの落とし穴とそれらの回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B テストの作成 {#create}
          + [テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
