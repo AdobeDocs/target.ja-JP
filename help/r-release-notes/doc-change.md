@@ -1,11 +1,11 @@
 ---
-keywords: targetドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集
+keywords: target documentation change log;documentation updates;new topics;edits
 description: このページには、Adobe targetドキュメントに対して行われた重要な変更の一覧がリリース順に記載されています。
 title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 11 月 16 日 | [10件の一般的なA/Bテストの落とし穴とそれらの回避方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 「落とし穴7:テスト期間中のトラフィック配分の変更」を参照してください。 |
 | 2019年11月12日 | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.0.1 に関する情報を追加しました。 |
 |  | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | が郵便番号などの地 [!DNL Target] 域情報を保存しないことを説明する情報を追加しました。 |
