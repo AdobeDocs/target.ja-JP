@@ -1,11 +1,11 @@
 ---
-keywords: ちらつき；at.js；実装
+keywords: flicker;at.js;implementation
 description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
 title: Adobe Target の at.js によるちらつきの制御方法
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 at.js を非同期で読み込む方法は、ブラウザーによるレンダリングのブロックを防ぐのに最適ですが、Web ページにちらつきが生じることがあります。
 
-事前に非表示になっていて、対象の HTML 要素が [!DNL Target] によってパーソナライズされてから表示されるスニペットを使用することで、ちらつきを防げます。Adobe DTM や新しい Adobe Launch などのタグマネージャーを使用して、事前に非表示になっているスニペットを追加することをお勧めします。このスニペットは、at.js の読み込みの前に追加する必要があります。
+事前に非表示になっていて、対象の HTML 要素が [!DNL Target] によってパーソナライズされてから表示されるスニペットを使用することで、ちらつきを防げます。
+
+at.jsは、ページに直接埋め込むか、タグマネージャー(Adobe Launch、Dynamic Tag Manager(DTM)など)を介して、非同期で読み込むことができます。
+
+at.jsがページに埋め込まれている場合は、at.jsを読み込む前にスニペットを追加する必要があります。 タグマネージャーを介してat.jsを読み込み、同時に非同期で読み込む場合は、タグマネージャーを読み込む前にスニペットを追加する必要があります。 タグマネージャーが同期的に読み込まれる場合、at.jsの前にタグマネージャーにスクリプトが含まれる可能性があります。
 
 事前に非表示になるコードスニペットの例を次に示します。
 
