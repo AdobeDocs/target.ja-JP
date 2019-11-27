@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js;implementation
+keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
 title: Adobe Target の at.js によるちらつきの制御方法
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
