@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
    ![「製品」タブ](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. 目的の設定の名前をクリックします。
-1. 「**[!UICONTROL ユーザー]**」をクリックします。
+1. 目的のワークスペース（例えば、デフォルトのワークスペース）をクリックします。
+
+   ![デフォルトのワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    「[!UICONTROL ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（監視者、編集者、承認者）を選択します。
+1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（承認者、編集者、監視者）を選択します。
+
+   ![製品の役割ドロップダウンリスト](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | 役割 | 説明 |
    |--- |--- |
-   | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
-   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
 
 詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
