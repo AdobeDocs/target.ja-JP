@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年12月2日 | [Use Location Service](/help/c-target-mobile-app/use-location-service.md) | 新規トピックです。 |
 | 2019年11月27日 | [at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 「at.jsを非同期で読み込む場合のちらつきの管理」のテキストを更新しました。 |
 |  | [Target Insiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | 2019年11月のニュースレターへのリンクを追加しました。 |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 「役割と権限の指定」の下のテキストと画像を更新しました。 |
