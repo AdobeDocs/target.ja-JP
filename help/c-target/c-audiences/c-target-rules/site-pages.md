@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Adobe targetを使用して、特定のページにいる訪問者や特定のmboxパラメーターがある訪問者をターゲットに設定できます。
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: サイトの特定のページを閲覧している訪問者をターゲットに設定できます。
 title: Adobe targetのサイトページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # サイトのページ{#site-pages}
 
-特定のページにいる訪問者や、特定のmboxパラメーターがある訪問者をターゲットに設定できます。
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 独自の「ユーザー定義のクエリパラメーター」または「ユーザー定義のヘッダー」を使用して、サイトページのオーディエンスを作成することもできます。
+サイトの特定のページを閲覧している訪問者をターゲットに設定できます。
 
 1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
 1. オーディエンスに名前を付けます。
@@ -32,7 +28,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
    「選択」を選択した場合は、初期ドロップダウンリストで以下のオプションを使用で [!UICONTROL きます]。
 
-   * **現在のページ：**&#x200B;ユーザーが現在閲覧しているページで、アクティビティに mbox を含むページ。アクティビティレベルでターゲット設定する場合、このページは、エントリ条件の定義に使用する mbox を含むページか、コンテンツを表示するページのいずれかになります。エクスペリエンスでターゲット設定する場合は、現在のページは、表示 mbox を含むページになります。成功指標またはコンバージョンのターゲット設定の場合は、それらのmboxが含まれるページになります。
+   * **** 現在のページ：ユーザーが現在閲覧しているページ。
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
@@ -68,7 +64,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       >
       >`landing.url` サブドメインの変更またはダイレクトURLの置換時にオブジェクトがリセットされます。
 
-   * **** HTTPヘッダー：このオプションは、訪問者がサイトにアクセスする際に最初に目にするページのHTTPヘッダーの情報を評価します。 例えば、HTTPヘッダーに言語情報が含まれる場合、訪問者をターゲットにする条件を含むル `Accept-Language: es` ールを作成できます。
+   * **** HTTPヘッダー：このオプションは、TargetリクエストのHTTPヘッダーの情報を評価します。 例えば、HTTPヘッダーに言語情報が含まれる場合、スペイン語でページにアクセスする訪問者をターゲットにす `Accept-Language: es` る条件を含むルールを作成できます。
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
@@ -79,7 +75,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       * 承認
       * Cache-Control
       * 接続
-      * コンテンツ長
+      * Content-Length
       * Content-MDS
       * Content-Type
       * 日付
