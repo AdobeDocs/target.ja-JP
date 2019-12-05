@@ -5,7 +5,7 @@ title: Adobe targetのサイトページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 それぞれの使い分けは次のとおりです。
 
 * ユーザーが選択したルールが現在のページ、ランディングページ、前のページの場合はクエリパラメーターを使用します。
-* ユーザーが選択したルールが HTTP ヘッダーの場合はヘッダーを使用します。
+* ユーザーが選択したルールがHTTPヘッダーの場合は、ヘッダー。
 
 次の図を参照してください。
 
