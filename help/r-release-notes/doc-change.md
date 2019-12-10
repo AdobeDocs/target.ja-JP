@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年12月11日 | [ターゲット制限](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
+|  | [条件](/help/c-recommendations/c-algorithms/algorithms.md) | 条件の使用機能のサポートに関する注意を追加しました。 |
 | 2019 年 12 月 6 日 | [サイトのページ](/help/c-target/c-audiences/c-target-rules/site-pages.md) | トピックを更新しました。 |
 | 2019年12月2日 | [Use Location Service](/help/c-target-mobile-app/use-location-service.md) | 新規トピックです。 |
 | 2019年11月27日 | [at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 「at.jsを非同期で読み込む場合のちらつきの管理」のテキストを更新しました。 |
