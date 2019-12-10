@@ -1,10 +1,10 @@
 ---
-keywords: recommendations;recommendationsアクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リード生成；b2b；金融サービス；メディア；公開
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendationsの条件は、事前に決められた訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
 title: Adobe Target Recommendationsの条件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -107,3 +107,6 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![「条件使用状況」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>条件の使用機能は、現在、Recommendationsアクティビティでのみサポートされています。 A/B Test and Experience Targeting(XT)アクティビティは、現在サポートされていません。
