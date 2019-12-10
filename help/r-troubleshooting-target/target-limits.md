@@ -1,11 +1,11 @@
 ---
-keywords: 文字制限;mbox パラメーター;バッチ配信 api;プロファイルパラメーター;制限;組み込みプロファイル;最大;制限;制約;文字;ベストプラクティス;orderId;orderTotal;mbox3rdPartyId;カテゴリ;categoryId
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: 制限
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ GET リクエストの場合、バックエンドの上限は 5 KBですが、Mi
 
 **上限**：mbox パラメーターには次の上限が適用されます。
 
+標準mbox呼び出しの場合：
 * mbox パラメーター：mbox 1 個あたり 500 パラメーター。
-* プロファイルパラメーター：500 パラメーター。
-* mbox ごとのプロファイルパラメーター数：
+* プロファイルパラメーター：mboxごとに500個のパラメータープロファイルパラメーター。
 * その他のパラメーター（URL、参照元 URL など）：他のパラメータータイプごとに mbox 1 個あたり 50 個。
 
-Target データベースにログが記録されるパラメーターの場合、上記の制限は標準の mbox リクエストに適用されます。これらの制限は、Web ブラウザーの制約が原因で要求が短縮されない限り、適用されません。
+これらの制限は、Web ブラウザーの制約が原因で要求が短縮されない限り、適用されません。
 
-Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える場合、APIは次のエラーメッセージを返します。「mboxParametersの数は100を超えることはできません」。
+Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれる場合、APIは次のエラーメッセージを返します。
+
+「mboxParametersの数は50を超えてはなりません。」
+
+エンドポイントの制限：
+
+mbox v2のバッチ処理：
+* mboxパラメーター100
+* mboxパラメーター名の最大長128
+* mboxパラメーター値をNULLにすることはできません
+* mboxパラメーター値5000
+* プロファイルパラメーター50
+* プロファイルパラメーター名の最大長128
+* プロファイルパラメーターの値をNULLにすることはできません
+* プロファイルパラメーター値の最大長256
+
+配信APIエンドポイント
+* mboxパラメーター50
+* mboxパラメーター名の最大長128
+* mboxパラメーター値をNULLにすることはできません
+* mboxパラメーター値5000
+* プロファイルパラメーター50
+* プロファイルパラメーター名の最大長128
+* プロファイルパラメーターの値をNULLにすることはできません
+* プロファイルパラメーター値の最大長256
 
 ## mbox リクエスト URL
 
