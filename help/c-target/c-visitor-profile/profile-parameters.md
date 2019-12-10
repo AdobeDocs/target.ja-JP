@@ -1,11 +1,11 @@
 ---
-keywords: プロファイルスクリプト；プロファイルスクリプト属性；プロファイルスクリプト属性；プロファイルスクリプトのベストプラクティス；デバッグ；スクリプト；プロファイルスクリプト；属性；属性；パラメータ
+keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 title: Adobe Target のプロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -108,7 +108,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 未定義の変数が参照されている。
 * 無効な値が参照されている。これは、多くの場合、URL 値およびその他のユーザー入力データを適切な検証なしに参照することが原因です。
-* 使用される JavaScript 命令が多すぎる。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
+* 使用される JavaScript 命令が多すぎる。Target には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これは、手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。つまり、任意の関数を呼び出すと、100個の命令が消費されます。 また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
 * 後述の[ベストプラクティス](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)の節で取り上げられている項目に従っていない。
 
 ## ベストプラクティス{#best}
@@ -320,7 +320,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, および `landing.param` | ページのものと同様ですが、ランディングページ用です。 |
 | `mbox.name` | アクティブな mbox の名前。 |
 | `mbox.param(‘<par_name>’)` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
-| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
+| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。は関数呼び出 `profile.get(<par_name>)` しとして修飾されていることに注意してください。 |
 | `user.get(‘<par_name>’)` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
 | `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
 | `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
