@@ -5,7 +5,7 @@ title: Adobe targetのサイトページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
