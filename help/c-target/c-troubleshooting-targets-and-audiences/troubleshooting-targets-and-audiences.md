@@ -5,7 +5,7 @@ title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Targetでは、アクティビティの作成時にオーディエンスURLタ�
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**オーディエンスURLのターゲット**:オーディエンスURLのターゲット設定を適用するには、アクティビティの作成時に、エクスペリエンスページ（3ステップのガイドによるワークフローの1つ）で歯車アイコンをクリックし、「ページ配信」をクリックして、目的のURLを指定します。
+### オーディエンスURLのターゲット設定
+
+オーディエンスURLのターゲット設定を適用するには、アクティビティの作成時に、エクスペリエンスページ（3ステップのガイドによるワークフローの1つ）で歯車アイコンをクリックし、「ページ配信」をクリックして、目的のURLを指定します。
 
 ![ページ配信URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Targetでは、アクティビティの作成時にオーディエンスURLタ�
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-ベストプラクティスとして、URLに対するオーディエンスのターゲット設定以外に、クエリに含めることのできる特定の値を指定することもできます。
+URLに対するオーディエンスのターゲット設定以外に、クエリに含めることのできる特定の値を指定することもできます。
 
-**URLターゲット**:URLターゲティングを適用するには、オーディエンスの作成時に、「ルールを追加」をクリックし、「サイトページ」をクリックし、最初のドロップダウンリストからオプションを選択し（現在のページ、前のページまたはランディングページ）、2番目のドロップダウンリストからURLを選択し、評価基準を指定します。
+### URLターゲット設定
+
+URLターゲティングを適用するには、オーディエンスの作成時に、「ルールを追加」をクリックし、「サイトページ」をクリックし、最初のドロップダウンリストからオプションを選択し（現在のページ、前のページまたはランディングページ）、2番目のドロップダウンリストからURLを選択し、評価基準を指定します。
 
 ![サイトページ/現在のページ/URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
