@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。「Targetはターゲット設定でURLを評価する方法を教えてください。」 |
 | 2019年12月11日 | [ターゲット制限](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
 |  | [条件](/help/c-recommendations/c-algorithms/algorithms.md) | 条件の使用機能のサポートに関する注意を追加しました。 |
 | 2019 年 12 月 6 日 | [サイトのページ](/help/c-target/c-audiences/c-target-rules/site-pages.md) | トピックを更新しました。 |
