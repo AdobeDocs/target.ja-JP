@@ -4,7 +4,7 @@ description: Adobe Target Recommendationsの条件は、事前に決められた
 title: Adobe Target Recommendationsの条件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->アルゴリズムの使用機能は、現在、Recommendationsアクティビティでのみサポートされています。 この機能は、現在、A/B Test and Experience Targeting(XT)アクティビティをサポートしていません。
+>アルゴリズム [!UICONTROL の使用] 機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、現在、オファーとしてrecommendationsを含むA/B Test and Experience Targeting(XT)アクティビティではサポ [ートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
