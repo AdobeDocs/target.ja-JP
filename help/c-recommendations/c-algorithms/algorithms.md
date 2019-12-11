@@ -4,7 +4,7 @@ description: Adobe Target Recommendationsの条件は、事前に決められた
 title: Adobe Target Recommendationsの条件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 「**[!UICONTROL アルゴリズム使用状況]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。カードには、アクティブなアクティビティと非アクティブなアクティビティが一覧表示されます。「ライブアクティビティ」または「非アクティブなアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
 
-![「条件使用状況」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![「アルゴリズムの使用」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->条件の使用機能は、現在、Recommendationsアクティビティでのみサポートされています。 A/B Test and Experience Targeting(XT)アクティビティは、現在サポートされていません。
+>アルゴリズムの使用機能は、現在、Recommendationsアクティビティでのみサポートされています。 この機能は、現在、A/B Test and Experience Targeting(XT)アクティビティをサポートしていません。
