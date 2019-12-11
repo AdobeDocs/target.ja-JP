@@ -1,11 +1,11 @@
 ---
-keywords: トラブルシューティング、よくある質問、FAQ、FAQ、ターゲット、オーディエンス
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 title: ターゲットとオーディエンスに関する FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # ターゲットとオーディエンスに関する FAQ{#targets-and-audiences-faq}
 
 エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
+
+## Targetはターゲット設定でURLをどのように評価しますか。 {#url}
+
+Targetでは、アクティビティの作成時にオーディエンスURLターゲット設定を使用するか、オーディエンスの作成時にURLターゲット設定を使用するかによって、URLの評価が異なります。
+
+次のURLを考慮してください。
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**オーディエンスURLのターゲット**:オーディエンスURLのターゲット設定を適用するには、アクティビティの作成時に、エクスペリエンスページ（3ステップのガイドによるワークフローの1つ）で歯車アイコンをクリックし、「ページ配信」をクリックして、目的のURLを指定します。
+
+![ページ配信URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+オーディエンスURLのターゲット設定では、URLの完全一致を探します。 URLが一致する場合、Targetではそれ以上のロジックは考慮されません。 上記のURLでは、アクティビティが起動するように設定されている場合、オーディエンスURLのターゲ `www.example.com`ット設定はクエリに依存しないので、URLは次のURLと一致します。
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+ベストプラクティスとして、URLに対するオーディエンスのターゲット設定以外に、クエリに含めることのできる特定の値を指定することもできます。
+
+**URLターゲット**:URLターゲティングを適用するには、オーディエンスの作成時に、「ルールを追加」をクリックし、「サイトページ」をクリックし、最初のドロップダウンリストからオプションを選択し（現在のページ、前のページまたはランディングページ）、2番目のドロップダウンリストからURLを選択し、評価基準を指定します。
+
+![サイトページ/現在のページ/URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URLターゲット設定は、URLを評価する一連のルールに変換します。
+
+* URLドメイン= `example.com`
+* パス=パス1/パス2/パス3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## 複雑なURL文字列を作成する場合、はURL [!DNL Target] 全体を評価しますか。
 
