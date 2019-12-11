@@ -1,10 +1,10 @@
 ---
-keywords: テンプレートテスト;テンプレート;類似のページと同じエクスペリエンス;テンプレートテスト
+keywords: template testing;template;same experience on similar pages;template test
 description: ページテンプレートを使用してページの構造を指定する場合、または複数のページに類似の要素が含まれている場合は、この機能を使用すると、類似のページ要素構造を持つ複数のバリエーションをテストできます。
 title: 類似のページに同じエクスペリエンスを組み込む
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL
+   * URL (TargetがURLを評価する方法について詳しくは、ターゲットとオーディエ [ンスに関するFAQを参照してください](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
    * ドメイン
    * パス
    * ハッシュ（#）フラグメント（URL の # 記号に続く部分をターゲットにします。）
