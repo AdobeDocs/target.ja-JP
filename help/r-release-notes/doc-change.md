@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2019年12月20日 | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.1.0 に関する情報を追加しました。 |
 | 2019年12月13日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
 |  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | トピック名を変更し、次の節を追加しました。「自動配分アクティビティの上昇率と信頼性レポートを理解します。」 |
 | 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。「Targetはターゲット設定でURLを評価する方法を教えてください。」 |
