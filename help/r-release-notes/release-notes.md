@@ -1,11 +1,11 @@
 ---
-keywords: リリースノート；新機能；リリース；更新；更新；リリース；機能強化；修正；バグ修正
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 description: これらのリリースノートでは、Adobe Target Standard および Target Premium の各リリースの機能、機能強化、修正および既知の問題について説明します。
 title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 これらのリリースノートでは、Target Standard と Target Premium の各リリースの機能、機能強化および修正点について説明します。また、Target API、SDK、JavaScriptライブラリ(at.js)およびその他のプラットフォームの変更に関するリリースノートも、該当する場合は含まれます。
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Target Java SDKバージョン1.1.0（2019年12月17日）
+
+* @hisham-hassanが行ったオープンソースの貢献により、プロキシ設定のサポートが追加されました。
+
+詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## Target Java SDKバージョン1.0.1（2019年11月12日）
 
