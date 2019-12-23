@@ -5,7 +5,7 @@ title: Adobe targetのサイトページ
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 サイトの特定のページを閲覧している訪問者をターゲットに設定できます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL &#x200B;オーディエンスを作成]**をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL Site ページ]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL &#x200B;サイトページ]**をクリックします。
 
    ![サイトページオーディエンス](assets/target_site_pages.png)
 
-1. 「選択」ドロ **[!UICONTROL ップダウンリスト]** をクリックし、次のオプションのいずれかを選択して、必要に応じてルールを設定します。
+1. 「選択」ドロ **[!UICONTROL ップダウンリスト]**をクリックし、次のオプションのいずれかを選択して、必要に応じてルールを設定します。
 
    ルール内の後続のドロップダウンリストで使用できるオプションと評価演算子は、選択するオプションによって異なります。 次の図は、「現在のページ」を選択した場合に使用できるオプシ [!UICONTROL ョンを示します]。
 
@@ -132,6 +132,12 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
    * ランディングペ [ージアクティビティの代わりに](/help/c-activities/t-test-ab/test-ab.md) 、A/B testアクティビティを使用します。 A/Bテストアクティビティでは、同じ訪問者のエクスペリエンスは切り替わりません。
    * 代わりに、訪問者プ [ロファイルを使用](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
+* コンマを含む文字列で「次で始まる/次で終わる」評価演算子を使用する場合、これらの評価は値の配列として行われ、コンマで区切られた各値が評価されることに注意してください。 例えば、ヘッダーの値がある場合：次のよ `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` うな条件を満たします。
+   * zhで始まる
+   * enで始まる
+   * 0.7で終わる
+   * 0.8で終わります。
+
 ## トレーニングビデオ：オーディエンスの作成
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
@@ -139,4 +145,4 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
