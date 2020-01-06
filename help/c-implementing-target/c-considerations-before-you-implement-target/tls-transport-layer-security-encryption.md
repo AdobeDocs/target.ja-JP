@@ -1,11 +1,11 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption
+keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 title: TLS（Transport Layer Security）暗号化の変更
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 1a502cc9c235ee765f24f04acf60b6fd75c369dc
+source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
 
 ---
 
@@ -18,25 +18,25 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 
 >[!IMPORTANT]
 >
->2020年2月以降、Adobe targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2002年2月までにTLS 1.2にアップグレードしてください。
+>2020年3月1日以降、Adobe targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2002年3月1日より前にTLS 1.2にアップグレードしてください。
 
 この変更が、お客様の顧客のデータやレポートに大きな影響を及ぼすことはないと認識しています。
 
 ## 拡張 Experience Composer (EEC) を有効化した Visual Experience Composer (VEC) {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-これまで Adobe Target の[拡張 Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) はデフォルトで TLS 1.0 を利用していました。2020年2月以降、TargetはデフォルトでTLS 1.2に移行します。
+これまで Adobe Target の[拡張 Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) はデフォルトで TLS 1.1 を利用していました。2020年3月1日以降、TargetはデフォルトでTLS 1.2に移行します。
 
-アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。大多数のお客様のドメインは TLS 1.2 をサポートしています。ただし、お客様のドメインが TLS 1.2 をサポートしていない場合は、そのドメインを TLS 1.0 に留め置きます（2020 年 2 月まで）。
+アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。ほとんどの顧客ドメインは既にTLS 1.2をサポートしています。ただし、ドメインがTLS 1.2をサポートしていない場合は、現在（2020年3月まで）と同様に、TLS 1.1上のドメインを維持します。
 
 この移行期間中は問題は発生しないはずです。万一、VEC がそれまでは動作していたサイトの読み込みをおこなわなくなった場合には、[Client Care チケットを開き、](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)考えられる原因としてこの移行を挙げてください。
 
-しかし、万一 TLS 1.2 に対応できずに TLS 1.0 をご利用のお客様の場合、ドメインとインフラストラクチャを TLS 1.2 に移行する計画を立ててください。アドビは 2020 年 2 月までは TLS 1.0 のサポートを続けます。2020 年 2 月以降、Target は、拡張 Experience Composer 機能を介した VEC における TLS 1.0 プロトコル利用のサポートを停止します。
+ただし、TLS 1.2をサポートしていないTSL 1.1を利用しているお客様の場合は、ドメイン/インフラストラクチャをTLS 1.2に移動する計画を立てる必要があります。2020年3月まで、TLS 1.1プロトコルは引き続きサポートされます。 2020年3月以降、Targetは、拡張Experience Composer機能を使用してVECに使用するTLS 1.1プロトコルをサポートしなくなります。
 
-今後はすべてのお客様が TLS 1.2 へと移行することを強くお勧めしますが、新規のお客様で TLS 1.2 を&#x200B;*サポートしていない*&#x200B;場合は、拡張 Experience Composer にて TLS 1.0 を利用する必要があることをカスタマーケアまで連絡してください。しかし、2020 年 2 月を過ぎますとサポートはされませんので、TLS 1.2 への移行を計画してください。
+今後はすべてのお客様が TLS 1.2 へと移行することを強くお勧めしますが、新規のお客様で TLS 1.2 を&#x200B;*サポートしていない*&#x200B;場合は、拡張 Experience Composer にて TLS 1.1 を利用する必要があることをカスタマーケアまで連絡してください。ただし、2020年3月1日以降はサポートされないので、TLS 1.2への移行を計画してください。
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-2020 年 2 月以降、Target サーバーは TLS 1.0 をサポートしません。この変更により、TLS 1.1 以上をサポートしていない旧型のデバイスや Web ブラウザーを使用しているエンドユーザーのリクエストを Target サーバーが受け付けなくなります。この結果、TLS 1.0 のみサポートする（あるいはデフォルトで TLS 1.0 をサポートする）旧型のデバイスやブラウザーは、Adobe Target からアクティビティコンテンツを受け取らないこととなります。サイトのデフォルトコンテンツがレンダリングされます。
+2020年3月1日以降、TargetサーバーはTLS 1.1をサポートしなくなります。この変更により、古いデバイスまたはTLS 1.1以降をサポートしていないWebブラウザーを使用するエンドユーザーからの要求は、Targetサーバーでは受け入れられなくなります。 この結果、TLS 1.1 のみサポートする（あるいはデフォルトで TLS 1.1 をサポートする）旧型のデバイスやブラウザーは、Adobe Target からアクティビティコンテンツを受け取らないこととなります。サイトのデフォルトコンテンツがレンダリングされます。
 
 影響を受ける旧型のデバイスおよびブラウザには以下が含まれます。
 
@@ -45,17 +45,17 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 * Windows Phone 8.0 の Internet Explorer 10
 * Safari 6.0.4/OS X10.8.4 およびそれ以前のバージョン
 
-この変更に対応する計画については、次のことを考慮してください（2020 年 2 月の期日は、これらすべての事項に影響します）。
+この変更を計画している場合は、次の点を考慮してください（2020年3月1日の期限は、これらの項目すべてに影響します）。
 
 * 準拠しているデバイスやブラウザーが、デフォルトのサイトに対応するように準備されていることを確認してください。
 * Target レポートの訪問者数で、訪問者数に多少の低下がみられる可能性があることを知っておいてください。
-* TLS 1.0 をサポートしない旧型のデバイスやブラウザーを特にターゲットとするために作成されたオーディエンスを変更する必要があるかもしれません。こうしたデバイスやブラウザーへの配信は動作しなくなります。
+* TLS 1.1 をサポートしない旧型のデバイスやブラウザーを特にターゲットとするために作成されたオーディエンスを変更する必要があるかもしれません。こうしたデバイスやブラウザーへの配信は動作しなくなります。
 
-サポートされているブラウザーとそのバージョンの詳細は、[サポートされているブラウザー](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
-2020 年 2 月以降、Target API は TLS 1.0 暗号化をサポートしません。API にアクセスするお客様は、この変更による影響の有無を確認してください。
+2020年3月1日以降、Target APIはTLS 1.1暗号化をサポートしなくなります。 API にアクセスするお客様は、この変更による影響の有無を確認してください。
 
 * デフォルト設定で Java 7 を使用する API クライアントは、TLS 1.2 をサポートするための変更が必要です。詳細は、Java の Web サイトにある「[Changing default TLS protocol version for client end points: TLS 1.0 to TLS 1.2](https://www.java.com/en/configure_crypto.html)」を参照してください。
 * Java 8 を使用している API クライアントは、デフォルト設定が TLS 1.2 なので、影響を受けません。
