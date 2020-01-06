@@ -1,10 +1,10 @@
 ---
-keywords: 既知の問題；解決された問題；リリースノート；バグ；問題；修正点
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: このリリースのAdobe targetの既知の問題に関する情報です。 また、解決された問題に関する情報も含まれています。
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -67,6 +67,7 @@ Recommendations アクティビティの既知の問題は次のとおりです�
 * A/Bのレコメンデーションオファーおよびエクスペリエンスのターゲット設定アクティビティで、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
 * APIを使用して作成されたコレクション、除外、条件およびデザインは、Targetのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。 （TGT-35777）
 * APIを使用して作成されたレコメンデーションアクティビティはユーザーインターフェイスで表示できますが、編集はAPIを使用してのみ可能です。
+* 条件リスト（カード）表示に表示されるカスタム条件のフィードステータスは、10分ごとに更新され、まれに10分以上古くなる場合があります。 カスタム条件の編集ビューに表示されるステータスは、リアルタイムで常に最新の状態で取得されます。 (TGT-35896、TGT-36173)
 
 ### 多変量分析テスト（MVT）アクティビティ
 
@@ -95,7 +96,7 @@ at.js の既知の問題を以下に示します。
 * at.js バージョン 1.0 にアップグレードすると、at.js と Visitor API 2.2.0 とのインタラクションが原因で、Microsoft Explorer 11 ブラウザーでは mbox が実行されません。この問題が関係するのは、at.js バージョン 0.9.6 以降です。（TNT-27600）
 * at.js は、ファーストパーティ cookie が現在サポートされていないので、Cordova／ハイブリッドアプリで動作しない可能性があります。（TNT-26166）
 
-   **対処法**："x- only" オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
+   **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
 
 ### mbox.js
 
