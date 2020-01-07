@@ -3,7 +3,7 @@ keywords: insider newsletter;newsletter;product updates;tips and tricks;events;c
 description: Adobe Target Insider は、Adobe Target コミュニティのメンバーを対象に月 1 回発行しているニュースレターです。製品のアップデートや将来の計画、パーソナライゼーションや最適化のためのヒントとテクニック、ユーザー事例、今後のイベント、情報満載のホワイトペーパー、人気のブログ記事などの情報をお知らせします。
 title: 'Adobe Target Insider ニュースレター '
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Target Insider は、Adobe Target コミュニティのメンバーを対�
 
 | 問題 | 詳細 |
 |--- |--- |
+| [2019年12月（第2巻、第12号）](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Adobe targetチームでは、今年が終わるのを見て、2019年に起きたすべての出来事を振り返ることができて嬉しいです。 この特別な年末の号では、当社の素晴らしい顧客や実践者を認識し、その年の月々のハイライトを提供します。 |
 | [2019年11月（第2巻、第11号）](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | エキサイティングなニュースがある！ 第1に、ForresterはアドビをForrester waveのリーダーに指名しました。Digital Intelligence Platforms、2019年第4四半期 新しいオープンソースのNode.js SDKと強力な新しいユーザーベースのレコメンデーションアルゴリズムをリリースしました。 また、Adobe targetの実践者が共有するパーソナライゼーションと最適化に関する素晴らしいヒントも得られました。 その後、ソーシャルメディアの影響力を持つゴールディ・チャンは、最近の2つのLinkedInライブセッションで、Adobe targetのJason Hickeyと私にインタビューした。 アドビのJamie Brighton氏が、データ管理ツールやデータプライバシーを競合上の差別化要因として使用するツールについて考えてみました。 最後に、モバイルアプリの開発者は、最終的なMobile App Skill Builderに参加できます。 |
 | [2019 年 10 月（2 巻 10 号）](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 今月号には、お客様のための素晴らしいコンテンツがたくさんあります。 オンラインニュース出版社McClatchyのWendy Melemed氏が、パーソナライズと最適化に関するヒントを紹介します。 モバイルアプリ開発者向けの無料スキルビルダー仮想ラボを登録し、公開予定です。 Adobe targetとAdobe Campaignを統合することの大きな利点を発見します。 また、強力なパーソナライゼーションプログラムを構築するための実践ガイド、エクスペリエンスパーソナライゼーションのための優れた実践ブックをダウンロードします。 最後に、Adobe Target on Experience Leagueを参照し、業界をリードするパーソナライゼーションソリューションの利用を迅速に進めるためのリソースを確認します。 |
 | 2019年9月 | 今月はニュースレターは発行されませんでした。 |
