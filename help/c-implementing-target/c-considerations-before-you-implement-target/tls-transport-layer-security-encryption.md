@@ -5,41 +5,44 @@ title: TLS（Transport Layer Security）暗号化の変更
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
 
 # TLS（Transport Layer Security）暗号化の変更{#tls-transport-layer-security-encryption-changes}
 
-最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
+AdobeおよびAdobe targetで最高のセキュリティ標準を維持し、顧客データの安全性を高めるためにTLS(Transport Layer Security)を使用する方法に関する変更について説明します。
 
-Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。[!DNL Adobe] は、古いプロトコルの廃止を義務付けるセキュリティコンプライアンス標準規格を持っており、最新でセキュアなバージョンを利用するため TLS 1.2 の使用を必須としています。
+Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。アドビは古いプロトコルの廃止を義務付けるセキュリティコンプライアンス標準規格を持っており、最新でセキュアなバージョンを利用するため TLS 1.2 の使用を必須としています。
 
 >[!IMPORTANT]
 >
->2020年3月1日以降、Adobe targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2002年3月1日より前にTLS 1.2にアップグレードしてください。
+>2020年3月1日以降、Adobe targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2020年3月1日までにTLS 1.2にアップグレードしてください。
 
 この変更が、お客様の顧客のデータやレポートに大きな影響を及ぼすことはないと認識しています。
 
 ## 拡張 Experience Composer (EEC) を有効化した Visual Experience Composer (VEC) {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-これまで Adobe Target の[拡張 Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) はデフォルトで TLS 1.1 を利用していました。2020年3月1日以降、TargetはデフォルトでTLS 1.2に移行します。
+TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートされなくなります。
 
 アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。ほとんどの顧客ドメインは既にTLS 1.2をサポートしています。ただし、ドメインがTLS 1.2をサポートしていない場合は、現在（2020年3月まで）と同様に、TLS 1.1上のドメインを維持します。
 
 この移行期間中は問題は発生しないはずです。万一、VEC がそれまでは動作していたサイトの読み込みをおこなわなくなった場合には、[Client Care チケットを開き、](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)考えられる原因としてこの移行を挙げてください。
 
-ただし、TLS 1.2をサポートしていないTSL 1.1を利用しているお客様の場合は、ドメイン/インフラストラクチャをTLS 1.2に移動する計画を立てる必要があります。2020年3月まで、TLS 1.1プロトコルは引き続きサポートされます。 2020年3月以降、Targetは、拡張Experience Composer機能を使用してVECに使用するTLS 1.1プロトコルをサポートしなくなります。
+ただし、TLS 1.2をサポートしていないTSL 1.1を利用しているお客様の場合は、ドメイン/インフラストラクチャをTLS 1.2に移動する計画を立てる必要があります。2020年3月1日まで、TLS 1.1プロトコルは引き続きサポートされます。 2020年3月1日以降、Targetは、拡張Experience Composer機能を使用してVECに使用するTLS 1.1プロトコルをサポートしなくなります。
 
 今後はすべてのお客様が TLS 1.2 へと移行することを強くお勧めしますが、新規のお客様で TLS 1.2 を&#x200B;*サポートしていない*&#x200B;場合は、拡張 Experience Composer にて TLS 1.1 を利用する必要があることをカスタマーケアまで連絡してください。ただし、2020年3月1日以降はサポートされないので、TLS 1.2への移行を計画してください。
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-2020年3月1日以降、TargetサーバーはTLS 1.1をサポートしなくなります。この変更により、古いデバイスまたはTLS 1.1以降をサポートしていないWebブラウザーを使用するエンドユーザーからの要求は、Targetサーバーでは受け入れられなくなります。 この結果、TLS 1.1 のみサポートする（あるいはデフォルトで TLS 1.1 をサポートする）旧型のデバイスやブラウザーは、Adobe Target からアクティビティコンテンツを受け取らないこととなります。サイトのデフォルトコンテンツがレンダリングされます。
+2020年3月1日以降、TargetサーバーはTLS 1.1をサポートしなくなります。この変更により、Targetサーバーは、古いデバイスまたはTLS 1.2（以降）をサポートしていないWebブラウザーを使用する訪問者からの要求を受け入れなくなります。 この結果、TLS 1.1 のみサポートする（あるいはデフォルトで TLS 1.1 をサポートする）旧型のデバイスやブラウザーは、Adobe Target からアクティビティコンテンツを受け取らないこととなります。サイトのデフォルトコンテンツがレンダリングされます。
 
 影響を受ける旧型のデバイスおよびブラウザには以下が含まれます。
 
+* Google Chrome（Android版Chrome）バージョン29以前
+* Operaブラウザー(Opera Mobile)バージョン12.17以前
+* Mozilla Firefox（Mobile用Firefox）バージョン26以前
 * Android 4.3 およびそれ以前のバージョン
 * Windows 7 の Internet Explorer 8-10 およびそれ以前のバージョン
 * Windows Phone 8.0 の Internet Explorer 10
@@ -49,7 +52,7 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 
 * 準拠しているデバイスやブラウザーが、デフォルトのサイトに対応するように準備されていることを確認してください。
 * Target レポートの訪問者数で、訪問者数に多少の低下がみられる可能性があることを知っておいてください。
-* TLS 1.1 をサポートしない旧型のデバイスやブラウザーを特にターゲットとするために作成されたオーディエンスを変更する必要があるかもしれません。こうしたデバイスやブラウザーへの配信は動作しなくなります。
+* 古いデバイスやTLS 1.2をサポートしないブラウザーをターゲットにするために、特別に作成したオーディエンスを変更する必要がある場合があります。これらのデバイスおよびブラウザーへの配信は、機能しなくなります。
 
 For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
