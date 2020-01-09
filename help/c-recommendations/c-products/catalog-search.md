@@ -4,7 +4,7 @@ description: Adobe Target でカタログ検索を使用すると、カタログ
 title: Adobe Target のカタログ検索
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  
 
 カタログ検索ページ（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）の詳細検索を使用して、[コレクション](/help/c-recommendations/c-products/collections.md)または[除外](/help/c-recommendations/c-products/exclusions.md)を作成できます。
 
-![名前を付けて保存ダイアログ](/help/c-recommendations/c-products/assets/save-as.png)
+![名前を付けて保存ダイアログ](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクションまたは除外]をクリックします。
 
