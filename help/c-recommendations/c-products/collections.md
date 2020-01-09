@@ -1,10 +1,10 @@
 ---
-keywords: コレクション;ターゲット設定
+keywords: collection;Targeting
 description: Adobe Target のコレクションは、レコメンデーションに使用できる商品または品目のセットです。
 title: Adobe Target のコレクション
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 レコメンデーションに表示したい製品を整理するために、コレクションを作成します。
 
-1. **[!UICONTROL Recommendations]**／**[!UICONTROL ｌコレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
+1. **[!UICONTROL Recommendations]**／**[!UICONTROL &#x200B;コレクション]**をクリックして、既存のコレクションのリストを表示します。
 
    ![コレクションリスト](assets/collections_list.png)
 
@@ -43,13 +43,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 
-1. （条件付き）コレクションの作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**&#x200B;フィルターから選択して、その環境のコレクションのコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）コレクションの作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**フィルターから選択して、その環境のコレクションのコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
    ![コレクションの作成](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+1. コレクションの&#x200B;**[!UICONTROL 名前]**を入力します。
 
-   オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を入力することもできます。
+   オプションで&#x200B;**[!UICONTROL 説明]**を入力することもできます。
 
 1. コレクションの構築に使用するルールを設定します。
 
@@ -63,7 +63,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 また、[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)ページ（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）の詳細検索を使用してコレクションを作成することもできます。
 
-![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as.png)
+![名前を付けて保存ダイアログ](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL コレクション]をクリックします。
 
@@ -78,4 +78,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
