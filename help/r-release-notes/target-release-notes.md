@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: cab8de265b173c393af37cde31006302e5238f25
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -25,6 +25,12 @@ source-git-commit: cab8de265b173c393af37cde31006302e5238f25
 ## Target Standard/Premium 20.1.1（2020年1月22日）
 
 Target Standard/Premium 20.1.1リリースは2020年1月22日に予定されています。 機能と機能強化については、こちらをご覧ください。
+
+>[!IMPORTANT]
+>
+>2020年3月1日以降、TargetはTLS 1.1およびTLS 1.0暗号化のサポートを無効にします。 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。この変更は、TLS 1.2以降の一般的に認められるセキュリティコンプライアンス標準を満たすために必要です。 現在使用しているTLSバージョンを確認します。 バージョンが1.2より前の場合は、Targetを引き続き期待どおりに使用するために、2020年3月1日より前に必要な変更を実装します。
+>
+> 影響の可能性と実装を更新するために必要な手順について詳しくは、 [TLS(Transport Layer Security)暗号化の変更を参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
