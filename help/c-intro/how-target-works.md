@@ -1,12 +1,12 @@
 ---
-keywords: 概要と参照;SEO;検索エンジン最適化
+keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target は、at.js または mbox.js の 2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます
 title: Adobe Target の仕組み
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Adobe Target ソリューションは、世界中のアドビが所有するデータセンターおよびアドビ専用のデータセンターでホストされています。管理サーバーは、ロンドン、シンガポールおよびオレゴンおよびバージニアを含む米国内の複数の場所にある、アドビが所有するデータセンター内で完全にホストされています。Edge サーバーは、ロンドン、香港、シンガポール、東京およびシドニーにある、アドビが所有するサーバーおよび Amazon AWS データセンターのアドビ専用のサーバーでホストされています。
+Adobe Target ソリューションは、世界中のアドビが所有するデータセンターおよびアドビ専用のデータセンターでホストされています。管理サーバーは、ロンドン、シンガポールおよびオレゴンおよびバージニアを含む米国内の複数の場所にある、アドビが所有するデータセンター内で完全にホストされています。エッジサーバーは、Amazon AWSデータセンター（ロンドン、香港特別行政区、シンガポール、東京、シドニー）のアドビ所有およびアドビリースサーバーの両方でホストされます。
 
 管理サーバー拠点には、データ収集センターとデータ処理センターの両方が設置されています。エッジサイト拠点には、データ収集センターのみ設置されています。個々のレポートスイートは特定のデータ処理センターに割り当てられています。
 
@@ -105,7 +105,7 @@ Adobe Target ソリューションは、世界中のアドビが所有するデ�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] は、現在、中国に Edge ネットワークがなく、中国の [!DNL Target] のお客様は、エンドユーザーパフォーマンスが引き続き制限されます。グレートファイアウォールおよび中国内での Edge ノードの不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスは、レンダリングが遅くなり、ページ読み込みに影響します。また、マーケティング担当者は、[!DNL Target] Authoring UI を使用する際に遅延を感じる可能性があります。
+>[!DNL Adobe Target] は、現在、中国に Edge ネットワークがなく、中国の [!DNL Target] のお客様は、エンドユーザーパフォーマンスが引き続き制限されます。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## 保護されたユーザーエクスペリエンス {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Google はユーザーテストを推奨するとともに、ドキュメンテ�
 
    Target は、プラットフォームとしては検索エンジンボットを他のユーザーと同様に扱うよう設定されています。このため、ボットがランダムに選択してテストのバリエーションを「見た」場合、実行するテストにボットも含まれる場合があります。
 
-* **rel="canonical" を使う** - バリエーションを付けるために異なる URL を使用して A/B テストを設定する必要のあることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに含ませます。例えば、Adobe がバリエーションごとに異なる URL を使用してホームページをテストしていた場合、ホームページの次の canonical タグをそれぞれのバリエーションの `<head>` タグに入れます。
+* **rel=&quot;canonical&quot; を使う** - バリエーションを付けるために異なる URL を使用して A/B テストを設定する必要のあることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに含ませます。例えば、Adobe がバリエーションごとに異なる URL を使用してホームページをテストしていた場合、ホームページの次の canonical タグをそれぞれのバリエーションの `<head>` タグに入れます。
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
