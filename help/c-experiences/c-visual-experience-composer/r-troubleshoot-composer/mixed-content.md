@@ -1,20 +1,16 @@
 ---
-keywords: 混合コンテンツ;安全な;安全でない;chomre;トラブルシューティング;vec;visual experience composer;保護されていない
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。
-title: ブラウザーでの混在するコンテンツの有効化
+title: ブラウザーでの混合コンテンツの有効化
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# ブラウザーでの混在するコンテンツの有効化{#enabling-mixed-content-in-your-browser}
-
-安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。
-
-## ブラウザーでの混在するコンテンツの有効化 {#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。
 
@@ -34,7 +30,37 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)を参照してください。
 
-## Firefox で混合コンテンツを有効化 {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+安全な接続を介してサイトに訪問している場合は、Web ページ上のコンテンツが安全に転送されたかどうかを Google Chrome が確認します。
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+Google Chrome ヘルプの[安全でないコンテンツを含むページ](https://support.google.com/chrome/answer/1342714?hl=en)に関する説明を参照してください。
+
+### トレーニングビデオ：ChromeでのVECの有効化（2020年1月）
+
+最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を実行する必要はありません。
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+上記のビデオでは、必要な手順の概要を説明しています。
+
+1. ロックまたは注意アイコンをクリックし、「サイトの設定」をクリックします。
+
+   ![サイトの設定](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. 「セキュリティで保護されていないコンテンツ」までスクロールし、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
+
+   ![安全でないコンテンツ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. VECページをリロードします。
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Firefox では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、[!DNL Target] を使用するように永久的に変更することをお勧めします。
 
@@ -51,7 +77,7 @@ target/t_mixed_content_firefox.xml
 
    値を「True」から「False」に変更します。値が「False」と表示されたら、完了です。この設定を変更した後、コンピューターを再起動することをお勧めします。
 
-## Internet Explorer で混合コンテンツを有効化 {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 Internet Explorer では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、Target Standard を使用するように永久的に変更することをお勧めします。
 
@@ -61,23 +87,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**&#x200B;をクリックします。
+1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**をクリックします。
 1. 「[!UICONTROL セキュリティ]」タブを開きます。
-1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL カスタムレベル]**」をクリックします。
+1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL &#x200B;カスタムレベル]**」をクリックします。
 1. 「**[!UICONTROL その他]**」を選択します。
 1. 「[!UICONTROL その他]」の下の「**[!UICONTROL 混在したコンテンツを表示する]**」を有効にします。
-1. 「**[!UICONTROL OK]** / **[!UICONTROL はい]** / **[!UICONTROL 適用]**」をクリックします。
+1. 「**[!UICONTROL OK]**／**[!UICONTROL &#x200B;はい]**／**[!UICONTROL 適用]**」をクリックします。
 
 この設定を変更した後、コンピューターを再起動することをお勧めします。
 
-## Chrome で混合コンテンツを有効化 {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-安全な接続を介してサイトに訪問している場合は、Web ページ上のコンテンツが安全に転送されたかどうかを Google Chrome が確認します。
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-Google Chrome ヘルプの[安全でないコンテンツを含むページ](https://support.google.com/chrome/answer/1342714?hl=en)に関する説明を参照してください。
