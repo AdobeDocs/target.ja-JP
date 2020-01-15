@@ -1,11 +1,11 @@
 ---
-keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
+keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 title: Enterprise 権限の設定
-subtopic: 導入
+subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Adobe Admin Console for Enterprise で実行するタスクの場合は、次の手順でコンソールにアクセスします。
 
-1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
 
    または
 
@@ -43,7 +43,7 @@ Adobe Admin Console for Enterprise で実行するタスクの場合は、次の
 
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
+1. [Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL &#x200B;ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペース（製品プロファイル）の作成{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -90,7 +90,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. Admin Console で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
+1. Admin Console で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL &#x200B;ユーザーグループ]**」をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -101,7 +101,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
+1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;プロパティ]**をクリックして[!UICONTROL プロパティ]リストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -129,7 +129,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    または
 
-   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
+   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;プロパティ]**をクリックして[!UICONTROL プロパティ]リストを表示します。
 
    1. 目的のプロパティの[!UICONTROL 最終更新日]列の上にマウスポインターを置いて、[!UICONTROL コード]アイコンを表示し、クリックします。
 
@@ -171,10 +171,6 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    ![ワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-   >[!NOTE]
-   >
-   >プロパティおよび権限機能は、[Target Standard／Premium](/help/c-intro/intro.md#premium) にのみ適用されます。この機能は [!DNL Target Classic] では使用できません。
-
 1. 目的のプロファイルの名前をクリックします。
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
@@ -208,7 +204,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Adobe Target でプロパティを作成する方法（3:05）
 
@@ -220,4 +216,4 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
    * モバイルアプリ
    * 電子メール、セットトップボックス、API 呼び出し
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/)
