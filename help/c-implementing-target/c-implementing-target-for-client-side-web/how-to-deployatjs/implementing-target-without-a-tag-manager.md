@@ -1,12 +1,12 @@
 ---
-keywords: 注文の確認;orderConfirmPage
+keywords: order confirmation;orderConfirmPage
 description: タグマネージャー（Adobe Launch または Dynamic Tag Management）を使用しないで Adobe Target を実装する方法について説明します。
 title: タグマネージャーを使用しない Target の実装
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための推奨される方法です。次の情報は、Adobe Launch を使用して Target を実装する場合には適用されません。
 
-## at.js の設定 {#concept_2FA0456607D04F82B0539C5BF5309812}
+## at.js configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
 
 at.js の設定ページでいくつかの設定をおこなう方法を説明します。
 
@@ -37,8 +37,8 @@ at.js の設定ページでいくつかの設定をおこなう方法を説明�
 
 [!UICONTROL 設定]ページを開くには、次の手順を実行します。
 
-1. 「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順にクリックします。
-1. 「**[!UICONTROL at.js]**」／「**[!UICONTROL at.js 設定を編集]**」の順に選択します。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;実装]**をクリックします。
+1. **[!UICONTROL at.js]**／**[!UICONTROL  at.js 設定を編集]**をクリックします。
 
 ## コンテンツ配信設定 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -57,7 +57,7 @@ at.js の設定ページでいくつかの設定をおこなう方法を説明�
 | IMS 組織 ID | この ID は、実装を [!DNL Adobe Experience Cloud] アカウントと結び付けます。<br>この設定は変更できません。 |
 | プロファイルの有効期間 | この設定は、訪問者プロファイルが保存される期間を決定します。デフォルトでは、プロファイルは 2 週間保存されます。この期間は最大で 90 日まで延長することができます。<br>プロファイルの有効期間設定を変更するには、[ClientCare](https://helpx.adobe.com/contact/enterprise-support.ec.html) にお問い合わせください。 |
 | X-Domain | ブラウザーで Cookie を設定する場合、お客様独自のドメインで設定するか（ファーストパーティ Cookie）、Target のドメインで設定するか、またはその両方で設定するかどうかを指定します。<br>この設定を変更すると、at.js と mbox.js の両方に影響します。 |
-| タイムアウト | [!DNL Target] が定義された期間内にコンテンツの応答をしない場合、サーバー呼び出しはタイムアウトし、デフォルトコンテンツが表示されます。訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>この設定を変更すると、at.js と mbox.js の両方に影響します。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、Target がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意：**[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定では、[!DNL Target] が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。 |
+| タイムアウト | [!DNL Target] が定義された期間内にコンテンツの応答をしない場合、サーバー呼び出しはタイムアウトし、デフォルトコンテンツが表示されます。訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>この設定を変更すると、at.js と mbox.js の両方に影響します。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、Target がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意： **[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)設定では、[!DNL Target]が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。 |
 | レガシーブラウザーのサポート | **注意：**「レガシーブラウザーのサポート」オプションは、at.js バージョン 0.9.3 以前で使用できます。このオプションは、at.js バージョン 0.9.4 で削除されました。at.js でサポートされているブラウザーのリストについては、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)」を参照してください。<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にすると、Target はコンテンツを配信しないか、そうしたブラウザーのレポートで訪問者をカウントします。このオプションを有効にする場合、古いブラウザーで品質保証をおこない、優れた顧客エクスペリエンスが得られるようにします。 |
 
 ## コード設定 {#section_D41C905D0F8149949F525C85F2CCFF7F}
@@ -85,21 +85,21 @@ ov2/c_target-configure-atjs.xml
 >
 >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
-## Target インターフェイスを使用した at.js のダウンロード {#section_1F5EE401C2314338910FC57F9592894E}
+## Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
-1. 「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順にクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;実装]**をクリックします。
 1. 「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL at.js をダウンロード]**」をクリックします。
 
-## Target ダウンロード API を使用した at.js のダウンロード {#section_C0D9D2A9068144708D08526BA5CA10D0}
+## Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 API を使用して [!DNL at.js] をダウンロードするには：
 
 1. クライアントコードを取得します。
 
-   クライアントコードは、[!DNL Target] インターフェイスの「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**&#x200B;ページの最上部にあります。
+   クライアントコードは、**[!UICONTROL インターフェイスの]**セットアップ**[!UICONTROL ／]**実装&#x200B;**[!UICONTROL ／]**at.js 設定を編集[!DNL Target]ページの最上部にあります。
 
 1. 管理番号を取得します。
 
@@ -138,7 +138,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
    この URL を読み込むと、カスタマイズされた [!DNL at.js] ファイルのダウンロードが開始されます。
 
-## at.js の実装 {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
@@ -202,21 +202,15 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 次の重要な注意点を考慮してください。
 
 * HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
-* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合、`<client code>` を独自のクライアントコードに置き換えてください。このコードは、「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」／「**[!UICONTROL at.js 設定を編集]」**&#x200B;ページから取得できます。
+* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
 * 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
 * at.js はページの `<head>` に含めます。
 
-## コンバージョンの追跡 {#task_E85D2F64FEB84201A594F2288FABF053}
+## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
 
 注文の確認 mbox では、サイトでの注文に関する詳細が記録され、売上高および注文に基づくレポートが可能になります。また、注文の確認 mbox は、「商品 x および商品 y を購入した人」などのレコメンデーションアルゴリズムを駆動できます。
-
-<!-- 
-
-ov/t_create_orderconfirm-page-mbox-atjs.xml
-
- -->
 
 >[!NOTE]
 >
