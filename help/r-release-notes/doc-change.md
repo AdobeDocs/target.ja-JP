@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 ---
 
@@ -19,6 +19,8 @@ source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2020年1月15日 | [ブラウザーでの混合コンテンツの有効化](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 最新バージョンのChromeで混合コンテンツを許可するためのサイト設定の更新方法を説明するトレーニングビデオと手順を追加しました。 |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md) | エンティティとエンティティ属性のアップロードおよび削除に関する注意を追加しました。 |
+|  | [注文の確認 mbox の作成 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | at.js 2を使用して注文確認を実行する方法を説明する注記を追加しました。*x*. |
 | 2020 年 1 月 10 日 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | テキストを更新しました。<br>2020年3月1日以降、Adobe targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2020年3月1日までにTLS 1.2にアップグレードしてください。 |
 | 2020年1月6日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | カスタム条件フィードのステータスに関する既知の問題を追加しました。 |
 | 2019年12月20日 | [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.1.0 に関する情報を追加しました。 |
