@@ -5,7 +5,7 @@ title: ブラウザーでの混合コンテンツの有効化
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -30,19 +30,13 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)を参照してください。
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 安全な接続を介してサイトに訪問している場合は、Web ページ上のコンテンツが安全に転送されたかどうかを Google Chrome が確認します。
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 Google Chrome ヘルプの[安全でないコンテンツを含むページ](https://support.google.com/chrome/answer/1342714?hl=en)に関する説明を参照してください。
 
-### トレーニングビデオ：ChromeでのVECの有効化（2020年1月）
+### トレーニングビデオ：Chromeバージョン79.0.3945.117以降でVECを有効にします（2020年1月）。
 
 最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を実行する必要はありません。
 
@@ -60,15 +54,9 @@ Google Chrome ヘルプの[安全でないコンテンツを含むページ](htt
 
 1. VECページをリロードします。
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Firefox では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、[!DNL Target] を使用するように永久的に変更することをお勧めします。
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. Firefox で、アドレスバーに`about:config`を入力します。
 1. Firefox に表示された警告メッセージを確認します。
@@ -77,15 +65,9 @@ target/t_mixed_content_firefox.xml
 
    値を「True」から「False」に変更します。値が「False」と表示されたら、完了です。この設定を変更した後、コンピューターを再起動することをお勧めします。
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-Internet Explorer では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、Target Standard を使用するように永久的に変更することをお勧めします。
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+Internet Explorer では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、Target を使用するように永久的に変更することをお勧めします。
 
 1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**をクリックします。
 1. 「[!UICONTROL セキュリティ]」タブを開きます。
