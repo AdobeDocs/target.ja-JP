@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2020 年 1 月 8 日**
+**最終更新日：2020 年 1 月 22 日**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 >
 >括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## Target Standard/Premium 20.1.1（2020年1月22日）
+## Target Standard/Premium 20.1.1（2020年1月29日）
 
-Target Standard/Premium 20.1.1リリースは2020年1月22日に予定されています。 機能と機能強化については、こちらをご覧ください。
+Target Standard/Premium 20.1.1リリースは2020年1月29日に予定されています。 機能と機能強化については、こちらをご覧ください。
 
 >[!IMPORTANT]
 >
