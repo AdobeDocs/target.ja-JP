@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2020年1月23日 | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Adobe targetのサンプルサイズ計算ツールを使用して勝者を決定する際の注意を追加しました。 |
 | 2020 年 1 月 23 日 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次のFAQを更新しました。「自動配分を使用する場合、サンプルサイズ計算ツールを使用して、アクティビティが勝者を識別するのに要する時間を見積もることはできますか。」 |
 | 2020年1月15日 | [ブラウザーでの混合コンテンツの有効化](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 最新バージョンのChromeで混合コンテンツを許可するためのサイト設定の更新方法を説明するトレーニングビデオと手順を追加しました。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md) | エンティティとエンティティ属性のアップロードおよび削除に関する注意を追加しました。 |
