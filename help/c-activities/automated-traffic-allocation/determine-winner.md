@@ -5,7 +5,7 @@ title: 勝者の特定
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -48,6 +48,10 @@ source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Targetは、事前に定義された最小コンバージョン数の後に勝者を表示します。ただし、推奨結果を選択する最終決定は、常にAdobe targetサンプルサイズ計算ツールの結果に従う [必要があります](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Targetは、サイトのベースコンバージョン率や、アクティビティの期間を決定するために計算ツールに入力されるその他の重要な側面を考慮しません。 その結果、Targetは、最小限のコンバージョン数に基づいて、保証されるよりも早く推奨結果を表示する場合があります。 詳しくは、「サンプルサイズ計算ツ [ール」を参照してください](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+
 ## 自動配分アクティビティの上昇率と信頼性レポートを理解する {#lift-confidence}
 
 自動配分アクティビティでは、最初のエクスペリエンス（デフォルトでは、エクスペリエンスA）は、「レポート」タブで常に「コントロール」エクスペリエンスとして定義されます。 このエクスペリエンスは、エクスペリエンスのパフォーマンスの判定に使用されるモデリングで真の統計制御として扱われませんが、レポートの一部の数値に対する参照またはベースラインとして扱われます。
@@ -72,6 +76,6 @@ source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
    自動配分は、特定のエクスペリエンスがアクティビティのすべてのエクスペリエンスにわたる真の勝者になる確率を示します。これは、勝者エクスペリエンス（勝者になる可能性が最も高い）のみが、ゼロ以外の信頼性の値を持つことを意味します。その他すべては、敗者になる可能性が最も高く、0％と表示されます。
 
-* 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。これらの信頼性レベルは、通常、通常のA/Bテストが完了するのにかかる時間の約半分後に表示されます（ただし、これは保証されません）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
+* 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。これらの信頼性レベルは、通常、通常のA/Bテストが完了するのにかかる時間の約半分後に表示されます（ただし、これは保証されません）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
