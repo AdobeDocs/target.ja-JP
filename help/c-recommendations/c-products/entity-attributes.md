@@ -4,7 +4,7 @@ description: エンティティの属性を使用して、製品やコンテン�
 title: エンティティの属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -183,7 +183,7 @@ Recommendations は、アルゴリズム内で使用されている `productId` 
 
 >[!NOTE]
 >
->at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*xの場合*、次のAPIメソッドを使用します。getOffer [、](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)getOffers [、](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)applyOffer [、applyOffersを使用し](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)ます。
+>at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
 
 >[!NOTE]
 >
