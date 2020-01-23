@@ -1,10 +1,10 @@
 ---
-keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: エンティティの属性を使用して、製品やコンテンツの情報を Recommendations に渡します。
 title: エンティティの属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 例：`'entity.inventory=1'`
 
-**空の在庫属性処理：**&#x200B;配信については、`entity.inventory` &gt; 0 または `entity.inventory` = 0 に設定されたインクルージョンルール、収集ルール、または条件があり、商品の在庫が設定されていない場合、 [!DNL Target] はこれを TRUE と評価し、在庫が設定されていない商品を含めます。これはデフォルトでおこなわれるので、在庫が設定されていない商品が推奨の結果に表示されます。
+**空の在庫属性処理：**&#x200B;配信については、`entity.inventory` > 0 または `entity.inventory` = 0 に設定されたインクルージョンルール、収集ルール、または条件があり、商品の在庫が設定されていない場合、 [!DNL Target] はこれを TRUE と評価し、在庫が設定されていない商品を含めます。これはデフォルトでおこなわれるので、在庫が設定されていない商品が推奨の結果に表示されます。
 
 同様に、`entity.inventory` = 0 で `entity.inventory` が設定されていないグローバル除外ルールがある場合は、[!DNL Target] はこのルールを TRUE と評価し、その商品を除外します。
 
@@ -179,7 +179,11 @@ Recommendations は、アルゴリズム内で使用されている `productId` 
 
 大半の事前定義パラメーターでは、単数値のみを使用できるため、新しい値によって古い値が上書きされます。`categoryId` パラメーターは、その商品を含む各カテゴリ用の値のコンマ区切りリストを受け取ることができます。新しい `categoryId` の値は既存の値を上書きせず、代わりにエンティティ更新の際に追加されます（上限 250 文字）。
 
-一般的に、表示データ mbox は次の例のようになります。太字部分を商品を参照するように変更してください。
+一般に、at.js 1を使用している場合、表示情報mboxは次の例のようになります。*xは* 、 `mboxCreate`.
+
+>[!NOTE]
+>
+>at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*xの場合*、次のAPIメソッドを使用します。getOffer [、](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)getOffers [、](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)applyOffer [、applyOffersを使用し](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)ます。
 
 >[!NOTE]
 >
