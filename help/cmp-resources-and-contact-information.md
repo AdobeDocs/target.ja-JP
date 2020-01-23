@@ -1,11 +1,11 @@
 ---
-keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
+keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -117,7 +117,6 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 * [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/marketing-cloud.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
-* [カスタマーサポートポータルでのお問い合わせの投稿（英語のみ）](https://customers.omniture.com/login.php)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
 
