@@ -5,12 +5,12 @@ title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
 
-# リソースおよび連絡先情報{#resources-and-contact-information}
+# Resources and contact information{#resources-and-contact-information}
 
 Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 
@@ -117,6 +117,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 * [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/marketing-cloud.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
+* [サポートからヘルプを取得するには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
 
