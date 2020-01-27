@@ -1,23 +1,33 @@
 ---
-keywords: レポート;自動ターゲット;AT
+keywords: reports;auto-target;auto target;AT
 description: 自動ターゲット概要レポートの解釈方法に関する情報。
 title: 自動ターゲット概要レポート
-subtopic: 多変量分析テスト
+subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3faba3d3158bed69ae5d756fb70c97d17110c1d8
 
 ---
 
 
 # 自動ターゲット概要レポート{#auto-target-summary-report}
 
-自動ターゲット概要レポートの解釈方法に関する情報。
+自動ターゲットサマリレポートの解釈方法に関する情報です。
 
-以下の図に、自動ターゲットを使用した場合の標準的な概要レポートを示します。
+自動ターゲットサマリレポートを表示するには：
 
-![](assets/autotarget.png)
+1. アクティビティ [!UICONTROL ページで] 、目的の自動ターゲットアクティビティをクリックします。
+
+   多数のアクティビティがある場合は、タイプ、ステータス、プロパティ、レポートソース、Experience Composer、指標タイプおよびアクティビティソースのドロップダウンリストからオプションを選択して、リストをフィルターできます。
+
+1. 「[!UICONTROL レポート]」タブをクリックします。
+
+## テーブル表示
+
+次の図に、自動ターゲットを使用する場合の「表ビュー」での一般的な概要レポートの例を示します。
+
+![自動ターゲット表示レポート](/help/c-reports/assets/at-table-view.png)
 
 自動ターゲットのレポートを見るときのヒントやポイントは次のとおりです。
 
@@ -34,4 +44,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * エクスペリエンス A とエクスペリエンス B のコンバージョン率の比較は、自動ターゲットでは適切な比較ではありません。この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
 * 最も高い上昇率を示すエクスペリエンスは、母集団内で最も高い差別化要因を持つと考えることができます。これは、特定のエクスペリエンスを最も好むセグメントをアルゴリズムが見つけたということです。
+* 表の様々な列に、訪問数、コンバージョン率、平均上昇率と信頼性レベル、信頼性が表示されます。 詳しくは、[平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)を参照してください。
 
+## グラフ表示
+
+次の図に、自動ターゲットを使用する場合の「グラフ表示」での一般的な概要レポートの例を示します。
+
+![自動ターゲットグラフ表示レポート](/help/c-reports/assets/at-graph-view.png)
+
+以下に示すように、2つのドロップダウンリストを使用して、目的の指標、カウント方法などを選択できます。 詳しくは [、「レポート設定の概要](/help/c-reports/c-report-settings/report-settings.md) 」を参照してください。
+
+![自動ターゲットグラフ表示レポート](/help/c-reports/assets/at-graph-view-2.png)
+
+## 自動セグメント
+
+自動セグメントアイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応がどのように異なるかを示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
+
+![自動セグメントアイコン](/help/c-reports/assets/icon-automated-sements.png)
+
+詳しくは、自動セグメントレポート [を参照してください](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+
+## 重要な属性
+
+重要な属性アイコンをクリックします。 このレポートは、様々なアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどのように重要かを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
+
+![重要な属性アイコン](/help/c-reports/assets/icon-important-attributes.png)
+
+詳しくは、重要な属性レポート [を参照してください](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
