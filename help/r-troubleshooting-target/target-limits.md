@@ -5,7 +5,7 @@ title: 制限
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -113,6 +113,8 @@ GET リクエストの場合、バックエンドの上限は 5 KBですが、Mi
 * その他のパラメーター（URL、参照元 URL など）：他のパラメータータイプごとに mbox 1 個あたり 50 個。
 
 これらの制限は、Web ブラウザーの制約が原因で要求が短縮されない限り、適用されません。
+
+バッチ配信APIを使用している場合、バッチリクエストあたり50個のmboxが上限です。
 
 Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれる場合、APIは次のエラーメッセージを返します。
 
