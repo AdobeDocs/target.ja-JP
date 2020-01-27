@@ -4,7 +4,7 @@ description: エンティティの属性を使用して、製品やコンテン�
 title: エンティティの属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
+source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
 
 ---
 
@@ -183,7 +183,7 @@ Recommendations は、アルゴリズム内で使用されている `productId` 
 
 >[!NOTE]
 >
->at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). この例については、Recommendationsの計画と実装 [を参照してください](/help/c-recommendations/plan-implement.md)。
 
 >[!NOTE]
 >
