@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2020年1月27日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の情報を追加しました。「バッチ配信APIを使用している場合、バッチリクエストあたり50 mboxが上限です。」 |
+|  | [リソースと連絡先情報](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | サポートチケットを開くためのリンクを更新しました。 |
 | 2020年1月23日 | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Adobe targetのサンプルサイズ計算ツールを使用して勝者を決定する際の注意を追加しました。 |
-|  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2を使用している場合を説明する注記を追加しました。*x*、はサ `mboxCreate` ポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*、を使用しま `targePageParams`す。 |
+|  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2を使用している場合を説明する注記を追加しました。*x*、はサ `mboxCreate` ポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*、を使用しま `targetPageParams`す。 |
 | 2020 年 1 月 23 日 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次のFAQを更新しました。「自動配分を使用する場合、サンプルサイズ計算ツールを使用して、アクティビティが勝者を識別するのに要する時間を見積もることはできますか。」 |
 | 2020年1月15日 | [ブラウザーでの混合コンテンツの有効化](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 最新バージョンのChromeで混合コンテンツを許可するためのサイト設定の更新方法を説明するトレーニングビデオと手順を追加しました。 |
 |  | [フィード](/help/c-recommendations/c-products/feeds.md) | エンティティとエンティティ属性のアップロードおよび削除に関する注意を追加しました。 |
