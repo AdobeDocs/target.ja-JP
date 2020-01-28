@@ -5,19 +5,20 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # ドキュメントの変更点{#documentation-changes}
 
-このページでは、[!DNL Adobe Target]ドキュメントに加えられた重要な変更について説明します。
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1（2019年10月23日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2020年1月28日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.1.1リリースのリリース日を変更しました。 リリース日は2020年2月4日になりました。 |
 | 2020年1月27日 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 次の節を追加しました。「アドビのブログ」 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の情報を追加しました。「バッチ配信APIを使用している場合、バッチリクエストあたり50 mboxが上限です。」 |
 |  | [リソースと連絡先情報](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | サポートチケットを開くためのリンクを更新しました。 |
