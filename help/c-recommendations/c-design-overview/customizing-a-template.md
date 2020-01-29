@@ -1,10 +1,10 @@
 ---
-keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
+keywords: custom design;velocity;decimal;comma;customize design
 description: オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
 title: Velocity を使用したデザインのカスタマイズ
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ Velocity 変数について詳しくは、[https://velocity.apache.org/engine/re
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->変数値の後に情報を追加したい場合、正式な表記法を使用しておこなうことができます。例えば、`${entity1.thumbnailUrl}.gif` のようになります。
+>変数の値の後に、変数名が完了したことを示すタグの前にテキストを追加する場合は、変数名を正式な表記で囲みます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
 また、デザインで `algorithm.name` と `algorithm.dayCount` を変数として使用できるので、1 つのデザインで複数の条件をテストでき、条件名をデザインに動的に表示できます。これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの変数はまた `dayCount`（「過去 2 日間のトップセラー」などのように、データがその条件で使用された日数）の表示にも使用できます。
 
-## シナリオ：重要品目を推奨商品と共に表示する {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Velocityテンプレートでの数値の操作
+
+デフォルトでは、Velocityテンプレートは、すべてのエンティティ属性を文字列値として処理します。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として処理するには、次の手順に従います。
+1. ダミー変数を宣言し、任意の整数値または倍精度値に初期化します
+2. 使用するエンティティ属性が空白でないことを確認します（Target Recommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要）
+3. 手順1で作成したダミー変 `parseInt` 数のま `parseDouble` たはメソッドにエンティティ属性を渡して、文字列を整数または倍精度値に変換します
+4. 新しい数値に対して数学演算または比較を実行します
+
+**例：割引価格の計算**
+
+割引を適用するために、品目の表示価格を$0.99まで下げたいとします。 この結果を得るには、次の方法を使用できます。
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**例：項目の評価に基づいて表示する星の数を選択する**
+
+品目の数値平均顧客評価に基づいて適切な星数を表示するとします。 この結果を得るには、次の方法を使用できます。
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**例：項目の長さに基づく時間と分単位の時間の計算（分単位）**
+
+ムービーの長さを分単位で保存し、長さを時間単位と分単位で表示するとします。 この結果を得るには、次の方法を使用できます。
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## レコメンデーション商品を含む主要品目の表示 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 他の推奨商品と並べて重要品目を表示するようにデザインを変更することができます。例えば、レコメンデーションの隣に参考のため現在の品目を表示してみてはどうでしょうか。
 
@@ -174,9 +204,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 [!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 
-## シナリオ：販売価格の小数点をコンマ区切りに置き換える {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 文字列値での置換の実行 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-米国で使用されている小数点区切りを、ヨーロッパおよびその他の国で使用されているコンマ区切りに置き換えるようにデザインを変更できます。
+デザインを変更して、文字列内の値を置き換えることができます。 例えば、米国で使用されている小数点区切り文字を、ヨーロッパや他の国で使用されているコンマ区切り文字に置き換えます。
 
 次のコードは、条件付き販売価格の例にある 1 行を示しています。
 
@@ -200,7 +230,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## シナリオ：null チェックロジックを含む 4x2 デフォルト Recommendations デザインを作成する {#default}
+## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
 エンティティ表示の動的サイズ変更を制御するために Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
 
