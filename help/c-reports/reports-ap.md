@@ -4,7 +4,7 @@ description: Automated Personalization のユーザーは特殊なレポート�
 title: Automated Personalization 概要レポート
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 
 [!UICONTROL アクティビティレベル]レポートは、[!UICONTROL Automated Personalization] アルゴリズムを使用した場合と、コンテンツがランダムに提供された場合（コントロール）の集計パフォーマンスを比較します。
 
-![](assets/box_plot_ap.jpg)
+![アクティビティレベルレポート](/help/c-reports/assets/box_plot_ap.png)
 
 上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[コンバージョン率について](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)を参照してください。
 
