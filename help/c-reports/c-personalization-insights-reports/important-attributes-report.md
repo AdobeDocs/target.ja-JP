@@ -1,10 +1,10 @@
 ---
-keywords: ターゲット設定;AP レポート;自動パーソナライゼーションレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 title: 重要な属性レポート
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 重要な属性レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックしてから、希望する [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) アクティビティをリストからクリックします。
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
    多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   最初の画面アイコンで表される[!UICONTROL 概要]レポートが開かれ、アクティビティのパフォーマンスに関する情報が表示されます。2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、さらに[!UICONTROL 概要]レポートのグラフィック表示用のグラフアイコンがあることに注意してください。
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、さらに[!UICONTROL 概要]レポートのグラフィック表示用のグラフアイコンがあることに注意してください。
 
    ![](assets/personalization_insights.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過したら、パーソナライズされた十分なトラフィックがアクティビティにあると仮定して、[!UICONTROL 重要な属性]レポートを使用できるようになります。
 
-1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 重要な属性]アイコンをクリックできます。**
+1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 重要な属性]**アイコンをクリックできます。
 
    ![](assets/model_attribute_ranking.png)
 
