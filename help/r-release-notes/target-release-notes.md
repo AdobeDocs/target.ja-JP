@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-
-
-**最終更新日：2020 年 1 月 28 日**
+**最終更新日：2020 年 2 月 4 日**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
    影響の可能性と実装を更新するために必要な手順について詳しくは、 [TLS(Transport Layer Security)暗号化の変更を参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 
-## Target Standard／Premium 20.1.1（2020 年 2 月 4 日） 
+## Target Standard／Premium 20.2.1（2020 年 2 月 19 日） 
 
-Target Standard/Premium 20.1.1リリースはメンテナンスリリースで、バックエンドの機能強化と機能強化が含まれています。 さらに、次の修正が含まれています。
-
-* 既存のAdobe for Target(A4T)アクティビティの目標と設定ページで、Adobe Analyticsトラッキングサーバーのフィールドが空白になる問題を修正しました。 （TGT-35960）
-* カテゴリ親和性のオーディエンスの作成中に、2番目のドロップダウンリストでの選択が表示されない問題を修正しました。 （TGT-36098）
+Target Standard/Premium 20.2.1リリースは2020年2月20日に予定されています。 特定の機能、機能強化および修正に関する情報は、今後数日以内にこちらに掲載されます。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
