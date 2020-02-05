@@ -1,11 +1,11 @@
 ---
-keywords: リリースノート
+keywords: Release notes
 description: Target Standard／Premium、Target プラットフォームおよび Target JavaScript ライブラリ（at.js と mbox.js）のリリースノートなど、Target の以前のリリースに関するリリースノートです。リリースノートは、リリースの年月に従って新しい順に整理されています。
 title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 ---
 
@@ -20,11 +20,70 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 
 ## リリースノート - 2019 年 {#releases-2019}
 
+### Target Java SDKバージョン1.1.0（2019年12月17日）
+
+* @hisham-hassanが行ったオープンソースの貢献により、プロキシ設定のサポートが追加されました。
+
+詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
+
+### Target Java SDKバージョン1.0.1（2019年11月12日）
+
+バージョン1.0.1では、次の問題が修正されました。
+
+* 訪問者API cookieが存在しない場合でも、Targetリクエストに追加のデータIDを送信します。
+
+詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
+
+### Targetプラットフォーム（2019年10月31日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Java SDK | Java SDKを使 [!DNL Target] 用すると、サーバー側 [!DNL Target] をデプロイできます。 このJava SDKを使用すると、、、などの他のソ [!DNL Target] リューシ [!DNL Adobe Experience Cloud] ョンとの統合を簡単に [!DNL Adobe Experience Cloud Identity Service]行うこ [!DNL Adobe Analytics]とができま [!DNL Adobe Audience Manager]す。<br>Java SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑 [!DNL Target] さを排除して、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>キャッシュを使用してパフォーマンスを最適化できるプリフェッチと通知のサポート。</li><li>Webページとサーバー側の両方でのハイブリッド統合を使用する場合のパフ [!DNL Target] ォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>Java SDKを使用したVECで作成されたアクティビティの取得のサポートが追加されました。これは、新しい配信APIで可能になりました。</li><li>開発者が [Target Java SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、リリースノート — [Target Java SDK（英語のみ）を参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>新しいTarget Java SDKを使用したサーバ側の最適化に関するアドビ [のテクニカルブログ（英語）で詳しく説明します](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+
+### Target Standard／Premium 19.10.2（2019 年 10 月 31 日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| ![Premiumバッジ](/help/assets/premium.png) Multi-value Attributes | 複数の値を持つフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画を提供する。 ある映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 特定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツは複数のサイズで購入できます。</li></ul>これらのシナリオでのレコメンデーションを処理するには、複数値のデータをTarget Recommendationsに渡し、特別な複数値の演算子を使用します。<br>詳しくは、複数値の属 [性の操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+
+### Target Standard／Premium 19.10.1（2019 年 10 月 22 日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| ![Premiumバッジ](/help/assets/premium.png) User-Based Recommendations<br>（2019年10月25日） | 各訪問者の閲覧、閲覧、購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件を使用すると、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを配信できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、訪問者がサイトを閲覧するにつれて、よりパーソナライズされます。<br>詳しくは、条件/アルゴリズムの「ユーザーベースのレコメンデーション」 [を参照してください](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
+
+**Adobe Experience cloudのナビゲーション**
+
+* にログインすると、新しいヘ [!DNL Adobe Experience Cloud]ッダーナビゲーションが表示されます。 前のナビゲーションの上部に黒いバーが表示されているのと非常に似ていますが、次の点が改善されました。
+
+   * (IMS)組織間 [!DNL Identity Management System] または別のソリューションへの切り替えが容易になりました。
+   * ユーザーヘルプの改善：検索結果には、製品ドキュメントの結 [!DNL Target] 果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスして最大限の活用を図ることができま [!DNL Target]す。 また、ヘルプメニューにフィードバックのメカニズムが追加さ [!UICONTROL れ] 、問題の報告やアイデアの共有が簡単になりました。
+
+   * ネットプロモータースコア(NPS)のフィードバック機能が改善され、調査モーダルが作業の流れを妨げないようになりました。
+   * ログインフローが改善されました。 以前は、すべての顧客 [!DNL Target] はヘッダーのアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次のように、顧客が [!DNL Target Standard/Premium]、、、ま [!DNL Search&Promote]たは [!DNL Recommendations Classic]を進めることができました。
+
+      ![ランディングページ](/help/r-release-notes/assets/landing.png)
+
+      このランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーのアイコンをクリ [!UICONTROL ックすると] 、常にアクティビティリスト [!DNL Target] ページに直接移動するようになりました。
+
+      使用する場合は、 [!DNL Recommendations Classic]次に示すように、ソリューションに直接移動するか、「 [!UICONTROL Recommendations] 」タブで作成した短いリンクから移動できます。
+
+      ![Recs Classicディープリンク](/help/r-release-notes/assets/recs-classic.png)
+
+      使用する場 [!DNL Search&Promote]合は、 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 の内側から到達す [!DNL Search&Promote] るパスが完全 [!DNL Adobe Target] に削除されました。
+
+   * の通知は、現 [!DNL Target] 在、ヘッダーの「通知  」ドロップダウンでは使用できません。
+   >[!NOTE]
+   >
+   >これらの機能は一度に展開されたり、すべての顧客に一括して展開されることはありません。 これらの機能は、 [!DNL Target Standard/Premium] 19.10.1（2019年10月22日）リリースから、今後数週間のうちに公開されます。
+   >
+   >新しいナビゲーションバーの展開の一部として、URLの変化にも気付きます。 以前にブックマークされたリンクは、引き続き機能しますが、すばやく開くために新しいリンクをブックマークすることをお勧めします。
+
 ### at.jsバージョン2.2および1.8（2019年10月11日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、at.jsがエクスペリエンスを取得する前に、ECIDは2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するには、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードします。<ul><li>**serverState**:at.js v2.2以降で使用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。<br>詳しくは、targetGlobalSettingsの「serverState」を参照してく [ださい](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するには、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードします。<ul><li>**serverState**:at.js v2.2以降で使用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。<br>詳しくは、targetGlobalSettingsの「serverState」を参照してく [ださい](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
 
 ### Targetプラットフォーム（2019年10月9日）
 
@@ -107,10 +166,10 @@ at.js のこのバージョンおよび過去のバージョンについて詳�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Visual Experience Composer（VEC） | **新しい VEC メニューオプション**：VEC でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。<ul><li>[!UICONTROL スタイル／背景]オプションを使用して、選択された要素の背景画像および色を変更できるようになりました。（TGT-15001）</li></ul>[Visual Experience オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)の&#x200B;*スタイル*&#x200B;を参照してください。<br>**クリックの追跡の改善**：VEC およびシングルページアプリケーション（SPA）VEC 内のクリックの追跡の設定手順を改善しました。<ul><li>クリックの追跡で使用するために要素を選択する際に、すべての使用可能な要素の名前が右側の変更パネルに表示され、すばやく簡単に目的の要素を選択できます。</li><li>3 ステップのガイドによるアクティビティワークフローの[!UICONTROL 目標と設定]ページに、クリックの追跡用に選択した要素の数が表示されます。この数にマウスポインターを置くと、すべての選択された要素の名前が表示されます。（TGT-33878）</li></ul>[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。 |
-| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイドによるワークフロー**：新しいガイドによるワークフローを使用すると、シングルページアプリ用にアクティビティを正常に実行するには、ページ配信ルール設定をどのように設定する必要があるかを理解できます。（TGT-33718）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) を参照してください。<br>**クローンの変更**：SPA VEC を使用した変更を定義して、シングルページアプリの他のビューで使用するために、その変更をクローンできるようになりました。（TGT-33882）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) を参照してください。 |
+| Visual Experience Composer（VEC） | **新しい VEC メニューオプション**：VEC でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。<ul><li>[!UICONTROL スタイル／背景]オプションを使用して、選択された要素の背景画像および色を変更できるようになりました。（TGT-15001）</li></ul>[Visual Experience オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)の&#x200B;*スタイル*&#x200B;を参照してください。<br>**クリックの追跡の改善&#x200B;**：VEC およびシングルページアプリケーション（SPA）VEC 内のクリックの追跡の設定手順を改善しました。<ul><li>クリックの追跡で使用するために要素を選択する際に、すべての使用可能な要素の名前が右側の変更パネルに表示され、すばやく簡単に目的の要素を選択できます。</li><li>3 ステップのガイドによるアクティビティワークフローの[!UICONTROL 目標と設定]ページに、クリックの追跡用に選択した要素の数が表示されます。この数にマウスポインターを置くと、すべての選択された要素の名前が表示されます。（TGT-33878）</li></ul>[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。 |
+| シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイドによるワークフロー**：新しいガイドによるワークフローを使用すると、シングルページアプリ用にアクティビティを正常に実行するには、ページ配信ルール設定をどのように設定する必要があるかを理解できます。（TGT-33718）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) を参照してください。<br>**クローンの変更&#x200B;**：SPA VEC を使用した変更を定義して、シングルページアプリの他のビューで使用するために、その変更をクローンできるようになりました。（TGT-33882）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)を参照してください。 |
 | Mobile Visual Experience Composer | **複数のアプリバージョン**：複数のバージョンのモバイルアプリ用にアクティビティを作成できるようになりました。これにより、バージョンが同じで、アプリの UI をそれほど変更する必要がない場合に、時間と労力を節約できます。（TGT-34231）<br>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec) の「複数のアプリバージョンの管理」を参照してください。 |
-| ![Premium バッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）と自動ターゲット | **特定のエクスペリエンスをコントロールとして**：AP または自動ターゲットアクティビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在のコントロール オプション（ランダムに提供されるエクスペリエンス）は、引き続き使用できます。（TGT-32801、TGT-26572、&amp; TGT-26571）<br>[自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。この機能に関する[現在の既知の問題](/help/r-release-notes/known-issues-resolved-issues.md)があります。<br>**パーソナライゼーションインサイトレポート**：訪問者がコンテンツの特定の部分を特定の場所で表示する際に、属性の名前がマーケティング担当者にとってわかりやすくなり、より有用な情報が提供されます。（TGT-33421、TGT-34957）<br>[Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）と自動ターゲット | **特定のエクスペリエンスをコントロールとして**：AP または自動ターゲットアクティビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在のコントロール オプション（ランダムに提供されるエクスペリエンス）は、引き続き使用できます。（TGT-32801、TGT-26572、&amp; TGT-26571）<br>[自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。この機能に関する[現在の既知の問題](/help/r-release-notes/known-issues-resolved-issues.md)があります。<br>**パーソナライゼーションインサイトレポート&#x200B;**：訪問者がコンテンツの特定の部分を特定の場所で表示する際に、属性の名前がマーケティング担当者にとってわかりやすくなり、より有用な情報が提供されます。（TGT-33421、TGT-34957）<br>[Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
 | ![Premium バッジ](/help/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
 | Google Chrome SameSite cookie ポリシー | Google は、先日、Chrome 76（2019 年 7 月 30 日リリース予定）から、開発者はどの cookie が Web サイトで機能できるか、およびどの cookie がユーザーを追跡できるかを厳密に指定する必要があると発表しました。<br>業界はお客様向けにより安全な Web を作成する方向に進んでおり、Target では、訪問者のプライバシーに対する期待を満たし、超えると同時に、パーソナライズされたエクスペリエンスを配信することに全力で取り組んでいます。<br>[Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
 
@@ -221,8 +280,8 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.js バージョン 2.0.0<br>（2019 年 2 月 20 日） | at.js 2.x がリリースされました。<br>最新バージョンの at.js には、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットが用意されています。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。<br>以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。<ul><li>ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。</li><li>従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。</li><li>単純な 1 行のコードと一度限りの開発者セットアップで、マーケティング担当者は、シングルページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。</li></ul>at.js 2.x では、次の新しい関数が導入されています。<ul><li>getOffers（）</li><li>applyOffers（）</li><li>triggerView（）</li></ul>at.js 2 x の導入に伴い、次の関数が廃止されました。<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>詳しくは、「[at.js 1.x から at.js 2 へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)」と「[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」を参照してください。<br>**注意**：[EU 一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）の Adobe オプトインサポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。 |
-| at.js バージョン 1.7.0<br>（2019 年 2 月 15 日） | at.js 1.7.0 を使用できます。<br>このリリースでは、Adobe Opt-in サポートが導入されています。Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>Adobe Opt-in に関する詳細については、「[プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）」を参照してください。<br>また、このリリースでは、リダイレクト URL から取得されたパラメーターを使用して Target がリダイレクト URL パラメーターを上書きする場合がある問題も修正されました。<br>**注意**: GDPR の Adobe Opt-in サポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。<br>すべてのバージョンのリストについては、[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。 |
+| at.js バージョン 2.0.0<br>（2019 年 2 月 20 日） | at.js 2.x がリリースされました。<br>最新バージョンの at.js には、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットが用意されています。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。<br>以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。<ul><li>ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。</li><li>従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。</li><li>単純な 1 行のコードと一度限りの開発者セットアップで、マーケティング担当者は、シングルページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。</li></ul>at.js 2.x では、次の新しい関数が導入されています。<ul><li>getOffers（）</li><li>applyOffers（）</li><li>triggerView（）</li></ul>at.js 2 x の導入に伴い、次の関数が廃止されました。<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>詳しくは、「[at.js 1.x から at.js 2 へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)」と「[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」を参照してください。<br>**注意&#x200B;**：[EU 一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）の Adobe オプトインサポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。 |
+| at.js バージョン 1.7.0<br>（2019 年 2 月 15 日） | at.js 1.7.0 を使用できます。<br>このリリースでは、Adobe Opt-in サポートが導入されています。Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>Adobe Opt-in に関する詳細については、「[プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）」を参照してください。<br>また、このリリースでは、リダイレクト URL から取得されたパラメーターを使用して Target がリダイレクト URL パラメーターを上書きする場合がある問題も修正されました。<br>**注意&#x200B;**: GDPR の Adobe Opt-in サポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。<br>すべてのバージョンのリストについては、[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。 |
 
 ### [!DNL Target] Standard／Premium 19.2.1（2019 年 2 月 20 日）{#target-19-2-1}
 
@@ -234,8 +293,8 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | --- | --- |
 | シングルページアプリケーションの Visual Experience Composer | シングルページアプリケーション（SPA）用の Visual Experience Composer（VEC）を使用すると、マーケティング担当者は、継続的な開発依存関係なく、マーケティング担当者が SPA 上のテストを作成し、コンテンツをパーソナライズできます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。（TGT-27916）<br>詳しくは、「[シングルページアプリケーション（SPA） Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」および「[シングルページアプリケーションの統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。<br>上記の記事に加えて、この機能に対処する SPA および at.js に関するトピックと、実装方法に関するトピックが多数あります。詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md)」を参照してください。 |
 | Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>[AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)の挿入中に VEC の「前挿入」オプションと「後挿入」オプションを使用できるようになりました。「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」を参照してください。（TGT-32385）</li><li>Google Chrome のための [!DNL Adobe Target] VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトをロードして、作成と QA Web エクスペリエンスをすばやくできます。「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。（TGT-32746）</li></ul> |
-| ![Premium バッジ](/help/assets/premium.png)[!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスターゲット設定]アクティビティの <br>Recommendations | [!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。これにより、次のようなまったく新しい機能が可能になります。<ul><li>同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。</li><li>複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。</li><li>[!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。</li><li>[!UICONTROL 自動ターゲット]を使用して、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスに訪問者を動的に割り当てます。</li></ul>開始するには、VEC を使用して [!UICONTROL A/B テスト]または[!UICONTROL エクスペリエンスターゲット設定]アクティビティを作成し、[!UICONTROL 前挿入]、[!UICONTROL 後挿入]、[!UICONTROL 置換]などのアクションを使用して、エクスペリエンスに Recommendations を追加します。（RECS-6166）<br>詳しくは、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」を参照してください。 |
-| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 22 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
+| ![Premium バッジ](/help/assets/premium.png)<br>[!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスターゲット設定]アクティビティの Recommendations | [!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。これにより、次のようなまったく新しい機能が可能になります。<ul><li>同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。</li><li>複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。</li><li>[!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。</li><li>[!UICONTROL 自動ターゲット]を使用して、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスに訪問者を動的に割り当てます。</li></ul>開始するには、VEC を使用して [!UICONTROL A/B テスト]または[!UICONTROL エクスペリエンスターゲット設定]アクティビティを作成し、[!UICONTROL 前挿入]、[!UICONTROL 後挿入]、[!UICONTROL 置換]などのアクションを使用して、エクスペリエンスに Recommendations を追加します。（RECS-6166）<br>詳しくは、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」を参照してください。 |
+| ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 22 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
 
 **機能強化、修正、変更点**
 
@@ -258,7 +317,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | ![APIでのTarget Premium Badge大規模法人](/help/assets/premium.png)<br/>[!UICONTROL 権限] [!DNL Target] のサポート | [Adobe Target Admin API](http://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 22 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。自動パーソナライゼーション（AP）アクティビティのサポートは、将来のリリースでおこなわれます。 |
-| ![Target Premium のバッジ](/help/assets/premium.png)<br/>Recommendations: 環境別のコレクションおよび除外のフィルター（ホストグループ） | [!UICONTROL Recommendations] のコレクションと選択した環境（ホストグループ）の除外のコンテンツをプレビューできるようになりました。<br/>以前は、コレクションまたは除外を表示すると、表示されている項目がデフォルトホストグループの結果でした（[!UICONTROL Recommendations／設定／デフォルトホストグループ]で指定）。<br/>コレクションまたは除外を作成または更新するときに、[!UICONTROL 環境]セレクターを使用して、結果をプレビューする環境を選択できます。新しい[!UICONTROL 環境]フィルターでは、コレクションと除外を作成・編集する前に「[!UICONTROL 設定]」ページで適切なデフォルトホストグループに移動する必要がなくなるので、時間と労力を節約できます。<br/>**注意：** 選択した環境を変更した後、 「[!UICONTROL 検索]」をクリックして返された結果を更新する必要があります。<br/>新しい [!UICONTROL 環境] フィルターは、[!DNL Target] UI の次の場所から利用できます。<ul><li>[!UICONTROL カタログ検索]（[!UICONTROL Recommendations／カタログ検索]）</li><li>「[!UICONTROL コレクションを作成]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「[!UICONTROL コレクションを更新]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「[!UICONTROL 除外を作成]」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「[!UICONTROL 除外を更新]」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul><br>詳しくは、次のトピックを参照してください。<uL><li>[コレクション](/help/c-recommendations/c-products/collections.md)</li><li>[除外](/help/c-recommendations/c-products/exclusions.md)</li><li>[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations：環境（ホストグループ）別にコレクションと除外をフィルター](/help/administrating-target/hosts.md)</li></ul>（TGT-20622）</ul> |
+| ![Target Premium のバッジ](/help/assets/premium.png)<br/>Recommendations: 環境別のコレクションおよび除外のフィルター（ホストグループ） | [!UICONTROL Recommendations] のコレクションと選択した環境（ホストグループ）の除外のコンテンツをプレビューできるようになりました。<br/>以前は、コレクションまたは除外を表示すると、表示されている項目がデフォルトホストグループの結果でした（[!UICONTROL Recommendations／設定／デフォルトホストグループ]で指定）。<br/>コレクションまたは除外を作成または更新するときに、[!UICONTROL 環境]セレクターを使用して、結果をプレビューする環境を選択できます。新しい[!UICONTROL 環境]フィルターでは、コレクションと除外を作成・編集する前に「[!UICONTROL 設定]」ページで適切なデフォルトホストグループに移動する必要がなくなるので、時間と労力を節約できます。<br/>**注意：**選択した環境を変更した後、 「検索」をクリックして返された結果を更新する必要があります。<br/>新しい[!UICONTROL 環境]フィルターは、[!DNL Target]UI の次の場所から利用できます。<ul><li>[!UICONTROL カタログ検索]（[!UICONTROL Recommendations／カタログ検索]）</li><li>「[!UICONTROL コレクションを作成]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「[!UICONTROL コレクションを更新]」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「[!UICONTROL 除外を作成]」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「[!UICONTROL 除外を更新]」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul><br>詳しくは、次のトピックを参照してください。<uL><li>[コレクション](/help/c-recommendations/c-products/collections.md)</li><li>[除外](/help/c-recommendations/c-products/exclusions.md)</li><li>[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[設定](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations：環境（ホストグループ）別にコレクションと除外をフィルター](/help/administrating-target/hosts.md)</li></ul>（TGT-20622）</ul> |
 
 **機能強化、修正、変更点**
 
@@ -589,7 +648,7 @@ target/r_release-notes-2018.xml
 
 この [!DNL Target] リリースには、以下の機能強化、修正および変更が含まれています。
 
-* Recommendations の CSV ダウンロードのバックアップ行には、「*」（単一のアスタリスク）ではなく「"*"」（二重引用符で囲まれたアスタリスク）が先頭に表示されるようになりました。
+* Recommendations の CSV ダウンロードのバックアップ行には、「*」（単一のアスタリスク）ではなく「&quot;*&quot;」（二重引用符で囲まれたアスタリスク）が先頭に表示されるようになりました。
 * Recommendations の CSV ダウンロードの「販売数トップ／閲覧数トップ」行では、先頭にコンマが表示されなくなりました。
 
 ### Target プラットフォームの変更点（2018 年 6 月 20 日） {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -2063,7 +2122,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
 次の既知の問題が報告されています。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
-* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
+* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL &#x200B;複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
 * ドキュメントには、リダイレクト URL チェックボックスが本来どのように動作するかが示されています。しかし、バグにより、デフォルトではこのチェックボックスが選択通りに表示されません。この問題はまもなく修正される予定です。
 
@@ -2150,7 +2209,7 @@ A4T プロビジョニング処理を改善するための改良をおこない�
 次の既知の問題が報告されています。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
-* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
+* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL &#x200B;複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
 ### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2318,7 +2377,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 「**[!UICONTROL 設定]**／**[!UICONTROL 環境設定]**」タブから、拡張 Experience Composer を有効にします。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.2.1（2016 年 2 月 19 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2340,7 +2399,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 「**[!UICONTROL 設定]**／**[!UICONTROL 環境設定]**」タブから、拡張 Experience Composer を有効にします。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.1.1（2016 年 2 月 1 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2418,7 +2477,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 「**[!UICONTROL 設定]**／**[!UICONTROL 環境設定]**」タブから、拡張 Experience Composer を有効にします。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
 
 ## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3334,7 +3393,7 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 * Visual Experience Composer を使用して再配置された要素で、クリックの追跡が動作しません。このバグが修正されるまで、再配置された要素にクリックの追跡を設定しないでください。
-* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**&#x200B;アクションは選択できません。
+* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**アクションは選択できません。
 
 ### Adobe Target Standard 1.2（2013 年 11 月 1 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3366,7 +3425,7 @@ target/r_release-notes-2014.xml
 
 | 機能 | 説明 |
 |---|---|
-| Target Standard 内からの [!DNL mbox.js] ダウンロード | [!DNL mbox.js] このファイルは、Target Standard インターフェイスの **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]** から直接ダウンロードできるようになりました。以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
+| Target Standard 内からの [!DNL mbox.js] ダウンロード | [!DNL mbox.js] ファイルは、Target Standard インターフェイスの&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;導入]**から直接ダウンロードできるようになりました。以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
 
 このリリースには、次の修正および機能強化が含まれています。
 
