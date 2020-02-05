@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.1.1（2019 年 2 月 4 日） 
+## Adobe Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
