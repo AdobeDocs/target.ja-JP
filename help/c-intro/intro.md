@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium；自動パーソナライゼーション；自動ターゲット；自動ターゲット；権限；adobe targetとは
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
 title: Adobe Target の概要
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 ## Target Premium {#premium}
 
 [!DNL Target Premium] は、[!DNL Target Standard] にプレミアム機能を追加した高度な [!DNL Target] ライセンスです。
+
+このヘルプのTarget Premiumのトピックには、ページの上部にPremiumバッジが含まれています。
+
+![Premium バッジ](/help/assets/premium.png)
 
 Target Premium には次のようなプレミアム機能があります。
 
@@ -97,7 +101,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 [Adobe targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## トレーニングビデオ：アクティビティのタイプ（9:03）
+## ![概要バッジ](/help/assets/overview.png) Training video:アクティビティタイプ(9:03)
 
 次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティのタイプと、サイトの目標を達成するため Target でおこなう 3 ステップのガイドによるワークフローを説明します。
 
@@ -105,4 +109,4 @@ Target Premium には次のようなプレミアム機能があります。
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
