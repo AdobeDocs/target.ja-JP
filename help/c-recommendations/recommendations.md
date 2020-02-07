@@ -1,10 +1,10 @@
 ---
-keywords: Recommendations;Recommendations条件；Recommendationsアルゴリズム；Recommendationsアクティビティ；条件；Recommendationsターゲット設定；Recs
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Adobe targetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -43,7 +43,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：アクティビティのタイプ
+## ![概要バッジ](/help/assets/overview.png) Training video:アクティビティタイプ
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
 
@@ -51,7 +51,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
 
