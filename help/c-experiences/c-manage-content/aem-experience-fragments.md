@@ -1,11 +1,11 @@
 ---
-keywords: エクスペリエンス；json;aem;Adobe Experience Manager;Adobe targetへの書き出し；エクスペリエンスフラグメント；フラグメント；XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Adobe Experience Manager(AEM)で作成されたエクスペリエンスフラグメントをAdobe targetアクティビティで使用して、最適化やパーソナライゼーションを支援する方法について説明します。
 title: Adobe targetのAdobe Experience Manager(AEM)エクスペリエンスフラグメント
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -59,8 +59,8 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 ### 手順 3：AEM でエクスペリエンスフラグメントを Target と共有するよう設定する
 
-1. From within AEM, select the desired experience fragment or its containing folder, then click **[!UICONTROL Properties]**.
-2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
+1. AEM で、対象のエクスペリエンスフラグメントまたはそれを含むフォルダーを選択してから、**[!UICONTROL プロパティ]**&#x200B;をクリックします。
+2. 「**[!UICONTROL クラウドサービス]**」タブをクリックし、**[!UICONTROL クラウドサービスの設定]**&#x200B;ドロップダウンリストから「**[!UICONTROL Adobe Target]**」を選択します。
 
    >[!NOTE]
    >
@@ -141,6 +141,10 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. エクスペリエンスフラグメントの「マスター」バージョンは、AEM 内に残ります。You cannot edit the experience fragment in [!DNL Target].
 * JSONオファーをエクスペリエンスフラグメントとしてに読み込むことができま [!DNL Target]す。 ただし、これらのオファーはHTMLオファーとして読み込まれます。 JSONオファー（エクスペリエンスフラグメント）は、現在、 [!DNL Target] UIで完全にはサポートされていません。
 
-## トレーニングビデオ：AEM エクスペリエンスフラグメントと Adobe Target の使用{#section_C0EDC54063464F41A182492D2045BC64}
+## ![チュートリアルバッジ](/help/assets/overview.png) ：トレーニングビデオ：AEMエクスペリエンスフラグメントとAdobe targetの連携 {#section_C0EDC54063464F41A182492D2045BC64}
 
-次のビデオでは、エクスペリエンスフラグメントの設定および使用方法について説明します。[Adobe Target での AEM エクスペリエンスフラグメントの使用](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html)
+次のビデオでは、エクスペリエンスフラグメントを設定して使用する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+詳しくは、 [AEMサイトのビデオとチュートリアルページの](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) 「Using Experience Fragments with Adobe Target *」を参照してください* 。
