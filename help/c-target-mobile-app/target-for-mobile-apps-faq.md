@@ -1,34 +1,22 @@
 ---
-keywords: モバイルアプリ；よくある質問；faq;targetモバイルアプリ
+keywords: mobile app;frequently asked questions;faq;target mobile app
 description: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)です。
 title: モバイルアプリ用Adobe targetに関するよくある質問(FAQ)
-topic: 'Target '
+topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
 
 # モバイルアプリのTarget FAQ
 
-モバイルアプリに関するよくある質 [!DNL Target] 問の一覧です。
+モバイルアプリに関するよくある質 [!DNL Target] 問のリストです。
 
 ## SDKのデプロイに使 [!DNL Adobe Experience Platform Launch][!DNL Launch]用する必要がありますか。それとも、
 
 SDKは、 [Adobe Marketing Cloud Gitで使用できます](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)。 「起動」を使用しない場合 [は](https://docs.adobe.com/content/help/en/launch/using/overview.html)、独自の設定ファイルを管理し、アプリで管理する必要があります。
-
-## モバイルアプリ用のVisual Experience Composer(VEC)は、Adobe Experience Platform SDK v5のReact-Nativeサポートと共に使用できますか。
-
-ネイティブモ [バイルアプリ用のVECは](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) 、現在、Reactネイティブアプリをサポートしていません。 フォームベースのExperience Composer [を使用する必要があります](/help/c-experiences/form-experience-composer.md)。
-
-## Mobile SDKの統合により、新しいモバイル機能のロールアウトが可能になりますか。 新しいコードを導入せずに機能フラグをオン/オフにすることはできますか。
-
-はい。モバイルSDKを使用して、機能を徐々に展開できます。
-
-## より複雑なロジックを使用する場合、Mobile VECを使用する代わりに、アプリで直接開発する必要がありますか。 その場合は、どの開発言語を使用すればよいですか。
-
-現在、VECは、画像、テキスト、色の変更など、一般的な使用例をサポートしています。 アプリのレイアウトのパーソナライズなど、より高度な使用例の場合は、コードにリクエスト/場所( [!DNL Target] mbox)を挿入し、 [Form-Based Experience Composerを使用してエクスペリエンスを設計し、トラフィックを割り当てる必要があります](/help/c-experiences/form-experience-composer.md) 。 モバイルSDKは、Java、Objective cおよびSwiftをサポートしています。 言語を選択するのは、チームの好みとリソースによって異なります。
 
 ## 今日はどのSDKをご利用いただけますか。
 
@@ -37,10 +25,6 @@ Adobe Experience Platform Mobile SDKは、現在、iOS、AndroidおよびReact�
 ## 緯度と経度の検証に関して、位置ベースの機能の頻度はどのくらいか。
 
 See the [Adobe Places documentation](https://placesdocs.com/places-services-by-adobe-documentation/) for more information.
-
-## どのネイティブクラスがモバイルの「ビュー」をサポートしているか。 NSObject派生クラス（または任意のAndroidオブジェクト）、または単にNSViewControllerとアクティビティをサポートしているか。
-
-詳しくは、Androidのドキュメントを参照して、ビューの宣 [言方法を手動で確認してください](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views)。
 
 ## Adobe Experience Platform Mobile SDKを動作させるにはat.jsが必要ですか。
 
