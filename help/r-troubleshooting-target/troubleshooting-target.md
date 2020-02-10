@@ -1,11 +1,11 @@
 ---
-keywords: Target のトラブルシューティング;Target のトラブルシューティング
+keywords: troubleshoot target;troubleshooting target
 description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
 title: Adobe targetのトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -124,7 +124,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## モバイルアプリ
 
-* [モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## レポート
