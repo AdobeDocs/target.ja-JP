@@ -5,7 +5,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -106,19 +106,6 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 | --- | --- |
 | ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | Target 2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御を利用できます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O 統合（承認者、編集者または監視者）に役割を適用できます。</li></ul>操作手順と詳細情報については、[ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)を参照してください。 |
 
-
-### Target Mobile VEC SDK iOS 2.1.0 および Android 1.1.1（2019 年 8 月 8 日）
-
-Mobile VEC SDK のこのリリースには、次の機能強化および修正が含まれています。
-
-（括弧内の問題番号はアドビ社内で使用されます。）
-
-* モバイルデバイスでのビジュアルアクティビティのプレビューのサポートを追加しました。（TGT-27875）
-* `UIImagePickerController` 使用による Apple Standard 違反の問題を修正しました。
-* Android SDK から GSON の依存関係を削除しました。（TGT-31710）
-* 他の冗長な Gradle の依存関係を削除しました（TGT-35479）
-* 配信オファーが原因でオーサリングの時間がリセットされない問題を修正しました。（TGT-35270）
-
 ### Target Standard／Premium 19.7.1（2019 年 7 月 25 日）{#tgt-19-7-1}
 
 このリリースには、次の新機能および機能強化が含まれています。
@@ -127,7 +114,6 @@ Mobile VEC SDK のこのリリースには、次の機能強化および修正�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| モバイルアプリケーション Visual Experience Composer | 新しい変更パネルは、クリックの追跡用に設定した要素を表示するモバイルアプリ VEC に表示されます。（TGT-31741）<br> [モバイルアプリでのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)を参照してください。 |
 | ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud IDライブラリ4.3.0以降を使用する必要が](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) あります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、TargetはECIDライブラリ4.3とのシームレスな統合を導入しています。ECIDライブラリ4.3は、サーバー側cookieを利用してITP 2.1およびITP 2.2を軽減します。Targetのお客様は、今後のITPリリースを軽減するために、 [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ECIDライブラリ4.3以降をTargetのJavaScriptライブラリと組み合わせて導入することを強くお勧めします。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
@@ -168,7 +154,6 @@ at.js のこのバージョンおよび過去のバージョンについて詳�
 | --- | --- |
 | Visual Experience Composer（VEC） | **新しい VEC メニューオプション**：VEC でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。<ul><li>[!UICONTROL スタイル／背景]オプションを使用して、選択された要素の背景画像および色を変更できるようになりました。（TGT-15001）</li></ul>[Visual Experience オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)の&#x200B;*スタイル*&#x200B;を参照してください。<br>**クリックの追跡の改善&#x200B;**：VEC およびシングルページアプリケーション（SPA）VEC 内のクリックの追跡の設定手順を改善しました。<ul><li>クリックの追跡で使用するために要素を選択する際に、すべての使用可能な要素の名前が右側の変更パネルに表示され、すばやく簡単に目的の要素を選択できます。</li><li>3 ステップのガイドによるアクティビティワークフローの[!UICONTROL 目標と設定]ページに、クリックの追跡用に選択した要素の数が表示されます。この数にマウスポインターを置くと、すべての選択された要素の名前が表示されます。（TGT-33878）</li></ul>[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。 |
 | シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイドによるワークフロー**：新しいガイドによるワークフローを使用すると、シングルページアプリ用にアクティビティを正常に実行するには、ページ配信ルール設定をどのように設定する必要があるかを理解できます。（TGT-33718）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) を参照してください。<br>**クローンの変更&#x200B;**：SPA VEC を使用した変更を定義して、シングルページアプリの他のビューで使用するために、その変更をクローンできるようになりました。（TGT-33882）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)を参照してください。 |
-| Mobile Visual Experience Composer | **複数のアプリバージョン**：複数のバージョンのモバイルアプリ用にアクティビティを作成できるようになりました。これにより、バージョンが同じで、アプリの UI をそれほど変更する必要がない場合に、時間と労力を節約できます。（TGT-34231）<br>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec) の「複数のアプリバージョンの管理」を参照してください。 |
 | ![Premium バッジ](/help/assets/premium.png) 自動パーソナライゼーション（AP）と自動ターゲット | **特定のエクスペリエンスをコントロールとして**：AP または自動ターゲットアクティビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在のコントロール オプション（ランダムに提供されるエクスペリエンス）は、引き続き使用できます。（TGT-32801、TGT-26572、&amp; TGT-26571）<br>[自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。この機能に関する[現在の既知の問題](/help/r-release-notes/known-issues-resolved-issues.md)があります。<br>**パーソナライゼーションインサイトレポート&#x200B;**：訪問者がコンテンツの特定の部分を特定の場所で表示する際に、属性の名前がマーケティング担当者にとってわかりやすくなり、より有用な情報が提供されます。（TGT-33421、TGT-34957）<br>[Target パーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
 | ![Premium バッジ](/help/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
 | Google Chrome SameSite cookie ポリシー | Google は、先日、Chrome 76（2019 年 7 月 30 日リリース予定）から、開発者はどの cookie が Web サイトで機能できるか、およびどの cookie がユーザーを追跡できるかを厳密に指定する必要があると発表しました。<br>業界はお客様向けにより安全な Web を作成する方向に進んでおり、Target では、訪問者のプライバシーに対する期待を満たし、超えると同時に、パーソナライズされたエクスペリエンスを配信することに全力で取り組んでいます。<br>[Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
@@ -199,12 +184,6 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 #### 機能強化、修正、変更点
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
-
-### モバイルアプリケーション Visual Experience Composer（2019 年 5 月 15 日）{#mobile-vec-may14-2}
-
-| 機能／拡張機能 | 説明 |
-| --- | --- |
-| モバイルアプリケーション Visual Experience Composer（VEC） | モバイルアプリケーション VEC を使用すると、継続的な開発の依存関係やアプリケーションのリリースサイクルに関係なく、ユーザーが自らネイティブモバイルアプリケーションでアクティビティを作成したりコンテンツをパーソナライズすることができます。<br>詳しくは、次を参照してください。<ul><li>[モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - モバイルアプリケーションのセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[モバイル VEC でのクリック追跡のセットアップ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[ビデオ：モバイルアプリケーション Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard／Premium 19.4.2（2019 年 5 月 1 日）{#release-19-4-2}
 
@@ -2122,7 +2101,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
 次の既知の問題が報告されています。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
-* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL &#x200B;複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
+* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
 * ドキュメントには、リダイレクト URL チェックボックスが本来どのように動作するかが示されています。しかし、バグにより、デフォルトではこのチェックボックスが選択通りに表示されません。この問題はまもなく修正される予定です。
 
@@ -2209,7 +2188,7 @@ A4T プロビジョニング処理を改善するための改良をおこない�
 次の既知の問題が報告されています。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
-* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL &#x200B;複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
+* リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
 ### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2377,7 +2356,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.2.1（2016 年 2 月 19 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2399,7 +2378,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.1.1（2016 年 2 月 1 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2477,7 +2456,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**タブから設定できます。
+   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
 
 ## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3393,7 +3372,7 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 * Visual Experience Composer を使用して再配置された要素で、クリックの追跡が動作しません。このバグが修正されるまで、再配置された要素にクリックの追跡を設定しないでください。
-* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**アクションは選択できません。
+* mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**&#x200B;アクションは選択できません。
 
 ### Adobe Target Standard 1.2（2013 年 11 月 1 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3425,7 +3404,7 @@ target/r_release-notes-2014.xml
 
 | 機能 | 説明 |
 |---|---|
-| Target Standard 内からの [!DNL mbox.js] ダウンロード | [!DNL mbox.js] ファイルは、Target Standard インターフェイスの&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;導入]**から直接ダウンロードできるようになりました。以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
+| Target Standard 内からの [!DNL mbox.js] ダウンロード | [!DNL mbox.js] ファイルは、Target Standard インターフェイスの&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL 導入]**&#x200B;から直接ダウンロードできるようになりました。以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
 
 このリリースには、次の修正および機能強化が含まれています。
 
