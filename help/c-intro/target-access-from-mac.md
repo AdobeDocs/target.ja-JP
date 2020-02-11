@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;サインイン
+keywords: Experience Cloud;sign in
 description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
 title: Adobe Experience Cloud からの Target へのアクセス
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![Target アイコン](/help/c-intro/assets/appmenu-target-new.png)
 
-1. [!DNL Target] カードの「**[!UICONTROL 開く]**」をクリックします。
+1. **[!UICONTROL カードの「]**&#x200B;開く[!DNL Target]」をクリックします。
 
    ![Target の起動](/help/c-intro/assets/target-launch-new.png)
 
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 繁体字中国語
 * 韓国語
 
-## トレーニングビデオ： Experience Cloud における Adobe Target（4:59）
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 このビデオでは、[!DNL Experience Cloud] の [!DNL Adobe Target] について説明しています。
 
