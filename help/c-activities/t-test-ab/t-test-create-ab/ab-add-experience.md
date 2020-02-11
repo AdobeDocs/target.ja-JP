@@ -1,10 +1,10 @@
 ---
-keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
+keywords: Targeting;experience;add experience;experience add
 description: Adobe Target の Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 title: エクスペリエンスの追加
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -90,11 +90,11 @@ A/B テストでは、エクスペリエンスをコピーすることで、ゼ�
 
 ![「エクスペリエンスを削除」オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## トレーニングビデオ：Visual Experience Composer の使用
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 以下のビデオでは、Visual Experience Composer のオプションの使用に関する情報を提供しています。(7:17)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
