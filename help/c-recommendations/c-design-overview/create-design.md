@@ -1,10 +1,10 @@
 ---
-keywords: recommendations デザイン;デザインの作成;デザインのコピー
+keywords: recommendations design;create design;copy design
 description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
 title: デザインの作成
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    または
 
-   カスタムデザインを作成するには、****&#x200B;レコメンデーション／デザイン]スクリーン上で「**[!UICONTROL デザインを作成]」をクリックします。[!UICONTROL **
+   カスタムデザインを作成するには、**[!UICONTROL レコメンデーション／デザイン]**&#x200B;スクリーン上で「**[!UICONTROL デザインを作成]**」をクリックします。
 
    ![](assets/createDesign.png)
 
@@ -42,11 +42,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：Recommendations でのカスタムデザインの作成（3:20）
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
 * カスタムデザインの作成
 * デザインでの表示変数の参照方法の説明
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
