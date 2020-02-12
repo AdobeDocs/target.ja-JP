@@ -5,7 +5,7 @@ title: Adobe targetのAdobe Experience Manager(AEM)エクスペリエンスフ�
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -141,7 +141,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. エクスペリエンスフラグメントの「マスター」バージョンは、AEM 内に残ります。You cannot edit the experience fragment in [!DNL Target].
 * JSONオファーをエクスペリエンスフラグメントとしてに読み込むことができま [!DNL Target]す。 ただし、これらのオファーはHTMLオファーとして読み込まれます。 JSONオファー（エクスペリエンスフラグメント）は、現在、 [!DNL Target] UIで完全にはサポートされていません。
 
-## ![チュートリアルバッジ](/help/assets/overview.png) ：トレーニングビデオ：AEMエクスペリエンスフラグメントとAdobe targetの連携 {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM Experience Fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 次のビデオでは、エクスペリエンスフラグメントを設定して使用する方法を示します。
 
