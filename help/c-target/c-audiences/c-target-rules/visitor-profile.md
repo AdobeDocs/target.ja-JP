@@ -1,10 +1,10 @@
 ---
-keywords: 訪問者プロファイル;Target 訪問者プロファイル
+keywords: visitor profile;target visitor profile
 description: Adobe Target でオーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
 title: 訪問者プロファイル
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 オーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
 
    ![](assets/target_visitor_profile.png)
 
@@ -39,11 +39,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスの概 ![要バッジの作成](/help/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
