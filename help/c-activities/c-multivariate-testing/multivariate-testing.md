@@ -4,7 +4,7 @@ description: Adobe Target の多変量分析テスト（MVT）では、ページ
 title: 多変量分析テスト
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -87,7 +87,7 @@ Target では、各組み合わせが 1 つのエクスペリエンスになり�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03）
+### アクティビティのタイプ（9:03） 概 ![要バッジ](/help/assets/overview.png)
 
 この概要ビデオでは、Target Standard/Premiumで使用できるアクティビティのタイプについて説明します。 多変量分析テストに関する説明は 4:20 から始まります。
 
@@ -97,7 +97,7 @@ Target では、各組み合わせが 1 つのエクスペリエンスになり�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 多変量分析テストの作成（9:25）
+### 多変量分析テストの作成(9:25)チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target の 3 ステップのガイドによるワークフローを使用して、多変量分析テストを理解、計画、作成する方法について説明しています。
 
