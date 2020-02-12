@@ -1,12 +1,12 @@
 ---
-keywords: 目標と設定;目的;優先度;期間
+keywords: Goal &Settings;objective;priority;duration
 description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
 title: アクティビティの設定
-subtopic: 多変量分析テスト
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [多変量分析テスト](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティの設定
+## トレーニングビデオ：アクティビティの設定 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -64,4 +64,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=jpn)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
