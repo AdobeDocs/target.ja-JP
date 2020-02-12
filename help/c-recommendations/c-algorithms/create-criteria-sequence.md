@@ -1,10 +1,10 @@
 ---
-keywords: 条件のシーケンス;複数の条件;アルゴリズム;条件;レコメンデーション条件
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 最大 5 つの条件のシーケンスを使用して、Recommendations アクティビティで表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * [!UICONTROL Recommendations] アクティビティを作成している場合、[!UICONTROL 条件を選択]画面の&#x200B;**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件のシーケンスを保存するオプションがあります。
 * [!UICONTROL Recommendations] アクティビティを編集している場合、ページの「[!UICONTROL レコメンデーションの場所] 」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」をクリックします。[!UICONTROL 条件を選択]画面で、**[!UICONTROL 新規作成]**／**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。他の [!UICONTROL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
-* **[!UICONTROL レコメンデーション]** ／**[!UICONTROL 条件]**&#x200B;ライブラリ画面で、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。ここで作成した条件は、自動的にすべての [!UICONTROL Recommendations] アクティビティで利用できるようになります。
+* **[!UICONTROL レコメンデーション]**／**[!UICONTROL 条件]**&#x200B;ライブラリ画面で、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。ここで作成した条件は、自動的にすべての [!UICONTROL Recommendations] アクティビティで利用できるようになります。
 
 1. 「**[!UICONTROL 条件を作成]**」または「**[!UICONTROL 新規作成]**」をクリックします。
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. シーケンスの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
    これは、条件のシーケンスの説明に使用される「内部」名です。サイトの訪問者にこの名前は表示されません。
-1. シーケンス内の複数の条件を使用して [!UICONTROL Recommendations] デザインを埋める場合は、公開される&#x200B;**[!UICONTROL 一般表示タイトル]**&#x200B;を入力します。このタイトルはページに表示されます。
+1. シーケンス内の複数の条件を使用して **[!UICONTROL Recommendations]** デザインを埋める場合は、公開される[!UICONTROL 一般表示タイトル]を入力します。このタイトルはページに表示されます。
 
    例えば、複数の[!UICONTROL レコメンデーション]キーに基づく品目がデザインに含まれている場合は、「これを見たお客様はこちらも...」を「お勧め」に置き換えることができます。
 1. 条件のシーケンスの簡単な&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
@@ -86,7 +86,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33）
+## トレーニングビデオ：Recommendations の条件の作成（12:33） !![Tutorial badge](/help/assets/tutorial.png
 
 このビデオには、次の情報が含まれています。
 
@@ -94,4 +94,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
