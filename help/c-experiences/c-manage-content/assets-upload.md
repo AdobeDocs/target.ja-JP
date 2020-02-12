@@ -1,11 +1,11 @@
 ---
-keywords: コンテンツ;コンテンツの更新;アセット;コンテンツのアップロード;アセットのアップロード
+keywords: content;update content;assets;upload content;upload asset
 description: 画像オファーリストにアイテムを追加できます。
 title: コンテンツのアップロード
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    アイテムがライブラリにアップロードされます。
 
-## トレーニングビデオ：コンテンツリポジトリ
+## トレーニングビデオ：コンテンツリポジトリ 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 
@@ -29,4 +29,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
