@@ -5,7 +5,7 @@ title: 自動配分
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティワークフロー - ターゲット設定（2:14）
+### アクティビティワークフロー - ターゲット設定（2:14） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、トラフィック配分の設定に関する情報が含まれています。
 
@@ -193,7 +193,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### A/B テストの作成（8:36）
+### A/Bテストの作成(8:36)チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。自動トラフィック配分の説明は、4:45 から始まります。
 
