@@ -4,7 +4,7 @@ description: フィードを使用して Adobe Recommendations に読み込ん�
 title: フィード
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
-[!UICONTROL フィード]リスト（**[!UICONTROL レコメンデーション]**／**[!UICONTROL &#x200B;フィード]**）には、作成したフィードについての情報が表示されます。
+[!UICONTROL フィード]リスト（**[!UICONTROL レコメンデーション]**／**[!UICONTROL フィード]**）には、作成したフィードについての情報が表示されます。
 
 ![フィードページ](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,7 +208,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 フィードを作成して、製品やサービスについての情報を [!DNL Recommendations] に挿入します。
 
-1. Target インターフェイスから、**[!UICONTROL レコメンデーション]**／**[!UICONTROL &#x200B;フィード]**／**[!UICONTROL フィードを作成]**をクリックします。
+1. Target インターフェイスから、**[!UICONTROL レコメンデーション]**／**[!UICONTROL フィード]**／**[!UICONTROL フィードを作成]**&#x200B;をクリックします。
 
    ![フィードを作成ダイアログボックス](assets/CreateFeed.png)
 
@@ -220,7 +220,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
    * Analytics 分類
    CSV および Google 製品フィードフィードタイプについて詳しくは、[フィードの概要](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. （条件付き）**[!UICONTROL CSV]**または**[!UICONTROL  Google 製品フィード]**を選択した場合、フィードがアクセスできる場所を指定します。
+1. （条件付き）**[!UICONTROL CSV]** または **[!UICONTROL Google 製品フィード]**&#x200B;を選択した場合、フィードがアクセスできる場所を指定します。
 
    * **FTP**：FTP を選択した場合は、FTP サーバー情報、ログイン資格情報、ファイル名、FTP ディレクトリを指定します。より安全なアップロードのために、SSL を使用した FTP（FTPS）を使用することもできます。
 
@@ -233,7 +233,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
    * **URL**：URL を選択した場合は、URL を指定します。
 
 
-1. （条件付き）**[!UICONTROL Analytics 分類]**を選択した場合、ドロップダウンリストからレポートスイートを選択します。
+1. （条件付き）**[!UICONTROL Analytics 分類]**&#x200B;を選択した場合、ドロップダウンリストからレポートスイートを選択します。
 
 1. 「**[!UICONTROL 次へ]**」矢印をクリックして、「[!UICONTROL スケジュール]」オプションを表示します。
 
@@ -250,7 +250,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
    このオプションは、ブラウザーで使用されるタイムゾーンに基づいています。別のタイムゾーンの時間を使用したい場合、タイムゾーンに応じて時間を計算する必要があります。
 
-1. 「**[!UICONTROL 次へ]**」矢印をクリックして「[!UICONTROL マッピング]」オプションを表示してから、データを[!DNL Target]定義にマッピングする方法を指定します。
+1. 「**[!UICONTROL 次へ]**」矢印をクリックして「[!UICONTROL マッピング]」オプションを表示してから、データを [!DNL Target] 定義にマッピングする方法を指定します。
 
    ![ステップの結果](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Recommendations のフィードの説明（3:01）
+### Recommendations のフィードの説明（3:01） 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
@@ -332,7 +332,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### フィードの作成（6:44）
+### フィードの作成（6:44） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
