@@ -1,11 +1,11 @@
 ---
-keywords: オーディエンス、傾向、profile属性、比較、比較、オーディエンスの作成、オーディエンスの作成
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Target オーディエンスライブラリに対して、またはアクティビティのみのオーディエンスにおいて、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 title: プロファイル属性比較オーディエンスの作成（Adobe Target）
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL オーディエンス]**／オーディエンスを作成&#x200B;****／ルールを追加&#x200B;****／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
+1. **[!UICONTROL Audiences]**／**[!UICONTROL Create Audience]**／**[!UICONTROL Add Rule]**／**[!UICONTROL Visitor Profile]** の順にクリックします。
 1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、属性を選択します。
 
    ![傾向スコア 1](assets/propensity_score_1.png)
@@ -56,8 +56,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/propensity_score_4.png)
 
-## トレーニングビデオ {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## トレーニングビデオ {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 概要バ ![ッジ](/help/assets/overview.png)
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
