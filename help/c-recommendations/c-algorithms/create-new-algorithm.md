@@ -3,7 +3,7 @@ description: 条件は、Adobe Recommendations アクティビティの内容を
 title: 条件の作成
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    >[!NOTE]
    >
-   >**[!UICONTROL 類似の属性を持つ品目]**／**[!UICONTROL メディア]**&#x200B;を選択した場合、[コンテンツの類似性ルール](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)を設定することができます。
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. 「**[!UICONTROL データ範囲]** 」を設定して、表示するレコメンデーションを決定する際に使用するユーザーの行動履歴データの範囲を決定します。
 
@@ -438,7 +438,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >コンテンツ類似性アルゴリズムは、アイテム間の類似性を計算する際にランダムサンプリングを使用する場合があります。 その結果、項目間の類似性評価は、アルゴリズムの実行間で異なる場合があります。
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33）
+## トレーニングビデオ：Recommendationsでの条件の作成(12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 このビデオには、次の情報が含まれています。
 
@@ -446,4 +446,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
