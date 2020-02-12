@@ -1,11 +1,11 @@
 ---
-keywords: ブラウザーオプション;タイプ;ブラウザータイプ;ブラウザー言語;言語;バージョン;ブラウザーバージョン
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Adobe Targetでオーディエンスを作成して、ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定できます。
 title: Adobe Target オーディエンスのブラウザーオプション
-subtopic: 多変量分析テスト
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **カスタマイズしたブラウザーオーディエンスルール：**&#x200B;カスタマイズしたオーディエンスを使用すると、複数のブラウザーをターゲットにしたり、特定のブラウザー、ブラウザーのバージョンまたはブラウザーの言語に関するルールや除外ルールをセットアップしたりできます。これにより、ブラウザー属性に基づいてキャンペーンをターゲット化する際に、大幅な柔軟性を実現します。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL ブラウザー]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL ブラウザー]**&#x200B;をクリックします。
 
    ![ルール／ブラウザー](assets/target_browser.png)
 
@@ -117,11 +117,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 複数のオプションは、OR を使用して接続できます。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスの作成 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
