@@ -1,11 +1,11 @@
 ---
-keywords: mvt、多変量分析テスト、場所の貢献度レポート
+keywords: mvt;multivariate test;location contribution report
 description: 場所の貢献度レポートには、各要素および各オファーのパフォーマンスが表示されます。
 title: 場所の貢献度レポート（MVT）
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/locationcontributionbottom.png)
 
-## トレーニングビデオ: MVTテストの作成
+## トレーニングビデオ: MVTテストの作成 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。場所の貢献度レポートについては、8:45 から説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
