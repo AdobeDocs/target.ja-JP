@@ -1,11 +1,11 @@
 ---
-keywords: シングルページアプリケーション実装；シングルページアプリケーションの実装；spa;at.js 2.x;at.js；シングルページアプリケーション；spa;SPAs
+keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
 title: Adobe Target でのシングルページアプリケーションの実装
-topic: Standard
+topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    | --- | --- | --- | --- | --- |
    | viewName | 文字列 | ○ | 1. 末尾にスペースは入れられません。<br>2.空にはできません。<br>3.ビュー名はすべてのページに対して一意である必要があります。<br>4.**警告**： ビュー名の先頭または末尾を「`/`」にしないでください。これは、顧客は URL パスから表示名を一般的に抽出するためです。「home」と「`/home`」は区別されます。<br>5.**警告**： `{page: true}` オプションを使用して同じビューを連続してトリガーしないでください。 | ビューを表す文字列型として任意の名前を渡します。このビュー名は、VEC の「[!UICONTROL 変更]」パネルに表示されます。マーケティング担当者はこれを使用してアクションを作成し、A/B および XT アクティビティを実行します。 |
    | options | オブジェクト | × |  |  |
-   | options &gt; page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。`page=true` の場合、インプレッション数を増分するために Edge サーバーに通知が送信されます。<br>**FALSE**: `page=false` の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
+   | options > page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。`page=true` の場合、インプレッション数を増分するために Edge サーバーに通知が送信されます。<br>**FALSE **:`page=false`の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
    次に、仮想的な e コマース SPA 向けに React で `triggerView()` 関数を呼び出す方法の使用例を見てみましょう。
 
@@ -276,18 +276,18 @@ document.addEventListener("at-view-end", function(e) {
 
 ### at.js 2.x の仕組みについて
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) 概 ![要バッジ](/help/assets/overview.png)
 
 詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) を参照してください。
 
 ### SPA での at.js 2.x の実装
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 詳し [くは、「Adobe targetのat.js 2.xのシングルページアプリケーション(SPA)への実装」を参照してください](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
-### Adobe Target での SPA 用 VEC の使用
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
