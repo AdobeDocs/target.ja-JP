@@ -1,12 +1,12 @@
 ---
-keywords: 応答トークン；トークン；プラグイン；プラグイン；at.js；応答
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用するTarget固有の情報（アクティビティの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力できます
 title: Adobe Target のレスポンストークン
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Target Classic には、mbox の応答時に実行される JavaScript を
 
    詳しくは、[at.js のダウンロード](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックします。
+1. [!DNL Target] で、**[!UICONTROL 設定]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックします。
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5} チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
