@@ -1,12 +1,12 @@
 ---
-keywords: A4T;分析;ターゲットの分析;analytics レポートソース;ターゲットのレポートソースとしての adobe analytics
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
 title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
-subtopic: 統合
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -108,7 +108,7 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Analytics for Target（A4T）（4：32）
+### Analytics for Target(A4T)(4:32)概要バ ![ッジ](/help/assets/overview.png)
 
 このビデオでは、最適化プログラムの分析を推進するために Adobe Target で Adobe Analytics をレポートソースとして使用する方法を説明します。
 
@@ -116,9 +116,9 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 * A4T の仕組みの説明
 * A4T を使用する前に必要な前提条件の理解
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics と Target の統合（A4T）（40：33）
+### Analytics/Targetの統合(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
 
 このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
