@@ -1,11 +1,11 @@
 ---
-keywords: at.js;at.js のデバッグ;Adobe Experience Cloud デバッガー;Experience Cloud デバッガー;mbox トレース;mbox ハイライト;デバッグ;デバッグ処理
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Target の実装をすばやく簡単に理解できる Adobe Experience Cloud デバッガー拡張を使用する方法について説明します。
 title: Adobe Experience Cloud デバッガーを使用した at.js のデバッグ
-topic: 'Target '
+topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ Target の実装をすばやく簡単に理解できる Adobe Experience Cloud �
 
 次のビデオでは、デバッグプロセスの手順について説明しています。
 
-### Adobe Experience Cloud デバッガー拡張の追加 {#section_8CD96F76E397476193529573F3199615}
+### Adobe Experience Cloud デバッガー拡張の追加 概 {#section_8CD96F76E397476193529573F3199615}![要バッジ](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Adobe Experience Cloud デバッガーを使用した Target での基本的なデバッグ {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
+### mboxトレースの概 {#section_FD3BC8019FA847209AB8BCA747C50211} 要バ ![ッジ](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)
