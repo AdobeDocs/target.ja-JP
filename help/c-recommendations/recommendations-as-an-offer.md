@@ -1,9 +1,9 @@
 ---
-keywords: Recommendations;オファー
+keywords: Recommendations;offer
 description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
 title: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、Recommendations をオファーとして追加する要素をクリックして、**[!UICONTROL 前に挿入]**、**[!UICONTROL 後ろに挿入]**&#x200B;または&#x200B;**[!UICONTROL 次で置換]**&#x200B;アクションを選択してから、[!UICONTROL レコメンデーション]を選択します。
+1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、Recommendations をオファーとして追加する要素をクリックして、**[!UICONTROL 前に挿入]**、**[!UICONTROL 後ろに挿入]**、または&#x200B;**[!UICONTROL 次で置換]**&#x200B;アクションを選択してから、[!UICONTROL Recommendation] を選択します。
 
    次の図に、[!UICONTROL 後ろに挿入／Recommendation] オプションを示します。
 
@@ -102,7 +102,7 @@ Recommendations オファーを削除するには、次の 2 つの方法があ�
 
 ### 変更パネルを使用した Recommendations オファーの削除
 
-1. [!UICONTROL 変更]アイコン&#x200B;**（&lt;/&gt;）**&#x200B;をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
+1. [!UICONTROL 変更]アイコン&#x200B;**（&lt;/>）**&#x200B;をクリックして、[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルを表示します。
 1. 目的のアクションの上にマウスポインターを置いて、[!UICONTROL 削除]アイコンをクリックします。
 
    ![削除アイコン](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ Recommendations オファーの（アルゴリズム）ステータスは、Reco
 
 ![Recommendations オファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
 
-## トレーニングビデオ：オファーとしてのレコメンデーション
+## トレーニングビデオ：オファー概要バッジとし ![てのRecommendations](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
