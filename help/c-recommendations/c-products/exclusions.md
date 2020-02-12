@@ -4,7 +4,7 @@ description: Adobe Target で除外リストを作成すると、品目がレコ
 title: Adobe Target での除外
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 **除外を作成するには：**
 
-1. **[!UICONTROL Recommendations]**／**[!UICONTROL &#x200B;除外]**をクリックして、既存の除外のリストを表示します。
+1. **[!UICONTROL Recommendations]**／**[!UICONTROL 除外]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
    ![](assets/exclusions_list.png)
 
@@ -27,11 +27,11 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 
-1. （条件付き）除外の作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**フィルターから選択して、その環境の除外のコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外の作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**&#x200B;フィルターから選択して、その環境の除外のコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
    ![除外を作成](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. 除外の&#x200B;**[!UICONTROL 名前]**を入力し、オプションで説明を入力します。
+1. 除外の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力し、オプションで説明を入力します。
 
 1. ルールビルダーを使用して除外を作成します。
 
@@ -51,7 +51,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 >
 >詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にして除外を作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を除外することを目的とした除外を作成すると、「holiday」を含む商品のみが除外されます。「Holiday」を含む商品は除外されません。
 
-## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05）
+## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
