@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Admin Console でユーザーを追加したり権限を管理したりで
 >[!UICONTROL プロパティ]と[!UICONTROL 権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
 >
->**[!DNL Target]Standard のお客様**： 「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合、ライセンスは、[!DNL Target] Standard です。[!DNL Target Standard のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>**[!DNL Target]Standard のお客様&#x200B;**： 「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合、ライセンスは、[!DNL Target]Standard です。[!DNL Target Standard のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
 >
->**[!DNL Target]Premium のお客様**： 「[!UICONTROL プロパティ]」タブ（[!UICONTROL 設定／プロパティ]）が表示された場合、ライセンスは [!DNL Target] Premium です。[!DNL Target] Premium のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、[ Enterprise ユーザーの権限 ](/help/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限 ](/help/administrating-target/c-user-management/property-channel/properties-overview.md) の設定の手順に従ってください。
+>**[!DNL Target]Premium のお客様&#x200B;**： 「[!UICONTROL プロパティ]」タブ（[!UICONTROL 設定／プロパティ]）が表示された場合、ライセンスは[!DNL Target]Premium です。[!DNL Target]Premium のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、[Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)と[Enterprise 権限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
 
 ユーザーと権限を管理するには、『エンタープラ [イズ](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) &amp;チームユーザーガイド』の「製品とプロファイルの管理」を参照してください。
 
@@ -50,14 +50,14 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザー]**&#x200B;をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
+1. [管理コンソールで、ユーザー](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)/ユーザーをクリ **[!UICONTROL ックし]****** 、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## ユーザーグループの作成 {#user-groups}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザーグループ]**&#x200B;をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
+1. [管理コンソールで、ユーザー](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)/ユーザーグル **[!UICONTROL ープをクリックし]****** 、新しいユーザーグループを作成するか、既存のグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
@@ -90,7 +90,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
-## トレーニングビデオ：Target のワークスペースの設定方法
+## Training video: How to Configure Target Workspaces ![Tutorial badge](/help/assets/tutorial.png)
 
 学習内容：
 
@@ -100,4 +100,4 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
    * プロパティをワークスペースに追加します
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
