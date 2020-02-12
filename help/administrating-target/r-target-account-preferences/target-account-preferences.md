@@ -1,12 +1,12 @@
 ---
-keywords: アカウント環境設定;環境設定;サイト詳細;カスタム mbox 名;レポートに使用する Experience Cloud ソリューション;収益の推定上昇率を表示;css セレクター;要素クラスの使用;デフォルトの Visual Experience Composer URL;拡張 Experience Composer の有効化;エクスペリエンススナップショットの生成;モバイルビューポート設定;業種;非互換の条件をフィルター
+keywords: account preferences;preferences;site details;custom mbox name;Experience Cloud solution used for reporting;Show estimated lift in revenue;css selectors;use element classes;Default Visual Experience Composer URL;Enable Enhanced Experience Composer;Generate Experience Snapshots;mobile viewport configuration;Industry Vertical;Filter Incompatible Criteria
 description: アカウントの環境設定をして、Adobe Target Standard または Target Premium が自分のアカウントと正しく連携するように設定します。
 title: 環境設定
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 アカウントで[!DNL Target Standard]または[!DNL Target Premium]が正しく機能するように、アカウントの環境設定をおこないます。
 
-アカウント環境設定を設定するには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]**&#x200B;をクリックして、希望する環境設定を構成してから、「**[!UICONTROL 送信]**」をクリックします。
+アカウント設定を構成するには、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックして、希望する環境設定を構成してから、「**[!UICONTROL 送信]**」をクリックします。
 
 次の図は、[!UICONTROL アカウント設定]ページで利用できる設定を示しています。
 
@@ -58,14 +58,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | オプション | 説明 |
 |--- |--- |
 | 要素 ID を使用 | 複数の要素で同じ ID を使用する場合、またはページの読み込みで要素 ID が変更される場合は、このオプションの選択を解除します。 |
-| 要素クラスを使用 | デフォルトで、[!DNL Target]は要素 ID のみを使用します。ただし、ページでクラスを使用して要素を指定している場合は（[!DNL Adobe Experience Manager] を使用して作成されたページなど）、「[!UICONTROL 要素クラスを使用]」も選択する必要があります。<br>**注意**：すべての機能は正確さを期して実装されていますが、クラスを使用するとエラーが発生する場合があることに注意してください。いずれのオプションも選択しない場合も、正確性が低下します。正確性は、ID &gt; クラス &gt; オプション指定なしの順番です。必ずページをテストして、セレクターが正しいことを確認してください。<br>アクティビティごとにこの設定を上書きできます（[!UICONTROL 設定]歯車アイコンをクリックして、「[!UICONTROL CSS セレクター]」を選択します）。この機能は、別々の設定をおこなう複数のサイトがある場合に特に役立ちます。<br>**注意**：アクティビティごとに設定を上書きする機能は、[!UICONTROL 自動パーソナライゼーション]アクティビティおよび[!UICONROL 多変量分析テスト]アクティビティでは使用できません。セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。 |
+| 要素クラスを使用 | デフォルトで、[!DNL Target]は要素 ID のみを使用します。ただし、ページでクラスを使用して要素を指定している場合は（[!DNL Adobe Experience Manager] を使用して作成されたページなど）、「[!UICONTROL 要素クラスを使用]」も選択する必要があります。<br>**注意&#x200B;**：すべての機能は正確さを期して実装されていますが、クラスを使用するとエラーが発生する場合があることに注意してください。いずれのオプションも選択しない場合も、正確性が低下します。正確性は、ID > クラス > オプション指定なしの順番です。必ずページをテストして、セレクターが正しいことを確認してください。<br>アクティビティごとにこの設定を上書きできます（[!UICONTROL 設定]歯車アイコンをクリックして、「[!UICONTROL CSS セレクター]」を選択します）。この機能は、別々の設定をおこなう複数のサイトがある場合に特に役立ちます。<br>**注意**：アクティビティごとに設定を上書きする機能は、[!UICONTROL 自動パーソナライゼーション]アクティビティおよび[!UICONROL 多変量分析テスト]アクティビティでは使用できません。セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。 |
 
 ## Visual Experience Composer{#section_CD9BDD372CF54E678F88E8BA95757A5A} 
 
 | オプション | 説明 |
 |--- |--- |
 | デフォルトの Visual Experience Composer URL | [!UICONTROL Visual Experience Composer] で使用されるデフォルトの URL を設定します。これは、新しいアクティビティのそれぞれに対してエクスペリエンスをセットアップするときに必ず使用される、ホームページのようなデフォルトのページです。デフォルトの URL を設定しない場合は、各アクティビティを作成するたびに URL を入力する必要があります。 |
-| 拡張された Experience Composer を有効にする | iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは拡張版と互換性がない場合があります。元の Experience Composer に戻すには、このオプションの選択を解除します。サイトでのアクティビティの配信はこの選択の影響を受けません。<br>詳しくは、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。<br>**注意**：アクティビティレベルで拡張 Experience Composer を有効にすることもできます。 |
+| 拡張された Experience Composer を有効にする | iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは拡張版と互換性がない場合があります。元の Experience Composer に戻すには、このオプションの選択を解除します。サイトでのアクティビティの配信はこの選択の影響を受けません。<br>詳しくは、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。<br>**注意&#x200B;**：アクティビティレベルで拡張 Experience Composer を有効にすることもできます。 |
 | 混在コンテンツの読み込み | Enhanced Experience Composer（EEC）を使用して Web サイトを開く際に、混合コンテンツを有効にします。このオプションを有効にすると、Target のプロキシサーバーを介して静的リソースを読み込む余分なオーバーヘッドを回避できます。<br>このオプションは、例えば、EEC を有効にしたプロキシサーバーを使用しなくても、コンテンツセキュリティポリシー（CSP）ヘッダーが混合コンテンツの読み込みを許可している場合に便利です。<br>また、このオプションは、JavaScript や画像などがプロキシ経由の読み込みに時間がかかり、HTTP Web サイトが EEC の読み込み時間の増加に直面している場合に便利です。 |
 | エクスペリエンスのスナップショットを生成 | エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。 |
 
@@ -77,10 +77,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 |--- |--- |
 | ![Premium バッジ](/help/assets/premium.png)新規追加 | 「[!UICONTROL 新規追加]」をクリックして、モバイルビューポートのわかりやすい名前のほか、幅と高さを指定し、希望するオペレーティングシステムを選択した後、「[!UICONTROL 保存]」をクリックします。モバイルビューポートの追加方法に関する情報については、[モバイルビューポート設定](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。 |
 
-## トレーニングビデオ：アカウント環境設定（7:33）
+## トレーニングビデオ：アカウント環境設定（7:33） 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、アカウント設定に関する情報を説明します。
 
 * [!DNL Target Standard]でのアカウント設定に関する説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
