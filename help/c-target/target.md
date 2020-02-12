@@ -1,10 +1,10 @@
 ---
-keywords: ターゲット設定;オーディエンス;割合ターゲット
+keywords: Targeting;audiences;percentage target
 description: Adobe Target でオーディエンスを使用して、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、Web マーケティングを最適化します。
 title: Adobe Target のオーディエンス
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ Targets では、ルールベースのターゲットも設定できます。ル
 
 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に指定された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
 
-## トレーニングビデオ：アクティビティのターゲット設定（2:13）
+## トレーニングビデオ：アクティビティのターゲット設定（2:13） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、ターゲット設定とオーディエンスのセットアップに関する情報が説明されています。
 
@@ -34,4 +34,4 @@ Targets では、ルールベースのターゲットも設定できます。ル
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
