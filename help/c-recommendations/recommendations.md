@@ -4,7 +4,7 @@ description: Adobe targetのRecommendationsアクティビティは、以前の�
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## ![概要バッジ](/help/assets/overview.png) Training video:アクティビティタイプ
+## トレーニングビデオ：アクティビティのタイプ 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
 
@@ -53,7 +53,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
+## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs} チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
