@@ -1,11 +1,11 @@
 ---
-keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 title: Enterprise ユーザーの権限
-subtopic: 導入
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
 
-* **[!DNL Target Standard]のお客様**：「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合は、ライセンスは [!DNL Target Standard] です。[!DNL Target Standard] のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
+* **[!DNL Target Standard]のお客様&#x200B;**：「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合は、ライセンスは[!DNL Target Standard]です。[!DNL Target Standard]のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
 
    [!DNL Target Standard] ユーザーが「[!UICONTROL プロパティ]」タブをクリックすると、以下のエラーメッセージが表示されます。[!DNL Target] に問題が発生しているわけではありません。これは、[!DNL Target Standard] ユーザーが [!DNL Target Premium] [!UICONTROL Enterprise 権限]機能にアクセスできないことを示しています。
 
    ![エラーメッセージ](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]のお客様**：「[!UICONTROL プロパティ]タブ（[!UICONTROL 設定／プロパティ]）が表示された場合は、ライセンスは [!DNL Target Premium] です。[!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]のお客様&#x200B;**：「[!UICONTROL プロパティ]タブ（[!UICONTROL 設定／プロパティ]）が表示された場合は、ライセンスは[!DNL Target Premium]です。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## Enterprise 権限の使用を開始する前に
 
@@ -271,7 +271,7 @@ Target Premium でプロパティおよび権限を使用または設定する�
 
 リダイレクトページとアクティビティ URL が同じプロパティに属している場合、クリックの追跡は期待どおりに機能します。詳しくは 、[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。
 
-## トレーニングビデオ：Enterprise 権限のトレーニングビデオ {#section_2FA080303A064242B63FF16CFA6DB31D}
+## トレーニングビデオ：Enterprise Permissionsトレーニングビデオ概 {#section_2FA080303A064242B63FF16CFA6DB31D} 要バ ![ッジ](/help/assets/overview.png)
 
 学習内容：
 
@@ -279,4 +279,4 @@ Target Premium でプロパティおよび権限を使用または設定する�
 * プロパティとワークスペースの概念のほか、これらの違いとグループ分けを生かしてユーザーのアクセスレベルを管理する方法
 * 組織に役立つ様々なプロパティの例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
