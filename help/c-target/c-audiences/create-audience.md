@@ -1,11 +1,11 @@
 ---
-keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成
+keywords: audience;audience rules;create audience;creating audience
 description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
 title: Target でのオーディエンスの構築
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    または
 
-   既存のオーディエンスをコピーするには、[!UICONTROL オーディエンス]のリストから目的のオーディエンスにマウスポインターを置き、**[!UICONTROL コピー]アイコンをクリックします。**&#x200B;これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
+   既存のオーディエンスをコピーするには、[!UICONTROL オーディエンス]のリストから目的のオーディエンスにマウスポインターを置き、**[!UICONTROL コピー]**&#x200B;アイコンをクリックします。これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. わかりやすい一意のオーディエンスの名前を入力します。
 1. 「**[!UICONTROL ルールを追加]**」をクリックします。
@@ -56,11 +56,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    処理遅延の数秒後に、新しく作成したオーディエンスがリストに表示されます。オーディエンスがすぐにリストに表示されない場合は、オーディエンスを検索するか、リストを更新してください。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスの作成 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、オーディエンスの作成について説明します。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
