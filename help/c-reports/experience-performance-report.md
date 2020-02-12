@@ -1,10 +1,10 @@
 ---
-keywords: 多変量分析テスト、mvt、エクスペリエンスパフォーマンスレポート
+keywords: multivariate test;mvt;experience performance report
 description: エクスペリエンスのパフォーマンスレポートは、アクティビティの各エクスペリエンスのパフォーマンスを表示します。このレポートには、参加者数、コンバージョン率、上昇率および信頼性についての情報が含まれています。
 title: エクスペリエンスのパフォーマンスレポート（MVT）
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 エクスペリエンスのパフォーマンスレポートは、アクティビティの各エクスペリエンスのパフォーマンスを表示します。このレポートには、参加者数、コンバージョン率、上昇率および信頼性に関する情報が含まれます。
 
-1 つ以上のエクスペリエンスを選択して、それらを比較できます。エクスペリエンスをクリックし、「**[!UICONTROL プレビュー]」を選択して、エクスペリエンスをブラウザーのタブに表示します。**
+1 つ以上のエクスペリエンスを選択して、それらを比較できます。エクスペリエンスをクリックし、「**[!UICONTROL プレビュー]**」を選択して、エクスペリエンスをブラウザーのタブに表示します。
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 グラフの下のテーブルには、各エクスペリエンスを表示した参加者数、および成功指標に関連するその他の情報が表示されます。
 
-## トレーニングビデオ: MVTテストの作成
+## トレーニングビデオ: MVTテストの作成 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。エクスペリエンスのパフォーマンスレポートについては 8:20 の時点から説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
