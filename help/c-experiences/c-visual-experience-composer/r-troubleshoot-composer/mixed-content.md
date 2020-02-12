@@ -5,7 +5,7 @@ title: ブラウザーでの混合コンテンツの有効化
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 
 Google Chrome ヘルプの[安全でないコンテンツを含むページ](https://support.google.com/chrome/answer/1342714?hl=en)に関する説明を参照してください。
 
-### トレーニングビデオ：Chromeバージョン79.0.3945.117以降でVECを有効にします（2020年1月）。
+### トレーニングビデオ：Chromeバージョン79.0.3945.117以降（2020年1月）でVECを有効にする概要バ ![ッジ](/help/assets/overview.png)
 
 最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を実行する必要はありません。
 
@@ -69,12 +69,12 @@ Firefox では、安全なコンテンツと安全でないコンテンツが混
 
 Internet Explorer では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、Target を使用するように永久的に変更することをお勧めします。
 
-1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**をクリックします。
+1. Internet Explorer で、「設定」アイコン / **[!UICONTROL インターネットオプション]**&#x200B;をクリックします。
 1. 「[!UICONTROL セキュリティ]」タブを開きます。
-1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL &#x200B;カスタムレベル]**」をクリックします。
+1. 「**[!UICONTROL インターネット]**」を選択し、 「**[!UICONTROL カスタムレベル]**」をクリックします。
 1. 「**[!UICONTROL その他]**」を選択します。
 1. 「[!UICONTROL その他]」の下の「**[!UICONTROL 混在したコンテンツを表示する]**」を有効にします。
-1. 「**[!UICONTROL OK]**／**[!UICONTROL &#x200B;はい]**／**[!UICONTROL 適用]**」をクリックします。
+1. 「**[!UICONTROL OK]**／**[!UICONTROL はい]**／**[!UICONTROL 適用]**」をクリックします。
 
 この設定を変更した後、コンピューターを再起動することをお勧めします。
 
