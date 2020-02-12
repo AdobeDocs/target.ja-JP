@@ -1,11 +1,11 @@
 ---
-keywords: 多変量分析;mvt;指標;指標の設定;目標指標;アクティビティ設定;成功指標;コンバージョン;売上高;エンゲージメント
+keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -37,8 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    詳しくは、[成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 1. （オプション）さらに指標を追加します。
-1. 指標の設定が終了したら、「**[!UICONTROL 続行]**」をクリックします。
-指標に名前を付けたり、名前を変更したりする場合、以下の文字は使用できないことに注意してください。
+1. 指標の設定が終了したら、「**[!UICONTROL 続行]**」をクリックします。指標に名前を付けたり、名前を変更したりする場合、以下の文字は使用できないことに注意してください。
 
    | 文字 | 説明 |
    |--- |--- |
@@ -51,7 +50,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    | `-` | マイナス |
    | `@` | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43）
+## トレーニングビデオ：アクティビティ指標（7:43） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、成功指標に関する作業について説明します。
 
@@ -59,4 +58,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * コンバージョン、収益、エンゲージメントの指標の理解と構築
 * クリック追跡指標の構築
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
