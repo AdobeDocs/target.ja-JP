@@ -1,10 +1,10 @@
 ---
-keywords: time frame、start date、終了日、開始日/終了日、時間枠、ターゲットスケジュール、週間の分割、日分割、分割
+keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: 開始および終了の日時を追加して、特定の時間枠中にサイトを訪問するユーザーにターゲット設定できます。また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
 title: 時間枠
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [例えば、結合されたアドホックオーディエンス機能](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) を使用すると、ブラックフライデーおよびブラックフライデーの後のその他のコンテンツの3日間に特定のコンテンツを持つ低スパム者をターゲット設定できます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL 時間枠]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 時間枠]**&#x200B;をクリックします。
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -49,11 +49,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスの概 ![要バッジの作成](/help/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
