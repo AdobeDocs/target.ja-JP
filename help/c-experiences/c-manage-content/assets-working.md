@@ -1,10 +1,10 @@
 ---
-keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: ライブラリ内のアセットで実行できるタスクは多数あります。
 title: ライブラリ内のコンテンツの操作
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. ライブラリ内の項目を表す画像を変更するには、項目をクリックし、**[!UICONTROL プロパティ]**&#x200B;アイコンをクリックしてから、「**[!UICONTROL 編集]**」をクリックして、画像を追加します。
 
-## トレーニングビデオ：コンテンツリポジトリ
+## トレーニングビデオ：コンテンツリポジトリの概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。(4:56)
 
@@ -41,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
