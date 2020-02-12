@@ -1,12 +1,12 @@
 ---
-keywords: ターゲット設定;a4t;地理;ジオターゲティング;ジオターゲティングの精度;国;都道府県;市区町村;郵便番号;dma;携帯電話会社;cityコード;regionコード;countryコード;metro code;プロファイルスクリプト;ジオターゲティングプロファイルスクリプト;ジオターゲティングモバイル
+keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Adobe Target オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 title: 地域
 solution: Target,Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ## GeoTargeting を使用するオーディエンスの作成 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL 地域]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 地域]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
@@ -144,11 +144,11 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 
 いいえ。セ [!DNL Target] ッション中のみ地域データを使用し、データは破棄されます。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスチュート ![リアルバッジの作成](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
