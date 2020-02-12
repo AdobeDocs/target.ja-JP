@@ -5,7 +5,7 @@ title: Adobe Target のプロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 訪問者が Web サイトを閲覧したり、別のセッションに戻ったりする際に、保存されたプロファイル属性を使用してコンテンツをターゲット設定したり、セグメントフィルターの情報を記録したりできます。
 
-プロファイル属性を設定するには、**[!UICONTROL Audiences]**／**[!UICONTROL プロファイルスクリプト]**&#x200B;をクリックします。
+プロファイル属性を設定するには、**[!UICONTROL オーディエンス]**／**[!UICONTROL プロファイルスクリプト]**&#x200B;をクリックします。
 
 ![「プロファイルスクリプト」タブ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 | パラメータータイプ | 説明 |
 |--- |--- |
-| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意&#x200B;**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | script | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -232,9 +232,9 @@ if (!user.get('threegroups')) {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークン]**&#x200B;を生成をクリックして生成できる認証トークンが必要です。
+   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
 
-   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の "?" のうしろに加えます。
+   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
 
    これは、プロファイルの実行前後のスナップショットを取得できるため、レスポンストークンよりもやや詳細な情報を提供します。また、使用可能なすべてのプロファイルも表示されます。
 
@@ -344,7 +344,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
 | `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコード します。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
-## トレーニングビデオ: プロファイルスクリプト
+## トレーニングビデオ：プロファイルスクリプトチ ![ュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、プロファイルスクリプトの使用と作成に関する情報を説明します。
 
@@ -354,4 +354,4 @@ else if (mbox.param("adobeQA"))
 * 利用可能なオプションにアクセスするための利用可能なトークンメニューの使用
 * プロファイルスクリプトの有効化と無効化
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
