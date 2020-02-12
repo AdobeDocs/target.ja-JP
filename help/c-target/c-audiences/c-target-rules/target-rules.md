@@ -1,10 +1,10 @@
 ---
-keywords: ターゲット設定、ターゲットカテゴリ、ターゲット条件、Audience Manager、カスタムプロファイルパラメーター、visitorプロファイル、カスタムユーザーパラメーター、ターゲットルール
+keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: どのカテゴリでもターゲットを設定できます。各カテゴリはタブとして機能し、カテゴリごとにターゲットルール（またはグループ）を作成できます。
 title: オーディエンスのカテゴリ
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 オーディエンスリストは、オーディエンス名または最終更新日付で並べ替えられます。名前や日付で並べ替える場合は、列見出しをクリックし、昇順または降順でオーディエンスを表示するよう選択します。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスチュート ![リアルバッジの作成](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
