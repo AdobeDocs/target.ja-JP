@@ -1,11 +1,11 @@
 ---
-keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js;atjs
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 title: Adobe Target at.js javaScriptライブラリの仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 1 | ユーザーが認証されると、呼び出しが [!DNL Experience Cloud ID]（MCID）を返し、別の呼び出しが顧客 ID を同期します。 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。 |
 | 3 | すべての設定済みパラメーター、MCID、SDID および顧客 ID（オプション）を含む、グローバル mbox リクエストがおこなわれます。 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、[!UICONTROL オーディエンスライブラリ]から正規のオーディエンスをリクエストします（例えば､[!DNL Adobe Analytics]、[!DNL Audience Manager] などから共有されたオーディエンス）。<br>顧客属性がバッチ処理で [!DNL Profile Store] に送信されます。 |
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
-| 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。[!DNL Analytics for Target]（A4T）レポートを使用して、<br>[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。 |
+| 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。<br>[!DNL Analytics]（A4T）レポートを使用して、[!DNL Analytics] データが [!DNL Target] と [!DNL Analytics for Target] の両方に表示できるようになります。 |
 
 ## at.js による HTML コンテンツを使用したオファーのレンダリング方法 {#render}
 
@@ -91,10 +91,10 @@ HTML コンテンツを使用してオファー をレンダリングする場�
 * at.js は、非同期的に読み込まれるので、リモートスクリプトの実行順序を保証しません。
 * インラインスクリプトは、後で読み込まれて実行されるので、リモートスクリプトへの依存関係を持たせないようにします。
 
-## トレーニングビデオ： at.js 2.x のアーキテクチャ図
+## トレーニングビデオ：at.js 2.xアーキテクチャ図の概要バ ![ッジ](/help/assets/overview.png)![概要バッジ](/help/assets/overview.png)
 
 at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) を参照してください。
