@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
 title: Adobe Target での Recommendations アクティビティの設定
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 アクティビティに関するメモを入力します。
 
-## トレーニングビデオ：アクティビティの設定（3:02）
+## トレーニングビデオ：アクティビティの設定(3:02)チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -72,4 +72,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
