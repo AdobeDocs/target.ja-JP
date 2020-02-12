@@ -1,10 +1,10 @@
 ---
-keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
+keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 title: Recommendations アクティビティの作成
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    「[!UICONTROL 次へ]」をクリックすると、VEC が開き、ページが表示されます。現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
 
-1. ページの要素をクリックします。要素がある位置でレコメンデーションを使用できる場合は、「**[!UICONTROL レコメンデーションと置換]**」、「**[!UICONTROL 前にレコメンデーションを挿入]**」または「**[!UICONTROL 次の後にレコメンデーションを挿入]**」をクリックします。
+1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
    ![Recommendations オプション](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -69,7 +69,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。お使いの Recommendations の設定（**[!UICONTROL Recommendations]**／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、[!UICONTROL 互換性]オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。お使いの Recommendations の設定（[!UICONTROL Recommendations]／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、**[!UICONTROL 互換性]**&#x200B;オプションが表示されない場合があります。詳しくは、[設定](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)を参照してください。
 
    ![条件を選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -79,8 +79,8 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
       [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-   * 新しい条件を作成するには、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件に関する情報を入力します。新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
-   * また、条件をシーケンスにグループ化することもできます。新しい条件のシーケンスを作成するには、**[!UICONTROL 条件を作成]**／**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+   * また、条件をシーケンスにグループ化することもできます。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択します。
@@ -95,7 +95,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
       複数の条件を選択した場合は、1 つのデザインのみ選択できます。
 
-   * 新しいデザインを作成するには、「**[!UICONTROL デザインを作成]**」をクリックしてから、新しいデザインの名前とコードを入力します。「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして、**[!UICONTROL 完了]**／**[!UICONTROL 完了]**&#x200B;をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
+   * 新しいデザインを作成するには、「**[!UICONTROL デザインを作成]**」をクリックしてから、新しいデザインの名前とコードを入力します。「**[!UICONTROL 次へ]**」をクリックし、画像を選択またはアップロードして&#x200B;**[!UICONTROL 完了]**／**[!UICONTROL 完了]**&#x200B;をクリックします。新しいデザインの作成について詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -136,7 +136,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    * デザインコードを表示します。
    * デザインを変更または削除します。
 
-1. 終了したら「**[!UICONTROL 次へ]」をクリックします。**
+1. 終了したら「**[!UICONTROL 次へ]**」をクリックします。
 1. アクティビティを設定します。
 
    例えば、アクティビティの名前（必須）および目標（任意）を入力します。設定について詳しくは、[Recommendations アクティビティの設定](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
@@ -165,6 +165,6 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15）
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） チュート ![リアルバッジ](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
