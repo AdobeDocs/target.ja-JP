@@ -1,11 +1,11 @@
 ---
-keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
+keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: ブラウザーが新しいページにリダイレクトされる Adobe Target のリダイレクトオファーについて説明します。
 title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。この場合、A/B テストではページ A とページ B を比較します。A/B テストキャンペーンを 2 つのエクスペリエンスで設定します。1 つはデフォルトのページ A をポイントするエクスペリエンス、もう 1 つはページ B にリダイレクトするエクスペリエンスです。訪問者を別のページにリダイレクトするオファーが設定されます。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >ajax mbox（`mboxUpdate`）では、リダイレクトオファーは使用できません。
 >
@@ -26,13 +26,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 リダイレクトオファーでは、JavaScript コードを実行してブラウザーをリダイレクトします。このオファーでは `window.location.replace();` メソッドを使用するので、訪問者のリダイレクト元のページはブラウザー履歴に保存されません。そのため、訪問者はブラウザーの「戻る」ボタンを引き続き使用できます。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >ランディングページのリファラー値を渡す場合、リダイレクトオファーではなく HTML オファーを使用することをお勧めします。
 
 **リダイレクトオファーを作成する手順は次のとおりです。**
 
-1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
+1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
 1. **[!UICONTROL 作成]**／**[!UICONTROL リダイレクトオファー]**&#x200B;をクリックします。
 1. オファー名を入力します。
 1. 一意のコンテンツまたはリダイレクト先の URL を入力します。この URL は絶対 URL にする必要があります。
@@ -51,11 +51,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ファーストパーティおよびサードパーティ Cookie の設定を使用する場合は、異なるドメインにアクセスするときに mbox セッション ID を渡す必要はありません。この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >このようなテストを開始する場合は、導入コンサルタントにお問い合わせください。
 
-## トレーニングビデオ：コンテンツリポジトリ（4:56）
+## トレーニングビデオ：コンテンツリポジトリ（4:56） 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 
@@ -63,4 +63,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
