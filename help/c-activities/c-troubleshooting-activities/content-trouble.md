@@ -1,12 +1,12 @@
 ---
-keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: ページに必要なコンテンツが表示されない場合は、Adobe targetでコンテンツ配信をデバッグするためのいくつかの手順を実行できます。
 title: Adobe targetでのコンテンツ配信のトラブルシューティング
-subtopic: 多変量分析テスト
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 
 認証トークンを取得するには、次の手順に従います。
 
-1. 「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順にクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
 1. 「**[!UICONTROL mbox.js]**」または「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL 認証トークンを生成]**」をクリックします。
 
@@ -157,14 +157,14 @@ mbox 応答をブラウザーで確認するか、mboxTrace を使用して確�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### 拡張機能の追加
+### 拡張機能の追加 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本的な Target デバッグ
+### 基本的なTargetデバッグチュ ![ートリアルバッジ](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### mboxトレースチュート ![リアルバッジ](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
