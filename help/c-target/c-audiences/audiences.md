@@ -5,7 +5,7 @@ title: Adobe Target でのオーディエンスの作成
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 * AAM でオーディエンスが削除されている場合、[!UICONTROL オーディエンス]リストとオーディエンスピッカーの両方に警告アイコンが表示されます。また、UI のツールチップにも、AAM でオーディエンスが削除されていることが表示されます。
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
-カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを追加する場合、**[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックして、アクティビティをターゲット設定するために使用するパラメーターを選択します。必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
+カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
 [!UICONTROL オーディエンス]リストを検索するには、検索ボックスを使用します。オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
@@ -71,7 +71,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 | オーディエンスのタイプ | 詳細 |
 |--- |--- |
 | モバイルオーディエンス | マーケティング名、ベンダー、モデル。<br>「 `matches | does not match` インポートされた `equals | does not equal`<br>![モバイルオーディエンス」の代わりに演算子が表示されます](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 訪問者の行動オーディエンス | **user. categoryAffinity:** `categoryAffinity` `FAVORITE` パラメーターを使用します。<br>![インポートされたカテゴリーの親和性監視](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**:** 監視サービスがtrueに等しい。<br>**監視なし：** Monitoring service equals false.<br>![インポートされた監視](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 訪問者の行動オーディエンス | **user. categoryAffinity:** `categoryAffinity` `FAVORITE` パラメーターを使用します。<br>![インポートされたカテゴリーの親和性監視](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**:**監視サービスがtrueに等しい。<br>**監視なし：** Monitoring service equals false.<br>![インポートされた監視](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | NOT 演算子を使用するオーディエンス | **単一ルール:** Targetはオーディエンスを形式で表示 `[All Visitor AND [NOT [rule]` します。単一のNOTルールは、ANDと共に `AllVisitor` 表示されます。<br>![インポートされないオーディエンス](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 インポートしたオーディエンスを操作する際は、次の点に注意してください。
@@ -79,7 +79,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 * Target Standard／Premium では、エクスプレッションターゲットオーディエンスはサポートされなくなりました。
 * Target Standard／Premium では、非推奨のオーディエンスをサポートしていない場合や、使いやすいように演算子が改良されている場合があります。そのため、インポートしたオーディエンスの定義は、定義どおりに機能しますが、Standard／Premium インターフェイスで同じものを作成することはできない場合があります。例えば、ソーシャルオーディエンスはルールとともに表示されますが、Target Standard／Premium で作成することはできません。
 
-## トレーニングビデオ: Audiencesの使用
+## トレーニングビデオ: Audiencesの使用 チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスの使用に関する情報が説明されています。
 
@@ -89,4 +89,4 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
