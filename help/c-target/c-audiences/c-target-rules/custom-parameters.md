@@ -1,11 +1,11 @@
 ---
-keywords: カスタムパラメーター、targetカスタムパラメーター、targetpageparams、ターゲットmboxパラメーター
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 title: Adobe Target のカスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. **[!UICONTROL ルールを追加]**／**[!UICONTROL カスタム]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    目的のパラメーターを選択するには：
 
@@ -52,11 +52,11 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 * オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡すが、リージョナル mbox は渡さない場合、そのパラメーターをターゲットにしたアクティビティ／オーディエンスでは、リージョナル mbox は対象になりません。
 * ターゲット設定は、mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId、mboxVersionなどの内部mboxパラメーターでは評価されません。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ：オーディエンスチュート ![リアルバッジの作成](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
