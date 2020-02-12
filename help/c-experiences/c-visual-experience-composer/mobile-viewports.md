@@ -4,7 +4,7 @@ description: モバイルビューポートを使用すると、様々な画面�
 title: レスポンシブエクスペリエンスのためのモバイルビューポート
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 エクスペリエンスを作成する際に、使用可能にするモバイルビューポートを設定します。
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**を選択します。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;を選択します。
 1. アカウント環境設定ページの「モバイルビューポート設定」セクションで、「**[!UICONTROL 新規追加]**」をクリックしてモバイルビューポートを追加します。
 
    既存のモバイルビューポートの設定を変更するには、そのビューポートを選択して、編集（鉛筆）アイコンをクリックします。
@@ -106,7 +106,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 Target アクティビティにモバイルビューポートを追加して、モバイル画面用のレスポンシブエクスペリエンスを作成します。
 
 1. アクティビティを作成します。
-1. Visual Experience Composer で、**[!UICONTROL 設定]**（歯車）アイコンをクリックし、「**[!UICONTROL &#x200B;モバイルビューポートを追加]**」を選択します。
+1. Visual Experience Composer で、**[!UICONTROL 設定]**（歯車）アイコンをクリックし、「**[!UICONTROL モバイルビューポートを追加]**」を選択します。
 1. 「**[!UICONTROL デバイス]**」アイコンをクリックし、モバイルビューポートの設定が必要な各デバイスを有効にします。
 
    ![](assets/MobileViewPorts.jpg)
@@ -126,7 +126,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 この使用例では、Target Standard のモバイルビューポート機能を使用して、iPhone 6 と iPhone 6 Plus の 2 つのバージョンでエクスペリエンスを設定する方法を示しています。
 
-1. Target Standard で、**[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;環境設定]**をクリックします。
+1. Target Standard で、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 1. 環境設定ページのモバイルビューポート設定セクションで、iPhone 6 と iPhone 6 plus のモバイルビューポートを作成します。
 
    各ビューポートで次の設定を使用します。
@@ -152,7 +152,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer（2／2）（7：29）
+### Visual Experience Composer（2／2）（7：29） 概 ![要バッジ](/help/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 
@@ -165,7 +165,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target でのアカウントの環境設定
+### Adobe targetの概要バッジのアカウン ![ト設定](/help/assets/overview.png)
 
 このビデオの 4:40 の時点から、アカウントの基本設定でモバイルビューポートを設定する方法について説明しています。
 
