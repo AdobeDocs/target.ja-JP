@@ -1,11 +1,11 @@
 ---
-keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
+keywords: audience;select audience;choose audience;Selectors
 description: オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
 title: オーディエンスの選択
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Adobe Target での Audiences の使用（6:21）
+### Adobe Target での Audiences の使用（6:21） 概 ![要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
@@ -56,9 +56,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### アクティビティワークフロー - ターゲット設定（2:14）
+### アクティビティワークフロー — ターゲット設定(2:14)チュート ![リアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのセットアップに関する情報が説明されています。
 
@@ -67,6 +67,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 詳しくは、[オーディエンス](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)を参照してください。
