@@ -1,11 +1,11 @@
 ---
-keywords: アクティビティ設定;A/B 目標と設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;主な目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのためのオーディエンス;指標を増分する前にどの成功指標に達するべきか;この目的指標にユーザーが達した後はどうなるか;メモ
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ A/B テストの目標指標について、詳細設定を利用できます。
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティ設定（3:02）
+### アクティビティの設定(3:02)チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -77,11 +77,11 @@ A/B テストの目標指標について、詳細設定を利用できます。
 
 (https://video.tv.adobe.com/v/17381?captions=jpn
 
-### A/B テストの作成（8:36）
+### A/Bテストの作成(8:36)チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティを作成する際に 3 ステップのガイドによるワークフロー内でどのようにアクティビティ設定がなされるのか示します。目標と設定の説明は、5:30 から始まります。
 
 * Adobe Target での A/B アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
