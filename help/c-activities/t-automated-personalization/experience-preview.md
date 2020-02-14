@@ -1,11 +1,11 @@
 ---
-keywords: エクスペリエンスのプレビュー;エクスペリエンスURL;URLの生成;エクスペリエンスのURLの表示
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: アクティビティをライブにする前に、プレビューおよび QA の目的で、Target の Automated Personalization アクティビティのエクスペリエンス URL を生成して、エクスペリエンスのコンテンツをサイトで直接確認できます。エクスペリエンス URL は、ターゲット設定を無視し、特定のエクスペリエンスを強制的に表示します。
 title: Target 外で Automated Personalization のプレビューを確認できるエクスペリエンス URL を共有
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    サイト上のエクスペリエンスへのリンクをモーダルウィンドウに表示して、Target の Visual Experience Composer の外部でエクスペリエンスの「実際の表示」をプレビューできます。プレビューを共有するには、メッセージに表示されたリンクを共有する必要があります。URL にはメッセージ内のリンクからページにアクセスしたときにのみページが正しく表示されるパラメーターが含まれているので、リンクをクリックして、ページから結果の URL をコピーしても、うまく動作しません。代わりに、モーダルウィンドウのテキストをコピーして、すべてのテキストを電子メールでチームに送信します。
 1. 「**[!UICONTROL すべて生成]**」をクリックし、各エクスペリエンスをクリックしてプレビューします。
 
-   そのため、エクスペリエンスに変更を加える場合、モーダルウィンドウに戻って「**すべてを生成**」をクリックして新しいリンクを取得することで、チーム用に新しいプレビューリンクを生成するようにします。
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **注意：**&#x200B;プレビューリンクは、新しいタブで開きます。ブラウザーのポップアップブロッカーを無効にする必要があります。
 
