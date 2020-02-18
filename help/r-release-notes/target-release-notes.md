@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
+source-git-commit: 48b0141e7234ad3bbff9a6805cdf5ccb4c1aa0b9
 
 ---
 
@@ -31,6 +31,14 @@ source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 
 ## Target Standard／Premium 20.2.1（2020 年 2 月 19 日） 
+
+>[!IMPORTANT]
+>
+>2020年8月30日に、Adobe targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、Targetアクティビティを実行しているページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsに比べて多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
+>
+>すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様がアドビから期待される新しい機能を提供し、サポートを提供できるようになります。
 
 このリリースには、次の機能強化および修正が含まれています。
 
