@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -135,6 +135,10 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 これをおこなう前に、Cookie をクリアする必要があります。
+
+>[!NOTE]
+>
+>mboxOverride.browserIpはat.js 1.*jxでのみサポートされます*。 この機能はat.js 2ではサポートされていません。*x*.
 
 **プエルトリコや香港などの地域はジオターゲティング構造にどのようにマッピングされますか？**
 
