@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: f5444d8a4d9229112aeaeadc0bccdb42a006c02b
 
 ---
 
@@ -29,7 +29,9 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    >
    >   
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様がアドビから期待される新しい機能を提供し、サポートを提供できるようになります。
-括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+   >
+   >
+* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 
 ## Target Standard／Premium 20.2.1（2020 年 2 月 19 日） 
