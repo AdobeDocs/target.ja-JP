@@ -1,11 +1,11 @@
 ---
-keywords: at.js リリース;at.js バージョン
+keywords: at.js releases;at.js versions
 description: at.js の各バージョンでの変更の詳細について説明します。
 title: at.js のバージョンの詳細
-subtopic: 導入
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -16,27 +16,27 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!IMPORTANT]
 >
->Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。
+>Targetチームは、at.js 1の両方をサポートします。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのいずれかのメジャーバージョンの最新のアップデートにアップグレードしてください。
 
 ## at.jsバージョン2.2.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
 * WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
-* 以前は、at.jsがエクスペリエンスを取得する前に、ECIDは2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
+* 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
    >[!NOTE]
    >
    >このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードします。
 
-* at.jsバージョン2.2には、という新しい設定も用意されていま `serverState`す。 この設定は、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.jsバージョン2.2には、という新しい設定も用意されていま `serverState`す。 この設定は、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.jsバージョン1.8.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
 * WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。
-* 以前は、at.jsがエクスペリエンスを取得する前に、ECIDは2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
+* 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
 >[!NOTE]
 >
@@ -243,7 +243,7 @@ at.js バージョン 1.3.0 がリリースされました。
 
 [!DNL at.js] バージョン 1.2.1 がリリースされました。
 
-* target="_blank" を含むリンクでのクリック追跡時に、Target からリンクを新しいタブで開くことができない問題を修正しました。
+* target=&quot;_blank&quot; を含むリンクでのクリック追跡時に、Target からリンクを新しいタブで開くことができない問題を修正しました。
 
 ## at.js バージョン 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
