@@ -5,7 +5,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 >[!NOTE]
 >
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
+
+## リリースノート - 2020 年
+
+### Target Standard／Premium 20.1.1（2020 年 2 月 4 日） 
+
+Target Standard/Premium 20.1.1リリースはメンテナンスリリースで、バックエンドの機能強化と機能強化が含まれています。 さらに、次の修正が含まれています。
+
+* 既存のAdobe for Target(A4T)アクティビティの目標と設定ページで、Adobe Analyticsトラッキングサーバーのフィールドが空白になる問題を修正しました。 （TGT-35960）
+* カテゴリ親和性のオーディエンスの作成中に、2番目のドロップダウンリストでの選択が表示されない問題を修正しました。 （TGT-36098）
 
 ## リリースノート - 2019 年 {#releases-2019}
 
