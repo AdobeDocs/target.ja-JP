@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -206,7 +206,7 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Target 外で自動パーソナライゼーションのプレビューを確認できるエクスペリエンス URL を共有](c-activities/t-automated-personalization/experience-preview.md)
+      + [エクスペリエンスプレビューURLを使用した自動パーソナライゼーションアクティビティのプレビュー](c-activities/t-automated-personalization/experience-preview.md)
       + [自動パーソナライゼーションのトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
