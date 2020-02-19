@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -138,7 +138,7 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 
 >[!NOTE]
 >
->mboxOverride.browserIpはat.js 1.*jxでのみサポートされます*。 この機能はat.js 2ではサポートされていません。*x*.
+>`mboxOverride.browserIp` はat.js 1.*jxでのみサポートされます* 。 この機能はat.js 2ではサポートされていません。*x*.
 
 **プエルトリコや香港などの地域はジオターゲティング構造にどのようにマッピングされますか？**
 
