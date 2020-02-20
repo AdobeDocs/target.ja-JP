@@ -5,7 +5,7 @@ title: Adobe targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
+source-git-commit: aae24877a96e8e35cffc2a1cf1bc36a3f4b3f5db
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様がアドビから期待される新しい機能を提供し、サポートを提供できるようになります。
 
 
-## Target Standard／Premium 20.2.1（2020 年 2 月 19 日） 
+## Target Standard/Premium 20.2.1（2020年3月4日）
 
 >[!IMPORTANT]
 >
