@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2020 年 2 月 20 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | mbox.jsライブラリの今後の廃止に関する情報を追加しました。 |
+| 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 次の設定に関する情報を追加しました。 `pageLoadEnabled` と `viewsEnabled`。 |
+| 2 月 20 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | mbox.jsライブラリの今後の廃止に関する情報を追加しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1でサポートさ `mboxOverride.browserIp` れていることに注意する必要があります。*x* のみで使用できます。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Targetチームがサポートするat.jsのバージョンを説明するテキストを明確にしました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
