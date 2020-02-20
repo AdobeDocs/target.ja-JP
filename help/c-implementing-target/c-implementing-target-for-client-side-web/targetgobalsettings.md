@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;globalSettings;globalSettings;globalsettings;globalsettings;at.js;function;clientCode;clientcode;serverDomain;cookieDomain;crossdomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentContentFutStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeEdgeServer;optoutEnabled;optout;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -30,7 +30,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | timeout | 数値 | UI から設定された値 | Target エッジリクエストのタイムアウト |
 | globalMboxAutoCreate | ブール値 | UI から設定された値 | グローバル mbox リクエストを実行するかどうかを示します。 |
 | visitorApiTimeout | 数値 | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
-| 有効 | ブール値 | true |  at.js がライブラリとして有効になっているか、つまりこのライブラリが何らかの処理を実行するかどうかを示します。この設定は主に、cookie のオプトアウトや、その他 at.js の機能をカスタムに無効にする場合に使用します。 |
+| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するためのTargetリクエストと、エクスペリエンスをレンダリングするためのDOM操作が自動的に実行されます。 さらに、Target呼び出しは/を使用して手動で実行で `getOffer(s)` きます。 `applyOffer(s)`<br>無効にすると、Target要求は自動でも手動でも実行されません |
+| pageLoadEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要があるエクスペリエンスを自動的に取得します |
+| viewsEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要のあるビューを自動的に取得します。 ビューはat.js 2でサポートされています。*xのみ* |
 | defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
 | defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
 | bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
@@ -38,14 +40,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | imsOrgId | 文字列 | IMS ORG ID | IMS ORG ID を表します。 |
 | secureOnly | ブール値 | false | at.js で HTTPS のみを使用するか、ページのプロトコルに基づいて HTTP と HTTPS との切り替えを許可するかを示します。 |
 | overrideMboxEdgeServer | ブール値 | true（at.js バージョン 1.6.2 以降） | `<clientCode>.tt.omtrdc.net` ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。<br>この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは cookie に保存されます。 |
-| overrideMboxEdgeServerTimeout | 数値 | 1860000 =&gt; 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
+| overrideMboxEdgeServerTimeout | 数値 | 1860000 => 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
 | optoutEnabled | ブール値 | false | Target が訪問者 API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。これは、デバイスグラフ有効化の一部です。 |
 | selectorsPollingTimeout | 数値 | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
 | dataProviders | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 |
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-この関数は、at.js が読み込まれる前、または&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]**&#x200B;で定義できます。
+この関数は、at.js が読み込まれる前、または&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定を編集]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]**&#x200B;で定義できます。
 
 「ライブラリのヘッダー」フィールドでは、JavaScript を自由形式で入力できます。カスタマイズコードは次の例のようになります。
 
