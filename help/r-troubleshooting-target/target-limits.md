@@ -5,7 +5,7 @@ title: 制限
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -192,9 +192,7 @@ mbox v2のバッチ処理：
 
 **アカウントごとのプロファイルスクリプト合計の推奨制限**:2,000
 
-**プロファイルスクリプトの複雑さを制限するための推奨**:プロファイルスクリプトで実行できる命令の数は限られています。 詳しくは、プロファイル属性のベス [トプラクティス](/help/c-target/c-visitor-profile/profile-parameters.md#best) を参 [照してください](/help/c-target/c-visitor-profile/profile-parameters.md)。
-
-**推奨制限**：プロファイルスクリプトあたり最大 500,000 個のループ数。
+**プロファイルスクリプトの複雑さを制限するための推奨**:プロファイルスクリプトで実行できる命令の数は限られています。 詳しくは、プロファイル属性のベス [トプラクティス](/help/c-target/c-visitor-profile/profile-parameters.md#best) を参 *照してください*。
 
 ## プロパティ
 
