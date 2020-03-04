@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -275,6 +275,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
       + [訪問者プロファイルの概要](c-target/c-visitor-profile/visitor-profile.md)
       + [訪問者プロファイルの有効期間](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
+      + [プロファイルスクリプトを使用して相互に排他的なアクティビティをテストする](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId のリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
