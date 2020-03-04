@@ -1,12 +1,12 @@
 ---
-keywords: 概要およびリファレンス
+keywords: Overview and Reference
 description: Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
 title: プライバシー
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Web サイトの訪問者の IP アドレスは、Adobe Data Processing Center�
 
 この機能を有効にすると、IP アドレスの匿名性が高まり、個人情報を特定できなくなります。そのため、個人情報の収集を認めない各国の個人情報保護法に準拠した形で Adobe Target をご利用いただくことができます。IP アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。
 
-また、IP アドレス全体を不明化する設定もあります。
-
 IP の不明化機能を有効にするには、Adobe ClientCare にお問い合わせください。
+
+以下の設定を使用できます。
+
+* 不明化なし：TargetはIPアドレスの一部を非表示にしません。
+* 最終オクテット：Targetは、IPアドレスの最後のオクテットを非表示にします。
+* フルIP:TargetはIPアドレス全体を非表示にします。
+
+Targetは、完全なIPアドレスを受け取り、指定に従って（最後のオクテットまたは完全なIPに設定されている場合は）不明化します。 次に、Targetは、セッション中、不明化されたIPアドレスをメモリ内に保持します。
 
 ## 地理特性 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
