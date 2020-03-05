@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
 description: Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
 title: プライバシー
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 Adobe Target のプロセスおよび設定はプライバシーを考慮した設計になっており、個人情報保護法に準拠した方法で Target を使用できます。
 
-## IP アドレスの収集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IPアドレスの収集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 Web サイトの訪問者の IP アドレスは、Adobe Data Processing Center（DPC）に送信されます。訪問者のネットワーク設定によっては、この IP アドレスが訪問者のコンピューターの IP アドレスと一致しないことがあります。例えば、この IP アドレスは、Network Address Translation（NAT）ファイアウォール、HTTP プロキシ、またはインターネットゲートウェイの外部 IP アドレスである可能性があります。Target は、ユーザーの IP アドレスまたは個人情報（PII）を保存しません。IP アドレスは、セッション（メモリ内、永続化されません）の有効期間中に Target によってのみ使用されます。
 
-## IP アドレスの最終オクテットの置き換え {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## IPアドレスの最終オクテットの置き換え {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 アドビは、Adobe ClientCare が Adobe Target に関して有効化できる新しい「プライバシーバイデザイン」設定を開発しました。この設定を有効にすると、アドビが IP アドレスを収集する際に、IP アドレスの最終オクテット（最後の部分）が隠されます。この匿名化処理は、IP アドレスに何らかの処理（オプションとしておこなわれる IP アドレスの地域ルックアップを含む）を加える前に実行されます。
 
@@ -41,7 +41,7 @@ IP アドレスの最終オクテットの置き換えを有効にした場合�
 
 IP アドレスが完全に不明化されている場合、地理特性と GeoTargeting は使用できません。
 
-## オプトアウトリンク {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 訪問者がカウントやコンテンツ配信をすべて停止（オプトアウト）できるオプトアウトリンクを、サイトに追加できます。
 
@@ -53,3 +53,7 @@ IP アドレスが完全に不明化されている場合、地理特性と GeoT
 このリンクをクリックした訪問者は、Cookie を削除するか、最初に訪問してから 2 年経過するまで、閲覧しているセッションから呼び出される mbox リクエストに含まれません。`disableClient` ドメイン内の「`clientcode.tt.omtrdc.net`」という訪問者に Cookie が設定され、この機能が適用されます。
 
 ファーストパーティ Cookie の導入を使用している場合でも、提供されたオプトアウトは、サードパーティ Cookie を使用するように設定されます。クライアントがファーストパーティ Cookie のみを使用している場合は、オプトアウト Cookie が設定されているかどうかをチェックします。
+
+## プライバシーとデータ保護規制
+
+See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
