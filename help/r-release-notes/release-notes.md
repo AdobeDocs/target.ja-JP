@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 * 次のAdobe Analytics指標は、2020年3月のTargetリリース以降、Analytics for Target(A4T)でサポートされなくなりました。
    * 平均証拠深度
    * ボット
-* 次の指標はサポートされなくなり、ユーザーがその指標を含むアクティビティを初めて変更したときに、同じ指標の新しいバージョンに自動的に変換されます。
+* 次の指標はサポートされなくなり、ユーザーが指標を含むアクティビティを初めて変更したときに、新しいバージョンの指標に自動的に変換されます。
 
    | 非推奨の指標 | 新しい指標 |
    |--- |--- |
