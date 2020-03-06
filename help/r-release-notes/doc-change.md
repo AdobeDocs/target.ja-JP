@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月6日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 「IPアドレスの最終オクテットの置き換え」の節に情報を追加しました。 |
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Analytics用のTarget(A4T)を使用する際の、廃止および変更された指標に関する情報を追加しました。 |
 | 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudのナビゲーションに関する情報を追加しました。 |
