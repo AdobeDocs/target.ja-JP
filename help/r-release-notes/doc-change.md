@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
 
 ---
 
@@ -23,7 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 複数値の属性の実装の *下の* 「APIの使用 *」*&#x200B;にコードサンプルを追加しました。 |
 |  | [ リリースノート ](/help/r-release-notes/release-notes.md) | リリース日を3月9日に変更しました。 |
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
-|  | [ リリースノート ](/help/r-release-notes/release-notes.md) | リリース日を3月9日に変更しました。 |
+|  | [ リリースノート ](/help/r-release-notes/release-notes.md) | このリリース日がまだ決定されていないことを示していました。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Analytics用のTarget(A4T)を使用する際の、廃止および変更された指標に関する情報を追加しました。 |
 | 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudのナビゲーションに関する情報を追加しました。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 次の設定に関する情報を追加しました。 `pageLoadEnabled` と `viewsEnabled` |
