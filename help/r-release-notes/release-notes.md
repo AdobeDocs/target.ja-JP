@@ -1,11 +1,11 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: これらのリリースノートでは、Adobe Target Standard および Target Premium の各リリースの機能、機能強化、修正および既知の問題について説明します。
 title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -34,7 +34,9 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 * 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 
-## Target Standard/Premium 20.2.1（2020年3月20日）
+## Target Standard/Premium 20.2.1（決定予定）
+
+情報が入手可能になった日付については、こちらを参照してください。
 
 >[!IMPORTANT]
 >
