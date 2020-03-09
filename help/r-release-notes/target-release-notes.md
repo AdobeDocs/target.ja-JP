@@ -1,11 +1,11 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
 description: DNL Adobe Targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
 title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2020 年 2 月 18 日**
+**最終更新日：2020 年 9 月 4 日**
 
 >[!NOTE]
 >
@@ -39,7 +39,9 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様に新しい機能を提供し、アドビが期待するサポートを提供できるようになります。
 
 
-## Target Standard/Premium 20.2.1（2020年3月20日）
+## Target Standard/Premium 20.2.1（決定予定）
+
+情報が入手可能になった日付については、こちらを参照してください。
 
 >[!IMPORTANT]
 >
