@@ -1,10 +1,10 @@
 ---
-keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 title: カスタムエンティティの属性
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 複数値のカスタムエンティティ属性には、500 個以下の値を含めることができます。個々の値はそれぞれ 100 文字以内に制限されています。すべての値の文字数の合計は、単一値のカスタムエンティティ属性の最大値に準拠している必要があります（上記を参照）。
 
-## カスタムエンティティ属性値 {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 カスタムエンティティ属性には、単一値または複数値を設定できます。エンティティ属性値は製品表示で表示されます。
 
@@ -61,7 +61,7 @@ entity.genre=[“genre1”, “genre2”]
 * 配列には単一値が含まれている必要があります。値の種類が混在する配列（`["AB",1,true]`）は使用できません。
 * 複数値の属性で入れ子になっている JSON 配列（`[10,12,[1,2,3]]`）は単一値の属性として扱われます。
 
-## 複数値の属性の実装 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 複数値のカスタムエンティティ属性は、フィード（CSV）、`targetPageParams`、Delivery API、Save entities API を使用して製品をアップロードする場合に使用できます。新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は値なしと見なされます。
 
@@ -109,10 +109,16 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 **API の使用**
 
+Delivery APIをmboxパラメーターで使用して、複数値の属性を、エスケープされたJSON配列を含む文字列値として渡すことができます。
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールで複数値のカスタム属性に演算子を適用する場合、リストの値のうち少なくとも 1 つが演算を通過する場合（ブール演算子 OR **）、結果は true ** になります。
 
@@ -144,7 +150,7 @@ using the Delivery and Save entities APIs.
 >
 >*倍精度*&#x200B;は Java のデータ型です。数値が必要な演算子の場合、倍精度に変換すると、数値以外の値は結果の判定から除外されます。
 
-## 設計での複数値の属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 複数値の属性を設計で参照すると、コンマ区切りのリストとして表示されます。
 
