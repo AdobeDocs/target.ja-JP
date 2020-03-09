@@ -1,9 +1,9 @@
 ---
-keywords: 複数値；属性；レコメンデーション；複数値；複数値
-description: 特別な複数値演算子を使用したAdobe Target Recommendationsでの複数値フィールドの操作に関する情報です。
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+description: 特別な複数値演算子を使用するAdobe Target Recommendationsでの複数値フィールドの操作に関する情報です。
 title: Adobe Target Recommendationsでの複数値の属性の操作
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -14,20 +14,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * ユーザに映画を提供する。 ある映画には複数の俳優がいる。
 * コンサートのチケットを売る。 特定のユーザーには、複数のお気に入りのバンドがあります。
-* あなたは服を売る。 1枚のシャツは複数のサイズで購入できます。
+* あなたは服を売っています。 1枚のシャツは複数のサイズで購入できます。
 
-これらのシナリオでのレコメンデーションを処理するには、複数値データをに渡し、特 [!DNL Target Recommendations] 別な複数値演算子を使用します。
+これらのシナリオでレコメンデーションを処理するには、複数値データをに渡し、特別な複 [!DNL Target Recommendations] 数値演算子を使用することができます。
 
 複数の値 [!DNL Recommendations] を持つデータを識別できるようにするには、以下のコード例のように、JSON配列として送信する必要があります。
 
-## JavaScriptでの複数値のmboxパラメーターの渡し
+## JavaScriptで複数値のパラメーターを渡す
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+詳しくは、カスタムエンティティ [属性での複数値の属性の実装](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)*を参照*&#x200B;してください。
 
 ## 複数値のエンティティ属性をCSVファイルに渡す
 
@@ -46,23 +56,23 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-エンティティの属性、プロファイル属性またはmboxパラメーターが上記の形式に従って複数の値として指定されている場合、フィールドが複 [!DNL Recommendations] 数の値であることが自動的に推定されます。
+エンティティの属性、プロファイル属性またはmboxパラメーターが上記の形式に従って複数の値として指定される場合、はフィールドが複 [!DNL Recommendations] 数の値であることを自動的に推定します。
 
-複数値のエンティティ、プロファイルおよびmbox属性で使用できる演算子は次のとおりです。
+複数値のエンティティ、プロファイル、mbox属性で使用できる演算子は、次のとおりです。
 
-* [!UICONTROL リストに含まれる]
-* [!UICONTROL リストに含まれない]
+* [!UICONTROL がリストに含まれる]
+* [!UICONTROL がリストに含まれていない]
 
 ## インクルージョンルールでの複数値の属性の操作
 
 >[!NOTE]
 >
->複数値の属性への動的一致のサポートは、現在、単一の値の左辺と複数値の右辺を比較する際に、プロファイル属性の一致またはパラメーター(mbox)属性の一致ルールを使用する場合にのみ利用できます。 プロモーション、エンティティ属性の一致、およびインクルージョンルールの左側のリストのサポートは、2020年の初めに提供されます。
+>現在、複数値の属性に対する動的一致のサポートは、単一の値の左辺と複数値の右辺を比較する際に、プロファイル属性の一致またはパラメーター(mbox)属性の一致ルールを使用する場合の条件でのみ利用できます。 2020年の初めに、プロモーション、エンティティ属性の一致、およびインクルージョンルールの左側のリストのサポートが提供されます。
 
 
-### 例：最近の監視アイテムの除外
+### 例：最近の監視項目の除外
 
-ユーザーの最後の10本の視聴済みムービーがレコメンデーションされないようにする場合を考えてみます。 最初に、最近10回視聴された映画をJSON `user.lastWatchedMovies` 配列として追跡するために呼び出されるプロファイルスクリプトを作成します。 次に、以下のインクルージョンルールを使用して、項目を除外できます。
+ユーザーの最後の10本の視聴済みムービーがレコメンデーションされないようにする場合を考えてみます。 まず、最近10回視聴された映画をJSON `user.lastWatchedMovies` 配列として追跡するために呼び出されるプロファイルスクリプトを作成します。 次に、以下のインクルージョンルールを使用して、項目を除外できます。
 
 ```
 `Profile Attribute Matching`
@@ -82,9 +92,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 } 
 ```
 
-### 例：ユーザーのお気に入りのレコメンデーション項目
+### 例：ユーザーのお気に入りの項目をレコメンデーションする
 
-例えば、演奏するバンドがユーザーのお気に入りのバンドの1つである場合にのみ、コンサートのチケットを勧めたいとします。 まず、という名前のプロファイル変数にユーザーのお気に入り `profile.favoriteBands` のバンドが含まれていることを確認します。 次に、コンサートで演奏するアーティストを含む属 `entity.artistPerforming` 性がカタログに含まれていることを確認します。 次のインクルージョンルールを使用できます。
+例えば、演奏するバンドがユーザーのお気に入りのバンドの1つである場合に限り、コンサートのチケットを勧めたいとします。 まず、という名前のプロファイル変数に、ユーザーのお気に入り `profile.favoriteBands` のバンドが含まれていることを確認します。 次に、コンサートで演奏するアーティストを含む属 `entity.artistPerforming` 性がカタログに含まれていることを確認します。 次のインクルージョンルールを使用できます。
 
 ```
 `Profile Attribute Matching`
@@ -106,7 +116,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 例：ユーザーのお気に入りから品目をレコメンデーションする条件のAPI作成
 
-すべての条件と同様に、複数値のフィルタリングルールを使用する条件は、Adobe I/O APIを使用して作成できます。 エンティティ属性がmboxパラメーターリストに含まれる条件を作成す `id` るためのAPI呼び出しの例を次に `favorites` 示します。
+すべての条件と同様、複数値のフィルタリングルールを使用する条件は、Adobe I/O APIを使用して作成できます。 エンティティ属性がmboxパラメーターリストに含まれる条件を作成す `id` るためのAPI呼び出しの例を、次に `favorites` 示します。
 
 ```
 curl -X POST \
