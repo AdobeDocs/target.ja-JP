@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
+source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
 
 ---
 
@@ -21,7 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 3月9日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 「IPアドレスの最終オクテットの置き換え」の節に情報を追加しました。 |
 |  | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScriptの複数値パラメ *ーターの渡のコードサンプルを更新しました*。 |
 |  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 複数値の属性の実装の *下の* 「APIの使用 *」*&#x200B;にコードサンプルを追加しました。 |
-|  | [ リリースノート ](/help/r-release-notes/release-notes.md) | リリース日を3月9日に変更しました。 |
+|  | [ リリースノート ](/help/r-release-notes/release-notes.md) | このリリースの日付がまだ決定されていないことを示していました。 |
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
 |  | [ リリースノート ](/help/r-release-notes/release-notes.md) | このリリース日がまだ決定されていないことを示していました。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Analytics用のTarget(A4T)を使用する際の、廃止および変更された指標に関する情報を追加しました。 |
