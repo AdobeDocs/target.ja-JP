@@ -3,7 +3,7 @@ description: 条件は、Adobe Recommendations アクティビティの内容を
 title: 条件の作成
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -436,9 +436,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 >[!NOTE]
 >
->コンテンツ類似性アルゴリズムは、アイテム間の類似性を計算する際にランダムサンプリングを使用する場合があります。 その結果、項目間の類似性評価は、アルゴリズムの実行間で異なる場合があります。
+>コンテンツ類似性アルゴリズムは、アイテム間の類似性の計算にランダムサンプリングを使用する場合があります。 その結果、項目間の類似性評価は、アルゴリズムの実行によって異なる場合があります。
 
-## トレーニングビデオ：Recommendationsでの条件の作成(12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
