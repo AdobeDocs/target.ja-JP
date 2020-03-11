@@ -4,7 +4,7 @@ description: CSV ファイルをアップロードしてレコメンデーショ
 title: カスタム条件のアップロード
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
 | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
 | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33） !![Tutorial badge](/help/assets/tutorial.png
+## トレーニングビデオ：Recommendations の条件の作成（12:33） チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
-このビデオには、次の情報が含まれています。
+このビデオでは、次の情報を紹介します（カスタム条件のアップロードの詳細は、11:43から始まります）。
 
 * 条件の作成
 * 条件のシーケンスの作成
