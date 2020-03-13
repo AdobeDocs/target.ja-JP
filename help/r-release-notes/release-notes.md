@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -33,6 +33,16 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    >
 * 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
+
+## Summit Live:デジタル体験会議 {#summit}
+
+Adobe Summitは仮想イベントになりました。 アドビは、2020年3月31日からデジタルのライブ体験を通じて、すべての停止点を取り除きます。 このライブエクスペリエンスには、主要段階の基調講演、最新のトレンドと進歩を取り上げたミニキーノート、業界リーダーの成功に対する洞察、および分類セッションが含まれます。
+
+* **キーノートをライブで見る**:業界をどこでも快適な環境から変える傾向や新製品についてお聞かせください。
+* **オンデマンドで100以上の分類を調査：** アドビ、お客様、パートナーが提供する100を超えるオンデマンドの内訳セッションに、無料でアクセスできます。
+* **先が見えない**:Chelsea特別ゲスト・ハンドラーに参加し、当社のラボの最新の実験技術をご覧ください — Adobe Sneeksの
+
+デジタルイベント全体への無料アクセスを登録するには、Digital Experience Conference [にアクセスします。サミット](https://www.adobe.com/summit.html) ページ
 
 ## Target Standard/Premium 20.2.1（2020年3月18日）
 
