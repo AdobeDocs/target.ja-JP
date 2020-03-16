@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -18,7 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 3月13日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 再利用可能なオーディエンス/アカウントの数を更新しました。 |
+| 3月13日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 「オーディエンス、再利用可能なアカウントあたり」の数を更新しました。 |
 | 3月12日 | [ リリースノート ](/help/r-release-notes/release-notes.md#summit) | オンラインのデジタルサミット会議への無料アクセスの登録情報を追加しました。 |
 | 3月11日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1リリースが2020年3月18日になることを示しました。 |
 | 3月9日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 「IPアドレスの最終オクテットの置き換え」の節に情報を追加しました。 |
