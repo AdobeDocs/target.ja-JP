@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: アドビのプロファイルおよびオーディエンスコアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
-title: Adobe targetの顧客属性
+title: Adobe Targetの顧客属性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -19,7 +19,7 @@ Information about using enterprise customer data from a customer relationship ma
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. [!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] 属性に基づいて再訪顧客をターゲット設定する場合に、このデータを使用します。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
+The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. [!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] 属性に基づいて再訪顧客をターゲティングするためにこのデータを使用します。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
 
 ![](assets/crs.png)
 
@@ -33,7 +33,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、データのごく一部が転送されない可能性があります。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「訪問者プロファイルの有 [効期間」を参照してください](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 認証済みプロファイルは、`authState` が UNAUTHENTICATED（1）に変わったときに取得されます。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が 1（AUTHENTICATED）になっている必要があります。
 
@@ -65,10 +65,10 @@ Detailed instructions for completing each of the following tasks can be found in
 
    HTTP メソッドを使用して最大 100 MB のデータファイルをアップロードできます。100 MBを超えるファイル（最大4 GB）は、FTPを使用してアップロードできます。
 
-   * **** HTTPS:.csvデータファイルをドラッグ&amp;ドロップするか、「参照」をクリックして **[!UICONTROL ファイル]** ・システムからアップロードできます。
-   * **** FTP:FTPリンクをクリックして、FTP [経由でファイルをアップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** .csvデータファイルをドラッグ&amp;ドロップするか、「参照」をクリックして **[!UICONTROL ファイル]** ・システムからアップロードできます。
+   * **FTP:** FTPリンクをクリックして、FTP [経由でファイルをアップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
 
-      CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と拡張子.finを持つ新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+      CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前で拡張子.finの新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. スキーマを検証します。
 
@@ -82,7 +82,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定すると](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、とソリューションの間のデータフローが [!DNL Experience Cloud] 設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定すると](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、とのソリューション間のデータフローが [!DNL Experience Cloud] 設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![](assets/solution.png)
 
@@ -128,7 +128,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* [顧客属性ソースを作成し、](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience cloud製品ドキュメントにデータファイルをアップロードします。*
+* [顧客属性ソースを作成し、](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud製品ドキュメントにデータファイルをアップロードします。*
 * *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -142,12 +142,12 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 | 属性に基づく配信が適切に機能しない | プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。 |
 | 実装に関する問題 | 注意を要する実装に関する問題は次のとおりです。<ul><li>訪問者 ID が適切に渡されなかった。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>訪問者 ID は適切に渡されたが、認証状態が認証済みに設定されなかった。</li><li>`mbox3rdPartyId` が適切に渡されなかった。</li> |
 | `mboxUpdate` が適切に実行されない | `mboxUpdate` が `mbox3rdPartyId` で適切に実行されませんでした。 |
-| 顧客属性がTargetにインポートされない | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
+| 顧客属性がTargetに読み込まれない | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
 
 この領域の問題の約 60％は、上記の 1 行目と 2 行目が原因です。問題の約 30％は 3 行目が原因、約 5％は 4 行目が原因です。残りの 5％はその他の原因です。
 
-## トレーニングビデオ：顧客属性を使用したオフラインデータのアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：顧客属性を使用したオフラインデータのアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
-このビデオでは、オフラインCRM、ヘルプデスク、POS（販売時点管理）などのマーケティングデータをExperience cloud peopleサービスにインポートし、既知のIDを使用して訪問者に関連付ける方法を説明します。
+このビデオでは、オフラインCRM、ヘルプデスク、販売時点情報などのマーケティングデータをExperience Cloud Peopleサービスにインポートし、既知のIDを使用して訪問者に関連付ける方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
