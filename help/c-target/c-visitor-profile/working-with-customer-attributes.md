@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-顧客属性と [!DNL Target] を使用する際に次の問題が発生することがあります。
+You might encounter the following issues when working with customer attributes and [!DNL Target].
+
+>[!NOTE]
+>
+>問題1と問題2は、この領域で約60%の問題を引き起こします。 問題3は、問題の約30%を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
 
 ### 問題1:プロファイルが大きすぎるので、顧客属性が削除されます。
 
@@ -178,11 +182,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->上記の問題1と2は、この領域で約60%の問題を引き起こします。 問題3は、問題の約30%を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
-
-## トレーニングビデオ：顧客属性を使用したオフラインデータのアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} チュートリ ![アルバッジ](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
