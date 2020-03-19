@@ -1,31 +1,33 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
-description: アドビのプロファイルおよびオーディエンスコアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
+keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+description: Adobe Experience Cloud の People コアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
 title: Adobe Targetの顧客属性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
 
 ---
 
 
 # 顧客属性 {#customer-attributes}
 
-Information about using enterprise customer data from a customer relationship management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud] core service.
+Information about using enterprise customer data from Customer Relationship Management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud People] core service.
 
-複数のソースから収集し、CRM データベースに保管されている企業顧客データを [!DNL Target] で使用することで、最も関連性の高いコンテンツを再訪問者に絞って戦略的に配信できます。[!DNL Audiences] コアサービス（以前の Profiles &amp; Audiences）では、データの収集や分析をテストや最適化と組み合わせることで、アクションにつながるデータやインサイトを得ることができます。
+Enterprise customer data collected through multiple sources and stored inside CRM databases can be used in [!DNL Target] to strategically deliver the most relevant content to customers, specifically focusing on returning customers. Audiences and customer attributes in the [!DNL People] core service (formerly Profiles and Audiences) brings together data collection and analysis with testing and optimization, making data and insights actionable.
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. [!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] 属性に基づいて再訪顧客をターゲティングするためにこのデータを使用します。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
+[コアサービスの顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Customer Attributes [!DNL People] in the core service)は、の一部であり、企業は顧客データをプラッ [!DNL Adobe Experience Cloud] トフォームにプッシュするためのツールを提供し [!DNL Experience Cloud] ます。
 
-![](assets/crs.png)
+[!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] 属性に基づいて再訪顧客をターゲティングするためにこのデータを使用します。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
+
+![crsの例](/help/c-target/c-visitor-profile/assets/crs.png)
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -33,27 +35,41 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、データのごく一部が転送されない可能性があります。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「訪問者プロファイルの有 [効期間」を参照してください](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 認証済みプロファイルを取得する動作が必要であれば、`vst.myDataSource.authState` の値が 1（AUTHENTICATED）になっている必要があります。
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
 
 * 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
+
+## Peopleコアサービスでの顧客属性へのアクセス
+
+1. で、メニューア [!DNL Adobe Experience Cloud]イコン(メニューアイコン ![)をクリックし、「人」をクリッ](/help/c-target/c-visitor-profile/assets/menu-icon.png) クします ****。
+
+   ![People](/help/c-target/c-visitor-profile/assets/people.png)
+
+1. 「顧客属性」タ **[!UICONTROL ブをクリックします]** 。
+
+   ![「顧客属性」タブ](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
 ## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 [!DNL Target] で CRM データを使用する手順は次の図のとおりです。
 
-![](assets/crm_workflow.png)
+![crmワークフロー](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. データファイルを作成します。
 
    CRM の顧客データを CSV 形式にエクスポートして、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。CSVファイルの最初の行がヘッダーで、すべての行（顧客データ）のエントリ数が同じであることを確認します。
 
-   ![](assets/CRS_sample.png)
+   次の図に、企業顧客データファイルの例を示します。
 
-   ![](assets/CRS_CSV_sample.png)
+   ![CRSサンプル](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
+
+   次の図に、企業顧客の.csvファイルの例を示します。
+
+   ![csvサンプル](/help/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
 1. 属性ソースを作成し、データファイルをアップロードします。
 
@@ -63,12 +79,11 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >データソース名と属性名にピリオドを含めることはできません。
 
-   HTTP メソッドを使用して最大 100 MB のデータファイルをアップロードできます。100 MBを超えるファイル（最大4 GB）は、FTPを使用してアップロードできます。
+   データファイルは、アップロードの要件を満たし、100 MBを超えないようにする必要があります。 ファイルが大きすぎる場合や、定期的にアップロードする必要のあるデータがある場合は、代わりにFTPでファイルをアップロードできます。
 
    * **HTTPS:** .csvデータファイルをドラッグ&amp;ドロップするか、「参照」をクリックして **[!UICONTROL ファイル]** ・システムからアップロードできます。
    * **FTP:** FTPリンクをクリックして、FTP [経由でファイルをアップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
-
-      CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前で拡張子.finの新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前で拡張子.finの新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. スキーマを検証します。
 
@@ -76,17 +91,17 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Save]** after the schema validation is complete. ファイルのアップロード時間はサイズによって異なります。
 
-   ![](assets/SchemaValidate.png)
+   ![スキーマの検証](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![](assets/upload1.png)
+   ![スキーマのアップロード](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. 購読を設定し、属性ソースを有効にします。
 
    「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定すると](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、とのソリューション間のデータフローが [!DNL Experience Cloud] 設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
-   ![](assets/solution.png)
+   ![ソリューションの設定](/help/c-target/c-visitor-profile/assets/solution.png)
 
-   ![](assets/activate.PNG)
+   ![アクティブ化](/help/c-target/c-visitor-profile/assets/activate.png)
 
    この手順を実行する際は、次の制限事項に注意してください。
 
@@ -135,19 +150,40 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 顧客属性と [!DNL Target] を使用する際に次の問題が発生することがあります。
 
-| 問題 | 詳細 |
-|--- |--- |
-| プロファイルが大きすぎることが原因で顧客属性が削除される | ユーザープロファイルの 1 つのフィールドごとに文字数制限はありません。ただし、プロファイルが 64,000 文字を超えると、64,000 文字を下回るまで最も古い属性から順に削除されて切り詰められます。 |
-| 数日間経っても [!DNL Target] のオーディエンスライブラリに属性が表示されない | その場合は、パイプラインの接続に問題が生じているケースがほとんどです。顧客属性チームにフィードの再発行を依頼してください。 |
-| 属性に基づく配信が適切に機能しない | プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。 |
-| 実装に関する問題 | 注意を要する実装に関する問題は次のとおりです。<ul><li>訪問者 ID が適切に渡されなかった。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>訪問者 ID は適切に渡されたが、認証状態が認証済みに設定されなかった。</li><li>`mbox3rdPartyId` が適切に渡されなかった。</li> |
-| `mboxUpdate` が適切に実行されない | `mboxUpdate` が `mbox3rdPartyId` で適切に実行されませんでした。 |
-| 顧客属性がTargetに読み込まれない | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
+### 問題1:プロファイルが大きすぎるので、顧客属性が削除されます。
 
-この領域の問題の約 60％は、上記の 1 行目と 2 行目が原因です。問題の約 30％は 3 行目が原因、約 5％は 4 行目が原因です。残りの 5％はその他の原因です。
+ユーザープロファイルの 1 つのフィールドごとに文字数制限はありません。ただし、プロファイルが 64,000 文字を超えると、64,000 文字を下回るまで最も古い属性から順に削除されて切り詰められます。
+
+### Issue 2: Attributes not listing in the Audience Library in [!DNL Target], even after several days
+
+その場合は、パイプラインの接続に問題が生じているケースがほとんどです。顧客属性チームにフィードの再発行を依頼してください。
+
+### 問題3:属性に基づいて配信が機能しない
+
+プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。
+
+### 問題4:実装の問題
+
+注意を要する実装に関する問題は次のとおりです。
+
+* 訪問者 ID が適切に渡されなかった。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.
+* 訪問者 ID は適切に渡されたが、認証状態が認証済みに設定されなかった。
+* `mbox3rdPartyId` が適切に渡されなかった。
+
+### 問題5:適切に `mboxUpdate` 行われない
+
+`mboxUpdate` が `mbox3rdPartyId` で適切に実行されませんでした。
+
+### Issue 6: Customer attributes are not being imported into [!DNL Target]
+
+If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
+
+>[!NOTE]
+>
+>上記の問題1と2は、この領域で約60%の問題を引き起こします。 問題3は、問題の約30%を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
 
 ## トレーニングビデオ：顧客属性を使用したオフラインデータのアップロード {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
-このビデオでは、オフラインCRM、ヘルプデスク、販売時点情報などのマーケティングデータをExperience Cloud Peopleサービスにインポートし、既知のIDを使用して訪問者に関連付ける方法を説明します。
+This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
