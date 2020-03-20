@@ -5,7 +5,7 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2020 年 9 月 4 日**
+**最終更新日：2020 年 20 月 4 日**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様に新しい機能を提供し、アドビが期待するサポートを提供できるようになります。
 
 
-## Target Standard/Premium 20.2.1（2020年3月18日）
+## Target Standard/Premium 20.2.1（2020年3月24日）
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 * コンテンツセキュリティポリシー(CSP)のセキュリティの強化を実装しました。 （TGT-36190）
 * 属性の重み付けの割合のバーを左端にスライドすると、「NaN%」が表示される問題を修正しました。 （TGT-36211）
 * 様々な言語のUIテキストが正しく表示されるように、ローカリゼーションの問題を解決しました。
-* 次のAdobe Analytics指標は、2020年3月のTargetリリース以降、Analytics for Target(A4T)でサポートされなくなりました。
-   * 平均証拠深度
-   * ボット
-* 次の指標はサポートされなくなり、ユーザーが指標を含むアクティビティを初めて変更したときに、新しいバージョンの指標に自動的に変換されます。
+* 現在のバージョンのAdobe Analytics APIではサポートされていないAdobe Analytics指標を廃止することで、Adobe Analytics for Target(A4T)アクティビティで使用可能な指標のリストを標準化しました。 これにより、A4Tの将来のAdobe Targetリリースでのサポートを拡張できます。
 
-   | 非推奨の指標 | 新しい指標 |
+   次の変更が行われました。
+
+   * 「ページでの平均滞在時間」は、「サイトでの平均滞在時間」に置き換えられました。 この指標を主要目標指標として使用するアクティビティには、「サイトでの平均滞在時間」が含まれます(注意：測定される時間（秒数ではなく分単位）が、アクティビティの次回編集時にプライマリ目標指標として選択されます。
+   * 「訪問者」は「個別訪問者」に置き換えられました。 この指標を主要目標指標として使用するアクティビティは、次にアクティビティを編集する際に、「個別訪問者」が「主要目標指標」として選択されます。
+
+* 次の指標は非推奨となり、新しいA4Tアクティビティを作成する際にプライマリ目標指標として選択できなくなりました。
+
+   | 非推奨の指標 | 推奨置換指標 |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (注意：秒ではなく分単位で測定される |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | 日別訪問者数、時間別訪問者数、月別訪問者数、四半期別訪問者数、週別訪問者数、年別訪問者数 | 実訪問者数 |
+   | 訪問の深さ（平均） | 該当なし主な目標指標として提案されていない |
+   | ボット | 該当なし主な目標指標として提案されていない |
+   | モバイルのクラッシュ率、モバイルの平均前回のセッションの長さ、モバイルのアプリストアの平均ランク、モバイルのアプリのパフォーマンスクラッシュ率、モバイルのアプリストアの平均評価 | 該当なし主な目標指標として提案されていない |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
