@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 製品ドキュメント
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2020年3月13日([変更点を参照](r-release-notes/doc-change.md))**
+**最終更新日：2020年3月20日([変更点を参照](r-release-notes/doc-change.md))**
 
 >[!IMPORTANT]
 >
