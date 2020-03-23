@@ -2,10 +2,10 @@
 keywords: apple;ITP;intelligent tracking prevention
 description: Experience Cloud ID（ECID）ライブラリ 4.3 による Adobe Target での Apple の ITP 2.1 および ITP 2.2 のサポートについて説明します。
 title: Adobe Target と Apple ITP サポート
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ ITP のこれらのバージョンには、次の制限が含まれています�
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | `document.cookie` API を使用してブラウザーに配置されたクライアント側 Cookie の有効期限の上限は 7 日間になりました。<br>2019 年 2 月 21 日にリリースされました。 |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 7 日間の有効期限の上限が 1 日に大幅に短縮されました。<br>2019 年 4 月 24 日にリリースされました。 |
 
-## Adobe Target のお客様にはどのような影響がありますか？
+## Adobe Target のお客様にはどのような影響がありますか？ {#impact}
 
-[!DNL Target] は、ページにデプロイするための JavaScript ライブラリを提供し、これにより、[!DNL Target] によるリアルタイムパーソナライゼーションを訪問者に実現できます。Target JavaScript ライブラリは 3 つあり（[at.js 1.*x* と at.js 2 の両方について示しています。*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) および [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)）、これによって、`document.cookie` API を使用して訪問者のブラウザーにクライアント側 [!DNL Target] Cookie を配置します。結果として、[!DNL Target] Cookie は、Apple の ITP 2.1 および 2.2 の影響を受け、7 日後（ITP 2.1）または 1 日後（ITP 2.2）に期限が切れます。
+[!DNL Target] は、ページにデプロイするための JavaScript ライブラリを提供し、これにより、[!DNL Target] によるリアルタイムパーソナライゼーションを訪問者に実現できます。Target JavaScript ライブラリは 3 つあり（[at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. 結果として、[!DNL Target] Cookie は、Apple の ITP 2.1 および 2.2 の影響を受け、7 日後（ITP 2.1）または 1 日後（ITP 2.2）に期限が切れます。
 
 Apple ITP 2.1 および 2.2 は、次の領域で [!DNL Target] に影響を与えます。
 
@@ -31,6 +31,8 @@ Apple ITP 2.1 および 2.2 は、次の領域で [!DNL Target] に影響を与�
 | --- | --- |
 | 個別訪問者数が増加する可能性 | 有効期限が 7 日間（ITP 2.1）または 1 日間（ITP 2.2）に設定されるので、Safari ブラウザーからの個別訪問者が増加しているように見えます。訪問者が 7 日後（ITP 2.1）または 1 日後（ITP 2.2）にドメインに再訪すると、[!DNL Target] は、期限切れの Cookie の代わりにドメインの新しい [!DNL Target] Cookie を配置するよう強制されます。新しい [!DNL Target] Cookie は、ユーザーが同じであっても、新しい個別訪問者と解釈されます。 |
 | [!DNL Target] アクティビティのルックバック期間の短縮 | [!DNL Target] アクティビティの訪問者プロファイルは、決定のためのルックバック期間が短縮した可能性があります。[!DNL Target] Cookie は、訪問者を特定するために活用され、パーソナライゼーション用にユーザープロファイル属性を格納します。[!DNL Target] Cookie は Safari 上で 7 日後（ITP 2.1）または 1 日後（ITP 2.2）に期限切れになる可能性があるとすると、パージされた [!DNL Target] Cookie に結び付けられたユーザープロファイルデータは、決定に使用できません。 |
+| サードパーティIDに基づくプロファイルスクリプト | 有効期限が7日（ITP 2.1を使用）に設定され、1日（ITP 2.2を使用）に設定されているため、サードパーティID cookieに基づくプロファイルスクリプト [](/help/c-target/c-visitor-profile/profile-parameters.md) は、有効期限が切れると機能を停止します。 |
+| iOSデバイスでのURLのQA/プレビュー | 有効期限が7日（ITP 2.1を使用）および1日（ITP 2.2を使用）に設定されているので、 [QA](/help/c-activities/c-activity-qa/activity-qa.md) /プレビューURLは有効期限が切れると機能を停止します。これは、URLがサードパーティID cookieに基づいているためです。 |
 
 ## 現在の [!DNL Target] の実装は影響を受けますか？
 
@@ -46,7 +48,7 @@ ITP 2.1、ITP 2.2 および将来の ITP リリースの [!DNL Target] に対す
 
    ECID ライブラリは、Experience Cloud Core ソリューションの人物識別フレームワークを有効にします。ECID ライブラリを使用すると、永続的な一意の識別子を割り当てることによって、様々な Experience Cloud ソリューションで同じサイト訪問者およびそのデータを識別できます。ECID ライブラリは、頻繁に更新され、実装に影響を与える ITP 関連の変更を緩和するのに役立ちます。
 
-   ITP 2.1およびITP 2.2の場合、緩和のために [ECIDライブラリ4.3.0+を](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 使用する必要があります。
+   ITP 2.1およびITP 2.2の場合、 [ECIDライブラリ4.3.0以上を緩和のために](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 使用する必要があります。
 
 1. アドビの CNAME を使用して、Adobe Analytics の Managed Certificate Program に登録します。
 
