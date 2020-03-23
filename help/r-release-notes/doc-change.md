@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月24日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 次の影響に関する情報を追加しました。<ul><li>サードパーティIDに基づくプロファイルスクリプト</li><li>iOSデバイスでのURLのQA/プレビュー</li></ul> |
 | 3月20日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1リリースが2020年3月24日になることを示していました。 |
 | 3月13日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 「オーディエンス、再利用可能なアカウントあたり」の数を更新しました。 |
 | 3月12日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md#summit) | オンラインのデジタルサミット会議への無料アクセスの登録情報を追加しました。 |
