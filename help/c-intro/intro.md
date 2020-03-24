@@ -5,7 +5,7 @@ title: Adobe Target の概要
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 
 以下のビデオでは、Target を他の Adobe Experience Cloud ソリューションと共に組織の目標達成に役立てる方法に関する基礎知識を提供します。
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] ソリューションにはいくつかのコンポーネントがあります。
 
@@ -99,7 +99,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。最初の Adobe Target アクティビティを準備および開始するのに役立つ主要情報、ツールおよびリソースが含まれており、短期間でのすばやい成果と長期間の最適化戦略を実現します。
 
-[Adobe targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## トレーニングビデオ：アクティビティタイプ(9:03)概要 ![バッジ](/help/assets/overview.png)
 
