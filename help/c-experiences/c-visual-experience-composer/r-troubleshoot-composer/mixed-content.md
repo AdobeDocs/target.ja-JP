@@ -1,11 +1,11 @@
 ---
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。
-title: ブラウザーでの混合コンテンツの有効化
+title: ブラウザーで混合コンテンツを有効にする
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -38,9 +38,9 @@ Google Chrome ヘルプの[安全でないコンテンツを含むページ](htt
 
 ### トレーニングビデオ：Chromeバージョン79.0.3945.117以降（2020年1月）でVECを有効にする概要バ ![ッジ](/help/assets/overview.png)
 
-最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を実行する必要はありません。
+最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイトの設定を更新する必要があります。 サイトの訪問者は、これらの手順を実行する必要はありません。
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 上記のビデオでは、必要な手順の概要を説明しています。
 
@@ -52,7 +52,7 @@ Google Chrome ヘルプの[安全でないコンテンツを含むページ](htt
 
    ![安全でないコンテンツ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
-1. VECページをリロードします。
+1. VECページを再読み込みします。
 
 ## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -76,5 +76,5 @@ Internet Explorer では、安全なコンテンツと安全でないコンテ�
 1. 「[!UICONTROL その他]」の下の「**[!UICONTROL 混在したコンテンツを表示する]**」を有効にします。
 1. 「**[!UICONTROL OK]**／**[!UICONTROL はい]**／**[!UICONTROL 適用]**」をクリックします。
 
-この設定を変更した後、コンピューターを再起動することをお勧めします。
+この設定を変更した後、コンピュータを再起動することをお勧めします。
 
