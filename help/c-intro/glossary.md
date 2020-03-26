@@ -4,7 +4,7 @@ title: Adobe Target 用語集
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ Digital Asset Manager。Target でコンテンツとして使用されるアイ�
 
 **環境**
 
-ホストは、管理を容易にするために環境にバンドルされます。事前に設定されているホストグループは、Production、Staging および Development です。ただし、新しいホストグループを追加したり、既存のホストグループの名前を変更したりできます。環境は [!DNL Target Classic] では「ホストグループ」と呼ばれていました。
+ホストは、管理を容易にするために環境にバンドルされます。事前に設定されているホストグループは、Production、Staging および Development です。ただし、新しいホストグループを追加したり、既存のホストグループの名前を変更したりできます。
 
 **エクスペリエンス**
 
