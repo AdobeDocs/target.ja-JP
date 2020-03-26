@@ -1,19 +1,17 @@
 ---
-keywords: ターゲット設定、cookie、ファーストパーティcookie、ファーストパーティCookie
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target は、at.js または mbox.js JavaScript ライブラリによって Web ページと統合できます。
 title: ターゲット設定の仕組み
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # ターゲット設定の仕組み{#how-targeting-works}
 
-Adobe Target は、at.js または mbox.js JavaScript ライブラリによって Web ページと統合できます。
-
-[!DNL Target Classic] では、ターゲットコンテンツや収集データを表示するページの各領域で mbox を使用しています。これらのmboxは、で [!DNL Target Standard] は必要ありません。代わりに、各ページで参照する JavaScriptライブラリ は、最適化アクティビティを実行する必要があります。
+Adobe Target は、at.js または mbox.js JavaScript ライブラリによって Web ページと統合できます。各ページで1つのJavaScriptライブラリを参照するだけで、最適化アクティビティを実行できます。
 
 訪問者が Target が有効なページをリクエストするたびに、[!DNL Target] は次の処理によってオファーを表示します。
 
