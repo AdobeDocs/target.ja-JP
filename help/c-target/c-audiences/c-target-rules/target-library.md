@@ -1,10 +1,10 @@
 ---
-keywords: ターゲット設定、targetライブラリ、ライブラリ
+keywords: Targeting;target library;library
 description: 事前設計されたターゲットルールに基づいてユーザーをターゲット設定します。
 title: ターゲットライブラリ
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ターゲットライブラリカテゴリの事前設計されたオーディエンスは、従来のオーディエンスで、他のカテゴリに存在します。その他の情報およびベストプラクティスについては、[ターゲットとオーディエンスに関するよくある質問](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classicを使用して、洗練されたターゲットを一度作成し、異なるアクティビティ、エクスペリエンスなどで繰り返し使用できるようにしました。この機能は、Target Standard/Premium には含まれていません。
-
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL Target ライブラリ]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL ターゲットライブラリ]**&#x200B;をクリックします。
 
    ![ターゲットライブラリ](assets/target_library.png)
 
@@ -43,4 +39,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
