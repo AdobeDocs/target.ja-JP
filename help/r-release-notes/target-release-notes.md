@@ -5,7 +5,7 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 これらのリリースノートでは、最新または今後 [!DNL Adobe Target] のリリースの機能、機能強化および修正点について説明しています。
 
-**最終更新日：2020 年 20 月 4 日**
+**最終更新日：2020 年 25 月 4 日**
 
 >[!NOTE]
 >
@@ -38,6 +38,15 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
    >   
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様に新しい機能を提供し、アドビが期待するサポートを提供できるようになります。
 
+
+## Target at.js（2020年3月26日）
+
+次の新しいバージョンのTarget at.js JavaScriptライブラリを使用できます。
+
+* at.jsバージョン2.3.0
+* at.jsバージョン1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1（2020年3月24日）
 
