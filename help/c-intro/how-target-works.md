@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,9 +95,9 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 ![コアエッジサイトおよびエッジサイトのマッピング](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+この画像のソースは、 [Adobe Targetのセキュリティの概要に関するホワイトペーパー](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) です。
 
-Adobe Target ソリューションは、世界中のアドビが所有するデータセンターおよびアドビ専用のデータセンターでホストされています。管理サーバーは、ロンドン、シンガポールおよびオレゴンおよびバージニアを含む米国内の複数の場所にある、アドビが所有するデータセンター内で完全にホストされています。エッジサーバーは、Amazon AWSデータセンター（ロンドン、香港特別行政区、シンガポール、東京、シドニー）のアドビ所有およびアドビリースサーバーの両方でホストされます。
+Adobe Target ソリューションは、世界中のアドビが所有するデータセンターおよびアドビ専用のデータセンターでホストされています。管理サーバーは、ロンドン、シンガポールおよびオレゴンおよびバージニアを含む米国内の複数の場所にある、アドビが所有するデータセンター内で完全にホストされています。エッジサーバーは、Amazon AWSデータセンター（ロンドン、香港特別行政区、シンガポール、東京、シドニー）のアドビ所有およびアドビ専用のサーバーの両方でホストされています。
 
 管理サーバー拠点には、データ収集センターとデータ処理センターの両方が設置されています。エッジサイト拠点には、データ収集センターのみ設置されています。個々のレポートスイートは特定のデータ処理センターに割り当てられています。
 
