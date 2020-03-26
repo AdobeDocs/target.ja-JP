@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ Adobe Summitは仮想イベントになりました。 アドビは、2020年3�
 * **先が見えない**:Chelsea特別ゲスト・ハンドラーに参加し、当社のラボの最新の実験技術をご覧ください — Adobe Sneeksの
 
 デジタルイベント全体への無料アクセスを登録するには、Digital Experience Conference [にアクセスします。サミット](https://www.adobe.com/summit.html) ページ
+
+## Target at.js（2020年3月26日）
+
+次の新しいバージョンのTarget at.js JavaScriptライブラリを使用できます。
+
+* at.jsバージョン2.3.0
+* at.jsバージョン1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1（2020年3月24日）
 
