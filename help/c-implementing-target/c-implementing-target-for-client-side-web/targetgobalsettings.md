@@ -5,7 +5,7 @@ title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() �
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -30,9 +30,9 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | timeout | 数値 | UI から設定された値 | Target エッジリクエストのタイムアウト |
 | globalMboxAutoCreate | ブール値 | UI から設定された値 | グローバル mbox リクエストを実行するかどうかを示します。 |
 | visitorApiTimeout | 数値 | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
-| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するためのTargetリクエストと、エクスペリエンスをレンダリングするためのDOM操作が自動的に実行されます。 さらに、Target呼び出しは/を使用して手動で実行で `getOffer(s)` きます。 `applyOffer(s)`<br>無効にすると、Target要求は自動でも手動でも実行されません |
-| pageLoadEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要があるエクスペリエンスを自動的に取得します |
-| viewsEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要のあるビューを自動的に取得します。 ビューはat.js 2でサポートされています。*xのみ* |
+| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するTarget要求と、エクスペリエンスをレンダリングするDOM操作が自動的に実行されます。 さらに、Target呼び出しは/を使用して手動で実行で `getOffer(s)` きます。 `applyOffer(s)`<br>無効にすると、Target要求は自動でも手動でも実行されません。 |
+| pageLoadEnabled | ブール値 | true | 有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します |
+| viewsEnabled | ブール値 | true | 有効にすると、ページの読み込み時に返す必要のあるビューを自動的に取得します。 ビューはat.js 2でサポートされています。*xのみ* |
 | defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
 | defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
 | bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
@@ -44,6 +44,8 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | optoutEnabled | ブール値 | false | Target が訪問者 API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。これは、デバイスグラフ有効化の一部です。 |
 | selectorsPollingTimeout | 数値 | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
 | dataProviders | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 |
+| cspScriptNonce | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 |
+| cspStyleNonce | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 |
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -176,9 +178,32 @@ var weatherProvider = {
 * `window.targetGlobalSettings.dataProviders` に追加されたデータプロバイダーが非同期の場合は、同時並行で実行されます。訪問者 API リクエストは、待ち時間を最小限に抑えるために、`window.targetGlobalSettings.dataProviders` に追加された関数と同時に実行されます。
 * at.js では、データはキャッシュされません。データプロバイダーが 1 回だけデータを取得する場合は、データをキャッシュし、そのプロバイダーの関数が呼び出されたら、2 回目の呼び出しでキャッシュデータを配信できるようにする必要があります。
 
+## Content Security Policy {#content-security}
+
+at.js 2.3.0以降では、配信されたTargetオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
+
+at.js 2.3.0以降の読み込みの前に、SCRIPT `targetGlobalSettings.cspScriptNonce` とSTYLE `targetGlobalSettings.cspStyleNonce` のnoncesを、それに対応して設定する必要があります。 以下の例を参照してください。
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+との設 `cspScriptNonce` 定を `cspStyleNonce` 指定すると、at.js 2.3.0以降では、Targetオファーの適用時にDOMに追加されるすべてのスクリプトタグとSTYLEタグに対して、これらの属性がnonce属性として設定されます。
+
 ## serverState {#server-state}
 
-`serverState` はat.js v2.2以降で使用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、サーバー側で配信APIまたはTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` は、at.js v2.2以降で、サーバー側で取得されたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能を提供します。
+`serverState` は、at.js v2.2以降で利用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` では、at.js v2.2以降で、サーバー側で取り込まれたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
 
 ### 前提条件
 
@@ -189,7 +214,7 @@ var weatherProvider = {
 
 ### コードサンプル
 
-この仕組みをよりよく理解するには、お使いのサーバーに置く以下のコード例を参照してください。 このコードは、 [Target Node.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この仕組みをよりよく理解するために、お使いのサーバーで使用する以下のコード例を参照してください。 このコードは、 [Target Node.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -219,7 +244,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-ビュープリフェッチ `serverState` 用のサンプルオブジェクトJSONは、次のようになります。
+ビュープリフェッチの `serverState` サンプルオブジェクトJSONは、次のようになります。
 
 ```
 {
@@ -290,30 +315,30 @@ const PAGE_TEMPLATE = `
 }
 ```
 
-ページがブラウザーに読み込まれた後、at.jsは、エッジに対してネットワーク呼び出しを実行す [!DNL Target] ることなく、す `serverState` べてのオファーを即座に適用 [!DNL Target] します。 また、at.jsは、サーバー側で取り込んだコンテンツでオファーが使用可能なDOM要素のみを事前に表示するので、ページ読み込みのパフォーマンスとエンドユーザーの操作性にプラスの影響を与えます。 [!DNL Target]
+ページがブラウザーに読み込まれた後、at.jsは、エッジに対してネットワーク呼び出しを実 [!DNL Target] 行することなく、す `serverState` べてのオファーを即座に適用 [!DNL Target] します。 また、at.jsは、サーバー側で取り込んだコンテンツでオファーが使用可能なDOM要素のみを事前に表示するので、ページ読み込みのパフォーマンスとエンドユーザーの操作性にプラスの影響を与えます。 [!DNL Target]
 
 ### 重要な注意事項
 
 Consider the following when using `serverState`:
 
-* 現時点で、at.js v2.2は、次のエクスペリエンスをserverState経由でのみ配信できます。
+* 現時点で、at.js v2.2は、次の目的でのserverState経由のエクスペリエンスの配信のみをサポートしています。
 
    * ページの読み込み時に実行されるVECで作成されたアクティビティ。
-   * 事前に取得されたビュー。
+   * 事前に取り込まれたビュー。
 
-      ビューを使用する [!DNL Target] SPAおよびat.js `triggerView()``triggerView()`APIの場合、at.js v2.2は、サーバー側で事前に取得されたすべてのビューのコンテンツをキャッシュし、各ビューがトリガーされ次第、Targetに対する追加のコンテンツ取得呼び出しを実行せずに適用します。
+      ビューを使用する [!DNL Target] SPAおよび `triggerView()``triggerView()`at.js APIの場合、at.js v2.2は、サーバー側で事前に取得されたすべてのビューのコンテンツをキャッシュし、各ビューがトリガーされ次第、Targetに対する追加のコンテンツ取得呼び出しを実行せずに適用します。
 
-   * **注意**: 現在、サーバー側で取得されたmboxは、ではサポートされていませ `serverState`ん。
+   * **注意**: 現在、サーバー側で取得されたmboxはではサポートされていませ `serverState`ん。
 
-* オファー `serverState `を適用する場合、at.jsは、設定を考慮し `pageLoadEnabled` ます。例 `viewsEnabled` えば、設定がfalseの場合、ページ型オファーは適用 `pageLoadEnabled` されません。
+* オファー `serverState `を適用する場合、at.jsは、設 `pageLoadEnabled` 定を考慮しま `viewsEnabled` す(例：設定がfalseの場合、ページ読み込みオファーは適用さ `pageLoadEnabled` れません)。
 
-   これらの設定をオンにするには、 **[UICONTROL設定/実装/設定を編集/ページ読み込み有効に切り替えます]**。
+   これらの設定をオンにするには、 **[UICONTROLの設定/実装/設定を編集/ページ読み込み有効に切り替えます]**。
 
-   ![ページ読み込み可能設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![ページ読み込みが有効な設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### その他のリソース
 
 機能の詳細については、 `serverState` 次のリソースを参照してください。
 
 * [サンプルコード](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [で使用する単一ページアプリケーション(SPA)サンプルアプリケーシ `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)ョン
+* [シングルページアプリ(SPA)サンプルアプリを使用しま `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)す。
