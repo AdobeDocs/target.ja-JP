@@ -1,12 +1,12 @@
 ---
-keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-description: .csv形式のデータをダウンロードして、Adobe targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
-title: Adobe targetを使用したCSVファイル内のデータのダウンロード
-subtopic: 多変量分析テスト
+keywords: reports;download reports;csv;success metrics;order details
+description: .csv形式のデータをダウンロードして、Adobe Targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
+title: Adobe Targetを使用したCSVファイル内のデータのダウンロード
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -22,9 +22,9 @@ CSV ファイル内のデータをダウンロードするには：
    多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」タブをクリックします。
-1. **[!UICONTROL ダウンロード]アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。**
+1. **[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。
 
-   * [!UICONTROL レポートをCSVにエクスポート]
+   * [!UICONTROL レポートをCSVに書き出し]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
    ![ダウンロードオプション](/help/c-reports/assets/download-options.png)
 
@@ -39,11 +39,11 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSVレポートには生データのみが含まれ、A/Bテストで使用される1訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSVレポートには生データのみが含まれ、A/Bテストで使用される1訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 注文の詳細を CSV に書き出す {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-注文の詳細レポート（[!DNL Target Classic] の監査レポートとして知られる）は、次を含む注文に関する情報を表示します。
+「受注詳細」レポートには、次のような受注に関する情報が表示されます。
 
 * 注文日時
 * 注文金額（発注 mbox を挿入した場合）
@@ -82,7 +82,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 次の情報が「ダウンロード」オプションに適用されます。
 
-* A/Bテスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用に、両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
+* A/Bテスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用の両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
 * 「ダウンロード」オプションは、Target バージョン 15.7.1（2015 年 7 月）より前のバージョンを使用して作成された A/B およびエクスペリエンスターゲット設定のアクティビティでは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * Target レポート UI で適用されたオーディエンスは、ダウンロードレポートに引き継がれません。
