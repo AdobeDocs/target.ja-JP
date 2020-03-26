@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月25日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 次のat.jsの新しいバージョンに関する情報を追加しました。<ul><li>at.jsバージョン2.3.0</li><li>at.jsバージョン1.8.1</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」セクションに次の新しい行を追加しました。<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>以下の新しいセクションを追加しました。<ul><li>コンテンツセキュリティポリシー</li></ul> |
 | 3月24日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 次の影響に関する情報を追加しました。<ul><li>サードパーティIDに基づくプロファイルスクリプト</li><li>iOSデバイスでのURLのQA/プレビュー</li></ul> |
 | 3月20日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1リリースが2020年3月24日になることを示していました。 |
 | 3月13日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 「オーディエンス、再利用可能なアカウントあたり」の数を更新しました。 |
