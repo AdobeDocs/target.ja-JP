@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: このリリースのAdobe targetの既知の問題に関する情報です。 また、解決された問題に関する情報も含まれています。
+description: このリリースのAdobeターゲット また、解決された問題に関する情報も含まれています。
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ### ページ配信 {#page-delivery}
 
-ページ配信に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合は [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)、ルールの先頭に余分なスペースが追加されます。 これは外観上の問題であり、オーディエンス定義の作成とオファーの配信には影響しません。 （TGT-35916）
+ページ配信に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、 [余分なスペースが](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)「rules」の先頭に付加されます。 これは表面的な問題であり、オーディエンス定義の作成とオファー配信には影響しません。 （TGT-35916）
 
 ### アクティビティ QA プレビューリンク {#preview}
 
@@ -63,11 +63,11 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 Recommendations アクティビティの既知の問題は次のとおりです。
 
 * フィードまたはAPIを介して更新を受信しなかった60日後に、エンティティの有効期限が正しく切れます。ただし、有効期限切れのエンティティは、有効期限切れの後にカタログ検索インデックスから削除されません。 (IRI-857)
-* 条件およびデザインの「使用状況情報」オーバーレイに、A/Bおよびエクスペリエンスのターゲット設定アクティビティでの使用が反映されません。(TGT-34331)
-* A/Bのレコメンデーションオファーおよびエクスペリエンスのターゲット設定アクティビティで、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
-* APIを使用して作成されたコレクション、除外、条件およびデザインは、Targetのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。 （TGT-35777）
-* APIを使用して作成されたレコメンデーションアクティビティはユーザーインターフェイスで表示できますが、編集はAPIを使用してのみ可能です。
-* 条件リスト（カード）ビューに表示されるカスタム条件フィードステータスは、10分ごとに更新され、まれに10分以上古くなる場合があります。 カスタム条件の編集ビューに表示されるステータスは、リアルタイムで取得され、常に最新の状態になります。 (TGT-35896、TGT-36173)
+* 条件およびデザインの「使用状況情報」オーバーレイに、A/Bおよびエクスペリエンスのターゲット設定アクティビティでの使用状況が反映されない(TGT-34331)
+* A/Bおよびエクスペリエンスのターゲット設定アクティビティのRecommendationsオファーに、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
+* APIを使用して作成されたコレクション、除外、条件、デザインは、ターゲットのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。 （TGT-35777）
+* APIで作成されたRecommendationsアクティビティはユーザーインターフェイスで表示できますが、APIでのみ編集できます。
+* 条件リスト（カード）表示に表示されるカスタム条件フィードのステータスは、10分ごとに更新され、まれに10分以上古くなる場合があります。 カスタム条件の編集表示に表示されるステータスは、リアルタイムで取得され、常に最新の状態になります。 (TGT-35896、TGT-36173)
 
 ### 多変量分析テスト（MVT）アクティビティ
 
@@ -77,7 +77,8 @@ MVT アクティビティでは、指標をチェックしているときに、�
 
 at.js の既知の問題を以下に示します。
 
-* at.js 2.1.1以前（例えば、デフォルトのエクスペリエンス）を使用して変更のないエクスペリエンスを作成した場合、そのエクスペリエンスは、Reports、Analytics for Target(A4T)、Adobe AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
+* 2.2.0より前のバージョンのat.jsを使用する場合、Adobe Analyticsコードがページ要素（ボタンなど）に存在しない場合、クリック追跡でターゲットに関するAnalyticsのコンバージョンがレポートされません(A4T)。 この問題に対して、at.js 2.2.0で修正が導入されました。この問 [題が発生した場合は、最新のat.jsバージョンにアップグレードし](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) てください。
+* at.js 2.1.1以前（例えば、デフォルトのエクスペリエンス）を使用して変更のないエクスペリエンスを作成した場合、そのエクスペリエンスは、Reports、Analytics forターゲット(A4T)、Adobe AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
 
    回避策として、エクスペリエンスコンテンツに空白を使用します。 （TNT-33366）
 
