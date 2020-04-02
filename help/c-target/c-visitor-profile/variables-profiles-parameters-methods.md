@@ -5,7 +5,7 @@ title: プロファイルと変数の用語集
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -28,22 +28,22 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
-| user.header('x-cluster-client-ip') | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
-| user.header('host') | Web サイトのホスト名 |
-| user.header('cookie') | 訪問者の cookie データ |
-| user.header('user-agent') | 訪問者のブラウザーのユーザーエージェント |
-| user.header('accept-language') | 訪問者の言語 |
-| user.header('accept-encoding') | 訪問者の文字エンコード |
-| user.header('accept') | 訪問者の言語および文字エンコード |
-| user.header('connection') | サーバー接続。例：keep-live |
-| user.header('referrer') | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
-| user.getLocal('param_name','value'); |  |
-| user.setLocal('param_name','value'); |  |
-| user.get('param_name') |  |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)ヘッダーは、新しいAWSエッジでは機能しません。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
+| user.header(&#39;host&#39;) | Web サイトのホスト名 |
+| user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
+| user.header(&#39;user-agent&#39;) | 訪問者のブラウザーのユーザーエージェント |
+| user.header(&#39;accept-language&#39;) | 訪問者の言語 |
+| user.header(&#39;accept-encoding&#39;) | 訪問者の文字エンコード |
+| user.header(&#39;accept&#39;) | 訪問者の言語および文字エンコード |
+| user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
+| user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
-| profile.get('param_name') | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、profile.get('param_name')メソッドです。 |
-| profile.param('param_name'); |  |
-| profile.parameter('parameter_name'); | profile.  prefix. |
+| profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、プロファイル.get(&#39;param_name&#39;)メソッドです。 |
+| profile.param(&#39;param_name&#39;); |  |
+| profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -78,16 +78,16 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 | 変数 | メモ |
 |--- |--- |
 | `mbox.name` |  |
-| mbox.param('param_name') |  |
-| リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param('browserHeight')</li><li>mbox.param('browserTimeOffset')</li><li>mbox.param('browserWidth')</li><li>mbox.param('colorDepth')</li><li>mbox.param('mboxXDomain')</li><li>mbox.param('mboxTime')</li><li>mbox.param('screenHeight')</li><li>mbox.param('screenWidth')</li></ul> |
-| 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul> |
+| mbox.param(&#39;param_name&#39;) |  |
+| リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
+| 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および[顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
 | mboxDebug | デバッグ情報にのみ使用されます。mbox.js が探すページ URL に追加されます。 |
-| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
+| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：**mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for[Target](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に[アクティビティQAモード](/help/c-activities/c-activity-qa/activity-qa.md)を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
 
 ## 顧客属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 顧客属性は、プロファイルスクリプトで参照でき、形式 `crs.get('<Datasource Name>.<Attribute name>')`　設定されています。
 
-この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。内のスペースは、API呼び出し `datasourceName` から削除する必要があります。
+この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。内のスペースは、API呼び出し `datasourceName` から削除される必要があります。
