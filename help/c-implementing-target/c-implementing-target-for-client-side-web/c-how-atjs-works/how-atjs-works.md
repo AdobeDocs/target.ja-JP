@@ -1,11 +1,11 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
-title: Adobe Target at.js javaScriptライブラリの仕組み
+title: Adobeターゲットat.js JavaScriptライブラリの仕組み
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -31,7 +31,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 抽象度の高い表示では、2 つのバージョン間にいくつかの違いがあります。
 
 * at.js 2.x は、グローバル mbox リクエストの概念がなく、ページ読み込みリクエストを使用します。ページ読み込みリクエストは、Web サイトの最初のページ読み込み時に適用されるコンテンツを取得するリクエストとして表示できます。
-* at.js 2.xは、シングルページアプリケーション(SPA)で使用されるビューと呼ばれる概念を管理します。 at.js 1.*x* はこの概念に対応していません。
+* at.js 2.xは、シングルページアプリ(SPA)で使用される表示と呼ばれる概念を管理します。 at.js 1.*x* はこの概念に対応していません。
 
 ## at.js 2.x 図
 
@@ -46,7 +46,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | すべての設定済みパラメーター（MCID、SDID および顧客 ID）を含む、ページ読み込みリクエストがおこなわれます。 |
 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、オーディエンスライブラリから正規のオーディエンスをリクエストします（例えば、Adobe Analytics、Audience Management などから共有されたオーディエンス）。<br>顧客属性がバッチ処理でプロファイルストアに送信されます。 |
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
-| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA内のユーザー操作の結果として表示されるビューのターゲットコンテンツは、ブラウザーにキャッシュされるので、ビューがトリガーされたときに追加のサーバー呼び出しを行うことなく、即座に適用できま `triggerView()`す。 |
+| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPAでの表示操作の結果として表示される表示のターゲットコンテンツは、ブラウザーにキャッシュされるので、ユーザーがトリガーされたときに追加のサーバー呼び出しを行わなくても、即座に適用できま `triggerView()`す。 |
 | 7 | Analytics データがデータ収集サーバーに送信されます。 |
 | 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。<br>A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
@@ -91,10 +91,10 @@ HTML コンテンツを使用してオファー をレンダリングする場�
 * at.js は、非同期的に読み込まれるので、リモートスクリプトの実行順序を保証しません。
 * インラインスクリプトは、後で読み込まれて実行されるので、リモートスクリプトへの依存関係を持たせないようにします。
 
-## トレーニングビデオ：at.js 2.xアーキテクチャ図の概要バ ![ッジ](/help/assets/overview.png)![概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：at.js 2.xのアーキテクチャ図の概要バ ![ッジ](/help/assets/overview.png)
 
 at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) を参照してください。
+詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 、を参照してください。
