@@ -1,0 +1,9 @@
+{
+	"uicontrol-with-bold": {
+	"scope": "markdown",
+	"prefix": "uicontrol with bold",
+	"body": [
+		"**[!UICONTROL $TM_SELECTED_TEXT]**"
+	],
+	"description": "Wrap selection with uicontrol and apply bold formatting to selection"}
+  }
