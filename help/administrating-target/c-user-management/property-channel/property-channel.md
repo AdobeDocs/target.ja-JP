@@ -5,7 +5,7 @@ title: Enterprise ユーザーの権限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Web プロパティは、Web サイト（群）を意味し、複数のルールと 1 つの埋め込みコードで構成されます。Web プロパティは、1 つ以上のドメインやサブドメインをグループ化できます。
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をTargetに追加します。
+プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をターゲットに
 プロパティは、特定のチャネル（Web、モバイル、電子メールまたは API／その他）に属しています。
 
 ### ワークスペース（製品プロファイル）
@@ -271,7 +271,7 @@ Target Premium でプロパティおよび権限を使用または設定する�
 
 リダイレクトページとアクティビティ URL が同じプロパティに属している場合、クリックの追跡は期待どおりに機能します。詳しくは 、[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。
 
-## トレーニングビデオ：Enterprise Permissionsトレーニングビデオ概 {#section_2FA080303A064242B63FF16CFA6DB31D} 要バ ![ッジ](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 学習内容：
 
