@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -37,8 +37,8 @@ at.js の設定ページでいくつかの設定をおこなう方法を説明�
 
 [!UICONTROL 設定]ページを開くには、次の手順を実行します。
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;実装]**をクリックします。
-1. **[!UICONTROL at.js]**／**[!UICONTROL  at.js 設定を編集]**をクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
+1. **[!UICONTROL at.js]**／**[!UICONTROL at.js 設定を編集]**&#x200B;をクリックします。
 
 ## コンテンツ配信設定 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,7 +89,7 @@ ov2/c_target-configure-atjs.xml
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL &#x200B;実装]**をクリックします。
+1. **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
 1. 「**[!UICONTROL at.js]**」を選択します。
 1. 「**[!UICONTROL at.js をダウンロード]**」をクリックします。
 
@@ -99,7 +99,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 1. クライアントコードを取得します。
 
-   クライアントコードは、**[!UICONTROL インターフェイスの]**セットアップ**[!UICONTROL ／]**実装&#x200B;**[!UICONTROL ／]**at.js 設定を編集[!DNL Target]ページの最上部にあります。
+   クライアントコードは、**[!UICONTROL インターフェイスの]**&#x200B;セットアップ&#x200B;**[!UICONTROL ／]**&#x200B;実装&#x200B;**[!UICONTROL ／]** at.js 設定を編集[!DNL Target]ページの最上部にあります。
 
 1. 管理番号を取得します。
 
@@ -126,7 +126,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
    この URL を次の構造で読み込みます。
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 次の重要な注意点を考慮してください。
 
 * HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
-* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
 * 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
