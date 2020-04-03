@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2 年 4 月 | [at.js 1.*x* から at.js 2.*x へのアップグレード&#x200B;*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 以下の注意を追加しました。<ul><li>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。</li></ul> |
+| 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
+|  | [at.js 1.*x* から at.js 2.*x へのアップグレード&#x200B;*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 以下の注意を追加しました。<ul><li>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。</li></ul> |
 | 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のバージョンのat.jsに影響する既知の問題を追加しました。この問題により、Adobe Analyticsコードがページエレメントに存在しない場合に、Analyticsでのターゲット(A4T)のコンバージョンがクリック追跡でレポートされない問題が発生していました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.jsバージョン2.2.0の詳細に次の情報を追加しました。<ul><li>Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲット用のAnalytics(A4T)のコンバージョンがレポートされない問題を修正しました。</li></ul> |
 | 3月25日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 次のat.jsの新しいバージョンに関する情報を追加しました。<ul><li>at.jsバージョン2.3.0</li><li>at.jsバージョン1.8.1</li></ul> |
@@ -64,7 +65,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2020 年 1 月 10 日 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | テキストを更新しました。<br>2020年3月1日以降、アドビターゲットは、Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2020年3月1日までにTLS 1.2にアップグレードしてください。 |
 | 2020年1月6日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | カスタム条件フィードのステータスに関する既知の問題を追加しました。 |
 | 2019年12月20日 | [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.1.0 に関する情報を追加しました。 |
-| 2019年12月13日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
+| 2019年12月12日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
 |  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | トピックの名前を変更し、次の節を追加しました。「自動配分レポートの上昇率と信頼性アクティビティを理解する」 |
 | 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。「ターゲット設定でターゲットはURLをどのように評価しますか？」 |
 | 2019年12月11日 | [ターゲット限界](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
