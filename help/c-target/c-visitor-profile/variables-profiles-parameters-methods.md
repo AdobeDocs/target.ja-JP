@@ -28,7 +28,7 @@ source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br>注意：このヘッダーは、新しいAWSエッジでは機能しません。 代わりに、を `user.header('x-forwarded-for')` 使用します。 |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)ヘッダーは、新しいAWSエッジでは機能しません。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。 |
 | user.header(&#39;host&#39;) | Web サイトのホスト名 |
 | user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
 | user.header(&#39;user-agent&#39;) | 訪問者のブラウザーのユーザーエージェント |
