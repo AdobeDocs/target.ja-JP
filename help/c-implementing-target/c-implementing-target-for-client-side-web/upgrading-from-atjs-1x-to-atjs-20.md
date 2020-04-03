@@ -5,7 +5,7 @@ title: Adobe Target の at js バージョン 1.*x* から at.js バージョン
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 ただし、at.js 2.*x* では、HTTP GET は使用されなくなり、代わりに HTTP POST が使用されています。JSON ペイロードを Target Edge サーバーに送信するために、HTTP POST は、at.js 2.*x* を介して使用されるようになりました。つまり、ブラウザーがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストがべき等性のあるトランザクションであるのに対し、HTTP POST はべき等性がなく、恣意的に繰り返してはならないためです。したがって、標準設定での at.js 2.*x* のクロスドメイントラッキングはサポートされなくなりました。at.js 1.*x* のみ、クロスドメイントラッキングを標準設定でサポートします。
 
-クロスドメイントラッキングを使用する場合は、 [ECIDライブラリv4.3.0+をat.js 2と共にインストールする](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 必要があります。*x* と共にインストールする必要があります。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。
+クロスドメイントラッキングを使用する場合は、 [ECIDライブラリv4.3.0+をat.js 2と共にインスト](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ールする必要があります。*x* では、標準設定ではサポートされていません。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。
+
+>[!NOTE]
+>
+>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。
 
 ### グローバル mbox 自動作成はサポートされています
 
@@ -315,7 +319,7 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 ### at.js 1 *オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*? {#audience-parameters}
 
-次のat.js 1.xパラメーターは、at.js ** 2を使用する場合のオーディエンス作成に対しては現在サポートされていません。*x*）を示します。
+次のat.js 1.xパラメーターは、at.js 2を使 *用する場合* 、オーディエンスの作成に対しては現在サポートされていません。*x*）を示します。
 
 * browserHeight
 * browserWidth
@@ -328,7 +332,7 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 ## at.js の互換性
 
-次の表で、at.jsについて説明します。 2.*x様々なアクティビティタイプ* 、統合、機能およびat.js関数との互換性
+次の表で、at.jsについて説明します。 2.*x様々なアクティビティ* ・タイプ、統合、機能およびat.js関数との互換性
 
 ### アクティビティのタイプ {#types}
 
@@ -756,4 +760,4 @@ at.js 2.*x* は、Adobe Target の SAP のサポートを強化し、Adobe Targe
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-at.js [2の仕組みについてを参照してください。*xは*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 、詳細を表示します。
+at.js 2 [の仕組みについてを参照してください。*xは*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 、より詳細な情報を得るために機能します。
