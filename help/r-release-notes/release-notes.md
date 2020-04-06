@@ -5,55 +5,45 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
 
 # Target リリースノート（現行）{#target-release-notes-current}
 
-これらのリリースノートでは、Target Standard と Target Premium の各リリースの機能、機能強化および修正点について説明します。また、Target API、SDK、JavaScriptライブラリ(at.js)およびその他のプラットフォームの変更に関するリリースノートも、該当する場合は含まれています。
+これらのリリースノートでは、Target Standard と Target Premium の各リリースの機能、機能強化および修正点について説明します。また、ターゲットAPI、SDK、JavaScriptライブラリ(at.js)およびその他のプラットフォームの変更に関するリリースノートも、該当する場合は含まれます。
 
 >[!NOTE]
 >
->* **TLSサポートの変更**:2020年3月1日以降、TargetはTLS 1.1およびTLS 1.0暗号化のサポートを無効にします。 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。この変更は、TLS 1.2以降の一般的に認められるセキュリティコンプライアンス標準を満たすために必要です。 現在使用しているTLSのバージョンを確認します。 バージョンが1.2より前の場合は、Targetを引き続き期待どおりに使用するために、2020年3月1日より前に必要な変更を実装します。
+>* **TLSサポートの変更**:2020年3月1日以降、ターゲットはTLS 1.1およびTLS 1.0暗号化のサポートを無効にします。 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。この変更は、TLS 1.2以降の一般的に認められるセキュリティコンプライアンス標準を満たすために必要です。 現在使用しているTLSのバージョンを確認します。 バージョンが1.2より前の場合は、引き続き期待どおりにターゲットを使用するため、2020年3月1日より前に必要な変更を実装します。
    >
    >   
    影響の可能性と、実装を更新するために実行する必要がある可能性のある手順について詳しくは、 [TLS(Transport Layer Security)暗号化の変更を参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
    >
    >
-* **mbox.jsの廃止**:2020年8月31日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからのすべての呼び出しが失敗し、Targetアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリの機能の更新は提供されていません。 新しいat.jsは、mbox.jsよりも多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
    >
    >   
-   すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、お客様に新しい機能を提供し、アドビが期待するサポートを提供できるようになります。
+   すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、アドビが期待する新しい機能とオファーをお客様に提供できます。
    >
    >
 * 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 
-## Summit Live:デジタル体験会議 {#summit}
+## ターゲットat.js（2020年3月26日）
 
-Adobe Summitは仮想イベントになりました。 アドビは、2020年3月31日からデジタルのライブ体験を通じて、すべての停止点を取り除きます。 このライブエクスペリエンスには、主要段階の基調講演、最新のトレンドと進歩を取り上げたミニキーノート、業界リーダーの成功に対する洞察、および分類セッションが含まれます。
-
-* **キーノートをライブで見る**:業界をどこでも快適な環境から変える傾向や新製品についてお聞かせください。
-* **オンデマンドで100以上の分類を調査：** アドビ、お客様、パートナーが提供する100を超えるオンデマンドの内訳セッションに、無料でアクセスできます。
-* **先が見えない**:Chelsea特別ゲスト・ハンドラーに参加し、当社のラボの最新の実験技術をご覧ください — Adobe Sneeksの
-
-デジタルイベント全体への無料アクセスを登録するには、Digital Experience Conference [にアクセスします。サミット](https://www.adobe.com/summit.html) ページ
-
-## Target at.js（2020年3月26日）
-
-次の新しいバージョンのTarget at.js JavaScriptライブラリを使用できます。
+at.js JavaScriptライブラリのターゲットの次の新しいバージョンを使用できます。
 
 * at.jsバージョン2.3.0
 * at.jsバージョン1.8.1
 
 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-## Target Standard/Premium 20.2.1（2020年3月24日）
+## ターゲット標準/プレミアム20.2.1（2020年3月24日）
 
 >[!IMPORTANT]
 >
@@ -62,22 +52,22 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 このリリースには、次の機能強化、修正および変更が含まれています。
 
 * カタログ検索を実行すると、顧客がコレクションを選択できない問題を修正しました。 （TGT-36230）
-* APIを介して作成され、Target UIで作成されたアクティビティで参照されていない条件がUIから誤って削除される問題を修正しました。 （TGT-35917）
+* APIで作成され、ターゲットUIで作成されたアクティビティが参照しない条件がUIから誤って削除される問題を修正しました。 （TGT-35917）
 * コンテンツセキュリティポリシー(CSP)のセキュリティの強化を実装しました。 （TGT-36190）
 * 属性の重み付けの割合のバーを左端にスライドすると、「NaN%」が表示される問題を修正しました。 （TGT-36211）
-* 様々な言語のUIテキストが正しく表示されるように、ローカリゼーションの問題を解決しました。
-* 現在のバージョンのAdobe Analytics APIではサポートされていないAdobe Analytics指標を廃止することで、Adobe Analytics for Target(A4T)アクティビティで使用可能な指標のリストを標準化しました。 これにより、A4Tの将来のAdobe Targetリリースでのサポートを拡張できます。
+* ローカライゼーションの問題を解決し、様々な言語のUIテキストが正しく表示されるようにしました。
+* 現在のバージョンのAdobe Analytics APIではサポートされていないAdobe Analytics指標を廃止することで、Adobe Analyticsのターゲット(A4T)アクティビティで使用できる指標のリストを標準化しました。 これにより、今後のアドビのターゲットリリースでA4Tのサポートを拡張できます。
 
    次の変更が行われました。
 
-   * 「ページでの平均滞在時間」は、「サイトでの平均滞在時間」に置き換えられました。 この指標を主要目標指標として使用するアクティビティには、「サイトでの平均滞在時間」が含まれます(注意：測定される時間（秒数ではなく分単位）が、アクティビティの次回編集時にプライマリ目標指標として選択されます。
-   * 「訪問者」は「個別訪問者」に置き換えられました。 この指標を主要目標指標として使用するアクティビティは、次にアクティビティを編集する際に、「個別訪問者」が「主要目標指標」として選択されます。
+   * 「ページでの平均滞在時間」は、「サイトでの平均滞在時間」に置き換えられました。 この指標をアクティビティの主要目標指標として使用する場合、「サイトでの平均滞在時間」が表示されます(注意：測定単位は秒ではなく分)が選択され、次回のアクティビティ編集時にプライマリ目標指標として選択されます。
+   * 「訪問者」は「個別訪問者」に置き換えられました。 この指標を主目標指標として使用するアクティビティは、次にアクティビティを編集する際に、「個別訪問者」が「主目標指標」として選択されます。
 
-* 次の指標は非推奨となり、新しいA4Tアクティビティを作成する際にプライマリ目標指標として選択できなくなりました。
+* 次の指標は非推奨となり、新しいA4T指標を作成する際にプライマリ目標指標として選択できなくなりました。アクティビティ
 
    | 非推奨の指標 | 推奨置換指標 |
    |--- |--- |
-   | 日別訪問者数、時間別訪問者数、月別訪問者数、四半期別訪問者数、週別訪問者数、年別訪問者数 | 実訪問者数 |
+   | 日別訪問者、時間別訪問者、月別訪問者、四半期別訪問者、週別訪問者、年別訪問者 | 実訪問者数 |
    | 訪問の深さ（平均） | 該当なし主な目標指標として提案されていない |
    | ボット | 該当なし主な目標指標として提案されていない |
    | モバイルのクラッシュ率、モバイルの平均前回のセッションの長さ、モバイルのアプリストアの平均ランク、モバイルのアプリのパフォーマンスクラッシュ率、モバイルのアプリストアの平均評価 | 該当なし主な目標指標として提案されていない |
@@ -90,11 +80,11 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
    * ユーザーヘルプの改善：検索結果には、製品ドキュメントの結 [!DNL Target] 果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスして最大限の活用を図ることができま [!DNL Target]す。 また、ヘルプメニューにフィードバックのメカニズムが追加さ [!UICONTROL れ] 、問題の報告やアイデアの共有が簡単になりました。
 
    * ネットプロモータースコア(NPS)のフィードバック機能を改善し、調査モーダルが作業の流れを妨げないようにしました。
-   * ログインのフローが改善されました。 以前は、すべての顧客 [!DNL Target] がヘッダーのアイコンをクリックした後、Targetのランディングペ [!DNL Target] ージにランディングしました。 その後、このページでは、次に示すように、顧客が次 [!DNL Target Standard/Premium]の手順に進む [!DNL Search&Promote]こと [!DNL Recommendations Classic]ができるようになりました。
+   * ログインのフローが改善されました。 以前は、すべての顧客 [!DNL Target] がヘッダーのアイコンをクリックした後、ターゲットランディングページにランデ [!DNL Target] ィングしていました。 その後、このページでは、次に示すように、顧客が次 [!DNL Target Standard/Premium]の手順に進む [!DNL Search&Promote]こと [!DNL Recommendations Classic]ができるようになりました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
 
-      すべてのお客様のために、このランディングページを削除しました。 新しいヘッダーナビゲーションバーのアイコンをク [!UICONTROL リックすると] 、常にアクティビティリストペ [!DNL Target] ージに直接移動するようになりました。
+      私たちはこのランディングページを全てのお客様に排除した。 新しいヘッダーナビゲーションバーのアイコンをクリッ [!UICONTROL クすると] 、常にアクティビティリストページ [!DNL Target] に直接移動するようになりました。
 
       使用する場合 [!DNL Recommendations Classic]は、次に示すように、ソリューションに直接移動するか、 [!UICONTROL Recommendations] タブで作成した短いリンクから移動できます。
 
@@ -111,10 +101,10 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 | リソース | 詳細 |
 |--- |--- |
-| [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Adobe Targetのサーバー側APIに関するリリースノートです。 |
-| [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Adobe TargetのNode.js SDKに関するリリースノートです。 |
-| [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Adobe TargetのJava SDKに関するリリースノートです。 |
-| [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adobe Target at.js JavaScriptライブラリの各バージョンの変更について詳しく説明します。 |
+| [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | アドビのサーバー側APIに関するターゲットのリリースノートです。 |
+| [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | AdobeターゲットのNode.js SDKに関するリリースノートです。 |
+| [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | アドビのJava SDKに関するターゲットのリリースノートです。 |
+| [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js JavaScriptライブラリの各バージョンのAdobeターゲットの変更について詳しく説明します。 |
 | [mbox.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | このページには、mbox.js の各バージョンに対する変更が表示されます。<br>mbox.jsライブラリは開発されなくなります。 すべてのお客様が mbox.js から at.js に移行する必要があります。 |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート {#section_1BC5F5208DA548E9B4344A0836E4B943}
@@ -133,5 +123,5 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 | リソース | 詳細 |
 |--- |--- |
-| Adobe Priority Product Update リスト | Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。<br>[https://adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) |
+| Adobe Priority Product Update リスト | Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。<br>[https://adobe.com/subscription/priority-product-update.html](https://adobe.com/subscription/priority-product-update.html) |
 | 今後のリリースノート | プレリリース情報など今月の Target リリースについては、[Target リリースノート - プレリリース](/help/r-release-notes/target-release-notes.md)ページを参照してください。 |
