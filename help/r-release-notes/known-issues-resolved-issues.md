@@ -1,15 +1,15 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: このリリースのAdobeターゲット また、解決された問題に関する情報も含まれています。
+description: このリリースの Adobe Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
 
-# 既知の問題と解決された問題{#known-issues-and-resolved-issues}
+# 既知の問題と解決された問題 {#known-issues-and-resolved-issues}
 
 このリリースの Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
 
@@ -23,7 +23,7 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ### ページ配信 {#page-delivery}
 
-ページ配信に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、 [余分なスペースが](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)「rules」の先頭に付加されます。 これは表面的な問題であり、オーディエンス定義の作成とオファー配信には影響しません。 （TGT-35916）
+[ページ配信](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、ルールの先頭に余分なスペースが付加されます。これは表面的な問題であり、オーディエンス定義の作成やオファーの配信には影響しません。（TGT-35916）
 
 ### アクティビティ QA プレビューリンク {#preview}
 
@@ -40,13 +40,13 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 任意のエクスペリエンスにデータがない（訪問回数 0）場合、自動ターゲットアクティビティのグラフレポートで、「微分」モード（平均上昇率および日別の上昇率）のレンダリングに失敗します。この状況は、コントロールエクスペリエンスがカスタムに設定されている場合、アクティビティの初期段階で発生する可能性があります。他のモード（実行平均コントロールおよびターゲット、日別コントロールおよびターゲット、訪問回数）では、正常に機能します。データがあればすぐに（訪問回数 0 以外）、レポートは期待どおりにレンダリングされます。
 
-### VEC 内でのページ読み込みのキャンセル{#cancel}
+### VEC 内でのページ読み込みのキャンセル {#cancel}
 
 * 現在、リダイレクト URL を含む VEC 内の [!UICONTROL  A/Bテスト]または[!UICONTROL エクスペリエンスターゲット]（XT）のアクティビティの読み込みをキャンセルすると、既知の問題が発生します。
 
    VEC 内部の 3 つのガイドによるワークフローのうちの 1 つで、ページ読み込みをキャンセルすると、VEC の[!UICONTROL 変更]パネルが表示され、URL テンプレートへのリダイレクトがエクスペリエンス（「エクスペリエンス B」など）に適用されます。ステップ 2 または 3 に進むと、次の状況が発生します。
 
-   デフォルトでは、「エクスペリエンス B」では、キャンセルされた Web サイトの読み込みテンプレートがレンダリングされ、[!UICONTROL 変更]パネルにアクセスできます。このエクスペリエンスは、URL　テンプレートにリダイレクトされるので、大文字と小文字が区別されません。URL テンプレートへのリダイレクトが表示されます。
+   デフォルトでは、「エクスペリエンス B」では、キャンセルされた Web サイトの読み込みテンプレートがレンダリングされ、[!UICONTROL 変更]パネルにアクセスできます。このエクスペリエンスは、URL テンプレートにリダイレクトされるので、大文字と小文字が区別されません。URL テンプレートへのリダイレクトが表示されます。
 
    VEC でエクスペリエンスの正しい状態を表示するには
 
@@ -62,12 +62,12 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 Recommendations アクティビティの既知の問題は次のとおりです。
 
-* フィードまたはAPIを介して更新を受信しなかった60日後に、エンティティの有効期限が正しく切れます。ただし、有効期限切れのエンティティは、有効期限切れの後にカタログ検索インデックスから削除されません。 (IRI-857)
-* 条件およびデザインの「使用状況情報」オーバーレイに、A/Bおよびエクスペリエンスのターゲット設定アクティビティでの使用状況が反映されない(TGT-34331)
-* A/Bおよびエクスペリエンスのターゲット設定アクティビティのRecommendationsオファーに、Recommendationsトレイの視覚的なプレビューが表示されない(TGT-33426)
-* APIを使用して作成されたコレクション、除外、条件、デザインは、ターゲットのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。 （TGT-35777）
-* APIで作成されたRecommendationsアクティビティはユーザーインターフェイスで表示できますが、APIでのみ編集できます。
-* 条件リスト（カード）表示に表示されるカスタム条件フィードのステータスは、10分ごとに更新され、まれに10分以上古くなる場合があります。 カスタム条件の編集表示に表示されるステータスは、リアルタイムで取得され、常に最新の状態になります。 (TGT-35896、TGT-36173)
+* フィードまたは API を介した更新がなくなって 60 日が経過するとエンティティの有効期限が切れます。ただし、有効期限が切れた後も、期限切れのエンティティはカタログ検索インデックスから削除されません。（IRI-857）
+* 条件およびデザインの「使用状況情報」オーバーレイに、A/B およびエクスペリエンスのターゲティングアクティビティでの使用状況が反映されない（TGT-34331）
+* A/B およびエクスペリエンスのターゲット設定アクティビティの Recommendations オファーに、Recommendations トレイのプレビューが表示されない（TGT-33426）
+* API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスに表示されず、API でのみ編集できます。（TGT-35777）
+* API で作成された Recommendations アクティビティはユーザーインターフェイスで確認できますが、API からのみ編集できます。
+* 条件リスト（カード）表示に表示されるカスタム条件フィードのステータスは、10 分ごとに更新され、まれに 10 分より古いものが表示される場合があります。カスタム条件の編集ビューに表示されるステータスはリアルタイムで取得され、常に最新の状態になります。（TGT-35896、TGT-36173）
 
 ### 多変量分析テスト（MVT）アクティビティ
 
@@ -77,14 +77,14 @@ MVT アクティビティでは、指標をチェックしているときに、�
 
 at.js の既知の問題を以下に示します。
 
-* 2.2.0より前のバージョンのat.jsを使用する場合、Adobe Analyticsコードがページ要素（ボタンなど）に存在しない場合、クリック追跡でターゲットに関するAnalyticsのコンバージョンがレポートされません(A4T)。 この問題に対して、at.js 2.2.0で修正が導入されました。この問 [題が発生した場合は、最新のat.jsバージョンにアップグレードし](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) てください。
-* at.js 2.1.1以前（例えば、デフォルトのエクスペリエンス）を使用して変更のないエクスペリエンスを作成した場合、そのエクスペリエンスは、Reports、Analytics forターゲット(A4T)、Adobe AnalyticsまたはGoogle Analyticsでカウントされない場合があります。 さらに、ttMetaプラグ [インが正しく動作しな](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) い可能性があります。
+* 2.2.0 より前のバージョンの at.js を使用しているとき、Adobe Analytics コードがページ要素（ボタンなど）に存在しない場合、クリック追跡で Analytics for Target（A4T）のコンバージョンがレポートされません。at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
+* at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、[ttMeta プラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)が正しく動作しない可能性があります。
 
-   回避策として、エクスペリエンスコンテンツに空白を使用します。 （TNT-33366）
+   回避策として、エクスペリエンスコンテンツに空白を使用します。（TNT-33366）
 
    >[!NOTE]
    >
-   >この問題の修正は、at.js 2.2.0に含まれていました。最新バージョンまたはat.js [にアップグレードするか](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 、上記の回避策を2.2.0より前のバージョンのat.jsにのみ使用してください。
+   >この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)するか、上記の回避策を 2.2.0 より前のバージョンの at.js にのみ使用してください。
 
 * Visual Experience Composer（VEC）にページを読み込む際、Target は、グローバル mbox の設定が有効かどうかと、ユーザーが VEC でレコメンデーションを適用しようとしている場所に entityID または categoryID があるかどうかを確認する必要があります。この情報を基に条件のリストがフィルタリングされます。デフォルトのリストではアルゴリズムがフィルタリングされていますが、[「互換性あり」チェックボックス](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)を使用すると、すべてのアルゴリズムのリストを表示できます。
 
