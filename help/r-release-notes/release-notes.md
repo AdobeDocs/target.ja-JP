@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
+source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 ---
 
@@ -16,23 +16,16 @@ source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 >[!NOTE]
 >
->* **TLSサポートの変更**:2020年3月1日以降、ターゲットはTLS 1.1およびTLS 1.0暗号化のサポートを無効にします。 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。この変更は、TLS 1.2以降の一般的に認められるセキュリティコンプライアンス標準を満たすために必要です。 現在使用しているTLSのバージョンを確認します。 バージョンが1.2より前の場合は、引き続き期待どおりにターゲットを使用するため、2020年3月1日より前に必要な変更を実装します。
-   >
-   >   
-   影響の可能性と、実装を更新するために実行する必要がある可能性のある手順について詳しくは、 [TLS(Transport Layer Security)暗号化の変更を参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
-   >
-   >
-* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリの機能の更新は提供されていません。 新しいat.jsは、mbox.jsよりも多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
    >
    >   
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、アドビが期待する新しい機能とオファーをお客様に提供できます。
-   >
-   >
-* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
+
+括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 ## ターゲットat.js（2020年3月26日）
 
