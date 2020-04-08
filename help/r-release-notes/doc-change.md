@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性が表示されないのはなぜですか？」のテキストを更新しました。 |
 | 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
 |  | [at.js 1.*x* から at.js 2.*x へのアップグレード&#x200B;*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 以下の注意を追加しました。<ul><li>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。</li></ul> |
 | 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のバージョンのat.jsに影響する既知の問題を追加しました。この問題により、Adobe Analyticsコードがページエレメントに存在しない場合に、Analyticsでのターゲット(A4T)のコンバージョンがクリック追跡でレポートされない問題が発生していました。 |
@@ -120,7 +121,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新規トピックです。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | V1/配信APIとNode.js SDKのリリースに関する情報を追加しました。 |
 | 2019 年 10 月 9 日 | [ターゲットInsiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | ニュースレターの最初のバッチへのリンクを含む新しいトピックです。その他の情報も含まれます。 |
-| 2019 年 10 月 1 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の内容を追加しました。 <ul><li>at.js 2を使用して変更を加えないでエクスペリエンスを作成する場合の既知の問題と回避策です。*x* library.</li><li>APIを使用して作成されたコレクション、除外、条件、デザインは、ターゲットのユーザーインターフェイスに表示されず、APIを使用してのみ編集できます。</li><li>APIで作成されたRecommendationsアクティビティはユーザーインターフェイスで表示できますが、APIでのみ編集できます。</li></ul> |
+| 2019 年 10 月 1 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の内容を追加しました。 <ul><li>at.js 2を使用して変更を加えないでエクスペリエンスを作成する場合の既知の問題と回避策です。*x* library.</li><li>API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスに表示されず、API でのみ編集できます。</li><li>API で作成された Recommendations アクティビティはユーザーインターフェイスで確認できますが、API からのみ編集できます。</li></ul> |
 |  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 「mboxDebug」節に注意を追加しました。 |
 | 2029 年 10 月 3 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のリリースに関する情報を追加しました。 |
 | 2019年10月1日 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「顧客属性」セクションのテキストを更新しました。 |
