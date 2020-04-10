@@ -5,7 +5,7 @@ title: Adobe Target でのシングルページアプリケーションの実装
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ document.addEventListener("at-view-end", function(e) {
 
 上記の手順に従う場合は、SPA 用の堅牢な A4T ソリューションが必要です。
 
-## 実装のベストプラクティス
+## 実装のベストプラクティス {#bp}
 
 at.js 2.x APIを使用すると、実装を様々な方法でカスタマ [!DNL Target] イズできますが、このプロセスでは、操作の正しい順序に従うことが重要です。
 
