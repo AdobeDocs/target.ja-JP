@@ -1,11 +1,11 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target Help
+user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 + Target リリースノート {#release-notes}
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
-   + [Target Insiderニュースレター](/help/r-release-notes/target-insider-newsletter.md)
+   + [ターゲットInsiderニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
@@ -60,6 +60,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [ホワイトリストのターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -134,12 +135,12 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [モバイルアプリのTarget FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [ターゲットとモバイルアプリのFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Use Location Service](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
-      + [リリースノート — Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [リリースノート — Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [リリースノート — Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
@@ -206,7 +207,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [エクスペリエンスプレビューURLを使用した自動パーソナライゼーションアクティビティのプレビュー](c-activities/t-automated-personalization/experience-preview.md)
+      + [プレビュー自動パーソナライゼーションアクティビティとエクスペリエンスプレビューURL](c-activities/t-automated-personalization/experience-preview.md)
       + [自動パーソナライゼーションのトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
@@ -275,7 +276,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [訪問者プロファイルの概要](c-target/c-visitor-profile/visitor-profile.md)
       + [訪問者プロファイルの有効期間](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
-      + [プロファイルスクリプトを使用して相互に排他的なアクティビティをテストする](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [プロファイルスクリプトを使用して相互に排他的なアクティビティ](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId のリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
@@ -370,7 +371,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Recommendationsアクティビティのプレビューと起動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [プレビューしてRecommendationsアクティビティ](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [オファーとしての Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
