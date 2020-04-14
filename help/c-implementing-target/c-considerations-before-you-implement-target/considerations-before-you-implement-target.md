@@ -1,12 +1,12 @@
 ---
-keywords: 実装;実装する
+keywords: implement;implementing
 description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 title: 実装する前に
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ Adobe Target を実装する前に対処すべき考慮事項について説明�
 - [サポートされているブラウザー](supported-browsers.md)
 - [TLS（Transport Layer Security）暗号化の変更](tls-transport-layer-security-encryption.md)
 - [CNAME と Adobe Target](implement-cname-support-in-target.md)
+- [ホワイトリストのターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
