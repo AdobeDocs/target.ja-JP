@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -95,7 +95,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 ![コアエッジサイトおよびエッジサイトのマッピング](assets/edge_network.png)
 
-この画像のソースは、 [Adobe Targetのセキュリティの概要に関するホワイトペーパー](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) です。
+この画像のソースは、『 [Adobeターゲットセキュリティの概要](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 』ホワイトペーパーです。
 
 Adobe Target ソリューションは、世界中のアドビが所有するデータセンターおよびアドビ専用のデータセンターでホストされています。管理サーバーは、ロンドン、シンガポールおよびオレゴンおよびバージニアを含む米国内の複数の場所にある、アドビが所有するデータセンター内で完全にホストされています。エッジサーバーは、Amazon AWSデータセンター（ロンドン、香港特別行政区、シンガポール、東京、シドニー）のアドビ所有およびアドビ専用のサーバーの両方でホストされています。
 
@@ -106,6 +106,8 @@ Adobe Target ソリューションは、世界中のアドビが所有するデ�
 >[!IMPORTANT]
 >
 >[!DNL Adobe Target] は、現在、中国に Edge ネットワークがなく、中国の [!DNL Target] のお客様は、エンドユーザーパフォーマンスが引き続き制限されます。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+
+必要に応じて、ターゲットエッジノートをホワイトリストに登録できます。 詳しくは、ホワイトリストのターゲットエッジノ [ードを参照してくださ](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)い。
 
 ## 保護されたユーザーエクスペリエンス {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -131,7 +133,7 @@ Google はユーザーテストを推奨するとともに、ドキュメンテ�
 詳しくは、次の Google のリソースを参照してください。
 
 * [ウェブテストが Google 検索に与える影響](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [ウェブテストとクローキング](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [ウェブテストとクローキング](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 ガイドラインは[Google ウェブマスター向け公式ブログ](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)の投稿として公表されています。この投稿は 2012 年のものですが、この問題に関する Google からの最新の発言であり、ガイドラインは現在でも通用します。
 
