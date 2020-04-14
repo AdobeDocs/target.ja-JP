@@ -4,7 +4,7 @@ title: Adobe Target 用語集
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ mbox とのセッションにおいて、訪問者がアクティビティの最
 すべての参照ページ URL およびページ URL の変数は、mbox を含むページが訪問者に表示されたびに、自動的に mbox に渡されます。その後で、これらの URL 変数をレポートでの表示のターゲット化やセグメントフィルターに使用できるようになります。
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+1回の訪問は、1回のセッションと呼ばれることもあります。 1回の訪問は、30分間操作が実行されなかった後に終了します。つまり、30分以上の間にサーバー要求がターゲットに送信されます。
 
 **訪問者**
 
