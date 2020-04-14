@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 14 年 4 月 | [ホワイトリストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新規トピックです。 |
 | 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。「導入のベストプラクティス」 |
 | 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性が表示されないのはなぜですか？」のテキストを更新しました。 |
 | 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
