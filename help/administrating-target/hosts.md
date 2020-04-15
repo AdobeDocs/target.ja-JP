@@ -5,16 +5,12 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 # ホスト{#hosts}
-
-サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
-
-## ホスト {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 
