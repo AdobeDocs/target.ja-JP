@@ -4,7 +4,7 @@ description: 最大 5 つの条件のシーケンスを使用して、Recommenda
 title: 条件のシーケンスの作成
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33） !![Tutorial badge](/help/assets/tutorial.png
+## トレーニングビデオ：Recommendations の条件の作成（12:33） チュートリ ![アルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
