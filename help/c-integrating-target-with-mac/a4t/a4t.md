@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -50,7 +50,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * Analytics をレポートソースとして使用する場合、許可される mbox ベースの指標は 1 つのみです。
 * Target から Analytics へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が Analytics に送られます。この統合によって、Target または Analytics に追加のサーバーコールが生じることはありません。
 
-   状況によっては、TargetからAnalyticsへの分類呼び出しが失敗し、アクティビティにAnalyticsのデータが表示されない場合があります。 この問題が発生した場合は、AnalyticsとTarget [の統合のトラブルシューティング(A4T)を参照してください](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 ClientCareにお問い合わせの [場合も](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、ご不明な点があります。
+   状況によっては、分類の呼び出しがターゲットからAnalyticsに失敗し、アクティビティがAnalyticsでデータを表示しない場合があります。 この問題が発生した場合は、Analyticsと [ターゲットの統合のトラブルシューティング(A4T)を参照してくださ](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)い。 ClientCareにお問い合わせの [場合は](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、ご不明な点があります。
 
 ## サポートされているアクティビティのタイプ {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -108,7 +108,7 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Analytics for Target(A4T)(4:32)概要バ ![ッジ](/help/assets/overview.png)
+### ターゲットの分析(A4T)(4:32)概要バ ![ッジ](/help/assets/overview.png)
 
 このビデオでは、最適化プログラムの分析を推進するために Adobe Target で Adobe Analytics をレポートソースとして使用する方法を説明します。
 
@@ -118,7 +118,7 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Targetの統合(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Analytics/ターゲット統合(A4T)(40:33)チュートリアルバ ![ッジ](/help/assets/tutorial.png)
 
 このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
@@ -127,4 +127,4 @@ Adobe Experience League が提供する [Analytics＆Target：分析のベスト
 * Analytics での使用に最適なレポートの詳細
 * A4T に関するよくある質問への回答
 
-[Analytics/Target統合(A4T)の営業時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/ターゲット統合(A4T)の営業時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
