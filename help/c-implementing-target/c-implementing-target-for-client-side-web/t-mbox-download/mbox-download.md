@@ -1,12 +1,12 @@
 ---
-keywords: 実装;Mbox; mbox.js のダウンロード;api のダウンロード;mbox.js api
+keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
 description: Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
 title: mbox.js の実装
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e5948d70eff9a3ec8205eb69591325bd55e37855
 
 ---
 
@@ -19,7 +19,11 @@ Target Standard または Target Premium を使用するには、コードを 1 
 
 >[!NOTE]
 >
->mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>**mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリの機能の更新は提供されていません。 新しいat.jsは、mbox.jsよりも多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
+>
+>すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、アドビが期待する新しい機能とオファーをお客様に提供できます。
 
 各ページの [!DNL mbox.js] への単一の参照は、すべてのアクティビティに必要なライブラリを提供します。[!DNL mbox.js] は、[!DNL mbox.js] ファイルを参照するすべてのページから [!DNL Target] を呼び出します。これにより、[!DNL Target] で次の作業ができるようになります。
 
