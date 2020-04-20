@@ -5,7 +5,7 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 >[!NOTE]
 >
->* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobeターゲットスキルビルダーを参照してください。開発者チャットでは、この件に関する今後の開発者チャットへの登録について、アドビターゲットのmbox* .jsを以下のat.jsに移行してください。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリの機能の更新は提供されていません。 新しいat.jsは、mbox.jsよりも多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
@@ -26,6 +26,14 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Adobeターゲットスキルビルダー：開発者チャット， Adobeターゲットのmbox.jsのat.jsへの移行 {#skill-builder}
+
+アドビターゲットプロダクトマネージャーのDavid Son氏が、mbox.jsをat.jsに移行する利点を説明します。 最新のat.jsの更新を確認し、その機能強化と技術展開のより大きなトレンドとの整合性を確認します。また、mbox.jsからat.jsに移行する際にターゲットから最大限の価値を引き出すための実用的なヒントも紹介します。 アドビのターゲット開発者は、これを見逃したくはありません。
+
+5月5日8:00 ～ 9:00 AM(PDT)
+
+[今すぐ登録！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
 ## ターゲットat.js（2020年3月26日）
 
