@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー：開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
 | 14 年 4 月 | [ホワイトリストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新規トピックです。 |
 | 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。「導入のベストプラクティス」 |
 | 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性が表示されないのはなぜですか？」のテキストを更新しました。 |
