@@ -5,7 +5,7 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020年4月9日**
+**最終更新日：2020年4月21日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 >[!NOTE]
 >
->* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **mbox.jsの廃止**:2020年8月31日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降、mbox.jsからの呼び出しはすべて失敗し、ターゲットアクティビティが実行されているページに影響します。 サイトで発生する可能性のある問題を回避するため、すべてのお客様は、この日より前に最新バージョンのat.jsライブラリに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobeターゲットスキルビルダーを参照してください。開発者チャットでは、この件に関する今後の開発者チャットへの登録について、アドビターゲットのmbox* .jsを以下のat.jsに移行してください。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリの機能の更新は提供されていません。 新しいat.jsは、mbox.jsよりも多くの利点を提供します。 特に、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化し、シングルページアプリケーション向けのより優れた実装オプションを提供します。
@@ -28,6 +28,14 @@ source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
    >   
    すべてのお客様をat.jsに移行することで、アドビのエンジニアおよびサポートスタッフは、アドビが期待する新しい機能とオファーをお客様に提供できます。
 
+
+## Adobeターゲットスキルビルダー：開発者チャット， Adobeターゲットのmbox.jsのat.jsへの移行 {#skill-builder}
+
+アドビターゲットプロダクトマネージャーのDavid Son氏が、mbox.jsをat.jsに移行する利点を説明します。 最新のat.jsの更新を確認し、その機能強化と技術展開のより大きなトレンドとの整合性を確認します。また、mbox.jsからat.jsに移行する際にターゲットから最大限の価値を引き出すための実用的なヒントも紹介します。 アドビのターゲット開発者は、これを見逃したくはありません。
+
+5月5日8:00 ～ 9:00 AM(PDT)
+
+[今すぐ登録！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
 ## Target Standard／Premium 20.4.1（2020 年 4 月 28 日）
 
