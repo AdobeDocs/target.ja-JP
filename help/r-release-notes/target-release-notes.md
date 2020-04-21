@@ -5,7 +5,7 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
 
 ---
 
@@ -49,6 +49,77 @@ source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 * 一部のユーザーがRecommendationsカタログから品目を削除できない問題を修正しました。 （TGT-36455）
 * 複数ページのレコメンデーションで、レコメンデーション条件を保存できない問題を修正しました。アクティビティ （TGT-36249）
 * Recommendationsのアルゴリズムで、拡張期間に「結果を取得中」と表示される表示の問題を修正しました。 （TGT-36550 および TGT-36551）
+
+## プロファイルバッチステータスAPI v2の変更（2020年5月4日）
+
+5月4日のリリースでは、プロファイルバッチステータスは、今後行レベルの失敗データのみを返します（成功データは返されません）。 失敗したプロファイルIDは、今後APIから返されます。
+
+以前と新しいAPIの応答は次のとおりです。
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**現在、応答は次のように表示されます。**
+
+`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**5月4日以降、次の回答が返されます。**
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
