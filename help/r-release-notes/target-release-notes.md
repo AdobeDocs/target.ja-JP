@@ -5,7 +5,7 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -61,12 +61,10 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **現在、応答は次のように表示されます。**
 
-`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
-
 ```
 <response>
  
-    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+    <batchId>samplebatch-1585929692655-59449976</batchId>
  
     <status>complete</status>
  
@@ -104,7 +102,7 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 ```
 <response>
  
-    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+    <batchId>samplebatch-1585929692655-59449976</batchId>
  
     <status>complete</status>
  
