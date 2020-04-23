@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 23 年 4 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）。* |
 | 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー：開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
 | 14 年 4 月 | [ホワイトリストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新規トピックです。 |
