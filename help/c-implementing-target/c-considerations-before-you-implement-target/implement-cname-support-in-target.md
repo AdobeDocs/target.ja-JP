@@ -5,7 +5,7 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -20,9 +20,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. アドビの認証局(DigiCert)は、お客様のドメインで証明書を生成する権限がアドビにあることを確認する必要があります。
 
-   DigiCertはこのプロセス [Domain Control Validation(DCV)を呼び出します](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)。次のDCVメソッドの少なくとも1つに対して、このプロセスが完了するまで、アドビはドメインの証明書を生成できません。
+   DigiCertはこのプロセス [Domain Control Validation(DCV)を呼び出します](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)。次のDCVメソッドの少なくとも1つに対してこのプロセスが完了するまで、アドビはドメインの証明書を生成できません。
 
-   * 最も高速なDCVメソッドは __DNS CNAMEメソッドです__。このメソッドでは、DigiCertのDCVホスト名(dcv.digicert.com)を指すDNS CNAMEレコード（トークンを含む）をドメインに追加します。 このCNAMEレコードは、アドビが証明書の生成を承認されたことをDigiCertに示します。 指示と必要なDNSレコードがAdobe ClientCareから送信されます。 例：
+   * 最も高速なDCVの方法は、DNS CNAME方式です。この方式では、DigiCertのDCVホスト名(`dcv.digicert.com`)を指すDNS CNAMEレコード（トークンを含む）をドメインに追加します。 このCNAMEレコードは、アドビが証明書の生成を承認されたことをDigiCertに示します。 指示と必要なDNSレコードがAdobe ClientCareから送信されます。 例：
 
       ```
       3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
@@ -30,13 +30,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       >[!NOTE]
       >
-      >これらのDCVトークンは30日後に期限切れになり、その時点でAdobe ClientCareから更新されたトークンが提供されます。 CNAMEリクエストの解決に要する最も早い時間に備えて、リクエストを送信する前に、リクエストされたすべてのドメインに対してDNSの変更を行う準備をしてください。
+      >* これらのDCVトークンは30日後に期限切れになり、その時点でAdobe ClientCareから更新されたトークンが提供されます。 CNAMEリクエストの解決に要する最も早い時間を確保するために、リクエストを送信する前に、リクエストされたすべてのドメインに対してDNSの変更を行う準備をしてください。
+         >
+         >
+      * ドメインに [DNS CAAレコードが含まれている場合](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)、まだ追加されていな `digicert.com` い場合は、追加する必要があります。 このDNSレコードは、ドメインの証明書を発行する権限を持つ証明機関を示します。 結果のDNSレコードは次のようになります。 `example.com. IN CAA 0 issue "digicert.com"`. G Suite Toolboxを使用し [て](https://toolbox.googleapps.com/apps/dig/#CAA) 、ルートドメインに既存のCAAレコードが存在するかどうかを確認できます。 DigiCertがCAAレコードを処理する方法について詳しくは、こちらを参照して [くださ](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)い。
 
-      >[!NOTE]
-      >
-      >ドメインに [DNS CAAレコードが含まれている場合](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)、まだ追加されていない場合は、 `digicert.com` 追加する必要があります。 このDNSレコードは、ドメインの証明書を発行する権限を持つ証明機関を示します。 結果のDNSレコードは次のようになります。 `example.com. IN CAA 0 issue "digicert.com"`. G Suiteツールボッ [クスを使用して](https://toolbox.googleapps.com/apps/dig/#CAA) 、ルートドメインに既存のCAAレコードがあるかどうかを確認できます。 DigiCertがCAAレコードを処理する方法について詳しくは、こちらを参照して [くださ](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)い。
 
-   * また、DigiCertは __email__(email)メソッドを試みます。このメソッドでは、ドメインのWHOIS情報に含まれるアドレスと、事前に決められた電子メールアドレス(admin、administrator、webmaster、hostmaster、postmaster `@[domain_name]`)に電子メールを送信します。 See the [DCV methods documentation](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) for more information.
+   * また、DigiCertは、電子メールメソッドを試行します。この電子メールメソッドでは、ドメインのWHOIS情報に含まれるアドレスと、事前に決定された電子メールアドレス(admin、administrator、webmaster、hostmaster、postmaster `@[domain_name]`)に電子メールメッセージを送信します。 See the [DCV methods documentation](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) for more information.
 
       DCV電子メールプロセスを迅速に処理するため、DigiCertは次の推奨を提供します。
 
@@ -58,13 +58,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 次の情報は、でのCNAMEサポートのリクエストと実装に関するよくある質問と回答で [!DNL Target]す。
 
-### 自分の証明書（「自分の証明書を持って来る」、「BYOC」）を提供できますか。 そうならどうする？
+### 自分の証明書（「自分の証明書を持って来る」または「BYOC」）を提供できますか。 そうならどうする？
 
-はい、独自の証明書を提供できますが、お __勧めしません__。 SSL証明書のライフサイクルの管理は、アドビが証明書を購入して管理する際に、アドビとお客様の両方にとって非常に簡単です。 SSL証明書は毎年更新する必要があります。つまり、アドビに新しい証明書を適時に送信するには、Adobe ClientCareから毎年ご連絡いただく必要があります。 一部のお客様は、毎年更新された証明書をタイムリーに作成するのが困難で、証明書の期限が切れると接続を拒否するので、 [!DNL Target] 実装が損なわれる可能性があります。
+はい、独自の証明書を提供できます。ただし、お勧めしません。 SSL証明書のライフサイクルの管理は、アドビとアドビの両方で、証明書の購入や制御を行う場合に非常に簡単です。 SSL証明書は毎年更新される必要があります。つまり、アドビに新しい証明書を適時に送信するには、Adobe ClientCareから毎年お問い合わせいただく必要があります。 証明書の期限が切れるとブラウザーが接続を拒否するので、毎年更新された証明書をタイムリーに作成するのが困難な場合があ [!DNL Target] り、その結果、実装が損なわれる可能性があります。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->独自の証明書のCNAME実装をリクエストする [!DNL Target] 場合は、毎年Adobe ClientCareに新たに証明書を提供する責任があることに注意してください。 アドビが更新された証明書を展開する前にCNAME証明書の有効期限を切れるようにすると、特定の実装が停止し [!DNL Target] ます。
+>独自の証明書を使用するCNAMEの実装を [!DNL Target] リクエストする場合は、毎年Adobe ClientCareに新たに証明書を提供する必要があることに注意してください。 アドビが更新された証明書を展開する前にCNAME証明書の有効期限を切れるようにすると、特定の実装が停止し [!DNL Target] ます。
 
 1. 上記の手順1をスキップし、手順2と3を実行します。 Adobe Client Careチケット（手順3）を開いたら、自分の証明書を提供することをユーザーに知らせます。
 
@@ -82,7 +82,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### どのホスト名を選択すべきか。 ドメインごとにいくつのホスト名を選択する必要がありますか。
 
-[!DNL Target] CNAMEの実装に必要なホスト名は、SSL証明書とお客様のDNSで1つのドメインにつき1つだけなので、お勧めします。 一部のお客様は、独自の目的（例えば、ステージングでのテスト）のために、ドメインごとに追加のホスト名が必要になる場合があります。これはサポートされています。
+[!DNL Target] CNAMEの実装では、SSL証明書とお客様のDNSでドメインごとに1つのホスト名のみが必要なので、お勧めします。 一部のお客様は、独自の目的（例えば、ステージングでのテスト）のために、ドメインごとに追加のホスト名が必要になる場合があります。これはサポートされています。
 
 ほとんどのお客様は、ホスト名のよ `target.example.com`うなホスト名を選択するので、お勧めしますが、最終的にはお客様のホスト名を選択します。 既存のDNSレコードのホスト名を要求しないでください。CNAME要求の解決に要する競合と遅延時間が発生する可能性があ [!DNL Target] ります。
 
@@ -150,4 +150,4 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
 
    >[!NOTE]
    >
-   >このコマンドが正常に実行され `validateEdgeFpsslSni` ない場合は、DNSの更新が完全に反映されるまで待つ必要がある可能性があります。 DNSレコードには [](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) TTL (time-to-live)が関連付けられています。これにより、DNS応答のキャッシュ有効期限が決まるので、TTL以上待つ必要が生じる場合があります。 コマンドまたはG Suiteツ `dig target.example.com` ールボッ [クスを使用して](https://toolbox.googleapps.com/apps/dig/#CNAME) 、特定のTTLを検索できます。
+   >このコマンドが正常に実行され `validateEdgeFpsslSni` ない場合は、DNSの更新が完全に反映されるまで待つ必要がある可能性があります。 DNSレコードには [](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) TTL (time-to-live)が関連付けられています。このTTLは、これらのレコードのDNS応答のキャッシュの有効期限を指示するので、少なくともTTLを待つ必要がある場合があります。 コマンドまたはG Suiteツ `dig target.example.com` ールボ [ックスを使用して](https://toolbox.googleapps.com/apps/dig/#CNAME) 、特定のTTLを検索できます。
