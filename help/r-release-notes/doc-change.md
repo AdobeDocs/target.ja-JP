@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -13,6 +13,12 @@ source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 # ドキュメントの変更点{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.4.1（2020 年 4 月 27 日） 
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 27 年 4 月 | [リリースノート](/help/r-release-notes/release-notes.md)：20.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 20.2.1（2020 年 2 月 20 日） 
 
@@ -71,7 +77,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2020 年 1 月 10 日 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | テキストを更新しました。<br>2020年3月1日以降、アドビターゲットは、Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2020年3月1日までにTLS 1.2にアップグレードしてください。 |
 | 2020年1月6日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | カスタム条件フィードのステータスに関する既知の問題を追加しました。 |
 | 2019年12月20日 | [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.1.0 に関する情報を追加しました。 |
-| 2019年12月13日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
+| 2019年12月12日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
 |  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | トピックの名前を変更し、次の節を追加しました。「自動配分レポートの上昇率と信頼性アクティビティを理解する」 |
 | 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。「ターゲット設定でターゲットはURLをどのように評価しますか？」 |
 | 2019年12月11日 | [ターゲット限界](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
