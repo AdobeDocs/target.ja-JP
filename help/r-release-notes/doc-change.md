@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 28 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を削除しました。 このコマンドは、新しいAWSエッジで動作するようになりました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット標準/プレミアムリリース(20.4.1)の日付を5月6日に変更しました。 |
 | 23 年 4 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）。* |
 | 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー：開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
