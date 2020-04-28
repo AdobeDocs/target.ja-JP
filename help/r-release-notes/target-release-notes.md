@@ -5,7 +5,7 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020年4月25日**
+**最終更新日：2020年4月28日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -37,7 +37,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 [今すぐ登録！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard／Premium 20.4.1（2020 年 4 月 28 日）
+## Target Standard／Premium 20.4.1（2020 年 5 月 6 日）
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
