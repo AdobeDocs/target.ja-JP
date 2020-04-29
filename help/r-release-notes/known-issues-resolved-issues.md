@@ -4,7 +4,7 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 * ターゲットアクティビティは、Analyticsをターゲット(A4T)に使用します。
 * アジア太平洋(APAC)地域にあります。
 
-この問題がお客様のターゲット導入に影響を与えたかどうかを判断するには、 [ClientCareにご連絡ください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+この問題がお客様のターゲットレポートに影響を与えたかどうかを判断するには、 [ClientCareにご連絡くださ](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)い。
 
 ### ページ配信 {#page-delivery}
 
