@@ -3,8 +3,8 @@ keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: このリリースの Adobe Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+translation-type: tm+mt
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### レポートと極端な注文
+
+2019年11月25日から2020年4月26日まで、あるターゲットサーバーで、極端な注文額が売上高ベースのレポート指標(AOV、RPV)でカウントされる問題が発生しました。 2019年12月19日から2020年4月23日まで、別のサーバーでも同じ問題が発生していました。 この問題は、すべてのターゲットサーバーまたはすべてのターゲット顧客に影響しませんでした。
+
+次の場合は影 *響を受* けませんでした。
+
+* お使いのターゲットの実装では、異なるサーバーが使用されています。
+* レポートで極端な注文が除外されませんでした。
+* コンバージョン指標を使用してアクティビティ。
+* ターゲットアクティビティは、Analyticsをターゲット(A4T)に使用します。
+* アジア太平洋(APAC)地域にあります。
+
+この問題がお客様のターゲット導入に影響を与えたかどうかを判断するには、 [ClientCareにご連絡ください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### ページ配信 {#page-delivery}
 
