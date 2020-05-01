@@ -5,7 +5,7 @@ title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -30,7 +30,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 コミュニティフォーラムでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「Target の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。
 
-[ここをクリックして、過去のセッションを見たり、今後のセッションや登録情報の詳細を確認したりします](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
+[過去のセッションを見る場合や、今後のセッションや登録情報の詳細については、ここをクリックしてください](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## アドビカスタマーケアの営業時間 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -43,9 +43,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017<br>年12月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
-| [Adobe Target:Analytics/Targetの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at.js:メリットと実装のベストプラク](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>ティス26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017年12<br>月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
+| [アドビターゲット: Analyticsとターゲットの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
+| [at.js: メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 | ビジネスへの影響 | ビジネスにどのような影響があるかを説明します。例えば、この問題が原因で収益が減少しているか、製品が使用できなくなっているか、実行可能な回避策があるかなどです。 |
 | 期待する内容 | どのような結果を期待するかを説明します。 |
 
-コンテンツ配信の問題については、「コンテンツ配信のトラブルシ [ューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 」を参照して、考えられる解決策とトラブルシューティング情報を確認してください。
+コンテンツ配信に関する問題については、 [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) （英語）を参照してください。
 
 ### 機能停止の場合 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
@@ -97,15 +97,15 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 Adobe Experience Cloud カスタマーケアチームによるサポートを、以下のような様々な手段でご利用いただけます。
 
-* [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/marketing-cloud.html)
+* [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/jp/marketing-cloud.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
 * [サポートからヘルプを取得するには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=Target#support)
-* [カスタマーケアチームに直接連絡](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
 
 今後の製品の機能強化に関する事前通知をご希望の方は、Adobe Priority Product Update にご登録ください。
 
-[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority Product Update](https://adobe.com/subscription/priority-product-update.html)
 
 ### サービス、利用可能な機能、課金 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。Analytics スイートに対する拡張機能のアイデアやご提案については、[Customer Idea Exchange に投稿していただけます](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)（英語のみ）。
+このソリューションに対するご提案やフィードバックをお待ちしております。機能強化のアイデアやご提案は、 [Adobe Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)(ターゲット体験リーグ)に追加できます。 Click the [!UICONTROL Ideas] tab.
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
