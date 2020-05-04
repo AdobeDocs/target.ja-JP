@@ -5,7 +5,7 @@ title: at.js のバージョンの詳細
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -16,46 +16,48 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 >[!IMPORTANT]
 >
->ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのいずれかのメジャーバージョンの最新のアップデートにアップグレードしてください。
+>ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
+>
+>[at.jsをアップグレードするには、Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) が推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launch User Guide』の「](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) Extension Upgrade *」を参照してください*。
 
 ## at.jsバージョン2.3.0（2020年3月26日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* 配信されたセキュリティポリシーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートするターゲットオファー。 お客様は、at.jsが適 `targetGlobalSettings.cspScriptNonce` 用され `targetGlobalSettings.cspStyleNonce` たオファーに対応するスクリプトおよびスタイルタグのnonceを設定できるように、 詳しくは [、targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
-* Google Tag Manager導入用にGoogle Closureコンパイラーを使用してat.jsをコンパイルする際の問題を修正しました。
-* 顧客の実装との競合を避けるため、at.jsチ `check` ェックcookieの `at_check` 名前をからに変更しました。
+* 配信されたターゲットオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートします。 at.jsが適用したオファー `targetGlobalSettings.cspScriptNonce``targetGlobalSettings.cspStyleNonce` に対応するスクリプトおよびスタイルタグのnonceを設定できるように、およびを設定できます。 詳しくは、 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+* Google Tag Manager導入用のGoogle Closureコンパイラーでat.jsをコンパイルする際の問題を修正しました。
+* 顧客の実装との競合を避けるため `check` に、at.jsチェックcookieの名前を `at_check` からに変更しました。
 
 ## at.jsバージョン1.8.1（2020年3月26日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* 顧客の実装との競合を避けるため、at.jsチ `check` ェックcookieの `at_check` 名前をからに変更しました。
+* 顧客の実装との競合を避けるため `check` に、at.jsチェックcookieの名前を `at_check` からに変更しました。
 
 ## at.jsバージョン2.2.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
-* Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲット(A4T)のコンバージョンがAnalyticsでレポートされない問題を修正しました。
+* Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲットのAnalytics(A4T)のコンバージョンがレポートされない問題が修正されました。
 * WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
-* 以前は、at.jsがエクスペリエンスを取得する前に、ECIDが2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
+* 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
    >[!NOTE]
    >
-   >このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードします。
+   >このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードしてください。
 
-* at.jsバージョン2.2には、という新しい設定も用意されていま `serverState`す。 この設定は、ハイブリッド統合の実装時に、ページのパフォーマンスを最適化するためにターゲットできます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはターゲットSDKの両方を使用して、エクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側で取り込まれたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.jsバージョン2.2には、という新しい設定も用意されて `serverState`います。 この設定は、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.jsバージョン1.8.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
 * WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。
-* 以前は、at.jsがエクスペリエンスを取得する前に、ECIDが2回のブロック呼び出しを行いました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
+* 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
 >[!NOTE]
 >
->このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードします。
+>このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードしてください。
 
 ## at.js バージョン 2.1.1（2019 年 7 月 25 日）
 
