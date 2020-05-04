@@ -1,11 +1,11 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates
-description: このページでは、リスト別にAdobeターゲットのドキュメントに対して行われた重要な変更について説明します。
+description: このページでは、リリース順に並べられた、Adobeターゲットドキュメントに対する重要な変更をリストしています。
 title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -18,34 +18,35 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 29 年 4 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 極端な注文を含むレポートの既知の問題を追加。 |
-| 28 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を削除しました。 このコマンドは、新しいAWSエッジで動作するようになりました。 |
+| 4 年 5 月 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新しいFAQを追加しました。 「A/BまたはMVTアクティビティで、エクスペリエンス間のトラフィック分割が不均等なのはなぜですか。」 |
+| 29 年 4 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 極端な注文を含むレポートに関する既知の問題を追加しました。 |
+| 28 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジ `user.header('x-forwarded-for')` を使用してユーザーのIPアドレスを取得する方法に関する情報を削除しました。 このコマンドは、新しいAWSエッジで動作するようになりました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット標準/プレミアムリリース(20.4.1)の日付を5月6日に変更しました。 |
 | 23 年 4 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
-| 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）。* |
-| 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー：開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
+| 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）* |
+| 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー： 開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
 | 14 年 4 月 | [ホワイトリストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新規トピックです。 |
-| 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。「導入のベストプラクティス」 |
-| 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性が表示されないのはなぜですか？」のテキストを更新しました。 |
-| 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジを使用してユ `user.header('x-forwarded-for')` ーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
+| 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。 「導入のベストプラクティス」 |
+| 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性を表示できないのはなぜですか？」のテキストを更新しました。 |
+| 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジ `user.header('x-forwarded-for')` を使用してユーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
 |  | [at.js 1.*x* から at.js 2.*x へのアップグレード&#x200B;*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 以下の注意を追加しました。<ul><li>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。</li></ul> |
-| 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のバージョンのat.jsに影響する既知の問題を追加しました。この問題により、Adobe Analyticsコードがページエレメントに存在しない場合に、Analyticsでのターゲット(A4T)のコンバージョンがクリック追跡でレポートされない問題が発生していました。 |
-|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.jsバージョン2.2.0の詳細に次の情報を追加しました。<ul><li>Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲット用のAnalytics(A4T)のコンバージョンがレポートされない問題を修正しました。</li></ul> |
+| 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のat.jsバージョンに影響する既知の問題を追加しました。この問題により、Adobe Analyticsコードがページ要素に存在しない場合に、クリック追跡でターゲットのコンバージョンがAnalyticsでレポートされませんでした。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.jsバージョン2.2.0の詳細に次の情報を追加しました。<ul><li>Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡で、ターゲット用のAnalytics(A4T)のコンバージョンがレポートされない問題を修正しました。</li></ul> |
 | 3月25日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 次のat.jsの新しいバージョンに関する情報を追加しました。<ul><li>at.jsバージョン2.3.0</li><li>at.jsバージョン1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」セクションに次の新しい行を追加しました。<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>以下の新しいセクションを追加しました。<ul><li>コンテンツセキュリティポリシー</li></ul> |
-| 3月24日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 次の影響に関する情報を追加しました。<ul><li>プロファイルスクリプト（サードパーティIDに基づく）</li><li>iOSデバイスでのQA/プレビューURL</li></ul> |
+| 3月25日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 次の影響に関する情報を追加しました。<ul><li>サードパーティIDに基づくプロファイルスクリプト</li><li>iOSデバイスでのQA/プレビューURL</li></ul> |
 | 3月20日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲット標準/プレミアム20.2.1リリースが2020年3月23日になることを示しました。 |
 | 3月13日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 「アカウントごとに再利用可能なオーディエンス」の数を更新しました。 |
-| 3月12日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md#summit) | オンラインのデジタルサミット会議への無料アクセスの登録情報を追加しました。 |
-| 3月9日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 「IPアドレスの最終オクテットの置き換え」の節に情報を追加しました。 |
-|  | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScriptの複数値パラメ *ーターの渡のコードサンプルを更新しました*。 |
-|  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 複数値の属性の実装の *下の* 「APIの使用 *」*&#x200B;にコードサンプルを追加しました。 |
+| 3月12日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md#summit) | オンラインのデジタルサミット会議に、無料でアクセスできる登録情報を追加しました。 |
+| 3月9日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 詳しくは、「IPアドレスの最終オクテットの置き換え」の節に説明を追加しました。 |
+|  | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScriptの複数値パラメーターの *渡しのコードサンプルを更新しました*。 |
+|  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 複数値の属性の *実装の下のAPIの* 使用 *にコードサンプルを追加しました*。 |
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
-| 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudのナビゲーションに関する情報を追加しました。 |
-| 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 次の設定に関する情報を追加しました。 `pageLoadEnabled` と `viewsEnabled` |
+| 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudナビゲーションに関する情報を追加しました。 |
+| 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 次の設定に関する情報を追加しました。 `pageLoadEnabled` と `viewsEnabled`。 |
 | 2 月 20 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | mbox.jsライブラリの今後の廃止に関する情報を追加しました。 |
-|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1でサポートさ `mboxOverride.browserIp` れていることに注意する必要があります。*x* のみで使用できます。 |
-|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | ターゲットチームがサポートするat.jsのバージョンを説明するテキストを明記しました。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1でサポートさ `mboxOverride.browserIp` れていることに関する注意を追加しました。*x* のみで使用できます。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | ターゲットチームがサポートするat.jsのバージョンを説明するテキストを明確にしました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
@@ -58,98 +59,98 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2020 年 1 月 30 日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | テキストとコードサンプルを更新しました。 新しいコードサンプルでは、Velocityテンプレートの数字の操作方法を示しています。 |
-| 2020年1月28日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲットStandard/Premium 20.1.1リリースのリリース日を変更しました。 リリース日は2020年2月4日になりました。 |
-| 2020年1月27日 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 次の節を追加しました。「アドビのブログ」 |
-|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の情報を追加しました。「バッチ配信APIを使用している場合、バッチリクエストあたり50 mboxが上限です。」 |
+| 2020 年 1 月 30 日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | テキストとコードサンプルを更新しました。 新しいコードサンプルは、Velocityテンプレートでの数値の操作方法を示しています。 |
+| 2020年1月28日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット標準/プレミアム20.1.1リリースのリリース日を変更しました。 リリース日は2020年2月4日になりました。 |
+| 2020年1月27日 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 次の節を追加しました。 「アドビのブログ」 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の情報を追加しました。 バッチ配信APIを使用している場合、バッチリクエストあたり50 mboxが上限です。」 |
 |  | [リソースと連絡先情報](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | サポートチケットを開くためのリンクを更新しました。 |
 |  | [自動ターゲット概要レポート](/help/c-reports/auto-target-summary-report.md) | テキストと画像が更新されました。 |
-| 2020年1月23日 | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 推奨結果を決定する際にアドビのターゲットのサンプルサイズ計算ツールを使用する際の注意を追加しました。 |
-|  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2を使用している場合について説明する注記を追加しました。*x*、はサ `mboxCreate` ポートされなくなりました。 at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す場合。*x*、を使用 `targetPageParams`。 |
-| 2020 年 1 月 23 日 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次のFAQを更新しました。「自動配分を使用する場合、サンプルサイズ計算ツールを使用して、アクティビティが勝者を識別するのに要する時間を見積もることはできますか？」 |
-| 2020年1月15日 | [ブラウザーで混合コンテンツを有効にする](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 最新バージョンのChromeで混合コンテンツを許可するためのサイト設定の更新方法を説明するトレーニングビデオと手順を追加しました。 |
-|  | [フィード](/help/c-recommendations/c-products/feeds.md) | エンティティとエンティティ属性のアップロードと削除に関する注意を追加しました。 |
-|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。Recommendationsのコンテンツトレースで返されるNO_CONTENT応答は何を意味しますか。 |
+| 2020年1月23日 | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 推奨結果を決定する際にAdobeターゲットのサンプルサイズ計算ツールを使用するための注意を追加しました。 |
+|  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2を使用している場合を説明する注記を追加しました。*x*、 `mboxCreate` はサポートされなくなりました。 at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す場合。*x*、を使用し `targetPageParams`ます。 |
+| 2020 年 1 月 23 日 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次のFAQを更新しました。 「自動配分を使用する場合、サンプルサイズ計算ツールを使用して、アクティビティが勝者を特定するのにかかる時間を予測できますか？」 |
+| 2020年1月15日 | [ブラウザーで混合コンテンツを有効にする](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 最新バージョンのChromeで混在コンテンツを許可するためのサイト設定の更新方法を説明するトレーニングビデオと手順が追加されました。 |
+|  | [フィード](/help/c-recommendations/c-products/feeds.md) | エンティティとエンティティ属性のアップロードおよび削除に関する注意を追加しました。 |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。 Recommendationsコンテンツトレースで返されるNO_CONTENT応答は何を意味しますか。 |
 |  | [注文の確認 mbox の作成 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | at.js 2を使用して注文確認を実行する方法を説明する注記を追加しました。*x*. |
-| 2020 年 1 月 10 日 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | テキストを更新しました。<br>2020年3月1日以降、アドビターゲットは、Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、アクティビティ配信、APIなどのTLS 1.1暗号化をサポートしなくなります。 問題が発生しないように、2020年3月1日までにTLS 1.2にアップグレードしてください。 |
+| 2020 年 1 月 10 日 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | テキストを更新しました。<br>2020年3月1日以降、アドビターゲットは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどに対するTLS 1.1暗号化をサポートしなくなります。 問題を回避するため、2020年3月1日までにTLS 1.2にアップグレードしてください。 |
 | 2020年1月6日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | カスタム条件フィードのステータスに関する既知の問題を追加しました。 |
 | 2019年12月20日 | [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.1.0 に関する情報を追加しました。 |
 | 2019年12月13日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | FAQの節を更新しました。 |
-|  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | トピックの名前を変更し、次の節を追加しました。「自動配分レポートの上昇率と信頼性アクティビティを理解する」 |
-| 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。「ターゲット設定でターゲットはURLをどのように評価しますか？」 |
-| 2019年12月11日 | [ターゲット限界](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
+|  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | トピック名を変更し、次の節を追加しました。 「自動配分アクティビティの上昇率と信頼性のレポートを理解します。」 |
+| 2019 年 12 月 12 日 | [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。 &quot;ターゲットはターゲット設定でURLをどのように評価しますか？&quot; |
+| 2019年12月11日 | [ターゲット制限](/help/r-troubleshooting-target/target-limits.md) | mboxパラメーターの節を更新しました。 |
 |  | [条件](/help/c-recommendations/c-algorithms/algorithms.md) | 条件の使用機能のサポートに関する注意を追加しました。 |
 | 2019 年 12 月 6 日 | [サイトのページ](/help/c-target/c-audiences/c-target-rules/site-pages.md) | トピックを更新しました。 |
-| 2019年12月2日 | [Use Location Service](/help/c-target-mobile-app/use-location-service.md) | 新規トピックです。 |
-| 2019年11月27日 | [at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 「at.jsを非同期で読み込む場合のちらつきの管理」のテキストを更新しました。 |
-|  | [ターゲットInsiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | 2019年11月のニュースレターへのリンクを追加しました。 |
+| 2019年12月3日 | [ロケーションサービスを使用](/help/c-target-mobile-app/use-location-service.md) | 新規トピックです。 |
+| 2019年11月27日 | [at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 「at.jsを非同期的に読み込む場合のちらつきの管理」のテキストを更新しました。 |
+|  | [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md) | 2019年11月のニュースレターへのリンクを追加しました。 |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 「役割と権限の指定」の下のテキストと画像を更新しました。 |
-| 2019 年 11 月 16 日 | [10件の一般的なA/Bテストの落とし穴とそれらの回避方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 「落とし穴7:テスト期間中のトラフィック配分の変更」を参照してください。 |
+| 2019 年 11 月 16 日 | [10件の一般的なA/Bテストの落とし穴とその回避方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 「Pitfall 7: テスト期間中にトラフィック配分を変更する」というエラーが発生しました。 |
 | 2019年11月12日 | [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | バージョン 1.0.1 に関する情報を追加しました。 |
 |  | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
-|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 郵便番号などの地域情 [!DNL Target] 報を保存しないことを説明する情報を追加しました。 |
-| 2019 年 11 月 9 日 | [ターゲットInsiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | その他の過去の問題へのリンクを追加しました。 |
-|  | [プライバシーとデータ保護規制](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPAの節を新しいメモで更新しました。<br>ターゲットがターゲットからサードパーティに直接データを共有または販売できないので、ターゲットを目的とした販売が行われないことを顧客に知らせる新しいFAQを追加しオプトアウトました。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 郵便番号など、地域情報 [!DNL Target] を格納しないことを説明する情報を追加しました。 |
+| 2019 年 11 月 9 日 | [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md) | その他の過去の問題へのリンクを追加しました。 |
+|  | [プライバシーとデータ保護規制](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPAの節を新しい注意で更新しました。<br>ターゲットがターゲットからサードパーティに直接データを共有または販売できないので、ターゲット用の販売が行われないという新しいFAQを追加しました。 |
 | 2019 年 11 月 8 日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | adobeQAパラメーターのコードサンプルを追加しました。 |
 | 2019 年 11 月 6 日 | [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 「トラブルシューティング」の節のテキストを更新しました。 |
-| 2019年11月5日 | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のFAQのテキストを更新しました。&quot;セレクターが見つからないアクションなどの警告メッセージが表示されるのはなぜですか？&quot; |
+| 2019年11月5日 | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 次のFAQのテキストを更新しました。 &quot;セレクターが見つからないアクションなどの警告メッセージが表示されるのはなぜですか？&quot; |
 | 2019年10月31日 | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新規トピックです。 |
 |  | [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新規トピックです。 |
-|  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 次の節を追加しました。「at.js 1。*オーディエンス* 作成用のxパラメーターは、at.js 2ではサポートされていません。*x*?&quot; |
-|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | テンプレートルールに追加された余分なスペースに関する既知の問題を新たに追加しました。 |
-|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットPremium 19.10.2リリースとターゲットJava SDKリリースに関する情報を追加しました。 |
-| 2019年10月31日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後予定されているターゲットプレミアム19.10.2（2019年10月31日）リリースに関する情報を追加しました。 |
+|  | [at.js 1.x から at.js 2.x へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 次の節を追加しました。 「at.js 1。*オーディエンス作成用のx* パラメーターは、at.js 2ではサポートされていません。*x*?&quot; |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | テンプレートルールに余分なスペースが追加されるという新しい既知の問題を追加しました。 |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットプレミアム19.10.2リリースとターゲットJava SDKリリースに関する情報を追加しました。 |
+| 2019年10月31日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のターゲットプレミアム19.10.2（2019年10月31日）リリースに関する情報を追加しました。 |
 | 2019年10月29日 | [コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | メモを追加しました。 |
-|  | [プレビューしてRecommendationsアクティビティ](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新規トピックです。 |
-| 2019年10月26日 | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 「考慮事項」に新しい項目を追加し、ターゲット設定が内部mboxパラメーターで評価されないことを説明しました。 |
+|  | [プレビューしてRecommendationsアクティビティを起動する](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新規トピックです。 |
+| 2019年10月26日 | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 「考慮事項」に新しい項目を追加し、ターゲティングが内部mboxパラメーターで評価されないことを説明しました。 |
 |  | [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | トピックを完全に更新し、古い例を削除しました。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）で使用可能なタイプを理解するのに役立つ、ターゲット配信APIドキュメントへのメモのリンクを追加しました。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）で使用可能なタイプを理解するのに役立つ、ターゲット配信APIドキュメントへのメモのリンクを追加しました。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するために、ターゲット配信APIドキュメントへのメモのリンクを追加しました。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | リクエスト/応答（配列、文字列など）に使用できるタイプを理解するために、ターゲット配信APIドキュメントへのメモのリンクを追加しました。 |
 |  | [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 「トラブルシューティング」節を追加しました。 |
-| 2019 年 10 月 25 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 次のFAQのテキストを更新しました。「なぜターゲットがレコメンデーションを表示できないことがあるのですか？」 |
-|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 以前のバージョンのat.js（バージョン2.2.0より前）に影響する既知の問題に注意を追加しました。 |
+| 2019 年 10 月 25 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 次のFAQのテキストを更新しました。 「ターゲットがレコメンデーションを表示できないことがあるのはなぜですか？」 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 既知の問題に、at.jsの以前のバージョン（バージョン2.2.0より前）に影響する注意を追加しました。 |
 |  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | A4Tを使用するアクティビティの成功指標のデフォルト動作に関する注意を追加しました。 |
 | 2019 年 10 月 23 日 | [条件／アルゴリズム](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | ユーザーベースのレコメンデーションの行を追加しました。 |
-|  | [条件](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 次の節を追加しました。「カスタムレコメンデーションキーの使用」 |
-|  | [ターゲットとオーディエンスFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。&quot;複雑なURL文字列を作成する場合、URL [!DNL Target] 全体が評価されますか？&quot; |
+|  | [条件](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 次の節を追加しました。 「カスタムレコメンデーションキーの使用」 |
+|  | [ターゲットとオーディエンスのFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新しいFAQを追加しました。 &quot;複雑なURL文字列を作成する場合、URL全体が [!DNL Target] 評価されますか？&quot; |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：19.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobeターゲット/Standard/Premium 19.9.1（2019年9月31日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019年10月18日 | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | サードパーティcookieとのアクティビティQAの連携方法を説明するトピックを更新しました。 |
+| 2019年10月18日 | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | サードパーティcookieに対するアクティビティQAの動作を説明するトピックを更新しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | リリースノートを更新し、統合シェルの変更に関する情報を含めました。 |
-| 2019 年 10 月 11 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 次の節を追加しました。&quot;serverState.&quot; |
+| 2019 年 10 月 11 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 次の節を追加しました。 &quot;serverState.&quot; |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2およびat.js 1.8リリースに関する情報を追加しました。 |
-|  | [アクティビティのトラブルシューティング](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 次の節を追加しました。「ターゲットUIを使用してアクティビティを作成しましたが、APIを使用して更新できません。」 |
+|  | [アクティビティのトラブルシューティング](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 次の節を追加しました。 「ターゲットUIを使用してアクティビティを作成しましたが、APIを使用して更新できません。」 |
 | 2019 年 10 月 10 日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | トピックを更新しました。 |
 |  | [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新規トピックです。 |
 |  | [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新規トピックです。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | V1/配信APIとNode.js SDKのリリースに関する情報を追加しました。 |
-| 2019 年 10 月 9 日 | [ターゲットInsiderニュースレター](/help/r-release-notes/target-insider-newsletter.md) | ニュースレターの最初のバッチへのリンクを含む新しいトピックです。その他の情報も含まれます。 |
+| 2019 年 10 月 9 日 | [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md) | ニュースレターの最初のバッチへのリンクが記載された新しいトピックと、今後追加される予定です。 |
 | 2019 年 10 月 1 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の内容を追加しました。 <ul><li>at.js 2を使用して変更を加えないでエクスペリエンスを作成する場合の既知の問題と回避策です。*x* library.</li><li>API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスに表示されず、API でのみ編集できます。</li><li>API で作成された Recommendations アクティビティはユーザーインターフェイスで確認できますが、API からのみ編集できます。</li></ul> |
 |  | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 「mboxDebug」節に注意を追加しました。 |
 | 2029 年 10 月 3 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後のリリースに関する情報を追加しました。 |
-| 2019年10月1日 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「顧客属性」セクションのテキストを更新しました。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 「すべてのオファーに対するgetOffers()の呼び出し」セクションのコードサンプルを更新しました。表示を参照してください。 |
+| 2019年10月1日 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「顧客属性」の節のテキストを更新しました。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 「すべての表示に対するgetOffers()の呼び出し」セクションのコードサンプルを更新しました。 |
 | 2019年9月31日 | [リリースノート](/help/r-release-notes/release-notes.md)：19.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 19.7.1（2019 年 7 月 24 日） {#tgt-19-7-1}
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | サンプルサイズ計算ツールのターゲットに関するテキストを更新しました。 |
-|  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | サンプルサイズ計算ツールのターゲットに関するテキストを更新しました。 |
-| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット/標準19.2.1リリースの日付を2019年9月31日に変更しました。 |
+| 2019 年 9 月 28 日 | [A/B テストを実行すべき期間はどのくらいですか？](/help/c-activities/t-test-ab/sample-size-determination.md) | ターゲットサンプルサイズ計算ツールに関するテキストを更新しました。 |
+|  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ターゲットサンプルサイズ計算ツールに関するテキストを更新しました。 |
+| 2019年9月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット/Standard 19.2.1リリースの日付を2019年9月30日に変更しました。 |
 |  | [オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | トレーニングビデオを追加しました。 |
-| 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Standard/Premium 19.9.1リリースに関する情報を追加しました。 |
-| 2019年9月9日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 「考慮事項」節を追加しました。 |
+| 2019 年 9 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲット標準/プレミアム19.9.1リリースに関する情報を追加しました。 |
+| 2019年9月10日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 「考慮事項」節を追加しました。 |
 |  | [Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | トピック全体のテキストを更新しました。 |
 |  | [コンテンツセキュリティポリシー(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新規トピックです。 |
-| 2019年9月6日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット標準/プレミアム19.9.1（2019年9月10日）リリースに関する情報を追加しました。 |
-|  | [ターゲットとモバイルアプリのFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
+| 2019年9月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | ターゲット標準/プレミアム19.9.1（2019年9月10日）リリースに関する情報を追加しました。 |
+|  | [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新規トピックです。 |
 | 2019 年 9 月 5 日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 2019 年 8 月 24 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | `AndroidManifest.xml` のコードスニペットを更新しました。 |
 |  | [カスタムパラメーター](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新しい節「注意点」を追加しました。 |
