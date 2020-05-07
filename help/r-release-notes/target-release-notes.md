@@ -5,7 +5,10 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 >[!NOTE]
 >
->* **mbox.jsの提供終了**: 2020年8月30日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobeターゲットスキルビルダーを参照してください。 開発者チャットでは、次回の開発者チャットへの登録について詳しくは、アドビターゲットのmbox.jsをat.js* に移行してください。
+>* **mbox.jsの提供終了**: 2020年8月30日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobeターゲットスキルビルダーを参照してください。 開発者向けチャットで、アドビターゲットのmbox.jsを次のat.js* に移行してください。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
@@ -31,11 +34,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ## Adobeターゲットスキルビルダー： 開発者チャット，アドビターゲットのmbox.jsをat.jsに移行 {#skill-builder}
 
-アドビターゲット製品マネージャーのDavid Son氏が、mbox.jsをat.jsに移行する利点を説明します。 最新のat.jsの更新情報を確認し、その機能強化と、技術概要の大きなトレンドとの整合性を確認します。また、mbox.jsからat.jsに移行する際に、ターゲットから最大限の価値を引き出すための実用的なヒントも紹介します。 アドビのターゲット開発者は、この機能を見逃したくありません。
-
-5月5日火曜日8:00 ～ 9:00 AM(PDT)
-
-[今すぐ登録！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+2020年8月30日にmbox.jsの廃止が予定されているので、アドビターゲット製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target Standard／Premium 20.4.1（2020 年 5 月 6 日）
 
