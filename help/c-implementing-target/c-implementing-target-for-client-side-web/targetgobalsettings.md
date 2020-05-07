@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 | 設定 | タイプ | デフォルト値 | 説明 |
 |--- |--- |--- |--- |
-| serverState | 以下の「serverState」を参照してください。 | 以下の「serverState」を参照してください。 | 以下の「serverState」を参照してください。 |
+| serverState | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 |
 | clientCode | 文字列 | UI から設定された値 | クライアントコードを表します。 |
 | serverDomain | 文字列 | UI から設定された値 | Target エッジサーバーを表します。 |
 | cookieDomain | 文字列 | 可能であればトップレベルドメインに設定 | Cookie の保存時に使用するドメインを表します。 |
@@ -30,22 +33,22 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 | timeout | 数値 | UI から設定された値 | Target エッジリクエストのタイムアウト |
 | globalMboxAutoCreate | ブール値 | UI から設定された値 | グローバル mbox リクエストを実行するかどうかを示します。 |
 | visitorApiTimeout | 数値 | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
-| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するTarget要求と、エクスペリエンスをレンダリングするDOM操作が自動的に実行されます。 さらに、Target呼び出しは/を使用して手動で実行で `getOffer(s)` きます。 `applyOffer(s)`<br>無効にすると、Target要求は自動でも手動でも実行されません。 |
+| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するためのターゲット要求と、エクスペリエンスをレンダリングするためのDOM操作が自動的に実行されます。 さらに、 `getOffer(s)``applyOffer(s)`<br>/を使用してターゲット呼び出しを手動で実行できます。無効にした場合、ターゲット要求は自動でも手動でも実行されません |
 | pageLoadEnabled | ブール値 | true | 有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します |
-| viewsEnabled | ブール値 | true | 有効にすると、ページの読み込み時に返す必要のあるビューを自動的に取得します。 ビューはat.js 2でサポートされています。*xのみ* |
+| viewsEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要のある表示を自動的に取得します。 表示はat.js 2でサポートされています。*x* のみ |
 | defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
 | defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
 | bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
 | bodyHidingEnabled | ブール値 | true | Visual Experience Composer で作成されたオファー（ビジュアルオファー）の配信に `target-global-mbox` が使用されている場合に、ちらつきの制御に使用します。 |
 | imsOrgId | 文字列 | IMS ORG ID | IMS ORG ID を表します。 |
 | secureOnly | ブール値 | false | at.js で HTTPS のみを使用するか、ページのプロトコルに基づいて HTTP と HTTPS との切り替えを許可するかを示します。 |
-| overrideMboxEdgeServer | ブール値 | true（at.js バージョン 1.6.2 以降） | `<clientCode>.tt.omtrdc.net` ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。<br>この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは cookie に保存されます。 |
+| overrideMboxEdgeServer | ブール値 | true（at.js バージョン 1.6.2 以降） | `<clientCode>.tt.omtrdc.net` ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。<br>この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは cookie に保存されます。 現在、 [CNAMEは使用できません](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | 数値 | 1860000 => 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
 | optoutEnabled | ブール値 | false | Target が訪問者 API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。これは、デバイスグラフ有効化の一部です。 |
 | selectorsPollingTimeout | 数値 | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
 | dataProviders | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 |
-| cspScriptNonce | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 |
-| cspStyleNonce | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 | 以下の「コンテンツセキュリティポリシー」を参照してください。 |
+| cspScriptNonce | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 |
+| cspStyleNonce | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 |
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -73,8 +76,8 @@ window.targetGlobalSettings = {
 
 | ビデオ | 説明 |
 |--- |--- |
-| [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | データプロバイダーは、サードパーティから Target へデータを簡単に渡すことのできる機能です。サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。 |
-| [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | サードパーティデータプロバイダーからデータを回収し Target リクエストで渡す、Adobe Target のデータプロバイダー機能の使用方法の実装詳細と例。 |
+| [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-feature-video-use.html) | データプロバイダーは、サードパーティから Target へデータを簡単に渡すことのできる機能です。サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。 |
+| [Adobe Target でのデータプロバイダーの実装](（https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html）) | サードパーティデータプロバイダーからデータを回収し Target リクエストで渡す、Adobe Target のデータプロバイダー機能の使用方法の実装詳細と例。 |
 
 `window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
 
@@ -180,9 +183,9 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0以降では、配信されたTargetオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
+at.js 2.3.0以降では、配信されたターゲットオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
-at.js 2.3.0以降の読み込みの前に、SCRIPT `targetGlobalSettings.cspScriptNonce` とSTYLE `targetGlobalSettings.cspStyleNonce` のnoncesを、それに対応して設定する必要があります。 以下の例を参照してください。
+at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
 
 ```
 ...
@@ -199,22 +202,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-との設 `cspScriptNonce` 定を `cspStyleNonce` 指定すると、at.js 2.3.0以降では、Targetオファーの適用時にDOMに追加されるすべてのスクリプトタグとSTYLEタグに対して、これらの属性がnonce属性として設定されます。
+と設定 `cspScriptNonce``cspStyleNonce` を指定した後、at.js 2.3.0以降では、ターゲットオファーを適用する際にDOMに追加するすべてのSCRIPTタグとSTYLEタグに、これらの属性をnonce属性として設定します。
 
-## serverState {#server-state}
+## ハイブリッドパーソナライゼーション {#server-state}
 
-`serverState` は、at.js v2.2以降で利用できる設定で、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTarget SDKの両方を使用してエクスペリエンスを配信することです。 `serverState` では、at.js v2.2以降で、サーバー側で取り込まれたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
+`serverState` は、at.js v2.2以降で利用できる設定です。ターゲットのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
 
 ### 前提条件
 
-のハイブリッド統合が必要です [!DNL Target]。
+のハイブリッド統合が必要で [!DNL Target]す。
 
-* **サーバー側**: 新しい配信APIまたは [Target SDKを使用する](https://developers.adobetarget.com/api/delivery-api/) 必要 [があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **クライアント側**:at.jsバージ [ョン2.2以降を使用する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **サーバー側**:  新しい [配信API](https://developers.adobetarget.com/api/delivery-api/) または [ターゲットSDKを使用する必要があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **クライアント側**: at.jsバージョン2.2以降 [を使用する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### コードサンプル
 
-この仕組みをよりよく理解するために、お使いのサーバーで使用する以下のコード例を参照してください。 このコードは、 [Target Node.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -244,7 +247,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-ビュープリフェッチの `serverState` サンプルオブジェクトJSONは、次のようになります。
+表示プリフェッチ用のサンプル `serverState` オブジェクトJSONは次のとおりです。
 
 ```
 {
@@ -315,30 +318,30 @@ const PAGE_TEMPLATE = `
 }
 ```
 
-ページがブラウザーに読み込まれた後、at.jsは、エッジに対してネットワーク呼び出しを実 [!DNL Target] 行することなく、す `serverState` べてのオファーを即座に適用 [!DNL Target] します。 また、at.jsは、サーバー側で取り込んだコンテンツでオファーが使用可能なDOM要素のみを事前に表示するので、ページ読み込みのパフォーマンスとエンドユーザーの操作性にプラスの影響を与えます。 [!DNL Target]
+ページがブラウザーに読み込まれた後、at.jsは、 [!DNL Target] エッジに対するネットワーク呼び出しを実行せずに、すべての `serverState` オファー [!DNL Target] を即座に適用します。 また、at.jsは、サーバーサイドで取得したコンテンツで [!DNL Target] オファーが使用可能なDOM要素のみを事前に非表示にし、ページ読み込みのパフォーマンスとエンドユーザーの操作性にプラスの影響を与えます。
 
 ### 重要な注意事項
 
 Consider the following when using `serverState`:
 
-* 現時点で、at.js v2.2は、次の目的でのserverState経由のエクスペリエンスの配信のみをサポートしています。
+* 現時点で、at.js v2.2は、次のエクスペリエンスをserverState経由でのみ配信できます。
 
    * ページの読み込み時に実行されるVECで作成されたアクティビティ。
-   * 事前に取り込まれたビュー。
+   * 事前に取得された表示。
 
-      ビューを使用する [!DNL Target] SPAおよび `triggerView()``triggerView()`at.js APIの場合、at.js v2.2は、サーバー側で事前に取得されたすべてのビューのコンテンツをキャッシュし、各ビューがトリガーされ次第、Targetに対する追加のコンテンツ取得呼び出しを実行せずに適用します。
+      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、ターゲットへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
 
-   * **注意**: 現在、サーバー側で取得されたmboxはではサポートされていませ `serverState`ん。
+   * **注意**:  現在、サーバー側で取得されたmboxは、ではサポートされていません `serverState`。
 
-* オファー `serverState `を適用する場合、at.jsは、設 `pageLoadEnabled` 定を考慮しま `viewsEnabled` す(例：設定がfalseの場合、ページ読み込みオファーは適用さ `pageLoadEnabled` れません)。
+* `serverState `オファーを適用する場合、at.jsでは、 `pageLoadEnabled` 設定(例：設定がfalseの場合、ページ読み込みオファーは適用されません)を考慮 `viewsEnabled``pageLoadEnabled` します。
 
-   これらの設定をオンにするには、 **[UICONTROLの設定/実装/設定を編集/ページ読み込み有効に切り替えます]**。
+   これらの設定をオンにするには、 **[UICONTROL設定/実装/設定を編集/ページ読み込み有効に切り替え]**&#x200B;ます。
 
-   ![ページ読み込みが有効な設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![ページ型設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### その他のリソース
 
-機能の詳細については、 `serverState` 次のリソースを参照してください。
+機能の詳細については、次のリソースを参照し `serverState` てください。
 
 * [サンプルコード](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [シングルページアプリ(SPA)サンプルアプリを使用しま `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)す。
+* [単一ページアプリ(SPA)サンプルアプリを使用 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)します。
