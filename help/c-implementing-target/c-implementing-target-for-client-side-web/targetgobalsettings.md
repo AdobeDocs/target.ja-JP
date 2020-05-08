@@ -77,7 +77,7 @@ window.targetGlobalSettings = {
 | ビデオ | 説明 |
 |--- |--- |
 | [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-feature-video-use.html) | データプロバイダーは、サードパーティから Target へデータを簡単に渡すことのできる機能です。サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。 |
-| [Adobe Target でのデータプロバイダーの実装](（https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html）) | サードパーティデータプロバイダーからデータを回収し Target リクエストで渡す、Adobe Target のデータプロバイダー機能の使用方法の実装詳細と例。 |
+| [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html) | サードパーティデータプロバイダーからデータを回収し Target リクエストで渡す、Adobe Target のデータプロバイダー機能の使用方法の実装詳細と例。 |
 
 `window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
 
