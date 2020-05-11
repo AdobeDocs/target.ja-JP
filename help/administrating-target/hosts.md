@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 96%
 
 ---
 
@@ -120,6 +123,8 @@ Target では、mbox を送受信できるホストを制限しないため、�
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 権限のないホストで mbox が呼び出されると、応答は `/* no display - unauthorized mbox host */` になります。
+
+のubox機能を使用する場合 [!DNL Target]、このホワイトリストは、リダイレクターがナビゲートできるドメインのリストも制御することに注意して [ください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 ホワイトリストに指定がない場合、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
 
 ホワイトリストは環境に優先して適用されます。ホワイトリスト機能を使用する前にすべてのホストをクリアしてください。そうすると、ホワイトリストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
 
