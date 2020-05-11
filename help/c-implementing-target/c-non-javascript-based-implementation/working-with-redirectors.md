@@ -1,12 +1,15 @@
 ---
-keywords: 実装;mbox.js 非 JavaScript;リダイレクター;クリックあたりのコスト;クリックあたりの売上高
+keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: リダイレクターは、テストで mbox を使用する場合と同様に使用します。
 title: リダイレクターの使用
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 78%
 
 ---
 
@@ -49,15 +52,18 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
       * **mbox.js**： クライアントコードは、「[!UICONTROL セットアップ」／「実装」／「mbox.js 設定を編集」ページの最上部にあります。]
    * `redirectorlink_456` は、キャンペーンおよびテストで使用するためにアカウントで表示するリダイレクター mbox の名前です。
 
-      リダイレクターの機能は他の mbox とは異なりますが、他の mbox と同様にアカウントで表示されます。アカウント内の標準タイプの mbox と区別しやすいようなリダイレクターの名前を指定してください。mbox の名前には、'redirectorlink' を先頭に付けることをお勧めします。
+      リダイレクターの機能は他の mbox とは異なりますが、他の mbox と同様にアカウントで表示されます。アカウント内の標準タイプの mbox と区別しやすいようなリダイレクターの名前を指定してください。mbox の名前には、&#39;redirectorlink&#39; を先頭に付けることをお勧めします。
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` はデフォルトの宛先です。
+
+      リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。
 
       URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
 1. リダイレクターを検証します。
+   1. 上記に示すように、リダイレクターで使用するドメインがホワイトリストに登録されていることを確認します。 ホワイトリストに登録されていないドメインを使用する場合、アドビは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
    1. リダイレクターの URL をブラウザーに挿入して表示を更新します。
    1. アカウントにログインし、mbox のリストを更新して、新しいリダイレクターが mbox として表示されることを確認します。
 1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
@@ -76,7 +82,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. あらゆる環境のすべてのタイプのブラウザーで、エクスペリエンス、デフォルトコンテンツおよびレポートがすべて期待どおりに機能することを確認します。
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE] {class=&quot;- topic/note &quot;}
    >
    >* リダイレクターは、オファープレビューまたは mbox の閲覧ではサポートされていません。ブラウザーで直接エクスペリエンスのプレビューを確認してください。
    >* `mboxDebug` はリダイレクターでは機能しません。
