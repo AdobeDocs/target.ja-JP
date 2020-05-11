@@ -5,7 +5,7 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 93%
