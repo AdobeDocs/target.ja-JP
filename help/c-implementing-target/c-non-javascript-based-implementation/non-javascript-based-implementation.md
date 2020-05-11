@@ -1,12 +1,15 @@
 ---
-keywords: 実装;mbox.js 非 JavaScript;adbox;リダイレクター;mbox
+keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
 title: 電子メール：Target の実装
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
@@ -33,4 +36,4 @@ adbox 広告およびリダイレクターは、あらゆるアクティビテ�
 * adbox 自体でファーストパーティ Cookie を使用するには、URL で mbox セッションを渡す必要があります。この方法について詳しくは、アカウント担当者にお問い合わせください。
 * ファーストパーティ Cookie を使用して広告クリックを追跡するには、URL で mbox セッションを渡します。この方法について詳しくは、アカウント担当者にお問い合わせください。
 * 同じページで複数の adbox を使用するには、URL で mbox セッションを渡す必要があります。この方法について詳しくは、アカウント担当者にお問い合わせください。同じページで使用できるのは、1 つの adbox と 1 つのリダイレクターリンクです（リダイレクターは実際には 2 番目のページにあります）。
-
+* リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。
