@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7548'
+source-wordcount: '7601'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11 年 5 月 | [ホスト](/help/administrating-target/hosts.md) | リダイレクトおよびホワイトリストでのubox機能の使用に関する情報を追加しました。 |
+|  | [リダイレクターの使用](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
+|  | [Recommendations と電子メールの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
+|  | [電子メール：Target の実装](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
 | 7 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 2020年8月30日にmbox.jsの廃止が予定されているので、アドビターゲット製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 ウェビナーを今後30日間視聴できるリンクがあります。 |
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 「考慮事項」節を更新しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」の下の「overrideMboxEdgeServer」行を更新しました。 |
