@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 78%
+source-wordcount: '680'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 
 適切な設定の判断方法については、[JavaScript ベース以外の実装](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## リダイレクターの作成 {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 リダイレクターを使用するには、まずリダイレクターを作成する必要があります。
 
@@ -56,7 +56,7 @@ ht-degree: 78%
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` はデフォルトの宛先です。
 
-      リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。
+      リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、 [ホワイトリストの](/help/administrating-target/hosts.md#whitelist) 作成を参照してください。ホワイトリストは、Hosts **&#x200B;内のターゲットにmbox呼び出しを送信する権限のあるホストを指定します。
 
       URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -90,7 +90,7 @@ ht-degree: 78%
 
 1. リダイレクターの完全な URL をディスプレイ広告ネットワークに広告の表示先として送信します。
 
-## リダイレクターを使用してクリックあたりのコストとクリックあたりの売上高を渡す {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 リダイレクターを使用してクリックあたりのコストとクリックあたりの売上高を渡す方法について説明します。
 
