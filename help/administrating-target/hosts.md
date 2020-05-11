@@ -5,10 +5,10 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 
 ![](assets/hosts_list.png)
 
-## ホストの認識 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 [!DNL Target] がホストを認識し、これをホストのリストに追加するために満たす必要のある条件に関する情報を紹介します。
 
@@ -63,7 +63,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 >
 >実稼動環境は、名前を変更した場合でも削除できません。この環境で、最終的なアクティブなキャンペーンとテストを扱うことを前提としています。デフォルトの環境では、非アクティブなキャンペーンの表示は許可されていません。
 
-## ホストと環境の管理 {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 レポートのデフォルトホストの設定、ホワイトリストの作成、環境名の変更、ホストの別環境への移動、ホストまたは環境の削除を含む、ホストと環境（ホストグループ）の管理に役立つ情報を紹介します。
 
@@ -72,7 +72,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 
 ![](assets/hosts_list.png)
 
-## ホストのリストのフィルター適用、並べ替え、検索 {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 環境を基準に「[!UICONTROL ホスト]」リストをフィルターするには&#x200B;**[!UICONTROL すべて]**&#x200B;ドロップダウンリストをクリックし、目的の環境（実稼動、ステージング、開発またはユーザーが作成したカスタム環境）を選択します。
 
@@ -80,11 +80,11 @@ Target では、mbox を送受信できるホストを制限しないため、�
 
 「[!UICONTROL ホスト]」リストを検索するには、「検索」ボックスに検索語を入力します。
 
-## 複数のホストの選択 {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 複数のホストを選択するには、目的のホストの「[!UICONTROL 名前]」列の横にあるチェックボックスを選択します。その後、選択したホストをすべて移動または削除することができます。
 
-## 環境の作成 {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. 「[!UICONTROL ホスト]」リストで「**[!UICONTROL 環境]**」タブをクリックします。
 1. 「**[!UICONTROL 環境を作成]**」をクリックします。
@@ -92,7 +92,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 1. 目的の環境のアクティビティモード（「[!UICONTROL アクティブなアクティビティ]」または「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」）を指定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## レポート用のデフォルトホストの設定 {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 すべてのアクティビティレポートでデフォルトとして使用する環境を選択できます。
 
@@ -108,7 +108,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 
-## Target に対して mbox 呼び出しを送信する権限のあるホストを指定するホワイトリストの作成{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 [!DNL Target] に対して mbox 呼び出しを送信する権限のあるホスト（ドメイン）を指定するホワイトリストを作成できます。呼び出しを生成するその他のすべてのホストに対しては、コメントアウト認証エラーの応答が送信されます。デフォルトでは、mbox 呼び出しを含むホストは、実稼動環境の [!DNL Target] に登録され、アクティブで承認済みのすべてのキャンペーンへのアクセス権を持ちます。これが期待された手法でない場合は、代わりにホワイトリストを使用して、mbox の呼び出しと [!DNL Target] コンテンツの受け取りの資格がある特定のホストを記録できます。すべてのホストは、「[!UICONTROL ホスト]」リストに引き続き表示されます。また、環境は引き続きこれらのホストをグループ化したり、ホストごとに異なるレベル（ホストがアクティブまたは非アクティブなキャンペーンを表示できるかどうかなど）を割り当てることができます。
 
@@ -134,20 +134,20 @@ Target では、mbox を送受信できるホストを制限しないため、�
 
 また、「[!DNL Target]ホストに含まれない[!UICONTROL 」ボックスに目的のホストを追加して、] への mbox 呼び出しの送信を許可しない特定のホスト（ドメイン）を指定するブラックリストを作成することもできます。
 
-## 環境名の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. 「[!UICONTROL ホスト]」リストで「**[!UICONTROL 環境]**」タブをクリックします。
 1. 目的の環境の上にマウスポインターを置いて、「**[!UICONTROL 編集]**」アイコンをクリックします。
 1. 環境名を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## ホストを別の環境に移動 {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. 「[!UICONTROL ホスト]」リストで、移動するホストの上にマウスポインターを置きます。
 1. 「**[!UICONTROL 移動]**」アイコンをクリックします。
 1. 目的の環境をドロップダウンリストから選択し、チェックマークアイコンをクリックします。
 
-## ホストの削除 {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 不要になったホストは削除することができます。
 
@@ -159,7 +159,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 >
 >ホスト上にある mbox が設定されたページが参照されると、そのホストが再度リストされます。
 
-## 環境の削除 {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 不要になった環境は削除することができます。
 
