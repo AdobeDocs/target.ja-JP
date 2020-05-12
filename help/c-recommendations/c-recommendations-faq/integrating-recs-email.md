@@ -5,10 +5,10 @@ title: Recommendations と電子メールの統合
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 93%
+source-wordcount: '1434'
+ht-degree: 91%
 
 ---
 
@@ -70,12 +70,12 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 使用する電子メールシステムが、次の状況に対処する機能を持っている必要があります。
 
-**有効な応答を受信したが、レコメンデーションが存在しない。**
+### 有効な応答を受け取ったが、レコメンデーションが存在しない
 
 * この場合、どんな値でも mboxDefault パラメーター値として設定されたのもが応答になります。このパラメーターに関する後述の説明を参照してください。
 * この場合、電子メールプロバイダーは、レコメンデーションのデフォルト HTML ブロックを使用する必要があります。
 
-**Target サーバーがタイムアウトし、データなしで返される。**
+### ターゲットサーバーがタイムアウトし、データなしで返す
 
 * この場合、Target サーバーは、次のコンテンツを返します。
 
@@ -87,13 +87,13 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
    * 該当する電子メールを捨てて、次の電子メールに移る。
    * 該当する電子メールをキューに入れて、最初の実行の最後に、失敗した電子メールをバッチとして再実行する。
 
-**リクエスト URL の例：**
+### リクエストURLの例
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**必須パラメーター:**
+### 必須パラメーター: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
 | `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。<br> URLで使用されているドメインがホワイトリストに登録されていない場合は、オープンリダイレクトの脆弱性が発生するリスクがある可能性があることに注意してください。 `mboxDefault` リダイレクターリンクやサードパーティによる不正使用を防ぐた `mboxDefault` め、「認証済みホスト」を使用してデフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、 [ホワイトリストの](/help/administrating-target/hosts.md#whitelist) 作成を参照してください。ホワイトリストは、Hosts **&#x200B;内のターゲットにmbox呼び出しを送信する権限のあるホストを指定します。 |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。 <br> *セキュリティのベストプラクティス*: URLで使用されているドメインがホワイトリストに登録されていない場合は、オープンリダイレクトの脆弱性が発生するリスクがある可能性があることに注意してください。 `mboxDefault` リダイレクターリンクやサードパーティによる不正使用を防ぐた `mboxDefault` め、「認証済みホスト」を使用してデフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、 [ホワイトリストの](/help/administrating-target/hosts.md#whitelist) 作成を参照してください。ホワイトリストは、Hosts **&#x200B;内のターゲットにmbox呼び出しを送信する権限のあるホストを指定します。 |  |
 | `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意&#x200B;**：電子メール受信者（API 呼び出し）ごとに、`mboxSession`および`mboxPC`の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しない場合は、1 つのプロファイル内で多数のイベントが生成されるので、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。（ドット）。<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
-**オプションのパラメーター**：
+### オプションのパラメーター
 
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（オプション） | 1 | デフォルトでは、配信可能なコンテンツが見つからない場合、呼び出し元がリダイレクトされます。デフォルトの動作を無効にする場合に使用します。 |  |
 | `mbox3rdPartyId` | *xxx* | 独自のカスタム訪問者 ID をプロファイルのターゲット設定に使用する場合、これを使用します。 |  |
 
-**Target サーバーの応答**：
+### ターゲットサーバーの応答の可能性
 
 | 応答 | 説明 |
 |--- |--- |
