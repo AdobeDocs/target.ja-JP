@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 73%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 適切な設定の判断方法については、[JavaScript ベース以外の実装](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#redirector}
 
 リダイレクターを使用するには、まずリダイレクターを作成する必要があります。
 
@@ -56,14 +56,15 @@ ht-degree: 73%
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` はデフォルトの宛先です。
 
-      リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、 [ホワイトリストの](/help/administrating-target/hosts.md#whitelist) 作成を参照してください。ホワイトリストは、Hosts **&#x200B;内のターゲットにmbox呼び出しを送信する権限のあるホストを指定します。
+      URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
 
-      URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
-
+      >[!IMPORTANT]
+      >
+      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、「認証済みホスト」を使用して、デフォルトのリダイレクトURLドメインをホワイトリストに登録することをお勧めします。 ターゲットは、リダイレクトを許可するホストをホワイトリストドメインに使用します。 詳しくは、 [ホワイトリストの](/help/administrating-target/hosts.md#whitelist) 作成を参照してください。ホワイトリストは、Hosts **&#x200B;内のターゲットにmbox呼び出しを送信する権限のあるホストを指定します。
 
 
 1. リダイレクターを検証します。
-   1. 上記に示すように、リダイレクターで使用するドメインがホワイトリストに登録されていることを確認します。 ホワイトリストに登録されていないドメインを使用する場合、アドビは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
+   1. *セキュリティのベストプラクティス*: 上記に示すように、リダイレクターで使用するドメインがホワイトリストに登録されていることを確認します。 ホワイトリストに登録されていないドメインを使用する場合、アドビは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
    1. リダイレクターの URL をブラウザーに挿入して表示を更新します。
    1. アカウントにログインし、mbox のリストを更新して、新しいリダイレクターが mbox として表示されることを確認します。
 1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
