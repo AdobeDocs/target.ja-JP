@@ -5,7 +5,7 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -126,7 +126,7 @@ Target では、mbox を送受信できるホストを制限しないため、�
 
 >[!IMPORTANT]
 >
->*セキュリティのベストプラクティス*: のubox機能を使用する場合 [!DNL Target]、このホワイトリストは、リダイレクターがナビゲートできるドメインのリストも制御することに注意して [ください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 ホワイトリストに指定がない場合、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
+>**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、このホワイトリストは、リダイレクターがナビゲートできるドメインのリストも制御することに注意して [ください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 ホワイトリストに指定がない場合、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
 >
 >ホワイトリストは環境に優先して適用されます。ホワイトリスト機能を使用する前にすべてのホストをクリアしてください。そうすると、ホワイトリストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
 
