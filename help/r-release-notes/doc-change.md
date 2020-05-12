@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7601'
+source-wordcount: '7641'
 ht-degree: 81%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.2.1（2020 年 2 月 20 日） 
+## Adobe Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 「考慮事項」節を更新しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」の下の「overrideMboxEdgeServer」行を更新しました。 |
 | 6 年 5 月 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | ITP 2.3に関する情報を追加しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：20.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+
+## Adobe Target Standard/Premium 20.2.1（2020 年 2 月 20 日） 
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
 | 4 年 5 月 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新しいFAQを追加しました。 「A/BまたはMVTアクティビティで、エクスペリエンス間のトラフィック分割が不均等なのはなぜですか。」 |
 | 29 年 4 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 極端な注文を含むレポートに関する既知の問題を追加しました。 |
 | 28 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジ `user.header('x-forwarded-for')` を使用してユーザーのIPアドレスを取得する方法に関する情報を削除しました。 このコマンドは、新しいAWSエッジで動作するようになりました。 |
