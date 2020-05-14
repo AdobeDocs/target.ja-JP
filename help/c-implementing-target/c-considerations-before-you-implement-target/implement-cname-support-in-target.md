@@ -5,7 +5,7 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       DCV電子メールプロセスを迅速に処理するために、DigiCertは次の推奨を提供します。
 
-      「登録機関/WHOISプロバイダが [関連する電子メールアドレスをマスクまたは削除していないことを確認してください]。 認証機関がドメインのWHOISデータにアクセスできる方法（匿名の電子メールアドレス、Webフォームなど）が [証明機関] に提供されているかどうかを確認します。」
+      「登録機関/WHOISプロバイダが関連する電子メールアドレスをマスクまたは削除していないことを確認してください。 認証機関がドメインのWHOISデータにアクセスする手段を証明機関に許可するかどうかを調べます。
 
 1. 通常のホスト名を指すCNAMEレコードを、ドメインのDNSに作成し `clientcode.tt.omtrdc.net`ます。 例えば、クライアントコードがcnamecustomerで、ホスト名を指定する場合 `target.example.com`、DNS CNAMEレコードは次のようになります。
 
@@ -101,7 +101,7 @@ ITPの問題は、Analytics CNAMEのみを使用したターゲットで解決�
 
 ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
 
-### Adobe/DigiCertはDCV電子メールを別の電子メールアドレスに送信でき `<someone>@example.com`ますか。
+### Adobe/DigiCertは、DCV電子メールを別の電子メールアドレスに送信でき `<someone>@example.com`ますか。
 
 いいえ。DigiCert（または任意の認証機関）では、ドメインのWHOISリストまたは事前に決定されたアドレスの情報（上記を参照）にも電子メールアドレスが含まれていない限り、同じドメインのSSL証明書を承認することは許可されません。 これにより、承認された個人だけが特定のドメインのDCVを承認できます。 これが可能でない場合は、DNS CNAME DCVメソッドを使用することをお勧めします（上記を参照）。
 
