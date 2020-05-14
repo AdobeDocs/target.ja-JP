@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7650'
+source-wordcount: '7664'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 14 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | プロファイルバッチステータスAPI v2の変更に関する情報を追加しました。 |
 | 13 年 5 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 「既知の制限事項」節を追加しました。 |
 | 11 年 5 月 | [ホスト](/help/administrating-target/hosts.md) | リダイレクトおよびホワイトリストでのubox機能の使用に関する情報を追加しました。 |
 |  | [リダイレクターの使用](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
