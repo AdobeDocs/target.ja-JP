@@ -5,10 +5,10 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 34%
+source-wordcount: '843'
+ht-degree: 32%
 
 ---
 
@@ -33,6 +33,75 @@ ht-degree: 34%
 ## Adobeターゲットスキルビルダー： 開発者チャット，アドビターゲットのmbox.jsをat.jsに移行 {#skill-builder}
 
 2020年8月30日にmbox.jsの廃止が予定されているので、アドビターゲット製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+
+## プロファイルバッチステータスAPI v2の変更点（2020年5月14日）
+
+5月20日のリリースでは、プロファイルバッチステータスは、行レベルの失敗データのみを返します（成功データは返されません）。 失敗したプロファイルIDは、今後APIから返されます。
+
+前回と新しいAPIの応答は次のとおりです。
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**現在のところ、応答は次のようになります。**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**5月4日以降の回答は次のとおりです。**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Target Standard／Premium 20.4.1（2020 年 5 月 6 日）
 
