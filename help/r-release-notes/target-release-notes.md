@@ -5,10 +5,10 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 19%
+source-wordcount: '342'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020 年 5 月 4 日**
+**最終更新日：2020 年 5 月 14 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -39,75 +39,6 @@ ht-degree: 19%
 ## Target Standard／Premium 20.5.1（2020 年 6 月 10 日）
 
 このリリースの詳細は、こちらを参照してください。
-
-## プロファイルバッチステータスAPI v2の変更（日付TBD）
-
-5月4日のリリースでは、プロファイルバッチステータスは、今後行レベルの失敗データのみを返します（成功データは返されません）。 失敗したプロファイルIDは、今後APIから返されます。
-
-前回と新しいAPIの応答は次のとおりです。
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**現在のところ、応答は次のようになります。**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**5月4日以降の回答は次のとおりです。**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
