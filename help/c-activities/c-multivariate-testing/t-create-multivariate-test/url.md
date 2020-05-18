@@ -1,10 +1,13 @@
 ---
-keywords: ターゲット設定
+keywords: Targeting
 description: アクティビティ URL は、多変量分析テスト（MVT）で使用され、Adobe Target でテストが設計された場合に表示されるページを指定します。
 title: アクティビティ URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
 
-デフォルトでは、[!UICONTROL アカウントの基本設定]で指定されたページが [Visual Experience Composer](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)（VEC）で開かれます。アクティビティ作成中に、異なるページを指定することもできます。
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). アクティビティ作成中に、異なるページを指定することもできます。
 
 VEC を開いた後に異なるページを表示するには、「**[!UICONTROL 設定]**」アイコンをクリックして「**[!UICONTROL ページ配信]**」を選択し、URL を指定します。
 
@@ -44,7 +47,7 @@ VEC を開いた後に異なるページを表示するには、「**[!UICONTROL
 >
 >Target Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。
 
-デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。**[!UICONTROL Visual Experience Composer]を使用してこのような要素を変更するには、「**[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
+デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。**[!UICONTROL Visual Experience Composer]** を使用してこのような要素を変更するには、「[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
 
 >[!NOTE]
 >
