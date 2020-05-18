@@ -1,11 +1,14 @@
 ---
-keywords: 概要およびリファレンス
+keywords: Overview and Reference
 description: アクティビティ URL は、テストで使用され、設計したテストで表示されるページを指定します。
 title: アクティビティ URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -22,9 +25,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 異なる URL の指定
 
-デフォルトでは、[Target のアカウントの基本設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)で指定されたページが [!UICONTROL Visual Experience Composer] で開かれます。アクティビティ作成中に、異なるページを指定することもできます。
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. アクティビティ作成中に、異なるページを指定することもできます。
 
-[!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]**&#x200B;の歯車アイコンをクリックして、「**[!UICONTROL ページ配信**」を選択します。]「アクティビティ URL」フィールドに URL を入力します。
+[!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]**&#x200B;の歯車アイコンをクリックして、「**[!UICONTROL ページ配信」を選択します。]**「アクティビティ URL」フィールドに URL を入力します。
 
 ![ページ配信ダイアログボックス](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
@@ -41,13 +45,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。追加したすべてのルールは、AND を使用してお互いに評価されます。
 
-終了したら「**[!UICONTROL 保存]」をクリックします。**
+終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
 >Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
 
-デフォルトでは、バナーの回転など JavaScript を含む要素については、[!UICONTROL Visual Experience Composer] で変更できません。**[!UICONTROL Visual Experience Composer]を使用してこのような要素を変更するには、「**[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
+デフォルトでは、バナーの回転など JavaScript を含む要素については、[!UICONTROL Visual Experience Composer] で変更できません。**[!UICONTROL Visual Experience Composer]** を使用してこのような要素を変更するには、「[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
 
 >[!NOTE]
 >
