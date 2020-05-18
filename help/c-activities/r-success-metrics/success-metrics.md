@@ -1,29 +1,32 @@
 ---
-keywords: ターゲット設定；成功；コンバージョン指標；ページスコア指標；ページビュー指標；売上高指標；サイト滞在時間指標；予測値；詳細設定；成功指標
-description: Adobe targetでは、成功指標はレポートと追跡の両方の目的で事前に設定されています。
-title: Adobe targetの成功指標
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+description: アドビのターゲットでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
+title: Adobeターゲットの成功指標
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
 
 # 成功指標{#success-metrics}
 
-Adobe targetでは、成功指標はレポートと追跡の両方の目的で事前に設定されています。
+アドビのターゲットでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
 
 成功指標は、アクティビティの成功の測定に使用されるパラメーターです。成功指標には、Target アクティビティの特定のエクスペリエンスやオファーの成功を判定できる、主要なビジネス測定が含まれます。例えば、新しいオファーが訪問者あたりの売上高を増加させたり、買い物かごに品目を追加したりするかどうかを判断できます。成功指標は、登録、注文または購入ファネルの問題を見つけるのに役立ちますが、単に訪問者やお客様のエンゲージメントにも役立ちます。
 
 テスト作成をシンプルにするという [!DNL Target Standard] の目標に従い、このアプリケーションでは、[!DNL Target Classic] では手動でおこなう設定の一部が簡略化されています。例えば、成功指標は、最適なオプションを用いて事前設定されます。
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. コンバージョンは 1 回だけカウントされます。リピートコンバージョンはカウントされず、訪問者にはテストコンテンツが常に表示されます。
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. コンバージョンは 1 回だけカウントされます。リピートコンバージョンはカウントされず、訪問者にはテストコンテンツが常に表示されます。
 
 「カウントを増分、アクティビティでユーザーを保持」に設定されている売上高指標では、同一の訪問者による最初の注文についてのみ注文の詳細が記録されます。以降の注文については、コンバージョン数は加算されますが、RPV／AOV／販売額に売上高が加算されることはなく、注文の詳細レポートにも含まれません。
 
 >[!NOTE]
 >
->レポートソースとして [](/help/c-integrating-target-with-mac/a4t/a4t.md) Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は、「カウントを増分し、アクティビティにユーザーを保持する」で、「参加者あたり1回」です。
+>レポートソースとして [](/help/c-integrating-target-with-mac/a4t/a4t.md) Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は、「カウントを増分し、ユーザーをアクティビティ内に保持する」で、「参加者あたり1回」です。
 
 以下の成功指標を使用できます。
 
@@ -41,7 +44,7 @@ By default, conversion events are set to "Count once and keep the entrant in the
 
 成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。例えば、コンバージョン指標を選択し、訪問者あたり 1 回カウントされるように設定してから、訪問者が特定のページ（または一連のページ）を閲覧、特定の mbox を閲覧または特定のリンクをクリック、のいずれの場合に成功とするかを設定します。
 
-1 つのコンバージョンフィールドの「予測値（Estimated Value）」（ページスコア指標では利用できません）が有効になっている場合は、他の指標ではなく、目標に関する値が示されます。この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。すべての売上高指標（訪問者あたり売上高、平均注文額、合計販売額および注文）について、予測には訪問者あたり売上高が使用されます。データタイプは通貨です。詳しくは、「[売上高情報の予測](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)」を参照してください。
+1 つのコンバージョンフィールドの「予測値（Estimated Value）」（ページスコア指標では利用できません）が有効になっている場合は、他の指標ではなく、目標に関する値が示されます。この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。すべての売上高指標（訪問者あたり売上高、平均注文額、合計販売額および注文）について、予測には訪問者あたり売上高が使用されます。データタイプは通貨です。詳しくは、「[売上高情報の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
 アクティビティに対して選択した成功指標は、そのアクティビティのレポートを表示するときに、レポート設定で利用できます。
 
@@ -88,4 +91,4 @@ By default, conversion events are set to "Count once and keep the entrant in the
 * コンバージョン、収益、エンゲージメントの指標の理解と構築
 * クリック追跡指標の構築
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
