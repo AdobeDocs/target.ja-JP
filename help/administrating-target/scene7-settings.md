@@ -1,18 +1,21 @@
 ---
 description: Target Standard を Adobe Dynamic Media Classic（以前の Scene7）と統合して、コンテンツライブラリで Digital Asset Management（DAM）を実行できます。
-title: Dynamic Media Classic の統合
-subtopic: 導入
+title: Dynamic Media Classic の統合 構成統合
+subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
 
 # Dynamic Media Classic の統合{#scene-settings}
 
-Target Standard を Adobe Dynamic Media Classic（以前の Scene7）と統合して、コンテンツライブラリで Digital Asset Management（DAM）を実行できます。
+Target を Adobe Dynamic Media Classic（以前の Scene7）と統合して、コンテンツライブラリで Digital Asset Management（DAM）を実行できます。
 
 >[!NOTE]
 >
@@ -26,9 +29,10 @@ Target Standard を Adobe Dynamic Media Classic（以前の Scene7）と統合�
 
 Dynamic Mediaからの画像のストレージ URL と最終公開 URL は異なります。画像のストレージのリンクを使用してオファーを作成しないでください。作成すると、配信が機能しません。アドビのヘルプドキュメントに記載されているとおりに、画像オファーの機能を使用する必要があります。
 
-Dynamic Media Classic（Scene7）と統合するには、以下のいくつかの情報を指定する必要があります。
+Dynamic Media Classic(Scene7)と統合するには、次の情報を指定する必要があります。
 
-1. 「**[!UICONTROL セットアップ]**」／「**[!UICONTROL Scene7 設定]**」の順にクリックします。
+1. **[!UICONTROL 管理]** / **[!UICONTROL Scene7設定をクリックします]**。
+
 1. 以下の Dynamic Media Classic アカウント情報を指定します。
 
    **地域：** Dynamic Media アカウントの地域は、北米、ヨーロッパ、アジアです。
@@ -38,4 +42,5 @@ Dynamic Media Classic（Scene7）と統合するには、以下のいくつか�
    **電子メールアドレス：** Dynamic Media Classic（Scene7）へのログインに使用される電子メールアドレス。
 
    **パスワード：** Dynamic Media Classic（Scene7）へのログインに使用されるパスワード。
+
 1. 「**[!UICONTROL 送信]**」をクリックします。
