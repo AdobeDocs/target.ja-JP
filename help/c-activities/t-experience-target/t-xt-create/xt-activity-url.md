@@ -1,10 +1,13 @@
 ---
-keywords: ターゲット設定
+keywords: Targeting
 description: アクティビティ URL は、エクスペリエンスターゲット設定アクティビティで使用され、アクティビティを設計する際に Adobe Target Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
 title: アクティビティ URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
    >
-   >デフォルトでは、[アカウントの基本設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)で指定されたページが VEC または フォームベースの Experience Composer で開かれます。アクティビティ作成中に、異なるページを指定することもできます。
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). アクティビティ作成中に、異なるページを指定することもできます。
    >
    >Target Standard の JavaScript コードを含まないサイトの URL を指定すると、ページ要素を選択できません。
 
