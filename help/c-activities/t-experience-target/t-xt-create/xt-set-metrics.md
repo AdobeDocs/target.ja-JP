@@ -5,7 +5,10 @@ title: 指標の設定
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    使用可能な設定は、使用する成功指標によって異なります。
 
-   [!UICONTROL 「コンバージョンの予測値」]フィールドを有効にすると（ページスコア指標では使用できません）、目標の値が提供されます。この値を使用することで、Target は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。データタイプは通貨です。このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。詳しくは、「[売上高情報の予測](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)」を参照してください。
+   [!UICONTROL 「コンバージョンの予測値」]フィールドを有効にすると（ページスコア指標では使用できません）、目標の値が提供されます。この値を使用することで、Target は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。データタイプは通貨です。このフィールドは、ユーザーが目標を満たすためにとるアクションを指定した後、順次表示されます。詳しくは、「[売上高情報の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
@@ -50,7 +53,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    | `-` | マイナス |
    | `@` | アットマーク |
 
-## トレーニングビデオ：アクティビティ指標（7:43） チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ指標（7:43） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 
 このビデオでは、成功指標に関する作業について説明します。
