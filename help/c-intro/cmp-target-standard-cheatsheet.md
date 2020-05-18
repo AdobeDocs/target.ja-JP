@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;FQA;よくある質問;参照シート;早わかりシート
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Adobe Target の機能の使用方法に関するよくある質問のリストです。補足情報や詳細情報のリンクも紹介します。
 title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -253,7 +256,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 **QA プロセスでコンテンツ配信がおこなわれないのはなぜですか？**
 
-お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セクター](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)を参照してください。
+お客様のサイトの要素に動的 ID、重複する ID または動的クラスが含まれている可能性があります。アカウントレベル（問題の範囲が特定のドメインやページのみの場合はアクティビティレベル）でサイトの基本設定オプションをチェックすることをお勧めします。[CSS セクター](/help/administrating-target/visual-experience-composer-set-up.md#css)を参照してください。
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
