@@ -5,9 +5,9 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29279'
+source-wordcount: '29262'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティのレポートソース </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で、アクティビティのレポートソースとして <span class="keyword">Target</span> または <span class="keyword">Adobe Analytics</span> のいずれかを選択できます。アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">環境設定</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で、アクティビティのレポートソースとして <span class="keyword">Target</span> または <span class="keyword">Adobe Analytics</span> のいずれかを選択できます。アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3389,7 +3389,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 売上高の上昇率を予測 </td> 
-   <td colname="col2"> <p>Target では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。 </p> <p>この予測は、テスト期間中の勝者エクスペリエンスおよび合計訪問者数によって達成される上昇の量を計算し、テスト中と同じようにトレンドが継続したとして、すべての訪問者が勝者エクスペリエンスを表示した場合に達成される上昇を表示します。 </p> <p> 予測の正確さは、現在のトレンドが継続した場合の売上高の見積もりを含む、多くの要因に左右されます。これらの値は、過去の実績に基づいて予測されます。財務上のアドバイスとして使用しないでください。将来の結果は変わる可能性があります。 </p> <p>詳しくは、<a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local">売上高上昇の予測</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Target では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。 </p> <p>この予測は、テスト期間中の勝者エクスペリエンスおよび合計訪問者数によって達成される上昇の量を計算し、テスト中と同じようにトレンドが継続したとして、すべての訪問者が勝者エクスペリエンスを表示した場合に達成される上昇を表示します。 </p> <p> 予測の正確さは、現在のトレンドが継続した場合の売上高の見積もりを含む、多くの要因に左右されます。これらの値は、過去の実績に基づいて予測されます。財務上のアドバイスとして使用しないでください。将来の結果は変わる可能性があります。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 取り消し／やり直し </td> 
