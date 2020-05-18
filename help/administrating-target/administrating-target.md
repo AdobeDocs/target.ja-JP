@@ -1,12 +1,15 @@
 ---
-keywords: 実装;実装する;設定;セットアップ
+keywords: implement;implementing;setting up;setup
 description: 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
 title: Adobe Target の管理
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 67%
 
 ---
 
@@ -15,14 +18,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
 
-[!UICONTROL セットアップ]メニュー項目にアクセスするには、上部のメニューバーで「**[!UICONTROL セットアップ]」をクリックしてから、左側で目的のタブをクリックします。**
+To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
-* [環境設定](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
-* [実装](/help/c-implementing-target/implementing-target.md)
-* [ユーザー](/help/administrating-target/c-user-management/user-management.md)
-* [プロパティ](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+* [レポート](/help/administrating-target/reporting.md)
 * [Scene7 設定](/help/administrating-target/scene7-settings.md)
+* [実装](/help/c-implementing-target/implementing-target.md)
+* [プロパティ](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [ホスト](/help/administrating-target/hosts.md)
+* [](/help/administrating-target/environments.md)環境
 * [レスポンストークン](/help/administrating-target/response-tokens.md)
+* [ユーザー](/help/administrating-target/c-user-management/user-management.md)
 
-![Adobe Target 設定メニュー](/help/administrating-target/assets/setup_menu_new.png)
+![Adobeターゲット管理メニュー](/help/administrating-target/assets/administration.png)
