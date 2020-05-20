@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 36%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 20 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Standard/Premium 20.6.1（2020年6月10日）リリースに関する情報を追加しました。 |
+|  | [ホスト](/help/administrating-target/hosts.md) | 「セキュリティのベストプラクティス」の節に注意を追加しました。 |
 | 14 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | プロファイルバッチステータスAPI v2の変更に関する情報を追加しました。 |
 | 13 年 5 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 「既知の制限事項」節を追加しました。 |
 | 11 年 5 月 | [ホスト](/help/administrating-target/hosts.md) | リダイレクトおよびホワイトリストでのubox機能の使用に関する情報を追加しました。 |
