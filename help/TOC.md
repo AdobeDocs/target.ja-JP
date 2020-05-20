@@ -5,9 +5,9 @@ user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 93%
 
 ---
@@ -256,7 +256,6 @@ ht-degree: 93%
       + [アクティビティ QA とサーバー側配信の使用](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + オーディエンス{#audiences}
    + [オーディエンスの概要](c-target/target.md)
-   + [ターゲット設定の仕組み](c-target/target-how-target-works.md)
    + オーディエンスの作成 {#create-audiences}
       + [作成](c-target/c-audiences/audiences.md)
       + [Target でのオーディエンスの構築](c-target/c-audiences/create-audience.md)
