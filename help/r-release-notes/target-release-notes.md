@@ -5,9 +5,9 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020 年 5 月 14 日**
+**最終更新日：2020 年 5 月 20 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -36,9 +36,12 @@ ht-degree: 22%
 
 2020年8月30日にmbox.jsの廃止が予定されているので、アドビターゲット製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
-## Target Standard／Premium 20.5.1（2020 年 6 月 10 日）
+## Target Standard／Premium 20.6.1（2020 年 6 月 10 日）
 
-このリリースの詳細は、こちらを参照してください。
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| 投稿者ロール | この新しい役割は、現在の監視者の役割に似ています(アクティビティを表示することはできますが、作成または編集することはできません)。 ただし、「投稿」の役割には、アクティブなアクティビティに対する追加の権限があります。 |
+| 管理<br>ページ旧称「設定」 | 設定ページの名前が「管理」に変更され、すべてのメニュー項目のUIが更新され、ワークフローと使いやすさが向上しました。<br>次のメニュー項目を使用できます。<ul><li>Visual Experience Composer</li><li>レポート</li><li>Scene7 設定</li><li>実装</li><li>プロパティ</li><li>ホスト</li><li>環境</li><li>レスポンストークン</li><li>ユーザー</li></ul> |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
