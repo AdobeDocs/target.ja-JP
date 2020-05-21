@@ -1,12 +1,15 @@
 ---
-keywords: レポートソースとしてのAnalytics;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: Adobe Analytics に基づいたアクティビティを Adobe Target 内で作成する場合（A4T）のユーザーアカウントの要件です。
 title: ユーザー権限の要件
 solution: Target,Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -35,21 +38,19 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 次の作業を実行します。[!DNL Adobe Analytics]
 
 ### Analytics レポートスイートへのアクセスの設定
 
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. レポートを表示できない場合は、これらのいずれかのグループのメンバーであることを確認してください。
 
-Analytics によるアクティビティのレポートを作成または表示する前に、**[!UICONTROL 全てのレポートアクセス]**&#x200B;グループのメンバー、または使用したいレポートスイート内の少なくとも1つのレポートにアクセスできるグループのメンバーである必要があります。レポートを表示できない場合は、これらのいずれかのグループのメンバーであることを確認してください。
-
-詳しくは、「製品のプロファイルとグ [ループ」を参照してください](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
+詳しくは、「 [製品のプロファイルとグループ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)」を参照してください。
 
 ### Web サービスアクセスグループへのアクセスの設定
 
-[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにするには、[!DNL Adobe Analytics]の Web サービスアクセスグループに属している必要があります。
+[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにするには、[!DNL Analytics]の Web サービスアクセスグループに属している必要があります。
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
