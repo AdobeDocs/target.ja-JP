@@ -5,10 +5,10 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 36%
+source-wordcount: '895'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 26 年 5 月 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 次の情報を追加しました。 「スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 プロファイルに既にアクティビティのオーディエンスーで使用されているパラメーターが含まれている場合、そのアクティビティの資格が得られます。」 |
 | 21 年 5 月 | [ホワイトリストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | リスト `mboxedge30.tt.omtrdc.net` に追加されました。 |
 | 20 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Standard/Premium 20.6.1（2020年6月10日）リリースに関する情報を追加しました。 |
 |  | [ホスト](/help/administrating-target/hosts.md) | 「セキュリティのベストプラクティス」の節に注意を追加しました。 |
