@@ -5,14 +5,17 @@ title: Enterprise 権限の設定
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '1381'
+ht-degree: 79%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise 権限の設定{#configure-enterprise-permissions}
 
-ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、`at_property` パラメーターを追加する方法、役割と権限を指定する方法について説明します。
+Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
 
 >[!NOTE]
 >
@@ -29,34 +32,35 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | 5. `at_property` パラメーターを含めるための実装の更新 | [!DNL Target] UI、at.js 関数、[!DNL Adobe Launch]、または [!DNL Dynamic Tag Management] |
 | 6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
 
-Adobe Admin Console for Enterprise で実行するタスクの場合は、次の手順でコンソールにアクセスします。
+For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+1. Adobeターゲットで、 **[!UICONTROL 管理]** / **[!UICONTROL プロパティ]** /プロパティをワークスペースに **[!UICONTROL 割り当てをクリックします]**。
 
    または
 
-   既に Experience Cloud にログインしている場合は、「[https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動してから、上部のナビゲーションバーで[!UICONTROL アプリ]アイコンをクリックし、右側の&#x200B;**[!UICONTROL 管理]**」をクリックします。
+   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
-## 手順 1.ユーザーの追加（オプション）{#section_A92AF0F921B743FEB9E9033433BD816A}
+## 手順 1.Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
-## 手順 2：ワークスペース（製品プロファイル）の作成{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 手順 2：Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
-ワークスペース（製品プロファイル）を使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。多くの点で、ワークスペースは [!DNL Analytics] のレポートスイートに似ています。
+ワークスペース(製品プロファイル)を使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは [!DNL Analytics] のレポートスイートに似ています。
 
-Admin Console 内で新しいワークスペースを作成し、それらのワークスペースに Target プロパティを割り当て、「デフォルトのワークスペース」設定からこれらのアクセス制限付きの新しいワークスペースにユーザーを移行することで、Enterprise 権限機能を活用できるようになります。
+Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
 
 これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。
 
 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つこともできます。
 
-1. Admin Console で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
+1. [!DNL Admin Console] で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
    ![ワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -77,7 +81,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
-### ワークスペース ID の取得 {#workspace-id}
+### Obtain your workspace ID {#workspace-id}
 
 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
@@ -86,7 +90,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    ![ワークスペース ID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 手順 3.ユーザーグループの作成（オプション）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 手順 3.Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
@@ -95,33 +99,32 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をTargetに追加します。
+プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をターゲットに追加します。
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして[!UICONTROL プロパティ]リストを表示します。
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
 1. 「**プロパティを作成**」をクリックします。
 
    ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    以下のフィールドを設定します。
 
-   * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
-   * **名前（必須）：**&#x200B;プロパティのわかりやすい名前を指定します。
+   * **プロパティ名（必須）:** プロパティにわかりやすい名前を指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
+   * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. 「**[!UICONTROL コードを生成]**」をクリックして、[5. at_property パラメーターを含めるための実装の更新](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)のステップの実行時に使用するコードを生成します。
-1. コードをクリップボードにコピーします。
+1. 「 **[!UICONTROL コピー]** 」をクリックして、 [5の手順を実行する際に使用するコードをクリップボードにコピーします。 at_propertyパラメーターを含めるように実装を更新します](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >プロパティ作成について詳しくは、以下のトレーニングビデオをご覧ください。
 
-## ステップ 5. at_property パラメーターを含めるための実装の更新 {#section_9B17A59807A94712BE642942442EBBC8}
+## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-[!DNL Target] のユーザー権限機能を使用するには、Target をヒットするすべての呼び出し（mbox、api など）に `at_property` パラメーターを追加する必要があります。
+[!DNL Target] のユーザー権限機能を使用するには、 をヒットするすべての呼び出し（mbox、api など）に `at_property` パラメーターを追加する必要があります。[!DNL Target]
 
 **`at_property`パラメーターコードを取得するには：**
 
@@ -129,7 +132,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
    または
 
-   [!DNL Target] で、**[!UICONTROL セットアップ]**／**[!UICONTROL プロパティ]**&#x200B;をクリックして[!UICONTROL プロパティ]リストを表示します。
+   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
 
    1. 目的のプロパティの[!UICONTROL 最終更新日]列の上にマウスポインターを置いて、[!UICONTROL コード]アイコンを表示し、クリックします。
 
@@ -139,7 +142,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
       ![プロパティコード](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. 前の手順で取得した実装コードを使用して、Target 実装を更新します。
+1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
@@ -165,7 +168,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
       at.js を使用してこれをおこなう方法については、[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) および [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
-## ステップ 6. 役割および権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. Admin Console で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
@@ -192,7 +195,7 @@ Admin Console 内で新しいワークスペースを作成し、それらのワ
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Target のワークスペースの設定方法（6:55） チュート ![リアルバッジ](/help/assets/tutorial.png)
+### Target のワークスペースの設定方法（6:55） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
