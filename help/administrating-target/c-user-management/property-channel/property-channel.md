@@ -5,99 +5,99 @@ title: Enterprise ユーザーの権限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '2899'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise ユーザーの権限{#enterprise-user-permissions}
 
-エンタープライズユーザー権限は、管理する企業全体の Target へのユーザーアクセスの正式な手段です。異なる部署、グローバルな場所、チャネルおよび他の論理グループに基づいて、Target にユーザーを追加したり、その役割に基づいて権限を割り当てたり、チーム用にワークスペースを作成したりします。ユーザーに監視者、編集者、承認者の役割を割り当てることができます。
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## Enterprise ユーザー権限へのアクセス権があるかどうかを判断する
+## エンタープライズユーザーの権限へのアクセス権を持っているかどうかを確認する
 
 >[!NOTE]
 >
->プロパティと権限の機能は Target Premium ソリューションの一部です。Target Premium ライセンスのない Target Standard では利用できません。
+>プロパティと権限 の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
->Target の実装では、at.js または mbox.js のすべてのバージョンを使用できます。
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
-保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL 設定]」リンクをクリックすることで確認できます。
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]のお客様&#x200B;**：「[!UICONTROL ユーザー]」タブ（[!UICONTROL 設定／ユーザー]）が表示された場合は、ライセンスは[!DNL Target Standard]です。[!DNL Target Standard]のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
+* **[!DNL Target Standard]お客様&#x200B;**: 「[!UICONTROL ユーザー]」タブ(管理者[!UICONTROL /ユーザー])が表示される(「[!UICONTROL プロパティ]」タブは表示されない)場合は、組織に[!DNL Target Standard]ライセンスがあります。[!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)」の指示に従う必要があり[!DNL Adobe Admin Console]ます。
 
-   [!DNL Target Standard] ユーザーが「[!UICONTROL プロパティ]」タブをクリックすると、以下のエラーメッセージが表示されます。[!DNL Target] に問題が発生しているわけではありません。これは、[!DNL Target Standard] ユーザーが [!DNL Target Premium] [!UICONTROL Enterprise 権限]機能にアクセスできないことを示しています。
+* **[!DNL Target Premium]お客様&#x200B;**: 「[!UICONTROL プロパティ]」タブ([!UICONTROL セットアップ/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織に[!DNL Target Premium]ライセンスがあります。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
-   ![エラーメッセージ](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium]のお客様&#x200B;**：「[!UICONTROL プロパティ]タブ（[!UICONTROL 設定／プロパティ]）が表示された場合は、ライセンスは[!DNL Target Premium]です。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
-
-## Enterprise 権限の使用を開始する前に
+## エンタープライズ権限を使用する前に
 
 >[!IMPORTANT]
 >
->Enterprise 権限の使用を開始する前に、以下の[注意事項](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2)のセクションを読んでください。
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## この節で使用される用語と定義 {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-以下の用語は、この節全体で使用されます。Target Premium でプロパティおよび権限機能を使用したいユーザーにとって目新しいものかもしれません。
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### プロパティ
 
-プロパティは、区別するために独自のコードスニペットを使用するという点で、実際は Dynamic Tag Management（Activation）内のものと同様です。
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 Web プロパティは、Web サイト（群）を意味し、複数のルールと 1 つの埋め込みコードで構成されます。Web プロパティは、1 つ以上のドメインやサブドメインをグループ化できます。
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をターゲットに
+プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。to [!DNL Target].
+
 プロパティは、特定のチャネル（Web、モバイル、電子メールまたは API／その他）に属しています。
 
 ### ワークスペース（製品プロファイル）
 
-ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。多くの点で、ワークスペースは Adobe Analytics のレポートスイートに似ています。
+ワークスペースを使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。多くの点で、ワークスペースは [!DNL Adobe Analytics] のレポートスイートに似ています。
 
-注意：ワークスペースは、Adobe Admin Console for Enterprise では製品プロファイルと呼ばれます。
+Note: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
 ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つこともできます。
 
-Analytics でレポートスイート間を移動して複数のビューを切り替える場合と同様に、ワークスペース間を移動することで、Adobe Target の複数のビューを切り替えることができます。
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 ワークスペースには、まったく異なるオーディエンス、コードオファー、アクティビティを含めることができます。
 
 新しい Enterprise 権限モデルに移行する前に作成されたオーディエンスとアクティビティは、すべて以下で説明する「デフォルトのワークスペース」にまとめられます。
 
-Adobe Experience Manager（AEM）、Adobe Mobile Services および Adobe Target Classic を使用して作成されたすべてのアクティビティも、「デフォルトのワークスペース」に含められます。
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
 ### デフォルトのワークスペース
 
-Admin Console 内の既存のワークスペース（製品プロファイル）は、新しい Enterprise 権限モデルへの移行時に、すべて「デフォルトのワークスペース」という 1 つのワークスペースにまとめられます。
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >デフォルトのワークスペースは削除しないでください。
 
-すべてのユーザーの役割と Target のすべての機能へのアクセス権は、新しい Enterprise 権限モデルに移行する前と変わらずに引き継がれます。
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
 ### ユーザーグループ
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-### 役割と権限
+### ロールと権限
 
-役割と権限は、Target 実装でユーザーがアクティビティを作成および管理する必要がある場合のアクセスレベルを決定します。Target では、役割には以下が含まれます。
+役割と権限は、[!DNL Target] 実装でユーザーがアクティビティを作成および管理する必要がある場合のアクセスレベルを決定します。[!DNL Target] では、役割には以下が含まれます。
 
-* 監視者：アクティビティを表示できますが、作成または編集はできません。
-* 編集者：アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。
-* 承認者：アクティビティの作成、編集、アクティブ化、停止ができます。
+* **[!UICONTROL 監視者]**: 表示アクティビティは作成できますが、作成または編集はできません。
+* **[!UICONTROL エディタ]**: アクティビティの作成および編集は、アクティビティの起動前に行うことはできますが、承認を行うことはできません。
+* **[!UICONTROL 承認者]**: アクティビティを作成、編集、アクティブ化または停止できます。
 
 ### チャネル
 
-チャネルは、Target アクティビティの配信先のコンテンツタイプを指します（Web ページ、モバイルアプリ、電子メールメッセージなど）。
+チャネルは、[!DNL Target] アクティビティの配信先のコンテンツタイプを指します（Web ページ、モバイルアプリ、電子メールメッセージなど）。
 
 新しいアクティビティを作成すると、現在選択しているワークスペースに作成されます。最初のダイアログボックスにチャネル選択オプションが表示されます。このダイアログボックスを使用すると、Web、モバイル、アプリ、電子メールまたはその他／API から、アクティビティ用の目的のチャネルを選択できます。
 
-## 権限の概要 {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 以下の情報で、[!DNL Target] での以前の権限の適用方法と、[!UICONTROL プロパティ]および[!UICONTROL 権限]機能を使用した権限の適用方法について説明します。
 
@@ -135,7 +135,7 @@ Admin Console 内の既存のワークスペース（製品プロファイル）
 
 この例では、Jan は、商品ページ、ロシアサイト、キャリアサイトを表示できません。
 
-## 使用例のシナリオ {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Use-case scenarios {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 以下の使用例で、[!DNL Target] を使用してマーケティング目標を達成するのにプロパティ、プロジェクト、役割および権限がどのように役立つかを説明します。
 
@@ -181,7 +181,7 @@ Admin Console 内の既存のワークスペース（製品プロファイル）
 
 * **Diana**：Diana は、現在は組織のアナリストで、病院向けサイトおよび消費者向けサイトの監視者権限を持ち、アクティビティへの読み取り専用アクセスを付与されています。Diana は、アクティビティを表示できますが、作成または編集はできません。
 
-## Target UI のプロパティおよび権限のタッチポイント {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 新しい権限機能は、[!DNL Target] UI の様々な場所に表示できます。
 
@@ -195,13 +195,13 @@ Admin Console 内の既存のワークスペース（製品プロファイル）
 
 * **オーディエンスの作成：**&#x200B;新しいオーディエンスを作成すると、現在選択しているワークスペースに作成されます。
 * **オファーの作成：**&#x200B;新しいオファーを作成すると、現在選択しているワークスペースに作成されます。
-* **プロパティページ（セットアップ／プロパティ）：**[!UICONTROL 検索]ボックス、「[!UICONTROL チャネル]」および「[!UICONTROL 製品プロファイル]」オプションを使用して、[!UICONTROL プロパティ]リストをフィルターできます。
+* **プロパティページ（セットアップ/プロパティ）:** 「 [!UICONTROL Search] 」ボックスを使用して、 [!UICONTROL プロパティ] リストを検索できます。
 
    ![](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Target Premium でプロパティおよび権限を使用または設定する際は、次の点を考慮してください。
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **重要**：アクティビティを含むワークスペースを削除しないでください。削除した場合は、ClientCare にお問い合わせのうえアクティビティを復元してください。
 * すべてのマイワークスペースビューを使用する場合：
@@ -211,12 +211,17 @@ Target Premium でプロパティおよび権限を使用または設定する�
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーを作成する場合は、アイテムを作成するワークスペースを選択する必要があります。編集者または承認者の権限を持っているワークスペースのみ選択できます。
    * すべてのマイワークスペースビューでアクティビティ、オーディエンスまたはオファーをコピーする場合は、アイテムをコピーするワークスペースを選択する必要があります。編集者または承認者の権限を持っているワークスペースのみ選択できます。
 
-* 次の設定ページでの設定は、どのワークスペースでもすべての承認者が管理できます。
+* 次の管理ページの設定は、どのワークスペースの承認者でも制御できます。
 
-   * 環境設定
-   * 実装
+   * Visual Experience Composer
+   * レポート
    * Scene7 設定
+   * 実装
+   * プロパティ
    * ホスト
+   * 環境
+   * レスポンストークン
+   * ユーザー
 
 * ユーザーがあるワークスペース（製品プロファイル）から別のワークスペースにリソースを移動することはできません。ただし、コピーは可能です。
 * [!DNL Audiences] ページからオーディエンスを表示する場合、ページは予想よりも遅く読み込まれます。どのような方法であれ検索バーを使用すると、オーディエンスはより迅速に表示されます。これは既知の問題であり、今後の更新で修正されます。この問題は、アクティビティ作成ワークフローでのオーディエンスの選択には影響しません。
@@ -235,7 +240,7 @@ Target Premium でプロパティおよび権限を使用または設定する�
    * アクティビティ、オーディエンス、コードオファー、画像オファー、または以下のソリューションまたはメソッドを使用して作成されたその他のリソースは、Enterprise 権限モデルでは管理できませんが、デフォルトのワークスペース（Target Classic、Adobe Experience Manager（AEM）、Adobe Mobile Services、および API を利用して作成されたリソース）の一部になります。API を利用して作成されたリソースには、アクティビティ、オーディエンス、コードオファー、画像オファーが含まれます。
    * 現時点では、画像オファー（`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` に保管されているアセット）は Enterprise 権限モデルでは管理できません。
    * clickTracking とリダイレクトは、表示先リンクまたはリンク先ページが、アクティビティに含まれているプロパティの一部になっている場合のみ機能します。また、clickTracking は、`targetPageParams()` 関数を使用する場合は機能しないことがあります。関数には、`targetPageParamsAll()` を使用することをお勧めします。
-   Target は、現在、追跡が発生するすべてのページ上に `at_property` トークンが存在している必要があります。トークンが（1）存在しない場合、（2）（VEC 内での）アクティビティの設定時に検出されない場合、または（3）`targetPageParamsAll()` 関数で clickTracking mbox に渡されない場合、指標は増分されず、「0」と表示されます。
+   [!DNL Target] は、現在、追跡が発生するすべてのページ上に `at_property` トークンが存在している必要があります。トークンが（1）存在しない場合、（2）（VEC 内での）アクティビティの設定時に検出されない場合、または（3）`targetPageParamsAll()` 関数で clickTracking mbox に渡されない場合、指標は増分されず、「0」と表示されます。
 
    同じことが、リダイレクトを使用するアクティビティにも当てはまります。リダイレクト先のページには、`at_property` トークンがあり、VEC 内での設定時に認識される必要があります。
 
