@@ -5,10 +5,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 95%
+source-wordcount: '436'
+ht-degree: 94%
 
 ---
 
@@ -32,6 +32,8 @@ Dynamic Mediaからの画像のストレージ URL と最終公開 URL は異な
 Dynamic Media Classic(Scene7)と統合するには、次の情報を指定する必要があります。
 
 1. **[!UICONTROL 管理]** / **[!UICONTROL Scene7設定をクリックします]**。
+
+   ![Scene7ページ](/help/administrating-target/assets/scene7.png)
 
 1. 以下の Dynamic Media Classic アカウント情報を指定します。
 
