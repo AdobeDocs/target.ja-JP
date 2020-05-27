@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '912'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 27 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 自動配分アクティビティのターゲット用のAnalytics(A4T)のサポートに関する情報を追加しました。 |
 | 26 年 5 月 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 次の情報を追加しました。 「スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 プロファイルに既にアクティビティのオーディエンスーで使用されているパラメーターが含まれている場合、そのアクティビティの資格が得られます。」 |
 | 21 年 5 月 | [ホワイトリストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | リスト `mboxedge30.tt.omtrdc.net` に追加されました。 |
 | 20 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Standard/Premium 20.6.1（2020年6月10日）リリースに関する情報を追加しました。 |
