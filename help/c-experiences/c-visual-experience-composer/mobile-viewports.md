@@ -4,7 +4,10 @@ description: モバイルビューポートを使用すると、様々な画面�
 title: レスポンシブエクスペリエンスのためのモバイルビューポート
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Google Pixel | 411（w） x 731（h） | 1,080（w） x 1,920（h） |
 | Google Pixel XL | 411（w） x 731（h） | 1440（w） x 2560（h） |
 | Google Pixel 2 | 411（w） x 731（h） | 1,080（w） x 1,920（h） |
-| Google Pixel 2 XL | 411（w） x 731（h） | 1440（w） x 2560（h） |
+| Google Pixel 2 XL | 411（w） x 823（h） | 1440（w） x 2880（h） |
 | Samsung Galaxy Note 5 | 480（w） x 853（h） | 1440（w） x 2560（h） |
 | LG G5 | 480（w） x 853（h） | 1440（w） x 2560（h） |
 | One Plus 3 | 480（w） x 853（h） | 1,080（w） x 1,920（h） |
@@ -57,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Samsung Galaxy Tab 10 | 800（w） x 1280（h） | 800（w） x 1280（h） |
 | Chromebook Pixel | 1280（w） x 850（h） | 2560（w） x 1700（h） |
 
-人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。例えば、https://viewportsizer.com/devices/を参照す [るか](https://viewportsizer.com/devices/) 、デバイスメーカーのWebサイトを参照してください。
+人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。例えば、https://viewportsizer.com/devices/ [](https://viewportsizer.com/devices/) を参照するか、デバイスメーカーのWebサイトを参照してください。
 
 特定のデバイスを使用するユーザーにアクティビティを配信したい場合、アクティビティ図でそのデバイスに最適なオーディエンスを選択します。Mobile Web Composer を使用して、そのデバイスのアクティビティのページを編集します。デジタルエクスペリエンス全体にわたってアクティビティを実行したい場合で、すべてのデバイスで良好な見た目になるようにする場合、ターゲティングを適用せず、モバイルビューポートを使用して各スクリーンサイズでアクティビティをプレビューしてください。
 
@@ -152,7 +155,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer（2／2）（7：29） 概 ![要バッジ](/help/assets/overview.png)
+### Visual Experience Composer（2／2）（7：29） ![概要バッジ](/help/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 
@@ -165,7 +168,7 @@ Target アクティビティにモバイルビューポートを追加して、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe targetの概要バッジのアカウン ![ト設定](/help/assets/overview.png)
+### アドビターゲット ![概要バッジのアカウント設定](/help/assets/overview.png)
 
 このビデオの 4:40 の時点から、アカウントの基本設定でモバイルビューポートを設定する方法について説明しています。
 
