@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Adobe Target のレポートに関するよくある質問のリストです。
 title: Adobe Target のレポートの FAQ
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # レポートの FAQ{#reporting-faq}
 
 [!DNL Target] のレポートに関するよくある質問のリストです。
+
+## 新規訪問者指標と再訪問者指標はどのようにカウントされますか。
+
+次の点に留意してください。
+
+**新規訪問者**: 次のいずれかの条件を満たす場合、訪問者が新規訪問者セグメントに含まれます。
+
+* 訪問者がこのサイトを訪問するのは初めてです。
+* Cookieをクリアして以来、訪問者がサイトを訪問するのは初めてです。
+* 訪問者がサイトを訪問するのは、 [訪問者プロファイルの有効期間が過ぎてから初めて](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) です。
+
+**再訪問者**: 以前にサイトを訪問し、30分以上離れた後、同じcookieを使用してサイトに再度戻った場合、訪問者は再訪問者セグメントに含まれます。 訪問者の再訪問がプロファイルの有効期間内である限り、再訪問者として扱われます。
+
+この2つのセグメントがアクティビティに適用される場合、新しい訪問者セグメントと再訪問者セグメントは必ずしも訪問者の合計数に合致するとは限りません。
+
+次の例を考えてみましょう。上記の新しい訪問者と再訪問者の条件を考えてみましょう。
+
+* 訪問者が初めてサイトを訪問し、新しい訪問者としてカウントされます。
+* 再訪問者の条件が満たされた後、訪問者はサイトに戻り、再訪問者としてカウントされます。
+
+この訪問者は、新しい訪問者セグメントと再アクティビティセグメントの両方でカウントされる場合でも、訪問者の全体的な訪問者数では単一の訪問者としてカウントされます。
 
 ## [!UICONTROL エクスペリエンスターゲット設定]（XT）レポートにコントロールエクスペリエンス用の指標が含まれているのはなぜですか？
 
