@@ -4,10 +4,10 @@ description: モバイルビューポートを使用すると、様々な画面�
 title: レスポンシブエクスペリエンスのためのモバイルビューポート
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 96%
 
 ---
 
@@ -28,14 +28,24 @@ ht-degree: 98%
 
 | デバイス | ビューポートのサイズ | デバイスの解像度 |
 |---|---|---|
+| iPhone SE | 375（w） x 667（h） | 750（w） x 1334（h） |
+| iPhone 11 Pro Max | 414（w） x 896（h） | 1242（w） x 2688（h） |
+| iPhone 11 Xs最大 | 414（w） x 896（h） | 1242（w） x 2688（h） |
+| iPhone 11 | 414（w） x 896（h） | 828（w） x 1792（h） |
+| iPhone 11 Xr | 414（w） x 896（h） | 828（w） x 1792（h） |
+| iPhone 11 Pro | 375（w） x 812（h） | 1125（w） x 2436（h） |
+| iPhone 11 X | 375（w） x 812（h） | 1125（w） x 2436（h） |
+| iPhone 11 Xs | 375（w） x 812（h） | 1125（w） x 2436（h） |
 | iPhone X | 375（w） x 812（h） | 1125（w） x 2436（h） |
 | iPhone 8 Plus | 414（w） x 736（h） | 1,080（w） x 1,920（h） |
 | iPhone 8 | 375（w） x 667（h） | 750（w） x 1334（h） |
 | iPhone 7 Plus | 414（w） x 736（h） | 1,080（w） x 1,920（h） |
 | iPhone 7 | 375（w） x 667（h） | 750（w） x 1334（h） |
+| iPhone 6s プラス | 414（w） x 736（h） | 1,080（w） x 1,920（h） |
+| iPhone 6s | 375（w） x 667（h） | 750（w） x 1334（h） |
+| iPhone 6 Plus | 414（w） x 736（h） | 1,080（w） x 1,920（h） |
 | iPhone 6 | 375（w） x 667（h） | 750（w） x 1334（h） |
-| iPhone 6s | 414（w） x 736（h） | 1,080（w） x 1,920（h） |
-| iPadPro | 1024（w） x 1366（h） | 2048（w） x 2732（h） |
+| iPad Pro | 1024（w） x 1366（h） | 2048（w） x 2732（h） |
 | iPad 第 3 ＆第 4 世代 | 768（w） x 1,024（h） | 1,536（w） x 2,048（h） |
 | iPad Air 1 &amp; 2 | 768（w） x 1,024（h） | 1,536（w） x 2,048（h） |
 | iPad Mini | 768（w） x 1,024（h） | 768（w） x 1,024（h） |
