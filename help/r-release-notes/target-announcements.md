@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 ## Adobeターゲットスキルビルダー： Adobe Senesi AIを使用したエクスペリエンスのパーソナライズ `Adobe.com`
 
-インターネット上で最大のB2Eサイトの1つとして、Adobe Experience Cloudの「Customer Zero」の役割を全面的に受け入 `Adobe.com` れ、B2BとB2Cの両方の使用例に対してグローバルにすべてのソリューションを採用しています。 実践クリエイティブ、技術的でないマーケター、深く技術的なIT購買者など、無数の人をサービスするデジタルのターゲットとして、パーソナライゼーションはAdobe.comの成功にとって重要です。
+**2020年6月4日木曜日**
+
+**午前10時～午前10時45分 (EST)**
+
+インターネット上で最大のB2Eサイトの1つとして、Adobe Experience Cloudの「Customer Zero」の役割を全面的に受け入 `Adobe.com` れ、B2BとB2Cの両方の使用例に対してグローバルにすべてのソリューションを採用しています。 実践的なクリエイティブ、非技術的なマーケター、深く技術的なIT購入者など、無数の人々をサービスするデジタルのターゲットとして、パーソナライゼーションはの成功にとって重要 `Adobe.com`です。
 
 製品マネージャのTamer MinaとMark Tuyayが、パーソナライゼーションの仕組みに関する実際の話を紹介し `Adobe.com`ます。 このウェビナーでは、次の方法を学習します。
 
@@ -26,10 +30,6 @@ ht-degree: 0%
 * 流体エクスペリエンスを使用して、レコメンデーションコンテンツを横断的に拡大・縮小します。 `Adobe.com`
 * ターゲットレコメンデーションへのコンテンツの取り込みの自動化
 * 推奨コンテンツのパフォーマンスとリードジェネレーションとの相関関係を追跡
-
-**2020年6月4日木曜日**
-
-**午前10時～午前10時45分 (EST)**
 
 登録を行うには、Adobe Experience LeagueのWebサイトの [登録ページを参照してください](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
 
