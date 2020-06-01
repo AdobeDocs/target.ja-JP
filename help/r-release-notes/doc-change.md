@@ -5,10 +5,10 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 35%
+source-wordcount: '952'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6月1日 | [レスポンシブエクスペリエンスのためのモバイルビューポート](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Apple iPhone 11、Apple iPhone SE、Google Pixel 2 XLの各モデルのビューポートのサイズと解像度を更新しました。 |
 | 28 年 5 月 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 以下の新しい FAQ を追加しました。 <ul><li>新規訪問者指標と再訪問者指標はどのようにカウントされますか。</li></ul> |
 | 27 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 自動配分アクティビティのターゲット用のAnalytics(A4T)のサポートに関する情報を追加しました。 |
 | 26 年 5 月 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 次の情報を追加しました。 「スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 プロファイルに既にアクティビティのオーディエンスーで使用されているパラメーターが含まれている場合、そのアクティビティの資格が得られます。」 |
