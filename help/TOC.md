@@ -17,6 +17,7 @@ ht-degree: 93%
 
 + [Adobe Target 製品ドキュメント](target-home.md)
 + Target リリースノート {#release-notes}
+   + [Target announcements](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
    + [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
