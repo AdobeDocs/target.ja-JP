@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
+source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 | アクティビティのタイプ | 詳細 |
 |--- |--- |
 | [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | [!DNL Target] で使用している上昇率、信頼性、統計的アプローチを理解するには、「[A/Bテストのプラン](/help/c-activities/t-test-ab/sample-size-determination.md)」を参照してください。 |
+| [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 自動配分A/Bアクティビティの結果を解釈するには、ターゲットUIの上昇率や信頼性など、重要な指標を調べます。 |
 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md)（AT） | AT アクティビティの[!UICONTROL 概要]レポートに関する情報です。詳しくは、「[自動ターゲットの概要レポート](/help/c-reports/auto-target-summary-report.md)」を参照してください。<br>AT および AP アクティビティの 2 つの[!UICONTROL パーソナライゼーションインサイト]レポートに関する情報：[!UICONTROL 自動セグメント]レポートと[!UICONTROL 重要属性]レポート。詳しくは、「[パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
 | [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)（AP） | AP アクティビティに関する、2 つの [!UICONTROL 自動パーソナライゼーション概要レポートの情報]：[!UICONTROL アクティビティレベル]レポートおよび[!UICONTROL オファーレベル]レポート。詳しくは、「[自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md)」を参照してください。<br>AT および AP アクティビティの 2 つの[!UICONTROL パーソナライゼーションインサイト]レポートに関する情報：[!UICONTROL 自動セグメント]レポートと[!UICONTROL 重要属性]レポート。詳しくは、「[パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | MVT アクティビティの 2 つのレポートに関する情報：[!UICONTROL エクスペリエンスのパフォーマンス]レポートおよび[!UICONTROL 場所の貢献度]レポート。詳しくは、「[エクスペリエンスのパフォーマンスレポート（MVT）](/help/c-reports/experience-performance-report.md) 」と「[場所の貢献度レポート（MVT）](/help/c-reports/location-contribution-report.md)」を参照してください。 |
@@ -65,12 +69,12 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
    * [!UICONTROL レポートを CSV に書き出す]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
 
-1. （オプション）**[!UICONTROL テーブル表示]**および****グラフ表示アイコンをクリックして、レポートの形式を切り替えます。
+1. （オプション）**[!UICONTROL テーブル表示]**&#x200B;および&#x200B;****&#x200B;グラフ表示アイコンをクリックして、レポートの形式を切り替えます。
 
-   選択したレポートのタイプに応じて、他のビューやレポートを使用できる場合があります。
+   選択したレポートのタイプに応じて、次のような他の表示やレポートを利用できます。
 
    | レポートタイプ | 表示 |
    | --- | --- |
-   | 自動ターゲット | 「自動セグメント **[!UICONTROL 」または「重要な属性]**」ア**[!UICONTROL &#x200B;イコンをクリックします]** 。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
-   | 自動パーソナライゼーション（AP） | 自動パーソナライゼーションサ [マリレポートに加えて](/help/c-reports/reports-ap.md)、自動セグメントアイコンまたは重 **[!UICONTROL 要な属性]****[!UICONTROL &#x200B;アイコンをクリックできます]** 。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
-   | 多変量分析テスト（MVT） | エクスペリエンスのパフォーマンス [レポートに加えて](/help/c-reports/experience-performance-report.md)、場所の貢献度アイコンをクリックして、場所ごと [](/help/c-reports/location-contribution-report.md) に貢献度を表示するレポートを切り替えることができます。 |
+   | 自動ターゲット | 「 **[!UICONTROL 自動セグメント]** 」アイコンまたは「 **[!UICONTROL 重要な属性]** 」アイコンをクリックします。<ul><li>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
+   | 自動パーソナライゼーション（AP） | 自動パーソナライゼーションサマリレポートに加え [て](/help/c-reports/reports-ap.md)、「 **[!UICONTROL 自動セグメント]** 」アイコンまたは「 **[!UICONTROL 重要な属性]** 」アイコンをクリックできます。<ul><li>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
+   | 多変量分析テスト（MVT） | エ [クスペリエンスのパフォーマンスレポートに加えて](/help/c-reports/experience-performance-report.md)、「場所の貢献度 [](/help/c-reports/location-contribution-report.md) 」アイコンをクリックして、レポートを切り替え、場所ごとの貢献度を表示できます。 |
