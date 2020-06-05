@@ -4,34 +4,38 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# ターゲットのお知らせ
+# ターゲットのお知らせとイベント
 
 ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
 
-## Adobeターゲットスキルビルダー： Adobe Senesi AIを使用したエクスペリエンスのパーソナライズ `Adobe.com`
+## AdobeターゲットコミュニティQ&amp;Aコーヒーブレーク
 
-**2020年6月4日木曜日**
+**2020年6月10日（水）**
 
-**午前10時～午前10時45分 (EST)**
+**午前10時～11時。 (PST)**
 
-インターネット上で最大のB2Eサイトの1つとして、Adobe Experience Cloudの「Customer Zero」の役割を全面的に受け入 `Adobe.com` れ、B2BとB2Cの両方の使用例に対してグローバルにすべてのソリューションを採用しています。 実践的なクリエイティブ、非技術的なマーケター、深く技術的なIT購入者など、無数の人々をサービスするデジタルのターゲットとして、パーソナライゼーションはの成功にとって重要 `Adobe.com`です。
+次回の [!DNL Adobe Target] コミュニティQ&amp;Aコーヒー休憩にご参加ください。 これは最近、社内の専門家がフォーラムのスレッドで直接お客様と「コーヒーブレーク」を開催するためのシリーズの一環です。 これは、AMA(Ask Me Anything)やTwitterチャットと同等の [!DNL Adobe Target] コミュニティフォーラムと考えてください。
 
-製品マネージャのTamer MinaとMark Tuyayが、パーソナライゼーションの仕組みに関する実際の話を紹介し `Adobe.com`ます。 このウェビナーでは、次の方法を学習します。
+プロダクトマネージャのデビッド・ソン [!DNL Target] 氏が、あなたの全ての質問に答えます。 Davidの専門分野は次のとおりです。
 
-* 手動での更新を必要とせずに、コンテンツを関連性の高い最新の状態に保つ
-* 流体エクスペリエンスを使用して、レコメンデーションコンテンツを横断的に拡大・縮小します。 `Adobe.com`
-* ターゲットレコメンデーションへのコンテンツの取り込みの自動化
-* 推奨コンテンツのパフォーマンスとリードジェネレーションとの相関関係を追跡
+* at.js
+* モバイル
+* 合金
+* API
 
-登録を行うには、Adobe Experience LeagueのWebサイトの [登録ページを参照してください](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
+しかし、ターゲットに関する質問は自由に聞いてみてください。
+
+参加するには、 [Adobeターゲットコミュニティにサインインする必要があります](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) 。
+
+[登録はこちらから](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobeターゲットスキルビルダー： 開発者チャット，アドビターゲットのmbox.jsをat.jsに移行 {#skill-builder}
 
