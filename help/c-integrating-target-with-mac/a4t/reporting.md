@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 44%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
@@ -34,22 +34,30 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 >
 >Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. 最初の 24 時間に収集されたデータも正確であり、適切なエクスペリエンスに割り当てられます。
 
-## Analytics のレポート {#section_F6884872DC864AE7913587FAED4CD11C}
+## Analytics のレポート {#analytics}
 
-In [!DNL Analytics], click **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** in the left menu. In [!DNL Target], the activity&#39;s reports automatically show [!DNL Analytics] data, metrics, and segments. これらのレポートでは、データがサイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、オーディエンスおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
+に [!DNL Analytics]は、A4T統合を有効にした後に使用できるディメンションと指標がいくつか用意されています。
 
-In [!DNL Analytics], use the [!UICONTROL Target Activities] report to view the results of your [!DNL Target] activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include [!DNL Analytics] for [!DNL Target] data. In the [!UICONTROL Activities] report, view information about your [!DNL Target] experiences. 「**[!UICONTROL 指標]**」をクリックして、「**[!UICONTROL Target」指標タイプを選択します。]**&#x200B;レポートでは、2 つの指標を利用できます。
+### ディメンション
 
-* **アクティビティのエントリ：**[!DNL Target] レポートの参加者数に対応します。
-* **アクティビティのコンバージョン：**[!DNL Target] レポートのカスタムコンバージョン数に対応します。
+* [!UICONTROL ターゲットの分析] — 統合を介して渡される親ID。 このディメンションの形式はで `Activity ID:Experience ID:3rd ID`す。 次のディメンションは、このディメンションの分類です。
+* [!UICONTROL ターゲットアクティビティ]
+* [!UICONTROL ターゲットエクスペリエンス]
+* [!UICONTROL ターゲットアクティビティ] / [!UICONTROL エクスペリエンス]
+* [!UICONTROL 3番目のID] — 無視可能
 
->[!NOTE]
->
->[!DNL Target] 上昇率と信頼性の詳細は、でも参照でき [!DNL Analytics]ます。 詳しくは、『 [Analyticsコンポーネントガイド』の「](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) ターゲットの上昇率と信頼性 *」を参照してください*。
+### 指標
+
+* [!UICONTROL アクティビティのインプレッション] — レ [!UICONTROL ポートの][!DNL Target] 参加者数に一致します。
+* [!UICONTROL アクティビティコンバージョン] — レポート内の [!UICONTROL カスタムコンバージョン][!DNL Target] 数に一致します。
+
+で [!DNL Analysis Workspace]は、 [!UICONTROL Analyticsのターゲット用パネルを使用して、] 上昇率と信頼性を持つ [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、Analyticsツールガイドの [ターゲット用の](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *(* Analyticsツールガイド)を参照してください。
 
 >[!IMPORTANT]
 >
 >If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. カスタマーケアに連絡して、この問題を解決してください。
+
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
 ## Target のレポート {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -65,12 +73,6 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. 測定する内容を事前に正確に知っておく必要はありません。
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
-
-## Analysis Workspace のレポート {#reports-in-analysis-workspace}
-
-[!DNL Adobe Analysis Workspace] を使用すると、データをより深く分析したり、データを可視化したり、表に現れない隠れたインサイトを明らかにしたりできます。
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by [!DNL Adobe Experience League].
 
 ## アクティビティの作成 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
