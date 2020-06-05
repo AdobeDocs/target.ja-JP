@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1008'
 ht-degree: 33%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 6月5日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 6月10日付けのアドビターゲットのコーヒーブレークに関する情報を追加しました。 |
+|  | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 次のFAQのテキストを更新しました。 「計算指標で上昇率と信頼性が表示されないのはなぜですか？」 |
 | 6月4日 | [A4T レポート](/help/c-integrating-target-with-mac/a4t/reporting.md) | 「Analyticsのレポート」節を更新しました。 |
 | 6月1日 | [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md) | 今後のターゲットイベントを発表する新しいページを追加しました。 |
 |  | [レスポンシブエクスペリエンスのためのモバイルビューポート](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Apple iPhone 11、Apple iPhone SE、Google Pixel 2 XLの各モデルのビューポートのサイズと解像度を更新しました。 |
