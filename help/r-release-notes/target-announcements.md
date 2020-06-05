@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 * at.js
 * モバイル
-* 合金
+* Adobe Experience Platform - AEP Web SDK(Alloy)
 * API
 
 しかし、ターゲットに関する質問は自由に聞いてみてください。
