@@ -1,11 +1,11 @@
 ---
-keywords: implement;implementing;whitelist;white list;edge;edges
-description: ホワイトリストのAdobeターゲットエッジノード
-title: ホワイトリストのAdobeターゲットエッジノード
+keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+description: Adobeターゲットエッジノードを許可する
+title: Adobeターゲットエッジノードを許可する
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 ---
 
 
-# ホワイトリストターゲットのエッジノード
+# ターゲットエッジノードを許可
 
-アドビの [!DNL Target] エッジをホワイトリストに登録するのに役立つ、ホストの情報と最新リストです。
+アドビの [!DNL Target] エッジを許可するのに役立つ、ホストの情報と最新リストです。
 
 エッジは、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、アドビ [の仕組みのエッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)*を参照してくだ[!DNL Target]さい*。
 
-必要に応じて、 [!DNL Target] エッジノードをホワイトリストに登録できます。
+必要に応じて、 [!DNL Target] エッジノードをリストに含めることができます。
 
 次のリストには、現在のホストが含まれます。
 
