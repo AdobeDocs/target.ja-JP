@@ -5,9 +5,9 @@ title: モバイルアプリ用Adobeターゲットに関するよくある質�
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ See the [Adobe Places documentation](https://placesdocs.com/places-services-by-a
 
 ## ターゲットモバイルはAdobeターゲットプレミアム製品SKUの機能のみですか。
 
-Adobe Adobe Standardのお客様は、A/B Test and Experience Targeting(XT)アクティビティに対してのみ、Mobile SDKを使用できます。 モバイルアプリでRecommendationsまたはAIに基づく機能を使用する場合は、 [Adobeターゲットプレミアム](/help/c-intro/intro.md#premium) ライセンスが必要です。
+いいえ。Mobile SDKをA/B Test and Experience Targeting(XT)アクティビティに使用できるのは、 [!DNL Adobe Target Standard] モバイルアプリアドオンのみで [!DNL Target Standard] す。 モバイルアプリでRecommendationsまたはAIに基づく機能を使用する場合は、 [Adobeターゲットプレミアム](/help/c-intro/intro.md#premium) ライセンスが必要です。
 
 ## Adobe Experience Manager(AEM)とターゲットのモバイルアクティビティの間にモバイルアプリは統合されますか？
 
