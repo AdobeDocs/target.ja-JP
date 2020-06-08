@@ -1,10 +1,13 @@
 ---
-keywords: IP アドレス;IP アドレス;ホワイトリスト, ファイアウォール;recs;フィード;サーバー; adobe experience cloud;recommendations
+keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: ファイアウォールを設定してアドビサーバーからの IP アドレスを許可するのに役立つ、オレゴンデータセンターにある Recommendations フィード処理サーバーで使用される IP アドレスのリスト。
 title: Recommendations フィード処理サーバーで使用される IP アドレス
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 87%
 
 ---
 
