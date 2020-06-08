@@ -1,11 +1,14 @@
 ---
-keywords: FAQ;よくある質問;analytics for target;A4T;リダイレクト;リダイレクトオファー;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のリダイレクトオファーの使用に関するよくある質問に対する回答が含まれています。
 title: リダイレクトオファー - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 ## Web サーバーで、これらのパラメーターが URL から除去されます。どうすればよいですか？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-組織の IT チームと協力して、これらのパラメーター（`adobe_mc_sdid` と `adobe_mc_ref`）をホワイトリストに登録する必要があります。
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ A4T とリダイレクトオファーを使用する場合、Target によって
 
 訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。これにより、間違った SDID 値が Target と Analytics に送信され、その結果、Analytics レポートにリダイレクトの不均一な分割が表示されます。
 
-これらの値が変換されないようにするために、IT チームに相談して `adobe_mc_ref` と `adobe_mc_sdid` をホワイトリストに登録することをお勧めします。
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## 参照 URL を新しいページに渡す必要があるのはなぜですか？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
