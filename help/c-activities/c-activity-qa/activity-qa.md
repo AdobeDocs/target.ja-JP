@@ -5,10 +5,10 @@ title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -83,7 +83,7 @@ AdobeターゲットのQA URLを使用して、変更のないプレビューリ
 
    これらの値が変換されないように、IT チームに相談してすべてのプレビューパラメーターをホワイトリストに登録することをお勧めします。
 
-   次の表に、ドメイン内でホワイトリストに入れることができるパラメーターを示します。
+   次の表に、ドメインに含めることができるリストを示します。
 
    | パラメーター | タイプ | 値 | 説明 |
    |--- |--- |--- |--- |
