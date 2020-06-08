@@ -5,7 +5,7 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29262'
 ht-degree: 92%
@@ -119,7 +119,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![複数値の属性を含むプレミアムバッジ](/help/assets/premium.png) （複数値） | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>このようなシナリオでレコメンデーションを処理するには、複数値のデータをターゲットレコメンデーションに渡し、特別な複数値演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+| ![複数値の属性を含むプレミアムバッジ](/help/assets/premium.png) （複数値） | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>このようなシナリオでレコメンデーションを処理するには、複数値のデータをターゲットレコメンデーションに渡し、特別な複数値の演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ### Target Standard／Premium 19.10.1（2019 年 10 月 22 日）
 
@@ -281,6 +281,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
    * 画像オファーライブラリ内の空ではないフォルダを削除できます。フォルダー内のすべての画像がどのアクティビティでも参照されていない場合、フォルダー全体とそのコンテンツが削除されます。フォルダー内の一部の画像が何らかのアクティビティで参照されている場合、参照されていないすべての画像は削除されますが、参照画像とそれらの画像を含むフォルダは保持されます。
    * 画像アセットピッカーでの画像オファーのレンダリングは、より高速かつ効率的に行われます。
+
    詳しくは、「[ライブラリ内のコンテンツの操作](/help/c-experiences/c-manage-content/assets-working.md)」を参照してください。（TGT-32897）
 
 * アセットピッカーの画像オファーのレンダリングを改善しました。画像オファーの表示および選択がよりすばやく効率的になりました。（TGT-32897）
@@ -462,6 +463,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
    * AAM でオーディエンスが削除されている場合、[!UICONTROL オーディエンス]リストとオーディエンスピッカーの両方に警告アイコンが表示されます。また、UI のツールチップにも、AAM でオーディエンスが削除されていることが表示されます。
    * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
+
    [オーディエンスの概要](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)を参照してください。
 
 * [!UICONTROL セットアップ]ページで Adobe Analytics をレポートソースとして選択した場合に、特定の状況でアクティビティを作成できないという問題を修正しました。以前は、レポートスイートを選択できない場合でも、「レポートスイートを選択してください」というメッセージが表示されていました。（TGT-31968）
@@ -1814,7 +1816,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>拡張 Visual Experience Composer（VEC） </p> </td> 
-   <td colname="col2"> <p>拡張 Visual Experience Composer（VEC）の IP アドレスを更新しました。 </p> <p>VEC に使用される IP アドレスをホワイトリストに登録している場合は、新しい IP アドレスを追加してください。 </p> <p>詳しくは、<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Visual Experience Composer のトラブルシューティング</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>拡張 Visual Experience Composer（VEC）の IP アドレスを更新しました。 </p> <p>VECに使用するIPアドレスを許可する場合は、新しいIPアドレスを追加します。 </p> <p>詳しくは、<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Visual Experience Composer のトラブルシューティング</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2186,6 +2188,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
    1. URL をダミー URL に変更して保存します。
    1. ダミー URL を再度キャンペーンの正しいリダイレクト URL に変更します。
    1. 「現在のクエリパラメーターを含める」オプションをチェックして保存します。
+
    新しいリダイレクトオファーを作成中にオプションをチェックした場合は、クエリのパラメーターがリダイレクトに含まれるはずです。
 
    古いアクティビティについては、もしアクティビティの Experience Composer でこのオプションがチェックされていた場合は、クエリのパラメーターがリダイレクトに含まれることになります。チェックされていない場合は、現在のクエリのパラメーターはリダイレクトに含まれません。
