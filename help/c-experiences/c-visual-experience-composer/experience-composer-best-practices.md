@@ -1,11 +1,14 @@
 ---
-keywords: Visual Experience Composer;Visual Experience Composer のベストプラクティス;Visual Experience Composer の制限事項;Visual Experience Composer の注意事項;VEC のベストプラクティス;VEC
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 以下のベストプラクティスは、エクスペリエンスを期待どおりに動作させるために役立ちます。また、Visual Experience Composer（VEC）を使用する際に理解しておく必要があるその他のヒントと制限事項についても説明します。
 title: Visual Experience Composer のベストプラクティスと制限事項
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -32,9 +35,9 @@ mbox.js は `<head>` セクションの最後に配置し、その後に宣言�
 
 Visual Experience Composer でアクティビティを作成する際に拡張 Experience Composer をアクティビティレベルで有効にするには、[!UICONTROL 設定／URL] をクリックし、スイッチをオンの位置に切り替えます。
 
-**サイトのセキュリティで保護されているページに拡張 Visual Experience Composer が読み込めない場合、特定の IP アドレスをホワイトリストに登録できます。**
+**拡張Visual Experience Composerがサイトのセキュリティで保護されたページで読み込まれない場合、特定のIPアドレスを許可できます。**
 
-拡張 Visual Experience Composer の読み込みの問題は、以下の IP アドレスをホワイトリストに登録することで解決できます。これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者については、これらの IP アドレスをホワイトリストに登録する必要はありません。
+拡張Visual Experience Composerの読み込みの問題は、次のIPアドレスを許可することで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらのIPアドレスを許可されている必要はありません。
 
 米国：52.55.99.45、54.80.158.92 および 54.204.197.253
 
