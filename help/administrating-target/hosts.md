@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
-[!DNL Target] では、mbox を送受信できるホストを制限しないため、新たに追加されたサーバーやドメインは自動的に動作します（ホワイトリストまたはブラックリストを設定している場合を除く）。このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
+[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが検出されると、自動的に機能します（許可リストまたはブロックリストを設定していない場合）。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
 
 ホストを管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL ホスト]**&#x200B;をクリックします。
 
@@ -70,11 +70,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-[!DNL Target] に対して mbox 呼び出しを送信する権限のあるホスト（ドメイン）を指定するホワイトリストを作成できます。呼び出しを生成するその他のすべてのホストに対しては、コメントアウト認証エラーの応答が送信されます。デフォルトでは、mbox 呼び出しを含むホストは、実稼動環境の [!DNL Target] に登録され、アクティブで承認済みのすべてのキャンペーンへのアクセス権を持ちます。これが期待された手法でない場合は、代わりにホワイトリストを使用して、mbox の呼び出しと [!DNL Target] コンテンツの受け取りの資格がある特定のホストを記録できます。すべてのホストは、「[!UICONTROL ホスト]」リストに引き続き表示されます。また、環境は引き続きこれらのホストをグループ化したり、ホストごとに異なるレベル（ホストがアクティブまたは非アクティブなキャンペーンを表示できるかどうかなど）を割り当てることができます。
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 呼び出しを生成するその他のすべてのホストに対しては、コメントアウト認証エラーの応答が送信されます。デフォルトでは、mbox 呼び出しを含むホストは、実稼動環境の [!DNL Target] に登録され、アクティブで承認済みのすべてのキャンペーンへのアクセス権を持ちます。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. すべてのホストは、「[!UICONTROL ホスト]」リストに引き続き表示されます。また、環境は引き続きこれらのホストをグループ化したり、ホストごとに異なるレベル（ホストがアクティブまたは非アクティブなキャンペーンを表示できるかどうかなど）を割り当てることができます。
 
-ホワイトリストを作成するには、次の手順に従います。
+許可リストを作成するには：
 
 1. 「 [!UICONTROL ホスト] 」リストで、「ホストを **[!UICONTROL 認証]**」をクリックします。
 1. 「承認済みホストをコンテンツ配信に対して **[!UICONTROL 有効にする]** 」切り替えを有効にします。
@@ -92,9 +92,9 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、このホワイトリストは、リダイレクターがナビゲートできるドメインのリストも制御することに注意して [ください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 ホワイトリストに指定がない場合、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
+>**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されません。
 >
->ホワイトリストは環境に優先して適用されます。ホワイトリスト機能を使用する前にすべてのホストをクリアしてください。そうすると、ホワイトリストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
+>許可リストは環境よりも優先されます。 allowlist機能を使用する前に、すべてのホストをクリアする必要があります。そうすれば、allowlistで許可されているホストのみがhostsリストに表示されます。 その後、ホストを必要な環境に移動できます。
 
 場合によっては、他のサイトからのドメインが環境内に表示されることがあります。ドメインがat.jsまたはmbox.jsを呼び出す場合、リストにドメインが表示されます。 例えば、自分の Web ページのいずれかが他のユーザーのサーバーにコピーされた場合は、そのサーバーのドメインが自分の環境に表示されます。スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることもあります。
 
@@ -104,7 +104,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!NOTE]
 >
->認証済みホストリストは、mboxホストとデフォルトのリダイレクトホストの両方に使用されるので、AdobeターゲットJavascript SDK(at.js)を使用するように承認された既存のドメインと、uboxのデフォルトのリダイレクトURLで使用されるすべてのを追加する必要があります。 ** また、今後、ホワイトリストに類似した新しいドメインを追加する必要もあります。
+>認証済みホストリストは、mboxホストとデフォルトのリダイレクトホストの両方に使用されるので、AdobeターゲットJavascript SDK(at.js)を使用するように承認された既存のドメインと、uboxのデフォルトのリダイレクトURLで使用されるすべてのを追加する必要があります。 ** また、今後、同様の新しいドメインを許可リストに追加する必要もあります。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
