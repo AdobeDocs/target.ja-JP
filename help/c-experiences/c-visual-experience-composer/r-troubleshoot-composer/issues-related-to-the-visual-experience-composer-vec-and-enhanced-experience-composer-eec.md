@@ -1,10 +1,13 @@
 ---
-keywords: ターゲット設定;visual experience composer;ホワイトリスト;ホワイトリスト;拡張 visual experience composer;vec;visual experience composer のトラブルシューティング;トラブルシューティング;eec;拡張 experience composer;tls;tls 1.2
+keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Visual Experience Composer（VEC）と拡張 Experience Composer（EEC）では、特定の条件下で表示の問題が発生することがあります。
 title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Web サイトが、エクスペリエンスの定義後に Visual Experience Com
 
 ## iFrame バスティングのサイトのエクスペリエンスを編集できない。（VEC と EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]**&#x200B;をクリックし、拡張 Experience Composer を有効にするチェックボックスをオンにします。拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。これにより、iFrame バスティングのサイトの編集と、まだ Adobe Target コードを追加していないサイトとページの編集が可能になります。コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。 []
+この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックし、拡張 Experience Composer を有効にするチェックボックスをオンにします。拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。これにより、iFrame バスティングのサイトの編集と、まだ Adobe Target コードを追加していないサイトとページの編集が可能になります。コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。 []
 
 >[!NOTE]
 >
@@ -76,11 +79,11 @@ Web サイトが、エクスペリエンスの定義後に Visual Experience Com
 
 ## 「テキスト／HTML を編集」または「テキスト／HTML を変更」でテキストスタイルの太字および斜体がページで表示されません。これらのスタイル変更を適用すると、テキストが消えることがあります。（VEC と EEC）{#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Visual Experience Composer で A/B またはエクスペリエンスターゲット設定アクティビティに「**[!UICONTROL テキスト／HTML を編集]**」を使用したり、自動パーソナライゼーションまたは多変量分析テストアクティビティに「**テキスト／HTML を変更]」を使用して、テキストに太字や斜体を設定すると、Visual Experience Composer でこれらのスタイルがページに適用できないか、ページからテキストが消えることがあります。[!UICONTROL **&#x200B;これは、リッチテキストエディターでこれらのスタイルを適用する方法が Web サイトのマークアップに影響を与える可能性があるためです。
+Visual Experience Composer で A/B またはエクスペリエンスターゲット設定アクティビティに「**[!UICONTROL テキスト／HTML を編集]**」を使用したり、自動パーソナライゼーションまたは多変量分析テストアクティビティに「**[!UICONTROL テキスト／HTML を変更]**」を使用して、テキストに太字や斜体を設定すると、Visual Experience Composer でこれらのスタイルがページに適用できないか、ページからテキストが消えることがあります。これは、リッチテキストエディターでこれらのスタイルを適用する方法が Web サイトのマークアップに影響を与える可能性があるためです。
 
 この問題が発生した場合、次の手順に従ってください。
 
-1. リッチテキストエディターの **[!UICONTROL HTML]ボタンをクリックして、ソース編集モードに入ります。**
+1. リッチテキストエディターの **[!UICONTROL HTML]** ボタンをクリックして、ソース編集モードに入ります。
 1. スタイルテキスト要素を検索します。
 
    * 太字テキストの場合は、`<strong>`要素を`<b>`に変更します。
