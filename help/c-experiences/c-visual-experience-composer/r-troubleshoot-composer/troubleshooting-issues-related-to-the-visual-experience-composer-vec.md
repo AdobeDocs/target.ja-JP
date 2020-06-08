@@ -1,10 +1,13 @@
 ---
-keywords: ターゲット設定;visual experience composer;ホワイトリスト;ホワイトリスト;vec;visual experience composer のトラブルシューティング;トラブルシューティング;tls;tls 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Visual Experience Composer（VEC）では、特定の状況で表示の問題が起きることがあります。
 title: Visual Experience Composer に関連する問題のトラブルシューティング
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Web サイト（特に単一ページアプリ）で、ページの再読み込�
 
 拡張 Experience Composer で問題が発生した場合、拡張 Experience Composer をオフにして、代わりに Visual Experience Composer を使用します。
 
-拡張 Experience Composer を無効にするには、**[!UICONTROL セットアップ]** / **[!UICONTROL 環境設定]**&#x200B;に移動し、「**[!UICONTROL 拡張 Experience Composer を有効にする]**」オプションをオフにします。
+拡張 Experience Composer を無効にするには、**[!UICONTROL セットアップ]**／**[!UICONTROL パフォーマンス]**&#x200B;に移動して、「**[!UICONTROL 拡張 Enhanced Experience Composer]**」オプションをオフにします。
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
@@ -72,14 +75,15 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
 
       * 「**[!UICONTROL Add（追加）]**」を「**[!UICONTROL Remove（削除）]**」に切り替えます。
       * 「**[!UICONTROL Request（リクエスト）]**」を「**[!UICONTROL Response（応答）]**」に切り替えます。
-      * ヘッダー名として "X-Frame-Options" と入力します。
+      * ヘッダー名として &quot;X-Frame-Options&quot; と入力します。
       * 前述の手順を繰り返し、ヘッダー名に「x-frame-options」と入力します。
 
          >[!NOTE]
          >
          >Requestly を使用して編集したヘッダーでは、大文字と小文字が区別されます。
 
-      * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**Contains（含む）]」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。[!UICONTROL **
+      * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**[!UICONTROL Contains（含む）]**」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。
+
       ![](assets/chrome_extension.png)
 
 
@@ -94,7 +98,7 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
 1. Firefox に Modify Response Headers をインストールし、ブラウザーを再起動します。
 1. Firefox 拡張機能から、Modify Response Headers 拡張機能を選択します。
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
-1. Action（アクション）ドロップダウンから **[!UICONTROL Filter（フィルター）]を選択します。**
+1. Action（アクション）ドロップダウンから **[!UICONTROL Filter（フィルター）]** を選択します。
 1. 「Header Name（ヘッダー名）」フィールドに、「**[!UICONTROL X- Frame- Options]**」と入力します。
 1. 手順 4 と 5 を繰り返して、**[!UICONTROL x-frame-options]** によるフィルターを追加します。
 1. 「**[!UICONTROL 追加]**」をクリックします。
