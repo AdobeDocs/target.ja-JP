@@ -1,10 +1,13 @@
 ---
-keywords: ターゲット設定;eec;visual experience composer;拡張 experience composer のトラブルシューティング;トラブルシューティング
+keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 71%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。（EEC のみ）{#section_D29E96911D5C401889B5EACE267F13CF}
 
-この問題は、以下の IP アドレスをホワイトリストに登録することで解決できます。これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者については、これらの IP アドレスをホワイトリストに登録する必要はありません。
+この問題は、次のIPアドレスを許可することで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者には、これらのIPアドレスを許可しておく必要はありません
 
-次の IP アドレスをホワイトリストに登録するように、IT チームに依頼します。
+ITチームに次のIPアドレスを許可するように依頼します。
 
 | 地域 | IP アドレス | ホスト名 |
 |--- |--- |--- |
@@ -27,7 +30,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target では次のエラーメッセージが表示される場合があります。
 
-`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can whitelist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
 ![](assets/EEC_error.png)
 
@@ -35,24 +38,24 @@ Target では次のエラーメッセージが表示される場合がありま�
 
 * **問題：** Web サイトのドメイン（ISP）によって拡張 Experience Composer がブロックされています。
 
-   **解決方法：**&#x200B;上述のリストの IP アドレスをホワイトリストに登録します。
+   **Remedy:** 上記のIPアドレスを許可します。
 
-* **問題：** IP アドレスはホワイトリストに登録されていますが、Web サイトが TLS バージョン 1.2 をサポートしていません。Target は現在 1.2 のデフォルト設定を利用します。Target 18.4.1 （2018 年 4 月 26 日）前までは、デフォルト設定で TLS 1.0 をサポートしていました。詳細は、「[TLS（Transport Layer Security）暗号化の変更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)」を参照してください。
+* **問題：** IPアドレスは許可されていますが、WebサイトではTLSバージョン1.2がサポートされていません。ターゲットは、デフォルトの設定である1.2を使用しています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定であるTLS 1.0を参照してください [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。.
 
    **解決策：**&#x200B;次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。Target は現在 1.2 のデフォルト設定を利用します。Target 18.4.1 （2018 年 4 月 26 日）前までは、デフォルト設定で TLS 1.0 をサポートしていました。詳細は、「[TLS（Transport Layer Security）暗号化の変更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)」を参照してください。
+上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
 1. Firefox で対象の Web サイトを開きます。
-1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]アイコンをクリックします。**
+1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]**&#x200B;アイコンをクリックします。
 
    ![](assets/firefox_more_info.png)
 
-1. 「**[!UICONTROL 接続の詳細の表示]**」／「**[!UICONTROL 詳細を表示]**」の順にクリックします。
+1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
    ![](assets/firefox_more_info_2.png)
 
