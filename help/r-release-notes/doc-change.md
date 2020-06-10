@@ -5,7 +5,7 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 33%
@@ -31,7 +31,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 28 年 5 月 | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 以下の新しい FAQ を追加しました。 <ul><li>新規訪問者指標と再訪問者指標はどのようにカウントされますか。</li></ul> |
 | 27 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 自動配分アクティビティのターゲット用のAnalytics(A4T)のサポートに関する情報を追加しました。 |
 | 26 年 5 月 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 次の情報を追加しました。 「スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 プロファイルに既にアクティビティのオーディエンスーで使用されているパラメーターが含まれている場合、そのアクティビティの資格が得られます。」 |
-| 21 年 5 月 | [ターゲットエッジノードを許可](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | リスト `mboxedge30.tt.omtrdc.net` に追加されました。 |
+| 21 年 5 月 | [ターゲットエッジノードを許可](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | リスト `mboxedge30.tt.omtrdc.net` に追加されました。 |
 | 20 年 5 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Standard/Premium 20.6.1（2020年6月10日）リリースに関する情報を追加しました。 |
 |  | [ホスト](/help/administrating-target/hosts.md) | 「セキュリティのベストプラクティス」の節に注意を追加しました。 |
 | 14 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | プロファイルバッチステータスAPI v2の変更に関する情報を追加しました。 |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 23 年 4 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）* |
 | 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobeターゲットスキルビルダー： 開発者チャットで、アドビターゲットのmbox.jsをat.jsに移行します。* |
-| 14 年 4 月 | [許可リストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新規トピックです。 |
+| 14 年 4 月 | [許可リストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 新規トピックです。 |
 | 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。 「導入のベストプラクティス」 |
 | 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性を表示できないのはなぜですか？」のテキストを更新しました。 |
 | 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジ `user.header('x-forwarded-for')` を使用してユーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
