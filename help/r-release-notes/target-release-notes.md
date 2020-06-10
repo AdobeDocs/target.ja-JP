@@ -5,10 +5,10 @@ title: アドビターゲットプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 20%
+source-wordcount: '413'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月4日**
+**最終更新日： 2020年6月10日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -41,7 +41,6 @@ ht-degree: 20%
 | --- | --- |
 | Analytics for Target（A4T） 自動配分アクティビティのサポート | 6月のリリースでは、自動配分テストで [Analyticsのターゲットがサポートされ](/help/c-integrating-target-with-mac/a4t/a4t.md)ます。 この統合により、自動配分のマルチアームバンディット機能を使用して、Adobe Analyticsの目標指標やAdobe Analyticsのレポート機能および分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。 A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。 |
 | 投稿者ロール | この新しい役割は、現在の監視者の役割に似ています(アクティビティを表示することはできますが、作成または編集することはできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
-| 管理<br>ページ旧称「設定」 | 設定ページの名前が「管理」に変更され、すべてのメニュー項目のUIが更新され、ワークフローと使いやすさが向上しました。<br>次のメニュー項目を使用できます。<ul><li>Visual Experience Composer</li><li>レポート</li><li>Scene7 設定</li><li>実装</li><li>プロパティ</li><li>ホスト</li><li>環境</li><li>レスポンストークン</li><li>ユーザー</li></ul> |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
