@@ -1,10 +1,13 @@
 ---
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
-description: Adobe targetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-title: Adobe Target Recommendations
+description: AdobeターゲットのRecommendationsアクティビティは、以前のユーザーのアクティビティや他のアルゴリズムを基にして、顧客が興味を持つ可能性のある商品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+title: Adobeターゲット推奨事項
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +46,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：アクティビティのタイプ 概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：アクティビティのタイプ ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
 
@@ -53,8 +56,8 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs} チュート ![リアルバッジ](/help/assets/tutorial.png)
+## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs} ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
-[Recommendations の概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations の概要](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
