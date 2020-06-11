@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 63%
+source-wordcount: '1638'
+ht-degree: 41%
 
 ---
 
@@ -23,32 +23,165 @@ ht-degree: 63%
 
 次の設定を上書きできます。
 
-| 設定 | タイプ | デフォルト値 | 説明 |
-|--- |--- |--- |--- |
-| serverState | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 | 後述の「ハイブリッドパーソナライゼーション」を参照してください。 |
-| clientCode | 文字列 | UI から設定された値 | クライアントコードを表します。 |
-| serverDomain | 文字列 | UI から設定された値 | Target エッジサーバーを表します。 |
-| cookieDomain | 文字列 | 可能であればトップレベルドメインに設定 | Cookie の保存時に使用するドメインを表します。 |
-| crossDomain | 文字列 | UI から設定された値 | クロスドメイントラッキングが有効になっているかどうかを表します。<br>使用できる値は次のとおりです。<ul><li>無効</li><li>有効</li><li>x のみ</li></ul> |
-| timeout | 数値 | UI から設定された値 | Target エッジリクエストのタイムアウト |
-| globalMboxAutoCreate | ブール値 | UI から設定された値 | グローバル mbox リクエストを実行するかどうかを示します。 |
-| visitorApiTimeout | 数値 | 2000 ミリ秒 = 2 秒 | 訪問者 API リクエストのタイムアウトを示します。 |
-| 有効 | ブール値 | true | 有効にすると、エクスペリエンスを取得するためのターゲット要求と、エクスペリエンスをレンダリングするためのDOM操作が自動的に実行されます。 さらに、 `getOffer(s)``applyOffer(s)`<br>/を使用してターゲット呼び出しを手動で実行できます。無効にした場合、ターゲット要求は自動でも手動でも実行されません |
-| pageLoadEnabled | ブール値 | true | 有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します |
-| viewsEnabled | ブール値 | true | 有効な場合、ページの読み込み時に返す必要のある表示を自動的に取得します。 表示はat.js 2でサポートされています。*x* のみ |
-| defaultContentHiddenStyle | 文字列 | visibility: hidden | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、デフォルトのコンテンツを非表示にします。 |
-| defaultContentVisibleStyle | 文字列 | visibility: visible | クラス名が「mboxDefault」である DIV を使用し、`mboxUpdate()`、`mboxCreate()`、または `mboxDefine()` から実行される mbox のラッピングにのみ使用され、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示します。 |
-| bodyHiddenStyle | 文字列 | body { opacity: 0 } | `globalMboxAutocreate === true` の場合にのみ使用され、ちらつきの発生を最小限に抑えます。<br>詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。 |
-| bodyHidingEnabled | ブール値 | true | Visual Experience Composer で作成されたオファー（ビジュアルオファー）の配信に `target-global-mbox` が使用されている場合に、ちらつきの制御に使用します。 |
-| imsOrgId | 文字列 | IMS ORG ID | IMS ORG ID を表します。 |
-| secureOnly | ブール値 | false | at.js で HTTPS のみを使用するか、ページのプロトコルに基づいて HTTP と HTTPS との切り替えを許可するかを示します。 |
-| overrideMboxEdgeServer | ブール値 | true（at.js バージョン 1.6.2 以降） | `<clientCode>.tt.omtrdc.net` ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。<br>この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは cookie に保存されます。 現在、 [CNAMEは使用できません](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | 数値 | 1860000 => 31 分 | `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含む cookie の有効期間を示します。 |
-| optoutEnabled | ブール値 | false | Target が訪問者 API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。これは、デバイスグラフ有効化の一部です。 |
-| selectorsPollingTimeout | 数値 | 5000 ミリ秒 = 5 秒 | at.js 0.9.6 では、`targetGlobalSettings` で上書きできるこの新しい設定が Target に導入されました。<br>`selectorsPollingTimeout` は、セレクターによって識別されたすべての要素がページに表示されるまでの待機時間が、クライアントによってどれくらい許容されるかを表します。<br>Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。 |
-| dataProviders | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 | 以下の「データプロバイダー」を参照してください。 |
-| cspScriptNonce | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 |
-| cspStyleNonce | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 | 後述の「コンテンツセキュリティポリシー」を参照してください。 |
+### bodyHiddenStyle
+
+* **型**：String
+* **デフォルト値**: body { opacity: 0 }
+* **説明**: ちらつきの発生を最小限 `globalMboxAutocreate === true` に抑える場合にのみ使用されます。
+
+   詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。
+
+### bodyHidingEnabled
+
+* **タイプ**: ブール値
+* **デフォルト値**: true
+* **説明**: Visual Experience Composerで作成したオファー(ビジュアルオファーとも呼ば `target-global-mbox` れる)の配信に使用する場合に、ちらつきを制御するために使用します。
+
+### clientCode
+
+* **型**：String
+* **デフォルト値**: UIから設定された値。
+* **説明**: クライアントコードを表します。
+
+### cookieDomain
+
+* **型**：String
+* **デフォルト値**: 可能であれば、トップレベルドメインに設定します。
+* **説明**: Cookieの保存時に使用するドメインを表します。
+
+### crossDomain
+
+* **型**：String
+* **デフォルト値**: UIから設定された値。
+* **説明**: クロスドメイントラッキングが有効かどうかを示します。 使用できる値は次のとおりです。 無効、有効またはxのみ。
+
+### cspScriptNonce
+
+* **タイプ**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **デフォルト値**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **説明**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+
+### cspStyleNonce
+
+* **タイプ**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **デフォルト値**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **説明**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+
+### dataProviders
+
+* **タイプ**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+* **デフォルト値**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+* **説明**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+
+### defaultContentHiddenStyle
+
+* **型**：String
+* **デフォルト値**: visibility: hidden
+* **説明**: クラス名が「mboxDefault」であるDIVを使用し、デフォルトコンテンツを介して実行、非表示にするmboxのラッピングにのみ使用 `mboxCreate()`さ `mboxUpdate()``mboxDefine()` れます。
+
+### defaultContentVisibleStyle
+
+* **型**：String
+* **デフォルト値**: visibility: visible
+* **説明**: クラス名が「mboxDefault」であるDIVを使用し、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示する、 `mboxCreate()`、 `mboxUpdate()``mboxDefine()` またはを介して実行されるmboxのラッピングにのみ使用されます。
+
+### deviceIdLifetime
+
+* **タイプ**: 数値
+* **デフォルト値**: 63244800000 ms = 2年
+* **説明**: Cookieに保持さ `deviceId` れる時間。
+
+### 有効
+
+* **タイプ**: ブール値
+* **デフォルト値**: true
+* **説明**: 有効にすると、エクスペリエンスを取得する [!DNL Target] 要求と、エクスペリエンスをレンダリングするDOM操作が自動的に実行されます。 また、 [!DNL Target] 呼び出しは、/を介して手動で実行でき `getOffer(s)` ま `applyOffer(s)`す。
+
+   無効にすると、 [!DNL Target] リクエストは自動または手動では実行されません。
+
+### globalMboxAutoCreate
+
+* **タイプ**: 数値
+* **デフォルト値**: UIから設定された値。
+* **説明**: グローバルmboxリクエストを実行するかどうかを示します。
+
+### imsOrgId
+
+* **タイプ**: Sting
+* **デフォルト値**: true
+* **説明**: IMS ORG IDを表します。
+
+### optoutEnabled
+
+* **タイプ**: ブール値
+* **デフォルト値**: false
+* **説明**: ターゲットが訪問者API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。 これは、デバイスグラフ有効化の一部です。
+
+### overrideMboxEdgeServer
+
+* **タイプ**: ブール値
+* **デフォルト値**: true（at.jsバージョン1.6.2で始まる場合）
+* **説明**: ドメインまたはドメインを使用する必要がある `<clientCode>.tt.omtrdc.net` かどうかを示 `mboxedge<clusterNumber>.tt.omtrdc.net` します。
+
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 現在、 [CNAMEは使用できません](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **タイプ**: 数値
+* **デフォルト値**: 1860000 => 31分
+* **説明**: その `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含むcookieの有効期間を示します。
+
+### pageLoadEnabled
+
+* **タイプ**: ブール値
+* **デフォルト値**: true
+* **説明**: 有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します。
+
+### secureOnly
+
+* **タイプ**: ブール値
+* **デフォルト値**: false
+* **説明**: at.jsでHTTPSのみを使用するか、ページのプロトコルに基づいてHTTPとHTTPSとの切り替えを許可するかを示します。
+
+### selectorsPollingTimeout
+
+* **タイプ**: 数値
+* **デフォルト値**: 5000 ms = 5 s
+* **説明**: at.js 0.9.6では、を使用して上書きできる新しい設定が [!DNL Target] 導入され `targetGlobalSettings`ました。
+
+   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+
+   Visual Experience Composer（VEC）によって作成されたアクティビティには、セレクターが含まれたオファーがあります。
+
+### serverDomain
+
+* **型**：String
+* **デフォルト値**: UIから設定された値。
+* **説明**: ターゲットエッジサーバーを表します。
+
+### serverState
+
+* **タイプ**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+* **デフォルト値**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+* **説明**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+
+### timeout
+
+* **タイプ**: 数値
+* **デフォルト値**: UIから設定された値。
+* **説明**: エッジリクエストのタイム [!DNL Target] アウトを表します。
+
+### viewsEnabled
+
+* **タイプ**: ブール値
+* **デフォルト値**: true
+* **説明**: 有効な場合、ページの読み込み時に返す必要のある表示を自動的に取得します。 表示はat.js 2でサポートされています。*x* のみで使用できます。
+
+### visitorApiTimeout
+
+* **タイプ**: 数値
+* **デフォルト値**: 2000 ms = 2 s
+* **説明**: [!UICONTROL 訪問者API] 要求のタイムアウトを表します。
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -185,7 +318,7 @@ var weatherProvider = {
 
 at.js 2.3.0以降では、配信されたターゲットオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
-at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応してに設定する必要があります。 以下の例を参照してください。
+at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
 
 ```
 ...
@@ -217,7 +350,7 @@ window.targetGlobalSettings = {
 
 ### コードサンプル
 
-この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
