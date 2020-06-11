@@ -5,7 +5,7 @@ title: AdobeターゲットのAdobe Experience Manager(AEM)エクスペリエン
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 21%
@@ -89,7 +89,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 
 >[!IMPORTANT]
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 リスト内のエクスペリエンスフラグメントの上にマウスポインターを置き、 [!UICONTROL 表示] アイコン ![表示アイコンをクリックして、公開オファー配信URLと](assets/icon_info.png)[!DNL AEM] パスを含む、エクスペリエンスフラグメントに関する追加情報を表示できます。
 
@@ -106,6 +106,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    * [!UICONTROL 前に挿入]
    * [!UICONTROL 後ろに挿入]
    * [!UICONTROL エクスペリエンスフラグメントと置き換え]
+
    The [!UICONTROL Experience Fragment] list displays all of the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
 
    >[!NOTE]
@@ -141,7 +142,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## 注意点 {#considerations}
 
 * [!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * JSONオファーをエクスペリエンスフラグメントとしてに読み込むことができ [!DNL Target]ます。 ただし、これらのオファーはHTMLオファーとして読み込まれます。 JSONオファー（エクスペリエンスフラグメント）は、現在、 [!DNL Target] UIで完全にはサポートされていません。
 
 ## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
