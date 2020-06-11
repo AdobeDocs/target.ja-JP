@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,7 +60,7 @@ ht-degree: 73%
 
       >[!IMPORTANT]
       >
-      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可するには、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、ホストを使用して、リダイレクトを許可するドメインをリストできます。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#whitelist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
+      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可するには、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、ホストを使用して、リダイレクトを許可するドメインをリストできます。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
 
 
 1. リダイレクターを検証します。
