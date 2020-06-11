@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +31,7 @@ adbox 広告およびリダイレクターは、あらゆるアクティビテ�
 
 ## セキュリティのベストプラクティス {#security}
 
-リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可するには、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、ホストを使用して、リダイレクトを許可するドメインをリストできます。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#whitelist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
+リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可するには、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、ホストを使用して、リダイレクトを許可するドメインをリストできます。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
 
 ## 制限事項 {#section_38F559DCF1324271926608BCD4AB1227}
 
