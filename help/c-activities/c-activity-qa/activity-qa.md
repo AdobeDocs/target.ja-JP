@@ -5,10 +5,10 @@ title: アクティビティ QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ AdobeターゲットのQA URLを使用して、変更のないプレビューリ
 
    Target では、`at_preview_token` をデコードしようとするときに、この二重エンコードが原因で正しいトークンの値を抽出できないので、プレビューが正常に機能しません。
 
-   これらの値が変換されないように、IT チームに相談してすべてのプレビューパラメーターをホワイトリストに登録することをお勧めします。
+   ITチームに問い合わせて、すべてのプレビューパラメーターが許可され、これらの値が一切変換されないようにすることをお勧めします。
 
    次の表に、ドメインに含めることができるリストを示します。
 
