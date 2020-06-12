@@ -1,14 +1,14 @@
 ---
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
-description: 最新または今後のDNLアドビターゲットリリースの機能、拡張機能および修正に関する情報を提供するリリースノートです。
-title: アドビターゲットプレリリースノート
+description: DNL Adobe Targetの最新リリースまたは今後のリリースに関する機能、拡張機能および修正に関する情報を提供するリリースノートです。
+title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '495'
+ht-degree: 17%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 19%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月10日**
+**最終更新日： 2020年6月12日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 >[!NOTE]
 >
->* **mbox.jsの提供終了**: 2020年8月30日に、アドビターゲットはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobeターゲットスキルビルダーを参照してください。 開発者向けチャットで、アドビターゲットのmbox.jsを次のat.js* に移行してください。
+>* **mbox.jsの提供終了**: 2020年8月30日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobe Target Skill Builderを参照してください。 開発者向けチャットで、次に示すようにAdobe Targetのmbox.jsをat.js* に移行します。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
@@ -34,6 +34,20 @@ ht-degree: 19%
    >
 * **ターゲットのお知らせ**: ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
+
+## at.js 1.8.2およびat.js 2.3.1リリース（2020年6月16日）
+
+at.jsライブラリに加えられた改善点および修正点 [!DNL Target] を次に示します。
+
+### at.js 1.8.2
+
+* CNAMEとエッジのオーバーライドを使用する場合、at.js 1。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）
+
+### at.js 2.3.1
+
+* targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）
+* CNAMEとエッジのオーバーライドを使用する場合、at.js 2。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）
+* 拡張機能v2と拡張機能を使用している場合は、 [!DNL Target][!DNL Launch] 呼び出しを [!DNL Adobe Analytics] 遅らせ [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` ます。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
 
