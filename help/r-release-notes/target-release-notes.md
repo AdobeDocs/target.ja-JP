@@ -5,9 +5,9 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '504'
 ht-degree: 17%
 
 ---
@@ -41,13 +41,13 @@ at.jsライブラリに加えられた改善点および修正点 [!DNL Target] 
 
 ### at.js 1.8.2
 
-* CNAMEとエッジのオーバーライドを使用する場合、at.js 1。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）
+* CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）
 
 ### at.js 2.3.1
 
 * targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）
-* CNAMEとエッジのオーバーライドを使用する場合、at.js 2。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）
-* 拡張機能v2と拡張機能を使用している場合は、 [!DNL Target][!DNL Launch] 呼び出しを [!DNL Adobe Analytics] 遅らせ [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` ます。 (TNT-36407、TNT-35990、TNT-36000)
+* CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）
+* 拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しの [!DNL Adobe Analytics] 遅延が発生する問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
 
