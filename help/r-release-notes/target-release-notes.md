@@ -5,9 +5,9 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '508'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->* **mbox.jsの提供終了**: 2020年8月30日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 詳しくは、 *Adobe Target Skill Builderを参照してください。 開発者向けチャットで、次に示すようにAdobe Targetのmbox.jsをat.js* に移行します。
+>* **mbox.jsの提供終了**: 2020年8月30日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが失敗し、ターゲットアクティビティが実行されているページに影響が及びます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、at.jsの [仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) と [Adobe Target Skill Builderを参照してください。 開発者チャットで、Adobe Targetのmbox.jsをat.jsに移行します](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
