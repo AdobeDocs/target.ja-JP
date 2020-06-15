@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 16%
+source-wordcount: '515'
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 16%
 
 ### 機能強化、修正、変更点
 
-* グローバルmboxの指定を簡単にするために、TargetUIが改善されました。 （TGT-15280）
 * 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
 * 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
 
