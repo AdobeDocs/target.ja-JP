@@ -5,9 +5,9 @@ title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() �
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 41%
 
 ---
@@ -91,6 +91,10 @@ ht-degree: 41%
 * **デフォルト値**: 63244800000 ms = 2年
 * **説明**: Cookieに保持さ `deviceId` れる時間。
 
+>[!NOTE]
+>
+>deviceIdLifetime設定は、at.jsバージョン2.3.1以降で上書きできます。
+
 ### 有効
 
 * **タイプ**: ブール値
@@ -115,7 +119,7 @@ ht-degree: 41%
 
 * **タイプ**: ブール値
 * **デフォルト値**: false
-* **説明**: ターゲットが訪問者API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。 これは、デバイスグラフ有効化の一部です。
+* **説明**: Targetが訪問者API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。 これは、デバイスグラフ有効化の一部です。
 
 ### overrideMboxEdgeServer
 
@@ -157,7 +161,7 @@ ht-degree: 41%
 
 * **型**：String
 * **デフォルト値**: UIから設定された値。
-* **説明**: ターゲットエッジサーバーを表します。
+* **説明**: Targetエッジサーバーを表します。
 
 ### serverState
 
@@ -316,9 +320,9 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0以降では、配信されたターゲットオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
+at.js 2.3.0以降では、配信されたTargetオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
-at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
+at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応してに設定する必要があります。 以下の例を参照してください。
 
 ```
 ...
@@ -335,22 +339,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-と設定 `cspScriptNonce``cspStyleNonce` を指定した後、at.js 2.3.0以降では、ターゲットオファーを適用する際にDOMに追加するすべてのSCRIPTタグとSTYLEタグに、これらの属性をnonce属性として設定します。
+と設定 `cspScriptNonce``cspStyleNonce` を指定した後、at.js 2.3.0以降では、Targetオファーを適用する際にDOMに追加するすべてのSCRIPTタグとSTYLEタグに、これらの属性をnonce属性として設定します。
 
 ## ハイブリッドパーソナライゼーション {#server-state}
 
-`serverState` は、at.js v2.2以降で利用できる設定です。ターゲットのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
+`serverState` は、at.js v2.2以降で利用できる設定です。Targetのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTargetSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
 
 ### 前提条件
 
 のハイブリッド統合が必要で [!DNL Target]す。
 
-* **サーバー側**:  新しい [配信API](https://developers.adobetarget.com/api/delivery-api/) または [ターゲットSDKを使用する必要があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **サーバー側**:  新しい [配信API](https://developers.adobetarget.com/api/delivery-api/) または [TargetSDKを使用する必要があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
 * **クライアント側**: at.jsバージョン2.2以降 [を使用する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### コードサンプル
 
-この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [TargetNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -462,7 +466,7 @@ Consider the following when using `serverState`:
    * ページの読み込み時に実行されるVECで作成されたアクティビティ。
    * 事前に取得された表示。
 
-      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、ターゲットへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
+      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、Targetへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
 
    * **注意**:  現在、サーバー側で取得されたmboxは、ではサポートされていません `serverState`。
 
