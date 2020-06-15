@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '529'
+ht-degree: 16%
 
 ---
 
@@ -42,6 +42,12 @@ ht-degree: 17%
 | Analytics for Target（A4T） 自動配分アクティビティのサポート | 6月のリリースでは、自動配分テストは [AnalyticsのTargetをサポートします](/help/c-integrating-target-with-mac/a4t/a4t.md)。 この統合により、自動配分のマルチアームバンディット機能を使用して、アドビのAnalytics目標指標やアドビのAnalyticsレポート機能および分析機能を使用しながら、トラフィックを勝者エクスペリエンスに誘導できます。 A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。 |
 | 投稿者ロール | この新しい役割は、現在の監視者の役割に似ています(アクティビティを表示することはできますが、作成または編集することはできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 | 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でTarget分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 Target用 [!UICONTROL Analytics(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、『 [Analyticsツールガイド』の「Target用](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *」を参照してください*。 |
+
+### 機能強化、修正、変更点
+
+* グローバルmboxの指定を簡単にするために、TargetUIが改善されました。 （TGT-15280）
+* 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
+* 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
