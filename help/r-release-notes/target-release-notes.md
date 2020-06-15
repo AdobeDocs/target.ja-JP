@@ -5,10 +5,10 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月12日**
+**最終更新日： 2020年6月15日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -55,6 +55,7 @@ at.jsライブラリに加えられた改善点および修正点 [!DNL Target] 
 | --- | --- |
 | Analytics for Target（A4T） 自動配分アクティビティのサポート | 6月のリリースでは、自動配分テストで [Analyticsのターゲットがサポートされ](/help/c-integrating-target-with-mac/a4t/a4t.md)ます。 この統合により、自動配分のマルチアームバンディット機能を使用して、Adobe Analyticsの目標指標やAdobe Analyticsのレポート機能および分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。 A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。 |
 | 投稿者ロール | この新しい役割は、現在の監視者の役割に似ています(アクティビティを表示することはできますが、作成または編集することはできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 [!UICONTROL Analyticsターゲット版(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、Analyticsツールガイドの [ターゲット用の](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *(* Analyticsツールガイド)を参照してください。 |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
