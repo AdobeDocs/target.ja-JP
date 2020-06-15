@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6月15日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 20.5.1リリース（2020年6月17日）のノートを更新し、 [!DNL Target Standard/Premium] でのA4Tのサポートに関する情報を含め [!DNL Analysis Workspace]ました。 |
 | 6月12日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `deviceIdLifetime` 設定に関する情報を追加しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js 1.8.2およびat.js 2.3.1リリースに関する情報を追加しました。 |
 | 6月8日 | [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 次のFAQのテキストを更新しました。 「ターゲットモバイルはAdobe Target Premium Product SKUの機能のみですか？」 |
