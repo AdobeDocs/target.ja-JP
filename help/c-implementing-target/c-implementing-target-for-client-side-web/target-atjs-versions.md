@@ -5,7 +5,10 @@ title: at.js のバージョンの詳細
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -16,15 +19,29 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 >[!IMPORTANT]
 >
->ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
+>Targetチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
->[at.jsをアップグレードするには、Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) が推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launch User Guide』の「](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) Extension Upgrade *」を参照してください*。
+>[at.jsをアップグレードするには、Adobe Experience Platformの起動をお勧めします。](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
+
+## at.js 1.8.2（2020年6月16日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）
+
+## at.js 2.3.1リリース（2020年6月16日）
+
+at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
+
+* targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）
+* CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）
+* 拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しの [!DNL Adobe Analytics] 遅延が発生する問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)
 
 ## at.jsバージョン2.3.0（2020年3月26日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* 配信されたターゲットオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートします。 at.jsが適用したオファー `targetGlobalSettings.cspScriptNonce``targetGlobalSettings.cspStyleNonce` に対応するスクリプトおよびスタイルタグのnonceを設定できるように、およびを設定できます。 詳しくは、 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+* 配信されたTargetオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートします。 at.jsが適用したオファー `targetGlobalSettings.cspScriptNonce``targetGlobalSettings.cspStyleNonce` に対応するスクリプトおよびスタイルタグのnonceを設定できるように、およびを設定できます。 詳しくは、 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * Google Tag Manager導入用のGoogle Closureコンパイラーでat.jsをコンパイルする際の問題を修正しました。
 * 顧客の実装との競合を避けるため `check` に、at.jsチェックcookieの名前を `at_check` からに変更しました。
 
@@ -38,21 +55,21 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
-* Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲットのAnalytics(A4T)のコンバージョンがレポートされない問題が修正されました。
-* WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
+* AdobeAnalyticsコードがページエレメントに存在しない場合に、クリック追跡でTarget(A4T)のAnalyticsのコンバージョンがレポートされない問題が修正されました。
+* WebページでExperience CloudIDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
 * 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
    >[!NOTE]
    >
    >このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードしてください。
 
-* at.jsバージョン2.2には、という新しい設定も用意されて `serverState`います。 この設定は、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.jsバージョン2.2には、という新しい設定も用意されて `serverState`います。 この設定は、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTargetSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.jsバージョン1.8.0（2019年10月11日）
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
-* WebページでExperience Cloud IDサービス(ECID)v4.4とat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。
+* WebページでExperience CloudIDサービス(ECID)v4.4とat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。
 * 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
 >[!NOTE]
@@ -228,6 +245,7 @@ at.js バージョン 1.3.0 がリリースされました。
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    詳細については、「[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)」を参照してください。
 
 * データプロバイダーから取得した追加パラメーターを利用して at.js リクエストを拡張できます。データプロバイダーは、`dataProviders key` の `window.targetGlobalSettings` に追加する必要があります。
