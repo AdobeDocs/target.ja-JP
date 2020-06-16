@@ -1,12 +1,15 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用するTarget固有の情報（アクティビティの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力できます
+description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）とのデバッグや統合に使用するTarget固有の情報(アクティビティの詳細、ユーザープロファイル情報、地域情報など)を自動的に出力できます
 title: Adobe Target のレスポンストークン
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    詳しくは、[at.js のダウンロード](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
-1. [!DNL Target] で、**[!UICONTROL 設定]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックします。
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. `option.id`、`activity.id` などの対象のレスポンストークンを有効にします。
 
@@ -62,9 +65,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
    >
    >特殊文字を含むパラメーターはリストに表示されません。英数字とアンダースコアのみサポートされます。
 
-1. （条件付き）プロファイルパラメーターをレスポンストークンとして使用するときにパラメーターが mbox 呼び出し経由で渡されておらず、その結果 Target UI に読み込まれていない場合は、「作成」ボタンを使用してプロファイルを UI に追加できます。
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   「**[!UICONTROL 作成]**」をクリックし、トークン名を指定して、「**[!UICONTROL アクティブ化]**」をクリックします。
+   「 **[!UICONTROL 追加応答トークン]**」をクリックし、トークン名を指定して、「 **[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5} チュートリ ![アルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
 
