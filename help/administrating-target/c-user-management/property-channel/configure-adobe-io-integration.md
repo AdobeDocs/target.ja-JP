@@ -1,10 +1,13 @@
 ---
-keywords: 統合;役割;ユーザー権限;admin console
+keywords: integration;roles;user permissions;admin console
 description: Adobe Target で目的の役割を持つすべてのワークスペースに対する既存の Adobe I/O 統合のアクセス権の付与について説明します
 title: Adobe Target でのワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
-subtopic: 導入
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -35,11 +38,11 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 >[!NOTE]
 >
->このアクションが実行されないと、[!DNL Target] 2019 年 9 月リリースの後、このアクセス制御がアクティブ化され、デフォルトワークスペース（現在設定されている場合）のみに対するアクセス権が観測されます。あらかじめ統合を設定することに対する副作用はありません。この変更をおこなうのは、早ければ早いほど良いです。組織内のワークスペースの数に応じて、このプロセスでは、目的のロールを持つワークスペースに既存の統合を追加するのに数回のクリックしかかかりません。
+>このアクションが実行されないと、[!DNL Target] 2019 年 9 月リリースの後、このアクセス制御がアクティブ化され、デフォルトワークスペース（現在設定されている場合）のみに対するアクセス権が観測されます。あらかじめ統合を設定することに対する副作用はありません。この変更をおこなうのは、早ければ早いほど良いです。組織内のワークスペースの数に応じて、このプロセスでは、既存の統合を目的のロールを持つワークスペースに追加するのに数クリックするだけです。
 
 **ワークスペースに対する Adobe I/O 統合のアクセス権を付与し、役割を割り当てるには**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. **[AdobeAdmin Consoleを開きます](https://adminconsole.adobe.com)**。
 
 1. 「**[!UICONTROL 製品]**」タブをクリックしてから、目的の製品の名前を選択します。
 
@@ -57,7 +60,9 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 1. **[!UICONTROL 製品の役割]**&#x200B;ドロップダウンリストから、そのワークスペース用の目的の役割を選択します。
 
-   * [!UICONTROL 承認者]
-   * [!UICONTROL 編集者]
-   * [!UICONTROL 監視者]
-   ![製品プロファイルの役割を選択](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | 役割 | 説明 |
+   |--- |--- |
+   | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
+   | 発行者 | オブザーバーロールに似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
