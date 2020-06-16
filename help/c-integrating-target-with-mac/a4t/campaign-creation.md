@@ -5,10 +5,10 @@ title: アクティビティの作成
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 42%
+source-wordcount: '1130'
+ht-degree: 22%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 42%
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. アクティビティの最終的な成功指標を選択します。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
+
+## Analyticsをレポートソースとして使用するアクティビティの作成
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -66,3 +68,58 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] セグメントは [!DNL Target] アクティビティレポートで使用できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## 自動配分アクティビティのTarget(A4T)サポート用Analytics {#a4t-aa}
+
+Targetのために [Analyticsと呼ばれる、Adobe TargetとアドビのAnalyticsの統合をアップグレードしました](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+
+[!UICONTROL 自動配分] アクティビティで、 [!UICONTROL AnalyticsがTargetに対応するようになりました]。 この統合により、自動配分のマルチアームバンディット機能を使用して、目標指標や [!DNL Adobe Analytics] レポートおよび [!DNL Adobe Analytics] 分析機能を使用しながら、トラフィックを勝者エクスペリエンスに誘導できます。 A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4Tを [既に実装している場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)、準備は完了です。
+
+開始するには
+
+1. A/Bテストアクティビティを作成し、ター **[!UICONTROL ゲット設定]** ページの「トラフィック配分方法 **** 」として、「最良のエクスペリエンスに自動配分」を選択します。
+1. **[!UICONTROL 目標と設定]** ページで、 **[!UICONTROL レポートソースに使用するAdobeAnalytics]****** （英語のみ）を選択し、目的の最適化目標に対応するレポートスイートを選択します。
+1. プライマリ目標指標を選択します。
+
+   最適化目標の指定に使用する **[!UICONTROL コンバージョン]**[!DNL Adobe Target] を選択します。
+
+   または
+
+   「Analytics指標 **[!UICONTROL を使用]** 」を選択し、最適化目標として使用 [!DNL Analytics] する指標を選択します。 既製のコンバージョン指標または [!DNL Analytics] カスタム [!DNL Analytics] イベントを使用できます。
+
+1. アクティビティを保存してアクティブ化します。
+
+   [!UICONTROL 自動配分は] 、選択した指標を使用してアクティビティを最適化し、訪問者を目標指標を最大化するエクスペリエンスに誘導します。
+
+1. 「 **[!UICONTROL レポート]** 」タブを使用して、指 [!DNL Adobe Analytics] 標を選択してアクティビティのレポートを表示します。 Analyticsの **[!UICONTROL 表示をクリックして詳細に分析し]** 、レポートデータをさらにセグメント化します。
+
+### サポートされる目標指標
+
+ 自動配分のA4Tでは、最適化の主な目標指標として次の指標タイプのいずれかを選択できます。
+
+* [!DNL Adobe Target] コンバージョン指標と考えることができます
+* [!DNL Adobe Analytics] コンバージョン指標と考えることができます
+* [!DNL Adobe Analytics] つのカスタムイベント
+
+[!UICONTROL 自動配分のA4Tでは、2項イベントに基づく指標、つまり、クリック、コンバージョン、注文など] 、発生しない、または発生しないイベントを選択する必要があります。 (この種のイベントは、ベルヌーイイベント、バイナリモジュール、離散とも呼ばれます)。
+
+ 自動配分用のA4Tは、売上高、注文された商品数、セッション期間、セッション内のページ表示数などの連続的な指標の最適化をサポートしていません。 （これらのサポートされていないタイプの指標は、非二項指標または非ベルヌーイ指標とも呼ばれます）。
+
+次の指標タイプは、主要目標指標としてサポートされていません。
+
+* [!DNL Adobe Target] エンゲージメントと売上高の指標
+* [!DNL Adobe Analytics] エンゲージメントと売上高の指標
+
+   >[!NOTE]
+   >
+   >エンゲージメント指標と売上高指標は、主な目標指標として選択できる場合があります。これは、からすべてのエンゲージメント指標と売上高指標を識別 [!DNL Analytics] できないため [!DNL Target][!DNL Analytics]です。 2項コンバージョン指標またはカスタムイベントのみを選択する場合は、注意が必要 [!DNL Analytics]です。
+
+* アドビAnalytics計算指標
+
+### 制限事項とメモ
+
+* アクティビティがアクティブ化された後は、レポートソース [!DNL Analytics] をから [!DNL Target] に変更したり、その逆を変更したりすることはできません。
+* 計算指標は主要目標指標としてサポートされていませんが、多くの場合、カスタムイベントを主要目標指標として選択する代わりに、意図した結果を得ることができます。 例えば、「訪問者ごとのフォームの完了」などの指標を最適化する場合は、「フォームの完了」に対応するカスタムイベントを主要目標指標として選択します。 [!DNL Target] トラフィックの偏りを考慮して、訪問あたりのコンバージョン指標を自動的に標準化するので、計算指標を使用して標準化を実行する必要はありません。
+* [!DNL Target] は、自動配分A4T実装の「同じタッチ」アトリビューションモデルを使用します。
+
+詳しくは、『 [Analyticsツールガイド](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 』の「アトリビューションの概要 **」を参照してください。
