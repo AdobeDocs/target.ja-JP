@@ -5,7 +5,7 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
+source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月15日**
+**最終更新日： 2020年6月17日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
