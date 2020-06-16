@@ -4,7 +4,10 @@ description: エンティティの属性を使用して、製品やコンテン�
 title: エンティティの属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
+source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+workflow-type: tm+mt
+source-wordcount: '1009'
+ht-degree: 94%
 
 ---
 
@@ -179,11 +182,11 @@ Recommendations は、アルゴリズム内で使用されている `productId` 
 
 大半の事前定義パラメーターでは、単数値のみを使用できるため、新しい値によって古い値が上書きされます。`categoryId` パラメーターは、その商品を含む各カテゴリ用の値のコンマ区切りリストを受け取ることができます。新しい `categoryId` の値は既存の値を上書きせず、代わりにエンティティ更新の際に追加されます（上限 250 文字）。
 
-一般に、at.js 1を使用している場合、表示情報mboxは次の例のようになります。*xは* 、 `mboxCreate`.
+at.js 1を使用している場合、一般に、表示情報mboxは次の例のようになります。*x* with `mboxCreate`.
 
 >[!NOTE]
 >
->at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js 2を使用して商品やコンテンツの情報をRecommendationsに渡す場合。*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). この例については、Recommendationsの計画と実装 [を参照してください](/help/c-recommendations/plan-implement.md)。
+>at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用されている）はサポートされなくなりました。 at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す場合。*x*、 [targetPageParamsを使用します](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 この例については、Recommendationsの [計画と実装を参照してください](/help/c-recommendations/plan-implement.md)。
 
 >[!NOTE]
 >
@@ -194,35 +197,25 @@ Recommendations は、アルゴリズム内で使用されている `productId` 
  
 mboxCreate('productPage', 
  
-'entity.id= 
-<b>67833</b>', 
+'entity.id=67833', 
  
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
+'entity.name=GIANTS VS ROCKIES 5/12', 
  
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
+'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
+'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
-'entity.venue= 
-<b>AT&T PARK</b>', 
+'entity.venue=AT&T PARK', 
  
-'entity.secondary= 
-<b>ROCKIES</b>', 
+'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
+'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
  
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
+'entity.message=FAMILY SPECIAL', 
  
-'entity.value= 
-<b>15.99</b>', 
+'entity.value=15.99', 
  
-'entity.inventory= 
-<b>1</b>' 
+'entity.inventory=1' 
  
 ); 
  
