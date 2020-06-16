@@ -5,10 +5,10 @@ title: Enterprise 権限の設定
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Adobeターゲットで、 **[!UICONTROL 管理]** / **[!UICONTROL プロパティ]** /プロパティをワークスペースに **[!UICONTROL 割り当てをクリックします]**。
+1. Adobe Targetで、 **[!UICONTROL 管理]** / **[!UICONTROL プロパティ]** /プロパティをワークスペースに **[!UICONTROL 割り当てをクリックします]**。
 
    または
 
@@ -99,7 +99,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をターゲットに追加します。
+プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をTargetに追加します。
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
@@ -172,22 +172,28 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 1. Admin Console で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
-   ![ワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![ワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 目的のプロファイルの名前をクリックします。
+1. 目的のプロファイルの名前（例えば、デフォルトのワークスペース）をクリックします。
+
+   ![デフォルトのワークスペース](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. 「**[!UICONTROL ユーザー]**」をクリックします。
 
    「[!UICONTROL ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
 
-   ![ユーザーの設定](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![設定ユーザー](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（承認者、編集者、監視者）を選択します。
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![「製品の役割」ドロップダウンリスト](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 役割 | 説明 |
    |--- |--- |
-   | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
-   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
+   | 発行者 | オブザーバーロールに似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 
    詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
