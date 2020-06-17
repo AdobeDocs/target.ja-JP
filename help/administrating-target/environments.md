@@ -5,10 +5,10 @@ title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 65%
+source-wordcount: '804'
+ht-degree: 61%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 65%
 # 環境
 
 サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
+
+>[!NOTE]
+>
+>このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。ホスト管理では、環境ごとにレポートデータを分離することもできます。
 
@@ -27,7 +31,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
-[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが検出されると、自動的に機能します（許可リストまたはブロックリストを設定していない場合）。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
+[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが起動すると、(許可リストまたはブロックリストを設定していない限り)自動的に機能します。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
 
 環境を管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL 環境をクリックします]**。
 
@@ -88,7 +92,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 >[!NOTE]
 >選択した環境を変更した後、「検索」をクリックして、返された結果を更新する必要があります。
 
-[!UICONTROL 環境] フィルタは、ターゲットUIの次の場所から使用できます。
+[!UICONTROL 環境] フィルタは、TargetUIの次の場所から使用できます。
 
 * カタログ検索（[!UICONTROL Recommendations／カタログ検索]）
 * 「コレクションを作成」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）
