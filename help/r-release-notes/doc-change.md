@@ -5,10 +5,10 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 34%
+source-wordcount: '1205'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月17日 | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 自動配分アクティビティのTarget(A4T)サポートのためのAnalyticsに関する情報を追加しました。 |
+| 6月17日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
+|  | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 自動配分アクティビティのTarget(A4T)サポートのためのAnalyticsに関する情報を追加しました。 |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 「ロールと権限の [!UICONTROL 指定] 」に、新しい *投稿者*&#x200B;ロールに関する情報を追加しました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | [!UICONTROL 手順6で、新しい] 投稿者 *役割に関する情報を追加しました。 役割と権限を指定します*。 |
 |  | [Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 次の *Office時間へのリンクを追加しました。 Targetプレミアムワークスペースセッション*。 |
