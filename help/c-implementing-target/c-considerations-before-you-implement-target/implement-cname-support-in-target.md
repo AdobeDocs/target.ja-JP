@@ -5,9 +5,9 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. SSL証明書に必要なホスト名のリストを決定します（FAQを参照）。
 
-1. 各ホスト名に対して、通常のホスト名を指すCNAMEレコードをDNSに作成し [!DNL Target]`clientcode.tt.omtrdc.net`ます。 例えば、クライアントコードがcnamecustomerで、ホスト名を指定する場合 `target.example.com`、DNS CNAMEレコードは次のようになります。
+1. 各ホスト名に対して、通常のホスト名を指すCNAMEレコードをDNSに作成し [!DNL Target]`clientcode.tt.omtrdc.net`ます。
+
+   例えば、クライアントコードが「cnamecustomer」で、推奨されるホスト名がである場合 `target.example.com`、DNS CNAMEレコードは次のようになります。
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* アドビの認証局であるDigiCertは、この手順が完了するまで証明書を発行できないので、この手順が完了するまで、アドビはCNAME実装の要求を満たすことができません。
+   >* アドビの認証局であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、アドビはCNAMEの実装に対するリクエストを満たすことができません。
 
 
-1. CNAMEサポートを要求するAdobe Client Careチケットを [開いた場合は、次のフォームに入力し、それを含めます](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)。
+1. CNAMEサポートを要求するAdobe Client Careチケットを [開いた場合は、次のフォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
    * Adobe [!DNL Target] client code:
    * SSL証明書のホスト名(例： `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. アドビが証明書を購入する場合、アドビはDigiCertと連携して、アドビの実稼働サーバーで証明書を購入およびデプロイします。
 
-   お客様が証明書(BYOC)を購入する場合、Adobe ClientCareから証明書署名要求(CSR)が返送されます。この要求は、任意の認証局によって証明書を購入する際に使用する必要があります。 証明書が発行されたら、証明書のコピーと中間証明書をAdobe ClientCareに送り返して、展開する必要があります。
+   お客様が証明書(BYOC)を購入する場合、Adobe ClientCareから証明書署名要求(CSR)が送信されます。この要求は、任意の認証局によって証明書を購入する際に使用する必要があります。 証明書が発行されたら、証明書のコピーと中間証明書をAdobe ClientCareに送信して、展開する必要があります。
 
    導入の準備が整ったら、Adobe ClientCareからお知らせします。
 
@@ -90,7 +92,7 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
 
 ### CNAME実装を導入した場合、どのような種類のサービスの中断が予想できますか。
 
-証明書が展開されても（証明書の更新を含め）、サービスが中断されることはありません。 ただし、Target導入コード(at.js`serverDomain` 内)のホスト名を新しいCNAMEホスト名(`target.example.com`)に変更すると、Webブラウザーは、古いホスト名(`clientcode.tt.omtrdc.net`)の下で以前のCookieにアクセスできなくなるので、再訪問者を新しい訪問者として扱い、プロファイルデータが失われます。 これは、新しいCNAMEへの最初の切り替えでのみ1回限りの中断です。ホスト名が変更されないので、証明書の更新も同じ効果を持ちません。
+証明書が展開されても（証明書の更新を含め）、サービスが中断されることはありません。 ただし、 [!DNL Target] 導入コード（at.js内）のホスト名を新しいCNAMEホスト名(`serverDomain` )に変更すると、Webブラウザーでは、古いホスト名(`target.example.com``clientcode.tt.omtrdc.net`)では以前のCookieにアクセスできないので、再訪問者が新しい訪問者として扱われ、プロファイルデータが失われます。 これは、新しいCNAMEへの最初の切り替えに対する1回限りの中断です。 ホスト名が変更されないので、証明書の更新は同じ効果を持ちません。
 
 ### CNAMEの実装には、どのキータイプと証明書署名アルゴリズムが使用されますか。
 
