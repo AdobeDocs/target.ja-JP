@@ -5,10 +5,10 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # ホスト{#hosts}
 
 サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
+
+>[!NOTE]
+>
+>このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -27,7 +31,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
-[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが検出されると、自動的に機能します（許可リストまたはブロックリストを設定していない場合）。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
+[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが起動すると、(許可リストまたはブロックリストを設定していない限り)自動的に機能します。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
 
 ホストを管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL ホスト]**&#x200B;をクリックします。
 
@@ -92,9 +96,9 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されません。
+>**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
 >
->許可リストは環境よりも優先されます。 allowlist機能を使用する前に、すべてのホストをクリアする必要があります。そうすれば、allowlistで許可されているホストのみがhostsリストに表示されます。 その後、ホストを必要な環境に移動できます。
+>許可リストは環境よりも優先されます。 許可リスト機能を使用する前に、すべてのホストを消去する必要があります。そうすると、許可リストで許可されているホストのみがホストリストに表示されます。 その後、ホストを必要な環境に移動できます。
 
 場合によっては、他のサイトからのドメインが環境内に表示されることがあります。ドメインがat.jsまたはmbox.jsを呼び出す場合、リストにドメインが表示されます。 例えば、自分の Web ページのいずれかが他のユーザーのサーバーにコピーされた場合は、そのサーバーのドメインが自分の環境に表示されます。スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることもあります。
 
@@ -104,7 +108,7 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!NOTE]
 >
->認証済みホストリストは、mboxホストとデフォルトのリダイレクトホストの両方に使用されるので、AdobeターゲットJavascript SDK(at.js)を使用するように承認された既存のドメインと、uboxのデフォルトのリダイレクトURLで使用されるすべてのを追加する必要があります。 ** また、今後、同様の新しいドメインを許可リストに追加する必要もあります。
+>認証済みホストリストは、mboxホストとデフォルトのリダイレクトホストの両方に使用されるので、Adobe TargetJavascript SDK(at.js)を使用するように承認された既存のドメインと、uboxのデフォルトのリダイレクトURLで使用されるすべてのを追加する必要があります。 ** また、今後、類似した新しい許可リストをドメインに追加する必要があります。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
