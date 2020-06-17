@@ -1,20 +1,24 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 一般的な設定、モバイルターゲットの設定、CSSセレクターを指定して、Adobe Visual Experience Composer(VEC)を設定します。
-title: Adobeターゲットでのレポートの設定
+description: 一般的な設定、モバイルAdobe Target設定、CSSセレクターを指定して、Visual Experience Composer(VEC)を設定します。
+title: Adobe Targetでのレポートの設定
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
 
-# ターゲットでのレポートの設定
+# Targetでのレポートの設定
 
-アカウント全体に適用するターゲットレポートで使用する一般設定を設定し [!DNL Target] ます。
+アカウント全体に適用するTargetレポートで使用する一般設定を設定し [!DNL Target] ます。
+
+>[!NOTE]
+>
+>このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 [!UICONTROL レポート設定ページにアクセスするには、] 管理 **[!UICONTROL /]** レポートをクリックします **。**
 
@@ -51,7 +55,7 @@ ht-degree: 69%
 
 レポートに使用する通貨を指定します。
 
-## ターゲットレポートデータから除外するIP
+## Targetレポートデータから除外するIP
 
 レポートデータから除外するIPアドレスを指定します。 例えば、内部会社アドレスを除外すると、レポートデータがWebサイトでの顧客の操作を反映するのに適した方法です。
 
