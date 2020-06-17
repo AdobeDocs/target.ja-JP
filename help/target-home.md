@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 製品ドキュメント
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,15 +17,15 @@ ht-degree: 63%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日： 2020年6月15日([「変更点](r-release-notes/doc-change.md)」を参照)**
+**最終更新日： 2020年6月17日([「変更点](r-release-notes/doc-change.md)」を参照)**
 
 >[!NOTE]
 >
->ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
+>Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetイベントの休憩セッションなど、今後のセッションについて詳しくは、Targetのお知らせページを参照してください。 詳しくは、「 [Targetのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務機能に基づいて、意図したオーディエンスによって保護されています。
 
-- [すべてのターゲットユーザー](#all)
+- [すべてのTargetユーザー](#all)
 - [マーケター](#marketers)
 - [開発者](#developers)
 - [Target と Adobe Experience Cloud の管理者](#admins)
@@ -39,7 +39,7 @@ ht-degree: 63%
 - [Target リリースノート](r-release-notes/release-notes.md)：現在のリリースに関する情報、[!DNL Target] に影響を与える既知の問題に関する情報、このドキュメントに関する重要な変更点の一覧、過去のリリースノートのアーカイブなどが含まれています。
 - [Target の概要](c-intro/intro.md)：[!DNL Target] ソリューションのコア概念について説明します。
 - Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud オーディエンス](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)、[Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md) など）を統合する方法について説明します。
-- [Adobe Targetチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): ターゲットを最大限に活用するためのチュートリアルとビデオを提供します。
+- [Adobe Targetチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): Targetを最大限に活用するためのチュートリアルとビデオを提供します。
 - [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)：このガイドに記載されているトラブルシューティング情報へのリンクを提供します。文字制限や他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメータなど）、[!DNL Target] でのアクティビティやその他の要素に影響する情報を含みます。
 - [モバイルアプリのための Target](c-target-mobile-app/target-mobile-app.md)：モバイルアプリの最適化とパーソナライゼーションをおこなうために、[!DNL Target] をどのように使用できるかを説明します。
 - [リソースと連絡先情報](cmp-resources-and-contact-information.md)：[!DNL Target] の機能を学ぶ追加の資料や、[!DNL Adobe] への問い合わせ方法についての情報を提供します。
@@ -54,11 +54,11 @@ ht-degree: 63%
 ## 開発者 {#developers}
 
 - [Target の実装](c-implementing-target/implementing-target.md)：[!DNL Target] を Web サイト、モバイルアプリ、シングルページアプリケーション（SPA）、IoT/OTT プラットフォームに実装する方法について説明します。
-- [ターゲットサーバー側API](https://developers.adobetarget.com/api/delivery-api/): Adobe Target配信APIを構成するリソースについて説明します。
-- [ターゲットNodeJS SDK](https://github.com/adobe/target-nodejs-sdk): ターゲットサーバーサイドのデプロイ方法を説明します。 このNode.js SDKは、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
-- [ターゲットJava SDK](https://github.com/adobe/target-java-sdk): ターゲットサーバーサイドのデプロイ方法を説明します。 このJava SDKを使用すると、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合できます。
-- [ターゲット推奨API](https://developers.adobetarget.com/api/recommendations/): 公式のAdobe Target Recommendations APIを構成するリソースについて説明します。
-- [ターゲットAdobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction): Adobe.IO統合を使用してターゲットの管理APIとプロファイルREST APIを使用し、アクティビティ、オーディエンス、オファー、プロパティ、レポート、mbox、環境、プロファイルを管理する方法について説明します。
+- [Targetサーバー側API](https://developers.adobetarget.com/api/delivery-api/): Adobe Target配信APIを構成するリソースについて説明します。
+- [TargetNodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Targetサーバーサイドのデプロイ方法を説明します。 このNode.js SDKは、Targetを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
+- [TargetJava SDK](https://github.com/adobe/target-java-sdk): Targetサーバーサイドのデプロイ方法を説明します。 このJava SDKを使用すると、Targetを他のAdobe Experience Cloudソリューションと容易に統合できます。
+- [Target推奨API](https://developers.adobetarget.com/api/recommendations/): 公式のAdobe Target推奨APIを構成するリソースについて説明します。
+- [TargetAdobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction): Adobe.IO統合を使用してTargetの管理APIとプロファイルREST APIを使用し、アクティビティ、オーディエンス、オファー、プロパティ、レポート、mbox、環境、プロファイルを管理する方法について説明します。
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 
