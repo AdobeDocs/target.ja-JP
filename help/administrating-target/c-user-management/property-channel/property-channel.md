@@ -5,9 +5,9 @@ title: Enterprise ユーザーの権限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2996'
 ht-degree: 85%
 
 ---
@@ -243,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * アクティビティ、オーディエンス、コードオファー、画像オファー、または以下のソリューションまたはメソッドを使用して作成されたその他のリソースは、Enterprise 権限モデルでは管理できませんが、デフォルトのワークスペース（Target Classic、Adobe Experience Manager（AEM）、Adobe Mobile Services、および API を利用して作成されたリソース）の一部になります。API を利用して作成されたリソースには、アクティビティ、オーディエンス、コードオファー、画像オファーが含まれます。
    * 現時点では、画像オファー（`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` に保管されているアセット）は Enterprise 権限モデルでは管理できません。
    * clickTracking とリダイレクトは、表示先リンクまたはリンク先ページが、アクティビティに含まれているプロパティの一部になっている場合のみ機能します。また、clickTracking は、`targetPageParams()` 関数を使用する場合は機能しないことがあります。関数には、`targetPageParamsAll()` を使用することをお勧めします。
+
    [!DNL Target] は、現在、追跡が発生するすべてのページ上に `at_property` トークンが存在している必要があります。トークンが（1）存在しない場合、（2）（VEC 内での）アクティビティの設定時に検出されない場合、または（3）`targetPageParamsAll()` 関数で clickTracking mbox に渡されない場合、指標は増分されず、「0」と表示されます。
 
    同じことが、リダイレクトを使用するアクティビティにも当てはまります。リダイレクト先のページには、`at_property` トークンがあり、VEC 内での設定時に認識される必要があります。
@@ -279,7 +280,11 @@ Consider the following when using or configuring properties and permissions in [
 
 リダイレクトページとアクティビティ URL が同じプロパティに属している場合、クリックの追跡は期待どおりに機能します。詳しくは 、[クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md)を参照してください。
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## トレーニングビデオ
+
+以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 学習内容：
 
@@ -288,3 +293,14 @@ Consider the following when using or configuring properties and permissions in [
 * 組織に役立つ様々なプロパティの例
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### 勤務時間： Targetプレミアムワークスペース
+
+このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+
+* ワークスペースの作成(製品プロファイル)
+* プロパティの作成
+* ユーザーの追加
+* 実装の更新
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
