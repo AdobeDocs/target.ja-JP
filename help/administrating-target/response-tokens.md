@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1531'
+ht-degree: 89%
 
 ---
 
 
 # レスポンストークン{#response-tokens}
 
-レスポンストークンを利用すると、Target 固有の情報（キャンペーンの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力し、デバッグや、サードパーティシステム（Clicktale など）との統合に利用することができます
+レスポンストークンを利用すると、Target 固有の情報（キャンペーンの詳細、ユーザープロファイル情報、地域情報など）を自動的に出力し、デバッグや、サードパーティシステム（Clicktale など）との統合に利用することができます。
+
+>[!NOTE]
+>
+>このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 レスポンストークンでは、利用する変数を選んでから、それらの変数を mbox の応答に含めて送信できます。そのためには、スイッチを使用して変数を有効にします。そうすると、その変数が mbox の応答とともに送信され、ネットワーク呼び出しで検証できるようになります。レスポンストークンはプレビューモードでも機能します。
 
