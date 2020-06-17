@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 69%
+source-wordcount: '135'
+ht-degree: 44%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 69%
 # Target の管理{#administer-target}
 
 環境設定、実装、ユーザー管理、プロパティ、Scene7 設定、ホスト管理、レスポンストークンなど、Adobe Target の設定について説明します。
+
+>[!NOTE]
+>
+>以下の節に示すトピックは更新され、Target Standard/Premium 20.6.1リリース（2020年7月）でのUIの変更点を最新の状態に更新しました。 これらのトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
