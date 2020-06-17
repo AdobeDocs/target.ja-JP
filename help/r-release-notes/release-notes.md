@@ -5,10 +5,10 @@ title: 'Adobe Target リリースノート（現行） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 30%
+source-wordcount: '941'
+ht-degree: 31%
 
 ---
 
@@ -33,6 +33,19 @@ ht-degree: 30%
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
+## Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、 [AnalyticsがTargetに対応するようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL AdobeAnalytics] 目標指標や [!UICONTROL AdobeAnalytics] レポート機能および分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [Analyticsを参照して、](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) アクティビティ作成時の自動配分アクティビティのTarget(A4T)サポートを確認してください **。 |
+| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**Targetプレミアムユーザー**: [手順6: ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
+| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でTarget分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 Target用 [!UICONTROL Analytics(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、「 [A4TレポートのAnalytics](/help/c-integrating-target-with-mac/a4t/reporting.md) の *レポート* 」および「Analyticsツールガイド [」パネルのTarget用(A4T)(A4T)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)** Analyticsのレポート」を参照してください。 |
+
+### 機能強化、修正および変更
+
+* 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
+* 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
+
 ## at.js 1.8.2およびat.js 2.3.1リリース（2020年6月16日）
 
 at.jsライブラリに加えられた改善点および修正点 [!DNL Target] を次に示します。
@@ -41,91 +54,6 @@ at.jsライブラリに加えられた改善点および修正点 [!DNL Target] 
 | --- | --- |
 | at.js 1.8.2 | at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。<ul><li>CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）</li><li>拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しの [!DNL Adobe Analytics] 遅延が発生する問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-
-## プロファイルバッチステータスAPI v2の変更点（2020年5月14日）
-
-5月20日のリリースでは、プロファイルバッチステータスは、行レベルの失敗データのみを返します（成功データは返されません）。 失敗したプロファイルIDは、今後APIから返されます。
-
-前回と新しいAPIの応答は次のとおりです。
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**現在のところ、応答は次のようになります。**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**5月4日以降の回答は次のとおりです。**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-## Target Standard／Premium 20.4.1（2020 年 5 月 6 日）
-
-このリリースには、次の機能強化、修正および変更が含まれています。
-
-* オーディエンスのデバイスとブラウザーのタイプが正しく認証されない問題を修正しました。 （TGT-36266）
-* 幅が963ピクセル未満の画面でレポートデータを表示できない問題を修正しました。 （TGT-36549）
-* 自動パーソナライゼーションレポートが正しく表示されない問題を修正しました。 （TGT-36619）
-* TargetにAnalyticsを使用する自動配分および自動Targetアクティビティ(A4t)で、互換性のない指標を選択できる問題を修正しました。 （TGT-36646）
-* Visual Experience Composer(VEC)の一部のオプションが正しく表示されない問題を修正しました。 （TGT-36571）
-* TargetUIで、1つのエクスペリエンスでコンテンツを置き換えた後に、他のRecommendationsオファープレビューに編集済みのコンテンツが表示される問題を修正しました。 （TGT-36053 および TGT-36894）
-* 一部のユーザーがRecommendationsカタログから品目を削除できない問題を修正しました。 （TGT-36455）
-* 複数ページのアクティビティでレコメンデーション条件を保存できない問題を修正しました。 （TGT-36249）
-* 2回連続して条件を編集すると、行動データソースのラジオボタンが消える問題を修正しました。 （TGT-36796）
-* レコメンデーションのアルゴリズムで、長期間「結果を取得」と表示される問題を修正しました。 （TGT-36550 および TGT-36551）
-* 様々な言語にローカライズされた多くのUI文字列を更新しました。
 
 ## その他のリリースノートとバージョンの詳細
 
