@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 89%
+source-wordcount: '1571'
+ht-degree: 87%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 89%
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
    | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 現在のアクティビティの詳細です。「option」は「offer」と同義です。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
+   | トラフィック配分<br>方法自動Target [!UICONTROL と] 自動パーソナライゼーション  アクティビティにのみ適用されます。 | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
+   |  | `experience.trafficAllocationType` | それぞれ&quot;control&quot;と&quot;targeted&quot;を返します。 |
 
    ユーザープロファイル属性と顧客属性もリストに表示されます。
 
