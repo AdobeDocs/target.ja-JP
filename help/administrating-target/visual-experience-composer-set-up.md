@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: 一般的な設定、モバイルターゲットの設定、CSSセレクターを指定して、Adobe Visual Experience Composer(VEC)を設定します。
-title: AdobeターゲットのVisual Experience Composerの設定
+description: 一般的な設定、モバイルAdobe Target設定、CSSセレクターを指定して、Visual Experience Composer(VEC)を設定します。
+title: Adobe TargetのVisual Experience Composerの設定
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Visual Experience Composerの設定
 
 一般的な設定、モバイルビューポートの設定およびCSSセレクターを指定して、 [!DNL Adobe Target] Visual Experience Composer  (VEC)を設定します。
+
+>[!NOTE]
+>
+>次の節に示すトピックは、20.6.1リリース（2020年7月）でのUIの変更を最新の状態に更新しました。この [!DNL Target Standard/Premium] 変更点は簡単に理解できます。 これらのトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 Visual Experience Composer [!UICONTROL 設定ページにアクセスするには、] 管理 **[!UICONTROL /]** Visual Experience Composer **をクリックします。**
 
@@ -38,15 +42,15 @@ Visual Experience Composerの一般設定を指定できます。
 
 ### 拡張された Experience Composer を有効にする
 
-iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは、拡張版と互換性がない場合があります。 元のVisual Experience Composerに戻す場合は、このオプションの選択を解除します。 サイトでのアクティビティの配信はこの選択の影響を受けません。
+iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは、拡張版と互換性がない場合があります。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. サイトでのアクティビティの配信はこの選択の影響を受けません。
 
 詳しくは、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-アクティビティレベルで拡張Experience Composerを有効にすることもできます。
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### 混在コンテンツの読み込み
 
-Enhanced Experience Composer（EEC）を使用して Web サイトを開く際に、混合コンテンツを有効にします。Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+[!UICONTROL 拡張Experience Composer] (EEC)を使用してWebサイトを開く際に混合コンテンツを有効にします。 Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 このオプションは、次のような場合に役立ちます。
 
