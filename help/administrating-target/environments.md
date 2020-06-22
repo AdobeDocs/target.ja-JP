@@ -5,10 +5,10 @@ title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 61%
+source-wordcount: '702'
+ht-degree: 63%
 
 ---
 
@@ -21,17 +21,11 @@ ht-degree: 61%
 >
 >このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
-ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。ホスト管理では、環境ごとにレポートデータを分離することもできます。
-
-[ホスト](/help/administrating-target/hosts.md) とは、任意のWebサーバー（またはWebドメイン）のことです。ここから、プロジェクトの任意の段階で、コンテンツを提供します。 mbox を提供するいずれのホストも認識されます。
-
 ホストは、管理を容易にするために環境にバンドルされます。例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. このデフォルトの環境は、名前を変更した場合でも削除できません。[!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
-
-[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが起動すると、(許可リストまたはブロックリストを設定していない限り)自動的に機能します。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
 
 環境を管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL 環境をクリックします]**。
 
@@ -60,8 +54,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Environments]** tab.
-1. Click the **[!UICONTROL Edit]** icon.
+1. [!UICONTROL 環境] リストで、 **[!UICONTROL 編集]** アイコンをクリックします。
 1. 環境名を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
