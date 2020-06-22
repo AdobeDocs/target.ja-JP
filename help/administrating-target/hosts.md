@@ -5,10 +5,10 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ ht-degree: 55%
 ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 ホストは任意の Web サーバー（または Web ドメイン）です。ここから、プロジェクトの任意の段階で、コンテンツを提供します。mbox を提供するいずれのホストも認識されます。
-
-ホストは、管理を容易にするために環境にバンドルされます。例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. このデフォルトの環境は、名前を変更した場合でも削除できません。[!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
 [!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが起動すると、(許可リストまたはブロックリストを設定していない限り)自動的に機能します。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
 
@@ -62,7 +56,7 @@ When an mbox request is received from new websites or domains, these new domains
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. これは最も安全な環境です。その理由は、この環境に属するホストからは、非アクティブなアクティビティを表示できないからです。
 
-1. （条件付き）移動アイコン( ![移動アイコン](/help/administrating-target/assets/icon-move.png) )をクリックして、ホストを [!UICONTROL 開発]、ステージング などの環境に移動します。
+1. （条件付き） **[!UICONTROL 移動]** アイコン(移動アイコン ![)をクリックして、ホストを「](/help/administrating-target/assets/icon-move.png) DevelopmentStaging」、「Staging」、「その他の 環境」に移動します。
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 >ホスト上にある mbox が設定されたページが参照されると、そのホストが再度リストされます。
 
 ## ホストのトラブルシューティング {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-[!DNL Adobe Target] におけるホストの管理とトラブルシューティングのベストプラクティスを紹介します。
 
 ホストにおいて問題が発生した場合は次のトラブルシューティングのヒントを試してください。
 
