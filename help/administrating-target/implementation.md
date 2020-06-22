@@ -5,17 +5,17 @@ title: Target の実装
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 50%
+ht-degree: 32%
 
 ---
 
 
 # 実装
 
-[!DNL Adobe Target] を使用する前に、サイトに [!DNL Target] を実装し、いくつかの基本的な概念や用語を理解し、[!DNL Target] の仕組みやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
+Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms; be familiar with how [!DNL Target] works and integrates with your infrastructure; and understand how visitors are tracked by the [!DNL Target] system.
 
 詳しくは、「Targetの [実装](/help/c-implementing-target/implementing-target.md)」の各トピックを参照してください。
 
