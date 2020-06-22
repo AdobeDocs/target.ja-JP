@@ -5,9 +5,9 @@ user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 93%
 
 + [Adobe Target 製品ドキュメント](target-home.md)
 + Target リリースノート {#release-notes}
-   + [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md)
+   + [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
-   + [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
+   + [Targetインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
@@ -41,7 +41,7 @@ ht-degree: 93%
    + レポート {#reporting}
       + [レポートの設定](/help/administrating-target/reporting.md)
       + [売上高上昇の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Dynamic Media Classic の統合](administrating-target/scene7-settings.md)
+   + [Scene7の設定](administrating-target/scene7-settings.md)
    + [実装](/help/administrating-target/implementation.md)
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/administrating-target/environments.md)
@@ -67,7 +67,7 @@ ht-degree: 93%
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [ターゲットエッジノードを許可](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [許可リストTargetエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -142,12 +142,12 @@ ht-degree: 93%
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [モバイルアプリのTargetに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [ロケーションサービスを使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
-      + [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [リリースノート —Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [リリースノート —TargetNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [リリースノート —TargetJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
