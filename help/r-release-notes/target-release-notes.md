@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月17日**
+**最終更新日： 2020年6月23日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -35,19 +35,45 @@ ht-degree: 14%
 * **Targetのお知らせ**: Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetイベントの休憩セッションなど、今後のセッションについて詳しくは、Targetのお知らせページを参照してください。 詳しくは、「 [Targetのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 
-## Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
+## Target Standard/Premium 20.6.1（2020年7月、正確な日付は未定）
 
-| 機能／拡張機能 | 説明 |
-| --- | --- |
-| Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、 [AnalyticsがTargetに対応するようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL AdobeAnalytics] 目標指標や [!UICONTROL AdobeAnalytics] レポート機能および分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [Analyticsを参照して、](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) アクティビティ作成時の自動配分アクティビティのTarget(A4T)サポートを確認してください **。 |
-| 自動Targetと自動パーソナライゼーションアクティビティのトラフィック配分方法の応答トークン | 自動 [Target](/help/administrating-target/response-tokens.md) と [!UICONTROL 自動パーソナライゼーション] アクティビティに2つの応答トークンが追加され、訪問者が「制御」または「ターゲット」トラフィックに割り当てられた結果として特定のエクスペリエンスを受け取ったかどうかを判断できるようになりました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、「自動パーソナライゼーションまたは自動Targetアクティビティのコントロールの [選択](/help/c-activities/t-automated-personalization/experience-as-control.md)」を参照してください。 |
-| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**Targetプレミアムユーザー**: [手順6: ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
-| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でTarget分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 Target用 [!UICONTROL Analytics(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、「 [A4TレポートのAnalytics](/help/c-integrating-target-with-mac/a4t/reporting.md) の *レポート* 」および「Analyticsツールガイド [」パネルのTarget用(A4T)(A4T)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)** Analyticsのレポート」を参照してください。 |
+このリリースで強化された機能は次のとおりです。
 
-### 機能強化、修正および変更
+### Target用Analytics( [!UICONTROL 自動Target] アクティビティ用A4T)のサポート
 
-* 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
-* 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
+[!UICONTROL 自動Target] アクティビティは、 [AnalyticsのTargetをサポートするようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+
+この統合では、高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進します。 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
+
+A/Bテストアクティビティで使用するA4T [を既に実装している場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 、設定はすべて完了です。
+
+### [!UICONTROL 管理] ・セクションのUIの更新
+
+ワークフローをより簡単に、より効率的にするために、 [!UICONTROL 管理] セクション(旧称 [!UICONTROL 管理者])とそのページを更新しました。
+
+主な機能は次のとおりです。
+
+* **[!UICONTROL Visual Experience Composer]ページ&#x200B;**: この新しいページ(**[!UICONTROL 管理&#x200B;]**/**[!UICONTROL Visual Experience Composer ]**)では、次のことができます。
+
+   * VECの一般設定の指定(デフォルトURLの指定、 [!UICONTROL 拡張Experience Composerの有効化]、混合コンテンツの読み込み、アクティビティフロー図でのエクスペリエンススナップショットの生成)
+   * モバイルビューポートの設定
+   * CSSセレクターの設定
+
+* **[!UICONTROL レポート]ページ&#x200B;**: この新しいページ(**[!UICONTROL 管理&#x200B;]**/**[!UICONTROL レポート&#x200B;]**)では、アカウント全体に適用する[!DNL Target][!DNL Target]レポートで使用する一般設定を設定できます。
+
+   以下の設定を使用できます。
+
+   * レポートに使用する [!DNL Adobe Experience Cloud] ソリューション
+   * レポートに使用するタイムゾーン
+   * レポートに使用する通貨
+   * レポートから除外するIPアドレス
+   * レポートの売上高の予測上昇を表示するかどうか
+   * 優先度の細かい設定を有効にするかどうか
+
+* 前の [!UICONTROL ホスト] ・ページは、2つの新しいページに分割されています。
+
+   * [!UICONTROL ホスト]
+   * [!UICONTROL 環境]
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
