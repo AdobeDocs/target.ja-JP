@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1273'
 ht-degree: 33%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 6月23日 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 6月24日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
 |  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | あるプロファイルスクリプトの結果を別のプロファイルスクリプトで使用する依存プロファイルスクリプトを作成することはお勧めしません。 |
+|  | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 次のビデオを追加しました。 勤務時間： at.jsのヒントと概要 |
 | 6月17日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 |  | [レスポンストークン](/help/administrating-target/response-tokens.md) | 自動Target [!UICONTROL および] 自動パーソナライゼーション  アクティビティのトラフィック配分方法の応答トークンに関する情報を追加しました。 |
 |  | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 自動配分アクティビティのTarget(A4T)サポートのためのAnalyticsに関する情報を追加しました。 |
