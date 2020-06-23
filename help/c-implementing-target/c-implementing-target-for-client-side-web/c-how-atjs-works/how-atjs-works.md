@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
-title: Adobeターゲットat.js JavaScriptライブラリの仕組み
+title: at.js JavaScriptライブラリの機能
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | すべての設定済みパラメーター（MCID、SDID および顧客 ID）を含む、ページ読み込みリクエストがおこなわれます。 |
 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、オーディエンスライブラリから正規のオーディエンスをリクエストします（例えば、Adobe Analytics、Audience Management などから共有されたオーディエンス）。<br>顧客属性がバッチ処理でプロファイルストアに送信されます。 |
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
-| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPAでの表示操作の結果として表示される表示のターゲットコンテンツは、ブラウザーにキャッシュされるので、ユーザーがトリガーされたときに追加のサーバー呼び出しを行わなくても、即座に適用できま `triggerView()`す。 |
+| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA内の表示アクションの結果として表示されるユーザーのターゲットコンテンツはブラウザーにキャッシュされるので、表示がトリガーされたときに追加のサーバー呼び出しを行うことなく、即座に適用でき `triggerView()`ます。 |
 | 7 | Analytics データがデータ収集サーバーに送信されます。 |
 | 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。<br>A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
@@ -91,10 +94,27 @@ HTML コンテンツを使用してオファー をレンダリングする場�
 * at.js は、非同期的に読み込まれるので、リモートスクリプトの実行順序を保証しません。
 * インラインスクリプトは、後で読み込まれて実行されるので、リモートスクリプトへの依存関係を持たせないようにします。
 
-## トレーニングビデオ：at.js 2.xのアーキテクチャ図の概要バ ![ッジ](/help/assets/overview.png)
+## トレーニングビデオ
+
+以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
+
+### at.js 2.xアーキテクチャ図 ![概要バッジ](/help/assets/overview.png)
 
 at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-詳し [くは、at.js 2.xの仕組みについて](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 、を参照してください。
+詳しくは、 [at.js 2.xの仕組みについてを参照してください](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
+
+### 勤務時間： at.jsのヒントと概要（2019年6月27日） ![チュートリアルバッジ](/help/assets/tutorial.png)
+
+このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+
+* at.jsを使用する利点
+* at.jsの設定
+* ちらつき処理
+* at.js のデバッグ
+* 既知の問題
+* FAQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
