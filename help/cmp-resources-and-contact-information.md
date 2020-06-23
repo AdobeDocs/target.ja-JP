@@ -5,7 +5,10 @@ title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1212'
+ht-degree: 80%
 
 ---
 
@@ -43,8 +46,10 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
+| [at.jsのヒントと概要](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12 2019<br>年6月27日 | 学習内容：<ul><li>at.jsを使用する利点</li><li>at.jsの設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
+| [Targetプレミアムワークスペース](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>（2018年9月4日） | 学習者:<ul><li>ワークスペースの作成(製品プロファイル)</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは 、[Enterprise ユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
 | [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017年12<br>月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
-| [アドビターゲット: Analyticsとターゲットの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
+| [Adobe Target: AnalyticsとTargetの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>（2018年1月） | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
 | [at.js: メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
@@ -113,7 +118,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。機能強化のアイデアやご提案は、 [Adobe Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)(ターゲット体験リーグ)に追加できます。 Click the [!UICONTROL Ideas] tab.
+このソリューションに対するご提案やフィードバックをお待ちしております。機能強化のアイデアやご提案は、 [Adobe Target体験リーグコミュニティに追加できます](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
