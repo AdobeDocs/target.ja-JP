@@ -5,9 +5,9 @@ title: at.js JavaScriptライブラリの機能
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1108'
 ht-degree: 88%
 
 ---
@@ -66,6 +66,14 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | Analytics データがデータ収集サーバーに送信されます。 |
 | 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
+### at.js 2.xアーキテクチャ図 ![概要バッジ](/help/assets/overview.png)
+
+at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+詳しくは、 [at.js 2.xの仕組みについてを参照してください](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
+
 ## at.js 1.x の図
 
 ![Target フロー - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -76,6 +84,19 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | すべての設定済みパラメーター、MCID、SDID および顧客 ID（オプション）を含む、グローバル mbox リクエストがおこなわれます。 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、[!UICONTROL オーディエンスライブラリ]から正規のオーディエンスをリクエストします（例えば､[!DNL Adobe Analytics]、[!DNL Audience Manager] などから共有されたオーディエンス）。<br>顧客属性がバッチ処理で [!DNL Profile Store] に送信されます。 |
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
 | 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。<br>[!DNL Analytics]（A4T）レポートを使用して、[!DNL Analytics] データが [!DNL Target] と [!DNL Analytics for Target] の両方に表示できるようになります。 |
+
+### 勤務時間： at.jsのヒントと概要（2019年6月27日） ![チュートリアルバッジ](/help/assets/tutorial.png)
+
+このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+
+* at.jsを使用する利点
+* at.jsの設定
+* ちらつき処理
+* at.js のデバッグ
+* 既知の問題
+* FAQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## at.js による HTML コンテンツを使用したオファーのレンダリング方法 {#render}
 
@@ -93,28 +114,3 @@ HTML コンテンツを使用してオファー をレンダリングする場�
 
 * at.js は、非同期的に読み込まれるので、リモートスクリプトの実行順序を保証しません。
 * インラインスクリプトは、後で読み込まれて実行されるので、リモートスクリプトへの依存関係を持たせないようにします。
-
-## トレーニングビデオ
-
-以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
-
-### at.js 2.xアーキテクチャ図 ![概要バッジ](/help/assets/overview.png)
-
-at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target と他の Experience Cloud を統合します。このビデオでは、すべてがどのように結び付いているかを説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-詳しくは、 [at.js 2.xの仕組みについてを参照してください](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
-
-### 勤務時間： at.jsのヒントと概要（2019年6月27日） ![チュートリアルバッジ](/help/assets/tutorial.png)
-
-このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
-
-* at.jsを使用する利点
-* at.jsの設定
-* ちらつき処理
-* at.js のデバッグ
-* 既知の問題
-* FAQ
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)
