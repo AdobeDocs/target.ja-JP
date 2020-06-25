@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ A/Bテストアクティビティで使用するA4T [を既に実装している
 * プライバシー上の理由で訪問者のIPアドレスを不明化(**[!UICONTROL 管理]** / **[!UICONTROL 導入]**)
 * AdobeAdmin Console(**[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**)で管理する前に、ワークスペースごとの既存のリストとそのロールを表示します。
 * 「 [!UICONTROL 管理] 」セクションのすべてのテーブルを検索してフィルターします。
-
-次のような大きな変更点があります。
-
-* **[!UICONTROL Visual Experience Composer]ページ&#x200B;**: この新しいページ(**[!UICONTROL 管理&#x200B;]**/**[!UICONTROL Visual Experience Composer ]**)では、次のことができます。
-
-   * VECの一般設定の指定(デフォルトURLの指定、 [!UICONTROL 拡張Experience Composerの有効化]、混合コンテンツの読み込み、アクティビティフロー図でのエクスペリエンススナップショットの生成)
-   * モバイルビューポートの設定
-   * CSSセレクターの設定
-
-* **[!UICONTROL レポート]ページ&#x200B;**: この新しいページ(**[!UICONTROL 管理&#x200B;]**/**[!UICONTROL レポート&#x200B;]**)では、アカウント全体に適用する[!DNL Target][!DNL Target]レポートで使用する一般設定を設定できます。
-
-   以下の設定を使用できます。
-
-   * レポートに使用する [!DNL Adobe Experience Cloud] ソリューション
-   * レポートに使用するタイムゾーン
-   * レポートに使用する通貨
-   * レポートから除外するIPアドレス
-   * レポートの売上高の予測上昇を表示するかどうか
-   * 優先度の細かい設定を有効にするかどうか
-
-* 前の [!UICONTROL ホスト] ・ページは、2つの新しいページに分割されています。
-
-   * [!UICONTROL ホスト]
-   * [!UICONTROL 環境]
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
