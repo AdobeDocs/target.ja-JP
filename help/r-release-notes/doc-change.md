@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 33%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 6月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1リリース（2020年7月）に関する情報を追加しました。 |
+|  | [Targetドキュメントの概要](/help/r-release-notes/target-documentation.md) | ドキュメントの様々なソースについて詳しく説明する新しいト [!DNL Target] ピックです。 |
 | 6月23日 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 6月24日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
 |  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | あるプロファイルスクリプトの結果を別のプロファイルスクリプトで使用する依存プロファイルスクリプトを作成することはお勧めしません。 |
 |  | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 次のビデオを追加しました。 勤務時間： at.jsのヒントと概要 |
