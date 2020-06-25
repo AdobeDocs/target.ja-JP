@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 18%
+source-wordcount: '555'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 18%
 * **Targetのお知らせ**: Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetイベントの休憩セッションなど、今後のセッションについて詳しくは、Targetのお知らせページを参照してください。 詳しくは、「 [Targetのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 
-## Target Standard/Premium 20.6.1（2020年7月、正確な日付は未定）
+## Target Standard／Premium 20.7.1（2020 年 7 月 21 日）
 
 このリリースで強化された機能は次のとおりです。
 
