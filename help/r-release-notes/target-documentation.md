@@ -4,7 +4,7 @@ description: Adobe Targetドキュメントは、ユーザインターフェイ�
 title: Targetのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 | --- | --- |
 | [Adobe Target製品ドキュメント](/help/target-home.md)<br>（本ガイド） | ユーザーインターフェイスを使用した操作に重点を置いた概要情報、手順およびスクリーンショット [!DNL Target] です。 このガイドでは、回避する「了解事項」を含む、使用可能なすべてのアクションとオプションについて概説します。 これは、 [!DNL Target] UIを使用する場合に最も詳細なリソースです。 |
 | [Adobe Targetチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | の多くのコンポーネントを学習するのに役立つビデオとチュートリアル [!DNL Target]。 |
-| [Adobe Experience LeagueTargetビデオライブラリ](https://guided.adobe.com/#recommended/solutions/target) | ページ上の [!DNL Target] 利用可能な機能に関するハウツービデオやチュートリアルの集まり [!DNL Adobe Target Experience League] です。 |
+| [Adobe Experience LeagueTargetコンテンツライブラリ](https://guided.adobe.com/#recommended/solutions/target) | ページ上の [!DNL Target] 利用可能な機能に関するハウツービデオやチュートリアルの集まり [!DNL Adobe Target Experience League] です。 |
 | [Adobe Experience Platform起動Targetドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | の次世代タグ管理プラットフォーム [!DNL Target] であるを使用した導入に関する情報 [!DNL Adobe Experience Platform Launch][!DNL Adobe]です。 これは、実装する推奨される方法で [!DNL Target]す。 |
 | [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビカスタマーケアチームが率いるイニシアチブ「オフィスアワーズ」に関する情報です。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
 | [Target基本ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registration information and links to previous sessions of the [!DNL Target] Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community. |
