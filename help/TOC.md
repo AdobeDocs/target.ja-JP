@@ -5,10 +5,10 @@ user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 93%
+source-wordcount: '1409'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 93%
    + [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
+   + [Targetドキュメントの概要](/help/r-release-notes/target-documentation.md)
    + [Targetインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
