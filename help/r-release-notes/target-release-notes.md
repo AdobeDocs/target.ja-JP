@@ -5,10 +5,10 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,6 @@ ht-degree: 19%
 ## Target Standard／Premium 20.7.1（2020 年 7 月 21 日）
 
 このリリースで強化された機能は次のとおりです。
-
-### Target用Analytics( [!UICONTROL 自動Target] アクティビティ用A4T)のサポート
-
-[!UICONTROL 自動Target] アクティビティは、 [AnalyticsのTargetをサポートするようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。
-
-この統合では、高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進します。 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
-
-A/Bテストアクティビティで使用するA4T [を既に実装している場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 、設定はすべて完了です。
 
 ### [!UICONTROL 管理] ・セクションのUIの更新
 
