@@ -1,11 +1,14 @@
 ---
-keywords: トレーニングビデオ：youtube；ビデオ；ビデオトレーニング；チュートリアル；チュートリアル；ビデオ
+keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: トレーニングビデオでは Target Standard と Target Premium を最大限に活用する方法を説明しています。
 title: Adobe Target Standard および Premium のトレーニングビデオ
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## Adobe Target - チュートリアルとビデオ
 
-Target の機能をハイライトした一連のハウツービデオやチュートリアルが、[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) ページで利用できます。
+A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
 
 ![Experience League ビデオ](/help/c-intro/assets/experience-league.png)
 
