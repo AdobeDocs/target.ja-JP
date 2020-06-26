@@ -1,11 +1,14 @@
 ---
-keywords: リモートオファー;リモートオファーセレクションマトリックス;キャッシュコンテンツ;動的コンテンツ
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: リモートオファーを使用すると、Target 外にあり、Target が参照してユーザーのウェブサイトに提供するコンテンツをホスティングすることができます。このコンテンツは、利便上の理由またはセキュリティ上の理由で、コンテンツ管理や他のシステムにある場合があります。
 title: リモートオファーを作成
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **リモートオファーを作成するには：**
 
-1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
-1. **[!UICONTROL 作成]** / **[!UICONTROL リモートオファー]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
+1. **[!UICONTROL 作成]**／**[!UICONTROL リモートオファー]**&#x200B;をクリックします。
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | コンテンツの更新 | 2 時間ごとにキャッシュ | リクエストのたびにすぐに更新 |
 | 読み込み時間 | 高速 | リクエスト処理が原因となり低速 |
 | ページ上での JavaScript の確認 | ○ | 不可（URL 経由で渡すことは可能） |
-| オファーへの JavaScript の追加 | ○ | × |
+| オファーへの JavaScript の追加 | ○ | ○ |
 | オファーの URL | 絶対または相対 | 相対 |
 | リクエストするコンピューター | Adobe サーバー | 訪問者の Cookie を処理する訪問者のコンピューター |
