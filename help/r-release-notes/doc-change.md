@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 年 7 月 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月8日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
 | 6月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1リリース（2020年7月）に関する情報を追加しました。 |
 |  | [Targetドキュメントの概要](/help/r-release-notes/target-documentation.md) | ドキュメントの様々なソースについて詳しく説明する新しいト [!DNL Target] ピックです。 |
 | 6月23日 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 6月24日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
