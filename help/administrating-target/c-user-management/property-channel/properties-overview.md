@@ -5,10 +5,10 @@ title: Enterprise 権限の設定
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 73%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -104,7 +104,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。をTargetに追加します。
+プロパティは、任意の呼び出し(Target呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 をTargetに追加します。
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
@@ -129,7 +129,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-[!DNL Target] のユーザー権限機能を使用するには、 をヒットするすべての呼び出し（mbox、api など）に `at_property` パラメーターを追加する必要があります。[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **`at_property`パラメーターコードを取得するには：**
 
