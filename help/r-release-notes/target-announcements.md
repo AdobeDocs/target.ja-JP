@@ -4,10 +4,10 @@ description: Targetスキルビルダーセッション、開発者チャット�
 title: Targetのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 3%
 
 ---
 
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
 
-## Adobe TargetQ&amp;Aコーヒーブレーク
+## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
 
-* **2020年6月24日（水）**
-* **午前10時～11時。 (PDT)**
+* **Wednesday, July 8**
+* **午前10時～11時。 (PST)**
 
-Ram Parthasarathy（@ram_adobe、プリンシパルプロダクトマネージャー）が参加 [!DNL Adobe Experience Cloud]します。 Ramは、次の専門分野に関する質問 [!DNL Adobe Target Community][!DNL Target] について直接お客様とチャットするために、にサインインされます。
+上級Adobe TargetプロダクトマネージャのRob Hornick氏が参加します。Rob Hornick氏は、Adobe Targetコミュニティにサインインして、彼の専門分野に関するお客様のTargetに関する質問について直接お話しします。
 
-* 一般的な [!DNL Target] トピック
-* 次善のオファー
-* オファー判定
+* パーソナライゼーション
+* 機械学習と人工知能
+* Recommendations
+* 自動配分
+* 自動ターゲット
+* 自動パーソナライゼーション
 
-登録するには、Adobe Targetコミュニティ [にアクセスしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286)。
+登録するには、Adobe Targetコミュニティ [にアクセスしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558)。
 
 ## Adobe Targetスキルビルダー： 開発者チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
