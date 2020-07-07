@@ -5,10 +5,10 @@ title: Enterprise ユーザーの権限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2996'
-ht-degree: 85%
+source-wordcount: '2999'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Web プロパティは、Web サイト（群）を意味し、複数のルールと 1 つの埋め込みコードで構成されます。Web プロパティは、1 つ以上のドメインやサブドメインをグループ化できます。
 
-プロパティは、任意の呼び出し（mbox、api など）で、特定の名前と値のペアをパラメーターとして Target に追加することで有効化されます。to [!DNL Target].
+プロパティは、任意の呼び出し(Target呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 to [!DNL Target].
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールまたは API／その他）に属しています。
 
@@ -244,7 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * 現時点では、画像オファー（`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` に保管されているアセット）は Enterprise 権限モデルでは管理できません。
    * clickTracking とリダイレクトは、表示先リンクまたはリンク先ページが、アクティビティに含まれているプロパティの一部になっている場合のみ機能します。また、clickTracking は、`targetPageParams()` 関数を使用する場合は機能しないことがあります。関数には、`targetPageParamsAll()` を使用することをお勧めします。
 
-   [!DNL Target] は、現在、追跡が発生するすべてのページ上に `at_property` トークンが存在している必要があります。トークンが（1）存在しない場合、（2）（VEC 内での）アクティビティの設定時に検出されない場合、または（3）`targetPageParamsAll()` 関数で clickTracking mbox に渡されない場合、指標は増分されず、「0」と表示されます。
+   [!DNL Target] は、現在、追跡が発生するすべてのページ上に `at_property` トークンが存在している必要があります。In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    同じことが、リダイレクトを使用するアクティビティにも当てはまります。リダイレクト先のページには、`at_property` トークンがあり、VEC 内での設定時に認識される必要があります。
 
