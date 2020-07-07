@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
-レスポンストークンでは、利用する変数を選んでから、それらの変数を mbox の応答に含めて送信できます。そのためには、スイッチを使用して変数を有効にします。そうすると、その変数が mbox の応答とともに送信され、ネットワーク呼び出しで検証できるようになります。Response tokens work in [!UICONTROL Preview] mode as well.
+応答トークンを使用すると、活用する変数を選択し、Target応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はTarget応答と共に送信され、ネットワーク呼び出しで検証できます。 Response tokens work in [!UICONTROL Preview] mode as well.
 
 プラグインとレスポンストークンの主な違いは、プラグインでは配信時に実行される JavaScript をページに送信しますが、レスポンストークンでは、イベントリスナーを使用して読み込み、実行できるオブジェクトを送信するという点です。詳しくは、[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)とこの記事の後の例を参照してください。レスポンストークンの方が安全性が高く、サードパーティ統合に伴う開発や管理を簡略化できます。
 
