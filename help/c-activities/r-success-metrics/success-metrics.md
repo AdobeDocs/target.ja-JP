@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: アドビのターゲットでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
-title: Adobeターゲットの成功指標
+description: Adobe Targetでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
+title: Adobe Targetの成功指標
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # 成功指標{#success-metrics}
 
-アドビのターゲットでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
+Adobe Targetでは、レポートと追跡の両方の目的で、成功指標が事前に設定されています。
 
 成功指標は、アクティビティの成功の測定に使用されるパラメーターです。成功指標には、Target アクティビティの特定のエクスペリエンスやオファーの成功を判定できる、主要なビジネス測定が含まれます。例えば、新しいオファーが訪問者あたりの売上高を増加させたり、買い物かごに品目を追加したりするかどうかを判断できます。成功指標は、登録、注文または購入ファネルの問題を見つけるのに役立ちますが、単に訪問者やお客様のエンゲージメントにも役立ちます。
 
@@ -26,7 +26,7 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 
 >[!NOTE]
 >
->レポートソースとして [](/help/c-integrating-target-with-mac/a4t/a4t.md) Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は、「カウントを増分し、ユーザーをアクティビティ内に保持する」で、「参加者あたり1回」です。
+>レポートソースとして [Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は](/help/c-integrating-target-with-mac/a4t/a4t.md) 、「カウントを増分し、アクティビティ内にユーザーを保持」で、「参加者あたり1回」です。
 
 以下の成功指標を使用できます。
 
@@ -35,14 +35,14 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | コンバージョン | コンバージョンベース | コンバージョンは、お客様のサイト上で、お客様が指定したアクション（ボタンをクリックした、ページを閲覧した、アンケートに回答した、何かを購入したなど）を訪問者が実行したときにカウントされます。コンバージョンは訪問者ごとに 1 回としてカウントすることも、訪問者がコンバージョンを達成するたびにカウントすることもできます。 |
 | 売上高 | コンバージョンベース | 訪問者によって生成された売上高。次のいずれかの売上高指標から選択できます。<ul><li>訪問者あたりの売上高（RPV）</li><li>平均注文額（AOV）</li><li>合計販売額</li></ul> |
 | ページビュー数 | エンゲージメントベース | 一意の訪問ごとに 1 回のコンバージョンとしてカウントします。 |
-| サイト滞在時間 | エンゲージメントベース | 訪問者が最初にアクティビティの最初の表示 mbox を見た時点から、そのセッションで mbox を含む最後のページが読み込まれるまでのサイト滞在時間（秒）。 |
-| カスタムスコア | エンゲージメントベース | サイト上で訪問したページに割り当てられた値に基づいて計算された集計スコアです。訪問者が最初にアクティビティの最初の表示 mbox を見た時点からの数字になります。 |
+| サイト滞在時間 | エンゲージメントベース | 訪問者が最初に表示Targetリクエストを閲覧した時点から、そのアクティビティ内のリクエストを含む最後のページを読み込んだ時点までの訪問滞在時間（秒）。 |
+| カスタムスコア | エンゲージメントベース | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 エンゲージメントベースの指標の場合は（コンバージョンベースおよび売上高ベースの指標とは異なり）、訪問者はそのセッションのカウントをインクリメントするために、訪問ごとにアクティビティを再評価する必要があります。関連付けられた指標は、再評価の後にインクリメントが開始され、各訪問者のセッションの終わりでインクリメントが停止します。30 分間無操作状態が続くと、そのセッションは終了します。したがって、テスト中に結果がすぐに表示されるわけではありませんが、セッションのすべての結果がセッションの終了から数分以内に使用できるようになります。
 
 カスタムの成功指標も作成できます。
 
-成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。例えば、コンバージョン指標を選択し、訪問者あたり 1 回カウントされるように設定してから、訪問者が特定のページ（または一連のページ）を閲覧、特定の mbox を閲覧または特定のリンクをクリック、のいずれの場合に成功とするかを設定します。
+成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 1 つのコンバージョンフィールドの「予測値（Estimated Value）」（ページスコア指標では利用できません）が有効になっている場合は、他の指標ではなく、目標に関する値が示されます。この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。すべての売上高指標（訪問者あたり売上高、平均注文額、合計販売額および注文）について、予測には訪問者あたり売上高が使用されます。データタイプは通貨です。詳しくは、「[売上高情報の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
