@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -51,7 +51,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | タイプ | パラメーター | メモ |
    |--- |--- |--- |
-   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。例えば、2 種類のアクティビティを配信する 2 つの mbox を含むページでは、2 つ目の mbox には両方のアクティビティが含まれます。 |
+   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | 「true」または「false」を返します。 |
    |  | `profile.isNewSession` | 「true」または「false」を返します。 |
    |  | `profile.daysSinceLastVisit` | 訪問者の最後の訪問からの経過日数を返します。 |
@@ -71,7 +71,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >特殊文字を含むパラメーターはリストに表示されません。英数字とアンダースコアのみサポートされます。
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    「 **[!UICONTROL 追加応答トークン]**」をクリックし、トークン名を指定して、「 **[!UICONTROL アクティブ化]**」をクリックします。
 
@@ -79,7 +79,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. アクティビティを作成します。
 
-[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)を使用して mbox の応答をリッスンし、レスポンストークンを読み取ります。
+[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)を使用して の応答をリッスンし、レスポンストークンを読み取ります。[!DNL Target]
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 
@@ -136,15 +136,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **サイトの一部のページでは at.js 1.1 以降を使用し、他のページでは mbox.js を使用している場合はどうなりますか？**
 
-レスポンストークンは [!DNL at.js] mbox 応答には配信されますが、[!DNL mbox.js] 応答には配信されません。
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **Target Classic プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
 
 プラグインとレスポンストークンは同時に利用できますが、プラグインは廃止される予定です。
 
-**レスポンストークンは、すべての mbox 応答を介して配信されますか、それともアクティビティを配信する mbox のみを介して配信されますか？**
+**応答トークンは、すべての応答を通じて配信されますか。それとも、アクティビティを配信する応答を通じてのみ配信されま[!DNL Target][!DNL Target]すか。**
 
-レスポンストークンは、アクティビティを配信する mbox のみを介して配信されます。
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **利用していた Target Classic プラグインに JavaScript が含まれていたのですが、レスポンストークンを使用してこの機能を複製するにはどうすればよいですか？**
 
