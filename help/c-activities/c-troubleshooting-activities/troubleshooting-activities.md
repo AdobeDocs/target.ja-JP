@@ -1,11 +1,14 @@
 ---
-keywords: target のトラブルシューティング;target トラブルシューティング;デフォルトコンテンツ;テストが実行されない;アクティビティが実行されない;ターゲティングが動作しない;以前のエクスペリエンスが表示される;アクティビティを作成できない;アクティビティを作成できない;アクティビティの作成;ページ構造の変更;ページ構造の修正;エラーメッセージ;プロファイルスクリプト削除エラー;ajax が動作しない
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: サイトにアクティビティが表示されない場合は、ここに示すトラブルシューティングの提案が解決に役立ちます。
 title: アクティビティのトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下のセクションでは、発生する可能性のある問題が推奨ソリューションと共に説明します。
 
-## Target UIを使用してアクティビティを作成したが、APIを使用して更新できない。
+## TargetUIを使用してアクティビティを作成しましたが、APIを使用して更新できません。
 
-Target UIを使用して作成したアクティビティは、Target UIを使用して更新する必要があります。 APIを使用して作成されたアクティビティは、APIを使用して更新する必要があります。 例えば、最初にAPIを使用してアクティビティを作成した後、Target UIを使用してアクティビティを編集した場合、すべての変更が更新されるわけではありません。 すべての変更はバックエンドに保存され、別のAPI呼び出しを行うことで更新できます。
+TargetUIを使用して作成されたアクティビティは、TargetUIを使用して更新する必要があります。 APIを使用して作成されたアクティビティは、APIを使用して更新する必要があります。 例えば、最初にAPIを使用してアクティビティを作成した後、後でTargetUIを使用してアクティビティを編集した場合、すべての変更が更新されるわけではありません。 すべての変更はバックエンドに保存され、別のAPI呼び出しを行うことで更新できます。
 
-ベストプラクティスとして、最初にアクティビティを作成するのに使用したのと同じ方法（UIまたはAPI）を使用してアクティビティを更新してみてください。
+ベストプラクティスとして、最初にアクティビティを作成するのに使用したのと同じアクティビティ（UIまたはAPI）を使用して、メソッドを更新してみてください。
 
 ## デフォルトコンテンツが表示される。
 
@@ -103,7 +106,7 @@ Target でユーザーとして追加されたら、アクティビティを作�
 
 ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
-## mbox.js が &lt;head&gt; から後続のすべてのコードを &lt;body&gt; に移動する。
+## mbox.js が &lt;head> から後続のすべてのコードを &lt;body> に移動する。
 
 **検証：**&#x200B;ソースを表示して、終了タグより前の位置で、mbox.js ファイルの後に宣言が行われているかどうかを確認します </body> 。
 
@@ -135,10 +138,10 @@ Target でユーザーとして追加されたら、アクティビティを作�
 * もう一度削除します。成功メッセージが表示されます。
 * Target Standard/Premium インポーターが実行されるまで、約 10 分待ちます。インポーターがプロファイルスクリプトのリストを更新します。
 
-## 一部の ajax mbox 呼び出しが動作しない。
+## Some ajax [!DNL Target] calls are not working.
 
-**注意：**&#x200B;同じ mbox 名で異なるパラメーターを持つ複数の ajax mbox 呼び出しは、同じページでは動作しません。最初の呼び出しのみ作成されます。
+**注意：**[!DNL Target]同じ 名で異なるパラメーターを持つ複数の ajax 呼び出しは、同じページでは動作しません。最初の呼び出しのみ作成されます。
 
-## Target API を使用してアクティビティをアクティブ化したのに、そのアクティビティのステータスが Target UI で非アクティブになっている。
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Target API を使用した UI 外でのアクティビティのアクティブ化など、特定のアクションを実行する場合、更新が UI に反映されるまで最大 10 分かかることがあります。
