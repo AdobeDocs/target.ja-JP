@@ -1,12 +1,15 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: ページに必要なコンテンツが表示されない場合は、Adobe targetでコンテンツ配信をデバッグするためのいくつかの手順を実行できます。
-title: Adobe targetでのコンテンツ配信のトラブルシューティング
+description: ページに期待したコンテンツが表示されない場合は、Adobe Targetでコンテンツ配信をデバッグするためにいくつかの手順を実行できます。
+title: Adobe Targetでのコンテンツ配信のトラブルシューティング
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 ページに意図するコンテンツが表示されない場合は、コンテンツ配信をデバッグするためにいくつかの手順をおこないます。
 
 * アクティビティやキャンペーンコードを慎重に確認します。タイポやその他のエラーがあると、意図するコンテンツが表示されない場合があります。
-* mboxTrace や mboxDebug を使用して mbox をトラブルシューティングします。
-* Adobe Experience Cloud デバッガーは mboxDebug と同じ情報を入手できる使いやすいツールです。このツールを使用して mbox のトラブルシューティングができます。
+* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
+* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-ページに Target を設定して、mbox が呼び出されていることと、cookie が設定されていることを確認するときは、mboxDebug が特に便利です。ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
 
 ## デバッグツールで使用するための認証トークンの取得 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -39,7 +42,7 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace を使用すると、mbox のリプライに付属する追跡情報を受信できます。追跡情報は、mbox 呼び出し（コンバージョンやインプレッションなど）の結果と、この特定の結果の発生理由を判断するのに役立つことがある追加データ（キャンペーンでの選択肢となった使用可能なブランチのセットなど）を反映します。この情報を使用してコンテンツ配信をデバッグします。
+mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. この情報を使用してコンテンツ配信をデバッグします。
 
 次のパラメーターを使用できます。
 
@@ -78,7 +81,7 @@ mboxTrace を使用すると、mbox のリプライに付属する追跡情報�
 
 ## mboxDebug {#mboxdebug}
 
-mboxDebug を使用するには、URL の末尾に mboxDebug パラメーターを追加します。mbox に関連する URL パラメーターについての情報を次の表に示します。
+mboxDebug を使用するには、URL の末尾に mboxDebug パラメーターを追加します。The following table contains information about [!DNL Target] response-related URL parameters.
 
 >[!NOTE]
 >
@@ -86,24 +89,24 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 
 | URL パラメーター | 目的 |
 |--- |--- |
-| `mboxDebug=1` | デバッガー<br>mbox が定義された任意の URL にこのパラメーターを追加すると、ポップアップウィンドウが開き、有用なデバッグ詳細情報が表示されます。Cookie 情報、PCID およびセッション ID の値が記述され、mbox URL がすべて表示されます。mbox URL をクリックして、その mbox の応答を表示できます。詳しくは、[mbox_debug.pdf](/help/assets/mbox_debug.pdf) を参照してください。 |
+| `mboxDebug=1` | <br>デバッガTargetリクエストが定義された任意のURLにこのパラメータを追加すると、ポップアップウィンドウが開き、デバッグに役立つ詳細情報が表示されます。 Cookie 情報、PCID およびセッション ID の値が記述され、 URL がすべて表示されます。Click on a Target request URL to show the response for that [!DNL Target] request. 詳しくは、[mbox_debug.pdf](/help/assets/mbox_debug.pdf) を参照してください。 |
 | `mboxDebug=x-cookie` | cookie の変更 |
 | `mboxDisable=1` | ページ上の mbox を無効化 |
 | `mboxDebug=x-profile` | プロファイルセットを表示 |
-| `mboxDebug=x-time` | 個々の mbox リクエストに対する応答時間を表示 |
+| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting のテスト<br>Geotargeting をこの URL パラメーターでテストします。この属性の値に IP アドレスを入力すると、Test&amp;Target のジオターゲティングがこの IP アドレスを評価し、キャンペーン内のジオターゲティングまたはセグメント化セットに一致させます。 |
 
 >[!NOTE]
 >
->URLフラグメントがクエリ文字列パラメーターの後にあることを確認します。 最初の値より後の値はフラ `#` グメント識別子で、デバッグパラメーターが正しく機能しません。
+>URLフラグメントがクエリ文字列パラメーターの後にあることを確認します。 最初の値の後にあ `#` るものはフラグメント識別子で、デバッグパラメーターが正しく機能しない原因となります。
 
 ## Adobe Experience Cloud デバッガー {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloud への認証をおこなうと、強力な Mbox Trace ツールを使用して、アクティビティ、オーディエンスの資格情報、訪問者プロファイルを調査できます。
+Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloudを認証し、強力なMboxTraceツールを使用して、アクティビティとオーディエンスの資格、および訪問者プロファイルを調査できます。
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、Adobe Experience cloudデバッガーを使用し [たat.jsのデバッグを参照してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
+詳しくは、「Adobe Experience Cloudデバッガーを使用したat.jsの [デバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)」を参照してください。
 
 ## 配信中に target.js を読み込めなかった場合 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -111,21 +114,21 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 ## レコメンデーションにトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SIteCatalyst: purchase`* mbox は、購入アルゴリズムトラフィックデータには使用できません。代わりに&#x200B;*`orderConfirmPage`* mbox を使用します。
+The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 代わりに、 *`orderConfirmPage`* 呼び出しを使用します。
 
 ## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
 
-[!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、[!DNL Target Classic] UI で作成され、優先度が同じで、使用している mbox も同じアクティビティと競合する場合があります。
+Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
 ## Internet Explorer 8 でカスタムコードが期待どおりの結果を返さない{#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target は、IE 8 をサポートしていません。
 
-## グローバル mbox で提供される JavaScript コンテンツが、mbox.js の使用時に読み込まれない{#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 [!DNL mbox.js] のバージョンを 58 以降にアップグレードしてください。
 
-mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、グローバル mbox の非 JavaScript コンテンツが実行されます。グローバル mbox の `<script>` タグ内の JavaScript コンテンツは、`DOMContentLoaded` イベントの発生後に実行されます。このようなコンテンツの配信順序によって、グローバル mbox の JavaScript コンテンツが適切に配信かつレンダリングされます。
+mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -141,30 +144,30 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 リダイレクトまたはリモートオファーで無効な URL が使用されていると、配信できない可能性があります。
 
-リダイレクトオファーの場合、mbox の応答に含められるものは、`/* invalid redirect offer URL */`
+For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
 
 または
 
-リモートオファーの場合、mbox の応答は、`/* invalid remote offer URL */`を含められます。
+For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
 
-mbox 応答をブラウザーで確認するか、mboxTrace を使用して確認できます。有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
+You can check the [!DNL Target] response in the browser or using mboxTrace. 有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
 
-## mbox がサイトで実行されません。
+## サイトでTarget要求が実行されていない。
 
-無効な doctype を使用している場合、at.js は Target mbox を実行しません。a.js には HTML5 の doctype が必要です。
+at.jsは、無効なdoctypeを使用している場合、Targetリクエストを実行しません。 a.js には HTML5 の doctype が必要です。
 
 ## トレーニングビデオ
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### 拡張機能の追加 チュート ![リアルバッジ](/help/assets/tutorial.png)
+### 拡張機能の追加 ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本的なTargetデバッグチュ ![ートリアルバッジ](/help/assets/tutorial.png)
+### 基本的なTargetデバッグ ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### mboxトレースチュート ![リアルバッジ](/help/assets/tutorial.png)
+### mboxトレース ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
