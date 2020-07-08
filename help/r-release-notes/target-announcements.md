@@ -4,10 +4,10 @@ description: Targetスキルビルダーセッション、開発者チャット�
 title: Targetのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -15,22 +15,6 @@ ht-degree: 3%
 # Targetのお知らせとイベント
 
 Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
-
-## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
-
-* **Wednesday, July 8**
-* **午前10時～11時。 (PST)**
-
-上級Adobe TargetプロダクトマネージャのRob Hornick氏が参加します。Rob Hornick氏は、Adobe Targetコミュニティにサインインして、彼の専門分野に関するお客様のTargetに関する質問について直接お話しします。
-
-* パーソナライゼーション
-* 機械学習と人工知能
-* Recommendations
-* 自動配分
-* 自動ターゲット
-* 自動パーソナライゼーション
-
-登録するには、Adobe Targetコミュニティ [にアクセスしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558)。
 
 ## Adobe Targetスキルビルダー： 開発者チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
