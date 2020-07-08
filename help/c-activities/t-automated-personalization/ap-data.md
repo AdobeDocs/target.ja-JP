@@ -1,10 +1,13 @@
 ---
-keywords: 環境データ;セッションデータ;ジオデータ;地理データ;デバイスデータ;モバイルデータ;属性;プロファイル属性
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
 title: Adobe Target のパーソナライゼーションアルゴリズムのデータ収集
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ Target のパーソナライゼーションアルゴリズムについて詳し�
 | Experience Cloud セグメント | Audience Manager または Analytics で作成したオーディエンスおよび Experience Cloud の共有アクセス | `Custom - Experience Cloud Audience - [Audience Name]` | カスタムデータ |
 | [地理データ](#geo) | 訪問者の所在地に関する情報。<br>後述の「地理データ」を参照。 | `Geo - [geo attribute]` | 市町村<br>国<br>地域／州<br>郵便番号<br>緯度<br>経度<br>ISP または携帯電話会社 |
 | プロファイル属性 | 更新 API を使用して Target プロファイルに直接アップロードされるプロファイルスクリプトまたは属性 | `Custom - Visitor Profile - [attribute name]` | カスタムデータ |
-| 参照 URL パラメーター | 一般に参照 URL とは、mbox 呼び出しが実行された特定のページを参照した URL のことを指します。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
+| 参照 URL パラメーター | 一般に、参照URLは、Target呼び出しを開始した特定のページを参照したURLです。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
 | レポートするセグメント | アクティビティ設定で設定したセグメント | `Reporting Segment -[Segment Name]` | カスタムデータ |
 | [セッションデータ](#session) | アクティビティへのアクセス時のセッションでの訪問者の行動に関する情報。 | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | URL パラメーター | Target では、URL を解析して URL パラメーターを抽出します。 | `Custom - URL Parameter - [URL Parameter]` | カスタムデータ |
@@ -96,13 +99,13 @@ Target のパーソナライゼーションアルゴリズムについて詳し�
 | Visitor Profile - First Visit | ユーザーが Target とやり取りした最初の訪問の時間を指定します。 | ダブル、ミリ秒 |
 | Visitor Profile - Hours since Last Visit | このアクティビティへの最後の訪問からの経過時間を指定します。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Impressions of Location/Content | 特定のアクティビティでの特定の場所／コンテンツの組み合わせに対するインプレッション数を指定します。 | ダブル（正の整数のみ）1、2、3 など |
-| Visitor Profile - Last Target Interaction | Target との最後のやり取りの時間を指定します。Target の現在の実装はリクエストごとにプロファイルを更新するので、やり取りは mbox リクエストごとに発生します。 | ダブル、ミリ秒 |
+| Visitor Profile - Last Target Interaction | Target との最後のやり取りの時間を指定します。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | ダブル、ミリ秒 |
 | Visitor Profile - Pages Seen Before Activity | 合計ページビュー数（インプレッション）を指定します（訪問者がアクティビティに入るまでは、現在の訪問／セッションを含む）。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Page Views in Current Visit | 訪問者がアクティビティに入るまでの、現在の訪問／セッションのページビュー数を指定します。もっと正確に言えば、インプレッション数です。これらのインプレッション数は、実際のページビュー数ではなく、リクエストが Target に到達した回数です。Target では、タイムアウトやユーザーがコンテンツを受け取らなかった／表示したその他の理由を区別できません。 | ダブル（正の整数のみ） |
-| Visitor Profile - Start of Current Visit | Target を使用した現在の訪問／セッションが開始した時間を指定します。Target を使用した訪問は、アクティビティに入らなくても開始できます。必要なのは任意の mbox への呼び出しだけです。訪問者は、アクティビティに入り、スナップショットが取られるまで時間がかかる可能性があります。 | ダブル、ミリ秒 |
+| Visitor Profile - Start of Current Visit | Target を使用した現在の訪問／セッションが開始した時間を指定します。Target を使用した訪問は、アクティビティに入らなくても開始できます。All that is required is a call to any [!DNL Target] request. 訪問者は、アクティビティに入り、スナップショットが取られるまで時間がかかる可能性があります。 | ダブル、ミリ秒 |
 | Visitor Profile - Start of Most Recent Visit | Target を使用した最後の訪問／セッションが開始した時間を指定します。この属性は、セッションの有効期限が切れると更新されます。<br>これが訪問者にとっての最初のセッションの場合、結果は `LAST_SESSION_START = 0.` になります。 | ダブル、ミリ秒 |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | 以前のセッションとユーザーがアクティビティに入ってスナップショットが実行されたときの間の期間を指定します。 | ダブル、ミリ秒 |
-| Visitor Profile - Time in Visit Before Enter Activity | Target との最後のやり取りと現在の訪問が開始したときの間の差を指定します。この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br>セッションが開始して最後の更新時間が同じ mbox 呼び出しでトリガーされる場合、負の値になります。負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 |
+| Visitor Profile - Time in Visit Before Enter Activity | Target との最後のやり取りと現在の訪問が開始したときの間の差を指定します。この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br>[!DNL Target]セッションが開始して最後の更新時間が同じ 呼び出しでトリガーされる場合、負の値になります。負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 |
 | 訪問者プロファイル - 合計訪問回数 | 訪問／セッションの合計数を指定します。現在の訪問／セッションは含まれません。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Total Visits to Activity | 特定のアクティビティへの訪問数を指定します。以前の訪問がない場合、0（ゼロ）を返します。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Total Visits to Activity with Conversion | 訪問中に少なくとも 1 つのコンバージョンがある場合の、特定のアクティビティへの訪問／セッションの数を指定します。 | ダブル |
