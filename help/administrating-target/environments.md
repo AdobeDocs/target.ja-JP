@@ -5,9 +5,9 @@ title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '701'
 ht-degree: 63%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 63%
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. このデフォルトの環境は、名前を変更した場合でも削除できません。[!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
 
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
+When a [!DNL Target] request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. [!UICONTROL 実稼動] 環境では設定を変更できないので、未知のサイトまたは新しいサイトでは、アクティブで準備が整ったコンテンツのみが表示されるよう保証されています。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
 環境を管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL 環境をクリックします]**。
 
