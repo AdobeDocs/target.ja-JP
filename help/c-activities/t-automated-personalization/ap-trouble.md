@@ -3,7 +3,10 @@ description: アクティビティで不測の問題が生じることもあり�
 title: Automated Personalization のトラブルシューティング
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +39,7 @@ AP アクティビティの上昇率を確認するためには、次の条件�
 
 ## AP アクティビティ URL が間違ったページにあるオファーコンテンツを表示する。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-AP では、URL およびテンプレートのテストルールは mbox エントリ制限（target-global-mbox など）に追加され、1 回だけ評価されます。ユーザーがキャンペーンの資格を得ると、mbox レベルのターゲット設定ルールは再評価されません。ただし、ターゲットオーディエンスは、場所のターゲットルールに追加されます。
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. ユーザーがアクティビティの資格を得たら、Targetリクエストレベルのターゲットルールは再評価されません。 ただし、ターゲットオーディエンスは、場所のターゲットルールに追加されます。
 
 **ソリューション：**&#x200B;必要なテンプレートルールをキャンペーンの入力オーディエンスとして追加します。各リクエスト／呼び出しごとにオーディエンス評価が発生します。
 
