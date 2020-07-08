@@ -5,10 +5,10 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 26%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
+>このトピックの情報は更新され、 [!DNL Target] Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
-ホストは任意の Web サーバー（または Web ドメイン）です。ここから、プロジェクトの任意の段階で、コンテンツを提供します。mbox を提供するいずれのホストも認識されます。
+ホストは、 [!DNL Target] 要求が行われる任意のドメインです。 Webサイトでは、通常、このプロパティはリクエストを行うURLの `location.hostname` プロパティ [!DNL Target] です。
 
-[!DNL Target] では、mboxを送受信できるホストを制限しないので、新しいサーバーやドメインが起動すると、(許可リストまたはブロックリストを設定していない限り)自動的に機能します。 このように制限がないので、未知のまたは予期できない様々なドメインで広告テストをおこなうこともできます。
+デフォルトでは、 [!DNL Target] 要求を行い、応答を受け取ることができるホスト [!DNL Target] は制限されません [!DNL Target] 。 新しいホストは、リクエストを行うと自動的に機能します。 これにより、未知の、または予期できない様々なドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、どのホストを使用するかを制限する許可リストまたはブロックリストを設定でき [!DNL Target]ます。
 
 ホストを管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL ホスト]**&#x200B;をクリックします。
 
@@ -35,15 +35,15 @@ ht-degree: 54%
 
 ホストを認識して [!UICONTROL Hosts] リストに追加するには、次の条件を満たす必要があります。
 
-* 1 つ以上の mbox がホストに存在する
+* At least one [!DNL Target] request must exist on the host
 * ホスト上のページには、以下のものが含まれている必要があります。
 
    * 正確なat.jsまたはmbox.jsの参照
-   * mbox または自動生成されたグローバル mbox の呼び出し
+   * リク [!DNL Target] エストまたは自動生成されたグローバル [!DNL Target] リクエスト
 
-* mbox を含むページがブラウザーで表示できる
+* The page with the [!DNL Target] request must be viewed in a browser
 
-ページを表示した後、ホストが[!UICONTROL ホスト]リストに表示され、環境内でホストを管理したり、アクティビティおよびテストをプレビューおよび開始したりできます。
+After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
@@ -68,9 +68,9 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
+## Create allowlists that specify hosts that are authorized to send Target requests to Target. {#allowlist}
 
-You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 呼び出しを生成するその他のすべてのホストに対しては、コメントアウト認証エラーの応答が送信されます。デフォルトでは、mbox 呼び出しを含むホストは、実稼動環境の [!DNL Target] に登録され、アクティブで承認済みのすべてのキャンペーンへのアクセス権を持ちます。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. すべてのホストは、「[!UICONTROL ホスト]」リストに引き続き表示されます。また、環境は引き続きこれらのホストをグループ化したり、ホストごとに異なるレベル（ホストがアクティブまたは非アクティブなキャンペーンを表示できるかどうかなど）を割り当てることができます。
+You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. リクエストを生成するその他すべてのホストは、コメントアウト認証エラーの応答を受け取ります。 By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
 許可リストを作成するには：
 
@@ -86,11 +86,11 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-権限のないホストで mbox が呼び出されると、応答は `/* no display - unauthorized mbox host */` になります。
+If a [!DNL Target] request is made on an unauthorized host, the call will respond with `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、アドビはリダイレクトURLを検証できず、悪意のあるリダイレクトから保護されます。
+>**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、リダイレクトURL [!DNL Adobe] を検証できず、悪意のあるリダイレクトから保護されます。
 >
 >許可リストは環境よりも優先されます。 許可リスト機能を使用する前に、すべてのホストを消去する必要があります。そうすると、許可リストで許可されているホストのみがホストリストに表示されます。 その後、ホストを必要な環境に移動できます。
 
@@ -98,11 +98,11 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 `mboxHost` が API 呼び出しで渡される場合、渡される環境のコンバージョンが記録されます。If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
-また、「[!DNL Target]ホストに含まれない[!UICONTROL 」ボックスに目的のホストを追加して、] への mbox 呼び出しの送信を許可しない特定のホスト（ドメイン）を指定するブラックリストを作成することもできます。
+You can also create a denylist that specifies hosts (domains) than cannot send [!DNL Target] requests to [!DNL Target] by adding the desired hosts in the [!UICONTROL Host Does Not Contain] box.
 
 >[!NOTE]
 >
->認証済みホストリストは、mboxホストとデフォルトのリダイレクトホストの両方に使用されるので、Adobe TargetJavascript SDK(at.js)を使用するように承認された既存のドメインと、uboxのデフォルトのリダイレクトURLで使用されるすべてのを追加する必要があります。 ** また、今後、類似した新しい許可リストをドメインに追加する必要があります。
+>認証済みホストリストは、 [!DNL Target] ホストとデフォルトのリダイレクトホストの両方に使用されるので、 [!DNL Adobe Target] Javascript SDK(at.js)を使用するように承認された既存のドメイン ** と、uboxのデフォルトのリダイレクトURLで使用されるすべてのドメインを追加する必要があります。 また、今後、類似した新しい許可リストをドメインに追加する必要があります。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
@@ -113,22 +113,22 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!NOTE]
 >
->ホスト上にある mbox が設定されたページが参照されると、そのホストが再度リストされます。
+>ホスト上の [!DNL Target] 要求を含むページが参照されると、そのホストが再度リストされます。
 
 ## ホストのトラブルシューティング {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 ホストにおいて問題が発生した場合は次のトラブルシューティングのヒントを試してください。
 
-**ホストがアカウントの mbox リストに表示されない。**
+**ホストがアカウントのリストに表示されません。**
 
 * ブラウザーで[!UICONTROL ホスト]ページを再読み込みします。
-* at.jsまたはmbox.jsの参照を含め、mboxコードが正しいことを確認します。
-* ホストのいずれかの mbox を参照します。ホスト上にあるどの mbox もブラウザーでレンダリングされない場合もあります。
+* at.jsまたはmbox.jsの参照を含め、 [!DNL Target] リクエストが正しいことを確認します。
+* Try browsing to one of the [!DNL Target] requests on the host. It&#39;s possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
 **ランダムなドメインまたは不明なドメインが[!UICONTROL ホスト]リストに表示される。**
 
-[!DNL Target] の呼び出しがドメインからおこなわれると、このリストにドメインが表示されます。場合によっては、スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることがあります。表示されるドメインがチームで使用していないドメインである場合は、「[!UICONTROL 削除]」をクリックして、そのドメインを削除します。
+A domain appears in this list if a request to [!DNL Target] is made from the domain. 場合によっては、スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることがあります。表示されるドメインがチームで使用していないドメインである場合は、「[!UICONTROL 削除]」をクリックして、そのドメインを削除します。
 
-**mbox 呼び出しで /* no display - unauthorized mbox host */ が返される。**
+**リクエストが/* no display - unauthorized mbox host */を返す。[!DNL Target]**
 
-権限のないホストで mbox が呼び出されると、応答は /* no display - unauthorized mbox host */ になります。
+If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
