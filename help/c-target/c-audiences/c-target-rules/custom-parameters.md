@@ -5,7 +5,10 @@ title: Adobe Target のカスタムパラメーター
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 
    * 新しいオーディエンスを作成する場合、リストからパラメーター名を選択するか、特定のパラメーター名の最初の文字を入力するか、または特定のパラメーター名の完全な名前を入力します。
    * mbox 名は覚えているが、パラメーター名は覚えていないという場合は、チェックボックスを使用して、目的のパラメーターを渡す既知の mbox に関してフィルタリングをおこないます。
+
    いずれの方法でも、mbox とパラメーターの間にリンクはありません。オーディエンスは、該当するパラメーターを渡す mbox すべてに対して、パラメーターに基づいて機能します。
 
    既存のオーディエンスを編集すると、作成時に指定された mbox 名と共にフィルタリング条件が表示されます。
@@ -35,6 +39,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
    * 次を含む（大文字と小文字を区別しない）
    * 次を含まない（大文字と小文字を区別しない）
    * 次と等しい
+
    ![カスタムパラメーターオーディエンス](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. 新しい行に各値を入力します。
@@ -50,9 +55,9 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 ## 注意点 {#considerations}
 
 * オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡すが、リージョナル mbox は渡さない場合、そのパラメーターをターゲットにしたアクティビティ／オーディエンスでは、リージョナル mbox は対象になりません。
-* ターゲット設定は、mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId、mboxVersionなどの内部mboxパラメーターでは評価されません。
+* ターゲット設定は、mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxMCGVID、mboxCount、mboxId、mboxVersionなどの内部mboxパラメーターでは評価されません。
 
-## トレーニングビデオ：オーディエンスチュート ![リアルバッジの作成](/help/assets/tutorial.png)
+## トレーニングビデオ： オーディエンス ![チュートリアルバッジの作成](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
