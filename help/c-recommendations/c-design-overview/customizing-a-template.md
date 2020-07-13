@@ -4,7 +4,10 @@ description: オープンソースの Velocity デザイン言語を使用して
 title: Velocity を使用したデザインのカスタマイズ
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >変数の値の後に、変数名を示すタグの前にテキストを追加する場合は、変数名を正式な表記で囲みます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
@@ -125,7 +128,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 デフォルトでは、Velocityテンプレートでは、すべてのエンティティ属性が文字列値として扱われます。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱う必要がある場合があります。 エンティティ属性を数値として扱うには、次の手順に従います。
 
 1. ダミー変数を宣言し、任意の整数または重複値に初期化します
-1. 使用するエンティティ属性が空白でないことを確認します(ターゲットRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要)
+1. 使用するエンティティ属性が空白でないことを確認します(TargetRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要)
 1. エンティティ属性を手順1で作成したダミー変数 `parseInt` のまたは `parseDouble` メソッドに渡して、文字列を整数または重複値に変換します。
 1. 新しい数値に対して数学演算または比較を実行します
 
