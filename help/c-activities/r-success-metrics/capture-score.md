@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 52%
+source-wordcount: '764'
+ht-degree: 51%
 
 ---
 
@@ -48,13 +48,13 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
    Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >アクティビティの最初の表示 [!DNL Target] 要求の上にあるTarget要求は、スコアに含まれません。
 
 Best practice is to assign values in the [!DNL Target] request. これにより、各リクエストの内容に応じて、測定する値を正確に指定できます。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >メンテナンスを容易にするために、JavaScript の条件ロジックを含んだ [!DNL at.js] または [!DNL mbox.js] ファイル内で、サイトのページスコア値の割り当てを設定できます。これにより、ページに多くのコードを記述しなくても済みます。サポートが必要な場合は、担当のアカウントコンサルタントにお問い合わせください。
 
