@@ -5,9 +5,9 @@ title: Adobe Target のプロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2441'
 ht-degree: 79%
 
 ---
@@ -96,9 +96,10 @@ if (mbox.name == 'Track_Interest') {
 
 ![プロファイルスクリプト情報カード／「スクリプトの使用状況」タブ](assets/profile_script_info_card_usage_tab.png)
 
->[!Note]
+>[!NOTE]
 >
 >次の状況では、選択したプロファイルスクリプトを参照するアクティビティは「スクリプトの使用」タブに表示されません。
+>
 > * アクティビティのステータスがドラフトの場合。
 > * アクティビティで使用されるコンテンツまたはオファーが、スクリプト変数（アクティビティ内のインラインオファーまたはオファーライブラリ内のオファー）を使用する場合。
 
@@ -142,7 +143,7 @@ if (mbox.name == 'Track_Interest') {
    * プロファイルスクリプトは小さく、できるだけ単純にします。
    * 正規式を使用しないでください。または、非常に単純な正規式のみを使用してください。 単純な式でも、評価に多くの指示を受けることができます。
    * 再帰を避けます。
-   * プロファイルスクリプトをTargetに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行に時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
+   * プロファイルスクリプトをTargetに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行にはより長い時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
    * プロファイルスクリプトが複雑すぎる場合は、 [応答トークンの代わりに](/help/administrating-target/response-tokens.md) 、
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
