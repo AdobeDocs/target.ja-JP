@@ -5,9 +5,9 @@ title: Adobe Targetのプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '572'
 ht-degree: 16%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日： 2020年6月24日**
+**最終更新日：2020 年 7 月 13 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -51,6 +51,16 @@ ht-degree: 16%
 * プライバシー上の理由で訪問者のIPアドレスを不明化(**[!UICONTROL 管理]** / **[!UICONTROL 導入]**)
 * AdobeAdmin Console(**[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**)で管理する前に、ワークスペースごとの既存のリストとそのロールを表示します。
 * 「 [!UICONTROL 管理] 」セクションのすべてのテーブルを検索してフィルターします。
+
+### 機能強化、修正および変更
+
+このリリースには、次の機能強化、修正および変更が含まれています。
+
+* 更新後にサイトの環境設定が保持されない問題を修正しました。 （TGT-37239）
+* 「後に [!UICONTROL 挿入] 」 [!UICONTROL /「] 画像」がScalable Vector Graphics(SVG)画像で正しく機能しない問題を修正しました。 （TGT-37242）
+* ドラフトアクティビティを削除できなかった、 [!UICONTROL 投稿] ロールを持つユーザーの問題を修正しました。 （TGT-37358）
+* 「す [!UICONTROL べてのワークスペース] 」が選択されている場合にアクティビティを編集できない問題を修正しました。 （TGT-37276）
+* 既存のプロファイルスクリプト情報カードにオーディエンス使用状況情報が強化されました。 （TGT-37302）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
