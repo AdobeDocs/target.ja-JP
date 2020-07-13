@@ -1,11 +1,14 @@
 ---
-keywords: ターゲット設定
+keywords: Targeting
 description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
 title: コンバージョン率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >すべてのデータで、渡されると重複注文は無視 `orderID` されます。監査レポートには、無視された重複注文のリストが示されます。
 
@@ -104,7 +107,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [ダウンロードした CSV レポート](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,8 +124,8 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 **[!DNL Analytics]のデータエクスポート機能を使用してこれをおこなう手順は次のとおりです。**
 
 1. [!DNL Adobe Analytics]にログインします。
-1. 「**[!UICONTROL ツール]**」／「**[!UICONTROL Data Warehouse]**」をクリックします。
-1. 「**[!UICONTROL Data Warehouse リクエスト]」タブで、各フィールドに記入します。**
+1. **[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]** をクリックします。
+1. 「**[!UICONTROL Data Warehouse リクエスト]**」タブで、各フィールドに記入します。
 
    各フィールドについて詳しくは、[Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) の「Data Warehouse の説明」を参照してください。
 
@@ -134,7 +137,7 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
    | 分類 | 目的のディメンションを選択します。「標準」はあらかじめ用意されている（OOTB）ディメンションで、「カスタム」には eVar と prop が含まれます。訪問者 ID レベルの情報が必要な場合は、「Experience Cloud 訪問者 ID」ではなく、「訪問者 ID」を使用することをお勧めします。<ul><li>訪問者 ID は、Analytics で使用される最終的な ID で、AID（既存の顧客）か MID（新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客）になります。</li><li>Experience Cloud 訪問者 ID が設定されるのは、新規の顧客、または Experience Cloud 訪問者 ID サービスが開始されてから Cookie が消去された顧客のみです。</li></ul> |
    | 指標 | 目的の指標を選択します。「標準」は OOTB で、「カスタム」にはカスタムイベントが含まれます。 |
    | レポートプレビュー | レポートのスケジュールを設定する前に設定を確認します。<br>![Data Warehouse2](/help/c-reports/assets/datawarehouse2.png) |
-   | 配信の予定 | ファイルを送信する相手のメールアドレスを入力し、ファイルに名前を付けてから、「[!UICONTROL すぐに送信]」を選択します。<br>注意: このファイルは、[!UICONTROL 詳細配信オプション]の下のFTP経由で配信できます。<br>![配信の予定](/help/c-reports/assets/datawarehouse3.png) |
+   | 配信の予定 | ファイルを送信する相手のメールアドレスを入力し、ファイルに名前を付けてから、「[!UICONTROL すぐに送信]」を選択します。<br>注意: このファイルは、[!UICONTROL 詳細配信オプション]<br>![の下のFTP経由で配信できます。配信の予定](/help/c-reports/assets/datawarehouse3.png) |
 
 1. 「**[!UICONTROL このレポートをリクエスト]**」をクリックします。
 
@@ -145,7 +148,7 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
 * [Data Warehouse リクエストの作成](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouseのベストプラクティス](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data warehouseのベストプラクティス](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## カウント手法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 
    1 回の訪問には、ホームページなどの複数のインプレッションが含まれる場合があります。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >通常、カウントはcookieおよびセッションアクティビティによって決定されます。ただし、アクティビティの最終的なコンバージョンポイントに到達した後でアクティビティを再度訪問すると、アクティビティへの新規参加者および新規訪問と見なされます。これは、PCID と `sessionID` の値が変わらない場合でも該当します。
