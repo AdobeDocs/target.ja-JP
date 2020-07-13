@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe Target Recommendationsの条件は、事前に決められた訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
-title: Adobe Target Recommendationsの条件
+description: Adobe Targetレコメンデーションの条件は、事前に決められた一連の訪問者行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+title: Adobe Targetレコメンデーションの条件
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +42,13 @@ source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
-また、カスタムプロファイル属性の値を基にレコメンデーションを作成することもできます。
+カスタムプロファイル属性の値に基づいてレコメンデーションを設定することもできます。
 
 >[!NOTE]
 >
->カスタムプロファイルパラメーターは、JavaScript、APIまたは統合を通じてTargetに渡すことができます。 カスタムプロファイル属性について詳しくは、訪問者プロファイルを参 [照してくださ](/help/c-target/c-visitor-profile/visitor-profile.md)い。
+>カスタムプロファイルパラメーターは、JavaScript、APIまたは統合を介してTargetに渡すことができます。 カスタムプロファイル属性について詳しくは、 [訪問者プロファイルを参照してください](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
-例えば、ユーザーがキューに最近追加したムービーに基づいてレコメンデーションされたムービーを表示するとします。
+例えば、ユーザーが最後にキューに追加したムービーに基づいてレコメンデーションされるムービーを表示するとします。
 
 1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
@@ -55,7 +58,7 @@ source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
-例えば、ユーザーのお気に入りのブランドで売れ筋商品を表示するとします。
+例えば、ユーザーのお気に入りのブランドからトップセルの商品を表示したいとします。
 
 1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
@@ -65,7 +68,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 1. 選択したキーに一致するエンティティ属性を選択します。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] 各ブランドの「トップセラー」リストが作成され、「お気に入りのブランド  」プロファイル属性に保存された値に基づいて、適切な「トップセラー」リストがユーザーに表示されるようになりました。
+   [!DNL Recommendations] 現在は、各ブランドに対して「トップセラー」リストを作成し、「お気に入りのブランド  プロファイル」属性に保存された値に基づいて適切な「トップセラー」リストをユーザーに表示します。
 
    ![トップセラー属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
@@ -75,7 +78,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 条件 | 説明 |
 |--- |--- |
-| 類似の属性を持つ品目／メディア | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。<br>**注意：**&#x200B;類似の属性を持つ品目／メディアを選択した場合、コンテンツの類似性ルールを設定することができます。 |
+| 類似の属性を持つ品目／メディア | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。<br>**注意：**類似の属性を持つ品目／メディアを選択した場合、コンテンツの類似性ルールを設定することができます。 |
 | これを閲覧した人が他に閲覧したもの | 指定した品目が閲覧された同じセッションで、閲覧される頻度が最も高い品目をレコメンドします。 |
 | これを閲覧した人が購入したもの | 指定した品目が閲覧された同じセッションで、購入される頻度が最も高い品目をレコメンドします。この条件によって、顧客が指定の商品を閲覧した後で購入した他の商品が返されるので、指定した商品は結果セットに含まれません。 |
 | これを購入した人が他に購入したもの | 指定した品目と同時に顧客に購入される頻度が最も高い品目をレコメンドします。 |
@@ -83,9 +86,9 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | トップセラー | 完了した注文の最も多くに含まれている品目。1 回の注文で同じ品目が複数含まれていても、1 回の注文としてカウントします。 |
 | 最も頻繁に閲覧された | 最も高い頻度で閲覧される品目またはメディア。 |
 | 最近表示した品目／メディア | 訪問者が最近表示した品目。この条件を使用する場合、以前表示された品目では表示するのに十分でなく、空白のレコメンデーションが表示されてしまうという状況に対処するために、Target デザインを更新する必要があります。 |
-| ユーザーベースの推奨 | 各訪問者の閲覧、閲覧、購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件を使用すると、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを配信できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、ユーザーがサイトを閲覧するにつれて、よりパーソナライズされます。<br>レコメンデーション品目は、表示と購入の両方を使用して決定されます。 指定したレコメンデーションキー（現在の品目など）を使用して、選択したインクルージョンルールフィルターを適用します。 例えば、次のことができます。<ul><li>特定の条件を満たさない品目（製品の在庫切れ、30日以上前に公開された記事、Rに分類された映画など）を除外します。</li><li>含める項目を1つのカテゴリまたは現在のカテゴリに制限する</li></ul> |
+| ユーザーベースのレコメンデーション | 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件により、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを提供できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、ユーザーがサイトを閲覧する際にパーソナライズされます。<br>レコメンデーション品目は、表示と購入の両方を使用して決定されます。 指定したレコメンデーションキー（現在の品目など）は、選択したインクルージョンルールのフィルターを適用するために使用されます。 例えば、次のことができます。<ul><li>特定の条件を満たさない項目（在庫切れの製品、30日以上前に公開された記事、Rに分類された映画など）を除外する</li><li>含めるカテゴリを1つのカテゴリまたは現在のアイテムに制限する</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >レコメンデーションを実行中にその条件を変更すると、レポートデータが失われます。
 
@@ -109,4 +112,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->アルゴリズム [!UICONTROL の使用] 機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、現在、オファーとしてrecommendationsを含むA/B Test and Experience Targeting(XT)アクティビティではサポ [ートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
+>アル [!UICONTROL ゴリズムの使用] (Algorithm Usage)機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、オファーとして [recommendationsを含むA/B Test and Experience Targeting(XT)アクティビティでは、現在サポートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
