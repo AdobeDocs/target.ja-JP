@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 73%
+source-wordcount: '680'
+ht-degree: 72%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 73%
 
       >[!IMPORTANT]
       >
-      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可するには、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、ホストを使用して、リダイレクトを許可するドメインをリストできます。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
+      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 Targetは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のTargetにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
 
 
 1. リダイレクターを検証します。
@@ -83,7 +83,7 @@ ht-degree: 73%
 
 1. あらゆる環境のすべてのタイプのブラウザーで、エクスペリエンス、デフォルトコンテンツおよびレポートがすべて期待どおりに機能することを確認します。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >* リダイレクターは、オファープレビューまたは mbox の閲覧ではサポートされていません。ブラウザーで直接エクスペリエンスのプレビューを確認してください。
    >* `mboxDebug` はリダイレクターでは機能しません。
