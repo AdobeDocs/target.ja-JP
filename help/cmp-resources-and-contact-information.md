@@ -5,7 +5,7 @@ title: リソースおよび連絡先情報
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 80%
@@ -70,7 +70,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
-カスタマーケアに電子メールでお問い合わせ [!DNL tt-support@adobe.com] ください。
+カスタマーケアに電子メールでお問い合わせ [!DNL customercare@adobe.com] ください。
 
 問題の迅速な解決のために、お問い合わせの際は次の基本情報をお手元にご用意ください。
 
