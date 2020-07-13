@@ -5,7 +5,10 @@ title: リダイレクトオファーの作成
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。この場合、A/B テストではページ A とページ B を比較します。A/B テストキャンペーンを 2 つのエクスペリエンスで設定します。1 つはデフォルトのページ A をポイントするエクスペリエンス、もう 1 つはページ B にリダイレクトするエクスペリエンスです。訪問者を別のページにリダイレクトするオファーが設定されます。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >ajax mbox（`mboxUpdate`）では、リダイレクトオファーは使用できません。
 >
@@ -26,7 +29,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 リダイレクトオファーでは、JavaScript コードを実行してブラウザーをリダイレクトします。このオファーでは `window.location.replace();` メソッドを使用するので、訪問者のリダイレクト元のページはブラウザー履歴に保存されません。そのため、訪問者はブラウザーの「戻る」ボタンを引き続き使用できます。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >ランディングページのリファラー値を渡す場合、リダイレクトオファーではなく HTML オファーを使用することをお勧めします。
 
@@ -51,11 +54,11 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ファーストパーティおよびサードパーティ Cookie の設定を使用する場合は、異なるドメインにアクセスするときに mbox セッション ID を渡す必要はありません。この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >このようなテストを開始する場合は、導入コンサルタントにお問い合わせください。
 
-## トレーニングビデオ：コンテンツリポジトリ（4:56） 概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリ（4:56） ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 
