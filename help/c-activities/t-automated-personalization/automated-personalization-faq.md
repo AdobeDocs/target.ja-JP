@@ -1,10 +1,13 @@
 ---
-keywords: トラブルシューティング;よくある質問;FAQ;FAQ;自動パーソナライゼーション
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 title: 自動パーソナライゼーションに関する FAQ
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ Automated Personalization アクティビティの結果は、モデルが構築
 ## 訪問者に、提供されないはずの AP アクティビティのエクスペリエンスが表示されるのはなぜですか。{#section_41CECEAE0881446A8D9F3B016857914B}
 
 自動パーソナライゼーションアクティビティは、セッションごとに評価されます。特定のエクスペリエンスに対する条件を満たしたアクティブなセッションがあり、そこに新しいオファーが追加されると、ユーザーには、以前まで表示されていたオファーとともに新しいコンテンツが表示されます。こうしたユーザーは、それまでに対象のエクスペリエンスの条件を満たしていたので、セッションの有効期間中は引き続きそのエクスペリエンスが表示されます。ページ訪問のたびにアクティビティを評価したい場合は、エクスペリエンスのターゲット設定（XT）のアクティビティタイプを使用してください。
+
+## 自動パーソナライゼーションアクティビティを使用して、目標指標を途中で変更できますか。 {#change-metric}
+
+アクティビティの途中で目標指標を変更しないことをお勧めします。 UIを使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があり [!DNL Target] ます。 実行後にアクティビティの目標指標を変更した場合の動作は保証されません。
+
+この推奨は、 [!UICONTROL 自動配分]、 [!UICONTROL 自動Target]、および [!UICONTROL 自動パーソナライゼーション][!DNL Target][!DNL Analytics] アクティビティ(A4T)のいずれかをレポートソースとして使用するに適用されます。
