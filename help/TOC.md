@@ -5,9 +5,9 @@ user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 92%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 92%
    + 自動配分 {#auto-allocate}
       + [自動配分](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [自動配分は、手動テストよりもテスト結果と売上高の方が高速です](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [自動ターゲット](c-activities/auto-target-to-optimize.md)
    + 自動パーソナライゼーション{#automated-personalization}
       + [自動パーソナライゼーションの概要](c-activities/t-automated-personalization/automated-personalization.md)
