@@ -5,7 +5,7 @@ user-guide-title: Adobe Target ヘルプ
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
+source-git-commit: 90d815a5c13312d3fbcce8f26adf039f90a54405
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 92%
