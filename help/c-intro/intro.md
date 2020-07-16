@@ -5,7 +5,10 @@ title: Adobe Target の概要
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -13,12 +16,6 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 # Target の概要{#introduction-to-target}
 
 Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた Adobe Experience Cloud ソリューションです。
-
-以下のビデオでは、Target を他の Adobe Experience Cloud ソリューションと共に組織の目標達成に役立てる方法に関する基礎知識を提供します。
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] ソリューションにはいくつかのコンポーネントがあります。
 
@@ -38,7 +35,7 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 
 [!DNL Target Premium] は、[!DNL Target Standard] にプレミアム機能を追加した高度な [!DNL Target] ライセンスです。
 
-このヘルプのTarget Premiumのトピックには、ページの上部にPremiumバッジが含まれています。
+このヘルプの「Targetプレミアム」トピックでは、ページの上部にプレミアムバッジを表示します。
 
 ![Premium バッジ](/help/assets/premium.png)
 
@@ -99,9 +96,9 @@ Target Premium には次のようなプレミアム機能があります。
 
 この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。最初の Adobe Target アクティビティを準備および開始するのに役立つ主要情報、ツールおよびリソースが含まれており、短期間でのすばやい成果と長期間の最適化戦略を実現します。
 
-[Adobe Targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[ザAdobe Targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## トレーニングビデオ：アクティビティタイプ(9:03)概要 ![バッジ](/help/assets/overview.png)
+## トレーニングビデオ： アクティビティタイプ(9:03) ![概要バッジ](/help/assets/overview.png)
 
 次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティのタイプと、サイトの目標を達成するため Target でおこなう 3 ステップのガイドによるワークフローを説明します。
 
