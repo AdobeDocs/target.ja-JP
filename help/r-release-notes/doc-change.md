@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1365'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 17 年 7 月 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月22日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
 | 15 年 7 月 | [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新規トピックです。 |
 | 14 年 7 月 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[自動Target](/help/c-activities/auto-target-to-optimize.md),<br><br>[および自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | アクティビティの途中で目標指標を変更しないことをお勧めするFAQを追加しました。 |
 | 7 年 7 月 | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月8日のAdobe Target・コーヒー・ブレークに関する情報を追加。 |
