@@ -5,10 +5,10 @@ title: アクティビティのトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 83%
+source-wordcount: '799'
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ TargetUIを使用して作成されたアクティビティは、TargetUIを使�
 Target でユーザーとして追加されたら、アクティビティを作成するために承認者の役割が必要です。
 
 * 承認者にしてもらうよう、アカウントの管理者に依頼します。
-* 管理者の場合は、Target Standard のセットアップ／ユーザーから自分に承認者の役割を付与します。
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    「[承認者の役割の割り当て](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
 
