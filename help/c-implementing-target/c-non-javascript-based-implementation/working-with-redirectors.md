@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ ht-degree: 72%
 
    * `yourclientcode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
-      * **at.js**： クライアントコードは、[!UICONTROL  インターフェイスの「]セットアップ」／「実装」／「at.js 設定を編集[!DNL Target]」ページの最上部にあります。
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**： クライアントコードは、「[!UICONTROL セットアップ」／「実装」／「mbox.js 設定を編集」ページの最上部にあります。]
    * `redirectorlink_456` は、キャンペーンおよびテストで使用するためにアカウントで表示するリダイレクター mbox の名前です。
 
       リダイレクターの機能は他の mbox とは異なりますが、他の mbox と同様にアカウントで表示されます。アカウント内の標準タイプの mbox と区別しやすいようなリダイレクターの名前を指定してください。mbox の名前には、&#39;redirectorlink&#39; を先頭に付けることをお勧めします。
@@ -61,7 +60,6 @@ ht-degree: 72%
       >[!IMPORTANT]
       >
       >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 Targetは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のTargetにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
-
 
 1. リダイレクターを検証します。
    1. *セキュリティのベストプラクティス*: 上記のように、リダイレクターで使用するドメインが許可されていることを確認します。 許可されていないドメインを使用する場合、アドビは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
