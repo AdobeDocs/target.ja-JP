@@ -5,10 +5,10 @@ title: Enterprise 権限の設定
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 70%
+source-wordcount: '1476'
+ht-degree: 69%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 70%
 # ![PREMIUM](/help/assets/premium.png) Enterprise 権限の設定{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
-
->[!NOTE]
->
->このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 >[!NOTE]
 >
@@ -206,7 +202,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Target のワークスペースの設定方法（6:55） ![チュートリアルバッジ](/help/assets/tutorial.png)
+>[!NOTE]
+>
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 以下のビデオの情報は、一般的に正しい。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+
+### Targetワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
