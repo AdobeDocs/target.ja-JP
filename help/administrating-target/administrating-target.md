@@ -6,21 +6,17 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
 
-# Target の管理{#administer-target}
+# Target の管理の概要{#administer-target}
 
 Visual Experience Composer(VEC)、レポート、Scene7の設定、実装、ホスト、環境、応答トークン、ユーザーの設定 [!DNL Adobe Target]など、管理に役立つ情報です。
-
->[!NOTE]
->
->次の節に示すトピックは、20.6.1リリース（2020年7月）でのUIの変更を最新の状態に更新しました。この [!DNL Target Standard/Premium] 変更点は簡単に理解できます。 これらのトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
