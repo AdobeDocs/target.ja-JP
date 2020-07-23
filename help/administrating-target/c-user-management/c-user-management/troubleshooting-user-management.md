@@ -5,10 +5,10 @@ title: ユーザー管理のトラブルシューティング
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 58%
+ht-degree: 30%
 
 ---
 
@@ -17,6 +17,6 @@ ht-degree: 58%
 
 Adobe Target でのユーザー管理のトラブルシューティングについて説明します。
 
-## 別のユーザーを Target に招待したが、そのユーザーの名前が「ユーザー」リスト（セットアップ／ユーザー）に表示されません。 {#section_13A1A9697BA44537BA569C81CF136160}
+## I invited a user to Target, but his or her name does not display in the Users list (Administraion > Users). {#section_13A1A9697BA44537BA569C81CF136160}
 
 You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL Target Standard/Premium].
