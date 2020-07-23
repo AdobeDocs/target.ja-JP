@@ -1,11 +1,14 @@
 ---
-keywords: エクスペリエンスのターゲット設定;ランディングページテスト
+keywords: Experience Targeting;Landing Page Test
 description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
 title: Visual Experience Composer で使用される要素セレクター
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 CSS セレクターの基本的な情報については、Mozilla Developer Network（MDN）にある[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についてのドキュメントを参照してください。
 
-アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL セットアップ / 環境設定]**&#x200B;をクリックして、希望する CSS セレクターを選択します。
+アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL 管理/Visual Experience Composerをクリックし]**、希望のCSSセレクターを選択します。
 
 ![](assets/css_selectors.png)
 
@@ -68,7 +71,7 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
 
    この例では、次のようになります。
 
-   セレクター：`#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)`（「&gt;」は直接の子を示します。）
+   セレクター：`#container` > `ul.navigation:eq(0)` > `li.item:eq(0)`（「>」は直接の子を示します。）
 
    `eq` は、UL タグで、最初のクラスが `navigation` の要素のインデックスを示しています。したがって、`index`は 0 になります。詳しくは、MDN の[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についての記事を参照してください。
 
@@ -89,7 +92,7 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
    </div>
    ```
 
-   セレクター：`#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   セレクター：`#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    詳しくは、[CSS-Tricks Web ページの：nth-of-type についての解説](https://css-tricks.com/almanac/selectors/n/nth-of-type/)を参照してください。
 
