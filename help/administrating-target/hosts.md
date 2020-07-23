@@ -5,10 +5,10 @@ title: ホスト
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 26%
+source-wordcount: '1079'
+ht-degree: 27%
 
 ---
 
@@ -17,15 +17,11 @@ ht-degree: 26%
 
 サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 
->[!NOTE]
->
->このトピックの情報は更新され、 [!DNL Target] Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
-
 ホスト管理の主な目的は、非アクティブなコンテンツが誤って Web サイトに表示されるのを確実に防ぐことです。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 ホストは、 [!DNL Target] 要求が行われる任意のドメインです。 Webサイトでは、通常、このプロパティはリクエストを行うURLの `location.hostname` プロパティ [!DNL Target] です。
 
-デフォルトでは、 [!DNL Target] 要求を行い、応答を受け取ることができるホスト [!DNL Target] は制限されません [!DNL Target] 。 新しいホストは、リクエストを行うと自動的に機能します。 これにより、未知の、または予期できない様々なドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、どのホストを使用するかを制限する許可リストまたはブロックリストを設定でき [!DNL Target]ます。
+デフォルトでは、 [!DNL Target] 要求を行い、応答を受け取ることができるホスト [!DNL Target] は制限されません [!DNL Target] 。 新しいホストは、リクエストを行うと自動的に機能します。 これにより、未知の、または予期できない様々なドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、どのホストを使用するかを制限する許可リストブロックリストまたはを設定でき [!DNL Target]ます。
 
 ホストを管理するには、 **[!UICONTROL 管理]** / **[!UICONTROL ホスト]**&#x200B;をクリックします。
 
