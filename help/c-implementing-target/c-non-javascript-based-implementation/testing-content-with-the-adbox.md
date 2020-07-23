@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 83%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -32,9 +32,8 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
    * `myClientCode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
-      * **at.js**： クライアントコードは、[!UICONTROL  インターフェイスの「]セットアップ」／「実装」／「at.js 設定を編集[!DNL Target]」ページの最上部にあります。
+      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**： クライアントコードは、「[!UICONTROL セットアップ」／「実装」／「mbox.js 設定を編集」ページの最上部にあります。]
    * `image` は呼び出しのタイプです。この場合は画像です。
 
    * `emailHeroImage123_320x200` は adbox の名前です。
@@ -42,7 +41,6 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` は mbox のデフォルトコンテンツです。画像にする必要があります。
 
       URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
-
 
 1. 各代替画像の[リダイレクトオファー](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を作成します。
 
