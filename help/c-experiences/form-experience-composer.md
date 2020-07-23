@@ -5,7 +5,10 @@ title: フォームベースの Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ Recommendations アクティビティを作成している場合、エクスペ�
 1. アクティビティの名前を設定します。
 1. 場所を選択します。
 
-   「ロケーションを選択」ボックスをクリックすると、利用可能な場所の一覧が表示されます。いずれかの場所を選択します。target.js によって提供されるグローバルな場所を選択するには、「target-global-mbox」を選択します。
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. いずれかの場所を選択します。target.js によって提供されるグローバルな場所を選択するには、「target-global-mbox」を選択します。
 
-   ここに表示されていない場所を入力することもできます。これは、mbox がまだページで作成または表示されていない場合に便利です。場所の名前を入力します。まだ存在していない場所を入力する場合は、注意が必要です。mbox の呼び出し時に、スペルや大文字／小文字が一致していないと、アクティビティが配信されません。手動で入力した場所がリストに保存されます。
+   ここに表示されていない場所を入力することもできます。これは、mbox がまだページで作成または表示されていない場合に便利です。場所の名前を入力します。まだ存在していない場所を入力する場合は、注意が必要です。mbox の呼び出し時に、スペルや大文字／小文字が一致していないと、アクティビティが配信されません。手動で入力した場所は、使用可能な場所のリストに保存されます。 次に手動で入力した場所を選択すると、そのアクティビティの「場所を [!UICONTROL 選択] 」ドロップダウンリストからその場所を使用できます。
+
+   >[!NOTE]
+   >
+   >アクティビティの作成時に手動で入力した場所を作成しても、新しい場所が自動的に作成されるわけではありません。 場所名は、アクティビティのコンテキストにのみ保存されます。 場所は、コンテンツ配信呼び出しがある場合に作成されます。 作成された場所に続いて、他のアクティビティで使用したり、オーディエンスの作成などに使用したりできます。 」をクリックします。
+
 1. 「**[!UICONTROL 絞り込み条件を追加]**」をクリックし、このアクティビティ用の[オーディエンス](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を 1 つ以上選択します。
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ Recommendations アクティビティを作成している場合、エクスペ�
    1. 「[!UICONTROL 画像オファーの変更]」をクリックします。
    1. 希望する画像を選択してから、「[!UICONTROL リンクの編集]」をクリックします。
    1. 希望する URL またはサイトのページを指定して、「[!UICONTROL 更新]」をクリックします。
+
    **JSON オファーの変更：** JSON オファーを選択します。
 
    **エクスペリエンスフラグメントの変更：**&#x200B;エクスペリエンスフラグメントを選択します。
@@ -67,6 +76,7 @@ Recommendations アクティビティを作成している場合、エクスペ�
    1. オファー名を入力します。
    1. 「コード」ボックスに HTML コードを入力するか貼り付けます。
    1. 「[!UICONTROL 保存]」をクリックします。
+
    **JSON オファーの作成：**
 
    1. 「[!UICONTROL オファー]」をクリックしてから、「[!UICONTROL コードオファー]」タブを選択します。
@@ -74,6 +84,7 @@ Recommendations アクティビティを作成している場合、エクスペ�
    1. オファー名を入力します。
    1. 「コード」ボックスに JSON コードを入力するか貼り付けます。
    1. 「[!UICONTROL 保存]」をクリックします。
+
    Recommendations アクティビティでは、コンテンツドロップダウンに「Recommendation を追加」オプションが表示されます。「**[!UICONTROL Recommendation を追加]**」をクリックして、ページタイプを選択します。次に、[Recommendations アクティビティを作成する](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)ためにインターフェイスで定義した通常の手順に従います。
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
@@ -84,14 +95,14 @@ Recommendations アクティビティを作成している場合、エクスペ�
 
    ![](assets/change_criteria_2.png)
 
-1. （AB アクティビティ、自動パーソナライゼーション、エクスペリエンスのターゲット設定の場合はオプション）このプロセスをその他の場所に対して繰り返すには、`Add Location` をクリックして場所とコンテンツを設定します。
-1. 「**[!UICONTROL 続行]**」をクリックして、アクティビティタイプに対して、通常どおりアクティビティ作成手順を実行します。
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [A/B テストの作成](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [エクスペリエンスのターゲット設定アクティビティの作成](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Recommendations アクティビティの作成](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## トレーニングビデオ：フォームベースのコンポーザー チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：フォームベースのコンポーザー ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオは、フォームベースのコンポーザーのデモを紹介します。
 
