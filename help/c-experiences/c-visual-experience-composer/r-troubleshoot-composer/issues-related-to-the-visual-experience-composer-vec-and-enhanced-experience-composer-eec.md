@@ -4,10 +4,10 @@ description: Visual Experience Composer（VEC）と拡張 Experience Composer（
 title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Web サイトが、エクスペリエンスの定義後に Visual Experience Com
 
 ## iFrame バスティングのサイトのエクスペリエンスを編集できない。（VEC と EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;をクリックし、拡張 Experience Composer を有効にするチェックボックスをオンにします。拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。これにより、iFrame バスティングのサイトの編集と、まだ Adobe Target コードを追加していないサイトとページの編集が可能になります。コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。 []
+この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、拡張Experience Composerを有効にするチェックボックスを選択します。 拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。これにより、iFrame バスティングのサイトの編集と、まだ Adobe Target コードを追加していないサイトとページの編集が可能になります。コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。 []
 
 >[!NOTE]
 >
