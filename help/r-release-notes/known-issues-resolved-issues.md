@@ -4,7 +4,10 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
-
-### レポートと極端な注文
-
-2019年11月25日から2020年4月26日まで、あるターゲットサーバーで、極端な注文額が売上高ベースのレポート指標(AOV、RPV)でカウントされる問題が発生しました。 2019年12月19日から2020年4月23日まで、別のサーバーでも同じ問題が発生していました。 この問題は、すべてのターゲットサーバーまたはすべてのターゲット顧客に影響しませんでした。
-
-次の場合は影 *響を受* けませんでした。
-
-* お使いのターゲットの実装では、異なるサーバーが使用されています。
-* レポートで極端な注文が除外されませんでした。
-* コンバージョン指標を使用してアクティビティ。
-* ターゲットアクティビティは、Analyticsをターゲット(A4T)に使用します。
-* アジア太平洋(APAC)地域にあります。
-
-この問題がお客様のターゲットレポートに影響を与えたかどうかを判断するには、 [ClientCareにご連絡くださ](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)い。
 
 ### ページ配信 {#page-delivery}
 
@@ -121,7 +110,7 @@ mbox.js ライブラリは、Handlebars や Mustache などのクライアント
 
 ### 実装：グローバル mbox 自動作成
 
-新たにプロビジョニングしたテナントの場合、「実装」タブ（[!UICONTROL セットアップ／実装]）の「[!UICONTROL グローバル mBox 自動作成]」フィールドは、デフォルトでは「false」になります。
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 プロビジョニング後に最初に mbox.js をダウンロードすると、ダウンロードした mbox.js ファイルと [!UICONTROL  のバックエンドでは、「]グローバル mBox 自動作成[!DNL Target]」フィールドが「true」になりますが、UI の[!UICONTROL 実装]ページでは、ページが更新されるまで表示は「false」のままになります（ページを更新すると「true」になります）。
 
@@ -146,6 +135,20 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上記の既知の問題が解決されると、それらは以降のセクションに移動され、必要に応じてメモが追加されます。
+
+### レポートと極端な注文
+
+2019年11月25日から2020年4月26日まで、あるTargetサーバーで、売上高ベースのレポート指標(AOV、RPV)で極端な注文値がカウントされる問題が発生していました。 2019年12月19日から2020年4月23日まで、同じ問題が発生したサーバーもあります。 この問題は、Targetサーバーの一部またはTargetのお客様には影響しませんでした。
+
+次の場合は *影響を受けません* 。
+
+* Target導入で使用されているサーバーが異なります。
+* レポートで、極端な注文が除外されませんでした。
+* コンバージョン指標を使用してアクティビティを測定しました。
+* Targetアクティビティは、TargetにAnalyticsを使用します(A4T)。
+* アジア太平洋(APAC)地域にあります。
+
+この問題がTargetレポートに影響を与えたかどうかを判断するには、 [ClientCareにお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### Recommendations
 
