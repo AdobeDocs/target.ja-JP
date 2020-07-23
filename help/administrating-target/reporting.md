@@ -4,10 +4,10 @@ description: 一般的な設定、モバイルAdobe Target設定、CSSセレク�
 title: Adobe Targetでのレポートの設定
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 30%
+source-wordcount: '666'
+ht-degree: 32%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 30%
 # Targetでのレポートの設定
 
 アカウント全体に適用する [!DNL Adobe Target] レポートで使用する一般設定を設定し [!DNL Target] ます。
-
->[!NOTE]
->
->このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 [!UICONTROL レポート設定ページにアクセスするには、] 管理 **[!UICONTROL /]** レポートをクリックします **。**
 
