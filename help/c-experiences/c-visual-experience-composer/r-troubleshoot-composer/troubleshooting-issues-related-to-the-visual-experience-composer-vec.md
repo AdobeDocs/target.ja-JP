@@ -4,10 +4,10 @@ description: Visual Experience Composer（VEC）では、特定の状況で表�
 title: Visual Experience Composer に関連する問題のトラブルシューティング
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Web サイト（特に単一ページアプリ）で、ページの再読み込�
 
 拡張 Experience Composer で問題が発生した場合、拡張 Experience Composer をオフにして、代わりに Visual Experience Composer を使用します。
 
-拡張 Experience Composer を無効にするには、**[!UICONTROL セットアップ]**／**[!UICONTROL パフォーマンス]**&#x200B;に移動して、「**[!UICONTROL 拡張 Enhanced Experience Composer]**」オプションをオフにします。
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
@@ -116,10 +116,6 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
    ブラウザーのアドレスバーの URL の左にあるアイコンをクリックして、「**[!UICONTROL このページの保護を無効にする」をクリックします。]**
 * 入力した URL が無効です。
 * アカウント設定ページにデフォルト URL が入力されていません。
-
-## VEC アクティビティの URL にアクセスすると、コンソールに「キャッチできない参照エラー：_AT が定義されていません。」というエラーメッセージが表示されます。（VEC のみ）{#section_BB5B9B629AC4452496A82943EFF72B85}
-
-このエラーは、Visual Experience Composer（VEC）キャンペーンを配信しようとして、「[!UICONTROL Visual Experience Composer アクティビティをサポート]」オプションを有効にした状態（[!UICONTROL セットアップ]／[!UICONTROL 実装]／[!UICONTROL mbox.js]／[!UICONTROL mbox.js 設定を編集]）で、更新された mbox.jsを Target ユーザーインターフェイスからダウンロードしていない場合に発生します。
 
 この設定が有効になっていることを確認してから、Web サイトの mbox.js をダウンロードおよび更新してください。
 
