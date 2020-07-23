@@ -5,7 +5,10 @@ title: 目標と設定
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-「セットアップ」でこのオプションが有効（デフォルト）になっていない場合は、「低」、「中」、「高」のいずれかの優先度を指定します。
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-優先度の詳細設定を有効にするには、「セットアップ」をクリックしてから、「詳細なプロパティを有効にする」オプションを「オン」に設定します。
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -152,7 +155,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティの設定(3:02)チュートリ ![アルバッジ](/help/assets/tutorial.png)
+### アクティビティ設定(3:02) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
@@ -164,7 +167,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 多変量分析テストの作成(9:25)チュートリ ![アルバッジ](/help/assets/tutorial.png)
+### 多変量分析テストの作成(9:25) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。目標と設定に関する説明は 7:00 から始まります。
 
