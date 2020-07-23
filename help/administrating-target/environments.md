@@ -5,10 +5,10 @@ title: 環境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # 環境
 
 サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
-
->[!NOTE]
->
->このトピックの情報は更新され、Target Standard/Premium 20.6.1リリース（2020年7月）で行われるUIの変更点を最新の状態に更新しました。 このトピックに示す情報のほとんどは、現在のUIに適用されます。 ただし、オプションが少し異なる場所にある場合もあります。
 
 ホストは、管理を容易にするために環境にバンドルされます。例えば、数十のホストを 2 つまたは 3 つの環境に分けることができます。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 新しい環境を追加したり、希望に応じて環境の名前を変更したりすることができます。
 
