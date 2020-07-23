@@ -5,10 +5,10 @@ title: 以前のリリースのリリースノート
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '29532'
-ht-degree: 91%
+source-wordcount: '30028'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,29 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2020 年
+
+### Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、 [AnalyticsがTargetに対応するようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL AdobeAnalytics] 目標指標や [!UICONTROL AdobeAnalytics] レポート機能および分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [Analyticsを参照して、](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) アクティビティ作成時の自動配分アクティビティのTarget(A4T)サポートを確認してください **。 |
+| 自動Targetと自動パーソナライゼーションアクティビティのトラフィック配分方法の応答トークン | 自動 [Target](/help/administrating-target/response-tokens.md) と [!UICONTROL 自動パーソナライゼーション] アクティビティに2つの応答トークンが追加され、訪問者が「制御」または「ターゲット」トラフィックに割り当てられた結果として特定のエクスペリエンスを受け取ったかどうかを判断できるようになりました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、「自動パーソナライゼーションまたは自動Targetアクティビティのコントロールの [選択](/help/c-activities/t-automated-personalization/experience-as-control.md)」を参照してください。 |
+| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**Targetプレミアムユーザー**: [手順6: ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
+| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でTarget分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 Target用 [!UICONTROL Analytics(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、「 [A4TレポートのAnalytics](/help/c-integrating-target-with-mac/a4t/reporting.md) の *レポート* 」および「Analyticsツールガイド [」パネルのTarget用(A4T)(A4T)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)** Analyticsのレポート」を参照してください。 |
+
+**機能強化、修正および変更**
+
+* 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
+* 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
+
+### at.js 1.8.2およびat.js 2.3.1リリース（2020年6月16日）
+
+at.jsライブラリに加えられた改善点および修正点 [!DNL Target] を次に示します。
+
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| at.js 1.8.2 | at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。<ul><li>CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）</li><li>拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しの [!DNL Adobe Analytics] 遅延が発生する問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ### プロファイルバッチステータスAPI v2の変更点（2020年5月14日）
 
@@ -219,7 +242,7 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
    * IMS(Adobe Suite Cloud Management)組織間 [!DNL Identity Management System] または別のソリューション間の切り替えが容易になりました。
    * ユーザーヘルプの改善： 検索結果には、 [!DNL Target] 製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツにアクセスしやすくなり、最大限の利用を可能に [!DNL Target]します。 また、 [!UICONTROL ヘルプ] メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
 
-   * ネットプロモータースコア(NPS)のフィードバック機能が改善され、調査モーダルが作業の流れを妨げないようになりました。
+   * ネットプロモータースコア(NPS)のフィードバック機能が強化され、調査モーダルが作業の流れを妨げないようになりました。
    * ログインフローが改善されました。 以前は、すべての [!DNL Target] 顧客は、ヘッダー内の [!DNL Target] アイコンをクリックした後、Targetランディングページにランディングしていました。 その後、このページでは、次のように、 [!DNL Target Standard/Premium]、、 [!DNL Search&Promote][!DNL Recommendations Classic]またはを使用して先に進むことができました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
@@ -535,7 +558,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティのレポートソース </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で、アクティビティのレポートソースとして <span class="keyword">Target</span> または <span class="keyword">Adobe Analytics</span> のいずれかを選択できます。アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。</p></td> 
+   <td colname="col2"> <p>In <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Visual Experience Composer </span>, you can select the reporting source for your activities, either <span class="keyword"> Target </span> or <span class="keyword"> Adobe Analytics </span>. アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -551,7 +574,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
    [オーディエンスの概要](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)を参照してください。
 
-* [!UICONTROL セットアップ]ページで Adobe Analytics をレポートソースとして選択した場合に、特定の状況でアクティビティを作成できないという問題を修正しました。以前は、レポートスイートを選択できない場合でも、「レポートスイートを選択してください」というメッセージが表示されていました。（TGT-31968）
+* Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Administration] page. 以前は、レポートスイートを選択できない場合でも、「レポートスイートを選択してください」というメッセージが表示されていました。（TGT-31968）
 
 ### プラットフォーム（2018 年 10 月 20 日）
 
@@ -1350,7 +1373,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 詳しくは、[ブラウザーでの混在するコンテンツの有効化](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)を参照してください。
 
-* 設定、オーディエンス、レコメンデーションページでオプションを設定する際にユーザーの Target セッションがタイムアウトした場合のワークフローを改善しました。「保存」をクリックするとセッションの有効期限切れを示すメッセージが表示されますが、ログインし直すと、ログインが成功したことを示すダイアログが表示され、Target の UI には同じページが表示されます。データの損失も発生しません。（TGT-25557）
+* 管理ページ、オーディエンスページおよびRecommendationsページでオプションを設定しているときに、Targetセッションがタイムアウトした場合のワークフローを改善しました。 「保存」をクリックするとセッションの有効期限切れを示すメッセージが表示されますが、ログインし直すと、ログインが成功したことを示すダイアログが表示され、Target の UI には同じページが表示されます。データの損失も発生しません。（TGT-25557）
 
 ### Target プラットフォームの変更（2017 年 9 月 28 日） {#section_AC32516DFBA64AD2AC9A74171D452778}
 
@@ -1540,7 +1563,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    * オーディエンス／オーディエンスを作成／訪問者プロファイル
    * Recommendations／フィードの作成／ソースタイプ／Analytics／レポートスイートの選択メニュー
 
-* 「X-Frame-Options」が SAMEORIGIN に設定されているサイトを Visual Experience Composer（VEC）で読み込めない場合のエラーメッセージを改善しました。セットアップ／環境設定から拡張 Experience Composer に切り替えるよう促すメッセージが表示されます。（TGT-17356）
+* 「X-Frame-Options」が SAMEORIGIN に設定されているサイトを Visual Experience Composer（VEC）で読み込めない場合のエラーメッセージを改善しました。管理/Visual Experience Composerで拡張Experience Composerに切り替えるようにユーザーに促すメッセージが表示されます。 （TGT-17356）
 * Target Standard／Premium のレポートが、Target サーバーのタイムゾーン（US EST）ではなく、アカウントのタイムゾーンで表示されるようになりました。（TGT-24868）
 * [!DNL Target] で作成されたアクティビティが [!DNL Target] 以外（Adobe I/O など）で更新されると、次のアクティビティ属性が [!DNL Target] に再び読み込まれます。
 
@@ -1940,7 +1963,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> Target UI からの mboxTrace 認証トークンの生成 </td> 
-   <td colname="col2"> <p>一時的な認証トークンを作成することで、高度な <span class="keyword">Target</span> デバッグツールを有効にします。 </p> <p><span class="uicontrol">実装詳細</span>ページ（<span class="wintitle">セットアップ</span>／<span class="uicontrol">実装</span>）の「<span class="uicontrol">認証トークンを生成</span>」をクリックします。結果のパラメーターをトラブルシューティングの目的で Web ページ URL に追加します。 </p> <p>詳しくは、<a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">コンテンツ配信のトラブルシューティング</a>の「デバッグツールで使用するための認証トークンの取得」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>一時的な認証トークンを作成することで、高度な <span class="keyword">Target</span> デバッグツールを有効にします。 </p> <p>Click <span class="uicontrol"> Generate Authentication Token </span> on the <span class="wintitle"> Implementation Details </span> page ( <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Implementation </span>). 結果のパラメーターをトラブルシューティングの目的で Web ページ URL に追加します。 </p> <p>詳しくは、<a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">コンテンツ配信のトラブルシューティング</a>の「デバッグツールで使用するための認証トークンの取得」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：基準の優先度の設定 </td> 
@@ -2197,7 +2220,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
  <tbody> 
   <tr> 
    <td colname="col1"> アクティビティの優先度設定 </td> 
-   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>このオプションは、<span class="wintitle">セットアップ</span>／<span class="wintitle">環境設定</span>で有効化する必要があります。 </p> <p>細かい優先度のオプションは、A/B テスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
+   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>This option must be enabled in <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Reporting </span> . </p> <p>細かい優先度のオプションは、A/B テスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B テスト：</b><a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>自動パーソナライゼーション：</b><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a> </li> 
@@ -2519,7 +2542,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ### Adobe Target Standard／Premium 16.2.1（2016 年 2 月 19 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2541,7 +2564,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ### Adobe Target Standard／Premium 16.1.1（2016 年 2 月 1 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2619,7 +2642,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * 拡張 Experience Composer を有効にします。これは、**[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブから設定できます。
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3567,7 +3590,7 @@ target/r_release-notes-2014.xml
 
 | 機能 | 説明 |
 |---|---|
-| Target Standard 内からの [!DNL mbox.js] ダウンロード | [!DNL mbox.js] ファイルは、Target Standard インターフェイスの&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL 導入]**&#x200B;から直接ダウンロードできるようになりました。以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
+| Target Standard 内からの [!DNL mbox.js] ダウンロード | The [!DNL mbox.js] file can now be downloaded directly from **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in the Target Standard interface. 以前は、このファイルは、Target Advanced 内からダウンロードするか、アカウント担当者またはコンサルタントから提供してもらう必要がありました。 |
 
 このリリースには、次の修正および機能強化が含まれています。
 
