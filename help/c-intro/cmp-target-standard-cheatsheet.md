@@ -5,10 +5,10 @@ title: Target の最適化とパーソナライゼーションに関する FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Target の 3 ステップのガイドによるワークフローのステップ 
 2 つのオプションがあります。
 
 * デフォルトは 3 つのレベル（低／中／高）
-* カスタムは 0 ～ 999 の範囲。カスタムの場合は、優先度の詳細設定機能（セットアップ／環境設定）を有効にします。
+* カスタムは 0 ～ 999 の範囲。カスタムの場合は、詳細な優先度機能を有効にします（管理/Visual Experience Composer）。
 
 ## オーディエンス{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -198,7 +198,7 @@ mbox と[カスタムオーディエンス](../c-target/c-audiences/c-target-rul
 
 **複数のドメインがあります。拡張 Experience Composer を有効にする必要があるドメインと、無効にする必要があるドメインがあるのですが、これはどうすれば設定できますか？**
 
-いつでも、[アクティビティ単位で拡張 Experience Composer オプション](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)を利用して、デフォルト設定を上書きできます（セットアップ／環境設定）。
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **画像を入れ替えるオプションが表示されないのはなぜですか？**
 
