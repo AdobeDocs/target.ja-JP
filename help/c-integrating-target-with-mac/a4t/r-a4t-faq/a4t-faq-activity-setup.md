@@ -1,11 +1,14 @@
 ---
-keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: このトピックには、アクティビティの設定と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: アクティビティの設定 - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 新しいアクティビティを作成する際に、Analytics をレポートソースとして選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-「セットアップ」で「レポート設定」オプションを変更できます。
+「管理」で「レポート設定」オプションを変更できます。
 
-1. Adobe Target で、「**[!UICONTROL セットアップ]**」をクリックします。
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. 「**[!UICONTROL レポートに使用する Experience Cloud ソリューション]**」ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
 
 ![](assets/select-per-activity.png)
 
-アクティビティを作成および編集する&#x200B;****&#x200B;目標と設定]画面で、**[!UICONTROL レポートソース]ドロップダウンリストが有効になります。[!UICONTROL **
+アクティビティを作成および編集する&#x200B;**[!UICONTROL 目標と設定]**&#x200B;画面で、**[!UICONTROL レポートソース]**&#x200B;ドロップダウンリストが有効になります。
 
-レポートソースとして常に Analytics を使用するには、「セットアップ」のドロップダウンリストから「**[!UICONTROL Adobe Analytics]」を選択します。**
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
