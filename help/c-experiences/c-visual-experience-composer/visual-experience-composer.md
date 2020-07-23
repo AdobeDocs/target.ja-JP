@@ -3,7 +3,10 @@ description: Adobe Target での Visual Experience Composer（VEC）の使用に
 title: Adobe Target Visual Experience Composer（VEC）
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ VEC は、サイトコンテキストのパーソナライズされたエクス�
 
 VEC は [!DNL Adobe Target] の主要機能の 1 つです。VEC を使用すると、マーケティング担当者やデザイナーが視覚的なインターフェイスを使用してコンテンツを作成および変更できます。コードを直接編集することなく、多くのデザインの選択肢を作成できます。コンポーザーで利用可能な編集オプションを使用すれば、HTML および JavaScript の編集も可能です。
 
-Target の **[!UICONTROL セットアップ]**／**[!UICONTROL 環境設定]**&#x200B;タブで、Visual Experience Composer デフォルト URL を入力できます。
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![デフォルトの VEC URL 設定](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -109,14 +112,14 @@ VEC 内でページの読み込みをキャンセルするには、ページの�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer(1/2)(7:17)チュートリアルバ ![ッジ](/help/assets/tutorial.png)
+### Visual Experience Composer(1/2)(7:17) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer(2/2)(7:29)チュートリアルバ ![ッジ](/help/assets/tutorial.png)
+### Visual Experience Composer(2/2)(7:29) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
@@ -127,7 +130,7 @@ VEC 内でページの読み込みをキャンセルするには、ページの�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 勤務時間：Visual Experience Composerチュートリ ![アルバッジ](/help/assets/tutorial.png)
+### 勤務時間： Visual Experience Composer ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
