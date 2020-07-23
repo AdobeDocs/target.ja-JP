@@ -1,10 +1,13 @@
 ---
-keywords: 高度な mbox.js 設定;クライアント;サーバードメイン;xdomain;圧縮レベル;クライアントセッション id サポート;secureOnly;クライアント pc id サポート;ページを渡す;参照 url;トラフィックレベル;トラフィックの期間;mboxParameters() 関数本体;mboxSupported() 関数本体;mboxCookieDomain() 関数本体;Extra JavaScript;SiteCatalyst プラグイン;自己解凍型 JavaScript として mbox.js を取得;ちらつき;本文非表示;本文を隠す
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
 title: mbox.js を設定
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ mbox.js の設定ページでいくつかの設定をおこなう方法を説明
 
 アカウントのクライアントコード。
 
-[!UICONTROL セットアップ／実装／mbox.js 設定を編集]を表示する際に、最上部にあるクライアントがアカウントのクライアントコードです。
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## タイムアウト
 
 Target リクエストのタイムアウト。
 
-「[!UICONTROL セットアップ」／「実装」／「mbox.js 設定を編集]」の順に表示した際の「圧縮レベル」の後の「タイムアウト」が、Target リクエストのタイムアウトです。デフォルトでこの値は 15 秒に設定されますが、2～5 秒の間に設定することをお勧めします。
+[!UICONTROL 管理/実装を表示する場合]、「タイムアウト（秒）」設定はTargetリクエストのタイムアウトになります。 デフォルトでこの値は 15 秒に設定されますが、2～5 秒の間に設定することをお勧めします。
 
 ## XDomain
 
@@ -47,7 +50,7 @@ mbox.js ライブラリファイルをどの程度圧縮するかを指定しま
 
 次に例を示します。
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## mboxSupported() 関数本体
 
@@ -55,7 +58,7 @@ return "test=123";
 
 次に例を示します。
 
-return !navigator.userAgent.indexOf('Safari') ! = -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) ! = -1;
 
 以下のブラウザーを受け入れるか、または除外することができます。
 
@@ -70,7 +73,7 @@ return !navigator.userAgent.indexOf('Safari') ! = -1;
 
 次に例を示します。
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## 追加の JavaScript
 
