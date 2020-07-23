@@ -5,10 +5,10 @@ title: Visual Experience Composer のベストプラクティスと制限事項
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,11 +31,11 @@ mbox.js は `<head>` セクションの最後に配置し、その後に宣言�
 
 **拡張 Experience Composer は、アカウントレベル（アカウントで作成されるすべてのアクティビティで有効化）または個々のアクティビティレベルにて有効化が可能。**
 
-拡張 Experience Composer をアカウントレベルで有効にするには、[!UICONTROL セットアップ／環境設定]をクリックし、スイッチをオンの位置に切り替えます。
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 Visual Experience Composer でアクティビティを作成する際に拡張 Experience Composer をアクティビティレベルで有効にするには、[!UICONTROL 設定／URL] をクリックし、スイッチをオンの位置に切り替えます。
 
-**拡張Visual Experience Composerがサイトのセキュリティで保護されたページで読み込まれない場合、特定のIPアドレスを許可できます。**
+**拡張Visual Experience Composerがサイトのセキュリティで保護されたページで読み込まれない場合、特定のIPアドレスを許可リストできます。**
 
 拡張Visual Experience Composerの読み込みの問題は、次のIPアドレスを許可することで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらのIPアドレスを許可されている必要はありません。
 
