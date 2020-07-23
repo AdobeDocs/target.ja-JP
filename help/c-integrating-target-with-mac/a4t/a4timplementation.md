@@ -4,10 +4,10 @@ description: Adobe Analytics を Target のレポートソースとして実装�
 title: Analytics for Target の実装
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 64%
+source-wordcount: '879'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 次の節では、この統合をサイトに導入するために必要な手順について説明します。
 
-## 手順1: Analyticsとターゲットのプロビジョニングのリクエスト
+## 手順1: AnalyticsとTargetのプロビジョニングの要請
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [プロビジョニングの依頼にはこのフォームを使用します](http://www.adobe.com/go/audiences)。
 
@@ -38,9 +38,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 appMeasurement.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新規導入の場合は、『 [Analytics導入ガイド』の](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 「JavaScript導入の概要 *」を参照してください*。
+新規導入の場合は、『 [Analytics導入ガイド](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 』のJavaScript導入の概要 **&#x200B;を参照してください。
 
-移行については、 [Analytics導入ガイドのJavaScript版AppMeasurementへの](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 移行を参照してください **。
+移行については、『 [Analytics導入ガイド](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 』の「AppMeasurement for JavaScriptへの移行」を参照してください **。
 
 ## 手順 5：at.js または mbox.js をダウンロードして更新します。
 
@@ -171,7 +171,7 @@ JavaScript ライブラリを更新した後でページをロードして、 �
 
 ## 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
 
-[!DNL Target] で、**[!UICONTROL セットアップ／環境設定]**&#x200B;をクリックし、「**[!UICONTROL アクティビティごとに選択]**」または「**[!UICONTROL Adobe Analytics]**」を選択して、オプションを有効にします。
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
