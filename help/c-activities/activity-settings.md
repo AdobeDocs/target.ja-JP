@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-   「[!UICONTROL セットアップ]」でこのオプションが有効（デフォルト）になっていない場合は、「低」、「中」、「高」のいずれかの優先度を指定します。
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   優先度の詳細設定を有効にするには、「[!UICONTROL セットアップ]」をクリックしてから、「[!UICONTROL 詳細なプロパティを有効にする]」オプションを「オン」に設定します。
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    このオプションを有効にした場合は、0～999 の値を指定します。
 
    * 0 = 低
    * 999 = 高
+
    [!DNL Target Standard/Premium] の以前のバージョンで作成されたアクティビティについては、低の優先度は 0 に、中は 5 に、高は 10 に変換されます。これらの値は必要に応じて調整できます。
 
    >[!NOTE]
@@ -54,7 +58,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * [多変量分析テスト](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティの設定 チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：アクティビティの設定 ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
