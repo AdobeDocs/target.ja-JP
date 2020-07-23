@@ -1,11 +1,14 @@
 ---
-keywords: spa vec; react; angular; react.js; spa visual experience composer; spa experience composer オプション; シングルページアプリケーション; シングルページアプリ; spa; モバイルエクスペリエンスオプション; target ビュー
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Adobe Target のシングルページアプリケーション（SPA）の Visual Experience Composer（VEC）を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。
 title: シングルページアプリケーション（SPA）Visual Experience Composer
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 92%
 
 ---
 
@@ -24,13 +27,13 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ビューとは何かをさらに説明するために、React で実装された架空のオンライン e コマースサイトを操作して、いくつかビューの例を見てみましょう。下のリンクをクリックして、このサイトを新しいブラウザタブで開きます。
 
-**リンク：ホーム[サイト](https://target.enablementadobe.com/react/demo/#/)**
+**リンク：[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
 ![ホームサイト](/help/c-experiences/assets/home.png)
 
 ホームサイトに移動すると、イースターセールで使われるヒーローの画像と、サイトで販売されている最新製品を確認できます。この場合、ビューはホームサイト全体として定義できます。この点については、後述の「Adobe Target ビューの実装」セクションで詳しく説明します。
 
-**リンク：製[品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+**リンク：[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![製品サイト](/help/c-experiences/assets/product-site.png)
 
@@ -44,7 +47,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 「Load More」ボタンをクリックすると、サイトに掲載されている他の製品をみることができます。この場合、Web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。たとえば、表示名を「PRODUCT-PAGE-2」にします。
 
-**リンク：チェックア[ウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+**リンク：[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![チェックアウトページ](/help/c-experiences/assets/checkout.png)
 
@@ -64,7 +67,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
 
-   Adobe Target UI で[!UICONTROL セットアップ／実装]をクリックし、at.js 2.x をダウンロードします。at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
 
 1. サイトに at.js 2.x の最新の関数 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) を実装します。
 
@@ -76,11 +79,11 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    | --- | --- | --- | --- | --- |
    | viewName | 文字列 | ○ | 1. 末尾にスペースは入れられません。<br>2.空にはできません。<br>3.ビュー名はすべてのページに対して一意である必要があります。<br>4.**警告**： ビュー名の先頭または末尾を「`/`」にしないでください。これは、顧客は URL パスから表示名を一般的に抽出するためです。「home」と「`/home`」は区別されます。<br>5.**警告**： `{page: true}` オプションを使用して同じビューを連続してトリガーしないでください。 | ビューを表す文字列型として任意の名前を渡します。このビュー名は、VEC の「[!UICONTROL 変更]」パネルに表示されます。マーケティング担当者はこれを使用してアクションを作成し、A/B および XT アクティビティを実行します。 |
    | options | オブジェクト | × |  |  |
-   | options &gt; page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。`page=true` の場合、インプレッション数を増分するために Edge サーバーに通知が送信されます。<br>**FALSE**: `page=false` の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
+   | options > page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。`page=true` の場合、インプレッション数を増分するために Edge サーバーに通知が送信されます。<br>**FALSE **:`page=false`の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
    次に、模擬 e コマース SPA 用に React で `triggerView()` 関数を呼び出す方法について、いくつかの例を見てみましょう。
 
-   **リンク：ホーム[サイト](https://target.enablementadobe.com/react/demo/#/)**
+   **リンク：[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **リンク：製[品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+   **リンク：[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
    それでは、もう少し複雑な例を見てみましょう。たとえば、ユーザーが「Load More」ボタンをクリックした場合に価格ラベルの色を赤に変更して、2 行目にある製品をパーソナライズすることをマーケティング担当者が希望しているとしましょう。
 
@@ -140,7 +143,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    }
    ```
 
-   **リンク：チェックア[ウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **リンク：[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React チェックアウト](/help/c-experiences/assets/react6.png)
 
@@ -205,8 +208,8 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-exper
 | --- | --- |
 | 情報 | アクションの詳細を表示します。 |
 | 編集 | アクションのプロパティを直接編集できます。 |
-| 複製 | [!UICONTROL 変更]パネルに存在する 1 つ以上のビューまたは VEC で参照および移動した 1 つ以上のビューにアクションを複製します。アクションは、必ずしも[!UICONTROL 変更]パネルに存在する必要はありません。<br>**注意**：複製操作をおこなったら、[!UICONTROL 参照]を使用して VEC のビューに移動し、複製されたアクションが有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
-| 移動 | 変更パネルに既に存在するページ読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL ページの読み込みイベント] – ページの読み込みイベントに対応するアクションが Web アプリケーションの最初のページ読み込みに適用されます。<br>**注意**：移動操作をおこなったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
+| 複製 | [!UICONTROL 変更]パネルに存在する 1 つ以上のビューまたは VEC で参照および移動した 1 つ以上のビューにアクションを複製します。アクションは、必ずしも[!UICONTROL 変更]パネルに存在する必要はありません。<br>**注意&#x200B;**：複製操作をおこなったら、[!UICONTROL 参照]を使用して VEC のビューに移動し、複製されたアクションが有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
+| 移動 | 変更パネルに既に存在するページ読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL ページの読み込みイベント] – ページの読み込みイベントに対応するアクションが Web アプリケーションの最初のページ読み込みに適用されます。<br>**注意&#x200B;**：移動操作をおこなったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
 | 削除 | アクションを削除します。 |
 
 >[!NOTE]
@@ -436,6 +439,6 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 ## トレーニングビデオ：Adobe Target での SPA 用 VEC の使用
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
