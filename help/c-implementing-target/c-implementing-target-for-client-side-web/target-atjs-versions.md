@@ -5,10 +5,10 @@ title: at.js のバージョンの詳細
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3947'
-ht-degree: 86%
+source-wordcount: '3978'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 86%
 >Targetチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
 >[at.jsをアップグレードするには、Adobe Experience Platformの起動をお勧めします。](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
+
+## at.js 2.3.2（2020年7月25日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* スクリプトまたはコードがウィンドウまたはドキュメントにデフォルトのプロパティを追加した場合に発生するバグを修正しました。
 
 ## at.js 1.8.2（2020年6月16日）
 
