@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1491'
 ht-degree: 33%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 27 年 7 月 | [Target の管理](/help/administrating-target/administrating-target.md) | このページのすべてのリンクされたトピックのテキストを更新し、 [!UICONTROL 管理] ページの新しいUIの変更を反映しました。 |
 |  | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下の変更を加えました。 <ul><li>次のウェビナーの登録情報を追加しました。 「HSBCは、Adobe TargetとAIを活用して、パーソナライゼーションを迅速に最適化し、規模を拡大して提供する方法」</li><li>パーソナライゼーションエンジンに関するGartner Magic Quadrantで、アドビがリーダーに再び選出されたことに関する情報を追加しました。</li></ul> |
 |  | [フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) | 手順4の情報を明確にしました。 場所を選択します。 |
+| 24 年 7 月 | <br>[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.2 に関する情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.7.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
