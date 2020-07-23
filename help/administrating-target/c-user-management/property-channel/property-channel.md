@@ -5,10 +5,10 @@ title: Enterprise ユーザーの権限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 82%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]お客様&#x200B;**: 「[!UICONTROL ユーザー]」タブ(管理者[!UICONTROL /ユーザー])が表示される(「[!UICONTROL プロパティ]」タブは表示されない)場合は、組織に[!DNL Target Standard]ライセンスがあります。[!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)」の指示に従う必要があり[!DNL Adobe Admin Console]ます。
 
-* **[!DNL Target Premium]お客様&#x200B;**: 「[!UICONTROL プロパティ]」タブ([!UICONTROL セットアップ/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織に[!DNL Target Premium]ライセンスがあります。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]お客様&#x200B;**: 「[!UICONTROL プロパティ]」タブ([!UICONTROL 管理/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織にライセンスがあり[!DNL Target Premium]ます。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## エンタープライズ権限を使用する前に
 
@@ -198,7 +198,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **オーディエンスの作成：**&#x200B;新しいオーディエンスを作成すると、現在選択しているワークスペースに作成されます。
 * **オファーの作成：**&#x200B;新しいオファーを作成すると、現在選択しているワークスペースに作成されます。
-* **プロパティページ（セットアップ/プロパティ）:** 「 [!UICONTROL Search] 」ボックスを使用して、 [!UICONTROL プロパティ] リストを検索できます。
+* **プロパティページ（管理/プロパティ）:** 「 [!UICONTROL Search] 」ボックスを使用して、 [!UICONTROL プロパティ] リストを検索できます。
 
    ![](assets/properties_list.png)
 
@@ -302,5 +302,9 @@ Consider the following when using or configuring properties and permissions in [
 * プロパティの作成
 * ユーザーの追加
 * 実装の更新
+
+>[!NOTE]
+>
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
