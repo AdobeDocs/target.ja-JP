@@ -1,12 +1,15 @@
 ---
-keywords: グローバル mbox;グローバル mbox のカスタマイズ;mbox.js の編集;at.js の編集;at.js;mbox.js の実装;at.js の実装
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: at.js および mbox.js の両方でグローバル mbox をカスタマイズするために役立つ情報を紹介します。
 title: グローバル mbox のカスタマイズ
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ at.js および mbox.js の両方でグローバル mbox をカスタマイズ�
 
 1. mbox.js を編集します。
 
-   「**[!UICONTROL Target]**」／「**[!UICONTROL セットアップ]**」／「**[!UICONTROL 実装]**」の順に移動します。
+   **[!UICONTROL Target]** / **[!UICONTROL 管理]** / **[!UICONTROL 実装に移動します]**。
 
    * mbox.js の場合、「**[!UICONTROL mbox.js 設定を編集]**」をクリックします。
-   * [!DNL at.js] の場合、「実装方法」の下で「**[!UICONTROL at.js]**」を選択し、「**[!UICONTROL mbox.js 設定を編集**]」をクリックします。
+   * [!DNL at.js] の場合、「実装方法」の下で「**[!UICONTROL at.js]**」を選択し、「**[!UICONTROL mbox.js 設定を編集]**」をクリックします。
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. [!DNL mbox.js] または [!DNL at.js] を編集します。
