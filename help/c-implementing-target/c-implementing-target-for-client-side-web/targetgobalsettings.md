@@ -5,10 +5,10 @@ title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() �
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 39%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 41%
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-この関数は、at.js が読み込まれる前、または&#x200B;**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL at.js 設定を編集]**／**[!UICONTROL コード設定]**／**[!UICONTROL ライブラリヘッダー]**&#x200B;で定義できます。
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 「ライブラリのヘッダー」フィールドでは、JavaScript を自由形式で入力できます。カスタマイズコードは次の例のようになります。
 
@@ -322,7 +322,7 @@ var weatherProvider = {
 
 at.js 2.3.0以降では、配信されたTargetオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
-at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応してに設定する必要があります。 以下の例を参照してください。
+at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
 
 ```
 ...
@@ -472,7 +472,7 @@ Consider the following when using `serverState`:
 
 * `serverState `オファーを適用する場合、at.jsでは、 `pageLoadEnabled` 設定(例：設定がfalseの場合、ページ読み込みオファーは適用されません)を考慮 `viewsEnabled``pageLoadEnabled` します。
 
-   これらの設定をオンにするには、 **[UICONTROL設定/実装/設定を編集/ページ読み込み有効に切り替え]**&#x200B;ます。
+   これらの設定をオンにするには、 **[UICONTROL管理/実装/編集/ページ読み込み有効に切り替え]**&#x200B;ます。
 
    ![ページ型設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
