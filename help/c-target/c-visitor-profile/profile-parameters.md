@@ -5,10 +5,10 @@ title: Adobe Target のプロファイル属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 77%
 
 ---
 
@@ -158,7 +158,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **プロファイルスクリプトをレスポンストークンとして追加し、プロファイルスクリプトをデバッグ**
 
-   Target で「**[!UICONTROL セットアップ]**」／「**[!UICONTROL レスポンストークン]**」の順にクリックし、デバッグしたいプロファイルスクリプトを有効にします。
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    次に示すように、Target を使用してページをサイトに読み込むたびに、Target からのレスポンスの一部として、指定したプロファイルスクリプトの値が含まれます。
 
@@ -166,7 +166,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   このメソッドでは、**[!UICONTROL Target]**／**[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
 
