@@ -4,7 +4,10 @@ description: Adobe Target Visual Experience Composer（VEC）ヘルパーブラ�
 title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +54,7 @@ VEC ヘルパー拡張機能を使用する利点：
 
    このフラグはグローバル設定であることに注意してください。このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。したがって、このフラグをオンにして at.js で既に実装されている Web サイトを開くと、at.js が既に読み込まれていることを示すメッセージが表示されます。ほとんどのお客様は既にページに at.js を実装しており、デフォルト設定であるオフを使用することが予想されます。
 
-* 拡張機能は、[!DNL Target UI]の[!UICONTROL セットアップ / 実装]から利用できる最新バージョンの at.js を読み込みます。
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * 拡張機能を使用して [QA モード](/help/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 
