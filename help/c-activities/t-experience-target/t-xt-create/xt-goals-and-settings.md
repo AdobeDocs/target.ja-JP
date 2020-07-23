@@ -1,11 +1,14 @@
 ---
-keywords: アクティビティ設定;エクスペリエンスのターゲット設定目標と設定;xt目標と設定;エクスペリエンスのターゲット設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;プライマリ目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのオーディエンス;この指標を増分する前に達成する必要のある成功指標はどれですか;ユーザーがこの目標指標に達した後、どうなりますか;注意
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-「セットアップ」でこのオプションが有効（デフォルト）になっていない場合は、「低」、「中」、「高」のいずれかの優先度を指定します。
+このオプションが「管理」（デフォルト）で有効になっていない場合は、優先度を指定します。 低、中、高。
 
-優先度の詳細設定を有効にするには、「セットアップ」をクリックしてから、「詳細なプロパティを有効にする」オプションを「オン」に設定します。
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -160,4 +163,4 @@ Analytics for Target では、結果を正確にレポートするために、�
 * レポートフィルター作成とレポートのためのオーディエンス追加
 * アクティビティのメモの入力
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
