@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 68%
+source-wordcount: '1316'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,14 @@ mboxTrace と mboxDebug は、外部パーティにキャンペーンデータ�
 
 認証トークンを取得するには、次の手順に従います。
 
-1. **[!UICONTROL セットアップ]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
-1. 「**[!UICONTROL mbox.js]**」または「**[!UICONTROL at.js]**」を選択します。
-1. 「**[!UICONTROL 認証トークンを生成]**」をクリックします。
+1. [ **[!UICONTROL 管理]** ] > [ **[!UICONTROL 実装]**]の順にクリックします。
+1. 「Debugger Tools」セクションで、「 **[!UICONTROL Generate New Authentication Token]**」をクリックします。
 
-   ![認証トークンを生成](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![新しい認証トークンの生成](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. 生成されたトークンをパラメーターとして URL に追加して、高度なデバッグツールの 1 つを有効にします。
 
-   ![認証トークン](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![認証トークン](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
