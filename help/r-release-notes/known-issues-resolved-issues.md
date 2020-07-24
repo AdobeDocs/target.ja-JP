@@ -4,10 +4,10 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 95%
+source-wordcount: '3261'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,10 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 ### Target API
 
 Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自動配分アクティビティでCRUD操作を行うことはできません。
+
+### 地域ターゲティング
+
+2020年5月10日に、アドビのGEOプロバイダーファイルを更新しました。これにより、いくつかの不一致が生じました。 例えば、コンマを含む値が追加されたとします。 ただし、既存のオーディエンスの値にはコンマがありません。 この変更がアドビの配信サーバーの一部に影響を与えたわけではありません。 その結果、この値を使用するオーディエンスでは、2020年5月10日から7月22日の間の正しい訪問者がすべて満たされていない場合があります。
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
