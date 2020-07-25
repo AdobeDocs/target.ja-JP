@@ -2,10 +2,11 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target ヘルプ
+user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 90d815a5c13312d3fbcce8f26adf039f90a54405
+source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 92%
