@@ -5,10 +5,10 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1573'
+ht-degree: 32%
 
 ---
 
@@ -21,8 +21,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 28 年 7 月 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>および [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | メモ内のテキストを更新しました。 |
+|  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Internet Explorerおよび不明な要素に関する情報を追加しました。 |
+|  | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、小さな割合のデータ（大規模な生産バッチの0.1 %まで）はオンボードされない可能性があります。 |
 | 27 年 7 月 | [Target の管理](/help/administrating-target/administrating-target.md) | このページのすべてのリンクされたトピックのテキストを更新し、 [!UICONTROL 管理] ページの新しいUIの変更を反映しました。 |
-|  | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下の変更を加えました。 <ul><li>次のウェビナーの登録情報を追加しました。 「HSBCは、Adobe TargetとAIを活用して、パーソナライゼーションを迅速に最適化し、規模を拡大して提供する方法」</li><li>パーソナライゼーションエンジンに関するGartner Magic Quadrantで、アドビがリーダーに再び選出されたことに関する情報を追加しました。</li></ul> |
+|  | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下の変更を加えました。 <ul><li>次のウェビナーの登録情報を追加しました。 「HSBCは、Adobe TargetとAIを活用して、パーソナライゼーションを迅速に最適化し、規模を拡大して提供する方法」</li><li>パーソナライゼーションエンジンに関するGartner Magic Quadrantで、Adobeがリーダーに再び選出されたことに関する情報を追加しました。</li></ul> |
 |  | [フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) | 手順4の情報を明確にしました。 場所を選択します。 |
 | 24 年 7 月 | <br>[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.2 に関する情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.7.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
@@ -41,7 +44,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | あるプロファイルスクリプトの結果を別のプロファイルスクリプトで使用する依存プロファイルスクリプトを作成することはお勧めしません。 |
 |  | [at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 次のビデオを追加しました。 勤務時間： at.jsのヒントと概要 |
 | 6月17日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
-|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | 自動Target [!UICONTROL および] 自動パーソナライゼーション  アクティビティのトラフィック配分方法の応答トークンに関する情報を追加しました。 |
+|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!UICONTROL 自動Targetおよび] Automated Personalization  アクティビティのトラフィック配分方法の応答トークンに関する情報を追加しました。 |
 |  | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 自動配分アクティビティのTarget(A4T)サポートのためのAnalyticsに関する情報を追加しました。 |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 「ロールと権限の [!UICONTROL 指定] 」に、新しい *投稿者*&#x200B;ロールに関する情報を追加しました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | [!UICONTROL 手順6で、新しい] 投稿者 *役割に関する情報を追加しました。 役割と権限を指定します*。 |
@@ -98,8 +101,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性を表示できないのはなぜですか？」のテキストを更新しました。 |
 | 2 年 4 月 | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 新しいAWSエッジ `user.header('x-forwarded-for')` を使用してユーザーのIPアドレスを取得する方法に関する情報を追加しました。 |
 |  | [at.js 1.*x* から at.js 2.*x へのアップグレード&#x200B;*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 以下の注意を追加しました。<ul><li>ECID ライブラリ v4.3.0 以降および at.js 2.*x* をインストールしたら、一意のドメインにまたがるアクティビティを作成してユーザーを追跡できます。この機能は、セッションの有効期限が切れた後にのみ機能することに注意してください。</li></ul> |
-| 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のバージョンのat.jsに影響する既知の問題を追加しました。この問題により、AdobeAnalyticsコードがページ要素に存在しない場合に、クリック追跡でTargetに関するコンバージョンがAnalyticsでレポートされませんでした。 |
-|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.jsバージョン2.2.0の詳細に次の情報を追加しました。<ul><li>AdobeAnalyticsコードがページエレメントに存在しない場合に、クリック追跡でTarget(A4T)のAnalyticsのコンバージョンがレポートされない問題を修正しました。</li></ul> |
+| 3月30日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0より前のバージョンのat.jsに影響する既知の問題を追加しました。この問題により、Adobe Analyticsコードがページ要素に存在しない場合に、クリック追跡でTarget(A4T)のコンバージョンがAnalyticsでレポートされませんでした。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.jsバージョン2.2.0の詳細に次の情報を追加しました。<ul><li>Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡で、Target(A4T)のAnalyticsのコンバージョンがレポートされない問題を修正しました。</li></ul> |
 | 3月25日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 次のat.jsの新しいバージョンに関する情報を追加しました。<ul><li>at.jsバージョン2.3.0</li><li>at.jsバージョン1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」セクションに次の新しい行を追加しました。<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>以下の新しいセクションを追加しました。<ul><li>コンテンツセキュリティポリシー</li></ul> |
 | 3月25日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 次の影響に関する情報を追加しました。<ul><li>サードパーティIDに基づくプロファイルスクリプト</li><li>iOSデバイスでのQA/プレビューURL</li></ul> |
