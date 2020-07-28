@@ -4,7 +4,10 @@ description: 自動パーソナライゼーション（AP）および自動タ�
 title: 重要な属性レポート
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1629'
+ht-degree: 94%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 
 >[!NOTE]
->AP および AT アクティビティは、Target Premium ソリューションの一部です。これらは、Target Premium ライセンスのない Target Standard には付属していません。
 >
->パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。|
+>個人用設定インサイトレポートを使用する場合は、以下の点を考慮してください。
+>
+>* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
+   >
+   >
+* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+   >
+   >
+* [!UICONTROL [個人設定インサイト] ]レポートは、[ [!UICONTROL レポート指標]ドロップダウンリストから[] プライマリ目標]が選択されている場合にのみ使用できます。
+   >
+   >
+* パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
+   >
+   >
+* [!UICONTROL 個人用設定インサイト] レポートは、  ライブステータスで、アクティブ化され、15日以上トラフィックを受け取っているアクティビティに対してのみ生成されます。
+
 
 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
 ## 重要な属性レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
@@ -36,7 +53,7 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
    >
    >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過したら、パーソナライズされた十分なトラフィックがアクティビティにあると仮定して、[!UICONTROL 重要な属性]レポートを使用できるようになります。
 
-1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 重要な属性]**アイコンをクリックできます。
+1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 重要な属性]**&#x200B;アイコンをクリックできます。
 
    ![](assets/model_attribute_ranking.png)
 
