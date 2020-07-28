@@ -1,10 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: 自動パーソナライゼーション(AP)および自動ターゲット(AT)アクティビティのユーザーが使用できる2つの特殊なレポートのうちの1つである、自動セグメントレポートに関する情報です。
+description: 自動セグメントレポートについて取り上げます。このレポートは、Adobe TargetのAutomated Personalization(AP)ユーザーと自動Target(AT)アクティビティの2つの特殊なレポートの1つです。
 title: 自動セグメントレポート
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 92%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 Automated Personalization（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである自動セグメントレポートについて説明します。
 
 >[!NOTE]
->AP および AT アクティビティは、Target Premium ソリューションの一部です。They are not included with  Target Standard without a [Target Premium license](/help/c-intro/intro.md#premium).
 >
->パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。|
+>個人用設定インサイトレポートを使用する場合は、以下の点を考慮してください。
+>
+>* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
+   >
+   >
+* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+   >
+   >
+* [!UICONTROL [個人設定インサイト] ]レポートは、[ [!UICONTROL レポート指標]ドロップダウンリストから[] プライマリ目標]が選択されている場合にのみ使用できます。
+   >
+   >
+* パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
+   >
+   >
+* [!UICONTROL 個人用設定インサイト] レポートは、  ライブステータスで、アクティブ化され、15日以上トラフィックを受け取っているアクティビティに対してのみ生成されます。
+
 
 AP／AT アクティビティでのオファーやエクスペリエンスへの反応は、訪問者によって異なります。このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
 ## 自動セグメントレポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -36,7 +53,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
    >
    >[!UICONTROL 自動セグメント]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 自動セグメント]アイコンをクリックすることもできません。15 日が経過したら、パーソナライズされた十分なトラフィックがアクティビティにあると仮定して、[!UICONTROL 自動セグメント]レポートを使用できるようになります。
 
-1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 自動セグメント]**アイコンをクリックできます。
+1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 自動セグメント]**&#x200B;アイコンをクリックできます。
 
    ![自動セグメントアイコン](/help/c-reports/assets/icon-automated-sements.png)
 
