@@ -4,46 +4,58 @@ description: Automated Personalization（AP）および自動ターゲット（A
 title: パーソナライゼーションインサイトレポート
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 68%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) パーソナライゼーションインサイトレポート{#personalization-insights-reports}
 
-Automated Personalization（AP）および自動ターゲット（AT）アクティビティのユーザーは、自動セグメントレポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
+[!UICONTROL Automated Personalization]（AP）および自動ターゲット（AT）アクティビティのユーザーは、[!UICONTROL 自動セグメント]レポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
 
 >[!NOTE]
 >
->AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
+>個人用設定インサイトレポートを使用する場合は、以下の点を考慮してください。
 >
->パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
->
->パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
->
->パーソナライゼーションインサイトレポートは、ライブステータスで、少なくとも15日間アクティブ化され、トラフィックを受け取ったアクティビティに対してのみ生成されます。
+>* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
+   >
+   >
+* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+   >
+   >
+* [!UICONTROL [個人設定インサイト] ]レポートは、[ [!UICONTROL レポート指標]ドロップダウンリストから[] プライマリ目標]が選択されている場合にのみ使用できます。
+   >
+   >
+* パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
+   >
+   >
+* [!UICONTROL 個人用設定インサイト] レポートは、  ライブステータスで、アクティブ化され、15日以上トラフィックを受け取っているアクティビティに対してのみ生成されます。
+
 
 ## パーソナライゼーションインサイトレポートの概要 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-[!UICONTROL パーソナライゼーションインサイト]レポートの目標は、AP および AT アクティビティの背後にある Target パーソナライゼーションモデルで訪問者トラフィックがどのようにパーソナライズされるかを詳細に示すことです。[ランダムフォレストアルゴリズム](/help/c-activities/t-automated-personalization/algo-random-forest.md)は、Target のパーソナライゼーションモデルの基礎となるものです。
+[!UICONTROL パーソナライゼーションインサイト]レポートの目標は、AP および AT アクティビティの背後にある Target パーソナライゼーションモデルで訪問者トラフィックがどのようにパーソナライズされるかを詳細に示すことです。The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for the [!DNL Target] personalization models.
 
-パーソナライゼーションインサイトレポートの目標は、どの訪問者にどのようなコンテンツを表示するかが Target のパーソナライゼーションモデルでどう決定されたかを理解することです。そのため、パーソナライゼーションインサイトレポートでは、AP または AT アクティビティで提供されたすべてのトラフィックのサブセグメントだけを反映します。具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。つまり、パーソナライゼーションインサイトレポートでは、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません。
+Because the goal of the [!UICONTROL Personalization Insights] reports is to understand how the [!DNL Target] personalization models decided to send which visitor to what piece(s) of content, the [!UICONTROL Personalization Insights] reports reflect only a sub-segment of all the traffic served by your AP or AT activity. 具体的に言うと、これら 2 つのレポートは、パーソナライゼーションモデルを使用したすべてのトラフィックを反映します。つまり、[!UICONTROL パーソナライゼーションインサイト]レポートでは、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません。
 
-次の2つのパーソナライゼーションインサイトレポートを利用できます。
+次の2つの [!UICONTROL パーソナライゼーションインサイト] レポートを使用できます。
 
 | レポート | 詳細 |
 |--- |--- |
-| 自動セグメント | AP／AT アクティビティでのオファーやエクスペリエンスへの反応は、訪問者によって異なります。このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。 |
-| 重要な属性 | 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。 |
+| [!UICONTROL 自動セグメント] | AP／AT アクティビティでのオファーやエクスペリエンスへの反応は、訪問者によって異なります。This report shows how different automated segments defined by the [!DNL Target] personalization models responded to the offers/experiences in the activity. |
+| [!UICONTROL 重要な属性] | 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。 |
 
 ## パーソナライゼーションインサイトでの属性の解釈 {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
 [!UICONTROL パーソナライゼーションインサイト]レポートで表される属性のうち、AP モデルまたは自動ターゲットモデルで使用されるものは、次の 2 種類です。
 
-* **Target で自動的に収集される属性：** Target では基本データセットを使用して、パーソナライゼーションインサイトに反映される AP アクティビティおよび AT アクティビティのパーソナライゼーションアルゴリズムを構築します。データ型、属性の例、[!UICONTROL パーソナライゼーションインサイト]の命名規則について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)を参照してください。これらの属性は考慮はされますが、個々のアクティビティの最終モデルでは、これらの属性がすべて使用されるとは限らないことに注意してください。
+* **で自動的に収集される属性：**[!DNL Target]Target では基本データセットを使用して、パーソナライゼーションインサイトに反映される AP アクティビティおよび AT アクティビティのパーソナライゼーションアルゴリズムを構築します。データ型、属性の例、[!UICONTROL パーソナライゼーションインサイト]の命名規則について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)を参照してください。これらの属性は考慮はされますが、個々のアクティビティの最終モデルでは、これらの属性がすべて使用されるとは限らないことに注意してください。
 * **Target に渡される属性：**[Target のパーソナライゼーションアルゴリズムのデータのアップロード](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)を参照してください。
 
-Target に追加データを渡して、AP および AT アクティビティのパーソナライゼーションアルゴリズムの構築に使用する基本データセットを拡充する方法が次のようにたくさんあります。
+[!DNL Target] には、APおよびATアクティビティでパーソナライゼーションアルゴリズムを構築する際に使用するベースデータセット [!DNL Target] を拡張するために、追加のデータをに渡す様々な方法が用意されています。
 
 | データタイプ | 説明 | データタイプの命名規則 |
 |--- |--- |--- |
@@ -53,14 +65,14 @@ Target に追加データを渡して、AP および AT アクティビティの
 | 共有オーディエンス（Adobe Audience Manager または Adobe Analytics） | Adobe Audience Manager または Adobe Analytics で作成され、Target と共有されているオーディエンス。 | `Custom - Experience Cloud Segment - [segment name]` |
 | アクティビティ内レポート用オーディエンス／セグメント | 「目標と指標」の設定中に AP または自動ターゲットアクティビティで定義されたオーディエンス。 | `Custom - Reporting Segment - [segment name]` |
 
-## トレーニングビデオ：パーソナライゼーションインサイトレポートの使用 チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：パーソナライゼーションインサイトレポートの使用 ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-詳しくは、Adobe targetでのパーソナラ [イゼーションインサイトレポートの使用を参照してください](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+詳しくは、「Adobe Targetでのパーソナライゼーションインサイトレポートの [使用](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)」を参照してください。
 
-## アドビブログ
+## Adobeブログ
 
-* パート1:AIド [リブンパーソナライゼーションの魔法を解く](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* パート2:Adobe targetで [のパーソナライゼーション用AIの幕の後ろのプレビュー](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* パート3:マ [ギクス ai主導型パーソナライゼーションのブラックボックスの問題の解決策](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* パート1: [AI主導のパーソナライゼーションの魔法による謎の解き明かし](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* パート2: [Adobe TargetでのパーソナライゼーションのためのAIの幕の後ろの機能](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* パート3: [MAGIX — AIに基づくパーソナライゼーションのブラックボックス号の解決策](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
