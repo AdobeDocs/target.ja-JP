@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 39%
 
 ---
 
@@ -19,9 +22,9 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[コアサービスの顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Customer Attributes [!DNL People] in the core service)は、の一部であり、企業は顧客データをプラッ [!DNL Adobe Experience Cloud] トフォームにプッシュするためのツールを提供し [!DNL Experience Cloud] ます。
+[コアサービスの顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Customer Attributes [!DNL People] in the [!DNL Adobe Experience Cloud] Core Service)は、の一部で [!DNL Experience Cloud] あり、企業は顧客データをプラットフォームにプッシュするためのツールを提供します。
 
-[!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] 属性に基づいて再訪顧客をターゲティングするためにこのデータを使用します。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
+[!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] このデータは、属性に基づいて再顧客をターゲティングするために使用されます。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
 
 ![crsの例](/help/c-target/c-visitor-profile/assets/crs.png)
 
@@ -33,8 +36,8 @@ Consider the following information as your work with customer attributes and [!D
    >
    >[!DNL at.js] （任意のバージョン）または [!DNL mbox.js] バージョン58以降が必要です。
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、データのごく一部が転送されない可能性があります。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「訪問者プロファイルの有 [効期間」を参照してください](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
+* [!DNL Adobe] は、CRMデータベースの顧客属性(訪問者プロファイル)データの100%がに接続され、でのターゲティングに使用でき [!DNL Experience Cloud] ることを保証しません [!DNL Target]。 現在の設計では、小さな割合のデータ（大規模な生産バッチの0.1 %まで）はオンボードされない可能性があります。
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「 [訪問者プロファイルの有効期間](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)」を参照してください。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
@@ -43,13 +46,13 @@ Consider the following information as your work with customer attributes and [!D
 
 ## Peopleコアサービスでの顧客属性へのアクセス
 
-1. で、メニューア [!DNL Adobe Experience Cloud]イコン(メニューアイコン ![)をクリックし、「人」をクリッ](/help/c-target/c-visitor-profile/assets/menu-icon.png) クします ****。
+1. で、メニューアイコン( [!DNL Adobe Experience Cloud]メニューアイコン ![)をクリックし、「](/help/c-target/c-visitor-profile/assets/menu-icon.png) 人 ****」をクリックします。
 
    ![People](/help/c-target/c-visitor-profile/assets/people.png)
 
-1. 「顧客属性」タ **[!UICONTROL ブをクリックします]** 。
+1. 「 **[!UICONTROL 顧客属性]** 」タブをクリックします。
 
-   ![「顧客属性」タブ](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
+   ![「Customer Attributes」タブ](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
 ## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
@@ -61,11 +64,11 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. データファイルを作成します。
 
-   CRM の顧客データを CSV 形式にエクスポートして、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。CSVファイルの最初の行がヘッダーで、すべての行（顧客データ）のエントリ数が同じであることを確認します。
+   CRM の顧客データを CSV 形式にエクスポートして、.csv ファイルを作成します。アップロード用に zip ファイルまたは gzip ファイルを作成することもできます。CSVファイルの最初の行をヘッダーにし、すべての行（顧客データ）のエントリ数が同じであることを確認します。
 
    次の図に、企業顧客データファイルの例を示します。
 
-   ![CRSサンプル](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
+   ![crsサンプル](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
 
    次の図に、企業顧客の.csvファイルの例を示します。
 
@@ -79,11 +82,12 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >データソース名と属性名にピリオドを含めることはできません。
 
-   データファイルは、アップロードの要件を満たし、100 MBを超えないようにする必要があります。 ファイルが大きすぎる場合や、定期的にアップロードする必要のあるデータがある場合は、代わりにFTPでファイルをアップロードできます。
+   使用するデータファイルは、ファイルのアップロード要件に準拠し、100 MBを超えないようにする必要があります。 ファイルが大きすぎる場合や、定期的にアップロードする必要のあるデータがある場合は、FTP経由でファイルをアップロードできます。
 
-   * **HTTPS:** .csvデータファイルをドラッグ&amp;ドロップするか、「参照」をクリックして **[!UICONTROL ファイル]** ・システムからアップロードできます。
-   * **FTP:** FTPリンクをクリックして、FTP [経由でファイルをアップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
-   CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前で拡張子.finの新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   * **HTTPS:** .csvデータファイルをドラッグ&amp;ドロップするか、「 **[!UICONTROL 参照]** 」をクリックしてファイルシステムからアップロードできます。
+   * **FTP:** 「FTP」リンクをクリックして、FTP経由でファイルを [アップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
+
+   CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と拡張子.finを持つ新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. スキーマを検証します。
 
@@ -93,11 +97,11 @@ Detailed instructions for completing each of the following tasks can be found in
 
    ![スキーマの検証](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![スキーマのアップロード](/help/c-target/c-visitor-profile/assets/upload1.png)
+   ![アップロードスキーマ](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読を設定すると](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 、とのソリューション間のデータフローが [!DNL Experience Cloud] 設定されます。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[「購読の設定](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 」では、とソリューション間のデータフロー [!DNL Experience Cloud] を設定します。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![ソリューションの設定](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -143,7 +147,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* [顧客属性ソースを作成し、](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud製品ドキュメントにデータファイルをアップロードします。*
+* [顧客属性ソースの作成と、](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud製品ドキュメントでのデータファイルのアップロード*
 * *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -152,9 +156,9 @@ You might encounter the following issues when working with customer attributes a
 
 >[!NOTE]
 >
->問題1と問題2は、この領域で約60%の問題を引き起こします。 問題3は、問題の約30%を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
+>問題1と問題2は、この領域で約60%の問題を引き起こします。 問題3は、約30%の問題を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
 
-### 問題1:プロファイルが大きすぎるので、顧客属性が削除されます。
+### 問題1: プロファイルが大きすぎるため、顧客属性が削除されます。
 
 ユーザープロファイルの 1 つのフィールドごとに文字数制限はありません。ただし、プロファイルが 64,000 文字を超えると、64,000 文字を下回るまで最も古い属性から順に削除されて切り詰められます。
 
@@ -162,11 +166,11 @@ You might encounter the following issues when working with customer attributes a
 
 その場合は、パイプラインの接続に問題が生じているケースがほとんどです。顧客属性チームにフィードの再発行を依頼してください。
 
-### 問題3:属性に基づいて配信が機能しない
+### 問題3: 属性に基づいて配信が機能しない
 
 プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。
 
-### 問題4:実装の問題
+### 問題4: 導入に関する問題
 
 注意を要する実装に関する問題は次のとおりです。
 
@@ -174,7 +178,7 @@ You might encounter the following issues when working with customer attributes a
 * 訪問者 ID は適切に渡されたが、認証状態が認証済みに設定されなかった。
 * `mbox3rdPartyId` が適切に渡されなかった。
 
-### 問題5:適切に `mboxUpdate` 行われない
+### 問題5: `mboxUpdate` 適切に行われない
 
 `mboxUpdate` が `mbox3rdPartyId` で適切に実行されませんでした。
 
