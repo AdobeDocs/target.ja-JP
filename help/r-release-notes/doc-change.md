@@ -5,10 +5,10 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 32%
+source-wordcount: '1661'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 28 年 7 月 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>および [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | メモ内のテキストを更新しました。 |
+| 28 年 7 月 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>および [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | トピックの先頭にある注記のテキストを更新しました。 |
+|  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次の FAQ を追加しました。<ul><li>自動配分アクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li><li>自動配分は、環境に関するモデルをどのように構築しますか？</li></ul> |
+|  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 以下の FAQ を追加しました。<ul><li>自動Targetアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li></ul>「考慮事項」の節のテキストを更新しました。 |
+|  | [Automated PersonalizationFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 次の FAQ を追加しました。<ul><li>Automated Personalizationアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li><li>Automated Personalizationは環境に関するモデルをどのようにして作り上げているか。</li></ul> |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Internet Explorerおよび不明な要素に関する情報を追加しました。 |
 |  | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、小さな割合のデータ（大規模な生産バッチの0.1 %まで）はオンボードされない可能性があります。 |
 | 27 年 7 月 | [Target の管理](/help/administrating-target/administrating-target.md) | このページのすべてのリンクされたトピックのテキストを更新し、 [!UICONTROL 管理] ページの新しいUIの変更を反映しました。 |
