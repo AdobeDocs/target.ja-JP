@@ -5,10 +5,10 @@ title: 自動配分
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 アクティビティの途中で目標指標を変更しないことをお勧めします。 UIを使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があり [!DNL Target] ます。 実行後にアクティビティの目標指標を変更した場合の動作は保証されません。
 
-この推奨は、 [!UICONTROL 自動配分]、 [!UICONTROL 自動Target]、および [!UICONTROL 自動パーソナライゼーション][!DNL Target][!DNL Analytics] アクティビティ(A4T)のいずれかをレポートソースとして使用するに適用されます。
+この推奨は、 [!UICONTROL 自動配分]、 [!UICONTROL 自動Target]、およびAutomated Personalization [!UICONTROL アクティビティで、いずれかをレポートソースとして使用する場合(A4T][!DNL Target][!DNL Analytics] )に適用されます。
+
+### 自動配分アクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。
+
+自動配分 [!UICONTROL アクティビティで「レポートデータを] リセット  」オプションを使用することは推奨されません。 表示されるレポートデータは削除されますが、このオプションでは、 [!UICONTROL 自動配分] モデルからすべてのトレーニングレコードが削除されるわけではありません。 自動配分 [!UICONTROL アクティビティに「レポートデータを] リセット  」オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 (注意： このガイダンスは、 [!UICONTROL 自動Target] (Auto-User)と [!UICONTROL Automated Personalization] アクティビティにも当てはまります。
+
+### 自動配分は、環境に関するモデルをどのように構築しますか？
+
+[!UICONTROL 自動配分は] 、デフォルトの環境でのみ記録されたトラフィックおよびコンバージョンの動作に基づいてモデルを作成します。 デフォルトでは [!UICONTROL 「] 実稼働 [」がデフォルトの環境ですが、これはTarget](/help/administrating-target/environments.md)管理/環境で変更できます。
+
+別の（デフォルト以外の）環境でヒットが発生した場合、デフォルトの環境で監視されているコンバージョンの動作に従ってトラフィックが分散されます。 そのヒットの結果（コンバージョンまたは非コンバージョン）は、レポートのために記録されますが、 [!UICONTROL 自動配分] モデルでは考慮されません。
+
+別の環境を選択すると、レポートにその環境のトラフィックとコンバージョンが表示されます。 レポートに対してデフォルトで選択される環境は、常にアカウント全体のデフォルトとして選択されます。 既定の環境は、アクティビティごとに設定することはできません。
 
 ## トレーニングビデオ {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
