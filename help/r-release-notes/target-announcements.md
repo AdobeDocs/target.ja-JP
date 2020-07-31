@@ -4,9 +4,9 @@ description: Targetスキルビルダーセッション、開発者チャット�
 title: Targetのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,22 @@ ht-degree: 0%
 
 Targetスキルビルダーセッション、開発チャット、ウェビナー、Targetコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
 
-## アドビは、パーソナライゼーションエンジンに関するGartner Magic Quadrantで再びリーダーに選ばれました。
+## Adobeは、パーソナライゼーション・エンジンのGartner Magic Quadrantで再びリーダーに
 
-アドビは、2020年パーソナライゼーションエンジンの3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。 ビジョンと実行能力の完全性 [Adobe Blogで確認してください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。 ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## Adobe Targetコミュニティのコーヒーブレーク
+
+* **午前10時～11時。 (PDT)**
+* **2020年8月5日（水）**
+
+Cristinel Anastasoie氏(Adobe Targetプロダクトマネージャ)が参加します。Cristinel Anastasoie氏は、Adobe Targetコミュニティにサインインして、お客様と直接チャットし、彼の専門分野に関するAdobe Target上の質問に答えます。
+
+* Adobe Targetユーザーインターフェイス
+* Adobe Target統合
+* Enterprise権限とWorkspace
+
+[Adobe Targetコミュニティに登録します。](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## ウェビナー： HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
@@ -29,7 +42,7 @@ Targetスキルビルダーセッション、開発チャット、ウェビナ�
 
 消費者の需要は急速に発展しつつあり、HSBCはAdobe Targetによる最適化を受け入れて新しい顧客の遍歴を迅速にテストしパーソナライズし、特定の開発と起動を6ヶ月から1週間に短縮しています。
 
-アドビとHSBCに参加して、次のことを学ぶ：
+このウェビナーでAdobeとHSBCに参加して次のことを学ぶ：
 
 * HSBCの最適化とパーソナライゼーションの取り組みが、組織の急速な変化を引き起こす仕組み
 * AIとAnalyticsがその取り組みを加速し、明確で重要なビジネス・インパクトを与える方法
