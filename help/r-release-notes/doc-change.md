@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 31%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 31 年 7 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新しい既知の問題を追加しました。 &quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 28 年 7 月 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>および [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | トピックの先頭にある注記のテキストを更新しました。 |
 |  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次の FAQ を追加しました。<ul><li>自動配分アクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li><li>自動配分は、環境に関するモデルをどのように構築しますか？</li></ul> |
 |  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 以下の FAQ を追加しました。<ul><li>自動Targetアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li></ul>「考慮事項」の節のテキストを更新しました。 |
