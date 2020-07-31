@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;関数
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers() 関数について説明します。
-subtopic: 導入
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 94%
 
 ---
 
@@ -28,48 +31,48 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->以下に示すすべて [のフィールドで使用できるタイプについては](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 、Delivery APIのドキュメントを参照してください。
+>以下に示すすべてのフィールドに使用できるタイプについては、 [配信APIのドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) を参照してください。
 
 | フィールド名 | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- |
-| request &gt; id | × |  | `tntId`、`thirdPartyId`、または `marketingCloudVisitorId` のいずれか 1 つが必須です。 |
-| Request &gt; id &gt; thirdPartyId | × | 最大サイズ = 128 |  |  |
-| Request &gt; experienceCloud | × |  |  |
-| Request &gt; experienceCloud &gt; analytics | × |  | Adobe Analytics の統合 |
-| Request &gt; experienceCloud &gt; analytics &gt; logging | × | 以下をページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement.js</li></ul> | 以下の値がサポートされます。<br>**client_side**：指定された場合、Data Insertion API を使用して Adobe Analytics に送信するために使用される必要がある呼び出し元に分析ペイロードが返されます。<br>**server_side**：これはデフォルト値で、Target および Analytics バックエンドが SDID を使用して、レポート処理のために呼び出しを共にスティッチします。 |
-| Request &gt; prefetch | × |  |  |
-| Request &gt; prefetch &gt; views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
-| Request &gt; prefetch &gt; views &gt; profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
-| Request &gt; prefetch &gt; views &gt; product | × |  |  |
-| Request &gt; prefetch &gt; views &gt; product -&gt; id | × | 空白にはできません<br>最大サイズ = 128 | アクティブなアクティビティで関連するビューを取得するために使用する製品 ID を渡します。 |
-| Request &gt; prefetch &gt; views &gt; product &gt; categoryId | × | 空白にはできません<br>最大サイズ = 128 | アクティビティ内の関連するビューを取得するために使用する製品カテゴリ ID を渡します。 |
-| Request &gt; prefetch &gt; views &gt; order | × |  |  |
-| Request &gt; prefetch &gt; views &gt; order &gt; id | × | 最大長 = 250 | アクティブなアクティビティで関連するビューを取得するために使用する注文 ID を渡します。 |
-| Request &gt; prefetch &gt; views &gt; order &gt; total | × | 合計 `>=` 0 | アクティブなアクティビティで関連するビューを取得するために使用する注文の合計を渡します。 |
-| Request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ `<=` 250 | アクティブなアクティビティで関連するビューを取得するために使用する 購入製品の ID を渡します。 |
-| Request &gt; execute | × |  |  |
-| Request &gt; execute &gt; pageLoad | × |  |  |
-| Request &gt; execute &gt; pageLoad &gt; parameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | ページ読み込み時に、指定されたパラメーターを使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 256<br>名前は「profile」で始まれません | ページ読み込み時に、指定されたプロファイルパラメーターを使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; product | × |  |  |
-| Request &gt; execute &gt; pageLoad &gt; product -&gt; id | × | 空白にはできません<br>最大サイズ = 128 | ページ読み込み時に、指定された製品 ID を使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | × | 空白にはできません<br>最大サイズ = 128 | ページ読み込み時に、指定された製品カテゴリー ID を使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; order | × |  |  |
-| Request &gt; execute &gt; pageLoad &gt; order &gt; id | × | 最大長 = 250 | ページ読み込み時に、指定された注文 ID を使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; order &gt; total | × | `>=` 0 | ページ読み込み時に、指定された注文の合計を使用してオファーを取得します。 |
-| Request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ `<=` 250 | ページ読み込み時に、指定された購入 ID を使用してオファーを取得します。 |
-| Request &gt; execute &gt; mboxes | × | 最大サイズ = 50<br>null 要素は使用できません |  |
-| Request &gt; execute &gt; mboxes&gt;mbox | ○ | 空白にはできません<br>「-clicked」サフィックスは使用できません<br>最大サイズ = 250<br>使用できる文字： `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox の名前。 |
-| Request &gt; execute &gt; mboxes&gt;mbox&gt;index | ○ | null は使用できません<br>一意<br>`>=` 0 | 注意： インデックスは、mbox が処理される順序を表すものではありません。複数のリージョナル mbox を持つ Web ページと同様、mbox が処理される順序は指定できません。 |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | 指定されたパラメーターを使用して特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 256<br>名前は「profile」で始まれません | 指定されたプロファイルパラメーターを使用して特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes&gt;mbox &gt; product | × |  |  |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | × | 空白にはできません<br>最大サイズ = 128 | 指定された製品 ID を使用して特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | × | 空白にはできません<br>最大サイズ = 128 | 指定された製品カテゴリー ID を使用して特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; order | × |  |  |
-| Request &gt; execute &gt; mboxes&gt;mbox &gt; order &gt; id | × | 最大長 = 250 | 指定された注文 ID を持つ特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
+| request > id | × |  | `tntId`、`thirdPartyId`、または `marketingCloudVisitorId` のいずれか 1 つが必須です。 |
+| Request > id > thirdPartyId | × | 最大サイズ = 128 |  |  |
+| Request > experienceCloud | × |  |  |
+| Request > experienceCloud > analytics | × |  | Adobe Analytics の統合 |
+| Request > experienceCloud > analytics > logging | × | 以下をページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement.js</li></ul> | 以下の値がサポートされます。<br>**client_side **：指定された場合、Data Insertion API を使用して Adobe Analytics に送信するために使用される必要がある呼び出し元に分析ペイロードが返されます。<br>**server_side**：これはデフォルト値で、Target および Analytics バックエンドが SDID を使用して、レポート処理のために呼び出しを共にスティッチします。 |
+| Request > prefetch | × |  |  |
+| Request > prefetch > views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
+| Request > prefetch > views > profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
+| Request > prefetch > views > product | × |  |  |
+| Request > prefetch > views > product -> id | × | 空白にはできません<br>最大サイズ = 128 | アクティブなアクティビティで関連するビューを取得するために使用する製品 ID を渡します。 |
+| Request > prefetch > views > product > categoryId | × | 空白にはできません<br>最大サイズ = 128 | アクティビティ内の関連するビューを取得するために使用する製品カテゴリ ID を渡します。 |
+| Request > prefetch > views > order | × |  |  |
+| Request > prefetch > views > order > id | × | 最大長 = 250 | アクティブなアクティビティで関連するビューを取得するために使用する注文 ID を渡します。 |
+| Request > prefetch > views > order > total | × | 合計 `>=` 0 | アクティブなアクティビティで関連するビューを取得するために使用する注文の合計を渡します。 |
+| Request > prefetch > views > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ `<=` 250 | アクティブなアクティビティで関連するビューを取得するために使用する 購入製品の ID を渡します。 |
+| Request > execute | × |  |  |
+| Request > execute > pageLoad | × |  |  |
+| Request > execute > pageLoad > parameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | ページ読み込み時に、指定されたパラメーターを使用してオファーを取得します。 |
+| Request > execute > pageLoad > profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 256<br>名前は「profile」で始まれません | ページ読み込み時に、指定されたプロファイルパラメーターを使用してオファーを取得します。 |
+| Request > execute > pageLoad > product | × |  |  |
+| Request > execute > pageLoad > product -> id | × | 空白にはできません<br>最大サイズ = 128 | ページ読み込み時に、指定された製品 ID を使用してオファーを取得します。 |
+| Request > execute > pageLoad > product > categoryId | × | 空白にはできません<br>最大サイズ = 128 | ページ読み込み時に、指定された製品カテゴリー ID を使用してオファーを取得します。 |
+| Request > execute > pageLoad > order | × |  |  |
+| Request > execute > pageLoad > order > id | × | 最大長 = 250 | ページ読み込み時に、指定された注文 ID を使用してオファーを取得します。 |
+| Request > execute > pageLoad > order > total | × | `>=` 0 | ページ読み込み時に、指定された注文の合計を使用してオファーを取得します。 |
+| Request > execute > pageLoad > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ `<=` 250 | ページ読み込み時に、指定された購入 ID を使用してオファーを取得します。 |
+| Request > execute > mboxes | × | 最大サイズ = 50<br>null 要素は使用できません |  |
+| Request > execute > mboxes>mbox | ○ | 空白にはできません<br>「-clicked」サフィックスは使用できません<br>最大サイズ = 250<br>使用できる文字： `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox の名前。 |
+| Request > execute > mboxes>mbox>index | ○ | null は使用できません<br>一意<br>`>=` 0 | 注意： インデックスは、mbox が処理される順序を表すものではありません。複数のリージョナル mbox を持つ Web ページと同様、mbox が処理される順序は指定できません。 |
+| Request > execute > mboxes > mbox > parameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | 指定されたパラメーターを使用して特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes>mbox>profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 256<br>名前は「profile」で始まれません | 指定されたプロファイルパラメーターを使用して特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes>mbox > product | × |  |  |
+| Request > execute > mboxes > mbox > product > id | × | 空白にはできません<br>最大サイズ = 128 | 指定された製品 ID を使用して特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes > mbox > product > categoryId | × | 空白にはできません<br>最大サイズ = 128 | 指定された製品カテゴリー ID を使用して特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes > mbox > order | × |  |  |
+| Request > execute > mboxes>mbox > order > id | × | 最大長 = 250 | 指定された注文 ID を持つ特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
+| Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
 ## すべてのビューに `getOffers()` を呼び出す
 
@@ -183,7 +186,7 @@ adobe.target.getOffers({
 }
 ```
 
-その後、ペイロードは [Data Insertion APIを介してAdobe Analyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+ペイロードは、 [Data Insertion APIを介してAdobe Analyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
 
@@ -263,3 +266,9 @@ adobe.target.getOffers({
 この例では、count 変数を使用して CSS セレクターを作成します。実際のシナリオでは、CSS セレクターと mbox との異なるマッピングを使用できます。
 
 この例では `prefetch > mboxes` を使用していますが、`execute > mboxes` を使用することもできます。`getOffers()` でプリフェッチを使用する場合は、`applyOffers()` 呼び出しでもプリフェッチを使用する必要があります。
+
+## pageLoadを実行す `getOffers()` るための呼び出し
+
+次の例は、at.js 2でgetOffers()を使用してpageLoadを実行する方法を示しています。*x*
+
+adobe.ターゲット.getOffers({request: {execute: {pageLoad: {parameters: {}}}});
