@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月3日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | 訪問者数と訪問数に関する「 [!UICONTROL カウントを] 増分」オプションの意味を明確にする注記を追加しました。 |
 | 31 年 7 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 新しい既知の問題を追加しました。 &quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | pageLoadの実行に使用するコードサンプル `getoffers()` を追加しました。 |
 |  | [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 8月5日に予定されているAdobe Targetコミュニティのコーヒーブレークに関する登録情報を追加しました。 |
