@@ -4,10 +4,10 @@ description: Adobe Targetでは、レポートと追跡の両方の目的で、�
 title: Adobe Targetの成功指標
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | カウントを増分、アクティビティでユーザーを保持 | カウントの増分方法を指定します。<ul><li>参加者ごとに 1 回（デフォルト）</li><li>すべてのインプレッション（ページの更新を除く）</li><li>すべてのインプレッション</li></ul> |
 | カウントを増分、ユーザーをリリース、再入場を許可 | 訪問者がアクティビティに再度入ったときに表示されるエクスペリエンスを選択します。<ul><li>同じエクスペリエンス（デフォルト）</li><li>ランダムエクスペリエンス</li><li>未表示のエクスペリエンス</li></ul> |
 | カウントを増分、ユーザーをリリース、再入場を許可しない | アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。<ul><li>同じエクスペリエンス（トラッキングなし）（デフォルト）</li><li>デフォルト／他のアクティビティのコンテンツ</li></ul> |
+
+>[!NOTE]
+>
+>「カウントを [!UICONTROL 増分] 」オプション（前述）のいずれかに指標を設定した場合、指標のカウントは、参加者ごとに、訪問者レベルでのみ正しく1回増加します。 指標のカウントは、訪問レベルで新しいセッションごとに訪問ごとに1回増加します。
 
 ## トレーニングビデオ： アクティビティ指標
 
