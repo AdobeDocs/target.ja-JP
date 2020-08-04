@@ -4,9 +4,9 @@ description: Targetスキルビルダーセッション、開発者チャット�
 title: Targetのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Cristinel Anastasoie氏(Adobe Targetプロダクトマネージャ)が参加し�
 [このエキサイティングなウェビナーに参加登録](https://hsbc-targetai.experienceleague.adobeevents.com/)。
 
 *McKinseyの記事： 「[COVID-19の回復はデジタル](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
+
+## ウェビナー： 人工知能とAdobe Targetを使用したパーソナライゼーション戦略
+
+* **午前8時～9時。 (PDT)**
+* **2020年8月13日**
+
+[このウェビナーに登録します](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## Adobe Targetスキルビルダー： 開発者チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
