@@ -4,7 +4,7 @@ title: Adobe TargetCookieの削除
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -18,9 +18,10 @@ ht-degree: 8%
 
 If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-&lt;[!NOTE]
->以下の手順は、リストに表示されているブラウザーとバージョンに対して正しく行われます。 特定のブラウザーまたはバージョンの手順については、インターネットを検索してください。
+>[!NOTE]
 >
+>以下の手順は、リストに表示されているブラウザーとバージョンに対して正しく行われます。 特定のブラウザーまたはバージョンの手順については、インターネットを検索してください。
+
 ## Google ChromeからのCookieの削除
 
 バージョン 84.0.4147.105
