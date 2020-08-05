@@ -5,10 +5,10 @@ title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ ht-degree: 22%
 
 ## Target Standard/Premium 20.9.1（2020 年 9 月 2 日）
 
-このターゲットリリースの新機能または強化された機能は次のとおりです。
-
-| 機能／拡張機能 | 説明 |
-| --- | --- |
-| Analytics for Target（A4T） 自動 [!UICONTROL ターゲット] アクティビティのサポート | [!UICONTROL 自動ターゲット] アクティビティは、 [!UICONTROL Analytics forターゲット] (A4T)をサポートします。<br>この統合により、 [!UICONTROL 自動ターゲットの高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者定義のエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進しながら、] Adobe Analytics [!UICONTROL 目標指標や][!DNL Adobe Analytics] レポート機能や分析機能を使用できます。 [!UICONTROL 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。]<br>A/Bテストで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合 [!UICONTROL 、]自動配分 [!UICONTROL 、エクスペリエンスターゲット設定のアクティビティで使用するA4Tを] A/Bテストで使用する場合は、すべてのを設定しています。 |
+このリリースの新機能、機能強化および修正は、こちらで更新されます。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
