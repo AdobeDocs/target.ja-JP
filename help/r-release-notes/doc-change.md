@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1762'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月5日 | [Target の Cookie の削除](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | トピック全体を更新しました。 |
 | 8月4日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 8月13日に予定されている「人工知能とAdobe Targetを使用したパーソナライゼーション戦略」ウェビナーに関する登録情報を追加しました。 |
 |  | [ブラウザーで混合コンテンツを有効にする](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | トピックを更新しました。 |
 | 8月3日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | 訪問者数と訪問数に関する「 [!UICONTROL カウントを] 増分」オプションの意味を明確にする注記を追加しました。 |
