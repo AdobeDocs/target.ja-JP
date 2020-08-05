@@ -1,14 +1,14 @@
 ---
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
-description: 最新または今後のDNLAdobe Targetリリースの機能、拡張機能、および修正に関する情報を提供するリリースノートです。
-title: Adobe Targetのプレリリースノート
+description: DNLAdobe Targetの最新リリースまたは今後のリリースに関する機能、拡張機能、および修正に関する情報を提供するリリースノートです。
+title: Adobe Targetプレリリースノート
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 14%
+source-wordcount: '493'
+ht-degree: 22%
 
 ---
 
@@ -17,54 +17,34 @@ ht-degree: 14%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020 年 7 月 27 日**
+**最終更新日：2020 年 8 月 5 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 >[!IMPORTANT]
 >
->* **アドビは、パーソナライゼーションエンジンのGartner Magic Quadrantでリーダーに再び選出**: アドビは、2020年パーソナライゼーションエンジンの3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。 ビジョンと実行能力の完全性 [Adobe Blogで確認してください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+>* **AdobeがパーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに** Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。 ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
    >
    >
-* **mbox.jsの提供終了**: 2020年8月30日をもって、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが適切に失敗し、デフォルトコンテンツを提供することで実行されるTargetアクティビティを持つページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、at.jsの仕組み [および](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)[Adobe Targetスキルビルダーを参照してください。 開発者チャットで、Adobe Targetのmbox.jsをat.jsに移行します](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+* **mbox.jsの提供終了**: 2020年8月30日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2020年8月30日以降は、mbox.jsからのすべての呼び出しが適切に失敗し、デフォルトコンテンツを提供することで実行されるターゲットアクティビティを持つページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、at.jsの [仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) および [Adobe Targetスキルビルダーを参照してください。 開発者チャットでは、Adobe Targetのmbox.jsをat.jsに移行します](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
    >
    >   
-   すべてのお客様をat.jsに移行することで、アドビのエンジニアとサポートスタッフは、お客様がアドビから期待する新しい機能とオファーをお客様に提供できます。
+   すべてのお客様をat.jsに移行することで、アドビのエンジニアとサポートスタッフは、お客様がAdobeから期待する新しい機能とオファーをお客様に提供できます。
    >
    >
-* **Targetのお知らせ**: Targetスキルビルダーセッション、開発者チャット、ウェビナー、Targetイベントの休憩セッションなど、今後のセッションについて詳しくは、Targetのお知らせページを参照してください。 詳しくは、「 [Targetのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
+* **ターゲットのお知らせ**: ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 
-## Target Standard／Premium 20.7.1（2020 年 7 月 28 日）
+## Target Standard/Premium 20.9.1（2020 年 9 月 2 日）
 
-このリリースで強化された機能は次のとおりです。
+このターゲットリリースの新機能または強化された機能は次のとおりです。
 
-### [!UICONTROL 管理] ・セクションのUIの更新
-
-パフォーマンスを向上させ、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザーエクスペリエンスを向上させるために、新しいテクニカルスタックを使用して [!DNL Target] UI全体を徐々に書き換えていきます。 最初に更新されたセクションは [!UICONTROL 「セットアップ] 」セクションで、 [!UICONTROL 「管理」という名前に変更されました]。
-
-この更新の一環として、次のように、 [!UICONTROL 管理] セクションのページを使用して簡単に多くのアクションを実行できます。
-
-* 「 [!UICONTROL 実装] 」タブ(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)から最新のat.jsファイルをダウンロードします。
-* at.js設定をカスタマイズし、変更を簡単に確認できるようにします(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)。
-* デフォルトのレポートおよびタイムゾーン、レポートから除外するIPなど、拡張通貨設定を変更します。 (**[!UICONTROL 管理]** / **[!UICONTROL レポート]**)
-* プライバシー上の理由で訪問者のIPアドレスを不明化(**[!UICONTROL 管理]** / **[!UICONTROL 導入]**)
-* AdobeAdmin Console(**[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**)で管理する前に、ワークスペースごとの既存のリストとそのロールを表示します。
-* 「 [!UICONTROL 管理] 」セクションのすべてのテーブルを検索してフィルターします。
-
-詳しくは、「 [管理Targetの概要](/help/administrating-target/administrating-target.md)」を参照してください。
-
-### 機能強化、修正および変更
-
-このリリースには、次の機能強化、修正および変更が含まれています。
-
-* 更新後にサイトの環境設定が保持されない問題を修正しました。 （TGT-37239）
-* 「後に [!UICONTROL 挿入] 」 [!UICONTROL /「] 画像」がScalable Vector Graphics(SVG)画像で正しく機能しない問題を修正しました。 （TGT-37242）
-* ドラフトアクティビティを削除できなかった、 [!UICONTROL 投稿] ロールを持つユーザーの問題を修正しました。 （TGT-37358）
-* 「す [!UICONTROL べてのワークスペース] 」が選択されている場合にアクティビティを編集できない問題を修正しました。 （TGT-37276）
+| 機能／拡張機能 | 説明 |
+| --- | --- |
+| Analytics for Target（A4T） 自動 [!UICONTROL ターゲット] アクティビティのサポート | [!UICONTROL 自動ターゲット] アクティビティは、 [!UICONTROL Analytics forターゲット] (A4T)をサポートします。<br>この統合により、 [!UICONTROL 自動ターゲットの高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者定義のエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進しながら、] Adobe Analytics [!UICONTROL 目標指標や][!DNL Adobe Analytics] レポート機能や分析機能を使用できます。 [!UICONTROL 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。]<br>A/Bテストで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合 [!UICONTROL 、]自動配分 [!UICONTROL 、エクスペリエンスターゲット設定のアクティビティで使用するA4Tを] A/Bテストで使用する場合は、すべてのを設定しています。 |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
