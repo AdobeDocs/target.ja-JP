@@ -1,18 +1,21 @@
 ---
-keywords: FAQ;よくある質問;analytics for target;A4T;分類;分類;分類インポーター; post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: このトピックには、分類と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: 分類 - A4T FAQ
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # 分類 - A4T FAQ{#classifications-a-t-faq}
 
-このトピックには、分類と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## 分類インポーターを使用して分類をダウンロードした後、post-tnt-action 値をアクティビティ名と合致させるには、どうしたらよいですか。{#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 TNT 変数の文字列形式は、`activityID:experienceID:targettype|event` です。
 
-* targettype は、A4T の場合、常に 0 になります。
+* targettype = 0（制御/ランダム）または1（ターゲット）( [!UICONTROL 自動配分] / [!UICONTROL 自動ターゲット] アクティビティの場合)
 * event = 0 は、エクスペリエンスの開始を表します。
 * event = 1 は、エクスペリエンスの訪問を表します。
 * event = 2 は、アクティビティのインプレッションを表します。
