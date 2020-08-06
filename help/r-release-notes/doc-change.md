@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1788'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 8月6日 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md#how-long) | 次のFAQのテキストを更新しました。 「モデルが作成されるまで、どのくらい待つ必要がありますか？」 |
+|  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | targettypeのテキストを更新しました。 |
 | 8月5日 | [Target の Cookie の削除](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | トピック全体を更新しました。 |
 | 8月4日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 8月13日に予定されている「人工知能とAdobe Targetを使用したパーソナライゼーション戦略」ウェビナーに関する登録情報を追加しました。 |
 |  | [ブラウザーで混合コンテンツを有効にする](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | トピックを更新しました。 |
