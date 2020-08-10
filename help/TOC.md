@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 92%
+source-wordcount: '1429'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 92%
 
 + [Adobe Target 製品ドキュメント](target-home.md)
 + Target リリースノート {#release-notes}
-   + [Targetのお知らせとイベント](/help/r-release-notes/target-announcements.md)
+   + [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
-   + [Targetドキュメントの概要](/help/r-release-notes/target-documentation.md)
-   + [Targetインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
+   + [ターゲットドキュメントの概要](/help/r-release-notes/target-documentation.md)
+   + [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
@@ -43,7 +43,7 @@ ht-degree: 92%
    + レポート {#reporting}
       + [レポートの設定](/help/administrating-target/reporting.md)
       + [売上高上昇の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Scene7の設定](administrating-target/scene7-settings.md)
+   + [Scene7形状](administrating-target/scene7-settings.md)
    + [実装](/help/administrating-target/implementation.md)
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/administrating-target/environments.md)
@@ -69,7 +69,7 @@ ht-degree: 92%
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [許可リストTargetエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + データを Target に送信する方法 {#methods}
          + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -144,12 +144,12 @@ ht-degree: 92%
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [モバイルアプリのTargetに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [ロケーションサービスを使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
-      + [リリースノート —Targetサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [リリースノート —TargetNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [リリースノート —TargetJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
@@ -182,6 +182,7 @@ ht-degree: 92%
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud オーディエンス](c-integrating-target-with-mac/mmp.md)
+   + [ターゲットとAdobe Audience Managerの統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + アクティビティ {#activities}
@@ -217,7 +218,7 @@ ht-degree: 92%
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
       + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [エクスペリエンスプレビューURLを持つプレビュー自動パーソナライゼーションアクティビティ](c-activities/t-automated-personalization/experience-preview.md)
+      + [エクスペリエンスプレビューURLを持つプレビューAutomated Personalizationアクティビティ](c-activities/t-automated-personalization/experience-preview.md)
       + [自動パーソナライゼーションのトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
@@ -380,7 +381,7 @@ ht-degree: 92%
       + [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [プレビューしてRecommendationsアクティビティを起動する](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Recommendationsアクティビティのプレビューと起動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [オファーとしての Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
