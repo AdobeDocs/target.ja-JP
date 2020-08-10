@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,18 @@ ht-degree: 0%
 
 ## Adobeは、パーソナライゼーション・エンジンのGartner Magic Quadrantで再びリーダーに
 
-Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。 ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
 
-## ウェビナー： HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
+## ウェビナー：人工知能とAdobe Targetを使ったパーソナライゼーション戦略
 
-* **午前8時～9時。 (PDT)**
-* **2020年8月6日木曜日**
+* **午前8時～9時。(PDT)**
+* **2020年8月13日**
+
+[このウェビナーに登録します](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
+
+## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
+
+* **次の30日間は、ここをクリックして[ウェビナー録画を表示できます](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 マッキンゼイ・デジタルは、「消費者とビジネスのデジタル採用に5年間、約8週間の間に成果が上がった」と報じた。 *
 
@@ -37,15 +43,8 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 [このエキサイティングなウェビナーに参加登録](https://hsbc-targetai.experienceleague.adobeevents.com/)。
 
-*McKinseyの記事： 「[COVID-19の回復はデジタル](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
+*McKinseyの記事：「[COVID-19の回復はデジタル](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
 
-## ウェビナー： 人工知能とAdobe Targetを使ったパーソナライゼーション戦略
-
-* **午前8時～9時。 (PDT)**
-* **2020年8月13日**
-
-[このウェビナーに登録します](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
-
-## Adobe Targetスキルビルダー： 開発チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
+## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
 2020年8月30日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
