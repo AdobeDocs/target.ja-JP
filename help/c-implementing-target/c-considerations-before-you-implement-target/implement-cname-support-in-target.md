@@ -5,9 +5,9 @@ title: CNAME と Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # CNAME と Adobe Target {#cname-and-adobe-target}
 
-Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. 広告ブロッキングの問題やITP関連のCookieポリシーを最も適切に処理するために、CNAMEを使用して、アドビが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われます。
+Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. 広告ブロッキングの問題やITP関連のCookieポリシーを最も適切に処理するために、CNAMEを使用して、Adobeが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われます。
 
 ## CNAMEサポートの要請
 
@@ -33,28 +33,28 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* アドビの認証局であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、アドビはCNAMEの実装に対するリクエストを満たすことができません。
+   >* Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、AdobeはCNAMEの導入に対するリクエストを満たすことができません。
 
 
-1. CNAMEサポートを要求するAdobe Client Careチケットを [開いた場合は、次のフォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+1. CNAMEサポートを要求するAdobeClientCareチケットを [開いた場合は、次のフォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
    * Adobe [!DNL Target] client code:
    * SSL証明書のホスト名(例： `target.example.com target.example.org`):
-   * SSL証明書の購入者（アドビを強くお勧めします。よくある質問を参照してください）: アドビ/お客様
+   * SSL証明書の購入者(Adobeを強くお勧めします。FAQを参照してください):Adobe/顧客
    * お客様が証明書(BYOC)を購入する場合は、次の追加情報を入力してください。
-      * 証明書の組織(例： Example Inc):
-      * 証明書の組織単位(オプション、例： マーケティング):
-      * 証明書の国(例： US):
-      * 証明書の状態/地域(例： カリフォルニア):
-      * 証明書の市区町村(例： サンノゼ):
+      * 証明書の組織(例：Example Inc):
+      * 証明書の組織単位(オプション、例：マーケティング):
+      * 証明書の国(例：US):
+      * 証明書の状態/地域(例：カリフォルニア):
+      * 証明書の市区町村(例：サンノゼ):
 
-1. アドビが証明書を購入する場合、アドビはDigiCertと連携して、アドビの実稼働サーバーで証明書を購入およびデプロイします。
+1. Adobeが証明書を購入する場合、AdobeはDigiCertと連携してAdobeの実稼働サーバーで証明書を購入およびデプロイします。
 
-   お客様が証明書(BYOC)を購入する場合、Adobe ClientCareから証明書署名要求(CSR)が送信されます。この要求は、任意の認証局によって証明書を購入する際に使用する必要があります。 証明書が発行されたら、証明書のコピーと中間証明書をAdobe ClientCareに送信して、展開する必要があります。
+   お客様が証明書(BYOC)を購入すると、AdobeのClientCareから証明書署名要求(CSR)が送信されます。この要求は、任意の認証局によって証明書を購入する際に使用する必要があります。 証明書が発行されたら、証明書のコピーと中間証明書をAdobeのClientCareに送り返して、展開する必要があります。
 
-   導入の準備が整ったら、Adobe ClientCareからお知らせします。
+   導入の準備が整ったら、AdobeのClientCareからお知らせします。
 
-1. 前述のタスクを完了し、Adobe ClientCareから実装の準備が完了したことを通知された後、at.jsの新しいCNAME `serverDomain` に更新する必要があります。
+1. 前述のタスクを完了し、AdobeのClientCareから実装の準備が完了したことを通知されたら、at.jsの新しいCNAME `serverDomain` に更新する必要があります。
 
 ## よくある質問
 
@@ -62,11 +62,11 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 自分の証明書を提供できますか（「持参者の証明書」と「BYOC」）。
 
-はい、独自の証明書を提供できます。 ただし、この方法は推奨されません。 SSL証明書のライフサイクルの管理は、アドビとアドビの両方が証明書を購入して制御する場合に、非常に簡単に行えます。 SSL証明書は毎年更新される必要があります。つまり、Adobe ClientCareから毎年、新しい証明書を適時にアドビに送信するように連絡する必要があります。 お客様によっては、毎年更新された証明書の作成がタイムリーに行えない場合があり、その場合、証明書の期限が切れると接続が拒否されるので、 [!DNL Target] 実装が損なわれる可能性があります。
+はい、独自の証明書を提供できます。ただし、この方法は推奨されません。 SSL証明書のライフサイクルの管理は、AdobeとAdobeが証明書を購入および制御する場合に、きわめて簡単に行えます。 SSL証明書は毎年更新する必要があります。つまり、AdobeのClientCareから毎年、新しい証明書をAdobeにタイムリーに送信するように連絡する必要があります。 お客様によっては、毎年更新された証明書の作成がタイムリーに行えない場合があり、その場合、証明書の期限が切れると接続が拒否されるので、 [!DNL Target] 実装が損なわれる可能性があります。
 
 >[!IMPORTANT]
 >
->自分の証明書を [!DNL Target] 持参するCNAMEの実装をリクエストする場合は、更新された証明書を毎年Adobe ClientCareに提供する必要があります。 アドビが更新された証明書をデプロイする前にCNAME証明書の有効期限が切れるように設定すると、特定の [!DNL Target] 実装が停止します。
+>独自の証明書を [!DNL Target] 持参するCNAMEの実装をリクエストする場合は、更新された証明書を毎年AdobeのClientCareに提供する必要があることに注意してください。 Adobeが更新された証明書をデプロイする前にCNAME証明書の有効期限を切れるようにすると、特定の [!DNL Target] 実装を使用できなくなります。
 
 ### 新しいSSL証明書の有効期限が切れるまで、どのくらいの期間ですか？
 
@@ -82,11 +82,11 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 いいえ。別のホスト名と証明書が [!DNL Target] 必要です。
 
-### 現在のTargetの実装はITP 2.xの影響を受けているか。
+### 現在のターゲットの実装はITP 2.xの影響を受けているか。
 
-Safariブラウザーで、TargetのJavaScriptライブラリがあるWebサイトに移動します。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
+Safariブラウザーで、ターゲットのJavaScriptライブラリがあるWebサイトに移動します。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
-ITPの問題は、AnalyticsCNAMEのみを使用したTargetで解決できます。 Targetがブロックされる広告ブロッキングシナリオの場合にのみ、個別のTargetCNAMEが必要になります。
+ITPの問題は、Analytics CNAMEのみを使用したターゲットで解決できます。 ターゲットがブロックされる広告ブロッキングシナリオの場合にのみ、個別のターゲットCNAMEが必要になります。
 
 ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
 
@@ -146,3 +146,4 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
 
 * CNAMEとat.js 1.xをお持ちの場合、QAモードは固定されません。これは、サードパーティCookieに基づいているためです。 回避策は、ナビゲート先の各URLにプレビューパラメーターを追加することです。 CNAMEとat.js 2.xを使用している場合、QAモードは固定されます。
 * 現在、この `overrideMboxEdgeServer` 設定はCNAMEでは適切に機能しません。 失敗する要求を避けるため `false` に、この値をに設定する必要があります。
+* CNAMEを使用する場合、ターゲット呼び出しのcookieヘッダーのサイズが増加する可能性が高くなります。 Cookieのサイズは8 KB未満にすることをお勧めします。
