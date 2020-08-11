@@ -4,10 +4,10 @@ description: モバイルビューポートを使用すると、様々なサイ�
 title: レスポンシブエクスペリエンスのモバイルビューポート
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 65%
+source-wordcount: '1402'
+ht-degree: 70%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-この使用例は、2つのiPhoneバージョンに対してエクスペリエンスを設定する方法を示します。iPhone 11 Pro MaxおよびiPhone SE。
+この使用例は、2つのiPhoneバージョンに対してエクスペリエンスを設定する方法を示します。iPhone 6およびiPhone 6 Plus。
 
-1. ターゲットで、「 **[!UICONTROL 管理]**」をクリックします。
-1. 「 **[!UICONTROL モバイルビューポート設定]** 」セクションで、iPhone 11 Pro MaxおよびiPhone SE用のモバイルビューポートを作成します。
+1. **[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    各ビューポートで次の設定を使用します。
 
    | 名前 | 幅 | 高さ | オペレーティングシステム |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS   |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. ターゲットしたいエクスペリエンスでアクティビティを作成します。
-1. iPhone 11 Pro MaxまたはiPhone SEからサイトにアクセスする訪問者にターゲットするエクスペリエンスを選択します。
+1. iPhone 6 または iPhone 6 Plus からサイトにアクセスする訪問者をターゲットとするエクスペリエンスを選択します。
 1. ターゲットを選択する際に、「**[!UICONTROL オーディエンスを作成]**」をクリックしてから、次の図のようにオーディエンスを設定します。
 
    ![](assets/iphoneaudiences.png)
 
-   電話を横向きにすることができるので、高さと幅の両方を同時に320より大きくする必要があるので、iPhone Device Modelと組み合わせた場合、iPhone 11 Pro MaxとiPhone SEのみが満たす条件が作成されます。
+   電話機を横向きにすることもできるため、高さと幅の両方が同時に 320 より大きいことを必須にすると、iPhone デバイスモデルと組み合わせた場合に iPhone 6 と 6 Plus しか満たさない条件が作成されます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 通常どおりにアクティビティの設定を続けます。
 
