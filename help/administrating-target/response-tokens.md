@@ -1,12 +1,13 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）とのデバッグや統合に使用するTarget固有の情報(アクティビティの詳細、ユーザープロファイル情報、地域情報など)を自動的に出力できます
+description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）とのデバッグや統合に使用するターゲット固有の情報(アクティビティの詳細、ユーザープロファイル情報、地域情報など)を自動的に出力できます
 title: Adobe Target のレスポンストークン
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -18,7 +19,7 @@ ht-degree: 77%
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
-応答トークンを使用すると、活用する変数を選択し、Target応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はTarget応答と共に送信され、ネットワーク呼び出しで検証できます。 Response tokens work in [!UICONTROL Preview] mode as well.
+応答トークンを使用すると、活用する変数を選択し、ターゲット応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はターゲット応答と共に送信され、ネットワーク呼び出しで検証できます。 Response tokens work in [!UICONTROL Preview] mode as well.
 
 プラグインとレスポンストークンの主な違いは、プラグインでは配信時に実行される JavaScript をページに送信しますが、レスポンストークンでは、イベントリスナーを使用して読み込み、実行できるオブジェクトを送信するという点です。詳しくは、[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)とこの記事の後の例を参照してください。レスポンストークンの方が安全性が高く、サードパーティ統合に伴う開発や管理を簡略化できます。
 
@@ -58,7 +59,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
    | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 現在のアクティビティの詳細です。「option」は「offer」と同義です。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
-   | トラフィック配分方法<br>( [!UICONTROL 自動Target] および [!UICONTROL 自動パーソナライゼーション] アクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
+   | トラフィックの配分方法<br>( [!UICONTROL 自動ターゲット] および  Automated Personalizationアクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
    |  | `experience.trafficAllocationType` | &quot;control&quot;または&quot;targeted&quot;を返します。 |
 
    ユーザープロファイル属性と顧客属性もリストに表示されます。
@@ -290,6 +291,6 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
