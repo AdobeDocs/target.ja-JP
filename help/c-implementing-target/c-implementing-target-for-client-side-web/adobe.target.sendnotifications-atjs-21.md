@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;関数
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
 title: Adobe Target at.js JavaScript ライブラリの adobe.target.sendNotifications(options) 関数に関する情報です。
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | フィールド名 | タイプ | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | オブジェクトの配列 | ○ |  | 表示されるコンテンツに対する通知、クリックされたセクター、訪問されたビューまたは mbox。 |
-| Request &gt; notifications &gt; address | オブジェクト | × |  |  |
-| Request &gt; notifications &gt; address &gt; url | 文字列 | × |  | 通知の送信元の URL。 |
-| Request &gt; notifications &gt; address &gt; referringUrl | 文字列 | × |  | 通知の送信元のリファラル URL。 |
-| Request &gt; notifications &gt; parameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
-| Request &gt; notifications &gt; order | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
-| Request &gt; notifications &gt; order &gt; id | 文字列 | × | `<=` 250 文字。 | 注文 ID。 |
-| Request &gt; notifications &gt; order &gt; total | 文字列 | × | `>=` 0 | 合計注文額。 |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | 文字列の配列 | × | <ul><li>空の値は許可されない。</li><li>各製品 ID の最大長は 50。</li><li>（コンマ区切りで連結された）製品 ID の合計の長さは 250 以内。</li></ul> | 注文製品 ID。 |
-| Request &gt; notifications &gt; product | オブジェクト | × |  |  |
-| Request &gt; notifications &gt; product &gt; id | 文字列 | × | `<=` 128 文字。空にできない。 | 製品 ID。 |
-| Request &gt; notifications &gt; product &gt; categoryId | 文字列 | × | `<=` 128 文字。空にできない。 | カテゴリ ID. |
-| Request &gt; notifications &gt; id | 文字列 | ○ | `<=` 200 文字。 | 通知 ID は応答で返され、通知が正常に処理されたことを示す。 |
-| Request &gt; notifications &gt; impressionId | 文字列 | × | `<= 128` 文字。 | インプレッション ID が、現在の通知を以前の通知とスティッチ（リンク）したり、リクエストを実行したりするのに使用される。それらの両方が一致する場合、2 番目以降のクエストはアクティビティまたはエクスペリエンスに新しいインプレッションを生成しません。 |
-| Request &gt; notifications &gt; type | 文字列 | ○ | 「click」または「display」がサポートされる。 | 通知タイプ。 |
-| Request &gt; notifications &gt; timestamp | 数値 `<int64>` | ○ |  | UNIX エポックから経過したミリ秒で示す通知のタイムスタンプ。 |
-| Request &gt; notifications &gt; tokens | 文字列の配列 | ○ |  | 通知のタイプに基づく、表示されたコンテンツまたはクリックされたセクターのトークンのリスト。 |
-| Request &gt; notifications &gt; mbox | オブジェクト | × |  | mbox の通知。 |
-| Request &gt; notifications &gt; mbox &gt; name | 文字列 | × | 空の値は許可されない。<br>許可される文字：この表の後にある注意を参照。 | mbox 名。 |
-| Request &gt; notifications &gt; mbox &gt; state | 文字列 | × |  | mbox 状態トークン。 |
-| Request &gt; notifications &gt; view | オブジェクト | × |  |  |
-| Request &gt; notifications &gt; view &gt; id | 整数 `<int64>` | × |  | ビュー ID。ビューがビュー API で作成された際にビューに割り当てられた ID。 |
-| Request &gt; notifications &gt; view &gt; name | 文字列 | × | `<= 128` 文字。 | ビューの名前。 |
-| Request &gt; notifications &gt; view &gt; key | 文字列 | × | `<=` 512 文字。 | ビューキー。API でビューに設定されたキー。 |
-| Request &gt; notifications &gt; view &gt; state | 文字列 | × |  | ビュー状態トークン。 |
+| Request > notifications | オブジェクトの配列 | ○ |  | 表示されるコンテンツに対する通知、クリックされたセクター、訪問されたビューまたは mbox。 |
+| Request > notifications > address | オブジェクト | × |  |  |
+| Request > notifications > address > url | 文字列 | × |  | 通知の送信元の URL。 |
+| Request > notifications > address > referringUrl | 文字列 | × |  | 通知の送信元のリファラル URL。 |
+| Request > notifications > parameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request > notifications > profileParameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request > notifications > order | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
+| Request > notifications > order > id | 文字列 | × | `<=` 250 文字。 | 注文 ID。 |
+| Request > notifications > order > total | 文字列 | × | `>=` 0 | 合計注文額。 |
+| Request > notifications > order > purchasedProductIds | 文字列の配列 | × | <ul><li>空の値は許可されない。</li><li>各製品 ID の最大長は 50。</li><li>（コンマ区切りで連結された）製品 ID の合計の長さは 250 以内。</li></ul> | 注文製品 ID。 |
+| Request > notifications > product | オブジェクト | × |  |  |
+| Request > notifications > product > id | 文字列 | × | `<=` 128 文字。空にできない。 | 製品 ID。 |
+| Request > notifications > product > categoryId | 文字列 | × | `<=` 128 文字。空にできない。 | カテゴリ ID. |
+| Request > notifications > id | 文字列 | ○ | `<=` 200 文字。 | 通知 ID は応答で返され、通知が正常に処理されたことを示す。 |
+| Request > notifications > impressionId | 文字列 | × | `<= 128` 文字。 | インプレッション ID が、現在の通知を以前の通知とスティッチ（リンク）したり、リクエストを実行したりするのに使用される。それらの両方が一致する場合、2 番目以降のクエストはアクティビティまたはエクスペリエンスに新しいインプレッションを生成しません。 |
+| Request > notifications > type | 文字列 | ○ | 「click」または「display」がサポートされる。 | 通知タイプ。 |
+| Request > notifications > timestamp | 数値 `<int64>` | ○ |  | UNIX エポックから経過したミリ秒で示す通知のタイムスタンプ。 |
+| Request > notifications > tokens | 文字列の配列 | ○ |  | 通知のタイプに基づく、表示されたコンテンツまたはクリックされたセクターのトークンのリスト。 |
+| Request > notifications > mbox | オブジェクト | × |  | mbox の通知。 |
+| Request > notifications > mbox > name | 文字列 | × | 空の値は許可されない。<br>許可される文字：この表の後にある注意を参照。 | mbox 名。 |
+| Request > notifications > mbox > state | 文字列 | × |  | mbox 状態トークン。 |
+| Request > notifications > view | オブジェクト | × |  |  |
+| Request > notifications > view > id | 整数 `<int64>` | × |  | ビュー ID。ビューがビュー API で作成された際にビューに割り当てられた ID。 |
+| Request > notifications > view > name | 文字列 | × | `<= 128` 文字。 | ビューの名前。 |
+| Request > notifications > view > key | 文字列 | × | `<=` 512 文字。 | ビューキー。API でビューに設定されたキー。 |
+| Request > notifications > view > state | 文字列 | × |  | ビュー状態トークン。 |
 
 **注意**：`Request > notifications > mbox > name` では、以下の文字は使用できません。
 
