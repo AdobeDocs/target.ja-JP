@@ -2,11 +2,15 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Adobe Target オーディエンスを使用して、国、都道府県、市区町村、郵便番号、DMA、携帯電話会社など、地理的な場所に基づいてユーザーをターゲットに設定します。
 title: 地域
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    * 経度
    * DMA
    * 携帯電話会社
+
    mbox リクエストによって訪問者の IP アドレスが訪問（セッション）ごとに 1 回渡され、その訪問者の地域ターゲットパラメーターが解決されます。
 
    携帯電話会社の場合、[!DNL Target] は IP アドレス登録データ（IP アドレスのブロックを所有しているユーザー）により、[モバイル国コード（MCC）およびモバイルネットワークコード（MNC）](https://www.mcc-mnc.com)を使用して適切な携帯電話会社を判断します。
@@ -138,17 +143,17 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` はat.js 1.*jxでのみサポートされます* 。 この機能はat.js 2ではサポートされていません。*x*.
+>`mboxOverride.browserIp` は、at.js 1.*jx* でのみサポートされています。 この機能は、at.js 2ではサポートされていません。*x*.
 
 **プエルトリコや香港などの地域はジオターゲティング構造にどのようにマッピングされますか？**
 
 プエルトリコや香港などの地域は、個別の「国」として扱われます。
 
-**アクティビティ[!DNL Target]が地域ターゲティング機能でターゲット設定されている場合、郵便番号などの情報を取得（および保存）できますか。**
+**アクティビティが地域ターゲティング機能を使用してターゲット設定される場合、郵便番号などの情報を[!DNL Target]取得（および保存）するか。**
 
-いいえ。セ [!DNL Target] ッション中のみ地域データを使用し、データは破棄されます。
+いいえ。セッション中の間のみ地域データを [!DNL Target] 使用し、データは破棄されます。
 
-## トレーニングビデオ：オーディエンスチュート ![リアルバッジの作成](/help/assets/tutorial.png)
+## トレーニングビデオ：オーディエンス ![チュートリアルバッジの作成](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
