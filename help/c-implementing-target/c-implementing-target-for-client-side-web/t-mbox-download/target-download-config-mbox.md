@@ -2,11 +2,12 @@
 keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard および Premium では Adobe Target mbox.js ファイルの修正バージョンを使用します。
 title: mbox.js のダウンロード
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
