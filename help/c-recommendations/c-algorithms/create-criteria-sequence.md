@@ -2,9 +2,13 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 最大 5 つの条件のシーケンスを使用して、Recommendations アクティビティで表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
+feature: null
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +90,7 @@ source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
    レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33） チュートリ ![アルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendations の条件の作成（12:33） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
