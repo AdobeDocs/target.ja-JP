@@ -1,12 +1,16 @@
 ---
-keywords: 管理;承認者の役割;承認者
+keywords: Administration;approver role;approver
 description: ここでは、Adobe Target 管理者が Adobe Experience Cloud への招待メールを受け取った後に最初におこなう手順について説明します。
 title: 管理者の最初の手順
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!DNL Adobe Admin Console] のシステム管理者は、参加させたいひとを招待することで [!DNL Target] にユーザーとして追加する必要があります。次に、システム管理者が、1 つ以上の役割用のグループに追加する必要があります。これらの作業は、共に [Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、 [Experience cloudとコアサービスヘルプのExperience cloudユ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) ーザーと製品の管理 *(*&#x200B;英語のみ)を参照してください。
+詳しくは、 [Experience Cloudおよびコアサービスのヘルプで、Experience Cloudのユーザーと製品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) の *管理を参照してください*。
 
 システム管理者がこれらの手順を実行すると、招待の電子メールが送信されます。
 
