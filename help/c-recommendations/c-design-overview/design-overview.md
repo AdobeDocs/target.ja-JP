@@ -2,9 +2,13 @@
 keywords: recommendations design;template;create design;delivery;output
 description: レコメンデーションがページに表示される方法を定義するデザインに関する概要情報です。
 title: デザインの概要
+feature: null
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 100%
 
 ---
 
