@@ -1,11 +1,12 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: Adobe Experience Manager(AEM)で作成されたエクスペリエンスフラグメントをAdobeターゲットアクティビティで使用して最適化やパーソナライゼーションを支援する方法について説明します。
-title: AdobeターゲットのAdobe Experience Manager(AEM)エクスペリエンスフラグメント
+description: Adobe TargetアクティビティのAdobe Experience Manager(AEM)で作成したエクスペリエンスフラグメントを、最適化やパーソナライゼーションを支援するために使用する方法について説明します。
+title: Adobe Experience Manager(AEM)Adobe Targetでの体験断片
+feature: null
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 21%
@@ -44,21 +45,21 @@ You must be provisioned with the experience fragments functionality within [!DNl
 
 In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perform the following steps:
 
-### 手順1: 統合 [!DNL AEM] 対象 [!DNL Target]
+### 手順1:統合 [!DNL AEM] 対象 [!DNL Target]
 
 詳しくは、次を参照してください。
 
-* **[!DNL AEM]6.3 **:[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)ドキュメントで、Adobe AnalyticsとAdobeターゲット__のオプトインを参照してください。
-* **[!DNL AEM]6.4 **:[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)ドキュメントで、Adobe AnalyticsとAdobeターゲット__のオプトインを参照してください。
-* **[!DNL AEM]6.5 **:[Adobe Experience Manager 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)ドキュメントで、Adobe AnalyticsとAdobeターゲット&#x200B;*のオプトインを参照して*ください。
+* **[!DNL AEM]6.3 **:[Adobe AnalyticsとAdobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)(__Adobe Experience Manager6.3ドキュメント)にオプトインする。
+* **[!DNL AEM]6.4 **:[Adobe AnalyticsとAdobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)(__Adobe Experience Manager6.4ドキュメント)にオプトインする。
+* **[!DNL AEM]6.5 **:[Adobe AnalyticsとAdobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)(**Adobe Experience Manager6.5ドキュメント)にオプトインする。
 
 ### 手順 2：エクスペリエンスフラグメントを作成する
 
 Experience fragments are created in [!DNL AEM]. 詳しくは、次を参照してください。
 
-* **[!DNL AEM]6.3 **:[エクスペリエンスフラグメント](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)(*Adobe Experience Manager 6.3*ドキュメント内)を参照してください。
-* **[!DNL AEM]6.4 **:[エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)(*Adobe Experience Manager 6.4*ドキュメント内)を参照してください。
-* **[!DNL AEM]6.5 **:[エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)(*Adobe Experience Manager 6.5*ドキュメント内)を参照してください。
+* **[!DNL AEM]6.3 **:[エクスペリエンスフラグメント](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)(*Adobe Experience Manager6.3*ドキュメント)
+* **[!DNL AEM]6.4 **:[エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)(*Adobe Experience Manager6.4*ドキュメント)を参照してください。
+* **[!DNL AEM]6.5 **:[エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)(*Adobe Experience Manager6.5*ドキュメント)を参照してください。
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -75,9 +76,9 @@ Experience fragments are created in [!DNL AEM]. 詳しくは、次を参照し�
 
 使用している [!DNL AEM] バージョンに応じて、手順については次のリンクを参照してください。
 
-* **[!DNL AEM]6.3 **:[エクスペリエンスフラグメントのターゲットへの書き出し](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)(*Adobe Experience Manager 6.3*ドキュメント内)を参照してください。
-* **[!DNL AEM]6.4 **:[エクスペリエンスフラグメントのターゲットへの書き出し](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)(*Adobe Experience Manager 6.4*ドキュメント)を参照してください。
-* **[!DNL AEM]6.5 **:[エクスペリエンスフラグメントのターゲットへの書き出し](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)(*Adobe Experience Manager 6.5*ドキュメント内)を参照してください。
+* **[!DNL AEM]6.3 **:[エクスペリエンスフラグメントのターゲット](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)への書き出し(*Adobe Experience Manager6.3*ドキュメント)
+* **[!DNL AEM]6.4 **:[エクスペリエンスフラグメントのターゲット](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)への書き出し(*Adobe Experience Manager6.4*ドキュメント)
+* **[!DNL AEM]6.5 **:[エクスペリエンスフラグメントのターゲット](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)への書き出し(*Adobe Experience Manager6.5*ドキュメント)
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -155,4 +156,4 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >
 >4:54で説明されている [!DNL AEM] ディープリンク機能は削除されました。
 
-詳しくは、 [AEMサイトのビデオとチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) ページの「Using Experience Fragments with Adobeターゲット ** 」を参照してください。
+詳しくは、 [AEM SitesのビデオとTutorials](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) ページの「Adobe Targetでのエクスペリエンスフラグメントの ** 使用」を参照してください。
