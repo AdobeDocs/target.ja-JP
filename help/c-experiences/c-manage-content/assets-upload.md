@@ -2,10 +2,14 @@
 keywords: content;update content;assets;upload content;upload asset
 description: 画像オファーリストにアイテムを追加できます。
 title: コンテンツのアップロード
+feature: null
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    アイテムがライブラリにアップロードされます。
 
-## トレーニングビデオ：コンテンツリポジトリ 概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリ ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 
