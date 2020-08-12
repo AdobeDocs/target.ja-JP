@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Adobe Experience Cloud の People コアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
 title: Adobe Targetの顧客属性
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 39%
@@ -158,7 +159,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >問題1と問題2は、この領域で約60%の問題を引き起こします。 問題3は、約30%の問題を引き起こします。 問題4は、問題の約5 %を引き起こします。 残りの 5％はその他の原因です。
 
-### 問題1: プロファイルが大きすぎるため、顧客属性が削除されます。
+### 問題1:プロファイルが大きすぎるため、顧客属性が削除されます。
 
 ユーザープロファイルの 1 つのフィールドごとに文字数制限はありません。ただし、プロファイルが 64,000 文字を超えると、64,000 文字を下回るまで最も古い属性から順に削除されて切り詰められます。
 
@@ -166,11 +167,11 @@ You might encounter the following issues when working with customer attributes a
 
 その場合は、パイプラインの接続に問題が生じているケースがほとんどです。顧客属性チームにフィードの再発行を依頼してください。
 
-### 問題3: 属性に基づいて配信が機能しない
+### 問題3:属性に基づいて配信が機能しない
 
 プロファイルがまだエッジで更新されていません。顧客属性チームにフィードの再発行を依頼してください。
 
-### 問題4: 導入に関する問題
+### 問題4:導入に関する問題
 
 注意を要する実装に関する問題は次のとおりです。
 
