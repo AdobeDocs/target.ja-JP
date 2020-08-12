@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 title: 自動パーソナライゼーションに関する FAQ
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
@@ -115,11 +116,11 @@ Automated Personalization アクティビティの結果は、モデルが構築
 
 アクティビティの途中で目標指標を変更しないことをお勧めします。 UIを使用したアクティビティ中に目標指標を変更することは可能ですが、常に新しいアクティビティを開始する必要があり [!DNL Target] ます。 実行後にアクティビティの目標指標を変更した場合の動作は保証されません。
 
-この推奨は、 [!UICONTROL 自動配分]、 [!UICONTROL 自動Target]、およびAutomated Personalization [!UICONTROL アクティビティで、いずれかをレポートソースとして使用する場合(A4T][!DNL Target][!DNL Analytics] )に適用されます。
+この推奨は、 [!UICONTROL 自動配分]、 [!UICONTROL 自動ターゲット]、およびAutomated Personalization [!UICONTROL アクティビティで、いずれかをレポートソースとして使用する場合(A4T][!DNL Target][!DNL Analytics] )に適用されます。
 
 ### Automated Personalizationアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。
 
-[!UICONTROL Automated Personalization] アクティビティに「レポートデータを [!UICONTROL リセット] 」オプションを使用することは推奨されません。 表示されるレポートデータは削除されますが、このオプションでは、 [!UICONTROL Automated Personalization] モデルからすべてのトレーニングレコードが削除されるわけではありません。 「レポートデータを [!UICONTROL リセット] 」オプションを  Automated Personalizationアクティビティに使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 (注意： この手順は、 [!UICONTROL 自動配分] と [!UICONTROL 自動Target] アクティビティにも当てはまります。
+[!UICONTROL Automated Personalization] アクティビティに「レポートデータを [!UICONTROL リセット] 」オプションを使用することは推奨されません。 表示されるレポートデータは削除されますが、このオプションでは、 [!UICONTROL Automated Personalization] モデルからすべてのトレーニングレコードが削除されるわけではありません。 「レポートデータを [!UICONTROL リセット] 」オプションを  Automated Personalizationアクティビティに使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 (注意：この手順は、 [!UICONTROL 自動配分] と [!UICONTROL 自動ターゲット] アクティビティにも当てはまります。
 
 ### Automated Personalizationは環境に関するモデルをどのようにして作り上げているか。
 
