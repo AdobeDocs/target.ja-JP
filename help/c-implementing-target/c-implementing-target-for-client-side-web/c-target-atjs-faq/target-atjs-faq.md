@@ -2,10 +2,14 @@
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Adobe Target の at.js JavaScript ライブラリに関するよくある質問への回答を紹介します。
 title: Adobe Target の at.js に関するよくある質問
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2660'
+ht-degree: 94%
 
 ---
 
@@ -201,8 +205,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 この警告メッセージが表示された場合は、次のような原因が考えられます。
 
-* ページは動的に構築中で、at.jsが要素を見つけられません。
-* ページの構築に時間がかかっています（ネットワークが低速なため）。at.jsはDOM内でセレクターを見つけることができません。
+* ページが動的に構築中で、at.jsが要素を見つけられない。
+* ページの構築に時間がかかります（ネットワークの速度が遅いため）。at.jsはDOM内でセレクターを見つけることができません。
 * アクティビティが実行されているページの構造が変更されている。Visual Experience Composer（VEC）でアクティビティを再度開くと、警告メッセージが表示されます。アクティビティを更新して、必要な要素がすべて見つかるようにする必要があります。
 * 基になるページがシングルページアプリケーション（SPA）の一部であるか、ページの下部に表示される要素がページに含まれていて、[!DNL at.js] の「セレクターポーリングメカニズム」がこれらの要素を見つけることができない。`selectorsPollingTimeout` の値を増やすと問題が解決する場合があります。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * いずれかのクリック追跡指標が、その指標が設定された URL に関係なく、それ自体をすべてのページに追加しようとしている。害はありませんが、この状況ではこれらのメッセージの多くが表示されます。
