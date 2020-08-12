@@ -1,11 +1,15 @@
 ---
-keywords: 親和性、カテゴリ親和性
+keywords: affinity;category affinity
 description: Adobe Target のカテゴリ親和性機能では、ターゲット設定とセグメント化のために、ユーザーが訪問するカテゴリを自動的にキャプチャし、そのカテゴリに対するユーザーの親和性を計算します。これによって、コンテンツをその情報に基づいて行動を起こす可能性が最も高い訪問者にターゲット設定することができます。
 title: Adobe Target でのカテゴリ親和性の使用
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +115,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    既存のオーディエンスをコピーするには、オーディエンスのリストから目的のオーディエンスにマウスポインターを置き、コピーアイコンをクリックします。これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. わかりやすいオーディエンスの名前を入力します。
-1. **[!UICONTROL ルールを追加]**／**[!UICONTROL 訪問者プロファイル]** をクリックします。
+1. **[!UICONTROL + ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
 1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、**[!UICONTROL カテゴリーの親和性]**&#x200B;を選択します。
 
    ![訪問者プロファイル／カテゴリ親和性](assets/affinity.png)
@@ -128,7 +132,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 3 番目のカテゴリ
    * 4 番目のカテゴリ
    * 5 番目のカテゴリ
-   「お気に入りのカテゴリ」オプションと「最初のカテゴリ」オプションは同じです。
+
+   「お気に入りのカテゴリ」と「最初のカテゴリ」は同等です。
 
 1. 評価基準を選択します。
 
