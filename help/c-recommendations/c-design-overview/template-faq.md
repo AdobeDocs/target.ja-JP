@@ -1,10 +1,14 @@
 ---
-keywords: recommendations;よくある質問;faq
+keywords: recommendations;frequently asked questions;faq
 description: Recommendations デザインに関するよくある質問（FAQ）のリストです。
 title: デザイン FAQ
+feature: null
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
 
