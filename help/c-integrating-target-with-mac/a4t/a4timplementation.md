@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Adobe Analytics を Target のレポートソースとして実装する場合（A4T）には、いくつかの手順が必要になります。
 title: Analytics for Target の実装
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 62%
@@ -20,7 +21,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 次の節では、この統合をサイトに導入するために必要な手順について説明します。
 
-## 手順1: AnalyticsとTargetのプロビジョニングの要請
+## 手順1:Analyticsとターゲットのプロビジョニングのリクエスト
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [プロビジョニングの依頼にはこのフォームを使用します](http://www.adobe.com/go/audiences)。
 
@@ -38,9 +39,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 appMeasurement.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新規導入の場合は、『 [Analytics導入ガイド](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 』のJavaScript導入の概要 **&#x200B;を参照してください。
+新規導入の場合は、『 [Analytics導入ガイド』の](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 「JavaScript導入の概要 *」を参照してください*。
 
-移行については、『 [Analytics導入ガイド](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 』の「AppMeasurement for JavaScriptへの移行」を参照してください **。
+移行については、 [Analytics導入ガイドのJavaScript版AppMeasurementへの](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 移行を参照してください **。
 
 ## 手順 5：at.js または mbox.js をダウンロードして更新します。
 
