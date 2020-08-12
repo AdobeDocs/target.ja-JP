@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: Adobe Target でカタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 title: Adobe Target のカタログ検索
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 カタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 検索フィールドで下矢印をクリックすると表示されるオプションメニューから検索オプションを選択することで、検索を絞り込むことができます。
 
