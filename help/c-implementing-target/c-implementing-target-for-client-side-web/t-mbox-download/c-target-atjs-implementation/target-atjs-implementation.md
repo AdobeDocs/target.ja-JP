@@ -2,10 +2,11 @@
 keywords: Target Standard;at.js;implementation
 description: at.js ライブラリは、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Adobe Target の新しい実装ライブラリです。
 title: mbox.js から at.js への移行
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 89%
@@ -27,8 +28,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 
 ## at.js のメリット {#benefits}
 
-次の表に、2つのライブラリの違いを示します。
-4
+次の表に、2つのライブラリの違いを示します。4
 |ライブラリリファレンス |説明 |
 |— |— |
 |at.js|at.jsは、実装のmbox.jsを置き換え [!DNL Target] ます。<br>多くのメリットがある中でも、at.js は、Web 実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chrome での document.write 警告を回避し、シングルページアプリケーション向けのより優れた実装オプションを提供します。<br>詳しくは、「[at.js の実装](#implement)」を参照してください。|
