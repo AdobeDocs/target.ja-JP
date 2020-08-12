@@ -1,11 +1,15 @@
 ---
-keywords: 実装;at.js;JavaScript ライブラリ
+keywords: implement;at.js;javascript library
 description: Adobe Target JavaScript ライブラリ（at.js）のデプロイ方法（Adobe Launch を使用してデプロイする方法、タグマネージャーを使用しないでデプロイする方法、Adobe Dynamic Tag Management（DTM）を使用してデプロイする方法）について説明します。
 title: at.js のデプロイ方法
+feature: null
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
