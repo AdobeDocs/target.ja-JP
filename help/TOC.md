@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 8102b0322466e8cfb0a158b1ccb3f74e25d54cc1
+source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1438'
 ht-degree: 91%
 
 ---
@@ -393,4 +393,6 @@ ht-degree: 91%
 + Target のトラブルシューティング {#troubleshoot}
    + [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)
    + [制限](r-troubleshooting-target/target-limits.md)
++ Target API {#apis}
+   + [ターゲットAPIについて](/help/api/api-overview.md)
 + [リソースおよび連絡先情報](cmp-resources-and-contact-information.md)
