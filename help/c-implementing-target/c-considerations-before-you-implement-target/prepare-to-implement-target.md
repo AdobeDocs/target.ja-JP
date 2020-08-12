@@ -1,12 +1,16 @@
 ---
-keywords: 実装;導入;RFI;情報のリクエスト
+keywords: implement;implementing;rfi;request for information
 description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
 title: Adobe Target 実装の準備
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
