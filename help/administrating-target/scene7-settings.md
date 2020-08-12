@@ -1,11 +1,12 @@
 ---
 description: Target Standard を Adobe Dynamic Media Classic（以前の Scene7）と統合して、コンテンツライブラリで Digital Asset Management（DAM）を実行できます。
 title: Dynamic Media Classic の統合 構成統合
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 32%
@@ -13,7 +14,7 @@ ht-degree: 32%
 ---
 
 
-# Scene7の設定 {#scene-settings}
+# Scene7形状 {#scene-settings}
 
 Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
 
