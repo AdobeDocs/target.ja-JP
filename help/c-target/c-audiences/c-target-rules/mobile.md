@@ -1,11 +1,15 @@
 ---
-keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
+keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Adobe Target でオーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
 title: Adobe Target のモバイルオーディエンス
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 オーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
 
-例えば、携帯電話からページに訪問するユーザーに対しては、コンピューターから訪問するユーザーとは別のコンテンツを表示するとします。この場合、モバイルオーディエンスを選択して「**[!UICONTROL 携帯電話]」オプションを選択し、携帯電話の種類や画面のサイズ（ピクセル単位）など重要となる特定の詳細を追加します。**
+例えば、携帯電話からページに訪問するユーザーに対しては、コンピューターから訪問するユーザーとは別のコンテンツを表示するとします。この場合、モバイルオーディエンスを選択して「**[!UICONTROL 携帯電話]**」オプションを選択し、携帯電話の種類や画面のサイズ（ピクセル単位）など重要となる特定の詳細を追加します。
 
 モバイルターゲットは、DotMobi 社のサービスである [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) から提供されます。DeviceAtlas は、メーカーやネットワーク通信業者を含む非常に多くのソースから収集したデータに基づいて構築された、モバイルデバイスの包括的なデータベースです。このデータには、大規模で正確なモバイルデバイスデータベースを構築するための検証、相互参照、妥当性確認が実施されます。
 
@@ -38,9 +42,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 （at.js または Mobile SDK を使用していない）カスタム統合を使用しているユーザーは、これらのパラメーターを手動で収集して mbox パラメーターとして渡すことができます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL モバイル]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL モバイル]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
    * デバイスのマーケティング名
@@ -52,6 +56,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * OS
    * 画面の高さ（px）
    * 画面の幅 (px)
+
    >[!NOTE]
    >
    >iOS 12.2 で導入された新しい変更により、iPhone モデルを指定する、デバイスのマーケティング名およびデバイスモデルで定義されたルールを持つオーディエンスの作成が影響を受けます。iOS 12.2 がインストールされた iPhones を持つユーザーをターゲットにすることはできなくなりました。ただし、ユーザーが iOS 12.2 をインストールしていない場合、その iPhone モデルのターゲット設定は引き続き正常に機能します。
@@ -76,4 +81,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
