@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations
 description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
-title: Adobe AnalyticsをAdobeターゲットのレポートソースとして実装する前に(A4T)
+title: Adobe TargetのレポートソースとしてAdobe Analyticsを実装する前に(A4T)
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
@@ -30,7 +31,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 この統合で、A4T でのリダイレクトオファーを使用しない場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.jsバージョン1.8.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン1.8.0
 * [!DNL Adobe Target]（実装によって異なります）：at.js バージョン 0.9.1 または mbox.js バージョン 61
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
@@ -38,7 +39,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 A4T でリダイレクトオファーを使用する場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.jsバージョン2.3.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン2.3.0
 * [!DNL Adobe Target]: at.js バージョン 1.6.2
 
    **注意：** mbox.js ライブラリは A4T によるリダイレクトオファーをサポートしていません。実装では at.js を使用する必要があります。
