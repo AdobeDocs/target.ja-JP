@@ -1,10 +1,14 @@
 ---
 description: 用語の定義について説明します。
 title: Adobe Target 用語集
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2291'
+ht-degree: 98%
 
 ---
 
@@ -331,7 +335,7 @@ mbox とのセッションにおいて、訪問者がアクティビティの最
 
 **visit**
 
-1回の訪問は、1回のセッションと呼ばれることもあります。 1回の訪問は、30分間操作が実行されなかった後に終了します。つまり、30分以上の間にサーバー要求がターゲットに送信されます。
+1回の訪問は、セッションと呼ばれることもあります。 1回の訪問は、30分間無操作状態が続いた後に終了します。つまり、30分以上の間隔でターゲットに対するサーバー要求が行われた後に終了します。
 
 **訪問者**
 
