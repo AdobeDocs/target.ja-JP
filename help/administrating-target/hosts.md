@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: ホスト
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -86,7 +87,7 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**: のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、リダイレクトURL [!DNL Adobe] を検証できず、悪意のあるリダイレクトから保護されます。
+>**セキュリティのベストプラクティス**:のubox機能を使用する場合 [!DNL Target]、この許可リストは、リダイレクターが [ナビゲートできるドメインのリストも制御することに注意してください](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 実装の一部としてuboxを使用する場合は、リダイレクト先のドメインを追加してください。 許可リストを指定しないと、リダイレクトURL [!DNL Adobe] を検証できず、悪意のあるリダイレクトから保護されます。
 >
 >許可リストは環境よりも優先されます。 許可リスト機能を使用する前に、すべてのホストを消去する必要があります。そうすると、許可リストで許可されているホストのみがホストリストに表示されます。 その後、ホストを必要な環境に移動できます。
 
