@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: .csv形式のデータをダウンロードして、Adobe Targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートできます。
+description: Adobe Targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートするには、.csv形式のデータをダウンロードします。
 title: Adobe Targetを使用したCSVファイル内のデータのダウンロード
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -24,8 +28,9 @@ CSV ファイル内のデータをダウンロードするには：
 1. 「**[!UICONTROL レポート]**」タブをクリックします。
 1. **[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックして、Excel や他のツールでの分析用にダウンロードするレポートのタイプを選択します。
 
-   * [!UICONTROL レポートをCSVに書き出し]
+   * [!UICONTROL レポートをCSVにエクスポート]
    * [!UICONTROL 注文の詳細を CSV に書き出す]
+
    ![ダウンロードオプション](/help/c-reports/assets/download-options.png)
 
 ## レポートを CSV に書き出す {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -39,11 +44,11 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSVレポートには生データのみが含まれ、A/Bテストで使用される1訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSVレポートには、生のデータのみが含まれ、A/Bテストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 注文の詳細を CSV に書き出す {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-「受注詳細」レポートには、次のような受注に関する情報が表示されます。
+注文の詳細レポートには、次のような注文に関する情報が表示されます。
 
 * 注文日時
 * 注文金額（発注 mbox を挿入した場合）
@@ -82,7 +87,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 次の情報が「ダウンロード」オプションに適用されます。
 
-* A/Bテスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用の両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
+* A/Bテスト、Automated Personalization、エクスペリエンスのターゲット設定、多変量分析の各アクティビティ用に、両方のレポートをダウンロードできます。 Recommendation アクティビティの成功指標レポートはダウンロードできません。
 * 「ダウンロード」オプションは、Target バージョン 15.7.1（2015 年 7 月）より前のバージョンを使用して作成された A/B およびエクスペリエンスターゲット設定のアクティビティでは使用できません。
 * 関連データのないエクスペリエンスは、ダウンロードしたレポートに記録されません。
 * Target レポート UI で適用されたオーディエンスは、ダウンロードレポートに引き継がれません。
