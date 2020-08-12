@@ -2,11 +2,12 @@
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: レポートには、アクティビティのパフォーマンスに関する情報が表示されます
 title: レポート
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 77%
@@ -57,6 +58,7 @@ ht-degree: 77%
 
    * アクティビティが実行された日付範囲を含むアクティビティステータス
    * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
+
    >[!NOTE]
    >
    >エクスペリエンスの結果は、少なくとも 1 人の参加者がエクスペリエンスを閲覧した後に表示されます。
@@ -76,5 +78,5 @@ ht-degree: 77%
    | レポートタイプ | 表示 |
    | --- | --- |
    | 自動ターゲット | 「 **[!UICONTROL 自動セグメント]** 」アイコンまたは「 **[!UICONTROL 重要な属性]** 」アイコンをクリックします。<ul><li>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
-   | 自動パーソナライゼーション（AP） | 自動パーソナライゼーションサマリレポートに加え [て](/help/c-reports/reports-ap.md)、「 **[!UICONTROL 自動セグメント]** 」アイコンまたは「 **[!UICONTROL 重要な属性]** 」アイコンをクリックできます。<ul><li>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
+   | 自動パーソナライゼーション（AP） | [Automated Personalizationサマリレポートに加えて](/help/c-reports/reports-ap.md)、 **[!UICONTROL 自動セグメント]** (Automated Segments)アイコンまたは **[!UICONTROL 重要な属性]** (Important Attributes)アイコンをクリックできます。<ul><li>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
    | 多変量分析テスト（MVT） | エ [クスペリエンスのパフォーマンスレポートに加えて](/help/c-reports/experience-performance-report.md)、「場所の貢献度 [](/help/c-reports/location-contribution-report.md) 」アイコンをクリックして、レポートを切り替え、場所ごとの貢献度を表示できます。 |
