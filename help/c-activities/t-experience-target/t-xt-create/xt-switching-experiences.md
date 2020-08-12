@@ -1,11 +1,15 @@
 ---
-keywords: 優先度;エクスペリエンス作成;優先度;エクスペリエンス;オーディエンス;エクスペリエンス;エクスペリエンスの切り替え;visual experience composer
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: プロファイルの発展に応じて、訪問者がエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスを切り替える方法について説明します。
 title: エクスペリエンスターゲット設定でのエクスペリエンスの切り替え
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,24 +42,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、ドイツに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。ドイツから Web サイトを表示した後、この訪問者は、エクスペリエンス B（ドイツの訪問者）に切り替えます。
 
-   ![優先度：米国 &gt; ドイツ](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![優先度：米国 > ドイツ](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **訪問者が現在のオーディエンスの条件を満たさなくなった後でより優先度の低いエクスペリエンスの条件を満たした場合にも、エクスペリエンスが切り替わります。**
 * **訪問者が現在のオーディエンスの条件を満たさなくなった後、別のエクスペリエンスの条件を満たさない場合は、デフォルトのコンテンツが表示されます。**
 
    例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、フランスに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。フランスから Web サイトを表示した後、この訪問者は、元のエクスペリエンスにとどまります。
 
-   ![優先度：米国 &gt; ドイツ](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![優先度：米国 > ドイツ](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **ターゲット設定アクティビティで最後のエクスペリエンスとして「すべての訪問者」をターゲットに設定しているエクスペリエンスを使用すると、他のどのエクスペリエンスにも該当しない訪問者を「捕捉」することができます。「すべての訪問者」をターゲットに設定しているエクスペリエンスが順序の最後に置かれていない場合には、リストでそれよりも下位に位置するエクスペリエンスも評価対象となります。**
 
    例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、ドイツに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。ドイツから Web サイトを表示した後、この訪問者は、エクスペリエンス A（米国の訪問者）にとどまります。
 
-   ![優先度：米国 &gt; すべての訪問者](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![優先度：米国 > すべての訪問者](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    これが望ましくない場合、次の例に示すように、ターゲットオーディエンスの正反対として明示的に定義された新しいオーディエンスを作成できます。
 
-   ![優先度：米国 &gt; 米国以外](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![優先度：米国 > 米国以外](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **単一のエクスペリエンスの XT アクティビティの場合、あるエクスペリエンスが提示されるオーディエンスの資格がなくなっても、訪問者はそのエクスペリエンスにとどまります。**
 
@@ -69,5 +73,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    これは、訪問者が複数のオーディエンスの資格を得る可能性があるシナリオで覚えておくべき重要な点です。例えば、「United States」（米国）をターゲットにしたものと「New York」（ニューヨーク）をターゲットにしたものの 2 つのエクスペリエンスがある場合、ニューヨークにいる訪問者は、両方のオーディエンスの資格を得ます。そのため、Target UI で「New York」エクスペリエンスが「United States」エクスペリエンスの前に定義されていることを確認する必要があります。これにより、次の例のように、「New York」エクスペリエンスがターゲットになればなるほど、優先度が高くなります。
 
-   ![優先度：ニューヨーク &gt; 米国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![優先度：ニューヨーク > 米国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
