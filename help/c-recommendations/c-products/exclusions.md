@@ -2,9 +2,13 @@
 keywords: exclusions
 description: Adobe Target で除外リストを作成すると、品目がレコメンデーションされないようにできます。
 title: Adobe Target での除外
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 >詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にして除外を作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を除外することを目的とした除外を作成すると、「holiday」を含む商品のみが除外されます。「Holiday」を含む商品は除外されません。
 
-## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05） チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
