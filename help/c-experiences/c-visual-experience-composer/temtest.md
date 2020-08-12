@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: ページテンプレートを使用してページの構造を指定する場合、または複数のページに類似の要素が含まれている場合は、この機能を使用すると、類似のページ要素構造を持つ複数のバリエーションをテストできます。
 title: 類似のページに同じエクスペリエンスを組み込む
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL (TargetがURLを評価する方法について詳しくは、ターゲットとオーディエ [ンスに関するFAQを参照してください](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+   * URL (ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
    * ドメイン
    * パス
    * ハッシュ（#）フラグメント（URL の # 記号に続く部分をターゲットにします。）
@@ -72,7 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 > Target では、ページが想定どおりに表示されるかどうかを自動的には確認できません。そのため、この機能を使用する場合は、ページを公開する前に、該当するページをテストしておくことが重要です。
 
-## トレーニングビデオ：Visual Experience Composer（2 / 2）（7:29） チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composer（2 / 2）（7:29） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
