@@ -2,9 +2,10 @@
 keywords: Targeting
 description: アクティビティ URL は、エクスペリエンスターゲット設定アクティビティで使用され、アクティビティを設計する際に Adobe Target Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
 title: アクティビティ URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ ht-degree: 92%
    * ハッシュ（#）フラグメント
    * クエリ
    * mbox パラメーター
+
    追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。追加したすべてのルールは、AND を使用してお互いに評価されます。
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
