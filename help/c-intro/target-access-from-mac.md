@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## Adobe Target にサインインし、デフォルトの表示を設定する
 
-1. [!DNL Experience Cloud] へサインインしたら、ナビゲーションバーのアプリアイコンをクリックします。
+1. [Adobe Experience Cloudにサインイン](https://experience.adobe.com/)。
+
+1. ナビゲーションバーの **[!UICONTROL アプリアイコン]** 、 **[!UICONTROL ターゲットの順にクリックします]**。
+
+   メインウィンドウの [!DNL Target] パネルをクリックしてアクセスする [!DNL Target] (またはアクセス権を持つ他の [!DNL Adobe Experience Cloud] ソリューション)こともできます。
 
    ![アプリケーションアイコン](/help/c-intro/assets/appmenu-new.png)
-
-1. アプリメニューで [!DNL Target] アイコンをクリックします。
-
-   ![Target アイコン](/help/c-intro/assets/appmenu-target-new.png)
-
-1. **[!UICONTROL カードの「]**&#x200B;開く[!DNL Target]」をクリックします。
-
-   ![Target の起動](/help/c-intro/assets/target-launch-new.png)
 
 1. （オプション）[!DNL Target] を [!DNL Experience Cloud] にログインした際のデフォルトビューとして設定するには、プロファイルのアバターの下にある「**[!UICONTROL プロファイルを編集]**」をクリックして、ランディングページを設定します。
 
@@ -35,13 +34,15 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## Target UI のデフォルト言語の変更 {#language}
 
-1. [!DNL Adobe Experience Cloud ]または[!DNL Target]にサインインした後、自分のプロフィールのアバターをクリックしてから、「**[!UICONTROL プロフィールの編集]**」をクリックします。
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![プロファイルを編集](/help/c-intro/assets/change-language.png)
 
-1. 「**[!UICONTROL 個人情報を編集]**」をクリックします。
+1. 「 **[!UICONTROL Adobeアカウント]** 」をクリックして [!DNL Adobe] プロファイルにアクセスします。
 
-1. 上部のメニューバーにある「**[!UICONTROL コミュニケーション]**」タブをクリックします。
+   ![Adobeアカウント](/help/c-intro/assets/adobe-account.png)
+
+1. 上部のメニューバーにある「 **[!UICONTROL 通知]** 」タブをクリックし、左側にある「 **[!UICONTROL 環境設定]** 」タブをクリックします。
 
    ![優先言語](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 1. 最初の言語（プライマリ）を選択し、必要に応じて二番目の言語を選択します。
 
-   [!DNL Target] UI は、以下の言語で利用できます。
+   この [!DNL Target] UIは次の言語で使用できます。ただし、通知は次の言語で利用できます。
 
    * 英語
    * スペイン語
@@ -68,7 +69,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## Target 製品ドキュメントの言語の変更 {#doc-lang}
 
-お使いのオペレーティングシステムやブラウザーの設定で、優先言語を検出し、その言語のドキュメント（使用できる場合）を表示する必要があります。Target ドキュメントは、自動的に翻訳され、英語ドキュメントの変更後数時間以内に英語バージョンと同期されます。
+お使いのオペレーティングシステムやブラウザーの設定で、優先言語を検出し、その言語のドキュメント（使用できる場合）を表示する必要があります。[!DNL Target] ドキュメントは、自動的に翻訳され、英語ドキュメントの変更後数時間以内に英語バージョンと同期されます。
 
 ページヘッダーのリンクをクリックすることで、言語を元の英語バージョンにすばやく変更できます。
 
