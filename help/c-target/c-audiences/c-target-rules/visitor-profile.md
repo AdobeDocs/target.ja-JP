@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Adobe Target でオーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
 title: 訪問者プロファイル
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * セッションの最初のページ
    * セッションの最初のページ以外
    * カテゴリ親和性
+
    訪問者プロファイルは、新しい `mboxPC` によって mbox 呼び出しごとにローカルエッジのメモリ内に作成されます。30 分間使用されない状態が続くと、プロファイルは Target データベースに保存され、他のエッジからアクセスできるようになります。
 
    サイト訪問者がセッション中にログインしてから取得すると、 `3rdpartyId` それらに関連付けられているすべての以前に読み込まれたプロファイル属性 `3rdPartyId` がすぐに使用可能になります。
@@ -39,7 +44,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：オーディエンスの概 ![要バッジの作成](/help/assets/overview.png)
+## トレーニングビデオ：オーディエンス ![概要バッジの作成](/help/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
