@@ -2,9 +2,10 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: Recommendations アクティビティを作成する前に知っておくべきこと。
 title: Recommendations の計画と実装
+feature: null
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 97%
@@ -12,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations {#plan-and-implement-recommendations}
+# ![プレミアム](/help/assets/premium.png) ・プランとRecommendationsの実施 {#plan-and-implement-recommendations}
 
 Recommendations アクティビティを作成する前に知っておくべきこと。
 
@@ -212,7 +213,7 @@ To access the [!UICONTROL Recommendations Settings] options, open [!DNL Target] 
 
 | 設定 | 説明 |
 |--- |--- |
-| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target} によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意： このオプションは、 [!DNL Target] 管理  ページで設定されます。 を開き [!DNL Target]、 [!UICONTROL 管理] / [!UICONTROL Visual Experience Composer]をクリックします。 |
+| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target} によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意：このオプションは、 [!DNL Target] 管理  ページで設定されます。 を開き [!DNL Target]、 [!UICONTROL 管理] / [!UICONTROL Visual Experience Composer]をクリックします。 |
 | 業種 | 業種は、レコメンデーション条件の分類に使用されます。これによって、買い物かごページやメディアページに最適な条件など、特定のページにふさわしい条件を見つけやすくなります。 |
 | 非互換の条件をフィルター | このオプションを選択すると、選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、このオプションのチェックを外します。<br>タグ管理ソリューションを使用している場合は、このオプションを無効にすることをお勧めします。<br>このオプションについて詳しくは、[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) を参照してください。 |
 | デフォルトホストグループ | デフォルトホストグループを選択します。<br>ホストグループを使用して、カタログの利用可能な項目をさまざまな用途に分割できます。例えば、ホストグループは開発環境と実稼動環境、さまざまなブランド、またはさまざまな地域に使用できます。デフォルトでは、カタログ検索、コレクションおよび除外のプレビュー結果はデフォルトのホストグループに基づいています。（環境フィルターを使用して、結果をプレビューする別のホストグループを選択することもできます）デフォルトでは、項目の作成または更新時に環境 ID が指定されている場合を除き、新しく追加された項目はすべてのホストグループで使用できます。配信される Recommendations は、リクエストで指定したホストグループによって異なります。<br>商品が表示されていない場合は、適切なホストグループが使用されていることを確認してください。例えば、ステージング環境を使用するようにレコメンデーションを設定し、ホストグループをステージングに設定した場合、商品を表示するために、ステージング環境のコレクションを再作成する必要がある可能性があります。各環境でどの商品が利用できるかを確認するには、各環境でカタログ検索を利用します。選択した環境（ホストグループ）の Recommendations コレクションと除外のコンテンツをプレビューすることもできます。<br>**注意：**選択した環境を変更した後、 「検索」をクリックして返された結果を更新する必要があります。<br>[!UICONTROL 環境]フィルターは[!DNL Target]UI の次の場所で利用できます。<ul><li>カタログ検索（[!UICONTROL Recommendations／カタログ検索）</li><li>「コレクションを作成」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「コレクションを更新」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「除外を作成」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「除外を更新」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul>詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。 |
