@@ -1,11 +1,15 @@
 ---
-keywords: visual experience composer のオプション; エクスペリエンスコンポーザーのオプション; エクスペリエンスのオプション; テキストの編集; html の編集; テキスト／html の編集; 背景色の編集; 背景色; 要素の挿入; リンクの編集; リンク; visual experience composer リンク; css クラスの編集; css クラス; オファーの置き換え; オファー置き換え; 画像の置き換え; 画像置き換え; 項目の削除; 項目削除; 項目の非表示; 項目を隠す; 再配置; 要素の移動; 要素移動; 要素のリサイズ; 要素リサイズ; 要素; 選択項目の拡張; このリンクへのナビゲーション; リンクのナビゲーション; リンクのナビゲート; 移動; リンク; 元に戻す; やり直し; 元に戻す／やり直し
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
 title: Adobe Target Visual Experience Composer（VEC）オプション
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 [!UICONTROL スタイル]パネルを使用すると、選択した要素の既存のスタイルの値を表示または編集できます。その他のスタイルを追加することもできます。
 
-[!UICONTROL スタイル]パネルにアクセスするには、VEC 内からページ要素をクリックし、**[!UICONTROL 編集]**／**[!UICONTROL スタイル]**&#x200B;をクリックします。
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 [!UICONTROL スタイル]パネルは VEC の右側に表示されます。このパネルには、編集または選択した要素に追加できるスタイルのリストが含まれています。リアルタイム CSS エディターを使用すると、カスケーディングスタイルシート（CSS）を使用している場合や開発者からコードを受け取った場合に、変更を表示したりスタイルを追加したりできます。
 
@@ -109,6 +113,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
    * 自動
    * 値（スライダーをドラッグして余白を設定するか、余白ごとにピクセル数を指定）
+
    余白は正と負の値をサポートします。
 
    Target では、rem、pc、em などの他のサイズ単位もサポートします。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
    * 境界線のスタイル（なし、非表示、点線、破線、実線、二重線）
    * 境界線の色（カラーコードを指定するか、カラーピッカーを使用）
    * 境界線の幅（スライダーをドラッグして境界線の幅を選択するか、幅をピクセル単位で指定）
+
    境界線は 0 以上の幅に対応します。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **位置**
 
-   選択した要素を現在の位置から移動します。You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   選択した要素を現在の位置から移動します。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    「[!UICONTROL 静的]」ドロップダウンリストをクリックして、次の位置オプションから選択します。
 
@@ -147,10 +153,12 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
    * 絶対
    * 固定
    * 固定
+
    各位置のドロップダウンアイコンをクリックして、次のオプションから選択します。
 
    * 自動
    * 値（スライダーをドラッグして要素の位置を設定するか、要素を移動するピクセル数を指定）
+
    位置は正と負の値をサポートします。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
