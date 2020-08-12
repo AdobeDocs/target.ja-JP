@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
 title: レポート設定
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +31,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 1. 必要に応じて、アクティビティのレポートを設定します。
 
-   指標、日付範囲、オーディエンス、詳細設定など、使用可能な設定を以下に示します。
+   指標、日付範囲、オーディエンス、詳細設定など、利用可能な設定について以下に説明します。
 
 1. 「**[!UICONTROL Target プリセット]**」の横の縦並びの省略記号／「**[!UICONTROL 新規として保存]**」をクリックします。
 
@@ -73,7 +77,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 1. 再度「**[!UICONTROL 削除]**」をクリックして、削除を確定します。
 
-### 事前設定エラー処理
+### プリセットエラー処理
 
 プリセットが無効になった場合は、レポート内のアラートやメッセージでそれが通知されます。アラートまたはメッセージでは、別のオーディエンス、指標、ホストグループ、またはエクスペリエンスを選択して有効なプリセットを作成するようにユーザーに指示します。
 
@@ -83,7 +87,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 * 1 つ（または複数）の指標が削除されましたが、プリセット定義で参照されています。例えば、1 つ以上の指標をアクティビティから削除した後、新しい指標を追加するような場合です。
 * 1 つ（または複数）のホストグループ（環境）が存在しませんが、プリセット定義で参照されています。
 * 1 つ（または複数）のエクスペリエンスがプリセットの作成後に削除されましたが、プリセット定義で参照されています。
-* 参照先のエンティティがまだ存在しているにもかかわらず更新され、プリセット定義が意味的に変わったので、プリセットが意味的に無効になります。例えば、最初「Revenue on Chrome」という名前のプリセットを作成したとしましょう。その後、売上高ではなくコンバージョン指標を測定するようにアクティビティを更新します。このアクティビティ定義の更新により、セマンティック上のプリセット定義が無効になります。
+* 参照先のエンティティがまだ存在しているにもかかわらず更新され、プリセット定義が意味的に変わったので、プリセットが意味的に無効になります。例えば、最初「Revenue on Chrome」という名前のプリセットを作成したとしましょう。その後、売上高ではなくコンバージョン指標を測定するようにアクティビティを更新します。アクティビティ定義を更新すると、プリセット定義がセマンティックに無効になります。
 
 ## レポート指標 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -155,14 +159,14 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ## 表示オプション
 
-アクティビティのタイプに応じて、様々な形式でレポートを表示できます。 目的のオプションを選択します。
+アクティビティのタイプに応じて、様々な形式でレポートの表示を行うことができます。 目的のオプションを選択します。
 
-![オプションアイコンの表示](/help/c-reports/c-report-settings/assets/view-options.png)
+![表示オプションアイコン](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **テーブルビュー**:レポートを表 **[!UICONTROL 形式で表示するには]** 、「表ビュー」アイコンをクリックします。
-* **グラフ表示**:レポートをグ **[!UICONTROL ラフとして表示するには]** 、グラフ表示アイコンをクリックします。
-* **自動セグメント**:(自動パーソナライゼーション(AP)および自動ターゲット(AT)アクティビティでのみ使用可能)「**自動セグメント[!UICONTROL 」アイコンをクリックして、自動セグメ] ントレポートを表示します [](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
-* **重要な属性**:(自動パーソナライゼーション(AP)および自動ターゲット(AT)アクティビティでのみ使用できます)。「**重要な属性[!UICONTROL 」アイコンをクリックして、重要な属] 性レポートを表示します [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+* **テーブル表示**:表の表示 **[!UICONTROL (]** 表)アイコンをクリックして、レポートを表として表示します。
+* **グラフ表示**:グラフ表示 **[!UICONTROL (]** Graph User)アイコンをクリックして、レポートをグラフとして表示します。
+* **自動セグメント**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティのみで使用可能) 「**[!UICONTROL 自動セグメント] 」アイコンをクリックして、 [自動セグメントレポートを表示します](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+* **重要な属性**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティでのみ使用可能) 「**[!UICONTROL 重要な属性] 」アイコンをクリックして、 [重要な属性レポートを表示します](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 
 ## 平均上昇率、上昇率範囲および信頼区間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -193,21 +197,21 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 （グラフ表示でレポートを表示している場合にのみ使用可能）
 
-「実行平均」は、（レポートウィンドウの開始時点からグラフに表示される日付までの）累積コンバージョンを累積訪問者数で割った値を反映します。
+「実行平均」は、(レポートウィンドウの開始から、グラフに表示される日付までの)累積コンバージョンを累積訪問者で割った値を反映します。
 
 目的のグラフ表示を選択します。
 
 * 現在の平均
 * 現在の平均上昇率
 * 毎日 コントロール
-* 日別ターゲット
+* 日別ターゲット設定
 * 日別上昇率（Daily Lift）
 
 ![レポート実行平均](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->このドロップダウンリストの名前は、選択したビューによって異なりますが、上記のビューの1つになります。
+>このドロップダウンリストの名前は、選択した表示によって異なりますが、上記の表示の1つになります。
 
 ## カウント手法 {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -235,17 +239,17 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 グラフがプロットされる順番は、デフォルトでは次のようになります。
 
-* **A/Bテスト（自動配分と自動パーソナライゼーションを含む）**:エクスペリエンスの作成順序（降順）。
-* **エクスペリエンスのターゲット設定(XT)**:アクティビティのエクスペリエンスの順序。
-* **多変量分析テスト(MVT)**:エクスペリエンス名のアルファベット順。
-* **推奨**:エクスペリエンスの作成順序（降順）。
+* **A/Bテスト(自動配分とAutomated Personalizationを含む)**:エクスペリエンス作成の順序（降順）。
+* **エクスペリエンスのターゲット設定(XT)**:アクティビティ内のエクスペリエンスの順序。
+* **多変量分析テスト(MVT)**:エクスペリエンス名のアルファベット順です。
+* **Recommendations**:エクスペリエンス作成の順序（降順）。
 
 カウント手法オプションを設定する際は、次の点に注意してください。
 
-* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 自動ターゲットアクティビティのみ、訪問者基準でプロットすることができません。
+* [自動ターゲットアクティビティの場合](/help/c-activities/auto-target-to-optimize.md)、カウント手法として「訪問者」を選択するオプションはありません。 自動ターゲットアクティビティのみ、訪問者基準でプロットすることができません。
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-## アクティビティに16を超えるエクスペリエンスを含むグラフの操作
+## アクティビティ内に16を超えるエクスペリエンスを持つグラフの操作
 
 エクスペリエンスが 16 個以下のアクティビティの場合は、それぞれのエクスペリエンスが違う色でグラフにプロットされます。
 
