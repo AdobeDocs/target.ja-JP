@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -20,7 +21,7 @@ ht-degree: 71%
 
 この問題は、次のIPアドレスを許可することで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者には、これらのIPアドレスを許可しておく必要はありません
 
-ITチームに次のIPアドレスを許可するように依頼します。
+ITチームに次のIPアドレスを許可リストするよう依頼します。
 
 | 地域 | IP アドレス | ホスト名 |
 |--- |--- |--- |
@@ -38,7 +39,7 @@ Target では次のエラーメッセージが表示される場合がありま�
 
 * **問題：** Web サイトのドメイン（ISP）によって拡張 Experience Composer がブロックされています。
 
-   **Remedy:** 上記のIPアドレスを許可します。
+   **Remedy:** 上記のIPアドレスの許可リスト。
 
 * **問題：** IPアドレスは許可されていますが、WebサイトではTLSバージョン1.2がサポートされていません。ターゲットは、デフォルトの設定である1.2を使用しています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定であるTLS 1.0を参照してください [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。.
 
