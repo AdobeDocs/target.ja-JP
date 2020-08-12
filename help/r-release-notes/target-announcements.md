@@ -2,9 +2,10 @@
 keywords: announcements;skill builder;developer chat;coffee break;events
 description: ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
 title: ターゲットのお知らせ
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
