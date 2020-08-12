@@ -1,9 +1,13 @@
 ---
-keywords: Recommendations；導入；導入；ウェビナー；デモ
+keywords: Recommendations;intro;introduction;webinar;demo
 description: 以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示する Adobe Target Recommendations のアクティビティの概要です。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Adobe Target での Recommendations アクティビティの概要
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **ゲーム**：ゲーム会社は、[!DNL Target] を使用して、コンソール上でユーザーに対してゲームおよびコンテンツをレコメンデーションします。
 * **B2B セールス**：[B2B 企業は Target を使用して、ビデオ、ホワイトペーパーおよびブログ投稿を B2B 見込み客にレコメンデーションし、ダウンロードを配信して、既存のお客様に支援を提供します](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**:ドイツ [人の旅行予約者は、Targetを使用してホテルなどを旅行者に勧めます](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅行**: [ドイツ人の旅行ブッカーはターゲットを使ってホテルや旅行者に多くの人を勧める](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
 * **小売**：[業界をリードする BB 小売業者は、Target を使用して、ブラウザーおよびモバイルアプリの再訪問者に対してトップカテゴリおよび製品をレコメンデーションします](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 
