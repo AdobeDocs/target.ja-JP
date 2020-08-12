@@ -2,9 +2,10 @@
 keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
 title: mbox.js を設定
+feature: null
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 91%
@@ -32,7 +33,7 @@ When viewing [!UICONTROL Administration > Implementation], the Client at the top
 
 Target リクエストのタイムアウト。
 
-[!UICONTROL 管理/実装を表示する場合]、「タイムアウト（秒）」設定はTargetリクエストのタイムアウトになります。 デフォルトでこの値は 15 秒に設定されますが、2～5 秒の間に設定することをお勧めします。
+[!UICONTROL 管理/実装を表示する場合]、「タイムアウト（秒）」設定はターゲットリクエストのタイムアウトになります。 デフォルトでこの値は 15 秒に設定されますが、2～5 秒の間に設定することをお勧めします。
 
 ## XDomain
 
