@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
 title: ユーザー管理
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -24,10 +25,11 @@ Information about managing users in [!DNL Target] Standard and managing enterpri
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **ターゲット標準のお客様：** 組織に [!DNL Target] Standardライセンスがある場合、 [!DNL Target] UIで次の点に注目します。
+* **Target Standardのお客様：** 組織に [!DNL Target] Standardライセンスがある場合、 [!DNL Target] UIで次の点に注目します。
 
    * 「 [!UICONTROL ユーザー] 」タブが表示されます( [!UICONTROL 管理] / [!UICONTROL ユーザー] )。
    * 「 *プロパティ* 」タブ(管理/プ [!UICONTROL ロパティ)は表示されま] せん  。
+
    [!DNL Target] Standard のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
 
 * **ターゲットプレミアムのお客様：** 組織に [!DNL Target] Premiumライセンスがある場合は、ターゲットUIで次の点に注意してください。
