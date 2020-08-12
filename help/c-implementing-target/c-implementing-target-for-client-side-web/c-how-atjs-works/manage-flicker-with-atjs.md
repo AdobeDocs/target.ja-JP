@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
 title: Adobe Target の at.js によるちらつきの制御方法
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +36,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 ![Target フロー： at.js ページ読み込みリクエスト](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -44,9 +48,9 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 事前に非表示になっていて、対象の HTML 要素が [!DNL Target] によってパーソナライズされてから表示されるスニペットを使用することで、ちらつきを防げます。
 
-at.jsは、ページに直接埋め込むか、タグマネージャー(Adobe Launch、Dynamic Tag Manager(DTM)など)を介して、非同期で読み込むことができます。
+at.jsは、直接ページに埋め込むか、タグマネージャー(Adobeの起動、Dynamic Tag Manager(DTM)など)を介して、非同期で読み込むことができます。
 
-at.jsがページに埋め込まれている場合は、at.jsを読み込む前にスニペットを追加する必要があります。 タグマネージャーを介してat.jsを読み込み、同時に非同期で読み込む場合は、タグマネージャーを読み込む前にスニペットを追加する必要があります。 タグマネージャーが同期的に読み込まれる場合、at.jsの前にタグマネージャーにスクリプトが含まれる可能性があります。
+at.jsがページに埋め込まれている場合は、at.jsを読み込む前にスニペットを追加する必要があります。 タグマネージャーを介してat.jsを読み込む場合は、タグマネージャーを読み込む前に、スニペットを追加する必要があります。 タグマネージャーが同期的に読み込まれる場合、at.jsの前にスクリプトがタグマネージャーに含まれる可能性があります。
 
 事前に非表示になるコードスニペットの例を次に示します。
 
@@ -104,7 +108,7 @@ at.jsがページに埋め込まれている場合は、at.jsを読み込む前�
 body {opacity: 0 !important}
 ```
 
-## triggerView()のat.js 2.xでのちらつきを管理
+## triggerView()のat.js 2.xでちらつきを管理
 
 SPA でターゲットとなるコンテンツを表示するために `triggerView()` を使用する場合、ちらつき制御が初期設定で提供されます。つまり、事前に非表示にするロジックを手動で追加する必要はありません。代わりに、at.js 2.x では、ターゲットとなるコンテンツを適用する前にビューの表示が必要になる場所を事前に非表示にします。
 
