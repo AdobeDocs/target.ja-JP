@@ -1,10 +1,14 @@
 ---
-keywords: 動的データ、アセット、データ、オファー、パーソナライズオファー、パーソナルオファー、トークン置換
+keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: HTML オファーまたは JSON オファーに、プロファイル値やキャンペーン情報を直接表示することができます。
 title: 動的データをオファーに渡す
+feature: null
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +58,7 @@ Recommendations のデザインについては、[デザインの概要](/help/c
 
 `${user.parameter}`
 
-Recommendations のデザインで動的属性を使用する場合、動的値を正しくレンダリングするには、`\${user.endpoint.lastViewedEntity}` のようにドル記号（'$'）の前にバックスラッシュ（'\'）を挿入する必要があります。
+Recommendations のデザインで動的属性を使用する場合、動的値を正しくレンダリングするには、`\${user.endpoint.lastViewedEntity}` のようにドル記号（&#39;$&#39;）の前にバックスラッシュ（&#39;\&#39;）を挿入する必要があります。
 
 これらの変数はサーバー側の値で置き換えられるので、引用符やその他の JavaScript がなくても正しく表示されます。
 
