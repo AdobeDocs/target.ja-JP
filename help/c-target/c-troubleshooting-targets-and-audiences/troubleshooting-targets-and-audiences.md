@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 title: ターゲットとオーディエンスに関する FAQ
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 
-## Targetはターゲット設定でURLをどのように評価しますか。 {#url}
+## ターゲットはターゲット設定でURLをどのように評価しますか。 {#url}
 
-Targetでは、アクティビティの作成時にオーディエンスURLターゲット設定を使用するか、オーディエンスの作成時にURLターゲット設定を使用するかによって、URLの評価が異なります。
+ターゲットがURLの評価を行う方法は、アクティビティの作成時にオーディエンスURLターゲット設定を使用しているか、オーディエンスの作成時にURLターゲット設定を使用しているかによって異なります。
 
-次のURLを考慮してください。
+次のURLについて考えてみましょう。
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
@@ -28,7 +32,7 @@ Targetでは、アクティビティの作成時にオーディエンスURLタ�
 
 ![ページ配信URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-オーディエンスURLのターゲット設定では、URLの完全一致を探します。 URLが一致する場合、Targetではそれ以上のロジックは考慮されません。 上記のURLでは、アクティビティが起動するように設定されている場合、オーディエンスURLのターゲ `www.example.com`ット設定はクエリに依存しないので、URLは次のURLと一致します。
+オーディエンスURLのターゲット設定では、完全に一致するURLを探します。 URLが一致する場合、ターゲットはそれ以上のロジックを考慮しません。 上記のURLでは、アクティビティが起動するように設定されている場合、オーディエンスURLのターゲット設定はクエリに依存しないので、URLは次のURLと一致します。 `www.example.com`
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -36,20 +40,20 @@ Targetでは、アクティビティの作成時にオーディエンスURLタ�
 
 URLに対するオーディエンスのターゲット設定以外に、クエリに含めることのできる特定の値を指定することもできます。
 
-### URLターゲット設定
+### URLのターゲット設定
 
-URLターゲティングを適用するには、オーディエンスの作成時に、「ルールを追加」をクリックし、「サイトページ」をクリックし、最初のドロップダウンリストからオプションを選択し（現在のページ、前のページまたはランディングページ）、2番目のドロップダウンリストからURLを選択し、評価基準を指定します。
+URLターゲット設定を適用するには、オーディエンスの作成時に「ルール」をクリックし、「サイトページ」をクリックします。次に、最初のドロップダウンリスト(現在のページ、前のページまたはランディングページ)からオプションを選択し、2番目のドロップダウンリストからURLを選択して、評価基準を指定し、目的のURLを指定します。
 
 ![サイトページ/現在のページ/URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URLターゲット設定は、URLを評価する一連のルールに変換します。
+URLのターゲット設定は、URLを評価対象の一連のルールに変換します。
 
 * URLドメイン= `example.com`
-* パス=パス1/パス2/パス3
+* Path = path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 複雑なURL文字列を作成する場合、はURL [!DNL Target] 全体を評価しますか。
+## 複雑なURL文字列を作成する場合、URL全体が [!DNL Target] 評価されますか。
 
 URL文字列で同じパラメータ名を複数回使用する場合、HTTPは最初のパラメータ名を考慮し、同じ名前の後続のパラメータを無視します。
 
@@ -57,7 +61,7 @@ URL文字列で同じパラメータ名を複数回使用する場合、HTTPは�
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-パラメーターの最初のインス `Category` タンスが評価され、2番目のパラメーター `Category` は無視されます。
+パラメーターの最初のインスタンス `Category` が評価され、2番目の `Category` パラメーターは無視されます。
 
 次に示すように、1つのカテゴリに複数の値を関連付けることをお勧めします。
 
@@ -83,7 +87,7 @@ URL文字列で同じパラメータ名を複数回使用する場合、HTTPは�
 
 ## Target、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスライブラリに異なる名前を付けるのはなぜですか。{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-[!DNL Target] で名前を付けられたオーディエンスは一意ですが、[!DNL AAM] および [!DNL Audience Library] では、複数のオーディエンスに同じ名前を付けることができます（異なるフォルダーにある場合）。[!DNL AAM] または [!DNL Audience Library] のオーディエンスに対応するオーディエンス名が [!DNL Target] で検出された場合、[!DNL Target] はその名前に「#&lt;number&gt;」を追加します。
+[!DNL Target] で名前を付けられたオーディエンスは一意ですが、[!DNL AAM] および [!DNL Audience Library] では、複数のオーディエンスに同じ名前を付けることができます（異なるフォルダーにある場合）。[!DNL AAM] または [!DNL Audience Library] のオーディエンスに対応するオーディエンス名が [!DNL Target] で検出された場合、[!DNL Target] はその名前に「#&lt;number>」を追加します。
 
 例えば、「PC Users」（[!DNL AAM]）および「PC Users #1」（[!DNL Target]）というオーディエンスが表示されることがあります。
 
@@ -123,4 +127,4 @@ URL文字列で同じパラメータ名を複数回使用する場合、HTTPは�
 
 例：
 
-"4e-2"は"4e-2"にのみ等しくなります。"0.04" と等しく&#x200B;*なりません*。
+&quot;4e-2&quot;は&quot;4e-2&quot;にのみ等しくなります。&quot;0.04&quot; と等しく&#x200B;*なりません*。
