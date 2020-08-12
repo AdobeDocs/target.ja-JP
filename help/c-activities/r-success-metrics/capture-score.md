@@ -1,12 +1,13 @@
 ---
 keywords: capture score;score
-description: スコアキャプチャのエンゲージメント指標では、訪問者がキャンペーンの最初の表示Targetリクエストを最初に見た時点から、サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算します。
+description: スコアキャプチャのエンゲージメント指標では、訪問者がキャンペーンの最初の表示ターゲットリクエストを最初に見た時点から、サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算します。
 title: スコアキャプチャ
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -40,7 +41,7 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
    例：`('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. ページ上の複数のリクエストにスコア値が含まれる場合、そのページのスコアはすべてのリクエスト値の合計になります。 `mboxPageValue` は、エンゲージメントスコアを取り込むためにTargetリクエストに値を渡すために予約されたパラメーターです。 正の値も負の値も渡される可能性があります。各訪問者の訪問の最後に合計が計算され、その訪問の合計スコアが算出されます。
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. ページ上の複数のリクエストにスコア値が含まれる場合、そのページのスコアはすべてのリクエスト値の合計になります。 `mboxPageValue` は、エンゲージメントスコアを取り込むためにターゲットリクエストに値を渡すために予約されたパラメーターです。 正の値も負の値も渡される可能性があります。各訪問者の訪問の最後に合計が計算され、その訪問の合計スコアが算出されます。
 
 * ページの URL で `?mboxPageValue=n` パラメーターを渡します。
 
@@ -50,7 +51,7 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
 >[!NOTE]
 >
->アクティビティの最初の表示 [!DNL Target] 要求の上にあるTarget要求は、スコアに含まれません。
+>アクティビティの最初の表示 [!DNL Target] 要求の上にあるターゲット要求は、スコアに含まれません。
 
 Best practice is to assign values in the [!DNL Target] request. これにより、各リクエストの内容に応じて、測定する値を正確に指定できます。
 
