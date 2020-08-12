@@ -1,10 +1,14 @@
 ---
-keywords: visual experience composer の制限;ブラウザーサポート;統合;プラグイン;非同期の考慮事項
+keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: at.js と mbox.js にはいくつかの違いがあります。このセクションでは、at.js で成功するために役立つ、いくつかの違いと制限を取り上げます。
 title: at.js の制限
+feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
