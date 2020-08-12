@@ -1,38 +1,42 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: サイトの特定のページを閲覧している訪問者をターゲットに設定できます。
-title: Adobe targetのサイトページ
+description: サイトの特定のページにいるターゲット訪問者を訪問できます。
+title: Adobe Targetのサイトページ
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 44%
 
 ---
 
 
 # サイトのページ{#site-pages}
 
-サイトの特定のページを閲覧している訪問者をターゲットに設定できます。
+サイトの特定のページにいるターゲット訪問者を訪問できます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL &#x200B;オーディエンスを作成]**をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. **[!UICONTROL ルールを追加]**／**[!UICONTROL &#x200B;サイトページ]**をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL サイトページ]**&#x200B;をクリックします。
 
    ![サイトページオーディエンス](assets/target_site_pages.png)
 
-1. 「選択」ドロ **[!UICONTROL ップダウンリスト]**をクリックし、次のオプションのいずれかを選択して、必要に応じてルールを設定します。
+1. 「 **[!UICONTROL 選択]** 」ドロップダウンリストをクリックし、次のオプションのいずれかを選択して、必要に応じてルールを設定します。
 
-   ルール内の後続のドロップダウンリストで使用できるオプションと評価演算子は、選択するオプションによって異なります。 次の図は、「現在のページ」を選択した場合に使用できるオプシ [!UICONTROL ョンを示します]。
+   ルール内の後続のドロップダウンリストで使用できるオプションと評価演算子は、選択したオプションによって異なります。 次の図に、「 [!UICONTROL 現在のページ」を選択した場合に使用できるオプションを示します]。
 
    ![現在のページ](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   「選択」を選択した場合は、初期ドロップダウンリストで以下のオプションを使用で [!UICONTROL きます]。
+   「 [!UICONTROL 選択」を選択した場合は、初期ドロップダウンリストで次のオプションを使用でき]ます。
 
-   * **** 現在のページ：ユーザーが現在閲覧しているページ。
+   * **現在のページ：** ユーザーが現在閲覧しているページ。
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
-      * URL(TargetがURLを評価する方法について詳しくは、ターゲットとオーディエ [ンスに関するFAQを参照してください](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL(ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
       * ドメイン
       * クエリ
       * サブドメイン
@@ -43,7 +47,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
-      * URL(TargetがURLを評価する方法について詳しくは、ターゲットとオーディエ [ンスに関するFAQを参照してください](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL(ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
       * ドメイン
       * クエリ
       * サブドメイン
@@ -53,18 +57,19 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
-      * URL(TargetがURLを評価する方法について詳しくは、ターゲットとオーディエ [ンスに関するFAQを参照してください](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+      * URL(ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
       * ドメイン
       * クエリ
       * サブドメイン
       * トップレベルドメイン
       * パス
       * ハッシュ（#）フラグメント
+
       >[!NOTE]
       >
       >`landing.url` サブドメインの変更またはダイレクトURLの置換時にオブジェクトがリセットされます。
 
-   * **** HTTPヘッダー：このオプションは、TargetリクエストのHTTPヘッダーの情報を評価します。 例えば、HTTPヘッダーに言語情報が含まれる場合、スペイン語でページにアクセスする訪問者をターゲットにす `Accept-Language: es` る条件を含むルールを作成できます。
+   * **HTTPヘッダー：** このオプションは、ターゲット要求のHTTPヘッダー内の情報を評価します。 例えば、HTTPヘッダーに言語情報が含まれる場合、スペイン語でページにアクセスするターゲット訪問者に対する `Accept-Language: es` 条件を含むルールを作成できます。
 
       このオプションを選択した場合は、2番目のドロップダウンリストで次のオプションを使用できます。
 
@@ -82,7 +87,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * 期待する
       * 送信元
       * ホスト
-      * If-Match
+      * 一致する場合
       * If-Modified-Since
       * If-None-Match
       * if-Range
@@ -97,7 +102,8 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * User-Agent
       * 経由
       * 警告
-   [現在のページ]、[前のページ 、または[ランディングページ]]を選択した場合は [!UICONTROL 、[ドメイン]と[クエリ] ]オプションが使用可能になります。 これらのオプションを選択する際は、以下の点を考慮してください。
+
+   「現在のページ [!UICONTROL 」、「]前のページ [!UICONTROL 」]、または「ランディングページ [!UICONTROL 」を選択した場合は、「ドメインクエリ]」および「ドメインドメイン」オプションが使用  可能です。 これらのオプションを選択する際は、次の点を考慮してください。
 
    * **ドメイン：**&#x200B;ページの完全ドメイン。ドメインを指定する際には、ベストプラクティスとして、「次を含む」を使用することが推奨されます。例えば、「ドメインがfacebook.comに等しい」は受け入れ `m.facebook.com` られ `www.facebook.com` ません。「facebook.com を含むドメイン」では、facebook.com のあらゆるバリエーションが含まれます。
    * **クエリ：**&#x200B;最初の疑問符（?）後の URL のコンテンツ。
@@ -124,17 +130,17 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ## トラブルシューティング {#ts}
 
-* ランディングページのオーディエンスが正しく機能するには、at.js javaScriptライブラリが属性を使用してページから取得するパラメーターが、リクエストに設定されている(Delivery API用の `mboxReferrer` )必要があ `context.address.referringUrl``document.referrer` ります。 この属 `HTMLDocument` 性は、ユーザーが移動元のページのURIを返します。 この属性の値は、ユーザーがページに直接（リンクを介さずに、ブックマークを介して）移動した場合に空の文字列になります。
+* ランディングページオーディエンスが正しく機能するためには、at.js JavaScriptライブラリが `mboxReferrer` 属性を使用してページから取得するパラメーターセット(配信APIの `context.address.referringUrl``document.referrer` パラメーター)がリクエストに含まれている必要があります。 この `HTMLDocument` 属性は、ユーザーがナビゲーションしたページのURIを返します。 この属性の値は、ユーザーがページに直接移動したとき（リンクを介さずに、ブックマークを介して移動した場合など）に空の文字列になります。
 
    この動作が要件を満たさない場合は、次のいずれかの操作を行うことを検討してください。
 
-   * ターゲット [設定の目的で使用](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)[!DNL Target] するmboxパラメーターを渡します。
-   * ランディングペ [ージアクティビティの代わりに](/help/c-activities/t-test-ab/test-ab.md) 、A/B testアクティビティを使用します。 A/Bテストアクティビティでは、同じ訪問者のエクスペリエンスは切り替わりません。
-   * 代わりに、訪問者プ [ロファイルを使用](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
+   * ターゲット設定の目的で使用する [mboxパラメーター](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)[!DNL Target] を渡します。
+   * ランディングページアクティビティの [代わりに](/help/c-activities/t-test-ab/test-ab.md) 、A/Bテストアクティビティを使用します。 A/Bテストアクティビティは、同じ訪問者のエクスペリエンスを切り替えません。
+   * 代わりに、 [訪問者プロファイルを使用します](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
-* コンマを含む文字列で「次で始まる/次で終わる」評価演算子を使用する場合、これらの評価は値の配列として行われ、コンマで区切られた各値が評価されることに注意してください。 例えば、ヘッダーの値がある場合：次のよ `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` うな条件を満たします。
-   * zhで始まる
-   * enで始まる
+* コンマを含む文字列で「開始/次で終わる」評価演算子を使用する場合、これらの評価は値の配列として行われ、コンマで区切られた各値が評価されることに注意してください。 例えば、ヘッダーの値がある場合： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 次のような条件を満たします。
+   * zhの開始、
+   * enの開始
    * 0.7で終わる
    * 0.8で終わります。
 
