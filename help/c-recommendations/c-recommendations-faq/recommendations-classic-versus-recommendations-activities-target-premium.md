@@ -1,10 +1,14 @@
 ---
-keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
+keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
 title: Recommendations Classic と Target Premium の Recommendations アクティビティ
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 100%
 
 ---
 
