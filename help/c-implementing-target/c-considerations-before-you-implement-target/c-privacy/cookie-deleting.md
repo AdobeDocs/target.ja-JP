@@ -1,10 +1,11 @@
 ---
 description: すべてのエクスペリエンスを検証できるようにするには、ブラウザーの Target の Cookie を削除します。
 title: Adobe TargetCookieの削除
+feature: null
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
