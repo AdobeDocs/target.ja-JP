@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
-title: Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
+description: Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
+title: Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズしたり、ページデザインをテストしたりできます。
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 97%
 
 ---
 
 
 # アクティビティ{#activities}
 
-Adobe targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
+Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズしたり、ページデザインをテストしたりできます。
 
 例えば、夏用の婦人靴の情報をハイライトするランディングページと夏用の一般衣料をハイライトする別のランディングページの 2 つをテストするアクティビティを作成できます。アクティビティによって、これらの各ランディングページをいつ表示するかを制御する条件や、成功度の高いページを判断する指標を定義できます。アクティビティは、特定の条件が満たされたときに開始および終了するよう設定できます。例えば、具体的な日付の範囲による期間の設定や、アクティビティが承認されたときに開始し非アクティブになったときに終了する設定ができます。
 
@@ -168,7 +172,7 @@ Visual Experience Composer の追加の制限事項については、[Visual Exp
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03） 概 ![要バッジ](/help/assets/overview.png)
+### アクティビティのタイプ（9:03） ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
 
@@ -178,7 +182,7 @@ Visual Experience Composer の追加の制限事項については、[Visual Exp
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### アクティビティの管理(5:55)概要 ![バッジ](/help/assets/overview.png)
+### アクティビティの管理(5:55) ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、アクティビティリストを使用してアクティビティを管理する方法を説明します。
 
