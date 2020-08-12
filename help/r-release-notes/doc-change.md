@@ -5,9 +5,9 @@ title: Adobe Target 製品ドキュメントの変更
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1850'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月12日 | [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md) | 新規トピックです。 |
 | 8月10日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAMEを使用する場合にcookieヘッダーのサイズが増えることを示すテキストを追加しました。 |
 |  | [ターゲットとAdobe Audience Managerの統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新規トピックです。 |
 |  | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のアーカイブされたウェビナーの表示へのリンクを追加しました。「HSBCは、Adobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化および提供する方法」 |
