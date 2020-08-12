@@ -2,10 +2,14 @@
 keywords: order confirmation;orderConfirmPage
 description: 注文の確認 mbox では、サイトでの注文に関する詳細が記録され、売上高および注文に基づくレポートが可能になります。また、注文の確認 mbox は、「商品 x および商品 y を購入した人」などのレコメンデーションアルゴリズムを駆動できます。
 title: 注文の確認 mbox の作成 - mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 85%
 
 ---
 
@@ -19,10 +23,10 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 >* ユーザーが Web サイトで買い物をする場合、レポートに Analytics for Target（A4T）を使用している場合でも、注文の確認 mbox を実装することをお勧めします。
    >
    >
-* at.js 1用に注文の確認mboxを作成することもできます。*x同じ* 方法を用いる。ただし、この方法 [!DNL at.js] をお勧めします。 詳細については、「[コンバージョンの追跡](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)」を参照してください。
+* at.js 1用に注文の確認mboxを作成することもできます。*x* （同じ方法を用いる）ただし、この [!DNL at.js] 方法をお勧めします。 詳細については、「[コンバージョンの追跡](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)」を参照してください。
    >
    >
-* at.js 2を使用している場合。*x*、はサ `mboxCreate` ポートされなくなりました。 at.js 2を使用した注文確認。*xの場合*、次のトラッキング関連APIを使用します。trackEvent() [と](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) sendNotifications() [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+* at.js 2を使用している場合。*x*、 `mboxCreate` はサポートされなくなりました。 at.js 2を使用した注文確認。*x*、次のトラッキング関連APIを使用します。 [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) および [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
 
 
 1. 注文の詳細ページで、以下のモデルに示す mbox スクリプトを挿入します。
