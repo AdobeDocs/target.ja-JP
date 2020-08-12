@@ -2,9 +2,10 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: Adobe Targetでは、成功指標はアクティビティの成功を測定するために使用されるパラメーターです。 成功指標には、Target アクティビティの特定のエクスペリエンスやオファーの成功を判定できる、主要なビジネス測定が含まれます。
 title: Adobe Targetの成功指標
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 52%
@@ -28,7 +29,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->[Analyticsをレポートソースとして使用するアクティビティ(A4T)のデフォルトの動作は、「カウントを](/help/c-integrating-target-with-mac/a4t/a4t.md) 増分、アクティビティ内にユーザーを保持[!UICONTROL 」で、「参加者あたり]1回」です。
+>レポートソースとして [Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は](/help/c-integrating-target-with-mac/a4t/a4t.md) 、「カウントを[!UICONTROL 増分、ユーザーをアクティビティ内に保持」です(「参加者あたり]1回」)。
 
 以下の成功指標を使用できます。
 
@@ -40,7 +41,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 | カスタムスコア | エンゲージメントベース | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 | サイト滞在時間 | エンゲージメントベース | Time spent in the visit (in seconds) from the point the visitor sees the activity&#39;s first display [!DNL Target] request to the load of the final page with a request in the session. |
 
-エンゲージメントベースの指標の場合は（コンバージョンベースおよび売上高ベースの指標とは異なり）、訪問者はそのセッションのカウントをインクリメントするために、訪問ごとにアクティビティを再評価する必要があります。関連付けられた指標は、再評価の後にインクリメントが開始され、各訪問者のセッションの終わりでインクリメントが停止します。30 分間無操作状態が続くと、そのセッションは終了します。したがって、テスト中にすぐに結果が表示されることはありません。 ただし、そのセッションの結果は、セッションの終了から数分以内にすべて利用できます。
+エンゲージメントベースの指標の場合は（コンバージョンベースおよび売上高ベースの指標とは異なり）、訪問者はそのセッションのカウントをインクリメントするために、訪問ごとにアクティビティを再評価する必要があります。関連付けられた指標は、再評価の後にインクリメントが開始され、各訪問者のセッションの終わりでインクリメントが停止します。30 分間無操作状態が続くと、そのセッションは終了します。したがって、テスト中にすぐに結果が表示されることはありません。ただし、そのセッションの結果は、セッションの終了から数分以内にすべて利用できます。
 
 ## カスタム成功指標
 
