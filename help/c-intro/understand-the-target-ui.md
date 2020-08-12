@@ -2,10 +2,11 @@
 keywords: target user interface;user interface;ui
 description: Adobe Targetのユーザーインターフェイスについて
 title: ターゲットのUIについて
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8102b0322466e8cfb0a158b1ccb3f74e25d54cc1
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
