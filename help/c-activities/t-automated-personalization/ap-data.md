@@ -2,9 +2,10 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
 title: Adobe Target のパーソナライゼーションアルゴリズムのデータ収集
+feature: null
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -27,7 +28,7 @@ Target のパーソナライゼーションアルゴリズムについて詳し�
 | Experience Cloud セグメント | Audience Manager または Analytics で作成したオーディエンスおよび Experience Cloud の共有アクセス | `Custom - Experience Cloud Audience - [Audience Name]` | カスタムデータ |
 | [地理データ](#geo) | 訪問者の所在地に関する情報。<br>後述の「地理データ」を参照。 | `Geo - [geo attribute]` | 市町村<br>国<br>地域／州<br>郵便番号<br>緯度<br>経度<br>ISP または携帯電話会社 |
 | プロファイル属性 | 更新 API を使用して Target プロファイルに直接アップロードされるプロファイルスクリプトまたは属性 | `Custom - Visitor Profile - [attribute name]` | カスタムデータ |
-| 参照 URL パラメーター | 一般に、参照URLは、Target呼び出しを開始した特定のページを参照したURLです。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
+| 参照 URL パラメーター | 一般に、参照URLは、ターゲット呼び出しを開始した特定のページを参照したURLです。<br>この変数は、サイトでのユーザーの行動と、サイトの技術的実装の影響を受ける場合があります。 | `Custom - [Referring URL Parameter] - [Parameter value]` | カスタムデータ |
 | レポートするセグメント | アクティビティ設定で設定したセグメント | `Reporting Segment -[Segment Name]` | カスタムデータ |
 | [セッションデータ](#session) | アクティビティへのアクセス時のセッションでの訪問者の行動に関する情報。 | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | URL パラメーター | Target では、URL を解析して URL パラメーターを抽出します。 | `Custom - URL Parameter - [URL Parameter]` | カスタムデータ |
