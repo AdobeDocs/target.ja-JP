@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 自動ターゲット
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -234,7 +235,7 @@ The length of time it takes for models to build in your [!UICONTROL Auto-Target]
 
 ### 自動ターゲットアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。
 
-[!UICONTROL 自動ターゲット] アクティビティで「レポートデータを [!UICONTROL リセット] 」オプションを使用することは推奨されません。 表示されるレポートデータは削除されますが、このオプションでは、 [!UICONTROL 自動ターゲット] モデルからすべてのトレーニングレコードが削除されるわけではありません。 自動ターゲット [!UICONTROL アクティビティで「レポートデータを] リセット  」オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 (注意： このガイダンスは、 [!UICONTROL 自動配分] 、 [!UICONTROL Automated Personalization] アクティビティにも当てはまります。)
+[!UICONTROL 自動ターゲット] アクティビティで「レポートデータを [!UICONTROL リセット] 」オプションを使用することは推奨されません。 表示されるレポートデータは削除されますが、このオプションでは、 [!UICONTROL 自動ターゲット] モデルからすべてのトレーニングレコードが削除されるわけではありません。 自動ターゲット [!UICONTROL アクティビティで「レポートデータを] リセット  」オプションを使用する代わりに、新しいアクティビティを作成し、元のアクティビティを非アクティブにします。 (注意：このガイダンスは、 [!UICONTROL 自動配分] 、 [!UICONTROL Automated Personalization] アクティビティにも当てはまります。)
 
 ## [!UICONTROL 自動ターゲットのトラブルシューティング] {#section_23995AB813F24525AF294D20A20875C8}
 
