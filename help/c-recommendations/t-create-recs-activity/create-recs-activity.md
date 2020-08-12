@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 title: Recommendations アクティビティの作成
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    * 検索結果ページ
    * 「ありがとうございます」ページ
    * その他
+
    ![「ページタイプを選択」オプション](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. 1 つ以上の[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択します。
@@ -165,6 +170,6 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
