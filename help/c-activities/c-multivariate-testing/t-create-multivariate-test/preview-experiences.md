@@ -1,10 +1,14 @@
 ---
 description: 多変量分析テストでは、ページ上で複数のエクスペリエンスが比較されるので、各エクスペリエンスについてページをプレビューすることをお勧めします。
 title: 多変量分析テストのエクスペリエンスのプレビュー
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    多変量分析テストには、デフォルトで、すべてのエクスペリエンスが組み込まれます。除外したエクスペリエンスを組み込むには、除外したエクスペリエンスを選択して、「**[!UICONTROL 含める]**」をクリックします。
 
-「**[!UICONTROL プレビューモードを終了]**」をクリックして Experience Composer に戻り、必要な変更をおこなうか、または「**続行[!UICONTROL 」をクリックしてテスト概要に移動します。]**
+「**[!UICONTROL プレビューモードを終了]**」をクリックして Experience Composer に戻り、必要な変更をおこなうか、または「**[!UICONTROL 続行」をクリックしてテスト概要に移動します。]**
 
