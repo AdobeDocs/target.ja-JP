@@ -2,10 +2,14 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 title: プロファイルと変数の用語集
+feature: null
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +45,7 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
-| profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、プロファイル.get(&#39;param_name&#39;)メソッドです。 |
+| profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメータを取得する正しい方法は、プロファイル.get(&#39;param_name&#39;)メソッドです。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
@@ -90,4 +94,4 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 顧客属性は、プロファイルスクリプトで参照でき、形式 `crs.get('<Datasource Name>.<Attribute name>')`　設定されています。
 
-この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。内のスペースは、API呼び出し `datasourceName` から削除される必要があります。
+この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。内のスペースは、API呼び出しから削除 `datasourceName` する必要があります。
