@@ -2,9 +2,13 @@
 keywords: Targeting;target library;library
 description: 事前設計されたターゲットルールに基づいてユーザーをターゲット設定します。
 title: ターゲットライブラリ
+feature: null
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
