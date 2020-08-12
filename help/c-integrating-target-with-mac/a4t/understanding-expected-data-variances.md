@@ -1,11 +1,15 @@
 ---
-keywords: データ相違;analytics;差異;相違;A4T;analytics for target;レポートソースとしての analytics;差違;不整合
+keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Analytics をレポートソースとして使用しない場合に予期される Target と Adobe Analytics のデータの相違に関する情報（Analytics をレポートソースとして使用すると（A4T）データの相違はなくなります）。
 title: A4T を利用しない場合に予期されるデータの相違
+feature: null
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 100%
 
 ---
 
