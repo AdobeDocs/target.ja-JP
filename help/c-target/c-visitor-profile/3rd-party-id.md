@@ -1,11 +1,15 @@
 ---
-keywords: mbox;mbox3rdPartyId;プロファイル同期;PCID
+keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: 'リアルタイムプロファイルについて説明します。 '
 title: Adobe Target での mbox3rdPartyId のリアルタイムプロファイル同期
+feature: null
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
@@ -31,11 +35,11 @@ mbox3rdPartyId は、会社のロイヤルティプログラムのメンバー�
 
 >[!NOTE]
 >
->認証済み（ログイン済み）ユーザーと非認証ユーザーを区別する場合は、mbox3rdPartyIDの代わりにAdobe Experience Cloud Identity Service(ECID)を使用します。 ユーザーがmbox3rdPartyIDに関連付けられた後、ログアウト後もそのユーザーとの関連付けは維持されます。
+>認証済み（ログイン済み）ユーザーと非認証ユーザーを区別する場合は、mbox3rdPartyIDではなく、Adobe Experience CloudIDサービス(ECID)を使用します。 ユーザーがmbox3rdPartyIDに関連付けられた後は、サインアウト後もユーザーとの関連付けは維持されます。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] プロファイルがmbox3rdPartyIdに基づいて結合され、アクティビティ情報がまだある場合でも、 [!DNL Adobe Experience Cloud] ID(EDID)が変更される場合（例えば、訪問者がデバイスを変更する場合）、目標は追跡され [!DNL Target] ません。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] mbox3rdPartyIdに基づいてプロファイルが結合され、引き続きアクティビティ情報が存在する場合でも、 [!DNL Adobe Experience Cloud][!DNL Target] ID(EDID)が変更される場合(例えば、訪問者がデバイスを変更する場合)、目標は追跡されません。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
 
 ## 注意点 {#considerations}
 
