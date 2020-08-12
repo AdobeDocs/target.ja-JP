@@ -2,10 +2,11 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
 description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
 title: Recommendations と電子メールの統合
+feature: null
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 90%
@@ -66,7 +67,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 >[!NOTE]
 >
->rawboxおよびを使用する場合は、「Targetに対してmbox呼び出しを送信する権限を持つホストを指定する許可リストの [!DNL Target]作成」の重要なセキュリティに関する通知を参照してください [](/help/administrating-target/hosts.md#allowlist)。
+>rawboxおよびを使用する場合は、「ターゲットに対してmbox呼び出しを送信する権限を持つホストを指定する許可リストの [!DNL Target]作成」の重要なセキュリティに関する通知を参照してください [](/help/administrating-target/hosts.md#allowlist)。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 
@@ -79,7 +80,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 * この場合、どんな値でも mboxDefault パラメーター値として設定されたのもが応答になります。このパラメーターに関する後述の説明を参照してください。
 * この場合、電子メールプロバイダーは、レコメンデーションのデフォルト HTML ブロックを使用する必要があります。
 
-### Targetサーバーがタイムアウトし、データなしで返す
+### ターゲットサーバーがタイムアウトし、データなしで返す
 
 * この場合、Target サーバーは、次のコンテンツを返します。
 
@@ -111,7 +112,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
 | `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。 <br> **セキュリティのベストプラクティス**: URLで使用されるドメインが許可されていない場合は、オープンリダイレクトの脆弱性が発生するリスクがある可能性があることに注意してください。 `mboxDefault` リダイレクターのリンクやサードパーティによる不正使用を防ぐため `mboxDefault` に、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 Targetは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のTargetにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。 |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。 <br> **セキュリティのベストプラクティス**:URLで使用されるドメインが許可されていない場合は、オープンリダイレクトの脆弱性が発生するリスクがある可能性があることに注意してください。 `mboxDefault` リダイレクターのリンクやサードパーティによる不正使用を防ぐため `mboxDefault` に、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 ターゲットは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。 |  |
 | `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意&#x200B;**：電子メール受信者（API 呼び出し）ごとに、`mboxSession`および`mboxPC`の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しない場合は、1 つのプロファイル内で多数のイベントが生成されるので、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。（ドット）。<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
@@ -123,7 +124,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（オプション） | 1 | デフォルトでは、配信可能なコンテンツが見つからない場合、呼び出し元がリダイレクトされます。デフォルトの動作を無効にする場合に使用します。 |  |
 | `mbox3rdPartyId` | *xxx* | 独自のカスタム訪問者 ID をプロファイルのターゲット設定に使用する場合、これを使用します。 |  |
 
-### Targetサーバーの応答の可能性
+### ターゲットサーバーの応答の可能性
 
 | 応答 | 説明 |
 |--- |--- |
