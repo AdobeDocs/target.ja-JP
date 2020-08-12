@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: 特別な複数値演算子を使用する、Adobe Targetレコメンデーションの複数値フィールドの操作に関する情報です。
-title: Adobe Targetレコメンデーションでの複数値の属性の操作
+description: 特殊な複数値演算子を使用したAdobe TargetRecommendationsの複数値フィールドの操作に関する情報です。
+title: Adobe TargetRecommendationsでの複数値の属性の操作
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -73,7 +74,7 @@ function targetPageParams() {
 >複数値の属性に対する動的一致のサポートは、現在、単一の値の左側と複数値の右側を比較する際に、プロファイル属性の一致またはパラメーター(mbox)属性の一致ルールを使用する場合の条件でのみ利用できます。 複数値の属性は、現在、プロモーション、エンティティ属性の一致、またはインクルージョンルールの左側のリストではサポートされていません。
 
 
-### 例： 最近監視した項目の除外
+### 例：最近監視した項目の除外
 
 ユーザーの最後の10本の視聴済みムービーがレコメンデーションされないようにする場合を考えてみます。 最初に、最近10回閲覧されたムービーをJSON配列 `user.lastWatchedMovies` として追跡するために呼び出されるプロファイルスクリプトを作成します。 次に、次のインクルージョンルールを使用して、項目を除外できます。
 
@@ -95,7 +96,7 @@ function targetPageParams() {
 } 
 ```
 
-### 例： ユーザーのお気に入りのレコメンデーション項目
+### 例：ユーザーのお気に入りのレコメンデーション項目
 
 例えば、演奏中のバンドがユーザーのお気に入りのバンドの1つである場合に限り、コンサートのチケットを勧めたいとします。 まず、という名前のプロファイル変数にユーザーのお気に入りの帯域が含まれてい `profile.favoriteBands` ることを確認します。 次に、コンサートでパフォーマンスを上げているアーティスト `entity.artistPerforming` を含む属性がカタログに含まれていることを確認します。 次のインクルージョンルールを使用できます。
 
@@ -117,9 +118,9 @@ function targetPageParams() {
 }
 ```
 
-### 例： ユーザーのお気に入りから品目をレコメンデーションする条件のAPI作成
+### 例：ユーザーのお気に入りから品目をレコメンデーションする条件のAPI作成
 
-すべての条件と同様、複数値のフィルタリングルールを使用する条件は、Adobe I/O APIを使用して作成できます。 エンティティ属性がmboxパラメーターリストーに含まれる条件を作成す `id` るためのAPI呼び出しの例を次に示 `favorites` します。
+すべての条件と同様、複数値のフィルタリングルールを使用する条件は、AdobeI/O APIを介して作成できます。 エンティティ属性がmboxパラメーターリストーに含まれる条件を作成す `id` るためのAPI呼び出しの例を次に示 `favorites` します。
 
 ```
 curl -X POST \
