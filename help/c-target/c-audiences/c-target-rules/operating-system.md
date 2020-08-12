@@ -1,11 +1,15 @@
 ---
-keywords: ターゲット設定、targetオペレーティングシステム、オペレーティングシステム、target os、os、target linux、linux、ターゲットウィンドウ、windows、target Macintosh、Macintosh、mac、ターゲットmac、win、ターゲットwin
+keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
 description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
 title: オペレーティングシステム
+feature: null
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +18,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL オペレーティングシステム]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL オペレーティングシステム]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
    * Linux
@@ -37,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
