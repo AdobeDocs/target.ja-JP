@@ -1,12 +1,13 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: ページに期待したコンテンツが表示されない場合は、Adobe Targetでコンテンツ配信をデバッグするためにいくつかの手順を実行できます。
+description: ページに期待したコンテンツが表示されない場合は、Adobe Targetでコンテンツの配信をデバッグするためにいくつかの手順を実行できます。
 title: Adobe Targetでのコンテンツ配信のトラブルシューティング
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -88,7 +89,7 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 
 | URL パラメーター | 目的 |
 |--- |--- |
-| `mboxDebug=1` | <br>デバッガTargetリクエストが定義された任意のURLにこのパラメータを追加すると、ポップアップウィンドウが開き、デバッグに役立つ詳細情報が表示されます。 Cookie 情報、PCID およびセッション ID の値が記述され、 URL がすべて表示されます。Click on a Target request URL to show the response for that [!DNL Target] request. 詳しくは、[mbox_debug.pdf](/help/assets/mbox_debug.pdf) を参照してください。 |
+| `mboxDebug=1` | <br>デバッガターゲットリクエストが定義された任意のURLにこのパラメータを追加すると、ポップアップウィンドウが開き、デバッグに役立つ詳細情報が表示されます。 Cookie 情報、PCID およびセッション ID の値が記述され、 URL がすべて表示されます。Click on a Target request URL to show the response for that [!DNL Target] request. 詳しくは、[mbox_debug.pdf](/help/assets/mbox_debug.pdf) を参照してください。 |
 | `mboxDebug=x-cookie` | cookie の変更 |
 | `mboxDisable=1` | ページ上の mbox を無効化 |
 | `mboxDebug=x-profile` | プロファイルセットを表示 |
@@ -151,9 +152,9 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. 有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
 
-## サイトでTarget要求が実行されていない。
+## サイトでターゲット要求が実行されていない。
 
-at.jsは、無効なdoctypeを使用している場合、Targetリクエストを実行しません。 a.js には HTML5 の doctype が必要です。
+at.jsは、無効なdoctypeを使用している場合、ターゲットリクエストを実行しません。 a.js には HTML5 の doctype が必要です。
 
 ## トレーニングビデオ
 
@@ -163,7 +164,7 @@ at.jsは、無効なdoctypeを使用している場合、Targetリクエスト�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本的なTargetデバッグ ![チュートリアルバッジ](/help/assets/tutorial.png)
+### 基本的なターゲットデバッグ ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
