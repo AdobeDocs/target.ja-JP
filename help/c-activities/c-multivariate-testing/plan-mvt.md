@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: Adobe Target で多変量分析テストを成功させるためには、テスト作成前に計画が必要です。
 title: Adobe Target の多変量分析テストの計画
+feature: null
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +27,7 @@ MVT テストで有用な結果を得るためには、十分なトラフィッ�
 
 最後に、テストを作成する前に、テストするコンテンツを作成する必要があります。各オファーのコンテンツの差異を把握し、テストで使用する画像、テキストおよび HTML オファーを作成します。
 
-## トレーニングビデオ：多変量分析テストの作成(9:25)チュートリ ![アルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：多変量分析テストの作成(9:25) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target の 3 ステップのガイドによるワークフローを使用して、多変量分析テストを計画し、作成する方法についてデモをおこないます。
 
