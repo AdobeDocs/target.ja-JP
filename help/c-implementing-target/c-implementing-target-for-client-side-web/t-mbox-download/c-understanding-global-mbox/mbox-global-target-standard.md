@@ -2,11 +2,12 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: Target Standard は、デフォルトで target-global-mbox というグローバル mbox を作成します。この mbox は、Target Standard で作成されるアクティビティの実行に使用されます。ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を Target Standard アクティビティで使用できます。
 title: レガシー実装のグローバル mbox の使用
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 91%
