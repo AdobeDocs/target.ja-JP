@@ -2,11 +2,12 @@
 keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
 title: クリックの追跡
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -20,7 +21,7 @@ Target では、任意の要素に対するクリックを成功指標として�
 
 >[!NOTE]
 >
->グローバルTargetリクエストがフォームベースのアクティビティの場所として使用されている場合、クリックの追跡はサポートされません。
+>グローバルターゲットリクエストがフォームベースのアクティビティの場所として使用されている場合、クリックの追跡はサポートされません。
 
 ## クリックの追跡の設定 {#section_5540C5A533114E57BAE022A600B02E72}
 
