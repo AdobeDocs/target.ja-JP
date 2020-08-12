@@ -1,11 +1,15 @@
 ---
-keywords: 複数ページ;遍歴のテスト;複数ページアクティビティ
+keywords: multi-page;journey testing;multipage activity
 description: 複数ページアクティビティを使用すると、各ページが固有のデザインを持つ複数のページにわたるストーリーを作成できます。
 title: 複数ページアクティビティ
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +20,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 例えば、特定の金額を超える買い物をした顧客に対して送料を無料にするオファーをテストできます。そのオファーをランディングページ、カテゴリページおよび特定の商品のページに表示しますが、ページのタイプに応じて異なる場所に異なるサイズで表示します。ホームページには目立つようにオファーを表示し、他の関連ページには小さく表示してオファーを強化できます。
 
-また、複数ページアクティビティを使用して、デスクトップおよびノンレスポンシブモバイルサイト用の異なるレイアウトを定義できます。サイトに[!DNL `www.mysite.com`]ではなく[!DNL m.mysite.com]のような別のモバイルサイトがある場合は、[複数ページアクティビティ](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を作成し、[!DNL m.mysite.com]を別のページとして追加してから、モバイル編集を適用して、同じエクスペリエンスのデスクトップバージョンとモバイルバージョンで適切な変更を行う必要があります。レスポンシブモバイルサイトでは、[モバイルエクスペリエンスの編集](../../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)を使用します。
+また、複数ページアクティビティを使用して、デスクトップおよびノンレスポンシブモバイルサイト用の異なるレイアウトを定義できます。サイトに[!DNL m.mysite.com]ではなく[!DNL `www.mysite.com`]のような別のモバイルサイトがある場合は、[複数ページアクティビティ](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を作成し、[!DNL m.mysite.com]を別のページとして追加してから、モバイル編集を適用して、同じエクスペリエンスのデスクトップバージョンとモバイルバージョンで適切な変更を行う必要があります。レスポンシブモバイルサイトでは、[モバイルエクスペリエンスの編集](../../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)を使用します。
 
 >[!NOTE]
 >
@@ -26,7 +30,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 テストにページを追加するには：
 
-1. **[!UICONTROL 設定]の歯車アイコンをクリックします。**
+1. **[!UICONTROL 設定]**&#x200B;の歯車アイコンをクリックします。
 1. 「**[!UICONTROL 追加ページを追加]**」をクリックします。
 
    画面の左側に、ナビゲーションバーが表示されます。
@@ -35,7 +39,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. このナビゲーションバーを使用してページを指定し、デフォルトページを設定します。
 
-   「**[!UICONTROL ページを追加]」をクリックして、ページを追加します。**
+   「**[!UICONTROL ページを追加]**」をクリックして、ページを追加します。
 
    縦並びの省略記号アイコンをクリックして、アクションメニューを表示します。
 
