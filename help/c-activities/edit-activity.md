@@ -1,11 +1,15 @@
 ---
-keywords: アクティビティ;アクティビティ;アクティビティタイプ;アクティビティの編集;編集;ドラフト
+keywords: activities;activity;activity types;edit activity;edit;draft
 description: アクティビティをドラフト形式で保存する方法を含む、既存のアクティビティの様々な編集方法に関する情報をまとめています。
 title: アクティビティを編集またはドラフトとして保存
+feature: null
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 100%
 
 ---
 
