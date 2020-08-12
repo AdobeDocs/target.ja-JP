@@ -1,12 +1,16 @@
 ---
-keywords: グローバル mbox パラメーター;targetPageParams;クエリ文字列;配列;json;DTM;Dynamic Tag Management
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: グローバル mbox にパラメーターを渡すには、JavaScript の targetPageParams 関数を使用します。Target に追加のターゲット設定／コンテキスト情報を渡す場合は、常にこの関数が使用されます。
 title: グローバル mbox にパラメーターを渡す
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
