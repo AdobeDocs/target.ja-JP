@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
 title: Target でのオーディエンスの構築
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    処理遅延の数秒後に、新しく作成したオーディエンスがリストに表示されます。オーディエンスがすぐにリストに表示されない場合は、オーディエンスを検索するか、リストを更新してください。
 
-## トレーニングビデオ：オーディエンスの作成 概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：オーディエンスの作成 ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、オーディエンスの作成について説明します。
 
