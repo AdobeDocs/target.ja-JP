@@ -2,9 +2,13 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Automated Personalization のユーザーは特殊なレポートを使用できます。
 title: Automated Personalization 概要レポート
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +21,7 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 >
 >Automated Personalization は、[!DNL Target Premium] ソリューションの一部として利用できます。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的の[!UICONTROL Automated Personalization]アクティビティをクリックし、「**[!UICONTROL &#x200B;レポート」タブをクリックします。]**
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的の [!UICONTROL Automated Personalization] アクティビティをクリックし、「**[!UICONTROL レポート」タブをクリックします。]**
 
    多くのアクティビティがある場合、[!UICONTROL タイプ]ドロップダウンリストから [!UICONTROL Automated Personalization] を選択することで、リストをフィルターできます。
 
