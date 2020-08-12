@@ -1,10 +1,14 @@
 ---
-keywords: Target、レポート、レポート設定、複数の指標、metrics
-description: Adobe targetを使用してレポートに表示する複数の指標を選択します。
-title: Adobe targetを使用したレポートでの複数の指標の表示
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: Adobe Targetを使用したレポートで表示する複数の指標を選択します。
+title: Adobe Targetを使用したレポートでの複数の指標の表示
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -41,14 +45,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    「[!UICONTROL 表示されている指標]」リストでは、ドラッグ＆ドロップで指標の順番を自由に並べ替えることができます。ここで選択した順番は、テーブル表示とグラフ表示に反映されます。「[!UICONTROL 表示されている指標]」リストから指標を削除するには、該当の指標にマウスポインターを置いて **X** アイコンをクリックします。
 
-1. 終了したら「**[!UICONTROL 保存]」をクリックします。**
-1. （条件付き）レポートをテーブルビューで表示中に、指標の列ヘッダーにマウスポインターを置くと、青い矢印が表示されます。 この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
+1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. （条件付き）表表示でレポートを表示中に、指標の列見出しにマウスポインターを置くと、青い矢印が表示されます。 この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
 
    ![](assets/multiple_metrics_table.png)
 
    指標と列は、一度に 1 つのみ展開できます。再度矢印をクリックすると、列が折りたたまれます。
 
-1. （条件付き）グラフ表示でレポートを表示中に、ドロップダウンリストから表示する個々の指標を選択できます。
+1. （条件付き）グラフ表示でレポートを表示中に、ドロップダウンリストから表示する指標を個別に選択できます。
 
    ![](assets/multiple_metrics_graph.png)
 
