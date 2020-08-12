@@ -1,18 +1,22 @@
 ---
-keywords: 自動パーソナライゼーション；オファー；レポート；グループ；レポートグループ
-description: Adobe targetでの自動パーソナライゼーション(AP)アクティビティでのレポートグループの使用に関する情報です。
-title: Adobe targetの自動パーソナライゼーション(AP)アクティビティのレポートグループを提供します。
+keywords: automated personalization;offer;reporting;group;reporting group
+description: Adobe TargetのAutomated Personalization(AP)アクティビティでのレポートグループの使用に関する情報です。
+title: Adobe TargetのAutomated Personalization(AP)アクティビティのオファーレポートグループ
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
 
 # ![Automated Personalizationのプレミアム](/help/assets/premium.png) オファーレポートグループ{#offer-reporting-groups-in-automated-personalization}
 
-Information about using reporting groups in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)アクティビティでのレポートグループの使用に関する情報です。
 
 レポートグループは、次の 2 つの主要機能を実行します。
 
@@ -35,7 +39,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content.png)
 
-1. 「[!UICONTROL Manage Content]」ダイアログボックス上部の「**[!UICONTROL Offers]**」タブをクリックします。
+1. 「**[!UICONTROL Manage Content]**」ダイアログボックス上部の「[!UICONTROL Offers]」タブをクリックします。
 1. （条件付き）特定のオファーにマウスポインターを置いてから **[!UICONTROL Reporting Group]** のフォルダーアイコンをクリックして、特定のエクスペリエンスをレポートグループに追加します。
 
    ![](assets/ap_manage_content_2.png)
