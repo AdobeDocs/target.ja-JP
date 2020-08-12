@@ -1,11 +1,15 @@
 ---
-keywords: アクティビティのガイド;アクティビティ;アクティビティのタイプ;アクティビティの操作
+keywords: activities guide;activities;activity;activity types;activity actions
 description: Adobe Target の様々なアクティビティタイプ（Recommendations を除く）について説明した、インタラクティブ PDF をダウンロードできます。
 title: Target のアクティビティのタイプ
+feature: null
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1462'
+ht-degree: 98%
 
 ---
 
