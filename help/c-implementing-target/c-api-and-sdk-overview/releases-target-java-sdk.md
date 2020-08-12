@@ -1,53 +1,57 @@
 ---
 keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
-description: Adobe targetのJava SDKに関するリリースノートです。
-title: Adobe targetのJava SDKに関するリリースノートです。
+description: Adobe TargetのJava SDKに関するリリースノートです。
+title: Adobe TargetのJava SDKに関するリリースノートです。
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
 
-# リリースノート — Target Java SDK
+# リリースノート —ターゲットJava SDK
 
-[Target Java SDKに関するリリースノートです](https://github.com/adobe/target-java-sdk)。
+[ターゲットJava SDK](https://github.com/adobe/target-java-sdk)。
 
-Java SDKを使 [!DNL Target] 用すると、サーバー側 [!DNL Target] をデプロイできます。 このJava SDKを使用すると、、、などの他のソ [!DNL Target] リューシ [!DNL Adobe Experience Cloud] ョンとの統合を簡単に [!DNL Adobe Experience Cloud Identity Service]行うこ [!DNL Adobe Analytics]とができま [!DNL Adobe Audience Manager]す。
+Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行え [!DNL Adobe Experience Cloud Identity Service][!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。
 
-Java SDKは、アドビの配信APIを使用して統合する際に、ベストプラクティスを導入し、複雑 [!DNL Target] さを排除して、エンジニアリングチームがビジネスロジックに焦点を当てられるようにします。
+Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。
 
-新しいTarget Java SDKを使用したサーバ側の最適化に関するアドビ [のテクニカルブログ（英語）で詳しく説明します](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。
+新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。
 
-## バージョン1.1.0（2019年12月17日）
+## バージョン1.1.0（2019年12月16日）
 
-次の節では、Target Java SDKのバージョン1.1.0について詳しく説明します。
+次の節では、ターゲットJava SDKのバージョン1.1.0について詳しく説明します。
 
 ### Admin Console ヘルプに
 
 * @hisham-hassanが行ったオープンソースの貢献により、プロキシ設定のサポートが追加されました。
 
-## バージョン1.0.1（2019年11月12日）
+## バージョン1.0.1（2019年11月11日）
 
-次の節では、Target Java SDKのバージョン1.0.1について詳しく説明します。
+次の節では、ターゲットJava SDKのバージョン1.0.1について詳しく説明します。
 
 ### 固定
 
-* 訪問者API cookieが存在しない場合でも、Targetリクエストに追加のデータIDを送信します。
+* 訪問者API cookieがない場合でも、ターゲットリクエストで補足的なデータIDを送信します。
 
 ## バージョン1.0.0（2019年10月31日）
 
-以下の節で、Target Java SDKのバージョン1.0.0について詳しく説明します。
+次の節で、ターゲットJava SDKのバージョン1.0.0について詳しく説明します。
 
 ### Admin Console ヘルプに
 
-* [Target View Delivery v1 APIのサポート(ページ読み込み](https://developers.adobetarget.com/api/delivery-api/) 、表示プリフェッチなど)。
-   * Visual Experience Composer(VEC)で作成されたすべてのタイプのオファーの配信を完全にサポートします。
-* プリフェッチと通知のサポートを追加しました。これにより、プリフェッチされたコンテンツをキャッシュしてパフォーマンスを最適化できます。
-* サーバー側とクライアント側の両方にデプ [!DNL Target] ロイする場合に、 `serverState`を介し [!DNL Target] たハイブリッド統合でパフォーマンスを最適化するためのサポートを追加しました。
-   * サーバー側で取得したエクスペリエンスを含むという設定が導入され、at.js v2.2以降では、エクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなります。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。
-* GitHubをソースとして [Target Java SDKとして開きます](https://github.com/adobe/target-java-sdk)。
+* [ターゲット表示配信v1 APIのサポート(ページ読み込みと表示プリフェッチを含む)。](https://developers.adobetarget.com/api/delivery-api/)
+   * Visual Experience Composer(VEC)でオーサリングされたすべてのタイプのオファーの配信の完全なサポート。
+* プリフェッチのサポートと、プリフェッチされたコンテンツをキャッシュしてパフォーマンスを最適化できる通知機能を追加しました。
+* サーバー側とクライアント側の両方にデプロイする場合に、を介し [!DNL Target] たハイブリッド `serverState`[!DNL Target] 統合でパフォーマンスを最適化するためのサポートを追加しました。
+   * サーバー側で取得したエクスペリエンス `serverState` を含むという設定が導入され、at.js v2.2以降では、エクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなります。 このアプローチは、ページ読み込みのパフォーマンスを最適化します。
+* GitHubをソースとして [ターゲットJava SDKとして開きます](https://github.com/adobe/target-java-sdk)。
 * SDK APIメソッド引数の検証。
-* README、サンプル、ユニットテストを追加しました。
-* CoC、貢献度のガイドライン、PRおよび雑誌号のテンプレートを追加しました。
+* README、サンプル、および単体テストを追加。
+* CoC、貢献度のガイドライン、PR、および雑誌号のテンプレートを追加しました。
 
