@@ -1,10 +1,11 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 一般的な設定、モバイルAdobe Target設定、CSSセレクターを指定して、Visual Experience Composer(VEC)を設定します。
+description: 一般的な設定、モバイルビューポート設定、CSSセレクターを指定して、Adobe TargetVisual Experience Composer(VEC)を設定します。
 title: Adobe Targetでのレポートの設定
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 32%
@@ -12,7 +13,7 @@ ht-degree: 32%
 ---
 
 
-# Targetでのレポートの設定
+# ターゲットでのレポートの設定
 
 アカウント全体に適用する [!DNL Adobe Target] レポートで使用する一般設定を設定し [!DNL Target] ます。
 
@@ -29,7 +30,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->除外するタイムゾーン、通貨およびIPアドレスは、 [!DNL Target] レポートを使用するアクティビティに適用されることに注意してください。 これらの設定は、レポートソース(/help/c-integrating-target-with-mac/a4t/a4t.md)として [AnalyticsをTarget(A4T)] に使用するアクティビティには適用されません。
+>除外するタイムゾーン、通貨およびIPアドレスは、 [!DNL Target] レポートを使用するアクティビティに適用されることに注意してください。 これらの設定は、ターゲット用の [Analytics(A4T)をレポートソース(/help/c-integrating-target-with-mac/a4t/a4t.md)として使用するアクティビティには適用されません] 。
 
 ![レポートページ](/help/administrating-target/assets/reporting.png)
 
@@ -44,7 +45,7 @@ Select the reporting source for your activities, either [!DNL Target] or [!DNL A
 * ここでレポートソースを **[!DNL Target]** に設定した場合、 をレポートソースとして使用するアクティビティをアクティブ化することはできません。[!DNL Analytics]You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL 自動パーソナライゼーション] (AP)アクティビティの作成、アクティベーションおよび非アクティブ化は、選択したレポートソースに関係なく許可されます。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP)アクティビティの作成、アクティベーション、非アクティブ化は、選択したレポートソースに関係なく許可されます。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## レポートのタイムゾーン
 
@@ -54,7 +55,7 @@ Select the reporting source for your activities, either [!DNL Target] or [!DNL A
 
 レポートに使用する通貨を指定します。
 
-## Targetレポートデータから除外するIP
+## ターゲットレポートデータから除外するIP
 
 レポートデータから除外するIPアドレスを指定します。 例えば、内部会社アドレスを除外すると、レポートデータがWebサイトでの顧客の操作を反映するのに適した方法です。
 
