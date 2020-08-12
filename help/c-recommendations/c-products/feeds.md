@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: フィードを使用して Adobe Recommendations に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
 title: フィード
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -36,10 +40,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 >[!IMPORTANT]
 >
->アップロードされたエンティティとエンティティ属性は、61日後に期限が切れます。 つまり、以下のとおりです。
+>アップロードされたエンティティとエンティティ属性は、61日後に有効期限が切れます。 つまり、以下のとおりです。
 >
->* カタログコンテンツの有効期限が切れないように、フィードは少なくとも毎月実行する必要があります。
->* フィードファイルからアイテムを削除しても、カタログからは削除されません。 カタログからアイテムを削除するには、Target UIまたはAPIを使用して手動でアイテムを削除します。 または、品目の属性（在庫など）を変更して、品目が考慮対象から除外されるようにします。
+>* カタログコンテンツの期限が切れないように、フィードは少なくとも毎月実行する必要があります。
+>* フィードファイルから項目を削除しても、その項目はカタログからは削除されません。 カタログから品目を削除するには、ターゲットUIまたはAPIを使用して手動で品目を削除します。 または、品目の属性（在庫など）を変更して、品目が考慮対象から除外されるようにします。
 
 
 ## CSV{#section_65CC1148C7DD448FB213FDF499D35FCA} へのエクスポート 
@@ -102,7 +106,7 @@ Google 製品フィードを利用している場合は、それをインポー�
 >
 >Google データを使用する必要はありません。単に、[!DNL Recommendations] が Google と同じ形式を使用するだけです。この方法を使用して、あらゆるデータをアップロードしたり、スケジューリング機能を使用したりできます。ただし、ファイルをセットアップする際に、Google によってあらかじめ定義された属性名を保持する必要があります。
 
-多くの小売業者が商品を Google にアップロードしているので、訪問者が Google による製品検索を使用すると、商品が表示されます。[!DNL Recommendations] では、Google の仕様に厳密に従ったエンティティフィードを使用します。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 結果は [Google のショッピングページ](https://www.google.com/prdhp)で検索できます。
+多くの小売業者が商品を Google にアップロードしているので、訪問者が Google による製品検索を使用すると、商品が表示されます。[!DNL Recommendations] では、Google の仕様に厳密に従ったエンティティフィードを使用します。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果は [Google のショッピングページ](https://www.google.com/prdhp)で検索できます。
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
    * CSV
    * Google 製品フィード
    * Analytics 分類
+
    CSV および Google 製品フィードフィードタイプについて詳しくは、[フィードの概要](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. （条件付き）**[!UICONTROL CSV]** または **[!UICONTROL Google 製品フィード]**&#x200B;を選択した場合、フィードがアクセスできる場所を指定します。
@@ -323,7 +328,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Recommendations のフィードの説明（3:01） 概 ![要バッジ](/help/assets/overview.png)
+### Recommendations のフィードの説明（3:01） ![概要バッジ](/help/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
@@ -332,7 +337,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### フィードの作成（6:44） チュート ![リアルバッジ](/help/assets/tutorial.png)
+### フィードの作成（6:44） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
