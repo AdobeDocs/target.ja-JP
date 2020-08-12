@@ -2,10 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: サイトにアクティビティが表示されない場合は、ここに示すトラブルシューティングの提案が解決に役立ちます。
 title: アクティビティのトラブルシューティング
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -23,9 +24,9 @@ ht-degree: 81%
 
 以下のセクションでは、発生する可能性のある問題が推奨ソリューションと共に説明します。
 
-## TargetUIを使用してアクティビティを作成しましたが、APIを使用して更新できません。
+## ターゲットUIを使用してアクティビティを作成しましたが、APIを使用して更新できません。
 
-TargetUIを使用して作成されたアクティビティは、TargetUIを使用して更新する必要があります。 APIを使用して作成されたアクティビティは、APIを使用して更新する必要があります。 例えば、最初にAPIを使用してアクティビティを作成した後、後でTargetUIを使用してアクティビティを編集した場合、すべての変更が更新されるわけではありません。 すべての変更はバックエンドに保存され、別のAPI呼び出しを行うことで更新できます。
+ターゲットUIを使用して作成されたアクティビティは、ターゲットUIを使用して更新する必要があります。 APIを使用して作成されたアクティビティは、APIを使用して更新する必要があります。 例えば、最初にAPIを使用してアクティビティを作成した後、後でターゲットUIを使用してアクティビティを編集した場合、すべての変更が更新されるわけではありません。 すべての変更はバックエンドに保存され、別のAPI呼び出しを行うことで更新できます。
 
 ベストプラクティスとして、最初にアクティビティを作成するのに使用したのと同じアクティビティ（UIまたはAPI）を使用して、メソッドを更新してみてください。
 
