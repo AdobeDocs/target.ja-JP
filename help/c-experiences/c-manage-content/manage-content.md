@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: オファーライブラリを使用して、コードオファーおよび画像オファーコンテンツを管理します。
 title: オファー
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * リダイレクト URL のタイプ
 * 絶対 URL または相対 URL
 
-## トレーニングビデオ：コンテンツリポジトリ 概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリ ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、オファーの管理について説明します。
 
