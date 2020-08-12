@@ -1,11 +1,15 @@
 ---
-keywords: リモートオファー;リモートオファーの作成
+keywords: remote offer;create remote offer
 description: オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
 title: JSON オファーの作成
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -28,13 +32,13 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 ## JSON オファーの作成方法 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 「**[!UICONTROL オファー]**」をクリックしてから、「**コードオファー[!UICONTROL 」タブを選択します。]**
-1. **[!UICONTROL 作成]** ／**[!UICONTROL JSON オファー]**&#x200B;をクリックします。
+1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL コードオファー]**」タブを選択します。
+1. **[!UICONTROL 作成]**／**[!UICONTROL JSON オファー]**&#x200B;をクリックします。
 
    ![](assets/offer-json.png)
 
 1. オファー名を入力します。
-1. 「**[!UICONTROL コード]」ボックスに JSON コードを入力するか貼り付けます。**
+1. 「**[!UICONTROL コード]**」ボックスに JSON コードを入力するか貼り付けます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## 例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## JSON オファータイプでのオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL 種類]**&#x200B;ドロップダウンリストをクリックし、「**JSON オファー[!UICONTROL 」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
+**[!UICONTROL 種類]**&#x200B;ドロップダウンリストをクリックし、「**[!UICONTROL JSON オファー」チェックボックスをオンにすることで、オファーライブラリにフィルターを適用して JSON オファータイプを抽出できます。]**
 
 ![](assets/offer-json-filter.png)
 
