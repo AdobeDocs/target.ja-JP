@@ -2,9 +2,13 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: ライブラリ内のアセットで実行できるタスクは多数あります。
 title: ライブラリ内のコンテンツの操作
+feature: null
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +37,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 1. ライブラリ内の項目を表す画像を変更するには、項目をクリックし、**[!UICONTROL プロパティ]**&#x200B;アイコンをクリックしてから、「**[!UICONTROL 編集]**」をクリックして、画像を追加します。
 
-## トレーニングビデオ：コンテンツリポジトリの概 ![要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：コンテンツリポジトリの ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。(4:56)
 
