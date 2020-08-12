@@ -1,11 +1,15 @@
 ---
-keywords: at.js 統合;サポートされる統合;サポートされない統合;サードパーティ統合
+keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
 description: Target の一般的な統合と at.js のサポート状況について説明します。
 title: at.js の統合
+feature: null
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 統合 | 詳細 |
 |--- |--- |
 | Analytics for Target（A4T） | 「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)」を参照してください。 |
-| プロファイルおよびオーディエンス（P&amp;A） | 『コアサ [ービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』ユーザーガ *イドの「オーディエンス*」を参照してください。 |
+| プロファイルおよびオーディエンス（P&amp;A） | 『 [コアサービスユーザガイド](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 』の *オーディエンスを参照してください*。 |
 | Experience Cloud ID サービス | [Adobe Experience Cloud ID サービスのドキュメント](https://docs.adobe.com/content/help/en/id-service/using/home.html)を参照してください。 |
 | Adobe Launch | Launch は、アドビの次世代のタグ管理プラットフォームで、Adobe Target を実装するための推奨される方法です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。「[Adobe Launch を使用した Target の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)」を参照してください。 |
 | Dynamic Tag Management（DTM） | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   重要： [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための、最新の推奨される方法です。Target を新たに実装する場合は、Launch を使用してください。以下のガイドは、DTM 実装を使用している既存のお客様向けのものです。DTM 統合を使用する際には、次の点を考慮してください。 <ul><li>ライブラリ管理：at.js を使用するには、「カスタム」ホスティングオプションを使用します。自動管理は現在サポートされていません。 </li></ul> |
