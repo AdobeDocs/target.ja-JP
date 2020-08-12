@@ -2,10 +2,14 @@
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Target オーディエンスライブラリに対して、またはアクティビティのみのオーディエンスにおいて、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 title: プロファイル属性比較オーディエンスの作成（Adobe Target）
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ![](assets/propensity_score_4.png)
 
-## トレーニングビデオ {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 概要バ ![ッジ](/help/assets/overview.png)
+## トレーニングビデオ {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} の ![概要バッジ](/help/assets/overview.png)
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
