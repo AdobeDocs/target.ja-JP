@@ -2,10 +2,14 @@
 keywords: automated personalization;Audiences;ensemble;random forest
 description: Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なオファーのバリエーションを表示しながら、コンテンツをパーソナライズして上昇率を高めます。
 title: Automated Personalization
+feature: null
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +76,7 @@ CRM 情報や顧客のチャーン傾向スコアなどのオフラインデー�
 
 自動的に収集され、[!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]のパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)」を参照してください。
 
-## ![概要バッジ](/help/assets/overview.png) Training video:アクティビティタイプ
+## ![概要バッジ](/help/assets/overview.png) ：トレーニングビデオアクティビティタイプ
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!UICONTROL Automated Personalization に関する説明は 5:55 から始まります。]
 
