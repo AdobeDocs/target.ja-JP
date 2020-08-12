@@ -1,12 +1,16 @@
 ---
-keywords: 部分的なデータ;部分的なデータ;A4T; 矛盾;Analytics for Target;親なし;仮想レポートスイート;ファントム;トラブルシューティング;未関連付け;水増し;未指定
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Analytics をレポートソースとして使用している場合に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法について説明します。
 title: A4T での水増しされた訪問と訪問者カウントの最小化
-subtopic: 多変量分析テスト
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ Analytics をレポートソースとして使用している場合に、水増�
 >* Experience Cloud 訪問者 ID サービス：visitorAPI.js バージョン 2.3.0 以降。
 >* Adobe Analytics：appMeasurement.js バージョン 2.1。
 >* Adobe Target：at.js バージョン 0.9.6 以降（A4T でリダイレクトオファーを使用している場合はバージョン 1.1.0 を除く）。
+
 >
 >  
 mbox.js ライブラリを使用している場合、A4T によるリダイレクトオファーはサポートされません。実装では at.js を使用する必要があります。
