@@ -1,10 +1,14 @@
 ---
-keywords: プロモーション;プロモーション - 前;プロモーション - 後;プロモーションタイプ
+keywords: promotions;front promotions;back promotions;promotions type
 description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 title: Adobe Target Recommendations デザインにプロモーションを追加します。
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 99%
 
 ---
 
@@ -50,12 +54,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       プロモーションに設定したスロット数より多くの項目がリストに含まれている場合は、「**[!UICONTROL 項目の順序をランダム化]**」チェックボックスをオンにして、デザインに表示されるプロモーション項目が変わるようにすることができます。このオプションを選択することで、テンプレートで有効なプロモーション項目数が、訪問ごとにプロモーションのセット全体からランダムに選択されるようになります。
 
-   * 「**[!UICONTROL 属性別にプロモート]」を選択し、プロモーションする項目の属性を定義するルールを追加します。**
+   * 「**[!UICONTROL 属性別にプロモート]**」を選択し、プロモーションする項目の属性を定義するルールを追加します。
 
       「属性別にプロモート」を選択すると、動的な一致を作成できます。詳しくは、[動的および静的インクルージョンルールの使用](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
-   * 「**[!UICONTROL コレクションをプロモート]」を選択し、プロモーションする項目のコレクションを選択します。**&#x200B;プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
+   * 「**[!UICONTROL コレクションをプロモート]**」を選択し、プロモーションする項目のコレクションを選択します。プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. Click **[!UICONTROL Save.]**.
 
 プロモーションはアクティビティのすべてのエクスペリエンスに適用されます。
