@@ -2,11 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: タグマネージャー（Adobe Launch または Dynamic Tag Management）を使用しないで Adobe Target を実装する方法について説明します。
 title: タグマネージャーを使用しない Target の実装
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 64%
@@ -64,7 +65,7 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 
 >[!IMPORTANT]
 >
->Targetチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
+>ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 
 目的のat.jsバージョンをダウンロードするには、該当する「 **[!UICONTROL ダウンロード]** 」ボタンをクリックします。
 
@@ -107,7 +108,7 @@ For more information, see [Profile API settings](/help/c-implementing-target/c-c
 
 >[!NOTE]
 >
->「レガシーブラウザーのサポート」オプションは、at.jsバージョン0.9.3以前で使用可能でした。 This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、Targetーはコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしていました。 このオプションを有効にした場合、古いブラウザーで品質保証を行い、優れたカスタマーエクスペリエンスを確実に得ることをお勧めします。
+>「レガシーブラウザーのサポート」オプションは、at.jsバージョン0.9.3以前で使用可能でした。 This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、ターゲットーはコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしていました。 このオプションを有効にした場合、古いブラウザーで品質保証を行い、優れたカスタマーエクスペリエンスを確実に得ることをお勧めします。
 
 ## at.js のダウンロード {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -118,7 +119,7 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 >* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための推奨される方法です。次の情報は、Adobe Launch を使用して Target を実装する場合には適用されません。
    >
    >
-* Targetチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
+* ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
 
 ### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
