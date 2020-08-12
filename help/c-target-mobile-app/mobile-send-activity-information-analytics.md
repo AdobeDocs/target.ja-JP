@@ -1,10 +1,14 @@
 ---
-keywords: モバイル；tntVal;analytics;adobe analytics；統合；sdk；モバイルsdk;
-description: ここでは、Adobe targetモバイルアプリのアクティビティ情報をAdobe Analyticsに送信してAdobe Analyticsのポストアクティブセグメント化の方法について説明します。
-title: Adobe targetのアクティビティ情報をAdobe Analyticsに送信
+keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+description: ここでは、Adobe Targetのモバイルアプリアクティビティ情報をAdobe Analyticsに送信してポストアホックセグメントを作成する方法について説明します。
+title: Adobe Targetアクティビティ情報をAdobe Analyticsに送る
+feature: null
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 25%
 
 ---
 
@@ -40,7 +44,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    In this example, a node with the variable `tntVal` is added to obtain the activity information. 適切なタイトルとメッセージを使用して、他のエクスペリエンスに類似したコードを追加します。
 
-   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. これは、アクティビティID、エクスペリエンスIDおよびトラフィックタイプを示します。 The following is a sample response from [!DNL Target]:
+   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. これは、アクティビティID、エクスペリエンスID、トラフィックタイプを示します。 The following is a sample response from [!DNL Target]:
 
    ```
    { 
