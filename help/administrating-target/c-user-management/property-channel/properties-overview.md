@@ -2,10 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
 title: Enterprise 権限の設定
+feature: null
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -100,7 +101,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し(Target呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 をTargetに追加します。
+プロパティは、任意の呼び出し(ターゲット呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 をターゲットに追加します。
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
@@ -117,7 +118,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. 「 **[!UICONTROL コピー]** 」をクリックして、 [5の手順を実行する際に使用するコードをクリップボードにコピーします。 at_propertyパラメーターを含めるように実装を更新します](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
+1. 「 **[!UICONTROL コピー]** 」をクリックして、 [5の手順を実行する際に使用するコードをクリップボードにコピーします。at_propertyパラメーターを含めるように実装を更新します](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
@@ -204,9 +205,9 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 以下のビデオの情報は、一般的に正しい。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 以下のビデオの情報は、一般的に正しい。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
-### Targetワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
+### ターゲットワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
