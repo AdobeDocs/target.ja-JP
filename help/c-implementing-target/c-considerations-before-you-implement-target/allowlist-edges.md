@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Adobeターゲットエッジノードを許可する
-title: Adobeターゲットエッジノードを許可する
+description: 許可リストAdobe Targetエッジノード
+title: 許可リストAdobe Targetエッジノード
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# ターゲットエッジノードを許可
+# 許可リストターゲットエッジノード
 
-アドビの [!DNL Target] エッジを許可するのに役立つ、ホストの情報と最新リストです。
+Adobe [!DNL Target] エッジの許可リストに役立つ、ホストの情報と最新リスト。
 
-エッジは、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、アドビ [の仕組みのエッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)*を参照してくだ[!DNL Target]さい*。
+エッジは、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、 [Adobe](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) の *仕組みのEdge network[!DNL Target]（エッジネットワーク）を参照してくだ*&#x200B;さい。
 
-必要に応じて、 [!DNL Target] エッジノードをリストに含めることができます。
+必要に応じて、 [!DNL Target] エッジノードを許可リストできます。
 
 次のリストには、現在のホストが含まれます。
 
