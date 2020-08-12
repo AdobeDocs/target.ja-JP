@@ -2,10 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 title: TLS（Transport Layer Security）暗号化の変更
+feature: null
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 61%
@@ -15,13 +16,13 @@ ht-degree: 61%
 
 # TLS（Transport Layer Security）暗号化の変更{#tls-transport-layer-security-encryption-changes}
 
-アドビとアドビのターゲットがTLS(Transport Layer Security)を使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法に関する変更について説明します。
+AdobeとAdobe TargetがTLS(Transport Layer Security)を使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法に関する変更について説明します。
 
 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。アドビは古いプロトコルの廃止を義務付けるセキュリティコンプライアンス標準規格を持っており、最新でセキュアなバージョンを利用するため TLS 1.2 の使用を必須としています。
 
 >[!IMPORTANT]
 >
->2020年3月1日以降、アドビターゲットは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどに対するTLS 1.1暗号化をサポートしなくなります。 問題を回避するため、2020年3月1日までにTLS 1.2にアップグレードしてください。
+>2020年3月1日以降、Adobe Targetは、Visual Experience Composer(VEC)、拡張Experience Composer(EEC)、アクティビティ配信、APIなどに対するTLS 1.1暗号化をサポートしなくなります。 問題を回避するため、2020年3月1日までにTLS 1.2にアップグレードしてください。
 
 この変更が、お客様の顧客のデータやレポートに大きな影響を及ぼすことはないと認識しています。
 
@@ -29,7 +30,7 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 
 TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートされなくなります。
 
-アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。ほとんどの顧客ドメインは既にTLS 1.2をサポートしています。 ただし、ドメインがTLS 1.2をサポートしていない場合は、現在と同様にTLS 1.1上のドメインを保持します（2020年3月まで）。
+アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。ほとんどの顧客ドメインは既にTLS 1.2をサポートしています。ただし、ドメインがTLS 1.2をサポートしていない場合は、現在と同様にTLS 1.1上のドメインを保持します（2020年3月まで）。
 
 この移行期間中は問題は発生しないはずです。万一、VEC がそれまでは動作していたサイトの読み込みをおこなわなくなった場合には、[Client Care チケットを開き、](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)考えられる原因としてこの移行を挙げてください。
 
