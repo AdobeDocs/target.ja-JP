@@ -2,11 +2,12 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
 title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
+feature: null
 subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 46%
@@ -53,7 +54,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   状況によっては、からへの分類呼び出しが失敗し、アクティビティ [!DNL Target] にデータが表示されない場合があり [!DNL Analytics][!DNL Analytics]ます。 この問題が発生した場合は、 [AnalyticsとTargetの統合のトラブルシューティング(A4T)を参照してください](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 ClientCareに [お問い合わせの上、詳しくは](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、
+   状況によっては、からへの分類呼び出しが失敗し、アクティビティ [!DNL Target] にデータが表示されない場合があり [!DNL Analytics][!DNL Analytics]ます。 この問題が発生した場合は、Analyticsとターゲットの統合の [トラブルシューティング(A4T)を参照してください](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 ClientCareに [お問い合わせの上、詳しくは](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +63,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | アクティビティのタイプ | A4T との互換性 | メモ（該当する場合） |
 |--- |--- |--- |
 | 手動トラフィック分割を使用した A/B アクティビティ | ○ |  |
-| 自動配分を使用した A/B アクティビティ | ○ | 自動配分アクティビティのTarget(A4T)のサポートについては、 [Analyticsを参照してください](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
+| 自動配分を使用した A/B アクティビティ | ○ | 自動配分アクティビティの [ターゲット用の分析(A4T)のサポートを参照してください](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
 | 自動ターゲットを使用した A/B アクティビティ | × |  |
 | エクスペリエンスターゲット設定（XT） | ○ |  |
 | 多変量分析テスト（MVT） | ○ | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -105,13 +106,13 @@ You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] o
 
 ## 「Analytics＆Target：分析のベストプラクティス」チュートリアル{#section_3438E6E77A464424B717A4FD333B84B2}
 
-[AnalyticsとTargetを開く： 分析のベストプラクティス](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) （チュートリアル）。 [!DNL Adobe Experience League]によって提供されます。
+Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by [!DNL Adobe Experience League].
 
 ## トレーニングビデオ：
 
 このトピックで説明されている概念の詳細については、次のビデオを参照してください。
 
-### Target用Analytics(A4T)(4:32) ![概要バッジ](/help/assets/overview.png)
+### ターゲット用のAnalytics(A4T)(4:32) ![概要バッジ](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -121,7 +122,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Targetの統合(A4T)(40:33) ![チュートリアルバッジ](/help/assets/tutorial.png)
+### Analytics/ターゲットの統合(A4T)(40:33) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
@@ -130,4 +131,4 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 * Analytics での使用に最適なレポートの詳細
 * A4T に関するよくある質問への回答
 
-[Analytics/Target統合(A4T)の営業時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/ターゲット統合(A4T)の営業時間](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
