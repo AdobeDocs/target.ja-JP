@@ -1,19 +1,23 @@
 ---
-keywords: トレーニング；認定；ターゲット；オンラインコース；コース；クラス；クラス
-description: アドビトレーニングサービスは、Adobe Targetを含むアドビの製品およびソリューションに関するクラスと認定資格を提供します。
-title: Adobe targetを含むアドビの製品およびソリューションのトレーニングと認定資格
-subtopic: 導入
+keywords: training;certification;target;online courses;courses;class;classes
+description: Adobeトレーニングサービスは、Adobe Targetを含むAdobe製品とソリューションに関するクラスと認定資格を提供します。
+title: Adobe Targetを含むAdobe製品およびソリューションのトレーニングと認定
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 48%
 
 ---
 
 
 # トレーニングと資格認定{#training-and-certification}
 
-アドビトレーニングサービスは、Adobe Targetを含むアドビの製品およびソリューションに関するクラスと認定資格を提供します。
+Adobeトレーニングサービスは、Adobe Targetを含むAdobe製品とソリューションに関するクラスと認定資格を提供します。
 
 ご利用いただける講師によるコースやオンラインコースのリストについては、[アドビカスタマートレーニング Web サイト](https://training.adobe.com/training/courses.html#solution=adobeTarget)を参照してください。
 
