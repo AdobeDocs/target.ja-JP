@@ -2,10 +2,14 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Target の Visual Experience Composer を使用すると、Target を有効にしたページに直接テストを作成し、Target 内でページの一部を変更することができます。
 title: A/B テストの作成
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +115,7 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
 アクティビティの作成後、「概要」タブに、アクティビティの図などアクティビティに関する情報が表示されます。
 
-## トレーニングビデオ：A/Bテストの作成（8:36） チュート ![リアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：A/Bテストの作成（8:36） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
