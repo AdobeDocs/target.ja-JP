@@ -1,9 +1,13 @@
 ---
-keywords: Recommendations Classic
+keywords: recommendations Classic
 description: Adobe Recommendations Classic ドキュメント。
 title: Adobe Recommendations Classic ドキュメント。
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 100%
 
 ---
 
