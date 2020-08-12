@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: 制限
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -26,7 +30,7 @@ Adobe Target のアクティビティやその他の要素に影響を与える�
 
 **推奨制限**：10,000 個のアクティブなライブアクティビティ。
 
-**推奨制限**:10,000件のアクティブな保存済みアクティビティ。
+**推奨制限**:10,000個のアクティブな保存済みアクティビティ（終了していない）。
 
 ## アクティビティ名
 
@@ -58,9 +62,9 @@ Adobe Target のアクティビティやその他の要素に影響を与える�
 
 ## 顧客属性、アップロード
 
-* **HTTPメソッドを使用した各アップロードの最大ファイルサイズ**:100 MB。
-* **ftpの方法を使用した各アップロードの最大ファイルサイズ**:4 GB。
-* **サブスクライブを許可する属性の数**:5の場合は [!DNL Target Standard] 、200の場合 [!DNL Target Premium]は、
+* **HTTPメソッドを使用した、各アップロードの最大ファイルサイズ**:100 MB。
+* **FTPを使用した各アップロードの最大ファイルサイズ**:4 GB。
+* **サブスクライブが許可される属性の数**:5の場合は [!DNL Target Standard] 、200の場合は [!DNL Target Premium]。
 
 ## エンティティカスタム属性
 
@@ -113,23 +117,23 @@ GET リクエストの場合、バックエンドの上限は 5 KBですが、Mi
 
 標準のmbox呼び出しの場合：
 * mbox パラメーター：mbox 1 個あたり 500 パラメーター。
-* プロファイルパラメータ：mboxごとに500個のプロファイルパラメーター。
+* プロファイルパラメーター：mboxあたり500個のプロファイルーパラメーター。
 * その他のパラメーター（URL、参照元 URL など）：他のパラメータータイプごとに mbox 1 個あたり 50 個。
 
 これらの制限は、Web ブラウザーの制約が原因で要求が短縮されない限り、適用されません。
 
-バッチ配信APIを使用している場合、バッチリクエストあたり50 mboxが制限されます。
+バッチ配信APIを使用する場合、バッチリクエストあたり50 mboxが上限です。
 
-Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれている場合、APIは次のエラーメッセージを返します。
+Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれる場合、APIは次のエラーメッセージを返します。
 
-「mboxParametersの数は50を超えてはなりません。」
+「mboxParametersの数は50個を超えることはできません。」
 
-エンドポイントの制限の設定：
+エンドポイントの制限：
 
-mbox v2のバッチ処理：
+mbox v2のバッチ：
 * mboxパラメーター100
 * mboxパラメーター名の最大長128
-* mboxパラメーターの値をNULLにすることはできません
+* mboxパラメーター値をnullにすることはできません
 * mboxパラメーター値5000
 * プロファイルパラメータ50
 * プロファイルパラメータ名の最大長128
@@ -139,7 +143,7 @@ mbox v2のバッチ処理：
 配信APIエンドポイント
 * mboxパラメーター50
 * mboxパラメーター名の最大長128
-* mboxパラメーターの値をNULLにすることはできません
+* mboxパラメーター値をnullにすることはできません
 * mboxパラメーター値5000
 * プロファイルパラメータ50
 * プロファイルパラメータ名の最大長128
@@ -194,9 +198,9 @@ mbox v2のバッチ処理：
 
 **アクティブなプロファイルスクリプトの推奨制限**:300
 
-**アカウントごとのプロファイルスクリプトの合計の推奨制限**:2,000
+**アカウントごとのプロファイルスクリプトの合計の制限**:2,000
 
-**複雑なプロファイルスクリプトの制限に関する推奨事項**:プロファイルスクリプトで実行できる命令の数は限られています。 詳しくは、「ベストプラクティス [(](/help/c-target/c-visitor-profile/profile-parameters.md#best) プロファイル属性) **」を参照してください。
+**プロファイルスクリプトの複雑さを制限するRecommendations**:プロファイルスクリプトで実行できる命令の数は限られています。 詳しくは、「 [プロファイル属性の](/help/c-target/c-visitor-profile/profile-parameters.md#best) ベストプラクティス *」を参照してください*。
 
 ## プロパティ
 
