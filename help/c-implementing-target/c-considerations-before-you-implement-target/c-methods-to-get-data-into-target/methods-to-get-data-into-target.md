@@ -1,12 +1,16 @@
 ---
-keywords: 実装; 実装方法; 設定; セットアップ; ページパラメーター; Tomcat; URL エンコード; ページ内プロファイル属性; mbox パラメーター; ページ内プロファイル属性; スクリプトプロファイル属性; プロファイル一括更新 API; 単一ファイル更新 API; 顧客属性; データプロバイダー
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、プロファイル一括更新 API、単一プロファイル更新 API、顧客属性など、データを Target に送信する様々な方法について説明します。
 title: データを Target に送信する方法
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    Target では、IETF サイトに記載されている文字に加え、クエリ文字列で以下の文字も使用できます。
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    これ以外の文字はすべて URL エンコードする必要があります。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -224,8 +228,8 @@ at.js では、データはキャッシュされません。データプロバ�
 
 ### トレーニングビデオ：
 
-* [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## プロファイル一括更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
