@@ -1,11 +1,15 @@
 ---
-keywords: qa;プレビュー;プレビューリンク;モバイル;モバイルプレビュー
+keywords: qa;preview;preview link;mobile;mobile preview
 description: モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
 title: Adobe Target モバイルでのモバイルプレビューリンクの使用
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
-   * **** iOS: [Mobile](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) Services *iOSヘルプを開始する前に*、
-   * **** Android: [Mobile](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) Services Androidヘルプを *開始する前に*、
+   * **iOS:**[事前開始](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) ( *Mobile Services iOSヘルプ*)
+   * **Android:**[開始の準備](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) ( *Mobile Services Androidヘルプ*)
 
 1. **URL スキームを設定する：**&#x200B;プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
