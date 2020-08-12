@@ -1,11 +1,15 @@
 ---
-keywords: エクスペリエンス;コントロール;自動パーソナライゼーション;自動ターゲット
+keywords: experience;control;automated personalization;auto-target
 description: Adobe Target の自動パーソナライゼーション（AP）または自動ターゲット（AT）アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択します。
 title: Adobe Target での特定のエクスペリエンスのコントロールとしての使用
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
