@@ -1,9 +1,10 @@
 ---
 description: Adobe Target での Visual Experience Composer（VEC）の使用に関する情報です。
 title: Adobe Target Visual Experience Composer（VEC）
+feature: null
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -130,7 +131,7 @@ VEC 内でページの読み込みをキャンセルするには、ページの�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 勤務時間： Visual Experience Composer ![チュートリアルバッジ](/help/assets/tutorial.png)
+### 勤務時間：Visual Experience Composer ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
