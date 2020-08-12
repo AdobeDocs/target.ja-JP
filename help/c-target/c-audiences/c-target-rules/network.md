@@ -1,10 +1,14 @@
 ---
-keywords: ターゲット設定、network、ターゲットネットワーク、isp、domain name、接続速度、target isp、targetドメイン名、ターゲット接続速度
+keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
 title: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成します。
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ネットワークの詳細に基づいたオーディエンスを作成できます。
 
-1. [!DNL Target] インターフェイスで、「**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. 「**[!UICONTROL ルールを追加]**／**[!UICONTROL ネットワーク]**」をクリックします。
+1. **[!UICONTROL ルールを追加]**／**[!UICONTROL ネットワーク]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
    * **ISP：** ISP は、加入者に対して、通常月額または年額の料金でインターネットアクセスを提供する企業です。多くの ISP は、Web ホスティングや電子メールなどの追加のサービスを提供しています。ISP フィールドには、商用 ISP（Comcast や TimeWarner など）または企業や教育機関などの法人を指定します。
@@ -63,4 +67,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * オーディエンスの作成
 * オーディエンスカテゴリの定義
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
