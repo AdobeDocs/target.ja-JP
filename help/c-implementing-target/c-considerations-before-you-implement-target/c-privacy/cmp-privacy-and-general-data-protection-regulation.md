@@ -1,11 +1,15 @@
 ---
-keywords: gdpr;eu;欧州連合;プライバシー;faq;よくある質問;カリフォルニア州消費者プライバシー法;ccpa;プライバシー;データ 保護;オプトアウト;政府;規制
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
 title: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -294,6 +298,6 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
 
-### データが第三者と共有されたり販売されたりするのを防ぐために何かする必要があるか。
+### データが第三者と共有または販売されないようにする必要があるか。
 
-Targetでは、顧客がTargetからサードパーティに直接データを共有または販売できないので、Targetのオプトアウト販売はありません。
+ターゲットでは、ターゲットからサードパーティに直接データを共有または販売できないので、ターゲットのためのオプトアウトはありません。
