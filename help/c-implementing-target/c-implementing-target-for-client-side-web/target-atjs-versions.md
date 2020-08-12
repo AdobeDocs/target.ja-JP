@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions
 description: at.js の各バージョンでの変更の詳細について説明します。
 title: at.js のバージョンの詳細
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 85%
@@ -19,9 +20,9 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Targetチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
+>ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
->[at.jsをアップグレードするには、Adobe Experience Platformの起動をお勧めします。](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.jsをアップグレードするのに推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
 
 ## at.js 2.3.2（2020年7月25日）
 
@@ -47,7 +48,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* 配信されたTargetオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートします。 at.jsが適用したオファー `targetGlobalSettings.cspScriptNonce``targetGlobalSettings.cspStyleNonce` に対応するスクリプトおよびスタイルタグのnonceを設定できるように、およびを設定できます。 詳しくは、 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+* 配信されたターゲットオファーを適用する際に、ページDOMに追加されるSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートします。 at.jsが適用したオファー `targetGlobalSettings.cspScriptNonce``targetGlobalSettings.cspStyleNonce` に対応するスクリプトおよびスタイルタグのnonceを設定できるように、およびを設定できます。 詳しくは、 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
 * Google Tag Manager導入用のGoogle Closureコンパイラーでat.jsをコンパイルする際の問題を修正しました。
 * 顧客の実装との競合を避けるため `check` に、at.jsチェックcookieの名前を `at_check` からに変更しました。
 
@@ -61,7 +62,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 at.jsのこのリリースには、次の機能強化および修正が含まれています。
 
-* AdobeAnalyticsコードがページエレメントに存在しない場合に、クリック追跡でTarget(A4T)のAnalyticsのコンバージョンがレポートされない問題が修正されました。
+* Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲット用のAnalytics(A4T)のコンバージョンがレポートされない問題が修正されました。
 * WebページでExperience CloudIDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
 * 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
@@ -69,7 +70,7 @@ at.jsのこのリリースには、次の機能強化および修正が含まれ
    >
    >このパフォーマンス強化を利用するには、ECID Launch Extensionをv4.4にアップグレードしてください。
 
-* at.jsバージョン2.2には、という新しい設定も用意されて `serverState`います。 この設定は、Targetのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTargetSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.jsバージョン2.2には、という新しい設定も用意されて `serverState`います。 この設定は、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.jsバージョン1.8.0（2019年10月11日）
 
