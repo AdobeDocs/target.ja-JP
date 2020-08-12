@@ -1,11 +1,15 @@
 ---
-keywords: オーディエンス、オーディエンスルール、結合、オーディエンス、exclusion、除外の追加、exclude、結合オーディエンス、アドホックオーディエンス、アドホックオーディエンス
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: 複数のオーディエンス（Adobe Experience Cloud オーディエンスと Target オーディエンスを含む）をその場で結合し、アドホックなオーディエンスを作成します。また、除外ルールを作成して、ルールからオーディエンスを除外できます。
 title: Adobe Target での複数のオーディエンスの結合
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +58,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
       >
       >演算子（ANDまたはOR）は、オーディエンスの結合と同じでなければなりません。演算子を組み合わせることはできません。
 
-   1. ルールに除外を追加するには、「**[!UICONTROL 除外]** ／**[!UICONTROL 除外を追加]**」をクリックします。
+   1. ルールに除外を追加するには、**[!UICONTROL 除外]**／**[!UICONTROL 除外を追加]**&#x200B;をクリックします。
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
       この結合オーディエンスには、Safari または Firefox を使用するすべてのサイト訪問者が含まれます（San Francisco からの訪問者を除く）。
 
-   1. ルールからオーディエンスを除外するには、「**[!UICONTROL 除外]**／**[!UICONTROL このオーディエンスを除外]**」をクリックします。
+   1. ルールからオーディエンスを除外するには、**[!UICONTROL 除外]**／**[!UICONTROL このオーディエンスを除外]**&#x200B;をクリックします。
 
       例えば、Firefox を使用する訪問者を除く、すべての新規サイト訪問者を含む結合オーディエンスを作成できます。Firefox を使用する訪問者の除外は、複数のブラウザー（Safari、Chrome、Internet Explorer）を明示的に含み、Firefox を含まない結合オーディエンスを作成するよりも簡単で、すばやくおこなえます。
 
@@ -94,7 +98,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. 編集中または作成時[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
+1. を編集または作成する際に、[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
 
    ![](assets/combine_multiple_audiences6.png)
 
@@ -110,7 +114,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    目的のアクティビティをクリックして開き、「**[!UICONTROL アクティビティ を編集]**」をクリックします。
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
+1. **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンスをクリックします]**。
 
    ![設定／オーディエンス／複数のオーディエンス](/help/c-target/assets/combine_multiple_audiences7.png)
 
