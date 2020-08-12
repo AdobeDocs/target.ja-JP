@@ -1,10 +1,11 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: 一般的な設定、モバイルAdobe Target設定、CSSセレクターを指定して、Visual Experience Composer(VEC)を設定します。
-title: Adobe TargetのVisual Experience Composerの設定
+description: 一般的な設定、モバイルビューポート設定、CSSセレクターを指定して、Adobe TargetVisual Experience Composer(VEC)を設定します。
+title: Visual Experience Composerの設定
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -95,7 +96,7 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 >
 >Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
-## トレーニングビデオ： アカウント設定(7:33) ![概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：アカウント設定(7:33) ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、アカウント設定に関する情報を説明します。
 
@@ -103,6 +104,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
