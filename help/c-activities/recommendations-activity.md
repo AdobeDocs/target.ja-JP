@@ -1,9 +1,13 @@
 ---
 description: Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Recommendations アクティビティ
+feature: null
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 100%
 
 ---
 
