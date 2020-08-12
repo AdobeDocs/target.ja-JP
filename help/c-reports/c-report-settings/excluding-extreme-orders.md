@@ -1,10 +1,14 @@
 ---
-keywords: Target、レポート、レポート設定、極端な注文、極端な値
-description: Adobe targetの影響を受けるレポートから極端な注文を除外して、少数の珍しい注文がアクティビティの結果に影響を与えないようにすることができます。 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
-title: Adobe targetレポートでの極端な値の除外
+keywords: Target;reports;report settings;extreme orders;extreme values
+description: Adobe Targetの影響を受けるレポートから極端な注文を除外して、少数の珍しい注文がアクティビティ結果に影響を与えないようにすることができます。 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
+title: Adobe Targetレポートで極端な値を除外する
+feature: null
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![レポート設定](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
 
-   [レポー [!UICONTROL ト設定] ]オプションダイアログボックスが表示されます。
+   [ [!UICONTROL レポート設定] ]オプションダイアログボックスが表示されます。
 
    ![ステップの結果](assets/exclude_extreme_values.png)
 
