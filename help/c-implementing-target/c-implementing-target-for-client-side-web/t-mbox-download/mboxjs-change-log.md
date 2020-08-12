@@ -1,11 +1,15 @@
 ---
-keywords: mbox. jsの変更;mbox. jsのバージョン
+keywords: mbox.js changes;mbox.js versions
 description: このページには、mbox.js の各バージョンに対する変更が表示されます。
 title: mbox.js のバージョンの詳細
-subtopic: 導入
+feature: null
+subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 
