@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Adobe Target の機能を理解するのに役立つ主要概念について説明します。
 title: Target の主要概念
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03） 概 ![要バッジ](/help/assets/overview.png)
+### アクティビティのタイプ（9:03） ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
 
@@ -117,7 +121,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Adobe Targetでのオーディエンスの使用(6:21)概要 ![バッジ](/help/assets/overview.png)
+### Adobe Targetでのオーディエンスの使用(6:21) ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
