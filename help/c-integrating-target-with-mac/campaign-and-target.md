@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: Target を Adobe Campaign と共に使用して、電子メールコンテンツを最適化します。
 title: Target と Adobe Campaign の統合
+feature: null
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 51%
@@ -40,7 +41,7 @@ Target は、次のデータを追跡できます。
    *  の rawbox およびエクスペリエンス[!DNL Target]
    >[!NOTE]
    >
-   >rawboxおよびを使用する場合は、「Targetに対してmbox呼び出しを送信する権限を持つホストを指定する許可リストの [!DNL Target]作成」の重要なセキュリティに関する通知を参照してください [](/help/administrating-target/hosts.md#allowlist)。
+   >rawboxおよびを使用する場合は、「ターゲットに対してmbox呼び出しを送信する権限を持つホストを指定する許可リストの [!DNL Target]作成」の重要なセキュリティに関する通知を参照してください [](/help/administrating-target/hosts.md#allowlist)。
 
    * The delivery in [!DNL Campaign]
 
