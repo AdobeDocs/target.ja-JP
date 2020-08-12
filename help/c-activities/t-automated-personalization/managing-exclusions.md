@@ -1,11 +1,15 @@
 ---
-keywords: 重複;重複を許可;重複するオファーを除外;自動パーソナライゼーション;重複するオファーを許可しない
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 title: 除外の管理
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +60,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能では、同一アクティビティ内の別の場所で、重複するオファーが同時に表示されるのを防ぐことができます。
 
-「**[!UICONTROL 設定]**」／「**[!UICONTROL 重複オファー]**」／「**[!UICONTROL 重複を許可]**」または「**[!UICONTROL 重複を許可しない**]」の順にクリックします。
+**[!UICONTROL 設定]**／**[!UICONTROL 重複オファー]**&#x200B;をクリックしてから、「**[!UICONTROL 重複を許可]**」または「**[!UICONTROL 重複を許可しない]**」をクリックします。
 
 ![重複オファーのオプション](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 **Visual Experience Composer（VEC）を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
-1. [AP アクティビティを作成または編集](/help/c-activities/t-automated-personalization/create-ap-activity.md)する際に、置き換えるコンテンツを選択し、「**[!UICONTROL テキスト／HTML を変更]**」、「**[!UICONTROL 画像を変更]**」または「**[!UICONTROL 背景色を変更]**」をクリックします。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**含める**」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。
 
    コンテンツ／オファーのタイプによっては、「[!UICONTROL 含める]」チェックボックスの位置が若干異なります。
@@ -121,8 +125,8 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 **フォームベースの Experience Composer を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
-1. AP アクティビティを作成または編集しているときに、「**[!UICONTROL コンテンツ]**」で「**[!UICONTROL テキスト／HTML を変更]**」または「**[!UICONTROL 画像オファーを変更**]」をクリックします。
-1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**[!UICONTROL 含める]」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。**
+1. AP アクティビティを作成または編集しているときに、「**[!UICONTROL コンテンツ]**」で「**[!UICONTROL テキスト／HTML を変更]**」または「**[!UICONTROL 画像オファーを変更]**」をクリックします。
+1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**[!UICONTROL 含める]**」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。
 
    コンテンツ／オファーのタイプによっては、「含める」チェックボックスの位置が若干異なります。
 
