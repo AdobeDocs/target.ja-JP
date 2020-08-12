@@ -1,11 +1,15 @@
 ---
-keywords: Target;at.js;at.js への移行;準備;at.js の監査;at.js の統合
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: mbox.js から at.js への移行は、簡単なプロセスです。
 title: mbox.js から at.js に移行する方法
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mboxCookieDomain()
    * 追加の JavaScript
    * 他の場所
+
    [mbox.js オブジェクトおよびメソッド](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)のほとんど（`mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` など）はサポートされません。やろうとしていることを達成するための方法が他にもある可能性があります。
 
    **すべての Web ページに[!DNL mbox.js]があるかどうか。**
@@ -58,6 +63,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * AAM（従来のフロントエンド）
    * AEM
    * Data Workbench
+
    一部の従来の統合は、[!DNL at.js] ではサポートされません。詳しくは、[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)ページを参照してください。
 
    **[!DNL Target]をサードパーティツールと統合しているかどうか。**
@@ -67,6 +73,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Demandbase
    * クリックテール
    * その他
+
    これらの統合を [!DNL at.js] と連携させるには調整が必要となる場合があります。詳しくは、[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)ページを参照してください。
 
    **タグマネージャーを使用するかどうか。**
@@ -75,6 +82,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Ensighten
    * Tealium
    * Signal／BrightTag
+
    詳細については、「[at.js の統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)」を参照してください。
 
    >[!NOTE]
@@ -103,7 +111,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    [!DNL mbox.js] によって `<div>` 要素がページの上部に追加されることを前提として作成されていることがあります。[!DNL at.js] では `<div>` 要素がページの上部に追加されないので、このセレクターは [!DNL at.js] では動作しなくなります。
 
-   この問題に対処するには、VEC で [!DNL at.js] を使用してその URL に対するアクティビティを再作成するか、VEC の **[!UICONTROL &lt;/&gt; コード]**／「**[!UICONTROL 変更]**」オプションの順に使用してセレクターを手動で更新します。
+   この問題に対処するには、VEC で [!DNL at.js] を使用してその URL に対するアクティビティを再作成するか、VEC の **[!UICONTROL &lt;/> コード]**／**[!UICONTROL 変更]**&#x200B;オプションを使用してセレクターを手動で更新します。
 
    この問題を修正するには、BODY の後の最初の DIV 要素にある nth-of-type の数から 1 を引く必要があります。上述の例では、編集したコードは次のようになります。
 
