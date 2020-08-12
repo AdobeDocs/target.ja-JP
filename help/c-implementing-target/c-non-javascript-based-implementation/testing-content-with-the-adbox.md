@@ -1,12 +1,13 @@
 ---
 keywords: Implementation;mbox.js non javascript;mbox;adbox
-description: adboxを使用して、Adobe Targetを使用してオフサイト実装で画像を配信します。
+description: adboxを使用して、Adobe Targetを使用したオフサイト実装で画像を配信します。
 title: Adobe Targetを使用した画像用adboxの作成
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -16,7 +17,7 @@ ht-degree: 77%
 
 # 画像用 adbox の作成{#create-an-adbox-for-an-image}
 
-adboxを使用して、Adobe Targetを使用したオフサイト実装で画像を配信します。
+adboxを使用して、Adobe Targetを使用するオフサイト実装で画像を配信します。
 
 adbox は mbox と似ていますが、JavaScript ではなく URL によって制御されます。adbox は、「広告」mbox（adbox）をアカウントに読み込む特殊な adbox 用の URL を使用して作成されます。アクティビティでは、この adbox を mbox の代わりに使用します。電子メールなどの JavaScript を使用しない実装では、画像の直接参照ではなく adbox URL を使用します。
 
