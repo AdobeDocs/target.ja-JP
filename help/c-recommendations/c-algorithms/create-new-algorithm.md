@@ -1,9 +1,13 @@
 ---
 description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
 title: 条件の作成
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 小売／e コマース]
    * [!UICONTROL リードジェネレーション／B2B／金融サービス]
    * [!UICONTROL メディア／投稿]
+
    その他の条件オプションは、選択した業種によって異なります。
 
 1. **[!UICONTROL ページタイプ]**&#x200B;を選択します。
@@ -94,6 +99,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL デザインの部分レンダリングを有効化]
    * [!UICONTROL バックアップレコメンデーションを表示]
    * [!UICONTROL 以前購入された品目をレコメンデーション]
+
    この設定は、`productPurchasedId` に基づいています。カヤックなど、通常 1 回しか購入しない品目を販売する場合に便利です。シャンプーやその他個人的に使用する品目など、繰り返し購入される品目を販売する場合は、このオプションを無効にする必要があります。
 
 1. **[!UICONTROL インクルージョンルール]**&#x200B;を設定します。
@@ -436,7 +442,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 >[!NOTE]
 >
->コンテンツ類似性アルゴリズムは、アイテム間の類似性の計算にランダムサンプリングを使用する場合があります。 その結果、項目間の類似性評価は、アルゴリズムの実行によって異なる場合があります。
+>コンテンツの類似性アルゴリズムは、項目間の類似性を計算する際にランダムサンプリングを使用する場合があります。 その結果、項目間の類似性評価は、アルゴリズムの実行間で異なる場合があります。
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
