@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの targetGlobalSettings() 関数について説明します。
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 39%
@@ -26,70 +27,70 @@ ht-degree: 39%
 ### bodyHiddenStyle
 
 * **型**：String
-* **デフォルト値**: body { opacity: 0 }
-* **説明**: ちらつきの発生を最小限 `globalMboxAutocreate === true` に抑える場合にのみ使用されます。
+* **デフォルト値**:body { opacity:0 }
+* **説明**:ちらつきの発生を最小限 `globalMboxAutocreate === true` に抑える場合にのみ使用されます。
 
    詳しくは、「[at.js によるちらつきの制御方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。
 
 ### bodyHidingEnabled
 
-* **タイプ**: ブール値
-* **デフォルト値**: true
-* **説明**: Visual Experience Composerで作成したオファー(ビジュアルオファーとも呼ば `target-global-mbox` れる)の配信に使用する場合に、ちらつきを制御するために使用します。
+* **タイプ**:ブール値
+* **デフォルト値**:true
+* **説明**:Visual Experience Composerで作成したオファー(ビジュアルオファーとも呼ば `target-global-mbox` れる)の配信に使用する場合に、ちらつきを制御するために使用します。
 
 ### clientCode
 
 * **型**：String
-* **デフォルト値**: UIから設定された値。
-* **説明**: クライアントコードを表します。
+* **デフォルト値**:UIから設定された値。
+* **説明**:クライアントコードを表します。
 
 ### cookieDomain
 
 * **型**：String
-* **デフォルト値**: 可能であれば、トップレベルドメインに設定します。
-* **説明**: Cookieの保存時に使用するドメインを表します。
+* **デフォルト値**:可能であれば、トップレベルドメインに設定します。
+* **説明**:Cookieの保存時に使用するドメインを表します。
 
 ### crossDomain
 
 * **型**：String
-* **デフォルト値**: UIから設定された値。
-* **説明**: クロスドメイントラッキングが有効かどうかを示します。 使用できる値は次のとおりです。 無効、有効またはxのみ。
+* **デフォルト値**:UIから設定された値。
+* **説明**:クロスドメイントラッキングが有効かどうかを示します。 使用できる値は次のとおりです。無効、有効またはxのみ。
 
 ### cspScriptNonce
 
-* **タイプ**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
-* **デフォルト値**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
-* **説明**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **タイプ**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **デフォルト値**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **説明**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
 
 ### cspStyleNonce
 
-* **タイプ**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
-* **デフォルト値**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
-* **説明**: 以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **タイプ**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **デフォルト値**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
+* **説明**:以下の「 [コンテンツセキュリティポリシー](#content-security) 」を参照してください。
 
 ### dataProviders
 
-* **タイプ**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
-* **デフォルト値**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
-* **説明**: 以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+* **タイプ**:以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+* **デフォルト値**:以下の「 [データプロバイダー](#data-providers) 」を参照してください。
+* **説明**:以下の「 [データプロバイダー](#data-providers) 」を参照してください。
 
 ### defaultContentHiddenStyle
 
 * **型**：String
-* **デフォルト値**: visibility: hidden
-* **説明**: クラス名が「mboxDefault」であるDIVを使用し、デフォルトコンテンツを介して実行、非表示にするmboxのラッピングにのみ使用 `mboxCreate()`さ `mboxUpdate()``mboxDefine()` れます。
+* **デフォルト値**:visibility:hidden
+* **説明**:クラス名が「mboxDefault」であるDIVを使用し、デフォルトコンテンツを介して実行、非表示にするmboxのラッピングにのみ使用 `mboxCreate()`さ `mboxUpdate()``mboxDefine()` れます。
 
 ### defaultContentVisibleStyle
 
 * **型**：String
-* **デフォルト値**: visibility: visible
-* **説明**: クラス名が「mboxDefault」であるDIVを使用し、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示する、 `mboxCreate()`、 `mboxUpdate()``mboxDefine()` またはを介して実行されるmboxのラッピングにのみ使用されます。
+* **デフォルト値**:visibility:visible
+* **説明**:クラス名が「mboxDefault」であるDIVを使用し、適用されたオファー（存在する場合）またはデフォルトのコンテンツを表示する、 `mboxCreate()`、 `mboxUpdate()``mboxDefine()` またはを介して実行されるmboxのラッピングにのみ使用されます。
 
 ### deviceIdLifetime
 
-* **タイプ**: 数値
-* **デフォルト値**: 63244800000 ms = 2年
-* **説明**: Cookieに保持さ `deviceId` れる時間。
+* **タイプ**:数値
+* **デフォルト値**:63244800000 ms = 2年
+* **説明**:Cookieに保持さ `deviceId` れる時間。
 
 >[!NOTE]
 >
@@ -97,61 +98,61 @@ ht-degree: 39%
 
 ### 有効
 
-* **タイプ**: ブール値
-* **デフォルト値**: true
-* **説明**: 有効にすると、エクスペリエンスを取得する [!DNL Target] 要求と、エクスペリエンスをレンダリングするDOM操作が自動的に実行されます。 また、 [!DNL Target] 呼び出しは、/を介して手動で実行でき `getOffer(s)` ま `applyOffer(s)`す。
+* **タイプ**:ブール値
+* **デフォルト値**:true
+* **説明**:有効にすると、エクスペリエンスを取得する [!DNL Target] 要求と、エクスペリエンスをレンダリングするDOM操作が自動的に実行されます。 また、 [!DNL Target] 呼び出しは、/を介して手動で実行でき `getOffer(s)` ま `applyOffer(s)`す。
 
    無効にすると、 [!DNL Target] リクエストは自動または手動では実行されません。
 
 ### globalMboxAutoCreate
 
-* **タイプ**: 数値
-* **デフォルト値**: UIから設定された値。
-* **説明**: グローバルmboxリクエストを実行するかどうかを示します。
+* **タイプ**:数値
+* **デフォルト値**:UIから設定された値。
+* **説明**:グローバルmboxリクエストを実行するかどうかを示します。
 
 ### imsOrgId
 
-* **タイプ**: Sting
-* **デフォルト値**: true
-* **説明**: IMS ORG IDを表します。
+* **タイプ**:Sting
+* **デフォルト値**:true
+* **説明**:IMS ORG IDを表します。
 
 ### optoutEnabled
 
-* **タイプ**: ブール値
-* **デフォルト値**: false
-* **説明**: Targetが訪問者API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。 これは、デバイスグラフ有効化の一部です。
+* **タイプ**:ブール値
+* **デフォルト値**:false
+* **説明**:ターゲットが訪問者API `isOptedOut()` 関数を呼び出す必要があるかどうかを示します。 これは、デバイスグラフ有効化の一部です。
 
 ### overrideMboxEdgeServer
 
-* **タイプ**: ブール値
-* **デフォルト値**: true（at.jsバージョン1.6.2で始まる場合）
-* **説明**: ドメインまたはドメインを使用する必要がある `<clientCode>.tt.omtrdc.net` かどうかを示 `mboxedge<clusterNumber>.tt.omtrdc.net` します。
+* **タイプ**:ブール値
+* **デフォルト値**:true（at.jsバージョン1.6.2で始まる場合）
+* **説明**:ドメインまたはドメインを使用する必要がある `<clientCode>.tt.omtrdc.net` かどうかを示 `mboxedge<clusterNumber>.tt.omtrdc.net` します。
 
    If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 現在、 [CNAMEは使用できません](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
 
 ### overrideMboxEdgeServerTimeout
 
-* **タイプ**: 数値
-* **デフォルト値**: 1860000 => 31分
-* **説明**: その `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含むcookieの有効期間を示します。
+* **タイプ**:数値
+* **デフォルト値**:1860000 => 31分
+* **説明**:その `mboxedge<clusterNumber>.tt.omtrdc.net` 値を含むcookieの有効期間を示します。
 
 ### pageLoadEnabled
 
-* **タイプ**: ブール値
-* **デフォルト値**: true
-* **説明**: 有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します。
+* **タイプ**:ブール値
+* **デフォルト値**:true
+* **説明**:有効にすると、ページの読み込み時に返す必要のあるエクスペリエンスを自動的に取得します。
 
 ### secureOnly
 
-* **タイプ**: ブール値
-* **デフォルト値**: false
-* **説明**: at.jsでHTTPSのみを使用するか、ページのプロトコルに基づいてHTTPとHTTPSとの切り替えを許可するかを示します。
+* **タイプ**:ブール値
+* **デフォルト値**:false
+* **説明**:at.jsでHTTPSのみを使用するか、ページのプロトコルに基づいてHTTPとHTTPSとの切り替えを許可するかを示します。
 
 ### selectorsPollingTimeout
 
-* **タイプ**: 数値
-* **デフォルト値**: 5000 ms = 5 s
-* **説明**: at.js 0.9.6では、を使用して上書きできる新しい設定が [!DNL Target] 導入され `targetGlobalSettings`ました。
+* **タイプ**:数値
+* **デフォルト値**:5000 ms = 5 s
+* **説明**:at.js 0.9.6では、を使用して上書きできる新しい設定が [!DNL Target] 導入され `targetGlobalSettings`ました。
 
    The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
 
@@ -160,31 +161,31 @@ ht-degree: 39%
 ### serverDomain
 
 * **型**：String
-* **デフォルト値**: UIから設定された値。
-* **説明**: Targetエッジサーバーを表します。
+* **デフォルト値**:UIから設定された値。
+* **説明**:ターゲットエッジサーバーを表します。
 
 ### serverState
 
-* **タイプ**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
-* **デフォルト値**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
-* **説明**: 以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+* **タイプ**:以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+* **デフォルト値**:以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
+* **説明**:以下の [ハイブリッドパーソナライゼーションを参照してください](#server-state) 。
 
 ### timeout
 
-* **タイプ**: 数値
-* **デフォルト値**: UIから設定された値。
-* **説明**: エッジリクエストのタイム [!DNL Target] アウトを表します。
+* **タイプ**:数値
+* **デフォルト値**:UIから設定された値。
+* **説明**:エッジリクエストのタイム [!DNL Target] アウトを表します。
 
 ### viewsEnabled
 
-* **タイプ**: ブール値
-* **デフォルト値**: true
-* **説明**: 有効な場合、ページの読み込み時に返す必要のある表示を自動的に取得します。 表示はat.js 2でサポートされています。*x* のみで使用できます。
+* **タイプ**:ブール値
+* **デフォルト値**:true
+* **説明**:有効な場合、ページの読み込み時に返す必要のある表示を自動的に取得します。 表示はat.js 2でサポートされています。*x* のみで使用できます。
 
 ### visitorApiTimeout
 
-* **タイプ**: 数値
-* **デフォルト値**: 2000 ms = 2 s
+* **タイプ**:数値
+* **デフォルト値**:2000 ms = 2 s
 * **説明**: [!UICONTROL 訪問者API] 要求のタイムアウトを表します。
 
 ## 使用方法 {#section_9AD6FA3690364F7480C872CB55567FB0}
@@ -320,7 +321,7 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0以降では、配信されたTargetオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
+at.js 2.3.0以降では、配信されたターゲットオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
 at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
 
@@ -339,22 +340,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-と設定 `cspScriptNonce``cspStyleNonce` を指定した後、at.js 2.3.0以降では、Targetオファーを適用する際にDOMに追加するすべてのSCRIPTタグとSTYLEタグに、これらの属性をnonce属性として設定します。
+と設定 `cspScriptNonce``cspStyleNonce` を指定した後、at.js 2.3.0以降では、ターゲットオファーを適用する際にDOMに追加するすべてのSCRIPTタグとSTYLEタグに、これらの属性をnonce属性として設定します。
 
 ## ハイブリッドパーソナライゼーション {#server-state}
 
-`serverState` は、at.js v2.2以降で利用できる設定です。Targetのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でTargetSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
+`serverState` は、at.js v2.2以降で利用できる設定です。ターゲットのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
 
 ### 前提条件
 
 のハイブリッド統合が必要で [!DNL Target]す。
 
-* **サーバー側**:  新しい [配信API](https://developers.adobetarget.com/api/delivery-api/) または [TargetSDKを使用する必要があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **クライアント側**: at.jsバージョン2.2以降 [を使用する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **サーバー側**: 新しい [配信API](https://developers.adobetarget.com/api/delivery-api/) または [ターゲットSDKを使用する必要があります](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **クライアント側**:at.jsバージョン2.2以降 [を使用する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### コードサンプル
 
-この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [TargetNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -466,9 +467,9 @@ Consider the following when using `serverState`:
    * ページの読み込み時に実行されるVECで作成されたアクティビティ。
    * 事前に取得された表示。
 
-      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、Targetへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
+      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、ターゲットへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
 
-   * **注意**:  現在、サーバー側で取得されたmboxは、ではサポートされていません `serverState`。
+   * **注意**: 現在、サーバー側で取得されたmboxは、ではサポートされていません `serverState`。
 
 * `serverState `オファーを適用する場合、at.jsでは、 `pageLoadEnabled` 設定(例：設定がfalseの場合、ページ読み込みオファーは適用されません)を考慮 `viewsEnabled``pageLoadEnabled` します。
 
