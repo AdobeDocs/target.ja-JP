@@ -2,9 +2,13 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: 開始および終了の日時を追加して、特定の時間枠中にサイトを訪問するユーザーにターゲット設定できます。また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
 title: 時間枠
+feature: null
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +53,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## トレーニングビデオ：オーディエンスの概 ![要バッジの作成](/help/assets/overview.png)
+## トレーニングビデオ：オーディエンス ![概要バッジの作成](/help/assets/overview.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
