@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のレポートの表示に関するよくある質問に対する回答が含まれています。
 title: レポートの表示 - A4T FAQ
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -23,13 +24,13 @@ This topic contains answers to questions that are frequently asked about viewing
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## 分析ワークスペースのどこにセグメントを適用できますか。 {#segmentation}
+## Analysis Workspaceでセグメントを適用できる場所 {#segmentation}
 
 セグメントは、最も一般的に、セグメントドロップゾーンのパネルの上部に適用されます。 セグメントは、パネル内のすべてのテーブルおよびビジュアライゼーションに適用されます。 この手法は、テストがユーザーのサブセットに与える影響（例えば、このテストが英国の人々に対してどのように機能したか）を確認するのに最も役立ちます。
 
 ## 特定のターゲットアクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 {#activity-segmentation}
 
-[!DNL Target] に送信される [!DNL Analytics] 変数には、デフォルトで 90 日間の有効期限があります。(注意： この有効期限は、必要に応じてカスタマーケアが調整できます)。 訪問者は、この有効期限枠を通してサイトをナビゲートする際、多くの [!DNL Target] アクティビティの一部となり、すべてディメンションに収集されます。
+[!DNL Target] に送信される [!DNL Analytics] 変数には、デフォルトで 90 日間の有効期限があります。(注意：この有効期限は、必要に応じてカスタマーケアが調整できます)。 訪問者は、この有効期限枠を通してサイトをナビゲートする際、多くの [!DNL Target] アクティビティの一部となり、すべてディメンションに収集されます。
 
 その結果、あるアクティビティがヒットに存在するようにセグメント化すると、そのアクティビティに含まれるすべてのエクスペリエンスと ** 、そのヒットに永続的なその他のエクスペリエンスがすべて取得されます。
 
@@ -48,7 +49,7 @@ A4Tレポートで指標を標準化する方法には、いくつかの方法�
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. したがって、必ずしもそのユーザーがオファーを見たかどうかはわかりません。アクティビティエクスペリエンスがスクロールしないと見えない場所にある場合、[!DNL Target] によってオファーが配信されていても、ユーザーがページを下にスクロールしなければ、オファーは見られていないことになります。
 * （[!UICONTROL  によって測定される）]アクティビティのインプレッション[!DNL Target]と（[!UICONTROL  によって測定される）]インスタンス[!DNL Analytics]は同じ値になります。ただし、同じアクティビティで複数の mbox 呼び出しが同じページに対しておこなわれた場合を例外です。この場合、[!UICONTROL アクティビティのインプレッション]は複数回カウントされますが、[!UICONTROL インスタンス]は 1 回しかカウントされません。
 
-## Reports &amp; Analyticsよりも、分析ワークスペースの「アクティビティインプレッション」と「アクティビティコンバージョン」が高いのはなぜですか。 {#sametouch}
+## Analysis Workspaceで「アクティビティインプレッション」と「アクティビティコンバージョン」がReports &amp; Analyticsよりも高いのはなぜですか。 {#sametouch}
 
 [!DNL Reports & Analytics] 「アクティビティのインプレッション数」と「アクティビティのコンバージョン」に同じタッチのアトリビューションモデルを適用します。これに対して、生の指標が [!DNL Analysis Workspace][!DNL Target] 表示されます。これは、ディメンションの持続性によって水増しされる可能性があります。
 
@@ -125,7 +126,7 @@ The following list explains reasons why the same visitor could be counted in mul
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
 * 訪問者が `mbox3rdPartyId` を使用している場合、その匿名の訪問者がサードパーティの ID プロファイルと統合されると、 はサードパーティの ID と適合させるために、訪問者に別のエクスペリエンスを割り当てます。[!DNL Target]詳しくは、[mbox3rdPartyId のリアルタイムプロファイル同期](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)を参照してください。
-* [!DNL Analytics] は、異なるデバイスを同じ訪問者としてトラッキングする場合と、それらのデバイスをトラッキングする場合とでは異なる方法でトラッキングする場合があ [!DNL Target] ります。 のサードパーティIDの設定 [!DNL Target] は、Analyticsの設定とは異なります。
+* [!DNL Analytics] は、異なるデバイスを同じ訪問者としてトラッキングする場合と、それらのデバイスをトラッキングする場合とでは異なる方法でトラッキングする場合があ [!DNL Target] ります。のサードパーティIDの設定 [!DNL Target] は、Analyticsの設定とは異なります。
 
 ## A4Tは仮想レポートスイートをサポートしていますか?
 
