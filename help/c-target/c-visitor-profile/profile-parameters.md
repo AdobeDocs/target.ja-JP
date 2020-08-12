@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 title: Adobe Target のプロファイル属性
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
@@ -17,7 +18,7 @@ ht-degree: 77%
 
 プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、アクティビティで使用可能な訪問者に関する情報を提供します。
 
-ユーザープロファイルには、年齢、性別、購入商品、最終訪問時など、Webページ訪問者の人口統計や行動に関する情報が含まれ、Targetが訪問者に提供するコンテンツをパーソナライズするために使用します。
+ユーザープロファイルには、年齢、性別、購入商品、最終訪問時など、Webページ訪問者の人口統計や行動に関する情報が含まれ、ターゲットが訪問者に提供するコンテンツをパーソナライズするために使用します。
 
 訪問者がWebサイトを閲覧したり、訪問者が別のセッションに戻ったりする際に、プロファイルに保存されたプロファイル属性を使用して、コンテンツのターゲットや、セグメントフィルタリングの情報のログを作成できます。
 
@@ -143,7 +144,7 @@ if (mbox.name == 'Track_Interest') {
    * プロファイルスクリプトは小さく、できるだけ単純にします。
    * 正規式を使用しないでください。または、非常に単純な正規式のみを使用してください。 単純な式でも、評価に多くの指示を受けることができます。
    * 再帰を避けます。
-   * プロファイルスクリプトをTargetに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行にはより長い時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
+   * プロファイルスクリプトをターゲットに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行にはより長い時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
    * プロファイルスクリプトが複雑すぎる場合は、 [応答トークンの代わりに](/help/administrating-target/response-tokens.md) 、
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -277,7 +278,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
 | `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコード します。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
-## トレーニングビデオ： プロファイルスクリプト ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：プロファイルスクリプト ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、プロファイルスクリプトの使用と作成に関する情報を説明します。
 
