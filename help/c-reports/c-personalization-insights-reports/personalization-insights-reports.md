@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Automated Personalization（AP）および自動ターゲット（AT）アクティビティのユーザーは、自動セグメントレポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
 title: パーソナライゼーションインサイトレポート
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -74,5 +75,5 @@ Because the goal of the [!UICONTROL Personalization Insights] reports is to unde
 ## Adobeブログ
 
 * パート1: [AI主導のパーソナライゼーションの魔法による謎の解き明かし](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* パート2: [Adobe TargetでのパーソナライゼーションのためのAIの幕の後ろの機能](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* パート2: [Adobe Targetでパーソナライゼーションを実現するAIの幕の後ろを覗く](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * パート3: [MAGIX — AIに基づくパーソナライゼーションのブラックボックス号の解決策](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
