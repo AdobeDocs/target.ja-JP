@@ -1,20 +1,24 @@
 ---
 keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
-description: このトピックでは、Adobe targetでAdobe Experience Platform Location Serviceを使用する方法の概要を説明します。
-title: Use Location Service
+description: Adobe TargetのAdobe Experience Platformロケーションサービスの使い方の概要を説明します。
+title: ロケーションサービスを使用
+feature: null
 topic: Target
 translation-type: tm+mt
-source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
 
-# Use Location Service
+# ロケーションサービスを使用
 
-場所は、モバイルユーザーを理解し、関与させるための重要なコンテキストです。 このコンテキストを使用すると、モバイルアプリ開発者はアプリのデザインを強化し、よりパーソナライズされた魅力的なエクスペリエンスを実現できます。
+場所は、モバイルユーザーを理解し、関与させるための重要なコンテキストです。 このコンテキストを使用することで、モバイルアプリ開発者はアプリのデザインを強化し、よりパーソナライズされた魅力的なエクスペリエンスを作成できます。
 
-Adobe Experience Platform Location Service(Location Service)は、場所を認識するモバイルアプリで、柔軟な目標地点(POI)データベースを含む豊富で使いやすいSDKインターフェイスを使用して、場所のコンテキストを理解できるようにする地域サービスです。
+Adobe Experience Platformロケーションサービス(Location Service)は、場所を認識するモバイルアプリで、豊富で使いやすいSDKインターフェイスを使用し、目標地点(POI)の柔軟なデータベースを伴い、場所のコンテキストを理解できる地域サービスです。
 
-Targetでロケーションサービスを使用して、 [Adobe Experience Platform Launchのルールを活用し](https://docs.adobe.com/content/help/en/launch/using/overview.html) 、Adobe Target SDKイベントに場所データを添付できます。
+場所サービスをターゲットと共に使用して、 [Adobe Experience Platform Launchのルールを活用し](https://docs.adobe.com/content/help/en/launch/using/overview.html) 、場所データをAdobe TargetSDKイベントに添付できます。
 
-詳しくは、 [Adobe Experience Platform Location Serviceガイドの「Use Location Service with Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) 」を参照 [してください](https://docs.adobe.com/content/help/en/places/using/home.html)。
+詳細については、『 [Adobe Experience Platformロケーションサービス』ガイドの「Adobe Targetでロケーションサービスを](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) 使用する [」を参照してください](https://docs.adobe.com/content/help/en/places/using/home.html)。
