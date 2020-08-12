@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 title: カスタムエンティティの属性
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +113,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 **API の使用**
 
-Delivery APIをmboxパラメーターで使用して、複数値の属性を、エスケープされたJSON配列を含む文字列値として渡すことができます。
+配信APIをmboxパラメーターで使用して、複数値の属性を、エスケープされたJSON配列を含む文字列値として渡すことができます。
 
 ```
 "execute": {
