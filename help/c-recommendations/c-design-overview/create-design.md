@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
 title: デザインの作成
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
