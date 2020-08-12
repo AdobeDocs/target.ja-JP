@@ -1,9 +1,13 @@
 ---
 description: 実稼動環境以外に at.js を安全にデプロイする方法に関する情報を紹介します。
 title: at.js の実稼動環境以外へのデプロイ
+feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 92%
 
 ---
 
