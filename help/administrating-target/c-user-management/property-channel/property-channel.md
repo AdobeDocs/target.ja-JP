@@ -2,10 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 title: Enterprise ユーザーの権限
+feature: null
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -27,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]お客様&#x200B;**: 「[!UICONTROL ユーザー]」タブ(管理者[!UICONTROL /ユーザー])が表示される(「[!UICONTROL プロパティ]」タブは表示されない)場合は、組織に[!DNL Target Standard]ライセンスがあります。[!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)」の指示に従う必要があり[!DNL Adobe Admin Console]ます。
+* **[!DNL Target Standard]お客様&#x200B;**:「[!UICONTROL ユーザー]」タブ(管理者[!UICONTROL /ユーザー])が表示される(「[!UICONTROL プロパティ]」タブは表示されない)場合は、組織に[!DNL Target Standard]ライセンスがあります。[!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)」の指示に従う必要があり[!DNL Adobe Admin Console]ます。
 
-* **[!DNL Target Premium]お客様&#x200B;**: 「[!UICONTROL プロパティ]」タブ([!UICONTROL 管理/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織にライセンスがあり[!DNL Target Premium]ます。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]お客様&#x200B;**:「[!UICONTROL プロパティ]」タブ([!UICONTROL 管理/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織にライセンスがあり[!DNL Target Premium]ます。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## エンタープライズ権限を使用する前に
 
@@ -47,7 +48,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Web プロパティは、Web サイト（群）を意味し、複数のルールと 1 つの埋め込みコードで構成されます。Web プロパティは、1 つ以上のドメインやサブドメインをグループ化できます。
 
-プロパティは、任意の呼び出し(Target呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 to [!DNL Target].
+プロパティは、任意の呼び出し(ターゲット呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 to [!DNL Target].
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールまたは API／その他）に属しています。
 
@@ -218,7 +219,7 @@ Consider the following when using or configuring properties and permissions in [
 
    * Visual Experience Composer
    * レポート
-   * Scene7の設定
+   * Scene7構成
    * 実装
    * プロパティ
    * ホスト
@@ -294,7 +295,7 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 勤務時間： Targetプレミアムワークスペース
+### 勤務時間：ターゲットプレミアムワークスペース
 
 このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
@@ -305,6 +306,6 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
