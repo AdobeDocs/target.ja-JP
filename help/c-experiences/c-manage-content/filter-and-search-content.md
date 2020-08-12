@@ -1,10 +1,14 @@
 ---
-keywords: コンテンツライブラリ;アセット;検索;スマートコレクション;検索フォルダー;フィルター
+keywords: content library;assets;search;smart collections;search folder;filter
 description: キーワードでアセットを検索し、スマートコレクションと呼ばれる検索フォルダーを保存します。スマートコレクションは、検索結果を反映して自動的に更新されます。
 title: コンテンツの検索とスマートコレクションの作成
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    右上隅の[!UICONTROL リスト表示]アイコンをクリックして、リスト表示形式でアセットを表示します。
 
-1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]アイコンをクリックして、検索ボックスを表示します。**
+1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、検索ボックスを表示します。
 
    ![](assets/search_assets.png)
 
@@ -47,16 +51,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/browse_folders.png)
 
-1. スマートコレクションの基盤として希望するフォルダーを参照して選択し、**[!UICONTROL 確認]アイコンをクリックします。**
+1. スマートコレクションの基盤として希望するフォルダーを参照して選択し、**[!UICONTROL 確認]**&#x200B;アイコンをクリックします。
 
    ![](assets/browse_folders2.png)
 
 1. （オプション）様々なオプションから選択して、ファイルタイプやサイズなどで検索結果を絞りこむことができます。
-1. **[!UICONTROL フィルターおよびオプション]パネルの下部で「**[!UICONTROL スマートコレクションを保存]」をクリックして、「保存」オプションを表示します。
+1. **[!UICONTROL フィルターおよびオプション]**&#x200B;パネルの下部で「[!UICONTROL スマートコレクションを保存]」をクリックして、「保存」オプションを表示します。
 
    ![](assets/save_smart_collection_options.png)
 
-1. スマートコレクションの名前を指定し、[!DNL Target] アカウントのすべてのユーザーがこのスマートコレクションにアクセスできるようにする場合は、「**[!UICONTROL 公開]**」チェックボックスを選択して、「**[!UICONTROL 保存]**」をクリックします。
+1. スマートコレクションの名前を指定し、**[!UICONTROL アカウントのすべてのユーザーがこのスマートコレクションにアクセスできるようにする場合は、「]**&#x200B;公開[!DNL Target]」チェックボックスを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
    保存済み検索結果のリストにこのスマートコレクションが追加され、以降使用できるようになります。
 
