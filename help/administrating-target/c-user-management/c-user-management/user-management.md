@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Adobe Admin Console でユーザーを追加したり権限を管理したりできます。
 title: ユーザー
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 48%
@@ -23,10 +24,10 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL プロパティ]と[!UICONTROL 権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]標準顧客&#x200B;**: 「[!UICONTROL ユーザー]」タブ([!UICONTROL 管理/ユーザー])が表示される(「**[!UICONTROL プロパティ&#x200B;]**」タブが表示されない)場合は、組織に[!DNL Target]標準ライセンスがあります。 [!DNL Target Standard のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>* **[!DNL Target]標準顧客&#x200B;**:「[!UICONTROL ユーザー]」タブ([!UICONTROL 管理/ユーザー])が表示される(「**[!UICONTROL プロパティ&#x200B;]**」タブが表示されない)場合は、組織に[!DNL Target]標準ライセンスがあります。 [!DNL Target Standard のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
    >
    >
-* **[!DNL Target]Premiumのお客様&#x200B;**: 「[!UICONTROL ユーザー]」タブと「[!UICONTROL プロパティ]」タブ(管理/プロパティ[!UICONTROL )が表示される場合は、組織に][!DNL Target]Premiumライセンスがあります。[!DNL Target]Premium のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、[Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)と[Enterprise 権限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
+* **[!DNL Target]Premiumのお客様&#x200B;**:「[!UICONTROL ユーザー]」タブと「[!UICONTROL プロパティ]」タブ(管理/プロパティ[!UICONTROL )が表示される場合は、組織に][!DNL Target]Premiumライセンスがあります。[!DNL Target]Premium のお客様は、[!DNL Adobe Admin Console]でユーザーを追加したり、権限を割り当てたりする際は、[Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)と[Enterprise 権限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
 >
 >
 ユーザーと権限の管理方法について詳しくは、『 [Enterprise &amp; Teams User Guide](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 』の「製品とプロファイルの *管理*」を参照してください。
@@ -39,17 +40,17 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 
 Admin users are identified in the [!UICONTROL Users] list. アクセスレベルの変更が必要な場合は、システム管理者ユーザーに問い合わせてください。
 
-## Target内からの表示ユーザー情報
+## ターゲット内からの表示ユーザー情報
 
-Target環境内の現在のユーザーのリストを表示できます。これには、ワークスペースごとの役割や電子メールアドレスごとの役割が含まれ、内部Targetから直接アクセスできます。
+ターゲット環境内の現在のユーザーのリストを表示できます。これには、ワークスペースごとの役割や電子メールアドレスごとの役割が含まれ、内部ターゲットから直接アクセスできます。
 
 ユーザーページを表示するには、 **[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**&#x200B;をクリックします。
 
-![Target内からのユーザーリスト](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![ターゲット内からのユーザーリスト](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
->既存のユーザーを管理したり、新しいユーザーを追加したりするには、以下に説明する [!UICONTROL AdobeAdmin Console]を使用する必要があります。
+>既存のユーザーを管理したり、新しいユーザーを追加したりするには、以下に説明する [!UICONTROL Adobe Admin Console]を使用する必要があります。
 
 ## Adobe Admin Console へのアクセス {#access}
 
@@ -120,6 +121,6 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。 ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
