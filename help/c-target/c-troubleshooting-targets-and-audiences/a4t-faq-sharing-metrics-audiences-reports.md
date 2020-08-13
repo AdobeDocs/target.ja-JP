@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の指標、オーディエンス、レポートの共有に関するよくある質問に対する回答が含まれています。
 title: 指標、オーディエンス、レポートの共有 - A4T FAQ
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 82%
