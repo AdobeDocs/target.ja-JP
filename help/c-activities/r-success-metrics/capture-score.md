@@ -2,12 +2,12 @@
 keywords: capture score;score
 description: スコアキャプチャのエンゲージメント指標では、訪問者がキャンペーンの最初の表示ターゲットリクエストを最初に見た時点から、サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算します。
 title: スコアキャプチャ
-feature: null
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
