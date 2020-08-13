@@ -2,11 +2,11 @@
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 title: Adobe Target のカスタムパラメーター
-feature: null
+feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
