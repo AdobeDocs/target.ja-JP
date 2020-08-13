@@ -2,11 +2,11 @@
 keywords: settings;priority
 description: Adobe Targetは、使用するアクティビティインターフェイスとアクティビティ作成機能（Visual Experience ComposerまたはフォームベースのComposer）に応じて、どのターゲット(またはアクティビティ)をページに配信するかを決定します。
 title: Adobe Targetの優先順位
-feature: null
+feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
