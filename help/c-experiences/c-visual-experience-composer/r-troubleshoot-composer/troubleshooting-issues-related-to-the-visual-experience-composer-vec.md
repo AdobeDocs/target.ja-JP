@@ -2,10 +2,10 @@
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Visual Experience Composer（VEC）では、特定の状況で表示の問題が起きることがあります。
 title: Visual Experience Composer に関連する問題のトラブルシューティング
-feature: null
+feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 97%
