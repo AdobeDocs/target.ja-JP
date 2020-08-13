@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
 title: サポートされているブラウザー
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 87%
@@ -36,8 +36,8 @@ The [!DNL Target] interface supports the following browsers and devices:
 
 | デバイスタイプ | ブラウザーのバージョン |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 および 10。エミュレーションモードでテスト済み。<br>**注意&#x200B;**： at.js 1.3.0 以降では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新、最新の 1 つ前）</li><li>Firefox（最新、最新の 1 つ前）</li></ul> |
-| Mac | <ul><li>Apple Safari（最新）<br>**注意&#x200B;**： Safari でファーストパーティ Cookie とサードパーティ Cookie がどのように処理されるかについて詳しくは、「[Target の Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)」を参照してください。</li><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 および 10。エミュレーションモードでテスト済み。<br>**注意**： at.js 1.3.0 以降では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新、最新の 1 つ前）</li><li>Firefox（最新、最新の 1 つ前）</li></ul> |
+| Mac | <ul><li>Apple Safari（最新）<br>**注意**： Safari でファーストパーティ Cookie とサードパーティ Cookie がどのように処理されるかについて詳しくは、「[Target の Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)」を参照してください。</li><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
 | モバイル／タブレット | <ul><li>Apple iOS（最新）</li><li>Android デバイスおよびタブレット（Android 4 以降）</li><li>Microsoft Surface（Windows 8.1）</li></ul> |
 
 以下のことに注意してください。
