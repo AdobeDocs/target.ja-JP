@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers() 関数について説明します。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ ht-degree: 95%
 | Request > id > thirdPartyId | × | 最大サイズ = 128 |  |  |
 | Request > experienceCloud | × |  |  |
 | Request > experienceCloud > analytics | × |  | Adobe Analytics の統合 |
-| Request > experienceCloud > analytics > logging | × | 以下をページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement.js</li></ul> | 以下の値がサポートされます。<br>**client_side **：指定された場合、Data Insertion API を使用して Adobe Analytics に送信するために使用される必要がある呼び出し元に分析ペイロードが返されます。<br>**server_side**：これはデフォルト値で、Target および Analytics バックエンドが SDID を使用して、レポート処理のために呼び出しを共にスティッチします。 |
+| Request > experienceCloud > analytics > logging | × | 以下をページに実装する必要があります。<ul><li>訪問者 ID サービス</li><li>Appmeasurement.js</li></ul> | 以下の値がサポートされます。<br>**client_side**：指定された場合、Data Insertion API を使用して Adobe Analytics に送信するために使用される必要がある呼び出し元に分析ペイロードが返されます。<br>**server_side**：これはデフォルト値で、Target および Analytics バックエンドが SDID を使用して、レポート処理のために呼び出しを共にスティッチします。 |
 | Request > prefetch | × |  |  |
 | Request > prefetch > views | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません<br>使用できない名前：「orderId」、「orderTotal」、「productPurchasedId」 | アクティブなアクティビティで関連するビューを取得するために使用するパラメーターを渡します。 |
 | Request > prefetch > views > profileParameters | × | 最大数 = 50<br>名前は空白にはできません<br>名前の長さ `<=` 128<br>値の長さ `<=` 5000<br>名前は「profile」で始まれません | アクティブなアクティビティで関連するビューを取得するために使用するプロファイルパラメーターを渡します。 |
