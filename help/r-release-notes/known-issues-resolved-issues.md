@@ -2,10 +2,10 @@
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: このリリースの Adobe Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
 title: Adobe Target の既知の問題と解決された問題
-feature: null
+feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 88%
