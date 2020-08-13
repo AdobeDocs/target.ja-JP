@@ -2,12 +2,12 @@
 keywords: Mobile Web Experience Editor
 description: このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
 title: 多変量分析テストのトラブルシューティング
-feature: null
+feature: mvt
 subtopic: Mobile Viewports
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
