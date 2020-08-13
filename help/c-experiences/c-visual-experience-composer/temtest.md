@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: ページテンプレートを使用してページの構造を指定する場合、または複数のページに類似の要素が含まれている場合は、この機能を使用すると、類似のページ要素構造を持つ複数のバリエーションをテストできます。
 title: 類似のページに同じエクスペリエンスを組み込む
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 96%
