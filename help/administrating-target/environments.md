@@ -2,11 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: 環境
-feature: null
+feature: hosts and environments
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 68%
