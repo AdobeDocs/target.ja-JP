@@ -2,10 +2,10 @@
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: Adobe Target で多変量分析テストを成功させるためには、テスト作成前に計画が必要です。
 title: Adobe Target の多変量分析テストの計画
-feature: null
+feature: mvt
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 97%
