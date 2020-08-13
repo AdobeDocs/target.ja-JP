@@ -2,10 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Automated Personalization（AP）および自動ターゲット（AT）アクティビティのユーザーは、自動セグメントレポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
 title: パーソナライゼーションインサイトレポート
-feature: null
+feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
