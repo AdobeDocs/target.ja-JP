@@ -2,10 +2,10 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
 title: Adobe Target のパーソナライゼーションアルゴリズムのデータ収集
-feature: null
+feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
