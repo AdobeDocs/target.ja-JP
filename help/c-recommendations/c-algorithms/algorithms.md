@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe TargetRecommendationsの基準とは、あらかじめ決められた訪問者行動に基づいて、どの商品をレコメンデーションするかを決定する規則です。
 title: Adobe TargetRecommendationsの基準
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 条件 | 説明 |
 |--- |--- |
-| 類似の属性を持つ品目／メディア | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。<br>**注意：**類似の属性を持つ品目／メディアを選択した場合、コンテンツの類似性ルールを設定することができます。 |
+| 類似の属性を持つ品目／メディア | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。<br>**注意：**&#x200B;類似の属性を持つ品目／メディアを選択した場合、コンテンツの類似性ルールを設定することができます。 |
 | これを閲覧した人が他に閲覧したもの | 指定した品目が閲覧された同じセッションで、閲覧される頻度が最も高い品目をレコメンドします。 |
 | これを閲覧した人が購入したもの | 指定した品目が閲覧された同じセッションで、購入される頻度が最も高い品目をレコメンドします。この条件によって、顧客が指定の商品を閲覧した後で購入した他の商品が返されるので、指定した商品は結果セットに含まれません。 |
 | これを購入した人が他に購入したもの | 指定した品目と同時に顧客に購入される頻度が最も高い品目をレコメンドします。 |
