@@ -2,9 +2,9 @@
 keywords: Recommendations;intro;introduction;webinar;demo
 description: 以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示する Adobe Target Recommendations のアクティビティの概要です。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Adobe Target での Recommendations アクティビティの概要
-feature: null
+feature: recommendations general
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 96%
