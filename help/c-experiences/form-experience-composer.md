@@ -2,11 +2,11 @@
 keywords: form-based experience composer;form-based composer;refinements
 description: フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。
 title: フォームベースの Experience Composer
-feature: null
+feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
