@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;multiple metrics;metrics
 description: Adobe Targetを使用したレポートで表示する複数の指標を選択します。
 title: Adobe Targetを使用したレポートでの複数の指標の表示
-feature: null
+feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 70%
