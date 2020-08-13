@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 title: Adobe Target でのオーディエンスの作成
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 | オーディエンスのタイプ | 詳細 |
 |--- |--- |
 | モバイルオーディエンス | マーケティング名、ベンダー、モデル。<br>「 `matches | does not match` インポートされた `equals | does not equal`<br>![モバイルオーディエンス」の代わりに演算子が表示されます](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 訪問者の行動オーディエンス | **user. categoryAffinity:** `categoryAffinity` `FAVORITE` パラメーターを使用します。<br>![インポートされたカテゴリーの親和性監視](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**:**監視サービスがtrueに等しい。<br>**監視なし：** Monitoring service equals false.<br>![インポートされた監視](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 訪問者の行動オーディエンス | **user. categoryAffinity:** `categoryAffinity` `FAVORITE` パラメーターを使用します。<br>![インポートされたカテゴリーの親和性監視&#x200B;](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**:** 監視サービスがtrueに等しい。<br>**監視なし：** Monitoring service equals false.<br>![インポートされた監視](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | NOT 演算子を使用するオーディエンス | **単一ルール:** Targetはオーディエンスを形式で表示 `[All Visitor AND [NOT [rule]` します。単一のNOTルールは、ANDと共に `AllVisitor` 表示されます。<br>![インポートされないオーディエンス](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 インポートしたオーディエンスを操作する際は、次の点に注意してください。
