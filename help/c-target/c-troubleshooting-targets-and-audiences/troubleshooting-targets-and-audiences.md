@@ -2,11 +2,11 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 title: ターゲットとオーディエンスに関する FAQ
-feature: null
+feature: audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
