@@ -2,12 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: タグマネージャー（Adobe Launch または Dynamic Tag Management）を使用しないで Adobe Target を実装する方法について説明します。
 title: タグマネージャーを使用しない Target の実装
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 64%
@@ -58,8 +58,8 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 
 |ページの読み込みが有効です(グローバルmboxを自動作成|各ページの読み込み時に自動的に実行されるように、グローバルmbox呼び出しをat.jsファイルに埋め込むかどうかを選択します。|
 |グローバルmbox|グローバルmboxの名前を選択します。 デフォルトでは、この名前は target-global-mbox です。<br>at.js を使用した mbox 名には、アンパサンド（&amp;）を含む特殊文字を使用できます。|
-|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. 訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、[!DNL Target] がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意： **[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)設定では、[!DNL Target]が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。|
-|プロファイルの有効期間|この設定は、訪問者プロファイルの保存期間を決定します。 デフォルトでは、プロファイルは 2 週間保存されます。この期間は最大で 90 日まで延長することができます。<br>プロファイルの有効期間の設定を変更する場合は、[ClientCareにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)。|
+|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. 訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、[!DNL Target] がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意：**[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定では、[!DNL Target] が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。|
+|プロファイルの有効期間|この設定は、訪問者プロファイルの保存期間を決定します。 デフォルトでは、プロファイルは 2 週間保存されます。この期間は最大で 90 日まで延長することができます。<br>プロファイルの有効期間の設定を変更する場合は、 [ClientCareにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)。|
 
 ### 主な実装方法
 
