@@ -2,12 +2,12 @@
 keywords: Overview and Reference
 description: デフォルトでは、訪問者プロファイルは 14 日間保存されます。このプロファイル有効期間は延長できます。
 title: 訪問者プロファイルの有効期間
-feature: null
+feature: visitor profiles
 subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
