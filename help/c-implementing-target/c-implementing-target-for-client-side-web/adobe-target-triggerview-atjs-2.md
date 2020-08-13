@@ -2,11 +2,11 @@
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 | --- | --- | --- | --- |
 | viewName | 文字列 | ○ | ビューを表す文字列型として任意の名前を渡します。このビュー名は、VEC の「[!UICONTROL 変更]」パネルに表示されます。マーケティング担当者はこれを使用してアクションを作成し、A/B および XT アクティビティを実行します。 |
 | options | オブジェクト | × |  |
-| options > page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>アクティビティエクスペリエンスまたはアクティビティ指標がビューに関連付けられていない場合、通知は送信されません。<br>**FALSE：**page = false の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
+| options > page | ブール値 | × | **TRUE：** ページのデフォルト値は true です。page = true の場合、インプレッション数を増分するために [!DNL Target] のバックエンドに通知が送信されます。<br>アクティビティエクスペリエンスまたはアクティビティ指標がビューに関連付けられていない場合、通知は送信されません。<br>**FALSE：** page = false の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
 ## 例：True
 
