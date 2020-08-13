@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
 title: Adobe Target の at js バージョン 1.*x* から at.js バージョン 2.0.0 へのアップグレード*x*
-feature: null
+feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2747'
 ht-degree: 93%
@@ -28,7 +28,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 
 次の図は、ビューを使用した at.js 2.*x* のワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.*x* で使用されている概念に関するより詳しい概要については、[シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)を参照してください。
 
-![at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)での Target のフロー
+![at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) での Target のフロー
 
 | 呼び出し | 詳細 |
 | --- | --- |
