@@ -2,11 +2,11 @@
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
 description: エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
 title: エクスペリエンスとオファー
-feature: null
+feature: experiences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
