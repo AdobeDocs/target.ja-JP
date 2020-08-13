@@ -2,12 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: Analytics を Target のレポートソースとして使用すると（A4T）、Target アクティビティに関する Analytics レポートを利用できるようになります。
 title: A4T レポート
-feature: null
+feature: a4t reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
