@@ -2,10 +2,10 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: オファーライブラリを使用して、コードオファーおよび画像オファーコンテンツを管理します。
 title: オファー
-feature: null
+feature: offers
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 97%
