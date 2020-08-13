@@ -2,10 +2,10 @@
 keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
 title: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成します。
-feature: null
+feature: audiences
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 99%
