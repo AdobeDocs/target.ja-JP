@@ -2,12 +2,12 @@
 keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
 title: Adobe Experience Cloud からの Target へのアクセス
-feature: null
+feature: intro
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 76%
