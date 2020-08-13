@@ -2,11 +2,11 @@
 keywords: implement;implementing
 description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
 title: Target の実装
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
