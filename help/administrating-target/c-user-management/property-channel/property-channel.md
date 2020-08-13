@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 title: Enterprise ユーザーの権限
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -28,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]お客様&#x200B;**:「[!UICONTROL ユーザー]」タブ(管理者[!UICONTROL /ユーザー])が表示される(「[!UICONTROL プロパティ]」タブは表示されない)場合は、組織に[!DNL Target Standard]ライセンスがあります。[!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)」の指示に従う必要があり[!DNL Adobe Admin Console]ます。
+* **[!DNL Target Standard]お客様**:「 [!UICONTROL ユーザー] 」タブ(管理者[!UICONTROL /ユーザー])が表示される(「 [!UICONTROL プロパティ] 」タブは表示されない)場合は、組織に [!DNL Target Standard] ライセンスがあります。 [!DNL Target Standard]ユーザーを追加し、権限をに割り当てるには、「 [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) 」の指示に従う必要があり [!DNL Adobe Admin Console]ます。
 
-* **[!DNL Target Premium]お客様&#x200B;**:「[!UICONTROL プロパティ]」タブ([!UICONTROL 管理/プロパティ])と「[!UICONTROL ユーザー]」タブが表示された場合は、組織にライセンスがあり[!DNL Target Premium]ます。[!DNL Target Premium]のお客様はこの記事と[Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
+* **[!DNL Target Premium]お客様**:「 [!UICONTROL プロパティ] 」タブ([!UICONTROL 管理/プロパティ])と「 [!UICONTROL ユーザー] 」タブが表示された場合は、組織にライセンスがあり [!DNL Target Premium] ます。 [!DNL Target Premium] のお客様はこの記事と [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md)の指示に従う必要があります。
 
 ## エンタープライズ権限を使用する前に
 
