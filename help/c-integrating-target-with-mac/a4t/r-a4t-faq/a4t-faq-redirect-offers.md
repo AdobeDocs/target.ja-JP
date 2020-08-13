@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のリダイレクトオファーの使用に関するよくある質問に対する回答が含まれています。
 title: リダイレクトオファー - A4T FAQ
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 96%
