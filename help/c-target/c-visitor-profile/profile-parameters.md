@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 title: Adobe Target のプロファイル属性
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
@@ -36,7 +36,7 @@ ht-degree: 77%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意&#x200B;**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -144,7 +144,7 @@ if (mbox.name == 'Track_Interest') {
    * プロファイルスクリプトは小さく、できるだけ単純にします。
    * 正規式を使用しないでください。または、非常に単純な正規式のみを使用してください。 単純な式でも、評価に多くの指示を受けることができます。
    * 再帰を避けます。
-   * プロファイルスクリプトをターゲットに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行にはより長い時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
+   * プロファイルスクリプトをターゲットに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行に時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
    * プロファイルスクリプトが複雑すぎる場合は、 [応答トークンの代わりに](/help/administrating-target/response-tokens.md) 、
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
