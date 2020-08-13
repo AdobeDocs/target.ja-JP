@@ -2,11 +2,11 @@
 keywords: Targeting
 description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
 title: コンバージョン率
-feature: null
+feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
