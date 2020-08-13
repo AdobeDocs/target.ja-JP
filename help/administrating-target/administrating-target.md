@@ -2,12 +2,12 @@
 keywords: setting up;setup;set-up;set up;administration
 description: 環境設定、実装、ユーザー管理、プロパティ、Scene7設定、ホスト管理、応答トークンなど、Adobe Targetのセットアップに役立つ情報です。
 title: Adobe Target の管理
-feature: null
+feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 18%
