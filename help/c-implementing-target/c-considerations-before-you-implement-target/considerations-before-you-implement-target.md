@@ -2,12 +2,12 @@
 keywords: implement;implementing
 description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 title: 実装する前に
-feature: null
+feature: implementation pre-reqs
 subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 96%
