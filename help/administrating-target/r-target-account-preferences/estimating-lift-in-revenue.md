@@ -2,11 +2,11 @@
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。
 title: 売上高上昇の予測
-feature: null
+feature: administration general
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 100%
