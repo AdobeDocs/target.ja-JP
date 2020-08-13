@@ -2,11 +2,11 @@
 keywords: at.js;2.0;1.x;cookies
 description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
 title: Adobe Target の at.js の Cookie
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 98%
@@ -155,4 +155,4 @@ Apple の発表内容：
 | 影響を受ける機能 | 詳細 |
 |--- |--- |
 | オプトアウトのサポート | Apple の WebKit 追跡における変更により、オプトアウトのサポートが影響を受けます。<br>Target のオプトアウトでは、`clientcode.tt.omtrdc.net` ドメインの Cookie が使用されます。詳しくは、「[プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)」を参照してください。<br>Target では、次の 2 種類のオプトアウトがサポートされます。<ul><li>クライアントごと（クライアントがオプトアウトリンクを管理します）。</li><li>アドビ経由。すべてのお客様のすべての Target 機能からユーザーをオプトアウトします。</li></ul>どちらの方法でもサードパーティ Cookie が使用されます。 |
-| Target アクティビティ | お客様は、Target アカウントの[プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)を選択できます（最長 90 日）。問題として、アカウントのプロファイルの有効期間が 30 日を超過し、お客様のドメインがサイトを横断してユーザーを追跡するとマークされているという理由でファーストパーティ Cookie が消去された場合、Target の次の領域で Safari 訪問者に対する動作が影響を受けることが考えられます。<br>**Target レポート&#x200B;**： Safari ユーザーがアクティビティに参加してから 30 日後に戻り、コンバージョンを達成すると、そのユーザーは、2 人の訪問者と 1 つのコンバージョンとしてカウントされます。<br>この動作は、Analytics をレポートソースに使用する（A4T）アクティビティでも同じです。<br>**プロファイルおよびアクティビティメンバーシップ**：<ul><li>プロファイルデータは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li>アクティビティメンバーシップは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li> サードパーティ Cookie 実装またはファーストパーティおよびサードパーティ Cookie 実装を使用しているアカウントの Safari では、Target は動作しません。この動作は新しいものではありません。Safari では、サードパーティ Cookie を以前から許可していません。</li></ul><br>**提案&#x200B;**：顧客ドメインがセッションを横断して訪問者を追跡しているとマークされているか心配な場合、Target でプロファイルの有効期間を 30 日以下に設定するのが安全です。これにより、ユーザーは Safari と他のすべてのブラウザーで同様に追跡されます。 |
+| Target アクティビティ | お客様は、Target アカウントの[プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)を選択できます（最長 90 日）。問題として、アカウントのプロファイルの有効期間が 30 日を超過し、お客様のドメインがサイトを横断してユーザーを追跡するとマークされているという理由でファーストパーティ Cookie が消去された場合、Target の次の領域で Safari 訪問者に対する動作が影響を受けることが考えられます。<br>**Target レポート**： Safari ユーザーがアクティビティに参加してから 30 日後に戻り、コンバージョンを達成すると、そのユーザーは、2 人の訪問者と 1 つのコンバージョンとしてカウントされます。<br>この動作は、Analytics をレポートソースに使用する（A4T）アクティビティでも同じです。<br>**プロファイルおよびアクティビティメンバーシップ**：<ul><li>プロファイルデータは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li>アクティビティメンバーシップは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li> サードパーティ Cookie 実装またはファーストパーティおよびサードパーティ Cookie 実装を使用しているアカウントの Safari では、Target は動作しません。この動作は新しいものではありません。Safari では、サードパーティ Cookie を以前から許可していません。</li></ul><br>**提案**：顧客ドメインがセッションを横断して訪問者を追跡しているとマークされているか心配な場合、Target でプロファイルの有効期間を 30 日以下に設定するのが安全です。これにより、ユーザーは Safari と他のすべてのブラウザーで同様に追跡されます。 |
