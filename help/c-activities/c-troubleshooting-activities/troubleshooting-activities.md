@@ -2,11 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: サイトにアクティビティが表示されない場合は、ここに示すトラブルシューティングの提案が解決に役立ちます。
 title: アクティビティのトラブルシューティング
-feature: null
+feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
