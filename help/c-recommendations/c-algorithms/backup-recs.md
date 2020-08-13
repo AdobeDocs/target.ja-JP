@@ -2,10 +2,10 @@
 keywords: recommendation;backup;back up
 description: 代替レコメンデーション機能を使用している場合は、レコメンデーションに十分なレコメンデーション品目がなくても、デフォルトコンテンツが表示されません。その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
 title: 代替レコメンデーションの使用
-feature: null
+feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
