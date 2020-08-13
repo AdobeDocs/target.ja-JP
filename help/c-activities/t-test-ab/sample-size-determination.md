@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: A/B テストを成功させるにはコンバージョン率を向上させるのに十分な数の訪問者（サンプルサイズ）が必要ですが、A/B テストを実行すべき期間はどのようにすれば知ることができますか？この記事では、自動配分アクティビティと Target サンプルサイズ計算ツールを使用して、目標を達成するのに十分な数の訪問者をアクティビティで確保する方法について説明します。
 title: A/B テストを実行すべき期間はどのくらいですか？
-feature: null
+feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 98%
