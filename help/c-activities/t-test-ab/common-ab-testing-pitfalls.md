@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: A/B テストは、ほとんどのデジタルマーケティング最適化プログラムの根幹をなすもので、マーケティング担当者が最適化され、ターゲット設定されたエクスペリエンスを訪問者および顧客に提供するのを支援します。ここでは、Adobe TargetでA/Bテストを行う際に会社が悪影響を受ける最も重要な問題の9つについて説明します。 また、回避方法についても説明し、会社がテストの取り組みを通じてより優れた ROI を達成し、レポートされた A/B テストの結果の信頼性が高まります。
 title: 9 つの一般的な A/B テストの落とし穴と回避方法
-feature: null
+feature: ab
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
