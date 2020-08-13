@@ -2,11 +2,11 @@
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
 title: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -27,7 +27,7 @@ API の詳細を次に示します。
 | mbox | 文字列 | ○ | mbox 名 |
 | selector | 文字列 | × | CSS セレクターは HTML 要素を見つけるために使用されます。イベントリスナーが、見つけた要素に添付されます. |
 | type | 文字列 | × | 登録されたイベントタイプを表します。クリック、マウスダウンなどの HTML の既知のイベントとカスタム HTML イベントの両方が可能です。 |
-| preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意&#x200B;**：`form[submit] and `と[クリック]のみがサポートされています。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
+| preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意**： `form[submit] and ` と [クリック]のみがサポートされています。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
 | params | オブジェクト | × | mbox パラメーター。次の構造を持つキーと値のペアのオブジェクト。<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | 数値 | × | タイムアウト（ミリ秒）。<br>指定しない場合は、次のデフォルト値が使用されます。<br>`...timeoutInSeconds: 0.15...}` |
 | success | 関数 | × | イベントが繰り返されたことを伝えるために使用されるコールバック関数。 |
