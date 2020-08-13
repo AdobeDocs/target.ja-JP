@@ -2,11 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;users;user management
 description: Adobe Target でのユーザー管理のトラブルシューティングについて説明します。
 title: ユーザー管理のトラブルシューティング
-feature: null
+feature: user management
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 30%
