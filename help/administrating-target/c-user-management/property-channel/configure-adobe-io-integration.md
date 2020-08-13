@@ -2,10 +2,10 @@
 keywords: integration;roles;user permissions;admin console
 description: Adobe Target で目的の役割を持つすべてのワークスペースに対する既存の Adobe I/O 統合のアクセス権の付与について説明します
 title: Adobe Target でのワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
-feature: null
+feature: user management
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 88%
