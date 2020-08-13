@@ -2,11 +2,11 @@
 keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: 複数のオーディエンス（Adobe Experience Cloud オーディエンスと Target オーディエンスを含む）をその場で結合し、アドホックなオーディエンスを作成します。また、除外ルールを作成して、ルールからオーディエンスを除外できます。
 title: Adobe Target での複数のオーディエンスの結合
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
