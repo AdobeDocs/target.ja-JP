@@ -2,12 +2,12 @@
 keywords: Goal &Settings;objective;priority;duration
 description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
 title: アクティビティの設定
-feature: null
+feature: activities
 subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 90%
