@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 title: プロファイルと変数の用語集
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 93%
@@ -88,7 +88,7 @@ ht-degree: 93%
 | mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および[顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
 | mboxDebug | デバッグ情報にのみ使用されます。mbox.js が探すページ URL に追加されます。 |
-| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：**mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for[Target](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に[アクティビティQAモード](/help/c-activities/c-activity-qa/activity-qa.md)を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
+| mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
 
 ## 顧客属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
