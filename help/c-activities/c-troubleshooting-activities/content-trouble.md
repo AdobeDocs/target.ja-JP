@@ -2,12 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: ページに期待したコンテンツが表示されない場合は、Adobe Targetでコンテンツの配信をデバッグするためにいくつかの手順を実行できます。
 title: Adobe Targetでのコンテンツ配信のトラブルシューティング
-feature: null
+feature: activities
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
