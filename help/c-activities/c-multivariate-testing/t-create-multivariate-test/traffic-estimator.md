@@ -1,11 +1,11 @@
 ---
 description: 多変量分析テストでは複数のエクスペリエンスを比較するので、有意な結果を得るためにはどの程度のトラフィックが必要かを把握しておくことが重要です。トラフィック見積もり機能は、ページに関する統計情報とテスト中のエクスペリエンスの数に基づいて、テストを正常に完了させるために必要なトラフィック数とテスト期間を見積もります。
 title: テストを成功させるために必要なトラフィックの見積もり
-feature: null
+feature: mvt
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
