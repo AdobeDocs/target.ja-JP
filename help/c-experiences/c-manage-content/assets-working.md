@@ -2,10 +2,10 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: ライブラリ内のアセットで実行できるタスクは多数あります。
 title: ライブラリ内のコンテンツの操作
-feature: null
+feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
