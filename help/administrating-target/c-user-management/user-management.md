@@ -2,12 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
 title: ユーザー管理
-feature: null
+feature: user management
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
