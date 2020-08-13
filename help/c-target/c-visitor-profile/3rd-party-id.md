@@ -2,11 +2,11 @@
 keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: 'リアルタイムプロファイルについて説明します。 '
 title: Adobe Target での mbox3rdPartyId のリアルタイムプロファイル同期
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 81%
