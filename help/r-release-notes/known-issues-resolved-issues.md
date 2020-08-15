@@ -5,9 +5,9 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 88%
 ### アクティビティ QA プレビューリンク {#preview}
 
 アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティの[アクティビティ QA プレビュー](/help/c-activities/c-activity-qa/activity-qa.md)リンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。これが継続して発生するのを避けるには、アクティブに使用しなくなった、保存されたアクティビティをアーカイブします。（TNT-32697）
+
+### RecommendationsアクティビティのQAモード
+
+既知の問題により、アクティビティで使用される条件が項目ベースまたはカテゴリベースの場合、プレビューが妨げられます。 （TNT-37455）
 
 ### リダイレクトオファー {#redirect}
 
