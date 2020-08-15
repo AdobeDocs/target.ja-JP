@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 39%
+source-wordcount: '1686'
+ht-degree: 38%
 
 ---
 
@@ -355,7 +355,7 @@ window.targetGlobalSettings = {
 
 ### コードサンプル
 
-この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -476,6 +476,8 @@ Consider the following when using `serverState`:
    これらの設定をオンにするには、 **[UICONTROL管理/実装/編集/ページ読み込み有効に切り替え]**&#x200B;ます。
 
    ![ページ型設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* 返されるコンテンツで `serverState` タグを使用していて、タグを使用している場合は、HTMLコンテンツではなくが使用されてい `<script>` ることを確認してくだ `<\/script>``</script>`さい。 を使用する場合 `</script>`、ブラウザーはインラインスクリプト `</script>` の最後として解釈され、HTMLページが壊れる可能性があります。
 
 ### その他のリソース
 
