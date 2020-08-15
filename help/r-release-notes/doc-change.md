@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1894'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月14日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | RecommendationsアクティビティでのQAに関する既知の問題を追加しました。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 返されるコンテンツでタグを使用し `serverState` 、 `<script>` タグを使用している場合、HTMLコンテンツではなくが使用されていることを確認するテキストを追加し `<\/script>``</script>`ました。 |
 | 8月12日 | [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md) | 新規トピックです。 |
 |  | [Adobe TargetAPIの概要](/help/api/api-overview.md) | 新規トピックです。 |
 | 8月10日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAMEを使用する場合にcookieヘッダーのサイズが増えることを示すテキストを追加しました。 |
