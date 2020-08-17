@@ -5,7 +5,7 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3403'
 ht-degree: 88%
@@ -54,10 +54,6 @@ ht-degree: 88%
 
 * シングルページアプリケーション（SPA）Web サイトでは、読み込みをキャンセルすると、[!UICONTROL 変更]パネルのアクションを編集できません。
 
-### Target API でのエンタープライズパーミッション {#api}
-
-オファーのリストが GET API を使用して取得された場合、オファーライブラリの Target UI から作成されたコードオファーがデフォルトのワークスペースに表示されることがあります。この問題は 2019 年 3 月の第一週に修正されます。この修正が行われると、API から取得すると、コードオファーが適切なワークスペースに表示されます。この問題は API から作成されたオファーには影響&#x200B;*しません*。例えば、API から作成したコードオファーは、GET API を使用して取得されたか、Target UI から取得されたかにかかわらず、作成されたワークスペースに表示されます。
-
 ### Recommendations
 
 Recommendations アクティビティの既知の問題は次のとおりです。
@@ -99,14 +95,6 @@ at.js の既知の問題を以下に示します。
 
    **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
 
-### 実装：グローバル mbox 自動作成
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
-
-プロビジョニング後に最初に mbox.js をダウンロードすると、ダウンロードした mbox.js ファイルと [!UICONTROL  のバックエンドでは、「]グローバル mBox 自動作成[!DNL Target]」フィールドが「true」になりますが、UI の[!UICONTROL 実装]ページでは、ページが更新されるまで表示は「false」のままになります（ページを更新すると「true」になります）。
-
- at.js は、新しくプロビジョニングされたテナント `global_mbox_autocreate = false` 用にダウンロードされます。mbox. js を最初にダウンロードした場合は、global\_mbox\_autocreate が「true」に設定され、at.js も `global_mbox_autocreate = true` と一緒にダウンロードされます。（TGT-15929）
-
 ### 成功指標
 
 アドバンスオプション「カウントをどのように増分しますか？」を「すべてのインプレッション」または「すべてのインプレッション（ページの更新を除く）」に設定した成功指標を使用することはできません。1 つの成功指標に別の指標が依存することになるからです。
@@ -146,6 +134,18 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
 
 **注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+
+### 実装：グローバル mbox 自動作成
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+
+プロビジョニング後に最初に mbox.js をダウンロードすると、ダウンロードした mbox.js ファイルと [!UICONTROL  のバックエンドでは、「]グローバル mBox 自動作成[!DNL Target]」フィールドが「true」になりますが、UI の[!UICONTROL 実装]ページでは、ページが更新されるまで表示は「false」のままになります（ページを更新すると「true」になります）。
+
+ at.js は、新しくプロビジョニングされたテナント `global_mbox_autocreate = false` 用にダウンロードされます。mbox. js を最初にダウンロードした場合は、global\_mbox\_autocreate が「true」に設定され、at.js も `global_mbox_autocreate = true` と一緒にダウンロードされます。（TGT-15929）
+
+### Target API でのエンタープライズパーミッション {#api}
+
+オファーのリストが GET API を使用して取得された場合、オファーライブラリの Target UI から作成されたコードオファーがデフォルトのワークスペースに表示されることがあります。この問題は 2019 年 3 月の第一週に修正されます。この修正が行われると、API から取得すると、コードオファーが適切なワークスペースに表示されます。この問題は API から作成されたオファーには影響&#x200B;*しません*。例えば、API から作成したコードオファーは、GET API を使用して取得されたか、Target UI から取得されたかにかかわらず、作成されたワークスペースに表示されます。
 
 ### レポートと極端な注文
 
