@@ -5,9 +5,9 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ ht-degree: 88%
 
 ### ページ配信 {#page-delivery}
 
-[ページ配信](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、ルールの先頭に余分なスペースが付加されます。これは表面的な問題であり、オーディエンス定義の作成やオファーの配信には影響しません。（TGT-35916）
-
-### アクティビティ QA プレビューリンク {#preview}
-
-アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティの[アクティビティ QA プレビュー](/help/c-activities/c-activity-qa/activity-qa.md)リンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。これが継続して発生するのを避けるには、アクティブに使用しなくなった、保存されたアクティビティをアーカイブします。（TNT-32697）
+[ページ配信](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、ルールの先頭に余分なスペースが付加されます。これは表面的な問題であり、オーディエンス定義の作成やオファーの配信には影響しません。（TGT-35920）
 
 ### RecommendationsアクティビティのQAモード
 
@@ -43,10 +39,6 @@ ht-degree: 88%
 
 * ある条件下で、限られた数のお客様が、Analytics for Target（A4T）で設定されたアクティビティのリダイレクトオファーを使用する場合、トラフィック配布の相違の比率が高くレポートされています。アドビのエンジニアが、現在、この問題に対処しています。
 * at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
-
-### カスタムエクスペリエンスをコントロールとして使用している場合、自動ターゲットアクティビティのグラフレポートでレンダリングに失敗します。
-
-任意のエクスペリエンスにデータがない（訪問回数 0）場合、自動ターゲットアクティビティのグラフレポートで、「微分」モード（平均上昇率および日別の上昇率）のレンダリングに失敗します。この状況は、コントロールエクスペリエンスがカスタムに設定されている場合、アクティビティの初期段階で発生する可能性があります。他のモード（実行平均コントロールおよびターゲット、日別コントロールおよびターゲット、訪問回数）では、正常に機能します。データがあればすぐに（訪問回数 0 以外）、レポートは期待どおりにレンダリングされます。
 
 ### VEC 内でのページ読み込みのキャンセル {#cancel}
 
@@ -107,12 +99,6 @@ at.js の既知の問題を以下に示します。
 
    **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
 
-### mbox.js
-
-mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
-
-**注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
-
 ### 実装：グローバル mbox 自動作成
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上記の既知の問題が解決されると、それらは以降のセクションに移動され、必要に応じてメモが追加されます。
+
+### カスタムエクスペリエンスをコントロールとして使用している場合、自動ターゲットアクティビティのグラフレポートでレンダリングに失敗します。
+
+任意のエクスペリエンスにデータがない（訪問回数 0）場合、自動ターゲットアクティビティのグラフレポートで、「微分」モード（平均上昇率および日別の上昇率）のレンダリングに失敗します。この状況は、コントロールエクスペリエンスがカスタムに設定されている場合、アクティビティの初期段階で発生する可能性があります。他のモード（実行平均コントロールおよびターゲット、日別コントロールおよびターゲット、訪問回数）では、正常に機能します。データがあればすぐに（訪問回数 0 以外）、レポートは期待どおりにレンダリングされます。
+
+この問題は、Target 19.7.1 リリースで修正されました。
+
+### mbox.js
+
+mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
+
+**注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ### レポートと極端な注文
 
