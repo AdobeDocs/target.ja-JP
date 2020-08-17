@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '30028'
+source-wordcount: '29474'
 ht-degree: 89%
 
 ---
@@ -30,7 +30,7 @@ Target Standard／Premium、Target プラットフォームおよび Target Java
 | --- | --- |
 | Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、ターゲットの [Analyticsがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL Adobe Analytics目標指標や] Adobe Analytics  レポートおよび分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分アクティビティに対する](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
 | 自動ターゲットおよびAutomated Personalizationアクティビティのトラフィック配分方法の応答トークン | 「 [自動ターゲット](/help/administrating-target/response-tokens.md) 」と「 [!UICONTROL Automated Personalization] アクティビティ」に [!UICONTROL 2つの] 応答トークンが追加され、訪問者が「制御」トラフィックまたは「ターゲット」トラフィックに割り当てられた結果として特定のエクスペリエンスを受け取ったかどうかを判断できるようになりました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、「Automated Personalizationまたは自動ターゲットのアクティビティのコントロールを [選択します](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー 」で役割と権限を指定します。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
+| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
 | 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 [!UICONTROL Analyticsターゲット版(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、A4TレポートのAnalytics [の](/help/c-integrating-target-with-mac/a4t/reporting.md) レポートおよびAnalytics forターゲットの *Analytics* (A4T)パネル [(A4T)の、](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)** Analyticsツールガイドのレポートを参照してください。 |
 
 **機能強化、修正および変更**
@@ -1457,13 +1457,6 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>変更を加え、クリック追跡が visibility プロパティに干渉しないようにしました。クリック追跡要素が、<span class="codeph">at-element-marker</span> ではなく <span class="codeph">at-element-click-tracking</span> の CSS クラスに分類されます。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 19 日</b> </p> <p> <span class="filepath">mbox.js</span> バージョン 63 がリリースされました。詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">mbox.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">mbox.js</span> バージョン 63 には、次の機能強化および修正が含まれています。 </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7"><span class="codeph">mboxDefine()</span> と <span class="codeph">mboxUpdate()</span> を使用する際の SDID の生成に関する問題を修正します。対象となるのは、ページで訪問者 API を使用しているお客様のみです。 </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    `marketingCloudMetadata(remoteModifiedBy)`
 
    このインポートジョブは、アクティビティページが開かれたときに実行されます（最大遅延時間は 10 分）。（KB-1526）
-
-### Target プラットフォームの変更点（2017 年 7 月 19 日） {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 変更 </th> 
-   <th colname="col2" class="entry"> 詳細 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 19 日</b> </p> <p> <span class="filepath">mbox.js</span> バージョン 63 がリリースされました。詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">mbox.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">mbox.js</span> バージョン 63 には、次の機能強化および修正が含まれています。 </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7"><span class="codeph">mboxDefine()</span> と <span class="codeph">mboxUpdate()</span> を使用する際の SDID の生成に関する問題を修正します。対象となるのは、ページで訪問者 API を使用しているお客様のみです。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 8 日</b> </p> <p> <span class="filepath">at.js</span> バージョン 1.0 がリリースされました。詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">at.js</span> バージョン 1.0 には、次の機能強化および修正が含まれています。 </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>ページ読み込みを高速化するために、at.js の非同期での読み込みに対応。 </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>at.js を非同期で読み込む際のページコンテンツの事前非表示に対応。 </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>コンテンツ配信が無効にされたときのエラーメッセージを改善。 </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>複数のアクティビティを配信する際のパフォーマンスを向上。 </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>YUI Compressor に対応。 </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>アクティビティ配信時のカスタムイベントのバグ／エラーレポート。 </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>Microsoft Internet Explorer 11 のパフォーマンスの問題を修正。 </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p>一部の Web サイトで <span class="codeph">getOffer()</span> 関数によりエラーが発生する問題を修正。 </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>Target ライブラリを非同期で読み込み。 </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard／Premium 17.6.2（2017 年 6 月 23 日） {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1844,14 +1802,6 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p><span class="codeph">secureOnly</span> 設定が追加され、<span class="codeph">at.js</span> で HTTPS のみを使用するか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。この詳細設定のデフォルト値は False で、<span class="codeph">targetGlobalSettings</span> で上書きできます。（TNT-26183） </p> <p>詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a> を参照してください。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>「<span class="wintitle">レガシーブラウザーのサポート</span>」オプションは、<span class="codeph">at.js</span> バージョン 0.9.3 以前で使用できます。このオプションは、<span class="codeph">at.js</span> バージョン 0.9.4 で削除されました。 </p> <p>詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js の設定</a>を参照してください。 </p> </li> 
      </ul> </p> <p><span class="codeph">at.js</span> の各バージョンでの変更点について詳しくは、<a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js のバージョンの詳細</a>を参照してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js</span> バージョン 62 </p> </td> 
-   <td colname="col2"> <p>2017 年 1 月 19 日 </p> <p> <span class="codeph">mbox.js</span> バージョン 62 には、次の機能強化と修正点が含まれています。 </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>Google Chrome ブラウザーでリダイレクトアクティビティを表示した際のちらつきの問題を修正しました。（TNT-24928） </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p><span class="codeph">secureOnly</span> 設定が追加され、<span class="codeph">mbox.js</span> で HTTPS のみ使用可能にするか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。これは詳細設定で、デフォルトでは False に設定されています。（TNT-26183） </p> <p>詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">mbox.js の設定</a>を参照してください。 </p> </li> 
-     </ul> </p> <p><span class="codeph">mbox.js</span> の各バージョンでの変更点について詳しくは、<a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js のバージョンの詳細</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2111,27 +2061,6 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * 現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
 
-### Target プラットフォームの変更点（2016 年 8 月） {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 変更 </th> 
-   <th colname="col2" class="entry"> 詳細 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> バージョン 61 </p> </td> 
-   <td colname="col2"> <p>2016 年 8 月 24 日 </p> <p> <span class="filepath">mbox.js</span> バージョン 61 には、8 月リリースに次の変更点が含まれます。 </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> <span class="filepath">mbox.js</span> バージョン 61 は、<span class="keyword">Target Standard／Premium</span> と <span class="keyword">Target Classic</span> ユーザーインターフェイスでデフォルトでダウンロードされるようになりました。 </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>将来の Adobe Experience Cloud オプトアウト機能をサポートするために <span class="codeph">optoutEnabled</span> 設定が追加されました。デフォルト値は false です。このプロパティを有効化すると、バージョン 60 と同様、すべての要求が <span class="filepath">/ajax</span> に対して非同期で実行されます。 </p> </li> 
-     </ul> </p> <p><span class="filepath"> mbox. js </span> バージョン61のすべての変更について詳しくは、 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> mbox. jsバージョンの詳細 </a> を参照してください。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日）リリースには次の機能および機能強化が含まれています。
@@ -2199,10 +2128,6 @@ Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日）リリースに
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js</span> バージョン 0.9.1 </p> </td> 
    <td colname="col2"> <p>2016 年 7 月 15 日 </p> <p> <span class="filepath">at.js</span> バージョン 0.9.1 がリリースされました。 </p> <p>詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js のバージョンの詳細</a>を参照してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> バージョン 61 </p> </td> 
-   <td colname="col2"> <p>2016 年 7 月 29 日 </p> <p> <span class="codeph">mbox.js</span> バージョン 61 がダウンロードできます。Version 61 は現在デフォルトのダウンロードです。 </p> <p>詳しくは、<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> mbox. jsのバージョンの詳細 </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2398,16 +2323,6 @@ at.js を実装する際には、以下のことに注意してください。
 * 非同期実装は、Test&amp;Target と SiteCatalyst プラグインのような従来の統合が動作しない可能性があることを意味します。
 * mbox.js オブジェクトおよびメソッドを参照する Target プラグインはサポートされません。
 * Target に対するすべての呼び出しは XMLHTTPRequest を使用しておこなわれ、コンテンツは JSON を使用して返されます。
-
-### Target プラットフォームの変更 {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* [mbox.js バージョン 60](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825) がデフォルトのダウンロードになりました。
-* バージョン 50 より前の mbox.js は、積極的にはテストされません。実装がまだ更新されていない場合、追加の QA がすべての Target コンテンツ配信およびレポートコレクションで実行されていることを確認してください。
-* Flash キャンペーンおよびその他の Flash 関連の項目は、Target から削除されました。
-* Internet Explorer 10 は、Target インターフェイスでサポートされなくなりました。
-* Internet Explorer 8、9 および 10 でのコンテンツ配信のサポートは、今後のリリースで終了する予定です。
-
-   Microsoft によるこれらのブラウザーのアクティブサポートの終了を受けて、これらのブラウザーに対するアクティブテストは、将来のリリースで停止されます。Target は、引き続きこれらのブラウザーにコンテンツを配信しますが、コンテンツ配信およびレポートのデータ収集をテストする必要があります。
 
 ### Adobe Target Standard／Premium 16.4.1（2016 年 5 月 6 日） {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -3173,9 +3088,6 @@ target/r_release-notes-2015.xml
 **既知の問題**
 
 * Analytics が Target のレポートソースとして使用されている場合に、Target Standard／Premium での多変量テストに対する Target ベースの変換イベントが報告されません。この問題は、まもなく修正される予定です。
-* mbox.js バージョン 56 では、「extra JavaScript」セクションが、グローバル mbox の前に実行される位置に移動しています。
-
-   バージョン 56 以降のすべての設定には名前空間が付加されます。「extra JavaScript」に関数が宣言されている場合は、ウィンドウでプレフィックスを付ける必要があります。詳しくは、[mbox.js の変更ログ](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)を参照してください。
 
 ### Adobe Target 15.2.1（2015 年 2 月 20 日） {#section_9AA19B060D814E08A673FB752E21D0C3}
 
