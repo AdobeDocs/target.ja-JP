@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 ## 注意点 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 自動パーソナライゼーション（AP）を除くすべてのアクティビティタイプの[!UICONTROL 概要]ページに「[!UICONTROL アクティビティ QA]」リンクが表示されます。AP アクティビティでは、[プレビューリンク](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)を使用できます。
+* アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティのアクティビティ QA プレビューリンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。これが継続して発生するのを避けるには、アクティブに使用しなくなった、保存されたアクティビティをアーカイブします。
 * アクティビティ QA URL は、Analytics がレポートソースに設定されている（A4T）アクティビティで使用できます。アクティビティ QA を使用した QA の実行中に生成されたヒットは、アクティビティがライブになった後でも、アクティビティのデータが渡されるのと同じレポートスイートに渡されます。
 * アクティビティ QA は、アーカイブされたアクティビティまたは終了日を過ぎたアクティビティに対してコンテンツを表示しません。終了したアクティビティを非アクティブ化した場合、アクティビティ QA が動作するためにはアクティビティを再度保存する必要があります。
 * Target Classic などから Target Standard/Premium にインポートされたアクティビティでは、QA URL は利用できません。
