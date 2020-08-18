@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 29%
+source-wordcount: '1814'
+ht-degree: 30%
 
 ---
 
@@ -99,7 +99,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [リダイレクターの使用](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
 |  | [Recommendations と電子メールの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
 |  | [電子メール：Target の実装](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | オープンリダイレクトの脆弱性を回避するためのホストの使用に関する情報を追加しました。 |
-| 7 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 2020年8月30日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 ウェビナーを今後30日間視聴できるリンクがあります。 |
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 「考慮事項」節を更新しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「設定」の下の「overrideMboxEdgeServer」行を更新しました。 |
 | 6 年 5 月 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | ITP 2.3に関する情報を追加しました。 |
@@ -115,7 +114,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premiumリリース(20.4.1)の日付を5月6日に変更しました。 |
 | 23 年 4 月 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピックを更新しました。 |
 | 22 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次の節を追加しました。 *プロファイルバッチステータスAPI v2の変更（2020年5月4日）* |
-| 20 年 4 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次の節を追加しました。 *Adobe Targetスキルビルダー：開発者チャットでは、Adobe Targetのmbox.jsをat.jsに移行します。* |
 | 14 年 4 月 | [許可リストターゲットエッジホスト](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 新規トピックです。 |
 | 10 年 4 月 | [シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 次の節を追加しました。「導入のベストプラクティス」 |
 | 7 年 4 月 | [上昇率と信頼性 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 「計算指標の上昇率と信頼性を表示できないのはなぜですか？」のテキストを更新しました。 |
@@ -135,7 +133,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
 | 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudナビゲーションに関する情報を追加しました。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 次の設定に関する情報を追加しました。 `pageLoadEnabled` と `viewsEnabled`。 |
-| 2 月 20 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | mbox.jsライブラリの今後の廃止に関する情報を追加しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1でサポートさ `mboxOverride.browserIp` れていることに関する注意を追加しました。*x* のみで使用できます。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | ターゲットチームがサポートするat.jsのバージョンを説明するテキストを明確にしました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
