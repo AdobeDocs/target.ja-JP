@@ -7,19 +7,19 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 73%
+source-wordcount: '208'
+ht-degree: 86%
 
 ---
 
 
 # グローバル mbox について{#understand-the-global-mbox}
 
-グローバルmboxについて取り上げます。グローバルmboxとは、Adobe Targetの実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
+グローバル mbox について説明します。グローバル mbox とは、[!DNL Adobe Target] 実装の各 Web ページの最上部でおこなわれる単一のサーバーコールを参照するために使用される名前です。
 
-デフォルトでは、グローバル mbox は、[!DNL target-global-mbox] という名前が付いています。必要に応じて、アカウント用に名前を変更できます。
+デフォルトでは、グローバル mbox は、`target-global-mbox` という名前が付いています。必要に応じて、アカウント用に名前を変更できます。
 
 標準の mbox（非グローバル mbox）とグローバル mbox には、次のようないくつかの違いがあります。
 
