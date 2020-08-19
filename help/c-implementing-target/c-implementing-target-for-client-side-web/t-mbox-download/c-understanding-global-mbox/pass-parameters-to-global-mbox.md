@@ -7,25 +7,25 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 97%
+source-wordcount: '381'
+ht-degree: 73%
 
 ---
 
 
 # グローバル mbox にパラメーターを渡す{#pass-parameters-to-a-global-mbox}
 
-グローバル mbox にパラメーターを渡すには、JavaScript の targetPageParams 関数を使用します。Target に追加のターゲット設定／コンテキスト情報を渡す場合は、常にこの関数が使用されます。
+グローバル mbox にパラメーターを渡すには、JavaScript の `targetPageParams` 関数を使用します。This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
-例えば、Recommendations アクティビティでは、表示されている現在の製品またはカテゴリを示すために、これらのパラメーターを使用します。
+For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-グローバル mbox が mbox.js の一部として呼び出される場合でも、ページのコードに手作業で組み込まれる場合でも、JavaScript 関数を呼び出すコードは、ページ上のグローバル mbox の前に記述する必要があります。
+グローバルmboxがat.jsの一部として呼び出される場合でも、ページのコードに手動で組み込まれる場合でも、JavaScript関数を呼び出すコードは、ページ上のグローバルmboxの前に記述する必要があります。
 
 >[!NOTE]
 >
->グローバル mbox だけでなく、ページのすべての mbox にパラメーターを追加する場合、[targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 関数を使用します（at.js のみ）。
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 次のいずれかの方法で、`targetPageParams()` 関数を使用して `target-global-mbox` にパラメーターを渡せます。
 
