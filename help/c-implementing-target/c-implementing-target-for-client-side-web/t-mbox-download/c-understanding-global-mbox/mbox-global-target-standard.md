@@ -7,41 +7,44 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '309'
+ht-degree: 45%
 
 ---
 
 
 # レガシー実装のグローバル mbox の使用{#use-a-global-mbox-from-a-legacy-implementation}
 
-Target Standard は、デフォルトで target-global-mbox というグローバル mbox を作成します。この mbox は、Target Standard で作成されるアクティビティの実行に使用されます。ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を Target Standard アクティビティで使用できます。
+By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を [!DNL Target] アクティビティで使用できます。
 
 >[!NOTE]
 >
 >グローバル mbox は、各アカウントにつき 1 つのみ作成できます。
 
-[!DNL Target Standard] とレガシー実装の両方で既存のグローバル mbox を使用するには、いくつかのパラメーターを設定する必要があります。
+[!DNL Target] とレガシー実装の両方で既存のグローバル mbox を使用するには、いくつかのパラメーターを設定する必要があります。
 
-1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-   デフォルトで、「[!UICONTROL グローバル mbox 自動作成]」が有効になっており、カスタムグローバル mbox の名前が `target-global-mbox` になっています。
-1. 既存の mbox を使用する場合は、「[!UICONTROL グローバル mbox 自動作成]」を無効にして、以前に作成したグローバル mbox の名前を「[!UICONTROL カスタムグローバル mbox]」フィールドに指定します。
+   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
 
-   [!UICONTROL カスタムグローバル mbox] ドロップダウンリストに、アカウント内のすべての mbox が一覧表示されます。存在しない mbox を使用する場合は、Target Classic で mbox を作成します。
+1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+
+   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. 存在しないmboxを使用する場合は、mboxを作成します。
+
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    アカウントの mbox.js 設定が更新されます。
-1. 新しい mbox.js ファイルをダウンロードして、サイトで参照します。
 
-   本稼動サイトを新しい mbox.js ファイルで更新した後、環境設定を設定します。
-1. **[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
-1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
-1. 「**[!UICONTROL 送信]**」をクリックします。
+1. 新しいat.jsファイルをダウンロードし、サイトで参照します。
 
    作成済みおよび実装済みのアクティビティを含むすべての既存のアクティビティが、指定したグローバル mbox を使用するように更新されます。
-   **グローバル mbox 実装のトラブルシューティング** *グローバル mbox が読み込まれない理由、ページ読み込み時にグローバル mbox を読み込む時間に遅延が発生する理由を調べます。*
 
-mbox.js 参照が、ページ上で最初の JavaScript 呼び出しであることを確認してください。この問題に対する他の解決策については、「[mbox.jsの実装](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)」を参照してください。
+## グローバルmbox実装のトラブルシューティング
+
+次のFAQを使用して、グローバルmbox実装のトラブルシューティングを行うことができます。
+
+### グローバルmboxが読み込まれない理由、ページ読み込み時にグローバルmboxを読み込むのに遅延が発生する理由を教えてください。*
+
+at.js参照が、ページ上で最初のJavaScript呼び出しであることを確認します。 この問題の他の解決策については、「 [グローバルmboxに関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)」を参照してください。
