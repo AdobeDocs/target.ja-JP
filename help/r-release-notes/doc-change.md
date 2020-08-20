@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月20日 | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 次の節を追加しました。「最近発表したGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。」 |
+|  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | 次のテキストを更新しました。「複数のエレメントを選択した場合、参加者が選択したエレメントの1つをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして1つの項目をカウントするには、CSS要素セレクターを編集して複数の要素に一致させます。」 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.9.1（2020年9月2日）リリースに関する情報を追加しました。 |
 | 8月14日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | RecommendationsアクティビティでのQAに関する既知の問題を追加しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 返されるコンテンツでタグを使用し `serverState` 、 `<script>` タグを使用している場合、HTMLコンテンツではなくが使用されていることを確認するテキストを追加し `<\/script>``</script>`ました。 |
 | 8月12日 | [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md) | 新規トピックです。 |
