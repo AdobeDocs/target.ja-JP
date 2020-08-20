@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ A/B テスト、エクスペリエンスターゲット設定（XT）、自動�
    詳しくは、Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) の *[「DOM パスを使用して要素をナビゲートする」を*&#x200B;参照してください。
 
 * 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。この異なるページは、[複数ページ機能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用するアクティビティに含める必要があり、[!DNL at.js] または [!DNL mbox.js] を実装する必要があります。
-* 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。
+* 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして1つの項目をカウントするには、CSS要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
 * クリック追跡指標が A4T アクティビティの目標指標の場合は、訪問者がページの読み込みから 60 秒以内にこの要素をクリックしないと、指標は追跡されません。
