@@ -5,10 +5,10 @@ title: レスポンシブエクスペリエンスのモバイルビューポー�
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 70%
+source-wordcount: '1443'
+ht-degree: 68%
 
 ---
 
@@ -119,6 +119,10 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
    [拡張 Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、 は、ページを表示する際にデバイスをエミュレートします。[!DNL Target]If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+>[!NOTE]
+>
+>使用中のモバイルビューポートを削除しようとすると、次のメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
