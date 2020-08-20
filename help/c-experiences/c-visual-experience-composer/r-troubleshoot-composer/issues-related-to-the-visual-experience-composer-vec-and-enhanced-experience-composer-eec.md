@@ -5,17 +5,39 @@ title: Visual Experience Composer と拡張 Experience Composer に関連する�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-Visual Experience Composer（VEC）と拡張 Experience Composer（EEC）では、特定の条件下で表示の問題が発生することがあります。
+Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、特定の状況で表示の問題やその他の問題が発生することがあります。
+
+## 最近発表されたGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。 {#samesite}
+
+最新の変更（2020年8月）により、Chrome 80以降のブラウザーバージョンを使用するすべてのユーザーが次の操作を実行できます。
+
+* サイトのパスワードで保護されたページで ** 、（VEC Helper拡張機能がインストールされ、有効になっているかどうかにかかわらず）VECを使用できません。 これは、サイトログインCookieがサードパーティCookieと見なされ、ログインリクエストと共に送信されないからです。 唯一の例外は、顧客サイトログインcookieのSameSiteパラメーターが既に「なし」に設定されている場合です。
+* アクティビティの編集中は **[!DNL Target] （ライブラリがまだサイトにない場合）、ライブラリをダウンロードできません。 これは、ダウンロード呼び出しが、保護されたAdobeドメインに向かって顧客ドメインから行われ、非認証として拒否されるからです。
+* Cookieに対してSameSite属性を設定できないため、EECは *すべてのユーザーに対して機能しま* せん `adobemc.com domain`。 この属性がない場合、ブラウザーはこれらのcookieを拒否し、EECが失敗する原因となります。
+
+Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 必要に応じて、この拡張機能によってcookie属性が上書きされ、 `SameSite="none"` 属性が設定されます。 更 [新された拡張機能は、こちらを参照してください](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+
+### 代替方法と回避策
+
+次のいずれかのオプションを使用して、VECとEECが引き続き期待どおりに動作することを確認します。
+
+* 更新された [VEC Helper拡張機能をダウンロードして使用し](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)ます。
+* Mozilla Firefoxブラウザーを使用します。 Firefoxは、このポリシーを適用していません。
+* 引き続きChromeを使用しますが、 `chrome://flags/#same-site-by-default-cookies` フラグを「無効」に設定します。
+
+   >[!NOTE]
+   >
+   >サーバからSameSite属性が既に *&quot;Lax&quot;または&quot;Strict&quot;に設定されている場合は* 、この値では不十分です。
 
 ## Target の複数レベルの iframe のサポートについて
 
