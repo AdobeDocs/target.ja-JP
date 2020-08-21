@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前述の図の「[!UICONTROL ワークスペースを選択]」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。]
+   >前述の図の「[!UICONTROL ワークスペースを選択]」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
 
 1. （条件付き）Target Premium のお客様の場合、[ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
 
