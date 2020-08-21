@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '893'
 ht-degree: 48%
 
 ---
@@ -24,7 +24,7 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL プロパティ]と[!UICONTROL 権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]標準顧客**:「 [!UICONTROL ユーザー] 」タブ([!UICONTROL 管理/ユーザー])が表示される(「 **[!UICONTROL プロパティ]** 」タブが表示されない)場合は、組織に [!DNL Target] 標準ライセンスがあります。 [!DNL Target Standard のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>* **[!DNL Target]標準顧客**:「 [!UICONTROL ユーザー] 」タブ([!UICONTROL 管理/ユーザー])が表示される(「 **[!UICONTROL プロパティ]** 」タブが表示されない)場合は、組織に [!DNL Target] 標準ライセンスがあります。 [!DNL Target] Standard のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
    >
    >
 * **[!DNL Target]Premiumのお客様**:「 [!UICONTROL ユーザー] 」タブと「 [!UICONTROL プロパティ] 」タブ(管理/プロパティ[!UICONTROL )が表示される場合は、組織に][!DNL Target] Premiumライセンスがあります。 [!DNL Target] Premium のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、[ Enterprise ユーザーの権限 ](/help/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限 ](/help/administrating-target/c-user-management/property-channel/properties-overview.md) の設定の手順に従ってください。
