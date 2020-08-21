@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
+source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 91%
+source-wordcount: '1443'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 91%
    + [以前のリリースのリリースノート](r-release-notes/release-notes-for-previous-releases.md)
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
+   + [Adobe Targetウェルカムキット](/help/c-intro/target-welcome-kit.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
    + [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md)
