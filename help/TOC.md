@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1479'
+ht-degree: 88%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 90%
    + [以前のリリースのリリースノート](r-release-notes/release-notes-for-previous-releases.md)
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
-   + [Adobe Targetウェルカムキット](/help/c-intro/target-welcome-kit.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
    + [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Targetウェルカムキット {#welcome}
+      + [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md)
+      + [第1章：はじめに](/help/c-intro/target-welcome-kit-1.md)
+      + [第2章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [第3章：パーソナライゼーションのアイデアをテストする](/help/c-intro/target-welcome-kit-3.md)
+      + [第4章：ターゲットの使用に関するヒント](/help/c-intro/target-welcome-kit-4.md)
+      + [第5章：テストとパーソナライゼーションのアクティビティのインスピレーション](/help/c-intro/target-welcome-kit-5.md)
+      + [第6章：簡単に回避できる落とし穴](/help/c-intro/target-welcome-kit-6.md)
    + [用語集](c-intro/glossary.md)
    + [Adobe Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
