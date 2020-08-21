@@ -4,9 +4,9 @@ description: Adobe Targetウェルカムキット — 第7章
 title: Adobe Targetウェルカムキット — 第7章
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ A/Bテスト設定ワークフローの2番目の手順で「 [自動ターゲ�
 
 ## アクティビティプランナを使用したアクティビティの計画
 
-次のアクティビティプランナーは、独立したPDF（以下を参照）として含まれており、保存して何度も繰り返し使用できます。 有効なアクティビティを実行するには、プランナの各領域に入力する必要があります。 このツールは、テストとパーソナライゼーションのアクティビティに関するアイデアをアイデアをアイデア収集する際に使用します。
+Omnitureでは、 [Adobe TargetアクティビティプランナーをスタンドアロンPDFとして含めており](/help/assets/activity-planner.pdf) 、これらを保存して何度も繰り返し使用できます。 有効なアクティビティを実行するには、プランナの各領域に入力する必要があります。 このツールは、テストとパーソナライゼーションのアクティビティに関するアイデアをアイデアをアイデア収集する際に使用します。
 
 ![Adobe Targetアクティビティプランナー](/help/c-intro/assets/activity-planner.png)
 
@@ -68,7 +68,7 @@ A/Bテスト設定ワークフローの2番目の手順で「 [自動ターゲ�
 
 ### どのような種類のアクティビティが必要ですか。
 
-実行するアクティビティの種類のボックスを選択します。 使用可能な [ターゲットアクティビティタイプについては、](/help/c-activities/target-activities-guide.md) アクティビティタイプのトピック [、または「概要](/help/c-intro/target-welcome-kit-2.md) 」の章でAdobe Targetを参照してください。
+実行するアクティビティの種類のボックスを選択します。 使用可能な [ターゲットアクティビティタイプについては、](/help/c-activities/target-activities-guide.md) アクティビティタイプのトピック [(「概要](/help/c-intro/target-welcome-kit-2.md) 」の章)またはAdobe Target()で確認できます。
 
 ### ターゲットオーディエンスは誰ですか。
 
