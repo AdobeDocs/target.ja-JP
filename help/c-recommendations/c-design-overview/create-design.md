@@ -5,7 +5,7 @@ title: デザインの作成
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ ht-degree: 95%
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target クライアントコードです（../target/products.html#recsSettings／Recommendation API トークン／クライアントコードから入手できます）。 |
 | `[YOUR_MBOX_NAME]` | フォームベースのRecommendationsの「場所」セクションで選択した名前（この場合はSample_Recs_Response）。 |
-| `[ENTITY_ID`] | カタログ内の項目の `entity.id` です。 |
+| `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
 | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
 
 アルゴリズムを実行して結果が得られたら、応答は次のようになります。
