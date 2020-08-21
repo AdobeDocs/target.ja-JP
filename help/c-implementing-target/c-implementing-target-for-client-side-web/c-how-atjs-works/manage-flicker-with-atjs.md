@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 不透明度を 0 に設定すると、ちらつきを回避するためにページコンテンツは非表示になりますが、ブラウザーは引き続きページをレンダリングし、CSS、画像などの必要なアセットをすべて読み込みます。
 
-不透明度 0 が実装で機能しない場合は、`bodyHiddenStyle` をカスタマイズし、`body {visibility:hidden !important}` に設定することで、ちらつきを制御することもできます。値として body `{opacity:0 !important`} または `body {visibility:hidden !important}` のどちらでも、特定の環境に適したものを使用できます。
+不透明度 0 が実装で機能しない場合は、`bodyHiddenStyle` をカスタマイズし、`body {visibility:hidden !important}` に設定することで、ちらつきを制御することもできます。You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 次の図は、本文非表示と本文表示の呼び出しを at.js 1.*x* と at.js 2.x の両方について示しています。
 
