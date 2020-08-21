@@ -1,0 +1,23 @@
+---
+keywords: welcome kit;target welcome kit;intro;introduction;getting started
+description: Adobe Targetウェルカムキット — 第8章
+title: Adobe Targetウェルカムキット — 第8章
+feature: intro
+translation-type: tm+mt
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 0%
+
+---
+
+
+# 第8章：アクティビティ結果の伝達
+
+アクティビティを実行し、素晴らしい結果を得る場合は、その結果を組織で共有する必要があります。 おそらく、より多くの顧客を獲得したり、売上高を増やしたり、コールセンターの電話を減らしたり、平均注文額を上げたりして節約できたと考えられます。 最適化とパーソナライズによって、ビジネスに対して達成できる要素を関係者に示 [!DNL Target]します。
+
+これらの結果を伝える際は、ストーリーを語るようにアプローチすると役立ちます。 テスト対象やパーソナライズ対象、理由、結果を興味深く明確に説明します。 結果を確認するユーザーが理解する言語と用語を使用します。
+
+Microsoft PowerPointにExecutive Summary Resultsテンプレートが含まれています（以下を参照）。 組織のカラースキームとロゴを使用してリブランディングし、初めてのテストまたはパーソナライズアクティビティの結果を表示します。 アクティビティプランナーと同様、ウェルカムキットはスタンドアロンファイルとしてウェルカムキットに含まれていますが、テンプレートの各領域に含める情報のタイプの例と共に、ここにその画像も追加しました。
+
+![エグゼクティブサマリレポート](/help/c-intro/assets/executive-summary-report.png)
