@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
@@ -57,7 +57,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs} ![チュートリアルバッジ](/help/assets/tutorial.png)
+## Adobe Target Basics ウェビナー：Recommendations の概要 ![チュートリアルバッジ](/help/assets/tutorial.png) {#intro-to-recs}
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
 
