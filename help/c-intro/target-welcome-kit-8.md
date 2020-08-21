@@ -4,9 +4,9 @@ description: Adobe Targetウェルカムキット — 第8章
 title: Adobe Targetウェルカムキット — 第8章
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 これらの結果を伝える際は、ストーリーを語るようにアプローチすると役立ちます。 テスト対象やパーソナライズ対象、理由、結果を興味深く明確に説明します。 結果を確認するユーザーが理解する言語と用語を使用します。
 
-Microsoft PowerPointにExecutive Summary Resultsテンプレートが含まれています（以下を参照）。 組織のカラースキームとロゴを使用してリブランディングし、初めてのテストまたはパーソナライズアクティビティの結果を表示します。 アクティビティプランナーと同様、ウェルカムキットはスタンドアロンファイルとしてウェルカムキットに含まれていますが、テンプレートの各領域に含める情報のタイプの例と共に、ここにその画像も追加しました。
+Microsoft PowerPointに [Executive Summary Resultsテンプレートが含まれています](/help/assets/executive-summary.zip) 。 組織のカラースキームとロゴを使用してリブランディングし、初めてのテストまたはパーソナライズアクティビティの結果を表示します。 アクティビティプランナーと同様、ウェルカムキットはスタンドアロンファイルとしてウェルカムキットに含まれていますが、テンプレートの各領域に含める情報のタイプの例と共に、ここにその画像も追加しました。
 
 ![エグゼクティブサマリレポート](/help/c-intro/assets/executive-summary-report.png)
