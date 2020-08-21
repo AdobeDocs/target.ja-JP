@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1206'
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `a
 
 ## 参照 URL を新しいページに渡す必要があるのはなぜですか？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-[!DNL `www.google.com`] にある、ホームページ（`www.mysite.com/index.html]`）のリンクを訪問者がクリックすると仮定します。このとき、このリンクでリダイレクトアクティビティが有効であり、新しいページ（[!DNL `www.mysite.com/index2.html`]）にリダイレクトされるようになっていると仮定します。
+Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
 
 以前は、新しいページの [!DNL Analytics] リクエストによって、[!DNL `www.mysite.com/index.html`] ではなく、[!DNL `www.google.com`] の参照 URL がレポートされていました。そのため、参照 URL に関連付けられた [!DNL Analytics] のレポート（例えば、マーケティングチャネルレポート）が不正確になっており、[!DNL `www.google.com`] からそのサイトにリダイレクトされた事実がレポートから失われていました。
 
