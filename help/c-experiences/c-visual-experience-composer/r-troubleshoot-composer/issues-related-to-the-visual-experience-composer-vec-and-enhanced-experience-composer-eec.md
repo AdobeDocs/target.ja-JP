@@ -5,10 +5,10 @@ title: Visual Experience Composer と拡張 Experience Composer に関連する�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、�
 * Cookieに対してSameSite属性を設定できないため、EECは *すべてのユーザーに対して機能しま* せん `adobemc.com domain`。 この属性がない場合、ブラウザーはこれらのcookieを拒否し、EECが失敗する原因となります。
 
 Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 必要に応じて、この拡張機能によってcookie属性が上書きされ、 `SameSite="none"` 属性が設定されます。 更 [新された拡張機能は、こちらを参照してください](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+
+独自のサイトのCookieに対して、名前でCookieを指定する必要があります。 Cookie  スライダーをオンの位置に切り替え、Cookieを名前で指定します。
+
+![VECヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### 代替方法と回避策
 
