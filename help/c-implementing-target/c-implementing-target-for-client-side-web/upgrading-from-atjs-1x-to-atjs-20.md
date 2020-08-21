@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 93%
+source-wordcount: '2751'
+ht-degree: 92%
 
 ---
 
@@ -313,7 +313,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 適用できます。at.js カスタムイベントは `triggerView()` にも適用できます。
 
-### `{“page” : “true”}` を使用して `triggerView()` を呼び出すと、通知が [!DNL Target] バックエンドに送信され、インプレッションが増加します。これによりプロファイルスクリプトも実行されますか？
+### It says when I call `triggerView()` with &amp;lbrace;`“page” : “true”`&amp;rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. これによりプロファイルスクリプトも実行されますか？
 
 [!DNL Target] バックエンドに対してプリフェッチ呼び出しが実行されると、プロファイルスクリプトが実行されます。その後、影響を受けたプロファイルデータは暗号化され、クライアント側に返されます。`{"page": "true"}` を使用した `triggerView()` が呼び出されると、通知が暗号化されたプロファイルデータとともに送信されます。このとき、[!DNL Target] バックエンドはプロファイルデータを復号してデータベースに保存します。
 
