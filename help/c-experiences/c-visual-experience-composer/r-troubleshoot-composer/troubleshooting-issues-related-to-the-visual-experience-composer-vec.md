@@ -5,9 +5,9 @@ title: Visual Experience Composer に関連する問題のトラブルシュー�
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,7 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 >以下の情報に加えて、Google Chrome 用 [Adobe Target VEC ヘルパーブラウザー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
 
 
->[!Note]
+>[!NOTE]
 >
 >これらのプラグインは、VEC を編集する場合にのみ使用する必要があります。
 >
