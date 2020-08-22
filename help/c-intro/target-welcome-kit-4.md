@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Targetウェルカムキット — 第4章
-title: Adobe Targetウェルカムキット — 第4章
+description: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
+title: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## ヒント1:訪問者のプロファイルに追加のデータを増補することで、パーソナライゼーションを深めます。
 
-データをすぐに使用してエクスペリエンスをパーソナライズするこ [!DNL Target] とができます。 しかし、組み合わせに独自のデータを追加することで、より深くパーソナライズできます。 からの履歴データとからのリアルタイムデータを使用してプロファイル [!DNL Adobe Analytics] を拡張したり、データからリアルタイムデータを取得したりでき [!DNL Adobe Audience Manager]ます。 また、のPeopleコアサービスの機能である顧客属性を使用して、CRMデータ、サードパーティのパートナーデータ [!DNL Adobe Experience Cloud]、およびサードパーティが購入したデータを簡単に取り込むこともでき [!DNL Target]ます。
+データをすぐに使用してエクスペリエンスをパーソナライズするこ [!DNL Target] とができます。 しかし、組み合わせに独自のデータを追加することで、より深くパーソナライズできます。 からの履歴データとからのリアルタイムデータを使用してプロファイル [!DNL Adobe Analytics] を拡張したり、データからリアルタイムデータを取得したりでき [!DNL Adobe Audience Manager]ます。 また、のPeopleコアサービスの機能である顧客属性を使用して、CRMデータ、サードパーティのパートナーデータ、サードパーティの購入データ [!DNL Adobe Experience Cloud]を簡単に取り込むこともでき [!DNL Target]ます。
 
-例えば、POS（販売時点管理システム）の購入データを訪問者プロファイルに関連付けることができます。 そのためには、最大200個のオフライン変数を含むCSVファイルを作成し、ファイルのアップロード [!DNL Adobe Experience Cloud] 経由で直接にアップロードするか、FTPを使用してファイルをホストし、定期的に更新するようにスケジュールします。 顧客属性を取得したら、そ [!DNL Adobe Experience Cloud]れらを分析、テスト、パーソナライゼーションのために利用できるソリューション [!DNL Experience Cloud] や [!DNL Adobe Analytics][!DNL Target] ソリューションにマッピングできます。
+例えば、POS（販売時点管理システム）の購入データを訪問者プロファイルに関連付けることができます。 そのためには、最大200個のオフライン変数を含むCSVファイルを作成し、ファイルのアップロード [!DNL Adobe Experience Cloud] 経由で直接にアップロードするか、FTPを使用してファイルをホストし、定期的に更新するようにスケジュールします。 顧客属性を取得したら、そ [!DNL Adobe Experience Cloud]れらを分析、テスト、パーソナライゼーションのために使用できるソリューション [!DNL Experience Cloud] や [!DNL Adobe Analytics][!DNL Target] ソリューションにマッピングできます。
 
 詳しい手順については、 [カスタム属性](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) (Custom attributes)を参照してください。
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 詳しい手順については、 [複数のオーディエンスの組み合わせ](/help/c-target/combining-multiple-audiences.md) を参照してください。
 
-**知っていること**: [!DNL Adobe Audience Manager] オーディエンスは、で [!DNL Target] 自動的に使用できます。 しかし、 [!DNL Adobe Analytics] オーディエンスの共有には、少し手動で設定する必要があります。 でのオーディエンス構築プロセス中に、[Experience Cloudオーディエンスにする]というラベルの付いたボックスをオンに [!DNL Analytics]します。 次に、から「Experience Cloudオーディエンス [!DNL Target]をインポート」をクリックします。
+**知っていること**: [!DNL Adobe Audience Manager] オーディエンスは、で [!DNL Target] 自動的に使用できます。 しかし、 [!DNL Adobe Analytics] オーディエンスの共有には、少し手動で設定する必要があります。 でのオーディエンス構築プロセス中に、[Experience Cloudオーディエンスにする]というラベルの付いたボックスをオンに [!DNL Analytics]します。 次に、から[Experience Cloudオーディエンスのインポート]をクリック [!DNL Target]します。
 
 ## ヒント3:ターゲットからデータをエクスポートし、サードパーティのツールで使用できます。
 
-応答トークンを使用すると、管理者はサードパーティのツールから容易にデータを取得し [!DNL Target] たり、サードパーティのツールにデータを取り込んだりできます。 これは、調査ツールで収集されたデータにデータを追加する場合に便利です。 例えば、調査が訪問者のサンプルに「9」、別のスコアに「4」というエクスペリエンスを表示した場合、データを使用して、エクスペリエンスAの閲覧者とエクスペリエンスBの閲覧者を確認できます。応答トークンを使用して、データを内部Data Warehouseにエクスポートできます。 [!DNL Target] 「管理」をクリックし、目的のレスポンストークンの横にあるスイッチをオンの位置に切り替えます。 次に、アクティビティを作成します。 その後、データをサードパーティベンダーに転送する準備が整います。 デバッグツールを使用して、がデータを書き出し [!DNL Target] ていることを確認できます。
+応答トークンを使用すると、管理者はサードパーティのツールから容易にデータを取得し [!DNL Target] たり、サードパーティのツールにデータを取り込んだりできます。 これは、調査ツールで収集されたデータにデータを追加する場合に便利です。 例えば、調査が訪問者のサンプルにエクスペリエンス「9」、別のスコアが「4」のスコアを表示した場合、データを使用して、エクスペリエンスAの閲覧者とエクスペリエンスBの閲覧者を確認できます。応答トークンを使用して、データを内部Data Warehouseにエクスポートできます。 [!DNL Target] 「管理」をクリックし、目的のレスポンストークンの横にあるスイッチをオンの位置に切り替えます。 次に、アクティビティを作成します。 その後、データをサードパーティベンダーに転送する準備が整います。 デバッグツールを使用して、がデータを書き出し [!DNL Target] ていることを確認できます。
 
 詳しい手順については、「 [応答トークン](/help/administrating-target/response-tokens.md) 」を参照してください。
 
