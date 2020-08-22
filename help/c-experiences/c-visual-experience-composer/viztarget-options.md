@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    CSS エディターには現在のセッションの詳細のみ表示される点に注意してください。変更を保存してエディターを再度開いた場合、同じ要素を再度選択しても、前の変更に関する詳細はエディターには表示されません。
 
-   >[!I重要]
+   >[!IMPORTANT]
    >
    >CSS エディターを使用して背景画像を適用できますが、ちらつきが生じる場合があります。デプロイする前に変更をテストしてください。
 
