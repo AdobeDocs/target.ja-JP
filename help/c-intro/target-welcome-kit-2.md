@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Targetウェルカムキット — 第2章
-title: Adobe Targetウェルカムキット — 第2章
+description: Adobe Targetウェルカムキット — 第2章 —ターゲットの概要
+title: Adobe Targetウェルカムキット — 第2章 —ターゲットの概要
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 17%
 
 | アクティビティタイプ | 詳細 |
 | --- | --- |
-| エクスペリエンスターゲット設定（XT） | ユーザー定義のルールと条件のセットに基づいて、特定のオーディエンスにコンテンツを配信します。 **[!UICONTROL エクスペリエンスのターゲット設定]** は、オーディエンスが価値があると理解し、どのエクスペリエンスが共感を呼ぶかをよく理解できる場合に、特定のエクスペリエンスまたはコンテンツを特定のオーディエンスにターゲット設定するのに役立ちます。 [詳細情報](/help/c-activities/t-experience-target/experience-target.md) |
 | A/B テスト | Webサイト上の複数のエクスペリエンスやオファーのバリエーション、または他のデジタル顧客のタッチポイントを比較して、事前に指定したテスト期間中、主要ビジネス指標を最も改善するバリエーションを調べます。 A/Bテストは、新しいWebページレイアウト、サイトナビゲーションのアプローチの違い、コピー、画像、誘い文句（CTA：コールトゥアクション）などのデジタルエクスペリエンスの個々の要素の扱いが大幅に異なるなど、変更が大きい場合に適しています。 [詳細情報](/help/c-activities/t-test-ab/test-ab.md) |
-| 多変量分析テスト（MVT） | ページ上のエレメントやデジタルエクスペリエンスのエレメントの組み合わせをすべて比較します。例えば、3種類の背景画像、2種類のコピー画像、2種類のボタンの色などです。 MVTは、特定のオーディエンスに対してどの組み合わせが最も高いパフォーマンスを発揮するか、および結果に最も影響を与える要素を決定します。 [詳細情報](/help/c-activities/c-multivariate-testing/multivariate-testing.md) |
-| 自動配分 | 2つ以上のエクスペリエンスの中で最もパフォーマンスの高いエクスペリエンスを識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再配分して、コンバージョンを増やします。 Artification Intelligence Powered byを使用 [!DNL Adobe Sensei]します。 [詳細情報](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
-| 自動ターゲット<br>(Premium) | Adobe SenseiAIを活用 [!DNL Target] して、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、複数の顧客の最高のエクスペリエンスを各訪問者に対して決定し、提供します。 自動ターゲットにより、パーソナライゼーションをスケールで実行できます。 |
+| 自動配分 | 2つ以上のエクスペリエンスの中で最もパフォーマンスの高いエクスペリエンスを識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再配分して、コンバージョンを増やします。 Artification Intelligenceを使用しま [!DNL Adobe Sensei]す。 [詳細情報](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
+| 自動ターゲット<br>(Premium) | Adobe SenseiAIを活用 [!DNL Target] して、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、複数の顧客の最高のエクスペリエンスを各訪問者に対して決定し、提供します。 自動ターゲットにより、パーソナライゼーションをスケールで実行できます。 [詳細情報](/help/c-activities/auto-target-to-optimize.md) |
 | Automated Personalization<br>(Premium) | 高度な機械学習アルゴリズムと自動化機能を使用して、オファー内の様々な組み合わせの画像、コピー、その他の要素を確認し、訪問者あたりのコンバージョンや売上高の増加など、最も達成率の高い各訪問者に最適な組み合わせを提供します。 [!DNL Adobe Sensei] [詳細情報](/help/c-activities/t-automated-personalization/automated-personalization.md) |
+| エクスペリエンスターゲット設定（XT） | ユーザー定義のルールと条件のセットに基づいて、特定のオーディエンスにコンテンツを配信します。 **[!UICONTROL エクスペリエンスのターゲット設定]** は、オーディエンスが価値があると理解し、どのエクスペリエンスが共感を呼ぶかをよく理解できる場合に、特定のエクスペリエンスまたはコンテンツを特定のオーディエンスにターゲット設定するのに役立ちます。 [詳細情報](/help/c-activities/t-experience-target/experience-target.md) |
+| 多変量分析テスト（MVT） | ページ上のエレメントやデジタルエクスペリエンスのエレメントの組み合わせをすべて比較します。例えば、3種類の背景画像、2種類のコピー画像、2種類のボタンの色などです。 MVTは、特定のオーディエンスに対してどの組み合わせが最も高いパフォーマンスを発揮するか、および結果に最も影響を与える要素を決定します。 [詳細情報](/help/c-activities/c-multivariate-testing/multivariate-testing.md) |
 | Recommendations<br>(Premium) | Adobe SenseiAIを使用すると、以前のアクティビティや他の顧客の製品に基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に提案できます。 [詳細情報](/help/c-recommendations/recommendations.md) |
 
 ## チャネル
@@ -45,7 +45,7 @@ Webサイト、モバイルサイト、モバイルアプリなど従来のデ�
 | Web サイト | [!DNL Target] は、複数ページ、単一ページアプリ(SPA)およびモバイルWebサイトのページでA/Bテスト、Multivariate Testing、エクスペリエンスのターゲット設定、自動配分、自動ターゲット、Automated Personalization、Recommendationsの各アクティビティを実行し、訪問者と顧客の関与を改善し、コンバージョンを増やし、売上高を増やします。 |
 | モバイルWeb | [!DNL Target] を使用すると、モバイルwebサイトページ上で実行するのと同じアクティビティタイプをすべて実行し、訪問者と顧客の関与を改善し、コンバージョンを増やし、売上高を増やすことができます。 |
 | モバイルアプリ | [!DNL Target] を使用して、ユーザーの行動やモバイルのコンテキストに基づいてモバイルアプリのエクスペリエンスをテストおよびパーソナライズできます。 [!DNL Target] インタラクションを実行し、反復的なテストを通じてエンゲージメントやコンバージョンを行うことができます。また、エクスペリエンスのターゲット設定やAIに基づくパーソナライゼーションも行えます。 モバイルアプリ [!DNL Target] で使用するには、AdobeのMobile Services SDKを使用する必要があります。 |
-| IoT/Everywhere | [!DNL Target] サーバー側実装をオファーし、従来のWebサイト、モバイルサイト、モバイルアプリで使用したのと同じテスト機能とパーソナライズ機能を、電子メールや、アクティビティに不足しているタッチポイント、またはJavaScriptコードを使用しないタッチポイントで使用できるようにします。 例えば、キオスク、セットトップボックス、ゲーム機、ボイスアシスタント、その他の従来以外のタッチポイントをテストしてパーソナライズできます。 |
+| IoT/Everywhere | [!DNL Target] サーバー側実装をオファーし、従来のWebサイト、モバイルサイト、モバイルアプリで使用したのと同じテスト機能とパーソナライズ機能を、電子メールや、アクティビティに不足しているタッチポイント、またはJavaScriptコードを使用しないタッチポイントで使用できるようにします。 例えば、キオスク、セットトップボックス、ゲーム機、ボイスアシスタント、その他の従来とは異なるタッチポイントをテストしてパーソナライズできます。 |
 
 ## 導入
 
