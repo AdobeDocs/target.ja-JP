@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Targetウェルカムキット — 第6章
-title: Adobe Targetウェルカムキット — 第6章
+description: Adobe Targetウェルカムキット — 第6章 — 簡単に回避できる落とし穴
+title: Adobe Targetウェルカムキット — 第6章 — 簡単に回避できる落とし穴
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 最適化とパーソナライゼーションのプログラムを始めるのに役立つのは、しばらくの間それを行ってきた人が、簡単に犯すエラーの多くを既に発見していることです。 これらの落とし穴を知ることで、それらを簡単に回避したり、修正したりできます。
 
-詳しくは、 [10件の一般的なA/Bテストの落とし穴と、それらを回避する方法を参照してください](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) 。 この記事に示したアイデアに加えて、テストやパーソナライゼーションの一般的な問題を回避または修正するために、この短いリストを便利に保存します。
+>[!NOTE]
+>
+>詳しくは、 [10件の一般的なA/Bテストの落とし穴と、それらを回避する方法を参照してください](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) 。 この記事に示したアイデアに加えて、テストやパーソナライゼーションの一般的な問題を回避または修正するために、この短いリストを便利に保存します。
 
 | 落とし穴 | 解決策 |
 | --- | --- |
@@ -28,7 +30,7 @@ ht-degree: 3%
 | 意思決定に役立たないアクティビティ成功指標データの選択。 | すべての主要なテスト指標をドキュメントし、追加の指標を含めて、追加のインサイトを得ます。 |
 | テスト中に変更を行うと、結果に影響を与える可能性があります。 | プロモーションやサイトの変更予定のカレンダーを管理します。 競合を避けるために、 [!DNL Target] アクティビティ起動を明確に伝えます。 |
 | アクティビティの開始に近いテストエクスペリエンスまたは条件を変更する。 | テストアクティビティプロセスの初期段階で、主な関係者に対してサインオフを依頼します。 |
-| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | Adobeの [サンプルサイズ計算ツールを使用して、テスト期間を確認し](https://docs.adobe.com/content/target-microsite/testcalculator.html)ます。 |
+| 結果が統計的に有意な結果になる前にアクティビティを終了する。 | Adobeの [サンプルサイズ計算ツールを使用して、テスト期間を検証し](https://docs.adobe.com/content/target-microsite/testcalculator.html)ます。 |
 | アクティビティから除外結果またはフラット結果を受け取る [!DNL Target] 。 | アクティビティがテストに値することを確認します。 |
 | 勝者エクスペリエンスをハードコーディングしない。 | アクティビティデータを使用して値を示し、ハードコーディングの購入情報を取得します。 |
 | 結果を共有できないのはテストチームです。 | 昼食を含むコミュニケーションを拡大し、学習を行い、プログラムダッシュボードを開発し、ステークホルダーとのミーティングをスケジュールします。 |
