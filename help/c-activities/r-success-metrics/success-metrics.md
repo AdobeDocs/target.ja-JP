@@ -5,10 +5,10 @@ title: Adobe Targetの成功指標
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 52%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## 詳細設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-詳細設定を使用して、成功の測定方法を管理します。インプレッションごとや訪問者ごとに指標をカウントする、アクティビティにユーザーを保持するか、ユーザーの再入場を許可しないかを選択する、などのオプションがあります。
+詳細設定を使用して、成功の測定方法を管理します。依存関係の追加、アクティビティにユーザーを保持するか、ユーザーを削除するかの選択、参加者ごとに1回カウントするか、すべてのインプレッションでカウントするかを選択するオプションが含まれます。
 
 「 [!UICONTROL 詳細設定] 」オプションにアクセスするには、 **[!UICONTROL 垂直楕円]** / **[!UICONTROL 詳細設定をクリックします]**。
 
@@ -67,21 +67,27 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >
 >[!DNL Adobe Analytics] をレポートソースとして使用する場合、設定は [!DNL Analytics] サーバーによって管理されます。The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-また、詳細設定を使用して、訪問者が別の指標を先に達成した場合に 1 つの指標のみを増分する、従属成功指標を作成できます。
+### 追加依存性
+
+詳細設定を使用すると、訪問者が別の指標に最初に到達した場合にのみ1つの指標を増分する、従属成功指標を作成できます。
 
 ![依存関係を追加](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例えば、テストコンバージョンが、訪問者がオファーをクリックした場合、または、コンバートする前に特定のページに到達する場合にのみ有効になることがあります。
 
-従属成功指標は、A/B テスト、自動パーソナライゼーション、エクスペリエンスターゲット設定、多変量分析テストアクティビティでサポートされます。Recommendations アクティビティは、現在、従属成功指標をサポートしていません。
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->従属成功指標は次の場合にはコンバートされません。
->
->* 循環依存（指標 1 が指標 2 に依存し、指標 2 が指標 1 に依存する）を作成した場合、どちらの指標もコンバートできません。
->* 自動パーソナライゼーションアクティビティではユーザーが作業をおこなう必要はなく、コンバージョン指標に到達するとアクティビティが再開されます。そのため、そのコンバージョン指標に依存する指標はコンバートされません。
+* [!UICONTROL Recommendations アクティビティ。]それ以外のすべてのアクティビティタイプには対応しています。
+* [Analyticsをレポートソースとして使用する場合](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
+* 「ページが表示された」の指標タイプ。
+* Visual Experience Composer（VEC）アクティビティの「要素をクリックしました」の指標タイプ。
 
+従属成功指標は次の場合にはコンバートされません。
+
+* 循環依存（指標 1 が指標 2 に依存し、指標 2 が指標 1 に依存する）を作成した場合、どちらの指標もコンバートできません。
+* 自動パーソナライゼーションアクティビティではユーザーが作業をおこなう必要はなく、コンバージョン指標に到達するとアクティビティが再開されます。そのため、そのコンバージョン指標に依存する指標はコンバートされません。
+
+### ユーザーがこの目標指標に達した後、どうなりますか？
 
 ユーザーが目標指標に到達した後の動作について指定するには、詳細設定を使用します。次の表に、使用可能なオプションを示します。
 
@@ -94,6 +100,14 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >[!NOTE]
 >
 >「カウントを [!UICONTROL 増分] 」オプション（前述）のいずれかに指標を設定した場合、指標のカウントは、参加者ごとに、訪問者レベルでのみ正しく1回増加します。 指標のカウントは、訪問レベルで新しいセッションごとに訪問ごとに1回増加します。
+
+### カウントはどのように増分されますか。
+
+目的の動作を選択します。
+
+* 参加者ごとに 1 回
+* すべてのインプレッション（ページ更新を除く）
+* すべてのインプレッション
 
 ## トレーニングビデオ： アクティビティ指標
 
