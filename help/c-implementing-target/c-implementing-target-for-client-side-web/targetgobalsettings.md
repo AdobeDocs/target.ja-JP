@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 38%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 38%
 
 * **型**：String
 * **デフォルト値**:visibility:hidden
-* **説明**:クラス名が「mboxDefault」であるDIVを使用し、デフォルトコンテンツを介して実行、非表示にするmboxのラッピングにのみ使用 `mboxCreate()`さ `mboxUpdate()``mboxDefine()` れます。
+* **説明**:クラス名が「mboxDefault」であるDIVを使用し、デフォルトコンテンツを介して実行、非表示にするmboxのラッピングにのみ使用 `mboxCreate()`さ `mboxUpdate()`れま `mboxDefine()` す。
 
 ### defaultContentVisibleStyle
 
@@ -323,7 +323,7 @@ var weatherProvider = {
 
 at.js 2.3.0以降では、配信されたターゲットオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーノンスの設定をサポートしています。
 
-at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応して設定する必要があります。 以下の例を参照してください。
+at.js 2.3.0以降の読み込みの前に、SCRIPTとSTYLEのnonces `targetGlobalSettings.cspScriptNonce` を、それに `targetGlobalSettings.cspStyleNonce` 対応してに設定する必要があります。 以下の例を参照してください。
 
 ```
 ...
@@ -344,7 +344,7 @@ window.targetGlobalSettings = {
 
 ## ハイブリッドパーソナライゼーション {#server-state}
 
-`serverState` は、at.js v2.2以降で利用できる設定です。ターゲットのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
+`serverState` は、at.js v2.2以降で利用できる設定です。ターゲットのハイブリッド統合が実装されている場合、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチしたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。
 
 ### 前提条件
 
@@ -355,7 +355,7 @@ window.targetGlobalSettings = {
 
 ### コードサンプル
 
-この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
+この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、 [ターゲットNode.js SDKを使用していることを前提としています](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * `serverState `オファーを適用する場合、at.jsでは、 `pageLoadEnabled` 設定(例：設定がfalseの場合、ページ読み込みオファーは適用されません)を考慮 `viewsEnabled``pageLoadEnabled` します。
 
-   これらの設定をオンにするには、 **[UICONTROL管理/実装/編集/ページ読み込み有効に切り替え]**&#x200B;ます。
+   これらの設定をオンにするには、 **[!UICONTROL 管理]/[!UICONTROL 実装]/[!UICONTROL 編集/]**&#x200B;読み込みが有効なページで切り替えます。
 
    ![ページ型設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
