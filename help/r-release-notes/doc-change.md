@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月24日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 「詳細設定」節を更新しました。 |
 | 8月21日 | [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md) | 新しい記事とサブトピックです。 |
 | 8月20日 | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 次の節を追加しました。「最近発表したGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。」 |
 |  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | 次のテキストを更新しました。「複数のエレメントを選択した場合、参加者が選択したエレメントの1つをクリックすると、クリックがカウントされます。 各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして1つの項目をカウントするには、CSS要素セレクターを編集して複数の要素に一致させます。」 |
@@ -60,7 +61,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 7 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月22日のAdobe Target・コーヒーブレークに関する情報を追加。 |
 | 15 年 7 月 | [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新規トピックです。 |
-| 14 年 7 月 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[自動ターゲット](/help/c-activities/auto-target-to-optimize.md),<br><br>[および自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | アクティビティの途中で目標指標を変更しないことをお勧めするFAQを追加しました。 |
+| 14 年 7 月 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[自動ターゲット](/help/c-activities/auto-target-to-optimize.md),<br><br>[および自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | アクティビティの途中で目標指標を変更しないよう推奨するFAQを追加しました。 |
 | 7 年 7 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月8日のAdobe Target・コーヒーブレークに関する情報を追加。 |
 | 6月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1リリース（2020年7月）に関する情報を追加しました。 |
 |  | [ターゲットドキュメントの概要](/help/r-release-notes/target-documentation.md) | ドキュメントの様々なソースについて詳しく説明する新しいト [!DNL Target] ピックです。 |
