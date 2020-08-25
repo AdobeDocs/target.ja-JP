@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 1. 目的のオファーを選択して、そのオファーを閲覧する資格を与えたいオーディエンスを選択します。
 
-   1 つのオファー用にターゲットを設定するには、目的のオファーの上にマウスポインターを置いてから、「**[!UICONTORL ターゲット設定]**」アイコンをクリックします。
+   1 つのオファー用にターゲットを設定するには、目的のオファーの上にマウスポインターを置いてから、「**[!UICONTROL ターゲット設定]**」アイコンをクリックします。
 
    複数のオファー用にターゲットを設定するには、目的のオファーのチェックボックスをオンにしてから、リストの右上に表示される **「[!UICONTROL ターゲット]」アイコンをクリックします。
 
