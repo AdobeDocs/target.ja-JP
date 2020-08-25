@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 ## 要件 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 * [!DNL Adobe Experience Manager] 6.4（以降）
 * [!DNL Adobe Experience Manager] 6.3 SP2（以降）
@@ -57,7 +57,7 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 Experience fragments are created in [!DNL AEM]. 詳しくは、次を参照してください。
 
-* **[!DNL AEM]6.3**: [エクスペリエンスフラグメント](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) ( *Adobe Experience Manager6.3* ドキュメント)
+* **[!DNL AEM]6.3**: [エクスペリエンスフラグメント](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) ( *Adobe Experience Manager6.3* ドキュメント)を参照してください。
 * **[!DNL AEM]6.4**: [エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) ( *Adobe Experience Manager6.4* ドキュメント)を参照してください。
 * **[!DNL AEM]6.5**: [エクスペリエンスフラグメント](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) ( *Adobe Experience Manager6.5* ドキュメント)を参照してください。
 
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **フォームベースのExperience Composerを使用してエクスペリエンスフラグメントを使用するには：**
 
-1. In [!DNl Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    ![](assets/experience_fragment_list.png)
 
