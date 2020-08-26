@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 87%
 
 ---
@@ -383,6 +383,7 @@ ht-degree: 87%
       + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
       + [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [RecommendationsでAdobe Analyticsを使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
