@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 80%
@@ -59,9 +59,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 また、Target に関するセッションの他に、Analytics、Campaign、Adobe Experience Manager（AEM）、Primetime、Adobe コアサービス、Audience Manager などの他のアドビソリューションに関するセッションもあります。
 
-## アドビクライアントケアに連絡 {#reference_ACA3391A00EF467B87930A450050077C}
+## アドビカスタマーケアに連絡 {#reference_ACA3391A00EF467B87930A450050077C}
 
-ClientCare は、どのような問題でも解決を支援できる体制を整えております。迅速な解決のために、ClientCare へのお問い合わせの際に必要な情報について説明します。
+カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。迅速な解決のために、カスタマーケアへのお問い合わせの際に必要な情報について説明します。
 
 ### 基本情報 {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
