@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1948'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月26日 | [Adobe AnalyticsをターゲットRecommendationsと併用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新規トピックです。 |
 | 8月24日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 「詳細設定」節を更新しました。 |
 | 8月21日 | [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md) | 新しい記事とサブトピックです。 |
 | 8月20日 | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 次の節を追加しました。「最近発表したGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。」 |
