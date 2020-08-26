@@ -4,9 +4,9 @@ description: Adobe Analyticsを行動データソースとして使用すると�
 title: Adobe AnalyticsとターゲットRecommendationsを使う
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ Recommendationsで条件 [を作成する際](/help/c-recommendations/c-algorith
    >この手順を実行する前に、 [!DNL Adobe Analytics] チームに問い合わせてください。
 
    * **タイプ**:FTP
-   * **ホスト**:xxx.yyy.com
-   * **パス**:ターゲットのクライアントコード
-   * **ユーザー名**:xxxy
-   * **パスワード**:xxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **パス**:クライアント [!DNL Target] コード
+   * **ユーザー名**:ユーザー名を指定します
+   * **パスワード**:パスワードの指定
 
    スクリーンショットは参照用です。 展開には異なる資格情報が含まれます。 この手順を実行する際は、 [!DNL Adobe Analytics] チームまたはカスタマーケアにお問い合わせください。
 
