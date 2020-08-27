@@ -5,10 +5,10 @@ title: Recommendations アクティビティの作成
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前述の図の「[!UICONTROL [ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。]
+   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
 
 1. （条件付き）[Target Premium](/help/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
