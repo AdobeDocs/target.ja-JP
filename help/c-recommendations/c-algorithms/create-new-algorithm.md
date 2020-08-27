@@ -4,9 +4,9 @@ title: 条件の作成
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3605'
+source-wordcount: '3615'
 ht-degree: 98%
 
 ---
@@ -89,6 +89,8 @@ ht-degree: 98%
 1. 「**[!UICONTROL 行動データソース]**」で目的に応じて「[!UICONTROL mboxes]」または「[!UICONTROL Analytics]」を選択します。
 
    「[!UICONTROL Analytics]」を選択した場合、目的のレポートスイートを選択します。
+
+   詳しくは、「Adobe AnalyticsとターゲットRecommendationsの [使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」を参照してください。
 
 1. 「**[!UICONTROL コンテンツ]**」のルールを設定します。
 
