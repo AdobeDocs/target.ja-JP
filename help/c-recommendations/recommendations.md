@@ -5,17 +5,17 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 89%
+source-wordcount: '929'
+ht-degree: 59%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+[!DNL Adobe Target Recommendations] アクティビティは、以前のユーザーアクティビティ、環境設定またはその他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービスまたはコンテンツを自動的に表示します。 [!DNL Target Recommendations] 関連性の高い項目に訪問者を向けるのに役立ちます。 [!DNL Recommendations] 適切なタイミングで適切な場所に関連コンテンツを訪問者に提供できます。
 
 >[!NOTE]
 >
@@ -36,18 +36,34 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 ![](assets/velocity_example.png)
 
-レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。次に例を示します。
+レコメンデーションは、サイトでの訪問者のアクティビティに応じて、訪問者に商品を提案する方法を決定します。 次に例を示します。
 
 | 目的のアクション | 推奨 |
 |--- |--- |
 | リュックサックを購入した顧客に、ハイキングシューズやトレッキングポールの購入を勧めます。 | 「これを購入した人が他に購入したもの」という条件を使用して、よく一緒に購入される品目を表示するレコメンデーションを作成します。 |
 | 訪問者が視聴しているメディア内容に類似した内容を勧めることで、訪問者がより長い時間メディアサイトに滞在するようにします。 | 「これを閲覧した人が他に閲覧したもの」という条件を使用して、他のビデオを提案するレコメンデーションを作成します。 |
 | 銀行の預金プランに関する情報を閲覧した顧客に、IRA アカウントに関する情報も読むことを提案します。 | 「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。 |
-</table>
 
 上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
 
-## トレーニングビデオ：アクティビティのタイプ ![概要バッジ](/help/assets/overview.png)
+## キーワード
+
+を使い始める前に [!DNL Recommendations]、この節で使用する用語の一部を理解しておくと役に立ちます。 これらの用語がまだ完全に理解されていない場合は、 [!DNL Recommendations] アクティビティのセットアップ時に用語の使い方を習得できるようになります。
+
+| 用語 | 定義 |
+| --- | --- |
+| アクティビティ | のアクティビティ [!DNL Target] を使用すると、特定のオーディエンスにコンテンツをパーソナライズして、ページデザインをテストできます。 [!DNL Recommendations] は、で利用できる多数のアクティビティタイプの1つにすぎま [!DNL Target]せん。 詳しくは、「 [ターゲットアクティビティタイプ](/help/c-activities/target-activities-guide.md)」を参照してください。 |
+| エンティティ | エンティティとは、レコメンデーションする項目を指します。エンティティには、製品、コンテンツ（記事、スライドショー、画像、動画、テレビ番組）、ジョブリスト、レストランなど、あらゆる要素を使用できます。詳細については、「 [エンティティ](/help/c-recommendations/c-products/products.md)」を参照してください。 |
+| フィード | フィードは、エンティティをに読み込むために使用され [!DNL Recommendations]ます。 エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
+| カタログ | カタログは、製品セット（エンティティ）全体を参照します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。 |
+| コレクション | コレクションとは、1つの製品カテゴリなど、類似したアイテムや関連アイテムのセットを指します。 しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| 条件 | 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。<br>条件の例をいくつか挙げます。 <ul><li>これを購入した人が他に購入したもの</li><li>これを閲覧した人が他に閲覧したもの</li><li>類似の属性を持つ品目</li><li>最後に購入された品目</li><li>お気に入りのカテゴリ</li></ul>  詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。 |
+| デザイン | デザインは、行、列、テーブル、グリッドなど、 [!DNL Recommendations] アクティビティ内のレコメンデーションの外観を定義します。 この記事の上部の図は、4 x 1のデザインを示しています。 For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| 場所 | 場所とは、パーソナライズと最適化の目的でアクティビティを実行するWebページ、モバイルアプリ、電子メール上の特定のコンテンツ領域を指します。 |
+| オーディエンス | オーディエンスは、ターゲットアクティビティを表示する、類似したアクティビティ参加者のグループです。 オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、「[オーディエンス](/help/c-target/target.md)」を参照してください。 |
+| オファーとしての Recommendations  | A/Bテスト(自動配分と自動ターゲットを含む)およびエクスペリエンスのターゲット設定(XT)アクティビティ内にレコメンデーションを含めることのできる機能。 詳細については、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
+
+## トレーニングビデオ：アクティビティタイプ ![の概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
 
