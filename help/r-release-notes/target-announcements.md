@@ -5,7 +5,7 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -48,4 +48,4 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 ## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
-2020年8月30日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+2021年1月18日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 次の30日間は、ウェビナーの録画を [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
