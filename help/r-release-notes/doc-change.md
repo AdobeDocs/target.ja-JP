@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1999'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月28日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の更新が行われました。<ul><li>「既知の問題」の節に追加しました。「レポート — コンバージョンは、現在、どのオーディエンスが使用されているかによって異なります。」</li><li>「解決された問題」の節に追加しました。&quot;Google Chromeバージョン80以降を使用している場合に、Visual Experience Composer(VEC)または拡張Experience Composer(EEC)でページが読み込まれない。&quot;</li></ul> |
 | 8月26日 | [Adobe AnalyticsをターゲットRecommendationsと併用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新規トピックです。 |
 | 8月24日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 「詳細設定」節を更新しました。 |
 | 8月21日 | [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md) | 新しい記事とサブトピックです。 |
