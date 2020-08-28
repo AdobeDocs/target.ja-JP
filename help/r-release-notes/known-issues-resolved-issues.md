@@ -5,10 +5,10 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上記の既知の問題が解決されると、それらは以降のセクションに移動され、必要に応じてメモが追加されます。
+
+### Google Chromeバージョン80以降を使用している場合に、Visual Experience Composer(VEC)または拡張Experience Composer(EEC)で読み込まれないページ
+
+この既知の問題は、Chromeバージョン80以降のSameSite属性を使用しないでCookieのデフォルト動作を変更するGoogleによる決定に関するものです。 変更前は、ChromeでデフォルトでSameSite属性が「SameSite=None」に設定されていないすべてのCookieがデフォルトで使用され、デフォルトでは「SameSite=Lax」に設定され、これにより、GETおよびPOSTリクエストに対するCookieの送信方法が変更されていました。 「SameSiteの更新 [」を参照してください](https://www.chromium.org/updates/same-site)。
+
+詳細と修正については、「最近発表されたGoogle Chrome SameSite cookieの実施ポリシーがVECおよびEECに与える影響を教えてください。」を参照してください。 in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### カスタムエクスペリエンスをコントロールとして使用している場合、自動ターゲットアクティビティのグラフレポートでレンダリングに失敗します。
 
