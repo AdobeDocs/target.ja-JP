@@ -5,10 +5,10 @@ title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,9 @@ VEC で一部の Web サイトを確実に開くことができない理由：
 * Web サイトで iframe が使用されています。
 * Web サイトに at.js ライブラリがまだ実装されていません。
 * お客様の QA またはステージサイトは、外部では利用できません（サイトは内部）。
+* 強化されたSameSite cookieの適用ポリシーでGoogle Chrome 80以降を使用している。 詳しくは、 [「最近発表されたGoogle Chrome SameSite cookieの実施ポリシーがVECおよびEECに与える影響を教えてください](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
-Chrome 用の VEC ヘルパーブラウザー拡張機能は、お客様が[!DNL Target][!UICONTROL 拡張 Experience Composer] またはサードパーティ拡張機能（Requestly など）に依存するようになったサイトの読み込みの問題を解決します。
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly.
 
 VEC ヘルパー拡張機能を使用する利点：
 
