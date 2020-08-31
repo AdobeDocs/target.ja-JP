@@ -4,9 +4,9 @@ description: Adobe Analyticsを行動データソースとして使用すると�
 title: Adobe AnalyticsとターゲットRecommendationsを使う
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ Recommendationsで条件 [を作成する際](/help/c-recommendations/c-algorith
    ![「Mapping」セクション](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## よくある質問
+
+で使用するFAQを次 [!DNL Analytics] に示します [!DNL Target]。
+
+### mbox呼び出し内で `entity.id` および `entity.categoryId`[!DNL Target] 値を渡す必要がありますか。
+
+はい、この2つの値は必須です。 このドキュメントで説明するように、残りの属性は [!DNL Analytics] フィードを介して渡すことができます。
+
+### フィードアプローチを使用して、エンティティパラメーターがプロファイル属性と一致するなど、動的な包含ルールを使用できま [!DNL Analytics] すか。
+
+はい、できます。 この方法は、 [!DNL Target] スタンドアロンを使用する場合と同様です。 ただし、この場合は、タイミングに注意する必要があります。 プロファイル変数と一致すると想定されるエンティティ変数は、ページのかなり後で表示されるデータレイヤーに依存します。
+
