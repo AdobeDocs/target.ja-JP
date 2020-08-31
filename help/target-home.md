@@ -1,10 +1,10 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Target 製品ドキュメント
-feature: null
+feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
+source-git-commit: a11be7ee4625df047a770cb3d0b9066b6fc577d2
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
