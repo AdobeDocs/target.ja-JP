@@ -4,9 +4,9 @@ description: Adobe Analyticsを行動データソースとして使用すると�
 title: Adobe AnalyticsとターゲットRecommendationsを使う
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 2%
 
 ---
@@ -59,11 +59,11 @@ Recommendationsで条件 [を作成する際](/help/c-recommendations/c-algorith
 
 ### 導入手順
 
-すべての前提条件が満たされていると仮定し、次のタスクはAdobe TargetRecommendationsチームが行う必要があります。
+すべての前提条件が満たされている場合は、次のタスクを [!DNL Adobe Target Recommendations] チームが実行する必要があります。
 
->[重要]
+>[!IMPORTANT]
 >
->以下の手順は、例示用です。 現在、Recommendationsチームのメンバーがこれらの手順を実行する必要があります。 [詳しくは、カスタマーケアにお問い合わせ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
+>以下の手順は、例示的な目的でのみ使用します。 現在、 [!DNL Recommendations] チームのメンバーがこれらの手順を実行する必要があります。 [詳しくは、カスタマーケアにお問い合わせ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
 
 1. で、 [!DNL Target]管理 **[!UICONTROL /]** 導入 **[!UICONTROL をクリックして、]**[!DNL Target] クライアントコードを取得します。
 
