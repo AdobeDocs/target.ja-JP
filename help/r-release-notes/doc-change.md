@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2024'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月31日 | [RecommendationsでAdobe Analyticsを使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ節を追加しました。 |
 | 8月28日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の更新が行われました。<ul><li>「既知の問題」の節に追加しました。「レポート — コンバージョンは、現在、どのオーディエンスが使用されているかによって異なります。」</li><li>「解決された問題」の節に追加しました。&quot;Google Chromeバージョン80以降を使用している場合に、Visual Experience Composer(VEC)または拡張Experience Composer(EEC)でページが読み込まれない。&quot;</li></ul> |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | mbox.jsの廃止日を2020年8月30日から2021年1月18日に変更しました。 |
 | 8月26日 | [Adobe AnalyticsをターゲットRecommendationsと併用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新規トピックです。 |
