@@ -4,10 +4,10 @@ description: Adobe Analyticsを行動データソースとして使用すると�
 title: Adobe AnalyticsとターゲットRecommendationsを使う
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
+source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -57,79 +57,9 @@ Recommendationsで条件 [を作成する際](/help/c-recommendations/c-algorith
 
 どのデータソースを使用するかを迅速に判断するために、ユーザーが毎日大量に生成するオーガニックデータがあり、履歴データへの依存度が低い場合は、行動データソースとして [!DNL Target] mboxを使用するのが適切です。 最近生成されたオーガニックデータの可用性が低い場合に、データに基づいて銀行を行いたい場合は、行動データソースとしての使用 [!DNL Analytics][!DNL Analytics] が適切です。
 
-### 導入手順
+### カスタマーケアに連絡して、データフィードを作成してもらう
 
-すべての前提条件が満たされていると仮定し、次のタスクを実行します。
-
-1. で、 [!DNL Target]管理 **[!UICONTROL /]** 導入 **[!UICONTROL をクリックして、]**[!DNL Target] クライアントコードを取得します。
-
-   ![クライアントコード](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. レポートスイートを取得し [!DNL Analytics] ます。
-
-   実 [!DNL Analytics] 稼動サイトのレポートスイートを使用します。 これは、デプロイしたサイトを追跡するレポートスイートで [!DNL Recommendations] す。
-
-1. で、 [!DNL Analytics]管理者 **[!UICONTROL /]** データフィードをクリックします ****。
-
-   ![設定/データフィード](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. Click **[!UICONTROL Add]** to create a new feed.
-
-   ![追加飼料](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. フィード情報を入力します。
-
-   * **名前**:製品フィードを再利用
-   * **レポートスイート**:事前に決定されたレポートスイート
-   * **電子メール**:管理者ユーザーに適したアドレスを指定します
-   * **フィード間隔**:目的の間隔を選択します
-   * **遅延処理**:遅延なし。
-   * **開始日と終了日**:連続フィード
-
-   ![「フィード情報」セクション](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. Fill in the details in the **[!UICONTROL Destination]** section:
-
-   >[!NOTE]
-   > 
-   >この手順を実行する前に、 [!DNL Adobe Analytics] チームに問い合わせてください。
-
-   * **タイプ**:FTP
-   * **Host**: `xxx.yyy.com`
-   * **パス**:クライアント [!DNL Target] コード
-   * **ユーザー名**:ユーザー名を指定します
-   * **パスワード**:パスワードの指定
-
-   スクリーンショットは参照用です。 展開には異なる資格情報が含まれます。 この手順を実行する際は、 [!DNL Adobe Analytics] チームまたはカスタマーケアにお問い合わせください。
-
-   ![宛先セクション](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. 「 **[!UICONTROL データ列]** 」の定義を入力します。
-
-   * **圧縮形式**:Gzip
-   * **パッケージの種類**: 単一ファイル
-   * **マニフェスト：** ファイルを終了
-
-      ![圧縮形式、パッケージ化タイプ、マニフェストの設定](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **含まれる列**:
-
-      >[!IMPORTANT]
-      >
-      >列は、ここに記載されているのと同じ順序で追加する必要があります。 次の順序で列を選択し、各列の **** 追加をクリックします。
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-   ![データ列の定義の節](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-これでセットアップは [!DNL Analytics] 終了です。 次に、行動データを継続的に提供するために、これらの変数を [!DNL Target] 同時にマップします。
+すべての前提条件が満たされている場合は、 [カスタマーケアに連絡して、データフィードを作成してもらいます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
 
 ## ターゲットでの実装
 
