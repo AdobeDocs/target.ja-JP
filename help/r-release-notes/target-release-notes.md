@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 * ワークスペース名(Enterprise用の [!UICONTROL Adobe Admin Consoleで指定)にアポストロフィが含まれる場合に、] アクティビティ ページが表示されない問題を修正しました。 （TGT-37709）
 * 最適化指標とコンバージョン指標を選択する際の [!UICONTROL 自動配分] アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようユーザーに通知する問題を修正しました。 （TGT-37689）
 * ター [!UICONTROL ゲット設定ページに移動してから戻った後で、] 目標と設定  ページの指標が空白になる場合がある問題を修正しました。 （TGT-37691）
-* 条件の最終変更日の値が正しくない問題を修正しました [!DNL Recommendations] 。 （TGT-37666）
+* 条件の最終変更値が正しくない問題を修正しました [!DNL Recommendations] 。 （TGT-37666）
 * mbox名ではなくmboxドロップダウンリストーにmbox IDが表示される問題を修正しました。 （TGT-37739）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
