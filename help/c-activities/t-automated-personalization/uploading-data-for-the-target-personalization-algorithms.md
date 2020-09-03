@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Target のパーソナライゼーションアルゴリズムのデータのアップロード{#upload-data-for-target-s-personalization-algorithms} を参照してください。
+# Target のパーソナライゼーションアルゴリズムのデータのアップロード を参照してください。{#upload-data-for-target-s-personalization-algorithms}
 
 CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、パーソナライゼーションモデルを構築する際に非常に重要となることがあります。
 
