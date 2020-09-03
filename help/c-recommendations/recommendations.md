@@ -5,9 +5,9 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 59%
 | 用語 | 定義 |
 | --- | --- |
 | アクティビティ | のアクティビティ [!DNL Target] を使用すると、特定のオーディエンスにコンテンツをパーソナライズして、ページデザインをテストできます。 [!DNL Recommendations] は、で利用できる多数のアクティビティタイプの1つにすぎま [!DNL Target]せん。 詳しくは、「 [ターゲットアクティビティタイプ](/help/c-activities/target-activities-guide.md)」を参照してください。 |
-| エンティティ | エンティティとは、レコメンデーションする項目を指します。エンティティには、製品、コンテンツ（記事、スライドショー、画像、動画、テレビ番組）、ジョブリスト、レストランなど、あらゆる要素を使用できます。詳細については、「 [エンティティ](/help/c-recommendations/c-products/products.md)」を参照してください。 |
+| エンティティ | エンティティとは、レコメンデーションする項目を指します。エンティティには、製品、コンテンツ（記事、スライドショー、画像、動画、テレビ番組）、ジョブリスト、レストランなどがあります。 For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | フィード | フィードは、エンティティをに読み込むために使用され [!DNL Recommendations]ます。 エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
 | カタログ | カタログは、製品セット（エンティティ）全体を参照します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。 |
 | コレクション | コレクションとは、1つの製品カテゴリなど、類似したアイテムや関連アイテムのセットを指します。 しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
