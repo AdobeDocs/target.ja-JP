@@ -4,10 +4,10 @@ title: Adobe Target 製品ドキュメント
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: a11be7ee4625df047a770cb3d0b9066b6fc577d2
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2020 年 8 月 31 日（[「変更内容」を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2020年9月2日([「変更点](r-release-notes/doc-change.md)」を参照)**
 
 >[!NOTE]
 >
