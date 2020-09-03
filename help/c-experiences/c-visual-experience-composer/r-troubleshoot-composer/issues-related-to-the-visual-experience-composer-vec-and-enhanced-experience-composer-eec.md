@@ -5,10 +5,10 @@ title: Visual Experience Composer と拡張 Experience Composer に関連する�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 72%
+source-wordcount: '1370'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、特定の状況で表示の問題やその他の問題が発生することがあります。
 
-## 最近発表されたGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。 {#samesite}
+## 最近発表されたGoogle Chrome SameSite cookieの適用ポリシーがVECおよびEECに与える影響を教えてください。 {#samesite}
 
 最新の変更（2020年8月）により、Chrome 80以降のブラウザーバージョンを使用するすべてのユーザーが次の操作を実行できます。
 
@@ -25,11 +25,11 @@ Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、�
 * アクティビティの編集中は **[!DNL Target] （ライブラリがまだサイトにない場合）、ライブラリをダウンロードできません。 これは、ダウンロード呼び出しが、保護されたAdobeドメインに向かって顧客ドメインから行われ、非認証として拒否されるからです。
 * Cookieに対してSameSite属性を設定できないため、EECは *すべてのユーザーに対して機能しま* せん `adobemc.com domain`。 この属性がない場合、ブラウザーはこれらのcookieを拒否し、EECが失敗する原因となります。
 
-Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 必要に応じて、この拡張機能によってcookie属性が上書きされ、 `SameSite="none"` 属性が設定されます。 更 [新された拡張機能は、こちらを参照してください](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 必要に応じて、この拡張機能によってcookie属性が上書きされ、 `SameSite="none"` 属性が設定されます。 更 [新された拡張機能は、こちらを参照してください](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 VEC Helper Extensionのインストールおよび使用について詳しくは、「 [Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
 
-独自のサイトのCookieに対して、名前でCookieを指定する必要があります。 Cookie  スライダーをオンの位置に切り替え、Cookieを名前で指定します。
+独自のサイトのCookieに対して、名前でCookieを指定する必要があります。 「 [!UICONTROL Cookie] 」スライダーをオンの位置に切り替え、名前とCookieドメインでCookieを指定します。 Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの2番目で最上位です。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳細については、『 [Experience Cloudインターフェイスユーザガイド』の「](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Targetcookie *」を参照してください*。
 
-![VECヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![VECヘルパー拡張でのcookieの切り替え](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### 代替方法と回避策
 
