@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '29014'
-ht-degree: 89%
+source-wordcount: '29300'
+ht-degree: 88%
 
 ---
 
@@ -24,6 +24,40 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 
 ## リリースノート - 2020 年
 
+### at.js 2.3.2（2020年7月25日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* スクリプトまたはコードがウィンドウまたはドキュメントにデフォルトのプロパティを追加した場合に発生するバグを修正しました。
+
+### Target Standard／Premium 20.7.1（2020 年 7 月 28 日）
+
+このリリースには、次のような変更が含まれています。
+
+#### [!UICONTROL 管理] ・セクションのUIの更新
+
+パフォーマンスを向上させ、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザーエクスペリエンスを向上させるために、新しいテクニカルスタックを使用して [!DNL Target] UI全体を徐々に書き換えていきます。 最初に更新されたセクションは [!UICONTROL 「セットアップ] 」セクションで、 [!UICONTROL 「管理」という名前に変更されました]。
+
+この更新の一環として、次のように、 [!UICONTROL 管理] セクションのページを使用して簡単に多くのアクションを実行できます。
+
+* 「 [!UICONTROL 実装] 」タブ(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)から最新のat.jsファイルをダウンロードします。
+* at.js設定をカスタマイズし、変更を簡単に確認できるようにします(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)。
+* デフォルトのレポートおよびタイムゾーン、レポートから除外するIPなど、拡張通貨設定を変更します。 (**[!UICONTROL 管理]** / **[!UICONTROL レポート]**)
+* プライバシー上の理由で訪問者のIPアドレスを不明化(**[!UICONTROL 管理]** / **[!UICONTROL 導入]**)
+* Adobe Admin Consoleでユーザーを管理する前に、ワークスペースごとの既存のリストとそのロールを表示します(**[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**)。
+* 「 [!UICONTROL 管理] 」セクションのすべてのテーブルを検索してフィルターします。
+
+詳しくは、「 [管理ターゲットの概要](/help/administrating-target/administrating-target.md)」を参照してください。
+
+#### 機能強化、修正および変更
+
+このリリースには、次の機能強化、修正および変更が含まれています。
+
+* 更新後にサイトの環境設定が保持されない問題を修正しました。 （TGT-37239）
+* 「後に [!UICONTROL 挿入] 」 [!UICONTROL /「] 画像」がScalable Vector Graphics(SVG)画像で正しく機能しない問題を修正しました。 （TGT-37242）
+* ドラフトアクティビティを削除できなかった、 [!UICONTROL 投稿] ロールを持つユーザーの問題を修正しました。 （TGT-37358）
+* 「す [!UICONTROL べてのワークスペース] 」が選択されている場合にアクティビティを編集できない問題を修正しました。 （TGT-37276）
+
 ### Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
 
 | 機能／拡張機能 | 説明 |
@@ -31,7 +65,7 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 | Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、ターゲットの [Analyticsがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL Adobe Analytics目標指標や] Adobe Analytics  レポートおよび分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分アクティビティに対する](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
 | 自動ターゲットおよびAutomated Personalizationアクティビティのトラフィック配分方法の応答トークン | 「 [自動ターゲット](/help/administrating-target/response-tokens.md) 」と「 [!UICONTROL Automated Personalization] アクティビティ」に [!UICONTROL 2つの] 応答トークンが追加され、訪問者が「制御」トラフィックまたは「ターゲット」トラフィックに割り当てられた結果として特定のエクスペリエンスを受け取ったかどうかを判断できるようになりました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、「Automated Personalizationまたは自動ターゲットのアクティビティのコントロールを [選択します](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
 | [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
-| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 [!UICONTROL Analyticsターゲット版(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、A4TレポートのAnalytics [の](/help/c-integrating-target-with-mac/a4t/reporting.md) レポートおよびAnalytics forターゲットの *Analytics* (A4T)パネル [(A4T)の、](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)** Analyticsツールガイドのレポートを参照してください。 |
+| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 [!UICONTROL Analyticsターゲット版(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、A4TレポートのAnalytics [での](/help/c-integrating-target-with-mac/a4t/reporting.md) レポートおよびAnalyticsターゲット用の *Analytics(A4T)パネル* (A4T [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;ツールガイド)を参照してください。 |
 
 **機能強化、修正および変更**
 
@@ -45,7 +79,7 @@ at.jsライブラリに加えられた改善点および修正点 [!DNL Target] 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | at.js 1.8.2 | at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。<ul><li>CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-| at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）</li><li>拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しの [!DNL Adobe Analytics] 遅延が発生する問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）</li><li>拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しが [!DNL Adobe Analytics] 遅れていた問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ### プロファイルバッチステータスAPI v2の変更点（2020年5月14日）
 
@@ -218,13 +252,13 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行え [!DNL Adobe Experience Cloud Identity Service][!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方でのハイブリッド統合がある場合 [!DNL Target] の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側から取得したエクスペリエンスによって設定される、という設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が [ターゲットJava SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、 [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)（英語）を参照してください。<br>新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+| Java SDK | Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行うこ [!DNL Adobe Experience Cloud Identity Service]とができ [!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方でのハイブリッド統合がある場合 [!DNL Target] の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側から取得したエクスペリエンスによって設定される、という設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が [ターゲットJava SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、 [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)（英語）を参照してください。<br>新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ### Target Standard／Premium 19.10.2（2019 年 10 月 31 日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![複数値の属性を含むプレミアムバッジ](/help/assets/premium.png) （複数値） | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>これらのシナリオでのレコメンデーションを処理するには、複数値のデータをターゲットRecommendationsに渡し、特別な複数値演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+| ![複数値の属性を含むプレミアムバッジ](/help/assets/premium.png) | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>これらのシナリオでのレコメンデーションを処理するには、複数値のデータをターゲットRecommendationsに渡し、特別な複数値演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ### Target Standard／Premium 19.10.1（2019 年 10 月 22 日）
 
@@ -263,7 +297,7 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience CloudIDサービス(ECID) v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するために、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードすると、次の機能が提供されます。<ul><li>**serverState**:at.js v2.2以降で利用できる設定で、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチされたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。<br>詳しくは、targetGlobalSettingsの「serverState」を参照して [ください](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience CloudIDサービス(ECID) v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するために、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードすると、次の機能が提供されます。<ul><li>**serverState**:at.js v2.2以降で利用できる設定で、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチしたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。<br>詳しくは、targetGlobalSettingsの「serverState」を参照して [ください](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
 
 ### ターゲットプラットフォーム（2019年10月9日）
 
