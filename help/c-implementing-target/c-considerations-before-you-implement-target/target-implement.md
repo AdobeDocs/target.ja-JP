@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# [!DNL Target] JavaScript ライブラリ{#understand-the-target-javascript-libraries}について
+# [!DNL Target] JavaScript ライブラリについて {#understand-the-target-javascript-libraries}
 
 Web ページで [!DNL Target] ライブラリ（at.js または mbox.js）を参照して [!DNL Target] を実装します。
 
