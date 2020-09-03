@@ -5,7 +5,7 @@ title: Visual Experience Composerの設定
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -37,7 +37,7 @@ Visual Experience Composerの一般設定を指定できます。
 
 [!UICONTROL Visual Experience Composer] で使用されるデフォルトの URL を設定します。これは、新しいアクティビティのそれぞれに対してエクスペリエンスをセットアップするときに必ず使用される、ホームページのようなデフォルトのページです。デフォルトの URL を設定しない場合は、各アクティビティを作成するたびに URL を入力する必要があります。
 
-### 拡張された Experience Composer を有効にする
+### 拡張された Experience Composer を有効にする {#eec}
 
 iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは、拡張版と互換性がない場合があります。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. サイトでのアクティビティの配信はこの選択の影響を受けません。
 
