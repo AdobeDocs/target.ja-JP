@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 87%
@@ -159,10 +159,10 @@ ht-degree: 87%
       + [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [ロケーションサービスを使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
+      + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 電子メール：Target の実装 {#implement-email}
       + [電子メール：Target の実装の概要](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
