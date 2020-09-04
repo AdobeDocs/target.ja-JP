@@ -5,10 +5,10 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 82%
 ### ページ配信 {#page-delivery}
 
 [ページ配信](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、ルールの先頭に余分なスペースが付加されます。これは表面的な問題であり、オーディエンス定義の作成やオファーの配信には影響しません。（TGT-35920）
+
+### QAプレビューリンク
+
+アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティのアクティビティ QA プレビューリンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。この問題が引き続き発生するのを防ぐためにアクティブに使用されなくなった保存済みアクティビティをアーカイブします。 （TNT-37294）
 
 ### RecommendationsアクティビティのQAモード
 
