@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、�
 
 このバージョンでは、次の変更がおこなわれました。
 
-* Target Standard の自動作成されるグローバル mbox 応答では、document.write() が使用されなくなりました。また、 <div> 要素も作成されません。
+* Target Standard の自動作成されるグローバル mbox 応答では、document.write() が使用されなくなりました。また、`<div>`要素も作成されません。
 
-   これにより、mbox.js ファイルをページの <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 最後の項目にするという要件は必要なくなりました。この新しいバージョンにアップグレードする場合は、十分な QA を実施することをお勧めします。
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. この新しいバージョンにアップグレードする場合は、十分な QA を実施することをお勧めします。
 
    この変更によって、一部のタイプのオファーを提供する場合に、動作が変わる可能性があります。考慮が必要となる具体的な状況についていくつか説明します。
 
@@ -227,7 +227,7 @@ mbox.js バージョン 57 にも、重要な修正が含まれています。
 
 **リリース日：** 2014 年 9 月 30 日
 
-グローバル mbox の実装を、document.write から AJAX に変更しました。これにより、mbox.js ファイルをページの <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> の最後の項目にするという要件は必要なくなりました。このバージョンは、API からのみ利用できます。クライアントは、この mbox.js ファイルをダウンロードして使用できます。サイトによっては、コンテンツでこの実装を使用している場合と使用していない場合があります。サイトの統合の状況を確認してください。
+グローバル mbox の実装を、document.write から AJAX に変更しました。これにより、mbox.js ファイルをページの`<head>`の最後の項目にするという要件は必要なくなりました。このバージョンは、API からのみ利用できます。クライアントは、この mbox.js ファイルをダウンロードして使用できます。サイトによっては、コンテンツでこの実装を使用している場合と使用していない場合があります。サイトの統合の状況を確認してください。
 
 ## mbox バージョン 53
 
