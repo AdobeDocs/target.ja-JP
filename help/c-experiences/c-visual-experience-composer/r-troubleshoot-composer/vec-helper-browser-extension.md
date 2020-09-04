@@ -5,10 +5,10 @@ title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 59%
+source-wordcount: '847'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 59%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-VEC で一部の Web サイトを確実に開くことができない理由：
+>[!NOTE]
+>
+>VEC Helperブラウザーは、Chromeの拡張機能です。 Mozilla Firefoxを使用する場合、この拡張機能は不要です。
+
+## 一部のWebサイトがVECで確実に開かない理由
 
 * Web サイトには厳格なセキュリティポリシーがあります。
 * Web サイトで iframe が使用されています。
@@ -27,7 +31,7 @@ VEC で一部の Web サイトを確実に開くことができない理由：
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
-VEC ヘルパー拡張機能を使用する利点：
+## VEC Helper拡張機能を使用する利点
 
 * すべての iframe バスティングヘッダー（X-Frame-Options や Content-Security-Policy など）は、Web サイトから暗黙的に削除されます。そのための複雑な Requestly ルールを作成する必要はありません。
 * Web ページに [!DNL Target]at.js JavaScript ライブラリがまだ含まれていない場合は、拡張機能を使用してライブラリを挿入することにより、Web サイトのエクスペリエンスを作成できます。その後に、プレビューリンクを使用してアクティビティを作成し、QA を実行できます。
