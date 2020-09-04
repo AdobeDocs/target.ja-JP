@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
@@ -22,7 +22,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 ## 自動作成されたグローバルmboxの使用 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-「[グローバル mbox を自動作成](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)」設定を at.js 設定時に有効にすると、at.js はページの読み込み時に不透明度の設定を変更し、ちらつきを制御します。at.js が読み込まれると、その要素の不透明度の設定が <body> 「0」に変更され、そのページが最初は訪問者に対して表示されなくなります。Target からの応答を受信した、または Target のリクエストにエラーが検出された場合、at.js は不透明度を「1」にリセットします。これにより、訪問者は、アクティビティのコンテンツが適用された後にのみページを表示できます。
+「[グローバル mbox を自動作成](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)」設定を at.js 設定時に有効にすると、at.js はページの読み込み時に不透明度の設定を変更し、ちらつきを制御します。at.js が読み込まれると、その要素の不透明度の設定が`<body>`「0」に変更され、そのページが最初は訪問者に対して表示されなくなります。Target からの応答を受信した、または Target のリクエストにエラーが検出された場合、at.js は不透明度を「1」にリセットします。これにより、訪問者は、アクティビティのコンテンツが適用された後にのみページを表示できます。
 
 グローバル mbox を自動作成設定を at.js の設定時に有効にすると、at.js は HTML BODY スタイルの不透明度を 0 に設定します。Target からの応答を受け取ったら、at.js は HTML BODY の不透明度を 1 にリセットします。
 
