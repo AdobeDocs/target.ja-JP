@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '29300'
 ht-degree: 88%
@@ -1940,7 +1940,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：基準の優先度の設定 </td> 
-   <td colname="col2"> <p>最大 5 つの事前作成された基準のセットを単一のエクスペリエンスに使用して、訪問者に提示するレコメンデーションの管理を強化します。 </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local">基準の優先順位の作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>最大 5 つの事前作成された基準のセットを単一のエクスペリエンスに使用して、訪問者に提示するレコメンデーションの管理を強化します。 </p> <p>For more information, see <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Create Criteria Sequences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：外部プロモーションの挿入 </td> 
