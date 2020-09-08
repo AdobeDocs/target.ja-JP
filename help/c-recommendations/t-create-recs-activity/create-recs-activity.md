@@ -5,7 +5,7 @@ title: Recommendations アクティビティの作成
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 93%
@@ -84,8 +84,8 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
       [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
-   * また、条件をシーケンスにグループ化することもできます。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 詳しくは、[条件のシーケンスの作成](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[条件の作成](../../c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
+   * また、条件をシーケンスにグループ化することもできます。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 詳しくは、「条件のシーケンス [を作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 」を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択します。
