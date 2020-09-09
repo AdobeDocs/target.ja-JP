@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 26%
+source-wordcount: '1095'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 26%
 
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
+
+| 機能 | 詳細 |
+| --- | --- |
+| 条件のシーケンス内のレコメンデーションスロットの制御 | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件のシーケンス [の作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) （英語）を参照してください。 |
 
 ## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 
