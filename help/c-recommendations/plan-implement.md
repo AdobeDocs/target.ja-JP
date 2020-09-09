@@ -5,9 +5,9 @@ title: Recommendations の計画と実装
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1592'
 ht-degree: 97%
 
 ---
@@ -27,7 +27,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
 |--- |--- |--- |
 | ![手順 1](/help/c-recommendations/assets/step1_red.png) | JavaScript ライブラリ | 各ページには、at.js バージョン 0.9.1（またはそれ以降）か mbox.js バージョン 55（またはそれ以降）への参照が必要です。この実装の手順は、Target アクティビティを使用するすべてのページで必要です。商品 ID やカテゴリ ID などのキーを含めることができます。<BR>at.js について詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。<br>mbox.js について詳しくは、[Mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)を参照してください。 |
 | ![手順 2](/help/c-recommendations/assets/step2_red.png) | キー | キーは、レコメンデーションに表示される製品やコンテンツのタイプを決定します。例えば、製品カテゴリをキーにできます。[レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)を参照してください。 |
-| ![手順 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性を使用すると、表示したい製品についてさらに細かい情報を提供できます。例えば、ある価格帯の製品や、在庫のしきい値を満たしている品目を表示することができます。属性は、mbox 内または[フィード](/help/c-recommendations/c-products/feeds.md).<br>[インクルージョンルール](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)と[エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md)を参照してください。 |
+| ![手順 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性を使用すると、表示したい製品についてさらに細かい情報を提供できます。例えば、ある価格帯の製品や、在庫のしきい値を満たしている品目を表示することができます。属性は、mbox 内または[フィード](/help/c-recommendations/c-products/feeds.md).<br>詳しくは、[インクルージョンルール[の指定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)]を参照してください。 |
 | ![手順 4](/help/c-recommendations/assets/step4_red.png) | 除外 | 除外によって、レコメンデーションに表示しない特定の品目を決めることができます。<br>[除外](/help/c-recommendations/c-products/exclusions.md)を参照してください。 |
 | ![手順 5](/help/c-recommendations/assets/step5_red.png) | 購入の詳細 | 購入の詳細は、購入した品目や購入が完了した際の注文についての情報を提供します。 |
 
