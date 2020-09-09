@@ -5,10 +5,10 @@ title: カスタム条件のアップロード
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
    キーに基づく条件の設定について詳しくは、[レコメンデーションキーに基づくレコメンデーションの設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)を参照してください。
 1. 「**[!UICONTROL コンテンツ]**」のルールを設定します。
 
-   コンテンツルールは、デザインを埋めるのにレコメンデーション品目の数が足りない場合の動作を決定します。例えば、デザインに 5 品目分のスペースがあるが、条件によって 3 品目しかレコメンデーションされない場合、残りのスペースを空のままにしておくか、代替レコメンデーションを使用して余分なスペースを埋めることができます。適切なものに切り替えて選択します。詳しくは、[コンテンツ設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)を参照してください。
+   コンテンツルールは、デザインを埋めるのにレコメンデーション品目の数が足りない場合の動作を決定します。例えば、デザインに 5 品目分のスペースがあるが、条件によって 3 品目しかレコメンデーションされない場合、残りのスペースを空のままにしておくか、代替レコメンデーションを使用して余分なスペースを埋めることができます。適切なものに切り替えて選択します。詳しくは、 [コンテンツ設定を指定します](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 1. **[!UICONTROL インクルージョンルール]**&#x200B;を設定します。
 
-   インクルージョンルールを使用すると、レコメンデーションに表示する品目を絞り込むことができます。詳しくは [ 、インクルージョンルール ](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) を参照してください。1. CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
+   インクルージョンルールを使用すると、レコメンデーションに表示する品目を絞り込むことができます。See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. CSV ファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
    アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。「**[!UICONTROL CSV テンプレートのダウンロード]**」をクリックして、正しくフォーマットされた CSV ファイルをダウンロードします。
 
