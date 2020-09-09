@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29300'
+source-wordcount: '29294'
 ht-degree: 88%
 
 ---
@@ -758,7 +758,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>選択した条件を参照するアクティビティのリストを条件カードで表示できます。カードには、アクティブなアクティビティと非アクティブなアクティビティが一覧表示されます。（TGT-27672） </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>結果を表示する準備ができたときに、アクティビティ図で条件カードが表示されるようになりました。（TGT-27673） </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">条件</a>を参照してください。 </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>結果を表示する準備ができたときに、アクティビティ図で条件カードが表示されるようになりました。（TGT-27673） </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">条件</a>を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>カスタム条件は、レコメンデーションの他の条件と同じように変更できるようになりました。 </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>コレクション、除外およびインクルージョン（価格および在庫用の特殊なルールも含む）を、他の条件と同じように使用できます。コレクションと除外は既にサポートされていました。このリリースでインクルージョンが追加されました。 </p> </li> 
-     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> 条件 </a>. </p> <p>（TGT-28488） </p> </td> 
+     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> 条件 </a>. </p> <p>（TGT-28488） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>レコメンデーション：最近表示された項目の条件のインクルージョンルール、コレクションおよび除外 </p> </td> 
@@ -1063,7 +1063,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更できるようになりました。 </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>コレクション、除外およびインクルージョン（価格および在庫用の特殊なルールも含む）を、他の条件と同じように使用できます。コレクションと除外は既にサポートされていました。このリリースでインクルージョンが追加されました。 </p> </li> 
-     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> 条件 </a>. </p> <p>（TGT-22843） </p> </td> 
+     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> 条件 </a>. </p> <p>（TGT-22843） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Launch による Target の拡張 </p> </td> 
@@ -2622,7 +2622,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">過去の購入の除外 </p> </td> 
-   <td colname="col2"> <p>Target は、訪問者のレコメンデーションから以前購入した品目を自動的に除外するようになりました。このオプションは、任意の条件で無効にできます。 </p> <p>このリリースより前から実行されているアクティビティで使用されているものを含め、あらかじめ用意されているすべての条件で、この設定が有効になっています。過去の購入を除外したくない場合、これらのアクティビティを編集する必要があります。 </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">インクルージョンルール</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Target は、訪問者のレコメンデーションから以前購入した品目を自動的に除外するようになりました。このオプションは、任意の条件で無効にできます。 </p> <p>このリリースより前から実行されているアクティビティで使用されているものを含め、あらかじめ用意されているすべての条件で、この設定が有効になっています。過去の購入を除外したくない場合、これらのアクティビティを編集する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> 属性の重み付け </p> </td> 
@@ -2645,7 +2645,7 @@ target/r_release-notes-2015.xml
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">指定した entity.id に合致し、類似の属性を持つ品目を使用するカスタム属性 </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">類似の属性を持つ最後に表示した品目 </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">類似の属性を持つ最も多く表示した品目 </li> 
-     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">インクルージョンルール</a>を参照してください。 </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 新しいアクティビティリストフィルター </td> 
@@ -2664,7 +2664,7 @@ target/r_release-notes-2015.xml
       <li id="li_1B44AB35B045416B8D8B72C428750822">これに似たその他のコンテンツ </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">これに似たその他のスライドショー </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">これに似たその他の商品 </li> 
-     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">条件</a>を参照してください。 </p> </td> 
+     </ul> </p> <p>詳しくは、<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">条件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 機能強化：Analytics をレポートソースとして使用する際に表示されるレポートの詳細の強化 </td> 
@@ -2996,7 +2996,7 @@ target/r_release-notes-2015.xml
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Classic 機能の Recommendations Premium でのサポート </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> テンプレートの部分レンダリング <p>詳しくは、<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">コンテンツ設定</a>を参照してください。 </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> テンプレートの部分レンダリング <p>詳しくは、<a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">コンテンツ設定</a>を参照してください。 </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> 条件ごとのバックアップルールの指定 </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 製品フィードでの FTPS のサポート</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> カスタムアルゴリズムの条件としての自動的な表示</li> 
