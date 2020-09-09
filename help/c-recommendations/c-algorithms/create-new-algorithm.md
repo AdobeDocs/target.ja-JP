@@ -4,39 +4,45 @@ title: 条件の作成
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 条件を作成{#create-criteria}
 
-条件は、Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
+条件は、[!UICONTROL Recommendations] アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
 
-## 条件の作成 {#task_8A9CB465F28D44899F69F38AD27352FE}
+## 新しい条件の作成
 
-条件は、[!DNL Recommendations] アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
+次の節では、新しい条件の作成方法について説明します。
+
+### 新しい条件を作成画面にアクセスする
 
 [!UICONTROL 新しい条件を作成]画面を表示するには、複数の方法があります。一部の画面オプションは、画面の表示方法によって異なります。
 
-* [!DNL Recommendations] アクティビティを作成している場合、**[!UICONTROL 条件を選択画面の「]**&#x200B;新規作成」をクリックします。他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
-* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。[!UICONTROL 条件を選択]画面で、「**[!UICONTROL 新規作成]**」をクリックします。他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
-* **[!UICONTROL レコメンデーション]**／**[!UICONTROL 条件]**&#x200B;ライブラリ画面で、「**[!UICONTROL 条件を作成]**」をクリックします。ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
+* **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面で、条件を作成 **[!UICONTROL /条件を作成をクリックし]******&#x200B;ます。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
+* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
-1. 「**[!UICONTROL 条件を作成]**」または「**[!UICONTROL 新規作成]**」をクリックします。
+次の手順は、最初の方法で  新しい条件を作成画面にアクセスすることを前提としています。 **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面。
 
-   ![「条件を作成」ボタン](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL 条件を作成]**」をクリックします。
+1. 条件 **[!UICONTROL を作成]** /条件を **[!UICONTROL 作成をクリックします]**。
 
    ![新しい条件の作成](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### 「基本情報」セクションに入力します。
 
 1. 「**[!UICONTROL 条件名]**」を入力します。
 
    これは、条件の説明に使用される「内部」名です。例えば、条件を「利幅の高い商品」と呼びたいが、正式に表示されるタイトルにはそれを使いたくないという場合があります。公開されるタイトルを設定するには、次の手順を参照してください。
+
+   ![Basic Information」セクションで、以下の手順に従ってください。](/help/c-recommendations/c-algorithms/assets/basic-information.png)
 
 1. この条件を使用するすべての Recommendations 用にページに表示する、公開される「**[!UICONTROL 表示されるタイトル]**」を入力します。
 
@@ -44,7 +50,7 @@ ht-degree: 98%
 
 1. 条件の簡単な&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
-   説明は条件の特定に役立ちます。ここに条件の目的についての情報を含めることもできます。
+   説明は条件の特定に役立ちます。説明には条件の目的に関する情報が含まれる場合があります。
 
 1. 「**[!UICONTROL 業種]**」を次の中から選択します。
 
@@ -72,7 +78,11 @@ ht-degree: 98%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### データソースのオプションの指定
+
 1. 「**[!UICONTROL データ範囲]** 」を設定して、表示するレコメンデーションを決定する際に使用するユーザーの行動履歴データの範囲を決定します。
+
+   ![データ範囲スライダ](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。[!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
 
@@ -86,45 +96,63 @@ ht-degree: 98%
    * 1 か月
    * 2 か月
 
-1. 「**[!UICONTROL 行動データソース]**」で目的に応じて「[!UICONTROL mboxes]」または「[!UICONTROL Analytics]」を選択します。
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![「行動データソース」セクション](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    「[!UICONTROL Analytics]」を選択した場合、目的のレポートスイートを選択します。
 
-   詳しくは、「Adobe AnalyticsとターゲットRecommendationsの [使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」を参照してください。
+   詳しくは、下記の [Adobe Analytics](#analytics) 、ターゲットRecommendationsでのAdobe Analyticsの [使用を参照してください](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
-1. 「**[!UICONTROL コンテンツ]**」のルールを設定します。
+### コンテンツ設定の指定
 
-   コンテンツルールは、デザインを埋めるのにレコメンデーション品目の数が足りない場合の動作を決定します。例えば、デザインに 5 品目分のスペースがあるが、条件によって 3 品目しかレコメンデーションされない場合、残りのスペースを空のままにしておくか、代替レコメンデーションを使用して余分なスペースを埋めることができます。
+「[!UICONTROL コンテンツ]」のルールを設定します。
 
-   適切なものに切り替えて選択します。
+コンテンツルールは、デザインを埋めるのにレコメンデーション品目の数が足りない場合の動作を決定します。例えば、デザインに 5 品目分のスペースがあるが、条件によって 3 品目しかレコメンデーションされない場合、残りのスペースを空のままにしておくか、代替レコメンデーションを使用して余分なスペースを埋めることができます。
 
-   * [!UICONTROL デザインの部分レンダリングを有効化]
-   * [!UICONTROL バックアップレコメンデーションを表示]
-   * [!UICONTROL 以前購入された品目をレコメンデーション]
+![コンテンツセクション](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   この設定は、`productPurchasedId` に基づいています。カヤックなど、通常 1 回しか購入しない品目を販売する場合に便利です。シャンプーやその他個人的に使用する品目など、繰り返し購入される品目を販売する場合は、このオプションを無効にする必要があります。
+1. （オプション）「 **[!UICONTROL Partial Design Rendering]** 」トグルを「on」位置にスライドします。
 
-1. **[!UICONTROL インクルージョンルール]**&#x200B;を設定します。
+   塗りつぶされるスロットはできるだけ多くありますが、デザインテンプレートに残りのスロット用の空白スペースが含まれる場合があります。
+
+1. （オプション）「バックアップ **[!UICONTROL Recommendationsを表示]** 」トグルを「オン」位置にスライドします。
+
+   デザインの残りの空のスロットに、サイト全体から最も多く閲覧された製品をランダムに選択して入力します。
+
+   詳しくは、「代替レコメンデーションの [使用](/help/c-recommendations/c-algorithms/backup-recs.md)」を参照してください。
+
+1. （条件付き）前の手順で「代替Recommendations **[!UICONTROL を表示」を選択した場合]** 、「代替レコメンデーションにインクルージョンルールを **[!UICONTROL 適用]**」を有効にできます。
 
    インクルージョンルールによって、レコメンデーションに含める品目を決めることができます。使用できるオプションは、業種によって異なります。
 
    詳しくは、[インクルージョンルール](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)を参照してください。
 
-1. 「**[!UICONTROL 属性の重み付け]**」を設定します。
+1. （オプション）「以前購入した **[!UICONTROL レコメンデーション品目]** 」トグルを「オン」位置にスライドします。
 
-   複数のルールを追加して、コンテンツカタログについての重要な説明またはメタデータに基づいて、アルゴリズムを「一押し」できます。例えば、セール品に対してより大きな重み付けを適用して、より頻繁にレコメンデーションに表示されるようにできます。
+   この設定は、`productPurchasedId` に基づいています。カヤックなど、通常 1 回しか購入しない品目を販売する場合に便利です。シャンプーやその他個人的に使用する品目など、繰り返し購入される品目を販売する場合は、このオプションを無効にする必要があります。
 
-   詳しくは、[属性の重み付け](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)を参照してください。
+### インクルージョンルールの指定
 
-1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+![インクルージョンルール](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   新しい [!UICONTROL Recommendations] アクティビティを作成したり、既存のものを編集したりする場合、「**[!UICONTROL 後で使用するために条件を保存]**」チェックボックスがデフォルトで選択されています。他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### 属性の重み付けの指定
+
+複数のルールを追加して、コンテンツカタログについての重要な説明またはメタデータに基づいて、アルゴリズムを「一押し」できます。例えば、セール品に対してより大きな重み付けを適用して、より頻繁にレコメンデーションに表示されるようにできます。
+
+詳しくは、[属性の重み付け](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)を参照してください。
+
+終了したら「**[!UICONTROL 保存]**」をクリックします。
+
+新しい [!UICONTROL Recommendations] アクティビティを作成したり、既存のものを編集したりする場合、「**[!UICONTROL 後で使用するために条件を保存]**」チェックボックスがデフォルトで選択されています。他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
+
+### Adobe Analytics {#analytics}
 
 [!DNL Adobe Analytics] を行動データソースとして使用する条件を作成した場合は、選択されているレポートスイートとルックバックウィンドウが他の条件でも使用されているかどうかに応じて、条件が使用可能になる時間が異なります。
 
-* **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この期間は、[!DNL Analytics] システム負荷に依存します。
+* **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。This time frame is dependent on the [!DNL Analytics] system load.
 * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
 * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL 表示の親和性]レコメンデーションの場合、ユーザーが製品を表示すると、製品表示トラッキングコールがほぼリアルタイムで [!DNL Analytics] に渡されます。[!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
 
