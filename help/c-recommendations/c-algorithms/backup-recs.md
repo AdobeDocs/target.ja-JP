@@ -5,7 +5,7 @@ title: 代替レコメンデーションの使用
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 代替レコメンデーションの使用については、初期セットアップ時に導入チームと話し合っていただくことになります。導入後に代替レコメンデーション機能の設定を変更する場合は、アカウント担当者までお問い合わせください。
 
-「デザインの部分レンダリングを有効化」（[コンテンツ設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)を参照）が有効ではなく、テンプレートが表示されない場合は、代わりに代替レコメンデーションまたはデフォルトコンテンツが表示されます。
+「デザインの部分レンダリングを有効化」（[コンテンツ設定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)を参照）が有効ではなく、テンプレートが表示されない場合は、代わりに代替レコメンデーションまたはデフォルトコンテンツが表示されます。
