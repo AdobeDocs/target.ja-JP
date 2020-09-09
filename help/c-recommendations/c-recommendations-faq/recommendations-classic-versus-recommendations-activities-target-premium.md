@@ -5,7 +5,7 @@ title: Recommendations Classic と Target Premium の Recommendations アクテ�
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。例えば、小売業界に適用され、製品ページに使用して、特定のカテゴリ（`entity.categoryID` パラメーターで定義されているもの）の製品を表示するための条件を探すことができます。
 
-作成した条件の使用について詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
+作成した条件の使用について詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
 ## ワークフロー {#section_76B4A26297BF422382DE2C79A2713D3C}
 
