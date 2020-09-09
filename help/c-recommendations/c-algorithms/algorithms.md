@@ -5,15 +5,15 @@ title: Adobe TargetRecommendationsの基準
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 条件{#criteria}
+# ![PREMIUM](/help/assets/premium.png) 条件
 
 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
 
@@ -107,10 +107,10 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![「アルゴリズム情報」タブ](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-「**[!UICONTROL アルゴリズム使用状況]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。カードには、アクティブなアクティビティと非アクティブなアクティビティが一覧表示されます。「ライブアクティビティ」または「非アクティブなアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
+「**[!UICONTROL アルゴリズム使用状況]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。アクティブ、非アクティブ、ドラフトの各アクティビティのカードリスト。 「ライブアクティビティ」、「非アクティブアクティビティ」、「ドラフトアクティビティ」の各ドロップダウンリストをクリックし、その条件を参照するアクティビティのリスト全体を表示します。 アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
 
 ![「アルゴリズムの使用」タブ](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->アル [!UICONTROL ゴリズムの使用] (Algorithm Usage)機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、オファーとして [recommendationsを含むA/B Test and Experience Targeting(XT)アクティビティでは、現在サポートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
+>アル [!UICONTROL ゴリズムの使用] (Algorithm Usage)機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、現在、オファーとして [recommendationsを含むA/Bテスト、自動配分、自動ターゲット、エクスペリエンスターゲット設定(XT)アクティビティではサポートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
