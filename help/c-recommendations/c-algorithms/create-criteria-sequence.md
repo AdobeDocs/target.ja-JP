@@ -5,7 +5,7 @@ title: 条件のシーケンスの作成
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ ht-degree: 43%
 
    塗りつぶされるスロットはできるだけ多くありますが、デザインテンプレートに残りのスロット用の空白スペースが含まれる場合があります。
 
-1. （オプション）「 **[!UICONTROL バックアップRecommendations]** 」を「オン」の位置に切り替えます。
+1. （オプション）「 **[!UICONTROL バックアップRecommendations]** 」トグルを「オン」位置にスライドします。
 
    デザインの残りの空のスロットに、サイト全体から最も多く閲覧された製品をランダムに選択して入力します。
 
