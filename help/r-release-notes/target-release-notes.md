@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020 年 8 月 31 日**
+**最終更新日：2020 年 9 月 9 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **ターゲットのお知らせ**:ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
+
+## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
+
+| 機能 | 詳細 |
+| --- | --- |
+| 条件のシーケンス内のレコメンデーションスロットの制御 | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件のシーケンス [の作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) （英語）を参照してください。 |
 
 ## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 
