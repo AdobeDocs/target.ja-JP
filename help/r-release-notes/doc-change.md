@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2141'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 9月9日 | [アクティビティ QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2で使用するJavaScriptコードを追加しました。*x*. |
 | 9月3日 | [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 「VEC Helper Browser Extensionの取得とインストール」の節を更新し、cookieの名前とドメインに関する情報を追加しました。 |
 |  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「最近発表されたGoogle Chrome SameSite cookieの適用ポリシーがVECおよびEECに与える影響を教えてください。」 」の節に値を追加し、cookieの名前とドメインに関する情報を追加しました。 |
 | 9月2日 | [リリースノート](/help/r-release-notes/release-notes.md)：20.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
