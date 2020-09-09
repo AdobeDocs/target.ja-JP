@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ ht-degree: 59%
 | 訪問者が視聴しているメディア内容に類似した内容を勧めることで、訪問者がより長い時間メディアサイトに滞在するようにします。 | 「これを閲覧した人が他に閲覧したもの」という条件を使用して、他のビデオを提案するレコメンデーションを作成します。 |
 | 銀行の預金プランに関する情報を閲覧した顧客に、IRA アカウントに関する情報も読むことを提案します。 | 「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。 |
 
-上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)を参照してください。
+上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
 ## キーワード
 
