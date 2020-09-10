@@ -5,7 +5,7 @@ title: カスタム条件のアップロード
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
    業種とページタイプをともに使用して、保存した条件を分類し、他の [!UICONTROL Recommendations] アクティビティで簡単に再利用できるようにします。
 1. 「**[!UICONTROL レコメンデーションキー]**」を選択します。
 
-   キーに基づく条件の設定について詳しくは、[レコメンデーションキーに基づくレコメンデーションの設定](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)を参照してください。
+   キーに基づく条件の設定について詳しくは、[レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
 1. 「**[!UICONTROL コンテンツ]**」のルールを設定します。
 
    コンテンツルールは、デザインを埋めるのにレコメンデーション品目の数が足りない場合の動作を決定します。例えば、デザインに 5 品目分のスペースがあるが、条件によって 3 品目しかレコメンデーションされない場合、残りのスペースを空のままにしておくか、代替レコメンデーションを使用して余分なスペースを埋めることができます。適切なものに切り替えて選択します。詳しくは、 [コンテンツ設定を指定します](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
