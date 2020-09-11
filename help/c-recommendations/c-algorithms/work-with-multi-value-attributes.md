@@ -4,7 +4,7 @@ description: 特殊な複数値演算子を使用したAdobe TargetRecommendatio
 title: Adobe TargetRecommendationsでの複数値の属性の操作
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -72,7 +72,6 @@ function targetPageParams() {
 >[!NOTE]
 >
 >複数値の属性に対する動的一致のサポートは、現在、単一の値の左側と複数値の右側を比較する際に、プロファイル属性の一致またはパラメーター(mbox)属性の一致ルールを使用する場合の条件でのみ利用できます。 複数値の属性は、現在、プロモーション、エンティティ属性の一致、またはインクルージョンルールの左側のリストではサポートされていません。
-
 
 ### 例：最近監視した項目の除外
 
