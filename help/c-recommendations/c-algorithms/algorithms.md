@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe TargetRecommendationsの基準とは、あらかじめ決められた訪問者行動に基づいて、どの商品をレコメンデーションするかを決定する規則です。
+description: Adobe Targetの条件とは、事前に決められた一連の訪問者行動に基づいて、どの商品やコンテンツをレコメンデーションするかを決定するルールです。
 title: Adobe TargetRecommendationsの基準
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 68%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 条件
 
-条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 条件は、人気の傾向、訪問者の現在および過去の行動、類似の商品およびコンテンツに基づかせることができます。複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
 
-条件によって、どのアクションの結果どのレコメンデーションが引き起こされるかが決定されます。複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
+以下の節では、条件キーと、各キーに使用できるレコメンデーションロジックについて詳しく説明します。 詳細については、該当するリンクをクリックしてください。
 
 ## 業種 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-レコメンデーションアクティビティの目標に基づいて業種を選択します。 選択した業種に応じて、
+条件を作成する際、recommendationsアクティビティの目標に基づいて業種を選択します。
 
 | 業種 | 目標 |
 |--- |--- |
@@ -29,9 +29,15 @@ ht-degree: 68%
 | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
 | メディア／投稿 | エンゲージメント |
 
+その他の条件のオプションは、選択した業種に応じて変わります。 デフォルトの業種は、 **[!UICONTROL Recommendations/設定]** ページで設定できます。また、条件ごとに業種を指定することもできます。
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 選択するレコメンデーションキーが条件の種類を決定します。いくつかの条件の種類があり、[!DNL Recommendations] アクティビティを設定する際に条件カードとして表示されます。
+
+![条件ページ](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+次の表に、様々な条件のタイプとそれに付随するキーを示します。 各キーに関する詳細情報を表示するには、該当するリンクをクリックします。
 
 | 条件の種類 | キー |
 |--- |--- |
@@ -39,7 +45,7 @@ ht-degree: 68%
 | カスタム | カスタム属性に基づいてレコメンデーションされる品目です。<ul><li>[カスタム属性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>レコメンデーションをカスタム属性に基づいておこなう場合、カスタム属性を選択してからレコメンデーションタイプを選択する必要があります。 |
 | 過去の行動 | 過去、訪問者がある品目にどのように反応したかに基づいてレコメンデーションされる品目です。例えば、ある特定のブランドを購入したことがある人は、同じブランドの別の品目を購入する可能性が高いと考えられます。<ul><li>[最後に購入された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[最後に閲覧された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[最も多く閲覧された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[お気に入りのカテゴリ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | 人気度 | 関連するカテゴリで一番人気のあるビデオや、サイトで一番表示されている製品など、一番人気のある品目がレコメンデーションされます。<ul><li>[人気度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| 最近表示された項目 | 訪問者が前回サイトに訪問した際に表示した品目や、現在一番好まれている記事など、訪問者が最近表示した品目をレコメンドします。<br>「最近表示された項目」アルゴリズムは、[環境](/help/administrating-target/hosts.md)内の訪問者のアクティビティ固有の結果を返します。2 つのサイトが異なる環境に属している場合、訪問者が 2 つのサイトを切り替えると、アルゴリズムは適切なサイトから最近表示された項目のみを返します。<br>この条件タイプは、コレクションによって制限されません。<ul><li>[最近表示された項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**注意：**&#x200B;最近表示された項目の条件は、バックアップレコメンデーションには使用できません。<br>最近表示された項目／メディアは、フィルターを適用し、特定の属性を含む項目のみを表示できます。<ul><li>最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更可能です。</li><li>他の条件と同じ方法で、[コレクション](/help/c-recommendations/c-products/collections.md)、[除外](/help/c-recommendations/c-products/exclusions.md)、および[インクルージョン](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（価格および在庫用の特殊なルールも含む）を使用できます。</li></ul>主な使用例は次のとおりです。<ul><li>複数のビジネスを営む多国籍企業で、複数のデジタルプロパティで項目を閲覧する訪問者がいるとします。その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。これにより、最近表示された項目が別のデジタルプロパティでレコメンデーションされるのを防ぐことができます。</li></ul> |
+| [最近表示された項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 訪問者が最後に閲覧した品目(前回サイトを訪問した際に訪問者が閲覧した品目や、現在最も人気の高い記事など)をレコメンデーションします。 |
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
