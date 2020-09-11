@@ -5,10 +5,10 @@ title: 条件の作成
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 67%
+source-wordcount: '2422'
+ht-degree: 66%
 
 ---
 
@@ -53,11 +53,13 @@ ht-degree: 67%
 
    説明は条件の特定に役立ちます。説明には条件の目的に関する情報が含まれる場合があります。
 
-1. 「**[!UICONTROL 業種]**」を次の中から選択します。
+1. レコメンデーションアクティビティの目標に基づいて業種を選択します。
 
-   * [!UICONTROL 小売／e コマース]
-   * [!UICONTROL リードジェネレーション／B2B／金融サービス]
-   * [!UICONTROL メディア／投稿]
+   | 業種 | 目標 |
+   |--- |--- |
+   | 小売／e コマース | 購入をもたらすコンバージョン |
+   | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
+   | メディア／投稿 | エンゲージメント |
 
    その他の条件オプションは、選択した業種によって異なります。
 
