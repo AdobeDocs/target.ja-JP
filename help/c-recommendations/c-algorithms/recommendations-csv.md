@@ -5,9 +5,9 @@ title: カスタム条件のアップロード
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1893'
 ht-degree: 66%
 
 ---
@@ -49,11 +49,13 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
 
    説明は条件の特定に役立ちます。説明には条件の目的に関する情報が含まれる場合があります。
 
-1. 「**[!UICONTROL 業種]**」を次の中から選択します。
+1. レコメンデーションアクティビティの目標に基づいて業種を選択します。
 
-   * [!UICONTROL 小売／e コマース]
-   * [!UICONTROL リードジェネレーション／B2B／金融サービス]
-   * [!UICONTROL メディア／投稿]
+   | 業種 | 目標 |
+   |--- |--- |
+   | 小売／e コマース | 購入をもたらすコンバージョン |
+   | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
+   | メディア／投稿 | エンゲージメント |
 
    その他の条件オプションは、選択した業種によって異なります。
 
