@@ -5,10 +5,10 @@ title: 条件のシーケンスの作成
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ ht-degree: 43%
 
    説明は条件のシーケンスの特定に役立ちます。このシーケンスの目的に関する情報を含めることもできます。
 
-1. 「**[!UICONTROL 業種]**」を選択します。
+1. レコメンデーションアクティビティの目標に基づいて業種を選択します。
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | 業種 | 目標 |
+   |--- |--- |
+   | 小売／e コマース | 購入をもたらすコンバージョン |
+   | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
+   | メディア／投稿 | エンゲージメント |
+
+   デフォルトの業種が自動的に表示されます。
+
+   その他の条件オプションは、選択した業種によって異なります。
 
 1. **[!UICONTROL ページタイプ]**&#x200B;を選択します。
 
