@@ -3,9 +3,9 @@ keywords: recommendation key;recommendation logic;current category;custom attrib
 description: キーに基づくRecommendationsは、訪問者の動作コンテキストを使用して、Adobe TargetRecommendationsアクティビティの関連結果を示します。
 title: レコメンデーションキーに基づくレコメンデーションの設定
 feature: criteria
-mini-toc-levels: 3
+mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 70%
