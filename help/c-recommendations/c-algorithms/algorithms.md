@@ -5,10 +5,10 @@ title: Adobe TargetRecommendationsの基準
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 73%
+source-wordcount: '1135'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 ## 業種 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-レコメンデーションアクティビティの目標に基づいて業種を選択します。
+レコメンデーションアクティビティの目標に基づいて業種を選択します。 選択した業種に応じて、
 
 | 業種 | 目標 |
 |--- |--- |
@@ -35,11 +35,11 @@ ht-degree: 73%
 
 | 条件の種類 | キー |
 |--- |--- |
-| 現在のページアクティビティ | 現在のページでユーザーがおこなったことに基づいてレコメンデーションされる品目です。例えば、特定の記事を表示した訪問者は、同じカテゴリの記事を見る可能性があると考えられます。<ul><li>現在の品目</li><li>現在のカテゴリ</li></ul> |
-| カスタム | カスタム属性に基づいてレコメンデーションされる品目です。<ul><li>カスタム属性</li></ul>レコメンデーションをカスタム属性に基づいておこなう場合、カスタム属性を選択してからレコメンデーションタイプを選択する必要があります。<br>カスタム条件の出力にリアルタイムでフィルターを適用することができます。例えばレコメンデーション品目を、訪問者のお気に入りのカテゴリやブランドのものに絞ることができます。オフラインの計算結果とリアルタイムのフィルタリングを組み合わせることができます。<br>つまり Target を利用して、オフラインで計算されたレコメンデーションや独自に作成したリストに、パーソナライゼーションを加えられるということです。これにより、データサイエンティストのスキルと、配信、ランタイムフィルタリング、A/B テスト、ターゲティング、レポート、統合などのアドビの実証済みの機能を連携させることができます。<br>カスタム条件にインクルージョンルールを追加することで、静的なレコメンデーションを、訪問者の興味に合わせた動的なレコメンデーションに変えることができます。<ul><li>カスタム条件は、レコメンデーションの他の条件と同じように変更可能です。</li><li>他の条件と同じ方法で、[コレクション](/help/c-recommendations/c-products/collections.md)、[除外](/help/c-recommendations/c-products/exclusions.md)、および[インクルージョン](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（価格および在庫用の特殊なルールも含む）を使用できます。</li></ul>主な使用例は次のとおりです。<ul><li>独自に作成したリストのムービーをレコメンデーションしようと考えているが、まだ対象のムービーを視聴していない訪問者のみをターゲットにしたい。</li><li>オフラインでアルゴリズムを実行し、その結果をレコメンデーションに生かそうと考えているが、在庫切れの品目はレコメンデーションの対象から外したい。</li><li>訪問者のお気に入りのカテゴリの品目のみに対象を絞りたい。</li></ul> |
-| 過去の行動 | 過去、訪問者がある品目にどのように反応したかに基づいてレコメンデーションされる品目です。例えば、ある特定のブランドを購入したことがある人は、同じブランドの別の品目を購入する可能性が高いと考えられます。<ul><li>最後に購入された品目</li><li>最後に閲覧された品目</li><li>最も多く閲覧された品目</li><li>お気に入りのカテゴリ</li></ul> |
-| 人気度 | 関連するカテゴリで一番人気のあるビデオや、サイトで一番表示されている製品など、一番人気のある品目がレコメンデーションされます。<ul><li>人気度</li></ul> |
-| 最近表示された項目 | 訪問者が前回サイトに訪問した際に表示した品目や、現在一番好まれている記事など、訪問者が最近表示した品目をレコメンドします。<br>「最近表示された項目」アルゴリズムは、[環境](/help/administrating-target/hosts.md)内の訪問者のアクティビティ固有の結果を返します。2 つのサイトが異なる環境に属している場合、訪問者が 2 つのサイトを切り替えると、アルゴリズムは適切なサイトから最近表示された項目のみを返します。<br>この条件タイプは、コレクションによって制限されません。<ul><li>最近表示された項目</li></ul>**注意：**&#x200B;最近表示された項目の条件は、バックアップレコメンデーションには使用できません。<br>最近表示された項目／メディアは、フィルターを適用し、特定の属性を含む項目のみを表示できます。<ul><li>最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更可能です。</li><li>他の条件と同じ方法で、[コレクション](/help/c-recommendations/c-products/collections.md)、[除外](/help/c-recommendations/c-products/exclusions.md)、および[インクルージョン](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（価格および在庫用の特殊なルールも含む）を使用できます。</li></ul>主な使用例は次のとおりです。<ul><li>複数のビジネスを営む多国籍企業で、複数のデジタルプロパティで項目を閲覧する訪問者がいるとします。その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。これにより、最近表示された項目が別のデジタルプロパティでレコメンデーションされるのを防ぐことができます。</li></ul> |
+| 現在のページアクティビティ | 現在のページでユーザーがおこなったことに基づいてレコメンデーションされる品目です。例えば、特定の記事を表示した訪問者は、同じカテゴリの記事を見る可能性があると考えられます。<ul><li>[現在の品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[現在のカテゴリ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
+| カスタム | カスタム属性に基づいてレコメンデーションされる品目です。<ul><li>[カスタム属性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>レコメンデーションをカスタム属性に基づいておこなう場合、カスタム属性を選択してからレコメンデーションタイプを選択する必要があります。 |
+| 過去の行動 | 過去、訪問者がある品目にどのように反応したかに基づいてレコメンデーションされる品目です。例えば、ある特定のブランドを購入したことがある人は、同じブランドの別の品目を購入する可能性が高いと考えられます。<ul><li>[最後に購入された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[最後に閲覧された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[最も多く閲覧された品目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[お気に入りのカテゴリ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
+| 人気度 | 関連するカテゴリで一番人気のあるビデオや、サイトで一番表示されている製品など、一番人気のある品目がレコメンデーションされます。<ul><li>[人気度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
+| 最近表示された項目 | 訪問者が前回サイトに訪問した際に表示した品目や、現在一番好まれている記事など、訪問者が最近表示した品目をレコメンドします。<br>「最近表示された項目」アルゴリズムは、[環境](/help/administrating-target/hosts.md)内の訪問者のアクティビティ固有の結果を返します。2 つのサイトが異なる環境に属している場合、訪問者が 2 つのサイトを切り替えると、アルゴリズムは適切なサイトから最近表示された項目のみを返します。<br>この条件タイプは、コレクションによって制限されません。<ul><li>[最近表示された項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**注意：**&#x200B;最近表示された項目の条件は、バックアップレコメンデーションには使用できません。<br>最近表示された項目／メディアは、フィルターを適用し、特定の属性を含む項目のみを表示できます。<ul><li>最近表示された項目の条件は、レコメンデーションの他の条件と同じように変更可能です。</li><li>他の条件と同じ方法で、[コレクション](/help/c-recommendations/c-products/collections.md)、[除外](/help/c-recommendations/c-products/exclusions.md)、および[インクルージョン](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（価格および在庫用の特殊なルールも含む）を使用できます。</li></ul>主な使用例は次のとおりです。<ul><li>複数のビジネスを営む多国籍企業で、複数のデジタルプロパティで項目を閲覧する訪問者がいるとします。その場合は、最近表示した項目をレコメンデーションする場所を、それが表示された各プロパティのみに制限できます。これにより、最近表示された項目が別のデジタルプロパティでレコメンデーションされるのを防ぐことができます。</li></ul> |
 
 ## カスタムレコメンデーションキーの使用 {#custom-key}
 
@@ -79,15 +79,14 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 条件 | 説明 |
 |--- |--- |
-| 類似の属性を持つ品目／メディア | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。<br>**注意：**&#x200B;類似の属性を持つ品目／メディアを選択した場合、コンテンツの類似性ルールを設定することができます。 |
-| これを閲覧した人が他に閲覧したもの | 指定した品目が閲覧された同じセッションで、閲覧される頻度が最も高い品目をレコメンドします。 |
-| これを閲覧した人が購入したもの | 指定した品目が閲覧された同じセッションで、購入される頻度が最も高い品目をレコメンドします。この条件によって、顧客が指定の商品を閲覧した後で購入した他の商品が返されるので、指定した商品は結果セットに含まれません。 |
-| これを購入した人が他に購入したもの | 指定した品目と同時に顧客に購入される頻度が最も高い品目をレコメンドします。 |
-| サイトの親和性 | 品目間の関係の確実性に基づいて品目をレコメンドします。この条件を設定して、レコメンデーションが提示される前に必要となるデータ量をインクルージョンルールスライダーで決定できます。例えば、「非常に強い」を選択すると、適合する確実性が最も強い商品がレコメンデーションされます。<br>例えば、非常に強い親和性を設定して、デザインに 5 つの品目を含め、そのうちの 3 つが結びつきの強さのしきい値を満たしている場合、強さの最低要件を満たさない 2 つの品目は、レコメンデーションには表示されず、あらかじめ定義された代替品目が代わりに表示されます。最も強い親和性を持つ品目が最初に表示されます。<br>多様な商品コレクションや多様なサイト行動のある顧客の場合は、サイトの親和性を弱く設定した方が、最適な結果が得られることがあります。 |
-| トップセラー | 完了した注文の最も多くに含まれている品目。1 回の注文で同じ品目が複数含まれていても、1 回の注文としてカウントします。 |
-| 最も頻繁に閲覧された | 最も高い頻度で閲覧される品目またはメディア。 |
-| 最近表示した品目／メディア | 訪問者が最近表示した品目。この条件を使用する場合、以前表示された品目では表示するのに十分でなく、空白のレコメンデーションが表示されてしまうという状況に対処するために、Target デザインを更新する必要があります。 |
-| ユーザーベースのRecommendations | 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件により、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを提供できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、ユーザーがサイトを閲覧する際にパーソナライズされます。<br>レコメンデーション品目は、表示と購入の両方を使用して決定されます。 指定したレコメンデーションキー（現在の品目など）は、選択したインクルージョンルールのフィルターを適用するために使用されます。 例えば、次のことができます。<ul><li>特定の条件を満たさない項目（在庫切れの製品、30日以上前に公開された記事、Rに分類された映画など）を除外する</li><li>含めるカテゴリを1つのカテゴリまたは現在のアイテムに制限する</li></ul> |
+| [類似の属性を持つ品目／メディア](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | 現在のページアクティビティまたは過去の訪問者の行動に基づいた品目またはメディアに類似した品目またはメディアをレコメンドします。 |
+| [これを閲覧した人が他に閲覧したもの](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | 指定した品目が閲覧された同じセッションで、閲覧される頻度が最も高い品目をレコメンドします。 |
+| [これを閲覧した人が購入したもの](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | 指定した品目が閲覧された同じセッションで、購入される頻度が最も高い品目をレコメンドします。 |
+| [これを購入した人が他に購入したもの](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | 指定した品目と同時に顧客に購入される頻度が最も高い品目をレコメンドします。 |
+| [サイトの親和性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | 品目間の関係の確実性に基づいて品目をレコメンドします。 |
+| [トップセラー](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | 完了した注文の最も多くに含まれている品目。1 回の注文で同じ品目が複数含まれていても、1 回の注文としてカウントします。 |
+| [最も頻繁に閲覧された](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | 最も高い頻度で閲覧される品目またはメディア。 |
+| [ユーザーベースのRecommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。 |
 
 >[!NOTE]
 >
