@@ -5,7 +5,7 @@ title: カスタム条件のアップロード
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
 
 1. （条件付き）「インクルー [ジョンルール](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 」セクションの情報を入力します。
 
-1. （条件付き入力を参照） [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 。
+1. （条件付き）「 [属性の重み付け](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 」セクションの情報を入力します。
 
 1. 「 **[!UICONTROL CSVを]** アップロード **[!UICONTROL 」セクションで、CSVファイルの]** 場所を選択します。
 
