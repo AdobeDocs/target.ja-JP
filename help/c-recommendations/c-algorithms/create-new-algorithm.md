@@ -5,7 +5,7 @@ title: 条件の作成
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ ht-degree: 66%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## データソース
+## Data Source {#data-source}
 
 1. 「**[!UICONTROL データ範囲]** 」を設定して、表示するレコメンデーションを決定する際に使用するユーザーの行動履歴データの範囲を決定します。
 
@@ -224,7 +224,7 @@ Content rules determine what happens if the number of recommended items does not
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## 属性の重み付け
+## 属性の重み付け {#weighting}
 
 複数のルールを追加して、コンテンツカタログに関する重要な情報やメタデータに基づいてアルゴリズムを「一押し」できるので、特定の項目が表示されやすくなります。
 
