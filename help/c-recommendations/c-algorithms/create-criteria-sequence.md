@@ -1,14 +1,14 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: 最大5つの条件のシーケンスを使用して、Adobe TargetRecommendationsアクティビティに表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 44%
+source-wordcount: '787'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 44%
 | 製品ページ | <ol><li>現在の品目に基づいて、同じブランドから</li><li>現在の品目に基づいて、すべてのブランドから</li><li>コンテンツの類似性に基づいて</li><li>トップセラーに基づいて</li><li>サイト全体で最もよく閲覧された品目に基づいて</li></ol> |
 | ホームページ | <ol><li>訪問者の最後の購入に基づいて </li><li>訪問者のお気に入りの品目に基づいて</li><li>訪問者のお気に入りのカテゴリーに基づいて</li><li>トップセラーに基づいて</li><li>サイト全体で最もよく閲覧された品目に基づいて</li></ol> |
 
-## 条件のシーケンスを作成画面にアクセスする
+## 条件のシーケンスの作成
+
+条件のシーケンスは、「条件のシーケンスを [!UICONTROL 作成] 」画面で作成します。
 
 [!UICONTROL 条件のシーケンスを作成]画面を表示するには、複数の方法があります。一部の画面オプションは、画面の表示方法によって異なります。
 
@@ -48,55 +50,19 @@ ht-degree: 44%
 
    ![](assets/CreateCriteriaSequence.png)
 
-## 「情報」セクションに入力します。
-
-1. シーケンスの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
-
-   これは、条件のシーケンスの説明に使用される「内部」名です。サイトの訪問者にこの名前は表示されません。
-
-   ![「条件のシーケンスの情報を作成」セクション](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
-
-1. シーケンス内の複数の条件を使用して **[!UICONTROL Recommendations]** デザインを埋める場合は、公開される[!UICONTROL 一般表示タイトル]を入力します。このタイトルはページに表示されます。
-
-   例えば、複数の[!UICONTROL レコメンデーション]キーに基づく品目がデザインに含まれている場合は、「これを見たお客様はこちらも...」を「お勧め」に置き換えることができます。
-
-1. 条件のシーケンスの簡単な&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
-
-   説明は条件のシーケンスの特定に役立ちます。このシーケンスの目的に関する情報を含めることもできます。
-
-1. レコメンデーションアクティビティの目標に基づいて業種を選択します。
-
-   | 業種 | 目標 |
-   |--- |--- |
-   | 小売／e コマース | 購入をもたらすコンバージョン |
-   | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
-   | メディア／投稿 | エンゲージメント |
-
-   デフォルトの業種が自動的に表示されます。
-
-   その他の条件オプションは、選択した業種によって異なります。
-
-1. **[!UICONTROL ページタイプ]**&#x200B;を選択します。
-
-   複数のページタイプを選択できます。
-
-   業種とページタイプを共に使用して、保存した条件のシーケンスを分類し、他の [!UICONTROL Recommendations] アクティビティで簡単に再利用できるようにします。
-
-## シーケンスの作成 {#sequence}
-
-シーケンスの順序は、デザインが入力される順序を定義します。 条件1にデザインを埋めるのに十分なレコメンデーションがない場合、残りのスロットは条件2などで埋められます。
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
 1. 「 **[!UICONTROL 条件のシーケンス]** 」セクションで、「条件 **[!UICONTROL 」をクリックします]**。
 
+   シーケンスの順序は、デザインが入力される順序を定義します。 条件1にデザインを埋めるのに十分なレコメンデーションがない場合、残りのスロットは条件2などで埋められます。
+
    ![追加条件](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+1. 条件を [!UICONTROL 選択] 画面で条件を選択し、をクリックし ****&#x200B;追加ます。
 
    「検索」ボックスとフィルタードロップダウンを使用して、目的の条件を見つけることができます。
 
    ![条件の選択](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. 「**[!UICONTROL 追加]**」をクリックします。
 
 1. （オプション）「返されるアイテム数の **[!UICONTROL 制限]** 」を「オン」の位置に切り替えて、アイテム数を指定します(1 ～ 50)。
 
@@ -114,27 +80,7 @@ ht-degree: 44%
 
 1. シーケンスへの追加の条件の追加を続けます。 1 つのシーケンスに最大 5 つの条件を追加できます。
 
-## バックアップコンテンツの指定
-
-デザインテンプレートに挿入するのに十分なレコメンデーションがない場合に返すコンテンツを選択します。
-
-条件のシーケンスを作成すると、シーケンスを構成する個々の条件のバックアップレコメンデーションおよびデザインの部分レンダリング設定は無視されます。バックアップレコメンデーションとデザインの部分レンダリングを使用するには、それらをシーケンスに対して有効にする必要があります。適切なものに切り替えて選択します。バックアップレコメンデーションを許可すると、バックアップレコメンデーションにインクルージョンルールを適用するかどうかを選択することもできます。
-
-![バックアップコンテンツの設定](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. （オプション）「 **[!UICONTROL Partial Design Rendering]** 」トグルを「on」位置にスライドします。
-
-   塗りつぶされるスロットはできるだけ多くありますが、デザインテンプレートに残りのスロット用の空白スペースが含まれる場合があります。
-
-1. （オプション）「 **[!UICONTROL バックアップRecommendations]** 」トグルを「オン」位置にスライドします。
-
-   デザインの残りの空のスロットに、サイト全体から最も多く閲覧された製品をランダムに選択して入力します。
-
-   詳しくは、「代替レコメンデーションの [使用](/help/c-recommendations/c-algorithms/backup-recs.md)」を参照してください。
-
-1. （条件付き）前の手順で「 **[!UICONTROL Recommendationsのバックアップ]** 」を選択した場合は、「代替レコメンデーションにインクルージョンルールを **[!UICONTROL 適用する]**」を選択できます。
-
-   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. 「 [バックアップコンテンツ」オプションを有効にします](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
