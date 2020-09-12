@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
-title: 代替レコメンデーションの使用
+title: 代替レコメンデーションの使用 adobe targetRecommendationsで
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
 
 代替レコメンデーションを使用しない場合、表示に十分な品目がレコメンデーションになければ、ユーザーにデフォルトコンテンツが表示されます。
+
+>[!NOTE]
+>
+>「条件を作成 [」トピックの「](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) コンテンツ」セクションには、「 [!UICONTROL 部分設計レンダリング」と「バックアップRecommendations] を表示  」オプションを一緒に、または別々に使用する場合に確認できる結果を示すマトリックスが含まれています。
 
 代替レコメンデーション機能では、アルゴリズムのデータが使用された後の残りのスロットに、常にそのサイトの最多閲覧品目が挿入されます。例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 
