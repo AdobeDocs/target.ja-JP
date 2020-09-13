@@ -1,29 +1,38 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: フィードを使用して Adobe Recommendations に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
-title: フィード
+description: フィードを使用して、エンティティをAdobe TargetRecommendationsにインポートします。 エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
+title: Adobe TargetRecommendationsのフィード
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 93%
+source-wordcount: '2520'
+ht-degree: 87%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) フィード{#feeds}
 
-フィードを使用して [!DNL Recommendations] に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。
+フィードを使用して [!DNL Adobe Target Recommendations] に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。
 
 ## フィードの概要 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 フィードによって、[エンティティ](/help/c-recommendations/c-products/products.md)を渡したり、ページ上で使用できない、またはページから直接送信するのは安全でない情報（利益幅や売上原価など）を mbox データに追加したりできます。
 
-[!DNL Target] の製品分類ファイル、または Google による製品検索のファイルのどの列を [!DNL Recommendations] サーバーに送信するかを選択できます。各品目のデータのうち、選択した部分が、テンプレート表示やレコメンデーションの制御に使用できるようになります。
+フィードを使用すると、商品ID、カテゴリ、名前、メッセージな [!DNL Recommendations]どの属性に詳細な品目情報を渡すことができます。
 
-エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
+[!DNL Target] の製品分類ファイル、または Google による製品検索のファイルのどの列を [!DNL Recommendations] サーバーに送信するかを選択できます。
+
+各項目に関するこれらのデータを使用して、次のことができます。
+
+* デザインでの値の表示
+* 条件包含ルールの定義
+* アイテムを別のコレクションに並べ替える
+* レコメンデーションへの除外の適用
+
+項目の説明は、フィードまたはmboxを [!DNL Target] 使用してに渡すことができます。 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
 [!UICONTROL フィード]リスト（**[!UICONTROL レコメンデーション]**／**[!UICONTROL フィード]**）には、作成したフィードについての情報が表示されます。
 
@@ -46,9 +55,13 @@ ht-degree: 93%
 >* フィードファイルから項目を削除しても、その項目はカタログからは削除されません。 カタログから品目を削除するには、ターゲットUIまたはAPIを使用して手動で品目を削除します。 または、品目の属性（在庫など）を変更して、品目が考慮対象から除外されるようにします。
 
 
-## CSV{#section_65CC1148C7DD448FB213FDF499D35FCA} へのエクスポート 
+## ソースタイプ
 
-アドビ独自の CSV アップロード形式を使用して、`.csv` ファイルを作成できます。このファイルには、製品の予約済み属性とカスタム属性に関する表示情報が含まれています。個々の環境に合った属性をアップロードするためには、ヘッダー行の `CustomN` を、使用する属性名に変更します。以下の例では、`entity.Custom1` が `entity.availability` に変更されています。このファイルを [!DNL Recommendations] サーバーに一括アップロードできます。
+エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。
+
+### CSV{#section_65CC1148C7DD448FB213FDF499D35FCA} へのエクスポート 
+
+アドビ独自の CSV アップロード形式を使用して、.csv ファイルを作成できます。このファイルには、製品の予約済み属性とカスタム属性に関する表示情報が含まれています。個々の環境に合った属性をアップロードするためには、ヘッダー行の `CustomN` を、使用する属性名に変更します。以下の例では、`entity.Custom1` が `entity.availability` に変更されています。このファイルを [!DNL Recommendations] サーバーに一括アップロードできます。
 
 .csv 形式は、Google フィード形式よりも次の点で優れています。
 
@@ -78,7 +91,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->既存の値を空白の値で上書きできません。上書きするには、その場所に別の値を渡す必要があります。販売価格の場合、一般的なソリューションは、実際の「NULL」か別のメッセージを渡すことです。次に、テンプレートルールを記述して、その値の品目を除外します。
+>既存の値を空白の値で上書きできません。上書きするには、その場所に別の値を渡す必要があります。 販売価格の場合、一般的なソリューションは、実際の「NULL」か別のメッセージを渡すことです。次に、テンプレートルールを記述して、その値の品目を除外します。
 
 商品のエンティティが正常にアップロードされてから約 2 時間後に、この商品が管理者インターフェイスで使用できるようになります。
 
@@ -96,7 +109,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 フィードのタイプが Google による製品検索の場合は、Google の形式が使用されます。これは、Adobe 固有の csv アップロード形式とは異なります。
 
@@ -106,13 +119,13 @@ Google 製品フィードを利用している場合は、それをインポー�
 >
 >Google データを使用する必要はありません。単に、[!DNL Recommendations] が Google と同じ形式を使用するだけです。この方法を使用して、あらゆるデータをアップロードしたり、スケジューリング機能を使用したりできます。ただし、ファイルをセットアップする際に、Google によってあらかじめ定義された属性名を保持する必要があります。
 
-多くの小売業者が商品を Google にアップロードしているので、訪問者が Google による製品検索を使用すると、商品が表示されます。[!DNL Recommendations] では、Google の仕様に厳密に従ったエンティティフィードを使用します。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 結果は [Google のショッピングページ](https://www.google.com/prdhp)で検索できます。
+多くの小売業者が商品を Google にアップロードしているので、訪問者が Google による製品検索を使用すると、商品が表示されます。[!DNL Recommendations] では、Google の仕様に厳密に従ったエンティティフィードを使用します。エンティティフィードは .xml、.txt、.tsv のいずれかの形式で [!DNL Recommendations] に送信でき、また [Google により定義された属性](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)を使用できます。結果は [Google のショッピングページ](https://www.google.com/prdhp)で検索できます。
 
 >[!NOTE]
 >
 >Google フィードコンテンツをホストするサーバーで POST メソッドを有効にする必要があります。
 
-[!DNL Recommendations] の使用時に、URL または FTP 経由で Google に送信する [!DNL .xml] フィードまたは [!DNL .txt] フィードを既に設定しているので、エンティティフィードはこの商品データを受け取り、このデータを使用して Recommendations カタログを作成します。フィードの場所を指定すると、recommendations サーバーでデータが取得されます。
+[!DNL Recommendations] の使用時に、URL または FTP 経由で Google に送信する .xml フィードまたは .txt フィードを既に設定しているので、エンティティフィードはこの商品データを受け取り、このデータを使用して recommendations カタログを作成します。フィードの場所を指定すると、recommendations サーバーでデータが取得されます。
 
 エンティティフィードのアップロードに Google による製品検索を使用する場合で、そこにレコメンデーションを表示したい場合や表示数に基づいたアルゴリズム配信のために製品表示数を追跡したい場合は、製品ページ mbox がページ上にある必要があります。
 
@@ -195,17 +208,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics の製品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics の製品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 Analytics の製品分類は、レコメンデーションで使用できる唯一の分類です。For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. レコメンデーションに必要なすべての情報が、現在の実装で使用できるとは限りません。したがって、ご使用の分類ファイルを追加する場合は、このユーザーガイドを参照してください。
 
 >[!IMPORTANT]
 >
->Analytics の製品分類を使用してエンティティデータを Recommendations に読み込むこともできますが、推奨の手法ではありません。
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > その際は次の点にご注意ください。
+>
 >* エンティティ属性を更新すると、最大で 24 時間の遅延が生じます。
->* Target がサポートしているのは製品分類のみです。Analytics の製品 SKU は、Recommendations の `entity.id` と同じレベルにマッピングする必要があります。アドビのコンサルティングサービスを使用して、Analytics のカスタム分類を作成できます。疑問点については、アカウントマネージャーまでお問い合わせください。
+>* [!DNL Target] は、製品の分類のみをサポートします。 Analytics の製品 SKU は、 の [!DNL Recommendations]`entity.id` と同じレベルにマッピングする必要があります。アドビのコンサルティングサービスを使用して、Analytics のカスタム分類を作成できます。疑問点については、アカウントマネージャーまでお問い合わせください。
 
 
 ## フィードの作成 {#steps}
@@ -288,7 +302,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 | ダウンロードを待機中 | Target はフィードファイルをダウンロードする準備中です。 |
 | フィードファイルのダウンロード | Target はフィードファイルをダウンロード中です。 |
 | 項目の読み込み | Target は、フィードファイルから項目を読み込んでいます。 |
-| フィードを正常に読み込みました：*時間* | Target は、フィードファイルをそのコンテンツ配信システムに読み込みました。コンテンツ配信システムで項目属性に対する変更がおこなわれ、配信されたレコメンデーションがすぐに反映されます。期待された変更が表示されない場合、すぐに再試行して、レコメンデーションを含むページを更新します。<br>*注意 1：*&#x200B;項目の属性に対する変更によって項目がレコメンデーションから除外されると、除外が即座に反映されます。項目が新しく追加された、または属性に対する変更によって項目がレコメンデーションから除外されなくなった場合&#x200B;**、次のアルゴリズム更新（24 時間以内におこなわれる）まで反映されません。<br>*注意 2：*&#x200B;このステータスが表示されたときに、カタログ検索ユーザーインターフェイスで更新がまだ反映されていない可能性があります。前回検索可能なカタログが更新されたことを示す別のステータスがカタログ検索にリストされます。 |
+| フィードを正常に読み込みました：*時間* | Target は、フィードファイルをそのコンテンツ配信システムに読み込みました。コンテンツ配信システムで項目属性に対する変更がおこなわれ、配信されたレコメンデーションがすぐに反映されます。期待された変更が表示されない場合、すぐに再試行して、レコメンデーションを含むページを更新します。<br>メモ:<ul><li>品目の属性に変更を加えると、品目がレコメンデーションから除外される場合、除外は直ちに反映されます。 項目が新しく追加された、または属性に対する変更によって項目がレコメンデーションから除外されなくなった場合&#x200B;**、次のアルゴリズム更新（24 時間以内におこなわれる）まで反映されません。</li><li>このステータスが表示される場合、更新がカタログ検索ユーザーインターフェイスに反映されない場合があります。 前回検索可能なカタログが更新されたことを示す別のステータスがカタログ検索にリストされます。</li></ul> |
 | インデックスに失敗しました | インデックス操作が失敗しました。再試行してください。 |
 | サーバーが見つかりません | FTP または URL の場所が無効か、そうでなければ到達不能です。 |
 
@@ -296,7 +310,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!IMPORTANT]
 >
->アップロードしたエンティティは 61 日後に有効期限切れになります。つまり、おすすめアクティビティの中断を防ぐために、フィードファイルは少なくとも 60 日ごとにアップロードする必要があります。アイテムが少なくとも 60 日に 1 回フィードファイル（またはその他のエンティティ更新方法）に含まれていない場合、Adobe Target はそのアイテムはもはや関連性がなく、カタログから削除します。
+>アップロードしたエンティティは 61 日後に有効期限切れになります。つまり、おすすめアクティビティの中断を防ぐために、フィードファイルは少なくとも 60 日ごとにアップロードする必要があります。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### フィードステータスのインジケーター {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -308,6 +322,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 | 黄色のステータスインジケーター | フィードまたはフィードインデックスで、フィードの頻度の 25％の遅れが生じると、黄色い点のステータスインジケーターが表示されます。例えば、1 日 1 回実行されるフィードのセットで、予定されている時間を 6 時間過ぎてもインデックスが完了していない場合は、黄色い点が表示されます。注意：フィードのステータスが「インデックスキューを待機中」になると、新たに更新された値を配信と条件の処理で利用できるようになります。 |
 | 白のステータスインジケーター | フィードのスケジュールが設定されていない場合は、白の点でフィードがまだ実行されていないことを示します。 |
 | 赤のステータスインジケーター | フィードによってデータをサーバーにアップロードできなかった場合は、赤いステータスインジケーターが表示されます。 |
+
 次の例をご覧ください。
 
 **例 1:**
