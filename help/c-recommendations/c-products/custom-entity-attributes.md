@@ -1,21 +1,22 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
-title: カスタムエンティティの属性
+title: Adobe Targetのカスタムエンティティ属性
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 95%
+source-wordcount: '1377'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) カスタムエンティティの属性{#custom-entity-attributes}
 
-単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
+Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 
 ## 制限 {#limits}
 
@@ -33,15 +34,11 @@ ht-degree: 95%
 
 単一値のカスタムエンティティ属性は、単一値の定義済みエンティティ属性と同じように構成されます。
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 複数値のカスタムエンティティ属性は、有効な JSON 配列として送信する必要があります。
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 [!DNL Recommendations] で使用できる有効な JSON 配列の例を以下に示します。
 
@@ -104,7 +101,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 ![](assets/multi-value_example_excel.png)
 
-スプレッドシートソフトウェアは、[!DNL .csv] 形式に変換する際に、セルの内容に二重引用符を追加します。これにより、セル内のコンマが列区切り記号として認識されることを防ぎます。また、複数値のカスタム属性に含めた JSON 文字列値の前後にも二重引用符が追加されます。このため、生データのファイルを直接編集することはお勧めできません。次に例を示します。
+スプレッドシートソフトウェアは、.csv 形式に変換する際に、セルの内容に二重引用符を追加します。これにより、セル内のコンマが列区切り記号として認識されることを防ぎます。また、複数値のカスタム属性に含めた JSON 文字列値の前後にも二重引用符が追加されます。このため、生データのファイルを直接編集することはお勧めできません。次に例を示します。
 
 * スプレッドシート：`["1","2","3"]`
 * 生データ：`"[""1"",""2"",""3""]"`
@@ -131,8 +128,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
-using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,27 +136,118 @@ using the Delivery and Save entities APIs.
 
 次の例では、ルールは「`message contains abc`」です。
 
-例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。
-
-例 2：`entity.genre = ["abcde","de","ef"]`。結果は true になります。1 つの値に `abc` が含まれています。
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。
+* 例 2：`entity.genre = ["abcde","de","ef"]`。結果は true になります。1 つの値に `abc` が含まれています。
 
 否定演算子の場合、すべての属性値が通過する必要があります（ブール演算子 *AND*）。例えば、演算子が`notEquals` の場合、いずれかの値が一致する場合結果は *false* になります。
 
-次の表は、アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールでの演算子の動作の一覧です。
+アルゴリズムインクルージョンルール、カタログルールおよび除外ルールでの演算子の動作については、以下の節を参照してください。
 
-| 演算子 | 動作 | 例 |
-|--- |--- |--- |
-| 次と等しい | いずれかの属性が入力値と等しい場合、結果は true になります。 | `genre equals abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` に等しくありません。<br>例 2：`entity.genre = ["abc", "de", "ef"]`。結果は true になります。1 つの値が `abc` に等しいです。<br>例 3：`entity.genre = ["abcde", "de", "ef"]`。結果は false になります。`abc` がリストのどの要素にも等しくありません。 |
-| 次と等しくない | どの属性値も入力値と等しくない場合、結果は true です。 | `genre not equals abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true となります。どの値も `abc` に等しくありません。<br>例 2：`entity.genre = ["abc", "de", "ef"]`。値は false となります。1 つの値が `abc` と等しいです。<br>例 3：`entity.genre = ["abcde", "de", "ef"]`。値は true となります。`abc` がリストのどの値にも等しくありません。 |
-| 次を含む | 属性値のいずれかが入力値を含むものであれば、結果は true になります。 | `genre contains abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。<br>例 2：`entity.genre = ["abcde", "de", "ef"]`。結果は true になります。1 つの値に `abc` が含まれています。 |
-| 次を含まない | 属性値のいずれにも入力値が含まれていない場合、結果は true になります。 | `genre does not contain abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true になります。どの値にも `abc` が含まれていません。<br>例 2：`entity.genre = ["abcde", "de", "ef"]`。このルールは false になります。1 つの値に `abc` が含まれています。 |
-| 次の語句で始まる | 属性値のいずれかが入力値で始まっている場合、結果は true になります。 | `genre starts with abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` で始まっていません。<br>例 2：`entity.genre = ["abcde", "de", "ef"]`。結果は true になります。1つの値が `abc` で始まっています。<br>例 3：`entity.genre = ["ab", "de", "abc"]`。結果は true になります。1つの値が `abc` （リストの最初の要素である必要はありません）で始まっています。 |
-| 次の語句で終わる | 属性値のいずれかが入力値で終わっている場合、結果は true になります。 | `genre ends with abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false となります。どの値も `abc` で終わっていません。<br>例 2：`entity.genre = ["deabc", "de", "ef"]`。結果は true になります。1 つの値が `abc` で終わっています。 |
-| 次よりも大きいか等しい（数値のみ） | 属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。<br>処理の後、属性値のいずれかが入力値以上であれば結果は true になります。 | `price greater than or equal to 100`<br>例 1：`entity.price = ["10", "20", "45"]`。結果は false になります。どの値も 100 以上ではありません。「`de`」は倍精度に変換できないためスキップされています。<br>例 2：`entity.price = ["100", "101", "90", "80"]`。結果は true になります。2 つの値が 100 以上です。 |
-| 次よりも小さいか等しい（数値のみ） | 属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。<br>処理の後、属性値のいずれかが入力値以下であれば結果は true になります。 | `price less than or equal to 100`<br>例 1：`entity.price = ["101", "200", "141"]`。結果は false になります。どの値も 100 以下ではありません。「`de`」は倍精度に変換できないためスキップされています。<br>例 2：`entity.price = ["100", "101", "90", "80"]`。結果は true になります。2 つの値が 100 以下です。 |
-| 動的に一致（項目ベースのアルゴリズムの場合のみ） | 属性値のいずれかが入力値と一致する場合に結果は true になります。 | `genre matches abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` と一致しません。<br>例 2：`entity.genre = ["abc", "de", "ef"]`。結果は true になります。1つの値が `abc` と一致します。 |
-| 動的に一致しない（項目ベースのアルゴリズムでのみ使用可能） | 属性値のいずれかが入力値と一致する場合、結果は false になります。 | `genre does not match abc`<br>例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true になります。どの値も `abc` と一致しません。<br>例 2：`entity.genre = ["abc", "de", "ef"]`。このルールは false になります。1 つの値が `abc` と一致します。 |
-| 動的な範囲にある（項目ベースのアルゴリズムでのみ使用可能、数値のみ） | 数値の属性値のいずれかが指定された範囲にある場合、結果は true になります。 | `price dynamically ranges in 80% to 120% of 100`<br>例 1：`entity.price = ["101", "200", "125"]`。結果は true になります。`101` が 100 の 80％～120％の範囲にあります。「`de`」は倍精度に変換できないためスキップされています。<br>例 2：`entity.price = ["130", "191", "60", "75"]`。結果は false になります。どの値も 100 の 80％～120％の範囲にありません。 |
+### 次と等しい
+
+いずれかの属性が入力値と等しい場合、結果は true になります。
+
+例：`genre equals abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` に等しくありません。
+* 例 2：`entity.genre = ["abc", "de", "ef"]`。結果は true になります。1 つの値が `abc` に等しいです。
+* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 結果は false になります。`abc` がリストのどの要素にも等しくありません。
+
+### 次と等しくない
+
+どの属性値も入力値と等しくない場合、結果は true です。
+
+例：`genre not equals abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true となります。どの値も `abc` に等しくありません。
+* 例 2：`entity.genre = ["abc", "de", "ef"]`。値は false となります。1 つの値が `abc` と等しいです。
+* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 値は true となります。`abc` がリストのどの値にも等しくありません。
+
+### 次を含む
+
+属性値のいずれかが入力値を含むものであれば、結果は true になります。
+
+例：`genre contains abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。
+* 例 2：`entity.genre = ["abcde", "de", "ef"]`。結果は true になります。1 つの値に `abc` が含まれています。
+
+### 次を含まない
+
+属性値のいずれにも入力値が含まれていない場合、結果は true になります。
+
+例：`genre does not contain abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true になります。どの値にも `abc` が含まれていません。
+* 例 2：`entity.genre = ["abcde", "de", "ef"]`。このルールは false になります。1 つの値に `abc` が含まれています。
+
+### 次の語句で始まる
+
+属性値のいずれかが入力値で始まっている場合、結果は true になります。
+
+例：`genre starts with abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` で始まっていません。
+* 例 2：`entity.genre = ["abcde", "de", "ef"]`。結果は true になります。1つの値が `abc` で始まっています。
+* 例 3: `entity.genre = ["ab", "de", "abc"]`. 結果は true になります。1つの値が `abc` （リストの最初の要素である必要はありません）で始まっています。
+
+### 次の語句で終わる
+
+属性値のいずれかが入力値で終わっている場合、結果は true になります。
+
+例：`genre ends with abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false となります。どの値も `abc` で終わっていません。
+* 例 2：`entity.genre = ["deabc", "de", "ef"]`。結果は true になります。1 つの値が `abc` で終わっています。
+
+### 次よりも大きいか等しい（数値のみ）
+
+属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。
+
+処理の後、属性値のいずれかが入力値以上であれば結果は true になります。
+
+例：`price greater than or equal to 100`
+
+* 例 1：`entity.price = ["10", "20", "45"]`。結果は false になります。どの値も 100 以上ではありません。「`de`」は倍精度に変換できないためスキップされています。
+* 例 2：`entity.price = ["100", "101", "90", "80"]`。結果は true になります。2 つの値が 100 以上です。
+
+### 次よりも小さいか等しい（数値のみ）
+
+属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。
+
+処理の後、属性値のいずれかが入力値以下であれば結果は true になります。
+
+例：`price less than or equal to 100`
+
+* 例 1：`entity.price = ["101", "200", "141"]`。結果は false になります。どの値も 100 以下ではありません。「`de`」は倍精度に変換できないためスキップされています。
+* 例 2：`entity.price = ["100", "101", "90", "80"]`。結果は true になります。2 つの値が 100 以下です。
+
+### 動的に一致（項目ベースのアルゴリズムの場合のみ）
+
+属性値のいずれかが入力値と一致する場合に結果は true になります。
+
+例：`genre matches abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` と一致しません。
+* 例 2：`entity.genre = ["abc", "de", "ef"]`。結果は true になります。1つの値が `abc` と一致します。
+
+### 動的に一致しない（項目ベースのアルゴリズムでのみ使用可能）
+
+属性値のいずれかが入力値と一致する場合、結果は false になります。
+
+例：`genre does not match abc`
+
+* 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true になります。どの値も `abc` と一致しません。
+* 例 2：`entity.genre = ["abc", "de", "ef"]`。このルールは false になります。1 つの値が `abc` と一致します。
+
+### 動的な範囲にある（項目ベースのアルゴリズムでのみ使用可能、数値のみ）
+
+数値の属性値のいずれかが指定された範囲内にある場合、結果はtrueとなります。
+
+例：`price dynamically ranges in 80% to 120% of 100`
+
+* 例 1：`entity.price = ["101", "200", "125"]`。結果は true になります。`101` が 100 の 80％～120％の範囲にあります。「`de`」は倍精度に変換できないためスキップされています。
+* 例 2：`entity.price = ["130", "191", "60", "75"]`。結果は false になります。どの値も 100 の 80％～120％の範囲にありません。
 
 >[!NOTE]
 >
@@ -168,7 +255,7 @@ using the Delivery and Save entities APIs.
 
 ## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-複数値の属性を設計で参照すると、コンマ区切りのリストとして表示されます。
+複数値の属性を設計で参照する場合、複数値の属性はカンマで区切ったリストで表示されます。
 
 例：
 
