@@ -5,9 +5,9 @@ title: Adobe Target のカタログ検索
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 「 [!UICONTROL アドバンス検索] 」を使用すると、検索結果を絞り込んだり、検索結果を [コレクション](/help/c-recommendations/c-products/collections.md) や [](/help/c-recommendations/c-products/exclusions.md)除外として保存したりできます。
 
-1. [ **[!UICONTROL アドバンス検索]**]をクリックします。
+1. [ **[!UICONTROL アドバンス検索]** ]リンクをクリックします。
 
    ![[アドバンス検索]ページ](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
 
 ## カタログの更新
 
-最初のフィードをアップロードすると、カタログのインデックスが自動的に作成され、指定したスケジュールに従って更新されます。
+最初のフィードをアップロードすると、カタログのインデックスが自動的に作成され、 [指定したスケジュールに従って更新されます](/help/c-recommendations/c-products/feeds.md#steps)。
 
 カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は、通常、1 時間で完了します。更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
@@ -118,7 +118,7 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
 
 1. アド [バンス検索を実行します](#advanced-search)。
 
-1. （オプション）「名前を付けて **[!UICONTROL 保存]**」をクリックし、「 **[!UICONTROL コレクション]** 」または「 **[!UICONTROL 除外]**」をクリックします。
+1. 「名前を付けて **[!UICONTROL 保存]**」をクリックし、「 **[!UICONTROL コレクション]** 」または「 **[!UICONTROL 除外]**」をクリックします。
 
    ![「名前を付けて保存」オプション](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
    ![フィルターの変更リンク](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. 目的の検索ファセット（ID、名前、メッセージなど）を選択します。
+
+   ![追加フィルター](/help/c-recommendations/c-products/assets/add-filters.png)
 
 追加のフィルターファセットは、現在のセッションでのみ使用できます。
 
