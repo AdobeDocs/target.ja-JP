@@ -6,10 +6,10 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 22%
+source-wordcount: '1329'
+ht-degree: 19%
 
 ---
 
@@ -70,57 +70,69 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## 自動配分アクティビティのターゲット用のAnalytics(A4T)のサポート {#a4t-aa}
+## 自動配分と自動ターゲットアクティビティのターゲット分析(A4T)のサポート {#a4t-aa}
 
-Adobe TargetとAdobe Analyticsの統合をアップグレードしました。これは、 [Analytics forターゲットと呼ばれ](/help/c-integrating-target-with-mac/a4t/a4t.md)ます。
+Adobe TargetとAdobe Analyticsの統合をアップグレードしました。これは、 [Analytics forターゲットと呼ばれ](/help/c-integrating-target-with-mac/a4t/a4t.md)ます。 自動配分および自動ターゲットアクティビティで、Analyticsのターゲットがサポートされるようになりました。
 
-[!UICONTROL 自動配分] アクティビティで、ターゲットの [!UICONTROL Analyticsがサポートされるようになりました]。 この統合により、自動配分のマルチアームバンディット機能を使用して、目標指標や [!DNL Adobe Analytics] レポートおよび [!DNL Adobe Analytics] 分析機能を使用しながら、トラフィックを勝者エクスペリエンスに誘導できます。 A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4Tを [既に実装している場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)、準備は完了です。
+この統合により、次のことが可能になります。
+
+* [自動配分のマルチアームバンディット機能を使用して](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、勝者エクスペリエンスにトラフィックを誘導します。
+* [自動ターゲットのアンサンブル機械学習アルゴリズムを使用して](/help/c-activities/auto-target-to-optimize.md)、プロファイル、行動およびコンテキストに基づいて、各訪問者に最適なエクスペリエンスを選択します。
+
+目標指標との豊富な [!DNL Adobe Analytics][!DNL Adobe Analytics]レポート機能と分析機能を使用しながら、すべてを実行できます。
+
+A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4Tを既に [実装済みの場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)、追加の設定は不要です。準備は完了です。
 
 開始するには
 
-1. A/Bテストアクティビティを作成し、ター **[!UICONTROL ゲット設定]** ページの「トラフィック配分方法 **** 」として、「最良のエクスペリエンスに自動配分」を選択します。
+1. A/Bテストアクティビティの作成時に、 **[!UICONTROL ターゲット]** ページで、「 **[!UICONTROL トラフィック配分方法]**」として次のいずれかのオプションを選択します。
+
+   * 最高のエクスペリエンスへの自動配分
+   * パーソナライズされたエクスペリエンスの自動ターゲット
+
 1. **[!UICONTROL 目標と設定]** ページで、 **[!UICONTROL レポートソース]** ( **** Adobe Analytics)を選択し、目的の最適化目標に対応するレポートスイートを選択します。
+
 1. プライマリ目標指標を選択します。
 
-   最適化目標の指定に使用する **[!UICONTROL コンバージョン]**[!DNL Adobe Target] を選択します。
-
-   または
-
-   「Analytics指標 **[!UICONTROL を使用」を選択し]** 、最適化目標として使用 [!DNL Analytics] する指標を選択します。 既製のコンバージョン指標または [!DNL Analytics] カスタム [!DNL Analytics] イベントを使用できます。
+   * 最適化目標の指定に使用する **[!UICONTROL コンバージョン]**[!DNL Adobe Target] を選択します。
+   * 「Analytics指標 **[!UICONTROL を使用」を選択し]** 、最適化目標として使用 [!DNL Analytics] する指標を選択します。 既製のコンバージョン指標または [!DNL Analytics] カスタム [!DNL Analytics] イベントを使用できます。
 
 1. アクティビティを保存してアクティブ化します。
 
    [!UICONTROL 自動配分は] 、選択した指標を使用してアクティビティを最適化し、訪問者を目標指標を最大化するエクスペリエンスに誘導します。
 
+   [!UICONTROL 自動ターゲット] は、選択した指標を使用してアクティビティを最適化し、訪問者をパーソナライズされた最高のエクスペリエンスに誘導します。
+
 1. 「 **[!UICONTROL レポート]** 」タブを使用して、指 [!DNL Adobe Analytics] 標を選択してアクティビティのレポートを表示します。 Analyticsの **** 表示をクリックして、レポートデータを詳細に分析し、さらにセグメント化します。
 
 ### サポートされる目標指標
 
- 自動配分のA4Tでは、最適化の主な目標指標として次の指標タイプのいずれかを選択できます。
+[!UICONTROL 自動配分] と [!UICONTROL 自動ターゲットのA4T] では、次の指標タイプを最適化の主な目標指標として選択できます。
 
 * [!DNL Adobe Target] コンバージョン指標と考えることができます
 * [!DNL Adobe Analytics] コンバージョン指標と考えることができます
 * [!DNL Adobe Analytics] つのカスタムイベント
 
-[!UICONTROL 自動配分のA4Tでは、2項イベントに基づく指標、つまり、クリック、コンバージョン、注文など] 、発生しない、または発生しないイベントを選択する必要があります。 (この種のイベントは、ベルヌーイイベント、バイナリモジュール、離散とも呼ばれます)。
+[!UICONTROL 自動配分] と [!UICONTROL 自動ターゲットのA4T] では、2項イベントに基づく指標、つまり、クリック、コンバージョン、注文など、発生しない、または発生しないイベントを選択する必要があります。 (この種のイベントは、ベルヌーイイベント、バイナリモジュール、離散とも呼ばれます)。
 
- 自動配分用のA4Tは、売上高、注文された商品数、セッション期間、セッション内のページ表示数などの連続的な指標の最適化をサポートしていません。 （これらのサポートされていないタイプの指標は、非二項指標または非ベルヌーイ指標とも呼ばれます）。
+[!UICONTROL 自動配分] と [!UICONTROL 自動ターゲットのA4T] ( [!UICONTROL 自動配分] )は、売上高、注文された商品数、セッション期間、セッション内のページ表示数などの継続的な指標の最適化をサポートしていません。 （これらのサポートされていないタイプの指標は、非二項指標または非ベルヌーイ指標とも呼ばれます）。
 
 次の指標タイプは、主要目標指標としてサポートされていません。
 
 * [!DNL Adobe Target] エンゲージメントと売上高の指標
 * [!DNL Adobe Analytics] エンゲージメントと売上高の指標
 
-   >[!NOTE]
-   >
-   >エンゲージメント指標と売上高指標は、主な目標指標として選択できる場合があります。これは、からすべてのエンゲージメント指標と売上高指標を識別 [!DNL Analytics] できないため [!DNL Target][!DNL Analytics]です。 2項コンバージョン指標またはカスタムイベントのみを選択する場合は、注意が必要 [!DNL Analytics]です。
+   エンゲージメント指標または [!DNL Analytics] 売上高指標を主要目標指標として選択できる場合があります。これは、すべてのエンゲージメント指標と売上高指標を特定したり、それらの指標から除外したり [!DNL Target] できないからです [!DNL Analytics]。 2項コンバージョン指標またはカスタムイベントのみを選択する場合は、注意が必要 [!DNL Analytics]です。
 
-* Adobe Analytics計算指標
+* [!DNL Adobe Analytics] 計算指標
 
 ### 制限事項とメモ
 
 * アクティビティがアクティブ化された後は、レポートソース [!DNL Analytics] をから [!DNL Target] に変更したり、その逆を変更したりすることはできません。
 * 計算指標は主要目標指標としてサポートされていませんが、多くの場合、カスタムイベントを主要目標指標として選択する代わりに、意図した結果を得ることができます。 例えば、「訪問者ごとのフォームの完了」などの指標を最適化する場合は、「フォームの完了」に対応するカスタムイベントを主要目標指標として選択します。 [!DNL Target] トラフィックの偏りを考慮して、訪問あたりのコンバージョン指標を自動的に標準化するので、計算指標を使用して標準化を実行する必要はありません。
-* [!DNL Target] は、自動配分A4T実装の「同じタッチ」アトリビューションモデルを使用します。
+* [!DNL Target] は、 [!UICONTROL 自動配分] A4T実装で「同じタッチ」アトリビューションモデルを使用します。
+* [!UICONTROL 自動配分モデルは] 、通常どおり、2時間ごとにトレーニングを続けます。
+* [!UICONTROL 自動ターゲット] ・モデルは、通常通り24時間ごとにトレーニングを行います。 ただし、からのコンバージョンイベントデータ [!DNL Analytics] は、さらに6 ～ 24時間遅れます。 これは、によるトラフィックの配分 [!DNL Target] には、に記録されている最新のイベントが追跡されることを意味 [!DNL Adobe Analytics]します。 これは、アクティビティが最初にアクティブ化されてから最初の48時間で最大の効果を得ます。アクティビティのパフォーマンスは、5日が経過した後の [!DNL Adobe Analytics] コンバージョン動作とより密接に反映されます。 アクティビティ期間が短い場合は、 [!UICONTROL 自動ターゲットの代わりに] 自動配分を使用することをお勧めします。この場合、アクティビティの有効期間の最初の5日間にほとんどのトラフィックが発生します。
+* を [!DNL Analytics] 自動ターゲット  アクティビティのデータソースとして使用する場合、セッションは6時間経過後に終了したと見なされます。 6時間後に発生したコンバージョンはカウントされません。
 
-詳しくは、 [Analyticsツールガイドのアトリビューションの概要](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) ( *Attribution overview*)を参照してください。
+詳しくは、『 [Analyticsツールガイド』のアトリビューションモデルとルックバックウィンドウ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) ( *Windows*)を参照してください。
