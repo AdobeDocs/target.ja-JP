@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 24%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 25%
 
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
+
+| 機能 | 詳細 |
+| --- | --- |
+| ![自動ターゲットアクティビティ用のターゲット用プレミアムバッジ](/help/assets/premium.png) (A4T)のサポート | [!UICONTROL 自動ターゲット] アクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動ターゲット] ・アンサンブル機械学習アルゴリズムを使用して、プロファイル、行動およびコンテキストに基づいて各訪問者に最適なエクスペリエンスを選択できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分と自動ターゲットアクティビティの](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
 
 ## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 
