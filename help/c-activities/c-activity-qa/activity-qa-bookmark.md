@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+次に例を示します。
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## at.js 2用のアクティビティQAブックマークレット&#x200B;*x*
 
 at.js 1とは対照的に。*x*、at.js 2.*x* はサードパーティcookieをサポートしておらず、QAモードはファーストパーティドメインの固定値にすぎません（at.jsが設定するファーストパーティcookieを使用）。 at.js 2では次のようになります。*x*、QAモードのセッションはクライアント側でのみ管理され、QAモードのcookieはターゲットに送信されません。
@@ -70,8 +76,3 @@ javascript:(
 
 ブラウザーのツールバーのブックマークレットをクリックします。
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-次に例を示します。
-
-`https://www.mysite.com/?at_preview_token=`
