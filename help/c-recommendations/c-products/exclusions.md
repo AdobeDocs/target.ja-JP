@@ -5,23 +5,25 @@ title: Adobe Target での除外
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # 除外{#exclusions}
 
-除外リストを作成すると、品目がレコメンデーションされないようにできます。
+で除外を作成して、訪問者 [!DNL Adobe Target Recommendations] に商品やコンテンツをレコメンデーションしないようにします。
+
+除外は、訪問者にレコメンデーションすべきでない商品やコンテンツのサブセットです。 例えば、除外を使用して、廃止されたレコメンデーションや本来感受性の高いレコメンデーションに商品やコンテンツが表示されないようにすることができます（年齢によっては適さない評価の映画など）。
 
 >[!IMPORTANT]
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
-**除外を作成するには：**
+## 除外の作成
 
 1. **[!UICONTROL Recommendations]**／**[!UICONTROL 除外]**&#x200B;をクリックして、既存の除外のリストを表示します。
 
@@ -49,7 +51,7 @@ ht-degree: 99%
 
 ![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは、[カタログ検索](/help/c-recommendations/c-products/catalog-search.md)を参照してください。
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは、[カタログ検索](/help/c-recommendations/c-products/catalog-search.md#save-as)を参照してください。
 
 >[!IMPORTANT]
 >
