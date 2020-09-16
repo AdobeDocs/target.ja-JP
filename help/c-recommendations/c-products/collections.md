@@ -5,10 +5,10 @@ title: Adobe Target のコレクション
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ ht-degree: 69%
 >
 >詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にしてコレクションを作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。
 
+## コレクションの編集、コピー、削除
+
+リスト内の目的のコレクションの上にカーソルを置き、次のうち該当するアイコンをクリックします。編集、コピー、または削除を行います。
+
+![コレクションにカーソルを合わせたときのアイコン](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+既存のコレクションをコピーして重複コレクションを作成し、それを変更できます。 これにより、少ない労力で同様の除外を作成できます。
+
+コレクションはアカウント全体で使用できることに注意してください。 コレクションを削除する前に、この点を考慮してください。 削除したコレクションを元に戻すことはできません。
+
 ## Recommendationsアクティビティでコレクションを使用する
 
 1. 上記の方法のいずれかを使用してコレクションを作成します。
 
 1. 「 **[!UICONTROL アクティビティ]** 」をクリックし、新しいRecommendations [アクティビティを](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) 作成するか、既存のアクティビティを編集します。
 
-1. エクスペリエンス **[!UICONTROL ページ（3つの部分によるガイドによるワークフローの手順2）で、レコメンデーションを配置した場所をクリックし、「コレクションを]** 変更 ****」をクリックします。
+1. 条件とデザインを選択した後、目的のコレクションを選択すると、 [!UICONTROL オプション] ページが表示されます。
+
+   ![コレクションオプションの選択](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. （条件付き）既存のコレクションの設定を変更するには、 **[!UICONTROL エクスペリエンス]** ページ（3部のガイドによるワークフローの手順2）で、レコメンデーションを配置した場所をクリックし、「コレクションを **[!UICONTROL 変更]**」をクリックして、目的のコレクションを選択します。
 
    ![コレクションオプションの変更](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. コレク **[!UICONTROL 追加ション]** ページで、目的のコレクションを選択します。
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
