@@ -1,14 +1,14 @@
 ---
 keywords: exclusions
-description: Adobe Target で除外リストを作成すると、品目がレコメンデーションされないようにできます。
+description: 除外を作成 [!DNL Adobe Target Recommendations] して、訪問者に商品やコンテンツがレコメンデーションされないようにします。
 title: Adobe Target での除外
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 83%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 83%
 
 で除外を作成して、訪問者 [!DNL Adobe Target Recommendations] に商品やコンテンツをレコメンデーションしないようにします。
 
-除外は、訪問者にレコメンデーションすべきでない商品やコンテンツのサブセットです。 例えば、除外を使用して、廃止されたレコメンデーションや本来感受性の高いレコメンデーションに商品やコンテンツが表示されないようにすることができます（年齢によっては適さない評価の映画など）。
+除外は、訪問者にレコメンデーションしない商品またはコンテンツのサブセットです。 例えば、除外を使用して、廃止されたレコメンデーションや本来の機密性の高いレコメンデーションに商品やコンテンツが表示されないようにできます（コンテンツのレーティングに基づくすべてに適していないレーティングの映画など）。
+
+除外はアカウント全体で使用できます。
 
 >[!IMPORTANT]
 >
@@ -47,17 +49,27 @@ ht-degree: 83%
 
 ## 詳細検索を使用した除外の作成
 
-カタログ検索ページの詳細検索（[!UICONTROL レコメンデーション]／[!UICONTROL カタログ検索]／[!UICONTROL 詳細検索]）を使用して、除外を作成することもできます。
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![名前を付けて保存](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![名前を付けて保存ダイアログ](/help/c-recommendations/c-products/assets/save-as.png)
 
-「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。詳しくは、[カタログ検索](/help/c-recommendations/c-products/catalog-search.md#save-as)を参照してください。
+「ID／次を含む」などを使用した検索を作成したら、[!UICONTROL 名前を付けて保存]／[!UICONTROL 除外]をクリックします。
 
 >[!IMPORTANT]
 >
->詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にして除外を作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を除外することを目的とした除外を作成すると、「holiday」を含む商品のみが除外されます。「Holiday」を含む商品は除外されません。
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. この違いが混乱を招くこともあります。詳細検索機能による結果を基にして除外を作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を除外することを目的とした除外を作成すると、「holiday」を含む商品のみが除外されます。「Holiday」を含む商品は除外されません。
 
-## トレーニングビデオ：Recommendations でのコレクションおよび除外の作成（7:05） ![チュートリアルバッジ](/help/assets/tutorial.png)
+## 除外の編集、コピー、削除
+
+リスト内の目的の除外の上にマウスポインターを置き、次のうち該当するアイコンをクリックします。編集、コピー、または削除を行います。
+
+![除外にカーソルを合わせたときのアイコン](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+既存の除外をコピーして、重複の除外を作成し、変更できます。 これにより、少ない労力で同様の除外を作成できます。
+
+除外はアカウント全体で使用できることに注意してください。 除外を削除する前に、この点を考慮してください。 削除した除外は復元できません。
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
