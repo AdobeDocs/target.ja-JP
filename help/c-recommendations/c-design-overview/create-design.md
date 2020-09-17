@@ -5,10 +5,10 @@ title: デザインの作成
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 40%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
 
-[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。**[!UICONTROL レコメンデーション／デザイン]**&#x200B;スクリーンには、デフォルトデザインカードと過去に作成したすべてのデザインが表示されます。デフォルトのデザインの編集や削除はできません。
+[!UICONTROL Recommendations] のデザイン作成には、デフォルトのデザインを使用するか、カスタムデザインを作成することができます。**[!UICONTROL Recommendations/デザイン]** 画面には、デフォルトのデザインカードと、アカウントで作成されたデザインが表示されます。
 
-1. **[!UICONTROL レコメンデーション／デザイン]**&#x200B;画面で、作成するデザインのカードの上にマウスを移動します。
+デザインを操作する際は、次の情報に注意してください。
+
+* レコメンデーションデザインは、デフォルトのデザインを使用して作成することも、カスタムデザインを作成することもできます。
+* デフォルトのデザインは編集または削除できません。
+* カスタムデザインは、編集、コピー、または削除できます。
+* デフォルトのデザインに基づいてデザインを作成するには、まずデザインをコピーしてから、そのコピーを編集する必要があります。
+
+次の図は、デフォルトの1 x 4の設計を示しています。
+
+![1 x 4デフォルトデザイン](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+次の図に、カスタムデザインを示します。
+
+![カスタムデザイン](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+デザインは、アクティビティ作成プロセス中に、Visual Experience Composer(VEC)内またはアクティビティ作成以外のデザインライブラリから作成できます。 以下の節では、ライブラリからデザインを作成していることを前提としていますが、手順は似ています。
+
+## デフォルトのデザインに基づくデザインの作成
+
+1. **[!UICONTROL Recommendations]** / **[!UICONTROL デザイン]** をクリックし、  デザインライブラリを表示します。
+
+   ![デザインライブラリ](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. 作成するデザインのカードの上にマウスを移動し、 **[!UICONTROL コピー]** アイコンをクリックします。
 
    ![](assets/Card_CopyDesign.png)
 
-1. 既存のデザインをコピーおよび編集する場合は、**[!UICONTROL コピー]**&#x200B;アイコンをクリックします。
-
-   または
-
-   カスタムデザインを作成するには、**[!UICONTROL レコメンデーション／デザイン]**&#x200B;スクリーン上で「**[!UICONTROL デザインを作成]**」をクリックします。
+   [ [!UICONTROL デザインを作成] ]ダイアログボックスが表示されます。
 
    ![](assets/createDesign.png)
 
-1. 「**[!UICONTROL コンテンツ名]**」を追加します。
+1. **[!UICONTROL 情報]** パネルで、デザインカードに表示する **[!UICONTROL コンテンツ名]** 、およびオプションのプレビュー画像を追加します。
 
-   デフォルトデザインを使用した場合には、デザイン名と「コピー」が「**[!UICONTROL コンテンツ名]**」フィールドに表示されます。名前は編集できます。1.（オプション）デザインカード上に表示する画像をクリックして選択します。
-1. デザインの&#x200B;**[!UICONTROL コード]**&#x200B;を編集します。
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. 名前は編集できます。デザインカードに表示する画像を選択することもできます。
+
+1. （条件付き）必要に応じてデザイン **[!UICONTROL コード]**&#x200B;を編集します。
 
    レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocity について詳しくは、[](https://velocity.apache.org)https://velocity.apache.org を参照してください。
 
@@ -42,20 +62,37 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >デザインで参照できるエンティティの最大数は、ハードコーディングでもループ経由でも 99 です。
+   >デザインで参照できるエンティティの最大数は、ハードコードまたはループ経由で、99です。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## カスタムデザインの作成
+
+1. **[!UICONTROL Recommendations]** / **[!UICONTROL デザイン]** をクリックし、  デザインライブラリを表示します。
+
+1. 「 **[!UICONTROL デザインを作成]**」をクリックします。
+
+   既存のデザインを基に新しいカスタムデザインを作成する場合は、目的のデザインにマウスを移動し、 [!UICONTROL コピー] アイコンをクリックします。 その後、コピーを編集して、新しいカスタムデザインを作成できます。
+
+1. 追加 **[!UICONTROL コンテンツ名]** 、およびオプションのプレビュー画像。
+
+1. （条件付き）必要に応じてデザイン **[!UICONTROL コード]**&#x200B;を編集します。
+
+   詳細については、上記の手順4の情報を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-以下の例は、フォームベースのエディターを使用してアクティビティを設定するときに JSON 応答を返す方法を示しています。
+次の例は、フォームベースのエディターを使用してアクティビティを設定する場合に、JSON応答を返す方法を示しています。
 
-1. デザインライブラリまたはフォームベースのワークフロー内でデザインを作成します。Visual Experience Composer（VEC）のワークフロー内でこの作業をおこなう場合、作成できるのは、`<div>`クリック追跡のためにラッピングされた HTML デザインのみです。
+1. デザインライブラリ内またはフォームベースのワークフロー内からデザインを作成します。 If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+
 1. 「HTML デザイン」オプションがオフになっていることを確認します。
 
    ![](assets/html_design_toggle.png)
 
-1. デザインに貼り付けるコードの例は次のとおりです。
+1. 次のコードは、デザインに貼り付けることができる内容の例です。
 
    ```
        #* 
@@ -84,24 +121,22 @@ ht-degree: 95%
        }  
    ```
 
-1. このデザインを使用するフォームベースの Recommendations アクティビティを設定します。
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. アクティビティページに移動します。
-   1. 「**[!UICONTROL アクティビティを作成]**」をクリックします。
-   1. 「**[!UICONTROL Recommendations]**」を選択します。
-   1. 「**[!UICONTROL Experience Composer を選択]**」で、「**[!UICONTROL フォーム]**」を選択します。
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. **[!UICONTROL アクティビティを作成]**／**[!UICONTROL レコメンデーション]**&#x200B;をクリックします。
+   1. 「Experience Composer **[!UICONTROL を]**&#x200B;選択 **[!UICONTROL 」で「]**&#x200B;フォーム **[!UICONTROL 」を選択し、「]**&#x200B;次へ」をクリックします。
    1. 「場所」で &quot;Sample_Recs_Response&quot; というテキストを入力します。
    1. 「**[!UICONTROL デフォルトコンテンツ]**」で、下矢印、「**[!UICONTROL レコメンデーションの追加]**」の順にクリックします。
    1. 「ページタイプ」を選択します。これにより、次の画面の最初のフィルタリングが決まります。
    1. 条件カードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
-   1. 前のステップで作成したデザインを選択し、「**[!UICONTROL 保存]**」をクリックします。
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. 設定プロセスを完了します。
    1. 「**[!UICONTROL 非アクティブ]**」の横にある右矢印をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
 1. アクティビティを設定してアクティブ化したら、クリーンな JSON 応答を返すサンプルのリクエストを設定できます。
 
-   アクティビティを保存したら、Target では、選択した条件設定に対応するモデルを構築する必要があります。要素の数によっては、構築に時間がかかる場合もあります。モデルの構築が完了すると結果が表示されます。
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. 要素の数によっては、構築に時間がかかる場合もあります。モデルの構築が完了すると結果が表示されます。
 
    次に例を示します。
 
@@ -111,18 +146,18 @@ ht-degree: 95%
 
    where
 
-| パラメーター | 値 |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Target クライアントコードです（../target/products.html#recsSettings／Recommendation API トークン／クライアントコードから入手できます）。 |
-| `[YOUR_MBOX_NAME]` | フォームベースのRecommendationsの「場所」セクションで選択した名前（この場合はSample_Recs_Response）。 |
-| `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
-| `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
+   | パラメーター | 値 |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Target クライアントコードです（../target/products.html#recsSettings／Recommendation API トークン／クライアントコードから入手できます）。 |
+   | `[YOUR_MBOX_NAME]` | フォームベースのRecommendationsの「場所」セクションで選択した名前（この場合はSample_Recs_Response）。 |
+   | `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
+   | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
 
 アルゴリズムを実行して結果が得られたら、応答は次のようになります。
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## JSON オブジェクトに関するその他のヒントとテクニック {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 次の構文でデザインを設定することで、シンプルなコンマ区切りの項目リストを返すこともできます。
 
@@ -130,7 +165,7 @@ ht-degree: 95%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-応答でその他の情報を送信することもできます。次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。このデザインの例の場合は、アクティビティの詳細、Target プロファイルの詳細（該当する場合）、対象の項目に関連するその他の `entity.attributes` も返されます。
+応答でその他の情報を送信することもできます。次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
