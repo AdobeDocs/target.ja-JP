@@ -5,10 +5,10 @@ title: デザインの作成
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 40%
+source-wordcount: '988'
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,11 @@ ht-degree: 40%
 
 デザインは、アクティビティ作成プロセス中に、Visual Experience Composer(VEC)内またはアクティビティ作成以外のデザインライブラリから作成できます。 以下の節では、ライブラリからデザインを作成していることを前提としていますが、手順は似ています。
 
-## デフォルトのデザインに基づくデザインの作成
+## デザインの作成
+
+デフォルトのデザインに基づいてデザインを作成することも、カスタムデザインを作成することもできます。
+
+### デフォルトのデザインに基づくデザインの作成
 
 1. **[!UICONTROL Recommendations]** / **[!UICONTROL デザイン]** をクリックし、  デザインライブラリを表示します。
 
@@ -56,9 +60,9 @@ ht-degree: 40%
 
 1. （条件付き）必要に応じてデザイン **[!UICONTROL コード]**&#x200B;を編集します。
 
-   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocity について詳しくは、[](https://velocity.apache.org)https://velocity.apache.org を参照してください。
+   レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocityについて詳しくは、https://velocity.apache.orgを参照し [てください](https://velocity.apache.org) 。また、Velocityを使用したデザインの [カスタマイズを参照してください](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   デザインは HTML または HTML 以外にすることができます。デフォルトで、HTML デザインは <div> タグでラップされ、Web 環境でのクリック追跡が可能です。HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。
+   デザインは HTML または HTML 以外にすることができます。デフォルトで、HTML デザインは <div> タグでラップされ、Web 環境でのクリック追跡が可能です。HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。「 [!UICONTROL HTMLデザイン] 」の切り替えを「オフ」位置にスライドさせて、HTML以外のコードを使用します。
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ ht-degree: 40%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## カスタムデザインの作成
+### カスタムデザインの作成
 
 1. **[!UICONTROL Recommendations]** / **[!UICONTROL デザイン]** をクリックし、  デザインライブラリを表示します。
 
@@ -81,6 +85,18 @@ ht-degree: 40%
    詳細については、上記の手順4の情報を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## デザインの編集、コピー、削除
+
+デフォルトのデザインは編集またはコピーできません。デフォルトのデザインのみコピーできます。
+
+デザインライブラリ内の目的のデザインの上にマウスポインターを置き  、次のうち該当するアイコンをクリックします。編集、コピー、または削除を行います。
+
+![デザインにカーソルを合わせたときのアイコン](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+既存のデザインをコピーして重複デザインを作成し、その後変更できます。 これにより、手間をかけずに類似したデザインを作成できます。
+
+デザインはアカウント全体で使用できることに注意してください。 デザインを削除する前に、この点を考慮してください。 削除したデザインは元に戻せません。
 
 ## JSON の例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
