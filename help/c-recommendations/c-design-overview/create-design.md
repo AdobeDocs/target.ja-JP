@@ -5,7 +5,7 @@ title: デザインの作成
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 33%
@@ -62,7 +62,7 @@ ht-degree: 33%
 
    レコメンデーションデザインには、オープンソースの Velocity デザイン言語が使用されています。Velocityについて詳しくは、https://velocity.apache.orgを参照し [てください](https://velocity.apache.org) 。また、Velocityを使用したデザインの [カスタマイズを参照してください](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   デザインは HTML または HTML 以外にすることができます。デフォルトで、HTML デザインは <div> タグでラップされ、Web 環境でのクリック追跡が可能です。HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。「 [!UICONTROL HTMLデザイン] 」の切り替えを「オフ」位置にスライドさせて、HTML以外のコードを使用します。
+   デザインは HTML または HTML 以外にすることができます。デフォルトで、HTML デザインは`<div>`タグでラップされ、Web 環境でのクリック追跡が可能です。HTML 以外のデザインは、Web 環境ではない環境用のもので、クリック追跡ができません。「 [!UICONTROL HTMLデザイン] 」の切り替えを「オフ」位置にスライドさせて、HTML以外のコードを使用します。
 
    >[!NOTE]
    >
