@@ -6,17 +6,17 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの設定{#recommendations-activity-settings}
 
-[!UICONTROL Recommendations] アクティビティの説明と制御に使用できる設定に関する情報です。
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Recommendations 目標と設定ページ](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 `-`
 `@`
 
-[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、Target Standard/Premium と [!UICONTROL Recommendations Classic] の両方で表示されます。
+[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## 目的
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ## レポート設定
 
-* **レポートソース：** Adobe Target または [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) からレポートソースを選択します。アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
+* **レポートソース：** レポートソースを選択します。 [!DNL Adobe Target] または [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
 * **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
 * **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。
 * **レポート対象のオーディエンス：**&#x200B;レポートをフィルタリングする際に使用できるオーディエンスを定義します。
