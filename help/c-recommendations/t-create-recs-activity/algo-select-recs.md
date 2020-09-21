@@ -5,17 +5,17 @@ title: 条件の選択
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 82%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 条件を選択{#select-criteria}
 
-Recommendations アクティビティで使用する[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択します。条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
+ アクティビティで使用する[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択します。[!DNL Adobe Target Recommendations]条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。
 
 複数の条件を追加することで複数のレコメンデーションタイプを相互にテストすることができます。
 
@@ -25,18 +25,18 @@ Recommendations アクティビティで使用する[条件](/help/c-recommendat
 
    [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-* 新しい条件を作成するには、「**[!UICONTROL 条件を作成]**」をクリックして新しい条件についての情報を入力します。新しい条件の作成について詳しくは、[新しい条件を作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[新しい条件を作成](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
 
 **条件を選択するには：**
 
-1. [新しいレコメンデーションを作成](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)する際に、**[!UICONTROL 条件]**&#x200B;ダイアログボックスで、1 つ以上の条件を探して選択します。
+1. While [creating a new recommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
 
    ![条件を選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    [!UICONTROL 業種] フィルター、[!UICONTROL ページタイプ]フィルターおよび「[!UICONTROL 互換性]」チェックボックスを使用して、条件のリストをフィルターできます。これらのオプションは、目的の条件を探すのに役立ちます。
 
-   * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。デフォルトの業種を変更するには、「**[!UICONTROL 設定]**」をクリックし、目的のデフォルト&#x200B;**[!UICONTROL 業種]**&#x200B;設定を選択します。
+   * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。To change your default industry vertical, click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** and select your desired default **[!UICONTROL Industry Vertical]** setting.
    * **ページタイプ：**&#x200B;ページタイプによって、レコメンデーションが分類しやすくなります。それぞれのページタイプで選択できるビルトイン条件もあります。
-   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。このオプションは、[!DNL Target][!UICONTROL  の環境設定]で有効と無効を切り替えることができます。
+   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。This option can be disabled or enabled in your settings: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
 1. 「**[!UICONTROL 次へ]**」をクリックして、[デザインを選択](/help/c-recommendations/c-design-overview/design-overview.md)ダイアログボックスを表示します。
