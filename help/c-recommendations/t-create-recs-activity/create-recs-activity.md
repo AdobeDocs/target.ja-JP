@@ -5,10 +5,10 @@ title: Recommendations アクティビティの作成
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   サイトの訪問者は、レコメンデーションに該当する場合にのみ、レコメンデーションコンテンツを表示します。 レコメンデーションに適合しない訪問者には、デフォルトコンテンツが表示されます。
+
    ![Recommendations オプション](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   要素をレコメンデーションと置換すると、現在の内容が削除されてレコメンデーションに置き換わります。
+   * **[!UICONTROL 置き換え(Recommendations]**):エレメントをレコメンデーションと置き換えると、現在のコンテンツが削除され、レコメンデーションと置き換えられます。 訪問者がサイトを訪問し、レコメンデーションの条件を満たすと、既存のコンテンツではなく、指定された領域にレコメンデーション品目が表示されます。
+   * **[!UICONTROL 前にRecommendationsを挿入]**:選択した要素の前にレコメンデーションを挿入すると、レコメンデーションされたコンテンツがその要素の前に配置されます。 ページの構築に応じて、レコメンデーションは、選択した要素の上または左に表示されます。
+   * **[!UICONTROL 後にRecommendationsを挿入]**:選択した要素の後にレコメンデーションを挿入すると、その要素の後にレコメンデーションコンテンツが配置されます。 ページの構築に応じて、選択した要素の下または右にレコメンデーションが表示されます。
+
+   「 **[!UICONTROL 選択範囲を拡張]** 」オプションを使用すると、選択した場所(親コンテナ)を拡張して、目的のページエレメントを簡単に特定し、含めることができます。
 
 1. ページタイプを選択します。
 
@@ -70,7 +76,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 1. 1 つ以上の[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択します。
 
-   条件が、それぞれの情報を表示するカードとして表示されます。デフォルトでは、[!UICONTROL 条件を選択]画面には、選択した業種およびページタイプと互換性のある条件が表示されます。これらのオプションを変更すると、他の条件を表示できます。
+   条件が、それぞれの情報を表示するカードとして表示されます。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. これらのオプションを変更すると、他の条件を表示できます。
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、いくつかの事前に定義されたデザインが含まれています。カスタムのデザインを作成することも可能です。詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)と[デザインのカスタマイズ](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、事前設定済みのデザインがいくつか含まれています。 カスタムのデザインを作成することも可能です。詳しくは、[デザインの作成](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)と[デザインのカスタマイズ](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
    レコメンデーションにプロモーションを追加することもできます。プロモーション - 前とプロモーション - 後の追加について詳しくは、[プロモーションの追加](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    VEC 画面に、ページのレコメンデーションデザインが表示されます。
@@ -158,7 +165,8 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    * アクティビティをアクティブ化します。
    * アクティビティを編集します。
-   * アクティビティを Experience Cloud ボードにピン止めします。
+   * アクティビティをExperience Cloudフィードと共有する
+   * アクティビティのQA
    * エクスペリエンスの URL を表示します。
    * データをダウンロードします。
    * コントロールエクスペリエンスを表示するアクティビティ参加者の割合を変更します。
@@ -166,6 +174,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    * デザインのコードを表示します。
 
 1. （オプション）[!UICONTROL レポート]ページを開いて、[!DNL Recommendations] アクティビティのパフォーマンスのレポートを表示します。
+
 1. （オプション）[!UICONTROL 衝突]ページを開いて、発生した可能性がある[アクティビティの衝突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)を表示します。
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
