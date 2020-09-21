@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
+description: オープンソースのVelocityデザイン言語を使用して、Adobe TargetRecommendationsのレコメンデーションデザインをカスタマイズします。
 title: Velocity を使用したデザインのカスタマイズ
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Velocity を使用したデザインのカスタマイズ{#customize-a-design-using-velocity}
 
-オープンソースの Velocity デザイン言語を使用して、レコメンデーションデザインをカスタマイズします。
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Velocity の概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Velocity 変数について詳しくは、[https://velocity.apache.org/engine/re
 
 >[!NOTE]
 >
->デザインで参照できるエンティティの最大数は、ハードコーディングでもループ経由でも 99 です。テンプレートスクリプトには、最大 65,000 文字を含めることができます。
+>デザインで参照できるエンティティの最大数は、ハードコードまたはループ経由で、99です。 テンプレートスクリプトには、最大 65,000 文字を含めることができます。
 
 例えば、デザインに次のような内容を表示するとします。
 
@@ -128,12 +128,12 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 デフォルトでは、Velocityテンプレートでは、すべてのエンティティ属性が文字列値として扱われます。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱う必要がある場合があります。 エンティティ属性を数値として扱うには、次の手順に従います。
 
-1. ダミー変数を宣言し、任意の整数または重複値に初期化します
-1. 使用するエンティティ属性が空白でないことを確認します(ターゲットRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要)
-1. エンティティ属性を手順1で作成したダミー変数 `parseInt` のまたは `parseDouble` メソッドに渡して、文字列を整数または重複値に変換します。
-1. 新しい数値に対して数学演算または比較を実行します
+1. ダミー変数を宣言し、任意の整数または重複値に初期化します。
+1. 使用するエンティティ属性が空白でないことを確認します(ターゲットRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要です)。
+1. エンティティ属性を手順1で作成したダミー変数の `parseInt` または `parseDouble` メソッドに渡して、文字列を整数または重複値にします。
+1. 新しい数値に対して数学演算または比較を実行します。
 
-**例：割引価格の計算**
+### 例：割引価格の計算
 
 値引きを適用するために、品目の表示価格を$0.99ずつ下げたいとします。 この結果を得るには、次の方法を使用できます。
 
@@ -148,7 +148,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**例：項目の評価に基づいて表示する星の数を選択する**
+### 例：項目の評価に基づいて表示する星の数を選択する
 
 品目の平均顧客評価に基づいて、適切な数の星を表示したいとします。 この結果を得るには、次の方法を使用できます。
 
@@ -173,7 +173,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**例：項目の長さ（分）に基づく時間と分の計算**
+### 例：項目の長さ（分）に基づく時間と分の計算
 
 ムービーの長さを分単位で格納し、長さを時間と分単位で表示するとします。 この結果を得るには、次の方法を使用できます。
 
