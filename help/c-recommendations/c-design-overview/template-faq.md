@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Recommendations デザインに関するよくある質問（FAQ）のリストです。
+description: Adobe Targetのレコメンデーションデザインに関するよくある質問(FAQ)のリストです。
 title: デザイン FAQ
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) デザイン FAQ{#design-faq}
 
-Recommendations デザインに関するよくある質問（FAQ）のリストです。
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## 推奨品目の価格で小数点の右側に値が表示されません。どうすれば表示できますか？
 
 デフォルトでは、デザインテンプレートで返される数値（`entity.value` など）には、小数点の後の末尾のゼロは表示されません。例えば、品目が $35.00 の場合、`entity.value` は 35 に等しくなり、$35.00 ではなく、35 のみがページに表示されます。
 
-この問題に対処するには、2 つのオプションがあります。
+この問題に対処するには、次の2つのオプションを使用できます。
 
 * Velocity スクリプトまたは JavaScript を使用して、戻り値に書式を適用します。
 
@@ -37,7 +37,7 @@ Recommendations デザインに関するよくある質問（FAQ）のリスト�
 
 ## すぐに更新されるようにするには、どのようにデザインを変更する必要がありますか？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-現在使用しているデザインを変更すると、更新までしばらく時間がかかります。デザインをすぐに変更するには、新しいデザインを作成し、キャンペーンでそれを選択して、レコメンデーションを保存します。
+現在使用しているデザインを変更すると、更新までしばらく時間がかかります。デザインをすぐに変更するには、新しいデザインを作成し、アクティビティでそのデザインを選択して、レコメンデーションを保存します。
 
 ## デザインに表示する主要な情報をどのようにして取り込むことができますか？例えば、主要商品のカテゴリを表示したい場合、Velocity デザインのコードにどのような値を設定したらよいですか？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ Recommendations デザインに関するよくある質問（FAQ）のリスト�
 
 ## 既存のエンティティの値を空白で置き換えるにはどのようにすればよいですか（プロモーションが終了して、品目の entity.message をクリアする必要がある場合など）？{#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript で改行をしないスペースを送信することで可能だと思われます。開発者に `\u00A0` を値として送信してもらいます。（例：`entity.message=\u00A0`）。値が存在しない場合に null の代わりにその値をデフォルトにすることも検討してください。
+JavaScriptで改行をしないスペースを送信すると、これが行われるようです。 開発者に `\u00A0` を値として送信してもらいます。（例：`entity.message=\u00A0`）。値が存在しない場合に null の代わりにその値をデフォルトにすることも検討してください。
 
 ## Recommendations デザインにプロファイルスクリプトを使用できますか？{#section_6BD55203984A4D80A0C6F241AD7806DF}
 
