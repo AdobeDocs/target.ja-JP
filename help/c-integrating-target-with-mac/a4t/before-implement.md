@@ -5,10 +5,10 @@ title: Adobe TargetのレポートソースとしてAdobe Analyticsを実装す�
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 57%
+source-wordcount: '903'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 >[!IMPORTANT]
 >
->A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの依頼には[このフォーム](https://www.adobe.com/go/audiences)を使用します。
+>A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの要求には、 [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences) （英語）を使用します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
@@ -82,3 +82,15 @@ When troubleshooting, be sure to confirm that the supplemental ID is present on 
 デフォルトでは、at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js がページ上にある場合、前述のように、ページから正しい追加の ID が含まれている限り、[!DNL Analytics] および [!DNL Target] は、レポートおよび分析目的で、バックエンドでイベントを正しくスティッチします。A4T が正しく機能するために、追加の操作を管理および実行する必要はありません。
 
 ただし、[!DNL Target] に関連する分析データをレポート目的で [!DNL Analytics] にいつどのように送信するかをより制御するほうが良い場合があります。社内で活用するための社内分析ツールがあり、社内分析製品を使用して分析データを [!DNL Analytics] に送信したい場合、お客様の組織の他のメンバーが [!DNL Analytics] をビジュアルレポートソースとして引き続き使用できます。詳しくは、*Analytics for Target の実装*&#x200B;の[手順 7： サイトのすべてのページから at.js または mbox.js を参照](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)を参照してください。
+
+## 共有オーディエンス
+
+「 [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences)」に入力する際は、「プロビジョニングを要求している機能は何ですか [!UICONTROL ?」の下にリストされた共有オーディエンス][!UICONTROL (Shared Capabilities])オプションに関する次の重要な情報に注意してください。
+
+![要求フォーム](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+[ [!UICONTROL 共有オーディエンス]]を要求するとき [!UICONTROL 、] ターゲット [!UICONTROL と] Adobe Audience Manager(AAM)で情報を共有できます(この場合はオーディエンス)。
+
+>[!IMPORTANT]
+>
+>この [!UICONTROL ターゲット] とAAMの統合には、追加のコストが伴います。 AAMでは、 [!UICONTROL ターゲット] 呼び出しごとに課金されます。
