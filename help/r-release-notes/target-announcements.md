@@ -5,9 +5,9 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ ht-degree: 0%
 ## Adobeは、パーソナライゼーション・エンジンのGartner Magic Quadrantで再びリーダーに
 
 Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-
-## ウェビナー：人工知能とAdobe Targetを使ったパーソナライゼーション戦略
-
-* **午前8時～9時。(PDT)**
-* **2020年8月13日**
-
-[このウェビナーに登録します](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
