@@ -3,10 +3,10 @@ keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings
 description: A/B アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
 feature: ab
-solution: Target,standard
+solution: Target
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
