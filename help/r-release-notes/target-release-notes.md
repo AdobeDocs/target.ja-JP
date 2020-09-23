@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 11%
+source-wordcount: '427'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020 年 9 月 15 日**
+**最終更新日：2020 年 9 月 23 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -39,39 +39,13 @@ ht-degree: 11%
 * **ターゲットのお知らせ**:ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 
-## Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
+## Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
 
-| 機能 | 詳細 |
-| --- | --- |
-| ![自動ターゲットアクティビティ用のターゲット用プレミアムバッジ](/help/assets/premium.png) (A4T)のサポート | [!UICONTROL 自動ターゲット] アクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動ターゲット] ・アンサンブル機械学習アルゴリズムを使用して、プロファイル、行動およびコンテキストに基づいて各訪問者に最適なエクスペリエンスを選択できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分と自動ターゲットアクティビティの](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
+このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
 
-## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
-
-| 機能 | 詳細 |
-| --- | --- |
-| ![条件のシーケンス内のPremiumバッジ](/help/assets/premium.png) Control Recommendationsスロット | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件のシーケンス [の作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) （英語）を参照してください。 |
-
-## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
-
-このリリースには、次の機能強化、修正および変更が含まれています。
-
-* 組織を切り替えた後に新しい [!UICONTROL 管理] ページを読み込むと、エラーが表示される問題を修正しました。 （TGT-37730）
-* 表示で、 [!UICONTROL 管理/導入] ページに正しくないクライアントコードが表示される問題を修正しました。 （TGT-37849）
-* VECの読み込みが成功した後、 [!UICONTROL Visual Experience Composer] (VEC)の編集機能が使用できない場合がある問題を修正しました。 （TGT-37162）
-* VEC Helper拡張機能がインストールされている場合でも、VECおよび拡張Experience Composer(EEC)でページが読み込めない問題を修正しました。 これは、Google Chrome 80以降の変更が原因でした。 更新されたVEC Helper [拡張機能をダウンロードします](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 （TGT-37893）
-* 組織を切り替えた後に、 [!UICONTROL 管理/実装] ページからat.jsをダウンロードできない場合がある問題を修正しました。 （TGT-37668）
-* ユーザーがダウンロードボタンを複数回クリックした場合に複数のリクエストが送信されるのを防ぐため、at.jsのダウンロードボタンが読み込み中に無効にな [!DNL Target] りました。 （TGT-37633）
-* エクスペリエンスのターゲット設定  (XT)アクティビティで、エクスペリエンスに長期間「結果を取得」と表示される問題を修正しました。 （TGT-37684）
-* キーボードのみのユーザーのナビゲーションと機能が改善されました。 （TGT-34479 および TGT-34473）
-* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 （TGT-34480）
-* アクティビティで現在使用されているモバイルビューポートを削除する際のエラーメッセージを改善。 次のようなエラーメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」 （TGT-37030）
-* VECでのサポートが追加され、ページ内の複数の要素に一致するcssセレクターのクリック追跡が可能になりました。 （TGT-37323）
-* 特定のユーザーが [!UICONTROL アクティビティ] リストを表示できない問題を修正しました。 次のエラーメッセージが表示されました。&quot;URLの提案を取得できません。&quot; AdobeバックエンドシステムのFirstName (FirstName/r/n)でキャリッジリターンを使用しているユーザーに対してエラーが発生しました。 （TGT-37330）
-* ワークスペース名(Enterprise用の [!UICONTROL Adobe Admin Consoleで指定)にアポストロフィが含まれる場合に、] アクティビティ ページが表示されない問題を修正しました。 （TGT-37709）
-* 最適化指標とコンバージョン指標を選択する際の [!UICONTROL 自動配分] アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようユーザーに通知する問題を修正しました。 （TGT-37689）
-* ター [!UICONTROL ゲット設定ページに移動してから戻った後で、] 目標と設定  ページの指標が空白になる場合がある問題を修正しました。 （TGT-37691）
-* 条件の最終変更値が正しくない問題を修正しました [!DNL Recommendations] 。 （TGT-37666）
-* mbox名ではなくmboxドロップダウンリストーにmbox IDが表示される問題を修正しました。 （TGT-37739）
+* キーボードのみのユーザーのナビゲーションと機能が改善されました。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
+* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
+* UIの画像とテキストのテキストとカラーコントラストが改善されました。 （TGT-34513）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
