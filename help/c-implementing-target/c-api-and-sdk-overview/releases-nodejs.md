@@ -5,7 +5,7 @@ title: Adobe TargetのNode.js SDKに関するリリースノートです。
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 21c49efb4b5de0ae14215712f4ec87b4759f29e1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Node.js SDKは、ベストプラクティスを導入し、アドビの配信API
    サーバー側で取得したエクスペリエンス `serverState` を含むという設定が導入され、at.js v2.2以降では、エクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなります。 このアプローチは、ページ読み込みのパフォーマンスを最適化します。
 
 * GitHubをソースとして [ターゲットNode.js SDKとして開きます](https://github.com/adobe/target-nodejs-sdk)。
-* getOffers()を介してプリフェッチされたコンテンツ [に対して、表示/クリック通知を送信する新しいsendNotifications() APIメソッド](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) を追加しました [!DNL Target][](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers)。
+* getOffers()を介してプリフェッチされたコンテンツ [に対して、表示/クリック通知を送信する新しいsendNotifications](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications) () APIメソッド [!DNL Target][](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications)。
 * 表示配信APIリクエストの作成がシンプルになりました。内部フィールドのオートコンプリート機能がデフォルト(例： `request.id`、 `request.context`など)で使用されます。
 * SDK APIメソッド引数の検証。
 * README、サンプル、および単体テストを更新。
@@ -50,13 +50,13 @@ Node.js SDKは、ベストプラクティスを導入し、アドビの配信API
 
 * プロジェクトの名前がに変更され `target-nodejs-sdk`ました。
 * メジャーリファクタリング。ターゲットBatchMbox v2 APIをターゲット表示配信v1 APIに置き換えます。
-* [create() APIメソッドの引数が変更され](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) 、重複するネストが削除されました(古いメソッド宣言を参照し [てください](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate))。
-* [getOffers() APIメソッドの引数が変更されました](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) (古いメソッド宣言を参照し [てください](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers))。
-* この `getTargetCookieName()` APIメソッドは、アクセサーに置き換えられ `TargetCookieName` ました。 TargetClientユーティリティ [アクセサを参照してください](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)。
-* この `getTargetLocationHintCookieName()` APIメソッドは、アクセサーに置き換えられ `TargetLocationHintCookieName` ました。  TargetClientユーティリティ [アクセサを参照してください](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)。
+* [create() APIメソッドの引数が変更され](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientcreate) 、重複するネストが削除されました(古いメソッド宣言を参照し [てください](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate))。
+* [getOffers() APIメソッドの引数が変更されました](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) (古いメソッド宣言を参照し [てください](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers))。
+* この `getTargetCookieName()` APIメソッドは、アクセサーに置き換えられ `TargetCookieName` ました。 TargetClientユーティリティ [アクセサを参照してください](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)。
+* この `getTargetLocationHintCookieName()` APIメソッドは、アクセサーに置き換えられ `TargetLocationHintCookieName` ました。  TargetClientユーティリティ [アクセサを参照してください](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)。
 
 ### 削除済み
 
 * ターゲットBatchMbox v2 APIのサポート。
-* getOffer() APIメソッド [は削除されました](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) 。代わりに、 [getOffers() APIメソッドを使用し](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) ます。
+* getOffer() APIメソッド [は削除されました](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) 。代わりに、 [getOffers() APIメソッドを使用し](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) ます。
 
