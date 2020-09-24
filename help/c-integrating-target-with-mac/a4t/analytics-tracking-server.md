@@ -5,9 +5,9 @@ title: Analytics トラッキングサーバーの使用
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 24%
 
 ---
@@ -60,9 +60,9 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. 「/ss」でフィルターし、解析リクエストを表示します。
+1. Analyticsリクエスト `/ss,` を表示するフィルター。
 
-   ![Chrome開発者ツール](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![/ss検索機能を備えたChrome開発者ツール](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    トラッキングサーバーは、リクエストのホスト名です。
 
