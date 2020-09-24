@@ -5,9 +5,9 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 2%
 | [Adobe Experience Platform Launchターゲット文書](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | の次世代タグ管理プラットフォーム [!DNL Target] であるを使用した導入に関する情報 [!DNL Adobe Experience Platform Launch][!DNL Adobe]です。 これは、実装する推奨される方法で [!DNL Target]す。 |
 | [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Adobeカスタマーケアチームが率いるイニシアチブ「オフィスアワーズ」に関する情報です。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
 | [ターゲット基本ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registration information and links to previous sessions of the [!DNL Target] Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community. |
+| [Adobe Target開発者](http://developers.adobetarget.com/) | Adobe Target開発者サイトに関する情報は、クライアント側アプリケーション、サーバー側アプリケーション、モバイルアプリケーション、IoTなど [!DNL Target] に実装する際に役立ちます。 また、データをサードパーティのソリューションに書き出すこともで [!DNL Target] きます。 |
 | [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/) | recommendationsサーバーとプログラム的にやり取りできる [!UICONTROL Recommendations] APIに関する情報を紹介し [!DNL Target] ます。 These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [Server Side Delivery API](https://developers.adobetarget.com/api/delivery-api/) | Adobe Target配信APIを構成するリソースに関する情報です。 |
 | [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | Node.js SDKに関する情報です。Node.js SDKは、cookie、セッションの管理、ソリューション（、、など）との統合に伴う複雑さを排除した高度なソフトウェア開発キットで [!DNL Adobe Experience Cloud] す [!DNL Target][!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]。 |
