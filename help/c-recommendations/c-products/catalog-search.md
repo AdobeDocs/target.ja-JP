@@ -5,9 +5,9 @@ title: Adobe Target のカタログ検索
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    検索のオートコンプリート機能を使用できます。 次の図では、「bik」と入力すると、「bike」という語を含むすべての製品が返されます。
 
    ![オートコンプリートの検索](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >数値を持つカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型として処理されます。
+   >
+   >現在、属性のタイプを変更できる機能はありません。 変更を行うには、文字列から数値に変更する必要がある属性を参照する、顧客の問題を [オープンします](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
 
 1. フィルターを使用して目的の商品を探すこともできます。 次の例では、「 [!UICONTROL コレクション] 」ファセットを展開し、「Bikeツール」を選択すると、カタログ内のすべてのbikeツールが表示されます。
 
@@ -170,12 +176,3 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
 
 変更は現在のセッションにのみ適用されることに注意してください。
 
-## よくある質問 {#faq}
-
-カ [!UICONTROL タログ検索機能のヘルプについては、次のFAQを参照してください] 。
-
-### 数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか。
-
-数値を持つカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型として処理されます。
-
-現在、属性のタイプを変更できる機能はありません。 変更を行うには、文字列から数値に変更する必要がある属性を参照する、顧客の問題を [オープンします](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
