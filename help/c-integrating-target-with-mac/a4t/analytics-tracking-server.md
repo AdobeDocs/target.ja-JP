@@ -5,7 +5,7 @@ title: Analytics トラッキングサーバーの使用
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 27%
@@ -13,9 +13,9 @@ ht-degree: 27%
 ---
 
 
-# Analytics トラッキングサーバーの使用{#use-an-analytics-tracking-server}
+# Analytics トラッキングサーバーの使用
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >チ [!DNL Target] ームはat.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
 
 ## Adobe Experience Platformデバッガーを使用したAnalyticsトラッキングサーバーの取得
 
@@ -37,7 +37,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. 左側のナビゲーションメニューで **[!UICONTROL 「解析]** 」をクリックします。
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。 例えば、を使用している場合、 `adobe.com`はファーストパーティ `adobe.com` のトラッキングサーバーです。
    * **サードパーティのトラッキングサーバー**:通常、サードパーティのトラッキングサーバー `[company].sc.omtrdc.net` では、会社が会社の名前ですが、常にで終わり `sc.omtrdc.net`ます。
