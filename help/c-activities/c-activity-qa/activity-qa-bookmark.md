@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -65,9 +65,9 @@ javascript:(
             return cookie.trim().startsWith(AT_QA_MODE);
         });
         if (isSet) {
-            document.cookie = AT_QA_MODE + '; Max-Age=-99999999;';
+            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
             var url = window.location.href.split('at_preview_token',2)[0];
-            window.location.href = url.substring(0, url.length - 1);
+            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
         }
     })();
 ```
