@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2344'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 9月24日 | [アクティビティ QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2のアクティビティQAブックマークレットのコードを更新しました。*x*. |
+|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md#faq) | FAQ節を追加しました。 |
 | 9月23日 | [Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | およ [!DNL Adobe Experience Platform Debugger] びブラウザー開発者ツールの情報を使用してトピック全体を更新しました。 |
 |  | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「user.header(&#39;x-forwarded-for&#39;)」行を更新し、「user.header(&#39;x-cluster-client-ip&#39;)」が非推奨になったことを示しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.9.1（2020年9月31日）リリースに関する情報を追加しました。 |
