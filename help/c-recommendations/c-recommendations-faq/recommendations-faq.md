@@ -5,10 +5,10 @@ title: Adobe TargetRecommendationsFAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
 
 Adobe TargetRecommendationsアクティビティに関するよくある質問(FAQ)のリスト。
+
+## 数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか。
+
+数値を持つカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型として処理されます。
+
+現在、属性のタイプを変更できる機能はありません。 変更を行うには、文字列から数値に変更する必要がある属性を参照する、顧客の問題を [オープンします](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
 
 ## カタログの項目を更新してサイトに反映されるまで、どれくらいかかりますか？
 
