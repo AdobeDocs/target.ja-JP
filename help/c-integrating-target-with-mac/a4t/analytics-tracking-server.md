@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: 古いバージョンの at.js または mbox.js を使用している場合は、Analytics for Target（A4T）を使用するアクティビティ用に Analytics トラッキングサーバーを指定する必要があります。
 title: Analytics トラッキングサーバーの使用
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
+
 1. アクティビティの「**[!UICONTROL 目標および設定]****[!UICONTROL 」画面の「]**&#x200B;レポート設定&#x200B;**[!UICONTROL 」セクションで、「トラッキングサーバー]**」フィールドにトラッキングサーバーの情報を貼り付けます。
 
    >[!NOTE]
@@ -69,4 +70,12 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。 例えば、を使用している場合、 `adobe.com`はファーストパーティ `adobe.com` のトラッキングサーバーです。
    * **サードパーティのトラッキングサーバー**:通常、サードパーティのトラッキングサーバー `[company].sc.omtrdc.net` では、会社が会社の名前ですが、常にで終わり `sc.omtrdc.net`ます。
    * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
+
+1. フィールドの内容すべてをコピーします。
+
+1. アクティビティの「**[!UICONTROL 目標および設定]****[!UICONTROL 」画面の「]**&#x200B;レポート設定&#x200B;**[!UICONTROL 」セクションで、「トラッキングサーバー]**」フィールドにトラッキングサーバーの情報を貼り付けます。
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
