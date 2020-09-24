@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -268,7 +268,7 @@ adobe.target.getOffers({
 
 この例では `prefetch > mboxes` を使用していますが、`execute > mboxes` を使用することもできます。`getOffers()` でプリフェッチを使用する場合は、`applyOffers()` 呼び出しでもプリフェッチを使用する必要があります。
 
-## pageLoadを実行す `getOffers()` るための呼び出し
+## pageLoad `getOffers()` の実行の呼び出し
 
 次の例は、at.js 2でgetOffers()を使用してpageLoadを実行する方法を示しています。*x*
 
