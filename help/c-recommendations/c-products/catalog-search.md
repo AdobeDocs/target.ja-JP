@@ -5,10 +5,10 @@ title: Adobe Target のカタログ検索
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
    アクティブなセクションから非アクティブなセクションに移動する列の横にある削除アイコン( x )をクリックすることもできます。
 
 変更は現在のセッションにのみ適用されることに注意してください。
+
+## よくある質問 {#faq}
+
+カ [!UICONTROL タログ検索機能のヘルプについては、次のFAQを参照してください] 。
+
+### 数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか。
+
+数値を持つカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型として処理されます。
+
+現在、属性のタイプを変更できる機能はありません。 変更を行うには、文字列から数値に変更する必要がある属性を参照する、顧客の問題を [オープンします](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 。
