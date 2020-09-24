@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -60,6 +60,12 @@ Java SDKは、Cookie、セッションの管理、およびソリューション
 
 * **プリフェッチのサポートと、キャッシュを使用したパフォーマンスの最適化を可能にする通知**:JavaSDKを使用して、エクスペリエンスを取得し、Javaサーバー上にローカルにキャッシュできます。これにより、アプリケーションのパフォーマンスを最小限に抑え、最適化す [!DNL Target] ることができます。
 * **VECが作成したアクティビティの取得**:サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターがあり、このセレクターを使用して、ページの中でパーソナライズする必要のある部分のみを事前に非表示にできます。 これは、ページの [最初のコンテンツペイント](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) 指標の最適化に役立ちます。これは、 [Google PageRank](https://en.wikipedia.org/wiki/PageRank) システムで高スコアを達成するためのビジネスにとって重要なKPIです。
+
+## Adobe Target開発者
+
+リンク： [Adobe Target開発者](http://developers.adobetarget.com/)
+
+Adobe Target開発者サイトは、クライアント側アプリケーション、サーバー側アプリケーション、モバイルアプリケーション、IoT [!DNL Target] などへの実装を支援します。 また、データをサードパーティのソリューションに書き出すこともで [!DNL Target] きます。
 
 ## Target Recommendations API
 
