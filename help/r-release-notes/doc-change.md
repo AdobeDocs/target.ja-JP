@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 29%
+source-wordcount: '2396'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 9月24日 | [アクティビティ QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2のアクティビティQAブックマークレットのコードを更新しました。*x*. |
-|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md#faq) | FAQ節を追加しました。 |
+|  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md#faq) | 数値を持つカスタム属性の検索に関する注意を追加しました。 |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。&quot;数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか？&quot; |
 |  | [Target の仕組み](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 「The edge network」に一覧表示されているターゲットクラスターとターゲットCentral Clusterの場所を更新しました。 |
 | 9月23日 | [Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | およ [!DNL Adobe Experience Platform Debugger] びブラウザー開発者ツールの情報を使用してトピック全体を更新しました。 |
 |  | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「user.header(&#39;x-forwarded-for&#39;)」行を更新し、「user.header(&#39;x-cluster-client-ip&#39;)」が非推奨になったことを示しました。 |
