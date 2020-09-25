@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -34,8 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、AdobeはCNAMEの導入に対するリクエストを満たすことができません。
-
+   >Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、AdobeはCNAMEの導入に対するリクエストを満たすことができません。
 
 1. [CNAMEサポートを要求するAdobeClientCareチケットを](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) 開いた場合は、次のフォームに入力し [、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
@@ -141,7 +140,7 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
 
    >[!NOTE]
    >
-   >このコマンドが失敗し、上記の `validateEdgeFpsslSni` コマンドが正常に実行された場合は、DNSの更新が完全に伝播されるのを待つ必要があります。 DNSレコードには、TTL(time-to-live)が関連付けられています [](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) 。これは、これらのレコードのDNS応答のキャッシュ有効期限を指示するものなので、TTL以上の時間を待つ必要がある場合があります。 この `dig target.example.com` コマンドまたはG Suite Toolbox [を使用して、特定のTTLを検索できます](https://toolbox.googleapps.com/apps/dig/#CNAME) 。
+   >このコマンドが失敗し、上記の `validateEdgeFpsslSni` コマンドが正常に実行された場合は、DNSの更新が完全に伝播されるのを待つ必要があります。 DNSレコードには、TTL(time-to-live)が関連付けられています [](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) 。これは、TTLが設定されているDNS応答のキャッシュ有効期限を指示するものなので、少なくともTTLが設定されている限り、待つ必要が生じる場合があります。 この `dig target.example.com` コマンドまたはG Suite Toolbox [を使用して、特定のTTLを検索できます](https://toolbox.googleapps.com/apps/dig/#CNAME) 。
 
 ## 既知の制限事項
 
