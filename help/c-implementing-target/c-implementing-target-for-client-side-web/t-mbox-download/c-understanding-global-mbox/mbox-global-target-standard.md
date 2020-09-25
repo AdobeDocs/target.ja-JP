@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 45%
+ht-degree: 52%
 
 ---
 
@@ -45,6 +45,6 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 次のFAQを使用して、グローバルmbox実装のトラブルシューティングを行うことができます。
 
-### グローバルmboxが読み込まれない理由、ページ読み込み時にグローバルmboxを読み込むのに遅延が発生する理由を教えてください。*
+### グローバル mbox が読み込まれない理由、ページ読み込み時にグローバル mbox を読み込む時間に遅延が発生する理由を調べます。
 
 at.js参照が、ページ上で最初のJavaScript呼び出しであることを確認します。 この問題の他の解決策については、「 [グローバルmboxに関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)」を参照してください。
