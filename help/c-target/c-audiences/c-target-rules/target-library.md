@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;target library;library
 description: 事前設計されたターゲットルールに基づいてユーザーをターゲット設定します。
-title: ターゲットライブラリ
+title: Adobe Targetオーディエンスのターゲットライブラリオプション
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 96%
 
 ---
 
