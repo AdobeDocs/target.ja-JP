@@ -1,14 +1,14 @@
 ---
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
-title: Adobe Target at.js JavaScript ライブラリのカスタムイベントについて説明します。
+title: at.js カスタムイベント
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '577'
 ht-degree: 72%
 
 ---
