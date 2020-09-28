@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 91%
 
 ---
@@ -70,9 +70,9 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 最大 500 個の値を、複数値の属性に含めることができます。
 
-**targetPageParams の使用**
+### targetPageParams の使用
 
-次の例は、 `targetPageParams`
+次の例は、`targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**CSV の使用**
+### CSV の使用
 
 CSV ファイルの管理は、テキストエディターで生データの形式でおこなうか、スプレッドシートソフトウェアを利用します。
 
@@ -108,7 +108,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 生のカタログ CSV ファイルを直接編集する場合は注意してください。
 
-**API の使用**
+### API の使用
 
 配信APIをmboxパラメーターで使用して、複数値の属性を、エスケープされたJSON配列を含む文字列値として渡すことができます。
 
@@ -261,7 +261,6 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 設計で `entity.genre=["genre1","genre2"]` が `$entity<N>.genre` として参照されている場合、結果は「`genre1, genre2`」になります。
 
->[!MORELIKETHIS]
->
->* [エンティティの属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## 関連トピック：
 
+* [エンティティの属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
