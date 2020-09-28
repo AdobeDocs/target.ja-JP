@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ Target Standard/Premium に表示されるレポートスイートのリスト�
 
 ## 期待した量のレポートのデータが表示されません。{#section_75002584FA63456D8D9086172925DD8D}
 
-（特に訪問者にエクスペリエンスの資格を与えるページについて）実装を確認して、追加のデータ ID が [!DNL Target] と [!DNL Analytics] の呼び出しで一致していることを確認してください。[!DNL Target] 呼び出しでは、追加の ID は `mboxMCSDID` パラメーターに含まれます。[!DNL Analytics] 呼び出しでは、追加の ID は `sdid` パラメーターに含まれます。
+（特に訪問者にエクスペリエンスの資格を与えるページについて）実装を確認して、追加のデータ ID が [!DNL Target] と [!DNL Analytics] の呼び出しで一致していることを確認してください。
+
+* **at.js 1.x**:呼び出しでは、追加のIDがパラメーターに含まれ [!DNL Target]`mboxMCSDID` ます。 [!DNL Analytics] 呼び出しでは、追加の ID は `sdid` パラメーターに含まれます。
+* **at.js 2.x**:追加のIDがの値としてHTTPヘッダーに返され `experienceCloud.analytics.supplementalDataId`ます。
 
 [!DNL Target] 呼び出しに追加のデータ ID がない場合は、[!DNL VisitorAPI.js] ファイルが [!DNL at.js] や [!DNL mbox.js] より先に読み込まれていることを確認してください。[!DNL Analytics] 呼び出しに追加のデータ ID がない場合は、[!DNL Target] 呼び出しが [!DNL Analytics] 呼び出しより先に実行されていることを確認してください。
 
