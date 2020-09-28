@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ Target Standard/Premium に表示されるレポートスイートのリスト�
 
 * **at.js 1.x**:呼び出しでは、追加のIDがパラメーターに含まれ [!DNL Target]`mboxMCSDID` ます。 [!DNL Analytics] 呼び出しでは、追加の ID は `sdid` パラメーターに含まれます。
 * **at.js 2.x**:追加のIDがの値としてHTTPヘッダーに返され `experienceCloud.analytics.supplementalDataId`ます。
+
+追加のIDを調べる最も簡単な方法は、Adobe Experience Platformデバッガを使用することです。
+
+デバッガをインストールしていない場合は、「 [Adobe Experience Platformデバッガの概要](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)」を参照してください。
+
+![デバッガー](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 [!DNL Target] 呼び出しに追加のデータ ID がない場合は、[!DNL VisitorAPI.js] ファイルが [!DNL at.js] や [!DNL mbox.js] より先に読み込まれていることを確認してください。[!DNL Analytics] 呼び出しに追加のデータ ID がない場合は、[!DNL Target] 呼び出しが [!DNL Analytics] 呼び出しより先に実行されていることを確認してください。
 
