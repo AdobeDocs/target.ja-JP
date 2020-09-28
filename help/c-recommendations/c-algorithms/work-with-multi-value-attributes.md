@@ -4,7 +4,7 @@ description: 特殊な複数値演算子を使用したAdobe TargetRecommendatio
 title: Adobe TargetRecommendationsでの複数値の属性の操作
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -89,7 +89,7 @@ function targetPageParams() {
     "attribute": "id",
     "operation": "isNotContainedInList",
     "source": {
-        "name": " user.lastWatchedMovies",
+        "name": "user.lastWatchedMovies",
         "type": "PROFILE"
     }
 } 
