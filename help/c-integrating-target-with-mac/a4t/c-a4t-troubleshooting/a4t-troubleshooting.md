@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ Target Standard/Premium に表示されるレポートスイートのリスト�
 （特に訪問者にエクスペリエンスの資格を与えるページについて）実装を確認して、追加のデータ ID が [!DNL Target] と [!DNL Analytics] の呼び出しで一致していることを確認してください。
 
 * **at.js 1.x**:呼び出しでは、追加のIDがパラメーターに含まれ [!DNL Target]`mboxMCSDID` ます。 [!DNL Analytics] 呼び出しでは、追加の ID は `sdid` パラメーターに含まれます。
-* **at.js 2.x**:追加のIDがの値としてHTTPヘッダーに返され `experienceCloud.analytics.supplementalDataId`ます。
+* **at.js 2.x**:この [!DNL Target] 呼び出しでは、の値として追加のIDがHTTPヘッダーに返され `experienceCloud.analytics.supplementalDataId`ます。 [!DNL Analytics] 呼び出しでは、追加の ID は `sdid` パラメーターに含まれます。
 
 追加のIDを調べる最も簡単な方法は、Adobe Experience Platformデバッガを使用することです。
 
