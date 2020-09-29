@@ -1,13 +1,15 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Targetガイド
+description: ターゲットガイドのホームページの表示
+seo-description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 30038caf8c859e8ce127c77b16ba967dae7cd998
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 60%
+source-wordcount: '709'
+ht-degree: 61%
 
 ---
 
