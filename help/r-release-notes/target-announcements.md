@@ -5,9 +5,9 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ ht-degree: 0%
 ## Adobeは、パーソナライゼーション・エンジンのGartner Magic Quadrantで再びリーダーに
 
 Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## ウェビナー：Adobe Targetと分析により、パーソナライゼーションを微調整
+
+* **2020年10月27日**
+* **8am PT | 10am CT | 11am ET**
+* **期間：60分**
+
+デジタル採用は現在急増しており、顧客の新しいセグメントをデジタル化し、必要なものを見つけ出し、優れたケアやカスタマーサービスを受けられるという期待を高めています。 パーソナライゼーションは、瞬時の変化に対応し、将来のビジネスの発展に向けてミッション・クリティカルです。
+
+このウェビナーでは、Analyticsが強化したレポートでのパフォーマンスへの影響の完全な表示 [!DNL Adobe Target][!DNL Analytics] を裏付けたAIに基づくパーソナライゼーションを使用して、インサイトとオーディエンスセグメントに自信を持って対策を講じ、業界全体の会社を急速に発展させる方法を示します。
+
+このウェビナーでは、次の内容を学習します。
+
+* サーバ間での独自の統合により、統合されたプロファイル、オーディエンス、およびレポート [!DNL Adobe Analytics][!DNL Adobe Target] を実現し、迅速なパフォーマンスに基づくパーソナライゼーションを実現
+* 会社が「分析まひ」で時間を節約し、重要な顧客インタラクションを急速にカスタマイズする方法に関するヒントとテクニック
+
+[このエキサイティングなイベントにご登録ください。](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
