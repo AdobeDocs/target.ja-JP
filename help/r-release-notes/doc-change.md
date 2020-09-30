@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 28%
+source-wordcount: '2482'
+ht-degree: 29%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 28%
 # ドキュメントの変更点{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard／Premium 20.9.1（2020 年 10 月 1 日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 9月20日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetと分析により、パーソナライゼーションを微調整</li></ul> |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：20.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target標準/プレミアム20.8.1（2020年9月2日）
 
