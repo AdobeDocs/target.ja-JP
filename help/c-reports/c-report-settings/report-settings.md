@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
+description: Adobe Targetレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
 title: レポート設定
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 83%
+source-wordcount: '1887'
+ht-degree: 69%
 
 ---
 
 
 # レポート設定{#report-settings}
 
-レポートに表示する要素を設定するために役立つ情報を紹介します。レポート設定は保存して後で使用できます。
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. レポート設定は保存して後で使用できます。
 
-レポートをを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックして、「**[!UICONTROL レポート]**」タブをクリックします。
+レポートを表示するには、次の手順を実行します。
 
-![レポート UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストから目的のアクティビティをクリックします。
+1. 「**[!UICONTROL レポート]**」タブをクリックします。
+
+   ![レポート UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target プリセット {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-指標、日付範囲、オーディエンス、詳細設定などを必要に応じて設定した、個々のアクティビティのレポートのプリセットを最大 10 個保存できます。すべての Target ユーザーは、作成したユーザーに関係なく、様々なプリセットを表示、編集、削除できます。
+指標、日付範囲、オーディエンス、詳細設定などを必要に応じて設定した、個々のアクティビティのレポートのプリセットを最大 10 個保存できます。All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 また、個々のアクティビティのレポートを必要に応じて設定したあと、その設定をデフォルトまたはお気に入りのプリセットとして保存することもできます。これは、そのアクティビティの進行中のレポートを確認するたびに表示されるビューです。
 
@@ -41,8 +44,8 @@ ht-degree: 83%
 
    ![新しいプリセットダイアログボックス](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. フィルターおよび設定セクションの情報をレビューして、レポートが必要に応じて設定されていることを確認し、**[!UICONTROL プリセット名]**（最大50文字）を指定します。
-1. （条件付き）これをデフォルトまたはお気に入りのレポートビューにする場合は、「**[!UICONTROL これをデフォルトのプリセットに設定]**」切り替えをオンの位置にスライドします。
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ### 別のプリセットの選択
@@ -75,7 +78,7 @@ ht-degree: 83%
 
    ![レポートのデフォルトの削除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再度「**[!UICONTROL 削除]**」をクリックして、削除を確定します。
+1. 「 **[!UICONTROL 削除]** 」を再度クリックして削除を確定します（削除したプリセットは復元できません）。
 
 ### プリセットエラー処理
 
@@ -109,7 +112,7 @@ ht-degree: 83%
 
 ![カレンダー](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-レポートの新しい&#x200B;**[!UICONTROL 開始]**&#x200B;と&#x200B;**[!UICONTROL 停止]**&#x200B;の日付を選択します。また、「**[!UICONTROL アクティビティの開始から]**」チェックボックスと「**[!UICONTROL アクティビティの終了まで]**」チェックボックスを使用することもできます。
+レポートの新しい&#x200B;**[!UICONTROL 開始]**&#x200B;と&#x200B;**[!UICONTROL 停止]**&#x200B;の日付を選択します。You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 「**[!UICONTROL カスタム日付]**」をクリックすると、過去 7 日間、過去 15 日間、過去 30 日間のいずれかの事前定義済み日付範囲を選択できます。この事前定義された日付範囲は、繰り出し範囲です。開始の日付が、選択された日数よりも近い場合、カレンダーは開始日付からの範囲となりますが、アクティビティ期間が長くなり、選択された日数よりも開始日付が過去のものとなると、範囲は繰り出されて延びていきます。.
 
@@ -121,7 +124,10 @@ ht-degree: 83%
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
 
-歯車アイコンをクリックし、レポート設定を変更して、完了したら「**[!UICONTROL 設定を保存]**」をクリックします。
+レポート設定を指定するには：
+
+1. 歯車アイコンをクリックし、必要な変更を行います（以下の説明を参照）。
+1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 次の図に、A/B アクティビティの設定ダイアログボックスを示します。
 
@@ -129,29 +135,45 @@ ht-degree: 83%
 
 選択したアクティビティのタイプによって、オプションは変わります。
 
-* **カウント方法：**&#x200B;目的の方法を選択します。
+### カウント手法
 
-   * 訪問者数
-   * 訪問回数
-   * アクティビティのインプレッション
+目的の方法を選択します。
 
-* **コントロール：**&#x200B;上昇率の計算および比較に使用するコントロールエクスペリエンスを選択します。
-* **環境：**&#x200B;レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
-* **レポートデータをリセット：**&#x200B;レポートデータをリセットして、古いデータを削除します。現在の訪問者は、アクティビティに残されます。このオプションは、承認者権限を持つユーザーのみ使用できます。
+* 訪問者数
+* 訪問回数
+* アクティビティのインプレッション
 
-   >[!IMPORTANT]
-   >
-   >これは恒久的なアクションであり、取り消すことができません。
+### コントロール
 
-* **極端な値を除外：**「[!UICONTROL 極端な値を除外]」の切り替えは、売上高およびエンゲージメント指標タイプのみを含むアクティビティに適用されます。詳しくは、「[極端な注文の除外](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
+上昇率の計算および比較に使用するコントロールエクスペリエンスを選択します。
+
+### 環境
+
+レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
+
+### レポートデータをリセット
+
+古いデータを削除するには、レポートデータをリセットします。 現在の訪問者は、アクティビティに残されます。This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>これは恒久的なアクションであり、取り消すことができません。
+
+### 極端な値の除外
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 詳しくは、「[極端な注文の除外](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
 
 ## ダウンロード {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-ダウンロードアイコンをクリックすると、レポートデータを [!DNL .csv] 形式でダウンロードして、Excel、Access、その他のデータ分析プログラムにすばやくインポートできます。詳しくは、「[CSV ファイルでのデータのダウンロード](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)」を参照してください。
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![ダウンロードアイコン](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+詳しくは、「[CSV ファイルでのデータのダウンロード](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)」を参照してください。
 
 ## 更新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-更新アイコンをクリックすると、ページ全体、設定または日付範囲を更新することなく、レポートのテーブルとグラフの表示を更新できます。
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## その他のオプション {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -163,7 +185,7 @@ ht-degree: 83%
 
 ![表示オプションアイコン](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **テーブル表示**:表の表示 **[!UICONTROL (]** 表)アイコンをクリックして、レポートを表として表示します。
+* **テーブル表示**:表の表示 **[!UICONTROL (]** Table)アイコンをクリックして、レポートを表として表示します。
 * **グラフ表示**:グラフ表示 **[!UICONTROL (]** Graph User)アイコンをクリックして、レポートをグラフとして表示します。
 * **自動セグメント**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティのみで使用可能) 「**[!UICONTROL 自動セグメント] 」アイコンをクリックして、 [自動セグメントレポートを表示します](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
 * **重要な属性**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティでのみ使用可能) 「**[!UICONTROL 重要な属性] 」アイコンをクリックして、 [重要な属性レポートを表示します](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
@@ -203,23 +225,20 @@ ht-degree: 83%
 
 * 現在の平均
 * 現在の平均上昇率
-* 毎日 コントロール
-* 日別ターゲット設定
+* 毎日
 * 日別上昇率（Daily Lift）
 
 ![レポート実行平均](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->このドロップダウンリストの名前は、選択した表示によって異なりますが、上記の表示の1つになります。
+このドロップダウンリストの名前は、選択した表示によって異なりますが、上記の表示の1つになります。
 
 ## カウント手法 {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 （グラフ表示でレポートを表示している場合にのみ使用可能）
 
-レポート内のグラフのカウント手法を選択できます。この機能は自動パーソナライゼーション（AP）アクティビティには対応していません。
+レポート内のグラフのカウント手法を選択できます。Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-カウント手法オプションにアクセスするには、レポートをグラフモードで表示して&#x200B;**[!UICONTROL 主な目標]**&#x200B;ドロップダウンをクリックし、カウント手法を選択します。
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 カウント手法は、前述の[!UICONTROL 設定]ダイアログで設定したものと同じになります。
 
