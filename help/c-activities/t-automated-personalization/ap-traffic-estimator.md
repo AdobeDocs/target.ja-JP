@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 22%
 
 ---
@@ -69,4 +69,4 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 状況によっては、パーソナライズされたモデルを作成するのに十分なトラフィック量がある場合がありますが、そのトラフィックは、パーソナライズされたモデルとランダム [!DNL Target] の間に意味のある違いがないことを通知する場合があります。 モデルは組み込み [!DNL Target] テストされていますが、モデルはランダムよりも大幅に優れていないので、配置されません。
 
-モデルがランダム以上に良くならない原因として考えられるのは、オファーが互いに大きく異なっていないことです。 その場合は、オファーをより視覚的に異なるものにするか、コンテンツ自体を変更して、画像の違いを増やしてみてください。
+モデルがランダム以上に良くならない原因として考えられるのは、オファーが互いに大きく異なっていないことです。 その場合は、メッセージングが類似している場合にオファーをより視覚的に異なるものにするか、メッセージング自体を変更してみることができます。
