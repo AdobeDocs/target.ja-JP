@@ -5,17 +5,17 @@ title: Adobe Targetレポートで極端な値を除外する
 feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 88%
+source-wordcount: '343'
+ht-degree: 73%
 
 ---
 
 
-# 極端な値の除外{#exclude-extreme-values}
+# 極端な値の除外
 
-対象のレポートから極端な注文を除外して、少数の稀な注文がアクティビティの結果に影響を与えないようにすることができます。稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
+You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
 
 >[!NOTE]
 >
@@ -27,18 +27,14 @@ ht-degree: 88%
 
 例えば、極端な値のフィルターは、多くの場合、RPV を使用する場合に役立ちます。RPV は、コンバージョン率と平均注文額を組み合わせたもので、多くの場合これらの指標の変動率を表します。RPV を使用し、注文が均一に分散していないことがわかった場合、極端な注文のフィルターを適用すると、より通常に近い結果を確認できます。
 
-ある値が極端としてマークされると、その注文値は前月のエクスペリエンスの平均注文額から極端な値を除いたものの平均値で置き換えられます。極端な注文は、注文の詳細レポートや毎日の結果の CSV ダウンロードファイルでも極端な注文値としてマークされます。
+ある値が極端としてマークされると、その注文値は前月のエクスペリエンスの平均注文額から極端な値を除いたものの平均値で置き換えられます。The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
 
 **レポートから極端な値を除外するには：**
 
 1. 売上高またはエンゲージメント指標タイプを含むアクティビティを開き、「 **[!UICONTROL レポート]** 」タブをクリックします。
-1. 歯車アイコンをクリックします。
-
-   ![レポート設定](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
-
-   [ [!UICONTROL レポート設定] ]オプションダイアログボックスが表示されます。
+1. 歯車アイコンをクリックして、 **[!UICONTROL 設定]** ダイアログボックスを表示します。
 
    ![ステップの結果](assets/exclude_extreme_values.png)
 
-1. 必要に応じて、「極端な値 **[!UICONTROL を除外」]** オプションのオン/オフを切り替えます。
+1. 「極端な値を **** 除外」トグルを必要に応じて「オン」または「オフ」の位置にスライドさせます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
