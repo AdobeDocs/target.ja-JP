@@ -1,25 +1,25 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Automated Personalization のユーザーは特殊なレポートを使用できます。
+description: Adobe TargetのAutomated Personalizationアクティビティのユーザーは、専門レポートを利用できます。
 title: Automated Personalization 概要レポート
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 96%
+source-wordcount: '388'
+ht-degree: 70%
 
 ---
 
 
 # ![Premium](/help/assets/premium.png) Automated Personalization 概要レポート{#automated-personalization-summary-reports}
 
-Automated Personalization のユーザーは特殊なレポートを使用できます。
+Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Automated Personalization は、[!DNL Target Premium] ソリューションの一部として利用できます。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的の [!UICONTROL Automated Personalization] アクティビティをクリックし、「**[!UICONTROL レポート」タブをクリックします。]**
 
@@ -41,7 +41,7 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 
 ランダムフォレストエクスペリエンスの[!UICONTROL オファーレベル]レポートは、各アルゴリズムが適用されたオファーのパフォーマンスをランダムに提供された同じオファー（コントロール）と比較します。そのため、このビューでオファーを相互に比較しないでください。
 
-エクスペリエンスアルゴリズム（ランダムフォレストまたはコントロール）をクリックして、オファーレベルレポートを表示します。
+Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ Automated Personalization のユーザーは特殊なレポートを使用でき
 >[!NOTE]
 >
 >時計アイコンは、アルゴリズムモデルが構築中であることを示します。チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
+
+## 自動セグメント
+
+「 [!UICONTROL 自動セグメント] 」アイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
+
+![自動セグメントアイコン](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+詳しくは、 [自動セグメントレポートを参照してください](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+
+## 重要な属性
+
+「 [!UICONTROL 重要な属性] 」アイコンをクリックします。 このレポートは、異なるアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどの程度重要か（あるいはそれほど重要か）を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
+
+![重要な属性アイコン](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+詳しくは、「 [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)」を参照してください。
