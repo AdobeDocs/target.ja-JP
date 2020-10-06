@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '392'
 ht-degree: 76%
 
 ---
@@ -92,15 +92,3 @@ ht-degree: 76%
 * 簡体字中国語
 * 繁体字中国語
 * 韓国語
-
-## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
-
-このビデオでは、[!DNL Experience Cloud] の [!DNL Adobe Target] について説明しています。
-
-* Adobe Experience Cloud の価値の説明と理解
-* Adobe ID で Adobe Experience Cloud へログインまた Adobe ID の作成
-* Adobe Experience Cloud へ新しいユーザーの招待
-* Target アカウントの Adobe Experience Cloud へのリンク
-* デフォルトのランディングページとしての Adobe Target の設定
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
