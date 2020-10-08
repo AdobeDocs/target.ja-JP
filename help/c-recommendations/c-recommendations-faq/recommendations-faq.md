@@ -5,7 +5,7 @@ title: Adobe TargetRecommendationsFAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 * テンプレートの部分レンダリングが無効になっているため、テンプレートを埋めるのに十分な結果が得られません。
 
    これは通常、可能な結果から多くの項目を積極的にフィルターする動的な包含ルールがある場合に発生します。 これを回避するには、バックアップを有効にし、バックアップにインクルージョンルールを適用しないでください。または、あまり積極的にフィルターされない条件で順に条件を使用してください。
+
