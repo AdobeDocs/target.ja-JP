@@ -5,7 +5,7 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
+source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
 workflow-type: tm+mt
 source-wordcount: '3793'
 ht-degree: 80%
@@ -129,7 +129,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 ### 自動ターゲットレポート {#at-metrics}
 
-9月15日午後2時30分 [!DNL Adobe Target Premium] から、  自動ターゲットのレポートに影響する問題が解決されました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポート(「ページを [!UICONTROL 表示した」または「mboxを]クリックした」オプションを使用して設定)を表示すると、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。
+9月15日午後2時30分 [!DNL Adobe Target Premium] から、  自動ターゲットのレポートに影響する問題が解決されました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポートを表示する(「ページを[!UICONTROL 表示した」または「mboxを]クリックした」オプションを使用して設定)場合、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。
 
 レポートを再同期して修正するには：
 
