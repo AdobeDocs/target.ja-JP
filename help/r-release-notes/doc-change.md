@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2537'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月8日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 次の解決された問題を追加しました。<ul><li>[自動ターゲットレポート](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。<ul><li>[レポート](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
+|  | [ハイブリッド実装](/help/c-implementing-target/hybrid-implementation.md) | 新規トピックです。 |
 | 10月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1リリースに関する情報を追加しました。 |
 | 10月1日 | [成功のために必要なトラフィックの見積もり](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | FAQ節を追加しました。 |
 | 9月30日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetと分析により、パーソナライゼーションを微調整</li></ul> |
