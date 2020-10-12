@@ -1,26 +1,26 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
-title: アクティビティの作成
+title: A4Tをレポートソースとして使用するアクティビティの作成
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e501100ba149472169f11072fd1663095dd40612
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 19%
+source-wordcount: '1367'
+ht-degree: 18%
 
 ---
 
 
-# アクティビティの作成{#activity-creation}
+# Analyticsをレポートソースとして使用するアクティビティの作成
 
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. アクティビティの最終的な成功指標を選択します。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Analyticsをレポートソースとして使用するアクティビティの作成
+## アクティビティの作成
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -85,7 +85,7 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 
 開始するには
 
-1. A/Bテストアクティビティの作成時に、 **[!UICONTROL ターゲット]** ページで、「 **[!UICONTROL トラフィック配分方法]**」に次のいずれかのオプションを選択します。
+1. A/Bテストアクティビティの作成時に、 **[!UICONTROL ターゲット]** ページで、「 **[!UICONTROL トラフィック配分方法]**」として次のいずれかのオプションを選択します。
 
    * 最高のエクスペリエンスへの自動配分
    * パーソナライズされたエクスペリエンスの自動ターゲット
