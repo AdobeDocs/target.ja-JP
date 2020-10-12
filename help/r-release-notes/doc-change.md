@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 10月12日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 認証トークンの生成に必要な権限レベルを示すために [、デバッグツールで使用するための認証トークンの](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 取得が更新されました。 |
 |  | [プロファイル API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 認証トークンを生成する必要がある権限レベルを示すトピックを更新しました。 |
+|  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 自動ターゲットを使用した実際の成功事例を追加しました。 |
 |  | [類似のページに同じエクスペリエンスを組み込む](/help/c-experiences/c-visual-experience-composer/temtest.md) | ドメイン全体で同じアクティビティをレンダリングする方法を説明する節を追加しました。 |
 | 10月8日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 次の解決された問題を追加しました。<ul><li>[自動ターゲットレポート](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。<ul><li>[レポート](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [ハイブリッド実装](/help/c-implementing-target/hybrid-implementation.md) | 新規トピックです。 |
