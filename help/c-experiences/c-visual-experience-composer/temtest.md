@@ -1,23 +1,23 @@
 ---
 keywords: template testing;template;same experience on similar pages;template test
-description: ページテンプレートを使用してページの構造を指定する場合、または複数のページに類似の要素が含まれている場合は、この機能を使用すると、類似のページ要素構造を持つ複数のバリエーションをテストできます。
-title: 類似のページに同じエクスペリエンスを組み込む
+description: Adobe Targetのページテンプレートを使用して、ページの構造を作成したり、ページに類似の要素が含まれる場合は、類似の構造を持つページ要素のバリエーションをテストしたりします。
+title: Adobe Targetを使用して、類似のページに同じエクスペリエンスを組み込む
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 45%
 
 ---
 
 
-# 類似のページに同じエクスペリエンスを組み込む{#include-the-same-experience-on-similar-pages}
+# 類似のページに同じエクスペリエンスを組み込む
 
-ページテンプレートを使用してページの構造を指定する場合、または複数のページに類似の要素が含まれている場合は、この機能を使用すると、類似のページ要素構造を持つ複数のバリエーションをテストできます。
+ページに構造を提供す [!DNL Adobe Target] る場合、またはページに類似の要素が含まれる場合は、でページテンプレートを使用して、同様に構造化されたページ要素内またはドメイン全体のバリエーションをテストします。
 
-この機能が正しく動作するためには、非常によく似た構造を持つページで使用する必要があります。または、すべてのページで同じ構造のテンプレート要素を含んでいる必要があります。
+正しく機能させるには、この機能を、構造が似ているページ、または構造が同じテンプレート要素を含むページですべてのページで使用する必要があります。
 
 >[!IMPORTANT]
 >
@@ -30,12 +30,14 @@ ht-degree: 96%
 * すべての製品ページにバナーを追加します。
 * 記事テンプレートのレイアウトを変更します。
 
-以下のデモビデオには、テンプレートの使用に関する情報が含まれています。
+要素の変更を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-要素の変更をおこなうページを指定することも、サイト全体に変更を適用することもできます。
+1. [アクティビティの説明に従って、アクティビティを作成または編集します](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
 
-1. 「[アクティビティ](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)」の説明に従って、アクティビティを作成します。
-1. エクスペリエンスが表示されるページを指定するには、Visual Experience Composer で歯車アイコンをクリックして、「**[!UICONTROL ページ配信]**」を選択します。
+1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+   ![歯車アイコン/ページ配信](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+
 1. 「**[!UICONTROL テンプレートルールを追加]**」をクリックし、エクスペリエンスを追加するページの条件を指定します。
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
@@ -43,13 +45,13 @@ ht-degree: 96%
    * URL (ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
    * ドメイン
    * パス
-   * ハッシュ（#）フラグメント（URL の # 記号に続く部分をターゲットにします。）
+   * ハッシュ(#)フラグメント(#記号に続くURLの部分をターゲット)
    * クエリ
    * パラメーター
 
 1. 演算子を選択します。
 
-   演算子は、演算子の後ろに指定された項目がどのようにページ範囲を規定するかを指定するものです。次の演算子を利用できます。
+   演算子は、演算子の後ろに指定された項目がどのようにページ範囲を規定するかを指定するものです。次の演算子を使用できます。
 
    * 次を含む
    * 次を含まない
@@ -66,17 +68,39 @@ ht-degree: 96%
 
    >[!IMPORTANT]
    >
-   >複数の項目を指定する場合は、`OR`のロジックが使用されます。つまり、リスト内のいずれかの項目が条件を満たせば、条件全体が真であると評価されます。
+   >複数の項目でORロジックが使用されます。つまり、リスト内の任意の項目が条件を満たすと見なされます。
 
-1. 必要に応じて、「**[!UICONTROL テンプレートルールを追加]**」をクリックして追加の条件を入力し、上記の手順を繰り返します。
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
 
-   複数の条件は AND のロジックで連結されます。Adobe Target では、指定した条件に一致するすべてのページにエクスペリエンスが追加されます。
+   複数の条件は AND のロジックで連結されます。[!DNL Target] では、指定した条件に一致するすべてのページにエクスペリエンスが追加されます。
 
 >[!IMPORTANT]
 >
-> Target では、ページが想定どおりに表示されるかどうかを自動的には確認できません。そのため、この機能を使用する場合は、ページを公開する前に、該当するページをテストしておくことが重要です。
+> [!DNL Target] では、ページが想定どおりに表示されるかどうかを自動的には確認できません。そのため、この機能を使用する場合は、ページを公開する前に、該当するページをテストしておくことが重要です。
 
-## トレーニングビデオ：Visual Experience Composer（2 / 2）（7:29） ![チュートリアルバッジ](/help/assets/tutorial.png)
+## 使用例
+
+サイトでテンプレートルールを使用する方法について、次の使用例を確認します。
+
+### ドメイン全体で同じアクティビティをレンダリングする
+
+テンプレートルールを使用して、次のような使用例で、ドメイン全体に同じアクティビティをレンダリングすることを検討できます。
+
+* グローバルヘッダーまたはグローバルフッターを含めるには
+* グローバルバナーを含めるには（例えば、COVID-19のお知らせ）
+* グローバルな無料配送プロモーションを含めるには
+
+1. [アクティビティの説明に従って、アクティビティを作成または編集します](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
+
+1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+1. テン **[!UICONTROL プレートルール]** / **[!UICONTROL ドメイン]**&#x200B;をクリックします。
+
+1. 「評価基準を **[!UICONTROL 選択]** 」ドロップダウンから「 **[!UICONTROL 次を含む」を選択し]**、ドメインを指定します。
+
+   ![ドメインに次を含む](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+
+## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
