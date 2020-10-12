@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 67%
+source-wordcount: '1386'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,21 @@ ht-degree: 67%
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
 
-## デバッグツールで使用するための認証トークンの取得 {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 mboxTrace と mboxDebug は、外部パーティにキャンペーンデータとプロファイルデータを公開するので、認証トークンが必要です。認証トークンは、[!DNL Target] UI で取得できます。トークンは 6 時間有効です。
+
+認証トークンを生成するには、次のいずれかのユーザー権限が必要です。
+
+* 少なくとも [!UICONTROL エディタ権限] (または [!UICONTROL 承認者])
+
+   お客様の詳細については、 [!DNL Target Standard] 「ユー [ザーのロールと権限の](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 指定 **」を参照してください。 お客様について詳しくは、 [!DNL Target Premium] Enterprise権限の [設定を参照してください](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+* ワークスペース/製品プロファイルレベルの管理者ロール
+
+   ワークスペースは、 [!DNL Target Premium] お客様のみ利用できます。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* 製品レベルの管理権限（Sysadmin権限） [!DNL Adobe Target]
 
 認証トークンを取得するには、次の手順に従います。
 
@@ -53,7 +65,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 | `?mboxTrace=window` | ポップアップウィンドウに JSON 文字列として出力します。 |
 | `?mboxTrace=disable` | セッションモードのトレースをオフにします。 |
 
-**mboxTrace 呼び出しの例**
+**mboxTrace呼び出しの例**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 * **Unmatched**：リクエストは、この呼び出しで、セグメントまたはターゲットに適していませんでした。
 * **Matched**：リクエストは、指定されたセグメントまたはターゲットに適していました。
 
-**レコメンデーションページでの mboxTrace の使用**：レコメンデーションを含むページに mboxTrace をクエリパラメーターとして追加すると、ページ上のレコメンデーションのデザインが、mboxTrace の詳細ウィンドウに置き換わり、以下を含むレコメンデーションに関する詳細が表示されます。
+**レコメンデーションページでのmboxTraceの使用**:ページにmboxTraceをクエリパラメーターとしてレコメンデーションと共に追加すると、ページ上のRecommendationsデザインがmboxTrace詳細ウィンドウに置き換えられます。このウィンドウには、レコメンデーションに関する次のような詳細情報が表示されます。
 
 * 返されたレコメンデーションと要求されたレコメンデーション
 * 使用されたキーと、それがレコメンデーションを生成するかどうか
@@ -116,7 +128,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 代わりに、 *`orderConfirmPage`* 呼び出しを使用します。
 
-## アクティビティの優先度を確認 {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Target は、IE 8 をサポートしていません。
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)」を参照してください。.
 
