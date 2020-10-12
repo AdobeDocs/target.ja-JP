@@ -1,27 +1,27 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: API による一括更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
-title: プロファイル API 設定
+description: Adobe TargetAPIを使用したバッチ更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
+title: Adobe TargetのプロファイルAPI設定
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 64%
+source-wordcount: '313'
+ht-degree: 40%
 
 ---
 
 
-# プロファイル API 設定{#profile-api-settings}
+# プロファイル API 設定
 
-API による一括更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
+Adobe TargetAPIを使用したバッチ更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 
-[!DNL Adobe Target] では、個々のユーザーごとにプロファイルが作成され、管理されます。This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] では、個々のユーザーごとにプロファイルが作成され、管理されます。This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
 
-セキュリティ強化のために、バルク更新 API を呼び出す際にリクエストのヘッダーで有効なアクセストークンを渡すことを要求するよう設定できます。Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
+セキュリティ強化のために、バルク更新 API を呼び出す際にリクエストのヘッダーで有効なアクセストークンを渡すことを要求するよう設定できます。
 
 **Target UI で認証を必須に設定し、アクセストークンを生成する手順は次のとおりです。**
 
@@ -30,12 +30,23 @@ API による一括更新の認証を有効または無効にし、プロファ�
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    トークンの有効期限は、[!UICONTROL 残り有効期間]ボックスに記載されている日時です。
 
+   認証トークンを生成するには、次のいずれかのユーザー権限が必要です。
+
+   * 少なくとも [!UICONTROL エディタ権限] (または [!UICONTROL 承認者])
+
+      お客様の詳細については、 [!DNL Target Standard] 「ユー [ザーのロールと権限の](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 指定 **」を参照してください。 お客様について詳しくは、 [!DNL Target Premium] Enterprise権限の [設定を参照してください](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+   * ワークスペース/製品プロファイルレベルの管理者ロール
+
+      ワークスペースは、 [!DNL Target Premium] お客様のみ利用できます。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * 製品レベルの管理権限（Sysadmin権限） [!DNL Adobe Target]
    >[!NOTE]
    >
    >API を使用してプロファイル認証トークンを生成もできます。詳しくは、[Adobe Target Developers の Web サイト](https://developers.adobetarget.com/)の[プロファイル](https://developers.adobetarget.com/api/#profiles)を参照してください。
