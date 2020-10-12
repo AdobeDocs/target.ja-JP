@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2564'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月12日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 認証トークンの生成に必要な権限レベルを示すために [、デバッグツールで使用するための認証トークンの](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 取得が更新されました。 |
 | 10月8日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 次の解決された問題を追加しました。<ul><li>[自動ターゲットレポート](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。<ul><li>[レポート](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [ハイブリッド実装](/help/c-implementing-target/hybrid-implementation.md) | 新規トピックです。 |
 | 10月7日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1リリースに関する情報を追加しました。 |
