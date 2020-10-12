@@ -2,16 +2,16 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Targetガイド
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: ターゲットガイド
+user-guide-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化できるように、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 86%
+source-wordcount: '1548'
+ht-degree: 84%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 86%
       + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target の実装](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [ユーザー権限の要件](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [アクティビティの作成](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Analyticsをレポートソースとして使用するアクティビティの作成](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Analytics トラッキングサーバーの使用](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T レポート](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
