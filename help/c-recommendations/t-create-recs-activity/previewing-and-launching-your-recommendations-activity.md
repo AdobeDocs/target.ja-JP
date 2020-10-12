@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;offer;preview;launch
+keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Adobe TargetRecommendationsのオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのをプレビューして、確実な結果が得られるようにします。 ターゲットRecommendationsは、レコメンデーションをプレビューする複数の方法をオファーしています。 '
 title: 'Adobe TargetRecommendationsのオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのをプレビューして、確実な結果が得られるようにします。 ターゲットRecommendationsは、レコメンデーションをプレビューする複数の方法をオファーしています。 '
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
