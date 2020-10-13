@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ Adobe Targetで条件およびプロモーション用のインクルージョ�
 
 サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、  プロファイル属性の一致を使用します。
 
-次の例は、 [!UICONTROL プロファイル属性の一致の使用方法を示しています]。
+次のシナリオでは、 [!UICONTROL プロファイル属性の照合の使用方法を示します]。
 
 * 眼鏡を販売する会社は、訪問者の好きな枠色を「クルミ」として店に出しています。 その特定の訪問者に対して、「くるみ」に一致する眼鏡フレームのみを返すようにレコメンデーションが設定されます。
 * 会社のWebサイトを移動する際の訪問者の衣料品のサイズ（小、中、大など）に対してプロファイルパラメーターを定義できます。 レコメンデーションは、そのプロファイルパラメーターと一致するように設定でき、ユーザーの希望する衣料品のサイズのみに固有の返品商品を設定できます。
 
-訪問者のプロファイルーで設定されている服のサイズに合う服をレコメンデーションする例を見てみましょう。
-
-製品ページからmbox呼び出し `entity.size` が送信されます（下の図の赤い矢印）。
-
-訪問者が最後に訪問したページから訪問者の [プロファイル属性と値を取り込む](/help/c-target/c-visitor-profile/profile-parameters.md) プロファイルスクリプトを作成できます。
-
-例：
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-プロファイルスクリプトは、という名前のmboxから `entity.size` 値をキャプチャ `target-global-mbox` し、その値をという名前のプロファイル属性 `user.size` （下の図の青い矢印）として返します。
-
-![サイズmbox呼び出し](/help/c-recommendations/c-algorithms/assets/size.png)
-
-レコメンデーション条件を作成する場合は、「 [!UICONTROL 追加フィルタリングルール]」をクリックし、「 [!UICONTROL プロファイル属性の一致」を選択します]。
-
-![プロファイル属性の一致の図](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-に `user.size` プロファイルが読み込ま [!DNL Target]れている場合、mbox呼び出し(`size`)で渡された値をプロファイルスクリプト名(`user.size`)に一致させるようにルールを設定すると、その値がドロップダウンに表示され、一致の対象となります。
-
-次に、「user.size」に格納されている値やテキストを「size」「equals」として選択し、プロファイル属性との一致を確認します。
-
-プロファイル属性ルールを構築すると、訪問者に格納されているプロファイル属性と一致しない属性を持つレコメンデーションがすべてフィルターで除外されます。
-
-プロファイル属性の一致がrecommendationsに与える影響を視覚的に示す例として、ファンを販売するWebサイトを考えてみましょう。
-
-訪問者がこのWebサイトの様々なファンの画像をクリックすると、各ページに、画像内のファンのサイズが小さいか大きいかに基づいて、 `entity.size` パラメーターの値が設定されます。
-
-例えば、の値が小さい値と大きい値のどちらに設定されたかを追跡し、回数をカウントするプロファイルスクリプト `entity.size` を作成したとします。
-
-その後訪問者がホームページに戻ると、より小さいファンがクリックしたか、より大きいファンがクリックしたかに基づいて、フィルターされたレコメンデーションが表示されます。
-
-Recommendationsは、Webサイトでより小さなファンを増やしていることに基づいている。
-
-![小さなファンの勧め](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendationsは、ウェブサイトでより多くの大きなファンを見たことに基づいている。
-
-![大ファンの推奨](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+その他の例と手順については、 [プロファイル属性の一致の例](#section_9873E2F22E094E479569D05AD5BB1D40) （下記）を参照してください。
 
 #### パラメーターのマッチング
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### 例3:訪問者のサイズに合う服をレコメンデーションする
+
+訪問者のプロファイルーで設定されている服のサイズに合う服をレコメンデーションする例を見てみましょう。
+
+製品ページからmbox呼び出し `entity.size` が送信されます（下の図の赤い矢印）。
+
+訪問者が最後に訪問したページから訪問者の [プロファイル属性と値を取り込む](/help/c-target/c-visitor-profile/profile-parameters.md) プロファイルスクリプトを作成できます。
+
+例：
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+プロファイルスクリプトは、という名前のmboxから `entity.size` 値をキャプチャ `target-global-mbox` し、その値をという名前のプロファイル属性 `user.size` （下の図の青い矢印）として返します。
+
+![サイズmbox呼び出し](/help/c-recommendations/c-algorithms/assets/size.png)
+
+レコメンデーション条件を作成する場合は、「 [!UICONTROL 追加フィルタリングルール]」をクリックし、「 [!UICONTROL プロファイル属性の一致」を選択します]。
+
+![プロファイル属性の一致の図](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+に `user.size` プロファイルが読み込ま [!DNL Target]れている場合、mbox呼び出し(`size`)で渡された値をプロファイルスクリプト名(`user.size`)に一致させるようにルールを設定すると、その値がドロップダウンに表示され、一致の対象となります。
+
+次に、「user.size」に格納されている値やテキストを「size」「equals」として選択し、プロファイル属性との一致を確認します。
+
+プロファイル属性ルールを構築すると、訪問者に格納されているプロファイル属性と一致しない属性を持つレコメンデーションがすべてフィルターで除外されます。
+
+### 例4:サイズに基づいて品目をレコメンデーション
+
+プロファイル属性の一致がrecommendationsに与える影響を視覚的に示す例として、ファンを販売するWebサイトを考えてみましょう。
+
+訪問者がこのWebサイトの様々なファンの画像をクリックすると、各ページに、画像内のファンのサイズが小さいか大きいかに基づいて、 `entity.size` パラメーターの値が設定されます。
+
+例えば、の値が小さい値と大きい値のどちらに設定されたかを追跡し、回数をカウントするプロファイルスクリプト `entity.size` を作成したとします。
+
+その後訪問者がホームページに戻ると、より小さいファンがクリックしたか、より大きいファンがクリックしたかに基づいて、フィルターされたレコメンデーションが表示されます。
+
+Recommendationsは、Webサイトでより小さなファンを増やしていることに基づいている。
+
+![小さなファンの勧め](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendationsは、ウェブサイトでより多くの大きなファンを見たことに基づいている。
+
+![大ファンの推奨](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## エンティティ属性の一致の例
 
 [!UICONTROL エンティティ属性の照合] では、次の例のように、現在閲覧中の品目、最近閲覧された品目、最近購入した品目、最も頻繁に閲覧した品目または訪問者プロファイルのカスタム属性に保存された品目に一致する品目のみをレコメンデーションできます。
 
-### 例3:より高価な製品にアップセル
+### 例5:より高価な製品にアップセル
 
 アパレル小売業者で、ユーザーに高価格でより利益率の高い商品の検討を促したいとします。 「等しい」演算子と「次の範囲内」演算子を使用して、同じカテゴリおよび同じブランドのより高価な品目をプロモーションできます。 例えば、靴の小売業者は、ランニングシューズを見ている訪問者を高額で販売するために、より高価なランニングシューズを販売することができます。
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### 例4:プライベートラベル商品の販促
+### 例6:プライベートラベル商品の販促
 
 動的な製品と静的なフィルターを組み合わせて、プライベートラベルの製品を推進できます。 例えば、オフィス供給会社は、会社の家のブランドのトナーカートリッジを促進して、トナーを探す訪問者の売り上げを増やし、会社の家のブランドのペンを促進して、ペンを探す訪問者の売り上げを増やすことができます。
 
