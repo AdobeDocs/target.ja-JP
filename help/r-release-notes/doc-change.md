@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月13日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2020年11月10日に予定されている次のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現</li></ul> |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 2020年11月10日に予定されている次のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現</li></ul> |
 | 10月12日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 認証トークンの生成に必要な権限レベルを示すために [、デバッグツールで使用するための認証トークンの](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 取得が更新されました。 |
 |  | [プロファイル API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 認証トークンを生成する必要がある権限レベルを示すトピックを更新しました。 |
 |  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 自動ターゲットを使用した実際の成功事例を追加しました。 |
