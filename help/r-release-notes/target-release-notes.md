@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 9%
+source-wordcount: '803'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020年10月14日**
+**最終更新日：2020年10月15日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -55,9 +55,10 @@ ht-degree: 9%
 
    ![列とフィルターの図での最終更新](/help/r-release-notes/assets/column-and-filter.png)
 
-* キーボードのみのユーザーのナビゲーションと機能が改善されました。
-* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。
-* UIの画像とテキストのテキストとカラーコントラストが改善されました。
+* ターゲットUIが [Webコンテンツアクセシビリティガイドライン](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level AおよびAA成功基準(WCAG 2.0 AA)に準拠するように更新されました。 （TGT-34384 および TGT-24679）
+* コンテンツセキュリティポリシー(CSP)の機能が強化されました。 （TGT-37035）
+* CNAMEを使用するお客様のパラメーターとしてクライアントコードを指定する方法が導入されました。 （TNT-38571）
+
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
