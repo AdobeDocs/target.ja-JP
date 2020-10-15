@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ Target の通常の A/B テストの場合、対抗と対照の一対比較し�
 | ![ラウンド4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **ラウンド4**: このラウンドでは、トラフィックの80%がエクスペリエンスCおよびD（それぞれ40%のエクスペリエンス）に配分されます。トラフィックの 20％がランダムに配分されます。つまり、エクスペリエンス A、B、C および D のそれぞれがトラフィックの 5％を獲得します。このラウンドでは、エクスペリエンス C のパフォーマンスが優れています。<ul><li>アルゴリズムにより、（各アクティビティの垂直スケールの が示しているように）コンバージョン率が最も高いという理由で、エクスペリエンス C が選出され、次のラウンドに進みます。</li><li>アルゴリズムにより、残りのエクスペリエンスでベルンシュタインの 95％信頼区間の上限が最も高いという理由で、エクスペリエンス D も選出され、次に進みます。</li></ul>エクスペリエンス C と D が次に進みます。 |
 | ![Round n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **ラウンド n**：アクティビティが進むにつれて、パフォーマンスの高いエクスペリエンスが現れ始め、勝者エクスペリエンスが現れるまでプロセスが継続されます。コンバージョン率が最高のエクスペリエンスの信頼区間が他のエクスペリエンスの信頼区間と重複しない場合、そのエクスペリエンスは勝者としてラベル付けされ、[アクティビティのページとアクティビティリストにバッジが表示](/help/c-activities/automated-traffic-allocation/determine-winner.md)されます。<ul><li>アルゴリズムにより、エクスペリエンス C が明確な勝者として選出されます</li></ul>この時点で、アルゴリズムにより、トラフィックの 80％がエクスペリエンス C に配分され、トラフィックの 20％が、引き続きすべてのエクスペリエンス（A、B、C および D）にランダムに配分されます。後継で、C はトラフィックの 85％を獲得します。万一、勝者の信頼区間が再び重複し始めた場合、アルゴリズムにより、前述のラウンド 4 の動作に戻されます。<br>**重要**: プロセスの前の推奨結果を手動で選択すると、誤ったエクスペリエンスを選択できます。このため、アルゴリズムが勝者エクスペリエンスを決定するまで待つことをお勧めします。 |
 
-アクティビティに 2 つのエクスペリエンスしかない場合、Target が 90％の信頼性のエクスペリエンスを見つけるまでは、両方が均等のトラフィックを得ます。見つけた時点で、トラフィックの 70％が勝者に、30％が敗者に配分されます。エクスペリエンスが 95％の信頼性に達した後は、トラフィックの 100％が勝者に、0％が敗者に配分されます。
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. その時点で、トラフィックの2/3が勝者に、1/3が敗者に割り当てられます。 その後、エクスペリエンスが95%の信頼性に達すると、トラフィックの90%が勝者に配分され、10%が敗者に配分されます。 長期的に偽陽性が発生するのを防ぐため（つまり、調査の維持を目的とする）、「損失」エクスペリエンスに送られるトラフィックを常に維持します。
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
