@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -109,7 +109,7 @@ Target でユーザーとして追加されたら、アクティビティを作�
 
 ## mbox.js が &lt;head> から後続のすべてのコードを &lt;body> に移動する。
 
-**検証：**&#x200B;ソースを表示して、終了タグより前の位置で、mbox.js ファイルの後に宣言が行われているかどうかを確認します </body> 。
+**検証：**&#x200B;ソースを表示して、終了タグより前の位置で、mbox.js ファイルの後に宣言が行われているかどうかを確認します`</body>`。
 
 **オプション：**
 
