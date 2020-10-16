@@ -5,7 +5,7 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ Adobe I/O の v1 バージョンのオファー API では、Target 経由で作
 
 この問題は解決しました。
 
-### at.js
+### at.js {#at-js-2}
 
 at.js バージョン 1.0 にアップグレードすると、at.js と Visitor API 2.2.0 とのインタラクションが原因で、Microsoft Explorer 11 ブラウザーでは mbox が実行されません。この問題が関係するのは、at.js バージョン 0.9.6 以降です。（TNT-27600）
 
@@ -252,7 +252,7 @@ API2.3.0以降のリリースで修正されました。
 
 2018 年 11 月に修正されました。
 
-### at.js
+### at.js {#at-js-3}
 
 at.js バージョン 1.6.0 を使用している場合、Analytics for Target（A4T）のリダイレクトは発生しますが、アクティビティの資格を満たしていたかどうかの確認はおこなわれません。
 
@@ -294,7 +294,7 @@ Target UI の代替レコメンデーションで、最近表示された項目�
 
 この問題は、Target 18.5.1（2018 年 5 月 23 日）リリースで修正されました。
 
-### at.js
+### at.js {#at-js-4}
 
 at.js バージョン 0.9.6 で、Cookie の保存時に使用するトップレベルドメインを抽出するアルゴリズムが変更されました。これにより、IP を使用するアドレスには Cookie を保存できなくなりました。ほとんどの時間、IPアドレスはテスト目的で使用されますが、対処方法としては、ローカルボックスのホストファイルを調整するか、targetGlobalSettings（）を使用して、IPアドレスをサポートするコードスニペットを挿入します。
 
@@ -335,7 +335,7 @@ Enterprise 権限の移行の一環として、Target Premium のすべてのユ
 
 2 つ目の問題は Target 17.6.1 リリース（2017 年 6 月）で修正されました。
 
-### at.js
+### at.js {#at-js-5}
 
 Target 17.4.1 リリース（2017 年 4 月 28 日）以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作をおこなうと、オファーコンテンツが配信されません。
 
@@ -355,7 +355,7 @@ Target 17.4.3 修正プログラムで修正されました。
 
 Target 17.4.3 修正プログラムで修正されました。
 
-### at.js
+### at.js {#at-js-6}
 
 Visual Experience Composer（VEC）と at.js を使用している場合に、移動および整列の操作をおこなうと、オファーが配信されなくなっていました。
 
@@ -379,7 +379,7 @@ Target 17.4.1 リリース（2017 年 4 月 28 日）で修正されました。
 
 この問題は、Recommendations のリリース（2018 年 3 月 23 日）後に修正されました。Recommendations のリリース後は、mbox パラメーターで entity.id が渡されない場合、Target ではエンティティベースの動的ルールがスキップされるようになっています。
 
-### at.js
+### at.js {#at-js-7}
 
 at.js の設定を更新した後、実装の詳細ページから at.js をダウンロードしようとすると、at.js ではなく mbox.js がダウンロードされます。（TGT-23069）
 
