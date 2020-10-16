@@ -1,9 +1,9 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Targetガイド
-breadcrumb-title: ターゲットガイド
-user-guide-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化できるように、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
+user-guide-title: Adobe Target ガイド
+breadcrumb-title: Target ガイド
+user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
 
-# Adobe Targetガイド {#using}
+# Adobe Target ガイド {#using}
 
 + [Adobe Targetガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
