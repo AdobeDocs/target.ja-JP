@@ -4,9 +4,9 @@ description: Adobe TargetRecommendationsで動的にフィルタリングする�
 title: Adobe TargetRecommendationsの動的包含ルールでのプロファイル属性一致によるフィルター
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 項目（エンティティ） [!DNL Adobe Target][!DNL Recommendations] をユーザーのプロファイルー内の値と比較して、動的にフィルターします。
 
 サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、  プロファイル属性の一致を使用します。
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 次のシナリオでは、 [!UICONTROL プロファイル属性の照合の使用方法を示します]。
 
@@ -72,7 +76,7 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 ![サイズmbox呼び出し](/help/c-recommendations/c-algorithms/assets/size.png)
 
-レコメンデーション条件を作成する場合は、「 [!UICONTROL 追加フィルタリングルール]」をクリックし、「 [!UICONTROL プロファイル属性の一致」を選択します]。
+レコメンデーション条件を作成する場合は、「 **[!UICONTROL 追加フィルタリングルール]**」をクリックし、「 **[!UICONTROL プロファイル属性の一致」を選択します]**。
 
 ![プロファイル属性の一致の図](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 次に、「user.size」に格納されている値やテキストを「size」「equals」として選択し、プロファイル属性との一致を確認します。
 
+![サイズの例](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 プロファイル属性ルールを構築すると、訪問者に格納されているプロファイル属性と一致しない属性を持つレコメンデーションがすべてフィルターで除外されます。
 
 ### サイズに基づいて品目をレコメンデーション
 
-プロファイル属性の一致がrecommendationsに与える影響を視覚的に示す例として、ファンを販売するWebサイトを考えてみましょう。
+プロファイル属性の一致がrecommendationsに与える影響を視覚的に示す例として、電気ファンを販売するWebサイトを考えてみましょう。
 
 訪問者がこのWebサイトの様々なファンの画像をクリックすると、各ページに、画像内のファンのサイズが小さいか大きいかに基づいて、 `entity.size` パラメーターの値が設定されます。
 
