@@ -4,9 +4,9 @@ description: 推定品目のプールを、ユーザーが操作を行った特�
 title: Adobe TargetRecommendationsの動的包含ルールでのエンティティ属性一致によるフィルター
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
-例えば、次の例のように、現在の品目のブランドに一致するレコメンデーション品目のみを表示します。
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
-ブランドランディングページのmboxが返され `entity.brand=Nike`る場合は、Nike製品のみが返され、そのページに表示されます。 同様に、Adidasのブランドランディングページでは、Adidas製品のみが返されます。 このタイプの動的包含ルールでは、ユーザーは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返す1つのレコメンデーションルールを指定する必要があります。
+例えば、次の例のように、現在の品目のブランドに一致する品目のみをレコメンデーションします。
+
+ブランドランディングページのmboxが返され `entity.brand=Nike`る場合は、Nike製品のみが返され、そのページに表示されます。 同様に、Adidasのブランドランディングページでは、Adidas製品のみが返されます。 このタイプの動的包含ルールでは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
+
+この機能を有効にするには、これらのランディングページ `entity.brand` ーでmboxを配信する必要があります。
 
 ## エンティティ属性の一致の例
 
@@ -29,6 +35,24 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 * ユーザーが最近購入した品目
 * ユーザーが最も頻繁に閲覧した品目
 * 訪問者のプロファイルーのカスタム属性に格納されたアイテム
+
+### ブランドに基づいて品目をレコメンデーション
+
+エンティティ属性ルールを作成すると、ページで渡されたエンティティ値と一致しない属性を持つすべてのレコメンデーションがフィルターで除外されます。
+
+次の例は、ページに表示される商品ブランドに合わせたレコメンデーションを示しています。
+
+Nike製品を含むページにアクセスすると、そのページでは、 `entity.brand` パラメーターの値が「Nike」に設定されます。
+
+![ターゲット呼び出しの例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+ページのレコメンデーションには、Nike製品のみが表示されます。
+
+![ナイキの推奨事項](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+その後でAdidas製品ページを表示すると、 `entity.brand` 値は「Adidas」にリセットされ、Adidas製品ページでレコメンデーションされたAdidas製品が表示されます。
+
+![アディダスの推奨事項](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### より高価な製品にアップセル
 
