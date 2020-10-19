@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 86%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 86%
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [エンティティ属性のマッチング](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [プロファイル属性のマッチング](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [パラメーターのマッチング](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [静的フィルター](/help/c-recommendations/c-algorithms/static-value.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
       + [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [RecommendationsでAdobe Analyticsを使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
