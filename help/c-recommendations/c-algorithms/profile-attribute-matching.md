@@ -4,10 +4,10 @@ description: Adobe TargetRecommendationsで動的にフィルタリングする�
 title: Adobe TargetRecommendationsの動的包含ルールでのプロファイル属性一致によるフィルター
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 5%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 5%
 
 For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. このようなルールでは、ある訪問者が特定のブランドのランニングショーツを閲覧している場合は、その訪問者のお気に入りのブランド（その訪問者のプロファイルの `profile.favoritebrand` に保存されている値）と一致する品目のみがレコメンデーションされます。
 
+![お気に入りのブランド](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
@@ -46,47 +48,12 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 次の例のように、インクルージョンルールを使用して、訪問者のプロファイルーの求職者の場所をジョブリストに一致させることができます。
 
+![ユーザーの市区町村](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### 訪問者のサイズに合う服をレコメンデーションする
-
-訪問者のプロファイルーで設定されている服のサイズに合う服をレコメンデーションする例を見てみましょう。
-
-製品ページからmbox呼び出し `entity.size` が送信されます（下の図の赤い矢印）。
-
-訪問者が最後に訪問したページから訪問者の [プロファイル属性と値を取り込む](/help/c-target/c-visitor-profile/profile-parameters.md) プロファイルスクリプトを作成できます。
-
-例：
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-プロファイルスクリプトは、という名前のmboxから `entity.size` 値をキャプチャ `target-global-mbox` し、その値をという名前のプロファイル属性 `user.size` （下の図の青い矢印）として返します。
-
-![サイズmbox呼び出し](/help/c-recommendations/c-algorithms/assets/size.png)
-
-レコメンデーション条件を作成する場合は、「 **[!UICONTROL 追加フィルタリングルール]**」をクリックし、「 **[!UICONTROL プロファイル属性の一致」を選択します]**。
-
-![プロファイル属性の一致の図](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-に `user.size` プロファイルが読み込ま [!DNL Target]れている場合、mbox呼び出し(`size`)で渡された値をプロファイルスクリプト名(`user.size`)に一致させるようにルールを設定すると、その値がドロップダウンに表示され、一致の対象となります。
-
-次に、「user.size」に格納されている値やテキストを「size」「equals」として選択し、プロファイル属性との一致を確認します。
-
-![サイズの例](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-プロファイル属性ルールを構築すると、訪問者に格納されているプロファイル属性と一致しない属性を持つレコメンデーションがすべてフィルターで除外されます。
 
 ### サイズに基づいて品目をレコメンデーション
 
