@@ -4,9 +4,9 @@ description: 推定品目のプールを、ユーザーが操作を行った特�
 title: Adobe TargetRecommendationsの動的包含ルールでのエンティティ属性一致によるフィルター
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 例えば、次の例のように、現在の品目のブランドに一致する品目のみをレコメンデーションします。
 
-ブランドランディングページのmboxが返され `entity.brand=Nike`る場合は、Nike製品のみが返され、そのページに表示されます。 同様に、Adidasのブランドランディングページでは、Adidas製品のみが返されます。 このタイプの動的包含ルールでは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
+ブランドランディングページのmboxが返される場合 `entity.brand=brandA`、ブランドA製品のみが返され、そのページに表示されます。 同様に、ブランドBのブランドランディングページでは、ブランドBの商品のみが返されます。 このタイプの動的包含ルールでは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
 
 この機能を有効にするには、これらのランディングページ `entity.brand` ーでmboxを配信する必要があります。
 
@@ -42,21 +42,23 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 次の例は、ページに表示される商品ブランドに合わせたレコメンデーションを示しています。
 
-Nike製品を含むページにアクセスすると、そのページでは、 `entity.brand` パラメーターの値が「Nike」に設定されます。
+ブランドA製品を含むページにアクセスすると、そのページでは、 `entity.brand` パラメーターの値が「BrandA」に設定されます。
 
 ![ターゲット呼び出しの例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-ページのレコメンデーションには、Nike製品のみが表示されます。
+ページのレコメンデーションでは、ブランドA製品のみが表示されます。
 
-![ナイキの推奨事項](/help/c-recommendations/c-algorithms/assets/nike.png)
+![ブランドAの推奨事項](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-その後でAdidas製品ページを表示すると、 `entity.brand` 値は「Adidas」にリセットされ、Adidas製品ページでレコメンデーションされたAdidas製品が表示されます。
+その後ブランドB製品ページを表示すると、 `entity.brand` 値は「ブランドB」にリセットされ、ブランドB製品ページでレコメンデーションされたブランドB製品が表示されます。
 
-![アディダスの推奨事項](/help/c-recommendations/c-algorithms/assets/adidas.png)
+![ブランドBの推奨事項](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### より高価な製品にアップセル
 
-アパレル小売業者で、ユーザーに高価格でより利益率の高い商品の検討を促したいとします。 「等しい」演算子と「次の範囲内」演算子を使用して、同じカテゴリおよび同じブランドのより高価な品目をプロモーションできます。 例えば、靴小売業者は、次のコード例のように、ランニングシューズを見る訪問者を高額で販売するために、より高価なランニングシューズの販売を促進できます。
+アパレル小売業者で、ユーザーに高価格でより利益率の高い商品の検討を促したいとします。 「等しい」演算子と「次の範囲内」演算子を使用して、同じカテゴリおよび同じブランドのより高価な品目をプロモーションできます。 例えば、靴小売業者は、ランニングシューズを見ている訪問者を高額で販売するために、より高価なランニングシューズの販売を促進できます。次に例を示します。
+
+![アップセル](/help/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -71,7 +73,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### プライベートラベル商品の販促
 
-動的な製品と静的なフィルターを組み合わせて、プライベートラベルの製品を推進できます。 例えば、オフィス供給会社は、次のコード例のように、会社の住宅ブランドのトナーカートリッジを促進して、トナーを探す訪問者の売り上げを増やし、会社の住宅ブランドのペンを促進して、ペンを探す訪問者の売り上げを増やします。
+動的な製品と静的なフィルターを組み合わせて、プライベートラベルの製品を推進できます。 例えば、オフィス供給会社は、次の例のように、会社の住宅ブランドのトナーカートリッジを促進して、トナーを探す訪問者の売り上げを増やし、会社の住宅ブランドのペンを促進して、ペンを探す訪問者の売り上げを増やします。
+
+![ハウスブランド](/help/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
