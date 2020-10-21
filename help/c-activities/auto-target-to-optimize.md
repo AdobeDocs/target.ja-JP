@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ A/B アクティビティフロー内で [!UICONTROL 自動ターゲット] オ�
 **単一の目標指標に合わせてアルゴリズムが絶えず最適化されます。**
 
 * この指標には、コンバージョンベースと売上高ベース（具体的には、訪問あたりの売上高）があります。
-
-**[!DNL Analytics] をデータソースまたはレポートエンドポイントとして使用することができません。**
 
 **Target は、パーソナライゼーションモデルを構築するために、訪問者に関する情報を自動的に収集します。**
 
