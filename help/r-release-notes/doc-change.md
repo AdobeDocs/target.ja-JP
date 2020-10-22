@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2746'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月22日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | at.jsバージョン1.8.2および2.3.1でのCNAMEサポートの修正に関する情報を追加しました。 |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | at.jsバージョン1.8.2および2.3.1でのCNAMEサポートの修正に関する情報を追加しました。 |
 | 10月15日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1リリース（2020年10月27日）のプレリリースノートを更新しました。 |
 | 10月14日 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 2つのエクスペリエンスのみを持つ自動配分アクティビティのトラフィック配分に関するメモを追加しました。 |
 | 10月13日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2020年11月10日に予定されている次のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現</li></ul> |
