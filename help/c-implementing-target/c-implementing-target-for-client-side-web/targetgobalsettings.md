@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1698'
 ht-degree: 38%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 38%
 * **デフォルト値**:true（at.jsバージョン1.6.2で始まる場合）
 * **説明**:ドメインまたはドメインを使用する必要がある `<clientCode>.tt.omtrdc.net` かどうかを示 `mboxedge<clusterNumber>.tt.omtrdc.net` します。
 
-   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 現在、 [CNAMEは使用できません](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 現在、at.js 1.8.2およびat.js 2.3.1より前のat.jsバージョンを使用する場合、 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) は使用できません。この問題が発生する場合は、at.jsを新しいサポート対象バージョンに [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 更新することを検討してください。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Consider the following when using `serverState`:
    * ページの読み込み時に実行されるVECで作成されたアクティビティ。
    * 事前に取得された表示。
 
-      表示を使用するSPAおよびat.js API [!DNL Target]`triggerView()``triggerView()`の場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされると同時に、ターゲットへの追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
+      SPAで [!DNL Target] 表示やat.js APIを使用し `triggerView()``triggerView()`ている場合、at.js v2.2は、サーバー側でプリフェッチされたすべての表示のコンテンツをキャッシュし、各表示がトリガーされ次第、ターゲットに対して追加のコンテンツ取得呼び出しを呼び出さずに再び適用します。
 
    * **注意**: 現在、サーバー側で取得されたmboxは、ではサポートされていません `serverState`。
 
 * `serverState `オファーを適用する場合、at.jsでは、 `pageLoadEnabled` 設定(例：設定がfalseの場合、ページ読み込みオファーは適用されません)を考慮 `viewsEnabled``pageLoadEnabled` します。
 
-   これらの設定をオンにするには、 **[!UICONTROL 管理]/[!UICONTROL 実装]/[!UICONTROL 編集/]**&#x200B;読み込みが有効なページで切り替えます。
+   これらの設定をオンにするには、 **[!UICONTROL 管理] / [!UICONTROL 実装] / [!UICONTROL 編集/]**&#x200B;読み込みが有効なページで切り替えます。
 
    ![ページ型設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
