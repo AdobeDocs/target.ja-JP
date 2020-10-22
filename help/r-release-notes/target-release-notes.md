@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 * ターゲットUIが [Webコンテンツアクセシビリティガイドライン](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level AおよびAA成功基準(WCAG 2.0 AA)に準拠するように更新されました。 （TGT-34384 および TGT-24679）
 * コンテンツセキュリティポリシー(CSP)の機能が強化されました。 （TGT-37035）
 * CNAMEを使用するお客様のパラメーターとしてクライアントコードを指定する方法が導入されました。 （TNT-38571）
-
+* [!DNL Adobe Experience Cloud] ドキュメントの移動先 [!DNL Experience League]。 10月には、すべてのリリースノート、記事、ビデオおよびチュートリアルが、現在の場所から `docs.adobe.com` に移動し [!DNL Experience League]ます。 この移行により、すべての学習、セルフヘルプ、イネーブルメント、コミュニティのコンテンツが1か所で提供されます。 この変更が発生した場合は、すべてのリンクがリダイレクトされるので、行う必要はありません [!DNL Experience League]。 カウントオーバーが始まったら、リリースノートを更新します。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
