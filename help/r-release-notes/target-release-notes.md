@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 9%
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2020年10月23日**
+**最終更新日：2020年10月26日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -39,7 +39,7 @@ ht-degree: 9%
 * **ターゲットのお知らせ**:ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットイベントの休憩セッションなど、今後のセッションについて詳しくは、ターゲットのお知らせページを参照してください。 詳しくは、「 [ターゲットのお知らせ](/help/r-release-notes/target-announcements.md)」を参照してください。
 
 
-## Target Standard／Premium 20.10.1（2020 年 10 月 27 日）
+## Target Standard／Premium 20.10.1（2020 年 10 月 28 日）
 
 このリリースには、次の新機能が含まれています。
 
