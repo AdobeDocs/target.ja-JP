@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは、最も近いエッジクラスターにルーティングされます。
 
-詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
+詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Central Clusterの場所には、データ収集センターとデータ処理�
 顧客サイトのアクティビティデータは、7つのエッジクラスターの最も近いものによって収集され、お客様の事前に決定されたCentral Clusterの宛先（次の3つの場所のいずれか）に送られます。オレゴン、ダブリン、シンガポール)を処理します。 訪問者プロファイルデータは、サイト訪問者に最も近いEdge Clusterに保存されます（Central Clusterの場所と、Virginia、Amsterdam、Sydney、Tokyo、Hong Kongなど）。
 
 1つの場所からすべてのターゲットリクエストに応答する代わりに、訪問者に最も近いEdge Clusterでリクエストが処理されるので、ネットワークやインターネットでの移動にかかる時間の影響を軽減できます。
+
+![ターゲットサーバーマップの種類](/help/c-intro/assets/target-servers.png)
 
 Amazonウェブサービス(AWS)でホストされるターゲットCentral Clustersは、次の場所にあります。
 
