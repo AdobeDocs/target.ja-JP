@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2757'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月26日 | [Target のセキュリティの概要](/help/c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md) | 『 *Adobe Targetセキュリティの概要* 』ホワイトペーパーを更新しました。 |
 | 10月22日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | at.jsバージョン1.8.2および2.3.1でのCNAMEサポートの修正に関する情報を追加しました。 |
 |  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | at.jsバージョン1.8.2および2.3.1でのCNAMEサポートの修正に関する情報を追加しました。 |
 | 10月15日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1リリース（2020年10月27日）のプレリリースノートを更新しました。 |
