@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '29833'
+source-wordcount: '29840'
 ht-degree: 86%
 
 ---
@@ -23,6 +23,14 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2020 年
+
+### Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
+
+このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
+
+* キーボードのみのユーザーのナビゲーションと機能が改善されました。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
+* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
+* UIの画像とテキストのテキストとカラーコントラストが改善されました。 （TGT-34513）
 
 ### Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
 
@@ -272,21 +280,17 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 * @hisham-hassanが行ったオープンソースの貢献により、プロキシ設定のサポートが追加されました。
 
-詳しくは、 [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)（英語）を参照してください。
-
 ### ターゲットJava SDKバージョン1.0.1（2019年11月12日）
 
 バージョン1.0.1では、次の問題が修正されました。
 
 * 訪問者API cookieがない場合でも、ターゲットリクエストで補足的なデータIDを送信します。
 
-詳しくは、 [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)（英語）を参照してください。
-
 ### ターゲットプラットフォーム（2019年10月31日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行うこ [!DNL Adobe Experience Cloud Identity Service]とができ [!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方でのハイブリッド統合がある場合 [!DNL Target] の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側から取得したエクスペリエンスによって設定される、という設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が [ターゲットJava SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>詳しくは、 [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)（英語）を参照してください。<br>新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+| Java SDK | Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行うこ [!DNL Adobe Experience Cloud Identity Service]とができ [!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方でのハイブリッド統合がある場合 [!DNL Target] の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側から取得したエクスペリエンスによって設定される、という設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が [ターゲットJava SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ### Target Standard／Premium 19.10.2（2019 年 10 月 31 日）
 
@@ -337,8 +341,8 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Node.js SDKバージョン1.0 | ターゲットNode.js SDKを使用すると、ターゲットサーバー側にデプロイできます。<br>このNode.js SDKを使用すると、Adobe Experience CloudIDサービス、Adobe Analytics、Adobe Audience Managerなどの他のExperience Cloudソリューションとターゲットを容易に統合できます。<br>Node.js SDKは、ベストプラクティスを導入し、アドビの配信APIを使用してAdobe Targetとの統合時に複雑さを解消し、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバー側の両方でターゲットのハイブリッド統合を使用する場合のパフォーマンスの最適化のサポートを追加しました。 at.js 2.2でエクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなるように、サーバー側から取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、ソースをオープンします。</li></ul><br>詳しくは、 [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)（英語）を参照してください。 |
-| 配信API | まったく新しい配信APIエンドポイント(/v1/配信)が実稼働環境で使用できます。 主な機能は次のとおりです。<ul><li>1つのエンドポイントで、1つ以上のmboxのエクスペリエンスを取得できます。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用される表示と呼ばれる、まったく新しいオブジェクトのサポート。</li></ul><br>詳しくは、 [リリースノート —ターゲットサーバー側APIを参照してください](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
+| Node.js SDKバージョン1.0 | ターゲットNode.js SDKを使用すると、ターゲットサーバー側にデプロイできます。<br>このNode.js SDKを使用すると、Adobe Experience CloudIDサービス、Adobe Analytics、Adobe Audience Managerなどの他のExperience Cloudソリューションとターゲットを容易に統合できます。<br>Node.js SDKは、ベストプラクティスを導入し、アドビの配信APIを使用してAdobe Targetとの統合時に複雑さを解消し、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバー側の両方でターゲットのハイブリッド統合を使用する場合のパフォーマンスの最適化のサポートを追加しました。 at.js 2.2でエクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなるように、サーバー側から取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、ソースをオープンします。</li></ul> |
+| 配信API | まったく新しい配信APIエンドポイント(/v1/配信)が実稼働環境で使用できます。 主な機能は次のとおりです。<ul><li>1つのエンドポイントで、1つ以上のmboxのエクスペリエンスを取得できます。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用される表示と呼ばれる、まったく新しいオブジェクトのサポートを追加しました。</li></ul> |
 
 ### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
 
