@@ -5,9 +5,9 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -30,12 +30,11 @@ ht-degree: 2%
 | [Adobe Target開発者](http://developers.adobetarget.com/) | Adobe Target開発者サイトに関する情報は、クライアント側アプリケーション、サーバー側アプリケーション、モバイルアプリケーション、IoTなど [!DNL Target] に実装する際に役立ちます。 また、データをサードパーティのソリューションに書き出すこともで [!DNL Target] きます。 |
 | [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/) | recommendationsサーバーとプログラム的にやり取りできる [!UICONTROL Recommendations] APIに関する情報を紹介し [!DNL Target] ます。 These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [Server Side Delivery API](https://developers.adobetarget.com/api/delivery-api/) | Adobe Target配信APIを構成するリソースに関する情報です。 |
-| [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | Node.js SDKに関する情報です。Node.js SDKは、cookie、セッションの管理、ソリューション（、、など）との統合に伴う複雑さを排除した高度なソフトウェア開発キットで [!DNL Adobe Experience Cloud] す [!DNL Target][!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]。 |
-| [ターゲットJava SDK](https://github.com/adobe/target-java-sdk) | Java SDKに関する情報です。Java SDKは、cookie、セッションの管理、 [!DNL Adobe Experience Cloud] 、 [!DNL Target]、などのソリューションとの統合の複雑さを解消する高度なソフトウェア開発キット [!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Adobe Audience Manager]です。 |
+| [ターゲットサーバー側SDK](https://adobetarget-sdks.gitbook.io/docs/) | SDKを使用した [!DNL Target] サーバー側のデプロイ方法を説明します。 |
 | [ターゲットAdobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction) | Adobe、オーディエンス、オファー、プロパティ、レポート、mbox、環境、プロファイルを管理するために、アクティビティ.IO統合を使用する、Adobe Targetの管理APIとプロファイルREST APIについて取り上げます。 |
 | [Adobe Experience PlatformモバイルSDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | モバイルアプリへ [!DNL Target] の実装に関する情報です。 |
 
-上記の資料に加え、 [Adobe Experience Leagueターゲットコミュニティにアクセスして](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)、次のことができます。
+上記の資料に加え、 [Adobe Experience Leagueターゲットコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)（以下を参照）もご覧ください。
 
 * Learn more about what [!DNL Target] has to offer
 * Connect with your peers and [!DNL Adobe] experts
