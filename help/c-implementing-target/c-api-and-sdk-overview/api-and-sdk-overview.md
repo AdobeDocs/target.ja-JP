@@ -6,10 +6,10 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 11%
+source-wordcount: '371'
+ht-degree: 21%
 
 ---
 
@@ -43,29 +43,11 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 * サーバー上のセッション内の訪問者に対するエクスペリエンスをキャッシュすることで、複数のAPI呼び出しを回避でき、パフォーマンスが向上します。
 * サーバ側の [!DNL Adobe Experience Cloud] 製品( [!DNL Adobe Analytics]、 [!DNL Adobe Audience Manager][!DNL Experience Cloud ID Service] (AAM)など)とシームレスに統合できます。
 
-## Node.js SDK
+## サーバー側SDK
 
-リンク： [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
+リンク： [Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-Node.js SDKは、Cookie、セッションの管理、製品（、など）との統合の複雑さを排除した高度なソフトウェア開発キットで [!DNL Experience Cloud][!DNL Analytics]す [!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]。 内部では、Node.js SDKが `/rest/v1/delivery` APIを使用します。 Node.js SDKでサポートされる主な機能を以下に示します。
-
-* **プリフェッチのサポートと、キャッシュを使用したパフォーマンスの最適化を可能にする通知：** Node.js SDKを使用すると、エクスペリエンスを取得し、Node.jsサーバー上にローカルにキャッシュできます。これは、アプリケーションのパフォーマンスを最小限に抑え、最適化するためで [!DNL Target] す。
-* **VECが作成したアクティビティの取得機能：** サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターがあり、このセレクターを使用して、ページの中でパーソナライズする必要のある部分のみを事前に非表示にできます。 これは、ページの [最初のコンテンツペイント指標の最適化に役立ちます](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)。これは、 [Google PageRank](https://en.wikipedia.org/wiki/PageRank) システムで高スコアを達成するためのビジネスにとって重要なKPIです。
-
-## ターゲットJava SDK
-
-リンク： [ターゲットJava SDK](https://github.com/adobe/target-java-sdk)
-
-Java SDKは、Cookie、セッションの管理、およびソリューション（、、など）との統合の複雑さを排除した高度なソフトウェア開発キットで [!DNL Adobe Experience Cloud][!DNL Adobe Analytics][!DNL Experience Cloud Visitor ID Service][!DNL Adobe Audience Manager]す。 内部では、Java SDKが `/rest/v1/delivery` APIを使用します。 Java SDKでサポートされる主な機能を以下に示します。
-
-* **プリフェッチのサポートと、キャッシュを使用したパフォーマンスの最適化を可能にする通知**:JavaSDKを使用して、エクスペリエンスを取得し、Javaサーバー上にローカルにキャッシュできます。これにより、アプリケーションのパフォーマンスを最小限に抑え、最適化す [!DNL Target] ることができます。
-* **VECが作成したアクティビティの取得**:サーバー側でVECが作成したアクティビティを取得します。 VECで作成されたアクティビティを含む応答にはセレクターがあり、このセレクターを使用して、ページの中でパーソナライズする必要のある部分のみを事前に非表示にできます。 これは、ページの [最初のコンテンツペイント](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) 指標の最適化に役立ちます。これは、 [Google PageRank](https://en.wikipedia.org/wiki/PageRank) システムで高スコアを達成するためのビジネスにとって重要なKPIです。
-
-## Adobe Target開発者
-
-リンク： [Adobe Target開発者](http://developers.adobetarget.com/)
-
-Adobe Target開発者サイトは、クライアント側アプリケーション、サーバー側アプリケーション、モバイルアプリケーション、IoT [!DNL Target] などへの実装を支援します。 また、データをサードパーティのソリューションに書き出すこともで [!DNL Target] きます。
+サーバー側SDKドキュメ [!DNL Adobe Target] ントポータルは、選択した言語でサーバー [!DNL Target] に実装する際に役立ちます。
 
 ## Target Recommendations API
 
