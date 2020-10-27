@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 18%
 
 ---
@@ -77,11 +77,9 @@ Adobe TargetとAdobe Analyticsの統合をアップグレードしました。�
 この統合により、次のことが可能になります。
 
 * [自動配分のマルチアームバンディット機能を使用して](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、勝者エクスペリエンスにトラフィックを誘導します。
-* [自動ターゲットのアンサンブル機械学習アルゴリズムを使用して](/help/c-activities/auto-target-to-optimize.md)、プロファイル、行動およびコンテキストに基づいて、各訪問者に最適なエクスペリエンスを選択します。
+* [自動ターゲットのアンサンブル機械学習アルゴリズムを使用して](/help/c-activities/auto-target-to-optimize.md)[!DNL Adobe Analytics][!DNL Adobe Analytics]、目標指標と豊富なレポート機能と分析機能を使用しながら、訪問者のプロファイル、行動、コンテキストに基づいて、各に最適なエクスペリエンスを選択します。
 
-すべてを、 [!DNL Adobe Analytics][!DNL Adobe Analytics]目標指標との豊富なレポートおよび分析機能を使用しながら実行できます。
-
-A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4Tを既に [実装済みの場合](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)、追加の設定は不要です。準備は完了です。
+A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4Tが [実装されていることを確認します](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 を使用している場合 `analyticsLogging = client_side`は、に `sessionId` 値を渡す必要もあり [!DNL Analytics]ます。 詳しくは、『 [Adobe Target配信APIガイド』の「](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) ターゲットのための *Adobe Analytics(A4T)」を参照してください*
 
 開始するには
 
