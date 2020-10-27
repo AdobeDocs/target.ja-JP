@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 26%
@@ -34,13 +34,13 @@ ht-degree: 26%
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## Target Standard／Premium 20.10.1（2020 年 10 月 28 日）
+## Target Standard／Premium 20.10.1（2020 年 10 月 27 日）
 
 このリリースには、次の新機能が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>**今すぐライブウェビナーに登録します。** Adobe Target製品のエキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合うと、新しい使用例への扉が開かれ、お客様のサイトパフォーマンスが向上します。<ul><li>2020年11月10日</li><li>午前10時PT/午後12時CT/午後1時ET</li><li>[登録はこちら](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>**今すぐライブウェビナーに登録します。** Adobe Target製品のエキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合うと、新しい使用例への扉が開かれ、お客様のサイトパフォーマンスが向上します。<ul><li>2020年11月10日</li><li>午前10時PT/午後12時CT/午後1時ET</li><li>[登録はこちら](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
