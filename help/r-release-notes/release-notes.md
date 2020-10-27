@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 23%
+source-wordcount: '950'
+ht-degree: 26%
 
 ---
 
@@ -20,10 +20,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->* **AdobeがパーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに** Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-   >
-   >
-* **mbox.jsの提供終了**:2021年1月18日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2021年1月18日以降、mbox.jsからのすべての呼び出しが正常に失敗し、デフォルトコンテンツを提供することで実行されているターゲットアクティビティを持つページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、at.jsの [仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) および [Adobe Targetスキルビルダーを参照してください。開発者チャットでは、Adobe Targetのmbox.jsをat.jsに移行します](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+>* **mbox.jsの提供終了**:2021年1月18日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。 2021年1月18日以降、mbox.jsからのすべての呼び出しが正常に失敗し、デフォルトコンテンツを提供することで実行されているターゲットアクティビティを持つページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、at.jsの [仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) および [Adobe Targetスキルビルダーを参照してください。開発者チャットでは、Adobe Targetのmbox.jsをat.jsに移行します](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
@@ -37,59 +34,34 @@ ht-degree: 23%
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
+## Target Standard／Premium 20.10.1（2020 年 10 月 28 日）
 
-このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
-
-* キーボードのみのユーザーのナビゲーションと機能が改善されました。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
-* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
-* UIの画像とテキストのテキストとカラーコントラストが改善されました。 （TGT-34513）
-
-## Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
+このリリースには、次の新機能が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| ![自動ターゲットアクティビティ用のターゲット用プレミアムバッジ](/help/assets/premium.png) (A4T)のサポート | [!UICONTROL 自動ターゲット] アクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動ターゲット] ・アンサンブル機械学習アルゴリズムを使用して、プロファイル、行動およびコンテキストに基づいて各訪問者に最適なエクスペリエンスを選択できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分と自動ターゲットアクティビティの](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
-
-## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
-
-| 機能 | 詳細 |
-| --- | --- |
-| ![条件のシーケンス内のPremiumバッジ](/help/assets/premium.png) Control Recommendationsスロット | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件のシーケンス [の作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) （英語）を参照してください。 |
-
-## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
+| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>**今すぐライブウェビナーに登録します。** Adobe Target製品のエキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合うと、新しい使用例への扉が開かれ、お客様のサイトパフォーマンスが向上します。<ul><li>2020年11月10日</li><li>午前10時PT/午後12時CT/午後1時ET</li><li>[登録はこちら](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
-* 組織を切り替えた後に新しい [!UICONTROL 管理] ページを読み込むと、エラーが表示される問題を修正しました。 （TGT-37730）
-* 表示で、 [!UICONTROL 管理/導入] ページに正しくないクライアントコードが表示される問題を修正しました。 （TGT-37849）
-* VECの読み込みが成功した後、 [!UICONTROL Visual Experience Composer] (VEC)の編集機能が使用できない場合がある問題を修正しました。 （TGT-37162）
-* VEC Helper拡張機能がインストールされている場合でも、VECおよび拡張Experience Composer(EEC)でページが読み込めない問題を修正しました。 これは、Google Chrome 80以降の変更が原因でした。 更新されたVEC Helper [拡張機能をダウンロードします](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 （TGT-37893）
-* 組織を切り替えた後に、 [!UICONTROL 管理/実装] ページからat.jsをダウンロードできない場合がある問題を修正しました。 （TGT-37668）
-* ユーザーがダウンロードボタンを複数回クリックした場合に複数のリクエストが送信されるのを防ぐため、at.jsのダウンロードボタンが読み込み中に無効にな [!DNL Target] りました。 （TGT-37633）
-* エクスペリエンスのターゲット設定  (XT)アクティビティで、エクスペリエンスに長期間「結果を取得」と表示される問題を修正しました。 （TGT-37684）
-* キーボードのみのユーザーのナビゲーションと機能が改善されました。 （TGT-34479 および TGT-34473）
-* 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 （TGT-34480）
-* アクティビティで現在使用されているモバイルビューポートを削除する際のエラーメッセージを改善。 次のようなエラーメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」 （TGT-37030）
-* VECでのサポートが追加され、ページ内の複数の要素に一致するcssセレクターのクリック追跡が可能になりました。 （TGT-37323）
-* 特定のユーザーが [!UICONTROL アクティビティ] リストを表示できない問題を修正しました。 次のエラーメッセージが表示されました。&quot;URLの提案を取得できません。&quot; AdobeバックエンドシステムのFirstName (FirstName/r/n)でキャリッジリターンを使用しているユーザーに対してエラーが発生しました。 （TGT-37330）
-* ワークスペース名(Enterprise用の [!UICONTROL Adobe Admin Consoleで指定)にアポストロフィが含まれる場合に、] アクティビティ ページが表示されない問題を修正しました。 （TGT-37709）
-* 最適化指標とコンバージョン指標を選択する際の [!UICONTROL 自動配分] アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようユーザーに通知する問題を修正しました。 （TGT-37689）
-* ター [!UICONTROL ゲット設定ページに移動してから戻った後で、] 目標と設定  ページの指標が空白になる場合がある問題を修正しました。 （TGT-37691）
-* 条件の最終変更値が正しくない問題を修正しました [!DNL Recommendations] 。 （TGT-37666）
-* mbox名ではなくmboxドロップダウンリストーにmbox IDが表示される問題を修正しました。 （TGT-37739）
+* 「 [!UICONTROL 平均上昇率の信頼区間] 」と「 [!UICONTROL 信頼性] 」が「 [!DNL Auto-Target] 合計  」行のレポートに表示されない問題を修正しました。 測定値は、すべてのエクスペリエンスで正しく表示されました。 （TGT-37301）
+* 9月15日午後2時30分 [!DNL Adobe Target Premium] から、 [!UICONTROL 自動ターゲット] レポートに影響を与えていた問題を修正しました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポートを表示する(「ページを[!UICONTROL 表示した」または「mboxを]クリックした」オプションを使用して設定)場合、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。 レポートを再同期して修正する方法について詳しくは、「 [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)*」の「* 自動ターゲットレポート *」を参照してください*。
+* 「 [!UICONTROL カタログ検索] 」テーブルに選択可能な「 [!UICONTROL 最終更新日時] 」列と「 [!UICONTROL 最終更新日時] 」フィルタが追加されました。 この機能強化により、個々の項目を開いて最後に更新された日時を確認する必要がなく、項目が最後に更新された日時でフィルターできるので、時間と労力を節約できます。
+
+   ![列とフィルターの図での最終更新](/help/r-release-notes/assets/column-and-filter.png)
+
+* ターゲットUIが [Webコンテンツアクセシビリティガイドライン](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level AおよびAA成功基準(WCAG 2.0 AA)に準拠するように更新されました。 （TGT-34384 および TGT-24679）
+* コンテンツセキュリティポリシー(CSP)の機能が強化されました。 （TGT-37035）
+* CNAMEを使用するお客様のパラメーターとしてクライアントコードを指定する方法が導入されました。 （TNT-38571）
+* [!DNL Adobe Experience Cloud] ドキュメントの移動先 [!DNL Experience League]。 10月には、すべてのリリースノート、記事、ビデオおよびチュートリアルが、現在の場所から `docs.adobe.com` に移動し [!DNL Experience League]ます。 この移行により、すべての学習、セルフヘルプ、イネーブルメント、コミュニティのコンテンツが1か所で提供されます。 この変更が発生した場合は、すべてのリンクがリダイレクトされるので、行う必要はありません [!DNL Experience League]。 カウントオーバーが始まったら、リリースノートを更新します。
 
 ## その他のリリースノートとバージョンの詳細
 
 | リソース | 詳細 |
 |--- |--- |
-| [リリースノート —ターゲットサーバー側API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Adobe Targetのサーバー側APIに関するリリースノートです。 |
-| [リリースノート —ターゲットNode.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Adobe TargetのNode.js SDKに関するリリースノートです。 |
-| [リリースノート —ターゲットJava SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Adobe TargetのJava SDKに関するリリースノートです。 |
-| [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adobe Targetのat.js JavaScriptライブラリの各バージョンの変更について詳しく説明します。 |
-| [mbox.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | このページには、mbox.js の各バージョンに対する変更が表示されます。<br>mbox.jsライブラリは開発されなくなります。 すべてのお客様が mbox.js から at.js に移行する必要があります。 |
+| [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
-## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート {#section_1BC5F5208DA548E9B4344A0836E4B943}
+## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート
 
 追加情報については、各リリースのリリースノートに加えて、以下のリソースを参照してください。
 
