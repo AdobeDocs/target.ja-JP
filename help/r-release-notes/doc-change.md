@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '2872'
 ht-degree: 29%
@@ -22,7 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10月28日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 新しい *[Adobe TargetSDKs](https://adobetarget-sdks.gitbook.io/docs/)* ポータルへのリンクを追加しました。 |
+| 10月27日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 新しい *[Adobe TargetSDKs](https://adobetarget-sdks.gitbook.io/docs/)* ポータルへのリンクを追加しました。 |
 |  | [Analyticsをレポートソースとして使用するアクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Analyticsを自動ターゲットアクティビティでレポートソース(A4T)として使用する `analyticsLogging = client_side``sessionId`[!DNL Analytics] 場合、Analyticsをに値を渡す必要があるという情報を追加しました。 |
 |  | [Analytics for Target の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | を使用する [!UICONTROL 自動配分] と [!UICONTROL 自動ターゲット]`analyticsLogging = client_side`アクティビティでは、sessionIdも転送する必要があるという情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
