@@ -5,10 +5,10 @@ title: Analytics for Target の実装
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 62%
+source-wordcount: '904'
+ht-degree: 48%
 
 ---
 
@@ -43,21 +43,21 @@ appMeasurement.js の必要なバージョンを実装するか、そのバー�
 
 移行については、 [Analytics導入ガイドのJavaScript版AppMeasurementへの](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 移行を参照してください **。
 
-## 手順 5：at.js または mbox.js をダウンロードして更新します。
+## 手順5:at.jsのダウンロードと更新
 
-実稼動アカウントで使用する at.js または mbox.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。コードの修正は必要ありません。
+実稼働アカウントを使用して、必要なバージョンのat.jsを実装するか、at.jsに移行する必要があります。 コードの修正は必要ありません。
 
 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-## 手順 6： at.js または mbox.js をホストします。
+## 手順6:at.jsのホスト
 
-at.js または mbox.js を事前にデプロイしている場合、既存のファイルを最新版に置き換えられます。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
+以前にat.jsをデプロイしている場合は、既存のファイルを最新バージョンに置き換えることができます。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
 配置していない場合は、最新のファイルを Visitor ID サービスおよび AppMeasurement for JavaScript のファイルとともにホストします。これらのファイルは、サイトのすべてのページからアクセス可能な Web サーバーでホストする必要があります。これらのファイルへのパスを、次の手順で使用します。
 
-## 手順 7： サイトのすべてのページから at.js または mbox.js を参照します。 {#step7}
+## Step 7: Reference at.js on all site pages {#step7}
 
-各ページのタグ内に以下のコードを追加して、VisitorAPI.js の下に at.js または mbox.js を含めます。
+各ページのタグ内に次のコードを追加して、VisitorAPI.jsの下にat.jsを含めます。
 
 at.js の場合：
 
@@ -66,14 +66,7 @@ at.js の場合：
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-mbox.js の場合：
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-VisitorAPI.js は、at.js や mbox.js より先に読み込まれている必要があります。既存の at.js や mbox.js ファイルを更新中の場合、読み込む順序を必ず確認してください。
+at.jsの前にVisitorAPI.jsを読み込むことが不可欠です。既存のat.jsまたはmbox.jsファイルを更新する場合は、読み込み順序を確認してください。
 
 The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
@@ -98,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-ペイロードは、 [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+ペイロードは、 [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。 自動配分 [!UICONTROL と] 自動ターゲット  アクティビティの場合は、sessionIdも転送する必要があることに注意してください。 詳しくは、『 [Adobe Target配信APIガイド』の「](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) ターゲットのための *Adobe Analytics(A4T)」を参照してください*
 
 グローバル設定は望まず、よりオンデマンドな方法が好ましい場合は、at.js 関数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、**analyticsLogging: &quot;client_side&quot;** に渡すことでこれを実現します。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
