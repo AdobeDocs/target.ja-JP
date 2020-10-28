@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Adobe Targetのサーバ側配信API、Node.js SDK、ターゲットRecommendationsAPIに関する情報です。
+description: Adobe Targetのサーバ側配信API、SDK、ターゲットRecommendationsAPIに関する情報です。
 title: Adobe Targetのサーバ側配信API、Node.js SDK、ターゲットRecommendationsAPIに関する情報です。
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # サーバー側：Target の実装{#server-side-implement-target}
 
-サーバー側 [!DNL Adobe Target] の配信API、Node.js SDK、 [!DNL Target Recommendations] APIに関する情報です。
+サーバー側 [!DNL Adobe Target] の配信API、SDK、 [!DNL Target Recommendations] APIに関する情報です。
 
 以下の処理は、[!DNL Target] のサーバー側実装で発生します。
 
@@ -26,6 +26,10 @@ ht-degree: 21%
 1. サーバーは、どのエクスペリエンスをクライアントデバイスに配信してレンダリングするかを決定します。
 
 エクスペリエンスをブラウザーで表示する必要はありません。 エクスペリエンスは、電子メールやキオスク、音声アシスタント、視覚に訴えない他のデバイス、またはブラウザーベースでないデバイスを通して表示できます。 サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。
+
+>[!NOTE]
+>
+>初回訪問者は、クライアント側でのみ初期化できます。 サーバー側で初回訪問者 *を初期化できません* 。
 
 以下の節では、様々なAPIとNodeJS SDKについて詳しく説明します。
 
