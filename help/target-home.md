@@ -6,7 +6,7 @@ seo-description: Adobe Target は、顧客のエクスペリエンスのカス�
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 62%
@@ -20,7 +20,7 @@ ht-degree: 62%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2020年10月27日( [「変更点](r-release-notes/doc-change.md) 」を参照)**
+**最終更新日：2020年10月28日( [「変更点](r-release-notes/doc-change.md) 」を参照)**
 
 >[!NOTE]
 >
