@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ API の詳細を次に示します。
 
 | キー | タイプ | 必須 | 説明 |
 |--- |--- |--- |--- |
-| mbox | 文字列 | ○ | mbox 名 |
+| mbox | 文字列 | ○ | mbox <br>**nameNote**:ページ上で既に呼び出されているmbox名でtrackEvent()呼び出しが実行された場合、trackEvent()のSDIDはリセットされ、ページ上のターゲット呼び出しとは異なります。 ただし、別のmbox名でtrackEvent()呼び出しを実行すると、trackEvent()呼び出しのSDIDは、ページ上のページ読み込みリクエスト/トリガービュー()呼び出しと一致します。 |
 | selector | 文字列 | × | CSS セレクターは HTML 要素を見つけるために使用されます。イベントリスナーが、見つけた要素に添付されます. |
 | type | 文字列 | × | 登録されたイベントタイプを表します。クリック、マウスダウンなどの HTML の既知のイベントとカスタム HTML イベントの両方が可能です。 |
 | preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意**： `form[submit] and ` と [クリック]のみがサポートされています。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
