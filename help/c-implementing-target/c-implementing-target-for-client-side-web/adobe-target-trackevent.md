@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
+source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
