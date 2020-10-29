@@ -5,9 +5,9 @@ title: レポート設定
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1891'
 ht-degree: 69%
 
 ---
@@ -119,7 +119,7 @@ Information to help you set the elements you want to appear in your report in [!
 レポートの日付には以下の制限事項があります。
 
 * レポートの開始日は、直近の 2 年以内でなければなりません。
-* 毎日のレポートは 100 日までに制限されています。
+* オファーグループのレポートは、現在の日から99日までに制限されます。
 * 毎時間のレポートは 15 日までに制限されています。
 
 ## 設定 {#section_D99CE462107D45CABE0960F820E1E972}
