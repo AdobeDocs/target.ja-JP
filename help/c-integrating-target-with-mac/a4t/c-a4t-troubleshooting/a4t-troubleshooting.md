@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ A4T アクティビティの作成を始める前に、適切な権限がある�
 
 ## 必要なレポートスイートが表示されません。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium に表示されるレポートスイートのリストは、Target のレポートソースとして Analytics に設定されているレポートスイートのリストです。つまり、存在するすべてのレポートスイートが表示されるわけではありません。必要なレポートスイートが見つからない場合は、ClientCare に問い合わせて有効にしてください。
+Target Standard/Premium に表示されるレポートスイートのリストは、Target のレポートソースとして Analytics に設定されているレポートスイートのリストです。つまり、存在するすべてのレポートスイートが表示されるわけではありません。
+
+また、複数のレポートソースを使用している場合は、ターゲットで設定されているデフォルトのレポートソースにもレポートスイートが含まれている必要があります。 そうしないと、レポートスイートが表示されません。
+
+探しているレポートスイートがまだ表示されない場合は、ClientCareに連絡して有効にしてもらう必要があります。
 
 ## 期待した量のレポートのデータが表示されません。{#section_75002584FA63456D8D9086172925DD8D}
 
