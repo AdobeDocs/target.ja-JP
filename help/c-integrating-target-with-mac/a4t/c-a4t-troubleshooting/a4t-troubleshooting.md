@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ A4T アクティビティの作成を始める前に、適切な権限がある�
 
 これらの指標は否定的な意味を持っていますが、Target レポートでは、これらの指標の上昇が肯定的な現象であるかのように表示されます。例えば、バウンス率を低く抑えたい場合であっても、最も高いバウンス率を持つものが勝者として表示されます。このような指標の取り扱いには注意が必要です。ポートに基づいて判断をおこなう場合には、数値が低下した方が好ましいのか、上昇した方が好ましいのかを確認してください。
 
-## 必要なレポートスイートが表示されません。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium に表示されるレポートスイートのリストは、Target のレポートソースとして Analytics に設定されているレポートスイートのリストです。つまり、存在するすべてのレポートスイートが表示されるわけではありません。
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). つまり、存在するすべてのレポートスイートが表示されるわけではありません。
 
-また、複数のレポートソースを使用している場合は、ターゲットで設定されているデフォルトのレポートソースにもレポートスイートが含まれている必要があります。 そうしないと、レポートスイートが表示されません。
+また、複数のレポートソースを使用している場合は、のデフォルトのレポートソースセットにもレポートスイートが存在する必要があ [!DNL Target] ります。そうしないと、レポートスイートは表示されません。
 
-探しているレポートスイートがまだ表示されない場合は、ClientCareに連絡して有効にしてもらう必要があります。
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## 期待した量のレポートのデータが表示されません。{#section_75002584FA63456D8D9086172925DD8D}
 
