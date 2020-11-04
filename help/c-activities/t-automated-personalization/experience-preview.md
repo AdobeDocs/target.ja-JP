@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->Automated PersonalizationのエクスペリエンスプレビューURLは、アクティビティQAモードとは異なります。 アクティビティ QA モードを利用すると、別のタイプのアクティビティのアクティビティ URL を作成できます。詳しくは、「[アクティビティ QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)」を参照してください。.
+>Automated PersonalizationのエクスペリエンスプレビューURLは、アクティビティQAモードとは異なります。 アクティビティ QA モードを利用すると、別のタイプのアクティビティのアクティビティ URL を作成できます。詳しくは、「[アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md)」を参照してください。.
 >
 >APアクティビティのエクスペリエンスプレビューURLは、at.js 1.xを使用している場合にのみ使用できます。APアクティビティのエクスペリエンスプレビューURLは、現在、at.js 2.xではサポートされていません。
 
