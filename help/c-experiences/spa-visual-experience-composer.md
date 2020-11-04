@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ビューとは何かをさらに説明するために、React で実装された架空のオンライン e コマースサイトを操作して、いくつかビューの例を見てみましょう。下のリンクをクリックして、このサイトを新しいブラウザタブで開きます。
 
-**リンク：[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
+**リンク： [ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
 ![ホームサイト](/help/c-experiences/assets/home.png)
 
 ホームサイトに移動すると、イースターセールで使われるヒーローの画像と、サイトで販売されている最新製品を確認できます。この場合、ビューはホームサイト全体として定義できます。この点については、後述の「Adobe Target ビューの実装」セクションで詳しく説明します。
 
-**リンク：[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+**リンク： [製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![製品サイト](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 「Load More」ボタンをクリックすると、サイトに掲載されている他の製品をみることができます。この場合、Web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。たとえば、表示名を「PRODUCT-PAGE-2」にします。
 
-**リンク：[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+**リンク： [チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![チェックアウトページ](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    次に、模擬 e コマース SPA 用に React で `triggerView()` 関数を呼び出す方法について、いくつかの例を見てみましょう。
 
-   **リンク：[ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
+   **リンク： [ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **リンク：[製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
+   **リンク： [製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
    それでは、もう少し複雑な例を見てみましょう。たとえば、ユーザーが「Load More」ボタンをクリックした場合に価格ラベルの色を赤に変更して、2 行目にある製品をパーソナライズすることをマーケティング担当者が希望しているとしましょう。
 
@@ -144,7 +144,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    }
    ```
 
-   **リンク：[チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **リンク： [チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React チェックアウト](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ adobe.target.getOffers({
 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ |
 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | ○ |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | × |
-| [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | × |
+| [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) | × |
 | [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md) | × |
 | [Recommendations](/help/c-recommendations/recommendations.md) | × |
 
-**at.js 2.x をインストールして`triggerView()`をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
+**at.js 2.x をインストールして `triggerView()` をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
 
 自動ターゲット A/B アクティビティを使用する場合は、ページ読み込みイベントで実行されるすべてのアクションを VEC で移動できます。各アクションにマウスポインターを置いて、「[!UICONTROL ページ読み込みイベントに移動]」ボタンをクリックします。その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
 
