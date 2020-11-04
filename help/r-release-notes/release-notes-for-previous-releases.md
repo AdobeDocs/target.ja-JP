@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29840'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動パーソナライゼーション（AP）アクティビティと自動ターゲットアクティビティ </p> </td> 
-   <td colname="col2"> <p>UI とヘルプで、自動パーソナライゼーション（AP）アクティビティと自動ターゲットアクティビティで効果的にトラフィックを配分するのに役立つ追加のガイダンスを参照できます。 </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">トラフィック配分の決定</a>および<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーションアクティビティの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>UI とヘルプで、自動パーソナライゼーション（AP）アクティビティと自動ターゲットアクティビティで効果的にトラフィックを配分するのに役立つ追加のガイダンスを参照できます。 </p> <p>詳しくは、<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">トラフィック配分の決定</a>および<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーションアクティビティの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>レコメンデーション：カスタム条件のインクルージョンルール、コレクションおよび除外 </p> </td> 
@@ -1311,8 +1311,8 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1" class="premium"> <p>自動ターゲット </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動ターゲットアクティビティでセグメントレベルのレポートがサポートされるようになりました。（TGT-22777） </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>自動ターゲットアクティビティのコントロールの割合を変更できます。（TGT-26467） </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自動ターゲットアクティビティでセグメントレベルのレポートがサポートされるようになりました。（TGT-22777） </p> <p>詳しくは、<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>自動ターゲットアクティビティのコントロールの割合を変更できます。（TGT-26467） </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>詳しくは、<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA モード </p> </td> 
-   <td colname="col2"> <p>変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なアクティビティ QA を実行できます。 </p> <p>詳しくは、<a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> アクティビティ QA </a>. </p> </td> 
+   <td colname="col2"> <p>変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なアクティビティ QA を実行できます。 </p> <p>詳しくは、<a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> アクティビティ QA </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>自動ターゲット </p> </td> 
-   <td colname="col2"> <p>自動ターゲットは Target Premium のすべてのお客様が利用できるようになりました。 </p> <p>自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 </p> <p>3 ステップのガイドによるワークフローを使用して A/B アクティビティを作成するときに、「<span class="wintitle">パーソナライズされたエクスペリエンスの自動ターゲット</span>」オプションを使用してトラフィックを配分することができます。 </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>自動ターゲットは Target Premium のすべてのお客様が利用できるようになりました。 </p> <p>自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 </p> <p>3 ステップのガイドによるワークフローを使用して A/B アクティビティを作成するときに、「<span class="wintitle">パーソナライズされたエクスペリエンスの自動ターゲット</span>」オプションを使用してトラフィックを配分することができます。 </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>詳しくは、<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> レポート </td> 
-   <td colname="col2"> <p><b>複数の目標／指標の表示：</b>A/B およびエクスペリエンスのターゲット設定（XT）アクティビティで、複数の指標を表示できるようになりました（ただし、<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 自動配分 </a> および <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> 自動Target </a> A/Bアクティビティ。 </p> <p>詳しくは、<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">レポートでの複数の指標の表示</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>複数の目標／指標の表示：</b>A/B およびエクスペリエンスのターゲット設定（XT）アクティビティで、複数の指標を表示できるようになりました（ただし、<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 自動配分 </a> および <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> 自動Target </a> A/Bアクティビティ。 </p> <p>詳しくは、<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">レポートでの複数の指標の表示</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1986,7 +1986,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>ファーストルック</b> </p> A/B アクティビティの自動ターゲット設定 </td> 
-   <td colname="col2"> <p> <p>注意：この「ファーストルック」は、テストおよびフィードバックのために、このリリースの数名のお客様に対して有効化されます。 </p> </p> <p>A/B テストのエクスペリエンスを自動的にターゲット化して、適切な訪問者に適切なエクスペリエンスを提供します。 </p> <p>詳しくは、<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <p>注意：この「ファーストルック」は、テストおよびフィードバックのために、このリリースの数名のお客様に対して有効化されます。 </p> </p> <p>A/B テストのエクスペリエンスを自動的にターゲット化して、適切な訪問者に適切なエクスペリエンスを提供します。 </p> <p>詳しくは、<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">パーソナライズされたエクスペリエンスの自動ターゲット</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2517,7 +2517,7 @@ at.js を実装する際には、以下のことに注意してください。
 
 | 機能 | 説明 |
 |---|---|
-| 割合でターゲット設定するアクティビティエントリ | エントリを、[A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) および訪問者またはオーディエンスメンバーの割合に対する [多変量分析アクティビティ](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)に制限できるようになりました。例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。 |
+| 割合でターゲット設定するアクティビティエントリ | エントリを、[A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) および訪問者またはオーディエンスメンバーの割合に対する [多変量分析アクティビティ](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)に制限できるようになりました。例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。 |
 | 自動配分で、売上高、注文、エンゲージメントをサポートします。 | 売上高（RPV）、注文、エンゲージメント指標を、選択された自動配分を使用した A/B アクティビティの目標として選択できるようになりました。以前は、コンバージョン指標のみをサポートしていました。[自動トラフィック配分](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。 |
 | ソースによるフィルター | アクティビティが作成されたソースで、アクティビティリストをフィルターできるようになりました。選択肢は、Adobe Target および Adobe Experience Manager です。詳しくは、[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。 |
 | 自動パーソナライゼーションのパフォーマンスの強化 | 自動パーソナライゼーションは、多数のオファーと場所を組み合わせてパフォーマンスを向上させるように設計し直されました。 |
@@ -2583,7 +2583,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 成功指標レポートのダウンロード </p> </td> 
-   <td colname="col2"> <p> アクティビティの最終目標のみを含むレポートではなく、すべての成功指標がリストされた単一の csv ファイルをダウンロードします。 </p> <p><a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">レポート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> アクティビティの最終目標のみを含むレポートではなく、すべての成功指標がリストされた単一の csv ファイルをダウンロードします。 </p> <p><a href="/help/c-reports/reports.md" format="dita" scope="local">レポート</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3051,7 +3051,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B テストおよびエクスペリエンスのターゲット設定：3 ステップのアクティビティ作成フロー </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> エクスペリエンスのTarget設定 </a> アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、自動パーソナライゼーションや多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> エクスペリエンスのTarget設定 </a> アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、自動パーソナライゼーションや多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートソースとしての Analytics をほとんどのアクティビティタイプで使用可能 </p> </td> 
