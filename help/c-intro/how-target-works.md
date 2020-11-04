@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### A/B テスト
 
-詳細については、「[A/B テストの作成](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)」を参照してください。
+詳細については、「[A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
 基本的な A/B テストで表示されるコンテンツは、各エクスペリエンスに対して選択したパーセンテージに従って、アクティビティに割り当てたアセットからランダムに選択されます。このランダムなトラフィック分割の結果、トラフィックの割合が均等化するまでの初期のトラフィック量が多くなる場合があります。例えば、2 つのエクスペリエンスを作成した場合、最初のエクスペリエンスはランダムに選択されます。トラフィック量がほとんどない場合は、訪問者の割合が一方のエクスペリエンスに偏っている可能性があります。トラフィックが増加するほど、その割合も均等化されていきます。
 
@@ -59,7 +59,7 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### 自動ターゲット（AT）
 
-詳細については、「[自動ターゲット](/help/c-activities/auto-target-to-optimize.md)」を参照してください。
+詳細については、「[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。
 
 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数選択します。また、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信することで、コンテンツをパーソナライズしてコンバージョンを促進していきます。
 
@@ -97,7 +97,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新がターゲットエッジに送信されます。 Central ClustersとEdge Clustersは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。 すべての1:1モデリングも各エッジに保存されるので、より複雑なリクエストもエッジで処理できます。
 
-各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは、最も近いエッジクラスターにルーティングされます。
+各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 
 
 詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
