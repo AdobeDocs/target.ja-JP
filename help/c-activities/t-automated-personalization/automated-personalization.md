@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 97%
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 [!UICONTROL 自動ターゲット]と同様に、[!UICONTROL Automated Personalization] でも、先進のデータサイエンスアンサンブル手法であるランダムフォレストアルゴリズムを主要パーソナライゼーションアルゴリズムとして使用し、訪問者に表示する最適なエクスペリエンスを決定します。[!UICONTROL Automated Personalization は、テストの検出フェーズで重要になります。]また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Automated Personalizationと] 自動ターゲットの違いについて詳しくは [!UICONTROL 、「]自動ターゲット [](/help/c-activities/auto-target-to-optimize.md)」を参照してください。
+[!UICONTROL Automated Personalizationと] 自動ターゲットの違いについて詳しくは [!UICONTROL 、「]自動ターゲット [](/help/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。
 
 ファイルをサイトに実装することで、任意のコンテンツをクリックできるようになり、そこから、VEC（[!UICONTROL Visual Experience Composer]）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。[!UICONTROL Automated Personalization] は、訪問者の行動の変化に対応できるので、終了日の設定がなくても実行でき、継続的な改善やパーソナライゼーションができます。これは、「常時稼動」モードとも呼ばれます。テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
@@ -33,14 +33,14 @@ ht-degree: 97%
 | 用語 | 定義 |
 |---|---|
 | マルチアームバンディット | 調査学習とその学習の活用のバランスの最適化のためのマルチアームバンディットアプローチです。 |
-| ランダムフォレスト | ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)を参照してください。 |
+| ランダムフォレスト | ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](/help/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。 |
 | トンプソンサンプリング | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。詳しくは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)を参照してください。 |
 
 [!UICONTROL Automated Personalization] を利用する際は、次の点を考慮してください。
 
 **[!UICONTROL Automated Personalization] では、パーソナライズにランダムフォレストアルゴリズムを利用します。**
 
-ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。例えば、ゴールドロイヤルティメンバーであり、Chrome を利用し、火曜日にサイトにアクセスした訪問者はエクスペリエンス A でコンバージョンする確率が高く、ニューヨークからの訪問者はエクスペリエンス B でコンバージョンする確率が高い可能性があります。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)を参照してください。
+ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。例えば、ゴールドロイヤルティメンバーであり、Chrome を利用し、火曜日にサイトにアクセスした訪問者はエクスペリエンス A でコンバージョンする確率が高く、ニューヨークからの訪問者はエクスペリエンス B でコンバージョンする確率が高い可能性があります。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](/help/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
 **パーソナライゼーションモデルは訪問ごとに最適化されます。**
 
@@ -60,11 +60,11 @@ ht-degree: 97%
 
 **Target は、パーソナライゼーションモデルを構築するために、訪問者に関する情報を自動的に収集します。**
 
-* [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] で使用される属性について詳しくは、「[Automated Personalizationのデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)」を参照してください。
+* [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] で使用される属性について詳しくは、「[Automated Personalizationのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)」を参照してください。
 
 **Target は、パーソナライゼーションモデルを構築するために、[!DNL Adobe Experience Cloud] のすべての共有オーディエンスを自動的に使用します。**
 
-* オーディエンスをモデルに追加するために何か特別な作業をおこなう必要はありません。[!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)」を参照してください。
+* オーディエンスをモデルに追加するために何か特別な作業をおこなう必要はありません。[!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/c-integrating-target-with-mac/mmp.md)」を参照してください。
 
 **パーソナライゼーションモデルを構築するために、オフラインデータや傾向スコアなどのカスタムデータをアップロードできます。**
 
@@ -74,7 +74,7 @@ CRM 情報や顧客のチャーン傾向スコアなどのオフラインデー�
 * [プロファイルパラメーター](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [プロファイル更新のためのサーバー側 API](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-自動的に収集され、[!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]のパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)」を参照してください。
+自動的に収集され、[!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]のパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)」を参照してください。
 
 ## ![概要バッジ](/help/assets/overview.png) ：トレーニングビデオアクティビティタイプ
 
