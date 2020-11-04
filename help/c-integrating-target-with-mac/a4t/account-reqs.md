@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ### Analytics レポートスイートへのアクセスの設定
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. レポートを表示できない場合は、これらのいずれかのグループのメンバーであることを確認してください。
+特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権が必要です。 「 [!UICONTROL Admin Console]」でアクセス権を取得するには、 [!DNL Analytics] 製品プロファイルをクリックし、「 [!UICONTROL 権限] 」タブをクリックします。 その後、プロファイルがアクセス権を持つレポートスイートを確認できます。 でアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つ [!DNL Target] であることを確認してください。
 
-詳しくは、「 [製品のプロファイルとグループ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)」を参照してください。
+次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
-### Web サービスアクセスグループへのアクセスの設定
-
-[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにするには、[!DNL Analytics]の Web サービスアクセスグループに属している必要があります。
+![「Admin Console権限」タブ](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
