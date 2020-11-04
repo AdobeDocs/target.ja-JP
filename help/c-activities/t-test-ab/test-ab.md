@@ -5,7 +5,7 @@ title: A/Bテストの概要
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ A/Bテストを設定する際に、各エクスペリエンスを表示する�
 | --- | --- |
 | [!UICONTROL 手動の A/B テスト] | 複数のエクスペリエンスを比較し、事前に指定したテスト期間内で最もコンバージョンを増やすことができたエクスペリエンスを見極めます。<br>この節では、手動の [!UICONTROL A/B Test] アクティビティを設定する方法を説明しますが、他のタイプの [!UICONTROL A/B Test] アクティビティの手順は似ています。 |
 | [!UICONTROL 自動配分] | 2 つ以上のエクスペリエンスの中から勝者を特定してから、その勝者にトラフィックを配分し直すことで、テストと学習を続けながらコンバージョンを増やしていきます。<br>自動配分アクティビティを使用する利点については、A/Bテストと [自動配分の概要の](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) 自動配分 *(* Whow ling the run an A/B Test [and](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Auto-Allocate overview)を参照してください。 |
-| ![プレミアムバッジ](/help/assets/premium.png)[!UICONTROL 自動ターゲット] | 高度な機械学習を使用してコンテンツをパーソナライズし、コンバージョンを促進します。その際は、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様の訪問者の過去の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信します。<br>詳しくは、 [自動ターゲットを参照してください](/help/c-activities/auto-target-to-optimize.md)。 |
+| ![プレミアムバッジ](/help/assets/premium.png)[!UICONTROL 自動ターゲット] | 高度な機械学習を使用してコンテンツをパーソナライズし、コンバージョンを促進します。その際は、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様の訪問者の過去の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信します。<br>詳しくは、 [自動ターゲットを参照してください](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
 これらの [!UICONTROL A/B Test] アクティビティのうちどれが適切かについて詳しくは、インタラクティブな [Adobe TargetアクティビティガイドPDFを参照してください](/help/c-activities/target-activities-guide.md)。
 
