@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 86%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 86%
       + [自動配分アクティビティの作成](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
       + [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [自動ターゲット](c-activities/auto-target-to-optimize.md)
+   + 自動ターゲット {#auto-target}
+      + [自動ターゲットの概要](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [自動ターゲットアクティビティの作成](/help/c-activities/auto-target/create-auto-target.md)
+      + [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + 自動パーソナライゼーション{#automated-personalization}
       + [自動パーソナライゼーションの概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
