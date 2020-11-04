@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 76%
+source-wordcount: '3369'
+ht-degree: 75%
 
 ---
 
 
-# 自動配分{#auto-allocate}
+# 自動配分の概要
 
 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。
 
-[3 ステップのガイドによるワークフローを使用して A/B アクティビティを作成する](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)ときに、「[!UICONTROL 最良のエクスペリエンスに自動配分]」オプションを選択できます。
+While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
 
 ## 課題 {#section_85D5A03637204BACA75E19646162ACFF}
 
