@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
-「 [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) 」オプションをチェックアウトします。
+「 [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) 」オプションをチェックアウトします。
 
 **ニーズに合ったアクティビティのタイプを見極めるには、どうすればよいですか？**
 
@@ -120,7 +120,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 **作成したばかりのアクティビティのプレビューを確認し、QA を実行するにはどうすればよいですか？**
 
-[強力な QA モード機能](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)を利用して、QA を実行できます。QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
+[強力な QA モード機能](/help/c-activities/c-activity-qa/activity-qa.md)を利用して、QA を実行できます。QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
 
 **Target の判定機能を利用し、シングルページアプリケーション（SPA）またはサーバー側の統合で使用できるエクスペリエンスやオファーを受け取るには、どうすればよいですか？**
 
@@ -167,7 +167,7 @@ mbox と[カスタムオーディエンス](../c-target/c-audiences/c-target-rul
 
 * [Analytics for Target（A4T）](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [顧客属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [オーディエンス](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [オーディエンス](/help/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 * [顧客属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [オーディエンス](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [オーディエンス](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **複数のユーザーセグメントを対象に、レポートのデータを多角的に分析することはできますか？**
