@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 29%
@@ -42,7 +42,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 2020年11月10日に予定されている次のライブウェビナーに関する情報を追加しました。<ul><li>Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現</li></ul> |
 | 10月12日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 認証トークンの生成に必要な権限レベルを示すために [、デバッグツールで使用するための認証トークンの](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 取得が更新されました。 |
 |  | [プロファイル API 設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 認証トークンを生成する必要がある権限レベルを示すトピックを更新しました。 |
-|  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 自動ターゲットを使用した実際の成功事例を追加しました。 |
+|  | [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) | 自動ターゲットを使用した実際の成功事例を追加しました。 |
 |  | [類似のページに同じエクスペリエンスを組み込む](/help/c-experiences/c-visual-experience-composer/temtest.md) | ドメイン全体で同じアクティビティをレンダリングする方法を説明する節を追加しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>自動配分と自動ターゲットアクティビティ用のターゲット用のAnalytics(A4T)指標</li></ul> |
 | 10月8日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 次の解決された問題を追加しました。<ul><li>[自動ターゲットレポート](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。<ul><li>[レポート](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
@@ -95,7 +95,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 8月10日 | [CNAME と Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAMEを使用する場合にcookieヘッダーのサイズが増えることを示すテキストを追加しました。 |
 |  | [ターゲットとAdobe Audience Managerの統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新規トピックです。 |
 |  | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のアーカイブされたウェビナーの表示へのリンクを追加しました。「HSBCは、Adobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化および提供する方法」 |
-| 8月6日 | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md#how-long) | 次のFAQのテキストを更新しました。「モデルが作成されるまで、どのくらい待つ必要がありますか？」 |
+| 8月6日 | [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | 次のFAQのテキストを更新しました。「モデルが作成されるまで、どのくらい待つ必要がありますか？」 |
 |  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | targettypeのテキストを更新しました。 |
 | 8月5日 | [Target の Cookie の削除](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | トピック全体を更新しました。 |
 | 8月4日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 8月13日に予定されている「人工知能とAdobe Targetを使用したパーソナライゼーション戦略」ウェビナーに関する登録情報を追加しました。 |
@@ -106,7 +106,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 8月5日に予定されているAdobe Targetコミュニティのコーヒーブレークに関する登録情報を追加しました。 |
 | 28 年 7 月 | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>および [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | トピックの先頭にある注記のテキストを更新しました。 |
 |  | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 次の FAQ を追加しました。<ul><li>自動配分アクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li><li>自動配分は、環境に関するモデルをどのように構築しますか？</li></ul> |
-|  | [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) | 以下の FAQ を追加しました。<ul><li>自動ターゲットアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li></ul>「考慮事項」の節のテキストを更新しました。 |
+|  | [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) | 以下の FAQ を追加しました。<ul><li>自動ターゲットアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li></ul>「考慮事項」の節のテキストを更新しました。 |
 |  | [Automated PersonalizationFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 次の FAQ を追加しました。<ul><li>Automated Personalizationアクティビティの実行中に「レポートデータをリセット」オプションを使用できますか。</li><li>Automated Personalizationは環境に関するモデルをどのようにして作り上げているか。</li></ul> |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Internet Explorerおよび不明な要素に関する情報を追加しました。 |
 |  | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 現在の設計では、小さな割合のデータ（大規模な生産バッチの0.1 %まで）はオンボードされない可能性があります。 |
@@ -122,7 +122,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 7 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月22日のAdobe Target・コーヒーブレークに関する情報を追加。 |
 | 15 年 7 月 | [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新規トピックです。 |
-| 14 年 7 月 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[自動ターゲット](/help/c-activities/auto-target-to-optimize.md),<br><br>[および自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | アクティビティの途中で目標指標を変更しないよう推奨するFAQを追加しました。 |
+| 14 年 7 月 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md),<br><br>[および自動パーソナライゼーションFAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | アクティビティの途中で目標指標を変更しないよう推奨するFAQを追加しました。 |
 | 7 年 7 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 7月8日のAdobe Target・コーヒーブレークに関する情報を追加。 |
 | 6月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1リリース（2020年7月）に関する情報を追加しました。 |
 |  | [ターゲットドキュメントの概要](/help/r-release-notes/target-documentation.md) | ドキュメントの様々なソースについて詳しく説明する新しいト [!DNL Target] ピックです。 |
