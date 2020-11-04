@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 22%
@@ -51,7 +51,7 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
    十分なトラフィックがない場合は、次のいずれかまたはすべてをおこなうことができます。
 
-   * Consider using an [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
+   * Consider using an [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
    * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせの数を減らします。
    * アクティビティの実行期間を長くします。
 
