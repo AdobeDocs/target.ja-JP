@@ -5,7 +5,7 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -48,7 +48,7 @@ ht-degree: 77%
 リダイレクトオファーの既知の問題を以下に示します。
 
 * ある条件下で、限られた数のお客様が、Analytics for Target（A4T）で設定されたアクティビティのリダイレクトオファーを使用する場合、トラフィック配布の相違の比率が高くレポートされています。アドビのエンジニアが、現在、この問題に対処しています。
-* at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
+* at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](/help/c-activities/c-activity-qa/activity-qa.md) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
 ### VEC 内でのページ読み込みのキャンセル {#cancel}
 
