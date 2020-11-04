@@ -1,5 +1,5 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T;requirements
 description: Adobe Analytics に基づいたアクティビティを Adobe Target 内で作成する場合（A4T）のユーザーアカウントの要件です。
 title: ユーザー権限の要件
 feature: a4t implementation
@@ -7,15 +7,15 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
+source-git-commit: 95e620e78fa6bcb2cded1c6efc79d365c5b70b30
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 51%
+source-wordcount: '257'
+ht-degree: 48%
 
 ---
 
 
-# ユーザー権限の要件 {#user-permission-requirements}
+# ユーザー権限の要件
 
 （A4T）で [!DNL Adobe Analytics]のベースとなるアクティビティ[!DNL Adobe Target] を作成するためのユーザーアカウント要件に関する情報です。
 
@@ -41,15 +41,19 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-次の作業を実行します。[!DNL Adobe Analytics]
+Configure access to the [!DNL Analytics] report suite:
 
-### Analytics レポートスイートへのアクセスの設定
+特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権が必要です。
 
-特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権が必要です。 「 [!UICONTROL Admin Console]」でアクセス権を取得するには、 [!DNL Analytics] 製品プロファイルをクリックし、「 [!UICONTROL 権限] 」タブをクリックします。 その後、プロファイルがアクセス権を持つレポートスイートを確認できます。 でアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つ [!DNL Target] であることを確認してください。
+1. 「 **[!UICONTROL Admin Console]**」で、 [!DNL Analytics] 製品プロファイルをクリックし、「 **[!UICONTROL 権限]** 」タブをクリックします。
 
-次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
+   その後、プロファイルがアクセス権を持つレポートスイートを確認できます。
 
-![「Admin Console権限」タブ](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+1. のアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つ [!DNL Target] であることを確認します。
+
+   次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
+
+   ![「Admin Console権限」タブ](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
