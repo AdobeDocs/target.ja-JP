@@ -5,7 +5,7 @@ title: Adobe Target のパーソナライゼーションアルゴリズムのデ
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
 
-Target のパーソナライゼーションアルゴリズムについて詳しくは、[ランダムフォレストアルゴリズム](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)を参照してください。
+Target のパーソナライゼーションアルゴリズムについて詳しくは、[ランダムフォレストアルゴリズム](/help/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
-以下の表に、マーケティング担当者が何もしなくてもデフォルトで自動パーソナライゼーションおよび自動ターゲットで収集されるデータと、これらの属性を[パーソナライゼーションインサイトレポート](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)で表示するときに使用する命名規則を示します。入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)を参照してください。
+以下の表に、マーケティング担当者が何もしなくてもデフォルトで自動パーソナライゼーションおよび自動ターゲットで収集されるデータと、これらの属性を[パーソナライゼーションインサイトレポート](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)で表示するときに使用する命名規則を示します。入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)を参照してください。
 
 | データタイプ | 説明 | データタイプの命名規則 | 属性の例 |
 | --- | --- | --- | --- |
