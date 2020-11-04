@@ -6,10 +6,10 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 98%
+source-wordcount: '1020'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 [!UICONTROL 自動ターゲット]と同様に、[!UICONTROL Automated Personalization] でも、先進のデータサイエンスアンサンブル手法であるランダムフォレストアルゴリズムを主要パーソナライゼーションアルゴリズムとして使用し、訪問者に表示する最適なエクスペリエンスを決定します。[!UICONTROL Automated Personalization は、テストの検出フェーズで重要になります。]また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Automated Personalization] と [!UICONTROL 自動ターゲット]の違いについて詳しくは、「[パーソナライズされたエクスペリエンスの自動ターゲット](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)」を参照してください。
+[!UICONTROL Automated Personalizationと] 自動ターゲットの違いについて詳しくは [!UICONTROL 、「]自動ターゲット [](/help/c-activities/auto-target-to-optimize.md)」を参照してください。
 
 ファイルをサイトに実装することで、任意のコンテンツをクリックできるようになり、そこから、VEC（[!UICONTROL Visual Experience Composer]）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。[!UICONTROL Automated Personalization] は、訪問者の行動の変化に対応できるので、終了日の設定がなくても実行でき、継続的な改善やパーソナライゼーションができます。これは、「常時稼動」モードとも呼ばれます。テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 [!UICONTROL Automated Personalization] を利用する際は、次の点を考慮してください。
 
-**[!UICONTROL Automated Personalization]では、パーソナライズにランダムフォレストアルゴリズムを利用します。**
+**[!UICONTROL Automated Personalization] では、パーソナライズにランダムフォレストアルゴリズムを利用します。**
 
 ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。例えば、ゴールドロイヤルティメンバーであり、Chrome を利用し、火曜日にサイトにアクセスした訪問者はエクスペリエンス A でコンバージョンする確率が高く、ニューヨークからの訪問者はエクスペリエンス B でコンバージョンする確率が高い可能性があります。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)を参照してください。
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 * [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] で使用される属性について詳しくは、「[Automated Personalizationのデータ収集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)」を参照してください。
 
-**Target は、パーソナライゼーションモデルを構築するために、[!DNL Adobe Experience Cloud]のすべての共有オーディエンスを自動的に使用します。**
+**Target は、パーソナライゼーションモデルを構築するために、[!DNL Adobe Experience Cloud] のすべての共有オーディエンスを自動的に使用します。**
 
 * オーディエンスをモデルに追加するために何か特別な作業をおこなう必要はありません。[!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)」を参照してください。
 
