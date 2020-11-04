@@ -1,12 +1,12 @@
 ---
 keywords: qa;preview;bookmarklet;preview links
-description: ターゲットにQAモードからの解放を強制するために、Adobe TargetQAブックマークレットを使用するのに役立つ情報です。
+description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
 title: Adobe Target向けアクティビティQAブックマークレット
 feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -24,7 +24,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## at.js 1用のアクティビティQAブックマークレット&#x200B;*x*
 
-[QAモード](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) は定着なので、QAモードでWebサイトを参照すると、セッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、モードからTargetをリリースする必要があります。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+[QAモード](/help/c-activities/c-activity-qa/activity-qa.md) は定着なので、QAモードでWebサイトを参照すると、セッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、モードからTargetをリリースする必要があります。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
