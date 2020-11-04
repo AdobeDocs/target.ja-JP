@@ -1,24 +1,32 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity
-description: Target の Visual Experience Composer を使用すると、Target を有効にしたページに直接テストを作成し、Target 内でページの一部を変更することができます。
+keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
+description: Adobe TargetのVisual Experience Composerを使用して、A/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
 title: A/B テストの作成
 feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 98%
+source-wordcount: '850'
+ht-degree: 64%
 
 ---
 
 
-# A/B テストの作成{#create-an-a-b-test}
+# A/B テストの作成
 
-Target の Visual Experience Composer を使用すると、Target を有効にしたページに直接テストを作成し、Target 内でページの一部を変更することができます。
+Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
 
-1. [!UICONTROL アクティビティ]リストで、**[!UICONTROL アクティビティを作成]**／**[!UICONTROL A/B テスト]**&#x200B;を選択します。
+>[!NOTE]
+>
+>「手動（デフォルト）」 [!UICONTROL A/B Test] アクティビティ（この節で説明）に加えて、次の2種類の [!DNL Target] A/B Test [!UICONTROL アクティビティも] 追加で提供されます。 [!UICONTROL 自動配分] と [!UICONTROL 自動ターゲット]。
+>
+>「A/Bテストの概要 [」の「A/Bテストの](/help/c-activities/t-test-ab/test-ab.md#types) アクティビティの *タイプ*」を参照してください。
+
+手動の [!UICONTROL A/Bテスト] アクティビティを作成するには：
+
+1. **[!UICONTROL アクティビティ]**&#x200B;リストで、**[!UICONTROL アクティビティを作成]**／**[!UICONTROL A/B テスト]**&#x200B;を選択します。
 
    ![アクティビティを作成ドロップダウンリスト](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -28,23 +36,23 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
    >
    >様々なアクティビティタイプについて詳しくは、[アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)および [Target アクティビティのガイド](/help/c-activities/target-activities-guide.md)を参照してください。
 
-   ![A/B テストアクティビティの作成](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
-
 1. 必要に応じて、「**[!UICONTROL ビジュアル (デフォルト)]**」を選択します。
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
+   ![A/Bテストアクティビティの作成](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+
+   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. 詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VEC およびフォームベースの Experience Composer に加えて、Target はシングルページアプリケーション VEC およびモバイルアプリ向け VEC を提供します。様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VECおよび [!UICONTROL フォームベースのExperience Composerに加えて]、「単一ページのアプリVEC」を [!DNL Target] オファーします。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
+   >前述の図の「[!UICONTROL ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
 
 1. （条件付き）[Target Premium](/help/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
-1. [アクティビティ URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定してから、「**[!UICONTROL 次へ]**」をクリックします。
+1. [アクティビティ URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) を指定してから、「**[!UICONTROL 次へ]**」をクリックします。
 
    アカウントにデフォルトの URL が設定されている場合は、その URL がデフォルトで表示されます。デフォルトの URL を別の URL に変更できます。
 
@@ -82,9 +90,10 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
    ![A/B テストのターゲット設定手順](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
    フロー図を使用すると、アクティビティに対するオーディエンスの選択およびエクスペリエンスの設定を順に実行できます。
-1. [!UICONTROL オーディエンス]ボックスで編集アイコンをクリックし、アクティビティの[オーディエンスを選択](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)します。
 
-   デフォルトで、オーディエンスはすべての訪問者に設定されています。
+1. 「 [!UICONTROL オーディエンス] 」ボックスで、編集アイコン（縦に3つの楕円）をクリックし、「オーディエンスを **[!UICONTROL 置換]**」をクリックして、アクティビティのオーディエンス [](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) を選択します。
+
+   By default, the audience is set to [!UICONTROL All Visitors].
 
 1. アクティビティに参加する資格のある訪問者の割合を選択します。
 
@@ -102,24 +111,24 @@ Target の Visual Experience Composer を使用すると、Target を有効に�
 
    * **[!UICONTROL 最良のエクスペリエンスに自動配分]**：ほとんどのアクティビティ参加者がパフォーマンスの高いエクスペリエンスに自動的にリダイレクトされます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。[自動トラフィック配分](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
 
-   * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**：Target は高度な機械学習アルゴリズムを使用して、目標を最大化できるよう訪問者を自動的に最適なエクスペリエンスに関連付けます。詳しくは、[自動ターゲットで最適化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)を参照してください。
-   「**[!UICONTROL エクスペリエンスを追加]**」をクリックして別のエクスペリエンスをアクティビティに追加することもできます。
+   * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**: [!DNL Target] 高度な機械学習機能を使用して、パフォーマンスの高いマーケティング担当者が定義した複数のエクスペリエンスを特定し、コンバージョンを促進し、個々の顧客プロファイルや類似訪問者の過去の行動に基づいて、最もカスタマイズされたエクスペリエンスを訪問者に提供します。 For more information, see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
+   You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
-1. オーディエンスとエクスペリエンスの選択が完了したら、「**[!UICONTROL 次へ]**」をクリックして、3 ステップのガイドによるワークフロー内の 3 番目のステップに移ります。
+1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
-1. アクティビティの[目標と設定](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)を指定します。
+1. アクティビティの[目標と設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)を指定します。
 
    ![A/B アクティビティ設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「 **[!UICONTROL 保存して閉じる]** 」または「 **[!UICONTROL 保存]**」をクリックします。
 
-アクティビティの作成後、「概要」タブに、アクティビティの図などアクティビティに関する情報が表示されます。
+After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
 
-## トレーニングビデオ：A/Bテストの作成（8:36） ![チュートリアルバッジ](/help/assets/tutorial.png)
+## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 このビデオでは、[!DNL Target] で 3 ステップのガイドによるワークフローを使用して A/B テストを作成する方法を説明します。
 
-* Adobe Target での A/B アクティビティの作成
+* A/ [!UICONTROL B Test] アクティビティの作成( [!DNL Adobe Target]
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
