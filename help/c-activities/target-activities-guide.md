@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 98%
@@ -28,7 +28,7 @@ Adobe Target の様々なアクティビティタイプ（Recommendations を除
 |--- |--- |
 | ![アイコン](/help/c-activities/assets/icon_ab.png)<br/>手動の A/B テスト | 複数のエクスペリエンスを比較し、事前に指定したテスト期間内で最もコンバージョンを増やすことができたエクスペリエンスを見極めます。詳しくは、[A/B テスト](/help/c-activities/t-test-ab/test-ab.md)を参照してください。 |
 | ![アイコン 自動配分](/help/c-activities/assets/icon_auto_allocate.png)<br/>自動配分 | 2 つ以上のエクスペリエンスの中から勝者を特定してから、その勝者にトラフィックを配分し直すことで、テストと学習を続けながらコンバージョンを増やしていきます。詳しくは、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)を参照してください。 |
-| ![アイコン AT](/help/c-activities/assets/icon_auto_target.png)<br/>自動ターゲット | 高度な機械学習を使用してコンテンツをパーソナライズし、コンバージョンを促進します。その際は、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様の訪問者の過去の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信します。詳しくは、[パーソナライズされたエクスペリエンスの自動ターゲット](/help/c-activities/auto-target-to-optimize.md)を参照してください。 |
+| ![アイコン AT](/help/c-activities/assets/icon_auto_target.png)<br/>自動ターゲット | 高度な機械学習を使用してコンテンツをパーソナライズし、コンバージョンを促進します。その際は、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様の訪問者の過去の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信します。詳しくは、[パーソナライズされたエクスペリエンスの自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。 |
 | ![アイコン AP](/help/c-activities/assets/icon_ap.png)<br/>Automated Personalization（AP） | 高度な機械学習を使用して特定のオファーやメッセージを組み合わせて、個々の顧客プロファイルに合わせて各訪問者に様々なオファーのバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。詳しくは、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) を参照してください。 |
 | ![アイコン MVT](/help/c-activities/assets/icon_mvt.png)<br/>多変量分析テスト（MVT） | ページ上の各要素のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせを特定します。事前に指定したテスト期間内で、コンバージョンを最も増やすことができたページ要素を見極めることもできます。詳しくは、[多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md)を参照してください。 |
 | ![アイコン XT](/help/c-activities/assets/icon_xt.png)<br/>エクスペリエンスターゲット設定（XT） | マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。詳しくは、[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)を参照してください。 |
