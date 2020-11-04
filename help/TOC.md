@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1555'
+ht-degree: 86%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 87%
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
       + [10件の一般的なA/Bテストの落とし穴とその回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B テストの作成 {#create}
-         + [テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [オーディエンスの選択](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 87%
          + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自動配分 {#auto-allocate}
-      + [自動配分](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [自動配分アクティビティの作成](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
       + [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [自動ターゲット](c-activities/auto-target-to-optimize.md)
