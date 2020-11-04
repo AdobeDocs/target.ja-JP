@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) 自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択
 
-[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)（AP）または[自動ターゲット](/help/c-activities/auto-target-to-optimize.md)（AT）アクティビティを作成する際に、コントロールとして使用する、ランダムに提供されるエクスペリエンスまたは特定のエクスペリエンスを選択できます。
+[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)（AP）または[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)（AT）アクティビティを作成する際に、コントロールとして使用する、ランダムに提供されるエクスペリエンスまたは特定のエクスペリエンスを選択できます。
 
 この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィックを関連性のあるエクスペリエンスにルーティングできます。その後、そのコントロールへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。
 
