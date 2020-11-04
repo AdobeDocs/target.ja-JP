@@ -4,7 +4,7 @@ description: A/B テスト（自動配分と自動ターゲットを含む）お
 title: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 98%
@@ -31,7 +31,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target-to-optimize.md) オプションを選択できます。
+   >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) オプションを選択できます。
 
 1. [エクスペリエンス](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)の作成中に、Recommendations をオファーとして追加する要素をクリックして、**[!UICONTROL 前に挿入]**、**[!UICONTROL 後ろに挿入]**、または&#x200B;**[!UICONTROL 次で置換]**&#x200B;アクションを選択してから、[!UICONTROL Recommendation] を選択します。
 
