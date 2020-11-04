@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '903'
 ht-degree: 86%
 
 ---
@@ -46,7 +46,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### 自動ターゲット
 
-[パーソナライズされたエクスペリエンスの自動ターゲット](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)は、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定します。この特定により、個々の顧客プロファイルや近似するプロファイルを持つ過去の訪問者の行動を基に、詳細にカスタマイズしたエクスペリエンスを各訪問者に配信し、コンテンツをパーソナライズしてコンバージョンを促進します。
+[自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。](/help/c-activities/auto-target-to-optimize.md)
 
 ### Recommendations
 
