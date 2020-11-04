@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 98%
 
 ---
@@ -64,7 +64,7 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
-詳細については、「[A/B テストと自動ターゲットの併用](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)」オプションを確認してください。
+「 [自動ターゲット](/help/c-activities/auto-target-to-optimize.md) 」オプションをチェックアウトします。
 
 **ニーズに合ったアクティビティのタイプを見極めるには、どうすればよいですか？**
 
