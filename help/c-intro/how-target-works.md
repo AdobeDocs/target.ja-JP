@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -59,7 +59,7 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### 自動ターゲット（AT）
 
-詳細については、「[自動ターゲット](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)」を参照してください。
+詳細については、「[自動ターゲット](/help/c-activities/auto-target-to-optimize.md)」を参照してください。
 
 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数選択します。また、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信することで、コンテンツをパーソナライズしてコンバージョンを促進していきます。
 
