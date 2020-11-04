@@ -5,10 +5,10 @@ title: Analytics for Target の実装
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 48%
+source-wordcount: '900'
+ht-degree: 49%
 
 ---
 
@@ -91,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-ペイロードは、 [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。 自動配分 [!UICONTROL と] 自動ターゲット  アクティビティの場合は、sessionIdも転送する必要があることに注意してください。 詳しくは、『 [Adobe Target配信APIガイド』の「](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) ターゲットのための *Adobe Analytics(A4T)」を参照してください*
+ペイロードは、 [Data Insertion APIを介してAnalyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。 自動配分 [!UICONTROL と] 自動ターゲット  アクティビティの場合は、sessionIdも転送する必要があることに注意してください。 詳しくは、『 [Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) 』ガイドの「ターゲット用の *Analytics(A4T)のレポート* 」を参照してください。
 
 グローバル設定は望まず、よりオンデマンドな方法が好ましい場合は、at.js 関数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、**analyticsLogging: &quot;client_side&quot;** に渡すことでこれを実現します。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
