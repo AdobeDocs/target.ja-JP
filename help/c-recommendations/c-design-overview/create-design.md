@@ -5,10 +5,10 @@ title: デザインの作成
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 33%
+source-wordcount: '989'
+ht-degree: 32%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 33%
 
    | パラメーター | 値 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target クライアントコードです（../target/products.html#recsSettings／Recommendation API トークン／クライアントコードから入手できます）。 |
+   | `[YOUR_CLIENT_CODE]` | ターゲットクライアントコード(/help/target/products.html#recs設定/RecommendationsAPIトークン/クライアントコードで利用可能) |
    | `[YOUR_MBOX_NAME]` | フォームベースのRecommendationsの「場所」セクションで選択した名前（この場合はSample_Recs_Response）。 |
    | `[ENTITY_ID` | カタログ内の項目の `entity.id` です。 |
    | `[AT_PROPERTY_TOKEN]` | （オプション）アクティビティの設定時にプロパティ（Enterprise 権限の一部）を選択した場合は追加します。 |
