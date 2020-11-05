@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ ht-degree: 99%
    ルールを使用すると、オーディエンスをサイト訪問者の一部に限定することができます。
 1. ルールタイプを選択します。
 
-   各ルールタイプには、独自のパラメーターがあります。オーディエンスルールの各タイプの構成について詳しくは、[オーディエンスのカテゴリ](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
+   各ルールタイプには、独自のパラメーターがあります。オーディエンスルールの各タイプの構成について詳しくは、[オーディエンスのカテゴリ](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
 1. ルールパラメーターを定義します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
