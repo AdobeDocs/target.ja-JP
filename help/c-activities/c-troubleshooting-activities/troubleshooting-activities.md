@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->以下のトラブルシューティング情報に加えて、「[Target のトラブルシューティング](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)」を参照して、その他のトラブルシューティングトピック、FAQ、アクティビティやその他の機能のトラブルシューティングに関するのリンクを参照してください[!DNL Adobe Target]。
+>以下のトラブルシューティング情報に加えて、「[Target のトラブルシューティング](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)」を参照して、その他のトラブルシューティングトピック、FAQ、アクティビティやその他の機能のトラブルシューティングに関するのリンクを参照してください[!DNL Adobe Target]。
 
 以下のセクションでは、発生する可能性のある問題が推奨ソリューションと共に説明します。
 
@@ -82,7 +82,7 @@ Target でユーザーとして追加されたら、アクティビティを作�
 * 承認者にしてもらうよう、アカウントの管理者に依頼します。
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   「[承認者の役割の割り当て](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
+   「[承認者の役割の割り当て](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
 
 ## アクティビティの設定後、ページの構造が変更された。
 
@@ -92,7 +92,7 @@ Target でユーザーとして追加されたら、アクティビティを作�
 
 * アクティビティを再構築します。
 
-ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## ページの読み込み中にページの構造が変更される。
 
@@ -105,7 +105,7 @@ Target でユーザーとして追加されたら、アクティビティを作�
 * ページコードを更新して、テストする各要素を一意に識別します（id を使用）。
 * 前述のとおり、クラスや兄弟を動的に修正するのを止めます。
 
-ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## mbox.js が &lt;head> から後続のすべてのコードを &lt;body> に移動する。
 
