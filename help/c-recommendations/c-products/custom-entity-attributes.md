@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 91%
@@ -53,11 +53,11 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 >[!NOTE]
 >
->属性を複数値から単一値に変更するには、カタログを削除して、修正後の製品データをアップロードする必要があります。カタログを削除しても、製品 ID に関連付けられた履歴データは削除されません。詳細については、『*Adobe Recommendations Classic*』ドキュメントの「[システムからすべての項目を削除](../../assets/adobe-recommendations-classic.pdf)」を参照してください。
+>属性を複数値から単一値に変更するには、カタログを削除して、修正後の製品データをアップロードする必要があります。カタログを削除しても、製品 ID に関連付けられた履歴データは削除されません。詳細については、『*Adobe Recommendations Classic*』ドキュメントの「[システムからすべての項目を削除](/help/assets/adobe-recommendations-classic.pdf)」を参照してください。
 
 **制限事項**：
 
-* 事前定義されたエンティティの属性名はカスタムエンティティの属性に使用できません。（[エンティティ属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)を参照。）
+* 事前定義されたエンティティの属性名はカスタムエンティティの属性に使用できません。（[エンティティ属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)を参照。）
 * 属性 `entity.environment` はシステムによって予約されており、カスタムエンティティの属性には使用できません。`entity.environment`、フィードまたは API を使用して `targetPageParams` を渡そうとしても無視されます。
 * 配列には単一値が含まれている必要があります。値の種類が混在する配列（`["AB",1,true]`）は使用できません。
 * 複数値の属性で入れ子になっている JSON 配列（`[10,12,[1,2,3]]`）は単一値の属性として扱われます。
@@ -263,4 +263,4 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 ## 関連トピック：
 
-* [エンティティの属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
