@@ -5,7 +5,7 @@ title: 自動セグメントレポート
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -30,7 +30,7 @@ Automated Personalization（AP）および自動ターゲット（AT）アクテ
 * [!UICONTROL [個人設定インサイト] ]レポートは、[ [!UICONTROL レポート指標]ドロップダウンリストから[] プライマリ目標]が選択されている場合にのみ使用できます。
    >
    >
-* パーソナライゼーションインサイトレポートは、[デフォルト環境](../../administrating-target/hosts.md)でのみサポートされています。
+* パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/administrating-target/hosts.md)でのみサポートされています。
    >
    >
 * [!UICONTROL 個人用設定インサイト] レポートは、  ライブステータスで、アクティブ化され、15日以上トラフィックを受け取っているアクティビティに対してのみ生成されます。
@@ -40,7 +40,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 ## 自動セグメントレポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -73,7 +73,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
    ![](assets/automated_segments_report.png)
 
 
-1. （オプション）[CSV 形式のレポートをダウンロード](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)して、Excel や他のツールで分析をおこないます。
+1. （オプション）[CSV 形式のレポートをダウンロード](/help/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)して、Excel や他のツールで分析をおこないます。
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、[データを Target に送信する方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)を参照してください。
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、[データを Target に送信する方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)を参照してください。
 
 **自動セグメントとは何ですか？**
 
