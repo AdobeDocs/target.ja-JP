@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
@@ -98,7 +98,7 @@ Target では、UI 内の様々な場所で既存のアクティビティを編�
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
-ワークスペースと Enterprise ユーザーの権限の機能について詳しくは、[Enterprise ユーザーの権限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+ワークスペースと Enterprise ユーザーの権限の機能について詳しくは、[Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL アクティビティ]ページで、コピーするアクティビティにマウスポインターを置いて[!UICONTROL コピー]アイコンをクリックした後、ドロップダウンリストから対象のワークスペースを選択します。
 
