@@ -5,7 +5,7 @@ title: at.js の制限
 feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -25,18 +25,18 @@ at.js と mbox.js にはいくつかの違いがあります。このセクシ�
 
 ## 統合とプラグイン {#section_D92E31170176406AAC7B5005F03D3425}
 
-[!DNL mbox.js] 内の一部の関数は、[!DNL at.js] では利用できません。内部 [mbox.js オブジェクトおよびメソッド](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（`mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` など）は、[!DNL at.js] ではサポートされません（例： `mboxFactoryDefault`）。これは設計によるもので、長期的に見ると実装を機能しなくさせ、アップグレードできなくさせる可能性のある、サポートされていない機能を開発するために [!DNL at.js] を「ハッキング」するのを阻止することを目的としています。公開されたメソッドのみ、このドキュメントの API ページで説明しています。理由は以下のとおりです。
+[!DNL mbox.js] 内の一部の関数は、[!DNL at.js] では利用できません。内部 [mbox.js オブジェクトおよびメソッド](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（`mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` など）は、[!DNL at.js] ではサポートされません（例： `mboxFactoryDefault`）。これは設計によるもので、長期的に見ると実装を機能しなくさせ、アップグレードできなくさせる可能性のある、サポートされていない機能を開発するために [!DNL at.js] を「ハッキング」するのを阻止することを目的としています。公開されたメソッドのみ、このドキュメントの API ページで説明しています。理由は以下のとおりです。
 
-* 他のアドビソリューションとの従来のページベースの[統合](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)は、動作しない可能性があり、より新しいサーバー側統合にアップグレードする必要がある。
-* [mbox.js 用に開発されたカスタムプラグイン](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)は、[!DNL at.js] 用に更新しない限り、動作しない可能性がある。
+* 他のアドビソリューションとの従来のページベースの[統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)は、動作しない可能性があり、より新しいサーバー側統合にアップグレードする必要がある。
+* [mbox.js 用に開発されたカスタムプラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)は、[!DNL at.js] 用に更新しない限り、動作しない可能性がある。
 
-   すべての[プラグイン](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)をテストの一部として含めるようにします。
+   すべての[プラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)をテストの一部として含めるようにします。
 
 ## 非同期の考慮事項 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
 現在すべての mbox は非同期なので、ページレンダリングをブロックせず、実行された順番で返されます。
 
-* [フォームベースの Experience Composer](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22) でグローバル mbox を使用している場合、HTML オファーには`<script>`、`<style>`、および `<link>` タグのみ含まれるようにしてください。
+* [フォームベースの Experience Composer](/help/c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22) でグローバル mbox を使用している場合、HTML オファーには`<script>`、`<style>`、および `<link>` タグのみ含まれるようにしてください。
 
    配信中、[!DNL at.js] はグローバル mbox オファーを適用する際に他のすべての HTML タグを除外します。グローバル mbox オファーは HTML HEAD に適用されます。このタグでは、DIV、SPAN などは使用できません。例えば、`<div>test</div>` タグは HTML BODY 内でのみ使用できるので、`<div>` を適用できません。
 
