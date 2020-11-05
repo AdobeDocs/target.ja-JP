@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 48%
@@ -68,14 +68,14 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Consoleで](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、 **[!UICONTROL ユーザー]** / **** ユーザーをクリックし、新しいユーザーを作成するか、既存のユーザーを編集します。
+1. [Admin Consoleで](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、 **[!UICONTROL ユーザー]** / **** ユーザーをクリックし、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## Create user groups {#user-groups}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. [Admin Consoleで](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、 **[!UICONTROL ユーザー]** / **** ユーザーグループをクリックし、新しいユーザーグループを作成するか、既存のグループを編集します。
+1. [Admin Consoleで](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、 **[!UICONTROL ユーザー]** / **** ユーザーグループをクリックし、新しいユーザーグループを作成するか、既存のグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
@@ -84,7 +84,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 
 システム管理者ユーザーはシステムにユーザーを追加する必要があります。ユーザーは自動的には追加されません。They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
+1. [Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
    ![「製品」タブ](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
