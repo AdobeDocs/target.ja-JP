@@ -5,7 +5,7 @@ title: Adobe TargetRecommendationsFAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox にカテゴリ ID が存在する場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-Target では、[非互換の条件をフィルター](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
+Target では、[非互換の条件をフィルター](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## フィードのアップロードに使用する CSV ファイルのサイズ上限を教えてください。 {#section_20F1AF4839A447B9889B246D6E873538}
 
-フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。ただし、ベストプラクティスとして、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。必須の列の長さに関するその他の制限については、[Target の制限に関するページ](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)を参照してください。
+フィードのアップロードに使用する CSV ファイルの行数とサイズに上限はありません。ただし、ベストプラクティスとして、ファイルのアップロード中にエラーが発生しないよう、CSV ファイルのサイズは 1 GB までに制限することをお勧めします。ファイルサイズが 1 GB を超える場合は、複数のフィードファイルに分割することをお勧めします。カスタム属性列の最大数は 100 で、カスタム属性は 4,096 文字までに制限されています。必須の列の長さに関するその他の制限については、[Target の制限に関するページ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)を参照してください。
 
 ## エンティティを動的に除外できますか。
 
