@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -20,7 +20,7 @@ ht-degree: 50%
 
 ## A4T でオフライン計算を実行することはできますか？{#section_55B5B750E17D414CAECBEECE27B15D81}
 
-A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳細については、「[信頼水準および信頼区間](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)」の「Analytics for Target（A4T）でのオフライン計算の実行」を参照してください。
+A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳細については、「[信頼水準および信頼区間](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)」の「Analytics for Target（A4T）でのオフライン計算の実行」を参照してください。
 
 ## 上昇率はどのように計算されますか？{#section_8CAE788EED5646C4B1D64A0D22070734}
 
