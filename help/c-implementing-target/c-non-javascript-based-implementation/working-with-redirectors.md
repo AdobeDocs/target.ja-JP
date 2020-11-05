@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 * 最もコンバージョン率の高いランディングページの発見
 
-適切な設定の判断方法については、[JavaScript ベース以外の実装](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+適切な設定の判断方法については、[JavaScript ベース以外の実装](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Create a redirector {#redirector}
 
@@ -66,10 +66,10 @@ ht-degree: 69%
    1. *セキュリティのベストプラクティス*:上記のように、リダイレクターで使用するドメインが許可されていることを確認します。 許可されていないドメインを使用すると、Adobeは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
    1. リダイレクターの URL をブラウザーに挿入して表示を更新します。
    1. アカウントにログインし、mbox のリストを更新して、新しいリダイレクターが mbox として表示されることを確認します。
-1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
+1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
 1. キャンペーンを作成します。
 
-   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)」を参照してください。
+   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)」を参照してください。
 1. キャンペーンで QA を完了します。
 
    リダイレクターの URL を含む `<a href>` を使用してダミーページを作成します。例：
