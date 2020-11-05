@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -36,7 +36,7 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 
 ## 標準化指標（カウント手法）として訪問者、訪問またはアクティビティのインプレッションを使用する必要がありますか。 {#metrics}
 
-A4Tレポートで指標を標準化する方法には、いくつかの方法があります。 この指標は、カウント手法とも呼ばれ、上昇率計算の分母になります。 また、信頼性計算が適用される前のデータの集計方法に影響します。
+A4Tレポートでの指標の標準化には、いくつかのオプションがあります。 この指標は、カウント手法とも呼ばれ、上昇率計算の分母になります。 また、信頼性計算が適用される前のデータの集計方法に影響します。
 
 * ***実訪問者数***&#x200B;は、あるユーザーが初めてアクティビティの対象になったときに 1 回増加します。
 * ***訪問回数***&#x200B;は、あるユーザー（実訪問者）がアクティビティに入るとセッションのたびに 1 回増加します（その後の訪問でそのアクティビティが表示されない場合も含む）。
@@ -125,7 +125,7 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* 訪問者が `mbox3rdPartyId` を使用している場合、その匿名の訪問者がサードパーティの ID プロファイルと統合されると、 はサードパーティの ID と適合させるために、訪問者に別のエクスペリエンスを割り当てます。[!DNL Target]詳しくは、[mbox3rdPartyId のリアルタイムプロファイル同期](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)を参照してください。
+* 訪問者が `mbox3rdPartyId` を使用している場合、その匿名の訪問者がサードパーティの ID プロファイルと統合されると、 はサードパーティの ID と適合させるために、訪問者に別のエクスペリエンスを割り当てます。[!DNL Target]詳しくは、[mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)を参照してください。
 * [!DNL Analytics] は、異なるデバイスを同じ訪問者としてトラッキングする場合と、それらのデバイスをトラッキングする場合とでは異なる方法でトラッキングする場合があ [!DNL Target] ります。のサードパーティIDの設定 [!DNL Target] は、Analyticsの設定とは異なります。
 
 ## A4Tは仮想レポートスイートをサポートしていますか?
