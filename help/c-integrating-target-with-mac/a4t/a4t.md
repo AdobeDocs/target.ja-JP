@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 46%
@@ -45,7 +45,7 @@ Every metric is included, including any customer or calculated metrics that are 
 
 A4T の使用を検討している場合は、次の点に注意してください。
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [アカウント担当者にお問い合わせください](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [アカウント担当者にお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 * レポートソースはアクティビティごとに設定されます。[!DNL Target] レポートで使用するデータを引き続き収集します。で収集したデータを基にアクティビティを行う場合は、 [!DNL Target] 引き続きデータを利用でき [!DNL Target]ます。
 * どちらか 1 つのレポートソースを選ぶ必要があります。両方のソースから 1 つのアクティビティのデータを収集することはできません。
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. ただし、目標指標は mbox の呼び出しをベースにすることができます。For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Analytics/ターゲットの統合(A4T)(40:33) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
-このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+このビデオは、「[Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
 * 統合を設定し、統合が機能することを検証する方法
 * 統合の仕組み
