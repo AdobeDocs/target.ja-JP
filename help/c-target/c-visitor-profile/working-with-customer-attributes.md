@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 39%
@@ -38,7 +38,7 @@ Consider the following information as your work with customer attributes and [!D
    >[!DNL at.js] （任意のバージョン）または [!DNL mbox.js] バージョン58以降が必要です。
 
 * [!DNL Adobe] は、CRMデータベースの顧客属性(訪問者プロファイル)データの100%がに接続され、でのターゲティングに使用でき [!DNL Experience Cloud] ることを保証しません [!DNL Target]。 現在の設計では、小さな割合のデータ（大規模な生産バッチの0.1 %まで）はオンボードされない可能性があります。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「 [訪問者プロファイルの有効期間](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)」を参照してください。
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 詳しくは、「 [訪問者プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)」を参照してください。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
