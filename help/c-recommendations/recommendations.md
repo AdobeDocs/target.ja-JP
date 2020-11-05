@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >[!DNL Recommendations] アクティビティは、[Target Premium](/help/c-intro/intro.md#premium) ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 >
->現在 [!DNL Recommendations Classic] がある場合、2 つのソリューションについて詳しくは、[Recommendations Classic と Target Premium の Recommendations アクティビティ](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)を参照してください。
+>現在 [!DNL Recommendations Classic] がある場合、2 つのソリューションについて詳しくは、[Recommendations Classic と Target Premium の Recommendations アクティビティ](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)を参照してください。
 
 [!DNL Recommendations] は、チャネル、アプリ、ページ、電子メールメッセージおよびその他の配信オプションにわたるリアルタイムの提案を最適化、カスタマイズするのに役立ち、管理努力を縮小しながら、エンゲージメントとコンバージョンを上昇させます。
 
@@ -44,7 +44,7 @@ ht-degree: 59%
 | 訪問者が視聴しているメディア内容に類似した内容を勧めることで、訪問者がより長い時間メディアサイトに滞在するようにします。 | 「これを閲覧した人が他に閲覧したもの」という条件を使用して、他のビデオを提案するレコメンデーションを作成します。 |
 | 銀行の預金プランに関する情報を閲覧した顧客に、IRA アカウントに関する情報も読むことを提案します。 | 「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。 |
 
-上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](../c-recommendations/c-algorithms/algorithms.md)を参照してください。
+上記の条件や他の [!DNL Recommendations] 条件について詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
 ## キーワード
 
