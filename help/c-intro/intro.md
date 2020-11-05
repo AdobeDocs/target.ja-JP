@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
@@ -38,7 +38,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### 自動パーソナライゼーション
 
-[自動パーソナライゼーション](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。
+[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。
 
 自動パーソナライゼーション（旧称 Test&amp;Target 1:1）は、サイト上での訪問者のアクティビティを記録して、訪問者のプロファイルを構築することで、コンテンツのターゲットを類似する訪問者に設定できます。コンテンツに対する反応を、訪問者個人と訪問者全体の両方について記録し、高度なモデリングアプローチを使用して、情報に基づいてひとりひとりの訪問者を自動的にターゲット設定します。
 
@@ -50,7 +50,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### Recommendations
 
-[Recommendations のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+[Recommendations のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
 レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。次に例を示します。
 
@@ -79,13 +79,13 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### Enterprise ユーザーの権限
 
-[エンタープライズユーザー権限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) (Enterprise User Permissions [!DNL Adobe Admin Console for Enterprise])機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、1人のユーザーに対して異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。 これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
+[エンタープライズユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) (Enterprise User Permissions [!DNL Adobe Admin Console for Enterprise])機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、1人のユーザーに対して異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。 これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic] は、Web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
-詳しくは、『[Recommendations Classic ドキュメント](../assets/adobe-recommendations-classic.pdf)』を参照してください。
+詳しくは、『[Recommendations Classic ドキュメント](/help/assets/adobe-recommendations-classic.pdf)』を参照してください。
 
 ## Experience League：Adobe Target Welcome Kit {#kit}
 
