@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 この数値は、再度テストを実施した場合に同じ結果になる可能性を表します。信頼性が 99.995％以上の場合は、100.00％に切り上げられます。
 
-[ 信頼性レベルと信頼区間を参照 ](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B) してください。
+[ 信頼性レベルと信頼区間を参照 ](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B) してください。
 
 ## 小売データ {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
 ## 信頼性の計算とオフラインでの実行方法 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-[ダウンロードした CSV レポート](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
+[ダウンロードした CSV レポート](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ A4T では、バイナリ指標ではなく、連続型変数にスチューデ�
 
 例えば、訪問者あたりのページビュー数を最適化する場合は、数日間などの指定した期間を対象に、訪問者ごとの合計ページビュー数のサンプルをエクスポートします（必要なデータポイントは数千程度）。そのうえでそれぞれの値を 2 乗し、その総和を算出します（ここでは演算の順番が非常に重要です）。この「平方和」の値は、Complete Confidence Calculator で使用されます。これらの値には、このスプレッドシートの「売上高」セクションを使用します。
 
-**[!DNL Analytics]のデータエクスポート機能を使用してこれをおこなう手順は次のとおりです。**
+**[!DNL Analytics] のデータエクスポート機能を使用してこれをおこなう手順は次のとおりです。**
 
 1. [!DNL Adobe Analytics]にログインします。
 1. **[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]** をクリックします。
