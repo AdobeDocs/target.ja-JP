@@ -5,7 +5,7 @@ title: レポート設定
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 69%
@@ -94,17 +94,17 @@ Information to help you set the elements you want to appear in your report in [!
 
 ## レポート指標 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-異なる&#x200B;**[!UICONTROL 成功指標]**&#x200B;または複数の指標を選択してグラフやチャートに表示するには、「[レポート指標](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」ドロップダウンリストをクリックします。
+異なる&#x200B;**[!UICONTROL 成功指標]**&#x200B;または複数の指標を選択してグラフやチャートに表示するには、「[レポート指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」ドロップダウンリストをクリックします。
 
 デフォルトでは、アクティビティの作成時に、成功指標の設定で主要指標が決定されています。その設定を変更し、アクティビティを再保存すると、レポートの主要指標が更新されます。
 
-レポートに表示する指標を複数選択する方法について詳しくは、「[レポートでの複数の指標の表示](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)」を参照してください。
+レポートに表示する指標を複数選択する方法について詳しくは、「[レポートでの複数の指標の表示](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)」を参照してください。
 
 ## オーディエンス {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 「[!UICONTROL オーディエンス]」ドロップダウンリストをクリックして、レポートのオーディエンスを変更します。
 
-詳しくは、「[オーディエンス](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)」を参照してください。
+詳しくは、「[オーディエンス](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)」を参照してください。
 
 ## 日付範囲 {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 環境
 
-レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
+レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
 
 ### レポートデータをリセット
 
@@ -161,7 +161,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 極端な値の除外
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 詳しくは、「[極端な注文の除外](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 詳しくは、「[極端な注文の除外](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
 
 ## ダウンロード {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![ダウンロードアイコン](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-詳しくは、「[CSV ファイルでのデータのダウンロード](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)」を参照してください。
+詳しくは、「[CSV ファイルでのデータのダウンロード](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)」を参照してください。
 
 ## 更新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 
-詳しくは、[平均上昇率、上昇率範囲および信頼区間](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)を参照してください。
+詳しくは、[平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)を参照してください。
 
 次の点に留意してください。
 
