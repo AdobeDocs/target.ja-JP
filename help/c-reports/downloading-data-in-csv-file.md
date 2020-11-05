@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -57,7 +57,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 * 注文フラグ（重複注文または極端な注文）
 
-   前月のデータ（計算がなされる時点まで）を使用して、標準偏差値が、平均注文額から +/- 3 よりもそれている場合、極端なものとしてフラグ付けされます。アクティビティが 1 時間実施された場合、または 15 件の注文を受けるまでのいずれか早い方のタイミングで、アクティビティの極端な注文が除外されます。詳しくは、「[極端な注文の除外](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
+   前月のデータ（計算がなされる時点まで）を使用して、標準偏差値が、平均注文額から +/- 3 よりもそれている場合、極端なものとしてフラグ付けされます。アクティビティが 1 時間実施された場合、または 15 件の注文を受けるまでのいずれか早い方のタイミングで、アクティビティの極端な注文が除外されます。詳しくは、「[極端な注文の除外](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)」を参照してください。
 
 * 製品 ID
 
