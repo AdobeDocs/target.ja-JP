@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## ベストプラクティス {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**mbox.js バージョン 57 以降および at.js では、mbox.js または at.js 参照をページの`<head>`セクションの上部に配置しない。**
+**mbox.js バージョン 57 以降および at.js では、mbox.js または at.js 参照をページの `<head>` セクションの上部に配置しない。**
 
 訪問者 API サービスを使用している場合、mbox.js または at.js の上に API スクリプトを配置します。
 
-**バージョン 57 より前の mbox.js では、mbox.js のコードをページの`<head>`セクションのできる限り下に配置する。**
+**バージョン 57 より前の mbox.js では、mbox.js のコードをページの `<head>` セクションのできる限り下に配置する。**
 
 mbox.js は `<head>` セクションの最後に配置し、その後に宣言を追加しないでください。こうしないと、任意のスクリプトやリンクタグが `<body>` セクション内に移動します。
 
@@ -99,9 +99,9 @@ Visual Experience Composer は、リンクを更新したプロキシサーバ�
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-[Visual Experience Composer で使用される要素セレクター](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を参照してください。
+[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を参照してください。
 
-**リッチテキストエディターでテキスト要素をスタイル指定する場合、`<b>`および`<i>`タグを使用する。**
+**リッチテキストエディターでテキスト要素をスタイル指定する場合、`<b>` および `<i>` タグを使用する。**
 
 * 太字テキストの場合、`<strong>` ではなく、`<b>` を使用します。
 * 斜体の場合、`<em>` ではなく、`<i>` を使用します。
@@ -112,7 +112,7 @@ Visual Experience Composer は、リンクを更新したプロキシサーバ�
 
 フォームフィールドによっては送信のために必須のものがあります。そうしたフォームフィールドを削除すると、送信に影響する可能性があります。
 
-**スクリプト内に`mboxCreate`を含めない。**
+**スクリプト内に `mboxCreate` を含めない。**
 
 `mboxCreate` は `document.write` を使用しているので、スクリプトには `mboxCreate` を含めないことをお勧めします。代わりに、`mboxDefine` および `mboxUpdate` を使用して、同じ処理をおこないます。
 
@@ -151,7 +151,7 @@ Visual Experience Composer は、リンクを更新したプロキシサーバ�
 
 この例では、アンカー要素全体が VEC によって選択され、ターゲットが実行された際に他の要素に悪影響を与えます。
 
-**JavaScript コードでは、`top`または`self`変数を使用しない。**
+**JavaScript コードでは、`top` または `self` 変数を使用しない。**
 
 拡張 Experience Composer が有効になっていると、top 変数と self 変数の値が更新され、iframe バスティングが無効になります。カスタム JavaScript コードの代わりに、X-frame オプションヘッダーを使用して iframe バスティングを追加してください。
 
@@ -190,7 +190,7 @@ Visual Experience Composer を使用してアクティビティを設計する�
 
 **移動機能は z- インデックスをサポートしない。**
 
-z- インデックス機能がないので、移動後の要素を別の要素の上に移動することはできません。詳しくは、[制限事項](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
+z- インデックス機能がないので、移動後の要素を別の要素の上に移動することはできません。詳しくは、[制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)を参照してください。
 
 **要素を整列すると、クリック追跡に影響する。**
 
@@ -198,7 +198,7 @@ z- インデックス機能がないので、移動後の要素を別の要素�
 
 これは、アクティビティのコンテンツを配信するコードと、クリックを追跡するコードの両方が、ページに配信される同じコードに含まれているためです。別のページを表示して、クリック追跡を設定すると、アクティビティのコンテンツコードとクリック追跡コードがそのページに配信されます。クリック追跡ページが、テストを実行しているページと同様のページ構造を持っている場合、クリック追跡ページでもテストコンテンツが表示される場合があります。
 
-**mbox の`<div>`内では要素の挿入ができないことがある。**
+**mbox の `<div>` 内では要素の挿入ができないことがある。**
 
 mbox がオファーを含む場合、mbox が正しく実装されていないと、要素の挿入が insertAfter ではなく insertBefore として表示される可能性があります。
 
