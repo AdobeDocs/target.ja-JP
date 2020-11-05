@@ -5,7 +5,7 @@ title: Recommendations の計画と実装
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 97%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-様々なタイプのページで使用できるコードの例については、[ページタイプに従った実装](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+様々なタイプのページで使用できるコードの例については、[ページタイプに従った実装](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## ページタイプに従った実装 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 例えば、製品ページ上で表示したいレコメンデーションのタイプと、カテゴリのページまたはホームページで表示したいレコメンデーションのタイプとは異なる場合があります。各ページで、mbox 呼び出しの前に特有の関数を実行すると、適切なレコメンデーションを表示することができます。
 
-この例で使用されている属性について詳しくは、[エンティティの属性](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)を参照してください。
+この例で使用されている属性について詳しくは、[エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)を参照してください。
 
 有効な JSON 形式である必要があります。
 
@@ -130,11 +130,11 @@ function targetPageParams() {
 レコメンデーションを含むすべてのページ上で、[!DNL at.js] または [!DNL mbox.js] への参照が必要です。レコメンデーションのあるすべてのページに以下のうちいずれかの参照を追加してください。
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 この実装は、以下を満たしている必要があります。
@@ -143,9 +143,9 @@ function targetPageParams() {
 
 * [!DNL mbox.js] は [!DNL target.js] への参照を含む（[!DNL at.js] は [!DNL target.js] への参照を必要としません）
 
-[!DNL at.js] の実装について詳しくは、[at.js のデプロイ方法](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)を参照してください。
+[!DNL at.js] の実装について詳しくは、[at.js のデプロイ方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)を参照してください。
 
-[!DNL mbox.js] の実装について詳しくは、[Mbox.js の実装](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)を参照してください。
+[!DNL mbox.js] の実装について詳しくは、[Mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)を参照してください。
 
 この 2 つの Target JavaScript ライブラリの違いについて詳しくは、[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 「ありがとうございます」ページでは、別の品目のレコメンデーションをおこなわずに、注文の合計、注文 ID、購入した製品を表示することができます。2 つ目の mbox を実装し、注文情報を取得できます。
 
-* at.js を使用している場合は、[コンバージョンの追跡](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* mbox.js を使用している場合、[注文の確認 mbox の作成 - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82) を参照してください。
+* at.js を使用している場合は、[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* mbox.js を使用している場合、[注文の確認 mbox の作成 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82) を参照してください。
 
 ## 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
 
