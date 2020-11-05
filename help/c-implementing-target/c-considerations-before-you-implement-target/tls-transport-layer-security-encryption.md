@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 61%
@@ -32,7 +32,7 @@ TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートさ
 
 アドビはお客様に TLS 1.2へと段階的に移行していただく予定です。ドメインが既に 1.2 に対応しているお客様は、何の変更もおこなわずに TLS 1.2 へと移行いただけます。ほとんどの顧客ドメインは既にTLS 1.2をサポートしています。ただし、ドメインがTLS 1.2をサポートしていない場合は、現在と同様にTLS 1.1上のドメインを保持します（2020年3月まで）。
 
-この移行期間中は問題は発生しないはずです。万一、VEC がそれまでは動作していたサイトの読み込みをおこなわなくなった場合には、[Client Care チケットを開き、](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)考えられる原因としてこの移行を挙げてください。
+この移行期間中は問題は発生しないはずです。万一、VEC がそれまでは動作していたサイトの読み込みをおこなわなくなった場合には、[Client Care チケットを開き、](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)考えられる原因としてこの移行を挙げてください。
 
 ただし、TLS 1.2をサポートしていないTSL 1.1をご利用のお客様の場合は、ドメイン/インフラストラクチャをTLS 1.2に移動する計画を立てる必要があります。TLS 1.1プロトコルは2020年3月1日まで引き続きサポートされます。 2020年3月1日以降、ターゲットは、拡張Experience Composer機能を介してVECに使用するTLS 1.1プロトコルをサポートしなくなります。
 
@@ -58,7 +58,7 @@ TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートさ
 * Target レポートの訪問者数で、訪問者数に多少の低下がみられる可能性があることを知っておいてください。
 * 古いターゲットのデバイスやTLS 1.2をサポートしないブラウザに対して作成したオーディエンスを変更する必要が生じる場合があります。これらのデバイスやブラウザへの配信は機能しなくなります。
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ For more details about supported browsers and their versions, see [Supported Bro
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Target Standard/Premium のインターフェイスは既に[最新の Web ブラウザー](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を要件に定めているので、この変更で問題が生じる可能性はないと想定されます。Target に接続できない場合は、ブラウザーを最新バージョンにアップグレードしてください。
+Target Standard/Premium のインターフェイスは既に[最新の Web ブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を要件に定めているので、この変更で問題が生じる可能性はないと想定されます。Target に接続できない場合は、ブラウザーを最新バージョンにアップグレードしてください。
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
