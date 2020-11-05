@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
@@ -30,7 +30,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 3 ステップのガイドによるワークフローを実行する際に、アクティビティの [!UICONTROL Target] ページで結合オーディエンスをアドホックに作成できます。
 
-1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成時に、**[!UICONTROL Target]** ページで縦並びの省略記号をクリックし、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
+1. [アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成時に、**[!UICONTROL Target]** ページで縦並びの省略記号をクリックし、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
@@ -82,7 +82,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
+1. [アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
+1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 
 ## レポートで使用する結合オーディエンスを作成 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. を編集または作成する際に、[アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
+1. を編集または作成する際に、[アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
+1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 
 ## アクティビティの編集時に結合オーディエンスを作成 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    ![オーディエンスを変更](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
+1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
