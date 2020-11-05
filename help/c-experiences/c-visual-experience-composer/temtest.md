@@ -5,7 +5,7 @@ title: Adobe Targetを使用して、類似のページに同じエクスペリ�
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 45%
@@ -32,7 +32,7 @@ ht-degree: 45%
 
 要素の変更を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. [アクティビティの説明に従って、アクティビティを作成または編集します](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
+1. [アクティビティの説明に従って、アクティビティを作成または編集します](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
 
 1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
 
@@ -90,7 +90,7 @@ ht-degree: 45%
 * グローバルバナーを含めるには（例えば、COVID-19のお知らせ）
 * グローバルな無料配送プロモーションを含めるには
 
-1. [アクティビティの説明に従って、アクティビティを作成または編集します](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
+1. [アクティビティの説明に従って、アクティビティを作成または編集します](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
 
 1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
 
