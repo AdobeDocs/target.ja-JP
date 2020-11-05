@@ -5,7 +5,7 @@ title: エクスペリエンスの追加
 feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9213d4c09cd6fa8cf76ca5325d1bcf3c12ad72f1
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 90%
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 Visual Experience Composer（VEC）は、ページ上のエクスペリエンスを編集するための視覚的なインターフェイスを備えています。
 
-エクスペリエンスについて詳しくは、[エクスペリエンス](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
+エクスペリエンスについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
 1. 「**[!UICONTROL エクスペリエンスを追加]**」をクリックします。
 
