@@ -6,7 +6,7 @@ feature: mvt
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 96%
@@ -69,7 +69,7 @@ Target Standard/Premium の以前のバージョンで作成されたアクテ�
 
 Analytics を Target のレポートソースとして選択する場合、Target アクティビティデータを受け取るための Analytics レポートスイートを選択します。これをおこなうには、最初にアカウントに結び付けられた Analytics の任意のログインカンパニーから選択し、次に、アクティビティに適したレポートスイートを選択します。Adobe Target に接続するようにプロビジョニングされたレポートスイートだけを選択できます。対象のレポートスイートが表示されない場合、最初に、Adobe Experience Cloud からログアウトしてからログインし直して、もう一度試してみてください。それでもレポートスイートがリストに表示されない場合は、カスタマーケアまでお問い合わせください。
 
-Analytics for Target では、結果を正確にレポートするために、トラッキングサーバーが必要です。デフォルトのトラッキングサーバーは、「トラッキングサーバー」フィールドに表示されます。複数のトラッキングサーバーを使用している場合は、このフィールドに適切なトラッキングサーバーが含まれていることを確認してください。詳しくは、[Analytics トラッキングサーバー](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
+Analytics for Target では、結果を正確にレポートするために、トラッキングサーバーが必要です。デフォルトのトラッキングサーバーは、「トラッキングサーバー」フィールドに表示されます。複数のトラッキングサーバーを使用している場合は、このフィールドに適切なトラッキングサーバーが含まれていることを確認してください。詳しくは、[Analytics トラッキングサーバー](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照してください。
 
 アカウント設定でレポートソリューションが指定されている場合は、指定されたソリューションが使用され、この設定は表示されません。
 
@@ -142,7 +142,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 * 「カウントを増分、ユーザーをリリース、再入場を許可」を選択して、ユーザーがアクティビティに再度入ったときに表示されるエクスペリエンスを指定します。
 * 「カウントを増分、ユーザーをリリース、再入場を許可しない」を選択して、アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。
 
-詳細設定について詳しくは、「[成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を参照してください。
+詳細設定について詳しくは、「[成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を参照してください。
 
 ## その他のメタデータ {#section_2E8917BEFB954480A4206B9E9E917F80}
 
