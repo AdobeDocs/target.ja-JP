@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
@@ -83,4 +83,4 @@ Click to view the full [!DNL Analytics] report directly from the activity report
 
 A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
 
-詳しくは、[Analytics for Target（A4T）でのオフライン計算の実行](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)を参照してください。
+詳しくは、[Analytics for Target（A4T）でのオフライン計算の実行](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)を参照してください。
