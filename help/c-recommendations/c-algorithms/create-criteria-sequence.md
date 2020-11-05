@@ -5,7 +5,7 @@ title: 条件のシーケンスの作成
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 36%
@@ -86,7 +86,7 @@ ht-degree: 36%
 
    条件のシーケンスが条件リストに表示されます。
 
-   レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md)を参照してください。
+   レコメンデーションロジックのオプションについて詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
 ## トレーニングビデオ：Recommendations の条件の作成（12:33） ![チュートリアルバッジ](/help/assets/tutorial.png)
 
