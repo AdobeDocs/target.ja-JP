@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -50,8 +50,8 @@ mbox.js ライブラリを使用している場合、A4T によるリダイレ�
 * **レポートスイート ID（実装）の不一致：**&#x200B;アクティビティの設定中に指定されたレポートスイートが、テストが配信されるページのレポートスイートと一致していません。これにより、[!DNL Analytics] サーバーでデータを調整できないため、部分的なデータのように見えます。
 * **低速なページ：**[!DNL Target] の呼び出しはページの上部にあり、[!DNL Analytics] の呼び出しは通常ページの下部にあるため、ページの読み込みが遅いと、[!DNL Target] の呼び出しは実行されるものの、[!DNL Analytics] の呼び出しが実行される前に訪問者がページを離れる可能性が高くなります。これは、接続速度が頻繁に低下するモバイル Web サイトでは特に問題になります。
 * **ページエラー：** JavaScript エラーがある場合や、各タッチポイントが実行されないシナリオ（Experience Cloud ID サービス、Target および Analytics）の場合、部分的なデータが生じます。
-* **[!DNL Target]アクティビティのリダイレクトオファー：** A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) を参照してください。
-* **古いバージョンのライブラリ：** データをできる限り効率的に送信するために、昨年、JavaScript ライブラリ（[!DNL appMeasurement.js]、`at.js/mbox.js`、および `visitorAPI.js`）にいくつかの改善を加えました。導入に必要な条件について詳しくは、[実装する前に](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)を参照してください。
+* **[!DNL Target] アクティビティのリダイレクトオファー：** A4T を使用してアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) を参照してください。
+* **古いバージョンのライブラリ：** データをできる限り効率的に送信するために、昨年、JavaScript ライブラリ（[!DNL appMeasurement.js]、`at.js/mbox.js`、および `visitorAPI.js`）にいくつかの改善を加えました。導入に必要な条件について詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)を参照してください。
 
 ## 部分的なデータを減らすためのベストプラクティス{#section_065C38501527451C8058278054A1818D}
 
