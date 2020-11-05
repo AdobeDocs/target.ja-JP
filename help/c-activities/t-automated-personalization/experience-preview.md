@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 エクスペリエンスプレビューURLを使用して、チームメンバーとエクスペリエンスを共有し、個別のQAアクティビティを作成することなく、ブラウザーと環境でエクスペリエンスのQAを行います。 この機能は、サイトが複雑な場合や、セキュリティポリシーによりシミュレーターでサイトを表示できない場合に特に有用です。
 
-1. [Automated Personalization アクティビティ](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)を作成するか、アクティビティをクリックして開きます。
+1. [Automated Personalization アクティビティ](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)を作成するか、アクティビティをクリックして開きます。
 
    エクスペリエンスをプレビューする場合は、アクティビティのステータスがアクティブである必要はありません。
 1. アクティビティの概要ページで、縦並びの 3 ドットメニュー／「**[!UICONTROL エクスペリエンスの URL を表示]**」の順にクリックします。
