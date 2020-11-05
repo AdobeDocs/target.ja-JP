@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
@@ -20,7 +20,7 @@ Target の従来の API から Adobe I/O の新しい API への移行につい�
 
 Adobe Target Classic の廃止に伴い、Target Classic アカウントに関連付けられている API も利用できなくなりました。ここでは、従来の API ベースの統合を、Adobe I/O ベースの Target API に移行する方法について説明します。
 
-Target API ドキュメントについて詳しくは、[Target API と NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Target API ドキュメントについて詳しくは、[Target API と NodeJS SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## 用語 {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
