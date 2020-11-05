@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 
 ![アクティビティ／オーディエンス定義](assets/audience_definition_list.png)
 
-「[!UICONTROL オーディエンスの使用状況]」タブをクリックすると、そのオーディエンスを参照している他のアクティビティを確認できます。これにより、オーディエンスの編集中に他のアクティビティに不測の影響が及ぶことを防止できます。ライブアクティビティ、非アクティブなアクティビティ、アーカイブ済みアクティビティ、同期中のアクティビティなどの情報を参照できます。この機能は、すべてのオーディエンス（ライブラリオーディエンスおよび[アクティビティのみのオーディエンス](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）で利用できます。
+「[!UICONTROL オーディエンスの使用状況]」タブをクリックすると、そのオーディエンスを参照している他のアクティビティを確認できます。これにより、オーディエンスの編集中に他のアクティビティに不測の影響が及ぶことを防止できます。ライブアクティビティ、非アクティブなアクティビティ、アーカイブ済みアクティビティ、同期中のアクティビティなどの情報を参照できます。この機能は、すべてのオーディエンス（ライブラリオーディエンスおよび[アクティビティのみのオーディエンス](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）で利用できます。
 
 オーディエンスを別のオーディエンスと結合し、その結合したオーディエンスを使用してアクティビティを作成すると、両方のオーディエンスの使用状況情報として、その新規作成されたアクティビティが表示されます。
 
