@@ -4,7 +4,7 @@ title: Adobe Target Visual Experience Composer（VEC）
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 >
 >ホバーの状態が JavaScript に依存する場合は、「**[!UICONTROL JavaScript を無効にする]**」が選択されていないことを確認します。JavaScript の要素を編集するには JavaScript が有効になっている必要があります。
 
-VEC で利用可能なオプションについて詳しくは、[Visual Experience Composer オプション](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
+VEC で利用可能なオプションについて詳しくは、[Visual Experience Composer オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を参照してください。
 
 ページの読み込み中（またはページの読み込みに失敗した後）に、ページでいくつかの変更を実行したり、VEC でページの読み込みをキャンセルしたりできます。詳しくは、次を参照してください。
 
@@ -133,7 +133,7 @@ VEC 内でページの読み込みをキャンセルするには、ページの�
 
 ### 勤務時間：Visual Experience Composer ![チュートリアルバッジ](/help/assets/tutorial.png)
 
-このビデオは、「[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+このビデオは、「[Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
 * VEC の仕組み
 * VEC で一般的な問題を回避する方法
