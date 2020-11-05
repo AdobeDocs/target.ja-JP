@@ -5,7 +5,7 @@ title: 多変量分析テストの作成
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Target のポイント＆クリック方式のエディターを使用して、�
    >
    >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL 自動パーソナライゼーション]は、[Target Premium 機能](/help/c-intro/intro.md#premium)です。
    >
-   >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/c-activities/target-activities-guide.md)を参照してください。
+   >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/c-activities/target-activities-guide.md)を参照してください。
 
 1. 必要に応じて、「**[!UICONTROL ビジュアル (デフォルト)]**」を選択します。
 
@@ -43,7 +43,7 @@ Target のポイント＆クリック方式のエディターを使用して、�
 
 1. （条件付き）Target Premium のお客様の場合、[ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
 
-1. テストするページの [URL を指定](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)し、「**[!UICONTROL 次へ]**」をクリックします。
+1. テストするページの [URL を指定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)し、「**[!UICONTROL 次へ]**」をクリックします。
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Target のポイント＆クリック方式のエディターを使用して、�
    | - | マイナス |
    | @ | アットマーク |
 
-1. [それぞれの場所でオファーを作成します](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
+1. [それぞれの場所でオファーを作成します](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
    ![テキスト / HTML を編集ダイアログボックス](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -88,7 +88,7 @@ Target のポイント＆クリック方式のエディターを使用して、�
 
    ![エクスペリエンスを除外](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-1. [トラフィック見積もりを使用](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)して、テスト計画の実行可能性をテストします。
+1. [トラフィック見積もりを使用](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)して、テスト計画の実行可能性をテストします。
 
    ![トラフィックインジケーター](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
@@ -110,11 +110,11 @@ Target のポイント＆クリック方式のエディターを使用して、�
 
    >[!NOTE]
    >
-   >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-1. [テスト概要を確認](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)して、必要な変更をおこない、「**[!UICONTROL 次へ]**」をクリックします。
+1. [テスト概要を確認](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)して、必要な変更をおこない、「**[!UICONTROL 次へ]**」をクリックします。
 
-1. [テストの目標と設定を指定](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
+1. [テストの目標と設定を指定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)します。
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして、アクティビティを作成します。
 
