@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
 
-成功指標について詳しくは、[成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
+成功指標について詳しくは、[成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
 1. アクティビティの目標を指定します。
-1. [成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を選択します。
+1. [成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を選択します。
 
    ![指標リストを設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 
    期待するデータを確実に入手するためには、成功指標を正しく設定することが重要です。
 
-   詳しくは、[成功指標](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
+   詳しくは、[成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 1. （オプション）さらに指標を追加します。
 1. 指標の設定が終了したら、「**[!UICONTROL 続行]**」をクリックします。指標に名前を付けたり、名前を変更したりする場合、以下の文字は使用できないことに注意してください。
 
