@@ -5,7 +5,7 @@ title: A/B テストを実行すべき期間はどのくらいですか？
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ A successful [!UICONTROL A/B Test] activity requires an adequate number of visit
 
 >[!IMPORTANT]
 >
->アクティビティを早期に停止することは、A/Bテストを実行する際に悪影響を及ぼす可能性のある、10個の重要な落とし穴の1つです。 詳しくは、 [10件の一般的なA/Bテストの落とし穴とそれらの回避方法を参照してください](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>アクティビティを早期に停止することは、A/Bテストを実行する際に悪影響を及ぼす可能性のある、10個の重要な落とし穴の1つです。 詳しくは、 [10件の一般的なA/Bテストの落とし穴とそれらの回避方法を参照してください](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
 
 [!DNL Target] には、コンバージョン目標を達成するのに十分なサンプルサイズをアクティビティに確実に持たせるためのツールが用意されています。自動配分を参照してください。
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自動配分は、この
 
 [!UICONTROL 自動配分]機能を使用すると、[!DNL Target] は、アクティビティが十分な信頼性のあるコンバージョンの最低数に達するまで、アクティビティのページの最上部に「まだ勝者がありません」ということを示すバッジを表示します。[!DNL Target]次に、 は、アクティビティのページの上部にバッジを表示して、勝者エクスペリエンスを宣言します。
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe Target サンプルサイズ計算ツール {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
