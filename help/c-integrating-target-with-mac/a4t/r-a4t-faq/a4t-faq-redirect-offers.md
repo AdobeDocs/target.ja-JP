@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？{#section_46B8B03ED4D542C6AD875F5F61176298}
 
-はい。実装で [!DNL at.js] が使用されている場合にサポートされます。ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
+はい。実装で [!DNL at.js] が使用されている場合にサポートされます。ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
 
 >[!NOTE]
 >
