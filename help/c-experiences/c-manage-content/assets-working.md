@@ -5,7 +5,7 @@ title: ライブラリ内のコンテンツの操作
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL オファー]**」をクリックして、「**[!UICONTROL コードオファー]**」または「**[!UICONTROL 画像オファー]**」タブを選択し、操作するアセットを見つけます。
 
-   オファーライブラリの検索とスマートコレクションの作成について詳しくは、[コンテンツのフィルターと検索](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)を参照してください。
+   オファーライブラリの検索とスマートコレクションの作成について詳しくは、[コンテンツのフィルターと検索](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)を参照してください。
 
 1. 操作する項目の上にマウスポインターを置いて、アクションを選択します。以下のアクションにアクセスして実行するには、まず選択アイコン（チェックマーク）をクリックしてから、目的のアクション（例えば、削除）を選択する必要があります。
 
