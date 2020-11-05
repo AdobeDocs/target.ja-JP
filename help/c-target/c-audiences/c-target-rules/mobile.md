@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、[at.js バージョン 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
+>Mobile SDK を使用しているお客様は、この機能を利用するために必要なことは何もありません。at.jsを使用する顧客は、[at.js バージョン 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
 
 複数のモバイルデバイスプロパティを選択できます。OR を使用して複数の選択肢を結合できます。
 
@@ -65,7 +65,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >[地域設定](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
+   >[地域設定](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
