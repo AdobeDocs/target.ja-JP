@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 64%
@@ -34,7 +34,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
    >
    >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Recommendations] は [Target Premium 機能](/help/c-intro/intro.md#premium)です。
    >
-   >様々なアクティビティタイプについて詳しくは、[アクティビティ](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)および [Target アクティビティのガイド](/help/c-activities/target-activities-guide.md)を参照してください。
+   >様々なアクティビティタイプについて詳しくは、[アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)および [Target アクティビティのガイド](/help/c-activities/target-activities-guide.md)を参照してください。
 
 1. 必要に応じて、「**[!UICONTROL ビジュアル (デフォルト)]**」を選択します。
 
@@ -48,7 +48,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前述の図の「[!UICONTROL ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >前述の図の「[[!UICONTROL ワークスペースを選択]](/help/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
 
 1. （条件付き）[Target Premium](/help/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
@@ -81,7 +81,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    新しいアクティビティを作成すると、[!UICONTROL Visual Experience Composer] の左側に「エクスペリエンス A」と「エクスペリエンス B」の 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。ここで注目するのは、必要に応じて変更が可能な「エクスペリエンス B」タブの方です。エクスペリエンス B は代替エクスペリエンスで、テストに追加することができます。テストには複数のエクスペリエンスを追加できます。デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
-   [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加と変更について詳しくは、[エクスペリエンスの追加](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00).エクスペリエンス B を変更するには、ステップ 3 から始めます。
+   [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加と変更について詳しくは、[エクスペリエンスの追加](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00).エクスペリエンス B を変更するには、ステップ 3 から始めます。
 
 1. **[!UICONTROL Visual Experience Composer]** の上部にある[!UICONTROL ターゲット設定]をクリックして、3 ステップのガイドによるワークフロー内の次のステップに移ります。
 
@@ -109,7 +109,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    * **[!UICONTROL 手動（デフォルト）]**：各エクスペリエンスを表示する参加者の割合を指定します。この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。
 
-   * **[!UICONTROL 最良のエクスペリエンスに自動配分]**：ほとんどのアクティビティ参加者がパフォーマンスの高いエクスペリエンスに自動的にリダイレクトされます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。[自動トラフィック配分](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
+   * **[!UICONTROL 最良のエクスペリエンスに自動配分]**：ほとんどのアクティビティ参加者がパフォーマンスの高いエクスペリエンスに自動的にリダイレクトされます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。[自動トラフィック配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)を参照してください。
 
    * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**: [!DNL Target] 高度な機械学習機能を使用して、パフォーマンスの高いマーケティング担当者が定義した複数のエクスペリエンスを特定し、コンバージョンを促進し、個々の顧客プロファイルや類似訪問者の過去の行動に基づいて、最もカスタマイズされたエクスペリエンスを訪問者に提供します。 For more information, see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
