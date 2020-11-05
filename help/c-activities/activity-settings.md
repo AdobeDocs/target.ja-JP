@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 90%
@@ -53,11 +53,11 @@ ht-degree: 90%
 
 [!UICONTROL 目標と設定]ページには、作成するアクティビティのタイプに基づいて異なる追加の設定が含まれています。これらの設定について詳しくは、アクティビティのタイプを参照してください。
 
-* [A/B テスト](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [自動パーソナライゼーション](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [エクスペリエンスのターゲット設定](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [多変量分析テスト](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [A/B テスト](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [多変量分析テスト](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## トレーニングビデオ：アクティビティの設定 ![チュートリアルバッジ](/help/assets/tutorial.png)
 
