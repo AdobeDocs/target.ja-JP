@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ Recommendations アクティビティを作成している場合、エクスペ�
    >
    >アクティビティの作成時に手動で入力した場所を作成しても、新しい場所が自動的に作成されるわけではありません。 場所名は、アクティビティのコンテキストにのみ保存されます。 場所は、コンテンツ配信呼び出しがある場合に作成されます。 作成された場所に続いて、他のアクティビティで使用したり、オーディエンスの作成などに使用したりできます。 」をクリックします。
 
-1. 「**[!UICONTROL 絞り込み条件を追加]**」をクリックし、このアクティビティ用の[オーディエンス](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を 1 つ以上選択します。
+1. 「**[!UICONTROL 絞り込み条件を追加]**」をクリックし、このアクティビティ用の[オーディエンス](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)を 1 つ以上選択します。
 
    ![](assets/location_refinements_2.png)
 
-   フォームベースの Experience Composer で、絞り込みが完全なオーディエンス機能で置き換えられました。既存のアクティビティの絞り込みが、[アクティビティのみのオーディエンス](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
+   フォームベースの Experience Composer で、絞り込みが完全なオーディエンス機能で置き換えられました。既存のアクティビティの絞り込みが、[アクティビティのみのオーディエンス](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)に移行されました。
 1. その場所に表示するコンテンツのタイプを選択します。
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ Recommendations アクティビティを作成している場合、エクスペ�
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [エクスペリエンスのターゲット設定アクティビティの作成](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Recommendations アクティビティの作成](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [エクスペリエンスのターゲット設定アクティビティの作成](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Recommendations アクティビティの作成](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## トレーニングビデオ：フォームベースのコンポーザー ![チュートリアルバッジ](/help/assets/tutorial.png)
 
