@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -23,12 +23,12 @@ Target JavaScript ライブラリ（at.js および mbox.js）の情報や Targe
 
 Adobe Target は、at.js または mbox.js の 2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます
 
-* **at.js：**[at.js library ](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
+* **at.js：**[at.js library ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
 * **mbox.js：** mbox.js ライブラリは、Target のレガシー実装ライブラリです。mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。
 
 >[!IMPORTANT]
 >
->すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 サイト上のすべてのページで Target JavaScript ライブラリファイルを参照する必要があります。例えば、これをグローバルヘッダーに追加します。または、[Adobe Launch タグマネージャー](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)の使用を検討します。
 
@@ -53,7 +53,7 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### 自動配分
 
-詳細については、「[自動配分](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
+詳細については、「[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
 
 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者エクスペリエンスに配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。
 
@@ -65,13 +65,13 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### 自動パーソナライゼーション（AP）
 
-詳しくは、[自動パーソナライゼーション](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
+詳しくは、[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
 
 自動パーソナライゼーション（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なオファーのバリエーションを表示しながら、コンテンツをパーソナライズして上昇率を高めます。
 
 ### エクスペリエンスターゲット設定（XT）
 
-[エクスペリエンスのターゲット設定](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
+[エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
@@ -79,13 +79,13 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 ### 多変量分析テスト（MVT）
 
-詳しくは、[多変量分析テスト](../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)を参照してください。
+詳しくは、[多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)を参照してください。
 
 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
 
 ### Recommendations
 
-詳細については、「[Recommendations ](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)」を参照してください。
+詳細については、「[Recommendations ](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)」を参照してください。
 
 Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
@@ -97,7 +97,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新がターゲットエッジに送信されます。 Central ClustersとEdge Clustersは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。 すべての1:1モデリングも各エッジに保存されるので、より複雑なリクエストもエッジで処理できます。
 
-各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 
+各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは、最も近いエッジクラスターにルーティングされます。
 
 詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
