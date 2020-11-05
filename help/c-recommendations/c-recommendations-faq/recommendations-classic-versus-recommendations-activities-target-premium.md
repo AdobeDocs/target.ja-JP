@@ -5,7 +5,7 @@ title: Recommendations Classic と Target Premium の Recommendations アクテ�
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。例えば、小売業界に適用され、製品ページに使用して、特定のカテゴリ（`entity.categoryID` パラメーターで定義されているもの）の製品を表示するための条件を探すことができます。
 
-作成した条件の使用について詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md)を参照してください。
+作成した条件の使用について詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
 ## ワークフロー {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 [!DNL Recommendations] のワークフローはシンプルになりました。複雑なフォームに入力する代わりに、次のような視覚的なワークフローを実行します。
 
 1. 条件を選択します。
-1. 事前に設定されている[デザイン](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. 事前に設定されている[デザイン](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. レコメンデーションの結果をプレビューします。
 
 ## プレビュー表示 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
