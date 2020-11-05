@@ -5,7 +5,7 @@ title: 拡張 Experience Composer に関連する問題のトラブルシュー�
 feature: vec
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -41,13 +41,13 @@ Target では次のエラーメッセージが表示される場合がありま�
 
    **Remedy:** 上記のIPアドレスの許可リスト。
 
-* **問題：** IPアドレスは許可されていますが、WebサイトではTLSバージョン1.2がサポートされていません。ターゲットは、デフォルトの設定である1.2を使用しています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定であるTLS 1.0を参照してください [](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。.
+* **問題：** IPアドレスは許可されていますが、WebサイトではTLSバージョン1.2がサポートされていません。ターゲットでは、デフォルトの設定である1.2が使用されています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定であるTLS 1.0がサポートされています。詳細は、 [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS Encryption Changes.
 
    **解決策：**&#x200B;次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
@@ -64,7 +64,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![](assets/firefox_more_info_3.png)
 
-1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、[Target の TLS サポートポリシーについては、TLS (Transport Layer Security) 暗号化の変更](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を参照してください。現在までの状況（2018 年 9 月 12 日まで有効）を解決するには、TLS バージョンとドメインの設定について[カスタマーケア](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、[Target の TLS サポートポリシーについては、TLS (Transport Layer Security) 暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を参照してください。現在までの状況（2018 年 9 月 12 日まで有効）を解決するには、TLS バージョンとドメインの設定について[カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ）{#section_60CBB9022DC449F593606C0E6252302D}
 
