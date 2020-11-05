@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ ht-degree: 92%
    この時点では、リンクできる権限を持ったグループはまだ設定されていません。
 1. 必要に応じて、[!DNL Adobe Experience Cloud] の紹介ビデオを見ます。
 1. 新しい権限と製品へのアクセスを確認するために、[!DNL Adobe Experience Cloud] からログアウトし、再びログインします。
-1. 次の手順である[承認者の役割の割り当て](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)に進みます。
+1. 次の手順である[承認者の役割の割り当て](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)に進みます。
 
 ## 承認者の役割の割り当て {#task_15CAA437A71444E2932B333D5E66A3C7}
 
