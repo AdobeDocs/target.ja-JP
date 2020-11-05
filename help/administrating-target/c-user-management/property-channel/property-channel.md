@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -36,7 +36,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 >[!IMPORTANT]
 >
->Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
+>Ensure that you read the [Caveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
 ## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -260,7 +260,7 @@ Consider the following when using or configuring properties and permissions in [
 
 ### アクティビティを別のワークスペースに移動させることはできますか？
 
-残念ながら、アクティビティを別のワークスペースに移動させることはできません。ただし、アクティビティを別のワークスペースにコピーすることは可能です（レポートデータは引き継がれませんのでご注意ください）。詳しくは、[ワークスペースを使用している際にアクティビティをコピー／編集する](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)の「ワークスペースを使用している際にアクティビティをコピー／編集する」を参照してください。
+残念ながら、アクティビティを別のワークスペースに移動させることはできません。ただし、アクティビティを別のワークスペースにコピーすることは可能です（レポートデータは引き継がれませんのでご注意ください）。詳しくは、[ワークスペースを使用している際にアクティビティをコピー／編集する](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)の「ワークスペースを使用している際にアクティビティをコピー／編集する」を参照してください。
 
 移行前に作成したアクティビティは、編集やプロパティの割り当てがおこなわれない限り、これまでと同じくデフォルトのワークスペースで実行されます。ワークスペースに存在するアクティビティは、そのワークスペースに割り当てられているプロパティに従って動作します。このため、動作が移行前と同じにならない可能性があります。
 
