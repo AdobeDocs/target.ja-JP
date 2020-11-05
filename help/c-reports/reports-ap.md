@@ -5,7 +5,7 @@ title: Automated Personalization 概要レポート
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 70%
@@ -35,7 +35,7 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 ![アクティビティレベルレポート](/help/c-reports/assets/box_plot_ap.png)
 
-上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[コンバージョン率について](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)を参照してください。
+上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[コンバージョン率について](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)を参照してください。
 
 ## オファーレベルレポート {#section_CAA6409879E349C6906E2BE8156D87A1}
 
