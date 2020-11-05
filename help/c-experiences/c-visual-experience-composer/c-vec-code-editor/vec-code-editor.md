@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
 
-変更ページでは、Visual Experience Composer（VEC）でページに加えられたすべての変更が表示され、ページの各要素をクリックして[アクションを選択](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)することでさらに変更を加えることができます。おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
+変更ページでは、Visual Experience Composer（VEC）でページに加えられたすべての変更が表示され、ページの各要素をクリックして[アクションを選択](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)することでさらに変更を加えることができます。おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
 
 ## 変更の概要 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >フォームベースの Experience Composer で変更パネルを開くには、HTMLオ ファーを作成または編集します。詳しくは、[フォームベースの Experience Composer](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を参照してください。
+   >フォームベースの Experience Composer で変更パネルを開くには、HTMLオ ファーを作成または編集します。詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を参照してください。
 
    [!UICONTROL 変更]ページが開き、左側のビジュアルモードと右側の変更パネルに画面が分割されます。[!UICONTROL ドック]アイコンをクリックして、変更パネルを Target UI の側辺に沿って垂直に、または下部へ水平にドッキングします。次の図のエクスペリエンス A は、これまで変更されたことがありません。
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
 * カスタムコードで使用する Adobe Target エクスペリエンステンプレートを追加します。Target エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するための設定可能な入力を備えたコーディング済みのサンプルです。これらのエクスペリエンステンプレートは、VEC またはフォームベースの Experience Composer を通じて一般的な使用例を実行するための出発点として開発者およびマーケティング担当者に無償で提供されます。使用例には、ライトボックス、カルーセル、カウントダウンなどがあります。
 
-   詳しくは、[エクスペリエンステンプレート](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)を参照してください。
+   詳しくは、[エクスペリエンステンプレート](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)を参照してください。
 
 ## カスタムコードのベストプラクティス {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Target では、Target で変更されたページ上の要素に対して値「
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、変更パネルには、両方の操作が別々の要素として表示されます。要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-***スクリプトで`document.write`を使用して作成した要素が、期待した場所に表示されません。*** 
+***スクリプトで `document.write` を使用して作成した要素が、期待した場所に表示されません。*** 
 
 スクリプトは、非同期で実行されます。`document.write` アクションは、非同期で実行されると、多くの場合ページ上の誤った場所に配置されます。アドビでは、カスタムコードで作成するスクリプト内で `document.write` を使用しないことをお勧めします。
 
