@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## Target アカウントで A4T が有効になっているかどうかはどうしたらわかりますか？{#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。詳しくは、[ユーザー権限の要件](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)を参照してください。
+Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。詳しくは、[ユーザー権限の要件](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)を参照してください。
 
 Analytics および Target へのアクセス権のある 1 つ以上の Experience Cloud グループのメンバーになり、すべてのレポートスイートへのアクセス権を持っている場合、「**[!UICONTROL アクティビティの作成]**」で、Analytics を使用した A/B テストを作成するためのオプションを確認する必要があります。
 
