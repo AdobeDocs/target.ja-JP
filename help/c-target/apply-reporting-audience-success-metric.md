@@ -5,7 +5,7 @@ title: Adobe Target での成功指標へのレポート用オーディエンス
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 適用先ドロップダウンリストでは、潜在的に、アクティビティへのすべての訪問者、アクティビティの特定のステップに到達した訪問者のみまたはコンバージョンに到達した訪問者のみの 3 つのカテゴリが提供されます。別の言い方をすると、アクティビティのエントリページの mbox、アクティビティの途中にあるポイントを定義する mbox、アクティビティの最後のコンバージョン mbox のどれに訪問者が到達している必要があるかを指定できます。
 
-[成功指標](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。成功指標を定義していない場合は、ドロップダウンリストに「キャンペーンのエントリ」と「コンバージョン」の 2 つのオプションのみが表示されます。
+[成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)は、アクティビティに設定した場合にのみ使用できます。成功指標を定義していない場合は、ドロップダウンリストに「キャンペーンのエントリ」と「コンバージョン」の 2 つのオプションのみが表示されます。
 
 レポート用オーディエンスを成功指標に適用するときは、次の情報を考慮します。
 
