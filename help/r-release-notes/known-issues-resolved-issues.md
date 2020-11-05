@@ -5,7 +5,7 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -179,7 +179,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
 
-**注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+**注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ### 実装：グローバル mbox 自動作成
 
