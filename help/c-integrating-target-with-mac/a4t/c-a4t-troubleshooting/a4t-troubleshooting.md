@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 80%
@@ -33,7 +33,7 @@ ht-degree: 80%
 
 * [!DNL Target] から [!DNL Analytics] への分類呼び出しが失敗した。
 
-   [カスタマーケア](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
+   [カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 80%
 
 ## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。 {#section_4BE374E573D44FB7918611699B74F58E}
 
-詳しくは、[A4T での水増しされた訪問と訪問者カウントの最小化](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)を参照してください。
+詳しくは、[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)を参照してください。
 
 ## 売上高指標の推定上昇率に正しいデータが表示されません。{#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ ht-degree: 80%
 
 ## Analytics レポートにアクティビティが表示されません。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。詳しくは、[Analytics トラッキングサーバーの使用](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照し、Analytics トラッキングサーバーが正しく設定されていることを確認してください。
+A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。詳しくは、[Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照し、Analytics トラッキングサーバーが正しく設定されていることを確認してください。
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ If you still don&#39;t see the report suite you are looking for, contact [Client
 
 [!DNL Target] 呼び出しに追加のデータ ID がない場合は、[!DNL VisitorAPI.js] ファイルが [!DNL at.js] や [!DNL mbox.js] より先に読み込まれていることを確認してください。[!DNL Analytics] 呼び出しに追加のデータ ID がない場合は、[!DNL Target] 呼び出しが [!DNL Analytics] 呼び出しより先に実行されていることを確認してください。
 
-詳細については、「[Analytics for Target の実装](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)」を参照してください。または、[カスタマーケア](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
+詳細については、「[Analytics for Target の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)」を参照してください。または、[カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
