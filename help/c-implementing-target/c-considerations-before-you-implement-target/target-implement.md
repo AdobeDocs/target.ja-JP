@@ -6,7 +6,7 @@ feature: implementation general
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Web ページで [!DNL Target] ライブラリ（at.js または mbox.js）を�
 
 >[!NOTE]
 >
->mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ## 2 つのライブラリの違い {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
