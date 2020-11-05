@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
@@ -47,7 +47,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 1. （オプション）「**[!UICONTROL ルールを追加]**」をクリックして、オーディエンス用の追加のルールを設定します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-オーディエンスの[ポップアップカード内の定義の詳細](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)には、「Rules」セクションにパラメーター名が表示されます。フィルタリングに使用する mbox への参照はありません。
+オーディエンスの[ポップアップカード内の定義の詳細](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)には、「Rules」セクションにパラメーター名が表示されます。フィルタリングに使用する mbox への参照はありません。
 
 >[!NOTE]
 >
