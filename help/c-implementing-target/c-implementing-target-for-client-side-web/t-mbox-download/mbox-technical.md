@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 技術担当者が、mbox.js の実装とユーザーのサイトに与える影響を理解するのに役立つ情報を紹介します。
 
-Target Standard では、[!DNL mbox.js] バージョン 58 以降が必要です。[!DNL mbox.js] のダウンロードおよび更新の手順については、「[mbox の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)」を参照してください。
+Target Standard では、[!DNL mbox.js] バージョン 58 以降が必要です。[!DNL mbox.js] のダウンロードおよび更新の手順については、「[mbox の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)」を参照してください。
 
 Target Standard では、[!DNL mbox.js] は別の JavaScript ファイル [!DNL target.js] を呼び出します。[!DNL Target.js] は Adobe がホストし、自動的に更新します。[!DNL target.js] を更新するための操作は不要で、クライアント固有のカスタマイズもありません。
 
@@ -54,4 +54,4 @@ Target Standard では、[!DNL mbox.js] は別の JavaScript ファイル [!DNL 
 
 Target を角度サイトまたはシングルページアプリケーション（SPA）で実装する場合、mbox.js ではなく at.js ライブラリを使用する必要があります。
 
-詳しくは、「[at.js の実装](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)」を参照してください。
+詳しくは、「[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)」を参照してください。
