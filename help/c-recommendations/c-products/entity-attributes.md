@@ -5,7 +5,7 @@ title: エンティティの属性
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 90%
@@ -52,13 +52,13 @@ mboxCreate('productPage',
  
 'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
+'entity.pageUrl=/help/baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
 'entity.venue=AT&T PARK', 
  
 'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
+'entity.thumbnailUrl=/help/baseball/giants-tix/giants-136px.gif', 
  
 'entity.message=FAMILY SPECIAL', 
  
@@ -231,4 +231,4 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 ## 関連トピック：
 
-* [カスタムエンティティの属性](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
+* [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
