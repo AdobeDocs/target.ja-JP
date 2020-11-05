@@ -5,7 +5,7 @@ title: 条件の作成
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -75,7 +75,7 @@ ht-degree: 66%
 
 1. 「**[!UICONTROL レコメンデーションロジック]**」を選択します。
 
-   レコメンデーションロジックのオプションについて詳しくは、[条件](../../c-recommendations/c-algorithms/algorithms.md)を参照してください。
+   レコメンデーションロジックのオプションについて詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。
 
    >[!NOTE]
    >
