@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >すべての mbox.js ユーザーにバージョン 57 以降にアップグレードすることをお勧めします。`target.js` が読み込めなかった場合にタイムアウトの問題が発生することがあります。バージョン 57 で、この問題を修正しました。ただし、[!DNL Experience Cloud Visitor ID] サービスを使用している場合、バージョン 58 以降が必要です。
 
-ページからの呼び出しに Target がどのように応答するかは、使用する Target ライブラリのバージョン、訪問者 ID 実装が存在するかどうか、および訪問者 ID があるかどうかによって異なります。詳しくは、[ライブラリバージョン別の Target の呼び出しと応答答](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)を参照してください。
+ページからの呼び出しに Target がどのように応答するかは、使用する Target ライブラリのバージョン、訪問者 ID 実装が存在するかどうか、および訪問者 ID があるかどうかによって異なります。詳しくは、[ライブラリバージョン別の Target の呼び出しと応答答](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)を参照してください。
 
 >[!NOTE]
 >
->mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ## mbox.js バージョン 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 * バージョン 60 の非同期呼び出し
 
-   訪問者 ID サービスでバージョン 60 を使用している場合は、すべての mbox 呼び出しが非同期でおこなわれます。これは、従来の mbox の動作方法に対する変更点であり、このバージョンにアップグレードする場合は注意してください。『[ ドキュメント』の](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同期に関する考慮事項[!DNL at.js]の節を参照し（[!DNL at.js] でも非同期呼び出しを使用するため）、そのリスクについて確認してください。
+   訪問者 ID サービスでバージョン 60 を使用している場合は、すべての mbox 呼び出しが非同期でおこなわれます。これは、従来の mbox の動作方法に対する変更点であり、このバージョンにアップグレードする場合は注意してください。『[ ドキュメント』の](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同期に関する考慮事項[!DNL at.js]の節を参照し（[!DNL at.js] でも非同期呼び出しを使用するため）、そのリスクについて確認してください。
 * 新しい訪問者のシナリオでは、ちらつきが発生する可能性があります。
 
    訪問者 ID サービスでバージョン 58～60 を使用している場合は、訪問者 ID が設定されるまで（またはタイムアウトまで）待ってから、mbox の呼び出しが実行されます。これは、新しい訪問者の最初のページ読み込みで発生します。
