@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 必ず [!DNL at.js] バージョン 1.1 以降を使用します。
 
-   詳しくは、[at.js のダウンロード](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
+   詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Adobe Dynamic Tag Management（DTM）を使用して [!DNL at.js] カスタム�
    });
    ```
 
-すべての要素を 1 つのファイルにまとめたい場合は、以下のスニペットをライブラリフッターの [at.js セットアップページ](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)に追加できます。
+すべての要素を 1 つのファイルにまとめたい場合は、以下のスニペットをライブラリフッターの [at.js セットアップページ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)に追加できます。
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 プラグインとレスポンストークンは同時に利用できますが、プラグインは廃止される予定です。
 
-**応答トークンは、すべての応答を通じて配信されますか。それとも、アクティビティを配信する応答を通じてのみ配信されま[!DNL Target][!DNL Target]すか。**
+**応答トークンは、すべての応答を通じて配信されますか。それとも、アクティビティを配信する応答を通じてのみ配信されま [!DNL Target][!DNL Target] すか。**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
