@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 オプトインを使用する場合に検討すべきシナリオには、以下の 3 つがあります。
 
-1. **[!DNL Target]タグが[!DNL Launch]を介して事前に承認されている（またはデータ主体が[!DNL Target]を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
-1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が FALSE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。同意が得られると [!DNL Target] が呼び出されて、パーソナライズされたコンテンツがデータ主体（訪問者）に対して提供されるようになります。同意が得られるまではデフォルトコンテンツしか使用できないので、適切な戦略を採用することが重要です。例えば、スプラッシュページを使用してページの一部やパーソナライズされる可能性があるコンテンツを覆い隠すことなどを検討してください。これにより、データ主体（訪問者）のエクスペリエンスの一貫性を維持することができます。
-1. **[!DNL Target]タグが事前に承認されていない状態で、`bodyHidingEnabled`が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
+1. **[!DNL Target] タグが [!DNL Launch] を介して事前に承認されている（またはデータ主体が [!DNL Target] を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
+1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が FALSE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。同意が得られると [!DNL Target] が呼び出されて、パーソナライズされたコンテンツがデータ主体（訪問者）に対して提供されるようになります。同意が得られるまではデフォルトコンテンツしか使用できないので、適切な戦略を採用することが重要です。例えば、スプラッシュページを使用してページの一部やパーソナライズされる可能性があるコンテンツを覆い隠すことなどを検討してください。これにより、データ主体（訪問者）のエクスペリエンスの一貫性を維持することができます。
+1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
 
    次に、3 つ目のシナリオで推奨されるページ設定を示します。
 
@@ -121,7 +121,7 @@ window.targetGlobalSettings = {
 
 ### データ主体／ユーザーの要求に応じて [!DNL Adobe] で顧客が削除できる情報には何がありますか？{#section_4B51D00924EC4166B2442218B69214F0}
 
-個々の訪問者に関する [!DNL Target] 内の情報は、[!DNL Target] 訪問者プロファイルに格納されています。お客様は、[!DNL Target] を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除できます。プロファイルデータ [!DNL Target] ストアの例については、[訪問者プロファイル](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)を参照してください。
+個々の訪問者に関する [!DNL Target] 内の情報は、[!DNL Target] 訪問者プロファイルに格納されています。お客様は、[!DNL Target] を使用して訪問者プロファイル内の特定 ID に関連づけられたすべてのデータを削除できます。プロファイルデータ [!DNL Target] ストアの例については、[訪問者プロファイル](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)を参照してください。
 
 個人を特定しない集計されたデータや匿名化されたデータ（レポートデータなど）、または特定の個人に関連しないデータ（コンテンツデータなど）は、ユーザーからの削除要求の対象外です。
 
@@ -296,7 +296,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 ### Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
+GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
 
 ### データが第三者と共有または販売されないようにする必要があるか。
 
