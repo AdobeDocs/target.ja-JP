@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 98%
@@ -105,7 +105,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 | カスタムセグメント | 「カスタムセグメント」（別名「キャンペーン固有のセグメント」）は、Target Classic のキャンペーンに固有のものです。キャンペーンの一部として作成され、他のキャンペーンで再利用することはできません。 |
 | 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
-訪問者プロファイルによるサイト訪問者情報の追跡に関する詳細については、「[訪問者プロファイル](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)」を参照してください。
+訪問者プロファイルによるサイト訪問者情報の追跡に関する詳細については、「[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)」を参照してください。
 
 ## トレーニングビデオ：
 
