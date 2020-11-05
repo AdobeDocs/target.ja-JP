@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 * 考慮するオーディエンス条件を任意で選択できるので、マーケティング担当者は、オーディエンス条件を満たさなくてもターゲット条件をテストしたり無視したりして、エクスペリエンスのデザインの QA をおこなえる.
 * QA レポートが取り込まれることで、マーケティング担当者は、指標が想定どおりに増分され、QA レポートのデータが実稼動環境のレポートとは別に保持されていることを確認できます（A4T 以外のレポートの場合）。
 * 単独で、または配信条件(ページ/ターゲットリクエスト/オーディエンス)を満たす他のライブアクティビティと組み合わせて、エクスペリエンスをプレビューする機能。
-* ユーザージャーニー全体を QA の対象にできます。QA リンクを使用してサイトに 1 回アクセスすれば、アクティビティ QA 内でサイト全体を閲覧することができます。セッションを終了するか、[QA Target ブックマークレット](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)を使用してアクティビティ QA から強制的に離脱しない限り、アクティビティ QA 内にとどまります。この機能は、複数の Web ページにわたるアクティビティがある場合に特に便利です。
+* ユーザージャーニー全体を QA の対象にできます。QA リンクを使用してサイトに 1 回アクセスすれば、アクティビティ QA 内でサイト全体を閲覧することができます。セッションを終了するか、[QA Target ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)を使用してアクティビティ QA から強制的に離脱しない限り、アクティビティ QA 内にとどまります。この機能は、複数の Web ページにわたるアクティビティがある場合に特に便利です。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 
       「オフ」にした場合は、以下の点を考慮します。
 
-      * テスト対象のアクティビティとその他のライブアクティビティとの間で衝突が発生する場合は、[通常の優先順位ルール](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)が適用されます。そのため、QA を実施したいアクティビティが表示されない場合もあります。
+      * テスト対象のアクティビティとその他のライブアクティビティとの間で衝突が発生する場合は、[通常の優先順位ルール](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)が適用されます。そのため、QA を実施したいアクティビティが表示されない場合もあります。
       * 指標は表示されたアクティビティについて増分しますが、それは QA レポートの環境内のみです。
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存します。
@@ -66,17 +66,17 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 
 ## 注意点 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 自動パーソナライゼーション（AP）を除くすべてのアクティビティタイプの[!UICONTROL 概要]ページに「[!UICONTROL アクティビティ QA]」リンクが表示されます。AP アクティビティでは、[プレビューリンク](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)を使用できます。
+* 自動パーソナライゼーション（AP）を除くすべてのアクティビティタイプの[!UICONTROL 概要]ページに「[!UICONTROL アクティビティ QA]」リンクが表示されます。AP アクティビティでは、[プレビューリンク](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)を使用できます。
 * アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティのアクティビティ QA プレビューリンクが読み込まれないことがあります。プレビューリンクの再試行が機能するはずです。これが継続して発生するのを避けるには、アクティブに使用しなくなった、保存されたアクティビティをアーカイブします。
 * アクティビティ QA URL は、Analytics がレポートソースに設定されている（A4T）アクティビティで使用できます。アクティビティ QA を使用した QA の実行中に生成されたヒットは、アクティビティがライブになった後でも、アクティビティのデータが渡されるのと同じレポートスイートに渡されます。
 * アクティビティ QA は、アーカイブされたアクティビティまたは終了日を過ぎたアクティビティに対してコンテンツを表示しません。終了したアクティビティを非アクティブ化した場合、アクティビティ QA が動作するためにはアクティビティを再度保存する必要があります。
 * Target Classic などから Target Standard/Premium にインポートされたアクティビティでは、QA URL は利用できません。
 * 自動配分、自動ターゲットおよび Recommendations アクティビティでは、アクティビティ QA で記録された訪問によってモデルに影響が及ぶことはありません。
-* アクティビティ QA は固定式なので、アクティビティ QA で Web サイトを閲覧した後、通常の訪問者と同じようにサイトを閲覧できるようにするには、Target のセッションの期限が切れるか、アクティビティ QA から離脱するよう Target を設定する必要があります。アクティビティ QA から強制的に離脱するには、[Target QA ブックマークレット](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)を使用します。
+* アクティビティ QA は固定式なので、アクティビティ QA で Web サイトを閲覧した後、通常の訪問者と同じようにサイトを閲覧できるようにするには、Target のセッションの期限が切れるか、アクティビティ QA から離脱するよう Target を設定する必要があります。アクティビティ QA から強制的に離脱するには、[Target QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)を使用します。
 
    また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
 
-* &quot;URLが」を指定して、Visual Experience [Composerのフォームベースのコンポーザー](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [ページ配信オプションでアクティビティの絞り込みを作成した場合、](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) アクティビティQAはURLパラメーターを追加するので、QA URLは機能しません。この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
+* &quot;URLが」を指定して、Visual Experience [Composerのフォームベースのコンポーザー](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [ページ配信オプションでアクティビティの絞り込みを作成した場合、](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) アクティビティQAはURLパラメーターを追加するので、QA URLは機能しません。この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
 * at.js 1をお持ちの場合。*x*、またはmbox.jsで、SafariやサードパーティCookieをブロックする他のブラウザーを使用する場合、アクティビティQAモードは固定されません。 このような場合は、移動先の各URLにプレビューパラメーターを追加する必要があります。 CNAMEを実装している場合も同じ [ことが言えます](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
 * アクティビティが複数のエクスペリエンスオーディエンス（たとえば、同じアクティビティに含まれる米国と英国のサイト）を使用している場合、4つの組み合わせ（エクスペリエンスA / USサイト、エクスペリエンスA / UKサイト、エクスペリエンスB / USサイト、Experience B / Ukサイト）に対して QA リンクは生成されません。エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。英国の QA ユーザーには、米国サイトは表示されません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
