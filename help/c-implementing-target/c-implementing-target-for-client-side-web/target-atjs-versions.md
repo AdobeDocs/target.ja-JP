@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3977'
 ht-degree: 85%
@@ -228,7 +228,7 @@ at.js バージョン 1.5.0 がリリースされました。
 * `at-request-succeeded` イベントの詳細には、リダイレクトフラグが含まれています。このフラグを使用すると、ページが別の URL にリダイレクトされるかどうかを判断することができます。その URL を知る必要がある場合は、subscribe to `at-content-rendering-redirect` をサブスクライブします。（TNT-29834）
 * `window.targetGlobalSettings.enabled` を false に設定すると失敗して実行時例外が発生する原因となっていた問題を修正しました。（TNT-29829）
 * グローバル mbox リクエストを発行したり本文を非表示にしたりすると、Visual Experience Composer（VEC）への読み込み中にページが失敗する原因となっていた問題を修正しました。（TNT-29795）
-* `screenOrientation`、`devicePixelRatio`、および `webGLRenderer` のサポートを追加しました。これらの新しい Target リクエストパラメーターは、iPhone X やその他の最新型デバイスの検出に使用されます。詳しくは、[モバイル](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)を参照してください。（TNT-29781）
+* `screenOrientation`、`devicePixelRatio`、および `webGLRenderer` のサポートを追加しました。これらの新しい Target リクエストパラメーターは、iPhone X やその他の最新型デバイスの検出に使用されます。詳しくは、[モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)を参照してください。（TNT-29781）
 * Adobe Audience Manager（AAM）のロケーションヒントが送信されないことがある問題を修正しました。（TNT-29695）
 * これをサポートしているブラウザーの場合、at.js 1.5.0 はセレクターポーリングの際に MutationObserver に切り替わります。at.js 1.0.0 以前のバージョンでは、MutationObserver ポリフィルを使用していましたが、これは問題があることがわかっていました。ポリフィルの問題を回避するために、バージョン 1.5.0 では次の擬似コードを使用して、どのスケジューリングメカニズムを使用するかを決定しています。
 
@@ -264,13 +264,13 @@ at.js バージョン 1.3.0 がリリースされました。
 * at.js のイベントとクリック追跡機能が強化されました。at.js では、`navigator.sendBeacon()` を使用してイベント追跡データを送信し、`navigator.sendBeacon()` がサポートされていない場合は同期 XHR にフォールバックします。このフォールバックが影響するのは、主に Internet Explorer 10 および 11 と、Safari の一部のバージョンです。Safari では、今後の iOS 11.3 のリリースで `navigator.sendBeacon()` のサポートが追加されます。
 * at.js で、バックグラウンドタブでページが開かれている場合でもオファーをレンダリングできるようになりました。Target の一部のお客様では、バックグラウンドのタブに対するブラウザーの調整動作が原因で、`requestAnimationFrame()` が無効になっている場合に問題が発生していました。
 * このリリースで、Chrome の CPU プロファイルを検査する際のコールスタックの短縮など、パフォーマンスの改良が多数加えられています。
-* at.js 1.3.0 では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。サポートされているブラウザーの一覧については、[サポートされているブラウザー](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。今後、すべてのリクエストは、JSONP リクエストを使用せず、CORS に対応した `XMLHttpRequest` を介して実行されます。この変更によってセキュリティが大幅に高まります。
+* at.js 1.3.0 では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。サポートされているブラウザーの一覧については、[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。今後、すべてのリクエストは、JSONP リクエストを使用せず、CORS に対応した `XMLHttpRequest` を介して実行されます。この変更によってセキュリティが大幅に高まります。
 
 ## at.js バージョン 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 [!DNL at.js] バージョン 1.2.3 がリリースされました。
 
-* JSON オファーのサポートを追加しました。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。「[JSON オファーの作成](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)」を参照してください。
+* JSON オファーのサポートを追加しました。JSON オファーは、フォームベースの Experience Composer を使用して作成されたアクティビティでのみ利用できます。現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。「[JSON オファーの作成](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)」を参照してください。
 
 ## at.js バージョン 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -308,7 +308,7 @@ at.js バージョン 1.3.0 がリリースされました。
 
 [!DNL at.js] バージョン 1.1 には、次の機能強化および修正が含まれています。
 
-* レスポンストークンの処理を追加しました。詳しくは、[レスポンストークン](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)を参照してください。
+* レスポンストークンの処理を追加しました。詳しくは、[レスポンストークン](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)を参照してください。
 * 問題を解消し、`document.currentScript polyfill` が Angular 1.X に干渉しないようにしました。
 * 変更を加え、クリック追跡が visibility プロパティに干渉しないようにしました。クリック追跡要素が、`at-element-click-tracking` ではなく `at-element-marker` の CSS クラスに分類されます。
 
@@ -326,7 +326,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 * アクティビティ配信時のカスタムイベントのバグ／エラーレポート。
 * Microsoft Internet Explorer 11 のパフォーマンスの問題を修正。
 * 一部の Web サイトで `getOffer()` 関数によりエラーが発生する問題を修正。
-* Target ライブラリを非同期で読み込み。詳細については、「[at.js に関するよくある質問](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)」を参照してください。
+* Target ライブラリを非同期で読み込み。詳細については、「[at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)」を参照してください。
 
 ## at.js バージョン 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -342,7 +342,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 [!DNL at.js] バージョン 0.9.6 には、次の機能強化および修正が含まれています。
 
-* A4T のリダイレクトオファーのサポート。[!DNL at.js] バージョン 0.9.6 をダウンロードしてインストールすると、[!DNL Adobe Analytics]（A4T）のレポートソースとして [!DNL Target] を使用するアクティビティでリダイレクトオファーを使用できます。[!DNL at.js] バージョン 0.9.6 のほかにも、リダイレクトオファーと A4T を使用するために実装が満たす必要があるその他の最小要件があります。詳細および追加の重要な情報については、[リダイレクトオファー - A4T に関する FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
+* A4T のリダイレクトオファーのサポート。[!DNL at.js] バージョン 0.9.6 をダウンロードしてインストールすると、[!DNL Adobe Analytics]（A4T）のレポートソースとして [!DNL Target] を使用するアクティビティでリダイレクトオファーを使用できます。[!DNL at.js] バージョン 0.9.6 のほかにも、リダイレクトオファーと A4T を使用するために実装が満たす必要があるその他の最小要件があります。詳細および追加の重要な情報については、[リダイレクトオファー - A4T に関する FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 * [!DNL at.js] 0.9.6 より前では、訪問者 API がページにある場合に、`visitorApiTimeout` 設定が積極的すぎると、[!DNL Target] リクエストで MCID データが送信されないという状況が発生する可能性がありました。その結果、A4T を使用しているときに、[!DNL Analytics] で未関連付けヒットなどの問題が発生することがありました。
 
    この動作は、[!DNL at.js] 0.9.6 で変更されました。`visitorApiTimeout` が 1 ミリ秒に設定されていても、Target は SDID、トラッキングサーバーおよび顧客 ID データを収集して Target リクエストで送信しようとします。
@@ -361,7 +361,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 * mbox.js 使用時の mbox 名のネーミング要件に対応して、mbox 名にアンパサンド（&amp;）を含む特殊文字を使用できるようになりました。
 
-   使用可能な特殊文字のリストについては、[at.js の設定](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)を参照してください。
+   使用可能な特殊文字のリストについては、[at.js の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)を参照してください。
 
 * `secureOnly` 設定が追加され、at.js で HTTPS のみを使用するか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。この詳細設定のデフォルト値は False で、`targetGlobalSettings` で上書きできます。
 * 「[!UICONTROL レガシーブラウザーのサポート]」オプションは、at.js バージョン 0.9.3 以前で使用できます。このオプションは、at.js バージョン 0.9.4 で削除されました。
