@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -63,7 +63,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 
 ## トレーニングビデオ： at.js - メリットと実装に関するベストプラクティス ![概要バッジ](/help/assets/overview.png)
 
-このビデオは、「[Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
+このビデオは、「[Office Hours](/help/cmp-resources-and-contact-information.md)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
 * at.js ライブラリの仕組み
 * mbox.js に勝る at.js のメリット
