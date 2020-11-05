@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Target は、使用する Target インターフェイスおよびアクティ�
    訪問者が既に A/B テストまたは多変量分析テストにある場合、コンバージョンがおこなわれるまで、そのテストに適合します。以前、エクスペリエンスのターゲット化アクティビティにあった場合、もう一度適合させる必要があります。オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. 訪問者が適合するすべてのアクティビティおよびエクスペリエンスのコンテンツがページに返されます。
-1. 各アクティビティのコンテンツが異なる[CSS セレクター](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を参照する場合、すべてのコンテンツが表示されます。
+1. 各アクティビティのコンテンツが異なる[CSS セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)を参照する場合、すべてのコンテンツが表示されます。
 
    CSS セレクターの重なりや重複がある場合、優先度の最も高いアクティビティコンテンツが表示されます。ページ上で実行されるすべてのアクティビティの結果がカウントされ、レポートに反映されます。
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->設定に応じて、優先度の値が変わります。従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。詳しくは、「[アクティビティの設定](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)」を参照してください。
+>設定に応じて、優先度の値が変わります。従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。詳しくは、「[アクティビティの設定](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)」を参照してください。
 
 **2つのターゲットクラシックキャンペーンで、非グローバルターゲットリクエストを使用**
 
