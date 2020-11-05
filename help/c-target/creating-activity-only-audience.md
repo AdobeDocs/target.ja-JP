@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 * アクティビティのみのオーディエンスを使用すると、1 回だけ使用して[!UICONTROL オーディエンスライブラリ]には格納されないオーディエンスを作成できます。これにより、[!UICONTROL オーディエンスライブラリ]がもう一度使用することのないオーディエンスであふれるのを防ぐことができます。
 * アクティビティのみのオーディエンスは、[!UICONTROL オーディエンスライブラリ]に表示されません。このため、アクティビティのみのオーディエンスは、組織内の他のメンバーによる望ましくない変更から保護されます。
 
-1. [アクティビティ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成時に、**[!UICONTROL Target]** ページで縦並びの省略記号をクリックし、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
+1. [アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の作成時に、**[!UICONTROL Target]** ページで縦並びの省略記号をクリックし、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
 
    ![ステップの結果](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. ルールタイプを選択します。
 
-   各ルールタイプには、独自のパラメーターがあります。オーディエンスルールの各タイプの構成について詳しくは、[オーディエンスのカテゴリ](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
+   各ルールタイプには、独自のパラメーターがあります。オーディエンスルールの各タイプの構成について詳しくは、[オーディエンスのカテゴリ](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)を参照してください。
 
 1. ルールパラメーターを定義します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
@@ -53,5 +53,5 @@ ht-degree: 100%
 * 既存のアクティビティの絞り込みは、アクティビティのみのオーディエンスに移行されます。
 * アクティビティのみのオーディエンスには、「[!UICONTROL 使用済み]」または「[!UICONTROL 未使用]」のステータスがあります。未使用のアクティビティのみのオーディエンスは、アクティビティが保存されるまで表示されます。アクティビティのみのオーディエンスを使用しないままアクティビティを保存しようとすると、未使用のアクティビティのみのオーディエンスが削除されることを示す警告メッセージが表示されます。
 * オーディエンス定義の詳細は、オーディエンスを開かなくても、オーディエンスピッカーからアクセスできるポップアップカードで確認できます。
-* 次の操作を実行できます。[複数のオーディエンスを組み合わせて](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アクティビティのみのオーディエンスを作成できます。
+* 次の操作を実行できます。[複数のオーディエンスを組み合わせて](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アクティビティのみのオーディエンスを作成できます。
 
