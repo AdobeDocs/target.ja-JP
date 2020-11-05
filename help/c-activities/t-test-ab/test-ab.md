@@ -5,7 +5,7 @@ title: A/Bテストの概要
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -33,7 +33,7 @@ A/Bテストを設定する際に、各エクスペリエンスを表示する�
 
 >[!NOTE]
 >
->A/B テストのサンプルサイズの決定について詳しくは、[A/B テストの計画](../../c-activities/t-test-ab/sample-size-determination.md)を参照してください。
+>A/B テストのサンプルサイズの決定について詳しくは、[A/B テストの計画](/help/c-activities/t-test-ab/sample-size-determination.md)を参照してください。
 
 6 つ以上のエクスペリエンスがあり、2 つ以上の場所をまたがる場合は、A/B テストをおこなう前に [MVT テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md)を検討することをお勧めします。多変量分析テストによって、コンバージョンが向上する可能性が最も高そうなページ領域を判定できます。マーケティング担当者はこれらの領域に注目する必要があります。例えば、MVT テストによって、目標を満たすために最も重要な場所はコールトゥアクションであることがわかったとします。目標の達成に最も役立つ場所とコンテンツを特定したら、A/Bテストを実行して2つの特定の画像を相互にテストしたり、誘い文句（CTA：コールトゥアクション）の言い回しや色を比較したりして、結果をさらに絞り込むことができます。 MVT テストの後に 1 つ以上の A/B テストをおこなうことで、目的の結果を得るための最良のコンテンツを判断できます。
 
