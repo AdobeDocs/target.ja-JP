@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ A4T では、Analytics と Target のアクティビティのレポート双方�
 
 * 特定のページへのすべての訪問者に対して自動配分アクティビティを作成するとします。自動配分アクティビティは A4T をサポートしないため、すべてのアクティビティデータは [!DNL Target] が収集します。[!DNL Target] レポートのアクティビティへの訪問者は、同じ日付範囲の [!DNL Analytics] レポートのページへの訪問者に一致すると考えるかもしれません。このシナリオでは、以下に説明する通り相違が予期されます。
 
-   A4T をサポートするアクティビティタイプの全リストは、[サポートされているアクティビティのタイプ](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)を参照してください。
+   A4T をサポートするアクティビティタイプの全リストは、[サポートされているアクティビティのタイプ](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)を参照してください。
 
 ## A4T を&#x200B;*利用しない*&#x200B;場合に予期されるデータの相違 {#expected-not-using-a4t}
 
