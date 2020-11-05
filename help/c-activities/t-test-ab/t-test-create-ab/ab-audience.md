@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+>既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
 「[!UICONTROL オーディエンス]」ボックスで、編集アイコン（縦並びの省略記号）をクリックしてから、「**[!UICONTROL オーディエンスを置換]**」をクリックします。
 
 ![「オーディエンスを置換」オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択したり、[新しいオーディエンスを作成](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)したり、[アクティビティのみのオーディエンスを作成](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)したりできます。特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
+デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、Target の一部として事前設計された一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択したり、[新しいオーディエンスを作成](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)したり、[アクティビティのみのオーディエンスを作成](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)したりできます。特定のオーディエンスのターゲット設定をしない A/B テストの場合は、デフォルトの「すべての訪問者数」を選択します。
 
 以下のように、[!UICONTROL オーディエンスを選択]ダイアログボックスで対象のオーディエンスにマウスポインターを置くことで、オーディエンスを編集またはコピーすることもできます。オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。このホバー機能は、他のタイプのアクティビティでも利用できます。
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 ![オーディエンスの割合](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-また、Target で[自動的にトラフィックを割り当てる](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)こともできます。
+また、Target で[自動的にトラフィックを割り当てる](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)こともできます。
 
 ## トレーニングビデオ
 
@@ -73,4 +73,4 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-詳しくは、[オーディエンス](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)を参照してください。
+詳しくは、[オーディエンス](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)を参照してください。
