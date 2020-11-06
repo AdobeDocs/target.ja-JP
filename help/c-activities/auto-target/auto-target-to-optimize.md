@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 87%
 >[!NOTE]
 >
 >[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/c-intro/intro.md) を参照してください。
+>
+>[!UICONTROL ターゲット用のAnalytics] (A4T)は、 [!UICONTROL 自動ターゲット] アクティビティをサポートします。 詳しくは、「Analyticsをレポートソースとして使用するアクティビティの [作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)」を参照してください。
 
 ## 自動ターゲットを使用した実際の成功事例 {#success}
 
