@@ -4,9 +4,9 @@ description: Adobe Targetウェルカムキット — 第4章 —ターゲット
 title: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 例えば、POS（販売時点管理システム）の購入データを訪問者プロファイルに関連付けることができます。 そのためには、最大200個のオフライン変数を含むCSVファイルを作成し、ファイルのアップロード [!DNL Adobe Experience Cloud] 経由で直接にアップロードするか、FTPを使用してファイルをホストし、定期的に更新するようにスケジュールします。 顧客属性を取得したら、そ [!DNL Adobe Experience Cloud]れらを分析、テスト、パーソナライゼーションのために使用できるソリューション [!DNL Experience Cloud] や [!DNL Adobe Analytics][!DNL Target] ソリューションにマッピングできます。
 
-詳しい手順については、 [カスタム属性](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) (Custom attributes)を参照してください。
+詳しい手順については、 [カスタム属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) (Custom attributes)を参照してください。
 
 **知っていること**:これ [!DNL Target] は、異なるテクノロジーで適切に機能するオープンで不可知的なプラットフォームなので、CRMや購入したデータを様々な方法で追加できます。 つまり、組織に最も適した方法を選択できます。
 
