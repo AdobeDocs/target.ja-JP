@@ -5,9 +5,9 @@ title: Analytics トラッキングサーバーの使用
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. アクティビティを作成しているページから、を開き [!DNL Adobe Experience Platform Debugger]ます。
 
-   デバッガをインストールしていない場合は、「 [Adobe Experience Platformデバッガの概要](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)」を参照してください。
+   デバッガをインストールしていない場合は、「 [Adobe Experience Platformデバッガの概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)」を参照してください。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
