@@ -3,11 +3,8 @@ keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
 title: クリックの追跡
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 95%
