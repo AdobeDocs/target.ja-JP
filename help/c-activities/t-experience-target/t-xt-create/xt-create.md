@@ -2,11 +2,8 @@
 description: Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定（XT）アクティビティを作成し、Adobe Target 内でページの一部を変更できます。
 title: エクスペリエンスのターゲット設定アクティビティの作成
 feature: xt
-subtopic: Multivariate Test
-topic: Standard
-uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
