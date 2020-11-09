@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traff
 description: Adobe Target の多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
 title: 多変量分析テスト
 feature: mvt
-uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
