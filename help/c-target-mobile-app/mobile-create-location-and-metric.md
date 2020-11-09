@@ -3,10 +3,8 @@ keywords: mobile app;mobile app location;target mobile app;mobile target locatio
 description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
 title: iOS - Target の位置と成功指標の作成
 feature: mobile implementation
-topic: Target
-uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 92%
