@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: このトピックには、アクティビティの設定と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: アクティビティの設定 - A4T FAQ
 feature: a4t troubleshooting
-topic: Standard
-uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 89%
