@@ -4,10 +4,8 @@ description: Adobe Analytics に基づいたアクティビティを Adobe Targe
 title: ユーザー権限の要件
 feature: a4t implementation
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 49%
