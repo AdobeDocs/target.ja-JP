@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 88%
+source-wordcount: '232'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 1. アプリに Adobe Mobile Services SDK を追加します。
 
-   [コア実装とライフサイクル](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html)の説明を参照してください。
+   [コア実装とライフサイクル](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/dev-qs.html)の説明を参照してください。
 
 1. クライアントコードとタイムアウトを追加し、SSL を有効にします。
 
