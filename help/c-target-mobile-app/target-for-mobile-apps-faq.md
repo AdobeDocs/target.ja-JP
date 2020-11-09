@@ -3,10 +3,8 @@ keywords: mobile app;frequently asked questions;faq;target mobile app
 description: モバイルアプリ用Adobe Targetに関するよくある質問(FAQ)です。
 title: モバイルアプリ用Adobe Targetに関するよくある質問(FAQ)
 feature: mobile implementation
-topic: Target
-uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
