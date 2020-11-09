@@ -5,9 +5,9 @@ title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 54%
 
 ---
@@ -66,7 +66,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    * SameSite=None属性ブラウザーの修正について詳しくは、「最近発表されたGoogle Chrome SameSite cookieの実施ポリシーがVECおよびEECに与える影響について」を参照してください。 in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの2番目で最上位です。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳細については、『 [Experience Cloudインターフェイスユーザガイド』の「](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Targetcookie *」を参照してください*。
+   * Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの2番目で最上位です。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳細については、『 [Experience Cloudインターフェイスユーザガイド』の「](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Targetcookie *」を参照してください*。
 
 ## メモ
 
