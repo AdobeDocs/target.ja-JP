@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の水増しされた訪問および訪問者のカウントに関するよくある質問に対する回答が含まれています。
 title: 水増しされた訪問および訪問者のカウント - A4T FAQ
 feature: a4t troubleshooting
-topic: Standard
-uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
