@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 93%
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
-   * **iOS:**[事前開始](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) ( *Mobile Services iOSヘルプ*)
-   * **Android:**[開始の準備](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) ( *Mobile Services Androidヘルプ*)
+   * **iOS:**[事前開始](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) ( *Mobile Services iOSヘルプ*)
+   * **Android:**[開始の準備](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) ( *Mobile Services Androidヘルプ*)
 
 1. **URL スキームを設定する：**&#x200B;プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
