@@ -3,9 +3,8 @@ keywords: Targeting;network;target network;isp;domain name;connection speed;targ
 description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
 title: Adobe Targetオーディエンスのネットワークオプション
 feature: audiences
-uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
