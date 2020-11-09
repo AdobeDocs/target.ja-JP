@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **ユーザーのあらゆるデバイス全体を対象に、一貫性のある同一のエクスペリエンスが提供されているかを確認することはできますか？**
 
-[Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
+[Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
 
 Co-op 対象地域のお客様であれば、目標と設定ページのシンプルなフラグでこの機能を有効にできます。レポートのデータも、訪問者ではなく人を基準とした形に変わります。この機能を利用できるのは一部の地域のみなので、詳しくはアドビの担当者までお問い合わせください。
 
