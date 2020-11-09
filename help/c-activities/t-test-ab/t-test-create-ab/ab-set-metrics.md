@@ -4,9 +4,8 @@ description: A/B アクティビティの指標を使用して、訪問が成功
 title: 指標の設定
 feature: ab
 solution: Target
-uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
