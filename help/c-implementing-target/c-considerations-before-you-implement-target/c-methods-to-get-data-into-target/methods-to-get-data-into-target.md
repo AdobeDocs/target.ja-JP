@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、プロファイル一括更新 API、単一プロファイル更新 API、顧客属性など、データを Target に送信する様々な方法について説明します。
 title: データを Target に送信する方法
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 96%
