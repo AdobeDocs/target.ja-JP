@@ -5,10 +5,10 @@ title: Visual Experience Composer と拡張 Experience Composer に関連する�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、�
 
 Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 必要に応じて、この拡張機能によってcookie属性が上書きされ、 `SameSite="none"` 属性が設定されます。 更 [新された拡張機能は、こちらを参照してください](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 VEC Helper Extensionのインストールおよび使用について詳しくは、「 [Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
 
-独自のサイトのCookieに対して、名前でCookieを指定する必要があります。 「 [!UICONTROL Cookie] 」スライダーをオンの位置に切り替え、名前とCookieドメインでCookieを指定します。 Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの2番目で最上位です。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳細については、『 [Experience Cloudインターフェイスユーザガイド』の「](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Targetcookie *」を参照してください*。
+独自のサイトのCookieに対して、名前でCookieを指定する必要があります。 「 [!UICONTROL Cookie] 」スライダーをオンの位置に切り替え、名前とCookieドメインでCookieを指定します。 Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの2番目で最上位です。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳細については、『 [Experience Cloudインターフェイスユーザガイド』の「](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Targetcookie *」を参照してください*。
 
 ![VECヘルパー拡張でのcookieの切り替え](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
