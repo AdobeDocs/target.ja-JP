@@ -3,10 +3,8 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: Target 管理者が Target に個別のワークスペース（製品プロファイル）を作成し、これらのワークスペースに基づいて個別のページ、プロパティまたは Web サイトごとにユーザーに異なる役割と権限を付与できる、プロパティの作成と、プロパティ機能および権限機能の使用について説明します。
 title: Enterprise ユーザーの権限
 feature: user management
-subtopic: Getting Started
-uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
