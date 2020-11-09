@@ -2,10 +2,8 @@
 description: 用語の定義について説明します。
 title: Adobe Target 用語集
 feature: intro
-topic: Standard
-uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2291'
 ht-degree: 98%
