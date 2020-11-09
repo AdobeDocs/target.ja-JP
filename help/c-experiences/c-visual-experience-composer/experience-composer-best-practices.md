@@ -3,10 +3,8 @@ keywords: visual experience composer;visual experience composer best practices;v
 description: 以下のベストプラクティスは、エクスペリエンスを期待どおりに動作させるために役立ちます。また、Visual Experience Composer（VEC）を使用する際に理解しておく必要があるその他のヒントと制限事項についても説明します。
 title: Visual Experience Composer のベストプラクティスと制限事項
 feature: vec
-topic: Classic
-uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
