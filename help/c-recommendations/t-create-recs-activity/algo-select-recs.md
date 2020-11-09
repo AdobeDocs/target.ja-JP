@@ -3,9 +3,8 @@ keywords: recommendations;recommendations activity;criteria;algorithm
 description: Adobe Target Recommendations アクティビティで使用する条件を選択します。
 title: 条件の選択
 feature: recs creation
-uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 82%
