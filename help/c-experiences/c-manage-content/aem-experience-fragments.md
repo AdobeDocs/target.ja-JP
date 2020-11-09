@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1111'
 ht-degree: 20%
 
 ---
@@ -77,7 +77,7 @@ Experience fragments are created in [!DNL AEM]. 詳しくは、次を参照し�
 使用している [!DNL AEM] バージョンに応じて、手順については次のリンクを参照してください。
 
 * **[!DNL AEM]6.3**: [エクスペリエンスフラグメントのターゲット](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) への書き出し( *Adobe Experience Manager6.3* ドキュメント)
-* **[!DNL AEM]6.4**: [エクスペリエンスフラグメントのターゲット](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) への書き出し( *Adobe Experience Manager6.4* ドキュメント)
+* **[!DNL AEM]6.4**: [エクスペリエンスフラグメントのターゲット](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) への書き出し( *Adobe Experience Manager6.4* ドキュメント)
 * **[!DNL AEM]6.5**: [エクスペリエンスフラグメントのターゲット](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) への書き出し( *Adobe Experience Manager6.5* ドキュメント)
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -157,4 +157,4 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >
 >4:54で説明されている [!DNL AEM] ディープリンク機能は削除されました。
 
-詳しくは、 [AEM SitesのビデオとTutorials](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) ページの「Adobe Targetでのエクスペリエンスフラグメントの ** 使用」を参照してください。
+詳しくは、 [AEM SitesのビデオとTutorials](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) ページの「Adobe Targetでのエクスペリエンスフラグメントの ** 使用」を参照してください。
