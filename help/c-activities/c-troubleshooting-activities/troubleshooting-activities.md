@@ -3,10 +3,8 @@ keywords: troubleshoot target;troubleshooting target;default content;test not li
 description: サイトにアクティビティが表示されない場合は、ここに示すトラブルシューティングの提案が解決に役立ちます。
 title: アクティビティのトラブルシューティング
 feature: activities
-topic: Advanced,Standard,Classic
-uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
