@@ -3,10 +3,8 @@ keywords: document.write;target;implement;implement target;dtm;dynamic tag manag
 description: Web ページで Target ライブラリ（at.js または mbox.js）を参照し、Target を実装します。
 title: Target JavaScript ライブラリについて
 feature: implementation general
-topic: Target
-uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
