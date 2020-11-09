@@ -3,9 +3,8 @@ keywords: recommendation;backup;back up
 description: Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
 title: 代替レコメンデーションの使用 adobe targetRecommendationsで
 feature: criteria
-uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%
