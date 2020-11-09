@@ -3,11 +3,8 @@ keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
 title: 電子メール：Target の実装
 feature: email implementation
-subtopic: Getting Started
-topic: Standard
-uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
