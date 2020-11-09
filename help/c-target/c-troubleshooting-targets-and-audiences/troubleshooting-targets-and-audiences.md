@@ -3,10 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 title: ターゲットとオーディエンスに関する FAQ
 feature: audiences
-topic: Standard
-uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
@@ -26,7 +24,7 @@ ht-degree: 69%
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### オーディエンスURLのターゲット設定 {#url-1}
+### オーディエンスURLのターゲット設定
 
 オーディエンスURLのターゲット設定を適用するには、アクティビティの作成時に、エクスペリエンスページ（3ステップのガイドによるワークフローの1つ）で歯車アイコンをクリックし、「ページ配信」をクリックして、目的のURLを指定します。
 
@@ -40,7 +38,7 @@ ht-degree: 69%
 
 URLに対するオーディエンスのターゲット設定以外に、クエリに含めることのできる特定の値を指定することもできます。
 
-### URLのターゲット設定 {#url-1-1}
+### URLのターゲット設定
 
 URLターゲット設定を適用するには、オーディエンスの作成時に「ルール」をクリックし、「サイトページ」をクリックします。次に、最初のドロップダウンリスト(現在のページ、前のページまたはランディングページ)からオプションを選択し、2番目のドロップダウンリストからURLを選択して、評価基準を指定し、目的のURLを指定します。
 
@@ -63,7 +61,7 @@ URL文字列で同じパラメータ名を複数回使用する場合、HTTPは�
 
 パラメーターの最初のインスタンス `Category` が評価され、2番目の `Category` パラメーターは無視されます。
 
-次に示すように、1つのカテゴリに複数の値を関連付けることをお勧めします。
+ベストプラクティスは、次に示すように、1つのカテゴリに複数の値を関連付けることです。
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
