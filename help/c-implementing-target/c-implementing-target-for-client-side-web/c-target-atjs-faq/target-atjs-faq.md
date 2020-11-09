@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2652'
 ht-degree: 94%
 
 ---
@@ -91,7 +91,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。例えば、次のようにします。
 
    ```
@@ -111,7 +111,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 ページ（または指定された部分）を事前に非表示にし、at.js とグローバルリクエストが完全に読み込まれてから表示されるスニペットを使用すると、ちらつきを回避できます。このスニペットは、at.js の読み込みの前に追加する必要があります。
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 同期 DTM 実装を介して at.js を導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
 
