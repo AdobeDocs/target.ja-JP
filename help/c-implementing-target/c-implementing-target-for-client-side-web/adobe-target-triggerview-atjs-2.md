@@ -3,10 +3,8 @@ keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;fu
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
