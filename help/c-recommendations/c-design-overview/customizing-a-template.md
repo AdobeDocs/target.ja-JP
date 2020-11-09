@@ -3,9 +3,8 @@ keywords: custom design;velocity;decimal;comma;customize design
 description: オープンソースのVelocityデザイン言語を使用して、Adobe TargetRecommendationsのレコメンデーションデザインをカスタマイズします。
 title: Velocity を使用したデザインのカスタマイズ
 feature: designs
-uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 61%
