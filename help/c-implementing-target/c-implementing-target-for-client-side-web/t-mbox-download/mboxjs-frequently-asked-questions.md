@@ -3,10 +3,8 @@ keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrd
 description: mbox.js に関するよくある質問への回答を紹介します。
 title: mbox.js に関するよくある質問
 feature: null
-subtopic: Getting Started
-uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 98%
