@@ -3,10 +3,8 @@ keywords: content;update content;assets;upload content;upload asset
 description: 画像オファーリストにアイテムを追加できます。
 title: コンテンツのアップロード
 feature: offers
-topic: Standard
-uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 91%
