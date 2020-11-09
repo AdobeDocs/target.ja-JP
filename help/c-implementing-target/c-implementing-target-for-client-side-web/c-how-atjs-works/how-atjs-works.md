@@ -3,10 +3,8 @@ keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 title: at.js JavaScriptライブラリの動作
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -50,7 +48,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | すべての設定済みパラメーター（MCID、SDID および顧客 ID）を含む、ページ読み込みリクエストがおこなわれます。 |
 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、オーディエンスライブラリから正規のオーディエンスをリクエストします（例えば、Adobe Analytics、Audience Management などから共有されたオーディエンス）。<br>顧客属性がバッチ処理でプロファイルストアに送信されます。 |
 | 5 | URL リクエストパラメーターとプロファイルデータに基づいて、[!DNL Target] が現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 |
-| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPA内の表示アクションの結果として表示されるユーザーのターゲットコンテンツはブラウザーにキャッシュされるので、表示がトリガーされたときに追加のサーバー呼び出しを行うことなく、即座に適用でき `triggerView()`ます。 |
+| 6 | ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。<br>SPAの表示アクションの結果として表示されるユーザーのターゲットコンテンツはブラウザーにキャッシュされるので、表示がトリガーされたときに追加のサーバー呼び出しを行うことなく、即座に適用でき `triggerView()`ます。 |
 | 7 | Analytics データがデータ収集サーバーに送信されます。 |
 | 8 | ターゲットデータは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。<br>A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
