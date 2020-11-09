@@ -3,10 +3,8 @@ keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの mboxCreate(mbox,params) 関数について説明します。
 title: mboxCreate(mbox,params) - at.js 1.x
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
