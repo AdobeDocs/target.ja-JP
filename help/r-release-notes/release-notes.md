@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 26%
+source-wordcount: '948'
+ht-degree: 27%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>**今すぐライブウェビナーに登録します。** Adobe Target製品のエキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合うと、新しい使用例への扉が開かれ、お客様のサイトパフォーマンスが向上します。<ul><li>2020年11月10日</li><li>午前10時PT/午後12時CT/午後1時ET</li><li>[登録はこちら](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>**今すぐライブウェビナーに登録します。** Adobe Target製品のエキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合うと、新しい使用例への扉が開かれ、お客様のサイトパフォーマンスが向上します。<ul><li>2020年11月10日</li><li>午前10時PT/午後12時CT/午後1時ET</li><li>[登録はこちら](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
@@ -69,7 +69,7 @@ ht-degree: 26%
 |--- |--- |
 | ドキュメントの変更点 | リリースノートに含まれない可能性のある、このガイドの更新点に関する詳細情報が表示されます。<br>詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)」を参照してください。 |
 | 以前のリリースのリリースノート | 以前のリリースの Target Standard および Target Premium の新機能および機能拡張に関する情報を確認してください。<br>詳しくは、「[以前のリリースのドキュメントの変更](/help/r-release-notes/release-notes-for-previous-releases.md)」を参照してください。 |
-| Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは、「 [Experience Cloudリリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)」を参照してください。 |
+| Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは、「 [Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)」を参照してください。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
