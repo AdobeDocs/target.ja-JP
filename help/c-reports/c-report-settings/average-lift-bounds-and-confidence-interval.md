@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;environment;lift;lift bound;variance;co
 description: レポートには、勝者をより正確に判断するのに役立つ、Adobe Targetアクティビティに関連付けられた上昇率の範囲と信頼性レベルを理解するのに役立つ、複数のデータポイントとビジュアライゼーション表現が含まれます。
 title: 平均上昇率、上昇率範囲および信頼区間
 feature: report settings
-uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
