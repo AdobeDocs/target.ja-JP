@@ -3,10 +3,8 @@ keywords: character limit;mbox parameters;batch delivery api;profile parameters;
 description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: 制限
 feature: reference general
-topic: Standard
-uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 76%
