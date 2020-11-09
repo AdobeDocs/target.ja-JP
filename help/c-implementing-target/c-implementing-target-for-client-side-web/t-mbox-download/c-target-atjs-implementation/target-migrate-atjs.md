@@ -3,10 +3,8 @@ keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: mbox.js から at.js への移行は、簡単なプロセスです。
 title: mbox.js から at.js に移行する方法
 feature: null
-topic: Standard
-uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 99%
