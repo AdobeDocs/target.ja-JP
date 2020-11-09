@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Adobe Target と、Google Chrome バージョン 80 で導入された SameSite IETF 標準に関する情報です。
 title: Adobe TargetとGoogleのSameSite cookieポリシー
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
@@ -21,7 +18,7 @@ Googleは、2020年初頭にリリース予定のChrome 80以降のユーザー�
 
 Chrome 80以降、Web開発者は、Webサイト間で機能するCookieを明示的に指定する必要があります。 これは、GoogleがWeb上のプライバシーとセキュリティを改善するために計画している多くのお知らせの中で初めてです。
 
-プライバシーとセキュリティに関してFacebookが注目を浴びているという事実を考えると、AppleやGoogleなど他の主要プレーヤーは、プライバシーとセキュリティのチャンピオンとして新しいIDを作成する機会をすぐに利用できます。 Appleは、今年初めにITP 2.1を通じてCookieポリシーに変更を発表し、最近はITP 2.2を採用しました。ITP 2.1では、AppleはサードパーティCookieを完全にブロックし、ブラウザーで作成されたCookieを7日間のみ保持します。 ITP 2.2では、cookieは1日のみ保持されます。 Googleの発表は、Appleの発表ほど積極的ではありませんが、同じ最終目標を達成するための第一歩です。 Appleのポリシーについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
+プライバシーとセキュリティに関してFacebookが注目を浴びているという事実を考えると、AppleやGoogleなど他の主要プレーヤーは、プライバシーとセキュリティのチャンピオンとして新しいIDを作成する機会を利用して、すぐに利用できます。 Appleは、今年初めにITP 2.1を通じてCookieポリシーに変更を発表し、最近はITP 2.2を採用しました。ITP 2.1では、AppleはサードパーティCookieを完全にブロックし、ブラウザーで作成されたCookieを7日間のみ保持します。 ITP 2.2では、cookieは1日のみ保持されます。 Googleの発表は、Appleの発表ほど積極的ではありませんが、同じ最終目標を達成するための第一歩です。 Appleのポリシーについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
 
 ## cookieとは何ですか。cookieの使用方法は何ですか。
 
@@ -103,7 +100,7 @@ Google Chrome 80以降のユーザーが引き続き使用できるようにす�
 | ターゲットJavaScriptライブラリ | SameSite by default cookies = 有効 | Cookies without SameSite must be secure = 有効 |
 | --- | --- | --- |
 | mbox.jsのファーストパーティcookieのみを使用する場合。 | 影響なし。 | クロスドメイントラッキングを使用していない場合は影響しません。 |
-| mbox.jsでクロスドメイントラッキングが有効になっている。 | 影響なし。 | [!DNL Target] サ `SameSite = None` ー [!DNL Target] バー呼び出し時に、サードパーティcookieに安全なフラグを追加します。 |
+| mbox.jsでクロスドメイントラッキングが有効になっている。 | 影響なし。 | [!DNL Target] サ `SameSite = None` ー [!DNL Target] バー呼び出し時に、サードパーティcookieにセキュリティ保護フラグを追加します。 |
 | at.js 1.*x* ファーストパーティcookieを使用する場合。 | 影響なし。 | クロスドメイントラッキングを使用していない場合は影響しません。 |
 | at.js 1.*x* （クロスドメイントラッキングが有効になっている場合） | 影響なし。 | at.js 1.*x* （クロスドメイントラッキングが有効になっている場合） |
 | at.js 2.*x* | 影響なし。 | 影響なし。 |
