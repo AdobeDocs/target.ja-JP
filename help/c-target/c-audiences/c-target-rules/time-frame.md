@@ -3,9 +3,8 @@ keywords: time frame;start date;end date;start/end dates;timeframe;target schedu
 description: 開始および終了の日時を追加して、特定の時間枠中にサイトを訪問するユーザーにターゲット設定できます。また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
 title: Adobe Targetオーディエンスの時間枠オプション
 feature: audiences
-uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%
