@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Target の実装をすばやく簡単に理解できる Adobe Experience Cloud �
 
 ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloud への認証をおこなうと、強力な Mbox Trace ツールを使用して、アクティビティ、オーディエンスの資格情報、訪問者プロファイルを調査できます。
 
-詳しくは、[Adobe Experience Cloud デバッガー拡張のドキュメント](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)を参照してください。Target に固有の情報は、[ツール](https://docs.adobe.com/content/help/en/debugger/using/tools.html)セクションに記載されています。
+詳しくは、[Adobe Experience Cloud デバッガー拡張のドキュメント](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)を参照してください。Target に固有の情報は、[ツール](https://experienceleague.adobe.com/docs/debugger/using/tools.html)セクションに記載されています。
 
 ## トレーニングビデオ
 
