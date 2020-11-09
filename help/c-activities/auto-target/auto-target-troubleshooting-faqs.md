@@ -3,9 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently asked questions;fa
 description: Adobe Targetでの自動ターゲットに関するトラブルシューティングおよびよくある質問(FAQ)です。
 title: 自動ターゲットのトラブルシューティングとFAQ
 feature: auto-target
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 76%
