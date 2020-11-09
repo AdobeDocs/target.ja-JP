@@ -3,9 +3,8 @@ keywords: Targeting;visual experience composer;vec;troubleshoot visual experienc
 description: Visual Experience Composer（VEC）では、特定の状況で表示の問題が起きることがあります。
 title: Visual Experience Composer に関連する問題のトラブルシューティング
 feature: vec
-uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
