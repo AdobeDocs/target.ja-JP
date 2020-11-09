@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 73%
+source-wordcount: '379'
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 * JSON オブジェクト
 * アンパサンド区切りのリスト
 
-これら 3 つの方法を使用して、パラメーターが正しく渡されていることを確認できます。また、[Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)を使用して、パラメーターの受け渡しを確認することもできます。
+これら 3 つの方法を使用して、パラメーターが正しく渡されていることを確認できます。また、[Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)を使用して、パラメーターの受け渡しを確認することもできます。
 
 ページにグローバル mbox を追加する前に、JavaScript 関数を定義する必要があります。名前は `targetPageParams` とします。
 
