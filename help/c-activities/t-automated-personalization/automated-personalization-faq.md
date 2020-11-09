@@ -3,9 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personal
 description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 title: 自動パーソナライゼーションに関する FAQ
 feature: ap
-uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
