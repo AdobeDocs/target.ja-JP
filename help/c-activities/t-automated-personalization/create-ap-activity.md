@@ -3,10 +3,8 @@ keywords: automated personalization;Audiences;ensemble;random forest;residual va
 description: 自動パーソナライゼーションアクティビティワークフローは、他のアクティビティのタイプで使用するワークフローとは異なります。
 title: 自動パーソナライゼーションアクティビティの作成
 feature: ap
-topic: Advanced
-uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
