@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## SDKをデプロイす [!DNL Adobe Experience Platform Launch][!DNL Launch]るために使用する必要がありますか。それとも、
 
-SDKは、 [Adobe Marketing CloudGitで使用できます](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)。 「 [起動](https://docs.adobe.com/content/help/en/launch/using/overview.html)」を使用しない場合は、独自の設定ファイルを管理し、アプリで管理する必要があります。
+SDKは、 [Adobe Marketing CloudGitで使用できます](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)。 「 [起動](https://experienceleague.adobe.com/docs/launch/using/overview.html)」を使用しない場合は、独自の設定ファイルを管理し、アプリで管理する必要があります。
 
 ## 現在、どのSDKを利用できますか。
 
