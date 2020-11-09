@@ -4,9 +4,8 @@ description: Adobe Target の自動パーソナライゼーション（AP）ま�
 title: Adobe Target での特定のエクスペリエンスのコントロールとしての使用
 feature: ap
 solution: Target,Analytics
-uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
