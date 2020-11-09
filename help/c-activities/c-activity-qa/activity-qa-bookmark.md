@@ -1,12 +1,10 @@
 ---
 keywords: qa;preview;bookmarklet;preview links
-description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
+description: ターゲットにQAモードからの解放を強制するために、Adobe TargetQAブックマークレットを使用するのに役立つ情報です。
 title: Adobe Target向けアクティビティQAブックマークレット
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
