@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1494'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[コアサービスの顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Customer Attributes [!DNL People] in the [!DNL Adobe Experience Cloud] Core Service)は、の一部で [!DNL Experience Cloud] あり、企業は顧客データをプラットフォームにプッシュするためのツールを提供します。
+[コアサービスの顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) (Customer Attributes [!DNL People] in the [!DNL Adobe Experience Cloud] Core Service)は、の一部で [!DNL Experience Cloud] あり、企業は顧客データをプラットフォームにプッシュするためのツールを提供します。
 
 [!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] このデータは、属性に基づいて再顧客をターゲティングするために使用されます。 [!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
 
@@ -31,7 +31,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Consider the following information as your work with customer attributes and [!D
 
 ![crmワークフロー](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. データファイルを作成します。
 
@@ -86,7 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
    使用するデータファイルは、ファイルのアップロード要件に準拠し、100 MBを超えないようにする必要があります。 ファイルが大きすぎる場合や、定期的にアップロードする必要のあるデータがある場合は、FTP経由でファイルをアップロードできます。
 
    * **HTTPS:** .csvデータファイルをドラッグ&amp;ドロップするか、「 **[!UICONTROL 参照]** 」をクリックしてファイルシステムからアップロードできます。
-   * **FTP:** 「FTP」リンクをクリックして、FTP経由でファイルを [アップロードします](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
+   * **FTP:** 「FTP」リンクをクリックして、FTP経由でファイルを [アップロードします](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 まず、アドビが指定した FTP サーバーのパスワードを入力します。Specify the password, then click **[!UICONTROL Done]**.
 
    CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と拡張子.finを持つ新しいファイルを作成します。 この空のファイルをサーバーに転送します。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -102,7 +102,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[「購読の設定](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 」では、とソリューション間のデータフロー [!DNL Experience Cloud] を設定します。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[「購読の設定](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) 」では、とソリューション間のデータフロー [!DNL Experience Cloud] を設定します。 属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![ソリューションの設定](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ### Experience Cloud ID サービスの使用
 
-Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
+Experience Cloud ID サービスを使用する場合は、ターゲット設定で顧客属性を使用するために、顧客 ID と認証状態を設定する必要があります。For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* [顧客属性ソースの作成と、](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud製品ドキュメントでのデータファイルのアップロード*
+* [顧客属性ソースの作成と、](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)*Experience Cloud製品ドキュメントでのデータファイルのアップロード*
 * *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
