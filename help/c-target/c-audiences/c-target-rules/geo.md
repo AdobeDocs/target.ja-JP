@@ -4,10 +4,8 @@ description: Adobe Target オーディエンスを使用して、国、都道府
 title: Adobe Targetオーディエンスの地域オプション
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 
 プエルトリコや香港などの地域は、個別の「国」として扱われます。
 
-**アクティビティが地域ターゲティング機能を使用してターゲット設定される場合、郵便番号などの情報を[!DNL Target]取得（および保存）するか。**
+**アクティビティが地域ターゲティング機能を使用してターゲット設定される場合、郵便番号などの情報を [!DNL Target] 取得（および保存）するか。**
 
 いいえ。セッション中の間のみ地域データを [!DNL Target] 使用し、データは破棄されます。
 
