@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。アドビの [Dynamic Tag Management](https://dtm.adobe.com) は、[!DNL Target] のお客様は無料で利用でき、[!DNL Target] のデプロイにお勧めの方法です。詳しくは、[Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)を参照してください。
+   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。アドビの [Dynamic Tag Management](https://dtm.adobe.com) は、[!DNL Target] のお客様は無料で利用でき、[!DNL Target] のデプロイにお勧めの方法です。詳しくは、[Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)を参照してください。
 
 1. 現在のすべてのアクティビティおよび統合が期待どおりに動作していることを検証します。
 
