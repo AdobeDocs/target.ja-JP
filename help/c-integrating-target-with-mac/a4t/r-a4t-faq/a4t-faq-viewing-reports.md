@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1986'
 ht-degree: 63%
 
 ---
@@ -20,7 +20,7 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-を使用して、 [!DNL Analysis Workspace][!DNL Target] アクティビティとエクスペリエンスを分析できます。 ターゲット [分析パネル](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) では、最大3つの成功指標に対して上昇率と信頼性を確認できます。 テーブルやビジュアライゼーションを使用して、より深く掘り下げることもできます。
+を使用して、 [!DNL Analysis Workspace][!DNL Target] アクティビティとエクスペリエンスを分析できます。 ターゲット [分析パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) では、最大3つの成功指標に対して上昇率と信頼性を確認できます。 テーブルやビジュアライゼーションを使用して、より深く掘り下げることもできます。
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
@@ -53,7 +53,7 @@ A4Tレポートでの指標の標準化には、いくつかのオプション�
 
 [!DNL Reports & Analytics] 「アクティビティのインプレッション数」と「アクティビティのコンバージョン」に同じタッチのアトリビューションモデルを適用します。これに対して、生の指標が [!DNL Analysis Workspace][!DNL Target] 表示されます。これは、ディメンションの持続性によって水増しされる可能性があります。
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. モデルは、列設定の歯車をクリックして、[!UICONTROL デフォルト以外のアトリビューションモデル]を有効にしてから、[!UICONTROL 同じタッチ]を選択することで適用できます。アトリビューションについて詳しくは、 [属性IQの概要](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ( *Analyticsツールガイド*)を参照してください。
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. モデルは、列設定の歯車をクリックして、[!UICONTROL デフォルト以外のアトリビューションモデル]を有効にしてから、[!UICONTROL 同じタッチ]を選択することで適用できます。アトリビューションについて詳しくは、 [属性IQの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) ( *Analyticsツールガイド*)を参照してください。
 
 ## アクティビティの設定中にマーケティング担当者が Analytics 指標を選択する場合、「アクティビティコンバージョン」は何を意味しますか？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -108,7 +108,7 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 
 両方のエクスペリエンスがコンバージョン前に表示されているので、両方とも注文の「クレジット」を受け取ります。しかし、システムでの注文は 1 回のみなので、合計にはそれが反映されています。For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. 1 つのアクティビティ内の 2 つの項目の結果を比較しており、ユーザーは同じアクティビティで異なるエクスペリエンスを表示できないので、注文クレジットの二次汚染を心配する必要はありません。
 
-For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
+For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Analytics と Analytics for Target（A4T）が実訪問者数指標の数を違うように計算するのはなぜですか？{#section_0C3B648AB54041F9A2AA839D51791883}
 
