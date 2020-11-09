@@ -3,10 +3,8 @@ keywords: email;ESP;email service provider;rawbox;delivery API;download-only tem
 description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
 title: Recommendations と電子メールの統合
 feature: recommendations general
-topic: Recommendations
-uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 90%
