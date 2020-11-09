@@ -3,9 +3,8 @@ keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics clas
 description: フィードを使用して、エンティティをAdobe TargetRecommendationsにインポートします。 エンティティは、CSV ファイル、Google Product Search フィード形式または Adobe Analytics の製品分類を使用して送信できます。
 title: Adobe TargetRecommendationsのフィード
 feature: data feed
-uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2518'
 ht-degree: 87%
