@@ -3,10 +3,8 @@ keywords: experience cloud;device co-op;device co op;analytics;audience manager;
 description: 最高水準のプライバシーと透明性を確保しながら、参加企業の連携によって複数のデジタルタッチポイントを持つ消費者をより正確に識別できるようにするプログラムである Adobe Experience Cloud Device Co-op に関する情報。
 title: Experience Cloud Device Co-op
 feature: device co-op
-topic: Standard
-uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 84%
