@@ -3,10 +3,8 @@ keywords: experience preview;experience urls;generate urls;view experience urls
 description: ターゲットAutomated Personalizationのアクティビティが、プレビューおよびQAの目的でアクティビティをライブにする前に、エクスペリエンスのコンテンツを直接サイトで表示できるよう、エクスペリエンスプレビューURLを生成できます。 エクスペリエンスプレビューURLは、ターゲット設定を省略して特定のエクスペリエンスを強制的に表示します。
 title: エクスペリエンスプレビューURLを持つプレビューAutomated Personalizationアクティビティ
 feature: ap
-topic: Standard
-uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
