@@ -5,10 +5,10 @@ title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ at.js の既知の問題を以下に示します。
 
 ### Analytics for Target（A4T）
 
-Analysis Workspaceでターゲットアクティビティのインプレッションとコンバージョンを使用する場合、正確なカウントを確保するために、「同じタッチ」Attribution IQモデルを指標に適用します。 デフォルト [以外のアトリビューションモデルを適用するには、指標を右クリックして、列設定を](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)変更し、デフォルト以外のアトリビューションモデルを使用/同じタッチモデルを選択し ****&#x200B;ます。 このモデルを適用しない場合、指標は誇張されて表示されます。
+Analysis Workspaceでターゲットアクティビティのインプレッションとコンバージョンを使用する場合、正確なカウントを確保するために、「同じタッチ」Attribution IQモデルを指標に適用します。 デフォルト [以外のアトリビューションモデルを適用するには、指標を右クリックして、列設定を](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)変更し、デフォルト以外のアトリビューションモデルを使用/同じタッチモデルを選択し ****&#x200B;ます。 このモデルを適用しない場合、指標は誇張されて表示されます。
 
 現在のすべてのAnalyticsパッケージには、Attribution IQを使用してこのモデルを追加する機能があります。 Attribution IQにアクセスできない場合は、Reports &amp; AnalyticsのA4Tデータを使用してください。
 
