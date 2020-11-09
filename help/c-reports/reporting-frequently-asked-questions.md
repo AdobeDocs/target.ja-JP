@@ -3,10 +3,8 @@ keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visit
 description: Adobe Target のレポートに関するよくある質問のリストです。
 title: Adobe Target のレポートの FAQ
 feature: reports
-topic: Standard
-uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
