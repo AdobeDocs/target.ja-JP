@@ -4,9 +4,9 @@ description: Adobe Analyticsを行動データソースとして使用すると�
 title: Adobe AnalyticsとターゲットRecommendationsを使う
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Recommendationsで条件 [を作成する際](/help/c-recommendations/c-algorith
 >
 >コンテンツサイトの場合、各コンテンツ部分は「製品」として扱われ、そのコンテンツに関する関連属性(例：著者名、発行日、コンテンツタイトル、リリース月など) を属性として渡す必要があります。 カテゴリレベルの精度やカテゴリタイプは、ユースケースの要件に基づいてビジネスで決定する必要があります。
 
-製品変数の設定方法について詳しくは、 [Analytics導入ガイドの](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) 製品 *を参照してください*。 このドキュメントに記載されているメモの一部は、そのドキュメントを展開するチームに十分な注意を払う必要があります(例：カテゴリ)。 このアクティビティを行う前に、Adobeに問い合わせてください。
+製品変数の設定方法について詳しくは、 [Analytics導入ガイドの](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) 製品 *を参照してください*。 このドキュメントに記載されているメモの一部は、そのドキュメントを展開するチームに十分な注意を払う必要があります(例：カテゴリ)。 このアクティビティを行う前に、Adobeに問い合わせてください。
 
 ### 注意点
 
