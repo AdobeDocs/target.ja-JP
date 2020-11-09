@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: ホスト
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -126,6 +124,6 @@ You can also create a denylist that specifies hosts (domains) than cannot send [
 
 A domain appears in this list if a request to [!DNL Target] is made from the domain. 場合によっては、スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることがあります。表示されるドメインがチームで使用していないドメインである場合は、「[!UICONTROL 削除]」をクリックして、そのドメインを削除します。
 
-**リクエストが/* no display - unauthorized mbox host */を返す。[!DNL Target]**
+**リクエストが/* no display - unauthorized mbox host */を返す。 [!DNL Target]**
 
 If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
