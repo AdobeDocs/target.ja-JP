@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: Target StandardをAdobeのDynamic Media Classicと統合して、コンテンツライブラリでDigital Asset Management(DAM)を実行できます。
 title: Dynamic Media Classic統合設定の統合
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 24%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 24%
 
 # Scene7形状 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
+[!DNL Target] を統合して、 [!DNL Adobe Dynamic Media Classic] コンテンツライブラリでDigital Asset Management(DAM) [!UICONTROL を提供できます]。
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ If you already have a [!DNL Dynamic Media] account, you can supply your existing
 
 >[!NOTE]
 >
->新規のお客様または新規のお客様に対して、Adobe Targetの制限付きの無料 [!DNL Dynamic Media Classic] アカウントはサポートされなくなりました。 既存のログイン資格情報は、通常どおりに機能します。
+>の無料の制限付き使用アカウントは、新規ユーザーまたは新規ユーザー [!DNL Dynamic Media Classic][!DNL Adobe Target] に対してはサポートされなくなりました。 既存のログイン資格情報は、通常どおり機能します。
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. この機能が設定されたら、画像オファーを交換／変更するオプションを     [Visual Experience Composer とフォームベースの Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で利用できます。You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
