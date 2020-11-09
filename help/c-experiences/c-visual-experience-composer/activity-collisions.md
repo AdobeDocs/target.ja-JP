@@ -3,9 +3,8 @@ keywords: Targeting
 description: アクティビティの概要ページの「衝突」タブには、サイト上でのアクティビティの衝突が一覧表示されます。
 title: アクティビティの衝突
 feature: vec
-uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
