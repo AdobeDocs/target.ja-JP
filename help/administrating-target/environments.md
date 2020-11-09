@@ -3,10 +3,8 @@ keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whi
 description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
 title: 環境
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 68%
@@ -83,7 +81,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 >[!NOTE]
 >選択した環境を変更した後、「検索」をクリックして、返された結果を更新する必要があります。
 
-[!UICONTROL 環境] フィルタは、ターゲットUIの次の場所から使用できます。
+The [!UICONTROL Environment] filter is available from the following places in the Target UI:
 
 * カタログ検索（[!UICONTROL Recommendations／カタログ検索]）
 * 「コレクションを作成」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）
