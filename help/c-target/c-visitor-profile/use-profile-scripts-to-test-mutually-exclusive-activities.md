@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;mutually exclusive activities
 description: プロファイル属性を使用すると、同じ訪問者を各アクティビティに参加させずに、複数のアクティビティを比較するテストを設定することができます。
 title: 相互に排他的なアクティビティをテストするプロファイルスクリプトを使用する
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
