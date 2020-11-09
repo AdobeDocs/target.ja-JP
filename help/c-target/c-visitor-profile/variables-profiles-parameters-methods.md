@@ -3,10 +3,8 @@ keywords: variables;profiles;parameters;built in profiles;methods;url variables;
 description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 title: プロファイルと変数の用語集
 feature: visitor profiles
-topic: Standard
-uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 92%
