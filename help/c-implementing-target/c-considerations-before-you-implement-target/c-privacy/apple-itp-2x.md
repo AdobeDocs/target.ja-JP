@@ -6,10 +6,10 @@ feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 52%
+source-wordcount: '883'
+ht-degree: 53%
 
 ---
 
@@ -53,13 +53,13 @@ Target JavaScript ライブラリに加えて Experience Cloud ID（ECID）ラ�
 
    ECID ライブラリは、Experience Cloud Core ソリューションの人物識別フレームワークを有効にします。ECID ライブラリを使用すると、永続的な一意の識別子を割り当てることによって、様々な Experience Cloud ソリューションで同じサイト訪問者およびそのデータを識別できます。ECID ライブラリは、頻繁に更新され、実装に影響を与える ITP 関連の変更を緩和するのに役立ちます。
 
-   ITP 2.xの場合、 [ECIDライブラリ4.3.0以降を緩和のために使用する必要](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) があります。
+   ITP 2.xの場合、 [ECIDライブラリ4.3.0以降を緩和のために使用する必要](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) があります。
 
 1. アドビの CNAME を使用して、Adobe Analytics の Managed Certificate Program に登録します。
 
    ECID ライブラリ 4.3.0 以降のインストール後、Adobe Analytics の CNAME および Managed Certificate Program を活用できます。このプログラムを利用すると、ファーストパーティ Cookie に対するファーストパーティ証明書を追加費用なしで実装できます。Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.x.
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 CNAME を活用するために Target JavaScript ライブラリを ECID ライブラリ v4.3.0 以降と共にデプロイして Adobe Managed Certificate Program に登録したら、ITP 関連の変更に対する堅牢な長期間の緩和計画を得ることになります。
 
