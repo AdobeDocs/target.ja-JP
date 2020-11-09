@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;preset;target preset;metric;audience;da
 description: Adobe Targetレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
 title: レポート設定
 feature: report settings
-uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 69%
