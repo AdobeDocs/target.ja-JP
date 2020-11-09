@@ -1,9 +1,8 @@
 ---
 title: Experience Cloud デバッガーでの Target のデバッグ
 feature: null
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 41%
