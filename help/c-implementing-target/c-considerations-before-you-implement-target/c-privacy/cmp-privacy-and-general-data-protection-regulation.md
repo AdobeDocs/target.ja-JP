@@ -3,10 +3,8 @@ keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;californ
 description: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
 title: プライバシーとデータ保護規制
 feature: privacy and security
-topic: Standard
-uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
