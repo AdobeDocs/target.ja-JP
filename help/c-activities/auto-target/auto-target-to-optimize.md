@@ -3,10 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq
 description: Adobe Targetの自動ターゲットでは、高度な機械学習を活用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進します。 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
 title: 自動ターゲットの概要
 feature: auto-target
-topic: Standard
-uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 86%
