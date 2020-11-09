@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 95e620e78fa6bcb2cded1c6efc79d365c5b70b30
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 48%
+source-wordcount: '255'
+ht-degree: 49%
 
 ---
 
@@ -37,7 +37,7 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
