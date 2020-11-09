@@ -3,12 +3,11 @@ keywords: catalog;search
 description: Adobe Target でカタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
 title: Adobe Target のカタログ検索
 feature: catalog
-uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -156,7 +155,7 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
 
 1. 目的の検索ファセット（ID、名前、メッセージなど）を選択します。
 
-   ![追加フィルター](/help/c-recommendations/c-products/assets/add-filters.png)
+   ![フィルターを追加](/help/c-recommendations/c-products/assets/add-filters.png)
 
 追加のフィルターファセットは、現在のセッションでのみ使用できます。
 
