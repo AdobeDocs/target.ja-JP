@@ -3,9 +3,8 @@ keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers
 description: ファイアウォールを設定してアドビサーバーからの IP アドレスを許可するのに役立つ、オレゴンデータセンターにある Recommendations フィード処理サーバーで使用される IP アドレスのリスト。
 title: Recommendations フィード処理サーバーで使用される IP アドレス
 feature: reference general
-uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%
