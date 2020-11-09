@@ -3,9 +3,8 @@ keywords: content library;assets;search;smart collections;search folder;filter
 description: キーワードでアセットを検索し、スマートコレクションと呼ばれる検索フォルダーを保存します。スマートコレクションは、検索結果を反映して自動的に更新されます。
 title: コンテンツの検索とスマートコレクションの作成
 feature: offers
-uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
