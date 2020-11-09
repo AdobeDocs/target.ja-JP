@@ -5,9 +5,9 @@ title: ターゲットのお知らせ
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 | ドキュメントの種類 | 説明 |
 | --- | --- |
 | [Adobe Target製品ドキュメント](/help/target-home.md)<br>（本ガイド） | ユーザーインターフェイスを使用した操作に重点を置いた概要情報、手順およびスクリーンショット [!DNL Target] です。 このガイドでは、回避する「了解事項」を含む、使用可能なすべてのアクションとオプションについて概説します。 これは、 [!DNL Target] UIを使用する場合に最も詳細なリソースです。 |
-| [Adobe Targetチュートリアル](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | の多くのコンポーネントを学習するのに役立つビデオとチュートリアル [!DNL Target]。 |
+| [Adobe Targetチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | の多くのコンポーネントを学習するのに役立つビデオとチュートリアル [!DNL Target]。 |
 | [Adobe Experience Leagueターゲットコンテンツライブラリ](https://guided.adobe.com/#recommended/solutions/target) | ページ上の [!DNL Target] 利用可能な機能に関するハウツービデオやチュートリアルの集まり [!DNL Adobe Target Experience League] です。 |
 | [Adobe Experience Platform Launchターゲット文書](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | の次世代タグ管理プラットフォーム [!DNL Target] であるを使用した導入に関する情報 [!DNL Adobe Experience Platform Launch][!DNL Adobe]です。 これは、実装する推奨される方法で [!DNL Target]す。 |
 | [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Adobeカスタマーケアチームが率いるイニシアチブ「オフィスアワーズ」に関する情報です。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
