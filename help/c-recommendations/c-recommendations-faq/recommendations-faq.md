@@ -3,9 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;sp
 description: Adobe TargetRecommendationsアクティビティに関するよくある質問(FAQ)のリスト。
 title: Adobe TargetRecommendationsFAQ
 feature: recommendations general
-uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
