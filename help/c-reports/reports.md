@@ -3,10 +3,8 @@ keywords: reports;block ip address;block visitor from ip address;download report
 description: レポートは、Adobe Targetアクティビティのパフォーマンスに関する情報を提供します
 title: レポート
 feature: reports
-topic: Standard
-uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 66%
