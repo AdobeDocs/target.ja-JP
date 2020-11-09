@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3977'
+source-wordcount: '3975'
 ht-degree: 85%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 85%
 >
 >ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.jsをアップグレードするのに推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.jsをアップグレードするのに推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
 
 ## at.js 2.3.2（2020年7月25日）
 
