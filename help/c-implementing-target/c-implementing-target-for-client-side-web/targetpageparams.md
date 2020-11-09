@@ -3,10 +3,8 @@ keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;pa
 description: Adobe Target at.js JavaScript ライブラリの targetPageParams() 関数について説明します。
 title: targetPageParams()
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 88%
