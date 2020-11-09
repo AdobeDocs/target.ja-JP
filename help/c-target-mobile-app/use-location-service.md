@@ -5,10 +5,10 @@ title: ロケーションサービスを使用
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 4%
 
 Adobe Experience Platformロケーションサービス(Location Service)は、場所を認識するモバイルアプリで、豊富で使いやすいSDKインターフェイスを使用し、目標地点(POI)の柔軟なデータベースを伴い、場所のコンテキストを理解できる地域サービスです。
 
-場所サービスをターゲットと共に使用して、 [Adobe Experience Platform Launchのルールを活用し](https://docs.adobe.com/content/help/en/launch/using/overview.html) 、場所データをAdobe TargetSDKイベントに添付できます。
+場所サービスをターゲットと共に使用して、 [Adobe Experience Platform Launchのルールを活用し](https://experienceleague.adobe.com/docs/launch/using/overview.html) 、場所データをAdobe TargetSDKイベントに添付できます。
 
-詳細については、『 [Adobe Experience Platformロケーションサービス』ガイドの「Adobe Targetでロケーションサービスを](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) 使用する [」を参照してください](https://docs.adobe.com/content/help/en/places/using/home.html)。
+詳細については、『 [Adobe Experience Platformロケーションサービス』ガイドの「Adobe Targetでロケーションサービスを](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) 使用する [」を参照してください](https://experienceleague.adobe.com/docs/places/using/home.html)。
