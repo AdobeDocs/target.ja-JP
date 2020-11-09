@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 18%
 
 ---
@@ -145,4 +145,4 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 * [!UICONTROL 自動ターゲット] ・モデルは、通常通り24時間ごとにトレーニングを行います。 ただし、からのコンバージョンイベントデータ [!DNL Analytics] は、さらに6 ～ 24時間遅れます。 この遅延は、に記録された最新のイベントに従っ [!DNL Target] て、によるトラフィックの配分が行われることを意味 [!DNL Analytics]します。 これは、アクティビティが最初にアクティブ化されてから最初の48時間で最大の効果を得ます。アクティビティのパフォーマンスは、5日が経過した後の [!DNL Analytics] コンバージョン動作とより密接に反映されます。 アクティビティ期間が短い場合は、 [!UICONTROL 自動ターゲットの代わりに] 自動配分を使用することをお勧めします。この場合、アクティビティ期間の最初の5日間にほとんどのトラフィックが発生します。
 * を [!DNL Analytics] 自動ターゲット  アクティビティのデータソースとして使用する場合、セッションは6時間経過後に終了したと見なされます。 6時間後に発生したコンバージョンはカウントされません。
 
-詳しくは、『 [Analyticsツールガイド』のアトリビューションモデルとルックバックウィンドウ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) ( *Windows*)を参照してください。
+詳しくは、『 [Analyticsツールガイド』のアトリビューションモデルとルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) ( *Windows*)を参照してください。
