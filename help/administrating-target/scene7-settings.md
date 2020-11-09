@@ -1,28 +1,32 @@
 ---
-description: Target Standard を Adobe Dynamic Media Classic（以前の Scene7）と統合して、コンテンツライブラリで Digital Asset Management（DAM）を実行できます。
-title: Dynamic Media Classic の統合 設定統合
+description: Target StandardをAdobeのDynamic Media Classicと統合して、コンテンツライブラリでDigital Asset Management(DAM)を実行できます。
+title: Dynamic Media Classic統合設定の統合
 feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 32%
+source-wordcount: '403'
+ht-degree: 24%
 
 ---
 
 
 # Scene7形状 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
+Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. このサービスは、ワークフローに画像の入れ替え機能が必要なお客様向けのものです。
+
+>[!NOTE]
+>
+>新規のお客様または新規のお客様に対して、Adobe Targetの制限付きの無料 [!DNL Dynamic Media Classic] アカウントはサポートされなくなりました。 既存のログイン資格情報は、通常どおりに機能します。
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. この機能が設定されたら、画像オファーを交換／変更するオプションを     [Visual Experience Composer とフォームベースの Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で利用できます。You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
