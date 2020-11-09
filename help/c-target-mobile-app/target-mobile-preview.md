@@ -3,10 +3,8 @@ keywords: qa;preview;preview link;mobile;mobile preview
 description: モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
 title: Adobe Target モバイルでのモバイルプレビューリンクの使用
 feature: mobile implementation
-topic: Advanced,Standard,Classic
-uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
