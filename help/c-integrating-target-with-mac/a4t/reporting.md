@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 35%
 
 ---
@@ -52,7 +52,7 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 * [!UICONTROL アクティビティのインプレッション] — レ [!UICONTROL ポートの][!DNL Target] 参加者数に一致します。
 * [!UICONTROL アクティビティコンバージョン] — レポート内の [!UICONTROL カスタムコンバージョン][!DNL Target] 数に一致します。
 
-で [!DNL Analysis Workspace]は、 [!UICONTROL Analyticsのターゲット用パネルを使用して、] 上昇率と信頼性を持つ [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、Analyticsツールガイドの [ターゲット用の](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *(* Analyticsツールガイド)を参照してください。
+で [!DNL Analysis Workspace]は、 [!UICONTROL Analyticsのターゲット用パネルを使用して、] 上昇率と信頼性を持つ [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、Analyticsツールガイドの [ターゲット用の](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *(* Analyticsツールガイド)を参照してください。
 
 >[!IMPORTANT]
 >
