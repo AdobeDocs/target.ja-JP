@@ -3,10 +3,8 @@ keywords: Release notes
 description: Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)など、以前のターゲットリリースに関するリリースノートです。 リリースノートは、リリースの年月に従って新しい順に整理されています。
 title: 以前のリリースのリリースノート
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29816'
 ht-degree: 86%
