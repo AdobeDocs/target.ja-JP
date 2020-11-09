@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;c
 description: このトピックには、以前の SiteCatalyst の Test&Target への統合と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: 以前の SiteCatalyst の Test&Target への統合 - A4T FAQ
 feature: a4t troubleshooting
-topic: Standard
-uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
