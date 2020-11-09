@@ -3,9 +3,8 @@ keywords: template testing;template;same experience on similar pages;template te
 description: Adobe Targetのページテンプレートを使用して、ページの構造を作成したり、ページに類似の要素が含まれる場合は、類似の構造を持つページ要素のバリエーションをテストしたりします。
 title: Adobe Targetを使用して、類似のページに同じエクスペリエンスを組み込む
 feature: experiences
-uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 45%
