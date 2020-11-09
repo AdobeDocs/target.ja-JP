@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: Adobe Targetのユーザーインターフェイスについて
 title: ターゲットのUIについて
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -74,7 +72,7 @@ UIの上部のヘッダーには、ソリューションの様々な機能を切
 
 ![オーディエンスリスト](/help/c-intro/assets/audience-list.png)
 
-オーディエンスは、ターゲットアクティビティが表示される、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。[!UICONTROL オーディエンス] 機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲットし、適切なメッセージを適切な担当者に適切なタイミングで表示することで、デジタルマーケティングを最適化できます。 If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
+オーディエンスは、ターゲットアクティビティが表示される、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。[!UICONTROL オーディエンス] 機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲットし、適切なメッセージを適切な人に適切なタイミングで表示することで、デジタルマーケティングを最適化できます。 If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
 
 のオーディエンスタイプについて詳しくは、 [オーディエンスの](/help/c-target/c-audiences/create-audience.md) 作成を参照してください。また、 [!DNL Target] オーディエンス  リストのユーザーインターフェイスについて詳しくは、「の作成」を参照してください。
 
