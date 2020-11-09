@@ -3,10 +3,8 @@ keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 title: TLS（Transport Layer Security）暗号化の変更
 feature: privacy and security
-topic: Standard
-uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 61%
