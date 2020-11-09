@@ -3,9 +3,8 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Ex
 description: 古いバージョンの at.js または mbox.js を使用している場合は、Analytics for Target（A4T）を使用するアクティビティ用に Analytics トラッキングサーバーを指定する必要があります。
 title: Analytics トラッキングサーバーの使用
 feature: a4t general
-uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 27%
