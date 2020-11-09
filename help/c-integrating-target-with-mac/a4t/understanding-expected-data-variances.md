@@ -3,10 +3,8 @@ keywords: data variances;analytics;differences;variance;a4t;analytics for target
 description: Analytics をレポートソースとして使用しない場合に予期される Target と Adobe Analytics のデータの相違に関する情報（Analytics をレポートソースとして使用すると（A4T）データの相違はなくなります）。
 title: A4T を利用しない場合に予期されるデータの相違
 feature: a4t troubleshooting
-topic: Advanced
-uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
