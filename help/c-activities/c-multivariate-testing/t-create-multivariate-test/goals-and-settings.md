@@ -3,10 +3,8 @@ keywords: activity settings;mvt goals and settings;multivariate goals and settin
 description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 feature: mvt
-topic: Standard
-uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 96%
