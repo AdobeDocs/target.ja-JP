@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2749'
 ht-degree: 92%
 
 ---
@@ -96,7 +96,7 @@ at.js 2.*x* では、いくつかの関数が廃止されました。
 </script>
 ```
 
-**at.js 2.*x*相当**
+**at.js 2.*x* 相当**
 
 `mboxCreate(mbox, params)` に代わるものは、`getOffer()` および `applyOffer()` です。
 
@@ -145,7 +145,7 @@ at.js 2.*x* では、いくつかの関数が廃止されました。
 </script>
 ```
 
-**at.js 2.*x*相当**：
+**at.js 2.*x* 相当**：
 
 `mboxDefine()` と `mboxUpdate` に代わるものは、`getOffer()` と `applyOffer()`（`applyOffer()` でセレクターオプションを使用）です。この方法を使用すると、ID を持つ要素だけではなく、CSS セレクターを使用してオファーを要素にマッピングできます。
 
@@ -290,7 +290,7 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 ただし、at.js 2.*x* では、HTTP GET は使用されなくなり、代わりに HTTP POST が使用されています。JSON ペイロードを Target Edge サーバーに送信するために、HTTP POST は、at.js 2.*x* を介して使用されるようになりました。つまり、ブラウザーがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストがべき等性のあるトランザクションであるのに対し、HTTP POST はべき等性がなく、恣意的に繰り返してはならないためです。したがって、標準設定での at.js 2.*x* のクロスドメイントラッキングはサポートされなくなりました。at.js 1.*x* のみ、クロスドメイントラッキングを標準設定でサポートします。
 
-クロスドメイン追跡を使用する場合は、at.js 2と共に [ECIDライブラリv4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) をインストールする必要があります。*x* では、標準設定ではサポートされていません。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。
+クロスドメイン追跡を使用する場合は、at.js 2と共に [ECIDライブラリv4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) をインストールする必要があります。*x* では、標準設定ではサポートされていません。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。
 
 >[!NOTE]
 >
@@ -336,7 +336,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 ## at.js の互換性
 
-次の表で、at.jsについて説明します。 2.*x* 、異なるアクティビティタイプ、統合、機能およびat.js関数との互換性。
+次の表で、at.jsについて説明します。 2.*x* 、様々なアクティビティタイプ、統合、機能およびat.js関数との互換性
 
 ### アクティビティのタイプ {#types}
 
