@@ -3,10 +3,8 @@ keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto
 description: Adobe TargetのVisual Experience Composerを使用して、自動配分A/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
 title: 自動ターゲットアクティビティの作成
 feature: ab
-topic: Advanced,Standard,Classic
-uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 59%
