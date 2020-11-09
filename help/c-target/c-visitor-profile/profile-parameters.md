@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;profile script best practices
 description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
 title: Adobe Target のプロファイル属性
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
