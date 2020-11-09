@@ -3,10 +3,8 @@ keywords: mvt;multivariate test;location contribution report
 description: 場所の貢献度レポートには、各要素および各オファーのパフォーマンスが表示されます。
 title: 場所の貢献度レポート（MVT）
 feature: null
-topic: Standard
-uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 98%
