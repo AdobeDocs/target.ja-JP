@@ -3,10 +3,9 @@ keywords: activity settings;A/B goals and settings;reporting settings;goal metri
 description: 目標と設定ページでは、テストの目標についての情報を入力します。
 title: 目標と設定
 feature: ab
-uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%
