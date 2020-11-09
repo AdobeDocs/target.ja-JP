@@ -3,9 +3,8 @@ keywords: security;security practices
 description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 title: Target のセキュリティの概要
 feature: privacy and security
-uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 94%
