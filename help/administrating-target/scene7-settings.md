@@ -4,10 +4,10 @@ description: Target StandardをAdobeのDynamic Media Classicと統合して、�
 title: Dynamic Media Classic統合設定の統合
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 24%
+source-wordcount: '355'
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 24%
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. このサービスは、ワークフローに画像の入れ替え機能が必要なお客様向けのものです。
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials.
 
 >[!NOTE]
 >
