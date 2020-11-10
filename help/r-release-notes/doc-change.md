@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2932'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 年 11 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 11月11日に予定されているAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。 |
 | 3 年 11 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次のトラブルシューティングトピックを更新しました。「必要なレポートスイートが表示されません。」 |
 | 10月28日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 初回訪問者は、クライアント側でのみ初期化でき、サーバー側では初期化できないことに注意を追加しました。 |
 | 10月27日 | [サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 新しい *[Adobe TargetSDKs](https://adobetarget-sdks.gitbook.io/docs/)* ポータルへのリンクを追加しました。 |
