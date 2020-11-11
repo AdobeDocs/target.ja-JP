@@ -1,20 +1,20 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: グローバル mbox にパラメーターを渡すには、JavaScript の targetPageParams 関数を使用します。Target に追加のターゲット設定／コンテキスト情報を渡す場合は、常にこの関数が使用されます。
+description: グローバル mbox にパラメーターを渡すには、JavaScript の targetPageParams 関数を使用します。これは、追加のターゲット設定/コンテキスト情報をAdobe Targetに渡す場合に必要です。
 title: グローバル mbox にパラメーターを渡す
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 74%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 
 # グローバル mbox にパラメーターを渡す{#pass-parameters-to-a-global-mbox}
 
-グローバル mbox にパラメーターを渡すには、JavaScript の `targetPageParams` 関数を使用します。This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
 For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
@@ -34,7 +34,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 
 ページにグローバル mbox を追加する前に、JavaScript 関数を定義する必要があります。名前は `targetPageParams` とします。
 
-**クエリ文字列**
+## クエリ文字列
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ p1=v1&p2=v2&p3=hello%20world
 * p2=v2
 * p3=hello world
 
-**配列**
+## 配列
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ p1=v1&p2=v2&p3=hello%20world
 * b=2
 * c=hello world
 
-**JSON**
+## JSON
 
 JSON は、パラメーターを渡すための強力な機能を備えています。Target は、JSON オブジェクトのキーを使用して、複雑な構造をシンプルなパラメーターへとフラット化します。
 
@@ -113,5 +113,5 @@ JSON は、パラメーターを渡すための強力な機能を備えていま
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`=ゴールド
 * `profile.country.city`=San Francisco
