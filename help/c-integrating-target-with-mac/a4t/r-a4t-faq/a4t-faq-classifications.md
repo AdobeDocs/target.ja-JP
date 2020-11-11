@@ -4,10 +4,10 @@ description: このトピックには、分類と、Analytics を Target のレ�
 title: 分類 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ TNT 変数の文字列形式は、`activityID:experienceID:targettype|event` で
 * event = 0 は、エクスペリエンスの開始を表します。
 * event = 1 は、エクスペリエンスの訪問を表します。
 * event = 2 は、アクティビティのインプレッションを表します。
+* イベント= 3-32766は、Analytics成功指標IDを表します。
 * event = 32767 は、アクティビティのコンバージョンを表します。
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
