@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 * **太平洋標準時の午前10時 | CST午後12時 |米国東部標準時の午後1時**
 
 [このエキサイティングなイベントにご登録ください。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
-
-* **2020年11月11日（水）**
-* **午前8時(PST)**
-
-アドビのエキスパートは、上級 [!DNL Adobe Target] 製品マネージャーのDavid Son氏で、以下のトピックに関するインサイトと専門知識を共有します。
-
-* オンデバイスの判定
-* At.js
-* モバイル
-* AEP Web SDK
-* API
-
-[登録はこちらから.](https://adobe.ly/2H3MBX9)
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
