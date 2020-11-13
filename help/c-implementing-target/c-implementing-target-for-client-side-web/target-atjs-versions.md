@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: at.js の各バージョンでの変更の詳細について説明します。
+keywords: at.js releases;at.js versions;release notes
+description: Adobe Targetat.jsの各バージョンの変更について詳しく説明します。
 title: at.js のバージョンの詳細
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
+source-wordcount: '4003'
 ht-degree: 85%
 
 ---
 
 
-# at.js のバージョンの詳細 {#at-js-version-details}
+# at.js のバージョンの詳細
 
 [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。
 
@@ -21,6 +21,12 @@ ht-degree: 85%
 >ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.jsをアップグレードするのに推奨される方法です。 拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは、新しいバージョンの拡張機能にパッケージ化され、アップグレード時に [!DNL Launch] カタログで利用できるようになります。 詳しくは、『 [Experience Platform Launchユーザガイド](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 』の「 *拡張機能のアップグレード*」を参照してください。
+
+## at.js 2.3.3（2020年11月13日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* mboxクリックの追跡とA4Tに関する問題を修正しました。
 
 ## at.js 2.3.2（2020年7月25日）
 
