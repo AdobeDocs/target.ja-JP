@@ -4,10 +4,10 @@ description: これらのリリースノートでは、Adobe Target Standard お
 title: 'Adobe Target リリースノート（現行） '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 27%
+source-wordcount: '974'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 27%
 
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## at.js 2.3.3（2020年11月13日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* mboxクリックの追跡とA4Tに関する問題を修正しました。
 
 ## Target Standard／Premium 20.10.1（2020 年 10 月 27 日）
 
