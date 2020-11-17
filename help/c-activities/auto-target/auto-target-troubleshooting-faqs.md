@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Adobe Targetでの自動ターゲットに関するトラブルシューティングおよびよくある質問(FAQ)です。
 title: 自動ターゲットのトラブルシューティングとFAQ
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ ht-degree: 73%
 
 最適なトラフィック配分の分割方法は、達成する必要があるものによって異なります。
 
-できるだけ多くのトラフィックをパーソナライズすることを目標としている場合は、90%のターゲット設定と10%のコントロールをアクティビティの存続期間にわたって維持できます。 パーソナライズされたアルゴリズムの効果と対照の効果を比較してテストを実行することが目標の場合は、50/50の分割が最適です。
+できるだけ多くのトラフィックをパーソナライズすることを目標としている場合は、90%のターゲット設定と10%のコントロールをアクティビティの存続期間にわたって維持できます。 パーソナライズされたアルゴリズムの効果と対照の効果を比較してテストを実行することが目標の場合は、アクティビティの存続期間に対して50/50の分割が最適です。
 
-### レポートの日付範囲が変更された場合、エクスペリエンスのモデル構築済みを示すチェックマークは更新されますか。
+ベストプラクティスは、訪問者がターゲットエクスペリエンスとコントロールエクスペリエンスを切り替えないように、アクティビティの期間中、トラフィック配分の分割を維持することです。
 
-いいえ。モデル構築のチェックマークは、それまでに構築されたモデルのみを示します。過去に遡ったり、モデルが作成された日時を確認したりすることはできません。
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### 訪問者が [!UICONTROL 自動ターゲット] アクティビティとコンバージョンを表示しない場合、アクティビティでそのコンバージョンはカウントされますか。
 
