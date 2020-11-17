@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2994'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 17 年 11 月 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 次のFAQを追加しました。<ul><li>A4Tを使用する自動ターゲットアクティビティで、訪問者は異なる訪問でのターゲットエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか。</li><li>モデルが作成されるまで、自動ターゲット用のカスタムモデルと、90(Control)/10(Targeted)分割のA4Tを使用してカスタムモデルを使用することをお勧めしますか。</li></ul> |
+| 17 年 11 月 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 次のFAQを追加しました。「訪問者は、A4Tを使用する自動ターゲットアクティビティで、様々な訪問でターゲット設定されたエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか？」 |
+|  | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「モデルが構築されるまで、90(Control)/10(Targeted)の分割で自動ターゲットを使用することをお勧めしますか？」 |
 | 13 年 11 月 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.3 に関する情報を追加しました。 |
 | 10 年 11 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 11月11日に予定されているAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。 |
 | 3 年 11 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次のトラブルシューティングトピックを更新しました。「必要なレポートスイートが表示されません。」 |
