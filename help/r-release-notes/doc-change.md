@@ -4,10 +4,10 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
-ht-degree: 29%
+source-wordcount: '3020'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 11 月 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 次のFAQを追加しました。「訪問者は、A4Tを使用する自動ターゲットアクティビティで、様々な訪問でターゲット設定されたエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか？」 |
 |  | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「モデルが構築されるまで、90(Control)/10(Targeted)の分割で自動ターゲットを使用することをお勧めしますか？」 |
+|  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 次のFAQを追加しました。&quot;Analyticsでは訪問はどのようにカウントされ、A4Tを使用する自動ターゲットアクティビティではコンバージョンクレジットが割り当てられますか？&quot; |
 | 13 年 11 月 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.3 に関する情報を追加しました。 |
 | 10 年 11 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 11月11日に予定されているAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。 |
 | 3 年 11 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次のトラブルシューティングトピックを更新しました。「必要なレポートスイートが表示されません。」 |
