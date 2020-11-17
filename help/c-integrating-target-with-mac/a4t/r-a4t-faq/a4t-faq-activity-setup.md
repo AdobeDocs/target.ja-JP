@@ -4,10 +4,10 @@ description: このトピックには、アクティビティの設定と、Anal
 title: アクティビティの設定 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Ado
 
 * トラフィックの対象となる「グループ」に入った後、機械学習モデルが別のエクスペリエンスが新しい訪問に関連していると判断した場合、訪問者を訪問とは異なるエクスペリエンスに送信できます。
 * トラフィックのコントロール「バケット」に割り当てられた後は、エクスペリエンスの割り当ては、訪問者のvisitorIdの決定論的な擬似ランダムハッシュに基づくので、訪問者には常に同じエクスペリエンスが表示されます。
-
-## モデルが作成されるまで、自動ターゲット用のカスタムモデルと、90(Control)/10(Targeted)分割のA4Tを使用してカスタムモデルを使用することをお勧めしますか。
-
-最適なトラフィック配分の分割方法は、達成する必要があるものによって異なります。
-
-できるだけ多くのトラフィックをパーソナライズすることを目標としている場合は、90%のターゲット設定と10%のコントロールをアクティビティの存続期間にわたって維持できます。 パーソナライズされたアルゴリズムの効果と対照の効果を比較してテストを実行することが目標の場合は、50/50の分割が最適です。
-
