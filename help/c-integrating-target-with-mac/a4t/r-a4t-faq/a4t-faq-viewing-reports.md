@@ -4,15 +4,15 @@ description: このトピックには、Analytics を Target のレポートソ�
 title: レポートの表示 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 63%
+source-wordcount: '2177'
+ht-degree: 57%
 
 ---
 
 
-# レポートの表示 - A4T FAQ{#view-reports-a-t-faq}
+# レポートの表示 - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ The following list explains reasons why the same visitor could be counted in mul
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 再訪問者は影響を受けません。
 
 ベストプラクティスとして、既存のアクティビティを停止し、アクティブ化の後に割合を変更するのではなく、新しいアクティビティを作成する必要があります。新規訪問者と再訪問者のデータから新しいアクティビティをレポートすることで、レポートの不一致が生じることはありません。
+
+## Analyticsでは訪問はどのようにカウントされ、A4Tを使用する自動ターゲットアクティビティではコンバージョンクレジットが割り当てられますか。
+
+訪問者がアクティビティの資格を得た後、すべてのコンバージョンクレジットは将来そのアクティビティに結び付けられます。
+
+次の点に留意してください。
+
+* 分析ーウィンドウの外部でコンバージョンが発生した場合、そのコンバージョンはレポートに表示されません。 レポートーウィンドウは、アクティビティーの開始日から開始する必要があります。
+* アクティビティが配信するコンテンツを表示しない場合で [!DNL Analytics]も、アクティビティに該当しない訪問者が訪問者数を増やすことが可能です。
+* 1人の訪問者が異なる訪問で複数のエクスペリエンスの資格を得た場合、コンバージョンクレジットは、最後に閲覧されたエクスペリエンスに帰属します。
+* 分析ーウィンドウの前にアクティビティへの最初のエントリが発生した場合、その後の訪問とコンバージョンは、分析ーウィンドウでカウントされます。 ただし、これはレポートをゆがめる可能性があり [!DNL Analytics] ます。
+* アクティビティは追加され、リスト変数として機能します。ただし、エクスペリエンスは上書きされますが、コンバージョンのクレジットは、前回表示したエクスペリエンスに関連付けられます。
+* 1人の訪問者は、その後の訪問で訪問者が再びアクティビティに入ると、2つの異なるエクスペリエンスの訪問を増分できます。
