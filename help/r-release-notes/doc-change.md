@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [指標の定義 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 次のFAQを追加しました。「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」 |
+|  | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md) | A4Tを使用するアクティビティに関する注意のテキストを調整しました。 |
 | 17 年 11 月 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 次のFAQを追加しました。「訪問者は、A4Tを使用する自動ターゲットアクティビティで、様々な訪問でターゲット設定されたエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか？」 |
 |  | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「モデルが構築されるまで、90(Control)/10(Targeted)の分割で自動ターゲットを使用することをお勧めしますか？」 |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 次のFAQを追加しました。&quot;Analyticsでは訪問はどのようにカウントされ、A4Tを使用する自動ターゲットアクティビティではコンバージョンクレジットが割り当てられますか？&quot; |
