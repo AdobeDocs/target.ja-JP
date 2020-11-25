@@ -4,10 +4,10 @@ description: このトピックには、Analytics を Target のレポートソ�
 title: レポートの表示 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 56%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 [!DNL Target] に送信される [!DNL Analytics] 変数には、デフォルトで 90 日間の有効期限があります。(注意：この有効期限は、必要に応じてカスタマーケアが調整できます)。 訪問者は、この有効期限枠を通してサイトをナビゲートする際、多くの [!DNL Target] アクティビティの一部となり、すべてディメンションに収集されます。
 
 その結果、あるアクティビティがヒットに存在するようにセグメント化すると、そのアクティビティに含まれるすべてのエクスペリエンスと ** 、そのヒットに永続的なその他のエクスペリエンスがすべて取得されます。
+
+## 目標指標を設定する際に、詳細設定にアクセスできないのはなぜですか。
+
+レポートソース [!DNL Analytics] としてを使用するアクティビティ(A4T)の場合、目標指標では常に「カウントを[!UICONTROL 増分、アクティビティでユーザーを保持]」および「すべてのインプレッションで」設定が使用されます。 この設定は *変更できません* 。
+
+詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできない理由」を参照してください。 in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 標準化指標（カウント手法）として訪問者、訪問またはアクティビティのインプレッションを使用する必要がありますか。 {#metrics}
 
