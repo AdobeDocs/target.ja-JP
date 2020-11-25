@@ -4,15 +4,15 @@ description: このトピックには、指標の定義と、Analytics を Targe
 title: 指標の定義 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 65%
 
 ---
 
 
-# 指標の定義 - A4T FAQ{#metric-definitions-a-t-faq}
+# 指標の定義 - A4T FAQ
 
 このトピックには、指標の定義と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 
@@ -20,11 +20,17 @@ ht-degree: 100%
 
 アクティビティのデフォルトの有効期限は、訪問者のアクティビティでの最後のインタラクションの後、90 日です。これは、必要に応じて ClientCare に依頼することで調整できます。この設定は、すべてのアクティビティでグローバルなので、1 つの事例のために調整することはしないでください。
 
-## Target の成功指標の高度なオプションは A4T で機能しますか？ {#section_F060E3438F4144258BB95813EDEABDAA}
+## 目標指標を設定する際に、「詳細設定」オプションにアクセスできないのはなぜですか。 {#adv-settings}
 
-これらのオプションは、現在、A4T では機能しません。
+「 [!UICONTROL 詳細設定] 」オプションは、レポートソースとしてを使用するアクティビティ(A4T) [!DNL Analytics] では使用できません。
 
-## 計算指標とは何ですか？ 以前使用していた SiteCatalyst:Event mbox をどのように置き換えるものですか？ {#section_D59F4719E6B94758A2187427C17F8EF3}
+A4Tを使用するアクティビティの場合、目標指標では常に「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]」および「すべてのインプレッション」設定が使用されます。 この設定は *変更できません* 。
+
+A4T以外のアクティビティの場合は、 [詳細設定オプション](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) を使用して、成功の測定方法を管理できます。 依存関係の追加、アクティビティにユーザーを保持するか、ユーザーを削除するかの選択、参加者ごとに1回カウントするか、すべてのインプレッションでカウントするかを選択するオプションが含まれます。 次に示すように、A4T以外の [!UICONTROL アクティビティで「] 詳細設定 [!UICONTROL 」オプションにアクセスするには、垂直の三点リーダー/]詳細設定(Advanced Settings)をクリックします。
+
+![詳細設定](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
+
+## 計算指標とは何ですか？ 以前使用していた SiteCatalyst:Event mbox をどのように置き換えるものですか？{#section_D59F4719E6B94758A2187427C17F8EF3}
 
 計算指標を使用すると、セグメントまたは数値計算から算出されるカスタム指標を作成できます。従来は、`evar27=shoes` でイベントが `purchase` の `SiteCatlayst:Event` mbox を使用していたかもしれませんが、現在は、`evar27=shoes` のセグメントを作成して、セグメントが適用されたイベントが `purchase` の計算指標を作成できます。このメリットは、これらの指標が、たとえアクティビティが進行中でも、いつでも作成できるということです。このため、これらの指標を Analytics の任意のレポートで使用できます。
 
