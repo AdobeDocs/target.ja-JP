@@ -4,15 +4,15 @@ description: Adobe Targetでは、成功指標はアクティビティの成功�
 title: Adobe Targetの成功指標
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 47%
+source-wordcount: '1138'
+ht-degree: 46%
 
 ---
 
 
-# 成功指標{#success-metrics}
+# 成功指標
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->レポートソースとして [Analyticsを使用するアクティビティ(A4T)のデフォルトの動作は](/help/c-integrating-target-with-mac/a4t/a4t.md) 、「カウントを[!UICONTROL 増分、ユーザーをアクティビティ内に保持」です(「参加者あたり]1回」)。
+>レポートソースとして [Analyticsを使用するアクティビティ(A4T)の場合](/help/c-integrating-target-with-mac/a4t/a4t.md) 、目標指標では常に「カウントを[!UICONTROL 増分、アクティビティでユーザーを保持]」および「すべてのインプレッションで」設定が使用されます。 この設定は *変更できません* 。
 
 以下の成功指標を使用できます。
 
