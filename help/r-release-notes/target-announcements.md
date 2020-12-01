@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,15 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 これまで以上に、マーケター、製品所有者、開発者は、サイトやアプリなど、顧客と接続するあらゆる場所で全体的な顧客エクスペリエンスを最適化する作業を行っています。 複数のツールでデータサイロを使用し、複雑な実装を行っても、その処理は中断されません。
 
-このライブウェビナーでは、Adobe Targetの製品エキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きについて話し合います。これにより、新しい使用例への扉が開かれ、お客様のサイトのパフォーマンスが向上します。
+この記録されたウェビナーでは、Adobe Targetの製品エキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きが、新しい使用例にどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 
-* **2020年11月10日**
-* **太平洋標準時の午前10時 | CST午後12時 |米国東部標準時の午後1時**
+>[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 [このエキサイティングなイベントにご登録ください。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
-* **ここをクリックして、 [ウェビナー録画を表示できます](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **ウェビナーの録画を表示するには、ここをクリック [し](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)ます。**
 
 マッキンゼイ・デジタルは、「消費者とビジネスのデジタル採用に5年間、約8週間の間に成果が上がった」と報じた。 *
 
@@ -49,4 +48,6 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 ## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
 
-2021年1月18日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。 ウェビナーの録画はここで [表示できます](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+2021年1月18日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
+
+[ウェビナーの録画表示はこちら](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
