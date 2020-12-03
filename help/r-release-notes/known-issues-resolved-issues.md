@@ -4,10 +4,10 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4273'
-ht-degree: 71%
+source-wordcount: '4326'
+ht-degree: 70%
 
 ---
 
@@ -73,6 +73,7 @@ Recommendations アクティビティの既知の問題は次のとおりです�
 * API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスに表示されず、API でのみ編集できます。（TGT-35777）
 * API で作成された Recommendations アクティビティはユーザーインターフェイスで確認できますが、API からのみ編集できます。
 * 条件リスト（カード）表示に表示されるカスタム条件フィードのステータスは、10 分ごとに更新され、まれに 10 分より古いものが表示される場合があります。カスタム条件の編集ビューに表示されるステータスはリアルタイムで取得され、常に最新の状態になります。（TGT-35896、TGT-36173）
+* 条件とデザインのカードで、使用されているアクティビティの数が正しく表示されません。 条件またはデザインをABアクティビティで使用する場合、アクティビティは考慮されず、実際に使用されている場合はそのデザイン/条件が使用されていないことがカードに示される場合があります。
 
 ### 多変量分析テスト（MVT）アクティビティ
 
