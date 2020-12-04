@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript ライブラリの adobe.target.sendN
 title: adobe.target.sendNotifications(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## プリフェッチされた mbox のレンダリング後の sendNotifications() 呼び出し
 
-```
+```javascript
 function createTokens(options) {
   return options.map(e => e.eventToken);
 }
