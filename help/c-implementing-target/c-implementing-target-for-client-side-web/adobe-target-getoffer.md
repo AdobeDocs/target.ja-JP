@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOf
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 getOffer() でパラメーターを追加し、成功処理に applyOffer() を使用します。
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 getOffer() でパラメーターとプロファイルパラメーターを追加し、成功処理に applyOffer() を使用します。
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ getOffer() でカスタムタイムアウトとカスタム成功処理を使用
 
 「YOUR_OWN_CUSTOM_HANDLING_FUNCTION」は、お客様が定義する関数のプレースホルダーです。
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ success コールバックに渡された応答パラメーターはアクショ
 
 ## 例
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
