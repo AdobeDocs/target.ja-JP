@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript ライブラリの mboxDefine() 関�
 title: mboxDefine() と mboxUpdate() - at.js 1.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
@@ -32,7 +32,7 @@ nodeId と mbox 名の間の内部マッピングを作成しますが、リク�
 
 ## 例 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 
-```
+```javascript
 <div id="someId" class="mboxDefault"></div> 
 <script> 
  mboxDefine('someId','mboxName','param1=value1','param2=value2'); 
