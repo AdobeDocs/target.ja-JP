@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript ライブラリの targetPageParams()
 title: targetPageParams()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 88%
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 アンパサンド区切りのリスト（値は URL エンコードされている必要がある）：
 
-```
+```javascript
 function targetPageParams() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParams() {
 
 配列（値を URL エンコードする必要はない）：
 
-```
+```javascript
 targetPageParams = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParams = function() {
 
 JSON（値を URL エンコードする必要はない）：
 
-```
+```javascript
 targetPageParams = function() { 
   return { 
     "a": 1, 
