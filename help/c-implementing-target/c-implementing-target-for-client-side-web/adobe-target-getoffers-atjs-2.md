@@ -4,10 +4,10 @@ description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOf
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1219'
+ht-degree: 92%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 95%
 | Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
-## すべてのビューに `getOffers()` を呼び出す
+## すべての表示に対してgetOffers()を呼び出します。
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## `getOffers()` を呼び出し、渡されたパラメーターとプロファイルを使用して最新ビューを取得する
+## getOffers()を呼び出して、渡されたパラメーターとプロファイルパラメーターを含む最新の表示を取得します
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## `getOffers()` を呼び出し、渡されたパラメーターとプロファイルを使用して mbox を取得する
+## getOffers()を呼び出して、パラメーターとプロファイルーパラメーターが渡されたmboxを取得します。
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## getOffers() を呼び出してクライアント側から分析ペイロードを取得
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **応答**：
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ at.js 2.x を使用すると、`getOffers()` API を使用して複数の mbox �
 
 次の例は、at.js 2.x を実装した単純な HTML ページを示しています。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ at.js 2.x を使用すると、`getOffers()` API を使用して複数の mbox �
 
 リクエストおよびレンダリングコードは次の例のようになります。
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ adobe.target.getOffers({
 
 この例では `prefetch > mboxes` を使用していますが、`execute > mboxes` を使用することもできます。`getOffers()` でプリフェッチを使用する場合は、`applyOffers()` 呼び出しでもプリフェッチを使用する必要があります。
 
-## pageLoad `getOffers()` の実行の呼び出し
+## getOffers()を呼び出してpageLoadを実行します
 
 次の例は、at.js 2でgetOffers()を使用してpageLoadを実行する方法を示しています。*x*
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {
