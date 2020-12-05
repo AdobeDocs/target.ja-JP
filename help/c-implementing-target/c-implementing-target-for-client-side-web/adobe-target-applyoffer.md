@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript ライブラリの adobe.target.apply
 title: adobe.target.applyOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(options)
 
 この関数は、応答内容を適用するために使用します。
 
@@ -32,7 +32,7 @@ options パラメーターは必須で、以下の構造を持ちます。
 
 次の例に、`getOffer` と `applyOffer` を一緒に使用する方法を示します。
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
