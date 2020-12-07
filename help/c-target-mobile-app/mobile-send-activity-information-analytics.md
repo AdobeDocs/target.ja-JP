@@ -4,7 +4,7 @@ description: ここでは、Adobe Targetのモバイルアプリアクティビ�
 title: Adobe Targetアクティビティ情報をAdobe Analyticsに送る
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 25%
@@ -27,13 +27,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
-   ```
+   ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
    ```
 
    エクスペリエンスjsonコード内のテキストを次の例のように置換します。
 
-   ```
+   ```javascript
    { 
      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
      "title":"Welcome Message", 
@@ -45,7 +45,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. これは、アクティビティID、エクスペリエンスID、トラフィックタイプを示します。 The following is a sample response from [!DNL Target]:
 
-   ```
+   ```javascript
    { 
      "tntVal": 115110:0:0", 
      "title":"Welcome Message", 
@@ -65,7 +65,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    例えば、`targetLoadRequest` 呼び出しのコールバックでこの呼び出しを実行できます。
 
-   ```
+   ```javascript
    [ADBMobile trackAction:@"Welcome Screen"  
          data:@{@"&&tnt" : tntVal from response}];
    ```
