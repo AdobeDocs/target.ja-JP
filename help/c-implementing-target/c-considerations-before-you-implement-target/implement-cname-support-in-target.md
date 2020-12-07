@@ -4,9 +4,9 @@ description: Adobe Client Care と連携しながら Adobe Target で CNAME（�
 title: CNAME と Adobe Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >
    >Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、AdobeはCNAMEの導入に対するリクエストを満たすことができません。
 
-1. [CNAMEサポートを要求するAdobeClientCareチケットを](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) 開いた場合は、次のフォームに入力し [、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+1. [CNAMEサポートを要求するAdobeClientCareチケットを](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 開いた場合は、次のフォームに入力し [、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
    * Adobe [!DNL Target] client code:
    * SSL証明書のホスト名(例： `target.example.com target.example.org`):
