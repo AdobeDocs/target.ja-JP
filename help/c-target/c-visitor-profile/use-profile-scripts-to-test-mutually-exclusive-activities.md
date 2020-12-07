@@ -4,7 +4,7 @@ description: プロファイル属性を使用すると、同じ訪問者を各�
 title: 相互に排他的なアクティビティをテストするプロファイルスクリプトを使用する
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 異なるアクティビティを閲覧するそれぞれのグループに訪問者を分けるには、プロファイル属性を作成する必要があります。プロファイル属性によって、訪問者を複数のグループのいずれかに分類することができます。「twogroups」というプロファイル属性を設定するには、次のスクリプトを作成します。
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 例えば、4 つのグループを作成する場合は、次の JavaScript を使用します。
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ if (!user.get('fourgroups')) {
 
 例えば、訪問者を 3 つのグループに均等に配分するには、次のコードを使用します。
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
