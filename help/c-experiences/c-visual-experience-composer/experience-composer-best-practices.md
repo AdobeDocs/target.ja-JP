@@ -4,7 +4,7 @@ description: 以下のベストプラクティスは、エクスペリエンス�
 title: Visual Experience Composer のベストプラクティスと制限事項
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Visual Experience Composer は、リンクを更新したプロキシサーバ�
 
 例えば、次のようなコードでは、VEC 内の「Shopping Cart」というテキストをターゲットにできません。
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Visual Experience Composer は、リンクを更新したプロキシサーバ�
 
 Web サイトの iframe バスティング技法を無効化し、ダミーページの iframe 内で期待どおりに開くかどうかを確認してください。次に例を示します。
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ mbox がオファーを含む場合、mbox が正しく実装されていない�
 
 例えば、ページに以下の要素が含まれている場合：
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 
 *誤った構文:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 
 *正しい構文:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 
 「customHeaderMessage」 div 内に、任意のダミーテキストの入ったアンカー要素を追加します。
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 
 画像挿入後は、次のようになります。
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
