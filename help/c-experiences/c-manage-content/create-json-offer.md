@@ -4,7 +4,7 @@ description: オファーライブラリにフォームベースの Experience C
 title: JSON オファーの作成
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ JSON オファーは、フォームベースの Experience Composer を使用し
 
 次に例を示します。
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 success コールバックに渡すアクションは、オブジェクトの配列です。次のコンテンツを含む単一の JSON オファーがあるとします。
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ success コールバックに渡すアクションは、オブジェクトの配
 
 アクション配列は次のような構成になります。
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ JSON オファーを抽出するには、アクションを繰り返し処理し
 
 次の JSON オファーが Web ページに配信されるとします。
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ JSON オファーを抽出するには、アクションを繰り返し処理し
 
 次のコードは、「greeting」属性にアクセスする方法を示しています。
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
