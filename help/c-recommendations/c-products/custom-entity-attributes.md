@@ -5,7 +5,7 @@ title: Adobe Targetのカスタムエンティティ属性
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 91%
@@ -73,7 +73,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 次の例は、`targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 配信APIをmboxパラメーターで使用して、複数値の属性を、エスケープされたJSON配列を含む文字列値として渡すことができます。
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
