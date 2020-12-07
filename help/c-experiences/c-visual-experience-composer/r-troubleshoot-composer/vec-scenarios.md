@@ -4,7 +4,7 @@ description: この記事に記載されるシナリオは、ページに変更�
 title: ページ修正のシナリオ
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **挿入する要素：**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **挿入する要素：**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後（試行済み）：
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **挿入する要素：**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **削除する要素：**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **削除する要素：**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **削除する要素：**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後 
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 **変更する要素：**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更前：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Target セレクターは、エクスペリエンスを表示する位置を決�
 
 変更後（試行済み）：
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
