@@ -4,7 +4,7 @@ description: ページに対する変更の表示や追加の変更（CSS セレ
 title: 変更
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    例えば、要素の色を変更するには、次のように入力します。
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
    例えば、オーバーレイ要素のクラスを定義するには、次のように入力します。
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ ht-degree: 100%
 
    例えば、上で定義した CSS クラスを使用してオーバーレイ `<div>` を作成するには、次の HTML スニペットを使用します。
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * DOM 準備完了時の置き換え（jQuery 使用）
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 * DOM 準備完了時の置き換え（jQuery 不使用）（Internet Explorer 8 は非対応）
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ ht-degree: 100%
 
    この方法のメリットは、DOM 準備完了の前に置き換えが実行されることです。プラグインは、事前の非表示および表示の処理をおこないます。要素の ID が必要です。
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 * 既存のパラメーター、`s_tnt` パラメーター（Analytics への従来の統合）、リファラーパラメーターおよび mbox セッションを渡すカスタムのリダイレクト
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 例：
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
