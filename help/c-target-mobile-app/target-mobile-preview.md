@@ -4,7 +4,7 @@ description: モバイルのプレビューリンクを使用して、モバイ�
 title: Adobe Target モバイルでのモバイルプレビューリンクの使用
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ ht-degree: 94%
 
    コードスニペットの例を次に示します。
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ ht-degree: 94%
 
    **Android：**&#x200B;アプリケーションで、 呼び出し元が前の手順で指定した URL スキームでリソースを開くように要求されたときに `Config.trackAdobeDeepLink(URL);` を呼び出します。
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ ht-degree: 94%
 
    Android でモバイルプレビューが動作するように設定するには、さらに次のコードスニペットを [!DNL AndroidManifest.xml] に追加する必要があります。
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
