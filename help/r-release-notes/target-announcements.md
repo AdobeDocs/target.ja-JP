@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,17 @@ ht-degree: 0%
 
 ターゲットスキルビルダーセッション、開発チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
 
-## Adobeは、パーソナライゼーション・エンジンのGartner Magic Quadrantで再びリーダーに
+## エクスペリエンス最適化プラットフォームのAdobeが、Forresterのウェーブレポートのリーダーに選ばれました
 
-Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。 Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。
+
+詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。
+
+## Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantのリーダーに再び選ばれました。
+
+Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性
+
+[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
 
 ## ウェビナー：Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現
 
