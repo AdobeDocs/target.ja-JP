@@ -4,7 +4,7 @@ description: Adobe Target のシングルページアプリケーション（SPA
 title: シングルページアプリケーション（SPA）Visual Experience Composer
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -88,7 +88,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    マーケティング担当者がホームサイト全体で A/B テストを実行したい場合、URL から取り出せるビューに「home」と名前を付けることができます。
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![React 製品](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ at.js 2.x の通常のワークフローでは、サイトの読み込みの際�
 
 at.js 2.x でサポートされている新しい `getOffers()` 関数と `applyOffers()` 関数を使用できます。
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
