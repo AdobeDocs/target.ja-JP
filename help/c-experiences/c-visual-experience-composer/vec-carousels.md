@@ -4,7 +4,7 @@ description: このトピックでは Visual Experience Composer（VEC）内で�
 title: Visual Experience Composer 内で動作するカルーセルの作成
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 1. 静的 HTML プレースホルダーを作成します。
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
