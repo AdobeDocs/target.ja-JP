@@ -4,7 +4,7 @@ description: エンティティ属性を使用して、商品やコンテンツ�
 title: エンティティの属性
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 90%
@@ -40,7 +40,7 @@ at.js 1を使用している場合、一般に、表示情報mboxは次の例の
 
 エンティティのパラメーター属性はすべて大文字と小文字が区別されます。
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 例えば、次のコードでは、Womens カテゴリがいくつかのサブカテゴリに区切られています。
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ mbox の呼び出しによって、アルゴリズムの行動データカウン
 
 次の例では、最初の mbox 呼び出しによって、カタログと行動データが更新されます。2 回目の mbox 呼び出しでは、カタログのみが更新されます。
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
