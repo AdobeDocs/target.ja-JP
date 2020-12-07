@@ -4,7 +4,7 @@ description: 応答トークンを使用すると、サードパーティ製シ�
 title: Adobe Target のレスポンストークン
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ Adobe Dynamic Tag Management（DTM）を使用して [!DNL at.js] カスタム�
 
 1. コードエディターで、以下のコードを [!DNL at.js] に追加します。
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ Adobe Dynamic Tag Management（DTM）を使用して [!DNL at.js] カスタム�
 
 すべての要素を 1 つのファイルにまとめたい場合は、以下のスニペットをライブラリフッターの [at.js セットアップページ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)に追加できます。
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Target では、一定間隔で属性が更新されます。有効にされて�
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Target では、一定間隔で属性が更新されます。有効にされて�
 
 ttMeta プラグインと同様のデバッグ機能は、HTML ページに次のコードを追加することで作成できます。
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
