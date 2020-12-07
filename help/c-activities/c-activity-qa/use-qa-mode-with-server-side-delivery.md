@@ -4,7 +4,7 @@ description: サーバー側配信と組み合わせて QA URL を利用する�
 title: アクティビティ QA とサーバー側配信の使用
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ Activity QAの標準実装では、パラメーターによる `qa_mode` `pageUr
 
 次のコードサンプルに、サーバー側呼び出しでのアクティビティ QA を示します。
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
