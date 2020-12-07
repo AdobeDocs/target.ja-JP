@@ -4,7 +4,7 @@ description: Adobe Analytics を Target のレポートソースとして実装�
 title: Analytics for Target の実装
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 49%
@@ -60,7 +60,7 @@ appMeasurement.js の必要なバージョンを実装するか、そのバー�
 
 at.js の場合：
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 次に例を示します。
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 この設定は全体的に影響します。つまり、at.js によっておこなわれた各呼び出しには、 リクエストと共に送信された **analyticsLogging: &quot;client_side&quot;** があり、各リクエストに対して分析ペイロードが返されます。[!DNL Target]これが設定された場合、返されるペイロードの形式は、以下のようになります。
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 次に例を示します。
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ adobe.target.getOffers({
 
 応答は以下のようになります。
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
