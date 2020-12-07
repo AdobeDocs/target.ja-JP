@@ -4,7 +4,7 @@ description: デザインによって、レコメンデーションがページ�
 title: デザインの作成
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 32%
@@ -109,7 +109,7 @@ ht-degree: 32%
 
 1. 次のコードは、デザインに貼り付けることができる内容の例です。
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 応答でその他の情報を送信することもできます。次のコードファイルはより複雑なサンプルで、エンティティ ID と関連するスロット（順序）以外に様々な情報を返します。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
