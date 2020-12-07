@@ -5,9 +5,9 @@ description: ターゲットガイドのホームページの表示
 seo-description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 feature: landing
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e1d0ac580eb33d3cb3d177b6b7aa3a91e72e62e5
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '703'
 ht-degree: 62%
 
 ---
@@ -19,13 +19,15 @@ ht-degree: 62%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2020年11月24日( [変更点を参照](r-release-notes/doc-change.md) )**
+**最終更新日：2020年12月7日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->**AdobeがパーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに**
+>Adobe Target氏は最近、以下の報告でリーダーに任命された。
 >
->Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+>**[エクスペリエンス最適化プラットフォーム用のForresterウェーブレポート。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Targetはフォレスター・ウェーブのリーダーに選ばれた。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポート。
+>
+>**[パーソナライゼーションエンジンに関するGartner Magic Quadrant](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Targetは再び、2020年パーソナライゼーション・エンジンの3年目の年次Gartner Magic Quadrantでリーダーに選ばれました。
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務機能に基づいて、意図したオーディエンスによって保護されています。
 
