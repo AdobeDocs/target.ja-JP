@@ -1,13 +1,13 @@
 ---
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: サイトおよび実稼動前環境を整理して、管理と個別レポートを容易にします。
+description: サイトと実稼働前の環境を整理し、Adobe Targetでの管理とレポートを容易にします。
 title: ホスト
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 27%
+source-wordcount: '1082'
+ht-degree: 26%
 
 ---
 
