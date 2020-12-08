@@ -1,10 +1,10 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: Target StandardをAdobeのDynamic Media Classicと統合して、コンテンツライブラリでDigital Asset Management(DAM)を実行できます。
-title: Dynamic Media Classic統合設定の統合
+description: Adobe TargetをAdobeDynamic Mediaクラシックと統合して、コンテンツライブラリでDigital Asset Management(DAM)を提供できます。
+title: Dynamic Mediaクラシック統合設定の統合
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 44c2a1dd1fa51cb7ea50a5e3d0125ba9abb1896c
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 25%
