@@ -1,13 +1,13 @@
 ---
 keywords: add user;manage user;user permissions
-description: Target Standard でユーザーを管理する方法と、Target Premium で Enterprise プロパティと権限を管理する方法について説明します。
+description: Adobe Target標準でのユーザーの管理、およびAdobe Targetプレミアムでのエンタープライズプロパティと権限の管理に関する情報です。
 title: ユーザー管理
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 25%
+source-wordcount: '228'
+ht-degree: 18%
 
 ---
 
