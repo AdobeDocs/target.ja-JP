@@ -1,14 +1,14 @@
 ---
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: 多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
+description: Adobe Target多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
 feature: mvt
 solution: Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 99%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
