@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: アクティビティ URL は、多変量分析テスト（MVT）で使用され、Adobe Target でテストが設計された場合に表示されるページを指定します。
+description: アクティビティURLは、Adobe Target多変量分析テスト(MVT)で使用され、Adobe Targetでテストをデザインしたときに開くページを決定します。
 title: アクティビティ URL
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 93%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 
