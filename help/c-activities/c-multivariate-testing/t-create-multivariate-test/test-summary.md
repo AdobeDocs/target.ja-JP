@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: テスト概要には、多変量分析テストの概要が視覚的に表示されます。
+description: テスト概要には、Adobe Target多変量分析テストの概要が視覚的に表示されます。
 title: テスト概要
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
