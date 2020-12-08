@@ -1,13 +1,13 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Target では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。
+description: Adobe Targetは、すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測できます。
 title: 売上高上昇の予測
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 96%
 
 ---
 
