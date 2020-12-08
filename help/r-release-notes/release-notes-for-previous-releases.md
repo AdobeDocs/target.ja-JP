@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)など、以前のターゲットリリースに関するリリースノートです。 リリースノートは、リリースの年月に従って新しい順に整理されています。
+description: Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)を含む、以前のAdobe Targetリリースのリリースノートです。 リリースノートは、リリースの年月に従って新しい順に整理されています。
 title: 以前のリリースのリリースノート
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29816'
+source-wordcount: '29817'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # 以前のリリースのリリースノート{#release-notes-for-previous-releases}
 
-Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)など、以前のターゲットリリースに関するリリースノートです。 リリースノートは、リリースの年月に従って新しい順に整理されています。
+Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)など、以前のターゲットリリースに関するリリースノートです。
+
+リリースノートは、リリースの年月に従って新しい順に整理されています。
 
 >[!NOTE]
 >
