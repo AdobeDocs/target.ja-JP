@@ -1,11 +1,11 @@
 ---
 description: 多変量分析テストでは、ページ上で複数のエクスペリエンスが比較されるので、各エクスペリエンスについてページをプレビューすることをお勧めします。
-title: 多変量分析テストのエクスペリエンスのプレビュー
+title: 多変量分析テストのエクスペリエンスのプレビュー（Adobe Target）
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
