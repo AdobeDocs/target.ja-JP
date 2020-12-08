@@ -1,20 +1,20 @@
 ---
 keywords: Mobile Web Experience Editor
-description: このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
+description: このトピックでは、Adobe TargetでMVTテストを設計する際に発生する可能性のあるいくつかの問題の解決方法を提案します。
 title: 多変量分析テストのトラブルシューティング
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 77%
 
 ---
 
 
 # 多変量分析テストのトラブルシューティング{#troubleshoot-multivariate-tests}
 
-このトピックでは、MVT テストの設計時に発生する可能性があるいくつかの問題の解決方法について説明しています。
+このトピックでは、Adobe TargetでMVTテストを設計する際に発生する可能性のあるいくつかの問題の解決方法を提案します。
 
 * アクティビティを編集する場合に、Analytics ベースの指標を使用しており、レポートスイートがロードされないとき（スピナーが表示されるとき）は、指標を Target 指標に切り替えてから、再度 Analytics ベースの指標に切り替えます。これで、レポートスイートがロードされるようになります。
 * 既に実行中のテストを変更すると、テストとテストデータがリセットされる場合があります。
