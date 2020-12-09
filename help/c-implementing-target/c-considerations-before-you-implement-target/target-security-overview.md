@@ -4,15 +4,15 @@ description: Adobe がデータと Adobe Target エクスペリエンスのセ�
 title: Target のセキュリティの概要
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
 
-# Target のセキュリティの概要{#target-security-overview}
+# Target  セキュリティ概要
 
 Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 
