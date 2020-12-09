@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 この記録されたウェビナーでは、Adobe Targetの製品エキスパートが、遅延なしでローカルに実行するための重要なエクスペリエンス最適化決定の動きが、新しい使用例にどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[このエキサイティングなイベントにご登録ください。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
