@@ -1,18 +1,18 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
 description: 'On-device decisioningは、Adobe Targetエッジネットワークへのネットワーク要求をブロックせずに、Adobe TargetA/Bおよびエクスペリエンスターゲット設定(XT)アクティビティをサーバー上にキャッシュし、ほぼゼロの遅延でメモリ内判定を実行する機能を提供します。 '
-title: オンデバイス判定
+title: オンデバイスの判定
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 
-# オンデバイス判定
+# オンデバイスの判定
 
 On-Device Decisioningは、サーバー上に [!DNL Adobe Target][!UICONTROL A/B Test] and [!UICONTROL Experience Targeting] (XT)アクティビティをキャッシュし、 [!DNL Adobe Target] Edge Networkへのネットワーク要求をブロックすることなく、ほぼゼロの遅延でメモリ内判定を実行する機能を提供します。
 
@@ -26,7 +26,7 @@ On-Device Decisioningは、サーバー上に [!DNL Adobe Target][!UICONTROL A/B
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## チュートリアル：オンデバイスの判定
+## チュートリアル：オンデバイス判定
 
 [!DNL Adobe Target] on-device decisioningは、ほぼゼロの遅延のコンテンツ配信を有効にします。
 
@@ -38,12 +38,6 @@ On-Device Decisioningは、サーバー上に [!DNL Adobe Target][!UICONTROL A/B
 * オンデバイスの判定に必要なキー設定を含むNode.JS SDKコードのサンプルを表示します
 * ブラウザーでの結果のデモ
 
-このビデオの最後までに、次のことが可能になります。
-
-* デバイス上での判定とその利点
-* オンデバイスの判定を有効にする [!DNL Target]
-* On-Device Decisioningで使用するフォームベースのコンポーザーアクティビティの作成
-* デバイス上での判定に必要なSDKの設定について詳しくは、 [Adobe TargetSDKドキュメントを参照してください](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* オンデバイスの判定機能を使用して配信されるコンテンツに対してエンドユーザーが経験する内容を理解する
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+その他のビデオおよびチュートリアルについては、『 [Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 』ガイドを参照してください。
