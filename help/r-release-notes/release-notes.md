@@ -4,10 +4,10 @@ description: これらのリリースノートでは、Adobe Target Standard お
 title: 'Adobe Target リリースノート（現行） '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 27%
+source-wordcount: '905'
+ht-degree: 28%
 
 ---
 
@@ -44,7 +44,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、『 *[Adobe TargetSDKガイド』の「](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* Introduction to on-device decisioning *」を参照してください*。<br>録画されたウェビナーはこちらで視聴できます。 [Adobe Targetでのオンデバイス判定](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=jpn)。 |
+| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。 また、オンデバイスの判定機能は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されるので、 [!DNL Target] ユーザーは分析が速くなり、エクスペリエンスの反復処理が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
