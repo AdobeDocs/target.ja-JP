@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3115'
+source-wordcount: '3144'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 9 年 12 月 | [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。&quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 1 年 12 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | ウェビナーの録画を埋め込み、「遅延なしでパーソナライズおよびテストを行い、Adobe Targetのデバイス上での意思決定を行う」を行いました。 |
 | 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [指標の定義 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 次のFAQを追加しました。「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」 |
