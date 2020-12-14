@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: 最大5つの条件のシーケンスを使用して、Adobe TargetRecommendationsアクティビティに表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 条件のシーケンスの作成
 
-最大 5 つの条件のシーケンスを使用して、[!UICONTROL Recommendations] アクティビティで表示される項目をより詳細に制御します。
+最大 5 つの条件のシーケンスを使用して、[!UICONTROL Recommendations] アクティビティで表示される項目をより詳細に制御します。また、返される項目数を制限することもできます（「スロットレベルコントロール」と呼ばれる場合もあります）。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 36%
 
    ![返す項目数の制限切り替え](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   「返すアイテム数を [!UICONTROL 制限する」オプションの値を理解するために] 、次の使用例を検討してください。
+   「返されるアイテム数を [!UICONTROL 制限」オプション(「スロットレベルコントロール」とも呼ばれる] )の値を理解するために、次の使用例を考慮します。
 
    * **使用例1**:異なる種類の品目を1つのレコメンデーショントレイに混在させる場合。 例えば、上着（ジャケット）とトップ（シャツ、Tシャツ）を組み合わせて表示するとします。 これを実現するには、デザインの任意のスロットに含めるすべての潜在的なアクティビティタイプを含む製品のコレクションを使用します。 次に、上着のみを含めるように条件を制限する静的フィルタを使用して最初の条件を設定し、上着のみを含めるように条件を制限する静的フィルタを使用して2番目の条件を設定します。 最後に、両方の条件を条件のシーケンスに追加し、最初の条件を2スロットに制限します。
 
