@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Adobe Experience Cloud の People コアサービスの顧客属性を使用して、顧客関係管理（CRM）データベースの企業顧客データを Adobe Target でのコンテンツターゲットに活用する方法について説明します。
+description: Adobe Experience Cloud人サービスの顧客属性を使用した、Adobe Targetのコンテンツターゲティング用に、顧客関係管理(CRM)データベースの企業顧客データを使用する方法に関する情報です。
 title: Adobe Targetの顧客属性
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 39%
+source-wordcount: '1488'
+ht-degree: 37%
 
 ---
 
 
-# 顧客属性 {#customer-attributes}
+# 顧客属性
 
-[!DNL Adobe Enterprise Cloud People]コアサービスで顧客属性を使用して、[!DNL Adobe Target]のコンテンツターゲット設定に顧客関係管理(CRM)データベースの企業顧客データを使用する方法に関する情報です。
+[!DNL Adobe Enterprise Cloud People]サービスの顧客属性を使用して、[!DNL Adobe Target]のコンテンツターゲティングで顧客関係管理(CRM)データベースの企業顧客データを使用する方法に関する情報です。
 
-複数のソースから収集され、CRMデータベース内に保存された企業顧客データを[!DNL Target]で使用して、最も重要なコンテンツを戦略的に顧客に配信し、特にリターン顧客に重点を置くことができます。 [!DNL People]コアサービス(旧称のプロファイルとオーディエンス)のオーディエンスと顧客属性は、データの収集と分析をテストと最適化と組み合わせ、データとインサイトを実行可能にします。
+複数のソースから収集され、CRMデータベース内に保存された企業顧客データを[!DNL Target]で使用して、最も重要なコンテンツを戦略的に顧客に配信し、特にリターン顧客に重点を置くことができます。 [!DNL People]サービスのオーディエンスと顧客属性(旧称はプロファイルとオーディエンス)により、データの収集と分析がテストと最適化と統合され、データとインサイトを実行可能にします。
 
 ## 顧客属性の概要{#section_B4099971FA4B48598294C56EAE86B45A}
 
-[コアサービスの顧客](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 属性は、 [!DNL People] の一部で [!DNL Adobe Experience Cloud] あり、企業は顧客データをプラットフ [!DNL Experience Cloud] ォームにプッシュするためのツールを提供します。
+[サー](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) ビスの顧客 [!DNL People] 属性は、の一部で [!DNL Adobe Experience Cloud] あり、企業は顧客データを [!DNL Experience Cloud] プラットフォームにプッシュするためのツールを提供します。
 
 [!DNL Experience Cloud] に転送されたデータは、[!DNL Experience Cloud] のすべてのワークフローで利用できます。[!DNL Target] このデータは、属性に基づいて再顧客をターゲティングするために使用されます。[!DNL Adobe Analytics] では、これらの属性を分析やセグメント化に使用できます。
 
@@ -28,7 +28,7 @@ ht-degree: 39%
 
 顧客属性と[!DNL Target]を扱う際は、次の情報を考慮してください。
 
-* [!DNL People]コアサービスの[!UICONTROL 顧客属性]機能を使用する前に満たす必要がある前提条件がいくつかあります。 詳しくは、*Experience Cloudおよびコアサービス製品ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
+* [!DNL People]サービスの[!UICONTROL 顧客属性]機能を使用する前に満たす必要がある前提条件がいくつかあります。 詳しくは、*Experience Cloudサービスおよび管理ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ ht-degree: 39%
 
 * 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
-## Peopleコアサービスでの顧客属性へのアクセス
+## Peopleサービスの顧客属性へのアクセス
 
 1. [!DNL Adobe Experience Cloud]で、メニューアイコン（![メニューアイコン](/help/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックし、**[!UICONTROL ユーザー]**&#x200B;をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 39%
 
 ![crmワークフロー](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-次の各タスクを実行する詳細な手順については、「顧客属性ソースを作成し、データファイル](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)を&#x200B;*Experience Cloudおよびコアサービス製品ドキュメント*&#x200B;にアップロード」を参照してください。[
+次の各タスクを実行する詳細な手順については、「[顧客属性ソースを作成し、データファイル](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)を&#x200B;*Experience Cloudサービスおよび管理ドキュメント*&#x200B;にアップロードします。
 
 1. データファイルを作成します。
 
@@ -145,7 +145,7 @@ Experience Cloud ID サービスを使用する場合は、ターゲット設定
 
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
-* [顧客属性ソースを作成し、「](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud製品ドキュメント」にデータ *ファイルをアップロードします。*
+* [顧客属性ソースを作成し、](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloudサービスおよび管理ドキュメントにデータ *ファイルをアップロードします*
 * *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 頻繁に発生する問題{#section_BE0F70E563F64294B17087DE2BC1E74C}
