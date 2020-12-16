@@ -26,26 +26,26 @@ ht-degree: 94%
 * [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
    >
    >
-* [!UICONTROL [個人設定インサイト] ]レポートは、[ [!UICONTROL レポート指標]ドロップダウンリストから[] プライマリ目標]が選択されている場合にのみ使用できます。
+* [!UICONTROL 個人] 情報レポートは、レポート指標ドロップダウンリストから [!UICONTROL プライマリ] Golisが選択されている場合にのみ使用でき  ます。
    >
    >
 * パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/administrating-target/hosts.md)でのみサポートされています。
    >
    >
-* [!UICONTROL 個人用設定インサイト] レポートは、  ライブステータスで、アクティブ化され、15日以上トラフィックを受け取っているアクティビティに対してのみ生成されます。
+* [!UICONTROL パーソナライゼーション] インサイトレポートは、  Livestatusにあり、アクティブ化され、少なくとも15日間トラフィックを受け取ったアクティビティに対してのみ生成されます。
 
 
 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
 ## 重要な属性レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. **[!UICONTROL アクティビティ]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)アクティビティをクリックします。
 
    多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、さらに[!UICONTROL 概要]レポートのグラフィック表示用のグラフアイコンがあることに注意してください。
+   [Automated Personalizationの概要](/help/c-reports/reports-ap.md)または[自動ターゲットの概要](/help/c-reports/auto-target-summary-report.md)レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで示されます。 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、さらに[!UICONTROL 概要]レポートのグラフィック表示用のグラフアイコンがあることに注意してください。
 
    ![](assets/personalization_insights.png)
 
