@@ -18,11 +18,11 @@ ht-degree: 76%
 
 ## Adobe Target にサインインし、デフォルトの表示を設定する
 
-1. [Adobe Experience Cloudにサインイン](https://experience.adobe.com/)。
+1. [Adobe Experience Cloud](https://experience.adobe.com/)にサインインします。
 
-1. ナビゲーションバーの **[!UICONTROL アプリアイコン]** 、 **[!UICONTROL ターゲットの順にクリックします]**。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL アプリアイコン]**&#x200B;をクリックし、**[!UICONTROL ターゲット]**&#x200B;をクリックします。
 
-   メインウィンドウの [!DNL Target] パネルをクリックしてアクセスする [!DNL Target] (またはアクセス権を持つ他の [!DNL Adobe Experience Cloud] ソリューション)こともできます。
+   また、メインウィンドウの[!DNL Target]パネルをクリックして、[!DNL Target]（またはアクセス権のある他の[!DNL Adobe Experience Cloud]ソリューション）にアクセスすることもできます。
 
    ![アプリケーションアイコン](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ ht-degree: 76%
 
 ## Target UI のデフォルト言語の変更 {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. [!DNL Adobe Experience Cloud ]または[!DNL Target]にサインインした後、プロファイルのアバターをクリックし、「**[!UICONTROL 環境設定を編集]**」をクリックします。
 
    ![プロファイルを編集](/help/c-intro/assets/change-language.png)
 
-1. 「 **[!UICONTROL Adobeアカウント]** 」をクリックして [!DNL Adobe] プロファイルにアクセスします。
+1. **[!UICONTROL Adobeアカウント]**&#x200B;をクリックして[!DNL Adobe]プロファイルにアクセスします。
 
    ![Adobeアカウント](/help/c-intro/assets/adobe-account.png)
 
-1. 上部のメニューバーにある「 **[!UICONTROL 通知]** 」タブをクリックし、左側にある「 **[!UICONTROL 環境設定]** 」タブをクリックします。
+1. 上部のメニューバーで「**[!UICONTROL 通知]**」タブをクリックし、左側の「**[!UICONTROL 環境設定]**」タブをクリックします。
 
    ![優先言語](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ ht-degree: 76%
 
 1. 最初の言語（プライマリ）を選択し、必要に応じて二番目の言語を選択します。
 
-   この [!DNL Target] UIは次の言語で使用できます。ただし、通知は次の言語で利用できます。
+   [!DNL Target] UIは次の言語で入手できます。ただし、通知は次の言語で利用できます。
 
    * 英語
    * スペイン語
