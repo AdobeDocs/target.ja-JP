@@ -76,7 +76,7 @@ mbox.js ライブラリを使用している場合、A4T によるリダイレ�
 
 **部分的なデータヒット:** ユーザーは、呼び出しを [!DNL Analytics] 送信するまでに十分な長さのページにとどまり、適切なMCIDが [!DNL Target] あることがあります。これは、部分的なデータヒットとなります（[!DNL Analytics] ページビューのないヒット）。もしユーザーがサイトに戻ってきて、[!DNL Analytics] コードのあるページを表示すると、再訪問者として適切にカウントされます。ページに [!DNL Analytics] コードしかない場合、これらのヒットは失われてしまいます。このヒットのデータは、一定の指標（訪問数）を水増しし、他の指標（1 訪問あたりのページビュー数、1 訪問あたりの時間など）を下げてしまうため、そういったデータを望まないクライアントもいます。また、ページビューのないヒットも含まれます。ただし、このデータを保持する正当な理由もあります。
 
-部分的なデータヒットを最小限に抑えるには、ページの読み込みを高速化したり、ライブラリの最新バージョンに更新したり、それらのヒットを除外した[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)を作成したりします。For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
+部分的なデータヒットを最小限に抑えるには、ページの読み込みを高速化したり、ライブラリの最新バージョンに更新したり、それらのヒットを除外した[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)を作成したりします。手順については、『*Analyticsコンポーネントガイド*』の[仮想レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)を参照してください。
 
 次の図には、仮想レポートスイートのセグメント定義を示しています。
 
