@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # ![PREMIUM](/help/assets/premium.png) デザイン FAQ{#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+[!DNL Adobe Target]レコメンデーションデザインに関するよくある質問(FAQ)のリストです。
 
 ## 推奨品目の価格で小数点の右側に値が表示されません。どうすれば表示できますか？
 
@@ -38,7 +38,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendati
 
 現在使用しているデザインを変更すると、更新までしばらく時間がかかります。デザインをすぐに変更するには、新しいデザインを作成し、アクティビティでそのデザインを選択して、レコメンデーションを保存します。
 
-## デザインに表示する主要な情報をどのようにして取り込むことができますか？例えば、主要商品のカテゴリを表示したい場合、Velocity デザインのコードにどのような値を設定したらよいですか？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## デザインに表示する主要な情報をどのようにして取り込むことができますか？例えば、主要商品のカテゴリを表示したい場合、Velocity デザインのコードにどのような値を設定したらよいですか？  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 `$key. *`値`*`パラメーターは、デザイン内で表示するほとんどの主要商品の情報を取り込みます。例えば、主要商品のサムネールを表示したい場合、`$key.thumbnailURL` を使用します。
 
