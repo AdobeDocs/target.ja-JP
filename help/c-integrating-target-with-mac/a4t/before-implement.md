@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # 実装する前に{#before-you-implement}
 
-Several changes occur in your data collection process when enabling [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+[!DNL Analytics]を[!DNL Target]のレポートソースとして有効にする場合(A4T)、データ収集プロセスでいくつかの変更が行われます。
 
 この統合を使用する前に、以降の節を確認して、レポートプロセスへの影響を検討してください。
 
@@ -22,7 +22,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 >[!IMPORTANT]
 >
->A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの要求には、 [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences) （英語）を使用します。
+>A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングをリクエストするには、[Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences)を使用します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
@@ -45,36 +45,36 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 * Adobe Analytics：appMeasurement.js バージョン 2.1
 
-Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+ダウンロードと導入の手順は、[ターゲット導入のための解析](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)に記載されています。
 
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* This integration is enabled on new activities when you select to use [!DNL Analytics] as the reporting source. この文書に書かれた実装の変更をおこなっても、既存のアクティビティは影響を受けません。
-* The process of setting up [!DNL Analytics] as the reporting source for [!DNL Target] includes several implementation steps, followed by a provisioning step. 実装前に、以下の手順をすべて読んでおくことをお勧めします。After you complete these steps, you will be ready to use [!DNL Analytics] as your reporting source as soon as it is enabled for you. プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
-* では、 [!DNL Visitor ID service] 複数のコンポーネント間で共有 [!DNL Visitor ID] が作成され [!DNL Adobe Experience Cloud]ます。 Although it does not replace the [!DNL Target] mboxPC id or [!DNL Audience Manager] UUID, it does replace the way [!DNL Analytics] identifies new visitors. If set up properly, returning [!DNL Analytics] visitors should also be identified via their old [!DNL Analytics] ID to prevent visitor cliffing. Similarly, because the [!DNL Target] mboxPCid remains intact, no [!DNL Target] visitor profile data is lost when you upgrade to the [!DNL Visitor ID service].
-* と [!DNL Visitor ID service] ページコードの前にを実行 [!DNL Analytics][!DNL Target] する必要があります。 Make sure that `VisitorAPI.js` appears above the tags for all other [!DNL Experience Cloud] solutions.
+* レポートソースとして[!DNL Analytics]を使用することを選択すると、新しいアクティビティでこの統合が有効になります。 この文書に書かれた実装の変更をおこなっても、既存のアクティビティは影響を受けません。
+* [!DNL Analytics]を[!DNL Target]のレポートソースとして設定するプロセスには、いくつかの実装手順と、プロビジョニング手順が含まれます。 実装前に、以下の手順をすべて読んでおくことをお勧めします。これらの手順を完了すると、[!DNL Analytics]が有効になり次第、レポートソースとして&lt;a0/>を使用する準備が整います。 プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
+* [!DNL Visitor ID service]は、[!DNL Adobe Experience Cloud]の間に共有[!DNL Visitor ID]を作成します。 [!DNL Target] mboxPC IDまたは[!DNL Audience Manager] UUIDは置き換えませんが、[!DNL Analytics]が新しい訪問者を識別する方法は置き換えられます。 正しく設定されている場合は、訪問者の情報が絶えないように、古い[!DNL Analytics] IDを使用して&lt;a0/>訪問者を返す必要もあります。 [!DNL Analytics]同様に、[!DNL Target] mboxPCidは元のままなので、[!DNL Visitor ID service]にアップグレードしても[!DNL Target]訪問者プロファイルデータは失われません。
+* [!DNL Visitor ID service]は、[!DNL Analytics]および[!DNL Target]ページコードの前に実行する必要があります。 `VisitorAPI.js`は、他のすべての[!DNL Experience Cloud]ソリューションのタグの上に記述します。
 
 ## 遅延 {#section_9489BE6FD21641A4844E591711E3F813}
 
-After this integration is enabled, you will experience an additional 5-10 minutes of latency in [!DNL Analytics]. This latency increase allows data from [!DNL Analytics] and [!DNL Target] to be stored on the same hit, allowing you to break down activities by page and site section.
+この統合を有効にすると、[!DNL Analytics]に5 ～ 10分の待ち時間が追加で発生します。 この待ち時間の増加により、[!DNL Analytics]と[!DNL Target]のデータを同じヒットに保存して、アクティビティをページ別に、またはサイトセクション別に分類できます。
 
-This increase is reflected in all [!DNL Analytics] services and tools, including the live-stream and real-time reporting, and applies in the following scenarios:
+この増加は、ライブストリームやリアルタイムレポートを含むすべての[!DNL Analytics]サービスおよびツールに反映され、次のシナリオに適用されます。
 
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
 * コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5 ～ 7 分遅延します。
 
-Be aware that the latency increase starts after you implement the [!DNL Experience Cloud] visitor ID service, even if you have not fully implemented this integration.
+[!DNL Experience Cloud]訪問者IDサービスを実装した後は、この統合を完全に実装していなくても、待ち時間が長くなる開始があることに注意してください。
 
 ## 追加の ID {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-All [!DNL Target] calls used by an A4T activity to deliver content or record the goal metric must have a corresponding [!DNL Analytics] hit that shares the same supplemental ID for A4T to work properly.
+A4Tが正しく機能するためには、A4Tアクティビティがコンテンツを配信したり目標指標を記録するために使用するすべての[!DNL Target]呼び出しに、同じ追加のIDを共有する、対応する[!DNL Analytics]ヒットが必要です。
 
-Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplemental data ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. 例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
+[!DNL Analytics]と[!DNL Target]のデータを含むヒットには、追加のデータIDが含まれています。 このIDは[Adobe Experience Cloudデバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)では、`sdid`パラメーターとして確認できます。 例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
 
 * 訪問者 ID サービスが導入されている
 * この統合をサポートするバージョンの [!DNL mbox.js] が導入されている
 
-When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+[トラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を行う場合は、[!DNL Analytics]ヒットに追加のIDが存在することを確認してください。
 
 ## クライアント側分析ログ {#client-side}
 
@@ -84,12 +84,12 @@ When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshoo
 
 ## 共有オーディエンス
 
-「 [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences)」に入力する際は、「プロビジョニングを要求している機能は何ですか [!UICONTROL ?」の下にリストされた共有オーディエンス][!UICONTROL (Shared Capabilities])オプションに関する次の重要な情報に注意してください。
+[Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences)に入力する際は、「[!UICONTROL プロビジョニングを要求する機能を指定してください]?」の下に表示される[!UICONTROL 共有オーディエンス]オプションに関する次の重要な情報に注意してください。
 
 ![要求フォーム](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-[ [!UICONTROL 共有オーディエンス]]を要求するとき [!UICONTROL 、] ターゲット [!UICONTROL と] Adobe Audience Manager(AAM)で情報を共有できます(この場合はオーディエンス)。
+[!UICONTROL 共有オーディエンス]を要求するとき、[!UICONTROL ターゲット]と[!UICONTROL Adobe Audience Manager] (AAM)を有効にして情報を共有できます。この場合、オーディエンスです。
 
 >[!IMPORTANT]
 >
->この [!UICONTROL ターゲット] とAAMの統合には、追加のコストが伴います。 AAMでは、 [!UICONTROL ターゲット] 呼び出しごとに課金されます。
+>[!UICONTROL ターゲット]とAAMとの統合には、追加費用がかかります。 AAMでは、[!UICONTROL ターゲット]呼び出しごとに請求されます。
