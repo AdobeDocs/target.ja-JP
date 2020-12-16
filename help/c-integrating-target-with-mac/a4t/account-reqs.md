@@ -29,25 +29,25 @@ ht-degree: 49%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+詳しくは、[組織とアカウントのリンク](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+詳しくは、[Experience Cloudユーザーと製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)を参照してください。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+[!DNL Analytics]レポートスイートへのアクセスを設定します。
 
 特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権が必要です。
 
-1. 「 **[!UICONTROL Admin Console]**」で、 [!DNL Analytics] 製品プロファイルをクリックし、「 **[!UICONTROL 権限]** 」タブをクリックします。
+1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、**[!UICONTROL 権限]**&#x200B;タブをクリックします。
 
    その後、プロファイルがアクセス権を持つレポートスイートを確認できます。
 
-1. のアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つ [!DNL Target] であることを確認します。
+1. [!DNL Target]内のアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つであることを確認します。
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
