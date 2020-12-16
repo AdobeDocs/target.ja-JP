@@ -24,18 +24,18 @@ ht-degree: 82%
 
    [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[新しい条件を作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
+* 新しい条件を作成するには、**[!UICONTROL 条件を作成]**/**[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[新しい条件を作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)を参照してください。
 
 **条件を選択するには：**
 
-1. While [creating a new recommendation](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
+1. [新しいレコメンデーション](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)の作成時に、**[!UICONTROL 条件を選択]**&#x200B;ダイアログボックスで、1つ以上の条件を探して選択します。
 
    ![条件を選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    [!UICONTROL 業種] フィルター、[!UICONTROL ページタイプ]フィルターおよび「[!UICONTROL 互換性]」チェックボックスを使用して、条件のリストをフィルターできます。これらのオプションは、目的の条件を探すのに役立ちます。
 
-   * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。To change your default industry vertical, click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** and select your desired default **[!UICONTROL Industry Vertical]** setting.
+   * **業種：**&#x200B;業種は、[!DNL Recommendations] 条件の分類に使用されます。デフォルトの業種を変更するには、**[!UICONTROL Recommendations]**/**[!UICONTROL 設定]**&#x200B;をクリックし、目的のデフォルトの&#x200B;**[!UICONTROL 業種]**&#x200B;設定を選択します。
    * **ページタイプ：**&#x200B;ページタイプによって、レコメンデーションが分類しやすくなります。それぞれのページタイプで選択できるビルトイン条件もあります。
-   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。This option can be disabled or enabled in your settings: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+   * **互換性：**&#x200B;選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。このオプションは、次の設定で無効または有効にできます。**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして、[デザインを選択](/help/c-recommendations/c-design-overview/design-overview.md)ダイアログボックスを表示します。
