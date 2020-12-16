@@ -36,7 +36,7 @@ TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートさ
 
 今後はすべてのお客様が TLS 1.2 へと移行することを強くお勧めしますが、新規のお客様で TLS 1.2 を&#x200B;*サポートしていない*&#x200B;場合は、拡張 Experience Composer にて TLS 1.1 を利用する必要があることをカスタマーケアまで連絡してください。ただし、2020年3月1日以降はサポートされないので、TLS 1.2への移行を計画してください。
 
-## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
+## アクティビティ配信{#section_46CA5943E4354B259014C2BF340AECD6}
 
 2020年3月1日以降、ターゲットサーバーはTLS 1.1をサポートしなくなります。この変更により、ターゲットサーバーは、古い訪問者やTLS 1.2以降をサポートしないWebブラウザーからの要求を受け付けなくなります。 この結果、TLS 1.1 のみサポートする（あるいはデフォルトで TLS 1.1 をサポートする）旧型のデバイスやブラウザーは、Adobe Target からアクティビティコンテンツを受け取らないこととなります。サイトのデフォルトコンテンツがレンダリングされます。
 
@@ -56,7 +56,7 @@ TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートさ
 * Target レポートの訪問者数で、訪問者数に多少の低下がみられる可能性があることを知っておいてください。
 * 古いターゲットのデバイスやTLS 1.2をサポートしないブラウザに対して作成したオーディエンスを変更する必要が生じる場合があります。これらのデバイスやブラウザへの配信は機能しなくなります。
 
-For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+サポートされるブラウザーとそのバージョンについて詳しくは、[サポートされるブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -66,11 +66,11 @@ For more details about supported browsers and their versions, see [Supported Bro
 * Java 8 を使用している API クライアントは、デフォルト設定が TLS 1.2 なので、影響を受けません。
 * その他のフレームワークを使用している API クライアントは、TLS 1.2 のサポートについてベンダーにお問い合わせください。
 
-## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Experience Cloudソリューションインターフェイスへのアクセス{#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Target Standard/Premium のインターフェイスは既に[最新の Web ブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を要件に定めているので、この変更で問題が生じる可能性はないと想定されます。Target に接続できない場合は、ブラウザーを最新バージョンにアップグレードしてください。
 
-## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## ブラウザが使用するTLSバージョンを確認する方法{#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 Google Chromeを使用してWebサイトのTLSバージョンを確認するには：
 
@@ -87,7 +87,7 @@ Google Chromeを使用してWebサイトのTLSバージョンを確認するに�
 >
 >これらの手順は、発行時点で最新のもので、変更されることがあります。 これらの手順が変更された場合は、インターネットのクイック検索が役立ちます。  他のブラウザーも同様の手順を実行します。
 
-## 1.2未満のTLSバージョンをサポートするブラウザーでの予期される動作 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}未満のTLSバージョンをサポートするブラウザでの予期される動作
 
 この節では、at.jsまたはmbox.js実装を使用する場合にのみ、1.2より前のTLSバージョンをサポートするブラウザーでの期待値について説明します。 比較のため、この節では、TLS 1.2をサポートするブラウザでの期待値についても説明します。
 
