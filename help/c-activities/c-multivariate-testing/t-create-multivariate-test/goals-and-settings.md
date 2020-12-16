@@ -38,9 +38,9 @@ ht-degree: 94%
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+S[!UICONTROL 管理] > [!UICONTROL レポート]（デフォルト）でこのオプションが有効になっていない場合は、優先度を指定します。低、中、高。
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+優先度の詳細設定を有効にするには、[!UICONTROL 管理]/[!UICONTROL レポート]をクリックし、「詳細な優先度を有効にする」オプションを「オン」の位置に切り替えます。
 
 このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -166,7 +166,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 多変量分析テストの作成(9:25) ![チュートリアルバッジ](/help/assets/tutorial.png)
+### 多変量分析テストの作成(9:25)![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。目標と設定に関する説明は 7:00 から始まります。
 
