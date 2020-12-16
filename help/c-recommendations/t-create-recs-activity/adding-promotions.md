@@ -58,23 +58,23 @@ ht-degree: 60%
    * 「**[!UICONTROL コレクションをプロモート]**」を選択し、プロモーションする項目のコレクションを選択します。
 
       プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
-   「プロモーションタイプ **[!UICONTROL 」に「品目]** リスト **[!UICONTROL 」を選択した場合は、必要に応じて「品目順序]**&#x200B;のランダム化 **** 」チェックボックスをオンにできます。
+   「**[!UICONTROL リスト項目]**」を「**[!UICONTROL プロモーションタイプ]**」として選択した場合は、必要に応じて「**[!UICONTROL 品目順のランダム化]**」チェックボックスをオンにできます。
 
-   項目 [!UICONTROL リストのデフォルトの並べ替え順は] 、ターゲットのUIまたはAPIで入力した順序に基づきます。 If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   [!UICONTROL アイテム]のリストのデフォルトの並べ替え順は、ターゲットのUIまたはAPIで入力した順序に基づきます。 リストに、プロモーション用に設定したスロット数より多くの項目が含まれている場合、「[!UICONTROL 項目の順序をランダム化]」オプションを使用すると、デザインに表示されるプロモーション項目がランダム化されます。 このオプションを選択すると、[!DNL Target]によって、各ヒットに設定されたプロモーション全体から、テンプレート内のプロモーションに対して有効になっている項目がランダムに選択されます。
 
-   エンティティに属性がない場合（製品を販売しない場合など）は、 `entity.value``entity.value` 属性に数値（発行日など）を渡すことができます。 この場合、最新の投稿日に基づいて、プロモーションされた項目を降順でプロモーションできます。 属性は `entity.value` 重複型です。文字列は受け付けません。
+   エンティティに`entity.value`属性がない場合（製品を販売していない場合など）は、発行日などの`entity.value`属性に数値を渡すことができます。 この場合、最新の投稿日に基づいて、プロモーションされた項目を降順でプロモーションできます。 `entity.value`属性は重複型です。文字列は受け付けません。
 
-   「属性 **[!UICONTROL 別に]** プロモート」または「コレクションをプロモート」オプションを選択した場合、順序をランダム化するオプションは使用できません **** 。
+   「**[!UICONTROL 属性でプロモート]**」または「**[!UICONTROL コレクションをプロモート]**」オプションを選択した場合、順序をランダム化するオプションは使用できません。
 
-   「属性別に [!UICONTROL プロモート」または「コレクションをプロモート」] (Promote by Attribute [!UICONTROL )オプションを使用して特定の項目をプロモートする場合、項目が表示されるデフォルトの順序は、]`entity.value` 属性に基づき、数値の降順です。
+   「[!UICONTROL 属性でプロモート]」または「[!UICONTROL コレクション]をプロモート」オプションを使用して特定の項目をプロモートする場合、項目が表示されるデフォルト順序は、数値の降順の`entity.value`属性に基づきます。
 
    次の表に、これらのオプションの違いを示します。
 
    | プロモーションタイプ | デフォルトの並べ替え | バックアップの並べ替え | 動的フィルタリングオプション |
    | --- | --- | --- | --- |
    | 項目のリスト | ターゲットUI/APIに入力された注文 | ランダム（UI/APIで選択された場合） | × |
-   | 属性別にプロモート | `entity.value` （降順） | リクエストごとにランダム化( `entity.value` 属性が存在しない場合) | ○ |
-   | コレクションの更新 | `entity.value` （降順） | リクエストごとにランダム化( `entity.value` 属性が存在しない場合) | × |
+   | 属性別にプロモート | `entity.value` （降順） | リクエストごとにランダム化（`entity.value`属性が存在しない場合） | ○ |
+   | コレクションの更新 | `entity.value` （降順） | リクエストごとにランダム化（`entity.value`属性が存在しない場合） | × |
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
