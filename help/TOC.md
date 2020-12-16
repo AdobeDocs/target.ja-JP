@@ -29,7 +29,7 @@ ht-degree: 86%
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
    + [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md)
-   + Adobe Targetウェルカムキット {#welcome}
+   + Adobe Targetウェルカムキット{#welcome}
       + [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md)
       + [第1章：はじめに](/help/c-intro/target-welcome-kit-1.md)
       + [第2章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
@@ -71,7 +71,7 @@ ht-degree: 86%
    + 実装する前に {#before-implement}
       + [実装する前に](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + プライバシーとセキュリティ {#privacy}
+      + プライバシーとセキュリティ{#privacy}
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [プライバシーとデータ保護規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
@@ -177,7 +177,7 @@ ht-degree: 86%
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
          + [A4T のトラブルシューティング](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [A4T での水増しされた訪問と訪問者カウントの最小化](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T に関するよくある質問 {#a4t-faq}
+      + A4T に関するよくある質問  {#a4t-faq}
          + [初期プロビジョニング - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [アクティビティの設定 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [レポートの表示 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 86%
       + [指標、オーディエンス、レポートの共有 - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + エクスペリエンスとオファー {#experiences}
    + [エクスペリエンスとオファーの概要](c-experiences/experiences.md)
-   + Visual Experience Composer（VEC） {#vec}
+   + Visual Experience Composer（VEC）  {#vec}
       + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [類似のページに同じエクスペリエンスを組み込む](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 86%
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + 動的および静的インクルージョンルール{#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [エンティティ属性のマッチング](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [プロファイル属性のマッチング](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
