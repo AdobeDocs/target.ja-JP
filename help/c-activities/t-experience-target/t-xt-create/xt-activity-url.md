@@ -22,7 +22,7 @@ ht-degree: 92%
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). アクティビティ作成中に、異なるページを指定することもできます。
+   >デフォルトでは、VECまたはフォームベースのExperience Composerは、[Visual Experience Composerの設定](/help/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
    >
    >Target Standard の JavaScript コードを含まないサイトの URL を指定すると、ページ要素を選択できません。
 
