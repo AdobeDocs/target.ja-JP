@@ -24,7 +24,7 @@ mbox3rdPartyId は、会社のロイヤルティプログラムのメンバー�
 
 | PCID（ログインなし） | mbox3rdPartyId（ログインしている） | 結合されて mbox3rdPartyId に保存 |
 |---|---|---|
-| category=hats | category=skis | category=skis |
+| category=hats | category=skis | カテゴリ=skis |
 |  | store=94103 | store=94103 |
 | アクティビティ 1、エクスペリエンス A | アクティビティ 1、エクスペリエンス B | アクティビティ 1、エクスペリエンス B |
 | アクティビティ 1 |  | アクティビティ 1 |
@@ -37,7 +37,7 @@ mbox3rdPartyId は、会社のロイヤルティプログラムのメンバー�
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] mbox3rdPartyIdに基づいてプロファイルが結合され、引き続きアクティビティ情報が存在する場合でも、 [!DNL Adobe Experience Cloud][!DNL Target] ID(EDID)が変更される場合(例えば、訪問者がデバイスを変更する場合)、目標は追跡されません。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] mbox3rdPartyIdに基づいてプロファイルが結合され、引き続きアクティビティ情報が存在する場合でも、 [!DNL Adobe Experience Cloud]  [!DNL Target] ID(EDID)が変更される場合(例えば、訪問者がデバイスを変更する場合)、目標は追跡されません。同じEDIDで識別される訪問者（同じデバイスでページにアクセスするユーザー）の場合、[!DNL Analytics for Target](A4T)は期待どおりに機能する必要があります。
 
 ## 注意点 {#considerations}
 
