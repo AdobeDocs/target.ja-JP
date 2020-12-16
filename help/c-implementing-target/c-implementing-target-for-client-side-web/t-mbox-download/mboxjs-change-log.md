@@ -147,7 +147,7 @@ mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、�
 
 * Target Standard の自動作成されるグローバル mbox 応答では、document.write() が使用されなくなりました。また、`<div>`要素も作成されません。
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. この新しいバージョンにアップグレードする場合は、十分な QA を実施することをお勧めします。
+   これにより、mbox.jsファイルをページの`<head>`内の最後の項目にする必要がなくなりました。 この新しいバージョンにアップグレードする場合は、十分な QA を実施することをお勧めします。
 
    この変更によって、一部のタイプのオファーを提供する場合に、動作が変わる可能性があります。考慮が必要となる具体的な状況についていくつか説明します。
 
