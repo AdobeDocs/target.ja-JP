@@ -58,7 +58,7 @@ ht-degree: 99%
 
    ![](assets/propensity_score_4.png)
 
-## トレーニングビデオ ![概要バッジ](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## トレーニングビデオ![概要バッジ](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
