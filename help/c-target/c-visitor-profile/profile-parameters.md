@@ -22,11 +22,11 @@ ht-degree: 77%
 
 プロファイル属性を設定するには：
 
-1. **[!UICONTROL オーディエンス]** / **[!UICONTROL プロファイルスクリプトをクリックします。]**
+1. **[!UICONTROL オーディエンス]**/**[!UICONTROL プロファイルスクリプトをクリックします。]**
 
    ![「プロファイルスクリプト」タブ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. 「スクリプト **[!UICONTROL を作成]**」をクリックします。
+1. 「**[!UICONTROL スクリプトを作成]**」をクリックします。
 
    ![プロファイルスクリプトを作成ダイアログボックス](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -34,7 +34,7 @@ ht-degree: 77%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>**注意**：Target には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を Target に渡す必要がある場合、プロファイル更新 API メソッドを使用して渡すことができます。詳しくは、Adobe TargetAPIドキュメント](http://developers.adobetarget.com/api/#updating-profiles)の[プロファイルの更新を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのパラメーターは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。詳しくは、プロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 または
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+既存のプロファイルスクリプトをコピーするには、[!UICONTROL プロファイルスクリプト]リストで、目的のスクリプトの上にマウスポインターを置き、**[!UICONTROL コピー]**&#x200B;アイコンをクリックします。![コピーアイコン](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
@@ -143,9 +143,9 @@ if (mbox.name == 'Track_Interest') {
    * 正規式を使用しないでください。または、非常に単純な正規式のみを使用してください。 単純な式でも、評価に多くの指示を受けることができます。
    * 再帰を避けます。
    * プロファイルスクリプトをターゲットに追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行に時間がかかります。 これは、トラフィックとコンバージョンに影響を与える可能性があります。
-   * プロファイルスクリプトが複雑すぎる場合は、 [応答トークンの代わりに](/help/administrating-target/response-tokens.md) 、
+   * プロファイルスクリプトが複雑すぎる場合は、[応答トークン](/help/administrating-target/response-tokens.md)を代わりに使用することを検討してください。
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* 詳しくは、JS Rhinoエンジンのドキュメントを参照してください。[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## プロファイルスクリプトのデバッグ {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **プロファイルスクリプトをレスポンストークンとして追加し、プロファイルスクリプトをデバッグ**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   ターゲットで、「**[!UICONTROL 管理]**」をクリックし、「**[!UICONTROL 応答トークン]**」をクリックして、デバッグするプロファイルスクリプトを有効にします。
 
    次に示すように、Target を使用してページをサイトに読み込むたびに、Target からのレスポンスの一部として、指定したプロファイルスクリプトの値が含まれます。
 
@@ -165,7 +165,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   このメソッドには、**[!UICONTROL ターゲット]**/**[!UICONTROL 管理]**/**[!UICONTROL 実装]**/**[!UICONTROL デバッガツール]の&lt;a0/>生成認証トークンが必要です。]**[!UICONTROL 
 
    その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
 
@@ -181,7 +181,8 @@ if (mbox.name == 'Track_Interest') {
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 
-スクリプトプロファイルパラメーターを効果的に使用するには、JavaScriptに関する単純な知識が必要です。 こセクションは、この機能を使用してわずか数分で生産性を高めるためのクイックリファレンスの役割を担います。
+スクリプトのプロファイルを効果的に使用するには、単純なJavaScriptの知識が必要です。
+パラメーター こセクションは、この機能を使用してわずか数分で生産性を高めるためのクイックリファレンスの役割を担います。
 
 スクリプトプロファイルパラメーターは、「mbox/プロファイル」タブの下にあります。JavaScript の種類（文字列、整数、配列など）を返す Javascript プログラムを記述できます。
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. mbox 名が `orderThankyouPage` の場合、増分された値が返されます。
+`frequency`という変数を作成し、前の値に初期化します。以前の値がない場合は0にします。 mbox 名が `orderThankyouPage` の場合、増分された値が返されます。
 
 **名前：***user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-`adobeQA` アクティビティQAの対象となるユーザーを追跡するために呼び出される変数を作成します [](/help/c-activities/c-activity-qa/activity-qa.md)。
+`adobeQA`という変数を作成して、[アクティビティQA](/help/c-activities/c-activity-qa/activity-qa.md)のユーザーを追跡します。
 
 ### オブジェクトとメソッド
 
@@ -252,7 +253,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, および `landing.param` | ページのものと同様ですが、ランディングページ用です。 |
 | `mbox.name` | アクティブな mbox の名前。 |
 | `mbox.param(‘<par_name>’)` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
-| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。は関数呼び出し `profile.get(<par_name>)` として修飾されています。 |
+| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。`profile.get(<par_name>)`は関数呼び出しとして認定されていることに注意してください。 |
 | `user.get(‘<par_name>’)` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
 | `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
 | `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
@@ -276,7 +277,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
 | `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコード します。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
-## トレーニングビデオ：プロファイルスクリプト ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：プロファイルスクリプト![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、プロファイルスクリプトの使用と作成に関する情報を説明します。
 
