@@ -16,7 +16,7 @@ ht-degree: 88%
 
 このメソッドにより、リクエストコードの外部からグローバル mbox にパラメーターを付加できます。
 
-この関数は、同じパラメーターのセットを複数の mbox 呼び出しに含めるのに非常に便利です。この関数は、お客様によって定義される必要があります。グローバル mbox リクエストにのみ渡されるパラメーターの配列を返す必要があります。This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
+この関数は、同じパラメーターのセットを複数の mbox 呼び出しに含めるのに非常に便利です。この関数は、お客様によって定義される必要があります。グローバル mbox リクエストにのみ渡されるパラメーターの配列を返す必要があります。この関数は、at.jsが読み込まれる前、または&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 実装]** > **[!UICONTROL 編集]** > **[!UICONTROL ライブラリヘッダー]**&#x200B;に定義できます。
 
 次のいずれかの方法で、`targetPageParams()` 関数を使用して target-global-mbox にパラメーターを渡せます。
 
