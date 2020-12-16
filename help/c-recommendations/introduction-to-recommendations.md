@@ -129,7 +129,7 @@ ht-degree: 96%
 
 ![レコメンデーションアクティビティを構成するオーディエンス、条件およびデザインを示す図](/help/c-recommendations/assets/intro-12.png)
 
-標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
+標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。[!DNL Target]でオーディエンス](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)の構築に関する[ウェビナーを&lt;a2/>で開催しました。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
 
 Target では、条件カードという概念を使用します。条件カードは、パーソナライゼーションのレシピのようなものです。
 
