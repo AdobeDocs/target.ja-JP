@@ -40,7 +40,7 @@ ht-degree: 97%
 
 このオプションが「管理」（デフォルト）で有効になっていない場合は、優先度を指定します。低、中、高。
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+優先度の詳細設定を有効にするには、**[!UICONTROL 管理]**/**[!UICONTROL レポート]**&#x200B;をクリックし、「詳細な優先度を有効にする」オプションを「オン」の位置に切り替えます。
 
 このオプションを有効にした場合は、0～999 の値を指定します。
 
