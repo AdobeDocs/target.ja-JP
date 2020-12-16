@@ -42,7 +42,7 @@ ht-degree: 61%
 
    ![コレクションリスト](assets/collections_list.png)
 
-   コレクション [!UICONTROL ページには] 、既存のコレクションのリストが表示されます。 「コレクションを [!UICONTROL 作成] 」ボタンをクリックして、新しいコレクションを作成します。 また、目的のコレクションの上にマウスポインターを置き、目的のアイコンをクリックすると、既存のコレクションを編集、コピーおよび削除できます。
+   [!UICONTROL コレクション]ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL コレクションを作成]」ボタンをクリックします。 また、目的のコレクションの上にマウスポインターを置き、目的のアイコンをクリックすると、既存のコレクションを編集、コピーおよび削除できます。
 
    ![カーソルを合わせたアイコン：編集、コピー、削除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,17 +92,17 @@ ht-degree: 61%
 
 1. 上記の方法のいずれかを使用してコレクションを作成します。
 
-1. 「 **[!UICONTROL アクティビティ]** 」をクリックし、新しいRecommendations [アクティビティを](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) 作成するか、既存のアクティビティを編集します。
+1. **[!UICONTROL アクティビティ]**&#x200B;と[をクリックして新しいRecommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)アクティビティを作成するか、既存のアクティビティを編集します。
 
-1. 条件とデザインを選択した後、目的のコレクションを選択すると、 [!UICONTROL オプション] ページが表示されます。
+1. 条件とデザインを選択した後、目的のコレクションを選択した場合は、[!UICONTROL オプション]ページが表示されます。
 
    ![コレクションオプションの選択](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （条件付き）既存のコレクションの設定を変更するには、 **[!UICONTROL エクスペリエンス]** ページ（3部のガイドによるワークフローの手順2）で、レコメンデーションを配置した場所をクリックし、「コレクションを **[!UICONTROL 変更]**」をクリックして、目的のコレクションを選択します。
+1. （条件付き）既存のコレクションの設定を変更するには、**[!UICONTROL エクスペリエンス]**&#x200B;ページ（3つの部分でガイドされたワークフローの手順2）で、レコメンデーションを配置した場所をクリックし、「コレクションを変更&#x200B;]**」をクリックして、目的のコレクションを選択します。**[!UICONTROL 
 
    ![コレクションオプションの変更](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsでコレクションと除外を作成する(7:05) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
