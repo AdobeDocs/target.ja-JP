@@ -14,13 +14,13 @@ ht-degree: 51%
 
 # Visual Experience Composerの設定
 
-一般的な設定、モバイルビューポートの設定およびCSSセレクターを指定して、 [!DNL Adobe Target] Visual Experience Composer  (VEC)を設定します。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)を設定します。そのためには、一般的な設定、モバイルビューポート設定、CSSセレクターを指定します。
 
-Visual Experience Composer [!UICONTROL 設定ページにアクセスするには、] 管理 **[!UICONTROL /]** Visual Experience Composer **をクリックします。**
+[!UICONTROL Visual Experience Composer]設定ページにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]をクリックします。**
 
 >[!NOTE]
 >
->このページの設定はアカウント全体に適用されることに注意してくだ [!DNL Target] さい。
+>このページの設定は[!DNL Target]アカウント全体に適用されることに注意してください。
 
 ![Visual Experience Composer設定ページ](/help/administrating-target/assets/vec.png)
 
@@ -38,15 +38,15 @@ Visual Experience Composerの一般設定を指定できます。
 
 ### 拡張された Experience Composer を有効にする {#eec}
 
-iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは、拡張版と互換性がない場合があります。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. サイトでのアクティビティの配信はこの選択の影響を受けません。
+iframe バスティングのサイトおよび混合コンテンツを使用したサイトでの編集を許可します。一部のサイトは、拡張版と互換性がない場合があります。 元の[!UICONTROL Visual Experience Composer]に戻すには、このオプションの選択を解除します。 サイトでのアクティビティの配信はこの選択の影響を受けません。
 
 詳しくは、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+また、[!UICONTROL 拡張Experience Composer]をアクティビティレベルで有効にすることもできます。
 
 ### 混在コンテンツの読み込み
 
-[!UICONTROL 拡張Experience Composer] (EEC)を使用してWebサイトを開く際に混合コンテンツを有効にします。 Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+[!UICONTROL 拡張Experience Composer](EEC)を使用してWebサイトを開く際に混合コンテンツを有効にします。 このオプションを有効にすると、[!DNL Target]プロキシサーバを介して静的なリソースを読み込む際に発生する余分なオーバーヘッドを回避できます。
 
 このオプションは、次のような場合に役立ちます。
 
@@ -57,13 +57,13 @@ You can also enable the [!UICONTROL Enhanced Experience Composer] at the activit
 
 エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。
 
-## ![プレミアムバッジ](/help/assets/premium.png) — モバイルビューポートの設定
+## ![プレミアム](/help/assets/premium.png) バッジモバイルビューポートの設定
 
 エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。各デバイスにはオーディエンスが関連付けられています。
 
 ![モバイルビューポート設定セクション](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+**[!UICONTROL 追加]**&#x200B;をクリックし、モバイルビューポートの説明的な名前を指定し、幅と高さを指定し、目的のオペレーティングシステムを選択して、[!UICONTROL 保存]をクリックします。
 
 モバイルビューポートの追加方法に関する情報については、[モバイルビューポート設定](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)を参照してください。
 
@@ -93,7 +93,7 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
+>アクティビティごとの設定を上書きすることは、[!UICONTROL Automated Personalization]アクティビティと[!UICONTROL Multivariate Testing]フォルダーでは使用できません。  セレクターについて詳しくは、[Visual Experience Composer で使用される要素セレクター](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)を参照してください。
 
 ## トレーニングビデオ：アカウント設定(7:33) ![概要バッジ](/help/assets/overview.png)
 
@@ -103,6 +103,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）の設計が一新され、パフォーマンスが向上し、新機能のリリース時に必要なメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
