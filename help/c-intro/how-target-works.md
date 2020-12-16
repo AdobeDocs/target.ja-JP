@@ -86,19 +86,19 @@ Target では、ページ上の各要素は、ページ全体の単一のエク�
 
 Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## エッジネットワーク{#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 「Edge」は、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。
 
 応答時間を改善するために、ターゲットエッジはアクティビティロジック、キャッシュされたプロファイル、オファー情報のみをホストします。
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新がターゲットエッジに送信されます。 Central ClustersとEdge Clustersは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。 すべての1:1モデリングも各エッジに保存されるので、より複雑なリクエストもエッジで処理できます。
+アクティビティおよびコンテンツのデータベース、[!DNL Analytics]データ、API、およびマーケティング担当者向けのユーザーインターフェイスは、AdobeのCentral Clustersに格納されます。 更新がターゲットエッジに送信されます。 Central ClustersとEdge Clustersは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。 すべての1:1モデリングも各エッジに保存されるので、より複雑なリクエストもエッジで処理できます。
 
 各Edge Clusterには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは、最も近いエッジクラスターにルーティングされます。
 
 詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+[!DNL Adobe Target]ソリューションは、世界中のAdobeが所有するデータセンターとAdobeがリースしたデータセンターにホストされています。
 
 Central Clusterの場所には、データ収集センターとデータ処理センターの両方が設置されています。 Edge Clusterの場所には、データ収集センターのみが設置されています。 個々のレポートスイートは特定のデータ処理センターに割り当てられています。
 
@@ -124,15 +124,15 @@ AWSでホストされるターゲットエッジクラスターは、次の場�
 * アイルランドダブリン
 * シンガポール共和国
 
-この [!DNL Target Recommendations] サービスはオレゴン州の [!DNL Adobe] データセンターでホストされています。
+[!DNL Target Recommendations]サービスはオレゴンの[!DNL Adobe]データセンターでホストされています。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 現在、中国にはEdge Clusterがありません。エンドユーザーのパフォーマンスは、中国の [!DNL Target] お客様には引き続き制限されます。 Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 現在、中国にはEdge Clusterがありません。エンドユーザーのパフォーマンスは、中国の [!DNL Target] お客様には引き続き制限されます。ファイアウォールと国内のエッジクラスターが不足しているため、[!DNL Target]がデプロイされたサイトの表示は遅くなり、ページの読み込みに影響を与えます。 また、[!DNL Target]オーサリングUIを使用すると遅延が発生する場合があります。
 
-必要に応じて、ターゲットエッジクラスターを許可リストできます。 詳しくは、「 [許可リストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)」を参照してください。
+必要に応じて、ターゲットエッジクラスターを許可リストできます。 詳しくは、[許可リストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)を参照してください。
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 保護されたユーザーエクスペリエンス{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 アドビは、ターゲット設定インフラストラクチャの可用性とパフォーマンスが可能な限り安定するようにしています。ただし、エンドユーザーのブラウザーとアドビのサーバー間の通信が切断されると、コンテンツ配信が中断される可能性があります。
 
@@ -194,7 +194,7 @@ Google は例として、「ユーザーに表示される組み合わせに関�
 
 ## ボット {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. ボットによって生成されたと識別されたトラフィックには、SEO ガイドラインに沿うように、依然として一般ユーザーのようにコンテンツが提供されます。ボットトラフィックの使用は、通常のユーザーのように扱われると、A/B テストやパーソナライゼーションアルゴリズムをゆがめる可能性があります。したがって、Target アクティビティで既知のボットが検出されると、そのトラフィックは、少し違うように扱われます。ボットトラフィックを削除することで、ユーザーアクティビティをより正確に測定できます。
+Adobe Targetは、[DeviceAtlas](https://deviceatlas.com/)を使用して既知のボットを検出します。 ボットによって生成されたと識別されたトラフィックには、SEO ガイドラインに沿うように、依然として一般ユーザーのようにコンテンツが提供されます。ボットトラフィックの使用は、通常のユーザーのように扱われると、A/B テストやパーソナライゼーションアルゴリズムをゆがめる可能性があります。したがって、Target アクティビティで既知のボットが検出されると、そのトラフィックは、少し違うように扱われます。ボットトラフィックを削除することで、ユーザーアクティビティをより正確に測定できます。
 
 特に、既知のボットトラフィックの場合、Target は以下をおこないません。
 
