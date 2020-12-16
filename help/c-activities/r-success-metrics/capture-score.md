@@ -14,17 +14,17 @@ ht-degree: 51%
 
 # スコアキャプチャ{#capture-score}
 
-The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
+スコアキャプチャのエンゲージメント指標では、訪問者がキャンペーンの最初の表示[!DNL Target]リクエストを最初に見た時点から、サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算します。
 
 次の例は、猫の画像と犬の画像の 2 つのエクスペリエンスをテストするキャンペーンのスコアエンゲージメントの計算方法を示しています。
 
 ![](assets/example_score.png)
 
-この例では、最初の訪問者は猫のエクスペリエンスを体験します。Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
+この例では、最初の訪問者は猫のエクスペリエンスを体験します。グローバル[!DNL Target]リクエストが、ページの値に基づいてページスコアを渡すとします。 マーケティング担当者が`**any Target request**`に関連付けられた成功指標に対するページ数エンゲージメントをキャプチャした場合、訪問スコアは、猫画像の周りの表示リクエストの後に表示されるリクエストに対して累積されます。
 
 最初のページでスコアに 1 が加えられ、2 番目のページで 0.25、3 番目のページで 0.10、4 番目のページで 0.10 がそれぞれ加えられ、合計で 1.45 になります。この数値は、通貨またはポイントのいずれかに換算できます。別の訪問では、訪問者は犬のエクスペリエンスを体験します。表示したページは猫のエクスペリエンスよりも少なかったにも関わらず、スコアは 2.10 と高くなっていますが、これは犬のエクスペリエンスの方がページの価値が高いためです。
 
-獲得コストとアフィリエイトリンクの売上高を計算に入れるには、後続のページフローに示すように、adbox とリダイレクターを渡します。Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
+獲得コストとアフィリエイトリンクの売上高を計算に入れるには、後続のページフローに示すように、adbox とリダイレクターを渡します。この例では、記事ページの[!DNL Target]リクエストの両方がスコアを渡すことに注意してください。これは既知のCPMを表す場合もあります。
 
 ![](assets/example_score2.png)
 
@@ -34,29 +34,29 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
 ページにスコアを割り当てるには次の 2 つの方法があります。
 
-* リクエストで、という名前のパラメーターを作成し [!DNL Target]`mboxPageValue`ます。
+* [!DNL Target]リクエストで、`mboxPageValue`という名前のパラメーターを作成します。
 
    例：`('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. ページ上の複数のリクエストにスコア値が含まれる場合、そのページのスコアはすべてのリクエスト値の合計になります。 `mboxPageValue` は、エンゲージメントスコアを取り込むためにターゲットリクエストに値を渡すために予約されたパラメーターです。 正の値も負の値も渡される可能性があります。各訪問者の訪問の最後に合計が計算され、その訪問の合計スコアが算出されます。
+   その[!DNL Target]リクエストを含むページが表示されるたびに、指定した値がスコアに加算されます。 ページ上の複数のリクエストにスコア値が含まれる場合、そのページのスコアはすべてのリクエスト値の合計になります。 `mboxPageValue` は、エンゲージメントスコアを取り込むためにターゲットリクエストに値を渡すために予約されたパラメーターです。正の値も負の値も渡される可能性があります。各訪問者の訪問の最後に合計が計算され、その訪問の合計スコアが算出されます。
 
 * ページの URL で `?mboxPageValue=n` パラメーターを渡します。
 
    例：`https://www.mydomain.com?mboxPageValue=5`
 
-   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
+   この方法を使用すると、ページ上の各[!DNL Target]リクエストのスコアに指定した値が追加されます。 例えば、パラメーター`?mboxPageValue=10`を渡し、ページに3つの[!DNL Target]リクエストがある場合、ページのスコアは30です。
 
 >[!NOTE]
 >
->アクティビティの最初の表示 [!DNL Target] 要求の上にあるターゲット要求は、スコアに含まれません。
+>アクティビティの最初の表示[!DNL Target]リクエストの上にあるターゲットリクエストは、スコアに含まれません。
 
-Best practice is to assign values in the [!DNL Target] request. これにより、各リクエストの内容に応じて、測定する値を正確に指定できます。
+ベストプラクティスは、[!DNL Target]リクエストに値を割り当てることです。 これにより、各リクエストの内容に応じて、測定する値を正確に指定できます。
 
 >[!NOTE]
 >
 >メンテナンスを容易にするために、JavaScript の条件ロジックを含んだ [!DNL at.js] または [!DNL mbox.js] ファイル内で、サイトのページスコア値の割り当てを設定できます。これにより、ページに多くのコードを記述しなくても済みます。サポートが必要な場合は、担当のアカウントコンサルタントにお問い合わせください。
 
-上記の 2 つの方法を組み合わせることもできますが、スコアは予期したよりも高くなる場合があります。For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
+上記の 2 つの方法を組み合わせることもできますが、スコアは予期したよりも高くなる場合があります。例えば、3つの[!DNL Target]リクエストのそれぞれに10の値を割り当て、4つ目のリクエストにスコアを割り当てずに、URLパラメーター`?mboxPageValue=5`を渡すと、値が割り当てられた3つのリクエストに対して50、30、ページ上の4つのリクエストに対して5となります。
 
 カウンター開始は、入口要求ではなく、最初の表示要求を持ちます。 例えば、表示要求のないホームページのアクティビティに入り、表示要求を含むカタログページにリンクすると、カウンターはカタログページに移動した時点から開始されます。
 
