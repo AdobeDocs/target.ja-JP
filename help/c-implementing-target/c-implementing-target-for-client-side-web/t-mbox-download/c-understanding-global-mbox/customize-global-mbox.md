@@ -16,9 +16,9 @@ ht-degree: 59%
 
 at.jsのグローバルmboxをカスタマイズするのに役立つ情報です。
 
-1. [ **[!UICONTROL 管理]** ] > [ **[!UICONTROL 実装]**]の順にクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 
-1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
+1. **[!UICONTROL ページ読み込みが有効（グローバルmboxを自動作成）]**&#x200B;を無効にし、[!DNL Target]からのアクティビティの配信に使用するカスタムグローバルmboxの名前を追加します。
 
    このカスタムグローバル mbox は、クリック追跡にも使用されます。
 
@@ -26,9 +26,9 @@ at.jsのグローバルmboxをカスタマイズするのに役立つ情報で�
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-1. Implement the [!DNL at.js] library on your site.
+1. サイトに[!DNL at.js]ライブラリを実装します。
 
-   詳しくは、at.jsのデプロイ [方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) を参照してください。
+   詳しくは、[at.jsのデプロイ方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)を参照してください。
 
 1. リリースへの移行のタイミングをはかります。
 
