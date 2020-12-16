@@ -102,11 +102,11 @@ ht-degree: 96%
 * **サンプルサイズ：**&#x200B;サンプルが増えると間隔が狭くなります。これは、レポートが成功指標の真の値に近づくことを意味しているので、望ましいことです。
 * **標準偏差値が小さい：**&#x200B;結果（AOV や日別のコンバージョンする訪問者数など）の類似性が高いほど、標準偏差値が小さくなります。
 
-## 信頼性の計算とオフラインでの実行方法 {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 信頼性の計算とオフラインでの実行方法  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [ダウンロードした CSV レポート](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+これらの計算指標を計算するには、ターゲットの[Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excelファイルをダウンロードしてアクティビティの値を入力するか、ターゲット](/help/assets/statistical-calculations.pdf)が使用する[統計指標を確認します。
 
 >[!NOTE]
 >
