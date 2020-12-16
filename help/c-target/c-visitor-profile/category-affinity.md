@@ -73,7 +73,7 @@ ht-degree: 98%
 
 * `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
-* `womens-clothing`: 5 (+5)
+* `womens-clothing`:5 (+5)
 
 * `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
 * `accessories`: 3.3 (6.5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`:2.5 (5/2)
 
 * `jewelry`: 2.3 (4.5/2)
 
