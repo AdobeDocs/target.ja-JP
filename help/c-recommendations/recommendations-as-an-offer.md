@@ -121,6 +121,6 @@ Recommendations オファーの（アルゴリズム）ステータスは、Reco
 
 ![Recommendations オファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
 
-## トレーニングビデオ：オファー ![概要バッジとしてのRecommendations](/help/assets/overview.png)
+## トレーニングビデオ：オファーとしてのRecommendations![概要バッジ](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
