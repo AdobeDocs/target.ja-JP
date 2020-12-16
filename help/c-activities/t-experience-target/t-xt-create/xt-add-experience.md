@@ -26,7 +26,7 @@ ht-degree: 93%
 
    ページ上の要素にマウスポインターを置くと、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。エクスペリエンスを変更するために要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   [!DNL Target Classic]を使用してページに[!DNL Target]リクエストを作成した場合、[!DNL Target]リクエストはリクエスト名を示す要素として表示され、他の要素と同様に変更できます。
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 93%
    >
    >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
-   オーディエンスを作成する場合、場所を選択し、その場所のパラメーターを指定できます。 Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   オーディエンスを作成する場合、場所を選択し、その場所のパラメーターを指定できます。 「[!UICONTROL カスタム](オーディエンスを作成/ルール/カスタム)」で、場所を選択し、必要なパラメーターを指定します。
 
    >[!NOTE]
    >
