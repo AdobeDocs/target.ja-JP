@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) カスタムエンティティの属性{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+[!DNL Adobe Target Recommendations]で単一値および複数値のカスタムエンティティ属性を使用して、カタログ内の品目に関する追加情報を定義します。
 
 ## 制限 {#limits}
 
@@ -25,7 +25,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 複数値のカスタムエンティティ属性には、500 個以下の値を含めることができます。個々の値はそれぞれ 100 文字以内に制限されています。すべての値の文字数の合計は、単一値のカスタムエンティティ属性の最大値に準拠している必要があります（上記を参照）。
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## カスタムエンティティ属性値{#section_313331A9F8194A89B5EDD89363018651}
 
 カスタムエンティティ属性には、単一値または複数値を設定できます。エンティティ属性値は製品表示で表示されます。
 
@@ -61,7 +61,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 * 配列には単一値が含まれている必要があります。値の種類が混在する配列（`["AB",1,true]`）は使用できません。
 * 複数値の属性で入れ子になっている JSON 配列（`[10,12,[1,2,3]]`）は単一値の属性として扱われます。
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 複数値の属性の実装{#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 複数値のカスタムエンティティ属性は、フィード（CSV）、`targetPageParams`、Delivery API、Save entities API を使用して製品をアップロードする場合に使用できます。新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は値なしと見なされます。
 
@@ -127,9 +127,9 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+配信APIとエンティティを保存APIの使用について詳しくは、[Adobe RecommendationsAPIドキュメント](http://developers.adobetarget.com/api/recommendations)を参照してください。
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 複数値の属性を持つ演算子の使用{#section_83C2288A805242D9A02EBC4F07DEE945}
 
 アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールで複数値のカスタム属性に演算子を適用する場合、リストの値のうち少なくとも 1 つが演算を通過する場合（ブール演算子 OR **）、結果は true ** になります。
 
@@ -252,7 +252,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 >
 >*倍精度*&#x200B;は Java のデータ型です。数値が必要な演算子の場合、倍精度に変換すると、数値以外の値は結果の判定から除外されます。
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## デザインの複数値の属性{#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 複数値の属性を設計で参照する場合、複数値の属性はカンマで区切ったリストで表示されます。
 
