@@ -18,7 +18,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 
 オーディエンスは、ターゲット設定を利用できるあらゆる場所で使用されます。アクティビティをターゲティングする場合、[!UICONTROL オーディエンス]リストから再利用可能なオーディエンスを選択するか、[アクティビティ専用のオーディエンス](/help/c-target/creating-activity-only-audience.md)を作成します。または、[複数のオーディエンスを組み合わせて](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)、アドホックオーディエンスを作成します。
 
-リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。『 [コアサービスユーザガイド](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 』の *オーディエンスを参照してください*。
+リアルタイムのターゲティングやパーソナライゼーションの他のソリューションによって [!DNL Analytics] 収集されたオーディエンスデータを [!DNL Adobe Target] 使用 [!DNL Experience Cloud] することもできます。『*コアサービスユーザーガイド*』の[オーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)を参照してください。
 
 [!DNL Target] では、次の 2 種類のオーディエンスが定義されます。
 
@@ -40,7 +40,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 * AAM でオーディエンスが削除されている場合、[!UICONTROL オーディエンス]リストとオーディエンスピッカーの両方に警告アイコンが表示されます。また、UI のツールチップにも、AAM でオーディエンスが削除されていることが表示されます。
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
-カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
+カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを追加する場合は、**[!UICONTROL ルール]**/追加&#x200B;**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックし、アクティビティのターゲットに使用するパラメーターを選択します。 必要なパラメーターが表示されない場合、そのパラメーターは mbox で公開されていません。他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
 [!UICONTROL オーディエンス]リストを検索するには、検索ボックスを使用します。オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
@@ -81,7 +81,7 @@ Adobe Target のオーディエンスによって、誰にターゲットアク�
 * Target Standard／Premium では、エクスプレッションターゲットオーディエンスはサポートされなくなりました。
 * Target Standard／Premium では、非推奨のオーディエンスをサポートしていない場合や、使いやすいように演算子が改良されている場合があります。そのため、インポートしたオーディエンスの定義は、定義どおりに機能しますが、Standard／Premium インターフェイスで同じものを作成することはできない場合があります。例えば、ソーシャルオーディエンスはルールとともに表示されますが、Target Standard／Premium で作成することはできません。
 
-## トレーニングビデオ: Audiencesの使用 ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ: Audiencesの使用  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスの使用に関する情報が説明されています。
 
