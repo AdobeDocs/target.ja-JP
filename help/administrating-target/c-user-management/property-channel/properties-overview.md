@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise 権限の設定{#configure-enterprise-permissions}
 
-Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+[!DNL Target]実装にユーザーを追加するために必要なタスクに関する情報。ワークスペース、ユーザーグループおよびプロパティの作成[!DNL Target]実装を更新して`at_property`パラメーターを含めます。ロールと権限を指定します。
 
 >[!NOTE]
 >
@@ -31,29 +31,29 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 | 5. `at_property` パラメーターを含めるための実装の更新 | [!DNL Target] UI、at.js 関数、[!DNL Adobe Launch]、または [!DNL Dynamic Tag Management] |
 | 6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
 
-For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
+[!DNL Adobe Admin Console for Enterprise]で実行されるタスクに対しては、次の手順に従ってコンソールにアクセスします。
 
-1. Adobe Targetで、 **[!UICONTROL 管理]** / **[!UICONTROL プロパティ]** /プロパティをワークスペースに **[!UICONTROL 割り当てをクリックします]**。
+1. Adobe Targetで、**[!UICONTROL 管理]**/**[!UICONTROL プロパティ]**/**[!UICONTROL ワークスペースにプロパティを割り当て]**&#x200B;をクリックします。
 
    または
 
-   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+   [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/)に移動し、まだログインしていない場合は、Adobe IDを使用してサインインします。
 
 
 1. （条件付き）複数の組織の [!DNL Admin Console for Enterprise] へのアクセス権を持っている場合、右隅または上部のナビゲーションバーにあるユーザーアバターをクリックしてから、目的の組織を選択します。
 
-## 手順 1.Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
+## 手順 1.追加ユーザー（オプション） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
-## 手順 2：Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 手順 2：ワークスペース(製品プロファイル)を作成{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 ワークスペース(製品プロファイル)を使用すると、組織は特定のユーザーのセットを特定のプロパティのセットに割り当てることができます。 多くの点で、ワークスペースは [!DNL Analytics] のレポートスイートに似ています。
 
-Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
+組織は、[!DNL Admin Console]内に新しいワークスペースを作成し、[!DNL Target]プロパティをこれらのワークスペースに割り当て、ユーザーを「デフォルトのワークスペース」設定から新しい制限付きのワークスペースに移動することで、エンタープライズ権限機能の活用を開始できます。
 
 これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。
 
@@ -81,7 +81,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
-### Obtain your workspace ID {#workspace-id}
+### ワークスペースIDを取得{#workspace-id}
 
 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
@@ -90,7 +90,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
    ![ワークスペース ID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 手順 3.Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 手順 3.ユーザーグループの作成（オプション） {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
@@ -99,32 +99,32 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、任意の呼び出し(ターゲット呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 をターゲットに追加します。
+プロパティは、任意の呼び出し(ターゲット呼び出し、api呼び出しなど)で、特定の名前と値のペアをパラメーターとして追加することで有効にします。 to Target.
 
 プロパティは、特定のチャネル（Web、モバイル、電子メールおよび API／その他）に属しています。
 
 **ヒント**：プロパティの作成方法について詳しくは、以下のトレーニングビデオをご覧ください。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+1. [!DNL Target]で、**[!UICONTROL 管理]**/**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
    ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    以下のフィールドを設定します。
 
-   * **プロパティ名（必須）:** プロパティにわかりやすい名前を指定します。
+   * **プロパティ名（必須）：プロパティの説明的な名前を** 指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. 「 **[!UICONTROL コピー]** 」をクリックして、 [5の手順を実行する際に使用するコードをクリップボードにコピーします。at_propertyパラメーターを含めるように実装を更新します](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
+1. **[!UICONTROL 「]**&#x200B;コピー&lt;a1/>」をクリックして、[5の手順を実行する際に使用するコードをクリップボードにコピーします。at_propertyパラメーター](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)を含めるように実装を更新します。
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >プロパティ作成について詳しくは、以下のトレーニングビデオをご覧ください。
 
-## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
+## 手順5:at_propertyパラメーター{#section_9B17A59807A94712BE642942442EBBC8}を含めるように実装を更新します
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
+[!DNL Target] user-permissions機能を使用するには、[!DNL Target]をヒットする呼び出し(ターゲット呼び出し、api呼び出しなど)に`at_property`パラメーターを追加する必要があります。
 
 **`at_property` パラメーターコードを取得するには：**
 
@@ -132,7 +132,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    または
 
-   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+   [!DNL Target]で、**[!UICONTROL 管理]**/**[!UICONTROL プロパティ]**&#x200B;をクリックして、[!UICONTROL プロパティ]リストを表示します。
 
    1. 目的のプロパティの[!UICONTROL 最終更新日]列の上にマウスポインターを置いて、[!UICONTROL コード]アイコンを表示し、クリックします。
 
@@ -142,13 +142,13 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![プロパティコード](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
+1. 前の手順で取得した実装コードを使用して、[!DNL Target]実装を更新します。
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
    * **の「グローバルパラメーター」を使用[!DNL Adobe Launch]：**
 
-      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      詳しくは、*Adobe Experience Platform Launch*&#x200B;ドキュメントの追加[グローバルターゲットパラメーター](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)を参照してください。
 
    * **の「グローバルパラメーター」を使用[!DNL Dynamic Tag Management]：**
 
@@ -156,7 +156,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       詳しくは、Dynamic Tag Management 製品ドキュメント&#x200B;**&#x200B;の[グローバルパラメーター - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) を参照してください。
 
-   * **targetPageParams()関数を使用：** 次のコードを `<head>` タグのat.js参照またはmbox.js参照の上に配置します。
+   * **targetPageParams()関数を使用：次のコードを** タグのat.js参照またはmbox.js参照の上に `<head>` 配置します。
 
       ![](assets/property_token_1.png)
 
@@ -168,7 +168,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       at.js を使用してこれをおこなう方法については、[targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) および [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
-## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 手順6:役割と権限の指定{#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. Admin Console で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
 
@@ -184,7 +184,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![設定ユーザー](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. 「[!UICONTROL 製品の役割]」列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（承認者、編集者、監視者または発行者）を選択します。
 
    ![「製品の役割」ドロップダウンリスト](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -203,7 +203,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 以下のビデオの情報は、一般的に正しい。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）の設計が一新され、パフォーマンスが向上し、新機能のリリース時に必要なメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 以下のビデオの情報は、一般的に正しい。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 ### ターゲットワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
@@ -219,7 +219,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
+### Adobe Targetでプロパティを作成する方法(3:05) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 * [!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
 * プロパティトークンを生成してプロパティの実装に含める方法
