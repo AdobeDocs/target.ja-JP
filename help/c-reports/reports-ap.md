@@ -14,11 +14,11 @@ ht-degree: 70%
 
 # ![Premium](/help/assets/premium.png) Automated Personalization 概要レポート{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+[!DNL Adobe Target]の[!UICONTROL Automated Personalization]アクティビティのユーザーは、特殊なレポートを利用できます。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] は、[!DNL Target Premium] ソリューションの一部として利用できます。[ターゲットプレミアムライセンス](/help/c-intro/intro.md#premium)がない場合、[!DNL Target Standard]には含まれません。
 
 1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的の [!UICONTROL Automated Personalization] アクティビティをクリックし、「**[!UICONTROL レポート」タブをクリックします。]**
 
@@ -40,7 +40,7 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 ランダムフォレストエクスペリエンスの[!UICONTROL オファーレベル]レポートは、各アルゴリズムが適用されたオファーのパフォーマンスをランダムに提供された同じオファー（コントロール）と比較します。そのため、このビューでオファーを相互に比較しないでください。
 
-Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
+エクスペリエンスアルゴリズム（ランダムフォレストまたはコントロール）をクリックして、[!UICONTROL オファーレベル]レポートを表示します。
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ Click the experience algorithm (Random Forest or control) to view the [!UICONTRO
 
 ## 自動セグメント
 
-「 [!UICONTROL 自動セグメント] 」アイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
+[!UICONTROL 自動セグメント]アイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
 ![自動セグメントアイコン](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-詳しくは、 [自動セグメントレポートを参照してください](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+詳しくは、[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)を参照してください。
 
 ## 重要な属性
 
-「 [!UICONTROL 重要な属性] 」アイコンをクリックします。 このレポートは、異なるアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどの程度重要か（あるいはそれほど重要か）を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
+[!UICONTROL 重要な属性]アイコンをクリックします。 このレポートは、異なるアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどの程度重要か（あるいはそれほど重要か）を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
 ![重要な属性アイコン](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-詳しくは、「 [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)」を参照してください。
+詳しくは、[重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)を参照してください。
