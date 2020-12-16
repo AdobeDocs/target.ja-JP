@@ -12,28 +12,28 @@ ht-degree: 7%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) プロファイル属性の一致
+# ![](/help/assets/premium.png) PREMIUMProfile属性の一致
 
-項目（エンティティ） [!DNL Adobe Target][!DNL Recommendations] をユーザーのプロファイルー内の値と比較して、動的にフィルターします。
+[!DNL Adobe Target] [!DNL Recommendations]内で動的にフィルターします。これには、項目（エンティティ）とユーザーのプロファイル内の値を比較します。
 
-サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、  プロファイル属性の一致を使用します。
+[!UICONTROL プロファイル属性の一致]は、サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合に使用します。
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>条件とプロモーションに対してインクルージョンルール](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成し、使用する[プロセスは、使用例や例と同様に似ています。
 
-次のシナリオでは、 [!UICONTROL プロファイル属性の照合の使用方法を示します]。
+次のシナリオでは、[!UICONTROL プロファイル属性の一致]の使用方法を示します。
 
 * 眼鏡を販売する会社は、訪問者の好きな枠色を「クルミ」として店に出しています。 その特定の訪問者に対して、「くるみ」に一致する眼鏡フレームのみを返すようにレコメンデーションが設定されます。
 * 会社のWebサイトを移動する際の訪問者の衣料品のサイズ（小、中、大など）に対してプロファイルパラメーターを定義できます。 レコメンデーションは、そのプロファイルパラメーターと一致するように設定でき、ユーザーの希望する衣料品のサイズのみに固有の返品商品を設定できます。
 
-## プロファイル属性の一致の例 {#section_9873E2F22E094E479569D05AD5BB1D40}
+## プロファイル属性の一致の例{#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL 「プロファイル属性の一致] 」では、次の例のように、訪問者のプロファイルーの属性に一致する品目のみをレコメンデーションできます。
+[!UICONTROL プロファイル属性] の一致では、次の例のように、訪問者のプロファイルーの属性に一致する品目のみをレコメンデーションできます。
 
 ### ユーザーのお気に入りブランドから商品をレコメンデーションする
 
-For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. このようなルールでは、ある訪問者が特定のブランドのランニングショーツを閲覧している場合は、その訪問者のお気に入りのブランド（その訪問者のプロファイルの `profile.favoritebrand` に保存されている値）と一致する品目のみがレコメンデーションされます。
+例えば、[!UICONTROL プロファイル属性の一致]オプションを使用して、ブランドが`profile.favoritebrand`に保存されている値またはテキストと等しい場合にのみ品目をレコメンドするルールを作成できます。 このようなルールでは、ある訪問者が特定のブランドのランニングショーツを閲覧している場合は、その訪問者のお気に入りのブランド（その訪問者のプロファイルの `profile.favoritebrand` に保存されている値）と一致する品目のみがレコメンデーションされます。
 
 ![お気に入りのブランド](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -59,9 +59,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 プロファイル属性の一致がrecommendationsに与える影響を視覚的に示す例として、電気ファンを販売するWebサイトを考えてみましょう。
 
-訪問者がこのWebサイトの様々なファンの画像をクリックすると、各ページに、画像内のファンのサイズが小さいか大きいかに基づいて、 `entity.size` パラメーターの値が設定されます。
+訪問者がこのWebサイトの様々なファンの画像をクリックすると、各ページには、画像内のファンのサイズが小さいか大きいかに基づいて`entity.size`パラメーターの値が設定されます。
 
-例えば、の値が小さい値と大きい値のどちらに設定されたかを追跡し、回数をカウントするプロファイルスクリプト `entity.size` を作成したとします。
+例えば、`entity.size`の値が小さい値と大きい値に設定された回数を追跡およびカウントするプロファイルスクリプトを作成したとします。
 
 その後訪問者がホームページに戻ると、より小さいファンがクリックしたか、より大きいファンがクリックしたかに基づいて、フィルターされたレコメンデーションが表示されます。
 
