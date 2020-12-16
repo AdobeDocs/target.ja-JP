@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # サーバー側：Target の実装{#server-side-implement-target}
 
-サーバー側 [!DNL Adobe Target] の配信API、SDK、 [!DNL Target Recommendations] APIに関する情報です。
+[!DNL Adobe Target]サーバー側配信API、SDK、および[!DNL Target Recommendations] APIに関する情報です。
 
 以下の処理は、[!DNL Target] のサーバー側実装で発生します。
 
@@ -27,32 +27,32 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->初回訪問者は、クライアント側でのみ初期化できます。 サーバー側で初回訪問者 *を初期化できません* 。
+>初回訪問者は、クライアント側でのみ初期化できます。 初回訪問者&#x200B;*は、サーバ側で初期化できません。*
 
 以下の節では、様々なAPIとNodeJS SDKについて詳しく説明します。
 
 ## Server Side Delivery API
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
+リンク：[サーバ側配信API](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
-配信 [!DNL Target] APIを使用すると、次のことができます。
+[!DNL Target]配信APIを使用すると、次のことができます。
 
 * SPAやモバイルチャネル、および接続されたTV、キオスク、店頭のデジタル画面など、ブラウザーベース以外のIoTデバイスを含むWeb上でエクスペリエンスを配信できます。
 * HTTP/s呼び出しを行うことのできる任意のサーバー側プラットフォームまたはアプリケーションからエクスペリエンスを提供します。
 * 訪問者がどのチャネルやデバイスを使用してビジネスに関与したかに関係なく、一貫したパーソナライズされたエクスペリエンスを訪問者に提供します。
 * サーバー上のセッション内の訪問者に対するエクスペリエンスをキャッシュすることで、複数のAPI呼び出しを回避でき、パフォーマンスが向上します。
-* サーバ側の [!DNL Adobe Experience Cloud] 製品( [!DNL Adobe Analytics]、 [!DNL Adobe Audience Manager][!DNL Experience Cloud ID Service] (AAM)など)とシームレスに統合できます。
+* [!DNL Adobe Analytics]、[!DNL Adobe Audience Manager](AAM)、[!DNL Experience Cloud ID Service]などの[!DNL Adobe Experience Cloud]製品と、サーバ側からシームレスに統合できます。
 
 ## サーバー側SDK
 
-リンク： [Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
+リンク：[Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-サーバー側SDKドキュメ [!DNL Adobe Target] ントポータルは、選択した言語でサーバー [!DNL Target] に実装する際に役立ちます。
+[!DNL Adobe Target]サーバー側SDKドキュメントポータルは、お使いのサーバーに対して好みの言語で[!DNL Target]を実装するのに役立ちます。
 
 ## Target Recommendations API
 
-リンク： [ターゲットRecommendationsAPI](https://developers.adobetarget.com/api/recommendations) 、 [Adobe RecommendationsAPIの概要](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)。
+リンク：[ターゲットRecommendationsAPI](https://developers.adobetarget.com/api/recommendations)と[Adobe RecommendationsAPIの概要](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)。
 
-The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
+RecommendationsAPIを使用すると、[!DNL Target] recommendationsサーバーとプログラム的にやり取りできます。 これらのAPIは、様々なアプリケーションスタックと統合して、[!DNL Target]ユーザーインターフェイスを通じて通常行う機能を実行できます。
