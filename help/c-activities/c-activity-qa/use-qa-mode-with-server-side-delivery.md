@@ -16,7 +16,7 @@ ht-degree: 80%
 
 サーバー側配信と組み合わせて QA URL を利用すると、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なエンドツーエンドのアクティビティ QA を実行できます。
 
-Activity QAの標準実装では、パラメーターによる `qa_mode` `pageUrl` パラメーターの受け渡しがサポートされています。This approach is convenient for standard/ajax [!DNL Target] calls. ただし、サーバー間呼び出しの場合、`pageUrl` を利用できないときに Mobile SDK を使用する方法としては最適ではありません。
+Activity QAの標準実装では、パラメーターによる `qa_mode` `pageUrl` パラメーターの受け渡しがサポートされています。この方法は、標準/ajax [!DNL Target]呼び出しに便利です。 ただし、サーバー間呼び出しの場合、`pageUrl` を利用できないときに Mobile SDK を使用する方法としては最適ではありません。
 
 次のコードサンプルに、サーバー側呼び出しでのアクティビティ QA を示します。
 
@@ -62,7 +62,7 @@ Activity QAの標準実装では、パラメーターによる `qa_mode` `pageUr
 | token | 暗号化トークン | None.<br>空にすることはできません。 | アクティビティ QA で実行できるアクティビティ ID のリストを含む、暗号化されたエンティティです。<br>[!DNL Target]検証ルール： リクエストで指定されたクライアントに属する暗号化トークンでなければなりません。トークンで指定されているすべてのアクティビティがこのクライアントに属している必要があります。 |
 | bypassEntryAudience | ブール値 | False | QA アクティビティのエントリステップターゲットを評価する必要があるかどうか、またはマッチングと見なす必要があるかどうかを指定します。 |
 | listedActivitiesOnly | ブール値 | False | QA アクティビティを別個に実行する必要があるかどうか、または現在の環境のアクティブなアクティビティとして評価する必要があるかどうかを指定します。 |
-| evaluateAsTrueAudienceIds | ID のリスト | 空のリスト。 | List of audience IDs that should always be evaluated as true in the scope of the [!DNL Target] request. |
-| evaluateAsFalseAudienceIds | ID のリスト | 空のリスト。 | List of audience IDs that should always be evaluated as false in the scope of the [!DNL Target] request. |
+| evaluateAsTrueAudienceIds | ID のリスト | 空のリスト。 | [!DNL Target]要求の範囲で常にtrueと評価されるオーディエンスIDのリスト。 |
+| evaluateAsFalseAudienceIds | ID のリスト | 空のリスト。 | [!DNL Target]要求の範囲で常にfalseとして評価される必要があるオーディエンスIDのリスト。 |
 | activityIndex | 整数 | Null。<br>空にすることはできません。 | 暗号化トークン内のアクティビティのインデックスです。activityIndex がトークン内のアクティビティの範囲外にある場合、または null の場合は、無視されます。インデックスは 1 から開始されます。<br>検証ルール：1 つ以上のアクティビティインデックスが指定され、トークンで指定されているアクティビティが参照されていなければなりません。 |
 | experienceIndex | 整数 | Null。 | このパラメーターを指定すると、アクティビティ定義内のインデックスを基準にしてエクスペリエンスが選択されます。このパラメーターが指定されていない場合、または範囲外にある場合は、アクティビティのエクスペリエンスセレクター戦略が代わりに使用されます。インデックスは 1 から開始されます。検証ルール：null にすることができます。そうでない場合は、アクティビティ内のエクスペリエンスが参照されていなければなりません。 |
