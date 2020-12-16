@@ -24,7 +24,7 @@ ht-degree: 93%
 
 ## 異なる URL の指定
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+デフォルトでは、[!UICONTROL Visual Experience Composer]は、[Visual Experience Composerの設定](/help/administrating-target/visual-experience-composer-set-up.md)で指定されたページを開きます
 . アクティビティ作成中に、異なるページを指定することもできます。
 
 [!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]**&#x200B;の歯車アイコンをクリックして、「**[!UICONTROL ページ配信」を選択します。]**「アクティビティ URL」フィールドに URL を入力します。
