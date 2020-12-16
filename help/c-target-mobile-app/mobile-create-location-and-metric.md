@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>使用可能なすべてのターゲットメソッドのリストについては、[モバイルドキュメント](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html)を参照してください。
 
 アプリで Target 位置を作成してリクエストをおこなうためのメソッドには、主に次の 2 種類があります。
 
