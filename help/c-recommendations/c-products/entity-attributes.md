@@ -14,7 +14,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) エンティティの属性{#entity-attributes}
 
-Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
+エンティティ属性を使用して、製品やコンテンツの情報を[!DNL Adobe Target Recommendations]に渡します。
 
 [!DNL Recommendations] は、アルゴリズム内で使用されている `productId` または `productPurchasedId`（コード内では `entity.id`）を送信します。
 
@@ -28,11 +28,11 @@ Use entity attributes to pass product or content information to [!DNL Adobe Targ
 
 大半の事前定義パラメーターでは、単数値のみを使用できるため、新しい値によって古い値が上書きされます。`categoryId` パラメーターは、その商品を含む各カテゴリ用の値のコンマ区切りリストを受け取ることができます。新しい `categoryId` の値は既存の値を上書きせず、代わりにエンティティ更新の際に追加されます（上限 250 文字）。
 
-at.js 1を使用している場合、一般に、表示情報mboxは次の例のようになります。*x* with `mboxCreate`.
+at.js 1を使用している場合、一般に、表示情報mboxは次の例のようになります。** xwith `mboxCreate`.
 
 >[!NOTE]
 >
->* at.js 2を使用している場合。*x*, `mboxCreate` （次の例で使用されている）はサポートされなくなりました。 at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す。*x*、 [targetPageParamsを使用します](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 この例については、「 [Recommendationsの計画と実装](/help/c-recommendations/plan-implement.md)」を参照してください。
+>* at.js 2を使用している場合。*x*,  `mboxCreate` （次の例で使用されている）はサポートされなくなりました。at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す。*x*、 [targetPageParamsを使用します](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。この例については、[Recommendations](/help/c-recommendations/plan-implement.md)の計画と実装を参照してください。
 
 >
 
@@ -154,7 +154,7 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 単一値のみ。
 
-「特価」や「クリアランス」など、レコメンデーションに表示する商品についてのメッセージです。メッセージは通常、商品名よりも長いものとなります。テンプレート内の商品とともに表示する追加情報の定義に使用します。.
+「特価」や「クリアランス」など、レコメンデーションに表示する商品についてのメッセージです。メッセージは通常、商品名よりも長いものとなります。テンプレート内の商品とともに表示する追加情報の定義に使用します。。
 
 例：`'entity.message=Family&nbsp;special'`
 
