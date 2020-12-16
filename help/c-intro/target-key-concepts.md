@@ -100,7 +100,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 |--- |--- |
 | 再利用可能なオーディエンス | 任意のアクティビティに対して、再利用可能なオーディエンスを選択できます。これらのオーディエンスのいずれかを変更すると、そのオーディエンスを使用しているすべてのアクティビティに対して変更が適用されます。 |
 | カスタムセグメント | 「カスタムセグメント」（別名「キャンペーン固有のセグメント」）は、Target Classic のキャンペーンに固有のものです。キャンペーンの一部として作成され、他のキャンペーンで再利用することはできません。 |
-| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| 共有オーディエンス | オーディエンスは、[!DNL Adobe Experience Cloud]　ソリューション全体で共有できます。例については、[オーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)を参照してください。 |
 
 訪問者プロファイルによるサイト訪問者情報の追跡に関する詳細については、「[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)」を参照してください。
 
@@ -108,7 +108,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03） ![概要バッジ](/help/assets/overview.png)
+### アクティビティのタイプ（9:03）  ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
 
