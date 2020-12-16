@@ -12,15 +12,15 @@ ht-degree: 68%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# レスポンシブエクスペリエンスのモバイルビューポート{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+モバイルビューポートを使用すると、様々なサイズの画面で[!DNL Target]アクティビティがどのように表示されるかをプレビューできます。
 
 モバイルビューポートプレビュー機能は、様々なデバイス、ウィンドウ、画面サイズで適切にレンダリングされるレスポンシブサイト用に設計されています。 レスポンシブサイトは、デスクトップ、ラップトップ、タブレット、携帯電話など、あらゆる画面サイズに自動的に調整され、適応します。
 
 >[!NOTE]
 >
-> * サイトがレスポンシブで、デスクトップページと同じ要素が異なる設定でモバイルページに使用されている場合、モバイルビューポートを使用します。If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * サイトがレスポンシブで、デスクトップページと同じ要素が異なる設定でモバイルページに使用されている場合、モバイルビューポートを使用します。`m.mysite.com`など、別の構造を持つ別のモバイルサイトがある場合は、代わりに[複数ページアクティビティ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用します。
    >
    >
 * リダイレクトオファーのオーバーレイと重複する場合、モバイルビューポートは利用できません。
@@ -28,7 +28,7 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 ビューポートは、画面いっぱいに広げられた Web ページの長方形のサイズで定義されます。ブラウザーウィンドウのサイズからスクロールバーとツールバーを引いたサイズになります。ブラウザーは、「CSS ピクセル」を使用します。Retina ディスプレイを備えたデバイスなど、多くのデバイスでは、ビューポートは、宣伝されているデバイスの解像度より小さくなります。
 
-次に、一般的なデバイスのビューポートと解像度を示します。Remember to use the viewport size in [!DNL Target]. 人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。例えば、https://viewportsizer.com/devices/ [](https://viewportsizer.com/devices/) を参照するか、デバイスメーカーのWebサイトを参照してください。
+次に、一般的なデバイスのビューポートと解像度を示します。[!DNL Target]でビューポートのサイズを使用することを忘れないでください。 人気のデバイスのビューポートのサイズは様々な web サイトに表記されています。例えば、[https://viewportsizer.com/devices/](https://viewportsizer.com/devices/)を参照するか、デバイスメーカーのWebサイトを参照してください。
 
 | デバイス | ビューポートのサイズ | デバイスの解像度 |
 |---|---|---|
@@ -76,9 +76,9 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 特定のデバイスを使用するユーザーにアクティビティを配信したい場合、アクティビティ図でそのデバイスに最適なオーディエンスを選択します。Mobile Web Composer を使用して、そのデバイスのアクティビティのページを編集します。デジタルエクスペリエンス全体にわたってアクティビティを実行したい場合で、すべてのデバイスで良好な見た目になるようにする場合、ターゲティングを適用せず、モバイルビューポートを使用して各スクリーンサイズでアクティビティをプレビューしてください。
 
-レスポンシブサイトがある場合、通常、サイトは、特定の画面サイズのデバイスでアクセスされると、異なるビューで開くようにデザインされています。新しいビューをトリガーするこれらの画面サイズは、CSS ブレークポイントとも呼ばれます。CSSブレークポイントは、Webサイトのコンテンツが訪問者の幅に応じて応答し、デバイスに対して最適なレイアウトを表示するポイントです。 CSSブレークポイントは、 [メディアクエリ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
+レスポンシブサイトがある場合、通常、サイトは、特定の画面サイズのデバイスでアクセスされると、異なるビューで開くようにデザインされています。新しいビューをトリガーするこれらの画面サイズは、CSS ブレークポイントとも呼ばれます。CSSブレークポイントは、Webサイトのコンテンツが訪問者の幅に応じて応答し、デバイスに対して最適なレイアウトを表示するポイントです。 CSSブレークポイントは、[メディアクエリ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)とも呼ばれます。
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. ディスプレイの上部にあるビューポートをクリックして、各画面サイズのビューを開きます。
+CSSブレークポイントを[!DNL Target]に保存して、定義した各表示に対してエクスペリエンスをプレビューできるようにします。 これらの各エクスペリエンスは、[!DNL Target]インターフェイスのモバイルビューポートに表示されます。 ディスプレイの上部にあるビューポートをクリックして、各画面サイズのビューを開きます。
 
 サイトがレスポンシブでない場合、アクティビティが特定のデバイスをターゲットにしていれば、引き続き Mobile Web Composer を使用してサイトを表示できます。
 
@@ -86,16 +86,16 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >エクスペリエンスはモバイルビューポート内で編集できますが、これらの変更は、作業中のビューポートだけでなく、すべてのビューポートとデバイスに適用されます。 同様に、通常のデスクトップビューでのエクスペリエンスの編集は、そのデスクトップビューだけでなく、すべての画面サイズのページを変更します。現在は、ビューポート専用のページの変更はサポートしていません。
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## モバイルビューポート設定{#task_B4B161499DC0470584ED922A4D20FCAB}
 
 エクスペリエンスを作成する際に、使用可能にするモバイルビューポートを設定します。
 
-1. **[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
-1. 新しいモバイルビューポートを追加するには、[ **[!UICONTROL モバイルビューポート設定]** ]セクションでをクリックし ****&#x200B;追加ます。
+1. **[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
+1. 新しいモバイルビューポートを追加するには、**[!UICONTROL モバイルビューポート設定]**&#x200B;セクションで、**[!UICONTROL 追加]**&#x200B;をクリックします。
 
    ![追加ビューポート](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   既存のモバイルビューポートの設定を変更するには、そのビューポートを選択し、[!UICONTROL 編集]（鉛筆）アイコンをクリックします。
 
 1. モバイルビューポートの名前を入力します。
 
@@ -115,7 +115,7 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
    * Symbian
    * BlackBerry
 
-   [拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、 は、ページを表示する際にデバイスをエミュレートします。[!DNL Target]If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   [拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、 は、ページを表示する際にデバイスをエミュレートします。[!DNL Target]例えば、レスポンシブサイトにiOSとは異なるAndroidのルック&amp;フィールがある場合、[!DNL Target]はその動作を模倣します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -123,11 +123,11 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >使用中のモバイルビューポートを削除しようとすると、次のメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## レスポンシブエクスペリエンスの作成{#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+モバイル追加ビューポートを[!DNL Target]アクティビティに送信して、モバイル画面用のレスポンシブエクスペリエンスを作成します。
 
-1. [必要なアクティビティを作成します](/help/c-activities/activities.md)。
+1. [目的のアクティビティ](/help/c-activities/activities.md)を作成します。
 1. Visual Experience Composer で、**[!UICONTROL 設定]**（歯車）アイコンをクリックし、「**[!UICONTROL モバイルビューポートを追加]**」を選択します。
 
    ![「追加モバイルビューポート」オプション](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![方向オプション](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## 使用例：ターゲット2 iPhoneバージョン{#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 この使用例は、2つのiPhoneバージョンに対してエクスペリエンスを設定する方法を示します。iPhone 6およびiPhone 6 Plus。
 
-1. **[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. **[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
+1. **[!UICONTROL モバイルビューポート設定]**&#x200B;セクションで、iPhone 6およびiPhone 6 plusのモバイルビューポートを作成します。
 
    各ビューポートで次の設定を使用します。
 
@@ -180,7 +180,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer（2／2）（7：29） ![概要バッジ](/help/assets/overview.png)
+### Visual Experience Composer（2／2）（7：29）  ![概要バッジ](/help/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 
@@ -193,7 +193,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target ![概要バッジのアカウント設定](/help/assets/overview.png)
+### Adobe Targetのアカウント設定![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、4:40から始まるモバイルビューポートの設定に関する情報が説明されています。
 
