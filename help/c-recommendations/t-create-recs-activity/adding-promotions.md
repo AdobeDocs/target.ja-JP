@@ -1,10 +1,10 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type
+keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 title: Adobe Target Recommendations デザインにプロモーションを追加します。
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # ![PREMIUM](/help/assets/premium.png) プロモーションの追加
 
-プロモーション項目を追加して、Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
+プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 
 >[!IMPORTANT]
 >
@@ -58,15 +58,13 @@ ht-degree: 60%
    * 「**[!UICONTROL コレクションをプロモート]**」を選択し、プロモーションする項目のコレクションを選択します。
 
       プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
-   「プ **[!UICONTROL ロモーションタイプ]** 」に「品目 **[!UICONTROL リスト]**」を選択した場合は、必要に応じて「品目順序の **[!UICONTROL ランダム化]** 」チェックボックスをオンにします。
+   「プロモーションタイプ **[!UICONTROL 」に「品目]** リスト **[!UICONTROL 」を選択した場合は、必要に応じて「品目順序]**&#x200B;のランダム化 **** 」チェックボックスをオンにできます。
 
-   項目 [!UICONTROL リストのデフォルトの並べ替え順は] 、ターゲットのUIまたはAPIで入力した順序に基づきます。
-
-   If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   項目 [!UICONTROL リストのデフォルトの並べ替え順は] 、ターゲットのUIまたはAPIで入力した順序に基づきます。 If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
 
    エンティティに属性がない場合（製品を販売しない場合など）は、 `entity.value``entity.value` 属性に数値（発行日など）を渡すことができます。 この場合、最新の投稿日に基づいて、プロモーションされた項目を降順でプロモーションできます。 属性は `entity.value` 重複型です。文字列は受け付けません。
 
-   「属性 [!UICONTROL 別に] プロモート」または「コレクションをプロモート」オプションを選択した場合、順序をランダム化するオプションは使用できません  。
+   「属性 **[!UICONTROL 別に]** プロモート」または「コレクションをプロモート」オプションを選択した場合、順序をランダム化するオプションは使用できません **** 。
 
    「属性別に [!UICONTROL プロモート」または「コレクションをプロモート」] (Promote by Attribute [!UICONTROL )オプションを使用して特定の項目をプロモートする場合、項目が表示されるデフォルトの順序は、]`entity.value` 属性に基づき、数値の降順です。
 
@@ -75,9 +73,9 @@ ht-degree: 60%
    | プロモーションタイプ | デフォルトの並べ替え | バックアップの並べ替え | 動的フィルタリングオプション |
    | --- | --- | --- | --- |
    | 項目のリスト | ターゲットUI/APIに入力された注文 | ランダム（UI/APIで選択された場合） | × |
-   | 属性別にプロモート | entity.value（降順） | リクエストごとにランダム化（entity.value属性が存在しない場合） | × |
-   | コレクションの更新 | entity.value（降順） | リクエストごとにランダム化（entity.value属性が存在しない場合） | × |
+   | 属性別にプロモート | `entity.value` （降順） | リクエストごとにランダム化( `entity.value` 属性が存在しない場合) | ○ |
+   | コレクションの更新 | `entity.value` （降順） | リクエストごとにランダム化( `entity.value` 属性が存在しない場合) | × |
 
-1. Click **[!UICONTROL Save.]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 プロモーションはアクティビティのすべてのエクスペリエンスに適用されます。
