@@ -18,7 +18,7 @@ ht-degree: 90%
 
 CSS セレクターの基本的な情報については、Mozilla Developer Network（MDN）にある[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についてのドキュメントを参照してください。
 
-アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL 管理/Visual Experience Composerをクリックし]**、希望のCSSセレクターを選択します。
+アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。**[!UICONTROL 管理/Visual Experience Composer]**&#x200B;をクリックし、希望のCSSセレクターを選択します。
 
 ![](assets/css_selectors.png)
 
