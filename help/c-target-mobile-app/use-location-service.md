@@ -18,6 +18,6 @@ ht-degree: 0%
 
 Adobe Experience Platformロケーションサービス(Location Service)は、場所を認識するモバイルアプリで、豊富で使いやすいSDKインターフェイスを使用し、目標地点(POI)の柔軟なデータベースを伴い、場所のコンテキストを理解できる地域サービスです。
 
-場所サービスをターゲットと共に使用して、 [Adobe Experience Platform Launchのルールを活用し](https://experienceleague.adobe.com/docs/launch/using/overview.html) 、場所データをAdobe TargetSDKイベントに添付できます。
+ロケーションサービスをターゲットと共に使用して、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)のルールを活用し、PlacesデータをAdobe TargetSDKイベントに添付できます。
 
-詳細については、『 [Adobe Experience Platformロケーションサービス』ガイドの「Adobe Targetでロケーションサービスを](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) 使用する [」を参照してください](https://experienceleague.adobe.com/docs/places/using/home.html)。
+詳しくは、[Adobe Experience Platformロケーションサービスガイド](https://experienceleague.adobe.com/docs/places/using/home.html)の[Adobe Targetでロケーションサービスを使用](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)を参照してください。
