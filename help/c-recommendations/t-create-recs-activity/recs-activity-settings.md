@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの設定{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+[!DNL Adobe Target]内の[!UICONTROL Recommendations]アクティビティを記述し、制御するために使用できる設定についての情報です。
 
 ![Recommendations 目標と設定ページ](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 `-`
 `@`
 
-[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、[!DNL Target Standard/Premium]と[!UICONTROL Recommendationsクラシック]の両方に表示されます。
 
 ## 目的
 
@@ -55,7 +55,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 
 ## レポート設定
 
-* **レポートソース：** レポートソースを選択します。 [!DNL Adobe Target] または [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。 アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
+* **レポートソース：レポートソースを** 選択します。 [!DNL Adobe Target] または [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
 * **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
 * **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。
 * **レポート対象のオーディエンス：**&#x200B;レポートをフィルタリングする際に使用できるオーディエンスを定義します。
