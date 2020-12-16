@@ -57,7 +57,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 [!UICONTROL スタイル]パネルを使用すると、選択した要素の既存のスタイルの値を表示または編集できます。その他のスタイルを追加することもできます。
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+[!UICONTROL スタイル]パネルにアクセスするには、VEC内でページ要素をクリックし、**[!UICONTROL 編集]**/**[!UICONTROL スタイル]**&#x200B;をクリックします。
 
 [!UICONTROL スタイル]パネルは VEC の右側に表示されます。このパネルには、編集または選択した要素に追加できるスタイルのリストが含まれています。リアルタイム CSS エディターを使用すると、カスケーディングスタイルシート（CSS）を使用している場合や開発者からコードを受け取った場合に、変更を表示したりスタイルを追加したりできます。
 
@@ -114,7 +114,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    余白は正と負の値をサポートします。
 
-   Target では、rem、pc、em などの他のサイズ単位もサポートします。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target では、rem、pc、em などの他のサイズ単位もサポートします。これらのユニットについて詳しくは、[WebスタイルシートCSSのヒントとテクニック](https://www.w3.org/Style/Examples/007/units.en.html)を参照してください。
 
 * **パディング**
 
@@ -124,7 +124,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    パディングは 0 以上の幅に対応します。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   ターゲットは、rem、pc、emなど、[他のサイズの単位](https://www.w3.org/Style/Examples/007/units.en.html)もサポートします。
 
 * **境界線**
 
@@ -138,11 +138,11 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    境界線は 0 以上の幅に対応します。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   ターゲットは、rem、pc、emなど、[他のサイズの単位](https://www.w3.org/Style/Examples/007/units.en.html)もサポートします。
 
 * **位置**
 
-   選択した要素を現在の位置から移動します。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   選択した要素を現在の位置から移動します。要素の上、下、左、右、および[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)の位置を変更できます。
 
    「[!UICONTROL 静的]」ドロップダウンリストをクリックして、次の位置オプションから選択します。
 
@@ -159,7 +159,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    位置は正と負の値をサポートします。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   ターゲットは、rem、pc、emなど、[他のサイズの単位](https://www.w3.org/Style/Examples/007/units.en.html)もサポートします。
 
 * **サイズ**
 
