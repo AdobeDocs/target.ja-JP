@@ -18,29 +18,29 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
 
 [!UICONTROL 新しい条件を作成]画面を表示するには、複数の方法があります。一部の画面オプションは、画面の表示方法によって異なります。
 
-* **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面で、条件を作成 **[!UICONTROL /条件を作成をクリックし]******&#x200B;ます。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
-* Visual Experience Composer [!DNL Recommendations] (VEC)を使用してアクティビティを作成する場合、ページ上の要素を選択し、「Recommendationsの置き換え、Recommendationsの置き換え、の挿入、Recommendationsの [!UICONTROL 挿入」をクリックした後、すぐに「基準の] 選択 」画面に移動します。 その後、使用可能な条件を選択するか、「条件を **[!UICONTROL 作成]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用できるように条件を保存できます。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
+* **[!UICONTROL Recommendations]**/**[!UICONTROL 条件]**&#x200B;ライブラリ画面で、**[!UICONTROL 条件を作成]**/**[!UICONTROL 条件を作成]**&#x200B;をクリックします。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
+* [!UICONTROL Visual Experience Composer](VEC)を使用して[!DNL Recommendations]アクティビティを作成する場合、ページ上の要素を選択し、[!UICONTROL Recommendationsを置き換え]、[!UICONTROL Recommendationsを]の前に挿入、または[!UICONTROL Recommendationsを]の後に挿入します。 次に、使用可能な条件を選択するか、「**[!UICONTROL 条件を作成]**」をクリックします。 新しい条件を作成する場合は、他の[!DNL Recommendations]アクティビティで使用するために条件を保存するオプションがあります。 詳しくは、[Recommendationsアクティビティを作成する](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)を参照してください。
+* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。[!UICONTROL 条件を選択]画面で、「**[!UICONTROL 条件を作成]**」をクリックします。 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
-次の手順は、最初の方法で  新しい条件を作成画面にアクセスすることを前提としています。 **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面。
+次の手順は、最初の方法を使用して[!UICONTROL 新しい条件を作成]画面にアクセスすることを前提としています。**[!UICONTROL Recommendations]** > **[!UICONTROL 条件]**&#x200B;ライブラリ画面。
 
-1. **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]**&#x200B;をクリックします。
+1. **[!UICONTROL Recommendations]**/**[!UICONTROL 条件]**&#x200B;をクリックします。
 
-1. 条件 **[!UICONTROL を]** 作成 **[!UICONTROL /カスタム条件を]**&#x200B;アップロードをクリックします。
+1. **[!UICONTROL 条件を作成]**/**[!UICONTROL カスタム条件をアップロード]**&#x200B;をクリックします。
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. 「[基本情報](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info)」セクションの情報を入力します。
 
-1. 「 [データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 」セクションの情報を入力します。
+1. 「[データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)」セクションに情報を入力します。
 
-1. Fill in the information in the [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
+1. 「[コンテンツ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)」セクションに情報を入力します。
 
-1. （条件付き）「 [コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) 」セクションの情報を入力します。
+1. （条件付き）「[コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)」セクションの情報を入力します。
 
-1. （条件付き）「インクルー [ジョンルール](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 」セクションの情報を入力します。
+1. （条件付き）「[インクルージョンルール](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)」セクションの情報を入力します。
 
-1. （条件付き）「 [属性の重み付け](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 」セクションの情報を入力します。
+1. （条件付き）「[属性の重み付け](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting)」セクションの情報を入力します。
 
-1. 「 **[!UICONTROL CSVを]** アップロード **[!UICONTROL 」セクションで、CSVファイルの]** 場所を選択します。
+1. 「**[!UICONTROL CSV]**&#x200B;をアップロード」セクションで、CSVファイルの&#x200B;**[!UICONTROL 場所]**&#x200B;を選択します。
 
    ![「CSV」セクションのアップロード](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
    次の 2 つの場所のオプションがあります。
 
    * **FTP：** FTP サーバーから CSV ファイルをアップロードするには、「**[!UICONTROL FTP]**」を選択し、必要な情報を入力します。CSV ファイルを安全に送信するために FTPS プロトコルを使用する、SSL の使用を選択することもできます。
-   * **URL:** URLからCSVファイルをアップロードするには、「 **[!UICONTROL URL]**」を選択し、フィードURLを入力します。
+   * **URL:URL** からCSVファイルをアップロードするには、「 **[!UICONTROL URL]**」を選択し、フィードURLを入力します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -67,7 +67,7 @@ CSV ファイルをアップロードしてレコメンデーションをカス�
 
 エラーが起こらなかった場合のアップロードの流れは、スケジュール設定／フィードファイルのダウンロード／読み込み／成功となります。
 
-The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+[!DNL Target]がアップロードで問題が発生した場合に発生する可能性があるエラーメッセージは、次のとおりです。
 
 | エラーメッセージ | 詳細 |
 |--- |--- |
@@ -78,7 +78,7 @@ The following are possible error messages you might receive if [!DNL Target] enc
 | ディレクトリが見つかりません | サーバーに存在するディレクトリを指定します。 |
 | ファイルが見つかりません | サーバー上の指定したディレクトリに存在するファイルの名前を指定します。 |
 
-## トレーニングビデオ：Recommendations の条件の作成（12:33） ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendations の条件の作成（12:33）  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには次の情報が含まれています（カスタム条件のアップロードの詳細は、11:43から始まります）。
 
