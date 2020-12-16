@@ -32,12 +32,12 @@ ht-degree: 72%
 
 ## Adobe Target - チュートリアルとビデオ
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+[Adobe TargetExperience League](https://guided.adobe.com/#recommended/solutions/target)ページにあるターゲットの機能を説明するハウツービデオとチュートリアルの集まり。
 
 ![Experience League ビデオ](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target チュートリアル {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+[!DNL Target]の概念とツールを紹介するビデオは、[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)ページで視聴できます。
 
 ![Adobe Target チュートリアル](/help/c-intro/assets/adobe-target-tutorials-new.png)
