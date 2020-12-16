@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # 第4章：ターゲットの使用に関するヒント
 
-多くの [!DNL Target][!DNL Target] ユーザーとの取り組みに基づき、お客様のソリューションからより多くの価値を得る方法を観察してきました。 この章で取り上げた多数のヒントにまとめました。 これらのアイデアをすぐに使用する準備はできていないかもしれませんが、このリストを続けてください。 ソリューションの使用経験が増え、プログラムの成熟度が増えれば増えるほど、これらのヒントがどのようにしてより多くの成果を上げられるかを確認でき [!DNL Target]ます。
+多くの[!DNL Target]ユーザーとの取り組みに基づき、[!DNL Target]ソリューションからより多くの価値を得る方法を観察しました。 この章で取り上げた多数のヒントにまとめました。 これらのアイデアをすぐに使用する準備はできていないかもしれませんが、このリストを続けてください。 ソリューションの使い勝手が高く、プログラムが成長すればするほど、[!DNL Target]を使ってより多くのことを成し遂げる上で役立つヒントがわかります。
 
 ## ヒント1:訪問者のプロファイルに追加のデータを増補することで、パーソナライゼーションを深めます。
 
-データをすぐに使用してエクスペリエンスをパーソナライズするこ [!DNL Target] とができます。 しかし、組み合わせに独自のデータを追加することで、より深くパーソナライズできます。 からの履歴データとからのリアルタイムデータを使用してプロファイル [!DNL Adobe Analytics] を拡張したり、データからリアルタイムデータを取得したりでき [!DNL Adobe Audience Manager]ます。 また、のPeopleコアサービスの機能である顧客属性を使用して、CRMデータ、サードパーティのパートナーデータ、サードパーティの購入データ [!DNL Adobe Experience Cloud]を簡単に取り込むこともでき [!DNL Target]ます。
+[!DNL Target]データをすぐに使って、エクスペリエンスをパーソナライズできます。 しかし、組み合わせに独自のデータを追加することで、より深くパーソナライズできます。 [!DNL Adobe Analytics]の履歴データと[!DNL Adobe Audience Manager]のリアルタイムデータを使用してプロファイルを拡張できます。 [!DNL Adobe Experience Cloud]のPeopleコアサービスの機能である顧客属性を使用して、CRMデータ、サードパーティのパートナーデータ、およびサードパーティの購入データを[!DNL Target]に簡単に取り込むこともできます。
 
-例えば、POS（販売時点管理システム）の購入データを訪問者プロファイルに関連付けることができます。 そのためには、最大200個のオフライン変数を含むCSVファイルを作成し、ファイルのアップロード [!DNL Adobe Experience Cloud] 経由で直接にアップロードするか、FTPを使用してファイルをホストし、定期的に更新するようにスケジュールします。 顧客属性を取得したら、そ [!DNL Adobe Experience Cloud]れらを分析、テスト、パーソナライゼーションのために使用できるソリューション [!DNL Experience Cloud] や [!DNL Adobe Analytics][!DNL Target] ソリューションにマッピングできます。
+例えば、POS（販売時点管理システム）の購入データを訪問者プロファイルに関連付けることができます。 これを行うには、最大200個のオフライン変数を含むCSVファイルを作成し、ファイルのアップロードを介して直接[!DNL Adobe Experience Cloud]にアップロードするか、FTPを使用してファイルをホストし、定期的に更新するようにスケジュールします。 顧客属性が[!DNL Adobe Experience Cloud]に配置されたら、[!DNL Adobe Analytics]や[!DNL Target]などの[!DNL Experience Cloud]ソリューションにマッピングし、分析、テスト、パーソナライゼーションに利用できるようにします。
 
-詳しい手順については、 [カスタム属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) (Custom attributes)を参照してください。
+詳しい手順については、[カスタム属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)を参照してください。
 
-**知っていること**:これ [!DNL Target] は、異なるテクノロジーで適切に機能するオープンで不可知的なプラットフォームなので、CRMや購入したデータを様々な方法で追加できます。 つまり、組織に最も適した方法を選択できます。
+**知っていること**:異な [!DNL Target] るテクノロジーで適切に機能するオープンで不可知的なプラットフォームなので、CRMや購入したデータを様々な方法で追加できます。つまり、組織に最も適した方法を選択できます。
 
-詳しくは、 [ターゲットにデータを取り込む方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) を参照してください。
+詳しくは、[ターゲット](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)にデータを取り込む方法を参照してください。
 
 ## ヒント2:ターゲットのオーディエンスを他のAdobe Experience Cloudオーディエンスと混ぜ合わせて、より詳細にパーソナライズできます。
 
-様々な [!DNL Adobe Experience Cloud] ソリューションに存在するオーディエンスを混合すると、顧客に対する理解がより広がり、より詳細にパーソナライズできます。 例えば、リアルタイムのオーディエンスデータ [!DNL Target] を提供しますが、は履歴オーディエンスデータ [!DNL Adobe Analytics] を提供します。 この2つを組み合わせると、顧客の行動が一貫している時期や、新しい行動に対して行動する機会が生じた時期を特定するのに役立ちます。 アクティビティを作成する場合は、「すべての訪問者」の横のドロップダウンメニューをクリックするだけです。 次に、最大20個のオーディエンスのチェックボックスをオンにし、「複数のオーディエンスを結合」をクリックし、「保存」をクリックします。
+異なる[!DNL Adobe Experience Cloud]ソリューションに存在するオーディエンスをブレンドすると、顧客に関するより幅広い理解を深め、より詳細にパーソナライズすることができます。 例えば、[!DNL Target]はリアルタイムオーディエンスデータを提供しますが、[!DNL Adobe Analytics]は履歴オーディエンスデータを提供します。 この2つを組み合わせると、顧客の行動が一貫している時期や、新しい行動に対して行動する機会が生じた時期を特定するのに役立ちます。 アクティビティを作成する場合は、「すべての訪問者」の横のドロップダウンメニューをクリックするだけです。 次に、最大20個のオーディエンスのチェックボックスをオンにし、「複数のオーディエンスを結合」をクリックし、「保存」をクリックします。
 
-詳しい手順については、 [複数のオーディエンスの組み合わせ](/help/c-target/combining-multiple-audiences.md) を参照してください。
+詳しい手順については、[複数のオーディエンスの組み合わせ](/help/c-target/combining-multiple-audiences.md)を参照してください。
 
-**知っていること**: [!DNL Adobe Audience Manager] オーディエンスは、で [!DNL Target] 自動的に使用できます。 しかし、 [!DNL Adobe Analytics] オーディエンスの共有には、少し手動で設定する必要があります。 でのオーディエンス構築プロセス中に、[Experience Cloudオーディエンスにする]というラベルの付いたボックスをオンに [!DNL Analytics]します。 次に、から[Experience Cloudオーディエンスのインポート]をクリック [!DNL Target]します。
+**知っていること**: [!DNL Adobe Audience Manager] オーディエンスは、 [!DNL Target] 自動的に使用できます。しかし、[!DNL Adobe Analytics]オーディエンスの共有には、少し手動のセットアップが必要です。 [!DNL Analytics]でのオーディエンス構築プロセス中に、「これをExperience Cloudオーディエンスにする」というラベルの付いたボックスを選択するだけです。 次に、[!DNL Target]から「Experience Cloudオーディエンスを読み込み」をクリックします。
 
 ## ヒント3:ターゲットからデータをエクスポートし、サードパーティのツールで使用できます。
 
-応答トークンを使用すると、管理者はサードパーティのツールから容易にデータを取得し [!DNL Target] たり、サードパーティのツールにデータを取り込んだりできます。 これは、調査ツールで収集されたデータにデータを追加する場合に便利です。 例えば、調査が訪問者のサンプルにエクスペリエンス「9」、別のスコアが「4」のスコアを表示した場合、データを使用して、エクスペリエンスAの閲覧者とエクスペリエンスBの閲覧者を確認できます。応答トークンを使用して、データを内部Data Warehouseにエクスポートできます。 [!DNL Target] 「管理」をクリックし、目的のレスポンストークンの横にあるスイッチをオンの位置に切り替えます。 次に、アクティビティを作成します。 その後、データをサードパーティベンダーに転送する準備が整います。 デバッグツールを使用して、がデータを書き出し [!DNL Target] ていることを確認できます。
+応答トークンを使用すると、管理者は[!DNL Target]からサードパーティのツールに簡単にデータを取得できます。 これは、調査ツールで収集されたデータにデータを追加する場合に便利です。 例えば、調査が訪問者のサンプルに「9」、別のスコアに「4」というエクスペリエンスを表示した場合、データを使用して、エクスペリエンスAの閲覧者とエクスペリエンスBの閲覧者を確認できます。応答トークンを使用して、[!DNL Target]データを内部Data Warehouseにエクスポートできます。 「管理」をクリックし、目的のレスポンストークンの横にあるスイッチをオンの位置に切り替えます。 次に、アクティビティを作成します。 その後、データをサードパーティベンダーに転送する準備が整います。 [!DNL Target]がデバッグツールを使ってデータを書き出していることを確認できます。
 
-詳しい手順については、「 [応答トークン](/help/administrating-target/response-tokens.md) 」を参照してください。
+詳細な手順については、[応答トークン](/help/administrating-target/response-tokens.md)を参照してください。
 
 **ヘルプヒント**:管理者がサードパーティに関連付けられた応答トークンをアクティブ化する前に、開発者は、そのサードパーティ会社とのパートナーシップを設定する必要があります。
 
-詳しい手順については、「 [応答トークン](/help/administrating-target/response-tokens.md) 」を参照してください。
+詳細な手順については、[応答トークン](/help/administrating-target/response-tokens.md)を参照してください。
 
-**最初に実行**:at.jsバージョン1.1以降を使用していることを確認します。 以前のバージョンを使用している場合は、応答トークンは表示されますが、at.jsでは使用できません。
+**最初に実行**:at.jsバージョン1.1以降を使用していることを確認します。以前のバージョンを使用している場合は、応答トークンは表示されますが、at.jsでは使用できません。
 
 ## ヒント4:これらの主要変数からオーディエンスを作成し、アクティビティの価値を高めます。
 
@@ -62,45 +62,45 @@ ht-degree: 0%
 
 安全性を維持しながら、組織のデータを容易に操作できるようにします。 [!DNL Target Premium] 管理者は、様々な社内チームや社外チームに与えるアクセスレベルを制御できます。
 
-詳しくは、 [Enterpriseユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md) を参照してください。
+詳しくは、[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 
 **ヘルプヒント**:ユーザーを追加する際に、以前にチームメンバーの名前が組織に追加されていない場合（サードパーティのエージェンシー従業員の場合など）は、電子メールアドレスとパスワードを入力すると、チームのワークスペースに招待する電子メールが送信されます。
 
-Target Standardを使用する場合 引き続き、読み取り専用、編集者、承認者の役割を持つユーザーに対して、3つのレベルのアクセス権 [を](/help/administrating-target/c-user-management/c-user-management/user-management.md) 割り当てることができます。
+Target Standardを使用する場合 読み取り専用、編集者、承認者の役割を持つユーザーには、[3つのレベルのアクセス](/help/administrating-target/c-user-management/c-user-management/user-management.md)を割り当てることができます。
 
 ## ヒント6:遍歴の各ページでオファーのパフォーマンスをテストし、顧客の遍歴を通してどのように測定するかを知る。
 
 送料無料などのオファーが、Webサイト上の複数のページで行われる顧客の遍歴の中でどのように動作するかを確認できます。
 
-詳しい手順については、 [複数ページのアクティビティ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) （英語のみ）を参照してください。
+詳細な手順については、[複数ページのアクティビティ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)を参照してください。
 
-**ヘルプヒント**:ページ範囲を指定した後にURLを変更すると、エクスペリエンスがリセットされます。 指定したバリエーションは表示されなくなります。 URLを変更する必要がある場合は、エクスペリエンスを再定義する必要があります。
+**ヘルプヒント**:ページ範囲を指定した後にURLを変更すると、エクスペリエンスがリセットされます。指定したバリエーションは表示されなくなります。 URLを変更する必要がある場合は、エクスペリエンスを再定義する必要があります。
 
 ## ヒント7:様々なオーディエンスでオファーをテストし、オーディエンスに異なる環境設定があるかどうかを確認します。
 
 エクスペリエンスバージョンを使用すると、1つのテストを必要な数のオーディエンスに対して実行できます。 例えば、米国、英国、米国のお客様向けの画像や通貨バリエーションを含む、送料無料のバナー広告を、3つの異なるオーディエンスに対するテストを実行することなく作成できます。
 
-手順については、Adobe TargetのA/B Test [and](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) Experienceバージョンの [複数のエクスペリエンスオーディエンスを参照してください](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 。
+詳しい手順については、[A/Bテスト](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)の複数のエクスペリエンスオーディエンスと、[Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)のエクスペリエンスバージョンを参照してください。
 
 ## ヒント8:同様のページ上でアクティビティエクスペリエンスを複製することで、時間を節約できます。
 
 新しいボタンの色など、1つのWebページにバリエーションを作成し、同じテンプレートを共有するすべてのページに自動的に適用します。 ページを指定することも、Webサイト内の類似するすべてのページにバリエーションを適用することもできます。
 
-詳しい手順については、「類似のページに同じエクスペリエンスを [含める](/help/c-experiences/c-visual-experience-composer/temtest.md) 」を参照してください。
+詳しい手順については、[類似のページに同じエクスペリエンスを含める](/help/c-experiences/c-visual-experience-composer/temtest.md)を参照してください。
 
 ## ヒント9:1回限りのオーディエンスを作成することで、オーディエンスライブラリを整理して整理します。
 
 予期しない天気イベントの影響を受けるお客様など、ターゲットしないとわかっているセグメントをターゲットにしている場合は、1回限りのオーディエンスを作成することで、オーディエンスライブラリを煩雑にすることなく作業を完了できます。 これにより、何度も繰り返し使用するオーディエンスを簡単に見つけることができます。
 
-詳しい手順については、 [アクティビティのみのオーディエンスの作成を参照してください](/help/c-target/creating-activity-only-audience.md) 。
+詳しい手順については、[アクティビティのみのオーディエンス](/help/c-target/creating-activity-only-audience.md)の作成を参照してください。
 
-**要求度の高い機能**:お客様から、単一使用のオーディエンスがオーディエンスライブラリに自動的に保存されないようにするようにお願いされました。 現在は、手動でオーディエンスを削除してライブラリを整理する必要はありません。
+**要求度の高い機能**:お客様から、単一使用のオーディエンスがオーディエンスライブラリに自動的に保存されないようにするようにお願いされました。現在は、手動でオーディエンスを削除してライブラリを整理する必要はありません。
 
 ## ヒント10:標準的なQAプロセスを実行しないことで、単純なテストを迅速に実行できます。
 
 標準的なQAプロセスが完了するまで、アクティビティの準備が整ってから数週間待つほど悪いことはありません。 ほとんどのアクティビティに対してQAを行うには、いくつかのQAリンクを同僚に渡して様々なブラウザーで試すことができます。 サイトの機能を大幅に変更する取り組みに対して、より多くのQAテストを実施する可能性が高いでしょうが、実際には、これらのアクティビティの数を減らし、より基本的なアクティビティの数を増やす必要があります。 より優れた権限制御を追加して、より少ない人が物を完全に生き延ばすことができるようにすることで、意味のある制限も加えられ、速度と効率を犠牲にすることなく、必要なことを達成できます。 ITリソースを指定して、QAプロセスを適時に監視することもできます。
 
-詳しい手順については、 [アクティビティQA](/help/c-activities/c-activity-qa/activity-qa.md) (QA)を参照してください。
+詳しい手順については、[アクティビティQA](/help/c-activities/c-activity-qa/activity-qa.md)を参照してください。
 
 ## ヒント11:高トラフィックのページでテストを実行し、統計的有意性により早く到達できるようにします。
 
@@ -110,7 +110,7 @@ Target Standardを使用する場合 引き続き、読み取り専用、編集�
 * ページのコンバージョン率は何か。
 * テストを完了と確信を持って呼び出す前に、テストを実行する必要がある期間はどのくらいですか。
 
-**役立つヒント**:ターゲットの [サンプルサイズ計算ツールを使用して](https://docs.adobe.com/content/target-microsite/testcalculator.html) 、テストを成功させるために必要なサンプルサイズを決定します。
+**役立つヒント**:ターゲットの [サンプルサイズ](https://docs.adobe.com/content/target-microsite/testcalculator.html) 計算子を使用して、テストを成功させるために必要なサンプルサイズを判断します。
 
 ## ヒント12:よりシンプルなテストを設計し、作成および実装できるようにします。
 
