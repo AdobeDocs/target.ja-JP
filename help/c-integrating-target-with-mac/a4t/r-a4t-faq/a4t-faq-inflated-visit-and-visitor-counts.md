@@ -38,7 +38,7 @@ ht-degree: 100%
 
 詳細については、「[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)」の「部分的なデータが生じる原因」を参照してください。
 
-## 部分的なデータヒットがあります。データをクリーンアップするにはどうすればよいですか？ {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## 部分的なデータヒットがあります。データをクリーンアップするにはどうすればよいですか？  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 仮想レポートスイートを作成して、履歴の部分的なデータをレポートから除外できます。
 
