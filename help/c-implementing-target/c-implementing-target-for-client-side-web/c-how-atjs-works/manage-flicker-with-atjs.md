@@ -18,7 +18,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 ちらつきは、デフォルトコンテンツがアクティビティコンテンツに置き換わる前に訪問者に一時的に表示される際に発生します。ちらつきは、訪問者を混乱させる可能性があるので、望ましくありません。
 
-## 自動作成されたグローバルmboxの使用 {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## 自動作成されたグローバルmbox {#section_C502170D551C4F52AAFD8E82C41BB63A}の使用
 
 「[グローバル mbox を自動作成](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13)」設定を at.js 設定時に有効にすると、at.js はページの読み込み時に不透明度の設定を変更し、ちらつきを制御します。at.js が読み込まれると、その要素の不透明度の設定が`<body>`「0」に変更され、そのページが最初は訪問者に対して表示されなくなります。Target からの応答を受信した、または Target のリクエストにエラーが検出された場合、at.js は不透明度を「1」にリセットします。これにより、訪問者は、アクティビティのコンテンツが適用された後にのみページを表示できます。
 
@@ -26,7 +26,7 @@ Target at.js JavaScript ライブラリでページやアプリの読み込み�
 
 不透明度を 0 に設定すると、ちらつきを回避するためにページコンテンツは非表示になりますが、ブラウザーは引き続きページをレンダリングし、CSS、画像などの必要なアセットをすべて読み込みます。
 
-不透明度 0 が実装で機能しない場合は、`bodyHiddenStyle` をカスタマイズし、`body {visibility:hidden !important}` に設定することで、ちらつきを制御することもできます。You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
+不透明度 0 が実装で機能しない場合は、`bodyHiddenStyle` をカスタマイズし、`body {visibility:hidden !important}` に設定することで、ちらつきを制御することもできます。値body `{opacity:0 !important}`または`body {visibility:hidden !important}`のいずれかを使用できます。どちらか一方が特定の状況に最適です。
 
 次の図は、本文非表示と本文表示の呼び出しを at.js 1.*x* と at.js 2.x の両方について示しています。
 
