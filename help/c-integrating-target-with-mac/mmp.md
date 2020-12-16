@@ -16,4 +16,4 @@ ht-degree: 78%
 
 Experience Cloud オーディエンスによって、Adobe Experience Cloud の複数のソリューションが Web サイトの訪問者に関する情報を交換、共有し、各ソリューションで同じデータを使用することが可能になります。
 
-詳しくは、『 [コアサービスユーザーガイド](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 』の「 *オーディエンス*」を参照してください。
+詳しくは、『*コアサービスユーザーガイド*』の[オーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)を参照してください。
