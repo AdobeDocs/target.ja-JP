@@ -30,7 +30,7 @@ mbox.js は `<head>` セクションの最後に配置し、その後に宣言�
 
 **拡張 Experience Composer は、アカウントレベル（アカウントで作成されるすべてのアクティビティで有効化）または個々のアクティビティレベルにて有効化が可能。**
 
-To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
+拡張Experience Composerをアカウントレベルで有効にするには、[!UICONTROL 管理/Visual Experience Composer]をクリックし、スイッチをオンの位置に切り替えます。
 
 Visual Experience Composer でアクティビティを作成する際に拡張 Experience Composer をアクティビティレベルで有効にするには、[!UICONTROL 設定／URL] をクリックし、スイッチをオンの位置に切り替えます。
 
