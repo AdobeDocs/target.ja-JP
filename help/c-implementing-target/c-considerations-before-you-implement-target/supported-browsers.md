@@ -20,7 +20,7 @@ TLS に関する追加の重要情報については、[TLS（トランスポー
 
 ## [!DNL Target]Standard／Premium インターフェイス{#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL Target] interface supports the following browsers and devices:
+[!DNL Target]インターフェイスは、次のブラウザーとデバイスをサポートしています。
 
 | デバイスタイプ | ブラウザーのバージョン |
 |--- |--- |
