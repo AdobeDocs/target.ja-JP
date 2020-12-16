@@ -22,7 +22,7 @@ ht-degree: 97%
 
 [!UICONTROL 自動ターゲット]と同様に、[!UICONTROL Automated Personalization] でも、先進のデータサイエンスアンサンブル手法であるランダムフォレストアルゴリズムを主要パーソナライゼーションアルゴリズムとして使用し、訪問者に表示する最適なエクスペリエンスを決定します。[!UICONTROL Automated Personalization は、テストの検出フェーズで重要になります。]また、多様な訪問者をターゲット設定する際に、機械学習で最も効果的なコンテンツを決定する場合にも便利です。時間の経過とともに、アルゴリズムは最も効果的なコンテンツを予測し、目標を達成する可能性が最も高いコンテンツを表示できるようになります。
 
-[!UICONTROL Automated Personalizationと] 自動ターゲットの違いについて詳しくは [!UICONTROL 、「]自動ターゲット [](/help/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。
+[!UICONTROL Automated Personalization]と[!UICONTROL 自動ターゲット]の違いについて詳しくは、[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 
 ファイルをサイトに実装することで、任意のコンテンツをクリックできるようになり、そこから、VEC（[!UICONTROL Visual Experience Composer]）を使用して、その領域の追加のコンテンツオプションを視覚的に作成および選択できるようになります。その後は、アルゴリズムが各訪問者に関して持っているすべての行動データに基づいて、コンテンツのどの要素を配信するかをそれぞれのケースで自動的に判断し、パーソナライズしたエクスペリエンスを提供します。[!UICONTROL Automated Personalization] は、訪問者の行動の変化に対応できるので、終了日の設定がなくても実行でき、継続的な改善やパーソナライゼーションができます。これは、「常時稼動」モードとも呼ばれます。テストを実行し、結果を分析し、それを踏まえて推奨結果を配信するという、標準的な A/B アクティビティの結果を実装する標準的な演算順序を踏まなくても、最適化による改善を具現化できます。
 
@@ -74,7 +74,7 @@ CRM 情報や顧客のチャーン傾向スコアなどのオフラインデー�
 
 自動的に収集され、[!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]のパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](/help/c-activities/t-automated-personalization/ap-data.md)」を参照してください。
 
-## ![概要バッジ](/help/assets/overview.png) ：トレーニングビデオアクティビティタイプ
+## ![概要](/help/assets/overview.png) badgeトレーニングビデオ：アクティビティタイプ
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!UICONTROL Automated Personalization に関する説明は 5:55 から始まります。]
 
