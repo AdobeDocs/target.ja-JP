@@ -18,19 +18,19 @@ ht-degree: 1%
 
 | APIタイプ | 何が可能か | ダウンロードリンク | その他の役立つリンク |
 | --- | --- | --- |--- |
-| 管理者 | アクティビティ、オーディエンス、オファー、およびその他のオブジェクト（エンティティ、基準、設計などを含む）を作成、変更、削除します。 [!DNL Recommendations] APIは管理APIの一種です。) [!DNL Recommendations] | <UL><li>[ターゲット管理APIポストマンコレクション](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[RecommendationsAPIポストマンコレクション](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) Adobe TargetTutorialsでのRecommendationsAPIの使用 ** |
-| 配信 | エンドユーザーに対して配信を行うた [!DNL Target] めに、最適化され、パーソナライズされたコンテンツを取得します。 | [ターゲット配信API Postmanコレクション](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
-| レポート | アクティビティ結果とその他のレポート結果を書き出します。 | レポートAPIは、 [ターゲット管理API Postmanコレクションに含まれています](https://developers.adobetarget.com/api/#admin-postman-collection)。 |  |
+| 管理者 | アクティビティ、オーディエンス、オファー、およびその他のオブジェクト（[!DNL Recommendations]エンティティ、条件、デザインなど）を作成、変更、削除します。 [!DNL Recommendations] APIは管理APIの一種です。) | <UL><li>[ターゲット管理APIポストマンコレクション](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[RecommendationsAPIポストマンコレクション](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) Adobe TargetTutorialsでRecommendations *APIを使用* |
+| 配信 | エンドユーザーに配信するために、最適化され、パーソナライズされたコンテンツを[!DNL Target]から取得します。 | [ターゲット配信API Postmanコレクション](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
+| レポート | アクティビティ結果とその他のレポート結果を書き出します。 | レポートAPIは、[ターゲット管理APIポストマンコレクション](https://developers.adobetarget.com/api/#admin-postman-collection)に含まれています。 |  |
 | プロファイル | Adobe Targetに保存されているユーザプロファイルを取得して変更します。 | [ターゲットプロファイルAPI Postmanコレクション](https://developers.adobetarget.com/api/#profiles) |  |
 
 >[!NOTE]
 >
->管理API（APIを含む）と [!DNL Target] 配信APIには、次のような重要な違いがあり [!DNL Recommendations][!DNL Target] ます。
+>[!DNL Target]管理API（[!DNL Recommendations] APIを含む）と[!DNL Target]配信APIには、次のような重要な違いがあります。
 >
->* 管理APIを使用すると、 [!DNL Target] UIで設定できる様々な設定を行うこ [!DNL Target] とができます。 管理者APIは認証が必要です。
+>* 管理APIを使用すると、[!DNL Target] UIでも設定できる[!DNL Target]の様々な要素を設定できます。 管理者APIは認証が必要です。
    >
    >
 * 配信APIを使用して、コンテンツを取得できます。 配信APIには認証は必要ありません。
 >
 >
-管理APIを使用するには、まずAdobeI/Oを使用して認証を設定する必要があります。 [!DNL Target] 詳しくは、「 [Adobe TargetTutorialsでの認証の](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) 設定 *」を参照してください*。
+[!DNL Target]管理APIを使用するには、まずAdobe I/Oを使用して認証を設定する必要があります。詳しくは、*Adobe TargetTutorials*&#x200B;の[認証を設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html)を参照してください。
