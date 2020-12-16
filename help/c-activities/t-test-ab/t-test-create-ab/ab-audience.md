@@ -48,7 +48,7 @@ ht-degree: 98%
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Adobe Target での Audiences の使用（6:21） ![概要バッジ](/help/assets/overview.png)
+### Adobe Target での Audiences の使用（6:21）  ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
 
