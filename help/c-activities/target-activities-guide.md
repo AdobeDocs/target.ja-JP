@@ -18,7 +18,7 @@ Adobe Target の様々なアクティビティタイプ（Recommendations を除
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>快適な環境で他のユーザーと共有するには、インタラクティブな[Adobe TargetアクティビティガイドPDF](/help/assets/activities_guide_82817.pdf)をダウンロードしてください。
 
 ## 各アクティビティの機能{#section_4ECAACC68723402EB3649033190E1BBC}
 
