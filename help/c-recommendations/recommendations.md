@@ -14,7 +14,7 @@ ht-degree: 59%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-[!DNL Adobe Target Recommendations] アクティビティは、以前のユーザーアクティビティ、環境設定またはその他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービスまたはコンテンツを自動的に表示します。 [!DNL Target Recommendations] 関連性の高い項目に訪問者を向けるのに役立ちます。 [!DNL Recommendations] 適切なタイミングで適切な場所に関連コンテンツを訪問者に提供できます。
+[!DNL Adobe Target Recommendations] アクティビティは、以前のユーザーアクティビティ、環境設定またはその他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービスまたはコンテンツを自動的に表示します。[!DNL Target Recommendations] 関連性の高い項目に訪問者を向けるのに役立ちます。[!DNL Recommendations] 適切なタイミングで適切な場所に関連コンテンツを訪問者に提供できます。
 
 >[!NOTE]
 >
@@ -47,22 +47,22 @@ ht-degree: 59%
 
 ## キーワード
 
-を使い始める前に [!DNL Recommendations]、この節で使用する用語の一部を理解しておくと役に立ちます。 これらの用語がまだ完全に理解されていない場合は、 [!DNL Recommendations] アクティビティのセットアップ時に用語の使い方を習得できるようになります。
+[!DNL Recommendations]を使い始める前に、この節で使用する用語の一部を理解しておくと役に立ちます。 これらの用語がまだ十分に理解されていない場合は、[!DNL Recommendations]アクティビティの設定に慣れてしまうでしょう。
 
 | 用語 | 定義 |
 | --- | --- |
-| アクティビティ | のアクティビティ [!DNL Target] を使用すると、特定のオーディエンスにコンテンツをパーソナライズして、ページデザインをテストできます。 [!DNL Recommendations] は、で利用できる多数のアクティビティタイプの1つにすぎま [!DNL Target]せん。 詳しくは、「 [ターゲットアクティビティタイプ](/help/c-activities/target-activities-guide.md)」を参照してください。 |
-| エンティティ | エンティティとは、レコメンデーションする項目を指します。エンティティには、製品、コンテンツ（記事、スライドショー、画像、動画、テレビ番組）、ジョブリスト、レストランなどがあります。 For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
-| フィード | フィードは、エンティティをに読み込むために使用され [!DNL Recommendations]ます。 エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
+| アクティビティ | [!DNL Target]のアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。 [!DNL Recommendations] は、で利用できる多数のアクティビティタイプの1つにすぎま [!DNL Target]せん。詳しくは、[ターゲットアクティビティタイプ](/help/c-activities/target-activities-guide.md)を参照してください。 |
+| エンティティ | エンティティとは、レコメンデーションする項目を指します。エンティティには、製品、コンテンツ（記事、スライドショー、画像、動画、テレビ番組）、ジョブリスト、レストランなどがあります。 詳しくは、[エンティティ](/help/c-recommendations/c-products/products.md)を参照してください。 |
+| フィード | フィードは、[!DNL Recommendations]にエンティティをインポートするために使用されます。 エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
 | カタログ | カタログは、製品セット（エンティティ）全体を参照します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。 |
-| コレクション | コレクションとは、1つの製品カテゴリなど、類似したアイテムや関連アイテムのセットを指します。 しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| コレクション | コレクションとは、1つの製品カテゴリなど、類似したアイテムや関連アイテムのセットを指します。 しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。詳しくは、[コレクション](/help/c-recommendations/c-products/collections.md)を参照してください。 |
 | 条件 | 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。<br>条件の例をいくつか挙げます。 <ul><li>これを購入した人が他に購入したもの</li><li>これを閲覧した人が他に閲覧したもの</li><li>類似の属性を持つ品目</li><li>最後に購入された品目</li><li>お気に入りのカテゴリ</li></ul>  詳しくは、[条件](/help/c-recommendations/c-algorithms/algorithms.md)を参照してください。 |
-| デザイン | デザインは、行、列、テーブル、グリッドなど、 [!DNL Recommendations] アクティビティ内のレコメンデーションの外観を定義します。 この記事の上部の図は、4 x 1のデザインを示しています。 For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| デザイン | デザインは、行、列、テーブル、グリッドなど、[!DNL Recommendations]アクティビティでのレコメンデーションの外観を定義します。 この記事の上部の図は、4 x 1のデザインを示しています。 詳しくは、[デザインを作成](/help/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
 | 場所 | 場所とは、パーソナライズと最適化の目的でアクティビティを実行するWebページ、モバイルアプリ、電子メール上の特定のコンテンツ領域を指します。 |
 | オーディエンス | オーディエンスは、ターゲットアクティビティを表示する、類似したアクティビティ参加者のグループです。 オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、「[オーディエンス](/help/c-target/target.md)」を参照してください。 |
 | オファーとしての Recommendations  | A/Bテスト(自動配分と自動ターゲットを含む)およびエクスペリエンスのターゲット設定(XT)アクティビティ内にレコメンデーションを含めることのできる機能。 詳細については、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
 
-## トレーニングビデオ：アクティビティタイプ ![の概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：アクティビティタイプ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。[!DNL Recommendations] の説明は 7:20 から始まります。
 
