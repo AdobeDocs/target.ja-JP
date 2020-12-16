@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # レポートでの複数の指標の表示{#view-multiple-metrics-in-a-report}
 
-レポート内で表示する複数の指標を選択でき [!DNL Adobe Target] ます。
+[!DNL Adobe Target]レポートで表示する複数の指標を選択できます。
 
 複数の指標をレポートに表示する際は、次の点に注意してください。
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* 複数の指標を表示する機能は、[A/Bテスト](/help/c-activities/t-test-ab/test-ab.md)、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)、[エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md)(XT)アクティビティでのみ使用できます。
+* [ターゲット](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)用のAnalyticsを使用するアクティビティのレポートには、20を超える指標を追加できません。 A4Tを使用&#x200B;*しない*&#x200B;アクティビティのレポートに、アクティビティ内の指標をいくつでも追加できます。
 * 複数の指標を選択した場合は、「[](/help/c-reports/downloading-data-in-csv-file.md)ダウンロード」オプションを使用して CSV 形式でレポートをダウンロードすることはできません。「[!UICONTROL ダウンロード]」オプションを利用するには、指標を 1 つだけ選択する必要があります。
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* 2015年7月[!DNL Target]リリース（2015年7月30日）より前に作成されたアクティビティに対しては、複数の指標を表示できません。
 
 **複数の指標を選択してレポートに表示する方法は次のとおりです。**
 
@@ -42,10 +42,10 @@ ht-degree: 61%
 
    「[!UICONTROL 表示されている指標]」リストには、1 つ以上の指標を選択する必要があります。
 
-   「[!UICONTROL 表示されている指標]」リストでは、ドラッグ＆ドロップで指標の順番を自由に並べ替えることができます。The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. 「[!UICONTROL 表示されている指標]」リストから指標を削除するには、該当の指標にマウスポインターを置いて **X** アイコンをクリックします。
+   「[!UICONTROL 表示されている指標]」リストでは、ドラッグ＆ドロップで指標の順番を自由に並べ替えることができます。選択した順序が[!UICONTROL テーブル表示]と[!UICONTROL グラフ表示]に反映されます。 「[!UICONTROL 表示されている指標]」リストから指標を削除するには、該当の指標にマウスポインターを置いて **X** アイコンをクリックします。
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
+1. （条件付き）[!UICONTROL テーブル表示]でレポートを表示中に、指標の列見出しにマウスポインターを置くと、青い矢印が表示されます。 この矢印をクリックして表を展開すると、対象の指標の「[!UICONTROL 上昇率]」と「[!UICONTROL 信頼性]」が表示されます。
 
    ![](assets/multiple_metrics_table.png)
 
