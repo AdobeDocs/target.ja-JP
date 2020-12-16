@@ -50,7 +50,7 @@ ht-degree: 88%
 
 ## 精度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。訪問者がモバイルデータ通信を使用している場合、地域ルックアップの精度は、場所、プロバイダーの [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) とのデータの関係性、およびその他の要因の影響を受ける可能性があります。携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続は、携帯電話ネットワークよりも正確です。訪問者がモバイルデータ通信を使用している場合、地域ルックアップの精度は、場所、プロバイダーの [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) とのデータの関係性、およびその他の要因の影響を受ける可能性があります。携帯電話基地局ベースのネットワーク接続では、有線または WiFi 接続に正確性で劣る可能性があります。また、訪問者の IP アドレスは、その ISP の場所にマッピングされ、訪問者の実際の場所とは異なる可能性があります。モバイルでの地域ターゲティングの問題には、[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)を使用して解決できるものもあります。
 
 以下の表に、[DigitalEnvoy](https://www.digitalelement.com/solutions/) が有線または WiFi インターネット接続用に提供する IP ベースの地理情報の精度を示します。DigitalEnvoy は、業界で最も正確なデータを提供します。グローバルな精度は、国レベルで 99.9％を超え、市レベルでは最大 97％の正確性です。精度情報は、携帯電話基地局ベースのネットワークには適用されません。
 
@@ -116,7 +116,7 @@ GeoTargeting の精度は、複数の要因に左右されます。WiFi 接続�
 
 **モバイルデバイスでは GeoTargeting はどのように動作しますか？**
 
-ほとんどのモバイルデバイスユーザーは WiFi 経由でコンテンツにアクセスします。つまり、Target の IP ベースの GeoTargeting はデスクトップと同様に正確です。携帯電話基地局ベースの接続では、信号が補足される基地局に基づいて訪問者の IP アドレスが決まるので、正確性に劣る場合があります。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+ほとんどのモバイルデバイスユーザーは WiFi 経由でコンテンツにアクセスします。つまり、Target の IP ベースの GeoTargeting はデスクトップと同様に正確です。携帯電話基地局ベースの接続では、信号が補足される基地局に基づいて訪問者の IP アドレスが決まるので、正確性に劣る場合があります。モバイルでの地域ターゲティングの問題には、[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)を使用して解決できるものもあります。
 
 **AOL 経由の訪問者は地域ターゲット設定ではどのように処理されますか?**
 
@@ -141,17 +141,17 @@ IPアドレスを別の場所のIPアドレスで上書きし、 `mboxOverride.b
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` は、at.js 1.*jx* でのみサポートされています。 この機能は、at.js 2ではサポートされていません。*x*.
+>`mboxOverride.browserIp` はat.js 1.jxonlyでサポートされてい&#x200B;** ます。この機能は、at.js 2ではサポートされていません。*x*.
 
 **プエルトリコや香港などの地域はジオターゲティング構造にどのようにマッピングされますか？**
 
 プエルトリコや香港などの地域は、個別の「国」として扱われます。
 
-**アクティビティが地域ターゲティング機能を使用してターゲット設定される場合、郵便番号などの情報を [!DNL Target] 取得（および保存）するか。**
+**アクティビティが地域ターゲティング機能でターゲット設定されている場合、郵便番号などの情報を [!DNL Target] 取り込み（および保存）するか。**
 
-いいえ。セッション中の間のみ地域データを [!DNL Target] 使用し、データは破棄されます。
+いいえ。[!DNL Target]は、セッション中のみ地域データを使用し、そのデータは破棄されます。
 
-## トレーニングビデオ：オーディエンス ![チュートリアルバッジの作成](/help/assets/tutorial.png)
+## トレーニングビデオ：オーディエンスの作成![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
