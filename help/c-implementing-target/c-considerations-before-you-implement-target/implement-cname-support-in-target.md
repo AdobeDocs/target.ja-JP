@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # CNAME と Adobe Target {#cname-and-adobe-target}
 
-Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. 広告ブロッキングの問題やITP関連のCookieポリシーを最も適切に処理するために、CNAMEを使用して、Adobeが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われます。
+AdobeのClientCareと協力して、[!DNL Adobe Target]にCNAME（正規名）サポートを実装する手順です。 広告ブロッキングの問題やITP関連のCookieポリシーを最も適切に処理するために、CNAMEを使用して、Adobeが所有するドメインではなく、顧客が所有するドメインに対して呼び出しが行われます。
 
 ## CNAMEサポートの要請
 
-Perform the following steps to request CNAME support in [!DNL Target]:
+[!DNL Target]でCNAMEサポートをリクエストするには、次の手順を実行します。
 
 1. SSL証明書に必要なホスト名のリストを決定します（FAQを参照）。
 
-1. 各ホスト名に対して、通常のホスト名を指すCNAMEレコードをDNSに作成し [!DNL Target]`clientcode.tt.omtrdc.net`ます。
+1. 各ホスト名に対して、DNS内に、通常の[!DNL Target]ホスト名`clientcode.tt.omtrdc.net`を指すCNAMEレコードを作成します。
 
-   例えば、クライアントコードが「cnamecustomer」で、推奨されるホスト名がである場合 `target.example.com`、DNS CNAMEレコードは次のようになります。
+   例えば、クライアントコードが「cnamecustomer」で、ホスト名を`target.example.com`と指定した場合、DNS CNAMEレコードは次のようになります。
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -34,10 +34,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >
    >Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、この手順が完了するまで、AdobeはCNAMEの導入に対するリクエストを満たすことができません。
 
-1. [CNAMEサポートを要求するAdobeClientCareチケットを](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 開いた場合は、次のフォームに入力し [、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+1. [CNAMEサポートをリクエストするAdobeClientCareチケットを](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 開いた場合は、次の [フォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-   * Adobe [!DNL Target] client code:
-   * SSL証明書のホスト名(例： `target.example.com target.example.org`):
+   * Adobe[!DNL Target]クライアントコード：
+   * SSL証明書のホスト名(例：`target.example.com target.example.org`):
    * SSL証明書の購入者(Adobeを強くお勧めします。FAQを参照してください):Adobe/顧客
    * お客様が証明書(BYOC)を購入する場合は、次の追加情報を入力してください。
       * 証明書の組織(例：Example Inc):
@@ -52,45 +52,45 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    導入の準備が整ったら、AdobeのClientCareからお知らせします。
 
-1. 前述のタスクを完了し、AdobeのClientCareから実装の準備が完了したことを通知されたら、at.jsの新しいCNAME `serverDomain` に更新する必要があります。
+1. 前述のタスクを完了し、AdobeのClientCareから実装の準備が完了したことを通知されたら、at.jsの新しいCNAMEに`serverDomain`を更新する必要があります。
 
 ## よくある質問
 
-次の情報は、でのCNAMEサポートの要請と導入に関するよくある質問と、その回答を示し [!DNL Target]ます。
+次の情報は、[!DNL Target]でのCNAMEサポートのリクエストと導入に関するよくある質問と、その回答を示します。
 
 ### 自分の証明書を提供できますか（「持参者の証明書」と「BYOC」）。
 
-はい、独自の証明書を提供できます。ただし、この方法は推奨されません。 SSL証明書のライフサイクルの管理は、AdobeとAdobeが証明書を購入および制御する場合に、きわめて簡単に行えます。 SSL証明書は毎年更新する必要があります。つまり、AdobeのClientCareから毎年、新しい証明書をAdobeにタイムリーに送信するように連絡する必要があります。 お客様によっては、毎年更新された証明書の作成がタイムリーに行えない場合があり、その場合、証明書の期限が切れると接続が拒否されるので、 [!DNL Target] 実装が損なわれる可能性があります。
+はい、独自の証明書を提供できます。ただし、この方法は推奨されません。 SSL証明書のライフサイクルの管理は、AdobeとAdobeが証明書を購入および制御する場合に、きわめて簡単に行えます。 SSL証明書は毎年更新する必要があります。つまり、AdobeのClientCareから毎年、新しい証明書をAdobeにタイムリーに送信するように連絡する必要があります。 一部のお客様は、毎年更新された証明書をタイムリーに作成するのが困難な場合があり、その結果、[!DNL Target]の実装が損なわれる可能性があります。これは、証明書の期限が切れるとブラウザーが接続を拒否するからです。
 
 >[!IMPORTANT]
 >
->独自の証明書を [!DNL Target] 持参するCNAMEの実装をリクエストする場合は、更新された証明書を毎年AdobeのClientCareに提供する必要があることに注意してください。 Adobeが更新された証明書をデプロイする前にCNAME証明書の有効期限を切れるようにすると、特定の [!DNL Target] 実装を使用できなくなります。
+>[!DNL Target]独自の証明書を持参するCNAMEの実装をリクエストする場合は、毎年AdobeのClientCareに新たに証明書を提供する責任があることに注意してください。 Adobeが更新された証明書をデプロイする前にCNAME証明書の有効期限を切れるようにすると、特定の[!DNL Target]実装を使用できなくなります。
 
 ### 新しいSSL証明書の有効期限が切れるまで、どのくらいの期間ですか？
 
-2020年9月1日以前に発行された証明書は、2年間の証明書になります。 2020年9月1日以降に発行される証明書は、1年間の証明書になります。 1年間の証明書への移行について詳しくは、 [こちらを参照してください](https://www.digicert.com/position-on-1-year-certificates)。
+2020年9月1日以前に発行された証明書は、2年間の証明書になります。 2020年9月1日以降に発行される証明書は、1年間の証明書になります。 1年間の証明書[](https://www.digicert.com/position-on-1-year-certificates)への移行について詳しくお読みください。
 
 ### どのホスト名を選択する必要がありますか。 ドメインごとにいくつのホスト名を選択する必要がありますか。
 
-[!DNL Target] CNAMEの導入では、SSL証明書とお客様のDNSにドメインごとに1つのホスト名しか必要としないので、これをお勧めします。 お客様によっては、独自の目的（ステージングでのテストなど）のために、ドメインごとに追加のホスト名が必要になる場合があります。これはサポートされています。
+[!DNL Target] CNAMEの導入では、SSL証明書とお客様のDNSにドメインごとに1つのホスト名しか必要としないので、これをお勧めします。お客様によっては、独自の目的（ステージングでのテストなど）のために、ドメインごとに追加のホスト名が必要になる場合があります。これはサポートされています。
 
-ほとんどのお客様は、ホスト名のようなホスト名を選択 `target.example.com`するので、これが推奨されますが、最終的にはお客様のホスト名を選択できます。 既存のDNSレコードのホスト名をリクエストしないでください。その結果、競合と遅延時間が発生し、 [!DNL Target] CNAMEリクエストの解決に至ります。
+ほとんどのお客様は`target.example.com`のようなホスト名を選ぶので、お勧めしますが、最終的にはお客様のホスト名を選択します。 既存のDNSレコードのホスト名を要求しないでください。その場合、[!DNL Target] CNAME要求の解決までの競合と遅延時間が発生します。
 
-### 既にCNAMEを実装しています [!DNL Adobe Analytics]が、同じ証明書またはホスト名を使用できますか。
+### [!DNL Adobe Analytics]のCNAME実装は既にありますが、同じ証明書またはホスト名を使用できますか。
 
-いいえ。別のホスト名と証明書が [!DNL Target] 必要です。
+いいえ。[!DNL Target]には別のホスト名と証明書が必要です。
 
 ### 現在のターゲットの実装はITP 2.xの影響を受けているか。
 
-Safariブラウザーで、ターゲットのJavaScriptライブラリがあるWebサイトに移動します。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
+Safariブラウザーで、ターゲットのJavaScriptライブラリがあるWebサイトに移動します。 `analytics.company.com`など、CNAMEのコンテキストにターゲットcookieが設定されている場合、ITP 2.xの影響を受けません。
 
 ITPの問題は、Analytics CNAMEのみを使用したターゲットで解決できます。 ターゲットがブロックされる広告ブロッキングシナリオの場合にのみ、個別のターゲットCNAMEが必要になります。
 
-ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを参照してください](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
+ITPについて詳しくは、[Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)を参照してください。
 
 ### CNAME実装を導入した場合、どのような種類のサービスの中断が予想できますか。
 
-証明書が展開されても（証明書の更新を含め）、サービスが中断されることはありません。 ただし、 [!DNL Target] 導入コード（at.js内）のホスト名を新しいCNAMEホスト名(`serverDomain` )に変更すると、Webブラウザーでは、古いホスト名(`target.example.com``clientcode.tt.omtrdc.net`)では以前のCookieにアクセスできないので、再訪問者が新しい訪問者として扱われ、プロファイルデータが失われます。 これは、新しいCNAMEへの最初の切り替えに対する1回限りの中断です。 ホスト名が変更されないので、証明書の更新は同じ効果を持ちません。
+証明書が展開されても（証明書の更新を含め）、サービスが中断されることはありません。 ただし、[!DNL Target]導入コード（at.jsの`serverDomain`）のホスト名を新しいCNAMEホスト名(`target.example.com`)に変更すると、Webブラウザーは、再訪問者を新しい訪問者として扱い、以前のホスト名(`clientcode.tt.omtrdc.net`)ではアクセスできなくなるので、プロファイルデータが失われます。 これは、新しいCNAMEへの最初の切り替えに対する1回限りの中断です。 ホスト名が変更されないので、証明書の更新は同じ効果を持ちません。
 
 ### CNAMEの実装には、どのキータイプと証明書署名アルゴリズムが使用されますか。
 
@@ -111,13 +111,13 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
    }
    ```
 
-1. 次に、次のコマンドを貼り付けます(ホスト名 `target.example.com` で置き換えます)。
+1. 次に、次のコマンドを貼り付けます（`target.example.com`をホスト名に置き換えます）。
 
    ```
    validateEdgeFpsslSni target.example.com
    ```
 
-   実装の準備が整ったら、次の出力が表示されます。 重要な点は、すべての行が表示され、これが必要なホスト名 `CN=target.example.com`に一致することです。 いずれかに表示される場合 `CN=*.tt.omtrdc.net`は、実装の **準備ができていません** 。
+   実装の準備が整ったら、次の出力が表示されます。 重要な点は、すべての行に`CN=target.example.com`が表示され、これが当社の希望のホスト名に一致することです。 いずれかが`CN=*.tt.omtrdc.net`と表示された場合、実装は&#x200B;****&#x200B;の準備ができていません。
 
    ```
    $ validateEdgeFpsslSni target.example.com
@@ -130,7 +130,7 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
 
-1. 新しいDNS CNAMEを別のcurlリクエストで検証します。これは、次の項目も表示する必要があり `CN=target.example.com`ます。
+1. 別のcurlリクエストで新しいDNS CNAMEを検証します。これは`CN=target.example.com`も表示する必要があります。
 
    ```
    curl -sSv https://target.example.com 2>&1 | grep subject:
@@ -138,10 +138,10 @@ ITPについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.xを
 
    >[!NOTE]
    >
-   >このコマンドが失敗し、上記の `validateEdgeFpsslSni` コマンドが正常に実行された場合は、DNSの更新が完全に伝播されるのを待つ必要があります。 DNSレコードには、TTL(time-to-live)が関連付けられています [](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) 。これは、TTLが設定されているDNS応答のキャッシュ有効期限を指示するものなので、少なくともTTLが設定されている限り、待つ必要が生じる場合があります。 この `dig target.example.com` コマンドまたはG Suite Toolbox [を使用して、特定のTTLを検索できます](https://toolbox.googleapps.com/apps/dig/#CNAME) 。
+   >このコマンドが失敗し、上記の`validateEdgeFpsslSni`コマンドが正常に実行された場合は、DNSの更新が完全に反映されるのを待つ必要がある場合があります。 DNSレコードには、[TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)が関連付けられています。これらのレコードのDNS応答のキャッシュ有効期限は、TTLの長さ以上待つ必要がある場合があります。 `dig target.example.com`コマンドまたは[G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME)を使用して、特定のTTLを検索できます。
 
 ## 既知の制限事項
 
 * CNAMEとat.js 1.xをお持ちの場合、QAモードは固定されません。これは、サードパーティCookieに基づいているためです。 回避策は、ナビゲート先の各URLにプレビューパラメーターを追加することです。 CNAMEとat.js 2.xを使用している場合、QAモードは固定されます。
-* 現在、at.js 1.8.2およびat.js 2.3.1より前のat.jsバージョンを使用する場合、CNAMEでこの `overrideMboxEdgeServer` 設定が正しく機能しません。古いバージョンのat.jsを使用する場合は、リクエストの失敗を防ぐため `false` に、この設定をにする必要があります。 または、at.jsを新しいサポート対象バージョンに [更新することを検討する必要があります](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 。
+* 現在、at.js 1.8.2およびat.js 2.3.1より前のat.jsバージョンを使用する場合、`overrideMboxEdgeServer`設定はCNAMEでは正しく機能しません。古いバージョンのat.jsを使用する場合は、リクエストの失敗を防ぐために、`false`として設定する必要があります。 または、[at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を新しいサポート対象バージョンに更新することを検討してください。
 * CNAMEを使用する場合、ターゲット呼び出しのcookieヘッダーのサイズが増加する可能性が高くなります。 Cookieのサイズは8 KB未満にすることをお勧めします。
