@@ -32,7 +32,7 @@ Web サイト（特に単一ページアプリ）で、ページの再読み込�
 
 拡張 Experience Composer で問題が発生した場合、拡張 Experience Composer をオフにして、代わりに Visual Experience Composer を使用します。
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+拡張Experience Composerを無効にするには、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;に移動し、**[!UICONTROL 拡張Experience Composerを有効にする]**&#x200B;オプションをオフにします。
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
