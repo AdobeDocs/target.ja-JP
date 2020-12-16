@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Velocity を使用したデザインのカスタマイズ{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+[!DNL Adobe Target Recommendations]でレコメンデーションデザインをカスタマイズするには、オープンソースのVelocityデザイン言語を使用します。
 
 ## Velocity の概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 1. ダミー変数を宣言し、任意の整数または重複値に初期化します。
 1. 使用するエンティティ属性が空白でないことを確認します(ターゲットRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要です)。
-1. エンティティ属性を手順1で作成したダミー変数の `parseInt` または `parseDouble` メソッドに渡して、文字列を整数または重複値にします。
+1. エンティティ属性を手順1で作成したダミー変数の`parseInt`または`parseDouble`メソッドに渡し、文字列を整数または重複値にします。
 1. 新しい数値に対して数学演算または比較を実行します。
 
 ### 例：割引価格の計算
@@ -185,7 +185,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 主要品目とレコメンデーション商品の表示 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 主要品目とレコメンデーション商品の表示{#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 他の推奨商品と並べて重要品目を表示するようにデザインを変更することができます。例えば、レコメンデーションの隣に参考のため現在の品目を表示してみてはどうでしょうか。
 
@@ -208,7 +208,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 [!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 
-## 文字列値での置換の実行 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 文字列値{#section_01F8C993C79F42978ED00E39956FA8CA}で置換を実行
 
 文字列内の値を置き換えるようにデザインを変更できます。 例えば、米国で使用されている小数点の区切り文字を、ヨーロッパや他の国で使用されているコンマ区切り文字に置き換えます。
 
@@ -234,7 +234,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## テンプレートサイズのカスタマイズと空白値の確認 {#default}
+## テンプレートサイズのカスタマイズと空白値の確認{#default}
 
 エンティティ表示の動的サイズ変更を制御するために Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
 
