@@ -30,7 +30,7 @@ ht-degree: 69%
 
 適切な設定の判断方法については、[JavaScript ベース以外の実装](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#redirector}
+## リダイレクターの作成{#redirector}
 
 リダイレクターを使用するには、まずリダイレクターを作成する必要があります。
 
@@ -45,7 +45,7 @@ ht-degree: 69%
 
    * `yourclientcode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      クライアントコードは、[!DNL Target]インターフェイスの[!UICONTROL 管理/実装]ページの先頭で入手できます。
 
    * `redirectorlink_456` は、キャンペーンおよびテストで使用するためにアカウントで表示するリダイレクター mbox の名前です。
 
@@ -53,14 +53,14 @@ ht-degree: 69%
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` はデフォルトの宛先です。
 
-      URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      URL エンコードをおこない、絶対参照にする必要があります。[HTML URLエンコーディングリファレンス](https://www.w3schools.com/tags/ref_urlencode.asp)を使用すると、URLをすばやくエンコードできます。
 
       >[!IMPORTANT]
       >
-      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 ターゲットは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、「 [Hosts](/help/administrating-target/hosts.md#allowlist) 」のターゲットにmbox呼び出しを送信する権限のあるホストを指定する許可リストの *作成を参照してください*。
+      >リダイレクターを使用すると、オープンリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 ターゲットは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、[ホスト&#x200B;*のターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストーの作成を参照してください。*
 
 1. リダイレクターを検証します。
-   1. *セキュリティのベストプラクティス*:上記のように、リダイレクターで使用するドメインが許可されていることを確認します。 許可されていないドメインを使用すると、Adobeは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
+   1. *セキュリティのベストプラクティス*:上記のように、リダイレクターで使用するドメインが許可されていることを確認します。許可されていないドメインを使用すると、Adobeは、悪意のあるアクターがリダイレクターを使用して悪質なドメインにリダイレクトするのを防ぐために、そのドメインへの呼び出しをブロックします。
    1. リダイレクターの URL をブラウザーに挿入して表示を更新します。
    1. アカウントにログインし、mbox のリストを更新して、新しいリダイレクターが mbox として表示されることを確認します。
 1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 1. リダイレクターの完全な URL をディスプレイ広告ネットワークに広告の表示先として送信します。
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## リダイレクターを使用して、クリックあたりのコストとクリックあたりの売上高を渡す{#concept_3078EF48E9C44B34992D62AAB9628853}
 
 リダイレクターを使用してクリックあたりのコストとクリックあたりの売上高を渡す方法について説明します。
 
@@ -97,7 +97,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>ベストプラクティスは、**訪問あたりのスコア**&#x200B;エンゲージメント指標を使用してコストの値を決定することです。
 
 `&mboxPageValue=-value` を URL に追加します。負の値であることに注意してください。
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>ベストプラクティスは、**訪問あたりのスコア**&#x200B;エンゲージメント指標を使用して売上高の値を決定することです。
 
 `&mboxPageValue=value` を URL に追加します。
 
