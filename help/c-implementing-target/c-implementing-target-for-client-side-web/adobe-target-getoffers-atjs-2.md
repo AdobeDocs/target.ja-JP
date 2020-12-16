@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.ターゲット.getOffers(options) - at.js 2.x
 
 この関数を使用すると、複数の mbox を渡すことで複数のオファーを取得できます。さらに、アクティブなアクティビティのすべてのビュー向けに複数のオファーを取得できます。
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドに使用できるタイプについては、 [配信APIのドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) を参照してください。
+>以下に示すすべてのフィールドに使用できるタイプについては、[配信APIドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
 
 | フィールド名 | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-ペイロードは、 [Data Insertion APIを介してAdobe Analyticsに転送できます](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+ペイロードは、次に[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAdobe Analyticsに転送できます。
 
 ## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
 
