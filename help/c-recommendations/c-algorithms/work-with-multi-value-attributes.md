@@ -20,9 +20,9 @@ ht-degree: 0%
 * コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。
 * あなたは服を売る。 1枚のシャツには複数のサイズがあります。
 
-これらのシナリオでのレコメンデーションを処理するには、複数値のデータをに渡し、特別な複数値の演算子 [!DNL Target Recommendations] を使用します。
+これらのシナリオでのレコメンデーションを処理するには、複数値のデータを[!DNL Target Recommendations]に渡し、特別な複数値演算子を使用します。
 
-複数値のデータ [!DNL Recommendations] を識別できるようにするには、次のコード例のようにJSON配列として送信する必要があります。
+[!DNL Recommendations]が複数値のデータを識別できるようにするには、以下のコード例のようにJSON配列として送信する必要があります。
 
 ## JavaScriptで複数値のパラメーターを渡す
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-詳しくは、「 [カスタムエンティティ属性での複数値の属性の](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 実装 *」を参照してください*。
+詳しくは、*カスタムエンティティ属性*&#x200B;の[複数値の属性](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)の実装を参照してください。
 
 ## 複数値のエンティティ属性をCSVファイルに渡す
 
@@ -60,7 +60,7 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-エンティティの属性、プロファイルの属性またはmboxパラメーターが上記の形式に従って複数の値として指定されている場合、は、フィールドが複数の値であることを [!DNL Recommendations] 自動的に検出します。
+エンティティの属性、プロファイルの属性またはmboxパラメーターが上記の形式に従って複数の値として指定されると、[!DNL Recommendations]は自動的にフィールドが複数の値であると仮定します。
 
 複数値のエンティティ、プロファイル、mboxの属性で使用できる演算子は、次のとおりです。
 
@@ -75,7 +75,7 @@ function targetPageParams() {
 
 ### 例：最近監視した項目の除外
 
-ユーザーの最後の10本の視聴済みムービーがレコメンデーションされないようにする場合を考えてみます。 最初に、最近10回閲覧されたムービーをJSON配列 `user.lastWatchedMovies` として追跡するために呼び出されるプロファイルスクリプトを作成します。 次に、次のインクルージョンルールを使用して、項目を除外できます。
+ユーザーの最後の10本の視聴済みムービーがレコメンデーションされないようにする場合を考えてみます。 まず、`user.lastWatchedMovies`というプロファイルスクリプトを記述し、最後に10回閲覧された映画をJSON配列として追跡します。 次に、次のインクルージョンルールを使用して、項目を除外できます。
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ function targetPageParams() {
 
 ### 例：ユーザーのお気に入りのレコメンデーション項目
 
-例えば、演奏中のバンドがユーザーのお気に入りのバンドの1つである場合に限り、コンサートのチケットを勧めたいとします。 まず、という名前のプロファイル変数にユーザーのお気に入りの帯域が含まれてい `profile.favoriteBands` ることを確認します。 次に、コンサートでパフォーマンスを上げているアーティスト `entity.artistPerforming` を含む属性がカタログに含まれていることを確認します。 次のインクルージョンルールを使用できます。
+例えば、演奏中のバンドがユーザーのお気に入りのバンドの1つである場合に限り、コンサートのチケットを勧めたいとします。 まず、`profile.favoriteBands`という名前のプロファイル変数に、ユーザーのお気に入りの帯域が含まれていることを確認します。 次に、コンサートで演奏するアーティストを含む属性`entity.artistPerforming`がカタログに含まれていることを確認します。 次のインクルージョンルールを使用できます。
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 例：ユーザーのお気に入りから品目をレコメンデーションする条件のAPI作成
 
-すべての条件と同様、複数値のフィルタリングルールを使用する条件は、AdobeI/O APIを介して作成できます。 エンティティ属性がmboxパラメーターリストーに含まれる条件を作成す `id` るためのAPI呼び出しの例を次に示 `favorites` します。
+すべての条件と同様、複数値のフィルタリングルールを使用する条件は、Adobe I/OAPIを使用して作成できます。 エンティティ属性`id`がmboxパラメーターリストー`favorites`に含まれる条件を作成するためのAPI呼び出しの例を次に示します。
 
 ```
 curl -X POST \
