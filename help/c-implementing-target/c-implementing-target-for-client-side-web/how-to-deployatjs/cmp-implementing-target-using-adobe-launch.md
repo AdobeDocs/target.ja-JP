@@ -28,7 +28,7 @@ Launch の詳細な情報を取得できる様々なソースを次の表に示�
 | [Adobe Launch ドキュメント](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 適切な顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグのデプロイおよび管理に関する情報です。 |
 | [Adobe Target拡張機能ドキュメント](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch を使用した Target の実装に関する情報です。 |
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## ターゲット起動拡張機能{#section_48B3F938B6F8491DAF798E0DB54EF304}を使用してat.jsを実装する利点
 
 次のメリットは、Adobe Launch を使用して at.js を実装する場合にのみ適用されます。そのため、DTM または at.js の手動実装ではなく Adobe Launch を使用することを強くお勧めします。
 
