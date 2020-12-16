@@ -14,13 +14,13 @@ ht-degree: 69%
 
 # タグマネージャーを使用しない Target の実装{#implement-target-without-a-tag-manager}
 
-Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Launch] or [!DNL Dynamic Tag Manager]).
+タグマネージャー（[!DNL Adobe Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
 
 >[!NOTE]
 >
 >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための推奨される方法です。次の情報は、Adobe Launch を使用して Target を実装する場合には適用されません。
 
-[!UICONTROL 実装] ページにアクセスするには、 **[!UICONTROL 管理]** / **[!UICONTROL 実装]**&#x200B;をクリックします。
+[!UICONTROL 実装]ページにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 
 このページでは、次の設定を指定できます。
 
@@ -51,7 +51,7 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 
 >[!NOTE]
 >
->これらの設定は、すべての [!DNL Target] .jsライブラリに適用されます。 「 [!UICONTROL 実装方法] 」セクションの変更を実行した後、ライブラリをダウンロードして、実装で更新する必要があります。
+>これらの設定は、すべての[!DNL Target].jsライブラリに適用されます。 [!UICONTROL 導入方法]セクションで変更を行った後、ライブラリをダウンロードし、導入で更新する必要があります。
 
 | 設定 | 説明 |
 | --- | --- |
@@ -66,13 +66,13 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 >
 >ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 
-目的のat.jsバージョンをダウンロードするには、該当する「 **[!UICONTROL ダウンロード]** 」ボタンをクリックします。
+目的のat.jsバージョンをダウンロードするには、該当する「**[!UICONTROL ダウンロード]**」ボタンをクリックします。
 
-at.jsの設定を編集するには、目的のat.jsバージョンの横にある「 **[!UICONTROL 編集]** 」をクリックします。
+at.jsの設定を編集するには、目的のat.jsバージョンの横にある「**[!UICONTROL 編集]**」をクリックします。
 
 >[!IMPORTANT]
 >
->これらのデフォルト設定を変更する前に、現在の実装に影響を与えないように、 [ClientCare](/help/cmp-resources-and-contact-information.md) にお問い合わせください。
+>これらのデフォルト設定を変更する前に、現在の実装に影響を与えないように、[ClientCare](/help/cmp-resources-and-contact-information.md)にお問い合わせください。
 
 上記の設定に加えて、次のat.js固有の設定も使用できます。
 
@@ -85,17 +85,17 @@ at.jsの設定を編集するには、目的のat.jsバージョンの横にあ�
 
 API による一括更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 
-For more information, see [Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+詳しくは、[プロファイルAPI設定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)を参照してください。
 
 ### デバッガツール
 
-高度な [!DNL Target] デバッグツールを使用するための認証トークンを生成します。 Click **[!UICONTROL Generate New Authentication Token]**.
+高度な[!DNL Target]デバッグツールを使用するための認証トークンを生成します。 「**[!UICONTROL 新しい認証トークンを生成]**」をクリックします。
 
 ![新しい認証トークンの生成](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### プライバシー
 
-これらの設定は、プライバシーに関する法律に準拠し [!DNL Target] た方法でを使用できます。
+これらの設定により、プライバシーに関する法律に準拠した[!DNL Target]を使用できます。
 
 「訪問者のIPアドレスを不明化」ドロップダウンリストから目的の設定を選択します。
 
@@ -107,11 +107,11 @@ For more information, see [Profile API settings](/help/c-implementing-target/c-c
 
 >[!NOTE]
 >
->「レガシーブラウザーのサポート」オプションは、at.jsバージョン0.9.3以前で使用可能でした。 This option was removed in at.js version 0.9.4. For a list of browsers supported by at.js, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、ターゲットーはコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしていました。 このオプションを有効にした場合、古いブラウザーで品質保証を行い、優れたカスタマーエクスペリエンスを確実に得ることをお勧めします。
+>「レガシーブラウザーのサポート」オプションは、at.jsバージョン0.9.3以前で使用可能でした。 このオプションはat.jsバージョン0.9.4では削除されました。at.jsでサポートされているブラウザーのリストについては、[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)を参照してください。<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、ターゲットーはコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしていました。 このオプションを有効にした場合、古いブラウザーで品質保証を行い、優れたカスタマーエクスペリエンスを確実に得ることをお勧めします。
 
 ## at.js のダウンロード {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
-Instructions to download the library using the [!DNL Target] interface or the Download API.
+[!DNL Target]インターフェイスまたはダウンロードAPIを使用してライブラリをダウンロードする手順。
 
 >[!NOTE]
 >
@@ -121,20 +121,20 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 * ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
 
-### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+### ターゲットインターフェイスを使用したat.jsのダウンロード{#section_1F5EE401C2314338910FC57F9592894E}
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
-1. [ **[!UICONTROL 管理]** ] > [ **[!UICONTROL 実装]**]の順にクリックします。
-1. 「 [!UICONTROL 実装方法] 」セクションで、目的のat.jsバージョンの横にある「 **[!UICONTROL ダウンロード]** 」ボタンをクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
+1. [!UICONTROL 実装メソッド]セクションで、目的のat.jsバージョンの横にある「**[!UICONTROL ダウンロード]**」ボタンをクリックします。
 
-### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### ターゲットダウンロードAPI {#section_C0D9D2A9068144708D08526BA5CA10D0}を使用したat.jsのダウンロード
 
 API を使用して [!DNL at.js] をダウンロードするには：
 
 1. クライアントコードを取得します。
 
-   Your client code is available at the top of the **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** page of the [!DNL Target] interface.
+   クライアントコードは、[!DNL Target]インターフェイスの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 実装]**&#x200B;ページの先頭で入手できます。
 
 1. 管理番号を取得します。
 
@@ -144,7 +144,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Replace `client code` with the client code from Step 1.
+   `client code`を手順1のクライアントコードに置き換えます。
 
    この URL を読み込んだ結果は、次の例のようになります。
 
@@ -164,9 +164,9 @@ API を使用して [!DNL at.js] をダウンロードするには：
    https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
-   * Replace `admin number` with your admin number.
-   * Replace `client code` with the client code from Step 1.
-   * Replace `version number` with the desired at.js version number (for example, 2.2).
+   * `admin number`を管理者番号に置き換えます。
+   * `client code`を手順1のクライアントコードに置き換えます。
+   * `version number`を目的のat.jsのバージョン番号（2.2など）に置き換えます。
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
    この URL を読み込むと、カスタマイズされた [!DNL at.js] ファイルのダウンロードが開始されます。
 
-## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js実装{#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
@@ -235,13 +235,13 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 次の重要な注意点を考慮してください。
 
 * HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
-* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page.
+* 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合は、`<client code>`を独自のクライアントコードに置き換えてください。このコードは&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 導入]ページから入手できます。
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
 * 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
 * at.js はページの `<head>` に含めます。
 
-## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
+## コンバージョンの追跡{#task_E85D2F64FEB84201A594F2288FABF053}
 
 注文の確認 mbox では、サイトでの注文に関する詳細が記録され、売上高および注文に基づくレポートが可能になります。また、注文の確認 mbox は、「商品 x および商品 y を購入した人」などのレコメンデーションアルゴリズムを駆動できます。
 
