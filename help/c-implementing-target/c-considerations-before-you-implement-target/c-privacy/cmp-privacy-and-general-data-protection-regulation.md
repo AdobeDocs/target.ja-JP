@@ -73,7 +73,7 @@ window.targetGlobalSettings = {
 
 1. **[!DNL Target] タグが [!DNL Launch] を介して事前に承認されている（またはデータ主体が [!DNL Target] を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
 1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が FALSE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。同意が得られると [!DNL Target] が呼び出されて、パーソナライズされたコンテンツがデータ主体（訪問者）に対して提供されるようになります。同意が得られるまではデフォルトコンテンツしか使用できないので、適切な戦略を採用することが重要です。例えば、スプラッシュページを使用してページの一部やパーソナライズされる可能性があるコンテンツを覆い隠すことなどを検討してください。これにより、データ主体（訪問者）のエクスペリエンスの一貫性を維持することができます。
-1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
+1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。デフォルトでは、`bodyHiddenStyle`は`body { opacity:0;}`に設定され、HTMLのbodyタグが非表示になります。 以下に、推奨されるページ設定を示します。この設定では、ページのコンテンツを 1 つのコンテナに配置し、同意管理ダイアログを別のコンテナに配置することで、同意管理ダイアログ以外のページ本文全体を非表示にしています。このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[これらの設定をおこなう方法については、 Launch のドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。
 
    次に、3 つ目のシナリオで推奨されるページ設定を示します。
 
@@ -132,7 +132,7 @@ window.targetGlobalSettings = {
 | ユーザー ID | 名前空間 ID タイプ | 名前空間 ID | 定義 |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID（旧名では訪問者 ID または Marketing Cloud ID）。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
-| TnT ID／Cookie ID（TNTID） | Standard | 9 | 訪問者のブラウザーで cookie として設定される Target 識別子。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
+| TnT ID／Cookie ID（TNTID） | 標準 | 9 | 訪問者のブラウザーで cookie として設定される Target 識別子。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
 | サードパーティ ID／CRM ID（THIRDPARTYID） | Target-Specific | 該当なし | 顧客の CRM やその他の一意識別子を Target に提供している場合。 |
 
 >[!NOTE]
@@ -143,11 +143,11 @@ window.targetGlobalSettings = {
 
 GDPR および CCPA では、いつ同意の取得が必要となるかに関する変更はありませんが、同意を得る方法が変更されます。それぞれのお客様の同意戦略は、データ収集と利用の手法およびプライバシーポリシーに左右されます。[!DNL Target] では、GDPR および CCPA に対する同意の管理をサポートしておらず、またそれを実現すべきではありません。
 
-[!DNL Adobe] では、現在、同意管理ソリューションは提供していませんが、市場では新たな要件のいくつかに対処するための様々なツールが開発されています。For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] では、現在、同意管理ソリューションは提供していませんが、市場では新たな要件のいくつかに対処するための様々なツールが開発されています。同意マネージャーを含む一般的なプライバシーツールの詳細については、*International Association of Privacy Professionals(iaap)*&#x200B;のWebサイトの[2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)を参照してください。
 
 [!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Launch] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。オプトインの管理には、[!DNL Launch] を使用することをお勧めします。[!DNL Launch] ではオプトインをきめ細かく制御でき、[!DNL Target] による処理が許可されるまでページ内の特定の要素を非表示にすることができるので、お客様の同意戦略の一環として役立ちます。
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). また、前述の *Adobe Target と Adobe Launch のオプトイン*&#x200B;節も参照してください。
+GDPR、CCPA、[!DNL Launch]の詳細については、[AdobeプライバシーJavaScriptライブラリとGDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)を参照してください。 また、前述の *Adobe Target と Adobe Launch のオプトイン*&#x200B;節も参照してください。
 
 ### AdobePrivacy.js は情報を GDPR API に送信しますか？{#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
