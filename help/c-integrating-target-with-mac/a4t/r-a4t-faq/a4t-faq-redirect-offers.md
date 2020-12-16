@@ -75,7 +75,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 ## Web サーバーで、これらのパラメーターが URL から除去されます。どうすればよいですか？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+これらのパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）を許可するには、ITチームと協力する必要があります。
 
 ## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ A4T とリダイレクトオファーを使用する場合、Target によって
 
 訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。これにより、間違った SDID 値が Target と Analytics に送信され、その結果、Analytics レポートにリダイレクトの不均一な分割が表示されます。
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+`adobe_mc_ref`と`adobe_mc_sdid`が許可され、これらの値がいかなる形でも変換されないように、ITチームに相談することをお勧めします。
 
 ## 参照 URL を新しいページに渡す必要があるのはなぜですか？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+例えば、訪問者が[!DNL `www.google.com`]上のリンクをクリックして、リダイレクトアクティビティがライブで、その後新しいページ(`www.mysite.com/index2.html`)にリダイレクトされるホームページ(`www.mysite.com/index.html`)を作成します。
 
 以前は、新しいページの [!DNL Analytics] リクエストによって、[!DNL `www.mysite.com/index.html`] ではなく、[!DNL `www.google.com`] の参照 URL がレポートされていました。そのため、参照 URL に関連付けられた [!DNL Analytics] のレポート（例えば、マーケティングチャネルレポート）が不正確になっており、[!DNL `www.google.com`] からそのサイトにリダイレクトされた事実がレポートから失われていました。
 
