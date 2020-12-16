@@ -22,7 +22,7 @@ ht-degree: 88%
 
 [!UICONTROL エンタープライズ権限]機能は、チームをまたいだ最適化プログラムの効果的な拡大を促進します。この機能は [!DNL Target] UI でのみ使用できましたが、Admin API には、2019 年初めまでは対応するサポートがありませんでした。[!DNL Target] 2019 年 2 月リリースで、アドビは、組織で作成したすべてのワークスペースに対して統合アカウントを使用できるように Admin API を更新しました。そのため、初期では、Admin API はデフォルトワークスペースのみに制限されていましたが、2019 年 2 月の更新で、[!UICONTROL 承認者]アクセス権を持つすべてのワークスペースに対してアクセス権が付与されました。
 
-With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
+[!DNL Target] 2019年9月のリリースでは、[!DNL Target] [!UICONTROL Enterprise Permissions]で次のアクセス制御が提供されます。
 
 * 統合を適用できるワークスペースを選択できます。
 * Adobe I/O 統合（[!UICONTROL 承認者]、[!UICONTROL 編集者]または[!UICONTROL 監視者]）に役割を適用できます。
@@ -42,7 +42,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 **ワークスペースに対する Adobe I/O 統合のアクセス権を付与し、役割を割り当てるには**
 
-1. **[Adobe Admin Consoleを開け](https://adminconsole.adobe.com)**。
+1. **[Adobe Admin Console](https://adminconsole.adobe.com)**&#x200B;を開きます。
 
 1. 「**[!UICONTROL 製品]**」タブをクリックしてから、目的の製品の名前を選択します。
 
