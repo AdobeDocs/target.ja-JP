@@ -96,7 +96,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. を編集または作成する際に、[アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
+1. While editing or creating an[アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
 
    ![](assets/combine_multiple_audiences6.png)
 
@@ -112,7 +112,7 @@ AND 演算子や OR 演算子を利用して、最大 10 種類のオーディ�
 
    目的のアクティビティをクリックして開き、「**[!UICONTROL アクティビティ を編集]**」をクリックします。
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL オーディエンス]** / **[!UICONTROL 複数のオーディエンスをクリックします]**。
+1. **[!UICONTROL 設定]**/**[!UICONTROL オーディエンス]**/**[!UICONTROL 複数のオーディエンス]**&#x200B;をクリックします。
 
    ![設定／オーディエンス／複数のオーディエンス](/help/c-target/assets/combine_multiple_audiences7.png)
 
