@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # 既知の問題と解決された問題
 
-の既知の問題に関する情報で [!DNL Adobe Target]す。 また、解決された問題に関する情報も含まれています。
+[!DNL Adobe Target]の既知の問題に関する情報です。 また、解決された問題に関する情報も含まれています。
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ ht-degree: 70%
 
 ### 自動配分と自動ターゲットアクティビティ用のターゲット用のAnalytics(A4T)指標
 
-現在の既知の問題は [!DNL Target] UIに存在し、ユーザーは、 [!UICONTROL 自動配分および] 自動ターゲット  アクティビティの最適化の主な目標指標として、サポートされていないエンゲージメント指標および売上高指標を選択できます。 コンバージョン指標はサポートされています。エンゲージメント指標と売上高指標はサポートされ *ていません* 。 エンゲージメントまたは売上高目標指標を選択した場合、(現在、 [!DNL Target] UIでサポートされていない目標指標を選択できる場合でも)最適化モデルは作成されません。
+[!DNL Target] UIには既知の問題が存在し、ユーザーは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティの最適化の主目標指標として、サポートされていないエンゲージメント指標と売上高指標を選択できます。 コンバージョン指標はサポートされています。エンゲージメントと売上高の指標は&#x200B;*サポートされていません*。 エンゲージメントまたは売上高目標指標を選択した場合、（現在[!DNL Target] UIでサポートされていない目標指標を選択できる場合でも）最適化モデルは作成されません。
 
-サポートされる目標指標とサポートされない目標指標のリストについては、「 [サポートされる目標指標](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 」の「Analyticsをレポートソースとして使用するアクティビティの *作成*」を参照してください。 （TNT-38409）
+サポートされる目標指標とサポートされない目標指標のリストについては、[Analyticsをレポートソースとして使用するアクティビティの作成&#x200B;*の「サポートされる目標指標](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)」を参照してください。*（TNT-38409）
 
 ### ページ配信 {#page-delivery}
 
@@ -113,7 +113,7 @@ at.js の既知の問題を以下に示します。
 
 ### Analytics for Target（A4T）
 
-Analysis Workspaceでターゲットアクティビティのインプレッションとコンバージョンを使用する場合、正確なカウントを確保するために、「同じタッチ」Attribution IQモデルを指標に適用します。 デフォルト [以外のアトリビューションモデルを適用するには、指標を右クリックして、列設定を](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)変更し、デフォルト以外のアトリビューションモデルを使用/同じタッチモデルを選択し ****&#x200B;ます。 このモデルを適用しない場合、指標は誇張されて表示されます。
+Analysis Workspaceでターゲットアクティビティのインプレッションとコンバージョンを使用する場合、正確なカウントを確保するために、「同じタッチ」Attribution IQモデルを指標に適用します。 [デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)を適用するには、**列設定の変更/デフォルト以外のアトリビューションモデルを使用を有効にし、「同じタッチモデル**」を選択します。 このモデルを適用しない場合、指標は誇張されて表示されます。
 
 現在のすべてのAnalyticsパッケージには、Attribution IQを使用してこのモデルを追加する機能があります。 Attribution IQにアクセスできない場合は、Reports &amp; AnalyticsのA4Tデータを使用してください。
 
@@ -125,11 +125,11 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 2020年5月10日に、アドビのGEOプロバイダーファイルを更新しました。これにより、いくつかの不一致が生じました。 例えば、コンマを含む値が追加されたとします。ただし、既存のオーディエンスの値にはコンマがありません。 この変更がアドビの配信サーバーの一部に影響を与えたわけではありません。 その結果、この値を使用するオーディエンスでは、2020年5月10日から7月22日の間の正しい訪問者がすべて満たされていない場合があります。
 
-### レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。 {#csv}
+### レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しません。{#csv}
 
 .csvファイルとしてダウンロードするために生成されたレポートは、アクティビティが複数の指標を使用している場合、一貫性がありません。 ダウンロード可能なレポートは、レポート設定に基づいてのみ生成され、他の指標で使用される場合と同じ値を考慮します。
 
-真実の原因は常に [!DNL Target] UIに表示されるレポートです。
+真実の原因は常に[!DNL Target] UIに表示されるレポートです。
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -145,18 +145,18 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 A4Tに関連する次の問題が解決されました。
 
-* A4Tレポートに予期しないトラフィック分割や人為的なコンバージョンの水増しが表示される原因となっていた、 [!DNL Analytics] 目標指標を使用するA4Tアクティビティに影響を与えた問題です。
+* [!DNL Analytics]目標指標を使用するA4Tアクティビティに影響を与えた問題で、A4Tレポートに予期しないトラフィック分割または人為的なコンバージョンの水増しが表示されていました。
 
    この問題は、次の状況でA4Tレポートに影響を与えました。
 
    * アクティビティは、2020年9月15日～ 11月5日（太平洋標準時の午前4時）の間に作成または保存されました。
-   * アクティビティで、目標指標として [!DNL Analytics] 指標が選択されていました。
+   * アクティビティで、目標指標として[!DNL Analytics]指標が選択されていました。
 
-   [!DNL Target] トラフィックを正しく分割する必要があります。 ただし、アクティビティ設定での50/50の分割は、例えば、A4Tレポートでは90/10の分割として表示される場合があります。
+   [!DNL Target] トラフィックを正しく分割する必要があります。ただし、アクティビティ設定での50/50の分割は、例えば、A4Tレポートでは90/10の分割として表示される場合があります。
 
    影響を受けたアクティビティの場合、11月5日(午前4時(PST)以降、初めてアクティビティに訪問者した場合は、適切なトラフィック分割が表示されます。 この時間より後に作成または保存された新しいアクティビティは、トラフィックの分割を正しくレポートします。
 
-* A4Tレポートでコンバージョンが低いかまたはないかをレポートする原因となった、 [!DNL Target] 目標指標を使用するA4Tアクティビティに影響を与えた問題。
+* [!DNL Target]目標指標を使用するA4Tアクティビティに影響を与え、A4Tレポートでコンバージョンが低いかまたはないと報告されていた問題。
 
    >[!NOTE]
    >
@@ -165,20 +165,20 @@ A4Tに関連する次の問題が解決されました。
    この問題は、次の状況でA4Tレポートに影響を与えました。
 
    * A4Tアクティビティは、2020年9月22日～11月11日（PST午後2時30分）の間に生活し、
-   * アクティビティでは、目標指標として [!DNL Target] 指標が選択され、
-   * 訪問者がアクティビティの目標イベントにヒットした場合(例：要素を [!UICONTROL クリックした場合])も、A4T以外のアクティビティの優先度が低く、コンバージョンイベントに一致していました。 これは、A4T以外のアクティビティがA4Tアクティビティと同じ指標で設定された場合、または「任意のmbox」指標で設定された場合に発生する可能性があります。
+   * アクティビティでは、目標指標として[!DNL Target]指標が選択され、
+   * 訪問者がアクティビティの目標イベントに達したとき(例：[!UICONTROL エレメント]をクリック)、コンバージョンイベントに一致するA4T以外のアクティビティの優先度も低くなりました。 これは、A4T以外のアクティビティがA4Tアクティビティと同じ指標で設定された場合、または「任意のmbox」指標で設定された場合に発生する可能性があります。
 
    この問題は、2020年9月22日～11月11日（PST午後2時30分）の間に発生していたA4Tアクティビティのレポートに影響しました。 影響を受けたA4Tアクティビティのレポートでは、この日付範囲外のコンバージョンが正しく表示されます。 A4T以外のアクティビティのレポートは影響を受けませんでした。
 
-その他の質問がある場合は、Customer Success Manager(CSM)または [Adobeカスタマーケアにお問い合わせください](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 (CSO 20201110016)
+その他の質問がある場合は、Customer Success Manager(CSM)または[Adobeカスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。 (CSO 20201110016)
 
-### 自動ターゲットレポート {#at-metrics}
+### 自動ターゲットレポート{#at-metrics}
 
-9月15日午後2時30分 [!DNL Adobe Target Premium] から、  自動ターゲットのレポートに影響する問題が解決されました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポートを表示する(「ページを[!UICONTROL 表示した」または「mboxを]クリックした」オプションを使用して設定)場合、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。
+9月15日午後2時30分以降、[!DNL Adobe Target Premium]ユーザーの[!UICONTROL 自動ターゲット]レポートに影響する問題が解決されました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポート（「[!UICONTROL ページ]を表示した」または「[!UICONTROL mbox]をクリックした」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。
 
 レポートを再同期して修正するには：
 
-1. 影響を受けた [!UICONTROL 自動ターゲット] アクティビティをコピーして保存します。
+1. 影響を受けた[!UICONTROL 自動ターゲット]アクティビティをコピーして保存します。
 1. 新しく保存したアクティビティをアクティブ化します(影響を受けたアクティビティがライブの場合)。
 1. 元の（影響を受けた）アクティビティを削除します。
 
@@ -198,15 +198,15 @@ A4Tに関連する次の問題が解決されました。
 * オーディエンス:訪問者レベルのコンバージョンに関する「すべての修飾訪問者」では、毎回増分するのではなく、誤って1回だけ増分されます。 これは期待された動作ではありません。
 * オーディエンス:「新しい訪問者」を参照してください。 これが期待された動作です。
 
-この問題は [!DNL Target] レポートにのみ関連していることに注意してください。 これは、 [!UICONTROL Analytics forターゲット] (A4T)レポートを使用する場合の問題ではありません。
+この問題は[!DNL Target]レポートにのみ関係することに注意してください。 [!UICONTROL ターゲット](A4T)レポート用のAnalyticsを使用する場合は、問題ありません。
 
 この問題は解決しました。
 
 ### Google Chromeバージョン80以降を使用している場合に、Visual Experience Composer(VEC)または拡張Experience Composer(EEC)で読み込まれないページ
 
-この既知の問題は、Chromeバージョン80以降のSameSite属性を使用しないでCookieのデフォルト動作を変更するGoogleによる決定に関するものです。 変更前は、ChromeでデフォルトでSameSite属性が「SameSite=None」に設定されていないすべてのCookieがデフォルトで使用され、デフォルトでは「SameSite=Lax」に設定され、これにより、GETおよびPOSTリクエストに対するCookieの送信方法が変更されていました。 「SameSiteの更新 [」を参照してください](https://www.chromium.org/updates/same-site)。
+この既知の問題は、Chromeバージョン80以降のSameSite属性を使用しないでCookieのデフォルト動作を変更するGoogleによる決定に関するものです。 変更前は、ChromeでデフォルトでSameSite属性が「SameSite=None」に設定されていないすべてのCookieがデフォルトで使用され、デフォルトでは「SameSite=Lax」に設定され、これにより、GETおよびPOSTリクエストに対するCookieの送信方法が変更されていました。 [SameSiteの更新](https://www.chromium.org/updates/same-site)を参照してください。
 
-詳細と修正については、「最近発表されたGoogle Chrome SameSite cookieの実施ポリシーがVECおよびEECに与える影響を教えてください。」を参照してください。 in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+詳細と修正については、「最近発表されたGoogle Chrome SameSite cookieの実施ポリシーがVECおよびEECに与える影響を教えてください。」を参照してください。 [Visual Experience Composerと拡張Experience Composerに関する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)に記載されています。
 
 ### カスタムエクスペリエンスをコントロールとして使用している場合、自動ターゲットアクティビティのグラフレポートでレンダリングに失敗します。
 
@@ -222,7 +222,7 @@ mbox.js ライブラリは、Handlebars や Mustache などのクライアント
 
 ### 実装：グローバル mbox 自動作成
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+「実装」タブ（[!UICONTROL 管理/実装]）で、新しくプロビジョニングされたテナントに対して、デフォルトで[!UICONTROL グローバルmbox自動作成]フィールドが「false」になります。
 
 プロビジョニング後に最初に mbox.js をダウンロードすると、ダウンロードした mbox.js ファイルと [!UICONTROL  のバックエンドでは、「]グローバル mBox 自動作成[!DNL Target]」フィールドが「true」になりますが、UI の[!UICONTROL 実装]ページでは、ページが更新されるまで表示は「false」のままになります（ページを更新すると「true」になります）。
 
@@ -236,7 +236,7 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 
 2019年11月25日から2020年4月26日まで、あるターゲットサーバーで、売上高ベースのレポート指標(AOV、RPV)で極端な注文値がカウントされる問題が発生していました。 2019年12月19日から2020年4月23日まで、同じ問題が発生したサーバーもあります。 この問題は、ターゲットサーバーの一部またはターゲットのお客様には影響しませんでした。
 
-次の場合は *影響を受けません* 。
+次の場合は&#x200B;**&#x200B;影響を受けませんでした：
 
 * ターゲット導入で使用されているサーバーが異なります。
 * レポートで、極端な注文が除外されませんでした。
@@ -244,7 +244,7 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 * ターゲットアクティビティは、Analyticsをターゲットに使用します(A4T)。
 * アジア太平洋(APAC)地域にあります。
 
-この問題がターゲットレポートに影響を与えたかどうかを判断するには、 [ClientCareにお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+この問題がお客様のターゲットレポートに影響を与えたかどうかを判断するには、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にご連絡ください。
 
 ### Recommendations
 
@@ -291,7 +291,7 @@ API2.3.0以降のリリースで修正されました。
 
 2018 年 11 月に修正されました。
 
-### at.js {#at-js-3}
+### at.js  {#at-js-3}
 
 at.js バージョン 1.6.0 を使用している場合、Analytics for Target（A4T）のリダイレクトは発生しますが、アクティビティの資格を満たしていたかどうかの確認はおこなわれません。
 
@@ -333,7 +333,7 @@ Target UI の代替レコメンデーションで、最近表示された項目�
 
 この問題は、Target 18.5.1（2018 年 5 月 23 日）リリースで修正されました。
 
-### at.js {#at-js-4}
+### at.js  {#at-js-4}
 
 at.js バージョン 0.9.6 で、Cookie の保存時に使用するトップレベルドメインを抽出するアルゴリズムが変更されました。これにより、IP を使用するアドレスには Cookie を保存できなくなりました。ほとんどの時間、IPアドレスはテスト目的で使用されますが、対処方法としては、ローカルボックスのホストファイルを調整するか、targetGlobalSettings（）を使用して、IPアドレスをサポートするコードスニペットを挿入します。
 
@@ -374,7 +374,7 @@ Enterprise 権限の移行の一環として、Target Premium のすべてのユ
 
 2 つ目の問題は Target 17.6.1 リリース（2017 年 6 月）で修正されました。
 
-### at.js {#at-js-5}
+### at.js  {#at-js-5}
 
 Target 17.4.1 リリース（2017 年 4 月 28 日）以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作をおこなうと、オファーコンテンツが配信されません。
 
@@ -394,7 +394,7 @@ Target 17.4.3 修正プログラムで修正されました。
 
 Target 17.4.3 修正プログラムで修正されました。
 
-### at.js {#at-js-6}
+### at.js  {#at-js-6}
 
 Visual Experience Composer（VEC）と at.js を使用している場合に、移動および整列の操作をおこなうと、オファーが配信されなくなっていました。
 
@@ -418,7 +418,7 @@ Target 17.4.1 リリース（2017 年 4 月 28 日）で修正されました。
 
 この問題は、Recommendations のリリース（2018 年 3 月 23 日）後に修正されました。Recommendations のリリース後は、mbox パラメーターで entity.id が渡されない場合、Target ではエンティティベースの動的ルールがスキップされるようになっています。
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 at.js の設定を更新した後、実装の詳細ページから at.js をダウンロードしようとすると、at.js ではなく mbox.js がダウンロードされます。（TGT-23069）
 
