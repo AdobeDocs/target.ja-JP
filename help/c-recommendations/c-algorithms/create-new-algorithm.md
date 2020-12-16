@@ -14,7 +14,7 @@ ht-degree: 66%
 
 # ![PREMIUM](/help/assets/premium.png) 条件を作成{#create-criteria}
 
-[!UICONTROL Adobe Target][!UICONTROL Recommendationsの条件は、] Recommendations  アクティビティの内容を制御します。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。これらの条件は、訪問者のアクションを使用して、表示するコンテンツまたは商品を決定します。
+[!UICONTROL Adobe Target] [!UICONTROL Recommendations]の条件は、[!UICONTROL Recommendations]アクティビティの内容を制御します。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。これらの条件は、訪問者のアクションを使用して、表示するコンテンツまたは商品を決定します。
 
 次の節では、新しい条件の作成方法について説明します。
 
@@ -22,15 +22,15 @@ ht-degree: 66%
 
 [!UICONTROL 新しい条件を作成]画面を表示するには、複数の方法があります。一部の画面オプションは、画面の表示方法によって異なります。
 
-* **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面で、条件を作成 **[!UICONTROL /条件を作成をクリックし]******&#x200B;ます。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
-* Visual Experience Composer [!DNL Recommendations] (VEC)を使用してアクティビティを作成する場合、ページ上の要素を選択し、「Recommendationsの置き換え、Recommendationsの置き換え、の挿入、Recommendationsの [!UICONTROL 挿入」をクリックした後、すぐに「基準の] 選択 」画面に移動します。 その後、使用可能な条件を選択するか、「条件を **[!UICONTROL 作成]**」をクリックします。 新しい条件を作成する場合は、他の [!DNL Recommendations] アクティビティで使用できるように条件を保存できます。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
+* **[!UICONTROL Recommendations]**/**[!UICONTROL 条件]**&#x200B;ライブラリ画面で、**[!UICONTROL 条件を作成]**/**[!UICONTROL 条件を作成]**&#x200B;をクリックします。 ここで作成した条件は、自動的にすべての [!DNL Recommendations] アクティビティで利用できるようになります。
+* [!UICONTROL Visual Experience Composer](VEC)を使用して[!DNL Recommendations]アクティビティを作成する場合、ページ上の要素を選択し、[!UICONTROL Recommendationsを置き換え]、[!UICONTROL Recommendationsを]の前に挿入、または[!UICONTROL Recommendationsを]の後に挿入します。 次に、使用可能な条件を選択するか、「**[!UICONTROL 条件を作成]**」をクリックします。 新しい条件を作成する場合は、他の[!DNL Recommendations]アクティビティで使用するために条件を保存するオプションがあります。 詳しくは、[Recommendationsアクティビティを作成する](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)を参照してください。
+* [!DNL Recommendations] アクティビティを編集している場合、ページの「 [!UICONTROL レコメンデーションの場所]」ボックスをクリックして、「**[!UICONTROL 条件を変更]**」を選択します。[!UICONTROL 条件を選択]画面で、「**[!UICONTROL 条件を作成]**」をクリックします。 他の [!DNL Recommendations] アクティビティで使用するために新しい条件を保存するオプションがあります。
 
-次の手順は、最初の方法で  新しい条件を作成画面にアクセスすることを前提としています。 **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]** ライブラリ画面。
+次の手順は、最初の方法を使用して[!UICONTROL 新しい条件を作成]画面にアクセスすることを前提としています。**[!UICONTROL Recommendations]** > **[!UICONTROL 条件]**&#x200B;ライブラリ画面。
 
-1. **[!UICONTROL Recommendations]** / **[!UICONTROL 条件]**&#x200B;をクリックします。
+1. **[!UICONTROL Recommendations]**/**[!UICONTROL 条件]**&#x200B;をクリックします。
 
-1. 条件 **[!UICONTROL を作成]** /条件を **[!UICONTROL 作成をクリックします]**。
+1. **[!UICONTROL 条件を作成]**/**[!UICONTROL 条件を作成]**&#x200B;をクリックします。
 
    ![新しい条件の作成](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
@@ -78,7 +78,7 @@ ht-degree: 66%
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
+   >「**[!UICONTROL 項目]**/ **[!UICONTROL 類似の属性を持つメディア]**」を選択すると、[コンテンツの類似性ルール](#similarity)を設定できます。
 
 ## Data Source {#data-source}
 
@@ -98,37 +98,37 @@ ht-degree: 66%
    * 1 か月
    * 2 か月
 
-1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. （条件付き）目的の&#x200B;**[!UICONTROL 行動データソース]**&#x200B;を選択します。[!UICONTROL mboxs]または[!UICONTROL Analytics]。
 
    >[!NOTE]
    >
-   >「 [!UICONTROL 行動データソース] 」セクションは、実装で [Analytics forターゲット](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)を使用している場合にのみ表示されます。
+   >[!UICONTROL 行動データソース]セクションは、導入で[ターゲット](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)に対してAnalyticsを使用している場合にのみ表示されます。
 
    ![「行動データソース」セクション](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    「[!UICONTROL Analytics]」を選択した場合、目的のレポートスイートを選択します。
 
-   If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria, as explained below:
+   条件が行動データソースとして[!DNL Adobe Analytics]を使用している場合、使用可能な条件は、以下に説明するように、選択したレポートスイートとルックバックウィンドウが他の条件に使用されたかどうかによって異なります。
 
-   * **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。This time frame is dependent on the [!DNL Analytics] system load.
+   * **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この時間枠は、[!DNL Analytics]システムの負荷に依存します。
    * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
    * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL 表示の親和性]レコメンデーションの場合、ユーザーが製品を表示すると、製品表示トラッキングコールがほぼリアルタイムで [!DNL Analytics] に渡されます。[!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
 
-   詳しくは、「Adobe AnalyticsとターゲットRecommendationsの [使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)」を参照してください。
+   詳しくは、[Adobe AnalyticsとターゲットRecommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)の使用を参照してください。
 
 ## コンテンツ {#content}
 
-Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). [!DNL Recommendations] の条件によって、デザインが呼び出すよりも少ないレコメンデーションを返すことがあります。例えば、デザインに4つの品目用のスロットがあり、条件によって2つの品目のみがレコメンデーションされる場合、残りのスロットを空のままにするか、代替レコメンデーションを使用して追加のスロットを埋めることができます。
+コンテンツルールは、レコメンデーション品目の数が[レコメンデーションデザイン](/help/c-recommendations/c-design-overview/design-overview.md)を満たさない場合の動作を決定します。 [!DNL Recommendations] の条件によって、デザインが呼び出すよりも少ないレコメンデーションを返すことがあります。例えば、デザインに4つの品目用のスロットがあり、条件によって2つの品目のみがレコメンデーションされる場合、残りのスロットを空のままにするか、代替レコメンデーションを使用して追加のスロットを埋めることができます。
 
 ![コンテンツセクション](/help/c-recommendations/c-algorithms/assets/content.png)
 
-1. （オプション）「 **[!UICONTROL Partial Design Rendering]** 」トグルを「on」位置にスライドします。
+1. （オプション）「**[!UICONTROL デザインの部分レンダリング]**」を「オン」の位置にスライドさせます。
 
    塗りつぶされるスロットはできるだけ多くありますが、デザインテンプレートに残りのスロット用の空白スペースが含まれる場合があります。 このオプションを無効にした場合、使用可能なすべてのスロットを満たすのに十分なコンテンツがないと、recommendationsは提供されず、代わりにデフォルトコンテンツが表示されます。
 
    空白のスロットでレコメンデーションを提供する場合は、このオプションを有効にします。 次の手順で説明するように、サイトの類似したコンテンツまたは人気のあるコンテンツで埋められた空のスロットに条件に基づいてレコメンデーションスロットにコンテンツを挿入する場合は、代替レコメンデーションを使用します。
 
-1. （オプション）「バックアップ **[!UICONTROL Recommendationsを表示]** 」トグルを「オン」位置にスライドします。
+1. （オプション）**[!UICONTROL 「バックアップRecommendationsを表示]**」を「オン」の位置に切り替えます。
 
    デザインの残りの空のスロットに、サイト全体から最も多く閲覧された製品をランダムに選択して入力します。
 
@@ -136,9 +136,9 @@ Content rules determine what happens if the number of recommended items does not
 
    ![4 x 1デザイン](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   条件によって2つの品目のみがレコメンデーションされるとします。 [ [!UICONTROL 部分的なデザインレンダリング] ]オプションを有効にした場合、最初の2つのスロットは満たされますが、残りの2つのスロットは空のままです。 ただし、「バックアップRecommendationsを  表示」オプションを有効にした場合、指定した条件に基づいて最初の2つのスロットが埋められ、残りの2つのスロットは代替レコメンデーションに基づいて埋められます。
+   条件によって2つの品目のみがレコメンデーションされるとします。 [!UICONTROL デザインの部分レンダリング]オプションを有効にした場合、最初の2つのスロットは満たされますが、残りの2つのスロットは空のままです。 ただし、「[!UICONTROL バックアップRecommendationsを表示]」オプションを有効にした場合、指定した条件に基づいて最初の2つのスロットが埋められ、残りの2つのスロットは代替レコメンデーションに基づいて埋められます。
 
-   次の表に、 [!UICONTROL 部分設計レンダリングと] バックアップRecommendations  (Backup Design Rendering)オプションを使用する場合の結果を示します。
+   次のマトリックスは、[!UICONTROL デザインの部分レンダリング]と[!UICONTROL Recommendationsのバックアップ]オプションを使用する場合に確認できる結果を示しています。
 
    | デザインの部分レンダリング | 代替レコメンデーション | 結果 |
    |--- |--- |--- |
@@ -147,15 +147,15 @@ Content rules determine what happens if the number of recommended items does not
    | 有効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインは部分的にレンダリングされます。<br>この基準がレコメンデーションを返さず、インクルージョンルールが代替レコメンデーションをゼロに制限する場合、デザインはデフォルトコンテンツで置き換えられます。 |
    | 無効 | 有効 | 使用可能なデザインの「スロット」に代替レコメンデーションが挿入され、デザインが完全にレンダリングされます。<br>インクルージョンルールを代替レコメンデーションに適用するとデザインに挿入できなくなるほど適格な代替レコメンデーションの数が制限される場合、デザインはデフォルトコンテンツに置き換えられ、レコメンデーションは表示されません。 |
 
-   詳しくは、「代替レコメンデーションの [使用](/help/c-recommendations/c-algorithms/backup-recs.md)」を参照してください。
+   詳しくは、[代替レコメンデーションの使用](/help/c-recommendations/c-algorithms/backup-recs.md)を参照してください。
 
-1. （条件付き）前の手順で「代替Recommendations **[!UICONTROL を表示」を選択した場合]** 、「代替レコメンデーションにインクルージョンルールを **[!UICONTROL 適用]**」を有効にできます。
+1. （条件付き）前の手順で「**[!UICONTROL バックアップRecommendationsを表示]**」を選択した場合は、「**[!UICONTROL 代替レコメンデーションにインクルージョンルールを適用]**」を有効にできます。
 
    インクルージョンルールは、レコメンデーションに含める品目を決定します。 使用できるオプションは、業種によって異なります。
 
-   For more details, see [Specify inclusion rules](#inclusion) below.
+   詳しくは、以下の[インクルージョンルールの指定](#inclusion)を参照してください。
 
-1. （オプション）「以前購入した **[!UICONTROL レコメンデーション品目]** 」トグルを「オン」位置にスライドします。
+1. （オプション）「以前購入したことを推奨する品目&#x200B;]**」を「オン」位置に切り替えるように**[!UICONTROL &#x200B;スライドします。
 
    この設定は、`productPurchasedId` に基づいています。デフォルトの動作では、以前に購入された品目はレコメンドされません。ほとんどの場合、顧客が最近購入した品目を再び推奨することは望ましくありません。カヤックなど、通常 1 回しか購入しない品目を販売する場合に便利です。シャンプーや他の個人用品など、繰り返し購入に戻る品目を販売する場合は、このオプションを有効にする必要があります。
 
@@ -165,7 +165,7 @@ Content rules determine what happens if the number of recommended items does not
 
 >[!NOTE]
 >
->If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+>**[!UICONTROL 類似の属性を持つメディア]**&#x200B;を[レコメンデーションロジック](#info)として「&lt;a0/>項目&#x200B;]**/**[!UICONTROL 」を選択した場合は、コンテンツの類似性ルールを設定するオプションがあります。
 
 コンテンツの類似性では、アイテム属性キーワードを比較し、複数の項目に共通するキーワードの数に基づいてレコメンデーションを作成します。コンテンツの類似性に基づくレコメンデーションでは、過去のデータがなくても質の高い結果が得られます。
 
@@ -221,7 +221,7 @@ Content rules determine what happens if the number of recommended items does not
    >
    >このオプションは、レコメンデーションに表示される品目を限定します。そのレコメンデーションがどのページに表示されるかには影響しません。レコメンデーションを表示する場所を制限するには、Experience Composer でページを選択します。
 
-For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+詳しくは、[動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を参照してください。
 
 ## 属性の重み付け {#weighting}
 
@@ -251,7 +251,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 新しい [!UICONTROL Recommendations] アクティビティを作成したり、既存のものを編集したりする場合、「**[!UICONTROL 後で使用するために条件を保存]**」チェックボックスがデフォルトで選択されています。他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
 
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsで条件を作成(12:33) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
