@@ -14,35 +14,35 @@ ht-degree: 75%
 
 # A/B テストを実行すべき期間はどのくらいですか？
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+[!UICONTROL A/Bテスト]のアクティビティが成功した場合、コンバージョン率を向上させるために十分な数の訪問者（サンプルサイズ）が必要ですが、A/Bテストを実行するまでの時間をどの程度知っていますか。 この記事には、[!UICONTROL 自動配分]アクティビティと[!UICONTROL Adobe Target]サンプルサイズ計算ツールに関する情報が含まれており、目標を達成するのに十分な数の訪問者をアクティビティに確実に用意しています。
 
 アクティビティの最初の数日でオファーの 1 つのパフォーマンスが他に比べてずっと優れている、または劣っている場合、アクティビティを停止したくなります。ただし、観測結果の数が少ない場合、コンバージョン率は少ない訪問者数の平均なので、まったく偶然にプラスまたはマイナスの上昇が観測される可能性が高いです。アクティビティでより多くのデータポイントを収集するに従って、コンバージョン率は真の長期的な値に近づきます。
 
 >[!IMPORTANT]
 >
->アクティビティを早期に停止することは、A/Bテストを実行する際に悪影響を及ぼす可能性のある、10個の重要な落とし穴の1つです。 詳しくは、 [10件の一般的なA/Bテストの落とし穴とそれらの回避方法を参照してください](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>アクティビティを早期に停止することは、A/Bテストを実行する際に悪影響を及ぼす可能性のある、10個の重要な落とし穴の1つです。 詳しくは、[一般的な10個のA/Bテストの落とし穴とそれらの回避方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)を参照してください。
 
 [!DNL Target] には、コンバージョン目標を達成するのに十分なサンプルサイズをアクティビティに確実に持たせるためのツールが用意されています。自動配分を参照してください。
 
 ## 自動配分 {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)アクティビティは、2つ以上のエクスペリエンスのうちの勝者を特定し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再割り当てしてコンバージョンを増やすA/Bテストの一種です。
 
 標準的な A/B テストには、固有のコストがあります。各エクスペリエンスのパフォーマンスを測定するためにトラフィックを費やす必要があり、分析を通じて勝者エクスペリエンスを見つけ出す必要があります。トラフィックの配分は、一部のエクスペリエンスが他よりもパフォーマンスに優れているとわかった後でも、固定されたままです。また、サンプルサイズの計算が複雑で、アクティビティは、勝者に対して働きかけられるようになる前に全コースを実行する必要があります。これをすべておこなった後でも、特定した勝者が真の勝者ではない可能性があります。
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自動配分は、このコストおよび勝者エクスペリエンスの判別のオーバーヘッドを削減します。][!UICONTROL 自動配分では、すべてのエクスペリエンスの目標指標パフォーマンスを監視し、パフォーマンスの高いエクスペリエンスに、パフォーマンスの高さに応じて多くの新規参加者を送ります。]他のエクスペリエンスを調査するのに十分なトラフィックが予約されます。アクティビティがまだ実行中でも、結果に対するアクティビティのメリットを確認できます。最適化は学習と並行して行われます。
+解決策は[!UICONTROL 自動配分]です。 [!UICONTROL 自動配分は、このコストおよび勝者エクスペリエンスの判別のオーバーヘッドを削減します。][!UICONTROL 自動配分では、すべてのエクスペリエンスの目標指標パフォーマンスを監視し、パフォーマンスの高いエクスペリエンスに、パフォーマンスの高さに応じて多くの新規参加者を送ります。]他のエクスペリエンスを調査するのに十分なトラフィックが予約されます。アクティビティがまだ実行中でも、結果に対するアクティビティのメリットを確認できます。最適化は、学習と並行して行われます。
 
 [!UICONTROL 自動配分は、アクティビティが終了して勝者が決まるまで待たずに、訪問者を徐々に勝者エクスペリエンスに近づけます。]成功していないエクスペリエンスに送られたアクティビティ参加者は勝者エクスペリエンスの可能性を示しているので、より迅速に上昇するメリットが得られます。
 
 [!UICONTROL 自動配分]機能を使用すると、[!DNL Target] は、アクティビティが十分な信頼性のあるコンバージョンの最低数に達するまで、アクティビティのページの最上部に「まだ勝者がありません」ということを示すバッジを表示します。[!DNL Target]次に、 は、アクティビティのページの上部にバッジを表示して、勝者エクスペリエンスを宣言します。
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+詳しくは、[自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)を参照してください。
 
 ## Adobe Target サンプルサイズ計算ツール {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. 手動のA/Bテストは、固定水平線テストなので、計算ツールは非常に役立ちます。 自動配分 [!UICONTROL アクティビティの計算ツールの使用はオプションです。] 自動配分では勝者が [!UICONTROL 宣言されるので] 、自動配分(Auto-Allocate)は任意です。 計算ツールを使用すると、必要なサンプルサイズを概算できます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
+[!UICONTROL 自動配分]ではなく、手動の[!UICONTROL A/Bテスト]アクティビティを使用する場合は、[!DNL Target]サンプルサイズ計算ツールを使用して、テストを成功させるのに必要なサンプルサイズを計算できます。 手動のA/Bテストは、固定水平線テストなので、計算ツールは非常に役立ちます。 [!UICONTROL 自動配分]アクティビティの計算ツールを使用することはオプションです。これは、[!UICONTROL 自動配分]が推奨結果を宣言するためです。 計算ツールを使用すると、必要なサンプルサイズを概算できます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+A/Bテストを設定する前に、Adobe Target[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)にアクセスします。
 
 ![Adobe Target サンプルサイズ計算ツール](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ A/B テストの場合、統計的有意性、統計的検出力、最小信頼�
 
 テストの有意水準は、異なる2つのオファー間で、実際にはコンバージョン率に違いがない場合に、その違いがレポートされる可能性を決定します。 これは、偽陽性または第一種過誤と呼ばれます。有意水準はユーザーが指定するしきい値で、偽陽性の許容値とテストに含める必要がある訪問者数とのトレードオフを示します。
 
-A/B テストでは、当初、どちらのオファーもコンバージョン率は同じであると想定します。その後、この想定に基づいて観察結果の確率が計算されます。If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+A/B テストでは、当初、どちらのオファーもコンバージョン率は同じであると想定します。その後、この想定に基づいて観察結果の確率が計算されます。この確率（p値）が事前に定義されたしきい値（有意水準）より小さい場合、[!DNL Target]は、最初の前提として、両方のオファーが同じコンバージョン率を持つと判断し、AとBのコンバージョン率が所定の有意水準で統計的に異なると結論付けます。
 
 A/B テストで一般的に使用される有意水準は 5％です。これは、信頼水準 95％（信頼水準＝100％ - 有意水準）に相当します。信頼水準 95％とは、毎回のテストでオファー間に違いがない場合でも、統計的に有意な上昇率が 5％の確率で見つかるという意味です。
 
@@ -142,7 +142,7 @@ A/B テストの統計的検出力は、ある特定の規模におけるコン�
 
 訪問あたりの利益（RPV）は、それぞれ独自の分散を持つ注文あたりの利益とコンバージョン率の積なので（RPV = 利益/訪問者数 =（注文あたりの利益 * 注文数）/訪問者数 = 注文あたりの利益 *（訪問者数 * CTR）/訪問者数 = 注文あたりの利益 * CTR）、RPV を指標として使用するときは、分散の追加ソースが追加されます。コンバージョン率の分散は、数学モデルを使用して直接見積もることができますが、注文あたりの売上高の分散はアクティビティに固有です。 したがって、過去のアクティビティからのこの分散の知識を使用するか、A/Bテストを数日間実行して売上高の分散を見積もります。 平方偏差は、CSVダウンロードファイルに含まれる訪問者の合計、売上合計の2乗および数の値から計算されます。 この設定が完了したら、スプレッドシートを使用してテストの完了に必要な時間を計算します。
 
-サンプルサイズ計算ツール（上記のリンクを参照）は、RPV 指標の設定に役立ちます。When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. RPV バージョンの計算ツールを使用する場合は、次の情報が必要になります。
+サンプルサイズ計算ツール（上記のリンクを参照）は、RPV 指標の設定に役立ちます。計算ツールを開くと、[!UICONTROL RPV Metric]というタブが表示されます。 RPV バージョンの計算ツールを使用する場合は、次の情報が必要になります。
 
 * 制御オファーへの訪問者数
 * 制御オファーの合計利益
@@ -155,12 +155,12 @@ A/B テストの統計的検出力は、ある特定の規模におけるコン�
 
 一般に、RPVを指標として使用する場合、同じレベルの測定された上昇率に対して同じレベルの統計的信頼性を実現するには、20 ～ 30%長い時間が必要です。 これは、RPVには、コンバージョンごとに異なる注文サイズの差異が加わるからです。 これは、最終的なビジネス上の意思決定の基となる指標として、単純なコンバージョン率とRPVのどちらを選択するかを検討する際に考慮する必要があります。
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## 複数のオファーの比較の修正{#section_1474113764224D0B85472D8B023CCA15}
 
 2 つのオファーを比較するたびに、偽陽性（コンバージョン率に違いがない場合でも、統計的に有意な違いを観察すること）が発生する可能性は有意水準と同じです。例えば、A／B／C／D／E の 5 つのオファーがあり、A が制御オファーの場合、 つの比較（制御オファーと B、制御オファーと C、制御オファーと D および制御オファーと E）がおこなわれ、信頼水準が 95％でも偽陽性の確率は 18.5％になります（Pr（少なくとも 1 つの偽陽性）= 1 - Pr（偽陽性なし）= 1 - 0.954 = 18.5％）。偽陽性は、代替オファーよりも優れていると報告される制御オファー、または制御オファーよりも優れていると報告される代替オファーのいずれかとして定義されるコンテキスト（実際は両方のオファーに違いはない）にあります。
 
 ## まとめ {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-[!UICONTROL 自動配分] アクティビティを使用すると、2つ以上のエクスペリエンスのうちの勝者を [!DNL Target] 識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再割り当てして、コンバージョンを増やします。 [!UICONTROL 自動配分を使用すると、推測による作業を排除して、コンバージョン目標を簡単に達成できます。]
+[!UICONTROL 自動配分]アクティビティを使用すると、[!DNL Target]は、複数のエクスペリエンスの中で勝者を識別し、テストの実行と学習を続ける間に、より多くのトラフィックを推奨者に自動的に再割り当てして、コンバージョンを増やします。 [!UICONTROL 自動配分を使用すると、推測による作業を排除して、コンバージョン目標を簡単に達成できます。]
 
 この記事で紹介したサンプルサイズ計算ツール（前述のリンク参照）を使用し、算出された時間に基づいてテストを実施すれば、特定のテストにふさわしいと判断された偽陽性率と偽陰性率に従って高品質な A/B テストを実施できます。その結果、テストは首尾一貫したものとなり、最適な上昇率を確実に検出することができます。
