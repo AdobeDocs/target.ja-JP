@@ -16,13 +16,13 @@ ht-degree: 90%
 
 カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 
-For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+詳しくは、[グローバルmboxにパラメーターを渡す](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)を参照してください。
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 
 1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
 1. オーディエンスに名前を付けます。
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
+1. **[!UICONTROL ルール]**&#x200B;追加/**[!UICONTROL カスタム]**&#x200B;をクリックします。
 
    目的のパラメーターを選択するには：
 
@@ -56,7 +56,7 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 * オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡すが、リージョナル mbox は渡さない場合、そのパラメーターをターゲットにしたアクティビティ／オーディエンスでは、リージョナル mbox は対象になりません。
 * ターゲット設定は、mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxMCGVID、mboxCount、mboxId、mboxVersionなどの内部mboxパラメーターでは評価されません。
 
-## トレーニングビデオ：オーディエンス ![チュートリアルバッジの作成](/help/assets/tutorial.png)
+## トレーニングビデオ：オーディエンスの作成![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 
