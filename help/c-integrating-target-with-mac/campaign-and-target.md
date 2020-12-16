@@ -14,11 +14,11 @@ ht-degree: 51%
 
 # Target と Adobe Campaign の統合{#integrate-target-with-adobe-campaign}
 
-Use [!DNL Target] with [!DNL Adobe Campaign] to optimize email content.
+[!DNL Target]を[!DNL Adobe Campaign]と共に使用して、電子メールコンテンツを最適化します。
 
-To optimize your email content--for example, to display different offers for male and female recipients--you can create a redirect offer in [!DNL Target], then use [!DNL Adobe Campaign] to manage the email offers.
+電子メールコンテンツを最適化する(例えば、男性と女性の受信者に異なるオファーを表示する)ために、[!DNL Target]でリダイレクトオファーを作成し、[!DNL Adobe Campaign]を使用して電子メールオファーを管理できます。
 
-電子メールを開いた際に、統合が実施されます。When the customer opens the email, a call is made to [!DNL Target] and a dynamic version of the content appears. コンテンツは、すべてのブラウザーでサポートされる静的な画像で構成されます。[!DNL Target] は、オーディエンスまたはセッションレベルでオファーに対する反応を追跡し、そのデータは、 のレポートで利用できます。[!DNL Target]
+電子メールを開いた際に、統合が実施されます。顧客が電子メールを開くと、[!DNL Target]への呼び出しが行われ、コンテンツの動的なバージョンが表示されます。 コンテンツは、すべてのブラウザーでサポートされる静的な画像で構成されます。[!DNL Target] は、オーディエンスまたはセッションレベルでオファーに対する反応を追跡し、そのデータは、 のレポートで利用できます。[!DNL Target]
 
 Target は、次のデータを追跡できます。
 
@@ -26,47 +26,47 @@ Target は、次のデータを追跡できます。
 * IP アドレス
 * 地理的な場所
 * Target で訪問者の ID に関連付けられたセグメント（法的な承認を必要とします）
-* Data from [!DNL Campaign] Datamart
+* [!DNL Campaign] Datamartからのデータ
 
 いくつかの制限があります。
 
 * 使用できるのは画像のみなので、コンテンツはパーソナライズできません。
-* Tracking is not consolidated in [!DNL Adobe Campaign].
+* トラッキングは[!DNL Adobe Campaign]に統合されていません。
 * 統一されたユーザーエクスペリエンスはありません。
 
-   You must use both [!DNL Target] and [!DNL Campaign] to set up different parts of the integration:
+   統合の異なる部分を設定するには、[!DNL Target]と[!DNL Campaign]の両方を使用する必要があります。
 
    *  の rawbox およびエクスペリエンス[!DNL Target]
    >[!NOTE]
    >
-   >rawboxおよびを使用する場合は、「ターゲットに対してmbox呼び出しを送信する権限を持つホストを指定する許可リストの [!DNL Target]作成」の重要なセキュリティに関する通知を参照してください [](/help/administrating-target/hosts.md#allowlist)。
+   >rawboxと[!DNL Target]を使用する場合は、「[ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
 
-   * The delivery in [!DNL Campaign]
+   * [!DNL Campaign]の配信
 
 
 
 ## 始める前に {#section_FF19BF1BCA064260930BF6C141313B0E}
 
-Before you use [!DNL Adobe Campaign] to set up your targeted email offers, set up the following in [!DNL Target]:
+[!DNL Adobe Campaign]を使用してターゲットの電子メールオファーを設定する前に、[!DNL Target]に次の設定を行ってください。
 
-* Two or more [!DNL Target] redirect offers
+* 2つ以上の[!DNL Target]リダイレクトオファー
 
-   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+   「[リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md)」を参照してください。
 * 各オファーのエクスペリエンスと目的の[成功指標](/help/c-activities/r-success-metrics/success-metrics.md)を含む Target アクティビティ
 
    [URL にリダイレクト](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
 
-Start the activity in [!DNL Target] before setting up the [!DNL Campaign] portion of the integration.
+統合の[!DNL Campaign]部分を設定する前に、[!DNL Target]にアクティビティを開始します。
 
 ## Adobe Campaign 電子メールに Target オファーを含める {#section_B201BBE27A704E18AF0D553F35695837}
 
-1. Create an email in [!DNL Adobe Campaign].
+1. [!DNL Adobe Campaign]に電子メールを作成します。
 1. 電子メールのプロパティで、**[!UICONTROL 含める]**／**[!UICONTROL Adobe Target によって提供される動的画像]**&#x200B;をクリックします。
 1. 共有アセットからデフォルト画像を選択します。
 1. 場所（rawbox）を指定します。
 1. 受信者の性別など、その他の決定パラメーターを追加します。
 1. 各オファーに少なくとも 1 人の受信者を選択して（この場合、男性および女性）、電子メールをプレビューします。
-1. In [!DNL Campaign], define the [!DNL Target] Edge server you are using to control the activity and the name of the tenant.
-1. Specify the external account used for the [!DNL Adobe Experience Cloud] so you can access the resources in the [!DNL Experience Cloud].
+1. [!DNL Campaign]に、テナントのアクティビティと名前を制御するために使用する[!DNL Target] Edgeサーバーを定義します。
+1. [!DNL Adobe Experience Cloud]の外部アカウントにアクセスできるように、[!DNL Experience Cloud]に使用するリソースを指定します。
 
-For more information, refer to the [!DNL Adobe Campaign] documentation.
+詳しくは、[!DNL Adobe Campaign]のドキュメントを参照してください。
