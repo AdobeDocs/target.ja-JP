@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.ターゲット.applyOffers(options) - at.js 2.x
 
 この関数を使用すると、`adobe.target.getOffers()` で取得した複数のオファーを適用できます。
 
@@ -22,14 +22,14 @@ ht-degree: 95%
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。セレクターを指定しない場合、[!DNL Target]は、使用するHTMLHEADがHTML要素であると見なします。 |
 | 応答 | オブジェクト | ○ | `getOffers()` からのレスポンスオブジェクト。<br>下の「リクエスト」の表を参照してください。 |
 
 ## 応答
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドに使用できるタイプについては、 [配信APIのドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) を参照してください。
+>以下に示すすべてのフィールドに使用できるタイプについては、[配信APIドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
 
 | フィールド名 | 説明 |
 | --- | --- |
