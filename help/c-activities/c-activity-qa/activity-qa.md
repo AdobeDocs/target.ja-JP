@@ -28,7 +28,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 
    >[!NOTE]
    >
-   >これは、バージョン2を使用するat.js実装に当てはまります。*x* 以降。 at.js 1の場合。*x* およびmbox.jsの実装では、これは、訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
+   >これは、バージョン2を使用するat.js実装に当てはまります。** xor後。at.js 1の場合。*mbox.jsの* 実装をxxおよびxtingした場合、これは訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
 
 ## QA URL へのアクセスおよび共有 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 
       この設定を「オフ」にした場合は、ユーザーがリンクをクリックすると、ルールに一致するかどうかに関係なく、エクスペリエンスが表示されます。QA を実行する際は、このオーディエンスのターゲット設定を考慮するかしないかを切り替えることができます。
 
-   * **その他のすべてのアクティビティのデフォルトコンテンツを表示：** このオプションを「オン」の位置に切り替えると、他のすべてのアクティビティに対してデフォルトのコンテンツが表示されます(例えば、同じページ/[!DNL Target] リクエスト上の他のすべてのライブアクティビティを考慮せずに、プレビューが分離して表示されます)。
+   * **その他のすべてのアクティビティのデフォルトコンテンツを表示：** このオプションを「オン」に切り替えると、他のすべてのアクティビティのデフォルトコンテンツが表示されます(例えば、同じページ/[!DNL Target] リクエスト上の他のすべてのライブアクティビティは考慮されません)。
 
       「オフ」にした場合は、以下の点を考慮します。
 
@@ -58,7 +58,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
 
    それぞれのアクティビティリンクの URL（Exp A、Exp B など）をクリックすることで、対応するエクスペリエンスからのユーザージャーニーを開始できます。特定のエクスペリエンス用に生成された URL をクリックしてから、通常どおりサイトを閲覧し、様々なページ（複数のページがある場合）でエクスペリエンスを表示できます。エクスペリエンスごとに URL が 1 つだけ生成されます。テンプレートのテストや複数ページのテストなど、複数のページにまたがるエクスペリエンスの場合でもそれは同様です。
 
-   アクティビティ QA は固定式なので、サイト内を移動して他のページを表示できます。これは、バージョン2を使用するat.js実装に当てはまります。*x* 以降。 at.js 1の場合。*x* およびmbox.jsの実装では、これは、訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
+   アクティビティ QA は固定式なので、サイト内を移動して他のページを表示できます。これは、バージョン2を使用するat.js実装に当てはまります。** xor後。at.js 1の場合。*mbox.jsの* 実装をxxおよびxtingした場合、これは訪問者のブラウザーがサードパーティcookieをブロックしない場合にのみ当てはまります。
 
 1. アクティビティリンク URL から生成されたレポートを表示するには、アクティビティの&#x200B;**[!UICONTROL レポート]**&#x200B;ページをクリックし、「**[!UICONTROL 設定]**」アイコン（![](assets/icon_gear.png)）をクリックして、**[!UICONTROL 環境]**&#x200B;ドロップダウンリストから **[!UICONTROL QA モード]**&#x200B;を選択します。
 
@@ -75,7 +75,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
    また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
 
 * &quot;URLが」を指定して、Visual Experience [Composerのフォームベースのコンポーザー](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [ページ配信オプションでアクティビティの絞り込みを作成した場合、](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) アクティビティQAはURLパラメーターを追加するので、QA URLは機能しません。この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
-* at.js 1をお持ちの場合。*x*、またはmbox.jsで、SafariやサードパーティCookieをブロックする他のブラウザーを使用する場合、アクティビティQAモードは固定されません。 このような場合は、移動先の各URLにプレビューパラメーターを追加する必要があります。 CNAMEを実装している場合も同じ [ことが言えます](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
+* at.js 1をお持ちの場合。*x*、またはmbox.jsで、SafariやサードパーティCookieをブロックする他のブラウザーを使用する場合、アクティビティQAモードは固定されません。このような場合は、移動先の各URLにプレビューパラメーターを追加する必要があります。 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)を実装した場合も同じことが言えます。
 * アクティビティが複数のエクスペリエンスオーディエンス（たとえば、同じアクティビティに含まれる米国と英国のサイト）を使用している場合、4つの組み合わせ（エクスペリエンスA / USサイト、エクスペリエンスA / UKサイト、エクスペリエンスB / USサイト、Experience B / Ukサイト）に対して QA リンクは生成されません。エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。英国の QA ユーザーには、米国サイトは表示されません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
 
@@ -90,7 +90,7 @@ Adobe TargetのQA URLを使用して、変更のないプレビューリンク�
    | `at_preview_token` | 暗号化された文字列 | 必須、デフォルト値なし | QA モードで実行できるキャンペーン ID のリストを含む、暗号化されたエンティティです。 |
    | `at_preview_index` | 文字列 | 空 | パラメータの形式 `<campaignIndex>` または `<campaignIndex>_< experienceIndex>`<br>両方のインデックスは1から始まります。 |
    | `at_preview_listed_activities_only` | ブール値（true／false） | デフォルト値：false | &quot;true&quot;の場合、 `at_preview_index` パラメーターで指定されているすべてのキャンペーンが処理されます。<br>「false」の場合、プレビュートークンで指定されていない場合でも、ページのすべてのキャンペーンが処理されます。 |
-   | `at_preview_evaluate_as_true_audience_ids` | 文字列 | 空 | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
+   | `at_preview_evaluate_as_true_audience_ids` | 文字列 | 空 | [!DNL Target]リクエストのスコープで、必ず(ターゲット設定とレポートレベルで)「true」と評価される必要があるsegmentId-sのアンダースコア区切り(「_」)リスト。 |
    | `_AT_Debug` | 文字列 | ウィンドウまたはコンソール | コンソールログまたは新規ウィンドウです。 |
    | `adobe_mc_ref` |  |  | デフォルトのページの参照 URL を新しいページに渡します。バージョン2.1以降で `AppMeasurement.js` 使用する場合、このパラメーター値 [!DNL Adobe Analytics] を新しいページの参照URLとして使用します。 |
    | `adobe_mc_sdid` |  |  | [!DNL Supplemental Data Id] [!DNL Experience Cloud Org Id] (SDID) およびAnalytics for Target（A4T）を新しいページに渡し、デフォルトページでTargetリクエストを「ステッチ」して、新しいページでのAnalyticsリクエストを実行します。 |
