@@ -99,7 +99,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
 **Visual Experience Composer（VEC）を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. [APアクティビティ](/help/c-activities/t-automated-personalization/create-ap-activity.md)の作成時または編集時に、置き換えるコンテンツを選択し、**[!UICONTROL テキスト/HTML]**&#x200B;を変更、**[!UICONTROL 画像を変更]**&#x200B;または&#x200B;**[!UICONTROL 背景色を変更]**&#x200B;にアクセスします。
 1. ダイアログボックスで新しいコンテンツを作成し、デフォルトコンテンツの右側にある「**含める**」をオフにします（またはコンテンツを選択画面の「デフォルト画像 / ビデオ」をオフにします）。
 
    コンテンツ／オファーのタイプによっては、「[!UICONTROL 含める]」チェックボックスの位置が若干異なります。
