@@ -30,7 +30,7 @@ Visual Experience Composer（VEC）は、ページ上のエクスペリエンス
 
    ページ上の要素にマウスポインターを置くと、その要素が強調表示されます。強調表示された要素は、Experience Composer を使用して変更できます。
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   ターゲットクラシック(旧称Test&amp;ターゲット)を使用してページに[!DNL Target]リクエストを作成した場合、その[!DNL Target]リクエストはリクエスト名を示すエレメントとして表示され、他のと同様に変更できます。
 
    エクスペリエンスを変更するために表示されるページの要素で実行可能なアクションのリストについては、[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)を参照してください。
 
@@ -93,7 +93,7 @@ A/B テストでは、エクスペリエンスをコピーすることで、ゼ�
 
 ![「エクスペリエンスを削除」オプション](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composerの使用![チュートリアルバッジ](/help/assets/tutorial.png)
 
 以下のビデオでは、Visual Experience Composer のオプションの使用に関する情報を提供しています。(7:17)
 
