@@ -41,7 +41,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSVレポートには、生のデータのみが含まれ、A/Bテストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSVレポートには、生のデータのみが含まれ、A/Bテストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 これらの計算指標を計算するには、ターゲットの[Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excelファイルをダウンロードしてアクティビティの値を入力するか、ターゲット](/help/assets/statistical-calculations.pdf)が使用する[統計指標を確認します。
 
 ## 注文の詳細を CSV に書き出す {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
