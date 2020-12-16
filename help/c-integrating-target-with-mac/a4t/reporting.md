@@ -14,69 +14,69 @@ ht-degree: 35%
 
 # A4T レポート{#a-t-reporting}
 
-Using [!DNL Analytics] as your reporting source for [!DNL Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
+[!DNL Analytics]を[!DNL Target] (A4T)のレポートソースとして使用すると、[!DNL Target]アクティビティの[!DNL Analytics]レポートにアクセスできます。
 
-You can view reports for your activities in both [!DNL Analytics] and [!DNL Target].
+アクティビティの表示レポートは、[!DNL Analytics]と[!DNL Target]の両方で作成できます。
 
-For reporting best practices using [!DNL Analytics] for [!DNL Target], [visit this Adobe Spark page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+[!DNL Analytics]を[!DNL Target]に使用するレポートのベストプラクティスについては、[このAdobe Sparkのページ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を参照してください。
 
 ## 概要 {#section_035A62D65608423285D8A5A54731E2C5}
 
-Both [!DNL Analytics] and [!DNL Target] reports measure entrants (the people who enter the tests), rather than visitors to the site.
+[!DNL Analytics]と[!DNL Target]の両方のレポートは、サイトへの訪問者ではなく、参加者（テストに参加した人）を測定します。
 
-Every time a visitor sees activity content on the page, [!DNL Target] makes a direct server-to-server call to [!DNL Analytics], including which activity and experience the visitor saw. [!DNL Target] また、コンバージョン [!DNL Analytics] がおこなわれるたびに呼び出されます。 [!DNL Analytics] によって、「アクティビティコンバージョン」という名前の特定の新しい [!DNL Analytics] イベントとしてコンバージョンが追加されます。このは、によって収集された他のデータと共に追跡され [!DNL Analytics]ます。
+訪問者がページ上のアクティビティコンテンツを見るたびに、[!DNL Target]は、訪問者がどのアクティビティとエクスペリエンスを見たかを含む、[!DNL Analytics]への直接のサーバー間呼び出しを行います。 [!DNL Target] また、コンバージョンがおこなわれ [!DNL Analytics] た場合は必ずが呼び出されます。[!DNL Analytics] によって、「アクティビティコンバージョン」という名前の特定の新しい [!DNL Analytics] イベントとしてコンバージョンが追加されます。この [!DNL Analytics]は、によって収集された他のデータと共に追跡されます。
 
-When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then only experiences that received entrants during the selected time period are displayed in the reports.
+[!UICONTROL 「]を選択」操作を使用し、*参加者*&#x200B;で並べ替えると、選択した期間に参加者を獲得したエクスペリエンスのみがレポートに表示されます。
 
 >[!NOTE]
 >
->Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. 最初の 24 時間に収集されたデータも正確であり、適切なエクスペリエンスに割り当てられます。
+>[!DNL Target]が生成するレポートには、4分の遅延があります。 A4Tで動作するアクティビティの場合、[!DNL Target]と[!DNL Analytics]の両方のレポートで、アクティビティが最初に保存されてから、エクスペリエンス別にレポートデータを分類できるようになるまでに、最大24時間かかる場合があります。 最初の 24 時間に収集されたデータも正確であり、適切なエクスペリエンスに割り当てられます。
 
 ## Analytics のレポート {#analytics}
 
-に [!DNL Analytics]は、A4T統合を有効にした後に使用できるディメンションと指標がいくつか用意されています。
+[!DNL Analytics]には、A4T統合を有効にした後に使用できるディメンションと指標がいくつかあります。
 
 ### ディメンション
 
-* [!UICONTROL ターゲットの分析] — 統合を介して渡される親ID。 このディメンションの形式はで `Activity ID:Experience ID:3rd ID`す。 次のディメンションは、このディメンションの分類です。
+* [!UICONTROL ターゲットの分析]  — 統合を介して渡される親ID。このディメンションの形式は`Activity ID:Experience ID:3rd ID`です。 次のディメンションは、このディメンションの分類です。
 * [!UICONTROL ターゲットアクティビティ]
 * [!UICONTROL ターゲットエクスペリエンス]
 * [!UICONTROL ターゲットアクティビティ] / [!UICONTROL エクスペリエンス]
-* [!UICONTROL 3番目のID] — 無視可能
+* [!UICONTROL 3番目のID]  — 無視可能
 
 ### 指標
 
-* [!UICONTROL アクティビティのインプレッション] — レ [!UICONTROL ポートの][!DNL Target] 参加者数に一致します。
-* [!UICONTROL アクティビティコンバージョン] — レポート内の [!UICONTROL カスタムコンバージョン][!DNL Target] 数に一致します。
+* [!UICONTROL アクティビティのインプレッション] -  レポートの [!DNL Target] 参加者数に一致します。
+* [!UICONTROL アクティビティコンバージョン] - [!UICONTROL レポート内の] カスタムコンバージョン [!DNL Target] 数に一致します。
 
-で [!DNL Analysis Workspace]は、 [!UICONTROL Analyticsのターゲット用パネルを使用して、] 上昇率と信頼性を持つ [!DNL Target] アクティビティとエクスペリエンスを分析します。 詳しくは、Analyticsツールガイドの [ターゲット用の](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics(A4T)パネル *(* Analyticsツールガイド)を参照してください。
+[!DNL Analysis Workspace]で、[!UICONTROL ターゲットの分析]パネルを使用して、[!DNL Target]のアクティビティーとエクスペリエンスを上昇率と信頼性の高いもので分析します。 詳しくは、*Analyticsツールガイド*&#x200B;の[ターゲット用のAnalytics(A4T)パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)を参照してください。
 
 >[!IMPORTANT]
 >
->If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. カスタマーケアに連絡して、この問題を解決してください。
+>[!UICONTROL ターゲットアクティビティ]が、アクティビティのリストを表示する代わりに[!DNL Analytics]リストーで「未指定」と報告する場合は、プロビジョニングされたアカウントの更新が必要です。 カスタマーケアに連絡して、この問題を解決してください。
 
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
+詳細な情報と例については、[Analytics &amp;ターゲットを開きます。Adobe Experience Leagueが提供する分析](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)のベストプラクティスのチュートリアル。
 
 ## Target のレポート {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
-When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] show the data gathered from [!DNL Analytics]. The report differs somewhat from other [!DNL Target] reports:
+[!DNL Analytics]をレポートソースとして使用すると、[!DNL Target]のレポートには、[!DNL Analytics]から収集されたデータが表示されます。 このレポートは他の[!DNL Target]レポートと少し異なります。
 
-* The [!UICONTROL Audiences] list shows the audiences available to your [!DNL Analytics] report suite.
-* The [!UICONTROL Metric] list shows every metric available through [!DNL Analytics].
+* [!UICONTROL オーディエンス]リストは、[!DNL Analytics]レポートスイートで使用できるオーディエンスを表示します。
+* [!UICONTROL 指標]リストは、[!DNL Analytics]を通じて使用できるすべての指標を表示します。
 
-   Every metric is available, including any custom or calculated metrics that are built-in in [!DNL Analytics].
+   カスタム指標や計算指標など、[!DNL Analytics]に組み込まれている指標はすべて使用できます。
 
    このレポートでは、実際には数値の上昇が好ましくない状況であっても、数値の上昇が肯定的な現象として表示されることに注意してください。例えば、バウンス率を低く抑えたい場合であっても、最も高いバウンス率を持つものが勝者として表示されます。このような指標の取り扱いには注意が必要です。ポートに基づいて判断をおこなう場合には、数値が低下した方が好ましいのか、上昇した方が好ましいのかを確認してください。
 
-You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. 測定する内容を事前に正確に知っておく必要はありません。
+指標やオーディエンスは、アクティビティ開始後、またはテストが完了した後でも、[!DNL Target]のレポートに適用できます。 測定する内容を事前に正確に知っておく必要はありません。
 
-Click to view the full [!DNL Analytics] report directly from the activity report page.
+[!DNL Analytics]のフルレポートをアクティビティレポートページから直接表示するには、をクリックします。
 
 ## アクティビティの作成 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-アクティビティを作成する場合は、[!UICONTROL 設定]ページでアクティビティの目標を指定する必要があります。この目標は、レポートのデフォルトの指標となり、指標セレクターで常に先頭に表示されます。通常の Target アクティビティとは異なり、レポート用のセグメントを自由に選択できません。A test with [!DNL Analytics] uses [!DNL Adobe Analytics] segments rather than [!DNL Target] audiences.
+アクティビティを作成する場合は、[!UICONTROL 設定]ページでアクティビティの目標を指定する必要があります。この目標は、レポートのデフォルトの指標となり、指標セレクターで常に先頭に表示されます。通常の Target アクティビティとは異なり、レポート用のセグメントを自由に選択できません。[!DNL Analytics]を使用したテストでは、[!DNL Target]オーディエンスではなく[!DNL Adobe Analytics]セグメントが使用されます。
 
-## Performing offline calculations for Analytics for Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## ターゲット用のAnalytics(A4T) {#section_33A97A691F3A45D497DAF57A844388F0}に対するオフライン計算の実行
 
 A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
 
