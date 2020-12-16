@@ -12,7 +12,7 @@ ht-degree: 81%
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# 相互に排他的なアクティビティをテストするには、プロファイルスクリプトを使用{#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 プロファイル属性を使用すると、同じ訪問者を各アクティビティに参加させずに、複数のアクティビティを比較するテストを設定することができます。
 
@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` は、訪問者が属するグループを決定するルーチンを開始します。0 から 49 の範囲の数値が返された場合、訪問者は GroupA に割り当てられます。50 から 99 の範囲の数値が返された場合、訪問者は GroupB に割り当てられます。グループは、訪問者がどのアクティビティを閲覧するかを決定します。
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+プロファイル属性を作成した後、最初のアクティビティを設定し、ユーザープロファイルパラメータ`user.twogroups`がGroupAに指定した値と一致するようにして、目的の訪問者をターゲットします。
 
 >[!NOTE]
 >
