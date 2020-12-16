@@ -36,34 +36,34 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 
 | 機能 | 詳細 |
 | --- | --- |
-| ![自動ターゲットアクティビティ用のターゲット用プレミアムバッジ](/help/assets/premium.png) (A4T)のサポート | [!UICONTROL 自動ターゲット] アクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動ターゲット] ・アンサンブル機械学習アルゴリズムを使用して、プロファイル、行動およびコンテキストに基づいて各訪問者に最適なエクスペリエンスを選択できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分と自動ターゲットアクティビティの](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
+| ![Premium ](/help/assets/premium.png) badgeターゲット用のAnalytics(A4T)の自動ターゲットアクティビティのサポート | [!UICONTROL 自動] ターゲットアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動] ターゲット設定の機械学習アルゴリズムを使用して、プロファイル、動作、およびコンテキストに基づいて各訪問者に対して最高のエクスペリエンスを選択できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、 [アクティビティ作成時の自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) アクティビティのターゲット用の *Analytics(A4T)のサポートを参照してください*。 |
 
 ### Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 
 | 機能 | 詳細 |
 | --- | --- |
-| ![条件のシーケンス内のPremiumバッジ](/help/assets/premium.png) Control Recommendationsスロット | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件のシーケンス [の作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) （英語）を参照してください。 |
+| ![Premium ](/help/assets/premium.png) Badge条件のシーケンス内のControl Recommendationsスロット | 条件のシーケンスを使用すると、各レコメンデーション条件で使用されるスロット数を制御できるようになりました。異なるタイプの品目や異なるアルゴリズムロジックを組み合わせて一致させることができます。<br>詳しくは、条件の [シー](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ケンスを作成するを参照してください。 |
 
 ### Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
-* 組織を切り替えた後に新しい [!UICONTROL 管理] ページを読み込むと、エラーが表示される問題を修正しました。 （TGT-37730）
-* 表示で、 [!UICONTROL 管理/導入] ページに正しくないクライアントコードが表示される問題を修正しました。 （TGT-37849）
-* VECの読み込みが成功した後、 [!UICONTROL Visual Experience Composer] (VEC)の編集機能が使用できない場合がある問題を修正しました。 （TGT-37162）
-* VEC Helper拡張機能がインストールされている場合でも、VECおよび拡張Experience Composer(EEC)でページが読み込めない問題を修正しました。 これは、Google Chrome 80以降の変更が原因でした。 更新されたVEC Helper [拡張機能をダウンロードします](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 （TGT-37893）
-* 組織を切り替えた後に、 [!UICONTROL 管理/実装] ページからat.jsをダウンロードできない場合がある問題を修正しました。 （TGT-37668）
-* ユーザーがダウンロードボタンを複数回クリックした場合に複数のリクエストが送信されるのを防ぐため、at.jsのダウンロードボタンが読み込み中に無効にな [!DNL Target] りました。 （TGT-37633）
-* エクスペリエンスのターゲット設定  (XT)アクティビティで、エクスペリエンスに長期間「結果を取得」と表示される問題を修正しました。 （TGT-37684）
+* 組織を切り替えた後に新しい[!UICONTROL 管理]ページを読み込むとエラーが表示される問題を修正しました。 （TGT-37730）
+* [!UICONTROL 管理/実装]ページに正しくないクライアントコードが表示される問題を修正しました。 （TGT-37849）
+* VECの読み込みが成功した後、場合に応じて、[!UICONTROL Visual Experience Composer](VEC)の編集機能が使用できない問題を修正しました。 （TGT-37162）
+* VEC Helper拡張機能がインストールされている場合でも、VECおよび拡張Experience Composer(EEC)でページが読み込めない問題を修正しました。 これは、Google Chrome 80以降の変更が原因でした。 [更新されたVEC Helper拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)をダウンロードします。 （TGT-37893）
+* 組織の切り替え後に、ユーザーが[!UICONTROL 管理/実装]ページからat.jsをダウンロードできない場合がある問題を修正しました。 （TGT-37668）
+* ユーザーがダウンロードボタンを複数回クリックした場合に[!DNL Target]が複数のリクエストを送信しないように、at.jsのダウンロードボタンが読み込み中に無効になりました。 （TGT-37633）
+* [!UICONTROL エクスペリエンスのターゲット設定](XT)アクティビティで、エクスペリエンスに「結果を取得中」と表示される問題を長期間修正しました。 （TGT-37684）
 * キーボードのみのユーザーのナビゲーションと機能が改善されました。 （TGT-34479 および TGT-34473）
 * 支援テクノロジーを使用するユーザーを支援するために、UIにラベルを追加しました。 （TGT-34480）
 * アクティビティで現在使用されているモバイルビューポートを削除する際のエラーメッセージを改善。 次のようなエラーメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」 （TGT-37030）
 * VECでのサポートが追加され、ページ内の複数の要素に一致するcssセレクターのクリック追跡が可能になりました。 （TGT-37323）
-* 特定のユーザーが [!UICONTROL アクティビティ] リストを表示できない問題を修正しました。 次のエラーメッセージが表示されました。&quot;URLの提案を取得できません。&quot; AdobeバックエンドシステムのFirstName (FirstName/r/n)でキャリッジリターンを使用しているユーザーに対してエラーが発生しました。 （TGT-37330）
-* ワークスペース名(Enterprise用の [!UICONTROL Adobe Admin Consoleで指定)にアポストロフィが含まれる場合に、] アクティビティ ページが表示されない問題を修正しました。 （TGT-37709）
-* 最適化指標とコンバージョン指標を選択する際の [!UICONTROL 自動配分] アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようユーザーに通知する問題を修正しました。 （TGT-37689）
-* ター [!UICONTROL ゲット設定ページに移動してから戻った後で、] 目標と設定  ページの指標が空白になる場合がある問題を修正しました。 （TGT-37691）
-* 条件の最終変更値が正しくない問題を修正しました [!DNL Recommendations] 。 （TGT-37666）
+* 特定のユーザーが[!UICONTROL アクティビティ]リストーを表示できない問題を修正しました。 次のエラーメッセージが表示されました。&quot;URLの提案を取得できません。&quot; AdobeバックエンドシステムのFirstName (FirstName/r/n)でキャリッジリターンを使用しているユーザーに対してエラーが発生しました。 （TGT-37330）
+* ワークスペース名(]Enterprise用のAdobe Admin Console[!UICONTROL で指定)にアポストロフィが含まれる場合に、アクティビティ[!UICONTROL ページが表示されない問題を修正しました。 ]（TGT-37709）
+* 最適化指標とコンバージョン指標の選択中に[!UICONTROL 自動配分]アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようにユーザーに通知する問題を修正しました。 （TGT-37689）
+* [!UICONTROL 目標と設定]ページに移動してから戻った後、[!UICONTROL ターゲット]ページに戻ると、場合に応じて、&lt;a0/>目標と設定&lt;a1/>ページの指標が空白になる問題を修正しました。 （TGT-37691）
+* [!DNL Recommendations]条件の最終変更値が正しくない問題を修正しました。 （TGT-37666）
 * mbox名ではなくmboxドロップダウンリストーにmbox IDが表示される問題を修正しました。 （TGT-37739）
 
 ### at.js 2.3.2（2020年7月25日）
@@ -76,52 +76,52 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 このリリースには、次のような変更が含まれています。
 
-#### [!UICONTROL 管理] ・セクションのUIの更新
+####  管理セクションのUIの更新
 
-パフォーマンスを向上させ、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザーエクスペリエンスを向上させるために、新しいテクニカルスタックを使用して [!DNL Target] UI全体を徐々に書き換えていきます。 最初に更新されたセクションは [!UICONTROL 「セットアップ] 」セクションで、 [!UICONTROL 「管理」という名前に変更されました]。
+新しいテクニカルスタックを使用して[!DNL Target] UI全体を徐々に書き換え、パフォーマンスの向上をオファーし、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザーエクスペリエンスを改善します。 最初に更新されたセクションは[!UICONTROL セットアップ]セクションで、[!UICONTROL 管理]という名前に変更されました。
 
-この更新の一環として、次のように、 [!UICONTROL 管理] セクションのページを使用して簡単に多くのアクションを実行できます。
+この更新の一環として、[!UICONTROL 管理]セクションのページを使用して、次のような多くの操作を簡単に実行できます。
 
-* 「 [!UICONTROL 実装] 」タブ(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)から最新のat.jsファイルをダウンロードします。
-* at.js設定をカスタマイズし、変更を簡単に確認できるようにします(**[!UICONTROL 管理]** / **[!UICONTROL 実装]**)。
-* デフォルトのレポートおよびタイムゾーン、レポートから除外するIPなど、拡張通貨設定を変更します。 (**[!UICONTROL 管理]** / **[!UICONTROL レポート]**)
-* プライバシー上の理由で訪問者のIPアドレスを不明化(**[!UICONTROL 管理]** / **[!UICONTROL 導入]**)
-* Adobe Admin Consoleでユーザーを管理する前に、ワークスペースごとの既存のリストとそのロールを表示します(**[!UICONTROL 管理]** / **[!UICONTROL ユーザー]**)。
-* 「 [!UICONTROL 管理] 」セクションのすべてのテーブルを検索してフィルターします。
+* [!UICONTROL 実装]タブ（**[!UICONTROL 管理]**/**[!UICONTROL 実装]**）から最新のat.jsファイルをダウンロードします。
+* at.jsの設定をカスタマイズし、変更を簡単に確認できるようにします（**[!UICONTROL 管理]** > **[!UICONTROL 実装]**）。
+* デフォルトのレポートおよびタイムゾーン、レポートから除外するIPなど、拡張通貨設定を変更します。 (**[!UICONTROL 管理]** > **[!UICONTROL レポート]**)
+* 訪問者のIPアドレスをプライバシー上の理由で不明化（**[!UICONTROL 管理]** > **[!UICONTROL 実装]**）
+* Adobe Admin Console（**[!UICONTROL 管理]**/**[!UICONTROL ユーザー]**）で管理する前に、ワークスペースごとのユーザーとそのロールの既存のリストを表示します。
+* [!UICONTROL 管理]セクションのすべてのテーブルを検索してフィルターします。
 
-詳しくは、「 [管理ターゲットの概要](/help/administrating-target/administrating-target.md)」を参照してください。
+詳しくは、「[ターゲットの管理の概要](/help/administrating-target/administrating-target.md)」を参照してください。
 
 #### 機能強化、修正および変更
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
 * 更新後にサイトの環境設定が保持されない問題を修正しました。 （TGT-37239）
-* 「後に [!UICONTROL 挿入] 」 [!UICONTROL /「] 画像」がScalable Vector Graphics(SVG)画像で正しく機能しない問題を修正しました。 （TGT-37242）
-* ドラフトアクティビティを削除できなかった、 [!UICONTROL 投稿] ロールを持つユーザーの問題を修正しました。 （TGT-37358）
-* 「す [!UICONTROL べてのワークスペース] 」が選択されている場合にアクティビティを編集できない問題を修正しました。 （TGT-37276）
+* /[!UICONTROL 画像]を挿入できない問題を修正しました。 （TGT-37242）
+* [!UICONTROL 投稿]のロールを持つユーザーがドラフトアクティビティを削除できなかった問題を修正しました。 （TGT-37358）
+* 「[!UICONTROL すべてのマイワークスペース]」が選択されている場合にアクティビティを編集できない問題を修正しました。 （TGT-37276）
 
 ### Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Analytics for Target（A4T） 自動配分 [!UICONTROL アクティビティのサポート] | [!UICONTROL 自動配分] アクティビティで、ターゲットの [Analyticsがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL 自動配分] 、マルチアームバンディット機能を使用して、 [!UICONTROL Adobe Analytics目標指標や] Adobe Analytics  レポートおよび分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/B Test &amp; Experience Targetingアクティビティで使用するA4T [を既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定がすべて完了です。<br>詳しくは、 [アクティビティ作成の自動配分アクティビティに対する](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics forターゲット(A4T)のサポートを参照してください **。 |
-| 自動ターゲットおよびAutomated Personalizationアクティビティのトラフィック配分方法の応答トークン | 「 [自動ターゲット](/help/administrating-target/response-tokens.md) 」と「 [!UICONTROL Automated Personalization] アクティビティ」に [!UICONTROL 2つの] 応答トークンが追加され、訪問者が「制御」トラフィックまたは「ターゲット」トラフィックに割り当てられた結果として特定のエクスペリエンスを受け取ったかどうかを判断できるようになりました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、「Automated Personalizationまたは自動ターゲットのアクティビティのコントロールを [選択します](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL 投稿者] ロール | この新しい役割は、現在の [!UICONTROL 監視者] (Observer)の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、 [!UICONTROL 投稿者] ロールには、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [「](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ユーザー **」で役割と権限を指定します。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと権限の指定は](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 、「エンタープライズ権限の *設定*」で行います。</li></ul> |
-| 2020年 [!DNL Analysis Workspace]<br>6月25日のA4Tのサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。 [!UICONTROL Analyticsターゲット版(A4T)パネル] では、での [!DNL Adobe Target] アクティビティとエクスペリエンスを分析でき [!DNL Analysis Workspace]ます。<br>詳しくは、A4TレポートのAnalytics [での](/help/c-integrating-target-with-mac/a4t/reporting.md) レポートおよびAnalyticsターゲット用の *Analytics(A4T)パネル* (A4T [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;ツールガイド)を参照してください。 |
+| Analytics for Target（A4T） [!UICONTROL 自動配分]アクティビティのサポート | [!UICONTROL 自動] 割り当てアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL Auto-] Allocatemulti-armbandit機能を使用して、 [!UICONTROL Adobe分析の目標指標や]   Adobe分析のレポート機能や分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、 [アクティビティ作成時の自動配分アクティビティのターゲット用の](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics(A4T)のサポートを参照してください **。 |
+| 自動ターゲットおよびAutomated Personalizationアクティビティのトラフィック配分方法の応答トークン | [!UICONTROL 自動ターゲット]と[!UICONTROL Automated Personalization]のアクティビティに2つの[応答トークン](/help/administrating-target/response-tokens.md)が追加され、「制御」トラフィックと「ターゲット」トラフィックのどちらに割り当てられたかを訪問者が受け取ったかを判断できます。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
+|  Publisherrole | この新しい役割は、現在の[!UICONTROL オブザーバー]の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、[!UICONTROL パブリッシャ]の役割には、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [ユー](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ザーの役割と *権限を指定し*&#x200B;ます。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 権限の指定は、エンタープライズ権限 *の設定*&#x200B;で行います。</li></ul> |
+| [!DNL Analysis Workspace]<br>2020年6月25日にA4Tをサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。[!UICONTROL ターゲット用のAnalytics(A4T)パネル]では、[!DNL Analysis Workspace]で[!DNL Adobe Target]のアクティビティとエクスペリエンスを分析できます。<br>詳しくは、Analyticsの [レポート(A4T)および](/help/c-integrating-target-with-mac/a4t/reporting.md) ターゲット用の *Analytics(A4T)* パネル(『 [Analyticsツールガイド』の「A4Tでの](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)  **&#x200B;レポート」)を参照してください。 |
 
 **機能強化、修正および変更**
 
 * 「個別訪問者数」ではなく、「訪問者数」指標がアクティビティの定義に保存される問題を修正しました。 （TGT-37098）
-* 垂直スクロールバーが [!DNL Target] オーディエンス [!UICONTROL ページで正しく機能しない原因となっていた] UIの問題を修正しました。 （TGT-36968）
+* [!DNL Target] UIで、[!UICONTROL オーディエンス]ページの垂直スクロールバーが正しく機能しない問題を修正しました。 （TGT-36968）
 
 ### at.js 1.8.2およびat.js 2.3.1リリース（2020年6月16日）
 
-at.jsライブラリに加えられた改善点および修正点 [!DNL Target] を次に示します。
+[!DNL Target] at.jsライブラリで行われた改善と修正：
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.js 1.8.2 | at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。<ul><li>CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35064）</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-| at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>targetGlobalSettingsを使用して `deviceIdLifetime` 設定を上書き可能に [しました](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*x* ：サーバードメインが誤って作成され、 [!DNL Target] 要求が失敗する可能性があります。 （TNT-35065）</li><li>拡張機能v2と [!DNL Target] 拡張機能を使用する場合、 [!DNL Launch] 呼び出しが [!DNL Adobe Analytics] 遅れていた問題を修正しました [!DNL Launch][!DNL Target][!DNL Analytics]`sendBeacon` 。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 1.8.2 | at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。<ul><li>CNAMEとエッジの上書き(at.js 1)を使用する場合の問題を修正しました。*サーバードメインが* 正しく作成されない場合があり、その場合、 [!DNL Target] 要求が失敗することがあります。（TNT-35064）</li></ul>詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。 |
+| at.js 2.3.1 | at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。<ul><li>[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)を介して`deviceIdLifetime`設定をオーバーライド可能にしました。 （TNT-36349）</li><li>CNAMEとエッジの上書き(at.js 2)を使用する場合の問題を修正しました。*サーバードメインが* 正しく作成されない場合があり、その場合、 [!DNL Target] 要求が失敗することがあります。（TNT-35065）</li><li>[!DNL Target] [!DNL Launch]拡張子v2と[!DNL Adobe Analytics] [!DNL Launch]拡張子を使用する場合、[!DNL Target]が[!DNL Analytics] `sendBeacon`呼び出しを遅らせた問題を修正しました。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。 |
 
 ### プロファイルバッチステータスAPI v2の変更点（2020年5月14日）
 
@@ -215,7 +215,7 @@ at.js JavaScriptライブラリの次の新しいターゲットを使用でき�
 * at.jsバージョン2.3.0
 * at.jsバージョン1.8.1
 
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
 ### Target Standard/Premium 20.2.1（2020年3月24日）
 
@@ -244,25 +244,25 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 ### Adobe Experience Cloudナビゲーション（2019年2月22日）
 
-* にログインすると、新しいヘッダーナビゲーション [!DNL Adobe Experience Cloud]に移動します。 前のナビゲーションの上部に黒いバーが表示されている場合と非常に似ていますが、次の点が改善されています。
+* [!DNL Adobe Experience Cloud]にログインすると、新しいヘッダーナビゲーションに移動します。 前のナビゲーションの上部に黒いバーが表示されている場合と非常に似ていますが、次の点が改善されています。
 
-   * IMS(Adobe Suite Cloud Management)組織間 [!DNL Identity Management System] または別のソリューション間の切り替えが容易になりました。
-   * ユーザーヘルプの改善：検索結果には、 [!DNL Target] 製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツにアクセスしやすくなり、最大限の利用を可能に [!DNL Target]します。 また、 [!UICONTROL ヘルプ] メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
+   * [!DNL Identity Management System](IMS)組織間または別のソリューションへの切り替えが容易になりました。
+   * ユーザーヘルプの改善：検索結果には、[!DNL Target]製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、[!DNL Target]を最大限に活用できます。 また、[!UICONTROL ヘルプ]メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
 
    * ネットプロモータースコア(NPS)のフィードバック機能が強化され、調査モーダルが作業の流れを妨げないようになりました。
-   * ログインフローが改善されました。 以前は、すべての [!DNL Target] 顧客は、ヘッダー内の [!DNL Target] アイコンをクリックした後、ターゲットランディングページにランディングしていました。 その後、このページでは、次のように、 [!DNL Target Standard/Premium]、、 [!DNL Search&Promote][!DNL Recommendations Classic]またはを使用して先に進むことができました。
+   * ログインフローが改善されました。 以前は、すべての[!DNL Target]ユーザーは、ターゲットランディングページの[!DNL Target]アイコンをクリックした後、ヘッダーヘッダーに移動しました。 次に示すように、このページでは、お客様は[!DNL Target Standard/Premium]、[!DNL Search&Promote]、または[!DNL Recommendations Classic]に進むことができました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
 
-      私たちはこのランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーの [!UICONTROL アイコンをクリックすると、常に] アクティビティリスト [!DNL Target] ページに直接移動できるようになりました。
+      私たちはこのランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーの[!DNL Target]アイコンをクリックすると、常に[!UICONTROL アクティビティリスト]ページに直接移動できるようになりました。
 
-      使用する場合 [!DNL Recommendations Classic]は、次に示すように、ソリューションに直接アクセスするか、 [!UICONTROL Recommendations] タブに作成された短いリンクからアクセスできます。
+      [!DNL Recommendations Classic]を使用する場合は、ソリューションに直接アクセスするか、[!UICONTROL 「Recommendations]」タブに作成された短いリンクからアクセスできます。次に例を示します。
 
       ![Recs Classicディープリンク](/help/r-release-notes/assets/recs-classic.png)
 
-      を使用する場合 [!DNL Search&Promote]は、 [Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 の内側から到達するパス [!DNL Search&Promote] は完全に削除 [!DNL Adobe Target] されました。
+      [!DNL Search&Promote]を使用する場合は、[Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1)(https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 [!DNL Adobe Target]の内部から[!DNL Search&Promote]に到達するパスは完全に削除されました。
 
-   * の通知は、現在、ヘッダー [!DNL Target] の「 [!UICONTROL 通知] 」ドロップダウンで使用できません。
+   * [!DNL Target]の通知は、現在、ヘッダーの[!UICONTROL 通知]ドロップダウンで使用できません。
    >[!NOTE]
    >
    >新しいナビゲーションバーの展開の一環として、URLの変更にも気付きます。 以前にブックマークを付けたリンクは、引き続き機能しますが、すばやく開くために新しいリンクをブックマークすることをお勧めします。
@@ -290,44 +290,44 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDKを使用すると、サー [!DNL Target] バー側をデプロイできます。 このJava SDKを使用すると、、、など [!DNL Target] の他の [!DNL Adobe Experience Cloud] ソリューションとの統合を簡単に行うこ [!DNL Adobe Experience Cloud Identity Service]とができ [!DNL Adobe Analytics][!DNL Adobe Audience Manager]ます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信APIを [!DNL Target] 使用して統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方でのハイブリッド統合がある場合 [!DNL Target] の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側から取得したエクスペリエンスによって設定される、という設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が [ターゲットJava SDKに貢献できるように、オープンソースです](https://github.com/adobe/target-java-sdk)。</li></ul>新しいターゲットのJava SDKを使用した [サーバ側のターゲットに関するAdobeテクニカルブログ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+| Java SDK | [!DNL Target] Java SDKを使用すると、[!DNL Target]サーバー側をデプロイできます。 このJava SDKは、[!DNL Target]を[!DNL Adobe Experience Cloud Identity Service]、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]などの他の[!DNL Adobe Experience Cloud]ソリューションと容易に統合するのに役立ちます。<br>Java SDKは、ベストプラクティスを導入し、アドビの配信API [!DNL Target] 経由で統合する際の複雑さを排除して、エンジニアリングチームがビジネスロジックに集中できるようにします。最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバーサイドの両方で[!DNL Target]のハイブリッド統合を使用する場合の、パフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって設定される`serverState`という設定が導入されます。 このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li>新しい配信APIで可能になった、Java SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者が[ターゲットJava SDK](https://github.com/adobe/target-java-sdk)に貢献できるように、ソースをオープンにします。</li></ul>ターゲットJava SDKの詳細については、Adobeテクニカルブログ[新しいターゲットJava SDKを使用したサーバ側の最適化](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)を参照してください。 |
 
 ### Target Standard／Premium 19.10.2（2019 年 10 月 31 日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![複数値の属性を含むプレミアムバッジ](/help/assets/premium.png) | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>これらのシナリオでのレコメンデーションを処理するには、複数値のデータをターゲットRecommendationsに渡し、特別な複数値演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+| ![プレミアム](/help/assets/premium.png) バッジ複数値の属性 | 複数値のフィールドを使用する場合もあります。 次の例をご覧ください。<ul><li>ユーザに映画をオファーする。 映画には複数の俳優がいる。</li><li>コンサートのチケットを売る。 所定のユーザーには、複数のお気に入りのバンドがあります。</li><li>あなたは服を売る。 1枚のシャツには複数のサイズがあります。</li></ul>これらのシナリオでのレコメンデーションを処理するには、複数値のデータをターゲットRecommendationsに渡し、特別な複数値演算子を使用します。<br>詳しくは、複数値の属性の [操作を参照してください](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ### Target Standard／Premium 19.10.1（2019 年 10 月 22 日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premiumバッジ](/help/assets/premium.png) User-BasedRecommendations<br>（2019年10月24日） | 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件により、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを提供できます。 レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、訪問者がサイトを閲覧する際にパーソナライズされます。<br>詳しくは、「 [条件/アルゴリズム」の「ユーザーベースのRecommendations」を参照してください](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
+| ![プレミアム](/help/assets/premium.png) バッジユーザーベースのRecommendations<br>（2019年10月24日） | 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。<br>この条件により、新規訪問者と再訪問者の両方に対して、パーソナライズされたコンテンツとエクスペリエンスを提供できます。レコメンデーションのリストは、訪問者の最新のアクティビティに重み付けされ、セッション内で更新され、訪問者がサイトを閲覧する際にパーソナライズされます。<br>詳しくは、「 [条件/アルゴリズム」の「ユーザーベースのRecommendations」を参照してください](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
 **Adobe Experience Cloud航行**
 
-* にログインすると、新しいヘッダーナビゲーション [!DNL Adobe Experience Cloud]に移動します。 前のナビゲーションの上部に黒いバーが表示されている場合と非常に似ていますが、次の点が改善されています。
+* [!DNL Adobe Experience Cloud]にログインすると、新しいヘッダーナビゲーションに移動します。 前のナビゲーションの上部に黒いバーが表示されている場合と非常に似ていますが、次の点が改善されています。
 
-   * IMS(Adobe Suite Cloud Management)組織間 [!DNL Identity Management System] または別のソリューション間の切り替えが容易になりました。
-   * ユーザーヘルプの改善：検索結果には、 [!DNL Target] 製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツにアクセスしやすくなり、最大限の利用を可能に [!DNL Target]します。 また、 [!UICONTROL ヘルプ] メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
+   * [!DNL Identity Management System](IMS)組織間または別のソリューションへの切り替えが容易になりました。
+   * ユーザーヘルプの改善：検索結果には、[!DNL Target]製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、[!DNL Target]を最大限に活用できます。 また、[!UICONTROL ヘルプ]メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
 
    * ネットプロモータースコア(NPS)のフィードバック機能が強化され、調査モーダルが作業の流れを妨げないようになりました。
-   * ログインフローが改善されました。 以前は、すべての [!DNL Target] 顧客は、ヘッダー内の [!DNL Target] アイコンをクリックした後、ターゲットランディングページにランディングしていました。 その後、このページでは、次のように、 [!DNL Target Standard/Premium]、、 [!DNL Search&Promote][!DNL Recommendations Classic]またはを使用して先に進むことができました。
+   * ログインフローが改善されました。 以前は、すべての[!DNL Target]ユーザーは、ターゲットランディングページの[!DNL Target]アイコンをクリックした後、ヘッダーヘッダーに移動しました。 次に示すように、このページでは、お客様は[!DNL Target Standard/Premium]、[!DNL Search&Promote]、または[!DNL Recommendations Classic]に進むことができました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
 
-      私たちはこのランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーの [!UICONTROL アイコンをクリックすると、常に] アクティビティリスト [!DNL Target] ページに直接移動できるようになりました。
+      私たちはこのランディングページをすべてのお客様に対して削除しました。 新しいヘッダーナビゲーションバーの[!DNL Target]アイコンをクリックすると、常に[!UICONTROL アクティビティリスト]ページに直接移動できるようになりました。
 
-      使用する場合 [!DNL Recommendations Classic]は、次に示すように、ソリューションに直接アクセスするか、 [!UICONTROL Recommendations] タブに作成された短いリンクからアクセスできます。
+      [!DNL Recommendations Classic]を使用する場合は、ソリューションに直接アクセスするか、[!UICONTROL 「Recommendations]」タブに作成された短いリンクからアクセスできます。次に例を示します。
 
       ![Recs Classicディープリンク](/help/r-release-notes/assets/recs-classic.png)
 
-      を使用する場合 [!DNL Search&Promote]は、 [Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 の内側から到達するパス [!DNL Search&Promote] は完全に削除 [!DNL Adobe Target] されました。
+      [!DNL Search&Promote]を使用する場合は、[Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1)(https://center.atomz.com/center/?ims=1)に直接移動する必要があります。 [!DNL Adobe Target]の内部から[!DNL Search&Promote]に到達するパスは完全に削除されました。
 
-   * の通知は、現在、ヘッダー [!DNL Target] の「 [!UICONTROL 通知] 」ドロップダウンで使用できません。
+   * [!DNL Target]の通知は、現在、ヘッダーの[!UICONTROL 通知]ドロップダウンで使用できません。
    >[!NOTE]
    >
-   >これらの機能は、一度に展開することも、すべての顧客に一括して展開することもできません。 これらの機能は、19.10.1（2019年10月22日）リリースから、今後数週間のうちにロー [!DNL Target Standard/Premium] ルアウトされます。
+   >これらの機能は、一度に展開することも、すべての顧客に一括して展開することもできません。 これらの機能は、[!DNL Target Standard/Premium] 19.10.1（2019年10月22日）リリースから、今後数週間のうちに公開されます。
    >
    >新しいナビゲーションバーの展開の一環として、URLの変更にも気付きます。 以前にブックマークを付けたリンクは、引き続き機能しますが、すばやく開くために新しいリンクをブックマークすることをお勧めします。
 
@@ -335,13 +335,13 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.jsバージョン2.2<br><br>およびat.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience CloudIDサービス(ECID) v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するために、ECIDライブラリv4.4.<br>at.js 2.2と共にat.js 2.2またはat.js 1.8にアップグレードすると、次の機能が提供されます。<ul><li>**serverState**:at.js v2.2以降で利用できる設定で、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチしたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。<br>詳しくは、targetGlobalSettingsの「serverState」を参照して [ください](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+| at.jsバージョン2.2<br>および<br>at.jsバージョン1.8 | at.jsの次のバージョンは、<ul><li>WebページでExperience CloudIDサービス(ECID) v4.4とat.js 2.2またはat.js 1.8の両方を使用する場合のパフォーマンスが向上しました。</li><li>以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。</li></ul> これらのパフォーマンス改善を活用するために、ECIDライブラリv4.4と共にat.js 2.2またはat.js 1.8にアップグレードしてください。<br>at.js 2.2には次の機能があります。<ul><li>**serverState**:at.js v2.2以降で利用できる設定で、ターゲットのハイブリッド統合が実装されている場合に、ページのパフォーマンスを最適化するために使用できます。ハイブリッド統合とは、クライアント側でat.js v2.2以降と、配信APIまたはサーバー側でターゲットSDKの両方を使用してエクスペリエンスを提供することです。 `serverState` では、at.js v2.2以降で、サーバー側でフェッチしたコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が提供されます。<br>詳しくは、targetGlobalSettingsの「serverState」を参照して [ください](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
 
 ### ターゲットプラットフォーム（2019年10月9日）
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Node.js SDKバージョン1.0 | ターゲットNode.js SDKを使用すると、ターゲットサーバー側にデプロイできます。<br>このNode.js SDKを使用すると、Adobe Experience CloudIDサービス、Adobe Analytics、Adobe Audience Managerなどの他のExperience Cloudソリューションとターゲットを容易に統合できます。<br>Node.js SDKは、ベストプラクティスを導入し、アドビの配信APIを使用してAdobe Targetとの統合時に複雑さを解消し、エンジニアリングチームがビジネスロジックに集中できるようにします。 最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバー側の両方でターゲットのハイブリッド統合を使用する場合のパフォーマンスの最適化のサポートを追加しました。 at.js 2.2でエクスペリエンスを取得するための追加のサーバー呼び出しが行われなくなるように、サーバー側から取得したエクスペリエンスによって設定されるという設定が導入されます。 `serverState` このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、ソースをオープンします。</li></ul> |
+| Node.js SDKバージョン1.0 | ターゲットNode.js SDKを使用すると、ターゲットサーバー側にデプロイできます。<br>このNode.js SDKを使用すると、Adobe Experience CloudIDサービス、Adobe Analytics、Adobe Audience Managerなどの他のExperience Cloudソリューションとターゲットを容易に統合できます。<br>Node.js SDKは、ベストプラクティスを導入し、アドビの配信APIを使用してAdobe Targetとの統合時に複雑さを解消し、エンジニアリングチームがビジネスロジックに集中できるようにします。最新バージョンで導入される主な機能は次のとおりです。<ul><li>プリフェッチおよび通知のサポートを追加しました。これにより、キャッシュを使用してパフォーマンスを最適化できます。</li><li>Webページとサーバー側の両方でターゲットのハイブリッド統合を使用する場合のパフォーマンスの最適化のサポートを追加しました。 at.js 2.2がエクスペリエンスを取得するための追加のサーバー呼び出しを行わないように、サーバー側で取得したエクスペリエンスによって`serverState`という設定が導入されます。 このアプローチは、ページ読み込みのパフォーマンスを最適化します。</li><li> 新しい配信APIで可能になった、Node.js SDKを使用したVECで作成されたアクティビティの取得のサポート。</li><li>開発者がNode.js SDKに貢献できるように、ソースをオープンします。</li></ul> |
 | 配信API | まったく新しい配信APIエンドポイント(/v1/配信)が実稼働環境で使用できます。 主な機能は次のとおりです。<ul><li>1つのエンドポイントで、1つ以上のmboxのエクスペリエンスを取得できます。</li><li>APIを使用してVECで作成されたアクティビティを取得します。</li><li>シングルページアプリ(SPA)およびモバイルアプリケーションで使用される表示と呼ばれる、まったく新しいオブジェクトのサポートを追加しました。</li></ul> |
 
 ### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
@@ -356,7 +356,7 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premiumバッジ](/help/assets/premium.png) Enterprise権限 | ターゲットの2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御が提供されます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O 統合（承認者、編集者または監視者）に役割を適用できます。</li></ul>操作手順と詳細情報については、[ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)を参照してください。 |
+| ![Premium ](/help/assets/premium.png) badgeEnterprise権限 | ターゲットの2019年9月のリリースでは、Enterprise Permissionsで次のアクセス制御が提供されます。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O 統合（承認者、編集者または監視者）に役割を適用できます。</li></ul>操作手順と詳細情報については、[ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)を参照してください。 |
 
 ### Target Standard／Premium 19.7.1（2019 年 7 月 25 日）{#tgt-19-7-1}
 
@@ -366,9 +366,9 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience CloudIDライブラリ4.3.0以降を使用する](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 必要があります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
-| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、ターゲットでECIDライブラリ4.3とのシームレスな統合が導入され、サーバー側のcookieを利用してITP 2.1やITP 2.2の影響を緩和します。ターゲットのお客様は、 [](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) ECIDライブラリ4.3以降をターゲットのJavaScriptライブラリと共に導入して、将来のITPリースを軽減することを強くお勧めします。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>[オファー](/help/c-recommendations/recommendations-as-an-offer.md#status)として&lt;a1/>Recommendationsを参照してください。 |
+| Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience CloudIDライブラリ4.3.0以降を使用](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) する必要があります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
+| Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、ターゲットでECIDライブラリ4.3とのシームレスな統合が導入され、サーバー側のcookieを利用してITP 2.1やITP 2.2の影響を緩和します。ターゲットのお客様は、 [ECIDライブラリ4.3+をターゲットのJavaScriptライブラリと併用して導入するこ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) とを強くお勧めします。ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
 
 **機能強化、修正、変更点**
 
@@ -627,7 +627,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティのレポートソース </p> </td> 
-   <td colname="col2"> <p>In <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Visual Experience Composer </span>, you can select the reporting source for your activities, either <span class="keyword"> Target </span> or <span class="keyword"> Adobe Analytics </span>. アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。</p></td> 
+   <td colname="col2"> <p><span class="wintitle">管理</span>/<span class="wintitle"> Visual Experience Composer </span>で、<span class="keyword">ターゲット</span>または<span class="keyword">Adobe Analytics</span>のいずれかのアクティビティのレポートソースを選択できます。 アクティビティごとにレポートソースを選択することもできます。 </p> <p>このリリース以降では、<span class="wintitle">環境設定</span>でレポートソースを選択する場合、またはアクティビティごとにレポートソースを選択する場合に注意しなければならない、ワークフローに関する重要な考慮事項があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -643,7 +643,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
    [オーディエンスの概要](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)を参照してください。
 
-* Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Administration] page. 以前は、レポートスイートを選択できない場合でも、「レポートスイートを選択してください」というメッセージが表示されていました。（TGT-31968）
+* [!UICONTROL アクティビティ]ページでレポートソースとしてAdobe Analyticsが選択されている場合、状況によってはを作成できない問題を修正しました。 以前は、レポートスイートを選択できない場合でも、「レポートスイートを選択してください」というメッセージが表示されていました。（TGT-31968）
 
 ### プラットフォーム（2018 年 10 月 20 日）
 
@@ -759,7 +759,7 @@ target/r_release-notes-2018.xml
 
 * Target のセキュリティをさらに強化するための改善を加えました。（TGT-31090、TGT-31089、TGT-31143）
 
-### Target Standard／Premium 18.7.1（2018 年 7 月 26 日） {#section_A4A9C20EB677455F84FF0BA389F645E5}
+### Target Standard／Premium 18.7.1（2018 年 7 月 26 日）  {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -884,7 +884,7 @@ target/r_release-notes-2018.xml
 * Recommendations の CSV ダウンロードのバックアップ行には、「*」（単一のアスタリスク）ではなく「&quot;*&quot;」（二重引用符で囲まれたアスタリスク）が先頭に表示されるようになりました。
 * Recommendations の CSV ダウンロードの「販売数トップ／閲覧数トップ」行では、先頭にコンマが表示されなくなりました。
 
-### Target プラットフォームの変更点（2018 年 6 月 20 日） {#section_0638BD69F3C640479A2A258AD78C0884}
+### Target プラットフォームの変更点（2018 年 6 月 20 日）  {#section_0638BD69F3C640479A2A258AD78C0884}
 
 このリリースで強化された機能は次のとおりです。
 
@@ -898,11 +898,11 @@ target/r_release-notes-2018.xml
 
    詳しくは、[モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)を参照してください。（TNT-26714 &amp; TNT-28288）
 
-### Target ダウンロード API（2018 年 6 月 6 日） {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### Target ダウンロード API（2018 年 6 月 6 日）  {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 Recommendations ダウンロード API を使用して、スプレッドシートまたはテキストエディターで表示できる .CSV ファイルでレコメンデーションをダウンロードできます。セキュリティ強化のため、**2018 年 6 月 6 日**&#x200B;以降、Target は HTTP リクエストをブロックし、HTTPS リクエストのみを許可するようになります。
 
-### Target Standard／Premium 18.5.1（2018 年 5 月 23 日） {#section_7C1427793C2A48DBAC39F8290717DC5B}
+### Target Standard／Premium 18.5.1（2018 年 5 月 23 日）  {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -1051,7 +1051,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 18.3.1（2018 年 3 月 21 日） {#section_880706BE15544A03A2C951F267F4AEC5}
+### Target Standard／Premium 18.3.1（2018 年 3 月 21 日）  {#section_880706BE15544A03A2C951F267F4AEC5}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -1163,7 +1163,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 18.1.1（2018 年 1 月 24 日） {#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard／Premium 18.1.1（2018 年 1 月 24 日）  {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -1257,7 +1257,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 17.11.1（2017 年 11 月 9 日） {#section_324A9B1DA0B14F5999FEE41F15B13A44}
+### Target Standard／Premium 17.11.1（2017 年 11 月 9 日）  {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
 このリリースには、次の機能と機能強化が含まれています（括弧内の問題番号はアドビ社内で使用されます）。
 
@@ -1271,7 +1271,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>オファー </p> </td> 
-   <td colname="col2"> <p> 「編集者」権限を持っているユーザーは、ライブまたは日時指定のアクティビティを参照しているオファーを編集できません。 </p> <p> <p>注意：Target Premium のお客様が <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">Enterprise ユーザーの権限</a>を使用している場合に、ユーザーが「すべてのワークスペース」オプションを選択すると、Target では、複数のワークスペースにまたがるユーザーの権限の中で最上位のものが使用されます。最上位の権限が「編集者」の場合には、編集が上述のように制限されます。 </p>. </p> <p>ここに挙げた制限は、Target で作成したオファーだけでなく、あらゆるオファーに適用されます。（TGT-27276） </p> </td> 
+   <td colname="col2"> <p> 「編集者」権限を持っているユーザーは、ライブまたは日時指定のアクティビティを参照しているオファーを編集できません。 </p> <p> <p>注意：Target Premium のお客様が <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">Enterprise ユーザーの権限</a>を使用している場合に、ユーザーが「すべてのワークスペース」オプションを選択すると、Target では、複数のワークスペースにまたがるユーザーの権限の中で最上位のものが使用されます。最上位の権限が「編集者」の場合には、編集が上述のように制限されます。 </p>。 </p> <p>ここに挙げた制限は、Target で作成したオファーだけでなく、あらゆるオファーに適用されます。（TGT-27276） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レスポンストークン </p> </td> 
@@ -1344,7 +1344,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * オーディエンスライブラリとオファーライブラリ内でワークスペースによるフィルターを適用できるようになりました（Enterprise ユーザーの権限を持つ Target Premium ユーザーの場合）。（TGT-26813）
 * レポート UI に改良が加えられて、表内でスクロールしやすくなりました。また、フィルタードロップダウンリストの配置も改善されました。（TGT-23713 および TGT-26819）
 
-### Target プラットフォームの変更（2017 年 10 月 14 日） {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Target プラットフォームの変更（2017 年 10 月 14 日）  {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -1440,7 +1440,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * 管理ページ、オーディエンスページ、Recommendationsページでオプションを設定中に、ユーザーのターゲットセッションがタイムアウトした場合のワークフローを改善しました。 「保存」をクリックするとセッションの有効期限切れを示すメッセージが表示されますが、ログインし直すと、ログインが成功したことを示すダイアログが表示され、Target の UI には同じページが表示されます。データの損失も発生しません。（TGT-25557）
 
-### Target プラットフォームの変更（2017 年 9 月 28 日） {#section_AC32516DFBA64AD2AC9A74171D452778}
+### Target プラットフォームの変更（2017 年 9 月 28 日）  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
 <table id="table_701D8D53D1DF4F28ADAC6EC221B0208A"> 
  <thead> 
@@ -1451,7 +1451,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 9 月 28 日</b> </p> <p> <span class="filepath">at.js</span> バージョン 1.2.0 が、大部分のバグ修正を含むメンテナンスリリースとして公開されました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js のバージョンの詳細</a>を参照してください。 </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>クリック追跡の特殊なケースでのデフォルトのアクションを妨げていた問題を修正しました。（TNT-28089） </p> </li> 
@@ -1500,7 +1500,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * オーディエンス定義の詳細を確認できる場所が増えました。オーディエンスを開かなくても、Target UI 内に表示されるポップアップカードで確認できます。この機能は、 [!DNL Target Standard/Premium. (TGT-25772)]
 * アクティビティの作成／概要内で、アドホックオーディエンスの定義を表示できるようになりました。（TGT-25570）
-* 次の変数は、[Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
+* The following variables are now available as[Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 配列: `entiites` および `entityN.categoriesList`
 
 ### Target プラットフォームの変更点（2017 年 8 月 4 日）{#section_FA5BF6808EA74F3A9E8E941530879208}
 
@@ -1513,7 +1513,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 8 月 4 日</b> </p> <p> <span class="filepath">at.js</span> バージョン 1.1 がリリースされました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">at.js</span> バージョン 1.1 には、次の機能強化および修正が含まれています。 </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>レスポンストークンの処理を追加しました。詳しくは、<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">レスポンストークン</a>を参照してください。 </p> </li> 
@@ -1524,7 +1524,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </tbody> 
 </table>
 
-### Target Standard／Premium 17.7.3（2017 年 8 月 4 日） {#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard／Premium 17.7.3（2017 年 8 月 4 日）  {#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1536,7 +1536,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>レスポンストークン </p> </td> 
-   <td colname="col2"> <p>レスポンストークンを利用すると、アクティビティを配信する Target の応答（表示 mbox）内の対象の変数（プロファイル属性など）を自動的に出力できます。レスポンストークンは、デバッグや、Clicktale などのサードパーティプロバイダーとの統合に使用できます。 </p> <p><span class="keyword">Adobe Target Classic</span> のサーバープラグインと似ており、この 2 つのソリューションは同等の機能を備えています。 </p> <p> <p>Note:  Response tokens are available with <span class="filepath"> at.js </span> 1.1 or later.</span>. </p> </p> <p>詳しくは、<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">レスポンストークン</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レスポンストークンを利用すると、アクティビティを配信する Target の応答（表示 mbox）内の対象の変数（プロファイル属性など）を自動的に出力できます。レスポンストークンは、デバッグや、Clicktale などのサードパーティプロバイダーとの統合に使用できます。 </p> <p><span class="keyword">Adobe Target Classic</span> のサーバープラグインと似ており、この 2 つのソリューションは同等の機能を備えています。 </p> <p> <p>注意： 応答トークンは、<span class="filepath"> at.js </span> 1.1以降で使用できます。</span> </p> </p> <p>詳しくは、<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">レスポンストークン</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1639,7 +1639,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
    このインポートジョブは、アクティビティページが開かれたときに実行されます（最大遅延時間は 10 分）。（KB-1526）
 
-### Target Standard／Premium 17.6.2（2017 年 6 月 23 日） {#section_F0372B07B56E454CB048CE79FF56E9CD}
+### Target Standard／Premium 17.6.2（2017 年 6 月 23 日）  {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
 <table id="table_8C4DB1B83B874E4C85CE9FF352E7B857"> 
  <thead> 
@@ -1675,7 +1675,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * 除外グループを作成してから自動重複除外を適用すると、UI のアクティビティ図のカウント数が不正確になる場合がある問題を修正しました。
 * 除外グループを含む既存のアクティビティを編集する際に、手動でのインクルージョンが UI に正しく反映されない問題を修正しました。
 
-### Target Standard／Premium 17.6.1（2017 年 6 月 9 日） {#section_1D05FE23CE3744DDB5D28E933341F575}
+### Target Standard／Premium 17.6.1（2017 年 6 月 9 日）  {#section_1D05FE23CE3744DDB5D28E933341F575}
 
 <table id="table_47117524922A472AA977C652B581B356"> 
  <thead> 
@@ -1747,7 +1747,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath">at.js</span> バージョン 0.9.6 がリリースされました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">at.js</span> バージョン 0.9.6 には、次の機能強化および修正が含まれています。 </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>A4T のリダイレクトオファーのサポート。<span class="filepath">at.js</span> バージョン 0.9.6 をダウンロードしてインストールすると、<span class="keyword">Target</span>（A4T）のレポートソースとして <span class="keyword">Adobe Analytics</span> を使用するアクティビティでリダイレクトオファーを使用できます。<span class="filepath">at.js</span> バージョン 0.9.6 のほかにも、リダイレクトオファーと A4T を使用するために実装が満たす必要があるその他の最小要件があります。詳細および追加の重要な情報については、<a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">リダイレクトオファー - A4T に関する FAQ</a> を参照してください。 </p> </li> 
@@ -1828,7 +1828,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * [!UICONTROL アクティビティ]ページの「[!UICONTROL アクティビティを作成]」ボタンが、すべてのアクティビティ名がリストに読み込まれる前にアクティブになるようになりました。この改善により、特に、アカウントに数多くのアクティビティが設定されている場合に、ユーザーは新しいアクティビティをより迅速に作成できます。（TGT-21470）
 * Enhanced Experience Composer（EEC）が強化され、プロキシでアクセスする HTTPS を実行する Web サイトの読み込み時間が向上しました。Target は、プロキシを使用して静的リソースを取得しません。（TGT-21793）
 * [!UICONTROL 目標と設定]ページで、特にアクティビティに多数の指標が定義されている場合の読み込み時間のパフォーマンスの強化がおこなわれました。（TGT-21654）
-* Added a tool tip on the [!UICONTROL Goals &amp; Settings] page of all activities using [!UICONTROL Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity&#39;s pages have at.js (version 0.9.1 or later) loaded. （TGT-22607）
+* [!UICONTROL ターゲット](A4T)レポートのAnalyticsを使用しているすべてのアクティビティの[!UICONTROL 目標と設定]ページに、アクティビティのページにat.js（バージョン0.9.1以降）が読み込まれている場合はトラッキングサーバーは不要であるというツールチップを追加しました。 （TGT-22607）
 * ユーザーが各指標を展開して指標名全体を表示しなくて済むように、指標名が[!UICONTROL 目標と設定]ページに表示されるようになりました。この改善により、ユーザーは、よりすばやく効率的に指標を編集できます。（TGT-21276）
 * 他の条件と同じように、[!DNL Recommendations] インクルージョンルールを（CSV を使用してアップロードした）カスタム条件に適用できます。（TGT-21896）
 * 特にフォルダーの作成および管理時およびオファーの作成時の[!UICONTROL オファー]ページのユーザーインターフェイスおよびユーザビリティが改善されました。（TGT-22509 および TGT-22187）
@@ -1844,7 +1844,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
    これが目的のものでない場合、アクティビティに別の場所を追加し、グローバル mbox をその場所に割り当てて、デフォルトコンテンツにすることができます。この回避策は、グローバル mbox をアクティビティに接続し、Target がレポート用に指標をカウントできるようにします。
 
-### Target プラットフォームの変更点（2017 年 1 月 19 日） {#section_EA41802B2B24426FBA88D25E17DBE360}
+### Target プラットフォームの変更点（2017 年 1 月 19 日）  {#section_EA41802B2B24426FBA88D25E17DBE360}
 
 <table id="table_3A2CD47252894F119B0E60BF6A9285B0"> 
  <thead> 
@@ -1974,11 +1974,11 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> Target UI からの mboxTrace 認証トークンの生成 </td> 
-   <td colname="col2"> <p>一時的な認証トークンを作成することで、高度な <span class="keyword">Target</span> デバッグツールを有効にします。 </p> <p>Click <span class="uicontrol"> Generate Authentication Token </span> on the <span class="wintitle"> Implementation Details </span> page ( <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Implementation </span>). 結果のパラメーターをトラブルシューティングの目的で Web ページ URL に追加します。 </p> <p>詳しくは、<a href="/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">コンテンツ配信のトラブルシューティング</a>の「デバッグツールで使用するための認証トークンの取得」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>一時的な認証トークンを作成することで、高度な <span class="keyword">Target</span> デバッグツールを有効にします。 </p> <p><span class="wintitle">導入の詳細</span>ページ（<span class="uicontrol">管理</span>/<span class="uicontrol">導入</span>）の「<span class="uicontrol">認証トークンを生成</span>」をクリックします。 結果のパラメーターをトラブルシューティングの目的で Web ページ URL に追加します。 </p> <p>詳しくは、<a href="/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">コンテンツ配信のトラブルシューティング</a>の「デバッグツールで使用するための認証トークンの取得」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：基準の優先度の設定 </td> 
-   <td colname="col2"> <p>最大 5 つの事前作成された基準のセットを単一のエクスペリエンスに使用して、訪問者に提示するレコメンデーションの管理を強化します。 </p> <p>For more information, see <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Create Criteria Sequences </a>. </p> </td> 
+   <td colname="col2"> <p>最大 5 つの事前作成された基準のセットを単一のエクスペリエンスに使用して、訪問者に提示するレコメンデーションの管理を強化します。 </p> <p>詳しくは、<a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md">条件のシーケンスを作成する</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> レコメンデーション：外部プロモーションの挿入 </td> 
@@ -2056,7 +2056,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * 現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
 
-### Target プラットフォームの変更点（2016 年 9 月） {#section_1955146045A247D393DB824669A2A916}
+### Target プラットフォームの変更点（2016 年 9 月）  {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2206,7 +2206,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
  <tbody> 
   <tr> 
    <td colname="col1"> アクティビティの優先度設定 </td> 
-   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>This option must be enabled in <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Reporting </span> . </p> <p>細かい優先度のオプションは、A/B テスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
+   <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>このオプションは、<span class="wintitle">管理</span> &gt; <span class="wintitle">レポート</span>で有効にする必要があります。 </p> <p>細かい優先度のオプションは、A/B テスト、自動パーソナライゼーション、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B テスト：</b><a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>自動パーソナライゼーション：</b><a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自動パーソナライゼーション</a> </li> 
@@ -2287,7 +2287,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
 
    古いアクティビティについては、もしアクティビティの Experience Composer でこのオプションがチェックされていた場合は、クエリのパラメーターがリダイレクトに含まれることになります。チェックされていない場合は、現在のクエリのパラメーターはリダイレクトに含まれません。
 
-### Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日） {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）  {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）リリースには次の機能および機能強化が含まれています。
 
@@ -2342,10 +2342,10 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）リリースに
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations の CSV ダウンロード </td> 
-   <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
+   <td colname="col2"> <p>CSVダウンロードでは、エンティティレコメンデーションを持たない環境(例： 
      <code>
        # environment: 1724 
-     </code>). </p> </td> 
+     </code>)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2361,7 +2361,7 @@ A4T プロビジョニング処理を改善するための改良をおこない�
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
 * リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
-### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
+### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日）  {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js は、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Target の新しい実装ライブラリです。
 
@@ -2376,7 +2376,7 @@ at.js を実装する際には、以下のことに注意してください。
 * 非同期実装は、Test&amp;Target と SiteCatalyst プラグインのような従来の統合が動作しない可能性があることを意味します。
 * Target に対するすべての呼び出しは XMLHTTPRequest を使用しておこなわれ、コンテンツは JSON を使用して返されます。
 
-### Adobe Target Standard／Premium 16.4.1（2016 年 5 月 6 日） {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe Target Standard／Premium 16.4.1（2016 年 5 月 6 日）  {#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js バージョン 0.8.0 が Target インターフェイスからダウンロードできるようになりました。
 * Target API が変更されました。`applyOffer` が必要`mbox param [0]`になりました。
@@ -2462,7 +2462,7 @@ at.js を実装する際には、以下のことに注意してください。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
 
-### Adobe Target Standard／Premium 16.3.1（2016 年 3 月 16 日） {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe Target Standard／Premium 16.3.1（2016 年 3 月 16 日）  {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2509,7 +2509,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
+   * 拡張Experience Composerを有効にします。拡張Experience Composerは、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.2.1（2016 年 2 月 19 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2531,7 +2531,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
+   * 拡張Experience Composerを有効にします。拡張Experience Composerは、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;タブから設定できます。
 
 ### Adobe Target Standard／Premium 16.1.1（2016 年 2 月 1 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2609,7 +2609,7 @@ at.js を実装する際には、以下のことに注意してください。
 * Chrome バージョン 48 のアップデートで、Visual Experience Composer が Chrome で間違って機能する問題が発生しました。Google は、解決に向けて作業しています。詳しくは、[https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603) を参照してください。この問題を回避するには、次のようにします。
 
    * Firefox または Internet Explorer を使用します。
-   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
+   * 拡張Experience Composerを有効にします。拡張Experience Composerは、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;タブから設定できます。
 
 ## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -2723,7 +2723,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.9.1（2015 年 10 月 1 日） {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe Target Standard／Premium 15.9.1（2015 年 10 月 1 日）  {#section_A54204291A99476688E8C0BD8255F93C}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2799,7 +2799,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.8.1（2015 年 8 月 21 日） {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe Target Standard／Premium 15.8.1（2015 年 8 月 21 日）  {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 このリリースの目的は、Target Classic と機能を同等にすることです。Target Classic で最も多く使用された機能は、Target Standard でも利用できるようになりました。
 
@@ -2846,11 +2846,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>デザインライブラリに、各デザインで使用されているライブアクティビティおよび非アクティブなアクティビティの数を表示します。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>デザインに表示するカスタマイズした動的タイトル </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendationsプレミアム </p> <p>デザインに表示するカスタマイズした動的タイトル </p> </td> 
    <td colname="col2"> <p>特定のデザインの使用時に表示するタイトルを選択します。このタイトルは、ページの訪問者に表示されるタイトルと一致させる必要はありません。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API トークン </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendationsプレミアム </p> <p>API トークン </p> </td> 
    <td colname="col2"> <p>Recommendations Premium からの Client API トークンを設定できます。 </p></td> 
   </tr> 
   <tr> 
@@ -2925,7 +2925,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.6.1（2015 年 6 月 26 日） {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe Target Standard／Premium 15.6.1（2015 年 6 月 26 日）  {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2976,7 +2976,7 @@ target/r_release-notes-2015.xml
 * オーディエンス作成画面に mbox パラメーターが常に表示されない問題を修正しました。
 * Recommendations デザインのサムネールの更新をブロックしていた問題を修正しました。
 
-### Adobe Target Standard／Premium 15.5.1 修正プログラム（2015 年 5 月 29 日） {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe Target Standard／Premium 15.5.1 修正プログラム（2015 年 5 月 29 日）  {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 この修正プログラムリリースには、次の修正が含まれています。
 
@@ -2984,7 +2984,7 @@ target/r_release-notes-2015.xml
 * 一部のユーザーで、「アクティビティを作成」ボタンが適切に表示されていなかった問題を修正しました。
 * A/B アクティビティおよびエクスペリエンスのターゲット設定アクティビティの編集中に、Visual Experience Composer で「アクティビティ名」テキストボックスが非表示になっていた問題を修正しました。
 
-### Adobe Target Standard／Premium 15.5.1（2015 年 5 月 22 日） {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe Target Standard／Premium 15.5.1（2015 年 5 月 22 日）  {#section_FF0F959908784AF0906EFB9E8324F207}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3081,7 +3081,7 @@ target/r_release-notes-2015.xml
 * Recommendations で、（多言語の場合に）全角文字が使用されている属性がインクルージョンフィルタールールで無視されていた問題を修正しました。
 * すべてのアクティビティタイプで、最大 200 文字までのアクティビティ名がサポートされるようになりました。
 
-### Adobe Target Standard／Premium 15.3.1（2015 年 3 月 27 日） {#section_591371851693496C820175753F588E73}
+### Adobe Target Standard／Premium 15.3.1（2015 年 3 月 27 日）  {#section_591371851693496C820175753F588E73}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3156,7 +3156,7 @@ target/r_release-notes-2015.xml
 
 * ページを再訪問したときにリダイレクトオファーが機能しなかったエラーを修正しました。
 
-### Adobe Target 15.1.1（2015 年 1 月 23 日） {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe Target 15.1.1（2015 年 1 月 23 日）  {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3209,7 +3209,7 @@ target/r_release-notes-2014.xml
 
 このマイナーリリースは、主にサーバーの安定性に焦点を当てています。このパッチの一部としての新機能はありません。
 
-### Adobe Target 14.10.1（2014 年 10 月 31 日） {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe Target 14.10.1（2014 年 10 月 31 日）  {#section_D557CB331A004155B91CFE5B197076F3}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3225,7 +3225,7 @@ target/r_release-notes-2014.xml
 * 概要ページにアクティビティの目標が表示されます。
 * HTML 編集ボックスに JavaScript が入力されると、警告が表示されます。
 
-### Adobe Target 14.9.1（2014 年 9 月 20 日） {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe Target 14.9.1（2014 年 9 月 20 日）  {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3242,7 +3242,7 @@ target/r_release-notes-2014.xml
 * 自動パーソナライゼーションのエクスペリエンスエディターで、変更したビデオオファーが変更したものとして表示されなかった問題を修正しました。
 * アクティビティの競合ページが Google Chrome で空白のページとして表示されなかった問題を修正しました。
 
-### Adobe Target 14.8.1（2014 年 8 月 22 日） {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe Target 14.8.1（2014 年 8 月 22 日）  {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3265,7 +3265,7 @@ target/r_release-notes-2014.xml
 * クリックトラックのコンバージョンエラーを修正しました `target="_blank" functions.`
 * クリック追跡でページ外をナビゲートしていた問題を修正しました。
 
-### Adobe Target 14.6.1（2014 年 6 月 26 日） {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe Target 14.6.1（2014 年 6 月 26 日）  {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3314,13 +3314,13 @@ target/r_release-notes-2014.xml
 
 * 削除した項目が引き続き表示されるエラーを修正しました。
 
-### Adobe Target Standard 14.5（2014 年 5 月 29 日） {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe Target Standard 14.5（2014 年 5 月 29 日）  {#section_530EAB9376414D4989CA0740361DDCC2}
 
 このリリースには、次のバグ修正が含まれています。
 
 * エクスペリエンスのプレビューが期待どおり動作していなかった問題を修正しました。
 
-### Adobe Target Standard 1.7（2014 年 4 月 29 日） {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe Target Standard 1.7（2014 年 4 月 29 日）  {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Target Standard 1.7 リリースのウェビナー](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3371,7 +3371,7 @@ target/r_release-notes-2014.xml
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 * 画像を置き換えてサイズを変更すると、Experience Editor でエクスペリエンスが正しく表示されません。
 
-### Adobe Target Standard 1.6（2014 年 3 月 18 日） {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe Target Standard 1.6（2014 年 3 月 18 日）  {#section_DB1319CDD8944F6FB749E525EB551017}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3399,7 +3399,7 @@ target/r_release-notes-2014.xml
 * オーディエンス検索ボックスで ASCII 以外の文字がサポートされていません。
 * スペイン語および日本語バージョンのユーザーが開始日と終了日を設定した後にアクティビティを保存するとエラーが発生します。開始日と終了日を設定しないで保存した後、必要に応じてアクティビティの概要ページまたはアクティビティ一覧ページでアクティビティをアクティブ化したり停止したりすることをお勧めします。
 
-### Adobe Target Standard 1.5（2014 年 2 月 26 日） {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe Target Standard 1.5（2014 年 2 月 26 日）  {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3433,7 +3433,7 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 
-### Adobe Target Standard 1.4（2014 年 1 月 21 日） {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe Target Standard 1.4（2014 年 1 月 21 日）  {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3529,7 +3529,7 @@ target/r_release-notes-2014.xml
 * ロケーションのドロップダウンメニューに、キーボード入力機能を追加しました。
 * アクティビティで使用されているオファーを削除するときに表示されるエラーメッセージを改善しました。
 
-### Adobe Target Standard 1.1（2013 年 10 月 19 日） {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe Target Standard 1.1（2013 年 10 月 19 日）  {#section_79FA6A61D2284D41A34F00014A342F07}
 
 このリリースには、次の修正および機能強化が含まれています。
 
