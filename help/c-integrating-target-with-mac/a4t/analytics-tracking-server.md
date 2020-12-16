@@ -14,33 +14,33 @@ ht-degree: 27%
 
 # Analytics トラッキングサーバーの使用
 
-If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+古いバージョンのat.jsまたはmbox.jsを使用している場合は、[!DNL Target]に[!DNL Analytics](A4T)を使用するアクティビティ用にAnalyticsトラッキングサーバーを指定する必要があります。
 
 >[!NOTE]
 >
->If you use [!DNL Analytics] as your activity&#39;s reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>アクティビティのレポートソースとして[!DNL Analytics]を使用する場合、mbox.jsバージョン61（以降）またはat.jsバージョン0.9.1（以降）を使用している場合は、アクティビティの作成時にトラッキングサーバーを指定する必要はありません。 mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 >
->チ [!DNL Target] ームはat.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>[!DNL Target]チームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+[!DNL Target]のデータが[!DNL Analytics]の正しい場所に送信されるようにするため、A4Tでは、すべての呼び出しで[!DNL Target]からModstatsにAnalyticsトラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する導入では、[!DNL Adobe Experience Platform Debugger]またはブラウザーの開発者ツールを使用して、お使いのアクティビティに適したトラッキングサーバーを判断できます。
 
 ## Adobe Experience Platformデバッガーを使用したAnalyticsトラッキングサーバーの取得
 
 アクティビティが提供されるページでデバッガーを表示して、適切なトラッキングサーバーが選択されていることを確認します。アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
 
-1. アクティビティを作成しているページから、を開き [!DNL Adobe Experience Platform Debugger]ます。
+1. アクティビティを作成しているページで、[!DNL Adobe Experience Platform Debugger]を開きます。
 
-   デバッガをインストールしていない場合は、「 [Adobe Experience Platformデバッガの概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)」を参照してください。
+   デバッガをインストールしていない場合は、[Adobe Experience Platformデバッガの紹介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)を参照してください。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-1. 左側のナビゲーションメニューで **[!UICONTROL 「解析]** 」をクリックします。
+1. 左側のナビゲーションメニューで「**[!UICONTROL Analytics]**」をクリックします。
 
-   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   Analyticsトラッキングサーバーは、デバッガーの[!UICONTROL ホスト名]セクションにあります。
 
-   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。 例えば、を使用している場合、 `adobe.com`はファーストパーティ `adobe.com` のトラッキングサーバーです。
+   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。例えば、`adobe.com`を使用している場合、`adobe.com`はファーストパーティのトラッキングサーバーです。
    * **サードパーティのトラッキングサーバー**:通常、サードパーティのトラッキングサーバー `[company].sc.omtrdc.net` では、会社が会社の名前ですが、常にで終わり `sc.omtrdc.net`ます。
-   * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
+   * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。`stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
 
@@ -48,7 +48,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    >[!NOTE]
    >
-   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
+   >[!UICONTROL トラッキングサーバー]フィールドを使用できるようにするには、アクティビティのレポートソース]として「Analytics」を選択する必要があります。[!UICONTROL 
 
 ## ブラウザーの開発者ツールを使用してAnalyticsトラッキングサーバーを取得する
 
@@ -58,17 +58,17 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    ![Chrome開発者ツール](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Click the **[!UICONTROL Network]** tab.
+1. 「**[!UICONTROL ネットワーク]**」タブをクリックします。
 
-1. Analyticsリクエスト `/ss,` を表示するフィルター。
+1. `/ss,`をフィルターして、Analyticsリクエストを表示します。
 
    ![/ss検索機能を備えたChrome開発者ツール](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    トラッキングサーバーは、リクエストのホスト名です。
 
-   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。 例えば、を使用している場合、 `adobe.com`はファーストパーティ `adobe.com` のトラッキングサーバーです。
+   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が、現在使用しているドメインと一致する場合、そのホスト名はファーストパーティのトラッキングサーバーです。例えば、`adobe.com`を使用している場合、`adobe.com`はファーストパーティのトラッキングサーバーです。
    * **サードパーティのトラッキングサーバー**:通常、サードパーティのトラッキングサーバー `[company].sc.omtrdc.net` では、会社が会社の名前ですが、常にで終わり `sc.omtrdc.net`ます。
-   * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
+   * **CNAMEの導入**: `sstats.adobe.com` は、https（セキュア）リクエスト用のCNAMEファーストパーティトラッキングサーバーの例です。`stats.adobe.com` は、http（非セキュア）ページに対するCNAMEファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
 
@@ -76,5 +76,5 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    >[!NOTE]
    >
-   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
+   >[!UICONTROL トラッキングサーバー]フィールドを使用できるようにするには、アクティビティのレポートソース]として「Analytics」を選択する必要があります。[!UICONTROL 
 
