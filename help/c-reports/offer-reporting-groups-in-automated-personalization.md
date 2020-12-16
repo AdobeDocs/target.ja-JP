@@ -14,26 +14,26 @@ ht-degree: 64%
 
 # ![Automated Personalizationのプレミアム](/help/assets/premium.png) オファーレポートグループ{#offer-reporting-groups-in-automated-personalization}
 
-[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)アクティビティでのレポートグループの使用に関する情報です。
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)アクティビティでのレポートグループの使用に関する情報です。
 
 レポートグループは、次の 2 つの主要機能を実行します。
 
 * AP アクティビティレポートでグループ化されたオファーを表示できます。
-* They play a key role with how the [!DNL Target] personalization models function.
+* [!DNL Target]パーソナライゼーションモデルの機能に関して、主な役割を果たします。
 
-When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
+レポートグループを使用する場合、[!DNL Target]は、APアクティビティ内の各オファーの代わりに、そのグループ内のすべてのオファーのデータを使用して、各レポートグループに対して1つのパーソナライゼーションモデルのみを作成します。
 
 アクティビティ設定で、オファーごとに作成する必要のあるパーソナライゼーションモデルに十分なデータがない場合、レポートグループは Automated Personalization を使用するためのデータ要件を軽減するのに役立ちます。また、レポートグループは、類似するオファーをグループ化して新しいオファーの「コールドスタート」の問題を解決することもできるので、各モデルはより多くのデータを得ることができます。モデルグループは、新しいオファーが定期的に AP アクティビティに導入されるアクティビティにも使用できます。
 
-この方法は、訪問者がグループ内のすべてのオファーに同じ方法で応答する場合に便利です。ベストプラクティスは、類似する訪問者グループが同様の方法で応答するオファーをグループ化することです。つまり、同様のコンバージョン率を持つオファーをグループ化します。すべてのオファーを 1 つのレポートグループに入れるのは避けてください。Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+この方法は、訪問者がグループ内のすべてのオファーに同じ方法で応答する場合に便利です。ベストプラクティスは、類似する訪問者グループが同様の方法で応答するオファーをグループ化することです。つまり、同様のコンバージョン率を持つオファーをグループ化します。すべてのオファーを 1 つのレポートグループに入れるのは避けてください。すべてのオファーをグループ化したり、オファーを非常に異なるコンバージョン率でグループ化したりすると、[!DNL Target]パーソナライゼーションモデルの効果が低下する可能性が高くなります。
 
 >[!NOTE]
 >
->オファーが特定のモデリンググループから削除または置換されると、その特定のオファーをモデリンググループからも削除した履歴トラフィックが表示されます。In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
+>オファーが特定のモデリンググループから削除または置換されると、その特定のオファーをモデリンググループからも削除した履歴トラフィックが表示されます。つまり、削除されたオファーは、[!DNL Target]パーソナライゼーションモデルが学習するために使用するデータには影響しません。
 
 **レポートグループを設定するには：**
 
-1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+1. APアクティビティの[!UICONTROL エクスペリエンス]ページで、**[!UICONTROL コンテンツを管理]**&#x200B;アイコンをクリックします。
 
    ![](assets/ap_manage_content.png)
 
@@ -46,7 +46,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
+1. （条件付き）選択したオファーを既存のレポートグループに割り当てるには、「**[!UICONTROL 既存]**」を選択し、ドロップダウンリストから目的のレポートグループを選択して、「**[!UICONTROL 適用]**」をクリックします。
 
    または
 
