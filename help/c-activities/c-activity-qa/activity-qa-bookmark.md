@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # アクティビティ QA ブックマークレット{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+[!DNL Target] QAブックマークレットを使用して[!DNL Target]にQAモードからの解放を強制するのに役立つ情報です。
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## at.js 1用のアクティビティQAブックマークレット&#x200B;*x*
 
-[QAモード](/help/c-activities/c-activity-qa/activity-qa.md) は定着なので、QAモードでWebサイトを参照すると、セッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、モードからTargetをリリースする必要があります。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+[QAモード](/help/c-activities/c-activity-qa/activity-qa.md) は定着なので、QAモードでWebサイトを参照すると、セッションが有効期限切れになります。また、通常の訪問者のようにサイトを表示するには、モードからTargetをリリースする必要があります。[!DNL Target][!DNL Target]QA [!DNL Target]ブックマークレットを使用して、QAモードを強制的に終了します。
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+[!DNL Target] QAブックマークレットを使用するには、次のJavaScriptコードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+また、空の値を持つ`at_preview_token`パラメーターを持つページをサイトに読み込むことで、手動でQAモードを強制的に終了することもできます。
 
 次に例を示します。
 
@@ -51,9 +51,9 @@ You can also manually force yourself out of QA mode by loading a page on your si
 
 ## at.js 2用のアクティビティQAブックマークレット&#x200B;*x*
 
-at.js 1とは対照的に。*x*、at.js 2.*x* はサードパーティcookieをサポートしておらず、QAモードはファーストパーティドメインの固定値にすぎません（at.jsが設定するファーストパーティcookieを使用）。 at.js 2では次のようになります。*x*、QAモードのセッションはクライアント側でのみ管理され、QAモードのcookieはターゲットに送信されません。
+at.js 1とは対照的に。*x*、at.js 2.** xはサードパーティcookieをサポートしません。また、QAモードは、（at.jsによって設定されたファーストパーティcookieを使用して）ファーストパーティドメインに対してのみ固定されます。at.js 2では次のようになります。*x*、QAモードのセッションはクライアント側でのみ管理され、QAモードのcookieはターゲットに送信されません。
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+[!DNL Target] QAブックマークレットを使用するには、次のJavaScriptコードを含むブックマークレットを作成し、ブラウザーのブックマークツールバーに追加します。
 
 ```javascript
 javascript:(
