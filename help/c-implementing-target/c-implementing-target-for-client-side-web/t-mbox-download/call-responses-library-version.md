@@ -69,7 +69,7 @@ mboxCreate のみを使用する場合（例えば、[!DNL Target Classic] を�
 | グローバル mbox 自動作成 | グローバル mbox 自動作成 - 同期 | グローバル mbox 自動作成 - 非同期 | グローバル mbox 自動作成 - 非同期 | グローバル mbox 自動作成 - 非同期 |
 | mboxCreate | Standard | ajax | ajax | ajax |
 
-## 訪問者 ID 実装が存在し、訪問者 ID がある {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## 訪問者 ID 実装が存在し、訪問者 ID がある  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 訪問者 ID cookie がある場合、[!DNL Target] は訪問者 ID サービスを呼び出す必要はありません。この場合、コンテンツを表示する前に訪問者 ID サービスを待機する必要がありません。バージョン 57～59 では、**グローバル mbox 自動作成 - 同期**&#x200B;タイプが使用されるので、ページは、読み込みが続行される前に、 を呼び出して返されるのを待ちます。[!DNL Target]これにより、デフォルトコンテンツがちらつくことがなくなります。v60 では、**グローバル mbox 非同期タイプ**&#x200B;が使用され、[!DNL Target] は、[!DNL Experience Cloud] オプトアウトサービスの応答を待ちます。オプトアウトサービスは、2016 年秋にリリースされる Data Co-op の一部です。すべての呼び出しが ajax を使用して返されるので、`document.write()` は [!DNL mbox.js] バージョン 60 では使用できません。
 
