@@ -12,13 +12,13 @@ ht-degree: 64%
 ---
 
 
-# ![エクスペリエンスプレビューURLを持つプレミアム](/help/assets/premium.png) プレビューAutomated Personalizationアクティビティ{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUMPエクスペリエンスプレビューURLを持つ](/help/assets/premium.png) Automated Personalizationアクティビティのレビュー{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 ターゲットAutomated Personalizationのアクティビティが、プレビューおよびQAの目的でアクティビティをライブにする前に、エクスペリエンスのコンテンツを直接サイトで表示できるよう、エクスペリエンスプレビューURLを生成できます。 エクスペリエンスプレビューURLは、ターゲット設定を省略して特定のエクスペリエンスを強制的に表示します。
 
 >[!NOTE]
 >
->Automated PersonalizationのエクスペリエンスプレビューURLは、アクティビティQAモードとは異なります。 アクティビティ QA モードを利用すると、別のタイプのアクティビティのアクティビティ URL を作成できます。詳しくは、「[アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md)」を参照してください。.
+>Automated PersonalizationのエクスペリエンスプレビューURLは、アクティビティQAモードとは異なります。 アクティビティ QA モードを利用すると、別のタイプのアクティビティのアクティビティ URL を作成できます。詳しくは、「[アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md)」を参照してください。。
 >
 >APアクティビティのエクスペリエンスプレビューURLは、at.js 1.xを使用している場合にのみ使用できます。APアクティビティのエクスペリエンスプレビューURLは、現在、at.js 2.xではサポートされていません。
 
@@ -31,14 +31,14 @@ ht-degree: 64%
 1. URL を確認または指定します。
 
    * Visual Experience Composer を使用する場合は、アクティビティで指定したデフォルトの URL が自動入力され、アクティビティ内の各エクスペリエンスのリンクが生成されます。必要であれば、この URL を変更して、他の URL を追加できます。
-   * フォームベースの Experience Composer を使用している場合は、デフォルトの URL は自動的に入力されません。If you haven&#39;t previously created experience preview URLs, click **Add New URL**. プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
+   * フォームベースの Experience Composer を使用している場合は、デフォルトの URL は自動的に入力されません。エクスペリエンスプレビューURLをまだ作成していない場合は、「**追加新しいURL**」をクリックします。 プレビューを確認するすべての URL と、各 URL の名前を指定する必要があります。
 
    複数の URL を追加できます。これは、複数ページのテストまたはテンプレートテストを実行しており、複数ページでアクティビティをプレビューする場合に便利です。
 
    サイト上のエクスペリエンスへのリンクをモーダルウィンドウに表示して、Target の Visual Experience Composer の外部でエクスペリエンスの「実際の表示」をプレビューできます。プレビューを共有するには、メッセージに表示されたリンクを共有する必要があります。URL にはメッセージ内のリンクからページにアクセスしたときにのみページが正しく表示されるパラメーターが含まれているので、リンクをクリックして、ページから結果の URL をコピーしても、うまく動作しません。代わりに、モーダルウィンドウのテキストをコピーして、すべてのテキストを電子メールでチームに送信します。
 1. 「**[!UICONTROL すべて生成]**」をクリックし、各エクスペリエンスをクリックしてプレビューします。
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   その後エクスペリエンスに変更を加える場合は、モーダルウィンドウに戻り、「**リンクを更新**」をクリックして新しいリンクを取得し、チーム用に新しいプレビューリンクを必ず生成してください。
 
    **注意：**&#x200B;プレビューリンクは、新しいタブで開きます。ブラウザーのポップアップブロッカーを無効にする必要があります。
 
