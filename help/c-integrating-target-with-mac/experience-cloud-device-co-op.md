@@ -18,4 +18,4 @@ ht-degree: 84%
 
 [!DNL Experience Cloud Device Co-op] のメンバー企業は、クロスデバイスに消費者を認識できるので、デバイスおよびアプリをまたいで、高度にパーソナライズされたエクスペリエンスを大規模に実現できます。[!DNL Device Co-op] は、[!DNL Adobe Experience Cloud] のコアサービスです。[!DNL Analytics]、[!DNL Audience Manager]、[!DNL Media Optimizer] または [!DNL Target] を使用する [!DNL Adobe] のお客様にご利用いただけます。詳しくは、[Adobe Experience Cloud Device Co-op のドキュメント](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)を参照してください。
 
-[!DNL Target] では、A/B テスト、多変量分析（MVT）テスト、およびエクスペリエンスのターゲット設定アクティビティで、[!DNL Device Co-op] データを使用できます。「[!UICONTROL Device Co-op]」オプションは、[!DNL Target] での 3 ステップのガイドによるワークフローの[!UICONTROL 目標と設定]ページでアクティビティを作成する際に使用できます。For more information, see [Target - A/B Tests, Multivariate Tests, and Experience Targeting](https://experienceleague.adobe.com/docs/device-co-op/using/data/target.html).
+[!DNL Target] では、A/B テスト、多変量分析（MVT）テスト、およびエクスペリエンスのターゲット設定アクティビティで、[!DNL Device Co-op] データを使用できます。「[!UICONTROL Device Co-op]」オプションは、[!DNL Target] での 3 ステップのガイドによるワークフローの[!UICONTROL 目標と設定]ページでアクティビティを作成する際に使用できます。詳しくは、[ターゲット- A/Bテスト、多変量分析テスト、エクスペリエンスのターゲット設定](https://experienceleague.adobe.com/docs/device-co-op/using/data/target.html)を参照してください。
