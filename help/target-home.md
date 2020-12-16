@@ -13,7 +13,7 @@ ht-degree: 62%
 ---
 
 
-# [!DNL Adobe Target] ガイド
+# [!DNL Adobe Target]
 
 ![バナー](assets/target-home-banner-simple.png)
 
@@ -57,12 +57,12 @@ ht-degree: 62%
 - [エクスペリエンスとオファー](c-experiences/experiences.md)：訪問者がアクティビティのオーディエンス条件を満たすときに表示できるコンテンツの指定方法について説明します。
 - [Recommendations](c-recommendations/recommendations.md)：[!DNL Recommendations] がユーザーの以前のアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示する方法を説明します。
 
-## 開発者 {#developers}
+## 開発者  {#developers}
 
 - [Target の実装](c-implementing-target/implementing-target.md)：[!DNL Target] を Web サイト、モバイルアプリ、シングルページアプリケーション（SPA）、IoT/OTT プラットフォームに実装する方法について説明します。
 - [ターゲットサーバー側API](https://developers.adobetarget.com/api/delivery-api/):Adobe Target配信APIを構成するリソースについて説明します。
-- [ターゲットNodeJS SDK](https://github.com/adobe/target-nodejs-sdk):ターゲットサーバーサイドのデプロイ方法を説明します。 このNode.js SDKは、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
-- [ターゲットJava SDK](https://github.com/adobe/target-java-sdk):ターゲットサーバーサイドのデプロイ方法を説明します。 このJava SDKは、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
+- [ターゲットNodeJS SDK](https://github.com/adobe/target-nodejs-sdk):ターゲットサーバーサイドのデプロイ方法を説明します。このNode.js SDKは、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
+- [ターゲットJava SDK](https://github.com/adobe/target-java-sdk):ターゲットサーバーサイドのデプロイ方法を説明します。このJava SDKは、ターゲットを他のAdobe Experience Cloudソリューションと容易に統合するのに役立ちます。
 - [ターゲットRecommendationsAPI](https://developers.adobetarget.com/api/recommendations/):公式のAdobe TargetRecommendationsAPIを構成するリソースについて説明します。
 - [ターゲットAdobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction):Adobeを使用するターゲットの管理APIとプロファイルREST APIを使用して、アクティビティ、オーディエンス、オファー、プロパティ、レポート、mbox、環境、プロファイルを管理する方法について説明します。IO統合
 
@@ -70,12 +70,12 @@ ht-degree: 62%
 
 - [Target の管理](administrating-target/administrating-target.md)：ユーザーを追加し、[!DNL Target] アカウントを設定する方法について説明します。
 
-## アナリスト {#analysts}
+## アナリスト  {#analysts}
 
 - [オーディエンス](c-target/target.md)：ターゲットアクティビティでどのユーザーがコンテンツやエクスペリエンスを表示できるかを決定する方法について説明します。
 - [レポート](c-reports/reports.md)：アクティビティのパフォーマンスを解釈する方法について説明します。
 
-## QA エンジニア {#qa}
+## QA エンジニア  {#qa}
 
 - [アクティビティ](c-activities/activities.md)：[!DNL Target] アクティビティの設定、管理、および QA の方法について説明します。
 
