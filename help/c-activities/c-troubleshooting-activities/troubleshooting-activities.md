@@ -78,7 +78,7 @@ ht-degree: 81%
 Target でユーザーとして追加されたら、アクティビティを作成するために承認者の役割が必要です。
 
 * 承認者にしてもらうよう、アカウントの管理者に依頼します。
-* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
+* 管理者の場合は、ターゲットの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL ユーザー]**&#x200B;から自分に承認者の役割を付与します。
 
    「[承認者の役割の割り当て](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)」を参照してください。
 
@@ -137,10 +137,10 @@ Target でユーザーとして追加されたら、アクティビティを作�
 * もう一度削除します。成功メッセージが表示されます。
 * Target Standard/Premium インポーターが実行されるまで、約 10 分待ちます。インポーターがプロファイルスクリプトのリストを更新します。
 
-## Some ajax [!DNL Target] calls are not working.
+## 一部のajax [!DNL Target]呼び出しが機能しません。
 
 **注意：**[!DNL Target]同じ 名で異なるパラメーターを持つ複数の ajax 呼び出しは、同じページでは動作しません。最初の呼び出しのみ作成されます。
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## ターゲットAPIを使用してアクティビティをアクティブ化しましたが、アクティビティのターゲットUIに「[!UICONTROL 非アクティブ]」というステータスが表示されます。
 
 Target API を使用した UI 外でのアクティビティのアクティブ化など、特定のアクションを実行する場合、更新が UI に反映されるまで最大 10 分かかることがあります。
