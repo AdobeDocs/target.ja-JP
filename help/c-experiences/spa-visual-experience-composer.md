@@ -66,7 +66,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
+   [!UICONTROL 管理/実装]にあるAdobe TargetUIからat.js 2.xをダウンロードします。 at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
 
 1. サイトに at.js 2.x の最新の関数 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) を実装します。
 
@@ -391,9 +391,9 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 以下の変更が加えられました。
 
 * 以下の URL にあるホームビューの背景色が変更されました。[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* URLの下にある製品表示のボタンの色を変更しました。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* を使用）
+上記の例を考慮して、[!UICONTROL ページ配信]の設定に次の項目のみを含めると、どうなりますか。at.js 2を使用したSPAの[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。*x* を使用）
 
 ![ページ配信ダイアログボックス](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ With the example above in mind, what would happen when we configure [!UICONTROL 
 
 **ユーザージャーニー #1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* ユーザーが直接[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)に移動します。
+* at.js 2.*x* を指定すると、エッジにクエリして、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * 手順 6 で、Target Edge は、ブラウザーでキャッシュできるように、ホームおよび製品ビューに対するアクションを返します。
 
 **結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+注意：ユーザーが[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動しても、ページの読み込みがトリガーされませんでした。
 
 **ユーザージャーニー #2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* ユーザーが直接[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動します。
+* at.js 2.*x* を指定すると、エッジにクエリして、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に対する資格のあるアクティビティはありません。
 * 適合するアクティビティがないので、トリガーする at.js 2.*x* 用にキャッシュされるアクションおよびビューはありません。
 
 **結果**：製品ビュー用に `triggerView()` を定義して SPA VEC を使用して製品ビューに対してアクションをおこなっても、ページ配信設定に [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products を含むルールを作成していないので、実行されたアクションは表示されません。
@@ -440,4 +440,4 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+詳しくは、Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)の「[単一ページアプリケーションでのVisual Experience Composerの使用(SPA VEC)」を参照してください。
