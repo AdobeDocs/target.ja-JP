@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # 寄稿
@@ -19,4 +22,4 @@ translation-type: tm+mt
 
 ## 行動規範のレビュー
 
-提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+提出はすべてプルリクエスト形式で、プロジェクトコミッターによるレビューが必要です。プルリクエストの送信について詳しくは、[GitHub のプルリクエストドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)をお読みください。
