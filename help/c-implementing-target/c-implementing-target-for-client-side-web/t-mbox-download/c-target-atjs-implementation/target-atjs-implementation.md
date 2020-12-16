@@ -59,7 +59,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 
 * シングルページアプリ／MVC フレームワーク用に特別に設計された関数
 
-## トレーニングビデオ： at.js - メリットと実装に関するベストプラクティス ![概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ： at.js - メリットと実装に関するベストプラクティス  ![概要バッジ](/help/assets/overview.png)
 
 このビデオは、「[Office Hours](/help/cmp-resources-and-contact-information.md)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
