@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # レガシー実装のグローバル mbox の使用{#use-a-global-mbox-from-a-legacy-implementation}
 
-By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を [!DNL Target] アクティビティで使用できます。
+デフォルトでは、[!DNL Target]は、[!DNL Target]で作成されたアクティビティを実行するために使用する、ターゲット — グローバルmboxというグローバルmboxを作成します。 ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を [!DNL Target] アクティビティで使用できます。
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 [!DNL Target] とレガシー実装の両方で既存のグローバル mbox を使用するには、いくつかのパラメーターを設定する必要があります。
 
-1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. [!DNL Target]に移動し、**[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 
-   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
+   デフォルトでは、**[!UICONTROL ページ読み込みが有効です(グローバルmbox]**&#x200B;を自動作成が有効で、カスタムグローバルmboxの名前は`target-global-mbox`です。
 
-1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+1. 既存のmboxを使用する場合は、**[!UICONTROL ページ読み込み有効（グローバルmbox]**&#x200B;を自動作成）を無効にし、以前に作成したグローバルmboxの名前を&#x200B;**[!UICONTROL グローバルmbox]**&#x200B;フィールドに指定します。
 
-   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. 存在しないmboxを使用する場合は、mboxを作成します。
+   [!UICONTROL グローバルmbox]ドロップダウンリストは、アカウント内のすべてのmboxを指定します。 存在しないmboxを使用する場合は、mboxを作成します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -44,4 +44,4 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 ### グローバル mbox が読み込まれない理由、ページ読み込み時にグローバル mbox を読み込む時間に遅延が発生する理由を調べます。
 
-at.js参照が、ページ上で最初のJavaScript呼び出しであることを確認します。 この問題の他の解決策については、「 [グローバルmboxに関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)」を参照してください。
+at.js参照が、ページ上で最初のJavaScript呼び出しであることを確認します。 この問題の他の解決策については、[グローバルmboxに関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)を参照してください。
