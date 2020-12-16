@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# ブラウザーで混合コンテンツを有効にする{#enabling-mixed-content-in-your-browser}
 
-混在コンテンツは、同じWebページを表示するためにHTTPS（セキュア） *と* HTTP（セキュア）の両方のコンテンツが読み込まれ、初期要求がHTTPSでセキュリティで保護されている場合に発生します。
+混合コンテンツは、HTTPS（セキュア）*と* HTTP（セキュア）コンテンツの両方が読み込まれて同じWebページを表示し、初期要求がHTTPSでセキュリティで保護されている場合に発生します。
 
 最新のブラウザーでは、セキュリティで保護されたコンテンツが安全でないコンテンツと混在している場合、ページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+[!DNL Target]の[!UICONTROL Visual Experience Composer](VEC)が混合コンテンツを含むページを開こうとすると、ブラウザーでブロックを無効にする方法を示すメッセージが表示され、HTTPサイトまたは混合呼び出し（HTTPSとHTTP）を開けます。
 
 ![混合内容警告](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)を参照してください。
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Google Chromeで混合コンテンツを有効にする{#task_FF297A08F66E47A588C14FD67C037B3A}
 
 安全な接続を介してサイトに訪問している場合、ChromeはWebページ上のコンテンツが安全に送信されたことを確認します。
 
@@ -42,17 +42,17 @@ Google Chrome ヘルプの[安全でないコンテンツを含むページ](htt
 
 最新バージョンのChrome（バージョン79.0.3945.117以降）でVECを使用している場合は、サイト設定を更新する必要があります。 サイトへの訪問者は、これらの手順を実行する必要はありません。
 
-1. ロックまたは注意アイコンをクリックし、「 **[!UICONTROL サイトの設定]**」をクリックします。
+1. 鍵または注意アイコンをクリックし、「**[!UICONTROL サイト設定]**」をクリックします。
 
    ![サイトの設定](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. 「 **[!UICONTROL セキュリティで保護されていないコンテンツ]**」までスクロールしてから、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
+1. **[!UICONTROL セキュリティで保護されていないコンテンツ]**&#x200B;までスクロールし、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
 
    ![安全でないコンテンツ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. VECページをリロードします。
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Mozilla Firefoxで混合コンテンツを有効にする{#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Firefox では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、[!DNL Target] を使用するように永久的に変更することをお勧めします。サイトへの訪問者は、これらの手順を実行する必要はありません。
 
@@ -79,11 +79,11 @@ Firefox では、安全なコンテンツと安全でないコンテンツが混
 
 最新バージョンのEdgeでVECを使用している場合は、サイト設定を更新する必要があります。 サイトへの訪問者は、これらの手順を実行する必要はありません。
 
-1. ロックまたは注意アイコンをクリックし、「 **[!UICONTROL サイト権限]**」をクリックします。
+1. 鍵または注意アイコンをクリックし、「**[!UICONTROL サイト権限]**」をクリックします。
 
    ![Microsoft Edgeでのサイト権限](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. 「 **[!UICONTROL セキュリティで保護されていないコンテンツ]**」までスクロールし、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
+1. **[!UICONTROL セキュリティで保護されていないコンテンツ]**&#x200B;までスクロールし、ドロップダウンリストを使用して「ブロック（デフォルト）」を「許可」に変更します。
 
    ![安全でないコンテンツ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
