@@ -14,56 +14,56 @@ ht-degree: 46%
 
 # Adobe Target のレポートソースとしての Adobe Analytics（A4T）{#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
 
-[!DNL Adobe Analytics for Target] (A4T)は、コンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できる、ソリューション間の統合です。 [!DNL Analytics] The A4T integration lets you use [!DNL Analytics] reports to examine your results. If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics] data collection.
+[!DNL Adobe Analytics for Target] (A4T)は、コンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できる、ソリューション間の統合 [!DNL Analytics] です。A4T統合では、[!DNL Analytics]レポートを使用して結果を調査できます。 [!DNL Analytics]をアクティビティのレポートソースとして使用する場合、そのアクティビティのレポートとセグメントはすべて[!DNL Analytics]データ収集に基づきます。
 
 ## A4T の概要 {#section_92B66069210C40DBA937790E8CC596CF}
 
-The [!DNL Analytics for Target] integration between [!DNL Analytics] and [!DNL Target] provides powerful analysis and timesaving tools for your optimization program.
+[!DNL Analytics]と[!DNL Target]の[!DNL Analytics for Target]統合は、最適化プログラムの強力な分析と時間節約ツールを提供します。
 
-The three primary benefits of using [!DNL Analytics] data in [!DNL Target] are:
+[!DNL Target]で[!DNL Analytics]データを使用する主な利点は次の3つです。
 
-* Marketers can dynamically apply [!DNL Analytics] success metrics or reporting segments to [!DNL Target] activity reports at any time. アクティビティを実行する前にすべての項目を指定する必要がありません。
+* マーケティング担当者は、[!DNL Analytics]成功指標やレポートセグメントを[!DNL Target]アクティビティレポートにいつでも動的に適用できます。 アクティビティを実行する前にすべての項目を指定する必要がありません。
 * 単一のデータソースにより、2 つの異なるシステムのデータを収集した場合に生じる偏差が排除されます。
-* Your existing [!DNL Analytics] implementation collects all required data. レポート用のデータを収集する目的のためだけにページに mbox を実装する必要はありません。Although, it is still recommended that you implement an order confirmation mbox for [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+* 既存の[!DNL Analytics]実装は、必要なすべてのデータを収集します。 レポート用のデータを収集する目的のためだけにページに mbox を実装する必要はありません。ただし、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)アクティビティに注文確認mboxを実装することをお勧めします。
 
 >[!IMPORTANT]
 >
 >A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの依頼には[このフォーム](https://www.adobe.com/go/audiences)を使用します。
 >
->The integration that enables [!DNL Analytics] as the data source for [!DNL Target] (A4T) represents the next generation of the Test&amp;Target to SiteCatalyst plug-in. このプラグインは廃止されていますが、既存の利用者のために今でもサポートされています。
+>[!DNL Analytics]を[!DNL Target]のデータソースとして有効にする統合(A4T)は、Test&amp;ターゲットのSiteCatalystプラグインの次世代を表します。 このプラグインは廃止されていますが、既存の利用者のために今でもサポートされています。
 
-If you use [!DNL Analytics] as the reporting source for an activity, all reporting and segmentation for that activity is based on [!DNL Analytics].
+[!DNL Analytics]をアクティビティのレポートソースとして使用する場合、そのアクティビティのレポートとセグメントはすべて[!DNL Analytics]に基づきます。
 
-All [!DNL Analytics] metrics, including calculated metrics, are available in [!DNL Target] and the [!UICONTROL Target Activities] report in [!DNL Analytics]. Likewise, any segment available in [!DNL Analytics] can be applied to both solutions. You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the activity has completed.
+計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL ターゲットアクティビティ]レポートで使用できます。 同様に、[!DNL Analytics]で利用できるすべてのセグメントは、両方のソリューションに適用できます。 指標やオーディエンスは、アクティビティの開始後、またはアクティビティの完了後でも、[!DNL Target]のレポートに適用できます。
 
-Every metric is included, including any customer or calculated metrics that are built-in in [!DNL Analytics].
+[!DNL Analytics]に組み込まれている顧客指標や計算指標を含め、すべての指標が含まれます。
 
 分類期間後、これらのレポートでは、データが Web サイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、セグメントおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
 
 A4T の使用を検討している場合は、次の点に注意してください。
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [アカウント担当者にお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
-* レポートソースはアクティビティごとに設定されます。[!DNL Target] レポートで使用するデータを引き続き収集します。で収集したデータを基にアクティビティを行う場合は、 [!DNL Target] 引き続きデータを利用でき [!DNL Target]ます。
+* [!DNL Analytics]を[!DNL Target]のレポートソースとして使用するには、ユーザーと会社の両方が[!DNL Analytics]と[!DNL Target]にアクセスできる必要があります。 [アカウント担当者にお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+* レポートソースはアクティビティごとに設定されます。[!DNL Target] レポートで使用するデータを引き続き収集します。によって収集されたデータを基にアクティビティを行う場合は、 [!DNL Target] データを引き続き使用でき [!DNL Target]ます。
 * どちらか 1 つのレポートソースを選ぶ必要があります。両方のソースから 1 つのアクティビティのデータを収集することはできません。
-* When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. ただし、目標指標は mbox の呼び出しをベースにすることができます。For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
-* When viewing reporting of an A4T activity in the [!DNL Target] UI, you are viewing [!DNL Analytics] data. For example, if you use the [!UICONTROL Visitor] metric in [!DNL Target], you are using the [!DNL Analytics] [!UICONTROL Visitor] metric, not the [!DNL Target] [!UICONTROL Visitors] metric, which is now called [!UICONTROL Entrants]. This difference is especially important for basic traffic metrics ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) and conversion metrics.
-* Any existing [!DNL Target] activities continue to use [!DNL Target] data collection and are not affected by enabling A4T.
-* Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
-* A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
+* A4Tを使用する場合、アクティビティが使用できる成功指標はすべて[!DNL Analytics]指標です。 ただし、目標指標は mbox の呼び出しをベースにすることができます。例えば、[!DNL Analytics]クリック追跡コードを実装する代わりに、A4Tでターゲットのそのまま使用できるクリック追跡機能を使用できます。
+* [!DNL Target] UIでA4Tアクティビティのレポートを表示すると、[!DNL Analytics]データが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、[!UICONTROL 参加者]と呼ばれる[!DNL Target][!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用します。 この違いは、特に基本的なトラフィック指標([!UICONTROL 訪問者]、[!UICONTROL 訪問回数]、[!UICONTROL ページ表示])およびコンバージョン指標で重要です。
+* 既存の[!DNL Target]アクティビティは引き続き[!DNL Target]データ収集を使用するので、A4Tを有効にしても影響を受けません。
+* [!DNL Analytics]をレポートソースとして使用する場合は、1つのmboxベースの指標のみ使用できます。
+* [!DNL Target]から[!DNL Analytics]へのサーバー間呼び出しは、アクティビティとエクスペリエンスの情報を[!DNL Analytics]に送信します。 この統合によって、[!DNL Target]または[!DNL Analytics]に対する追加のサーバーコールは発生しません。
 
-   状況によっては、からへの分類呼び出しが失敗し、アクティビティ [!DNL Target] にデータが表示されない場合があり [!DNL Analytics][!DNL Analytics]ます。 この問題が発生した場合は、Analyticsとターゲットの統合の [トラブルシューティング(A4T)を参照してください](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 ClientCareに [お問い合わせの上、詳しくは](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 、
+   状況によっては、[!DNL Target]から[!DNL Analytics]への分類呼び出しが失敗し、アクティビティが[!DNL Analytics]にデータを表示しない場合があります。 この問題が発生した場合は、[Analyticsとターゲットの統合のトラブルシューティング(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。 また、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にお問い合わせの上、詳しくお問い合わせください。
 
-## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
+## サポートされるアクティビティの種類{#section_F487896214BF4803AF78C552EF1669AA}
 
-The following table shows you which activity types support [!DNL Analytics] as the reporting source in [!DNL Target] (A4T):
+次の表に、[!DNL Target](A4T)のレポートソースとして[!DNL Analytics]をサポートするアクティビティタイプを示します。
 
 | アクティビティのタイプ | A4T との互換性 | メモ（該当する場合） |
 |--- |--- |--- |
 | 手動トラフィック分割を使用した A/B アクティビティ | ○ |  |
-| 自動配分を使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティに対する [ターゲット用の分析(A4T)のサポートを参照してください](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
-| 自動ターゲットを使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティに対する [ターゲット用の分析(A4T)のサポートを参照してください](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
+| 自動配分を使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティの[ターゲット用のAnalytics(A4T)のサポートを参照してください。](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) |
+| 自動ターゲットを使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティの[ターゲット用のAnalytics(A4T)のサポートを参照してください。](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) |
 | エクスペリエンスターゲット設定（XT） | ○ |  |
-| 多変量分析テスト（MVT） | ○ | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
+| 多変量分析テスト（MVT） | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mboxベースの目標指標の目標が必要です。  [!UICONTROL 要素貢献度]レポートは、現在、[!DNL Analytics]指標をサポートしていません。 |
 | 自動パーソナライゼーション（AP）アクティビティ | × |  |
 | Recommendations アクティビティ | ○ |  |
 | モバイルアプリ | ○ | Mobile Services SDK バージョン 4.13.1 以降でサポートされています。詳しくは、[Mobile Services のドキュメント](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)を参照してください。 |
@@ -71,21 +71,21 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Server Side Delivery API | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
 | NodeJS SDK | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
 | AEM 6.1（またはそれ以前）のクラウドサービス統合 | × |  |
-| AEM 6.2（またはそれ以降）のクラウドサービス統合 | ○ | For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in the [!DNL Adobe Experience Manager] 6.2 documentation. |
+| AEM 6.2（またはそれ以降）のクラウドサービス統合 | ○ | 詳しくは、[!DNL Adobe Experience Manager] 6.2ドキュメントの[Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)との統合を参照してください。 |
 | リダイレクトオファーを使用するアクティビティ | ○ | A4T でリダイレクトオファーを使用する場合は、より厳格な最小要件が適用されます。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) を参照してください。 |
 | Node.JS | ○ |  |
 
-Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the `orderConfirmPage` mbox.
+まだA4Tをサポートしていないアクティビティタイプがあるので、`orderConfirmPage` mboxなど、重要なコンバージョンmboxを保持または実装することをお勧めします。
 
-## Examples of A4T reports {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## A4Tレポートの例{#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-To view A4T reports in [!DNL Target], click **[!UICONTROL Activities]**, click the desired activity from the list that uses [!DNL Analytics] as its reporting source, then click the **[!UICONTROL Reports]** tab.
+[!DNL Target]でA4Tレポートを表示するには、**[!UICONTROL アクティビティ]**&#x200B;をクリックし、[!DNL Analytics]をレポートソースとして使用するリストから目的のアクティビティをクリックして、「**[!UICONTROL レポート]**」タブをクリックします。
 
 >[!NOTE]
 >
 >[!UICONTROL アクティビティ]ページの最上部にある「[!UICONTROL レポートソース]」ドロップダウンリストを使用して、[!DNL Analytics] をレポートソースとして使用するアクティビティのみを表示できます。
 
-You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] of the report by clicking the appropriate icon at the top right side of the report.
+レポートの右上にある適切なアイコンをクリックして、レポートの[!UICONTROL テーブル表示]と[!UICONTROL グラフ表示]を切り替えることができます。
 
 以下の図に、使用可能な [!UICONTROL  目標指標を表示する]レポート指標[!UICONTROL ドロップダウンリストを含む、A4T レポートの]グラフ表示[!DNL Analytics]を示します。
 
@@ -103,15 +103,15 @@ You can toggle between the [!UICONTROL Table View] and [!UICONTROL Graph View] o
 
 ## 「Analytics＆Target：分析のベストプラクティス」チュートリアル{#section_3438E6E77A464424B717A4FD333B84B2}
 
-Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by [!DNL Adobe Experience League].
+[Analytics &amp;ターゲットを開きます。[!DNL Adobe Experience League]が提供する分析](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)のベストプラクティスのチュートリアル。
 
 ## トレーニングビデオ：
 
 このトピックで説明されている概念の詳細については、次のビデオを参照してください。
 
-### ターゲット用のAnalytics(A4T)(4:32) ![概要バッジ](/help/assets/overview.png)
+### ターゲット分析(A4T)(4:32)![概要バッジ](/help/assets/overview.png)
 
-This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
+このビデオでは、[!DNL Target]のレポートソースとして[!DNL Analytics]を使用して最適化プログラムの分析を推進する方法を説明します。
 
 * A4T とは何かと、使用する理由の説明
 * A4T の仕組みの説明
@@ -119,7 +119,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/ターゲットの統合(A4T)(40:33) ![チュートリアルバッジ](/help/assets/tutorial.png)
+### Analytics/ターゲット統合(A4T)(40:33)![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオは、「[Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
