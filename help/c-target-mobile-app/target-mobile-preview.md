@@ -30,8 +30,8 @@ ht-degree: 94%
 
    適切な SDK をダウンロードする手順については、以下を参照してください。
 
-   * **iOS:**[事前開始](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) ( *Mobile Services iOSヘルプ*)
-   * **Android:**[開始の準備](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) ( *Mobile Services Androidヘルプ*)
+   * **iOS:** [Mobile Services iOSヘルプを](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) 起動する前に **。
+   * **Android:** [Mobile Services Androidヘルプを](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) 起動する前に **。
 
 1. **URL スキームを設定する：**&#x200B;プレビューリンクでは、URL スキームを使用してアプリを開きます。プレビュー用に一意の URL スキームを指定する必要があります。
 
