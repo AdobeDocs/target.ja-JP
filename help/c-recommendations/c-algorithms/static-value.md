@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Static Filter
+# ![](/help/assets/premium.png) 保険料フィルタ
 
-のインクルージョンルールを使用してフィルタリングする1つ以上の静的値を手動で入力 [!DNL Adobe Target] し [!DNL Recommendations]ます。
+[!DNL Adobe Target] [!DNL Recommendations]のインクルージョンルールを使用して、フィルターする1つ以上の静的値を手動で入力します。
 
 例えば、「G」または「PG」のMotion Picture Association(MPA)の評価を持つコンテンツのみをレコメンデーションします。
 
