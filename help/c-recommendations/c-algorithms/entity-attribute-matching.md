@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Entity Attribute Matching
+# ![PREMIUMEntity属性の](/help/assets/premium.png) 一致
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+推定品目のプールをユーザーが操作を行った特定の品目と比較して、[!DNL Adobe Target] [!DNL Recommendations]内で動的にフィルタリングします。
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>条件とプロモーションに対してインクルージョンルール](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)を作成し、使用する[プロセスは、使用例や例と同様に似ています。
 
 例えば、次の例のように、現在の品目のブランドに一致する品目のみをレコメンデーションします。
 
-ブランドランディングページのmboxが返される場合 `entity.brand=brandA`、ブランドA製品のみが返され、そのページに表示されます。 同様に、ブランドBのブランドランディングページでは、ブランドBの商品のみが返されます。 このタイプの動的包含ルールでは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
+ブランドランディングページのmboxが`entity.brand=brandA`を返す場合、ブランドA製品のみが返され、そのページに表示されます。 同様に、ブランドBのブランドランディングページでは、ブランドBの商品のみが返されます。 このタイプの動的包含ルールでは、各ブランド名に一致するコレクションや静的フィルターを指定する代わりに、すべてのブランドページで関連するブランド結果を返すレコメンデーションルールを1つだけ指定する必要があります。
 
-この機能を有効にするには、これらのランディングページ `entity.brand` ーでmboxを配信する必要があります。
+この機能を有効にするには、mbox内の`entity.brand`をこれらのランディングページーで配信する必要があります。
 
 ## エンティティ属性の一致の例
 
-[!UICONTROL エンティティ属性の一致] では、次のように、一致する品目のみをレコメンデーションできます。
+[!UICONTROL エンティティ属性] の一致では、次のように、一致する品目のみをレコメンデーションできます。
 
 * ユーザーが現在表示中の項目の属性。
 * ユーザーが最後に閲覧した品目
@@ -42,7 +42,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 次の例は、ページに表示される商品ブランドに合わせたレコメンデーションを示しています。
 
-ブランドA製品を含むページにアクセスすると、そのページでは、 `entity.brand` パラメーターの値が「BrandA」に設定されます。
+ブランドA製品を含むページにアクセスすると、そのページでは`entity.brand`パラメーターの値が「BrandA」に設定されます。
 
 ![ターゲット呼び出しの例](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 ![ブランドAの推奨事項](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-その後ブランドB製品ページを表示すると、 `entity.brand` 値は「ブランドB」にリセットされ、ブランドB製品ページでレコメンデーションされたブランドB製品が表示されます。
+その後ブランドB製品ページを表示すると、`entity.brand`値は「BrandB」にリセットされ、ブランドB製品ページでレコメンデーションされたブランドB製品が表示されます。
 
 ![ブランドBの推奨事項](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
