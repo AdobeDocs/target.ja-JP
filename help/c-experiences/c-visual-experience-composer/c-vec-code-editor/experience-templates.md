@@ -32,7 +32,7 @@ ht-degree: 87%
 
 ![](assets/exp-template-banner-carousel.png)
 
-## バナーカウントダウン {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## バナーカウントダウン  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [バナーカウントダウンエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)は、中央にカウントダウンが配置された大きなバナーで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ![](assets/exp-template-button-builder.png)
 
-## カウントダウン付きライトボックス {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## カウントダウン付きライトボックス  {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [カウントダウン付きライトボックスエクスペリエンステンプレート](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)は、中央にカウントダウンが配置されたライトボックスオーバーレイポップアップで、ホームページやランディングページなど、大ボリュームのエントリページでよく使用されます。
 
