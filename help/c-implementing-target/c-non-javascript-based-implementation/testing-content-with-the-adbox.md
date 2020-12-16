@@ -30,7 +30,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
    * `myClientCode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
-      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
+      クライアントコードは、[!DNL Target]インターフェイスの[!UICONTROL 管理/導入]ページの先頭で入手できます。
 
    * `image` は呼び出しのタイプです。この場合は画像です。
 
@@ -38,7 +38,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` は mbox のデフォルトコンテンツです。画像にする必要があります。
 
-      URL エンコードをおこない、絶対参照にする必要があります。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
+      URL エンコードをおこない、絶対参照にする必要があります。[HTML URLエンコーディングリファレンス](https://www.w3schools.com/tags/ref_urlencode.asp)を使用すると、URLをすばやくエンコードできます。
 
 1. 各代替画像の[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を作成します。
 
