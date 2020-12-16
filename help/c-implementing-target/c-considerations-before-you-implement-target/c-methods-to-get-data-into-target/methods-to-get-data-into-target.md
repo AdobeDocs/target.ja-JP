@@ -56,7 +56,7 @@ ht-degree: 96%
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   これ以外の文字はすべて URL エンコードする必要があります。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   これ以外の文字はすべて URL エンコードする必要があります。標準では、次の形式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )を指定します。
 
    ![](assets/ietf1.png)
 
@@ -334,7 +334,7 @@ Experience Cloud ID（ECID）の実装が必要です。
 
 ### コードの例
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+詳しくは、[顧客属性ソースの作成とデータファイルのアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)を参照してください。
 
 ### 関連情報のリンク
 
