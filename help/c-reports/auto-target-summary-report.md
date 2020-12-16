@@ -12,21 +12,21 @@ ht-degree: 55%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自動ターゲットの概要レポート{#auto-target-summary-report}
+# ![PREMIUM自動](/help/assets/premium.png) ターゲットの概要レポート{#auto-target-summary-report}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
+[!DNL Adobe Target]の[!UICONTROL 自動ターゲットの概要]レポートの解釈方法に関する情報です。
 
 >[!NOTE]
 >
->[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。[ターゲットプレミアムライセンス](/help/c-intro/intro.md#premium)がない場合、[!DNL Target Standard]には含まれません。
 
-[!UICONTROL 自動ターゲットサマリレポートを表示するには] :
+[!UICONTROL 自動ターゲットの概要]レポートを表示するには：
 
-1. 「 [!UICONTROL アクティビティ] 」ページで、目的の [!UICONTROL 自動ターゲット] アクティビティをクリックします。
+1. [!UICONTROL アクティビティ]ページで、目的の[!UICONTROL 自動ターゲット]アクティビティをクリックします。
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   アクティビティ数が多い場合は、[!UICONTROL タイプ]、[!UICONTROL ステータス]、[!UICONTROL プロパティ]、[!UICONTROL レポートソース]、[!UICONTROL エクスペリエンスコンポーザー]、[!UICONTROL 指標タイプのリストをフィルターできます]と[!UICONTROL アクティビティソース]のドロップダウンリスト。
 
-1. 「 [!UICONTROL レポート] 」タブをクリックし、目的のアイコンをクリックします。
+1. 「[!UICONTROL レポート]」タブをクリックし、目的のアイコンをクリックします。
 
    * テーブル表示
    * グラフ表示
@@ -35,11 +35,11 @@ Information about how to interpret the [!UICONTROL Auto-Target Summary] reports 
 
 ## テーブル表示
 
-次の図に、 [!UICONTROL 自動ターゲット] アクティビティのレポートを表示した場合の [!UICONTROL 表表示] (Table Summary Report)の典型的な例を示します。
+次の図に、[!UICONTROL 自動ターゲット]アクティビティのレポートを表示した場合の[!UICONTROL テーブル表示]での一般的な概要レポートの表示例を示します。
 
 ![自動ターゲット表表示レポート](/help/c-reports/assets/at-table-view.png)
 
-[!UICONTROL 自動ターゲットレポートを解釈する際のヒントと考慮事項を以下に示します] 。
+[!UICONTROL 自動ターゲット]のレポートを解釈する際の注意点と考慮事項を以下に示します。
 
 * 表の各行は、アクティビティのパフォーマンスを理解するのに役立ちます。
 
@@ -52,32 +52,32 @@ Information about how to interpret the [!UICONTROL Auto-Target Summary] reports 
    * このケースでは、アクティビティのすべてのエクスペリエンスのモデル構築を高速化するために、まだモデルが構築されていないエクスペリエンスに追加トラフィックを送るようになっています。
    * パーソナライゼーションを開始するためには、モデルが構築されたエクスペリエンス（緑のチェックマーク）が少なくとも 2 つ必要です。
 
-* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
+* エクスペリエンスAとエクスペリエンスBのコンバージョン率を比較することは、[!UICONTROL 自動ターゲット]の正しい比較ではありません。 この機能の要点は、エクスペリエンス A がインテリジェントな方法で提供された場合に、ランダムで提供された場合よりもパフォーマンスが高まるのかどうかということです。マーケティング担当者は、個々のエクスペリエンスの上昇率を見るときに注意する必要があります。パーソナライゼーションアルゴリズムでは、個々のエクスペリエンス単位ではなく、アクティビティ全体での成功指標を重視して最適化をおこなうためです。
 * 最も高い上昇率を示すエクスペリエンスは、母集団内で最も高い差別化要因を持つと考えることができます。これは、特定のエクスペリエンスを最も好むセグメントをアルゴリズムが見つけたということです。
 * 表の様々な列には、訪問数、コンバージョン率、平均上昇率と信頼水準、信頼性が表示されます。 詳しくは、[平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)を参照してください。
 
 ## グラフ表示
 
-次の図に、 [!UICONTROL 自動ターゲット] アクティビティのレポートを表示する場合の [!UICONTROL グラフ表示] （グラフ）の一般的な概要レポートの例を示します。
+次の図に、[!UICONTROL 自動ターゲット]アクティビティのレポートを表示した場合の[!UICONTROL グラフ表示]での一般的な概要レポートの表示例を示します。
 
 ![自動ターゲットグラフ表示レポート](/help/c-reports/assets/at-graph-view.png)
 
-以下に示すように、2つのドロップダウンリストを使用して、目的の指標、カウント手法などを選択できます。 詳しくは、 [レポート設定の概要](/help/c-reports/c-report-settings/report-settings.md) :
+以下に示すように、2つのドロップダウンリストを使用して、目的の指標、カウント手法などを選択できます。 詳しくは、[レポート設定の概要](/help/c-reports/c-report-settings/report-settings.md)を参照してください。
 
 ![自動ターゲットグラフ表示レポート](/help/c-reports/assets/at-graph-view-2.png)
 
 ## 自動セグメント
 
-「 [!UICONTROL 自動セグメント] 」アイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
+[!UICONTROL 自動セグメント]アイコンをクリックします。 このレポートは、AP/ATアクティビティのオファー/エクスペリエンスに対する訪問者の反応が異なる様子を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
 ![自動セグメントアイコン](/help/c-reports/assets/icon-automated-sements.png)
 
-詳しくは、 [自動セグメントレポートを参照してください](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+詳しくは、[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)を参照してください。
 
 ## 重要な属性
 
-「 [!UICONTROL 重要な属性] 」アイコンをクリックします。 このレポートは、異なるアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどの程度重要か（あるいはそれほど重要か）を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
+[!UICONTROL 重要な属性]アイコンをクリックします。 このレポートは、異なるアクティビティで、モデルがどのようにパーソナライズを決定するかに関して、異なる属性がどの程度重要か（あるいはそれほど重要か）を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
 ![重要な属性アイコン](/help/c-reports/assets/icon-important-attributes.png)
 
-詳しくは、「 [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)」を参照してください。
+詳しくは、[重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)を参照してください。
