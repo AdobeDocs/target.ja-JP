@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # レコメンデーションキーに基づくレコメンデーションの設定
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+キーに基づくRecommendationsは、訪問者の動作コンテキストを使用して、[!DNL Adobe Target] [!DNL Recommendations]アクティビティに関連する結果を表示します。
 
 レコメンデーションには次の 2 種類があります。
 
@@ -24,14 +24,14 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 各条件は独自のタブで定義されます。トラフィックは、異なる条件のテスト全体で等しく分割されます。つまり、2 つの条件がある場合、トラフィックは等しく 2 分割されます。2 つの条件と 2 つのデザインがある場合、トラフィックは 4 つの組み合わせに対して等しく分割されます。さらに、比較のために、デフォルトコンテンツを表示するサイト訪問者の割合も指定できます。この場合、指定した割合の訪問者に対してデフォルトコンテンツが表示され、残りの割合の訪問者は条件とデザインの組み合わせの間で分割されます。
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. 新しい条件を作成するか、既存の条件を選択し、「**[!UICONTROL 編集]**」をクリックします。
+1. レコメンデーションキーを変更するには、[!UICONTROL レコメンデーションキー]ドロップダウンリストから新しいキーを選択し、**[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL 更新]**&#x200B;をクリックします。
 
    異なるロジックが異なるレコメンデーションキーにマッピングされているので、異なるレコメンデーションは、ページの異なるタイプに配置するのに適しています。各レコメンデーションキーについて詳しくは、次の節を参照してください。
 
 ## 推奨キー
 
-「レコメンデーションキー  」ドロップダウンリストからは、次のレコメンデーションキーを使用できます。
+[!UICONTROL レコメンデーションキー]ドロップダウンリストから、次のレコメンデーションキーを使用できます。
 
 ### 現在の品目 {#current-item}
 
@@ -72,7 +72,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 * 単一のカテゴリページ。
 * 検索結果が null のページに使用しないでください。
 
-### カスタム属性 {#custom}
+### カスタム属性  {#custom}
 
 レコメンデーションは、2 つの属性（user.*x* または profile.*x* 属性）のどちらかを使用して、訪問者のプロファイルに格納された品目によって決定されます。
 
@@ -82,7 +82,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 カスタム条件の出力にリアルタイムでフィルターを適用することができます。例えばレコメンデーション品目を、訪問者のお気に入りのカテゴリやブランドのものに絞ることができます。オフラインの計算結果とリアルタイムのフィルタリングを組み合わせることができます。
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. これにより、データサイエンティストのスキルと、配信、ランタイムフィルタリング、A/B テスト、ターゲティング、レポート、統合などのアドビの実証済みの機能を連携させることができます。
+この機能により、[!DNL Target]を使用して、オフラインの計算済みレコメンデーションやカスタムキュレーションリストの上にパーソナライゼーションを追加できます。 これにより、データサイエンティストのスキルと、配信、ランタイムフィルタリング、A/B テスト、ターゲティング、レポート、統合などのアドビの実証済みの機能を連携させることができます。
 
 カスタム条件にインクルージョンルールを追加することで、静的なレコメンデーションを、訪問者の興味に合わせた動的なレコメンデーションに変えることができます。
 
@@ -172,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * ホームページ、マイアカウントページ、オフサイト広告。
 * 商品ページまたは購入に関連するページには使用しないでください。
 
-### 最後に閲覧された品目 {#last-viewed}
+### 最後に閲覧された品目  {#last-viewed}
 
 レコメンデーションは、個別の訪問者が閲覧した最後の品目によって決定されます。これは自動的に取り込まれるので、ページに値を渡す必要はありません。
 
@@ -189,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * ホームページ、マイアカウントページ、オフサイト広告。
 * 商品ページまたは購入に関連するページには使用しないでください。
 
-### 最も多く閲覧された品目 {#most-viewed}
+### 最も多く閲覧された品目  {#most-viewed}
 
 レコメンデーションは、最も頻繁に閲覧された品目によって決定され、お気に入りのカテゴリに使用されたのと同じメソッドを採用します。
 
@@ -213,7 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * ホームまたはランディングページとオフサイト広告などの、一般的なページ。
 
-### 人気度 {#popularity}
+### 人気度  {#popularity}
 
 レコメンデーションはサイトでの人気度によって決定されます。人気度には、トップセラーや mbox データによる最多閲覧、また Adobe Analytics を使用している場合は、商品レポートで使用できるすべての指標が加味されます。選択したレコメンデーションロジックに基づいて品目がランク付けされます。
 
@@ -227,15 +227,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * ホームまたはランディングページとオフサイト広告などの、一般的なページ。
 
-### 最近表示された項目 {#recently-viewed}
+### 最近表示された項目  {#recently-viewed}
 
 訪問者の履歴（複数セッションにわたる）を使用して、デザインのスロット数に基づいて、訪問者が閲覧した最後の *x* 品目を提示します。
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。同じ環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、訪問者には、両方のサイトで最近表示された共通の項目が表示されます。
+最近表示した項目の条件は、指定した[環境](/help/administrating-target/hosts.md)に固有の結果を返します。 別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。同じ環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、訪問者には、両方のサイトで最近表示された共通の項目が表示されます。
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>代替レコメンデーションには、[!UICONTROL 最近表示された品目]条件を使用できません。
 
 最近表示された項目／メディアは、フィルターを適用し、特定の属性を含む項目のみを表示できます。
 
@@ -252,13 +252,13 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 >[!NOTE]
 >
->[!UICONTROL 「最近表示した項目] 」には、除外されるグローバル設定と、アクティビティに対して選択されたコレクション設定の両方が適用されます。 If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL 最近表示した] 項目では、アクティビティのグローバル設定と選択したコレクション設定の両方が除外されます。項目がグローバル除外で除外された場合、または選択したコレクションに含まれていない場合、項目は表示されません。したがって、[!UICONTROL 最近表示した項目]の条件を使用する場合は、通常、「すべてのコレクション」設定を使用する必要があります。
 
 ## 推奨ロジック
 
 [!DNL Target Recommendations] は、高度なアルゴリズムを使用して、訪問者のアクションがアクティビティに設定された条件に該当するタイミングを決定します。レコメンデーションキーは、利用可能なレコメンデーションロジックオプションを決定します。
 
-次のレコメンデーションロジック（条件）は、「レコメンデーションロジック  」ドロップダウンリストから使用できます。
+次のレコメンデーションロジック（条件）は、[!UICONTROL レコメンデーションロジック]ドロップダウンリストから利用できます。
 
 ### 類似の属性を持つ品目／メディア {#similar-attributes}
 
@@ -268,7 +268,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 コンテンツの類似性を使用したレコメンデーションの生成は、新しい品目に対して特に効果的です。レコメンデーションでは、過去の行動に基づく「これを閲覧した人」、「これを表示した人」、その他のロジックを使用します。 また、コンテンツの類似性を使用すると、過去の購入などの履歴データがない新規訪問者に対する便利なレコメンデーションを生成することもできます。
 
-詳しくは、「 [コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)」を参照してください。
+詳しくは、[コンテンツの類似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)を参照してください。
 
 このロジックは、次のレコメンデーションキーで使用できます。
 
@@ -366,7 +366,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 * お気に入りのカテゴリ
 * 人気度
 
-### ユーザーベースのRecommendations {#user-based}
+### ユーザーベースのRecommendations{#user-based}
 
 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。 これらの品目は、一般に「推奨」と呼ばれます。
 
