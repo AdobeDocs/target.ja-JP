@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # 分類 - A4T FAQ{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+このトピックでは、分類に関してよくある質問と、[!DNL Analytics]を[!DNL Target]のレポートソースとして使用する(A4T)質問に対する回答を記載します。
 
 ## 分類インポーターを使用して分類をダウンロードした後、post-tnt-action 値をアクティビティ名と合致させるには、どうしたらよいですか。{#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ This topic contains answers to questions that are frequently asked about classif
 
 TNT 変数の文字列形式は、`activityID:experienceID:targettype|event` です。
 
-* targettype = 0（制御/ランダム）または1（ターゲット）( [!UICONTROL 自動配分] / [!UICONTROL 自動ターゲット] アクティビティの場合)
+* targettype = 0 (control/random)または1 (targeted) for [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]のアクティビティ。
 * event = 0 は、エクスペリエンスの開始を表します。
 * event = 1 は、エクスペリエンスの訪問を表します。
 * event = 2 は、アクティビティのインプレッションを表します。
 * イベント= 3-32766は、Analytics成功指標IDを表します。
 * event = 32767 は、アクティビティのコンバージョンを表します。
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
+[ブラウザーインポート](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html)または[FTPインポート](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html)を使用して、UIから分類ファイルを頻繁にインポートできます。 また、エンジニアリングサービスと連携して、クリックストリームデータフィードと同時にルックアップテーブルとしてファイルを取得できます。
