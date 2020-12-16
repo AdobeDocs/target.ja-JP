@@ -78,7 +78,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### Enterprise ユーザーの権限
 
-[エンタープライズユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) (Enterprise User Permissions [!DNL Adobe Admin Console for Enterprise])機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、1人のユーザーに対して異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。 これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
+[Enterprise User ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)  [!DNL Adobe Admin Console for Enterprise]Permissions機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、そのユーザーのアクセス権限を指定する1人のユーザーに対して異なる権限を割り当てることができます。これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,7 +88,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 ## Experience League：Adobe Target Welcome Kit {#kit}
 
-この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。最初の[!DNL Adobe Target]アクティビティに備え、起動する際に役立つ重要な情報、ツール、リソースが含まれ、短期的な優先課題と長期的な最適化戦略が得られます。
 
 [ザAdobe Targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
