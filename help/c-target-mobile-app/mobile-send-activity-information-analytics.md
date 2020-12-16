@@ -14,18 +14,18 @@ ht-degree: 25%
 
 # アクティビティ情報の Adobe Analytics への送信{#send-activity-information-to-adobe-analytics}
 
-This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
+この節では、ポストホックセグメント化のために[!DNL Target]モバイルアプリのアクティビティ情報をAdobe[!DNL Analytics]に送信する方法について説明します。
 
 **前提条件**
 
-* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
-* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
+* この統合には、モバイルSDKを使用して[!DNL Analytics]と[!DNL Target]を実装する必要があります。
+* [!DNL Target]からのアクティビティ情報の受信がレポートスイートで有効になっていることを確認します。
 
-   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. これは、WebアクティビティにSiteCatalyst- Test&amp;Target統合を使用している場合に、既に有効になっている可能性があります。この手順については、Adobe ClientCareにお問い合わせください。
+   これは通常、[!DNL Target]クライアントコードを[!DNL Analytics]レポートスイートに追加することで行います。 これは、WebアクティビティにSiteCatalyst- Test&amp;Target統合を使用している場合に、既に有効になっている可能性があります。この手順については、Adobe ClientCareにお問い合わせください。
 
 1. アクティビティ情報を取得します。
 
-   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
+   エクスペリエンスコンテンツに次のような文字列を含めると、[!DNL Target]は[!DNL Analytics]に送信できるアクティビティ情報を返します。
 
    ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -41,9 +41,9 @@ This section describes how to send [!DNL Target] mobile app activity information
    }
    ```
 
-   In this example, a node with the variable `tntVal` is added to obtain the activity information. 適切なタイトルとメッセージを使用して、他のエクスペリエンスに類似したコードを追加します。
+   この例では、アクティビティ情報を取得するために、変数`tntVal`を持つノードが追加されます。 適切なタイトルとメッセージを使用して、他のエクスペリエンスに類似したコードを追加します。
 
-   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. これは、アクティビティID、エクスペリエンスID、トラフィックタイプを示します。 The following is a sample response from [!DNL Target]:
+   この文字列は、[!DNL Target]からの応答に数値（115110:0:0など）を配信します。 これは、アクティビティID、エクスペリエンスID、トラフィックタイプを示します。 次に、[!DNL Target]からの応答例を示します。
 
    ```javascript
    { 
@@ -55,13 +55,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
 1. JSONオブジェクトを解析します。
 
-   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
+   コールバックで[!DNL Target]から返された応答を解析します。 `NSJSONSerialization`を使ってこの応答を解析し、辞書や配列に格納することができます。
 
-   詳細は、 [NSJSONSerializationのドキュメント](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) を参照してください。
+   詳細は、[NSJSONSerializationのドキュメント](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)を参照してください。
 
-1. Send the data to [!DNL Analytics].
+1. データを[!DNL Analytics]に送信します。
 
-   Add the parsed activity information (such as `tntVal` in the above response) to your context data object in an [!DNL Analytics] call. This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
+   解追加析されたアクティビティ情報（上記の応答の`tntVal`など）を、[!DNL Analytics]呼び出しのコンテキストデータオブジェクトに対して返します。 コンテキストデータを含むこの[!DNL Analytics]呼び出しは、すぐに呼び出すことも、次の[!DNL Analytics]呼び出しが呼び出されるまで待つこともできます。
 
    例えば、`targetLoadRequest` 呼び出しのコールバックでこの呼び出しを実行できます。
 
@@ -72,5 +72,5 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    >[!NOTE]
    >
-   >`&&tnt`は、モバイル SDK の予約イベントキーです。The post-classification of the `tntVal` variable in [!DNL Analytics] works in the same way in the mobile SDK as it does on the web (JavaScript). After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
+   >`&&tnt`は、モバイル SDK の予約イベントキーです。[!DNL Analytics]内の`tntVal`変数の後分類は、モバイルSDKでもWeb上での動作と同じように機能します(JavaScript)。 情報を[!DNL Analytics]で処理した後は、[!DNL Analytics]インターフェイスにアクティビティ名とエクスペリエンス名が表示されます。
 
