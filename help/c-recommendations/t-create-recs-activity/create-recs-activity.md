@@ -32,7 +32,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
+   >上の図の[!UICONTROL [職場を選択]](/help/administrating-target/c-user-management/property-channel/property-channel.md)オプションは、[ターゲットプレミアム](/help/c-intro/intro.md)機能です。 このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
 
 1. （条件付き）[Target Premium](/help/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
@@ -46,17 +46,17 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    「[!UICONTROL 次へ]」をクリックすると、VEC が開き、ページが表示されます。現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. ページ上の要素をクリックし、その要素が存在する場所でrecommendationsが使用可能な場合は、「**[!UICONTROL Recommendationsと置き換え]**」、「**[!UICONTROL Recommendationsを]**&#x200B;の前に挿入」または「**[!UICONTROL Recommendationsを]**&#x200B;の後に挿入」をクリックします。
 
    サイトの訪問者は、レコメンデーションに該当する場合にのみ、レコメンデーションコンテンツを表示します。 レコメンデーションに適合しない訪問者には、デフォルトコンテンツが表示されます。
 
    ![Recommendations オプション](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 置き換え(Recommendations]**):エレメントをレコメンデーションと置き換えると、現在のコンテンツが削除され、レコメンデーションと置き換えられます。 訪問者がサイトを訪問し、レコメンデーションの条件を満たすと、既存のコンテンツではなく、指定された領域にレコメンデーション品目が表示されます。
-   * **[!UICONTROL 前にRecommendationsを挿入]**:選択した要素の前にレコメンデーションを挿入すると、レコメンデーションされたコンテンツがその要素の前に配置されます。 ページの構築に応じて、レコメンデーションは、選択した要素の上または左に表示されます。
-   * **[!UICONTROL 後にRecommendationsを挿入]**:選択した要素の後にレコメンデーションを挿入すると、その要素の後にレコメンデーションコンテンツが配置されます。 ページの構築に応じて、選択した要素の下または右にレコメンデーションが表示されます。
+   * **[!UICONTROL 置き換え(Recommendations]**):エレメントをレコメンデーションと置き換えると、現在のコンテンツが削除され、レコメンデーションと置き換えられます。訪問者がサイトを訪問し、レコメンデーションの条件を満たすと、既存のコンテンツではなく、指定された領域にレコメンデーション品目が表示されます。
+   * **[!UICONTROL 前にRecommendationsを挿入]**:選択した要素の前にレコメンデーションを挿入すると、レコメンデーションされたコンテンツがその要素の前に配置されます。ページの構築に応じて、レコメンデーションは、選択した要素の上または左に表示されます。
+   * **[!UICONTROL 後にRecommendationsを挿入]**:選択した要素の後にレコメンデーションを挿入すると、その要素の後にレコメンデーションコンテンツが配置されます。ページの構築に応じて、選択した要素の下または右にレコメンデーションが表示されます。
 
-   「 **[!UICONTROL 選択範囲を拡張]** 」オプションを使用すると、選択した場所(親コンテナ)を拡張して、目的のページエレメントを簡単に特定し、含めることができます。
+   「**[!UICONTROL 選択範囲を拡張]**」オプションを使用すると、選択した場所(親コンテナ)を拡張して、目的のページエレメントを簡単に特定し、含めることができます。
 
 1. ページタイプを選択します。
 
@@ -75,7 +75,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 1. 1 つ以上の[条件](/help/c-recommendations/c-algorithms/algorithms.md)を選択します。
 
-   条件が、それぞれの情報を表示するカードとして表示されます。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. これらのオプションを変更すると、他の条件を表示できます。
+   条件が、それぞれの情報を表示するカードとして表示されます。デフォルトでは、[!UICONTROL 条件を選択]画面には、業種と前の手順で選択したページタイプに対応した条件が表示されます。 これらのオプションを変更すると、他の条件を表示できます。
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
       [!DNL Recommendations] によって提供される条件もあります。カスタムの条件を作成することも可能です。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 新しい条件の作成について詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
-   * また、条件をシーケンスにグループ化することもできます。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 詳しくは、「条件のシーケンス [を作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 」を参照してください。
+   * 新しい条件を作成するには、**[!UICONTROL 条件を作成]**/**[!UICONTROL 条件を作成]**&#x200B;をクリックし、新しい条件の情報を入力します。 新しい条件の作成について詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
+   * また、条件をシーケンスにグループ化することもできます。新しい条件のシーケンスを作成するには、**[!UICONTROL 条件を作成]**/**[!UICONTROL 条件のシーケンスを作成]**&#x200B;をクリックします。 詳しくは、[条件のシーケンスを作成](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)を参照してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [デザイン](/help/c-recommendations/c-design-overview/design-overview.md)を選択します。
 
-   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、事前設定済みのデザインがいくつか含まれています。 カスタムのデザインを作成することも可能です。詳しくは、[デザインの作成](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)と[デザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
+   デザインとは、ページ上の場所の表示方法を決めるテンプレートです。[!DNL Target] には、事前設定済みのデザインがいくつか含まれています。カスタムのデザインを作成することも可能です。詳しくは、[デザインの作成](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)と[デザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)を参照してください。
 
    ![デザインを選択ダイアログボックス](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -178,6 +178,6 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    複数のアクティビティから同一のページにコンテンツが配信されるように設定されている場合に、アクティビティの衝突が発生します。その場合、予期しないコンテンツが表示されることがあります。
 
-## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：Recommendations アクティビティの作成（7:15）  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
