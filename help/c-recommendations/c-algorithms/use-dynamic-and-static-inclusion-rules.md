@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # ![PREMIUM](/help/assets/premium.png) 動的および静的インクルージョンルールの使用{#use-dynamic-and-static-inclusion-rules}
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+[!DNL Adobe Target]で条件とプロモーションのインクルージョンルールを作成し、レコメンデーションの結果を高めるために動的フィルタールールまたは静的フィルタールールを追加する方法に関する情報です。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 ## フィルターのタイプ {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-以下の節では、条件とプロモーションの両方に対して、 [!UICONTROL 動的フィルタリング] (Dynamic Filtering)と値による [!UICONTROL フィルタリング(Filter by Value] )のフィルタリングオプションのタイプをリストします。
+次の節では、条件とプロモーションの両方に対して、[!UICONTROL 動的フィルター]および[!UICONTROL 値]でフィルターするフィルターオプションのタイプをリストします。
 
 ### 動的フィルター
 
@@ -55,9 +55,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 | 動的フィルタリングオプション | 詳細 |
 | --- | --- |
-| [エンティティ属性のマッチング](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 推定品目のプールを、ユーザーが操作を行った特定の品目と比較して、動的にフィルタリングします。<br>訪問者のお気に入りのブランドなど、訪問者にとって最も魅力的なレコメンデーションを表示したい場合に、  エンティティ属性の一致を使用します。 |
-| [プロファイル属性のマッチング](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | 項目（エンティティ）をユーザーのプロファイルー内の値と比較して、動的にフィルタリングします。<br>サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、  プロファイル属性の一致を使用します。 |
-| [パラメーターのマッチング](/help/c-recommendations/c-algorithms/parameter-matching.md) | 項目（エンティティ）とリクエスト（APIまたはmbox）内の値を比較して、動的にフィルターします。<br>「 [!UICONTROL パラメーターの一致] 」を使用して、ページのパラメーターまたは訪問者のパラメーター（デバイスのサイズや地域など）に一致するコンテンツを推奨します。 |
+| [エンティティ属性のマッチング](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 推定品目のプールを、ユーザーが操作を行った特定の品目と比較して、動的にフィルタリングします。<br>訪問者のお気に入りのブランドなど、訪問者にアピールする可能性が最も高いレコメンデーションを表示する場合に、 [!UICONTROL エンティティ属性] の一致を使用します。 |
+| [プロファイル属性のマッチング](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | 項目（エンティティ）をユーザーのプロファイルー内の値と比較して、動的にフィルタリングします。<br>サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するレコメンデーションを表示する場合は、 [!UICONTROL プロファイル属性] の一致を使用します。 |
+| [パラメーターのマッチング](/help/c-recommendations/c-algorithms/parameter-matching.md) | 項目（エンティティ）とリクエスト（APIまたはmbox）内の値を比較して、動的にフィルターします。<br>「 [!UICONTROL パラメーターの] 一致」を使用して、ページのパラメーターまたは訪問者のパラメーター（デバイスのサイズや地域など）に一致するコンテンツを推奨します。 |
 
 ### 値でフィルター
 
@@ -79,9 +79,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 | 次と等しくない | 動的プロモーションで「等しくない」演算子を使用すると、訪問者がWebサイト上のアイテム（製品、記事、映画など）を表示している場合に、次のアイテムの他のアイテムをプロモーションできます。<ul><li>別の TV シリーズ</li><li>別のジャンル</li><li>別の商品シリーズ</li><li>別のスタイル ID</li></ul> |
 | is between (範囲内) | 動的プロモーションで「次の範囲内」演算子を使用すると、訪問者がWebサイト上のアイテム（製品、記事、映画など）を表示している場合に、次のような他のアイテムをプロモーションできます。<ul><li>より高価格</li><li>より低価格</li><li>価格がプラスマイナス 30％</li><li>同じシーズンの後続のエピソード</li><li>シリーズの前巻</li></ul> |
 
-## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## エンティティ属性の一致、プロファイル属性の一致、パラメーターの一致でフィルタリングする際の空の値の処理{#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-You can choose several options to handle empty values when filtering by [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching] for exit criteria and promotions.
+終了条件とプロモーションに対して、[!UICONTROL プロファイル属性の一致]、[!UICONTROL エンティティ属性の一致]および[!UICONTROL パラメーターの一致]でフィルタリングする際に、空の値を処理するオプションをいくつか選択できます。
 
 以前は、値が空の場合は何も結果が返されませんでした。次の図のように、「*x* が空の場合」ドロップダウンリストを使用することで、条件に空の値があった場合に実行する処理を選択できます。
 
@@ -91,16 +91,16 @@ You can choose several options to handle empty values when filtering by [!UICONT
 
 | アクション | 利用できるマッチング | 詳細 |
 |--- |--- |--- |
-| [!UICONTROL このフィルタールールを無視] | [!UICONTROL プロファイル属性の一致][!UICONTROL とパラメータの一致] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
-| [!UICONTROL この条件の結果を表示しない]<br>（条件のみ） | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
-| [!UICONTROL どの項目もプロモーションしない<br>（プロモーションのみ）] | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
+| [!UICONTROL このフィルタールールを無視] | [!UICONTROL プロファイル属性] [!UICONTROL の一致とパラメータの一致] | これは、[!UICONTROL プロファイル属性の一致]と[!UICONTROL パラメーターの一致]のデフォルトの動作です。<br>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
+| [!UICONTROL この条件の結果を表示しない]<br>（条件のみ） | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | これは、[!UICONTROL エンティティ属性の一致]のデフォルトのアクションです。<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
+| [!UICONTROL どの項目もプロモーションしない<br>（プロモーションのみ）] | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | これは、[!UICONTROL エンティティ属性の一致]のデフォルトのアクションです。<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
 | [!UICONTROL 静的値を使用] | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->データタイプが異なる属性に対して「次に等しい」および「等しくない」演算子を使用した動的な条件またはプロモーションでは、実行時に互換性がない可能性があります。You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>データタイプが異なる属性に対して「次に等しい」および「等しくない」演算子を使用した動的な条件またはプロモーションでは、実行時に互換性がない可能性があります。左側に定義済みの属性またはカスタム属性がある場合は、右側に[!UICONTROL 値]、[!UICONTROL 利益幅]、[!UICONTROL 在庫]および[!UICONTROL 環境]の値を使用するのが適切です。
 
 ![](assets/left_right.png)
 
