@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # 類似のページに同じエクスペリエンスを組み込む
 
-ページに構造を提供す [!DNL Adobe Target] る場合、またはページに類似の要素が含まれる場合は、でページテンプレートを使用して、同様に構造化されたページ要素内またはドメイン全体のバリエーションをテストします。
+[!DNL Adobe Target]のページテンプレートを使用して、ページの構造を指定したり、ページに類似した要素が含まれる場合は、同様の構造を持つページ要素のバリエーションやドメイン全体のバリエーションをテストしたりします。
 
 正しく機能させるには、この機能を、構造が似ているページ、または構造が同じテンプレート要素を含むページですべてのページで使用する必要があります。
 
@@ -31,9 +31,9 @@ ht-degree: 45%
 
 要素の変更を含むページを指定するか、サイトまたはドメイン全体に変更を適用できます。
 
-1. [アクティビティの説明に従って、アクティビティを作成または編集します](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
+1. [アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の説明に従って、アクティビティを作成または編集します。
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. エクスペリエンスを表示するページを指定するには、[!UICONTROL Visual Experience Composer](VEC)で歯車アイコンをクリックし、「**[!UICONTROL ページ配信]**」を選択します。
 
    ![歯車アイコン/ページ配信](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ ht-degree: 45%
 
 1. ページの範囲を指定します。ページの範囲は、次のいずれかの方法で指定します。
 
-   * URL (ターゲットがURLを評価する方法について詳しくは、 [ターゲットとオーディエンスに関するFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))。
+   * URL (ターゲットがURLを評価する方法について詳しくは、[ターゲットとオーディエンスのFAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)を参照してください)。
    * ドメイン
    * パス
    * ハッシュ(#)フラグメント(#記号に続くURLの部分をターゲット)
@@ -69,7 +69,7 @@ ht-degree: 45%
    >
    >複数の項目でORロジックが使用されます。つまり、リスト内の任意の項目が条件を満たすと見なされます。
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. 必要に応じて、「**[!UICONTROL テンプレートルール]**」をクリックして追加の条件を入力し、前の手順を繰り返します。
 
    複数の条件は AND のロジックで連結されます。[!DNL Target] では、指定した条件に一致するすべてのページにエクスペリエンスが追加されます。
 
@@ -89,17 +89,17 @@ ht-degree: 45%
 * グローバルバナーを含めるには（例えば、COVID-19のお知らせ）
 * グローバルな無料配送プロモーションを含めるには
 
-1. [アクティビティの説明に従って、アクティビティを作成または編集します](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
+1. [アクティビティ](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の説明に従って、アクティビティを作成または編集します。
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. エクスペリエンスを表示するドメインを指定するには、Visual Experience Composerで歯車アイコンをクリックし、「**[!UICONTROL ページ配信]**」を選択します。
 
-1. テン **[!UICONTROL プレートルール]** / **[!UICONTROL ドメイン]**&#x200B;をクリックします。
+1. **[!UICONTROL テンプレート規則&lt;a1/追加>/**[!UICONTROL &#x200B;ドメイン&#x200B;]**をクリックします。]**
 
-1. 「評価基準を **[!UICONTROL 選択]** 」ドロップダウンから「 **[!UICONTROL 次を含む」を選択し]**、ドメインを指定します。
+1. **[!UICONTROL 評価基準]**&#x200B;を選択ドロップダウンから、「**[!UICONTROL 次を含む]**」を選択し、ドメインを指定します。
 
    ![ドメインに次を含む](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## トレーニングビデオ：Visual Experience Composer(2/2)(7:29)![チュートリアルバッジ](/help/assets/tutorial.png)
 
 * エクスペリエンスの名前の変更と複製
 * リダイレクトエクスペリエンスの作成
