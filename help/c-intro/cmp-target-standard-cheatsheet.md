@@ -62,7 +62,7 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
-「 [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) 」オプションをチェックアウトします。
+[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)オプションをチェックアウトします。
 
 **ニーズに合ったアクティビティのタイプを見極めるには、どうすればよいですか？**
 
@@ -189,7 +189,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 また、「[フォームベースの手法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、 [allowlist Adobe&#39;s proxy servers](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、  [許可リストAdobeのプロキシ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) サーバーも同様です。
 
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
@@ -197,7 +197,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 **複数のドメインがあります。拡張 Experience Composer を有効にする必要があるドメインと、無効にする必要があるドメインがあるのですが、これはどうすれば設定できますか？**
 
-You can always use [Enhanced Experience Composer option at the activity level](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
+アクティビティレベル](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)で[拡張Experience Composerオプションを常に使用して、デフォルト設定（管理/Visual Experience Composer）を上書きできます。
 
 **画像を入れ替えるオプションが表示されないのはなぜですか？**
 
