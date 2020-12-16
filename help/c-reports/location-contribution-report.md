@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ![](assets/locationcontributionbottom.png)
 
-## トレーニングビデオ: MVTテストの作成 ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ: MVTテストの作成  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。場所の貢献度レポートについては、8:45 から説明しています。
 
