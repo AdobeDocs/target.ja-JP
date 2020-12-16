@@ -204,7 +204,7 @@ mbox v2のバッチ：
 
 **アカウントごとのプロファイルスクリプトの合計の制限**:2,000
 
-**プロファイルスクリプトの複雑さを制限するRecommendations**:プロファイルスクリプトで実行できる命令の数は限られています。 詳しくは、「 [プロファイル属性の](/help/c-target/c-visitor-profile/profile-parameters.md#best) ベストプラクティス *」を参照してください*。
+**プロファイルスクリプトの複雑さを制限するRecommendations**:プロファイルスクリプトで実行できる命令の数は限られています。詳しくは、*プロファイル属性*&#x200B;の[ベストプラクティス](/help/c-target/c-visitor-profile/profile-parameters.md#best)を参照してください。
 
 ## プロパティ
 
