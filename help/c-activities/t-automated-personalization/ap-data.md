@@ -14,11 +14,11 @@ ht-degree: 92%
 
 # ![PREMIUM](/help/assets/premium.png) Target パーソナライゼーションアルゴリズムのデータ収集
 
-[!DNL Adobe Target] 様々なデータを自動的に収集して使用し、 [!UICONTROL Automated Personalization] (AP)および [!UICONTROL 自動ターゲット] (AT)アクティビティでパーソナライゼーションアルゴリズムを作成します。 訪問者がAPまたはATアクティビティに入ると、情報のスナップショットが一連の「トレーニングレコード」(パーソナライゼーションアルゴリズムが学習する訪問者データ)に渡されます。
+[!DNL Adobe Target] 様々なデータを自動的に収集して使用し、 [!UICONTROL Automated Personalization] (AP)および [!UICONTROL 自動ターゲット] (AT)アクティビティでパーソナライゼーションアルゴリズムを作成します。訪問者がAPまたはATアクティビティに入ると、情報のスナップショットが一連の「トレーニングレコード」(パーソナライゼーションアルゴリズムが学習する訪問者データ)に渡されます。
 
 Target のパーソナライゼーションアルゴリズムについて詳しくは、[ランダムフォレストアルゴリズム](/help/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。
 
-The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)を参照してください。
+次の表に、デフォルトで[!UICONTROL Automated Personalization]と[!UICONTROL 自動ターゲット]によって収集されたデータを示します。マーケティング担当者は、これらの属性を[パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)に示すために使用される命名規則を使用します。 入力データセットはいつでも増やすことができます。追加データのアップロード方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)を参照してください。
 
 | データタイプ | 説明 | データタイプの命名規則 | 属性の例 |
 | --- | --- | --- | --- |
@@ -62,7 +62,7 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 | Browser - Screen Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザー画面の高さ（ピクセル単位）。 | 1、2、3、など。 |
 | Browser - Time of Day | 訪問者がアクティビティにアクセスしたときのブラウザーの時間。 | 0, 6, 12, 18<br>（0 は夜、6 は朝、<br>12 は午後、18 は夜） |
 | Browser - Timezone | 訪問者がアクティビティにアクセスしたときのタイムゾーン。 | Pacific Time<br>Eastern Time<br>GMT |
-| Browser - Type | 訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| ブラウザー — タイプ | 訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
 | Browser - Weekday/Weekend | 訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の自由時間）。 | 土曜日および日曜日は週末<br>月曜日～金曜日の 0900 ～ 1800 は勤務時間<br>月曜日～金曜日の 1800 以降 0900 までは平日の自由時間 |
 | Browser - Window Height (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの高さ（ピクセル単位）。 | 1、2、3、など。 |
 | Browser - Window Width (px) | 訪問者がアクティビティへのアクセスに使用したデバイスのブラウザーウィンドウの幅（ピクセル単位）。 | 1、2、3、など。 |
@@ -99,11 +99,11 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 | Visitor Profile - First Visit | ユーザーが Target とやり取りした最初の訪問の時間を指定します。 | ダブル、ミリ秒 |
 | Visitor Profile - Hours since Last Visit | このアクティビティへの最後の訪問からの経過時間を指定します。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Impressions of Location/Content | 特定のアクティビティでの特定の場所／コンテンツの組み合わせに対するインプレッション数を指定します。 | ダブル（正の整数のみ）1、2、3 など |
-| Visitor Profile - Last Target Interaction | Target との最後のやり取りの時間を指定します。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | ダブル、ミリ秒 |
+| Visitor Profile - Last Target Interaction | Target との最後のやり取りの時間を指定します。現在の[!DNL Target]の実装が各リクエストのプロファイルを更新するので、[!DNL Target]リクエストごとにインタラクションが発生します。 | ダブル、ミリ秒 |
 | Visitor Profile - Pages Seen Before Activity | 合計ページビュー数（インプレッション）を指定します（訪問者がアクティビティに入るまでは、現在の訪問／セッションを含む）。 | ダブル（正の整数のみ）1、2、3 など |
 | Visitor Profile - Page Views in Current Visit | 訪問者がアクティビティに入るまでの、現在の訪問／セッションのページビュー数を指定します。もっと正確に言えば、インプレッション数です。これらのインプレッション数は、実際のページビュー数ではなく、リクエストが Target に到達した回数です。Target では、タイムアウトやユーザーがコンテンツを受け取らなかった／表示したその他の理由を区別できません。 | ダブル（正の整数のみ） |
-| Visitor Profile - Start of Current Visit | Target を使用した現在の訪問／セッションが開始した時間を指定します。Target を使用した訪問は、アクティビティに入らなくても開始できます。All that is required is a call to any [!DNL Target] request. 訪問者は、アクティビティに入り、スナップショットが取られるまで時間がかかる可能性があります。 | ダブル、ミリ秒 |
-| Visitor Profile - Start of Most Recent Visit | Target を使用した最後の訪問／セッションが開始した時間を指定します。この属性は、セッションの有効期限が切れると更新されます。<br>これが訪問者にとっての最初のセッションの場合、結果は `LAST_SESSION_START = 0.` になります。 | ダブル、ミリ秒 |
+| Visitor Profile - Start of Current Visit | Target を使用した現在の訪問／セッションが開始した時間を指定します。Target を使用した訪問は、アクティビティに入らなくても開始できます。必要なのは、[!DNL Target]リクエストへの呼び出しだけです。 訪問者は、アクティビティに入り、スナップショットが取られるまで時間がかかる可能性があります。 | ダブル、ミリ秒 |
+| 訪問者プロファイル — 最新の訪問の開始 | Target を使用した最後の訪問／セッションが開始した時間を指定します。この属性は、セッションの有効期限が切れると更新されます。<br>これが訪問者にとっての最初のセッションの場合、結果は `LAST_SESSION_START = 0.` になります。 | ダブル、ミリ秒 |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | 以前のセッションとユーザーがアクティビティに入ってスナップショットが実行されたときの間の期間を指定します。 | ダブル、ミリ秒 |
 | Visitor Profile - Time in Visit Before Enter Activity | Target との最後のやり取りと現在の訪問が開始したときの間の差を指定します。この属性は、ユーザーがアクティビティに入ってスナップショットが実行されるまでの訪問／セッション期間と考えることができます。<br>[!DNL Target]セッションが開始して最後の更新時間が同じ 呼び出しでトリガーされる場合、負の値になります。負の値は 0（ゼロ）とみなす必要があります。 | ダブル、ミリ秒 |
 | 訪問者プロファイル - 合計訪問回数 | 訪問／セッションの合計数を指定します。現在の訪問／セッションは含まれません。 | ダブル（正の整数のみ）1、2、3 など |
