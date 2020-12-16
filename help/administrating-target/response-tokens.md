@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # レスポンストークン{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用する[!DNL Target]固有のアクティビティ(プロファイルの詳細、ユーザー情報、地域情報など)を自動的に出力できます。
 
-応答トークンを使用すると、活用する変数を選択し、ターゲット応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はターゲット応答と共に送信され、ネットワーク呼び出しで検証できます。 Response tokens work in [!UICONTROL Preview] mode as well.
+応答トークンを使用すると、活用する変数を選択し、ターゲット応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はターゲット応答と共に送信され、ネットワーク呼び出しで検証できます。 応答トークンは、[!UICONTROL プレビュー]モードでも動作します。
 
 プラグインとレスポンストークンの主な違いは、プラグインでは配信時に実行される JavaScript をページに送信しますが、レスポンストークンでは、イベントリスナーを使用して読み込み、実行できるオブジェクトを送信するという点です。詳しくは、[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)とこの記事の後の例を参照してください。レスポンストークンの方が安全性が高く、サードパーティ統合に伴う開発や管理を簡略化できます。
 
@@ -35,7 +35,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. [!DNL Target]で、**[!UICONTROL 管理]**/**[!UICONTROL 応答トークン]**&#x200B;をクリックします。
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | タイプ | パラメーター | メモ |
    |--- |--- |--- |
-   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。例えば、2つの[!DNL Target]リクエストが2つの異なるアクティビティを配信するページの場合、2番目のリクエストには両方のアクティビティが含まれます。 |
    |  | `profile.isFirstSession` | 「true」または「false」を返します。 |
    |  | `profile.isNewSession` | 「true」または「false」を返します。 |
    |  | `profile.daysSinceLastVisit` | 訪問者の最後の訪問からの経過日数を返します。 |
@@ -56,7 +56,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
    | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 現在のアクティビティの詳細です。「option」は「offer」と同義です。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
-   | トラフィックの配分方法<br>( [!UICONTROL 自動ターゲット] および  Automated Personalizationアクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
+   | トラフィック配分方法<br>([!UICONTROL 自動ターゲット]および[!UICONTROL Automated Personalization]アクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
    |  | `experience.trafficAllocationType` | &quot;control&quot;または&quot;targeted&quot;を返します。 |
 
    ユーザープロファイル属性と顧客属性もリストに表示されます。
@@ -65,9 +65,9 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >特殊文字を含むパラメーターはリストに表示されません。英数字とアンダースコアのみサポートされます。
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. （条件付き）プロファイルーパラメーターを応答トークンとして使用する場合で、そのパラメーターが[!DNL Target]リクエストを通過せず、したがってターゲットーUIに読み込まれていない場合は、「[!UICONTROL 応答トークン追加]」ボタンを使用してプロファイルをUIに追加できます。
 
-   「 **[!UICONTROL 追加応答トークン]**」をクリックし、トークン名を指定して、「 **[!UICONTROL アクティブ化]**」をクリックします。
+   「**[!UICONTROL 追加レスポンストークン]**」をクリックし、トークン名を入力して、「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **サイトの一部のページでは at.js 1.1 以降を使用し、他のページでは mbox.js を使用している場合はどうなりますか？**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+応答トークンは[!DNL at.js]ターゲット応答に配信されますが、[!DNL mbox.js]応答には配信されません。
 
 **Target Classic プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
 
 プラグインとレスポンストークンは同時に利用できますが、プラグインは廃止される予定です。
 
-**応答トークンは、すべての応答を通じて配信されますか。それとも、アクティビティを配信する応答を通じてのみ配信されま [!DNL Target][!DNL Target] すか。**
+**応答トークンは、すべての [!DNL Target] 応答を通じて配信されますか。それとも、アクティビティを配信する [!DNL Target] 応答を通じてのみ配信されますか。**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+応答トークンは、アクティビティを配信する[!DNL Target]応答を介してのみ配信されます。
 
 **利用していた Target Classic プラグインに JavaScript が含まれていたのですが、レスポンストークンを使用してこの機能を複製するにはどうすればよいですか？**
 
@@ -230,7 +230,7 @@ Target では、一定間隔で属性が更新されます。有効にされて�
 </script>
 ```
 
-## デバッグ（ttMeta プラグインと同様） {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## デバッグ（ttMeta プラグインと同様）  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 ttMeta プラグインと同様のデバッグ機能は、HTML ページに次のコードを追加することで作成できます。
 
@@ -288,6 +288,6 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 
 >[!NOTE]
 >
->パフォーマンスを向上し、新機能のリリース時に必要なメンテナンス時間を短縮し、製品全体でのユーザー操作性を向上させるために、 [!DNL Target] 管理 [!UICONTROL メニューUI(旧称] セットアップ )が再設計されました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）の設計が一新され、パフォーマンスが向上し、新機能のリリース時に必要なメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
