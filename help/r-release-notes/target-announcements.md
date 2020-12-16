@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。 Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。
 
-詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。
+[Adobeブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)で確認。
 
 ## Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantのリーダーに再び選ばれました。
 
@@ -50,9 +50,9 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 * AI &amp; Analyticsがその取り組みを加速し、明確で重要なビジネスインパクトを与える方法
 * HSBCが3,000以上のアクティビティを提供する規模で成功プログラムを構築
 
-*McKinseyの記事：「[COVID-19の回復はデジタル](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
+*McKinseyの記事：&quot;[COVID-19の回復はデジタル](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)になる&quot; 2020年5月
 
-## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行 {#skill-builder}
+## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行する{#skill-builder}
 
 2021年1月18日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
 
