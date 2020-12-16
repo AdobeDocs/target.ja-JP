@@ -170,7 +170,7 @@ Visual Experience Composer の追加の制限事項については、[Visual Exp
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03） ![概要バッジ](/help/assets/overview.png)
+### アクティビティのタイプ（9:03）  ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
 
