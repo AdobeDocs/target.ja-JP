@@ -89,7 +89,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。詳しくは、[Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)チュートリアルの[追加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)のレッスン「&lt;a2/>WebサイトでExperience Cloudを実装する」を参照してください。
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。例えば、次のようにします。
 
    ```
@@ -109,7 +109,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 ページ（または指定された部分）を事前に非表示にし、at.js とグローバルリクエストが完全に読み込まれてから表示されるスニペットを使用すると、ちらつきを回避できます。このスニペットは、at.js の読み込みの前に追加する必要があります。
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+非同期的なLaunch実装を通じてat.jsをデプロイする場合は、[Launch Tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)の「ターゲットスニペットの実装」の[追加で説明されているように、埋め込みコードの起動の前に、直接ページに隠しスニペットを含めてください。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)
 
 同期 DTM 実装を介して at.js を導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
 
@@ -223,7 +223,7 @@ Secure は、ページが HTTPS でロードされた場合にのみ、JavaScrip
 
 Target がユーザーを適切に追跡できるようにするために、および、Cookie が クライアント側で生成されるという理由で、Target ではこれらのフラグをどちらも使用しません。
 
-## at.js はどのくらいの頻度でネットワークリクエストを送信しますか？ {#section_57C5235DF7694AF093A845D73EABADFD}
+## at.js はどのくらいの頻度でネットワークリクエストを送信しますか？  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target は、すべての決定をサーバー側で実行します。つまり、at.js は、ページの再読み込みが発生するたび、または at.js パブリック API が呼び出されるたびに、ネットワークリクエストを送信します。
 
@@ -231,7 +231,7 @@ Adobe Target は、すべての決定をサーバー側で実行します。つ�
 
 at.js は、HTML BODY やその他の DOM 要素があらかじめ非表示にされている時間が長くなりすぎないようにしようと試みますが、これはネットワークの状態やアクティビティの設定に依存します。at.js [設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)を使用すると、BODY を非表示にする CSS スタイルをカスタマイズして、HTML BODY 全体を非表示にする代わりに、ページの一部のみをあらかじめ非表示にできます。これらの部分には、「パーソナライズ」する必要のある DOM 要素が含まれていることが予想されます。
 
-## ユーザーがアクティビティの対象になる標準的なシナリオにおいてイベントはどのような順序で発生しますか？ {#section_56E6F448E901403FB77DF02F44C44452}
+## ユーザーがアクティビティの対象になる標準的なシナリオにおいてイベントはどのような順序で発生しますか？  {#section_56E6F448E901403FB77DF02F44C44452}
 
 at.js リクエストは非同期の `XMLHttpRequest` なので、次の手順が実行されます。
 
@@ -251,11 +251,11 @@ at.js リクエストは非同期の `XMLHttpRequest` なので、次の手順�
 
 at.js は、ページのレンダリングをブロックしません。ユーザーは、ページ上のいくつかの空白領域に気付く可能性があります。これらの領域は、Target によってカスタマイズされる要素の配置場所になります。適用されるコンテンツに SCRIPT や IMG などのリモートアセットが多く含まれていない場合は、すべてが瞬時にレンダリングされます。
 
-## 完全にキャッシュされたページは上記のシナリオにどのように影響しますか？ページ上の他のコンテンツが読み込まれた後は、アクティビティのコンテンツがよりはっきりと見えるようになるのですか？ {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 完全にキャッシュされたページは上記のシナリオにどのように影響しますか？ページ上の他のコンテンツが読み込まれた後は、アクティビティのコンテンツがよりはっきりと見えるようになるのですか？  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 ユーザーの場所から近くても Target Edge からは遠い CDN にページがキャッシュされている場合、そのユーザーは多少の遅延を感じる可能性があります。ただし、Target エッジは世界中に分散されているので、ほとんどの場合、これは問題になりません。
 
-## ヒーロー画像が表示された後に、少し遅れてスワップアウトされる可能性はありますか？ {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## ヒーロー画像が表示された後に、少し遅れてスワップアウトされる可能性はありますか？  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 次のシナリオを考えてみましょう。
 
