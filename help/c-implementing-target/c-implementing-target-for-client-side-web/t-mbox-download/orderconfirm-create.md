@@ -21,10 +21,10 @@ ht-degree: 85%
 >* ユーザーが Web サイトで買い物をする場合、レポートに Analytics for Target（A4T）を使用している場合でも、注文の確認 mbox を実装することをお勧めします。
    >
    >
-* at.js 1用に注文の確認mboxを作成することもできます。*x* （同じ方法を用いる）ただし、この [!DNL at.js] 方法をお勧めします。 詳細については、「[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)」を参照してください。
+* at.js 1用に注文の確認mboxを作成することもできます。*同じ方法* を使用してただし、 [!DNL at.js] 方法をお勧めします。詳細については、「[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)」を参照してください。
    >
    >
-* at.js 2を使用している場合。*x*、 `mboxCreate` はサポートされなくなりました。 at.js 2を使用した注文確認。*x*、次のトラッキング関連APIを使用します。 [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) および [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+* at.js 2を使用している場合。*x*、 `mboxCreate` はサポートされなくなりました。at.js 2を使用した注文確認。*x*、次のトラッキング関連APIを使用します。 [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) および [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
 
 
 1. 注文の詳細ページで、以下のモデルに示す mbox スクリプトを挿入します。
