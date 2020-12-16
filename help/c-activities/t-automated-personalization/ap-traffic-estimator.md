@@ -14,21 +14,21 @@ ht-degree: 22%
 
 # ![PREMIUM](/help/assets/premium.png) 成功のために必要なトラフィックの見積もり{#estimate-the-traffic-required-for-success}
 
-[!UICONTROL トラフィック見積もりには] 、 [!DNL Adobe Target] アクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックが表示されます。
+[!UICONTROL トラフィック見積もり]は、[!DNL Adobe Target]アクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックを提供します。
 
-[!UICONTROL Automated Personalization] アクティビティでは複数のオファーの組み合わせを使用するので、有意義な結果を得るために必要なトラフィック量を知ることが重要です。 The [!UICONTROL Traffic Estimator] uses statistics about your page and the number of experiences being tested to estimate the amount of traffic and the test duration needed to make the activity successful.
+[!UICONTROL Automated Personalization]アクティビティは複数のオファーの組み合わせを使用するので、有意な結果を得るために必要なトラフィック量を把握することが重要です。 [!UICONTROL トラフィック見積もり]は、ページに関する統計とテスト中のエクスペリエンスの数に基づいて、トラフィック量とアクティビティを成功させるのに必要なテスト期間を見積もります。
 
-The [!UICONTROL Traffic Estimator] determines if there is enough traffic to generate personalized models, by comparing the estimated page impressions and typical conversion rate for the pages. アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。これにより、パーソナライズされたコンテンツの取得と、配信するコンテンツの学習に十分な時間を確保できます。
+[!UICONTROL トラフィック見積もり]は、ページのページインプレッション予測と一般的なコンバージョン率を比較し、パーソナライズされたモデルを生成するのに十分なトラフィックがあるかどうかを判断します。 アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。これにより、パーソナライズされたコンテンツの取得と、配信するコンテンツの学習に十分な時間を確保できます。
 
-Remember that [!DNL Target] randomly serves experiences until the personalization algorithms are built. The checkmark icon beside each offer shows when the model for that offer is ready and [!DNL Target] is able to begin delivering personalized content. モデルが準備完了になった後にのみ指標の上昇が期待されるので、視覚的な表示によって、適切に予想を立てることができます。Use the [!UICONTROL Traffic Estimator] in the [!UICONTROL Visual Experience Composer] (VEC) to get a guideline of when the models will be ready.
+パーソナライゼーションアルゴリズムが構築されるまで、[!DNL Target]はランダムにエクスペリエンスを提供します。 各オファーの横のチェックマークアイコンは、そのオファーのモデルの準備が整い、[!DNL Target]がパーソナライズされたコンテンツの配信を開始できたことを示します。 モデルが準備完了になった後にのみ指標の上昇が期待されるので、視覚的な表示によって、適切に予想を立てることができます。[!UICONTROL Visual Experience Composer](VEC)の[!UICONTROL トラフィック見積もり]を使用して、モデルの準備が整うタイミングに関するガイドラインを取得します。
 
 ## トラフィック見積もりの使用
 
-1. From the [!UICONTROL Visual Experience Composer], click **[!UICONTROL Traffic]**.
+1. [!UICONTROL Visual Experience Composer]で、**[!UICONTROL トラフィック]**&#x200B;をクリックします。
 
    ![トラフィックアイコン](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   The [!UICONTROL Traffic Estimator] opens. You can click **[!UICONTROL Traffic]** again to hide the [!UICONTROL Traffic Estimator].
+   [!UICONTROL トラフィック見積もり]が開きます。 「**[!UICONTROL トラフィック]**」を再度クリックして、[!UICONTROL トラフィック見積もり]を非表示にできます。
 
    ![](assets/ap_est.png)
 
@@ -36,35 +36,35 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
    * **オファー数**:除外後にアクティビティの一部として作成されるエクスペリエンスの数に基づいて自動的に計算されます。
    * **一般的なコンバージョン率**:コンバージョン率は、見積もりまたは分析システムの過去のデータに基づいて、割合で表されます。
-   * **1日あたりの予想訪問数**:ターゲット条件に基づいて、アクティビティを表示できる訪問者からの1日あたりの訪問回数です。 この数値は、分析データに基づいて決定することができます。この数値は実訪問者数ではなく、訪問数であることにご注意ください。
+   * **1日あたりの予想訪問数**:ターゲット条件に基づいて、アクティビティを表示できる訪問者からの1日あたりの訪問回数です。この数値は、分析データに基づいて決定することができます。この数値は実訪問者数ではなく、訪問数であることにご注意ください。
    * **テスト期間**：アクティビティを実行する日数です。
 
-   The [!UICONTROL Traffic Estimato]r uses these statistics to determine what adjustments are needed to run a successful test.
+   [!UICONTROL トラフィック予測]rは、これらの統計を使用して、テストを正常に実行するために必要な調整を決定します。
 
-   Near the top of the [!UICONTROL Traffic Estimator], the values you entered are calculated and the results are shown.
+   [!UICONTROL トラフィック見積もり]の上部近くに、入力した値が計算され、結果が表示されます。
 
    ![](assets/ap_est_no.png)
 
-   数値を変更すると、見積もりも変更されます。For example, if you are testing a large number of combinations and your conversion rate and impressions are too low, the [!UICONTROL Traffic Estimator] shows how long the test will need to run to be successful. Or, if your traffic is low, the [!UICONTROL Traffic Estimator] might suggest a lower number of offer combinations so you can run the test the desired number of days.
+   数値を変更すると、見積もりも変更されます。例えば、大量の組み合わせをテストしていて、コンバージョン率とインプレッション数が非常に少ない場合、[!UICONTROL トラフィック見積もり]は、テストを成功させるために必要な期間を示します。 また、トラフィック量が少ない場合は、[!UICONTROL トラフィック見積もり]がオファーの組み合わせを少なくするよう提案して、希望の日数のテストを実行できる場合があります。
 
    十分なトラフィックがない場合は、次のいずれかまたはすべてをおこなうことができます。
 
-   * Consider using an [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
-   * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせの数を減らします。
+   * [!UICONTROL Automated Personalization]の代わりに[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)アクティビティを使用して、1つのエクスペリエンスのバリエーションに複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
+   * [!UICONTROL Automated Personalization]アクティビティ内のオファーの組み合わせの数を減らします。
    * アクティビティの実行期間を長くします。
 
-   Adjust the numbers until the [!UICONTROL Traffic Estimator] says you have sufficient traffic, then design your test accordingly.
+   [!UICONTROL トラフィック見積もり]で十分なトラフィックが確保されると言われるまで数値を調整し、それに応じてテストを設計します。
 
    ![](assets/ap_est_yes.png)
 
-   If the traffic is sufficient, the [!UICONTROL Traffic] icon shows a green check. トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
+   トラフィックが十分な場合は、[!UICONTROL トラフィック]アイコンに緑のチェックマークが表示されます。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 
 ## トラフィック見積もりに関するよくある質問(FAQ)
 
-ト [!UICONTROL ラフィック見積もりを使用する際は、次のFAQについて考慮してください]。
+[!UICONTROL トラフィック見積もり]を扱う際には、次のFAQについて考慮してください。
 
-### APアクティビティに十分なトラフィックがある場合に、パーソナライズされたモデルが [!DNL Target] 作成されないのはなぜですか。
+### APアクティビティに十分なトラフィックがある場合に、[!DNL Target]がパーソナライズされたモデルを構築しないのはなぜですか。
 
-状況によっては、パーソナライズされたモデルを作成するのに十分なトラフィック量がある場合がありますが、そのトラフィックは、パーソナライズされたモデルとランダム [!DNL Target] の間に意味のある違いがないことを通知する場合があります。 モデルは組み込み [!DNL Target] テストされていますが、モデルはランダムよりも大幅に優れていないので、配置されません。
+状況によっては、パーソナライズされたモデルを構築するのに十分なトラフィック量がある場合がありますが、そのトラフィックは、パーソナライズされたモデルとランダムなモデルに意味のある違いがないことを[!DNL Target]に知らせる可能性があります。 モデルは[!DNL Target]に組み込まれてテストされますが、モデルの方がランダムよりも優れていないので、モデルはデプロイされません。
 
 モデルがランダム以上に良くならない原因として考えられるのは、オファーが互いに大きく異なっていないことです。 その場合は、メッセージングが類似している場合にオファーをより視覚的に異なるものにするか、メッセージング自体を変更してみることができます。
