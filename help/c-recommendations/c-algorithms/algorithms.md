@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) 条件
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 条件は、人気の傾向、訪問者の現在および過去の行動、類似の商品およびコンテンツに基づかせることができます。複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
+[!DNL Adobe Target]の条件は、あらかじめ定められた一連の訪問者行動に基づいて、どの商品またはコンテンツをレコメンデーションするかを決定するルールです。 条件は、人気の傾向、訪問者の現在および過去の行動、類似の商品およびコンテンツに基づかせることができます。複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
 
 以下の節では、条件キーと、各キーに使用できるレコメンデーションロジックについて詳しく説明します。 詳細については、該当するリンクをクリックしてください。
 
@@ -28,9 +28,9 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
 | メディア／投稿 | エンゲージメント |
 
-その他の条件のオプションは、選択した業種に応じて変わります。 デフォルトの業種は、 **[!UICONTROL Recommendations/設定]** ページで設定できます。また、条件ごとに業種を指定することもできます。
+その他の条件のオプションは、選択した業種に応じて変わります。 デフォルトの業種は、**[!UICONTROL Recommendations/設定]**&#x200B;ページで設定できます。また、条件ごとに業種を指定することもできます。
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## 推奨キー{#section_885B3BB1B43048A88A8926F6B76FC482}
 
 選択するレコメンデーションキーが条件の種類を決定します。いくつかの条件の種類があり、[!DNL Recommendations] アクティビティを設定する際に条件カードとして表示されます。
 
@@ -46,39 +46,39 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | 人気度 | 関連するカテゴリで一番人気のあるビデオや、サイトで一番表示されている製品など、一番人気のある品目がレコメンデーションされます。<ul><li>[人気度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [最近表示された項目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 訪問者が最後に閲覧した品目(前回サイトを訪問した際に訪問者が閲覧した品目や、現在最も人気の高い記事など)をレコメンデーションします。 |
 
-## カスタムレコメンデーションキーの使用 {#custom-key}
+## カスタムレコメンデーションキーの使用{#custom-key}
 
 カスタムプロファイル属性の値に基づいてレコメンデーションを設定することもできます。
 
 >[!NOTE]
 >
->カスタムプロファイルパラメーターは、JavaScript、APIまたは統合を介してターゲットに渡すことができます。 カスタムプロファイル属性について詳しくは、 [訪問者プロファイルを参照してください](/help/c-target/c-visitor-profile/visitor-profile.md)。
+>カスタムプロファイルパラメーターは、JavaScript、APIまたは統合を介してターゲットに渡すことができます。 カスタムプロファイル属性について詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。
 
 例えば、ユーザーが最後にキューに追加したムービーに基づいてレコメンデーションされるムービーを表示するとします。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. 「[!UICONTROL レコメンデーションキー]」ドロップダウンリストからカスタムプロファイル属性を選択します（例えば、[!UICONTROL ウォッチリストに追加された最後の表示]）。
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. [!UICONTROL レコメンデーションロジック]を選択します（例えば、[!UICONTROL これを閲覧した人が他の]を閲覧した）。
 
    ![新しい条件を作成ダイアログボックス](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+カスタムプロファイル属性が単一のエンティティIDと直接一致しない場合は、どのようにしてエンティティとの照合を行うかを[!DNL Recommendations]に説明する必要があります。
 
 例えば、ユーザーのお気に入りのブランドからトップセルの商品を表示したいとします。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. [!UICONTROL レコメンデーションキー]ドロップダウンリストからカスタムプロファイル属性を選択します（例：[!UICONTROL お気に入りのブランド]）。
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. このキーで使用する[!UICONTROL レコメンデーションロジック]を選択します（例：[!UICONTROL トップセラー]）。
 
    「[!UICONTROL 次の一意の値でグループ化]」オプションが表示されます。
 
-1. 選択したキーに一致するエンティティ属性を選択します。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. 選択したキーに一致するエンティティ属性を選択します。この場合、[!UICONTROL お気に入りのブランド]は`entity.brand`と一致します。
 
-   [!DNL Recommendations] 現在は、各ブランドに対して「トップセラー」リストを作成し、「お気に入りのブランド  プロファイル」属性に保存された値に基づいて適切な「トップセラー」リストをユーザーに表示します。
+   [!DNL Recommendations] 現在は、各ブランドに対して「トップセラー」リストを作成し、「お気に入りのブランドプロファイル」属性に保存された値に基づいて適切な「トップセラー」リストを [!UICONTROL 表示し] ます。
 
    ![トップセラー属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## 条件/アルゴリズム{#criteria-algorithms}
 
 [!DNL Target Recommendations] は、高度なアルゴリズムを使用して、訪問者のアクションがアクティビティに設定された条件に該当するタイミングを決定します。レコメンデーションキーは、利用可能なレコメンデーションロジックオプションを決定します。
 
@@ -101,7 +101,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 1 日条件は、すべて 1 日に 2 回実行します。1 週間およびそれ以上の条件は、すべて 1 日に 1 回実行します。サイトの親和性条件は、1 日に 1 回実行します。代替条件は、1 日に 2 回実行します。
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## 条件情報の表示{#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 ポップアップカードにマウスポインターを置いてから、条件カードの情報アイコンをクリックすると、条件を開くことなくポップアップカードの条件の詳細を表示できます。
 
@@ -117,4 +117,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->アル [!UICONTROL ゴリズムの使用] (Algorithm Usage)機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、現在、オファーとして [recommendationsを含むA/Bテスト、自動配分、自動ターゲット、エクスペリエンスターゲット設定(XT)アクティビティではサポートされていません](/help/c-recommendations/recommendations-as-an-offer.md)。
+>[!UICONTROL アルゴリズムの使用]機能は、現在、Recommendationsアクティビティに対してのみサポートされています。 この機能は、オファー](/help/c-recommendations/recommendations-as-an-offer.md)として[レコメンデーションを含むA/Bテスト、自動配分、自動ターゲット、エクスペリエンスターゲット設定(XT)アクティビティでは、現在サポートされていません。
