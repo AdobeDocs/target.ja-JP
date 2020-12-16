@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Target は、使用する Target インターフェイスおよびアクティビティ作成機能（Visual Experience Composer またはフォームベースの Experience Composer）に応じて別々に、どのアクティビティをページに配信するかを決定します。
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/PremiumのVisual Experience Composerのみ、またはグローバルターゲットリクエストのみを使用したフォームベースのコンポーザー{#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 会社が Target Standard/Premium および Visual Experience Composer を単独で使用している場合、複数のアクティビティからのコンテンツは、同じ呼び出しに対して返すことができます。アクティビティは、次の決定フローを使用して配信されます。
 
@@ -48,8 +48,8 @@ Target は、使用する Target インターフェイスおよびアクティ�
 
 会社が Target Standard/Premium のフォームベースのコンポーザーおよび Target Standard/Premium の Visual Experience Composer を使用している場合、複数の Visual Experience Composer アクティビティからのコンテンツを配信できますが、フォームベースのワークフローからのアクティビティの場合は 1 つのみです。アクティビティの配信は、次の決定フローを使用して決定されます。
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. ターゲットサーバーの呼び出しは、[!DNL Target]要求とURLに関する情報と共にターゲットに伝わります。
+1. ターゲットクラシックとStandardは、その[!DNL Target]リクエストで実行されているすべてのアクティビティを取り込みます。
 1. Target は、訪問者をアクティビティに適合させようとします。
 
    訪問者が既に A/B テストまたは多変量分析テストにある場合、コンバージョンがおこなわれるまで、そのテストに適合します。以前、エクスペリエンスのターゲット化アクティビティにあった場合、もう一度適合させる必要があります。オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
@@ -65,15 +65,15 @@ Target は、使用する Target インターフェイスおよびアクティ�
 
 ターゲットアクティビティの双方が同じ優先度の場合、最後に表示されたアクティビティが表示されます。このページに初めて訪問する訪問者の場合は、最後にアクティブ化されたアクティビティが表示されます。
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 非グローバルターゲットリクエストを含むTarget Standard/Premiumのフォームベースのコンポーザー{#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >この情報は、Target Classic で作成された実行中のすべてのキャンペーンにも当てはまります。
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. アクティビティの配信は、次の決定フローを使用して決定されます。
+会社が、フォームベースのコンポーザーでグローバル[!DNL Target]リクエスト以外の[!DNL Target]リクエストを使用している場合、呼び出しごとに1つのアクティビティのコンテンツのみを返すことができます。 アクティビティの配信は、次の決定フローを使用して決定されます。
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target]サーバー呼び出しは、[!DNL Target]リクエストとURLに関する情報と共に[!DNL Target]に伝わります。
 1. [!DNL Target] は、その [!DNL Target] 要求で実行中のすべてのアクティビティを取り込みます。
 1. [!DNL Target] は、訪問者を優先度の最も高いアクティビティに適合させようとします。
 
