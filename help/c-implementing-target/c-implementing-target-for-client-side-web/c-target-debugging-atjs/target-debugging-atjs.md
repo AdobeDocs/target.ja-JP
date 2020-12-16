@@ -24,14 +24,14 @@ Target の実装をすばやく簡単に理解できる Adobe Experience Cloud �
 
 次のビデオでは、デバッグプロセスの手順について説明しています。
 
-### Adobe Experience Cloud デバッガー拡張の追加 ![概要バッジ](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Adobe Experience Cloud デバッガー拡張の追加  ![概要バッジ](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Adobe Experience Cloudデバッガ![概要バッジ](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}を使用した基本的なターゲットデバッグ
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### mboxトレース ![の概要バッジ](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### mboxトレース![概要バッジ](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
