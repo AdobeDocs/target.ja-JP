@@ -38,7 +38,7 @@ Target Classic の廃止に伴い、次の段階を踏んで従来の API が廃
 
 Recommendations Classic の API については、この予定の影響はありません。
 
-## 対応するメソッド {#section_DDB42CCC172545B09CB728D794CC466B}
+## 対応するメソッド  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 次の表には、従来の API メソッドに対応する新しい Target API メソッドがまとめられています。従来の API による XML 応答とは異なり、新しい API では JSON が返されます。
 
@@ -66,6 +66,6 @@ Recommendations Classic の API については、この予定の影響はあり
 
 例外の適用が必要な場合は、担当のカスタマーサクセスマネージャーまでお問い合わせください。
 
-## ヘルプ {#section_591F850E2B7A4342B1C233693425415C}
+## ヘルプ  {#section_591F850E2B7A4342B1C233693425415C}
 
 Adobe I/O の新しい Target API への移行について、ご質問がある場合やサポートが必要な場合は、Adobe Target の ClientCare（tt-support@adobe.com）までお問い合わせください。
