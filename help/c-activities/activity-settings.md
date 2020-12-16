@@ -25,9 +25,9 @@ ht-degree: 90%
 
    優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   [!UICONTROL 管理]/[!UICONTROL レポート]（デフォルト）でこのオプションが有効になっていない場合は、優先度を指定します。低、中、高。
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   優先度の細かい設定を有効にするには、[!UICONTROL 管理]/[!UICONTROL レポート]をクリックし、[!UICONTROL 詳細な優先度を有効にする]オプションを「オン」の位置に切り替えます。
 
    このオプションを有効にした場合は、0～999 の値を指定します。
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [多変量分析テスト](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## トレーニングビデオ：アクティビティの設定 ![チュートリアルバッジ](/help/assets/tutorial.png)
+## トレーニングビデオ：アクティビティの設定  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 
