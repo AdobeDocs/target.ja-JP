@@ -20,7 +20,7 @@ ht-degree: 87%
 
 フィードによって、[エンティティ](/help/c-recommendations/c-products/products.md)を渡したり、ページ上で使用できない、またはページから直接送信するのは安全でない情報（利益幅や売上原価など）を mbox データに追加したりできます。
 
-フィードを使用すると、商品ID、カテゴリ、名前、メッセージな [!DNL Recommendations]どの属性に詳細な品目情報を渡すことができます。
+フィードを使用すると、商品ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な品目情報を[!DNL Recommendations]に渡すことができます。
 
 [!DNL Target] の製品分類ファイル、または Google による製品検索のファイルのどの列を [!DNL Recommendations] サーバーに送信するかを選択できます。
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 * アイテムを別のコレクションに並べ替える
 * レコメンデーションへの除外の適用
 
-項目の説明は、フィードまたはmboxを [!DNL Target] 使用してに渡すことができます。 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
+フィードまたはmboxを使用して、項目の説明を[!DNL Target]に渡すことができます。 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
 [!UICONTROL フィード]リスト（**[!UICONTROL レコメンデーション]**／**[!UICONTROL フィード]**）には、作成したフィードについての情報が表示されます。
 
@@ -209,16 +209,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics の製品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics の製品分類は、レコメンデーションで使用できる唯一の分類です。For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. レコメンデーションに必要なすべての情報が、現在の実装で使用できるとは限りません。したがって、ご使用の分類ファイルを追加する場合は、このユーザーガイドを参照してください。
+Analytics の製品分類は、レコメンデーションで使用できる唯一の分類です。この分類ファイルについて詳しくは、『*Analyticsコンポーネント*』ガイドの[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)についてを参照してください。 レコメンデーションに必要なすべての情報が、現在の実装で使用できるとは限りません。したがって、ご使用の分類ファイルを追加する場合は、このユーザーガイドを参照してください。
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>Analytics製品分類を使用して[!DNL Recommendations]にエンティティデータをインポートする前に、これは推奨されない方法であることに注意してください。
 >
 > その際は次の点にご注意ください。
 >
 >* エンティティ属性を更新すると、最大で 24 時間の遅延が生じます。
->* [!DNL Target] は、製品の分類のみをサポートします。 Analytics の製品 SKU は、 の [!DNL Recommendations]`entity.id` と同じレベルにマッピングする必要があります。アドビのコンサルティングサービスを使用して、Analytics のカスタム分類を作成できます。疑問点については、アカウントマネージャーまでお問い合わせください。
+>* [!DNL Target] は、製品の分類のみをサポートします。Analytics の製品 SKU は、 の [!DNL Recommendations]`entity.id` と同じレベルにマッピングする必要があります。アドビのコンサルティングサービスを使用して、Analytics のカスタム分類を作成できます。疑問点については、アカウントマネージャーまでお問い合わせください。
 
 
 ## フィードの作成 {#steps}
@@ -236,7 +236,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
    * Google 製品フィード
    * Analytics 分類
 
-   CSV および Google 製品フィードフィードタイプについて詳しくは、[フィードの概要](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   CSV および Google 製品フィードフィードタイプについて詳しくは、[フィードの概要](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)を参照してください。また、[モデルのCSVガイド](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)をダウンロードして、フィードを正しくフォーマットすることもできます。
 
 1. （条件付き）**[!UICONTROL CSV]** または **[!UICONTROL Google 製品フィード]**&#x200B;を選択した場合、フィードがアクセスできる場所を指定します。
 
@@ -284,7 +284,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 「ステータス」に表示される「成功」は、ファイルが見つかり、正しく解析されたことを示します。ファイルのインデックスが作成されるまで、[!DNL Recommendations] 内で情報は使用できません。インデックスの作成には時間がかかります。かかる時間はファイルのサイズによって異なります。処理が失敗した場合、ファイルが見つからなかった（例えば、誤った URL が使用された場合や、FTP 情報が誤っていた場合）、または解析エラーが発生したことを示します。
 
-## フィードのステータスとインジケーター {#concept_E475986720D1400999868B3DFD14A7A0}
+## フィードのステータスとインジケーター  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 フィードのステータスとそのインジケーターについて説明します。
 
@@ -309,7 +309,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!IMPORTANT]
 >
->アップロードしたエンティティは 61 日後に有効期限切れになります。つまり、おすすめアクティビティの中断を防ぐために、フィードファイルは少なくとも 60 日ごとにアップロードする必要があります。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>アップロードしたエンティティは 61 日後に有効期限切れになります。つまり、おすすめアクティビティの中断を防ぐために、フィードファイルは少なくとも 60 日ごとにアップロードする必要があります。品目が60日に1回以上、フィードファイル（または他のエンティティの更新方法）に含まれていない場合、[!DNL Adobe Target]は、品目が関連しなくなり、カタログから削除します。
 
 ### フィードステータスのインジケーター {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### Recommendations のフィードの説明（3:01） ![概要バッジ](/help/assets/overview.png)
+### Recommendations のフィードの説明（3:01）  ![概要バッジ](/help/assets/overview.png)
 
 このビデオには、次の情報が含まれています。
 
@@ -351,7 +351,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### フィードの作成（6:44） ![チュートリアルバッジ](/help/assets/tutorial.png)
+### フィードの作成（6:44）  ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 
