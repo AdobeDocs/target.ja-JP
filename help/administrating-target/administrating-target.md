@@ -2,9 +2,9 @@
 keywords: setting up;setup;set-up;set up;administration
 description: 環境設定、実装、ユーザー管理、プロパティ、Scene7設定、ホスト管理、応答トークンなど、Adobe Targetのセットアップに役立つ情報です。
 title: Adobe Target の管理
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 18%
