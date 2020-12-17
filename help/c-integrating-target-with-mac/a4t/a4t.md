@@ -4,15 +4,15 @@ description: アドビの「Analytics for Target」（A4T）は、Analytics の�
 title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 46%
+source-wordcount: '1306'
+ht-degree: 45%
 
 ---
 
 
-# Adobe Target のレポートソースとしての Adobe Analytics（A4T）{#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# Adobe Target のレポートソースとしての Adobe Analytics（A4T）
 
 [!DNL Adobe Analytics for Target] (A4T)は、コンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できる、ソリューション間の統合 [!DNL Analytics] です。A4T統合では、[!DNL Analytics]レポートを使用して結果を調査できます。 [!DNL Analytics]をアクティビティのレポートソースとして使用する場合、そのアクティビティのレポートとセグメントはすべて[!DNL Analytics]データ収集に基づきます。
 
@@ -73,7 +73,8 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 | AEM 6.1（またはそれ以前）のクラウドサービス統合 | × |  |
 | AEM 6.2（またはそれ以降）のクラウドサービス統合 | ○ | 詳しくは、[!DNL Adobe Experience Manager] 6.2ドキュメントの[Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)との統合を参照してください。 |
 | リダイレクトオファーを使用するアクティビティ | ○ | A4T でリダイレクトオファーを使用する場合は、より厳格な最小要件が適用されます。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) を参照してください。 |
-| Node.JS | ○ |  |
+| Node.JS | ○ | 詳しくは、*Adobe TargetSDK*&#x200B;ガイドの[Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk)を参照してください。 |
+| Java SDK | ○ | 詳しくは、*Adobe Target* SDKガイドの[Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk)を参照してください。 |
 
 まだA4Tをサポートしていないアクティビティタイプがあるので、`orderConfirmPage` mboxなど、重要なコンバージョンmboxを保持または実装することをお勧めします。
 
