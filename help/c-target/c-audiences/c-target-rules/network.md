@@ -4,7 +4,7 @@ description: Adobe Target でネットワークの詳細に基づいたオーデ
 title: Adobe Targetオーディエンスのネットワークオプション
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ ht-degree: 98%
       >
       >ISPに基づいてターゲット設定する場合は、一般名ではなくISP名を使用してください。大文字と小文字を区別するか、すべて小文字の形式を常に使用するようにルールを作成してください。
 
-      ISP およびドメイン名の値をテストできます。ターゲット設定については、[](https://www.whoismyisp.org)https://www.whoismyisp.orgを参照してください。上記の表のサンプルの IP アドレスを使用することも、独自の IP アドレスを入力することもできます。その後、`themboxOverride.browserIp= URL` パラメーターを使用して、その IP アドレスを模倣できます。
+      ISP およびドメイン名の値をテストできます。ターゲット設定については、[](https://www.whoismyisp.org)https://www.whoismyisp.orgを参照してください。上記の表のサンプルの IP アドレスを使用することも、独自の IP アドレスを入力することもできます。その後、`mboxOverride.browserIp= URL` パラメーターを使用して、その IP アドレスを模倣できます。
 
    * **ドメイン名：**&#x200B;これは、訪問者の IP アドレスのドメイン名です。[!DNL Target] で使用している Web サイトのドメイン名ではありません。このドメイン名は、訪問者の IP アドレスに関連しており、ホスト名とも呼ばれます。通常、この値は ISP 名とよく似ています。ホスト名には、リブランドする前の、会社の古い ISP 名が設定されていることもありますが、ドメイン名ではそのようなことはありません。
    * **接続速度：**&#x200B;これは、訪問者のインターネットへの接続速度です。ブロードバンド、ケーブル、ダイアルアップ、モバイル、oc3、oc12、サテライト、t1、t2、ワイヤレス、xdsl などがあります。
