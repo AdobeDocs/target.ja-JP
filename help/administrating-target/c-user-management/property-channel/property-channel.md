@@ -2,9 +2,9 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: プロパティの作成、およびプロパティと権限機能の使用に関する情報です。この機能を使用すると、Adobe Target管理者は、ターゲットで個別のワークスペース(製品プロファイル)を作成し、これらのワークスペースに基づいて各ページ、プロパティまたはWebサイトに異なる役割と権限を割り当てます。
 title: Enterprise ユーザーの権限
-feature: user management
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 80%
