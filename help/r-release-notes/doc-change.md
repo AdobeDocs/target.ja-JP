@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9 年 12 月 | [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
+| 16 年 12 月 | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「自動ターゲットアクティビティから1つのエクスペリエンスを削除するとどうなりますか？」 |
+| 9 年 12 月 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。&quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 1 年 12 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | ウェビナーの録画を埋め込み、「遅延なしでパーソナライズおよびテストを行い、Adobe Targetのデバイス上での意思決定を行う」を行いました。 |
 | 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
