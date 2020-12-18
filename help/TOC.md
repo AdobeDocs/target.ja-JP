@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1570'
 ht-degree: 86%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 86%
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
+      + [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [ハイブリッド実装](/help/c-implementing-target/hybrid-implementation.md)
    + 電子メール：Target の実装 {#implement-email}
       + [電子メール：Target の実装の概要](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -200,6 +200,7 @@ ht-degree: 86%
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
       + [10件の一般的なA/Bテストの落とし穴とその回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md)
       + A/B テストの作成 {#create}
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
