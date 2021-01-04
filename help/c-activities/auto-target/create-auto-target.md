@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Adobe TargetのVisual Experience Composerを使用して、自動配分A/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
+description: Adobe TargetのVisual Experience Composer(VEC)を使用して、自動ターゲットA/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
 title: 自動ターゲットアクティビティの作成
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 59%
 [!DNL Adobe Target]の[!UICONTROL Visual Experience Composer] (VEC)を使用して、[!DNL Target]対応ページに直接[!UICONTROL 自動ターゲット] [!UICONTROL A/Bテスト]アクティビティを作成し、[!DNL Target]内でページの一部を変更します。
 
 >[!NOTE]
+>
+>[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/c-intro/intro.md) を参照してください。
 >
 >[!UICONTROL 自動ターゲット] [!UICONTROL A/Bテスト]アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/Bテスト]アクティビティの2種類の追加タイプが用意されています。[!UICONTROL 手動（デフォルト）]と[!UICONTROL 自動配分]
 >
