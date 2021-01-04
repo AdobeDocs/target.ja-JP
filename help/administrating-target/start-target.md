@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: ここでは、Adobe Target 管理者が Adobe Experience Cloud への招待メールを受け取った後に最初におこなう手順について説明します。
+description: Adobe Targetの管理者は、最初にAdobe Experience Cloudへの招待メールを受け取った後に行う必要があります。
 title: 管理者の最初の手順
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 93%
+source-wordcount: '399'
+ht-degree: 84%
 
 ---
 
 
-# 管理者の最初の手順{#administrator-first-steps}
+# 管理者の最初の手順
 
-ここでは、[!DNL Target] 管理者が [!DNL Adobe Experience Cloud] への招待メールを受け取った後に最初におこなう手順について説明します。
+この記事には、[!DNL Adobe Target]への招待メールを受け取った後に管理者が最初に行う手順が記載されています。[!DNL Adobe Experience Cloud]
 
 ## Target への招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
