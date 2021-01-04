@@ -1,13 +1,13 @@
 ---
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
-description: ユーザーを Target 実装に追加するために必要なタスクに関する情報です。ワークスペース、ユーザーグループ、プロパティを作成する方法や、Target 実装を更新して、at_property パラメーターを追加する方法、役割と権限を指定する方法について説明します。
+description: ユー追加ザーがAdobe Targetの導入に関与しているかを確認します。ワークスペース、ユーザーグループおよびプロパティの作成ターゲット実装を更新して、at_propertyパラメーターを含めます。ロールと権限を指定します。
 title: Enterprise 権限の設定
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 68%
+source-wordcount: '1468'
+ht-degree: 66%
 
 ---
 
