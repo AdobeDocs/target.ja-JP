@@ -2,21 +2,21 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Adobe Target の Visual Experience Composer（VEC）を使用すると、Target に対応したページで適切な多変量分析テスト（MVT）を作成し、Target 内でページの一部を変更する作業が簡単におこなえます。
 title: 多変量分析テストの作成
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 97%
+source-wordcount: '560'
+ht-degree: 95%
 
 ---
 
 
 # 多変量分析テストの作成{#create-a-multivariate-test}
 
-[!DNL Target] の [!DNL Target]Visual Experience Composer[!UICONTROL （VEC）を使用すると、Target に対応したページで適切なテストを作成し、] 内でページの一部を変更する作業が簡単におこなえます。
+[!DNL Adobe Target] の [!DNL Target]Visual Experience Composer[!UICONTROL （VEC）を使用すると、Target に対応したページで適切なテストを作成し、] 内でページの一部を変更する作業が簡単におこなえます。
 
-Target のポイント＆クリック方式のエディターを使用して、任意の場所を選択し、複数のオファーを追加できます。
+[!DNL Target]ポイント&amp;クリックエディターを使用すると、任意の場所を選択し、複数のオファーを追加できます。
 
 [!UICONTROL 多変量分析テスト]（MVT）では、ページ本位のレポートが生成されます。つまり、テストは特定の URL に対して実行され、そのページに対して設計されたエクスペリエンスが表示されます。
 
