@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 一般的な設定、モバイルビューポート設定、CSSセレクターを指定して、Adobe TargetVisual Experience Composer(VEC)を設定します。
+description: ターゲットアカウント全体に適用するAdobe Targetレポートで使用する一般設定を構成します。 レポート(ターゲットまたはAnalytics)、レポートに使用するタイムゾーンと通貨の形式、レポートから除外するIPアドレス、および売上高の予測上昇率を表示するかどうか、およびレポートの優先度を細かく設定するかどうかについて、Adobe Experience Cloudを設定できます。
 title: Adobe Targetでのレポートの設定
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 32%
+source-wordcount: '708'
+ht-degree: 30%
 
 ---
 
