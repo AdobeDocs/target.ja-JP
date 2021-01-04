@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: ユーザーをAdobe Targetに追加し、Adobe Admin Consoleでユーザーの権限を管理できます。
+description: Adobe Targetへ追加のユーザーおよびAdobe Admin Consoleでの権限の管理。
 title: ユーザー
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 47%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 47%
 
 # ユーザー{#users}
 
-[!DNL Adobe Admin Console]では、ユーザーを追加し、権限を管理できます。
+ユーザー追加を作成し、[!DNL Adobe Admin Console]で権限を管理します。
 
 >[!NOTE]
 >
