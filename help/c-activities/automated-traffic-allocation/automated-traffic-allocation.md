@@ -1,20 +1,20 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
 description: Adobe Targetの自動配分アクティビティは、2つ以上のエクスペリエンスのうちの勝者を識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再配分して、コンバージョンを増やします。
 title: 自動配分
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3374'
-ht-degree: 74%
+source-wordcount: '3377'
+ht-degree: 73%
 
 ---
 
 
 # 自動配分の概要
 
-自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。
+[!DNL Adobe Target]の自動配分アクティビティは、2つ以上のエクスペリエンスのうちの勝者を識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再割り当てして、コンバージョンを増やします。
 
 3ステップのガイドによるワークフローを使用してA/Bアクティビティを作成する際に、「[!UICONTROL 最適なエクスペリエンスに自動配分]」オプションを選択できます。
 
