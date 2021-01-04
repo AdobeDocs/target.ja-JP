@@ -4,7 +4,7 @@ description: Target の機能の学習に役立つ追加のリソースと、Tar
 title: リソースおよび連絡先情報
 feature: reference general
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 80%
@@ -121,7 +121,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2020 Adobe Systems Incorporated.All Rights Reserved.
+* © 2021 Adobe Systems Incorporated.All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use) | [プライバシーセンター](https://www.adobe.com/privacy.html)
