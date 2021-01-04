@@ -1,12 +1,12 @@
 ---
-keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate
-description: Adobe TargetのVisual Experience Composerを使用して、自動配分A/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
+keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+description: Adobe TargetのVisual Experience Composer(VEC)を使用して、ターゲット対応ページに直接自動配分A/Bテストアクティビティを作成し、ターゲット内でページの一部を変更します。
 title: 自動配分アクティビティの作成
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 60%
 
 ---
