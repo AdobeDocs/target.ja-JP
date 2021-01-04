@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: 自動配分A/Bアクティビティの結果を解釈するには、Adobe TargetUIで上昇率や信頼性などの重要な指標を調べます。
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: 上昇率や信頼性などの重要な指標を調べることで、Adobe Targetでの自動配分A/Bアクティビティの結果を解釈します。
 title: 自動配分レポートの解釈
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1112'
 ht-degree: 48%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 48%
 
 # 自動配分レポートの解釈{#determine-a-winner}
 
-自動配分A/Bアクティビティの結果を解釈するには、ターゲットUIの上昇率や信頼性など、重要な指標を調べます。
+上昇率や信頼性などの重要な指標を調べることで、[!UICONTROL Adobe Target]の[!UICONTROL 自動配分]A/Bアクティビティの結果を解釈します。
 
 多くのマーケティング担当者は、計算結果によって明確な勝者が示される前に、勝者エクスペリエンスを早めに宣言してしまうというミスを犯します。そこで、勝者を簡単に特定できるようにしました。
 
