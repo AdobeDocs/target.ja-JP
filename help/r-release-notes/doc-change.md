@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3220'
 ht-degree: 28%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2021年1月5日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットがmbox.jsをサポートしなくなる日付を2021年1月18日から2021年3月31日に変更しました。 |
 | 18 年 12 月 | [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md) | 新規トピックです。 |
 | 17 年 12 月 | [Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDKがA4Tをサポートしていることを示す表を更新しました。 |
 | 16 年 12 月 | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「自動ターゲットアクティビティから1つのエクスペリエンスを削除するとどうなりますか？」 |
-| 9 年 12 月 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
+| 9 年 12 月 | [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。&quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 1 年 12 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | ウェビナーの録画を埋め込み、「遅延なしでパーソナライズおよびテストを行い、Adobe Targetのデバイス上での意思決定を行う」を行いました。 |
 | 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
@@ -93,7 +94,7 @@ ht-degree: 28%
 | --- | --- | --- |
 | 8月31日 | [RecommendationsでAdobe Analyticsを使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ節を追加しました。 |
 | 8月28日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の更新が行われました。<ul><li>「既知の問題」の節に追加しました。「レポート — コンバージョンは、現在、どのオーディエンスが使用されているかによって異なります。」</li><li>「解決された問題」の節に追加しました。&quot;Google Chromeバージョン80以降を使用している場合に、Visual Experience Composer(VEC)または拡張Experience Composer(EEC)でページが読み込まれない。&quot;</li></ul> |
-|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | mbox.jsの廃止日を2020年8月30日から2021年1月18日に変更しました。 |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | mbox.jsの廃止日を2020年8月30日から2021年1月18日に変更しました。 2020年3月31日に変更。 |
 | 8月26日 | [Adobe AnalyticsをターゲットRecommendationsと併用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新規トピックです。 |
 | 8月24日 | [成功指標](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 「詳細設定」節を更新しました。 |
 | 8月21日 | [Adobe Targetウェルカムキットの概要](/help/c-intro/target-welcome-kit.md) | 新しい記事とサブトピックです。 |
