@@ -1,21 +1,22 @@
 ---
-description: 多変量分析テストでは、ページ上で複数のエクスペリエンスが比較されるので、各エクスペリエンスについてページをプレビューすることをお勧めします。
-title: 多変量分析テストのエクスペリエンスのプレビュー（Adobe Target）
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: Adobe Targetの多変量分析テストでは、ページ上で複数のエクスペリエンスを比較するので、ページを各エクスペリエンスとプレビューすると便利です。
+title: Adobe Targetの多変量分析テストのプレビューエクスペリエンス
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # 多変量分析テストのエクスペリエンスのプレビュー{#preview-experiences-for-a-multivariate-test}
 
-多変量分析テストでは、ページ上で複数のエクスペリエンスが比較されるので、各エクスペリエンスについてページをプレビューすることをお勧めします。
+[!DNL Adobe Target]の[!UICONTROL 多変量分析テスト]では、ページ上の複数のエクスペリエンスを比較するので、ページを各エクスペリエンスとプレビューすると便利です。
 
-1. Experience Composer で、「**[!UICONTROL プレビュー]**」をクリックします。
+1. Visual Experience Composer(VEC)で、**[!UICONTROL プレビュー]**&#x200B;をクリックします。
 
    すべてのエクスペリエンスのリストが表示されます。
 
