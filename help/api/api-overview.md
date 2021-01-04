@@ -4,9 +4,9 @@ description: 管理API、配信API、レポートAPI、プロファイルAPIな�
 title: Adobe TargetAPIの概要
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Adobe TargetAPIの概要
 
-[!DNL Adobe Target] APIはタイプに従ってグループ化できます。
+[!DNL Adobe Target] APIは、次のタイプに従ってグループ化できます。管理API、配信API、レポートAPI、プロファイルAPI
 
 | APIタイプ | 何が可能か | ダウンロードリンク | その他の役立つリンク |
 | --- | --- | --- |--- |
