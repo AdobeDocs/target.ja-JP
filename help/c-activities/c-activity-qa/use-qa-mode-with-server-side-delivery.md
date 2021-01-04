@@ -4,17 +4,17 @@ description: サーバー側の配信でAdobe TargetQA URLを使用して、変�
 title: アクティビティ QA とサーバー側配信の使用
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# アクティビティ QA とサーバー側配信の使用{#use-activity-qa-with-server-side-delivery}
+# アクティビティ QA とサーバー側配信の使用
 
-サーバー側配信と組み合わせて QA URL を利用すると、変更されないプレビューリンク、オプションのオーディエンスのターゲット設定、実際のアクティビティデータとは別に保持されている QA レポートを使用して、簡単なエンドツーエンドのアクティビティ QA を実行できます。
+[!DNL Adobe Target]のサーバー側配信でQA URLを使用して、変更のないプレビューリンク、オプションのオーディエンスターゲット設定、実アクティビティデータからセグメント化されたQAレポートを使用して、エンドツーエンドの簡単なアクティビティQAを実行します。
 
 Activity QAの標準実装では、パラメーターによる `qa_mode` `pageUrl` パラメーターの受け渡しがサポートされています。この方法は、標準/ajax [!DNL Target]呼び出しに便利です。 ただし、サーバー間呼び出しの場合、`pageUrl` を利用できないときに Mobile SDK を使用する方法としては最適ではありません。
 
