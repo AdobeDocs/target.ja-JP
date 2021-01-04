@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Targetは、すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測できます。
+description: すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測するには、Adobe Targetを使用します。
 title: 売上高上昇の予測
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # 売上高上昇の予測{#estimate-lift-in-revenue}
 
-Target では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。
+[!DNL Adobe Target]を使用して、すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測します。
 
 >[!NOTE]
 >
->現時点では、エクスペリエンスターゲット設定（XT）アクティビティで上昇予測を利用できません。
+>現時点では、[!UICONTROL エクスペリエンスのターゲット設定](XT)アクティビティの上昇予測は使用できません。
 
 デフォルトでは、上昇予測機能はオフになっています。この機能は、アカウントの環境設定で有効にすることができます。この機能の有効化と無効化は、Experience Cloud の管理者ユーザーだけがおこなえます。上昇予測機能が無効になっている場合、対応するフィールドはインターフェイスに表示されません。この機能を無効にしても、独自の予測に使用したデータをはじめ、データを失うことはありません。予測は、この機能が有効であるかどうかにかかわらず、収集したデータに基づいて計算されます。
 
