@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 title: 除外の管理
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 94%
 
 ---
 
 
-# ![Premium バッジ](/help/assets/premium.png) 除外の管理{#manage-exclusions}
+# ![Premium バッジ](/help/assets/premium.png) 除外の管理
 
-自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
+除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)アクティビティの[!UICONTROL Automated Personalization] (AP)アクティビティのデフォルトコンテンツの除外を行って、除外を管理します。
 
 ## 除外グループの作成 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
