@@ -4,10 +4,10 @@ description: HTML オファーまたは JSON オファーに、プロファイ�
 title: 動的データをオファーに渡す
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Recommendations のデザインについては、[デザインの概要](/help/c
 
 `${user.parameter}`
 
-Recommendations のデザインで動的属性を使用する場合、動的値を正しくレンダリングするには、`\${user.endpoint.lastViewedEntity}` のようにドル記号（&#39;$&#39;）の前にバックスラッシュ（&#39;\&#39;）を挿入する必要があります。
+動的な値が正しくレンダリングされるように、Recommendations設計で動的な属性を使用する場合は、ドル記号($)の前にバックスラッシュ(¥)を挿入する必要があります。`\${user.endpoint.lastViewedEntity}`
 
 これらの変数はサーバー側の値で置き換えられるので、引用符やその他の JavaScript がなくても正しく表示されます。
 
