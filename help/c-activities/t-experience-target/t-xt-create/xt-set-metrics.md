@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Adobe Target エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 92%
 
 ---
 
 
-# 指標の設定{#set-metrics}
+# エクスペリエンスターゲット設定(XT)アクティビティでの指標の設定
 
-エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
+[!DNL Adobe Target] [!UICONTROL エクスペリエンスのターゲット設定] (XT)アクティビティの指標を使用して、訪問が成功かどうかを判断します。
 
 成功指標について詳しくは、[成功指標](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
