@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target は、at.js または mbox.js の 2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます
 title: Adobe Target の仕組み
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ Target JavaScript ライブラリ（at.js および mbox.js）の情報や Targe
 
 ## Target JavaScript ライブラリ {#libraries}
 
-Adobe Target は、at.js または mbox.js の 2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます
+Adobe Targetは、JavaScriptライブラリを使用してWebサイトと統合します。
 
 * **at.js：**[at.js library ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
-* **mbox.js：** mbox.js ライブラリは、Target のレガシー実装ライブラリです。mbox.js ライブラリは引き続きサポートされますが、機能のアップデートはおこなわれません。
+* **Adobe Experience PlatformWeb SDK:** Adobe Experience PlatformWeb  [SDKは、](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Edgeネットワークを [!DNL Adobe Experience Cloud]  [!DNL Experience Cloud]  [!DNL Adobe Experience Platform] 介して様々なサービスを利用できる、新しいクライアント側のJavaScriptライブラリです。
+* **mbox.js：**[mbox.js ライブラリは、Target のレガシー実装ライブラリです。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.jsライブラリは2021年3月31日までサポートされますが、機能は更新されません。
 
 >[!IMPORTANT]
 >
