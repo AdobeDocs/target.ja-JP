@@ -1,21 +1,21 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: 自動パーソナライゼーションアクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
-title: Target の自動パーソナライゼーションオファー
-feature: ap
+title: Target の自動パーソナライゼーションオファー（Adobe Target）
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Target の自動パーソナライゼーションオファー{#target-automated-personalization-offers}
 
-自動パーソナライゼーション（AP）アクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
+[!DNL Adobe Target] [!DNL Automated Personalization] (AP)アクティビティでは、オファーを特定のオーディエンスにターゲットできます。
 
 この機能を使用すると、特定の訪問者が閲覧できるオファーの数を減らすことができます。例えば、3 つのオファーを含む AP アクティビティがあるとします。オファー 1 には、表示をオーディエンス A に限定するターゲットルールがあります。この AP アクティビティを 2 人の訪問者が閲覧します。
 
