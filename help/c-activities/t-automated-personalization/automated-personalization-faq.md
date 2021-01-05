@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 title: 自動パーソナライゼーションに関する FAQ
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
-ht-degree: 85%
+source-wordcount: '1963'
+ht-degree: 84%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自動パーソナライゼーションFAQ{#automated-personalization-faq}
+# ![PREMIUM](/help/assets/premium.png) 自動パーソナライゼーションFAQ
 
 自動パーソナライゼーション（AP）に関するよくある質問（FAQ）のリストです。
 
@@ -53,7 +53,7 @@ AP とデフォルトエクスペリエンスとの比較で、そのままで�
 
 ## よくある質問
 
-自動配分アクティビティを使用する際は、次のFAQと回答を参照してください。
+[!UICONTROL Automated Personalization]アクティビティとの連携に関しては、次のFAQと回答をご覧ください。
 
 ### 自動パーソナライゼーションの制限は何ですか。  {#section_08BA09ED51B547299963C94FE6417CFA}
 
