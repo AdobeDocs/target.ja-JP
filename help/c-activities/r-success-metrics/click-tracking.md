@@ -1,20 +1,20 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Target では、任意の要素に対するクリックを成功指標として追跡できます。
+description: Adobe Targetでは、任意の要素に対するクリックを成功指標として追跡できます。
 title: クリックの追跡
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 95%
+source-wordcount: '875'
+ht-degree: 92%
 
 ---
 
 
-# クリックの追跡{#click-tracking}
+# クリックの追跡
 
-Target では、任意の要素に対するクリックを成功指標として追跡できます。
+[!DNL Adobe Target] 任意の要素に対するクリックを成功指標として追跡できます。
 
 >[!NOTE]
 >
