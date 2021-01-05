@@ -1,18 +1,18 @@
 ---
-keywords: Overview and Reference
+keywords: summary
 description: テスト概要には、Adobe Target多変量分析テストの概要が視覚的に表示されます。
 title: テスト概要
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 76%
+source-wordcount: '105'
+ht-degree: 77%
 
 ---
 
 
-# テスト概要
+# テスト概要 (多変量分析テスト)
 
 テスト概要には、[!DNL Adobe Target] [!UICONTROL 多変量分析テスト]の概要が視覚的に表示されます。
 
