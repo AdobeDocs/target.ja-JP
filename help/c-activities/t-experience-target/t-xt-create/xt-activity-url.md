@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: アクティビティ URL は、エクスペリエンスターゲット設定アクティビティで使用され、アクティビティを設計する際に Adobe Target Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
+keywords: Experience Targeting;xt;activity url;url
+description: アクティビティURLは、Adobe Targetのエクスペリエンスのターゲット設定アクティビティで使用されるページを決定します。このページは、アクティビティのデザイン時にVisual Experience Composer(VEC)またはフォームベースのExperience Composerで開きます。
 title: アクティビティ URL
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# アクティビティ URL{#activity-url}
+# エクスペリエンスターゲット設定(XT)アクティビティのアクティビティURL
 
-アクティビティ URL は、エクスペリエンスターゲット設定（XT）アクティビティで使用され、アクティビティを設計する際に Visual Experience Composer（VEC）やフォームベースの Experience Composer で開くページを指定します。
+[!UICONTROL アクティビティURL]は、[!DNL Adobe Target] [!UICONTROL エクスペリエンスのターゲット設定](XT)アクティビティで使用されるページを決定し、[!UICONTROL Visual Experience Composer](VEC)または[!UICONTROL Form-Based Experience Composer]の場合アクティビティが設計されます。
 
 1. [XT アクティビティを作成する](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)際にアクティビティ URL の入力を求められたら、URL を指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
