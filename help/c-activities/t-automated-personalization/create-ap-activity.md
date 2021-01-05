@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: 自動パーソナライゼーションアクティビティワークフローは、他のアクティビティのタイプで使用するワークフローとは異なります。
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: Adobe TargetでのAutomated Personalizationアクティビティのワークフローは、他のアクティビティタイプのワークフローとは異なります。
 title: 自動パーソナライゼーションアクティビティの作成
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 98%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png)自動パーソナライゼーションアクティビティの作成{#create-an-automated-personalization-activity}
+# ![PREMIUM](/help/assets/premium.png)自動パーソナライゼーションアクティビティの作成
 
-自動パーソナライゼーションアクティビティワークフローは、他のアクティビティのタイプで使用するワークフローとは異なります。
+[!DNL Adobe Target]の[!UICONTROL Automated Personalization] (AP)アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
 
-1. Target Standard アクティビティリストで、**[!UICONTROL アクティビティを作成]**／**[!UICONTROL Automated Personalization]** をクリックします。
+1. [!DNL Target] [!UICONTROL アクティビティ]リストから、**[!UICONTROL アクティビティを作成]**/**[!UICONTROL Automated Personalization]**&#x200B;をクリックします。
 
    ![アクティビティを作成：自動パーソナライゼーション](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Visual Experience Composer（VEC）を使用するには、「**[!UICONTROL ビジュアル]**」（デフォルト）をクリックします。
+1. [!UICONTROL Visual Experience Composer](VEC)を使用するには、「**[!UICONTROL ビジュアル（デフォルト）]**」をクリックします。
 
    ![自動パーソナライゼーションアクティビティを作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   フォームベースの Experience Composer を使用する場合、「[!UICONTROL フォーム]」を選択します。詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL フォームベースのExperience Composer]を使用する場合は、「[!UICONTROL フォーム]」を選択します。 詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VEC およびフォームベースの Experience Composer に加えて、Target はシングルページアプリケーション VEC およびモバイルアプリ向け VEC を提供します。様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VECと[!UICONTROL フォームベースのExperience Composer]に加えて、[!DNL Target]には、[!UICONTROL 単一ページアプリのVEC]とモバイルアプリのVECをオファーします。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
    >前述の図の「[!UICONTROL ワークスペースを選択]」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
 
-1. （条件付き）Target Premium のお客様の場合、[ワークスペースを選択](/help/administrating-target/c-user-management/property-channel/property-channel.md)します。
+1. （条件付き）[!DNL Target] Premiumのお客様の場合は、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
 1. アクティビティ URL を確認または入力してから、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
    指定された URL のページが Visual Experience Composer で開きます。
 
-1. アクティビティに名前を付けるには、「名前」フィールドをクリックして、アクティビティ名を入力します。
+1. アクティビティに名前を付けるには、[**[!UICONTROL 名前]**]フィールドをクリックし、アクティビティ名を入力します。
 
    ![「名前」フィールド](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
