@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: トラフィック見積もりでは、Adobe Targetアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックを提供します。
 title: 成功のために必要なトラフィックの見積もり
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 成功のために必要なトラフィックの見積もり{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) 成功のために必要なトラフィックの見積もり
 
 [!UICONTROL トラフィック見積もり]は、[!DNL Adobe Target]アクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックを提供します。
 
