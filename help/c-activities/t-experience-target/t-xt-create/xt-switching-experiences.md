@@ -2,9 +2,9 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: プロファイルの発展に応じて、訪問者がエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスを切り替える方法について説明します。
 title: エクスペリエンスターゲット設定でのエクスペリエンスの切り替え
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# エクスペリエンスターゲット設定でのエクスペリエンスの切り替え{#switching-experiences-in-experience-targeting}
+# エクスペリエンスターゲット設定でのエクスペリエンスの切り替え
 
 プロファイルの発展に応じて、訪問者がエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスを切り替える方法について説明します。
 
