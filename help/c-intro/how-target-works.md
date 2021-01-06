@@ -1,38 +1,43 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target は、at.js または mbox.js の 2 つの JavaScript ライブラリのいずれかによって Web サイトと統合されます
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: Adobe Experience PlatformWeb SDK、ターゲットJavaScriptライブラリ（at.jsおよびmbox.js）、ターゲットで作成できる様々なアクティビティタイプに関する情報を含む、Adobe Targetの仕組みに関する情報を紹介します。
 title: Adobe Target の仕組み
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 79%
+source-wordcount: '2530'
+ht-degree: 70%
 
 ---
 
 
 # Adobe Target の仕組み
 
-Target JavaScript ライブラリ（at.js および mbox.js）の情報や Target に含まれている様々なアクティビティタイプなど、Adobe Target の動作の仕組みについて説明します。
+[!DNL Adobe Experience Platform Web SDK]、[!DNL Target] JavaScriptライブラリ（at.jsおよびmbox.js）、およびターゲットを使用して作成できる様々なアクティビティタイプに関する情報を含む、[!DNL Adobe Target]の機能に関する情報を紹介します。
 
-## Target JavaScript ライブラリ {#libraries}
+## ターゲットプラットフォームWeb SDKおよびJavaScriptライブラリ{#libraries}
 
-Adobe Targetは、JavaScriptライブラリを使用してWebサイトと統合します。
+Adobe Targetは、[!DNL AEP Web SDK]またはJavaScriptライブラリを使用してwebサイトと統合します。
 
+* **Adobe Experience PlatformWeb SDK:**  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKは、新しいクライアント側のJavaScriptライブラリで、 [!DNL Adobe Experience Cloud] Edgeネットワークを介して( [!DNL Experience Cloud]  [!DNL Target] [!DNL Adobe Experience Platform] 含む)様々なサービスを利用できます。[!DNL Target]固有の情報については、[ターゲットの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)を参照してください。
 * **at.js：**[at.js library ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
-* **Adobe Experience PlatformWeb SDK:** Adobe Experience PlatformWeb  [SDKは、](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Edgeネットワークを [!DNL Adobe Experience Cloud]  [!DNL Experience Cloud]  [!DNL Adobe Experience Platform] 介して様々なサービスを利用できる、新しいクライアント側のJavaScriptライブラリです。
 * **mbox.js：**[mbox.js ライブラリは、Target のレガシー実装ライブラリです。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.jsライブラリは2021年3月31日までサポートされますが、機能は更新されません。
 
 >[!IMPORTANT]
 >
->すべてのお客様が at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>すべてのお客様は、at.jsの[!DNL AEP Web SDK]または最新バージョンに移行する必要があります。 詳しくは、[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)または[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)からat.jsへの移行を参照してください。
 
-サイト上のすべてのページで Target JavaScript ライブラリファイルを参照する必要があります。例えば、これをグローバルヘッダーに追加します。または、[Adobe Launch タグマネージャー](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)の使用を検討します。
+サイトの各ページで[!DNL AEP Web SDK]またはat.jsを参照する必要があります。 例えば、グローバルヘッダーにこれらのいずれかを追加できます。 または、[Adobeプラットフォームの起動](https://experienceleague.adobe.com/docs/launch/using/overview.html)を使用することを検討してください。
 
-訪問者が Target に最適化されたページを要求するたびに、そのリクエストがターゲット設定システムに送信され、訪問者に提供するコンテンツが特定されます。このプロセスはリアルタイムで実行されます。つまり、ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。応答率、獲得率および売上高が最大化されるように、各サイト訪問者が応答し、やり取りをおこない、最終的に購入する可能性の最も高いコンテンツが提供されます。
+次のリソースは、AEP Web SDKまたはat.jsの実装に役立ちます。
 
-Target では、ページ上の各要素は、ページ全体の単一のエクスペリエンスの一部になります。各エクスペリエンスには、ページ上の複数の要素が含まれている可能性があります。
+* [Adobe Experience PlatformWeb SDK拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Adobe Launch を使用した Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+訪問者が[!DNL Target]用に最適化されたページをリクエストするたびに、リクエストがターゲット設定システムに送信され、訪問者に提供するコンテンツが決定されます。 このプロセスは、ページが読み込まれるたびに、コンテンツのリクエストが作成され、システムで処理されるリアルタイムで発生します。 コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。応答率、獲得率および売上高が最大化されるように、各サイト訪問者が応答し、やり取りをおこない、最終的に購入する可能性の最も高いコンテンツが提供されます。
+
+[!DNL Target]では、ページ上の各要素は、ページ全体の単一のエクスペリエンスの一部です。 各エクスペリエンスには、ページ上の複数の要素が含まれている可能性があります。
 
 訪問者に表示されるコンテンツは、作成するアクティビティのタイプによって異なります。
 
