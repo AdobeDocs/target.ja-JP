@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
 title: ターゲットのお知らせ
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 ターゲットスキルビルダーセッション、開発チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
 
+## Adobe Target認定
+
+Adobe Target氏は最近、フォレスター氏とガートナー氏の両方から市場リーダーとして認められました。
+
 | 調査サービス | 詳細 |
 | --- | --- |
-| フォレスター | Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。<br>Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
-| Gartner | Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。<br>Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+| フォレスター | **Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。**<br> Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
+| Gartner | **Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。**<br> Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## ウェビナー：大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果
 
