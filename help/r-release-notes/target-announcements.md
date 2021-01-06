@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Adobeはフォレスター波のリーダーに選ばれました。エクスペ
 Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性
 
 [Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## ウェビナー：大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果
+
+* **火曜日、1月19日**
+* **午前8時（太平洋標準時） |午前10時CT | 11 a.m.東部標準時**
+* **期間：60分**
+* **[登録はこちら](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+顧客体験を規模で最適化する機能は、顧客の動的なニーズや新しいデジタル訪問者の急増に対応する上でミッションクリティカルになりました。 [!DNL Adobe Target]などのエクスペリエンス最適化プラットフォームをデジタルプロパティにデプロイすると、手動やAIによる行動ターゲティング、テスト、推奨機能を活用して、顧客に適したエクスペリエンスを適切なタイミングで迅速に特定および提供できます。 2020年第4四半期にForrester Waveの主要な成果を発表し、Forrester社の主要アナリストであるJames McCormick氏とお客様にご協力ください。
+
+このウェビナーでは、次の内容を学習します。
+
+* パーソナライゼーションおよびエクスペリエンス最適化ツールの進化を形成する業界のトレンド
+* 主要なエクスペリエンス最適化プラットフォームの主な機能
+* ビジネスへの影響を最大限に抑えるために、顧客体験を規模で最適化するためのベストプラクティス
 
 ## ウェビナー：Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現
 
