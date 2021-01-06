@@ -4,9 +4,9 @@ description: ターゲットスキルビルダーセッション、開発者チ�
 title: ターゲットのお知らせ
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,17 @@ ht-degree: 0%
 
 ターゲットスキルビルダーセッション、開発チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
 
-## エクスペリエンス最適化プラットフォームのAdobeが、Forresterのウェーブレポートのリーダーに選ばれました
-
-Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。 Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。
-
-[Adobeブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)で確認。
-
-## Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantのリーダーに再び選ばれました。
-
-Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。 パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性
-
-[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+| 調査サービス | 詳細 |
+| --- | --- |
+| フォレスター | Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。<br>Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
+| Gartner | Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。<br>Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## ウェビナー：大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果
 
 * **火曜日、1月19日**
 * **午前8時（太平洋標準時） |午前10時CT | 11 a.m.東部標準時**
 * **期間：60分**
-* **[登録はこちら](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+* **[登録はこちら](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)。**
 
 顧客体験を規模で最適化する機能は、顧客の動的なニーズや新しいデジタル訪問者の急増に対応する上でミッションクリティカルになりました。 [!DNL Adobe Target]などのエクスペリエンス最適化プラットフォームをデジタルプロパティにデプロイすると、手動やAIによる行動ターゲティング、テスト、推奨機能を活用して、顧客に適したエクスペリエンスを適切なタイミングで迅速に特定および提供できます。 2020年第4四半期にForrester Waveの主要な成果を発表し、Forrester社の主要アナリストであるJames McCormick氏とお客様にご協力ください。
 
@@ -53,7 +46,7 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 ## ウェビナー：HSBCがAdobe TargetとAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
 
-* **ウェビナーの録画を表示するには、ここをクリック [し](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)ます。**
+* **[ウェビナーの録画表示はこちら](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 マッキンゼイ・デジタルは、「消費者とビジネスのデジタル採用に5年間、約8週間の間に成果が上がった」と報じた。 *
 
@@ -71,4 +64,4 @@ Adobeは、2020年のパーソナライゼーション・エンジンに関す�
 
 2021年3月31日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
 
-[ウェビナーの録画表示はこちら](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+* **[ウェビナーの録画表示はこちら](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
