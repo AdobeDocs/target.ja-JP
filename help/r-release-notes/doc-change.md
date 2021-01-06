@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3248'
 ht-degree: 28%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2021年1月5日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットがmbox.jsをサポートしなくなる日付を2021年1月18日から2021年3月31日に変更しました。 |
+| 6 年 1 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のライブウェビナーの情報と登録情報を追加しました。<ul><li>大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果です。</li></ul> |
+| 1 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットがmbox.jsをサポートしなくなる日付を2021年1月18日から2021年3月31日に変更しました。 |
 | 18 年 12 月 | [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md) | 新規トピックです。 |
 | 17 年 12 月 | [Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDKがA4Tをサポートしていることを示す表を更新しました。 |
 | 16 年 12 月 | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「自動ターゲットアクティビティから1つのエクスペリエンスを削除するとどうなりますか？」 |
