@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: ターゲットスキルビルダーセッション、開発者チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関する情報を紹介します。
+description: Adobe Targetスキルビルダーセッション、デベロッパーチャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関する情報です。
 title: ターゲットのお知らせ
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ターゲットのお知らせとイベント
 
-ターゲットスキルビルダーセッション、開発チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
+Adobe Targetスキルビルダーセッション、開発チャット、ウェビナー、ターゲットコーヒーブレークセッションなど、今後のイベントに関するお知らせと情報です。
 
 ## Adobe Target認定
 
