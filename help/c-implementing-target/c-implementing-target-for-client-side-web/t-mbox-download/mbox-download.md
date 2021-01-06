@@ -1,30 +1,34 @@
 ---
-keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
-description: Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
+keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+description: Adobe Target標準またはターゲットプレミアムを使用するには、1行のコードを追加してmbox.jsを呼び出します。
 title: mbox.js の実装
 feature: null
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 863c5137383d35b2eaa33082c2136b81793281ca
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 55%
+source-wordcount: '433'
+ht-degree: 30%
 
 ---
 
 
-# mbox.js の実装{#mbox-js-implementation}
+# mbox.js の実装
 
-Target Standard または Target Premium を使用するには、コードを 1 行追加して mbox.js を呼び出します。
+[!DNL Adobe Target Standard]または[!DNL Target Premium]を使用するには、1行のコードを追加してmbox.jsを呼び出します。
 
-[!DNL mbox.js] または [!DNL at.js] の 2 つのライブラリリファレンスのいずれかを使用できます。[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)では、この 2 つのライブラリの違いを説明しています。
+次の2つのライブラリ参照のいずれかを使用できます。[!DNL Adobe Experience Platform Web SDK]または[!DNL at.js]。 [at.jsのメリットは、mbox.jsとat.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) jsライブラリの違いを意味します。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->**mbox.jsの提供終了**:2021年3月31日に、Adobe Targetはmbox.jsライブラリをサポートしなくなります。2021年3月31日以降は、mbox.jsからのすべての呼び出しが正常に失敗し、デフォルトコンテンツを提供することで実行されるターゲットアクティビティを持つページに影響します。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前にat.jsライブラリの最新バージョンに移行することをお勧めします。 詳しくは、[At.jsの仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)を参照してください。
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。
 >
->mbox.jsは現在サポートされていますが、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 新しいat.jsは、mbox.jsと比較して多くの利点を提供します。 多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。
+>* **Adobe Experience PlatformウェブSDK**: [!UICONTROL Adobe Experience PlatformWeb ] SDKを使用すると、Adobe Experience Edge Networkを介して、( [!DNL Experience Cloud] 含む [!DNL Target])様々なサービスをインタラクティブに操作できます。[!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)とは何ですかを参照してください。 [!DNL Target]固有の情報については、[ターゲットの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)を参照してください。
+   >
+   >
+* **at.js**:at.js JavaScriptライブラリは、mbox.jsよりも多くの利点を提供します。多くのメリットがある中でも、at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、シングルページアプリケーション向けのより優れた実装オプションを提供します。 at.jsに移行する場合は、[At.jsの仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)と[Adobe Targetスキルビルダーを参照してください。開発者チャットで、Adobe Targetのmbox.jsをat.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)に移行します。
 >
->すべてのお客様をat.jsに移行することで、アドビのエンジニアとサポートスタッフは、お客様がAdobeから期待する新しい機能とオファーをお客様に提供できます。
+>
+mbox.jsは現在サポートされていますが（2021年3月31日まで）、2017年7月以降、このライブラリに対する機能の更新は提供されていません。 すべてのお客様を[!UICONTROL Adobe Experience PlatformWeb SDK]またはat.jsに移行することで、アドビのエンジニアとサポートスタッフは、Adobeから期待される新しい機能とオファーをお客様に提供できます。
 
 各ページの [!DNL mbox.js] への単一の参照は、すべてのアクティビティに必要なライブラリを提供します。[!DNL mbox.js] は、[!DNL mbox.js] ファイルを参照するすべてのページから [!DNL Target] を呼び出します。これにより、[!DNL Target] で次の作業ができるようになります。
 
