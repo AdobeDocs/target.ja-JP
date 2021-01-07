@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: このトピックでは Visual Experience Composer（VEC）内で編集できるカルーセルの作成方法を説明します。
+description: このトピックでは、Adobe TargetVisual Experience Composer(VEC)で編集できるカルーセルの作成方法を示します。
 title: Visual Experience Composer 内で動作するカルーセルの作成
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# Visual Experience Composer 内で動作するカルーセルの作成{#creating-carousels-that-work-in-the-visual-experience-composer}
+# Visual Experience Composer 内で動作するカルーセルの作成
 
-このトピックでは Visual Experience Composer（VEC）内で編集できるカルーセルの作成方法を説明します。
+このトピックでは、[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)で編集できるカルーセルの作成方法を示します。
 
 次の手順を使用すると、Visual Experience Composer 内で数秒後に変更された場合でも、選択スライドが正しいスライドの「セレクター」を持つことを [!DNL Target] が必ず認識するようになります。 
 
