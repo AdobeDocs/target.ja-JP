@@ -2,9 +2,9 @@
 keywords: Experience Targeting;Landing Page Test
 description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
 title: Visual Experience Composer で使用される要素セレクター
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -12,7 +12,7 @@ ht-degree: 90%
 ---
 
 
-# Visual Experience Composer で使用される要素セレクター{#element-selectors-used-in-the-visual-experience-composer}
+# Visual Experience Composer で使用される要素セレクター
 
 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
 
