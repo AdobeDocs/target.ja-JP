@@ -3,9 +3,9 @@ keywords: implement;implementing
 description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
 landing-page-description: Before you start using Adobe Target, you should implement it on your site, understand a few basic concepts and terms, and be familiar with how Target works.
 title: Target の実装
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
