@@ -2,9 +2,9 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
 description: Adobe TargetのVisual Experience Composerを使用して、A/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
 title: A/B テストの作成
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 64%
