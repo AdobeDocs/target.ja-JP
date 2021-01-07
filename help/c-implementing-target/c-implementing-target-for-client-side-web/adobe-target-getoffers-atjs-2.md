@@ -2,9 +2,9 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数について説明します。
 title: adobe.target.getOffers(options) - at.js 2.x
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 92%
@@ -73,7 +73,7 @@ ht-degree: 92%
 | Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
-## すべての表示に対してgetOffers()を呼び出します。
+## すべての表示に対してgetOffers()を呼び出します
 
 ```javascript
 adobe.target.getOffers({
