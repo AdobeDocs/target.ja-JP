@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
 description: 'On-device decisioningは、Adobe Targetエッジネットワークへのネットワーク要求をブロックせずに、Adobe TargetA/Bおよびエクスペリエンスターゲット設定(XT)アクティビティをサーバー上にキャッシュし、ほぼゼロの遅延でメモリ内判定を実行する機能を提供します。 '
-title: オンデバイス判定
-feature: server-side
+title: オンデバイスの判定
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# オンデバイス判定
+# オンデバイスの判定
 
 オンデバイス判定機能は、[!DNL Adobe Target][!UICONTROL A/Bテスト]と[!UICONTROL エクスペリエンスターゲット設定](XT)アクティビティをサーバー上にキャッシュし、[!DNL Adobe Target]エッジネットワークへのネットワーク要求をブロックせずに、ほぼゼロの遅延でメモリ内判定を実行します。
 
