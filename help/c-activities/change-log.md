@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: 変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
 title: Adobe Targetのアクティビティ変更ログ
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# アクティビティの変更ログ{#activity-change-log}
+# アクティビティの変更ログ
 
-変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
+[!DNL Adobe Target]の変更ログは、アクティビティを変更したユーザーと変更日時の記録を提供します。
 
 1. アクティビティを開き、**[!UICONTROL 「変更ログ」]**&#x200B;をクリックします。
 
