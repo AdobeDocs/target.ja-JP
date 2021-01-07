@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: リモートオファーを使用すると、Target 外にあり、Target が参照してユーザーのウェブサイトに提供するコンテンツをホスティングすることができます。このコンテンツは、利便上の理由またはセキュリティ上の理由で、コンテンツ管理や他のシステムにある場合があります。
+description: リモートオファーを使用して、ターゲットが参照し、ユーザーのWebサイトに配信するAdobe Target外のコンテンツをホストします。 このコンテンツは、利便上の理由またはセキュリティ上の理由で、コンテンツ管理や他のシステムにある場合があります。
 title: リモートオファーを作成
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# リモートオファーを作成{#create-remote-offers}
+# リモートオファーを作成
 
-リモートオファーを使用すると、Target 外にあり、Target が参照してユーザーのウェブサイトに提供するコンテンツをホスティングすることができます。このコンテンツは、利便上の理由またはセキュリティ上の理由で、コンテンツ管理や他のシステムにある場合があります。
+リモートオファーを使用すると、[!DNL Adobe Target] 外にあり、Target が参照してユーザーのウェブサイトに提供するコンテンツをホスティングすることができます。このコンテンツは、利便上の理由またはセキュリティ上の理由で、コンテンツ管理や他のシステムにある場合があります。
 
 >[!NOTE]
 >
