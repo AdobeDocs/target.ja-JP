@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
 title: Adobe Target Visual Experience Composer（VEC）オプション
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# Visual Experience Composer のオプション{#visual-experience-composer-options}
+# Visual Experience Composer のオプション
 
-Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。さらに、ページの下部に DOM パスが表示されるので、ページ構造を簡単にナビゲートできます。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)でページ要素をクリックすると、その要素タイプで使用できるオプションがメニューに表示されます。 さらに、ページの下部に DOM パスが表示されるので、ページ構造を簡単にナビゲートできます。
 
 ## VEC オプション
 
