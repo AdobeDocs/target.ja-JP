@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: 拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
+description: Adobe Target拡張Experience Composer(EEC)では、特定の状況で表示の問題が発生する場合があります。
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# 拡張 Experience Composer に関連する問題のトラブルシューティング{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# 拡張Experience Composerに関する問題のトラブルシューティング
 
-拡張 Experience Composer（EEC）では、特定の状況で表示の問題が起きることがあります。
+[!DNL Adobe Target] [!UICONTROL 拡張Experience Composer](EEC)では、特定の状況で表示の問題が発生する場合があります。
 
 ## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。（EEC のみ）{#section_D29E96911D5C401889B5EACE267F13CF}
 
