@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: モバイルビューポートを使用すると、様々なサイズの画面でのAdobe Targetアクティビティの表示をプレビューできます。
 title: レスポンシブエクスペリエンスのモバイルビューポート
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 68%
@@ -12,9 +12,9 @@ ht-degree: 68%
 ---
 
 
-# レスポンシブエクスペリエンスのモバイルビューポート{#mobile-viewports-for-responsive-experiences}
+# レスポンシブエクスペリエンスのモバイルビューポート
 
-モバイルビューポートを使用すると、様々なサイズの画面で[!DNL Target]アクティビティがどのように表示されるかをプレビューできます。
+モバイルビューポートを使用すると、様々なサイズの画面で[!DNL Adobe Target]アクティビティがどのように表示されるかをプレビューできます。
 
 モバイルビューポートプレビュー機能は、様々なデバイス、ウィンドウ、画面サイズで適切にレンダリングされるレスポンシブサイト用に設計されています。 レスポンシブサイトは、デスクトップ、ラップトップ、タブレット、携帯電話など、あらゆる画面サイズに自動的に調整され、適応します。
 
