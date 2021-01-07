@@ -2,11 +2,11 @@
 keywords: security;security practices
 description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 title: Target のセキュリティの概要
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 92%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # Target  セキュリティ概要
 
-Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
+[!DNL Adobe] がデータと [!DNL Adobe Target] エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
 
 Adobe では、デジタルエクスペリエンスのセキュリティを非常に重視しています。セキュリティ対策は内部でのソフトウェア開発と運用プロセスおよびツールに強く反映されています。また、社内の部門間チームはこのセキュリティ対策を遵守して、事件の発生の防止、検知、対応を適切に進めています。
 
