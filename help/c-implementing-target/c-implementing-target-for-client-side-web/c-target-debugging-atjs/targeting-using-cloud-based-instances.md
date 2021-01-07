@@ -2,9 +2,9 @@
 keywords: cloud instances;public suffix list;public suffix;cookie;first-party cookie;1st-party cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: クラウドベースのインスタンスを使用して Adobe Target をテストする際の問題に関する情報をまとめています。
 title: Target でのクラウドベースのインスタンスの使用
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 95%
