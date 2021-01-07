@@ -2,9 +2,9 @@
 keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
 description: Adobe Dynamic Tag Management（DTM）は、アドビの従来のタグマネージャーです。
 title: Dynamic Tag Management（DTM）を使用した Target の実装
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 92%
