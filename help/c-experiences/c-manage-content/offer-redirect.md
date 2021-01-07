@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: ブラウザーが新しいページにリダイレクトされる Adobe Target のリダイレクトオファーについて説明します。
 title: リダイレクトオファーの作成
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '562'
+ht-degree: 95%
 
 ---
 
 
-# リダイレクトオファーの作成{#create-redirect-offers}
+# リダイレクトオファーの作成
 
-リダイレクトオファーを使用すると、ブラウザーで新しいページへのリダイレクトがおこなわれます。
+Adobe Targetのリダイレクトオファーを使用すると、ブラウザーが新しいページにリダイレクトされます。
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。この場合、A/B テストではページ A とページ B を比較します。A/B テストキャンペーンを 2 つのエクスペリエンスで設定します。1 つはデフォルトのページ A をポイントするエクスペリエンス、もう 1 つはページ B にリダイレクトするエクスペリエンスです。訪問者を別のページにリダイレクトするオファーが設定されます。
 
