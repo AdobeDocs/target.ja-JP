@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。
 title: ブラウザーで混合コンテンツを有効にする
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# ブラウザーで混合コンテンツを有効にする{#enabling-mixed-content-in-your-browser}
+# ブラウザーで混合コンテンツを有効にする
 
 混合コンテンツは、HTTPS（セキュア）*と* HTTP（セキュア）コンテンツの両方が読み込まれて同じWebページを表示し、初期要求がHTTPSでセキュリティで保護されている場合に発生します。
 
