@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: アクティビティをドラフト形式で保存する方法を含む、既存のアクティビティの様々な編集方法に関する情報をまとめています。
+description: アクティビティをドラフト形式で保存するなど、Adobe Targetの既存のアクティビティを編集する様々な方法に関する情報です。
 title: アクティビティを編集またはドラフトとして保存
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 96%
 
 ---
 
 
-# アクティビティを編集またはドラフトとして保存{#edit-an-activity-or-save-as-draft}
+# アクティビティを編集またはドラフトとして保存
 
-アクティビティをドラフト形式で保存する方法を含む、既存のアクティビティの様々な編集方法に関する情報をまとめています。
+アクティビティをドラフト形式で保存するなど、[!DNL Adobe Target]で既存のアクティビティを編集する様々な方法に関する情報です。
 
 Target では、UI 内の様々な場所で既存のアクティビティを編集できます。編集方法によって手順は変わります。
 
