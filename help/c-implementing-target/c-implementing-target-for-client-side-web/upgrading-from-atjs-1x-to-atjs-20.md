@@ -2,9 +2,9 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
 title: Adobe Target の at js バージョン 1.*x* から at.js バージョン 2.0.0 へのアップグレード*x*
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 92%
@@ -45,7 +45,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 
 | 呼び出し | 詳細 |
 | --- | --- |
-| 1 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
+| 3 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
 | 2 | ビューのターゲットコンテンツがキャッシュから読み取られます。 |
 | 1 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
 | 4 | 通知リクエストが [!DNL Target] プロファイルストア に送信され、アクティビティで訪問者がカウントされ、指標が増分されます。 |
