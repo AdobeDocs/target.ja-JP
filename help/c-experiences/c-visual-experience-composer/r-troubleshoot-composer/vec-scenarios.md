@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: この記事に記載されるシナリオは、ページに変更を加えることが Target のエクスペリエンス表示機能にどのように影響するかを示します。
+description: このトピックのシナリオでは、ページに加えた変更が、Adobe Targetのエクスペリエンス表示機能にどのような影響を与えるかを示します。
 title: ページ修正のシナリオ
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# ページ修正のシナリオ {#page-modification-scenarios}
+# ページ修正のシナリオ
 
-この記事に記載されるシナリオは、ページに変更を加えることが Target のエクスペリエンス表示機能にどのように影響するかを示します。
+このトピックのシナリオでは、ページに加えた変更が、Adobe Targetのエクスペリエンス表示機能にどのような影響を与えるかを示します。
 
 Target セレクターは、エクスペリエンスを表示する位置を決定します。ページが Target 外で修正されると、Target のエクスペリエンス表示機能に影響することがあります。
 
