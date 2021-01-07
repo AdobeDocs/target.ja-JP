@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: フォームベースの Experience Composer は、非視覚的なエクスペリエンス作成機能を提供します。
+description: Adobe TargetフォームベースのExperience Composerは、非視覚的なエクスペリエンスの作成を提供します。
 title: フォームベースの Experience Composer
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # フォームベースの Experience Composer{#form-based-experience-composer} 
 
-フォームベースの Experience Composer は、Visual Experience Composer が使用できない、または使用が実用的でない場合に、A/B テスト、エクスペリエンスターゲット設定、自動パーソナライゼーション、Recommendations アクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
+[!DNL Adobe Target] [!UICONTROL フォームベースのExperience Composer]は、ビジュアルエクスペリエンスが使用できない場合、または実用的でない場合に、A/Bテスト、Experience Targeting、Automated Personalization、Recommendationsの各アクティビティで使用するエクスペリエンスを作成するのに役立つ、非ビジュアルなエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
 
 Recommendations アクティビティを作成している場合、エクスペリエンスはありません。条件およびデザインを選択します。複数の条件またはデザインを選択する場合、Target は自動的にエクスペリエンスを生成します。
 
