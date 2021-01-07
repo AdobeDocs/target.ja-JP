@@ -2,9 +2,9 @@
 keywords: a/b;a/a;aa;
 description: Adobe Targetを使用してA/Aテストをサイトで実行する前に、A/Aテストが何であるか、A/Aテストを実行する理由、テストを実行する必要がある期間、結果の解釈方法を理解することが重要です。
 title: A/Aテスト
-feature: A/B tests
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 1%
