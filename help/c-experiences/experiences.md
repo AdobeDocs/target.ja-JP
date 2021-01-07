@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
+description: Adobe Targetのエクスペリエンスは、訪問者がアクティビティのオーディエンス条件を満たす場合に、どのコンテンツを表示するかを決定します。
 title: エクスペリエンスとオファー
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 89%
 
 ---
 
 
-# エクスペリエンスとオファー{#experiences-and-offers}
+# エクスペリエンスとオファー
 
-エクスペリエンスは、あるアクティビティに対して訪問者がオーディエンスの条件に合致する場合に、どのコンテンツを表示するかを決定します。
+[!DNL Adobe Target]のエクスペリエンスは、訪問者がアクティビティのオーディエンス条件を満たす場合に、どのコンテンツを表示するかを決定します。
 
 エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。[!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
 
