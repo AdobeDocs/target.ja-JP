@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: オファーライブラリを使用して、コードオファーおよび画像オファーコンテンツを管理します。
+description: Adobe Targetのオファーライブラリを使用して、コードオファーと画像オファーのコンテンツを管理します。
 title: オファー
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # オファー{#offers}
 
-オファーライブラリを使用して、コードオファーおよび画像オファーコンテンツを管理します。
+[!DNL Adobe Target]のオファーライブラリを使用して、コードオファーと画像オファーのコンテンツを管理します。
 
 >[!NOTE]
 >
