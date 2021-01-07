@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: 最高のセキュリティ標準規格の維持と顧客データ安全の促進のための、アドビと Target による TLS（Transport Layer Security）利用方法の変更に関する情報。
 title: TLS（Transport Layer Security）暗号化の変更
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 61%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # TLS（Transport Layer Security）暗号化の変更{#tls-transport-layer-security-encryption-changes}
 
-AdobeとAdobe TargetがTLS(Transport Layer Security)を使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法に関する変更について説明します。
+[!DNL Adobe]と[!DNL Adobe Target]がTLS(Transport Layer Security)を使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法に関する情報を紹介します。
 
 Transport Layer Security（TLS）は、ネットワークを介してデータを安全に交換する必要のある Web ブラウザや他のアプリケーションで現在使用されている、最も広く展開されているセキュリティプロトコルです。アドビは古いプロトコルの廃止を義務付けるセキュリティコンプライアンス標準規格を持っており、最新でセキュアなバージョンを利用するため TLS 1.2 の使用を必須としています。
 
