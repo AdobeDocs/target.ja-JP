@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: オファーライブラリのアイテムを保存するフォルダーを作成します。
+description: Adobe Targetのオファーライブラリの項目を保存するフォルダを作成します。
 title: オファーフォルダーの作成
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# オファーフォルダーの作成{#create-offer-folder}
+# オファーフォルダーの作成
 
-オファーライブラリのアイテムを保存するフォルダーを作成します。
+Adobe Targetのオファーライブラリの項目を保存するフォルダを作成します。
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、必要に応じて「**[!UICONTROL コードオファー]**」または「**[!UICONTROL 画像オファー]**」タブを選択します。
 1. **[!UICONTROL 作成]**／**[!UICONTROL フォルダー]**&#x200B;をクリックします。
