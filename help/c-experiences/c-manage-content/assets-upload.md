@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 画像オファーリストにアイテムを追加できます。
+description: Adobe Targetの画像オファーリストに項目を追加できます。
 title: コンテンツのアップロード
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# コンテンツのアップロード{#upload-content}
+# コンテンツのアップロード
 
-画像オファーリストに対して、アイテムの追加または削除をおこなうことができます。
+[!DNL Adobe Target]の画像オファーリストに項目を追加したり、項目を削除したりできます。
 
 1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL 画像オファー]**」タブを選択します。
 1. **[!UICONTROL 作成]**／**[!UICONTROL ファイル]**&#x200B;をクリックします。
