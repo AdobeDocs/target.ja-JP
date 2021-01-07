@@ -1,22 +1,22 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
+description: ページに対する変更を表示し、変更（CSSセレクター、Mbox、カスタムコード）を追加できる、Adobe Targetの変更ページに関する情報です。
 title: 変更
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 95%
 
 ---
 
 
 # 変更{#modifications}
 
-ページに対する変更の表示や追加の変更（CSS セレクター、mbox、カスタムコード）をおこなえる変更ページに関する情報。
+[!DNL Adobe Target]の「変更」ページに関する情報です。このページでは、表示による変更をページに加え、さらに変更（CSSセレクター、Mbox、カスタムコード）を追加できます。
 
-変更ページでは、Visual Experience Composer（VEC）でページに加えられたすべての変更が表示され、ページの各要素をクリックして[アクションを選択](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)することでさらに変更を加えることができます。おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
+変更ページには、Visual Experience Composer(VEC)でページに対して行われたすべての変更が表示され、ページの各要素をクリックして[アクション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)を選択することで、追加の変更を行うことができます。 おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
 
 ## 変更の概要 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
