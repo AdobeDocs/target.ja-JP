@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
 title: Adobe Target 実装の準備
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
 
-# Target 実装の準備 {#prepare-to-implement-target}
+# Target 実装の準備
 
-Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
+[!DNL Adobe Target]を実装する際には、必要なタスクと収集する必要のある情報があります。
 
 これらのガイドラインに従い、指定された質問に入力することは、自分で実装するか、アドビコンサルティングと連携するか（推奨）にかかわらず、Target の実装に役立ちます。
 
