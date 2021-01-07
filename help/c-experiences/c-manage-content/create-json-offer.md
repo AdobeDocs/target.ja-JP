@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
+description: Adobe Targetのオファーライブラリに、フォームベースのExperience Composerで使用するJSONオファーを作成します。
 title: JSON オファーの作成
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # JSON オファーの作成{#create-json-offers}
 
-オファーライブラリにフォームベースの Experience Composer で使用する JSON オファーを作成します。
+[!UICONTROL フォームベースのExperience Composer]で使用するJSONオファーを[!DNL Adobe Target]の[!UICONTROL オファーライブラリ]に作成します。
 
 JSON オファーはフォームベースのアクティビティで使用し、SPA フレームワークまたはサーバー側統合で使用するオファーを JSON 形式で送信するために、Target の判定が必要な使用例に対応できます。
 
