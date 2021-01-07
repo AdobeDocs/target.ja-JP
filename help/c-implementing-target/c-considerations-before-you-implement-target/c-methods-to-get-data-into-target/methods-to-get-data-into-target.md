@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、プロファイル一括更新 API、単一プロファイル更新 API、顧客属性など、データを Target に送信する様々な方法について説明します。
+description: ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、バルクプロファイル更新API、単一プロファイル更新API、顧客属性など、データをAdobe Targetに取り込むために使用できる様々な方法について説明します。
 title: データを Target に送信する方法
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# データを Target に送信する方法{#methods-to-get-data-into-target}
+# データを Target に送信する方法
 
-ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、プロファイル一括更新 API、単一プロファイル更新 API、顧客属性など、データを Target に送信する様々な方法について説明します。
+ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、バルクプロファイル更新API、単一プロファイル更新API、顧客属性など、[!DNL Adobe Target]にデータを取得するために使用できる様々な方法について説明します。
 
 ## ページパラメーター（mbox パラメーター）{#section_5A297816173C4FE48DC4FE03860CB42B}
 
