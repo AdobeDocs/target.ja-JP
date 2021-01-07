@@ -2,19 +2,19 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: カスタムコードで使用する Adobe Target エクスペリエンステンプレートについて説明します。Target エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するための設定可能な入力を備えたコーディング済みのサンプルです。
 title: エクスペリエンステンプレート
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 87%
+source-wordcount: '466'
+ht-degree: 85%
 
 ---
 
 
-# エクスペリエンステンプレート{#experience-templates}
+# エクスペリエンステンプレート
 
-カスタムコードで使用する Adobe Target エクスペリエンステンプレートについて説明します。Target エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するための設定可能な入力を備えたコーディング済みのサンプルです。
+カスタムコードで使用する[!DNL Adobe Target]エクスペリエンステンプレートに関する情報です。 [!DNL Target] エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するための設定可能な入力を備えたコーディング済みのサンプルです。
 
 これらのエクスペリエンステンプレートは、VEC またはフォームベースの Experience Composer を通じて一般的な使用例を実行するための出発点として開発者およびマーケティング担当者に無償で提供されます。
 
