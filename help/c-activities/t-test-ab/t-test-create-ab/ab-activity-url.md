@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: アクティビティ URL は、テストで使用され、設計したテストで表示されるページを指定します。
+description: アクティビティURLは、テストで使用され、Adobe Targetを使用して設計されたテストで開くページを決定します。
 title: アクティビティ URL
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# アクティビティ URL{#activity-url}
+# アクティビティ URL
 
-アクティビティ URL は、テストで使用され、設計したテストで表示されるページを指定します。
+アクティビティURLは、テストで使用され、Adobe Targetを使用して設計されたテストで開くページを決定します。
 
 アクティビティ作成中にアクティビティ URL の入力を求められたら、URL を指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL 作成]**」をクリックします。
 
