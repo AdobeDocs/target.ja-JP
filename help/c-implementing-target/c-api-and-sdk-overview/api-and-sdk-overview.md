@@ -4,7 +4,7 @@ description: Adobe Targetのサーバ側配信API、SDK、ターゲットRecomme
 title: Adobe Targetのサーバ側配信API、Node.js SDK、ターゲットRecommendationsAPIに関する情報です。
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# サーバー側：Target の実装{#server-side-implement-target}
+# サーバー側：Target の実装
 
 [!DNL Adobe Target]サーバー側配信API、SDK、および[!DNL Target Recommendations] APIに関する情報です。
 
