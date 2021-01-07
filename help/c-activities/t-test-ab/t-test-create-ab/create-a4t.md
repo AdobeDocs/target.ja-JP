@@ -1,20 +1,20 @@
 ---
-keywords: Targeting;analytics;tracking server
-description: Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
+keywords: Targeting;analytics;tracking server;analytics for target;a4t
+description: Adobe Target標準でアクティビティを設定し、Adobe Analyticsをレポートソースとして使用できます(A4T)。
 title: Analytics データの使用
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 95%
+source-wordcount: '533'
+ht-degree: 89%
 
 ---
 
 
-# Analytics データの使用{#using-analytics-data}
+# Analytics データの使用
 
-Target Standard のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
+[!DNL Adobe Target]でアクティビティを設定し、[!DNL Adobe Analytics]をレポートソースとして使用できます(A4T)。
 
 Analyticsをターゲット用のデータソースとして設定する方法について詳しくは、「[Adobe AnalyticsをAdobe Target用のレポートソースとして設定する](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
 
