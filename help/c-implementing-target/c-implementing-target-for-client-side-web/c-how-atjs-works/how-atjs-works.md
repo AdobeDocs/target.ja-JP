@@ -2,9 +2,9 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
 title: at.js JavaScriptライブラリの動作
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 ---
 
 
-# at.js の仕組み{#how-at-js-works}
+# at.js の仕組み
 
 [!DNL Adobe Target]クライアント側を実装するには、at.js JavaScriptライブラリを使用する必要があります。
 
@@ -58,9 +58,9 @@ ht-degree: 88%
 
 | 手順 | 詳細 |
 | --- | --- |
-| 1 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
+| 3 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
 | 2 | ビューのターゲットコンテンツがキャッシュから読み取られます。 |
-| 1 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
+| 3 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
 | 4 | 通知リクエストが [!DNL Target] プロファイルストア に送信され、アクティビティで訪問者がカウントされ、指標が増分されます。 |
 | 5 | Analytics データがデータ収集サーバーに送信されます。 |
 | 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
@@ -79,7 +79,7 @@ at.js 2.x は、Adobe Target の SAP のサポートを強化し、Adobe Target 
 
 | 手順 | 説明 | 呼び出し | 説明 |
 |--- |--- |--- |--- |
-| 1 | ユーザーが認証されると、呼び出しが [!DNL Experience Cloud ID]（MCID）を返し、別の呼び出しが顧客 ID を同期します。 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。 |
+| 3 | ユーザーが認証されると、呼び出しが [!DNL Experience Cloud ID]（MCID）を返し、別の呼び出しが顧客 ID を同期します。 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。 |
 | 1 | すべての設定済みパラメーター、MCID、SDID および顧客 ID（オプション）を含む、グローバル mbox リクエストがおこなわれます。 | 4 | プロファイルスクリプトが実行されてから、プロファイルストアにフィードされます。ストアは、[!UICONTROL オーディエンスライブラリ]から正規のオーディエンスをリクエストします（例えば､[!DNL Adobe Analytics]、[!DNL Audience Manager] などから共有されたオーディエンス）。<br>顧客属性がバッチ処理で [!DNL Profile Store] に送信されます。 |
 | 5 | URL、mbox パラメーターおよびプロファイルデータに基づいて、[!DNL Target] がどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します。 | 6 | ターゲットとなるコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されます。<br>デフォルトコンテンツがちらつくことなく、可能な限り迅速にエクスペリエンスが表示されます。 |
 | 7 | [!DNL Analytics] データがデータ収集サーバーに送信されます。 | 8 | [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。<br>[!DNL Analytics]（A4T）レポートを使用して、[!DNL Analytics] データが [!DNL Target] と [!DNL Analytics for Target] の両方に表示できるようになります。 |
