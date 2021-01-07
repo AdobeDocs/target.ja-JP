@@ -1,18 +1,18 @@
 ---
 keywords: api;adobe i/o
-description: Target の従来の API から Adobe I/O の新しい API への移行について説明します。
+description: Adobe TargetのレガシーAPIからAdobe I/Oの新しいAPIへのトランジションを使用するのに役立つ情報です。
 title: Target の従来の API から Adobe I/O への移行
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 93%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
 
-# Target の従来の API から Adobe I/O への移行{#transition-from-target-legacy-apis-to-adobe-i-o}
+# Target の従来の API から Adobe I/O への移行
 
 Target の従来の API から Adobe I/O の新しい API への移行について説明します。
 
