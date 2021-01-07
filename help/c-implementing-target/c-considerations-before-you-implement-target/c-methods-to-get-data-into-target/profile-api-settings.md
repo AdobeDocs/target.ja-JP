@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Adobe TargetAPIを使用したバッチ更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 title: Adobe TargetのプロファイルAPI設定
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # プロファイル API 設定
 
-Adobe TargetAPIを使用したバッチ更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
+[!DNL Adobe Target] APIを使用したバッチ更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 
 [!DNL Adobe Target] では、個々のユーザーごとにプロファイルが作成され、管理されます。このプロファイルは[!DNL Target]エッジクラスターに保存され、訪問のたびにリアルタイムで更新されます。ただし、APIを使用してプロファイルを個別に、または一括で更新できます。
 
