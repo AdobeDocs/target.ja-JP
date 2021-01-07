@@ -1,19 +1,20 @@
 ---
-description: Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+keywords: recommendations
+description: Adobe TargetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムを基にして、顧客が興味を持つ可能性のある商品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Recommendations アクティビティ
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 47%
 
 ---
 
 
-# Recommendations アクティビティ{#recommendations-activity}
+# Recommendations アクティビティ
 
-Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+Adobe TargetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムを基にして、顧客が興味を持つ可能性のある商品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
 >[!NOTE]
 >
