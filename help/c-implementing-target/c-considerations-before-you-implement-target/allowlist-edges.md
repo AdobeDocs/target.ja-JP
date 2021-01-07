@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: 許可リストAdobe Targetエッジノード
 title: 許可リストAdobe Targetエッジノード
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 許可リストターゲットエッジノード
 
-[!DNL Target]エッジの許可リストAdobeに役立つ、ホストの情報と最新リスト。
+[!DNL Adobe Target]エッジの許可リストに役立つ、ホストの情報と最新リスト。
 
 エッジは、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、*Adobe[!DNL Target]の仕組み*&#x200B;の[エッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)を参照してください。
 
