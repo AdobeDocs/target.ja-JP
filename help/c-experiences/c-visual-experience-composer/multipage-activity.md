@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: 複数ページアクティビティを使用すると、各ページが固有のデザインを持つ複数のページにわたるストーリーを作成できます。
+description: Adobe Targetの複数ページのアクティビティを使用すると、各ページに固有のデザインを持つ複数のページにわたるストーリーを作成できます。
 title: 複数ページアクティビティ
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 87%
 
 ---
 
 
-# 複数ページアクティビティ{#multipage-activity}
+# 複数ページアクティビティ
 
-複数ページアクティビティを使用すると、各ページが固有のデザインを持つ複数のページにわたるストーリーを作成できます。
+[!DNL Adobe Target]の複数ページアクティビティを使用すると、各ページに固有のデザインで、複数のページにわたるストーリーを作成できます。
 
 例えば、特定の金額を超える買い物をした顧客に対して送料を無料にするオファーをテストできます。そのオファーをランディングページ、カテゴリページおよび特定の商品のページに表示しますが、ページのタイプに応じて異なる場所に異なるサイズで表示します。ホームページには目立つようにオファーを表示し、他の関連ページには小さく表示してオファーを強化できます。
 
