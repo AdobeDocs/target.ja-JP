@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
 title: Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズしたり、ページデザインをテストしたりできます。
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2090'
 ht-degree: 97%
 
 ---
 
 
-# アクティビティ{#activities}
+# アクティビティ
 
-Adobe Targetのアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズしたり、ページデザインをテストしたりできます。
+[!DNL Adobe Target]のアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
 
 例えば、夏用の婦人靴の情報をハイライトするランディングページと夏用の一般衣料をハイライトする別のランディングページの 2 つをテストするアクティビティを作成できます。アクティビティによって、これらの各ランディングページをいつ表示するかを制御する条件や、成功度の高いページを判断する指標を定義できます。アクティビティは、特定の条件が満たされたときに開始および終了するよう設定できます。例えば、具体的な日付の範囲による期間の設定や、アクティビティが承認されたときに開始し非アクティブになったときに終了する設定ができます。
 
