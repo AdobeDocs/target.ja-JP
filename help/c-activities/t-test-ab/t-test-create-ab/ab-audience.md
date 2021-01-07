@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
+description: オーディエンスは、Adobe Targetアクティビティに入力するサイト訪問者を決定します。
 title: オーディエンスの選択
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# オーディエンスの選択{#select-audience}
+# オーディエンスの選択
 
-オーディエンスは、アクティビティの対象となるサイト訪問者を特定します。
+オーディエンスは、[!DNL Adobe Target]アクティビティに入力するサイト訪問者を決定します。
 
 >[!NOTE]
 >
