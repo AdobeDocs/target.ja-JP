@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: すべてのエクスペリエンスを検証できるようにするには、ブラウザーの Target の Cookie を削除します。
 title: Adobe TargetCookieの削除
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
@@ -11,9 +12,9 @@ ht-degree: 9%
 ---
 
 
-# Target の Cookie の削除{#delete-the-target-cookie}
+# Target の Cookie の削除
 
-[!DNL Target]ブラウザーのCookie(mbox)を削除して、テスト中にすべてのエクスペリエンスを検証できます。
+[!DNL Adobe Target]ブラウザーのCookie(mbox)を削除して、テスト中にすべてのエクスペリエンスを検証できます。
 
 [!DNL Target] cookie(mbox)がない場合、新しい訪問者と見なされ、新しいエクスペリエンスが表示されます。 ブラウザーの をすべて削除しないで、mbox Cookie を削除する方法はいくつかあります。
 
