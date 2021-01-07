@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: Experience CloudID(ECID)ライブラリ4.3を使用したAppleのITP 2.xのAdobe Targetサポートに関する情報です。
 title: Adobe Target と Apple ITP サポート
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 53%
+source-wordcount: '897'
+ht-degree: 52%
 
 ---
 
 
 # Apple Intelligent Tracking Prevention（ITP）2.x
+
+Experience CloudID(ECID)ライブラリ4.3を使用したAppleのITP 2.xの[!DNL Adobe Target]サポートに関する情報です。
 
 Intelligent Tracking Prevention（ITP）は、Safari ユーザーのプライバシーを保護するための Apple の取り組みです。ITP の最初のリリース（2017 年）では、サードパーティ Cookie の使用を対象としていました。実際、Apple は、サードパーティ Cookie を完全にブロックしましたが、サードパーティ Cookie は、訪問者の追跡および訪問者データの収集に一般的に使用されていたので、広告技術およびマーケティング技術会社にとって深刻な頭痛の種となりました。現在、Apple は、Safari 内でのファーストパーティ Cookie の使用方法に制限や制約を課すことに移行しています。
 
