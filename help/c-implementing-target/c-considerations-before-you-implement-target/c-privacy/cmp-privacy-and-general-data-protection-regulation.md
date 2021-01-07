@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
 title: プライバシーとデータ保護規制
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 93%
+source-wordcount: '2248'
+ht-degree: 91%
 
 ---
 
 
-# プライバシーとデータ保護規制 {#privacy-and-general-data-protection-regulation-gdpr}
+# プライバシーとデータ保護規制
 
-欧州連合（EU）の一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）およびその他の国際的なプライバシー要件、およびこれらの規制が組織および Adobe Target に与える影響について説明します。
+欧州和集合のGDPR(General Data Protection Regulation)、カリフォルニア州消費者プライバシー法(CCPA)、その他の国際的なプライバシー要件、およびこれらの規制がお客様の組織や[!DNL Adobe Target]に与える影響について説明します。
 
 ## プライバシーと一般データ保護規則（GDPR）の概要 {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
