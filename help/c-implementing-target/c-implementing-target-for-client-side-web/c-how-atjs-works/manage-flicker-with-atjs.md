@@ -2,9 +2,9 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
 title: Adobe Target の at.js によるちらつきの制御方法
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
