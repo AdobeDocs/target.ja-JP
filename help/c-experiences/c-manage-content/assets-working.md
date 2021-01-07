@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: ライブラリ内のアセットで実行できるタスクは多数あります。
+description: Adobe Targetのライブラリ内のアセットに対して実行できるタスクはいくつかあります。
 title: ライブラリ内のコンテンツの操作
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# ライブラリ内のコンテンツの操作{#work-with-content-in-the-library}
+# ライブラリ内のコンテンツの操作
 
-ライブラリ内のアセットで実行できるタスクに関する情報。
+[!DNL Adobe Target]のコンテンツライブラリ内のアセットに対して実行できるタスクに関する情報です。
 
 1. 「**[!UICONTROL オファー]**」をクリックして、「**[!UICONTROL コードオファー]**」または「**[!UICONTROL 画像オファー]**」タブを選択し、操作するアセットを見つけます。
 
