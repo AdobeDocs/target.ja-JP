@@ -2,9 +2,9 @@
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
 title: adobe.target.applyOffer(options)
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
