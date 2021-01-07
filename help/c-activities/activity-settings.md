@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
+keywords: Goal & Settings;objective;priority;duration
+description: Adobe Targetのアクティビティ設定を使用して、アクティビティの目的、優先度、期間を管理します。
 title: アクティビティの設定
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# アクティビティの設定{#activity-settings}
+# アクティビティの設定
 
-アクティビティの設定を使用して、アクティビティの目標、優先度および期間を管理します。
+[!DNL Adobe Target]の[!UICONTROL アクティビティ設定]を使用して、アクティビティの目的、優先度、期間を管理します。
 
 1. アクティビティの目標に関するメモを入力します。
 
