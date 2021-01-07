@@ -1,19 +1,20 @@
 ---
-description: 同じページにコンテンツを表示するのではなく、訪問者を別のページに送る場合に、このオプションを使用します。
+kewords: redirect;redirect url;send to different page
+description: 訪問者を同じページにコンテンツを表示するのではなく別のページに送信する場合は、Adobe Targetの「URLにリダイレクト」オプションを使用します。
 title: URL にリダイレクト
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
 
-# URL にリダイレクト{#redirect-to-a-url}
+# URL にリダイレクト
 
-同じページにコンテンツを表示するのではなく、訪問者を別のページに送る場合に、このオプションを使用します。
+訪問者を同じページにコンテンツを表示する代わりに別のページに送信する場合は、[!UICONTROL 「URL]にリダイレクト」オプションを[!DNL Adobe Target]で使用します。
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。この場合、A/B テストではページ A とページ B を比較します。A/B テストキャンペーンを 2 つのエクスペリエンスで設定します。1 つはデフォルトのページ A をポイントするエクスペリエンス、もう 1 つはページ B にリダイレクトするエクスペリエンスです。エクスペリエンスに対して表示される文字のラベルをクリックして表示できるエクスペリエンスのアクションメニューで、「**[!UICONTROL URL にリダイレクト]**」を選択して、ページ B の URL を指定します。訪問者を別のページにリダイレクトするオファーが設定されます。
 
