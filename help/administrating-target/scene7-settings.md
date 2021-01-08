@@ -4,17 +4,17 @@ description: Adobe Targetは、AdobeDynamic Mediaクラシック(旧称Scene7)�
 title: Dynamic Mediaクラシック統合設定の統合
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 2e80c972e432ce97596c856dd396b8f1be05a61a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 25%
 
 ---
 
 
-# Scene7形状
+# Dynamic Mediaクラシック(旧Scene7)の設定
 
-[!DNL Adobe Target] を [!DNL Adobe Dynamic Media Classic] (旧Scene7)と統合して、 [!UICONTROL コンテンツライブラリでDigital Asset Management(DAM)を提供できます]。
+[!DNL Adobe Target] を [!DNL Adobe Dynamic Media Classic] (旧称 [!DNL Scene7])と統合して、 [!UICONTROL コンテンツライブラリでDigital Asset Management(DAM)を提供できます]。
 
 >[!NOTE]
 >
