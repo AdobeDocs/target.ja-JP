@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3283'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 12 年 1 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.1.1リリース（2021年1月20日）に関するプレリリース情報を追加しました。 |
 | 11 年 1 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 1月13日のAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報と登録情報を追加しました。 |
 | 6 年 1 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のライブウェビナーの情報と登録情報を追加しました。<ul><li>大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果です。</li></ul> |
 | 1 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲットがmbox.jsをサポートしなくなる日付を2021年1月18日から2021年3月31日に変更しました。 |
