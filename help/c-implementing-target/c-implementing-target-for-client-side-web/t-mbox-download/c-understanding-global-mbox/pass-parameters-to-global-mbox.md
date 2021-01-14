@@ -2,9 +2,9 @@
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: グローバル mbox にパラメーターを渡すには、JavaScript の targetPageParams 関数を使用します。これは、追加のターゲット設定/コンテキスト情報をAdobe Targetに渡す場合に必要です。
 title: グローバル mbox にパラメーターを渡す
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# グローバル mbox にパラメーターを渡す{#pass-parameters-to-a-global-mbox}
+# グローバル mbox にパラメーターを渡す
 
 [!DNL Adobe Target]内のグローバルmboxにパラメーターを渡すには、JavaScript `targetPageParams`関数を使用します。 これは、追加のターゲット設定/コンテキスト情報を[!DNL Target]に渡す場合に必要です。
 
