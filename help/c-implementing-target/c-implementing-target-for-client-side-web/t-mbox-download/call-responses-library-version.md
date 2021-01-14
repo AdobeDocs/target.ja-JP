@@ -1,9 +1,9 @@
 ---
 description: ページからの呼び出しに Target がどのように応答するかは、使用する Target ライブラリのバージョン、Experience Cloud 訪問者 ID 実装が存在するかどうか、および訪問者 ID があるかどうかによって異なります。
 title: mbox.js ライブラリバージョンによる Target ページ手法
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
