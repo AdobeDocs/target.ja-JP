@@ -2,9 +2,9 @@
 keywords: Release notes
 description: Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)を含む、以前のAdobe Targetリリースのリリースノートです。 リリースノートは、リリースの年月に従って新しい順に整理されています。
 title: 以前のリリースのリリースノート
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29817'
 ht-degree: 86%
@@ -60,9 +60,9 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 * アクティビティで現在使用されているモバイルビューポートを削除する際のエラーメッセージを改善。 次のようなエラーメッセージが表示されます。「このビューポートは現在、1つまたは複数のアクティビティに関連付けられています。 ビューポートを削除する前に、これらのアクティビティからビューポートを削除する必要があります。」 （TGT-37030）
 * VECでのサポートが追加され、ページ内の複数の要素に一致するcssセレクターのクリック追跡が可能になりました。 （TGT-37323）
 * 特定のユーザーが[!UICONTROL アクティビティ]リストーを表示できない問題を修正しました。 次のエラーメッセージが表示されました。&quot;URLの提案を取得できません。&quot; AdobeバックエンドシステムのFirstName (FirstName/r/n)でキャリッジリターンを使用しているユーザーに対してエラーが発生しました。 （TGT-37330）
-* ワークスペース名(]Enterprise用のAdobe Admin Console[!UICONTROL で指定)にアポストロフィが含まれる場合に、アクティビティ[!UICONTROL ページが表示されない問題を修正しました。 ]（TGT-37709）
+* ワークスペース名([!UICONTROL Enterprise用のAdobe Admin Console]で指定)にアポストロフィが含まれる場合に、アクティビティ]ページが表示されない問題を修正しました。 [!UICONTROL （TGT-37709）
 * 最適化指標とコンバージョン指標の選択中に[!UICONTROL 自動配分]アクティビティで、レポートスイートが既に指定されている場合でも、エラーメッセージが誤ってレポートスイートを選択するようにユーザーに通知する問題を修正しました。 （TGT-37689）
-* [!UICONTROL 目標と設定]ページに移動してから戻った後、[!UICONTROL ターゲット]ページに戻ると、場合に応じて、&lt;a0/>目標と設定&lt;a1/>ページの指標が空白になる問題を修正しました。 （TGT-37691）
+* [!UICONTROL 目標と設定]ページに移動してから戻った後、[!UICONTROL ターゲット]ページに戻ると、場合に応じて、目標と設定ページの指標が空白になる問題を修正しました。 （TGT-37691）
 * [!DNL Recommendations]条件の最終変更値が正しくない問題を修正しました。 （TGT-37666）
 * mbox名ではなくmboxドロップダウンリストーにmbox IDが表示される問題を修正しました。 （TGT-37739）
 
@@ -366,7 +366,7 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>[オファー](/help/c-recommendations/recommendations-as-an-offer.md#status)として&lt;a1/>Recommendationsを参照してください。 |
+| ![Premium バッジ](/help/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。(TGT-33649)<br>[オファー](/help/c-recommendations/recommendations-as-an-offer.md#status)としてRecommendationsを参照してください。 |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience CloudIDライブラリ4.3.0以降を使用](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) する必要があります。<br> [at.js 2.x でのクロスドメイントラッキングサポート](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリ 4.3 による Target での Apple の ITP 2.1 および ITP 2.2 のサポート | 現在、Target のお客様は、アドビの CNAME 証明書プログラムを利用することで、Apple の ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、ターゲットでECIDライブラリ4.3とのシームレスな統合が導入され、サーバー側のcookieを利用してITP 2.1やITP 2.2の影響を緩和します。ターゲットのお客様は、 [ECIDライブラリ4.3+をターゲットのJavaScriptライブラリと併用して導入するこ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) とを強くお勧めします。ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br> [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) を参照してください。 |
 
