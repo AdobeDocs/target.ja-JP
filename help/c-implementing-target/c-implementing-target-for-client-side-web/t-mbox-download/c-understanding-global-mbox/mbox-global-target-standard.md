@@ -2,17 +2,17 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: Target Standard は、デフォルトで target-global-mbox というグローバル mbox を作成します。この mbox は、Target Standard で作成されるアクティビティの実行に使用されます。ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を Target Standard アクティビティで使用できます。
 title: レガシー実装のグローバル mbox の使用
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
 
-# レガシー実装のグローバル mbox の使用{#use-a-global-mbox-from-a-legacy-implementation}
+# レガシー導入からのグローバルmboxの使用
 
 デフォルトでは、[!DNL Target]は、[!DNL Target]で作成されたアクティビティを実行するために使用する、ターゲット — グローバルmboxというグローバルmboxを作成します。 ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を [!DNL Target] アクティビティで使用できます。
 
