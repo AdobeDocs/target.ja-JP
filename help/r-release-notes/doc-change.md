@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 14 年 1 月 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.0 に関する情報を追加しました。 |
 | 12 年 1 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.1.1リリース（2021年1月20日）に関するプレリリース情報を追加しました。 |
 | 11 年 1 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 1月13日のAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報と登録情報を追加しました。 |
 | 6 年 1 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のライブウェビナーの情報と登録情報を追加しました。<ul><li>大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果です。</li></ul> |
