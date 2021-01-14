@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
 description: 自動セグメントレポートについて取り上げます。このレポートは、Adobe TargetのAutomated Personalization(AP)および自動ターゲット(AT)アクティビティのユーザーが使用できる2つの特殊なレポートの1つです。
 title: 自動セグメントレポート
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
