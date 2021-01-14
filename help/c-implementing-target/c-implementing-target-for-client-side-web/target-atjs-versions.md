@@ -4,7 +4,7 @@ description: Adobe Targetat.jsの各バージョンの変更について詳し�
 title: at.js のバージョンの詳細
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
 
-* 統合プロファイル/プラットフォームIDのサポートを配信API customerIdsに追加
+* 統合プロファイル/プラットフォームIDのサポートを配信APIのcustomerIdに追加しました。
 * 無効なスタイルタグ挿入を修正します。
 
 ## at.js 2.3.3（2020年11月13日）
