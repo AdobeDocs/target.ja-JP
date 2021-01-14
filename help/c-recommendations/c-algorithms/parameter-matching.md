@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
 description: 項目（エンティティ）とリクエスト（APIまたはmbox）の値を比較して、Adobe TargetRecommendationsで動的にフィルターします。
 title: Adobe TargetRecommendationsの動的包含ルールでのパラメーター一致によるフィルター
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 10%
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## パラメーターの一致の例
 
-[!UICONTROL パラメーターの] 一致を使用すると、次の例のように、ページパラメーターまたは訪問者のパラメーター（デバイスの寸法や地理的位置など）に一致するコンテンツを推奨できます。
+[!UICONTROL パラメーターの] 一致を使用すると、次の例のように、ページパラメーターまたは訪問者のパラメーター（デバイスの寸法や地域情報など）に一致するコンテンツを推奨できます。
 
 [!DNL Recommendations] は、 [!DNL Target] 呼び出しで送信されるパラメータ値と一致します。この場合、[!DNL Target]は、[!DNL Target]呼び出しで送信された画面の高さと幅のパラメーターに基づいて、訪問者がモバイルデバイスを使用していることを検出し、モバイルデバイスの項目のみを推奨します。
 
