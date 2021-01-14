@@ -2,9 +2,9 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Adobe Target でのサポート対象およびサポート対象外の at.js プラグインについて説明します。
 title: Adobe Target 用 at.js プラグイン
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# at.js プラグイン{#at-js-plug-ins}
+# at.js プラグイン
 
 Adobe Target でのサポート対象およびサポート対象外の at.js プラグインについて説明します。
 
