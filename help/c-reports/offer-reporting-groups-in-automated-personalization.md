@@ -2,9 +2,9 @@
 keywords: automated personalization;offer;reporting;group;reporting group
 description: Adobe TargetのAutomated Personalization(AP)アクティビティでのレポートグループの使用に関する情報です。
 title: Adobe TargetのAutomated Personalization(AP)アクティビティのオファーレポートグループ
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 64%
