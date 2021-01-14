@@ -2,9 +2,9 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: エンティティ属性を使用して、商品やコンテンツの情報をAdobe TargetRecommendationsに渡します。
 title: エンティティの属性
-feature: entities
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 90%
