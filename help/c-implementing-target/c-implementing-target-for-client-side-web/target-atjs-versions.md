@@ -2,9 +2,9 @@
 keywords: at.js releases;at.js versions;release notes
 description: Adobe Targetat.jsの各バージョンの変更について詳しく説明します。
 title: at.js のバージョンの詳細
-feature: release notes
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '4003'
 ht-degree: 85%
