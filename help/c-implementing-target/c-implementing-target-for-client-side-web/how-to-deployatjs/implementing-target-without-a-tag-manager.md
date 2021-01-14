@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: タグマネージャー（Adobe Launch または Dynamic Tag Management）を使用しないで Adobe Target を実装する方法について説明します。
 title: タグマネージャーを使用しない Target の実装
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 69%
@@ -12,7 +12,7 @@ ht-degree: 69%
 ---
 
 
-# タグマネージャーを使用しない Target の実装{#implement-target-without-a-tag-manager}
+# タグマネージャーを使用しない Target の実装
 
 タグマネージャー（[!DNL Adobe Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
 
