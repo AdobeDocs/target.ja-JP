@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: グローバルmboxについて取り上げます。グローバルmboxとは、Adobe Targetの実装の各Webページの上部で行われる単一のサーバー呼び出しを参照するために使用される名前です。
 title: グローバル mbox について
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# グローバル mbox について{#understand-the-global-mbox}
+# グローバル mbox について
 
 グローバル mbox について説明します。グローバル mbox とは、[!DNL Adobe Target] 実装の各 Web ページの最上部でおこなわれる単一のサーバーコールを参照するために使用される名前です。
 
