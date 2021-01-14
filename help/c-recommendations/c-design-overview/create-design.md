@@ -2,9 +2,9 @@
 keywords: recommendations design;create design;copy design
 description: デザインによって、レコメンデーションがページに表示される方法が定義されます。
 title: デザインの作成
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 32%
