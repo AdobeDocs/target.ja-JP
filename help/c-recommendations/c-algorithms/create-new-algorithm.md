@@ -2,9 +2,9 @@
 keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
 title: 条件の作成
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -165,7 +165,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->**[!UICONTROL 類似の属性を持つメディア]**&#x200B;を[レコメンデーションロジック](#info)として「&lt;a0/>項目&#x200B;]**/**[!UICONTROL 」を選択した場合は、コンテンツの類似性ルールを設定するオプションがあります。
+>**[!UICONTROL 類似の属性を持つメディア]**&#x200B;を[レコメンデーションロジック](#info)として「項目&#x200B;]**/**[!UICONTROL 」を選択した場合は、コンテンツの類似性ルールを設定するオプションがあります。
 
 コンテンツの類似性では、アイテム属性キーワードを比較し、複数の項目に共通するキーワードの数に基づいてレコメンデーションを作成します。コンテンツの類似性に基づくレコメンデーションでは、過去のデータがなくても質の高い結果が得られます。
 
