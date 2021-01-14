@@ -2,9 +2,9 @@
 keywords: Recommendations;intro;introduction;webinar;demo
 description: 以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示する Adobe Target Recommendations のアクティビティの概要です。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 title: Adobe Target での Recommendations アクティビティの概要
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 96%
@@ -129,7 +129,7 @@ ht-degree: 96%
 
 ![レコメンデーションアクティビティを構成するオーディエンス、条件およびデザインを示す図](/help/c-recommendations/assets/intro-12.png)
 
-標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。[!DNL Target]でオーディエンス](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)の構築に関する[ウェビナーを&lt;a2/>で開催しました。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
+標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。[!DNL Target]でオーディエンス](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)の構築に関する[ウェビナーをで開催しました。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
 
 Target では、条件カードという概念を使用します。条件カードは、パーソナライゼーションのレシピのようなものです。
 
