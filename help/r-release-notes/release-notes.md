@@ -4,9 +4,9 @@ description: これらのリリースノートでは、Adobe Target Standard お
 title: 'Adobe Target リリースノート（現行） '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ mbox.jsは現在サポートされていますが（2021年3月31日まで）、
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## at.js 2.3.3（2020年11月13日）
+## at.js 2.4.0（2021年1月15日）
 
 at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
 
-* mboxクリックの追跡とA4Tに関する問題を修正しました。
+* 統合プロファイル/プラットフォームIDのサポートを配信API customerIdsに追加
+* 無効なスタイルタグ挿入を修正します。
 
 ## Target Standard／Premium 20.10.1（2020 年 10 月 27 日）
 
@@ -42,7 +43,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイスの判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
+| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
