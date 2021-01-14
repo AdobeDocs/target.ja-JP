@@ -2,9 +2,9 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: このページでは、リリース順に並べられた、Adobe Targetのドキュメントに対する重要な変更をリストしています。
 title: Adobe Target 製品ドキュメントの変更
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '3283'
 ht-degree: 28%
@@ -211,7 +211,7 @@ ht-degree: 28%
 | 3月12日 | [リリースノート（最新）](/help/r-release-notes/release-notes.md#summit) | オンラインのデジタルサミット会議に、無料でアクセスできる登録情報を追加しました。 |
 | 3月9日 | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 詳しくは、「IPアドレスの最終オクテットの置き換え」の節に説明を追加しました。 |
 |  | [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | *JavaScript*&#x200B;で複数値のパラメーターを渡すので、コードサンプルを更新しました。 |
-|  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | **&#x200B;複数値の属性&#x200B;*の実装の下のAPI*&#x200B;を使用したコードサンプルを&lt;a0/>に追加しました。 |
+|  | [カスタムエンティティの属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | **&#x200B;複数値の属性&#x200B;*の実装の下のAPI*&#x200B;を使用したコードサンプルをに追加しました。 |
 | 3月4日 | [プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md) | トピック全体を更新し、「ベストプラクティス」の節を大幅に改訂しました。 |
 | 2月21日 | [ リリースノート（現行）](/help/r-release-notes/release-notes.md) | 新しいAdobe Experience Cloudナビゲーションに関する情報を追加しました。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `enabled`設定の説明を更新しました。 次の設定に関する情報を追加しました。`pageLoadEnabled`と`viewsEnabled`。 |
