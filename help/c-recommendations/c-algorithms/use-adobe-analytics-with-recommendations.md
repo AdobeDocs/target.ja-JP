@@ -2,9 +2,9 @@
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: Adobe Analyticsを行動データソースとして使用すると、クライアントはAdobe RecommendationsのAnalyticsの表示ベースおよび購入ベースの行動データを使用できます。
 title: Adobe AnalyticsとターゲットRecommendationsを使う
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Recommendationsで[条件](/help/c-recommendations/c-algorithms/create-new-algor
 
 [!DNL Analytics] データは日別フィードを介して送信されます。行動分析の結果がサイトのrecommendationsの結果に反映されるまでに最大24時間かかります。 すべての[!DNL Recommendations]条件設定と同様に、このデータソースはテストできます。
 
-どのデータソースを使用するかを迅速に判断するために、ユーザーが毎日生成するオーガニックデータが多く、履歴データへの依存度が低い場合は、[!DNL Target] mboxを行動データソースとして使用するのが最適です。 最近生成されたオーガニックデータの入手が少ない場合に、[!DNL Analytics]データを&lt;a0/>データの上に置き換えたいなら、[!DNL Analytics]を行動データソースとして使うのが適当です。
+どのデータソースを使用するかを迅速に判断するために、ユーザーが毎日生成するオーガニックデータが多く、履歴データへの依存度が低い場合は、[!DNL Target] mboxを行動データソースとして使用するのが最適です。 最近生成されたオーガニックデータの入手が少ない場合に、[!DNL Analytics]データをデータの上に置き換えたいなら、[!DNL Analytics]を行動データソースとして使うのが適当です。
 
 ### 導入手順
 
