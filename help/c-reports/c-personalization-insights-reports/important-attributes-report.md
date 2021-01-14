@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 title: 重要な属性レポート
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
