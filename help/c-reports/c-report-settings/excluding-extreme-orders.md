@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: Adobe Targetの影響を受けるレポートから極端な注文を除外して、少数の珍しい注文がアクティビティ結果に影響を与えないようにすることができます。 稀な注文の例には、個人の買い物客が個人のユニフォームを購入するのではなく、コーチがチーム全員分のユニフォームを購入する場合などがあります。
 title: Adobe Targetレポートで極端な値を除外する
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 73%
