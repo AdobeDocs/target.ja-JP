@@ -1,17 +1,18 @@
 ---
+keywords: at.js;non-production;non production;deploy
 description: 実稼動環境以外に at.js を安全にデプロイする方法に関する情報を紹介します。
-title: at.js の実稼動環境以外へのデプロイ
-feature: null
+title: at.jsの実稼働以外の環境へのデプロイ
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
 
-# at.jsを実稼働以外の環境にデプロイする{#deploy-at-js-to-a-non-production-environment}
+# at.jsの実稼働以外の環境へのデプロイ
 
 実稼動環境以外に at.js を安全にデプロイするためのテクノロジーに関する情報を紹介します。
 
