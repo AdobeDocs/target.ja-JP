@@ -4,10 +4,10 @@ description: DNLAdobe Targetの最新リリースまたは今後のリリース�
 title: Adobe Targetプレリリースノート
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 19%
+source-wordcount: '671'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 1 月 12 日**
+**最終更新日：2021 年 1 月 14 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -49,7 +49,6 @@ mbox.jsは現在サポートされていますが（2021年3月31日まで）、
 * [!UICONTROL Automated Personalization](AP)アクティビティーのオファーーからオーディエンスを削除できない問題を修正しました。 （TGT-39058）
 * 一部の顧客の[!UICONTROL オーディエンス情報]カードに正しくない時間枠(開始日と終了日)が表示される問題を修正しました。 （TGT-39150）
 * 一部のお客様が、[!UICONTROL デフォルトのワークスペース]でアクティビティのリストを確認できない問題を修正しました。 （TGT-38526）
-* [!DNL Target] UIおよびAPIのオファーのサイズ制限を1 MBに増やしました。 （TGT-38304）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
