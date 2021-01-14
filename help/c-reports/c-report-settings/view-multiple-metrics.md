@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: Adobe Targetを使用したレポートで表示する複数の指標を選択します。
 title: Adobe Targetを使用したレポートでの複数の指標の表示
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%
