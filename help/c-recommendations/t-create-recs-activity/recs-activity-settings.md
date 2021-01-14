@@ -2,9 +2,9 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
 title: Adobe Target での Recommendations アクティビティの設定
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 89%
