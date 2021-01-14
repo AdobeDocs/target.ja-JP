@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;experience performance report
 description: エクスペリエンスのパフォーマンスレポートは、アクティビティの各エクスペリエンスのパフォーマンスを表示します。このレポートには、参加者数、コンバージョン率、上昇率および信頼性についての情報が含まれています。
 title: エクスペリエンスのパフォーマンスレポート（MVT）
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%
