@@ -2,9 +2,9 @@
 keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 title: Adobe Target Recommendations デザインにプロモーションを追加します。
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
