@@ -4,17 +4,17 @@ description: Webページのターゲットライブラリ（at.jsまたはmbox.
 title: Target JavaScript ライブラリについて
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 74%
+source-wordcount: '689'
+ht-degree: 76%
 
 ---
 
 
 # [!DNL Target] JavaScript ライブラリについて 
 
-Webページで[!DNL Target]ライブラリ(Adobe Experience PlatformWeb SDK、at.jsまたはmbox.js)を参照し、&lt;a0/>を実装します。[!DNL Adobe Target]
+Webページで[!DNL Target]ライブラリ(Adobe Experience PlatformWeb SDK、at.jsまたはmbox.js)を参照し、[!DNL Adobe Target]を実装します。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Webページで[!DNL Target]ライブラリ(Adobe Experience PlatformWeb SDK、a
 
 | ライブラリリファレンス | 説明 |
 |--- |--- |
-| Adobe Experience PlatformウェブSDK | [!UICONTROL Adobe Experience PlatformWeb SDK]を使用すると、Adobe Experience Edge Networkを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスを操作できます。 [!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)とは何ですかを参照してください。 [!DNL Target]固有の情報については、[ターゲットの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)を参照してください。 |
+| Adobe Experience PlatformウェブSDK | [!UICONTROL Adobe Experience PlatformWeb SDK]を使用すると、Adobe Experience Edge Networkを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスを操作できます。 [!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)とは何ですかを参照してください。 |
 | at.js | at.jsは、[!DNL [!DNL Target]]実装のmbox.jsを置き換えます。<br>多くのメリットがある中でも、at.js は、Web 実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chrome での document.write 警告を回避し、シングルページアプリケーション向けのより優れた実装オプションを提供します。<br>詳しくは、「[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)」を参照してください。 |
 | mbox.js | [!DNL Target] 16.3.1（2016 年 3 月）以前は、[!DNL Target] がアクティビティの配信、クリックの追跡、および最も成功した指標の追跡を行うためには、[!DNL Target] が mbox.js を呼び出して必要なグローバル mbox を作成する必要がありました。mbox.js ファイルには、各アクティビティに必要なものがすべて格納されています。アクティビティごとに異なる mbox.js ファイルを管理する必要はありません。<br>古いスタイルの [!DNL Target] 実装から既にページに mbox のラッピングが含まれている場合、その mbox は、新しいインターフェイスでもそのまま使用できます。更新された mbox.js ファイルは引き続き必要になりますが、これらの mbox は、アクティビティ用に選択したり、Visual Experience Composer を使用して編集したりすることができます。<br>[!DNL Target] Standard および Premium では、target.js ファイルを参照することで mbox.js が更新および補完されます。target.js ファイルは、アドビがホストしています。target.js によって、事前定義された mbox がページに含まれていなくても、Visual Experience Composer を使用してどのページでもコンテンツの編集が可能になります。このファイルは、サイト上のすべてのページで参照する必要があります。<br>詳しくは、「[mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)」を参照してください。<br>**重要**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。 サイトに発生する可能性のある問題を回避するため、すべてのお客様に、この日より前に新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行することをお勧めします。<br> |
 
