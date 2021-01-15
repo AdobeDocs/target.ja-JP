@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: fb6edb18e19faf6e1aab0878d0e9a6e0d5a0703a
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 86%
+source-wordcount: '1575'
+ht-degree: 85%
 
 ---
 
@@ -88,6 +88,7 @@ ht-degree: 86%
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + クライアント側 Web：Target の実装 {#client-side}
       + [概要：Target をクライアント側 Web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [Adobe Experience PlatformウェブSDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js の仕組み {#at-js}
          + [at.js の仕組みの概要](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [at.js によるちらつきの制御方法](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -158,7 +159,7 @@ ht-degree: 86%
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
+      + [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [ハイブリッド実装](/help/c-implementing-target/hybrid-implementation.md)
    + 電子メール：Target の実装 {#implement-email}
       + [電子メール：Target の実装の概要](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
