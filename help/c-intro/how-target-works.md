@@ -4,10 +4,10 @@ description: Adobe Experience PlatformWeb SDK、ターゲットJavaScriptライ�
 title: Adobe Target の仕組み
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 70%
 
 Adobe Targetは、[!DNL AEP Web SDK]またはJavaScriptライブラリを使用してwebサイトと統合します。
 
-* **Adobe Experience PlatformWeb SDK:**  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKは、新しいクライアント側のJavaScriptライブラリで、 [!DNL Adobe Experience Cloud] Edgeネットワークを介して( [!DNL Experience Cloud]  [!DNL Target] [!DNL Adobe Experience Platform] 含む)様々なサービスを利用できます。[!DNL Target]固有の情報については、[ターゲットの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)を参照してください。
+* **Adobe Experience PlatformWeb SDK:**  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDKは、新しいクライアント側のJavaScriptライブラリで、 [!DNL Adobe Experience Cloud] Edgeネットワークを介して( [!DNL Experience Cloud]  [!DNL Target] [!DNL Adobe Experience Platform] 含む)様々なサービスを利用できます。
 * **at.js：**[at.js library ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) は、Target の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は推奨される実装ライブラリであり、頻繁にアップデートされて新しい機能が追加されます。すべてのお客様に対して、[at.js の最新バージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を実装するか、最新バージョンに移行することをお勧めします。
 * **mbox.js：**[mbox.js ライブラリは、Target のレガシー実装ライブラリです。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.jsライブラリは2021年3月31日までサポートされますが、機能は更新されません。
 
 >[!IMPORTANT]
 >
->すべてのお客様は、at.jsの[!DNL AEP Web SDK]または最新バージョンに移行する必要があります。 詳しくは、[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)または[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)からat.jsへの移行を参照してください。
+>すべてのお客様は、at.jsの[!DNL AEP Web SDK]または最新バージョンに移行する必要があります。 詳しくは、[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)または[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)からat.jsへの移行を参照してください。
 
 サイトの各ページで[!DNL AEP Web SDK]またはat.jsを参照する必要があります。 例えば、グローバルヘッダーにこれらのいずれかを追加できます。 または、[Adobeプラットフォームの起動](https://experienceleague.adobe.com/docs/launch/using/overview.html)を使用することを検討してください。
 
