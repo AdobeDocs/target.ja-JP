@@ -4,7 +4,7 @@ description: Adobe Target標準またはターゲットプレミアムを使用�
 title: mbox.js の実装
 feature: null
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 32%
