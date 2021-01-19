@@ -4,10 +4,10 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
@@ -65,7 +65,15 @@ ht-degree: 70%
 
 ### Recommendations
 
-Recommendations アクティビティの既知の問題は次のとおりです。
+[!UICONTROL Recommendations]アクティビティの既知の問題を次に示します。
+
+* 現在、アクティブなプロモーションで[!UICONTROL Recommendation]アクティビティをコピーする場合、重複アクティビティの変更は元のアクティビティにも影響し、逆も同様です。 （TGT-39155）
+
+   一時的な回避策として、次の手順を実行します。
+
+   * アクティビティプロモーションの無効化
+   * アクティビティの重複
+   * 各アクティビティでプロモーションを再度有効にする
 
 * フィードまたは API を介した更新がなくなって 60 日が経過するとエンティティの有効期限が切れます。ただし、有効期限が切れた後も、期限切れのエンティティはカタログ検索インデックスから削除されません。（IRI-857）
 * 条件およびデザインの「使用状況情報」オーバーレイに、A/B およびエクスペリエンスのターゲティングアクティビティでの使用状況が反映されない（TGT-34331）
