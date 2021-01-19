@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 4c952b3096de620f5ee3f10d84fa2063b4448652
+source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1583'
 ht-degree: 85%
 
 ---
@@ -88,7 +88,8 @@ ht-degree: 85%
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + クライアント側 Web：Target の実装 {#client-side}
       + [概要：Target をクライアント側 Web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + [Adobe Experience PlatformウェブSDKの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + Adobe Experience PlatformWeb SDK実装{#aep-implementation}
+         + [AEP Web SDKの概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js実装{#at-js-implementation}
          + at.js の仕組み {#at-js}
             + [at.js の仕組みの概要](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
