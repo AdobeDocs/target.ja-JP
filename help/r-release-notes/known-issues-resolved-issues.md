@@ -4,7 +4,7 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
 source-wordcount: '4337'
 ht-degree: 69%
@@ -67,7 +67,7 @@ ht-degree: 69%
 
 [!UICONTROL Recommendations]アクティビティの既知の問題を次に示します。
 
-* 現在、アクティブなプロモーションで[!UICONTROL Recommendation]アクティビティをコピーする場合、重複アクティビティの変更は元のアクティビティにも影響し、逆も同様です。 （TGT-39155）
+* [!UICONTROL レコメンデーション]アクティビティをアクティブなプロモーションと共にコピーする場合、重複アクティビティの変更は現在のところ元のアクティビティにも影響し、逆も同様です。 （TGT-39155）
 
    一時的な回避策として、次の手順を実行します。
 
