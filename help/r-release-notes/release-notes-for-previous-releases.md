@@ -4,10 +4,10 @@ description: Target Standard/Premiumのリリースノート、ターゲット�
 title: 以前のリリースのリリースノート
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '29817'
-ht-degree: 86%
+source-wordcount: '30246'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,37 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 >
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
+## リリースノート - 2021 年
+
+### at.js 2.4.0（2021年1月15日）
+
+at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
+
+* 統合プロファイル/プラットフォームIDのサポートを配信APIのcustomerIdに追加しました。
+* 無効なスタイルタグ挿入を修正します。
+
 ## リリースノート - 2020 年
+
+### Target Standard／Premium 20.10.1（2020 年 10 月 27 日）
+
+このリリースには、次の新機能が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
+
+このリリースには、次の機能強化、修正および変更が含まれています。
+
+* [!UICONTROL 平均上昇率の信頼区間]と[!UICONTROL 信頼性]が[!DNL Auto-Target]レポートーに表示されない[!UICONTROL 合計]行の問題を修正しました。 測定値は、すべてのエクスペリエンスで正しく表示されました。 （TGT-37301）
+* 9月15日午後2時30分以降の[!DNL Adobe Target Premium]ユーザーの[!UICONTROL 自動ターゲット]レポートに影響する問題を修正しました。(PDT)～10月6日午前9時25分(PDT)。 影響を受けたコンバージョン指標のレポート（「[!UICONTROL ページ]を表示した」または「[!UICONTROL mbox]をクリックした」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。 レポートを再同期して修正する方法について詳しくは、*既知の問題と解決された問題*&#x200B;の&#x200B;*解決された問題*&#x200B;の[自動ターゲットレポート](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)を参照してください。
+* [!UICONTROL カタログ検索]テーブルの選択可能な[!UICONTROL 最終更新日]列と[!UICONTROL 最終更新日]フィルターが追加されました。 この機能強化により、個々の項目を開いて最後に更新された日時を確認する必要がなく、項目が最後に更新された日時でフィルターできるので、時間と労力を節約できます。
+
+   ![列とフィルターの図での最終更新](/help/r-release-notes/assets/column-and-filter.png)
+
+* ターゲットUIが[Webコンテンツアクセシビリティガイドライン](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0レベルAおよびAA成功基準(WCAG 2.0 AA)に準拠するように更新されました。 （TGT-34384 および TGT-24679）
+* コンテンツセキュリティポリシー(CSP)の機能が強化されました。 （TGT-37035）
+* CNAMEを使用するお客様のパラメーターとしてクライアントコードを指定する方法が導入されました。 （TNT-38571）
+* [!DNL Adobe Experience Cloud] ドキュメントの移動先 [!DNL Experience League]。10月中に、すべてのリリースノート、記事、ビデオ、およびチュートリアルが現在の場所(`docs.adobe.com`)から[!DNL Experience League]に移動します。 この移行により、すべての学習、セルフヘルプ、イネーブルメント、コミュニティのコンテンツが1か所で提供されます。 この変更が発生した場合は、すべてのリンクが[!DNL Experience League]にリダイレクトされるので、必要な作業はありません。 カウントオーバーが始まったら、リリースノートを更新します。
 
 ### Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
 
