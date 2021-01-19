@@ -4,10 +4,10 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 28%
+source-wordcount: '3387'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,15 @@ ht-degree: 28%
 # ドキュメントの変更点{#documentation-changes}
 
 このページでは、[!DNL Adobe Target]製品ドキュメントに対して行われた重要な変更をリストしています。
+
+## Adobe Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 19 年 1 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲット21.1.1リリース（2021年1月19日）に関する情報を追加しました。 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID`パラメーターのテキストを更新しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | [!UICONTROL Recommendation]アクティビティをアクティブなプロモーションでコピーする際の既知の問題を追加しました。 重複アクティビティを変更すると元のアクティビティにも影響し、逆も同様です。 一時的な回避策が含まれます。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：21.1.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 20.10.1（2020 年 10 月 28 日） 
 
