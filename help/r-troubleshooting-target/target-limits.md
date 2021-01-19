@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: 制限
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 制限{#limits}
+# 制限
 
-Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
+文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。[!DNL Adobe Target] でのアクティビティやその他の要素に影響する情報を含みます。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Adobe Target のアクティビティやその他の要素に影響を与える�
 >
 >「推奨」として指定された制限に近づいたり、これらの制限を超えたりした場合、パフォーマンスが低下する可能性があります。また、多くのオーディエンス、ターゲットおよびエクスペリエンスがすべて 1 つのアクティビティに含まれるなど、非常に複雑なアクティビティが原因で、インターフェイスの読み込み時間が遅くなる可能性があります。
 >
->非常に複雑なアクティビティは、アドビコンサルティングによる確認をおこない、実稼動環境にリリースする前に制限された環境でテストする必要があります。
+>非常に複雑なアクティビティは、[!DNL Adobe]コンサルティングを使用して確認し、実稼働環境にリリースする前に限られた環境でテストする必要があります。
 
 ## アクティビティ
 
@@ -194,9 +194,7 @@ mbox v2のバッチ：
 
 ## productPurchasedId パラメーター
 
-**上限**：コンマ区切り値あたり 47 文字。
-
-これより長い分は切り捨てられます。
+**制限**:コンマ区切り値あたり47文字、合計250文字。47文字を超える個々の値は、切り捨てられる場合があります。 長さの合計が250文字を超えると、400エラーになる場合があります。
 
 ## プロファイルスクリプト
 
