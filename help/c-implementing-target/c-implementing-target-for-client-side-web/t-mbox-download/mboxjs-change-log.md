@@ -4,10 +4,10 @@ description: このページには、mbox.js の各バージョンに対する�
 title: mbox.js のバージョンの詳細
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 98%
+source-wordcount: '2393'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 # mbox.js のバージョンの詳細{#mbox-js-version-details}
 
 このページには、mbox.js の各バージョンに対する変更が表示されます。
+
+>[!IMPORTANT]
+>
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>
+>サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 >[!NOTE]
 >
