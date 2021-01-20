@@ -4,10 +4,10 @@ description: mbox.js の設定ページでいくつかの設定をおこなう�
 title: mbox.js を設定
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 74%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 91%
 # mbox.js を設定
 
 mbox.js の設定ページでいくつかの設定をおこなう方法を説明します。
+
+>[!IMPORTANT]
+>
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>
+>サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 [!DNL mbox.js] 関数ライブラリのデフォルト設定は、ほとんどの [!DNL Target] 顧客のニーズに対応しています。
 
