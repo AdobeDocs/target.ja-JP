@@ -3,10 +3,10 @@ description: ページからの呼び出しに Target がどのように応答�
 title: mbox.js ライブラリバージョンによる Target ページ手法
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 92%
 
 ---
 
@@ -14,6 +14,12 @@ ht-degree: 100%
 # mbox.js ライブラリバージョンによる Target ページ手法{#target-page-methods-by-mbox-js-library-version}
 
 ページからの呼び出しに Target がどのように応答するかは、使用する Target ライブラリのバージョン、Experience Cloud 訪問者 ID 実装が存在するかどうか、および訪問者 ID があるかどうかによって異なります。
+
+>[!IMPORTANT]
+>
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>
+>サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 >[!NOTE]
 >
