@@ -4,9 +4,9 @@ description: Adobe Targetスキルビルダーセッション、デベロッパ�
 title: ターゲットのお知らせ
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,6 @@ Adobe Target氏は最近、フォレスター氏とガートナー氏の両方�
 | --- | --- |
 | フォレスター | **Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。**<br> Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。**<br> Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
-
-## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
-
-* **Wednesday, January 13**
-* **午前8時（太平洋標準時） |午前10時CT | 11 a.m.東部標準時**
-* **期間：60分**
-* **[詳細については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
-
-Adobe Targetの上級プロダクトマネージャ、ロバート・カランギュ氏が参加します。彼はAdobe Targetコミュニティにサインインし、彼の専門分野に関するAdobe Targetの質問について、このスレッドで直接お話しします。
-
-* ターゲット設定と管理UI
-* A4Tの統合
-* AEMの統合
-* 一般的なAdobe TargetUI
-* [このイベントへの登録](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/)時に含める質問への回答&lt;a0/> （ただし、オプション）
 
 ## ウェビナー：大規模なパーソナライゼーションの成功：Forrester Wave、エクスペリエンス最適化プラットフォームの主な結果
 
@@ -69,7 +54,7 @@ Adobe Targetの上級プロダクトマネージャ、ロバート・カラン�
 
 マッキンゼイ・デジタルは、「消費者とビジネスのデジタル採用に5年間、約8週間の間に成果が上がった」と報じた。 *
 
-消費者の需要は急速に発展しつつあり、HSBCはAdobe Targetとの最適化を受け入れ、新しいお客様の遍歴を迅速にテストしパーソナライズし、6ヶ月から1週間に短縮しています。
+消費者の需要は急速に発展しつつあり、HSBCはAdobe Targetとの最適化を受け入れ、新しい顧客ジャーニーを迅速にテストおよびパーソナライズし、6ヶ月から1週間に短縮しています。
 
 このウェビナーでAdobeとHSBCに参加して次のことを学ぶ：
 
