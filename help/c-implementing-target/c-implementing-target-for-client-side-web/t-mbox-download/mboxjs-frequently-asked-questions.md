@@ -4,10 +4,10 @@ description: mbox.js に関するよくある質問への回答を紹介しま�
 title: mbox.js に関するよくある質問
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 98%
+source-wordcount: '398'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 # mbox.js に関するよくある質問{#mbox-js-frequently-asked-questions}
 
 mbox.js に関するよくある質問への回答を紹介します。
+
+>[!IMPORTANT]
+>
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>
+>サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 ## mbox.js はページ読み込み時間にどのように影響しますか。{#section_90B3B94FE0BF4B369577FCB97B67F089}
 
