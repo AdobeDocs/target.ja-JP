@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3395'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 20 年 1 月 | [Adobe Experience PlatformウェブSDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新規トピックです。 |
 | 19 年 1 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲット21.1.1リリース（2021年1月19日）に関する情報を追加しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID`パラメーターのテキストを更新しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | [!UICONTROL Recommendation]アクティビティをアクティブなプロモーションでコピーする際の既知の問題を追加しました。 重複アクティビティを変更すると元のアクティビティにも影響し、逆も同様です。 一時的な回避策が含まれます。 |
