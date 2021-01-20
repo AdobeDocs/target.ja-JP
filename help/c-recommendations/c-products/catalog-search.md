@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Adobe Target でカタログ検索を使用すると、カタログ内の製品やコンテンツを探すことができます。
-title: Adobe Target のカタログ検索
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Recommendationsカタログ検索を使用して、商品やコンテンツの検索、コレクションや除外の作成、カタログからの項目の削除などを行う方法について説明します。
+title: Recommendationsカタログ検索の使い方
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) カタログ検索 {#catalog-search}
+# ![PREMIUMCatalog](/help/assets/premium.png) 検索
 
-[!UICONTROL カタログ検索]ページを使用すると、カタログ内の商品やコンテンツを探すことができます。
+[!DNL Adobe Recommendations]の[!UICONTROL カタログ検索]ページを使用すると、カタログ内の商品やコンテンツを探すことができます。 このページで実行できる最も基本的なタスクは、アイテムを検索することです。 また、環境の変更、検索結果のコレクションまたは除外への保存、フィルターファセットの追加、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
 
-カタログは、製品セット（エンティティ）全体を参照します。 カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。
+カタログは、製品セット（エンティティ）全体を参照します。 カタログには多数のコレクションを含めることができ、商品を論理的なグループにまとめて整理できます。
+
+## カタログ検索へのアクセス
 
 [!UICONTROL カタログ検索]ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL カタログ検索]**&#x200B;をクリックします。
 
 ![カタログ検索ページ](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-このページで実行できる最も基本的なタスクは、アイテムを検索することです。 さらに、環境を変更できます。検索結果をコレクションまたは除外に保存するテーブルの列の追加、削除または整列、新しい検索ファセットの[!UICONTROL フィルター]パネルへの追加を行います。
 
 ## 項目の検索
 
@@ -59,7 +59,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >数値を持つカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型として処理されます。
+   >数値を持つカスタム属性に対してカタログ検索を実行すると、結果では、カスタム属性が数値ではなく文字列タイプとして処理されます。
    >
    >現在、属性のタイプを変更できる機能はありません。 変更を行うには、[顧客の問題](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)を開き、型を文字列から数値に変更する必要がある属性を参照します。
 
@@ -153,7 +153,7 @@ ID、名前、メッセージ、カテゴリなど、個々のアイテムの詳
 
    ![フィルターの変更リンク](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 目的の検索ファセット（ID、名前、メッセージなど）を選択します。
+1. 目的の検索ファセット（ID、名前、メッセージなど）を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![フィルターを追加](/help/c-recommendations/c-products/assets/add-filters.png)
 
