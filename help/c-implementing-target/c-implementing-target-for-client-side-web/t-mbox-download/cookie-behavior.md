@@ -4,10 +4,10 @@ description: Cookie の動作は、その Cookie がファーストパーティ 
 title: mbox.js の Cookie
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 99%
+source-wordcount: '1638'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 99%
 Cookie の動作は、その Cookie がファーストパーティ Cookie であるか、ファーストパーティ Cookie を伴うサードパーティ Cookie であるか、サードパーティ Cookie のみであるかによって異なります。
 
 >[!IMPORTANT]
+>
+>**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>
+>サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
+
+>[!NOTE]
 >
 >このトピックには、`mboxSession` および `mboxPC` に関する情報が含まれています。実装に関するアドビのベストプラクティスでは、Cookie データ（`mboxSession` または `mboxPC`）に機密情報をリンクしたり格納したりしないことが推奨されています。
 
