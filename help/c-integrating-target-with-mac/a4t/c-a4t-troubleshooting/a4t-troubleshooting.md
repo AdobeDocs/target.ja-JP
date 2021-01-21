@@ -4,10 +4,10 @@ description: このトピックでは、Analytics を Target のレポートソ�
 title: Analytics と Target の統合（A4T）のトラブルシューティング
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,13 +32,27 @@ ht-degree: 80%
 
    [カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
+「未指定」行を「ターゲットの分析」ディメンションで分類し、アクティビティIDが含まれていない場合は、すべてが正しく分類されることを意味します。  アクティビティIDがここに表示されている場合は、分類の問題を示す役割を果たします。
+
 >[!NOTE]
 >
 >新しいアクティビティが追加されてその分類が完了していないことが原因で、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかりることに注意してください。
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
-## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。 {#section_4BE374E573D44FB7918611699B74F58E}
+
+## A4Tアクティビティレポートには、「未指定」のイベントが多数含まれる行が含まれます。{#added_unspecified_events}
+
+データの表示に使用する指標に応じて、レポートに「未指定」のイベント行が表示される場合があります。
+
+通常、この行は、ターゲット固有ではないレポート内の一般的な指標(ページの表示数、訪問回数、個別訪問者数など)を選択した場合に表示されます。
+この場合、「未指定」行には、ターゲットアクティビティに関連付けられていないすべてのページ表示、訪問および実訪問者が含まれます。
+その行には、ターゲットに関連する情報(訪問者、訪問、インプレッションなど)は含まれません。 詳しくは、*Analyticsテクニカルノート*&#x200B;のレポート](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)の「未指定」、「なし」、「その他」および「不明」を参照してください。[
+
+レポートでターゲット固有の指標を選択した場合、その行は表示されません。
+レポート内にこのイベントを完全に含めない唯一の方法は、そのページから送信されるすべてのリクエストに対してターゲット呼び出しを設定することです。これは一般的でも必要でもありません。
+
+## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。{#section_4BE374E573D44FB7918611699B74F58E}
 
 詳しくは、[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)を参照してください。
 
@@ -46,7 +60,7 @@ ht-degree: 80%
 
 上昇率と信頼性の詳細は、Analytics では利用できません。ただし、これらの詳細は Target レポートで利用できます。
 
-## Analytics レポートにアクティビティが表示されません。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Analytics レポートにアクティビティが表示されません。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。詳しくは、[Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照し、Analytics トラッキングサーバーが正しく設定されていることを確認してください。
 
