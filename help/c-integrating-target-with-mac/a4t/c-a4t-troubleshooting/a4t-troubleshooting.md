@@ -4,15 +4,15 @@ description: このトピックでは、Analytics を Target のレポートソ�
 title: Analytics と Target の統合（A4T）のトラブルシューティング
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Analytics と Target の統合（A4T）のトラブルシューティング{#troubleshoot-the-analytics-and-target-integration-a-t}
+# Analytics と Target の統合（A4T）のトラブルシューティング
 
 このトピックでは、Analytics を Target のレポートソースとして使用する場合（A4T）に発生する一般的な問題について説明します。
 
@@ -40,17 +40,15 @@ ht-degree: 63%
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
-
 ## A4Tアクティビティレポートには、「未指定」のイベントが多数含まれる行が含まれます。{#added_unspecified_events}
 
-データの表示に使用する指標に応じて、レポートに「未指定」のイベント行が表示される場合があります。
+データの表示に使用する指標に応じて、レポートに「[!UICONTROL 未指定]」イベント行が表示される場合があります。
 
-通常、この行は、ターゲット固有ではないレポート内の一般的な指標(ページの表示数、訪問回数、個別訪問者数など)を選択した場合に表示されます。
-この場合、「未指定」行には、ターゲットアクティビティに関連付けられていないすべてのページ表示、訪問および実訪問者が含まれます。
-その行には、ターゲットに関連する情報(訪問者、訪問、インプレッションなど)は含まれません。 詳しくは、*Analyticsテクニカルノート*&#x200B;のレポート](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)の「未指定」、「なし」、「その他」および「不明」を参照してください。[
+通常、[!DNL Target]固有ではない一般的な指標をレポートで選択すると([!UICONTROL ページ表示]、[!UICONTROL 訪問回数]、[!UICONTROL 個別訪問者数]など)、この行が表示されます。 この場合、[!UICONTROL &quot;未指定&quot;]行には、[!DNL Target]アクティビティに関連付けられていない[!UICONTROL ページ表示]、[!UICONTROL 訪問回数]、[!UICONTROL 個別訪問者]がすべて含まれます。
 
-レポートでターゲット固有の指標を選択した場合、その行は表示されません。
-レポート内にこのイベントを完全に含めない唯一の方法は、そのページから送信されるすべてのリクエストに対してターゲット呼び出しを設定することです。これは一般的でも必要でもありません。
+その行には[!DNL Target]に関連付けられた情報は含まれません(例：訪問者、訪問、インプレッションなし)。 詳しくは、*Analyticsテクニカルノート*&#x200B;のレポート](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)の「未指定」、「なし」、「その他」および「不明」を参照してください。[
+
+レポートで[!DNL Target]固有の指標を選択した場合、[!UICONTROL &quot;未指定&quot;]行は表示されません。 レポートに完全に含まれないようにする唯一の方法は、そのページから送られるすべてのリクエストに対して[!DNL Target]呼び出しを設定することです。これは一般的でも必要でもありません。
 
 ## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。{#section_4BE374E573D44FB7918611699B74F58E}
 
