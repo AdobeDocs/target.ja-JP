@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3442'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 21 年 1 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次の節を追加しました。&quot;A4Tアクティビティレポートに、多数の&quot;未指定&quot;イベントを含む行が含まれます。&quot; |
+|  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 次の節を更新しました。「Analyticsレポートに「未指定」と表示されるのはなぜですか？ どういう意味だ？」 |
 | 20 年 1 月 | [Adobe Experience PlatformウェブSDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新規トピックです。 |
 | 19 年 1 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | ターゲット21.1.1リリース（2021年1月19日）に関する情報を追加しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID`パラメーターのテキストを更新しました。 |
