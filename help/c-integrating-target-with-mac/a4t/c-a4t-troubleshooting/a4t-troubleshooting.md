@@ -4,10 +4,10 @@ description: このトピックでは、Analytics を Target のレポートソ�
 title: Analytics と Target の統合（A4T）のトラブルシューティング
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 80%
 
 ---
 
@@ -38,16 +38,7 @@ ht-degree: 71%
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
-## A4Tアクティビティレポートには、「未指定」のイベントが多数含まれる行が含まれます。{#added_unspecified_events}
-
-データの表示に使用する指標に応じて、表示されるイベント行は常に未指定です。\
-ターゲットのみの指標を使用する場合、その「未指定」の行は表示されません。
-より一般的な指標を使用する場合は、その行がレポートに再度表示されます。
-
-「未指定」の行項目には、ターゲットに関連する情報は含まれません(例：訪問者/訪問回数/インプレッション数なし)。\
-レポートに表示しない唯一の方法は、ページから送信されるすべてのリクエストにターゲットを設定することです。これは意味がありません。
-
-## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。{#section_4BE374E573D44FB7918611699B74F58E}
+## Analytics データにて、A4T を開始してから訪問または訪問カウントが水増しされています。 {#section_4BE374E573D44FB7918611699B74F58E}
 
 詳しくは、[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)を参照してください。
 
@@ -55,7 +46,7 @@ ht-degree: 71%
 
 上昇率と信頼性の詳細は、Analytics では利用できません。ただし、これらの詳細は Target レポートで利用できます。
 
-## Analytics レポートにアクティビティが表示されません。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Analytics レポートにアクティビティが表示されません。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。詳しくは、[Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照し、Analytics トラッキングサーバーが正しく設定されていることを確認してください。
 
