@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3454'
+source-wordcount: '3455'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 22 年 1 月 | [コンバージョン率](/help/c-reports/conversion-rate.md#t-test) | 次の節を追加しました。「なぜターゲットは生徒のt検定を使うの？」 |
+| 22 年 1 月 | [コンバージョン率](/help/c-reports/conversion-rate.md#t-test) | 次の節を追加しました。「ターゲットがスチューデントのtテストを使うことを推奨する理由は何ですか？」 |
 | 21 年 1 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次の節を追加しました。&quot;A4Tアクティビティレポートに、多数の&quot;未指定&quot;イベントを含む行が含まれます。&quot; |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 次の節を更新しました。「Analyticsレポートに「未指定」と表示されるのはなぜですか？ どういう意味だ？」 |
 | 20 年 1 月 | [Adobe Experience PlatformウェブSDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新規トピックです。 |
