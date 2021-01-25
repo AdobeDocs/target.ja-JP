@@ -4,10 +4,10 @@ description: Adobe Recommendations Classic ドキュメント。
 title: Adobe Recommendations Classic ドキュメント。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 82%
+source-wordcount: '101'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] は、レガシー製品です。最良の[!DNL Recommendations]エクスペリエンスを得るには、[Adobe Targetプレミアム](/help/c-intro/intro.md)で使用できる[!DNL Recommendations]アクティビティにアップグレードしてください。
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなります。最良の[!DNL Recommendations]エクスペリエンスを得るには、[Adobe Targetプレミアム](/help/c-intro/intro.md)で使用できる[!DNL Recommendations]アクティビティにアップグレードしてください。
 
 Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
