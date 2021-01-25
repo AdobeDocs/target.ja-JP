@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Adobe Target の概要
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Target Premium には次のようなプレミアム機能があります。
 [Enterprise User ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)  [!DNL Adobe Admin Console for Enterprise]Permissions機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、そのユーザーのアクセス権限を指定する1人のユーザーに対して異なる権限を割り当てることができます。これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] は、レガシー製品です。最良の[!DNL Recommendations]体験を得るには、上述の[!DNL Adobe Target Premium]で使用できる[!DNL Recommendations]アクティビティにアップグレードしてください。
 
 [!DNL Recommendations Classic] は、Web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
