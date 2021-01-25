@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Adobe Target の概要
 feature: intro
 translation-type: tm+mt
-source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 85%
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -84,7 +84,7 @@ Target Premium には次のようなプレミアム機能があります。
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] は、レガシー製品です。最良の[!DNL Recommendations]体験を得るには、上述の[!DNL Adobe Target Premium]で使用できる[!DNL Recommendations]アクティビティにアップグレードしてください。
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなります。最良の[!DNL Recommendations]体験を得るには、上述の[!DNL Adobe Target Premium]で使用できる[!DNL Recommendations]アクティビティにアップグレードしてください。
 
 [!DNL Recommendations Classic] は、Web サイトでの以前のユーザーアクティビティに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 
