@@ -2,9 +2,9 @@
 keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: トレーニングビデオでは Target Standard と Target Premium を最大限に活用する方法を説明しています。
 title: Adobe Target Standard および Premium のトレーニングビデオ
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 72%
