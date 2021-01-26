@@ -2,9 +2,9 @@
 keywords: training;certification;target;online courses;courses;class;classes
 description: Adobeトレーニングサービスは、Adobe Targetを含むAdobe製品とソリューションに関するクラスと認定資格を提供します。
 title: Adobe Targetを含むAdobe製品およびソリューションのトレーニングと認定
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 48%
