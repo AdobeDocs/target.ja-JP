@@ -4,10 +4,10 @@ description: リモートオファーを使用して外部コンテンツをホ�
 title: リモートオファーを作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 57%
+source-wordcount: '843'
+ht-degree: 58%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 57%
 
 次の情報は、2つのオプションの違いを理解するのに役立ちます。
 
-### キャッシュされたURLの種類
+### キャッシュURL
 
 キャッシュされたリモートオファーが [!DNL Target] から提供されます。
 
@@ -92,7 +92,7 @@ ht-degree: 57%
 
 キャッシュされたリモートオファーには、絶対または相対 URL を指定することができます。
 
-### 動的URLタイプ
+### 動的URL
 
 動的リモートオファーは、[!DNL Target] から提供されるのではなく、コンテンツ管理または他のシステムから提供されます。
 
