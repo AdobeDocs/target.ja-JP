@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の上昇率と信頼性に関するよくある質問に対する回答が含まれています。
 title: 上昇率と信頼性 - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
