@@ -2,9 +2,9 @@
 keywords: target user interface;user interface;ui
 description: Adobe Targetのユーザーインターフェイスについて
 title: ターゲットのUIについて
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -64,7 +64,7 @@ ht-degree: 28%
 
 ![アクティビティリスト](/help/c-intro/assets/activities-list.png)
 
-[!DNL Target]で利用可能なアクティビティの種類に関する詳細は、[アクティビティ](/help/c-activities/activities.md)を参照してください。また、[!UICONTROL アクティビティ]リストのユーザーインターフェイスに関する詳細は、&lt;a0/>&lt;a1/>を参照してください。
+[!DNL Target]で利用可能なアクティビティの種類に関する詳細は、[アクティビティ](/help/c-activities/activities.md)を参照してください。また、[!UICONTROL アクティビティ]リストのユーザーインターフェイスに関する詳細は、を参照してください。
 
 ## オーディエンス
 
@@ -74,7 +74,7 @@ ht-degree: 28%
 
 オーディエンスは、ターゲットアクティビティが表示される、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。[!UICONTROL オーディエンス]機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲットし、適切なメッセージを適切な担当者に適切なタイミングで表示することで、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスの一部として識別された場合、[!DNL Target]は、アクティビティの作成時に定義された条件に基づいて、どのエクスペリエンスを表示するかを決定します。
 
-[!DNL Target]のオーディエンスタイプに関する詳細は、[オーディエンスの作成](/help/c-target/c-audiences/create-audience.md)を参照してください。また、[!UICONTROL オーディエンス]リストのユーザーインターフェイスに関する詳細は、&lt;a0/>の作成&lt;a1/>を参照してください。
+[!DNL Target]のオーディエンスタイプに関する詳細は、[オーディエンスの作成](/help/c-target/c-audiences/create-audience.md)を参照してください。また、[!UICONTROL オーディエンス]リストのユーザーインターフェイスに関する詳細は、の作成を参照してください。
 
 ## オファー
 
@@ -84,7 +84,7 @@ ht-degree: 28%
 
 エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。[!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
 
-[!DNL Target]のオファータイプに関する詳細は、[オファー](/help/c-experiences/c-manage-content/manage-content.md)を参照してください。また、[!UICONTROL オファー]リストのユーザーインターフェイスに関する詳細は、&lt;a0/>&lt;a1/>を参照してください。
+[!DNL Target]のオファータイプに関する詳細は、[オファー](/help/c-experiences/c-manage-content/manage-content.md)を参照してください。また、[!UICONTROL オファー]リストのユーザーインターフェイスに関する詳細は、を参照してください。
 
 ## Recommendations
 
@@ -98,7 +98,7 @@ ht-degree: 28%
 
 [!UICONTROL Recommendations] のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
-[!DNL Target]の[!UICONTROL Recommendations]に関する詳細は[Recommendations](/help/c-recommendations/recommendations.md)を参照してください。[!UICONTROL Recommendations]のユーザーインターフェイスに関する詳細は、&lt;a0/>&lt;a1/>を参照してください。
+[!DNL Target]の[!UICONTROL Recommendations]に関する詳細は[Recommendations](/help/c-recommendations/recommendations.md)を参照してください。[!UICONTROL Recommendations]のユーザーインターフェイスに関する詳細は、を参照してください。
 
 ## 管理
 
