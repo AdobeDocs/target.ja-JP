@@ -4,10 +4,10 @@ description: Target Standard/Premiumのリリースノート、ターゲット�
 title: 以前のリリースのリリースノート
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '30246'
-ht-degree: 85%
+source-wordcount: '30551'
+ht-degree: 84%
 
 ---
 
@@ -24,6 +24,24 @@ Target Standard/Premiumのリリースノート、ターゲットプラットフ
 
 ## リリースノート - 2021 年
 
+### Target Standard／Premium 21.1.1（2021 年 1 月 20 日）
+
+このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
+
+括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+* [!UICONTROL Analyticsを[!UICONTROL 自動ターゲット]アクティビティーでレポートソース](A4T)として使用する場合の[!DNL Adobe Analytics]指標の選択時に警告を追加しました。 [!UICONTROL 自動ター] ゲットモデルは、バイナリ（コンバージョンベース）の指標を扱うように最適化されています。売上高などの連続した指標を選択すると、最適でない結果が生じる可能性があり、[!UICONTROL パーソナライゼーションインサイト]レポートが正確でない場合があります。 （TGT-38926）
+* A4Tを使用する[!UICONTROL 自動ターゲット]アクティビティの[!UICONTROL 自動ターゲットの概要]レポートにステータスアイコンを追加しました。 レポートの各エクスペリエンスの横にある緑のチェックアイコンは、対象のエクスペリエンス用にパーソナライズされた機械学習モデルが作成されたことを意味します。時計アイコンは、トラフィックの量が不十分でモデルがまだ作成されていないことを意味します。（TGT-38925）
+* [!UICONTROL 自動セグメント]および[!UICONTROL 重要な属性]レポートは、[!UICONTROL A4Tおよび[!DNL Analytics]コンバージョン指標を使用する自動ターゲット]アクティビティ用に生成され、レポートソースとして[!DNL Target]を使用した場合と同じように見えます。 （TGT-38931）
+* [!UICONTROL Recommendations] [!UICONTROL コレクション]リストに環境フィルターオプションを追加しました。 （TGT-38353）
+* [!UICONTROL Recommendations]コレクションに正しくない製品数が表示される問題を修正しました。 （TGT-39162）
+* [!UICONTROL 最終更新日]フィルターを[!UICONTROL Recommendations] [!UICONTROL カタログ検索]に追加しました。 （TGT-38340）
+* [!UICONTROL Recommendations]で、業種を変更すると[!UICONTROL シーケンスを作成]ページがハングする問題を修正しました。 （TGT-38160）
+* Device Co-opが有効で、アクティビティが[!DNL Target]から[!DNL Analytics](A4T)にレポートソースとして変更された場合に、デバイスを保存できない問題を修正しました。 （TGT-38163）
+* [!UICONTROL Automated Personalization](AP)アクティビティーのオファーーからオーディエンスを削除できない問題を修正しました。 （TGT-39058）
+* 一部の顧客の[!UICONTROL オーディエンス情報]カードに正しくない時間枠(開始日と終了日)が表示される問題を修正しました。 （TGT-39150）
+* 一部のお客様が、[!UICONTROL デフォルトのワークスペース]でアクティビティのリストを確認できない問題を修正しました。 （TGT-38526）
+
 ### at.js 2.4.0（2021年1月15日）
 
 at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
@@ -39,7 +57,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
+| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
