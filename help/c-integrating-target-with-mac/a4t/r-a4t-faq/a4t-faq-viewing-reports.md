@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合のレポートの表示に関するよくある質問に対する回答が含まれています。
 title: レポートの表示 - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 53%
@@ -101,14 +101,14 @@ A4Tレポートでの指標の標準化には、いくつかのオプション�
 
 | アクティビティ名 | インスタンス数（インプレッション数） | ページビュー数 | 訪問回数 | 実訪問者数 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 1 | 3 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 3 | 3 |
 
 その後、ユーザーは 4 月 1 日に戻り、別の 5 ページを表示して、買い物をしました。最初の eVar 値の 90 日の有効期限は 4 月 1 日にリセットされたので、レポートに表示されます。そして、ユーザーに表示されるすべての Target アクティビティは、コンバージョンのクレジットを受け取りますが、コンバージョンの合計は重複除外されます。
 
 | アクティビティ名 | インスタンス数（インプレッション数） | ページビュー数 | 訪問回数 | 実訪問者数 | 購入回数 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
 | ABC | 3 | 10 | 2 | 3 | 3 |
 | 合計 | 2 | 20 | 3 | 3 | 3 |
 
