@@ -2,9 +2,9 @@
 keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
 description: ターゲットとAudience Managerの統合により、Audience ManagerセグメントをAdobe Targetに送信できます
 title: ターゲットとAdobe Audience Manager(AAM)の統合
-feature: aam
+feature: Integrations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
