@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
 title: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 詳しくは、[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 
-**ヘルプヒント**:ユーザーを追加する際に、以前にチームメンバーの名前が組織に追加されていない場合（サードパーティのエージェンシー従業員の場合など）は、電子メールアドレスとパスワードを入力すると、チームのワークスペースに招待する電子メールが送信されます。
+**ヘルプヒント**:ユーザーを追加する際に、以前にチームメンバーの名前が組織に追加されていない場合（サードパーティのエージェンシー従業員の場合など）、電子メールアドレスとパスワードを入力すると、チームのワークスペースへの招待メールがトリガーされます。
 
 Target Standardを使用する場合 読み取り専用、編集者、承認者の役割を持つユーザーには、[3つのレベルのアクセス](/help/administrating-target/c-user-management/c-user-management/user-management.md)を割り当てることができます。
 
-## ヒント6:遍歴の各ページでオファーのパフォーマンスをテストし、顧客の遍歴を通してどのように測定するかを知る。
+## ヒント6:ジャーニー内の各ページでオファーのパフォーマンスをテストし、顧客ジャーニー全体でどのように動作するかを見つけます。
 
-送料無料などのオファーが、Webサイト上の複数のページで行われる顧客の遍歴の中でどのように動作するかを確認できます。
+Webサイト上の複数のページで行われる顧客ジャーニー中の、送料無料などのオファーのパフォーマンスを確認します。
 
 詳細な手順については、[複数ページのアクティビティ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)を参照してください。
 
