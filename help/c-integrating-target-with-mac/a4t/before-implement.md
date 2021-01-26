@@ -2,9 +2,9 @@
 keywords: Recommendations
 description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
 title: Adobe TargetのレポートソースとしてAdobe Analyticsを実装する前に(A4T)
-feature: a4t implementation
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 52%
@@ -50,8 +50,8 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * レポートソースとして[!DNL Analytics]を使用することを選択すると、新しいアクティビティでこの統合が有効になります。 この文書に書かれた実装の変更をおこなっても、既存のアクティビティは影響を受けません。
-* [!DNL Analytics]を[!DNL Target]のレポートソースとして設定するプロセスには、いくつかの実装手順と、プロビジョニング手順が含まれます。 実装前に、以下の手順をすべて読んでおくことをお勧めします。これらの手順を完了すると、[!DNL Analytics]が有効になり次第、レポートソースとして&lt;a0/>を使用する準備が整います。 プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
-* [!DNL Visitor ID service]は、[!DNL Adobe Experience Cloud]の間に共有[!DNL Visitor ID]を作成します。 [!DNL Target] mboxPC IDまたは[!DNL Audience Manager] UUIDは置き換えませんが、[!DNL Analytics]が新しい訪問者を識別する方法は置き換えられます。 正しく設定されている場合は、訪問者の情報が絶えないように、古い[!DNL Analytics] IDを使用して&lt;a0/>訪問者を返す必要もあります。 [!DNL Analytics]同様に、[!DNL Target] mboxPCidは元のままなので、[!DNL Visitor ID service]にアップグレードしても[!DNL Target]訪問者プロファイルデータは失われません。
+* [!DNL Analytics]を[!DNL Target]のレポートソースとして設定するプロセスには、いくつかの実装手順と、プロビジョニング手順が含まれます。 実装前に、以下の手順をすべて読んでおくことをお勧めします。これらの手順を完了すると、[!DNL Analytics]が有効になり次第、レポートソースとしてを使用する準備が整います。 プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
+* [!DNL Visitor ID service]は、[!DNL Adobe Experience Cloud]の間に共有[!DNL Visitor ID]を作成します。 [!DNL Target] mboxPC IDまたは[!DNL Audience Manager] UUIDは置き換えませんが、[!DNL Analytics]が新しい訪問者を識別する方法は置き換えられます。 正しく設定されている場合は、訪問者の情報が絶えないように、古い[!DNL Analytics] IDを使用して[!DNL Analytics]訪問者を返す必要もあります。 同様に、[!DNL Target] mboxPCidは元のままなので、[!DNL Visitor ID service]にアップグレードしても[!DNL Target]訪問者プロファイルデータは失われません。
 * [!DNL Visitor ID service]は、[!DNL Analytics]および[!DNL Target]ページコードの前に実行する必要があります。 `VisitorAPI.js`は、他のすべての[!DNL Experience Cloud]ソリューションのタグの上に記述します。
 
 ## 遅延 {#section_9489BE6FD21641A4844E591711E3F813}
