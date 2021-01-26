@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 title: A4Tをレポートソースとして使用するアクティビティの作成
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 18%
 
 ---
@@ -120,7 +120,7 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 * [!DNL Adobe Target] エンゲージメントと売上高の指標
 * [!DNL Adobe Analytics] エンゲージメントと売上高の指標
 
-   [!DNL Analytics]は[!DNL Analytics]からすべてのエンゲージメント指標と売上高指標を識別および除外できないので、&lt;a0/>エンゲージメント指標または売上高指標を主目標指標として選択できる場合があります。 [!DNL Target][!DNL Analytics]から2項コンバージョン指標またはカスタムイベントのみを選択する場合は注意してください。
+   [!DNL Analytics]は[!DNL Analytics]からすべてのエンゲージメント指標と売上高指標を識別および除外できないので、[!DNL Target]エンゲージメント指標または売上高指標を主目標指標として選択できる場合があります。 [!DNL Analytics]から2項コンバージョン指標またはカスタムイベントのみを選択する場合は注意してください。
 
 * [!DNL Adobe Analytics] 計算指標
 
@@ -132,7 +132,7 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 
 * アクティビティがアクティブ化された後、レポートソースを[!DNL Analytics]から[!DNL Target]に変更したり、その逆を変更したりすることはできません。
 * 計算指標は主要目標指標としてサポートされていませんが、多くの場合、カスタムイベントを主要目標指標として選択する代わりに、意図した結果を得ることができます。 例えば、「訪問者ごとのフォームの完了」などの指標を最適化する場合は、「フォームの完了」に対応するカスタムイベントを主要目標指標として選択します。 [!DNL Target] トラフィックの偏りを考慮して、訪問あたりのコンバージョン指標を自動的に標準化するので、計算指標を使用して標準化を実行する必要はありません。
-* [!DNL Target] は、 [!UICONTROL 自動] 配分A4T実装で「同じタッチ」アトリビューションモデルを使用します。
+* [!DNL Target] は、 [!UICONTROL 自動配分機能で「同じタッチ」アトリビューションモデルを使用し] ます。ターゲットの分析(A4T)。
 
 #### 自動配分
 
