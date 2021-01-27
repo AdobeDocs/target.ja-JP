@@ -4,10 +4,10 @@ description: リモートオファーを使用して外部コンテンツをホ�
 title: リモートオファーを作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 52%
+source-wordcount: '998'
+ht-degree: 49%
 
 ---
 
@@ -29,6 +29,9 @@ ht-degree: 52%
 * フォーム
 * カルキュレーター
 * 金利の更新
+* 電子メール
+* キオスク
+* 音声アシスタント
 
 ## コードオファーページからのリモートオファーの作成
 
@@ -103,6 +106,8 @@ ht-degree: 52%
 ## アクティビティでリモートオファーを使用する
 
 [!UICONTROL フォームベースのExperience Composer]を使用してリモートオファーを適用する必要があります。 現在、VECを使用してリモートオファーを適用することはできません。
+
+[!DNL Adobe Target] [!UICONTROL フォームベースのExperience Composer]は、[!UICONTROL A/Bテスト]、[!UICONTROL エクスペリエンスのターゲット設定](XT)、[!UICONTROL Automated Personalization](AP)で使用するエクスペリエンスを作成するのに便利です)、および[!UICONTROL Recommendations]アクティビティ（visual experience composerが使用できない場合や実際に使用できない場合）に追加します。 例えば、[!UICONTROL フォームベースのExperience Composer]を使用して、リモートオファーを使用するエクスペリエンスを作成できます。
 
 1. [!UICONTROL フォームベースのExperience Composer]でアクティビティを作成または編集します。
 
