@@ -4,10 +4,10 @@ description: リダイレクトオファーを使用してブラウザーを新�
 title: リダイレクトオファーの作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ ht-degree: 48%
 
 1. アクティビティの設定を終了します。
 
-## トレーニングビデオ：コンテンツリポジトリ(4:56)![概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：フォームベースのコンポーザー![チュートリアルバッジ](/help/assets/tutorial.png)
 
-このビデオでは、コンテンツの管理について説明します。
+このビデオは、リダイレクトオファーの作成に使用できるフォームベースのコンポーザーのデモを提供します。
 
-* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
-* カスタム HTML オファー
-* Visual Experience Composer のカスタム HTML オファー
+* フォームベースの Experience Composer を使用したアクティビティの作成
+* フォームベースの Experience Composer と Visual Experience Composer のどちらを使用するかの理解
+* 場所のターゲット設定の調整
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
