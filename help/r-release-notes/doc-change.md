@@ -4,10 +4,10 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3480'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 27 年 1 月 | [リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md) | トピックを更新しました。 |
+|  | [リモートオファーを作成](/help/c-experiences/c-manage-content/about-remote-offers.md) | トピックを更新しました。 |
 | 26 年 1 月 | [コンバージョン率](/help/c-reports/conversion-rate.md) | ターゲットがスチューデントのt検定で「平方和」を使用する方法を明確にしました。 |
 | 22 年 1 月 | [コンバージョン率](/help/c-reports/conversion-rate.md#t-test) | 次の節を追加しました。「ターゲットがスチューデントのtテストを使うことを推奨する理由は何ですか？」 |
 | 21 年 1 月 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 次の節を追加しました。&quot;A4Tアクティビティレポートに、多数の&quot;未指定&quot;イベントを含む行が含まれます。&quot; |
