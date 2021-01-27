@@ -4,10 +4,10 @@ description: Adobe TargetフォームベースのExperience Composerは、非視
 title: フォームベースの Experience Composer
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Recommendations アクティビティを作成している場合、エクスペ�
 1. 「**[!UICONTROL アクティビティを作成]**」をクリックして、作成するアクティビティのタイプを選択します。
 
    フォームベースの Experience Composer は、A/B テスト、エクスペリエンスのターゲット設定、自動パーソナライゼーションおよび Recommendations アクティビティで利用できます。
-1. **[!UICONTROL 新しいアクティビティ]**&#x200B;ダイアログボックスで、「[!UICONTROL フォームベースの Experience Composer]」を選択します。
+1. [!UICONTROL アクティビティを作成]ダイアログボックスから「**[!UICONTROL フォームベースのExperience Composer]**」を選択します。
+
+1. （条件付き）ワークスペースとプロパティを選択します。
+
+1. 「**[!UICONTROL 次へ]**」をクリックします。
 
    フォームベースの Experience Composer が表示されます。
 
    ![](assets/location_refinements.png)
 
    Recommendations アクティビティを作成している場合、この画面は異なります。Recommendations アクティビティには、エクスペリエンスは含まれません。
-1. アクティビティの名前を設定します。
+1. 「[!UICONTROL 無題のアクティビティ]」をクリックして、アクティビティに名前を付けます。
 1. 場所を選択します。
 
    「[!UICONTROL 場所を選択]」ボックスをクリックすると、使用可能な場所のリストが表示されます。 いずれかの場所を選択します。target.js によって提供されるグローバルな場所を選択するには、「target-global-mbox」を選択します。
@@ -64,9 +68,9 @@ Recommendations アクティビティを作成している場合、エクスペ�
 
    **エクスペリエンスフラグメントの変更：**&#x200B;エクスペリエンスフラグメントを選択します。
 
-   **リダイレクトオファーの変更：**&#x200B;リダイレクトオファーを選択します。
+   **リダイレクトオファーの変更：**&#x200B;リダイレクトオファーを選択します。詳しくは、[リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md)を参照してください。
 
-   **リモートオファーの変更：**&#x200B;リモートオファーを選択します。
+   **リモートオファーの変更：**&#x200B;リモートオファーを選択します。詳しくは、[リモートオファーの作成](/help/c-experiences/c-manage-content/about-remote-offers.md)を参照してください。
 
    **HTML オファーを作成:**
 
