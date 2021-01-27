@@ -4,7 +4,7 @@ description: リモートオファーを使用して外部コンテンツをホ�
 title: リモートオファーを作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 52%
@@ -78,11 +78,11 @@ ht-degree: 52%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-### リダイレクトURLの種類：キャッシュ済みまたは動的{#url-type}
+## リダイレクトURLの種類：キャッシュ済みまたは動的{#url-type}
 
 次の情報は、2つのオプションの違いを理解するのに役立ちます。
 
-#### キャッシュURL
+### キャッシュURL
 
 キャッシュされたリモートオファーが [!DNL Target] から提供されます。
 
@@ -92,7 +92,7 @@ ht-degree: 52%
 
 キャッシュされたリモートオファーには、絶対または相対 URL を指定することができます。
 
-#### 動的URL
+### 動的URL
 
 動的リモートオファーは、[!DNL Target] から提供されるのではなく、コンテンツ管理または他のシステムから提供されます。
 
