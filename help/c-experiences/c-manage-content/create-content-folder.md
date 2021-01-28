@@ -4,9 +4,9 @@ description: オファーライブラリにフォルダを作成する方法を�
 title: オファーフォルダーの作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 17%
 
 ---
@@ -62,13 +62,15 @@ ht-degree: 17%
 
    任意のユーザーがフォルダーの位置をリスト表示で並べ替えできるようにします。
 
-1. （オプション）カードの表示]と[!UICONTROL リストの表示]を切り替えるには、コンテンツライブラリの右上隅にある[!UICONTROL カードの表示]アイコンまたは[!UICONTROL リストの表示]アイコンをクリックします。 [!UICONTROL [!UICONTROL 表示設定]を使用して、[!UICONTROL リスト表示]を表示する際に列をさらに構成することもできます。
-
-   次の図に、[!UICONTROL リスト表示]を表示する際に使用できるオプションを示します。
-
-   ![リスト表示オプション](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. 「 **[!UICONTROL 作成]**」をクリックします。
+
+### カードの表示とリストの表示を切り替える
+
+[!UICONTROL カード表示]と[!UICONTROL リスト表示]を切り替えるには、コンテンツライブラリの右上隅にある[!UICONTROL カード表示]アイコンまたは[!UICONTROL リスト表示]アイコンをクリックします。 [!UICONTROL 表示設定]を使用して、[!UICONTROL リスト表示]を表示する際に列をさらに構成することもできます。
+
+次の図に、[!UICONTROL リスト表示]を表示する際に使用できるオプションを示します。
+
+![リスト表示オプション](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### 画像オファーオプション
 
