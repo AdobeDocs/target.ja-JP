@@ -4,9 +4,9 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 69%
    * アクティビティの重複
    * 各アクティビティでプロモーションを再度有効にする
 
+* [!DNL Target]がgetOffer()でJSONオファーを返すと、JSONのタイプで返されます。 ただし、JSONRecommendationsデザインを返す場合は、HTMLタイプのが返されます。
 * フィードまたは API を介した更新がなくなって 60 日が経過するとエンティティの有効期限が切れます。ただし、有効期限が切れた後も、期限切れのエンティティはカタログ検索インデックスから削除されません。（IRI-857）
 * 条件およびデザインの「使用状況情報」オーバーレイに、A/B およびエクスペリエンスのターゲティングアクティビティでの使用状況が反映されない（TGT-34331）
 * A/B およびエクスペリエンスのターゲット設定アクティビティの Recommendations オファーに、Recommendations トレイのプレビューが表示されない（TGT-33426）
