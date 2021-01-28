@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Adobe TargetのHTMLまたはJSONオファーーに、プロファイルの値とアクティビティの情報を直接表示できます。
+description: プロファイル値とアクティビティ情報をHTMLまたはJSONオファーーに直接渡す方法を教えてください。
 title: 動的データをオファーに渡す
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 * 訪問者が、`keyword=world``cup` を含むランディングページに到達します。この場合、「*ワールドカップ*」という用語をオファーに表示します。
 * （1）訪問者の買い物かごに最後に追加された商品（Nike Air Max1000s）、（2）訪問者のカラー設定（黒）、（3）訪問者の靴以外のお気に入りのカテゴリ（パーカー）などの情報を含むレコメンデーションラベルをパーソナライズします。例:「クールな『黒』『パーカー』で、あなたの『Nike Air Max 1000』をコーディネートしましょう！」
 
-## 技術上のメリット
+## 技術的な利点
 
 ユーザー固有の設定、動作、ステータスなどはユーザーのプロファイルに保存できるため、次回の訪問時にこのメッセージを繰り返すことができます。動的オファーを使用すると、すべての訪問者に対してパーソナライズされたメッセージを表示するアクティビティ内で単一のオファーを設定できるようになるので、より大きな規模で実現できます。訪問者の意図が変わると、あなたの Web サイトのコンテンツは自動的にそれらの変更を反映します。
 
@@ -52,15 +52,21 @@ Recommendations のデザインについては、[デザインの概要](/help/c
 
 ## 実装
 
-プロファイルパラメーターを mbox に渡す場合は、`${profile.parameter}` という構文を使用します。スクリプトで作成されるプロファイルパラメーターの場合は、次の構文を使用します。
+mboxに渡されるプロファイルーパラメーターの場合は、次の構文を使用します。
+
+`${profile.parameter}`
+
+プロファイルスクリプトで作成されるプロファイルパラメーターの場合は、次の構文を使用します。
 
 `${user.parameter}`
 
-動的な値が正しくレンダリングされるように、Recommendations設計で動的な属性を使用する場合は、ドル記号($)の前にバックスラッシュ(¥)を挿入する必要があります。`\${user.endpoint.lastViewedEntity}`
+[!DNL Recommendations]デザインで動的属性を使用する場合、動的値が正しくレンダリングされるようにするには、ドル記号($)の前にバックスラッシュ(¥)を挿入する必要があります。
+
+`\${user.endpoint.lastViewedEntity}`
 
 これらの変数はサーバー側の値で置き換えられるので、引用符やその他の JavaScript がなくても正しく表示されます。
 
-オファーに表示する値に対して、デフォルト値を指定することもできます。構文は次のようになります。
+オファーに表示する値には、デフォルト値を指定することもできます。 構文は次のようになります。
 
 `${user.testAttribute default="All Items!"}`
 
