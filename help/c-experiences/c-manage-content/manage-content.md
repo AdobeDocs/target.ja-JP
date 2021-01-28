@@ -4,10 +4,10 @@ description: コードと画像のオファーを管理する方法を教えて�
 title: オファー
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 40%
 
    権限によっては、すべてのオプションのアイコンが表示されない場合があります。 例えば、[!UICONTROL オブザーバー]権限を持つユーザーには、[!UICONTROL コピー]オプションを使用する権限がありません。
 
+   オファーーとフォルダーで実行できるタスクーについて詳しくは、[アセットライブラリのコンテンツの操作](/help/c-experiences/c-manage-content/assets-working.md)を参照してください。
+
 1. （オプション）「[!UICONTROL 画像オファーー]」タブで目的の画像オファーーまたはタスクーの上にカーソルを置き、目的のアイコンをクリックして、追加のフォルダーを実行します。
 
    ![画像オファーオプション](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ ht-degree: 40%
    * 編集
    * 注釈
    * コピー
+
+   オファーーとフォルダーで実行できるタスクーについて詳しくは、[アセットライブラリのコンテンツの操作](/help/c-experiences/c-manage-content/assets-working.md)を参照してください。
 
 ## オファー定義の表示{#section_6B059DD121434E6292CAB393507D010E}
 
