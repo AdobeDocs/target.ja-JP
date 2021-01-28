@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Adobe Targetの画像オファーリストに項目を追加できます。
+description: 画像をアップロードして画像オファーとして使用する方法を教えてください。
 title: コンテンツのアップロード
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # コンテンツのアップロード
 
-[!DNL Adobe Target]の画像オファーリストに項目を追加したり、項目を削除したりできます。
+[!DNL Adobe Target]の[!UICONTROL 画像オファー]リストに画像をアップロードして、アクティビティの画像オファーとして使用できます。 また、アクティビティで画像オファーが不要になった場合は、それらを削除することもできます。
 
-1. 「**[!UICONTROL オファー]**」をクリックしてから、「**[!UICONTROL 画像オファー]**」タブを選択します。
+## リスト追加への画像オファー
+
+1. **[!UICONTROL オファー]**/**[!UICONTROL 画像オファー]**&#x200B;をクリックします。
+
+   ![オファー/画像オファー](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. **[!UICONTROL 作成]**／**[!UICONTROL ファイル]**&#x200B;をクリックします。
-1. 追加する項目を選択し、「**[!UICONTROL 開く]**」をクリックします。
-1. 必要であれば、アイテムのファイル名を編集して、「**[!UICONTROL アップロード]**」をクリックします。
+1. 追加する項目を参照して選択し、**[!UICONTROL 開く]**&#x200B;をクリックします。
+1. 必要に応じて、項目のファイル名を編集し、「**[!UICONTROL アップロード]**」をクリックします。
 
-   アイテムがライブラリにアップロードされます。
+## 画像オファーーまたはフォルダーの削除
 
-## トレーニングビデオ：コンテンツリポジトリ  ![概要バッジ](/help/assets/overview.png)
+[!UICONTROL カード表示]と[!UICONTROL リスト表示]を切り替えるには、コンテンツライブラリの右上隅にある[!UICONTROL カード表示]アイコンまたは[!UICONTROL リスト表示]アイコンをクリックします。
+
+[!UICONTROL カード表示]から、目的の画像オファーーまたはフォルダーの上にマウスポインターを置き、**[!UICONTROL 選択]**&#x200B;アイコン（チェックマーク）をクリックして、**[!UICONTROL 削除]**&#x200B;をクリックします。
+
+[!UICONTROL リスト表示]から、リストの左側の画像サムネール画像をクリックして目的の画像オファーまたはフォルダーを選択し、**[!UICONTROL 削除]**&#x200B;をクリックします。次に例を示します。
+
+![選択した項目を削除](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## トレーニングビデオ：コンテンツリポジトリ![概要バッジ](/help/assets/overview.png)
 
 このビデオでは、コンテンツの管理について説明します。
 
