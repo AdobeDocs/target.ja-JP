@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: キーワードでアセットを検索し、スマートコレクションと呼ばれる検索フォルダーを保存します。スマートコレクションは、検索結果を反映して自動的に更新されます。
+description: キーワードでアセットを検索し、検索フォルダを保存する方法を教えてください。
 title: コンテンツの検索とスマートコレクションの作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ ht-degree: 100%
 
 このセクションでは、以下について説明します。
 
-* [キーワードによるアセットの検索](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [スマートコレクションの保存](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## キーワードによるアセットの検索 {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## キーワード{#section_2465A71BC95942588F586B1EC8B9E5DB}でアセットを検索
 
 1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]**&#x200B;をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
 
@@ -37,7 +34,7 @@ ht-degree: 100%
 
 1. 検索ボックスに探しているアセットのキーワードを入力して、Enter キーを押します。
 
-## スマートコレクションの保存  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## スマートコレクションの保存 {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 スマートコレクションと呼ばれる保存済み検索を作成して、同様の検索を実行する際に時間を節約できます。保存済み検索によって、検索結果が自動的に更新されるスマートコレクションが作成されます。
 
