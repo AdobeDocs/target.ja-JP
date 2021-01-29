@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: キーワードでアセットを検索し、検索フォルダを保存する方法を教えてください。
-title: コンテンツの検索とスマートコレクションの作成
+keywords: content library;assets;search;filter
+description: キーワードでアセットを検索する方法を教えてください。
+title: コンテンツの検索
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# コンテンツの検索とスマートコレクションの作成
+# コンテンツの検索
 
-キーワードでアセットを検索し、スマートコレクションと呼ばれる検索フォルダーを保存します。スマートコレクションは、検索結果を反映して自動的に更新されます。
+[!DNL Adobe Target]の[!UICONTROL オファー]ライブラリ内のキーワードでアセットを検索します。
 
-このセクションでは、以下について説明します。
+## キーワードによるコードオファーの検索
 
-## キーワード{#section_2465A71BC95942588F586B1EC8B9E5DB}でアセットを検索
+1. **[!UICONTROL オファー]**/**[!UICONTROL コードオファー]**&#x200B;をクリックします。
+1. 「[!UICONTROL 検索]」ボックスに目的のキーワードを入力します。
 
-1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]**&#x200B;をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
+   「[!UICONTROL タイプ]」と「[!UICONTROL ソース]」のドロップダウンリストを使用してフィルタリングし、検索を絞り込むこともできます。
 
-   右上隅の[!UICONTROL カード表示]アイコンをクリックして、カード表示形式でアセットを表示します。
+## キーワード{#section_2465A71BC95942588F586B1EC8B9E5DB}で画像オファーを検索
 
-   または
+1. **[!UICONTROL オファー]**/**[!UICONTROL 画像オファー]**&#x200B;をクリックします。
 
-   右上隅の[!UICONTROL リスト表示]アイコンをクリックして、リスト表示形式でアセットを表示します。
+1. （オプション）カードの表示]と[!UICONTROL リストの表示]を切り替え、コンテンツライブラリの右上隅にある[!UICONTROL カードの表示]アイコンまたは[!UICONTROL リストの表示]アイコンをクリックします。 [!UICONTROL [!UICONTROL 表示設定]を使用して、[!UICONTROL リスト表示]を表示する際に列をさらに構成することもできます。
+
+   次の図に、[!UICONTROL リスト表示]を表示する際に使用できるオプションを示します。
+
+   ![リスト表示オプション](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、検索ボックスを表示します。
 
-   ![](assets/search_assets.png)
+   ![「コンテンツのみ」オプション](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 検索ボックスに探しているアセットのキーワードを入力して、Enter キーを押します。
 
-## スマートコレクションの保存 {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. （オプション）**[!UICONTROL フィルターとオプション]**&#x200B;ペインを使用して、検索を絞り込みます。
 
-スマートコレクションと呼ばれる保存済み検索を作成して、同様の検索を実行する際に時間を節約できます。保存済み検索によって、検索結果が自動的に更新されるスマートコレクションが作成されます。
+   ![フィルターとオプションパネル](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. **[!UICONTROL オファー]**／**[!UICONTROL 画像オファー]**&#x200B;をクリックして、[!UICONTROL アセットライブラリ]にアクセスします。
+   次の条件でフィルターできます。
 
-   ![](assets/content.png)
-
-1. 左上隅の&#x200B;**[!UICONTROL コンテンツのみ]**&#x200B;アイコンをクリックして、左側のレールに[!UICONTROL フィルターおよびオプション]パネルを表示します。
-1. **[!UICONTROL 参照]**&#x200B;アイコンをクリックして、[!UICONTROL パスを選択]ダイアログボックスを表示します。
-
-   ![](assets/browse_folders.png)
-
-1. スマートコレクションの基盤として希望するフォルダーを参照して選択し、**[!UICONTROL 確認]**&#x200B;アイコンをクリックします。
-
-   ![](assets/browse_folders2.png)
-
-1. （オプション）様々なオプションから選択して、ファイルタイプやサイズなどで検索結果を絞りこむことができます。
-1. **[!UICONTROL フィルターおよびオプション]**&#x200B;パネルの下部で「[!UICONTROL スマートコレクションを保存]」をクリックして、「保存」オプションを表示します。
-
-   ![](assets/save_smart_collection_options.png)
-
-1. スマートコレクションの名前を指定し、**[!UICONTROL アカウントのすべてのユーザーがこのスマートコレクションにアクセスできるようにする場合は、「]**&#x200B;公開[!DNL Target]」チェックボックスを選択して、「**[!UICONTROL 保存]**」をクリックします。
-
-   保存済み検索結果のリストにこのスマートコレクションが追加され、以降使用できるようになります。
-
-   ![](assets/saved_smart_collection.png)
-
-保存されたスマートコレクションを編集するには、[!UICONTROL 保存済みの検索結果]ドロップダウンリストからこれを選択して開き、「[!UICONTROL スマートコレクションを編集]」をクリックします。
+   * ファイルの種類：画像、ドキュメント、マルチメディア、アーカイブ。
+   * ファイルサイズ：小、中、大
+   * 最終変更日：時間、日、週、月、年。
+   * 承認ステータス：承認済みまたは却下.
+   * 有効期限のステータス：期限切れ。
+   * 評価平均：1 ～ 5。
+   * 向き：「水平」、「垂直」、「四角」のいずれかです。
+   * スタイル：「色」または「白黒」。
+   * 使用状況スコア：最小から最大
+   * インプレッションスコア：最小から最大
+   * スコア：1 ～ 5。
