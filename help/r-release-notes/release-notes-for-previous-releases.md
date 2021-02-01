@@ -4,9 +4,9 @@ description: Target Standard/Premiumのリリースノート、ターゲット�
 title: 以前のリリースのリリースノート
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '30551'
+source-wordcount: '30541'
 ht-degree: 84%
 
 ---
@@ -84,7 +84,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能 | 詳細 |
 | --- | --- |
-| ![Premium ](/help/assets/premium.png) badgeターゲット用のAnalytics(A4T)の自動ターゲットアクティビティのサポート | [!UICONTROL 自動] ターゲットアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動] ターゲット設定の機械学習アルゴリズムを使用して、プロファイル、動作、およびコンテキストに基づいて各訪問者に対して最高のエクスペリエンスを選択できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、 [アクティビティ作成時の自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) アクティビティのターゲット用の *Analytics(A4T)のサポートを参照してください*。 |
+| ![Premium ](/help/assets/premium.png) badgeターゲット用のAnalytics(A4T)の自動ターゲットアクティビティのサポート | [!UICONTROL 自動] ターゲットアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合により、 [!UICONTROL 自動] ターゲット設定の機械学習アルゴリズムを使用して、プロファイル、動作、およびコンテキストに基づいて各訪問者に対して最高のエクスペリエンスを選択できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、自動配分と自動ターゲットアクティビティの [A4Tサポートを参照してください](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 
 ### Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 
@@ -152,7 +152,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| Analytics for Target（A4T） [!UICONTROL 自動配分]アクティビティのサポート | [!UICONTROL 自動] 割り当てアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL Auto-] Allocatemulti-armbandit機能を使用して、 [!UICONTROL Adobe分析の目標指標や]   Adobe分析のレポート機能や分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、 [アクティビティ作成時の自動配分アクティビティのターゲット用の](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics(A4T)のサポートを参照してください **。 |
+| Analytics for Target（A4T） [!UICONTROL 自動配分]アクティビティのサポート | [!UICONTROL 自動] 割り当てアクティビティで、 [Analyticsのターゲットがサポートされるようになりました](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>この統合では、 [!UICONTROL Auto-] Allocatemulti-armbandit機能を使用して、 [!UICONTROL Adobe分析の目標指標や]   Adobe分析のレポート機能や分析機能を使用しながら、勝者エクスペリエンスにトラフィックを誘導できます。<br>A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用するA4 [Tを既に](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 実装している場合は、設定が完了です。<br>詳しくは、自動配分と自動ターゲットアクティビティの [A4Tサポートを参照してください](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 自動ターゲットおよびAutomated Personalizationアクティビティのトラフィック配分方法の応答トークン | [!UICONTROL 自動ターゲット]と[!UICONTROL Automated Personalization]のアクティビティに2つの[応答トークン](/help/administrating-target/response-tokens.md)が追加され、「制御」トラフィックと「ターゲット」トラフィックのどちらに割り当てられたかを訪問者が受け取ったかを判断できます。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布から訪問者がエクスペリエンスを受け取った場合は1を返します。</li><li>`experience.trafficAllocationType` は、&quot;control&quot;または&quot;targeted&quot;を返します。</li></ul>コントロールとターゲットトラフィックの比較について詳しくは、[Automated Personalizationまたは自動ターゲットアクティビティのコントロールを選択](/help/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
 |  Publisherrole | この新しい役割は、現在の[!UICONTROL オブザーバー]の役割に似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、[!UICONTROL パブリッシャ]の役割には、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standardユーザー**: [ユー](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) ザーの役割と *権限を指定し*&#x200B;ます。</li><li>**ターゲットプレミアムユーザー**: [手順6:ロールと](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 権限の指定は、エンタープライズ権限 *の設定*&#x200B;で行います。</li></ul> |
 | [!DNL Analysis Workspace]<br>2020年6月25日にA4Tをサポート | [!UICONTROL でターゲット分析] (A4T)がサポートされるようになり [!DNL Analysis Workspace]ました。[!UICONTROL ターゲット用のAnalytics(A4T)パネル]では、[!DNL Analysis Workspace]で[!DNL Adobe Target]のアクティビティとエクスペリエンスを分析できます。<br>詳しくは、Analyticsの [レポート(A4T)および](/help/c-integrating-target-with-mac/a4t/reporting.md) ターゲット用の *Analytics(A4T)* パネル(『 [Analyticsツールガイド』の「A4Tでの](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)  **&#x200B;レポート」)を参照してください。 |
