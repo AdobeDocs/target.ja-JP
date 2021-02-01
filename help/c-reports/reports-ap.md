@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Adobe TargetのAutomated Personalizationアクティビティのユーザーは、専門レポートを利用できます。
+description: Automated Personalizationサマリレポートの使用方法
 title: Automated Personalization 概要レポート
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 70%
+source-wordcount: '626'
+ht-degree: 42%
 
 ---
 
 
-# ![Premium](/help/assets/premium.png) Automated Personalization 概要レポート{#automated-personalization-summary-reports}
+# ![Premium](/help/assets/premium.png) Automated Personalization 概要レポート
 
 [!DNL Adobe Target]の[!UICONTROL Automated Personalization]アクティビティのユーザーは、特殊なレポートを利用できます。
 
@@ -24,9 +24,14 @@ ht-degree: 70%
 
    多くのアクティビティがある場合、[!UICONTROL タイプ]ドロップダウンリストから [!UICONTROL Automated Personalization] を選択することで、リストをフィルターできます。
 
-1. （オプション）[!UICONTROL ダウンロード]アイコンをクリックし、概要ビュー（例えば、コントロールとターゲットのトラフィックの比較）を利用可能なすべての成功指標による分類としてダウンロードします。
+1. （オプション）**[!UICONTROL ダウンロード]**&#x200B;アイコンをクリックし、概要ビュー（例えば、コントロールとターゲットのトラフィックの比較）を利用可能なすべての成功指標による分類としてダウンロードします。
 
 [!UICONTROL Automated Personalization] では次のレポートを利用できます。
+
+* アクティビティレベル
+* オファーレベル
+* 自動セグメント
+* 重要な属性
 
 ## アクティビティレベルレポート {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -49,6 +54,16 @@ ht-degree: 70%
 >[!NOTE]
 >
 >時計アイコンは、アルゴリズムモデルが構築中であることを示します。チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
+
+## アクティビティレベルレポートとオファーレベルレポートのデータの違い
+
+**[!UICONTROL アクティビティ] レベルレポート**: [!UICONTROL アクティビティレベルの] レポートで記録される訪問は、コントロールのエクスペリエンスへの訪問回数と「ターゲット」トラフィック。ターゲットトラフィックには、調査用のトラフィックとパーソナライズされたトラフィックの組み合わせが含まれます。
+
+**オファーレベルレポート**:  オファーレベルレポートで記録されたインプレッションは、各オファーのインプレッション数をキャプチャします。したがって、複数の場所を持つアクティビティでは、すべてのレポートグループで[!UICONTROL オファーレベル]レポートに記録される訪問の合計数は、[!UICONTROL アクティビティレベル]レポートのコントロールまたはターゲットトラフィックの記録数の倍になります。 デフォルトコンテンツが使用可能な場所で発生したデフォルトコンテンツのインプレッションは、「デフォルトコンテンツ」オファーグループに記録されます。 レポートグループに割り当てられていないオファーのインプレッションは、「グループ解除」オファーグループに記録されます。
+
+>[!NOTE]
+
+[!UICONTROL オファーレベル]レポートに記録されたインプレッション数は、[!UICONTROL アクティビティレベル]レポートに記録された訪問数の正確な倍数ではない可能性があります。 これは、インターネット上でのレポートデータトラフィックの取り込みに発生する小さな相違が原因です（一般的な相違率は5%未満）。 したがって、アクティビティがアクティブ化された後にアクティビティで使用可能な場所の数が変更された場合、インプレッションの数は正確な倍数になりません。
 
 ## 自動セグメント
 
