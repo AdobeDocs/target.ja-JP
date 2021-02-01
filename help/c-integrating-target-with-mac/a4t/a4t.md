@@ -4,9 +4,9 @@ description: アドビの「Analytics for Target」（A4T）は、Analytics の�
 title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 45%
 
 ---
@@ -60,8 +60,8 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 | アクティビティのタイプ | A4T との互換性 | メモ（該当する場合） |
 |--- |--- |--- |
 | 手動トラフィック分割を使用した A/B アクティビティ | ○ |  |
-| 自動配分を使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティの[ターゲット用のAnalytics(A4T)のサポートを参照してください。](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) |
-| 自動ターゲットを使用した A/B アクティビティ | ○ | 自動配分と自動ターゲットアクティビティの[ターゲット用のAnalytics(A4T)のサポートを参照してください。](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) |
+| 自動配分を使用した A/B アクティビティ | ○ | 「[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)」を参照してください。 |
+| 自動ターゲットを使用した A/B アクティビティ | ○ | 「[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)」を参照してください。 |
 | エクスペリエンスターゲット設定（XT） | ○ |  |
 | 多変量分析テスト（MVT） | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mboxベースの目標指標の目標が必要です。  [!UICONTROL 要素貢献度]レポートは、現在、[!DNL Analytics]指標をサポートしていません。 |
 | 自動パーソナライゼーション（AP）アクティビティ | × |  |
