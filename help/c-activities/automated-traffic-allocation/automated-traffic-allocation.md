@@ -4,10 +4,10 @@ description: Adobe Targetの自動配分アクティビティは、2つ以上の
 title: 自動配分
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
-ht-degree: 73%
+source-wordcount: '3373'
+ht-degree: 74%
 
 ---
 
@@ -136,7 +136,7 @@ A/B テストはより長い期間にわたって結果を分析するので、�
 
 ### ターゲット用のAnalytics(A4T)は、自動配分アクティビティをサポートしますか？
 
-はい。詳しくは、*アクティビティ作成*&#x200B;の[自動配分アクティビティ](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)のターゲット用のAnalytics(A4T)のサポートを参照してください。
+はい。詳しくは、[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
 ### 再訪問者は、自動的にパフォーマンスの高いエクスペリエンスに再配分されますか？
 
