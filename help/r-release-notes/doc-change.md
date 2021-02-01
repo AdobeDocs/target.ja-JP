@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2月1日 | [自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md) | 次の節を追加しました。「アクティビティレベルのレポートとオファーレベルのレポートのデータの違い」 |
+| 2月1日 | [自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md) | 次の節を追加しました。「よくある質問(FAQ)」 |
 | 27 年 1 月 | [リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md) | トピックを更新しました。 |
 |  | [リモートオファーを作成](/help/c-experiences/c-manage-content/about-remote-offers.md) | トピックを更新しました。 |
 | 26 年 1 月 | [コンバージョン率](/help/c-reports/conversion-rate.md) | ターゲットがスチューデントのt検定で「平方和」を使用する方法を明確にしました。 |
