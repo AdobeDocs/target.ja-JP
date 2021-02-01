@@ -4,9 +4,9 @@ description: このリリースの Adobe Target の既知の問題について�
 title: Adobe Target の既知の問題と解決された問題
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '4365'
+source-wordcount: '4359'
 ht-degree: 69%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 69%
 
 [!DNL Target] UIには既知の問題が存在し、ユーザーは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティの最適化の主目標指標として、サポートされていないエンゲージメント指標と売上高指標を選択できます。 コンバージョン指標はサポートされています。エンゲージメントと売上高の指標は&#x200B;*サポートされていません*。 エンゲージメントまたは売上高目標指標を選択した場合、（現在[!DNL Target] UIでサポートされていない目標指標を選択できる場合でも）最適化モデルは作成されません。
 
-サポートされる目標指標とサポートされない目標指標のリストについては、[Analyticsをレポートソースとして使用するアクティビティの作成&#x200B;*の「サポートされる目標指標](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)」を参照してください。*（TNT-38409）
+サポートされる目標指標とサポートされない目標指標のリストについては、[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。 （TNT-38409）
 
 ### ページ配信 {#page-delivery}
 
