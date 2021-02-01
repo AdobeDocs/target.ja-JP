@@ -4,9 +4,9 @@ description: Automated Personalizationサマリレポートの使用方法
 title: Automated Personalization 概要レポート
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 42%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 42%
 
 # ![Premium](/help/assets/premium.png) Automated Personalization 概要レポート
 
-[!DNL Adobe Target]の[!UICONTROL Automated Personalization]アクティビティのユーザーは、特殊なレポートを利用できます。
+[!DNL Adobe Target]の[!UICONTROL Automated Personalization]アクティビティのユーザーは、特殊なサマリレポートを利用できます。
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ ht-degree: 42%
 **オファーレベルレポート**:  オファーレベルレポートで記録されたインプレッションは、各オファーのインプレッション数をキャプチャします。したがって、複数の場所を持つアクティビティでは、すべてのレポートグループで[!UICONTROL オファーレベル]レポートに記録される訪問の合計数は、[!UICONTROL アクティビティレベル]レポートのコントロールまたはターゲットトラフィックの記録数の倍になります。 デフォルトコンテンツが使用可能な場所で発生したデフォルトコンテンツのインプレッションは、「デフォルトコンテンツ」オファーグループに記録されます。 レポートグループに割り当てられていないオファーのインプレッションは、「グループ解除」オファーグループに記録されます。
 
 >[!NOTE]
-
-[!UICONTROL オファーレベル]レポートに記録されたインプレッション数は、[!UICONTROL アクティビティレベル]レポートに記録された訪問数の正確な倍数ではない可能性があります。 これは、インターネット上でのレポートデータトラフィックの取り込みに発生する小さな相違が原因です（一般的な相違率は5%未満）。 したがって、アクティビティがアクティブ化された後にアクティビティで使用可能な場所の数が変更された場合、インプレッションの数は正確な倍数になりません。
+>
+>[!UICONTROL オファーレベル]レポートに記録されたインプレッション数は、[!UICONTROL アクティビティレベル]レポートに記録された訪問数の正確な倍数ではない可能性があります。 これは、インターネット上でのレポートデータトラフィックの取り込みに発生する小さな相違が原因です（一般的な相違率は5%未満）。 したがって、アクティビティがアクティブ化された後にアクティビティで使用可能な場所の数が変更された場合、インプレッションの数は正確な倍数になりません。
