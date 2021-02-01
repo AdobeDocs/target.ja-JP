@@ -4,9 +4,9 @@ description: このページでは、リリース順に並べられた、Adobe T
 title: Adobe Target 製品ドキュメントの変更
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 29%
 |  | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「user.header(&#39;x-forwarded-for&#39;)」行を更新し、「user.header(&#39;x-cluster-client-ip&#39;)」が非推奨になったことを示しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.9.1（2020年9月31日）リリースに関する情報を追加しました。 |
 | 9月15日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Analytics forターゲット(A4T)での自動ターゲットアクティビティのサポートを含む、Target Standard/Premium 20.8.3リリースに関する情報を追加しました。 自動配分アクティビティのサポートは、前のリリースで追加されました。 |
-|  | [自動配分と自動ターゲットアクティビティのAnalytics forターゲット(A4T)のサポート](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 | 自動ターゲットアクティビティでのA4Tのサポートに関する情報を追加しました。 |
+|  | [自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 自動ターゲットアクティビティでのA4Tのサポートに関する情報を追加しました。 |
 |  | [アクティビティ QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 空の値を持つ`at_preview_token`パラメーターを含むページをサイトに読み込むことで手動でQAモードを強制終了する方法がat.js 1に適用されることを示すテキストを更新しました。*x* のみで使用できます。 |
 |  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md) | トピック全体を更新しました。 |
 | 9月10日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.9.2リリースに関する次の新機能に関する情報を追加しました。条件のシーケンス内のレコメンデーションスロットを制御します。 |
