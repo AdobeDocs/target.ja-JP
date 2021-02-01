@@ -4,9 +4,9 @@ description: Automated Personalizationサマリレポートの使用方法
 title: Automated Personalization 概要レポート
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '632'
 ht-degree: 42%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 42%
 
 ## よくある質問
 
-### アクティビティレベルレポートとオファーレベルレポートの間にデータの違いはありますか。
+### アクティビティレベルレポートとオファーレベルレポートの間にデータが異なるのはなぜですか。
 
 **[!UICONTROL アクティビティ] レベルレポート**: [!UICONTROL アクティビティレベルの] レポートで記録される訪問は、コントロールのエクスペリエンスへの訪問回数と「ターゲット」トラフィック。ターゲットトラフィックには、調査用のトラフィックとパーソナライズされたトラフィックの組み合わせが含まれます。
 
