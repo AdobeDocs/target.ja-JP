@@ -4,9 +4,9 @@ description: Adobe Targetの自動ターゲットでは、高度な機械学習�
 title: 自動ターゲットの概要
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/c-intro/intro.md) を参照してください。
 >
->[!UICONTROL ターゲット用のAnalytics] (A4T)は、 [!UICONTROL 自動ターゲットアクティビティをサポートし] ます。詳しくは、[Analyticsをレポートソースとして使用するアクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)を参照してください。
+>[!UICONTROL ターゲット用のAnalytics] (A4T)は、 [!UICONTROL 自動ターゲットアクティビティをサポートし] ます。詳しくは、[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
 ## 自動ターゲットを使用した実際の成功事例{#success}
 
