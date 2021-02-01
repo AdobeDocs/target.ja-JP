@@ -4,9 +4,9 @@ description: Adobe Target の問題を解決するトピックのリストです
 title: Adobe Targetのトラブルシューティング
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 96%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 96%
 
 * [自動パーソナライゼーションに関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [自動パーソナライゼーションのトラブルシューティング](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md)
 
 ### 多変量分析テスト（MVT）
 
