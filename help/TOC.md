@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 85%
+source-wordcount: '1587'
+ht-degree: 84%
 
 ---
 
@@ -175,6 +175,7 @@ ht-degree: 85%
       + [Analytics for Target の実装](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [ユーザー権限の要件](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Analyticsをレポートソースとして使用するアクティビティの作成](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Analytics トラッキングサーバーの使用](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T レポート](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
