@@ -4,9 +4,9 @@ description: A4Tを自動ターゲットと自動配分のアクティビティ�
 title: 自動配分と自動ターゲットアクティビティのA4Tのサポート
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 
 1. **[!UICONTROL 目標と設定]**&#x200B;ページで&#x200B;**[!UICONTROL レポートソース]**&#x200B;に対して&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;を選択し、目的の最適化目標に対応するレポートスイートを選択します。
 
+   ![目標と設定ページの「レポートソース」セクション](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. プライマリ目標指標を選択します。
 
    * **[!UICONTROL コンバージョン]**&#x200B;を選択して[!DNL Adobe Target]を使用し、最適化目標を指定します。
    * 「**[!UICONTROL Analytics指標]**&#x200B;を使用」を選択し、[!DNL Analytics]から最適化目標として使用する指標を選択します。 デフォルトの[!DNL Analytics]コンバージョン指標または[!DNL Analytics]カスタムイベントを使用できます。
+
+   詳しくは、[サポートされる目標指標](#supported)を参照してください。
 
 1. アクティビティを保存してアクティブ化します。
 
@@ -51,7 +55,7 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 
 1. **[!UICONTROL 「レポート]**」タブを使用して、[!DNL Adobe Analytics]指標を選択してアクティビティのレポートを表示します。 Analytics ]**の**[!UICONTROL &#x200B;表示をクリックして詳細を調べ、レポートデータをさらにセグメント化します。
 
-## サポートされる目標指標
+## サポートされる目標指標{#supported}
 
 [!UICONTROL A4] 自動配分と    自動ターゲットレットの場合、最適化の主な目標指標として次の指標タイプを選択します。
 
