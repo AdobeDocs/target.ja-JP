@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: 自動配分の作成；A/Bテスト；自動配分アクティビティ；新しいa/bアクティビティ；自動配分；最適なエクスペリエンスに自動配分；割り当て；自動配分
 description: Adobe TargetのVisual Experience Composer(VEC)を使用して、ターゲット対応ページに直接自動配分A/Bテストアクティビティを作成し、ターゲット内でページの一部を変更します。
 title: 自動配分アクティビティの作成
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 60%
+source-wordcount: '916'
+ht-degree: 57%
 
 ---
 
@@ -119,6 +119,10 @@ ht-degree: 60%
 1. アクティビティの[目標と設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)を指定します。
 
    ![A/B アクティビティ設定](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >このアクティビティで[ターゲット](/help/c-integrating-target-with-mac/a4t/a4t.md)のAnalytics(A4T)を使用する場合は、[自動配分と自動ターゲットアクティビティ](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)のA4Tのサポートに関する重要な情報を参照してください。
 
 1. 「**[!UICONTROL 保存して閉じる]**」または「**[!UICONTROL 保存]**」をクリックします。
 
