@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Target のレポートソースとしての Analytics
 description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
 title: A4Tをレポートソースとして使用するアクティビティの作成
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '653'
 ht-degree: 39%
 
 ---
@@ -71,3 +71,6 @@ ht-degree: 39%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
+## A4Tおよび自動配分と自動ターゲットのアクティビティ
+
+詳しくは、[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
