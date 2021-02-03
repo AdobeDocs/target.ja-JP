@@ -4,7 +4,7 @@ description: 多変量分析テストでは複数のエクスペリエンスを�
 title: テストを成功させるために必要なトラフィックの見積もり
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%
