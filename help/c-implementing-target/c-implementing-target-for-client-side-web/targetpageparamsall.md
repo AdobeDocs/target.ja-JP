@@ -1,12 +1,12 @@
 ---
-keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;ページパラメーター;at.js;関数
 description: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
-title: targetPageParamsAll()
+title: Targetpageparamsall()
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '152'
 ht-degree: 87%
 
 ---
