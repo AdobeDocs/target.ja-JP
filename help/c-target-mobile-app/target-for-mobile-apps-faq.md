@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: モバイルアプリ；よくある質問；faq;ターゲットモバイルアプリ
 description: モバイルアプリ用Adobe Targetに関するよくある質問(FAQ)です。
-title: モバイルアプリ用Adobe Targetに関するよくある質問(FAQ)
-feature: mobile implementation
+title: モバイルアプリのターゲットに関するよくある質問(FAQ)
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Experience Platform Launch]を使用してSDKをデプロイする必要がありますか。それとも[!DNL Launch]を使用せずにSDKをデプロイできますか。
 
-SDKは、[Adobe Marketing Cloudgit](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)で使用できます。 [「](https://experienceleague.adobe.com/docs/launch/using/overview.html)起動&lt;a1/>」を使用しない場合は、独自の設定ファイルを管理し、アプリで管理する必要があります。
+SDKは、[Adobe Marketing Cloudgit](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)で使用できます。 [「](https://experienceleague.adobe.com/docs/launch/using/overview.html)起動」を使用しない場合は、独自の設定ファイルを管理し、アプリで管理する必要があります。
 
 ## 現在、どのSDKを利用できますか。
 
