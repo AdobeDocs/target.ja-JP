@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
+keywords: faq;よくある質問;analytics for target;セグメント;a4T;レポートの共有
 description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の指標、オーディエンス、レポートの共有に関するよくある質問に対する回答が含まれています。
-title: 指標、オーディエンス、レポートの共有 - A4T FAQ
+title: 指標、オーディエンスおよびレポートの共有 — A4T FAQ
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 84%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
