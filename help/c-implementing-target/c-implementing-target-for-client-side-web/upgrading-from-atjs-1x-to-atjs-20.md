@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
+keywords: at.js リリース;at.js バージョンs;シングルページアプリ;spa;クロスドメイン;ドメイン間
 description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
-title: Adobe Target の at js バージョン 1.*x* から at.js バージョン 2.0.0 へのアップグレード*x*
+title: at.jsバージョン1.xからバージョン2.xへのアップグレード
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2757'
 ht-degree: 92%
 
 ---
