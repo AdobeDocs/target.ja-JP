@@ -4,7 +4,7 @@ description: A4Tを自動ターゲットと自動配分のアクティビティ�
 title: 自動配分と自動ターゲットアクティビティのA4Tのサポート
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 2%
