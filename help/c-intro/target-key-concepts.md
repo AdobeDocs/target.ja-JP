@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: Adobe Target の機能を理解するのに役立つ主要概念について説明します。
-title: Target の主要概念
+keywords: 概要とリファレンス;アクティビティ
+description: ターゲットを理解し、使用する方法
+title: キーコンセプト
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 98%
 
 ---
