@@ -1,13 +1,13 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
+keywords: 条件のシーケンス；複数の条件；アルゴリズム；条件；レコメンデーションの条件；シーケンス；返される項目数の制限；スロットレベルの制御；スロット
 description: 最大5つの条件のシーケンスを使用して、Adobe TargetRecommendationsアクティビティに表示される項目をより詳細に制御します。
 title: 条件のシーケンスの作成
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 35%
+source-wordcount: '826'
+ht-degree: 34%
 
 ---
 
