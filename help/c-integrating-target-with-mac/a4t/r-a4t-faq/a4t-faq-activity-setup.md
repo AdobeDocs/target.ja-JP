@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
+keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
 description: このトピックには、アクティビティの設定と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
-title: アクティビティの設定 - A4T FAQ
+title: アクティビティ設定 — A4T FAQ
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 36%
 
 ---
