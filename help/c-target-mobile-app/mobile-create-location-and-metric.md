@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
+keywords: モバイルアプリ;　モバイルアプリの場所;　targetモバイルアプリ;　モバイルターゲット場所;　モバイルアプリ成功指標
 description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
-title: iOS - Target の位置と成功指標の作成
-feature: mobile implementation
+title: IOS -ターゲットの場所と成功指標の作成
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
