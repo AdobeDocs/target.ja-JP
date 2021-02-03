@@ -1,13 +1,13 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+keywords: 自動トラフィック配分；ターゲティング；勝者；統計的保証；信頼性；勝者の決定；上昇率；信頼性；デフォルト；デフォルトエクスペリエンス；自動配分；自動配分
 description: 上昇率や信頼性などの重要な指標を調べることで、Adobe Targetでの自動配分A/Bアクティビティの結果を解釈します。
 title: 自動配分レポートの解釈
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1130'
+ht-degree: 47%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->ターゲットは、事前に定義された最小コンバージョン数の後に勝者を表示します。ただし、推奨結果を決定する最終決定は、常にAdobe Target[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)の結果に従う必要があります。 ターゲットは、サイトの基本コンバージョン率や、アクティビティの期間を決定するために計算ツールに入力されるその他の重要な側面については考慮しません。 その結果、ターゲットは、最小限のコンバージョン数に基づいて、保証されるよりも早く勝者を表示する場合があります。 詳しくは、[サンプルサイズ計算ツール](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を参照してください。
+>ターゲットには、事前に定義された最小コンバージョン数の後に勝者が表示されます。ただし、推奨結果を決定する最終決定は、常にAdobe Target[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)の結果に従う必要があります。 ターゲットは、サイトの基本コンバージョン率や、アクティビティの期間を決定するために計算ツールに入力されるその他の重要な側面については考慮しません。 その結果、ターゲットは、最小限のコンバージョン数に基づいて、保証されるよりも早く勝者を表示する場合があります。 詳しくは、[サンプルサイズ計算ツール](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を参照してください。
 
 ## 自動配分アクティビティの上昇率と信頼性のレポートについて理解{#lift-confidence}
 
