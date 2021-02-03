@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing
+keywords: 実装;実装する
 description: Adobe Target を実装する前に対処すべき考慮事項について説明します。
 title: 実装する前に
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 90%
 
 ---
