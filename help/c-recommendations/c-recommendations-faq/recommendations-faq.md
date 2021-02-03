@@ -1,12 +1,12 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
+keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
 description: Adobe TargetRecommendationsアクティビティに関するよくある質問(FAQ)のリスト。
-title: Adobe TargetRecommendationsFAQ
+title: ターゲットRecommendationsFAQ
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2031'
 ht-degree: 80%
 
 ---
