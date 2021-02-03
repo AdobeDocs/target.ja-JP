@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: ターゲット設定；APレポート；自動パーソナライゼーションレポート；アクティビティレベルレポート；オファーレベルレポート；オファー詳細レポート；faq
 description: Automated Personalizationサマリレポートの使用方法
 title: Automated Personalization 概要レポート
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 42%
+source-wordcount: '649'
+ht-degree: 41%
 
 ---
 
