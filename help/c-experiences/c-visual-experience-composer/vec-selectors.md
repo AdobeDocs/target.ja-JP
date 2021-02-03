@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;Landing Page Test
+keywords: エクスペリエンスのターゲット設定;ランディングページテスト
 description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
-title: Visual Experience Composer で使用される要素セレクター
+title: Visual Experience Composer で使用される要素セレクター (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 90%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
