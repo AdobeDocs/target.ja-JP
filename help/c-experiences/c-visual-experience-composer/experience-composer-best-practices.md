@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
+keywords: Visual Experience Composer;Visual Experience Composer のベストプラクティス;Visual Experience Composer の制限事項;Visual Experience Composer の注意事項;VEC のベストプラクティス;VEC
 description: 以下のベストプラクティスは、エクスペリエンスを期待どおりに動作させるために役立ちます。また、Adobe TargetでVisual Experience Composer(VEC)を使用する場合は、注意が必要なヒントや制限事項もあります。
 title: Visual Experience Composer のベストプラクティスと制限事項
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2472'
 ht-degree: 95%
 
 ---
