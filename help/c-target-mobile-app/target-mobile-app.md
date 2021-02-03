@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
+keywords: モバイルアプリ、モバイルアプリプロセス、targetモバイルアプリ、モバイルターゲット場所、モバイルアプリ成功指標
 description: Target を使用して、モバイルアプリの最適化とパーソナライゼーションをおこなうことができます。
 title: モバイルアプリのための Target
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 95%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
