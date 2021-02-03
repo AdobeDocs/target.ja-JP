@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 概要およびリファレンス
 description: 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
 title: 訪問者プロファイル
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
