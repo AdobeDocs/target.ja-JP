@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: 訪問者プロファイル;Target 訪問者プロファイル
 description: Adobe Target でオーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
-title: Adobe Targetオーディエンスの訪問者プロファイルオプション
-feature: audiences
+title: オーディエンスの訪問者プロファイルオプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
