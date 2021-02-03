@@ -4,9 +4,9 @@ description: 最高のセキュリティ標準規格の維持と顧客データ�
 title: TLS（Transport Layer Security）暗号化の変更
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1238'
 ht-degree: 61%
 
 ---
