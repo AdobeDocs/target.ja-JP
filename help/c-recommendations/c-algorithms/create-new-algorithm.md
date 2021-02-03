@@ -1,13 +1,13 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: 条件；アルゴリズム；業種；ページタイプ；レコメンデーションキー；レコメンデーションロジック；データ範囲；行動データソース；部分設計；代替カテゴリ；属性の重み付け；現在の品目；最後の閲覧品目；最後の閲覧カテゴリ；人気；最後の閲覧；最後の閲覧
 description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
 title: 条件の作成
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 66%
+source-wordcount: '2477'
+ht-degree: 65%
 
 ---
 
