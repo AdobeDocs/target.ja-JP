@@ -1,13 +1,13 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
+keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的フィルタリング；静的；静的フィルター
 description: Adobe TargetRecommendationsのインクルージョンルールを使用して、フィルターする1つ以上の静的値を手動で入力します。
-title: Adobe TargetRecommendationsのインクルージョンルールで静的値でフィルター
+title: Adobe TargetRecommendationsのインクルージョンルールの静的値でフィルター
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '225'
+ht-degree: 46%
 
 ---
 
