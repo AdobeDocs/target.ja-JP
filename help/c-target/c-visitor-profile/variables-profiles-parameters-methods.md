@@ -1,12 +1,12 @@
 ---
-keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
+keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
 description: このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 title: プロファイルと変数の用語集
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '582'
 ht-degree: 92%
 
 ---
