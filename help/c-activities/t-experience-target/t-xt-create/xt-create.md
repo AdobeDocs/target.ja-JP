@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;create
+keywords: エクスペリエンスのターゲット設定；xt；作成
 description: Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定（XT）アクティビティを作成し、Adobe Target 内でページの一部を変更できます。
 title: エクスペリエンスのターゲット設定アクティビティの作成
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
