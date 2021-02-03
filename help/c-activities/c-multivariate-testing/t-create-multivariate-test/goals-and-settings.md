@@ -1,18 +1,18 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: アクティビティ設定；目標と設定；多変量分析；mvt
 description: Adobe Targetの目標と設定ページでは、テストの目標に関する情報を入力します。
 title: 目標と設定
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 93%
+source-wordcount: '1265'
+ht-degree: 92%
 
 ---
 
 
-# 目標と設定 (多変量分析テスト)
+# 目標と設定（多変量分析テスト）
 
 Adobe Targetの目標と設定ページでは、[!UICONTROL 多変量分析](MVT)テストの目標に関する情報を入力します。
 
