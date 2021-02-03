@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
+keywords: FAQ;よくある質問;analytics for target;A4T;指標;指標の定義
 description: このトピックには、指標の定義と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
 title: 指標の定義 - A4T FAQ
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 65%
+source-wordcount: '379'
+ht-degree: 67%
 
 ---
 
