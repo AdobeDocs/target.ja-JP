@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;create remote offer
+keywords: リモートオファー;リモートオファーの作成
 description: JSONオファーの作成方法を教えてください。
 title: JSON オファーの作成
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 57%
+source-wordcount: '388'
+ht-degree: 58%
 
 ---
 
