@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: Adobe Targetのドキュメントには、ユーザインターフェイス、SKD、APIの概要、チュートリアル、ガイドなど、複数の形式が用意されています。
-title: ターゲットのお知らせ
+keywords: adobeターゲット;ターゲット；ドキュメント；api;api;api;sdk;sdk；チュートリアル；doc;documentation
+description: ターゲットのドキュメントはどこで入手できますか。
+title: ドキュメントの概要
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
