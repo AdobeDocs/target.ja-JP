@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: 概要とリファレンス;webkit
 description: Cookie の動作は、その Cookie がファーストパーティ Cookie であるか、ファーストパーティ Cookie を伴うサードパーティ Cookie であるか、サードパーティ Cookie のみであるかによって異なります。
-title: mbox.js の Cookie
-feature: null
+title: mbox.jsのCookie
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 94%
 
 ---
