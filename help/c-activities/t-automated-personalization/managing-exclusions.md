@@ -1,14 +1,14 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
+keywords: 重複除外；重複を許可；重複オファーを除外；自動パーソナライゼーション；重複オファーを許可しない；除外；デフォルトコンテンツ；除外グループ；
 description: Adobe Target の自動パーソナライゼーション（AP）アクティビティでの除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。
 title: 除外の管理
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 94%
+source-wordcount: '981'
+ht-degree: 92%
 
 ---
 
