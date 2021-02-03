@@ -1,12 +1,12 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: このページでは、リリース順に並べられた、Adobe Targetのドキュメントに対する重要な変更をリストしています。
-title: Adobe Target 製品ドキュメントの変更
+keywords: ターゲットドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集；更新；更新
+description: ドキュメントに加えられた変更点
+title: ドキュメントの変更点
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3487'
 ht-degree: 29%
 
 ---
