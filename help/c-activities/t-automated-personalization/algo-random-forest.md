@@ -1,12 +1,12 @@
 ---
-keywords: random forest;decision tree;ap;Automated Personalization
+keywords: ランダムフォレスト；デシジョンツリー；ap;Automated Personalization
 description: Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
 title: ランダムフォレストアルゴリズム
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1463'
 ht-degree: 97%
 
 ---
