@@ -1,13 +1,13 @@
 ---
-keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
+keywords: at.js;at.js のデバッグ;Adobe Experience Cloud デバッガー;Experience Cloud デバッガー;mbox トレース;mbox ハイライト;デバッグ;デバッグ処理
 description: Target の実装をすばやく簡単に理解できる Adobe Experience Cloud デバッガー拡張を使用する方法について説明します。
-title: Adobe Experience Cloud デバッガーを使用した at.js のデバッグ
+title: Adobe Experience Cloudデバッガを使用したAt.Jsのデバッグ
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 83%
+source-wordcount: '196'
+ht-degree: 81%
 
 ---
 
