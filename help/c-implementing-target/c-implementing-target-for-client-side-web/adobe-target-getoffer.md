@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;関数
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffer(options) 関数について説明します。
-title: adobe.target.getOffer(options)
+title: Adobe.Target.Getoffer(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 97%
+source-wordcount: '463'
+ht-degree: 96%
 
 ---
 
