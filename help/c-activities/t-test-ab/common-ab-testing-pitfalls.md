@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB;A/B;AB...n；エラー；落とし；間違い；落とし；有意性；勝者；統計的差異；統計的差異；統計的検出力；トラフィック配分；配分；;
 description: Adobe TargetでのA/Bテストは、ほとんどのデジタルマーケティング最適化プログラムのバックボーンであり、マーケターが訪問者や顧客に対して最適化され、ターゲット設定されたエクスペリエンスをオファーするのに役立ちます。 ここでは、Adobe TargetでA/Bテストを行う際に会社が悪影響を受ける最も重要な問題の9つについて説明します。 また、回避方法についても説明し、会社がテストの取り組みを通じてより優れた ROI を達成し、レポートされた A/B テストの結果の信頼性が高まります。
 title: 9 つの一般的な A/B テストの落とし穴と回避方法
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
-ht-degree: 87%
+source-wordcount: '3940'
+ht-degree: 86%
 
 ---
 
