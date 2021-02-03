@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
+keywords: ターゲット；レポート；レポート設定；複数の指標；指標；表示指標；非表示指標
 description: Adobe Targetを使用したレポートで表示する複数の指標を選択します。
-title: Adobe Targetを使用したレポートでの複数の指標の表示
+title: レポートに複数の指標を表示
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 61%
+source-wordcount: '427'
+ht-degree: 62%
 
 ---
 
