@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
+keywords: 実装;mbox.js; DOM 操作ライブラリ;target.js;Visual Experience Composer;iframe;角度サイト;単一ページアプリケーション;単一ページアプリ;SPA
 description: 技術担当者が、mbox.js の実装とユーザーのサイトに与える影響を理解するのに役立つ情報を紹介します。
 title: mbox.js の機能
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 81%
 
 ---
 
