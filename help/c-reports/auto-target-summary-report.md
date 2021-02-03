@@ -1,12 +1,12 @@
 ---
-keywords: reports;auto-target;auto target;AT;report
+keywords: レポート；自動ターゲット；自動ターゲット;AT；レポート
 description: Adobe Targetの自動ターゲットの概要レポートの解釈方法に関する情報です。
 title: 自動ターゲット概要レポート
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '672'
 ht-degree: 55%
 
 ---
