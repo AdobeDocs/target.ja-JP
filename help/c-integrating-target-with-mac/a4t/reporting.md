@@ -1,13 +1,13 @@
 ---
-keywords: analytics for target;a4t;analytics as the reporting source
+keywords: analytics for target;A4T;レポートソースとしての analytics
 description: Analytics を Target のレポートソースとして使用すると（A4T）、Target アクティビティに関する Analytics レポートを利用できるようになります。
 title: A4T レポート
-feature: a4t reports
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 35%
+source-wordcount: '677'
+ht-degree: 36%
 
 ---
 
