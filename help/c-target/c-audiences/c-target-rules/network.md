@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: ターゲット設定、network、ターゲットネットワーク、isp、domain name、接続速度、target isp、targetドメイン名、ターゲット接続速度
 description: Adobe Target でネットワークの詳細に基づいたオーディエンスを作成できます。
-title: Adobe Targetオーディエンスのネットワークオプション
-feature: audiences
+title: オーディエンスのネットワークオプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '497'
 ht-degree: 98%
 
 ---
