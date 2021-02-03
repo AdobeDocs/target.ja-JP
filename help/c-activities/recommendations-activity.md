@@ -4,9 +4,9 @@ description: Adobe TargetのRecommendationsアクティビティは、以前の�
 title: Recommendations アクティビティ
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 47%
 
 ---
