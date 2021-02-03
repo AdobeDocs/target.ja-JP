@@ -1,12 +1,12 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Adobe Target Visual Experience Composer（VEC）ヘルパーブラウザー拡張を使用して、VEC 内で確実に Web サイトを読み込み、エクスペリエンスを迅速に作成および QA する方法について説明します。
-title: Adobe Target Visual Experience Composer（VEC）ヘルパー拡張
+title: Visual Experience Composer(VEC)ヘルパー拡張
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 54%
 
 ---
@@ -74,7 +74,7 @@ ChromeのVEC Helperブラウザー拡張機能を使用すると、サイト読�
 
    このフラグはグローバル設定であることに注意してください。このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定し、既にat.jsを使用して実装されているWebサイトを開くと、at.jsが既に読み込まれていることを知らせるメッセージが表示されます。 ほとんどのお客様は、既にページにat.jsが実装されており、デフォルト設定の「オフ」を使用することを予期しています。
 
-* この拡張機能は、[!DNL Target UI]の[!UICONTROL 管理/実装]にある&lt;a0/>から入手できる最新バージョンのat.jsを読み込みます。
+* この拡張機能は、[!DNL Target UI]の[!UICONTROL 管理/実装]にあるから入手できる最新バージョンのat.jsを読み込みます。
 * 拡張機能を使用して [QA モード](/help/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 
