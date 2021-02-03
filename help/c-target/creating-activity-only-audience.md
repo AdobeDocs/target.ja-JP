@@ -1,13 +1,13 @@
 ---
-keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
+keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、アクティビティのみ、activity- only、アドホック
 description: アクティビティのみのオーディエンスは、Adobe Target でアクティビティを作成するときに 3 ステップのガイドによるワークフローを使用して作成します。これらのアドホックオーディエンスは、同じアクティビティ内の他の場所でも使用できますが、他のアクティビティで使用できるようにオーディエンスライブラリに保存されることはありません。
-title: アクティビティのみのオーディエンスの作成（Adobe Target）
-feature: audiences
+title: アクティビティのみのオーディエンスの作成
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 99%
 
 ---
 
