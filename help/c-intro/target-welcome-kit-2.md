@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
 description: Adobe Targetウェルカムキット — 第2章 —ターゲットの概要
-title: Adobe Targetウェルカムキット — 第2章 —ターゲットの概要
+title: ウェルカムキット — 第2章 — 概要
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2510'
 ht-degree: 17%
 
 ---
