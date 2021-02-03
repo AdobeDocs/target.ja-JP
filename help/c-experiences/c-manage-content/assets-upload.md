@@ -1,13 +1,13 @@
 ---
-keywords: content;update content;assets;upload content;upload asset
+keywords: コンテンツ;コンテンツの更新;アセット;コンテンツのアップロード;アセットのアップロード
 description: 画像をアップロードして画像オファーとして使用する方法を教えてください。
-title: コンテンツのアップロード
+title: コンテンツをアップロード
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 17%
+source-wordcount: '223'
+ht-degree: 19%
 
 ---
 
