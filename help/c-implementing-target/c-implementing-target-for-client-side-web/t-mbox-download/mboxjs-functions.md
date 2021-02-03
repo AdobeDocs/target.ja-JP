@@ -1,13 +1,13 @@
 ---
-keywords: mbox functions
+keywords: mbox 関数
 description: mbox.js で実装するときに使用する mbox.js 関数のリスト。
 title: mbox.js 関数
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 58%
+source-wordcount: '180'
+ht-degree: 59%
 
 ---
 
