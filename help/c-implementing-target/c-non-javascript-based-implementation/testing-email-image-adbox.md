@@ -1,13 +1,13 @@
 ---
 keywords: email;adbox;email image adbox
 description: Adobe Targetを使って、電子メールの画像を動的にテストし、電子メールを開いたときにその場で画像を変更することもできます。
-title: Adobe Targetを使用した電子メール画像Adboxのテスト
-feature: email implementation
+title: 電子メール画像 adbox のテスト
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 92%
+source-wordcount: '415'
+ht-degree: 93%
 
 ---
 
