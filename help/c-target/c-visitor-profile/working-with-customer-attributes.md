@@ -1,12 +1,12 @@
 ---
-keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+keywords: 顧客関係管理；顧客レコードサービス；crs;crm;mbox3rdpartyid；顧客属性；ターゲット；csv;crm;adobe experience cloud人
 description: Adobe Experience Cloud人サービスの顧客属性を使用した、Adobe Targetのコンテンツターゲティング用に、顧客関係管理(CRM)データベースの企業顧客データを使用する方法に関する情報です。
-title: Adobe Targetの顧客属性
-feature: visitor profiles
+title: 顧客属性
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1504'
 ht-degree: 37%
 
 ---
