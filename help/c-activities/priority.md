@@ -1,12 +1,12 @@
 ---
-keywords: settings;priority
+keywords: 設定;優先度
 description: Adobe Targetは、使用するアクティビティインターフェイスとアクティビティ作成機能（Visual Experience ComposerまたはフォームベースのComposer）に応じて、どのターゲット(またはアクティビティ)をページに配信するかを決定します。
-title: Adobe Targetの優先順位
+title: 優先度
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 88%
 
 ---
