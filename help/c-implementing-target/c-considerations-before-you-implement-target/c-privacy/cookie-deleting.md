@@ -1,12 +1,12 @@
 ---
-keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
+keywords: cookie;cookie;cookieの削除；ターゲットcookieの削除；google chrome;chrome;mozilla;firefox;microsoft edge;safari
 description: すべてのエクスペリエンスを検証できるようにするには、ブラウザーの Target の Cookie を削除します。
-title: Adobe TargetCookieの削除
+title: Target の Cookie の削除
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 9%
 
 ---
