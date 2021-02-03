@@ -1,13 +1,13 @@
 ---
-keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
+keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
 description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
 title: カスタムエンティティの属性
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1391'
 ht-degree: 91%
 
 ---
