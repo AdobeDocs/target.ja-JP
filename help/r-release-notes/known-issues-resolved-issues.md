@@ -1,12 +1,12 @@
 ---
-keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: このリリースの Adobe Target の既知の問題について説明します。また、解決された問題に関する情報も含まれています。
-title: Adobe Target の既知の問題と解決された問題
-feature: known issues
+keywords: 既知の問題；解決された問題；リリースノート；バグ；問題；修正点
+description: 既知の問題と解決された問題はどこで見つけられますか？
+title: 既知の問題と解決された問題
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4355'
 ht-degree: 69%
 
 ---
