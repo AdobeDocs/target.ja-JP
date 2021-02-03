@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: ハイブリッド展開；ハイブリッド；サーバー側；サーバー側；サーバー側；クライアント側；クライアント側；クライアント側；ハイブリッド実装
 description: Adobe Targetオファーは、クライアント側とサーバー側の実装をパーソナライズ、ブレンドする独自のハイブリッド展開モデルです。
 title: ハイブリッド実装
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
