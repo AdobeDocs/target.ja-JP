@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
 description: Adobe Targetを使用してExcel、Accessまたはその他のデータ分析プログラムにすばやくインポートするには、.csv形式のデータをダウンロードします。
-title: Adobe Targetを使用したCSVファイル内のデータのダウンロード
+title: CSVファイル内のデータのダウンロード
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 83%
 
 ---
