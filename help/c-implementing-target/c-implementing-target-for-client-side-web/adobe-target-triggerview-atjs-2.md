@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;関数;viewName;viewname;view name
 description: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
-title: adobe.target.triggerView (viewName, options) - at.js 2.x
+title: Adobe.ターゲット.トリガービュー（Viewname、オプション） - at.js 2.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 92%
+source-wordcount: '276'
+ht-degree: 91%
 
 ---
 
