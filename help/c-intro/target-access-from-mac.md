@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud;sign in;language;default ui language;default language
-description: Adobe Experience Cloud から Adobe Target へのアクセスについて説明しています。
-title: Adobe Experience Cloud からの Target へのアクセス
+keywords: Experience Cloud；サインイン；言語；デフォルトのui言語；デフォルトの言語
+description: Adobe Experience Cloudのターゲットにアクセスする方法
+title: Adobe Experience Cloudからのアクセスターゲット
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 76%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 
