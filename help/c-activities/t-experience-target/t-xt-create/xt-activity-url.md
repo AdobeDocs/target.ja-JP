@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;activity url;url
+keywords: エクスペリエンスのターゲット設定；xt;アクティビティurl;url
 description: アクティビティURLは、Adobe Targetのエクスペリエンスのターゲット設定アクティビティで使用されるページを決定します。このページは、アクティビティのデザイン時にVisual Experience Composer(VEC)またはフォームベースのExperience Composerで開きます。
 title: アクティビティ URL
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '286'
+ht-degree: 65%
 
 ---
 
