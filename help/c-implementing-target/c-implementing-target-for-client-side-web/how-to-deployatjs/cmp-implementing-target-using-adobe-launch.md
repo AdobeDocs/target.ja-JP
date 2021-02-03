@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
+keywords: 実装；実装；実装；adobe launch;launch;race;redirect；エクスペリエンスプラットフォームの起動
 description: Adobe Experience Platform Launchは、Adobeの次世代タグ管理プラットフォームで、Adobe Targetを導入するのに好ましい方法です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
-title: Adobe Launch を使用した Target の実装
+title: Adobe Launch を使用した の実装
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 81%
+source-wordcount: '474'
+ht-degree: 79%
 
 ---
 
