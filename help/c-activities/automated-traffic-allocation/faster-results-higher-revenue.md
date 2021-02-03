@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
+keywords: 自動トラフィック配分；ターゲット設定；自動配分；自動配分
 description: Adobe Targetの自動配分アクティビティは、2つ以上のエクスペリエンスのうちの勝者を識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再配分して、コンバージョンを増やします。
-title: 自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します
+title: 自動配分は、手動のテストよりもテスト結果を高速にし、売上高を高くすることができます。
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
