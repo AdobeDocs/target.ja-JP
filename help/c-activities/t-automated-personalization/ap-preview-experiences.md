@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;preview;exclude experience;
+keywords: Automated Personalization；アプリ；プレビュー；エクスペリエンスを除外；
 description: 自動パーソナライゼーション（AP）アクティビティでは、ページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
-title: Adobe Target Visual Experience Composer での自動パーソナライゼーション（AP）アクティビティのエクスペリエンスのプレビュー
-feature: ap
+title: Visual Experience Composer(VEC)でのプレビューAutomated Personalizationエクスペリエンス
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 61%
+source-wordcount: '260'
+ht-degree: 55%
 
 ---
 
