@@ -1,13 +1,13 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: シングルページアプリケーション実装；シングルページアプリケーションの実装；spa;at.js 2.x;at.js；シングルページアプリケーション；spa;spa;SPA
 description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-title: Adobe Target でのシングルページアプリケーションの実装
+title: 単一ページアプリの実装
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 74%
+source-wordcount: '2769'
+ht-degree: 73%
 
 ---
 
@@ -208,7 +208,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
 | 手順 | 詳細 |
 | --- | --- |
-| 1 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
+| 3 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
 | 2 | ビューのターゲットコンテンツがキャッシュから読み取られます。 |
 | 3 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
 | 4 | 通知リクエストが [!DNL Target] プロファイルストア に送信され、アクティビティで訪問者がカウントされ、指標が増分されます。 |
@@ -282,7 +282,7 @@ at.js 2.x APIを使用すると、様々な点で[!DNL Target]実装をカスタ
 
 | 手順 | アクション | 詳細 |
 | --- | --- | --- |
-| 1 | VisitorAPI JSを読み込む | このライブラリは、訪問者にECIDを割り当てます。 このIDは、後でWebページ上の他の[!DNL Adobe]ソリューションで使用されます。 |
+| 3 | VisitorAPI JSを読み込む | このライブラリは、訪問者にECIDを割り当てます。 このIDは、後でWebページ上の他の[!DNL Adobe]ソリューションで使用されます。 |
 | 2 | at.js 2.xを読み込む | at.js 2.xは、[!DNL Target]リクエストと表示の実装に使用する必要なAPIをすべて読み込みます。 |
 | 3 | [!DNL Target]リクエストを実行 | データレイヤーがある場合は、[!DNL Target]リクエストを実行する前に[!DNL Target]に送信する必要のある重要なデータを読み込むことをお勧めします。 これにより、`targetPageParams`を使用して、ターゲット設定に使用したい任意のデータを送信できます。 このAPI呼び出しでは、必ずexecute > pageLoadおよびprefetch >表示をリクエストする必要があります。 `pageLoadEnabled`と`viewsEnabled`を設定した場合、ステップ2では、execute > pageLoadとprefetch >の両方の表示が自動的に発生します。それ以外の場合は、`getOffers()` APIを使用してこのリクエストを行う必要があります。 |
 | 4 | 呼び出し `triggerView()` | 手順3で開始した[!DNL Target]リクエストは、ページ読み込みの実行と表示の両方のエクスペリエンスを返す可能性があるので、[!DNL Target]リクエストが返された後に`triggerView()`が呼び出され、オファーのキャッシュへの適用が完了したことを確認します。 この手順は、表示ごとに1回だけ実行する必要があります。 |
