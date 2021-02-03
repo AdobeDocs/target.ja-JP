@@ -1,12 +1,12 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
+keywords: A4T;分析;ターゲットの分析;analytics レポートソース;ターゲットのレポートソースとしての adobe analytics
 description: アドビの「Analytics for Target」（A4T）は、Analytics のコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できるクロスソリューション統合です。この統合により、Analytics レポートを使用して結果を確認できます。Analytics をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて Analytics のデータ収集に基づいておこなわれます。
-title: Adobe Target のレポートソースとしての Adobe Analytics（A4T）
+title: レポートソースとしてのAdobe Analytics(A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1314'
 ht-degree: 45%
 
 ---
