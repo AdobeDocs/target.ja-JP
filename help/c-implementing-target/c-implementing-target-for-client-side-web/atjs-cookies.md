@@ -1,12 +1,12 @@
 ---
-keywords: at.js;2.0;1.x;cookies
+keywords: at.js;2.0;1.x;Cookie
 description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
-title: Adobe Target の at.js の Cookie
+title: at.jsのCookie
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1821'
 ht-degree: 98%
 
 ---
