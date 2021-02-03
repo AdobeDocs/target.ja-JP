@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲット設定；コンテンツの比較；自動ターゲット；自動配分
 description: 手動のA/Bテストアクティビティでは、事前に指定したテスト期間中に、Webサイトコンテンツの複数のバージョンを比較して、どのバージョンが最もコンバージョンの向上に役立つかを確認します。
 title: A/Bテストの概要
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '765'
 ht-degree: 38%
 
 ---
