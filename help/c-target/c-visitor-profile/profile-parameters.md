@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: プロファイルスクリプト；プロファイルスクリプト属性；プロファイルスクリプトのベストプラクティス；デバッグ；デバッグ；スクリプト；プロファイルスクリプト；属性；属性；パラメータ
 description: プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、Adobe Target アクティビティで使用可能な訪問者に関する情報を提供します。
-title: Adobe Target のプロファイル属性
-feature: visitor profiles
+title: プロファイル属性
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2460'
 ht-degree: 77%
 
 ---
@@ -165,7 +165,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグ**
 
-   このメソッドには、**[!UICONTROL ターゲット]**/**[!UICONTROL 管理]**/**[!UICONTROL 実装]**/**[!UICONTROL デバッガツール]の&lt;a0/>生成認証トークンが必要です。]**[!UICONTROL 
+   このメソッドには、**[!UICONTROL ターゲット]**/**[!UICONTROL 管理]**/**[!UICONTROL 実装]**/**[!UICONTROL デバッガツール]の]**&#x200B;生成認証トークンが必要です。[!UICONTROL 
 
    その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の &quot;?&quot; のうしろに加えます。
 
