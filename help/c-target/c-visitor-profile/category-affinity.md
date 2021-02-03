@@ -1,10 +1,10 @@
 ---
-keywords: affinity;category affinity
+keywords: 親和性、カテゴリ親和性
 description: Adobe Target のカテゴリ親和性機能では、ターゲット設定とセグメント化のために、ユーザーが訪問するカテゴリを自動的にキャプチャし、そのカテゴリに対するユーザーの親和性を計算します。これによって、コンテンツをその情報に基づいて行動を起こす可能性が最も高い訪問者にターゲット設定することができます。
-title: Adobe Target でのカテゴリ親和性の使用
-feature: visitor profiles
+title: カテゴリアフィニティの使用
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%
