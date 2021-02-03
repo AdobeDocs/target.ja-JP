@@ -4,9 +4,9 @@ description: Adobe Targetを使用してA/Aテストをサイトで実行する�
 title: A/Aテスト
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '909'
 ht-degree: 1%
 
 ---
