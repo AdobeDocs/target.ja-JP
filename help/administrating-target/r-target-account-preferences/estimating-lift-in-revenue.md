@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: 売上高上昇;売上高;売上高上昇の予測;上昇率の計算;予測値
 description: すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測するには、Adobe Targetを使用します。
 title: 売上高上昇の予測
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---
