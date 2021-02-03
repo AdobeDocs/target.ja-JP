@@ -1,13 +1,13 @@
 ---
-keywords: mvt;multivariate test;offers;combinations
+keywords: mvt；多変量分析テスト；オファー；組み合わせ
 description: Adobe Target で Visual Experience Composer（VEC） を使用して、多変量分析テスト（MVT）に組み込むオファーを作成します。
-title: Adobe Target を使用した多変量分析テスト（MVT）の組み合わせの作成
+title: 多変量分析テストでの組み合わせの作成(MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 96%
+source-wordcount: '505'
+ht-degree: 93%
 
 ---
 
