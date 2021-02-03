@@ -1,13 +1,13 @@
 ---
-keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+keywords: レポート；レポート；レポート；エクスペリエンスクラウドソリューション；タイムゾーン；タイムゾーン；通貨；IPの除外；売上高の予測上昇；売上高の上昇；詳細な優先度；細かい設定の
 description: ターゲットアカウント全体に適用するAdobe Targetレポートで使用する一般設定を構成します。 レポート(ターゲットまたはAnalytics)、レポートに使用するタイムゾーンと通貨の形式、レポートから除外するIPアドレス、および売上高の予測上昇率を表示するかどうか、およびレポートの優先度を細かく設定するかどうかについて、Adobe Experience Cloudを設定できます。
-title: Adobe Targetでのレポートの設定
+title: レポートの設定
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 30%
+source-wordcount: '728'
+ht-degree: 29%
 
 ---
 
