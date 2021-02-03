@@ -1,12 +1,12 @@
 ---
-keywords: traffic estimator;automated personalization;ap;estimate traffic
+keywords: トラフィック見積もり；自動パーソナライゼーション；ap；トラフィックの見積もり
 description: トラフィック見積もりでは、Adobe Targetアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックを提供します。
 title: 成功のために必要なトラフィックの見積もり
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '738'
 ht-degree: 22%
 
 ---
