@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: 目標と設定；目標；優先度；期間
 description: Adobe Targetのアクティビティ設定を使用して、アクティビティの目的、優先度、期間を管理します。
 title: アクティビティの設定
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 
