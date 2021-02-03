@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
 description: オーディエンスは、Adobe Targetアクティビティに入力するサイト訪問者を決定します。
 title: オーディエンスの選択
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 92%
 
 ---
