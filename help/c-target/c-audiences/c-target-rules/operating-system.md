@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
+keywords: ターゲット設定、targetオペレーティングシステム、オペレーティングシステム、target os、os、target linux、linux、ターゲットウィンドウ、windows、target Macintosh、Macintosh、mac、ターゲットmac、win、ターゲットwin
 description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
-title: Adobe Targetオーディエンスのオペレーティングシステムオプション
-feature: audiences
+title: オペレーティングシステム オーディエンスのオプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 92%
+source-wordcount: '121'
+ht-degree: 97%
 
 ---
 
