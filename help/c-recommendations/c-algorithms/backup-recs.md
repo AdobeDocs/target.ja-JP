@@ -1,13 +1,13 @@
 ---
-keywords: recommendation;backup;back up
+keywords: レコメンデーション;代替;予備
 description: Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
-title: 代替レコメンデーションの使用 adobe targetRecommendationsで
+title: ターゲットRecommendationsでの代替レコメンデーションの使用
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '526'
+ht-degree: 82%
 
 ---
 
