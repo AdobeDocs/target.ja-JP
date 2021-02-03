@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience filter;audiences;filter
+keywords: ターゲット設定；オーディエンスフィルタ；オーディエンス；フィルタ
 description: Adobe Target(またはオーディエンス)のオーディエンスフィルターは、特定の特性または一連の特性を共有する訪問者のグループです。
-title: Adobe Targetレポートのオーディエンスフィルター
-feature: audiences
+title: レポート用のオーディエンスフィルター
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 80%
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
 
