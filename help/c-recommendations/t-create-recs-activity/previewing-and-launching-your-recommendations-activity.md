@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: 'Adobe TargetRecommendationsのオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのをプレビューして、確実な結果が得られるようにします。 ターゲットRecommendationsは、レコメンデーションをプレビューする複数の方法をオファーしています。 '
-title: 'Adobe TargetRecommendationsのオファーを含むRecommendations、A/Bテストまたはエクスペリエンスターゲット設定(XT)アクティビティを作成したら、アクティビティを起動する前に、そのをプレビューして、確実な結果が得られるようにします。 ターゲットRecommendationsは、レコメンデーションをプレビューする複数の方法をオファーしています。 '
+keywords: Recommendations;オファー;プレビュー；起動；ステータス；基準；アルゴリズム
+description: Adobe TargetRecommendationsのオファーを含むRecommendations、A/Bテスト、またはエクスペリエンスターゲット設定(XT)アクティビティを作成した後、アクティビティを起動する前に、そのにプレビューして、結果が確実に利用できるようにします。 ターゲットRecommendationsは、レコメンデーションをプレビューする複数の方法をオファーしています。
+title: Recommendationsアクティビティのプレビューと起動
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1371'
 ht-degree: 16%
 
 ---
