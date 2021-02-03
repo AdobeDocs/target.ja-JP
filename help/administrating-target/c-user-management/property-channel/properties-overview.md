@@ -1,12 +1,12 @@
 ---
-keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
+keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
 description: ユー追加ザーがAdobe Targetの導入に関与しているかを確認します。ワークスペース、ユーザーグループおよびプロパティの作成ターゲット実装を更新して、at_propertyパラメーターを含めます。ロールと権限を指定します。
 title: Enterprise 権限の設定
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 66%
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
-1. **[!UICONTROL 「]**&#x200B;コピー&lt;a1/>」をクリックして、[5の手順を実行する際に使用するコードをクリップボードにコピーします。at_propertyパラメーター](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)を含めるように実装を更新します。
+1. **[!UICONTROL 「]**&#x200B;コピー」をクリックして、[5の手順を実行する際に使用するコードをクリップボードにコピーします。at_propertyパラメーター](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)を含めるように実装を更新します。
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
