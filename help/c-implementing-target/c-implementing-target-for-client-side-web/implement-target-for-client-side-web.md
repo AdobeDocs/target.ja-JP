@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
+keywords: 実装；実装；at.js;adobe experience platform web sdk;aep web sdk
 description: at.jsを使用したクライアント側Web用のAdobe Targetの実装に関する情報です。
-title: クライアント側 Web 用の Adobe Target の実装
+title: クライアント側Web用のAdobe Targetの実装
 feature: at.js
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 20%
+source-wordcount: '341'
+ht-degree: 18%
 
 ---
 
