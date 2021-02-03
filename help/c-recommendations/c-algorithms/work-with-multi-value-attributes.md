@@ -1,12 +1,12 @@
 ---
-keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
 description: 特殊な複数値演算子を使用したAdobe TargetRecommendationsの複数値フィールドの操作に関する情報です。
-title: Adobe TargetRecommendationsでの複数値の属性の操作
+title: ターゲットRecommendationsの複数値属性の操作
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
