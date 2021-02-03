@@ -1,13 +1,13 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: time frame、start date、終了日、開始日/終了日、時間枠、ターゲットスケジュール、週間の分割、日分割、分割
 description: 開始および終了の日時を追加して、特定の時間枠中にサイトを訪問するユーザーにターゲット設定できます。また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
-title: Adobe Targetオーディエンスの時間枠オプション
-feature: audiences
+title: オーディエンスの時間枠オプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 96%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
