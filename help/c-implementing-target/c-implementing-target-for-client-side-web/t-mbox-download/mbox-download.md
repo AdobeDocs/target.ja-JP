@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+keywords: 実装；mbox;mbox.jsのダウンロード；ダウンロードapi;mbox.js api
 description: Adobe Target標準またはターゲットプレミアムを使用するには、1行のコードを追加してmbox.jsを呼び出します。
 title: mbox.js の実装
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 52%
+source-wordcount: '264'
+ht-degree: 50%
 
 ---
 
