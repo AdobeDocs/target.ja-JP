@@ -1,13 +1,13 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
+keywords: 環境；トラブルシューティング；ベストプラクティス；ubox；リダイレクト；リダイレクト；ホワイトリスト；ブラックリスト；ブロックリスト;許可リスト
 description: サイトと実稼働前の環境を整理し、Adobe Targetでの管理とレポートを容易にします。
 title: 環境
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 65%
+source-wordcount: '668'
+ht-degree: 64%
 
 ---
 
