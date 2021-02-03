@@ -1,13 +1,13 @@
 ---
-keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: A/B;アクティビティ指標;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
 description: Adobe TargetA/Bアクティビティの指標を使用して、訪問が成功かどうかを判断します。
 title: 指標の設定
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 89%
+source-wordcount: '330'
+ht-degree: 90%
 
 ---
 
