@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: モバイルアプリ、モバイルアプリ送信データ、targetモバイルアプリ、モバイルカスタムユーザーデータ、モバイルアプリのカスタムデータ
 description: 場所やユーザーに関する追加情報を名前と値のペアとして Target に送信できます。
-title: iOS - カスタムユーザーデータの送信
-feature: mobile implementation
+title: IOS — カスタムユーザーデータの送信
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 
