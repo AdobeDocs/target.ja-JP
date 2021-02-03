@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience;reporting;success metric
+keywords: ターゲット設定、オーディエンス、レポート、成功指標
 description: Adobe Target でユーザーがレポート用オーディエンスの条件を満たしていると見なすための成功指標を選択します。
-title: Adobe Target での成功指標へのレポート用オーディエンスの適用
-feature: success metrics
+title: レポートオーディエンスの成功指標への適用
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 
