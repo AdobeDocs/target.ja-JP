@@ -1,12 +1,12 @@
 ---
-keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
+keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
 description: Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 title: Recommendations アクティビティの作成
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1311'
 ht-degree: 78%
 
 ---
