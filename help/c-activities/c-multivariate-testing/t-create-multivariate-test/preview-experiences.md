@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: 多変量分析；mvt;プレビュー；エクスペリエンス
 description: Adobe Targetの多変量分析テストでは、ページ上で複数のエクスペリエンスを比較するので、ページを各エクスペリエンスとプレビューすると便利です。
-title: Adobe Targetの多変量分析テストのプレビューエクスペリエンス
+title: 多変量分析テスト(MVT)のプレビューエクスペリエンス
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
