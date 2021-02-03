@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: サイトページ；ターゲットサイトページ；ターゲット；現在のページ；ターゲットの現在のページ；前のページ；ターゲットの前のページ；ランディングページ;ターゲットのランディングページ;httpヘッダ
 description: サイトの特定のページにいるターゲット訪問者を訪問できます。
-title: Adobe Targetオーディエンスのサイトページのオプション
-feature: audiences
+title: オーディエンスのサイトページのオプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
