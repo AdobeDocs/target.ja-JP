@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: ターゲット設定、ターゲットカテゴリ、ターゲット条件、Audience Manager、カスタムプロファイルパラメーター、visitorプロファイル、カスタムユーザーパラメーター、ターゲットルール
 description: どのカテゴリでもターゲットを設定できます。各カテゴリはタブとして機能し、カテゴリごとにターゲットルール（またはグループ）を作成できます。
 title: オーディエンスのカテゴリ
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
