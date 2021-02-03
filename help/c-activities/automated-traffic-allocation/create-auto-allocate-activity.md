@@ -4,7 +4,7 @@ description: Adobe TargetのVisual Experience Composer(VEC)を使用して、タ
 title: 自動配分アクティビティの作成
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 57%
