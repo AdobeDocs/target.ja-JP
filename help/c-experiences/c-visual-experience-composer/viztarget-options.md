@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: visual experience composer のオプション; エクスペリエンスコンポーザーのオプション; エクスペリエンスのオプション; テキストの編集; html の編集; テキスト／html の編集; 背景色の編集; 背景色; 要素の挿入; リンクの編集; リンク; visual experience composer リンク; css クラスの編集; css クラス; オファーの置き換え; オファー置き換え; 画像の置き換え; 画像置き換え; 項目の削除; 項目削除; 項目の非表示; 項目を隠す; 再配置; 要素の移動; 要素移動; 要素のリサイズ; 要素リサイズ; 要素; 選択項目の拡張; このリンクへのナビゲーション; リンクのナビゲーション; リンクのナビゲート; 移動; リンク; 元に戻す; やり直し; 元に戻す／やり直し
 description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
-title: Adobe Target Visual Experience Composer（VEC）オプション
+title: Visual Experience Composer(VEC)のオプション
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2478'
 ht-degree: 94%
 
 ---
