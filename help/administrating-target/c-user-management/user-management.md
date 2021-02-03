@@ -1,13 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
+keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
 description: Adobe Target標準でユーザーを管理し、Adobe TargetプレミアムのEnterpriseプロパティと権限を管理します。
 title: ユーザー管理
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '232'
+ht-degree: 20%
 
 ---
 
