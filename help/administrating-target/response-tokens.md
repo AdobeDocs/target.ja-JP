@@ -1,12 +1,12 @@
 ---
-keywords: response tokens;tokens;plugins;plug-ins;at.js;response
+keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
 description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）とのデバッグや統合に使用する、Adobe Target固有の情報(アクティビティの詳細、ユーザープロファイル情報、地域情報など)を自動的に出力できます
-title: Adobe Target のレスポンストークン
+title: レスポンストークン
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1579'
 ht-degree: 77%
 
 ---
