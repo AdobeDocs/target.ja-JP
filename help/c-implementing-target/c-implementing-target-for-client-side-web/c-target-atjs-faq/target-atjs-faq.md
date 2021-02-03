@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: at.js の FAQ;at.js に関するよくある質問;FAQ;ちらつき;ローダー;ページローダー;クロスドメイン;ファイルサイズ;ファイルのサイズ;x-domain;at.js と mbox.js;x のみ;クロスドメイン;Safari;シングルページアプリ;セレクターが見つかりません;セレクター;シングルページアプリケーション;tt.omtrdc.net;SPA;Adobe Experience Manager;AEM;IP アドレス;httponly;HttpOnly;Secure;IP;Cookie ドメイン
 description: Adobe Target の at.js JavaScript ライブラリに関するよくある質問への回答を紹介します。
-title: Adobe Target の at.js に関するよくある質問
+title: at.js に関するよくある質問
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2698'
 ht-degree: 94%
 
 ---
@@ -89,7 +89,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。詳しくは、[Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)チュートリアルの[追加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)のレッスン「&lt;a2/>WebサイトでExperience Cloudを実装する」を参照してください。
+* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。詳しくは、[Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)チュートリアルの[追加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)のレッスン「WebサイトでExperience Cloudを実装する」を参照してください。
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。例えば、次のようにします。
 
    ```
