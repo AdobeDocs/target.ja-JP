@@ -1,13 +1,13 @@
 ---
-keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
+keywords: システムダイアグラム；ちらつき；at.js；実装；javascriptライブラリ；js;atjs
 description: at.js を使用している自動作成されたグローバル mbox 用に送信または収集した呼び出しおよび情報の流れを表す、Adobe Target のシステム図です。
-title: at.js JavaScriptライブラリの動作
+title: at.js Javascriptライブラリの仕組み
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 88%
+source-wordcount: '1113'
+ht-degree: 87%
 
 ---
 
