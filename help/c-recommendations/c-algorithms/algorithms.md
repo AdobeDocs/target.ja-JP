@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: レコメンデーション；レコメンデーションアクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リードジェネレーション；b2b；金融サービス；メディア；公開
 description: Adobe Targetの条件とは、事前に決められた一連の訪問者行動に基づいて、どの商品やコンテンツをレコメンデーションするかを決定するルールです。
-title: Adobe TargetRecommendationsの基準
+title: ターゲットRecommendationsの基準
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 53%
+source-wordcount: '1079'
+ht-degree: 52%
 
 ---
 
