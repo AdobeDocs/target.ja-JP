@@ -1,13 +1,13 @@
 ---
-keywords: system update;troubleshooting;maintenance;system status;update status
-description: アドビシステムステータスページを使用して、アドビ製品および Target を含む Experience Cloud ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+keywords: システム更新、トラブルシューティング、メンテナンス、システムステータス、更新ステータス
+description: Adobe製品とExperience Cloudソリューションのステータスを表示するには、どこで行えますか。
 title: システムステータスの更新
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 98%
+source-wordcount: '309'
+ht-degree: 94%
 
 ---
 
