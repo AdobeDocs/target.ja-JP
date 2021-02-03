@@ -1,18 +1,18 @@
 ---
-keywords: activities guide;activities;activity;activity types;activity actions
+keywords: アクティビティのガイド;アクティビティ;アクティビティのタイプ;アクティビティの操作
 description: Adobe Target の様々なアクティビティタイプ（Recommendations を除く）について説明した、インタラクティブ PDF をダウンロードできます。
-title: Target のアクティビティのタイプ
+title: アクティビティのタイプ
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1467'
 ht-degree: 97%
 
 ---
 
 
-# Target  アクティビティタイプ
+# Target のアクティビティのタイプ
 
 [!DNL Adobe Target]の様々なアクティビティタイプを説明するインタラクティブPDFをダウンロードします(Recommendationsを除く)。
 
