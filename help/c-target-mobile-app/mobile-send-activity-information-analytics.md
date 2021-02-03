@@ -1,13 +1,13 @@
 ---
-keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+keywords: モバイル；tntVal;analytics;adobe analytics；統合；sdk；モバイルsdk;
 description: ここでは、Adobe Targetのモバイルアプリアクティビティ情報をAdobe Analyticsに送信してポストアホックセグメントを作成する方法について説明します。
-title: Adobe Targetアクティビティ情報をAdobe Analyticsに送る
-feature: mobile implementation
+title: アクティビティ情報をAdobe Analyticsに送信
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 25%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
