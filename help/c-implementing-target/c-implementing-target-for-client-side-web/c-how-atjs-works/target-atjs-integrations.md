@@ -1,12 +1,12 @@
 ---
-keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
+keywords: at.js 統合;サポートされる統合;サポートされない統合;サードパーティ統合
 description: Target の一般的な統合と at.js のサポート状況について説明します。
 title: at.js の統合
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '560'
 ht-degree: 91%
 
 ---
