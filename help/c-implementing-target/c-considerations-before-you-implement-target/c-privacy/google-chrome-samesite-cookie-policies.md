@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Adobe Target と、Google Chrome バージョン 80 で導入された SameSite IETF 標準に関する情報です。
-title: Adobe TargetとGoogleのSameSite cookieポリシー
+title: GoogleのSamesite Cookieポリシー
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 8%
 
 ---
@@ -46,7 +46,7 @@ cookieはユーザーの操作性と電力広告を強化しますが、クロ�
 
 以上に、[!DNL Target]がcookieをどのように使うかを見てみましょう。 まず[!DNL Target]を使用するには、サイトに[!DNL Target] JavaScriptライブラリをインストールする必要があります。 これにより、サイトの訪問者のブラウザーにファーストパーティCookieを配置できます。 ユーザーがWebサイトを操作するときに、JavaScriptライブラリを介してユーザーの行動および関心データを[!DNL Target]に渡すことができます。 [!DNL Target] JavaScriptライブラリは、ファーストパーティcookieを使用して、ユーザーに関する識別情報を抽出し、ユーザーの行動と関心データにマッピングします。 このデータは[!DNL Target]によってパーソナライズアクティビティに力を与えるために使用されます。
 
-ターゲットでも（場合によっては）サードパーティCookieが使用されます。 異なるドメインに存在する複数のWebサイトを所有し、それらのWebサイト間でのユーザーの遍歴を追跡する場合、クロスドメイン追跡を利用してサードパーティCookieを使用できます。 [!DNL Target] JavaScriptライブラリでクロスドメイン追跡を有効にすると、サードパーティcookieを使用してアカウントが開始します。 ユーザーがドメイン間をホップすると、ブラウザーは[!DNL Target]のバックエンドサーバーと通信し、このプロセスでサードパーティCookieが作成され、ユーザーのブラウザーに配置されます。 ユーザーのブラウザー上に存在するサードパーティcookieを使用して、[!DNL Target]は、1人のユーザーに対して異なるドメイン間で一貫したエクスペリエンスを提供できます。
+ターゲットでも（場合によっては）サードパーティCookieが使用されます。 異なるドメインに存在する複数のWebサイトを所有し、それらのWebサイト間でユーザージャーニーを追跡する場合は、クロスドメイン追跡を利用してサードパーティCookieを使用できます。 [!DNL Target] JavaScriptライブラリでクロスドメイン追跡を有効にすると、サードパーティcookieを使用してアカウントが開始します。 ユーザーがドメイン間をホップすると、ブラウザーは[!DNL Target]のバックエンドサーバーと通信し、このプロセスでサードパーティCookieが作成され、ユーザーのブラウザーに配置されます。 ユーザーのブラウザー上に存在するサードパーティcookieを使用して、[!DNL Target]は、1人のユーザーに対して異なるドメイン間で一貫したエクスペリエンスを提供できます。
 
 ## Googleの新しいcookieレシピ
 
