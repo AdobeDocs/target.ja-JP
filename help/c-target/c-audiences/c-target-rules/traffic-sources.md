@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: ターゲット設定;トラフィックソース;ターゲットトラフィックソース;target 検索エンジン;検索エンジン;ランディングページ;target ランディングページ;参照ランディングページ
 description: Adobe Target でオーディエンスを作成して、サイトに導いた検索エンジンやランディングページに基づいて訪問者をターゲット設定します。
-title: Adobe Targetオーディエンスのトラフィックソースオプション
-feature: audiences
+title: オーディエンスのトラフィックソースオプション
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
