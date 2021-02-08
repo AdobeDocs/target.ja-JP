@@ -1,13 +1,13 @@
 ---
 keywords: ターゲットユーザインターフェイス；ユーザインターフェイス；ui
-description: ユーザーインターフェイス(UI)の使用方法を教えてください。
-title: ユーザーインターフェイスの理解
+description: ターゲットインターフェイスについて理解し、最大限に活用するための詳細情報へのリンクを見つけてください。
+title: ターゲットUIの使用方法
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 27%
 
 ---
 
