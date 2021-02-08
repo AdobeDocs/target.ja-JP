@@ -1,13 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: サイトと実稼働前の環境を整理し、Adobe Targetでの管理とレポートを容易にします。
-title: ホスト
+keywords: ホスト；ホストグループ；トラブルシューティング；ベストプラクティス；ubox；リダイレクト；リダイレクト；ホワイトリスト；許可リスト；ブラックリスト；ブロックリスト
+description: Adobe Targetで簡単に管理し、分離したレポートを行うために、Webサイトや実稼働前の環境を整理する方法を説明します。
+title: ホストとは何ですか。ホストの使用方法を教えてください。
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 25%
+source-wordcount: '1108'
+ht-degree: 24%
 
 ---
 
