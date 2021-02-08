@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;オファー
-description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティにおけるオファーとしての Adobe Recommendations
-title: A/Bテスト(自動配分と自動ターゲットを含む)およびエクスペリエンスターゲット設定(XT)アクティビティのオファーとしてのRecommendations
+description: Adobe RecommendationsをA/Bテスト(自動配分と自動ターゲットを含む)およびエクスペリエンスターゲット設定(XT)アクティビティのオファーとして使用する方法について説明します。
+title: Recommendationsを他のアクティビティタイプのオファーとして使用する方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
