@@ -1,13 +1,13 @@
 ---
 keywords: トラブルシューティング、よくある質問、FAQ、FAQ、ターゲット、オーディエンス
-description: エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
-title: ターゲットとオーディエンスのFAQ
+description: Adobe Targetアクティビティで使用されるエクスペリエンスのターゲット設定とオーディエンスに関する表示に関するよくある質問(FAQ)です。
+title: ターゲットやオーディエンスに関する質問や回答はどこで見つけられますか？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
