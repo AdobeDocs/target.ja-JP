@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第3章 — テストとパーソナライゼーションのアイデアの開発
-title: ウェルカムキット — 第3章 — テストとパーソナライゼーションのアイデアの開発
+description: Adobe Targetでアクティビティを作成する前に、テストとパーソナライズのアイデアを改善するための実証済みのプロセスを6つの手順で説明します。
+title: テストとパーソナライゼーションのアイデアを作成する方法
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
