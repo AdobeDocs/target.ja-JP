@@ -1,13 +1,13 @@
 ---
 keywords: 複数オーディエンス;エクスペリエンスバージョン;ターゲットエクスペリエンスバージョン
-description: Adobe TargetA/Bアクティビティでは、同じエクスペリエンスのターゲット版を異なるオーディエンスに対して実行できます。 Visual Experience Composer またはフォームベースの Experience Composer で、1 つのエクスペリエンスに対して複数のオーディエンスを設定できます。
-title: 複数のエクスペリエンスバージョンの A/B テスト
+description: Adobe TargetA/Bアクティビティで、同じエクスペリエンスのバージョンを異なるオーディエンスにターゲットする方法を説明します。
+title: A/Bアクティビティで複数のエクスペリエンスバージョンを使用できますか。
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
