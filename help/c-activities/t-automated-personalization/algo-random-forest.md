@@ -1,13 +1,13 @@
 ---
 keywords: ランダムフォレスト；デシジョンツリー；ap;Automated Personalization
-description: Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
-title: ランダムフォレストアルゴリズム
+description: Automated Personalization(AP)と自動ターゲットアクティビティの両方で、Adobe Targetがランダムフォレストアルゴリズムを使用する方法を説明します。
+title: ターゲットはランダムフォレストアルゴリズムをどのように使用しますか？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 95%
 
 ---
 
