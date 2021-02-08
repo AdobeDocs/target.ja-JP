@@ -1,13 +1,14 @@
 ---
 keywords: 実装; 実装方法; 設定; セットアップ; ページパラメーター; Tomcat; URL エンコード; ページ内プロファイル属性; mbox パラメーター; ページ内プロファイル属性; スクリプトプロファイル属性; プロファイル一括更新 API; 単一ファイル更新 API; 顧客属性; データプロバイダー
-description: ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、バルクプロファイル更新API、単一プロファイル更新API、顧客属性など、データをAdobe Targetに取り込むために使用できる様々な方法について説明します。
-title: データをターゲットに取り込む方法
+description: データをターゲットに取り込みます(ページパラメーター、プロファイル属性、スクリプトプロファイル属性、データプロバイダー、単一および一括プロファイル更新API、顧客属性)。
+title: ターゲットにデータを取り込む方法
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
