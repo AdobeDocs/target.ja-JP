@@ -1,12 +1,13 @@
 ---
 keywords: モバイルアプリ；モバイルアプリの場所；ターゲットモバイルアプリ；モバイルターゲットの場所；ロケーションサービス；adobe experience cloudの場所サービス；ポイント；目標地点；sdk；場所
-description: Adobe TargetのAdobe Experience Platformロケーションサービスの使い方の概要を説明します。
-title: ロケーションサービスを使用
+description: Adobe Experience Platformロケーションサービスを使用して、場所を認識するモバイルアプリを有効にする方法について説明します。
+title: Adobeロケーションサービスの使用方法
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
