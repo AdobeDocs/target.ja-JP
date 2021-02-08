@@ -1,13 +1,13 @@
 ---
 keywords: レコメンデーション；レコメンデーションアクティビティ；条件；アルゴリズム
-description: Adobe Target Recommendations アクティビティで使用する条件を選択します。
-title: 条件の選択
+description: Adobe TargetRecommendationsアクティビティで使用する条件（レコメンデーションする商品やコンテンツを決定するルール）の選択方法を学びます。
+title: Recommendationsアクティビティの条件の選択方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 81%
+source-wordcount: '405'
+ht-degree: 74%
 
 ---
 
