@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンスのターゲット設定；xt；作成
-description: Visual Experience Composer を使用すると、Target を有効にしたページ上にエクスペリエンスのターゲット設定（XT）アクティビティを作成し、Adobe Target 内でページの一部を変更できます。
-title: エクスペリエンスのターゲット設定アクティビティの作成
+description: ターゲット対応ページで、Adobe TargetのVisual Experience Composer(VEC)を使用してエクスペリエンスターゲット設定(XT)アクティビティを作成する方法を説明します。
+title: エクスペリエンスのターゲット設定アクティビティの作成方法を教えてください。
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
