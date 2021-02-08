@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定
-description: 各エクスペリエンスについて、コンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間が報告されます。
-title: コンバージョン率
+description: Adobe Targetが各エクスペリエンスのコンバージョン率、上昇率、信頼性（統計の有意性）および信頼区間を表示および計算する方法について説明します。
+title: コンバージョン率、上昇率、信頼性レベルの表示方法を教えてください。
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
