@@ -1,13 +1,13 @@
 ---
 keywords: qa、server side、server- side、preview、リンクのプレビュー
-description: サーバー側の配信でAdobe TargetQA URLを使用して、変更のないプレビューリンク、オプションのオーディエンスターゲット設定、ライブアクティビティデータからセグメント化されたQAレポートを使用して、エンドツーエンドのアクティビティQAを簡単に実行します。
-title: アクティビティ QA とサーバー側配信の使用
+description: サーバーサイド配信でAdobe TargetQA URLを使用し、変更のないプレビューリンク、オプションのオーディエンスターゲット設定、ライブアクティビティデータからセグメント化されたQAレポートを使用して、エンドツーエンドの簡単なアクティビティQAを実行する方法を説明します。
+title: サーバー側配信でアクティビティQAを実行できますか。
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 72%
+source-wordcount: '397'
+ht-degree: 70%
 
 ---
 
