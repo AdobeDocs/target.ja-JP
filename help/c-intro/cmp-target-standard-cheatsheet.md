@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard;FQA;よくある質問;参照シート;早わかりシート
-description: Adobe Target の機能の使用方法に関するよくある質問のリストです。補足情報や詳細情報のリンクも紹介します。
-title: 最適化とパーソナライゼーションのFAQ
+description: Adobe Targetの機能の使用に関するよくある質問(FAQ)のリストと、詳細については、情報およびリンクを参照してください。
+title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 97%
+source-wordcount: '2917'
+ht-degree: 96%
 
 ---
 
