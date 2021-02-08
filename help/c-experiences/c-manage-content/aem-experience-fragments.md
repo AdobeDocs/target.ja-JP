@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンス；json;aem;adobe experience manager;adobeターゲットに書き出し；エクスペリエンスフラグメント；フラグメント；XF
-description: ターゲットアクティビティでAEMエクスペリエンスフラグメントを使用する方法を教えてください。
-title: Adobe Experience Manager（AEM）エクスペリエンスフラグメント
+description: Adobe TargetアクティビティでAEMエクスペリエンスフラグメントを使用する方法を説明します。 AEMの使いやすさと機能を、強力なAIおよびML機能とターゲットで兼ね備えます。
+title: Adobe Experience Manager(AEM)エクスペリエンスフラグメントの使用方法
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 21%
+source-wordcount: '1132'
+ht-degree: 20%
 
 ---
 
