@@ -1,12 +1,12 @@
 ---
 keywords: 自動ターゲットの作成；A/Bテスト；自動ターゲットアクティビティ；新しいA/Bアクティビティ；自動ターゲット；パーソナライズされたエクスペリエンスの自動ターゲット；パーソナライズされた
-description: Adobe TargetのVisual Experience Composer(VEC)を使用して、自動ターゲットA/Bテストアクティビティをターゲット対応ページに直接作成し、ターゲット内でページの一部を変更します。
-title: 自動ターゲットアクティビティの作成
+description: Adobe TargetでVisual Experience Composer(VEC)を使用して、自動ターゲットA/Bテストアクティビティをターゲット対応のページに直接作成する方法を説明します。
+title: 自動ターゲットアクティビティの作成方法
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '937'
 ht-degree: 57%
 
 ---
