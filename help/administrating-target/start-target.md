@@ -1,13 +1,14 @@
 ---
 keywords: 管理;承認者の役割;承認者
-description: Adobe Targetの管理者は、最初にAdobe Experience Cloudへの招待メールを受け取った後に行う必要があります。
-title: 管理者の最初の手順
+description: Adobe Experience Cloudへの招待メールを受け取った後、Adobe Target管理者が最初に受けるタスクを実行します。
+title: 管理ターゲットの使用を開始する方法
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 
