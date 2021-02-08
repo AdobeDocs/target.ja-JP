@@ -1,13 +1,14 @@
 ---
 keywords: ちらつき；at.js；実装；非同期；非同期；同期；同期
-description: Adobe Target の at.js JavaScript ライブラリで、ページやアプリの読み込み中にちらつきを回避する方法について説明します。
-title: at.js によるちらつきの制御方法
+description: at.jsとAdobe Targetが、ページまたはアプリの読み込み中にちらつきを回避する方法(デフォルトコンテンツがアクティビティコンテンツに置き換わる前に一時的に表示される)について説明します。
+title: at.jsでちらつきを管理する方法
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 
