@@ -1,12 +1,12 @@
 ---
 keywords: 自動トラフィック配分；ターゲティング；勝者；統計的保証；信頼性；勝者の決定；上昇率；信頼性；デフォルト；デフォルトエクスペリエンス；自動配分；自動配分
-description: 上昇率や信頼性などの重要な指標を調べることで、Adobe Targetでの自動配分A/Bアクティビティの結果を解釈します。
-title: 自動配分レポートの解釈
+description: 上昇率や信頼性などの重要な指標を調べることで、Adobe Targetの自動配分A/Bアクティビティの結果を解釈する方法を学びます。
+title: 自動配分レポートの解釈方法
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 47%
 
 ---
