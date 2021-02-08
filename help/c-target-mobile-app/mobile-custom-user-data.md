@@ -1,13 +1,14 @@
 ---
 keywords: モバイルアプリ、モバイルアプリ送信データ、targetモバイルアプリ、モバイルカスタムユーザーデータ、モバイルアプリのカスタムデータ
-description: 場所やユーザーに関する追加情報を名前と値のペアとして Target に送信できます。
-title: IOS — カスタムユーザーデータの送信
+description: カスタムオーディエンスの作成に役立つ名前と値のペアとして、場所やユーザーに関する追加情報をAdobe Targetに送信する方法を説明します。
+title: iOSアプリでカスタムユーザーデータを送信する方法を教えてください。
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
