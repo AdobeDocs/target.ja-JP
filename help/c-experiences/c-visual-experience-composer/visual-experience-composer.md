@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;wysiwyg
-description: Adobe Target での Visual Experience Composer（VEC）の使用に関する情報です。
-title: Visual Experience Composer（VEC）
+description: Adobe TargetでのVisual Experience Composer(VEC)の使用の基本について説明します。 VECは、パーソナライズされたエクスペリエンスを簡単に作成できるWYSIWYGエディターです。
+title: Visual Experience Composer(VEC)の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 94%
+source-wordcount: '1401'
+ht-degree: 92%
 
 ---
 
