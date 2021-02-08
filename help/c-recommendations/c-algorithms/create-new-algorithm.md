@@ -1,13 +1,13 @@
 ---
 keywords: 条件；アルゴリズム；業種；ページタイプ；レコメンデーションキー；レコメンデーションロジック；データ範囲；行動データソース；部分設計；代替カテゴリ；属性の重み付け；現在の品目；最後の閲覧品目；最後の閲覧カテゴリ；人気；最後の閲覧；最後の閲覧
-description: 条件は、Adobe Recommendations アクティビティの内容を制御します。アクティビティに最適なレコメンデーションを表示するために、条件を作成します。
-title: 条件の作成
+description: お使いのアクティビティに最も適したレコメンデーションを表示するように、Adobe Recommendationsアクティビティのコンテンツを制御する条件の作成方法を説明します。
+title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 64%
 
 ---
 
