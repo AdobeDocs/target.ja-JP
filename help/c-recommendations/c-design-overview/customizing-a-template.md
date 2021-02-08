@@ -1,13 +1,13 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソースのVelocityデザイン言語を使用して、Adobe TargetRecommendationsのレコメンデーションデザインをカスタマイズします。
-title: 速度を使用したデザインのカスタマイズ
+description: オープンソースのVelocityデザイン言語を使用して、Adobe TargetRecommendationsのレコメンデーションデザインをカスタマイズする方法を学びます。
+title: Velocityを使用してデザインをカスタマイズする方法を教えてください。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 
