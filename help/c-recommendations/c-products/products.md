@@ -1,13 +1,13 @@
 ---
-keywords: product;collections
-description: エンティティとは、Adobe Target を使用してレコメンデーションする項目を指します。製品、コンテンツ（記事、スライドショー、画像、ムービー、テレビ番組など）、求人情報、レストランなど、すべてのものがエンティティに該当します。
-title: Adobe Target のエンティティ
+keywords: 製品;コレクション
+description: Adobe TargetRecommendationsの企業について学びます。 エンティティとは、記事、映画、商品など、ターゲットの使用を推奨する品目を指します。
+title: エンティティの使用方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 72%
 
 ---
 
