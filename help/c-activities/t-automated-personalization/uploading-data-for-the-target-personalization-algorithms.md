@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization；アップロードデータ；オフラインデータ；パーソナライゼーションアルゴリズム；自動ターゲット；自動ターゲット；ベストプラクティス
-description: CRM情報や顧客の傾向スコアなどのオフラインデータは、Adobe TargetAutomated Personalization(AP)アクティビティでパーソナライゼーションモデルを作成する際に非常に役立ちます。
-title: パーソナライゼーションアルゴリズム用のデータのアップロード
+description: Adobe TargetAutomated Personalization(AP)アクティビティでパーソナライゼーションモデルを作成する際に、CRM情報などのオフラインデータをアップロードする方法を説明します。
+title: パーソナライゼーションアルゴリズム用にデータをアップロードする方法を教えてください。
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
