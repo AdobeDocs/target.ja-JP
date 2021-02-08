@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンスのプレビュー;エクスペリエンスURL;URLの生成;エクスペリエンスのURLの表示
-description: ターゲットAutomated Personalizationのアクティビティが、プレビューおよびQAの目的でアクティビティをライブにする前に、エクスペリエンスのコンテンツを直接サイトで表示できるよう、エクスペリエンスプレビューURLを生成できます。 エクスペリエンスプレビューURLは、ターゲット設定を省略して特定のエクスペリエンスを強制的に表示します。
-title: エクスペリエンスプレビューURLを持つプレビューAutomated Personalizationアクティビティ
+description: Adobe TargetAutomated PersonalizationアクティビティのエクスペリエンスプレビューURLを使用して、アクティビティが実稼動する前にエクスペリエンスコンテンツを直接サイトで表示する方法を説明します。
+title: Automated PersonalizationアクティビティでエクスペリエンスプレビューURLを使用する方法を教えてください。
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 
