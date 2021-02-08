@@ -1,13 +1,14 @@
 ---
 keywords: 実装;実装する
-description: Adobe Target を使用する前に、サイトに Target を実装し、いくつかの基本的な概念や用語を理解し、Target のしくみやインフラストラクチャとの統合について把握し、Target システムでの訪問者の追跡方法を理解する必要があります。
-title: 実装方法
+description: サイトにAdobe Targetを導入する方法を学びます。 グローバル設定、実装方法（AEP Web SDKまたはat.js）などを設定します。
+title: サイトにターゲットを導入する方法
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 43%
+source-wordcount: '143'
+ht-degree: 18%
 
 ---
 
