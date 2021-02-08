@@ -1,12 +1,12 @@
 ---
 keywords: adobeターゲット;ターゲット；ドキュメント；api;api;api;sdk;sdk；チュートリアル；doc;documentation
-description: ターゲットのドキュメントはどこで入手できますか。
-title: ドキュメントの概要
+description: オンラインヘルプ、チュートリアル、ビデオ、開発者向けドキュメント（SDK、API、JavaScriptライブラリ）を含むAdobe Targetのドキュメントにアクセスできます。
+title: ターゲットに関するドキュメントはどこで入手できますか？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
