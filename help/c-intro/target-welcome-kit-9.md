@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第9章 — 次の手順とリソース
-title: ウェルカムキット — 第9章 — 次の手順とリソース
+description: Adobe Targetで初めてのアクティビティを作り上げました。 次は？ この記事では、その他のリソース、トレーニングチュートリアル、ハウツービデオへのリンクを参照できます。
+title: ターゲットをより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
