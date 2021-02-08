@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第8章 —アクティビティ結果の伝達
-title: ウェルカムキット — 第8章 —アクティビティ結果の伝達
+description: 成功事例をAdobe Targetのアクティビティに伝えるのに役立つExecutive Summary Resultsテンプレートを使用します。
+title: ターゲットアクティビティの結果を組織と共有する方法を教えてください。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
