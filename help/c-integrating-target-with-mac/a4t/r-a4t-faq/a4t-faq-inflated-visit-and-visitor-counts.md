@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;水増し;訪問;訪問者;部分的なヒット;親なし;親なし;部分ヒット
-description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の水増しされた訪問および訪問者のカウントに関するよくある質問に対する回答が含まれています。
-title: 水増しされた訪問および訪問者のカウント - A4T FAQ
+description: Analyticsでターゲットを行う場合(A4T)に、水増しされた訪問と訪問者のカウントに関する質問への回答を検索します。 「部分的なデータ」を最小限に抑える方法を説明します。
+title: A4Tを使用した水増しされた訪問と訪問者数に関するFAQはどこで見つけられますか？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
