@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;関数;preventDefault;preventdefault;prevent default
-description: Adobe Target at.js JavaScript ライブラリの adobe.target.trackEvent(options) 関数について説明します。
-title: Adobe.Target.Trackevent(Options)
+description: Adobe Targetのat.js JavaScriptライブラリでadobe.ターゲット.trackEvent()関数を使用して、サイトでのクリック数やコンバージョン数などのユーザーアクションをレポートするリクエストを実行します。
+title: adobe.ターゲット.trackEvent()関数の使用方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '329'
+ht-degree: 70%
 
 ---
 
