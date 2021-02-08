@@ -1,12 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
-description: Adobe Targetへ追加のユーザーおよびAdobe Admin Consoleでの権限の管理。
-title: ユーザー
+keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
+description: Adobe Admin Consoleを使用してユーザーとその権限を管理し、Adobe Targetで直接行う方法を説明します。
+title: ユーザーと権限の追加管理方法
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '910'
 ht-degree: 47%
 
 ---
