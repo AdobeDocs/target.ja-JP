@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: サイト上でのAdobe Targetアクティビティのアクティビティの衝突の、リストの概要ページにある「衝突」タブ。
-title: アクティビティの衝突
+keywords: ターゲット設定；衝突；衝突
+description: 複数のアクティビティが同じページにコンテンツを配信するように設定されている場合、衝突が発生します。 Adobe Targetを使用する場合の衝突を回避する方法を説明します。
+title: アクティビティの衝突を回避する方法
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
