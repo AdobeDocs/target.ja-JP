@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;関数
-description: Adobe Target at.js JavaScript ライブラリの adobe.target.getOffers（options） 関数について説明します。
-title: Adobe.ターゲット.Getoffers(Options) - at.js 2.x
+description: 複数のターゲットオファーを取得するリクエストを実行するには、adobe.ターゲット.getOffers()関数とそのオプションを使用して、Adobe Targetのat.jsライブラリを設定します。 (at.js 2.x)
+title: adobe.ターゲット.getOffers()関数の使用方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '1240'
+ht-degree: 90%
 
 ---
 
 
-# adobe.ターゲット.getOffers(options) - at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 この関数を使用すると、複数の mbox を渡すことで複数のオファーを取得できます。さらに、アクティブなアクティビティのすべてのビュー向けに複数のオファーを取得できます。
 
@@ -73,7 +74,7 @@ ht-degree: 92%
 | Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
-## すべての表示に対してgetOffers()を呼び出します
+## すべての表示に対してgetOffers()を呼び出します。
 
 ```javascript
 adobe.target.getOffers({
