@@ -1,14 +1,14 @@
 ---
 keywords: レコメンデーションキー；レコメンデーションロジック；現在のカテゴリ；カスタム属性；最後の購入品目；最後の閲覧品目；最後の閲覧品目；お気に入りのカテゴリ；人気；最後の閲覧品目；最後の閲覧；お気に入り；最近の閲覧
-description: キーに基づくRecommendationsは、訪問者の動作コンテキストを使用して、Adobe TargetRecommendationsアクティビティの関連結果を示します。
-title: レコメンデーションキーに基づくレコメンデーションの設定
+description: Adobe TargetRecommendationsアクティビティで関連する結果を表示するために訪問者の動作コンテキストを使用するキーに基づいて、レコメンデーションを使用する方法を説明します。
+title: レコメンデーションキーを基にレコメンデーションを行う方法
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
