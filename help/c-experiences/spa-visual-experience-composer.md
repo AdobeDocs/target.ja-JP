@@ -1,13 +1,13 @@
 ---
-keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
-description: Adobe Target のシングルページアプリケーション（SPA）の Visual Experience Composer（VEC）を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。
-title: シングルページアプリケーション（SPA）Visual Experience Composer
+keywords: spa vec; react; angular; react.js; spa visual experience composer; spa experience composer オプション; シングルページアプリケーション; シングルページアプリ; spa; モバイルエクスペリエンスオプション; target ビュー
+description: Adobe TargetのSPA VECを使用して、継続的な開発依存関係を持たずに、テストを作成し、独自の方法でSPAのコンテンツをパーソナライズする方法を学びます。
+title: 単一ページアプリのVisual Experience Composer(SPA VEC)の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 92%
+source-wordcount: '3699'
+ht-degree: 91%
 
 ---
 
@@ -409,7 +409,7 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 **結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
 
-注意：ユーザーが[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動しても、ページの読み込みがトリガーされませんでした。
+注意：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動したユーザーは、ページの読み込みをトリガーしませんでした。
 
 **ユーザージャーニー #2**
 
