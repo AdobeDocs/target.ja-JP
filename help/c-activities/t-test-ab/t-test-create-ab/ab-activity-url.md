@@ -1,13 +1,13 @@
 ---
-keywords: activity url;url;different url
-description: アクティビティURLは、テストで使用され、Adobe Targetを使用して設計されたテストで開くページを決定します。
-title: アクティビティ URL
+keywords: アクティビティURL;URL；異なるURL
+description: テストで使用され、テストがAdobe Targetを使用して設計された場合に開くページを決定するアクティビティURLを指定する方法について説明します。
+title: A/BアクティビティのアクティビティURLとは何ですか。
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 78%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
