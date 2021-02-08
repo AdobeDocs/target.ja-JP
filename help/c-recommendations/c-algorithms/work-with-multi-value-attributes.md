@@ -1,12 +1,12 @@
 ---
 keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
-description: 特殊な複数値演算子を使用したAdobe TargetRecommendationsの複数値フィールドの操作に関する情報です。
-title: ターゲットRecommendationsの複数値属性の操作
+description: 例えば、複数の俳優と映画をレコメンデーションする場合など、特別な複数値演算子を使用して、Adobe TargetRecommendationsの複数値フィールドを操作する方法を説明します。
+title: 複数値の属性をRecommendationsで使用できますか。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
