@@ -1,13 +1,13 @@
 ---
 keywords: レポート；自動ターゲット；自動ターゲット;AT；レポート
-description: Adobe Targetの自動ターゲットの概要レポートの解釈方法に関する情報です。
-title: 自動ターゲット概要レポート
+description: Adobe Targetの自動ターゲットの概要レポートの解釈方法を説明します。 このレポートから、自動セグメントレポートと重要属性レポートに切り替えることができます。
+title: 自動ターゲットサマリレポートの使用方法
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 55%
+source-wordcount: '690'
+ht-degree: 53%
 
 ---
 
