@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;プロビジョニング;プロビジョニング;adobe Experience Cloud
-description: このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
-title: 初期プロビジョニング - A4T FAQ
+description: Analyticsをターゲット用にプロビジョニングする(A4T)ことに関するよくある質問(FAQ)に対する回答を見つけます。Analyticsレポートを使用してターゲットアクティビティを行うことができます。
+title: A4Tの初期プロビジョニングに関する情報はどこで入手できますか？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
