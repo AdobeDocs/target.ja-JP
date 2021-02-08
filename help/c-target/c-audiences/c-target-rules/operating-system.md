@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定、targetオペレーティングシステム、オペレーティングシステム、target os、os、target linux、linux、ターゲットウィンドウ、windows、target Macintosh、Macintosh、mac、ターゲットmac、win、ターゲットwin
-description: 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
-title: オペレーティングシステム オーディエンスのオプション
+description: 特定のオペレーティングシステム（Linux、MacintoshまたはWindows）を使用する訪問者をターゲットする方法を説明します。
+title: オペレーティングシステムに基づくターゲット訪問者を作成できますか。
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
