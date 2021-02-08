@@ -1,13 +1,14 @@
 ---
 keywords: 環境；トラブルシューティング；ベストプラクティス；ubox；リダイレクト；リダイレクト；ホワイトリスト；ブラックリスト；ブロックリスト;許可リスト
-description: サイトと実稼働前の環境を整理し、Adobe Targetでの管理とレポートを容易にします。
-title: 環境
+description: Adobe Targetの環境を使用して、サイトと実稼働前の環境を整理し、管理やレポートを容易に分割する方法を学びます。
+title: 環境とは
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
