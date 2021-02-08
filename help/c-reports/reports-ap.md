@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定；APレポート；自動パーソナライゼーションレポート；アクティビティレベルレポート；オファーレベルレポート；オファー詳細レポート；faq
-description: Automated Personalizationサマリレポートの使用方法
-title: Automated Personalization 概要レポート
+description: Adobe TargetのAutomated Personalizationサマリレポートの見方を学びます。 このレポートから、自動セグメントレポートと重要属性レポートに切り替えることができます。
+title: Automated Personalizationサマリレポートの使用方法
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 41%
+source-wordcount: '671'
+ht-degree: 39%
 
 ---
 
