@@ -1,13 +1,13 @@
 ---
-keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
-description: Adobe Target の多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。
-title: 多変量分析テスト
+keywords: 多変量分析テスト；mvt；全因子；mvtまたはa/b；多変量分析a/b；トラフィック見積もり；mvtを使用する場合；mvtの考慮事項；多変量分析；部分階乗；部分階乗；全因子
+description: Adobe TargetでMultivariate Testing(MVT)を使用してページ上のオファーの組み合わせを比較し、どの組み合わせのパフォーマンスが最も高いかを判断する方法について説明します。
+title: 多変量分析テストとは
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 91%
+source-wordcount: '1461'
+ht-degree: 88%
 
 ---
 
