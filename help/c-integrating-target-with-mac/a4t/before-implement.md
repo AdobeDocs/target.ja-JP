@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Analytics を Target のレポートソースとして有効化する場合（A4T）のデータ収集プロセスでいくつかの変更点があります。
-title: Analyticsをレポートソースとして実装する前に(A4T)
+description: Analyticsのターゲット用の導入要件(A4T)およびこの統合を実装する前に考慮する必要がある事項について説明します。
+title: A4Tを実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 52%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 
