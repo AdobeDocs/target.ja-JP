@@ -1,12 +1,12 @@
 ---
 keywords: 条件のシーケンス；複数の条件；アルゴリズム；条件；レコメンデーションの条件；シーケンス；返される項目数の制限；スロットレベルの制御；スロット
-description: 最大5つの条件のシーケンスを使用して、Adobe TargetRecommendationsアクティビティに表示される項目をより詳細に制御します。
-title: 条件のシーケンスの作成
+description: 最大5つの条件のシーケンスを設定し、Adobe TargetRecommendationsアクティビティに表示される項目をより詳細に制御する方法を説明します。
+title: Recommendationsで条件のシーケンスを作成する方法を教えてください。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
