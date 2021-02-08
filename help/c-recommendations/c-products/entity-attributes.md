@@ -1,13 +1,13 @@
 ---
 keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
-description: エンティティ属性を使用して、商品やコンテンツの情報をAdobe TargetRecommendationsに渡します。
-title: エンティティの属性
+description: エンティティ属性を使用して、商品やコンテンツの情報をAdobe TargetRecommendationsに渡す方法を学びます。
+title: エンティティ属性の使用方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 90%
+source-wordcount: '1050'
+ht-degree: 89%
 
 ---
 
