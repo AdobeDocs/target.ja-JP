@@ -1,13 +1,13 @@
 ---
 keywords: システム更新、トラブルシューティング、メンテナンス、システムステータス、更新ステータス
-description: Adobe製品とExperience Cloudソリューションのステータスを表示するには、どこで行えますか。
-title: システムステータスの更新
+description: Adobe Targetの現在のステータスを表示して、発生する可能性のある問題がシステムの更新または定期保守によるものかどうかを判断するのに役立ちます。
+title: ターゲットやその他のAdobe製品のステータスを表示できる場所
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
