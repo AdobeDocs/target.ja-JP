@@ -1,12 +1,13 @@
 ---
 keywords: サーバー側：サーバー側；api;sdk;node.js;nodejs;node js;recommendations api;api:api
-description: Adobe Targetのサーバ側配信API、SDK、ターゲットRecommendationsAPIに関する情報です。
-title: サーバー側配信API、Node.js SDK、RecommendationsAPIに関する情報
+description: Adobe Targetのサーバー側配信API、SDK、ターゲットRecommendationsAPIについて説明します。
+title: ターゲットサーバー側配信APIおよびSDKについて学習できる情報
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
