@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations Classic
-description: Adobe Recommendations Classic ドキュメント。
-title: Adobe Recommendationsクラシックドキュメント
+description: レガシーのAdobe RecommendationsクラシックドキュメントのPDFをダウンロードします。
+title: Adobe Recommendationsクラシックのドキュメントはどこで入手できますか？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 72%
+source-wordcount: '114'
+ht-degree: 62%
 
 ---
 
