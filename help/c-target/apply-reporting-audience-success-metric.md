@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定、オーディエンス、レポート、成功指標
-description: Adobe Target でユーザーがレポート用オーディエンスの条件を満たしていると見なすための成功指標を選択します。
-title: レポートオーディエンスの成功指標への適用
+description: レポートオーディエンスに適したAdobe Targetの成功指標を選択する方法について説明します。
+title: レポートオーディエンスを成功指標に適用できますか。
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '297'
+ht-degree: 90%
 
 ---
 
