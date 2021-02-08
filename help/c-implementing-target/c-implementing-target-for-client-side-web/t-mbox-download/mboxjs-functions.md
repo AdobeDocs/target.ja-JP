@@ -1,13 +1,14 @@
 ---
 keywords: mbox 関数
-description: mbox.js で実装するときに使用する mbox.js 関数のリスト。
-title: mbox.js 関数
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
+title: mbox.jsがサポートする関数を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 59%
+source-wordcount: '200'
+ht-degree: 47%
 
 ---
 
