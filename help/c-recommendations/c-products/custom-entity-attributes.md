@@ -1,14 +1,14 @@
 ---
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
-description: 単一値および複数値のカスタムエンティティの属性を使用して、カタログ内の品目に関する追加情報を定義します。
-title: カスタムエンティティの属性
+description: 単一値および複数値のカスタムエンティティ属性を使用して、Adobe TargetRecommendationsカタログの品目に関する追加情報を定義する方法を学びます。
+title: カスタムエンティティ属性の使用方法
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 91%
+source-wordcount: '1401'
+ht-degree: 89%
 
 ---
 
