@@ -1,12 +1,12 @@
 ---
-keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: Adobe Analyticsを行動データソースとして使用すると、クライアントはAdobe RecommendationsのAnalyticsの表示ベースおよび購入ベースの行動データを使用できます。
-title: Adobe AnalyticsとターゲットRecommendationsを使う
+keywords: 行動データソース；分析；レコメンデーション；条件；製品変数
+description: ターゲットRecommendationsのAnalyticsで、Adobe Analyticsを行動データソースとして使用し、表示ベースおよび購入ベースの行動データを使用する方法について説明します。
+title: Adobe AnalyticsとターゲットRecommendationsの使い方
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
