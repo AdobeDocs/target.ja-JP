@@ -1,13 +1,13 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
-title: ターゲットRecommendationsでの代替レコメンデーションの使用
+description: Adobe TargetRecommendationsで代替レコメンデーションを使用する方法を説明します。 十分なレコメンデーション品目がないレコメンデーションには、バックアップアルゴリズムの結果が表示されます。
+title: Recommendationsで代替レコメンデーションを使用する方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
