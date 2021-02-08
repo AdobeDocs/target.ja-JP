@@ -1,12 +1,13 @@
 ---
-keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide;pre-hiding;prehiding
-description: Adobe Targetat.js 2.1以降を使用する場合に追加する必要があるコンテンツセキュリティポリシー(CSP)ディレクティブに関する情報です。
-title: コンテンツセキュリティポリシー(CSP)
+keywords: コンテンツセキュリティポリシー；csp;at.js;whitelist;許可リスト；ちらつき；事前非表示；事前非表示；事前非表示；事前非表示
+description: Adobe Targetを使用する場合に追加する必要があるコンテンツセキュリティポリシー(CSP)ディレクティブについて説明します。
+title: ターゲットはコンテンツセキュリティポリシー(CSP)をどのように処理しますか？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
