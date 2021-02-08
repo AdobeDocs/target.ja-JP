@@ -1,13 +1,13 @@
 ---
 keywords: リリースノート；リリース；更新；今後のリリース；拡張；新機能；修正；更新；プレリリース
-description: 今後のリリースで追加される機能
-title: プレリリースノート
+description: SDK、API、JavaScriptライブラリを含む、今後のAdobe Targetリリースに含まれる新機能、機能強化および修正について説明します。
+title: 今後のリリースで追加される新機能
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 27%
+source-wordcount: '514'
+ht-degree: 26%
 
 ---
 
