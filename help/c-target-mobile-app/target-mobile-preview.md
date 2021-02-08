@@ -1,13 +1,14 @@
 ---
 keywords: qa;プレビュー;プレビューリンク;モバイル;モバイルプレビュー
-description: モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
-title: ターゲットモバイルでのモバイルプレビューリンクの使用
+description: モバイルアプリのアクティビティに対してエンドツーエンドのQAを実施するには、モバイルプレビューのリンクを使用します。 特別なテストデバイスを使用せずに、自分自身を様々なエクスペリエンスに登録できます。
+title: ターゲットモバイルのモバイルプレビューリンクの使用方法
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '609'
+ht-degree: 82%
 
 ---
 
@@ -76,10 +77,16 @@ ht-degree: 92%
      }
    ```
 
-   Android でモバイルプレビューが動作するように設定するには、さらに次のコードスニペットを [!DNL AndroidManifest.xml] に追加する必要があります。
+   モバイルプレビューをAndroidで動作させるには、AdobeモバイルSDKのバージョン5を使用する場合は、[!DNL AndroidManifest.xml]に次のコードスニペットも追加する必要があります。
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   AdobeモバイルSDKのバージョン4を使用している場合は、次のコードスニペットを使用します。
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## プレビューリンクの生成 {#section_D9D58173FFF34E9BB75EBF357273F128}
