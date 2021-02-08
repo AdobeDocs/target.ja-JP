@@ -1,12 +1,12 @@
 ---
 keywords: レコメンデーション；レコメンデーションアクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リードジェネレーション；b2b；金融サービス；メディア；公開
-description: Adobe Targetの条件とは、事前に決められた一連の訪問者行動に基づいて、どの商品やコンテンツをレコメンデーションするかを決定するルールです。
-title: ターゲットRecommendationsの基準
+description: Adobe TargetRecommendationsで条件の使い方を学びます。 条件とは、事前に決められた訪問者行動に基づいて、レコメンデーションするコンテンツを決定するルールです。
+title: ターゲットRecommendationsで条件を使用する方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
