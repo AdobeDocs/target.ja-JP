@@ -1,13 +1,14 @@
 ---
 keywords: レポート；レポート；レポート；エクスペリエンスクラウドソリューション；タイムゾーン；タイムゾーン；通貨；IPの除外；売上高の予測上昇；売上高の上昇；詳細な優先度；細かい設定の
-description: ターゲットアカウント全体に適用するAdobe Targetレポートで使用する一般設定を構成します。 レポート(ターゲットまたはAnalytics)、レポートに使用するタイムゾーンと通貨の形式、レポートから除外するIPアドレス、および売上高の予測上昇率を表示するかどうか、およびレポートの優先度を細かく設定するかどうかについて、Adobe Experience Cloudを設定できます。
-title: レポートの設定
+description: レポートソースとしてターゲットまたはAdobe Analyticsを使用し、デフォルトのタイムゾーンと通貨形式を指定したり、レポートから除外するIPアドレスを追加したりします。
+title: ターゲットでレポートを設定する方法を教えてください。
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 29%
+source-wordcount: '698'
+ht-degree: 30%
 
 ---
 
