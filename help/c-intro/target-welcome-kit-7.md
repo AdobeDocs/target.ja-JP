@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第7章 — 最初のターゲットアクティビティの作成と実行
-title: ウェルカムキット — 第7章 — 最初のターゲットアクティビティの作成と実行
+description: Adobe Targetでの初めてのアクティビティから始めて、投資のROIを獲得しましょう。
+title: 私はターゲットで最初のアクティビティを作る必要がある。 開始はどこ？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
