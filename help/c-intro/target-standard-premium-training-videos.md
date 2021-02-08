@@ -1,13 +1,13 @@
 ---
 keywords: トレーニングビデオ；youtube；ビデオ；ビデオトレーニング；チュートリアル；チュートリアル；ビデオ
 description: トレーニングビデオでは Target Standard と Target Premium を最大限に活用する方法を説明しています。
-title: トレーニングビデオ
+title: ターゲットトレーニングビデオはどこで見つけられますか。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 
