@@ -1,13 +1,13 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Adobe Targetの複数ページのアクティビティを使用すると、各ページに固有のデザインを持つ複数のページにわたるストーリーを作成できます。
-title: 複数ページアクティビティ
+keywords: 複数ページ;遍歴のテスト;複数ページアクティビティ
+description: Adobe Targetで複数ページのアクティビティを作成する方法を学習すると、複数ページにわたるストーリーを作成し、各ページに固有のデザインを作成できます。
+title: 複数ページのアクティビティの作成方法
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 85%
 
 ---
 
