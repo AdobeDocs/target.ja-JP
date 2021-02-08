@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: Adobe TargetフォームベースのExperience Composerは、非視覚的なエクスペリエンスの作成を提供します。
-title: フォームベースの Experience Composer
+keywords: フォームベースの experience composer; フォームベースのコンポーザー; 調整
+description: 非視覚的なエクスペリエンスの作成にAdobe TargetフォームベースのExperience Composerを使用する方法を説明します。 VECが使用できない場合、または実用的でない場合は、このコンポーザーを使用します。
+title: フォームベースのExperience Composerの使用方法を教えてください。
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '801'
+ht-degree: 66%
 
 ---
 
