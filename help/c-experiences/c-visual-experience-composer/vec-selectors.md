@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンスのターゲット設定;ランディングページテスト
-description: 要素セレクターとは、1 つ以上の要素を指定できる CSS 式です。
-title: Visual Experience Composer で使用される要素セレクター (VEC)
+description: '要素セレクターは、1つ以上の要素を識別できるCSS式です。 Adobe TargetVisual Experience Composer(VEC)でのエレメントセレクターの使用方法を説明します。 '
+title: Visual Experience Composer(VEC)でエレメントセレクターを使用できますか。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 82%
 
 ---
 
