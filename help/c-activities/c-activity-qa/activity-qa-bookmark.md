@@ -1,13 +1,13 @@
 ---
 keywords: qa、preview、ブックマークレット、リンクのプレビュー
-description: ターゲットにQAモードからの解放を強制するために、Adobe TargetQAブックマークレットを使用するのに役立つ情報です。
-title: アクティビティ QA ブックマークレット
+description: Adobe TargetQAブックマークレットを使用してターゲットにQAモードからの解放を強制する方法を説明します。
+title: アクティビティQAブックマークレットの使用方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 27%
 
 ---
 
