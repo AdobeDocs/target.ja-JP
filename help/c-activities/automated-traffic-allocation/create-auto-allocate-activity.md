@@ -1,13 +1,13 @@
 ---
 keywords: 自動配分の作成；A/Bテスト；自動配分アクティビティ；新しいa/bアクティビティ；自動配分；最適なエクスペリエンスに自動配分；割り当て；自動配分
-description: Adobe TargetのVisual Experience Composer(VEC)を使用して、ターゲット対応ページに直接自動配分A/Bテストアクティビティを作成し、ターゲット内でページの一部を変更します。
-title: 自動配分アクティビティの作成
+description: Adobe TargetでVisual Experience Composer(VEC)を使用して、ターゲット対応のページに直接自動配分A/Bテストアクティビティを作成する方法を説明します。
+title: 自動配分アクティビティの作成方法
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 57%
+source-wordcount: '913'
+ht-degree: 58%
 
 ---
 
