@@ -1,13 +1,13 @@
 ---
 keywords: コンテンツ;フォルダーの作成;アセット;フォルダーの移動;フォルダーのコピー;フォルダーの削除;フォルダーのダウンロード;フォルダー
 description: オファーライブラリにフォルダを作成する方法を教えてください。
-title: オファーフォルダーの作成
+title: コードフォルダーや画像オファー、およびその他のオファーーを保持するための、Adobe Targetフォルダーライブラリでのフォルダーの作成方法を説明します。
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 25%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
