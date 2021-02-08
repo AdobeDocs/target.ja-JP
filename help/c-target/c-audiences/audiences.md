@@ -1,13 +1,13 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、ターゲットオーディエンス、レポートオーディエンス、レポートオーディエンス、セグメント、カスタムプロファイルパラメーター、オーディエンス定義、オーディエンスリスト
-description: Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
-title: オーディエンスの作成
+description: Adobe Targetのオーディエンスページの使用方法、およびオーディエンスの詳細と使用状況の情報が含まれる表示オーディエンス定義カードの使用方法について説明します。
+title: オーディエンスリストの使用方法
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
