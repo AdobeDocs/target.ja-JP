@@ -1,12 +1,13 @@
 ---
 keywords: 統合;役割;ユーザー権限;admin console
-description: Adobe Targetで目的のロールを持つすべてのワークスペースに、既存のAdobe I/O統合へのアクセス権を付与します。
-title: ワークスペースへのAdobe I/O統合アクセス権の付与とロールの割り当て
+description: 既存のAdobe I/O統合に、Adobe Targetで目的の役割を持つすべてのワークスペースへのアクセス権を与える方法を説明します。
+title: ワークスペースへのアクセス権をAdobe I/Oに付与する方法とロールを割り当てる方法
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '621'
 ht-degree: 83%
 
 ---
