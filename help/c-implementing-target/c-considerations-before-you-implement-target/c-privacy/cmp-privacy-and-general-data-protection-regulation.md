@@ -1,12 +1,13 @@
 ---
 keywords: gdpr;eu;欧州連合;プライバシー;faq;よくある質問;カリフォルニア州消費者プライバシー法;ccpa;プライバシー;データ 保護;オプトアウト;政府;規制
-description: 欧州和集合のGDPR(General Data Protection Regulation)、カリフォルニア州消費者プライバシー法(CCPA)、その他の国際的なプライバシー要件に関する情報、およびこれらの規制が貴社やAdobe Targetに与える影響について説明します。
-title: プライバシーとデータ保護に関する規制
+description: ターゲット、およびGDPR(欧州和集合総合データ保護規則)、カリフォルニア州消費者プライバシー法(CCPA)、その他のプライバシー要件について説明します。
+title: ターゲットは、プライバシーおよびデータ保護に関する規制をどのように扱うのですか。
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 90%
 
 ---
