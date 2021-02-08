@@ -1,13 +1,14 @@
 ---
 keywords: 設定；設定；設定；設定；設定；管理
 description: 環境設定、導入、ユーザー管理、プロパティ、Scene7設定、ホスト管理、応答トークンなど、Adobe Targetを設定します。
-title: 管理
+title: ターゲットの管理方法
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 15%
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
