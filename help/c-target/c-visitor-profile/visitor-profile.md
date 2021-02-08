@@ -1,13 +1,13 @@
 ---
 keywords: 概要およびリファレンス
-description: 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
-title: 訪問者プロファイル
+description: 訪問者がページや他の最適化されたコンテンツの場所をどのように使用しているかに関する情報が含まれる訪問者プロファイルについて詳しく説明します。
+title: 訪問者プロファイルとは
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 78%
 
 ---
 
