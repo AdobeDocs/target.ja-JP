@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: Adobe Target のアクティビティやその他の要素に影響を与える文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
-title: 制限
+keywords: 文字制限；mboxパラメーター；バッチ配信api;プロファイルパラメーター；制限；組み込みプロファイル；最大；制限；制約；文字；ベストプラクティス；orderid;orderTotal;mbox3rdPartyID;カテゴリ;categoryID；トラブルシューティング
+description: 文字制限とその他の制限(オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど)のリストの表示 文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
+title: 文字制限とその他の制限(オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど)のリストを確認します。 文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 67%
 
 ---
 
