@@ -1,13 +1,14 @@
 ---
 keywords: グローバルmbox；グローバルmboxのカスタマイズ；at.jsの編集；at.js;at.jsの実装
-description: at.jsのグローバルmboxをカスタマイズするのに役立つ情報です。
-title: グローバル mbox のカスタマイズ
+description: Adobe Targetの管理 — 実装ページで、at.jsのグローバルmboxをカスタマイズする方法を説明します。
+title: グローバルmboxのカスタマイズ方法
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 
