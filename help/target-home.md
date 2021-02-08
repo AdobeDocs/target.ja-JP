@@ -1,14 +1,13 @@
 ---
 keywords: ターゲット；ホーム；人気の高いトピック；アドビターゲット；標準；プレミアム；ターゲットドキュメント；アドビターゲットドキュメント
-title: Adobe Target ガイド
-description: ターゲットのドキュメントはどこで入手できますか。
-seo-description: Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
+title: ターゲットのドキュメントはどこで入手できますか。
+description: Adobe Targetを使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: d0f7154bcda42e0c44e0a031970d7622088ab869
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
