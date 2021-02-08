@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: ページに対する変更を表示し、変更（CSSセレクター、Mbox、カスタムコード）を追加できる、Adobe Targetの変更ページに関する情報です。
-title: 変更
+keywords: css セレクター;カスタムコード;コードエディター;モバイル Web エクスペリエンスエディター
+description: Adobe Targetの「変更」パネルを使用してページの変更を表示し、変更を追加する方法（CSSセレクター、Mbox、カスタムコード）について説明します。
+title: ページに対してどのような変更を行えますか。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2123'
 ht-degree: 95%
 
 ---
