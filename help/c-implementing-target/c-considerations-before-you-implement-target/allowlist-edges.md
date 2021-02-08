@@ -1,12 +1,13 @@
 ---
 keywords: 実装；実装；ホワイトリスト；ホワイトリスト；許可リスト;許可リスト；エッジ；エッジ
-description: 許可リストAdobe Targetエッジノード
-title: 許可リストターゲットエッジノード
+description: Adobe Targetエッジの許可リストに役立つホストのリストを表示します（エンドユーザーの応答時間を最適化する地理的に分散された配信ノード）。
+title: ターゲットエッジノードを許可リストする方法
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
