@@ -1,12 +1,12 @@
 ---
 keywords: 設定;優先度
-description: Adobe Targetは、使用するアクティビティインターフェイスとアクティビティ作成機能（Visual Experience ComposerまたはフォームベースのComposer）に応じて、どのターゲット(またはアクティビティ)をページに配信するかを決定します。
-title: 優先度
+description: どのアクティビティ(またはアクティビティ)をページに配信するかは、使用するターゲットインターフェイスとアクティビティ作成機能に応じて、Adobe Targetがどの（または）を決定するかを説明します。
+title: ターゲットが異なるアクティビティに優先度を割り当てる方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
