@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Adobe Target エクスペリエンスターゲット設定（XT）アクティビティの指標を使用して、訪問が成功かどうかを判断します。
-title: 指標の設定
+keywords: エクスペリエンスのターゲット設定;xt;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
+description: Adobe Targetエクスペリエンスのターゲット設定アクティビティで指標を指定して、コンバージョン、売上高、エンゲージメントなどの訪問が成功かどうかを判断する方法について説明します。
+title: エクスペリエンスのターゲット設定アクティビティで目標指標を設定する方法を教えてください。
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 92%
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
