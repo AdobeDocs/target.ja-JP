@@ -1,12 +1,12 @@
 ---
 keywords: Target、レポート、レポート設定、プリセット、ターゲットプリセット、metric、オーディエンス、日付範囲、設定、ダウンロード、table view、グラフビュー、平均上昇率、上昇率、上昇率バインド、頼区間、confidence、場所の貢献度、running Average、カウント手法
-description: Adobe Targetレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
-title: レポート設定
+description: 指標、オーディエンス、日付範囲など、Adobe Targetでのレポート設定の設定方法について説明します。
+title: レポート設定の設定方法を教えてください。
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1918'
 ht-degree: 69%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 69%
 
 ![表示オプションアイコン](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **テーブル表示**:表 **** ビューアイコンをクリックして、レポートを表として表示します。
+* **テーブル表示**:表ビューア **** イコンをクリックして、レポートを表として表示します。
 * **グラフ表示**:グラフビューア **** イコンをクリックして、レポートをグラフとして表示します。
 * **自動セグメント**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティのみで使用可能)**[!UICONTROL 自動セグメント]アイコンをクリックして、[自動セグメントレポート](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)を表示します。
 * **重要な属性**:(Automated Personalization(AP)および自動ターゲット(AT)アクティビティでのみ使用可能)**[!UICONTROL 重要な属性]アイコンをクリックして、[重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)を表示します。
