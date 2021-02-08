@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer のオプション; エクスペリエンスコンポーザーのオプション; エクスペリエンスのオプション; テキストの編集; html の編集; テキスト／html の編集; 背景色の編集; 背景色; 要素の挿入; リンクの編集; リンク; visual experience composer リンク; css クラスの編集; css クラス; オファーの置き換え; オファー置き換え; 画像の置き換え; 画像置き換え; 項目の削除; 項目削除; 項目の非表示; 項目を隠す; 再配置; 要素の移動; 要素移動; 要素のリサイズ; 要素リサイズ; 要素; 選択項目の拡張; このリンクへのナビゲーション; リンクのナビゲーション; リンクのナビゲート; 移動; リンク; 元に戻す; やり直し; 元に戻す／やり直し
-description: Adobe Target Visual Experience Composer（VEC）でページ要素をクリックすると、その要素のタイプで利用可能なメニューオプションが表示されます。
-title: Visual Experience Composer(VEC)のオプション
+description: Adobe TargetのVisual Experience Composer(VEC)で使用可能なオプションを調べます。 要素をクリックすると、その要素で使用できるオプションが表示されます。
+title: Visual Experience Composer(VEC)オプションの使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 94%
+source-wordcount: '2480'
+ht-degree: 93%
 
 ---
 
