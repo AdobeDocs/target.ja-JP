@@ -1,13 +1,14 @@
 ---
-keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
-description: mbox.js から at.js への移行は、簡単なプロセスです。
+keywords: Target;at.js;at.js への移行;準備;at.js の監査;at.js の統合
+description: 一般的なWeb実装とシングルページアプリケーション(SPA)の両方のために設計された、Adobe Target向けの新しい実装ライブラリであるat.jsへの移行方法を説明します。
 title: mbox.js から at.js に移行する方法
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 99%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
