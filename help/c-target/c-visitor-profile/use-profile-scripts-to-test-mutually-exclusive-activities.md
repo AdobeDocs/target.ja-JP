@@ -1,13 +1,13 @@
 ---
 keywords: プロファイルスクリプト；プロファイルスクリプト属性；相互に排他的なアクティビティ
-description: プロファイル属性を使用すると、同じ訪問者を各アクティビティに参加させずに、複数のアクティビティを比較するテストを設定することができます。
-title: 相互に排他的なアクティビティをテストするプロファイルスクリプトの使用
+description: プロファイル属性を使用して、複数のアクティビティを比較し、同じ訪問者を各アクティビティに参加させないようにするAdobe Targetでのテストを設定する方法を説明します。
+title: 相互に排他的なアクティビティをテストするためにプロファイルスクリプトを使用できますか。
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 80%
+source-wordcount: '698'
+ht-degree: 76%
 
 ---
 
