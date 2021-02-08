@@ -1,12 +1,12 @@
 ---
 keywords: 自動トラフィック配分；ターゲット設定；自動配分；自動配分
-description: Adobe Targetの自動配分アクティビティは、2つ以上のエクスペリエンスのうちの勝者を識別し、テストの実行と学習を続ける間に、より多くのトラフィックを勝者に自動的に再配分して、コンバージョンを増やします。
-title: 自動配分は、手動のテストよりもテスト結果を高速にし、売上高を高くすることができます。
+description: Adobe Targetの自動配分アクティビティが2つ以上のエクスペリエンスの中で勝者を識別し、より多くのトラフィックを自動的に勝者に再割り当てする方法を説明します。
+title: 自動配分アクティビティは、より速い結果と高い売上高を得ることができますか。
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
