@@ -1,12 +1,12 @@
 ---
 keywords: お知らせ；スキルビルダ；開発者チャット；コーヒーブレーク；イベント;forrester;gartner;webinar
-description: 今後のイベントやウェビナーはどこで見つけられますか。
-title: お知らせとイベント
+description: お知らせを読み、Skill Builderセッション、開発者と製品管理者のチャット、ウェビナーなど、Adobe Targetイベントに登録します。
+title: ターゲットに関するお知らせやイベントはどこで入手できますか？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
