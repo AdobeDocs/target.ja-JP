@@ -1,13 +1,13 @@
 ---
 keywords: カスタム条件作成;アルゴリズム;条件;レコメンデーション条件;csv;ftp;csv のアップロード
-description: CSV ファイルをアップロードしてレコメンデーションをカスタマイズします。
-title: カスタム条件をアップロード
+description: CSVファイルをアップロードして、Adobe TargetRecommendationsでレコメンデーションをカスタマイズする方法を説明します。
+title: Recommendationsでカスタム条件をアップロードする方法を教えてください。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 64%
+source-wordcount: '710'
+ht-degree: 61%
 
 ---
 
