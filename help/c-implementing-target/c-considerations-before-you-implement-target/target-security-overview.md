@@ -1,13 +1,14 @@
 ---
 keywords: セキュリティ;セキュリティ対策
-description: Adobe がデータと Adobe Target エクスペリエンスのセキュリティを強化するために導入している詳細なアプローチとセキュリティ対応について説明します。
-title: セキュリティの概要
+description: AdobeがデータとAdobe Targetのエクスペリエンスのセキュリティを強化するために使用する手順について説明します。 『Adobe Targetセキュリティの概要』ホワイトペーパーをダウンロードします。
+title: ターゲットはデータのセキュリティをどのように処理するか
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 92%
+source-wordcount: '165'
+ht-degree: 74%
 
 ---
 
