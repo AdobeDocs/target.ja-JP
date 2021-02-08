@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定、targetライブラリ、ライブラリ
-description: 事前設計されたターゲットルールに基づいてユーザーをターゲット設定します。
-title: ターゲットライブラリ オーディエンスのオプション
+description: 事前にビルドされたレガシーオーディエンスを使用して訪問者をターゲット設定する方法について説明します。 パフォーマンスを向上させるには、新しいオーディエンスカテゴリを使用することをお勧めします。
+title: 事前にビルドされたターゲットルールに基づいてターゲット訪問者を設定できますか。
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
