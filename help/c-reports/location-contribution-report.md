@@ -1,13 +1,13 @@
 ---
 keywords: mvt、多変量分析テスト、場所の貢献度レポート
-description: 場所の貢献度レポートには、各要素および各オファーのパフォーマンスが表示されます。
-title: 場所の貢献度レポート（MVT）
+description: 各アクティビティと各オファーのパフォーマンスを示す、Adobe Targetエクスペリエンスターゲット設定用の場所の貢献度レポートの使用方法を説明します。
+title: 多変量分析テストで場所の貢献度レポートを使用する方法を教えてください。
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 99%
+source-wordcount: '219'
+ht-degree: 83%
 
 ---
 
