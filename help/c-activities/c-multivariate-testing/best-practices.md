@@ -1,13 +1,13 @@
 ---
 keywords: mvt;多変量分析テスト;多変量分析テストのベストプラクティス;mvtベストプラクティス;mvtの組み合わせ;mvt レポート
-description: Adobe Target で多変量分析テストアクティビティを作成および実行する際の、パフォーマンスの向上、問題の回避、発生する可能性がある既知の問題の修正に役立つヒントです。
-title: Adobe Targetを使用した多変量分析テストのベストプラクティス
+description: Adobe Targetで多変量分析テストアクティビティを作成および実行する際に発生する可能性のあるパフォーマンスの向上、問題の回避、既知の問題の修正の方法について説明します。
+title: 多変量分析テストのベストプラクティス
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: '627'
+ht-degree: 91%
 
 ---
 
