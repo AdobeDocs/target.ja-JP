@@ -1,13 +1,13 @@
 ---
 keywords: 多変量分析テスト、mvt、エクスペリエンスパフォーマンスレポート
-description: エクスペリエンスのパフォーマンスレポートは、アクティビティの各エクスペリエンスのパフォーマンスを表示します。このレポートには、参加者数、コンバージョン率、上昇率および信頼性についての情報が含まれています。
-title: エクスペリエンスのパフォーマンスレポート（MVT）
+description: アクティビティ内の各エクスペリエンスのパフォーマンスを示す、Adobe Targetエクスペリエンスターゲット設定アクティビティのエクスペリエンスのパフォーマンスレポートの使用方法を説明します。
+title: 多変量分析テストにエクスペリエンスのパフォーマンスレポートを使用する方法を教えてください。
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
