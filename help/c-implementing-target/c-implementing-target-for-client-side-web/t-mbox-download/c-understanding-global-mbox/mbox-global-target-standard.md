@@ -1,13 +1,14 @@
 ---
-keywords: global mbox;target classic;use global mbox from target classic
-description: Target Standard は、デフォルトで target-global-mbox というグローバル mbox を作成します。この mbox は、Target Standard で作成されるアクティビティの実行に使用されます。ただし、レガシー実装のページで既にグローバル mbox を作成している場合は、その mbox を Target Standard アクティビティで使用できます。
-title: レガシー実装のグローバル mbox の使用
+keywords: グローバル mbox;target classic;target classic からグローバル mbox を使用する
+description: レガシー導入のページで既にグローバルmboxを作成済みの場合、Adobe Targetアクティビティに対してレガシーグローバルmboxを使用する方法を説明します。
+title: レガシー導入のグローバルmboxを使用できますか。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 50%
+source-wordcount: '303'
+ht-degree: 36%
 
 ---
 
