@@ -1,13 +1,14 @@
 ---
 keywords: 実装;導入;RFI;情報のリクエスト
-description: Adobe Target の実装を準備する際に、完了する必要がある作業と収集する必要がある情報があります。
-title: 実装の準備
+description: Adobe Targetを導入する前に、考慮すべき点を知っておいてください。 ターゲットを実装する準備をする際に、必要なタスクを入力し、情報を収集します。
+title: ターゲットを導入するための準備はどのように行う必要がありますか。
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 93%
+source-wordcount: '279'
+ht-degree: 84%
 
 ---
 
