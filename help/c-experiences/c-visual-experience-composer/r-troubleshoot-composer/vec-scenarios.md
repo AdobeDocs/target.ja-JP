@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: このトピックのシナリオでは、ページに加えた変更が、Adobe Targetのエクスペリエンス表示機能にどのような影響を与えるかを示します。
-title: ページ修正のシナリオ
+description: Visual Experience Composer(VEC)でページに加えた変更がAdobe Targetのエクスペリエンス表示機能に与える影響を示す一般的なシナリオを調べます。
+title: よくあるページ変更のシナリオは何ですか。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 90%
 
 ---
 
