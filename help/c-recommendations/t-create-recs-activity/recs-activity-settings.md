@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
-description: いくつかの設定によって、Adobe Target の Recommendations アクティビティの説明を記述したり、制御したりすることができます。
-title: Recommendations アクティビティの設定
+description: Adobe TargetのRecommendationsアクティビティの説明と制御に使用する設定を構成する方法を説明します。
+title: Recommendationsアクティビティの設定方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 90%
+source-wordcount: '397'
+ht-degree: 84%
 
 ---
 
