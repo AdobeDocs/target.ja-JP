@@ -1,14 +1,14 @@
 ---
 keywords: エクスペリエンス;コントロール;自動パーソナライゼーション;自動ターゲット
-description: Adobe Target の自動パーソナライゼーション（AP）または自動ターゲット（AT）アクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択します。
-title: 特定のエクスペリエンスをコントロールとして使用
+description: Adobe TargetでAutomated Personalization(AP)または自動ターゲットアクティビティを作成する際に、コントロールとして使用するエクスペリエンスを選択する方法を説明します。
+title: APアクティビティで特定のエクスペリエンスをコントロールとして使用する方法を教えてください。
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 
