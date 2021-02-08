@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;sitecatalyst;キャンペーンレシピ;テスト;Target;統合
-description: このトピックには、以前の SiteCatalyst の Test&Target への統合と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
-title: 従来のSitecatalystとTest&Tの統合 — A4T FAQ
+description: Test&Tターゲットとの従来のSiteCatalystの統合およびAnalyticsのターゲット用に使用(A4T)に関するよくある質問に対する回答を見つけます。
+title: SitecatalystとTest&Cターゲットの統合に関するFAQはどこで入手できますか。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 95%
+source-wordcount: '179'
+ht-degree: 80%
 
 ---
 
