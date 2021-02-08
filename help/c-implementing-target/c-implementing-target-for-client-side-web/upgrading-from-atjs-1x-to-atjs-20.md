@@ -1,13 +1,14 @@
 ---
 keywords: at.js リリース;at.js バージョンs;シングルページアプリ;spa;クロスドメイン;ドメイン間
-description: Adobe Target at.js 1.*x* から at.js バージョン 2.0.0 にアップグレードする方法に関する詳細情報
-title: at.jsバージョン1.xからバージョン2.xへのアップグレード
+description: Adobe Targetat.js 1.xからat.js 2.xへのアップグレード方法を説明します。システムフロー図を調べたり、新しい関数や廃止された関数について学んだりします。
+title: at.jsバージョン1.xからバージョン2.xにアップグレードする方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '2770'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +48,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 | --- | --- |
 | 3 | `triggerView()` は SPA で呼び出され、ビューをレンダリングし、ビジュアル要素を変更ためのアクションを適用します。 |
 | 2 | ビューのターゲットコンテンツがキャッシュから読み取られます。 |
-| 1 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
+| 3 | デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます。 |
 | 4 | 通知リクエストが [!DNL Target] プロファイルストア に送信され、アクティビティで訪問者がカウントされ、指標が増分されます。 |
 | 5 | Analytics データがデータ収集サーバーに送信されます。 |
 | 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
