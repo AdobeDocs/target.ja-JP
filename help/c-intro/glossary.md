@@ -1,12 +1,12 @@
 ---
-description: 用語の定義について説明します。
-title: 用語集
+description: Adobe Targetで使用される別の用語は何を意味しますか。 ターゲットをさらに詳しく理解するための一般的な用語の定義を確認します。
+title: ターゲットで使用されている用語と定義はどこで見つけることができますか？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '2316'
+ht-degree: 97%
 
 ---
 
