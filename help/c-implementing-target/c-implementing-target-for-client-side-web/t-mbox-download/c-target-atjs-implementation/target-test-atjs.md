@@ -1,13 +1,14 @@
 ---
 keywords: at.js；実稼働以外；実稼働以外；デプロイ
-description: 実稼動環境以外に at.js を安全にデプロイする方法に関する情報を紹介します。
-title: at.js の実稼動環境以外へのデプロイ
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
+title: at.jsを実稼働以外の環境にデプロイする方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 91%
+source-wordcount: '392'
+ht-degree: 82%
 
 ---
 
