@@ -1,13 +1,13 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: アクティビティで不測の問題が生じることもあります。Automated Personalization を使用しているときに生じることがある問題と、推奨の解決策を紹介します。
-title: Automated Personalization のトラブルシューティング
+description: Adobe TargetでのAutomated Personalization(AP)アクティビティの使用中に直面する可能性のある潜在的な問題と、推奨される解決策を検討します。
+title: Automated Personalizationのトラブルシューティング方法
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
