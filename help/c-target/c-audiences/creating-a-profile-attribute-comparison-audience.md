@@ -1,13 +1,13 @@
 ---
 keywords: オーディエンス、傾向、profile属性、比較、比較、オーディエンスの作成、オーディエンスの作成
-description: Target オーディエンスライブラリに対して、またはアクティビティのみのオーディエンスにおいて、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
-title: プロファイル属性比較オーディエンスの作成
+description: ターゲットオーディエンスライブラリまたはアクティビティのみのオーディエンスで2つのプロファイル属性を比較するオーディエンスを定義する方法を説明します。
+title: 2つのプロファイル属性をオーディエンスで使用するために比較できますか？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
