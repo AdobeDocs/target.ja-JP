@@ -1,13 +1,13 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics ベースのアクティビティ;Analytics レポートスイート;レポートスイート;Analytics Target 統合;レポートスイートの設定
-description: Adobe Analytics を Target のレポートソースとして実装する場合（A4T）には、いくつかの手順が必要になります。
-title: Analytics for Target の実装
+description: Adobe TargetおよびAdobe Analyticsのソリューションにターゲット用のAnalytics(A4T)を実装するために必要な手順に従います。
+title: Analytics forターゲット(A4T)の実装方法を教えてください。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 50%
+source-wordcount: '919'
+ht-degree: 47%
 
 ---
 
