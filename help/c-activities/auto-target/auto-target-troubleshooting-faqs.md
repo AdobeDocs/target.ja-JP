@@ -1,12 +1,12 @@
 ---
 keywords: 自動ターゲット；ターゲティング；トラフィックの配分；よくある質問；faq；トラブルシューティング；トラブルシューティング；トラフィック
-description: Adobe Targetでの自動ターゲットに関するトラブルシューティングおよびよくある質問(FAQ)です。
-title: 自動ターゲットのトラブルシューティングとFAQ
+description: トラブルシューティングのトピックと、Adobe Targetの自動ターゲットアクティビティに関するよくある質問(FAQ)を参照してください。
+title: 自動ターゲットアクティビティのトラブルシューティング方法
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
