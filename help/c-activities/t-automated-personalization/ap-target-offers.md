@@ -1,14 +1,14 @@
 ---
 keywords: 自動パーソナライゼーション；オファー;ターゲット;オーディエンス；ターゲットルール；ターゲット設定
-description: 自動パーソナライゼーションアクティビティで、特定のオーディエンスに対してオファーをターゲット設定できます。
-title: 'Automated Personalizationオファー '
+description: Adobe TargetのAutomated Personalization(AP)アクティビティを使用して、個々のオファーを特定のオーディエンスにターゲットする方法を学びます。
+title: Automated Personalization・オファーをターゲットする方法
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
