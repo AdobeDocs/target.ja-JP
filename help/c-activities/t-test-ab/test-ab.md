@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲット設定；コンテンツの比較；自動ターゲット；自動配分
-description: 手動のA/Bテストアクティビティでは、事前に指定したテスト期間中に、Webサイトコンテンツの複数のバージョンを比較して、どのバージョンが最もコンバージョンの向上に役立つかを確認します。
-title: A/Bテストの概要
+description: Adobe Targetの様々なタイプのA/Bテストアクティビティ(手動、自動配分、自動ターゲット)について説明します。 自分に合うものを選びなさい。
+title: ターゲットで使用できるA/Bアクティビティのタイプはどれか。
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 38%
 
 ---
