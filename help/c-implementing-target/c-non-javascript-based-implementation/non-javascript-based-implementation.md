@@ -1,13 +1,14 @@
 ---
 keywords: 実装;mbox.js 非 JavaScript;adbox;リダイレクター;mbox
-description: adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
-title: 電子メールの実装
+description: adboxやリダイレクターの使用など、JavaScript以外のシナリオでAdobe Targetを実装する方法を説明します。
+title: 電子メール用のターゲットの実装方法を教えてください。
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 81%
+source-wordcount: '436'
+ht-degree: 77%
 
 ---
 
