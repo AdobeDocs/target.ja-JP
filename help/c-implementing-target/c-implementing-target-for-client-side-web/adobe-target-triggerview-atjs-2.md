@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;関数;viewName;viewname;view name
-description: Adobe Target at.js JavaScript ライブラリの adobe.target.triggerView (viewName, options) 関数について説明します。
-title: Adobe.ターゲット.トリガービュー（Viewname、オプション） - at.js 2.x
+description: Adobe Targetのat.js JavaScriptライブラリで、シングルページアプリケーション(SPA)で使用するadobe.ターゲット.triggerView()関数を使用します。 (at.js 2.x)
+title: adobe.triggerView()関数の使用方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.triggerView (viewName, options) - at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 この関数は、新しいページが読み込まれるときや、ページ上のコンポーネントが再レンダリングされるときに呼び出すことができます。Visual Experience Composer（VEC）を使用してA/Bテストおよびエクスペリエンスターゲット設定（XT）アクティビティを作成するためには、`adobe.target.triggerView()` をシングルページアプリケーション（SPA）に実装する必要があります。サイトに `adobe.target.triggerView()` が実装されていない場合、VEC は SPA に使用できません。詳細については、「[シングルページアプリケーションの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。
 
