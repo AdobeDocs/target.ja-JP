@@ -1,13 +1,13 @@
 ---
 keywords: A/B;アクティビティ指標;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: Adobe TargetA/Bアクティビティの指標を使用して、訪問が成功かどうかを判断します。
-title: 指標の設定
+description: Adobe TargetA/Bアクティビティで指標を指定して、コンバージョン、売上高、エンゲージメントなどの訪問が成功かどうかを判断する方法について説明します。
+title: A/Bアクティビティで目標指標を設定する方法を教えてください。
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 90%
+source-wordcount: '348'
+ht-degree: 85%
 
 ---
 
