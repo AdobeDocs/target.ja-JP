@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience PlatformWeb SDK;aep web sdk;aep sdk;seo；検索エンジンの最適化；エッジクラスター，中央クラスター；at.js;mbox.js;
-description: Adobe Experience PlatformWeb SDK、ターゲットJavaScriptライブラリ（at.jsおよびmbox.js）、ターゲットで作成できる様々なアクティビティタイプに関する情報を含む、Adobe Targetの仕組みに関する情報を紹介します。
+description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストなど、Adobe Targetの仕組みを説明します。
 title: ターゲットの仕組み
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 70%
+source-wordcount: '2516'
+ht-degree: 71%
 
 ---
 
