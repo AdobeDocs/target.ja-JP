@@ -1,13 +1,13 @@
 ---
 keywords: プロモーション；プロモーション — 前；プロモーション — 後；プロモーション — 後；プロモーション — タイプ；アイテムのリスト；属性別プロモーション；コレクションのプロモーション
-description: プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
-title: ターゲット追加Recommendationsデザインのプロモーション
+description: プロモーション項目を追加し、Adobe TargetRecommendationsデザインでの配置を制御する方法を説明します。 静的なプロモーションおよび動的なプロモーションを追加できます。
+title: Recommendationsデザインでのプロモーション追加の方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '699'
+ht-degree: 56%
 
 ---
 
