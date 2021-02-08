@@ -1,13 +1,13 @@
 ---
 keywords: target のトラブルシューティング;target トラブルシューティング;デフォルトコンテンツ;テストが実行されない;アクティビティが実行されない;ターゲティングが動作しない;以前のエクスペリエンスが表示される;アクティビティを作成できない;アクティビティを作成できない;アクティビティの作成;ページ構造の変更;ページ構造の修正;エラーメッセージ;プロファイルスクリプト削除エラー;ajax が動作しない
-description: Adobe Targetのアクティビティがサイトに表示されない場合は、以下のトラブルシューティングの提案が解決に役立ちます。
-title: アクティビティのトラブルシューティング
+description: Adobe Targetアクティビティがサイトに表示されない場合に、トラブルシューティングの提案を見つけます。
+title: アクティビティのトラブルシューティング方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
