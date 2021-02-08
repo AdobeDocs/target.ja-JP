@@ -1,13 +1,13 @@
 ---
 keywords: time frame、start date、終了日、開始日/終了日、時間枠、ターゲットスケジュール、週間の分割、日分割、分割
-description: 開始および終了の日時を追加して、特定の時間枠中にサイトを訪問するユーザーにターゲット設定できます。また、「週と日付の分割」オプションを設定して、オーディエンスのターゲット設定の繰り返しパターンを作成できます。
-title: オーディエンスの時間枠オプション
+description: 開始/終了日時を、特定の期間にサイトを訪問するターゲットユーザーに使用する方法を学びます。 週と日の分割オプションを設定することもできます。
+title: 特定の時間にサイトを訪問したターゲット訪問者はいるか。
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
