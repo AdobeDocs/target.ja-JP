@@ -1,13 +1,13 @@
 ---
 keywords: faq;よくある質問;analytics for target;セグメント;a4T;レポートの共有
-description: このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の指標、オーディエンス、レポートの共有に関するよくある質問に対する回答が含まれています。
-title: 指標、オーディエンスおよびレポートの共有 — A4T FAQ
+description: Analyticsでターゲット(A4T)を使用する場合の指標、オーディエンスおよびレポートの共有に関するFAQを紹介します。 A4Tでは、Adobe Targetアクティビティに対してAnalyticsレポートを使用できます。
+title: A4Tで指標、オーディエンスおよびレポートを共有するFAQはどこで見つけられますか？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 82%
+source-wordcount: '249'
+ht-degree: 70%
 
 ---
 
