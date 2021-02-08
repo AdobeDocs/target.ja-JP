@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;関数
-description: Adobe Target at.js JavaScript ライブラリの adobe.target.applyOffer(options) 関数について説明します。
-title: Adobe.Target.Applyoffer(Options)
+description: Adobe Targetのat.js JavaScriptライブラリでadobe.ターゲット.applyOffer()関数を使用して、応答コンテンツを適用します。
+title: adobe.applyOffer()関数の使用方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 98%
+source-wordcount: '176'
+ht-degree: 86%
 
 ---
 
