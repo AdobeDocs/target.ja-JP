@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Adobe Targetのレコメンデーションデザインに関するよくある質問(FAQ)のリストです。
-title: デザイン FAQ
+keywords: recommendations;よくある質問;faq
+description: よくある質問(FAQ)のリストと、Adobe TargetRecommendationsのデザインに関する回答を確認します。
+title: ターゲットRecommendationsのデザインに関する質問に回答する場所
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 85%
+source-wordcount: '412'
+ht-degree: 82%
 
 ---
 
