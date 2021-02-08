@@ -1,13 +1,13 @@
 ---
 keywords: トラフィック見積もり；自動パーソナライゼーション；ap；トラフィックの見積もり
-description: トラフィック見積もりでは、Adobe Targetアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるフィードバックを提供します。
-title: 成功のために必要なトラフィックの見積もり
+description: Adobe TargetAutomated Personalizationアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるトラフィック見積もりの使用方法を説明します。
+title: Automated Personalizationアクティビティにはどのくらいのトラフィックが必要ですか？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 22%
+source-wordcount: '746'
+ht-degree: 21%
 
 ---
 
