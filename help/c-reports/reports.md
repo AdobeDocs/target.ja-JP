@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: レポートは、Adobe Targetアクティビティのパフォーマンスに関する情報を提供します
-title: レポート
+keywords: レポート；ブロックipアドレス；ipアドレスからのブロック訪問者；レポートのダウンロード；csv;レポート
+description: Adobe Targetのレポート機能を使用して、アクティビティのパフォーマンスを調べる方法を説明します。 データに基づいてより良い判断を行い、ROIを増やします。
+title: 表示レポートの作成方法
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 66%
+source-wordcount: '860'
+ht-degree: 63%
 
 ---
 
