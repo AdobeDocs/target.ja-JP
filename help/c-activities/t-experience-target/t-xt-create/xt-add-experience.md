@@ -1,13 +1,13 @@
 ---
-keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Adobe TargetのVisual Experience Composer(VEC)は、エクスペリエンスターゲット設定(XT)アクティビティでページ上のエクスペリエンスを編集するための視覚的なインターフェイスを提供します。
-title: エクスペリエンスを作成
+keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
+description: Visual Experience Composer(VEC)を使用して、エクスペリエンスターゲット設定(XT)アクティビティでページ上のエクスペリエンスを作成および編集する方法を説明します。
+title: エクスペリエンスのターゲット設定アクティビティでエクスペリエンスを作成する方法を教えてください。
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 
