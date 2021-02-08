@@ -1,13 +1,13 @@
 ---
 keywords: 環境データ;セッションデータ;ジオデータ;地理データ;デバイスデータ;モバイルデータ;属性;プロファイル属性
-description: Adobe Target では、様々なデータを自動的に収集し、それを基に自動パーソナライゼーション（AP）と自動ターゲット（AT）アクティビティのパーソナライゼーションアルゴリズムを構築します。訪問者に AP または AT アクティビティが提供されると、情報のスナップショットが「トレーニングレコード」（パーソナライゼーションアルゴリズムによる学習の基になる訪問者データ）のセットに渡されます。
-title: パーソナライゼーションアルゴリズムのデータ収集
+description: Automated Personalization(AP)および自動ターゲット(AT)アクティビティで、Adobe Targetがどのデータを収集し、それを使用してパーソナライゼーションアルゴリズムを構築するかを学びます。
+title: パーソナライゼーションアルゴリズムを構築するために収集されるデータ
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 92%
+source-wordcount: '1737'
+ht-degree: 90%
 
 ---
 
