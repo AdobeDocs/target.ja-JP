@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第1章 — はじめに
-title: ウェルカムキット — 第1章 — 概要
+description: 最適化とパーソナライゼーションのプログラムをAdobe Targetと開始。 Adobe Targetウェルカムキットは出発点として良い。
+title: ターゲットを使い始める方法
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
