@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
-description: Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
-title: ターゲットプレミアムのRecommendationsクラシックとRecommendationsのアクティビティ
+description: ターゲットプレミアムの従来のRecommendationsクラシックアクティビティとRecommendationsの違いを理解するのに役立つ情報を確認します。
+title: ターゲットプレミアムのRecommendationsクラシックとRecommendationsの違い
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
