@@ -1,12 +1,12 @@
 ---
 keywords: アクティビティ;アクティビティ;アクティビティタイプ;アクティビティの編集;編集;ドラフト
-description: アクティビティをドラフト形式で保存するなど、Adobe Targetの既存のアクティビティを編集する様々な方法に関する情報です。
-title: アクティビティの編集またはドラフトとして保存
+description: アクティビティをドラフト形式で保存するなど、Adobe Targetで既存のアクティビティを編集する様々な方法について説明します。
+title: アクティビティを編集する方法とドラフトとして保存する方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
