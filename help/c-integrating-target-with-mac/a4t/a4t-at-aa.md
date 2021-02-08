@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
-description: A4Tを自動ターゲットと自動配分のアクティビティと共に使用できますか。
-title: 自動配分と自動ターゲットアクティビティのA4Tのサポート
+description: Analyticsをレポートソースとして使用するAdobe Targetで自動配分および自動ターゲットアクティビティを作成する方法を説明します(A4T)。
+title: A4Tは自動配分と自動ターゲットのアクティビティをサポートしますか。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '863'
 ht-degree: 2%
 
 ---
