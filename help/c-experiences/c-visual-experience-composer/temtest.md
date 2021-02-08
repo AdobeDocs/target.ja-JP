@@ -1,13 +1,13 @@
 ---
 keywords: テンプレートテスト;テンプレート;類似のページと同じエクスペリエンス;テンプレートテスト
-description: Adobe Targetのページテンプレートを使用して、ページの構造を作成したり、ページに類似の要素が含まれる場合は、類似の構造を持つページ要素のバリエーションをテストしたりします。
-title: 類似のページに同じエクスペリエンスを組み込む
+description: 同じ構造の複数のページ、または同じテンプレート要素を含む複数のページに、同じエクスペリエンスを含めるために、Adobe Target Visual Experience Composer(VEC)を使用する方法を説明します。
+title: 類似のページに同じエクスペリエンスを含めることはできますか？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '618'
+ht-degree: 45%
 
 ---
 
