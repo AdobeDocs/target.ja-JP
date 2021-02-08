@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Recommendations条件；レコメンデーションアルゴリズム；レコメンデーションアクティビティ；条件；レコメンデーションターゲット設定；recommendations
-description: Adobe TargetのRecommendationsアクティビティは、以前のユーザーアクティビティや他のアルゴリズムを基にして、顧客が興味を持つ可能性のある商品やコンテンツを自動的に表示します。 Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
-title: ターゲットRecommendations
+description: Adobe TargetのRecommendationsアクティビティについて説明します。これは、以前のユーザーアクティビティやその他のアルゴリズムを基にして、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法です。
+title: ターゲットRecommendationsとは？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '930'
+ht-degree: 58%
 
 ---
 
