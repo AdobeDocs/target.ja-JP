@@ -1,13 +1,14 @@
 ---
 keywords: 実装;実装する;導入;タグマネージャー;DTM;at.js;Dynamic Tag Management
-description: Adobe Dynamic Tag Management（DTM）は、アドビの従来のタグマネージャーです。
-title: Dynamic Tag Management（DTM）を使用した の実装
+description: レガシーDynamic Tag Management(DTM)を使用したAdobe Targetat.jsライブラリの実装方法を説明します。 Adobeの起動は、ターゲットを実装する場合に推奨される方法です。
+title: Dynamic Tag Management(DTM)を使用してターゲットを実装できますか。
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 93%
+source-wordcount: '112'
+ht-degree: 64%
 
 ---
 
