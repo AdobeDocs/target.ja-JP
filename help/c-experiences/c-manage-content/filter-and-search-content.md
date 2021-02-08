@@ -1,13 +1,13 @@
 ---
 keywords: コンテンツライブラリ；アセット；検索；フィルタ
-description: キーワードでアセットを検索する方法を教えてください。
-title: コンテンツを検索
+description: Adobe Targetオファーライブラリでコードと画像のオファーを検索する方法を説明します。
+title: オファーライブラリでコンテンツを検索する方法
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
