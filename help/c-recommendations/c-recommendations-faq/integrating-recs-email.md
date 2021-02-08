@@ -1,13 +1,13 @@
 ---
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
-description: 電子メールと Recommendations を統合する方法に関する情報をまとめています。
-title: Recommendationsと電子メールの統合
+description: ターゲット配信API、rawboxテンプレート、ダウンロード専用テンプレートの使用を含む、Adobe TargetRecommendationsと電子メールを統合する方法について説明します。
+title: RecommendationsとEメールの統合方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 90%
+source-wordcount: '1490'
+ht-degree: 88%
 
 ---
 
