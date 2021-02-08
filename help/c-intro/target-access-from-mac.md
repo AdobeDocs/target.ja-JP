@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud；サインイン；言語；デフォルトのui言語；デフォルトの言語
-description: Adobe Experience Cloudのターゲットにアクセスする方法
-title: Adobe Experience Cloudからのアクセスターゲット
+description: Adobe Experience Cloudからターゲットにアクセスする方法、デフォルトの表示を設定する方法、ターゲットのUIとドキュメントの言語を変更する方法について説明します。
+title: Adobe Experience Cloudからターゲットにアクセスする方法
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 
