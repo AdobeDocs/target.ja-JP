@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;ターゲットプレミアム；Automated Personalization；自動ターゲット；自動ターゲット；権限；アドビターゲットとは
-description: ターゲットとは？
+description: Adobe Target標準およびAdobe Targetプレミアムの基本について説明します。 ターゲットプレミアムには、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
-title: はじめに
+title: ターゲットとは？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
