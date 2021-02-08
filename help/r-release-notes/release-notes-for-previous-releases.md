@@ -1,12 +1,12 @@
 ---
 keywords: リリースノート
-description: 以前のリリースに関する情報はどこで入手できますか？
-title: 以前のリリースのリリースノート
+description: Adobe Targetの以前のリリースに含まれる機能、拡張機能、および修正のリストを表示します。
+title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30515'
+source-wordcount: '30524'
 ht-degree: 84%
 
 ---
