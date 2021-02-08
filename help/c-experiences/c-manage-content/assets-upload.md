@@ -1,13 +1,13 @@
 ---
 keywords: コンテンツ;コンテンツの更新;アセット;コンテンツのアップロード;アセットのアップロード
-description: 画像をアップロードして画像オファーとして使用する方法を教えてください。
-title: コンテンツをアップロード
+description: Adobe Targetの画像オファーとして使用する画像をアップロードする方法を説明します。
+title: コンテンツをオファーライブラリにアップロードする方法を教えてください。
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 
