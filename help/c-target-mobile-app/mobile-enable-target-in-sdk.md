@@ -1,13 +1,14 @@
 ---
 keywords: モバイルアプリ;モバイルアプリ sdk;ターゲットモバイルアプリ;モバイルターゲット sdk;モバイルアプリ sdk;sdk での target の有効化
-description: アプリに Adobe Mobile Services SDK を追加します。
-title: SDK での Target の有効化
+description: AdobeMobile Services SDKをモバイルアプリに追加する方法を説明します。
+title: AdobeモバイルSDKでターゲットを有効にする方法を教えてください。
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 90%
+source-wordcount: '259'
+ht-degree: 81%
 
 ---
 
