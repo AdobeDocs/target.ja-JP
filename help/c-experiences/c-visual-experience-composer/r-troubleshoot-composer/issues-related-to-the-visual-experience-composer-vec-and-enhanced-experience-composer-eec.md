@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: 表示の問題は、特定の状況で、Adobe TargetVisual Experience Composer(VEC)および拡張Experience Composer(EEC)で発生する場合があります。
-title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
+keywords: ターゲット設定；Visual Experience Composer；ホワイトリスト；ホワイトリスト；許可リスト;許可リスト；拡張Visual Experience Composer;vec;Visual Experience Composer；トラブルシューティング；ec；拡張Experience Composer;tls;tls 1.2
+description: 特定の状況で、Visual Experience Composer(VEC)および拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
+title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 67%
+source-wordcount: '1403'
+ht-degree: 65%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 * **&#x200B;は、（VEC Helper拡張機能がインストールされ、有効になっているかどうかにかかわらず）サイトのパスワードで保護されたページでVECを使用できません。 これは、サイトログインCookieがサードパーティCookieと見なされ、ログインリクエストと共に送信されないからです。 唯一の例外は、顧客サイトログインcookieのSameSiteパラメーターが既に「なし」に設定されている場合です。
 * アクティビティの編集中に&#x200B;**&#x200B;は[!DNL Target]ライブラリをダウンロードできません（まだサイトにない場合）。 これは、ダウンロード呼び出しが、保護されたAdobeドメインに向かって顧客ドメインから行われ、非認証として拒否されるからです。
-* `adobemc.com domain`のCookieにSameSite属性を設定できないため、EECはすべてのユーザーに対して&#x200B;**&#x200B;機能を&lt;a1/>しません。 この属性がない場合、ブラウザーはこれらのcookieを拒否し、EECが失敗する原因となります。
+* `adobemc.com domain`のCookieにSameSite属性を設定できないため、EECはすべてのユーザーに対して&#x200B;**&#x200B;機能をしません。 この属性がない場合、ブラウザーはこれらのcookieを拒否し、EECが失敗する原因となります。
 
 Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信しました。 この拡張機能は、必要に応じてcookie属性を上書きして`SameSite="none"`属性を設定します。 [更新された拡張子は](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)にあります。 VEC Helper Extensionのインストールと使用について詳しくは、[Visual Experience Composerヘルパー拡張](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を参照してください。
 
