@@ -1,13 +1,13 @@
 ---
 keywords: リモートオファー;リモートオファーの作成
-description: JSONオファーの作成方法を教えてください。
-title: JSON オファーの作成
+description: フォームベースのExperience Composerで使用するJSONオファーをAdobe Targetで作成する方法を説明します。 JSONオファーは、SPAフレームワークまたはサーバー側の統合に役立ちます。
+title: JSONオファーの作成方法
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 
