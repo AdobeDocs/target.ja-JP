@@ -1,12 +1,12 @@
 ---
 keywords: サイトページ；ターゲットサイトページ；ターゲット；現在のページ；ターゲットの現在のページ；前のページ；ターゲットの前のページ；ランディングページ;ターゲットのランディングページ;httpヘッダ
-description: サイトの特定のページにいるターゲット訪問者を訪問できます。
-title: オーディエンスのサイトページのオプション
+description: サイトの特定のページにいるAdobe Targetを使用して訪問者をターゲットする方法を学びます。
+title: サイトページに基づいてターゲット訪問者を作成できますか。
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 42%
 
 ---
