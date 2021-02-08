@@ -1,13 +1,14 @@
 ---
 keywords: 実装;mbox.js; DOM 操作ライブラリ;target.js;Visual Experience Composer;iframe;角度サイト;単一ページアプリケーション;単一ページアプリ;SPA
-description: 技術担当者が、mbox.js の実装とユーザーのサイトに与える影響を理解するのに役立つ情報を紹介します。
-title: mbox.js の機能
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
+title: ターゲットmbox.jsライブラリの機能
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 81%
+source-wordcount: '410'
+ht-degree: 73%
 
 ---
 
