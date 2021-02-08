@@ -1,13 +1,14 @@
 ---
 keywords: クラウドインスタンス;パブリックサフィックスリスト;パブリックサフィックス;Cookie;ファーストパーティ Cookie;ファーストパーティ Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: クラウドベースのインスタンスを使用して Adobe Target をテストする際の問題に関する情報をまとめています。
-title: クラウドベースのインスタンスの使用
+description: クラウドベースのインスタンスを使用してAdobe Targetをテストする場合、または概念配達確認を目的としている場合に、（ソリューションと共に）お客様が直面する問題を調査します。
+title: クラウドベースのインスタンスでターゲットを使用できますか？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '170'
+ht-degree: 81%
 
 ---
 
