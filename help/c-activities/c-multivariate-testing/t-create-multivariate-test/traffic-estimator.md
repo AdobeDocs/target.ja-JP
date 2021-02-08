@@ -1,13 +1,13 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 多変量分析テストでは複数のエクスペリエンスを比較するので、有意な結果を得るためにはどの程度のトラフィックが必要かを把握しておくことが重要です。Adobe Targetのトラフィック見積もりでは、ページに関する統計とテスト中のエクスペリエンスの数に関する統計を使用して、テストを成功させるために必要なトラフィック量とテスト期間を見積もります。
-title: テストを成功させるために必要なトラフィックの見積もり
+description: Adobe Target多変量分析テストアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるトラフィック見積もりの使用方法を説明します。
+title: 多変量分析テスト(MVT)アクティビティに必要なトラフィック量
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '501'
+ht-degree: 92%
 
 ---
 
