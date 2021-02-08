@@ -1,13 +1,14 @@
 ---
 keywords: モバイルアプリ;　モバイルアプリの場所;　targetモバイルアプリ;　モバイルターゲット場所;　モバイルアプリ成功指標
-description: モバイルアプリで Target を使用するには、場所と成功指標を作成します。
-title: IOS -ターゲットの場所と成功指標の作成
+description: Adobe Targetを使用してアプリをパーソナライズし、最適化できるように、iOSアプリで場所と成功指標を作成する方法を学ぶための表示サンプルコードです。
+title: iOSアプリでターゲットの場所と成功指標を作成する方法を教えてください。
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
