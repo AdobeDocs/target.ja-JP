@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Visual Experience Composer（VEC）と拡張 Experience Composer（EEC）では、特定の条件下で表示の問題が発生することがあります。
-title: Visual Experience Composer と拡張 Experience Composer のトラブルシューティング
+keywords: ターゲット設定；visual experience composer;enhanced visual experience composer;vec;busial experience composer；トラブルシューティング；eec;enhanced experience composer;tls;tls 1.2
+description: 特定の条件下でVisual Experience Composer(VEC)および拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
+title: Visual Experience Composerと拡張Experience Composerのトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 91%
+source-wordcount: '248'
+ht-degree: 70%
 
 ---
 
