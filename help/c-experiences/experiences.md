@@ -1,13 +1,13 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frameオプション；クロス接触チャネルの問題；認証ワークフロー
-description: Adobe Targetのエクスペリエンスは、訪問者がアクティビティのオーディエンス条件を満たす場合に、どのコンテンツを表示するかを決定します。
-title: エクスペリエンスとオファー
+description: Adobe Experience Composers(Visual Experience Composer(VEC)、フォームベースのExperience Composer、および単一ページのVisual Experience Composerについての詳細。
+title: ターゲットのオファーを行うExperience Composerはどれですか。
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 80%
+source-wordcount: '381'
+ht-degree: 79%
 
 ---
 
