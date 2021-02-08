@@ -1,13 +1,14 @@
 ---
 keywords: 概要とリファレンス;webkit
-description: Cookie の動作は、その Cookie がファーストパーティ Cookie であるか、ファーストパーティ Cookie を伴うサードパーティ Cookie であるか、サードパーティ Cookie のみであるかによって異なります。
-title: mbox.jsのCookie
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
+title: mbox.jsのCookieに関する情報はどこで入手できますか。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1652'
+ht-degree: 92%
 
 ---
 
