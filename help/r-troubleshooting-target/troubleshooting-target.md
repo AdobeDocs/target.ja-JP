@@ -1,13 +1,13 @@
 ---
 keywords: Target のトラブルシューティング;Target のトラブルシューティング
-description: Adobe Target の問題を解決するトピックのリストです。トラブルシューティング、よくある質問（FAQ）などの便利なトピックを紹介します。
-title: トラブルシューティング
+description: トピックのリストを確認し、トラブルシューティングトピック、よくある質問(FAQ)、その他の役に立つトピックを含む、Adobe Targetの問題を解決します。
+title: ターゲットのトラブルシューティング方法
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 
