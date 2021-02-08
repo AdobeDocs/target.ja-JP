@@ -1,13 +1,13 @@
 ---
 keywords: アクティビティ設定；目標と設定；多変量分析；mvt
-description: Adobe Targetの目標と設定ページでは、テストの目標に関する情報を入力します。
-title: 目標と設定
+description: Adobe Targetの目標と設定ページを使用して、多変量分析テスト(MVT)アクティビティの目標に関する情報を指定する方法について説明します。
+title: 多変量分析テスト(MVT)アクティビティの目標と設定を指定する方法を教えてください。
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 92%
+source-wordcount: '1280'
+ht-degree: 90%
 
 ---
 
