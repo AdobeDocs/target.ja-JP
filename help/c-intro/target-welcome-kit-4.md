@@ -1,12 +1,12 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetウェルカムキット — 第4章 —ターゲット使用のヒント
-title: ウェルカムキット — 第4章 —ターゲット使用のヒント
+description: アドビの専門家パネルから、Adobe Targetのテストとパーソナライゼーションの一環としての使用に関するヒントをご覧ください。
+title: ターゲットを使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
