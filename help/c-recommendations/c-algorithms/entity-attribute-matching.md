@@ -1,12 +1,12 @@
 ---
 keywords: 包含ルール；包含条件；レコメンデーション；プロモーション；動的フィルタリング；動的；エンティティ属性の一致
-description: 推定品目のプールを、ユーザーが操作を行った特定の品目と比較して、Adobe TargetRecommendationsで動的にフィルタリングします。
-title: ターゲットRecommendationsの動的包含ルールで一致するエンティティ属性でフィルター
+description: Adobe TargetRecommendationsで、見込み品目のプールを、ユーザーが操作を行った特定の品目と比較して、動的にフィルタリングする方法を説明します。
+title: Recommendationsアクティビティでエンティティ属性の照合を使用してフィルタリングする方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
