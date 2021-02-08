@@ -1,12 +1,13 @@
 ---
 keywords: シングルページアプリケーション実装；シングルページアプリケーションの実装；spa;at.js 2.x;at.js；シングルページアプリケーション；spa;spa;SPA
-description: Adobe Target at.js 2.x を使用したシングルページアプリケーション（SPA）の実装について説明します。
-title: 単一ページアプリの実装
+description: Adobe Targetat.js 2.xを使用してシングルページアプリ用のターゲット(SPA)を実装する方法を学びます。
+title: シングルページアプリ(SPA)向けのターゲットを実装できますか。
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
@@ -293,7 +294,7 @@ at.js 2.x APIを使用すると、様々な点で[!DNL Target]実装をカスタ
 
 | 手順 | アクション | 詳細 |
 | --- | --- | --- |
-| 1 | 呼び出し `visitor.resetState()` | このAPIは、読み込み時に新しい表示用にSDIDが再生成されるようにします。 |
+| 3 | 呼び出し `visitor.resetState()` | このAPIは、読み込み時に新しい表示用にSDIDが再生成されるようにします。 |
 | 2 | `getOffers()` APIを呼び出してキャッシュを更新 | これは、この表示の変更が、現在の訪問者を[!DNL Target]個以上のアクティビティに限定したり、アクティビティから除外する可能性がある場合に、必要に応じて行う手順です。 この時点で、[!DNL Target]に追加のデータを送信して、さらなるターゲティング機能を有効にすることもできます。 |
 | 3 | 呼び出し `triggerView()` | 手順2を実行した場合は、[!DNL Target]リクエストを待ってオファーをキャッシュに適用した後で、この手順を実行します。 この手順は、表示ごとに1回だけ実行する必要があります。 |
 | 4 | 呼び出し `triggerView()` | 手順2を実行していない場合は、手順1を完了するとすぐにこの手順を実行できます。 手順2と手順3を実行した場合は、この手順をスキップする必要があります。 この手順は、表示ごとに1回だけ実行する必要があります。 |
