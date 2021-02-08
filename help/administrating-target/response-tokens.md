@@ -1,12 +1,13 @@
 ---
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
-description: 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）とのデバッグや統合に使用する、Adobe Target固有の情報(アクティビティの詳細、ユーザープロファイル情報、地域情報など)を自動的に出力できます
-title: レスポンストークン
+description: 応答トークンをAdobe Targetで使用する方法について説明します。この方法は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力する方法を示します。
+title: 応答トークンとは何ですか。また、応答トークンの使用方法について教えてください。
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1580'
 ht-degree: 77%
 
 ---
