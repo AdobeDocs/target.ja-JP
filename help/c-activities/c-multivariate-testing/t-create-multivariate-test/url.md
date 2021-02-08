@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;activity url
-description: アクティビティURLは、Adobe Target多変量分析テスト(MVT)で使用され、Adobe Targetでテストをデザインしたときに開くページを決定します。
-title: アクティビティ URL
+keywords: 多変量分析テスト；アクティビティURL
+description: Adobe Targetを使用して多変量分析テストアクティビティをデザインした場合に、テストで使用され、開くページを決定するアクティビティURLを指定する方法について説明します。
+title: 多変量分析(MVT)アクティビティのアクティビティURLとは何ですか。
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 84%
+source-wordcount: '303'
+ht-degree: 79%
 
 ---
 
