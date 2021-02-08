@@ -1,13 +1,14 @@
 ---
 keywords: モバイルアプリ、モバイルアプリプロセス、targetモバイルアプリ、モバイルターゲット場所、モバイルアプリ成功指標
-description: Target を使用して、モバイルアプリの最適化とパーソナライゼーションをおこなうことができます。
-title: モバイルアプリのための Target
+description: インタラクティブなテストとルールベースのパーソナライゼーション、AIに基づくパーソナライゼーションを行い、モバイルアプリの最適化とパーソナライゼーションにAdobe Targetを使用する方法を説明します。
+title: モバイルアプリでターゲットを使用できますか？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 
