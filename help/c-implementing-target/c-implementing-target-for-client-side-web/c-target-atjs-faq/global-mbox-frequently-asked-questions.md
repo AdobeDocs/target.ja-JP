@@ -1,13 +1,14 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: グローバル mbox に関するよくある質問（FAQ）のリストです。
-title: グローバル mbox に関するよくある質問
+keywords: トラブルシューティング;よくある質問;FAQ;グローバル;グローバル mbox
+description: Adobe Targetのグローバルmboxに関するよくある質問(FAQ)と回答をお読みください。
+title: グローバルMboxに関するよくある質問
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 
