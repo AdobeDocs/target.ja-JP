@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;ページパラメーター;at.js;関数
-description: Adobe Target at.js JavaScript ライブラリの targetPageParamsAll() 関数について説明します。
-title: Targetpageparamsall()
+description: Adobe Targetのat.js JavaScriptライブラリのtargetPageParamsAll()関数を使用して、リクエストコードの外部からすべてのmboxにパラメーターをアタッチします。
+title: targetPageParamsAll()関数の使用方法を教えてください。
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 87%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 
