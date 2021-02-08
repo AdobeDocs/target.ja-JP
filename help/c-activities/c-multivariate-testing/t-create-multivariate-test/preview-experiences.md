@@ -1,12 +1,12 @@
 ---
 keywords: 多変量分析；mvt;プレビュー；エクスペリエンス
-description: Adobe Targetの多変量分析テストでは、ページ上で複数のエクスペリエンスを比較するので、ページを各エクスペリエンスとプレビューすると便利です。
-title: 多変量分析テスト(MVT)のプレビューエクスペリエンス
+description: Visual Experience Composer(VEC)を使用して、Adobe Targetの多変量分析テスト(MVT)アクティビティで各エクスペリエンスをプレビューする方法を説明します。
+title: 多変量分析テスト(MVT)のエクスペリエンスをプレビューする方法
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 68%
 
 ---
