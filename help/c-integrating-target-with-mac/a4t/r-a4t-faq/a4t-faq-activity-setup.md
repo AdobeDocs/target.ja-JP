@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
-description: このトピックには、アクティビティの設定と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
-title: アクティビティ設定 — A4T FAQ
+description: Analyticsをターゲットに使用する場合(A4T)のアクティビティ設定に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
+title: A4Tを使用したアクティビティ設定に関するFAQはどこで確認できますか？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 36%
+source-wordcount: '515'
+ht-degree: 31%
 
 ---
 
