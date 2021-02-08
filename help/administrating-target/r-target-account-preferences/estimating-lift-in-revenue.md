@@ -1,13 +1,14 @@
 ---
 keywords: 売上高上昇;売上高;売上高上昇の予測;上昇率の計算;予測値
-description: すべてのユーザーが勝者エクスペリエンスを表示した場合に達する売上高上昇を予測するには、Adobe Targetを使用します。
-title: 売上高上昇の予測
+description: テスト中も傾向が継続する場合、すべての訪問者が勝者エクスペリエンスを見た場合に達成できる上昇率を予測します。
+title: 売上高の上昇を予測するには何をするか。
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
