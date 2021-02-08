@@ -1,12 +1,12 @@
 ---
 keywords: 自動ターゲット、ターゲット設定、トラフィック配分、よくある質問、faq、トラブルシューティング、トラブル・シューティング
-description: Adobe Targetの自動ターゲットでは、高度な機械学習を活用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスから選択し、コンテンツをパーソナライズし、コンバージョンを促進します。 個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。
-title: 自動ターゲットの概要
+description: ターゲットの自動ターゲットアクティビティが、お客様のプロファイルと類似訪問者の動作に基づいて、各訪問者に最も合わせたエクスペリエンスを提供する方法を説明します。
+title: 自動ターゲットアクティビティとは
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2008'
 ht-degree: 85%
 
 ---
