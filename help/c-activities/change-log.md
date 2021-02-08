@@ -1,13 +1,13 @@
 ---
 keywords: アクティビティ変更ログ；変更ログ
-description: 変更ログで、アクティビティを変更したユーザーや変更日時の記録を確認できます。
-title: アクティビティの変更ログ
+description: Adobe Targetのアクティビティの変更ログにアクセスして、表示にアクティビティを変更したユーザーと変更日時の記録を伝えます。
+title: アクティビティの変更ログを表示する方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
