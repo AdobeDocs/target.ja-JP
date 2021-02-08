@@ -6,8 +6,10 @@ audience: end-user
 type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.ja-JP
 index: true
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
