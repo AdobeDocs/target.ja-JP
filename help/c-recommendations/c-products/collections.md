@@ -1,13 +1,13 @@
 ---
 keywords: コレクション;ターゲット設定
-description: Adobe Target のコレクションは、レコメンデーションに使用できる商品または品目のセットです。
-title: コレクション
+description: Adobe TargetRecommendationsでコレクションを使用する方法を説明します。 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
+title: コレクションをRecommendationsアクティビティで使用する方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 61%
+source-wordcount: '880'
+ht-degree: 60%
 
 ---
 
