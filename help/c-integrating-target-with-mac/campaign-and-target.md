@@ -1,13 +1,13 @@
 ---
 keywords: 概要およびリファレンス
-description: Target を Adobe Campaign と共に使用して、電子メールコンテンツを最適化します。
-title: ' と Adobe Campaign の統合'
+description: Adobe TargetをAdobe Campaignと共に使用して電子メールコンテンツを最適化する方法を学びます。
+title: ターゲットとAdobe Campaignの統合方法
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 47%
 
 ---
 
