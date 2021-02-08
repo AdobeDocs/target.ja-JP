@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: プロファイルの発展に応じて、訪問者がエクスペリエンスターゲット設定（XT）アクティビティのエクスペリエンスを切り替える方法について説明します。
-title: エクスペリエンスターゲット設定でのエクスペリエンスの切り替え
+keywords: 優先度;エクスペリエンス作成;優先度;エクスペリエンス;オーディエンス;エクスペリエンス;エクスペリエンスの切り替え;visual experience composer
+description: 訪問者がプロファイルの発展に応じて、Adobe Targetエクスペリエンスターゲット設定(XT)アクティビティのエクスペリエンスを切り替える方法を説明します。
+title: 訪問者は、エクスペリエンスのターゲット設定アクティビティでエクスペリエンスを切り替えることができますか？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
