@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: Recommendations アクティビティを作成する前に知っておくべきこと。
-title: Recommendations の計画と実装
+keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィルター;デフォルトホストグループ;サムネールのベース URL;Recommendation API トークン
+description: 'Adobe TargetでRecommendationsアクティビティを導入する方法を学びます。 導入が必要な前提条件の要件を満たしていることを確認します。 '
+title: Recommendationsアクティビティの実装方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 97%
+source-wordcount: '1619'
+ht-degree: 96%
 
 ---
 
