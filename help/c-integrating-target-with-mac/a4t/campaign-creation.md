@@ -1,13 +1,13 @@
 ---
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
-description: Target Standard/Premium のアクティビティを設定するときに、Adobe Analytics をレポートソースとして使用できます（A4T）。
-title: A4Tを使用するアクティビティの作成
+description: Adobe Analyticsをレポートソースとして使用するAdobe Targetのアクティビティを設定する方法(A4T)を説明します。
+title: A4Tを使用するアクティビティの作成方法を教えてください。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 39%
+source-wordcount: '652'
+ht-degree: 36%
 
 ---
 
