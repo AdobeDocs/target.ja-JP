@@ -1,13 +1,13 @@
 ---
 keywords: レコメンデーションのデザイン;テンプレート;デザインの作成;配信;出力
-description: Adobe TargetRecommendationsのデザインは、レコメンデーションがページ上でどのように表示されるかを定義します。 デザインは、レコメンデーションのレイアウトと形式を定義して、訪問者の関与、コンバージョン、売上高を改善します。
-title: デザインの概要
+description: Adobe TargetRecommendationsのデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法を説明します（1X4、1X6、2X2など）。
+title: Recommendationsのデザインの使い方
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
