@@ -1,12 +1,12 @@
 ---
 keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
-description: ページに期待したコンテンツが表示されない場合は、Adobe Targetでコンテンツの配信をデバッグするためにいくつかの手順を実行できます。
-title: コンテンツ配信のトラブルシューティング
+description: ページに期待した内容が表示されない場合に、問題を修正するのに役立つ提案を検索します。 Adobe Targetでコンテンツ配信をデバッグする方法を学びます。
+title: コンテンツ配信のトラブルシューティング方法
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1413'
 ht-degree: 60%
 
 ---
