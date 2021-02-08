@@ -1,13 +1,13 @@
 ---
 keywords: 多変量分析;mvt;指標;指標の設定;目標指標;アクティビティ設定;成功指標;コンバージョン;売上高;エンゲージメント
-description: Adobe Target多変量分析テストの指標を使用して、訪問が成功かどうかを判断します。
-title: 指標の設定
+description: Adobe Target多変量分析テストアクティビティで指標を指定して、コンバージョン、売上高、エンゲージメントなどの訪問が成功かどうかを判断する方法について説明します。
+title: 多変量分析テスト(MVT)アクティビティで目標指標を設定する方法を教えてください。
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 88%
+source-wordcount: '351'
+ht-degree: 83%
 
 ---
 
