@@ -1,13 +1,13 @@
 ---
 keywords: 概要
-description: テスト概要には、Adobe Target多変量分析テストの概要が視覚的に表示されます。
-title: テスト概要
+description: Adobe Targetの多変量分析テスト(MVT)アクティビティの概要を視覚的に表示します。
+title: 多変量分析テスト(MVT)アクティビティの概要を表示する方法を教えてください。
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 
