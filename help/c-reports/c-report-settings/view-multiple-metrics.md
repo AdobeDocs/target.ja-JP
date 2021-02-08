@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット；レポート；レポート設定；複数の指標；指標；表示指標；非表示指標
-description: Adobe Targetを使用したレポートで表示する複数の指標を選択します。
-title: レポートに複数の指標を表示
+description: Adobe Targetを使用して、レポートで表示する複数の指標を選択する方法を説明します。
+title: レポート内で複数の指標を表示する方法
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
