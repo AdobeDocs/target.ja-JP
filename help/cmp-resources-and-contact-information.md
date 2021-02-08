@@ -1,13 +1,13 @@
 ---
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
-description: Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
-title: リソースおよび連絡先情報
+description: Adobe Targetの機能について学ぶための参考情報や、ターゲットに関するヘルプが必要な場合のAdobeへの問い合わせ方法について説明します。
+title: ターゲットに関するリソースや連絡先情報はどこで入手できますか？
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 80%
+source-wordcount: '1230'
+ht-degree: 78%
 
 ---
 
