@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定；成功；コンバージョン指標；ページ表示指標；ページ指標；売上高指標；予想値；詳細設定；成功指標；詳細設定；依存；カウントを増分、アクティビティを維持；カウントを増分、ユーザーをリリース、再入場を許可；カウントを増分、ユーザーを解放
-description: Adobe Targetでは、成功指標はアクティビティの成功を測定するために使用されるパラメーターです。 成功指標には、Target アクティビティの特定のエクスペリエンスやオファーの成功を判定できる、主要なビジネス測定が含まれます。
-title: 成功指標
+description: アクティビティの成功を判断するのに役立つ、Adobe Targetの成功指標について説明します。 成功指標には、コンバージョン、売上高、ページ表示、カスタムスコア、サイト滞在時間が含まれます。
+title: 成功指標とは
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 45%
+source-wordcount: '1173'
+ht-degree: 43%
 
 ---
 
