@@ -1,13 +1,14 @@
 ---
 keywords: at.js;関数;JavaScript ライブラリ
-description: Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。
-title: at.js 関数
+description: Adobe Targetのat.js JavaScriptライブラリの1.xおよび2.xバージョンで使用できる関数のリストを表示します。
+title: at.jsで使用できる関数
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 94%
 
 ---
 
