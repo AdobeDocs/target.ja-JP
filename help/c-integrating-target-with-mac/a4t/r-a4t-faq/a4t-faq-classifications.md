@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
-description: このトピックには、分類と、Analytics を Target のレポートソースとして使用すること（A4T）に関するよくある質問に対する回答が含まれています。
-title: 分類 - A4T FAQ
+keywords: FAQ;よくある質問;analytics for target;A4T;分類;分類;分類インポーター; post-tnt-action
+description: 分類とAnalyticsによるターゲット(A4T)の使用に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
+title: A4Tを使用した分類に関する情報はどこで入手できますか。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 65%
+source-wordcount: '264'
+ht-degree: 55%
 
 ---
 
