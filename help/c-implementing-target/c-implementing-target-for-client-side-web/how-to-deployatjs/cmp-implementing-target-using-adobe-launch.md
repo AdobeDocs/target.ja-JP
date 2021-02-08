@@ -1,13 +1,14 @@
 ---
 keywords: 実装；実装；実装；adobe launch;launch;race;redirect；エクスペリエンスプラットフォームの起動
-description: Adobe Experience Platform Launchは、Adobeの次世代タグ管理プラットフォームで、Adobe Targetを導入するのに好ましい方法です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
-title: Adobe Launch を使用した の実装
+description: Adobe Experience Platform Launchを使用したAdobe Targetat.jsライブラリの実装方法を学びます。Adobe Targetを実装するのが推奨される方法です。
+title: Adobeの起動を使用してターゲットを実装する方法を教えてください。
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 79%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
