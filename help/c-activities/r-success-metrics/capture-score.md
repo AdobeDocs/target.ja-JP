@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: Adobe Targetのスコアキャプチャエンゲージメント指標では、訪問者が最初にキャンペーンの表示ターゲットリクエストを見た時点から、サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算します。
-title: スコアキャプチャ
+keywords: キャプチャスコア;スコア
+description: サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算する、Adobe Targetのスコアキャプチャエンゲージメント指標について説明します。
+title: スコアキャプチャ指標とは何ですか。
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
