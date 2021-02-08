@@ -1,12 +1,12 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的フィルタリング；動的；パラメータの一致
-description: 項目（エンティティ）とリクエスト（APIまたはmbox）の値を比較して、Adobe TargetRecommendationsで動的にフィルターします。
-title: ターゲットRecommendationsの動的包含ルールでのパラメーターの一致によるフィルター
+description: 項目（エンティティ）とリクエスト（APIまたはmbox）の値を比較し、Adobe TargetRecommendationsで動的にフィルターする方法を説明します。
+title: Recommendationsアクティビティでパラメーターの一致でフィルターする方法を教えてください。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 10%
 
 ---
