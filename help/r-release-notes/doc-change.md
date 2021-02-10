@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3619'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月10日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年2月24日水曜日のAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。 |
 | 2月8日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | AdobeモバイルSDKのバージョン4のAndroidManifest.xmlファイルに追加する必要があるコードスニペットを追加しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題について明確にしました。<ul><li>APIを使用して作成されたコレクション、除外、条件、デザインは、ターゲットのユーザーインターフェイスに表示されず、APIを介してのみ編集できます。 同様に、ターゲットUIでこれらの項目のいずれかを作成し、後でAPIを使用して編集した場合、その変更はターゲットUIに反映されません。 APIを使用して編集した項目は、変更の損失を防ぐため、引き続きAPIを使用して編集する必要があります。</li></ul> |
 | 2月1日 | [自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md) | 次の節を追加しました。「よくある質問(FAQ)」 |
