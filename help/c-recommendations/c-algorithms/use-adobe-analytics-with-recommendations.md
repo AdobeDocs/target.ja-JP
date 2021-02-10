@@ -4,10 +4,10 @@ description: ターゲットRecommendationsのAnalyticsで、Adobe Analyticsを�
 title: Adobe AnalyticsとターゲットRecommendationsの使い方
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 2%
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
@@ -57,83 +57,7 @@ Recommendationsで[条件](/help/c-recommendations/c-algorithms/create-new-algor
 
 どのデータソースを使用するかを迅速に判断するために、ユーザーが毎日生成するオーガニックデータが多く、履歴データへの依存度が低い場合は、[!DNL Target] mboxを行動データソースとして使用するのが最適です。 最近生成されたオーガニックデータの入手が少ない場合に、[!DNL Analytics]データをデータの上に置き換えたいなら、[!DNL Analytics]を行動データソースとして使うのが適当です。
 
-### 導入手順
-
-すべての前提条件が満たされている場合は、次のタスクを[!DNL Adobe Target Recommendations]チームが実行する必要があります。
-
->[!IMPORTANT]
->
->以下の手順は、例示的な目的でのみ使用します。 [!DNL Recommendations]チームのメンバーは、現在これらの手順を実行する必要があります。 [詳しくは、カスタマー](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ケアにお問い合わせください。
-
-1. [!DNL Target]で、**[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックして、[!DNL Target]クライアントコードを取得します。
-
-   ![クライアントコード](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. [!DNL Analytics]レポートスイートを取得します。
-
-   [!DNL Analytics]実稼働サイトのレポートスイートを使用します。 これは、[!DNL Recommendations]がデプロイ済みのサイトを追跡するレポートスイートです。
-
-1. [!DNL Analytics]で、**[!UICONTROL 管理者]**/**[!UICONTROL データフィード]**&#x200B;をクリックします。
-
-   ![設定/データフィード](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. **[!UICONTROL 追加]**&#x200B;をクリックして、新しいフィードを作成します。
-
-   ![追加飼料](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. フィード情報を入力します。
-
-   * **名前**:製品フィードを再利用
-   * **レポートスイート**:事前に決定されたレポートスイート
-   * **電子メール**:管理者ユーザーに適したアドレスを指定します
-   * **フィード間隔**:目的の間隔を選択します
-   * **遅延処理**:遅延なし。
-   * **開始日と終了日**:連続フィード
-
-   ![「フィード情報」セクション](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. **[!UICONTROL 宛先]**&#x200B;セクションの詳細を入力します。
-
-   >[!NOTE]
-   > 
-   >この手順を実行する前に、[!DNL Adobe Analytics]チームに問い合わせてください。
-
-   * **タイプ**:FTP
-   * **Host**: `xxx.yyy.com`
-   * **パス**:お使いの [!DNL Target] クライアントコード
-   * **ユーザー名**:ユーザー名を指定します
-   * **パスワード**:パスワードの指定
-
-   スクリーンショットは参照用です。 展開には異なる資格情報が含まれます。 この手順を実行する際は、[!DNL Adobe Analytics]チームまたはカスタマーケアにお問い合わせください。
-
-   ![宛先セクション](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. **[!UICONTROL データ列]**&#x200B;の定義を入力します。
-
-   * **圧縮形式**:Gzip
-   * **パッケージの種類**:単一ファイル
-   * **マニフェスト：** 終了ファイル
-
-      ![圧縮形式、パッケージ化タイプ、マニフェストの設定](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **含まれる列**:
-
-      >[!IMPORTANT]
-      >
-      >列は、ここに記載されているのと同じ順序で追加する必要があります。 次の順序で列を選択し、各列に対して&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックします。
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-   ![データ列の定義の節](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-これで[!DNL Analytics]側の設定は完了です。 今こそ、行動データを継続的に提供するために[!DNL Target]側でこれらの変数をマッピングする時です。
+今こそ、行動データを継続的に提供するために[!DNL Target]側でこれらの変数をマッピングする時です。
 
 ## ターゲットでの実装
 
