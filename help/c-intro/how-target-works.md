@@ -4,10 +4,10 @@ description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web
 title: ターゲットの仕組み
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 71%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Google は例として、「ユーザーに表示される組み合わせに関�
 
 ## ボット {#bots}
 
-Adobe Targetは、[DeviceAtlas](https://deviceatlas.com/)を使用して既知のボットを検出します。 ボットによって生成されたと識別されたトラフィックには、SEO ガイドラインに沿うように、依然として一般ユーザーのようにコンテンツが提供されます。ボットトラフィックの使用は、通常のユーザーのように扱われると、A/B テストやパーソナライゼーションアルゴリズムをゆがめる可能性があります。したがって、Target アクティビティで既知のボットが検出されると、そのトラフィックは、少し違うように扱われます。ボットトラフィックを削除することで、ユーザーアクティビティをより正確に測定できます。
+Adobe Targetは、[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)指標「isRobot」を使用して、リクエストヘッダーで渡されたユーザーエージェント文字列に基づいて既知のボットを検出します。
+
+>[!NOTE]
+>
+> [!DNL Server Side]リクエストの場合、[リクエストの「コンテキスト」ノード](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)に渡された値は、ボット検出用のユーザーエージェント文字列よりも優先されます。
+
+ボットによって生成されたと識別されたトラフィックには、SEO ガイドラインに沿うように、依然として一般ユーザーのようにコンテンツが提供されます。ボットトラフィックの使用は、通常のユーザーのように扱われると、A/B テストやパーソナライゼーションアルゴリズムをゆがめる可能性があります。したがって、Target アクティビティで既知のボットが検出されると、そのトラフィックは、少し違うように扱われます。ボットトラフィックを削除することで、ユーザーアクティビティをより正確に測定できます。
 
 特に、既知のボットトラフィックの場合、Target は以下をおこないません。
 
