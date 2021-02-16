@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月16日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | プレリリースノートのオファー制限サイズのテキストを更新しました。 |
 | 2月11日 | [Target の仕組み](/help/c-intro/how-target-works.md) | 「ボット」節を更新しました。 |
 | 2月10日 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年2月24日水曜日のAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。 |
 | 2月8日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | AdobeモバイルSDKのバージョン4のAndroidManifest.xmlファイルに追加する必要があるコードスニペットを追加しました。 |
@@ -49,7 +50,7 @@ ht-degree: 28%
 | 18 年 12 月 | [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md) | 新規トピックです。 |
 | 17 年 12 月 | [Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDKがA4Tをサポートしていることを示す表を更新しました。 |
 | 16 年 12 月 | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「自動ターゲットアクティビティから1つのエクスペリエンスを削除するとどうなりますか？」 |
-| 9 年 12 月 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
+| 9 年 12 月 | [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。&quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 1 年 12 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | ウェビナーの録画を埋め込み、「遅延なしでパーソナライズおよびテストを行い、Adobe Targetのデバイス上での意思決定を行う」を行いました。 |
 | 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
@@ -172,7 +173,7 @@ ht-degree: 28%
 |  | [アクティビティの作成](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 自動配分アクティビティのターゲット用のAnalytics(A4T)のサポートに関する情報を追加しました。 |
 |  | [ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md) | *役割と権限の指定*&#x200B;の下に、新しい[!UICONTROL パブリッシャ]役割に関する情報を追加しました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | *手順6の下に、新しい[!UICONTROL パブリッシャ]ロールに関する情報を追加しました。役割と権限*&#x200B;を指定します。 |
-|  | [Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | *営業時間へのリンクを追加しました。ターゲットプレミアムワークスペースセッション*。 |
+|  | [Enterprise ユーザーの権限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | *勤務時間へのリンクを追加しました。ターゲットプレミアムワークスペースセッション*。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：20.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
