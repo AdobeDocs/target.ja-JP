@@ -5,10 +5,10 @@ title: Adobe Targetの様々な文字、大きさ、その他の制限は何で�
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 65%
+source-wordcount: '1086'
+ht-degree: 64%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 65%
    * プロファイルパラメータの値をNULLにすることはできません
    * プロファイルパラメータ値の最大長256
 
-   **配信APIエンドポイント**
+   **配信APIエンドポイント**:
 
    * mboxパラメーター50
    * mboxパラメーター名の最大長128
@@ -194,11 +194,11 @@ ht-degree: 65%
 
 ### オファーサイズ
 
-* **上限**：オファーには以下のサイズ制限が適用されます。
+オファーには、次のサイズ制限が適用されます。
 
-   * HTML オファーの場合 256 KB。
-   * UI からのビジュアルオファーの場合 64 KB。
-   * API からの場合 512 KB。
+* HTML オファーの場合 256 KB。
+* UI からのビジュアルオファーの場合 64 KB。
+* API からの場合 512 KB。
 
    グローバル mbox を使用している場合、この制限は、ページに関して返される一連のコンテンツ全体に適用されます。オファーサイズを制限すると、ページの読み込み時間が短縮されます。制限を超えると、次の内容のメッセージが表示されます。
 
