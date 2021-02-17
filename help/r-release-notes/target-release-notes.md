@@ -4,7 +4,7 @@ description: SDK、API、JavaScriptライブラリを含む、今後のAdobe Tar
 title: 今後のリリースで追加される新機能
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
+source-git-commit: 3e4b05553100efff697beec0824108f28d80ccb2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 25%
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 2 月 16 日**
+**最終更新日：2021 年 2 月 17 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングによっては、これらのページの情報が同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -26,7 +26,7 @@ ht-degree: 25%
 >
 >サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
-## Target Standard/Premium 21.2.1（2021年3月2日）
+## Target Standard/Premium 21.2.1（2021年3月10日）
 
 このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
 
