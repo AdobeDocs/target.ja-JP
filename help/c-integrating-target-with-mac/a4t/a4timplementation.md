@@ -4,9 +4,9 @@ description: Adobe TargetおよびAdobe Analyticsのソリューションにタ�
 title: Analytics forターゲット(A4T)の実装方法を教えてください。
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 47%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 47%
 
 訪問者 ID サービスによって、[!DNL Adobe Experience Cloud] ソリューション全体でユーザーを特定することができます。Experience Cloud 訪問者 ID の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-*Experience Cloud訪問者IDサービス*&#x200B;のドキュメントで、[ターゲット用のExperience CloudIDサービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html)を参照してください。
+*Experience Cloud訪問者IDサービス*&#x200B;のドキュメントで、[ターゲット用のExperience CloudIDサービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)を参照してください。
 
 ## 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
 appMeasurement.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新しい導入方法については、『*Analytics導入ガイド*』の「[JavaScript導入の概要](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)」を参照してください。
+新しい導入方法については、『*Analytics導入ガイド*』の「[JavaScript導入の概要](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)」を参照してください。
 
-移行の場合は、『*Analytics導入ガイド*』の「[JavaScript版AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)への移行」を参照してください。
+移行の場合は、『*Analytics導入ガイド*』の「[JavaScript版AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)への移行」を参照してください。
 
 ## 手順5:at.jsのダウンロードと更新
 
-実稼働アカウントを使用して、必要なバージョンのat.jsを実装するか、at.jsに移行する必要があります。 コードの修正は必要ありません。
+実稼動アカウントを使用して、必要なバージョンのat.jsを実装するか、at.jsに移行する必要があります。 コードの修正は必要ありません。
 
 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
