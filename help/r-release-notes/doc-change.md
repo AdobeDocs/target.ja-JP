@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3659'
 ht-degree: 28%
 
 ---
