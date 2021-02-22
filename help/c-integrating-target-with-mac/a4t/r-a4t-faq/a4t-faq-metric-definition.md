@@ -2,11 +2,11 @@
 keywords: FAQ;よくある質問;analytics for target;A4T;指標;指標の定義
 description: 指標の定義とAnalyticsによるターゲット(A4T)に関する質問への回答を検索します。 A4Tを使用すると、Adobe TargetアクティビティでAnalyticsレポートを使用できます。
 title: A4Tを使用した指標定義に関する情報はどこで入手できますか。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 58%
 
 アクティビティのデフォルトの有効期限は、訪問者のアクティビティでの最後のインタラクションの後、90 日です。これは、必要に応じて ClientCare に依頼することで調整できます。この設定は、すべてのアクティビティでグローバルなので、1 つの事例のために調整することはしないでください。
 
-## 目標指標を設定する際に、「詳細設定」オプションにアクセスできないのはなぜですか。{#adv-settings}
+## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか。{#adv-settings}
 
 [!UICONTROL 詳細設定]オプションは、[!DNL Analytics]をレポートソースとして使用するアクティビティ(A4T)では使用できません。
 
