@@ -2,11 +2,11 @@
 keywords: リリースノート；リリース；更新；今後のリリース；拡張；新機能；修正；更新；プレリリース
 description: SDK、API、JavaScriptライブラリを含む、今後のAdobe Targetリリースに含まれる新機能、機能強化および修正について説明します。
 title: 今後のリリースで追加される新機能
-feature: Release Notes
+feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 3e4b05553100efff697beec0824108f28d80ccb2
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 25%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 25%
 >
 >**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
 >
->サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
+>Adobeでは、サイトに発生する可能性のある問題を回避するため、すべてのお客様に対して、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 ## Target Standard/Premium 21.2.1（2021年3月10日）
 
