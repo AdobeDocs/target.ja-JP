@@ -2,12 +2,12 @@
 keywords: A4T;分析;ターゲットの分析;analytics レポートソース;ターゲットのレポートソースとしての adobe analytics
 description: Analytics forターゲット(A4T)を使用して、Analyticsのコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成し、Analyticsレポートを使用して結果を調べます。
 title: ターゲット用Analytics(A4T)とは何ですか。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 41%
+source-wordcount: '1283'
+ht-degree: 42%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 41%
 
 計算指標を含むすべての[!DNL Analytics]指標は、[!DNL Target]および[!DNL Analytics]の[!UICONTROL ターゲットアクティビティ]レポートで使用できます。 同様に、[!DNL Analytics]で利用できるすべてのセグメントは、両方のソリューションに適用できます。 指標やオーディエンスは、アクティビティの開始後、またはアクティビティの完了後でも、[!DNL Target]のレポートに適用できます。
 
-[!DNL Analytics]に組み込まれている顧客指標や計算指標を含め、すべての指標が含まれます。
+[!DNL Analytics]に組み込まれているカスタム指標や計算指標を含む、すべての指標が含まれます。
 
 分類期間後、これらのレポートでは、データが Web サイトから収集された約 1 時間後にデータが表示されます。レポート内のすべての指標、セグメントおよび値は、アクティビティを設定したときに選択したレポートスイートから収集されます。
 
@@ -51,7 +51,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * [!DNL Analytics]をレポートソースとして使用する場合は、1つのmboxベースの指標のみ使用できます。
 * [!DNL Target]から[!DNL Analytics]へのサーバー間呼び出しは、アクティビティとエクスペリエンスの情報を[!DNL Analytics]に送信します。 この統合によって、[!DNL Target]または[!DNL Analytics]に対する追加のサーバーコールは発生しません。
 
-   状況によっては、[!DNL Target]から[!DNL Analytics]への分類呼び出しが失敗し、アクティビティが[!DNL Analytics]にデータを表示しない場合があります。 この問題が発生した場合は、[Analyticsとターゲットの統合のトラブルシューティング(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。 また、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にお問い合わせの上、詳しくお問い合わせください。
+   状況によっては、[!DNL Target]から[!DNL Analytics]への分類が失敗し、アクティビティに[!DNL Analytics]内のデータが表示されない場合があります。 この問題が発生した場合は、[Analyticsとターゲットの統合のトラブルシューティング(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。 また、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にお問い合わせの上、詳しくお問い合わせください。
 
 ## サポートされるアクティビティの種類{#section_F487896214BF4803AF78C552EF1669AA}
 
