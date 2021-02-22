@@ -2,12 +2,12 @@
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: 一部のWebサイトがVisual Experience Composer(VEC)で確実に開かない原因を特定します。 VEC Helper Browser Extensionを使用すると、VEC内でWebサイトを確実に読み込むことができます。
 title: Visual Experience Composer(VEC)ヘルパー拡張の使用方法を教えてください。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 50%
+source-wordcount: '885'
+ht-degree: 49%
 
 ---
 
@@ -32,7 +32,7 @@ ChromeのVEC Helperブラウザー拡張機能を使用すると、サイト読�
 
 ## VEC Helper拡張機能を使用する利点
 
-* すべての iframe バスティングヘッダー（X-Frame-Options や Content-Security-Policy など）は、Web サイトから暗黙的に削除されます。そのための複雑な Requestly ルールを作成する必要はありません。
+* すべての iframe バスティングヘッダー（X-Frame-Options や Content-Security-Policy など）は、Web サイトから暗黙的に削除されます。複雑なRequestlyルールを作成する必要はなくなりました。
 * Web ページに [!DNL Target]at.js JavaScript ライブラリがまだ含まれていない場合は、拡張機能を使用してライブラリを挿入することにより、Web サイトのエクスペリエンスを作成できます。その後に、プレビューリンクを使用してアクティビティを作成し、QA を実行できます。
 
    拡張Experience Composer(EEC)を使用する場合、拡張によってat.jsが挿入されませんが、SameSite Cookie機能は引き続き存在します。 Webページにat.jsを挿入するには、EECをオフにします。
@@ -72,7 +72,7 @@ ChromeのVEC Helperブラウザー拡張機能を使用すると、サイト読�
 * 実装するには [!DNL Target]at.js ライブラリを使用する必要があります。拡張機能では、mbox.js の実装を使用できません。
 * デフォルトでは、拡張機能の「 [!UICONTROL Target ライブラリを挿入] 」フラグがオフになっています。[!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
 
-   このフラグはグローバル設定であることに注意してください。このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定し、既にat.jsを使用して実装されているWebサイトを開くと、at.jsが既に読み込まれていることを知らせるメッセージが表示されます。 ほとんどのお客様は、既にページにat.jsが実装されており、デフォルト設定の「オフ」を使用することを予期しています。
+   このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定し、既にat.jsを使用して実装されているWebサイトを開いた場合、at.jsが既に読み込まれていることを知らせるメッセージを受け取ります。 Adobeでは、ほとんどのお客様が既にat.jsがページに実装されており、デフォルト設定の「オフ」を使用していることが予測されます。
 
 * この拡張機能は、[!DNL Target UI]の[!UICONTROL 管理/実装]にあるから入手できる最新バージョンのat.jsを読み込みます。
 * 拡張機能を使用して [QA モード](/help/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
