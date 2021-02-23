@@ -4,9 +4,9 @@ breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 84%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 84%
       + [第8章：アクティビティ結果の伝達](/help/c-intro/target-welcome-kit-8.md)
       + [第9章：次の手順とリソース](/help/c-intro/target-welcome-kit-9.md)
    + [用語集](c-intro/glossary.md)
-   + [Adobe Target の仕組み](c-intro/how-target-works.md)
+   + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
    + [Adobe Target Standard および Premium のトレーニングビデオ](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
