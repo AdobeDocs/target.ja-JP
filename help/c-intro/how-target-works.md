@@ -1,12 +1,12 @@
 ---
-keywords: Adobe Experience PlatformWeb SDK;aep web sdk;aep sdk；検索エンジンの最適化；seo;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience PlatformWeb SDK;aep web sdk;aep sdk；検索エンジンの最適化；検索エンジンの最適化；seo;edge clusters, central clusters;at.js;mbox.js;
 description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストなど、Adobe Targetの仕組みを説明します。
 title: ターゲットの仕組み
 feature: 概要
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 31%
 
 ---
@@ -176,7 +176,7 @@ Googleはユーザーテストを推奨しています。 Googleはドキュメ�
 
 * **302（一時的）リダイレクトを使用する**:テスト内のバリエーションページで別々のURLが使用される場合、Googleは302リダイレクトを使用してテストバリエーションにトラフィックを誘導することを推奨しています。302リダイレクトは、リダイレクトが一時的で、テストが実行中の場合にのみアクティブであることを検索エンジンに通知します。
 
-   302リダイレクトはサーバー側のリダイレクトで、[!DNL Target]はほとんどの最適化プロバイダーと共に、クライアント側の機能を使用します。 したがって、リダイレクトは、[!DNL Target]がGoogleの推奨と完全に互換性がない領域になります。 ただし、この方法はテストのごく一部にしか影響しません。 [!DNL Target]を通じてテストを実行する標準的なアプローチは、1つのURL内でコンテンツを変更することを呼び出すので、リダイレクトは必要ありません。 クライアントがテストのバリエーションを表すために複数のURLを使用する必要がある場合があります。 この場合、[!DNL Target]はJavaScript `window.location`コマンドを使用します。 このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが301か302かを明示的に示しません。
+   302リダイレクトはサーバー側のリダイレクトで、[!DNL Target]はほとんどの最適化プロバイダーと共に、クライアント側の機能を使用します。 したがって、リダイレクトは、[!DNL Target]がGoogleの推奨に完全に準拠していない領域です。 ただし、この方法はテストのごく一部にしか影響しません。 [!DNL Target]を通じてテストを実行する標準的なアプローチは、1つのURL内でコンテンツを変更することを呼び出すので、リダイレクトは必要ありません。 クライアントがテストのバリエーションを表すために複数のURLを使用する必要がある場合があります。 この場合、[!DNL Target]はJavaScript `window.location`コマンドを使用します。 このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが301か302かを明示的に示しません。
 
    Adobeは、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。 テストに別々のURLを使用する必要があるクライアントの場合、Adobeは、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
