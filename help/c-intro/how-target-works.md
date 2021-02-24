@@ -4,7 +4,7 @@ description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web
 title: ターゲットの仕組み
 feature: 概要
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 31%
@@ -28,7 +28,7 @@ ht-degree: 31%
 >
 >すべてのお客様は、at.jsの[!DNL AEP Web SDK]または最新バージョンに移行する必要があります。 詳しくは、[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)または[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)からat.jsへの移行を参照してください。
 
-サイトの各ページの[!DNL AEP Web SDK]またはat.jsを参照します。 例えば、グローバルヘッダーにこれらのライブラリの1つを追加できます。 または、[AdobePlatform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)を使用して[!DNL Target]を実装することを検討してください。
+サイトの各ページの[!DNL AEP Web SDK]またはat.jsを参照します。 例えば、グローバルヘッダーにこれらのライブラリの1つを追加できます。 または、[AdobePlatform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)を使用して[!DNL Target]を実装することを検討してください。
 
 次のリソースには、AEP Web SDKまたはat.jsの実装に役立つ詳細情報が含まれています。
 
@@ -56,7 +56,7 @@ ht-degree: 31%
 
 ### 自動配分
 
-自動配分は、2つ以上のエクスペリエンスのうちの勝者を識別します。 自動配分は、テストの実行と学習が継続される間に、より多くのトラフィックを勝者エクスペリエンスに自動的に再配分して、コンバージョンを増やします。
+自動配分は、2つ以上のエクスペリエンスのうちの勝者を識別します。 自動配分は、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習が継続する間にコンバージョンを増やすのに役立ちます。
 
 詳細については、「[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
 
@@ -134,7 +134,7 @@ Central Clusterの場所には、データ収集センターとデータ処理�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 現在、中国にEdge Clusterはありません。中国の [!DNL Target] お客様の訪問者パフォーマンスは引き続き制限されます。ファイアウォールと国内のエッジクラスターが不足しているため、[!DNL Target]がデプロイされたサイトの経験に影響が及ぶ可能性があります。 エクスペリエンスのレンダリングが遅くなる場合があり、ページの読み込みに影響する可能性があります。 また、[!DNL Target]オーサリングUIを使用すると遅延が発生する場合があります。
+>[!DNL Adobe Target] 現在、中国にはEdge Clusterがありません。中国の [!DNL Target] お客様の訪問者パフォーマンスは引き続き制限されます。ファイアウォールと国内のエッジクラスターが不足しているため、[!DNL Target]がデプロイされたサイトの経験に影響が及ぶ可能性があります。 エクスペリエンスのレンダリングが遅くなる場合があり、ページの読み込みに影響する可能性があります。 また、[!DNL Target]オーサリングUIを使用すると遅延が発生する場合があります。
 
 必要に応じて、[!DNL Target]エッジクラスターを許可リストできます。 詳しくは、[許可リストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)を参照してください。
 
@@ -176,7 +176,7 @@ Googleはユーザーテストを推奨しています。 Googleはドキュメ�
 
 * **302（一時的）リダイレクトを使用する**:テスト内のバリエーションページで別々のURLが使用される場合、Googleは302リダイレクトを使用してテストバリエーションにトラフィックを誘導することを推奨しています。302リダイレクトは、リダイレクトが一時的で、テストが実行中の場合にのみアクティブであることを検索エンジンに通知します。
 
-   302リダイレクトはサーバー側のリダイレクトで、[!DNL Target]はほとんどの最適化プロバイダーと共に、クライアント側の機能を使用します。 したがって、[!DNL Target]がGoogleの推奨に完全に準拠していない領域です。 ただし、この方法はテストのごく一部にしか影響しません。 [!DNL Target]を通じてテストを実行する標準的なアプローチは、1つのURL内でコンテンツを変更することを呼び出すので、リダイレクトは必要ありません。 クライアントがテストのバリエーションを表すために複数のURLを使用する必要がある場合があります。 この場合、[!DNL Target]はJavaScript `window.location`コマンドを使用します。 このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが301か302かを明示的に示しません。
+   302リダイレクトはサーバー側のリダイレクトで、[!DNL Target]はほとんどの最適化プロバイダーと共に、クライアント側の機能を使用します。 したがって、リダイレクトは、[!DNL Target]がGoogleの推奨と完全に互換性がない領域になります。 ただし、この方法はテストのごく一部にしか影響しません。 [!DNL Target]を通じてテストを実行する標準的なアプローチは、1つのURL内でコンテンツを変更することを呼び出すので、リダイレクトは必要ありません。 クライアントがテストのバリエーションを表すために複数のURLを使用する必要がある場合があります。 この場合、[!DNL Target]はJavaScript `window.location`コマンドを使用します。 このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが301か302かを明示的に示しません。
 
    Adobeは、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。 テストに別々のURLを使用する必要があるクライアントの場合、Adobeは、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
