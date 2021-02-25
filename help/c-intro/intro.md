@@ -1,55 +1,55 @@
 ---
 keywords: Target Standard;Recommendations;ターゲットプレミアム；Automated Personalization；自動ターゲット；自動ターゲット；権限；アドビターゲットとは
-description: Adobe Target標準およびAdobe Targetプレミアムの基本について説明します。 ターゲットプレミアムには、標準製品では利用できない高度な機能が含まれています。
+description: Adobe Target Standard および Adobe Target Premium の基本事項について説明します。 Target Premium には、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 title: ターゲットとは？
-feature: Overview
+feature: 概要
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 80%
+source-wordcount: '947'
+ht-degree: 43%
 
 ---
 
 
-# Target の概要{#introduction-to-target}
+# Target の概要
 
-[!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズをおこない、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルでの収益性を最大化するのに必要なすべてのツールを備えた ソリューションです。[!DNL Adobe Experience Cloud]
+[!DNL Adobe Target] は、顧客の体験をカスタマイズし、パーソナライズするために必要なすべてを提供する [!DNL Adobe Experience Cloud] ソリューションです。[!DNL Target] webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化できます。
 
-[!DNL Adobe Target] ソリューションにはいくつかのコンポーネントがあります。
+[!DNL Adobe Target]ソリューションは、[!DNL Target Standard]または[!DNL Target Premium]としてライセンスを取得できます。
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] は [!DNL Adobe Target] のフロントエンドです。Adobe Target Standard を使用すると、A/B テストやルールベースのターゲティングアクティビティを視覚的にわかりやすく作成および管理し、Adobe Experience Cloud に接続することができます。また、[!DNL Target Standard] は、[!UICONTROL Visual Experience Composer] ワークフロー内外でのカスタムコードの挿入をサポートします。[!DNL Target Standard] は、デジタルメディアの実装を簡易化します。各ページに 1 行のコードを記述するだけで、サイトと [!DNL Adobe Target] の間で必要なすべての通信を管理できます。
+[!DNL Target Standard] は、A/Bテストやルールベースのターゲ [!DNL Adobe Target] ティングアクティビティを視覚的に作成および管理するのに役立つフロントエンドです。[!DNL Target Standard] は、 [!UICONTROL Visual Experience Composer] (VEC)ワークフロー内外でのカスタムコードの挿入をサポートします。[!DNL Target Standard] オファーは、デジタルメディアを使用したシンプルな実装方法です。各ページに1行のコードを記述することで、サイトとの間で必要なすべての通信を管理でき [!DNL Target]ます。
 
-[!DNL Target Standard] には業界のベストプラクティスが組み込まれており、初心者、経験者を問わず、誰でも使えるデザインになっています。[!DNL Adobe Experience Cloud] を使用している他のチームメンバーと簡単にデータや結果を共有し、コラボレーションすることが可能です。
+[!DNL Target Standard]には業界のベストプラクティスが組み込まれています。 [!DNL Target Standard] は、初心者、経験者を問わず、誰でも使いやすいユーザー向けに設計されています。[!DNL Adobe Experience Cloud] を使用している他のチームメンバーと簡単にデータや結果を共有し、コラボレーションすることが可能です。
 
 ## Target Premium {#premium}
 
-[!DNL Target Premium] は、[!DNL Target Standard] にプレミアム機能を追加した高度な [!DNL Target] ライセンスです。
+[!DNL Target Premium] は、プレミアム機能を追加するためのライセンスが必要なアドバンス [!DNL Target] オファー [!DNL Target Standard]です。
 
-[!DNL Target Premium] このヘルプのトピックでは、ページの上部にプレミアムバッジを含めます。
+このヘルプガイドのすべての[!DNL Target Premium]記事には、各ページの上部にプレミアムバッジが表示されます。
 
 ![Premium バッジ](/help/assets/premium.png)
 
-Target Premium には次のようなプレミアム機能があります。
+Target には次のようなプレミアム機能があります。
 
 ### 自動パーソナライゼーション
 
-[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)は、より良いデジタルエクスペリエンスを実現するために、エクスペリエンスのパーソナライズとコンバージョン率の向上を推進する高度な機械学習アルゴリズムを提供します。
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP)は、高度な機械学習アルゴリズムを活用して、エクスペリエンスのパーソナライズとデジタルエクスペリエンスのコンバージョン率の向上を推進します。
 
-自動パーソナライゼーション（旧称 Test&amp;Target 1:1）は、サイト上での訪問者のアクティビティを記録して、訪問者のプロファイルを構築することで、コンテンツのターゲットを類似する訪問者に設定できます。コンテンツに対する反応を、訪問者個人と訪問者全体の両方について記録し、高度なモデリングアプローチを使用して、情報に基づいてひとりひとりの訪問者を自動的にターゲット設定します。
+[!UICONTROL 自動] パーソナライゼーションは、サイト上の訪問者アクティビティを記録し、訪問者のプロファイルを構築して、コンテンツを類似の訪問者にターゲット設定できるようにします。APは、個人の場合も訪問者全体の場合も、コンテンツに対する応答を追跡します。 次に、APは高度なモデリングアプローチを使用して個々のユーザを自動的にターゲットします。 APは、各訪問者に関するすべての情報を考慮します。
 
-自動パーソナライゼーションには自動学習機能が備わっており、分析者の作業を省力化します。完全自動化で、継続的に学習します。モデルを作成し、個々の訪問者が最も関心を持つ可能性のある製品について自動的に学習します。訪問者がサイトを操作するたびに、情報を収集し、訪問者プロファイルに保存します。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
+[!UICONTROL 自動] パーソナライゼーションは、自動学習を行い、人の分析を最小限に抑えます。完全に自動化されたAPは、継続的に学習します。 モデルを作成し、個々の訪問者が最も関心を持つ可能性のある商品について自動的に学習します。 訪問者がサイトを操作するたびに、情報が収集され、訪問者のプロファイルに保存されます。 システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
 
 ### 自動ターゲット
 
-[自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。](/help/c-activities/auto-target/auto-target-to-optimize.md)
+[自動ター](/help/c-activities/auto-target/auto-target-to-optimize.md) ゲットでは、高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスを特定します。[!UICONTROL 自動ター] ゲット設定は、各訪問者に最も合わせて適用されたエクスペリエンスを提供します。配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいています。 [!UICONTROL 自動ター] ゲット設定は、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 ### Recommendations
 
-[Recommendations のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
+[Recommendations のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)[!UICONTROL Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。]
 
 レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。次に例を示します。
 
@@ -67,18 +67,18 @@ Target Premium には次のようなプレミアム機能があります。
 
 ### オファーとしての Recommendations 
 
-[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) により、[!UICONTROL A/B テスト]（ [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
+[A/Bテスト](/help/c-recommendations/recommendations-as-an-offer.md) 、自動配分、自動ターゲット [!UICONTROL 、自動]、およびターゲット設定(XT)アクティビティ内にレコメンデーションを含めることができる、Recommendations(A/Bテスト [!UICONTROL 、自動配分、自動]   、およびエクスペリエンスのターゲット設定)
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
 * 複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。
 * [!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。
-* [!UICONTROL 自動ターゲット]を使用して、訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てます。
+* [!UICONTROL 自動ターゲット]を使用して、個々のプロファイルに基づいてカスタマイズされたレコメンデーションエクスペリエンスに訪問者を動的に割り当てます。
 
 ### Enterprise ユーザーの権限
 
-[Enterprise User ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)  [!DNL Adobe Admin Console for Enterprise]Permissions機能を使用すると、様々なプロジェクト(の「製品プロファイル」と呼ばれる)を作成して、そのユーザーのアクセス権限を指定する1人のユーザーに対して異なる権限を割り当てることができます。これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、表示の制限、編集、承認およびユーザーへの公開が可能になります。
+[エンタープライズユーザー](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 権限機能を使用すると、様々なプロジェクトを作成できます(の「製品プロファイル」と呼ば [!DNL Adobe Admin Console for Enterprise]れます)。[!UICONTROL エンタープライズユーザー] 権限では、1人のユーザーに対して異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、ユーザーは、表示の制限、編集、承認および投稿のアクセス権限をユーザーに付与できます。 地域、環境（開発/ステージ/実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -92,15 +92,15 @@ Target Premium には次のようなプレミアム機能があります。
 
 ## Experience League：Adobe Target Welcome Kit {#kit}
 
-この Welcome Kit で、Adobe Target の最適化およびパーソナライゼーションプログラムを構築します。最初の[!DNL Adobe Target]アクティビティに備え、起動する際に役立つ重要な情報、ツール、リソースが含まれ、短期的な優先課題と長期的な最適化戦略が得られます。
+このウェルカムキットを使って[!DNL Adobe Target]に最適化とパーソナライズのプログラムを構築します。 ウェルカムキットには、最初の[!DNL Target]アクティビティの準備と起動に役立つ重要な情報、ツール、リソースが含まれています。 キットには、短期的な優先課題と長期的な最適化戦略のアイデアが含まれています。
 
 [ザAdobe Targetウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## トレーニングビデオ：アクティビティタイプ(9:03) ![概要バッジ](/help/assets/overview.png)
 
-次のビデオでは、[!DNL Target Standard/Premium] で使用できるアクティビティのタイプと、サイトの目標を達成するため Target でおこなう 3 ステップのガイドによるワークフローを説明します。
+次のビデオでは、[!DNL Target Standard/Premium]で使用できるアクティビティのタイプと、[!DNL Target] 3ステップのガイドによるワークフローがサイトの目標を達成する上でどのように役立つかについて説明します。
 
-* Adobe Target に含まれるアクティビティのタイプの説明
+* [!DNL Adobe Target] に含まれるアクティビティのタイプの説明
 * 目標達成に適したアクティビティのタイプの選択
 * すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
