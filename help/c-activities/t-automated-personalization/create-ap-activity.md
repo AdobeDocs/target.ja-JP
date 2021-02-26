@@ -2,11 +2,11 @@
 keywords: 自動パーソナライゼーション；ap;オーディエンス；アンサンブル；ランダムフォレスト；残差分散；誤差分散；ライフタイム値
 description: Visual Experience Composer(VEC)を使用して、Adobe TargetでAutomated Personalization(AP)アクティビティを作成する方法を説明します。
 title: Automated Personalizationアクティビティの作成方法
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -48,18 +48,14 @@ ht-degree: 91%
 
    ![「名前」フィールド](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | / | フォワードスラッシュ |
-   | ? | 疑問符 |
-   | # | 番号記号 |
-   | : | コロン |
-   | = | イコール |
-   | + | プラス |
-   | - | マイナス |
-   | @ | アットマーク |
+   | `=` | イコール |
+   | `+` | プラス |
+   | `-` | マイナス |
+   | `@` | アットマーク |
 
 1. 「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」で説明しているとおりにページ要素を変更します。
 
