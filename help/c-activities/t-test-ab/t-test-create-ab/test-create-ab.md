@@ -2,12 +2,12 @@
 keywords: A/Bの作成；A/Bテスト；A/Bアクティビティ；新しいa/bアクティビティ;a/bの作成
 description: Adobe TargetでVisual Experience Composer(VEC)を使用して、ターゲット対応のページに直接A/Bテストアクティビティを作成する方法を説明します。
 title: A/Bテストの作成方法
-feature: A/B Tests
+feature: A/B テスト
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 61%
 
 ---
 
@@ -62,14 +62,10 @@ ht-degree: 63%
 
    ![「名前」フィールド](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | `/` | フォワードスラッシュ |
-   | `?` | 疑問符 |
-   | `#` | 番号記号 |
-   | `:` | コロン |
    | `=` | イコール |
    | `+` | プラス |
    | `-` | マイナス |
