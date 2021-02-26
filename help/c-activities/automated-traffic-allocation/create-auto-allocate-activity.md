@@ -1,13 +1,13 @@
 ---
-keywords: 自動配分の作成；A/Bテスト；自動配分アクティビティ；新しいa/bアクティビティ；自動配分；最適なエクスペリエンスに自動配分；割り当て；自動配分
+keywords: 自動配分の作成；A/Bテスト；自動配分アクティビティ；新しいa/bアクティビティ；自動配分；最適なエクスペリエンスに自動配分；自動配分；自動配分
 description: Adobe TargetでVisual Experience Composer(VEC)を使用して、ターゲット対応のページに直接自動配分A/Bテストアクティビティを作成する方法を説明します。
 title: 自動配分アクティビティの作成方法
-feature: Auto-Allocate
+feature: 自動配分
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 58%
+source-wordcount: '908'
+ht-degree: 56%
 
 ---
 
@@ -62,14 +62,10 @@ ht-degree: 58%
 
    ![「名前」フィールド](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | `/` | フォワードスラッシュ |
-   | `?` | 疑問符 |
-   | `#` | 番号記号 |
-   | `:` | コロン |
    | `=` | イコール |
    | `+` | プラス |
    | `-` | マイナス |
