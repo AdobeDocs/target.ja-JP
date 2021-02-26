@@ -2,17 +2,17 @@
 keywords: エクスペリエンスのターゲット設定；xt；作成
 description: ターゲット対応ページで、Adobe TargetのVisual Experience Composer(VEC)を使用してエクスペリエンスターゲット設定(XT)アクティビティを作成する方法を説明します。
 title: エクスペリエンスのターゲット設定アクティビティの作成方法を教えてください。
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# エクスペリエンスのターゲット設定アクティビティの作成{#create-an-experience-targeting-activity}
+# エクスペリエンスのターゲット設定アクティビティの作成
 
 [!UICONTROL Visual Experience Composer]（VEC）を使用すると、Target を有効にしたページ上に[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティを作成し、[!DNL Adobe Target] 内でページの一部を変更することができます。
 
@@ -62,14 +62,10 @@ ht-degree: 91%
 
    ![「名前」フィールド](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | `/` | フォワードスラッシュ |
-   | `?` | 疑問符 |
-   | `#` | 番号記号 |
-   | `:` | コロン |
    | `=` | イコール |
    | `+` | プラス |
    | `-` | マイナス |
