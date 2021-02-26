@@ -1,13 +1,13 @@
 ---
-keywords: 自動ターゲットの作成；A/Bテスト；自動ターゲットアクティビティ；新しいA/Bアクティビティ；自動ターゲット；パーソナライズされたエクスペリエンスの自動ターゲット；パーソナライズされた
+keywords: 自動ターゲットの作成；A/Bテスト；自動ターゲットアクティビティ；新しいA/Bアクティビティ；自動ターゲット；パーソナライズされたエクスペリエンスの自動ターゲット；パーソナライズ；最適化
 description: Adobe TargetでVisual Experience Composer(VEC)を使用して、自動ターゲットA/Bテストアクティビティをターゲット対応のページに直接作成する方法を説明します。
 title: 自動ターゲットアクティビティの作成方法
-feature: Auto-Target
+feature: 自動ターゲット
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 57%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ ht-degree: 57%
 
    ![「名前」フィールド](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | `/` | フォワードスラッシュ |
-   | `?` | 疑問符 |
-   | `#` | 番号記号 |
-   | `:` | コロン |
    | `=` | イコール |
    | `+` | プラス |
    | `-` | マイナス |
