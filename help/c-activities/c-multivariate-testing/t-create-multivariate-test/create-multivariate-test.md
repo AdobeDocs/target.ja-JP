@@ -2,12 +2,12 @@
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
 description: ターゲット対応のページで、Adobe TargetのVisual Experience Composer(VEC)を使用して多変量分析テスト(MVT)を作成する方法を説明します。
 title: 多変量分析テストの作成方法
-feature: Multivariate Tests
+feature: 多変量分析テスト
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 89%
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
 
@@ -56,18 +56,14 @@ ht-degree: 89%
 
    ![アクティビティ名フィールド](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   次の文字はアクティビティ名として入力できません。
+   アクティビティ名の先頭に次の文字を使用することはできません。
 
    | 文字 | 説明 |
    |--- |--- |
-   | / | フォワードスラッシュ |
-   | ? | 疑問符 |
-   | # | 番号記号 |
-   | : | コロン |
-   | = | イコール |
-   | + | プラス |
-   | - | マイナス |
-   | @ | アットマーク |
+   | `=` | イコール |
+   | `+` | プラス |
+   | `-` | マイナス |
+   | `@` | アットマーク |
 
 1. [それぞれの場所でオファーを作成します](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
