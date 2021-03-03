@@ -2,13 +2,13 @@
 keywords: レポートソースとしてのAnalytics;a4t;A4T；要件
 description: Analytics for Analytics(A4T)を使用して、Adobe TargetでAdobe Analyticsベースのアクティビティを作成するのに必要なユーザーアカウントの要件を設定する方法について説明します。
 title: A4Tに必要なユーザー権限の要件を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 38%
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-[!DNL Analytics]レポートスイートへのアクセスを設定します。
-
-特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権が必要です。
+特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権を持っており、[!DNL Web Services Access]グループにアクセス権を付与している必要があります。
 
 1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、**[!UICONTROL 権限]**&#x200B;タブをクリックします。
 
@@ -52,6 +50,11 @@ ht-degree: 38%
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
    ![「Admin Console権限」タブ](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. [!UICONTROL Webサービスアクセス]グループへのアクセスを設定します。
+
+   [!DNL Analytics]の[!UICONTROL Web Services Access]グループへのアクセスは、[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにする必要があります。
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
