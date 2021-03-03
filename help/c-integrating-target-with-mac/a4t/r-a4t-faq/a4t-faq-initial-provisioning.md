@@ -2,19 +2,19 @@
 keywords: FAQ;よくある質問;analytics for target;A4T;プロビジョニング;プロビジョニング;adobe Experience Cloud
 description: Analyticsをターゲット用にプロビジョニングする(A4T)ことに関するよくある質問(FAQ)に対する回答を見つけます。Analyticsレポートを使用してターゲットアクティビティを行うことができます。
 title: A4Tの初期プロビジョニングに関する情報はどこで入手できますか？
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # 初期プロビジョニング - A4T FAQ{#initial-provisioning-a-t-faq}
 
-このトピックには、Analytics を Target のレポートソースとしてプロビジョニングすること（A4T）に関するよくある質問に対する回答が含まれています。
+このトピックでは、[!DNL Adobe Target]のレポートソースとしての[!DNL Adobe Analytics]のプロビジョニング(A4T)に関するよくある質問に対する回答を記載します。
 
 ## 複数ページの A4T アクティビティを設定する方法を教えてください。
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。詳しくは、[ユーザー権限の要件](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)を参照してください。
 
-Analytics および Target へのアクセス権のある 1 つ以上の Experience Cloud グループのメンバーになり、すべてのレポートスイートへのアクセス権を持っている場合、「**[!UICONTROL アクティビティの作成]**」で、Analytics を使用した A/B テストを作成するためのオプションを確認する必要があります。
+Analyticsとターゲットにアクセスできる1つ以上のExperience Cloudグループのメンバーで、すべてのレポートスイートにアクセスできる場合は、**[!UICONTROL アクティビティの作成]**&#x200B;の下に、Analyticsを使用してA/Bテストを作成するオプションが表示されます。
 
 プロビジョニングの問題が発生した場合は、A4T が正しくプロビジョニングされているかどうかをチェックします。
 
@@ -36,13 +36,13 @@ Analytics および Target へのアクセス権のある 1 つ以上の Experie
 
 これらのいずれかの問題が発生した場合は、次をチェックしてください。
 
-* Analytics と Target のアカウントが Experience Cloud でリンクされていることを確認します。
-* 複数の Analytics ログインカンパニーを同じ Experience Cloud 組織名で使用している場合、最後にログインした Analytics ログインカンパニーが、統合する Target アカウントと関連付けられていることを確認します。
+* AnalyticsアカウントとターゲットアカウントがExperience Cloudー内でリンクされていることを確認します。
+* 同じExperience Cloud会社で複数のAnalytics会社ログインを使用する場合もあります。 複数のログインを使用する場合は、最後にログインしたAnalytics会社が、統合のターゲットアカウントに関連付けられていることを確認してください。
 * Experience Cloud にログインしてから数時間が経過している場合、Analytics セッションの有効期限が切れている可能性があります。一度ログアウトしてから再度ログインして、もう一度試してみます。
 
 ## Target に Analytics オプションが表示されないのはなぜですか？  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-前述の「レポートスイートが読み込まれないのはなぜですか？」を参照してください。この問題の根本原因は同じです。
+前述の「レポートスイートが読み込まれないのはなぜですか？」を参照上. この問題の根本原因は同じです。
 
 ## Analytics で A4T レポートが表示されないのはなぜですか？  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
