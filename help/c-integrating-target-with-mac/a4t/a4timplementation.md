@@ -2,19 +2,19 @@
 keywords: A4T;Adobe Analytics;Analytics ベースのアクティビティ;Analytics レポートスイート;レポートスイート;Analytics Target 統合;レポートスイートの設定
 description: Adobe TargetおよびAdobe Analyticsのソリューションにターゲット用のAnalytics(A4T)を実装するために必要な手順に従います。
 title: Analytics forターゲット(A4T)の実装方法を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 47%
+source-wordcount: '890'
+ht-degree: 28%
 
 ---
 
 
 # Analytics for Target の実装{#analytics-for-target-implementation}
 
-[!DNL Adobe Analytics]を[!DNL Target]のレポートソースとして実装する場合(A4T)には、いくつかの手順が必要です。
+[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして実装する場合(A4T)には、いくつかの手順が必要です。
 
 ## 導入手順{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -30,13 +30,13 @@ ht-degree: 47%
 
 ## 手順 3： Experience Cloud 訪問者 ID サービスを導入します。
 
-訪問者 ID サービスによって、[!DNL Adobe Experience Cloud] ソリューション全体でユーザーを特定することができます。Experience Cloud 訪問者 ID の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
+訪問者 ID サービスによって、[!DNL Adobe Experience Cloud] ソリューション全体でユーザーを特定することができます。Experience Cloud訪問者IDの必要なバージョンを実装するか、そのバージョンに移行します。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
 *Experience Cloud訪問者IDサービス*&#x200B;のドキュメントで、[ターゲット用のExperience CloudIDサービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)を参照してください。
 
 ## 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
-appMeasurement.js の必要なバージョンを実装するか、そのバージョンに移行する必要があります。詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
+appMeasurement.jsの必要なバージョンを実装するか、そのバージョンに移行します。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
 新しい導入方法については、『*Analytics導入ガイド*』の「[JavaScript導入の概要](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)」を参照してください。
 
@@ -44,7 +44,7 @@ appMeasurement.js の必要なバージョンを実装するか、そのバー�
 
 ## 手順5:at.jsのダウンロードと更新
 
-実稼動アカウントを使用して、必要なバージョンのat.jsを実装するか、at.jsに移行する必要があります。 コードの修正は必要ありません。
+実稼動アカウントを使用して、必要なバージョンのat.jsを実装するか、そのバージョンに移行します。 コードの修正は必要ありません。
 
 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
@@ -65,11 +65,11 @@ at.js の場合：
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-at.jsの前にVisitorAPI.jsを読み込むことが不可欠です。既存のat.jsまたはmbox.jsファイルを更新する場合は、読み込み順序を確認してください。
+VisitorAPI.jsは、at.jsの前に読み込む必要があります。 既存のat.jsまたはmbox.jsファイルを更新する場合は、読み込み順序を確認してください。
 
-導入の観点から、[!DNL Target]と[!DNL Analytics]の統合用にあらかじめ用意されている設定を行う方法は、ページから渡されたSDIDを使用して、バックエンドで[!DNL Target]と[!DNL Analytics]のリクエストを自動的に結合することです。
+導入の観点から、[!DNL Target]と[!DNL Analytics]の統合のデフォルト設定は、ページから渡されたSDIDを使用して、バックエンドで[!DNL Target]と[!DNL Analytics]のリクエストを自動的に結合します。
 
-ただし、[!DNL Target]に関連する解析データをレポート目的で[!DNL Analytics]に送信する方法とタイミングをより詳細に制御し、[!DNL Target]と[!DNL Analytics]をSDID経由で自動的に結合しない場合は、**analyticsLogging = client_side**&#x200B;を&#x200B;**経由で設定できますwindow.targetGlobalSettings**. 注意：2.1 未満のバージョンでは、この方法をサポートしていません。
+[!DNL Target]に関連する解析データを、レポートのためにいつ、どのように[!DNL Analytics]に送信するかを制御できます。 [!DNL Target]と[!DNL Analytics]オプトインをSDID経由で自動的に結合しないデフォルト設定を使用する場合は、**window.targetGlobalSettings**&#x200B;を介して、**analyticsLogging = client_side**&#x200B;を設定します。 注意：2.1 未満のバージョンでは、この方法をサポートしていません。
 
 次に例を示します。
 
@@ -79,7 +79,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-この設定は全体的に影響します。つまり、at.js によっておこなわれた各呼び出しには、 リクエストと共に送信された **analyticsLogging: &quot;client_side&quot;** があり、各リクエストに対して分析ペイロードが返されます。[!DNL Target]これが設定された場合、返されるペイロードの形式は、以下のようになります。
+この設定はグローバルな効果を持ちます。つまり、at.jsによるすべての呼び出しに&#x200B;**analyticsLogging:[!DNL Target]リクエスト内で送信される&quot;client_side&quot;**。また、リクエストごとにanalyticsペイロードが返されます。 このオプションを設定すると、返されるペイロードの形式は次のようになります。
 
 ```javascript
 "analytics": {
@@ -90,9 +90,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-ペイロードは、[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAnalyticsに転送できます。 [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]のアクティビティの場合は、sessionIdも転送する必要があることに注意してください。 詳しくは、*Adobe TargetSDK*&#x200B;ガイドの[ターゲット用のAnalytics(A4T)レポート](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)を参照してください。
+ペイロードは、[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAnalyticsに転送できます。 自動配分と自動ターゲットアクティビティの場合は、sessionIdも転送する必要があります。 詳しくは、*Adobe TargetSDK*&#x200B;ガイドの[ターゲット用のAnalytics(A4T)レポート](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)を参照してください。
 
-グローバル設定は望まず、よりオンデマンドな方法が好ましい場合は、at.js 関数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) を使用して、**analyticsLogging: &quot;client_side&quot;** に渡すことでこれを実現します。Analyticsペイロードはこの呼び出しのみに対して返され、[!DNL Target]バックエンドはペイロードを[!DNL Analytics]に転送しません。 このアプローチを追跡すると、すべてのat.js [!DNL Target]リクエストは、デフォルトではなく、必要に応じて指定された場合にのみペイロードを返します。
+グローバル設定が不要で、よりオンデマンドの方法をお勧めする場合は、**analyticsLogging:&quot;client_side&quot;**。 [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)Analyticsペイロードはこの呼び出しに対してのみ返され、[!DNL Target]バックエンドはペイロードを[!DNL Analytics]に転送しません。 このアプローチを追跡すると、at.js [!DNL Target]リクエストはすべてデフォルトでペイロードを返しますが、必要で指定された場合にのみ返します。
 
 次に例を示します。
 
@@ -154,17 +154,17 @@ adobe.target.getOffers({
 
 JavaScript ライブラリを更新した後でページをロードして、 呼び出しの `mboxMCSDID`[!DNL Target] パラメーター値が ページビュー呼び出しの `sdid`[!DNL Analytics] パラメーター値と一致していることを確認します。
 
-これは、呼び出しの命令が常に予測可能なわけではないシングルページアプリケーション（SPA）で確認することが特に重要です。
+呼び出しの順序が必ずしも予測可能とは限らない場合、これらの値がシングルページアプリ(SPA)で一致することを確認することが特に重要です。
 
-**注意：** A4T が正常に機能するために、これらの値が一致している必要があります。
+**注意：A4T** が正しく機能するには、これらの値の一致が必要です。
 
 ## 手順 9： （オプション）以前の統合コードを削除します。
 
-実装を簡単にし、異なるシステム間の不一致を解消する手間を省くために、以前の統合を削除することをお勧めします。以前の SC から T&amp;T への統合のために設定したコードを、`mboxLoadSCPlugin` を含めてすべて削除します。
+Adobeでは、導入を簡素化し、システム間の不一致を解消する必要をなくすため、以前の統合を削除することをお勧めします。 以前のSCからT&amp;Tへの統合用に展開したコード（`mboxLoadSCPlugin`を含む）はすべて削除できます。
 
 ## 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
 
-[!DNL Target]で、**[!UICONTROL 管理/Visual Experience Composer]**&#x200B;をクリックし、「アクティビティごとに選択」]**または**[!UICONTROL  Adobe Analytics ]**を選択して、オプションを有効にします。**[!UICONTROL 
+[!DNL Target]で、**[!UICONTROL 管理/Visual Experience Composer]**&#x200B;をクリックし、「**[!UICONTROL アクティビティごとに選択]**」または「**[!UICONTROL Adobe Analytics]**」を選択して、オプションを有効にします。
 
 * **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
