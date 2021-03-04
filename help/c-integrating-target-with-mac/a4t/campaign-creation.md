@@ -2,21 +2,21 @@
 keywords: a4t;A4T;Target のレポートソースとしての Analytics
 description: Adobe Analyticsをレポートソースとして使用するAdobe Targetのアクティビティを設定する方法(A4T)を説明します。
 title: A4Tを使用するアクティビティの作成方法を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 36%
+source-wordcount: '650'
+ht-degree: 31%
 
 ---
 
 
 # Analyticsをレポートソースとして使用するアクティビティの作成
 
-[!DNL Target]でアクティビティを設定し、[!DNL Adobe Analytics]をレポートソースとして使用できます(A4T)。
+[!DNL Adobe Target]でアクティビティを設定し、[!DNL Adobe Analytics]をレポートソースとして使用できます(A4T)。
 
-[!DNL Analytics]をレポートソースとして使用するアクティビティを設定する前に、アクティビティの目標を設定します。例えば、訪問者あたりの売上高(RPV)の向上や、買い物かごのクリック数の増加などです。 アクティビティの最終的な成功指標を選択します。[!DNL Analytics]では、いつでも追加の指標を選択できますが、このテストが影響を与えると予想される特定の指標を指定する必要があります。
+[!DNL Analytics]をレポートソースとして使用するアクティビティを設定する前に、アクティビティの目標を設定します。例えば、訪問者あたりの売上高(RPV)の向上や、買い物かごのクリック数の増加などです。 アクティビティの最終的な成功指標を選択します。[!DNL Analytics]では、いつでも他の指標を選択できますが、このテストが影響を与えると予想される特定の指標を指定する必要があります。
 
 ## アクティビティの作成
 
@@ -35,18 +35,18 @@ ht-degree: 36%
 1. アクティビティ作成フローの&#x200B;**[!UICONTROL 設定]**&#x200B;の段階までたどり着いたら、「**[!UICONTROL Adobe Analytics]**」を選択し、会社を指定します。
 1. レポートスイートを選択します。
 
-   [!DNL Analytics]で利用可能な任意のレポートスイートを選択できます。 レポートスイートによって、収集されたデータを利用できる場所が定義されます。仮想レポートスイートはレポートスイートのリストに含まれません。。
+   [!DNL Analytics]で利用可能な任意のレポートスイートを選択できます。 レポートスイートは、収集されたデータを使用できる場所を定義します。 仮想レポートスイートは、レポートスイートリストには含まれません。
 
    レポートスイートを選択する際に、次の 2 つのエラーが発生する可能性があります。
 
    * レポートスイートが利用できないが、アカウントが正しく設定されているというエラーが表示されます。
 
-      [!DNL Analytics]会社を確認する必要がある場合があります。 [!DNL Adobe Experience Cloud]アカウントが複数の[!DNL Analytics]会社に結び付けられている場合は、[!DNL Target]からログアウトし、適切な会社で[!DNL Analytics]にログインします。 次に[!DNL Target]に戻ると、レポートスイートが読み込まれます。
+      [!DNL Analytics]会社を確認してください。 [!DNL Adobe Experience Cloud]アカウントが複数の[!DNL Analytics]会社に結び付けられている場合は、[!DNL Target]からログアウトし、適切な会社で[!DNL Analytics]にログインします。 次に[!DNL Target]に戻り、レポートスイートが読み込まれます。
 
    * 対象のレポートスイートが表示されません。
 
-      [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみを選択できます。 必要なレポートスイートが表示されない場合は、まず[!DNL Adobe Experience Cloud]からログアウトしてから再度ログインし、再試行してください。
-   それでもレポートスイートがリストに表示されない場合、[カスタマーケアまでお問い合わせください](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+      [!DNL Target]に接続するようにプロビジョニングされたレポートスイートのみを選択できます。 対象のレポートスイートが表示されない場合は、まず[!DNL Adobe Experience Cloud]からログアウトしてから再度ログインして、もう一度お試しください。
+   1つ以上のレポートスイートがリストーに表示されない場合は、[カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 1. トラッキングサーバーを指定します。
 
