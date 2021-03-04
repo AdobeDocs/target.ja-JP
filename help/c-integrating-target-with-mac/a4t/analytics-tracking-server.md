@@ -2,31 +2,31 @@
 keywords: analyticsトラッキングサーバー；A4T;Adobe Experience Cloudデバッガー；Adobe Experience Platformデバッガー；レポートソース；開発者ツール
 description: '古いバージョンのat.jsまたはmbox.jsを使用している場合に、Analyticsをターゲットに使用するアクティビティ(A4T)に対してAnalyticsトラッキングサーバーを指定する方法を説明します。 '
 title: Analyticsトラッキングサーバーの使用方法を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 22%
+source-wordcount: '705'
+ht-degree: 20%
 
 ---
 
 
 # Analytics トラッキングサーバーの使用
 
-古いバージョンのat.jsまたはmbox.jsを使用している場合は、[!DNL Target]に[!DNL Analytics](A4T)を使用するアクティビティ用にAnalyticsトラッキングサーバーを指定する必要があります。
+古いバージョンのat.jsまたはmbox.jsを使用している場合は、[!DNL Adobe Target]に[!DNL Adobe Analytics](A4T)を使用するアクティビティ用にAnalyticsトラッキングサーバーを指定する必要があります。
 
 >[!NOTE]
 >
->アクティビティのレポートソースとして[!DNL Analytics]を使用する場合、mbox.jsバージョン61（以降）またはat.jsバージョン0.9.1（以降）を使用している場合は、アクティビティの作成時にトラッキングサーバーを指定する必要はありません。 mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>mbox.jsバージョン61（以降）またはat.jsバージョン0.9.1（以降）を使用している場合は、アクティビティの作成時にトラッキングサーバーを指定する必要はありません。 mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 >
->[!DNL Target]チームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
+>[!DNL Target]チームは、at.js 1とat.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。at.jsのいずれかのメジャーバージョンの最新の更新にアップグレードし、サポート対象バージョンを実行していることを確認します。 詳しくは、[at.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
-[!DNL Target]のデータが[!DNL Analytics]の正しい場所に送信されるようにするため、A4Tでは、すべての呼び出しで[!DNL Target]からModstatsにAnalyticsトラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する導入では、[!DNL Adobe Experience Platform Debugger]またはブラウザーの開発者ツールを使用して、お使いのアクティビティに適したトラッキングサーバーを判断できます。
+[!DNL Target]のデータが[!DNL Analytics]の正しい場所に送信されるようにするため、A4Tでは、すべての呼び出しで[!DNL Target]からModstatsにAnalyticsトラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する導入では、[!DNL Adobe Experience Platform Debugger]またはブラウザーの開発者ツールを使用して、お使いのアクティビティに適したトラッキングサーバーを決定します。
 
 ## Adobe Experience Platformデバッガーを使用したAnalyticsトラッキングサーバーの取得
 
-アクティビティが提供されるページでデバッガーを表示して、適切なトラッキングサーバーが選択されていることを確認します。アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
+アクティビティが配信されるページでデバッガーを表示し、正しいトラッキングサーバーが選択されていることを確認します。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
 
 1. アクティビティを作成しているページで、[!DNL Adobe Experience Platform Debugger]を開きます。
 
@@ -48,7 +48,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >[!UICONTROL トラッキングサーバー]フィールドを使用できるようにするには、アクティビティのレポートソース]として「Analytics」を選択する必要があります。[!UICONTROL 
+   >使用可能にする[!UICONTROL トラッキングサーバー]フィールドのアクティビティーに対して、「レポートソース]」として「Analytics」を選択します。[!UICONTROL 
 
 ## ブラウザーの開発者ツールを使用してAnalyticsトラッキングサーバーを取得する
 
@@ -76,5 +76,5 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >[!UICONTROL トラッキングサーバー]フィールドを使用できるようにするには、アクティビティのレポートソース]として「Analytics」を選択する必要があります。[!UICONTROL 
+   >使用可能にする[!UICONTROL トラッキングサーバー]フィールドのアクティビティーに対して、「レポートソース]」として「Analytics」を選択します。[!UICONTROL 
 
