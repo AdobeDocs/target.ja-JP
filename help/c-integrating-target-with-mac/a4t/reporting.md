@@ -2,23 +2,23 @@
 keywords: analytics for target;A4T;レポートソースとしての analytics
 description: Analyticsをターゲットに使用する方法(A4T)について説明します。 A4Tは、Analytics指標とオーディエンスセグメントを使用するターゲットアクティビティのAnalyticsレポートへのアクセスを提供します。
 title: A4Tでレポートを使用する方法
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 32%
+source-wordcount: '689'
+ht-degree: 30%
 
 ---
 
 
 # A4T レポート{#a-t-reporting}
 
-[!DNL Analytics]を[!DNL Target] (A4T)のレポートソースとして使用すると、[!DNL Target]アクティビティの[!DNL Analytics]レポートにアクセスできます。
+[!DNL Adobe Analytics]を[!DNL Adobe Target] (A4T)のレポートソースとして使用すると、[!DNL Target]アクティビティの[!DNL Analytics]レポートにアクセスできます。
 
 アクティビティの表示レポートは、[!DNL Analytics]と[!DNL Target]の両方で作成できます。
 
-[!DNL Analytics]を[!DNL Target]に使用するレポートのベストプラクティスについては、[このAdobe Sparkのページ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)を参照してください。
+[!DNL Analytics]を[!DNL Target]に使用するレポートのベストプラクティスについては、[このAdobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)をご覧ください。
 
 ## 概要 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ ht-degree: 32%
 
    カスタム指標や計算指標など、[!DNL Analytics]に組み込まれている指標はすべて使用できます。
 
-   このレポートでは、実際には数値の上昇が好ましくない状況であっても、数値の上昇が肯定的な現象として表示されることに注意してください。例えば、バウンス率を低く抑えたい場合であっても、最も高いバウンス率を持つものが勝者として表示されます。このような指標の取り扱いには注意が必要です。ポートに基づいて判断をおこなう場合には、数値が低下した方が好ましいのか、上昇した方が好ましいのかを確認してください。
+   増加が望ましくない場合でも、増加した数値は肯定的な値としてレポートに表示されます。 例えば、バウンス率を低く抑えたい場合であっても、最も高いバウンス率を持つものが勝者として表示されます。このような指標の取り扱いには注意が必要です。ポートに基づいて判断をおこなう場合には、数値が低下した方が好ましいのか、上昇した方が好ましいのかを確認してください。
 
 指標やオーディエンスは、アクティビティ開始後、またはテストが完了した後でも、[!DNL Target]のレポートに適用できます。 測定する内容を事前に正確に知っておく必要はありません。
 
