@@ -4,10 +4,10 @@ description: Analytics forターゲット(A4T)を使用して、Analyticsのコ�
 title: ターゲット用Analytics(A4T)とは何ですか。
 feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 40%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 42%
 
 * マーケティング担当者は、[!DNL Analytics]成功指標やレポートセグメントを[!DNL Target]アクティビティレポートにいつでも動的に適用できます。 アクティビティを実行する前にすべての項目を指定する必要がありません。
 * 単一のデータソースにより、2 つの異なるシステムのデータを収集した場合に生じる偏差が排除されます。
-* 既存の[!DNL Analytics]実装は、必要なすべてのデータを収集します。 レポート用のデータを収集する目的のためだけにページに mbox を実装する必要はありません。ただし、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)アクティビティに注文確認mboxを実装することをお勧めします。
+* 既存の[!DNL Analytics]実装は、必要なすべてのデータを収集します。 レポート用のデータを収集する目的のためだけにページに mbox を実装する必要はありません。Adobeでは、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)アクティビティに注文確認mboxを実装することをお勧めします。
 
 >[!IMPORTANT]
 >
->A4T を使用する際は、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。プロビジョニングの依頼には[このフォーム](https://www.adobe.com/go/audiences)を使用します。
+>A4Tの使用を開始する前に、アカウントの統合プロビジョニングをリクエストする必要があります。 プロビジョニングの依頼には[このフォーム](https://www.adobe.com/go/audiences)を使用します。
 >
 >[!DNL Analytics]を[!DNL Target]のデータソースとして有効にする統合(A4T)は、Test&amp;ターゲットのSiteCatalystプラグインの次世代を表します。 このプラグインは廃止されていますが、既存の利用者のために今でもサポートされています。
 
@@ -44,14 +44,14 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 
 * [!DNL Analytics]を[!DNL Target]のレポートソースとして使用するには、ユーザーと会社の両方が[!DNL Analytics]と[!DNL Target]にアクセスできる必要があります。 [アカウント担当者にお問い合わせください](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 * レポートソースはアクティビティごとに設定されます。[!DNL Target] レポートで使用するデータを引き続き収集します。によって収集されたデータを基にアクティビティを行う場合は、 [!DNL Target] データを引き続き使用でき [!DNL Target]ます。
-* どちらか 1 つのレポートソースを選ぶ必要があります。両方のソースから 1 つのアクティビティのデータを収集することはできません。
+* 1つのレポートソースか、もう1つのデータソースを使用します。 両方のソースから 1 つのアクティビティのデータを収集することはできません。
 * A4Tを使用する場合、アクティビティが使用できる成功指標はすべて[!DNL Analytics]指標です。 ただし、目標指標は mbox の呼び出しをベースにすることができます。例えば、[!DNL Analytics]クリック追跡コードを実装する代わりに、A4Tでターゲットのそのまま使用できるクリック追跡機能を使用できます。
 * [!DNL Target] UIでA4Tアクティビティのレポートを表示すると、[!DNL Analytics]データが表示されます。 例えば、[!DNL Target]で[!UICONTROL 訪問者]指標を使用する場合、[!UICONTROL 参加者]と呼ばれる[!DNL Target][!UICONTROL 訪問者]指標ではなく、[!DNL Analytics] [!UICONTROL 訪問者]指標を使用します。 この違いは、特に基本的なトラフィック指標([!UICONTROL 訪問者]、[!UICONTROL 訪問回数]、[!UICONTROL ページ表示])およびコンバージョン指標で重要です。
 * 既存の[!DNL Target]アクティビティは引き続き[!DNL Target]データ収集を使用するので、A4Tを有効にしても影響を受けません。
 * [!DNL Analytics]をレポートソースとして使用する場合は、1つのmboxベースの指標のみ使用できます。
-* [!DNL Target]から[!DNL Analytics]へのサーバー間呼び出しは、アクティビティとエクスペリエンスの情報を[!DNL Analytics]に送信します。 この統合によって、[!DNL Target]または[!DNL Analytics]に対する追加のサーバーコールは発生しません。
+* [!DNL Target]から[!DNL Analytics]へのサーバー間呼び出しは、アクティビティとエクスペリエンスの情報を[!DNL Analytics]に送信します。 この統合によって、[!DNL Target]または[!DNL Analytics]に対するより多くのサーバーコールが発生することはありません。
 
-   状況によっては、[!DNL Target]から[!DNL Analytics]への分類が失敗し、アクティビティに[!DNL Analytics]内のデータが表示されない場合があります。 この問題が発生した場合は、[Analyticsとターゲットの統合のトラブルシューティング(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。 また、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にお問い合わせの上、詳しくお問い合わせください。
+   状況によっては、[!DNL Target]から[!DNL Analytics]への分類が失敗し、アクティビティに[!DNL Analytics]内のデータが表示されないことがあります。 [Analyticsとターゲットの統合のトラブルシューティング(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を参照してください。 また、[ClientCare](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)にお問い合わせの上、詳しくお問い合わせください。
 
 ## サポートされるアクティビティの種類{#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -63,12 +63,12 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 | 自動配分を使用した A/B アクティビティ | ○ | 「[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)」を参照してください。 |
 | 自動ターゲットを使用した A/B アクティビティ | ○ | 「[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)」を参照してください。 |
 | エクスペリエンスターゲット設定（XT） | ○ |  |
-| 多変量分析テスト（MVT） | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mboxベースの目標指標の目標が必要です。  [!UICONTROL 要素貢献度]レポートは、現在、[!DNL Analytics]指標をサポートしていません。 |
+| 多変量分析テスト（MVT） | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mboxベースの目標指標の目標が必要です。 [!UICONTROL 要素貢献度]レポートは、現在、[!DNL Analytics]指標をサポートしていません。 |
 | 自動パーソナライゼーション（AP）アクティビティ | × |  |
 | Recommendations アクティビティ | ○ |  |
 | モバイルアプリ | ○ | Mobile Services SDK バージョン 4.13.1 以降でサポートされています。詳しくは、[Mobile Services のドキュメント](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)を参照してください。 |
 | 電子メール | × |  |
-| Server Side Delivery API | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
+| サーバー側配信API | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
 | NodeJS SDK | ○ | 詳細については、「[サーバー側：Target の実装](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)」を参照してください。 |
 | AEM 6.1（またはそれ以前）のクラウドサービス統合 | × |  |
 | AEM 6.2（またはそれ以降）のクラウドサービス統合 | ○ | 詳しくは、[!DNL Adobe Experience Manager] 6.2ドキュメントの[Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)との統合を参照してください。 |
