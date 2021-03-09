@@ -4,10 +4,10 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 28%
+source-wordcount: '3715'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,14 @@ ht-degree: 28%
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target]製品ドキュメントに対して行われた重要な変更をリストしています。
+
+## Adobe Target標準/プレミアム21.2.1（2021年3月9日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 3月9日 | [制限](/help/r-troubleshooting-target/target-limits.md#offer-size) | オファーの許容サイズ制限を更新しました。 |
+|  | [許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target]エッジIPアドレスを更新しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：21.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
 
@@ -51,7 +59,7 @@ ht-degree: 28%
 | 18 年 12 月 | [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md) | 新規トピックです。 |
 | 17 年 12 月 | [Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDKがA4Tをサポートしていることを示す表を更新しました。 |
 | 16 年 12 月 | [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 次のFAQを追加しました。「自動ターゲットアクティビティから1つのエクスペリエンスを削除するとどうなりますか？」 |
-| 9 年 12 月 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
+| 9 年 12 月 | [オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新規トピックです。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の問題を「既知の問題」セクションから「解決された問題」セクションに移動しました。&quot;画像オファーに&quot;処理中&quot;のラベルが表示されています。&quot; |
 | 1 年 12 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | ウェビナーの録画を埋め込み、「遅延なしでパーソナライズおよびテストを行い、Adobe Targetのデバイス上での意思決定を行う」を行いました。 |
 | 24 年 11 月 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[レポート — ダウンロード可能な.csvレポートのデータとターゲットUIに表示されるレポートのデータが一致しない。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>次の解決された問題を追加しました。<ul><li>[Analytics for Target（A4T）レポート](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
