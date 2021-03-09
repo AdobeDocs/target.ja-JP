@@ -2,12 +2,12 @@
 keywords: 文字制限；mboxパラメーター；バッチ配信api;プロファイルパラメーター；制限；組み込みプロファイル；最大；制限；制約；文字；ベストプラクティス；orderid;orderTotal;mbox3rdPartyID;カテゴリ;categoryID；トラブルシューティング
 description: 文字制限とその他の制限(オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど)のリストの表示 文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: Adobe Targetの様々な文字、大きさ、その他の制限は何ですか。
-feature: Troubleshooting
+feature: トラブルシューティング
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 64%
 
 ---
@@ -192,13 +192,13 @@ ht-degree: 64%
 
 * **推奨制限**：50,000 個の合計オファー。
 
-### オファーサイズ
+### オファーサイズ {#offer-size}
 
 オファーには、次のサイズ制限が適用されます。
 
-* HTML オファーの場合 256 KB。
-* UI からのビジュアルオファーの場合 64 KB。
-* API からの場合 512 KB。
+* HTML オファーの場合 1024 KB。
+* UIからのビジュアルオファーの場合は1024 KB（エクスペリエンスごと）。
+* API からの場合 1024 KB。
 
    グローバル mbox を使用している場合、この制限は、ページに関して返される一連のコンテンツ全体に適用されます。オファーサイズを制限すると、ページの読み込み時間が短縮されます。制限を超えると、次の内容のメッセージが表示されます。
 
