@@ -4,15 +4,15 @@ description: エンティティ属性を使用して、商品やコンテンツ�
 title: エンティティ属性の使用方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 89%
+source-wordcount: '1064'
+ht-degree: 88%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) エンティティの属性{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) エンティティの属性
 
 エンティティ属性を使用して、製品やコンテンツの情報を[!DNL Adobe Target Recommendations]に渡します。
 
@@ -86,7 +86,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [!DNL Adobe Experience Cloud] 製品（[!DNL Analytics] を含む）で同じにする必要があります。
 
-`entity.id` の値には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
+`entity.id`*の値には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、カンマ、その他の句読点を含めることはできません。*&#x200B;ハイフンとアンダースコアは使用できます。`entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
 
 例：`'entity.id=67833'`
 
@@ -179,6 +179,8 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 品目の価格や価値を定義します。
 
 例：`'entity.value=15.99'`
+
+entity.valueは、10進数形式のみをサポートします（例：15.99）。 コンマ形式(15,99)はサポートされていません。
 
 ### entity.margin
 
