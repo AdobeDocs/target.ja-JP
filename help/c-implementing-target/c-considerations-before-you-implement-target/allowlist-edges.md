@@ -5,9 +5,9 @@ title: ターゲットエッジノードを許可リストする方法
 feature: プライバシーとセキュリティ
 role: 開発者
 translation-type: tm+mt
-source-git-commit: d5bcc86458751968b0ebe174f0b57322a26089ed
+source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 7%
 
 | エッジの位置 | ドメイン | IP アドレス |
 | --- | --- | --- |
+|  | `CLIENTCODE.tt.omtrdc.net`<br>(CLIENTCODEはお客様の [!DNL Target] クライアントID) |  |
 | Edge31（ムンバイ） | `mboxedge31.tt.omtrdc.net` | 15.207.157.131<br>15.206.8.201 |
 | Edge32（東京） | `mboxedge32.tt.omtrdc.net` | 54.199.66.101<br>54.64.93.37 |
 | Edge34（米国東海岸） | `mboxedge34.tt.omtrdc.net` | 3.225.56.36<br>3.230.207.249<br>34.198.55.51<br>52.3.14.12<br>52.21.22.93<br>52.55.235.132<br>52.70.52.52<br>54.165.204.89 |
