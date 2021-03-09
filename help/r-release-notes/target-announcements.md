@@ -2,12 +2,12 @@
 keywords: お知らせ；スキルビルダ；開発者チャット；コーヒーブレーク；イベント;forrester;gartner;webinar
 description: お知らせを読み、Skill Builderセッション、開発者と製品管理者のチャット、ウェビナーなど、Adobe Targetイベントに登録します。
 title: ターゲットに関するお知らせやイベントはどこで入手できますか？
-feature: Release Notes
+feature: リリースノート
 translation-type: tm+mt
-source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,6 @@ Adobe Target氏は最近、フォレスター氏とガートナー氏の両方�
 | --- | --- |
 | フォレスター | **Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。**<br> Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。**<br> Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
-
-## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
-
-* **Wednesday, Febrary 24**
-* **午前9時(PST) | CST午前11時 | 12正午(EST)**
-* **時間60分**
-* **[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
-
-Adobe Target上級製品マネージャーのロブ・ホーニックが参加します。 Robは、ターゲットや専門知識に関する質問に答えます。
-
-* Recommendations
-* 自動配分
-* 自動ターゲット
-* 自動パーソナライゼーション
-* 機械学習と人工知能
 
 ## ウェビナー：Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現
 
