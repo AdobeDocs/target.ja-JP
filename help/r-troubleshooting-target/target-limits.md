@@ -5,7 +5,7 @@ title: Adobe Targetの様々な文字、大きさ、その他の制限は何で�
 feature: トラブルシューティング
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 64%
@@ -53,7 +53,7 @@ ht-degree: 64%
 
 ## categoryId パラメーター
 
-* **上限**：128 文字。
+* **上限**：250 文字。
 
 ## 顧客属性
 
