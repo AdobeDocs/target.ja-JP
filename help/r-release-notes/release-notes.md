@@ -4,50 +4,45 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 42%
+source-wordcount: '590'
+ht-degree: 37%
 
 ---
 
 
 # Target リリースノート（現行）
 
-これらのリリースノートでは、Target Standard と Target Premium の各リリースの機能、機能強化および修正点について説明します。また、ターゲットAPI、SDK、JavaScriptライブラリ(at.js)およびその他のプラットフォームの変更に関するリリースノートも適宜含まれています。
+以下のリリースノートでは、各[!DNL Adobe Target Standard]および[!DNL Target Premium]リリースの機能、拡張機能および修正点に関する情報を提供しています。 また、ターゲットAPI、SDK、JavaScriptライブラリ(at.js)およびその他のプラットフォームの変更に関するリリースノートも適宜含まれています。
 
 >[!IMPORTANT]
 >
 >**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリ [!DNL Adobe Target] はサポートされなくなります。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
 >
->サイトに発生する可能性のある問題を回避するため、すべてのお客様に、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに今日までに移行することをお勧めします。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
+>サイトに問題が発生する可能性を回避するため、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンにこの日より前に移行してください。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## Target Standard／Premium 21.1.1（2021 年 1 月 20 日）
+## Target Standard/Premium 21.2.1（2021年3月10日）
 
 このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-* [!UICONTROL Analyticsを[!UICONTROL 自動ターゲット]アクティビティーでレポートソース](A4T)として使用する場合の[!DNL Adobe Analytics]指標の選択時に警告を追加しました。 [!UICONTROL 自動ター] ゲットモデルは、バイナリ（コンバージョンベース）の指標を扱うように最適化されています。売上高などの連続した指標を選択すると、最適でない結果が生じる可能性があり、[!UICONTROL パーソナライゼーションインサイト]レポートが正確でない場合があります。 （TGT-38926）
-* A4Tを使用する[!UICONTROL 自動ターゲット]アクティビティの[!UICONTROL 自動ターゲットの概要]レポートにステータスアイコンを追加しました。 レポートの各エクスペリエンスの横にある緑のチェックアイコンは、対象のエクスペリエンス用にパーソナライズされた機械学習モデルが作成されたことを意味します。時計アイコンは、トラフィックの量が不十分でモデルがまだ作成されていないことを意味します。（TGT-38925）
-* [!UICONTROL 自動セグメント]および[!UICONTROL 重要な属性]レポートは、[!UICONTROL A4Tおよび[!DNL Analytics]コンバージョン指標を使用する自動ターゲット]アクティビティ用に生成され、レポートソースとして[!DNL Target]を使用した場合と同じように見えます。 （TGT-38931）
-* [!UICONTROL Recommendations] [!UICONTROL コレクション]リストに環境フィルターオプションを追加しました。 （TGT-38353）
-* [!UICONTROL Recommendations]コレクションに正しくない製品数が表示される問題を修正しました。 （TGT-39162）
-* [!UICONTROL 最終更新日]フィルターを[!UICONTROL Recommendations] [!UICONTROL カタログ検索]に追加しました。 （TGT-38340）
-* [!UICONTROL Recommendations]で、業種を変更すると[!UICONTROL シーケンスを作成]ページがハングする問題を修正しました。 （TGT-38160）
-* Device Co-opが有効で、アクティビティが[!DNL Target]から[!DNL Analytics](A4T)にレポートソースとして変更された場合に、デバイスを保存できない問題を修正しました。 （TGT-38163）
-* [!UICONTROL Automated Personalization](AP)アクティビティーのオファーーからオーディエンスを削除できない問題を修正しました。 （TGT-39058）
-* 一部の顧客の[!UICONTROL オーディエンス情報]カードに正しくない時間枠(開始日と終了日)が表示される問題を修正しました。 （TGT-39150）
-* 一部のお客様が、[!UICONTROL デフォルトのワークスペース]でアクティビティのリストを確認できない問題を修正しました。 （TGT-38526）
+* 許可されるオファーサイズが増加しました。(TGT-38304)
 
-## at.js 2.4.0（2021年1月15日）
+   | タイプ | 以前の制限 | 新しい制限 |
+   | --- | --- | --- |
+   | HTML | 256 KB | 1024 KB |
+   | ターゲットUIからのビジュアルオファー | 64 KB | 各エクスペリエンスに1024 KB |
+   | API経由 | 512 KB | 1024 KB |
 
-at.jsのこのリリースはメンテナンスリリースであり、次の修正が含まれています。
-
-* 統合プロファイル/プラットフォームIDのサポートを配信APIのcustomerIdに追加しました。
-* 無効なスタイルタグ挿入を修正します。
+* [!UICONTROL 自動ターゲット] (AT)および [!UICONTROL Automated Personalization]   (AP)アクティビティ用のパーソナライゼーションインサイトレポートが毎日作成されるようになりました。過去15、30および60日間の[!UICONTROL 自動セグメント]または[!UICONTROL 重要な属性]を提供するレポートを選択できます。 45日と90日のオプションが削除され、その他のルックバックウィンドウの設定が毎日実行できるようになりました。 （TGT-39472）
+* アクティビティの[!UICONTROL 目標と設定]ページで「依存関係を編集]」をクリックすると、現在の依存関係が表示されない問題を修正しました。 [!UICONTROL （TGT-39340）
+* ワークスペースの[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。 更新の前に、現在選択されているワークスペースのオーディエンスが表示されます。 更新後、[!UICONTROL デフォルトのワークスペース]とそのオーディエンスが表示されます。 現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。 （TGT-38871）
+* [!UICONTROL Recommendations]アクティビティをコピーし、後で条件のシーケンスを変更して元のアクティビティを編集する際に発生していた問題を修正しました。 元のアクティビティの条件のシーケンスの変更も、コピーされたアクティビティに誤って適用されていました。 （TGT-39155）
+* [!UICONTROL Recommendations]の除外に正しくない数の製品が表示される問題を修正しました。 （TGT-39599）
 
 ## その他のリリースノートとバージョンの詳細
 
@@ -61,7 +56,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | リソース | 詳細 |
 |--- |--- |
-| ドキュメントの変更点 | リリースノートに含まれない可能性のある、このガイドの更新点に関する詳細情報が表示されます。<br>詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)」を参照してください。 |
+| ドキュメントの変更点 | このガイドの更新に関する表示の詳細情報（リリースノートには含まれていません）。<br>詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)」を参照してください。 |
 | 以前のリリースのリリースノート | 以前のリリースの Target Standard および Target Premium の新機能および機能拡張に関する情報を確認してください。<br>詳しくは、「[以前のリリースのドキュメントの変更](/help/r-release-notes/release-notes-for-previous-releases.md)」を参照してください。 |
 | Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは、「 [Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)」を参照してください。 |
 
@@ -71,5 +66,5 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | リソース | 詳細 |
 |--- |--- |
-| Adobe Priority Product Update リスト | Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。<br>[https://adobe.com/subscription/priority-product-update.html](https://adobe.com/subscription/priority-product-update.html) |
+| Adobe優先度製品の更新 | Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。<br>[https://adobe.com/subscription/priority-product-update.html](https://adobe.com/subscription/priority-product-update.html) |
 | 今後のリリースノート | プレリリース情報など今月の Target リリースについては、[Target リリースノート - プレリリース](/help/r-release-notes/target-release-notes.md)ページを参照してください。 |
