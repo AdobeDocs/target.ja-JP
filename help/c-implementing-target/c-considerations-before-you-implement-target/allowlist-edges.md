@@ -1,14 +1,14 @@
 ---
 keywords: 実装；実装；ホワイトリスト；ホワイトリスト；許可リスト;許可リスト；エッジ；エッジ
-description: Adobe Targetエッジの許可リストに役立つホストのリストを表示します（エンドユーザーの応答時間を最適化する地理的に分散された配信ノード）。
+description: Adobe Targetエッジの許可リストに役立つホストのリストを表示します（エンドユーザに最適な応答時間を確保する地理的に分散された配信ノード）。
 title: ターゲットエッジノードを許可リストする方法
-feature: Privacy & Security
-role: Developer
+feature: プライバシーとセキュリティ
+role: 開発者
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d5bcc86458751968b0ebe174f0b57322a26089ed
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 7%
 
 ---
 
@@ -17,27 +17,39 @@ ht-degree: 0%
 
 [!DNL Adobe Target]エッジの許可リストに役立つ、ホストの情報と最新リスト。
 
-エッジは、コンテンツを要求するエンドユーザーが世界中のどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、*Adobe[!DNL Target]の仕組み*&#x200B;の[エッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)を参照してください。
+エッジは、コンテンツを要求するエンドユーザーがどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、*Adobe[!DNL Target]の仕組み*&#x200B;の[エッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)を参照してください。
 
 必要に応じて、[!DNL Target]エッジノードを許可リストできます。
 
-次のリストには、現在のホストが含まれます。
+## ターゲットエッジのNetwork Address Translation（NAT；ネットワークアドレス変換）IPアドレス
 
-* `CLIENTCODE.tt.omtrdc.net`
+[!DNL Target]エッジの出力IPアドレスのリスト。 ターゲットがサービスにアクセスする予定の場合は、これらのIPを許可リストします。
 
-   (CLIENTCODEはターゲットのクライアントID)。
+| エッジの位置 | 出口IPアドレス |
+| --- | --- |
+| Edge31（ムンバイ） | 13.126.131.246<br>13.234.229.8 |
+| Edge32（東京） | 3.115.154.28<br>3.115.227.146 |
+| Edge34（米国東海岸） | 34.232.149.249<br>52.21.139.93 |
+| Edge35（米国西海岸） | 52.10.11.139<br>44.231.171.161 |
+| Edge36（シドニー） | 13.237.227.20<br>13.210.93.142 |
+| Edge37（アイルランド） | 54.72.21.68<br>52.208.139.19 |
+| Edge38（シンガポール） | 18.141.132.96<br>54.179.187.167 |
 
-* `mboxedge17.tt.omtrdc.net`
-* `mboxedge21.tt.omtrdc.net`
-* `mboxedge22.tt.omtrdc.net`
-* `mboxedge26.tt.omtrdc.net`
-* `mboxedge28.tt.omtrdc.net`
-* `mboxedge29.tt.omtrdc.net`
-* `mboxedge30.tt.omtrdc.net`
-* `mboxedge31.tt.omtrdc.net`
-* `mboxedge32.tt.omtrdc.net`
-* `mboxedge34.tt.omtrdc.net`
-* `mboxedge35.tt.omtrdc.net`
-* `mboxedge36.tt.omtrdc.net`
-* `mboxedge37.tt.omtrdc.net`
-* `mboxedge38.tt.omtrdc.net`
+## ターゲットエッジIPアドレス
+
+[!DNL Target]エッジのIPアドレスのリスト。 ターゲットエッジにAPI呼び出しを行う場合は、これらのIPを許可リストします。
+
+| エッジの位置 | ドメイン | IP アドレス |
+| --- | --- | --- |
+| Edge31（ムンバイ） | `mboxedge31.tt.omtrdc.net` | 15.207.157.131<br>15.206.8.201 |
+| Edge32（東京） | `mboxedge32.tt.omtrdc.net` | 54.199.66.101<br>54.64.93.37 |
+| Edge34（米国東海岸） | `mboxedge34.tt.omtrdc.net` | 3.225.56.36<br>3.230.207.249<br>34.198.55.51<br>52.3.14.12<br>52.21.22.93<br>52.55.235.132<br>52.70.52.52<br>54.165.204.89 |
+| Edge35（米国西海岸） | `mboxedge35.tt.omtrdc.net` | 52.10.244.20<br>52.36.232.38<br>52.88.209.29<br>54.214.180.56<br>35.16274.35<br>34.214.12.211<br>52.42.35.202<br>54.148.71.13 |
+| Edge36（シドニー） | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
+| Edge37（アイルランド） | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
+| Edge38（シンガポール） | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
+
+
+
+
+
