@@ -4,7 +4,7 @@ title: ターゲットのドキュメントはどこで入手できますか。
 description: Adobe Targetを使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
 feature: 概要
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021 年 2 月 22 日（ [変更点を参照](r-release-notes/doc-change.md) ）**
+**最終更新日：2021年3月9日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
