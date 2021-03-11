@@ -4,10 +4,10 @@ description: エンティティ属性を使用して、商品やコンテンツ�
 title: エンティティ属性の使用方法
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 >* `entity.id` は、注文確認ページに `productPurchasedId` 送信され、Adobe Analytics製品レポートで `productId` 使用されるものと一致する必要があります。
    >
    >
-* 指定されたエンティティの属性値は、61 日後に期限切れになります。各エンティティの最新値がカタログの項目ごとに少なくとも月に一度 Target Recommendations に渡されるようにする必要があります。
+* 指定されたエンティティの属性値は、61 日後に期限切れになります。この有効期限は、各エンティティ属性の最新値が、カタログ内の各品目について、少なくとも月に1回、ターゲットRecommendationsに渡されるようにする必要があることを意味します。
 
 
 大半の事前定義パラメーターでは、単数値のみを使用できるため、新しい値によって古い値が上書きされます。`categoryId` パラメーターは、その商品を含む各カテゴリ用の値のコンマ区切りリストを受け取ることができます。新しい `categoryId` の値は既存の値を上書きせず、代わりにエンティティ更新の際に追加されます（上限 250 文字）。
@@ -32,7 +32,7 @@ at.js 1を使用している場合、一般に、表示情報mboxは次の例の
 
 >[!NOTE]
 >
->* at.js 2を使用している場合。*x*,  `mboxCreate` （次の例で使用されている）はサポートされなくなりました。at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す。*x*、 [targetPageParamsを使用します](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。この例については、[Recommendations](/help/c-recommendations/plan-implement.md)の計画と実装を参照してください。
+>* at.js 2を使用している場合。*x*,  `mboxCreate` （次の例で使用されている）はサポートされなくなりました。at.js 2を使用して、商品やコンテンツの情報をRecommendationsに渡す。*x*、 [targetPageParamsを使用します](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。例については、[Recommendations](/help/c-recommendations/plan-implement.md)の計画と実装を参照してください。
 
 >
 
@@ -102,7 +102,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 複数値（コンマ区切りリスト）をサポート。
 
-現在のページのカテゴリです。これにより、サブセクションのさらにサブセクションのカーディガン（女性、女性:セーター, 女性:セーター:カーディガン）のように、複数のカテゴリを含めることができます。複数のカテゴリはコンマで区切ります。
+現在のページのカテゴリです。entity.categoryIDには、サブセクションのサブセクションのカーディガン（女性、女性：セーター、女性：セーター：カーディガン）など、複数のカテゴリを含めることができます。 複数のカテゴリはコンマで区切る必要があります。
 
 `categoryId` は 250 文字に制限されます。
 
@@ -118,7 +118,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 カテゴリベースのレコメンデーションの場合、コンマを使用してカテゴリ値を区切ります。コンマで区切られた値はカテゴリになります。また、別の区切り文字（コロン（:）など）を使用してカテゴリ値内のサブカテゴリを区切ることで、サブカテゴリを定義できます。
 
-例えば、次のコードでは、Womens カテゴリがいくつかのサブカテゴリに区切られています。
+例えば、次のコードでは、女性のカテゴリが複数のサブカテゴリに分かれています。
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ mbox 配信の場合、最も長い属性名がキーに使用されます。同
 
 例：`'entity.inventory=1'`
 
-**空の在庫属性処理：**&#x200B;配信については、`entity.inventory` > 0 または `entity.inventory` = 0 に設定されたインクルージョンルール、収集ルール、または条件があり、商品の在庫が設定されていない場合、 [!DNL Target] はこれを TRUE と評価し、在庫が設定されていない商品を含めます。これはデフォルトでおこなわれるので、在庫が設定されていない商品が推奨の結果に表示されます。
+**空の在庫属性処理：配信** の場合、0 `entity.inventory` または `entity.inventory` = 0のインクルージョンルール、収集ルールまたは条件の設定があり、かつ製品に在庫が設定されていない場合、この値はTRUEに [!DNL Target] 評価され、在庫が設定されていない製品が含まれます。その結果、在庫が設定されていない商品はレコメンデーションの結果に表示されます。
 
 同様に、`entity.inventory` = 0 で `entity.inventory` が設定されていないグローバル除外ルールがある場合は、[!DNL Target] はこのルールを TRUE と評価し、その商品を除外します。
 
-**既知の問題：**&#x200B;在庫値の属性が設定されていない場合、製品検索に配信との整合性がありません。例えば、`entity.inventory` = 0 のルールの場合、製品検索は在庫値が設定されていない商品を表示しません。
+**既知の問題：**&#x200B;在庫値の属性が設定されていない場合、製品検索に配信との整合性がありません。例えば、`entity.inventory` = 0のルールの場合、製品検索では在庫値が設定されていない製品は表示されません。
 
 ### entity.value
 
@@ -194,12 +194,12 @@ entity.valueは、10進数形式のみをサポートします（例：15.99）�
 
 複数値（JSON 配列）をサポートします。
 
-品目について追加情報を提供するカスタム変数を最大 100 個まで定義できます。カスタム属性のそれぞれに対し、未使用の属性名を指定できます。例えば、`entity.genre` という名前のカスタム属性を作成して、書籍や映画を定義できます。または、チケット業者は、スポーツイベントでの来訪チームやコンサートの前座など、開催されるイベントの第 2 のパフォーマーに関する属性を作成することができます。
+品目について追加情報を提供するカスタム変数を最大 100 個まで定義できます。カスタム属性のそれぞれに対し、未使用の属性名を指定できます。例えば、`entity.genre`という名前のカスタム属性を作成して、書籍や映画を定義できます。 チケット業者は、スポーツイベントでの来訪チームやコンサートの前座など、第2のパフォーマーのイベント会場の属性を作成できます。
 
 制限事項：
 
 * 事前定義されたエンティティの属性名はカスタムエンティティの属性に使用できません。
-* 属性 entity.environment はシステムによって予約されており、カスタムエンティティの属性には使用できません。targetPageParams、フィードまたは API を使用して、entity.environment を渡そうとする試みは無視されます。
+* 属性 entity.environment はシステムによって予約されており、カスタムエンティティの属性には使用できません。targetPageParams、フィード、またはAPIを使用してentity.環境を渡そうとする試みは無視されます。
 
 例：
 
@@ -223,7 +223,7 @@ mbox の呼び出しによって、アルゴリズムの行動データカウン
 
 例：`'entity.event.detailsOnly=true'`
 
-次の例では、最初の mbox 呼び出しによって、カタログと行動データが更新されます。2 回目の mbox 呼び出しでは、カタログのみが更新されます。
+下の例では、最初のmbox呼び出しによって、カタログと行動データが更新されます。 2回目のmbox呼び出しは、カタログのみを更新します。
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
