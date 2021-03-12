@@ -4,10 +4,10 @@ description: Analyticsをレポートソースとして使用するAdobe Target�
 title: A4Tは自動配分と自動ターゲットのアクティビティをサポートしますか。
 feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -96,3 +96,11 @@ A/Bテストおよびエクスペリエンスのターゲット設定アクテ�
 * [!DNL Analytics]を[!UICONTROL 自動ターゲット]アクティビティのデータソースとして使用すると、セッションは6時間経過後に終了します。 6時間後に発生したコンバージョンはカウントされません。
 
 詳しくは、*Analyticsツールガイド*&#x200B;の[アトリビューションモデルとルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)を参照してください。
+
+## チュートリアル：自動ターゲットアクティビティ用のA4TレポートをAnalysis Workspaceで設定する方法{#tutorial}
+
+[!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]では豊富な分析機能を利用できますが、自動ターゲットアクティビティを正しく解釈するには、デフォルトの[!UICONTROL ターゲット用Analytics]パネルに対するいくつかの変更が必要です。 実験アクティビティ（手動のA/Bと[!UICONTROL 自動配分]）とパーソナライゼーションアクティビティ([!UICONTROL 自動ターゲット])の違いにより、これらの変更が必要になります。
+
+このチュートリアルでは、[!UICONTROL Workspace]の[!UICONTROL 自動ターゲット]アクティビティを分析する際に推奨される変更について説明します。
+
+詳しくは、[Adobe TargetTutorials *の*&#x200B;自動ターゲットアクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html)に対するA4TレポートのAnalysis Workspaceでの設定方法を参照してください。
