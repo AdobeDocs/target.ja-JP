@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '3740'
+source-wordcount: '3767'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月12日 | [自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 次の新しいチュートリアルを追加しました。<ul><li>自動ターゲットアクティビティ用にAnalysis WorkspaceでA4Tレポートを設定する方法</li></ul> |
 | 3月9日 | [制限](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>オファーの許容サイズ制限を更新しました。</li><li>categoryIdパラメーターの文字制限を修正しました。</li></ul> |
 |  | [許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target]エッジIPアドレスを更新しました。 |
 |  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | entity.valueが10進数形式である必要があることを示すテキストを追加しました（例：15,99ではなく15.99）。 |
