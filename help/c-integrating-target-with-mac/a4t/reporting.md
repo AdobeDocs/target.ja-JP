@@ -1,13 +1,13 @@
 ---
-keywords: analytics for target;A4T;レポートソースとしての analytics
+keywords: ターゲット用の分析；a4t;レポートソースとしての分析；analytics
 description: Analyticsをターゲットに使用する方法(A4T)について説明します。 A4Tは、Analytics指標とオーディエンスセグメントを使用するターゲットアクティビティのAnalyticsレポートへのアクセスを提供します。
 title: A4Tでレポートを使用する方法
 feature: Analytics for Target（A4T）
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 28%
 
 ---
 
