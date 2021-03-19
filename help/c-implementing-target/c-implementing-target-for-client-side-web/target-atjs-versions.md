@@ -3,12 +3,12 @@ keywords: at.jsリリース；at.jsバージョン；リリースノート
 description: Adobe Targetのat.js JavaScriptライブラリの各バージョンでの変更の詳細について表示します。
 title: at.jsの各バージョンに含まれる内容
 feature: at.js
-role: Developer
+role: 開発者
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
-ht-degree: 83%
+source-wordcount: '4104'
+ht-degree: 82%
 
 ---
 
@@ -77,6 +77,7 @@ at.jsのこのリリースには、次の機能強化および修正が含まれ
 * Adobe Analyticsコードがページエレメントに存在しない場合に、クリック追跡でターゲット用のAnalytics(A4T)のコンバージョンがレポートされない問題が修正されました。
 * WebページでExperience CloudIDサービス(ECID)v4.4とat.js 2.2の両方を使用する場合のパフォーマンスが向上しました。
 * 以前は、ECIDは、at.jsがエクスペリエンスを取得する前に、2回のブロック呼び出しを行っていました。 これは1回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
+* デフォルトオファーのイベントトークンが送信された通知に含まれない、不正な事前取得された表示処理を修正。
 
    >[!NOTE]
    >
