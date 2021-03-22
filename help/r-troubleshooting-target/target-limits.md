@@ -5,10 +5,10 @@ title: Adobe Targetの様々な文字、大きさ、その他の制限は何で�
 feature: トラブルシューティング
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 63%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ ht-degree: 63%
 ### エンティティ数
 
 * デザインで参照できるエンティティの最大数は、ハードコーディングでもループ経由でも 99 です。
+* 最高のパフォーマンスを得るために推奨される制限は、カタログを環境あたり1,000,000個未満にし、すべての環境で10,000,000個未満にすることです。
+* 最大の制限は、環境あたり10,000,000個、すべての環境で100,000,000個です。 1環境あたり1,000,000 ～ 10,000,000個の項目がある場合、[!UICONTROL カタログ検索] UIのパフォーマンスに影響が及びます。 [!DNL Target Recommendations]ただし、引き続きレコメンデーションの作成と配信を行っています。
 
 ### エンティティカスタム属性
 
