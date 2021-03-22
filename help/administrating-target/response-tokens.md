@@ -2,13 +2,13 @@
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
 description: 応答トークンをAdobe Targetで使用する方法について説明します。この方法は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力する方法を示します。
 title: 応答トークンとは何ですか。また、応答トークンの使用方法について教えてください。
-feature: Administration & Configuration
-role: Administrator
+feature: 管理と設定
+role: 管理者
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 77%
+source-wordcount: '1575'
+ht-degree: 76%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->応答トークンは、at.js 1.1以降で使用できます。 mbox.js には対応していません。
+>応答トークンは、at.js 1.1以降で使用できます。
 
 | 使用する Target ライブラリ | 推奨の操作 |
 |--- |--- |
 | at.js | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js にはある内部メソッドを使用するプラグインでは、配信されてもエラーが発生する場合があります。詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)を参照してください。 |
-| mbox.js | mbox.js を使用している場合、プラグインは引き続きサポートされ、配信されます。<br>ただし、mbox.js とプラグインを使用している場合は、at.js とレスポンストークンに移行することをお勧めします。mbox.js を介して at.js を使用することの利点については、[at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)を参照してください。移行について詳しくは、[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)を参照してください。<br>2017 年 11 月の Target Classic の廃止以降は、場合によっては、既存のプラグインを編集または無効にするために、ClientCare までお問い合わせいただく必要があります。Target Classic の廃止より前にプラグインを確認し、必要のないプラグインを無効にしておく必要がありました。<br>Target Standard/Premium では、新しいプラグインは作成できません。その代わりにレスポンストークンを使用します。<br>古い SiteCatalyst プラグインは無効にして、[Adobe Target のレポートソースとして Adobe Analytics に置き換える](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）必要があります。ttMeta プラグインは、無効にして [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)に置き換えてください。 |
+| mbox.js | mbox.jsの使用時に、プラグインは引き続きサポートされ、提供されます。<br>ただし、mbox.js とプラグインを使用している場合は、at.js とレスポンストークンに移行することをお勧めします。mbox.js を介して at.js を使用することの利点については、[at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)を参照してください。移行について詳しくは、[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)を参照してください。<br>2017 年 11 月の Target Classic の廃止以降は、場合によっては、既存のプラグインを編集または無効にするために、ClientCare までお問い合わせいただく必要があります。Target Classic の廃止より前にプラグインを確認し、必要のないプラグインを無効にしておく必要がありました。<br>Target Standard/Premium では、新しいプラグインは作成できません。その代わりにレスポンストークンを使用します。<br>古い SiteCatalyst プラグインは無効にして、[Adobe Target のレポートソースとして Adobe Analytics に置き換える](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）必要があります。ttMeta プラグインは、無効にして [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)に置き換えてください。 |
 
 ## レスポンストークンの使用方法 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
