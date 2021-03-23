@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3866'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月23日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 | 3月22日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IPアドレスのリストを更新しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エンティティ」の「エンティティ数」節を更新しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2 に関する情報を追加しました。*「別の場所から来たユーザーのようにアクティビティをテストするには、* どうしたらよいですか」という質問に対して、 |
