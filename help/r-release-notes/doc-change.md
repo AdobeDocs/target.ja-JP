@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 28%
 | --- | --- | --- |
 | 3月23日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを更新しました。<ul><li>カタログ内のアイテムの更新がサイトに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
 | 3月22日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IPアドレスのリストを更新しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エンティティ」の「エンティティ数」節を更新しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2 に関する情報を追加しました。*「別の場所から来たユーザーのようにアクティビティをテストするには、* どうしたらよいですか」という質問に対して、 |
@@ -116,7 +117,7 @@ ht-degree: 28%
 | 9月29日 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | at.js 1.xおよびat.js 2.xで追加のIDを検査する方法に関する情報を追加しました。 |
 | 9月24日 | [アクティビティ QA ブックマークレット](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2のアクティビティQAブックマークレットのコードを更新しました。*x*. |
 |  | [カタログ検索](/help/c-recommendations/c-products/catalog-search.md#faq) | 数値を持つカスタム属性の検索に関する注意を追加しました。 |
-|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。&quot;数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか？&quot; |
+|  | [RecommendationsFAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。&quot;数値を持つカスタム属性で検索すると、カタログ検索で正しい結果が表示されないのはなぜですか？&quot; |
 |  | [Target の仕組み](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 「The edge network」に一覧表示されているターゲットクラスターとターゲットCentral Clusterの場所を更新しました。 |
 | 9月23日 | [Analytics トラッキングサーバーの使用](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | [!DNL Adobe Experience Platform Debugger]とブラウザー開発者ツールの情報を使用してトピック全体を更新しました。 |
 |  | [プロファイルと変数の用語集](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 「user.header(&#39;x-forwarded-for&#39;)」行を更新し、「user.header(&#39;x-cluster-client-ip&#39;)」が非推奨になったことを示しました。 |
