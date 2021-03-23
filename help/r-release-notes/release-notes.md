@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 36%
+source-wordcount: '673'
+ht-degree: 35%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 36%
 >サイトに問題が発生する可能性を回避するため、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンにこの日より前に移行してください。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## at.js 2.4.1（2021年3月24日）
+
+at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
+
+* targetPageParamsがmboxリクエストに含まれる問題を修正しました。 targetPageParamsは、pageLoad要求にのみ含める必要があります。 （TNT-40247）
+* [!DNL Adobe Experience Platform Launch]拡張子で参照する、最適化されたウィンドウおよびドキュメントグローバル。 （TNT-37124）
+* ビルドとテストの依存関係をアップグレードし、セキュリティの脆弱性を修正しました。
 
 ## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
 
@@ -46,7 +54,7 @@ ht-degree: 36%
 * アクティビティの[!UICONTROL 目標と設定]ページで「依存関係を編集]」をクリックすると、現在の依存関係が表示されない問題を修正しました。 [!UICONTROL （TGT-39340）
 * ワークスペースの[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。 更新の前に、現在選択されているワークスペースのオーディエンスが表示されます。 更新後、[!UICONTROL デフォルトのワークスペース]とそのオーディエンスが表示されます。 現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。 （TGT-38871）
 * [!UICONTROL Recommendations]アクティビティをコピーし、後で条件のシーケンスを変更して元のアクティビティを編集する際に発生していた問題を修正しました。 元のアクティビティの条件のシーケンスの変更も、コピーされたアクティビティに誤って適用されていました。 （TGT-39155）
-* [!UICONTROL Recommendations]の除外に正しくない数の製品が表示される問題を修正しました。 （TGT-39599）
+* [!UICONTROL Recommendations]の除外に正しくない製品数が表示される問題を修正しました。 （TGT-39599）
 
 ## その他のリリースノートとバージョンの詳細
 
