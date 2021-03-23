@@ -5,9 +5,9 @@ title: at.jsの各バージョンに含まれる内容
 feature: at.js
 role: 開発者
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4104'
+source-wordcount: '4159'
 ht-degree: 82%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 82%
 >ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
 >[at.jsをアップグレードする場合は、Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ランチが推奨される方法です。拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは新しいバージョンの拡張機能にパッケージ化され、アップグレード時に[!DNL Launch]カタログで利用できるようになります。 詳しくは、『*Experience Platform Launchユーザーガイド*』の[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)を参照してください。
+
+## at.js 2.4.1（2021年3月24日）
+
+at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
+
+* targetPageParamsがmboxリクエストに含まれる問題を修正しました。 targetPageParamsは、pageLoad要求にのみ含める必要があります。 （TNT-40247）
+* [!DNL Adobe Experience Platform Launch]拡張子で参照する、最適化されたウィンドウおよびドキュメントグローバル。 （TNT-37124）
+* ビルドとテストの依存関係をアップグレードし、セキュリティの脆弱性を修正しました。
 
 ## at.js 2.4.0（2021年1月15日）
 
