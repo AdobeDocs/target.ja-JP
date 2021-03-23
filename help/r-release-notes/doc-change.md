@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月22日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IPアドレスのリストを更新しました。 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エンティティ」の「エンティティ数」節を更新しました。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2 に関する情報を追加しました。*「別の場所から来たユーザーのようにアクティビティをテストするには、* どうしたらよいですか」という質問に対して、 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：21.2.1 | 次の節を追加しました。 <ul><li>Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）</li></ul> |
 | 3月20日 | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 以下の FAQ を追加しました。<ul><li>アクティビティが非アクティブ化された後も、より多くのインプレッション数が表示され続けるのはなぜですか。</li></ul> |
 | 3月12日 | [自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 次の新しいチュートリアルを追加しました。<ul><li>自動ターゲットアクティビティ用にAnalysis WorkspaceでA4Tレポートを設定する方法</li></ul> |
 | 3月9日 | [制限](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>オファーの許容サイズ制限を更新しました。</li><li>categoryIdパラメーターの文字制限を修正しました。</li></ul> |
