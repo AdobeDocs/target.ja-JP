@@ -4,10 +4,10 @@ description: ターゲットRecommendationsのフィード処理サーバーで�
 title: Recommendationsのフィード処理サーバーが使用するIPアドレス
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 13%
 
 [!DNL Target]  Recommendationsアクティビティでは、お客様のFTPサーバーにアクセスする際に、次のIPアドレスを使用します。
 
-| CIDR 表記 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target]  RecommendationsAPIは次のIPアドレスを使用します。
 
-| CIDR 表記 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
