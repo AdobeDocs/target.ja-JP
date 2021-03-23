@@ -5,9 +5,9 @@ title: at.jsの各バージョンに含まれる内容
 feature: at.js
 role: 開発者
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '4159'
+source-wordcount: '4150'
 ht-degree: 82%
 
 ---
@@ -29,7 +29,6 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 * targetPageParamsがmboxリクエストに含まれる問題を修正しました。 targetPageParamsは、pageLoad要求にのみ含める必要があります。 （TNT-40247）
 * [!DNL Adobe Experience Platform Launch]拡張子で参照する、最適化されたウィンドウおよびドキュメントグローバル。 （TNT-37124）
-* ビルドとテストの依存関係をアップグレードし、セキュリティの脆弱性を修正しました。
 
 ## at.js 2.4.0（2021年1月15日）
 
