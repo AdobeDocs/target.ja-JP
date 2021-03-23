@@ -4,10 +4,10 @@ description: ターゲットRecommendationsのフィード処理サーバーで�
 title: Recommendationsのフィード処理サーバーが使用するIPアドレス
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: b43db79ef75851921636e33e47bac5a906aed6b6
+source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '142'
+ht-degree: 13%
 
 ---
 
@@ -16,18 +16,23 @@ ht-degree: 11%
 
 [!DNL Adobe Target] [!DNL Recommendations]フィード処理サーバーで使用されるIPアドレスのリスト。AdobeサーバーからのIPアドレスを許可するようにファイアウォールを設定する場合に役立ちます。
 
-[!DNL Target]  Recommendationsアクティビティでは、お客様のFTPサーバーにアクセスする際に次のIPアドレスを使用します（最新の情報については、下のリンクを必ず確認してください）。
+[!DNL Target]  Recommendationsアクティビティでは、お客様のFTPサーバーにアクセスする際に、次のIPアドレスを使用します。
 
-44.241.237.28
+| CIDR 表記 |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-44.232.167.82
+[!DNL Target]  RecommendationsAPIは次のIPアドレスを使用します。
 
-52.41.252.205
+| CIDR 表記 |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-[!DNL Target]  RecommendationsAPIは次のIPアドレスを使用します（最新の情報については、下のリンクを必ず確認してください）。
+>[!NOTE]
+>
+>これらのIPアドレスは、2021年3月16日に最終更新されました。 以前は、FTPサーバーにアクセスするサーバーは、192.243.242.0/24 IPアドレスCIDRブロックにありました。 RecommendationsAPIをホストするサーバーは、192.243.224.0/20のIPアドレスCIDRブロックに含まれていました。
 
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
