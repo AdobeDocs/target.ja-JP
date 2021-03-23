@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 37%
+source-wordcount: '618'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 37%
 >サイトに問題が発生する可能性を回避するため、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンにこの日より前に移行してください。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
+
+[!DNL Target Recommendations]フィード処理サーバーのIPアドレスは、2021年3月16日に更新されました。 詳しくは、[Recommendationsフィード処理サーバーで使用されるIPアドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)を参照してください。
 
 ## Target Standard/Premium 21.2.1（2021年3月10日）
 
