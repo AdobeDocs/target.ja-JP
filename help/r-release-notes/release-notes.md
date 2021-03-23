@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '661'
 ht-degree: 36%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 36%
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* targetPageParamsがmboxリクエストに含まれる問題を修正しました。 targetPageParamsは、pageLoad要求にのみ含める必要があります。 （TNT-40247）
+* mboxリクエストに`targetPageParams`が含まれる問題を修正しました。 `targetPageParams` は、リク `pageLoad` エストにのみ含まれる必要があります。（TNT-40247）
 * [!DNL Adobe Experience Platform Launch]拡張子で参照する、最適化されたウィンドウおよびドキュメントグローバル。 （TNT-37124）
 
 ## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
