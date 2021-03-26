@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 36%
+source-wordcount: '678'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 36%
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
 * mboxリクエストに`targetPageParams`が含まれる問題を修正しました。 `targetPageParams` は、リク `pageLoad` エストにのみ含まれる必要があります。（TNT-40247）
-* [!DNL Adobe Experience Platform Launch]拡張子で参照する、最適化されたウィンドウおよびドキュメントグローバル。 （TNT-37124）
+* A[!DNL dobe Experience Platform Launch]拡張でのドキュメントおよびウィンドウのグローバルオブジェクトに関する問題を修正しました。Platform launchのグローバルオブジェクト依存関係を直接参照する形で置き換える必要がありました。 （TNT-37124）
 
 ## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
 
@@ -53,7 +53,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 * アクティビティの[!UICONTROL 目標と設定]ページで「依存関係を編集]」をクリックすると、現在の依存関係が表示されない問題を修正しました。 [!UICONTROL （TGT-39340）
 * ワークスペースの[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。 更新の前に、現在選択されているワークスペースのオーディエンスが表示されます。 更新後、[!UICONTROL デフォルトのワークスペース]とそのオーディエンスが表示されます。 現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。 （TGT-38871）
 * [!UICONTROL Recommendations]アクティビティをコピーし、後で条件のシーケンスを変更して元のアクティビティを編集する際に発生していた問題を修正しました。 元のアクティビティの条件のシーケンスの変更も、コピーされたアクティビティに誤って適用されていました。 （TGT-39155）
-* [!UICONTROL Recommendations]の除外に正しくない製品数が表示される問題を修正しました。 （TGT-39599）
+* [!UICONTROL Recommendations]の除外に正しくない数の製品が表示される問題を修正しました。 （TGT-39599）
 
 ## その他のリリースノートとバージョンの詳細
 
