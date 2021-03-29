@@ -4,9 +4,9 @@ description: Adobe Target製品ドキュメントへの重要な追加と変更�
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
 feature: リリースノート
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3911'
 ht-degree: 28%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月29日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新しいFAQを追加しました。<ul><li>最近表示した品目に基づくレコメンデーションは、1つの訪問者に対して複数のデバイス間で保持されますか。</li></ul> |
 | 3月23日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
-|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを更新しました。<ul><li>カタログ内のアイテムの更新がサイトに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
+|  | [RecommendationsFAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを更新しました。<ul><li>カタログ内のアイテムの更新がサイトに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
 | 3月22日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IPアドレスのリストを更新しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エンティティ」の「エンティティ数」節を更新しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2 に関する情報を追加しました。*「別の場所から来たユーザーのようにアクティビティをテストするには、* どうしたらよいですか」という質問に対して、 |
