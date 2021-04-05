@@ -3,14 +3,14 @@ keywords: お知らせ；スキルビルダ；開発者チャット；コーヒ�
 description: お知らせを読み、Skill Builderセッション、開発者と製品管理者のチャット、ウェビナーなど、Adobe Targetイベントに登録します。
 title: ターゲットに関するお知らせやイベントはどこで入手できますか？
 feature: リリースノート
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # ターゲットのお知らせとイベント
 
@@ -51,6 +51,6 @@ Adobe Target氏は最近、フォレスター氏とガートナー氏の両方�
 
 ## Adobe Targetスキルビルダー：開発チャット，Adobe Targetのmbox.jsをat.jsに移行する{#skill-builder}
 
-2021年3月31日にmbox.jsの廃止が予定されているので、Adobe Target製品マネージャーのDavid Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
+2021年3月31日にmbox.jsが廃止されると、Adobe TargetのProduct Manager、David Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
 
 * **[ウェビナーの録画表示はこちら](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
