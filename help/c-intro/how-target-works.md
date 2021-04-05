@@ -3,14 +3,14 @@ keywords: Adobe Experience PlatformWeb SDK;aep web sdk;aep sdk；検索エンジ
 description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストなど、Adobe Targetの仕組みを説明します。
 title: ターゲットの仕組み
 feature: 概要
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 31%
 
 ---
-
 
 # Adobe Target の仕組み
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 次のリソースには、AEP Web SDKまたはat.jsの実装に役立つ詳細情報が含まれています。
 
 * [Adobe Experience PlatformWeb SDK拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Adobe Launch を使用した Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Launchを使用したターゲットの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 訪問者が[!DNL Target]用に最適化されたページをリクエストするたびに、リクエストがターゲット設定システムに送信されます。 このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。 このプロセスはリアルタイムで発生します。 ページが読み込まれるたびに、コンテンツに対するリクエストが作成され、システムで処理されます。 コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応し、やり取りをする可能性が高い、または最終的に購入する可能性の高いコンテンツが提供されます。 コンテンツをパーソナライズすることで、回答率、獲得率および売上高を最大化できます。
 
@@ -48,9 +48,9 @@ ht-degree: 31%
 エクスペリエンスごとに割合のターゲットを指定できます。この場合、乱数が生成され、その乱数を使用して、表示するエクスペリエンスが選択されます。結果の割合が指定したターゲットと完全に一致しないこともありますが、トラフィックが多いほど、エクスペリエンスがターゲットに近い割合で分割されます。
 
 1. 訪問者が、サーバー上のページをリクエストしてブラウザーに表示します。
-2. 顧客の行動を保存するために、顧客のブラウザーにファーストパーティCookieが設定されます。
-3. ページから、ターゲット設定システムが呼び出されます。
-4. アクティビティのルールに基づいてコンテンツが表示されます。
+1. 顧客の行動を保存するために、顧客のブラウザーにファーストパーティCookieが設定されます。
+1. ページから、ターゲット設定システムが呼び出されます。
+1. アクティビティのルールに基づいてコンテンツが表示されます。
 
 詳細については、「[A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
@@ -112,7 +112,7 @@ Central Clusterの場所には、データ収集センターとデータ処理�
 
 1か所からすべてのターゲティング要求に応答する代わりに、訪問者に最も近いエッジクラスターで要求が処理されます。 このプロセスにより、ネットワークやインターネットでの移動時間の影響を緩和できます。
 
-![ターゲットサーバーマップの種類](/help/c-intro/assets/target-servers.png)
+![様々なタイプのターゲットサーバーを示すマップ](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Central Clustersは、以下を含む、Amazonウェブサービス(AWS)でホストされます。
 
