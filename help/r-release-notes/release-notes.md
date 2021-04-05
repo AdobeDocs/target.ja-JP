@@ -5,9 +5,9 @@ title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 35%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 35%
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
 * mboxリクエストに`targetPageParams`が含まれる問題を修正しました。 `targetPageParams` は、リク `pageLoad` エストにのみ含まれる必要があります。（TNT-40247）
-* A[!DNL dobe Experience Platform Launch]拡張でのドキュメントおよびウィンドウのグローバルオブジェクトに関する問題を修正しました。Platform launchのグローバルオブジェクト依存関係を直接参照する形で置き換える必要がありました。 （TNT-37124）
+* [!DNL Adobe Experience Platform Launch]拡張内のドキュメントおよびウィンドウのグローバルオブジェクトに関する問題を修正しました。Platform launchのグローバルオブジェクト依存関係を直接参照で置き換えました。 （TNT-37124）
 
 ## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
 
