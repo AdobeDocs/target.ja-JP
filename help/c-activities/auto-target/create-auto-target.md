@@ -3,14 +3,14 @@ keywords: 自動ターゲットの作成；A/Bテスト；自動ターゲット�
 description: Adobe TargetでVisual Experience Composer(VEC)を使用して、自動ターゲットA/Bテストアクティビティをターゲット対応のページに直接作成する方法を説明します。
 title: 自動ターゲットアクティビティの作成方法
 feature: 自動ターゲット
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 56%
+source-wordcount: '930'
+ht-degree: 49%
 
 ---
-
 
 # ![PREMIUM自動ターゲットアクティビティの](/help/assets/premium.png) 作成
 
@@ -20,7 +20,7 @@ ht-degree: 56%
 >
 >[!UICONTROL 自動ターゲット] は、この [!DNL Target Premium] ソリューションの一部として使用できます。この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/c-intro/intro.md) を参照してください。
 >
->[!UICONTROL 自動ターゲット] [!UICONTROL A/Bテスト]アクティビティ（この記事で説明）に加えて、[!DNL Target]には、[!UICONTROL A/Bテスト]アクティビティの2種類の追加タイプが用意されています。[!UICONTROL 手動（デフォルト）]と[!UICONTROL 自動配分]
+>[!UICONTROL 自動ターゲット] [!UICONTROL A/Bテスト]アクティビティ（この記事で説明）に加えて、[!DNL Target]には、他に2種類の[!UICONTROL A/Bテスト]アクティビティがあります。[!UICONTROL 手動（デフォルト）]と[!UICONTROL 自動配分]
 >
 >*A/Bテストの概要*&#x200B;の「[A/Bテストのアクティビティのタイプ](/help/c-activities/t-test-ab/test-ab.md#types)」を参照してください。
 
@@ -73,9 +73,9 @@ ht-degree: 56%
    | `-` | マイナス |
    | `@` | アットマーク |
 
-1. 新しいエクスペリエンスを作成します（ページ上の要素の変更）。
+1. ページの要素を変更して、エクスペリエンスを作成します。
 
-   新しいアクティビティを作成すると、[!UICONTROL Visual Experience Composer] の左側に「エクスペリエンス A」と「エクスペリエンス B」の 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。ここで注目するのは、必要に応じて変更が可能な「エクスペリエンス B」タブの方です。エクスペリエンス B は代替エクスペリエンスで、テストに追加することができます。テストには複数のエクスペリエンスを追加できます。デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
+   [!UICONTROL Visual Experience Composer]では、アクティビティの作成後、左側に2つのタブが表示されます。エクスペリエンスAとエクスペリエンスB。エクスペリエンスAがコントロールのエクスペリエンスです。 必要に応じて変更できる「エクスペリエンスB」タブに焦点を合わせます。 エクスペリエンス B は代替エクスペリエンスで、テストに追加することができます。テストには複数のエクスペリエンスを追加できます。デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
    [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加と変更について詳しくは、[エクスペリエンスの追加](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md).エクスペリエンス B を変更するには、ステップ 3 から始めます。
 
@@ -107,7 +107,7 @@ ht-degree: 56%
 
    * **[!UICONTROL 手動（デフォルト）]**：各エクスペリエンスを表示する参加者の割合を指定します。この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。詳しくは、[A/Bテストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)を参照してください。
 
-   * **[!UICONTROL 最良のエクスペリエンスに自動配分]**：ほとんどのアクティビティ参加者がパフォーマンスの高いエクスペリエンスに自動的にリダイレクトされます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)を参照してください。
+   * **[!UICONTROL 最適なエクスペリエンスへの自動配分]**:ほとんどのアクティビティ参加者は、パフォーマンスの高いエクスペリエンスに自動的に誘導されます。一部の訪問者は、エクスペリエンスの調査を継続し、パフォーマンスの傾向の変化を認識するために、すべてのエクスペリエンスに配分されます。詳しくは、[自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)を参照してください。
 
    * **[!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]**: [!DNL Target] 高度な機械学習機能を使用して、パフォーマンスの高いマーケティング担当者が定義した複数のエクスペリエンスを特定し、コンバージョンを促進し、個々の顧客プロファイルや類似訪問者の過去の行動に基づいて、最もカスタマイズされたエクスペリエンスを訪問者に提供します。
    **[!UICONTROL 追加]**&#x200B;をクリックして、別のエクスペリエンスをアクティビティに追加することもできます。
