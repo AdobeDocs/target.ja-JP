@@ -1,13 +1,13 @@
 ---
 keywords: 実装；実装；設定；設定；データプロバイダ
-description: ページ内プロファイル属性を使用して、ターゲットにデータを取り込みます。
+description: データプロバイダーを使用して、ターゲットにデータを取得します。
 title: データプロバイダーを使用してターゲットにデータを取り込む方法を教えてください。
 feature: 実装
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 66%
 
 ---
