@@ -5,10 +5,10 @@ title: ページパラメーターを使用してターゲットにデータを�
 feature: 実装
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 49%
 
 ページパラメーターは、サーバー呼び出しを介して、文字列の名前と値のペアとして Target に渡されます。パラメーターの名前と値はカスタマイズできます（ただし、特定用途向けに「予約されている名前」もあります）。
 
-### 例：
+### 例
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## 使用例
+## 使用例の例
 
 * **製品ページ**:閲覧された特定の商品に関する情報を送信する(この方法はRecommendationsの仕組み)
 * **注文の詳細**:注文収集用に注文ID、orderTotalなどを送信
 * **カテゴリ親和性**：特定のサイトカテゴリに対するユーザーの親和性に関するデータを構築するために、カテゴリの閲覧情報を Target に送信します。
 * **サードパーティデータ**：天気ターゲティングプロバイダー、アカウントデータ（例：DemandBase）、デモグラフィックデータ（例：Experian）など、サードパーティのデータソースからの情報を送信します。
 
-## この方法のメリット
+## 方法の利点
 
 データはリアルタイムでターゲットに送信され、データが送信されたデータを同じサーバーで呼び出して使用できます。
 
@@ -71,7 +71,7 @@ mboxCreate コードのパラメーター：
 
 `<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
-## 関連情報のリンク
+## 関連情報へのリンク
 
 Recommendations：[ページタイプに従った実装](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
