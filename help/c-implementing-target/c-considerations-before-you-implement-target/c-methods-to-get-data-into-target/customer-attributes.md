@@ -4,8 +4,9 @@ description: 顧客属性を使用して、ターゲットにデータを取り�
 title: 顧客属性を使用してターゲットにデータを取り込む方法を教えてください。
 feature: 実装
 role: Developer
+exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 51%
