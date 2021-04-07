@@ -1,0 +1,56 @@
+---
+keywords: 実装；実装；設定；設定；データプロバイダ
+description: ページ内プロファイル属性を使用して、ターゲットにデータを取り込みます。
+title: データプロバイダーを使用してターゲットにデータを取り込む方法を教えてください。
+feature: 実装
+role: Developer
+translation-type: tm+mt
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 66%
+
+---
+
+# データプロバイダー
+
+データプロバイダーは、サードパーティから[!DNL Adobe Target]にデータを簡単に渡すことができる機能です。
+
+注意：データプロバイダーはat.js 1.3以降が必要です。
+
+## 形式
+
+`window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
+
+各データプロバイダーの構造について詳しくは、[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)を参照してください。
+
+## 使用例の例
+
+サードパーティから、気象予報サービス、DMP、自社の Web サービスなどのデータを収集します。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。
+
+## 方法の利点
+
+この設定では、Demandbase、BlueKai、カスタムサービスなどのサードパーティのデータプロバイダーからデータを収集し、そのデータをグローバル mbox リクエストで mbox パラメーターとして渡すことができます。
+
+非同期および同期リクエストを介した複数のプロバイダーからのデータ収集もサポートしています。
+
+この手法では、デフォルトのページコンテンツのちらつきを制御しながら、プロバイダーごとに個別のタイムアウトを指定し、ページのパフォーマンスへの影響を抑制することが簡単にできます。
+
+## 注意事項
+
+`window.targetGlobalSettings.dataProviders`に追加されたデータプロバイダが非同期の場合、それらは並行して実行されます。 訪問者APIリクエストは、`window.targetGlobalSettings.dataProviders`に追加された関数と並行して実行され、最小の待ち時間が許可されます。
+
+at.jsはデータをキャッシュしません。 データプロバイダーが 1 回だけデータを取得する場合は、データをキャッシュし、そのプロバイダーの関数が呼び出されたら、2 回目の呼び出しでキャッシュデータを配信できるようにする必要があります。
+
+## コードの例
+
+[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)にはいくつかの例が記載されています。
+
+## 関連情報へのリンク
+
+ドキュメント：[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+
+## トレーニングビデオ：
+
+* [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html)
