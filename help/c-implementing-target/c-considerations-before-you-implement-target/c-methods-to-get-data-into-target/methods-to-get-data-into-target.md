@@ -2,90 +2,32 @@
 keywords: 実装; 実装方法; 設定; セットアップ; ページパラメーター; Tomcat; URL エンコード; ページ内プロファイル属性; mbox パラメーター; ページ内プロファイル属性; スクリプトプロファイル属性; プロファイル一括更新 API; 単一ファイル更新 API; 顧客属性; データプロバイダー
 description: データをターゲットに取り込みます(ページパラメーター、プロファイル属性、スクリプトプロファイル属性、データプロバイダー、単一および一括プロファイル更新API、顧客属性)。
 title: ターゲットにデータを取り込む方法
-feature: Implementation
+feature: 実装
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 93%
+source-wordcount: '1864'
+ht-degree: 90%
 
 ---
 
+# メソッドの概要
 
-# データを Target に送信する方法
+[!DNL Adobe Target]にデータを取り込むために使用できる様々な方法に関する情報です。
 
-ページパラメーター、ページ内プロファイル属性、スクリプトプロファイル属性、データプロバイダー、バルクプロファイル更新API、単一プロファイル更新API、顧客属性など、[!DNL Adobe Target]にデータを取得するために使用できる様々な方法について説明します。
+次の方法を使用できます。
 
-## ページパラメーター（mbox パラメーター）{#section_5A297816173C4FE48DC4FE03860CB42B}
-
-ページパラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。
-
-ページパラメーターは、今後のターゲティングのために、訪問者のプロファイルに保管する必要がない追加のページデータを Target に送信するのに便利です。これらの値は、ページまたはユーザーが特定のページでおこなったアクションの記述に使用されます。
-
-### 形式
-
-ページパラメーターは、サーバー呼び出しを介して、文字列の名前と値のペアとして Target に渡されます。パラメーターの名前と値はカスタマイズできます（ただし、特定用途向けに「予約されている名前」もあります）。
-
-例：
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### 使用例
-
-**製品ページ**：閲覧された特定の製品に関する情報を送信します（Recommendations の仕組みです）
-
-**注文の詳細**：注文データの収集のために注文 ID、orderTotal などを送信します。
-
-**カテゴリ親和性**：特定のサイトカテゴリに対するユーザーの親和性に関するデータを構築するために、カテゴリの閲覧情報を Target に送信します。
-
-**サードパーティデータ**：天気ターゲティングプロバイダー、アカウントデータ（例：DemandBase）、デモグラフィックデータ（例：Experian）など、サードパーティのデータソースからの情報を送信します。
-
-### この方法のメリット
-
-データが Target にリアルタイムで送信され、受信時と同じサーバー呼び出しで使用できます。
-
-### 注意事項
-
-* ページコードの更新が必要です（直接更新するか、タグ管理システムを使用します）。
-* データを後続のページ／サーバー呼び出しでのターゲティングで使用する必要がある場合は、プロファイルスクリプトに変換する必要があります。
-* [Internet Engineering Task Force（IETF）標準](https://www.ietf.org/rfc/rfc3986.txt)では、クエリ文字列に文字のみを含めることができます。
-
-   Target では、IETF サイトに記載されている文字に加え、クエリ文字列で以下の文字も使用できます。
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   これ以外の文字はすべて URL エンコードする必要があります。標準では、次の形式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )を指定します。
-
-   ![](assets/ietf1.png)
-
-   または、簡略化した完全なリスト：
-
-   ![](assets/ietf2.png)
-
-### コードの例
-
-targetPageParamsAll（ページのすべての mbox 呼び出しにパラメーターを追加します）：
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams（ページのグローバル mbox にパラメーターを追加します）：
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate コードのパラメーター：
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### 関連情報のリンク
-
-Recommendations：[ページタイプに従った実装](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-注文の確認：[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-カテゴリ親和性：[カテゴリ親和性](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| メソッド | 詳細 |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>ページパラメーター（mbox パラメーター） | ページパラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。<br>ページパラメーターは、今後のターゲティングのために、訪問者のプロファイルに保管する必要がない追加のページデータを Target に送信するのに便利です。これらの値は、ページまたはユーザーが特定のページでおこなったアクションの記述に使用されます。 |
+| ページ内プロファイル属性（in-mbox プロファイル属性） | ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。<br>ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。 |
+| スクリプトプロファイル属性 | スクリプトプロファイル属性は、Target ソリューションで定義された名前と値のペアです。値は、サーバー呼び出しごとに、Target サーバーで JavaScript スニペットが実行されることで決まります。<br>訪問者がオーディエンスやアクティビティメンバーシップの条件を満たしているかが評価される前に、ユーザーは、mbox 呼び出しごとに実行する簡単なコードスニペットを記述します。 |
+| データプロバイダー | データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。 |
+| プロファイル一括更新 API | API を介して、多数の訪問者のプロファイル更新を含む .csv ファイルを Target に送信します。各訪問者プロファイルでは、1 回の呼び出しで複数のページ内プロファイル属性を更新できます。 |
+| 単一プロファイル更新 API | 一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。 |
+| 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 |
 
 ## ページ内プロファイル属性（in-mbox プロファイル属性）{#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -186,9 +128,9 @@ JavaScript に関する知識が必要です。
 
 [プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
 
-## データプロバイダー {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
+## データプロバイダー{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-データプロバイダーは、サードパーティから Target へデータを簡単に渡すことのできる機能です。
+データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。
 
 注意：データプロバイダーは、at.js 1.3 以降を必要とします。
 
@@ -273,7 +215,7 @@ API を介して、多数の訪問者のプロファイル更新を含む .csv �
 
 ## 単一プロファイル更新 API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-プロファイル一括更新 API とほぼ同様ですが、.csv ファイルではなく、API 呼び出しで一度に 1 つの訪問者プロファイルが更新されます。
+一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。
 
 ### 形式
 
