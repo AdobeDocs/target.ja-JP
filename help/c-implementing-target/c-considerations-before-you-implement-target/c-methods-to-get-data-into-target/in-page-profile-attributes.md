@@ -4,8 +4,9 @@ description: ページ内プロファイル属性を使用して、ターゲッ�
 title: ページ内プロファイル属性を使用してターゲットにデータを取り込む方法を教えてください。
 feature: 実装
 role: Developer
+exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 56%
