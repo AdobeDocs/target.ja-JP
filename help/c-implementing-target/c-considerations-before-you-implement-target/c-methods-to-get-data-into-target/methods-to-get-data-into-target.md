@@ -6,10 +6,10 @@ feature: 実装
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 84%
+source-wordcount: '362'
+ht-degree: 61%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 84%
 
 | メソッド | 詳細 |
 | --- | --- |
-| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>ページパラメーター（mbox パラメーター） | ページパラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。<br>ページパラメーターは、今後のターゲティングのために、訪問者のプロファイルに保管する必要がない追加のページデータを Target に送信するのに便利です。これらの値は、ページまたはユーザーが特定のページでおこなったアクションの記述に使用されます。 |
-| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>ページ内プロファイル属性（in-mbox プロファイル属性） | ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。<br>ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。 |
+| [ページパラメーター](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>（「mboxパラメーター」とも呼ばれる） | ページパラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。<br>ページパラメーターは、将来的なターゲティングでの使用のために訪問者のプロファイルと共に保存する必要のないページデータをターゲットに送信する場合に役立ちます。これらの値は、ページまたはユーザーが特定のページでおこなったアクションの記述に使用されます。 |
+| [ページ内プロファイル属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>(「in-mboxプロファイル属性」とも呼ばれる) | ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。<br>ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。 |
 | [スクリプトプロファイル属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | スクリプトプロファイル属性は、Target ソリューションで定義された名前と値のペアです。値は、サーバー呼び出しごとに、Target サーバーで JavaScript スニペットが実行されることで決まります。<br>訪問者がオーディエンスやアクティビティメンバーシップの条件を満たしているかが評価される前に、ユーザーは、mbox 呼び出しごとに実行する簡単なコードスニペットを記述します。 |
-| [データプロバイダー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。 |
-| プロファイル一括更新 API | API を介して、多数の訪問者のプロファイル更新を含む .csv ファイルを Target に送信します。各訪問者プロファイルでは、1 回の呼び出しで複数のページ内プロファイル属性を更新できます。 |
-| 単一プロファイル更新 API | 一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。 |
-| 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 |
+| [データプロバイダー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | データプロバイダーを使用すると、サードパーティからターゲットにデータを簡単に渡すことができます。 |
+| [プロファイル一括更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md) | API を介して、多数の訪問者のプロファイル更新を含む .csv ファイルを Target に送信します。各訪問者プロファイルでは、1 回の呼び出しで複数のページ内プロファイル属性を更新できます。 |
+| [単一プロファイル更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md) | 一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。 |
+| [顧客属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md) | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロードが完了したら、Adobe AnalyticsとAdobe Targetのデータを使用します。 |
 
 
 
@@ -35,114 +35,8 @@ ht-degree: 84%
 
 
 
-## プロファイル一括更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
-API を介して、多数の訪問者のプロファイル更新を含む .csv ファイルを Target に送信します。各訪問者プロファイルでは、1 回の呼び出しで複数のページ内プロファイル属性を更新できます。
 
-この方法は顧客属性と非常によく似ていますが、次の違いがあります。
 
-* 顧客属性では FTP アップロードを使用しますが、Target のプロファイル一括更新 API では HTTP POST API を使用します。
-* 顧客属性データは Analytics と共有できます。プロファイルの一括更新は Target のみで使用できます。
-* 顧客属性の場合は、Target がまだ認識していないユーザーのプロファイルも作成できます。プロファイル一括更新 API では、既存の Target プロファイルのみが更新されます。
-* 顧客属性の場合は Experience Cloud ID（ECID）を使用する必要があります。プロファイル一括更新 API では、TNT ID または `mbox3rdPartyId` が必要です。
-* 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
-### 形式
 
-.csv ファイルでは、各訪問者を Target PCID または mboxThirdPartyId で参照する必要があります。Experience Cloud ID（ECID）には対応していません。すべてのプロファイル属性／値は、API を介して作成および更新されます。形式の詳細については、API ドキュメントを参照してください。
-
-### 使用例
-
-ページの実装でプロファイルデータを公開することなく、CRM やその他の社内システムに、一貫して更新して Target に送信したい有用な訪問者データを保管します。
-
-### この方法のメリット
-
-プロファイル属性の数に上限がありません。
-
-サイトを介して送信されるプロファイル属性を、API を介して更新できます（その逆も可能です）。
-
-### 注意事項
-
-バッチファイルの容量は 50 MB 未満にする必要があります。また、1 回にアップロードできる行数は 50 万行までです。
-
-以降のバッチで、24 時間以内にアップロードできる回数や行数に上限はありません。ただし、他のプロセスを効率的に実行するために、営業時間中は取り込みプロセスが調整される場合があります。
-
-合間に mbox を呼び出すことなく、連続する [V2 一括更新呼び出し（](https://developers.adobetarget.com/api/#updating-profiles)）を同じ thirdPartyIds に対しておこなうと、最初の一括更新呼び出しで更新されたプロパティは上書きされます。
-
-### コードの例
-
-[プロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。
-
-### 関連情報のリンク
-
-[プロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)
-
-## 単一プロファイル更新 API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
-
-一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。
-
-### 形式
-
-訪問者は、Target の mboxPC または mboxThirdPartyId の値によって識別する必要があります。Experience Cloud ID（ECID）には対応していません。
-
-### 使用例
-
-コールセンターへの問い合わせや、ローンの獲得、店頭でのロイヤルティカードの使用、キオスクへのアクセスなど、訪問者がオフラインで行動をとったときに、Target をリアルタイムで更新します。
-
-### この方法のメリット
-
-プロファイル属性の数に上限がありません。
-
-サイトを介して送信されるプロファイル属性を、API を介して更新できます（その逆も可能です）。
-
-### 注意事項
-
-24 時間ごとの API 呼び出しの上限は 100 万件です。
-
-プロファイルのみが更新されます。Target がまだ認識していない潜在的なユーザーのプロファイルを作成することはできません。
-
-### コードの例
-
-GET および POST に対応しています。 `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
-
-### 関連情報のリンク
-
-[プロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)
-
-## 顧客属性 {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
-
-顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。
-
-Target Standard の場合は 5 個の属性、Target Premium の場合は 200 個の属性を利用できます。
-
-### 形式
-
-Experience Cloud ID（ECID）および属性の名前と値のペアを含む .csv ファイルは、FTP を介してアップロードするか、Experience Cloud の UI を使用して手動でアップロードします。
-
-### 使用例
-
-Target や Analytics など、Adobe Experience Cloud と共有したい有用な情報を、CRM やその他の社内システムに保管します。
-
-### この方法のメリット
-
-顧客データをアップロードすると、Target がまだ認識していない訪問者でも、その訪問者のプロファイルのエントリが Target に作成されます。
-
-Target と Analytics で自動的にデータが同期化されます。
-
-FTP は、API よりもシンプルな実装方法です。
-
-### 注意事項
-
-Target Standard の場合は 5 個の属性、Target Premium の場合は 200 個の属性を利用できます。
-
-ページではなく、顧客属性でのみ値を更新できます。
-
-Experience Cloud ID（ECID）の実装が必要です。
-
-### コードの例
-
-詳しくは、[顧客属性ソースの作成とデータファイルのアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)を参照してください。
-
-### 関連情報のリンク
-
-[顧客属性ソースの作成とデータファイルのアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
