@@ -6,10 +6,10 @@ feature: 実装
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 90%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -22,154 +22,18 @@ ht-degree: 90%
 | メソッド | 詳細 |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>ページパラメーター（mbox パラメーター） | ページパラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。<br>ページパラメーターは、今後のターゲティングのために、訪問者のプロファイルに保管する必要がない追加のページデータを Target に送信するのに便利です。これらの値は、ページまたはユーザーが特定のページでおこなったアクションの記述に使用されます。 |
-| ページ内プロファイル属性（in-mbox プロファイル属性） | ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。<br>ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。 |
-| スクリプトプロファイル属性 | スクリプトプロファイル属性は、Target ソリューションで定義された名前と値のペアです。値は、サーバー呼び出しごとに、Target サーバーで JavaScript スニペットが実行されることで決まります。<br>訪問者がオーディエンスやアクティビティメンバーシップの条件を満たしているかが評価される前に、ユーザーは、mbox 呼び出しごとに実行する簡単なコードスニペットを記述します。 |
-| データプロバイダー | データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。 |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>ページ内プロファイル属性（in-mbox プロファイル属性） | ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。<br>ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。 |
+| [スクリプトプロファイル属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | スクリプトプロファイル属性は、Target ソリューションで定義された名前と値のペアです。値は、サーバー呼び出しごとに、Target サーバーで JavaScript スニペットが実行されることで決まります。<br>訪問者がオーディエンスやアクティビティメンバーシップの条件を満たしているかが評価される前に、ユーザーは、mbox 呼び出しごとに実行する簡単なコードスニペットを記述します。 |
+| [データプロバイダー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。 |
 | プロファイル一括更新 API | API を介して、多数の訪問者のプロファイル更新を含む .csv ファイルを Target に送信します。各訪問者プロファイルでは、1 回の呼び出しで複数のページ内プロファイル属性を更新できます。 |
 | 単一プロファイル更新 API | 一括プロファイル更新APIとほとんど同じですが、API呼び出しの行で、.csvファイルではなく1つの訪問者プロファイルが一度に更新されます。 |
 | 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 |
 
-## ページ内プロファイル属性（in-mbox プロファイル属性）{#section_57E1C161AA7B444689B40B6F459302B6}
 
-ページ内パラメーターは、ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されます。
 
-ページ内プロファイル属性を利用すると、ユーザー固有のデータを Target のプロファイルに保管し、以降のターゲティングやセグメント化に利用できます。
 
-### 形式
 
-ページ内プロファイル属性は、サーバー呼び出しを介して、属性名の先頭に「profile.」が追加された文字列の名前と値のペアとしてTarget に渡されます。
 
-属性の名前と値はカスタマイズできます（ただし、特定用途向けに「予約されている名前」もあります）。
-
-例：
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### 使用例
-
-**ログイン情報**：ユーザーのログインに基づく、PII（個人情報）以外のデータを Target と共有します。会員ステータスや注文履歴などがこれに該当します。
-
-**店舗情報**：ユーザーがどの場所の店舗を選んだのかを追跡します。
-
-**過去のインタラクション**：サイトでのユーザーの過去の行動を追跡し、以降のパーソナライゼーションに生かします。
-
-### この方法のメリット
-
-データが Target にリアルタイムで送信され、受信時と同じサーバー呼び出しで使用できます。
-
-### 注意事項
-
-ページコードの更新が必要です（直接更新するか、タグ管理システムを使用します）。
-
-属性と値はサーバー呼び出しで確認できるので、訪問者は値を確認できます。信用範囲やその他の機密情報を共有する場合は、最適な手法とはいえません。
-
-### コードの例
-
-targetPageParamsAll（ページのすべての mbox 呼び出しに属性を追加します）：
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams（ページのグローバル mbox に属性を追加します）：
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-mboxCreate コードの属性：
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### 関連情報のリンク
-
-[プロファイル属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[訪問者プロファイル](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## スクリプトプロファイル属性 {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-スクリプトプロファイル属性は、Target ソリューションで定義された名前と値のペアです。値は、サーバー呼び出しごとに、Target サーバーで JavaScript スニペットが実行されることで決まります。
-
-訪問者がオーディエンスやアクティビティメンバーシップの条件を満たしているかが評価される前に、ユーザーは、mbox 呼び出しごとに実行する簡単なコードスニペットを記述します。
-
-### 形式
-
-スクリプトプロファイル属性は、Target の「オーディエンス」セクションで作成します。属性の名前はどのようなものでも有効です。値は Target のユーザーが記述した JavaScript 関数によって決まります。Target でページ内プロファイル属性と区別するために、属性名の先頭には「user.」が自動的に追加されます。
-
-コードスニペットは Rhino JS 言語で記述し、トークンやその他の値を参照できます。
-
-### 使用例
-
-**買い物かごの放棄**：訪問者が買い物かごにアクセスしたときに、プロファイルスクリプトを 1 に設定します。訪問者がコンバージョンに至ったら 0 にリセットします。この値が 1 の訪問者は、買い物かごに商品が入っていることになります。
-
-**訪問数**：新たな訪問のたびに 1 ずつ加算し、訪問者のサイト再訪問頻度を追跡します。
-
-### この方法のメリット
-
-ページコードの更新が不要です。
-
-オーディエンスとアクティビティメンバーシップの判断の前に実行し、単一のサーバー呼び出しでこれらのプロファイルスクリプト属性でメンバーシップに影響を与えることができます。
-
-非常に強力です。スクリプトごとに 2,000 個の命令を実行できます。
-
-### 注意事項
-
-JavaScript に関する知識が必要です。
-
-プロファイルスクリプトの実行の順番は保証されているわけではないので、相互に依存することはできません。
-
-デバッグが困難な場合があります。
-
-### コードの例
-
-プロファイルスクリプトは非常に柔軟です。
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### 関連情報のリンク
-
-[プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## データプロバイダー{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-データプロバイダーは、サードパーティからターゲットにデータを簡単に渡すことができる機能です。
-
-注意：データプロバイダーは、at.js 1.3 以降を必要とします。
-
-### 形式
-
-`window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
-
-各データプロバイダーの構造について詳しくは、[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)を参照してください。
-
-### 使用例
-
-サードパーティから、気象予報サービス、DMP、自社の Web サービスなどのデータを収集します。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。
-
-### この方法のメリット
-
-この設定では、Demandbase、BlueKai、カスタムサービスなどのサードパーティのデータプロバイダーからデータを収集し、そのデータをグローバル mbox リクエストで mbox パラメーターとして渡すことができます。
-
-非同期および同期リクエストを介した複数のプロバイダーからのデータ収集もサポートしています。
-
-この手法では、デフォルトのページコンテンツのちらつきを制御しながら、プロバイダーごとに個別のタイムアウトを指定し、ページのパフォーマンスへの影響を抑制することが簡単にできます。
-
-### 注意事項
-
-`window.targetGlobalSettings.dataProviders` に追加されたデータプロバイダーが非同期の場合は、同時並行で実行されます。訪問者 API リクエストは、待ち時間を最小限に抑えるために、`window.targetGlobalSettings.dataProviders` に追加された関数と同時に実行されます。
-
-at.js では、データはキャッシュされません。データプロバイダーが 1 回だけデータを取得する場合は、データをキャッシュし、そのプロバイダーの関数が呼び出されたら、2 回目の呼び出しでキャッシュデータを配信できるようにする必要があります。
-
-### コードの例
-
-[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)にはいくつかの例が記載されています。
-
-### 関連情報のリンク
-
-ドキュメント：[データプロバイダー](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### トレーニングビデオ：
-
-* [Adobe Target でのデータプロバイダーの使用](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target でのデータプロバイダーの実装](https://helpx.adobe.com/jp/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## プロファイル一括更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
