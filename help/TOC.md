@@ -4,10 +4,10 @@ breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1582'
+ht-degree: 76%
 
 ---
 
@@ -81,7 +81,8 @@ ht-degree: 0%
          + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + データを Target に送信する方法 {#methods}
-         + [メソッド](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [メソッドの概要](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [ページのパラメーター](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Target のセキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [サポートされているブラウザー](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
