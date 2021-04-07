@@ -4,8 +4,9 @@ description: データプロバイダーを使用して、ターゲットにデ�
 title: データプロバイダーを使用してターゲットにデータを取り込む方法を教えてください。
 feature: 実装
 role: Developer
+exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 66%
