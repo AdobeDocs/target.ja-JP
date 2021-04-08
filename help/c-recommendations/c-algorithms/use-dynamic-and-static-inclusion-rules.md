@@ -4,14 +4,14 @@ description: Adobe TargetRecommendationsで条件とプロモーション用の�
 title: Recommendationsで動的および静的包含ルールを使用する方法を教えてください。
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1100'
 ht-degree: 41%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 動的および静的インクルージョンルールの使用{#use-dynamic-and-static-inclusion-rules}
 
@@ -91,7 +91,7 @@ ht-degree: 41%
 
 | アクション | 利用できるマッチング | 詳細 |
 |--- |--- |--- |
-| [!UICONTROL このフィルタールールを無視] | [!UICONTROL プロファイル属性] [!UICONTROL の一致とパラメータの一致] | これは、[!UICONTROL プロファイル属性の一致]と[!UICONTROL パラメーターの一致]のデフォルトの動作です。<br>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
+| [!UICONTROL このフィルタールールを無視] | [!UICONTROL プロファイル属性] の一致と [!UICONTROL パラメータの一致] | これは、[!UICONTROL プロファイル属性の一致]と[!UICONTROL パラメーターの一致]のデフォルトの動作です。<br>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
 | [!UICONTROL この条件の結果を表示しない]<br>（条件のみ） | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | これは、[!UICONTROL エンティティ属性の一致]のデフォルトのアクションです。<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
 | [!UICONTROL どの項目もプロモーションしない<br>（プロモーションのみ）] | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | これは、[!UICONTROL エンティティ属性の一致]のデフォルトのアクションです。<br>[!DNL Target] にこのオプションが追加される前の処理方法です。この条件の結果を表示しません。 |
 | [!UICONTROL 静的値を使用] | [!UICONTROL エンティティ属性の一致]、 [!UICONTROL プロファイル属性の一致]、 [!UICONTROL パラメータの一致] | 値が空だった場合に静的値を使用するよう設定できます。 |
