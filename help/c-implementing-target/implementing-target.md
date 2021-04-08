@@ -4,15 +4,15 @@ description: 基本的な概念、Target の動作の仕組みとインフラス
 landing-page-description: Adobe Target の使用を開始する前に、サイト上に Adobe Target を実装し、いくつかの基本的な概念や用語と Target の仕組みを理解する必要があります。
 title: ターゲットの実装方法
 feature: 実装
-role: 開発者
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # Target の実装
 
