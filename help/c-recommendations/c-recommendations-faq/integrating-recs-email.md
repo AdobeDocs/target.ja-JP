@@ -3,16 +3,16 @@ keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawb
 description: ターゲット配信API、rawboxテンプレート、ダウンロード専用テンプレートの使用を含む、Adobe TargetRecommendationsと電子メールを統合する方法について説明します。
 title: RecommendationsとEメールの統合方法
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 88%
+source-wordcount: '1548'
+ht-degree: 85%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations と電子メールの統合{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Recommendations と電子メールの統合
 
 電子メールと Recommendations を統合する方法に関する情報をまとめています。
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | リクエストに合致するものが存在しない場合に `mboxDefault` が指定されておらず、`mboxNoRedirect` パラメーターが指定されていません。 |
 | `Invalid mbox name:= MBOX_NAME` | `mbox` パラメーターに無効な文字が含まれていることを示します。 |
 | `Mbox name [MBOX_NAME] is too long` | `mbox` パラメーターが 250 文字より長いことを示します。 |
+
+## オプション1 &amp; 2 {#capacity}の容量のガイドライン
+
+配信APIおよびrawbox電子メールテンプレートオプションには、次の容量のガイドラインが適用されます。
+
+* リクエストのレートは、1秒あたり1,000リクエストの低い値、またはピーク時の日別トラフィックの25倍に制限する必要があります。
+* 1分あたり200件のリクエストのステップ数でトラフィックを増加
+
+料金制限を高くしたい場合は、担当のアカウントマネージャにお問い合わせください。
 
 ## オプション 3：ダウンロード専用テンプレートの使用 {#section_518C279AF0094BE780F4EA40A832A164}
 
