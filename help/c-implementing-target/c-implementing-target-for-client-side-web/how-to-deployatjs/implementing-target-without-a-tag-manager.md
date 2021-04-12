@@ -1,25 +1,25 @@
 ---
-keywords: ターゲットの実装；実装；at.jsの実装；tag manager
+keywords: ターゲットの実装；実装；at.jsの実装；タグマネージャー；デバイス上の判定；デバイス上の判定
 description: 設定（アカウントの詳細、導入方法など）を指定する方法について説明します。 タグマネージャーを使用せずに、Adobe Targetat.jsライブラリを実装する場合。
 title: タグマネージャーを使用せずにターゲットを実装できますか。
-feature: Implement Server-side
+feature: サーバー側での実装
 role: Developer
+exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 67%
+source-wordcount: '1625'
+ht-degree: 53%
 
 ---
 
-
 # タグマネージャーを使用しない Target の実装
 
-タグマネージャー（[!DNL Adobe Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
+タグマネージャー（[!DNL Adobe Experience Platform Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
 
 >[!NOTE]
 >
->[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための推奨される方法です。次の情報は、Adobe Launch を使用して Target を実装する場合には適用されません。
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ランチは、ターゲットおよびat.jsライブラリを実装する場合に推奨される方法です。次の情報は、AdobePlatform launchを使用してターゲットを実装する場合には適用されません。
 
 [!UICONTROL 実装]ページにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 
@@ -41,8 +41,9 @@ ht-degree: 67%
 
 | 設定 | 説明 |
 | --- | --- |
-| クライアントコード | クライアントコードは、Target API を使用する際に必要になることの多い、クライアント固有の一連の文字です。 |
-| IMS 組織 ID | この ID は、実装を [!DNL Adobe Experience Cloud] アカウントと結び付けます。 |
+| [!UICONTROL クライアントコード] | クライアントコードは、Target API を使用する際に必要になることの多い、クライアント固有の一連の文字です。 |
+| [!UICONTROL IMS 組織 ID] | この ID は、実装を [!DNL Adobe Experience Cloud] アカウントと結び付けます。 |
+| [!UICONTROL オンデバイス判定] | オンデバイス判定を有効にするには、トグルを「オン」の位置にスライドさせます。<br>オンデバイス判定機能を使用すると、A/Bアンドエクスペリエンスターゲット設定(XT)キャンペーンをサーバー上にキャッシュし、ほぼゼロの遅延でメモリ内判定を実行できます。詳しくは、*Adobe TargetSDK*&#x200B;ガイドの[オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)を参照してください。 |
 
 ## 導入方法
 
@@ -52,20 +53,20 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->これらの設定は、すべての[!DNL Target].jsライブラリに適用されます。 [!UICONTROL 導入方法]セクションで変更を行った後、ライブラリをダウンロードし、導入で更新する必要があります。
+>これらの設定は、すべての[!DNL Target].jsライブラリに適用されます。 「導入方法」セクションで変更を行った後、ライブラリをダウンロードして、導入で更新する必要があります。
 
 | 設定 | 説明 |
 | --- | --- |
 | ページ読み込みが有効（グローバルmboxを自動作成） | 各ページが読み込まれると自動的に実行されるように、グローバル mbox 呼び出しを at.js ファイルに埋め込むかどうかを選択します。 |
 | グローバル mbox | global mbox の名前を選択します。デフォルトでは、この名前は target-global-mbox です。<br>at.js を使用した mbox 名には、アンパサンド（&amp;）を含む特殊文字を使用できます。 |
 | タイムアウト（秒） | [!DNL Target] が定義された期間内にコンテンツの応答をしない場合、サーバー呼び出しはタイムアウトし、デフォルトコンテンツが表示されます。訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、[!DNL Target] がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意：**[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定では、[!DNL Target] が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。 |
-| プロファイルの有効期間 | この設定は、訪問者プロファイルが保存される期間を決定します。デフォルトでは、プロファイルは 2 週間保存されます。この期間は最大で 90 日まで延長することができます。<br>プロファイルの有効期間設定を変更するには、[ClientCare](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) にお問い合わせください。 |
+| プロファイルの有効期間 | この設定は、訪問者プロファイルが保存される期間を決定します。デフォルトでは、プロファイルは 2 週間保存されます。この設定は、最大90日間延長できます。<br>プロファイルの有効期間設定を変更するには、[ClientCare](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) にお問い合わせください。 |
 
 ### 主な実装方法
 
 >[!IMPORTANT]
 >
->ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
+>ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。at.jsのいずれかのメジャーバージョンの最新の更新にアップグレードし、サポート対象バージョンを実行していることを確認します。
 
 目的のat.jsバージョンをダウンロードするには、該当する「**[!UICONTROL ダウンロード]**」ボタンをクリックします。
 
@@ -116,7 +117,7 @@ API による一括更新の認証を有効または無効にし、プロファ�
 
 >[!NOTE]
 >
->* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、Target および at.js ライブラリを実装するための推奨される方法です。次の情報は、Adobe Launch を使用して Target を実装する場合には適用されません。
+>* [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ランチは、ターゲットおよびat.jsライブラリを実装する場合に推奨される方法です。次の情報は、AdobePlatform launchを使用してターゲットを実装する場合には適用されません。
    >
    >
 * ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
@@ -179,7 +180,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
-タグマネージャー（[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)、[Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) など）を使用しない Target の一般的な実装は次のようになります。
+[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)や[Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)のようなタグマネージャーを使用しないターゲットの一般的な実装は、次のようになります。
 
 ```
 <!doctype html> 
@@ -235,11 +236,11 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 
 次の重要な注意点を考慮してください。
 
-* HTML5 doctype（例えば、`<!doctype html>`）を使用する必要があります。サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
+* HTML5 Doctype（例：`<!doctype html>`）を使用する必要があります。 サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
 * 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合は、`<client code>`を独自のクライアントコードに置き換えてください。このコードは&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 導入]ページから入手できます。
-* データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。これにより、Target でこの情報をパーソナライゼーションのために最大限に利用できるようになります。
-* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。あるいは、[!UICONTROL at.js 設定を編集]ページの「[!UICONTROL ライブラリヘッダー]」セクションでこれらを保存して、at.js ライブラリ自体の一部として保存することもできます。これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
-* jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードすることで、Target エクスペリエンスを構築するときにそれらの構文とメソッドを活用できます。
+* データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。この配置により、この情報をターゲットで使用して個人設定を行うことができます。
+* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。また、これらの関数は、[!UICONTROL at.js設定を編集]ページの[!UICONTROL ライブラリヘッダー]セクションに保存し、at.jsライブラリ自体の一部として保存することもできます。 これらの関数について詳しくは、[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* jQueryなどのJavaScriptヘルパーライブラリを使用する場合は、ターゲットの前にこれらのライブラリを含めておくと、ターゲットエクスペリエンスを構築する際に構文とメソッドを使用できるようになります。
 * at.js はページの `<head>` に含めます。
 
 ## コンバージョンの追跡{#task_E85D2F64FEB84201A594F2288FABF053}
@@ -248,7 +249,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 
 >[!NOTE]
 >
->ユーザーが Web サイトで買い物をする場合、レポートに Analytics for Target（A4T）を使用している場合でも、注文の確認 mbox を実装することをお勧めします。
+>Webサイトで購入を行う場合、レポートにAnalyticsのターゲット(A4T)を使用している場合でも、Adobeでは注文の確認mboxを実装することをお勧めします。
 
 1. 注文の詳細ページで、以下のモデルに示す mbox スクリプトを挿入します。
 1. 大文字のテキストを、カタログの動的値または静的値に置き換えます。
