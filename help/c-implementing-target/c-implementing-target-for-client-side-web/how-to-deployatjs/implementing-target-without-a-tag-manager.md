@@ -6,10 +6,10 @@ feature: サーバー側での実装
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 53%
+source-wordcount: '1697'
+ht-degree: 51%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 53%
 | [!UICONTROL クライアントコード] | クライアントコードは、Target API を使用する際に必要になることの多い、クライアント固有の一連の文字です。 |
 | [!UICONTROL IMS 組織 ID] | この ID は、実装を [!DNL Adobe Experience Cloud] アカウントと結び付けます。 |
 | [!UICONTROL オンデバイス判定] | オンデバイス判定を有効にするには、トグルを「オン」の位置にスライドさせます。<br>オンデバイス判定機能を使用すると、A/Bアンドエクスペリエンスターゲット設定(XT)キャンペーンをサーバー上にキャッシュし、ほぼゼロの遅延でメモリ内判定を実行できます。詳しくは、*Adobe TargetSDK*&#x200B;ガイドの[オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)を参照してください。 |
+| [!UICONTROL 既存のOn-Device Decisioningの条件を満たすアクティビティをすべてアーティファクトに含めます。] | （条件付き）このオプションは、オンデバイスの判定を有効にした場合に表示されます。<br>オンデバイスの判定に適したすべてのライブターゲットアクティビティを自動的にアーティファクトに含める場合は、トグルを「オン」の位置にスライドします。<br>このチェックボックスをオフにしたままにすると、生成されたルールのアーティファクトに含めるために、オンデバイス判定アクティビティを再作成し、アクティブ化する必要があります。 |
 
 ## 導入方法
 
