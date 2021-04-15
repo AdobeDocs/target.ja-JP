@@ -4,10 +4,10 @@ breadcrumb-title: Target ガイド
 user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 76%
+source-wordcount: '1614'
+ht-degree: 75%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 76%
       + Adobe Experience PlatformWeb SDK実装{#aep-implementation}
          + [AEP Web SDKの概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js実装{#at-js-implementation}
+         + オンデバイス判定{#on-device-decisioning}
+            + [オンデバイス判定の概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [オンデバイスの判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [オンデバイス判定ルールのアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + at.js の仕組み {#at-js}
             + [at.js の仕組みの概要](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [at.js によるちらつきの制御方法](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
