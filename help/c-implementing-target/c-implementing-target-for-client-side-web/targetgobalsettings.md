@@ -4,14 +4,14 @@ description: ターゲットUIまたはREST APIを使用する代わりに、Ado
 title: targetGlobalSettings()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 36%
+source-wordcount: '2233'
+ht-degree: 28%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ ht-degree: 36%
 * **タイプ**:以下の [データ](#data-providers) プロバイダーを参照してください。
 * **デフォルト値**:以下の [データ](#data-providers) プロバイダーを参照してください。
 * **説明**:以下の [データ](#data-providers) プロバイダーを参照してください。
+
+### decisioningMethod {#on-device-decisioning}
+
+* **型**：String
+* **デフォルト値**:サーバー側
+* **その他の値**:オンデバイス、ハイブリッド
+* **説明**:後述の「判定方法」を参照してください。
+
+**判定方法**
+
+オンデバイス判定では、at.jsがエクスペリエンスを提供する方法を指示する[!UICONTROL 判定方式]という新しい設定がターゲットに導入されました。 `decisioningMethod`には3つの値があります。サーバー側のみ、オンデバイスのみ、ハイブリッド。 `targetGlobalSettings()`に`decisioningMethod`を設定すると、[!DNL Target]のすべての決定のデフォルトの決定方法として機能します。
+
+[!UICONTROL サーバー側のみ]:
+
+[!UICONTROL サーバー側] のみが、at.js 2.5以降が実装されWebプロパティにデプロイされた場合に初期設定で設定されるデフォルトの判定方法です。
+
+[!UICONTROL サーバー側のみ]をデフォルト設定として使用すると、[!DNL Target]エッジネットワーク上ですべての決定が行われ、ブロッキングサーバーコールが行われます。 このアプローチは遅延を増加させる可能性がありますが、[Recommendations](/help/c-recommendations/recommendations.md)、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)、[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)アクティビティを含むターゲットの機械学習機能を適用できるなど、大きなメリットもあります。
+
+さらに、セッションやチャネルを超えて持続するターゲットのユーザープロファイルを使用してパーソナライズされたエクスペリエンスを強化することで、ビジネスに強力な成果をもたらすことができます。
+
+最後に、[!UICONTROL サーバ側のみ]では、Audience ManagerやAdobe Analyticsのセグメントを通じてターゲットにできるオーディエンスを、Adobe Experience Cloudを使用して微調整できます。
+
+[!UICONTROL デバイス上のみ]:
+
+[!UICONTROL オンデバイス] は、オンデバイスの判定をWebページ全体でのみ使用する場合にat.js 2.5以降で設定する必要がある判定方法のみです。
+
+オンデバイスの判定では、エクスペリエンスとパーソナライズアクティビティを超高速で配信できます。これは、オンデバイスの判定に適したすべてのアクティビティを含むキャッシュされたルールアーティファクトが決定に反映されるからです。
+
+On-Device Decisioningの対象となるアクティビティについて詳しくは、「サポートされる機能」の節を参照してください。
+
+この判定方法は、[!DNL Target]からの決定を必要とするすべてのページでパフォーマンスが非常に重要な場合にのみ使用してください。 さらに、この判定方法を選択した場合、デバイス上の判定に該当しない[!DNL Target]アクティビティは配信も実行もされないことに注意してください。 at.jsライブラリ2.5以降は、決定を行うためにキャッシュされたルールアーティファクトの検索のみを行うように設定されています。
+
+ハイブリッド：
+
+[!UICONTROL Adobe Targetエッジネットワークへのネットワーク呼び出しを必要とするオンデバイス判定とアクティビティの両方を実行する必要がある場合に、at.js 2.5以降で設定する必要がある判定方式を] Hybridis社が採用しています。
+
+オンデバイス判定アクティビティとサーバーサイドアクティビティの両方を管理している場合、[!DNL Target]をページにデプロイしてプロビジョニングする方法を考えると、少し複雑で面倒な場合があります。 ハイブリッドを判定方式として使用する場合、[!DNL Target]は、サーバ側での実行が必要なアクティビティに対して、いつサーバーがAdobe Targetエッジネットワークを呼び出す必要があるか、また、デバイス上での判断のみを実行する必要があるかを知っています。
+
+JSONルールのアーティファクトには、mboxがサーバー側のアクティビティーを実行しているか、またはデバイス上の判定アクティビティが実行されているかをat.jsに通知するメタデータが含まれます。 迅速に配信するアクティビティは、オンデバイスの判定によって行われ、より強力なML駆動型パーソナライゼーションを必要とするアクティビティでは、これらのアクティビティはAdobe Targetエッジネットワークを介して行われます。
 
 ### defaultContentHiddenStyle
 
@@ -354,7 +393,7 @@ window.targetGlobalSettings = {
 
 ### コードサンプル
 
-この仕組みをより深く理解するために、お使いのサーバーにある以下のコード例をご覧ください。 このコードでは、[ターゲットNode.js SDK](https://github.com/adobe/target-nodejs-sdk)を使用していることを前提としています。
+この機能をよりよく理解するには、お使いのサーバーにある以下のコード例を参照してください。 このコードでは、[ターゲットNode.js SDK](https://github.com/adobe/target-nodejs-sdk)を使用していることを前提としています。
 
 ```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
