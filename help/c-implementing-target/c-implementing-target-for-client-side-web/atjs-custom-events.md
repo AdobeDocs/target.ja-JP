@@ -4,14 +4,14 @@ description: mboxリクエストまたはオファーの失敗や成功時に通
 title: at.jsカスタムイベントの使用方法
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 69%
+source-wordcount: '656'
+ht-degree: 66%
 
 ---
-
 
 # at.js カスタムイベント
 
@@ -38,6 +38,7 @@ mbox リクエストまたはオファーの失敗や成功を把握するため
 | mbox | 文字列 | mbox 名 |
 | message | 文字列 | 人間が解読可能な説明（何が起こったか、エラーメッセージの内容など）。 |
 | トラッキング | オブジェクト | `sessionId` と `deviceId` が格納されます。場合によっては、`deviceId` が [!DNL Target] を取得できないため、この値が欠落することがあります。 |
+| type | 文字列 | **On-device decisioning artifact**<br> succeededConstant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>String値： `artifactDownloadSucceeded`<br>説明：オンデバイス判定アーティファクトが正常にダウンロードされたときに呼び出されます。<br>**On-device decisioning artifact**<br> failedConstant: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>文字列値： `artifactDownloadFailed`<br>説明：オンデバイス判定アーティファクトのダウンロードに失敗したときに呼び出されます。 |
 
 ## 使用方法 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
