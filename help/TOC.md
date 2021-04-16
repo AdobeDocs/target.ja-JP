@@ -1,13 +1,13 @@
 ---
 user-guide-title: Adobe Target ガイド
 breadcrumb-title: Target ガイド
-user-guide-description: Web サイトやモバイルサイト、アプリ、ソーシャルメディア、およびその他のデジタルチャネルでの収益を最大化できるよう、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法について説明します。
+user-guide-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化するために、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法を説明します。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 76%
+source-wordcount: '1607'
+ht-degree: 74%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 76%
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
          + [A4T のトラブルシューティング](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [A4T での水増しされた訪問と訪問者カウントの最小化](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T に関するよくある質問  {#a4t-faq}
+      + A4T に関するよくある質問 {#a4t-faq}
          + [初期プロビジョニング - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [アクティビティの設定 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [レポートの表示 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
