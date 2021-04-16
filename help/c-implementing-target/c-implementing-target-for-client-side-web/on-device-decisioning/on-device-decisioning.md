@@ -1,14 +1,14 @@
 ---
-keywords: 実装；javascriptライブラリ；js;atjs;on devicioning;on device decisioning;on device decisioning
+keywords: 実装；javascriptライブラリ；js;atjs;on-device decisioning;on device decisioning;at.js
 description: at.jsライブラリを使用してオンデバイス判定を実行する方法を学びます。
 title: オンデバイス判定はat.js JavaScriptライブラリとどのように連携しますか。
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -136,7 +136,7 @@ Adobe TargetJS SDKを使用すると、お客様は柔軟にデータのパフ�
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | at.jsライブラリは、JSONルールのアーティファクトを解釈し、メモリ内の決定を実行してエクスペリエンスを取得します。 |
 | 5 | テストされた要素は非表示になります。 |
 | 6 | at.jsライブラリには本文が表示され、訪問者から表示への移行のために残りのページを読み込むことができます。 |
@@ -167,9 +167,9 @@ JSONルールのアーティファクトには、mboxがサーバー側のアク
 
 | 手順 | 説明 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
+| 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | ページ型リクエストは、(ECID、顧客ID、カスタムパラメーター、ユーザープロファイルなどの設定済みのすべてのパラメーターを含む、Adobe Targetエッジネットワークに対して行われます。 |
 | 5 | 同時に、at.jsは、訪問者に最も近いAkamai CDNからJSONルールのアーティファクトを取得するリクエストを行います。 |
 | 6 | (Adobe Targetエッジネットワーク)プロファイルスクリプトを実行し、プロファイルストアにフィードします。 プロファイルストアは、オーディエンスライブラリ(例えば、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]などから共有されたオーディエンス)から正規のオーディエンスを要求します。 |
