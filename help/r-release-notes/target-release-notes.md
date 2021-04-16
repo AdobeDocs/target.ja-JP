@@ -5,10 +5,10 @@ title: 今後のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 23%
+source-wordcount: '429'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021年4月10日**
+**最終更新日：2021年4月17日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -52,6 +52,15 @@ ht-degree: 23%
    * リストに
 
 * レコメンデーションの除外の作成中に環境を変更した後にリクエストが失敗した場合、無限に読み込まれる問題を修正しました。 （TGT-39948）
+
+## at.jsバージョン2.5.0（2021年4月20日）
+
+at.jsのこのリリースで強化された機能は次のとおりです。
+
+* at.jsのオンデバイス判定のサポート
+* Automated Personalizationアクティビティのプレビューリンクのサポート
+
+このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
