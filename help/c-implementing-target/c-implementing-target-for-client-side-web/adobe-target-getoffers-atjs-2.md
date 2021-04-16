@@ -4,14 +4,14 @@ description: 複数のターゲットオファーを取得するリクエスト�
 title: adobe.ターゲット.getOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ ht-degree: 90%
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
 | consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に使用される補助的なデータ ID を生成するために使用されます。このキーは、訪問者ごとの一意の文字列です。 |
+| decisioningMethod | 文字列 | × | &quot;server-side&quot;、&quot;on-device&quot;、&quot;hybrid&quot; |
 | request | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
 | timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
@@ -74,7 +75,7 @@ ht-degree: 90%
 | Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
-## すべての表示に対してgetOffers()を呼び出します。
+## すべての表示に対してgetOffers()を呼び出します
 
 ```javascript
 adobe.target.getOffers({
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## getOffers()を呼び出して、オンデバイスの判定を行います
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## getOffers()を呼び出して、渡されたパラメーターとプロファイルパラメーターを含む最新の表示を取得します
