@@ -4,11 +4,12 @@ description: オンデバイスの判定でサポートされる機能につい�
 title: On-Device Decisioningでサポートされる機能
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -53,11 +54,43 @@ ht-degree: 11%
 
 地域ベースのオーディエンスを使用するオンデバイス判定アクティビティの待ち時間を最小限に抑えるために、Adobeでは、[getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)への呼び出しで地域の値を自分で指定することをお勧めします。 リクエストのコンテキストで地域オブジェクトを設定します。 これは、ブラウザーから各訪問者の場所を判断する方法を意味します。 例えば、設定したサービスを使用して、IPから地域へのルックアップを実行できます。 一部のホスティングプロバイダー（Google Cloudなど）は、各`HttpServletRequest`のカスタムヘッダーを使用してこの機能を提供します。
 
-（来るべき符号）
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ただし、サーバー上でIPから地域への検索を実行できず、地域ベースのオーディエンスを含む[getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)の要求に対してオンデバイス判定を実行したい場合は、この方法もサポートされます。 このアプローチの欠点は、リモートのIPから地域への参照を使用し、`getOffers`の各呼び出しに遅延が追加される点です。 この待ち時間は、サーバーの近くにあるCDNをヒットするので、サーバー側判定での`getOffers`呼び出しよりも短くする必要があります。 SDKが訪問者のIPアドレスの地域を取得するようにリクエストした場合、コンテキスト内のGeoオブジェクトに「ipAddress」フィールドのみを指定します。 「ipAddress」以外のフィールドを指定した場合、[!DNL Target] SDKは解決のために地域位置メタデータを取得しません。
 
-（来るべき符号）
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### 配分方法
 
