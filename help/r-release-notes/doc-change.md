@@ -5,9 +5,9 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3952'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.jsバージョン2.5.0リリース（2021年4月19日）のプレリリース情報を追加しました。 |
 | 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1リリース（2021年4月20日）のプレリリース情報を追加しました。 |
 |  | [Recommendations と電子メールの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | 次の節を追加しました。「オプション1 &amp; 2の容量のガイドライン」 |
 | 3月29日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新しいFAQを追加しました。<ul><li>最近表示した品目に基づくレコメンデーションは、1つの訪問者に対して複数のデバイス間で保持されますか。</li></ul> |
