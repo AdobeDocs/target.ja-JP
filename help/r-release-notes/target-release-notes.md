@@ -5,10 +5,10 @@ title: 今後のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 20%
+source-wordcount: '465'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 
 | 機能 | 詳細 |
 | --- | --- |
-| at.jsのオンデバイス判定のサポート | オンデバイス判定機能を使用すると、マーケターと開発者は、ユーザーのブラウザー上で実験とパーソナライズをほぼゼロの待ち時間で行うことができます。<br>詳しくは、at.jsの [オンデバイス判定を参照してください。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| at.jsのオンデバイス判定のサポート | オンデバイス判定機能を使用すると、マーケターと開発者は、ユーザーのブラウザー上で実験とパーソナライズをほぼゼロの待ち時間で行うことができます。<br>詳しくは、at.jsの [オンデバイス判定を参照してください。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>（発表期日） |
 | ![エンティティフィルタールール用の](/help/assets/premium.png) PremiumListベースの演算子 | [!DNL Target Recommendations] は、エンティティのフィルタリングルールに新しいリストベースの演算子をサポートしています。(TGT-39234)<br>新たに追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに</li><li>リストに</li><li>リストにすべての項目が含まれる</li><li>リストに</li></ul>詳しくは、[動的および静的包含ルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
 
 このリリースには、次の修正が含まれています。
@@ -43,7 +43,7 @@ ht-degree: 20%
 * プロパティが正しくないワークスペースにマップされる問題を修正しました。 （TGT-39869）
 * レコメンデーションの除外の作成中に環境を変更した後にリクエストが失敗した場合、無限に読み込まれる問題を修正しました。 （TGT-39948）
 
-## at.jsバージョン2.5.0（2021年4月20日）
+## at.jsバージョン2.5.0（発表日）
 
 at.jsのこのリリースには、次の機能強化および変更が含まれています。
 
