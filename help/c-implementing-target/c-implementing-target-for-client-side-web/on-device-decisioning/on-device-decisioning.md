@@ -6,14 +6,18 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # at.jsのオンデバイス判定
+
+>[!NOTE]
+>
+>オンデバイス判定は、今後の[at.js 2.5.0リリース](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)で利用可能になります。 近日発表予定。
 
 バージョン2.5.0以降、at.jsオファーのOn-Device Decisioningを使用しています。 オンデバイス判定機能を使用すると、[A/Bテスト](/help/c-activities/t-test-ab/test-ab.md)と[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)(XT)アクティビティをブラウザーにキャッシュして、[!DNL Adobe Target] Edge Networkに対するネットワーク要求をブロックせずにメモリ内判定を実行できます。
 
@@ -107,7 +111,7 @@ Adobe TargetJS SDKを使用すると、お客様は柔軟にデータのパフ�
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | at.jsライブラリは、訪問者に最も近いAkamai CDNからJSONルールのアーティファクトを取得するようリクエストします。 |
 | 5 | Akamai CDNはJSONルールのアーティファクトで応答します。 |
 | 6 | JSONルールのアーティファクトが訪問者のブラウザー上でローカルにキャッシュされます。 |
@@ -132,7 +136,7 @@ Adobe TargetJS SDKを使用すると、お客様は柔軟にデータのパフ�
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | at.jsライブラリは、JSONルールのアーティファクトを解釈し、メモリ内の決定を実行してエクスペリエンスを取得します。 |
 | 5 | テストされた要素は非表示になります。 |
 | 6 | at.jsライブラリには本文が表示され、訪問者から表示への移行のために残りのページを読み込むことができます。 |
@@ -163,9 +167,9 @@ JSONルールのアーティファクトには、mboxがサーバー側のアク
 
 | 手順 | 説明 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
+| 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | ページ型リクエストは、(ECID、顧客ID、カスタムパラメーター、ユーザープロファイルなどの設定済みのすべてのパラメーターを含む、Adobe Targetエッジネットワークに対して行われます。 |
 | 5 | 同時に、at.jsは、訪問者に最も近いAkamai CDNからJSONルールのアーティファクトを取得するリクエストを行います。 |
 | 6 | (Adobe Targetエッジネットワーク)プロファイルスクリプトを実行し、プロファイルストアにフィードします。 プロファイルストアは、オーディエンスライブラリ(例えば、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]などから共有されたオーディエンス)から正規のオーディエンスを要求します。 |
@@ -191,7 +195,7 @@ JSONルールのアーティファクトには、mboxがサーバー側のアク
 
 | 手順 | 説明 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
+| 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
 | 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | エクスペリエンスを取得するリクエストが作成されます。 |
