@@ -5,10 +5,10 @@ title: コンテンツをパーソナライズし、ターゲットを使用し�
 feature: アクティビティ
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2100'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | URL | URL は、名前の下に薄い色のテキストで表示されます。<br>アクティビティの URL は、アクティビティが表示される場所を示します。これにより、アクティビティをすばやく特定して、特定のページで既にテストが実行されているかどうかを判断できます。<br>テストが複数の URL で実行されている場合は、他に使用されている URL の数を示すリンクが表示されます。該当するアクティビティのすべての URL のリストを表示するには、このリンクをクリックします。<br>URL に基づいて検索できます。検索ボックスの横にあるドロップダウンリストを使用し、「[!UICONTROL URL を検索]」を選択します。 |
 | ステータス | アクティビティのステータスは、次のいずれかになります。<ul><li>**ライブ**：アクティビティは現在実行中です。</li><li>**ドラフト**： アクティビティの設定は開始していますが、アクティビティはまだ実行できる状態ではありません。</li><li>**スケジュール済み**：アクティビティは、指定された開始日時になるとアクティブ化されます。</li><li>**非アクティブ**：アクティビティは一時停止しているか、非アクティブになっています。</li><li>**同期中**： アクティビティは保存済みで、Target 配信ネットワークと同期中です。</li><li>**終了**： アクティビティの指定終了日時になり、アクティビティが提供されなくなりました。</li><li>**アーカイブ済み**： アクティビティはアーカイブされています。アーカイブ済みアクティビティをアクティブ化して、もう一度使用することができます。</li></ul>**メモ意**：API メソッドを使用した UI 外でのアクティビティのアクティブ化など、特定のアクションを実行する場合、更新が UI に反映されるまで最大 10 分かかる場合があります。 |
 | ソース | アクティビティが作成された場所を示します。<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager（AEM）</li><li>Adobe Mobile Services（AMS）</li></ul> |
+| 有効なオンデバイス判定 | オンデバイス判定の資格を持つアクティビティを作成すると、「オンデバイス判定の資格を持つ」というラベルがアクティビティの概要ページに表示されます。<br>このラベルが、アクティビティが常にオンデバイスの判定を介して配信されることを意味するわけではありません。at.js 2.5.0以降がオンデバイス判定を使用するように設定されている場合にのみ、このアクティビティはデバイス上で実行されます。 at.js 2.5.0以降がオンデバイスを使用するように設定されていない場合、このアクティビティは、at.jsから行われるサーバー呼び出しを介して配信されます。<br>「 [オンデバイスの判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)」を参照してください。 |
 | プロパティ | アクティビティの[プロパティ](/help/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。 |
 | 収益の推定上昇率 | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<br>計算式は次のとおりです。<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>短縮形の表記で小数点の前が 1 桁だけの場合、この番号は少数第 2 位までで四捨五入されます。例： $1.6M、$60K、$900、$8.5K、$205K<br>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、この列には「---」と表示されます。<br>詳しくは、「[売上高情報の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
 | 最終更新日 | アクティビティが最後に更新された日付と更新者の名前。 |
@@ -108,6 +109,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 |--- |--- |
 | タイプ | A/B テスト：[手動](/help/c-activities/t-test-ab/test-ab.md)、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)<br>[多変量分析テストレコメンデーション](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[](/help/c-recommendations/recommendations.md) |
 | ステータス | ライブ<br>ドラフト<br>スケジュール済み<br>非アクティブ<br>同期中<br>終了<br>アーカイブ済み |
+| 有効なオンデバイス判定 | はい<br>いいえ |
 | レポートソース | Target<br>Analytics |
 | Experience Composer | 視覚的<br>フォームベース |
 | 指標のタイプ | コンバージョン<br>売上高<br>エンゲージメント |
@@ -117,16 +119,10 @@ Target には、複数のアクティビティタイプがあります。次の�
 
 次の見出しをクリックして、選択した見出しに応じてアクティビティをリストする順番を昇順と降順で切り替えます。
 
-* アクティビティ名
-* アクティビティのタイプ
+* タイプ
+* 名前
 
 ![アクティビティリストの昇順](/help/c-activities/assets/activities_list_ascending.png)
-
-## ヒントとテクニック {#section_F77F30A246A14B538D9363B7F3639F97}
-
-様々な機能の詳細と、それらの機能を試してみるべき理由を確認して、Adobe Target を最大限に活用する方法を学べます。ヒントとテクニック機能には、ビデオ、ユースケース、ブログ、ドキュメントなどへのリンクがあります。
-
-ヒントとテクニック機能は、アクティビティリストページに定期的に表示されます。ヒントを読んだ後または閉じた後は、次のヒントが利用可能になるまでヒントは表示されません。また、ヘルプアイコン／[!UICONTROL 今日のヒントを無効化にする]をクリックして、すべてのヒントを表示しないようにすることもできます。
 
 ![今日のヒントを無効にする](/help/c-activities/assets/tip-disable-new.png)
 
