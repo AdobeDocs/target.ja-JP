@@ -5,9 +5,9 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 29%
 |  | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 以下の情報を追加しました。<ul><li>オンデバイス判定の成功したアーティファクト</li><li>On-Device decisioning artifact failed</li></ul> |
 |  | [アクティビティ](/help/c-activities/activities.md) | On-Device Decisioningに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.5.0 に関する情報を追加しました。 |
+|  | [タグマネージャーを使用しない Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | On-Device Decisioningに関する情報を追加しました。 |
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization]アクティビティのプレビューリンクのサポートが[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)で追加されました。 |
 |  | [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 次の新しい演算子に関する情報を追加しました。<ul><li>リストに含まれる</li><li> リストに含まれない</li><li>リストに</li><li>リストに</li><li>リストにすべての項目が含まれる</li><li>リストに</li></ul> |
 |  | [Adobe Targetcookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloudサービスと* 管理ガイド) | 「セッションID」に関する追加情報を追加しました。 |
