@@ -5,10 +5,10 @@ title: 今後のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 21%
+source-wordcount: '458'
+ht-degree: 20%
 
 ---
 
@@ -28,37 +28,27 @@ ht-degree: 21%
 
 ## Target Standard／Premium 21.4.1（2021 年 4 月 19 日）
 
-このリリースには、次の新機能が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 | 機能 | 詳細 |
 | --- | --- |
-| at.jsのオンデバイス判定のサポート | オンデバイス判定機能を使用すると、マーケターと開発者は、ユーザーのブラウザー上で実験とパーソナライズをほぼゼロの待ち時間で行うことができます。 |
+| at.jsのオンデバイス判定のサポート | オンデバイス判定機能を使用すると、マーケターと開発者は、ユーザーのブラウザー上で実験とパーソナライズをほぼゼロの待ち時間で行うことができます。<br>詳しくは、at.jsの [オンデバイス判定を参照してください。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![エンティティフィルタールール用の](/help/assets/premium.png) PremiumListベースの演算子 | [!DNL Target Recommendations] は、エンティティのフィルタリングルールに新しいリストベースの演算子をサポートしています。(TGT-39234)<br>新たに追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに</li><li>リストに</li><li>リストにすべての項目が含まれる</li><li>リストに</li></ul>詳しくは、[動的および静的包含ルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
 
-このリリースには、次の機能強化、修正および変更が含まれています。
+このリリースには、次の修正が含まれています。
 
 * オーディエンスを[!UICONTROL すべての訪問者]に変更した後、アクティビティが同期できない問題を修正しました。 （TGT-40259）
 * 「[!UICONTROL オファーを許可しない]」オプションが有効になっている場合でも、[!UICONTROL Automated Personalization]アクティビティの異なる場所で使用すると重複が複製されない問題を修正しました。 （TGT-39567）
 * [!UICONTROL 管理]/[!UICONTROL Scene7構成]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
 * プロパティが正しくないワークスペースにマップされる問題を修正しました。 （TGT-39869）
-* [!DNL Target Recommendations] は、エンティティのフィルタリングルールに新しいリストベースの演算子をサポートしています。（TGT-39234）
-
-   新しく追加された演算子は次のとおりです。
-
-   * リストに含まれる
-   * リストに含まれない
-   * リストに
-   * リストに
-   * リストにすべての項目が含まれる
-   * リストに
-
 * レコメンデーションの除外の作成中に環境を変更した後にリクエストが失敗した場合、無限に読み込まれる問題を修正しました。 （TGT-39948）
 
 ## at.jsバージョン2.5.0（2021年4月20日）
 
-at.jsのこのリリースで強化された機能は次のとおりです。
+at.jsのこのリリースには、次の機能強化および変更が含まれています。
 
-* at.jsのオンデバイス判定のサポート
-* Automated Personalizationアクティビティのプレビューリンクのサポート
+* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
+* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクAutomated Personalizationアクティビティのサポート
 
 このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
 
