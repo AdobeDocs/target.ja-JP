@@ -5,16 +5,30 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3952'
-ht-degree: 28%
+source-wordcount: '4138'
+ht-degree: 29%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target]製品ドキュメントに対して行われた重要な変更をリストしています。
+
+## Adobe Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 2021 年 4 月 20 日 | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイスの判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールのアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod`に関する情報を追加しました。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次の内容を追加しました。<ul><li>`decisioningMethod`キーに関する情報です。</li><li>「getCallOffers()でオンデバイスの判定を行う例」を示します。</li></ul> |
+|  | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 以下の情報を追加しました。<ul><li>オンデバイス判定の成功したアーティファクト</li><li>On-Device decisioning artifact failed</li></ul> |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.5.0 に関する情報を追加しました。 |
+|  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization]アクティビティのプレビューリンクのサポートが[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)で追加されました。 |
+|  | [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 次の新しい演算子に関する情報を追加しました。<ul><li>リストに含まれる</li><li> リストに含まれない</li><li>リストに</li><li>リストに</li><li>リストにすべての項目が含まれる</li><li>リストに</li></ul> |
+|  | [Adobe Targetcookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloudサービスと* 管理ガイド) | 「セッションID」に関する追加情報を追加しました。 |
+|  | [リリースノート](/help/r-release-notes/release-notes.md)：21.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe Target標準/プレミアム21.2.1（2021年3月9日）
 
