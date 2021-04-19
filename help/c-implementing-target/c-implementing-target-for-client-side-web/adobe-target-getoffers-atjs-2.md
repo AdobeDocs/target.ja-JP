@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 89%
 
 ---
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.target.getOffers() - at.js 2.x
 
 この関数を使用すると、複数の mbox を渡すことで複数のオファーを取得できます。さらに、アクティブなアクティビティのすべてのビュー向けに複数のオファーを取得できます。
 
@@ -87,7 +87,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers()を呼び出して、オンデバイスの判定を行います
+## getCallOffers()を使用してオンデバイスの判定を行う
 
 ```javascript
 adobe.target.getOffers({ 
