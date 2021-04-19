@@ -5,9 +5,9 @@ title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '625'
 ht-degree: 35%
 
 ---
@@ -24,36 +24,31 @@ ht-degree: 35%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js 2.4.1（2021年3月24日）
+## Target Standard／Premium 21.4.1（2021 年 4 月 19 日）
 
-at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
+このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-* mboxリクエストに`targetPageParams`が含まれる問題を修正しました。 `targetPageParams` は、リク `pageLoad` エストにのみ含まれる必要があります。（TNT-40247）
-* [!DNL Adobe Experience Platform Launch]拡張内のドキュメントおよびウィンドウのグローバルオブジェクトに関する問題を修正しました。Platform launchのグローバルオブジェクト依存関係を直接参照で置き換えました。 （TNT-37124）
+| 機能 | 詳細 |
+| --- | --- |
+| at.jsのオンデバイス判定のサポート | オンデバイス判定機能を使用すると、マーケターと開発者は、ユーザーのブラウザー上で実験とパーソナライズをほぼゼロの待ち時間で行うことができます。<br>詳しくは、at.jsの [オンデバイス判定を参照してください。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![エンティティフィルタールール用の](/help/assets/premium.png) PremiumListベースの演算子 | [!DNL Target Recommendations] は、エンティティのフィルタリングルールに新しいリストベースの演算子をサポートしています。(TGT-39234)<br>新たに追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに</li><li>リストに</li><li>リストにすべての項目が含まれる</li><li>リストに</li></ul>詳しくは、[動的および静的包含ルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
 
-## Recommendationsフィード処理サーバーのIPアドレスの変更（2021年3月16日）
+このリリースには、次の修正が含まれています。
 
-[!DNL Target Recommendations]フィード処理サーバーのIPアドレスは、2021年3月16日に更新されました。 詳しくは、[Recommendationsフィード処理サーバーで使用されるIPアドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)を参照してください。
+* オーディエンスを[!UICONTROL すべての訪問者]に変更した後、アクティビティが同期できない問題を修正しました。 （TGT-40259）
+* 「[!UICONTROL オファーを許可しない]」オプションが有効になっている場合でも、[!UICONTROL Automated Personalization]アクティビティの異なる場所で使用すると重複が複製されない問題を修正しました。 （TGT-39567）
+* [!UICONTROL 管理]/[!UICONTROL Scene7構成]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
+* プロパティが正しくないワークスペースにマップされる問題を修正しました。 （TGT-39869）
+* レコメンデーションの除外の作成中に環境を変更した後にリクエストが失敗した場合、無限に読み込まれる問題を修正しました。 （TGT-39948）
 
-## Target Standard/Premium 21.2.1（2021年3月10日）
+## at.jsバージョン2.5.0（2021年4月20日）
 
-このメンテナンスリリースには、次の機能強化、修正および変更が含まれています。
+at.jsのこのリリースには、次の機能強化および変更が含まれています。
 
-括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
+* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクは、Automated Personalizationアクティビティをサポートします。
 
-* 許可されるオファーサイズが増加しました。(TGT-38304)
-
-   | タイプ | 以前の制限 | 新しい制限 |
-   | --- | --- | --- |
-   | HTML | 256 KB | 1024 KB |
-   | ターゲットUIからのビジュアルオファー | 64 KB | 各エクスペリエンスに1024 KB |
-   | API経由 | 512 KB | 1024 KB |
-
-* [!UICONTROL 自動ターゲット] (AT)および [!UICONTROL Automated Personalization]   (AP)アクティビティ用のパーソナライゼーションインサイトレポートが毎日作成されるようになりました。過去15、30および60日間の[!UICONTROL 自動セグメント]または[!UICONTROL 重要な属性]を提供するレポートを選択できます。 45日と90日のオプションが削除され、その他のルックバックウィンドウの設定が毎日実行できるようになりました。 （TGT-39472）
-* アクティビティの[!UICONTROL 目標と設定]ページで「依存関係を編集]」をクリックすると、現在の依存関係が表示されない問題を修正しました。 [!UICONTROL （TGT-39340）
-* ワークスペースの[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。 更新の前に、現在選択されているワークスペースのオーディエンスが表示されます。 更新後、[!UICONTROL デフォルトのワークスペース]とそのオーディエンスが表示されます。 現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。 （TGT-38871）
-* [!UICONTROL Recommendations]アクティビティをコピーし、後で条件のシーケンスを変更して元のアクティビティを編集する際に発生していた問題を修正しました。 元のアクティビティの条件のシーケンスの変更も、コピーされたアクティビティに誤って適用されていました。 （TGT-39155）
-* [!UICONTROL Recommendations]の除外に正しくない数の製品が表示される問題を修正しました。 （TGT-39599）
+このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
 
 ## その他のリリースノートとバージョンの詳細
 
