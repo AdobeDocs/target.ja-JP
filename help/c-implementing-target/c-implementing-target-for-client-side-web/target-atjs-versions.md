@@ -3,12 +3,12 @@ keywords: at.jsリリース；at.jsバージョン；リリースノート
 description: Adobe Targetのat.js JavaScriptライブラリの各バージョンでの変更の詳細について表示します。
 title: at.jsの各バージョンに含まれる内容
 feature: at.js
-role: 開発者
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 82%
+source-wordcount: '4182'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 82%
 >ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。
 >
 >[at.jsをアップグレードする場合は、Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ランチが推奨される方法です。拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは新しいバージョンの拡張機能にパッケージ化され、アップグレード時に[!DNL Launch]カタログで利用できるようになります。 詳しくは、『*Experience Platform Launchユーザーガイド*』の[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)を参照してください。
+
+## at.js 2.5.0（2021年4月20日）
+
+at.jsのこのリリースには、次の機能強化および変更が含まれています。
+
+* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
+* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクAutomated Personalizationアクティビティのサポート
+
+このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
 
 ## at.js 2.4.1（2021年3月24日）
 
