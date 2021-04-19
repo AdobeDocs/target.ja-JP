@@ -5,9 +5,9 @@ title: at.jsの各バージョンに含まれる内容
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4185'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 81%
 >
 >[at.jsをアップグレードする場合は、Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ランチが推奨される方法です。拡張機能開発者は、継続的に拡張機能に新機能を追加し、頻繁にバグを修正します。 これらのアップデートは新しいバージョンの拡張機能にパッケージ化され、アップグレード時に[!DNL Launch]カタログで利用できるようになります。 詳しくは、『*Experience Platform Launchユーザーガイド*』の[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)を参照してください。
 
-## at.js 2.5.0（2021年4月20日）
+## at.js 2.5.0 （発表日）
 
 at.jsのこのリリースには、次の機能強化および変更が含まれています。
 
