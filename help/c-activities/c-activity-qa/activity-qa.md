@@ -3,14 +3,14 @@ keywords: qa;プレビュー;プレビューリンク；アドビターゲット
 description: 変更のないプレビューリンク、オプションのオーディエンスターゲット設定、ライブアクティビティデータからセグメント化されたQAレポートを使用して、Adobe TargetQA URLを使用して、エンドツーエンドの簡単なアクティビティQAを実行する方法を説明します。
 title: QAアクティビティを行う方法
 feature: アクティビティ
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # アクティビティ QA {#activity-qa}
 
@@ -21,6 +21,9 @@ ht-degree: 79%
 アクティビティ QA では、ライブになる前に Target アクティビティを詳細にテストできます。アクティビティ QA の機能は次のとおりです。
 
 * エクスペリエンスやアクティビティが更新されても変更されることがなく、再生成の必要がないリンクをチームのメンバーと共有できるの呼び出しの後におこなわれる場合です。これにより、ユーザーのジャーニー全体にわたるアクティビティを十分にテストできます。
+
+   [!UICONTROL Automated Personalization]アクティビティのプレビューリンクのサポートが[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)で追加されました。
+
 * 考慮するオーディエンス条件を任意で選択できるので、マーケティング担当者は、オーディエンス条件を満たさなくてもターゲット条件をテストしたり無視したりして、エクスペリエンスのデザインの QA をおこなえる.
 * QA レポートが取り込まれることで、マーケティング担当者は、指標が想定どおりに増分され、QA レポートのデータが実稼動環境のレポートとは別に保持されていることを確認できます（A4T 以外のレポートの場合）。
 * 単独で、または配信条件(ページ/ターゲットリクエスト/オーディエンス)を満たす他のライブアクティビティと組み合わせて、エクスペリエンスをプレビューする機能。
@@ -32,7 +35,7 @@ ht-degree: 79%
 
 ## QA URL へのアクセスおよび共有 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. アクティビティの[!UICONTROL 概要]ページ（自動パーソナライゼーションを除くすべてのタイプ）で「**[!UICONTROL アクティビティ QA]**」リンクをクリックします。
+1. アクティビティの[!UICONTROL 概要]ページで、**[!UICONTROL アクティビティQA]**&#x200B;リンクをクリックします。
 
    ![アクティビティ QA リンク](assets/qa_link.png)
 
