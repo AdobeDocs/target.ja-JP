@@ -2,7 +2,7 @@
 keywords: 自動ターゲット、ターゲット設定、トラフィック配分、よくある質問、faq、トラブルシューティング、トラブル・シューティング
 description: ターゲットの自動ターゲットアクティビティが、お客様のプロファイルと類似訪問者の動作に基づいて、各訪問者に最も合わせたエクスペリエンスを提供する方法を説明します。
 title: 自動ターゲットアクティビティとは
-feature: 自動ターゲット
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

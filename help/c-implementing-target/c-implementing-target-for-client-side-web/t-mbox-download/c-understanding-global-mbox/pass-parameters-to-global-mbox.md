@@ -3,7 +3,7 @@ keywords: グローバル mbox パラメーター;targetPageParams;クエリ文�
 description: targetPageParams関数を使用して、追加のターゲット設定またはコンテキスト情報をAdobe Targetのグローバルmboxに渡す方法について説明します。
 title: グローバルmboxにパラメーターを渡す方法
 feature: at.js
-role: 開発者
+role: Developer
 translation-type: tm+mt
 source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: qa;プレビュー;プレビューリンク；アドビターゲット;ターゲット
 description: 変更のないプレビューリンク、オプションのオーディエンスターゲット設定、ライブアクティビティデータからセグメント化されたQAレポートを使用して、Adobe TargetQA URLを使用して、エンドツーエンドの簡単なアクティビティQAを実行する方法を説明します。
 title: QAアクティビティを行う方法
-feature: アクティビティ
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

@@ -2,7 +2,7 @@
 keywords: データ相違;analytics;差異;相違;A4T;analytics for target;レポートソースとしての analytics;差違;不整合
 description: Analyticsをターゲット用に使用しない場合(A4T)、Adobe TargetとAnalyticsの間で予期されるデータの相違について説明します。これにより、データの相違が完全に解消されます。
 title: AnalyticsとA4Tの間で予想されるデータの相違点は何ですか。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

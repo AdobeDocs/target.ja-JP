@@ -2,7 +2,7 @@
 keywords: 既知の問題；解決された問題；リリースノート；バグ；問題；修正点
 description: 回避策の情報を含む、Adobe Targetの既知の問題に関する情報を確認します。 問題が解決されると、問題は解決済みセクションに移動されます。
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
-feature: リリースノート
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

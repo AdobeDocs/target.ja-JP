@@ -2,7 +2,7 @@
 keywords: トラブルシューティング；指標の不一致；FAQ；レポート；新しい訪問者；新しい訪問者；再訪問者；再訪問者；再訪問；新規訪問
 description: Adobe Targetレポートに関するよくある質問と回答のリストを参照してください。
 title: ターゲットのレポートに関する質問への回答はどこで見つけることができますか？
-feature: レポート
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

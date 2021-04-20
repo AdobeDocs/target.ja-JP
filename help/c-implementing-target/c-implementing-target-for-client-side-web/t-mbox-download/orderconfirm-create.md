@@ -3,7 +3,7 @@ keywords: 注文の確認;orderConfirmPage
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: mbox.jsを使用して注文の確認mboxを作成する方法を教えてください。
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

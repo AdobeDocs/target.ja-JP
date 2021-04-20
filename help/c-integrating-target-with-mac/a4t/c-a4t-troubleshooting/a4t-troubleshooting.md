@@ -2,7 +2,7 @@
 keywords: Analytics トラッキングサーバー;A4T;Analytics セグメント;レポートスイート;誤ったデータ;親なし;sdid;VisitorAPI.js;mboxMCSDID;ファントム;未指定
 description: Analyticsをターゲットに使用する際(A4T)に発生した一般的な問題を調査します。
 title: Analyticsとターゲットの統合のトラブルシューティング方法(A4T)
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt

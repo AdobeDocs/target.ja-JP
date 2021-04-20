@@ -2,7 +2,7 @@
 keywords: ターゲット設定;a4t;地理;ジオターゲティング;ジオターゲティングの精度;国;都道府県;市区町村;郵便番号;dma;携帯電話会社;cityコード;regionコード;countryコード;metro code;プロファイルスクリプト;ジオターゲティングプロファイルスクリプト;ジオターゲティングモバイル
 description: 国、市区町村、郵便番号など、ターゲットの地域に基づいて、ユーザーにオーディエンスするAdobe Targetユーザーを作成する方法を説明します。
 title: ターゲット訪問者ベースの場所を設定できますか。
-feature: オーディエンス
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68

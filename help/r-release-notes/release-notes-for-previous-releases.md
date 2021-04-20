@@ -2,7 +2,7 @@
 keywords: リリースノート
 description: Adobe Targetの以前のリリースに含まれる機能、拡張機能、および修正のリストを表示します。
 title: 以前のリリースにはどのような機能が含まれていますか。
-feature: リリースノート
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

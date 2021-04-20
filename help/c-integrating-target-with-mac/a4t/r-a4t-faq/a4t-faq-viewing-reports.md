@@ -2,7 +2,7 @@
 keywords: FAQ;よくある質問;analytics for target;A4T;レポート;レポート;レポートを表示;レポート作成;カウント手法;インプレッション;訪問者;訪問;デフォルト指標;アクティビティのコンバージョン;未指定
 description: Analyticsでターゲットを行う場合(A4T)のレポート表示に関するよくある質問と、その回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
 title: A4Tを使用したレポートの表示に関する質問への回答を見つける
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt

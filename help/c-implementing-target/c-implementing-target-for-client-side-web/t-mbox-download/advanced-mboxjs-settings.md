@@ -3,7 +3,7 @@ keywords: 高度な mbox.js 設定;クライアント;サーバードメイン;x
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: ターゲットmbox.jsライブラリの設定方法を教えてください。
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

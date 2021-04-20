@@ -2,7 +2,7 @@
 keywords: レポートソースとしてのAnalytics;a4t;A4T；要件
 description: Analytics for Analytics(A4T)を使用して、Adobe TargetでAdobe Analyticsベースのアクティビティを作成するのに必要なユーザーアカウントの要件を設定する方法について説明します。
 title: A4Tに必要なユーザー権限の要件を教えてください。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5

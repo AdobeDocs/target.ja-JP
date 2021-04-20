@@ -3,7 +3,7 @@ keywords: Target Standard;Recommendations;ターゲットプレミアム；Autom
 description: Adobe Target Standard および Adobe Target Premium の基本事項について説明します。 Target Premium には、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 title: ターゲットとは？
-feature: 概要
+feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
 source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97

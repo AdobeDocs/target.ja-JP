@@ -2,7 +2,7 @@
 keywords: エクスペリエンスのターゲット設定；xt；作成
 description: ターゲット対応ページで、Adobe TargetのVisual Experience Composer(VEC)を使用してエクスペリエンスターゲット設定(XT)アクティビティを作成する方法を説明します。
 title: エクスペリエンスのターゲット設定アクティビティの作成方法を教えてください。
-feature: エクスペリエンスのターゲット設定
+feature: Experience Targeting
 translation-type: tm+mt
 source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt

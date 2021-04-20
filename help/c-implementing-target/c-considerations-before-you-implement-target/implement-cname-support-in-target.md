@@ -2,8 +2,8 @@
 keywords: client care;cname;certificateプログラム;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: AdobeのClientCareと協力して、広告ブロッキングの問題やITP関連のCookieポリシーを処理するために、Adobe TargetでCNAME（正規名）のサポートを実装します。
 title: ターゲットでのCNAMEの使用方法
-feature: プライバシーとセキュリティ
-role: 開発者
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: ドキュメント.write;ターゲット；実装；ターゲットの実装；dtm;dynamic tag management;at.js;mbox.js;ターゲット.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Webページのターゲットライブラリ（at.jsまたはmbox.js）を参照して、Adobe Targetを実装します。
 title: Target JavaScript ライブラリについて
-feature: 実装
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

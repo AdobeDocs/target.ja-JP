@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；スクリプトプロファイルアトリビュート
 description: スクリプトプロファイル属性を使用して、ターゲットにデータを取得します。
 title: スクリプトプロファイルの属性を使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

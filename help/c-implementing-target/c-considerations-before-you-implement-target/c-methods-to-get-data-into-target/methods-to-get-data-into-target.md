@@ -2,7 +2,7 @@
 keywords: 実装; 実装方法; 設定; セットアップ; ページパラメーター; Tomcat; URL エンコード; ページ内プロファイル属性; mbox パラメーター; ページ内プロファイル属性; スクリプトプロファイル属性; プロファイル一括更新 API; 単一ファイル更新 API; 顧客属性; データプロバイダー
 description: データをターゲットに取り込みます(ページパラメーター、プロファイル属性、スクリプトプロファイル属性、データプロバイダー、単一および一括プロファイル更新API、顧客属性)。
 title: ターゲットにデータを取り込む方法
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

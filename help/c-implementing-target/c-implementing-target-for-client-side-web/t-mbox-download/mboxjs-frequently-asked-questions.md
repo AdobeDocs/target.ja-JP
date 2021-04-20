@@ -3,7 +3,7 @@ keywords: mbox. js faq;mbox. jsに関するよくある質問; document. write;t
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: ターゲットmbox.jsに関するよくある質問
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

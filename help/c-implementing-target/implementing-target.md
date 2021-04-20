@@ -3,7 +3,7 @@ keywords: 実装;実装する
 description: 基本的な概念、Target の動作の仕組みとインフラストラクチャとの統合方法、訪問者の追跡方法を理解します。
 landing-page-description: Adobe Target の使用を開始する前に、サイト上に Adobe Target を実装し、いくつかの基本的な概念や用語と Target の仕組みを理解する必要があります。
 title: ターゲットの実装方法
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt

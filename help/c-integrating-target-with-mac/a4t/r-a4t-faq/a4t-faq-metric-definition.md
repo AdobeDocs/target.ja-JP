@@ -2,7 +2,7 @@
 keywords: FAQ;よくある質問;analytics for target;A4T;指標;指標の定義
 description: 指標の定義とAnalyticsによるターゲット(A4T)に関する質問への回答を検索します。 A4Tを使用すると、Adobe TargetアクティビティでAnalyticsレポートを使用できます。
 title: A4Tを使用した指標定義に関する情報はどこで入手できますか。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

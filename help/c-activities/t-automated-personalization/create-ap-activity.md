@@ -2,7 +2,7 @@
 keywords: 自動パーソナライゼーション；ap;オーディエンス；アンサンブル；ランダムフォレスト；残差分散；誤差分散；ライフタイム値
 description: Visual Experience Composer(VEC)を使用して、Adobe TargetでAutomated Personalization(AP)アクティビティを作成する方法を説明します。
 title: Automated Personalizationアクティビティの作成方法
-feature: 自動パーソナライゼーション
+feature: Automated Personalization
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；データプロバイダ
 description: データプロバイダーを使用して、ターゲットにデータを取得します。
 title: データプロバイダーを使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

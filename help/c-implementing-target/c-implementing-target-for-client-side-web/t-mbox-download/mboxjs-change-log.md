@@ -3,7 +3,7 @@ keywords: mbox. jsの変更;mbox. jsのバージョン
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: mbox.jsの各バージョンに含まれる内容
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
 source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8

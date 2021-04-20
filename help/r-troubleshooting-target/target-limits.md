@@ -2,7 +2,7 @@
 keywords: 文字制限；mboxパラメーター；バッチ配信api;プロファイルパラメーター；制限；組み込みプロファイル；最大；制限；制約；文字；ベストプラクティス；orderid;orderTotal;mbox3rdPartyID;カテゴリ;categoryID；トラブルシューティング
 description: 文字制限とその他の制限(オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど)のリストの表示 文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: Adobe Targetの様々な文字、大きさ、その他の制限は何ですか。
-feature: トラブルシューティング
+feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
 source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9

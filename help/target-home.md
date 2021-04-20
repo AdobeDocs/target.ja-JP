@@ -2,7 +2,7 @@
 keywords: ターゲット；ホーム；人気の高いトピック；アドビターゲット；標準；プレミアム；ターゲットドキュメント；アドビターゲットドキュメント
 title: ターゲットのドキュメントはどこで入手できますか。
 description: Adobe Targetを使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
-feature: 概要
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

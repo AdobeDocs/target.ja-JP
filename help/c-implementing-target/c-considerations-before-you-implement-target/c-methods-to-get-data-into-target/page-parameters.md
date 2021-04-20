@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；ページパラメータ
 description: ページパラメーターを使用してターゲットにデータを取得します。
 title: ページパラメーターを使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

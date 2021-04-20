@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；顧客属性
 description: 顧客属性を使用して、ターゲットにデータを取り込みます。
 title: 顧客属性を使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

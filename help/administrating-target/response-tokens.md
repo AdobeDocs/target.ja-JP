@@ -2,8 +2,8 @@
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
 description: 応答トークンをAdobe Targetで使用する方法について説明します。この方法は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力する方法を示します。
 title: 応答トークンとは何ですか。また、応答トークンの使用方法について教えてください。
-feature: 管理と設定
-role: 管理者
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

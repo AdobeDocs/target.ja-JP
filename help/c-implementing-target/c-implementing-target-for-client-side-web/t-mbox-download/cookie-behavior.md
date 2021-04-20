@@ -3,7 +3,7 @@ keywords: 概要とリファレンス;webkit
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: mbox.jsのCookieに関する情報はどこで入手できますか。
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

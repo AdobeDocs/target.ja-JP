@@ -2,7 +2,7 @@
 keywords: A4T;Adobe Analytics;Analytics ベースのアクティビティ;Analytics レポートスイート;レポートスイート;Analytics Target 統合;レポートスイートの設定
 description: Adobe TargetおよびAdobe Analyticsのソリューションにターゲット用のAnalytics(A4T)を実装するために必要な手順に従います。
 title: Analytics forターゲット(A4T)の実装方法を教えてください。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

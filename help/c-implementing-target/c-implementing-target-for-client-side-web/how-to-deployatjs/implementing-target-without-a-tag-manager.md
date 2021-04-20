@@ -2,7 +2,7 @@
 keywords: ターゲットの実装；実装；at.jsの実装；タグマネージャー；デバイス上の判定；デバイス上の判定
 description: 設定（アカウントの詳細、導入方法など）を指定する方法について説明します。 タグマネージャーを使用せずに、Adobe Targetat.jsライブラリを実装する場合。
 title: タグマネージャーを使用せずにターゲットを実装できますか。
-feature: サーバー側での実装
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

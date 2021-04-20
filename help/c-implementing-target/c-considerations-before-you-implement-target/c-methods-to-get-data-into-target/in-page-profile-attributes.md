@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；ページパラメータ
 description: ページ内プロファイル属性を使用して、ターゲットにデータを取り込みます。
 title: ページ内プロファイル属性を使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

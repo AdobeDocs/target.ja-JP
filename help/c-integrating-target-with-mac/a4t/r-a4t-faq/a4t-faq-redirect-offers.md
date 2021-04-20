@@ -2,7 +2,7 @@
 keywords: FAQ;よくある質問;analytics for target;A4T;リダイレクト;リダイレクトオファー;adobe-mc-sdid;adobe_mc_ref
 description: Analyticsをターゲットに使用する場合(A4T)のリダイレクトオファーの使用に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

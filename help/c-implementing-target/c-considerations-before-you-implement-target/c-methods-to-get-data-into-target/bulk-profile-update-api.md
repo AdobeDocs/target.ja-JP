@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；一括プロファイルの更新
 description: 一括プロファイル更新APIを使用してターゲットにデータを取り込みます。
 title: 一括プロファイル更新APIを使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

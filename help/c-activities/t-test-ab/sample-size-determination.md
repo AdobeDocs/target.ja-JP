@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB...n；サンプルサイズ；サンプルサイズ計算機；自動配分；自動配分；計算機
 description: A/Bテストを実行する期間を説明します。 Adobe TargetでA/Bテストを成功させるには、コンバージョン率を向上させるのに十分な訪問者（サンプルサイズ）が必要です。
 title: A/Bテストはどのくらいの期間実行すべきですか。
-feature: A/B テスト
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

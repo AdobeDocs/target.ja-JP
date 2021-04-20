@@ -2,7 +2,7 @@
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: 一部のWebサイトがVisual Experience Composer(VEC)で確実に開かない原因を特定します。 VEC Helper Browser Extensionを使用すると、VEC内でWebサイトを確実に読み込むことができます。
 title: Visual Experience Composer(VEC)ヘルパー拡張の使用方法を教えてください。
-feature: Visual Experience Composer（VEC）
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

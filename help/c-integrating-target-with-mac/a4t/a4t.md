@@ -2,7 +2,7 @@
 keywords: A4T;分析;ターゲットの分析;analytics レポートソース;ターゲットのレポートソースとしての adobe analytics
 description: Analytics forターゲット(A4T)を使用して、Analyticsのコンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成し、Analyticsレポートを使用して結果を調べます。
 title: ターゲット用Analytics(A4T)とは何ですか。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

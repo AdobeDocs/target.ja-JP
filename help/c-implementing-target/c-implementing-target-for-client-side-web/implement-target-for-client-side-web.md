@@ -3,7 +3,7 @@ keywords: 実装；実装；at.js;adobe experience platform web sdk;aep web sdk
 description: Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.js JavaScriptライブラリを使用して、クライアント側Web用のAdobe Targetを実装する方法を学びます。
 title: クライアント側Web用のターゲットを実装する方法
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

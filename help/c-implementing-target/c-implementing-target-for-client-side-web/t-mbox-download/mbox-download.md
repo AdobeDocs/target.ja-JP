@@ -3,7 +3,7 @@ keywords: 実装；mbox;mbox.jsのダウンロード；ダウンロードapi;mbo
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: mbox.jsを使用してターゲットを実装する方法を教えてください。
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

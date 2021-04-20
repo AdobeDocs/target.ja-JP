@@ -2,8 +2,8 @@
 keywords: ブラウザー;前提条件;要件;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
 description: Adobe Targetがインターフェイスとコンテンツ配信に対してサポートしているインターネットブラウザーを確認します。
 title: ターゲットはどのブラウザをサポートしていますか。
-feature: 実装
-role: 開発者
+feature: Implementation
+role: Developer
 translation-type: tm+mt
 source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt

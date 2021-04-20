@@ -2,7 +2,7 @@
 keywords: ターゲットドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集；更新；更新
 description: Adobe Target製品ドキュメントへの重要な追加と変更により、最新の情報を入手できます。
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
-feature: リリースノート
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

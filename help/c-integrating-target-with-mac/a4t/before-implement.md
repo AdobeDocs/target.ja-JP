@@ -2,7 +2,7 @@
 keywords: Recommendations
 description: Analyticsのターゲット用の導入要件(A4T)およびこの統合を実装する前に考慮する必要がある事項について説明します。
 title: A4Tを実装する前に知っておくべきこと
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

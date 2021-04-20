@@ -1,7 +1,7 @@
 ---
 description: Adobe Targetで使用される別の用語は何を意味しますか。 ターゲットをさらに詳しく理解するための一般的な用語の定義を確認します。
 title: ターゲットで使用されている用語と定義はどこで見つけることができますか？
-feature: 概要
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

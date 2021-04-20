@@ -2,7 +2,7 @@
 keywords: 実装；実装；設定；設定；単一プロファイルの更新
 description: 単一のプロファイル更新APIを使用してターゲットにデータを取得します。
 title: 単一のプロファイル更新APIを使用してターゲットにデータを取り込む方法を教えてください。
-feature: 実装
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

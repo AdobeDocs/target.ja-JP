@@ -2,7 +2,7 @@
 keywords: 混在コンテンツ；セキュア；セキュア；クロム；トラブルシューティング；vec;visual experience composer；アンセキュア；http;firefox;internet explorer
 description: 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。Chrome、FirefoxおよびEdgeで混合コンテンツを有効にする方法を説明します。
 title: ブラウザーで混合コンテンツを有効にする方法を教えてください。
-feature: Visual Experience Composer（VEC）
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

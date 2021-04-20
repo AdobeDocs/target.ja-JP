@@ -2,8 +2,8 @@
 keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
 description: 個別のワークスペース(製品プロファイル)を作成し、各ページ、プロパティまたはWebサイトに対して様々な役割と権限をユーザーに割り当てる方法を説明します。
 title: エンタープライズユーザー権限とは何ですか。それらの権限の使用方法を教えてください。
-feature: 管理と設定
-role: 管理者
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

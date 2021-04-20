@@ -3,7 +3,7 @@ keywords: 実装;mbox.js; DOM 操作ライブラリ;target.js;Visual Experience 
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
 title: ターゲットmbox.jsライブラリの機能
 feature: at.js
-role: 開発者
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

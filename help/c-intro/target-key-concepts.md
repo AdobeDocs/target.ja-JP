@@ -2,7 +2,7 @@
 keywords: 概要と参照；アクティビティタイプ；概要
 description: Adobe Targetの基礎を学ぶ。 この記事では、ターゲット、アクティビティタイプ、その他の機能について説明します。
 title: ターゲットの使い方
-feature: 概要
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

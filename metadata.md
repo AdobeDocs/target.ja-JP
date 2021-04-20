@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: target
 solution: Target
 audience: end-user
-type: ドキュメント
+type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.ja-JP
 index: true
-role: 開業医
-level: 中間
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: analyticsトラッキングサーバー；A4T;Adobe Experience Cloudデバッガー；Adobe Experience Platformデバッガー；レポートソース；開発者ツール
 description: '古いバージョンのat.jsまたはmbox.jsを使用している場合に、Analyticsをターゲットに使用するアクティビティ(A4T)に対してAnalyticsトラッキングサーバーを指定する方法を説明します。 '
 title: Analyticsトラッキングサーバーの使用方法を教えてください。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

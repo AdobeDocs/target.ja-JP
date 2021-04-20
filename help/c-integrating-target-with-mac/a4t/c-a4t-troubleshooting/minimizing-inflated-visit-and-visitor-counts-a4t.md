@@ -2,7 +2,7 @@
 keywords: 部分的なデータ;部分的なデータ;A4T; 矛盾;Analytics for Target;親なし;仮想レポートスイート;ファントム;トラブルシューティング;未関連付け;水増し;未指定
 description: Analyticsでターゲットを行う場合(A4t)に、水増しされた訪問と訪問者カウントの影響を最小限に抑える方法を説明します。 「部分的なデータ」とは何かと、それを減らす方法を学びます。
 title: A4Tでの水増しされた訪問と訪問者カウントを最小限に抑える方法を教えてください。
-feature: Analytics for Target（A4T）
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
