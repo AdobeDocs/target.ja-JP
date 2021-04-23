@@ -2,17 +2,17 @@
 keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
 description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数、パラメータのリストを表示します。
 title: ターゲットで使用されるプロファイル、変数、パラメーター
-feature: Audiences
+feature: オーディエンス
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# プロファイルと変数の用語集{#profile-and-variable-glossary}
+# プロファイルと変数の用語集
 
 このページには、プロファイルスクリプトで役立つプロファイル、変数およびパラメーターの一覧を記載しています。
 
