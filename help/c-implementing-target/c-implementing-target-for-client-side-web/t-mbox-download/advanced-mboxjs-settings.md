@@ -1,14 +1,14 @@
 ---
 keywords: 高度な mbox.js 設定;クライアント;サーバードメイン;xdomain;圧縮レベル;クライアントセッション id サポート;secureOnly;クライアント pc id サポート;ページを渡す;参照 url;トラフィックレベル;トラフィックの期間;mboxParameters() 関数本体;mboxSupported() 関数本体;mboxCookieDomain() 関数本体;Extra JavaScript;SiteCatalyst プラグイン;自己解凍型 JavaScript として mbox.js を取得;ちらつき;本文非表示;本文を隠す
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
-title: ターゲットmbox.jsライブラリの設定方法を教えてください。
+title: 'mbox.jsライブラリの設定方法を教えてください。 [!DNL Target] '
 feature: at.js
 role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 71%
 
 ---
