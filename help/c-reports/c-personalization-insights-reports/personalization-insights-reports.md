@@ -2,17 +2,17 @@
 keywords: ターゲット設定;AP レポート;Automated Personalization レポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;自動セグメント;FAQ;よくある質問;重要な属性
 description: Automated Personalization(AP)および自動ターゲット(AT)アクティビティ用の特殊なレポート（自動セグメントと重要な属性）の使用方法を説明します。
 title: パーソナライゼーションインサイトレポートの使用方法
-feature: Reports
+feature: レポート
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 65%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) パーソナライゼーションインサイトレポート{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) パーソナライゼーションインサイトレポート
 
 [!UICONTROL Automated Personalization]（AP）および自動ターゲット（AT）アクティビティのユーザーは、[!UICONTROL 自動セグメント]レポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
 
