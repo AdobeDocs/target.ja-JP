@@ -1,18 +1,18 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソースのVelocityデザイン言語を使用して、Adobe TargetRecommendationsのレコメンデーションデザインをカスタマイズする方法を学びます。
+description: オープンソースのVelocityデザイン言語を使用して、Adobe [!DNL Target] Recommendationsのレコメンデーションデザインをカスタマイズする方法を学びます。
 title: Velocityを使用してデザインをカスタマイズする方法を教えてください。
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Velocity を使用したデザインのカスタマイズ{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) Velocity を使用したデザインのカスタマイズ
 
 [!DNL Adobe Target Recommendations]でレコメンデーションデザインをカスタマイズするには、オープンソースのVelocityデザイン言語を使用します。
 
