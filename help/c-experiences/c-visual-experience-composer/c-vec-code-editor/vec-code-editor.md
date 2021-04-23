@@ -1,18 +1,18 @@
 ---
 keywords: css セレクター;カスタムコード;コードエディター;モバイル Web エクスペリエンスエディター
-description: Adobe Targetの「変更」パネルを使用してページの変更を表示し、変更を追加する方法（CSSセレクター、Mbox、カスタムコード）について説明します。
+description: Adobe [!DNL Target] の変更パネルを使用してページの変更を表示し、変更を追加する方法（CSSセレクター、Mbox、カスタムコード）を説明します。
 title: ページに対してどのような変更を行えますか。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 95%
 
 ---
 
-
-# 変更{#modifications}
+# 変更
 
 [!DNL Adobe Target]の「変更」ページに関する情報です。このページでは、表示による変更をページに加え、さらに変更（CSSセレクター、Mbox、カスタムコード）を追加できます。
 
