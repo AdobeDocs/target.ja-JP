@@ -1,16 +1,16 @@
 ---
 keywords: 優先度;エクスペリエンス作成;優先度;エクスペリエンス;オーディエンス;エクスペリエンス;エクスペリエンスの切り替え;visual experience composer
-description: 訪問者がプロファイルの発展に応じて、Adobe Targetエクスペリエンスターゲット設定(XT)アクティビティのエクスペリエンスを切り替える方法を説明します。
+description: 訪問者がプロファイルの発展に応じて、Adobe [!DNL Target] エクスペリエンスターゲット設定(XT)アクティビティのエクスペリエンスを切り替える方法を説明します。
 title: 訪問者は、エクスペリエンスのターゲット設定アクティビティでエクスペリエンスを切り替えることができますか？
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # エクスペリエンスターゲット設定でのエクスペリエンスの切り替え
 
@@ -72,4 +72,3 @@ ht-degree: 96%
    これは、訪問者が複数のオーディエンスの資格を得る可能性があるシナリオで覚えておくべき重要な点です。例えば、「United States」（米国）をターゲットにしたものと「New York」（ニューヨーク）をターゲットにしたものの 2 つのエクスペリエンスがある場合、ニューヨークにいる訪問者は、両方のオーディエンスの資格を得ます。そのため、Target UI で「New York」エクスペリエンスが「United States」エクスペリエンスの前に定義されていることを確認する必要があります。これにより、次の例のように、「New York」エクスペリエンスがターゲットになればなるほど、優先度が高くなります。
 
    ![優先度：ニューヨーク > 米国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
