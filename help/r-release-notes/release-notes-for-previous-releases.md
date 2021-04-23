@@ -2,17 +2,17 @@
 keywords: リリースノート
 description: Adobe Targetの以前のリリースに含まれる機能、拡張機能、および修正のリストを表示します。
 title: 以前のリリースにはどのような機能が含まれていますか。
-feature: Release Notes
+feature: リリースノート
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30834'
-ht-degree: 84%
+source-wordcount: '30801'
+ht-degree: 83%
 
 ---
 
-# 以前のリリースのリリースノート{#release-notes-for-previous-releases}
+# 以前のリリースのリリースノート
 
 Target Standard/Premiumのリリースノート、ターゲットプラットフォーム、ターゲットJavaScriptライブラリ(at.js)など、以前のターゲットリリースに関するリリースノートです。
 
@@ -88,7 +88,7 @@ at.jsのこのリリースはメンテナンスリリースであり、次の修
 
 | 機能 | 詳細 |
 | --- | --- |
-| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル全体にわたって、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
+| [オンデバイス判定](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | デバイス上の判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネル間で、ほぼゼロの遅延で提供できます。<br>スピードとパフォーマンスは重要です。顧客の洞察とユーザー満足度に関して。<br>On-device decisioningを使用すると、A/B Test and Experience Targeting(XT)アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルして、CDN経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSONオブジェクトを生成できます。また、オンデバイス判定は[!DNL Adobe Experience Cloud]製品とネイティブに接続されるので、[!DNL Target]ユーザーは迅速な分析を得られ、エクスペリエンスの反復速度が速くなります。<br>詳しくは、「*[オンデバイスの判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)」を参照してください。 |
 
 このリリースには、次の機能強化、修正および変更が含まれています。
 
@@ -390,7 +390,7 @@ Target Standard/Premium 20.1.1リリースはメンテナンスリリースで�
    * [!DNL Identity Management System](IMS)組織間または別のソリューションへの切り替えが容易になりました。
    * ユーザーヘルプの改善：検索結果には、[!DNL Target]製品ドキュメントの結果、コミュニティフォーラムやビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、[!DNL Target]を最大限に活用できます。 また、[!UICONTROL ヘルプ]メニューにフィードバックのメカニズムが追加され、問題の報告やアイデアの共有が容易になりました。
 
-   * ネットプロモータースコア(NPS)のフィードバック機能が強化され、調査モーダルが作業の流れを妨げないようになりました。
+   * ネットプロモータースコア(NPS)のフィードバック機能が改善され、調査モーダルが作業の流れを妨げないようになりました。
    * ログインフローが改善されました。 以前は、すべての[!DNL Target]ユーザーは、ターゲットランディングページの[!DNL Target]アイコンをクリックした後、ヘッダーヘッダーに移動しました。 次に示すように、このページでは、お客様は[!DNL Target Standard/Premium]、[!DNL Search&Promote]、または[!DNL Recommendations Classic]に進むことができました。
 
       ![ランディングページ](/help/r-release-notes/assets/landing.png)
@@ -2014,7 +2014,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>拡張 Visual Experience Composer（VEC） </p> </td> 
-   <td colname="col2"> <p>拡張 Visual Experience Composer（VEC）の IP アドレスを更新しました。 </p> <p>VECに使用するIPアドレスを許可リストする場合は、新しいIPアドレスを追加します。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Visual Experience Composer のトラブルシューティング</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>拡張 Visual Experience Composer（VEC）の IP アドレスを更新しました。 </p> <p>VECに使用するIPアドレス許可リストをする場合は、新しいIPアドレスを追加します。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Visual Experience Composer のトラブルシューティング</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2200,7 +2200,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 * 現在、Visual Experience Composer でカスタムコードとともに使用する場合は、「[!UICONTROL JavaScript を使用してレンダリング]」オプションがサポートされません。
 
-### Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe[!DNL Target] Standard/Premium 16.8.1（2016年8月23日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日）リリースには次の機能および機能強化が含まれています。
 
@@ -2271,7 +2271,7 @@ Adobe Target Standard／Premium 16.8.1（2016 年 8 月 24 日）リリースに
  </tbody> 
 </table>
 
-### Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日） {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe[!DNL Target] Standard/Premium 16.7.1（2016年7月21日） {#section_DB583EF9A30247A488EE319583911F22}
 
 Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースには次の機能および機能強化が含まれています。
 
@@ -2336,7 +2336,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
  </tbody> 
 </table>
 
-### Adobe Target Standard／Premium 16.6.1（2016 年 6 月 17 日） {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe[!DNL Target] Standard/Premium 16.6.1（2016年6月16日） {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 お客様向けのリリースは 6 月には予定されていません。
 
@@ -2366,7 +2366,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 22 日）リリースに
 
    古いアクティビティについては、もしアクティビティの Experience Composer でこのオプションがチェックされていた場合は、クエリのパラメーターがリダイレクトに含まれることになります。チェックされていない場合は、現在のクエリのパラメーターはリダイレクトに含まれません。
 
-### Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）  {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe[!DNL Target] Standard/Premium 16.5.1（2016年5月19日） {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 Adobe Target Standard／Premium 16.5.1（2016 年 5 月 20 日）リリースには次の機能および機能強化が含まれています。
 
@@ -2440,7 +2440,7 @@ A4T プロビジョニング処理を改善するための改良をおこない�
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
 * リダイレクトを含むエクスペリエンスのエクスペリエンスプレビュー URL に問題があります。対応策は、Experience Composer で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL 複数オーディエンス]**」を選択、**[!UICONTROL すべての訪問者]**&#x200B;を唯一のオーディエンスとして追加します。続けてアクティビティを保存します。アクティビティの配信は変更されませんが、プレビューは動作するようになります。これは、7 月の Adobe Target リリースで修正される予定です。
 
-### 新しい Target 実装ライブラリ、at.js 0.8.0（2016 年 5 月 6 日）  {#section_6A44C277E82D409AB6DCD0901F43794A}
+### 新しい[!DNL Target]実装ライブラリ、at.js 0.8.0（2016年5月5日） {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js は、一般的な Web 実装とシングルページアプリケーションの両方のために設計された、Target の新しい実装ライブラリです。
 
@@ -2455,7 +2455,7 @@ at.js を実装する際には、以下のことに注意してください。
 * 非同期実装は、Test&amp;Target と SiteCatalyst プラグインのような従来の統合が動作しない可能性があることを意味します。
 * Target に対するすべての呼び出しは XMLHTTPRequest を使用しておこなわれ、コンテンツは JSON を使用して返されます。
 
-### Adobe Target Standard／Premium 16.4.1（2016 年 5 月 6 日）  {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe[!DNL Target] Standard/Premium 16.4.1修正（2016年5月5日） {#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js バージョン 0.8.0 が Target インターフェイスからダウンロードできるようになりました。
 * Target API が変更されました。`applyOffer` が必要`mbox param [0]`になりました。
@@ -2469,7 +2469,7 @@ at.js を実装する際には、以下のことに注意してください。
    });
    ```
 
-### Adobe Target Standard／Premium 16.4.1（2016 年 4 月 22 日） {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe[!DNL Target] Standard/Premium 16.4.1（2016年4月21日） {#section_C968860FAB81485BA12BD588F4ECA401}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2541,7 +2541,7 @@ at.js を実装する際には、以下のことに注意してください。
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が無効になっている場合、他のページで「JavaScript を無効にする」を選択していなくても、すべてのページで JavaScript が無効になります。
 
-### Adobe Target Standard／Premium 16.3.1（2016 年 3 月 16 日）  {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe[!DNL Target] Standard/Premium 16.3.1（2016年3月15日） {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2590,7 +2590,7 @@ at.js を実装する際には、以下のことに注意してください。
    * Firefox または Internet Explorer を使用します。
    * 拡張Experience Composerを有効にします。拡張Experience Composerは、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;タブから設定できます。
 
-### Adobe Target Standard／Premium 16.2.1（2016 年 2 月 19 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe[!DNL Target] Standard/Premium 16.2.1（2016年2月18日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2612,7 +2612,7 @@ at.js を実装する際には、以下のことに注意してください。
    * Firefox または Internet Explorer を使用します。
    * 拡張Experience Composerを有効にします。拡張Experience Composerは、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;タブから設定できます。
 
-### Adobe Target Standard／Premium 16.1.1（2016 年 2 月 1 日） {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe[!DNL Target] Standard/Premium 16.1.1（2016年1月28日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2692,7 +2692,7 @@ at.js を実装する際には、以下のことに注意してください。
 
 ## リリース 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard／Premium 15.10.1（2015 年 11 月 3 日） {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe[!DNL Target] Standard/Premium 15.10.1（2015年11月2日） {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2802,7 +2802,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.9.1（2015 年 10 月 1 日）  {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe[!DNL Target] Standard/Premium 15.9.1（2015年9月30日） {#section_A54204291A99476688E8C0BD8255F93C}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -2878,7 +2878,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.8.1（2015 年 8 月 21 日）  {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe[!DNL Target] Standard/Premium 15.8.1（2015年8月21日） {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 このリリースの目的は、Target Classic と機能を同等にすることです。Target Classic で最も多く使用された機能は、Target Standard でも利用できるようになりました。
 
@@ -2943,7 +2943,7 @@ target/r_release-notes-2015.xml
  </tbody> 
 </table>
 
-### Adobe Target Standard／Premium 15.7.1（2015 年 7 月 31 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe[!DNL Target] Standard/Premium 15.7.1（2015年7月30日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3004,7 +3004,7 @@ target/r_release-notes-2015.xml
 
 * 複数ページアクティビティのページ A で「JavaScript を無効にする」が有効になっているときに、すべてのページで JavaScript が有効のままになり、この機能は無効のままになります。
 
-### Adobe Target Standard／Premium 15.6.1（2015 年 6 月 26 日）  {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe[!DNL Target] Standard/Premium 15.6.1（2015年6月25日） {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3055,7 +3055,7 @@ target/r_release-notes-2015.xml
 * オーディエンス作成画面に mbox パラメーターが常に表示されない問題を修正しました。
 * Recommendations デザインのサムネールの更新をブロックしていた問題を修正しました。
 
-### Adobe Target Standard／Premium 15.5.1 修正プログラム（2015 年 5 月 29 日）  {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe[!DNL Target] Standard/Premium 15.5.1_修正プログラム（2015年5月28日） {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 この修正プログラムリリースには、次の修正が含まれています。
 
@@ -3063,7 +3063,7 @@ target/r_release-notes-2015.xml
 * 一部のユーザーで、「アクティビティを作成」ボタンが適切に表示されていなかった問題を修正しました。
 * A/B アクティビティおよびエクスペリエンスのターゲット設定アクティビティの編集中に、Visual Experience Composer で「アクティビティ名」テキストボックスが非表示になっていた問題を修正しました。
 
-### Adobe Target Standard／Premium 15.5.1（2015 年 5 月 22 日）  {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe[!DNL Target] Standard/Premium 15.5.1（2015年5月21日） {#section_FF0F959908784AF0906EFB9E8324F207}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3160,7 +3160,7 @@ target/r_release-notes-2015.xml
 * Recommendations で、（多言語の場合に）全角文字が使用されている属性がインクルージョンフィルタールールで無視されていた問題を修正しました。
 * すべてのアクティビティタイプで、最大 200 文字までのアクティビティ名がサポートされるようになりました。
 
-### Adobe Target Standard／Premium 15.3.1（2015 年 3 月 27 日）  {#section_591371851693496C820175753F588E73}
+### Adobe[!DNL Target] Standard/Premium 15.3.1（2015年3月26日） {#section_591371851693496C820175753F588E73}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3210,7 +3210,7 @@ target/r_release-notes-2015.xml
 
 * Analytics が Target のレポートソースとして使用されている場合に、Target Standard／Premium での多変量テストに対する Target ベースの変換イベントが報告されません。この問題は、まもなく修正される予定です。
 
-### Adobe Target 15.2.1（2015 年 2 月 20 日） {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe[!DNL Target] 15.2.1 （2015年2月19日） {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3235,7 +3235,7 @@ target/r_release-notes-2015.xml
 
 * ページを再訪問したときにリダイレクトオファーが機能しなかったエラーを修正しました。
 
-### Adobe Target 15.1.1（2015 年 1 月 23 日）  {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe[!DNL Target] 15.1.1 （2015年1月22日） {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3278,7 +3278,7 @@ target/r_release-notes-2015.xml
 
 ## リリース 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2（2014 年 11 月 7 日） {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe[!DNL Target] 14.10.2 （2014年11月6日） {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3288,7 +3288,7 @@ target/r_release-notes-2014.xml
 
 このマイナーリリースは、主にサーバーの安定性に焦点を当てています。このパッチの一部としての新機能はありません。
 
-### Adobe Target 14.10.1（2014 年 10 月 31 日）  {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe[!DNL Target] 14.10.1 （2014年10月30日） {#section_D557CB331A004155B91CFE5B197076F3}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3304,7 +3304,7 @@ target/r_release-notes-2014.xml
 * 概要ページにアクティビティの目標が表示されます。
 * HTML 編集ボックスに JavaScript が入力されると、警告が表示されます。
 
-### Adobe Target 14.9.1（2014 年 9 月 20 日）  {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe[!DNL Target] 14.9.1 （2014年9月19日） {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 このリリースには、次の機能および機能強化が含まれています。
 
@@ -3321,7 +3321,7 @@ target/r_release-notes-2014.xml
 * 自動パーソナライゼーションのエクスペリエンスエディターで、変更したビデオオファーが変更したものとして表示されなかった問題を修正しました。
 * アクティビティの競合ページが Google Chrome で空白のページとして表示されなかった問題を修正しました。
 
-### Adobe Target 14.8.1（2014 年 8 月 22 日）  {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe[!DNL Target] 14.8.1 （2014年8月21日） {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3344,7 +3344,7 @@ target/r_release-notes-2014.xml
 * クリックトラックのコンバージョンエラーを修正しました `target="_blank" functions.`
 * クリック追跡でページ外をナビゲートしていた問題を修正しました。
 
-### Adobe Target 14.6.1（2014 年 6 月 26 日）  {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe[!DNL Target] 14.6.1 （2014年6月25日） {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3393,13 +3393,13 @@ target/r_release-notes-2014.xml
 
 * 削除した項目が引き続き表示されるエラーを修正しました。
 
-### Adobe Target Standard 14.5（2014 年 5 月 29 日）  {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe[!DNL Target]標準14.5 （2014年5月28日） {#section_530EAB9376414D4989CA0740361DDCC2}
 
 このリリースには、次のバグ修正が含まれています。
 
 * エクスペリエンスのプレビューが期待どおり動作していなかった問題を修正しました。
 
-### Adobe Target Standard 1.7（2014 年 4 月 29 日）  {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe[!DNL Target]標準1.7 （2014年4月28日） {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Target Standard 1.7 リリースのウェビナー](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3450,7 +3450,7 @@ target/r_release-notes-2014.xml
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 * 画像を置き換えてサイズを変更すると、Experience Editor でエクスペリエンスが正しく表示されません。
 
-### Adobe Target Standard 1.6（2014 年 3 月 18 日）  {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe[!DNL Target]標準1.6 （2014年3月17日） {#section_DB1319CDD8944F6FB749E525EB551017}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3478,7 +3478,7 @@ target/r_release-notes-2014.xml
 * オーディエンス検索ボックスで ASCII 以外の文字がサポートされていません。
 * スペイン語および日本語バージョンのユーザーが開始日と終了日を設定した後にアクティビティを保存するとエラーが発生します。開始日と終了日を設定しないで保存した後、必要に応じてアクティビティの概要ページまたはアクティビティ一覧ページでアクティビティをアクティブ化したり停止したりすることをお勧めします。
 
-### Adobe Target Standard 1.5（2014 年 2 月 26 日）  {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe[!DNL Target]標準1.5 （2014年2月25日） {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 このリリースには、次の新機能が含まれています。
 
@@ -3512,7 +3512,7 @@ target/r_release-notes-2014.xml
 * Target Advanced でジオロケーションが無効な場合に Target Standard で地理オーディエンスが作成されると、同期エラーが発生します。
 * 画像が CSS で参照されている場合、その画像を置き換えることができません。
 
-### Adobe Target Standard 1.4（2014 年 1 月 21 日）  {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe[!DNL Target]標準1.4 （2014年1月20日） {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3564,7 +3564,7 @@ target/r_release-notes-2014.xml
 
 ## リリース 2013
 
-### Adobe Target Standard 1.3（2013 年 11 月 20 日）{#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe[!DNL Target]標準1.3 （2013年11月19日） {#section_D633ACA56FA941648219EB3748D814EC}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -3586,7 +3586,7 @@ target/r_release-notes-2014.xml
 * Visual Experience Composer を使用して再配置された要素で、クリックの追跡が動作しません。このバグが修正されるまで、再配置された要素にクリックの追跡を設定しないでください。
 * mbox にまとめられたコンテンツに対して、**[!UICONTROL 削除]**&#x200B;アクションは選択できません。
 
-### Adobe Target Standard 1.2（2013 年 11 月 1 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe[!DNL Target]標準1.2 （2013年10月31日） {#section_420B5E910D7341AA8DB059C8E1071D53}
 
 このリリースには既知の問題が 4 つあります。これらの問題は、今後の更新で修正される予定です。
 
@@ -3608,7 +3608,7 @@ target/r_release-notes-2014.xml
 * ロケーションのドロップダウンメニューに、キーボード入力機能を追加しました。
 * アクティビティで使用されているオファーを削除するときに表示されるエラーメッセージを改善しました。
 
-### Adobe Target Standard 1.1（2013 年 10 月 19 日）  {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe[!DNL Target]標準1.1 （2013年10月18日） {#section_79FA6A61D2284D41A34F00014A342F07}
 
 このリリースには、次の修正および機能強化が含まれています。
 
