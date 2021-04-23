@@ -1,17 +1,17 @@
 ---
-description: Adobe Targetで使用される別の用語は何を意味しますか。 ターゲットをさらに詳しく理解するための一般的な用語の定義を確認します。
+description: Adobe [!DNL Target] で使用される別の用語の意味  [!DNL Target]をもっと知るのに役立つ、一般的な用語の定義を見つけてください。
 title: ターゲットで使用されている用語と定義はどこで見つけることができますか？
-feature: Overview
+feature: 概要
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2470'
 ht-degree: 90%
 
 ---
 
-
-# 用語集{#glossary}
+# 用語集
 
 用語の定義について説明します。
 
