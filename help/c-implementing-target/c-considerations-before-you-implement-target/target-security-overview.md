@@ -1,17 +1,17 @@
 ---
 keywords: セキュリティ;セキュリティ対策
-description: AdobeがデータとAdobe Targetのエクスペリエンスのセキュリティを強化するために使用する手順について説明します。 『Adobe Targetセキュリティの概要』ホワイトペーパーをダウンロードします。
-title: ターゲットはデータのセキュリティをどのように処理するか
-feature: Privacy & Security
+description: AdobeがデータとAdobeのセキュリティを強化するために使用する手順について説明します。 [!DNL Target] experience. Download the Adobe [!DNL Target] セキュリティの概要に関するホワイトペーパー。
+title: ' [!DNL Target] データのセキュリティをどのように処理しますか？'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 74%
+source-wordcount: '160'
+ht-degree: 76%
 
 ---
-
 
 # Target のセキュリティの概要
 
