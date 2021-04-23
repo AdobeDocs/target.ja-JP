@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット用の分析；a4t;レポートソースとしての分析；analytics
-description: Analyticsをターゲットに使用する方法(A4T)について説明します。 A4Tは、Analytics指標とオーディエンスセグメントを使用するターゲットアクティビティのAnalyticsレポートへのアクセスを提供します。
+description: Analytics指標とオーディエンスセグメントを使用する [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] アクティビティに対してAnalyticsを使用する方法を説明します。
 title: A4Tでレポートを使用する方法
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 28%
 
 ---
 
-
-# A4T レポート{#a-t-reporting}
+# A4T レポート
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target] (A4T)のレポートソースとして使用すると、[!DNL Target]アクティビティの[!DNL Analytics]レポートにアクセスできます。
 
@@ -57,7 +57,7 @@ ht-degree: 28%
 
 詳細な情報と例については、[Analytics &amp;ターゲットを開きます。Adobe Experience Leagueが提供する分析](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)のベストプラクティスのチュートリアル。
 
-## Target のレポート {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}のレポート
 
 [!DNL Analytics]をレポートソースとして使用すると、[!DNL Target]のレポートには、[!DNL Analytics]から収集されたデータが表示されます。 このレポートは他の[!DNL Target]レポートと少し異なります。
 
@@ -76,7 +76,7 @@ ht-degree: 28%
 
 アクティビティを作成する場合は、[!UICONTROL 設定]ページでアクティビティの目標を指定する必要があります。この目標は、レポートのデフォルトの指標となり、指標セレクターで常に先頭に表示されます。通常の Target アクティビティとは異なり、レポート用のセグメントを自由に選択できません。[!DNL Analytics]を使用したテストでは、[!DNL Target]オーディエンスではなく[!DNL Adobe Analytics]セグメントが使用されます。
 
-## ターゲット用のAnalytics(A4T) {#section_33A97A691F3A45D497DAF57A844388F0}に対するオフライン計算の実行
+## Analytics for Analytics (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}に対するオフライン計算の実行
 
 A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
 
