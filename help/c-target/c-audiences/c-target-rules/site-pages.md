@@ -1,18 +1,18 @@
 ---
 keywords: サイトページ；ターゲットサイトページ；ターゲット；現在のページ；ターゲットの現在のページ；前のページ；ターゲットの前のページ；ランディングページ;ターゲットのランディングページ;httpヘッダ
-description: サイトの特定のページにいるAdobe Targetを使用して訪問者をターゲットする方法を学びます。
-title: サイトページに基づいてターゲット訪問者を作成できますか。
-feature: Audiences
+description: サイト上の特定のページにいるAdobe [!DNL Target] を使用して訪問者をターゲットする方法を学びます。
+title: サイトのページに基づいて訪問者を [!DNL Target] できますか。
+feature: オーディエンス
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# サイトのページ{#site-pages}
+# サイトのページ
 
 サイトの特定のページにいるターゲット訪問者を訪問できます。
 
