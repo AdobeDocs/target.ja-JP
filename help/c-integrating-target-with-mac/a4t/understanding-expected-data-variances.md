@@ -1,18 +1,18 @@
 ---
 keywords: データ相違;analytics;差異;相違;A4T;analytics for target;レポートソースとしての analytics;差違;不整合
-description: Analyticsをターゲット用に使用しない場合(A4T)、Adobe TargetとAnalyticsの間で予期されるデータの相違について説明します。これにより、データの相違が完全に解消されます。
+description: Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T)との間で予期されるデータの相違について説明します。これにより、データの相違が完全に解消されます。
 title: AnalyticsとA4Tの間で予想されるデータの相違点は何ですか。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 49%
 
 ---
 
-
-# A4Tを使用する場合と使用しない場合に、Adobe TargetとAdobe Analyticsの間で予期されるデータの相違
+# A4Tを使用する場合と使用しない場合に、Adobe[!DNL Target]とAdobe Analyticsの間で予期されるデータの相違
 
 Analytics をレポートソース（A4T）として&#x200B;*使用する*&#x200B;場合と&#x200B;*使用しない*&#x200B;場合の [!DNL Target] と Adobe [!DNL Analytics] の予期されるデータの相違に関する情報です。A4T はデータの相違を大幅に削減します.
 
