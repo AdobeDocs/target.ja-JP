@@ -1,16 +1,16 @@
 ---
 keywords: エクスペリエンスのターゲット設定;ランディングページテスト
-description: '要素セレクターは、1つ以上の要素を識別できるCSS式です。 Adobe TargetVisual Experience Composer(VEC)でのエレメントセレクターの使用方法を説明します。 '
+description: '要素セレクターは、1つ以上の要素を識別できるCSS式です。 Adobe [!DNL Target] Visual Experience Composer(VEC)でのエレメントセレクターの使用方法を説明します。 '
 title: Visual Experience Composer(VEC)でエレメントセレクターを使用できますか。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 82%
+source-wordcount: '430'
+ht-degree: 80%
 
 ---
-
 
 # Visual Experience Composer で使用される要素セレクター
 
@@ -28,7 +28,7 @@ CSS セレクターの基本的な情報については、Mozilla Developer Netw
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 
-## Adobe Target における要素に対するセレクターの生成のしくみ {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe[!DNL Target]要素{#section_D89D954BCBFB486CA081BE183776A475}のセレクターを生成する方法
 
 Target では、シンプルなアルゴリズムを使用してセレクターが作成されます。以下では、生成のロジックについて簡単に説明します。
 
@@ -100,4 +100,3 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
 * DOM で要素を一意に指定できてさえいれば、任意の CSS セレクターを使用することができます。
 * 上記の方法は、いくつかある方法のうち、Target が使用しているものです。必ずこの方法を使用しなければならないわけではありません。1 つ目のポイントが守られていれば、任意のセレクターを追加できます。
 * セレクターでは、任意の属性を使用できます。このドキュメントでは、例としてクラス名のみを使用しています。
-
