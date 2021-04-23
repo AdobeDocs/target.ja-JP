@@ -1,16 +1,16 @@
 ---
 keywords: ランダムフォレスト；デシジョンツリー；ap;Automated Personalization
-description: Automated Personalization(AP)と自動ターゲットアクティビティの両方で、Adobe Targetがランダムフォレストアルゴリズムを使用する方法を説明します。
-title: ターゲットはランダムフォレストアルゴリズムをどのように使用しますか？
-feature: Automated Personalization
+description: Adobe [!DNL Target] が、Automated Personalization(AP)と自動ターゲットアクティビティの両方でランダムフォレストアルゴリズムを使用する方法を説明します。
+title: ' [!DNL Target] ランダムフォレストアルゴリズムの使用方法'
+feature: 自動パーソナライゼーション
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![プレミアム](/help/assets/premium.png) ランダムフォレストアルゴリズム
 
