@@ -1,17 +1,17 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Google Chromeバージョン80で導入されたSameSite IETF標準のAdobe Targetでの扱い方と、これらのポリシーに従うために必要な操作を確認してください。
-title: ターゲットはGoogleの同じCookieポリシーをどのように処理しますか。
-feature: Privacy & Security
+description: Adobe [!DNL Target] がGoogle Chromeバージョン80で導入されたSameSite IETF標準をどのように扱うか、およびこれらのポリシーに従うために必要な作業を確認します。
+title: ' [!DNL Target] Googleの同じCookieポリシーはどのように処理されますか。'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 7%
 
 ---
-
 
 # Google Chrome SameSite cookie ポリシー
 
@@ -19,7 +19,7 @@ Googleは、2020年初頭にリリース予定のChrome 80以降のユーザー�
 
 Chrome 80以降、Web開発者は、Webサイト間で機能するCookieを明示的に指定する必要があります。 これは、GoogleがWeb上のプライバシーとセキュリティを改善するために計画している多くのお知らせの中で初めてです。
 
-プライバシーとセキュリティに関してFacebookが注目を浴びているという事実を考えると、AppleやGoogleなど他の主要プレーヤーは、プライバシーとセキュリティのチャンピオンとして新しいIDを作成する機会を利用して、すぐに利用できます。 Appleは、今年初めにITP 2.1を通じてCookieポリシーに変更を発表し、最近はITP 2.2を採用しました。ITP 2.1では、AppleはサードパーティCookieを完全にブロックし、ブラウザーで作成されたCookieを7日間のみ保持します。 ITP 2.2では、cookieは1日のみ保持されます。 Googleの発表は、Appleの発表ほど積極的ではありませんが、同じ最終目標を達成するための第一歩です。 Appleのポリシーについて詳しくは、[Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)を参照してください。
+facebookがプライバシーとセキュリティーに関して注目を浴びているという事実を考えると、AppleやGoogleなど他の主要プレーヤーは、プライバシーとセキュリティーの擁護者として新しいアイデンティティーを生み出す機会を利用して、すぐに利用できます。 Appleは、今年初めにITP 2.1を通じてCookieポリシーに変更を発表し、最近はITP 2.2を採用しました。ITP 2.1では、AppleはサードパーティCookieを完全にブロックし、ブラウザーで作成されたCookieを7日間のみ保持します。 ITP 2.2では、cookieは1日のみ保持されます。 Googleの発表は、Appleの発表ほど積極的ではありませんが、同じ最終目標を達成するための第一歩です。 Appleのポリシーについて詳しくは、[Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)を参照してください。
 
 ## cookieとは何ですか。cookieの使用方法は何ですか。
 
@@ -43,7 +43,7 @@ Cookieは、Webを閲覧する際のユーザーの操作性を高めるので�
 
 cookieはユーザーの操作性と電力広告を強化しますが、クロスサイト要求偽造(CSRF)攻撃のようなセキュリティの脆弱性を導入する可能性もあります。 例えば、ユーザーがクレジットカードの請求書を支払うために銀行サイトにログインし、ログアウトせずにサイトを離れ、同じセッションで悪質なサイトを閲覧した場合、CSRF攻撃が発生する可能性があります。 悪質なサイトには、ページが読み込まれたときに実行される、銀行サイトへのリクエストを行うコードが含まれている場合があります。 このユーザーは依然としてバンキングサイトで認証されるので、セッションcookieを使用してCSRF攻撃を開始し、ユーザーの銀行口座から資金移動イベントを開始できます。 これは、サイトを訪問するたびに、すべてのcookieがHTTPリクエストに添付されるからです。 セキュリティ上の懸念があるためGoogleは現在、セキュリティを軽減しようとしています。
 
-## ターゲットでcookieを使用する方法
+## [!DNL Target]はどのようにcookieを使用しますか？
 
 以上に、[!DNL Target]がcookieをどのように使うかを見てみましょう。 まず[!DNL Target]を使用するには、サイトに[!DNL Target] JavaScriptライブラリをインストールする必要があります。 これにより、サイトの訪問者のブラウザーにファーストパーティCookieを配置できます。 ユーザーがWebサイトを操作するときに、JavaScriptライブラリを介してユーザーの行動および関心データを[!DNL Target]に渡すことができます。 [!DNL Target] JavaScriptライブラリは、ファーストパーティcookieを使用して、ユーザーに関する識別情報を抽出し、ユーザーの行動と関心データにマッピングします。 このデータは[!DNL Target]によってパーソナライズアクティビティに力を与えるために使用されます。
 
@@ -94,7 +94,7 @@ Adobe時には、セキュリティとプライバシーに関する業界の最
 | at.js 1.*x* （クロスドメイントラッキングが有効になっている場合） | 影響なし。 | サイトでHTTPSプロトコルを有効にする必要があります。<br>[!DNL Target] ユーザーを追跡するためにサードパーティcookieを使用し、Googleはサードパーティcookieに対して「保 `SameSite = None` 護」フラグを設定するよう求めます。セキュアフラグを使用するには、サイトでHTTPSプロトコルを使用する必要があります。 |
 | at.js 2.*x* | 影響なし。 | 影響なし。 |
 
-## ターゲットは何をする必要がありますか。
+## [!DNL Target]は何をする必要がありますか？
 
 新しいGoogle Chrome 80+ SameSite cookieポリシーに準拠するために、アドビのプラットフォームで必要なことは何ですか？
 
