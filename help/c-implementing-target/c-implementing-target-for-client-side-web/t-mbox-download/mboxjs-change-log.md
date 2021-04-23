@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2410'
 ht-degree: 81%
 
 ---
 
-# mbox.js のバージョンの詳細{#mbox-js-version-details}
+# mbox.js のバージョンの詳細
 
 このページには、mbox.js の各バージョンに対する変更が表示されます。
 
