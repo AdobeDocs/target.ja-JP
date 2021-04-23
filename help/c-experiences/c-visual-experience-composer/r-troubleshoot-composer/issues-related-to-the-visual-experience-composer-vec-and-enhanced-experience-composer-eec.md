@@ -1,22 +1,22 @@
 ---
-keywords: ターゲット設定；Visual Experience Composer；ホワイトリスト；ホワイトリスト；許可リスト;許可リスト；拡張Visual Experience Composer;vec;Visual Experience Composer；トラブルシューティング；ec；拡張Experience Composer;tls;tls 1.2
-description: 特定の状況で、Visual Experience Composer(VEC)および拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
+keywords: ターゲット設定；Visual Experience Composer；ホワイトリスト；ホワイトリスト；許可リスト許可リスト；拡張Visual Experience Composer;VEC;Visual Experience Composer；トラブルシューティング；ec；拡張Experience Composer;tls;tls 1.2
+description: 特定の条件下でAdobe [!DNL Target] Visual Experience Composer(VEC)および拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
 
 [!DNL Adobe Target] Visual Experience Composer(VEC)および拡張Experience Composer(EEC)では、特定の状況で表示の問題やその他の問題が発生する場合があります。
 
-## 最近発表されたGoogle Chrome SameSite cookieの適用ポリシーがVECおよびEECに与える影響を教えてください。{#samesite}
+## 最近発表されたGoogle Chrome SameSiteのcookie適用ポリシーがVECおよびEECに与える影響を教えてください。{#samesite}
 
 最新の変更（2020年8月）により、Chrome 80以降のブラウザーバージョンを使用するすべてのユーザーが次の操作を実行できます。
 
@@ -42,7 +42,7 @@ Adobeは、更新されたVEC Helper拡張機能をGoogle Chrome Storeに送信�
    >
    >サーバからSameSite属性が&quot;Lax&quot;または&quot;Strict&quot;に設定されている場合、**&#x200B;で十分ではありません。
 
-## Target の複数レベルの iframe のサポートについて
+## [!DNL Target]はマルチレベルiframeをサポートしていますか？
 
 Target は、複数レベルの iframe をサポートしていません。Web サイトが子 iframe を含む iframe を読み込むと、Target ライブラリ（at.js および mbox.js）は親 iframe のみとやり取りします。Target ライブラリは子 iframe とやり取りしません。
 
@@ -52,7 +52,7 @@ Target は、複数レベルの iframe をサポートしていません。Web �
 
 この問題は、URL に # 文字が含まれている場合に発生することがあります。この問題を修正するには、Visual Experience Composer を「参照」モードに切り替えて、その後「構成」モードに戻します。スピナーの表示が消えて、ページが読み込まれます。
 
-## コンテンツセキュリティポリシー（CSP）ヘッダーによって、Web サイト上で Target ライブラリがブロックされます。（VEC と EEC）{#section_89A30C7A213D43BFA0822E66B482B803}
+## コンテンツセキュリティポリシー(CSP)ヘッダーは、Webサイトの[!DNL Target]ライブラリをブロックします。 （VEC と EEC）{#section_89A30C7A213D43BFA0822E66B482B803}
 
 Web サイトの CSP ヘッダーによって Target ライブラリがブロックされることにより、Web サイトは読み込まれるものの編集できない場合は、Target ライブラリがブロックされないようにします。
 
