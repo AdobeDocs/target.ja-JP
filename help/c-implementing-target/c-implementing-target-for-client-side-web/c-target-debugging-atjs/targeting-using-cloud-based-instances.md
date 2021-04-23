@@ -1,19 +1,19 @@
 ---
 keywords: クラウドインスタンス;パブリックサフィックスリスト;パブリックサフィックス;Cookie;ファーストパーティ Cookie;ファーストパーティ Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: クラウドベースのインスタンスを使用してAdobe Targetをテストする場合、または概念配達確認を目的としている場合に、（ソリューションと共に）お客様が直面する問題を調査します。
-title: クラウドベースのインスタンスでターゲットを使用できますか？
+description: Adobe [!DNL Target] をテストする場合や、概念の配達確認を目的として、クラウドベースのインスタンスを使用する場合に、（ソリューションと共に）お客様が直面する問題を調査します。
+title: クラウドベースのインスタンスで [!DNL Target] を使用できますか？
 feature: at.js
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# Target でのクラウドベースのインスタンスの使用{#use-cloud-based-instances-with-target}
+# Target でのクラウドベースのインスタンスの使用
 
 クラウドベースのインスタンスを使用して [!DNL Adobe Target] をテストする際の問題に関する情報をまとめています。
 
