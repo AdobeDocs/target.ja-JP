@@ -1,17 +1,17 @@
 ---
 keywords: レポート；レポート；レポート；エクスペリエンスクラウドソリューション；タイムゾーン；タイムゾーン；通貨；IPの除外；売上高の予測上昇；売上高の上昇；詳細な優先度；細かい設定の
-description: レポートソースとしてターゲットまたはAdobe Analyticsを使用し、デフォルトのタイムゾーンと通貨形式を指定したり、レポートから除外するIPアドレスを追加したりします。
+description: レポートソースとして [!DNL Target] またはAdobe Analyticsを使用し、デフォルトのタイムゾーンと通貨形式を指定し、レポートから除外するIPアドレスを追加します。
 title: ターゲットでレポートを設定する方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 30%
 
 ---
-
 
 # ターゲットでのレポートの設定
 
@@ -55,7 +55,7 @@ ht-degree: 30%
 
 レポートに使用する通貨を指定します。
 
-## ターゲットレポートデータから除外するIP
+## [!DNL Target]レポートデータから除外するIP
 
 レポートデータから除外するIPアドレスを指定します。 例えば、内部会社アドレスを除外すると、レポートデータがWebサイトでの顧客の操作を反映するのに適した方法です。
 
