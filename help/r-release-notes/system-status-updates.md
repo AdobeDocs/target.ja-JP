@@ -1,16 +1,16 @@
 ---
 keywords: システム更新、トラブルシューティング、メンテナンス、システムステータス、更新ステータス
-description: Adobe Targetの現在のステータスを表示して、発生する可能性のある問題がシステムの更新または定期保守によるものかどうかを判断するのに役立ちます。
-title: ターゲットやその他のAdobe製品のステータスを表示できる場所
-feature: Release Notes
+description: Adobe [!DNL Target] の現在の状態を表示して、発生する可能性のある問題がシステムの更新または定期保守によるものかどうかを判断します。
+title: ' [!DNL Target] や他のAdobe製品のステータスを表示できる場所'
+feature: リリースノート
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
-
 
 # システムステータスの更新と事前通知
 
