@@ -1,16 +1,16 @@
 ---
 keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-description: 'Adobe Targetでリダイレクトオファーを作成してブラウザーを新しいページにリダイレクトさせる方法を説明します。 '
+description: 'Adobe [!DNL Target] でリダイレクトオファーを作成して、ブラウザーを新しいページにリダイレクトさせる方法を説明します。 '
 title: リダイレクトオファーの作成方法
-feature: Experiences and Offers
+feature: エクスペリエンスとオファー
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1192'
 ht-degree: 48%
 
 ---
-
 
 # リダイレクトオファーの作成
 
