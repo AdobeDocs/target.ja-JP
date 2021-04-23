@@ -1,19 +1,19 @@
 ---
 keywords: ターゲットの実装；実装；at.jsの実装；タグマネージャー；デバイス上の判定；デバイス上の判定
-description: 設定（アカウントの詳細、導入方法など）を指定する方法について説明します。 タグマネージャーを使用せずに、Adobe Targetat.jsライブラリを実装する場合。
-title: タグマネージャーを使用せずにターゲットを実装できますか。
-feature: Implement Server-side
+description: 設定（アカウントの詳細、導入方法など）を指定する方法について説明します。 Adobe [!DNL Target] at.jsライブラリをタグマネージャーを使用せずに実装する。
+title: タグマネージャーを使用せずに [!DNL Target] を実装できますか。
+feature: サーバー側での実装
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1692'
 ht-degree: 51%
 
 ---
 
-# タグマネージャーを使用しない Target の実装
+# タグマネージャーを使用せずに[!DNL Target]を実装する
 
 タグマネージャー（[!DNL Adobe Experience Platform Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
 
@@ -124,14 +124,14 @@ API による一括更新の認証を有効または無効にし、プロファ�
 * ターゲットチームは、at.js 1の両方をサポートしています。*x* と at.js 2.*x* 間のマッピングについて説明します。サポートされているバージョンを実行していることを確認するには、at.jsのメジャーバージョンのいずれかを最新のアップデートにアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
 
-### ターゲットインターフェイスを使用したat.jsのダウンロード{#section_1F5EE401C2314338910FC57F9592894E}
+### [!DNL Target]インターフェイス{#section_1F5EE401C2314338910FC57F9592894E}を使用したat.jsのダウンロード
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
 1. **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 1. [!UICONTROL 実装メソッド]セクションで、目的のat.jsバージョンの横にある「**[!UICONTROL ダウンロード]**」ボタンをクリックします。
 
-### ターゲットダウンロードAPI {#section_C0D9D2A9068144708D08526BA5CA10D0}を使用したat.jsのダウンロード
+### [!DNL Target]ダウンロードAPI {#section_C0D9D2A9068144708D08526BA5CA10D0}を使用したat.jsのダウンロード
 
 API を使用して [!DNL at.js] をダウンロードするには：
 
