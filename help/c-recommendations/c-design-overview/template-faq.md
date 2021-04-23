@@ -1,18 +1,18 @@
 ---
 keywords: recommendations;よくある質問;faq
-description: よくある質問(FAQ)のリストと、Adobe TargetRecommendationsのデザインに関する回答を確認します。
-title: ターゲットRecommendationsのデザインに関する質問に回答する場所
+description: よくある質問(FAQ)のリストと、Adobe [!DNL Target] Recommendationsのデザインに関する回答を確認します。
+title: ' [!DNL Target] Recommendationsのデザインに関する質問に答える方法'
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 82%
+source-wordcount: '411'
+ht-degree: 83%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) デザイン FAQ{#design-faq}
+# ![PREMIUM](/help/assets/premium.png) デザイン FAQ
 
 [!DNL Adobe Target]レコメンデーションデザインに関するよくある質問(FAQ)のリストです。
 
