@@ -3,16 +3,16 @@ keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィ
 description: 'Adobe TargetでRecommendationsアクティビティを導入する方法を学びます。 導入が必要な前提条件の要件を満たしていることを確認します。 '
 title: Recommendationsアクティビティの実装方法
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 96%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPlanとRecommendationsの実装  {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlanとRecommendationsの実装
 
 Recommendations アクティビティを作成する前に知っておくべきこと。
 
