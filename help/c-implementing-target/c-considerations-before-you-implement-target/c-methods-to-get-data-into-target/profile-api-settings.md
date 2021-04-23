@@ -1,17 +1,17 @@
 ---
 keywords: 実装；api;プロファイル;プロファイルapi設定；認証トークン
-description: Adobe TargetAPIを使用してバッチ更新用の認証を設定し、プロファイル認証トークンを生成する方法について説明します。
+description: Adobe [!DNL Target] APIを使用してバッチ更新用の認証を設定し、プロファイル認証トークンを生成する方法について説明します。
 title: プロファイルAPI設定を使用してバッチ更新を有効または無効にする方法を教えてください。
-feature: APIs/SDKs
+feature: API/SDK
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 38%
 
 ---
-
 
 # プロファイル API 設定
 
