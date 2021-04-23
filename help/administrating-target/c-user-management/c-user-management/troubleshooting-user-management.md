@@ -2,18 +2,18 @@
 keywords: targetのトラブルシューティング;トラブルシューティングターゲット;ユーザー;ユーザー管理
 description: Adobe Target でのユーザー管理のトラブルシューティングについて説明します。
 title: ユーザー管理の問題のトラブルシューティング方法
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 30%
 
 ---
 
-
-# ユーザー管理のトラブルシューティング{#troubleshoot-user-management}
+# ユーザー管理のトラブルシューティング
 
 Adobe Target でのユーザー管理のトラブルシューティングについて説明します。
 
