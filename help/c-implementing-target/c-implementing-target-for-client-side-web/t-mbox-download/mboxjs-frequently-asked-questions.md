@@ -1,19 +1,19 @@
 ---
 keywords: mbox. js faq;mbox. jsに関するよくある質問; document. write;tt.omtrdc.net; 解析ブロック
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
-title: ターゲットmbox.jsに関するよくある質問
+title: ' [!DNL Target] mbox.jsに関するよくある質問とは何ですか。'
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 73%
+source-wordcount: '432'
+ht-degree: 71%
 
 ---
 
-# mbox.js に関するよくある質問{#mbox-js-frequently-asked-questions}
+# mbox.js に関するよくある質問
 
 mbox.js に関するよくある質問への回答を紹介します。
 
@@ -39,7 +39,7 @@ mbox.js に関するよくある質問への回答を紹介します。
 
 これらのドメインを使用する場合は、targetGlobalSettings() を使用して `cookieDomain` 設定をカスタマイズしないと、最新のブラウザーでは Cookie が保存されません。詳しくは、「[Target でのクラウドベースのインスタンスの使用](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)」を参照してください。
 
-## Target のサーバー呼び出しが送られる tt.omtrdc.net というドメインは何ですか。{#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]サーバ呼び出し先のtt.omtrdc.netドメインは何ですか。{#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] は、Target のすべてのサーバー呼び出しを受信する Adobe の EDGE ネットワークの名前です。
 
