@@ -1,17 +1,17 @@
 ---
 keywords: gdpr;eu;欧州連合;プライバシー;faq;よくある質問;カリフォルニア州消費者プライバシー法;ccpa;プライバシー;データ 保護;オプトアウト;政府;規制
-description: ターゲット、およびGDPR(欧州和集合総合データ保護規則)、カリフォルニア州消費者プライバシー法(CCPA)、その他のプライバシー要件について説明します。
-title: ターゲットは、プライバシーおよびデータ保護に関する規制をどのように扱うのですか。
-feature: Privacy & Security
+description: ' [!DNL Target] および欧州和集合のGDPR(General Data Protection Regulation)、カリフォルニア州消費者プライバシー法(CCPA)、その他のプライバシー要件について説明します。'
+title: ' [!DNL Target] プライバシーとデータ保護に関する規制に対する対処方法'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 90%
+source-wordcount: '2260'
+ht-degree: 88%
 
 ---
-
 
 # プライバシーとデータ保護規制
 
@@ -52,7 +52,7 @@ ht-degree: 90%
 >
 >CCPAに適用されるデータへのアクセスと削除は、GDPRと同じプロセスに従います。
 
-## Adobe Target と [!DNL Experience Platform Launch] のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe[!DNL Target]と[!DNL Experience Platform Launch]オプトイン{#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Launch] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Launch] では、[!DNL Launch] 拡張機能インストール表示の [!UICONTROL GDPR オプトイン]ドロップダウンリストから「有効」を選択する必要があります。詳しくは、「[Launch のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)」を参照してください。
 
@@ -134,7 +134,7 @@ window.targetGlobalSettings = {
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID（旧名では訪問者 ID または Marketing Cloud ID）。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
 | TnT ID／Cookie ID（TNTID） | 標準 | 9 | 訪問者のブラウザーで cookie として設定される Target 識別子。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
-| サードパーティ ID／CRM ID（THIRDPARTYID） | Target-Specific | 該当なし | 顧客の CRM やその他の一意識別子を Target に提供している場合。 |
+| サードパーティ ID／CRM ID（THIRDPARTYID） | Target-Specific | 該当なし | 顧客の CRM やその他の一意の ID を Target に提供している場合。 |
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ GDPR、CCPA、[!DNL Launch]の詳細については、[AdobeプライバシーJa
 
 例えば、[!DNL Target] は ID を保存した Cookie を削除しますが、[!DNL Adobe Audience Manager]（AAM）はサードパーティ Cookie に保存された demdex ID は削除しません。
 
-### Target GDPR または CCPA 要求には、どのような情報を含める必要がありますか？{#section_D29A4744AE6344E68AD7710B185FD6D0}
+### [!DNL Target] GDPRまたはCCPA要求に含める必要がある情報は何ですか。{#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Central Privacy Service からの要件に加えて、[!DNL Target] の有効な GDPR または CCPA メッセージには次のものが含まれます。
 
@@ -201,7 +201,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 }
 ```
 
-### GDPR API を介した Target からの想定される応答には、どのような種類がありますか？{#section_F67263D2A72B4641A47CE36729CCAE8F}
+### GDPR APIを通じて[!DNL Target]から得られる応答のタイプは何ですか。{#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 要求のステータス | Target の応答メッセージ | シナリオ |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 | 完了 | 該当なし - ユーザーのコンテキストがありません | GDPR または CCPA 要求で提供された特定の訪問者またはデータ主体の ID は、Target プロファイルストアにありません。<br>この結果は、Target でサポートされていない名前空間 ID タイプを送信しようとした場合も返されます（サポートされている ID については、上記を参照してください）。 |
 | エラー | エラーメッセージ（詳細はエラーのタイプによって異なります） | 要求されたデータ主体のプロファイルの取得または削除中にエラーが発生しました。<br>アクセス要求のために Azure にアップロード中にエラーが発生しました。 |
 
-### Target は、アクセスの要求に対して GDPR API にどのような応答を送信しますか？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### [!DNL Target]はGDPR APIにアクセス要求を送る際に、どのような応答を送るか。{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 データアクセスの要求への応答には、該当する訪問者の [!DNL Target] プロファイルの概要が含まれます。この返信は [!DNL Experience Cloud] GDPR API に送られ、GDPR API がデータ管理者に応答を送信することに注意してください。
 
@@ -293,7 +293,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 >
 >これは、説明目的で [!DNL Target] プロファイル JSON を短くしたものです。[!DNL Target] プロファイルのフィールドの多くは、標準的なものではありません。何が返ってくるかは、その特定の訪問者のプロファイルに含まれる情報に左右されます。
 
-### Target は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
+### [!DNL Target]はIPの不明化をサポートしますか？{#section_428907B0CD9842D9B245B38C66A53C6A}
 
 GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
 
