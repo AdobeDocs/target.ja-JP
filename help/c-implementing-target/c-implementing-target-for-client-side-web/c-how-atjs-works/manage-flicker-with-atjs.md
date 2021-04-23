@@ -1,19 +1,19 @@
 ---
 keywords: ちらつき；at.js；実装；非同期；非同期；同期；同期
-description: at.jsとAdobe Targetが、ページまたはアプリの読み込み中にちらつきを回避する方法(デフォルトコンテンツがアクティビティコンテンツに置き換わる前に一時的に表示される)について説明します。
+description: ページまたはアプリの読み込み中にat.jsとAdobe [!DNL Target] ちらつきを防ぐ方法(デフォルトコンテンツは、アクティビティコンテンツに置き換えられる前に一時的に表示される)を説明します。
 title: at.jsでちらつきを管理する方法
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# at.js によるちらつきの制御方法{#how-at-js-manages-flicker}
+# at.js によるちらつきの制御方法
 
 Target at.js JavaScript ライブラリでページやアプリの読み込み中にちらつきを回避する方法について説明します。
 
