@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-description: Adobe Targetからターゲットのモバイルデバイスへのオーディエンスを、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいて作成する方法について説明します。
-title: モバイル訪問者に基づいてターゲットオプションを設定できますか。
-feature: Audiences
+description: モバイルデバイス、Adobeの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいて、ターゲット [!DNL Target] からモバイルデバイスをオーディエンスするデバイスを作成する方法を説明します。
+title: モバイルオプションに基づいて訪問者を [!DNL Target] 設定できますか。
+feature: オーディエンス
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# モバイル{#mobile}
+# モバイル
 
 オーディエンスを作成して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
 
