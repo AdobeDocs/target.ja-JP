@@ -2,17 +2,17 @@
 keywords: 概要およびリファレンス
 description: 訪問者がページや他の最適化されたコンテンツの場所をどのように使用しているかに関する情報が含まれる訪問者プロファイルについて詳しく説明します。
 title: 訪問者プロファイルとは
-feature: Audiences
+feature: オーディエンス
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# 訪問者プロファイル{#visitor-profiles}
+# 訪問者プロファイル
 
 訪問者プロファイルには、訪問者によるページやその他の最適化されたコンテンツの場所の使用状況についての情報が含まれています。
 
