@@ -1,17 +1,17 @@
 ---
 keywords: at.js プラグイン;サポートされるプラグイン;サポートされないプラグイン;ttMeta;ttmeta;mboxTrack
 description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
-title: at.jsのターゲットでサポートされていないレガシープラグインは何ですか。
+title: ' [!DNL Target] at.jsでサポートされていないレガシープラグインは何ですか。'
 feature: at.js
 role: Developer
+exl-id: 1d858f5b-58dc-4181-9cb5-aa6b22011abc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 82%
 
 ---
-
 
 # at.js プラグイン
 
