@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定、オーディエンス、レポート、成功指標
-description: レポートオーディエンスに適したAdobe Targetの成功指標を選択する方法について説明します。
+description: レポートオーディエンスのユーザーに適したAdobe [!DNL Target] の成功指標を選択する方法を説明します。
 title: レポートオーディエンスを成功指標に適用できますか。
-feature: Success Metrics
+feature: 成功指標
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# 成功指標へのレポート用オーディエンスの適用{#apply-a-reporting-audience-to-a-success-metric}
+# 成功指標へのレポート用オーディエンスの適用
 
 ユーザーがレポート用オーディエンスの条件を満たしていると見なすための成功指標を選択します。
 
@@ -34,4 +34,3 @@ ht-degree: 90%
 レポートのセグメント化を表示するには、アクティビティのレポートのオーディエンスドロップダウンリストから目的のオーディエンスを選択します。
 
 ![](assets/reporting_audience_dropdown.png)
-
