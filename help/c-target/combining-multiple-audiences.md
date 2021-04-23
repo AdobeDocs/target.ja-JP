@@ -1,18 +1,18 @@
 ---
 keywords: オーディエンス、オーディエンスルール、結合、オーディエンス、exclusion、除外の追加、exclude、結合オーディエンス、アドホックオーディエンス、アドホックオーディエンス
-description: 複数のオーディエンス(Adobe Experience Cloudのオーディエンスとターゲットのオーディエンスを含む)を組み合わせて、アドホックなオーディエンスを作成する方法を説明します。
+description: 複数のオーディエンス(Adobe Experience Cloudオーディエンスと [!DNL Target] オーディエンスを含む)をその場で組み合わせて、アドホックオーディエンスを作成する方法を説明します。
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成できますか。
-feature: Audiences
+feature: オーディエンス
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# 複数のオーディエンスの結合{#combine-multiple-audiences}
+# 複数のオーディエンスの結合
 
 複数のオーディエンス（Adobe Experience Cloud オーディエンスと Target オーディエンスを含む）をその場で結合し、アドホックなオーディエンスを作成します。また、除外ルールを作成して、ルールからオーディエンスを除外できます。
 
