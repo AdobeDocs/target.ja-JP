@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;Recommendations条件；レコメンデーションアルゴリズム；レコメンデーションアクティビティ；条件；レコメンデーションターゲット設定；recommendations
-description: Adobe TargetのRecommendationsアクティビティについて説明します。これは、以前のユーザーアクティビティやその他のアルゴリズムを基にして、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法です。
-title: ターゲットRecommendationsとは？
+description: 以前のユーザーアクティビティやその他のアルゴリズムを基にして、Adobe [!DNL Target] のRecommendationsアクティビティが、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法について説明します。
+title: ' [!DNL Target] Recommendationsとは'
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 58%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
+# ![PREMIUM](/help/assets/premium.png) Recommendations
 
 [!DNL Adobe Target Recommendations] アクティビティは、以前のユーザーアクティビティ、環境設定またはその他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービスまたはコンテンツを自動的に表示します。[!DNL Target Recommendations] 関連性の高い項目に訪問者を向けるのに役立ちます。[!DNL Recommendations] 適切なタイミングで適切な場所に関連コンテンツを訪問者に提供できます。
 
