@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;トラフィックソース;ターゲットトラフィックソース;target 検索エンジン;検索エンジン;ランディングページ;target ランディングページ;参照ランディングページ
-description: サイトを参照する検索エンジンやランディングページに基づいて、Adobe Targetのターゲット訪問者にオーディエンスを作成する方法を学びます。
-title: 検索エンジンまたは参照サイトを基にターゲット訪問者を作成できますか。
-feature: Audiences
+description: Adobe [!DNL Target] で、サイトを参照する検索エンジンやランディングページに基づいてターゲット訪問者にオーディエンスを作成する方法を学びます。
+title: 検索エンジンまたは参照サイトを基に訪問者を [!DNL Target] できますか。
+feature: オーディエンス
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# トラフィックソース{#traffic-sources}
+# トラフィックソース
 
 オーディエンスを作成して、サイトに導いた検索エンジンやランディングページに基づいて訪問者をターゲット設定します。
 
