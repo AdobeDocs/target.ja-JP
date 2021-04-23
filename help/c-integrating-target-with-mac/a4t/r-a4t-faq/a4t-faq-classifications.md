@@ -1,18 +1,18 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;分類;分類;分類インポーター; post-tnt-action
-description: 分類とAnalyticsによるターゲット(A4T)の使用に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
+description: 分類に関する質問と、 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] アクティビティに対するAnalyticsの使用に関する回答を検索します。
 title: A4Tを使用した分類に関する情報はどこで入手できますか。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 55%
+source-wordcount: '257'
+ht-degree: 59%
 
 ---
 
-
-# 分類 - A4T FAQ{#classifications-a-t-faq}
+# 分類 - A4T FAQ
 
 このトピックでは、分類に関してよくある質問と、[!DNL Analytics]を[!DNL Target]のレポートソースとして使用する(A4T)質問に対する回答を記載します。
 
