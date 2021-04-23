@@ -1,18 +1,18 @@
 ---
 keywords: カスタムパラメーター、targetカスタムパラメーター、targetpageparams、ターゲットmboxパラメーター
-description: オーディエンスで使用するカスタムパラメータをAdobe Targetに渡す方法を学びます。
-title: カスタムパラメーターに基づいてターゲット訪問者を設定できますか。
-feature: Audiences
+description: オーディエンスで使用するAdobe [!DNL Target] にカスタムパラメーターを渡す方法を説明します。
+title: カスタム訪問者ーに基づいてI [!DNL Target] パラメーターを作成できますか。
+feature: オーディエンス
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# カスタムパラメーター{#custom-parameters}
+# カスタムパラメーター
 
 カスタムパラメーターは、mbox パラメーターです。mbox に対して mbox パラメーターを渡した場合、または targetPageParams 関数を使用した場合、それらのパラメーターはここに表示され、オーディエンスで使用できます。
 
