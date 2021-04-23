@@ -1,18 +1,18 @@
 ---
 keywords: 概要およびリファレンス
-description: Adobe TargetをAdobe Campaignと共に使用して電子メールコンテンツを最適化する方法を学びます。
-title: ターゲットとAdobe Campaignの統合方法
-feature: Integrations
+description: Adobe [!DNL Target] をAdobe Campaignと共に使用して電子メールコンテンツを最適化する方法を学びます。
+title: ' [!DNL Target] をAdobe Campaignと統合する方法'
+feature: 統合
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 47%
+source-wordcount: '382'
+ht-degree: 44%
 
 ---
 
-
-# Target と Adobe Campaign の統合{#integrate-target-with-adobe-campaign}
+# [!DNL Target]をAdobe Campaignと統合
 
 [!DNL Target]を[!DNL Adobe Campaign]と共に使用して、電子メールコンテンツを最適化します。
 
@@ -39,7 +39,7 @@ Target は、次のデータを追跡できます。
    *  の rawbox およびエクスペリエンス[!DNL Target]
    >[!NOTE]
    >
-   >rawboxと[!DNL Target]を使用する場合は、「[ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
+   >rawboxと[!DNL Target]を使用する場合は、「[ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限を持つホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
 
    * [!DNL Campaign]の配信
 
@@ -58,7 +58,7 @@ Target は、次のデータを追跡できます。
 
 統合の[!DNL Campaign]部分を設定する前に、[!DNL Target]にアクティビティを開始します。
 
-## Adobe Campaign 電子メールに Target オファーを含める {#section_B201BBE27A704E18AF0D553F35695837}
+## Adobe Campaign電子メールに[!DNL Target]オファーを含める{#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]に電子メールを作成します。
 1. 電子メールのプロパティで、**[!UICONTROL 含める]**／**[!UICONTROL Adobe Target によって提供される動的画像]**&#x200B;をクリックします。
