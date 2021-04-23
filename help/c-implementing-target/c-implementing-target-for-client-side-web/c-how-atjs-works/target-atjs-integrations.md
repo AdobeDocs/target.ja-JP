@@ -1,19 +1,19 @@
 ---
 keywords: at.js 統合;サポートされる統合;サポートされない統合;サードパーティ統合
-description: Analytics forターゲット(A4T)、Experience CloudIDサービスなど、Adobe Targetat.jsでサポートされる（およびサポートされない）統合を参照してください。
+description: Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T)、Experience CloudIDサービスなどによってサポートされる（サポートされない）統合を参照してください。
 title: at.jsがサポートする統合
 feature: at.js
 role: Developer
+exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 86%
+source-wordcount: '570'
+ht-degree: 87%
 
 ---
 
-
-# at.js の統合{#at-js-integrations}
+# at.js の統合
 
 [!DNL Target] の一般的な統合と at.js のサポート状況について説明します。
 
