@@ -1,16 +1,16 @@
 ---
 keywords: mvt；多変量分析テスト；オファー；組み合わせ
-description: 多変量分析テスト(MVT)に含めるオファーをAdobe TargetでVisual Experience Composer(VEC)を使用して作成する方法を説明します。
+description: Adobe [!DNL Target] でVisual Experience Composer(VEC)を使用して、多変量分析テスト(MVT)に含めるオファーを作成する方法を説明します。
 title: 多変量分析テスト(MVT)での組み合わせの作成方法を教えてください。
-feature: Multivariate Tests
+feature: 多変量分析テスト
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
-
 
 # 組み合わせの作成
 
@@ -65,4 +65,3 @@ VEC を使用したオファーの作成および編集について詳しくは�
 * テストする要素を 3 つ以上選択します。それより少ない場合は、一連のA/B テストを実行します。
 * 各要素の代替オプションの内容を大幅に変えることをお勧めします。
 * 各要素に、同じ数の代替オプションを指定することをお勧めします（必須ではありません）。
-
