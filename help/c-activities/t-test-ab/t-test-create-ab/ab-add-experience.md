@@ -1,16 +1,16 @@
 ---
 keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
 description: Adobe TargetでのVisual Experience Composer(VEC)の使用方法を説明します。 VECは、ページ上でエクスペリエンスを追加および編集するための視覚的なインターフェイスを提供します。
-title: ターゲットA/B追加アクティビティでのエクスペリエンスはどのように表示されますか。
-feature: A/B Tests
+title: ' [!DNL Target] 追加A/Bアクティビティーでのエクスペリエンスの方法'
+feature: A/B テスト
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
-
 
 # エクスペリエンスの追加
 
