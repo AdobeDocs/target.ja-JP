@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定、targetライブラリ、ライブラリ
 description: 事前にビルドされたレガシーオーディエンスを使用して訪問者をターゲット設定する方法について説明します。 パフォーマンスを向上させるには、新しいオーディエンスカテゴリを使用することをお勧めします。
-title: 事前にビルドされたターゲットルールに基づいてターゲット訪問者を設定できますか。
-feature: Audiences
+title: 事前にビルドされたターゲットルールに基づいて訪問者を [!DNL Target] 作成できますか。
+feature: オーディエンス
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# ターゲットライブラリ{#target-library}
+# ターゲットライブラリ
 
 事前設計されたターゲットルールに基づいてユーザーをターゲット設定します。
 
