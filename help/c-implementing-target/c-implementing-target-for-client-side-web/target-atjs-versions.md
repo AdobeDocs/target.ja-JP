@@ -1,13 +1,13 @@
 ---
 keywords: at.jsリリース；at.jsバージョン；リリースノート
-description: Adobe Targetのat.js JavaScriptライブラリの各バージョンでの変更の詳細について表示します。
+description: Adobe [!DNL Target] at.js JavaScriptライブラリの各バージョンでの変更の詳細に関する表示。
 title: at.jsの各バージョンに含まれる内容
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '4185'
+source-wordcount: '4184'
 ht-degree: 81%
 
 ---
