@@ -1,18 +1,18 @@
 ---
 keywords: オーディエンス、傾向、profile属性、比較、比較、オーディエンスの作成、オーディエンスの作成
-description: ターゲットオーディエンスライブラリまたはアクティビティのみのオーディエンスで2つのプロファイル属性を比較するオーディエンスを定義する方法を説明します。
+description: ' [!DNL Target] オーディエンスライブラリまたはアクティビティ専用オーディエンスで2つのプロファイル属性を比較するオーディエンスを定義する方法を説明します。'
 title: 2つのプロファイル属性をオーディエンスで使用するために比較できますか？
-feature: Audiences
+feature: オーディエンス
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# プロファイル属性比較オーディエンスの作成{#create-a-profile-attribute-comparison-audience}
+# プロファイル属性比較オーディエンスの作成
 
 [オーディエンスライブラリ](/help/c-target/c-audiences/audiences.md)に対して、または[アクティビティのみのオーディエンス](/help/c-target/creating-activity-only-audience.md)において、2 つのプロファイル属性を比較するオーディエンスを定義します。より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
