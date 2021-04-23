@@ -1,16 +1,16 @@
 ---
 keywords: ターゲット設定；成功；コンバージョン指標；ページ表示指標；ページ指標；売上高指標；予想値；詳細設定；成功指標；詳細設定；依存；カウントを増分、アクティビティを維持；カウントを増分、ユーザーをリリース、再入場を許可；カウントを増分、ユーザーを解放
-description: アクティビティの成功を判断するのに役立つ、Adobe Targetの成功指標について説明します。 成功指標には、コンバージョン、売上高、ページ表示、カスタムスコア、サイト滞在時間が含まれます。
+description: アクティビティの成功を判断するのに役立つAdobe [!DNL Target] の成功指標について説明します。 成功指標には、コンバージョン、売上高、ページ表示、カスタムスコア、サイト滞在時間が含まれます。
 title: 成功指標とは
-feature: Success Metrics
+feature: 成功指標
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1174'
 ht-degree: 43%
 
 ---
-
 
 # 成功指標
 
