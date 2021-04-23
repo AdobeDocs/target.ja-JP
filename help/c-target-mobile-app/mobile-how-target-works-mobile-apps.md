@@ -1,18 +1,18 @@
 ---
 description: AdobeモバイルSDKを使用して、モバイルアプリ訪問者に最適なエクスペリエンスを表示する方法を説明します。
-title: モバイルアプリでのターゲットの仕組み
-feature: Implement Mobile
+title: モバイルアプリで [!DNL Target] 機能する仕組み
+feature: モバイルの実装
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
-
-# モバイルアプリにおける Target の仕組み{#how-target-works-in-mobile-apps}
+# モバイルアプリでの[!DNL Target]の仕組み
 
 Adobe Mobile SDK は、ユーザーに適切なエクスペリエンスを表示するため、Target サーバーに接続してコンテンツと他のデータポイントを取得します。
 
@@ -33,4 +33,3 @@ Adobe Mobile SDK は、ユーザーに適切なエクスペリエンスを表示
 **SDK における Target の仕組み**
 
 ![](assets/how-target-mobile-works.png)
-
