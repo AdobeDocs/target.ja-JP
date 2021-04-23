@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;ターゲットプレミアム；Automated Personalization；自動ターゲット；自動ターゲット；権限；アドビターゲットとは
-description: Adobe Target Standard および Adobe Target Premium の基本事項について説明します。 Target Premium には、標準製品では利用できない高度な機能が含まれています。
+description: Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premiumの基本事項について説明します。標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 title: ターゲットとは？
-feature: Overview
+feature: 概要
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 43%
+source-wordcount: '939'
+ht-degree: 41%
 
 ---
 
@@ -90,7 +90,7 @@ Target には次のようなプレミアム機能があります。
 
 詳しくは、『[Recommendations Classic ドキュメント](/help/assets/adobe-recommendations-classic.pdf)』を参照してください。
 
-## Experience League：Adobe Target Welcome Kit {#kit}
+## Experience League:Adobe[!DNL Target]ウェルカムキット{#kit}
 
 このウェルカムキットを使って[!DNL Adobe Target]に最適化とパーソナライズのプログラムを構築します。 ウェルカムキットには、最初の[!DNL Target]アクティビティの準備と起動に役立つ重要な情報、ツール、リソースが含まれています。 キットには、短期的な優先課題と長期的な最適化戦略のアイデアが含まれています。
 
