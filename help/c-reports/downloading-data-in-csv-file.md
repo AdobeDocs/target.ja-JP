@@ -1,18 +1,18 @@
 ---
 keywords: レポート、ダウンロードレポート、csv、success metrics、注文の詳細
-description: Adobe TargetアクティビティからCVS形式でデータをダウンロードし、Excel、Access、またはその他のデータ分析プログラムにすばやくインポートする方法を説明します。
+description: Adobe [!DNL Target] アクティビティからCVS形式のデータをダウンロードして、Excel、Access、またはその他のデータ分析プログラムにすばやくインポートする方法を説明します。
 title: レポートデータをCSVファイルとしてダウンロードする方法を教えてください。
-feature: Reports
+feature: レポート
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# CSV ファイル内のデータのダウンロード{#downloading-data-in-a-csv-file}
+# CSV ファイル内のデータのダウンロード
 
 .csv 形式のデータをダウンロードして、Excel、Access またはその他のデータ分析プログラムにすばやくインポートできます。
 
