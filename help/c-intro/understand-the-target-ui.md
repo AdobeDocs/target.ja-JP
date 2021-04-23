@@ -1,18 +1,18 @@
 ---
 keywords: ターゲットユーザインターフェイス；ユーザインターフェイス；ui
 description: ターゲットインターフェイスについて理解し、最大限に活用するための詳細情報へのリンクを見つけてください。
-title: ターゲットUIの使用方法
-feature: Overview
+title: ' [!DNL Target] UIの使用方法'
+feature: 概要
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 27%
 
 ---
 
-
-# ターゲットのUIについて
+# [!DNL Target] UIを理解する
 
 ユーザーインターフェイスは、[!DNL Adobe Target]を最大限に活用できるよう、論理的でユーザーにわかりやすい形式で配置されています。 以下の概要は、[!DNL Target]に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
 
@@ -38,7 +38,7 @@ ht-degree: 27%
 
 ## ヘルプ
 
-ヘルプアイコンを使用すると、[!DNL Target]をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート用電話番号の検索、Twitterでの質問、または[!DNL Target]に関するフィードバックの提供を行って、当社の状況をお知らせします。
+ヘルプアイコンを使用すると、[!DNL Target]をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットを作成したり、サポートの電話番号を見つけたり、Twitter経由で質問したり、[!DNL Target]に関するフィードバックを提供して、当社の状況をお知らせしたりできます。
 
 ![ヘルプ](/help/c-intro/assets/help.png)
 
