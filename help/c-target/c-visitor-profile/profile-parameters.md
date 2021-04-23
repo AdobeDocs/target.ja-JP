@@ -1,18 +1,18 @@
 ---
 keywords: プロファイルスクリプト；プロファイルスクリプト属性；プロファイルスクリプトのベストプラクティス；デバッグ；デバッグ；スクリプト；プロファイルスクリプト；属性；属性；パラメータ
-description: 訪問者のプロファイルに保存され、Adobe Targetアクティビティで使用できる訪問者に関する情報を提供する、固有の属性について説明します。
+description: 訪問者のプロファイルに保存され、訪問者 [!DNL Target] アクティビティで使用できる情報を提供する、Adobe固有の属性について説明します。
 title: プロファイル属性とは
-feature: Audiences
+feature: オーディエンス
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# プロファイル属性{#profile-attributes}
+# プロファイル属性
 
 プロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、アクティビティで使用可能な訪問者に関する情報を提供します。
 
