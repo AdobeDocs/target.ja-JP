@@ -1,16 +1,16 @@
 ---
 keywords: エクスペリエンス；json;aem;adobe experience manager;adobeターゲットに書き出し；エクスペリエンスフラグメント；フラグメント；XF
-description: Adobe TargetアクティビティでAEMエクスペリエンスフラグメントを使用する方法を説明します。 AEMの使いやすさと機能を、強力なAIおよびML機能とターゲットで兼ね備えます。
+description: Adobe [!DNL Target] アクティビティでAEMエクスペリエンスフラグメントを使用する方法を説明します。 AEMの使いやすさとパワーを、 [!DNL Target]の強力なAIおよびML機能と組み合わせます。
 title: Adobe Experience Manager(AEM)エクスペリエンスフラグメントの使用方法
-feature: Experiences and Offers
+feature: エクスペリエンスとオファー
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 20%
 
 ---
-
 
 # AEM エクスペリエンスフラグメント
 
@@ -78,7 +78,7 @@ ht-degree: 20%
 * **[!DNL AEM]6.4**: [エクスペリエンスフラグメントの](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) ターゲット設定への書き出し( *Adobe Experience Manager6.4* ドキュメント)
 * **[!DNL AEM]6.5**: [エクスペリエンスフラグメントの](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) ターゲット設定への書き出し( *Adobe Experience Manager6.5* ドキュメント)
 
-## ターゲットアクティビティでのエクスペリエンスフラグメントの使用{#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## [!DNL Target]アクティビティ{#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}でのエクスペリエンスフラグメントの使用
 
 前述のタスクを実行した後、エクスペリエンスフラグメントは[!DNL Target]の[!UICONTROL オファー]ページに表示されます。
 
