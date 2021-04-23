@@ -1,17 +1,17 @@
 ---
 keywords: client care;cname;certificateプログラム;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
-description: AdobeのClientCareと協力して、広告ブロッキングの問題やITP関連のCookieポリシーを処理するために、Adobe TargetでCNAME（正規名）のサポートを実装します。
+description: AdobeのClientCareと協力して、Adobe [!DNL Target] にCNAME（正規名）サポートを実装し、広告ブロッキングの問題やITP関連のCookieポリシーを処理します。
 title: ターゲットでのCNAMEの使用方法
-feature: Privacy & Security
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
-
 
 # CNAME と Adobe Target
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 いいえ。[!DNL Target]には別のホスト名と証明書が必要です。
 
-### 現在のターゲットの実装はITP 2.xの影響を受けているか。
+### 現在の[!DNL Target]の実装はITP 2.xの影響を受けているか。
 
 Safari ブラウザーでは、[!DNL Target] JavaScript ライブラリを持つ Web サイトにナビゲートします。`analytics.company.com`など、CNAMEのコンテキストに[!DNL Target] cookieが設定されている場合、ITP 2.xの影響を受けません。
 
