@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics ベースのアクティビティ;Analytics レポートスイート;レポートスイート;Analytics Target 統合;レポートスイートの設定
-description: Adobe TargetおよびAdobe Analyticsのソリューションにターゲット用のAnalytics(A4T)を実装するために必要な手順に従います。
-title: Analytics forターゲット(A4T)の実装方法を教えてください。
-feature: Analytics for Target (A4T)
+description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe Analyticsの各ソリューションに対してAnalyticsを実装するために必要な手順に従います。'
+title: Analytics for [!DNL Target] (A4T)の実装方法
+feature: Analytics for Target（A4T）
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 28%
 
 ---
 
-
-# Analytics for Target の実装{#analytics-for-target-implementation}
+# [!DNL Target]の導入の分析
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして実装する場合(A4T)には、いくつかの手順が必要です。
 
@@ -168,4 +168,3 @@ Adobeでは、導入を簡素化し、システム間の不一致を解消する
 
 * **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
-
