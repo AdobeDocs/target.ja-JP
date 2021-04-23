@@ -2,17 +2,17 @@
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
 description: Adobe Targetを高いレベルで見て。 利用可能なアクティビティ、チャネル、導入、統合などについて説明します。
 title: ターゲットの概要を見つける方法
-feature: Overview
+feature: 概要
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2520'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-
-# 第2章：Adobe Target
+# 第2章：Adobe[!DNL Target]の概要
 
 [!DNL Adobe Target]を使い始める前に、ソリューションの概要を理解しておくと役に立つでしょう。 この章では、ソリューションの主な機能、使用できるブランドタッチポイント、導入オプション、重要なユーザーインターフェイス機能とワークフロー、ガバナンス機能、および[!DNL Adobe Experience Cloud]全体でのその役割について説明します。 [!DNL Adobe Target Premium]機能として特に記載がない限り、この章で説明する項目は[!DNL Adobe Target Premium]と[!DNL Adobe Target Standard]の両方で利用できます。 詳しくは、[ターゲットの紹介](/help/c-intro/intro.md)を参照してください。
 
@@ -55,7 +55,7 @@ ht-degree: 16%
 | --- | --- |
 | クライアント側 | この[!DNL Target]の実装により、[!DNL Target]はアクティビティに関連付けられたエクスペリエンスを直接クライアントブラウザーに配信します。 ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアント側では、WYSIWYGエディター、**[!UICONTROL Visual Experience Composer]**(VEC)、非ビジュアルインターフェイス、**[!UICONTROL フォームベースのExperience Composer]**&#x200B;を使用して、テストとパーソナライゼーションのエクスペリエンスを作成できます。 [詳細情報](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) |
 | サーバー側 | このタイプの[!DNL Target]実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーが[!DNL Target]にリクエストを送信し、[!DNL Target]がサーバーにレスポンスを返し、サーバーがクライアントデバイスにどのエクスペリエンスを配信するかを決定します。 エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) |
-| ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。 例えば、クライアント側の実装を使用してホームページのヒーローバナー内のオファーをA/Bテストし、サーバー側の実装を使用して内部検索結果を決定し、クライアントブラウザーに表示する、スマートカーダッシュボードに表示する、または音声アシスタントから配信します。 |
+| ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。 例えば、クライアント側の実装を使用してホームページのヒーローバナー内のオファーをA/Bテストし、サーバー側の実装を使用して内部検索結果を決定してクライアントブラウザーに表示したり、スマートカーダッシュボードに表示したり、音声アシスタントから配信したりできます。 |
 
 ## アクティビティ要素
 
