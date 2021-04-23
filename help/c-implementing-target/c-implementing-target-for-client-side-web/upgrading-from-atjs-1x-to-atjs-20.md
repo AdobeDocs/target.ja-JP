@@ -1,19 +1,19 @@
 ---
 keywords: at.js リリース;at.js バージョンs;シングルページアプリ;spa;クロスドメイン;ドメイン間
-description: Adobe Targetat.js 1.xからat.js 2.xへのアップグレード方法を説明します。システムフロー図を調べたり、新しい関数や廃止された関数について学んだりします。
+description: Adobe [!DNL Target] at.js 1.xからat.js 2.xにアップグレードする方法を説明します。システムフロー図を調べたり、新しい関数や廃止された関数について学んだりします。
 title: at.jsバージョン1.xからバージョン2.xにアップグレードする方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 91%
 
 ---
 
-
-# at.js 1.*x* から at.js 2.*x* へのアップグレード {#upgrading-from-atjs-1x-to-atjs-200}
+# at.js 1.*x* から at.js 2.*x* へのアップグレード
 
 at.js の最新バージョンは、次世代のクライアント側のテクノロジーで、パーソナライゼーションを実行するための機能セットを提供します。[!DNL Adobe Target]この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
 
