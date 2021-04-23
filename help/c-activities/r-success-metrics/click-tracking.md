@@ -1,16 +1,16 @@
 ---
 keywords: クリック追跡;クリックの追跡;クリック;AppMeasurement
-description: Adobe Targetで、任意の要素に対するクリックを成功指標として追跡する方法について説明します。
+description: Adobe [!DNL Target] を使用して、任意の要素のクリックを成功指標として追跡する方法について説明します。
 title: クリック追跡とは
-feature: Success Metrics
+feature: 成功指標
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
-
 
 # クリックの追跡
 
