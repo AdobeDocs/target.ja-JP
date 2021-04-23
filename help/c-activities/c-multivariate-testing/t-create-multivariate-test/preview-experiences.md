@@ -1,18 +1,18 @@
 ---
 keywords: 多変量分析；mvt;プレビュー；エクスペリエンス
-description: Visual Experience Composer(VEC)を使用して、Adobe Targetの多変量分析テスト(MVT)アクティビティで各エクスペリエンスをプレビューする方法を説明します。
+description: Visual Experience Composer(VEC)を使用して、Adobe [!DNL Target] の多変量分析テスト(MVT)アクティビティで各エクスペリエンスをプレビューする方法を説明します。
 title: 多変量分析テスト(MVT)のエクスペリエンスをプレビューする方法
-feature: Multivariate Tests
+feature: 多変量分析テスト
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 68%
 
 ---
 
-
-# 多変量分析テストのエクスペリエンスのプレビュー{#preview-experiences-for-a-multivariate-test}
+# 多変量分析テストのエクスペリエンスのプレビュー
 
 [!DNL Adobe Target]の[!UICONTROL 多変量分析テスト]では、ページ上の複数のエクスペリエンスを比較するので、ページを各エクスペリエンスとプレビューすると便利です。
 
@@ -37,4 +37,3 @@ ht-degree: 68%
    多変量分析テストには、デフォルトで、すべてのエクスペリエンスが組み込まれます。除外したエクスペリエンスを組み込むには、除外したエクスペリエンスを選択して、「**[!UICONTROL 含める]**」をクリックします。
 
 「**[!UICONTROL プレビューモードを終了]**」をクリックして Experience Composer に戻り、必要な変更をおこなうか、または「**[!UICONTROL 続行」をクリックしてテスト概要に移動します。]**
-
