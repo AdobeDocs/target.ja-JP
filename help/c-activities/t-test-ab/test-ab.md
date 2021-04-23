@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；エクスペリエンスの比較；ターゲット設定；コンテンツの比較；自動ターゲット；自動配分
-description: Adobe Targetの様々なタイプのA/Bテストアクティビティ(手動、自動配分、自動ターゲット)について説明します。 自分に合うものを選びなさい。
+description: Adobe [!DNL Target] の様々なタイプのA/Bテストアクティビティについて説明します。手動、自動配分、自動ターゲットを参照してください。 自分に合うものを選びなさい。
 title: ターゲットで使用できるA/Bアクティビティのタイプはどれか。
-feature: A/B Tests
+feature: A/B テスト
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 38%
 
 ---
-
 
 # A/Bテストの概要
 
