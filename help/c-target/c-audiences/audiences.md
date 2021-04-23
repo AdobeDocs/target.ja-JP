@@ -1,18 +1,18 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成、ターゲットオーディエンス、レポートオーディエンス、レポートオーディエンス、セグメント、カスタムプロファイルパラメーター、オーディエンス定義、オーディエンスリスト
-description: Adobe Targetのオーディエンスページの使用方法、およびオーディエンスの詳細と使用状況の情報が含まれる表示オーディエンス定義カードの使用方法について説明します。
+description: Adobe [!DNL Target] のオーディエンスページの使用方法と、オーディエンスの詳細と使用状況の情報を含む表示オーディエンス定義カードの使用方法について説明します。
 title: オーディエンスリストの使用方法
-feature: Audiences
+feature: オーディエンス
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 92%
 
 ---
 
-
-# オーディエンスの作成{#create-audiences}
+# オーディエンスの作成
 
 Adobe Target のオーディエンスによって、誰にターゲットアクティビティのコンテンツやエクスペリエンスを表示するのかが決まります。
 
