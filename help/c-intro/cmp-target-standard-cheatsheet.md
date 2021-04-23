@@ -2,17 +2,17 @@
 keywords: Target Standard;FQA;よくある質問;参照シート;早わかりシート
 description: Adobe Targetの機能の使用に関するよくある質問(FAQ)のリストと、詳細については、情報およびリンクを参照してください。
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
-feature: Overview
+feature: 概要
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Target の最適化とパーソナライゼーションに関する FAQ{#target-optimization-and-personalization-faq}
+# Target の最適化とパーソナライゼーションに関する FAQ
 
 Adobe Target の機能の使用方法に関するよくある質問のリストです。補足情報や詳細情報のリンクも紹介します。
 
@@ -189,7 +189,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 また、「[フォームベースの手法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、  [許可リストAdobeのプロキシ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) サーバーも同様です。
+[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、  [許可リストAdobeのプロキシサーバーも同様です。](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 
 
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
