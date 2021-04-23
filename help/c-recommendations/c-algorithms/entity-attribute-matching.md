@@ -1,16 +1,16 @@
 ---
 keywords: 包含ルール；包含条件；レコメンデーション；プロモーション；動的フィルタリング；動的；エンティティ属性の一致
-description: Adobe TargetRecommendationsで、見込み品目のプールを、ユーザーが操作を行った特定の品目と比較して、動的にフィルタリングする方法を説明します。
+description: Adobe [!DNL Target] Recommendationsで動的にフィルタリングする方法を説明します。この方法では、可能性のある項目のプールを、ユーザーが操作を行った特定の項目と比較します。
 title: Recommendationsアクティビティでエンティティ属性の照合を使用してフィルタリングする方法
 feature: Recommendations
+exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
-
 
 # ![PREMIUMEntity属性の](/help/assets/premium.png) 一致
 
