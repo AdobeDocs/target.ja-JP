@@ -2,18 +2,18 @@
 keywords: 実装;mbox.js 非 JavaScript;mbox;adbox
 description: adboxを使用して、Adobe Targetを使用するオフサイト実装で画像を配信します。 adboxはmboxに似ていますが、JavaScriptではなくURLで制御します。
 title: 画像用のadboxの作成方法を教えてください。
-feature: Implement Email
+feature: 電子メールの実装
 role: Developer
+exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 73%
 
 ---
 
-
-# 画像用 adbox の作成{#create-an-adbox-for-an-image}
+# 画像用 adbox の作成
 
 adboxを使用して、Adobe Targetを使用するオフサイト実装で画像を配信します。
 
