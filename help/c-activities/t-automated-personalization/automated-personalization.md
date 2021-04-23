@@ -1,16 +1,16 @@
 ---
 keywords: 自動パーソナライゼーション；ap;オーディエンス；アンサンブル；ランダムフォレスト；マルチアームバンディット；トンプソンサンプリング；ml；機械学習
-description: 高度な機械学習を使用して、Adobe TargetのAutomated Personalization(AP)アクティビティを使用し、訪問者ごとに異なるオファーのバリエーションを一致させる方法を学びます。
+description: 高度な機械学習を使用して各訪問者に異なるオファーのバリエーションを適合させるAdobe [!DNL Target] で、Automated Personalization(AP)アクティビティを使用する方法を説明します。
 title: Automated Personalization(AP)アクティビティとは
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 自動パーソナライゼーション(AP)
 
