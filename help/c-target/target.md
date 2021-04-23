@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;オーディエンス;割合ターゲット
-description: Adobe Targetのオーディエンスを使用して、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲットし、Webマーケティング活動を最適化する方法について説明します。
-title: オーディエンスを使用して、異なるコンテンツを特定のセグメントにターゲットする方法を教えてください。
-feature: Audiences
+description: Adobe [!DNL Target] のオーディエンスを使用して、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲットし、Webマーケティング活動を最適化する方法について説明します。
+title: オーディエンスを使用して特定のセグメントに対して異なるコンテンツを [!DNL Target] 表示する方法
+feature: オーディエンス
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 89%
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
-
-# オーディエンス{#audiences}
+# オーディエンス
 
 オーディエンスを使用して、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、Web マーケティングを最適化します。
 
