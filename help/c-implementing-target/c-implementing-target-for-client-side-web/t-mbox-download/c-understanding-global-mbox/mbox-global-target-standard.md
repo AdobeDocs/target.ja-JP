@@ -1,17 +1,17 @@
 ---
 keywords: グローバル mbox;target classic;target classic からグローバル mbox を使用する
-description: レガシー導入のページで既にグローバルmboxを作成済みの場合、Adobe Targetアクティビティに対してレガシーグローバルmboxを使用する方法を説明します。
+description: レガシー導入のページに既にグローバルmboxを作成している場合、Adobe [!DNL Target] アクティビティでレガシーのグローバルmboxを使用する方法を説明します。
 title: レガシー導入のグローバルmboxを使用できますか。
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
 
 ---
-
 
 # レガシー導入からのグローバルmboxの使用
 
