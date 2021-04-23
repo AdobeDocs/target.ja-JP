@@ -1,18 +1,18 @@
 ---
 keywords: 除外
-description: 製品やコンテンツが訪問者にレコメンデーションされるのを防ぐために、Adobe TargetRecommendationsで除外を作成する方法を説明します。
+description: 製品やコンテンツが訪問者にレコメンデーションされるのを防ぐために、Adobe [!DNL Target] Recommendationsで除外を作成する方法を説明します。
 title: Recommendationsアクティビティでの除外の使用方法
 feature: Recommendations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 44%
 
 ---
 
-
-# 除外{#exclusions}
+# 除外
 
 [!DNL Adobe Target Recommendations]で除外を作成し、訪問者に商品やコンテンツをレコメンデーションしないようにします。 除外は、訪問者にレコメンデーションしない商品またはコンテンツのサブセットです。
 
