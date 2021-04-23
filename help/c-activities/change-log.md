@@ -1,16 +1,16 @@
 ---
 keywords: アクティビティ変更ログ；変更ログ
-description: Adobe Targetのアクティビティの変更ログにアクセスして、表示にアクティビティを変更したユーザーと変更日時の記録を伝えます。
+description: アクティビティの変更ログインAdobe [!DNL Target] にアクセスして、アクティビティの変更者と変更日時の記録を表示します。
 title: アクティビティの変更ログを表示する方法
-feature: Activities
+feature: アクティビティ
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
-
 
 # アクティビティの変更ログ
 
