@@ -1,19 +1,19 @@
 ---
 keywords: モバイルアプリ;モバイルアプリ sdk;ターゲットモバイルアプリ;モバイルターゲット sdk;モバイルアプリ sdk;sdk での target の有効化
 description: AdobeMobile Services SDKをモバイルアプリに追加する方法を説明します。
-title: AdobeモバイルSDKでターゲットを有効にする方法を教えてください。
-feature: Implement Mobile
+title: AdobeモバイルSDKで [!DNL Target] を有効にする方法を教えてください。
+feature: モバイルの実装
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-
-# SDK での Target の有効化{#enable-target-in-the-sdk}
+# SDKで[!DNL Target]を有効にする
 
 アプリに Adobe Mobile Services SDK を追加します。
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
    Experience Cloud で、Mobile Services を開き、**[!UICONTROL アプリ設定]**／**[!UICONTROL Target SDK の設定]**&#x200B;に移動します。
 
-   Target クライアントコードとタイムアウトを追加します。クライアントコードは、それぞれのアカウントまたは会社で一意になります。タイムアウトは、Target がデフォルトのコンテンツを表示する前に応答を待つ時間を秒数で示したものです。Adobe Mobile Services のアプリ設定ページで「**[!UICONTROL HTTPS を使用]**」オプションがチェックされていることを確認します。HTTPSが有効になっていない場合、ターゲットサーバーに許可リストしない限り、iOS9以降のすべての呼び出しがブロックされます。
+   Target クライアントコードとタイムアウトを追加します。クライアントコードは、それぞれのアカウントまたは会社で一意になります。タイムアウトは、Target がデフォルトのコンテンツを表示する前に応答を待つ時間を秒数で示したものです。Adobe Mobile Services のアプリ設定ページで「**[!UICONTROL HTTPS を使用]**」オプションがチェックされていることを確認します。HTTPSが有効になっていない場合、ターゲットサーバーにしない限り、iOS9以降の呼び出しはす許可リストべてブロックされます。
 
    ![](assets/mobile-clientcode.png)
 
@@ -38,4 +38,3 @@ ht-degree: 81%
 >[!IMPORTANT]
 >
 > モバイルマーケティングインターフェイスにアクセスできない場合、アプリコードの設定ファイルで直接変更できます。ただし、ユーザーインターフェイスの設定ページと同期されません。
-
