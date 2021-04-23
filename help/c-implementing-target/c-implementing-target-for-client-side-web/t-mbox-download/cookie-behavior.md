@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# mbox.js の Cookie{#mbox-js-cookies}
+# mbox.js の Cookie
 
 Cookie の動作は、その Cookie がファーストパーティ Cookie であるか、ファーストパーティ Cookie を伴うサードパーティ Cookie であるか、サードパーティ Cookie のみであるかによって異なります。
 
@@ -117,7 +117,7 @@ Cookie は、キャンペーンでの訪問者のエクスペリエンスを管�
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が mbox.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、1 時間存続します。 |
 
-## Safari 訪問者の Target に対する Apple WebKit 追跡の変更の影響 {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Apple WebKitの追跡に伴うSafari訪問者の[!DNL Target]への影響{#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Adobe Target 追跡の仕組み**
 
