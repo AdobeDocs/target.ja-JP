@@ -1,19 +1,19 @@
 ---
 keywords: モバイルアプリ;　モバイルアプリの場所;　targetモバイルアプリ;　モバイルターゲット場所;　モバイルアプリ成功指標
-description: Adobe Targetを使用してアプリをパーソナライズし、最適化できるように、iOSアプリで場所と成功指標を作成する方法を学ぶための表示サンプルコードです。
-title: iOSアプリでターゲットの場所と成功指標を作成する方法を教えてください。
-feature: Implement Mobile
+description: 表示 [!DNL Target] を使用してアプリをパーソナライズおよび最適化できるように、iOSアプリで場所と成功指標を作成する方法を学ぶためのAdobeサンプルコードです。
+title: iOSアプリで [!DNL Target] 場所と成功指標を作成する方法を教えてください。
+feature: モバイルの実装
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS - Target の位置と成功指標の作成{#ios-create-a-target-location-and-success-metric}
+# iOS - [!DNL Target]場所と成功指標を作成
 
 モバイルアプリで Target を使用するには、場所と成功指標を作成します。
 
