@@ -1,16 +1,16 @@
 ---
 keywords: 行動データソース；分析；レコメンデーション；条件；製品変数
-description: ターゲットRecommendationsのAnalyticsで、Adobe Analyticsを行動データソースとして使用し、表示ベースおよび購入ベースの行動データを使用する方法について説明します。
-title: Adobe AnalyticsとターゲットRecommendationsの使い方
+description: ' [!DNL Target] RecommendationsのAnalyticsで、Adobe Analyticsを行動データソースとして使用し、表示ベースの行動データや購入ベースの行動データを使用する方法について説明します。'
+title: Adobe Analyticsを [!DNL Target] Recommendationsと共に使う方法
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
-
 
 # RecommendationsでAdobe Analyticsを使用
 
@@ -88,4 +88,3 @@ Recommendationsで[条件](/help/c-recommendations/c-algorithms/create-new-algor
 ### [!DNL Analytics]フィードアプローチを使用して、エンティティパラメーターがプロファイル属性と一致するなど、動的な包含ルールを使用できますか。
 
 はい、できます。 この方法は、[!DNL Target]スタンドアロンを使用する場合と同様です。 ただし、この場合は、タイミングに注意する必要があります。 プロファイル変数と一致すると想定されるエンティティ変数は、ページのかなり後で表示されるデータレイヤーに依存します。
-
