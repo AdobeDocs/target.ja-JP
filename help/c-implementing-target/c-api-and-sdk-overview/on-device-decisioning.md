@@ -1,17 +1,17 @@
 ---
 keywords: サーバー側；サーバー側；sdk;sdks;on-device;decisioning;on device;ondevice;latency;near-zero;node.js
-description: オンデバイス判定を使用してターゲットA/BアクティビティとMVTデバイスをサーバー上にキャッシュし、ほぼゼロの遅延でメモリ内判定を実行する方法を説明します。
+description: オンデバイス判定を使用してサーバー上の [!DNL Target] A/BアクティビティとMVTイベントをキャッシュし、ほぼゼロの遅延でメモリ内判定を実行する方法を説明します。
 title: On-Device Decisioningとは
-feature: Implement Server-side
+feature: サーバー側での実装
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # オンデバイス判定
 
