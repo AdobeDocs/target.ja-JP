@@ -1,18 +1,18 @@
 ---
 keywords: プロファイルスクリプト；プロファイルスクリプト属性；相互に排他的なアクティビティ
-description: プロファイル属性を使用して、複数のアクティビティを比較し、同じ訪問者を各アクティビティに参加させないようにするAdobe Targetでのテストを設定する方法を説明します。
+description: プロファイル属性を使用して、複数のアクティビティを比較し、各アクティビティに同じ訪問者を参加させないAdobe [!DNL Target] のテストを設定する方法を説明します。
 title: 相互に排他的なアクティビティをテストするためにプロファイルスクリプトを使用できますか。
-feature: Audiences
+feature: オーディエンス
+exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 76%
 
 ---
 
-
-# 相互に排他的なアクティビティをテストするには、プロファイルスクリプトを使用{#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# 相互に排他的なアクティビティをテストするプロファイルスクリプトを使用する
 
 プロファイル属性を使用すると、同じ訪問者を各アクティビティに参加させずに、複数のアクティビティを比較するテストを設定することができます。
 
