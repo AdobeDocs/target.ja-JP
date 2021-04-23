@@ -1,19 +1,19 @@
 ---
 keywords: api;api;api;admin api;配信api;レポートapi;プロファイルapi
-description: 管理API、配信API、レポートAPI、プロファイルAPIを含むAdobe TargetAPIを探します。
-title: ターゲットAPIおよびSDKドキュメントはどこで入手できますか？
-feature: APIs/SDKs
+description: Adobe [!DNL Target] API(管理者、配信、レポート、プロファイルAPIを含む)を探します。
+title: ' [!DNL Target] APIおよびSDKのドキュメントはどこで入手できますか？'
+feature: API/SDK
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
 
-
-# Adobe TargetAPIの概要
+# Adobe[!DNL Target] APIの概要
 
 [!DNL Adobe Target] APIは、次のタイプに従ってグループ化できます。管理API、配信API、レポートAPI、プロファイルAPI
 
