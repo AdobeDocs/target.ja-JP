@@ -5,14 +5,14 @@ feature: at.js
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 88%
 
 ---
 
-# mbox.js ライブラリバージョンによる Target ページ手法{#target-page-methods-by-mbox-js-library-version}
+# mbox.js ライブラリバージョンによる Target ページ手法
 
 ページからの呼び出しに Target がどのように応答するかは、使用する Target ライブラリのバージョン、Experience Cloud 訪問者 ID 実装が存在するかどうか、および訪問者 ID があるかどうかによって異なります。
 
