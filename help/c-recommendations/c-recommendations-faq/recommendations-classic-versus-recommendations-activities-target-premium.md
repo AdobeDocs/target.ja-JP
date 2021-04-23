@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
-description: ターゲットプレミアムの従来のRecommendationsクラシックアクティビティとRecommendationsの違いを理解するのに役立つ情報を確認します。
-title: ターゲットプレミアムのRecommendationsクラシックとRecommendationsの違い
+description: ' [!DNL Target] Premiumの従来のRecommendationsクラシックアクティビティとRecommendationsの違いを理解するのに役立つ情報を確認します。'
+title: ' [!DNL Target] PremiumのRecommendations・クラシックとRecommendationsの違いは何ですか？'
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic と Target Premium の Recommendations アクティビティ{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![Premium Recommendations Classicと](/help/assets/premium.png)  [!DNL Target] PremiumのRecommendationsアクティビティの比較
 
 Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
 
@@ -76,4 +76,3 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 [!DNL Target] の [!DNL Recommendations] では、[!DNL Target] や [!DNL Experience Cloud] の機能を活用する強化されたレポートを利用できます。[!DNL Recommendations] を使用しない場合と比較した上昇分を単に表示するのではなく、[!DNL Recommendations] アクティビティの完全な情報を表示できます。
 
 ![](assets/overview_report.png)
-
