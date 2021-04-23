@@ -1,14 +1,14 @@
 ---
 keywords: 実装；実装；設定；設定；単一プロファイルの更新
-description: 単一のプロファイル更新APIを使用してターゲットにデータを取得します。
-title: 単一のプロファイル更新APIを使用してターゲットにデータを取り込む方法を教えてください。
-feature: Implementation
+description: 単一のプロファイル更新APIを使用して [!DNL Target] にデータを取得します。
+title: 単一のプロファイル更新APIを使用して [!DNL Target] にデータを取得する方法を教えてください。
+feature: 実装
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 41%
 
 ---
