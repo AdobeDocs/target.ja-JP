@@ -1,18 +1,18 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;プロビジョニング;プロビジョニング;adobe Experience Cloud
-description: Analyticsをターゲット用にプロビジョニングする(A4T)ことに関するよくある質問(FAQ)に対する回答を見つけます。Analyticsレポートを使用してターゲットアクティビティを行うことができます。
+description: Analytics for [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] アクティビティのプロビジョニングに関するよくある質問と、その回答を検索します。
 title: A4Tの初期プロビジョニングに関する情報はどこで入手できますか？
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# 初期プロビジョニング - A4T FAQ{#initial-provisioning-a-t-faq}
+# 初期プロビジョニング - A4T FAQ
 
 このトピックでは、[!DNL Adobe Target]のレポートソースとしての[!DNL Adobe Analytics]のプロビジョニング(A4T)に関するよくある質問に対する回答を記載します。
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 * 追跡すべき Analytics の指標があるサイトの残りのページに、Analytics を実装します。これらのページに Target を実装する必要はありません。これらのページにわたって取得された Analytics の指標は、前述の箇条書きにある訪問者のターゲット情報に基づき、ユーザーが最初に認定したターゲットアクティビティに自動的に統合されます。
 
-## Target アカウントで A4T が有効になっているかどうかはどうしたらわかりますか？{#section_4437D284448F4313BF953D4B6EDBACA6}
+## 自分の[!DNL Target]アカウントでA4Tが有効になっているかどうかを知るにはどうしますか。{#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Analytics アクティビティを定義するときは、レポートスイートを選択する前に、Analytics ユーザーアカウントと Target ユーザーアカウントの両方が必要になります。ドキュメントの説明に従って、ユーザーアカウントを設定する必要があります。詳しくは、[ユーザー権限の要件](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)を参照してください。
 
@@ -48,6 +48,6 @@ Analyticsとターゲットにアクセスできる1つ以上のExperience Cloud
 
 前述の「レポートスイートが読み込まれないのはなぜですか？」を参照してください。この問題の根本原因は同じです。
 
-## Target でレポートが空なのはなぜですか？  {#section_3837104757464CB488C5A83014A669A1}
+## [!DNL Target]内のレポートが空になるのはなぜですか？{#section_3837104757464CB488C5A83014A669A1}
 
 前述の「レポートスイートが読み込まれないのはなぜですか？」を参照してください。この問題の根本原因は同じです。
