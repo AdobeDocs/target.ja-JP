@@ -1,25 +1,25 @@
 ---
 keywords: email;adbox;email image adbox
-description: Adobe Targetを使用して電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更する方法について説明します。
+description: Adobe [!DNL Target] を使用して電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更する方法について説明します。
 title: 電子メール画像Adboxのテスト方法
-feature: Implement Email
+feature: 電子メールの実装
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 90%
 
 ---
 
-
-# 電子メール画像 adbox のテスト{#test-an-email-image-adbox}
+# 電子メール画像 adbox のテスト
 
 電子メール内の画像を動的にテストし、電子メールが開かれたときにそれらの画像をその場で変更することもできます。
 
 電子メールでリダイレクターを使用してクリックをトラッキングし、訪問者が到達するランディングページを動的に制御できます。
 
-電子メールの画像テストは、修正バージョンの adbox を使用して実施されます。電子メールクライアントでは cookie の 設定ができないので、電子メールごとに一意の識別子を生成する必要があります。この数字は、電子メールからのクリックをトラッキングするために、電子メールで使用する adbox の URL およびすべてのリダイレクターに追加されます。
+電子メールの画像テストは、修正バージョンの adbox を使用して実施されます。電子メールクライアントでは cookie の 設定ができないので、電子メールごとに一意の ID を生成する必要があります。この数字は、電子メールからのクリックをトラッキングするために、電子メールで使用する adbox の URL およびすべてのリダイレクターに追加されます。
 
 >[!NOTE]
 >
