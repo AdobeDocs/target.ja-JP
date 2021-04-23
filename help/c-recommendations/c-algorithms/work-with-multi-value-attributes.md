@@ -1,16 +1,16 @@
 ---
 keywords: 複数値；属性；レコメンデーション；複数値；複数値；複数値
-description: 例えば、複数の俳優と映画をレコメンデーションする場合など、特別な複数値演算子を使用して、Adobe TargetRecommendationsの複数値フィールドを操作する方法を説明します。
+description: 例えば、複数の俳優と共に映画をレコメンデーションする場合など、特殊な複数値演算子を使用して、Adobe [!DNL Target] Recommendationsの複数値フィールドを操作する方法を説明します。
 title: 複数値の属性をRecommendationsで使用できますか。
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 複数値の属性の操作
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 例：ユーザーのお気に入りから品目をレコメンデーションする条件のAPI作成
 
-すべての条件と同様、複数値のフィルタリングルールを使用する条件は、Adobe I/OAPIを使用して作成できます。 エンティティ属性`id`がmboxパラメーターリストー`favorites`に含まれる条件を作成するためのAPI呼び出しの例を次に示します。
+すべての条件と同様、複数値のフィルタリングルールを使用する条件は、Adobe I/OAPIを介して作成できます。 エンティティ属性`id`がmboxパラメーターリストー`favorites`に含まれる条件を作成するためのAPI呼び出しの例を次に示します。
 
 ```
 curl -X POST \
