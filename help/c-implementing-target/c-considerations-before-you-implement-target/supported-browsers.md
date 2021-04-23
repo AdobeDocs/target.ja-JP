@@ -1,17 +1,17 @@
 ---
 keywords: ブラウザー;前提条件;要件;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-description: Adobe Targetがインターフェイスとコンテンツ配信に対してサポートしているインターネットブラウザーを確認します。
-title: ターゲットはどのブラウザをサポートしていますか。
-feature: Implementation
+description: インターフェイスとコンテンツ配信に対して、どのインターネットブラウザーAdobe [!DNL Target] がサポートしているかを学びます。
+title: ' [!DNL Target] サポートされるブラウザ'
+feature: 実装
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 59%
 
 ---
-
 
 # サポートされているブラウザー
 
