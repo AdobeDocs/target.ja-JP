@@ -1,14 +1,14 @@
 ---
 keywords: ターゲットドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集；更新；更新
-description: Adobe Target製品ドキュメントへの重要な追加と変更により、最新の情報を入手できます。
+description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加と変更により、最新の状態に維持する。
 title: ターゲットに関する表示ドキュメントの更新はどこで行えますか？
-feature: Release Notes
+feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 31%
+source-wordcount: '898'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 このページでは、[!DNL Adobe Target]製品ドキュメントに対して行われた重要な変更をリストしています。
 
-## Adobe Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
+## Adobe[!DNL Target] Standard/Premium 21.4.1（2021年4月19日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ ht-degree: 31%
 |  | [Adobe Targetcookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloudサービスと* 管理ガイド) | 「セッションID」に関する追加情報を追加しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
-## Adobe Target標準/プレミアム21.2.1（2021年3月9日）
+## Adobe[!DNL Target] Standard/Premium 21.2.1（2021年3月9日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ ht-degree: 31%
 |  | [エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md) | entity.valueが10進数形式である必要があることを示すテキストを追加しました（例：15,99ではなく15.99）。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
-## Adobe Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
+## Adobe[!DNL Target] Standard/Premium 21.1.1（2021年1月20日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
