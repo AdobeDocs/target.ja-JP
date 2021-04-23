@@ -1,18 +1,18 @@
 ---
 keywords: フォームベースの experience composer; フォームベースのコンポーザー; 調整
-description: 非視覚的なエクスペリエンスの作成にAdobe TargetフォームベースのExperience Composerを使用する方法を説明します。 VECが使用できない場合、または実用的でない場合は、このコンポーザーを使用します。
+description: Adobe [!DNL Target] フォームベースのExperience Composerを使用して、非視覚的なエクスペリエンスを作成する方法を学びます。 VECが使用できない場合、または実用的でない場合は、このコンポーザーを使用します。
 title: フォームベースのExperience Composerの使用方法を教えてください。
-feature: Form-based Experience Composer
+feature: フォームベースの Experience Composer
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
-
-# フォームベースの Experience Composer{#form-based-experience-composer} 
+# フォームベースの Experience Composer
 
 [!DNL Adobe Target] [!UICONTROL フォームベースのExperience Composer]は、ビジュアルエクスペリエンスが使用できない場合、または実用的でない場合に、A/Bテスト、Experience Targeting、Automated Personalization、Recommendationsの各アクティビティで使用するエクスペリエンスを作成するのに役立つ、非ビジュアルなエクスペリエンスおよびオファー作成インターフェイスです。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。
 
