@@ -1,16 +1,16 @@
 ---
 keywords: Target、レポート、レポート設定、environment、上昇率、上昇率バインド、平方偏差、confidence、control
-description: アクティビティの上昇率の範囲と信頼性レベルを理解するのに役立つ、データポイントとビジュアライゼーションの表現を含むAdobe Targetレポートの解釈方法について説明します。
+description: アクティビティの上昇率の範囲と信頼性のレベルを理解するのに役立つ、データポイントとビジュアライゼーションの表現を含むAdobe [!DNL Target] レポートの解釈方法を説明します。
 title: 平均上昇率、上昇率範囲および信頼区間を表示する方法を教えてください。
-feature: Reports
+feature: レポート
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
-
 
 # 平均上昇率、上昇率範囲および信頼区間
 
