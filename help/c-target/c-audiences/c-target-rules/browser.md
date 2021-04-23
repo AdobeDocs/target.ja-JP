@@ -1,18 +1,18 @@
 ---
 keywords: ブラウザーオプション;タイプ;ブラウザータイプ;ブラウザー言語;言語;バージョン;ブラウザーバージョン
-description: Adobe Targetで、ページの訪問時に特定のブラウザーまたは特定のターゲットーオーディエンスを使用するユーザーに対してブラウザーを作成する方法を説明します。
-title: ブラウザータイプに基づいてターゲット訪問者を設定できますか。
-feature: Audiences
+description: Adobe [!DNL Target] でオーディエンスを作成し、特定のブラウザーまたはページの訪問時に特定のターゲットーオプションを使用するユーザーに対して、ブラウザーを設定する方法を説明します。
+title: ブラウザーのタイプに基づいて訪問者を [!DNL Target] 実行できますか。
+feature: オーディエンス
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# ブラウザー{#browser}
+# ブラウザー
 
 ページの訪問時に特定のブラウザーまたは特定のブラウザーオプションを使用しているユーザーをターゲットに設定することができます。
 
