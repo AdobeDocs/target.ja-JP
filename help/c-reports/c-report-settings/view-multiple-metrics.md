@@ -2,17 +2,17 @@
 keywords: ターゲット；レポート；レポート設定；複数の指標；指標；表示指標；非表示指標
 description: Adobe Targetを使用して、レポートで表示する複数の指標を選択する方法を説明します。
 title: レポート内で複数の指標を表示する方法
-feature: Reports
+feature: レポート
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 59%
 
 ---
 
-
-# レポートでの複数の指標の表示{#view-multiple-metrics-in-a-report}
+# レポートでの複数の指標の表示
 
 [!DNL Adobe Target]レポートで表示する複数の指標を選択できます。
 
@@ -54,4 +54,3 @@ ht-degree: 59%
 1. （条件付き）グラフ表示でレポートを表示中に、ドロップダウンリストから表示する指標を個別に選択できます。
 
    ![](assets/multiple_metrics_graph.png)
-
