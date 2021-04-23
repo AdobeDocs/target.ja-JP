@@ -1,16 +1,16 @@
 ---
 keywords: ターゲット設定;eec;visual experience composer;拡張 experience composer のトラブルシューティング;トラブルシューティング
-description: 特定の状況で、Adobe Target拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
+description: 特定の条件下でAdobe [!DNL Target] 拡張Experience Composer(EEC)で発生することがある問題のトラブルシューティング方法を説明します。
 title: 拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # 拡張Experience Composerに関する問題のトラブルシューティング
 
@@ -18,9 +18,9 @@ ht-degree: 61%
 
 ## EEC で、公開 IP ではアクセスできない内部 QA 用 URL が読み込まれません。（EEC のみ）{#section_D29E96911D5C401889B5EACE267F13CF}
 
-この問題は、次のIPアドレスを許可することで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者には、これらのIPアドレスを許可しておく必要はありません
+この問題は、次のIPアドレス許可リストに加えるで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者には、これらのIPアドレスは必要ありま許可リストに加えるせん
 
-ITチームに次のIPアドレスを許可リストするよう依頼します。
+次のIPアドレスをITチーム許可リストにするように依頼します。
 
 | 地域 | IP アドレス | ホスト名 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ Target では次のエラーメッセージが表示される場合がありま�
 
    **Remedy：上記のIPアドレスを** 許可リストします。
 
-* **問題：IPアドレス** は許可されていますが、WebサイトはTLSターゲット1.2をサポートしていません。ターゲットは現在、デフォルトの設定である1.2を使用しています。18.4.1（2018年4月25日）より前は、デフォルトの設定であるTLS 1.0を参照してください。暗号化の変更 [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+* **問題：IPアドレス許可リストに加えるはサポートされていますが、WebサイトではTLSバージョン1.2がサポートされていません。ターゲットは現在、デフォルトの設定である1.2を使用しています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定でTLS 1.0がサポートされています。詳細は、暗号化の変更**  [](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
    **解決策：**&#x200B;次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。上記のIPアドレスが許可されているが、WebサイトでTLSターゲット1.2がサポートされていない場合。ターゲットは現在、デフォルトの設定である1.2を使用しています。18.4.1（2018年4月25日）より前は、デフォルトの設定でサポートされているTLS 1.0を参照してください。](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を変更。[
+上述の IP アドレスがホワイトリストに登録されていても、Web サイトが TLS バージョン 1.0 に対応していない場合は、上述のエラーメッセージが表示される場合があります（サイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）。上記のIPアドレスが許可リストに加えるTLSバージョン1.2をサポートしていない場合、お使いのWebサイトでは、現在、デフォルトの設定である1.2がターゲットで使用されています。ターゲット18.4.1（2018年4月25日）より前は、デフォルトの設定でサポートされていたTLS 1.0を参照してください。](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を変更。[
 
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
