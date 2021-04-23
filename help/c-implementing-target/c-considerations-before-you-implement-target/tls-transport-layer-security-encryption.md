@@ -1,19 +1,19 @@
 ---
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
-description: ターゲットがTLS(Transport Layer Security)プロトコルを使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法を説明します。
-title: ターゲットがTLSを使用してセキュリティを提供する方法
-feature: Privacy & Security
+description: ' [!DNL Target] TLS(Transport Layer Security)プロトコルを使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法を説明します。'
+title: ' [!DNL Target] TLSを使用したセキュリティの提供方法'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 58%
 
 ---
 
-
-# TLS（Transport Layer Security）暗号化の変更{#tls-transport-layer-security-encryption-changes}
+# TLS（Transport Layer Security）暗号化の変更
 
 [!DNL Adobe]と[!DNL Adobe Target]がTLS(Transport Layer Security)を使用して最高のセキュリティ標準を維持し、顧客データの安全性を高める方法に関する情報を紹介します。
 
@@ -59,7 +59,7 @@ TLS 1.2は2020年3月1日現在のデフォルトで、TLS 1.1はサポートさ
 
 サポートされるブラウザーとそのバージョンについて詳しくは、[サポートされるブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を参照してください。
 
-## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
+## Adobe[!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
 2020年3月1日以降、ターゲットAPIはTLS 1.1暗号化をサポートしなくなります。 API にアクセスするお客様は、この変更による影響の有無を確認してください。
 
