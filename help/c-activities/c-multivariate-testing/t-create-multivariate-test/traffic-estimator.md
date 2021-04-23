@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Adobe Target多変量分析テストアクティビティが成功するのに十分なトラフィックがあるかどうかを知らせるトラフィック見積もりの使用方法を説明します。
+description: Adobe [!DNL Target] 多変量分析テストアクティビティを成功させるのに十分なトラフィックがあるかどうかを知らせるトラフィック見積もりの使用方法を説明します。
 title: 多変量分析テスト(MVT)アクティビティに必要なトラフィック量
-feature: Multivariate Tests
+feature: 多変量分析テスト
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 92%
+source-wordcount: '502'
+ht-degree: 93%
 
 ---
-
 
 # テストを成功させるために必要なトラフィックの見積もり
 
@@ -61,4 +61,3 @@ ht-degree: 92%
    十分なトラフィックが確保されるという評価が得られるまで数字を調整し、それに応じて、テストをデザインします。
 
    ![](assets/estimatorok.png)
-
