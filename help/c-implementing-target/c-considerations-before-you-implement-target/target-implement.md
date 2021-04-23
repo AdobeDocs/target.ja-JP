@@ -1,18 +1,18 @@
 ---
 keywords: ドキュメント.write;ターゲット；実装；ターゲットの実装；dtm;dynamic tag management;at.js;mbox.js;ターゲット.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Webページのターゲットライブラリ（at.jsまたはmbox.js）を参照して、Adobe Targetを実装します。
-title: Target JavaScript ライブラリについて
-feature: Implementation
+description: WebページにAdobe [!DNL Target] by referencing the [!DNL Target] ライブラリ（at.jsまたはmbox.js）を実装します。
+title: ' [!DNL Target]  JavaScript ライブラリについて '
+feature: 実装
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Target JavaScript ライブラリについて
+# [!DNL Target] JavaScript ライブラリについて 
 
 Webページ上の[!DNL Adobe Target]ライブラリ(Adobe Experience PlatformWeb SDKまたはat.js)を参照して、[!DNL Adobe Target]を実装します。
 
@@ -20,7 +20,7 @@ Webページ上の[!DNL Adobe Target]ライブラリ(Adobe Experience PlatformWe
 >
 >mbox.js ライブラリの開発は終了しました。すべてのお客様は、2021年3月31日までに、mbox.jsからat.jsまたは[!UICONTROL Adobe Experience PlatformWeb SDK]に移行する必要があります。 詳しくは、[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)または[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)からat.jsへの移行を参照してください。
 
-## ターゲットJavaScriptライブラリ{#section_40117C78C2F84FECAC4F1BA40CC4F171}の違い
+## [!DNL Target] JavaScriptライブラリ{#section_40117C78C2F84FECAC4F1BA40CC4F171}の違い
 
 次の表は、[!DNL Target] JavaScriptライブラリの違いを説明しています。
 
