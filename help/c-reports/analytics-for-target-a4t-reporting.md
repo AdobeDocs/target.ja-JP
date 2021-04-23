@@ -1,18 +1,18 @@
 ---
 keywords: analytics for target;A4T;レポートソースとしての analytics
-description: Analyticsをターゲットに使用する方法(A4T)について説明します。 A4T統合により、Adobe Targetアクティビティ向けの堅牢なAdobe Analyticsレポートにアクセスできます。
-title: Analyticsをターゲット(A4T)レポートに使用する方法を教えてください。
-feature: Analytics for Target (A4T)
+description: ' [!DNL Target] (A4T). The A4T integration gives you access to robust Adobe Analytics reports for your Adobe [!DNL Target] アクティビティにAnalyticsを使用する方法を説明します。'
+title: Analytics for [!DNL Target] (A4T)レポートの使用方法を教えてください。
+feature: Analytics for Target（A4T）
+exl-id: 43d31231-e258-458e-b371-08214fd903b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 62%
+source-wordcount: '83'
+ht-degree: 72%
 
 ---
 
-
-# Analytics for Target（A4T）レポート{#analytics-for-target-a-t-reporting}
+# Analytics forAdobe Target(A4T)レポート
 
 Analytics を Target のレポートソースとして使用すると（A4T）、Target アクティビティに関する Analytics レポートを利用できるようになります。
 
