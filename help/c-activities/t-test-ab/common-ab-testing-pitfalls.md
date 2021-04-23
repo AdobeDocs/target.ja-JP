@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；エラー；落とし；間違い；落とし；有意性；勝者；統計的差異；統計的差異；統計的検出力；トラフィック配分；配分；;
-description: Adobe TargetでA/Bテストを実行する際に会社が犯す最も一般的な落とし穴やミスを回避する方法を説明します。
+description: Adobe [!DNL Target] や他のテストソリューションでA/Bテストを実行する際に会社が犯す最も一般的な落とし穴やミスを回避する方法を説明します。
 title: 一般的なA/Bテストの誤りを回避する方法を教えてください。
-feature: A/B Tests
+feature: A/B テスト
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 86%
 
 ---
-
 
 # 10件の一般的なA/Bテストの落とし穴とその回避方法
 
@@ -173,4 +173,3 @@ A/B テストでは、マーケティング担当者は、多くの場合、95�
 * テストが開始される前に、サンプルサイズ（訪問者数）を計算する。
 * 計算したサンプルサイズに到達するまで、テストの停止を待つ。
 * テスト後のセグメント化をおこなう際や複数の代替オファーを評価する際には、例えば、ボンフェローニ補正を使用して、信頼水準を調整する。
-
