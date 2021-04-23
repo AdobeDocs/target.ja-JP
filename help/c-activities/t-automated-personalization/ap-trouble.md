@@ -2,17 +2,17 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Adobe TargetでのAutomated Personalization(AP)アクティビティの使用中に直面する可能性のある潜在的な問題と、推奨される解決策を検討します。
 title: Automated Personalizationのトラブルシューティング方法
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization のトラブルシューティング{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization のトラブルシューティング
 
 アクティビティで不測の問題が生じることもあります。Automated Personalization を使用しているときに生じることがある問題と、推奨の解決策を紹介します。
 
@@ -58,4 +58,3 @@ AP アクティビティでは、コンバージョン指標（最適化目標�
 
 * （ブラウザーのキャッシュが原因で）新しいタブにプレビューを表示できない場合、2～3 回更新してみるか、リンクをコピーして新しいブラウザーまたはセッションで開きます。
 * コンテンツを変更した場合はエクスペリエンス URL のリンクを再生成し、その新しいリンクをチームのメンバーと共有します。
-
