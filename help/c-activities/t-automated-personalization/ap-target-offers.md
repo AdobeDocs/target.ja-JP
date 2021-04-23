@@ -1,19 +1,19 @@
 ---
 keywords: 自動パーソナライゼーション；オファー;ターゲット;オーディエンス；ターゲットルール；ターゲット設定
 description: Adobe TargetのAutomated Personalization(AP)アクティビティを使用して、個々のオファーを特定のオーディエンスにターゲットする方法を学びます。
-title: Automated Personalization・オファーをターゲットする方法
-feature: Automated Personalization
+title: ' [!DNL Target] Automated Personalizationのオファーは？'
+feature: 自動パーソナライゼーション
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Target の自動パーソナライゼーションオファー{#target-automated-personalization-offers}
+# ![PREMIUM](/help/assets/premium.png) [!DNL Target] 自動パーソナライゼーションオファー
 
 [!DNL Adobe Target] [!DNL Automated Personalization] (AP)アクティビティでは、オファーを特定のオーディエンスにターゲットできます。
 
