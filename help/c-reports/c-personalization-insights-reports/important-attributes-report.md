@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;AP レポート;自動パーソナライゼーションレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
-description: パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要性を示す、Adobe Targetの重要な属性レポートの使用方法を説明します。
+description: Adobe [!DNL Target] の重要な属性レポートの使用方法を説明します。このレポートは、パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示します。
 title: 重要な属性レポートとは何ですか。
-feature: Reports
+feature: レポート
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 重要な属性レポート{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) 重要な属性レポート
 
 自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
 
