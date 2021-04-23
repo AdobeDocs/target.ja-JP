@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: Analyticsのターゲット用の導入要件(A4T)およびこの統合を実装する前に考慮する必要がある事項について説明します。
+description: Analytics for [!DNL Target] (A4T)の導入に必要な要件と、この統合を実装する前に考慮する必要がある事項について説明します。
 title: A4Tを実装する前に知っておくべきこと
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 34%
 
 ---
 
-
-# 実装する前に{#before-you-implement}
+# 実装する前に
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして有効にする場合(A4T)、データ収集プロセスでいくつかの変更が行われます。
 
