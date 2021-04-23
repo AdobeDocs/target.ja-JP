@@ -1,17 +1,17 @@
 ---
 keywords: mbox定義;mbox定義;mbox 定義;mboxUpdate;mboxupdate;mbox update;at.js;関数
-description: Adobe Targetat.js JavaScriptライブラリのmboxDefine()関数とmboxUpdate()関数を使用して、mboxを定義または更新します。 (at.js 1.x)
+description: Adobe [!DNL Target] at.js JavaScriptライブラリのmboxDefine()関数とmboxUpdate()関数を使用して、mboxを定義または更新します。 (at.js 1.x)
 title: mboxDefine()関数とmboxUpdate()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
-
 
 # mboxDefine() と mboxUpdate() - at.js 1.x
 
