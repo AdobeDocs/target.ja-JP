@@ -1,14 +1,14 @@
 ---
 keywords: カスタムイベント;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
-description: mboxリクエストまたはオファーの失敗や成功時に通知を受けるには、Adobe Targetat.js JavaScriptライブラリのカスタムイベントを使用します。
+description: mboxのリクエストまたはオファーが失敗または成功した場合に通知を受けるには、Adobe [!DNL Target] at.jsのJavaScriptライブラリに対してカスタムイベントを使用します。
 title: at.jsカスタムイベントの使用方法
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 66%
 
 ---
