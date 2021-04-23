@@ -1,23 +1,23 @@
 ---
-keywords: 実装；実装；実装；adobe launch;launch;race;redirect；エクスペリエンスプラットフォームの起動
-description: Adobe Experience Platform Launchを使用したAdobe Targetat.jsライブラリの実装方法を学びます。Adobe Targetを実装するのが推奨される方法です。
-title: Adobeの起動を使用してターゲットを実装する方法を教えてください。
-feature: Implement Server-side
+keywords: 実装；実装；実装；Adobe起動；起動；レース；リダイレクト；エクスペリエンスplatform launch
+description: Adobe [!DNL Target]を実装するのに推奨される方法である、Adobe Experience Platform Launchを使用したAdobe [!DNL Target] at.jsライブラリの実装方法を学びます。
+title: Adobeの起動を使用して [!DNL Target] を実装する方法を教えてください。
+feature: サーバー側での実装
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 76%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
-
-# Adobe Launch を使用した Target の実装
+# Adobeの起動を使用して[!DNL Target]を実装
 
 Adobe Experience Platform Launchは、Adobeの次世代タグ管理プラットフォームで、Adobe Targetを導入するのに好ましい方法です。 Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
 
-## Adobe Launch を使用した Target の実装 {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## Adobe起動{#topic_5234DDAEB0834333BD6BA1B05892FC25}を使用して[!DNL Target]を実装
 
 Launch は、アドビの次世代のタグ管理プラットフォームで、Adobe Target を実装するための推奨される方法です。Launch は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
 
@@ -29,7 +29,7 @@ Launch の詳細な情報を取得できる様々なソースを次の表に示�
 | [Adobe Launch ドキュメント](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 適切な顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグのデプロイおよび管理に関する情報です。 |
 | [Adobe Target拡張機能ドキュメント](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch を使用した Target の実装に関する情報です。 |
 
-## ターゲット起動拡張機能{#section_48B3F938B6F8491DAF798E0DB54EF304}を使用してat.jsを実装する利点
+## [!DNL Target] Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}を使用してat.jsを実装する利点
 
 次のメリットは、Adobe Launch を使用して at.js を実装する場合にのみ適用されます。そのため、DTM または at.js の手動実装ではなく Adobe Launch を使用することを強くお勧めします。
 
