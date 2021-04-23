@@ -2,17 +2,17 @@
 keywords: ターゲット設定、ターゲットカテゴリ、ターゲット条件、Audience Manager、カスタムプロファイルパラメーター、visitorプロファイル、カスタムユーザーパラメーター、ターゲットルール
 description: カテゴリ(ブラウザー、地域、ネットワーク、オペレーティングシステム、訪問者プロファイルなど)を使用してターゲットコンテンツを作成する方法を説明します。
 title: オーディエンスのカテゴリ
-feature: Audiences
+feature: オーディエンス
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# オーディエンスのカテゴリ{#categories-for-audiences}
+# オーディエンスのカテゴリ
 
 どのカテゴリでもターゲットを設定できます。各カテゴリはタブとして機能し、カテゴリごとにターゲットルール（またはグループ）を作成できます。
 
