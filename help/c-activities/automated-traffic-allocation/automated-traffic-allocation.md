@@ -1,16 +1,16 @@
 ---
 keywords: 自動トラフィック配分；ターゲティング；カウントを増分、アクティビティを保持；トラフィック配分；自動配分；自動配分
-description: Adobe Targetの自動配分アクティビティを使用して、2つ以上のエクスペリエンスのうちの勝者を特定し、より多くのトラフィックを自動的に勝者に再割り当てする方法を説明します。
+description: Adobe [!DNL Target] の自動配分アクティビティを使用して、2つ以上のエクスペリエンスのうちの勝者を識別し、より多くのトラフィックを自動的に勝者に再割り当てする方法を説明します。
 title: 自動配分アクティビティとは何ですか。
-feature: Auto-Allocate
+feature: 自動配分
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3387'
 ht-degree: 73%
 
 ---
-
 
 # 自動配分の概要
 
@@ -134,7 +134,7 @@ A/B テストはより長い期間にわたって結果を分析するので、�
 
 [!UICONTROL 自動配分]アクティビティを使用する際は、次のFAQと回答を参照してください。
 
-### ターゲット用のAnalytics(A4T)は、自動配分アクティビティをサポートしますか？
+### Analytics forAdobe Target(A4T)は自動配分アクティビティをサポートしますか。
 
 はい。詳しくは、[自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。
 
