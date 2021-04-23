@@ -1,18 +1,18 @@
 ---
 keywords: 訪問者プロファイル;Target 訪問者プロファイル
-description: 新規または再訪問者、カテゴリアフィニティなどの特定のプロファイルパラメーターを満たすターゲット訪問者に対して、Adobe Targetでオーディエンスを作成する方法を説明します。
-title: 特定のプロファイルパラメーターを満たすターゲット訪問者はいるか。
-feature: Audiences
+description: 新規または再訪問者、カテゴリアフィニティなどの特定のプロファイルパラメーターを満たすターゲット訪問者に対して、Adobe [!DNL Target] でオーディエンスを作成する方法を説明します。
+title: 特定のプロファイルパラメーターを満たす訪問者は [!DNL Target] できますか。
+feature: オーディエンス
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# 訪問者プロファイル{#visitor-profile}
+# 訪問者プロファイル
 
 オーディエンスを作成して、特定のプロファイルパラメーターに一致する訪問者をターゲット設定します。
 
