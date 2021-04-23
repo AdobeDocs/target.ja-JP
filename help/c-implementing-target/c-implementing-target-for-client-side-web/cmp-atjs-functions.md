@@ -4,16 +4,16 @@ description: Adobe Targetのat.js JavaScriptライブラリの1.xおよび2.xバ
 title: at.jsで使用できる関数
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# at.js 関数{#at-js-functions}
+# at.js 関数
 
 Adobe Target の at.js JavaScript ライブラリで使用できる関数のリストです。詳細および例については、「関数」列のリンクをクリックしてください。
 
@@ -33,4 +33,3 @@ Adobe Target の at.js JavaScript ライブラリで使用できる関数のリ�
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 特定の拡張を登録するための標準的な方法を提供します。<br>**注：**&#x200B;この関数は at.js バージョン 1.*x* のみで使用できます。この関数は at.js 2.x のリリースで廃止されました。at.js 2.x で使用する場合、この関数はデフォルトコンテンツを返します。 |
 | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at.js カスタムイベントを使用すると、mbox リクエストまたはオファーが失敗または成功した場合に通知できます。 |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>（at.js 2.1.0） | この関数は、`adobe.target.applyOffer()` や `adobe.target.applyOffers()` を使用せずにエクスペリエンスがレンダリングされる場合、Target Edge に通知を送信します。<br>**注意**：この関数は、at.js 2.1.0 で導入され、2.1.0 以上の任意のバージョンで使用できます。 |
-
