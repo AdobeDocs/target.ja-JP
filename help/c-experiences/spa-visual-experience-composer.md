@@ -1,16 +1,16 @@
 ---
 keywords: spa vec; react; angular; react.js; spa visual experience composer; spa experience composer オプション; シングルページアプリケーション; シングルページアプリ; spa; モバイルエクスペリエンスオプション; target ビュー
-description: Adobe TargetのSPA VECを使用して、継続的な開発依存関係を持たずに、テストを作成し、独自の方法でSPAのコンテンツをパーソナライズする方法を学びます。
+description: SPA VECをAdobe [!DNL Target] で使用して、継続的な開発依存関係を持たずに、テストを作成し、SPA上でコンテンツを自由にパーソナライズする方法を学びます。
 title: 単一ページアプリのVisual Experience Composer(SPA VEC)の使用方法を教えてください。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # シングルページアプリケーション（SPA）Visual Experience Composer
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 最新リリースでは、SPA 用の VEC が導入されました。SPA 用 VEC を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
 
-## Adobe Target ビューとシングルページアプリケーション
+## Adobe[!DNL Target]表示と単一ページアプリ
 
 SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用します。ビューとはビジュアル要素の論理的集合体で、全体として SPA のエクスペリエンスを形作ります。このため SPA は、URL ではなくユーザーのインタラクションによりビュー間を移行するものと考えられます。通常、ビューはサイト全体またはサイト内のグループ化されたビジュアル要素を表せます。
 
@@ -56,7 +56,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
-## Adobe Target ビューの実装
+## Adobe[!DNL Target]表示の実装
 
 Adobe Target ビューとは何かを説明したので、Target でこの概念を活用して、マーケティング担当者が VEC を介して SPA で A/B テストや XT テストを実行できるようにできます。これには開発者による 1 回限りの設定が必要です。以下では、これを設定する手順を説明します。
 
