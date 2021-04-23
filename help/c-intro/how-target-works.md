@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience PlatformWeb SDK;aep web sdk;aep sdk；検索エンジンの最適化；検索エンジンの最適化；seo;edge clusters, central clusters;at.js;mbox.js;
-description: ターゲットのJavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストなど、Adobe Targetの仕組みを説明します。
-title: ターゲットの仕組み
-feature: Overview
+description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストの仕組みを説明します。
+title: ' [!DNL Target] 機能の仕組み'
+feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2565'
 ht-degree: 31%
 
 ---
 
-# Adobe Target の仕組み
+# Adobe[!DNL Target]の仕組み
 
 [!DNL Adobe Target]の仕組みを学びます。[!DNL Adobe Experience Platform Web SDK]およびJavaScriptライブラリ（at.jsとmbox.js）に関する情報も含まれます。 この記事では、[!DNL Target]を使用して作成できる様々なアクティビティタイプについても紹介します。 また、[!DNL Target]エッジネットワーク、検索エンジン最適化(SEO)、および[!DNL Target]がボットを検出する方法についても学習できます。
 
@@ -136,7 +136,7 @@ Central Clusterの場所には、データ収集センターとデータ処理�
 >
 >[!DNL Adobe Target] 現在、中国にはEdge Clusterがありません。中国の [!DNL Target] お客様の訪問者パフォーマンスは引き続き制限されます。ファイアウォールと国内のエッジクラスターが不足しているため、[!DNL Target]がデプロイされたサイトの経験に影響が及ぶ可能性があります。 エクスペリエンスのレンダリングが遅くなる場合があり、ページの読み込みに影響する可能性があります。 また、[!DNL Target]オーサリングUIを使用すると遅延が発生する場合があります。
 
-必要に応じて、[!DNL Target]エッジクラスターを許可リストできます。 詳しくは、[許可リストターゲットのエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)を参照してください。
+必要に応じて、[!DNL Target]エッジクラスターを許可リストできます。 詳しくは、[許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)を参照してください。
 
 ## 保護されたユーザーエクスペリエンス{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
