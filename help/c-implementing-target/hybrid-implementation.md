@@ -1,17 +1,17 @@
 ---
 keywords: ハイブリッド展開；ハイブリッド；サーバー側；サーバー側；サーバー側；クライアント側；クライアント側；クライアント側；ハイブリッド実装
 description: クライアント側とサーバー側の実装をパーソナライゼーション、ブレンドするための、Adobe Target独自のハイブリッド展開モデルについて説明します。
-title: ハイブリッドターゲットの実装とは
-feature: Implementation
+title: ハイブリッド [!DNL Target] 実装とは何ですか？
+feature: 実装
 role: Developer
+exl-id: af898360-217f-4c90-ac26-e80735e4dd20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # ハイブリッド実装
 
