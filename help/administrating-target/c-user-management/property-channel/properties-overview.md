@@ -2,18 +2,18 @@
 keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
 description: Adobe Targetにユーザーを追加する方法を学びます。ワークスペース、ユーザーグループおよびプロパティの作成実装を更新します。ロールと権限を指定します。
 title: エンタープライズ権限の設定方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Enterprise 権限の設定{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) Enterprise 権限の設定
 
 [!DNL Target]実装にユーザーを追加するために必要なタスクに関する情報。ワークスペース、ユーザーグループおよびプロパティの作成[!DNL Target]実装を更新して`at_property`パラメーターを含めます。ロールと権限を指定します。
 
@@ -113,7 +113,7 @@ ht-degree: 66%
 
    以下のフィールドを設定します。
 
-   * **プロパティ名（必須）：プロパティの説明的な名前を** 指定します。
+   * **プロパティ名（必須）：プロパティのわかりやすい名前を** 指定します。
    * **説明：**（オプション）プロパティの説明を指定します。
    * **チャネル：** Web、モバイル、アプリ、電子メールまたはその他／API（例えばセットトップボックスや PlayStation コンソール）から、プロパティ用の目的のチャネルを選択します。
 
@@ -206,7 +206,7 @@ ht-degree: 66%
 >
 >[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）の設計が一新され、パフォーマンスが向上し、新機能のリリース時に必要なメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 以下のビデオの情報は、一般的に正しい。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
 
-### ターゲットワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
+### Adobe Targetワークスペースの設定方法(6:55) ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 このビデオでは、ワークスペースの作成方法を説明します。
 
