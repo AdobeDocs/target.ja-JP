@@ -2,16 +2,16 @@
 keywords: 文字制限；mboxパラメーター；バッチ配信api;プロファイルパラメーター；制限；組み込みプロファイル；最大；制限；制約；文字；ベストプラクティス；orderid;orderTotal;mbox3rdPartyID;カテゴリ;categoryID；トラブルシューティング
 description: 文字制限とその他の制限(オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど)のリストの表示 文字の制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について説明します。
 title: Adobe Targetの様々な文字、大きさ、その他の制限は何ですか。
-feature: Troubleshooting
+feature: トラブルシューティング
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # 制限
 
@@ -234,7 +234,7 @@ ht-degree: 60%
 
 * **制限**：アクティビティあたり 50 個のレポート用オーディエンス／セグメント。
 
-## Target UI のスクリプトプロファイル入力ボックス
+## [!DNL Target] UIのスクリプトプロファイル入力ボックス
 
 * **推奨制限**：2,000 文字。
 
@@ -273,4 +273,3 @@ ht-degree: 60%
 * **推奨制限**:ターゲットルール値あたり2,500文字。
 * **推奨制限**：ターゲット設定ルールのオーディエンスあたり 30,000 個の一意の値。
 * **推奨制限**：アクティビティあたり 100,000 個の一意のターゲット設定ルール値。
-
