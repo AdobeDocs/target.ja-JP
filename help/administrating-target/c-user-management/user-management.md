@@ -1,19 +1,19 @@
 ---
 keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
-description: Adobe Target標準でユーザーを管理する方法、およびAdobe Targetプレミアムでエンタープライズのプロパティと権限を管理する方法について説明します。
+description: Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premiumでユーザーを管理する方法を説明します。
 title: User Managementの設定方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 20%
 
 ---
 
-
-# ユーザー管理{#user-management}
+# ユーザー管理
 
 [!DNL Target] Standardでのユーザーの管理と、[!DNL Target] Premiumでのエンタープライズ[!UICONTROL プロパティ]および[!UICONTROL 権限]の管理に関する情報です。
 
@@ -40,4 +40,3 @@ ht-degree: 19%
 次の図は、[!DNL Target] Premiumアカウントの[!UICONTROL 管理]ページを示しています。 「[!UICONTROL プロパティ]」タブと「[!UICONTROL ユーザー]」タブの両方を使用できます。
 
 ![「管理」タブ](/help/administrating-target/assets/premium.png)
-
