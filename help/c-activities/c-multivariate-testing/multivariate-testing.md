@@ -1,16 +1,16 @@
 ---
 keywords: 多変量分析テスト；mvt；全因子；mvtまたはa/b；多変量分析a/b；トラフィック見積もり；mvtを使用する場合；mvtの考慮事項；多変量分析；部分階乗；部分階乗；全因子
-description: Adobe TargetでMultivariate Testing(MVT)を使用してページ上のオファーの組み合わせを比較し、どの組み合わせのパフォーマンスが最も高いかを判断する方法について説明します。
+description: Adobe [!DNL Target] でMultivariate Testing(MVT)を使用して、ページ上のオファーの組み合わせを比較し、どの組み合わせが最も高いパフォーマンスを発揮するかを判断する方法について説明します。
 title: 多変量分析テストとは
-feature: Multivariate Tests
+feature: 多変量分析テスト
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 88%
 
 ---
-
 
 # 多変量分析テストの概要
 
