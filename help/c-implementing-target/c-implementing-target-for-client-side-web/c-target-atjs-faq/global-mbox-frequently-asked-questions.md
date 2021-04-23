@@ -1,23 +1,23 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;グローバル;グローバル mbox
-description: Adobe Targetのグローバルmboxに関するよくある質問(FAQ)と回答をお読みください。
+description: よくある質問(FAQ)と、Adobe [!DNL Target] のグローバルmboxに関する回答を読みます。
 title: グローバルMboxに関するよくある質問
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# グローバル mbox に関するよくある質問{#global-mbox-frequently-asked-questions}
+# グローバル mbox に関するよくある質問
 
 グローバル mbox に関するよくある質問（FAQ）のリストです。
 
-## Target アカウントが複数のドメインにまたがって設定されている場合、複数のグローバル mbox を使用できますか？{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## [!DNL Target]アカウントが複数のドメインにわたって設定されている場合、複数のグローバルmboxを持つことはできますか。{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 アカウント全体で使用できるグローバル mbox は 1 つだけです。
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 また、[targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) を使用し、これらのパラメーターを [!UICONTROL Visual Experience Composer]（VEC）の「URL を設定」セクションで選択するか、このパラメーターをフォームベースの Experience Composer で「絞り込み条件」として追加することで、ページにパラメーターを渡せます。
 
-## Target のグローバル mbox に売上高データを渡すには、どうすればよいですか？{#section_17AEA933BADA4D169CCEDF5833C41306}
+## [!DNL Target]グローバルmboxに売上データを渡す方法を教えてください。{#section_17AEA933BADA4D169CCEDF5833C41306}
 
 target-global-mbox で売上高と注文の情報を収集するには、「mbox パラメーター」を Target に送信する必要があります。このパラメーターは名前と値のペアで、Target により多くの情報を送信するために使用します。Target はこれらのパラメーター（予約された名前）を自動的に検索し、売上高データを設定します。
 
