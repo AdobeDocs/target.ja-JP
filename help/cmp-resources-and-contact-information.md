@@ -1,18 +1,18 @@
 ---
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
-description: Adobe Targetの機能について学ぶための参考情報や、ターゲットに関するヘルプが必要な場合のAdobeへの問い合わせ方法について説明します。
+description: ' [!DNL Target]のヘルプが必要な場合は、Adobe [!DNL Target] の機能やAdobeへの問い合わせ方法について学習します。'
 title: ターゲットに関するリソースや連絡先情報はどこで入手できますか？
-feature: Release Notes,Overview
+feature: リリースノート，概要
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1231'
 ht-degree: 78%
 
 ---
 
-
-# リソースと連絡先情報{#resources-and-contact-information}
+# リソースと連絡先情報
 
 Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 
@@ -65,7 +65,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、[Experience Cloudコミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)のAdobe Targetの専門家にお問い合わせいただくか、Twitter([@AdobeExpCare](https://twitter.com/adobeexpcare))でお問い合わせください。
+ご質問は、[Experience Cloudコミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)のAdobe Targetの専門家にお問い合わせいただくか、Twitter([@AdobeExpCare](https://twitter.com/adobeexpcare))までお問い合わせください。
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### サービス、利用可能な機能、課金 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
-ソリューションの設定によっては、このドキュメントで説明されている一部のオプションをご利用いただけない場合があります。各アカウントはそれぞれ異なるので、価格、お支払期限、ご利用条件については、契約書を参照してください。ご利用のサービスレベルの追加や変更をご希望の場合や、現在のサービスに対するご質問は、担当のアカウントマネージャーにお問い合わせください。
+ソリューションの設定によっては、このドキュメントで説明されている一部のオプションをご利用いただけない場合があります。各アカウントはそれぞれ異なるので、価格、支払期限、利用条件については、契約書をご確認ください。ご利用のサービスレベルの追加や変更をご希望の場合や、現在のサービスに対するご質問は、担当のアカウントマネージャーにお問い合わせください。
 
 ### フィードバック  {#section_8154D6D712054220A90D85FA8E92933E}
 
