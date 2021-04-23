@@ -1,18 +1,18 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: ターゲット対応ページで直接Recommendationsアクティビティを作成する際に、Adobe TargetVisual Experience Composer(VEC)を使用する方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer(VEC)を使用して、 [!DNL Target]対応のページに直接Recommendationsアクティビティを作成する方法を説明します。
 title: Recommendationsアクティビティの作成方法
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの作成{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの作成
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 
