@@ -1,16 +1,16 @@
 ---
 keywords: 複数ページ;遍歴のテスト;複数ページアクティビティ
-description: Adobe Targetで複数ページのアクティビティを作成する方法を学習すると、複数ページにわたるストーリーを作成し、各ページに固有のデザインを作成できます。
+description: Adobe [!DNL Target] で複数ページのアクティビティを作成する方法を学習すると、複数ページにわたるストーリーを作成し、各ページに固有のデザインを作成できます。
 title: 複数ページのアクティビティの作成方法
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
-
 
 # 複数ページアクティビティ
 
@@ -46,4 +46,3 @@ ht-degree: 85%
    このメニューを使用して、ページの名前変更、複数ページアクティビティからのリダイレクトテストの実行、ページの削除をおこないます。
 
 1. Visual Experience Composer を使用して、各ページでのオファーの外観をデザインします。
-
