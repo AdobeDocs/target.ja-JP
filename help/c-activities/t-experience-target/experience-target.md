@@ -1,16 +1,16 @@
 ---
 keywords: ターゲット設定;エクスペリエンスのターゲット設定;xt;ランディングページ;ランディングページキャンペーン
-description: Adobe Targetのエクスペリエンスターゲット設定(XT)アクティビティを使用して、マーケティング担当者が定義した一連のルールと条件に基づいて、特定のオーディエンスにコンテンツを配信する方法を説明します。
+description: Adobe [!DNL Target] でエクスペリエンスターゲット設定(XT)アクティビティを使用して、マーケティング担当者が定義した一連のルールと条件に基づいて、特定のオーディエンスにコンテンツを配信する方法を説明します。
 title: エクスペリエンスターゲット設定(XT)アクティビティとは
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # エクスペリエンスのターゲット設定
 
