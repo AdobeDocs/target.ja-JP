@@ -1,17 +1,17 @@
 ---
 keywords: プライバシー；ipアドレス；地理特性；オプトアウトオプトアウト；データプライバシー；政府規制；規制；gdpr;cpa
-description: Adobe TargetがIPアドレスの収集と取り扱い、オプトアウトの指示など、該当するデータプライバシー法にどのように準拠しているかを説明します。
-title: ターゲットはプライバシーに関する問題をどのように扱うか
-feature: Privacy & Security
+description: Adobe [!DNL Target] が、IPアドレスの収集と処理、オプトアウトの指示など、該当するデータプライバシーに関する法律にどのように準拠するかを説明します。
+title: ' [!DNL Target] プライバシーに関する問題に対する対処方法'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 73%
 
 ---
-
 
 # プライバシー
 
