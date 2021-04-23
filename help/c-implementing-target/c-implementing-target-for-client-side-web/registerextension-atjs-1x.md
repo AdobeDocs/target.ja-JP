@@ -1,17 +1,17 @@
 ---
 keywords: registerExtension;registerextension;register extension;at.js;関数;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
-description: Adobe Targetのat.js JavaScriptライブラリに対してregisterExtension()関数を使用して、特定の拡張を登録します。 (at.js 1.x)
+description: Adobe [!DNL Target] at.js JavaScriptライブラリに対してregisterExtension()関数を使用して、特定の拡張を登録します。 (at.js 1.x)
 title: registerExtension()関数の使用方法
 feature: at.js
 role: Developer
+exl-id: 7f0898b4-ddd5-425c-99dc-94f9b30f8ba7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 90%
 
 ---
-
 
 # registerExtension() - at.js 1.x
 
