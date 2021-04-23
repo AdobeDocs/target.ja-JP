@@ -1,19 +1,19 @@
 ---
 keywords: api;adobe i/o
-description: Adobe TargetクラシックのレガシーAPIからAdobe I/Oの新しいAPIにトランジションする方法を説明します。
+description: Adobe [!DNL Target] 従来のレガシーAPIからAdobe I/O上の新しいAPIにトランジションする方法を説明します。
 title: レガシーAPIからAdobe I/Oへのトランジション方法
-feature: Implement Server-side
+feature: サーバー側での実装
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-
-# Target の従来の API から Adobe I/O への移行
+# [!DNL Target]レガシーAPIからAdobe I/Oへのトランジション
 
 Target の従来の API から Adobe I/O の新しい API への移行について説明します。
 
