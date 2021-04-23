@@ -1,22 +1,22 @@
 ---
 keywords: ターゲット設定；Visual Experience Composer;vec;Visual Experience Composerのトラブルシューティング；トラブルシューティング；tls;tls 1.2
-description: 特定の状況でVisual Experience Composer(VEC)で発生することがある問題のトラブルシューティング方法を説明します。
+description: 特定の状況でAdobe [!DNL Target] Visual Experience Composer(VEC)で発生することがある問題のトラブルシューティング方法を説明します。
 title: Visual Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
-
 
 # Visual Experience Composerに関する問題のトラブルシューティング
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)では、特定の状況で表示の問題が発生する場合があります。
 
-## Visual Experience Composer で Web サイトを開いたときに、Target ライブラリが読み込まれません。（VEC のみ）{#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Visual Experience ComposerでWebサイトを開くと、[!DNL Target]ライブラリが読み込まれません。 （VEC のみ）{#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Visual Experience Composer で Web サイトを開くと、Target によって 2 つのパラメーター（`mboxEdit=1` および `mboxDisable=1`）が追加されます。
 
