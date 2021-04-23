@@ -1,19 +1,19 @@
 ---
 keywords: 実装;mbox.js 非 JavaScript;adbox;リダイレクター;mbox
-description: adboxやリダイレクターの使用など、JavaScript以外のシナリオでAdobe Targetを実装する方法を説明します。
-title: 電子メール用のターゲットの実装方法を教えてください。
-feature: Implement Email
+description: adboxやリダイレクターの使用など、JavaScript以外のシナリオでAdobe [!DNL Target] を実装する方法を説明します。
+title: 電子メール用に [!DNL Target] を実装する方法を教えてください。
+feature: 電子メールの実装
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# 電子メール：Target の実装{#email-implement-target}
+# 電子メール：Target の実装
 
 adbox やリダイレクターの使用など、JavaScript 以外のシナリオで Target を実装する際の情報をまとめています。
 
@@ -30,7 +30,7 @@ adbox 広告およびリダイレクターは、あらゆるアクティビテ�
 
 ## セキュリティのベストプラクティス{#security}
 
-リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインを許可リストする際に、「認証済みホスト」を使用することをお勧めします。 ターゲットは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、[ホスト&#x200B;*のターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストーの作成を参照してください。*
+リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインに許可リスト対しては、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、リダイレクトを許可するドメインに対し許可リストてホストを使用します。 詳しくは、[ホスト&#x200B;*の「ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限を持つホストを指定する許可リストーを作成する」を参照してください。*
 
 ## 制限事項 {#section_38F559DCF1324271926608BCD4AB1227}
 
