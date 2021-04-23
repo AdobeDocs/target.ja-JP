@@ -2,17 +2,17 @@
 keywords: 概要およびリファレンス
 description: Adobe Targetでの訪問者プロファイルの有効期限（デフォルトでは14日間）についての詳細。 プロファイルの有効期間は、AdobeのClientCareに問い合わせることで延長できます。
 title: 訪問者プロファイルの有効期間とは何ですか。延長できますか。
-feature: Audiences
+feature: オーディエンス
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# 訪問者プロファイルの有効期間{#visitor-profile-lifetime}
+# 訪問者プロファイルの有効期間
 
 デフォルトでは、訪問者プロファイルは、その訪問者のアクティビティがなくなってから 14 日後に期限が切れます。このプロファイル有効期間は延長できます。
 
