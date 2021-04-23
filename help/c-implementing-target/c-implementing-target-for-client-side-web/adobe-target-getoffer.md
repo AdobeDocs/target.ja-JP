@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;関数
-description: Adobe Targetのat.jsライブラリでadobe.ターゲット.getOffer()関数とそのオプションを使用して、ターゲットオファーを取得するリクエストを実行します。
+description: adobe.ターゲット.getOffer()関数とそのオプションをAdobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] オファーに使用します。
 title: adobe.ターゲット.getOffer()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: 3448fdaa-b5f6-465d-8858-1dfe214bd8c4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 91%
+source-wordcount: '467'
+ht-degree: 93%
 
 ---
-
 
 # adobe.target.getOffer(options)
 
