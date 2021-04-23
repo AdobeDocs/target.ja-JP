@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定；オーディエンスフィルタ；オーディエンス；フィルタ
-description: Adobe Targetのオーディエンスフィルターを使用して、特定の特性または一連の特性を共有する訪問者のグループから表示データを取得する方法を学びます。
+description: Adobe [!DNL Target] のオーディエンスフィルターを使用して、特定の特性または特性のセットを共有する訪問者のグループのデータを表示する方法を説明します。
 title: レポートにオーディエンスフィルターを使用できますか。
-feature: Audiences
+feature: オーディエンス
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# レポート用のオーディエンスフィルター{#audience-filters-for-reporting}
+# レポート用のオーディエンスフィルター
 
 オーディエンスフィルター（またはオーディエンス）は、特定の 1 つの特性または複数の特性を共有する訪問者のグループです。
 
@@ -38,4 +38,3 @@ ht-degree: 79%
 | 必要に応じて、複数のオーディエンスを組み合わせる。 | [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md) |
 | アクティビティの目標と設定ページにオーディエンスを適用する。 | A/Bテスト：[目標と設定](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>エクスペリエンスのターゲット設定：[目標と設定](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多変量分析テスト： [目標と設定](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations:[Recommendationsアクティビティ設定](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>アクティビティ設定：[アクティビティ設定](/help/c-activities/activity-settings.md) |
 | オーディエンスフィルターに関する情報をレポートに表示する。 | [レポート設定](/help/c-reports/c-report-settings/report-settings.md) |
-
