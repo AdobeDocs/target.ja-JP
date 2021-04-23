@@ -3,16 +3,16 @@ keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設�
 description: Adobe TargetのRecommendationsアクティビティの説明と制御に使用する設定を構成する方法を説明します。
 title: Recommendationsアクティビティの設定方法
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの設定{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Recommendations アクティビティの設定
 
 [!DNL Adobe Target]内の[!UICONTROL Recommendations]アクティビティを記述し、制御するために使用できる設定についての情報です。
 
