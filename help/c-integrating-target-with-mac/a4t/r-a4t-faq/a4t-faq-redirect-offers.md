@@ -1,22 +1,22 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;リダイレクト;リダイレクトオファー;adobe-mc-sdid;adobe_mc_ref
-description: Analyticsをターゲットに使用する場合(A4T)のリダイレクトオファーの使用に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
+description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] アクティビティを使用する場合のリダイレクトオファーの使用に関する質問への回答を検索します。
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # リダイレクトオファー - A4T FAQ
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして使用する場合(A4T)に、リダイレクトオファーを使用する方法に関するよくある質問に対する回答を記載します。
 
-## Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics forAdobe Target(A4T)は、リダイレクトオファーをサポートしますか。{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 はい、導入で[!DNL at.js]を使用している場合は○です。 ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
 
@@ -75,7 +75,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 ## Web サーバーで、これらのパラメーターが URL から除去されます。どうすればよいですか？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-ITチームと協力して、これらのパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）を許可してもらいます。
+ITチームと協力して、次のパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）許可リストに加えるを取得します。
 
 ## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -93,7 +93,7 @@ A4T とリダイレクトオファーを使用する場合、Target によって
 
 訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。このプロセスにより、誤ったSDID値がターゲットおよびAnalyticsに送信され、Analyticsレポートでリダイレクトに不均等な分割が表示されます。
 
-Adobeは、`adobe_mc_ref`と`adobe_mc_sdid`が許可され、これらの値がどのような形でも変換されないようにすることをITチームに依頼することをお勧めします。
+Adobeは、`adobe_mc_ref`と`adobe_mc_sdid`が変換されないように、ITチームに相談するこ許可リストに加えるとをお勧めします。
 
 ## 参照URLを新しいページに渡す必要があるのはなぜですか。{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
