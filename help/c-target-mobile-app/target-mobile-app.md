@@ -1,19 +1,19 @@
 ---
 keywords: モバイルアプリ、モバイルアプリプロセス、targetモバイルアプリ、モバイルターゲット場所、モバイルアプリ成功指標
-description: インタラクティブなテストとルールベースのパーソナライゼーション、AIに基づくパーソナライゼーションを行い、モバイルアプリの最適化とパーソナライゼーションにAdobe Targetを使用する方法を説明します。
-title: モバイルアプリでターゲットを使用できますか？
-feature: Implement Mobile
+description: Adobe [!DNL Target] をモバイルアプリの最適化とパーソナライゼーションに使用する方法と、反復的なテストとルールベースのパーソナライゼーション、AIによるパーソナライゼーションについて説明します。
+title: モバイルアプリで [!DNL Target] を使用できますか？
+feature: モバイルの実装
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 77%
 
 ---
 
-
-# モバイルアプリのための Target{#target-for-mobile-apps}
+# モバイルアプリのための Target
 
 Adobe Target は、ユーザーの行動やモバイルコンテキストに基づいてモバイルアプリエクスペリエンスのテスト、パーソナライズ、最適化をおこなうのに役立ちます。AI を活用したルールベースのパーソナライゼーションのほか、反復テストを通じてエンゲージメントやコンバージョンにつながるインタラクションを提供することができます。
 
