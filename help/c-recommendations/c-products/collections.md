@@ -1,18 +1,18 @@
 ---
 keywords: コレクション;ターゲット設定
-description: Adobe TargetRecommendationsでコレクションを使用する方法を説明します。 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
+description: Adobe [!DNL Target] Recommendationsでコレクションを使用する方法を説明します。 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
 title: コレクションをRecommendationsアクティビティで使用する方法
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) コレクション {#collections}
+# ![PREMIUM](/help/assets/premium.png) コレクション
 
 コレクションは、レコメンデーションに使用できる商品または品目のセットです。コレクションは、そのコレクションの一部となる項目が満たす必要がある条件を指定することで定義されます。
 
