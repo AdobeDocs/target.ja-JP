@@ -1,19 +1,19 @@
 ---
 keywords: 実装；実装；at.js;adobe experience platform web sdk;aep web sdk
-description: Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.js JavaScriptライブラリを使用して、クライアント側Web用のAdobe Targetを実装する方法を学びます。
-title: クライアント側Web用のターゲットを実装する方法
+description: Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js JavaScriptライブラリの実装方法を学びます。
+title: クライアント側Webに [!DNL Target] を実装する方法
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# 概要：Target をクライアント側 Web に実装する
+# 概要：クライアント側Web用に[!DNL Target]を実装
 
 クライアント側での [!DNL Adobe Target] の実装では、[!DNL Target] アクティビティに関連付けられたエクスペリエンスをクライアントブラウザーに直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアント側の実装では、WYSIWYG エディタ、[Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）、または非視覚的インタフェースである[フォームベースの Experience Composer ](/help/c-experiences/form-experience-composer.md)を使用して、アクティビティとパーソナライズされたエクスペリエンスを作成できます。
 
