@@ -1,16 +1,16 @@
 ---
 keywords: アクティビティ設定;A/B 目標と設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;主な目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのためのオーディエンス;指標を増分する前にどの成功指標に達するべきか;この目的指標にユーザーが達した後はどうなるか;メモ
-description: Adobe Targetの目標と設定ページを使用して、A/Bアクティビティの目標に関する情報を指定する方法について説明します。
-title: ターゲットA/Bアクティビティで目標と設定を指定する方法を教えてください。
-feature: A/B Tests
+description: Adobe [!DNL Target] の目標と設定ページを使用して、A/Bアクティビティの目標に関する情報を指定する方法を説明します。
+title: ' [!DNL Target] A/Bアクティビティーで目標と設定を指定する方法を教えてください。'
+feature: A/B テスト
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 92%
 
 ---
-
 
 # 目標と設定
 
