@@ -3,16 +3,16 @@ keywords: 条件；アルゴリズム；業種；ページタイプ；レコメ�
 description: お使いのアクティビティに最も適したレコメンデーションを表示するように、Adobe Recommendationsアクティビティのコンテンツを制御する条件の作成方法を説明します。
 title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2486'
 ht-degree: 64%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 条件を作成{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) 条件を作成
 
 [!UICONTROL Adobe Target] [!UICONTROL Recommendations]の条件は、[!UICONTROL Recommendations]アクティビティの内容を制御します。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。これらの条件は、訪問者のアクションを使用して、表示するコンテンツまたは商品を決定します。
 
