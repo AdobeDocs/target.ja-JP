@@ -1,16 +1,16 @@
 ---
 keywords: エクスペリエンスの作成;エクスペリエンス作成;優先度;オーディエンス;エクスペリエンス;Visual Experience Composer
-description: Visual Experience Composer(VEC)を使用して、エクスペリエンスターゲット設定(XT)アクティビティでページ上のエクスペリエンスを作成および編集する方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer(VEC)を使用して、エクスペリエンスターゲット設定(XT)アクティビティでページ上のエクスペリエンスを作成および編集する方法を説明します。
 title: エクスペリエンスのターゲット設定アクティビティでエクスペリエンスを作成する方法を教えてください。
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
-
 
 # エクスペリエンスターゲット設定(XT)アクティビティでのエクスペリエンスの作成
 
