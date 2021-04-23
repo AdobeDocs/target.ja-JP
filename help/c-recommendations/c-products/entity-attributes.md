@@ -1,16 +1,16 @@
 ---
 keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
-description: エンティティ属性を使用して、商品やコンテンツの情報をターゲットRecommendationsに渡す方法を学びます。
+description: エンティティ属性を使用して、商品やコンテンツの情報を [!DNL Target] Recommendationsに渡す方法を学びます。
 title: エンティティ属性の使用方法
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 57%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) エンティティの属性
 
