@@ -1,15 +1,15 @@
 ---
 keywords: 実装；実装；設定；設定；データプロバイダ
-description: データプロバイダーを使用して、ターゲットにデータを取得します。
-title: データプロバイダーを使用してターゲットにデータを取り込む方法を教えてください。
-feature: Implementation
+description: データプロバイダーを使用して [!DNL Target] にデータを取得します。
+title: データプロバイダー [!DNL Target] にデータを取り込む方法を教えてください。
+feature: 実装
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 66%
+source-wordcount: '299'
+ht-degree: 67%
 
 ---
 
