@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定、targetオペレーティングシステム、オペレーティングシステム、target os、os、target linux、linux、ターゲットウィンドウ、windows、target Macintosh、Macintosh、mac、ターゲットmac、win、ターゲットwin
 description: 特定のオペレーティングシステム（Linux、MacintoshまたはWindows）を使用する訪問者をターゲットする方法を説明します。
-title: オペレーティングシステムに基づくターゲット訪問者を作成できますか。
-feature: Audiences
+title: オペレーティング・システムに基づいて訪問者を [!DNL Target] できますか。
+feature: オーディエンス
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# オペレーティングシステム{#operating-system}
+# オペレーティングシステム
 
 特定のオペレーティングシステムを使用している訪問者をターゲットに設定することができます。
 
