@@ -1,13 +1,13 @@
 ---
 keywords: トラフィック見積もり；自動パーソナライゼーション；ap；予測トラフィック；自動ターゲット
-description: Adobe Targetトラフィック見積もりを使用して、Automated Personalizationアクティビティが成功するのに十分なトラフィックがあるかどうかを判断します。
+description: Adobe [!DNL Target] トラフィック見積もりを使用して、Automated Personalizationアクティビティが成功するのに十分なトラフィックがあるかどうかを判断します。
 title: アクティビティを成功させるにはどの程度のトラフィックが必要か
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 13%
 
 ---
