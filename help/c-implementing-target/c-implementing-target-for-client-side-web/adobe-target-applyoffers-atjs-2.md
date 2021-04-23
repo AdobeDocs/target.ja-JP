@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;関数
-description: Adobe Targetのat.js JavaScriptライブラリでadobe.ターゲット.applyOffers()関数を使用して、応答に複数のオファーを適用します。 (at.js 2.x)
+description: Adobe [!DNL Target] at.js JavaScriptライブラリでadobe.ターゲット.applyOffers()関数を使用して、応答に複数のオファーを適用します。 (at.js 2.x)
 title: adobe.applyOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
