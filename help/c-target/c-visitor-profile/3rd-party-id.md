@@ -2,17 +2,17 @@
 keywords: mbox;mbox3rdPartyId;プロファイル同期;PCID
 description: メンバーシップIDや組織の忠誠度プログラムなど、組織の訪問者IDであるmbox3rdPartyIdの使用方法を説明します。
 title: mbox3rdPartyIdでリアルタイムプロファイル同期を使用する方法を教えてください。
-feature: Audiences
+feature: オーディエンス
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# mbox3rdPartyId のリアルタイムプロファイル同期{#real-time-profile-syncing-for-mbox-rdpartyid}
+# mbox3rdPartyId のリアルタイムプロファイル同期
 
 mbox3rdPartyId は、会社のロイヤルティプログラムのメンバーシップ ID などの、会社の訪問者 ID です。
 
