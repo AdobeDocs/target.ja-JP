@@ -1,16 +1,16 @@
 ---
 keywords: アクティビティ設定;エクスペリエンスのターゲット設定目標と設定;xt目標と設定;エクスペリエンスのターゲット設定;レポート設定;目標指標;成功指標;従属成功指標;詳細設定;プライマリ目標;追加の指標;目的;優先度;期間;レポートソリューション;目標;レポートのオーディエンス;この指標を増分する前に達成する必要のある成功指標はどれですか;ユーザーがこの目標指標に達した後、どうなりますか;注意
-description: Adobe Targetの目標と設定ページを使用して、エクスペリエンスターゲット設定(XT)アクティビティの目標に関する情報を指定する方法について説明します。
+description: Adobe [!DNL Target] の目標と設定ページを使用して、エクスペリエンスターゲット設定(XT)アクティビティの目標に関する情報を指定する方法について説明します。
 title: エクスペリエンスのターゲット設定アクティビティで目標と設定を指定する方法を教えてください。
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
-
 
 # エクスペリエンスターゲット設定(XT)アクティビティの目標と設定
 
