@@ -1,14 +1,14 @@
 ---
 keywords: アクティビティリスト;アクティビティ;アクティビティ;アクティビティタイプ；アクティビティの編集；アクティビティ操作；アクティビティ属性；アクティビティリストフィルタ；アクティビティ制限；パーソナライズ；パーソナライズ
-description: Adobe Targetのアクティビティが特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストする方法を学びます。
+description: Adobe [!DNL Target] のアクティビティを使用して、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストする方法を学びます。
 title: コンテンツをパーソナライズし、ターゲットを使用してページデザインをテストする方法を教えてください。
-feature: Activities
+feature: アクティビティ
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 92%
+source-wordcount: '2097'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 
 Visual Experience Composer の追加の制限事項については、[Visual Experience Composer の制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)の説明を参照してください。
 
-## Target にインポートされる、Target の外部で更新されたアクティビティの属性 {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}以外で更新されたアクティビティ用に[!DNL Target]に読み込まれた属性
 
 [!DNL Target] で作成されたアクティビティが [!DNL Target] 以外（Adobe I/O など）で更新されると、次のアクティビティ属性が [!DNL Target] に再び読み込まれます。
 
