@@ -1,16 +1,16 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-description: 表示Adobe TargetRecommendationsアクティビティに関するよくある質問と回答のリスト。
-title: ターゲットRecommendationsに関する質問や回答はどこで見つけられますか？
+description: Adobe [!DNL Target] Recommendationsアクティビティに関するよくある質問と回答のリストを表示します。
+title: ' [!DNL Target] Recommendationsに関する質問や回答はどこで見つけられますか？'
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 39%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ
 
@@ -130,7 +130,7 @@ Target で「[!UICONTROL 互換性あり]」チェックボックスが表示さ
 
 ![](assets/content_similarity_example.png)
 
-## Target でレコメンデーションを表示できないことがあるのはなぜですか？{#section_DB3F40673AED42228E407C05437D99E9}
+## [!DNL Target]がレコメンデーションを表示できないことがあるのはなぜですか？{#section_DB3F40673AED42228E407C05437D99E9}
 
 Target では、利用できるレコメンデーションが少ないことが原因で、レコメンデーションを表示できないことがあります。
 
@@ -223,5 +223,3 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 この動作は、あるデバイスで訪問者がアクティブになってから数分後に他のデバイスでアクティブになった場合にも発生します。 最初のデバイスのセッションは30分間有効期限が切れず、プロファイル状態が永続的な状態に書き込まれて処理されるまで、最大5分の遅延が発生する可能性があります。 この動作をテストする際に、セッションの有効期限が切れ、プロファイルが保存されるまで35分間待ちます。
 
 訪問者に2つのアクティブなセッションが同時に存在しない場合、1つのデバイス上で最近表示されたアイテムは、セッションが終了している限り、他のデバイス上で最近表示されたアイテムを更新します。 この動作をテストする際に、セッションの有効期限が切れるまで35分間待ちます。
-
-
