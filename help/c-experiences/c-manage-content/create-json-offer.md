@@ -1,18 +1,18 @@
 ---
 keywords: リモートオファー;リモートオファーの作成
-description: フォームベースのExperience Composerで使用するJSONオファーをAdobe Targetで作成する方法を説明します。 JSONオファーは、SPAフレームワークまたはサーバー側の統合に役立ちます。
+description: フォームベースのExperience Composerで使用するJSONオファーをAdobe [!DNL Target] で作成する方法を説明します。 JSONオファーは、SPAフレームワークまたはサーバー側の統合に役立ちます。
 title: JSONオファーの作成方法
-feature: Experiences and Offers
+feature: エクスペリエンスとオファー
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
-
-# JSON オファーの作成{#create-json-offers}
+# JSON オファーの作成
 
 [!UICONTROL フォームベースのExperience Composer]で使用するJSONオファーを[!DNL Adobe Target]の[!UICONTROL オファーライブラリ]に作成します。
 
@@ -135,7 +135,6 @@ adobe.target.getOffer({
 
 ## JSONオファータイプ{#section_52533555BCE6420C8A95EB4EB8907BDE}でオファーをフィルタリングする
 
-[!UICONTROL オファー]ライブラリをJSONオファータイプでフィルタリングするには、**[!UICONTROL タイプ]**&#x200B;ドロップダウンリストをクリックし、**[!UICONTROL JSON]**&#x200B;チェックボックスを選択します。
+[!UICONTROL オファー]をJSONオファータイプでフィルタリングするには、**[!UICONTROL タイプ]**&#x200B;ドロップダウンリストをクリックし、**[!UICONTROL JSON]**&#x200B;チェックボックスを選択します。
 
 ![](assets/offer-json-filter.png)
-
