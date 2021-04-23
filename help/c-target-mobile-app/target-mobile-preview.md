@@ -1,19 +1,19 @@
 ---
 keywords: qa;プレビュー;プレビューリンク;モバイル;モバイルプレビュー
 description: モバイルアプリのアクティビティに対してエンドツーエンドのQAを実施するには、モバイルプレビューのリンクを使用します。 特別なテストデバイスを使用せずに、自分自身を様々なエクスペリエンスに登録できます。
-title: ターゲットモバイルのモバイルプレビューリンクの使用方法
-feature: Implement Mobile
+title: ' [!DNL Target] Mobileのモバイルプレビューリンクの使用方法'
+feature: モバイルの実装
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Target モバイルのプレビュー{#target-mobile-preview}
+# Target モバイルのプレビュー
 
 モバイルのプレビューリンクを使用して、モバイルアプリケーションアクティビティの簡易的なエンドツーエンドの QA を実行できます。特別なテスト用のデバイスがなくても、ご利用のデバイス上で様々なエクスペリエンスを確認できます。
 
