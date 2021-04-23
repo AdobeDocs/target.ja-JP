@@ -1,18 +1,18 @@
 ---
 keywords: 多変量分析テスト、mvt、エクスペリエンスパフォーマンスレポート
-description: アクティビティ内の各エクスペリエンスのパフォーマンスを示す、Adobe Targetエクスペリエンスターゲット設定アクティビティのエクスペリエンスのパフォーマンスレポートの使用方法を説明します。
+description: アクティビティ内の各エクスペリエンスのパフォーマンスを示すAdobe [!DNL Target] エクスペリエンスターゲット設定アクティビティに対して、エクスペリエンスのパフォーマンスレポートを使用する方法を説明します。
 title: 多変量分析テストにエクスペリエンスのパフォーマンスレポートを使用する方法を教えてください。
-feature: Reports
+feature: レポート
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# エクスペリエンスのパフォーマンスレポート（MVT）{#experience-performance-report-mvt}
+# エクスペリエンスのパフォーマンスレポート（MVT）
 
 エクスペリエンスのパフォーマンスレポートは、アクティビティの各エクスペリエンスのパフォーマンスを表示します。このレポートには、参加者数、コンバージョン率、上昇率および信頼性に関する情報が含まれます。
 
