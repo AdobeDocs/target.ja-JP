@@ -2,15 +2,15 @@
 keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
 description: ページに期待した内容が表示されない場合に、問題を修正するのに役立つ提案を検索します。 Adobe Targetでコンテンツ配信をデバッグする方法を学びます。
 title: コンテンツ配信のトラブルシューティング方法
-feature: Activities
+feature: アクティビティ
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1415'
 ht-degree: 60%
 
 ---
-
 
 # コンテンツ配信のトラブルシューティング
 
@@ -173,7 +173,7 @@ at.jsは、無効なdoctypeを使用している場合、ターゲットリク�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本的なターゲットのデバッグ![チュートリアルバッジ](/help/assets/tutorial.png)
+### 基本的なAdobe Targetデバッグ![チュートリアルバッジ](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
