@@ -1,16 +1,16 @@
 ---
 keywords: レコメンデーション；レコメンデーションアクティビティ；条件；アルゴリズム；レコメンデーションキー；カスタムキー；業種；小売；eコマース；リードジェネレーション；b2b；金融サービス；メディア；公開
-description: Adobe TargetRecommendationsで条件の使い方を学びます。 条件とは、事前に決められた訪問者行動に基づいて、レコメンデーションするコンテンツを決定するルールです。
-title: ターゲットRecommendationsで条件を使用する方法
+description: Adobe [!DNL Target] Recommendationsで条件を使用する方法を学びます。 条件とは、事前に決められた訪問者行動に基づいて、レコメンデーションするコンテンツを決定するルールです。
+title: ' [!DNL Target] Recommendationsで条件を使用する方法'
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 条件
 
