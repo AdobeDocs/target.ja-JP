@@ -1,19 +1,19 @@
 ---
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
-description: 応答トークンをAdobe Targetで使用する方法について説明します。この方法は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力する方法を示します。
+description: 応答トークンをAdobe [!DNL Target] で使用する方法について説明します。この情報は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力します。
 title: 応答トークンとは何ですか。また、応答トークンの使用方法について教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# レスポンストークン{#response-tokens}
+# レスポンストークン
 
 応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用する[!DNL Target]固有のアクティビティ(プロファイルの詳細、ユーザー情報、地域情報など)を自動的に出力できます。
 
