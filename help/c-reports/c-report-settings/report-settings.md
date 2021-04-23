@@ -2,17 +2,17 @@
 keywords: Target、レポート、レポート設定、プリセット、ターゲットプリセット、metric、オーディエンス、日付範囲、設定、ダウンロード、table view、グラフビュー、平均上昇率、上昇率、上昇率バインド、頼区間、confidence、場所の貢献度、running Average、カウント手法
 description: 指標、オーディエンス、日付範囲など、Adobe Targetでのレポート設定の設定方法について説明します。
 title: レポート設定の設定方法を教えてください。
-feature: Reports
+feature: レポート
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 69%
 
 ---
 
-
-# レポート設定{#report-settings}
+# レポート設定
 
 [!DNL Adobe Target]のレポートに表示する要素を設定するのに役立つ情報です。 レポート設定は保存して後で使用できます。
 
@@ -290,4 +290,3 @@ ht-degree: 69%
 例えば、エクスペリエンス R のプロット線を表示し、エクスペリエンス P の線を非表示にしたい場合は、次の図のようにエクスペリエンス P の名前をクリックして選択を解除し、エクスペリエンス R の名前をクリックして選択します。
 
 ![](assets/graph_3.png)
-
