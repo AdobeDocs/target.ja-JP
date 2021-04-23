@@ -1,14 +1,14 @@
 ---
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
-description: Adobe TargetRecommendationsで条件とプロモーション用のインクルージョンルールを作成する方法を説明します。 より良い結果を得るには、より多くの動的または静的フィルタールールを追加します。
+description: Adobe [!DNL Target] Recommendationsで条件とプロモーションのインクルージョンルールを作成する方法を説明します。 より良い結果を得るには、より多くの動的または静的フィルタールールを追加します。
 title: Recommendationsで動的および静的包含ルールを使用する方法を教えてください。
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 43a7d3b3056a4404d18aa4a05a7a93d695900f73
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2086'
 ht-degree: 17%
 
 ---
