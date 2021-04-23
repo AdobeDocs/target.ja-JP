@@ -2,17 +2,17 @@
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;デバイスグラフ
 description: Adobe Experience Cloud・デバイスCo-opに関する情報を見つけます。 プライバシーと透明性を確保しながら、デジタルタッチポイント全体で消費者をより良く識別するために協力します。
 title: Adobe Experience Cloud・デバイスCo-Opとは
-feature: Integrations
+feature: 統合
+exl-id: 22769591-cab4-4460-b427-76eb1bfff4b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 68%
 
 ---
 
-
-# [!DNL Experience Cloud Device Co-op]{#experience-cloud-device-co-op}
+# [!DNL Experience Cloud Device Co-op]
 
 最高水準のプライバシーと透明性を確保しながら、参加企業の連携によって複数のデジタルタッチポイントを持つ消費者をより正確に識別できるようにするプログラム、[!DNL Adobe Experience Cloud Device Co-op] に関する情報。 
 
