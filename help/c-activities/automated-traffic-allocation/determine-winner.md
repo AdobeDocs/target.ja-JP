@@ -1,18 +1,18 @@
 ---
 keywords: 自動トラフィック配分；ターゲティング；勝者；統計的保証；信頼性；勝者の決定；上昇率；信頼性；デフォルト；デフォルトエクスペリエンス；自動配分；自動配分
-description: 上昇率や信頼性などの重要な指標を調べることで、Adobe Targetの自動配分A/Bアクティビティの結果を解釈する方法を学びます。
+description: 上昇率や信頼性など、重要な指標を調べることで、Adobe [!DNL Target] の自動配分A/Bアクティビティの結果を解釈する方法を説明します。
 title: 自動配分レポートの解釈方法
-feature: Auto-Allocate
+feature: 自動配分
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
 
 ---
 
-
-# 自動配分レポートの解釈{#determine-a-winner}
+# 自動配分レポートの解釈
 
 上昇率や信頼性などの重要な指標を調べることで、[!UICONTROL Adobe Target]の[!UICONTROL 自動配分]A/Bアクティビティの結果を解釈します。
 
@@ -48,7 +48,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->ターゲットには、事前に定義された最小コンバージョン数の後に勝者が表示されます。ただし、推奨結果を決定する最終決定は、常にAdobe Target[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)の結果に従う必要があります。 ターゲットは、サイトの基本コンバージョン率や、アクティビティの期間を決定するために計算ツールに入力されるその他の重要な側面については考慮しません。 その結果、ターゲットは、最小限のコンバージョン数に基づいて、保証されるよりも早く勝者を表示する場合があります。 詳しくは、[サンプルサイズ計算ツール](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を参照してください。
+>ターゲットは、事前に定義された最小コンバージョン数の後に勝者を表示します。ただし、推奨結果を決定する最終決定は、常にAdobe Target[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)の結果に従う必要があります。 ターゲットは、サイトの基本コンバージョン率や、アクティビティの期間を決定するために計算ツールに入力されるその他の重要な側面については考慮しません。 その結果、ターゲットは、最小限のコンバージョン数に基づいて、保証されるよりも早く勝者を表示する場合があります。 詳しくは、[サンプルサイズ計算ツール](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)を参照してください。
 
 ## 自動配分アクティビティの上昇率と信頼性のレポートについて理解{#lift-confidence}
 
@@ -76,4 +76,3 @@ ht-degree: 47%
 
 * 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。これらの信頼性レベルは、通常のA/Bテストが完了するまでの約半分の時間に出現します（ただし、これは保証されていません）。 通常のA/Bテストを実行する時間を決定するには、[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)を使用してください。プラグコントロールの「ベースラインコンバージョン率」のコンバージョン率、「上昇率」の「5%」、「信頼性」の95%。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
-
