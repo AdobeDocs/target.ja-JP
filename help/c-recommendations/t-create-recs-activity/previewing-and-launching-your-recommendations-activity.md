@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;オファー;プレビュー；起動；ステータス；基準；アルゴリズム
-description: 'アクティビティを起動する前に、Adobe TargetRecommendationsアクティビティをプレビューして結果が確実に利用できるようにする方法を説明します。 '
+description: 'アクティビティを起動する前に、Adobe [!DNL Target] Recommendationsアクティビティをプレビューし、結果が確実に利用できるようにする方法を説明します。 '
 title: Recommendationsアクティビティのプレビューと起動方法
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
-
 
 # Recommendationsアクティビティのプレビューと起動
 
