@@ -1,14 +1,14 @@
 ---
 keywords: 実装；実装；設定；設定；スクリプトプロファイルアトリビュート
-description: スクリプトプロファイル属性を使用して、ターゲットにデータを取得します。
-title: スクリプトプロファイルの属性を使用してターゲットにデータを取り込む方法を教えてください。
-feature: Implementation
+description: スクリプトプロファイル属性を使用して [!DNL Target] にデータを取得します。
+title: スクリプトプロファイル属性を使用して [!DNL Target] にデータを取得する方法を教えてください。
+feature: 実装
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 83%
 
 ---
