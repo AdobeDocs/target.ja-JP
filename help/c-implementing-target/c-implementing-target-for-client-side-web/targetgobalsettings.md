@@ -1,14 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;globalSettings;globalSettings;globalSettings;globalsettings;globalsettings;function;at.js;function;clientCode;serverDomain;cookiedomain;crossDomain;timeout;globalMboxAutoCreate;visitorContentContentStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEnabled;optoutEnabled;optout;オプトアウトselectorsPollingTimeout;Hybid;deviceIdLifetime
-description: ターゲットUIまたはREST APIを使用する代わりに、Adobe Targetのat.js JavaScriptライブラリのtargetGlobalSettings()関数を使用して、設定を上書きします。
+description: Adobe [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] UIまたはREST APIにtargetGlobalSettings()関数を使用します。
 title: targetGlobalSettings()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2221'
 ht-degree: 28%
 
 ---
