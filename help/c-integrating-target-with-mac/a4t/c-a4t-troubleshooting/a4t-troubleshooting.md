@@ -1,18 +1,18 @@
 ---
 keywords: Analytics トラッキングサーバー;A4T;Analytics セグメント;レポートスイート;誤ったデータ;親なし;sdid;VisitorAPI.js;mboxMCSDID;ファントム;未指定
-description: Analyticsをターゲットに使用する際(A4T)に発生した一般的な問題を調査します。
-title: Analyticsとターゲットの統合のトラブルシューティング方法(A4T)
-feature: Analytics for Target (A4T)
+description: Analytics for [!DNL Target] (A4T)の使用時に発生した一般的な問題を調べます。
+title: Analyticsと [!DNL Target] 統合のトラブルシューティング方法(A4T)
+feature: Analytics for Target（A4T）
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Analytics と Target の統合（A4T）のトラブルシューティング
+# Analyticsと[!DNL Target]統合のトラブルシューティング(A4T)
 
 このトピックでは、[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして使用する場合(A4T)に発生する一般的な問題について説明します。
 
