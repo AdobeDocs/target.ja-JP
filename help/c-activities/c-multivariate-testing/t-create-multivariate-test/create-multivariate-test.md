@@ -1,18 +1,18 @@
 ---
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-description: ターゲット対応のページで、Adobe TargetのVisual Experience Composer(VEC)を使用して多変量分析テスト(MVT)を作成する方法を説明します。
+description: Adobe [!DNL Target] でVisual Experience Composer(VEC)を使用して、 [!DNL Target]対応のページ上に多変量分析テスト(MVT)を作成する方法を説明します。
 title: 多変量分析テストの作成方法
-feature: Multivariate Tests
+feature: 多変量分析テスト
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 87%
+source-wordcount: '568'
+ht-degree: 88%
 
 ---
 
-
-# 多変量分析テストの作成{#create-a-multivariate-test}
+# 多変量分析テストの作成
 
 [!DNL Adobe Target] の [!DNL Target]Visual Experience Composer[!UICONTROL （VEC）を使用すると、Target に対応したページで適切なテストを作成し、] 内でページの一部を変更する作業が簡単におこなえます。
 
