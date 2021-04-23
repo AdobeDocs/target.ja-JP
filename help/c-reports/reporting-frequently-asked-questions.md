@@ -1,16 +1,16 @@
 ---
 keywords: トラブルシューティング；指標の不一致；FAQ；レポート；新しい訪問者；新しい訪問者；再訪問者；再訪問者；再訪問；新規訪問
-description: Adobe Targetレポートに関するよくある質問と回答のリストを参照してください。
-title: ターゲットのレポートに関する質問への回答はどこで見つけることができますか？
-feature: Reports
+description: Adobe [!DNL Target] のレポートに関するよくある質問と回答のリストを参照してください。
+title: ' [!DNL Target] レポートに関する質問への回答はどこで見つけられますか？'
+feature: レポート
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # レポートの FAQ
 
