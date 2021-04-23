@@ -1,19 +1,19 @@
 ---
 keywords: at.js の FAQ;at.js に関するよくある質問;FAQ;ちらつき;ローダー;ページローダー;クロスドメイン;ファイルサイズ;ファイルのサイズ;x-domain;at.js と mbox.js;x のみ;クロスドメイン;Safari;シングルページアプリ;セレクターが見つかりません;セレクター;シングルページアプリケーション;tt.omtrdc.net;SPA;Adobe Experience Manager;AEM;IP アドレス;httponly;HttpOnly;Secure;IP;Cookie ドメイン
-description: Adobe Targetのat.js JavaScriptライブラリに関するよくある質問への回答をお読みください。
+description: Adobe [!DNL Target] at.js JavaScriptライブラリに関するよくある質問への回答をお読みください。
 title: At.jsに関してよくある質問と回答は何ですか。
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 93%
+source-wordcount: '2700'
+ht-degree: 92%
 
 ---
 
-
-# at.js に関するよくある質問{#at-js-frequently-asked-questions}
+# at.js に関するよくある質問
 
 at.js に関するよくある質問への回答を紹介します。
 
@@ -84,7 +84,7 @@ at.js に関するよくある質問への回答を紹介します。
 
 このように、[!DNL at.js] 1.0.0 の方がリクエストの処理が早く完了します。また、[!DNL at.js] のリクエストは非同期なので、Target によってページレンダリングがブロックされることはありません。リクエストの処理に数秒を要した場合でも、レンダリングされたページが表示されます。Target が Target Edge からの応答を受け取るまで、ページの一部分が空白になるだけです。
 
-## Target ライブラリを非同期で読み込むことはできますか。{#section_AB9A0CA30C5440C693413F1455841470}
+## [!DNL Target]ライブラリを非同期で読み込めますか？{#section_AB9A0CA30C5440C693413F1455841470}
 
 at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込めるようになりました。
 
@@ -150,7 +150,7 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 
 同じページに配置できません。ただし、[!DNL at.js] を実装およびテストする間、[!DNL at.js] を完全に検証するまで、[!DNL mbox.js] を一部のページで実行し、[!DNL at.js] を別のページで実行できます。
 
-## Target Visual Experience Composer をシングルページアプリケーションで使用できますか。{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## [!DNL Target] Visual Experience Composerをシングルページアプリケーションで使用できますか。{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 はい。at.js 2.x を利用する場合、SPA 向けの VEC を使用できます。詳しくは、「[シングルページアプリケーション（SPA）Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」を参照してください。
 
@@ -212,7 +212,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
    最良の結果を得るには、[!DNL at.js] の最新バージョンをダウンロードして使用してください。詳しくは、「[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)」および「[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)」を参照してください。
 
-## Target のサーバー呼び出しが送られる tt.omtrdc.net というドメインは何ですか。{#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]サーバ呼び出し先のtt.omtrdc.netドメインは何ですか。{#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] は、Target のすべてのサーバー呼び出しを受信する Adobe の EDGE ネットワークの名前です。
 
