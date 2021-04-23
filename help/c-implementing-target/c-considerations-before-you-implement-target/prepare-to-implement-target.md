@@ -2,16 +2,16 @@
 keywords: 実装;導入;RFI;情報のリクエスト
 description: Adobe Targetを導入する前に、考慮すべき点を知っておいてください。 ターゲットを実装する準備をする際に、必要なタスクを入力し、情報を収集します。
 title: ターゲットを導入するための準備はどのように行う必要がありますか。
-feature: Implementation
+feature: 実装
 role: Developer
+exl-id: f365f417-2750-46f7-b2ff-0f5b82747b4e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 84%
+source-wordcount: '278'
+ht-degree: 80%
 
 ---
-
 
 # Target 実装の準備
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 
 アドビコンサルタントと連携する場合、Target 実装前にこれらのドキュメントの情報を知っている必要はありません。ただし、コンサルティングが作成するドキュメントと彼らが尋ねる質問に熟知していることは、実装前のプロセスの迅速化に役立ちます。これらのドキュメントは、将来変更される可能性があります。
 
-## Adobe Target ビジネス情報提供依頼書 {#section_A345E8D9ED41478A90ABE7703648C06C}
+## Adobe[!DNL Target]ビジネスリクエスト{#section_A345E8D9ED41478A90ABE7703648C06C}
 
 ここでは、Target 実装キックオフ会議の前に顧客が記入する必要がある、ビジネス情報提供依頼書（RFI）ドキュメントについて説明します。
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 [ビジネス情報提供依頼書](/help/assets/business-rfi.docx)をダウンロードしてください。
 
-## Adobe Target 技術情報提供依頼書 {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
+## Adobe[!DNL Target]テクニカルリクエスト{#section_95C4F0A2E4EB423399D24F2B7198F6C5}
 
 この節では、コンサルティングチームがクライアントのビジネスおよび技術要件を満たす Target 実装を作成するのに役立つ、技術情報提供依頼書（RFI）ドキュメントについて説明します。このドキュメントの質問は、実装を見直す必要性を最小化または除外するために、すべての隠れたハードルや障害を明らかにします。
 
