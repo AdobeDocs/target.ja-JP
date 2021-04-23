@@ -1,16 +1,16 @@
 ---
 keywords: キャプチャスコア;スコア
-description: サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算する、Adobe Targetのスコアキャプチャエンゲージメント指標について説明します。
+description: サイトで訪問されたページに割り当てられた値に基づいて集計スコアを計算するAdobe [!DNL Target] のスコアキャプチャエンゲージメント指標について説明します。
 title: スコアキャプチャ指標とは何ですか。
-feature: Success Metrics
+feature: 成功指標
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 51%
 
 ---
-
 
 # スコアキャプチャ
 
