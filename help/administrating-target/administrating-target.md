@@ -2,18 +2,18 @@
 keywords: 設定；設定；設定；設定；設定；管理
 description: 環境設定、導入、ユーザー管理、プロパティ、Scene7設定、ホスト管理、応答トークンなど、Adobe Targetを設定します。
 title: ターゲットの管理方法
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
-
-# Target の管理の概要{#administer-target}
+# [!DNL Target]の管理の概要
 
 Visual Experience Composer(VEC)、レポート、Scene7設定、実装、ホスト、環境、応答トークン、ユーザーの設定を含む、[!DNL Adobe Target]の管理に役立つ情報です。
 
