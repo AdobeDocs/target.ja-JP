@@ -2,15 +2,15 @@
 keywords: Target のトラブルシューティング;Target のトラブルシューティング
 description: トピックのリストを確認し、トラブルシューティングトピック、よくある質問(FAQ)、その他の役に立つトピックを含む、Adobe Targetの問題を解決します。
 title: ターゲットのトラブルシューティング方法
-feature: Troubleshooting
+feature: トラブルシューティング
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # Target のトラブルシューティング
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics と Target の統合（A4T）
+## Analyticsと[!DNL Target]の統合(A4T)
 
 * [AnalyticsとTargetの統合のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
