@@ -1,14 +1,14 @@
 ---
 keywords: シングルページアプリケーション実装；シングルページアプリケーションの実装；spa;at.js 2.x;at.js；シングルページアプリケーション；spa;spa;SPA
-description: Adobe Targetat.js 2.xを使用してシングルページアプリ用のターゲット(SPA)を実装する方法を学びます。
-title: シングルページアプリ(SPA)向けのターゲットを実装できますか。
-feature: Implement Server-side
+description: シングルページアプリ(SPA)でAdobe [!DNL Target] at.js 2.x to implement [!DNL Target] を使用する方法を学びます。
+title: シングルページアプリ(SPA)に [!DNL Target] を実装できますか。
+feature: サーバー側での実装
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 73%
+source-wordcount: '2770'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ at.js 2.x は、次世代のクライアントサイドテクノロジーでパ�
 * 従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。
 * 1 行のシンプルなコードと開発者による 1 回限りのセットアップで、マーケティング担当者は SPA 上で VEC を使用して A/B およびエクスペリエンスターゲティング（XT）アクティビティを作成し、実行できます。
 
-## Adobe Target ビューとシングルページアプリケーション
+## Adobe[!DNL Target]表示と単一ページアプリ
 
 SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用します。ビューとはビジュアル要素の論理的集合体で、全体として SPA のエクスペリエンスを形作ります。このため SPA は、URL ではなくユーザーのインタラクションによりビュー間を移行するものと考えられます。通常、ビューはサイト全体またはサイト内のグループ化されたビジュアル要素を表せます。
 
@@ -63,7 +63,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
-## Adobe Target ビューの実装
+## Adobe[!DNL Target]表示の実装
 
 Adobe Target ビューとは何かを説明したので、Target でこの概念を活用して、マーケティング担当者が VEC を介して SPA で A/B テストや XT テストを実行できるようにできます。これには開発者による 1 回限りの設定が必要です。以下では、これを設定する手順を説明します。
 
