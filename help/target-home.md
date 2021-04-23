@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット；ホーム；人気の高いトピック；アドビターゲット；標準；プレミアム；ターゲットドキュメント；アドビターゲットドキュメント
-title: ターゲットのドキュメントはどこで入手できますか。
-description: Adobe Targetを使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
-feature: Overview
+title: ' [!DNL Target] 文書はどこで見つけられますか？'
+description: Adobe [!DNL Target] を使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
+feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 45%
 
 ---
