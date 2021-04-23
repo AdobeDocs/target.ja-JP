@@ -1,19 +1,19 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;関数
-description: Adobe Targetのat.js JavaScriptライブラリに対してmboxCreate()関数を使用し、mboxDefaultクラス名を持つ最も近いDIVにオファーを適用します。 (at.js 1.x)
+description: Adobe [!DNL Target] at.js JavaScriptライブラリのmboxCreate()関数を使用して、mboxDefaultクラス名を持つ最も近いDIVにオファーを適用します。 (at.js 1.x)
 title: mboxCreate()関数の使用方法
 feature: at.js
 role: Developer
+exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 85%
 
 ---
 
-
-# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x
 
 リクエストを実行し、mboxDefault クラス名を持つ最も近い DIV にオファーを適用します。
 
