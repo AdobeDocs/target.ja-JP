@@ -1,23 +1,23 @@
 ---
 keywords: 管理;承認者の役割;承認者
-description: Adobe Experience Cloudへの招待メールを受け取った後、Adobe Target管理者が最初に受けるタスクを実行します。
+description: Adobe Experience Cloudへの招待メールを受け取った後、管理者が取る最初のタスクAdobe [!DNL Target] を実行します。
 title: 管理ターゲットの使用を開始する方法
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
-
 
 # 管理者の最初の手順
 
 この記事には、[!DNL Adobe Target]への招待メールを受け取った後に管理者が最初に行う手順が記載されています。[!DNL Adobe Experience Cloud]
 
-## Target への招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
+## [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}に招待
 
 [!DNL Adobe Admin Console] のシステム管理者は、参加させたいひとを招待することで [!DNL Target] にユーザーとして追加する必要があります。次に、システム管理者が、1 つ以上の役割用のグループに追加する必要があります。これらの作業は、共に [Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
