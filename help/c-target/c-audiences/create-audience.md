@@ -1,18 +1,18 @@
 ---
 keywords: オーディエンス、オーディエンスルール、オーディエンスの作成、オーディエンスの作成
-description: カスタマイズしたオーディエンスを作成し、アクティビティで使用できるようにAdobe Targetオーディエンスライブラリに保存する方法を説明します。
+description: カスタマイズしたオーディエンスを作成し、アクティビティで使用するAdobe [!DNL Target] オーディエンスライブラリに保存する方法を説明します。
 title: オーディエンスの作成方法
-feature: Audiences
+feature: オーディエンス
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# Target でのオーディエンスの構築{#build-audiences-in-target}
+# Target でのオーディエンスの構築
 
 カスタマイズしたオーディエンスを作成し、アクティビティで使用できるように Target ライブラリに保存できます。既存のオーディエンスをコピーすると、それを編集することで類似のオーディエンスを作成したり、複数のオーディエンスを結合したりできます。
 
