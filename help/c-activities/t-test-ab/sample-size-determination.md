@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；サンプルサイズ；サンプルサイズ計算機；自動配分；自動配分；計算機
-description: A/Bテストを実行する期間を説明します。 Adobe TargetでA/Bテストを成功させるには、コンバージョン率を向上させるのに十分な訪問者（サンプルサイズ）が必要です。
+description: A/Bテストを実行する期間を説明します。 Adobe [!DNL Target] でA/Bテストを成功させるには、コンバージョン率を向上させるのに十分な訪問者（サンプルサイズ）が必要です。
 title: A/Bテストはどのくらいの期間実行すべきですか。
-feature: A/B Tests
+feature: A/B テスト
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # A/B テストを実行すべき期間はどのくらいですか？
 
@@ -38,7 +38,7 @@ ht-degree: 63%
 
 詳しくは、[自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)を参照してください。
 
-## Adobe Target サンプルサイズ計算ツール {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe[!DNL Target]サンプルサイズ計算ツール{#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 [!UICONTROL 自動配分]ではなく、手動の[!UICONTROL A/Bテスト]アクティビティを使用する場合は、[!DNL Target]サンプルサイズ計算ツールを使用して、テストを成功させるのに必要なサンプルサイズを計算できます。 手動のA/Bテストは、固定水平線テストなので、計算ツールが役立ちます。 [!UICONTROL 自動配分]アクティビティの計算ツールを使用することはオプションです。これは、[!UICONTROL 自動配分]が推奨結果を宣言するためです。 計算ツールを使用すると、必要なサンプルサイズを概算できます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
 
