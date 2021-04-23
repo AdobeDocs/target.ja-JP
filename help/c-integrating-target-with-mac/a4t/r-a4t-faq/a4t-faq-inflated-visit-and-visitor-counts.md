@@ -1,18 +1,18 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;水増し;訪問;訪問者;部分的なヒット;親なし;親なし;部分ヒット
-description: Analyticsでターゲットを行う場合(A4T)に、水増しされた訪問と訪問者のカウントに関する質問への回答を検索します。 「部分的なデータ」を最小限に抑える方法を説明します。
+description: Analytics for [!DNL Target] (A4T)を使用する場合の、水増しされた訪問と訪問者のカウントに関する質問への回答を検索します。 「部分的なデータ」を最小限に抑える方法を説明します。
 title: A4Tを使用した水増しされた訪問と訪問者数に関するFAQはどこで見つけられますか？
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# 水増しされた訪問および訪問者のカウント - A4T FAQ{#inflated-visit-and-visitor-counts-a-t-faq}
+# 水増しされた訪問および訪問者のカウント - A4T FAQ
 
 このトピックには、Analytics を Target のレポートソースとして使用する（A4T）場合の水増しされた訪問および訪問者のカウントに関するよくある質問に対する回答が含まれています。
 
@@ -50,12 +50,12 @@ ht-degree: 63%
 
 部分的なデータヒットを最小限に抑えるために実行できる手順もあります。詳細は、[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)の「部分的なデータを減らすためのベストプラクティス」を参照してください。
 
-## 部分的なデータヒットデータがレポートから削除された場合、重要なターゲットやAnalyticsデータが失われることはありませんか。{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## 部分的なデータヒットデータがレポートから削除された場合、[!DNL Target]やAnalyticsの重要なデータが失われることはありませんか。{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 [!DNL Analytics]レポートに部分的なデータを含めると追加情報が得られますが、[!DNL Target]アクティビティが実行されなかった期間の履歴データとの矛盾も生じます。 部分的なヒットデータを含めると、[!DNL Analytics]ユーザーが経時的にトレンドを分析している場合に問題が発生する可能性があります。
 
 部分的なデータヒットを最小限に抑えるために実行できる手順があります。詳細は、[A4T での水増しされた訪問と訪問者カウントの最小化](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)の「部分的なデータを減らすためのベストプラクティス」を参照してください。
 
-## 部分的なデータヒットが生成される可能性の高い特定のタイプの Target アクティビティはありますか？{#section_69837442A9B84366BEFDA4588B31E574}
+## 部分的なデータヒットを引き起こす可能性が高い特定のタイプの[!DNL Target]アクティビティはありますか。{#section_69837442A9B84366BEFDA4588B31E574}
 
 リダイレクトオファーでは、すぐにユーザーを別のページに送信するので、最初のページで [!DNL Analytics] の呼び出しが実行されません。
