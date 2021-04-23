@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定、network、ターゲットネットワーク、isp、domain name、接続速度、target isp、targetドメイン名、ターゲット接続速度
-description: ISP、ドメイン名、接続速度などのネットワークの詳細に基づいて、Adobe Targetでオーディエンスを作成する方法を説明します。
-title: ターゲット訪問者をネットワークオプションに基づいて行うことはできますか。
-feature: Audiences
+description: ISP、ドメイン名、接続速度などのネットワークの詳細に基づいて、Adobe [!DNL Target] でオーディエンスを作成する方法を説明します。
+title: ネットワークオプションに基づいて訪問者を [!DNL Target] できますか。
+feature: オーディエンス
+exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '509'
 ht-degree: 94%
 
 ---
 
-
-# ネットワーク{#network}
+# ネットワーク
 
 ネットワークの詳細に基づいたオーディエンスを作成できます。
 
