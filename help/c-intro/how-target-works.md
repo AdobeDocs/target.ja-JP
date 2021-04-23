@@ -5,9 +5,9 @@ title: ' [!DNL Target] 機能の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 31%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 [!DNL Adobe Target]の仕組みを学びます。[!DNL Adobe Experience Platform Web SDK]およびJavaScriptライブラリ（at.jsとmbox.js）に関する情報も含まれます。 この記事では、[!DNL Target]を使用して作成できる様々なアクティビティタイプについても紹介します。 また、[!DNL Target]エッジネットワーク、検索エンジン最適化(SEO)、および[!DNL Target]がボットを検出する方法についても学習できます。
 
-## ターゲットプラットフォームWeb SDKおよびJavaScriptライブラリ{#libraries}
+## [!DNL Target] プラットフォームWeb SDKおよびJavaScriptライブラリ  {#libraries}
 
 [!DNL Target] webサイトとの統合( [!DNL AEP Web SDK] またはJavaScriptライブラリを使用):
 
@@ -41,7 +41,7 @@ ht-degree: 31%
 
 訪問者に表示されるコンテンツは、作成するアクティビティのタイプによって異なります。
 
-### A/B テスト
+### [!UICONTROL A/B テスト]
 
 基本的なA/Bテストで表示されるコンテンツは、アクティビティに割り当てたエクスペリエンスからランダムに選択されます。 各エクスペリエンスにトラフィック配分の割合を割り当てることができます。 このランダムなトラフィック分割の結果、トラフィックの割合が均等になる前に、初期トラフィックの量がかなり多くなる可能性があります。 例えば、2 つのエクスペリエンスを作成した場合、最初のエクスペリエンスはランダムに選択されます。トラフィック量がほとんどない場合は、訪問者の割合が一方のエクスペリエンスに偏っている可能性があります。トラフィックが増えるに従って、割合は等しくなります。
 
@@ -54,25 +54,25 @@ ht-degree: 31%
 
 詳細については、「[A/B テストの作成](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
-### 自動配分
+### [!UICONTROL 自動配分]
 
-自動配分は、2つ以上のエクスペリエンスのうちの勝者を識別します。 自動配分は、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習が継続する間にコンバージョンを増やすのに役立ちます。
+[!UICONTROL 自動] 配分は、2つ以上のエクスペリエンスのうちの勝者を識別します。[!UICONTROL 自動] 配分は、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習が継続する間にコンバージョンを増やすのに役立ちます。
 
-詳細については、「[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
+詳細については、「[[!UICONTROL 自動配分]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
 
-### 自動ターゲット（AT）
+### [!UICONTROL 自動ターゲット]（AT）
 
 自動ターゲットでは、高度な機械学習を使用して、複数のパフォーマンスの高いマーケティング担当者が定義したエクスペリエンスから選択します。 自動ターゲットは、各訪問者に最も合わせたエクスペリエンスを提供します。 エクスペリエンスの配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づきます。 自動ターゲットを使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 詳細については、「[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。
 
-### 自動パーソナライゼーション（AP）
+### [!UICONTROL 自動パーソナライゼーション]（AP）
 
 Automated Personalization(AP)は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者のオファーのバリエーションを一致させます。 エクスペリエンスの配信は、コンテンツをパーソナライズして上昇率を高めるための個々のお客様のプロファイルに基づいています。
 
 詳しくは、[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
 
-### エクスペリエンスターゲット設定（XT）
+### [!UICONTROL エクスペリエンスのターゲット設定] (XT)
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
@@ -80,13 +80,13 @@ Automated Personalization(AP)は、オファーやメッセージを組み合わ
 
 詳しくは、[エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)を参照してください。
 
-### 多変量分析テスト（MVT）
+### [!UICONTROL 多変量分析テスト] （MVT）
 
 Multivariate Testing(MVT)は、ページ上のオファー内の要素の組み合わせを比較して、特定のオーディエンスに対して最も高いパフォーマンスを発揮する組み合わせを判断します。 MVTは、アクティビティの成功に最も影響を与える要素を特定するのに役立ちます。
 
 詳しくは、[多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)を参照してください。
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Recommendations のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations により、顧客が関心を持ちそうな商品を積極的に紹介することが可能になります。
 
@@ -213,6 +213,6 @@ Adobe[!DNL Target]は、[DeviceAtlas](https://deviceatlas.com/device-data/user-a
 * 訪問者プロファイルの作成または取得
 * プロファイル属性の記録またはプロファイルスクリプトの実行
 * Adobe Audience Manager（AAM）セグメントの検索（該当する場合）
-* ボットトラフィックを使用して、Recommendations、自動ターゲット、Automated Personalization、自動配分のアクティビティ向けにパーソナライズされたコンテンツをモデリングし、提供する
+* Recommendations、自動ターゲット、Automated Personalization、または[!UICONTROL 自動配分]アクティビティ向けにパーソナライズされたコンテンツをモデリングおよび提供する際にボットトラフィックを使用する
 * レポート用のアクティビティ訪問の記録
 * [!DNL Adobe Experience Cloud]プラットフォームに送信するログデータ
