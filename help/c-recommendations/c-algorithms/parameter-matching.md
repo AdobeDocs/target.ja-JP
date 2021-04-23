@@ -1,16 +1,16 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的フィルタリング；動的；パラメータの一致
-description: 項目（エンティティ）とリクエスト（APIまたはmbox）の値を比較し、Adobe TargetRecommendationsで動的にフィルターする方法を説明します。
+description: Adobe [!DNL Target] Recommendationsで、項目（エンティティ）とリクエスト（APIまたはmbox）の値を比較し、動的にフィルタリングする方法を説明します。
 title: Recommendationsアクティビティでパラメーターの一致でフィルターする方法を教えてください。
 feature: Recommendations
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 10%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMParameterの一致
 
