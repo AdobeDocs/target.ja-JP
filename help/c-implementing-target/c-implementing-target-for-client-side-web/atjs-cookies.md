@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;Cookie
-description: Adobe Target の at.js 2.x および at.js 1.x による Cookie の処理方法の詳細
+description: Adobe [!DNL Target] at.js 2.xおよびat.js 1.xでのcookieの処理方法の詳細
 title: at.jsのCookie
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# at.js の cookie {#at-js-cookies}
+# at.js の cookie
 
 at.js 2.x および at.js 1 に関する情報です。*x* の Cookie の動作に関する情報です。
 
@@ -124,11 +124,11 @@ Cookie は、キャンペーンでの訪問者のエクスペリエンスを管�
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が mbox.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、1 時間存続します。 |
 
-## Safari 訪問者の Target に対する Apple WebKit 追跡の変更の影響
+## Apple WebKitの追跡の変更によるSafari訪問者に対する[!DNL Target]への影響
 
 次の点に注意してください。
 
-### Adobe Target 追跡の仕組み
+### Adobe[!DNL Target]追跡はどのように機能しますか？
 
 | Cookie | 詳細 |
 |--- |--- |
