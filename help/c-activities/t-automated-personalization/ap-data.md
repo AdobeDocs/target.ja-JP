@@ -1,18 +1,18 @@
 ---
 keywords: 環境データ;セッションデータ;ジオデータ;地理データ;デバイスデータ;モバイルデータ;属性;プロファイル属性
-description: Automated Personalization(AP)および自動ターゲット(AT)アクティビティで、Adobe Targetがどのデータを収集し、それを使用してパーソナライゼーションアルゴリズムを構築するかを学びます。
+description: Automated Personalization(AP)および自動ターゲット(AT)アクティビティで、どのデータAdobe [!DNL Target] がパーソナライゼーションアルゴリズムを収集し、使用するかを学びます。
 title: パーソナライゼーションアルゴリズムを構築するために収集されるデータ
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 90%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Target パーソナライゼーションアルゴリズムのデータ収集
+# ![PREMIUM](/help/assets/premium.png)[!DNL Target] パーソナライゼーションアルゴリズムのデータ収集
 
 [!DNL Adobe Target] 様々なデータを自動的に収集して使用し、 [!UICONTROL Automated Personalization] (AP)および [!UICONTROL 自動ターゲット] (AT)アクティビティでパーソナライゼーションアルゴリズムを作成します。訪問者がAPまたはATアクティビティに入ると、情報のスナップショットが一連の「トレーニングレコード」(パーソナライゼーションアルゴリズムが学習する訪問者データ)に渡されます。
 
