@@ -1,13 +1,13 @@
 ---
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
-description: ターゲット配信API、rawboxテンプレート、ダウンロード専用テンプレートの使用を含む、Adobe TargetRecommendationsと電子メールを統合する方法について説明します。
+description: 電子メールをAdobe [!DNL Target] Recommendations, including using the [!DNL Target] 配信API、rawboxテンプレート、ダウンロード専用テンプレートと統合する方法について説明します。
 title: RecommendationsとEメールの統合方法
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 85%
 
 ---
@@ -65,7 +65,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、「[ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、「[ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限を持つホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 
@@ -78,7 +78,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 * この場合、どんな値でも mboxDefault パラメーター値として設定されたのもが応答になります。このパラメーターに関する後述の説明を参照してください。
 * この場合、電子メールプロバイダーは、レコメンデーションのデフォルト HTML ブロックを使用する必要があります。
 
-### ターゲットサーバーがタイムアウトし、データなしで返す
+### [!DNL Target]サーバーがタイムアウトし、データなしで返される
 
 * この場合、Target サーバーは、次のコンテンツを返します。
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
 | `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。  <br> **セキュリティのベストプラクティス**:この `mboxDefault` URLで使用されるドメインが許可されていない場合は、オープンリダイレクトの脆弱性が発生するリスクがある可能性があります。リダイレクターリンクまたは`mboxDefault`がサードパーティによって不正に使用されるのを防ぐため、デフォルトのリダイレクトURLドメインを許可リストする際には、「認証済みホスト」を使用することをお勧めします。 ターゲットは、リダイレクトを許可する許可リストドメインに対してホストを使用します。 詳しくは、[ホスト&#x200B;*のターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限のあるホストを指定する許可リストーの作成を参照してください。* |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` には、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL を指定する必要があります。これは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルト HTML を挿入する必要があります。  <br> **セキュリティのベストプラクティス**:この `mboxDefault` URLで使用されているドメインが許可リストに加える存在しない場合、オープンリダイレクトの脆弱性が発生するリスクがある可能性があることに注意してください。リダイレクターのリンクまたは`mboxDefault`がサードパーティによって不正に使用されるのを防ぐために、デフォルトのリダイレクトURLドメインをする際に許可リストは、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、リダイレクトを許可するドメインに対し許可リストてホストを使用します。 詳しくは、[ホスト&#x200B;*の「ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限を持つホストを指定する許可リストーを作成する」を参照してください。* |  |
 | `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しない場合は、1 つのプロファイル内で多数のイベントが生成されるので、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。(dot).<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（オプション） | 1 | デフォルトでは、配信可能なコンテンツが見つからない場合、呼び出し元がリダイレクトされます。デフォルトの動作を無効にする場合に使用します。 |  |
 | `mbox3rdPartyId` | *xxx* | 独自のカスタム訪問者 ID をプロファイルのターゲット設定に使用する場合、これを使用します。 |  |
 
-### ターゲットサーバーの応答の可能性
+### [!DNL Target]サーバの応答の可能性
 
 | 応答 | 説明 |
 |--- |--- |
