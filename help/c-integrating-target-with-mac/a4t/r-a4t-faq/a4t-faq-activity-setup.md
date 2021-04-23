@@ -1,16 +1,16 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
-description: Analyticsをターゲットに使用する場合(A4T)のアクティビティ設定に関する質問への回答を検索します。 A4Tでは、ターゲットアクティビティにAnalyticsレポートを使用できます。
+description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] アクティビティを使用する場合のアクティビティの設定に関する質問への回答を検索します。
 title: A4Tを使用したアクティビティ設定に関するFAQはどこで確認できますか？
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 22%
+source-wordcount: '502'
+ht-degree: 23%
 
 ---
-
 
 # アクティビティの設定 - A4T FAQ
 
