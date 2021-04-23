@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations；導入；導入；ウェビナー；デモ
-description: Adobe TargetのRecommendationsアクティビティについて説明します。これは、以前のユーザーアクティビティやその他のアルゴリズムを基にして、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法です。
+description: 以前のユーザーアクティビティやその他のアルゴリズムを基にして、Adobe [!DNL Target] のRecommendationsアクティビティが、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法について説明します。
 title: Recommendationsアクティビティって何？
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations の概要
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 * カタログおよびインタラクションイベントの何百万もの品目の意味を理解するための&#x200B;**洗練されたモデル**。[!DNL Target] には、10 年以上の経験に基づいて構築された洗練された機械学習機能が備わっており、年間数十億ものレコメンデーションを扱っています。
 * レコメンデーションをユーザーにとってタイムリーで関連性の高いものにするための&#x200B;**ユーザーコンテキスト**。ユーザーが閲覧したばかりのビデオや買い物かごに追加したばかりのシャツをレコメンデーションしたいとは思いません。Target のリッチなユーザープロファイルをレコメンデーションに使用して、パーソナライゼーションを実現できます。
 
-## Target Recommendations の実装
+## [!DNL Target]Recommendationsを実装
 
 戦略から始めます。
 
@@ -195,6 +195,6 @@ Target では、条件カードという概念を使用します。条件カー�
 
 前述のレコメンデーションファネルで説明したタスクを完了したら、最後のレコメンデーションを残すのみです。[!DNL Target] の製品内デモンストレーションを視聴するには、次のリンクの *Adobe Target Basics ウェビナー*&#x200B;で、21：00 から始まるデモを参照してください。
 
-## Adobe Target Basics ウェビナー：Recommendations の概要 {#intro-to-recs}
+## Adobe[!DNL Target]基本ウェビナー：Recommendationsの紹介{#intro-to-recs}
 
 [Recommendations の概要](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
