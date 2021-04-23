@@ -1,17 +1,17 @@
 ---
 keywords: 重複除外；重複を許可；重複オファーを除外；自動パーソナライゼーション；重複オファーを許可しない；除外；デフォルトコンテンツ；除外グループ；
-description: Adobe TargetAutomated Personalization(AP)アクティビティの除外を管理します。 除外グループを作成し、重複オファー、特定のエクスペリエンスおよびデフォルトコンテンツを除外します。
+description: Adobe [!DNL Target] Automated Personalization(AP)アクティビティの除外を管理します。 除外グループを作成し、重複オファー、特定のエクスペリエンスおよびデフォルトコンテンツを除外します。
 title: Automated Personalizationアクティビティの除外を管理する方法
-feature: Automated Personalization
+feature: 自動パーソナライゼーション
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 89%
+source-wordcount: '987'
+ht-degree: 90%
 
 ---
-
 
 # ![Premium バッジ](/help/assets/premium.png) 除外の管理
 
