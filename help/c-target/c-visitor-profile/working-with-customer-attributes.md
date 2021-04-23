@@ -2,15 +2,15 @@
 keywords: 顧客関係管理；顧客レコードサービス；crs;crm;mbox3rdpartyid；顧客属性；ターゲット；csv;crm;adobe experience cloud人
 description: Adobe Targetのコンテンツターゲティングで、顧客関係管理(CRM)データベースの企業顧客データを使用する方法を説明します。
 title: 顧客属性とは何ですか。その使用方法を教えてください。
-feature: Audiences
+feature: オーディエンス
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1501'
 ht-degree: 37%
 
 ---
-
 
 # 顧客属性
 
@@ -52,7 +52,7 @@ ht-degree: 37%
 
    ![「Customer Attributes」タブ](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## ターゲット{#section_00DAE94DA9BA41398B6FD170BC7D38A3}の顧客属性ワークフロー
+## [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}の顧客属性ワークフロー
 
 [!DNL Target] で CRM データを使用する手順は次の図のとおりです。
 
@@ -111,7 +111,7 @@ ht-degree: 37%
    * FTP を使用する場合、一度にアップロードできる最大ファイルサイズは 4 GB です。
    * 購読できる属性の数は、[!DNL Target Standard] の場合は 5 個、[!DNL Target Premium] の場合は 200 個です。
 
-##  Target での顧客属性の使用{#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}で顧客属性を使用
 
 [!DNL Target] で顧客属性を使用する方法は次のとおりです。
 
