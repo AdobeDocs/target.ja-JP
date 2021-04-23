@@ -1,16 +1,16 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的フィルタリング；動的；プロファイル属性の一致
-description: 項目（エンティティ）とユーザーのプロファイルーの値を比較し、Adobe TargetRecommendationsで動的にフィルターする方法を説明します。
+description: Adobe [!DNL Target] Recommendationsで、項目（エンティティ）とユーザーのプロファイルー内の値を比較し、動的にフィルターする方法を学びます。
 title: Recommendationsアクティビティでプロファイル属性の一致でフィルタする方法
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMProfile属性の一致
 
