@@ -2,18 +2,18 @@
 keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
 description: 個別のワークスペース(製品プロファイル)を作成し、各ページ、プロパティまたはWebサイトに対して様々な役割と権限をユーザーに割り当てる方法を説明します。
 title: エンタープライズユーザー権限とは何ですか。それらの権限の使用方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Enterprise ユーザーの権限{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Enterprise ユーザーの権限
 
 エンタープライズユーザー権限は、企業規模のユーザーアクセスを[!DNL Adobe Target]に正式に管理する手段です。 &lt;a0/追加>にユーザーを割り当て、役割に基づいて権限を割り当て、様々な部門、グローバルロケーション、チャネル、その他の論理グループに基づいてチーム用のワークスペースを作成します。 [!DNL Target][!UICONTROL オブザーバー]、[!UICONTROL エディター]、または[!UICONTROL 承認者]の役割をユーザーに割り当てることができます。
 
@@ -295,7 +295,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 勤務時間：ターゲットプレミアムワークスペース
+### 勤務時間：[!DNL Target] Premiumワークスペース
 
 このビデオは、「Office Hours」（アドビカスタマーケアチーム主導による取り組みの 1 つ）の録画です。
 
