@@ -1,18 +1,18 @@
 ---
 keywords: recommendations デザイン;デザインの作成;デザインのコピー
-description: デフォルトのデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、Adobe TargetRecommendationsデザインを作成する方法を説明します。
+description: デフォルトのデザインを使用するか、ページのレイアウトに最適なカスタムデザインを作成して、Adobe [!DNL Target] Recommendationsデザインを作成する方法を説明します。
 title: Recommendationsでデザインを作成する方法
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) デザインの作成{#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) デザインの作成
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
 
