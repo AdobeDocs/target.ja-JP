@@ -1,18 +1,18 @@
 ---
 keywords: レポート；ブロックipアドレス；ipアドレスからのブロック訪問者；レポートのダウンロード；csv;レポート
-description: Adobe Targetのレポート機能を使用して、アクティビティのパフォーマンスを調べる方法を説明します。 データに基づいてより良い判断を行い、ROIを増やします。
+description: Adobe [!DNL Target] のレポート機能を使用して、アクティビティのパフォーマンスを調べる方法を説明します。 データに基づいてより良い判断を行い、ROIを増やします。
 title: 表示レポートの作成方法
-feature: Reports
+feature: レポート
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 63%
 
 ---
 
-
-# レポート{#reports}
+# レポート
 
 レポートには、[!DNL Adobe Target]アクティビティの進行状況と結果に関する情報が表示され、データに基づいて判断する際に役立ちます。 レポートデータは、アクティビティを終了するタイミングの決定、推奨結果であるオファーのエクスペリエンスの表示、次のアクションを決定するために必要なインサイトや学習の提供に役立ちます。
 
