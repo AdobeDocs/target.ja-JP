@@ -1,18 +1,18 @@
 ---
 keywords: 自動パーソナライゼーション；オファー;レポート；グループ；レポートグループ
-description: Adobe TargetAutomated Personalizationアクティビティでオファーレポートグループを使用する方法を学びます。 ターゲットは、レポートグループを使用して、各レポートグループに対して1つのパーソナライゼーションモデルのみを作成します。
+description: Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] でオファーレポートグループを使用する方法を学びます。この方法では、各レポートグループに対して1つのパーソナライゼーションモデルのみを作成します。
 title: Automated Personalizationアクティビティでオファーレポートグループを使用できますか。
-feature: Reports
+feature: レポート
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
-
-# ![Automated Personalizationのプレミアム](/help/assets/premium.png) オファーレポートグループ{#offer-reporting-groups-in-automated-personalization}
+# ![Automated Personalizationのプレミアム](/help/assets/premium.png) オファーレポートグループ
 
 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)アクティビティでのレポートグループの使用に関する情報です。
 
@@ -53,4 +53,3 @@ ht-degree: 61%
    選択したオファーをアサインする新しいレポートグループを作成するには、 「**[!UICONTROL 新規]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL 適用]**」をクリックします。
 
    ![](assets/ap_reporting_groups.png)
-
