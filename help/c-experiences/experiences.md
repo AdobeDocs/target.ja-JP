@@ -1,16 +1,16 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frameオプション；クロス接触チャネルの問題；認証ワークフロー
 description: Adobe Experience Composers(Visual Experience Composer(VEC)、フォームベースのExperience Composer、および単一ページのVisual Experience Composerについての詳細。
-title: ターゲットのオファーを行うExperience Composerはどれですか。
-feature: Experiences and Offers
+title: ' [!DNL Target] オファーの対象となるエクスペリエンスコンポーザー'
+feature: エクスペリエンスとオファー
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
-
 
 # エクスペリエンスとオファー
 
