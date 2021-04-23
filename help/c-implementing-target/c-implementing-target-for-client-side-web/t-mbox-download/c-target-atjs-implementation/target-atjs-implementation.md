@@ -1,17 +1,17 @@
 ---
 keywords: Target Standard;at.js;実装
-description: 一般的なWeb実装とシングルページアプリケーション(SPA)の両方のために設計された、Adobe Target向けの新しい実装ライブラリであるat.jsへの移行方法を説明します。
+description: 一般的なWeb実装とシングルページアプリケーション(SPA)の両方に対応する新しいAdobe [!DNL Target] 向け実装ライブラリであるat.jsへの移行方法を説明します。
 title: mbox.jsからat.jsに移行する方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 91%
 
 ---
-
 
 # mbox.js から at.js への移行
 
