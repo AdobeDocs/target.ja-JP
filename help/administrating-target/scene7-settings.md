@@ -1,17 +1,17 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: コンテンツライブラリでDigital Asset Management(DAM)を提供するために、Adobe TargetをAdobeのDynamic Mediaクラシック(旧称Scene7)と統合する方法を説明します。
+description: Adobe [!DNL Target] をAdobeDynamic Mediaクラシック(旧称Scene7)と統合して、コンテンツライブラリでDigital Asset Management(DAM)を提供する方法について説明します。
 title: Dynamic Mediaクラシック(Scene7)統合の設定方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 24%
 
 ---
-
 
 # Dynamic Mediaクラシック(旧Scene7)の設定
 
