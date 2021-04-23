@@ -1,16 +1,16 @@
 ---
 keywords: 自動トラフィック配分；ターゲット設定；自動配分；自動配分
-description: Adobe Targetの自動配分アクティビティが2つ以上のエクスペリエンスの中で勝者を識別し、より多くのトラフィックを自動的に勝者に再割り当てする方法を説明します。
+description: Adobe [!DNL Target] の自動配分アクティビティが2つ以上のエクスペリエンスのうちの勝者を識別し、より多くのトラフィックを自動的に勝者に再割り当てする方法を説明します。
 title: 自動配分アクティビティは、より速い結果と高い売上高を得ることができますか。
-feature: Auto-Allocate
+feature: 自動配分
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
-
 
 # 自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します
 
@@ -47,4 +47,3 @@ ht-degree: 0%
 ## 今すぐはじめる
 
 最初の[!UICONTROL 自動配分]アクティビティを起動する準備はできていますか？ [こちらをご覧ください](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
-
