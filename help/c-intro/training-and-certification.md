@@ -1,18 +1,18 @@
 ---
 keywords: トレーニング；認定；ターゲット；オンラインコース；コース；クラス；クラス
-description: Adobeトレーニングサービスが提供するAdobe Targetのクラスと資格を見つけます。
+description: Adobeトレーニングサービスが提供するAdobe [!DNL Target] のクラスと資格を見つけます。
 title: トレーニングクラスと認定クラスはどこで入手できますか。
-feature: Overview
+feature: 概要
+exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
-
-# トレーニングと資格認定{#training-and-certification}
+# トレーニングと資格認定
 
 Adobeトレーニングサービスは、Adobe Targetを含むAdobe製品とソリューションに関するクラスと認定資格を提供します。
 
@@ -24,4 +24,3 @@ Adobeトレーニングサービスは、Adobe Targetを含むAdobe製品とソ�
 |---|---|
 | ヨーロッパ、中東、アフリカ | [ats_emea@adobe.com](mailto:ats_emea@adobe.com) |
 | アジア太平洋 | [ats_apac@adobe.com](mailto:ats_apac@adobe.com) |
-
