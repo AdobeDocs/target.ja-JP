@@ -1,16 +1,16 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 訪問者を同じページにコンテンツを表示するのではなく別のページに送信する場合に、Adobe Targetで「URLにリダイレクト」オプションを使用する方法を説明します。
+description: 同じページにコンテンツを表示するのではなく、別のページに訪問者を送信する場合に、Adobe [!DNL Target] の「URLにリダイレクト」オプションを使用する方法を説明します。
 title: ページを別のURLにリダイレクトできますか。
-feature: Visual Experience Composer (VEC)
+feature: Visual Experience Composer（VEC）
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 84%
+source-wordcount: '437'
+ht-degree: 85%
 
 ---
-
 
 # URL にリダイレクト
 
