@@ -1,16 +1,16 @@
 ---
 keywords: コンテンツライブラリ;アセット;注釈;コピー;アセットの削除;アセットのダウンロード;コンテンツの編集;カードの共有;コンテンツプロパティの表示
-description: Adobe Targetオファーライブラリのコードおよび画像オファーを管理する方法について説明します。 オファーの詳細を表示する方法と、オファーを編集、コピー、移動または削除する方法について説明します。
+description: Adobe [!DNL Target] オファーライブラリのコードとイメージのオファーを管理する方法を説明します。 オファーの詳細を表示する方法と、オファーを編集、コピー、移動または削除する方法について説明します。
 title: オファーライブラリのコンテンツを使用する方法
-feature: Experiences and Offers
+feature: エクスペリエンスとオファー
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 37%
+source-wordcount: '769'
+ht-degree: 36%
 
 ---
-
 
 # アセットライブラリのコンテンツの操作
 
