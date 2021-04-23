@@ -1,16 +1,16 @@
 ---
 keywords: エクスペリエンスのターゲット設定;xt;指標;指標の設定;目標の指標;アクティビティ設定;成功指標;コンバージョン;収益;エンゲージメント
-description: Adobe Targetエクスペリエンスのターゲット設定アクティビティで指標を指定して、コンバージョン、売上高、エンゲージメントなどの訪問が成功かどうかを判断する方法について説明します。
+description: Adobe [!DNL Target] エクスペリエンスのターゲット設定アクティビティで指標を指定して、コンバージョン、売上高、エンゲージメントなどの訪問が成功かどうかを判断する方法について説明します。
 title: エクスペリエンスのターゲット設定アクティビティで目標指標を設定する方法を教えてください。
-feature: Experience Targeting
+feature: エクスペリエンスのターゲット設定
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 83%
 
 ---
-
 
 # エクスペリエンスターゲット設定(XT)アクティビティでの指標の設定
 
