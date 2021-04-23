@@ -1,16 +1,16 @@
 ---
 keywords: ウェルカムキット；ターゲットウェルカムキット；導入；導入；入門
-description: Adobe Targetをテストやパーソナライゼーションの戦略の一環として使用する場合に同じ操作をしないように、他のユーザーのミスから学びます。
-title: ターゲットを使用する際によくあるエラーとは何ですか。また、エラーを回避する方法を教えてください。
-feature: Overview
+description: Adobe [!DNL Target] をテストやパーソナライゼーションの一環として使用する場合に、他のユーザーのミスから同じエラーを起こさないように学びます。
+title: ' [!DNL Target] を使う際によくある間違いとは何ですか？'
+feature: 概要
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '412'
+ht-degree: 3%
 
 ---
-
 
 # 第6章：簡単に回避できる落とし穴
 
