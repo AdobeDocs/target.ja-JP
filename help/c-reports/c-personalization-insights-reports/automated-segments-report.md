@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;AP レポート;Automated Personalization レポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;自動セグメント;FAQ, よくある質問
-description: 自動セグメントレポートを表示して、Adobe Targetのパーソナライゼーションモデルによって定義された様々なセグメントがアクティビティ内のオファー/エクスペリエンスにどのように反応するかを説明します。
+description: Adobe [!DNL Target] パーソナライゼーションモデルによって定義された様々なセグメントがアクティビティ内のオファー/エクスペリエンスにどのように反応するかを、自動セグメントレポートで確認します。
 title: 自動セグメントレポートとは何ですか。
-feature: Reports
+feature: レポート
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 自動セグメントレポート{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) 自動セグメントレポート
 
 Automated Personalization（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである自動セグメントレポートについて説明します。
 
