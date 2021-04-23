@@ -1,17 +1,17 @@
 ---
 keywords: visual experience composer;vec；デフォルトurl;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;cssセレクター
-description: 一般的な設定、モバイルビューポート設定、CSSセレクターを指定して、Adobe TargetVisual Experience Composer(VEC)を設定する方法を説明します。
+description: Adobe [!DNL Target] Visual Experience Composer(VEC)の一般設定、モバイルビューポート設定、CSSセレクターを指定して、ビジュアルExperience Composerを設定する方法を説明します。
 title: Visual Experience Composer(VEC)の設定方法を教えてください。
-feature: Administration & Configuration
+feature: 管理と設定
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 49%
 
 ---
-
 
 # Visual Experience Composerの設定
 
