@@ -1,17 +1,17 @@
 ---
 keywords: レポートソースとしてのAnalytics;a4t;A4T；要件
-description: Analytics for Analytics(A4T)を使用して、Adobe TargetでAdobe Analyticsベースのアクティビティを作成するのに必要なユーザーアカウントの要件を設定する方法について説明します。
+description: Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)で、Adobe Analyticsベースのアクティビティを作成するのに必要なユーザーアカウント要件を設定する方法を説明します。
 title: A4Tに必要なユーザー権限の要件を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '307'
 ht-degree: 36%
 
 ---
-
 
 # ユーザー権限の要件
 
@@ -56,6 +56,6 @@ ht-degree: 36%
    [!DNL Analytics]の[!UICONTROL Web Services Access]グループへのアクセスは、[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにする必要があります。
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## アドビ [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 追加の権限は必要ありません。
