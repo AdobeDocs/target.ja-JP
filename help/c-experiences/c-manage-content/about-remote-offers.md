@@ -1,16 +1,16 @@
 ---
 keywords: リモートオファー；リモートオファー選択マトリックス；キャッシュコンテンツ；動的コンテンツ；URLタイプ
-description: Adobe Targetのリモートオファーを使用して外部コンテンツ（CMSや他のシステムのコンテンツ）をホストする方法を学びます。 リモートオファーを使用する理由を特定します。
+description: Adobe [!DNL Target] でリモートオファーを使用して外部コンテンツ（CMSや他のシステムのコンテンツ）をホストする方法を学びます。 リモートオファーを使用する理由を特定します。
 title: リモートオファーの作成方法
-feature: Experiences and Offers
+feature: エクスペリエンスとオファー
+exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
-
 
 # リモートオファーを作成
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->リモートオファーは、[!UICONTROL オファー] > [!UICONTROL コードオファー]ページまたは[FormsベースのExperience Composer](/help/c-experiences/form-experience-composer.md)に作成できます。 Visual Experience Composer(VEC)では、リモートオファーを作成または適用できません。 コンテンツは[!DNL Target]リクエストの場所に挿入されるので、グローバル[!DNL Target]リクエストには適していない可能性が高くなります。
+>リモートオファーは、[!UICONTROL オファー] > [!UICONTROL コードオファー]ページまたは[FormsベースのExperience Composer](/help/c-experiences/form-experience-composer.md)に作成できます。 Visual Experience Composer(VEC)でリモートオファーを作成または適用することはできません。 コンテンツは[!DNL Target]リクエストの場所に挿入されるので、グローバル[!DNL Target]リクエストには適していない可能性が高くなります。
 >
 >[!DNL Target Classic]に同様の機能がありました。[!UICONTROL Offer on Your Site] と [!UICONTROL Offer Outside Test&amp;Target] です。
 
