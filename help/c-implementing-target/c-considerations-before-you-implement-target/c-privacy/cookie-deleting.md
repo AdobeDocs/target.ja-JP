@@ -1,19 +1,19 @@
 ---
 keywords: cookie;cookie;cookieの削除；ターゲットcookieの削除；google chrome;chrome;mozilla;firefox;microsoft edge;safari
-description: エクスペリエンスを検証できるようにターゲットブラウザーのCookieを削除する方法を説明します。
-title: ターゲットCookieの削除方法を教えてください。
-feature: Privacy & Security
+description: エクスペリエンスを検証できるように、 [!DNL Target] ブラウザーのcookieを削除する方法を説明します。
+title: ' [!DNL Target] Cookieを削除する方法を教えてください。'
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '423'
+ht-degree: 4%
 
 ---
 
-
-# Target の Cookie の削除
+# [!DNL Target] cookieを削除します
 
 [!DNL Adobe Target]ブラウザーのCookie(mbox)を削除して、テスト中にすべてのエクスペリエンスを検証できます。
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 >
 >以下の手順は、リストに表示されているブラウザーとバージョンに対して正しく行われます。 特定のブラウザーまたはバージョンの手順については、インターネットを検索してください。
 
-## Google ChromeでのターゲットCookieの削除
+## Google Chromeから[!DNL Target] cookieを削除します
 
 バージョン 84.0.4147.105
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 1. 「**すべてのCookieとサイトデータを表示**」をクリックします。
 1. `adobe.com`セクションを展開し、**mbox** cookieを選択して、削除アイコン(X)をクリックします。
 
-## Mozilla FirefoxからのターゲットCookieの削除
+## Mozilla Firefoxから[!DNL Target] cookieを削除します。
 
 バージョン 79.0
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 1. 「**Cookies**」セクションを展開し、「`https://experience.adobe.com`」をクリックします。
 1. **mbox** cookieを右クリックし、「**削除**」をクリックします。
 
-## Microsoft EdgeからのターゲットCookieの削除
+## Microsoft Edgeから[!DNL Target] cookieを削除します
 
 バージョン 84.0.522.52
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 1. 「**すべてのCookieとサイトデータを表示**」をクリックします。
 1. `adobe.com`セクションを展開し、**mbox** cookieを選択して、削除アイコン(X)をクリックします。
 
-## Apple Safariからのターゲットcookieの削除
+## Apple Safariから[!DNL Target] cookieを削除します
 
 バージョン 13.1.2
 
