@@ -1,29 +1,29 @@
 ---
-keywords: 実装；実装；ホワイトリスト；ホワイトリスト；許可リスト;許可リスト；エッジ；エッジ
-description: Adobe Targetエッジの許可リストに役立つホストのリストを表示します（エンドユーザに最適な応答時間を確保する地理的に分散された配信ノード）。
-title: ターゲットエッジノードを許可リストする方法
-feature: Privacy & Security
+keywords: 実装；実装；ホワイトリスト；ホワイトリスト；許可リスト許可リスト；エッジ；エッジ
+description: ホストのリストを表示して、許可リストAdobe [!DNL Target] エッジ（エンドユーザーの最適な応答時間を保証する地理的に分散された配信ノード）をするのに役立ちます。
+title: How Do 許可リスト I  I nodes  [!DNL Target] Edge Nodes?
+feature: プライバシーとセキュリティ
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
+# 許可リスト[!DNL Target]エッジノード
 
-# 許可リストターゲットエッジノード
-
-[!DNL Adobe Target]エッジの許可リストに役立つ、ホストの情報と最新リスト。
+[!DNL Adobe Target]エッジの許可リストリストに役立つ、ホストの情報と最新の情報。
 
 エッジは、コンテンツを要求するエンドユーザーがどこにいても最適な応答時間を確保できる、地理的に分散された配信アーキテクチャです。 各エッジノードには、ユーザーのコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要なすべての情報が含まれます。 ユーザーリクエストは最も近いエッジノードにルーティングされます。 詳しくは、*Adobe[!DNL Target]の仕組み*&#x200B;の[エッジネットワーク](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)を参照してください。
 
-必要に応じて、[!DNL Target]エッジノードを許可リストできます。
+必要に応じて、[!DNL Target]エッジノードをできます。
 
-## ターゲットエッジのNetwork Address Translation（NAT；ネットワークアドレス変換）IPアドレス
+## [!DNL Target]エッジのNetwork Address Translation（NAT；ネットワークアドレス変換）IPアドレス
 
-[!DNL Target]エッジの出力IPアドレスのリスト。 ターゲットがサービスにアクセスする予定の場合は、これらのIPを許可リストします。
+[!DNL Target]エッジの出力IPアドレスのリスト。 ターゲットがサ許可リストービスにアクセスする予定の場合は、これらのIPをします。
 
 | エッジの位置 | 出口IPアドレス |
 | --- | --- |
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 ## ターゲットエッジIPアドレス
 
-[!DNL Target]エッジのIPアドレスのリスト。 ターゲットエッジにAPI呼び出しを行う場合は、これらのIPを許可リストします。
+[!DNL Target]エッジのIPアドレスのリスト。 ターゲットのエッジに対するAPI呼び出しを行う場合、許可リストこれらのIPアドレス。
 
 | エッジの位置 | ドメイン | IP アドレス |
 | --- | --- | --- |
@@ -49,8 +49,3 @@ ht-degree: 7%
 | Edge36（シドニー） | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37（アイルランド） | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38（シンガポール） | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
