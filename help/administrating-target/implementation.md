@@ -1,17 +1,17 @@
 ---
 keywords: 実装;実装する
-description: サイトにAdobe Targetを導入する方法を学びます。 グローバル設定、実装方法（AEP Web SDKまたはat.js）などを設定します。
-title: サイトにターゲットを導入する方法
-feature: Administration & Configuration
+description: サイトにAdobe [!DNL Target] を導入する方法を学びます。 グローバル設定、実装方法（AEP Web SDKまたはat.js）などを設定します。
+title: サイトに [!DNL Target] を導入する方法
+feature: 管理と設定
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 18%
 
 ---
-
 
 # 実装
 
@@ -25,6 +25,6 @@ ht-degree: 18%
 
 1. [!UICONTROL 実装]ページにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
 
-1. このページの設定に適用される情報については、[タグマネージャーを使用しないターゲットの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)を参照してください。
+1. このページの設定に適用できる情報については、[タグマネージャーを使用しないターゲットの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)を参照してください。
 
 ![導入ページ](/help/administrating-target/assets/implementation.png)
