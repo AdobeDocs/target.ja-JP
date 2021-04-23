@@ -1,18 +1,18 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: Adobe TargetRecommendationsで代替レコメンデーションを使用する方法を説明します。 十分なレコメンデーション品目がないレコメンデーションには、バックアップアルゴリズムの結果が表示されます。
+description: Adobe [!DNL Target] Recommendationsで代替レコメンデーションを使用する方法を説明します。 十分なレコメンデーション品目がないレコメンデーションには、バックアップアルゴリズムの結果が表示されます。
 title: Recommendationsで代替レコメンデーションを使用する方法
 feature: Recommendations
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 代替レコメンデーションの使用{#use-a-backup-recommendation}
+# ![PREMIUM](/help/assets/premium.png) 代替レコメンデーションの使用
 
 Adobe Targetの代替レコメンデーション機能を使用する場合、レコメンデーションに十分なレコメンデーション品目がないと、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
 
