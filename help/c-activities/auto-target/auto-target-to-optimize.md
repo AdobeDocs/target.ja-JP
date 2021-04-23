@@ -1,13 +1,13 @@
 ---
 keywords: 自動ターゲット、ターゲット設定、トラフィック配分、よくある質問、faq、トラブルシューティング、トラブル・シューティング
-description: ターゲットの自動ターゲットアクティビティが、お客様のプロファイルと類似訪問者の動作に基づいて、各訪問者に最も合わせたエクスペリエンスを提供する方法を説明します。
+description: ' [!DNL Target] の自動ターゲットアクティビティが、顧客のプロファイルや類似訪問者の動作に基づいて、各訪問者に最も合ったエクスペリエンスを提供する方法を説明します。'
 title: 自動ターゲットアクティビティとは
-feature: Auto-Target
+feature: 自動ターゲット
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1992'
 ht-degree: 69%
 
 ---
