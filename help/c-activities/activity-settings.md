@@ -1,16 +1,16 @@
 ---
 keywords: 目標と設定；目標；優先度；期間
-description: Adobe Targetのアクティビティ設定を使用して、アクティビティの目的、優先度、期間を管理する方法を説明します。
+description: Adobe [!DNL Target] のアクティビティ設定を使用して、アクティビティの目的、優先度、期間を管理する方法を説明します。
 title: アクティビティ設定の指定方法
-feature: Activities
+feature: アクティビティ
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
-
 
 # アクティビティの設定
 
