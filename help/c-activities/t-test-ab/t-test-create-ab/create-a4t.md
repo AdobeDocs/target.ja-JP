@@ -1,16 +1,16 @@
 ---
 keywords: ターゲット設定；Analytics；トラッキングサーバー；ターゲット用の分析；a4t
-description: Adobe Analyticsをレポートソースとして使用するように、Adobe Targetでアクティビティを設定する方法を説明します。 この統合は、Analytics forターゲット(A4T)と呼ばれます。
+description: Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)でアクティビティを設定する方法を説明します。
 title: ターゲットでAnalyticsデータを使用する方法を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
-
 
 # Analytics データの使用
 
