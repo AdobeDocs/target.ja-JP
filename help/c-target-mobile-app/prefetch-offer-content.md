@@ -1,19 +1,19 @@
 ---
 keywords: オファー；プリフェッチ；iOS;android;sdk；モバイル；モバイルsdk
-description: iOSおよびAndroid Mobile SDKのAdobe Targetプリフェッチ機能を使用すると、サーバーレスポンスをキャッシュして、オファーコンテンツをできるだけ少なく取得できます。
+description: iOSおよびAndroid Mobile SDKのAdobe [!DNL Target] プリフェッチ機能を使用して、オファーのコンテンツを可能な限り少なく取得し、サーバーの応答をキャッシュします。
 title: モバイルアプリ用のオファーコンテンツをプリフェッチできますか？
-feature: Implement Mobile
+feature: モバイルの実装
 role: Developer
+exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '248'
 ht-degree: 47%
 
 ---
 
-
-# プリフェッチオファーコンテンツ{#prefetch-offer-content}
+# プリフェッチオファーコンテンツ
 
 [!DNL Target] のプリフェッチ機能では、iOS および Android Mobile SDK を使用してサーバーからの応答をキャッシュすることにより、可能な限り少ない回数でオファーコンテンツを取得できます。
 
