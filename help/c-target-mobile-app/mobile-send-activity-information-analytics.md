@@ -1,19 +1,19 @@
 ---
 keywords: モバイル；tntVal;analytics;adobe analytics；統合；sdk；モバイルsdk;
-description: Adobe Targetモバイルアプリのアクティビティ情報を、アドホック後のセグメント用にAdobe Analyticsに送信する方法について説明します。
+description: Adobe [!DNL Target] モバイルアプリのアクティビティ情報をAdobe Analyticsに送信して、アドホック後のセグメント化を行う方法について説明します。
 title: モバイルアプリのアクティビティ情報をAnalyticsに送信できますか。
-feature: Implement Mobile
+feature: モバイルの実装
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 24%
 
 ---
 
-
-# アクティビティ情報の Adobe Analytics への送信{#send-activity-information-to-adobe-analytics}
+# アクティビティ情報の Adobe Analytics への送信
 
 この節では、ポストホックセグメント化のために[!DNL Target]モバイルアプリのアクティビティ情報をAdobe[!DNL Analytics]に送信する方法について説明します。
 
@@ -74,4 +74,3 @@ ht-degree: 24%
    >[!NOTE]
    >
    >`&&tnt`は、モバイル SDK の予約イベントキーです。[!DNL Analytics]内の`tntVal`変数の後分類は、モバイルSDKでもWeb上での動作と同じように機能します(JavaScript)。 情報を[!DNL Analytics]で処理した後は、[!DNL Analytics]インターフェイスにアクティビティ名とエクスペリエンス名が表示されます。
-
