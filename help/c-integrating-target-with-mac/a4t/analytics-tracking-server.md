@@ -1,16 +1,16 @@
 ---
 keywords: analyticsトラッキングサーバー；A4T;Adobe Experience Cloudデバッガー；Adobe Experience Platformデバッガー；レポートソース；開発者ツール
-description: '古いバージョンのat.jsまたはmbox.jsを使用している場合に、Analyticsをターゲットに使用するアクティビティ(A4T)に対してAnalyticsトラッキングサーバーを指定する方法を説明します。 '
+description: '古いバージョンのat.jsまたはmbox.jsを使用している場合に、Analytics for [!DNL Target] (A4T)を使用するアクティビティに対してAnalyticsトラッキングサーバーを指定する方法を説明します。 '
 title: Analyticsトラッキングサーバーの使用方法を教えてください。
-feature: Analytics for Target (A4T)
+feature: Analytics for Target（A4T）
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Analytics トラッキングサーバーの使用
 
@@ -77,4 +77,3 @@ ht-degree: 20%
    >[!NOTE]
    >
    >使用可能にする[!UICONTROL トラッキングサーバー]フィールドのアクティビティーに対して、「レポートソース]」として「Analytics」を選択します。[!UICONTROL 
-
