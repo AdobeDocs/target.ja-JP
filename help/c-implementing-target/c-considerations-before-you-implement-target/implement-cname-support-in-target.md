@@ -6,9 +6,9 @@ feature: プライバシーとセキュリティ
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
    >
    >Adobeの認証機関であるDigiCertは、この手順が完了するまで証明書を発行できません。 したがって、[!DNL Adobe]は、この手順が完了するまでCNAMEの実装に対するリクエストを満たすことができません。
 
-1. [CNAMEサポートをリクエストするAdobeClientCareチケットを](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 開いた場合は、次の [フォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+1. [CNAMEサポートをリクエストするAdobeClientCareチケットを](/help/assets/FPC_Request_Form.xlsx) 開いた場合は、次の [フォームに入力し、それを含めます](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
    * Adobe[!DNL Target]クライアントコード：
    * SSL証明書のホスト名(例：`target.example.com target.example.org`):
