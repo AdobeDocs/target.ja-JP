@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3748'
 ht-degree: 6%
 
 ---
@@ -369,7 +369,7 @@ AT: LD.ArtifactProvider artifact received - status=200
 
    ![Google Chromeの「ネットワーク」タブ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### at.jsカスタムイベントを使用したルールアーティファクトのダウンロードの検証
+### 手順3:at.jsカスタムイベントを使用したルールアーティファクトのダウンロードの検証
 
 at.jsライブラリは、2つの新しいカスタムイベントをディスパッチして、オンデバイスの判定をサポートします。
 
