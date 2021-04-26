@@ -5,22 +5,16 @@ title: at.js JavaScriptライブラリを使用したデバイス上判定のト
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # at.jsのオンデバイス判定のトラブルシューティング
 
-at.js JavaScriptライブラリを使用して、Adobe Targetのオンデバイス判定のトラブルシューティングを行うには、次の手順を実行します。
-
-1. at.jsのコンソールログの有効化
-1. ブラウザーの[ネットワーク]タブで、ルールアーティファクトのダウンロードを確認します。
-1. at.jsカスタムイベントを使用したルールアーティファクトのダウンロードの検証
-
-以下の各項では、各手順について詳しく説明します。
+次の手順を実行して、at.js JavaScriptライブラリを使用して[!DNL Adobe Target]のオンデバイス判定のトラブルシューティングを行います。
 
 ## 手順1:at.jsのコンソールログの有効化
 
