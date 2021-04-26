@@ -5,7 +5,7 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 30%
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 26 年 4 月 | [at.jsのオンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | トラブルシューティングの節を追加しました。 |
+| 26 年 4 月 | [at.jsのオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新規トピックです。 |
 | 19 年 4 月 | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイスの判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールのアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod`に関する情報を追加しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次の内容を追加しました。<ul><li>`decisioningMethod`キーに関する情報です。</li><li>「getCallOffers()でオンデバイスの判定を行う例」を示します。</li></ul> |
