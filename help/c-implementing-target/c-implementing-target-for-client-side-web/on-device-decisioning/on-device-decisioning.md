@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -134,7 +134,7 @@ Adobe TargetJS SDKを使用すると、お客様は柔軟にデータのパフ�
 
 | 手順 | 説明 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
+| 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
 | 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | at.jsライブラリは、JSONルールのアーティファクトを解釈し、メモリ内の決定を実行してエクスペリエンスを取得します。 |
@@ -169,7 +169,7 @@ JSONルールのアーティファクトには、mboxがサーバー側のアク
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | ページ型リクエストは、(ECID、顧客ID、カスタムパラメーター、ユーザープロファイルなどの設定済みのすべてのパラメーターを含む、Adobe Targetエッジネットワークに対して行われます。 |
 | 5 | 同時に、at.jsは、訪問者に最も近いAkamai CDNからJSONルールのアーティファクトを取得するリクエストを行います。 |
 | 6 | (Adobe Targetエッジネットワーク)プロファイルスクリプトを実行し、プロファイルストアにフィードします。 プロファイルストアは、オーディエンスライブラリ(例えば、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]などから共有されたオーディエンス)から正規のオーディエンスを要求します。 |
@@ -195,9 +195,9 @@ JSONルールのアーティファクトには、mboxがサーバー側のアク
 
 | 手順 | 説明 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
+| 3 | [!DNL Experience Cloud Visitor ID]は[Adobe Experience CloudIDサービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)から取得されます。 |
 | 2 | at.js ライブラリがドキュメント本文を同期的に読み込み、非表示にします。<br>at.jsライブラリは、ページに実装されているオプションの事前非表示スニペットを使用して、非同期で読み込むこともできます。 |
-| 1 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
+| 3 | at.jsライブラリは、ちらつきを防ぐために本文を非表示にします。 |
 | 4 | エクスペリエンスを取得するリクエストが作成されます。 |
 | 5 | at.jsライブラリは、JSONルールのアーティファクトが既にキャッシュされていることを確認し、メモリ内の決定を実行してエクスペリエンスを取得します。 |
 | 6 | テストされた要素は非表示になります。 |
@@ -329,3 +329,63 @@ adobe.target.getOffers({
 1. オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)でサポートされている[アクティビティタイプを作成してアクティブ化し、そのタイプがオンデバイス判定の適格であることを確認します。
 1. at.js設定UIを使用して、**[!UICONTROL Decisioningメソッド]**&#x200B;を&#x200B;**[!UICONTROL &quot;ハイブリッド&quot;]**&#x200B;または&#x200B;**[!UICONTROL &quot;オンデバイスのみ&quot;]**&#x200B;に設定します。
 1. At.js 2.5.0以降をページにダウンロードしてデプロイします。
+
+## トラブルシューティング
+
+次の手順を実行して、オンデバイス判定のトラブルシューティングを行います。
+
+1. at.jsのコンソールログの有効化
+1. ブラウザーの[ネットワーク]タブで、ルールアーティファクトのダウンロードを確認します。
+1. at.jsカスタムイベントを使用したルールアーティファクトのダウンロードの検証
+
+以下の各項では、各手順について詳しく説明します。
+
+### 手順1:at.jsのコンソールログの有効化
+
+URLパラメーター`mboxDebug=1`を追加すると、at.jsはブラウザーのコンソールにメッセージを印刷できます。
+
+便利な概要を示すため、すべてのメッセージにプレフィックス「AT:」が付いています。 アーティファクトが正常に読み込まれたことを確認するには、コンソールログに次のようなメッセージが含まれている必要があります。
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+次の図に、コンソールログに表示されたメッセージを示します。
+
+![アーティファクトメッセージを含むコンソールログ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### 手順2:ブラウザーの[ネットワーク]タブで、ルールアーティファクトのダウンロードを確認します。
+
+ブラウザーの「ネットワーク」タブを開きます。
+
+例えば、Google Chromeで開発ツールを開くには：
+
+1. Ctrl + Shift + Jキー(Windows)またはCommand + Option + Jキー(Mac)を押します。
+1. 「ネットワーク」タブに移動します。
+1. キーワード「rules.json」で呼び出しをフィルターし、アーティファクトのルールファイルのみが表示されるようにします。
+
+   また、「/配信|rules.json/」でフィルタリングして、すべての[!DNL Target]呼び出しとartifact rules.jsonを表示できます。
+
+   ![Google Chromeの「ネットワーク」タブ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### at.jsカスタムイベントを使用したルールアーティファクトのダウンロードの検証
+
+at.jsライブラリは、2つの新しいカスタムイベントをディスパッチして、オンデバイスの判定をサポートします。
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+購読すると、アーティファクトルールファイルのダウンロードが成功または失敗した場合のアクションを実行するために、アプリケーション内のこれらのカスタムイベントをリッスンできます。
+
+次の例は、アーティファクトのダウンロードの成功と失敗のイベントをリッスンするコードの例を示しています。
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
