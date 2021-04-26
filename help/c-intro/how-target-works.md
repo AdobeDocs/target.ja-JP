@@ -5,9 +5,9 @@ title: ' [!DNL Target] 機能の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2563'
 ht-degree: 31%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 31%
 次のリソースには、AEP Web SDKまたはat.jsの実装に役立つ詳細情報が含まれています。
 
 * [Adobe Experience PlatformWeb SDK拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launchを使用したターゲットの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Launchを [!DNL Target] 使用した実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 訪問者が[!DNL Target]用に最適化されたページをリクエストするたびに、リクエストがターゲット設定システムに送信されます。 このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。 このプロセスはリアルタイムで発生します。 ページが読み込まれるたびに、コンテンツに対するリクエストが作成され、システムで処理されます。 コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応し、やり取りをする可能性が高い、または最終的に購入する可能性の高いコンテンツが提供されます。 コンテンツをパーソナライズすることで、回答率、獲得率および売上高を最大化できます。
 
