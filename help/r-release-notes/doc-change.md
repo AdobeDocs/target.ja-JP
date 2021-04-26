@@ -5,9 +5,9 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 30%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2021 年 4 月 20 日 | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイスの判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールのアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| 26 年 4 月 | [at.jsのオンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | トラブルシューティングの節を追加しました。 |
+| 19 年 4 月 | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイスの判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールのアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod`に関する情報を追加しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 次の内容を追加しました。<ul><li>`decisioningMethod`キーに関する情報です。</li><li>「getCallOffers()でオンデバイスの判定を行う例」を示します。</li></ul> |
 |  | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 以下の情報を追加しました。<ul><li>オンデバイス判定の成功したアーティファクト</li><li>On-Device decisioning artifact failed</li></ul> |
