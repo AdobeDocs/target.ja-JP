@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Cookie にはいくつかのデフォルト設定があります。cookie の期
 | cookie 名 | mbox。 |
 | cookie ドメイン | コンテンツを提供するドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. |
 | サーバードメイン | `clientcode.tt.omtrdc.net`。アカウントのクライアントコードを使用します。 |
-| cookie の期間 | cookieは、最後にログインしてから2年後に訪問者のブラウザーに残ります。 cookie の期間は変更できません。 |
+| cookie の期間 | cookieは、最後にログインしてから2年後に訪問者のブラウザーに残ります。<br>この `deviceIdLifetime` 設定は、 [at.jsバージョン2.3.1以降で上書きできます](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。 |
 | P3P ポリシー | ほとんどのブラウザーのデフォルト設定の要求に従って、cookie は P3P ポリシーに基づいて発行されます。P3P ポリシーはブラウザーに対して、cookie を扱うユーザーおよびその情報の使用方法を指示します。 |
 
 Cookie は、キャンペーンでの訪問者のエクスペリエンスを管理するための様々な値を保持します。
