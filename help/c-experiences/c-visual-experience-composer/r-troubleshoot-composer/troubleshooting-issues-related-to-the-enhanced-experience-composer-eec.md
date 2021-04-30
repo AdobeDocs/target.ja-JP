@@ -5,10 +5,10 @@ title: 拡張Experience Composerに関連する問題のトラブルシューテ
 feature: Visual Experience Composer（VEC）
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 62%
+source-wordcount: '441'
+ht-degree: 61%
 
 ---
 
@@ -22,11 +22,12 @@ ht-degree: 62%
 
 次のIPアドレスをITチーム許可リストにするように依頼します。
 
-| 地域 | IP アドレス | ホスト名 |
-|--- |--- |--- |
-| 米国 | 52.55.99.45 | `us1-proxy.adobemc.com` |
-| ヨーロッパ、中東、アフリカ（EMEA） | 52.51.238.221 | `emea1-proxy.adobemc.com` |
-| アジア太平洋（APAC） | 52.193.67.35 | `apac1-proxy.adobemc.com` |
+* 52.16.72.74
+* 52.5.174.79
+* 54.246.238.65
+* 54.249.183.154
+* 54.65.105.214
+* 54.82.142.68
 
 Target では次のエラーメッセージが表示される場合があります。
 
