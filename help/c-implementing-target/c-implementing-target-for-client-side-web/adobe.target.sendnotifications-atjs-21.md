@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 | Request > notifications > view > key | 文字列 | × | `<=` 512 文字。 | ビューキー。API でビューに設定されたキー。 |
 | Request > notifications > view > state | 文字列 | × |  | ビュー状態トークン。 |
 
-**注意**：`Request > notifications > mbox > name` では、以下の文字は使用できません。
+**注意**:次の文字は使用で ** きません `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
