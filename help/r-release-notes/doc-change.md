@@ -5,9 +5,9 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '957'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5 年 5 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年5月12日水曜日午前8時に行われるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加。(PDT、GMT-7) |
 | 27 年 4 月 | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Cookieの期間（`deviceIdLifetime`設定）がat.jsバージョン2.3.1以降で上書き可能であることを示すようにトピックを更新しました。 |
 |  | [Adobe Targetガイド](/help/target-home.md) | Adobeサミットに関する情報を追加しました。 |
 | 26 年 4 月 | [at.jsのオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新規トピックです。 |
