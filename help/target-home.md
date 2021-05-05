@@ -5,10 +5,10 @@ description: Adobe [!DNL Target] を使用して顧客の体験をパーソナ�
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 43%
+source-wordcount: '697'
+ht-degree: 45%
 
 ---
 
@@ -18,15 +18,7 @@ ht-degree: 43%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-## Adobeサミット：デジタル体験会議
-
-[Adobeサミットの詳細については、こちらをクリックしてください。](https://business.adobe.com/summit/adobe-summit.html)
-
-常に太平洋夏時間(PDT)-7 GMTです。
-
-![サミット](/help/assets/summit-2021.png)
-
-**最終更新日：2021年4月27日( [変更点を参照](r-release-notes/doc-change.md) )**
+**最終更新日：2021年5月5日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
