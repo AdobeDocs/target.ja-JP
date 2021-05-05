@@ -5,9 +5,9 @@ title: ' [!DNL Target] お知らせとイベントはどこで見つけられま
 feature: リリースノート
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,20 @@ Adobe Target氏は最近、フォレスター氏とガートナー氏の両方�
 | --- | --- |
 | フォレスター | **Adobeが、エクスペリエンス最適化プラットフォームのForresterウェーブレポートのリーダーに選ばれました。**<br> Adobeはフォレスター波のリーダーに選ばれました。エクスペリエンス最適化プラットフォーム、2020年第4四半期レポートには、このスペースのWebサイトでの提供に関する情報が掲載されています。Adobeは、現在のオファーおよび市場プレゼンスのカテゴリに参加しているすべてのベンダーの最高のスコアを獲得し、レコメンデーションとプラットフォームエクスペリエンスの基準も得られました。 また、ターゲットプレミアムは、エクスペリエンス最適化手法の革新とサポートサービスの基準で最高のスコアを獲得しました。 このレポートは、22の条件にわたる10のエクスペリエンス最適化プラットフォームプロバイダーの徹底的な評価に基づいています。<br>詳しくは、 [Adobeブログを参照してください](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobeは、パーソナライゼーションエンジンのGartner Magic Quadrantで再びリーダーに選ばれました。**<br> Adobeは、2020年のパーソナライゼーション・エンジンに関する3年目の年次Gartner Magic Quadrantで再びリーダーに選ばれました。パーソナライゼーションエンジンのGartner Magic Quadrantは、2つのカテゴリに分かれる15の基準に基づいてベンダーを評価しました。ビジョンと実行能力の完全性<br>[Adobeブログ](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+
+## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
+
+* 2021年5月12日（水）
+* 午前8時(PDT、GMT-7)
+* [詳細については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
+
+[!DNL Adobe Target]のグループプロダクトマネージャであるShannon Hamiltonは、[!DNL Target]コミュニティにサインインし、専門知識に関する質問に答えます。
+
+* 統合
+* 統合プロファイル
+* ターゲットAdobe Experience Platform(AEP)統合
+* 他のAdobeソリューションとのポイント統合
+* コアUIワークフロー
 
 ## ウェビナー：Adobe Targetのデバイス上での意思決定により、遅延が発生しないパーソナライズとテストを実現
 
