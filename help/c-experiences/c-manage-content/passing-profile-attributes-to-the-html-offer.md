@@ -1,14 +1,14 @@
 ---
 keywords: 動的データ、アセット、データ、オファー、パーソナライズオファー、パーソナルオファー、トークン置換
-description: 動的データをAdobe [!DNL Target] オファーに渡す方法を説明します。 ダイナミックオファーや表示の例、導入情報を使用したい理由を示すビジネス事例を調べます。
+description: 動的データを [!DNL Adobe Target] オファーに渡す方法を説明します。 ダイナミックオファーや表示の例、導入情報を使用したい理由を示すビジネス事例を調べます。
 title: 動的データをオファーに渡す方法を教えてください。
 feature: エクスペリエンスとオファー
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 
