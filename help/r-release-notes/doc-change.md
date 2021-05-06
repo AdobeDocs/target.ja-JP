@@ -5,10 +5,10 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 29%
+source-wordcount: '1044'
+ht-degree: 27%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6 年 5 月 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations]のアクティビティ、オファー、プロモーション、条件の設定を変更してサイトに反映させるには、どのくらい時間がかかりますか。</li><li>ユーザーの行動（製品Aをクリックし、製品Bを購入するなど）が&#x200B;*そのユーザーが受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。*</li><li>ユーザーの行動（製品Aのクリックや製品Bの購入など）がレコメンデーション&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
 | 5 年 5 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年5月12日水曜日午前8時に行われるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加。(PDT、GMT-7) |
 | 27 年 4 月 | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Cookieの期間（`deviceIdLifetime`設定）がat.jsバージョン2.3.1以降で上書き可能であることを示すようにトピックを更新しました。 |
 |  | [Adobe Targetガイド](/help/target-home.md) | Adobeサミットに関する情報を追加しました。 |
@@ -43,7 +44,7 @@ ht-degree: 29%
 | 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.jsバージョン2.5.0リリース（2021年4月19日）のプレリリース情報を追加しました。 |
 | 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1リリース（2021年4月20日）のプレリリース情報を追加しました。 |
 |  | [Recommendations と電子メールの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | オプション1および2の容量のガイドラインを説明する注記を追加しました。 |
-| 3月29日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新しいFAQを追加しました。<ul><li>最近表示した品目に基づくレコメンデーションは、1つの訪問者に対して複数のデバイス間で保持されますか。</li></ul> |
+| 3月29日 | [RecommendationsFAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新しいFAQを追加しました。<ul><li>最近表示した品目に基づくレコメンデーションは、1つの訪問者に対して複数のデバイス間で保持されますか。</li></ul> |
 | 3月23日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [RecommendationsFAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを更新しました。<ul><li>カタログ内のアイテムの更新がサイトに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
