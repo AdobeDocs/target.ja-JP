@@ -5,10 +5,10 @@ title: ターゲットに関する表示ドキュメントの更新はどこで�
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 27%
+source-wordcount: '1074'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 27%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 6 年 5 月 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations]のアクティビティ、オファー、プロモーション、条件の設定を変更してサイトに反映させるには、どのくらい時間がかかりますか。</li><li>ユーザーの行動（製品Aをクリックし、製品Bを購入するなど）が&#x200B;*そのユーザーが受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。*</li><li>ユーザーの行動（製品Aのクリックや製品Bの購入など）がレコメンデーション&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
+|  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobeテクニカルブログの次のブログ投稿へのリンクを追加しました。<ul><li>パート1:エッジプラットフォームでの実験とパーソナライゼーションのためのAdobe TargetNodeJS SDKの実行(Akamai Edge Workers)</li></ul> |
 | 5 年 5 月 | [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年5月12日水曜日午前8時に行われるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加。(PDT、GMT-7) |
 | 27 年 4 月 | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Cookieの期間（`deviceIdLifetime`設定）がat.jsバージョン2.3.1以降で上書き可能であることを示すようにトピックを更新しました。 |
 |  | [Adobe Targetガイド](/help/target-home.md) | Adobeサミットに関する情報を追加しました。 |
