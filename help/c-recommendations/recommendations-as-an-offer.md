@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;オファー
-description: Adobe RecommendationsをA/Bテスト(自動配分と自動ターゲットを含む)およびエクスペリエンスターゲット設定(XT)アクティビティのオファーとして使用する方法について説明します。
-title: Recommendationsを他のアクティビティタイプのオファーとして使用する方法
+description: A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティで、オファーとして Adobe Recommendations を使用する方法を説明します。
+title: Recommendations を他のアクティビティタイプでオファーとして使用するにはどうすればよいですか。
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ Recommendations オファーの（アルゴリズム）ステータスは、Reco
 
 ![Recommendations オファーステータス](/help/c-recommendations/assets/recs-offer-status.png)
 
-## トレーニングビデオ：オファーとしてのRecommendations![概要バッジ](/help/assets/overview.png)
+## トレーニングビデオ：オファーとしての Recommendations![概要バッジ](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
