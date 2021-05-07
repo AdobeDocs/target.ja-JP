@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 74%
 
 + [Adobe Targetガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
-   + [ターゲットのお知らせとイベント](/help/r-release-notes/target-announcements.md)
+   + [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
-   + [ターゲットドキュメントの概要](/help/r-release-notes/target-documentation.md)
-   + [ターゲットインサイダーニュースレター](/help/r-release-notes/target-insider-newsletter.md)
+   + [Target ドキュメントの概要](/help/r-release-notes/target-documentation.md)
+   + [Target Insider ニュースレター](/help/r-release-notes/target-insider-newsletter.md)
    + [既知の問題と解決された問題](r-release-notes/known-issues-resolved-issues.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
@@ -29,31 +29,31 @@ ht-degree: 74%
    + [Target の概要](c-intro/intro.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
-   + [ターゲットのUIについて](/help/c-intro/understand-the-target-ui.md)
-   + Adobe Targetウェルカムキット{#welcome}
+   + [Target の UI について](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target ウェルカムキット {#welcome}
       + [ターゲットウェルカムキットの概要](/help/c-intro/target-welcome-kit.md)
-      + [第1章：はじめに](/help/c-intro/target-welcome-kit-1.md)
+      + [第 1 章：はじめに](/help/c-intro/target-welcome-kit-1.md)
       + [第2章：ターゲットの概要](/help/c-intro/target-welcome-kit-2.md)
-      + [第3章：テストとパーソナライズのアイデアを作成する](/help/c-intro/target-welcome-kit-3.md)
-      + [第4章：ターゲットの使用に関するヒント](/help/c-intro/target-welcome-kit-4.md)
-      + [第5章：テストとパーソナライゼーションのアクティビティのインスピレーション](/help/c-intro/target-welcome-kit-5.md)
-      + [第6章：簡単に回避できる落とし穴](/help/c-intro/target-welcome-kit-6.md)
-      + [第7章：最初のターゲットアクティビティを作成して実行する](/help/c-intro/target-welcome-kit-7.md)
-      + [第8章：アクティビティ結果の伝達](/help/c-intro/target-welcome-kit-8.md)
-      + [第9章：次の手順とリソース](/help/c-intro/target-welcome-kit-9.md)
+      + [第 3 章：テストとパーソナライゼーションのアイデアを開発する](/help/c-intro/target-welcome-kit-3.md)
+      + [第 4 章：Target の使用に関するヒント](/help/c-intro/target-welcome-kit-4.md)
+      + [第 5 章：テストとパーソナライゼーションのアクティビティに対するインスピレーション](/help/c-intro/target-welcome-kit-5.md)
+      + [第 6 章：簡単に回避できる落とし穴](/help/c-intro/target-welcome-kit-6.md)
+      + [第 7 章：最初の Target アクティビティを作成して実行する](/help/c-intro/target-welcome-kit-7.md)
+      + [第 8 章：アクティビティ結果の伝達](/help/c-intro/target-welcome-kit-8.md)
+      + [第 9 章：次の手順とリソース](/help/c-intro/target-welcome-kit-9.md)
    + [用語集](c-intro/glossary.md)
    + [Target の仕組み](c-intro/how-target-works.md)
    + [トレーニングと資格認定](c-intro/training-and-certification.md)
-   + [ Target Standard および Premium のトレーニングビデオ](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard および Premium のトレーニングビデオ ](c-intro/target-standard-premium-training-videos.md)
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [ターゲットの管理の概要](administrating-target/administrating-target.md)
    + [管理者の最初の手順](administrating-target/start-target.md)
-   + [Visual Experience Composerの設定](/help/administrating-target/visual-experience-composer-set-up.md)
+   + [Visual Experience Composer の設定](/help/administrating-target/visual-experience-composer-set-up.md)
    + レポート {#reporting}
       + [レポートの設定](/help/administrating-target/reporting.md)
       + [売上高上昇の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Scene7形状](administrating-target/scene7-settings.md)
+   + [Scene7 の設定](administrating-target/scene7-settings.md)
    + [実装](/help/administrating-target/implementation.md)
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/administrating-target/environments.md)
@@ -72,14 +72,14 @@ ht-degree: 74%
    + 実装する前に {#before-implement}
       + [実装する前に](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + プライバシーとセキュリティ{#privacy}
+      + プライバシーとセキュリティ {#privacy}
          + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [プライバシーとデータ保護規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [コンテンツセキュリティポリシー(CSP)ディレクティブ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [許可リストターゲットエッジノード](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [コンテンツセキュリティポリシー（CSP）指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Target のエッジノードを許可リストに登録する](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + データを Target に送信する方法 {#methods}
          + [メソッドの概要](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [ページのパラメーター](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
@@ -96,10 +96,10 @@ ht-degree: 74%
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + クライアント側 Web：Target の実装 {#client-side}
       + [概要：Target をクライアント側 Web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Adobe Experience PlatformWeb SDK実装{#aep-implementation}
-         + [AEP Web SDKの概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + at.js実装{#at-js-implementation}
-         + オンデバイス判定{#on-device-decisioning}
+      + Adobe Experience Platform Web SDK の実装 {#aep-implementation}
+         + [AEP Web SDK の概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + at.js の実装 {#at-js-implementation}
+         + オンデバイス判定 {#on-device-decisioning}
             + [オンデバイス判定の概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [サポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [ルールの成果物](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
@@ -137,7 +137,7 @@ ht-degree: 74%
          + [at.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [at.js 1.x から at.js 2.x へのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js の cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + mbox.js実装（レガシー） {#mbox-implement}
+      + mbox.js の実装（レガシー） {#mbox-implement}
          + [mbox.js の実装の概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + mbox.js から at.js への移行 {#migrate-mbox}
             + [mbox.js から at.js への移行の概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
@@ -169,8 +169,8 @@ ht-degree: 74%
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [ロケーションサービスを使用](/help/c-target-mobile-app/use-location-service.md)
+      + [モバイルアプリ用 Target に関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Location Service の使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -187,8 +187,8 @@ ht-degree: 74%
       + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target の実装](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [ユーザー権限の要件](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Analyticsをレポートソースとして使用するアクティビティの作成](c-integrating-target-with-mac/a4t/campaign-creation.md)
-      + [自動配分と自動ターゲットアクティビティのA4Tのサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
+      + [Analytics をレポートソースとして使用するアクティビティの作成](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Analytics トラッキングサーバーの使用](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T レポート](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
@@ -207,17 +207,17 @@ ht-degree: 74%
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud オーディエンス](c-integrating-target-with-mac/mmp.md)
-   + [ターゲットとAdobe Audience Managerの統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Target とAdobe Audience Manager の統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + アクティビティ {#activities}
    + [アクティビティの概要](c-activities/activities.md)
-   + [Target のアクティビティのタイプ](c-activities/target-activities-guide.md)
+   + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
-      + [10件の一般的なA/Bテストの落とし穴とその回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-      + [A/Aテスト](/help/c-activities/t-test-ab/aa-testing.md)
+      + [ A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A テスト](/help/c-activities/t-test-ab/aa-testing.md)
       + A/B テストの作成 {#create}
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -231,25 +231,25 @@ ht-degree: 74%
       + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [自動配分アクティビティの作成](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [自動配分は、手動テストよりも速いテスト結果と高い売上高を提供します](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [自動配分を使用すると、手動テストよりも迅速にテスト結果を入手し、売上高を増やすことができます](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自動ターゲット {#auto-target}
       + [自動ターゲットの概要](/help/c-activities/auto-target/auto-target-to-optimize.md)
       + [自動ターゲットアクティビティの作成](/help/c-activities/auto-target/create-auto-target.md)
-      + [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-   + 自動パーソナライゼーション{#automated-personalization}
-      + [自動パーソナライゼーションの概要](c-activities/t-automated-personalization/automated-personalization.md)
+      + [自動ターゲットのトラブルシューティングと FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+   + Automated Personalization {#automated-personalization}
+      + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [自動パーソナライゼーションアクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Target のパーソナライゼーションアルゴリズムのデータのアップロード](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Automated Personalization試験のプレビュー体験](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Target の自動パーソナライゼーションオファー](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [自動パーソナライゼーションアクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
-      + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [エクスペリエンスプレビューURLを持つプレビューAutomated Personalizationアクティビティ](c-activities/t-automated-personalization/experience-preview.md)
-      + [自動パーソナライゼーションのトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
+      + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューをおこなう](c-activities/t-automated-personalization/experience-preview.md)
+      + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
       + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
@@ -289,7 +289,7 @@ ht-degree: 74%
       + [アクティビティ QA の概要](c-activities/c-activity-qa/activity-qa.md)
       + [アクティビティ QA ブックマークレット](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [アクティビティ QA とサーバー側配信の使用](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ オーディエンス{#audiences}
++ オーディエンス {#audiences}
    + [オーディエンスの概要](c-target/target.md)
    + オーディエンスの作成 {#create-audiences}
       + [オーディエンスの作成の概要](c-target/c-audiences/audiences.md)
@@ -316,7 +316,7 @@ ht-degree: 74%
       + [訪問者プロファイルの概要](c-target/c-visitor-profile/visitor-profile.md)
       + [訪問者プロファイルの有効期間](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [プロファイル属性](c-target/c-visitor-profile/profile-parameters.md)
-      + [相互に排他的なアクティビティをテストするプロファイルスクリプトを使用する](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [プロファイルスクリプトを使用して相互に排他的なアクティビティをテストする](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [カテゴリ親和性](c-target/c-visitor-profile/category-affinity.md)
       + [顧客属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId のリアルタイムプロファイル同期](c-target/c-visitor-profile/3rd-party-id.md)
@@ -342,7 +342,7 @@ ht-degree: 74%
          + [Visual Experience Composer と拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Visual Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [ブラウザーで混合コンテンツを有効にする](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [ブラウザーで混在したコンテンツを有効化する](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [ページ修正のシナリオ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer.md)
@@ -368,12 +368,12 @@ ht-degree: 74%
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [自動ターゲット概要レポート](c-reports/auto-target-summary-report.md)
-   + [自動パーソナライゼーション概要レポート](c-reports/reports-ap.md)
+   + [Automated Personalization 概要レポート](c-reports/reports-ap.md)
    + パーソナライゼーションインサイトレポート {#insights}
       + [パーソナライゼーションインサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動セグメントレポート](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要な属性レポート](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [自動パーソナライゼーションのオファーレポートグループ](c-reports/offer-reporting-groups-in-automated-personalization.md)
+   + [Automated Personalization のオファーレポートグループ](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + [エクスペリエンスのパフォーマンスレポート（MVT）](c-reports/experience-performance-report.md)
    + [場所の貢献度レポート（MVT）](c-reports/location-contribution-report.md)
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
@@ -398,26 +398,26 @@ ht-degree: 74%
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
-      + 動的および静的インクルージョンルール{#dynamic-static}
+      + 動的および静的インクルージョンルールの使用 {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [エンティティ属性の一致](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [プロファイル属性の一致](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [パラメータの一致](/help/c-recommendations/c-algorithms/parameter-matching.md)
          + [静的フィルター](/help/c-recommendations/c-algorithms/static-value.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
-      + [複数値の属性の操作](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [RecommendationsでAdobe Analyticsを使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [複数値の属性の扱い](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Adobe Analytics を Recommendationsと併用する](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
       + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
-   + アクティビティ{#recommendations-activity}
+   + アクティビティ {#recommendations-activity}
       + [Recommendations アクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendationsアクティビティ設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Recommendationsアクティビティのプレビューと起動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Recommendations アクティビティのプレビューと起動](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [オファーとしての Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
@@ -429,5 +429,5 @@ ht-degree: 74%
    + [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)
    + [制限](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
-   + [Adobe TargetAPIの概要](/help/api/api-overview.md)
-+ [リソースと連絡先情報](cmp-resources-and-contact-information.md)
+   + [Adobe Target API の概要](/help/api/api-overview.md)
++ [リソースおよび連絡先情報 ](cmp-resources-and-contact-information.md)
