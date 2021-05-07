@@ -1,40 +1,40 @@
 ---
-keywords: adobeターゲット;ターゲット；ドキュメント；api;api;api;sdk;sdk；チュートリアル；doc;documentation
+keywords: adobe target;target;ドキュメント;api;apis;sdk;sdks;チュートリアル;ドキュメント;ドキュメント
 description: オンラインヘルプ、チュートリアル、ビデオ、開発者向けドキュメント（SDK、API、JavaScriptライブラリ）を含むAdobe [!DNL Target] ドキュメントにアクセスします。
-title: ターゲットに関するドキュメントはどこで入手できますか？
+title: Target に関するドキュメントはどこで入手できますか？
 feature: リリースノート
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
-# ターゲットドキュメントの概要
+# Target ドキュメントの概要
 
-[!DNL Adobe Target] ドキュメントは、 [!DNL Target] UI、チュートリアル、ビデオ、ウェビナー、API、SDKのガイドを含む、複数の形式で提供されます。
+[!DNL Adobe Target] ドキュメントは、[!DNL Target] UI、チュートリアル、ビデオ、ウェビナー、API、SDK のガイドを含む、複数の形式で提供されます。
 
-[!DNL Target]で利用可能な最も一般的なドキュメントの種類を簡単に説明します。
+[!DNL Target] で利用可能な、最も一般的なドキュメントのタイプを簡単に説明します。
 
-| ドキュメントの種類 | 説明 |
+| ドキュメントのタイプ | 説明 |
 | --- | --- |
-| [Adobe Target製品ドキュメント](/help/target-home.md)<br>（本ガイド） | ユーザーインターフェイスを通じて[!DNL Target]との対話に重点を置いた概要情報、手順、スクリーンショット。 このガイドでは、回避する「了解事項」を含む、使用可能なすべてのアクションとオプションについて概説します。 これは、[!DNL Target] UIを使用する際の最も詳細なリソースです。 |
-| [Adobe Targetチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | [!DNL Target]の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
-| [Adobe Experience Leagueターゲットコンテンツライブラリ](https://guided.adobe.com/#recommended/solutions/target) | [!DNL Adobe Target Experience League]ページにある[!DNL Target]の機能を説明するハウツービデオやチュートリアルの集まりです。 |
-| [Adobe Experience Platform Launchターゲット文書](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe]の次世代タグ管理プラットフォーム、[!DNL Adobe Experience Platform Launch]を使用した[!DNL Target]の実装に関する情報です。 [!DNL Target]を実装する場合は、この方法をお勧めします。 |
-| [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Adobeカスタマーケアチームが率いるイニシアチブ「オフィスアワーズ」に関する情報です。 これらのセッションは、参加者に問題のトラブルシューティングに役立つ情報や、[!DNL Target]を含む[!DNL Adobe Experience Cloud]ソリューションを成功させるためのヒントやテクニックを提供するように設計されています。 |
-| [ターゲット基本ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | 登録情報と[!DNL Target]基本ウェビナーシリーズの前セッションへのリンクは、コミュニティからお客様向けサクセスウェビナーシリーズでご紹介しました。 |
-| [Adobe Target開発者](http://developers.adobetarget.com/) | Adobe Target開発者サイトの情報は、クライアント側アプリケーション、サーバー側アプリケーション、モバイルアプリケーション、IoTなどに[!DNL Target]を実装するのに役立ちます。 [!DNL Target]データをサードパーティのソリューションにエクスポートすることもできます。 |
-| [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/) | [!DNL Target] recommendationsサーバーとプログラム的にやり取りできる[!UICONTROL Recommendations] APIに関する情報です。 これらのAPIは、様々なアプリケーションスタックと統合して、[!DNL Target] UIを通じて通常行う機能を実行できます。 |
-| [Server Side Delivery API](https://developers.adobetarget.com/api/delivery-api/) | Adobe Target配信APIを構成するリソースに関する情報です。 |
-| [ターゲットサーバー側SDK](https://adobetarget-sdks.gitbook.io/docs/) | SDKを使用して[!DNL Target]サーバー側をデプロイする方法を説明します。 |
-| [ターゲットAdobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction) | Adobe、オーディエンス、オファー、プロパティ、レポート、mbox、環境、プロファイルを管理するために、アクティビティ.IO統合を使用する、Adobe Targetの管理APIとプロファイルREST APIについて取り上げます。 |
-| [Adobe Experience PlatformモバイルSDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | モバイルアプリに[!DNL Target]を実装する方法に関する情報です。 |
+| [Adobe Target 製品ドキュメント](/help/target-home.md)<br>（本ガイド） | ユーザーインターフェイスを通じた [!DNL Target] の操作に重点を置いた概要情報、手順、スクリーンショット。このガイドでは、回避すべき「落とし穴」を含む、使用可能なすべてのアクションとオプションについて概説します。これは、[!DNL Target] UI の操作に関する最も詳細なリソースです。 |
+| [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja) | [!DNL Target] の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
+| [Adobe Experience League Target コンテンツライブラリ](https://guided.adobe.com/#recommended/solutions/target) | [!DNL Adobe Target Experience League] ページにある [!DNL Target] の機能を説明するハウツービデオやチュートリアルのコレクションです。 |
+| [Adobe Experience Platform Launch Target のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe] の次世代タグ管理プラットフォーム、[!DNL Adobe Experience Platform Launch] を使用した [!DNL Target] の実装に関する情報です。[!DNL Target] を実装する場合は、この方法をお勧めします。 |
+| [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
+| [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
+| [Adobe Target 開発者](http://developers.adobetarget.com/) | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
+| [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/) | [!DNL Target] Recommendations サーバーとプログラムによってやり取りできる、[!UICONTROL Recommendations] API に関する情報です。これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
+| [Server Side Delivery API](https://developers.adobetarget.com/api/delivery-api/) | Adobe Target 配信 API を構成するリソースに関する情報です。 |
+| [ターゲットサーバーサイド SDK](https://adobetarget-sdks.gitbook.io/docs/) | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |
+| [Target Adobe.IO ドキュメント](http://developers.adobetarget.com/api/#introduction) | Adobe.IO 統合を使用してアクティビティ、オーディエンス、オファー、プロパティ、レポート、mbox、環境、およびプロファイルを管理する Adobe Target の管理者およびプロファイル REST API に関する情報です。 |
+| [Adobe Experience Platform モバイル SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | モバイルアプリに [!DNL Target] を実装する方法に関する情報です。 |
 
-上記の資料に加えて、[Adobe Experience Leagueターゲットコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)にアクセスしてください。次のことが可能です。
+上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)にアクセスしてください。このコミュニティでは、次のことが可能です。
 
-* [!DNL Target]のオファーに関する詳細
-* 仲間と[!DNL Adobe]エキスパートとの接続
-* 将来の[!DNL Target]リリースに備えて、自分のアイデアを投票または送信する
+* [!DNL Target] が提供する機能の詳細情報
+* 同業者や [!DNL Adobe] の専門家とつながる
+* 将来の [!DNL Target] のリリースについて、投票または自分自身のアイデアを送信する
