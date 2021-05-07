@@ -1,18 +1,18 @@
 ---
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
 description: 電子メールをAdobe [!DNL Target Recommendations], including using the [!DNL Target] 配信API、rawboxテンプレート、ダウンロード専用テンプレートと統合する方法について説明します。
-title: RecommendationsとEメールの統合方法
+title: Recommendations と電子メールの統合方法
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
 source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 63%
+ht-degree: 69%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations と電子メールの統合
+# ![PREMIUM](/help/assets/premium.png) Recommendations と電子メールの統合 
 
 電子メールと [!UICONTROL Recommendations] を統合する方法に関する情報をまとめています。
 
@@ -76,7 +76,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 >[!NOTE]
 >
->rawboxと[!DNL Target]を使用する場合は、「[mbox呼び出しを [!DNL Target]](/help/administrating-target/hosts.md#allowlist)に送信する権限のあるホストを指定する許可リストの作成」の重要なセキュリティ通知を参照してください。
+>rawboxと[!DNL Target]を使用する場合は、[ に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成 [!DNL Target]](/help/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
 
 この方法を使用すれば、電子メールでのレコメンデーションのパフォーマンスを追跡し、それをレコメンデーションを使用した通常の方法でテストして、さらにサイトでの追跡を継続することが可能になります。
 
@@ -84,7 +84,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 使用する電子メールシステムは、次のシナリオに対処できる必要があります。
 
-### 有効な応答を受け取ったが、レコメンデーションが存在しない
+### 有効な応答を受信したが、レコメンデーションが存在しない
 
 * この場合、応答は`mboxDefault`パラメーター値として設定されたものです。 このパラメーターに関する後述の説明を参照してください。
 * この場合、電子メールプロバイダーは、レコメンデーションのデフォルト HTML ブロックを使用する必要があります。
@@ -101,7 +101,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
    * 該当する電子メールを捨てて、次の電子メールに移る。
    * その電子メールをキューに入れ、失敗した電子メールを最初の実行の最後にバッチとして再実行します。
 
-### リクエストURLの例
+### リクエスト URL の例：
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
@@ -121,11 +121,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
 | `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect`パラメーターが存在しない場合、`mboxDefault`は、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対URLにする必要があります。 このURLは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返される場合に対処し、電子メールにデフォルトのHTMLを挿入する必要があります。  <br> **セキュリティのベストプラクティス**: `mboxDefault` URLで使用されているドメインが許可リストに加えるない場合、オープンリダイレクトの脆弱性のリスクにさらされる可能性があります。リダイレクターのリンクまたは`mboxDefault`がサードパーティによって不正に使用されるのを防ぐため、Adobeでは、デフォルトのリダイレクトURLドメインを許可リストする際に「許可されたホスト」を使用することを推奨します。 ターゲットでは、リダイレクトを許可するドメインに対し許可リストてホストを使用します。 詳しくは、[許可リスト&#x200B;*ホスト*&#x200B;の [!DNL Target]](/help/administrating-target/hosts.md#allowlist)に対してmbox呼び出しを送信する権限のあるホストを指定するーの作成を参照してください。 |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect`パラメーターが存在しない場合、`mboxDefault`は、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対URLにする必要があります。 このURLは、画像または他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返される場合に対処し、電子メールにデフォルトのHTMLを挿入する必要があります。  <br> **セキュリティのベストプラクティス**: `mboxDefault` URLで使用されているドメインが許可リストに加えるない場合、オープンリダイレクトの脆弱性のリスクにさらされる可能性があります。リダイレクターのリンクまたは`mboxDefault`がサードパーティによって不正に使用されるのを防ぐため、Adobeでは、デフォルトのリダイレクトURLドメインを許可リストする際に「許可されたホスト」を使用することを推奨します。 Target は、ホストを使用して、リダイレクトを許可するドメインを許可リストに登録します。詳しくは、[ホスト [!DNL Target]](/help/administrating-target/hosts.md#allowlist)の&#x200B;*に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成*&#x200B;を参照してください。 |  |
 | `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、1つのプロファイル内で大量のイベントが生成されたため、APIの応答が遅くなるか、失敗する可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。(dot).<br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
-### オプションのパラメーター
+### オプションのパラメーター：
 
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
