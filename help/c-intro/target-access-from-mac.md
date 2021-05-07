@@ -1,5 +1,5 @@
 ---
-keywords: Experience Cloud；ログイン；言語；デフォルトのui言語；デフォルトの言語
+keywords: Experience Cloud;新規登録;言語;デフォルトの UI 言語;デフォルトの言語
 description: ' [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UIとドキュメントにアクセスする方法を説明します。'
 title: ' [!DNL Target] Adobe Experience Cloudからアクセスする方法'
 feature: 概要
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 62%
+ht-degree: 88%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 62%
 
 ## Adobe[!DNL Target]にサインインし、デフォルトの表示を設定する
 
-1. [Adobe Experience Cloud](https://experience.adobe.com/)にサインインします。
+1. [Adobe Experience Cloud](https://experience.adobe.com/) に新規登録します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL アプリアイコン]**&#x200B;をクリックし、**[!UICONTROL ターゲット]**&#x200B;をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL アプリアイコン]**&#x200B;をクリックしてから、**[!UICONTROL Target]** をクリックします。
 
-   また、メインウィンドウの[!DNL Target]パネルをクリックして、[!DNL Target]（またはアクセス権のある他の[!DNL Adobe Experience Cloud]ソリューション）にアクセスすることもできます。
+   また、メインウィンドウの[!DNL Target]パネルをクリックして、[!DNL Target]（またはアクセス権のある他の [!DNL Adobe Experience Cloud] ソリューション）にアクセスすることもできます。
 
    ![アプリケーションアイコン](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,13 +32,13 @@ ht-degree: 62%
 
 ## [!DNL Target] UI {#language}のデフォルト言語を変更します
 
-1. [!DNL Adobe Experience Cloud ]または[!DNL Target]にサインインした後、プロファイルのアバターをクリックし、「**[!UICONTROL 環境設定を編集]**」をクリックします。
+1. [!DNL Adobe Experience Cloud ] または [!DNL Target] に新規登録した後、自分のプロフィールのアバターをクリックしてから、「**[!UICONTROL 環境設定を編集]**」をクリックします。
 
    ![プロファイルを編集](/help/c-intro/assets/change-language.png)
 
-1. **[!UICONTROL Adobeアカウント]**&#x200B;をクリックして[!DNL Adobe]プロファイルにアクセスします。
+1. 「**[!UICONTROL アドビアカウント]**」をクリックして、[!DNL Adobe] プロファイルにアクセスします。
 
-   ![Adobeアカウント](/help/c-intro/assets/adobe-account.png)
+   ![アドビアカウント](/help/c-intro/assets/adobe-account.png)
 
 1. 上部のメニューバーで「**[!UICONTROL 通知]**」タブをクリックし、左側の「**[!UICONTROL 環境設定]**」タブをクリックします。
 
@@ -48,7 +48,7 @@ ht-degree: 62%
 
 1. 最初の言語（プライマリ）を選択し、必要に応じて二番目の言語を選択します。
 
-   [!DNL Target] UIは次の言語で入手できます。ただし、通知は次の言語で利用できます。
+   [!DNL Target] UI は次の言語で入手できます。ただし、通知はより多くの言語で利用できます。
 
    * 英語
    * スペイン語
