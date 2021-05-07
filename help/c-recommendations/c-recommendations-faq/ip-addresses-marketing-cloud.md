@@ -1,14 +1,14 @@
 ---
-keywords: IPアドレス；IPアドレス；ホワイトリスト；許可リスト；ファイアウォール；recs；フィード；サーバー；adobe marketing cloud;recommendations
+keywords: IP アドレス;IP アドレス;許可リスト;ファイアウォール;recs;フィード;サーバー;Adobe Experience Cloud;Recommendations
 description: ' [!DNL Target] Recommendationsフィード処理サーバーで使用するIPアドレスのリストを表示し、Adobeサーバーから送信されるIPアドレスを許可するようにファイアウォールを設定するのに役立ちます。'
-title: Recommendationsのフィード処理サーバーが使用するIPアドレス
+title: Recommendations のフィード処理サーバーが使用する IP アドレス
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 8%
+ht-degree: 24%
 
 ---
 
