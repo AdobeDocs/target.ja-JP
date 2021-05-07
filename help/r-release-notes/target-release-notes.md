@@ -1,20 +1,20 @@
 ---
-keywords: リリースノート；リリース；更新；今後のリリース；拡張；新機能；修正；更新；プレリリース
-description: SDK、API、JavaScriptライブラリを含む、今後のAdobe Targetリリースに含まれる新機能、機能強化および修正について説明します。
-title: 今後のリリースで追加される新機能
-feature: Release Notes
+keywords: リリースノート;リリース;更新;今後のリリース;機能強化;新機能;修正;アップデート;プレリリース
+description: SDK、API、JavaScript ライブラリなど、Adobe Target の次回のリリースに含まれている新機能、機能強化および修正について説明します。
+title: 次回のリリースで追加される新機能
+feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 19%
+ht-degree: 32%
 
 ---
 
 # Target リリースノート（プレリリース）
 
-この記事には、プレリリース情報が含まれています。 リリース日、機能などの情報は、予告なく変更されることがあります。
+この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
 **最終更新日：2021年4月17日**
 
@@ -24,7 +24,7 @@ ht-degree: 19%
 >
 >**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリをサポートし [!DNL Adobe Target] なくなりました。2021年3月31日以降、mbox.jsから行われたすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにデフォルトコンテンツが提供されるようになりました。
 >
->サイトに発生する可能性のある問題を回避するには、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行します。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
+>サイトに発生する可能性のある問題を回避するには、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 ## Target Standard／Premium 21.4.1（2021 年 4 月 19 日）
 
@@ -56,4 +56,4 @@ at.jsのこのリリースには、次の機能強化および変更が含まれ
 
 Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。
 
-[https://adobe.com/subscription/priority-product-update.html](https://adobe.com/subscription/priority-product-update.html)
+[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
