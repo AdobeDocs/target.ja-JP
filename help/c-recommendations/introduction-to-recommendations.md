@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations；導入；導入；ウェビナー；デモ
+keywords: Recommendations;導入,導入,ウェビナー;デモ
 description: 以前のユーザーアクティビティやその他のアルゴリズムを基にして、Adobe [!DNL Target] のRecommendationsアクティビティが、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法について説明します。
-title: Recommendationsアクティビティって何？
+title: Recommendations アクティビティとは？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 94%
 * **ゲーム**：ゲーム会社は、[!DNL Target] を使用して、コンソール上でユーザーに対してゲームおよびコンテンツをレコメンデーションします。
 * **B2B セールス**：[B2B 企業は Target を使用して、ビデオ、ホワイトペーパーおよびブログ投稿を B2B 見込み客にレコメンデーションし、ダウンロードを配信して、既存のお客様に支援を提供します](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**: [ドイツ人の旅行ブッカーはターゲットを使ってホテルや旅行者に多くの人を勧める](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅行**： [ドイツのある旅行予約会社は、Target を使用して、旅行者にホテルなどをお勧めします](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **小売**：[業界をリードする BB 小売業者は、Target を使用して、ブラウザーおよびモバイルアプリの再訪問者に対してトップカテゴリおよび製品をレコメンデーションします](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
+* **小売**：[業界をリードする B2B 小売業者は、Target を使用して、ブラウザーおよびモバイルアプリの再訪問者に対してトップカテゴリおよび製品をレコメンデーションします](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
 
 これらは、お客様が Target を使用してパーソナライズされたレコメンデーションを配信する方法の一例です。
 
@@ -129,7 +129,7 @@ ht-degree: 94%
 
 ![レコメンデーションアクティビティを構成するオーディエンス、条件およびデザインを示す図](/help/c-recommendations/assets/intro-12.png)
 
-標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。[!DNL Target]でオーディエンス](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)の構築に関する[ウェビナーをで開催しました。 ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
+標準設定では、[!DNL Target] には、14 個のビルトインオーディエンス、42 個のビルトイン条件および 10 個のビルトインデザインテンプレートが含まれています。これらの各品目をカスタマイズしたり、独自のものを追加したりできます。過去に、[!DNL Target] での [オーディエンスの構築に関するウェビナー](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)を実施したことがあります。ここでは、どの品目をレコメンデーションするかを定義する、条件の定義に焦点を当てています。
 
 Target では、条件カードという概念を使用します。条件カードは、パーソナライゼーションのレシピのようなものです。
 
