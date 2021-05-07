@@ -1,14 +1,14 @@
 ---
 keywords: Target のトラブルシューティング;Target のトラブルシューティング
-description: トピックのリストを確認し、トラブルシューティングトピック、よくある質問(FAQ)、その他の役に立つトピックを含む、Adobe Targetの問題を解決します。
-title: ターゲットのトラブルシューティング方法
+description: トラブルシューティング、よくある質問（FAQ）、その他の便利なトピックなど、Adobe Target の問題を解決するのに役立つトピックのリストをご確認ください。
+title: Target のトラブルシューティング方法
 feature: トラブルシューティング
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 88%
 
 ### 自動ターゲット
 
-* [自動ターゲットのトラブルシューティングとFAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [自動ターゲットのトラブルシューティングと FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### 自動パーソナライゼーション（AP）
+### Automated Personalization（AP）
 
-* [自動パーソナライゼーションに関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [自動パーソナライゼーションのトラブルシューティング](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [自動パーソナライゼーション概要レポート](/help/c-reports/reports-ap.md)
+* [Automated Personalization に関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Automated Personalization のトラブルシューティング](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization 概要レポート](/help/c-reports/reports-ap.md)
 
 ### 多変量分析テスト（MVT）
 
@@ -78,7 +78,7 @@ ht-degree: 88%
 * [Target の最適化とパーソナライゼーションに関する FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [ターゲットとオーディエンスに関する FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [プロファイルスクリプト属性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [サイトページ](/help/c-target/c-audiences/c-target-rules/site-pages.md)
+* [サイトのページ](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## コンテンツ
 
@@ -135,7 +135,7 @@ ht-degree: 88%
 
 ## モバイルアプリ
 
-* [モバイルアプリのターゲットに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [モバイルアプリ用 Target に関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## オンデバイス判定
 
