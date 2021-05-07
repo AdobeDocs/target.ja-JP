@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;FQA;よくある質問;参照シート;早わかりシート
-description: Adobe Targetの機能の使用に関するよくある質問(FAQ)のリストと、詳細については、情報およびリンクを参照してください。
+description: Adobe Target での機能の使用方法に関するよくある質問のリストです。詳細情報のリンクも紹介します。
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: 概要
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **他の利用者が Adobe Target をどのように有効活用しているのかを知ることはできますか？**
 
-お客様の成功事例については、[こちら](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)でいくつか紹介しています。他のお客様がどのように Target を利用して最適化やパーソナライゼーションを強化し、ビジネス目標を達成しているのかを確認できます。
+お客様の成功事例については、[こちら](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x)でいくつか紹介しています。他のお客様がどのように Target を利用して最適化やパーソナライゼーションを強化し、ビジネス目標を達成しているのかを確認できます。
 
 これらの顧客事例の一部では、Adobe Target Premium の機能を使用しているのでご注意ください。
 
@@ -62,11 +62,11 @@ at.js をご利用の既存のお客様も、at.js に移行する必要があ�
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
-[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)オプションをチェックアウトします。
+[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)オプションをチェックします。
 
-**ニーズに合ったアクティビティのタイプを見極めるには、どうすればよいですか？**
+**ニーズに合ったアクティビティタイプを見極めるには、どうすればよいですか？**
 
-詳細については、「[Target アクティビティのタイプ](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。Adobe Target の各オプションがどのようなシナリオに適しているのかについて解説しています。
+詳細については、「[Target アクティビティタイプ](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。Adobe Target の各オプションがどのようなシナリオに適しているのかについて解説しています。
 
 また、[Recommendations アクティビティ](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)も検討してください。
 
@@ -133,9 +133,9 @@ Target の 3 ステップのガイドによるワークフローのステップ 
 2 つのオプションがあります。
 
 * デフォルトは 3 つのレベル（低／中／高）
-* カスタムは 0 ～ 999 の範囲。カスタムの場合は、詳細な優先度機能を有効にします（管理/Visual Experience Composer）。
+* カスタムは 0 ～ 999 の範囲。カスタムの場合は、詳細な優先度機能（管理／Visual Experience Composer）を有効にします。
 
-## オーディエンス{#section_FA6314777ABC46D8B198D6F388051460}
+## オーディエンス {#section_FA6314777ABC46D8B198D6F388051460}
 
 **特定のアクティビティ専用のオーディエンスセグメントを作成できますか？オーディエンスライブラリには再利用の要素がないので、そのようなオーディエンスは作成できないように見えます。**
 
@@ -177,7 +177,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 これは、お客様のサイトに、HTTP と HTTPS リソースの両方を取得する混合コンテンツがあることが原因です。IT チームに、HTTPS への完全移行をおこなうよう要求してください。
 
-移行が完了するまでは、「[ブラウザーでの混在するコンテンツの有効化](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
+移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
 
 **Target at.js ライブラリが実装されていなくても、サイトで Visual Experience Composer（VEC）を使用できますか？**
 
@@ -189,7 +189,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 また、「[フォームベースの手法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、  [許可リストAdobeのプロキシサーバーも同様です。](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 
+[拡張 Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、また、[アドビのプロキシサーバーも許可リストに登録](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)します。
 
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
@@ -197,7 +197,7 @@ mbox と[カスタムオーディエンス](/help/c-target/c-audiences/c-target-
 
 **複数のドメインがあります。拡張 Experience Composer を有効にする必要があるドメインと、無効にする必要があるドメインがあるのですが、これはどうすれば設定できますか？**
 
-アクティビティレベル](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)で[拡張Experience Composerオプションを常に使用して、デフォルト設定（管理/Visual Experience Composer）を上書きできます。
+いつでも、[アクティビティレベルで拡張 Experience Composer オプション](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)を利用して、デフォルト設定を上書きできます（セットアップ／Visual Experience Composer）。
 
 **画像を入れ替えるオプションが表示されないのはなぜですか？**
 
@@ -235,7 +235,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **ユーザーのあらゆるデバイス全体を対象に、一貫性のある同一のエクスペリエンスが提供されているかを確認することはできますか？**
 
-[Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
+[Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
 
 Co-op 対象地域のお客様であれば、目標と設定ページのシンプルなフラグでこの機能を有効にできます。レポートのデータも、訪問者ではなく人を基準とした形に変わります。この機能を利用できるのは一部の地域のみなので、詳しくはアドビの担当者までお問い合わせください。
 
