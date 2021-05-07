@@ -1,18 +1,18 @@
 ---
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
 description: ' [!DNL Target]のヘルプが必要な場合は、Adobe [!DNL Target] の機能やAdobeへの問い合わせ方法について学習します。'
-title: ターゲットに関するリソースや連絡先情報はどこで入手できますか？
-feature: リリースノート，概要
+title: Target に関するリソースや連絡先情報はどこで入手できますか？
+feature: リリースノート、概要
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1231'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
-# リソースと連絡先情報
+# リソースおよび連絡先情報 
 
 Target の機能の学習に役立つ追加のリソースと、Target についてサポートが必要な場合にアドビに連絡する方法についての情報です。
 
@@ -28,28 +28,28 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 ぜひ [Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)をご利用ください。
 
-## 「Target の基本」ウェビナーシリーズ{#concept_11902FAC95C64479AABE020557A7EEE4}
+## 「Target の基本」ウェビナーシリーズ {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 コミュニティフォーラムでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「Target の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。
 
-[過去のセッションを見る場合や、今後のセッションや登録情報の詳細については、ここをクリックしてください](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
+[過去のセッションを視聴する場合や、今後のセッションおよび登録について詳しくは、ここをクリックしてください](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## アドビカスタマーケアの営業時間 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 「Office Hours」は、アドビカスタマーケアチーム主導による取り組みの 1 つです。これらのセッションは、Target を含む Adobe Experience Cloud ソリューションに関して、問題のトラブルシューティングに役立つ情報を参加者に提供すると共に、ソリューションで成功を収めるためのヒントとテクニックを紹介することを目的としています。
 
-今後のセッションに新規登録して録画セッションを視聴するには、[アドビカスタマーケアの営業時間](https://helpx.adobe.com/customer-care-office-hours.html)を参照してください。
+今後のセッションに新規登録して録画セッションを視聴するには、[アドビカスタマーケアの営業時間](https://helpx.adobe.com/jp/customer-care-office-hours.html)を参照してください。
 
 現在の録画 Target セッションには、次のものが含まれます。
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [at.jsのヒントと概要](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12 2019<br>年6月27日 | 学習内容：<ul><li>at.jsを使用する利点</li><li>at.jsの設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.jsの仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)を参照してください。 |
-| [ターゲットプレミアムワークスペース](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>（2018年9月4日） | 学習者:<ul><li>ワークスペースの作成(製品プロファイル)</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは 、[Enterprise ユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23(2017年12<br>月) | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
-| [Adobe Target:Analyticsとターゲットの統合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>January 2018 | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at.js:メリットと実装のベストプラクティス](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>（2018年4月） | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
+| [at.js のヒントと概要](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 27 日 | 学習内容：<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)を参照してください。 |
+| [Target Premium Workspaces](https://helpx.adobe.com/jp/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018 年 9 月 4 日 | 学習者:<ul><li>Workspace（製品プロファイル）の作成</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは、[Enterprise ユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
+| [Visual Experience Composer（VEC）](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者:<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
+| [Adobe Target：Analytics と Target の統合（A4T）](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018 年 1 月 | 学習者:<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
+| [at.js：メリットと実装に関するベストプラクティス](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者: <ul><li>at.js ライブラリの仕組み</li><li>mbox.js に勝る at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul>このガイドについて詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -65,9 +65,9 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、[Experience Cloudコミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)のAdobe Targetの専門家にお問い合わせいただくか、Twitter([@AdobeExpCare](https://twitter.com/adobeexpcare))までお問い合わせください。
+ご質問は、[Experience Cloud コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
 
-技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
+技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
 カスタマーケアに電子メールでお問い合わせ [!DNL customercare@adobe.com] ください。
 
@@ -103,13 +103,13 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 * [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/jp/marketing-cloud.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
-* [サポートからヘルプを取得するには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [チケットを開いてサポートからサポートを受ける](https://experienceleague.adobe.com/?support-solution=Target&amp;lang=ja#support)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
 
 今後の製品の機能強化に関する事前通知をご希望の方は、Adobe Priority Product Update にご登録ください。
 
-[Adobe優先度製品の更新](https://adobe.com/subscription/priority-product-update.html)
+[Adobe 優先製品のアップデート](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### サービス、利用可能な機能、課金 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -117,14 +117,14 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック  {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe TargetExperience Leagueコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)に、改良のアイデアや提案を加えることができます。 「[!UICONTROL アイデア]」タブをクリックします。
+このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)に、改良のアイデアや提案を投稿できます。「[!UICONTROL アイデア]」タブをクリックします。
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2021 Adobe Systems Incorporated.All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use) | [プライバシーセンター](https://www.adobe.com/privacy.html)
+[利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use_jp) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
