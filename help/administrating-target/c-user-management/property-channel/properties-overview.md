@@ -6,9 +6,9 @@ feature: 管理と設定
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 66%
 | 2. ワークスペース（製品プロファイル）の作成 | [!DNL Adobe Admin Console for Enterprise] |
 | 3. ユーザーグループの作成（オプション） | [!DNL Adobe Admin Console for Enterprise] |
 | 4. プロパティの作成 | [!DNL Target] UI |
-| 5. `at_property` パラメーターを含めるための実装の更新 | [!DNL Target] UI、at.js 関数、[!DNL Adobe Launch]、または [!DNL Dynamic Tag Management] |
+| 5. `at_property` パラメーターを含めるための実装の更新 | [!DNL Target] UI、at.js関数、  [!DNL Adobe Experience Platform Launch] |
 | 6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]で実行されるタスクに対しては、次の手順に従ってコンソールにアクセスします。
@@ -151,12 +151,6 @@ ht-degree: 66%
 
       詳しくは、*Adobe Experience Platform Launch*&#x200B;ドキュメントの追加[グローバルターゲットパラメーター](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)を参照してください。
 
-   * **の「グローバルパラメーター」を使用[!DNL Dynamic Tag Management]：**
-
-      ![](assets/property_token_2.png)
-
-      詳しくは、Dynamic Tag Management 製品ドキュメント&#x200B;**&#x200B;の[グローバルパラメーター - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) を参照してください。
-
    * **targetPageParams()関数を使用：次のコードを** タグのat.js参照またはmbox.js参照の上に `<head>` 配置します。
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ ht-degree: 66%
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
    | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
    | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
-   | 発行者 | オブザーバーロールに似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、「発行者」の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+   | 発行者 | オブザーバーロールに似ています(表示アクティビティは可能ですが、作成または編集はできません)。 ただし、発行者の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 
    詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
