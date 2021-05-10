@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 91%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
    **タグマネージャーを使用するかどうか。**
 
-   * Dynamic Tag Management
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal／BrightTag
@@ -86,7 +86,11 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。アドビの [Dynamic Tag Management](https://dtm.adobe.com) は、[!DNL Target] のお客様は無料で利用でき、[!DNL Target] のデプロイにお勧めの方法です。詳しくは、[Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)を参照してください。
+   >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。
+   >
+   >[!DNL Platform Launch] は、の次世代のタグ管理プラットフォームで [!DNL Adobe] す。これらのプラットフォームを使用して導入することをお勧め [!DNL Adobe Target]します。[!DNL Platform Launch] は、関連する顧客エクスペリエンスを強化するために必要なanalytics、マーケティングおよび広告タグを、顧客が簡単に導入および管理できるようにします。
+   >
+   >詳しくは、[ [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を使用した [!DNL Target] 実装を参照してください。
 
 1. 現在のすべてのアクティビティおよび統合が期待どおりに動作していることを検証します。
 
@@ -120,4 +124,4 @@ ht-degree: 96%
 
    これをおこなうためのコードエディターの使用方法について詳しくは、[コードエディター](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* 現在すべての mbox は非同期なので、ページレンダリングをブロックせず、実行された順番で返されます。詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)を参照してください。
+* 現在すべての mbox は非同期なので、ページレンダリングをブロックせず、実行された順番で返されます。詳しくは、[at.jsの制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)の「非同期に関する考慮事項」を参照してください。
