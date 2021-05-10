@@ -5,10 +5,10 @@ title: Target に関するドキュメントのアップデートはどこで確
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 61%
+source-wordcount: '1101'
+ht-degree: 60%
 
 ---
 
@@ -20,8 +20,9 @@ ht-degree: 61%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10 年 5 月 | Recommendations FAQ | 次のFAQを追加しました。&quot;[!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成されたアルゴリズムを使用できますか？&quot; |
-| 5 月 7 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations]のアクティビティ、オファー、プロモーション、条件の設定を変更してサイトに反映させるには、どのくらい時間がかかりますか。</li><li>ユーザーの行動（製品Aをクリックし、製品Bを購入するなど）が&#x200B;*そのユーザーが受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。*</li><li>ユーザーの行動（製品Aのクリックや製品Bの購入など）がレコメンデーション&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
+| 10 年 5 月 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。&quot;[!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成されたアルゴリズムを使用できますか？&quot; |
+|  | [実装 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager]がサポート対象外になったことを示しました。 代わりに、[!DNL Adobe]では[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)と共に実装することをお勧めします。 |
+| 5 月 7 日 | [RecommendationsFAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations]のアクティビティ、オファー、プロモーション、条件の設定を変更してサイトに反映させるには、どのくらい時間がかかりますか。</li><li>ユーザーの行動（製品Aをクリックし、製品Bを購入するなど）が&#x200B;*そのユーザーが受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。*</li><li>ユーザーの行動（製品Aのクリックや製品Bの購入など）がレコメンデーション&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
 |  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobeテクニカルブログの次のブログ投稿へのリンクを追加しました。<ul><li>パート1:エッジプラットフォームでの実験とパーソナライゼーションのためのAdobe TargetNodeJS SDKの実行(Akamai Edge Workers)</li></ul> |
 | 5 年 5 月 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年5月12日水曜日午前8時に行われるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加。(PDT、GMT-7) |
 | 27 年 4 月 | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Cookieの期間（`deviceIdLifetime`設定）がat.jsバージョン2.3.1以降で上書き可能であることを示すようにトピックを更新しました。 |
