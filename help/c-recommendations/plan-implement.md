@@ -5,10 +5,10 @@ title: Recommendationsアクティビティの実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 96%
+source-wordcount: '1618'
+ht-degree: 95%
 
 ---
 
@@ -122,7 +122,7 @@ function targetPageParams() {
 
 有効な JSON 形式である必要があります。
 
-後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Launch] または [!DNL Adobe Dynamic Tag Manager]（DTM）は、at.js／mbox.js への参照と `targetPageParams` 関数をページに配置し、値を設定できるようにします。この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
+後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform Launch] at.js/mbox.js参照と `targetPageParams` 関数をページに配置し、値を設定できます。この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
 
 ## すべてのページ {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
