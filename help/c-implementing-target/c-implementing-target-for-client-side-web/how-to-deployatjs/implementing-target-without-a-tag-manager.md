@@ -6,16 +6,16 @@ feature: サーバー側での実装
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 51%
+source-wordcount: '1687'
+ht-degree: 52%
 
 ---
 
 # タグマネージャーを使用せずに[!DNL Target]を実装する
 
-タグマネージャー（[!DNL Adobe Experience Platform Launch]または[!DNL Dynamic Tag Manager]）を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
+タグマネージャー([!DNL Adobe Experience Platform Launch])を使用しないでの[!DNL Adobe Target]の実装に関する情報です。
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ API による一括更新の認証を有効または無効にし、プロファ�
 
 [!DNL at.js] インターフェイスから [!DNL Target] をダウンロードするには：
 
-1. **[!UICONTROL 管理]**/**[!UICONTROL 実装]**&#x200B;をクリックします。
+1. **[!UICONTROL 管理]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
 1. [!UICONTROL 実装メソッド]セクションで、目的のat.jsバージョンの横にある「**[!UICONTROL ダウンロード]**」ボタンをクリックします。
 
 ### [!DNL Target]ダウンロードAPI {#section_C0D9D2A9068144708D08526BA5CA10D0}を使用したat.jsのダウンロード
@@ -177,11 +177,11 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
    この URL を読み込むと、カスタマイズされた [!DNL at.js] ファイルのダウンロードが開始されます。
 
-## at.js実装{#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js の実装 {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
-[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)や[Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)のようなタグマネージャーを使用しないターゲットの一般的な実装は、次のようになります。
+[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)のようなタグマネージャーを使用しないターゲットの一般的な実装は、次のようになります。
 
 ```
 <!doctype html> 
