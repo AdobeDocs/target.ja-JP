@@ -5,10 +5,10 @@ title: ' [!DNL Target] Recommendationsに関する質問や回答はどこで見
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 59%
+source-wordcount: '2995'
+ht-degree: 58%
 
 ---
 
@@ -241,3 +241,9 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 この動作は、あるデバイスで訪問者がアクティブになってから数分後に別のデバイスでアクティブになった場合にも発生します。 最初のデバイスのセッションは30分間有効期限が切れず、プロファイル状態が永続的な状態に書き込まれて処理されるまで、最大5分の遅延が発生する可能性があります。 この動作をテストする際に、セッションの有効期限が切れ、プロファイルが保存されるまで35分間待ちます。
 
 訪問者に2つのアクティブなセッションが同時に存在しない場合、1つのデバイス上で最近表示されたアイテムは、セッションが終了している限り、他のデバイス上で最近表示されたアイテムを更新します。 この動作をテストする際に、セッションの有効期限が切れるまで35分間待ちます。
+
+## [!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成したアルゴリズムを使用できますか。
+
+[!DNL Recommendations Classic]で作成されたアルゴリズムは、[!DNL Recommendations Premium]ではサポートされていません。 [!DNL Target Premium]では、従来のアルゴリズムを使用できます。ただし、[!DNL Target Premium] UIでアクティビティを非アクティブ化または削除すると、アルゴリズムによって同期の問題が発生する場合があります。 2つのソリューションの違いについて詳しくは、 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)の[[!DNL Recommendations Classic] versus [!DNL Recommendations] アクティビティを参照してください。
+
+
