@@ -5,15 +5,20 @@ title: ' [!DNL Target] をAdobe Audience Manager(AAM)と統合する方法を教
 feature: 統合
 exl-id: 6dd93d39-c4f6-4048-9433-76ddc6763bfd
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
 
-# [!DNL Target]をAdobe Audience Manager(AAM)と統合
+# [!DNL Target]を[!DNL Adobe Audience Manager]と統合(AAM)
 
 [!DNL Target]/[!DNL Audience Manager]統合により、[!DNL Audience Manager]セグメントを[!DNL Target]に送信できます。
 
-詳しくは、『*Audience Managerユーザーガイド*』の「[Audience Managerとターゲットの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)」を参照してください。
+詳しくは、『*[!DNL Audience Manager]ユーザガイド*』の「[ [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)と統合する [!DNL Audience Manager] 」を参照してください。
+
+## ビデオ：[!DNL Target]を[!DNL Adobe Audience Manager]と統合(3:06)
+
+>[!VIDEO](https://video.tv.adobe.com/v/35151)
+
