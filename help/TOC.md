@@ -4,10 +4,10 @@ breadcrumb-title: Target ガイド
 user-guide-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化するために、顧客のエクスペリエンスをカスタマイズおよびパーソナライズする方法を説明します。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 89%
             + [at.js の統合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + at.js のデプロイ方法 {#deploy-at-js}
             + [at.js のデプロイ方法](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Adobe Launch を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [platform launchを使用したターゲットの実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [タグマネージャーを使用しない Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Dynamic Tag Management（DTM）を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Dynamic Tag Manager(DTM)を使用したターゲットの実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [シングルページアプリ(SPA)のターゲットの実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 関数 {#functions-overview}
             + [at.ｊs 関数の概要](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
