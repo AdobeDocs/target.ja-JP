@@ -6,10 +6,10 @@ feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 | at.js | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js にはある内部メソッドを使用するプラグインでは、配信されてもエラーが発生する場合があります。詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)を参照してください。 |
 | mbox.js | mbox.jsの使用時に、プラグインは引き続きサポートされ、提供されます。<br>ただし、mbox.js とプラグインを使用している場合は、at.js とレスポンストークンに移行することをお勧めします。mbox.js を介して at.js を使用することの利点については、[at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)を参照してください。移行について詳しくは、[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)を参照してください。<br>2017 年 11 月の Target Classic の廃止以降は、場合によっては、既存のプラグインを編集または無効にするために、ClientCare までお問い合わせいただく必要があります。Target Classic の廃止より前にプラグインを確認し、必要のないプラグインを無効にしておく必要がありました。<br>Target Standard/Premium では、新しいプラグインは作成できません。その代わりにレスポンストークンを使用します。<br>古い SiteCatalyst プラグインは無効にして、[Adobe Target のレポートソースとして Adobe Analytics に置き換える](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）必要があります。ttMeta プラグインは、無効にして [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)に置き換えてください。 |
 
-## レスポンストークンの使用方法 {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## 応答トークン{#section_A9E141DDCBA84308926E68D05FD2AC62}の使用
 
 1. 必ず [!DNL at.js] バージョン 1.1 以降を使用します。
 
@@ -95,31 +95,7 @@ ht-degree: 76%
 </html>
 ```
 
-Adobe Dynamic Tag Management（DTM）を使用して [!DNL at.js] カスタムイベントハンドラーを追加する手順を以下に示します。
-
-1. DTM にログインします。
-1. 適切なプロパティを参照します。
-1. Target ツールを開きます。
-
-   DTM では at.js がネイティブにサポートされないので、コードエディターを使用する必要があります。
-
-1. コードエディターで、以下のコードを [!DNL at.js] に追加します。
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-すべての要素を 1 つのファイルにまとめたい場合は、以下のスニペットをライブラリフッターの [at.js セットアップページ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)に追加できます。
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## レスポンストークンに関する FAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## レスポンストークンFAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **レスポンストークンを有効または無効にするには、どの役割が必要ですか？**
 
@@ -133,7 +109,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 応答トークンは[!DNL at.js]ターゲット応答に配信されますが、[!DNL mbox.js]応答には配信されません。
 
-**Target Classic プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
+**[!DNL Target Classic] プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
 
 プラグインとレスポンストークンは同時に利用できますが、プラグインは廃止される予定です。
 
@@ -165,7 +141,7 @@ Target によって自動的にトークンが無効にされることはあり�
 
 Target では、一定間隔で属性が更新されます。有効にされていない属性は、次回更新時にすべて削除されます。ただし、有効にされていた属性を削除した場合（トークンとして使用していたプロファイルスクリプトを削除した場合など）は、そのスクリプトは無効にされるまで属性リストから削除されません。Target では、削除または名前変更しても、無効にされている属性しかリストから削除されません。
 
-## at.js を使用して Google Analytics にデータを送信する方法 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## at.js {#section_04AA830826D94D4EBEC741B7C4F86156}を使用したGoogle Analyticsへのデータの送信
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
@@ -231,7 +207,7 @@ Target では、一定間隔で属性が更新されます。有効にされて�
 </script>
 ```
 
-## デバッグ（ttMeta プラグインと同様）  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## デバッグ（ttMeta プラグインと同様） {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 ttMeta プラグインと同様のデバッグ機能は、HTML ページに次のコードを追加することで作成できます。
 
@@ -283,7 +259,7 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント ![チュートリアルバッジ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント ![チュートリアルバッジ ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
 
