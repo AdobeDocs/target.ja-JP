@@ -4,26 +4,18 @@ description: Adobe Targetのレガシーmbox.js実装について説明します
 title: at.jsを実稼働以外の環境にデプロイする方法を教えてください。
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
-
 
 # at.jsの実稼働以外の環境へのデプロイ
 
 実稼動環境以外に at.js を安全にデプロイするためのテクノロジーに関する情報を紹介します。
-
-## DTM ステージングへのデプロイ
-
-DTM を使用する場合、Adobe Target ツール設定に簡単に at.js を保存できます。
-
-ライブラリを保存すると、DTM Switch ツールを使用して、実稼動用コードに対してテストできます。また、これにより、アドビのコンサルタントがユーザーをサポートしやすくなります。
-
-詳しくは、Dynamic Tag Management を使用した Adobe Target の実装のベストプラクティス&#x200B;**&#x200B;ガイドの[オプション 3：DTM でホストされた Target JavaScript ライブラリによる Target の手動での実装](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)を参照してください。
 
 ## Chrome 拡張機能「Requestly」を使用した別のファイルへのマッピング
 
