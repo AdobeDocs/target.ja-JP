@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2765'
 ht-degree: 91%
 
 ---
@@ -289,7 +289,7 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 
 ただし、at.js 2.*x* では、HTTP GET は使用されなくなり、代わりに HTTP POST が使用されています。JSON ペイロードを Target Edge サーバーに送信するために、HTTP POST は、at.js 2.*x* を介して使用されるようになりました。つまり、ブラウザーがサードパーティ Cookie をサポートするかどうかを確認するためのリダイレクトリクエストは中断されます。これは、HTTP GET リクエストがべき等性のあるトランザクションであるのに対し、HTTP POST はべき等性がなく、恣意的に繰り返してはならないためです。したがって、標準設定での at.js 2.*x* のクロスドメイントラッキングはサポートされなくなりました。at.js 1.*x* のみ、クロスドメイントラッキングを標準設定でサポートします。
 
-クロスドメイン追跡を使用する場合は、at.js 2と共に[ECIDライブラリv4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)をインストールする必要があります。*x* では、標準設定ではサポートされていません。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。
+クロスドメイン追跡を使用する場合は、at.js 2と共に[ECIDライブラリv4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ja)をインストールする必要があります。*x* では、標準設定ではサポートされていません。ECID ライブラリは、ドメインをまたいでも訪問者を識別するために使用される永続的な ID を管理するためにあります。
 
 >[!NOTE]
 >
@@ -364,7 +364,6 @@ Target では、サードパーティ Cookie は、`<CLIENTCODE>.tt.omtrdc.net` 
 | Adobe Launch 拡張機能 | [○](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | デバッガー | ○ |
 | Auditor | ルールはまだ at.js 2.*x* 向けに更新されていません。 |
-| Dynamic Tag Manager（DTM） | ○ |
 | Opt-In | × [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) のための Opt-in サポートは、[at.js バージョン 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) でサポートされます。 |
 | AEM Enhanced Personalization powered by Adobe Target | × |
 
