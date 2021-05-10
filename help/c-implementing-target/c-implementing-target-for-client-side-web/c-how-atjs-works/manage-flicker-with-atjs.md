@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 事前に非表示になっていて、対象の HTML 要素が [!DNL Target] によってパーソナライズされてから表示されるスニペットを使用することで、ちらつきを防げます。
 
-at.jsは、直接ページに埋め込むか、タグマネージャー(Adobeの起動、Dynamic Tag Manager(DTM)など)を介して、非同期で読み込むことができます。
+at.jsは、直接ページに埋め込むか、タグマネージャー（例：[!DNL Adobe Experience Platform Launch]）を介して、非同期で読み込むことができます。
 
 at.jsがページに埋め込まれている場合は、at.jsを読み込む前にスニペットを追加する必要があります。 タグマネージャーを介してat.jsを読み込む場合は、タグマネージャーを読み込む前に、スニペットを追加する必要があります。 タグマネージャーが同期的に読み込まれる場合、at.jsの前にスクリプトがタグマネージャーに含まれる可能性があります。
 
