@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは、Adobe Launch または Adobe Dynamic Tag Manager（DTM）などのタグマネージャーを使用することです。詳しくは、[Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)チュートリアルの[追加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)のレッスン「WebサイトでExperience Cloudを実装する」を参照してください。
+* 推奨される方法は[!DNL Adobe Experience Platform Launch]です。 詳しくは、[Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)チュートリアルの[追加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)のレッスン「WebサイトでExperience Cloudを実装する」を参照してください。
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。例えば、次のようにします。
 
    ```
