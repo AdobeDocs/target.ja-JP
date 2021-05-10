@@ -1,15 +1,15 @@
 ---
-keywords: グローバル mbox パラメーター;targetPageParams;クエリ文字列;配列;json;DTM;Dynamic Tag Management
+keywords: グローバルmboxパラメーター；targetPageParams;クエリ文字列；配列；json;dtm
 description: targetPageParams関数を使用して、追加のターゲット設定やコンテキスト情報をAdobeー [!DNL Target] グローバルmboxに渡す方法について説明します。
 title: グローバルmboxにパラメーターを渡す方法
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 63%
+source-wordcount: '382'
+ht-degree: 60%
 
 ---
 
