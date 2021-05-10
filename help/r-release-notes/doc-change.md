@@ -5,9 +5,9 @@ title: Target に関するドキュメントのアップデートはどこで確
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
+source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1089'
 ht-degree: 61%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 61%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 年 5 月 | Recommendations FAQ | 次のFAQを追加しました。&quot;[!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成されたアルゴリズムを使用できますか？&quot; |
 | 5 月 7 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations]のアクティビティ、オファー、プロモーション、条件の設定を変更してサイトに反映させるには、どのくらい時間がかかりますか。</li><li>ユーザーの行動（製品Aをクリックし、製品Bを購入するなど）が&#x200B;*そのユーザーが受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。*</li><li>ユーザーの行動（製品Aのクリックや製品Bの購入など）がレコメンデーション&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか。</li></ul> |
 |  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobeテクニカルブログの次のブログ投稿へのリンクを追加しました。<ul><li>パート1:エッジプラットフォームでの実験とパーソナライゼーションのためのAdobe TargetNodeJS SDKの実行(Akamai Edge Workers)</li></ul> |
 | 5 年 5 月 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年5月12日水曜日午前8時に行われるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加。(PDT、GMT-7) |
