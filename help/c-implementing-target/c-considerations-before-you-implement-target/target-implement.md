@@ -1,13 +1,13 @@
 ---
-keywords: ドキュメント.write;ターゲット；実装；ターゲットの実装；dtm;dynamic tag management;at.js;mbox.js;ターゲット.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: ドキュメント.write;ターゲット；実装；ターゲットの実装；dtm;at.js;mbox.js;ターゲット.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: WebページにAdobe [!DNL Target] by referencing the [!DNL Target] ライブラリ（at.jsまたはmbox.js）を実装します。
 title: ' [!DNL Target]  JavaScript ライブラリについて '
 feature: 実装
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ Webページ上の[!DNL Adobe Target]ライブラリ(Adobe Experience PlatformWe
 
 | ライブラリリファレンス | 説明 |
 |--- |--- |
-| Adobe Experience PlatformウェブSDK | [!UICONTROL Adobe Experience PlatformWeb SDK]を使用すると、Adobe Experience Edge Networkを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスを操作できます。 [!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)とは何ですかを参照してください。 |
+| Adobe Experience Platform Web SDK | [!UICONTROL Adobe Experience PlatformWeb SDK]を使用すると、Adobe Experience Edge Networkを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスを操作できます。 [!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)とは何ですかを参照してください。 |
 | at.js | at.jsは、[!DNL [!DNL Target]]実装のmbox.jsを置き換えます。<br>多くのメリットがある中でも、at.js は、Web 実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chrome での document.write 警告を回避し、シングルページアプリケーション向けのより優れた実装オプションを提供します。<br>詳しくは、「[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)」を参照してください。 |
 
 ## at.jsのページ読み込み時間に対する影響{#section_16630CD0FF0A498EB596A51381366A5A}
