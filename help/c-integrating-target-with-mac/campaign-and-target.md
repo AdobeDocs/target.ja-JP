@@ -5,10 +5,10 @@ title: ' [!DNL Target] をAdobe Campaignと統合する方法'
 feature: 統合
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 36%
+source-wordcount: '382'
+ht-degree: 41%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 36%
 
 [!DNL Target]と[!DNL Campaign]の両方を使用して、統合の異なる部分を設定します。
 
-    * raw boxとエクスペリエンスは、 [!DNL Target]
-    
-    >[!NOTE]
-    >
-    >rawboxと [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target](/help/administrating-target/hosts.md#許可リスト)で使用します。
-    
-    * [!DNL Campaign]
+* [!DNL Target]の生の箱とエクスペリエンス
+
+>[!NOTE]
+>
+>rawboxと[!DNL Target]を使用する場合は、[Target に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成](/help/administrating-target/hosts.md#allowlist)の重要なセキュリティ通知を参照してください。
+
+* [!DNL Campaign]の配信
 
 ## 始める前に{#section_FF19BF1BCA064260930BF6C141313B0E}
 
