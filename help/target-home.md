@@ -4,8 +4,7 @@ title: ' [!DNL Target] 文書はどこで見つけられますか？'
 description: Adobe [!DNL Target] を使用して顧客の体験をパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を学びます。
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
@@ -18,7 +17,7 @@ ht-degree: 94%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021年5月10日( [変更点を参照](r-release-notes/doc-change.md) )**
+**最終更新日：2021年5月12日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -32,12 +31,12 @@ ht-degree: 94%
 
 - [すべての Target ユーザー](#all)
 - [マーケター](#marketers)
-- [開発者 ](#developers)
+- [開発者](#developers)
 - [Target と Adobe Experience Cloud の管理者](#admins)
 - [アナリスト](#analysts)
 - [QA エンジニア](#qa)
 
-## [!DNL Target] のすべてのユーザー {#all}
+## [!DNL Target] のすべてのユーザー  {#all}
 
 マーケター、デベロッパー、管理者、アナリスト、品質保証エンジニア
 
@@ -69,12 +68,12 @@ ht-degree: 94%
 
 - [Target の管理](administrating-target/administrating-target.md)：ユーザーを追加し、[!DNL Target] アカウントを設定する方法について説明します。
 
-## アナリスト  {#analysts}
+## アナリスト {#analysts}
 
 - [Audiences](c-target/target.md)：ターゲットアクティビティで、コンテンツとエクスペリエンスをどのユーザーに表示するかを決定する方法について説明します。
 - [レポート](c-reports/reports.md)：アクティビティのパフォーマンスを解釈する方法について説明します。
 
-## QA エンジニア  {#qa}
+## QA エンジニア {#qa}
 
 - [アクティビティ](c-activities/activities.md)：[!DNL Target] アクティビティの設定、管理、および QA の方法について説明します。
 
