@@ -5,11 +5,10 @@ title: ' [!DNL Target] サポートされるブラウザ'
 feature: 実装
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 59%
+source-wordcount: '341'
+ht-degree: 49%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 59%
 
 TLSの重要な情報については、[TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)を参照してください。
 
-## [!DNL Target]Standard／Premium インターフェイス{#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target]Standard／Premium インターフェイス {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 [!DNL Target]インターフェイスは、次のブラウザーとデバイスをサポートしています。
 
@@ -34,7 +33,7 @@ TLSの重要な情報については、[TLS (Transport Layer Security) Encryptio
 
 | デバイスタイプ | ブラウザーのバージョン |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 および 10。エミュレーションモードでテスト済み。<br>**注意**： at.js 1.3.0 以降では、Microsoft Internet Explorer 9 でのコンテンツ配信がサポート対象外になりました。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新、最新の1つ前）</li><li>Firefox（最新、最新の1つ前）</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 および 10. エミュレーションモードでテスト済み。<br>**注意**:IE 9のコンテンツ配信は、at.js 1.3.0（およびそれ以降）ではサポートされなくなりました。IE 10、11、およびすべての古いバージョンでのコンテンツ配信は、at.js 2.5.0（およびそれ以降）ではサポートされなくなりました。</li><li>Internet Explorer 11 <br>**メモ**:IE 10、11、およびすべての古いバージョンでのコンテンツ配信は、at.js 2.5.0（およびそれ以降）ではサポートされなくなりました。</li><li>Microsoft Edge</li><li>Chrome（最新、最新の1つ前）</li><li>Firefox（最新、最新の1つ前）</li></ul> |
 | Mac | <ul><li>Apple Safari（最新）<br>**注意**:SafariでのファーストパーティCookieおよびサードパーティCookieの処理方法について詳しくは、[ターゲットCookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)を参照してください。</li><li>Firefox（最新、最新の1つ前）</li><li>Chrome（最新、最新の1つ前）</li></ul> |
 | モバイル／タブレット | <ul><li>Apple iOS（最新）</li><li>Android デバイスおよびタブレット（Android 4 以降）</li><li>Microsoft Surface（Windows 8.1）</li></ul> |
 
