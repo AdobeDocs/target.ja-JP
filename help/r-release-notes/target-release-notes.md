@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '413'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 5 月 12 日**
+**最終更新日：2021 年 5 月 18 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -25,11 +25,20 @@ ht-degree: 36%
 >
 >サイトに発生する可能性のある問題を回避するには、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## [!DNL Adobe Experience Platform Web SDK] （2021年5月17日）
+## at.jsバージョン2.5.0（2021年5月14日）
+
+at.jsのこのリリースには、次の機能強化および変更が含まれています。
+
+* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
+* [](/help/c-activities/c-activity-qa/activity-qa.md) Automated Personalization  (AP)アクティビティのプレビューリンクのサポート
+
+このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。 詳しくは、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)」を参照してください。
+
+## [!DNL Adobe Experience Platform Web SDK] バージョン2.5.0（2021年5月24日）
 
 [!DNL Platform Web SDK]のこのリリースには、[!DNL Target]リダイレクトの[!UICONTROL ターゲット](A4T)の解析のサポートが含まれています。
 
-## [!DNL Target Standard/Premium] 21.5.1（2021年5月25日）
+## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
 
 リリース日が近づくと、コンテンツが追加されます。
 
@@ -43,16 +52,7 @@ ht-degree: 36%
 
 このリリースには、次の修正が含まれています。
 
-* リリース日が近づくと追加されます。
-
-## at.jsバージョン2.5.0（決定日）
-
-at.jsのこのリリースには、次の機能強化および変更が含まれています。
-
-* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
-* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクAutomated Personalizationアクティビティのサポート
-
-このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
+* リリース日が近づくと、コンテンツが追加されます。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
