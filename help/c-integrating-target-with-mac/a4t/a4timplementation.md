@@ -1,40 +1,70 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics ベースのアクティビティ;Analytics レポートスイート;レポートスイート;Analytics Target 統合;レポートスイートの設定
+keywords: A4T;Adobe Analytics;Analyticsベースのアクティビティ;Analyticsレポートスイート；レポートスイート；Analyticsターゲット統合；レポートスイートの設定；at.js;atjs;adobe experience platform web sdk;aep web sdk；プラットフォームWeb sdk
 description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe Analyticsの各ソリューションに対してAnalyticsを実装するために必要な手順に従います。'
 title: Analytics for [!DNL Target] (A4T)の実装方法
 feature: Analytics for Target（A4T）
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: efa796edf3cd4da718fdcb0dbfd3d6f635ebf401
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '1156'
+ht-degree: 23%
 
 ---
 
 # [!DNL Target]の導入の分析
 
-[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして実装する場合(A4T)には、いくつかの手順が必要です。
+[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして実装する場合(A4T)には、いくつかの手順が必要です。 プロセスは、[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)を使用してA4Tを実装するか、at.jsを使用してA4Tを実装するかによって異なります。
 
-## 導入手順{#section_73961BAD5BB4430A95E073DE5C026277}
+## Adobe Experience PlatformWeb SDK実装の実装手順 {#platform}
 
-次の節では、この統合をサイトに導入するために必要な手順について説明します。
+>[!NOTE]
+>
+>この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tのサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
 
-## 手順1:Analyticsとターゲットのプロビジョニングのリクエスト
+プラットフォームWeb SDKを使用する場合は、以下の節で、この統合をサイトに導入するために必要な手順を説明します。
+
+### 手順1:[!DNL Analytics]と[!DNL Target]のプロビジョニングを要求
+
+A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]のプロビジョニングを行う必要があります。 [プロビジョニングの依頼にはこのフォームを使用します](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)。
+
+### 手順 2： ユーザー権限を設定します。
+
+[!DNL Target]の[!DNL Analytics]に基づくアクティビティを作成する前に、ユーザーアカウントの要件を満たす必要があります。 [ユーザー権限の要件](/help/c-integrating-target-with-mac/a4t/account-reqs.md)を参照してください。
+
+### 手順3:エッジ設定の作成
+
+[!DNL Adobe Experience Platform Launch]を使用してエッジ設定を作成し、エッジ設定ツールを使用します。 [[!DNL Analytics] and [!DNL Target] エッジ構成設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)を構成します。
+
+### 手順4:プラットフォームWeb SDKのインストールと設定
+
+[!DNL Target]エクスペリエンスの配信開始、およびトラッキングと分析の目的で[!DNL Analytics]を適用するには、サイトページに[Install](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)と[configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)the Platform Web SDK（プラットフォームWeb SDKの設定）を記述します。
+
+### 手順5:A4Tを使用するためのオプションの有効化
+
+[!DNL Target] UIで、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、「アクティビティごとに選択」]**または**[!UICONTROL  Adobe Analytics ]**のいずれかを選択します。**[!UICONTROL 
+
+* **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
+* **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
+
+## at.js実装の実装手順{#section_73961BAD5BB4430A95E073DE5C026277}
+
+次の節では、at.jsを使用する予定の場合に、この統合をサイトに導入するために必要な手順について説明します。
+
+### 手順1:Analyticsとターゲットのプロビジョニングのリクエスト
 
 [!DNL Analytics]を[!DNL Target]のレポートソースとして実装した後、[!DNL Analytics]と[!DNL Target]のプロビジョニングを行う必要があります。 [プロビジョニングの依頼にはこのフォームを使用します](http://www.adobe.com/go/audiences)。
 
-## 手順 2： ユーザー権限を設定します。
+### 手順 2： ユーザー権限を設定します。
 
 [!DNL Target]で[!DNL Analytics]ベースのアクティビティを作成するには、ユーザーアカウントの要件が満たされている必要があります。 [ユーザー権限の要件](/help/c-integrating-target-with-mac/a4t/account-reqs.md)を参照してください。
 
-## 手順 3： Experience Cloud 訪問者 ID サービスを導入します。
+### 手順 3： Experience Cloud 訪問者 ID サービスを導入します。
 
 訪問者 ID サービスによって、[!DNL Adobe Experience Cloud] ソリューション全体でユーザーを特定することができます。Experience Cloud訪問者IDの必要なバージョンを実装するか、そのバージョンに移行します。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
 *Experience Cloud訪問者IDサービス*&#x200B;のドキュメントで、[ターゲット用のExperience CloudIDサービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)を参照してください。
 
-## 手順 4： AppMeasurement for JavaScript または s_code を更新します。
+### 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
 appMeasurement.jsの必要なバージョンを実装するか、そのバージョンに移行します。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
@@ -42,19 +72,19 @@ appMeasurement.jsの必要なバージョンを実装するか、そのバージ
 
 移行の場合は、『*Analytics導入ガイド*』の「[JavaScript版AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)への移行」を参照してください。
 
-## 手順5:at.jsのダウンロードと更新
+### 手順5:at.jsのダウンロードと更新
 
 実稼動アカウントを使用して、必要なバージョンのat.jsを実装するか、そのバージョンに移行します。 コードの修正は必要ありません。
 
 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-## 手順6:at.jsのホスト
+### 手順6:at.jsのホスト
 
 以前にat.jsをデプロイしている場合は、既存のファイルを最新バージョンに置き換えることができます。 詳しくは、[実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
 配置していない場合は、最新のファイルを Visitor ID サービスおよび AppMeasurement for JavaScript のファイルとともにホストします。これらのファイルは、サイトのすべてのページからアクセス可能な Web サーバーでホストする必要があります。これらのファイルへのパスを、次の手順で使用します。
 
-## 手順7:すべてのサイトページでat.jsを参照{#step7}
+### 手順7:サイトのすべてのページでのat.jsの参照 {#step7}
 
 各ページのタグ内に次のコードを追加して、VisitorAPI.jsの下にat.jsを含めます。
 
@@ -150,21 +180,25 @@ adobe.target.getOffers({
 
 次に、ペイロードは[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介して[!DNL Analytics]に転送できます。
 
-## 手順 8：実装を検証します。{#step8}
+### 手順 8： 実装を検証します。 {#step8}
 
 JavaScript ライブラリを更新した後でページをロードして、 呼び出しの `mboxMCSDID`[!DNL Target] パラメーター値が ページビュー呼び出しの `sdid`[!DNL Analytics] パラメーター値と一致していることを確認します。
 
 呼び出しの順序が必ずしも予測可能とは限らない場合、これらの値がシングルページアプリ(SPA)で一致することを確認することが特に重要です。
 
-**注意：A4T** が正しく機能するには、これらの値の一致が必要です。
+>[!NOTE]
+>
+>A4Tが正しく機能するには、これらの値の一致が必要です。
 
-## 手順 9： （オプション）以前の統合コードを削除します。
+### 手順 9： （オプション）以前の統合コードを削除します。
 
 Adobeでは、導入を簡素化し、システム間の不一致を解消する必要をなくすため、以前の統合を削除することをお勧めします。 以前のSCからT&amp;Tへの統合用に展開したコード（`mboxLoadSCPlugin`を含む）はすべて削除できます。
 
-## 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
+### 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
 
 [!DNL Target]で、**[!UICONTROL 管理/Visual Experience Composer]**&#x200B;をクリックし、「**[!UICONTROL アクティビティごとに選択]**」または「**[!UICONTROL Adobe Analytics]**」を選択して、オプションを有効にします。
 
 * **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
+
+
