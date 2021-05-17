@@ -4,19 +4,22 @@ description: Analytics for [!DNL Target] (A4T)の導入に必要な要件と、�
 title: A4Tを実装する前に知っておくべきこと
 feature: Analytics for Target（A4T）
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 31%
 
 ---
 
-# 実装する前に
+# at.jsを使用してAnalytics forターゲット(A4T)を実装する前に
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして有効にする場合(A4T)、データ収集プロセスでいくつかの変更が行われます。
 
-この統合を使用する前に、以降の節を確認して、レポートプロセスへの影響を検討してください。
+この統合を使用する前に、以下の節を確認し、レポートプロセスへの影響を検討してください。
+
+>[!NOTE]
+>
+>この記事はat.js実装にのみ適用されます。
 
 ## 導入に必要な条件 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
