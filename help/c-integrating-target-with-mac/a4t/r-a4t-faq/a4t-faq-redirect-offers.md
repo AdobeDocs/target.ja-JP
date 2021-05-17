@@ -4,11 +4,10 @@ description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics repor
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
 feature: Analytics for Target（A4T）
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 69%
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして使用する場合(A4T)に、リダイレクトオファーを使用する方法に関するよくある質問に対する回答を記載します。
 
-## Analytics forAdobe Target(A4T)は、リダイレクトオファーをサポートしますか。{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics forAdobe Target(A4T)は、リダイレクトオファーをサポートしますか。 {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 はい、導入で[!DNL at.js]を使用している場合は○です。 ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
 
@@ -24,7 +23,7 @@ ht-degree: 69%
 >
 >A4T によるリダイレクトを使用するお客様の数に制限があることにより、未関連付けヒット率の割合が高く表示されるという既知の問題があります。[既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
 
-## A4Tでリダイレクトオファーを使用するための最小要件は何ですか。{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## A4Tでリダイレクトオファーを使用するための最小要件は何ですか。 {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 実装が次の最小要件を満たしている必要があります。
 
@@ -40,7 +39,7 @@ ht-degree: 69%
 
 データに多少相違があることが予想されます。詳しくは、[A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)を参照してください。
 
-## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 at.jsバージョン1.6.3以降を使用する場合、ページ表示を両方のページにカウントしても問題ありません。 この競合条件は、それ以前のバージョンを使用している場合にのみ影響します。Target チームがサポートを提供しているのは、at.js の最新バージョンとその 1 つ前のバージョンの 2 つです。必要に応じて at.js をアップグレードし、[サポート対象のバージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を実行していることを確認してください。
 
@@ -52,17 +51,17 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 この問題について詳しくは、[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)の「リダイレクトオファー」情報を参照してください。
 
-## mbox.js JavaScript ライブラリを使用している場合に、A4T でリダイレクトオファーを使用できますか？{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
+## mbox.js JavaScript ライブラリを使用している場合に、A4T でリダイレクトオファーを使用できますか？ {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
 [!DNL mbox.js] ライブラリを使用している場合、A4T によるリダイレクトオファーはサポートされません。実装では [!DNL at.js] を使用する必要があります。
 
-## Visual Experience Composer（VEC）とフォームベースの Experience Composer の両方がサポートされていますか？{#section_FDA26FE7909B48539DA770559E687677}
+## Visual Experience Composer（VEC）とフォームベースの Experience Composer の両方がサポートされていますか？ {#section_FDA26FE7909B48539DA770559E687677}
 
 はい。組み込みのリダイレクトオファーを使用するのであれば、どちらのコンポーザーもサポートされます。
 
 リダイレクトに独自のカスタムコードを使用する場合、リダイレクト URL に関連付けられた 2 つの新しいパラメーター（以下で説明する `adobe_mc_sdid` と `adobe_mc_ref`）を必ず設定する必要があります。
 
-## リダイレクト URL に追加される新しいクエリ文字列パラメーターは何ですか？{#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
+## リダイレクト URL に追加される新しいクエリ文字列パラメーターは何ですか？ {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
 次のクエリ文字列パラメーターが、リダイレクトオファーに関連付けられます。
 
@@ -77,7 +76,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 ITチームと協力して、次のパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）許可リストに加えるを取得します。
 
-## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？{#section_9E608D75FF9349FE96C65FEDD7539F45}
+## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 次の場合に、カスタムコードのリダイレクトを使用します。
 
@@ -87,7 +86,7 @@ ITチームと協力して、次のパラメーター（`adobe_mc_sdid`と`adobe
 
 しかし、ベストプラクティスとして、リファラー情報を `adobe_mc_ref` に正しくレポートするために、URL の [!DNL Analytics] パラメーターを保持することもできます。
 
-## 実装で URL が adobe_mc_ref パラメーターと adobe_mc_sdid パラメーターによって二重エンコードされるのはなぜですか？{#section_5EFE5F012B944C40865731EA18E7E79E}
+## 実装で URL が adobe_mc_ref パラメーターと adobe_mc_sdid パラメーターによって二重エンコードされるのはなぜですか？ {#section_5EFE5F012B944C40865731EA18E7E79E}
 
 A4T とリダイレクトオファーを使用する場合、Target によって `adobe_mc_ref` パラメーターと `adobe_mc_sdid` パラメーターが URL に追加されます。これらの値は既に URL エンコードされています。ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
 
@@ -95,7 +94,7 @@ A4T とリダイレクトオファーを使用する場合、Target によって
 
 Adobeは、`adobe_mc_ref`と`adobe_mc_sdid`が変換されないように、ITチームに相談するこ許可リストに加えるとをお勧めします。
 
-## 参照URLを新しいページに渡す必要があるのはなぜですか。{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
+## 参照URLを新しいページに渡す必要があるのはなぜですか。 {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
 例えば、訪問者がリダイレクトアクティビティがライブになっているホームページ(`www.mysite.com/index.html`)へのリンクを[!DNL `www.google.com`]クリックし、その後新しいページ(`www.mysite.com/index2.html`)にリダイレクトしたとします。
 
@@ -103,6 +102,26 @@ Adobeは、`adobe_mc_ref`と`adobe_mc_sdid`が変換されないように、IT�
 
 [!DNL at.js]バージョン0.9.6（以降）および[!DNL AppMeasurement.js] 2.1（以降）では、新しいページの[!DNL Analytics]リクエストは[!DNL `www.google.com`]の参照URLを報告します。
 
-## カスタム／HTML リダイレクトオファーを使用することはできますか？{#section_E49F9A83A286488C8F1098A040203D7E}
+## カスタム／HTML リダイレクトオファーを使用することはできますか？ {#section_E49F9A83A286488C8F1098A040203D7E}
 
 いいえ。[!DNL Analytics] をレポートソースとして使用するアクティビティでは（A4T）、組み込みのリダイレクトオファーを使用する必要があります。[!DNL Target] からは、HTML オファーは不明瞭です。[!DNL Target] は、リダイレクトをインスタンス化する JavaScript を含む HTML の特定部分を認識することができません。
+
+## [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクトオファーをサポートしていますか？ {#platform}
+
+次のFAQは、A4Tの使用と[!DNL Platform Web SDK]とのリダイレクトオファーに関する詳細を示しています。
+
+>[!NOTE]
+>
+>この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tのサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
+
+### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
+
+はい、プラットフォームWeb SDKを使用したA4Tは、[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md)をサポートします。
+
+### [!UICONTROL Visual Experience Composer](VEC)および[!UICONTROL フォームベースのExperience Composer]はサポートされていますか？
+
+はい。組み込みのリダイレクトオファーを使用する場合、[[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)および[[!UICONTROL フォームベースのExperience Composer]](/help/c-experiences/form-experience-composer.md)がサポートされます。
+
+### [!DNL Platform Web SDK]と共にカスタム/HTMLリダイレクトオファーを使用できますか。
+
+いいえ。A4Tを使用するアクティビティには、組み込みのリダイレクトオファーを使用する必要があります。 [!DNL Target]の観点から見ると、HTMLオファーは不透明です。[!DNL Target]は、HTMLの特定の部分に、リダイレクトをインスタンス化するJavaScriptが含まれていることを知りません。
