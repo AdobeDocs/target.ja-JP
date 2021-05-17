@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 59%
+source-wordcount: '1195'
+ht-degree: 56%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 59%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 17 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.5.0 リリースに関する情報を追加しました。 |
+|  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | at.js 2.5.0（およびそれ以降）を使用した[!UICONTROL Automated Personalization](AP)アクティビティでプレビューリンクを使用できることを示すようにトピックを更新しました。 |
+|  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | at.js 2.5.0リリースで、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートが削除されたことを示しました。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。 |
+|  | [ [!UICONTROL 拡張Experience Composerに関する問題のトラブルシューティング]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | IPアドレスのリストを許可リストに更新しました。 |
 | 12 年 5 月 | [[!DNL Target] リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 以下に関するプレリリースノートを追加しました。<ul><li>Adobe Experience PlatformWeb SDK（2021年5月18日）</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 10 年 5 月 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次のFAQを追加しました。&quot;[!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成されたアルゴリズムを使用できますか？&quot; |
 |  | [実装 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager]がサポート対象外になったことを示しました。 代わりに、[!DNL Adobe]では[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)と共に実装することをお勧めします。 |
