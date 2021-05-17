@@ -4,11 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +22,15 @@ ht-degree: 59%
 >サイトに問題が発生する可能性を回避するため、この日より前に新しい [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## at.jsバージョン2.5.0（2021年5月14日）
+
+at.jsのこのリリースには、次の機能強化および変更が含まれています。
+
+* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
+* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクAutomated Personalizationアクティビティのサポート
+
+このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。
 
 ## Target Standard／Premium 21.4.1（2021 年 4 月 19 日）
 
@@ -40,15 +48,6 @@ ht-degree: 59%
 * [!UICONTROL 管理]/[!UICONTROL Scene7構成]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
 * プロパティが正しくないワークスペースにマップされる問題を修正しました。 （TGT-39869）
 * レコメンデーションの除外の作成中に環境を変更した後にリクエストが失敗した場合、無限に読み込まれる問題を修正しました。 （TGT-39948）
-
-## at.jsバージョン2.5.0（発表日）
-
-at.jsのこのリリースには、次の機能強化および変更が含まれています。
-
-* [at.jsのオンデバイス](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 判定のサポート。
-* [プレビュー](/help/c-activities/c-activity-qa/activity-qa.md) リンクは、Automated Personalizationアクティビティをサポートします。
-
-このリリースでは、Microsoft Internet Explorer 10以降のバージョンのサポートも削除されます。
 
 ## その他のリリースノートとバージョンの詳細
 
