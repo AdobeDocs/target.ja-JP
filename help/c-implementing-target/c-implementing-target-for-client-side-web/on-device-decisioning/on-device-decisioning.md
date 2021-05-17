@@ -5,19 +5,14 @@ title: オンデバイス判定はat.js JavaScriptライブラリとどのよう
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
 # at.jsのオンデバイス判定
-
->[!NOTE]
->
->オンデバイス判定は、今後の[at.js 2.5.0リリース](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)で利用可能になります。 近日発表予定。
 
 バージョン2.5.0以降、at.jsオファーのOn-Device Decisioningを使用しています。 オンデバイス判定機能を使用すると、[A/Bテスト](/help/c-activities/t-test-ab/test-ab.md)と[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)(XT)アクティビティをブラウザーにキャッシュして、[!DNL Adobe Target] Edge Networkに対するネットワーク要求をブロックせずにメモリ内判定を実行できます。
 
