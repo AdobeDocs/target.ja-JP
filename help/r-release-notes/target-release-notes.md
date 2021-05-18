@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 36%
@@ -38,7 +38,7 @@ at.jsのこのリリースには、次の機能強化および変更が含まれ
 
 [!DNL Platform Web SDK]のこのリリースには、[!DNL Target]リダイレクトの[!UICONTROL ターゲット](A4T)の解析のサポートが含まれています。
 
-## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
+## [!DNL Target Standard/Premium] 21.5.1（2021年5月25日）
 
 リリース日が近づくと、コンテンツが追加されます。
 
