@@ -4,11 +4,10 @@ description: お知らせを読み、Skill Builderセッション、開発者と
 title: ' [!DNL Target] お知らせとイベントはどこで見つけられますか？'
 feature: リリースノート
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 76%
+source-wordcount: '536'
+ht-degree: 85%
 
 ---
 
@@ -24,20 +23,6 @@ Adobe Target は最近、 Forrester と Gartner の両方から市場リーダ�
 | --- | --- |
 | Forrester | **アドビは、Forrester Wave レポートで、エクスペリエンス最適化プラットフォーム分野のリーダーに選ばれました。**<br>&#x200B;アドビは、「The Forrester Wave：エクスペリエンス最適化プラットフォーム（2020 年第 4 四半期）」レポートで、この分野のソリューションである Adobe Target Premium が評価され、リーダーに選ばれました。アドビは、現在のオファーおよび市場プレゼンスの分野、およびレコメンデーションとプラットフォームエクスペリエンスの条件において、参加している全ベンダーのうち最高スコアを獲得しました。また、Target Premium は、エクスペリエンス最適化手法のイノベーションとサポートサービスの条件において、最高のスコアを獲得しました。このレポートは、エクスペリエンス最適化プラットフォームプロバイダー 8 社を、22 件の条件についておこなわれた綿密な評価に基づいています。<br>詳しくは、[Adobe ブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)をご覧ください。 |
 | Gartner | **アドビは、パーソナライゼーションエンジン分野の Gartner Magic Quadrant で再びリーダーに選ばれました。**<br>&#x200B;アドビは、2020 年度の『Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）』レポートで、3 回目のリーダーに選ばれました。パーソナライゼーションエンジン分野の Gartner Magic Quadrant では、ビジョンの完全性と実行能力の 2つのカテゴリにおいて、15 の条件に基づいてベンダーを評価しました。<br>[詳しくは、Adobe ブログをご覧ください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
-
-## Adobe TargetコミュニティQ&amp;Aコーヒーブレーク
-
-* 2021年5月12日（水）
-* 午前8時(PDT、GMT-7)
-* [詳細については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
-
-[!DNL Adobe Target]のグループプロダクトマネージャであるShannon Hamiltonは、[!DNL Target]コミュニティにサインインし、専門知識に関する質問に答えます。
-
-* 統合
-* 統合プロファイル
-* ターゲットAdobe Experience Platform(AEP)統合
-* 他のAdobeソリューションとのポイント統合
-* コアUIワークフロー
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
 
