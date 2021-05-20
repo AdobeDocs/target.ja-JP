@@ -4,11 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: リリースノート
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
-ht-degree: 98%
+source-wordcount: '4409'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +23,11 @@ ht-degree: 98%
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
 
-### 自動配分と自動ターゲットアクティビティのAnalytics forAdobe Target(A4T)指標
+### [!UICONTROL 自動ターゲット]アクティビティのアーカイブにより、同期の問題が発生する場合があります
+
+非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。 この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。 これらは[!UICONTROL 非アクティブ]の状態のままにします。 （TGT-40885）
+
+### 自動配分および自動ターゲットアクティビティ用のAnalytics for Adobe Target(A4T)指標
 
 [!DNL Target] UI を使用すると、ユーザーは、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティの最適化の主な目標指標として、サポートされていないエンゲージメント指標と売上高指標を選択できます。コンバージョン指標はサポートされています。エンゲージメントと売上高の指標はサポート&#x200B;*されていません*。エンゲージメントまたは売上高目標指標を選択した場合、最適化モデルは構築されません。
 
@@ -49,7 +52,7 @@ ht-degree: 98%
 * Analytics for Target（A4T）で設定されたアクティビティのリダイレクトオファーを使用すると、限られた数の顧客で、トラフィック分散の平方偏差の比率が高く報告されていました。
 * at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](/help/c-activities/c-activity-qa/activity-qa.md) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
-### Visual Experience Composer（VEC）内のページの読み込みのキャンセル {#cancel}
+### Visual Experience Composer（VEC）内のページの読み込みのキャンセル  {#cancel}
 
 * 現在、リダイレクト URL を含む VEC 内の [!UICONTROL A/Bテスト]または[!UICONTROL エクスペリエンスターゲット]（XT）のアクティビティの読み込みをキャンセルすると、既知の問題が発生します。
 
@@ -120,7 +123,7 @@ at.js の既知の問題を以下に示します。
 
 インプレッションの発生ごとに成功指標を増分するよう設定されている場合、訪問者がこの成功指標を訪問するたびに Target は訪問者数をカウントします。成功指標「メンバーシップ」はその後 0 に設定されるので、次のインプレッションでもカウントが発生することになります。このため、この指標の表示が別の指標の条件になっていると、Target ではユーザーが最初の指標を表示したことを認識できなくなります。
 
-### [!DNL Target]の解析(A4T)
+### Analytics for [!DNL Target] (A4T)
 
 Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=ja#cja-workspace)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
 
@@ -134,7 +137,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 2020 年 5 月 10 日に Adobe は GEO プロバイダーファイルを更新し、これによっていくつかの不一致が発生しました。例えば、コンマを含む値が追加されたのに、既存のオーディエンスの値にはコンマがないというケースがありました。Adobe 配信サーバーのすべてがこの変更の影響を受けるわけではありません。その結果、2020 年 5 月 10 日から 7 月 22 日の間、これらの値を使用するオーディエンスで、適切な訪問者がすべて適格とされない場合があります。
 
-### レポート — ダウンロード可能な.csvレポートのデータと[!DNL Target] UIに表示されるレポートのデータが一致しません。{#csv}
+### レポート — ダウンロード可能な.csvレポートと[!DNL Target] UIに表示されるレポートのデータが一致しない。 {#csv}
 
 アクティビティユーザーが.複数の指標を使用している場合、csv ファイル形式でダウンロード用に生成されたレポートに一貫性がありません。ダウンロード可能なレポートは、レポート設定に基づいてのみ生成され、他の指標で使用される場合と同じ値を考慮します。
 
@@ -150,7 +153,7 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 この問題は、Target Standard／Premium 20.10.1 リリースで修正されました。
 
-### Analytics forAdobe Target(A4T)レポート
+### Analytics for Adobe Target(A4T)レポート
 
 A4T に関連する次の問題が解決されました。
 
@@ -237,7 +240,7 @@ mbox.js ライブラリは、Handlebars や Mustache などのクライアント
 
  at.js は、新しくプロビジョニングされたテナント `global_mbox_autocreate = false` 用にダウンロードされます。mbox. js を最初にダウンロードした場合は、global\_mbox\_autocreate が「true」に設定され、at.js も `global_mbox_autocreate = true` と一緒にダウンロードされます。（TGT-15929）
 
-### [!DNL Target] API {#api}でのエンタープライズ権限のサポート
+### [!DNL Target] APIでのエンタープライズパーミッション {#api}
 
 オファーのリストが GET API を使用して取得された場合、オファーライブラリの Target UI から作成されたコードオファーがデフォルトのワークスペースに表示されることがあります。この問題は 2019 年 3 月の第一週に修正されます。この修正が行われると、API から取得すると、コードオファーが適切なワークスペースに表示されます。この問題は API から作成されたオファーには影響&#x200B;*しません*。例えば、API から作成したコードオファーは、GET API を使用して取得されたか、Target UI から取得されたかにかかわらず、作成されたワークスペースに表示されます。
 
@@ -348,7 +351,7 @@ at.js バージョン 0.9.6 で、Cookie の保存時に使用するトップレ
 
 この問題は、at.js バージョン 1.2 で修正されました。
 
-### [!DNL Target] Premiumのエンタープライズユーザー権限
+### [!DNL Target] PremiumのEnterpriseユーザーの権限
 
 Enterprise 権限の移行の一環として、Target Premium のすべてのユーザー管理機能は、Adobe Target UI から Adobe Admin Console に移行されました。
 
@@ -439,7 +442,7 @@ Target 17.3.1 リリース（2017 年 3 月 31 日）で修正されました。
 
 Recommendations 17.2.2.0 リリース（2017 年 3 月 7 日）の修正点です。
 
-### Analytics forAdobe Target(A4T)レポート
+### Analytics for Adobe Target(A4T)レポート
 
 レポート指標が切り替えられると、レポートは更新されません。この変更は、 UI にのみ影響します。レポートデータ収集または配信には影響しません。（TGT-22970）
 
