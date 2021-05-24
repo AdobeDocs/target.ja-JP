@@ -4,7 +4,7 @@ description: Analyticsを [!DNL Target] (A4T). A4T lets you use Analytics report
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
 feature: Analytics for Target（A4T）
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 62%
@@ -112,7 +112,7 @@ Adobeは、ITチームに相談して、これらの値が変換されないよ�
 
 >[!NOTE]
 >
->この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
+>この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年6月1日）で利用可能になる予定です。
 
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
