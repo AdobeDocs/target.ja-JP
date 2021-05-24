@@ -4,7 +4,7 @@ title: ' [!DNL Target] 文書はどこで入手できますか？'
 description: Adobe [!DNL Target] を使用して、顧客のエクスペリエンスをパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を説明します。
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021年5月21日( [変更点を参照](r-release-notes/doc-change.md) )**
+**最終更新日：2021年5月25日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
