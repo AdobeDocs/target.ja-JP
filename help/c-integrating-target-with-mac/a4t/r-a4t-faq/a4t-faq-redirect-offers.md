@@ -1,29 +1,29 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;リダイレクト;リダイレクトオファー;adobe-mc-sdid;adobe_mc_ref
-description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] アクティビティを使用する場合のリダイレクトオファーの使用に関する質問への回答を検索します。
+description: Analyticsを [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] アクティビティに使用する場合のリダイレクトオファーの使用に関する質問に対する回答を見つけます。
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
 feature: Analytics for Target（A4T）
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 62%
 
 ---
 
 # リダイレクトオファー - A4T FAQ
 
-[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして使用する場合(A4T)に、リダイレクトオファーを使用する方法に関するよくある質問に対する回答を記載します。
+このトピックには、[!DNL Adobe Analytics]を[!DNL Adobe Target]のレポートソースとして使用する(A4T)場合のリダイレクトオファーの使用に関するよくある質問に対する回答が含まれています。
 
-## Analytics forAdobe Target(A4T)は、リダイレクトオファーをサポートしますか。 {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics for Adobe Target(A4T)ではリダイレクトオファーがサポートされますか？ {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-はい、導入で[!DNL at.js]を使用している場合は○です。 ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
+はい、実装で[!DNL at.js]を使用している場合は有効です。 ただし、Analytics をレポートソースとして使用するアクティビティで[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を使用するには、実装がいくつかの最小要件を満たす必要があります。
 
 >[!NOTE]
 >
 >A4T によるリダイレクトを使用するお客様の数に制限があることにより、未関連付けヒット率の割合が高く表示されるという既知の問題があります。[既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
 
-## A4Tでリダイレクトオファーを使用するための最小要件は何ですか。 {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## A4Tでリダイレクトオファーを使用するための最小要件を教えてください。 {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 実装が次の最小要件を満たしている必要があります。
 
@@ -41,11 +41,11 @@ ht-degree: 62%
 
 ## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-at.jsバージョン1.6.3以降を使用する場合、ページ表示を両方のページにカウントしても問題ありません。 この競合条件は、それ以前のバージョンを使用している場合にのみ影響します。Target チームがサポートを提供しているのは、at.js の最新バージョンとその 1 つ前のバージョンの 2 つです。必要に応じて at.js をアップグレードし、[サポート対象のバージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を実行していることを確認してください。
+at.jsバージョン1.6.3以降を使用する場合、両方のページでページビュー数をカウントするのは問題になりません。 この競合条件は、それ以前のバージョンを使用している場合にのみ影響します。Target チームがサポートを提供しているのは、at.js の最新バージョンとその 1 つ前のバージョンの 2 つです。必要に応じて at.js をアップグレードし、[サポート対象のバージョン](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を実行していることを確認してください。
 
-at.js の以前のサポートされていないバージョンを使用している場合、最初のページでリダイレクトが実行される前に競合条件が生じ、Analytics の呼び出しが実行されることがあります。この状況では、元のページとリダイレクトページでページ表示がすべてカウントされる可能性があります。 こうしたケースでは、訪問者が最初のページを実際に閲覧しなくても、そのページでページビューが余分にカウントされます。
+at.js の以前のサポートされていないバージョンを使用している場合、最初のページでリダイレクトが実行される前に競合条件が生じ、Analytics の呼び出しが実行されることがあります。この状況では、元のページとリダイレクトページでページビューがすべてカウントされる可能性があります。 こうしたケースでは、訪問者が最初のページを実際に閲覧しなくても、そのページでページビューが余分にカウントされます。
 
-コードがページ上で実行される場所を理由に、フォームベースのコンポーザーを使用してリダイレクトアクティビティを構築することを推奨し、ページリダイレクトの速度を向上させます。 また、デフォルトのエクスペリエンスも含め、リダイレクトによって元のページが返されるすべてのエクスペリエンスで、リダイレクトオファーを作成することもお勧めします。各エクスペリエンスのリダイレクトオファーを作成すると、誤カウントが発生した場合に、すべてのエクスペリエンスで発生することを確認できます。 レポートと分析は、テストに対して引き続き有効です。
+ページ上でコードが実行される場所が原因で、フォームベースのコンポーザーを使用してリダイレクトアクティビティを作成することを推奨します。 また、デフォルトのエクスペリエンスも含め、リダイレクトによって元のページが返されるすべてのエクスペリエンスで、リダイレクトオファーを作成することもお勧めします。各エクスペリエンスのリダイレクトオファーを作成すると、カウントミスが発生した場合に、すべてのエクスペリエンスでリダイレクトオファーが発生します。 レポートと分析は、引き続きテストに有効です。
 
 デフォルト（コントロール）エクスペリエンスを含む、アクティビティのすべてのエクスペリエンスにリダイレクトオファーを使用したい理由の 1 つは、すべてのエクスペリエンスに同じ条件を課すことです。例えば、デフォルトエクスペリエンスにリダイレクトオファーがなく、他のエクスペリエンスリダイレクトオファーがある場合、リダイレクトオファーのないエクスペリエンスは、速度の点で有利です。リダイレクトオファーは、一時的なシナリオ（テストなど）にのみ推奨されます。リダイレクトオファーは、恒常的なシナリオ（パーソナライゼーションなど）には推奨されません。「勝者」を決定したら、ページ読み込みのパフォーマンスを向上させるために、リダイレクトを削除する必要があります。
 
@@ -67,22 +67,22 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 | パラメーター | 説明 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid`パラメーターは、Supplemental Data Id(SDID)とExperience Cloud組織IDをデフォルトのページから新しいページに渡します。 これらのIDを使用すると、A4Tは、デフォルトページのターゲットリクエストと、新しいページの分析リクエストを「結合」できます。 |
-| `adobe_mc_ref` | `adobe_mc_ref` パラメーターは、デフォルトのページの参照 URL を新しいページに渡します。AppMeasurement.jsバージョン2.1（以降）で使用する場合、Analyticsは、このパラメーター値を新しいページの参照URLとして使用します。 |
+| `adobe_mc_sdid` | `adobe_mc_sdid`パラメーターは、Supplemental Data Id(SDID)とExperience Cloud組織IDをデフォルトページから新しいページに渡します。 これらのIDを使用すると、A4Tはデフォルトページ上のTargetリクエストと新しいページ上のAnalyticsリクエストを「ステッチ」できます。 |
+| `adobe_mc_ref` | `adobe_mc_ref` パラメーターは、デフォルトのページの参照 URL を新しいページに渡します。AppMeasurement.jsバージョン2.1（またはそれ以降）で使用する場合、Analyticsはこのパラメーター値を新しいページの参照URLとして使用します。 |
 
 訪問者 ID サービスがページに実装されていると、VEC とフォームベースの Experience Composer で組み込みのリダイレクトオファーを使用する場合に、これらのパラメーターがリダイレクト URL に自動的に追加されます。VEC またはフォームベースのコンポーザーでリダイレクトに独自のカスタムコードを使用している場合、必ずこれらのパラメーターをカスタムコードとともに渡す必要があります。
 
 ## Web サーバーで、これらのパラメーターが URL から除去されます。どうすればよいですか？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-ITチームと協力して、次のパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）許可リストに加えるを取得します。
+ITチームと協力して、これらのパラメーター（`adobe_mc_sdid`と`adobe_mc_ref`）を許可リストに加えるします。
 
 ## A4T でリダイレクトアクティビティを使用しておらず、URL に追加されるこれらの追加のパラメーターが必要ない場合、どうすればよいですか？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
-次の場合に、カスタムコードのリダイレクトを使用します。
+次の場合に、カスタムコードされたリダイレクトを使用します。
 
 * A4Tをリダイレクトアクティビティで使用していない
 * 訪問者IDサービスが実装されている
-* これらのパラメーターをURLに自動的に追加しないようにする
+* これらのパラメーターをURLに自動的に追加しない
 
 しかし、ベストプラクティスとして、リファラー情報を `adobe_mc_ref` に正しくレポートするために、URL の [!DNL Analytics] パラメーターを保持することもできます。
 
@@ -90,38 +90,38 @@ ITチームと協力して、次のパラメーター（`adobe_mc_sdid`と`adobe
 
 A4T とリダイレクトオファーを使用する場合、Target によって `adobe_mc_ref` パラメーターと `adobe_mc_sdid` パラメーターが URL に追加されます。これらの値は既に URL エンコードされています。ほとんどの場合は、すべてが期待どおりに動作します。しかし、お客様によっては、クエリ文字列パラメーターを再度エンコードしようとするロードバランサーまたは Web サーバーが配置されている場合があります。
 
-訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。このプロセスにより、誤ったSDID値がターゲットおよびAnalyticsに送信され、Analyticsレポートでリダイレクトに不均等な分割が表示されます。
+訪問者 API は、`adobe_mc_sdid` 値をデコードしようとしたときにこの二重エンコードが原因で SDID 値を抽出できないので、新しい SDID を生成します。このプロセスにより、間違ったSDID値がTargetおよびAnalyticsに送信され、Analyticsレポートにリダイレクトの不均一な分割が表示されます。
 
-Adobeは、`adobe_mc_ref`と`adobe_mc_sdid`が変換されないように、ITチームに相談するこ許可リストに加えるとをお勧めします。
+Adobeは、ITチームに相談して、これらの値が変換されないように`adobe_mc_ref`と`adobe_mc_sdid`を許可リストに加えるすることをお勧めします。
 
-## 参照URLを新しいページに渡す必要があるのはなぜですか。 {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
+## 参照URLを新しいページに渡す必要があるのはなぜですか？ {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-例えば、訪問者がリダイレクトアクティビティがライブになっているホームページ(`www.mysite.com/index.html`)へのリンクを[!DNL `www.google.com`]クリックし、その後新しいページ(`www.mysite.com/index2.html`)にリダイレクトしたとします。
+訪問者が[!DNL `www.google.com`]上のリンクをクリックして、ホームページ(`www.mysite.com/index.html`)にリダイレクトアクティビティがライブになり、新しいページ(`www.mysite.com/index2.html`)にリダイレクトされるとします。
 
 以前は、新しいページの [!DNL Analytics] リクエストによって、[!DNL `www.mysite.com/index.html`] ではなく、[!DNL `www.google.com`] の参照 URL がレポートされていました。そのため、参照 URL に関連付けられた [!DNL Analytics] のレポート（例えば、マーケティングチャネルレポート）が不正確になっており、[!DNL `www.google.com`] からそのサイトにリダイレクトされた事実がレポートから失われていました。
 
-[!DNL at.js]バージョン0.9.6（以降）および[!DNL AppMeasurement.js] 2.1（以降）では、新しいページの[!DNL Analytics]リクエストは[!DNL `www.google.com`]の参照URLを報告します。
+[!DNL at.js]のバージョンが0.9.6（以降）と[!DNL AppMeasurement.js] 2.1（以降）の場合、新しいページの[!DNL Analytics]リクエストは[!DNL `www.google.com`]の参照URLをレポートします。
 
 ## カスタム／HTML リダイレクトオファーを使用することはできますか？ {#section_E49F9A83A286488C8F1098A040203D7E}
 
 いいえ。[!DNL Analytics] をレポートソースとして使用するアクティビティでは（A4T）、組み込みのリダイレクトオファーを使用する必要があります。[!DNL Target] からは、HTML オファーは不明瞭です。[!DNL Target] は、リダイレクトをインスタンス化する JavaScript を含む HTML の特定部分を認識することができません。
 
-## [!DNL Adobe Experience Platform Web SDK]は、A4Tのリダイレクトオファーをサポートしていますか？ {#platform}
+## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) ジA4Tのリダ [!DNL Adobe Experience Platform Web SDK] イレクトオファーはサポートされていますか？ {#platform}
 
-次のFAQは、A4Tの使用と[!DNL Platform Web SDK]とのリダイレクトオファーに関する詳細を示しています。
+次のFAQでは、A4Tの使用と[!DNL Platform Web SDK]でのリダイレクトオファーに関する詳細を説明します。
 
 >[!NOTE]
 >
->この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tのサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
+>この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
 
 ### Analytics for Target（A4T）ではリダイレクトオファーがサポートされますか？
 
-はい、プラットフォームWeb SDKを使用したA4Tは、[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md)をサポートします。
+はい。Platform Web SDKを介したA4Tでは、[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md)がサポートされます。
 
-### [!UICONTROL Visual Experience Composer](VEC)および[!UICONTROL フォームベースのExperience Composer]はサポートされていますか？
+### [!UICONTROL Visual Experience Composer](VEC)と[!UICONTROL フォームベースのExperience Composer]はサポートされていますか？
 
-はい。組み込みのリダイレクトオファーを使用する場合、[[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)および[[!UICONTROL フォームベースのExperience Composer]](/help/c-experiences/form-experience-composer.md)がサポートされます。
+はい。組み込みのリダイレクトオファーを使用する場合、[[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)と[[!UICONTROL フォームベースのExperience Composer]](/help/c-experiences/form-experience-composer.md)がサポートされます。
 
-### [!DNL Platform Web SDK]と共にカスタム/HTMLリダイレクトオファーを使用できますか。
+### [!DNL Platform Web SDK]と共にカスタム/HTMLリダイレクトオファーを使用することはできますか？
 
-いいえ。A4Tを使用するアクティビティには、組み込みのリダイレクトオファーを使用する必要があります。 [!DNL Target]の観点から見ると、HTMLオファーは不透明です。[!DNL Target]は、HTMLの特定の部分に、リダイレクトをインスタンス化するJavaScriptが含まれていることを知りません。
+いいえ。A4Tを使用するアクティビティでは、組み込みのリダイレクトオファーを使用する必要があります。 [!DNL Target]からは、HTMLオファーは不透明です。[!DNL Target]は、リダイレクトをインスタンス化するJavaScriptがHTMLの特定部分に含まれていることを認識できません。
