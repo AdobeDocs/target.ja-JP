@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 製品ドキュメントに関する重要な�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 56%
+source-wordcount: '1244'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 56%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 5 月 21 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。 &quot;[!UICONTROL 自動ターゲット]アクティビティのアーカイブは、同期の問題を引き起こす可能性があります。&quot; |
+| 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | AdobeTechブログの次のブログ投稿へのリンクを追加しました。<ul><li>Adobeテクニカルブログ — パート2:エッジプラットフォームで実験とパーソナライゼーションを行うために[!DNL Adobe Target] NodeJS SDKを実行する(AWS Lambda@Edge)</li></ul> |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。 &quot;[!UICONTROL 自動ターゲット]アクティビティのアーカイブは、同期の問題を引き起こす可能性があります。&quot; |
 | 17 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.5.0 リリースに関する情報を追加しました。 |
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | at.js 2.5.0（およびそれ以降）を使用した[!UICONTROL Automated Personalization](AP)アクティビティでプレビューリンクを使用できることを示すようにトピックを更新しました。 |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | at.js 2.5.0リリースで、Microsoft Internet Explorer 10、Internet Explorer 11およびすべての古いバージョンのサポートが削除されたことを示しました。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。 |
