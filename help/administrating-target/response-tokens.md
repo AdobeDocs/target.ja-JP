@@ -5,10 +5,10 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 29%
+source-wordcount: '1556'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.5.0以降（2021年5月25日にリリース予定）とat.jsバージョン1.1以降で利用できます。
+>レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.5.0以降（2021年6月2日にリリース予定）とat.jsバージョン1.1以降で利用できます。
 
 | Target SDK | 推奨アクション |
 |--- |--- |
@@ -212,13 +212,13 @@ ht-degree: 29%
 
 [!DNL Target] では、一定間隔で属性が更新されます。オンに切り替えられていない属性は、次回の更新時に削除されます。 ただし、オンに切り替えられて削除された属性がある場合、そのスクリプトは、オフに切り替えるまで属性リストから削除されません。 例えば、トークンとして使用されたプロファイルスクリプトを削除しました。 [!DNL Target] では、削除または名前変更しても、無効にされている属性しかリストから削除されません。
 
-## Platform Web SDKを使用したGoogle Analyticsへのデータ送信
+## ![AEPバッ](/help/assets/platform.png) ジPlatform Web SDKを介してGoogle Analyticsにデータを送信
 
 Google Analyticsは、HTMLページに次のコードを追加することで、Platform Web SDKバージョン2.5.0（またはそれ以降）を使用してデータを送信できます。
 
 （今後の規範）
 
-## at.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.jsバッ](/help/assets/atjs.png) ジat.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
@@ -288,7 +288,7 @@ Google Analyticsは、HTMLページに次のコードを追加することで、
 
 以下の節では、レスポンストークンのデバッグに関する情報を示します。
 
-### Google Analyticsとデバッグ
+### ![at.jsバッ](/help/assets/atjs.png) ジGoogle Analyticsとデバッグ
 
 次のコードを使用すると、デバッグにGoogle Analyticsを使用できます。
 
@@ -405,7 +405,7 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント ![チュートリアルバッジ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.jsト](/help/assets/atjs.png) レーニングビデオ：レスポンストークンとat.jsカスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 次のビデオでは、レスポンストークンとat.jsカスタムイベントを使用して[!DNL Target]からサードパーティシステムにプロファイル情報を共有する方法を説明します。
 
