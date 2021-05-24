@@ -1,52 +1,54 @@
 ---
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
-description: 応答トークンをAdobe [!DNL Target] で使用する方法について説明します。この情報は、サードパーティ製システム（Clicktaleなど）のデバッグおよび統合に使用する特定の情報を出力します。
-title: 応答トークンとは何ですか。また、応答トークンの使用方法について教えてください。
+description: Adobe [!DNL Target] 出力固有の情報でレスポンストークンを使用し、デバッグやサードパーティシステム（Clicktaleなど）との統合を行う方法について説明します。
+title: レスポンストークンとは何ですか？それらの使用方法を教えてください。
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 74%
+source-wordcount: '1576'
+ht-degree: 30%
 
 ---
 
 # レスポンストークン
 
-応答トークンを使用すると、サードパーティ製システム（Clicktaleなど）のデバッグや統合に使用する[!DNL Target]固有のアクティビティ(プロファイルの詳細、ユーザー情報、地域情報など)を自動的に出力できます。
+レスポンストークンを使用すると、[!DNL Adobe Target]に固有の情報をブランドのWebページに自動的に出力できます。 この情報には、アクティビティ、オファー、エクスペリエンス、ユーザープロファイル、地域情報などの詳細が含まれます。 これらの詳細は、内部またはサードパーティシステム（Clicktaleなど）と共有したり、デバッグに使用したりするための追加の応答データを提供します。
 
-応答トークンを使用すると、活用する変数を選択し、ターゲット応答の一部として送信できるようになります。 これを行うには、スイッチを使用して変数を有効にするだけで、変数はターゲット応答と共に送信され、ネットワーク呼び出しで検証できます。 応答トークンは、[!UICONTROL プレビュー]モードでも動作します。
+レスポンストークンを使用すると、使用する変数（キーと値のペア）を選択し、[!DNL Target]の応答の一部として送信できるようになります。 スイッチを使用して変数を有効にすると、変数が[!DNL Target]応答で送信され、ネットワーク呼び出しで検証できます。 レスポンストークンは[!UICONTROL プレビュー]モードでも機能します。
 
-プラグインとレスポンストークンの主な違いは、プラグインでは配信時に実行される JavaScript をページに送信しますが、レスポンストークンでは、イベントリスナーを使用して読み込み、実行できるオブジェクトを送信するという点です。詳しくは、[at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)とこの記事の後の例を参照してください。レスポンストークンの方が安全性が高く、サードパーティ統合に伴う開発や管理を簡略化できます。
+プラグインとレスポンストークンの主な違いは、プラグインが配信時に実行されるページにJavaScriptを配信することです。 ただし、レスポンストークンは、イベントリスナーを使用して読み取り、処理できるオブジェクトを配信します。 レスポンストークンのアプローチはより安全で、サードパーティ統合の開発とメンテナンスを容易にします。
 
 >[!NOTE]
 >
->応答トークンは、at.js 1.1以降で使用できます。
+>レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.5.0以降（2021年5月25日にリリース予定）とat.jsバージョン1.1以降で利用できます。
 
-| 使用する Target ライブラリ | 推奨の操作 |
+| Target SDK | 推奨アクション |
 |--- |--- |
-| at.js | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js にはある内部メソッドを使用するプラグインでは、配信されてもエラーが発生する場合があります。詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)を参照してください。 |
-| mbox.js | mbox.jsの使用時に、プラグインは引き続きサポートされ、提供されます。<br>ただし、mbox.js とプラグインを使用している場合は、at.js とレスポンストークンに移行することをお勧めします。mbox.js を介して at.js を使用することの利点については、[at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)を参照してください。移行について詳しくは、[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)を参照してください。<br>2017 年 11 月の Target Classic の廃止以降は、場合によっては、既存のプラグインを編集または無効にするために、ClientCare までお問い合わせいただく必要があります。Target Classic の廃止より前にプラグインを確認し、必要のないプラグインを無効にしておく必要がありました。<br>Target Standard/Premium では、新しいプラグインは作成できません。その代わりにレスポンストークンを使用します。<br>古い SiteCatalyst プラグインは無効にして、[Adobe Target のレポートソースとして Adobe Analytics に置き換える](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）必要があります。ttMeta プラグインは、無効にして [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)に置き換えてください。 |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDKバージョン2.5.0以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『*Platform Web SDKの概要*』ガイドの「[SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)のインストール」を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『*Platform Web SDKの概要*』ガイドの[リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)を参照してください。 |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.jsには存在するがat.jsには存在しない内部メソッドを使用するプラグインの中には、配信されても失敗するものもあります。 詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)を参照してください。 |
 
-## 応答トークン{#section_A9E141DDCBA84308926E68D05FD2AC62}の使用
+## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. 必ず [!DNL at.js] バージョン 1.1 以降を使用します。
+1. Platform Web SDKバージョン2.5.0（以降）またはat.jsバージョン1.1（以降）を使用していることを確認します。
 
-   詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)を参照してください。
+   詳しくは、以下を参照してください。
 
-1. [!DNL Target]で、**[!UICONTROL 管理]**/**[!UICONTROL 応答トークン]**&#x200B;をクリックします。
+   * **Platform Web SDK**:『  [Platform Web SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) ガイド』の「 SDKのイ *ンスト* ール」を参照してください。
+   * **at.js**:at.jsのダ [ウンロードを参照してください](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
+
+1. [!DNL Target]で、**[!UICONTROL 管理]** /**[!UICONTROL レスポンストークン]**&#x200B;をクリックします。
 
    ![](assets/response_tokens-new.png)
 
-1. `option.id`、`activity.id` などの対象のレスポンストークンを有効にします。
+1. `activity.id`や`option.id`など、目的のレスポンストークンを有効にします。
 
    デフォルトでは次のパラメーターを使用できます。
 
    | タイプ | パラメーター | メモ |
    |--- |--- |--- |
-   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。例えば、2つの[!DNL Target]リクエストが2つの異なるアクティビティを配信するページの場合、2番目のリクエストには両方のアクティビティが含まれます。 |
+   | ビルトインプロファイル | `profile.activeActivities` | 訪問者が該当する `activityIds` の配列を返します。ユーザーが該当するたびに増分されます。例えば、2つの異なるアクティビティを配信する2つの[!DNL Target]リクエストを含むページの場合、2番目のリクエストには両方のアクティビティが含まれます。 |
    |  | `profile.isFirstSession` | 「true」または「false」を返します。 |
    |  | `profile.isNewSession` | 「true」または「false」を返します。 |
    |  | `profile.daysSinceLastVisit` | 訪問者の最後の訪問からの経過日数を返します。 |
@@ -57,8 +59,8 @@ ht-degree: 74%
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
    | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 現在のアクティビティの詳細です。「option」は「offer」と同義です。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
-   | トラフィック配分方法<br>([!UICONTROL 自動ターゲット]および[!UICONTROL Automated Personalization]アクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が、「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィックの配布からエクスペリエンスを受け取った場合は1を返します。 |
-   |  | `experience.trafficAllocationType` | &quot;control&quot;または&quot;targeted&quot;を返します。 |
+   | トラフィック配分方法<br>([!UICONTROL 自動ターゲット]および[!UICONTROL Automated Personalization]アクティビティにのみ適用) | `experience.trafficAllocationId` | 訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は0を、「ターゲット」トラフィック配分からエクスペリエンスを受け取った場合は1を返します。 |
+   |  | `experience.trafficAllocationType` | 「control」または「targeted」を返します。 |
 
    ユーザープロファイル属性と顧客属性もリストに表示されます。
 
@@ -66,13 +68,82 @@ ht-degree: 74%
    >
    >特殊文字を含むパラメーターはリストに表示されません。英数字とアンダースコアのみサポートされます。
 
-1. （条件付き）プロファイルーパラメーターを応答トークンとして使用する場合で、そのパラメーターが[!DNL Target]リクエストを通過せず、したがってターゲットーUIに読み込まれていない場合は、「[!UICONTROL 応答トークン追加]」ボタンを使用してプロファイルをUIに追加できます。
+1. （条件付き）プロファイルパラメーターを応答トークンとして使用する場合でも、パラメーターが[!DNL Target]リクエストを経由せず、[!DNL Target] UIに読み込まれていない場合は、「[!UICONTROL 応答トークンを追加]」ボタンを使用して、プロファイルをUIに追加できます。
 
-   「**[!UICONTROL 追加レスポンストークン]**」をクリックし、トークン名を入力して、「**[!UICONTROL アクティブ化]**」をクリックします。
+   「**[!UICONTROL レスポンストークンを追加]**」をクリックし、トークン名を入力して、「****&#x200B;をアクティブ化」をクリックします。
 
    ![](assets/response_token_create.png)
 
 1. アクティビティを作成します。
+
+## ![Handleオブジェクトク](/help/assets/platform.png) [!DNL Platform Web SDK] ラスを使用したAdobe Experience Platform Web SDKバッジ
+
+メタデータオブジェクトとデータオブジェクトを持つHandleオブジェクトクラスを使用して、[!DNL Target]応答をリッスンし、レスポンストークンを読み取ります。
+
+以下のコードサンプルは、[!DNL Platform Web SDK]カスタムイベントハンドラーをHTMLページに直接追加します。
+
+```html
+<html>
+
+<head>
+ ...
+ <script src="alloy.js"></script>
+ <script>
+  {
+   "requestId": "4d0a7cfd-952c-408c-b3b8-438edc38250a",
+   "handle": [{
+    "type": "personalization:decisions",
+    "payload": [{
+     "id": "....",
+     "scope": "__view__",
+     "scopeDetails": {
+      "decisionProvider": "TGT",
+      "activity": {
+       "id": "..."
+      },
+      "experience": {
+       "id": "...."
+      }
+     },
+     "items": [{
+      "id": "123",
+      "schema": "https://ns.adobe.com/personalization/dom-action",
+      "meta": {
+       "activity.id": "...",
+       "activity.name": "...",
+       "profile.foo": "...",
+       "profile.bar": "..."
+      },
+      "data": {
+       "id": "123",
+       "type": "setHtml",
+       "selector": "#foo",
+       "prehidingSelector": "#foo",
+       "content": "<div>Hello world</div>"
+      }
+     }]
+    }]
+   }]
+  }
+  });
+ </script>
+</head>
+
+<body>
+ ...
+</body>
+
+</html>
+```
+
+| オブジェクト | 情報 |
+| --- | --- |
+| タイプ — Personalization.decision | [!DNL Target] そして、Offer decisioningデータをここに渡す。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target] は、レスポンストークンのメタデータと値をページに提供します。 |
+| メタ | ページに渡されるメタデータ。 |
+| データ | ページに渡されるメタデータの値。 |
+
+## ![カスタムイベ](/help/assets/atjs.png) ントを使用したat.js badgeat.js
 
 [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)を使用して の応答をリッスンし、レスポンストークンを読み取ります。[!DNL Target]
 
@@ -95,53 +166,59 @@ ht-degree: 74%
 </html>
 ```
 
-## レスポンストークンFAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## レスポンストークンのFAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **レスポンストークンを有効または無効にするには、どの役割が必要ですか？**
 
-レスポンストークンを有効または無効にできるのは、Target 管理者の役割のユーザーのみです。
+レスポンストークンは、[!DNL Target] [!UICONTROL 管理者]の役割を持つユーザーのみが有効化または無効化できます。
 
-**at.js 1.0 以前を使用している場合はどうなりますか？**
+**[!DNL Platform Web SDK] 2.5.0（またはそれ以前）を実行している場合はどうなりますか？
 
-レスポンストークンは確認できますが、at.js で使用することはできません。
+レスポンストークンへのアクセス権がありません。
 
-**サイトの一部のページでは at.js 1.1 以降を使用し、他のページでは mbox.js を使用している場合はどうなりますか？**
+**at.js 1.0（またはそれ以前）を実行している場合はどうなりますか。**
 
-応答トークンは[!DNL at.js]ターゲット応答に配信されますが、[!DNL mbox.js]応答には配信されません。
+レスポンストークンは表示されますが、at.jsでは使用できません。
 
 **[!DNL Target Classic] プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
 
-プラグインとレスポンストークンは同時に利用できますが、プラグインは廃止される予定です。
+プラグインとレスポンストークンは同時に使用できます。ただし、プラグインは今後非推奨となります。
 
-**応答トークンは、すべての [!DNL Target] 応答を通じて配信されますか。それとも、アクティビティを配信する [!DNL Target] 応答を通じてのみ配信されますか。**
+**レスポンストークンは、すべての応答を通じ [!DNL Target] て配信されますか。それとも、アクティビティを [!DNL Target] 配信する応答を通じてのみ配信されますか。**
 
-応答トークンは、アクティビティを配信する[!DNL Target]応答を介してのみ配信されます。
+レスポンストークンは、アクティビティを配信する[!DNL Target]応答を介してのみ配信されます。
 
-**利用していた Target Classic プラグインに JavaScript が含まれていたのですが、レスポンストークンを使用してこの機能を複製するにはどうすればよいですか？**
+**プラグイン [!DNL Target Classic] にJavaScriptが含まれていました。レスポンストークンを使用してこの機能を複製するにはどうすればよいですか？**
 
-そのタイプの JavaScript は、レスポンストークンに移行する際に、コードベースまたはタグ管理ソリューションに残しておく必要があります。このコードは、[!DNL at.js] カスタムイベントを使用してトリガーし、レスポンストークンの値を JavaScript 関数に渡すことができます。
+レスポンストークンに移行する際には、このタイプのJavaScriptをコードベースまたはタグ管理ソリューションに保持する必要があります。 [!DNL Platform Web SDK]または[!DNL at.js]カスタムイベントを使用してこのコードをトリガーし、レスポンストークンの値をJavaScript関数に渡すことができます。
 
 **プロファイル／顧客属性パラメーターがレスポンストークンのリストに表示されないのはなぜですか？**
 
-Target では通常、パラメーターが 15 分間隔で更新されます。この更新はユーザーの操作に依存し、データが更新されるのはレスポンストークンのページを表示したときのみです。パラメーターがレスポンストークンのリストに表示されない場合は、Target でデータがまだ更新されていない可能性があります。
+[!DNL Target] 通常、パラメーターは15分ごとに更新されます。この更新は、ユーザーのアクションによって異なり、レスポンストークンページを表示した場合にのみデータが更新されます。 パラメーターがレスポンストークンのリストに表示されない場合、[!DNL Target]はデータを更新していません。
 
-また、英数字以外の文字や、アンダースコア以外の記号が含まれているパラメーターはリストに表示されません。現時点では、サポートされるのは英数字とアンダースコアのみです。
+また、パラメーターに英数字以外の文字やアンダースコア以外の記号が含まれている場合は、そのパラメーターはリストに表示されません。 現時点では、サポートされるのは英数字とアンダースコアのみです。
 
-**プロファイルスクリプトまたはプロファイルパラメーターを使用してレスポンストークンを作成した後、そのプロファイルスクリプトまたはプロファイルパラメーターを削除した場合でも、レスポンストークンによって引き続きコンテンツは配信されますか？**
+**削除されたプロファイルスクリプトまたはプロファイルパラメーターを使用している場合、応答トークンは引き続きコンテンツを配信しますか？**
 
-レスポンストークンはユーザープロファイルから情報を抽出し、その情報を配信します。プロファイルスクリプトまたはプロファイルパラメーターを削除しても、ユーザープロファイルから情報が削除されるわけではありません。ユーザープロファイルには該当のプロファイルスクリプトに対応するデータが残り、レスポンストークンによって引き続きコンテンツが配信されます。その情報がプロファイルに保存されていないユーザーや新規訪問者の場合は、プロファイルにデータがないので、このトークンは配信されません。
+レスポンストークンはユーザープロファイルから情報を抽出し、その情報を配信します。プロファイルスクリプトまたはプロファイルパラメーターを削除しても、ユーザープロファイルから情報が削除されるわけではありません。ユーザープロファイルには、プロファイルスクリプトに対応するデータが引き続き含まれます。 応答トークンはコンテンツの配信を続けます。 その情報をプロファイルに保存していないユーザーや新規訪問者の場合、そのデータがプロファイルに存在しないので、トークンは配信されません。
 
-Target によって自動的にトークンが無効にされることはありません。プロファイルスクリプトを削除し、このトークンの配信が不要になった場合は、手動でトークンを無効にする必要があります。
+[!DNL Target] では、トークンの自動的なオフは切り替えられません。プロファイルスクリプトを削除し、このトークンの配信が不要になった場合は、手動でトークンを無効にする必要があります。
 
 **プロファイルスクリプトの名前を変更しましたが、そのスクリプトを使用しているトークンが変更前の名前のままで引き続き有効なのはなぜですか？**
 
-前述したように、レスポンストークンはユーザーの保存済みのプロファイル情報を基に機能します。プロファイルスクリプトの名前を変更しても、お客様の Web サイトに訪問したユーザーのプロファイルには、変更前のプロファイルスクリプトの値が保存されています。トークンによって取得されるのは、ユーザープロファイルに既に保存されている変更前の値です。新しい名前でコンテンツを配信したい場合は、以前のトークンを無効にし、新しいトークンを有効にする必要があります。
+前述したように、レスポンストークンはユーザーの保存済みのプロファイル情報を基に機能します。プロファイルスクリプトの名前を変更した場合でも、Webサイトにアクセスしたユーザーのプロファイルには、古いプロファイルスクリプトの値が保存されます。 トークンは、ユーザープロファイルに既に保存されている古い値を引き続き取得します。 新しい名前でコンテンツを配信したい場合は、以前のトークンを無効にし、新しいトークンを有効にする必要があります。
 
-**属性が変更された場合、いつリストから削除されますか？**
+**属性が変更された場合、いつリストから削除されますか。**
 
-Target では、一定間隔で属性が更新されます。有効にされていない属性は、次回更新時にすべて削除されます。ただし、有効にされていた属性を削除した場合（トークンとして使用していたプロファイルスクリプトを削除した場合など）は、そのスクリプトは無効にされるまで属性リストから削除されません。Target では、削除または名前変更しても、無効にされている属性しかリストから削除されません。
+[!DNL Target] では、一定間隔で属性が更新されます。オンに切り替えられていない属性は、次回の更新時に削除されます。 ただし、オンに切り替えられて削除された属性がある場合、そのスクリプトは、オフに切り替えるまで属性リストから削除されません。 例えば、トークンとして使用されたプロファイルスクリプトを削除しました。 [!DNL Target] では、削除または名前変更しても、無効にされている属性しかリストから削除されません。
 
-## at.js {#section_04AA830826D94D4EBEC741B7C4F86156}を使用したGoogle Analyticsへのデータの送信
+## Platform Web SDKを使用したGoogle Analyticsへのデータ送信
+
+Google Analyticsは、HTMLページに次のコードを追加することで、Platform Web SDKバージョン2.5.0（またはそれ以降）を使用してデータを送信できます。
+
+（今後の規範）
+
+## at.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
@@ -259,12 +336,133 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント ![チュートリアルバッジ ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## デバッグ
 
-次のビデオでは、レスポンストークンと at.js カスタムイベントを使用して Target とサードパーティシステムの間でプロファイル情報を共有する方法について説明します。
+以下の節では、レスポンストークンのデバッグに関する情報を示します。
+
+### Google Analyticsとデバッグ
+
+次のコードを使用すると、デバッグにGoogle Analyticsを使用できます。
+
+```javascript
+<script type="text/javascript"> 
+  (function(i, s, o, g, r, a, m) { 
+    i['GoogleAnalyticsObject'] = r; 
+    i[r] = i[r] || function() { 
+      (i[r].q = i[r].q || []).push(arguments) 
+    }, i[r].l = 1 * new Date(); 
+    a = s.createElement(o), 
+      m = s.getElementsByTagName(o)[0]; 
+    a.async = 1; 
+    a.src = g; 
+    m.parentNode.insertBefore(a, m) 
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+  ga('create', 'Google Client Id', 'auto'); 
+</script> 
+ 
+<script type="text/javascript"> 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
+    var tokens = e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+ 
+    var activityNames = []; 
+    var experienceNames = []; 
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      activityNames.push(token["activity.name"]); 
+      experienceNames.push(token["experience.name"]); 
+    }); 
+ 
+    ga('send', 'event', { 
+      eventCategory: "target", 
+      eventAction: experienceNames, 
+      eventLabel: activityNames 
+    }); 
+  }); 
+ 
+  function isEmpty(val) { 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+```
+
+### ttMetaプラグインと同等のを使用したデバッグ
+
+ttMeta プラグインと同様のデバッグ機能は、HTML ページに次のコードを追加することで作成できます。
+
+```javascript
+<script type="text/javascript" > 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
+    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
+ 
+    var tokens=e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+     
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      window.ttMETA.push({ 
+        'CampaignName': token["activity.name"], 
+        'CampaignId' : token["activity.id"], 
+        'RecipeName': token["experience.name"], 
+        'RecipeId': token["experience.id"], 
+        'OfferId': token["option.id"], 
+        'OfferName': token["option.name"], 
+        'MboxName': e.detail.mbox}); 
+      console.log(ttMETA); 
+    }); 
+  }); 
+ 
+  function isEmpty(val){ 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+</script>
+```
+
+## トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント ![チュートリアルバッジ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+
+次のビデオでは、レスポンストークンとat.jsカスタムイベントを使用して[!DNL Target]からサードパーティシステムにプロファイル情報を共有する方法を説明します。
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）の設計が一新され、パフォーマンスが向上し、新機能のリリース時に必要なメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 次のビデオの情報は、一般的に正しいです。ただし、オプションが少し異なる場所にある場合もあります。 更新されたビデオは近日中に投稿されます。
+>[!DNL Target] [!UICONTROL 管理]メニューUI（旧称[!UICONTROL セットアップ]）が再設計され、パフォーマンスの向上、新機能のリリースに要するメンテナンス時間の短縮、製品全体でのユーザーエクスペリエンスの向上が実現しました。 次のビデオの情報は正しい。ただし、オプションの位置は若干異なります。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
