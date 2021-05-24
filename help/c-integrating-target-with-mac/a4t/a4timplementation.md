@@ -4,7 +4,7 @@ description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe An
 title: Analytics for [!DNL Target] (A4T)を実装する方法を教えてください。
 feature: Analytics for Target（A4T）
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 22%
@@ -19,7 +19,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年5月24日）で利用可能になる予定です。
+>この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年6月1日）で利用可能になる予定です。
 
 以下の節では、Platform Web SDKを使用する予定の場合に、この統合をサイトにデプロイするために必要な手順を説明します。
 
