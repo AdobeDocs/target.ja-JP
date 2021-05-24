@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 33%
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 5 月 20 日**
+**最終更新日：2021 年 5 月 24 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -25,7 +25,7 @@ ht-degree: 33%
 >
 >サイトで発生する可能性のある問題を回避するには、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.5.0（2021年5月25日）
+## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.5.0（2021年6月2日）
 
 このリリースの[!DNL Platform Web SDK]には、次のサポートが含まれています。
 
