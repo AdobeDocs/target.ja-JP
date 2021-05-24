@@ -5,9 +5,9 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1601'
 ht-degree: 28%
 
 ---
@@ -76,7 +76,11 @@ ht-degree: 28%
 
 1. アクティビティを作成します。
 
-## ![Handleオブジェクトク](/help/assets/platform.png) [!DNL Platform Web SDK] ラスを使用したAdobe Experience Platform Web SDKバッジ
+## 応答のリッスンとレスポンストークンの読み取り
+
+[!DNL Target]応答をリッスンしレスポンストークンを読み取るプロセスは、[!DNL Platform Web SDK]実装かat.js実装かによって異なります。
+
+### ![Handleオブジェクトク](/help/assets/platform.png) [!DNL Platform Web SDK] ラスを使用したAdobe Experience Platform Web SDKバッジ
 
 メタデータオブジェクトとデータオブジェクトを持つHandleオブジェクトクラスを使用して、[!DNL Target]応答をリッスンし、レスポンストークンを読み取ります。
 
@@ -143,7 +147,7 @@ ht-degree: 28%
 | メタ | ページに渡されるメタデータ。 |
 | データ | ページに渡されるメタデータの値。 |
 
-## ![カスタムイベ](/help/assets/atjs.png) ントを使用したat.js badgeat.js
+### ![カスタムイベ](/help/assets/atjs.png) ントを使用したat.js badgeat.js
 
 [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)を使用して の応答をリッスンし、レスポンストークンを読み取ります。[!DNL Target]
 
@@ -212,13 +216,17 @@ ht-degree: 28%
 
 [!DNL Target] では、一定間隔で属性が更新されます。オンに切り替えられていない属性は、次回の更新時に削除されます。 ただし、オンに切り替えられて削除された属性がある場合、そのスクリプトは、オフに切り替えるまで属性リストから削除されません。 例えば、トークンとして使用されたプロファイルスクリプトを削除しました。 [!DNL Target] では、削除または名前変更しても、無効にされている属性しかリストから削除されません。
 
-## ![AEPバッ](/help/assets/platform.png) ジPlatform Web SDKを介してGoogle Analyticsにデータを送信
+## Google Analyticsへのデータ送信
+
+次の節では、[!DNL Target]データをGoogle Analyticsに送信する方法について説明します。
+
+### ![AEPバッ](/help/assets/platform.png) ジPlatform Web SDKを介してGoogle Analyticsにデータを送信
 
 Google Analyticsは、HTMLページに次のコードを追加することで、Platform Web SDKバージョン2.5.0（またはそれ以降）を使用してデータを送信できます。
 
 （今後の規範）
 
-## ![at.jsバッ](/help/assets/atjs.png) ジat.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.jsバッ](/help/assets/atjs.png) ジat.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
