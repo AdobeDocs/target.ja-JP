@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 33%
+source-wordcount: '532'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 5 月 24 日**
+**最終更新日：2021 年 5 月 25 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。リリースのタイミングに応じて、これらのページの情報は同じになる場合があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -36,7 +36,9 @@ ht-degree: 33%
 
 ## [!DNL Target Standard/Premium] 21.5.1（2021年6月9日）
 
-リリース日が近づくと、内容が追加されます。
+| 機能 | 詳細 |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | APIを使用して[!DNL Recommendations]製品およびコンテンツカタログをプログラムで検索し、検索条件に一致する項目を特定して、カタログの管理を簡略化します。<br>**制限事項と注意事項**:<ul><li>APIを使用したカタログ検索は、2,000,000個を超える項目を持つ環境ではサポートされていません。</li><li>APIを使用したカタログ検索結果は、[!DNL Target] UIを使用したカタログ検索結果よりも迅速に更新されます。 [!DNL Target] UIでのカタログ検索には、最新の結果を反映するのに、さらに時間がかかる場合があります。</li></ul>詳しくは、『 *[!DNL Adobe Target][!DNL Recommendations] API* 』ガイドの[エンティティ](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)の検索を参照してください。 |
 
 ## [!DNL Target Standard/Premium] 21.5.2（決定日）
 
