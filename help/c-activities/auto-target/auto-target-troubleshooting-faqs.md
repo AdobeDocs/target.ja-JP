@@ -4,10 +4,9 @@ description: トラブルシューティングのトピックと、Adobe Target 
 title: 自動ターゲットアクティビティのトラブルシューティング方法
 feature: 自動ターゲット
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 99%
 
 * アクティビティを実行している間はエクスペリエンスに大幅な変更を加えないでください。
 
-### モデルが構築されるまで、90(Control)/10(Targeted)分割で自動[!DNL Target]を使用することをお勧めしますか？
+### モデルが構築されるまで、90（コントロール）/10（ターゲット）分割で[!UICONTROL 自動ターゲット]を使用することをお勧めしますか？
 
 最適なトラフィック配分の割合は、何を実現したいかによって異なります。
 
