@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 製品ドキュメントに関する重要な�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1257'
 ht-degree: 55%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 55%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5 月 28 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API呼び出しに関する節を追加しました。 上限は、1分あたり50コールです。 |
 | 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | AdobeTechブログの次のブログ投稿へのリンクを追加しました。<ul><li>Adobeテクニカルブログ — パート2:エッジプラットフォームで実験とパーソナライゼーションを行うために[!DNL Adobe Target] NodeJS SDKを実行する(AWS Lambda@Edge)</li></ul> |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。 &quot;[!UICONTROL 自動ターゲット]アクティビティのアーカイブは、同期の問題を引き起こす可能性があります。&quot; |
 | 17 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.5.0 リリースに関する情報を追加しました。 |
