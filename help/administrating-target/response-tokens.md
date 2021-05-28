@@ -5,10 +5,10 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 28%
+source-wordcount: '1622'
+ht-degree: 27%
 
 ---
 
@@ -84,7 +84,14 @@ ht-degree: 28%
 
 メタデータオブジェクトとデータオブジェクトを持つHandleオブジェクトクラスを使用して、[!DNL Target]応答をリッスンし、レスポンストークンを読み取ります。
 
-以下のコードサンプルは、[!DNL Platform Web SDK]カスタムイベントハンドラーをHTMLページに直接追加します。
+次の応答の例では、[!DNL Platform Web SDK]カスタムイベントハンドラーをHTMLページに直接追加します（この表では、コードで使用されるオブジェクトについて説明しています）。
+
+| オブジェクト | 情報 |
+| --- | --- |
+| タイプ — Personalization.decision | [!DNL Target]またはOffer decisioningプロバイダーが決定したか。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target] は、レスポンストークンのメタデータと値をページに提供します。 |
+| メタ | ページに渡されるメタデータ。 |
+| データ | ページに渡されるメタデータの値。 |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ ht-degree: 28%
 
 </html>
 ```
-
-| オブジェクト | 情報 |
-| --- | --- |
-| タイプ — Personalization.decision | [!DNL Target] そして、Offer decisioningデータをここに渡す。 |
-| DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target] は、レスポンストークンのメタデータと値をページに提供します。 |
-| メタ | ページに渡されるメタデータ。 |
-| データ | ページに渡されるメタデータの値。 |
 
 ### ![カスタムイベ](/help/assets/atjs.png) ントを使用したat.js badgeat.js
 
@@ -218,7 +218,7 @@ ht-degree: 28%
 
 ## Google Analyticsへのデータ送信
 
-次の節では、[!DNL Target]データをGoogle Analyticsに送信する方法について説明します。
+次の節では、[!DNL Target]データをGoogle Analyticsに送信する方法について説明します。 レスポンストークンから送信されたデータは、他のサードパーティ統合に送信することもできます。
 
 ### ![AEPバッ](/help/assets/platform.png) ジPlatform Web SDKを介してGoogle Analyticsにデータを送信
 
