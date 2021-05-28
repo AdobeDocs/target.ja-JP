@@ -1,13 +1,13 @@
 ---
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
-description: Adobe [!DNL Target] 出力固有の情報でレスポンストークンを使用し、デバッグやサードパーティシステム（Clicktaleなど）との統合を行う方法について説明します。
+description: Adobe [!DNL Target] 出力固有の情報でレスポンストークンを使用し、デバッグやサードパーティツールとの統合を行う方法について説明します。
 title: レスポンストークンとは何ですか？それらの使用方法を教えてください。
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 27%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.5.0以降（2021年6月2日にリリース予定）とat.jsバージョン1.1以降で利用できます。
+>レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.6.0以降（2021年6月2日にリリース予定）とat.jsバージョン1.1以降で利用できます。
 
 | Target SDK | 推奨アクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDKバージョン2.5.0以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『*Platform Web SDKの概要*』ガイドの「[SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)のインストール」を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『*Platform Web SDKの概要*』ガイドの[リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)を参照してください。 |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDKバージョン2.6.0以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『*Platform Web SDKの概要*』ガイドの「[SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)のインストール」を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『*Platform Web SDKの概要*』ガイドの[リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)を参照してください。 |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.jsには存在するがat.jsには存在しない内部メソッドを使用するプラグインの中には、配信されても失敗するものもあります。 詳しくは、[at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)を参照してください。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Platform Web SDKバージョン2.5.0（以降）またはat.jsバージョン1.1（以降）を使用していることを確認します。
+1. Platform Web SDKバージョン2.6.0（以降）またはat.jsバージョン1.1（以降）を使用していることを確認します。
 
    詳しくは、以下を参照してください。
 
@@ -176,7 +176,7 @@ ht-degree: 27%
 
 レスポンストークンは、[!DNL Target] [!UICONTROL 管理者]の役割を持つユーザーのみが有効化または無効化できます。
 
-**[!DNL Platform Web SDK] 2.5.0（またはそれ以前）を実行している場合はどうなりますか？
+**[!DNL Platform Web SDK] 2.6.0（またはそれ以前）を実行している場合はどうなりますか？
 
 レスポンストークンへのアクセス権がありません。
 
@@ -222,9 +222,60 @@ ht-degree: 27%
 
 ### ![AEPバッ](/help/assets/platform.png) ジPlatform Web SDKを介してGoogle Analyticsにデータを送信
 
-Google Analyticsは、HTMLページに次のコードを追加することで、Platform Web SDKバージョン2.5.0（またはそれ以降）を使用してデータを送信できます。
+Google Analyticsは、HTMLページに次のコードを追加することで、Platform Web SDKバージョン2.6.0（またはそれ以降）を使用してデータを送信できます。
 
-（今後の規範）
+>[!NOTE]
+>
+>レスポンストークンのキーと値のペアが`alloy(“sendEvent”`オブジェクトの下にあることを確認します。
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.jsバッ](/help/assets/atjs.png) ジat.jsを使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
