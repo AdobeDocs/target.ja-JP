@@ -5,14 +5,14 @@ title: TargetでのCNAMEの使用方法を教えてください。
 feature: プライバシーとセキュリティ
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
+source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 2%
+source-wordcount: '1191'
+ht-degree: 1%
 
 ---
 
-# CNAME と Adobe Target
+# CNAMEとTarget
 
 [!DNL Adobe] ClientCareと連携して、[!DNL Adobe Target]でCNAME（正規名）サポートを実装する手順。 CNAMEを使用して、広告ブロックの問題やITP関連(Intelligent Tracking Prevention)Cookieポリシーを処理します。 CNAMEを使用すると、[!DNL Adobe]が所有するドメインではなく、顧客が所有するドメインが呼び出されます。
 
