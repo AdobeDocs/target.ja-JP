@@ -5,9 +5,9 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1624'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->レスポンストークンは、[!DNL Adobe Experience Platform Web SDK]バージョン2.6.0以降（2021年6月2日にリリース予定）とat.jsバージョン1.1以降で利用できます。
+>レスポンストークンは[!DNL Adobe Experience Platform Web SDK]バージョン2.6.0以降とat.jsバージョン1.1以降で利用できます。
 
 | Target SDK | 推奨アクション |
 |--- |--- |
