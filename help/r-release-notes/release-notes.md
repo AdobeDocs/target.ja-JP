@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 55%
+source-wordcount: '701'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 55%
 >新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行して、サイトで発生する可能性のある問題を回避します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.6.0（2021年6月2日）
+
+このリリースの[!DNL Platform Web SDK]には、次のサポートが含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [!UICONTROL Analytics for Target](A4T)によるリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)を使用する場合、Platform Web SDKで[!DNL Target]リダイレクトがサポートされるようになりました。<br>詳しくは、実装のAnalyticsを参照 [して [!DNL Target] ください](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| レスポンストークン | Platform Web SDKで[!DNL Target]レスポンストークンがサポートされるようになりました。<br>詳しくは、レスポンストークンを [参照してください](/help/administrating-target/response-tokens.md)。 |
 
 ## at.jsバージョン2.5.0（2021年5月14日）
 
