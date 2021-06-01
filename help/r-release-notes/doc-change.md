@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 製品ドキュメントに関する重要な�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 54%
+source-wordcount: '1334'
+ht-degree: 53%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 54%
 | --- | --- | --- |
 | 6 月 2 日 | [CNAMEおよび [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 以下の FAQ を追加しました。<ul><li>CNAMEでのオプトアウトリンクの使用方法</li></ul> |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | オプトアウトリンクをCNAMEで使用する方法について説明するために、「オプトアウトリンク」の節を更新しました。 |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK]に関する情報を追加しました。 |
+|  | [実装用 [!DNL Target] のAnalytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK]実装の実装手順</li></ul> |
+|  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4TとPlatform Web SDKでのリダイレクトオファーの使用に関する情報を追加しました。 |
+|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]でのレスポンストークンの使用に関する情報を追加しました。 |
 | 5 月 28 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API呼び出しに関する節を追加しました。 上限は、1分あたり50コールです。 |
 | 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | AdobeTechブログの次のブログ投稿へのリンクを追加しました。<ul><li>Adobeテクニカルブログ — パート2:エッジプラットフォームで実験とパーソナライゼーションを行うために[!DNL Adobe Target] NodeJS SDKを実行する(AWS Lambda@Edge)</li></ul> |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。 &quot;[!UICONTROL 自動ターゲット]アクティビティのアーカイブは、同期の問題を引き起こす可能性があります。&quot; |
