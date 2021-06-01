@@ -4,7 +4,7 @@ title: ' [!DNL Target] 文書はどこで入手できますか？'
 description: Adobe [!DNL Target] を使用して、顧客のエクスペリエンスをパーソナライズし、Webサイト、モバイルサイト、アプリ、その他のデジタルチャネルの売上高を最大化する方法を説明します。
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
