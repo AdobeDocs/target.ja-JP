@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 27%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 27%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL Analytics for Target](A4T)によるリダイレクトのサポート | A4Tを使用する際に、Platform Web SDKで[!DNL Target]リダイレクトがサポートされるようになりました。 [!DNL Adobe Target]のリダイレクトオファーは、ブラウザーが新しいページにリダイレクトされる原因となります。<br>詳しくは、リダイレクトオファーを参照してください。 |
-| レスポンストークン | Platform Web SDKで[!DNL Target]レスポンストークンがサポートされるようになりました。<br> レスポンストークンを使用すると、ブランドのWebペ [!DNL Adobe Target] ージに固有の情報を自動的に出力できます。この情報には、アクティビティ、オファー、エクスペリエンス、ユーザープロファイル、地域情報などの詳細が含まれます。 これらの詳細は、内部またはサードパーティのシステムと共有したり、デバッグに使用したりするための追加の応答データを提供します。<br>詳しくは、レスポンストークンを [参照してください](/help/administrating-target/response-tokens.md)。 |
+| [!UICONTROL Analytics for Target](A4T)によるリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)を使用する場合、Platform Web SDKで[!DNL Target]リダイレクトがサポートされるようになりました。<br>詳しくは、実装のAnalyticsを参照 [して [!DNL Target] ください](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| レスポンストークン | Platform Web SDKで[!DNL Target]レスポンストークンがサポートされるようになりました。<br>詳しくは、レスポンストークンを [参照してください](/help/administrating-target/response-tokens.md)。 |
 
 ## [!DNL Target Standard/Premium] 21.5.1（2021年6月9日）
 
