@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations;Recommendations の条件;Recommendations アルゴリズム;Recommendations アクティビティ;条件;Recommendations のターゲティング:recs
-description: 以前のユーザーアクティビティやその他のアルゴリズムを基にして、Adobe [!DNL Target] のRecommendationsアクティビティが、顧客が興味を持つ可能性のあるコンテンツを自動的に表示する方法について説明します。
-title: ' [!DNL Target] Recommendationsとは'
+description: Adobe  [!DNL Target] の Recommendations アクティビティについて説明します。これらのアクティビティでは、以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のあるコンテンツを自動的に表示します。
+title: ' [!DNL Target]  Recommendations とは'
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 | デザイン | デザインは、[!DNL Recommendations] アクティビティでの Recommendations の外観（行、列、テーブル、グリッドなど）を定義します。この記事の上部の図は、4 x 1 のデザインを示しています。詳しくは、[ブックマークの作成](/help/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
 | 場所 | 場所とは、パーソナライゼーションと最適化の目的でアクティビティを実行する Web ページ、モバイルアプリ、電子メール上の特定のコンテンツ領域を指します。 |
 | オーディエンス | オーディエンスは、ターゲットアクティビティが表示される、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。 |
-| オファーとしての Recommendations  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
+| オファーとしてのレコメンデーション  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
 
 ## トレーニングビデオ：アクティビティタイプ ![概要バッジ](/help/assets/overview.png)
 
