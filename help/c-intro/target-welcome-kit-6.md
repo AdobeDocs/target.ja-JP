@@ -1,14 +1,14 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe [!DNL Target] をテストやパーソナライゼーションの一環として使用する場合に、他のユーザーのミスから同じエラーを起こさないように学びます。
-title: ' [!DNL Target] を使う際によくある間違いとは何ですか？'
+description: 他のユーザーのミスから教訓を学んで、テストやパーソナライゼーション戦略の一環として Adobe  [!DNL Target] を使用する際に同じ間違いを犯さないようにします。
+title: ' [!DNL Target] を使用する際に犯しがちなミスにはどのようなものがありますか？また、そのようなミスを避けるにはどうすればよいですか？'
 feature: 概要
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
