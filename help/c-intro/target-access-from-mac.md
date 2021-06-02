@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud;新規登録;言語;デフォルトの UI 言語;デフォルトの言語
-description: ' [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UIとドキュメントにアクセスする方法を説明します。'
-title: ' [!DNL Target] Adobe Experience Cloudからアクセスする方法'
+description: ' [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI とドキュメントへのアクセス方法を説明します。'
+title: Adobe Experience Cloud から [!DNL Target] にアクセスする方法
 feature: 概要
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Cloudから[!DNL Target]にアクセス
+# Adobe Experience Cloud から [!DNL Target] へのアクセス
 
 [!DNL Adobe Experience Cloud] から [!DNL Adobe Target] へのアクセス、デフォルトのランディングページの設定および [!DNL Target] ユーザーインターフェイスの言語の変更に関する情報です。
 
-## Adobe[!DNL Target]にサインインし、デフォルトの表示を設定する
+## Adobe [!DNL Target] へのログインとデフォルト表示の設定
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/) に新規登録します。
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
    ![ランディングページ](/help/c-intro/assets/pagepref-new.png)
 
-## [!DNL Target] UI {#language}のデフォルト言語を変更します
+## [!DNL Target] UI のデフォルト言語の変更 {#language}
 
 1. [!DNL Adobe Experience Cloud ] または [!DNL Target] に新規登録した後、自分のプロフィールのアバターをクリックしてから、「**[!UICONTROL 環境設定を編集]**」をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 1. [!DNL Adobe Experience Cloud]または[!DNL Target]からログアウトして、再度ログインして変更内容を有効にします。
 
-## [!DNL Target]製品ドキュメント{#doc-lang}の言語を変更します
+## [!DNL Target] 製品ドキュメントの言語の変更 {#doc-lang}
 
 お使いのオペレーティングシステムやブラウザーの設定で、優先言語を検出し、その言語のドキュメント（使用できる場合）を表示する必要があります。[!DNL Target] ドキュメントは、自動的に翻訳され、英語ドキュメントの変更後数時間以内に英語バージョンと同期されます。
 
