@@ -1,14 +1,14 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe [!DNL Target] をテストとパーソナライゼーションの一環として使用する方法に関するエキスパートのパネルからヒントを読みます。
+description: テストおよびパーソナライゼーションに関する取り組みの一環として Adobe  [!DNL Target] を使用することに関して、エキスパートからのヒントを参考にすることができます。
 title: Target を使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: 概要
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 詳しくは、[Target へのデータの取り込み方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)を参照してください。
 
-## ヒント2:[!DNL Target]オーディエンスを他のAdobe Experience Cloudオーディエンスと混ぜ合わせて、もっと詳しくパーソナライズします。
+## ヒント 2：[!DNL Target]オーディエンスを他の Adobe Experience Cloud オーディエンスとブレンドすることで、より詳細にパーソナライズできます。
 
 異なる [!DNL Adobe Experience Cloud] ソリューション内のオーディエンスを組み合わせることで、顧客に関するより幅広い理解を深め、より詳細にパーソナライズすることができます。例えば、[!DNL Target] はリアルタイムオーディエンスデータを提供しますが、[!DNL Adobe Analytics] は履歴オーディエンスデータを提供します。この 2 つを組み合わせると、顧客の行動が一貫しているタイミングや、新しい行動を取る機会が生じたタイミングを特定するのに役立ちます。アクティビティを作成する場合は、「すべての訪問者」の横のドロップダウンメニューをクリックするだけです。次に、最大 20 のオーディエンスのチェックボックスをオンにし、「複数のオーディエンスを組み合わせる」、「保存」の順にクリックします。
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 **役に立つ知識**：[!DNL Adobe Audience Manager] オーディエンスは、 [!DNL Target] で自動的に使用できます。しかし、[!DNL Adobe Analytics] オーディエンスの共有には、手動による設定が少し必要です。[!DNL Analytics] でのオーディエンス構築プロセス中に、「これをExperience Cloud オーディエンスにする」というラベルの付いたボックスを選択するだけです。次に、[!DNL Target] で、「Experience Cloud オーディエンスを読み込む」をクリックします。
 
-## ヒント3:[!DNL Target]からデータをエクスポートし、サードパーティのツールで使用します。
+## ヒント 3： [!DNL Target] からデータをエクスポートして、サードパーティ製ツールで使用できます。
 
 応答トークンを使用すると、管理者は [!DNL Target] からサードパーティのツールへと簡単にデータを取り込むことができます。これは、調査ツールで収集されたデータにデータを追加する場合に便利です。例えば、調査が訪問者のサンプルに「9」、別のスコアに「4」というエクスペリエンスを表示した場合、データを使用して、エクスペリエンス A の閲覧者とエクスペリエンス B の閲覧者を確認できます。また、応答トークンを使用して、[!DNL Target] データを内部 Data Warehouse 書き出すこともできます。「管理」をクリックし、目的の応答トークンの横にあるスイッチをオンの位置に切り替えます。次に、アクティビティを作成します。すると、データをサードパーティベンダーに転送する準備が整います。[!DNL Target] がデバッグツールを使ってデータを書き出していることを確認できます。
 
