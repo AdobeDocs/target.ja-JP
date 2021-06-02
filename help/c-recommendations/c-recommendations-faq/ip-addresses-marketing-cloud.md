@@ -1,22 +1,22 @@
 ---
 keywords: IP アドレス;IP アドレス;許可リスト;ファイアウォール;recs;フィード;サーバー;Adobe Experience Cloud;Recommendations
-description: ' [!DNL Target] Recommendationsフィード処理サーバーで使用するIPアドレスのリストを表示し、Adobeサーバーから送信されるIPアドレスを許可するようにファイアウォールを設定するのに役立ちます。'
+description: ' [!DNL Target]  Recommendations のフィード処理サーバーで使用される IP アドレスのリストが表示されるので、アドビのサーバーから生じる IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。'
 title: Recommendations のフィード処理サーバーが使用する IP アドレス
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations フィード処理サーバーで使用される IP アドレス
 
-[!DNL Adobe Target] [!DNL Recommendations]フィード処理サーバーで使用されるIPアドレスのリスト。AdobeサーバーからのIPアドレスを許可するようにファイアウォールを設定する場合に役立ちます。
+[!DNL Adobe Target] [!DNL Recommendations]のフィード処理サーバーで使用される IP アドレスのリストが表示されるので、アドビのサーバーから生じる IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。
 
-[!DNL Target]  Recommendationsアクティビティは、お客様のFTPサーバーにアクセスする際に、以下のAWSホストを使用します。
+[!DNL Target] [!UICONTROL Recommendations] アクティビティでは、顧客の FTP サーバーにアクセスする際に、以下の AWS ホストを使用します。
 
 | 場所 | ホスト |
 | --- | --- |
@@ -24,8 +24,8 @@ ht-degree: 24%
 | オレゴン | `44.232.167.82` |
 | オレゴン | `52.41.252.205` |
 
-[!DNL Target]  RecommendationsAPIも同じAWSホストを使用します。
+[!DNL Target] [!UICONTROL Recommendations] API も同じ AWS ホストを使用します。
 
 >[!NOTE]
 >
->これらのIPアドレスは、2021年3月16日に最終更新されました。 以前は、FTPサーバーにアクセスするサーバーは、192.243.242.0/24 IPアドレスCIDRブロックにありました。 RecommendationsAPIをホストするサーバーは、192.243.224.0/20のIPアドレスCIDRブロックに含まれていました。
+>これらの IP アドレスの最終更新日は、2021 年 3 月 16 日（PT）です。 以前は、FTP サーバーにアクセスするサーバーは、192.243.242.0/24 の IP アドレスの CIDR ブロックにありました。 Recommendations API をホストするサーバーは、192.243.224.0/20 の IP アドレスの CIDR ブロックに含まれていました。
