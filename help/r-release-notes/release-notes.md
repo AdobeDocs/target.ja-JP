@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 50%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->**mbox.jsの提供終了**:2021年3月31日現在、 [!DNL Adobe Target] はmbox.jsライブラリをサポートしていません。2021 年 3 月 31 日以降、mbox.js からのすべての呼び出しは失敗し、デフォルトのコンテンツを表示して [!DNL Target] アクティビティを実行しているページには影響があります。
+>**mbox.js のサポート終了**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target]mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しは失敗し、デフォルトのコンテンツを表示して [!DNL Target] アクティビティを実行しているページには影響があります。
 >
 >新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行して、サイトで発生する可能性のある問題を回避します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
@@ -34,29 +34,29 @@ ht-degree: 50%
 
 ## at.jsバージョン2.5.0（2021年5月14日）
 
-at.jsのこのリリースには、次の機能強化および変更が含まれています。
+at.js のこのリリースには、次の機能強化および変更が含まれています。
 
-* [at.jsのオンデ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) バイス判定のサポート。
-* [プレビューリ](/help/c-activities/c-activity-qa/activity-qa.md) ンクのサポート(Automated Personalizationアクティビティ)
+* at.js の[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)のサポート。
+* Automated Personalization アクティビティでの[プレビューリンク](/help/c-activities/c-activity-qa/activity-qa.md)のサポート
 
 このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。
 
-## Target Standard／Premium 21.4.1（2021 年 4 月 19 日）
+## Target Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
 
 このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 | 機能 | 詳細 |
 | --- | --- |
-| at.js<br>のオンデバイス判定サポート（発表日） | デバイス上での判定により、マーケターと開発者は、ほぼゼロの待ち時間で、ユーザーのブラウザーで実験とパーソナライゼーションを実施できます。<br>詳しくは、「 at.jsのオ [ンデバイス判定」を参照してください。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![](/help/assets/premium.png) エンティティフィルタールール用のPremiumListベースの演算子 | [!DNL Target Recommendations] では、エンティティのフィルタールール用の新しいリストベースの演算子をサポートしています。(TGT-39234)<br>新しく追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに</li><li>リストに</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>詳しくは、[動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
+| at.js のオンデバイス判定のサポート<br>（日付は後日発表） | オンデバイス判定機能を使用すると、マーケターと開発者は、ほぼゼロの待ち時間でユーザーのブラウザー上で実験とパーソナライズを行うことができます。<br>詳しくは、[at.js のオンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)を参照してください。 |
+| ![Premium](/help/assets/premium.png) エンティティフィルタリングルール用のリストベースの演算子 | [!DNL Target Recommendations] では、エンティティフィルタリングルールでリストベースの新しい演算子をサポートしています。 （TGT-39234）<br>新たに追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに項目が含まれる</li><li>リストに項目が含まれない</li><li>リストにすべての項目が含まれる</li><li>リストにすべての項目が含まれているわけではない</li></ul>詳しくは、[動的および静的包含ルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
 
 このリリースには、次の修正が含まれています。
 
-* オーディエンスを[!UICONTROL すべての訪問者]に変更した後、アクティビティを同期できない問題を修正しました。 （TGT-40259）
-* 「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、[!UICONTROL Automated Personalization]アクティビティの別の場所でオファーを使用すると重複しない問題を修正しました。 （TGT-39567）
-* [!UICONTROL 管理] / [!UICONTROL Scene7設定]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
-* プロパティが正しくないワークスペースにマッピングされる問題を修正しました。 （TGT-39869）
-* レコメンデーションの除外を作成する際に環境を変更した後にリクエストが失敗した場合に無限読み込みが発生する問題を修正しました。 （TGT-39948）
+* オーディエンスを[!UICONTROL すべての訪問者]に変更した後でアクティビティを同期できない問題を修正しました。 （TGT-40259）
+* 「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、[!UICONTROL Automated Personalization] アクティビティの異なる場所で使用するとオファーを複製できない問題を修正しました。 （TGT-39567）
+* [!UICONTROL 管理]／[!UICONTROL Scene7 設定]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
+* プロパティが誤ったワークスペースにマッピングされる問題を修正しました。 （TGT-39869）
+* レコメンデーションの除外を作成中に環境を変更した後にリクエストが失敗した場合、無限の読み込みが発生する問題を修正しました。 （TGT-39948）
 
 ## その他のリリースノートとバージョンの詳細
 
