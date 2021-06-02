@@ -1,18 +1,18 @@
 ---
 keywords: Target ユーザーインターフェイス;ユーザーインターフェイス;UI
 description: ユーザーインターフェイスに慣れ、Target を最大限に活用するための詳細情報へのリンクを見つけます。
-title: ' [!DNL Target] UIの使用方法'
+title: ' [!DNL Target] UI の使用方法'
 feature: 概要
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# [!DNL Target] UIを理解する
+# [!DNL Target] UI について
 
 ユーザーインターフェイスは、[!DNL Adobe Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。以下の概要は、[!DNL Target]に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
 
