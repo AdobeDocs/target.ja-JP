@@ -1,14 +1,14 @@
 ---
 keywords: insider ニュースレター;ニュースレター;製品の最新情報;ヒントとコツ;イベント;顧客の成功;ブログ;ホワイトペーパー;ホワイトペーパー
 description: Adobe Target の最新ニュースをお読みください。今後のイベント、お客様の成功事例、エキスパートによる情報やヒントなどを確認できます。
-title: Adobe [!DNL Target] Insider Newsletterとは何ですか？
+title: Adobe  [!DNL Target] インサイダーニュースレターとは
 feature: リリースノート、概要
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Target Insider は、Adobe Target コミュニティのメンバーを対�
 | [2018 年 8 月（1 巻 8 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-august.html) | この Adobe Target Inder ニュースレターでは、最適化とパーソナライゼーションの専門知識を構築するための貴重なリソースとして、Adobe Experience League for Adobe Target を見つけることができます。次に、Carmax の Jake Mitchell 氏が、ユーザーエクスペリエンスの最適化について Adobe Target に依存しています。最後に、Adobe Target Premium の新しいパーソナライゼーションインサイトレポートでデータ科学を掘り下げます。 |
 | [2018 年 7 月（1 巻 7 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-july.html) | このエディションの Adobe Target Insider では、Target コミュニティによってホストされている新しいウェビナーシリーズである Adobe Target 基本を紹介します。このシリーズでは、ベストプラクティスとヒントとテクニックについて、ソリューションユーザーインターフェイス（UI）に導入できます。また、パーソナライゼーションサーベイの最新の AI でのパーソナライゼーション、パーソナライゼーションサーベイの新機能について、Nicolas Mériel からのアイデアも共有します。 |
 | [2018 年 6 月（1 巻 6 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-june.html) | アドビは、「The Forrester Wave™：エクスペリエンス最適化プラットフォーム（2018 年第 2 四半期）」レポートで唯一のリーダーに選ばれたことを光栄に思います。アドビのソリューションがこのような名誉を獲得できたのは、お客様のご支援と有益なご意見のたまものです。誠にありがとうございました。このレポートに関するアドビのブログ投稿をお読みください。お客様の最適化プログラムを具体化するための 5 つのヒントを紹介しています。また、アトランタでの最近の Adobe Insider ツアーの模様もお楽しみいただけるなど、盛りだくさんの内容です。 |
-| [2018 年 5 月（1 巻 5 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | この号では、EU の一般データ保護規則（GDPR）に対する Adobe Experience Cloud の取り組みを紹介しています。GDPR は 5月25日に施行されます。パーソナライゼーショントラックの大人気 Adobe Summit セッションの模様もお楽しみいただけます。また、B2B のお客様向けに、最大手 B2B 企業である Grainger から得られたインサイトも紹介しています。 |
+| [2018 年 5 月（1 巻 5 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | この号では、EU の一般データ保護規則（GDPR）に対する Adobe Experience Cloud の取り組みを紹介しています。GDPR は 5月26日に施行されます。パーソナライゼーショントラックの大人気 Adobe Summit セッションの模様もお楽しみいただけます。また、B2B のお客様向けに、最大手 B2B 企業である Grainger から得られたインサイトも紹介しています。 |
 | [2018 年 4 月（1 巻 4 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | この号では、ラスベガスで開催された Adobe Summit のハイライトを一部お楽しみいただけるほか、アドビのチームや同業者との有益な直接のつながりを継続する新たな機会となる Adobe Insider ツアーも紹介しています。さらに、Adobe Experience Business Excellence Awards の最終選考に残った 5 社についても触れています。Adobe Target を使用したパーソナライゼーションの成功事例を発表していただいた企業です。この号では、ラスベガスで開催された Adobe Summit のハイライトを一部お楽しみいただけるほか、アドビのチームや同業者との有益な直接のつながりを継続する新たな機会となる Adobe Insider ツアーも紹介しています。さらに、Adobe Experience Business Excellence Awards の最終選考に残った 5 社についても触れています。Adobe Target を使用したパーソナライゼーションの成功事例を発表していただいた企業です。 |
 | [2018 年 3 月（1 巻 3 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | 今年は、Adobe Target の革新的な新機能の開発に打ち込んできました。これらは Adobe Summit で発表したばかりです。この号では、これらの新機能を紹介すると共に、Adobe Target をさらに有効活用するのに役立つ専門的な技術記事をいくつか掲載しています。 |
 | [2018 年 2 月（1 巻 2 号）](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | この号では、Adobe Summit でおこなわれるパーソナライゼーション関連セッションの概要をまとめました。ご覧になり、ご興味のあるセッションをお選びください。サミットでお会いしましょう。また、以下の記事から、2018 年のパーソナライゼーションにおける AI の状況に関する調査の趣旨をご理解のうえ、調査にご協力ください。ほんの感謝のしるしとして、調査フォームへの記入が完了したらスターバックスコーヒーのサービスをご利用いただけます。 |
