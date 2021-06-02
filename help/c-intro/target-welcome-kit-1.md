@@ -1,14 +1,14 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe Target で最適化とパーソナライゼーションのプログラムを開始しましょう。Adobe [!DNL Target] ウェルカムキットは良い出発点です。
+description: Adobe Target で最適化とパーソナライゼーションのプログラムを開始しましょう。Adobe  [!DNL Target] ウェルカムキットは出発点として最適です。
 title: Target を使い始めるにはどうすればよいですか。
 feature: 概要
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
