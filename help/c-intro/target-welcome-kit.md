@@ -1,18 +1,18 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe Target を始めて使用する場合Adobe [!DNL Target] ウェルカムキットでジャンプ開始を入手。
+description: Adobe Target を始めて使用する場合Adobe  [!DNL Target] ウェルカムキットですぐに作業を始めることができます。
 title: Target の使用を開始する方法
 feature: 概要
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Adobe[!DNL Target]ウェルカムキット
+# Adobe [!DNL Target] ウェルカムキット
 
 Adobe Target へようこそ。
 
