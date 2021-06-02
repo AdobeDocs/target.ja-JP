@@ -1,13 +1,13 @@
 ---
 keywords: お知らせ;スキルビルダー;開発者チャット;coffee break;events;forrester;gartner;ウェビナー
-description: お知らせを読み、Skill Builderセッション、開発者と製品管理者のチャット、ウェビナーなど、Adobe [!DNL Target] のイベントにサインアップします。
-title: ' [!DNL Target] お知らせとイベントはどこで見つけられますか？'
+description: お知らせを読み、スキルビルダーセッションや、開発者と製品管理者のチャット、ウェビナーなどの Adobe [!DNL Target] イベントに登録してください。
+title: ' [!DNL Target] のお知らせやイベントについて'
 feature: リリースノート
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Target は最近、 Forrester と Gartner の両方から市場リーダ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## ウェビナー：HSBCがAdobe[!DNL Target]とAIを活用して、パーソナライゼーションを迅速にスケールで最適化/提供する方法
+## ウェビナー：HSBC が Adobe [!DNL Target]と AI をどのように活用して大規模なパーソナライゼーションを迅速に最適化し提供を実現したか
 
 * **[こちらからウェビナーの録画をご覧ください](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
@@ -48,8 +48,8 @@ Adobe と HSBC によるこのウェビナーに参加して次のことを学�
 
 *McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020 年 5 月
 
-## Adobe[!DNL Target] Skill Builder:開発者チャット，Adobe[!DNL Target]のmbox.jsをat.js {#skill-builder}に移行
+## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target]の mbox.js を at.js に移行€ {#skill-builder}
 
-2021年3月31日にmbox.jsが廃止されると、Adobe TargetのProduct Manager、David Son氏が最近、開発者チャットを開催し、mbox.jsをat.jsに移行する利点について話し合いました。
+2021 年 3 月 31 日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
 * **[こちらからウェビナーの録画をご覧ください](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
