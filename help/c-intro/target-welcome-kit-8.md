@@ -1,14 +1,14 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
-description: Adobe [!DNL Target] アクティビティと成功を伝えるのに役立つExecutive Summary Resultsテンプレートを使用します。
-title: ' [!DNL Target] アクティビティの結果を組織と共有する方法を教えてください。'
+description: エグゼクティブサマリー結果テンプレートを使用すると、Adobe  [!DNL Target] アクティビティでの成功事例を伝えるのに役立ちます。
+title: ' [!DNL Target] アクティビティの結果を組織で共有する方法'
 feature: 概要
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
