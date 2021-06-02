@@ -4,11 +4,11 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: トラブルシューティング
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 * [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analyticsと[!DNL Target]の統合(A4T)
+## Analytics と [!DNL Target] の統合（A4T）
 
 * [AnalyticsとTargetの統合のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
@@ -139,7 +139,7 @@ ht-degree: 97%
 
 ## オンデバイス判定
 
-* [at.jsのオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [at.js のオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## レポート
 
