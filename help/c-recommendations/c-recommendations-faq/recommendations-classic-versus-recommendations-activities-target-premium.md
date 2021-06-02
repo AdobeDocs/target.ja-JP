@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
-description: ' [!DNL Target] Premiumの従来のRecommendationsクラシックアクティビティとRecommendationsの違いを理解するのに役立つ情報を確認します。'
-title: ' [!DNL Target] PremiumのRecommendations・クラシックとRecommendationsの違いは何ですか？'
+description: ' [!DNL Target] Premium の従来の Recommendations Classic アクティビティと Recommendations アクティビティの違いを理解するのに役立つ情報を確認します。'
+title: ' [!DNL Target] Premium の従来の Recommendations Classic と Recommendations の違い'
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![Premium Recommendations Classicと](/help/assets/premium.png)  [!DNL Target] PremiumのRecommendationsアクティビティの比較
+# ![PREMIUM](/help/assets/premium.png) [!DNL Target] Premium の Recommendations Classic アクティビティと Recommendations アクティビティの比較
 
 Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
 
@@ -28,7 +28,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Target] の [!DNL Recommendations] アクティビティは、主に次の点で [!DNL Recommendations Classic] より強化されています。
 
-## オファーとしての Recommendations 
+## オファーとしてのレコメンデーション 
 
 [!UICONTROL A/B テスト]（ [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
 
@@ -41,7 +41,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 開始するには、 [!UICONTROL A/B テスト]または [!UICONTROL エクスペリエンスのターゲット設定]アクティビティを [!UICONTROL Visual Experience Composer] を使用して作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後ろに挿入]、または [!UICONTROL 次で置換]アクションを使用して Recommendations をエクスペリエンスに追加します。
 
-詳細については、「[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
+詳細については、「[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
 
 ## 条件 {#section_117709846DAA404580EBE879FFCBD9BA}
 
