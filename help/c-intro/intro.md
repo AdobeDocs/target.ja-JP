@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動ターゲット;自動ターゲット;権限;Adobe Target とは;
-description: Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premiumの基本事項について説明します。標準製品では利用できない高度な機能が含まれています。
+description: Adobe  [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] の基本事項について説明します。Premium には、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 title: ターゲットは何か？
 feature: 概要
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ Target Premium には次のような機能があります。
 
    「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。
 
-### オファーとしての Recommendations 
+### オファーとしてのレコメンデーション 
 
-[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) で、[!UICONTROL A/B テスト]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット]および [!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommencations を含められるようになりました。
+[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md) で、[!UICONTROL A/B テスト]、[!UICONTROL 自動割り当て]、[!UICONTROL 自動ターゲット]および [!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommencations を含められるようになりました。
 
 この機能により、次のようなことがおこなえるようになります。
 
@@ -90,7 +90,7 @@ Target Premium には次のような機能があります。
 
 詳しくは、『[Recommendations Classic ドキュメント](/help/assets/adobe-recommendations-classic.pdf)』を参照してください。
 
-## Experience League:Adobe[!DNL Target]ウェルカムキット{#kit}
+## Experience League：Adobe [!DNL Target] ウェルカムキット {#kit}
 
 このウェルカムキットで、[!DNL Adobe Target] の最適化およびパーソナライゼーションプログラムを構築します。ウェルカムキットには、最初の [!DNL Target] アクティビティの準備と開始に役立つ重要な情報、ツール、リソースが含まれています。キットには、短期的な優先課題と長期的な最適化戦略のアイデアが含まれています。
 
