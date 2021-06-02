@@ -4,15 +4,15 @@ description: Adobe Target を俯瞰的に見る。利用可能なアクティビ
 title: Target の概要はどこで確認できますか？
 feature: 概要
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 第2章：Adobe[!DNL Target]の概要
+# 第 2 章：Adobe [!DNL Target] の概要
 
 [!DNL Adobe Target] を使い始める前に、ソリューションの概要を理解しておくと役に立つでしょう。この章では、ソリューションの主な機能、使用できるブランドのタッチポイント、実装オプション、重要なユーザーインターフェイス機能とワークフロー、ガバナンス機能および [!DNL Adobe Experience Cloud] 全体でのその役割について説明します。[!DNL Adobe Target Premium] 機能として特に記載がない限り、この章で説明する項目は [!DNL Adobe Target Premium] と [!DNL Adobe Target Standard] の両方で利用できます。詳細情報は、[Adobe Target の概要](/help/c-intro/intro.md)を参照してください。
 
