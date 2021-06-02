@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;検索エンジンの最適化;検索エンジンの最適化;seo;エッジクラスター;セントラルクラスター;at.js;mbox.js;
-description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScriptライブラリ（at.jsおよびAEP Web SDK）、Adobeデータセンター、SEOテストの仕組みを説明します。
-title: ' [!DNL Target] 機能の仕組み'
+description: Adobe  [!DNL Target] works, including information about the [!DNL Target]  JavaScript ライブラリ（at.js および AEP Web SDK）、アドビデータセンターおよび SEO テストの仕組みを説明します。
+title: ' [!DNL Target] の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Adobe[!DNL Target]の仕組み
+# Adobe [!DNL Target] の仕組み
 
 [!DNL Adobe Target] の仕組みを学びます。これには、[!DNL Adobe Experience Platform Web SDK] および JavaScript ライブラリ（at.js と mbox.js）に関する情報も含まれます。この記事では、[!DNL Target] を使用して作成できる様々なアクティビティタイプについても紹介します。また、[!DNL Target] エッジネットワーク、検索エンジン最適化(SEO)、および [!DNL Target] によるボットの検出方法についても説明します。
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 * **Adobe Experience Platform Web SDK：**[AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) は、新しいクライアントサイド JavaScript ライブラリです。AEP Web SDK を使用すると、[!DNL Adobe Experience Cloud] のお客様は、[!DNL AEP] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target]など）を操作できます。Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL AEP Web SDK] を実装することを推奨します。
 * **at.js：**[at.js ライブラリ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)は、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) にアップデートすることをお勧めします。
-* **mbox.js：**[mbox.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは 2021 年 3 月 31 日までサポートされます。ただし、この日以降、機能アップデートはリリースされません。
+* **mbox.js：**[mbox.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは 2021 年 3 月 31 日（PT）までサポートされます。ただし、この日以降、機能アップデートはリリースされません。
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 97%
 次のリソースには、AEP Web SDK または at.js の実装に役立つ詳細情報が含まれています。
 
 * [Adobe Experience Platform Web SDK 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ja#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launchを [!DNL Target] 使用した実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Launch を使用した [!DNL Target] の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションをおこなう、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 ### [!UICONTROL 自動配分]
 
-[!UICONTROL 自動配分は、2 つ以上のエクスペリエンスのうちの勝者を識別します。][!UICONTROL 自動配分は、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。]
+[!UICONTROL 自動配分は、2 つ以上のエクスペリエンスのうちの勝者を識別します。][!UICONTROL 自動配分は]、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。
 
 詳細については、「[[!UICONTROL 自動配分]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
 
@@ -72,7 +72,7 @@ Automated Personalization（AP）は、オファーやメッセージを組み�
 
 詳しくは、[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
 
-### [!UICONTROL エクスペリエンスのターゲット設定] (XT)
+### [!UICONTROL エクスペリエンスのターゲット設定]（XT）
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
@@ -112,7 +112,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 1 か所ですべてのターゲティングリクエストに応答するのではなく、訪問者に最も近いエッジクラスターでリクエストを処理します。このプロセスにより、ネットワークやインターネットでの通信時間の影響を緩和できます。
 
-![様々なタイプのターゲットサーバーを示すマップ](/help/c-intro/assets/target-servers.png)
+![各種のターゲットサーバーを示すマップ](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] 中央クラスターは、以下を含む、Amazon ウェブサービス（AWS）でホストされています。
 
@@ -213,6 +213,6 @@ Adobe [!DNL Target] は、[DeviceAtlas](https://deviceatlas.com/device-data/user
 * 訪問者プロファイルの作成または取得
 * プロファイル属性の記録またはプロファイルスクリプトの実行
 * Adobe Audience Manager（AAM）セグメントの検索（該当する場合）
-* Recommendations、自動ターゲット、Automated Personalization、または[!UICONTROL 自動配分]アクティビティ向けにパーソナライズされたコンテンツをモデリングおよび提供する際にボットトラフィックを使用する
+* Recommendations、自動ターゲット、Automated Personalization または[!UICONTROL 自動配分]の各アクティビティにおけるパーソナライズされたコンテンツのモデリングおよび提供時のボットトラフィックの使用
 * レポート用のアクティビティ訪問の記録
 * [!DNL Adobe Experience Cloud] プラットフォームに送信されたログデータ
