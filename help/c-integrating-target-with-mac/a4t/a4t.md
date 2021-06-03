@@ -4,20 +4,16 @@ description: ' [!DNL Analytics] for [!DNL Target] (A4T) to create activities bas
 title: ' [!DNL Analytics] for [!DNL Target] (A4T)とは'
 feature: Analytics for Target（A4T）
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14dfc3e19333848e50324a61539ddf693e17d3ce
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 30%
+source-wordcount: '1114'
+ht-degree: 31%
 
 ---
 
 # [!DNL Adobe Analytics] を( [!DNL Adobe Target] A4T)のレポートソースとして使用する場合
 
 [!DNL Adobe Analytics for Target] (A4T)は、コンバージョン指標とオーディエンスセグメントに基づいてアクティビティを作成できる、クロスソリ [!DNL Analytics] ューションの統合です。A4T統合により、[!DNL Analytics]レポートを使用して結果を調べることができます。 [!DNL Analytics]をアクティビティのレポートソースとして使用する場合、そのアクティビティのレポートとセグメント化はすべて[!DNL Analytics]のデータ収集に基づきます。
-
->[!NOTE]
->
->この記事で説明する[!DNL Adobe Experience Platform Web SDK]実装のA4Tサポートは、[!DNL Platform Web SDK]バージョン2.5.0リリース（2021年6月1日）で利用可能になる予定です。
 
 ## 概要 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -67,6 +63,7 @@ at.jsおよび[!DNL Adobe Experience Platform Web SDK]を使用したA4Tの実�
 | [多変量分析テスト（MVT）](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ | [!UICONTROL 要素の貢献度]レポートを取得するには、mboxベースの目標指標の目標が必要です。 [!UICONTROL 要素の貢献度]レポートは、現在、[!DNL Analytics]指標をサポートしていません。 |
 | [自動パーソナライゼーション（AP）アクティビティ](/help/c-activities/t-automated-personalization/automated-personalization.md) | × |  |
 | [Recommendations アクティビティ](/help/c-recommendations/recommendations.md) | ○ |  |
+| [リダイレクトオファーを使用するすべてのアクティビティ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | ○ |
 
 すべてのアクティビティタイプはまだA4Tをサポートしていないので、 `orderConfirmPage` mboxなど、重要なコンバージョンmboxを保持するか、実装することをお勧めします。
 
