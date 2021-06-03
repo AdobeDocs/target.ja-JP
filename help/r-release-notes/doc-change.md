@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 84%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6月3日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年6月9日（水）午前8時に開催されるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。(PDT、GMT-7)。 |
 | 6 月 2 日 | [CNAMEおよび [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 以下の FAQ を追加しました。<ul><li>CNAMEでのオプトアウトリンクの使用方法</li></ul> |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | オプトアウトリンクをCNAMEで使用する方法について説明するために、「オプトアウトリンク」の節を更新しました。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK]に関する情報を追加しました。 |
