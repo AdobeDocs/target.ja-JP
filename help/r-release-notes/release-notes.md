@@ -1,13 +1,13 @@
 ---
 keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;修正;バグ修正;アップデート
-description: SDK、API、JavaScript ライブラリなど、Adobe Target の現在のリリースに含まれている新機能、機能強化および修正について説明します。
+description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]の現在のリリースに含まれる新機能、機能強化、修正点について説明します。
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 86%
+source-wordcount: '683'
+ht-degree: 83%
 
 ---
 
