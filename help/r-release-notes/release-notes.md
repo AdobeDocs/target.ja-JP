@@ -4,7 +4,7 @@ description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 83%
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.6.0（2021年6月2日）
+## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.5.0（2021年6月2日）
 
 このリリースの[!DNL Platform Web SDK]には、次のサポートが含まれています。
 
