@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
+source-git-commit: 92223e71001804d4649e5cb613810e632bec44c9
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 83%
+source-wordcount: '1393'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK]に関する情報を追加しました。 |
 |  | [実装用 [!DNL Target] のAnalytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK]実装の実装手順</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4TとPlatform Web SDKでのリダイレクトオファーの使用に関する情報を追加しました。 |
-|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]でのレスポンストークンの使用に関する情報を追加しました。 |
+|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]でのレスポンストークンの使用に関する情報を追加しました。<br>**注意**:この機能は、今後のリリースのPlatform Web SDKでリリースされる予定です。決定する日付。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.6.0（2021年6月2日）リリースに関する情報を追加しました。 |
 | 5 月 28 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API呼び出しに関する節を追加しました。 上限は、1分あたり50コールです。 |
 | 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | アドビテクニカルブログの以下のブログ投稿へのリンクを追加しました。<ul><li>Adobeテクニカルブログ — パート2:エッジプラットフォームで実験とパーソナライゼーションを行うために[!DNL Adobe Target] NodeJS SDKを実行する(AWS Lambda@Edge)</li></ul> |
