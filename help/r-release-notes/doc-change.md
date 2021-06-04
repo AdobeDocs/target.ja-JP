@@ -4,7 +4,7 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 81%
@@ -26,7 +26,7 @@ ht-degree: 81%
 |  | [実装用 [!DNL Target] のAnalytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK]実装の実装手順</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4TとPlatform Web SDKでのリダイレクトオファーの使用に関する情報を追加しました。 |
 |  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]でのレスポンストークンの使用に関する情報を追加しました。<br>**注意**:この機能は、今後のリリースのPlatform Web SDKでリリースされる予定です（日付は未定）。 |
-|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.6.0（2021年6月2日）リリースに関する情報を追加しました。 |
+|  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0（2021年6月2日）リリースに関する情報を追加しました。 |
 | 5 月 28 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API呼び出しに関する節を追加しました。 上限は、1分あたり50コールです。 |
 | 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | アドビテクニカルブログの以下のブログ投稿へのリンクを追加しました。<ul><li>Adobeテクニカルブログ — パート2:エッジプラットフォームで実験とパーソナライゼーションを行うために[!DNL Adobe Target] NodeJS SDKを実行する(AWS Lambda@Edge)</li></ul> |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。 &quot;[!UICONTROL 自動ターゲット]アクティビティのアーカイブは、同期の問題を引き起こす可能性があります。&quot; |
