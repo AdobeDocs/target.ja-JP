@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の現�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 84%
+source-wordcount: '685'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 84%
 | 機能 | 詳細 |
 | --- | --- |
 | [!UICONTROL Analytics for Target](A4T)によるリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)を使用する場合、Platform Web SDKで[!DNL Target]リダイレクトがサポートされるようになりました。<br>詳しくは、実装のAnalyticsを参照 [して [!DNL Target] ください](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-| レスポンストークン | Platform Web SDKで[!DNL Target]レスポンストークンがサポートされるようになりました。<br>詳しくは、レスポンストークンを [参照してください](/help/administrating-target/response-tokens.md)。 |
 
 ## at.jsバージョン2.5.0（2021年5月14日）
 
