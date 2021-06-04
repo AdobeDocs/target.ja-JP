@@ -5,9 +5,9 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1650'
 ht-degree: 27%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Experience Platform Web SDK]を使用したレスポンストークン機能は、今後のリリース（決定予定日）で利用できる予定です。 以下のレスポンストークンとPlatform Web SDKに関するドキュメントは、スニークピークとして含まれています。
+>レスポンストークンは、今後のリリース（決定予定日）で[!DNL Adobe Experience Platform Web SDK]で利用できるようになります。 以下のレスポンストークンとPlatform Web SDKに関するドキュメントは、スニークピークとして含まれています。
 
 | Target SDK | 推奨アクション |
 |--- |--- |
