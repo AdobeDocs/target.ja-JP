@@ -4,10 +4,10 @@ description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 83%
+source-wordcount: '615'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 83%
 >新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行して、サイトで発生する可能性のある問題を回避します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## Target Standard／Premium 21.6.1（2021 年 6 月 7 日（PT））
+
+このリリースで強化された機能は次のとおりです。
+
+| 機能 | 詳細 |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | APIを使用して[!DNL Recommendations]製品およびコンテンツカタログをプログラムで検索し、検索条件に一致する項目を特定して、カタログの管理を簡略化します。<br>**制限事項と注意事項**:<ul><li>APIを使用したカタログ検索は、2,000,000個を超える項目を持つ環境ではサポートされていません。</li><li>APIを使用したカタログ検索結果は、[!DNL Target] UIを使用したカタログ検索結果よりも迅速に更新されます。 [!DNL Target] UIでのカタログ検索には、最新の結果を反映するのに、さらに時間がかかる場合があります。</li></ul>詳しくは、『 *[!DNL Adobe Target][!DNL Recommendations] API* 』ガイドの[エンティティ](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)の検索を参照してください。 |
+
+このリリースのメンテナンスリリースには、次の修正が含まれています。
+
+* [!UICONTROL オーディエンス]ページを更新すると、デフォルトのワークスペースが別のワークスペースに変更される問題を修正しました。 （TGT-38871）
+* [!UICONTROL 管理] / [!UICONTROL 実装]で、「グローバルmboxが同期していない可能性があります。」というエラーメッセージが表示される問題を修正しました。 保存し直してください」
 
 ## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.5.0（2021年6月2日）
 
@@ -39,23 +52,6 @@ at.js のこのリリースには、次の機能強化および変更が含ま�
 * Automated Personalization アクティビティでの[プレビューリンク](/help/c-activities/c-activity-qa/activity-qa.md)のサポート
 
 このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。
-
-## Target Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
-
-このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
-
-| 機能 | 詳細 |
-| --- | --- |
-| at.js のオンデバイス判定のサポート<br>（日付は後日発表） | オンデバイス判定機能を使用すると、マーケターと開発者は、ほぼゼロの待ち時間でユーザーのブラウザー上で実験とパーソナライズを行うことができます。<br>詳しくは、[at.js のオンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)を参照してください。 |
-| ![Premium](/help/assets/premium.png) エンティティフィルタリングルール用のリストベースの演算子 | [!DNL Target Recommendations] では、エンティティフィルタリングルールでリストベースの新しい演算子をサポートしています。 （TGT-39234）<br>新たに追加された演算子は次のとおりです。<br><ul><li>リストに含まれる</li><li>リストに含まれない</li><li>リストに項目が含まれる</li><li>リストに項目が含まれない</li><li>リストにすべての項目が含まれる</li><li>リストにすべての項目が含まれているわけではない</li></ul>詳しくは、[動的および静的包含ルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)の「使用可能な演算子」を参照してください。 |
-
-このリリースには、次の修正が含まれています。
-
-* オーディエンスを[!UICONTROL すべての訪問者]に変更した後でアクティビティを同期できない問題を修正しました。 （TGT-40259）
-* 「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、[!UICONTROL Automated Personalization] アクティビティの異なる場所で使用するとオファーを複製できない問題を修正しました。 （TGT-39567）
-* [!UICONTROL 管理]／[!UICONTROL Scene7 設定]ページが正しく読み込まれない問題を修正しました。 （TGT-39918）
-* プロパティが誤ったワークスペースにマッピングされる問題を修正しました。 （TGT-39869）
-* レコメンデーションの除外を作成中に環境を変更した後にリクエストが失敗した場合、無限の読み込みが発生する問題を修正しました。 （TGT-39948）
 
 ## その他のリリースノートとバージョンの詳細
 
