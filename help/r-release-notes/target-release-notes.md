@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 53%
+source-wordcount: '330'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 53%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021年6月2日**
+**最終更新日：2021年6月8日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -24,12 +24,6 @@ ht-degree: 53%
 >**mbox.js のサポート**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target]mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しはエラーなく失敗し、デフォルトコンテンツを提供することで [!DNL Target] アクティビティを実行しているページに影響を与えます。
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
-
-## [!DNL Target Standard/Premium] 21.5.1（2021年6月9日）
-
-| 機能 | 詳細 |
-| --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | APIを使用して[!DNL Recommendations]製品およびコンテンツカタログをプログラムで検索し、検索条件に一致する項目を特定して、カタログの管理を簡略化します。<br>**制限事項と注意事項**:<ul><li>APIを使用したカタログ検索は、2,000,000個を超える項目を持つ環境ではサポートされていません。</li><li>APIを使用したカタログ検索結果は、[!DNL Target] UIを使用したカタログ検索結果よりも迅速に更新されます。 [!DNL Target] UIでのカタログ検索には、最新の結果を反映するのに、さらに時間がかかる場合があります。</li></ul>詳しくは、『 *[!DNL Adobe Target][!DNL Recommendations] API* 』ガイドの[エンティティ](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)の検索を参照してください。 |
 
 ## [!DNL Target Standard/Premium] 21.5.2（決定日）
 
