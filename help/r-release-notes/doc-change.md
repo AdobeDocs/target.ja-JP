@@ -4,16 +4,22 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 81%
+source-wordcount: '1433'
+ht-degree: 82%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## Adobe [!DNL Target] Standard／Premium 21.6.1（2021 年 6 月 7 日（PT））
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 6月7日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
 
