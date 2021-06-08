@@ -4,11 +4,10 @@ description: テストおよびパーソナライゼーションに関する取�
 title: Target を使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: 概要
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +109,7 @@ Web サイト上の複数のページをまたいで発生するカスタマー�
 * ページのコンバージョン率はいくつですか。
 * テストを完了したと確実に言えるようになるまでの、予測されるテストの実行期間はどのくらいですか。
 
-**役立つヒント**：Target の[サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)を使用して、テストを成功させるために必要なサンプルサイズを判断します。
+**役立つヒント**：Target の[サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)を使用して、テストを成功させるために必要なサンプルサイズを判断します。
 
 ## ヒント 12：よりシンプルなテストを設計し、作成および実装できるようにします。
 
