@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: リリースノート
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 99%
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### [!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。
+
+[!DNL Adobe Experience Platform] セグメント名は、 [!UICONTROL Automated Personalization] (AP)および自 [!UICONTROL 動ターゲット]   (AT)アクティビティの重要な属性レポートには表示されません。(TOP-3813)
 
 ### [!UICONTROL 自動ターゲット]アクティビティのアーカイブにより、同期の問題が発生する場合があります
 
