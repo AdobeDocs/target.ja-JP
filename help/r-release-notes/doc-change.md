@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1504'
 ht-degree: 79%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 79%
 | --- | --- | --- |
 | 6 月 9 日 | [at.jsを使用してAnalytics for Target(A4T)を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0以降で、 [!DNL Adobe Audience Manager] (AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなったことを示す注意を追加しました。 |
 |  | [環境](/help/administrating-target/environments.md) | 「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」を指定した場合、この環境のホストにも非アクティブなアクティビティが表示されることを示す注意を追加しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。</li></ul> |
 | 6月7日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
