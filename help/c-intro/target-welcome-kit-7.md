@@ -4,11 +4,10 @@ description: Adobe  [!DNL Target] で初めてのアクティビティに着手�
 title: Target で最初のアクティビティを作成する必要があります。何から始めればよいでしょうか。
 feature: 概要
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +91,7 @@ A/B テストのセットアップワークフローの 2 番目の手順で「[
 
 テストから統計的に有意な結論を導くには、テスト母集団に特定の数の訪問者を含む必要があります。テストの参加者が 2 人だけであった場合、テスト結果を信頼できるでしょうか。
 
-[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。Adobe [サンプルサイズ計算ツール](https://docs.adobe.com/content/target-microsite/testcalculator.html)を使用すると、結果に必要な信頼性に基づき、テストの実行期間を決定できます。このボックスの「[!UICONTROL 詳細情報]」リンクをクリックして、計算ツールを開いて使用します。
+[!DNL Target] は、統計的な原則に基づいて、テストの結果が統計的に有効であることを判断します。Adobe [サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)を使用すると、結果に必要な信頼性に基づき、テストの実行期間を決定できます。このボックスの「[!UICONTROL 詳細情報]」リンクをクリックして、計算ツールを開いて使用します。
 
 ### このアクティビティはどのくらい重要か。
 
