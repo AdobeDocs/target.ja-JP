@@ -4,7 +4,7 @@ description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 58%
@@ -23,7 +23,7 @@ ht-degree: 58%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## Target Standard／Premium 21.6.1（2021 年 6 月 7 日（PT））
+## Target Standard／Premium 21.5.1（2021 年 6 月 7 日（PT））
 
 このリリースで強化された機能は次のとおりです。
 
