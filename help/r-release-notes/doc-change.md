@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 79%
+source-wordcount: '1534'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 79%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6月16日 | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDKバージョン1.0.0リリースに関する情報を追加しました。 |
+|  | [レポートの FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Automated Personalization](AP)および[!UICONTROL 自動ターゲット]モデルのデータは、どの程度の期間保持されますか？</li></ul> |
 | 6 月 9 日 | [at.jsを使用してAnalytics for Target(A4T)を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0以降で、 [!DNL Adobe Audience Manager] (AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなったことを示す注意を追加しました。 |
 |  | [環境](/help/administrating-target/environments.md) | 「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」を指定した場合、この環境のホストにも非アクティブなアクティビティが表示されることを示す注意を追加しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。</li></ul> |
