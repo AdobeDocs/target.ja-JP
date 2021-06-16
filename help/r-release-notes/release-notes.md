@@ -4,10 +4,10 @@ description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 58%
+source-wordcount: '719'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 58%
 >新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行して、サイトで発生する可能性のある問題を回避します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## Python SDK 1.0.0（2021年6月17日）
+
+デバイス上判定機能を備えた新しい[!DNL Adobe Target] Python SDKを使用できるようになりました。 この新しい追加により、サーバー側SDKの[!DNL Target]スイートが強化されます。 これらのSDKは、[!DNL Target]との統合を支援し、選択した言語で時間を短縮して価値を提供します。 ファーストパーティデータが価値のあるcookieを持たない世界に市場が移行していることから、サーバー側の統合は、人気の高い選択となっています。 Target SDKは、市場で最も人気のあるプログラミング言語(Python、Java、JavaScript、C#/.Net)で利用できます。
+
+詳しくは、[Adobe Target SDKガイド](https://adobetarget-sdks.gitbook.io/docs/)の[Python SDKのドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
 
 ## Target Standard／Premium 21.5.1（2021 年 6 月 7 日（PT））
 
