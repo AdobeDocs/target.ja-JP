@@ -4,22 +4,16 @@ description: Adobe [!DNL Target] レポートに関するよくある質問と�
 title: '<A0/>レポートに関する質問への回答はどこで見つけることができますか？ [!DNL Target] '
 feature: レポート
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # レポートの FAQ
 
 [!DNL Adobe Target] のレポートに関するよくある質問のリストです。
-
-## [!UICONTROL Automated Personalization](AP)および[!UICONTROL 自動ターゲット]モデルのデータは、どの程度の期間保持されますか？
-
-[!UICONTROL Automated Personalization] (AP)および自動ターゲッ  トモデルは、アクティビティの過去45日間のユーザー行動（ユーザープロファイル、インプレッションイベントおよびコンバージョンイベント）に関するトレーニングを受けます。
-
-[!UICONTROL Automated Personalization] (AP)および [!UICONTROL 自動ターゲッ] トモデルは、ユーザーの行動、トレーニングレコード、モデル決定データを90日間保持し、インサイトレポートを生成  します。90日後、トレーニングレコードとモデルの決定は破棄されます。 [!UICONTROL Automated Personalization] (AP)および自動ターゲット [!UICONTROL モデルで] も、2年間、レポート目的で、エクスペリエンス/オファーレベルのインプレッションおよびコンバージョンデータの集計が保持されます。このデータは集計レベルのデータのみで、個人レベルのプロファイルデータは含まれません。
 
 ## 新規訪問者指標と再訪問者指標はどのようにカウントされますか。 {#methodology}
 
