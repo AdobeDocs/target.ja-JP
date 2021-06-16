@@ -4,10 +4,9 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: トラブルシューティング
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: ht
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: ht
-source-wordcount: '452'
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -38,12 +37,14 @@ ht-degree: 100%
 ### 自動ターゲット
 
 * [自動ターゲットのトラブルシューティングと FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization（AP）
 
-* [Automated Personalization に関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [自動パーソナライゼーションに関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Automated Personalization のトラブルシューティング](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization 概要レポート](/help/c-reports/reports-ap.md)
+* [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多変量分析テスト（MVT）
 
