@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;関数;preventDefault;preventdefault;prevent default
-description: Adobe [!DNL Target] at.js JavaScriptライブラリに対してadobe.ターゲット.trackEvent()関数を使用して、サイトでのクリック数やコンバージョン数などのユーザーアクションを報告するリクエストを実行します。
-title: adobe.ターゲット.trackEvent()関数の使用方法を教えてください。
+description: Adobe [!DNL Target] at.js JavaScriptライブラリに対してadobe.target.trackEvent()関数を使用して、サイト上でのクリック数やコンバージョン数などのユーザーアクションをレポートするリクエストを実行します。
+title: adobe.target.trackEvent()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 69%
 
 ---
 
@@ -23,10 +22,10 @@ API の詳細を次に示します。
 
 | キー | タイプ | 必須 | 説明 |
 |--- |--- |--- |--- |
-| mbox | 文字列 | ○ | mbox名&#x200B;<br>**注意**:ページ上で既に呼び出されているmbox名でtrackEvent()呼び出しが実行された場合、trackEvent()のSDIDはリセットされ、ページ上のターゲット呼び出しとは異なります。 ただし、別のmbox名でtrackEvent()呼び出しを実行すると、trackEvent()呼び出しのSDIDは、ページ上のページ読み込みリクエスト/トリガービュー()呼び出しと一致します。 |
-| selector | 文字列 | × | CSS セレクターは HTML 要素を見つけるために使用されます。イベントリスナーが、見つけた要素に添付されます。 |
+| mbox | 文字列 | ○ | mbox名&#x200B;<br>**注意**:ページで既に実行されているmbox名でtrackEvent()呼び出しが実行されると、 trackEvent()のSDIDはリセットされ、ページ上のTarget呼び出しとは異なります。 ただし、異なるmbox名でtrackEvent()呼び出しを実行すると、 trackEvent()呼び出しのSDIDがページ上のページ読み込み要求/triggerView()呼び出しと一致するようになります。 |
+| selector | 文字列 | × | CSS セレクターは HTML 要素を見つけるために使用されます。イベントリスナーが、見つけた要素に添付されます  |
 | type | 文字列 | × | 登録されたイベントタイプを表します。クリック、マウスダウンなどの HTML の既知のイベントとカスタム HTML イベントの両方が可能です。 |
-| preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意**： `form[submit] and ` と [クリック]のみがサポートされています。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
+| preventDefault | ブール値 | × | イベントリスナーコールバックで `event.preventDefault()` を使用するかどうかを示します。デフォルトは false です。<br>**注意**:との `form[submit]` みがサ `a[click]` ポートされます。サポートすべきシナリオの複雑さと量の膨大さにより、その他のシナリオはサポートされません。 |
 | params | オブジェクト | × | mbox パラメーター。次の構造を持つキーと値のペアのオブジェクト。<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | 数値 | × | タイムアウト（ミリ秒）。<br>指定しない場合は、次のデフォルト値が使用されます。<br>`...timeoutInSeconds: 0.15...}` |
 | success | 関数 | × | イベントが繰り返されたことを伝えるために使用されるコールバック関数。 |
