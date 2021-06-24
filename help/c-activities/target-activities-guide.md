@@ -5,7 +5,7 @@ title: Target で使用できるアクティビティの種類
 feature: アクティビティ
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
