@@ -21,7 +21,7 @@ ht-degree: 90%
 
 | 調査サービス | 詳細 |
 | --- | --- |
-| Forrester | **アドビは、Forrester Wave レポートで、エクスペリエンス最適化プラットフォーム分野のリーダーに選ばれました。**<br>&#x200B;アドビは、「The Forrester Wave：エクスペリエンス最適化プラットフォーム（2020 年第 4 四半期）」レポートで、この分野のソリューションである Adobe Target Premium が評価され、リーダーに選ばれました。アドビは、現在のオファーおよび市場プレゼンスの分野、およびレコメンデーションとプラットフォームエクスペリエンスの条件において、参加している全ベンダーのうち最高スコアを獲得しました。また、Target Premium は、エクスペリエンス最適化手法のイノベーションとサポートサービスの条件において、最高のスコアを獲得しました。このレポートは、エクスペリエンス最適化プラットフォームプロバイダー 8 社を、22 件の条件についておこなわれた綿密な評価に基づいています。<br>詳しくは、[Adobe ブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)をご覧ください。 |
+| Forrester | **アドビは、Forrester Wave レポートで、エクスペリエンス最適化プラットフォーム分野のリーダーに選ばれました。**<br>&#x200B;アドビは、「The Forrester Wave：エクスペリエンス最適化プラットフォーム（2020 年第 4 四半期）」レポートで、この分野のソリューションである Adobe Target Premium が評価され、リーダーに選ばれました。アドビは、現在のオファーおよび市場プレゼンスの分野、およびレコメンデーションとプラットフォームエクスペリエンスの条件において、参加している全ベンダーのうち最高スコアを獲得しました。また、Target Premium は、エクスペリエンス最適化手法のイノベーションとサポートサービスの条件において、最高のスコアを獲得しました。このレポートは、エクスペリエンス最適化プラットフォームプロバイダー 10 社を、22 件の条件についておこなわれた綿密な評価に基づいています。<br>詳しくは、[Adobe ブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)をご覧ください。 |
 | Gartner | **アドビは、パーソナライゼーションエンジン分野の Gartner Magic Quadrant で再びリーダーに選ばれました。**<br>&#x200B;アドビは、2020 年度の『Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）』レポートで、3 回目のリーダーに選ばれました。パーソナライゼーションエンジン分野の Gartner Magic Quadrant では、ビジョンの完全性と実行能力の 2つのカテゴリにおいて、15 の条件に基づいてベンダーを評価しました。<br>[詳しくは、Adobe ブログをご覧ください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
@@ -48,7 +48,7 @@ Adobe と HSBC によるこのウェビナーに参加して次のことを学�
 
 *McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020 年 5 月
 
-## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target]の mbox.js を at.js に移行€ {#skill-builder}
+## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target]の mbox.js を at.js に移行€  {#skill-builder}
 
 2021 年 3 月 31 日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
