@@ -1,15 +1,14 @@
 ---
 keywords: mbox. jsの変更;mbox. jsのバージョン
-description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
-title: mbox.jsの各バージョンに含まれる内容
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience Platform Web SDK(AEP Web SDK)または最新バージョンのat.jsに移行します。
+title: mbox.jsの各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 81%
+source-wordcount: '2377'
+ht-degree: 84%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->**mbox.jsの提供終了**:2021年3月31日をもって、mbox.jsライブラリをサポートし [!DNL Adobe Target] なくなりました。2021年3月31日以降、mbox.jsからのすべての呼び出しが正常に失敗し、[!DNL Target]アクティビティが実行されているページにはデフォルトコンテンツが提供されます。
+>**mbox.js のサポート終了**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target]mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しは失敗し、デフォルトのコンテンツを表示して [!DNL Target] アクティビティを実行しているページには影響があります。
 >
->サイトに問題が発生する可能性を回避するため、新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンにこの日より前に移行してください。 詳しくは、[概要：クライアント側web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)のターゲットを実装します。
+>サイトに問題が発生する可能性を回避するため、この日より前に新しい [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 >[!NOTE]
 >
@@ -31,13 +30,13 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
+>mbox.js ライブラリの開発は終了しました。すべてのお客様が mbox.js から at.js に移行する必要があります。
 
 ## mbox.js バージョン 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target リリース：** 17.7.1
 
-[!DNL mbox.js] バージョン 63 がリリースされました。詳しくは、[mbox.js のダウンロード](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)を参照してください。
+[!DNL mbox.js] バージョン 63 がリリースされました。
 
 [!DNL mbox.js] バージョン 63 には、次の機能強化および修正が含まれています。
 
@@ -46,7 +45,7 @@ ht-degree: 81%
 ## mbox.js バージョン 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Google Chrome ブラウザーでリダイレクトアクティビティを表示した際のちらつきの問題を修正しました。
-* `secureOnly` 設定が追加され、mbox.js で HTTPS のみ使用可能にするか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。この設定は詳細設定で、デフォルトではFalseに設定されています。
+* `secureOnly` 設定が追加され、mbox.js で HTTPS のみ使用可能にするか、ページのプロトコルによって HTTP と HTTPS との切り替えを許可するかを指定できるようになりました。この設定は詳細設定で、デフォルトはFalseです。
 
 ## mbox.js バージョン 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +70,7 @@ mbox.js バージョン 61 には、次の機能強化が含まれています�
 
 **リリース日：** 2016 年 4 月 22 日
 
-デフォルトでは、ページのコンテンツは非表示にはなりません。バージョン 60 では、「グローバル mbox 自動作成」オプションが有効な場合にのみ、ページコンテンツを非表示にします。ページを非表示にするために、`opacity:0` ではなく、CSS の `display:none` プロパティを使用します。このプロパティは、レスポンシブサイトの適切な配信を確保し、[!DNL at.js]と連携させます。
+デフォルトでは、ページのコンテンツは非表示にはなりません。バージョン 60 では、「グローバル mbox 自動作成」オプションが有効な場合にのみ、ページコンテンツを非表示にします。ページを非表示にするために、`opacity:0` ではなく、CSS の `display:none` プロパティを使用します。このプロパティは、レスポンシブサイトの適切な配信を保証し、[!DNL at.js]と整合します。
 
 本文の非表示は 2 つの設定で有効にできます。
 
@@ -93,18 +92,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-このページの非表示手法では、STYLE タグを使用してスタイルの追加と削除をおこないます。この手法では、ページの非表示コードが実行された後も、サイトのスタイルが変更されないようにします。
+このページの非表示手法では、STYLE タグを使用してスタイルの追加と削除をおこないます。この方法を使用すると、ページ非表示コードが実行された後も、サイトのスタイルが変更されないようにすることができます。
 
-**DTMユーザー：** この方法では、ターゲットUIに上記の設定を保存する方法がないので、「自動読み込み」オプションを使用できません。上記の手順を使用して、「カスタム」ホスティングオプションのコードボックスに内容を貼り付ける必要があります。
+**DTMユーザー：** この方法では、Target UIに上記の設定を保存できないので、「自動読み込み」オプションを使用できなくなります。上記の手順を使用して、カスタムホスティングオプションのコードボックスに内容を貼り付ける必要があります。
 
-また、バージョン 60 では、Experience Cloud 訪問者 ID サービス用に [!DNL visitorAPI.js] ファイルが存在する場合、すべての mbox は AJAX エンドポイントを通じてリクエストされます。訪問者APIメソッドは非同期なので、このプロセスが必要です。 このアプローチの利点の 1 つは、mbox リクエストによってレンダリングがブロックされることがないので、レンダリング開始時間が大幅に短縮されることです。ただし、このアプローチはまた、すべての[!DNL Target]オファーコンテンツが非同期に実行されるので、すべてのオファーコードを適切に記述する必要があります。 `document.write`と、初回のページ読み込み時に実行することを前提としたその他のコードを含むオファーが、期待どおりに実行されません。
+また、バージョン 60 では、Experience Cloud 訪問者 ID サービス用に [!DNL visitorAPI.js] ファイルが存在する場合、すべての mbox は AJAX エンドポイントを通じてリクエストされます。訪問者APIメソッドは非同期なので、このプロセスが必要です。 このアプローチの利点の 1 つは、mbox リクエストによってレンダリングがブロックされることがないので、レンダリング開始時間が大幅に短縮されることです。ただし、このアプローチは、すべての[!DNL Target]オファーコンテンツが非同期に実行されるので、すべてのオファーコードが適切に記述されている必要があることを意味します。 `document.write`と、最初のページ読み込みの際に実行されると想定されるその他のコードを含むオファーは、期待どおりに実行されません。
 
 * バージョン 60 の非同期呼び出し
 
-   訪問者 ID サービスでバージョン 60 を使用している場合は、すべての mbox 呼び出しが非同期でおこなわれます。これは、従来の mbox の動作方法に対する変更点であり、このバージョンにアップグレードする場合は注意してください。『[ ドキュメント』の](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)非同期に関する考慮事項[!DNL at.js]の節を参照し（[!DNL at.js] でも非同期呼び出しを使用するため）、そのリスクについて確認してください。
+   訪問者 ID サービスでバージョン 60 を使用している場合は、すべての mbox 呼び出しが非同期でおこなわれます。これは、従来の mbox の動作方法に対する変更点であり、このバージョンにアップグレードする場合は注意してください。
 * 新しい訪問者のシナリオでは、ちらつきが発生する可能性があります。
 
-   訪問者IDサービスでv58 ～ v60を使用している場合、mboxの呼び出しは、訪問者IDが設定されるのを待ってから実行します（またはタイムアウトが発生するまで）。 これは、新しい訪問者の最初のページ読み込みで発生します。
+   v58～v60を訪問者IDサービスと共に使用する場合、mbox呼び出しは、訪問者IDが設定されるのを待ってから実行します（またはタイムアウトが発生するまで）。 これは、新しい訪問者の最初のページ読み込みで発生します。
 
 ## mbox.js バージョン 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -131,7 +130,7 @@ mbox.js のバージョン 58 では、Target の呼び出しがおこなわれ�
 
 また、この更新は、Analytics を Target のレポートソースとして使用する際に、1 ページのみに含まれる訪問に対して Analytics でレポートされる訪問者の数が水増しされていた問題を修正します。
 
-mbox.js は、訪問者 ID サービスが返されない場合に備えて、タイムアウト値を設定します。訪問者 ID サービスのデフォルトタイムアウトは、500 ms（0.5 秒）です。追加のタイムアウトにより、`<BODY>`タグを非表示にする時間の上限が設定されます。 デフォルト値は、500 ms（0.5 秒）です。これらのタイムアウトは、各ページの mbox.js 参照の前に次のコードを挿入することで変更できます。
+mbox.js は、訪問者 ID サービスが返されない場合に備えて、タイムアウト値を設定します。訪問者 ID サービスのデフォルトタイムアウトは、500 ms（0.5 秒）です。追加のタイムアウトで、`<BODY>`タグが非表示になっている時間の上限を設定します。 デフォルト値は、500 ms（0.5 秒）です。これらのタイムアウトは、各ページの mbox.js 参照の前に次のコードを挿入することで変更できます。
 
 ```
 <script> 
@@ -156,7 +155,7 @@ mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、�
 
    この変更により、mbox.jsファイルをページの`<head>`内の最後の項目にする必要がなくなりました。 この新しいバージョンにアップグレードする場合は、十分な QA を実施することをお勧めします。
 
-   この変更によって、一部のタイプのオファーを提供する場合に、動作が変わる可能性があります。考慮する必要がある具体的な条件を次に示します。
+   この変更によって、一部のタイプのオファーを提供する場合に、動作が変わる可能性があります。以下に、考慮する必要がある具体的な条件を示します。
 
    * 「プラグインオファー」の一部として返される HTML コンテンツが正しく表示されませんが、オファー内の JavaScript は予期したとおりに実行されます。
    * グローバル mbox に返される JavaScript オファーには、`<script>` タグに埋め込まれた JavaScript コード、または `src` 属性で参照される JavaScript コードを組み込めます。
@@ -165,7 +164,7 @@ mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後で、�
 
       `<script src='external-url' async='true'></script>`
 
-      `async`属性は、Internet Explorerでは限定的にサポートされます（詳細は次を参照）。[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)を参照)ので、古いバージョンのIEを使用する訪問者を、これらのサードパーティスクリプトを含むテストから除外する必要があります。
+      `async`属性は、Internet Explorerでのサポートに制限があります(詳しくは、以下を参照してください。[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))ので、古いバージョンのIEを使用している訪問者を、これらのサードパーティスクリプトを含むテストから除外する必要があります。
 
 * バージョン 56 で報告された、mbox.js の Extra JavaScript セクションの変更に起因する問題を修正しました。Extra JavaScript セクション内のすべてのコードは、再びグローバルスコープで利用できるようになりました。
 
@@ -197,7 +196,7 @@ mbox.js バージョン 57 にも、重要な修正が含まれています。
 このバージョンでは、次の変更がおこなわれました。
 
 * Recommendations Premium が変更され、グローバル mbox にパラメーターを渡せるようになりました。
-* ターゲット.jsの読み込み呼び出しに5秒のタイムアウトを追加します。 まれにファイルが読み込まれない場合は、ページがレンダリングされ、Target Standardのアクティビティは表示されません。
+* target.jsの読み込み呼び出しに5秒のタイムアウトを追加します。 まれに、ファイルが読み込まれない場合、ページがレンダリングされ、Target Standardアクティビティが表示されません。
 * 「Extra JavaScript」の実行を、グローバル mbox の前に移動しました。
 
    バージョン 56 以降のすべての設定には名前空間が付加されます。「Extra JavaScript」に宣言されている関数がある場合は、それらの関数の前に `window` を付加する必要があります。
@@ -316,7 +315,7 @@ Experience Cloud 共有訪問者 ID サービスの初期サポートが追加�
 
 * mbox.js が有効のときだけトラフィック制限が発生するように修正しました。
 
-   この問題は、ユーザーの mbox.js に対してトラフィック制限が発生しており、タイムアウト設定が適切に動作しないことにより発生していました。この結果、ターゲットサーバーからの正しい応答を待つ間、ページが更新されていました。
+   この問題は、ユーザーの mbox.js に対してトラフィック制限が発生しており、タイムアウト設定が適切に動作しないことにより発生していました。その結果、Targetサーバーからの適切な応答を待つ間に、ページが更新されていました。
 
 * SiteCatalyst プラグインが常に Ajax フェッチャーを使用するように修正しました。
 
