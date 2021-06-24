@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] works, including information about the [!DNL Ta
 title: ' [!DNL Target] の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2532'
 ht-degree: 95%
 
 ---
@@ -20,12 +20,8 @@ ht-degree: 95%
 [!DNL Target]Web サイトとの統合（[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用）：
 
 * **Adobe Experience Platform Web SDK:**  [Experience PlatformWeb SDKは、新し](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) いクライアント側JavaScriptライブラリです。Experience PlatformWeb SDKを使用すると、[!DNL Adobe Experience Cloud]のお客様は、[!DNL Experience Platform] Edgeネットワークを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスとやり取りできます。 Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：**[at.js ライブラリ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)は、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) にアップデートすることをお勧めします。
-* **mbox.js：**[mbox.js library](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.jsライブラリは、2021年3月31日以降はサポートされなくなります。
-
->[!IMPORTANT]
->
->すべてのお客様は、[!DNL Experience Platform Web SDK] または at.js の最新バージョンに移行する必要があります。詳しくは、[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) または [mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)を参照してください。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) にアップデートすることをお勧めします。
+* **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.jsライブラリは、2021年3月31日以降はサポートされなくなります。
 
 サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、[Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ja) を使用して [!DNL Target] を実装することを検討してください。
 
