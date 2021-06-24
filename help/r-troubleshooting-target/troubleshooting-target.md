@@ -6,7 +6,7 @@ feature: トラブルシューティング
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -121,9 +121,8 @@ ht-degree: 100%
 
 * [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。[at.jsの実装を](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) 参照してください。
+* アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。
 
 ## 既知の問題
 
