@@ -1,14 +1,13 @@
 ---
 keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィルター;デフォルトホストグループ;サムネールのベース URL;Recommendation API トークン
-description: 'Adobe TargetでRecommendationsアクティビティを導入する方法を学びます。 導入が必要な前提条件の要件を満たしていることを確認します。 '
+description: 'Adobe TargetでRecommendationsアクティビティを実装する方法を説明します。 実装が必要な前提条件を満たしていることを確認します。 '
 title: Recommendationsアクティビティの実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 95%
+source-wordcount: '1551'
+ht-degree: 94%
 
 ---
 
@@ -24,9 +23,9 @@ Recommendations アクティビティを作成する前に知っておくべき�
 
 | 手順 | 情報 | 詳細 |
 |--- |--- |--- |
-| ![手順 1](/help/c-recommendations/assets/step1_red.png) | JavaScript ライブラリ | 各ページには、at.js バージョン 0.9.1（またはそれ以降）か mbox.js バージョン 55（またはそれ以降）への参照が必要です。この実装の手順は、Target アクティビティを使用するすべてのページで必要です。商品 ID やカテゴリ ID などのキーを含めることができます。<BR>at.js について詳しくは、[at.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)を参照してください。<br>mbox.js について詳しくは、[Mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)を参照してください。 |
+| ![手順 1](/help/c-recommendations/assets/step1_red.png) | JavaScript ライブラリ | 各ページには、at.js バージョン 0.9.1（またはそれ以降）か mbox.js バージョン 55（またはそれ以降）への参照が必要です。この実装の手順は、[!DNL Target] アクティビティを使用するすべてのページで必要です。商品 ID やカテゴリ ID などのキーを含めることができます。 |
 | ![手順 2](/help/c-recommendations/assets/step2_red.png) | キー | キーは、レコメンデーションに表示される製品やコンテンツのタイプを決定します。例えば、製品カテゴリをキーにできます。[レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。 |
-| ![手順 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性を使用すると、表示したい製品についてさらに細かい情報を提供できます。例えば、ある価格帯の製品や、在庫のしきい値を満たしている品目を表示することができます。属性は、mbox 内または[フィード](/help/c-recommendations/c-products/feeds.md).<br>詳しくは、インクルージョンルールの [指定を参照してください](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)。 |
+| ![手順 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性を使用すると、表示したい製品についてさらに細かい情報を提供できます。例えば、ある価格帯の製品や、在庫のしきい値を満たしている品目を表示することができます。属性は、mbox 内または[フィード](/help/c-recommendations/c-products/feeds.md).<br>インクルージ [ョンルールの指定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)を参照してください。 |
 | ![手順 4](/help/c-recommendations/assets/step4_red.png) | 除外 | 除外によって、レコメンデーションに表示しない特定の品目を決めることができます。<br>[除外](/help/c-recommendations/c-products/exclusions.md)を参照してください。 |
 | ![手順 5](/help/c-recommendations/assets/step5_red.png) | 購入の詳細 | 購入の詳細は、購入した品目や購入が完了した際の注文についての情報を提供します。 |
 
@@ -93,7 +92,7 @@ Recommendations アクティビティを作成する前に知っておくべき�
    * `entity.categoryId`
    * その他の全属性
 
-## サンプルコード  {#section_6E8A73376F30468BB549F337C4C220B1}
+## サンプルコード {#section_6E8A73376F30468BB549F337C4C220B1}
 
 例えば、商品またはコンテンツページのヘッダーセクションで以下のコードを使用できます。
 
@@ -122,7 +121,7 @@ function targetPageParams() {
 
 有効な JSON 形式である必要があります。
 
-後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform Launch] at.js/mbox.js参照と `targetPageParams` 関数をページに配置し、値を設定できます。この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
+後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform Launch] はat.js/mbox.jsへの参照と関数をペ `targetPageParams` ージに配置し、値を設定できるようにします。この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
 
 ## すべてのページ {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
@@ -138,15 +137,9 @@ function targetPageParams() {
 
 この実装は、以下を満たしている必要があります。
 
-* [!DNL at.js] バージョン 0.9.2（またはそれ以降）か [!DNL mbox.js] バージョン 55（またはそれ以降）
-
-* [!DNL mbox.js] は [!DNL target.js] への参照を含む（[!DNL at.js] は [!DNL target.js] への参照を必要としません）
+* [!DNL at.js] バージョン0.9.2（以降）
 
 [!DNL at.js] の実装について詳しくは、[at.js のデプロイ方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)を参照してください。
-
-[!DNL mbox.js] の実装について詳しくは、[Mbox.js の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)を参照してください。
-
-この 2 つの Target JavaScript ライブラリの違いについて詳しくは、[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照してください。
 
 ## カテゴリページ {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -193,12 +186,11 @@ function targetPageParams() {
 </script>
 ```
 
-## 「ありがとうございます」ページ{#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## 「ありがとうございます」ページ {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 「ありがとうございます」ページでは、別の品目のレコメンデーションをおこなわずに、注文の合計、注文 ID、購入した製品を表示することができます。2 つ目の mbox を実装し、注文情報を取得できます。
 
 * at.js を使用している場合は、[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* mbox.js を使用している場合、[注文の確認 mbox の作成 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82) を参照してください。
 
 ## 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
 
@@ -212,7 +204,7 @@ function targetPageParams() {
 
 | 設定 | 説明 |
 |--- |--- |
-| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target] によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意：このオプションは、 [!DNL Target]  管理ページで設定されます。[!DNL Target]を開き、[!UICONTROL 管理]/[!UICONTROL Visual Experience Composer]をクリックします。 |
+| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target] によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意：このオプションは、管理ページで設 [!DNL Target]  定します。[!DNL Target]を開き、[!UICONTROL 管理] /[!UICONTROL Visual Experience Composer]をクリックします。 |
 | 業種 | 業種は、レコメンデーション条件の分類に使用されます。これによって、買い物かごページやメディアページに最適な条件など、特定のページにふさわしい条件を見つけやすくなります。 |
 | 非互換の条件をフィルター | このオプションを選択すると、選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、このオプションのチェックを外します。<br>タグ管理ソリューションを使用している場合は、このオプションを無効にすることをお勧めします。<br>このオプションについて詳しくは、[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) を参照してください。 |
 | デフォルトホストグループ | デフォルトホストグループを選択します。<br>ホストグループを使用して、カタログの利用可能な項目をさまざまな用途に分割できます。例えば、ホストグループは開発環境と実稼動環境、さまざまなブランド、またはさまざまな地域に使用できます。デフォルトでは、カタログ検索、コレクションおよび除外のプレビュー結果はデフォルトのホストグループに基づいています。（環境フィルターを使用して、結果をプレビューする別のホストグループを選択することもできます）デフォルトでは、項目の作成または更新時に環境 ID が指定されている場合を除き、新しく追加された項目はすべてのホストグループで使用できます。配信される Recommendations は、リクエストで指定したホストグループによって異なります。<br>商品が表示されていない場合は、適切なホストグループが使用されていることを確認してください。例えば、ステージング環境を使用するようにレコメンデーションを設定し、ホストグループをステージングに設定した場合、商品を表示するために、ステージング環境のコレクションを再作成する必要がある可能性があります。各環境でどの商品が利用できるかを確認するには、各環境でカタログ検索を利用します。選択した環境（ホストグループ）の Recommendations コレクションと除外のコンテンツをプレビューすることもできます。<br>**注意：** 選択した環境を変更した後、 「検索」をクリックして返された結果を更新する必要があります。<br>[!UICONTROL 環境]フィルターは [!DNL Target] UI の次の場所で利用できます。<ul><li>カタログ検索（Recommendations／カタログ検索）</li><li>「コレクションを作成」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「コレクションを更新」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「除外を作成」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「除外を更新」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul>詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。 |
