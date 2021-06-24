@@ -1,13 +1,13 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-description: Adobe  [!DNL Target]  Recommendations アクティビティに関するよくある質問と回答のリストを表示します。
+description: Adobe [!DNL Target] Recommendations アクティビティに関するよくある質問と回答のリストを表示します。
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 | --- | --- |
 | mbox または API を使用して更新された項目属性 | <ul><li>Recommendations は 15 分以内に更新されます。</li><li>アップデートが利用可能になるまでは、既存のレコメンデーションと項目属性が表示されます。</li><li>カタログ検索は、カタログインデックス（3～8 時間）の後に更新されます。</li></ul> |
 | フィードを使用して更新された項目属性 | <ul><li>レコメンデーションは、フィードの取り込み（2～8 時間）後に更新されます。</li><li>アップデートが利用可能になるまでは、既存のレコメンデーションと項目属性が表示されます。</li><li>カタログ検索は、フィードの取り込み（2〜8 時間）後、および後続のカタログインデックス（3〜8 時間）後に更新されます。 カタログ検索は合計 5～16 時間以内に更新されます。</li></ul> |
-| [!DNL Target] UI または API を使用してカタログから削除された項目 | <ul><li>レコメンデーションは 15 分以内に更新されます。</li><li>アップデートが利用可能になるまでは、既存のレコメンデーションと項目属性が表示されます。</li><li>カタログ検索は、カタログインデックス（3～8 時間）の後に更新されます。</li></ul> |
+| [!DNL Target] UI または API を使用してカタログから削除された項目 | <ul><li>Recommendations は 15 分以内に更新されます。</li><li>アップデートが利用可能になるまでは、既存のレコメンデーションと項目属性が表示されます。</li><li>カタログ検索は、カタログインデックス（3～8 時間）の後に更新されます。</li></ul> |
 | mbox または API を使用してカタログに追加された項目 | <ul><li>レコメンデーションはアルゴリズムの実行後に更新されます。 アルゴリズムの実行は、1〜2 日のアルゴリズムでは 12 時間ごとに、7 日以上のアルゴリズムでは 24 時間ごとにスケジュールされます。</li><li>追加された項目がリクエストされたキーでない場合は、アップデートが利用可能になるまで、既存のレコメンデーション表示されます。</li><li>追加された項目がリクエストされたキーの場合は、アップデートが利用可能になるまで、バックアップのレコメンデーションが表示されます。</li><li>カタログ検索は、カタログインデックス（3～8 時間）の後に更新されます。</li></ul> |
 | フィードを使用してカタログに追加された項目 | <ul><li>レコメンデーションは、フィードが取り込まれた（2～8 時間）後に更新されます。 後続のアルゴリズムの実行は、1〜2 日のアルゴリズムでは 12 時間ごとに、7 日以上のアルゴリズムでは 24 時間ごとにスケジュールされます。 レコメンデーションは合計 2～32 時間以内に更新されます。</li><li>追加された項目がリクエストされたキーでない場合は、アップデートが利用可能になるまで、既存のレコメンデーション表示されます。</li><li>追加された項目がリクエストされたキーの場合は、アップデートが利用可能になるまで、バックアップのレコメンデーションが表示されます。</li><li>フィードの取り込み（2～8 時間）後、およびカタログインデックス（3～8 時間）後に、カタログ検索が更新されます。 カタログ検索は合計 5～16 時間以内に更新されます。</li></ul> |
 
@@ -227,7 +227,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
    この状況は通常、考えられる結果から多くの項目を積極的にフィルタリングする動的なインクルージョンルールがある場合に発生します。状況を回避するには、バックアップを有効にしてインクルージョンルールをバックアップに適用しない、または積極的でないフィルタリング条件を使用して順次条件を使用します。
 
-## 最近閲覧された項目に基づくレコメンデーションは、1 人の訪問者に対して複数のデバイスにわたって保持されますか？{#persist-across-devices}
+## 最近閲覧した項目に基づくレコメンデーションは、1 人の訪問者に対して複数のデバイスにわたって保持されますか？ {#persist-across-devices}
 
 訪問者がセッションを開始すると、セッション ID は単一のエッジマシンに関連付けられ、一時的なプロファイルキャッシュがこのエッジマシンに保存されます。 同じセッションからの後続のリクエストでは、最近閲覧された項目を含め、このプロファイルキャッシュを読み取ります。
 
@@ -241,8 +241,8 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 訪問者が同時に 2 つのアクティブなセッションを持っていない場合、セッションが終了している限り、一方のデバイスで最近閲覧された項目によって、もう一方のデバイスで最近閲覧された項目が更新されます。 この動作をテストするときは、セッションの有効期限が切れるまで 35 分間待ちます。
 
-## [!DNL Recommendations Premium]の[!DNL Adobe Recommendations Classic]で作成されたアルゴリズムを使用できますか？
+## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
-[!DNL Recommendations Classic]で作成されたアルゴリズムは、[!DNL Recommendations Premium]ではサポートされていません。 [!DNL Target Premium]でレガシーアルゴリズムを使用できます。ただし、[!DNL Target Premium] UIでアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。 この2つのソリューションの違いについて詳しくは、 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)の[[!DNL Recommendations Classic] versus [!DNL Recommendations] アクティビティを参照してください。
+[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、[[!DNL Recommendations Classic] versus [!DNL Recommendations] の  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)アクティビティを参照してください。
 
 
