@@ -1,17 +1,16 @@
 ---
 keywords: visual experience composer の制限;ブラウザーサポート;統合;プラグイン;非同期の考慮事項
-description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience PlatformWeb SDK(AEP Web SDK)またはat.jsの最新バージョンに移行します。
-title: at.jsとmbox.jsの違い
+description: Adobe Targetのレガシーmbox.js実装について説明します。 Adobe Experience Platform Web SDK(AEP Web SDK)または最新バージョンのat.jsに移行します。
+title: at.jsとmbox.jsの違いは何ですか。
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 92%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
-
 
 # at.js の制限
 
@@ -28,9 +27,8 @@ at.js と mbox.js にはいくつかの違いがあります。このセクシ�
 [!DNL mbox.js] 内の一部の関数は、[!DNL at.js] では利用できません。内部 [mbox.js オブジェクトおよびメソッド](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（`mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` など）は、[!DNL at.js] ではサポートされません（例： `mboxFactoryDefault`）。これは設計によるもので、長期的に見ると実装を機能しなくさせ、アップグレードできなくさせる可能性のある、サポートされていない機能を開発するために [!DNL at.js] を「ハッキング」するのを阻止することを目的としています。公開されたメソッドのみ、このドキュメントの API ページで説明しています。理由は以下のとおりです。
 
 * 他のアドビソリューションとの従来のページベースの[統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)は、動作しない可能性があり、より新しいサーバー側統合にアップグレードする必要がある。
-* [mbox.js 用に開発されたカスタムプラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)は、[!DNL at.js] 用に更新しない限り、動作しない可能性がある。
 
-   すべての[プラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)をテストの一部として含めるようにします。
+   すべてのプラグインをテストの一部として含めるようにします。
 
 ## 非同期の考慮事項 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ at.js と mbox.js にはいくつかの違いがあります。このセクシ�
 * DOM 操作およびリダイレクトオファーは、[!DNL at.js] で自動作成されたグローバル mbox を使用して配信されるか、`<head>` 内で配信される必要があります。
 
    `<body>` の最上部にある `mboxCreate()` 関数は、デフォルトコンテンツのちらつきを引き起こす可能性があります。
-
