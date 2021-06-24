@@ -5,7 +5,7 @@ user-guide-description: web サイトやモバイルサイト、アプリ、ソ�
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1604'
 ht-degree: 99%
 
 ---
@@ -152,7 +152,6 @@ ht-degree: 99%
          + [注文確認 mbox の作成 - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [mbox.js に関するよくある質問](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js 関数](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [mbox.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + グローバル mbox について {#global-mbox}
          + [グローバル mbox の概要について](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [グローバル mbox のカスタマイズ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
