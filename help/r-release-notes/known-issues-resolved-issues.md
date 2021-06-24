@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 98%
 
 ### [!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。
 
-[!DNL Adobe Experience Platform] セグメント名は、 [!UICONTROL Automated Personalization] (AP)および自 [!UICONTROL 動ターゲット]   (AT)アクティビティの重要な属性レポートには表示されません。(TOP-3813)
+[!DNL Adobe Experience Platform] セグメント名は、 [!UICONTROL Automated Personalization] (AP)および自 [!UICONTROL 動ターゲット]   (AT)アクティビティの重要な属性レポートには表示されません。（上位 3813 項目）
 
-### [!UICONTROL 自動ターゲット]アクティビティのアーカイブにより、同期の問題が発生する場合があります
+### [!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題が発生する場合があります
 
-非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。 この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。 これらは[!UICONTROL 非アクティブ]の状態のままにします。 （TGT-40885）
+非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。 この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。 これらは[!UICONTROL 非アクティブ]状態のままにします。 （TGT-40885）
 
 ### 自動配分アクティビティと自動ターゲットアクティビティの Analytics for Target（A4T）指標
 
@@ -347,7 +347,7 @@ Target UI の代替レコメンデーションで、最近表示された項目�
 
 自動ターゲットアクティビティで使用されているレポート用オーディエンスの名前が変更されると、それ以降、そのアクティビティに対する Target からの更新は失敗し、エラーメッセージが表示される可能性があります。
 
-この問題は、Target 18.5.1（2018 年 5 月 22 日（PT））リリースで修正されました。
+この問題は、Target 18.5.1（2018 年 5 月 23 日）リリースで修正されました。
 
 ### at.js {#at-js-4}
 
@@ -392,7 +392,7 @@ Enterprise 権限の移行の一環として、Target Premium のすべてのユ
 
 ### at.js {#at-js-5}
 
-Target 17.4.1 リリース（2017 年 4 月 27 日（PT））以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作をおこなうと、オファーコンテンツが配信されません。
+Target 17.4.1 リリース（2017 年 4 月 28 日）以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作をおこなうと、オファーコンテンツが配信されません。
 
 この問題は、at.js バージョン 0.9.7（2017 年 5 月 22 日（PT））で修正されました。
 
@@ -434,7 +434,7 @@ Target 17.4.1 リリース（2017 年 4 月 27 日（PT））で修正されま�
 
 この問題は、Recommendations のリリース（2018 年 3 月 22 日（PT））後に修正されました。Recommendations のリリース後は、mbox パラメーターで entity.id が渡されない場合、Target ではエンティティベースの動的ルールがスキップされるようになっています。
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 at.js の設定を更新した後、実装の詳細ページから at.js をダウンロードしようとすると、at.js ではなく mbox.js がダウンロードされます。（TGT-23069）
 
