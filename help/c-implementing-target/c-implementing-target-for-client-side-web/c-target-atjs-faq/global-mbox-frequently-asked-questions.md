@@ -1,15 +1,14 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;グローバル;グローバル mbox
-description: よくある質問(FAQ)と、Adobe [!DNL Target] のグローバルmboxに関する回答を読みます。
+description: よくある質問(FAQ)とAdobe [!DNL Target] のグローバルmboxに関する回答をお読みください。
 title: グローバルMboxに関するよくある質問
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 85%
 
 グローバル mbox に関するよくある質問（FAQ）のリストです。
 
-## [!DNL Target]アカウントが複数のドメインにわたって設定されている場合、複数のグローバルmboxを持つことはできますか。{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## [!DNL Target]アカウントが複数のドメインにまたがって設定されている場合、複数のグローバルmboxを使用できますか？ {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 アカウント全体で使用できるグローバル mbox は 1 つだけです。
 
@@ -25,13 +24,13 @@ ht-degree: 85%
 
 また、[targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) を使用し、これらのパラメーターを [!UICONTROL Visual Experience Composer]（VEC）の「URL を設定」セクションで選択するか、このパラメーターをフォームベースの Experience Composer で「絞り込み条件」として追加することで、ページにパラメーターを渡せます。
 
-## [!DNL Target]グローバルmboxに売上データを渡す方法を教えてください。{#section_17AEA933BADA4D169CCEDF5833C41306}
+## [!DNL Target]グローバルmboxに売上高データを渡すには、どうすればよいですか？ {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 target-global-mbox で売上高と注文の情報を収集するには、「mbox パラメーター」を Target に送信する必要があります。このパラメーターは名前と値のペアで、Target により多くの情報を送信するために使用します。Target はこれらのパラメーター（予約された名前）を自動的に検索し、売上高データを設定します。
 
-`orderConfirmPage` の場合、`orderTotal`、`orderId`、および `productPurchasedId` を渡す必要があります。詳しくは、「[注文の確認 mbox の作成 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)」を参照してください。
+`orderConfirmPage` の場合、`orderTotal`、`orderId`、および `productPurchasedId` を渡す必要があります。
 
-`targetPageParams()` () を使用して、これと同じパラメーターを target-global-mbox に送信する必要があります。詳しくは、「[グローバル mbox にパラメーターを渡す](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)」を参照してください。
+これらのパラメーターは、`targetPageParams()`を介してtarget-global-mboxに送信する必要があります。 詳しくは、「[グローバル mbox にパラメーターを渡す](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)」を参照してください。
 
 以下のように、注文確認ページが表示された場合のみ Target が target-global-mbox でコンバージョンをカウントするよう、コンバージョンページに対するターゲット設定を追加することもお勧めします。
 
