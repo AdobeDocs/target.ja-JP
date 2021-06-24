@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: リリースノート
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ MVT アクティビティでは、指標を確認した際、テーブルとグ�
 at.js の既知の問題を以下に示します。
 
 * 2.2.0 より前のバージョンの at.js を使用すると、Adobe Analytics コードがページ要素（ボタンなど）に存在しない場合、クリック追跡で Analytics for Target（A4T）のコンバージョンがレポートされません。at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
-* at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、[ttMeta プラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)が正しく動作しない可能性があります。
+* at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、ttMeta プラグインが正しく動作しない可能性があります。
 
    回避策として、エクスペリエンスコンテンツに空白を使用します。（TNT-33366）
 
@@ -229,12 +229,6 @@ A4T に関連する次の問題が解決されました。
 任意のエクスペリエンスにデータがない（訪問回数 0）場合、自動ターゲットアクティビティのグラフレポートで、「微分」モード（平均上昇率および日別の上昇率）のレンダリングに失敗します。この状況は、コントロールエクスペリエンスがカスタムに設定されている場合、アクティビティの初期段階で発生する可能性があります。他のモード（実行平均コントロールおよびターゲット、日別コントロールおよびターゲット、訪問回数）では、正常に機能します。データがあればすぐに（訪問回数 0 以外）、レポートは期待どおりにレンダリングされます。
 
 この問題は、Target 19.7.1 リリースで修正されました。
-
-### mbox.js
-
-mbox.js ライブラリは、Handlebars や Mustache などのクライアント側のテンプレート言語に対応していません。at.js ライブラリはこれらの言語に&#x200B;*対応しています*。
-
-**注意**：mbox. jsライブラリが開発されていません。すべてのお客様が mbox.js から at.js に移行する必要があります。詳しくは、「[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)」を参照してください。
 
 ### 実装：グローバル mbox 自動作成
 
