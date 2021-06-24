@@ -1,14 +1,13 @@
 ---
 keywords: Target;at.js;at.js への移行;準備;at.js の監査;at.js の統合
-description: 一般的なWeb実装とシングルページアプリケーション(SPA)の両方に対応する新しいAdobe [!DNL Target] 向け実装ライブラリであるat.jsへの移行方法を説明します。
+description: 一般的なWeb実装とシングルページアプリケーション(SPA)の両方のために設計された、Adobe [!DNL Target] の新しい実装ライブラリであるat.jsへの移行方法を説明します。
 title: mbox.js から at.js に移行する方法
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '847'
 ht-degree: 91%
 
 ---
@@ -88,16 +87,16 @@ ht-degree: 91%
    >
    >現在、[!DNL Target] のデプロイにタグマネージャーを使用していない場合は、この機会に使用を検討してみてください。
    >
-   >[!DNL Platform Launch] は、の次世代のタグ管理プラットフォームで [!DNL Adobe] す。これらのプラットフォームを使用して導入することをお勧め [!DNL Adobe Target]します。[!DNL Platform Launch] は、関連する顧客エクスペリエンスを強化するために必要なanalytics、マーケティングおよび広告タグを、顧客が簡単に導入および管理できるようにします。
+   >[!DNL Platform Launch] は、の次世代タグ管理プラットフォームで [!DNL Adobe] あり、を実装するのに推奨される方法で [!DNL Adobe Target]す。[!DNL Platform Launch] は、顧客体験の実現に必要な分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。
    >
-   >詳しくは、[ [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を使用した [!DNL Target] 実装を参照してください。
+   >詳しくは、[ [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を使用した [!DNL Target] の実装を参照してください。
 
 1. 現在のすべてのアクティビティおよび統合が期待どおりに動作していることを検証します。
 
    次に、[!DNL at.js] が期待どおりに動作していることを確認するためのテスト中にできることを示します。
 
    * 現在のすべてのアクティビティが新しい JavaScript ライブラリで動作することを確認する。
-   * すべての[統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)および[プラグイン](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)が期待どおりに動作することを確認する。
+   * すべての[統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)およびプラグインが期待どおりに動作することを確認する。
    * [デバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)が（[!DNL at.js]で利用可能な方法で）問題なくおこなえることを確認する。
 
 **at.js への移行時に発生する可能性のある問題** at.js への移行の実施後に、次の問題が発生する場合があります。
@@ -124,4 +123,4 @@ ht-degree: 91%
 
    これをおこなうためのコードエディターの使用方法について詳しくは、[コードエディター](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* 現在すべての mbox は非同期なので、ページレンダリングをブロックせず、実行された順番で返されます。詳しくは、[at.jsの制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)の「非同期に関する考慮事項」を参照してください。
+* 現在すべての mbox は非同期なので、ページレンダリングをブロックせず、実行された順番で返されます。
