@@ -4,9 +4,9 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: トラブルシューティング
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### Automated Personalization（AP）
 
-* [自動パーソナライゼーションに関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Automated Personalization に関する FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Automated Personalization のトラブルシューティング](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization 概要レポート](/help/c-reports/reports-ap.md)
 * [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
@@ -124,11 +124,6 @@ ht-degree: 100%
 * [at.js の制限](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。[at.jsの実装を](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) 参照してください。
-
-### mbox.js
-
-* [mbox. js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [mbox.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
 
 ## 既知の問題
 
