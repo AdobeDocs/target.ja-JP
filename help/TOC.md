@@ -6,7 +6,7 @@ feature-set: Target
 source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
-   + [Target  主な概念](c-intro/target-key-concepts.md)
+   + [Target 主要コンセプト](c-intro/target-key-concepts.md)
    + [Target の UI について](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/c-intro/target-welcome-kit.md)
@@ -89,7 +89,7 @@ ht-degree: 98%
          + [単一プロファイル更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [顧客属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target  セキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [Target セキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [サポートされているブラウザー](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS（Transport Layer Security）暗号化の変更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
@@ -109,9 +109,9 @@ ht-degree: 98%
             + [at.js の統合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + at.js のデプロイ方法 {#deploy-at-js}
             + [at.js のデプロイ方法](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Platform Launch を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [タグマネージャーを使用しない Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Dynamic Tag Manager(DTM)を使用したTargetの実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Dynamic Tag Manager（DTM）を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [単一ページアプリケーション（SPA）への Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 関数 {#functions-overview}
             + [at.ｊs 関数の概要](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target  モバイルアプリに関するFAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target モバイルアプリに関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Location Service の使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -238,15 +238,15 @@ ht-degree: 98%
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [自動パーソナライゼーションアクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Target のパーソナライゼーションアルゴリズムのデータのアップロード を参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Target の自動パーソナライゼーションオファー](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
-      + [自動パーソナライゼーションに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューをおこなう](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
