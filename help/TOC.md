@@ -5,7 +5,7 @@ user-guide-description: web サイトやモバイルサイト、アプリ、ソ�
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1544'
 ht-degree: 99%
 
 ---
@@ -137,21 +137,6 @@ ht-degree: 99%
          + [at.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [at.js 1.x から at.js 2.x へのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js の cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + mbox.js の実装（レガシー） {#mbox-implement}
-         + [mbox.js の実装の概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
-         + mbox.js から at.js への移行 {#migrate-mbox}
-            + [mbox.js から at.js への移行の概要](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
-            + [mbox.js から at.js に移行する方法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [at.js の制限](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js プラグイン](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [非実稼動環境への at.js のデプロイ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
-         + [mbox.js の機能](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
-         + [mbox.js を設定](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
-         + [mbox.js のダウンロード](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Target mbox.js ライブラリバージョンによる ページ手法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [注文確認 mbox の作成 - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js に関するよくある質問](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-         + [mbox.js 関数](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
       + グローバル mbox について {#global-mbox}
          + [グローバル mbox の概要について](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [グローバル mbox のカスタマイズ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
