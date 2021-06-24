@@ -4,10 +4,9 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: 概要
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2918'
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+workflow-type: tm+mt
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -34,15 +33,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **Target はどのブラウザーをサポートしていますか？**
 
-詳細については、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)」のマトリックスを参照してください。Target Standard／Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
-
-## Target JavaScript ライブラリ（at.js および mbox.js） {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**実装用の JavaScript ファイルは、at.js と mbox.js のどちらを使用すればよいですか？**
-
-at.js は最も機能性に優れた最新の JavaScript ライブラリです。mbox.js は旧バージョンです。[at.js のメリット](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)を参照して、この 2 つのライブラリの違いを把握してください。新規のお客様は、at.js を使用してください。
-
-at.js をご利用の既存のお客様も、at.js に移行する必要があります。移行に取りかかる前に、[mbox.js から at.js への移行](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)手順を参照してください。
+詳細については、「[サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -265,7 +256,7 @@ Co-op 対象地域のお客様であれば、目標と設定ページのシン�
 
 その場合は、[フォームベースのアクティビティ](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
-## レポート（Analytics for Target - A4T を含む）{#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## レポート（Analytics for Target - A4T を含む） {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
