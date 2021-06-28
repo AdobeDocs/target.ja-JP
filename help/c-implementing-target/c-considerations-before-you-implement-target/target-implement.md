@@ -1,12 +1,12 @@
 ---
-keywords: document.write;target；実装；targetの実装；at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: WebページにAdobe [!DNL Target] by referencing the [!DNL Target] ライブラリ（at.jsまたはmbox.js）を実装します。
+keywords: document.write;target；実装；targetの実装；dtm;at.js;adobe experience platform web skd;aep web sdk;web sdk
+description: WebページにAdobe [!DNL Target] by referencing the [!DNL Target] JavaScriptライブラリを実装します。
 title: ' [!DNL Target]  JavaScript ライブラリについて '
 feature: 実装
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 24%
+source-wordcount: '436'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ Webページで[!DNL Adobe Target]ライブラリ(Adobe Experience Platform Web 
 
 >[!NOTE]
 >
->mbox.js ライブラリの開発は終了しました。2021年3月31日より前に、すべてのお客様がmbox.jsからat.jsまたは[!UICONTROL Adobe Experience Platform Web SDK]に移行する必要があります。
+>mbox.js ライブラリの開発は終了しました。2021年3月31日までに、すべてのお客様がat.jsまたは[!UICONTROL Adobe Experience Platform Web SDK]に移行する必要があります。
 
 ## [!DNL Target] JavaScriptライブラリの違い {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ Webページで[!DNL Adobe Target]ライブラリ(Adobe Experience Platform Web 
 | ライブラリリファレンス | 説明 |
 |--- |--- |
 | Adobe Experience Platform Web SDK | [!UICONTROL Adobe Experience Platform Web SDK]を使用すると、Adobe Experience Edgeネットワークを介して[!DNL Experience Cloud]の様々なサービス（[!DNL Target]を含む）を操作できます。 [!DNL Adobe Experience Platform Web SDK]に移行する場合は、『*Web SDKガイド*』の「[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)とは」を参照してください。 |
-| at.js | at.jsは、mbox.jsに代わる[!DNL [!DNL Target]]実装です。<br>多くのメリットがある中でも、at.js は、Web 実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chrome での document.write 警告を回避し、シングルページアプリケーション向けのより優れた実装オプションを提供します。 |
+| at.js | at.jsは、Web実装のページ読み込み時間を改善し、セキュリティを強化して、Google Chromeでのdocument.write警告を防ぎ、シングルページアプリケーション向けのより優れた実装オプションを提供します。 |
 
 ## at.jsがページ読み込み時間に与える影響 {#section_16630CD0FF0A498EB596A51381366A5A}
 
