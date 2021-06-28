@@ -1,13 +1,12 @@
 ---
 keywords: クリック追跡;クリックの追跡;クリック;AppMeasurement
-description: Adobe [!DNL Target] を使用して、任意の要素のクリックを成功指標として追跡する方法について説明します。
+description: Adobe [!DNL Target] を使用して、任意の要素に対するクリックを成功指標として追跡する方法を説明します。
 title: クリック追跡とは
 feature: 成功指標
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '885'
 ht-degree: 91%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->グローバルターゲットリクエストがフォームベースのアクティビティの場所として使用されている場合、クリックの追跡はサポートされません。
+>クリックの追跡は、グローバルTargetリクエストでフォームベースのアクティビティの場所として使用される場合はサポートされません。
 
 ## クリックの追跡の設定 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -73,8 +72,8 @@ A/B テスト、エクスペリエンスターゲット設定（XT）、自動�
 
    詳しくは、Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) の *[「DOM パスを使用して要素をナビゲートする」を*&#x200B;参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。この異なるページは、[複数ページ機能](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用するアクティビティに含める必要があり、[!DNL at.js] または [!DNL mbox.js] を実装する必要があります。
-* 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして1つの項目をカウントするには、CSS要素セレクターを編集して複数の要素と一致させます。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。この異なるページは、  [複数ペー](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) ジ機能を使用す [!DNL at.js] る必要があります。
+* 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして1つの項目をカウントするには、CSS要素セレクターを編集して、複数の要素に一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
 * クリック追跡指標が A4T アクティビティの目標指標の場合は、訪問者がページの読み込みから 60 秒以内にこの要素をクリックしないと、指標は追跡されません。
