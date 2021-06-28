@@ -1,13 +1,12 @@
 ---
 keywords: spa vec; react; angular; react.js; spa visual experience composer; spa experience composer オプション; シングルページアプリケーション; シングルページアプリ; spa; モバイルエクスペリエンスオプション; target ビュー
-description: SPA VECをAdobe [!DNL Target] で使用して、継続的な開発依存関係を持たずに、テストを作成し、SPA上でコンテンツを自由にパーソナライズする方法を学びます。
-title: 単一ページアプリのVisual Experience Composer(SPA VEC)の使用方法を教えてください。
+description: SPA VECをAdobe [!DNL Target] で使用して、継続的な開発に依存することなく、マーケターが自らSPAでテストを作成し、コンテンツをパーソナライズする方法を説明します。
+title: シングルページアプリケーションVisual Experience Composer(SPA VEC)の使用方法
 feature: Visual Experience Composer（VEC）
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 91%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 91%
 
 最新リリースでは、SPA 用の VEC が導入されました。SPA 用 VEC を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
 
-## Adobe[!DNL Target]表示と単一ページアプリ
+## Adobe[!DNL Target]ビューとシングルページアプリケーション
 
 SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用します。ビューとはビジュアル要素の論理的集合体で、全体として SPA のエクスペリエンスを形作ります。このため SPA は、URL ではなくユーザーのインタラクションによりビュー間を移行するものと考えられます。通常、ビューはサイト全体またはサイト内のグループ化されたビジュアル要素を表せます。
 
@@ -56,17 +55,17 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
-## Adobe[!DNL Target]表示の実装
+## Adobe[!DNL Target]ビューの実装
 
 Adobe Target ビューとは何かを説明したので、Target でこの概念を活用して、マーケティング担当者が VEC を介して SPA で A/B テストや XT テストを実行できるようにできます。これには開発者による 1 回限りの設定が必要です。以下では、これを設定する手順を説明します。
 
 1. at.js 2.x をインストールします。
 
-   まず、at.js 2.x をインストールする必要があります。このバージョンの at.js は、SPA を考慮して開発されました。at.js および mbox.ｊs の以前のバージョンでは、Adobe Target ビューと SPA 用 VEC はサポートされていません。
+   まず、at.js 2.x をインストールする必要があります。このバージョンの at.js は、SPA を考慮して開発されました。以前のバージョンのat.jsでは、Adobe TargetビューとSPA用VECはサポートされていません。
 
    ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
 
-   [!UICONTROL 管理/実装]にあるAdobe TargetUIからat.js 2.xをダウンロードします。 at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
+   [!UICONTROL 管理/実装]にあるAdobe Target UIを使用して、at.js 2.xをダウンロードします。 at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
 
 1. サイトに at.js 2.x の最新の関数 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) を実装します。
 
@@ -391,9 +390,9 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 以下の変更が加えられました。
 
 * 以下の URL にあるホームビューの背景色が変更されました。[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/
-* URLの下にある製品表示のボタンの色を変更しました。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* URLの下にある製品ビューのボタンの色が変更されました。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-上記の例を考慮して、[!UICONTROL ページ配信]の設定に次の項目のみを含めると、どうなりますか。at.js 2を使用したSPAの[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。*x* を使用）
+上記の例を念頭に置いて、「[!UICONTROL ページ配信]」設定を次の項目のみを含むように設定すると、どうなりますか？at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x* を使用）
 
 ![ページ配信ダイアログボックス](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +402,19 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 **ユーザージャーニー #1**
 
-* ユーザーが直接[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)に移動します。
-* at.js 2.*x* を指定すると、エッジにクエリして、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* ユーザーが[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)に直接移動します。
+* at.js 2.*x* は、Edgeに対してクエリをおこない、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * 手順 6 で、Target Edge は、ブラウザーでキャッシュできるように、ホームおよび製品ビューに対するアクションを返します。
 
 **結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
 
-注意：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動したユーザーは、ページの読み込みをトリガーしませんでした。
+注意：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動するユーザーは、ページ読み込みをトリガーしませんでした。
 
 **ユーザージャーニー #2**
 
-* ユーザーが直接[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動します。
-* at.js 2.*x* を指定すると、エッジにクエリして、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に対する資格のあるアクティビティはありません。
+* ユーザーが[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に直接移動します。
+* at.js 2.*x* は、Edgeに対してクエリをおこない、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に適合するアクティビティはありません。
 * 適合するアクティビティがないので、トリガーする at.js 2.*x* 用にキャッシュされるアクションおよびビューはありません。
 
 **結果**：製品ビュー用に `triggerView()` を定義して SPA VEC を使用して製品ビューに対してアクションをおこなっても、ページ配信設定に [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products を含むルールを作成していないので、実行されたアクションは表示されません。
@@ -440,4 +439,4 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-詳しくは、Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)の「[単一ページアプリケーションでのVisual Experience Composerの使用(SPA VEC)」を参照してください。
+詳しくは、Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)での[シングルページアプリケーション用Visual Experience Composer(SPA VEC)の使用を参照してください。
