@@ -1,14 +1,13 @@
 ---
-keywords: ターゲット設定；Analytics；トラッキングサーバー；ターゲット用の分析；a4t
+keywords: ターゲット設定；analytics；トラッキングサーバー；Analytics for Target;A4T
 description: Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)でアクティビティを設定する方法を説明します。
-title: ターゲットでAnalyticsデータを使用する方法を教えてください。
+title: TargetでAnalyticsデータを使用するにはどうすればよいですか？
 feature: Analytics for Target（A4T）
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 88%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 88%
 
 [!DNL Adobe Target]でアクティビティを設定し、[!DNL Adobe Analytics]をレポートソースとして使用できます(A4T)。
 
-Analyticsをターゲット用のデータソースとして設定する方法について詳しくは、「[Adobe AnalyticsをAdobe Target用のレポートソースとして設定する](/help/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
+AnalyticsをTargetのデータソースとして設定する方法について詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)を参照してください。
 
 Analytics をレポートソースとして使用するアクティビティを設定する前に、アクティビティの目標を設定します。例えば、訪問者 1 人あたりの収益（RPV）や、ショッピングカートのクリック増加数などです。キャンペーンの最終的な成功指標を選択します。Analytics ではいつでも追加的な指標を選択できますが、このテストで効果を確かめたい特定の指標を 1 つ指定する必要があります。
 
@@ -30,7 +29,7 @@ Analytics for Target では、結果を正確にレポートするために、�
 
 >[!NOTE]
 >
->Adobe Analytics をアクティビティのレポートソースとして使用する場合、 mbox.js バージョン 61 （またはそれ以降）または at.js バージョン 0.9.1 （またはそれ以降）を使用しているのであれば、アクティビティを作成する際にトラッキングサーバーを指定する必要はありません。mbox.js または at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>Adobe Analyticsをアクティビティのレポートソースとして使用する場合、at.jsバージョン0.9.1（またはそれ以降）を使用している場合、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。 at.jsライブラリは、トラッキングサーバーの値を自動的に[!DNL Target]に送信します。 アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 
 Analytics をレポートソースとして設定した後にアクティビティを設定する場合、レポートのオーディエンスを設定するオプションはありません。Analytics のセグメントはターゲットアクティビティレポートで利用できます。
 
