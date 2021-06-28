@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Visual Experience Composer(VEC)と拡張Experie
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに�
 
 ## [!DNL Target]は複数レベルのiframeをサポートしますか？
 
-Target は、複数レベルの iframe をサポートしていません。Web サイトが子 iframe を含む iframe を読み込むと、Target ライブラリ（at.js および mbox.js）は親 iframe のみとやり取りします。Target ライブラリは子 iframe とやり取りしません。
+[!DNL Target] は、複数レベルの iframe をサポートしていません。Webサイトが子iframeを含むiframeを読み込む場合、at.jsは親iframeとのみやり取りします。 [!DNL Target] ライブラリは子 iframe とやり取りしません。
 
 回避策として、子 iframe の URL を持つエクスペリエンスにページを追加できます。
 
