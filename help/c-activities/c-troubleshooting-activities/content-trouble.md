@@ -4,11 +4,10 @@ description: ページに期待した内容が表示されない場合は、問�
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
 feature: アクティビティ
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: ht
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +56,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 | mboxTrace のオプション | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.js の場合は、mbox.js のように新しいブラウザーウィンドウをポップアップしたりコンソールに出力したりする代わりに、ネットワークリクエストを調べて、プレビュー（Chrome）または応答（Firefox）を確認する必要があります。 |
+| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.jsの場合、新しいブラウザーウィンドウを表示したり、mbox.jsのようにコンソールに出力したりする代わりに、ネットワークリクエストを調べて、プレビュー(Chrome)または応答(Firefox)の下を確認する必要があります。 |
 | `?mboxTrace=json` | コンソールログにリテラル JSON 文字列として出力します。 |
 | `?mboxTrace=window` | ポップアップウィンドウに JSON 文字列として出力します。 |
 | `?mboxTrace=disable` | セッションモードのトレースをオフにします。 |
@@ -117,10 +116,6 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、[Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)を参照してください。
 
-## 配信中に target.js を読み込めなかった場合 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-配信中に target.js の読み込みに失敗した場合は、mbox.js から訪問者に対して「em-disabled」という cookie が送信されます。この cookie は、Visual Experience Composer を使用して作成されたオファーがサイトに表示されないようにします。この cookie が設定された訪問者には、テストコンテンツが表示されず、それらのアクティビティレポートでもカウントされません。その他すべてのオファーコンテンツ（例えば Target Classic のキャンペーンのコンテンツ）は引き続き読み込まれます。この cookie の有効期間は、読み込み失敗時から 30 分です。
-
 ## Recommendations にトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 *`SiteCatalyst: purchase`* 呼び出しは、購入アルゴリズムトラフィックデータには使用できません。代わりに、*`orderConfirmPage`* 呼び出しを使用します。
@@ -129,21 +124,15 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
  [!DNL Target Standard/Premium] で作成されたフォームベースのアクティビティは、優先度が同じで、同じ [!DNL Target] リクエスト使用している [!DNL Target Classic] UI で作成されたアクティビティと競合する場合があります。
 
-## Internet Explorer 8 でカスタムコードが期待どおりの結果を返さない {#section_FAC3651F19144D12A37A3E4F14C06945}
+## Internet Explorer 8 でカスタムコードが期待どおりの結果を返さない  {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target は、IE 8 をサポートしていません。
-
-## グローバル [!DNL Target] リクエストで提供される JavaScript コンテンツが、mbox.js の使用時に読み込まれない {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-[!DNL mbox.js] のバージョンを 58 以降にアップグレードしてください。
-
-mbox.js バージョン 58 以降では、HTML `BODY` タグのすぐ後にある [!DNL Target] に対し、非 JavaScript コンテンツが実行されます。グローバル [!DNL Target] リクエストの `<script>` タグ内の JavaScript コンテンツは、`DOMContentLoaded` イベントの発生後に実行されます。このコンテンツの配信順序によって、グローバル [!DNL Target] リクエストの JavaScript コンテンツが適切に配信かつレンダリングされるようにします。
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)」を参照してください。 
 
-## 要素が AEM パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 要素が AEM パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない  {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーションのターゲット設定と Target アクティビティの両方に含まれていると、Target コンテンツがちらついたり表示されなかったりする場合があります。
 
