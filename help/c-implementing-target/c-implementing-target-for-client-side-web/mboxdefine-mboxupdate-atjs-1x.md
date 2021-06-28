@@ -5,8 +5,7 @@ title: mboxDefine()関数とmboxUpdate()関数の使用方法を教えてくだ�
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 86%
@@ -25,7 +24,7 @@ Adobe Target で mbox を定義し更新します。
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-nodeId と mbox 名の間の内部マッピングを作成しますが、リクエストを実行しません。`mboxUpdate()` () と共に使用されます。[!DNL mbox.js] から [!DNL at.js] への移行の多くを簡単にするために、[!DNL at.js] に組み込まれています。
+nodeId と mbox 名の間の内部マッピングを作成しますが、リクエストを実行しません。`mboxUpdate()` () と共に使用されます。[!DNL at.js] から [!DNL mbox.js] への移行の多くを簡単にするために、[!DNL at.js] に組み込まれています。
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
