@@ -1,14 +1,13 @@
 ---
 keywords: at.js;2.0;1.x;Cookie
-description: Adobe [!DNL Target] at.js 2.xおよびat.js 1.xでのcookieの処理方法の詳細
+description: Adobe [!DNL Target] at.js 2.xおよびat.js 1.xによるCookieの処理方法の詳細
 title: at.jsのCookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -35,7 +34,7 @@ at.js 1.*x* の場合、サードパーティ Cookie は `[CLIENTCODE].tt.omtrdc
 
 そのため、at.js 2.0.0 ではサードパーティ Cookie もクロスドメイン追跡もサポートされていません。
 
-## at.js 1.*x* の Cookie に関する動作 {#at-js-1x-cookie-behavior}
+## at.js 1.*x* cookieの動作 {#at-js-1x-cookie-behavior}
 
 at.js バージョン 1.*x* の場合、Cookie の動作は、その Cookie がファーストパーティ Cookie であるか、ファーストパーティ Cookie を伴うサードパーティ Cookie であるか、サードパーティ Cookie のみであるかによって異なります。
 
@@ -112,7 +111,7 @@ Cookie にはいくつかのデフォルト設定があります。cookie の期
 | cookie 名 | mbox。 |
 | cookie ドメイン | コンテンツを提供するドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. |
 | サーバードメイン | `clientcode.tt.omtrdc.net`。アカウントのクライアントコードを使用します。 |
-| cookie の期間 | cookieは、最後にログインしてから2年後に訪問者のブラウザーに残ります。<br>この `deviceIdLifetime` 設定は、 [at.jsバージョン2.3.1以降で上書きできます](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。 |
+| cookie の期間 | cookieが訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから2年です。<br>この `deviceIdLifetime` 設定は、 [at.jsバージョン2.3.1以降で上書きできます](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。詳しくは、[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。 |
 | P3P ポリシー | ほとんどのブラウザーのデフォルト設定の要求に従って、cookie は P3P ポリシーに基づいて発行されます。P3P ポリシーはブラウザーに対して、cookie を扱うユーザーおよびその情報の使用方法を指示します。 |
 
 Cookie は、キャンペーンでの訪問者のエクスペリエンスを管理するための様々な値を保持します。
@@ -122,13 +121,13 @@ Cookie は、キャンペーンでの訪問者のエクスペリエンスを管�
 | session ID | ユーザーセッションの一意の ID。デフォルトでは、30 分間存続します。 |
 | pc ID | 訪問者のブラウザーの半永久的な ID。14 日間存続します。 |
 | check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
-| disable | 訪問者の読み込み時間が mbox.js ファイルで設定されているタイムアウトを超えた場合に設定されます。デフォルトでは、1 時間存続します。 |
+| disable | 訪問者の読み込み時間が[!DNL Adobe Experience Platform Web SDK]またはat.jsファイルで設定されているタイムアウトを超えた場合に設定されます。 デフォルトでは、1 時間存続します。 |
 
-## Apple WebKitの追跡の変更によるSafari訪問者に対する[!DNL Target]への影響
+## Safari訪問者の[!DNL Target]に対するApple WebKit追跡の変更の影響
 
 次の点に注意してください。
 
-### Adobe[!DNL Target]追跡はどのように機能しますか？
+### Adobe[!DNL Target]の追跡の仕組み
 
 | Cookie | 詳細 |
 |--- |--- |
@@ -147,7 +146,7 @@ Apple の発表内容：
 |--- |--- |
 | Intelligent tracking prevention | 詳しくは、WebKit オープンソース Web ブラウザーエンジン Web サイトの [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) を参照してください。 |
 | Cookie | Safari における Cookie の処理方法：<ul><li>ユーザーが直接アクセスするドメインにないサードパーティ Cookie は保存されません。この動作は新しいものではありません。既に Safari ではサードパーティ Cookie はサポートされていません。</li><li>ユーザーが直接アクセスするドメインで設定されたサードパーティ Cookie は、24 時間後に消去されます。</li><li>ファーストパーティドメインがサイトを横断してユーザーを追跡していると分類されている場合、そのファーストパーティ Cookie は 30 日後に削除されます。この問題は、異なるドメインにオンラインでユーザーを送信する大企業で起こる可能性があります。Apple では、これらのドメインがどのように分類されるか、またドメインがサイトを横断してユーザーを追跡していると分類されているかどうかを調べる方法について明確にしていません。</li></ul> |
-| 機械学習によるクロスサイトドメインの識別 | Apple の発表内容：<br>機械学習分類子：非公開で管理されるトップドメインがサイトを横断してユーザーを追跡できるかどうかについて、収集された統計情報に基づいて分類するために、機械学習モデルが使用されます。収集された様々な統計情報から、多数の一意のドメインの下位にあるサブリソース、多数の一意のドメインの下位にあるサブフレーム、多数の一意のドメインへのリダイレクト、という 3 つのベクトルが現在の追跡方法に基づく分類に対する強力なシグナルとなることがわかりました。すべてのデータ収集と分類はデバイス上でおこなわれます。<br>ただし、ユーザーが example.com を最上位ドメイン（多くの場合、ファーストパーティドメインと呼ばれます）として操作している場合、Intelligent Tracking Prevention は、これをユーザーが Web サイトに関心を持っているシグナルと見なし、一時的に動作を調整します（次のタイムラインを参照）。<br>ユーザーが example.com を過去 24 時間に操作した場合、その Cookie は `example.com` がサードパーティの場合に使用可能になります。これにより、「Y で X アカウントを使用してサインインする」ログインシナリオが可能になります。<ul><li>トップレベルドメインとして訪問されるドメインは影響を受けません。例えば、OKTA のようなサイト</li><li>複数の一意のドメインを横断する現在のページのサブドメインまたはサブフレームであるドメインを識別します。</li></ul> |
+| 機械学習によるクロスサイトドメインの識別 | Apple の発表内容：<br>機械学習分類子：非公開で管理されるトップドメインがサイトを横断してユーザーを追跡できるかどうかについて、収集された統計情報に基づいて分類するために、機械学習モデルが使用されます。収集された様々な統計情報から、多数の一意のドメインの下位にあるサブリソース、多数の一意のドメインの下位にあるサブフレーム、多数の一意のドメインへのリダイレクト、という 3 つのベクトルが現在の追跡方法に基づく分類に対する強力なシグナルとなることがわかりました。すべてのデータ収集と分類はデバイス上でおこなわれます。<br>ただし、ユーザーが example.com を最上位ドメイン（多くの場合、ファーストパーティドメインと呼ばれます）として操作している場合、Intelligent Tracking Prevention は、これをユーザーが Web サイトに関心を持っているシグナルと見なし、一時的に動作を調整します（次のタイムラインを参照）。<br>ユーザーが example.com を過去 24 時間に操作した場合、その Cookie は `example.com` がサードパーティの場合に使用可能になります。これにより、「Y で X アカウントを使用してサインインする」ログインシナリオが可能になります。<ul><li>トップレベルドメインとして訪問されるドメインは影響を受けません。例えば、OKTA のようなサイト</li><li>複数の一意のドメインを横断する現在のページのサブドメインまたはサブフレームであるドメインを識別します </li></ul> |
 
 ### アドビが受ける影響
 
