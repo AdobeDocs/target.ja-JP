@@ -1,28 +1,27 @@
 ---
-keywords: ターゲット設定；Visual Experience Composer;vec;Visual Experience Composerのトラブルシューティング；トラブルシューティング；tls;tls 1.2
-description: 特定の状況でAdobe [!DNL Target] Visual Experience Composer(VEC)で発生することがある問題のトラブルシューティング方法を説明します。
+keywords: ターゲット設定；visual experience composer;vec;visual experience composerのトラブルシューティング；トラブルシューティング；tls;tls 1.2
+description: 特定の条件下でAdobe [!DNL Target] Visual Experience Composer(VEC)で発生することのある問題のトラブルシューティング方法を説明します。
 title: Visual Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Visual Experience Composerに関する問題のトラブルシューティング
+# Visual Experience Composerに関連する問題のトラブルシューティング
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)では、特定の状況で表示の問題が発生する場合があります。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)では、特定の条件下で表示の問題が発生する場合があります。
 
-## Visual Experience ComposerでWebサイトを開くと、[!DNL Target]ライブラリが読み込まれません。 （VEC のみ）{#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Visual Experience ComposerでWebサイトを開くと、[!DNL Target]ライブラリが読み込まれません。 （VEC のみ） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Visual Experience Composer で Web サイトを開くと、Target によって 2 つのパラメーター（`mboxEdit=1` および `mboxDisable=1`）が追加されます。
 
 Web サイト（特に単一ページアプリ）で、ページの再読み込みなしでページ間を移動するときにこのパラメーターがトリミングされたり、削除されたりすると、Target の機能が適切に動作せず、Target ライブラリが読み込まれません。この問題を防ぐには、この 2 つのパラメーターをトリミングまたは削除しないように設定します。
 
-## EEC でページが開かないか、読み込みに時間がかかります。VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。（VEC のみ）{#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## EEC でページが開かないか、読み込みに時間がかかります。VEC でアクティビティやエクスペリエンスの読み込みに時間がかかります。（VEC のみ） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 いくつかの問題が Target のエクスペリエンスコンポーザーのページのパフォーマンスに影響する可能性があります。よくある問題として以下のようなものがあります。
 
@@ -32,7 +31,7 @@ Web サイト（特に単一ページアプリ）で、ページの再読み込�
 
 拡張 Experience Composer で問題が発生した場合、拡張 Experience Composer をオフにして、代わりに Visual Experience Composer を使用します。
 
-拡張Experience Composerを無効にするには、**[!UICONTROL 管理]**/**[!UICONTROL Visual Experience Composer]**&#x200B;に移動し、**[!UICONTROL 拡張Experience Composerを有効にする]**&#x200B;オプションをオフにします。
+拡張Experience Composerを無効にするには、**[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;に移動し、「**[!UICONTROL 拡張Experience Composerを有効にする]**」オプションをオフにします。
 
 コンソールに次のエラーメッセージが表示される場合があります。
 
@@ -117,8 +116,8 @@ Modify Response Headers 拡張機能（Firefox）の場合、URL ルールを追
 * 入力した URL が無効です。
 * アカウント設定ページにデフォルト URL が入力されていません。
 
-この設定が有効になっていることを確認してから、Web サイトの mbox.js をダウンロードおよび更新してください。
+この設定が有効になっていることを確認してから、Webサイトでat.jsをダウンロードして更新します。
 
-## 参照モードを使用すると、VEC が壊れているように見えます。（VEC のみ）{#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 参照モードを使用すると、VEC が壊れているように見えます。（VEC のみ） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 参照モードの使用中に、target.js を含まない URL またはフレームバスターヘッダーを含む URL にアクセスすると、Visual Experience Composer が壊れているように表示されます。ブラウザーのセキュリティ上の問題により、Target はこれらの URL にアクセスできません。
