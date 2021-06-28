@@ -4,10 +4,9 @@ description: Adobe  [!DNL Target] アクティビティがサイトに表示さ�
 title: アクティビティのトラブルシューティング方法
 feature: アクティビティ
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '834'
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -104,15 +103,6 @@ Target でユーザーとして追加されたら、アクティビティを作�
 * 前述のとおり、クラスや兄弟を動的に修正するのを止めます。
 
 ページ構造が Target の表示機能に与える影響について詳しくは、[ページ修正のシナリオ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
-
-## mbox.js が &lt;head> から後続のすべてのコードを &lt;body> に移動する。
-
-**検証：**&#x200B;ソースを表示して、終了タグより前の位置で、mbox.js ファイルの後に宣言が行われているかどうかを確認します`</body>`。
-
-**オプション：**
-
-* mbox.js を、ページの `<head>` セクション内の最後の要素として配置します。
-* body 内の最上位レベル要素に一意の div id を使用します。
 
 ## 同じページ上で他のアクティビティが実行される。
 
