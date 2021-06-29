@@ -5,9 +5,9 @@ title: at.jsバージョン1.xからバージョン2.xにアップグレード�
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2761'
 ht-degree: 91%
 
 ---
@@ -52,7 +52,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 | 5 | Analytics データがデータ収集サーバーに送信されます。 |
 | 6 | Target データは、SDID を使用して Analytics データに適合され、Analytics レポートストレージへと処理されます。A4T レポートを使用して、Analytics データが Analytics と Target の両方に表示できるようになります。 |
 
-## at.js 2.*x* をデプロイします。{#deploy-atjs-200}
+## at.js 2.*x* {#deploy-atjs-200}
 
 1. at.js 2.*x* をデプロイします（[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 拡張機能を使用）。
 
@@ -217,7 +217,7 @@ at.js 2.*x* では、いくつかの関数が廃止されました。
 
 `mboxCreate()` を `getOffer()` または `applyOffer()` で置き換えない場合、オファーが配信されない場合があります。
 
-### at.js 2.*x* は、at.js 1.*x* または mbox.js が他のページにある場合、一部のページで使用できますか？
+### at.js 2.*x* は、at.js 1.** xisを他のページに配置する場合
 
 できます。訪問者プロファイルは、異なるバージョンやライブラリを使用してページ間で保持されます。Cookie の形式は同じです。
 
@@ -248,7 +248,7 @@ at.js 2.*x* では、ネットワーク呼び出しで「`target-global-mbox`」
 
 ### at.js のグローバル mbox 名は重要ではなくなりましたか？
 
-お客様は、[!UICONTROL Target/管理/実装/ at.js設定を編集]で、グローバルmbox名を指定できます。 この設定は [!DNL Target] エッジサーバーによって使用され、execute > pageLoad が [!DNL Target] UI に表示されるグローバル mbox 名に変換されます。これにより、ユーザーはサーバーサイド API、フォームベースのコンポーザー、プロファイルスクリプトの使用、およびグローバル mbox 名を使用したオーディエンスを引き続き作成できます。まだat.js 1を使用するページがある場合、[!UICONTROL 管理/Visual Experience Composer]ページでも同じグローバルmbox名を設定することを強くお勧めします。** mbox.jsを抽出します（以下の図を参照）。
+お客様は、[!UICONTROL Target/管理/実装/ at.js設定を編集]で、グローバルmbox名を指定できます。 この設定は [!DNL Target] エッジサーバーによって使用され、execute > pageLoad が [!DNL Target] UI に表示されるグローバル mbox 名に変換されます。これにより、ユーザーはサーバーサイド API、フォームベースのコンポーザー、プロファイルスクリプトの使用、およびグローバル mbox 名を使用したオーディエンスを引き続き作成できます。まだat.js 1を使用するページがある場合、[!UICONTROL 管理/Visual Experience Composer]ページでも同じグローバルmbox名を設定することを強くお勧めします。*x*&#x200B;を使用できます。
 
 ![at.js ダイアログの変更](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
