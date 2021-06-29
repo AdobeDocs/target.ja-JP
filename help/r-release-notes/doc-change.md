@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 91%
+source-wordcount: '1569'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 91%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6 月 29 日（PT） | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 異なるTarget JavaScriptライブラリを使用する場合に、どのアクティビティタイプがアクティビティモードをサポートしているかを示す互換表を追加しました。 |
 | 6 月 24 日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1リリース（2021年6月31日）のプレリリースノートを更新しました。 |
 | 6 月 16 日（PT） | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDKバージョン1.0.0リリースに関する情報を追加しました。 |
 |  | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Automated Personalization](AP)および[!UICONTROL 自動ターゲット]モデルのデータは、どの程度の期間保持されますか？</li></ul> |
