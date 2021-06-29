@@ -1,13 +1,13 @@
 ---
-keywords: qa;qaモード；アクティビティqa;qa url;qa url
+keywords: qa;qaモード；アクティビティqa;qa url;qa url；プレビューurl;URLのプレビュー
 description: Adobe [!DNL Target] QA URLを使用して、変更のないプレビューリンク、オプションのオーディエンスターゲティング、ライブアクティビティデータからセグメント化されたままのQAレポートを使用して、簡単にエンドツーエンドのアクティビティQAを実行する方法を説明します。
 title: QAアクティビティの方法
 feature: アクティビティ
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 38%
+source-wordcount: '1785'
+ht-degree: 37%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 38%
 
 * [!UICONTROL Target QAモード] UIは、複数ページアクティビティのエクスペリエンスの最初のURLのみを表示します。 例えば、ジャーニーテストを作成し、URL1からURL2に移動するとします。 ただし、独立して URL2 にアクセスする場合は、URL1 に対して提供されたすべての URL パラメータをコピーし、 &quot;？&quot;を付けた後でそれらを URL2 に適用します。URL1に表示されるように。
 
-## Target JavaScriptライブラリの互換性
+## Target JavaScriptライブラリ[!UICONTROL QAモード]の互換性
 
 [!DNL Target] は、次のJavaScriptライブラリをサポートしています。
 
@@ -113,6 +113,32 @@ ht-degree: 38%
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
 | [!UICONTROL Recommendations] | ○ | ○ | ○ |
+
+## プレビューURL {#preview}
+
+エクスペリエンスプレビューURLは、すべての[!DNL Target]アクティビティタイプに対して生成できます。 プレビューURLを使用すると、プレビューおよびQAの目的でアクティビティをライブにする前に、エクスペリエンスのコンテンツをサイトで直接確認できます。 エクスペリエンスプレビューURLは、ターゲティングをバイパスして、特定のエクスペリエンスを強制的に表示します。
+
+プレビューURLが[!UICONTROL Automated Personalization](AP)アクティビティで機能する方法について詳しくは、[エクスペリエンスプレビューURLを使用したAutomated Personalizationアクティビティのプレビュー](/help/c-activities/t-automated-personalization/experience-preview.md)を参照してください。
+
+プレビューURLにアクセスして共有するには、アクティビティの&#x200B;**[!UICONTROL 概要]**&#x200B;ページから、**[!UICONTROL アクティビティQA]**&#x200B;リンクをクリックします。
+
+>[!NOTE]
+>
+>[!UICONTROL アクティビティQA]リンクとプレビューURLは、[!DNL Target] APアクティビティ以外のすべてのアクティビティで同じです。
+
+次の表に、様々なアクティビティのタイプと、プレビューURL機能が各ライブラリまたはAPIでサポートされているかどうかを示します。
+
+| アクティビティタイプ | at.js 1.x | at.js 2.x | Platform Web SDK | 配信 API | 管理 API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B テスト] | ○ | ○ | ○ | 該当なし | ○ |
+| [!UICONTROL 自動配分] | ○ | ○ | ○ | 該当なし | ○ |
+| [!UICONTROL 自動ターゲット] | ○ | ○ | ○ | 該当なし | ○ |
+| [!UICONTROL 自動パーソナライゼーション]（AP） | ○ | ○ | × | 該当なし | ○ |
+| [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ | 該当なし | ○ |
+| [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ | 該当なし | ○ |
+| [!UICONTROL Recommendations] | ○ | ○ | ○ | 該当なし | ○ |
+
+
 
 
 
