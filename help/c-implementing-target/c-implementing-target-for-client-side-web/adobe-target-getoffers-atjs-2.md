@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;関数
-description: adobe.ターゲット.getOffers()関数とそのオプションを、Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] オファーに使用します。 (at.js 2.x)
-title: adobe.ターゲット.getOffers()関数の使用方法を教えてください。
+description: Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] オファーには、 adobe.target.getOffers()関数とそのオプションを使用します。 (at.js 2.x)
+title: adobe.target.getOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,16 +22,16 @@ ht-degree: 90%
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| consumerId | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T 統合に使用される補助的なデータ ID を生成するために使用されます。このキーは、訪問者ごとの一意の文字列です。 |
-| decisioningMethod | 文字列 | × | &quot;server-side&quot;、&quot;on-device&quot;、&quot;hybrid&quot; |
-| request | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
-| timeout | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
+| `consumerId` | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T統合に使用される補足的なデータID(SDID)の生成に使用されます。 このキーは、訪問者ごとの一意の文字列です。<br>を使用する場合、 `getOffers()`各呼び出しで新しいSDIDが生成されます。同じページに複数のmboxリクエストがあり、SDIDを保持する(target-global-mboxとAdobe Analytics SDIDのSDIDと一致させる)場合は、`consumerId`パラメーターを使用します。<br>3つ `getOffers()` のmbox(「mbox1」、「mbox2」、「mbox3」)が含まれる場合は、次を含めます。 `consumerId: "mbox1, mbox2, mbox3"` を呼び出しに含め `getOffers()` ます。 |
+| `decisioningMethod` | 文字列 | × | &quot;サーバー側&quot;、&quot;オンデバイス&quot;、&quot;ハイブリッド&quot; |
+| `request` | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
+| `timeout` | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
 
 ## リクエスト
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドに使用できるタイプについては、[配信APIドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
+>以下に示すすべてのフィールドで許容されるタイプについては、 [Delivery APIのドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
 
 | フィールド名 | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- |
@@ -75,7 +74,7 @@ ht-degree: 90%
 | Request > execute > mboxes > mbox > order > total | × | `>=` 0 | 指定された注文合計を持つ特定の mbox のオファーを取得します。 |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | × | 値は空白にはできません<br>各値の最大長 = 50<br>コンマ区切りで連結された状態<br>製品 ID の合計の長さ`<=` 250 | 指定された注文で購入された製品 ID を持つ特定の mbox のオファーを取得します。 |
 
-## すべての表示に対してgetOffers()を呼び出します
+## すべてのビューに対してgetOffers()を呼び出します
 
 ```javascript
 adobe.target.getOffers({
@@ -87,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers()を使用してオンデバイスの判定を行う
+## getCallOffers()を使用して、デバイス上での判定をおこなう
 
 ```javascript
 adobe.target.getOffers({ 
@@ -106,7 +105,7 @@ adobe.target.getOffers({
 }); 
 ```
 
-## getOffers()を呼び出して、渡されたパラメーターとプロファイルパラメーターを含む最新の表示を取得します
+## getOffers()を呼び出して、渡されたパラメーターとプロファイルを使用して最新ビューを取得する
 
 ```javascript
 adobe.target.getOffers({
@@ -127,7 +126,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers()を呼び出して、パラメーターとプロファイルーパラメーターが渡されたmboxを取得します。
+## getOffers()を呼び出して、渡されたパラメーターとプロファイルを使用してmboxを取得します。
 
 ```javascript
 adobe.target.getOffers({
@@ -206,9 +205,9 @@ adobe.target.getOffers({
 }
 ```
 
-ペイロードは、次に[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を介してAdobe Analyticsに転送できます。
+ペイロードは、その後、[Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)を使用してAdobe Analyticsに転送できます。
 
-## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする {#multiple}
+## getOffers() および applyOffers() を介して複数の mbox からデータを取得してレンダリングする  {#multiple}
 
 at.js 2.x を使用すると、`getOffers()` API を使用して複数の mbox を取得できます。複数の mbox のデータを取得して、`applyOffers()` CSS セレクターによって識別されるさまざまな場所で、データをレンダリングすることもできます。
 
@@ -287,9 +286,9 @@ adobe.target.getOffers({
 
 この例では `prefetch > mboxes` を使用していますが、`execute > mboxes` を使用することもできます。`getOffers()` でプリフェッチを使用する場合は、`applyOffers()` 呼び出しでもプリフェッチを使用する必要があります。
 
-## getOffers()を呼び出してpageLoadを実行します
+## getOffers()を呼び出してpageLoadを実行する
 
-次の例は、at.js 2でgetOffers()を使用してpageLoadを実行する方法を示しています。*x*
+次の例は、at.js 2.*x*
 
 ```javascript
 adobe.target.getOffers({
