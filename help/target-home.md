@@ -4,10 +4,10 @@ title: ' [!DNL Target] ドキュメントについて'
 description: Adobe  [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021 年 6 月 29 日（PT）（[変更点を見る](r-release-notes/doc-change.md)）**
+**最終更新日：2021年7月12日( [変更点を参照](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 - [Target リリースノート](r-release-notes/release-notes.md)：現在のリリースに関する情報、[!DNL Target] に影響を与える既知の問題に関する情報、このドキュメントに関する重要な変更点の一覧、過去のリリースノートのアーカイブなどが含まれています。
 - [Target の概要](c-intro/intro.md)：[!DNL Target] ソリューションのコア概念について説明します。
-- Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud オーディエンス](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)、[Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md) など）を統合する方法について説明します。
+- TargetとAdobe Experience Cloudの統合：[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)、[Experience Cloudオーディエンス](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)など、[!DNL Target]を他の[!DNL Experience Cloud]ソリューションと統合する方法について説明します。
 - [Adobe Target のチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)：Target を最大限に活用するためのチュートリアルとビデオを提供します。
 - [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)：[!DNL Target] のアクティビティやの他の要素に影響する文字制限とその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報を含む、このガイドに含まれるトラブルシューティング情報へのリンクを提供します。
 - [モバイルアプリのための Target](c-target-mobile-app/target-mobile-app.md)：モバイルアプリの最適化とパーソナライゼーションをおこなうために、[!DNL Target] をどのように使用できるかを説明します。
