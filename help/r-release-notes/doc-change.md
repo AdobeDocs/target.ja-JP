@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1663'
 ht-degree: 87%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 87%
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次のFAQを追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API呼び出し」の節のテキストを更新しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId`キーの説明を更新しました。 |
+|  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 手順1を更新し、新しいmboxを選択した後、変更が自動的に保存されることを示しました。 |
 |  | Experience Cloud Device Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
 | 6 月 29 日（PT） | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 次の節を追加しました。<ul><li>Target JavaScriptライブラリ[!UICONTROL QAモード]の互換性</li><li>プレビューURL</li></ul> |
 | 6 月 24 日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1リリース（2021年6月31日）のプレリリースノートを更新しました。 |
