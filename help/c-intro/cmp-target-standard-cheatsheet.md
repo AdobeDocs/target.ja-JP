@@ -4,9 +4,9 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: 概要
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 **以前まで Target Classic を利用していました。特定の用途で自分の mbox を利用することはできますか？**
 
 「[フォームベースの手法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でアクティビティを作成してください。
-
-**ユーザーのあらゆるデバイス全体を対象に、一貫性のある同一のエクスペリエンスが提供されているかを確認することはできますか？**
-
-[Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja) では、Co-op の機能を利用し、確率論に基づいて確定的にユーザーの複数のデバイスをリンクさせることができます。
-
-Co-op 対象地域のお客様であれば、目標と設定ページのシンプルなフラグでこの機能を有効にできます。レポートのデータも、訪問者ではなく人を基準とした形に変わります。この機能を利用できるのは一部の地域のみなので、詳しくはアドビの担当者までお問い合わせください。
 
 **目的のオファーやエクスペリエンスが表示されず、別のアクティビティが表示されるのはなぜですか？**
 
