@@ -3,9 +3,9 @@ keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プ�
 description: Adobe Targetにユーザーを追加する方法を説明します。ワークスペース、ユーザーグループ、プロパティの作成実装を更新する。役割と権限を指定します。
 title: Enterprise権限の設定方法を教えてください。
 feature: 管理と設定
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 67%
