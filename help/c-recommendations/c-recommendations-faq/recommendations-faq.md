@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] Recommendations アクティビティに関す�
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 95%
@@ -247,7 +247,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 
-メディア&amp;パブリッシングの一部のお客様は、レコメンデーション品目に最新の記事またはビデオのみを含めたいと考える場合があります。 例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
+メディアや投稿の一部のお客様は、レコメンデーション品目に最新の記事またはビデオのみを含めたいと考えています。 例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
 
 1. 記事の公開日をYYMMDDD形式で、カスタムエンティティ属性として渡します。
 1. 今日の日付 — 60日（YYYYMMDD形式も含む）のプロファイルスクリプトを作成します。
