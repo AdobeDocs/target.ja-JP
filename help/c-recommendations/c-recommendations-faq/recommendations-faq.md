@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Recommendations アクティビティに関す�
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 >[!NOTE]
 >
->この設定は、Visual Experience Composer（VEC）で作成されたアクティビティのみに適用されます。この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
+>この設定は、[!UICONTROL Visual Experience Composer](VEC)で作成されたアクティビティにのみ適用されます。 この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
 
 [!UICONTROL 非互換の条件をフィルター]設定にアクセスするには、[!UICONTROL Recommendations]／[!UICONTROL 設定]をクリックします。
 
