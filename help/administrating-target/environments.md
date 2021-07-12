@@ -3,9 +3,9 @@ keywords: 環境；トラブルシューティング；ベストプラクティ�
 description: Adobe [!DNL Target] の環境を使用してサイトと実稼動前の環境を整理し、管理と個別のレポートを容易におこなえるようにする方法を説明します。
 title: 環境とは何ですか？また、それらの使用方法を教えてください。
 feature: 管理と設定
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 61%
