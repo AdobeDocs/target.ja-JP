@@ -3,10 +3,9 @@ keywords: ユーザーの追加;ユーザーの管理;ユーザー権限
 description: Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premiumでユーザーを管理する方法を説明します。
 title: User Managementの設定方法を教えてください。
 feature: 管理と設定
-role: Administrator
+role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 20%
@@ -19,24 +18,24 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->プロパティと権限の機能は [!UICONTROL  ソリューションの一部です。][!DNL Target Premium][!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。高度な[!DNL Target] Premium機能について詳しくは、*ターゲットの紹介*&#x200B;の[ターゲットプレミアム](/help/c-intro/intro.md#premium)を参照してください。
+>プロパティと権限の機能は [!UICONTROL  ソリューションの一部です。][!DNL Target Premium][!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。高度な[!DNL Target] Premium機能について詳しくは、*Targetの概要*&#x200B;の[Target Premium](/help/c-intro/intro.md#premium)を参照してください。
 
-[!DNL Target] UIの上部にある[!UICONTROL 管理]リンクをクリックすると、組織にStandardライセンスとPremiumライセンスのどちらがあるかを確認できます。
+ライセンスがStandardかPremiumかを確認するには、[!DNL Target] UIの上部にある「[!UICONTROL 管理]」リンクをクリックします。
 
-* **Target Standardのお客様：** Standardのライセンスをお持ちの [!DNL Target] 場合、 [!DNL Target] UIで次の点に注意してください。
+* **Target Standardのお客様：** Target Standardのライセンスをお持ち [!DNL Target] の場合、UIには次の内容が表示さ [!DNL Target] れます。
 
-   * 「[!UICONTROL ユーザー]」タブ（[!UICONTROL 管理] > [!UICONTROL ユーザー] ）が表示されます。
-   * **&#x200B;プロパティ]タブ（[!UICONTROL 管理]/[!UICONTROL プロパティ]）を[!UICONTROL 表示しません
+   * 「[!UICONTROL ユーザー]」タブ（ [!UICONTROL 管理] > [!UICONTROL ユーザー] ）が表示されます。
+   * **&#x200B;ではなく[!UICONTROL 「プロパティ]」タブ（ [!UICONTROL 管理] > [!UICONTROL プロパティ] ）が表示されます。
 
    [!DNL Target] Standard のお客様は、Adobe Admin Console でユーザーを追加したり権限を割り当てたりする際は、[ユーザー](/help/administrating-target/c-user-management/c-user-management/user-management.md)の手順に従ってください。
 
-* **ターゲットプレミアムのお客様：** Premiumライセンスをお持ちの [!DNL Target] 場合は、ターゲットUIで次の点に注意してください。
+* **Target Premiumのお客様：** お客様の組織がPremiumライ [!DNL Target] センスをお持ちの場合、Target UIでは次の内容が確認されます。
 
-   * 「[!UICONTROL プロパティ]」タブ（[!UICONTROL 管理] > [!UICONTROL プロパティ] ）が表示されます。
-   * 「[!UICONTROL ユーザー]」タブ（[!UICONTROL 管理] > [!UICONTROL ユーザー] ）も表示されます。
+   * 「[!UICONTROL プロパティ]」タブ（ [!UICONTROL 管理] / [!UICONTROL プロパティ] ）が表示されます。
+   * また、「 [!UICONTROL ユーザー] 」タブ（ [!UICONTROL 管理] / [!UICONTROL ユーザー] ）も表示されます。
 
-      [!DNL Target] Premiumのお客様は、「 [Enterprise User ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Permissions」および「Configure Enterprise  [Permissions」の手順に従って、でユーザーを追加し、権限を割り当てる必要があり](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)  [!DNL Adobe Admin Console]ます。
+      [!DNL Target] Premiumのお客様は、でユーザーを追加したり、権限を割り当てたりする [際は、 Enterpriseユ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) ーザーの権限 [とEnterprise権限の設](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) 定の手順に従ってくだ [!DNL Adobe Admin Console]さい。
 
-次の図は、[!DNL Target] Premiumアカウントの[!UICONTROL 管理]ページを示しています。 「[!UICONTROL プロパティ]」タブと「[!UICONTROL ユーザー]」タブの両方を使用できます。
+次の図に、[!DNL Target] Premiumアカウントの[!UICONTROL 管理]ページを示します。 「[!UICONTROL プロパティ]」タブと「[!UICONTROL ユーザー]」タブの両方が使用可能です。
 
 ![「管理」タブ](/help/administrating-target/assets/premium.png)
