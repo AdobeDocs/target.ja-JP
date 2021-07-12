@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Recommendations アクティビティに関す�
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 99%
+source-wordcount: '3150'
+ht-degree: 94%
 
 ---
 
@@ -244,5 +244,39 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 ## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
 [!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、[[!DNL Recommendations Classic] versus [!DNL Recommendations] の  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)アクティビティを参照してください。
+
+## 60日未満の記事をレコメンデーションするにはどうすればよいですか？ {#less-than-60}
+
+例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
+
+この顧客はデータフィードを使用しません。 記事に関して収集されたすべてのデータはデータレイヤーから取得され、ページビュー時に[!DNL Target]に渡されます。
+
+この顧客は、次の方法を使用しました。
+
+* 公開日をYYYYMMDD形式でエンティティパラメーターとして渡します。
+* 今日の日付 — 60日（YYYYMMDD形式）のプロファイルスクリプトを作成しました。
+* 動的インクルージョンフィルターを条件に使用して`publish date > today’s date minus 60 days`を作成しました。
+
+この顧客は、次のデータフィールドを取り込みました。
+
+| データフィールド | 例 |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | 解説 |
+| publishDate | 20210113 |
+| publishDateDisplay | 2021年1月14日 |
+
+この顧客は、プロファイル属性の照合を使用して、次のインクルージョンルールを使用しました。
+
+![サンプルインクルージョンルール](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+この顧客は、次のプロファイルスクリプトを使用しました。
+
+![サンプルプロファイルスクリプト](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>この例は、パラメーターと一致し、`priorDate60`値をmboxパラメーターとして渡すことでも実現できます。
 
 
