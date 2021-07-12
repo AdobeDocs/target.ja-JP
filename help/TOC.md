@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1540'
 ht-degree: 99%
 
 ---
@@ -192,7 +192,6 @@ ht-degree: 99%
    + [Experience Cloud オーディエンス](c-integrating-target-with-mac/mmp.md)
    + [Target とAdobe Audience Manager の統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
-   + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + アクティビティ {#activities}
    + [アクティビティの概要](c-activities/activities.md)
    + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
