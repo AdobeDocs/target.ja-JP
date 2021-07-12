@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Recommendations アクティビティに関す�
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 94%
+source-wordcount: '3129'
+ht-degree: 95%
 
 ---
 
@@ -245,21 +245,17 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 [!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、[[!DNL Recommendations Classic] versus [!DNL Recommendations] の  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)アクティビティを参照してください。
 
-## 60日未満の記事をレコメンデーションするにはどうすればよいですか？ {#less-than-60}
+## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 
-例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
+メディア&amp;パブリッシングの一部のお客様は、レコメンデーション品目に最新の記事またはビデオのみを含めたいと考える場合があります。 例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
 
-この顧客はデータフィードを使用しません。 記事に関して収集されたすべてのデータはデータレイヤーから取得され、ページビュー時に[!DNL Target]に渡されます。
+1. 記事の公開日をYYMMDDD形式で、カスタムエンティティ属性として渡します。
+1. 今日の日付 — 60日（YYYYMMDD形式も含む）のプロファイルスクリプトを作成します。
+1. 条件に動的インクルージョンフィルターを使用して`publish date > today’s date minus 60 days`します。
 
-この顧客は、次の方法を使用しました。
+### 発行日をカスタムエンティティ属性として渡します。
 
-* 公開日をYYYYMMDD形式でエンティティパラメーターとして渡します。
-* 今日の日付 — 60日（YYYYMMDD形式）のプロファイルスクリプトを作成しました。
-* 動的インクルージョンフィルターを条件に使用して`publish date > today’s date minus 60 days`を作成しました。
-
-この顧客は、次のデータフィールドを取り込みました。
-
-| データフィールド | 例 |
+| エンティティの属性 | 例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 | publishDate | 20210113 |
 | publishDateDisplay | 2021年1月14日 |
 
-この顧客は、プロファイル属性の照合を使用して、次のインクルージョンルールを使用しました。
-
-![サンプルインクルージョンルール](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-この顧客は、次のプロファイルスクリプトを使用しました。
+### プロファイルスクリプトの設定：
 
 ![サンプルプロファイルスクリプト](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### インクルージョンルールを設定します。
+
+![サンプルインクルージョンルール](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->この例は、パラメーターと一致し、`priorDate60`値をmboxパラメーターとして渡すことでも実現できます。
-
-
+>この例は、パラメーターのマッチングを使用し、`priorDate60`値をmboxパラメーターとして渡すこともできます。
