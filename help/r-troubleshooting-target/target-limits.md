@@ -5,10 +5,10 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 98%
 
 * **推奨される制限**：10,000 個のアクティブな保存済み（および終了していない）アクティビティ。
 
-## Target API呼び出し
+## Target API 呼び出し
 
-* **制限**:1分あたり50通話。
+* **制限**:管理、レポート、一括プロファイル更新APIの1分あたり50コール。この制限は、配信および単一プロファイル更新APIには適用されません。
 
-   1分あたり50個を超えるAPI呼び出しをおこなう場合、[!DNL Target]は「503 HTTPステータス」エラーメッセージを返します。
+   1 分あたり 50 回を超える API 呼び出しをおこなうと、[!DNL Target] は「503 HTTP ステータス」エラーメッセージを返します。
 
 ## オーディエンス
 
