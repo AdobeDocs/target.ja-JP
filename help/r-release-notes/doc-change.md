@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 88%
+source-wordcount: '1643'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 88%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 12 月 8 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analyticsと[!DNL Adobe Target]の統合に関するROI、インサイト、時間節約の大幅な数値化。</li><li>[!DNL Adobe Target] 2021年7月21日（水）午前8時に開催されるコミュニティQ&amp;Aコーヒーブレーク。(PDT、GMT-7)。</li></ul> |
-|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次のFAQを追加しました。「60日未満の記事をレコメンデーションするにはどうすればよいですか？」 |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次のFAQを追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API呼び出し」の節のテキストを更新しました。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId`キーの説明を更新しました。 |
 |  | Experience Cloud Device Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
 | 6 月 29 日（PT） | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 次の節を追加しました。<ul><li>Target JavaScriptライブラリ[!UICONTROL QAモード]の互換性</li><li>プレビューURL</li></ul> |
 | 6 月 24 日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1リリース（2021年6月31日）のプレリリースノートを更新しました。 |
