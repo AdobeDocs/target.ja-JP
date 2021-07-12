@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: リリースノート
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31047'
-ht-degree: 99%
+source-wordcount: '31019'
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 ## リリースノート - 2021 年
 
-### at.jsバージョン2.5.0（2021年5月14日）
+### at.js バージョン 2.5.0（2021 年 5 月 13 日（PT））
 
 at.js のこのリリースには、次の機能強化および変更が含まれています。
 
 * at.js の[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)のサポート。
 * Automated Personalization アクティビティでの[プレビューリンク](/help/c-activities/c-activity-qa/activity-qa.md)のサポート
 
-このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。
+このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての旧バージョンのサポートが終了します。Microsoft Edge は、at.js 2.5.0 以降で引き続きサポートされます。
 
 ### Target Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
 
@@ -93,7 +93,6 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 * [!UICONTROL Recommendations] コレクションに間違った製品数が表示される問題を修正しました。（TGT-39162）
 * [!UICONTROL 最終更新日]フィルターを [!UICONTROL Recommendations] [!UICONTROL カタログ検索]に追加しました。（TGT-38340）
 * [!UICONTROL Recommendations]で、業種を変更すると[!UICONTROL シーケンスを作成]ページがハングする問題を修正しました。（TGT-38160）
-* Device Co-op が有効化されており、ユーザーが [!DNL Target] からレポートソースとして [!DNL Analytics]（A4T）に変更した場合に、アクティビティを保存できない問題を修正しました。（TGT-38163）
 * [!UICONTROL Automated Personalization]（AP）アクティビティーのオファーからオーディエンスを削除できない問題を修正しました。（TGT-39058）
 * 一部の顧客の[!UICONTROL オーディエンス情報]カードに間違った時間枠（開始日と終了日）が表示される問題を修正しました。（TGT-39150）
 * 一部の顧客が、[!UICONTROL デフォルトの Workspace] でアクティビティのリストを表示できない問題を修正しました。（TGT-38526）
@@ -462,7 +461,7 @@ Target Standard／Premium 20.1.1 リリースはメンテナンスリリース�
 | --- | --- |
 | ![Premium バッジ](/help/assets/premium.png)エンタープライズ権限 | 今後の 2019 年 9 月リリースでは、エンタープライズ権限は、顧客に次のアクセス制御を提供します。<UL><li>統合を適用できるワークスペースを選択できます。</li><li>Adobe I/O 統合（承認者、編集者または監視者）に役割を適用できます。</li></ul>操作手順と詳細情報については、[ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)を参照してください。 |
 
-### Target Standard／Premium 19.7.1（2019 年 7 月 24 日（PT））{#tgt-19-7-1}
+### Target Standard／Premium 19.7.1（2019 年 7 月 24 日（PT）） {#tgt-19-7-1}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -500,7 +499,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 at.js のこのバージョンおよび過去のバージョンについて詳しくは、[at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
 
-### Target Standard／Premium 19.6.1（2019 年 6 月 26 日（PT））{#tgt-19-6-1-historical}
+### Target Standard／Premium 19.6.1（2019 年 6 月 27 日） {#tgt-19-6-1-historical}
 
 このリリースには、次の新機能および機能強化が含まれています。
 
@@ -514,7 +513,7 @@ at.js のこのバージョンおよび過去のバージョンについて詳�
 | ![Premium バッジ](/help/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
 | Google Chrome SameSite cookie ポリシー | Google は、先日、Chrome 76（2019 年 7 月 30 日（PT）リリース予定）から、開発者はどの cookie が Web サイトで機能できるか、およびどの cookie がユーザーを追跡できるかを厳密に指定する必要があると発表しました。<br>業界はお客様向けにより安全な Web を作成する方向に進んでおり、Target では、訪問者のプライバシーに対する期待を満たし、超えると同時に、パーソナライズされたエクスペリエンスを配信することに全力で取り組んでいます。<br>[Google Chrome SameSite cookie ポリシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)を参照してください。 |
 
-### at.js バージョン 2.1.0（2019 年 6 月 3 日（PT）） {#atjs-210}
+### at.js バージョン 2.1.0（2019 年 6 月 4 日） {#atjs-210}
 
 at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
@@ -527,7 +526,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | 縮小されたファイルサイズ | at.js のサイズが最大 24％小さくなります。ファイルサイズが小さくなることで、ページ読み込みパフォーマンスが向上し、ページへの at.js ダウンロード時間が短縮します。 |
 | at.js ドキュメントの更新 | at.js 2.1.0 リリースに伴って更新されたすべての記事の完全なリストについては、[ドキュメントの変更](/help/r-release-notes/doc-change.md)の 2019 年 6 月 3 日（PT）のエントリを参照してください。 |
 
-### [!DNL Target] Standard／Premium 19.5.1（2019 年 5 月 21 日（PT））{#tgt-19-5-1-historical}
+### [!DNL Target] Standard／Premium 19.5.1（2019 年 5 月 21 日（PT）） {#tgt-19-5-1-historical}
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
@@ -541,7 +540,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 * VEC 内でページの読み込みをキャンセルした後、ツールバーアイコンが適切に表示されます。ページが完全に読み込まれるまで特定の操作が実行できない場合、関連するツールバーアイコンが無効になります。（TGT-33811）
 
-### [!DNL Target] Standard／Premium 19.4.2（2019 年 4 月 30 日（PT））{#release-19-4-2}
+### [!DNL Target] Standard／Premium 19.4.2（2019 年 4 月 30 日（PT）） {#release-19-4-2}
 
 このリリースには、次の機能、変更および機能強化が含まれています。
 
@@ -570,7 +569,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 * コレクションピッカーから[!UICONTROL レコメンデーションコレクション]を選択した後、「[!UICONTROL 保存]」ボタンをクリックしなければならなくなりました。このワークフローは、 内の他のワークフローと一致します[!DNL Target]。（TGT-33205）
 * 少部数のインサイトレポートが実際のコンバージョン率ではなく 0% のコンバージョン率を返す問題を修正しました。（TNT-32125）
 
-### [!DNL Target] Standard／Premium 19.4.1（2019 年 4 月 15 日（PT））{#release-19-4-1}
+### [!DNL Target] Standard／Premium 19.4.1（2019 年 4 月 15 日（PT）） {#release-19-4-1}
 
 このリリースは、メンテナンスリリースです。以下のような変更が含まれています。
 
@@ -578,7 +577,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 * [!DNL Adobe Experience Cloud]UI がブランディングおよび製品の変更を反映するように更新されました。（TGT-33546、TGT-33272 および TGT-33331）
 
-#### [!DNL Target]Standard／Premium 19.3.1（2019 年 3 月 29 日（PT））{#release-19-3-1}
+#### [!DNL Target]Standard／Premium 19.3.1（2019 年 3 月 29 日（PT）） {#release-19-3-1}
 
 このリリースには、次の機能、変更および機能強化が含まれています。
 
@@ -588,7 +587,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | --- | --- |
 | Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>VEC で Web サイトの読み込みをキャンセルし、アクティビティを編集できない状況を解消できるようになりました。アクティビティに小規模な編集を加える、設定を確認、カスタムコードを追加するといった場合や、サイトの読み込みを待てない場合などに便利です。（TGT-31288）<br>[VEC 内でページの読み込みをキャンセルする](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)を参照してください。</li><li>VEC でページが読み込まれる前や、ページを読み込めなかった場合（例えば、カスタムコードが動作しなくなった場合など）には、様々なアクションを実行できます。サイト読み込み前に編集できないアクションは、Target UI では無効化されます。（TGT-31288、TGT-31611 および TGT-32602）<br>[ページの読み込み中またはページの読み込みに失敗した後でページを編集する](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)を参照してください。</li><li>VEC に DOM パスが表示されるので、エクスペリエンスの作成時や編集時に適切な要素を選択しやすくなりました。（TGT-13422）<br>[DOM パスを使用して要素をナビゲートする](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。</li></ul> |
 
-### at.js バージョン 2.0.1（2019 年 3 月 20 日） {#atjs201}
+### at.js バージョン 2.0.1（2019 年 3 月 19 日（PT）） {#atjs201}
 
 これはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
@@ -604,7 +603,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 >
 >EU 一般データ保護規則（GDPR）の [!DNL Adobe] オプトインサポートが必要な場合は、at.js 1.7.1 を実装する必要があります。オプトインサポートは、at.js 2.*x* では現在サポートされていません。
 
-### at.js バージョン 1.7.1（2019 年 3 月 20 日） {#atjs171}
+### at.js バージョン 1.7.1（2019 年 3 月 19日（PT）） {#atjs171}
 
 これはメンテナンスリリースで、次の修正が含まれています。
 
@@ -619,7 +618,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | at.js バージョン 2.0.0<br>（2019 年 2 月 19 日（PT）） | at.js 2.x がリリースされました。<br>最新バージョンの at.js には、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットが用意されています。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。<br>以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。<ul><li>ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。</li><li>従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。</li><li>単純な 1 行のコードと一度限りの開発者セットアップで、マーケティング担当者は、シングルページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。</li></ul>at.js 2.x では、次の新しい関数が導入されています。<ul><li>getOffers（）</li><li>applyOffers（）</li><li>triggerView（）</li></ul>at.js 2 x の導入に伴い、次の関数が廃止されました。<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>詳しくは、「[at.js 1.x から at.js 2 へのアップグレード](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)」と「[at.js 関数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)」を参照してください。<br>**注意**：[EU 一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）の Adobe オプトインサポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。 |
 | at.js バージョン 1.7.0<br>（2019 年 2 月 14 日（PT）） | at.js 1.7.0 を使用できます。<br>このリリースでは、Adobe Opt-in サポートが導入されています。Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>Adobe Opt-in について詳しくは、[プライバシーと一般データ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)（GDPR）を参照してください。<br>また、このリリースでは、リダイレクト URL から取得されたパラメーターを使用して Target がリダイレクト URL パラメーターを上書きする場合がある問題も修正されました。<br>**注意**: GDPR の Adobe Opt-in サポートが必要な場合は、現在 at.js 1.7.0 を使用する必要があります。オプトインサポートは at.js 2.x ではサポートされていません。<br>すべてのバージョンのリストについては、[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。 |
 
-### [!DNL Target] Standard／Premium 19.2.1（2019 年 2 月 19 日（PT））{#target-19-2-1}
+### [!DNL Target] Standard／Premium 19.2.1（2019 年 2 月 19 日（PT）） {#target-19-2-1}
 
 このリリースには、次の機能、変更および機能強化が含まれています。
 
@@ -636,7 +635,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 * セキュリティの強化のため、 [!DNL Target] は VEC の読み込み中に Amazon Web サービス（AWS）メタデータエンドポイントへのアクセスを阻止するようになりました。（TGT-33129）
 
-### プラットフォームの変更（2019 年 1 月） {#platform-19-1-previous}
+### プラットフォームの変更（2019 年 1 月）  {#platform-19-1-previous}
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
@@ -644,7 +643,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | プロファイルスクリプト<br>2019 年 1 月 17 日（PT） | パフォーマンス上の理由から、256 文字以下の戻り値を返すことをお勧めします。<br>文字列戻り値の場合、戻り値のサイズが 2048 文字を超えると、スクリプトはシステムによって無効になります。<br>配列の戻り値の場合、配列の連結された値のサイズが2048文字を超えると、スクリプトはシステムによって無効になります。<br>文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメータなど）について詳しくは、これらの制限は、Target のアクティビティやその他の要素に影響を与えます。 「[制限](/help/r-troubleshooting-target/target-limits.md)」を参照ください。 |
 | at.js<br>2019 年 1 月 16 日（PT） | at.js 1.6.4 はメンテナンスリリースで、以下の問題に対応しています。<ul><li>Microsoft Internet Explorer 11 で、重複するオファーが適用される競合条件のマニフェストを修正しました。（TNT-31374）</li><li>クリックトークンおよび HTML オファーを使用したデフォルトオファーがある場合にクリック追跡が実行される問題を修正しました。（TNT-31493）</li><li>各 Target リクエストで mboxEdgeCluster cookie を拡張しました。これは、mboxEdgeOverride が有効な場合にのみ使用されます。（TNT-31485）</li></ul> |
 
-### [!DNL Target] Standard／Premium 19.1.1（2019 年 1 月 22 日（PT）） {#release-19-1-1-previous}
+### [!DNL Target] Standard／Premium 19.1.1（2019 年 1 月 22 日（PT））  {#release-19-1-1-previous}
 
 このリリースには、次の機能、変更および機能強化が含まれています。
 
@@ -3464,7 +3463,7 @@ target/r_release-notes-2014.xml
 * Edge で `target.js` を圧縮できない問題を修正しました。
 * レポートで、アクティビティ行のコンバージョン数が A/B アクティビティに表示されなかった問題を修正しました。
 * データを含むエクスペリエンスが削除されると、レポートが表示されなくなっていた問題を修正しました。
-* Chrome バージョン 32 の不具合によりページで混合コンテンツを表示できない問題を自動的に回避する方法を作成しました。すべてのバージョンの Chrome を使用できるようになりました。
+* Chrome バージョン 34 の不具合によりページで混合コンテンツを表示できない問題を自動的に回避する方法を作成しました。すべてのバージョンの Chrome を使用できるようになりました。
 
 **既知の問題**
 
