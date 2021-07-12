@@ -1,12 +1,11 @@
 ---
 keywords: 管理;承認者の役割;承認者
-description: Adobe Experience Cloudへの招待メールを受け取った後、管理者が取る最初のタスクAdobe [!DNL Target] を実行します。
-title: 管理ターゲットの使用を開始する方法
+description: 管理者がAdobe Experience Cloudへの招待メールを受け取った後、Adobe [!DNL Target] が最初におこなうタスクを実行します。
+title: Targetの管理の基礎知識
 feature: 管理と設定
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 82%
@@ -15,13 +14,13 @@ ht-degree: 82%
 
 # 管理者の最初の手順
 
-この記事には、[!DNL Adobe Target]への招待メールを受け取った後に管理者が最初に行う手順が記載されています。[!DNL Adobe Experience Cloud]
+この記事では、管理者が[!DNL Adobe Experience Cloud]への招待メールを受け取った後に最初におこなう手順について説明します。[!DNL Adobe Target]
 
-## [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}に招待
+## [!DNL Target]に招待 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console] のシステム管理者は、参加させたいひとを招待することで [!DNL Target] にユーザーとして追加する必要があります。次に、システム管理者が、1 つ以上の役割用のグループに追加する必要があります。これらの作業は、共に [Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、*Experience Cloudおよびコアサービスのヘルプ*&#x200B;の「Experience Cloudユーザーおよび製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)」を参照してください。[
+詳しくは、*Experience Cloudおよびコアサービスのヘルプ*&#x200B;の「[Experience Cloudのユーザーと製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)」を参照してください。
 
 システム管理者がこれらの手順を実行すると、招待の電子メールが送信されます。
 
