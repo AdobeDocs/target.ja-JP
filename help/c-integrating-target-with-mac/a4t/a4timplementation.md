@@ -4,14 +4,14 @@ description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe An
 title: Analytics for [!DNL Target] (A4T)を実装する方法を教えてください。
 feature: Analytics for Target（A4T）
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1142'
 ht-degree: 23%
 
 ---
 
-# [!DNL Target]用Analyticsの実装
+#  Analytics for[!DNL Target] の実装
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target](A4T)のレポートソースとして実装する場合は、いくつかの手順が必要です。 プロセスは、A4Tを[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)で実装するか、at.jsで実装するかによって異なります。
 
@@ -91,7 +91,7 @@ at.js の場合：
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-VisitorAPI.jsは、at.jsの前に読み込む必要があります。 既存のat.jsまたはmbox.jsファイルを更新する場合は、必ず読み込み順序を確認してください。
+VisitorAPI.jsは、at.jsの前に読み込む必要があります。 既存のat.jsファイルを更新する場合は、必ず読み込み順序を確認してください。
 
 実装の観点から見ると、[!DNL Target]と[!DNL Analytics]統合のデフォルト設定は、ページから渡されたSDIDを使用して、[!DNL Target]リクエストと[!DNL Analytics]リクエストをバックエンドで自動的にステッチすることです。
 
