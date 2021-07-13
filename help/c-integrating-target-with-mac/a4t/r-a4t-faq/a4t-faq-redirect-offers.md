@@ -4,10 +4,10 @@ description: Analyticsを [!DNL Target] (A4T). A4T lets you use Analytics report
 title: A4Tを使用したリダイレクトオファーに関するFAQはどこで確認できますか？
 feature: Analytics for Target（A4T）
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 63%
 * Adobe Analytics：[!DNL appMeasurement.js] バージョン 2.1。
 * Adobe Target：[!DNL at.js] バージョン 1.6.2 以降。
 
-   [!DNL mbox.js] ライブラリを使用している場合、A4T によるリダイレクトオファーはサポートされません。実装では [!DNL at.js] を使用する必要があります。
-
 これら 3 つのライブラリを、リダイレクトオファーを使用するページと訪問者のリダイレクト先となるページの両方に含める必要があります。
 
 ## 場合により A4T と Analytics の間でデータに相違があるのはなぜですか。
@@ -50,10 +48,6 @@ at.js の以前のサポートされていないバージョンを使用して�
 デフォルト（コントロール）エクスペリエンスを含む、アクティビティのすべてのエクスペリエンスにリダイレクトオファーを使用したい理由の 1 つは、すべてのエクスペリエンスに同じ条件を課すことです。例えば、デフォルトエクスペリエンスにリダイレクトオファーがなく、他のエクスペリエンスリダイレクトオファーがある場合、リダイレクトオファーのないエクスペリエンスは、速度の点で有利です。リダイレクトオファーは、一時的なシナリオ（テストなど）にのみ推奨されます。リダイレクトオファーは、恒常的なシナリオ（パーソナライゼーションなど）には推奨されません。「勝者」を決定したら、ページ読み込みのパフォーマンスを向上させるために、リダイレクトを削除する必要があります。
 
 この問題について詳しくは、[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#redirect)の「リダイレクトオファー」情報を参照してください。
-
-## mbox.js JavaScript ライブラリを使用している場合に、A4T でリダイレクトオファーを使用できますか？ {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-[!DNL mbox.js] ライブラリを使用している場合、A4T によるリダイレクトオファーはサポートされません。実装では [!DNL at.js] を使用する必要があります。
 
 ## Visual Experience Composer（VEC）とフォームベースの Experience Composer の両方がサポートされていますか？ {#section_FDA26FE7909B48539DA770559E687677}
 
