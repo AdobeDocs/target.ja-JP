@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] at.js JavaScriptライブラリの各バージ�
 title: at.jsの各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4132'
 ht-degree: 89%
 
 ---
@@ -387,7 +387,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 **日付：** 2017 年 1 月 20 日
 
-* mbox.js 使用時の mbox 名のネーミング要件に対応して、mbox 名にアンパサンド（&amp;）を含む特殊文字を使用できるようになりました。
+* mbox 名にアンパサンド（&amp;）を含む特殊文字を含められるようになりました。
 
    使用可能な特殊文字のリストについては、[at.js の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)を参照してください。
 
