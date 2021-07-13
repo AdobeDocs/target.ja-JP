@@ -1,15 +1,14 @@
 ---
-keywords: email;adbox;email image adbox
-description: Adobe [!DNL Target] を使用して電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更する方法について説明します。
-title: 電子メール画像Adboxのテスト方法
+keywords: 電子メール；adbox；電子メール画像adbox
+description: Adobe [!DNL Target] を使用して、電子メール内の画像を動的にテストし、電子メールを開いたときにそれらの画像をその場で変更する方法を説明します。
+title: 電子メール画像Adboxのテスト方法を教えてください。
 feature: 電子メールの実装
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ mboxPC={123456}” border=:"0"/>
 
 | 値 | 説明 |
 |--- |--- |
-| clientcode | お客様のクライアントコード。at.js または mbox.js の `clientCode='yourclientcode'` を確認してください。このコードはすべて小文字で表され、特殊文字は含みません。 |
+| clientcode | お客様のクライアントコード。at.jsの`clientCode='yourclientcode'`を確認してください。 このコードはすべて小文字で表され、特殊文字は含みません。 |
 | image | オファータイプ。常に、グラフィック広告の場合は「image」、リダイレクターの場合は「page」になります。 |
 | email_header | adbox の名前。 |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必須。URL を adbox の適切なデフォルトコンテンツに置き換えます。これには絶対参照を指定し、URL エンコードする必要があります。 |
