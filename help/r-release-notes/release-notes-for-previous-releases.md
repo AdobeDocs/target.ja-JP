@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: リリースノート
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '31019'
-ht-degree: 100%
+source-wordcount: '31324'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,33 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2021 年
+
+### Python SDK 1.0.0（2021年6月17日）
+
+デバイス上判定機能を備えた新しい[!DNL Adobe Target] Python SDKを使用できるようになりました。 この新しい追加により、サーバー側SDKの[!DNL Target]スイートが強化されます。 これらのSDKは、[!DNL Target]との統合を支援し、選択した言語で時間を短縮して価値を提供します。 ファーストパーティデータが価値のあるcookieを持たない世界に市場が移行していることから、サーバー側の統合は、人気の高い選択となっています。 Target SDKは、市場で最も人気のあるプログラミング言語(Python、Java、JavaScript、C#/.Net)で利用できます。
+
+詳しくは、[Adobe Target SDKガイド](https://adobetarget-sdks.gitbook.io/docs/)の[Python SDKのドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
+
+### Target Standard／Premium 21.5.1（2021 年 6 月 7 日（PT））
+
+このリリースで強化された機能は次のとおりです。
+
+| 機能 | 詳細 |
+| --- | --- |
+| ![Premium バッジ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL カタログ検索] API | API を使用して [!DNL Recommendations] 製品およびコンテンツカタログをプログラムで検索し、検索条件に一致する項目を特定して、カタログの管理を簡略化します。<br>**制限事項と注意事項**：<ul><li>API を使用したカタログ検索は、項目が 200 万を超える環境ではサポートされていません。</li><li>API を使用したカタログ検索結果は、[!DNL Target] UI を使用したカタログ検索結果よりも迅速に更新されます。[!DNL Target] UI でのカタログ検索は、最新の結果が反映されるまでさらに時間がかかる場合があります。</li></ul>詳しくは、*[!DNL Adobe Target][!DNL Recommendations] API* ガイドの[エンティティ検索](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)を参照してください。 |
+
+このリリースのメンテナンスリリースには、次の修正が含まれています。
+
+* [!UICONTROL オーディエンス]ページを更新すると、デフォルトのワークスペースが別のワークスペースに変更される問題を修正しました。 （TGT-38871）
+* [!UICONTROL 管理] / [!UICONTROL 実装]で、「グローバルmboxが同期していない可能性があります。」というエラーメッセージが表示される問題を修正しました。 保存し直してください」
+
+### ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] バージョン 2.5.0（2021 年 6 月 1 日（PT））
+
+このリリースの [!DNL Platform Web SDK] には、次のサポートが含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
 
 ### at.js バージョン 2.5.0（2021 年 5 月 13 日（PT））
 
