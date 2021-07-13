@@ -1,21 +1,20 @@
 ---
-keywords: 実装;mbox.js 非 JavaScript;mbox;adbox
-description: adboxを使用して、Adobe Targetを使用するオフサイト実装で画像を配信します。 adboxはmboxに似ていますが、JavaScriptではなくURLで制御します。
-title: 画像用のadboxの作成方法を教えてください。
+keywords: 実装；JavaScript以外；mbox;adbox
+description: adboxを使用して、Adobe Targetを使用したオフサイト実装で画像を配信します。 adboxはmboxに似ていますが、JavaScriptではなくURLで制御します。
+title: 画像用adboxの作成方法
 feature: 電子メールの実装
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '329'
+ht-degree: 72%
 
 ---
 
 # 画像用 adbox の作成
 
-adboxを使用して、Adobe Targetを使用するオフサイト実装で画像を配信します。
+adboxを使用して、Adobe Targetを使用したオフサイト実装で画像を配信します。
 
 adbox は mbox と似ていますが、JavaScript ではなく URL によって制御されます。adbox は、「広告」mbox（adbox）をアカウントに読み込む特殊な adbox 用の URL を使用して作成されます。アクティビティでは、この adbox を mbox の代わりに使用します。電子メールなどの JavaScript を使用しない実装では、画像の直接参照ではなく adbox URL を使用します。
 
@@ -31,7 +30,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
    * `myClientCode` はお客様のクライアントコードです。クライアントコードはすべて小文字で、特殊文字は含まれません。
 
-      クライアントコードは、[!DNL Target]インターフェイスの[!UICONTROL 管理/導入]ページの先頭で入手できます。
+      クライアントコードは、[!DNL Target]インターフェイスの[!UICONTROL 管理/実装]ページの最上部にあります。
 
    * `image` は呼び出しのタイプです。この場合は画像です。
 
@@ -39,7 +38,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` は mbox のデフォルトコンテンツです。画像にする必要があります。
 
-      URL エンコードをおこない、絶対参照にする必要があります。[HTML URLエンコーディングリファレンス](https://www.w3schools.com/tags/ref_urlencode.asp)を使用すると、URLをすばやくエンコードできます。
+      URL エンコードをおこない、絶対参照にする必要があります。[HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp)を使用して、URLを簡単にエンコードできます。
 
 1. 各代替画像の[リダイレクトオファー](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)を作成します。
 
