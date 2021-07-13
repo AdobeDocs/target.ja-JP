@@ -3,10 +3,9 @@ description: Adobe [!DNL Target] で使用される様々な用語の意味よ�
 title: Target で使用されている用語と定義はどこで確認できますか？
 feature: 概要
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2470'
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+workflow-type: tm+mt
+source-wordcount: '2417'
 ht-degree: 100%
 
 ---
@@ -139,7 +138,7 @@ Digital Asset Manager。Target でコンテンツとして使用されるアイ�
 
 動的なページテクノロジーを使用してオファーに値を渡します。
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## E  {#section_55C3D8AF3D31494784C70090D8343244}
 
 **エンゲージメント**
 
@@ -173,7 +172,7 @@ Digital Asset Manager。Target でコンテンツとして使用されるアイ�
 
 エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-## F {#section_45450032955C4DD2B607B85A23C4E21A}
+## F  {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **フィード**
 
@@ -197,7 +196,7 @@ Visual Experience Composer が使用できない、または使用が実用的�
 
 アクティビティの成功を示すコンバージョンまたは結果。ベストプラクティスは、必ず何らかの意味で向上が図れる目標を設定してからテストを実行することです。
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **ホスト**
 
@@ -213,7 +212,7 @@ Visual Experience Composer が使用できない、または使用が実用的�
 
 訪問者に固有のパラメーターで、mbox から訪問者の Cookie に渡されます。再訪問者は、in-mbox プロファイルパラメーターの一例です。
 
-## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **ランディングページアクティビティ**
 
@@ -223,15 +222,11 @@ Visual Experience Composer が使用できない、または使用が実用的�
 
 ページ上の特定のコンテンツ領域。多くの場合、単一の DOM 要素に含まれています。MVT の方法論においては、場所は「*因子*」と呼ばれることもあります。全因子多変量分析テストでは、場所におけるすべての可能なオファーの組み合わせが比較されます。
 
-## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
 「マーケティングボックス」を指し、Web ページ上でコンテンツを表示し訪問者の行動を記録する場所のことです。中には、何も表示しない mbox もあります。そのような mbox は、Web サイト上で訪問者が実行する操作の進行状況の追跡や、訪問者が特定の成功指標を達成したかどうか（買い物かごにアイテムを追加したか、購入を完了したかなど）の追跡に使用されます。このような種類の mbox の 1 つとして「*コンバージョン mbox*」があります。
-
-**mbox.js**
-
-Target 16.3.1 以前は、[!DNL Target] が [!DNL mbox.js] アクティビティの配信、クリックの追跡および様々な成功指標の追跡をおこなうために必要なグローバル mbox を作成するには、[!DNL Adobe Target] が [!DNL Target] を呼び出す必要がありました。mbox.js ファイルには、各アクティビティに必要なものがすべて格納されています。アクティビティごとに異なる mbox.js ファイルを管理する必要はありません。[!DNL at.js] ライブラリは、[!DNL Target] 実装で [!DNL mbox.js] に代わって使用されます。
 
 **mbox パラメーター**
 
@@ -277,7 +272,7 @@ Multivariate Testing（MVT）では、ページ上の要素内のオファーの
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。
 
-## R {#section_86725D549B6F46A6ADEE424F33595705}
+## R  {#section_86725D549B6F46A6ADEE424F33595705}
 
 **レシピ**
 
