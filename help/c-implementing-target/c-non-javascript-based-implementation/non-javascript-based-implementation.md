@@ -1,15 +1,14 @@
 ---
 keywords: 実装;mbox.js 非 JavaScript;adbox;リダイレクター;mbox
-description: adboxやリダイレクターの使用など、JavaScript以外のシナリオでAdobe [!DNL Target] を実装する方法を説明します。
+description: adboxやリダイレクターの使用など、JavaScript以外のシナリオでAdobe [!DNL Target] を実装する方法について説明します。
 title: 電子メール用に [!DNL Target] を実装する方法を教えてください。
 feature: 電子メールの実装
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +18,7 @@ adbox やリダイレクターの使用など、JavaScript 以外のシナリオ
 
 広告およびその他のオフサイトコンテンツへの訪問を追跡できます。また、同じユーザーがサイト上にいるかサイト外にいるかを識別し、Web エクスペリエンス全体を通じて一貫性のあるエクスペリエンスを提供できます。adbox では、1 つの URL を使用して、JavaScript、[!DNL at.js] または [!DNL mbox.js] がなくてもテストをおこなうことができます。
 
-adbox は、アフィリエイトなど、[!DNL at.js] または [!DNL mbox.js] がないサイトに効果的です。アクティビティに動的なクリエイティブが必要な場合（例えば、買い物かごから放棄された製品を広告に表示する必要がある場合など）、adbox を使用することはできません。
+adboxは、アフィリエイトなど、[!DNL at.js]がないサイトに便利です。 アクティビティに動的なクリエイティブが必要な場合（例えば、買い物かごから放棄された製品を広告に表示する必要がある場合など）、adbox を使用することはできません。
 
 adbox 広告およびリダイレクターは、あらゆるアクティビティで使用できます。次の表には、adbox とリダイレクターの比較と、それぞれの適切な用途がまとめられています。
 
@@ -28,9 +27,9 @@ adbox 広告およびリダイレクターは、あらゆるアクティビテ�
 | adbox | 別の画像を広告に返す | 広告のコンテンツを変更する場合 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | リダイレクトオファー | 画像の URL |
 | リダイレクター | 訪問者を別の Web ページにリダイレクトする | 広告のランディングページを変更する場合 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | リダイレクトオファー | ページの URL |
 
-## セキュリティのベストプラクティス{#security}
+## セキュリティのベストプラクティス {#security}
 
-リダイレクターを使用すると、オープンなリダイレクトの脆弱性が発生するリスクがあることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐために、デフォルトのリダイレクトURLドメインに許可リスト対しては、「認証済みホスト」を使用することをお勧めします。 ターゲットでは、リダイレクトを許可するドメインに対し許可リストてホストを使用します。 詳しくは、[ホスト&#x200B;*の「ターゲット](/help/administrating-target/hosts.md#allowlist)にmbox呼び出しを送信する権限を持つホストを指定する許可リストーを作成する」を参照してください。*
+リダイレクターを使用すると、オープンリダイレクトの脆弱性のリスクにさらされる可能性があることに注意してください。 サードパーティによるリダイレクターリンクの不正使用を防ぐため、「承認済みホスト」を使用してデフォルトのリダイレクトURLドメ許可リストインをすることをお勧めします。 Target は、ホストを使用して、リダイレクトを許可するドメインを許可リストに登録します。詳しくは、[ホスト&#x200B;*の](/help/administrating-target/hosts.md#allowlist)Target に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成*&#x200B;を参照してください。
 
 ## 制限事項 {#section_38F559DCF1324271926608BCD4AB1227}
 
