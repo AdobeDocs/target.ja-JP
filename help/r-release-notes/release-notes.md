@@ -4,10 +4,10 @@ description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]�
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 50%
+source-wordcount: '661'
+ht-degree: 70%
 
 ---
 
@@ -19,9 +19,18 @@ ht-degree: 50%
 >
 >**mbox.js のサポート終了**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target]mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しは失敗し、デフォルトのコンテンツを表示して [!DNL Target] アクティビティを実行しているページには影響があります。
 >
->新しい[!DNL Adobe Experience Platform Web SDK]またはat.js JavaScriptライブラリの最新バージョンに移行して、サイトで発生する可能性のある問題を回避します。 詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
+>サイトに起こりうる問題を回避するため、新しい [!DNL Adobe Experience Platform Web SDK] の最新バージョンまたは at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## [!DNL Target Standard/Premium] 21.6.1（2021年6月31日）
+
+このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+| 機能 | 詳細 |
+| --- | --- |
+| Analytics for Target（A4T） | [!DNL Analytics]をレポートソースとして使用する(A4T)アクティビティから、[!UICONTROL レポート]ページの「[!UICONTROL Analytics]で表示」リンクをクリックすると、[!DNL Analysis Workspace]が開きます。 以前は、リンクは[!DNL Analytics]レポートを開いていました。 （TGT-36959） |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 人気度アルゴリズムに次の機能強化が適用されます。<ul><li>[!DNL Target]が行動データソースの場合、すべての人気（最も多く閲覧された/トップセラー）アルゴリズムに対して、6時間の新しい「ルックバックウィンドウ」（データ範囲）オプションを使用できます。 （このルックバックウィンドウは、[!DNL Adobe Analytics] が行動データソースの場合は&#x200B;*使用できません*。）</li><li>選択すると、次のアルゴリズムは、（12時間ごとではなく）約3時間ごとに実行されます。<ul><li>最も頻繁に閲覧された</li><li>最も多く購入された</li><li>カテゴリ別で最も多く閲覧された</li><li>カテゴリ別で最も多く購入された</li><li>カスタム属性別で最も多く閲覧された（groupBy 機能を使用）</li><li>カスタム属性別で最も多く購入された（groupBy 機能を使用）</li></ul></ul>リリース日をお知らせします。 （上位 1086 項目） |
 
 ## Python SDK 1.0.0（2021年6月17日）
 
@@ -29,35 +38,13 @@ ht-degree: 50%
 
 詳しくは、[Adobe Target SDKガイド](https://adobetarget-sdks.gitbook.io/docs/)の[Python SDKのドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
 
-## Target Standard／Premium 21.5.1（2021 年 6 月 7 日（PT））
+## ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] バージョン 2.5.0（2021 年 6 月 1 日（PT））
 
-このリリースで強化された機能は次のとおりです。
-
-| 機能 | 詳細 |
-| --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | APIを使用して[!DNL Recommendations]製品およびコンテンツカタログをプログラムで検索し、検索条件に一致する項目を特定して、カタログの管理を簡略化します。<br>**制限事項と注意事項**:<ul><li>APIを使用したカタログ検索は、2,000,000個を超える項目を持つ環境ではサポートされていません。</li><li>APIを使用したカタログ検索結果は、[!DNL Target] UIを使用したカタログ検索結果よりも迅速に更新されます。 [!DNL Target] UIでのカタログ検索には、最新の結果を反映するのに、さらに時間がかかる場合があります。</li></ul>詳しくは、『 *[!DNL Adobe Target][!DNL Recommendations] API* 』ガイドの[エンティティ](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)の検索を参照してください。 |
-
-このリリースのメンテナンスリリースには、次の修正が含まれています。
-
-* [!UICONTROL オーディエンス]ページを更新すると、デフォルトのワークスペースが別のワークスペースに変更される問題を修正しました。 （TGT-38871）
-* [!UICONTROL 管理] / [!UICONTROL 実装]で、「グローバルmboxが同期していない可能性があります。」というエラーメッセージが表示される問題を修正しました。 保存し直してください」
-
-## ![Adobe Experience Platform Web SDKバッ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] ジバージョン2.5.0（2021年6月2日）
-
-このリリースの[!DNL Platform Web SDK]には、次のサポートが含まれています。
+このリリースの [!DNL Platform Web SDK] には、次のサポートが含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL Analytics for Target](A4T)によるリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)を使用する場合、Platform Web SDKで[!DNL Target]リダイレクトがサポートされるようになりました。<br>詳しくは、実装のAnalyticsを参照 [して [!DNL Target] ください](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-
-## at.jsバージョン2.5.0（2021年5月14日）
-
-at.js のこのリリースには、次の機能強化および変更が含まれています。
-
-* at.js の[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)のサポート。
-* Automated Personalization アクティビティでの[プレビューリンク](/help/c-activities/c-activity-qa/activity-qa.md)のサポート
-
-このリリースでは、Microsoft Internet Explorer 10、Internet Explorer 11、およびすべての古いバージョンのサポートも削除されます。 Microsoft Edgeは、at.js 2.5.0以降で引き続きサポートされます。
+| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
