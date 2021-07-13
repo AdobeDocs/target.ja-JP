@@ -4,10 +4,10 @@ description: Analytics for [!DNL Target] (A4T)の実装要件と、この統合�
 title: A4Tを実装する前に知っておくべきことは何ですか？
 feature: Analytics for Target（A4T）
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 29%
+source-wordcount: '879'
+ht-degree: 25%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 29%
 この統合で、A4T でのリダイレクトオファーを使用しない場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン1.8.0
-* [!DNL Adobe Target]（実装によって異なります）：at.js バージョン 0.9.1 または mbox.js バージョン 61
+* [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
 ### A4T でリダイレクトオファーを使用する場合に必要な要件
@@ -46,8 +46,6 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
    **注意：**  at.js 1.8.0以降は、(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりま [!DNL Adobe Audience Manager] した。
 
 * [!DNL Adobe Target]: at.js バージョン 1.6.2
-
-   **注意**:mbox.jsライブラリは、A4Tによるリダイレクトオファーをサポートしていません。実装では at.js を使用する必要があります。
 
 * Adobe Analytics：appMeasurement.js バージョン 2.1
 
@@ -78,7 +76,6 @@ A4Tが正しく機能するには、A4Tアクティビティがコンテンツ�
 [!DNL Analytics]および[!DNL Target]のデータを含むヒットには、追加のデータIDが含まれます。 このIDは、[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)で`sdid`パラメーターとして確認できます。 例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
 
 * 訪問者 ID サービスが導入されている
-* この統合をサポートするバージョンの [!DNL mbox.js] が導入されている
 
 [トラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を行う際は、[!DNL Analytics]ヒットに追加のIDが存在することを確認してください。
 
@@ -86,7 +83,7 @@ A4Tが正しく機能するには、A4Tアクティビティがコンテンツ�
 
 at.js、[!DNL Experience Cloud Visitor ID Service]およびappMeasurement.jsがページ上にある場合、正しい追加IDがページから含まれている限り、[!DNL Analytics]および[!DNL Target]は、バックエンドでのレポートおよび分析目的でイベントを正しくステッチします。 A4Tが正しく機能するために、追加の操作を管理および実行する必要はありません。
 
-[!DNL Target]に関連する分析データをレポート目的で[!DNL Analytics]に送信するタイミングと方法をより詳細に制御する必要が生じる場合があります。 社内で使用する社内分析ツールがある場合があります。 ただし、社内分析製品を使用して[!DNL Analytics]に分析データを送信し、組織の他のメンバーが引き続き[!DNL Analytics]をビジュアルレポートソースとして使用できるようにする必要もあります。 詳しくは、*Analytics for Target の実装*&#x200B;の[手順 7： サイトのすべてのページから at.js または mbox.js を参照](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)を参照してください。
+[!DNL Target]に関連する分析データをレポート目的で[!DNL Analytics]に送信するタイミングと方法をより詳細に制御する必要が生じる場合があります。 社内で使用する社内分析ツールがある場合があります。 ただし、社内分析製品を使用して[!DNL Analytics]に分析データを送信し、組織の他のメンバーが引き続き[!DNL Analytics]をビジュアルレポートソースとして使用できるようにする必要もあります。 [手順7を参照してください。詳しくは、*TargetのAnalyticsの実装*&#x200B;のすべてのサイトページ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)でat.jsを参照してください。
 
 ## 共有オーディエンス
 
