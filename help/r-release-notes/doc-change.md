@@ -4,16 +4,28 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 87%
+source-wordcount: '1803'
+ht-degree: 83%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## Adobe [!DNL Target] Standard／Premium 21.6.1（2021 年 6 月 30 日（PT））
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 12 月 8 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analyticsと[!DNL Adobe Target]の統合に関するROI、インサイト、時間節約の大幅な数値化。</li><li>[!DNL Adobe Target] 2021年7月21日（水）午前8時に開催されるコミュニティQ&amp;Aコーヒーブレーク。(PDT、GMT-7)。</li></ul> |
+|  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次のFAQを追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API呼び出し」の節のテキストを更新しました。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId`キーの説明を更新しました。 |
+|  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 手順1を更新し、新しいmboxを選択した後、変更が自動的に保存されることを示しました。 |
+|  | Experience Cloud Device Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
+| 6 月 30 日（PT） | [リリースノート](/help/r-release-notes/release-notes.md)：21.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.5.1（2021 年 6 月 8 日（PT））
 
@@ -24,7 +36,7 @@ ht-degree: 87%
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API呼び出し」の節のテキストを更新しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId`キーの説明を更新しました。 |
 |  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 手順1を更新し、新しいmboxを選択した後、変更が自動的に保存されることを示しました。 |
-|  | Experience Cloud Device Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
+|  | Experience CloudDevice Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
 | 6 月 29 日（PT） | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 次の節を追加しました。<ul><li>Target JavaScriptライブラリ[!UICONTROL QAモード]の互換性</li><li>プレビューURL</li></ul> |
 | 6 月 24 日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1リリース（2021年6月31日）のプレリリースノートを更新しました。 |
 | 6 月 16 日（PT） | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDKバージョン1.0.0リリースに関する情報を追加しました。 |
