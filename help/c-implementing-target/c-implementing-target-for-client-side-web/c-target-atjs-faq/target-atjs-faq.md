@@ -5,9 +5,9 @@ title: At.jsに関するよくある質問と回答を教えてください。
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,9 +26,9 @@ at.js に関するよくある質問への回答を紹介します。
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-上の図に示される通り、mbox.js を使用すると、[!DNL Target] の呼び出しが完了するまでページ内容が読み込まれません。at.js を使用すると、[!DNL Target] の呼び出しが開始するとページ内容が読み込まれ、呼び出しが完了するまで待ちません。 
+上の図に示すように、mbox.jsを使用すると、 [!DNL Target]の呼び出しが完了するまでページコンテンツが読み込まれませんでした。 at.js を使用すると、[!DNL Target] の呼び出しが開始するとページ内容が読み込まれ、呼び出しが完了するまで待ちません。 
 
-## at.js および mbox.js はページ読み込み時間にどのように影響しますか？{#page-load}
+## at.js および mbox.js はページ読み込み時間にどのように影響しますか？ {#page-load}
 
 特に新しいユーザーとリピートユーザーのコンテキストにおいて [!DNL at.js] と [!DNL mbox.js] がページ読み込み時間に与える影響を知りたいと考えているお客様やコンサルタントは数多くいます。残念ながら、[!DNL at.js] または [!DNL mbox.js] が各ページの読み込み時間にどのように影響するかはお客様の実装に左右されるので、具体的な数値を測定して示すことは困難です。
 
@@ -131,7 +131,7 @@ at.js ファイルはダウンロード時には約 109 KB あります。ただ
 
 at.js 実装が単一のライブラリ（[!DNL at.js]）を使用するのに対して、mbox.js 実装は、実際には 2 つのライブラリ（[!DNL mbox.js] および [!DNL target.js]）を使用します。そのため、より公平な比較は、at.js 対 mbox.js *および* `target.js` になります。2 つのバージョンの gzip 圧縮サイズを比較すると、at.js バージョン 1.2 は 34 KB で、mbox.js バージョン 63 は 26.2 KB です。
 
-at.js がより大きいのは、mbox.js に比べて、より多くの DOM 解析をおこなうためです。at.js は JSON 応答で「生」データを取得し、その意味を理解する必要があるので、これが必要です。mbox.js は `document.write()` を使用し、すべての解析はブラウザーによって行われます。
+at.js がより大きいのは、mbox.js に比べて、より多くの DOM 解析をおこなうためです。at.js は JSON 応答で「生」データを取得し、その意味を理解する必要があるので、これが必要です。mbox.jsは`document.write()`を使用し、すべての解析はブラウザーによって行われました。
 
 より大きなファイルサイズにもかかわらず、アドビのテストでは、at.js のページの読み込みは mbox.js に比べて高速であることを示しています。また、at.jsは、追加のファイルを動的に読み込まず、`document.write`を使用しないので、セキュリティの観点からも優れています。
 
@@ -144,10 +144,6 @@ at.jsは、現在、jQueryの一部を使用しているので、at.jsの上部�
 いいえ。クロスドメインが「xのみ」に設定され、SafariがサードパーティのCookieを無効にしている場合、[!DNL mbox.js]とat.jsの両方が無効なCookieを設定し、そのクライアントのドメインではmboxのリクエストは実行されません。
 
 Safari の訪問者をサポートするには、「無効化」（ファーストパーティの cookie のみ設定）または「有効化」（Safari ではファーストパーティの cookie のみ設定、他のブラウザーではファーストパーティとサードパーティの cookie を設定）の方がクロスドメインの設定として優れています。
-
-## at.js と mbox.js を一緒に実行できますか。 {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-同じページに配置できません。ただし、[!DNL at.js]を実装およびテストする際は、[!DNL at.js]を検証するまで、[!DNL at.js]を一部のページで、[!DNL mbox.js]を他のページで実行できます。
 
 ## シングルページアプリケーションで[!DNL Target] Visual Experience Composer(VEC)を使用できますか。 {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
