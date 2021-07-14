@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;検索エンジンの最適化;検索エンジンの最適化;seo;エッジクラスター;セントラルクラスター;at.js;mbox.js;
-description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScriptライブラリ(at.jsおよびExperience PlatformWeb SDK)、Adobeデータセンター、SEOテストについて説明します。
+description: Adobe  [!DNL Target] works, including information about the [!DNL Target]  JavaScript ライブラリ（at.js および Experience Platform Web SDK）、アドビデータセンターおよび SEO テストの仕組みを説明します。
 title: ' [!DNL Target] の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## [!DNL Target] Platform Web SDK および JavaScript ライブラリ {#libraries}
 
-[!DNL Target]Web サイトとの統合（[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用）：
+[!DNL Target] Web サイトとの統合（[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用）：
 
-* **Adobe Experience Platform Web SDK:**  [Experience PlatformWeb SDKは、新し](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) いクライアント側JavaScriptライブラリです。Experience PlatformWeb SDKを使用すると、[!DNL Adobe Experience Cloud]のお客様は、[!DNL Experience Platform] Edgeネットワークを介して[!DNL Experience Cloud]（[!DNL Target]を含む）の様々なサービスとやり取りできます。 Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) は、新しいクライアント側 JavaScript ライブラリです。The Experience Platform Web SDK を使用すると、[!DNL Adobe Experience Cloud] のお客様は、[!DNL Experience Platform] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
 * **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) にアップデートすることをお勧めします。
-* **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.jsライブラリは、2021年3月31日以降はサポートされなくなります。
+* **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。
 
 サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、[Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ja) を使用して [!DNL Target] を実装することを検討してください。
 
-以下のリソースには、Experience PlatformWeb SDKまたはat.jsを実装するのに役立つ詳細情報が含まれています。
+次のリソースには、Experience Platform Web SDK または at.js の実装に役立つ詳細情報が含まれています。
 
 * [Adobe Experience Platform Web SDK 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ja#configure-the-aep-web-sdk-extension)
 * [Adobe Experience Platform Launch を使用した [!DNL Target] の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -103,7 +103,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 管理サーバー拠点には、データ収集センターとデータ処理センターの両方が設置されています。エッジクラスター拠点には、データ収集センターのみが設置されています。個々のレポートスイートは特定のデータ処理センターに割り当てられています。
 
-顧客サイトのアクティビティデータは、最も近い 7 か所のエッジクラスターによって収集されます。このデータは、お客様が事前に決定した中央クラスター（オレゴン、ダブリン、シンガポールのいずれか）に送られ、そこで処理されます。訪問者プロファイルデータは、サイト訪問者に最も近いエッジクラスターに保存されます。エッジクラスターの場所には、セントラルクラスターの場所と、バージニア、ムンバイ、シドニー、東京が含まれます。
+顧客サイトのアクティビティデータは、最も近い 7 か所のエッジクラスターによって収集されます。このデータは、お客様が事前に決定した中央クラスター（オレゴン、ダブリン、シンガポールのいずれか）に送られ、そこで処理されます。訪問者プロファイルデータは、サイト訪問者に最も近いエッジクラスターに保存されます。エッジクラスター拠点には、中央クラスター拠点と、バージニア、ムンバイ、シドニー、東京が含まれます。
 
 1 か所ですべてのターゲティングリクエストに応答するのではなく、訪問者に最も近いエッジクラスターでリクエストを処理します。このプロセスにより、ネットワークやインターネットでの通信時間の影響を緩和できます。
 
@@ -175,9 +175,9 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
    Adobe では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、Adobe は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
-* **実験は必要な期間にのみ実行する**：Adobe では、「必要な期間」を統計的有意性に到達するまでの期間と考えます。[!DNL Target] は、テストがこの時点に到達した時を判断するための[ベストプラクティスを提供](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)します。Adobe では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **実験は必要な期間にのみ実行する**：Adobe では、「必要な期間」を統計的有意性に到達するまでの期間と考えます。[!DNL Target] は、テストがこの時点に到達した時を判断するための[ベストプラクティスを提供](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja)します。Adobe では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
-   [!DNL Target]プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが100%のユーザーに対して100%公開された場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了した後に使用できます。
+   [!DNL Target]プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
 
    テストが変更した点に留意することも大切です。単純にページ上のボタンの色や、その他の文字ベースでない小さなアイテムを更新しても、オーガニックランキングには大きな影響はありません。ただし、文字の変更はハードコードする必要があります。
 
