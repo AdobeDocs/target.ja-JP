@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '1803'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -39,42 +39,42 @@ ht-degree: 83%
 |  | Experience CloudDevice Co-op | トピックを削除しました。この機能は非推奨（廃止予定）となりました。 |
 | 6 月 29 日（PT） | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 次の節を追加しました。<ul><li>Target JavaScriptライブラリ[!UICONTROL QAモード]の互換性</li><li>プレビューURL</li></ul> |
 | 6 月 24 日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1リリース（2021年6月31日）のプレリリースノートを更新しました。 |
-| 6 月 16 日（PT） | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDKバージョン1.0.0リリースに関する情報を追加しました。 |
-|  | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Automated Personalization](AP)および[!UICONTROL 自動ターゲット]モデルのデータは、どの程度の期間保持されますか？</li></ul> |
-| 6 月 9 日 | [at.jsを使用してAnalytics for Target(A4T)を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0以降で、 [!DNL Adobe Audience Manager] (AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなったことを示す注意を追加しました。 |
-|  | [環境](/help/administrating-target/environments.md) | 「[!UICONTROL アクティブおよび非アクティブなアクティビティ]」を指定した場合、この環境のホストにも非アクティブなアクティビティが表示されることを示す注意を追加しました。 |
-|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。</li></ul> |
+| 6 月 16 日（PT） | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK バージョン 1.0.0 リリースに関する情報を追加しました。 |
+|  | [パーソナライゼーションインサイトレポート](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target] モデルのデータは、どのくらいの期間保持されますか？</li></ul> |
+| 6 月 9 日 | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 以降では、[!DNL Adobe Audience Manager]（AAM）パラメーターを渡すために 2.5.0 より古い Visitor API バージョンでは動作しないことを示す注記を追加しました。 |
+|  | [環境](/help/administrating-target/environments.md) | 「[!UICONTROL アクティブなアクティビティおよび非アクティブなアクティビティ]」を指定した場合、この環境のホストには非アクティブなアクティビティも表示されることを示す注記を追加しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>[!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートには表示されません。</li></ul> |
 | 6 月 7 日（PT） | [リリースノート](/help/r-release-notes/release-notes.md)：21.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.4.1（2021 年 4 月 19 日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6 月 3 日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年6月9日（水）午前8時に開催されるAdobe TargetコミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。(PDT、GMT-7)。 |
+| 6 月 3 日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021年6月9日水曜日午前8時（PT）に開催される Adobe Target コミュニティ Q&amp;A コーヒーブレークに関する情報を追加しました。 |
 | 6 月 1 日（PT） | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 以下の FAQ を追加しました。<ul><li>CNAME でのオプトアウトリンクの使用方法</li></ul> |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | オプトアウトリンクを CNAME で使用する方法について説明するために、「オプトアウトリンク」の節を更新しました。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK] に関する情報を追加しました。 |
 |  | [ Analytics for [!DNL Target]  の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] 実装の手順</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4T と Platform Web SDK でのリダイレクトオファーの使用に関する情報を追加しました。 |
-|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK] での応答トークンの使用に関する情報を追加しました。<br>**注意**:この機能は、今後のリリースのPlatform Web SDKでリリースされる予定です（日付は未定）。 |
+|  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK] での応答トークンの使用に関する情報を追加しました。<br>**注意**：この機能は、Platform Web SDK の今後のリリースで公開される予定です（日付は未定）。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0（2021 年 6 月 1 日（PT））リリースに関する情報を追加しました。 |
 | 5 月 28 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API 呼び出しに関する節を追加しました。 上限は、1 分あたりの呼び出し 50 回です。 |
 | 5 月 21 日 | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | アドビテクニカルブログの以下のブログ投稿へのリンクを追加しました。<ul><li>Adobe Tech Blog - パート 2：Edge Platform で実験とパーソナライゼーションをおこなうために [!DNL Adobe Target] NodeJS SDK を実行する（AWS Lambda@Edge）</li></ul> |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。「[!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題を引き起こす可能性があります」 |
-| 17 年 5 月 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.5.0 リリースに関する情報を追加しました。 |
+| 5月17日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.5.0 リリースに関する情報を追加しました。 |
 |  | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | at.js 2.5.0（およびそれ以降）で [!UICONTROL Automated Personalization]（AP）アクティビティにプレビューリンクが使用できることを示すように、トピックを更新しました。 |
 |  | [サポートされているブラウザー](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | at.js 2.5.0 リリースで、Microsoft Internet Explorer 10、Internet Explorer 11 およびすべての旧バージョンのサポートが終了したことを表記しました。 Microsoft Edge は、at.js 2.5.0 以降で引き続きサポートされます。 |
-|  | [[!UICONTROL Experience Compose の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)に関連する問題のトラブルシューティング | IP アドレスのリストを更新し、許可リストに加えました。 |
+|  | [[!UICONTROL Experience Composer の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)に関連する問題のトラブルシューティング | IP アドレスのリストを更新し、許可リストに加えました。 |
 | 12 年 5 月 | [[!DNL Target] リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 以下のプレリリースノートを追加しました。<ul><li>Adobe Experience Platform Web SDK（2021 年 5 月 17 日（PT）</li><li>Target Standard Premium 21.5.2</li></ul> |
-| 10 年 5 月 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。「[!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？」 |
+| 5月10日（PT） | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。「[!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？」 |
 |  | [ [!DNL Target] using [!DNL Dynamic Tag Manager] （DTM）の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] のサポートが終了したことを表記しました。 代わりに、[!DNL Adobe] では、[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使って実装することをお勧めします。 |
 | 5 月 7 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations] のアクティビティ、オファー、プロモーションまたは条件の設定変更がサイトに反映されるまでに、どのくらい時間がかかりますか？</li><li>ユーザーの行動（製品 A のクリックや製品 B の購入など）が&#x200B;*その*&#x200B;ユーザーが受け取るレコメンデーションに反映されるまでにどのくらい時間がかかりますか？</li><li>ユーザーの行動（製品 A のクリックや製品 B の購入など）が&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか？</li></ul> |
 |  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | アドビテクニカルブログの以下のブログ投稿へのリンクを追加しました。<ul><li>パート 1：エッジプラットフォームでの実験とパーソナライゼーションのための Adobe Target NodeJS SDK の実行（Akamai Edge Workers）</li></ul> |
-| 5 年 5 月 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021 年 5 月 12 日水曜日午前 8 時（PDT、GMT-7）に開催される Adobe Target コミュニティ Q&amp;A コーヒーブレークに関する情報を追加しました。 |
-| 27 年 4 月 | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | トピックを更新して、Cookie の有効期間（`deviceIdLifetime` 設定）が at.js バージョン 2.3.1 以降で上書き可能であることを明示しました。 |
+| 5 年 5 月 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021 年 5 月 12 日水曜日午前 8 時（PT）に開催される Adobe Target コミュニティ Q&amp;A コーヒーブレークに関する情報を追加しました。 |
+| 4月27日（PT） | [Cookie の設定](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | トピックを更新して、Cookie の有効期間（`deviceIdLifetime` 設定）が at.js バージョン 2.3.1 以降で上書き可能であることを明示しました。 |
 |  | [Adobe Target ガイド](/help/target-home.md) | アドビサミットに関する情報を追加しました。 |
-| 26 年 4 月 | [at.js のオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新規トピックです。 |
-| 19 年 4 月 | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイス判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| 4月26日（PT） | [at.js のオンデバイス判定のトラブルシューティング](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新規トピックです。 |
+| 4月19日（PT） | [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 次の新しい記事を追加しました。<ul><li>[オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[オンデバイス判定でサポートされる機能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[オンデバイス判定ルールアーティファクト](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod` に関する情報を追加しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 以下を追加しました。<ul><li>`decisioningMethod` キーに関する情報。</li><li>「オンデバイス判定を行うための getCallOffers()」の例。</li></ul> |
 |  | [at.js カスタムイベント](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 以下の情報を追加しました。<ul><li>オンデバイス判定アーティファクトが成功しました</li><li>オンデバイス判定アーティファクトが失敗しました</li></ul> |
@@ -90,8 +90,8 @@ ht-degree: 83%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js バージョン 2.5.0 リリース（2021 年 4 月 19 日（PT））のプレリリース情報を追加しました。 |
-| 9 年 4 月 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard／Premium 21.4.1 リリース（2021 年 4 月 19 日（PT））のプレリリース情報を追加しました。 |
+| 4月9日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | at.js バージョン 2.5.0 リリース（2021 年 4 月 19 日（PT））のプレリリース情報を追加しました。 |
+| 4月9日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard／Premium 21.4.1 リリース（2021 年 4 月 19 日（PT））のプレリリース情報を追加しました。 |
 |  | [Recommendations と電子メールの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | オプション 1 および 2 の容量ガイドラインを説明するメモを追加しました。 |
 | 3 月 30 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新しい FAQ を追加しました。<ul><li>最近閲覧した項目に基づくレコメンデーションは、1 人の訪問者に対して複数のデバイスにわたって保持されますか？</li></ul> |
 | 3 月 24 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
