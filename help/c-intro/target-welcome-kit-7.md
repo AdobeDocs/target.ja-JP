@@ -1,13 +1,13 @@
 ---
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
 description: Adobe  [!DNL Target] で初めてのアクティビティに着手して、投資の ROI を獲得しましょう。
-title: Target で最初のアクティビティを作成する必要があります。何から始めればよいでしょうか。
+title: Targetで最初のアクティビティを作成する必要があります。 何から始めればよいでしょうか。
 feature: 概要
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
