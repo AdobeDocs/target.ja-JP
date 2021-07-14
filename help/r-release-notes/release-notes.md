@@ -1,13 +1,13 @@
 ---
 keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;修正;バグ修正;アップデート
-description: SDK、API、JavaScriptライブラリなど、 [!DNL Adobe Target]の現在のリリースに含まれる新機能、機能強化、修正点について説明します。
+description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 70%
+ht-degree: 89%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 70%
 | Analytics for Target（A4T） | [!DNL Analytics]をレポートソースとして使用する(A4T)アクティビティから、[!UICONTROL レポート]ページの「[!UICONTROL Analytics]で表示」リンクをクリックすると、[!DNL Analysis Workspace]が開きます。 以前は、リンクは[!DNL Analytics]レポートを開いていました。 （TGT-36959） |
 | ![Premium](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 人気度アルゴリズムに次の機能強化が適用されます。<ul><li>[!DNL Target]が行動データソースの場合、すべての人気（最も多く閲覧された/トップセラー）アルゴリズムに対して、6時間の新しい「ルックバックウィンドウ」（データ範囲）オプションを使用できます。 （このルックバックウィンドウは、[!DNL Adobe Analytics] が行動データソースの場合は&#x200B;*使用できません*。）</li><li>選択すると、次のアルゴリズムは、（12時間ごとではなく）約3時間ごとに実行されます。<ul><li>最も頻繁に閲覧された</li><li>最も多く購入された</li><li>カテゴリ別で最も多く閲覧された</li><li>カテゴリ別で最も多く購入された</li><li>カスタム属性別で最も多く閲覧された（groupBy 機能を使用）</li><li>カスタム属性別で最も多く購入された（groupBy 機能を使用）</li></ul></ul>リリース日をお知らせします。 （上位 1086 項目） |
 
-## Python SDK 1.0.0（2021年6月17日）
+## Python SDK 1.0.0（2021年6月16日（PT））
 
-デバイス上判定機能を備えた新しい[!DNL Adobe Target] Python SDKを使用できるようになりました。 この新しい追加により、サーバー側SDKの[!DNL Target]スイートが強化されます。 これらのSDKは、[!DNL Target]との統合を支援し、選択した言語で時間を短縮して価値を提供します。 ファーストパーティデータが価値のあるcookieを持たない世界に市場が移行していることから、サーバー側の統合は、人気の高い選択となっています。 Target SDKは、市場で最も人気のあるプログラミング言語(Python、Java、JavaScript、C#/.Net)で利用できます。
+デバイス上の判定機能を備えた新しい [!DNL Adobe Target] Python SDK が利用可能になりました。今回の最新の追加により、サーバー側 SDK の [!DNL Target] スイートが強化されます。これらの SDK は、選択した言語で [!DNL Target] と統合し、価値を生み出すまでの時間を短縮するのに役立ちます。サーバー側の統合は、市場がファーストパーティのデータが価値のある cookie のない世界に移行していることから、人気のある選択肢になりつつあります。Target SDK は、市場で最も人気のあるプログラミング言語（Python、Java、JavaScript、C#/.Net）で利用できます。
 
-詳しくは、[Adobe Target SDKガイド](https://adobetarget-sdks.gitbook.io/docs/)の[Python SDKのドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
+詳しくは、[Adobe Target SDK ガイド](https://adobetarget-sdks.gitbook.io/docs/)の [Python SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
 
-## ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] バージョン 2.5.0（2021 年 6 月 1 日（PT））
+## ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]バージョン 2.5.0（2021 年 6 月 1 日（PT））
 
 このリリースの [!DNL Platform Web SDK] には、次のサポートが含まれています。
 
