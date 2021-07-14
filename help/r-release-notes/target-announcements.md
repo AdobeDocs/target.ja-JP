@@ -7,15 +7,15 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Target のお知らせとイベント
 
-[!DNL Adobe Target]スキルビルダーセッション、デベロッパーチャット、ウェビナー、[!DNL Target]コーヒーブレークセッションなど、今後のイベントに関するお知らせと情報。
+[!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target]の認識
+## [!DNL Adobe Target] の認識
 
 [!DNL Adobe Target] は最近、 Forrester と Gartner の両方から市場リーダーとして認められました。
 
@@ -46,7 +46,7 @@ ht-degree: 80%
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
 
-マーケター、製品所有者、開発者は、サイト、アプリ、その他あらゆる場所で顧客と接続する全体的な顧客体験の最適化にこれまで以上に取り組んでいます。 データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
+マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
 
 この録画ウェビナーでは、Adobe Target の製品エキスパートが、遅延なしでローカルで実行する重要なエクスペリエンス最適化に関するオンライン判定の動きが、新しいユースケースにどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 
@@ -68,7 +68,7 @@ Adobe と HSBC によるこのウェビナーに参加して次のことを学�
 
 *McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020 年 5 月
 
-## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target]の mbox.js を at.js に移行€  {#skill-builder}
+## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
 
 2021 年 3 月 31 日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
