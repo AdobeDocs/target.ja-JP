@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '31324'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 ## リリースノート - 2021 年
 
-### Python SDK 1.0.0（2021年6月17日）
+### Python SDK 1.0.0（2021年6月16日（PT））
 
-デバイス上判定機能を備えた新しい[!DNL Adobe Target] Python SDKを使用できるようになりました。 この新しい追加により、サーバー側SDKの[!DNL Target]スイートが強化されます。 これらのSDKは、[!DNL Target]との統合を支援し、選択した言語で時間を短縮して価値を提供します。 ファーストパーティデータが価値のあるcookieを持たない世界に市場が移行していることから、サーバー側の統合は、人気の高い選択となっています。 Target SDKは、市場で最も人気のあるプログラミング言語(Python、Java、JavaScript、C#/.Net)で利用できます。
+デバイス上の判定機能を備えた新しい [!DNL Adobe Target] Python SDK が利用可能になりました。今回の最新の追加により、サーバー側 SDK の [!DNL Target] スイートが強化されます。これらの SDK は、選択した言語で [!DNL Target] と統合し、価値を生み出すまでの時間を短縮するのに役立ちます。サーバー側の統合は、市場がファーストパーティのデータが価値のある cookie のない世界に移行していることから、人気のある選択肢になりつつあります。Target SDK は、市場で最も人気のあるプログラミング言語（Python、Java、JavaScript、C#/.Net）で利用できます。
 
-詳しくは、[Adobe Target SDKガイド](https://adobetarget-sdks.gitbook.io/docs/)の[Python SDKのドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
+詳しくは、[Adobe Target SDK ガイド](https://adobetarget-sdks.gitbook.io/docs/)の [Python SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
 
 ### Target Standard／Premium 21.5.1（2021 年 6 月 7 日（PT））
 
@@ -39,10 +39,10 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 このリリースのメンテナンスリリースには、次の修正が含まれています。
 
-* [!UICONTROL オーディエンス]ページを更新すると、デフォルトのワークスペースが別のワークスペースに変更される問題を修正しました。 （TGT-38871）
-* [!UICONTROL 管理] / [!UICONTROL 実装]で、「グローバルmboxが同期していない可能性があります。」というエラーメッセージが表示される問題を修正しました。 保存し直してください」
+* [!UICONTROL Audiences] ページを更新すると、デフォルトのワークスペースが別のワークスペースに変更される問題を修正しました。（TGT-38871）
+* [!UICONTROL 管理]／[!UICONTROL 実装]で、「グローバル mbox が同期していない可能性があります。再保存してみてください。」というエラーメッセージが表示されることがある問題を修正しました。
 
-### ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] バージョン 2.5.0（2021 年 6 月 1 日（PT））
+### ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]バージョン 2.5.0（2021 年 6 月 1 日（PT））
 
 このリリースの [!DNL Platform Web SDK] には、次のサポートが含まれています。
 
@@ -821,7 +821,7 @@ target/r_release-notes-2018.xml
    <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティのオファー </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9C39ACD865CE4167BDBAA093EDFD3B68"> 
-      <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>除外グループで同じ場所から複数のオファーを使用できるようになりました。除外が多数（1,000 以上）ある場合は、Automated Personalization（AP）アクティビティを作成する際に、コンテンツを管理ダイアログボックスとプレビューページの読み込みも高速になります。（TGT-31329）<a href="/help/c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> 除外の管理 </a>. </p> </li> 
+      <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>除外グループで同じ場所から複数のオファーを使用できるようになりました。除外が多数（1,000 以上）ある場合は、Automated Personalization（AP）アクティビティを作成する際に、コンテンツを管理ダイアログボックスとプレビューページの読み込みも高速になります。（TGT-31329）<a href="/help/c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> 除外の管理.</a> </p> </li> 
       <li id="li_542C66E2998541BC87D0A96F4672C665"> <p>レポートグループを基準にしてオファーをフィルターできるようになりました。（TGT-31643）<a href="/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization アクティビティの作成</a>を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -861,7 +861,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_54652C5AE0984657BB9A0E46673CB2F1"> 
       <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>自動セグメント：</b>Target のパーソナライゼーションモデルで定義された様々な自動セグメントが、アクティビティのオファーやエクスペリエンスにどのように対応しているかを確認できます。 </p> </li> 
       <li id="li_48210B1E4EB24288B96CDECAF1CEE34A"> <p><b>モデル属性ランキング：</b>Target のパーソナライゼーションモデルに最も影響を及ぼした属性と、各属性の相対的な重要性を確認できます。 </p> </li> 
-     </ul> </p> <p> <p>注意：この機能は間もなく利用可能になる予定です。この機能が使用可能になる日付は、近日中に発表されます。 </p> </p> <p>詳しくは、<a href="/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> パーソナライゼーションインサイトレポート </a> を参照してください。 </p> </td> 
+     </ul> </p> <p> <p>注意：この機能は間もなく利用可能になる予定です。この機能が使用可能になる日付は、近日中に発表されます。 </p> </p> <p>詳しくは、<a href="/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> パーソナライゼーションインサイトレポート </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer（VEC） </p> </td> 
@@ -915,7 +915,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>オーディエンス </p> </td> 
-   <td colname="col2"> <p>1つのプロファイル属性を、静的な数値ではなく別のプロファイル属性と比較できます。 </p> <p>詳しくは、<a href="/help/c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md#concept_4C2124B79A5B4556A6C1D10C0F5E40A0" format="dita" scope="local"> プロファイル属性比較オーディエンスの作成 </a>. </p> <p> （TGT-28406） </p> </td> 
+   <td colname="col2"> <p>1つのプロファイル属性を、静的な数値ではなく別のプロファイル属性と比較できます。 </p> <p>詳しくは、<a href="/help/c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md#concept_4C2124B79A5B4556A6C1D10C0F5E40A0" format="dita" scope="local"> プロファイル属性比較オーディエンスの作成.</a> </p> <p> （TGT-28406） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムコード </p> </td> 
@@ -931,7 +931,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>エクスペリエンステンプレート </p> </td> 
-   <td colname="col2"> <p>Adobe Target エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するために Target で使用する設定可能な入力を備えたコーディング済みのオファーサンプルです。これらのエクスペリエンステンプレートは、Visual Experience Composer またはフォームベースの Experience Composer を通じて一般的な外部使用例を Adobe Target で実行するための出発点として、開発者およびマーケティング担当者に無償で提供されます。Web ページまたはプラットフォームアーキテクチャとうまく統合するために、カスタマイズが必要になる場合があります。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> エクスペリエンステンプレート </a>. </p> </td> 
+   <td colname="col2"> <p>Adobe Target エクスペリエンステンプレートは、マーケティング担当者向けの一般的な使用例を実行するために Target で使用する設定可能な入力を備えたコーディング済みのオファーサンプルです。これらのエクスペリエンステンプレートは、Visual Experience Composer またはフォームベースの Experience Composer を通じて一般的な外部使用例を Adobe Target で実行するための出発点として、開発者およびマーケティング担当者に無償で提供されます。Web ページまたはプラットフォームアーキテクチャとうまく統合するために、カスタマイズが必要になる場合があります。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> エクスペリエンステンプレート.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「Target の基本」ウェビナーシリーズ </p> </td> 
@@ -998,7 +998,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>サポートされているブラウザー </p> </td> 
-   <td colname="col2"> <p>Target UI およびコンテンツ配信用のブラウザーとして Microsoft Edge がサポートされるようになりました。 </p> <p>詳しくは、を参照してください。<a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> サポートされているブラウザ </a> （TGT-14102） </p> </td> 
+   <td colname="col2"> <p>Target UI およびコンテンツ配信用のブラウザーとして Microsoft Edge がサポートされるようになりました。 </p> <p>詳しくは、を参照してください。<a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> サポートされているブラウザ </a>（TGT-14102） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
@@ -1055,7 +1055,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_B8929C19276D42168A28A3775CDEDFB3"> <p>指標、オーディエンス、詳細設定などを必要に応じて設定した、個々のアクティビティのレポートのプリセットを最大 10 個保存できます。すべての Target ユーザーは、作成したユーザーに関係なく、様々なプリセットを表示、編集、削除できます。（TGT-21268） </p> </li> 
       <li id="li_7ADA62F2ACA049C9B4A8986B09A9F4AA"> <p>個々のアクティビティのレポートを必要に応じて設定したあと、その設定をデフォルトまたはお気に入りのプリセットとして保存することができます。これは、そのアクティビティの進行中のレポートを確認するたびに表示されるビューです。（TGT-10082） </p> </li> 
       <li id="li_DC63C04F3A884BDDA55B5515E4643B7B"> <p>レポート内部のアラートやメッセージを見れば、1 つ（または複数）のオーディエンス、指標、ホストグループまたはエクスペリエンスが設定済みのプリセットレポートから削除されたことがわかります。アラートまたはメッセージでは、別のオーディエンス、指標、ホストグループ、またはエクスペリエンスを選択してプリセットを再度作成するようにユーザーに指示します。（TGT-29424） </p> </li> 
-     </ul> </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> レポート設定 </a> を参照してください。 </p> </td> 
+     </ul> </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> レポート設定 </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>プロファイルスクリプト </p> </td> 
@@ -1108,7 +1108,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager（AEM）エクスペリエンスフラグメント </p> </td> 
-   <td colname="col2"> <p>AEM で作成したエクスペリエンスフラグメントを Target アクティビティで使用すると、AEM の使いやすさおよび機能性と、Target の強力な自動インテリジェンス（AI）機能および機械学習（ML）機能を組み合わせ、幅広くエクスペリエンスをテストしてパーソナライズできます。  </p> <p>AEM では、パーソナライゼーション戦略に生かせるよう、すべてのコンテンツとアセットが一元化されます。AEM では、コードを記述しなくても、デスクトップ、タブレット、モバイルデバイス向けのコンテンツを 1 か所で簡単に作成できます。デバイスごとにページを作成する必要はありません。AEM ではコンテンツを基に、各デバイスのエクスペリエンスが自動調整されます。 </p> <p> Target では、行動、コンテキスト、オフラインの変数を組み込んだルールベースの手法と AI 駆動の機械学習手法を組み合わせ、それを土台にしてパーソナライズされたエクスペリエンスを幅広く提供できます。&amp; amp;nbsp;Targetを使用すると、A/Bおよび多変量分析アクティビティを簡単に設定して実行し、最適なオファー、コンテンツおよびエクスペリエンスを決定できます。 </p> <p>エクスペリエンスフラグメントは、コンテンツ／エクスペリエンスの作成者や管理者と、ビジネス成果の向上に Target を使用している最適化／パーソナライゼーションの専門家との連携を大幅に強化できる機能です。 </p> <p>詳しくは、 <a href="/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEMエクスペリエンスフラグメント </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>AEM で作成したエクスペリエンスフラグメントを Target アクティビティで使用すると、AEM の使いやすさおよび機能性と、Target の強力な自動インテリジェンス（AI）機能および機械学習（ML）機能を組み合わせ、幅広くエクスペリエンスをテストしてパーソナライズできます。  </p> <p>AEM では、パーソナライゼーション戦略に生かせるよう、すべてのコンテンツとアセットが一元化されます。AEM では、コードを記述しなくても、デスクトップ、タブレット、モバイルデバイス向けのコンテンツを 1 か所で簡単に作成できます。デバイスごとにページを作成する必要はありません。AEM ではコンテンツを基に、各デバイスのエクスペリエンスが自動調整されます。 </p> <p> Target では、行動、コンテキスト、オフラインの変数を組み込んだルールベースの手法と AI 駆動の機械学習手法を組み合わせ、それを土台にしてパーソナライズされたエクスペリエンスを幅広く提供できます。&amp; amp;nbsp;Targetを使用すると、A/Bおよび多変量分析アクティビティを簡単に設定して実行し、最適なオファー、コンテンツおよびエクスペリエンスを決定できます。 </p> <p>エクスペリエンスフラグメントは、コンテンツ／エクスペリエンスの作成者や管理者と、ビジネス成果の向上に Target を使用している最適化／パーソナライゼーションの専門家との連携を大幅に強化できる機能です。 </p> <p>詳しくは、 <a href="/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEMエクスペリエンスフラグメント </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポート </p> </td> 
@@ -1339,7 +1339,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col2"> <p> 
      <ul id="ul_63613AD2D744442AA12CD23F4DAC75B4"> 
       <li id="li_4DD5CF06D93A4083BCB34A4FFA293C89"> <p>レコメンデーションのカスタムアルゴリズムデータのアップロードステータスが UI に表示されるようになりました。<a href="/help/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">カスタム条件のアップロード</a>を参照してください。（TGT-23891） </p> </li> 
-      <li id="li_14FCFDD0A0E84B47AF1488DB4DDF197B">アルゴリズムインクルージョンルールの作成時に、「値が存在する」と「値が存在しない」の演算子を利用できるようになりました。詳しくは、<a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> 動的なインクルージョンルールと静的なインクルージョンルール </a> を使用します。（TGT-24110） </li> 
+      <li id="li_14FCFDD0A0E84B47AF1488DB4DDF197B">アルゴリズムインクルージョンルールの作成時に、「値が存在する」と「値が存在しない」の演算子を利用できるようになりました。詳しくは、<a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> 動的なインクルージョンルールと静的なインクルージョンルール </a>を使用します。（TGT-24110） </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1856,7 +1856,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  <tbody> 
   <tr> 
    <td colname="col1"> レポート </td> 
-   <td colname="col2"> <p><b>複数の目標／指標の表示：</b>A/B およびエクスペリエンスのターゲット設定（XT）アクティビティで、複数の指標を表示できるようになりました（ただし、<a href="/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 自動配分 </a> および <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> 自動Target </a> A/Bアクティビティ。 </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">レポートでの複数の指標の表示</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>複数の目標／指標の表示：</b>A/B およびエクスペリエンスのターゲット設定（XT）アクティビティで、複数の指標を表示できるようになりました（ただし、<a href="/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 自動配分 </a>および <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自動Target </a>A/Bアクティビティ。 </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">レポートでの複数の指標の表示</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2351,7 +2351,7 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 21 日（PT））リリ�
   </tr> 
   <tr> 
    <td colname="col1"> 動的／リモートオファーのサポート </td> 
-   <td colname="col2"> <p>動的コンテンツは、<span class="keyword">Target Standard／Premium</span> のすべてのフォームベースのアクティビティで使用することができます。動的コンテンツは <span class="keyword">Target</span> の外に保存されます。 </p> <p>詳しくは、リモートオファー <a href="/help/c-experiences/c-manage-content/about-remote-offers.md#concept_657016A0E6174C22B89036E9C8A0170F" format="dita" scope="local"> の作成 </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>動的コンテンツは、<span class="keyword">Target Standard／Premium</span> のすべてのフォームベースのアクティビティで使用することができます。動的コンテンツは <span class="keyword">Target</span> の外に保存されます。 </p> <p>詳しくは、リモートオファー <a href="/help/c-experiences/c-manage-content/about-remote-offers.md#concept_657016A0E6174C22B89036E9C8A0170F" format="dita" scope="local">の作成 </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> オーディエンスとプロファイルスクリプトのコピー </td> 
@@ -2475,7 +2475,7 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 19 日（PT））リリ�
    <td colname="col2"> <p>CSV ダウンロードでは、エンティティ Recommendations を持たない環境（例：
  <code>
        # environment: 1724 
-     </code> ）を含むすべての環境用に、行が含まれるようになりました。 </p> </td> 
+     </code>）を含むすべての環境用に、行が含まれるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2567,7 +2567,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> 顧客属性をオファー内のトークンとして使用可能 </td> 
-   <td colname="col2"> <p>以前は、顧客属性はプロファイルスクリプト形式で参照でき、<span class="codeph"> crs. get（'&lt; <span class="varname">データソース名 </span>&gt;.&lt; <span class="varname"> 属性名 </span>&gt;') </span> の形式が使用されていました。 </p> <p>現在は、属性は、プロファイルスクリプトで、および最初にプロファイルスクリプトがなくても直接オファーで、トークンとして利用できます。トークンは、<span class="codeph">$crs.<span class="varname"> datasourceName </span>.<span class="varname"> attributeName </span> </span> の形式になります。 </p> <p><a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local"> CRSトークン </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>以前は、顧客属性はプロファイルスクリプト形式で参照でき、<span class="codeph"> crs. get（'&lt; <span class="varname">データソース名 </span>&gt;.&lt; <span class="varname"> 属性名 </span>&gt;') </span> の形式が使用されていました。 </p> <p>現在は、属性は、プロファイルスクリプトで、および最初にプロファイルスクリプトがなくても直接オファーで、トークンとして利用できます。トークンは、<span class="codeph">$crs.<span class="varname"> datasourceName </span>.<span class="varname"> attributeName </span> </span> の形式になります。 </p> <p><a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local"> CRSトークン </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> カスタムコードの機能強化 </td> 
@@ -3012,7 +3012,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 複数ページアクティビティ </td> 
-   <td colname="col2"> <p>複数ページアクティビティを使用すると、各ページが固有のデザインを持つ複数のページにわたるストーリーを作成できます。 </p> <p>例えば、特定の金額を超える買い物をした顧客に対して送料を無料にするオファーをテストできます。そのオファーをランディングページ、カテゴリページおよび特定の商品のページに表示しますが、ページのタイプに応じて異なる場所に異なるサイズで表示します。ホームページには目立つようにオファーを表示し、他の関連ページには小さく表示してオファーを強化できます。 </p> <p>また、複数ページアクティビティを使用して、デスクトップおよびノンレスポンシブモバイルサイト用の異なるレイアウトを定義できます。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> 複数ページアクティビティ </a>. </p> </td> 
+   <td colname="col2"> <p>複数ページアクティビティを使用すると、各ページが固有のデザインを持つ複数のページにわたるストーリーを作成できます。 </p> <p>例えば、特定の金額を超える買い物をした顧客に対して送料を無料にするオファーをテストできます。そのオファーをランディングページ、カテゴリページおよび特定の商品のページに表示しますが、ページのタイプに応じて異なる場所に異なるサイズで表示します。ホームページには目立つようにオファーを表示し、他の関連ページには小さく表示してオファーを強化できます。 </p> <p>また、複数ページアクティビティを使用して、デスクトップおよびノンレスポンシブモバイルサイト用の異なるレイアウトを定義できます。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> 複数ページアクティビティ.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> フォームベースのアクティビティ作成 </td> 
@@ -3028,7 +3028,7 @@ target/r_release-notes-2015.xml
   </tr>  
   <tr> 
    <td colname="col1"> サードパーティ ID データのリアルタイムプロファイル同期 </td> 
-   <td colname="col2"> サイト訪問者がセッション中にログインし、サードパーティ ID を取得した場合は、サードパーティ ID に関連付けられている、既に読み込まれたすべてのプロファイル属性をすぐに利用できます。詳しくは、<a href="/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> 訪問者プロファイル </a>. </td> 
+   <td colname="col2"> サイト訪問者がセッション中にログインし、サードパーティ ID を取得した場合は、サードパーティ ID に関連付けられている、既に読み込まれたすべてのプロファイル属性をすぐに利用できます。詳しくは、<a href="/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> 訪問者プロファイル.</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations Premium：ファセット名検索 </td> 
@@ -3181,7 +3181,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B テストおよびエクスペリエンスのターゲット設定：3 ステップのアクティビティ作成フロー </p> </td> 
-   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> エクスペリエンスのTarget設定 </a> アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、Automated Personalization や多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> 4つのステップではなく、3つの手順でA/B </a>および <a href="/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">エクスペリエンスのTarget設定 </a>アクティビティを作成します。この変更により、これらのアクティビティの作成プロセスが、Automated Personalization や多変量分析テストなどの他の種類のアクティビティのワークフローと似たものになりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートソースとしての Analytics をほとんどのアクティビティタイプで使用可能 </p> </td> 
@@ -3543,7 +3543,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> アクティビティの衝突 </td> 
-   <td colname="col2"> <p> Target Standard では、アクティビティの衝突のリストが提供されるようになりました。アクティビティの衝突は、複数のアクティビティが同じページにコンテンツを配信するよう設定されているときに発生します。アクティビティの競合が発生した場合、異なるアクティビティを入力したことが原因で、期待したコンテンツがページに表示されないことがあります。 </p> <p> 各アクティビティのオーディエンスのターゲット設定にかかわらず、同じ URL のすべてのアクティビティが一覧表示されます。 </p> <p> アクティビティに衝突が含まれている場合は、アクティビティの概要ページに「<span class="wintitle">衝突</span>」タブが表示されます。このタブを開くと、競合しているアクティビティのリストが表示されます。リストのアクティビティをクリックして、そのアクティビティの概要ページを表示します。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> アクティビティの衝突 </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard では、アクティビティの衝突のリストが提供されるようになりました。アクティビティの衝突は、複数のアクティビティが同じページにコンテンツを配信するよう設定されているときに発生します。アクティビティの競合が発生した場合、異なるアクティビティを入力したことが原因で、期待したコンテンツがページに表示されないことがあります。 </p> <p> 各アクティビティのオーディエンスのターゲット設定にかかわらず、同じ URL のすべてのアクティビティが一覧表示されます。 </p> <p> アクティビティに衝突が含まれている場合は、アクティビティの概要ページに「<span class="wintitle">衝突</span>」タブが表示されます。このタブを開くと、競合しているアクティビティのリストが表示されます。リストのアクティビティをクリックして、そのアクティビティの概要ページを表示します。 </p> <p>詳しくは、<a href="/help/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> アクティビティの衝突.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 新しいターゲットオプション：プロファイル、ユーザー </td> 
