@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '4390'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 99%
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
 
-### [!DNL Adobe Experience Platform] セグメント名は重要な属性レポートに [!UICONTROL は表示さ] れません。
+### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートに は表示されません。
 
-[!DNL Adobe Experience Platform] セグメント名は、 [!UICONTROL Automated Personalization] (AP)および自 [!UICONTROL 動ターゲット]   (AT)アクティビティの重要な属性レポートには表示されません。（上位 3813 項目）
+[!DNL Adobe Experience Platform] セグメント名は、[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target]（AT）アクティビティの[!UICONTROL 重要な属性]レポートに表示されません。（上位 3813 項目）
 
 ### [!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題が発生する場合があります
 
