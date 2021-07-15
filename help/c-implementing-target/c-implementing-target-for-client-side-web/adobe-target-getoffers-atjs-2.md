@@ -5,10 +5,10 @@ title: adobe.target.getOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| `consumerId` | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T統合に使用される補足的なデータID(SDID)の生成に使用されます。 このキー(consumerId)は一意ではありません。<br>を使用する場合、 `getOffers()`各呼び出しで新しいSDIDが生成されます。同じページに複数のmboxリクエストがあり、SDIDを保持する(target-global-mboxとAdobe Analytics SDIDのSDIDと一致させる)場合は、`consumerId`パラメーターを使用します。<br>3つ `getOffers()` のmbox(「mbox1」、「mbox2」、「mbox3」)が含まれる場合は、次を含めます。 `consumerId: "mbox1, mbox2, mbox3"` を呼び出しに含め `getOffers()` ます。 |
+| `consumerId` | 文字列 | × | 指定しない場合、デフォルト値はクライアントのグローバル mbox です。このキーは、A4T統合に使用される補足的なデータID(SDID)の生成に使用されます。<br>を使用する場合、 `getOffers()`各呼び出しで新しいSDIDが生成されます。同じページに複数のmboxリクエストがあり、SDIDを保持する(target-global-mboxとAdobe Analytics SDIDのSDIDと一致させる)場合は、`consumerId`パラメーターを使用します。<br>3つ `getOffers()` のmbox(「mbox1」、「mbox2」、「mbox3」)が含まれる場合は、次を含めます。 `consumerId: "mbox1, mbox2, mbox3"` を呼び出しに含め `getOffers()` ます。 |
 | `decisioningMethod` | 文字列 | × | &quot;サーバー側&quot;、&quot;オンデバイス&quot;、&quot;ハイブリッド&quot; |
 | `request` | オブジェクト | ○ | 下の「リクエスト」の表を参照してください。 |
 | `timeout` | 数値 | × | リクエストのタイムアウト。指定しない場合、at.js のデフォルトのタイムアウトが使用されます。 |
