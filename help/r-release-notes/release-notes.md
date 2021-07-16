@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 89%
 >サイトに起こりうる問題を回避するため、新しい [!DNL Adobe Experience Platform Web SDK] の最新バージョンまたは at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## at.js 2.6.0（2021年7月17日）
+
+* at.js設定`secureOnly`が`true`に設定された場合は常に、セキュア属性がcookieに追加されました。
+* `triggerView()`を使用する際にレスポンストークンを使用できるようになりました。
+* `CONTENT_RENDERING_NO_OFFERS`イベントに関連する問題を修正しました。 現在は、[!DNL Target]からコンテンツが返されない場合は常にこのイベントが正しくトリガーされます。
+* [!DNL Anlytics for Target] (A4T)クリック指標の詳細は、リクエストを使用する際に正しく返さ `prefetch` れます。
+* UUID生成は、`Math.random()`を使用しなくなりましたが、`window.crypto`を使用します。
+* `sessionId` cookieの有効期限は、すべてのネットワーク呼び出しで正しく拡張されます。
+* [!UICONTROL 単一ページアプリケーション](SPA)ビューキャッシュの初期化が正しく処理され、`viewsEnable`設定に従うようになりました。
 
 ## [!DNL Target Standard/Premium] 21.6.1（2021年6月31日）
 
