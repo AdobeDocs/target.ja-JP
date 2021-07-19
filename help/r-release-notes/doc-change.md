@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target に関するドキュメントのアップデートはどこで確認できますか。
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 19 月 8 日 | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | イベントコード —1または65535に関する情報を追加しました。 |
 | 16 月 8 日 | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)<br><br>[およびat.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 リリースに関する情報を追加しました。 |
 |  | [[!UICONTROL Experience Composer の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)に関連する問題のトラブルシューティング | IPアドレスのリストを更新し、し許可リストました。 |
 | 12 月 8 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analyticsと[!DNL Adobe Target]の統合に関するROI、インサイト、時間節約の大幅な数値化。</li><li>[!DNL Adobe Target] 2021年7月21日（水）午前8時に開催されるコミュニティQ&amp;Aコーヒーブレーク。(PDT、GMT-7)。</li></ul> |
