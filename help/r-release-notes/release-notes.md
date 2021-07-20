@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '653'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +40,6 @@ ht-degree: 0%
 | 機能 | 詳細 |
 | --- | --- |
 | Analytics for Target（A4T） | [!DNL Analytics]をレポートソースとして使用する(A4T)アクティビティから、[!UICONTROL レポート]ページの「[!UICONTROL Analytics]で表示」リンクをクリックすると、[!DNL Analysis Workspace]が開きます。 以前は、リンクは[!DNL Analytics]レポートを開いていました。 （TGT-36959） |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 人気度アルゴリズムに次の機能強化が適用されます。<ul><li>[!DNL Target]が行動データソースの場合、すべての人気（最も多く閲覧された/トップセラー）アルゴリズムに対して、6時間の新しい「ルックバックウィンドウ」（データ範囲）オプションを使用できます。 （このルックバックウィンドウは、[!DNL Adobe Analytics] が行動データソースの場合は&#x200B;*使用できません*。）</li><li>選択すると、次のアルゴリズムは、（12時間ごとではなく）約3時間ごとに実行されます。<ul><li>最も頻繁に閲覧された</li><li>最も多く購入された</li><li>カテゴリ別で最も多く閲覧された</li><li>カテゴリ別で最も多く購入された</li><li>カスタム属性別で最も多く閲覧された（groupBy 機能を使用）</li><li>カスタム属性別で最も多く購入された（groupBy 機能を使用）</li></ul></ul>リリース日をお知らせします。 （上位 1086 項目） |
 
 ## Python SDK 1.0.0（2021年6月16日（PT））
 
