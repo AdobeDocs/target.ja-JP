@@ -4,28 +4,51 @@ description: Adobe [!DNL Target] Visual Experience Composer(VEC)と拡張Experie
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 068cce681946382365049fdc69671cd011431201
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 61%
+source-wordcount: '1501'
+ht-degree: 50%
 
 ---
 
 # Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
 
-[!DNL Adobe Target] Visual Experience Composer(VEC)と拡張Experience Composer(EEC)では、特定の条件下で表示の問題やその他の問題が発生する場合があります。
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)と[!UICONTROL 拡張Experience Composer](EEC)では、特定の条件下で表示の問題やその他の問題が発生する場合があります。
 
-## 最近発表されたGoogle Chrome SameSite cookieの実施ポリシーは、VECとEECにどのような影響を与えますか？ {#samesite}
+## Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？ {#samesite}
 
-最新の変更（2020年8月）により、Chrome 80以降のブラウザーバージョンを使用しているすべてのユーザーが以下の手順を実行できます。
+Chrome 94リリース（2021年9月22日）に予定されている差し迫った変更により、次の変更はChrome 94以降のブラウザーバージョンを使用するすべてのユーザーに影響します。
 
-* サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 これは、サイトのログインCookieがサードパーティCookieと見なされ、ログインリクエストと共に送信されないためです。 唯一の例外は、顧客サイトのログインcookieに既にSameSiteパラメーターが「none」に設定されている場合です。
+* コマンドラインフラグ`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`は削除されます。
+
+Chrome 91リリース（2021年5月26日）用に実装された変更点を使用すると、Chrome 91以降のブラウザーバージョンを使用しているすべてのユーザーに次の変更が影響します。
+
+* フラグ`#same-site-by-default-cookies`と`#cookies-without-same-site-must-be-secure`が`chrome://flags`から削除されました。 この動作は、デフォルトで有効になりました。
+
+2020年8月に実装された変更により、Chrome 80以降のブラウザーバージョンを持つすべてのユーザーは、以下のようになります。
+
+* サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインcookieにSameSiteパラメーターが既に「none」に設定されている場合です。
 * アクティビティの編集中に&#x200B;**&#x200B;が[!DNL Target]ライブラリをダウンロードできない（サイトにまだない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護されたAdobeドメインに向けておこなわれ、未認証として拒否されるからです。
-* EECは`adobemc.com domain`のcookieに対してSameSite属性を設定できないので、すべてのユーザーに対して&#x200B;**&#x200B;機能を実行しません。 この属性がないと、ブラウザーはこれらのcookieを拒否し、EECが失敗します。
+* EECは`adobemc.com domain`のcookieに対してSameSite属性を設定できないので、すべてのユーザーに対して&#x200B;**&#x200B;機能を実行しません。 この属性がない場合、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
+
+SameSite cookieの適用ポリシーが原因でブロックされているcookieを確認するには、Chromeの開発者ツールを使用します。
+
+1. 開発者ツールにアクセスするには、ChromeでVECを表示している間に、Chromeの右上隅にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;アイコンをクリックします。 **[!UICONTROL その他のツール]** / **[!UICONTROL 開発者ツール]**
+1. 「**[!UICONTROL Network]**」タブをクリックし、ブロックされているcookieを探します。
+
+   次の図は、ブロックされたCookieを示しています。
+
+   ![開発者ツール/「 Network 」タブで、ブロックされたCookieが表示される](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
 Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに送信しました。 この拡張機能は、必要に応じてCookieの属性を上書きし、`SameSite="none"`属性を設定します。 [更新された拡張は、](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)で確認できます。 VECヘルパー拡張機能のインストールと使用について詳しくは、「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
 
-独自のサイトのcookieに対して、名前でcookieを指定する必要があります。 [!UICONTROL Cookie]スライダーをオンの位置に切り替え、名前とcookieドメインを指定します。 Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの第2の最上位レベルです。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳しくは、『*Experience Cloudインターフェイスユーザーガイド*』の[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ja)を参照してください。
+独自のサイトのcookieに対して、名前でcookieを指定する必要があります。
+
+>[!NOTE]
+>
+>この方法は、すべてのCookieが単一のドメインに設定されている場合にのみ適しています。 VECヘルパーでは、[!DNL Target]で複数のドメインに対してcookieを指定できません。
+
+[!UICONTROL Cookie]スライダーをオンの位置に切り替え、名前とcookieドメインを指定します。 Cookie名は「mbox」で、Cookieドメインはmboxを扱うドメインの第2の最上位レベルです。 会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. 詳しくは、『*Experience Cloudインターフェイスユーザーガイド*』の[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ja)を参照してください。
 
 ![VECヘルパー拡張機能でのcookieの切り替え](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -35,11 +58,11 @@ Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに�
 
 * 更新された[VECヘルパー拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)をダウンロードして使用します。
 * Mozilla Firefoxブラウザーを使用します。 Firefoxは、このポリシーを適用していません。
-* 引き続きChromeを使用しますが、`chrome://flags/#same-site-by-default-cookies`フラグを「無効」に設定します。
+* 2021年9月22日までの間にコマンドラインからGoogle Chromeを実行するには、次のフラグを使用します。 9月21日以降、WebサイトはVECで機能しなくなります。 Chrome 94にアップデートした場合は、Webサイト上で`SameSite=none`と`Secure`のCookieを手動で生成する必要があります。
 
-   >[!NOTE]
-   >
-   >サーバーから既にSameSite属性が「Lax」または「Strict」に設定されているCookieの場合、*では十分ではありません*。
+   ```
+   --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
+   ```
 
 ## [!DNL Target]は複数レベルのiframeをサポートしますか？
 
@@ -49,7 +72,7 @@ Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに�
 
 ## ページを編集しようとすると、ページではなく、スピナーが表示されます。（VEC と EEC） {#section_313001039F79446DB28C70D932AF5F58}
 
-この問題は、URL に # 文字が含まれている場合に発生することがあります。この問題を修正するには、Visual Experience Composer を「参照」モードに切り替えて、その後「構成」モードに戻します。スピナーの表示が消えて、ページが読み込まれます。
+この状況は、URLに#文字が含まれている場合に発生する可能性があります。 この問題を修正するには、Visual Experience Composer を「参照」モードに切り替えて、その後「構成」モードに戻します。スピナーの表示が消えて、ページが読み込まれます。
 
 ## コンテンツセキュリティポリシー(CSP)ヘッダーにより、Webサイト上の[!DNL Target]ライブラリがブロックされます。 （VEC と EEC） {#section_89A30C7A213D43BFA0822E66B482B803}
 
@@ -82,11 +105,11 @@ Web サイトが、エクスペリエンスの定義後に Visual Experience Com
 
 ## ページ内の 1 つの要素を変更すると、複数の要素が変更されます。（VEC と EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
-同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは標準の HTML ベストプラクティスです。詳しくは、[ページ修正のシナリオ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
+同じ DOM 要素 ID がページ内の複数の要素に使用されている場合、それらの要素のいずれかを変更するとその ID の要素がすべて変更されます。この現象を予防するには、各ページで ID は 1 回のみ使用するようにしてください。これは、標準のHTMLベストプラクティスです。 詳しくは、[ページ修正のシナリオ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)を参照してください。
 
 ## iFrame バスティングのサイトのエクスペリエンスを編集できない。（VEC と EEC） {#section_9FE266B964314F2EB75604B4D7047200}
 
-この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、拡張Experience Composerを有効にするチェックボックスをオンにします。 拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。これにより、iFrame バスティングのサイトの編集と、まだ Adobe Target コードを追加していないサイトとページの編集が可能になります。コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。 []
+この問題は、拡張 Experience Composer を有効にすることで対処できます。**[!UICONTROL 管理]** / **[!UICONTROL Visual Experience Composer]**&#x200B;をクリックし、拡張Experience Composerを有効にするチェックボックスをオンにします。 拡張 Experience Composer は、編集するページの読み込みに、アドビが管理するプロキシを使用します。このプロキシを使用すると、iFrameバスティングのサイトで編集でき、まだAdobe Targetコードを追加していないサイトやページで編集できます。 コードが追加されるまで、サイトにアクティビティは配信されません。サイトによっては、拡張 Experience Composer を介して読み込むことができない場合があります。その場合は、このオプションをオフにして、iFrame を介して Visual Experience Composer を読み込むことができます。
 
 >[!NOTE]
 >
@@ -98,7 +121,7 @@ Web サイトが、エクスペリエンスの定義後に Visual Experience Com
 
 ## 「テキスト／HTML を編集」または「テキスト／HTML を変更」でテキストスタイルの太字および斜体がページで表示されません。これらのスタイル変更を適用すると、テキストが消えることがあります。（VEC と EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Visual Experience Composer で A/B またはエクスペリエンスターゲット設定アクティビティに「**[!UICONTROL テキスト／HTML を編集]**」を使用したり、自動パーソナライゼーションまたは多変量分析テストアクティビティに「**[!UICONTROL テキスト／HTML を変更]**」を使用して、テキストに太字や斜体を設定すると、Visual Experience Composer でこれらのスタイルがページに適用できないか、ページからテキストが消えることがあります。これは、リッチテキストエディターでこれらのスタイルを適用する方法が Web サイトのマークアップに影響を与える可能性があるためです。
+Visual Experience Composer で A/B またはエクスペリエンスターゲット設定アクティビティに「**[!UICONTROL テキスト／HTML を編集]**」を使用したり、自動パーソナライゼーションまたは多変量分析テストアクティビティに「**[!UICONTROL テキスト／HTML を変更]**」を使用して、テキストに太字や斜体を設定すると、Visual Experience Composer でこれらのスタイルがページに適用できないか、ページからテキストが消えることがあります。これは、リッチテキストエディターがこれらのスタイルを適用する方法が、Webサイトのマークアップに影響を与える可能性があるためです。
 
 この問題が発生した場合、次の手順に従ってください。
 
