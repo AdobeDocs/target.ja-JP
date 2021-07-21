@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Visual Experience Composer(VEC)と拡張Experie
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 068cce681946382365049fdc69671cd011431201
+source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 50%
+source-wordcount: '1545'
+ht-degree: 49%
 
 ---
 
@@ -17,28 +17,38 @@ ht-degree: 50%
 
 ## Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？ {#samesite}
 
-Chrome 94リリース（2021年9月22日）に予定されている差し迫った変更により、次の変更はChrome 94以降のブラウザーバージョンを使用するすべてのユーザーに影響します。
+次のChromeリリースを使用する際のVECとEECに影響する変更点に注意してください。
+
+**Chrome 94（2021年9月22日）**:Chrome 94リリース（2021年9月22日）に予定されている差し迫った変更により、次の変更はChrome 94以降のブラウザーバージョンを使用するすべてのユーザーに影響します。
 
 * コマンドラインフラグ`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`は削除されます。
 
-Chrome 91リリース（2021年5月26日）用に実装された変更点を使用すると、Chrome 91以降のブラウザーバージョンを使用しているすべてのユーザーに次の変更が影響します。
+**Chrome 91（2021年5月26日）**:Chrome 91リリース（2021年5月26日）用に実装された変更点を使用すると、Chrome 91以降のブラウザーバージョンを使用しているすべてのユーザーに次の変更が影響します。
 
 * フラグ`#same-site-by-default-cookies`と`#cookies-without-same-site-must-be-secure`が`chrome://flags`から削除されました。 この動作は、デフォルトで有効になりました。
 
-2020年8月に実装された変更により、Chrome 80以降のブラウザーバージョンを持つすべてのユーザーは、以下のようになります。
+**Chrome 80（2020年8月）**:2020年8月に実装された変更により、Chrome 80以降のブラウザーバージョンを持つすべてのユーザーは、以下のようになります。
 
 * サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインcookieにSameSiteパラメーターが既に「none」に設定されている場合です。
 * アクティビティの編集中に&#x200B;**&#x200B;が[!DNL Target]ライブラリをダウンロードできない（サイトにまだない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護されたAdobeドメインに向けておこなわれ、未認証として拒否されるからです。
 * EECは`adobemc.com domain`のcookieに対してSameSite属性を設定できないので、すべてのユーザーに対して&#x200B;**&#x200B;機能を実行しません。 この属性がない場合、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
 
-SameSite cookieの適用ポリシーが原因でブロックされているcookieを確認するには、Chromeの開発者ツールを使用します。
+### ブロックされているCookieの特定
+
+SameSite cookieの適用ポリシーが原因でブロックされているcookieを判断するには、Chromeの開発者ツールを使用します。
 
 1. 開発者ツールにアクセスするには、ChromeでVECを表示している間に、Chromeの右上隅にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;アイコンをクリックします。 **[!UICONTROL その他のツール]** / **[!UICONTROL 開発者ツール]**
 1. 「**[!UICONTROL Network]**」タブをクリックし、ブロックされているcookieを探します。
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 「Has blocked cookies]**」チェックボックスを使用すると、ブロックされたCookieを見つけやすくなります。
+
    次の図は、ブロックされたCookieを示しています。
 
    ![開発者ツール/「 Network 」タブで、ブロックされたCookieが表示される](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+
+### Google VECヘルパー拡張機能
 
 Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに送信しました。 この拡張機能は、必要に応じてCookieの属性を上書きし、`SameSite="none"`属性を設定します。 [更新された拡張は、](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)で確認できます。 VECヘルパー拡張機能のインストールと使用について詳しくは、「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
 
