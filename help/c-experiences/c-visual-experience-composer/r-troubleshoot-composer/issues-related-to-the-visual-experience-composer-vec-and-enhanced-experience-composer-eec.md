@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] Visual Experience Composer(VEC)と拡張Experie
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 49%
 
 次のChromeリリースを使用する際のVECとEECに影響する変更点に注意してください。
 
+>[!NOTE]
+>
+>次の変更は、以下に示す3つの更新すべてに影響します。
+>
+> * サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインcookieにSameSiteパラメーターが既に「none」に設定されている場合です。
+
+
 **Chrome 94（2021年9月22日）**:Chrome 94リリース（2021年9月22日）に予定されている差し迫った変更により、次の変更はChrome 94以降のブラウザーバージョンを使用するすべてのユーザーに影響します。
 
 * コマンドラインフラグ`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`は削除されます。
@@ -29,7 +36,6 @@ ht-degree: 49%
 
 **Chrome 80（2020年8月）**:2020年8月に実装された変更により、Chrome 80以降のブラウザーバージョンを持つすべてのユーザーは、以下のようになります。
 
-* サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインcookieにSameSiteパラメーターが既に「none」に設定されている場合です。
 * アクティビティの編集中に&#x200B;**&#x200B;が[!DNL Target]ライブラリをダウンロードできない（サイトにまだない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護されたAdobeドメインに向けておこなわれ、未認証として拒否されるからです。
 * EECは`adobemc.com domain`のcookieに対してSameSite属性を設定できないので、すべてのユーザーに対して&#x200B;**&#x200B;機能を実行しません。 この属性がない場合、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
 
