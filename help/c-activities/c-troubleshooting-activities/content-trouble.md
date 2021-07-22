@@ -5,9 +5,9 @@ title: コンテンツ配信のトラブルシューティング方法を教え�
 feature: アクティビティ
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 | mboxTrace のオプション | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.jsの場合、新しいブラウザーウィンドウを表示したり、mbox.jsのようにコンソールに出力したりする代わりに、ネットワークリクエストを調べて、プレビュー(Chrome)または応答(Firefox)の下を確認する必要があります。 |
+| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.js の場合は、新しいブラウザーウィンドウを表示したり mbox.js の場合のようにコンソールに出力したりするのではなく、ネットワークリクエストを検査し、「Preview」（Chrome）または「Response」（Firefox）の表示内容を確認する必要があります。 |
 | `?mboxTrace=json` | コンソールログにリテラル JSON 文字列として出力します。 |
 | `?mboxTrace=window` | ポップアップウィンドウに JSON 文字列として出力します。 |
 | `?mboxTrace=disable` | セッションモードのトレースをオフにします。 |
