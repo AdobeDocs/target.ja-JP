@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 82%
 * `sessionId` cookieの有効期限は、すべてのネットワーク呼び出しで正しく拡張されます。
 * [!UICONTROL 単一ページアプリケーション](SPA)ビューキャッシュの初期化が正しく処理され、`viewsEnable`設定に従うようになりました。
 
-## [!DNL Target Standard/Premium] 21.6.1（2021年6月31日）
+## [!DNL Target Standard/Premium] 21.6.1（2021 年 6 月 30 日）
 
 このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
 | 機能 | 詳細 |
 | --- | --- |
-| Analytics for Target（A4T） | [!DNL Analytics]をレポートソースとして使用する(A4T)アクティビティから、[!UICONTROL レポート]ページの「[!UICONTROL Analytics]で表示」リンクをクリックすると、[!DNL Analysis Workspace]が開きます。 以前は、リンクは[!DNL Analytics]レポートを開いていました。 （TGT-36959） |
+| [!UICONTROL Analytics for Target]（A4T） | [!DNL Analytics] をレポートソースとして使用するアクティビティ（A4T）から、[!UICONTROL レポート]ページの「[!UICONTROL Analytics で表示]」リンクをクリックすると、[!DNL Analysis Workspace] が開くようになりました。以前は、このリンクをクリックすると、[!DNL Analytics] レポートが開きました。 （TGT-36959） |
 
 ## Python SDK 1.0.0（2021年6月16日（PT））
 
@@ -53,7 +53,7 @@ ht-degree: 82%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
+| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for  [!DNL Target]  の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
