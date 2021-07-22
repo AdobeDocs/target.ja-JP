@@ -6,9 +6,9 @@ feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 ## Target API 呼び出し
 
-* **制限**:管理、レポート、一括プロファイル更新APIの1分あたり50コール。この制限は、配信および単一プロファイル更新APIには適用されません。
+* **制限**：管理 API、レポート API および一括プロファイル更新 API の呼び出しは 1 分あたり 50 回まで。この制限は、配信 API および単一プロファイル更新 API には適用されません。
 
    1 分あたり 50 回を超える API 呼び出しをおこなうと、[!DNL Target] は「503 HTTP ステータス」エラーメッセージを返します。
 
