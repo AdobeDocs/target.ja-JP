@@ -5,9 +5,9 @@ title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 >[!NOTE]
 >
->この設定は、[!UICONTROL Visual Experience Composer](VEC)で作成されたアクティビティにのみ適用されます。 この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
+>この設定は、[!UICONTROL Visual Experience Composer]（VEC）で作成されたアクティビティのみに適用されます。この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
 
 [!UICONTROL 非互換の条件をフィルター]設定にアクセスするには、[!UICONTROL Recommendations]／[!UICONTROL 設定]をクリックします。
 
@@ -247,21 +247,21 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 
-メディアや投稿の一部のお客様は、レコメンデーション品目に最新の記事またはビデオのみを含めたいと考えています。 例えば、[!DNL Target]のお客様は、60日未満の記事をレコメンデーションするために、次のアプローチを使用しました。
+メディアやパブリッシングの一部の顧客は、レコメンデーションされるアイテムに最新の記事またはビデオのみを含めたいと考えています。 例えば、[!DNL Target] の顧客が次のアプローチを使用して、公開後 60 日未満の記事をレコメンデーションしたとしましょう。
 
-1. 記事の公開日をYYMMDDD形式で、カスタムエンティティ属性として渡します。
-1. 今日の日付 — 60日（YYYYMMDD形式も含む）のプロファイルスクリプトを作成します。
-1. 条件に動的インクルージョンフィルターを使用して`publish date > today’s date minus 60 days`します。
+1. 記事の公開日を YYMMDDD 形式でカスタムエンティティ属性として渡す。
+1. 今日の日付－60 日のプロファイルスクリプトを作成します（YYYYMMDD 形式も含む）。
+1. `publish date > today’s date minus 60 days` となるように、条件に動的インクルージョンフィルターを使用する。
 
-### 発行日をカスタムエンティティ属性として渡します。
+### 公開日をカスタムエンティティ属性として渡します。
 
-| エンティティの属性 | 例 |
+| エンティティ属性 | 例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
-| parentCategory | 解説 |
+| parentCategory | commentary |
 | publishDate | 20210113 |
-| publishDateDisplay | 2021年1月14日 |
+| publishDateDisplay | 2021 年 1 月 13 日（PT） |
 
 ### プロファイルスクリプトの設定：
 
@@ -273,4 +273,4 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 >[!NOTE]
 >
->この例は、パラメーターのマッチングを使用し、`priorDate60`値をmboxパラメーターとして渡すこともできます。
+>この例は、パラメーターのマッチングを使用し、`priorDate60` 値を mbox パラメーターとして渡すことで実現することもできます。
