@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 93%
 | Forrester | **アドビは、Forrester Wave レポートで、エクスペリエンス最適化プラットフォーム分野のリーダーに選ばれました。**<br>&#x200B;アドビは、「The Forrester Wave：エクスペリエンス最適化プラットフォーム（2020 年第 4 四半期）」レポートで、この分野のソリューションである Adobe Target Premium が評価され、リーダーに選ばれました。アドビは、現在のオファーおよび市場プレゼンスの分野、およびレコメンデーションとプラットフォームエクスペリエンスの条件において、参加している全ベンダーのうち最高スコアを獲得しました。また、Target Premium は、エクスペリエンス最適化手法のイノベーションとサポートサービスの条件において、最高のスコアを獲得しました。このレポートは、エクスペリエンス最適化プラットフォームプロバイダー 10 社を、22 件の条件についておこなわれた綿密な評価に基づいています。<br>詳しくは、[Adobe ブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)をご覧ください。 |
 | Gartner | **アドビは、パーソナライゼーションエンジン分野の Gartner Magic Quadrant で再びリーダーに選ばれました。**<br>&#x200B;アドビは、2020 年度の『Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）』レポートで、3 回目のリーダーに選ばれました。パーソナライゼーションエンジン分野の Gartner Magic Quadrant では、ビジョンの完全性と実行能力の 2つのカテゴリにおいて、15 の条件に基づいてベンダーを評価しました。<br>[詳しくは、Adobe ブログをご覧ください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
-## [!DNL Adobe Target] コミュニティQ&amp;Aコーヒーブレーク
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
 
-* **2021年7月21日水曜日**
-* **午前8時。(PDT、UTC -7)**
-* **[詳しくはここをクリックし、](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171)を登録してください。**
+* **2021 年 7 月 21 日水曜日（PT）**
+* **午前 8 時（PDT、UTC-7）**
+* **[詳細および登録については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171)。**
 
-[!DNL Target]上級製品マネージャーのDavid Son氏は、専門知識に関する質問に答えます。
+[!DNL Target] のシニアプロダクトマネージャーである David Son が自身の専門分野に関する質問に答えます。
 
 * [!DNL Adobe Experience Platform Web SDK]
 * オンデバイス判定
