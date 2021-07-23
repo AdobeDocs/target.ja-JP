@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] Visual Experience Composer(VEC)と拡張Experie
 title: Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer（VEC）
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 49%
 >
 >次の変更は、以下に示す3つの更新すべてに影響します。
 >
-> * サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインcookieにSameSiteパラメーターが既に「none」に設定されている場合です。
+> * サイトのパスワードで保護されたページでVECを（VECヘルパー拡張機能がインストールされ有効になっているかどうかに関わらず）*使用できない*&#x200B;です。 サイトのログインCookieはサードパーティCookieと見なされ、ログインリクエストと共に送信されます。 唯一の例外は、サイトのログインCookieに既に`none`と`Secure.`に設定されているSameSiteパラメーターがある場合です
 
 
 **Chrome 94（2021年9月22日）**:Chrome 94リリース（2021年9月22日）に予定されている差し迫った変更により、次の変更はChrome 94以降のブラウザーバージョンを使用するすべてのユーザーに影響します。
@@ -36,7 +36,7 @@ ht-degree: 49%
 
 **Chrome 80（2020年8月）**:2020年8月に実装された変更により、Chrome 80以降のブラウザーバージョンを持つすべてのユーザーは、以下のようになります。
 
-* アクティビティの編集中に&#x200B;**&#x200B;が[!DNL Target]ライブラリをダウンロードできない（サイトにまだない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護されたAdobeドメインに向けておこなわれ、未認証として拒否されるからです。
+* アクティビティの編集中に&#x200B;**&#x200B;が[!DNL Target]ライブラリをダウンロードできない（サイトにまだない場合）。 これは、ダウンロード呼び出しが顧客ドメインからセキュリティで保護された[!DNL Adobe]ドメインに向かっておこなわれ、未認証として拒否されるからです。
 * EECは`adobemc.com domain`のcookieに対してSameSite属性を設定できないので、すべてのユーザーに対して&#x200B;**&#x200B;機能を実行しません。 この属性がない場合、ブラウザーはこれらのCookieを拒否し、EECが失敗します。
 
 ### ブロックされているCookieの特定
@@ -56,7 +56,7 @@ SameSite cookieの適用ポリシーが原因でブロックされているcooki
 
 ### Google VECヘルパー拡張機能
 
-Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに送信しました。 この拡張機能は、必要に応じてCookieの属性を上書きし、`SameSite="none"`属性を設定します。 [更新された拡張は、](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)で確認できます。 VECヘルパー拡張機能のインストールと使用について詳しくは、「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
+[!DNL Adobe] は、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに送信しました。この拡張機能は、必要に応じてCookieの属性を上書きし、`SameSite="none"`属性を設定します。 [更新された拡張は、](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)で確認できます。 VECヘルパー拡張機能のインストールと使用について詳しくは、「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。
 
 独自のサイトのcookieに対して、名前でcookieを指定する必要があります。
 
@@ -74,7 +74,7 @@ Adobeは、更新されたVECヘルパー拡張機能をGoogle Chrome Storeに�
 
 * 更新された[VECヘルパー拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)をダウンロードして使用します。
 * Mozilla Firefoxブラウザーを使用します。 Firefoxは、このポリシーを適用していません。
-* 2021年9月22日までの間にコマンドラインからGoogle Chromeを実行するには、次のフラグを使用します。 9月21日以降、WebサイトはVECで機能しなくなります。 Chrome 94にアップデートした場合は、Webサイト上で`SameSite=none`と`Secure`のCookieを手動で生成する必要があります。
+* 2021年9月22日までの間にコマンドラインからGoogle Chromeを実行するには、次のフラグを使用します。 9月22日以降、ログインやcookieの同意のポップアップなど、cookieを必要とする機能はVECで動作しなくなります。 Chrome 94にアップデートした場合は、Webサイト上で`SameSite=none`と`Secure`のCookieを手動で生成する必要があります。
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
