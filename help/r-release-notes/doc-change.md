@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Targetのドキュメントの更新はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 97%
+source-wordcount: '1920'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 月 23 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 詳細を説明するために、次の節を更新しました。<ul><li>Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？</li></ul> |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エクスペリエンス」の下に新しい節「エクスペリエンスごとの変更」を追加しました。 |
 | 7 月 21 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 次の節を更新しました。<ul><li>Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？</li></ul> |
 | 7 月 19 日（PT）  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | イベントコード —1または65535に関する情報を追加しました。 |
 | 7 月 16 日（PT）  | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)<br><br>[およびat.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 リリースに関する情報を追加しました。 |
