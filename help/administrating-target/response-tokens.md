@@ -1,13 +1,13 @@
 ---
 keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
-description: Adobe [!DNL Target] 出力固有の情報でレスポンストークンを使用し、デバッグやサードパーティツールとの統合を行う方法について説明します。
+description: ' [!DNL Adobe Target] でレスポンストークンを使用して、デバッグやサードパーティツールとの統合に関する固有の情報を出力する方法を説明します。'
 title: レスポンストークンとは何ですか？それらの使用方法を教えてください。
 feature: 管理と設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 27%
 
 レスポンストークンは、[!DNL Target] [!UICONTROL 管理者]の役割を持つユーザーのみが有効化または無効化できます。
 
-**[!DNL Platform Web SDK] 2.6.0（またはそれ以前）を実行している場合はどうなりますか？
+**[!DNL Platform Web SDK] 2.6.0（またはそれ以前）を実行している場合はどうなりますか。**
 
 レスポンストークンへのアクセス権がありません。
 
