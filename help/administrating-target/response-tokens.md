@@ -5,7 +5,7 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: 管理と設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ ht-degree: 27%
 
 [!DNL Target]応答をリッスンしレスポンストークンを読み取るプロセスは、[!DNL Platform Web SDK]実装かat.js実装かによって異なります。
 
-### ![Handleオブジェクトク](/help/assets/platform.png) [!DNL Platform Web SDK] ラスを使用したAdobe Experience Platform Web SDKバッジ
+### ![Handleオブジェクトク](/help/assets/platform.png) [!DNL Platform Web SDK] ラスを使用したAdobe Experience Platform Web SDKバッジ {#platform-web-sdk}
 
 メタデータオブジェクトとデータオブジェクトを持つHandleオブジェクトクラスを使用して、[!DNL Target]応答をリッスンし、レスポンストークンを読み取ります。
 
