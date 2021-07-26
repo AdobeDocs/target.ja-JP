@@ -1,13 +1,13 @@
 ---
-keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス
+keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス；platform web sdk
 description: ' [!DNL Adobe Target] でレスポンストークンを使用して、デバッグやサードパーティツールとの統合に関する固有の情報を出力する方法を説明します。'
 title: レスポンストークンとは何ですか？それらの使用方法を教えてください。
 feature: 管理と設定
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---
