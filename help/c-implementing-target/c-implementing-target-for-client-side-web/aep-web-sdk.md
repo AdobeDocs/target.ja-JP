@@ -5,9 +5,9 @@ title: Experience PlatformWeb SDKを使用してを実装する方法を教え�
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,6 @@ ht-degree: 4%
 
 | トピック | 説明 |
 | --- | --- |
-| [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!DNL Adobe Target]のQA URLを使用して、変更のないプレビューリンク、オプションのオーディエンスターゲティング、ライブアクティビティデータからセグメント化されたまま残るQAレポートを使用して、簡単なエンドツーエンドのアクティビティQAを実行します。 [!UICONTROL アクティビテ] ィQAを使用すると、アクティビティをライ [!DNL Target] ブに開始する前に、完全にテストできます。<br>詳しくは、 [Target JavaScriptライブラリQAモ [!UICONTROL デコンパティビ] リティ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility)を参照してください。 |
+| [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!DNL Adobe Target]のQA URLを使用すると、変更されないプレビューリンク、オプションのオーディエンスターゲティング、ライブアクティビティデータからセグメント化されたQAレポートを使用して、エンドツーエンドの簡単なアクティビティQAを実行できます。 [!DNL Target]アクティビティを実稼動環境に起動する前に、完全にテストします。<br>詳しくは、 [Target JavaScriptライブラリQAモ [!UICONTROL デコンパティビ] リティ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility)を参照してください。 |
 | [レスポンストークン](/help/administrating-target/response-tokens.md) | レスポンストークンを使用して、TargetのデータをGoogle Analyticsや他のサードパーティ統合に送信できます。<br>Platform Web SDKを使 [用したGoogle Analyticsへのデータ送信](/help/administrating-target/response-tokens.md#platform-web-sdk)を参照してください。 |
 
