@@ -1,13 +1,13 @@
 ---
 keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
 description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。
-title: Targetのドキュメントの更新はどこで確認できますか？
+title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
+source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 94%
+source-wordcount: '1971'
+ht-degree: 97%
 
 ---
 
@@ -19,13 +19,14 @@ ht-degree: 94%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 月 28 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 以下のセクションを追加しました。<ul><li>このガイドの推奨ドキュメント</li></ul> |
 | 7 月 26 日（PT）  | [『 ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform Web SDK概要ガイド』でのPlatform Web SDKでのAdobe Targetの ** 使用 | 次の新しいセクションを追加しました。<ul><li>Platform Web SDKのシステム図</li></ul> |
-| 7 月 23 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 詳細を説明するために、次の節を更新しました。<ul><li>Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？</li></ul> |
+| 7 月 23 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 詳細を説明するために、次の節を更新しました。<ul><li>Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？</li></ul> |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エクスペリエンス」の下に新しい節「エクスペリエンスごとの変更」を追加しました。 |
-| 7 月 21 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 次の節を更新しました。<ul><li>Google Chrome SameSite cookieの適用ポリシーは、VECとEECにどのような影響を与えますか？</li></ul> |
-| 7 月 19 日（PT）  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | イベントコード —1または65535に関する情報を追加しました。 |
-| 7 月 16 日（PT）  | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)<br><br>[およびat.jsバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 リリースに関する情報を追加しました。 |
-|  | [[!UICONTROL Experience Composer の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)に関連する問題のトラブルシューティング | IPアドレスのリストを更新し、し許可リストました。 |
+| 7 月 21 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 以下の節が更新されました。<ul><li>Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？</li></ul> |
+| 7 月 19 日（PT）  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | イベントコード - 1 または 65535 に関する情報が追加されました。 |
+| 7 月 16 日（PT）  | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 リリースに関する情報を追加しました。 |
+|  | [[!UICONTROL Experience Composer の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)に関連する問題のトラブルシューティング | 許可リストに加える IP アドレスのリストが更新されました。 |
 | 7 月 12 日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analytics と [!DNL Adobe Target] の統合による顕著な ROI、インサイト、時間節約の定量化。</li><li>2021 年 7 月 21 日水曜日午前 8 時（PDT、GMT-7）に開催される [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク。</li></ul> |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次の FAQ を追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API 呼び出し」の節のテキストを更新しました。 |
