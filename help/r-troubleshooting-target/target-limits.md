@@ -5,9 +5,9 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 91%
 
 ## コンテンツ配信 {#content-delivery}
 
-* **制限**:同時に100件のコン [!DNL Target] テンツ配信リクエスト。
+* **制限**:ユーザーセッショ [!DNL Target] ンあたり100件の同時コンテンツ配信リクエスト
 
    特定のユーザーセッションに対する同時[!DNL Target]コンテンツ配信要求が100件を超える場合、そのユーザーセッションに対する以降の要求はすべてブロックされます。 いずれかの要求に対する応答を受信する前に、すべての要求が[!DNL Target]サーバーに送信される場合、2つ以上の要求が同時に送信されると見なされます。 [!DNL Target] は、同じセッションに対する同時要求を連続して処理します。
 
