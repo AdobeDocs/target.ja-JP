@@ -5,10 +5,10 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ ht-degree: 99%
 ## categoryId パラメーター
 
 * **上限**：250 文字。
+
+## コンテンツ配信 {#content-delivery}
+
+* **制限**:同時に100件のコン [!DNL Target] テンツ配信リクエスト。
+
+   特定のユーザーセッションに対する同時[!DNL Target]コンテンツ配信要求が100件を超える場合、そのユーザーセッションに対する以降の要求はすべてブロックされます。 いずれかの要求に対する応答を受信する前に、すべての要求が[!DNL Target]サーバーに送信される場合、2つ以上の要求が同時に送信されると見なされます。 [!DNL Target] は、同じセッションに対する同時要求を連続して処理します。
+
+* **エラーの動作**:
+
+   * Delivery APIとBatch Mbox v2:
+      * エラーコード：HTTP 420 Too Many Requests
+      * エラーメッセージ：「同じセッションIDを持つ要求が多すぎます」
+   * 従来のmbox API:
+      * コメント「同じセッションIDを持つ要求が多すぎます」を含むデフォルトコンテンツ
+   * at.js:
+      * 表示されるデフォルトコンテンツ
+
+
 
 ## 顧客属性
 
