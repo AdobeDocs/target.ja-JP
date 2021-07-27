@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]の[!UICONTROL オーディエンス]リスト
 title: オーディエンスリストの使用方法
 feature: オーディエンス
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 31%
@@ -30,7 +30,7 @@ ht-degree: 31%
 
    [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [ Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する場合は、[!DNL Analytics] 内でレポート用オーディエンスを設定する必要があります。
 
-## [!UICONTROL オーディエンス]リストを使用します
+## [!UICONTROL オーディエンス]リストを使用します {#use-list}
 
 [!UICONTROL オーディエンス]リストにアクセスするには、上部のメニューバーで「**[!UICONTROL オーディエンス]**」をクリックします。
 
