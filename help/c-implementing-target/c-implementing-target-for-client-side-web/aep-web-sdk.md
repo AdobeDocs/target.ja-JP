@@ -5,10 +5,10 @@ title: Experience PlatformWeb SDKを使用してを実装する方法を教え�
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
+source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 7%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
@@ -32,4 +32,5 @@ ht-degree: 7%
 | [オーディエンス](/help/c-target/target.md) | [!DNL Adobe Target]のオーディエンスは、誰がターゲットアクティビティでコンテンツやエクスペリエンスを表示するかを決定します。<br>詳しく [は、オーディエンスリス](/help/c-target/c-audiences/audiences.md#use-list) トの使 [用複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md)を参照してください。 |
 | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | リダイレクトオファーを使用すると、訪問者のブラウザーが新しいページにリダイレクトされます。<br>「 A4T [用のサ [!DNL Adobe Experience Platform Web SDK] ポートされたリダイレクトオファーはありますか？](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [レスポンストークン](/help/administrating-target/response-tokens.md) | レスポンストークンを使用して、TargetのデータをGoogle Analyticsや他のサードパーティ統合に送信できます。<br>このタス [クを実行する方法のコードサンプルについては、「 Platform Web SDKを](/help/administrating-target/response-tokens.md#platform-web-sdk) 使用したGoogle Analyticsへのデータ送信」を参照してください。 |
+| [シングルページアプリケーションの実装](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web ] SDKは、シングルページアプリケーション(SPA)など、次世代のクライアント側テクノロジーでパーソナライゼーションを実行するための機能を提供します。<br>このトピックは、 *Platform Web SDKの概要ガイドに記載さ* れています。 |
 | [TLS（Transport Layer Security）暗号化の変更](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS(Transport Layer Security)は、最高のセキュリティ標準を維持し、顧客データの安全を促進するのに役立ちます。 |
