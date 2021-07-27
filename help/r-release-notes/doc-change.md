@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 60352fdc5279f546a2585506a7233ebaad25c41a
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1981'
 ht-degree: 97%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 7 月 28 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 以下のセクションを追加しました。<ul><li>このガイドの推奨ドキュメント</li></ul> |
-|  | [制限](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 次の新しいセクションを追加しました。<ul><li>コンテンツ配信</li></ul>  |
+| 7 月 28 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 次の新しいセクションを追加しました。<ul><li>推奨ドキュメント</li></ul> |
+|  | [制限](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 次の新しいセクションを追加しました。<ul><li>コンテンツ配信</li></ul> |
+|  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | 次の新しいセクションを追加しました。<ul><li>機能使用状況データの収集</li></ul> |
 | 7 月 26 日（PT）  | [『 ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform Web SDK概要ガイド』でのPlatform Web SDKでのAdobe Targetの ** 使用 | 次の新しいセクションを追加しました。<ul><li>Platform Web SDKのシステム図</li></ul> |
 | 7 月 23 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 詳細を説明するために、次の節を更新しました。<ul><li>Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？</li></ul> |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エクスペリエンス」の下に新しい節「エクスペリエンスごとの変更」を追加しました。 |
