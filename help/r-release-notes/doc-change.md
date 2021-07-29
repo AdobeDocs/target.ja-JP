@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 97%
+source-wordcount: '2036'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 月 29 日（PT）  | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target]コミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。2021年8月11日（水） |
+|  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 重要な注意事項を更新し、グローバルmboxをカスタマイズした後、VECで作成した、影響を受けるアクティビティを編集し、再保存する必要があることを示しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>拡張Experience Composer(EEC)は、拡張リクエストをサポートしていません。PUTリクエスト</li></ul> |
 | 7 月 28 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 次の新しいセクションを追加しました。<ul><li>推奨ドキュメント</li></ul> |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 次の新しいセクションを追加しました。<ul><li>コンテンツ配信</li></ul> |
-|  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | 次の新しいセクションを追加しました。<ul><li>機能使用状況データの収集</li></ul> |
 | 7 月 26 日（PT）  | [『 ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform Web SDK概要ガイド』でのPlatform Web SDKでのAdobe Targetの ** 使用 | 次の新しいセクションを追加しました。<ul><li>Platform Web SDKのシステム図</li></ul> |
 | 7 月 23 日（PT）  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 詳細を説明するために、次の節を更新しました。<ul><li>Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？</li></ul> |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エクスペリエンス」の下に新しい節「エクスペリエンスごとの変更」を追加しました。 |
