@@ -5,10 +5,10 @@ title: ' [!DNL Target] はプライバシーに関する問題をどのように
 feature: プライバシーとセキュリティ
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 58%
+source-wordcount: '669'
+ht-degree: 63%
 
 ---
 
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode.
 このリンクをクリックした訪問者は、Cookie を削除するか、最初に訪問してから 2 年経過するまで、閲覧しているセッションから呼び出される mbox リクエストに含まれません。`disableClient` ドメイン内の「`clientcode.tt.omtrdc.net`」という訪問者に Cookie が設定され、この機能が適用されます。
 
 ファーストパーティ Cookie の導入を使用している場合でも、提供されたオプトアウトは、サードパーティ Cookie を使用するように設定されます。クライアントがファーストパーティ Cookie のみを使用している場合は、オプトアウト Cookie が設定されているかどうかをチェックします。
-
-## 機能使用状況データの収集 {#feature-usage}
-
-[!DNL Adobe]内部の目的で個々の機能使用データを収集し、[!DNL Target]機能が意図したとおりに実行されているか、または使用されていない機能を識別します。 パフォーマンスに関する問題に対処するために、様々な遅延測定値が収集されます。 個人データは収集されません。
-
-設定ファイルの`telemetryEnabled`を`false`に設定すると、使用状況データのレポートをオプトアウトできます。
 
 ## プライバシーとデータ保護規制
 
