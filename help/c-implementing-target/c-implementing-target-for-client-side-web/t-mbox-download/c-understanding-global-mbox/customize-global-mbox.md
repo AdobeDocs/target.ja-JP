@@ -5,16 +5,16 @@ title: グローバルmboxのカスタマイズ方法
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # グローバル mbox のカスタマイズ
 
-at.jsのグローバルmboxをカスタマイズするのに役立つ情報を紹介します。
+at.jsの[!DNL Adobe Target]グローバルmboxをカスタマイズするのに役立つ情報を紹介します。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL 実装]**&#x200B;をクリックします。
 
@@ -40,4 +40,5 @@ at.jsのグローバルmboxをカスタマイズするのに役立つ情報を�
 
    >[!IMPORTANT]
    >
-   >アカウント内のすべてのアクティビティがこのmboxと同期します。 このmboxがサイト上にない場合、すべてのアクティビティが機能しなくなります。
+   >アカウント内のすべてのアクティビティがこのmboxと同期します。 アクティビティが引き続き機能するように、グローバルmboxがサイトに存在することを確認します。 このmboxと同期するVisual Experience Composer(VEC)で作成した、影響を受けるアクティビティを必ず編集し、再保存してください。 フォームベースのExperience Composerで作成されたアクティビティを再保存する必要はありません。また、APIを使用する必要もありません。
+
