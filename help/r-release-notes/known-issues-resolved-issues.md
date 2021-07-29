@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: リリースノート
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
-source-wordcount: '4390'
-ht-degree: 100%
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+workflow-type: tm+mt
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### 拡張Experience Composer(EEC)は、拡張リクエストをサポートしていません。PUTリクエスト
+
+EECの問題により、現在、EECでPUTリクエストがサポートされなくなり、504タイムアウトエラーが発生します。 （TGT-41493）
 
 ### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートに は表示されません。
 
