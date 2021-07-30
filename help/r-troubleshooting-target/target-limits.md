@@ -5,10 +5,10 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ ht-degree: 91%
 
 ## productPurchasedId パラメーター
 
-* **制限**：コンマ区切り値あたり 47 文字、合計 250 文字。47 文字を超える個々の値は、切り捨てられる場合があります。長さの合計が 250 文字を超えると、400 エラーとなる場合があります。
+* **制限**：コンマ区切り値あたり 50 文字、合計 250 文字。50文字を超える個々の値は、切り捨てられます。 合計の長さが250文字を超えると、400エラーが発生します。
 
 ## プロファイルスクリプト
 
