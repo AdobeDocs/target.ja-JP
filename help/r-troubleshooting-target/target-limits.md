@@ -5,10 +5,10 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ ht-degree: 90%
 
    複数値のカスタムエンティティ属性には、500 個以下の値を含めることができます。個々の値はそれぞれ 100 文字以内に制限されています。すべての値の文字数の合計は、単一値のカスタムエンティティ属性の最大値に準拠している必要があります（上記を参照）。
 
-### entityID パラメーター
+### entity.id
 
-* **上限**：1,000 文字。
+* **購入情報の取得が必要な実装の制限**:50文字。
+
+   この制限は、 `productPurchasedId` mboxパラメーターがentity.idsをキャプチャし、文字数を50に制限するので適用されます。
+
+* **表示ベースのアルゴリズムのみを必要とする実装の制限：** 1,000文字。
+
+   表示ベースのアルゴリズムには、表示/表示、最も多く閲覧された、最近閲覧されたなどが含まれます。
 
 ## excludedIds {#excludedid}
 
