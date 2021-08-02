@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2064'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月2日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4Tを使用した自動配分アクティビティのトラフィック配分</li></ul> |
 | 7 月 30 日  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
 | 7 月 29 日  | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target]コミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。2021年8月11日（水） |
 |  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 重要な注意事項を更新し、グローバルmboxをカスタマイズした後、VECで作成した、影響を受けるアクティビティを編集し、再保存する必要があることを示しました。 |
