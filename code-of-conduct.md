@@ -1,6 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: ht
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 # Adobe Codeの実施
@@ -31,8 +33,7 @@ translation-type: ht
 * 公開または非公開の嫌嫌
 * 住所やメール
 アドレスなどの個人情報を本人から明確な許可なく公開する行為
-* 
-職場では道理的に不適切と見なされるおそれのあるその他の行為
+* 職場では道理的に不適切と見なされるおそれのあるその他の行為
 
 ## アドビの責任
 
@@ -66,4 +67,4 @@ translation-type: ht
 
 ## アトリビューション
 
-この行動規範は、「[Contributor Covenant（貢献者協定）](https://contributor-covenant.org)」の第 1.4 版を参考にしています。（[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)）から入手できます。
+この行動規範は、「[Contributor Covenant（貢献者協定）](https://contributor-covenant.org)」の第 1.4 版を参考にしています。（[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)）。
