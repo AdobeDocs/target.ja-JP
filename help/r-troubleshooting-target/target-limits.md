@@ -5,7 +5,7 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: トラブルシューティング
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ ht-degree: 87%
 
 ## categoryId パラメーター
 
-* **上限**：250 文字。
+* **上限**：256 文字。
 
 ## コンテンツ配信 {#content-delivery}
 
@@ -196,7 +196,7 @@ ht-degree: 87%
 
    **配信 API エンドポイント**：
 
-   * mbox パラメーター 50
+   * mbox パラメーター 100
    * mbox パラメーター名の最大の長さは 128 です。
    * mbox パラメーター値を null にすることはできません
    * mbox パラメーター値 5000
