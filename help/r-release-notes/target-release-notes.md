@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 74%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 74%
 
 このリリースで強化された機能は次のとおりです。
 
-* mboxパラメーターの制限が100パラメーターに増えました。 以前の制限は50パラメーターでした。
+* mboxパラメーターの制限が100パラメーターに増えました。 以前の制限は50パラメーターでした。 （TNT-41717）
 * `categoryId`の制限が256文字に増えました。 以前の上限は128文字でした。
 * Delivery APIに次の[!DNL Adobe Audience Manager](AAM)の詳細が追加されました。
 
