@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2101'
 ht-degree: 96%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 8 月 4 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!DNL Target Standard/Premium] 21.8.1リリース（2021年8月5日）に関する情報を追加しました。 |
+| 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!DNL Target Standard/Premium] 21.8.1リリース（2021年8月5日）に関する情報を追加しました。 |
 | 8月2日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4Tを使用した自動配分アクティビティのトラフィック配分</li></ul> |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
 | 7 月 30 日  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
