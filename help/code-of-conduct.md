@@ -1,7 +1,6 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -34,8 +33,7 @@ ht-degree: 100%
 * 公開または非公開の嫌嫌
 * 住所やメール
 アドレスなどの個人情報を本人から明確な許可なく公開する行為
-* 
-職場では道理的に不適切と見なされるおそれのあるその他の行為
+* 職場では道理的に不適切と見なされるおそれのあるその他の行為
 
 ## アドビの責任
 
