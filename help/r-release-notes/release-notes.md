@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 90%
+source-wordcount: '739'
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 90%
 * `categoryId`の制限が256文字に増えました。 以前の上限は128文字でした。
 * Delivery APIに次の[!DNL Adobe Audience Manager](AAM)の詳細が追加されました。
 
-   * AAM UUID(Adobe Audience Managerの一意のユーザーID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID:ユーザーを一意に識別するために使用される内部AAM ID。
+   * dataPartnerId:データパートナーのID。
+   * dataPartnerUserId:データパートナーから提供されたユーザーID。
 
    以前は、Delivery APIには`dcsLocationHint`と`blob`のみが含まれていました。 （TNT-41644）
 
