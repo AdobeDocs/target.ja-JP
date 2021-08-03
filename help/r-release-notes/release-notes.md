@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 100%
 >サイトに起こりうる問題を回避するため、新しい [!DNL Adobe Experience Platform Web SDK] の最新バージョンまたは at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## Target Delivery API（2021年8月4日）
+
+このリリースで強化された機能は次のとおりです。
+
+* mboxパラメーターの制限が100パラメーターに増えました。 以前の制限は50パラメーターでした。 （TNT-41717）
+* `categoryId`の制限が256文字に増えました。 以前の上限は128文字でした。
+* Delivery APIに次の[!DNL Adobe Audience Manager](AAM)の詳細が追加されました。
+
+   * AAM UUID(Adobe Audience Managerの一意のユーザーID)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   以前は、Delivery APIには`dcsLocationHint`と`blob`のみが含まれていました。 （TNT-41644）
 
 ## at.js 2.6.0（2021 年 7 月 16 日（PT））
 
