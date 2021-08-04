@@ -5,9 +5,9 @@ title: targetGlobalSettings()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2317'
 ht-degree: 30%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 30%
 
 * **型**:Boolean
 * **デフォルト値**:false
-* **説明**: [!DNL Target] では、お客様の同意管理戦略を支援できるよ [!DNL Adobe Platform Launch] うに、を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Platform Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] at.jsライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true`設定を追加します。 [!DNL Platform Launch]で、Launch拡張機能のインストール表示の「[!UICONTROL GDPRオプトイン]」ドロップダウンリストから「有効」を選択する必要があります。 詳しくは、[Platform launchのドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を参照してください。
+* **説明**: [!DNL Target] では、お客様の同意管理戦略を支援できるよ [!DNL Adobe Platform Launch] うに、を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Platform Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] at.jsライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true`設定を追加します。 [!DNL Platform Launch]で、Launch拡張機能のインストール表示の「[!UICONTROL GDPRオプトイン]」ドロップダウンリストから「有効」を選択する必要があります。 詳しくは、[Platform launchのドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を参照してください。 この設定は、欧州連合の一般データ保護規則(GDPR)やカリフォルニア州消費者プライバシー法(CCPA)などのプライバシーおよびデータ保護規則に関連するので、詳しくは、[プライバシーとデータ保護規則](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。
 
 ### optoutEnabled
 
