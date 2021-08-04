@@ -4,16 +4,16 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Target リリースノート（現行）
 
-これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。 
+これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、その他のプラットフォームの変更点に関するリリースノートも含まれています。
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,13 @@ ht-degree: 88%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## Target Delivery API（2021年8月4日）
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月5日）
+
+このメンテナンスリリースには、お客様向けの次の変更を含む、多くのバックエンドの機能強化が含まれています。
+
+* [!UICONTROL フォームベースのExperience Composer]で作成された[!UICONTROL 自動パーソナライゼーション]アクティビティのレポートで、削除されたオファーがレポートで参照される問題を修正しました。 この問題が発生すると、「このレポートのデータを取得できません。 問題が解決しない場合は、AdobeのClientCareにお問い合わせください。」 （TGT-41028）
+
+## [!DNL Target Delivery API] (2021 年 8 月 3 日（PT）)
 
 このリリースで強化された機能は次のとおりです。
 
@@ -37,7 +43,7 @@ ht-degree: 88%
 
    以前は、Delivery APIには`dcsLocationHint`と`blob`のみが含まれていました。 （TNT-41644）
 
-## at.js 2.6.0（2021 年 7 月 16 日（PT））
+## at.js 2.6.0（2021 年 7 月 27 日（PT））
 
 * at.js 設定 `secureOnly` が `true` に設定されている場合は常にセキュア属性を cookie に追加するようになりました。
 * `triggerView()` を使用する際に応答トークンを使用できるようになりました。
@@ -47,32 +53,11 @@ ht-degree: 88%
 * `sessionId` cookie の有効期限は、すべてのネットワーク呼び出しで正しく延長されます。
 * [!UICONTROL 単一ページアプリケーション]（SPA）ビューキャッシュの初期化が正しく処理され、`viewsEnable` 設定に従うようになりました。
 
-## [!DNL Target Standard/Premium] 21.6.1（2021 年 6 月 30 日）
-
-このリリースには、次の新機能および機能強化が含まれています。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
-
-| 機能 | 詳細 |
-| --- | --- |
-| [!UICONTROL Analytics for Target]（A4T） | [!DNL Analytics] をレポートソースとして使用するアクティビティ（A4T）から、[!UICONTROL レポート]ページの「[!UICONTROL Analytics で表示]」リンクをクリックすると、[!DNL Analysis Workspace] が開くようになりました。以前は、このリンクをクリックすると、[!DNL Analytics] レポートが開きました。 （TGT-36959） |
-
-## Python SDK 1.0.0（2021年6月16日（PT））
-
-デバイス上の判定機能を備えた新しい [!DNL Adobe Target] Python SDK が利用可能になりました。今回の最新の追加により、サーバー側 SDK の [!DNL Target] スイートが強化されます。これらの SDK は、選択した言語で [!DNL Target] と統合し、価値を生み出すまでの時間を短縮するのに役立ちます。サーバー側の統合は、市場がファーストパーティのデータが価値のある cookie のない世界に移行していることから、人気のある選択肢になりつつあります。Target SDK は、市場で最も人気のあるプログラミング言語（Python、Java、JavaScript、C#/.Net）で利用できます。
-
-詳しくは、[Adobe Target SDK ガイド](https://adobetarget-sdks.gitbook.io/docs/)の [Python SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)を参照してください。
-
-## ![Adobe Experience Platform Web SDK バッジ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]バージョン 2.5.0（2021 年 6 月 1 日（PT））
-
-このリリースの [!DNL Platform Web SDK] には、次のサポートが含まれています。
-
-| 機能 | 詳細 |
-| --- | --- |
-| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for  [!DNL Target]  の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
-
 ## その他のリリースノートとバージョンの詳細
 
 | リソース | 詳細 |
 |--- |--- |
+| [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Platform Web SDKの各バージョンの変更点に関する詳細です。 |
 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート
