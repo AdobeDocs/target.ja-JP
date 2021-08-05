@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: リリースノート
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 58%
+source-wordcount: '354'
+ht-degree: 59%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 58%
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月5日）
+## [!DNL Target Standard/Premium] 21.8.1（日付は未定）
 
 このメンテナンスリリースには、お客様向けの次の変更を含む、多くのバックエンドの機能強化が含まれています。
 
