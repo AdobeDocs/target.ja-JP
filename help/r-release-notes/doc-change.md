@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2108'
 ht-degree: 96%
 
 ---
@@ -15,17 +15,11 @@ ht-degree: 96%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## Adobe [!DNL Target] Standard／Premium 21.8.1（2021 年 8 月 4 日）
-
-| 日付 | トピック | 変更点 |
-| --- | --- | --- |
-| 8 月 5 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 設定に関する情報を追加しました。 |
-|  | [Targetリリースノート（現行）](/help/r-release-notes/release-notes.md):21.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
-
 ## Adobe [!DNL Target] Standard／Premium 21.6.1（2021 年 6 月 30 日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8 月 5 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 設定に関する情報を追加しました。 |
 | 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!DNL Target Standard/Premium] 21.8.1リリース（2021年8月5日）に関する情報を追加しました。 |
 | 8月2日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4Tを使用した自動配分アクティビティのトラフィック配分</li></ul> |
