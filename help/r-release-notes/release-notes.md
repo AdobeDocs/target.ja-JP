@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月5日）
+## [!DNL Target Standard/Premium] 21.8.1（日付は未定）
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 21.8.1リリースが遅れました。 2021年8月4日にリリースされる代わりに、バージョン21.8.1は、今後数日以内にリリースされます。 詳細は、利用可能な場合に表示されます。
 
 このメンテナンスリリースには、お客様向けの次の変更を含む、多くのバックエンドの機能強化が含まれています。
 
