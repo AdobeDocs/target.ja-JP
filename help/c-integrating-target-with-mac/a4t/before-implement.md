@@ -4,14 +4,14 @@ description: Analytics for [!DNL Target] (A4T)の実装要件と、この統合�
 title: A4Tを実装する前に知っておくべきことは何ですか？
 feature: Analytics for Target（A4T）
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 25%
+source-wordcount: '882'
+ht-degree: 26%
 
 ---
 
-# at.jsを使用してAnalytics for Target(A4T)を実装する前に
+# at.js を使用して Analytics for Target（A4T）を実装する前に
 
 [!DNL Adobe Target]のレポートソースとして[!DNL Adobe Analytics]を有効にする場合(A4T)、データ収集プロセスでいくつかの変更がおこなわれました。
 
@@ -43,7 +43,9 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン2.3.0
 
-   **注意：**  at.js 1.8.0以降は、(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりま [!DNL Adobe Audience Manager] した。
+   >[!NOTE]
+   >
+   >at.js 1.8.0以降およびat.js 2.x以降は、Adobe Audience Manager(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりました。
 
 * [!DNL Adobe Target]: at.js バージョン 1.6.2
 
