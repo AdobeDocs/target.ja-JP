@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 95%
+source-wordcount: '2172'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8 月 7 日 | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 次の注意を更新しました。<ul><li>at.js 1.8.0以降およびat.js 2.x以降は、Adobe Audience Manager(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりました。</li></ul> |
 | 8 月 6 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1リリースが遅れたことを示す注記を追加しました。 |
 |  | [自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL 自動配分]アクティビティを通じて、レポートソースを途中で変更することはできますか？</li></ul> |
 | 8 月 5 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 設定に関する情報を追加しました。 |
