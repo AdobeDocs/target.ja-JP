@@ -33,7 +33,7 @@ ht-degree: 26%
 
 この統合で、A4T でのリダイレクトオファーを使用しない場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.jsバージョン1.8.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン1.8.0
 * [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
@@ -41,7 +41,7 @@ ht-degree: 26%
 
 A4T でリダイレクトオファーを使用する場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.jsバージョン2.3.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.jsバージョン2.3.0
 
    >[!NOTE]
    >
