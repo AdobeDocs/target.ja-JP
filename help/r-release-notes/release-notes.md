@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含ま
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 65%
+source-wordcount: '705'
+ht-degree: 62%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 65%
 >サイトに起こりうる問題を回避するため、新しい [!DNL Adobe Experience Platform Web SDK] の最新バージョンまたは at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## [!DNL Target] node.js SDK 2.1.8（2021年8月12日）
+
+* SDK遠隔測定データ収集を追加しました
+* 自動配信APIクライアントのOpenApiコード生成
+
+このリリースおよび以前のリリースについて詳しくは、Githubの[Target node.js SDKドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
 
 ## [!DNL Target Standard/Premium] 21.8.1（日付は未定）
 
