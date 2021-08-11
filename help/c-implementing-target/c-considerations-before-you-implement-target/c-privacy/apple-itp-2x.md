@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP；インテリジェントトラッキング防止；experience cloud id;ecid
+keywords: apple;ITP；インテリジェントトラッキング防止；experience cloud id;ecid;itp
 description: Adobe [!DNL Target] と、Safariユーザーのプライバシーを保護しようとするApple Intelligent Tracking Prevention(ITP)イニシアチブの影響について説明します。
 title: ' [!DNL Target] Apple ITPのサポートの処理方法'
 feature: プライバシーとセキュリティ
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---
