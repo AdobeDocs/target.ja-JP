@@ -5,7 +5,7 @@ landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含ま
 title: 現在のリリースに含まれる新機能
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 62%
@@ -24,7 +24,7 @@ ht-degree: 62%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## [!DNL Target] node.js SDK 2.1.8（2021年8月12日）
+## [!DNL Target] node.js SDK 2.2.0（2021年8月12日）
 
 * SDK遠隔測定データ収集を追加しました
 * 自動配信APIクライアントのOpenApiコード生成
