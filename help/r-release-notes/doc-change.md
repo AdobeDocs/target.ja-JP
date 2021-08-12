@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2194'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 8月12日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDKのリリースノートを追加しました。 |
+| 8月12日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDKバージョン2.2.0のリリースノートを追加しました。 |
 | 8月9日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | トピックを更新しました。 |
 | 8 月 7 日 | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 次の注意を更新しました。<ul><li>at.js 1.8.0以降およびat.js 2.x以降は、Adobe Audience Manager(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりました。</li></ul> |
 | 8 月 6 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1リリースが遅れたことを示す注記を追加しました。 |
