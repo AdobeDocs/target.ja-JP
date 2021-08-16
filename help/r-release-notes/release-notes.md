@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含ま
 title: 現在のリリースには、どの新機能が含まれますか？
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 60%
+source-wordcount: '721'
+ht-degree: 59%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 60%
 >サイトに起こりうる問題を回避するため、新しい [!DNL Adobe Experience Platform Web SDK] の最新バージョンまたは at.js JavaScript ライブラリの最新バージョンに移行してください。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## at.js 2.6.1（2021年8月17日）
+
+* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」のバグを修正しました。
 
 ## [!DNL Target] node.js SDK 2.2.0（2021年8月12日）
 
