@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] at.js JavaScriptライブラリの各バージ�
 title: at.jsの各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4232'
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,19 @@ ht-degree: 0%
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchは、at.jsをアップグレードするのに推奨される方法です。拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、アップグレードとして[!DNL Launch]カタログで使用できるようになります。 詳しくは、『*Experience Platform Launchユーザーガイド*』の「[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)」を参照してください。
 
-## at.js 2.6.0（2021年7月17日）
+## at.js 2.6.1（2021年8月17日）
 
-* at.js設定`secureOnly`が`true`に設定された場合は常に、セキュア属性がcookieに追加されました。
-* `triggerView()`を使用する際にレスポンストークンを使用できるようになりました。
-* `CONTENT_RENDERING_NO_OFFERS`イベントに関連する問題を修正しました。 現在は、[!DNL Target]からコンテンツが返されない場合は常にこのイベントが正しくトリガーされます。
-* [!DNL Anlytics for Target] (A4T)クリック指標の詳細は、リクエストを使用する際に正しく返さ `prefetch` れます。
-* UUID生成は、`Math.random()`を使用しなくなりましたが、`window.crypto`を使用します。
-* `sessionId` cookieの有効期限は、すべてのネットワーク呼び出しで正しく拡張されます。
-* [!UICONTROL 単一ページアプリケーション](SPA)ビューキャッシュの初期化が正しく処理され、`viewsEnable`設定に従うようになりました。
+* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」のバグを修正しました。
+
+## at.js 2.6.0（2021 年 7 月 16 日（PT））
+
+* at.js 設定 `secureOnly` が `true` に設定されている場合は常にセキュア属性を cookie に追加するようになりました。
+* `triggerView()` を使用する際に応答トークンを使用できるようになりました。
+* `CONTENT_RENDERING_NO_OFFERS` イベントに関連する問題を修正しました。これで、[!DNL Target] からコンテンツが返されない場合は常に、このイベントが正しくトリガーされます。
+* `prefetch` リクエストを使用したときに、[!DNL Anlytics for Target]（A4T）のクリック指標の詳細が正しく返されます。
+* UUID の生成では、`Math.random()` を使用しなくなり、`window.crypto` に基づくようになりました。
+* `sessionId` cookie の有効期限は、すべてのネットワーク呼び出しで正しく延長されます。
+* [!UICONTROL 単一ページアプリケーション]（SPA）ビューキャッシュの初期化が正しく処理され、`viewsEnable` 設定に従うようになりました。
 
 ## at.js 2.5.0（2021年5月14日）
 
