@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
 workflow-type: tm+mt
 source-wordcount: '2214'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 93%
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!DNL Target Standard/Premium] 21.8.1リリース（2021年8月5日）に関する情報を追加しました。 |
 | 8月2日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4Tを使用した自動配分アクティビティのトラフィック配分</li></ul> |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
-| 7 月 30 日  | [制限](/help/r-troubleshooting-target/target-limits.md) | 次の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
-| 7 月 29 日  | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target]コミュニティQ&amp;Aコーヒーブレークに関する情報を追加しました。2021年8月11日（水） |
-|  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 重要な注意事項を更新し、グローバルmboxをカスタマイズした後、VECで作成した、影響を受けるアクティビティを編集し、再保存する必要があることを示しました。 |
-|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>拡張Experience Composer(EEC)は、拡張リクエストをサポートしていません。PUTリクエスト</li></ul> |
+| 7 月 30 日  | [制限](/help/r-troubleshooting-target/target-limits.md) | 以下の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
+| 7 月 29 日  | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク（2021年8月11日 水曜日（PT））に関する情報を追加しました。 |
+|  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | グローバル mbox をカスタマイズした後、VEC で作成された影響を受けるアクティビティを編集して再保存する必要があることを示すために、重要な注意事項を更新しました。 |
+|  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>拡張 Experience Composer（EEC）は、PUT リクエストをサポートしていません。</li></ul> |
 | 7 月 28 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 次の新しいセクションを追加しました。<ul><li>推奨ドキュメント</li></ul> |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 次の新しいセクションを追加しました。<ul><li>コンテンツ配信</li></ul> |
 | 7 月 26 日  | *Adobe Experience Platform web SDK 概要*&#x200B;ガイドの [Platform web SDK での Adobe Target の使用](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ja) | 次の新しいセクションを追加しました。<ul><li>Platform web SDK のシステム図</li></ul> |
