@@ -5,9 +5,9 @@ title: ' [!DNL Target] のお知らせやイベントについて'
 feature: リリースノート
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
 
-* **2021年8月11日水曜日**
+* **2021年8月11日 水曜日（PT）**
 * **午前 8 時（PDT、UTC-7）**
-* **[詳細および登録については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742)。**
+* **[詳細および登録については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742?lang=ja)。**
 
-[!DNL Adobe Target]の主要ソリューションコンサルタント、James McTiernanは、[!DNL Target]内の専門知識に関するお客様の質問に回答します。
+[!DNL Adobe Target] のプリンシパルソリューションコンサルタントであるジェームズ マクティアナンが、[!DNL Target] の専門分野に関する顧客からの質問に答えます。
 
 * Recommendations
-* A/Bおよび多変量分析(MVT)テスト
+* A/B および多変量（MVT）テスト
 * パーソナライゼーション
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
