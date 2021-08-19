@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 97%
 
 サポートされる目標指標とサポートされない目標指標のリストについては、[自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。（TNT-38409）
 
-### 拡張Experience Composer(EEC)は、拡張リクエストをサポートしていません。PUTリクエスト
+### 拡張 Experience Composer（EEC）は、PUT リクエストをサポートしていません。
 
-EECの問題により、現在、EECでPUTリクエストがサポートされなくなり、504タイムアウトエラーが発生します。 （TGT-41493）
+EEC の問題により、現在、EEC で PUT リクエストがサポートされなくなり、504 タイムアウトエラーが発生します。（TGT-41493）
 
 ### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートに は表示されません。
 
