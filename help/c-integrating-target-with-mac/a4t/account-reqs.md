@@ -1,14 +1,13 @@
 ---
 keywords: レポートソースとしてのAnalytics;a4t;A4T；要件
-description: Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)で、Adobe Analyticsベースのアクティビティを作成するのに必要なユーザーアカウント要件を設定する方法を説明します。
+description: Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)でAdobe Analyticsベースのアクティビティを作成するために必要なユーザーアカウント要件を設定する方法を説明します。
 title: A4Tに必要なユーザー権限の要件を教えてください。
 feature: Analytics for Target（A4T）
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,23 +28,23 @@ ht-degree: 36%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[組織とアカウントのリンク](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)を参照してください。
+詳しくは、[組織とアカウントのリンク](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-詳しくは、[Experience Cloudユーザーと製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)を参照してください。
+詳しくは、「[Experience Cloudユーザーと製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)」を参照してください。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権を持っており、[!DNL Web Services Access]グループにアクセス権を付与している必要があります。
+特定のレポートスイートでA4Tを使用するには、そのレポートスイートへのアクセス権を持ち、[!DNL Web Services Access]グループに対するアクセス権を付与する必要があります。
 
-1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、**[!UICONTROL 権限]**&#x200B;タブをクリックします。
+1. **[!UICONTROL Admin Console]**&#x200B;で、[!DNL Analytics]製品プロファイルをクリックし、「**[!UICONTROL 権限]**」タブをクリックします。
 
-   その後、プロファイルがアクセス権を持つレポートスイートを確認できます。
+   その後、プロファイルがアクセスできるレポートスイートを確認できます。
 
-1. [!DNL Target]内のアクセス権を持つレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つであることを確認します。
+1. [!DNL Target]でアクセスするレポートスイートが、所属する製品プロファイルにリストされているレポートスイートの1つであることを確認します。
 
    次の図は、すべてのレポートスイートにアクセスできる製品プロファイルの例です。
 
@@ -53,7 +52,7 @@ ht-degree: 36%
 
 1. [!UICONTROL Webサービスアクセス]グループへのアクセスを設定します。
 
-   [!DNL Analytics]の[!UICONTROL Web Services Access]グループへのアクセスは、[!DNL Target]のレポートソースとして[!DNL Analytics]を使用できるようにする必要があります。
+   [!DNL Target]のレポートソースとして[!DNL Analytics]を使用するには、[!DNL Analytics]の[!UICONTROL Webサービスアクセス]グループへのアクセスが必要です。
 
 
 ## アドビ [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
