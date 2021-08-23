@@ -5,7 +5,7 @@ title: adobe.target.getOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドで許容されるタイプについては、 [Delivery APIのドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
+>以下に示すすべてのフィールドで許容されるタイプについては、 [Delivery APIのドキュメント](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
 
 | フィールド名 | 必須？ | 制限事項 | 説明 |
 | --- | --- | --- | --- |
