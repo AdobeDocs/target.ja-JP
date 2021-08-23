@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] アクティビティでAEMエクスペリエ�
 title: Adobe Experience Manager(AEM)エクスペリエンスフラグメントの使用方法を教えてください。
 feature: エクスペリエンスとオファー
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 21%
@@ -47,9 +47,9 @@ ht-degree: 21%
 詳しくは、次を参照してください。
 
 * **Adobe I/O**: [『管理ユーザガイド』のドキュメントで、AdobeI/0を使用したAdobe Targetとの統](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) 合につ __ いて説明します。
-* **[!DNL AEM]6.3**: [Adobe AnalyticsとAdobeのターゲ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) ット設定( _Adobe Experience Manager 6.3_ ドキュメント)
-* **[!DNL AEM]6.4**: [Adobe AnalyticsとAdobeのターゲ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) ット設定( _Adobe Experience Manager 6.4_ ドキュメント)
-* **[!DNL AEM]6.5**: [Adobe AnalyticsとAdobeのターゲ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) ット設定( *Adobe Experience Manager 6.5* ドキュメント)
+* **[!DNL AEM]6.3**: [Adobe AnalyticsとAdobeのターゲ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) ット設定( _Adobe Experience Manager 6.3_ ドキュメント)
+* **[!DNL AEM]6.4**: [Adobe AnalyticsとAdobeのターゲ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) ット設定( _Adobe Experience Manager 6.4_ ドキュメント)
+* **[!DNL AEM]6.5**: [Adobe AnalyticsとAdobeのターゲ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) ット設定( *Adobe Experience Manager 6.5* ドキュメント)
 
 ### 手順 2：エクスペリエンスフラグメントを作成する
 
