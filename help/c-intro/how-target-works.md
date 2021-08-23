@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] works, including information about the [!DNL T
 title: ' [!DNL Target] の仕組み'
 feature: 概要
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 100%
 * **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) にアップデートすることをお勧めします。
 * **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。
 
-サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、[Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ja) を使用して [!DNL Target] を実装することを検討してください。
+サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)で[タグを使用して[!DNL Target]を実装することを検討してください。
 
 次のリソースには、Experience Platform Web SDK または at.js の実装に役立つ詳細情報が含まれています。
 
-* [Adobe Experience Platform Web SDK 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ja#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launch を使用した  [!DNL Target]  の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Adobe Experience Platform を使用した  [!DNL Target]  の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションをおこなう、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
