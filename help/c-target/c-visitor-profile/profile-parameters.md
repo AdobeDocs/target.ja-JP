@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] アクティビティで使用できる情報�
 title: プロファイル属性とは
 feature: オーディエンス
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 49%
 
 ---
@@ -142,7 +142,7 @@ if (mbox.name == 'Track_Interest') {
    * プロファイルスクリプトを[!DNL Target]に追加する前に、パフォーマンステストを行う必要があります。 すべてのプロファイルスクリプトは、すべてのmboxリクエストで実行されます。 プロファイルスクリプトが正しく実行されない場合、mboxリクエストの実行に時間がかかり、トラフィックとコンバージョンに影響が及ぶ可能性があります。
    * プロファイルスクリプトが複雑すぎる場合は、代わりに[レスポンストークン](/help/administrating-target/response-tokens.md)を使用することを検討してください。
 
-* 詳しくは、 JS Rhinoエンジンのドキュメントを参照してください。[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* 詳しくは、 JS Rhinoエンジンのドキュメントを参照してください。
 
 ## プロファイルスクリプトのデバッグ {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
