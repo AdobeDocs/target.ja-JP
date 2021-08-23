@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] at.js JavaScriptライブラリの各バージ�
 title: at.jsの各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '4232'
+source-wordcount: '4229'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 89%
 >
 >Targetチームは、at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.jsのメジャーバージョンを最新の更新にアップグレードしてください。
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchは、at.jsをアップグレードするのに推奨される方法です。拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、アップグレードとして[!DNL Launch]カタログで使用できるようになります。 詳しくは、『*Experience Platform Launchユーザーガイド*』の「[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)」を参照してください。
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchは、at.jsをアップグレードするのに推奨される方法です。拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、アップグレードとして[!DNL Launch]カタログで使用できるようになります。 詳しくは、『*タグの概要*』ガイドの「[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html)」を参照してください。
 
 ## at.js 2.6.1（2021年8月17日）
 
