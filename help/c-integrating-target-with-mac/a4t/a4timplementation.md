@@ -4,14 +4,14 @@ description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe An
 title: Analytics for [!DNL Target] (A4T)を実装する方法を教えてください。
 feature: Analytics for Target（A4T）
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 23%
 
 ---
 
-#  Analytics for[!DNL Target] の実装
+#  Analytics for [!DNL Target] の実装
 
 [!DNL Adobe Analytics]を[!DNL Adobe Target](A4T)のレポートソースとして実装する場合は、いくつかの手順が必要です。 プロセスは、A4Tを[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)で実装するか、at.jsで実装するかによって異なります。
 
@@ -48,7 +48,7 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]のプロビジョニ
 
 ### 手順1:AnalyticsとTargetのプロビジョニングをリクエストする
 
-[!DNL Analytics]を[!DNL Target]のレポートソースとして実装した後、[!DNL Analytics]と[!DNL Target]のプロビジョニングをおこなう必要があります。 [プロビジョニングの依頼にはこのフォームを使用します](http://www.adobe.com/go/audiences)。
+[!DNL Analytics]を[!DNL Target]のレポートソースとして実装した後、[!DNL Analytics]と[!DNL Target]のプロビジョニングをおこなう必要があります。 [プロビジョニングの依頼にはこのフォームを使用します](https://www.adobe.com/go/audiences)。
 
 ### 手順 2： ユーザー権限を設定します。
 
