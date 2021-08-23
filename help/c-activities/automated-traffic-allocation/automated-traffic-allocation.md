@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] で自動配分アクティビティを使用�
 title: 自動配分アクティビティとは
 feature: 自動配分
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 [!UICONTROL 自動配分は、エクスペリエンス全体に対してすべての暗黙の比較を実行し、「真」の勝者を見つけます。]このテストには「対照」エクスペリエンスという概念がありません。
 
-[!UICONTROL 自動配分] は、最良のエクスペリエンスの信頼区間が他のエクスペリエンスの信頼区間と重複しなくなるまで、エクスペリエンスに新しい訪問者をインテリジェントに配分します。通常、このプロセスで偽陽性が生成される可能性がありますが、[!UICONTROL 自動配分]では、繰り返される評価を補正する[ベルンシュタインの不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))に基づく信頼区間が使用されます。 この時点で、真の勝者が存在します。 [!UICONTROL 自動配分]が停止し、ページに到達する訪問者に大きな時間依存がない場合、[!UICONTROL 自動配分]が真の応答よりも1%（相対）低い真の応答を返す可能性は95%以上です。
+[!UICONTROL 自動配分] は、最良のエクスペリエンスの信頼区間が他のエクスペリエンスの信頼区間と重複しなくなるまで、エクスペリエンスに新しい訪問者をインテリジェントに配分します。通常、このプロセスで偽陽性が生成される可能性がありますが、[!UICONTROL 自動配分]では、繰り返される評価を補正する[ベルンシュタインの不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)に基づく信頼区間が使用されます。 この時点で、真の勝者が存在します。 [!UICONTROL 自動配分]が停止し、ページに到達する訪問者に大きな時間依存がない場合、[!UICONTROL 自動配分]が真の応答よりも1%（相対）低い真の応答を返す可能性は95%以上です。
 
 ## A/Bまたは[!UICONTROL Automated Personalization]に対して[!UICONTROL 自動配分]を使用する場合 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
