@@ -4,10 +4,10 @@ title: ' [!DNL Target] ドキュメントについて'
 description: Adobe  [!DNL Target]  を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: 概要
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk)：Target サーバーサイドのデプロイ方法を説明します。この Node.js SDK は、Target を他の Adobe Experience Cloud ソリューションと容易に統合するのに役立ちます。
 - [Target Java SDK](https://github.com/adobe/target-java-sdk)：Target サーバーサイドのデプロイ方法について説明します。この Java SDK は、Target を他の Adobe Experience Cloud ソリューションと容易に統合するのに役立ちます。
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/)：公式の Adobe Target Recommendations API を構成するリソースについて説明します。
-- [Target Adobe.IOドキュメント](http://developers.adobetarget.com/api/#introduction)：Target の管理者および Profile REST API の使用方法について説明します。これらは、Adobe.IO 統合を使用してアクティビティ、オファー、プロパティ、レポート、mbox、環境、およびプロファイルを管理します。
+- [Target Adobe.IOドキュメント](https://developers.adobetarget.com/api/#introduction)：Target の管理者および Profile REST API の使用方法について説明します。これらは、Adobe.IO 統合を使用してアクティビティ、オファー、プロパティ、レポート、mbox、環境、およびプロファイルを管理します。
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 
