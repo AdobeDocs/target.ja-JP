@@ -5,10 +5,10 @@ title: TargetでのCNAMEの使用方法を教えてください。
 feature: プライバシーとセキュリティ
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ### 新しいSSL証明書の有効期限が切れるまで、どれくらいかかりますか？
 
-2020年9月1日より前に発行された証明書は、2年間の証明書です。 2020年9月1日以降に発行された証明書は1年間の証明書です。 1年間の証明書への移行については、[](https://www.digicert.com/position-on-1-year-certificates)を参照してください。
+2020年9月1日より前に発行された証明書は、2年間の証明書です。 2020年9月1日以降に発行された証明書は1年間の証明書です。
 
 ### どのホスト名を選択する必要がありますか。 ドメインごとにホスト名をいくつ選択すればよいですか。
 
@@ -140,7 +140,7 @@ ITPについて詳しくは、[Apple Intelligent Tracking Prevention(ITP)2.x](/h
    >
    >このコマンドが失敗し、上記の`validateEdgeFpsslSni`コマンドが正常に実行された場合は、DNSの更新が完全に反映されるまで待ちます。 DNSレコードには、TTL（有効期間）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)が関連付けられており、これらのレコードのDNS応答のキャッシュ有効期限を指定します。 [その結果、少なくともTTLが設定されている間は待つ必要が生じる場合があります。 `dig target.example.com`コマンドまたは[G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME)を使用して、特定のTTLを検索できます。
 
-### CNAMEでのオプトアウトリンクの使用方法
+### CNAME でのオプトアウトリンクの使用方法
 
 CNAMEを使用している場合、オプトアウトリンクには次のように「client=`clientcode`」パラメーターを含める必要があります。
 `https://my.cname.domain/optout?client=clientcode`.
