@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;関数
-description: Adobe [!DNL Target] at.js JavaScriptライブラリでadobe.ターゲット.applyOffers()関数を使用して、応答に複数のオファーを適用します。 (at.js 2.x)
-title: adobe.applyOffers()関数の使用方法を教えてください。
+description: Adobe [!DNL Target] at.js JavaScriptライブラリに対してadobe.target.applyOffers()関数を使用し、応答に複数のオファーを適用します。 (at.js 2.x)
+title: adobe.target.applyOffers()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ ht-degree: 92%
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。セレクターを指定しない場合、[!DNL Target]は、使用するHTMLHEADがHTML要素であると見なします。 |
+| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。セレクターが指定されていない場合、[!DNL Target]は、使用するHTML要素がHTMLHEADであると見なします。 |
 | 応答 | オブジェクト | ○ | `getOffers()` からのレスポンスオブジェクト。<br>下の「リクエスト」の表を参照してください。 |
 
 ## 応答
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドに使用できるタイプについては、[配信APIドキュメント](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
+>以下に示すすべてのフィールドで許容されるタイプについては、 [Delivery APIのドキュメント](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
 
 | フィールド名 | 説明 |
 | --- | --- |
