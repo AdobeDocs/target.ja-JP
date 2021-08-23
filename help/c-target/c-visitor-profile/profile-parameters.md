@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] アクティビティで使用できる情報�
 title: プロファイル属性とは
 feature: オーディエンス
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 49%
@@ -33,7 +33,7 @@ ht-degree: 49%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>****&#x200B;注意： には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。[!DNL Target]50個を超えるプロファイル属性を[!DNL Target]に渡す必要がある場合は、 Profile Update APIメソッドを使用して渡します。 詳しくは、 [!DNL Adobe Target] APIドキュメント](http://developers.adobetarget.com/api/#updating-profiles)の[プロファイルの更新を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) を参照してください。<br>****&#x200B;注意： には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。[!DNL Target]50個を超えるプロファイル属性を[!DNL Target]に渡す必要がある場合は、 Profile Update APIメソッドを使用して渡します。 詳しくは、 [!DNL Adobe Target] APIドキュメント](https://developers.adobetarget.com/api/#updating-profiles)の[プロファイルの更新を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計（消費者が支払った合計金額など）を保存でき、mboxリクエストごとに実行されます。 後述のプロファイルスクリプト属性を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
