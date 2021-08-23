@@ -4,10 +4,10 @@ description: 顧客関係管理(CRM)データベースの企業顧客データ�
 title: 顧客属性とは何ですか？顧客属性の使用方法を教えてください。
 feature: オーディエンス
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 36%
+source-wordcount: '1476'
+ht-degree: 35%
 
 ---
 
@@ -145,7 +145,6 @@ Experience CloudIDサービスを使用している場合、ターゲティン�
 [!DNL Target] で顧客属性を使用する方法について詳しくは、次のリソースを参照してください。
 
 * [顧客属性ソースの作成とデータファイルのアップロ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) ード( *Experience Cloudサービスと管理に関するドキュメント)*
-* *Digital Marketing ブログ*&#x200B;の[顧客属性：情報が増えるほどつながりが強くなる](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## よくある問題 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
