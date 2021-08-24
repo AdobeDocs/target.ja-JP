@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含ま
 title: 現在のリリースには、どの新機能が含まれますか？
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 59%
+source-wordcount: '694'
+ht-degree: 61%
 
 ---
 
@@ -35,11 +35,7 @@ ht-degree: 59%
 
 このリリースおよび以前のリリースについて詳しくは、Githubの[Target node.js SDKドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.8.1（日付は未定）
-
->[!NOTE]
->
->[!DNL Target Standard/Premium] 21.8.1リリースが遅れました。 2021年8月4日にリリースされる代わりに、バージョン21.8.1は、今後数日以内にリリースされます。 詳細は、利用可能な場合に表示されます。
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月11日）
 
 このメンテナンスリリースには、お客様向けの次の変更を含む、多くのバックエンドの機能強化が含まれています。
 
