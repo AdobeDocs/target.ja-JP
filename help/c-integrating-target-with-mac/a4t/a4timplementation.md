@@ -4,7 +4,7 @@ description: ' [!DNL Target] (A4T) in your Adobe [!DNL Target] およびAdobe An
 title: Analytics for [!DNL Target] (A4T)を実装する方法を教えてください。
 feature: Analytics for Target（A4T）
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 23%
@@ -29,7 +29,7 @@ A4Tを実装する前に、[!DNL Analytics]と[!DNL Target]のプロビジョニ
 
 ### 手順3:Edge設定の作成
 
-エッジ設定ツールを使用して、[!DNL Adobe Experience Platform Launch]を使用してEdge設定を作成します。 [[!DNL Analytics] and [!DNL Target] エッジ設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)を設定します。
+エッジ設定ツールを使用して、[!DNL Adobe Experience Platform]を使用してEdge設定を作成します。 [[!DNL Analytics] and [!DNL Target] エッジ設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)を設定します。
 
 ### 手順4:Platform Web SDKのインストールと設定
 
