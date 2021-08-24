@@ -5,10 +5,10 @@ title: タグマネージャーを使用せずに [!DNL Target] を実装でき�
 feature: サーバー側の実装
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 50%
+source-wordcount: '1674'
+ht-degree: 51%
 
 ---
 
@@ -117,10 +117,10 @@ API による一括更新の認証を有効または無効にし、プロファ�
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchは、Targetおよびat.jsライブラリを実装するための推奨される方法です。次の情報は、Targetの実装にAdobePlatform launchを使用する場合は適用されません。
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、およびat.jsライブラリ [!DNL Target] を実装するための推奨される方法です。[!DNL Adobe Experience Platform]でタグを使用して[!DNL Target]を実装する場合、次の情報は適用されません。
    >
    >
-* Targetチームは、at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.jsのメジャーバージョンを最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
+* [!DNL Target]チームは、at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.jsのメジャーバージョンを最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
 
 
 ### [!DNL Target]インターフェイスを使用したat.jsのダウンロード {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
-[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)のようなタグマネージャーを使用しないTargetの一般的な実装は、次のようになります。
+[[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)内のタグなど、タグマネージャーを使用しないTargetの一般的な実装は次のようになります。
 
 ```
 <!doctype html> 
