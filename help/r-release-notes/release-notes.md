@@ -5,7 +5,7 @@ landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含ま
 title: 現在のリリースには、どの新機能が含まれますか？
 feature: リリースノート
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 61%
@@ -60,7 +60,7 @@ ht-degree: 61%
 * at.js 設定 `secureOnly` が `true` に設定されている場合は常にセキュア属性を cookie に追加するようになりました。
 * `triggerView()` を使用する際に応答トークンを使用できるようになりました。
 * `CONTENT_RENDERING_NO_OFFERS` イベントに関連する問題を修正しました。これで、[!DNL Target] からコンテンツが返されない場合は常に、このイベントが正しくトリガーされます。
-* `prefetch` リクエストを使用したときに、[!DNL Anlytics for Target]（A4T）のクリック指標の詳細が正しく返されます。
+* `prefetch` リクエストを使用したときに、[!DNL Analytics for Target]（A4T）のクリック指標の詳細が正しく返されます。
 * UUID の生成では、`Math.random()` を使用しなくなり、`window.crypto` に基づくようになりました。
 * `sessionId` cookie の有効期限は、すべてのネットワーク呼び出しで正しく延長されます。
 * [!UICONTROL 単一ページアプリケーション]（SPA）ビューキャッシュの初期化が正しく処理され、`viewsEnable` 設定に従うようになりました。
