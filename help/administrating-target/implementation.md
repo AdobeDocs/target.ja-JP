@@ -5,10 +5,10 @@ title: サイトに [!DNL Target] を実装する方法
 feature: 管理と設定
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] は、を実装するのに推奨される方法で [!DNL Target]す。[!DNL Launch] は、顧客体験の実現に必要なすべての分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。詳しくは、「[AdobeLaunchを使用したTargetの実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)」を参照してください。
+>[!DNL Adobe Experience Platform]のタグは、[!DNL Target]を実装するのに推奨される方法です。 [!DNL Adobe Experience Platform]のタグは、[!DNL Adobe]の次世代タグ管理機能です。 タグを使用すると、顧客体験の実現に必要な分析、マーケティングおよび広告のタグをデプロイおよび管理するためのシンプルな手段を提供します。 詳しくは、[ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を使用した [!DNL Target] の実装を参照してください。
 
 1. [!UICONTROL 実装]ページにアクセスするには、**[!UICONTROL 管理]** / **[!UICONTROL 実装]**&#x200B;をクリックします。
 
