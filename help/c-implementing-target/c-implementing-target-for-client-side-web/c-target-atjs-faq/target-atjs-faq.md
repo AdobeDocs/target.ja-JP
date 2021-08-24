@@ -5,10 +5,10 @@ title: At.jsに関するよくある質問と回答を教えてください。
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ at.js 1.0.0 リリースでは、Target ライブラリを非同期で読み込�
 
 at.js を非同期で読み込む手順は次のとおりです。
 
-* 推奨されるアプローチは[!DNL Adobe Experience Platform Launch]です。 詳しくは、 [Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)を使用したWebサイトでのExperience Cloudの実装のチュートリアルの[Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html)の追加を参照してください。
+* 推奨されるアプローチは、[!DNL Adobe Experience Platform]のタグを使用することです。
 * at.js を読み込むスクリプトタグに async 属性を追加することで、at.js を非同期で読み込むこともできます。次のように指定します。
 
    ```
@@ -109,7 +109,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 ページ（または指定された部分）を事前に非表示にし、at.jsとグローバルリクエストが読み込まれた後に表示するスニペットを使用することで、ちらつきを回避できます。 このスニペットは、at.js の読み込みの前に追加する必要があります。
 
-非同期Launch実装を通じてat.jsをデプロイする場合は、Launch埋め込みコードの前に、『[Launchチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)を使用したWebサイトでのExperience Cloudの実装』の「Target事前非表示スニペットの追加」の節で説明されているように、事前非表示スニペットをページに直接含めてください。[](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)
+非同期[!DNL Adobe Experience Platform]実装を通じてat.jsをデプロイする場合は、 [!DNL Adobe Experience Platform]埋め込みコードを使用して[!DNL Target]を実装する前に、事前非表示スニペットをページに直接含めてください。
 
 同期 DTM 実装を介して at.js を導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
 
