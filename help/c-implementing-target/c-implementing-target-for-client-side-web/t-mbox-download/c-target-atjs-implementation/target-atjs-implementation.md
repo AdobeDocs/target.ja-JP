@@ -5,10 +5,10 @@ title: mbox.jsからat.jsに移行する方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: e0713ccd25da71c2655b567ff8715a22203f46fb
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 91%
+source-wordcount: '343'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ at.js ライブラリは、一般的な Web 実装とシングルページアプ
 
 >[!NOTE]
 >
->（FP-11577 以降）が適用された Adobe Experience Manager（AEM）6.2 では、at.js 実装とその Adobe Target Cloud Services 統合がサポートされています。詳しくは、*Adobe Experience Manager 6.2 ドキュメント*&#x200B;の[機能パック](https://experienceleague.adobe.com/docs/?lang=ja#experience-cloud)および [Adobe Target との統合](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)を参照してください。
+>（FP-11577 以降）が適用された Adobe Experience Manager（AEM）6.2 では、at.js 実装とその Adobe Target Cloud Services 統合がサポートされています。詳しくは、*Adobe Experience Manager 6.2 ドキュメント*&#x200B;の[機能パック](https://experienceleague.adobe.com/docs/)および [Adobe Target との統合](https://experienceleague.adobe.com/docs/)を参照してください。
 
 ## at.js の実装 {#implement}
 
