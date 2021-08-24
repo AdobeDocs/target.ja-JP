@@ -5,7 +5,7 @@ title: Experience PlatformWeb SDKを使用してを実装する方法を教え�
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Adobe Experience Platform Web SDK
 
-[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK)は、のお客様が [!DNL Adobe Experience Cloud] Adobe Experience Platform Edge Network [!DNL Target]を通じてExperience Cloud内の様々なサービス( を含む)を操作できる、クライアントサイドJavaScriptライブラリです。JavaScriptライブラリに加えて、Web SDKの設定に役立つ[!DNL Experience Platform Launch]拡張機能があります。
+[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK)は、のお客様が [!DNL Adobe Experience Cloud] Adobe Experience Platform Edge Network [!DNL Target]を通じてExperience Cloud内の様々なサービス( を含む)を操作できる、クライアントサイドJavaScriptライブラリです。JavaScriptライブラリに加えて、Web SDKの設定に役立つ[!DNL Adobe Experience Platform]拡張機能があります。
 
 詳しくは、*Adobe Experience Platform Web SDK*&#x200B;のヘルプの次のリンクを参照してください。
 
