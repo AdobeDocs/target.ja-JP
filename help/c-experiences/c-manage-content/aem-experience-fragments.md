@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] アクティビティでAEMエクスペリエ�
 title: Adobe Experience Manager(AEM)エクスペリエンスフラグメントの使用方法を教えてください。
 feature: エクスペリエンスとオファー
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
+source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1157'
 ht-degree: 21%
 
 ---
@@ -55,8 +55,8 @@ ht-degree: 21%
 
 エクスペリエンスフラグメントは[!DNL AEM]内に作成されます。 詳しくは、次を参照してください。
 
-* **[!DNL AEM]6.3**: [エクスペ](https://experienceleague.adobe.com/docs/) リエンスフラグメ *ント(Adobe Experience Manager 6.3* のドキュメント)
-* **[!DNL AEM]6.4**: [エクスペ](https://experienceleague.adobe.com/docs/) リエンスフラグメ *ント(Adobe Experience Manager 6.4* ドキュメント)
+* **[!DNL AEM]6.3**: [エクスペ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) リエンスフラグメ *ント(Adobe Experience Manager 6.3* のドキュメント)
+* **[!DNL AEM]6.4**: [エクスペ](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) リエンスフラグメ *ント(Adobe Experience Manager 6.4* ドキュメント)
 * **[!DNL AEM]6.5**: [エクスペ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) リエンスフラグメ *ント(Adobe Experience Manager 6.5* のドキュメント)
 
 ### 手順3:[!DNL AEM]を設定して、エクスペリエンスフラグメントを[!DNL Target]と共有します
