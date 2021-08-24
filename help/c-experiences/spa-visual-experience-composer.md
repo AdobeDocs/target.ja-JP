@@ -4,10 +4,10 @@ description: SPA VECをAdobe [!DNL Target] で使用して、継続的な開発�
 title: シングルページアプリケーションVisual Experience Composer(SPA VEC)の使用方法
 feature: Visual Experience Composer（VEC）
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 91%
+source-wordcount: '3702'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
 
-   [!UICONTROL 管理/実装]にあるAdobe Target UIを使用して、at.js 2.xをダウンロードします。 at.js 2.x は、[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用してもデプロイできます。ただし、Adobe Target 拡張機能は現在最新ではなく、サポートされていません。
+   [!UICONTROL 管理/実装]にあるAdobe Target UIを使用して、at.js 2.xをダウンロードします。 at.js 2.xは、[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)のタグを使用してもデプロイできます。 ただし、Adobe Target拡張機能は現在最新ではなく、サポートされていません。
 
 1. サイトに at.js 2.x の最新の関数 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) を実装します。
 
