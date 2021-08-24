@@ -5,10 +5,10 @@ title: ' [!DNL Target] はプライバシーとデータ保護に関する規制
 feature: プライバシーとセキュリティ
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 55%
+source-wordcount: '2195'
+ht-degree: 54%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 55%
 >
 >CCPAに適用されるデータへのアクセスと削除は、GDPRの場合と同じ手順に従います。
 
-## Adobe[!DNL Target]と[!DNL Adobe Experience Platform Launch]のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe[!DNL Target]と[!DNL Adobe Experience Platform]のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Platform Launch] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Platform Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Platform Launch]で、[!DNL Platform Launch]拡張機能のインストール表示の[!UICONTROL GDPRオプトイン]ドロップダウンリストから「有効」を選択します。 詳しくは、[Platform launchのドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を参照してください。
+[!DNL Target] では、お客様の同意管理戦略を支援できるよう [!DNL Adobe Experience Platform] に、タグを介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe ExperiencePlatform]で、拡張機能のインストール表示の[!UICONTROL GDPRオプトイン]ドロップダウンリストから「有効」を選択します。 詳しくは、[ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を使用した [!DNL Target] の実装を参照してください。
 
 次のコードスニペットに、`optinEnabled=true` 設定を有効にする方法を示します。
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >オプトイン機能は、at.js バージョン 1.7.0 および at.js 2.1.0 以降でサポートされます。オプトインは、at.js バージョン 2.0.0 および 2.0.1 ではサポートされていません。
 >
->オプトインの管理には、[!DNL Platform Launch] を使用することをお勧めします。[!DNL Platform Launch]では詳細な制御が可能で、[!DNL Target]が実行される前にページの選択された要素を非表示にして、お客様の同意戦略の一環として役立てます。
+>オプトインの管理には、[!DNL Adobe Experience Platform] を使用することをお勧めします。[!DNL Adobe Experience Platform]では詳細な制御が可能で、[!DNL Target]が実行される前にページの選択された要素を非表示にして、お客様の同意戦略の一環として役立てます。
 
 オプトインを使用する場合に検討すべきシナリオには、以下の 3 つがあります。
 
-1. **[!DNL Target] タグが [!DNL Platform Launch] を介して事前に承認されている（またはデータ主体が [!DNL Target] を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
+1. **[!DNL Target] タグが [!DNL Adobe Experience Platform] を介して事前に承認されている（またはデータ主体が [!DNL Target] を事前に承認している）：**&#x200B;同意を得られるまで [!DNL Target] タグが保留されることはなく、期待どおりに機能します。
 1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が FALSE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。同意が得られると [!DNL Target] が呼び出されて、パーソナライズされたコンテンツがデータ主体（訪問者）に対して提供されるようになります。同意の前に利用できるのはデフォルトコンテンツのみなので、パーソナライズ可能なページやコンテンツの一部をカバーするスプラッシュページなど、適切な戦略を採用することが重要です。 このプロセスにより、エクスペリエンスの一貫性をデータ主体（訪問者）に対して維持できます。
-1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。デフォルトでは、`bodyHiddenStyle`は`body { opacity:0;}`に設定され、HTML bodyタグは非表示になります。 Adobeが推奨するページ設定は以下のとおりで、同意管理ダイアログ以外のページ本文全体を非表示にするには、ページのコンテンツを1つのコンテナに、同意管理ダイアログを別のコンテナに配置します。 このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。これらの設定](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)のPlatform launch方法について詳しくは、[設定に関するドキュメントを参照してください。
+1. **[!DNL Target] タグが事前に承認されていない状態で、`bodyHidingEnabled` が TRUE に設定されている：**[!DNL Target] タグは、お客様から同意が得られるまで実行されません。同意が得られるまでは、デフォルトコンテンツのみを使用できます。ただし、`bodyHidingEnabled` が true に設定されているので、[!DNL Target] タグが実行されるまで（またはデータ主体がオプトインを拒否するまで）ページ上で非表示になるコンテンツは `bodyHiddenStyle` によって決定されます。データ主体がオプトインを拒否した場合は、デフォルトコンテンツが表示されます。デフォルトでは、`bodyHiddenStyle`は`body { opacity:0;}`に設定され、HTML bodyタグは非表示になります。 Adobeが推奨するページ設定は以下のとおりで、同意管理ダイアログ以外のページ本文全体を非表示にするには、ページのコンテンツを1つのコンテナに、同意管理ダイアログを別のコンテナに配置します。 このように [!DNL Target] を設定すると、ページコンテンツのコンテナのみが非表示になります。[Privacy Serviceの概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)を参照してください。
 
    次に、3 つ目のシナリオで推奨されるページ設定を示します。
 
@@ -145,9 +145,9 @@ GDPRおよびCCPAは、いつ同意を得る必要があるかに関する変更
 
 [!DNL Adobe] では、現在、同意管理ソリューションは提供していませんが、市場では新たな要件のいくつかに対処するための様々なツールが開発されています。同意管理者を含む、プライバシーツール全般に関する詳細については、*International Association of Privacy Professionals(IAAP)* Webサイトの[2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)を参照してください。
 
-[!DNL Target] では、お客様の同意管理戦略をサポートするた [!DNL Platform Launch] めに、を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Platform Launch] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。オプトインの管理には、[!DNL Platform Launch] を使用することをお勧めします。[!DNL Platform Launch]では、[!DNL Target]の実行前にページの特定の要素を非表示にする詳細な制御が存在し、お客様の同意戦略の一環として使用すると役立つ場合があります。
+[!DNL Target] では、お客様の同意管理戦略をサポートするた [!DNL Adobe Experience Platform] めに、を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。オプトインの管理には、[!DNL Adobe Experience Platform] を使用することをお勧めします。[!DNL Adobe Experience Platform]では、[!DNL Target]の実行前にページの特定の要素を非表示にする詳細な制御が存在し、お客様の同意戦略の一環として使用すると役立つ場合があります。
 
-GDPR、CCPA、および[!DNL Launch]について詳しくは、「 [Adobeのプライバシーに関するJavaScriptライブラリと一般データ保護規則(GDPR)](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) 」を参照してください。 また、前述の *Adobe Target と Adobe Launch のオプトイン*&#x200B;節も参照してください。
+GDPR、CCPA、および[!DNL Adobe Experience Platform]について詳しくは、「 [Adobeのプライバシーに関するJavaScriptライブラリと一般データ保護規則(GDPR)](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) 」を参照してください。 また、上記の&#x200B;*Adobe TargetとAdobe Experience Platformのオプトイン*&#x200B;の節も参照してください。
 
 ### `AdobePrivacy.js` は情報を GDPR API に送信しますか？ {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
