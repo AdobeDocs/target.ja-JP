@@ -5,10 +5,10 @@ title: Enterpriseユーザーの権限とは何ですか？また、それらの
 feature: 管理と設定
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 60%
 
 ### プロパティ
 
-プロパティは、区別するために一意のコードスニペットを使用する点で、[!DNL Adobe Platform Launch]内のプロパティと似ています。
+プロパティは、区別するために一意のコードスニペットを使用する点で、[!DNL Adobe Experience Platform]内のプロパティと似ています。
 
 Web プロパティは、Web サイト（群）を意味し、複数のルールと 1 つの埋め込みコードで構成されます。Web プロパティは、1 つ以上のドメインやサブドメインをグループ化できます。
 
@@ -264,7 +264,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### プロパティが割り当てられているにもかかわらず、プロパティが関連付けられていないことを示すエラーメッセージが表示されるのはなぜですか。
 
-実装していて[!DNL Target] も[!DNL Adobe Experience Platform Launch] 、アクティビティに関連付けられたプロパティがないことを示すエラーメッセージが表示された場合は、関数に`at_property` パラメータ`targetPageParams` を渡します。
+[!DNL Adobe Experience Platform]にタグ付きで[!DNL Target]を実装し、アクティビティに関連付けられたプロパティがないことを示すエラーメッセージが表示された場合は、`at_property`パラメーターを`targetPageParams`関数に渡します。
 
 ### リダイレクトページとアクティビティ URL が異なるプロパティに属している場合、成功指標は記録されますか?
 
