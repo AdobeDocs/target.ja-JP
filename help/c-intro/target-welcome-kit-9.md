@@ -3,14 +3,13 @@ keywords: ウェルカムキット;Target ウェルカムキット;概要;概要
 description: あなたは Adobe Target で初めてのアクティビティを作成しました。次の手順この記事では、その他のリソース、トレーニングチュートリアル、ハウツービデオへのリンクを参照できます。
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: 概要
-translation-type: ht
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: ht
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # 第 9 章：次の手順とリソース
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 * **Adobe のサポートの Offie Hour**：「Office Hours」は、Adobe のヘルプチームが率いるイニシアチブです。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。[Adobe のサポートの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)を参照してください。
 * **Adobe Summit**：デジタルマーケター向けの、年間最大のプロフェッショナルなイベントに参加しましょう。
    * [Adobe Summit](https://summit.adobe.com/na/)（北米）
-   * [Adobe Summit](http://summit-emea.adobe.com/emea/)（ヨーロッパ、中東、アフリカ）
+   * [Adobe Summit](https://summit-emea.adobe.com/emea/)（ヨーロッパ、中東、アフリカ）
 
 ## その他のリソース
 
@@ -47,4 +46,3 @@ ht-degree: 100%
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。ここで試験のスケジュールを設定、またはトレーニングコースを受けます。[トレーニングと資格認定](/help/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。[Target リリースノート（現行）](/help/r-release-notes/release-notes.md)を参照してください。
 * **Adobe Target ニュースレター**：製品のアップデートや将来の計画、パーソナライゼーションや最適化のためのヒントとテクニック、ユーザー事例、今後のイベント、情報満載のホワイトペーパー、人気のブログ記事などの情報をお知らせします。[Target insider ニュースレター](/help/r-release-notes/target-insider-newsletter.md)を参照してください。
-
