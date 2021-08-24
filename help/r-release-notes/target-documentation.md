@@ -4,10 +4,10 @@ description: オンラインヘルプ、チュートリアル、ビデオ、開�
 title: Target に関するドキュメントはどこで入手できますか？
 feature: リリースノート
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | [Adobe Target 製品ドキュメント](/help/target-home.md)<br>（本ガイド） | ユーザーインターフェイスを通じた [!DNL Target] の操作に重点を置いた概要情報、手順、スクリーンショット。このガイドでは、回避すべき「落とし穴」を含む、使用可能なすべてのアクションとオプションについて概説します。これは、[!DNL Target] UI の操作に関する最も詳細なリソースです。 |
 | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja) | [!DNL Target] の多くのコンポーネントを学ぶのに役立つビデオとチュートリアル。 |
 | [Adobe Experience League Target コンテンツライブラリ](https://guided.adobe.com/#recommended/solutions/target) | [!DNL Adobe Target Experience League] ページにある [!DNL Target] の機能を説明するハウツービデオやチュートリアルのコレクションです。 |
-| [Adobe Experience Platform Launch Target のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe] の次世代タグ管理プラットフォーム、[!DNL Adobe Experience Platform Launch] を使用した [!DNL Target] の実装に関する情報です。[!DNL Target] を実装する場合は、この方法をお勧めします。 |
+| [Adobe Experience Platform Target のドキュメント](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe]の次世代タグ管理プラットフォームである[!DNL Adobe Experience Platform]でタグを使用して[!DNL Target]を実装する方法について説明します。 [!DNL Target] を実装する場合は、この方法をお勧めします。 |
 | [アドビカスタマーケアの営業時間](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
 | [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
 | [Adobe Target 開発者](https://developers.adobetarget.com/) | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
