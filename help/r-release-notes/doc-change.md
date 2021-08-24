@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: リリースノート
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 95%
+source-wordcount: '2279'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8 月 25 日 | [ [!DNL Target] を使用した実装 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] は、のデータ収集テクノロジーのスイートとしてリブランドされま [!DNL Adobe Experience Platform]した。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
 | 8月24日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年9月8日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
 | 8月20日 | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 以下の FAQ を更新しました。<ul><li>A4Tは仮想レポートスイートをサポートしていますか?</li></ul> |
 | 8月17日 | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1のリリースノートを追加しました。 |
