@@ -4,9 +4,9 @@ description: 'Adobe TargetでRecommendationsアクティビティを実装する
 title: Recommendationsアクティビティの実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 94%
 
 ---
@@ -121,7 +121,7 @@ function targetPageParams() {
 
 有効な JSON 形式である必要があります。
 
-後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform Launch] はat.js/mbox.jsへの参照と関数をペ `targetPageParams` ージに配置し、値を設定できるようにします。この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
+後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform]のタグは、at.js/mbox.jsへの参照と`targetPageParams`関数をページに配置し、値を設定できるようにします。 この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
 
 ## すべてのページ {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
