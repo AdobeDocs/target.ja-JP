@@ -5,9 +5,9 @@ title: 'モバイルアプリに関して<A0/>に関するよくある質問は�
 feature: モバイルの実装
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 モバイルアプリの[!DNL Target]に関するよくある質問のリストです。
 
-## [!DNL Adobe Experience Platform Launch]を使用してSDKをデプロイする必要がありますか。それとも、[!DNL Launch]を使用せずにSDKをデプロイできますか。
+## [!DNL Adobe Experience Platform]のタグを使用してSDKをデプロイする必要がありますか。それとも、[!DNL Launch]を使用せずにSDKをデプロイできますか。
 
 SDKは、[Adobe Marketing Cloud Git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)で入手できます。 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)で[タグを使用しない場合は、独自の設定ファイルを管理し、アプリで管理する必要があります。
 
