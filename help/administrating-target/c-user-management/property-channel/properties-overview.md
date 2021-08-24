@@ -5,10 +5,10 @@ title: Enterprise権限の設定方法を教えてください。
 feature: 管理と設定
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 66%
+source-wordcount: '1460'
+ht-degree: 65%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 66%
 
 | タスク | 実行場所 |
 |--- |--- |
-| 1. ユーザーの追加（オプション） | [!DNL Adobe Admin Console for Enterprise] |
-| 2. ワークスペース（製品プロファイル）の作成 | [!DNL Adobe Admin Console for Enterprise] |
-| 3. ユーザーグループの作成（オプション） | [!DNL Adobe Admin Console for Enterprise] |
+| 1.ユーザーの追加（オプション） | [!DNL Adobe Admin Console for Enterprise] |
+| 2.ワークスペース（製品プロファイル）の作成 | [!DNL Adobe Admin Console for Enterprise] |
+| 3.ユーザーグループの作成（オプション） | [!DNL Adobe Admin Console for Enterprise] |
 | 4. プロパティの作成 | [!DNL Target] UI |
-| 5. `at_property` パラメーターを含めるための実装の更新 | [!DNL Target] UI、at.js関数、  [!DNL Adobe Experience Platform Launch] |
+| 5:`at_property`パラメーターを含めるように実装を更新します。 | [!DNL Target] UI、at.js関数、タグ(  [!DNL Adobe Experience Platform] |
 | 6. 役割および権限の指定 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]で実行するタスクの場合は、次の手順に従ってコンソールにアクセスします。
@@ -146,9 +146,9 @@ ht-degree: 66%
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
-   * **の「グローバルパラメーター」を使用[!DNL Adobe Launch]：**
+   * **次のタグの「グローバルパラメーター」を使用  [!DNL Adobe Experience Platform]:**
 
-      詳しくは、 *Adobe Experience Platform Launch*&#x200B;ドキュメントの[Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)を参照してください。
+      詳しくは、*タグの概要*&#x200B;ドキュメントの[Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)を参照してください。
 
    * **targetPageParams()関数を使用：** 次のコードを `<head>` タグのat.js参照の上に配置します。
 
