@@ -2,12 +2,12 @@
 keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
 description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。
 title: Target のドキュメントの更新点はどこで確認できますか？
-feature: リリースノート
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 94%
+source-wordcount: '2277'
+ht-degree: 98%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 94%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 8 月 25 日 | [ [!DNL Target] を使用した実装 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] は、のデータ収集テクノロジーのスイートとしてリブランドされま [!DNL Adobe Experience Platform]した。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
-| 8月24日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年9月8日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
-| 8月20日 | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 以下の FAQ を更新しました。<ul><li>A4Tは仮想レポートスイートをサポートしていますか?</li></ul> |
-| 8月17日 | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1のリリースノートを追加しました。 |
-|  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 「ベストプラクティス」の節を追加しました。 |
-| 8月12日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDKバージョン2.2.0のリリースノートを追加しました。 |
-| 8月9日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | トピックを更新しました。 |
-| 8 月 7 日 | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 次の注意を更新しました。<ul><li>at.js 1.8.0以降およびat.js 2.x以降は、Adobe Audience Manager(AAM)パラメーターを渡すために、2.5.0より前のバージョンの訪問者APIでは動作しなくなりました。</li></ul> |
-| 8 月 6 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1リリースが遅れたことを示す注記を追加しました。 |
-|  | [自動配分の概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL 自動配分]アクティビティを通じて、レポートソースを途中で変更することはできますか？</li></ul> |
+| 8 月 23 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年9月8日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
+| 8 月 19 日 | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 以下の FAQ を更新しました。<ul><li>A4Tは仮想レポートスイートをサポートしていますか?</li></ul> |
+| 8 月 16 日 | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1 のリリースノートを追加しました。 |
+|  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 「ベストプラクティス」セクションを追加しました。 |
+| 8 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK バージョン 2.2.0 のリリースノートを追加しました。 |
+| 8 月 9 日 | [Apple Intelligent Tracking Prevention（ITP）2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | トピックを更新しました。 |
+| 8 月 7 日 | [at.js を使用して [!UICONTROL Analytics for Target]（A4T）を実装する前に](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 次のメモを更新しました。<ul><li>at.js 1.8.0+ および at.js 2.x+ は、Adobe Audience Manager（AAM）パラメーターを渡す際、2.5.0 よりも古いバージョンの訪問者 API では動作しなくなりました。</li></ul> |
+| 8 月 6 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 リリースが遅れていることを示すメモを追加しました。 |
+|  | [[!UICONTROL 自動配分の]概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL 自動配分]アクティビティの途中で、レポートソースを変更できますか？</li></ul> |
 | 8 月 5 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 設定に関する情報を追加しました。 |
-| 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
-|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!DNL Target Standard/Premium] 21.8.1リリース（2021年8月5日）に関する情報を追加しました。 |
-| 8月2日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4Tを使用した自動配分アクティビティのトラフィック配分</li></ul> |
-|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL Target Delivery API]リリースに関する情報を追加しました。 |
+| 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL ターゲット配信 API] リリースに関する情報を追加しました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の [!DNL Target Standard/Premium] 21.8.1 リリース（2021 年 8 月 4 日（PT））についての情報を追加しました。 |
+| 8 月 2 日（PT） | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4T を使用した自動配分アクティビティのトラフィック分配</li></ul> |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL ターゲット配信 API] リリースに関する情報を追加しました。 |
 | 7 月 30 日  | [制限](/help/r-troubleshooting-target/target-limits.md) | 以下の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
 | 7 月 29 日  | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク（2021年8月11日 水曜日（PT））に関する情報を追加しました。 |
 |  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | グローバル mbox をカスタマイズした後、VEC で作成された影響を受けるアクティビティを編集して再保存する必要があることを示すために、重要な注意事項を更新しました。 |
@@ -125,7 +125,7 @@ ht-degree: 94%
 | 3 月 23 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.4.1 のリリースノートを追加しました。 |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 以下の FAQ を更新しました。<ul><li>カタログの項目を更新してサイトに反映されるまで、どれくらいかかりますか？</li></ul> |
-| 3 月 23 日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IP アドレスのリストを更新しました。 |
+| 3 月 22 日 | [Recommendations フィード処理サーバーで使用される IP アドレス](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IP アドレスのリストを更新しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「エンティティ」内の「エンティティ数」の節を更新しました。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2 に関する情報を追加しました。*x*「別の場所から来たユーザーであるかのようにアクティビティをテストするにはどうすればよいですか？」に、 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.2.1 | 次の節を追加しました。 <ul><li>Recommendations フィード処理サーバーの IP アドレスの変更（2021 年 3 月 16 日）</li></ul> |

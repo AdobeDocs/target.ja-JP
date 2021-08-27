@@ -1,20 +1,20 @@
 ---
 keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;修正;バグ修正;アップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
-landing-page-description: ' [!DNL Adobe Target]の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
-title: 現在のリリースには、どの新機能が含まれますか？
-feature: リリースノート
+landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
+title: 現在のリリースに含まれる新機能
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 61%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
 # Target リリースノート（現行）
 
-これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、その他のプラットフォームの変更点に関するリリースノートも含まれています。
+これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 >[!IMPORTANT]
 >
@@ -24,38 +24,38 @@ ht-degree: 61%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js 2.6.1（2021年8月17日）
+## at.js 2.6.1（2021 年 8 月 16 日）
 
-* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」のバグを修正しました。
+* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」バグを修正しました。
 
-## [!DNL Target] node.js SDK 2.2.0（2021年8月12日）
+## [!DNL Target] node.js SDK 2.2.0（2021 年 8 月 11 日）
 
-* SDK遠隔測定データ収集を追加しました
-* 自動配信APIクライアントのOpenApiコード生成
+* SDK テレメトリデータ収集を追加
+* 配信 API クライアント openapi codegen を自動化
 
-このリリースおよび以前のリリースについて詳しくは、Githubの[Target node.js SDKドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
+このリリースおよび以前のリリースについて詳しくは、Github の [Target node.js SDK ドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
 
 ## [!DNL Target Standard/Premium] 21.8.1（2021年8月11日）
 
-このメンテナンスリリースには、お客様向けの次の変更を含む、多くのバックエンドの機能強化が含まれています。
+このメンテナンスリリースには、次の顧客向けの変更を含む、多くのバックエンドの機能強化が含まれています。
 
-* [!UICONTROL フォームベースのExperience Composer]で作成された[!UICONTROL 自動パーソナライゼーション]アクティビティのレポートで、削除されたオファーがレポートで参照される問題を修正しました。 この問題が発生すると、「このレポートのデータを取得できません。 問題が解決しない場合は、AdobeのClientCareにお問い合わせください。」 （TGT-41028）
+* [!UICONTROL フォームベースの Experience Composer ]で作成された[!UICONTROL 自動パーソナライズ機能]アクティビティのレポートで、削除されたオファーが参照される問題を修正しました。この問題により、次のエラーメッセージが表示されました。「このレポートのデータの取得に問題があります。問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-41028）
 
-## [!DNL Target Delivery API] (2021 年 8 月 3 日（PT）)
+## [!DNL Target Delivery API]（2021 年 8 月 3 日）
 
-このリリースで強化された機能は次のとおりです。
+このリリースには、次の機能拡張が含まれています。
 
-* mboxパラメーターの制限が100パラメーターに増えました。 以前の制限は50パラメーターでした。 （TNT-41717）
-* `categoryId`の制限が256文字に増えました。 以前の上限は128文字でした。
-* Delivery APIに次の[!DNL Adobe Audience Manager](AAM)の詳細が追加されました。
+* mbox パラメーターの上限が 100 パラメーターに増えました。以前の上限は 50 パラメーターでした。（TNT-41717）
+* `categoryId` の制限が 256 文字に増えました。 以前の上限は 128 文字でした。
+* 配信 API に次の [!DNL Adobe Audience Manager]（AAM）の詳細が追加されました。
 
-   * AAM UUID:ユーザーを一意に識別するために使用される内部AAM ID。
-   * dataPartnerId:データパートナーのID。
-   * dataPartnerUserId:データパートナーから提供されたユーザーID。
+   * AAM UUID：ユーザーを一意に識別するために使用される内部 AAM ID。
+   * dataPartnerId：データパートナーの ID。
+   * dataPartnerUserId：データパートナーから提供されたユーザー ID。
 
-   以前は、Delivery APIには`dcsLocationHint`と`blob`のみが含まれていました。 （TNT-41644）
+   以前は、配信 API には `dcsLocationHint` と `blob` のみが含まれていました。 （TNT-41644）
 
-## at.js 2.6.0（2021 年 7 月 27 日（PT））
+## at.js 2.6.0（2021 年 7 月 27 日）
 
 * at.js 設定 `secureOnly` が `true` に設定されている場合は常にセキュア属性を cookie に追加するようになりました。
 * `triggerView()` を使用する際に応答トークンを使用できるようになりました。
@@ -69,7 +69,7 @@ ht-degree: 61%
 
 | リソース | 詳細 |
 |--- |--- |
-| [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Platform Web SDKの各バージョンの変更点に関する詳細です。 |
+| [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) | Platform Web SDK の各バージョンの変更点に関する詳細です。 |
 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート

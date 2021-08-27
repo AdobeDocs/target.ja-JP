@@ -2,12 +2,12 @@
 keywords: 既知の問題;解決された問題;リリースノート;バグ;問題;修正点
 description: 回避策の情報を含む、Adobe Target の既知の問題に関する情報を確認します。問題が解決されると、問題は「解決済み」セクションに移動します。
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
-feature: リリースノート
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4505'
-ht-degree: 98%
+source-wordcount: '4503'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
 
-### A4Tを使用した自動配分アクティビティのトラフィック配分 {#aa-a4t}
+### A4T を使用した自動配分アクティビティのトラフィック分配 {#aa-a4t}
 
-場合によっては、[!UICONTROL Analytics for Target](A4T)を使用する[!UICONTROL 自動配分]アクティビティのトラフィック配分は、各エクスペリエンスの報告されたコンバージョン率に基づいて何が起こるかと異なることがあります。 これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。 影響を受けるお客様には、影響を受けるアクティビティについての通知が送信されます。
+場合によっては、[!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分]アクティビティのトラフィック分布は、各エクスペリエンスで報告されたコンバージョン率に基づいて発生するはずのトラフィック分布と異なることがあります。これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。 影響を受けるお客様には、影響を受けるアクティビティについて通知されます。
 
-この問題が解決されるまでは、[!UICONTROL 自動配分]を標準の[!DNL Target]レポートで使用するか、[!UICONTROL 自動配分]と[!DNL Analytics]レポートの代わりに[!DNL Analytics]レポートで標準のA/Bテストを使用します。 （上位 131 項目）
+この問題が解決するまで、標準の [!DNL Target] レポートで[!UICONTROL 自動配分]を使用するか、[!DNL Analytics] レポートでの[!UICONTROL 自動配分]の代わりに、[!DNL Analytics] レポートで標準の A/B テストを使用します。（上位 131 項目）
 
 ### 自動配分アクティビティと自動ターゲットアクティビティの Analytics for Target（A4T）指標
 

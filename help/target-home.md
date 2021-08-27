@@ -2,11 +2,11 @@
 keywords: Target;ホーム;人気のトピック;adobe target;standard;premium;target ドキュメント;adobe target ドキュメント;ホーム
 title: ' [!DNL Target] ドキュメントについて'
 description: Adobe  [!DNL Target]  を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
-feature: 概要
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021 年 8 月 24 日（[「変更内容」を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2021 年 8 月 23 日（[「変更内容」を参照](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 ## 開発者 {#developers}
 
-- [Target の実装](c-implementing-target/implementing-target.md)：[!DNL Target] を Web サイト、モバイルアプリ、シングルページアプリケーション（SPA）、IoT/OTT プラットフォームに実装する方法について説明します。
+- [Target の実装](c-implementing-target/implementing-target.md)：[!DNL Target] を Web サイト、モバイルアプリ、シングルページアプリケーション（SPA）、iOT/OTT プラットフォームに実装する方法について説明します。
 - [Target サーバーサイド API](https://developers.adobetarget.com/api/delivery-api/)：Adobe Target 配信 API を構成するリソースについて説明します。
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk)：Target サーバーサイドのデプロイ方法を説明します。この Node.js SDK は、Target を他の Adobe Experience Cloud ソリューションと容易に統合するのに役立ちます。
 - [Target Java SDK](https://github.com/adobe/target-java-sdk)：Target サーバーサイドのデプロイ方法について説明します。この Java SDK は、Target を他の Adobe Experience Cloud ソリューションと容易に統合するのに役立ちます。
