@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-description: ' [!DNL Adobe Target] でオーディエンスを作成し、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法（ピクセル単位）などのパラメーターに基づいてモバイルデバイスをターゲットにする方法を説明します。'
+description: ' [!DNL Adobe Target] でオーディエンスを作成してモバイルデバイスをターゲットにする方法を説明します。'
 title: モバイルオプションに基づいて訪問者をターゲットに設定することはできますか？
-feature: オーディエンス
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->Mobile SDKを使用しているお客様は、この機能を適用するために何もする必要はありません。 at.jsを使用する顧客は、[at.js バージョン 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
+>Mobile SDKを使用するお客様は、この機能を適用するために何もする必要はありません。 at.jsを使用する顧客は、[at.js バージョン 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) （以降）にアップグレードする必要があります。
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択はOR演算子で結合されます。
 
@@ -56,12 +56,6 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >iOS 12.2で導入された新しい変更により、iPhoneモデルを指定する[!UICONTROL Device Marketing Name]および[!UICONTROL Device Model]で定義されるルールを使用したオーディエンスの作成が影響を受けます。 [!DNL Target] iOS 12.2（以降）がインストールされたiPhoneを持つユーザーをターゲットにすることはできなくなりました。ただし、iOS 12.2以降を持たないユーザーの場合、iPhoneモデルのターゲット設定は引き続き正しく機能します。
-   >
-   >iOS 12.2（以降）の更新は、次のモデルの識別に影響を与えません。これらのモデルはiOS 12.2へのアップグレードをサポートしていません。iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retinaディスプレイ、iPad Retina（第4世代）、iPod Touch 4、iPod Touch 5。
-
-   >[!NOTE]
-   >
    >[地域設定](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
 1. （オプション）オーディエンス用の追加のルールを設定します。
@@ -70,6 +64,20 @@ ht-degree: 43%
 次の図に、Google製のモバイルデバイスを使用する訪問者をターゲットにするオーディエンスを示します。
 
 ![モバイルデバイスをターゲット設定](assets/target_mobile.png)
+
+## 注意点
+
+モバイルデバイスをターゲティングする際には、次の情報を考慮してください。
+
+### iOS 12.2以降を実行するデバイスのターゲティング
+
+iOS 12.2で導入された新しい変更により、iPhoneモデルを指定する[!UICONTROL Device Marketing Name]および[!UICONTROL Device Model]で定義されるルールを使用したオーディエンスの作成が影響を受けます。 [!DNL Target] iOS 12.2（以降）がインストールされたiPhoneを持つユーザーをターゲットにすることはできなくなりました。ただし、iOS 12.2以降を持たないユーザーの場合、iPhoneモデルのターゲット設定は引き続き正しく機能します。
+
+iOS 12.2（以降）の更新は、次のモデルの識別に影響を与えません。これらのモデルはiOS 12.2へのアップグレードをサポートしていません。iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retinaディスプレイ、iPad Retina（第4世代）、iPod Touch 4、iPod Touch 5。
+
+### Safari 14.0.2以降を実行するデバイスのターゲティング
+
+macOSでSafariバージョン14.0.2（またはそれ以降）を実行するデバイスをターゲットにモバイルルールを使用する場合、AppleのユーザーエージェントとDeviceAtlasの既知の問題により、 [!DNL Target]は、Macデバイス上のSafariをiPadバージョンとして誤って識別します。 この問題は、今後対応する予定です。
 
 ## トレーニングビデオ：オーディエンスの作成
 

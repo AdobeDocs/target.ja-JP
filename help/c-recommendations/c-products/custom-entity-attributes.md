@@ -5,10 +5,10 @@ title: カスタムエンティティ属性の使用方法
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
 ## 複数値の属性の実装 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-複数値のカスタムエンティティ属性は、フィード（CSV）、`targetPageParams`、Delivery API、Save entities API を使用して製品をアップロードする場合に使用できます。新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は値なしと見なされます。
+複数値のカスタムエンティティ属性は、フィード(CSV)、`targetPageParams`およびDelivery APIを使用して製品をアップロードする場合に使用できます。 新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は値なしと見なされます。
 
 二重引用符は、エスケープする必要があります。例えば、`"[""test"", ""value""]"` は CSV で使用できる有効な JSON 配列です。
 
