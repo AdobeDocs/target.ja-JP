@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2317'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 97%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 7 月 10 日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | 「考慮事項」節を更新し、Safari 14.0.2以降を実行するデバイスのターゲティングに関する情報を追加しました。 |
+|  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | `targettype`と`algorithmId`に関する情報を更新しました。[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティで使用される内部識別子です。 |
 | 8 月 25 日 | [ [!DNL Target] を使用した実装 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] は、のデータ収集テクノロジーのスイートとしてリブランドされま [!DNL Adobe Experience Platform]した。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
 | 8 月 23 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年9月8日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
 | 8 月 19 日 | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 以下の FAQ を更新しました。<ul><li>A4Tは仮想レポートスイートをサポートしていますか?</li></ul> |
