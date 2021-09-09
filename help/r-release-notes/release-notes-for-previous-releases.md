@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '31345'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,37 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2021 年
+
+### at.js 2.6.1（2021 年 8 月 16 日）
+
+* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」バグを修正しました。
+
+### [!DNL Target] node.js SDK 2.2.0（2021 年 8 月 11 日）
+
+* SDK テレメトリデータ収集を追加
+* 配信 API クライアント openapi codegen を自動化
+
+このリリースおよび以前のリリースについて詳しくは、Github の [Target node.js SDK ドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
+
+### [!DNL Target Standard/Premium] 21.8.1（2021年8月10日（PT））
+
+このメンテナンスリリースには、次の顧客向けの変更を含む、多くのバックエンドの機能強化が含まれています。
+
+* [!UICONTROL フォームベースの Experience Composer ]で作成された[!UICONTROL 自動パーソナライズ機能]アクティビティのレポートで、削除されたオファーが参照される問題を修正しました。この問題により、次のエラーメッセージが表示されました。「このレポートのデータの取得に問題があります。問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-41028）
+
+### ターゲット配信 API（2021 年 8 月 3 日）
+
+このリリースには、次の機能拡張が含まれています。
+
+* mbox パラメーターの上限が 100 パラメーターに増えました。以前の上限は 50 パラメーターでした。（TNT-41717）
+* `categoryId` の制限が 256 文字に増えました。 以前の上限は 128 文字でした。
+* 配信 API に次の [!DNL Adobe Audience Manager]（AAM）の詳細が追加されました。
+
+   * AAM UUID：ユーザーを一意に識別するために使用される内部 AAM ID。
+   * dataPartnerId：データパートナーの ID。
+   * dataPartnerUserId：データパートナーから提供されたユーザー ID。
+
+   以前は、配信 API には `dcsLocationHint` と `blob` のみが含まれていました。 （TNT-41644）
 
 ### [!DNL Target Standard/Premium] 21.6.1（2021 年 6 月 30 日）
 

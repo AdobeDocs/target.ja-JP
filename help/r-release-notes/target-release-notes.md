@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,25 +25,9 @@ ht-degree: 100%
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日（PT））
+## [!DNL Target Standard/Premium] 21.9.1（2021年9月15日）
 
-このメンテナンスリリースには、次の顧客向けの変更を含む、多くのバックエンドの機能強化が含まれています。
-
-* [!UICONTROL フォームベースの Experience Composer ]で作成された[!UICONTROL 自動パーソナライズ機能]アクティビティのレポートで、削除されたオファーが参照される問題を修正しました。この問題により、次のエラーメッセージが表示されました。「このレポートのデータの取得に問題があります。問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-41028）
-
-## ターゲット配信 API（2021 年 8 月 3 日）
-
-このリリースには、次の機能拡張が含まれています。
-
-* mbox パラメーターの上限が 100 パラメーターに増えました。以前の上限は 50 パラメーターでした。（TNT-41717）
-* `categoryId` の制限が 256 文字に増えました。 以前の上限は 128 文字でした。
-* 配信 API に次の [!DNL Adobe Audience Manager]（AAM）の詳細が追加されました。
-
-   * AAM UUID：ユーザーを一意に識別するために使用される内部 AAM ID。
-   * dataPartnerId：データパートナーの ID。
-   * dataPartnerUserId：データパートナーから提供されたユーザー ID。
-
-   以前は、配信 API には `dcsLocationHint` と `blob` のみが含まれていました。 （TNT-41644）
+追加情報は、今後1週間以内にこちらに掲載されます。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
