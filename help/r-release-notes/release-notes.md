@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 
 このリリースおよび以前のリリースについて詳しくは、Github の [Target node.js SDK ドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月11日）
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日（PT））
 
 このメンテナンスリリースには、次の顧客向けの変更を含む、多くのバックエンドの機能強化が含まれています。
 

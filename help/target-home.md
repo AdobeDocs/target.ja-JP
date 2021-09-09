@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -81,4 +81,4 @@ ht-degree: 98%
 
 | アドビ [!DNL Target] ソリューションヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
