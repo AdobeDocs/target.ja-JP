@@ -2,12 +2,12 @@
 keywords: お知らせ;スキルビルダー;開発者チャット;coffee break;events;forrester;gartner;ウェビナー
 description: お知らせを読み、スキルビルダーセッションや、開発者と製品管理者のチャット、ウェビナーなどの Adobe [!DNL Target] イベントに登録してください。
 title: ' [!DNL Target] のお知らせやイベントについて'
-feature: リリースノート
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
 
-* **2021年9月8日水曜日**
+* **2021年9月8日 水曜日**
 * **午前 8 時（PDT、UTC-7）**
 * **[詳細および登録については、ここをクリックしてください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497)。**
 
-[!DNL Adobe Target]の上級製品マネージャー、Vishal Chordia氏は、専門知識に関するお客様の質問に答える予定です。
+[!DNL Adobe Target] のシニア製品マネージャー、ヴィシャール コーディアが、専門分野に関するお客様からの質問にお答えします。
 
 * [!DNL Adobe Experience Platform]
 * オーディエンスベースのパーソナライゼーション
-* [!DNL Real-time Customer Data Platform] (RTCDP)との統合  [!DNL Target]
-* 一般的な[!DNL Target]トピック
+* [!DNL Real-time Customer Data Platform]（RTCDP）の [!DNL Target] との統合
+* 一般的な [!DNL Target] トピック
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
 
