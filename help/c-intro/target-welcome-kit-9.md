@@ -2,12 +2,12 @@
 keywords: ウェルカムキット;Target ウェルカムキット;概要;概要;はじめに
 description: あなたは Adobe Target で初めてのアクティビティを作成しました。次の手順この記事では、その他のリソース、トレーニングチュートリアル、ハウツービデオへのリンクを参照できます。
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
-feature: 概要
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 
