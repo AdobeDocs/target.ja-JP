@@ -1,13 +1,13 @@
 ---
 keywords: spa vec; react; angular; react.js; spa visual experience composer; spa experience composer オプション; シングルページアプリケーション; シングルページアプリ; spa; モバイルエクスペリエンスオプション; target ビュー
-description: SPA VECをAdobe [!DNL Target] で使用して、継続的な開発に依存することなく、マーケターが自らSPAでテストを作成し、コンテンツをパーソナライズする方法を説明します。
-title: シングルページアプリケーションVisual Experience Composer(SPA VEC)の使用方法
-feature: Visual Experience Composer（VEC）
+description: SPA VEC を Adobe  [!DNL Target]  で使用して、開発部門に継続的に依存することなく、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりする方法を説明します。
+title: シングルページアプリケーション Visual Experience Composer（SPA VEC）の使用方法
+feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
-source-wordcount: '3702'
-ht-degree: 90%
+workflow-type: ht
+source-wordcount: '3698'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 90%
 
 ![従来のライフサイクルと SPA のライフサイクルの比較](/help/c-experiences/assets/trad-vs-spa.png)
 
-最新リリースでは、SPA 用の VEC が導入されました。SPA 用 VEC を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
+最新リリースでは、SPA 用の VEC が導入されました。SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC では、React や Angular などの人気あるフレームワークで [A/B テスト](/help/c-activities/t-test-ab/test-ab.md)や[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)（XT）アクティビティを作成することが可能です。
 
-## Adobe[!DNL Target]ビューとシングルページアプリケーション
+## Adobe [!DNL Target] ビューとシングルページアプリケーション
 
 SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用します。ビューとはビジュアル要素の論理的集合体で、全体として SPA のエクスペリエンスを形作ります。このため SPA は、URL ではなくユーザーのインタラクションによりビュー間を移行するものと考えられます。通常、ビューはサイト全体またはサイト内のグループ化されたビジュアル要素を表せます。
 
-ビューとは何かをさらに説明するために、React で実装された架空のオンライン e コマースサイトを操作して、いくつかビューの例を見てみましょう。下のリンクをクリックして、このサイトを新しいブラウザタブで開きます。
+ビューとは何かをさらに説明するために、React で実装された架空のオンライン eコマースサイトを操作して、いくつかビューの例を見てみましょう。下のリンクをクリックして、このサイトを新しいブラウザータブで開きます。
 
 **リンク： [ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
@@ -35,7 +35,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ![製品サイト](/help/c-experiences/assets/product-site.png)
 
-製品への関心が増してきたところで、製品のリンクをクリックします。ホームサイトと同様、製品サイト全体をビューとして定義できます。このビューには`https://target.enablementadobe.com/react/demo/#/products` のパス名と同様に「products」という名前を付けられます。
+製品への関心が増してきたところで、製品のリンクをクリックします。ホームサイトと同様、製品サイト全体をビューとして定義できます。このビューには `https://target.enablementadobe.com/react/demo/#/products` のパス名と同様に「products」という名前を付けられます。
 
 ![製品サイト 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -43,7 +43,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ![製品サイト 3](/help/c-experiences/assets/product-site-3.png)
 
-「Load More」ボタンをクリックすると、サイトに掲載されている他の製品をみることができます。この場合、Web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。たとえば、表示名を「PRODUCT-PAGE-2」にします。
+「Load More」ボタンをクリックすると、サイトに掲載されている他の製品を見ることができます。この場合、web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。例えば、表示名を「PRODUCT-PAGE-2」にします。
 
 **リンク： [チェックアウト](https://target.enablementadobe.com/react/demo/#/checkout)**
 
@@ -51,21 +51,21 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 サイトに表示されている製品が気に入ったので、いくつかを購入することにしました。現在、チェックアウトサイトでは、通常配送または速達配送を選択できるようになっています。サイト上のどのような視覚要素グループもビューにすることができるので、このビューに「Delivery Preferences」と名前を付けることが可能です。
 
-さらに、ビューの概念を大きく拡張することもできます。マーケティング担当者が、選択された配送設定に合わせてサイト上のコンテンツをパーソナライズする場合は、その配送設定ごとにビューを作成できます。たとえば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
+さらに、ビューの概念を大きく拡張することもできます。マーケティング担当者が、選択された配送設定に合わせてサイト上のコンテンツをパーソナライズする場合は、その配送設定ごとにビューを作成できます。例えば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
 
 これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
-## Adobe[!DNL Target]ビューの実装
+## Adobe [!DNL Target] ビューの実装
 
 Adobe Target ビューとは何かを説明したので、Target でこの概念を活用して、マーケティング担当者が VEC を介して SPA で A/B テストや XT テストを実行できるようにできます。これには開発者による 1 回限りの設定が必要です。以下では、これを設定する手順を説明します。
 
 1. at.js 2.x をインストールします。
 
-   まず、at.js 2.x をインストールする必要があります。このバージョンの at.js は、SPA を考慮して開発されました。以前のバージョンのat.jsでは、Adobe TargetビューとSPA用VECはサポートされていません。
+   まず、at.js 2.x をインストールする必要があります。このバージョンの at.js は、SPA を考慮して開発されました。at.js の以前のバージョンでは、Adobe Target ビューと SPA VEC はサポートされていません。
 
    ![実装の詳細ダイアログボックス](/help/c-experiences/assets/imp-200.png)
 
-   [!UICONTROL 管理/実装]にあるAdobe Target UIを使用して、at.js 2.xをダウンロードします。 at.js 2.xは、[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)のタグを使用してもデプロイできます。 ただし、Adobe Target拡張機能は現在最新ではなく、サポートされていません。
+   Adobe Target UI で[!UICONTROL 管理／実装]を選択し、at.js 2.x をダウンロードします。at.js 2.x は、[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) のタグを使用してデプロイすることもできます。ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
 
 1. サイトに at.js 2.x の最新の関数 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) を実装します。
 
@@ -79,7 +79,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
    | options | オブジェクト | × |  |  |
    | options > page | ブール値 | × |  | **TRUE**： ページのデフォルト値は true です。`page=true` の場合、インプレッション数を増分するために Edge サーバーに通知が送信されます。<br>**FALSE**: `page=false` の場合、インプレッション数を増分するための通知は送信されません。オファーを含むページ上のコンポーネントを再レンダリングする場合にのみ使用します。 |
 
-   次に、模擬 e コマース SPA 用に React で `triggerView()` 関数を呼び出す方法について、いくつかの例を見てみましょう。
+   次に、模擬 eコマース SPA 用に React で `triggerView()` 関数を呼び出す方法について、いくつかの例を見てみましょう。
 
    **リンク： [ホームサイト](https://target.enablementadobe.com/react/demo/#/)**
 
@@ -114,7 +114,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    **リンク： [製品サイト](https://target.enablementadobe.com/react/demo/#/products)**
 
-   それでは、もう少し複雑な例を見てみましょう。たとえば、ユーザーが「Load More」ボタンをクリックした場合に価格ラベルの色を赤に変更して、2 行目にある製品をパーソナライズすることをマーケティング担当者が希望しているとしましょう。
+   それでは、もう少し複雑な例を見てみましょう。例えば、ユーザーが「Load More」ボタンをクリックした場合に価格ラベルの色を赤に変更して、2 行目にある製品をパーソナライズすることをマーケティング担当者が希望しているとしましょう。
 
    ![React 製品](/help/c-experiences/assets/react4.png)
 
@@ -145,7 +145,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![React チェックアウト](/help/c-experiences/assets/react6.png)
 
-   マーケティング担当者が、選択された配送設定に合わせてサイト上のコンテンツをパーソナライズする場合は、その配送設定ごとにビューを作成できます。たとえば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
+   マーケティング担当者が、選択された配送設定に合わせてサイト上のコンテンツをパーソナライズする場合は、その配送設定ごとにビューを作成できます。例えば、通常配送を選択した場合、ビューに「Normal Delivery」と名前を付けることができます。速達配送を選択した場合には、ビューを「Express Delivery」という名前にすることができます。
 
    これで、マーケティング担当者は A/B テストを実行し、速達配送が選択されたときにボタンの色を青から赤に変更することで、どちらの配送オプションでも青のままにする場合と比較してコンバージョンが促進されるかどうかを確認できます。
 
@@ -186,9 +186,9 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    >[!NOTE]
    >
-   >SPA 用 VEC は、通常の Web ページで使用する VEC と同じものですが、`triggerView()` の実装されたシングルページアプリケーションを開く際に利用できる機能がいくつか追加されています。
+   >SPA VEC は、通常の web ページで使用する VEC と同じものですが、`triggerView()` の実装されたシングルページアプリケーションを開く際に利用できる機能がいくつか追加されています。
 
-VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルとアクションで、大きな改善が 2 点おこなわれました。
+VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)パネルとアクションで、大きな改善が 2 点行われました。
 
 **変更パネル**
 
@@ -196,7 +196,7 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-exper
 
 **アクション**
 
-アクションをクリックすると、このアクションが適用されるサイトの要素がハイライトされます。ビューに作成された各 VEC アクションには、以下のように、情報、編集、移動および削除のアイコンがあります。
+アクションをクリックすると、このアクションが適用されるサイトの要素がハイライトされます。ビューに作成された各 VEC アクションには、以下のように、情報、編集、複製、移動および削除のアイコンがあります。
 
 ![変更](/help/c-experiences/assets/modifications.png)
 
@@ -206,8 +206,8 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-exper
 | --- | --- |
 | 情報 | アクションの詳細を表示します。 |
 | 編集 | アクションのプロパティを直接編集できます。 |
-| 複製 | [!UICONTROL 変更]パネルに存在する 1 つ以上のビューまたは VEC で参照および移動した 1 つ以上のビューにアクションを複製します。アクションは、必ずしも[!UICONTROL 変更]パネルに存在する必要はありません。<br>**注意**：複製操作をおこなったら、[!UICONTROL 参照]を使用して VEC のビューに移動し、複製されたアクションが有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
-| 移動 | 変更パネルに既に存在するページ読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL ページの読み込みイベント] – ページの読み込みイベントに対応するアクションが Web アプリケーションの最初のページ読み込みに適用されます。<br>**注意**：移動操作をおこなったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
+| 複製 | [!UICONTROL 変更]パネルに存在する 1 つ以上のビューまたは VEC で参照および移動した 1 つ以上のビューにアクションを複製します。アクションは、必ずしも[!UICONTROL 変更]パネルに存在する必要はありません。<br>**注意**：複製操作を行ったら、[!UICONTROL 参照]を使用して VEC のビューに移動し、複製されたアクションが有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
+| 移動 | 変更パネルに既に存在するページの読み込みイベントまたはその他のビューにアクションを移動します。<br>[!UICONTROL ページの読み込みイベント] – ページの読み込みイベントに対応するアクションが web アプリケーションの最初のページ読み込みに適用されます。<br>**注意**：移動操作を行ったら、参照を使用して VEC のビューに移動し、移動が有効な操作かどうかを確認します。アクションがビューに適用できない場合、エラーが表示されます。 |
 | 削除 | アクションを削除します。 |
 
 >[!NOTE]
@@ -260,10 +260,10 @@ VEC が SPA で適切に動作できるように、VEC の[変更](/help/c-exper
 
 at.js 2.x の通常のワークフローでは、サイトの読み込みの際にすべてのビューとアクションがキャッシュに保存されます。そのため、その後のサイト上でのユーザーアクションにより、サーバー呼び出しがトリガーされオファーが取得されることはありません。後続のユーザーアクションによって更新された可能性のある最新のプロファイルデータに合わせてビューを取得するには、最新のオーディエンスユーザーまたは渡されたプロファイルデータで `getOffers()` および `applyOffers()` を呼び出します。
 
-たとえば、通信会社の SPA で at.js 2.x を使用しているとします。ビジネスとしての達成目標は、次のとおりです。
+例えば、通信会社の SPA で at.js 2.x を使用しているとします。ビジネスとしての達成目標は、次のとおりです。
 
 * `http://www.telecom.com/home` で、ログアウトするユーザーや匿名のユーザーに対して、「初月無料」のヒーローオファーなどの最新のプロモーションを表示する。
-* ログインユーザーで契約期限が近づいている場合に、「無料で電話が手に入ります」などの更新プロモーションを表示する。on `http://www.telecom.com/loggedIn/home`.
+* ログインユーザーで契約期限が近づいている場合に、「無料で電話が手に入ります」などの更新プロモーションを表示する（`http://www.telecom.com/loggedIn/home`）。
 
 ここでは、デベロッパー名が表示された状態で、次のように `triggerView()` を呼び出します。
 
@@ -336,24 +336,24 @@ adobe.target.getOffers({
 | アクティビティのタイプ | 対応? |
 | --- | --- |
 | [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | ○ |
-| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[オファーとしての Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
+| A/B テストおよびエクスペリエンスのターゲット設定（XT）アクティビティにおける[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)<br> | ○ |
 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ |
 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | ○ |
 | [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | × |
 | [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) | × |
 | [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md) | × |
-| [Recommendations](/help/c-recommendations/recommendations.md) | × |
+| [レコメンデーション](/help/c-recommendations/recommendations.md) | × |
 
 **at.js 2.x をインストールして `triggerView()` をサイトに実装した場合、SPA VEC は自動ターゲットをサポートしませんが、自動ターゲット A/B アクティビティはどのように実行すればよいですか。**
 
-自動ターゲット A/B アクティビティを使用する場合は、ページ読み込みイベントで実行されるすべてのアクションを VEC で移動できます。各アクションにマウスポインターを置いて、「[!UICONTROL ページ読み込みイベントに移動]」ボタンをクリックします。その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
+自動ターゲット A/B アクティビティを使用する場合は、ページの読み込みイベントで実行されるすべてのアクションを VEC で移動できます。各アクションにマウスポインターを置いて、「[!UICONTROL ページの読み込みイベントに移動]」ボタンをクリックします。その後、次の手順で、トラフィック配分方法に対応する自動ターゲットを選択できます。
 
 ## サポートされる統合
 
 | 統合 | 対応? |
 | --- | --- |
 | [Analytics for Target（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
-| [Experience Cloud オーディエンス](/help/c-integrating-target-with-mac/mmp.md) | ○ |
+| [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) | ○ |
 | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | ○ |
 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
@@ -371,9 +371,9 @@ adobe.target.getOffers({
 
 ## SPA VEC のページ配信設定 {#page-delivery-settings}
 
-[!UICONTROL ページ配信]設定を使用すると、オーディエンスに対していつ Target アクティビティが適合および実行するかを決定するルールを設定できます。
+[!UICONTROL ページ配信]設定を使用すると、オーディエンスに対していつ Target アクティビティが適合および実行されるかを決定するルールを設定できます。
 
-VEC の 3 ステップのガイドによるアクティビティワークフローから「[!UICONTROL ページ配信]」オプションにアクセスするには、**[!UICONTROL エクスペリエンス]**&#x200B;ステップで、**[!UICONTROL 設定]**（歯車アイコン）／**[!UICONTROL ページ配信]**&#x200B;をクリックします。
+VEC の 3 ステップのガイドによるアクティビティ作成ワークフローから「[!UICONTROL ページ配信]」オプションにアクセスするには、**[!UICONTROL エクスペリエンス]**&#x200B;ステップで、**[!UICONTROL 設定]**（歯車アイコン）／**[!UICONTROL ページ配信]**&#x200B;をクリックします。
 
 ![ページ配信オプションダイアログボックス](/help/c-experiences/assets/page-delivery.png)
 
@@ -389,10 +389,10 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 以下の変更が加えられました。
 
-* 以下の URL にあるホームビューの背景色が変更されました。[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/
-* URLの下にある製品ビューのボタンの色が変更されました。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 次の URL にあるホームビューの背景色が変更されました。[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)
+* 次の URL にある製品ビューのボタンの色が変更されました。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)
 
-上記の例を念頭に置いて、「[!UICONTROL ページ配信]」設定を次の項目のみを含むように設定すると、どうなりますか？at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x* を使用）
+上記の例を念頭に置いて、[!UICONTROL ページ配信]設定を、SPA で [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) のみを含むように設定すると、どうなるでしょうか？（at.js 2.*x* を使用）
 
 ![ページ配信ダイアログボックス](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 **ユーザージャーニー #1**
 
-* ユーザーが[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)に直接移動します。
-* at.js 2.*x* は、Edgeに対してクエリをおこない、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* ユーザーが [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) に直接移動します。
+* at.js 2.*x*&#x200B;は、Edge に対してクエリを行い、URL [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) に対してアクティビティを実行する必要があるかどうかを確認します。
 * 手順 6 で、Target Edge は、ブラウザーでキャッシュできるように、ホームおよび製品ビューに対するアクションを返します。
 
-**結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
+**結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
 
-注意：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に移動するユーザーは、ページ読み込みをトリガーしませんでした。
+注意：ユーザーが [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) に移動しても、ページ読み込みはトリガーされません。
 
 **ユーザージャーニー #2**
 
-* ユーザーが[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に直接移動します。
-* at.js 2.*x* は、Edgeに対してクエリをおこない、URLに対してアクティビティを実行する必要があるかどうかを確認します。[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)に適合するアクティビティはありません。
+* ユーザーが直接 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) に移動します。
+* at.js 2.*x*&#x200B;は、Edge に対してクエリを行い、URL [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) に対してアクティビティを実行する必要があるかどうかを確認します。
+* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) に適合するアクティビティはありません。
 * 適合するアクティビティがないので、トリガーする at.js 2.*x* 用にキャッシュされるアクションおよびビューはありません。
 
-**結果**：製品ビュー用に `triggerView()` を定義して SPA VEC を使用して製品ビューに対してアクションをおこなっても、ページ配信設定に [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products を含むルールを作成していないので、実行されたアクションは表示されません。
+**結果**：製品ビュー用に `triggerView()` を定義し、SPA VEC を使用して製品ビューに対してアクションを行っても、ページ配信設定に [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) を含むルールを作成していないので、実行されたアクションは表示されません。
 
 ### ベストプラクティス
 
@@ -435,8 +435,8 @@ VEC の 3 ステップのガイドによるアクティビティワークフロ�
 
 このメッセージは、作成する新しい各アクティビティ用のビューに最初のアクションを追加すると表示されます。このメッセージは、お客様の組織の全員がこれらの[!UICONTROL ページ配信]ルールを正しく適用する方法を学習するのに役立ちます。
 
-## トレーニングビデオ：Adobe Target での SPA 用 VEC の使用
+## トレーニングビデオ：Adobe Target での SPA VEC の使用
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-詳しくは、Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)での[シングルページアプリケーション用Visual Experience Composer(SPA VEC)の使用を参照してください。
+詳しくは、[Adobe Target でのシングルページアプリケーション Visual Experience Composer（SPA VEC）の使用](https://helpx.adobe.com/jp/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)を参照してください。
