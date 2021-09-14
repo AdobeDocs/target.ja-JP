@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
+source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '611'
+ht-degree: 36%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 8 月 24 日**
+**最終更新日：2021 年 9 月 14 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -27,7 +27,25 @@ ht-degree: 0%
 
 ## [!DNL Target Standard/Premium] 21.9.1（2021年9月15日）
 
-追加情報は、今後1週間以内にこちらに掲載されます。
+このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
+
+* 一部のWebブラウザーで、サードパーティCookieのセキュリティポリシーが新しく設定されたため、お客様が[!UICONTROL Visual Experience Composer](VEC)にログインできなかった問題を修正しました。 この問題は、Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)の「Google Chromeバージョン80以降を使用する場合のVisual Experience Composer(VEC)または拡張Experience Composer(EC)での読み込まれないページ」で説明されました。[
+* VECのオファー名に、オファーのわかりやすい名前ではなくオファーのパスが表示される問題を修正しました。 （TGT-41300）
+* 元のアクティビティに複製されたアクティビティのプロモーションで、誤って適用されたエンティティIDの変更が発生する問題を[!DNL Recommendations]で修正しました。 （TGT-41482）
+* VECの[!DNL Recommendations]アクティビティの[!UICONTROL エクスペリエンス]ページに「条件を編集」ボタンが正しく表示されない問題を修正しました。 （TGT-39512）
+* 複製してテストワークスペースにコピーした場合に、アクティビティの同期ができない問題を修正しました。 （TGT-40686）
+* VECで「[!UICONTROL 後に挿入]」を使用している場合に、[エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)でセレクターを変更できなかった問題を修正しました。 （TGT-41802）
+* オファー内の空のJSONコンテンツがバックエンドに送信されない問題を修正しました。 [!DNL Target] は、空の場合でもJSONオブジェクトを送信するようになりました。（TGT-41555）
+* レポートの表示中に「[!UICONTROL Analyticsで表示]」をクリックすると、従来の[!DNL Analytics]レポートが[!DNL Analysis Workspace]ではなく開く問題を修正しました。 （TGT-41867）
+* 顧客が[!UICONTROL Automated Personalization]アクティビティのレポートソースとして[!DNL Analytics]を選択(A4T)しようとした場合に表示されるUIメッセージに明確な説明を追加しました。 メッセージには、「[!DNL Target]は[!UICONTROL Automated Personalization]アクティビティでサポートされている唯一のソースです」と記載されています。 （TGT-41954）
+* お客様がホストをコンマではなく「改行」で区切る場合のエラーメッセージに説明を追加しました。 （TGT-40671）
+* セグメントの[!UICONTROL タイプ]フィールドを更新し、[!DNL Platform]と[!DNL AAM]([!DNL Adobe Audience Manager])を正確に含めるようにしました。 （TGT-41328）
+* 「[!UICONTROL 保存]」をクリックした後にトラフィックソースのオペランドが変更される問題を修正しました。 （TGT-41408）
+* アクティビティのみのオーディエンス（ルールベースまたは組み合わせ）を保存した後、UIに、アクティビティのみのフィルターが適用された[!UICONTROL Audience]ピッカーが読み込まれるようになりました。 (TGT-41747)。
+* ソース([!DNL Adobe Experience Platform]、[!UICONTROL AAM]など)から削除されたオーディエンスが引き続き[!DNL Target] UIに表示される問題を修正しました。
+* [!UICONTROL オーディエンス]ページにフィルターオプションが追加され、[!DNL Adobe Experience Platform]からインポートされたオーディエンスのみが表示されるようになりました。 （TGT-41298）
+* [!UICONTROL オーディエンス] UIに、キーボードアクセシビリティオプションの機能が強化されました。 （TGT-39927）
+* 一部のアクティビティの「[!UICONTROL 最終更新日]」の日付が、スペイン語および日本語のお客様の英語のUIと異なる問題を修正しました。 （TGT-38980）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

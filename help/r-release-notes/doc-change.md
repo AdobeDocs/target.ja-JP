@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
+source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2341'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 14 月 10 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1（2021年9月15日）リリースに関する情報を追加しました。 この情報は、今後[Targetリリースノート（現行）](/help/r-release-notes/release-notes.md)に移動されます。 |
 | 7 月 10 日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | 「考慮事項」節を更新し、Safari 14.0.2以降を実行するデバイスのターゲティングに関する情報を追加しました。 |
 |  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | `targettype`と`algorithmId`に関する情報を更新しました。[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティで使用される内部識別子です。 |
 | 8 月 24 日 |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [ [!DNL Target]  の実装 | [!DNL Adobe Experience Platform Launch] は、[!DNL Adobe Experience Platform] のデータ収集テクノロジーのスイートとしてリブランドされました。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
