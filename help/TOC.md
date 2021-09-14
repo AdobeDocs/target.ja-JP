@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe [!DNL Target] ガイド
+user-guide-title: Adobe  [!DNL Target]  ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Adobe Target ガイド {#using}
 
-+ [Adobe Targetガイドホーム](target-home.md)
++ [Adobe Target ガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
    + [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
@@ -27,7 +27,7 @@ ht-degree: 100%
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
-   + [Target 主要コンセプト](c-intro/target-key-concepts.md)
+   + [Target  主要コンセプト](c-intro/target-key-concepts.md)
    + [Target の UI について](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/c-intro/target-welcome-kit.md)
@@ -90,12 +90,12 @@ ht-degree: 100%
          + [単一プロファイル更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [顧客属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target セキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [Target  セキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [サポートされているブラウザー](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS（Transport Layer Security）暗号化の変更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + クライアント側 Web：Target の実装 {#client-side}
-      + [概要：Target をクライアント側 Web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+   + クライアント側 web：Target の実装 {#client-side}
+      + [概要：Target をクライアント側 web に実装する](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Adobe Experience Platform Web SDK の実装 {#aep-implementation}
          + [AEP Web SDK の概要](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js の実装 {#at-js-implementation}
@@ -113,7 +113,7 @@ ht-degree: 100%
             + [Adobe Experience Platform を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [タグマネージャーを使用しない Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Dynamic Tag Manager（DTM）を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [単一ページアプリケーション（SPA）への Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [シングルページアプリケーション（SPA）への Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 関数 {#functions-overview}
             + [at.ｊs 関数の概要](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -152,7 +152,7 @@ ht-degree: 100%
       + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target モバイルアプリに関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target  モバイルアプリに関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Location Service の使用](/help/c-target-mobile-app/use-location-service.md)
    + サーバー側：Target の実装 {#server-side}
       + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -189,8 +189,8 @@ ht-degree: 100%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + [Experience Cloud オーディエンス](c-integrating-target-with-mac/mmp.md)
-   + [Target とAdobe Audience Manager の統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
+   + [Target と Adobe Audience Manager の統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
 + アクティビティ {#activities}
    + [アクティビティの概要](c-activities/activities.md)
@@ -222,7 +222,7 @@ ht-degree: 100%
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Target のパーソナライゼーションアルゴリズムのデータのアップロード を参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
@@ -230,7 +230,7 @@ ht-degree: 100%
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューをおこなう](c-activities/t-automated-personalization/experience-preview.md)
+      + [エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
@@ -388,7 +388,7 @@ ht-degree: 100%
          + [静的フィルター](/help/c-recommendations/c-algorithms/static-value.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
       + [複数値の属性の扱い](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Adobe Analytics を Recommendationsと併用する](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Adobe Analytics を Recommendations と併用する](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
