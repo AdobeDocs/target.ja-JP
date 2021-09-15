@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 36%
+source-wordcount: '526'
+ht-degree: 41%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 36%
 
 * 一部のWebブラウザーで、サードパーティCookieのセキュリティポリシーが新しく設定されたため、お客様が[!UICONTROL Visual Experience Composer](VEC)にログインできなかった問題を修正しました。 この問題は、Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)の「Google Chromeバージョン80以降を使用する場合のVisual Experience Composer(VEC)または拡張Experience Composer(EC)での読み込まれないページ」で説明されました。[
 * VECのオファー名に、オファーのわかりやすい名前ではなくオファーのパスが表示される問題を修正しました。 （TGT-41300）
+* エクスペリエンス名がA4Tアクティビティの[!DNL Analysis Workspace]に反映されるようになりました(TGT-38674)
 * 元のアクティビティに複製されたアクティビティのプロモーションで、誤って適用されたエンティティIDの変更が発生する問題を[!DNL Recommendations]で修正しました。 （TGT-41482）
 * VECの[!DNL Recommendations]アクティビティの[!UICONTROL エクスペリエンス]ページに「条件を編集」ボタンが正しく表示されない問題を修正しました。 （TGT-39512）
 * 複製してテストワークスペースにコピーした場合に、アクティビティの同期ができない問題を修正しました。 （TGT-40686）
@@ -39,12 +40,6 @@ ht-degree: 36%
 * レポートの表示中に「[!UICONTROL Analyticsで表示]」をクリックすると、従来の[!DNL Analytics]レポートが[!DNL Analysis Workspace]ではなく開く問題を修正しました。 （TGT-41867）
 * 顧客が[!UICONTROL Automated Personalization]アクティビティのレポートソースとして[!DNL Analytics]を選択(A4T)しようとした場合に表示されるUIメッセージに明確な説明を追加しました。 メッセージには、「[!DNL Target]は[!UICONTROL Automated Personalization]アクティビティでサポートされている唯一のソースです」と記載されています。 （TGT-41954）
 * お客様がホストをコンマではなく「改行」で区切る場合のエラーメッセージに説明を追加しました。 （TGT-40671）
-* セグメントの[!UICONTROL タイプ]フィールドを更新し、[!DNL Platform]と[!DNL AAM]([!DNL Adobe Audience Manager])を正確に含めるようにしました。 （TGT-41328）
-* 「[!UICONTROL 保存]」をクリックした後にトラフィックソースのオペランドが変更される問題を修正しました。 （TGT-41408）
-* アクティビティのみのオーディエンス（ルールベースまたは組み合わせ）を保存した後、UIに、アクティビティのみのフィルターが適用された[!UICONTROL Audience]ピッカーが読み込まれるようになりました。 (TGT-41747)。
-* ソース([!DNL Adobe Experience Platform]、[!UICONTROL AAM]など)から削除されたオーディエンスが引き続き[!DNL Target] UIに表示される問題を修正しました。
-* [!UICONTROL オーディエンス]ページにフィルターオプションが追加され、[!DNL Adobe Experience Platform]からインポートされたオーディエンスのみが表示されるようになりました。 （TGT-41298）
-* [!UICONTROL オーディエンス] UIに、キーボードアクセシビリティオプションの機能が強化されました。 （TGT-39927）
 * 一部のアクティビティの「[!UICONTROL 最終更新日]」の日付が、スペイン語および日本語のお客様の英語のUIと異なる問題を修正しました。 （TGT-38980）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

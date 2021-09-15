@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 57%
 
 ---
 
@@ -24,46 +24,22 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js 2.6.1（2021 年 8 月 16 日）
+## [!DNL Target Standard/Premium] 21.9.1（2021年9月15日）
 
-* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」バグを修正しました。
+このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-## [!DNL Target] node.js SDK 2.2.0（2021 年 8 月 11 日）
-
-* SDK テレメトリデータ収集を追加
-* 配信 API クライアント openapi codegen を自動化
-
-このリリースおよび以前のリリースについて詳しくは、Github の [Target node.js SDK ドキュメント](https://github.com/adobe/target-nodejs-sdk)の[変更ログ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)を参照してください。
-
-## [!DNL Target Standard/Premium] 21.8.1（2021年8月10日（PT））
-
-このメンテナンスリリースには、次の顧客向けの変更を含む、多くのバックエンドの機能強化が含まれています。
-
-* [!UICONTROL フォームベースの Experience Composer ]で作成された[!UICONTROL 自動パーソナライズ機能]アクティビティのレポートで、削除されたオファーが参照される問題を修正しました。この問題により、次のエラーメッセージが表示されました。「このレポートのデータの取得に問題があります。問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-41028）
-
-## [!DNL Target Delivery API]（2021 年 8 月 3 日）
-
-このリリースには、次の機能拡張が含まれています。
-
-* mbox パラメーターの上限が 100 パラメーターに増えました。以前の上限は 50 パラメーターでした。（TNT-41717）
-* `categoryId` の制限が 256 文字に増えました。 以前の上限は 128 文字でした。
-* 配信 API に次の [!DNL Adobe Audience Manager]（AAM）の詳細が追加されました。
-
-   * AAM UUID：ユーザーを一意に識別するために使用される内部 AAM ID。
-   * dataPartnerId：データパートナーの ID。
-   * dataPartnerUserId：データパートナーから提供されたユーザー ID。
-
-   以前は、配信 API には `dcsLocationHint` と `blob` のみが含まれていました。 （TNT-41644）
-
-## at.js 2.6.0（2021 年 7 月 27 日）
-
-* at.js 設定 `secureOnly` が `true` に設定されている場合は常にセキュア属性を cookie に追加するようになりました。
-* `triggerView()` を使用する際に応答トークンを使用できるようになりました。
-* `CONTENT_RENDERING_NO_OFFERS` イベントに関連する問題を修正しました。これで、[!DNL Target] からコンテンツが返されない場合は常に、このイベントが正しくトリガーされます。
-* `prefetch` リクエストを使用したときに、[!DNL Analytics for Target]（A4T）のクリック指標の詳細が正しく返されます。
-* UUID の生成では、`Math.random()` を使用しなくなり、`window.crypto` に基づくようになりました。
-* `sessionId` cookie の有効期限は、すべてのネットワーク呼び出しで正しく延長されます。
-* [!UICONTROL 単一ページアプリケーション]（SPA）ビューキャッシュの初期化が正しく処理され、`viewsEnable` 設定に従うようになりました。
+* 一部のWebブラウザーで、サードパーティCookieのセキュリティポリシーが新しく設定されたため、お客様が[!UICONTROL Visual Experience Composer](VEC)にログインできなかった問題を修正しました。 この問題は、Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)の「Google Chromeバージョン80以降を使用する場合のVisual Experience Composer(VEC)または拡張Experience Composer(EC)での読み込まれないページ」で説明されました。[
+* VECのオファー名に、オファーのわかりやすい名前ではなくオファーのパスが表示される問題を修正しました。 （TGT-41300）
+* エクスペリエンス名がA4Tアクティビティの[!DNL Analysis Workspace]に反映されるようになりました(TGT-38674)
+* 元のアクティビティに複製されたアクティビティのプロモーションで、誤って適用されたエンティティIDの変更が発生する問題を[!DNL Recommendations]で修正しました。 （TGT-41482）
+* VECの[!DNL Recommendations]アクティビティの[!UICONTROL エクスペリエンス]ページに「条件を編集」ボタンが正しく表示されない問題を修正しました。 （TGT-39512）
+* 複製してテストワークスペースにコピーした場合に、アクティビティの同期ができない問題を修正しました。 （TGT-40686）
+* VECで「[!UICONTROL 後に挿入]」を使用している場合に、[エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)でセレクターを変更できなかった問題を修正しました。 （TGT-41802）
+* オファー内の空のJSONコンテンツがバックエンドに送信されない問題を修正しました。 [!DNL Target] は、空の場合でもJSONオブジェクトを送信するようになりました。（TGT-41555）
+* レポートの表示中に「[!UICONTROL Analyticsで表示]」をクリックすると、従来の[!DNL Analytics]レポートが[!DNL Analysis Workspace]ではなく開く問題を修正しました。 （TGT-41867）
+* 顧客が[!UICONTROL Automated Personalization]アクティビティのレポートソースとして[!DNL Analytics]を選択(A4T)しようとした場合に表示されるUIメッセージに明確な説明を追加しました。 メッセージには、「[!DNL Target]は[!UICONTROL Automated Personalization]アクティビティでサポートされている唯一のソースです」と記載されています。 （TGT-41954）
+* お客様がホストをコンマではなく「改行」で区切る場合のエラーメッセージに説明を追加しました。 （TGT-40671）
+* 一部のアクティビティの「[!UICONTROL 最終更新日]」の日付が、スペイン語および日本語のお客様の英語のUIと異なる問題を修正しました。 （TGT-38980）
 
 ## その他のリリースノートとバージョンの詳細
 
