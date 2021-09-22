@@ -1,20 +1,19 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソースのVelocityデザイン言語を使用して、Adobe [!DNL Target] Recommendationsのレコメンデーションデザインをカスタマイズする方法を学びます。
+description: オープンソースのVelocityデザイン言語を使用して、Adobe [!DNL Target] Recommendationsでレコメンデーションデザインをカスタマイズする方法を説明します。
 title: Velocityを使用してデザインをカスタマイズする方法を教えてください。
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Velocity を使用したデザインのカスタマイズ
 
-[!DNL Adobe Target Recommendations]でレコメンデーションデザインをカスタマイズするには、オープンソースのVelocityデザイン言語を使用します。
+オープンソースのVelocityデザイン言語を使用して、[!DNL Adobe Target Recommendations]のレコメンデーションデザインをカスタマイズします。
 
 ## Velocity の概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -64,7 +63,7 @@ Velocity 変数について詳しくは、[https://velocity.apache.org/engine/re
 
 >[!NOTE]
 >
->デザインで参照できるエンティティの最大数は、ハードコードまたはループ経由で、99です。 テンプレートスクリプトには、最大 65,000 文字を含めることができます。
+>デザインで参照できるエンティティの最大数は、ハードコードでもループ経由でも99です。 テンプレートスクリプトには、最大 65,000 文字を含めることができます。
 
 例えば、デザインに次のような内容を表示するとします。
 
@@ -119,28 +118,28 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->変数の値の後に、変数名を示すタグの前にテキストを追加する場合は、変数名を正式な表記で囲みます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
+>変数名を示すタグの前に、変数の値の後にテキストを追加する場合は、正式な表記法を使用して変数名を囲むことができます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
 また、デザインで `algorithm.name` と `algorithm.dayCount` を変数として使用できるので、1 つのデザインで複数の条件をテストでき、条件名をデザインに動的に表示できます。これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの変数はまた `dayCount`（「過去 2 日間のトップセラー」などのように、データがその条件で使用された日数）の表示にも使用できます。
 
 ## Velocityテンプレートでの数値の操作
 
-デフォルトでは、Velocityテンプレートでは、すべてのエンティティ属性が文字列値として扱われます。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱う必要がある場合があります。 エンティティ属性を数値として扱うには、次の手順に従います。
+デフォルトでは、Velocityテンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱う必要がある場合があります。 エンティティ属性を数値として扱うには、次の手順に従います。
 
-1. ダミー変数を宣言し、任意の整数または重複値に初期化します。
-1. 使用するエンティティ属性が空白でないことを確認します(ターゲットRecommendationsのテンプレートパーサーがテンプレートを検証して保存するために必要です)。
-1. エンティティ属性を手順1で作成したダミー変数の`parseInt`または`parseDouble`メソッドに渡し、文字列を整数または重複値にします。
-1. 新しい数値に対して数学演算または比較を実行します。
+1. ダミー変数を宣言し、任意の整数またはdouble値に初期化します。
+1. 使用するエンティティ属性が空白でないことを確認します(Target Recommendationsのテンプレートパーサーがテンプレートを検証および保存するために必要)。
+1. 手順1で作成したダミー変数の`parseInt`メソッドまたは`parseDouble`メソッドにエンティティ属性を渡し、文字列を整数値またはdouble値に変換します。
+1. 新しい数値に対して計算演算または比較を実行します。
 
 ### 例：割引価格の計算
 
-値引きを適用するために、品目の表示価格を$0.99ずつ下げたいとします。 この結果を得るには、次の方法を使用できます。
+値引きを適用するために、品目の表示価格を$0.99減らすとします。 この結果を得るには、次の方法を使用できます。
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
@@ -149,13 +148,13 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ### 例：項目の評価に基づいて表示する星の数を選択する
 
-品目の平均顧客評価に基づいて、適切な数の星を表示したいとします。 この結果を得るには、次の方法を使用できます。
+品目の数値平均顧客評価に基づいて適切な数の星を表示するとします。 この結果を得るには、次の方法を使用できます。
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -172,7 +171,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 例：項目の長さ（分）に基づく時間と分の計算
+### 例：項目の長さ（分）に基づく時間と分の時間の計算
 
 ムービーの長さを分単位で格納し、長さを時間と分単位で表示するとします。 この結果を得るには、次の方法を使用できます。
 
@@ -185,7 +184,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 主要品目とレコメンデーション商品の表示{#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 重要品目と推奨商品の表示 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 他の推奨商品と並べて重要品目を表示するようにデザインを変更することができます。例えば、レコメンデーションの隣に参考のため現在の品目を表示してみてはどうでしょうか。
 
@@ -208,9 +207,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 [!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 
-## 文字列値{#section_01F8C993C79F42978ED00E39956FA8CA}で置換を実行
+## 文字列値での置換の実行 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-文字列内の値を置き換えるようにデザインを変更できます。 例えば、米国で使用されている小数点の区切り文字を、ヨーロッパや他の国で使用されているコンマ区切り文字に置き換えます。
+デザインを変更して、文字列内の値を置き換えることができます。 例えば、米国で使用されている小数点の区切り文字を、ヨーロッパや他の国で使用されているコンマ区切りに置き換えます。
 
 次のコードは、条件付き販売価格の例にある 1 行を示しています。
 
@@ -234,7 +233,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## テンプレートサイズのカスタマイズと空白値の確認{#default}
+## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
 エンティティ表示の動的サイズ変更を制御するために Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
 
