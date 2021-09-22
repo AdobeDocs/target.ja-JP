@@ -5,9 +5,9 @@ title: targetGlobalSettings()関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2332'
 ht-degree: 30%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 30%
 
 * **型**:Boolean
 * **デフォルト値**:false
-* **説明**:at.jsでHTTPSのみを使用するか、ページのプロトコルに基づいてHTTPとHTTPSとの切り替えを許可するかを示します。
+* **説明**:at.jsでHTTPSのみを使用するか、ページのプロトコルに基づいてHTTPとHTTPSとの切り替えを許可するかを示します。trueに設定した場合、secureOnlyはSecure属性とSameSite属性もmbox Cookieに設定します。
 
 ### selectorsPollingTimeout
 

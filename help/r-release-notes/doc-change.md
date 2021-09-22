@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 98%
+source-wordcount: '2520'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 22 月 10 日 | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | 次の考慮事項を追加しました。<ul><li>クリック追跡指標は、アクティビティの特定のエクスペリエンスにリンクされていません。</li><li>クリック追跡指標の範囲を制限する必要がある場合は、オーディエンスを使用します。</li><li>複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がこれらのアクティビティの1つに該当し、そのセレクターをクリックすると、クリック追跡指標は、訪問者が該当するすべての関連アクティビティに対して増加します。</li></ul> |
+|  |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [ [!DNL Target]  の実装 | 「[!DNL Target]拡張機能を使用してat.jsを実装するメリット」の節に注意を追加しました。 |
+|  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 「注意点」節を新しい情報に更新しました。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「secureOnly」節を更新しました。 |
+|  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 次のFAQを更新しました。「at.jsで常にHttpOnlyおよびSecureのCookieフラグが使用されないのはなぜですか？」 |
 | 14 月 10 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.8.1（2021 年 8 月 10 日）
