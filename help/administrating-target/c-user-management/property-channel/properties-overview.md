@@ -5,9 +5,9 @@ title: Enterprise 権限の設定方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 63%
 
 ---
@@ -142,9 +142,9 @@ ht-degree: 63%
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
-   * **次のタグのグローバルパラメーターを使用  [!DNL Adobe Experience Platform]:**
+   * **次の内のタグの「カスタムパラメーター」を使用 [!DNL Adobe Experience Platform]:**
 
-      詳しくは、*タグの概要* ドキュメントの [ グローバルターゲットパラメーターの追加 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) を参照してください。
+      詳しくは、*タグの概要* ドキュメントの [Mbox パラメーターの追加 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) を参照してください。
 
    * **targetPageParamsAll() 関数を使用：** 次のコードを `<head>` タグの at.js 参照の上に配置します。
 
