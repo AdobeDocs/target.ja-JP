@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2613'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 93%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10 月 1 日 | アクティビティ情報を [!DNL Adobe Analytics] に送信 | [!DNL Target] モバイルアプリのアクティビティ情報を [!DNL Analytics] に送信してセグメント化した後に必要となる手順がなくなったので、トピック全体を削除しました。 |
-|  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 手順 2 で `targetPageParams` を `targetPageParamsAll` に変更しました。 |
+|  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「手順 5 `at_property` パラメーターを含めるように実装を更新する」の `targetPageParams` を `targetPageParamsAll` に変更しました。 |
 | 9月27日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021 年 10 月 13 日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
 | 9月22日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | コードサンプルの `$Double` を `$double` に変更し、曖昧さを防ぎました。 |
 |  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 以下の FAQ を更新しました。<ul><li>[!DNL Recommendations] デザインにプロファイルスクリプトを使用できますか？</li></ul> |
