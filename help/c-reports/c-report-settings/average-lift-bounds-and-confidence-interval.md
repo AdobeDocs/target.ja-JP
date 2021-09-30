@@ -4,9 +4,9 @@ description: アクティビティの上昇率範囲と信頼水準を理解す�
 title: 平均上昇率、上昇率範囲および信頼区間を表示する方法を教えてください。
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 71%
 
 ## 上昇率の信頼区間の決定方法の理解 {#pdf}
 
-詳しくは、[ 上昇率の信頼区間 ](/help/assets/confidence_interval_lift.pdf) をダウンロードしてください。
+詳しくは、[ 上昇率 pdf ファイルの信頼区間 ](/help/assets/confidence_interval_lift.pdf) をダウンロードしてください。
 
 ## 上昇率範囲はどのように計算されますか？ {#section_1D360781D972483693680BE0F07AEAD1}
 

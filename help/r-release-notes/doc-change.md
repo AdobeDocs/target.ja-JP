@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '2633'
-ht-degree: 93%
+source-wordcount: '2634'
+ht-degree: 92%
 
 ---
 
