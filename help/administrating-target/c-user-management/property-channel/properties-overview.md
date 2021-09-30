@@ -5,9 +5,9 @@ title: Enterprise 権限の設定方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ ht-degree: 63%
 1. [!DNL Target] で、**[!UICONTROL 管理]** /**[!UICONTROL プロパティ]** をクリックして、[!UICONTROL  プロパティ ] リストを表示します。
 1. 「**プロパティを作成**」をクリックします。
 
-   ![新規プロパティダイアログボックス](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    以下のフィールドを設定します。
 
    * **プロパティ名（必須）:** プロパティのわかりやすい名前を指定します。
@@ -144,7 +142,7 @@ ht-degree: 63%
 
    [!DNL Target] 実装を更新するには、いくつかの方法があります。例えば、Web ページには次の方法を使用できます。
 
-   * **次のタグの「グローバルパラメーター」を使用  [!DNL Adobe Experience Platform]:**
+   * **次のタグのグローバルパラメーターを使用  [!DNL Adobe Experience Platform]:**
 
       詳しくは、*タグの概要* ドキュメントの [ グローバルターゲットパラメーターの追加 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) を参照してください。
 
@@ -161,12 +159,6 @@ ht-degree: 63%
       ```
 
       at.js でこれをおこなう方法について詳しくは、[targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) を参照してください。
-
-   * **mboxCreate() 関数を使用：**
-
-      ![](assets/property_token_3.png)
-
-      at.js を使用してこれをおこなう方法については、  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)を参照してください。
 
 ## 手順 6:役割と権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
