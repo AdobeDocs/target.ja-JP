@@ -3,9 +3,9 @@ user-guide-title: Adobe  [!DNL Target]  ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 100%
       + [SDK での Target の有効化](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - Target の位置と成功指標の作成](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - カスタムユーザーデータの送信](c-target-mobile-app/mobile-custom-user-data.md)
-      + [アクティビティ情報の Adobe Analytics への送信](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
       + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
       + [Target  モバイルアプリに関する FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
