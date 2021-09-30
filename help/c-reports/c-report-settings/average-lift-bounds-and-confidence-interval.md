@@ -4,7 +4,7 @@ description: アクティビティの上昇率範囲と信頼水準を理解す�
 title: 平均上昇率、上昇率範囲および信頼区間を表示する方法を教えてください。
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 71%
@@ -111,7 +111,7 @@ ht-degree: 71%
 >
 >上記の数式とレポートに表示される数値を使用して、手動の計算の差異を最小にします。この差の原因は、手動計算で使用されるページビュー数が丸められていることにあります。[!DNL Target] レポートに表示される上昇率は、合計エンゲージメント数とエンゲージメント数から得られた正確な数値に基づいています。 エンゲージメントの数値は、パフォーマンスレポート API を介して取得できます。
 
-## 上昇率範囲が表示されない状況 {#section_C5622E1E94684DAD937249B51A9E42CC}
+## 上昇率範囲が表示されないのはいつですか？ {#section_C5622E1E94684DAD937249B51A9E42CC}
 
 場合によっては、[!DNL Target] に上昇率範囲が表示されないことがあります。
 
