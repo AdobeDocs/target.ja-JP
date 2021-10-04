@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 月 4 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.1リリース（2021 年 10 月 7 日）のプレリリースノートを更新しました。 |
 | 10 月 1 日 | アクティビティ情報を [!DNL Adobe Analytics] に送信 | [!DNL Target] モバイルアプリのアクティビティ情報を [!DNL Analytics] に送信してセグメント化した後に必要となる手順がなくなったので、トピック全体を削除しました。 |
 |  | [平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 上昇率の信頼区間の計算方法を説明する pdf ファイルを追加しました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「手順 5 `at_property` パラメーターを含めるように実装を更新する」の `targetPageParams` を `targetPageParamsAll` に変更しました。 |

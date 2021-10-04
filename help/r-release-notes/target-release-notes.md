@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 9 月 27 日**
+**最終更新日：2021 年 10 月 5 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -32,6 +32,7 @@ ht-degree: 93%
 | 機能 | 詳細 |
 | --- | --- |
 | オーディエンス UI の更新 | パフォーマンスの向上、新機能のリリース時に必要なメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスを改善できるよう、新しいテクニカルスタックを使用して [!DNL Target] UI 全体を徐々に書き換えました。[ 管理 ](/help/administrating-target/administrating-target.md) の節は、2020 年に更新されました。 [!UICONTROL  オーディエンス ] セクションは、2 番目に大きな UI の更新です。 |
+| ![Premium バッ](/help/assets/premium.png) ジ Recommendations 条件の作成と編集 | [!UICONTROL Recommendations条件 ] の作成および編集ワークフローが簡素化され、目標を達成するための適切なレコメンデーションアルゴリズムと設定の選択が簡単になりました。 |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
