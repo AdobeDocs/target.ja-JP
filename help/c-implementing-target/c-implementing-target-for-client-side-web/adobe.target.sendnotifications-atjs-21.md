@@ -1,14 +1,13 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;関数
-description: at.jsのadobe.ターゲット.sendNotifications()を使用して、applyOfferを使用せずにエクスペリエンスがレンダリングされた場合に、 [!DNL Target] エッジに通知を送信します。 (at.js.2.1 +)
-title: adobe.ターゲット.sendNotifications()関数の使用方法を教えてください。
+description: applyOffer を使用してエクスペリエンスがレンダリングされない場合は、at.js の adobe.target.sendNotifications() を使用して、 [!DNL Target]  エッジに通知を送信します。 （at.js.2.1 以降）
+title: adobe.target.sendNotifications() 関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 94%
 
 ---
@@ -35,8 +34,8 @@ ht-degree: 94%
 | Request > notifications > address | オブジェクト | × |  |  |
 | Request > notifications > address > url | 文字列 | × |  | 通知の送信元の URL。 |
 | Request > notifications > address > referringUrl | 文字列 | × |  | 通知の送信元のリファラル URL。 |
-| Request > notifications > parameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
-| Request > notifications > profileParameters | オブジェクト | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request > notifications > parameters | 文字列 | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
+| Request > notifications > profileParameters | 文字列 | × | 以下の名前はパラメーターに使用できません。<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>次の点に留意してください。<ul><li>最大 50 パラメーターの制限。</li><li>パラメーター名は空にできない。</li><li>パラメーター名の最大長は 128。</li><li>パラメーター名は「profile」で始めることはできない。</li><li>パラメーター値最大長は 5000。</li></ul> |  |
 | Request > notifications > order | オブジェクト | × |  | 注文の詳細を説明するオブジェクト。 |
 | Request > notifications > order > id | 文字列 | × | `<=` 250 文字。 | 注文 ID。 |
 | Request > notifications > order > total | 文字列 | × | `>=` 0 | 合計注文額。 |
@@ -58,7 +57,7 @@ ht-degree: 94%
 | Request > notifications > view > key | 文字列 | × | `<=` 512 文字。 | ビューキー。API でビューに設定されたキー。 |
 | Request > notifications > view > state | 文字列 | × |  | ビュー状態トークン。 |
 
-**注意**:次の文字は使用で ** きません `Request > notifications > mbox > name`:
+**注意**:次の文字は使用で ** きま `Request > notifications > mbox > name`せん。
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
