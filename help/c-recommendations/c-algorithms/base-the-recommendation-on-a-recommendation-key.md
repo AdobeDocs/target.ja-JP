@@ -5,9 +5,9 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3142'
 ht-degree: 47%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 47%
 >
 >[!UICONTROL 最近表示され] た項目は、アクティビティの除外のグローバル設定と選択したコレクション設定の両方を考慮します。項目がグローバル除外によって除外された場合、または選択したコレクションに含まれていない場合、項目は表示されません。したがって、[!UICONTROL  最近表示された項目 ] の条件を使用する場合は、通常、「すべてのコレクション」設定を使用する必要があります。
 
-### お勧め {#user-based}
+### お勧め {#recommended-for-you}
 
 各訪問者の閲覧、表示および購入履歴に基づいて品目をレコメンドします。
 
