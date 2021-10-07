@@ -5,7 +5,7 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 93bcfdf291892f5e0c3c16dbe553c2a33d74248c
+source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 59%
@@ -30,8 +30,8 @@ ht-degree: 59%
 
 | 機能 | 詳細 |
 | --- | --- |
-|  AudiencesUI の更新 | [!DNL Adobe Target] チームが継続的に [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための取り組みの一環として、このリリースでは、[!DNL Target] UI の [!UICONTROL Audiences] ページと [!UICONTROL  プロファイルスクリプト ] ページを更新します。 この更新により、以前は一貫性がなかったデザインパターンを統合および標準化し、次のような新しい機能強化を追加しました。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>更新された [audience builder デザイン ](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL  オーディエンス ] ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索およびフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:新しい  Audiences と Profile  [!UICONTROL ScriptsUI] は、来週すべての地域に展開されます。 |
-| [!UICONTROL プロファイル] スクリプト UI の更新 | [!UICONTROL  プロファイルスクリプト ] ライブラリも更新され、更新されたインターフェイスと複数の生産性の更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内での構文のハイライトとエラーチェック</li><li>キーボードショートカットを使用したオートコンプリートトークン（mbox またはプロファイル）パラメーター</li></ul>詳しくは、[ 訪問者プロファイル ](/help/c-target/c-visitor-profile/visitor-profile.md) を参照してください。<br>**注意**:新しい  Audiences と Profile  [!UICONTROL ScriptsUI] は、来週すべての地域に展開されます。 |
+|  AudiencesUI の更新 | [!DNL Adobe Target] チームが継続的に [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための取り組みの一環として、このリリースでは、[!DNL Target] UI の [!UICONTROL Audiences] ページと [!UICONTROL  プロファイルスクリプト ] ページを更新します。 この更新により、以前は一貫性がなかったデザインパターンを統合および標準化し、次のような新しい機能強化を追加しました。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>更新された [audience builder デザイン ](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL  オーディエンス ] ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索およびフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:新しいオーディエ  ンスとプ [!UICONTROL ロフ] ァイルスクリプト UI は、来週すべての地域に展開されます。 |
+| [!UICONTROL プロファイル] スクリプト UI の更新 | [!UICONTROL  プロファイルスクリプト ] ライブラリも更新され、更新されたインターフェイスと複数の生産性の更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内での構文のハイライトとエラーチェック</li><li>キーボードショートカットを使用したオートコンプリートトークン（mbox またはプロファイル）パラメーター</li></ul>詳しくは、[ 訪問者プロファイル ](/help/c-target/c-visitor-profile/visitor-profile.md) を参照してください。<br>**注意**:新しいオーディエ  ンスとプ [!UICONTROL ロフ] ァイルスクリプト UI は、来週すべての地域に展開されます。 |
 | ![Premium バッ](/help/assets/premium.png) ジ Recommendations 条件の作成と編集 | [!UICONTROL Recommendations条件 ] の作成および編集ワークフローが簡素化され、目標を達成するために適切なレコメンデーションアルゴリズムと設定を簡単に選択できるようになりました。<br>詳しくは、条件の作成を参照 [してください](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![Premium バッ](/help/assets/premium.png) ジ Recommendations のルックバックウィンドウとアルゴリズムの更新率の改善 | 「最も多く閲覧された」および「トップセラー」アルゴリズムを 6 時間のルックバックウィンドウで実行して、最近トレンドを示すコンテンツを取り込めるようになりました。 6 時間のルックバックウィンドウを選択すると、レコメンデーションの結果は 1 日を通じて 3 ～ 6 時間ごとに更新されます。<br>詳しくは、「条件の作成」の「デ [ータソ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) ー *ス*」を参照してください。 |
 
