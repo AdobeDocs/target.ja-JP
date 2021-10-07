@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
+source-git-commit: 874c27fe7d0144b0485545cf687d50215309d416
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 57%
+source-wordcount: '714'
+ht-degree: 58%
 
 ---
 
@@ -24,22 +24,16 @@ ht-degree: 57%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## [!DNL Target Standard/Premium] 21.9.1（2021年9月15日）
+## [!DNL Target Standard/Premium] 21.10.1（2021 年 10 月 7 日）
 
-このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
+このリリースには、次の新機能が含まれています。
 
-* 一部のWebブラウザーで、サードパーティCookieのセキュリティポリシーが新しく設定されたため、お客様が[!UICONTROL Visual Experience Composer](VEC)にログインできなかった問題を修正しました。 この問題は、Visual Experience Composerと拡張Experience Composerに関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)の「Google Chromeバージョン80以降を使用する場合のVisual Experience Composer(VEC)または拡張Experience Composer(EC)での読み込まれないページ」で説明されました。[
-* VECのオファー名に、オファーのわかりやすい名前ではなくオファーのパスが表示される問題を修正しました。 （TGT-41300）
-* エクスペリエンス名がA4Tアクティビティの[!DNL Analysis Workspace]に反映されるようになりました(TGT-38674)
-* 元のアクティビティに複製されたアクティビティのプロモーションで、誤って適用されたエンティティIDの変更が発生する問題を[!DNL Recommendations]で修正しました。 （TGT-41482）
-* VECの[!DNL Recommendations]アクティビティの[!UICONTROL エクスペリエンス]ページに「条件を編集」ボタンが正しく表示されない問題を修正しました。 （TGT-39512）
-* 複製してテストワークスペースにコピーした場合に、アクティビティの同期ができない問題を修正しました。 （TGT-40686）
-* VECで「[!UICONTROL 後に挿入]」を使用している場合に、[エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)でセレクターを変更できなかった問題を修正しました。 （TGT-41802）
-* オファー内の空のJSONコンテンツがバックエンドに送信されない問題を修正しました。 [!DNL Target] は、空の場合でもJSONオブジェクトを送信するようになりました。（TGT-41555）
-* レポートの表示中に「[!UICONTROL Analyticsで表示]」をクリックすると、従来の[!DNL Analytics]レポートが[!DNL Analysis Workspace]ではなく開く問題を修正しました。 （TGT-41867）
-* 顧客が[!UICONTROL Automated Personalization]アクティビティのレポートソースとして[!DNL Analytics]を選択(A4T)しようとした場合に表示されるUIメッセージに明確な説明を追加しました。 メッセージには、「[!DNL Target]は[!UICONTROL Automated Personalization]アクティビティでサポートされている唯一のソースです」と記載されています。 （TGT-41954）
-* お客様がホストをコンマではなく「改行」で区切る場合のエラーメッセージに説明を追加しました。 （TGT-40671）
-* 一部のアクティビティの「[!UICONTROL 最終更新日]」の日付が、スペイン語および日本語のお客様の英語のUIと異なる問題を修正しました。 （TGT-38980）
+| 機能 | 詳細 |
+| --- | --- |
+|  AudiencesUI の更新 | [!DNL Adobe Target] チームが継続的に [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための取り組みの一環として、このリリースでは、[!DNL Target] UI の [!UICONTROL Audiences] ページと [!UICONTROL  プロファイルスクリプト ] ページを更新します。 この更新により、以前は一貫性がなかったデザインパターンを統合および標準化し、次のような新しい機能強化を追加しました。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>更新された [audience builder デザイン ](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL  オーディエンス ] ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索およびフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:この UI の更新は、EMEA 地域のお客様にのみ影響します。北米を含む世界の他の地域のお客様は、来週更新された UI を参照します。 |
+| [!UICONTROL プロファイル] スクリプト UI の更新 | [!UICONTROL  プロファイルスクリプト ] ライブラリも更新され、更新されたインターフェイスと複数の生産性の更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内での構文のハイライトとエラーチェック</li><li>キーボードショートカットを使用したオートコンプリートトークン（mbox またはプロファイル）パラメーター</li></ul>詳しくは、[ 訪問者プロファイル ](/help/c-target/c-visitor-profile/visitor-profile.md) を参照してください。<br>**注意**:この UI の更新は、EMEA 地域のお客様にのみ影響します。北米を含む世界の他の地域のお客様は、来週更新された UI を参照します。 |
+| ![Premium バッ](/help/assets/premium.png) ジ Recommendations 条件の作成と編集 | [!UICONTROL Recommendations条件 ] の作成および編集ワークフローが簡素化され、目標を達成するために適切なレコメンデーションアルゴリズムと設定を簡単に選択できるようになりました。<br>詳しくは、条件の作成を参照 [してください](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
+| ![Premium バッ](/help/assets/premium.png) ジ Recommendations のルックバックウィンドウとアルゴリズムの更新率の改善 | 「最も多く閲覧された」および「トップセラー」アルゴリズムを 6 時間のルックバックウィンドウで実行して、最近トレンドを示すコンテンツを取り込めるようになりました。 6 時間のルックバックウィンドウを選択すると、レコメンデーションの結果は 1 日を通じて 3 ～ 6 時間ごとに更新されます。<br>詳しくは、「条件の作成」の「デ [ータソ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) ー *ス*」を参照してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
