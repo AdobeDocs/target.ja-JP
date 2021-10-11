@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2741'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 91%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 月 11 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2リリース（2021 年 10 月 14 日）に関する情報を追加しました。 |
 | 10 月 6 日 | [でのオーディエンスの構築 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新された [!DNL Target] [!UICONTROL  オーディエンス ] UI を反映するように、テキストと画像を更新しました。 [!UICONTROL Audiences] のトピックでも同様の変更が行われました。 |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 以下の節を更新しました。<ul><li>基本情報</li><li>データソース</li></ul> |
 |  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 手順を更新して新しいワークフローを反映しました。 |
