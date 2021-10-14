@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 91%
+source-wordcount: '2778'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 91%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 月 15 日 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 次の FAQ を追加しました。&quot;[!UICONTROL  自動配分 ] アクティビティの最適化目標としてセグメントを適用した二項 [!DNL Analytics] 指標を使用できますか？&quot; |
 | 10 月 14 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.10.2 | [!DNL Target Standard/Premium] 21.10.2リリース（2021 年 10 月 14 日）に関する情報を追加しました。 |
 | 10 月 11 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2リリース（2021 年 10 月 14 日）に関する情報を追加しました。 |
 | 10 月 6 日 | [でのオーディエンスの構築 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新された [!DNL Target] [!UICONTROL  オーディエンス ] UI を反映するように、テキストと画像を更新しました。 [!UICONTROL Audiences] のトピックでも同様の変更が行われました。 |
