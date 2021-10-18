@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 66%
 
 ---
 
@@ -25,37 +25,15 @@ ht-degree: 55%
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 14 日）
+## [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 20 日）
 
-[!DNL Target] [!UICONTROL Audiences] を [!DNL Adobe Experience Platform Web SDK] と共に使用する際の機能強化：
+このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-* [!DNL Target] UI の様々な場所に、オーディエンスがソースで削除され、[!DNL Target] アクティビティで使用できなくなったことを示す警告アイコン、ポッバーおよびメッセージを追加しました。
-
-   次の図は、アイコン、ポッパー、メッセージが表示される場所の一部を示しています。
-
-   *  Activitylist ページ
-
-      ![アクティビティリストページのソースメッセージで削除されたオーディエンス](assets/deleted-at-source-audiences-list.png)
-
-   * アクティビティ [!UICONTROL  概要 ] ページ：
-
-      ![概要ページのソースメッセージで削除されたオーディエンス](assets/deleted-at-source-overview.png)
-
-   *  アクティビティ作成ワークフローのエクスペリエンスステップ：
-
-      ![オーディエンスが Experiences ページのソースメッセージで削除  された](assets/deleted-at-source-experiences.png)
-
-   *  アクティビティ作成ワークフローのターゲティングステップ：
-
-      ![オーディエンスがターゲティングページのソースメッセージで削除  された](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL アクティビテ] ィ作成ワークフローの目標と設定ステップ：
-
-      ![目標と設定ページのソースメッセージでオーディエ [!UICONTROL ンスが削除さ] れた](assets/deleted-at-source-goals-settings.png)
-
-   * オーディエンスの絞り込み（アクティビティ作成ワークフローの [!UICONTROL  ターゲティング ] ステップで、オーディエンス ] を置き換える）:[!UICONTROL 
-
-* オーディエンスを結合機能を使用しようとしたときに、いずれかのオーディエンスがソースで削除された場合、[!UICONTROL  保存 ] は無効になります。
+* お客様が [!UICONTROL A4T] パネル [!DNL Analysis Workspace] クリックして [!UICONTROL Analytics で表示] ボタン [!DNL Target] アクティビティレポート。 （TGT-42099、TGT-42100）
+* 「 [!UICONTROL デザインを編集] ボタンが編集中に表示されない [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ [!UICONTROL フォームベースの Experience Composer]. （TGT-41980）
+* 「 [!UICONTROL 互換性] 新しい作成時の条件選択での表示からのチェックボックス [!UICONTROL Recommendations] アクティビティ。 （TGT-42053）
+* を選択できない場合に誤ったエラーメッセージが表示される問題を修正しました。 [!DNL Analytics] が不足しているため、レポートソース (A4T) として [!DNL Analytics] 権限。 （TGT-41954）
+* 複数のアクセシビリティ修正を実装し、 [!DNL Target] UI
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
