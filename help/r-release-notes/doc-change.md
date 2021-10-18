@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 90%
 
 ---
@@ -19,10 +19,11 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10 月 15 日 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 次の FAQ を追加しました。&quot;[!UICONTROL  自動配分 ] アクティビティの最適化目標としてセグメントを適用した二項 [!DNL Analytics] 指標を使用できますか？&quot; |
-| 10 月 14 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.10.2 | [!DNL Target Standard/Premium] 21.10.2リリース（2021 年 10 月 14 日）に関する情報を追加しました。 |
+| 10 月 19 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | に関する [!DNL Target Standard/Premium] 21.10.3リリース（2021 年 10 月 20 日）。 |
+| 10 月 15 日 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 次の FAQ を追加しました。「二項式 [!DNL Analytics] 指標を選択し、 [!UICONTROL 自動配分] 活動？」 |
+| 10 月 14 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.10.2 | に関する [!DNL Target Standard/Premium] 21.10.2リリース（2021 年 10 月 14 日）。 |
 | 10 月 11 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2リリース（2021 年 10 月 14 日）に関する情報を追加しました。 |
-| 10 月 6 日 | [でのオーディエンスの構築 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新された [!DNL Target] [!UICONTROL  オーディエンス ] UI を反映するように、テキストと画像を更新しました。 [!UICONTROL Audiences] のトピックでも同様の変更が行われました。 |
+| 10 月 6 日 | [でのオーディエンスの構築 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新された [!DNL Target] [!UICONTROL Audiences] UI 同様の変更が [!UICONTROL Audiences] トピック |
 |  | [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 以下の節を更新しました。<ul><li>基本情報</li><li>データソース</li></ul> |
 |  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 手順を更新して新しいワークフローを反映しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
@@ -32,14 +33,14 @@ ht-degree: 90%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10 月 4 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.1リリース（2021 年 10 月 7 日）のプレリリースノートを更新しました。 |
-| 10 月 1 日 | アクティビティ情報を [!DNL Adobe Analytics] に送信 | [!DNL Target] モバイルアプリのアクティビティ情報を [!DNL Analytics] に送信してセグメント化した後に必要となる手順がなくなったので、トピック全体を削除しました。 |
+| 10 月 1 日 | アクティビティ情報の送信先 [!DNL Adobe Analytics] | 説明した手順が送信に必要なくなったので、トピック全体を削除しました。 [!DNL Target] モバイルアプリのアクティビティ情報 [!DNL Analytics] （非定期的セグメント化後） |
 |  | [平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 上昇率の信頼区間の計算方法を説明する pdf ファイルを追加しました。 |
-|  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「手順 5 `at_property` パラメーターを含めるように実装を更新する」の `targetPageParams` を `targetPageParamsAll` に変更しました。 |
+|  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 変更済み `targetPageParams` を `targetPageParamsAll` 「手順 5 実装を更新し、 `at_property` パラメーター」 |
 | 9月27日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021 年 10 月 13 日水曜日</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
-| 9月22日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | コードサンプルの `$Double` を `$double` に変更し、曖昧さを防ぎました。 |
-|  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 以下の FAQ を更新しました。<ul><li>[!DNL Recommendations] デザインにプロファイルスクリプトを使用できますか？</li></ul> |
+| 9月22日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 変更済み `$Double` を `$double` を使用して、曖昧さを防ぎます。 |
+|  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 以下の FAQ を更新しました。<ul><li>プロファイルスクリプトを [!DNL Recommendations] デザイン？</li></ul> |
 |  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | 次の考慮事項を追加しました。<ul><li>クリック追跡指標は、アクティビティの特定のエクスペリエンスにリンクされません。</li><li>クリック追跡指標の範囲を制限する必要がある場合は、オーディエンスを使用します。</li><li>複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がそのアクティビティの 1 つに該当し、そのセレクターをクリックすると、クリック追跡指標は、その訪問者が該当するすべての関連アクティビティに対して増加します。</li></ul> |
-|  |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | 「[!DNL Target] 拡張機能を使用して at.js を実装するメリット」の節に注意を追加しました。 |
+|  |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | 「 [!DNL Target] 拡張」セクションに移動します。 |
 |  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 「注意点」節を更新し、新しい情報を追加しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「secureOnly」節を更新しました。 |
 |  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 次の FAQ を更新しました。「at.js が常に HttpOnly および Secure の Cookie フラグを使用しないのはなぜですか？」 |
@@ -49,7 +50,7 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9月14日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1（2021 年 9 月 15 日）リリースに関する情報を追加しました。 |
+| 9月14日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | に関する [!DNL Target Standard/Premium] 21.9.1（2021 年 9 月 15 日）リリースです。 |
 | 9月7日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | 「考慮事項」の節を更新し、Safari 14.0.2 以降を実行するデバイスのターゲティングに関する情報を追加しました。 |
 |  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | `targettype` と `algorithmId` （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティで使用される内部識別子）に関する情報を更新しました。 |
 | 8 月 24 日 |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | [!DNL Adobe Experience Platform Launch] は、[!DNL Adobe Experience Platform] のデータ収集テクノロジーのスイートとしてリブランドされました。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
