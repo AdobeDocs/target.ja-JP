@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4df8c526636e2ab99eea39eb5298475c9670a840
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 66%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 10 月 19 日**
+**最終更新日: 2021 年10月18日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -25,15 +25,15 @@ ht-degree: 0%
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
 
-## [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 20 日）
+## [!DNL Target Standard/Premium] 21.10.3 (2021 年10月19日)
 
 このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-* お客様が [!UICONTROL A4T] パネル [!DNL Analysis Workspace] クリックして [!UICONTROL Analytics で表示] ボタン [!DNL Target] アクティビティレポート。 （TGT-42099、TGT-42100）
-* 「 [!UICONTROL デザインを編集] ボタンが編集中に表示されない [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ [!UICONTROL フォームベースの Experience Composer]. （TGT-41980）
-* 「 [!UICONTROL 互換性] 新しい作成時の条件選択での表示からのチェックボックス [!UICONTROL Recommendations] アクティビティ。 （TGT-42053）
-* を選択できない場合に誤ったエラーメッセージが表示される問題を修正しました。 [!DNL Analytics] が不足しているため、レポートソース (A4T) として [!DNL Analytics] 権限。 （TGT-41954）
-* 複数のアクセシビリティ修正を実装し、 [!DNL Target] UI
+*  [!DNL Analysis Workspace] [!UICONTROL  アクティビティレポートの「分析でビューを表示」ボタンをクリックして、の A4T パネル ] [!DNL Target] を開くことができない問題を修正していました。（TGT-42099、TGT-42100）
+*  フォームベースのエクスペリエンスコンポーザーを使用して、「デザインの編集」ボタンを使用して [!UICONTROL  、A/B テスト ] および [!UICONTROL  対象化 ] (XT) アクティビティ  を編集しているときに、「デザインを編集」ボタンが表示されない問題を修正しました。（TGT-41980）
+*  新しい推奨事項を作成する際に、互換性チェックボックスが検索条件を選択したときに表示されない問題を修正しました  。（TGT-42053）
+* 「 [!DNL Analytics] レポートソース (A4T) として選択できない場合に、アクセス許可が不足しているために間違ったエラーメッセージが表示されるように [!DNL Analytics] なります。 （TGT-41954）
+* UI でのキーボード操作を改善するための複数のアクセシビリティ修正を実装しました [!DNL Target] 。
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
