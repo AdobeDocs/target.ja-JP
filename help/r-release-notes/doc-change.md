@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
 workflow-type: tm+mt
-source-wordcount: '2820'
+source-wordcount: '2807'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 94%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月20日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 21.10.4 リリースについての情報を追加しました [!DNL Target Standard/Premium] (2021 年10月21日)。 |
-|  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | 「カートページ」セクションでコードスニペットを更新しました。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | トピック全体を更新しました。 |
 | 10月19日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 21.10.3 リリースについての情報を追加しました [!DNL Target Standard/Premium] (2021 年10月19日)。 |
 | 10 月 15 日 | [アクティビティの設定 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 次の質問が追加されました: 「 [!DNL Analytics] 自動割り当てアクティビティの「最適化目標」に、「二項分 metrics」を適用することはできます  か。 |
