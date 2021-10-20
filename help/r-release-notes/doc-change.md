@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2789'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1 (2021 年10月6日)
+## [!DNL Adobe Target Standard/Premium] 21.10.1（2021年10月6日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ ht-degree: 90%
 |  | [カスタム条件のアップロード](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 新しいワークフローを反映するように指示を更新しました。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
-## [!DNL Adobe Target Standard/Premium] 21.9.1（2021年9月14日）
+## [!DNL Adobe Target Standard/Premium] 21.9.1（2021年9月14日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
@@ -36,21 +36,21 @@ ht-degree: 90%
 | 10 月 1 日 | アクティビティ情報の送信 [!DNL Adobe Analytics] | トピックをすべて削除しました。ここで説明している手順は、 [!DNL Target] モバイルアプリケーションのアクティビティ情報をポストしたセグメンテーション用に送信するために必要なものではなくなりました [!DNL Analytics] 。 |
 |  | [平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 揚力の信頼区間の計算方法を説明する pdf ファイルが追加されました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | に変更されました `targetPageParams` `targetPageParamsAll` 。「手順5実装によってパラメーターが追加されるように `at_property` します。 |
-| 9月27日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年10月13日 (水)</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
-| 9月22日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | コードサンプルに変更され、 `$Double` `$double` 曖昧さを防ぐことができます。 |
-|  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 以下の FAQ を更新しました。<ul><li>プロファイルスクリプトをデザインで使用することはでき [!DNL Recommendations] ますか?</li></ul> |
-|  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | には、次の考慮事項が追加されました。<ul><li>クリック追跡メトリックは、アクティビティ内の特定の操作にリンクされていません。</li><li>クリックトラッキングメトリックの範囲を制限する必要がある場合は、対象ユーザーを使用します。</li><li>複数のアクティビティは、同じセレクターにクリックトラックメトリックを定義することができます。 このような場合、ビジターが該当するアクティビティのいずれかを選択して、そのセレクターをクリックすると、ビジターが認定したすべての関連付けられた操作のクリックトラックメトリックが増加します。</li></ul> |
-|  |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | 「拡張機能を使用して .js を実装するメリット」について説明しました [!DNL Target] 。 |
-|  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 「考慮事項」に、新しい情報が記載されています。 |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;SecureOnly&quot; セクションが更新されました。 |
-|  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 以下の FAQ を更新しました。この .js は、常に HttpOnly とセキュリティで保護されたクッキーフラグを使用しています。 |
+| 9月27日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年10月13日 水曜日（PT）</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |
+| 9月22日 | [Velocity を使用したデザインのカスタマイズ](/help/c-recommendations/c-design-overview/customizing-a-template.md) | コードサンプルの `$Double` を `$double` に変更して、曖昧さが生じないようにしました。 |
+|  | [デザイン FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 以下の FAQ を更新しました。<ul><li>[!DNL Recommendations] デザインでプロファイルスクリプトを使用できますか？</li></ul> |
+|  | [クリックの追跡](/help/c-activities/r-success-metrics/click-tracking.md) | 次の考慮事項を追加しました。<ul><li>クリック追跡指標は、アクティビティの特定のエクスペリエンスにはリンクされません。</li><li>クリック追跡指標の範囲を制限する必要がある場合は、オーディエンスを使用します。</li><li>複数のアクティビティで、同じセレクターのクリック追跡指標を定義できます。 その場合、訪問者がそのアクティビティの 1 つに該当し、そのセレクターをクリックすると、クリック追跡指標は、その訪問者が該当するすべての関連アクティビティについて増加します。</li></ul> |
+|  |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | 「[!DNL Target] 拡張機能を使用して at.js を実装するメリット」の節に注意を追加しました。 |
+|  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | 「考慮事項」節を更新し、新しい情報を追加しました。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「secureOnly」の節を更新しました。 |
+|  | [at.js に関するよくある質問](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 「at.js で HttpOnly および Secure の Cookie フラグが常に使用されるとは限らないのはなぜですか？」の FAQ を更新しました。 |
 | 9月14日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.8.1（2021 年 8 月 10 日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9月14日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium]21.9.1 (2021 年9月14日) リリースについての情報を追加しました。 |
+| 9月14日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1（2021年9月14日（PT））リリースに関する情報を追加しました。 |
 | 9月7日 | [モバイル](/help/c-target/c-audiences/c-target-rules/mobile.md) | 「考慮事項」の節を更新し、Safari 14.0.2 以降を実行するデバイスのターゲティングに関する情報を追加しました。 |
 |  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | `targettype` と `algorithmId` （[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティで使用される内部識別子）に関する情報を更新しました。 |
 | 8 月 24 日 |  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した [  [!DNL Target]  の実装 | [!DNL Adobe Experience Platform Launch] は、[!DNL Adobe Experience Platform] のデータ収集テクノロジーのスイートとしてリブランドされました。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 |
@@ -59,7 +59,7 @@ ht-degree: 90%
 | 8 月 16 日 | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1 のリリースノートを追加しました。 |
 |  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 「ベストプラクティス」セクションを追加しました。 |
 | 8 月 11 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK バージョン 2.2.0 のリリースノートを追加しました。 |
-| 8 月 11 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+| 8 月 10 日 | [リリースノート](/help/r-release-notes/release-notes.md)：21.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.6.1（2021 年 6 月 30 日）
 
@@ -87,7 +87,7 @@ ht-degree: 90%
 | 7 月 19 日  | [分類 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | イベントコード - 1 または 65535 に関する情報が追加されました。 |
 | 7 月 16 日  | [Target リリースノート（最新）](/help/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 リリースに関する情報を追加しました。 |
 |  | [[!UICONTROL Experience Composer の強化r]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)に関連する問題のトラブルシューティング | 許可リストに加える IP アドレスのリストが更新されました。 |
-| 7 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analytics と [!DNL Adobe Target] の統合による顕著な ROI、インサイト、時間節約の定量化。</li><li>2021 年 7 月 21 日水曜日午前 8 時（PDT、GMT-7）に開催される [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク。</li></ul> |
+| 7 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analytics と [!DNL Adobe Target] の統合による顕著な ROI、インサイト、時間節約の定量化。</li><li>2021年7月21日 水曜日午前 8:00（PDT、GMT-7）に開催される [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク。</li></ul> |
 |  | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次の FAQ を追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API 呼び出し」の節のテキストを更新しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` キーの説明を更新しました。 |
@@ -99,7 +99,7 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 7 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analytics と [!DNL Adobe Target] の統合による顕著な ROI、インサイト、時間節約の定量化。</li><li>2021 年 7 月 21 日水曜日午前 8 時（PDT、GMT-7）に開催される [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク。</li></ul> |
+| 7 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Analytics と [!DNL Adobe Target] の統合による顕著な ROI、インサイト、時間節約の定量化。</li><li>2021年7月21日 水曜日午前 8:00（PDT、GMT-7）に開催される [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク。</li></ul> |
 |  | [推奨事項に関する FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 次の FAQ を追加しました。「新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？」 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API 呼び出し」の節のテキストを更新しました。 |
 |  | [adobe: getOffers ()-.js 2 .x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` キーの説明を更新しました。 |
