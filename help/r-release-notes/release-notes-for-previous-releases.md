@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32456'
-ht-degree: 97%
+source-wordcount: '32512'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,14 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2021 年
+
+### [!DNL Target Standard/Premium] 21.10.4 (2021 年10月21日)
+
+このメンテナンスリリースには、次の機能強化が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨される新しいアルゴリズム群。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (2021 年10月19日)
 
@@ -65,33 +73,33 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 * 「配信先を結合」機能を使用しようとした場合、1つの対象ユーザーがソースで削除されると、 [!UICONTROL  保存 ] は無効になります。
 
-### [!DNL Target Standard/Premium] 21.10.1 (2021 年10月6日)
+### [!DNL Target Standard/Premium] 21.10.1（2021年10月6日（PT））
 
 このリリースには、次の新機能が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL 対象ユーザー向け ] UI の更新 | このリリースでは、ユーザーのユーザーエクスペリエンスを向上させるためのチームの継続的な取り組みの一環として、 [!DNL Adobe Target] [!DNL Target] UI の対象ユーザーとプロファイルのスクリプトページが更新されて   [!DNL Target] います。 このアップデートにより、以前には一貫性がないデザインパターンが統合および標準化され、次のような新しい機能強化が追加されます。<ul><li>同時に複数の視聴者を選択し、削除することができます。</li><li>更新された [ 対象ユーザービルダーのデザイン](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 対象ユーザー向け ] ライブラリルールビルダーの除外ルールのサポート</li><li>「他のユーザーの検索」フィルターを使用して、より高速な対象ユーザーを検出できます。</li><li>セッションの永続的な検索とフィルターのオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意** : 新機能の UI は、  ベータ版プログラムに含まれているものを除き、すべてのユーザーに対して一時的に無効になってい [!DNL Target] ます。 この UI 更新は、2021年10月19日火曜日、10月21日木曜日のその他のすべての顧客に対して再び有効になります。 |
+| [!UICONTROL オーディエンス UI の更新] | このリリースでは、ユーザーのユーザーエクスペリエンスを向上させるためのチームの継続的な取り組みの一環として、 [!DNL Adobe Target] [!DNL Target] UI の対象ユーザーとプロファイルのスクリプトページが更新されて   [!DNL Target] います。 このアップデートにより、以前には一貫性がないデザインパターンが統合および標準化され、次のような新しい機能強化が追加されます。<ul><li>同時に複数の視聴者を選択し、削除することができます。</li><li>更新された [ 対象ユーザービルダーのデザイン](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 対象ユーザー向け ] ライブラリルールビルダーの除外ルールのサポート</li><li>「他のユーザーの検索」フィルターを使用して、より高速な対象ユーザーを検出できます。</li><li>セッションの永続的な検索とフィルターのオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意** : 新機能の UI は、  ベータ版プログラムに含まれているものを除き、すべてのユーザーに対して一時的に無効になってい [!DNL Target] ます。 この UI 更新は、2021年10月19日火曜日、10月21日木曜日のその他のすべての顧客に対して再び有効になります。 |
 | [!UICONTROL プロファイルスクリプト ] UI の更新 | [!UICONTROL また、Profile スクリプトライブラリも更新されており、最新のインターフェイスが ] 追加されています。これにより、生産性が向上します。<ul><li>複数のプロファイルスクリプトを同時に選択して削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内でのシンタックスの強調表示とエラーチェック</li><li>キーボードショートカットを使用した自動補完トークン (mbox またはプロファイル) パラメーター</li></ul>詳しくは、ビジターのプロファイルを参照してください [ ](/help/c-target/c-visitor-profile/visitor-profile.md) 。 |
 | ![プレミアムバッジ ](/help/assets/premium.png) の推奨基準の作成と編集 | [!UICONTROL 推奨条件の ] 作成と編集のワークフローが簡素化され、目的を達成するための適切な推奨アルゴリズムと設定を選択することが容易になりました。<br>詳しくは、条件の作成を参照してください [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 。 |
 | ![プレミアムバッジ ](/help/assets/premium.png) の推奨事項戻るウィンドウとアルゴリズムのリフレッシュレートの改善 | 「最新の表示」アルゴリズムと「トップ売り手」アルゴリズムは、6時間戻るウィンドウで実行できるようになりました。これで、最後にトレンドが表示されているコンテンツを取得することができます。 「6時間戻る」ウィンドウが選択されている場合は、お勧めの結果が一日中3-6 時間ごとに更新されます。<br>詳しくは、「 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 作成条件」の「データソース」を参照してください ** 。 |
 
-### [!DNL Target Standard/Premium] 21.9.1（2021年9月14日）
+### [!DNL Target Standard/Premium] 21.9.1（2021年9月14日（PT））
 
 このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-*  一部の web ブラウザーでは、サードパーティ製 cookie 用の新しいセキュリティポリシーにより、ユーザーがビジュアルエクスペリエンスコンポーザー (VEC) にログインできないという問題が修正されています。この問題は、 [ ビジュアルエクスペリエンスコンポーザーおよび Enhanced エクスペリエンスコンポーザーのトラブルシューティングに関する問題について説明されています。 Google Chrome バージョン80以降を使用している場合に、視覚的なエクスペリエンスコンポーザー (VEC) または Enhanced エクスペリエンスコンポーザー (EEC) で説明されていました ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) 。
-* VEC に提示されるオファー名の代わりにオファーのパスを表示するという問題が修正されました。 （TGT-41300）
-* [!DNL Analysis Workspace]A4T アクティビティ (TGT-38674) については、操作性に関する名前が反映されるようになりました。
-* [!DNL Recommendations]複製されたアクティビティのプロモートにおいて、複製されたアクティビティに変更が加えられるという問題を修正しました。（TGT-41482）
-* VEC のアクティビティについて、「条件の編集」ボタンが「エクスペリエンス」ページに正しく表示されなくなる問題が修正されて  [!DNL Recommendations] います。 （TGT-39512）
-* アクティビティを複製してテストワークスペースにコピーしたときに、アクティビティを同期させないという問題が修正されました。 （TGT-40686）
-* [ ](/help/c-experiences/c-manage-content/aem-experience-fragments.md) VEC の「 [!UICONTROL  後で挿入」を使用したときに、セレクターの機能が変更されない問題を修正していました ] 。（TGT-41802）
-* サービスがバックエンドに送信されないようにすることによって、問題を修正しました。 [!DNL Target] JSON オブジェクトが空であるにもかかわらず送信されるようになりました。 （TGT-41555）
-* [!DNL Analytics] [!DNL Analysis Workspace] ユーザーが  レポートを表示しているときに、「分析による表示」をクリックしたときにではなく、従来のレポートを開くことによって発生する問題を修正しました。（TGT-41867）
-* 顧客が [!DNL Analytics] [!UICONTROL  自動パーソナル化アクティビティのレポートソース (A4T) を選択しようとしたときに、表示される UI メッセージに説明が追加されました ] 。 「」というメッセージは、 [!DNL Target] 自動化された [!UICONTROL  パーソナル化操作に対してはサポートされている唯一のソースです ] 。 （TGT-41954）
-* ユーザーがホストをカンマではなく「改行」で分離しようとした場合に、エラーメッセージにさらに説明が追加されました。 （TGT-40671）
-* スペイン語および日本語版のユーザー向けに、一部のアクティビティの「 [!UICONTROL  最終更新 ] 日」の日付が、英語の ui とは異なる問題を修正しました (スペイン語や日本語の ui を表示している場合)。 （TGT-38980）
+* 一部の web ブラウザーで、サードパーティ Cookie のセキュリティポリシーが新しくなったため、ユーザーが [!UICONTROL Visual Experience Composer]（VEC）にログインできなかった問題を修正しました。この問題は、[Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)の「Google Chrome バージョン 80 以降を使用している場合に、Visual Experience Composer（VEC）または拡張 Experience Composer（EEC）でページが読み込まれない」で説明されました。
+* VEC のオファー名に、オファーのわかりやすい名前ではなくオファーのパスが表示される問題を修正しました。 （TGT-41300）
+* エクスペリエンス名が A4T アクティビティの [!DNL Analysis Workspace] に反映されるようになりました (TGT-38674)
+* [!DNL Recommendations] で、複製されたアクティビティのプロモーションで変更されたエンティティ ID が元のアクティビティに誤って適用される問題を修正しました。 （TGT-41482）
+* VEC の [!DNL Recommendations] アクティビティの[!UICONTROL エクスペリエンス]ページに「条件を編集」ボタンが正しく表示されない問題を修正しました。（TGT-39512）
+* 複製してテストワークスペースにコピーした場合に、アクティビティを同期できない問題を修正しました。（TGT-40686）
+* VEC で「[!UICONTROL 後ろに挿入]」を使用する際に、[エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)でセレクターを変更できない問題を修正しました。（TGT-41802）
+* オファー内の空の JSON コンテンツがバックエンドに送信されない問題を修正しました。[!DNL Target] は、空の場合でも JSON オブジェクトを送信するようになりました。（TGT-41555）
+* レポートの表示中に「[!UICONTROL Analytics で表示 ]」をクリックすると、[!DNL Analysis Workspace] ではなく、従来の [!DNL Analytics] レポートが開く問題を修正しました。（TGT-41867）
+* 顧客が [!UICONTROL Automated Personalization] アクティビティのレポートソース（A4T）として [!DNL Analytics] を選択しようとした場合に表示される UI メッセージに明確な説明を追加しました。 メッセージには、「[!DNL Target] は [!UICONTROL Automated Personalization] アクティビティでサポートされている唯一のソースです」と記載されています。（TGT-41954）
+* ユーザーがホストをコンマではなく「改行」で区切ろうとした場合のエラーメッセージに明確な説明を追加しました。（TGT-40671）
+* 一部のアクティビティの「[!UICONTROL 最終更新日]」の日付が、スペイン語および日本語のユーザーの場合（UI をスペイン語および日本語で表示する場合）に英語の UI と異なる問題を修正しました。（TGT-38980）
 
 ### at.js 2.6.1（2021 年 8 月 16 日）
 

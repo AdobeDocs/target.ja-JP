@@ -1,202 +1,126 @@
 ---
 keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィルター;デフォルトホストグループ;サムネールのベース URL;Recommendation API トークン
-description: 'Adobe TargetでRecommendationsアクティビティを実装する方法を説明します。 実装が必要な前提条件を満たしていることを確認します。 '
-title: Recommendationsアクティビティの実装方法
+description: 'Adobe ターゲットで推奨事項を実装する方法について説明します。 '
+title: 推奨事項の実装方法を教えてください。
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 94%
+source-wordcount: '1290'
+ht-degree: 37%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMPlanとRecommendationsの実装
+# ![高度なアドバイス ](/help/assets/premium.png) および実装に関する推奨事項
 
-Recommendations アクティビティを作成する前に知っておくべきこと。
+に最初のアクティビティを設定する前に [!DNL Recommendations] [!DNL Adobe Target] 、以下の手順を実行します。
 
-## Recommendations の計画と実装 {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
-
-[!DNL Recommendations] アクティビティを作成する前に知っておくべきこと。
-
-[!DNL Recommendations] では、次の情報の階層が設定されている必要があります。
-
-| 手順 | 情報 | 詳細 |
-|--- |--- |--- |
-| ![手順 1](/help/c-recommendations/assets/step1_red.png) | JavaScript ライブラリ | 各ページには、at.js バージョン 0.9.1（またはそれ以降）か mbox.js バージョン 55（またはそれ以降）への参照が必要です。この実装の手順は、[!DNL Target] アクティビティを使用するすべてのページで必要です。商品 ID やカテゴリ ID などのキーを含めることができます。 |
-| ![手順 2](/help/c-recommendations/assets/step2_red.png) | キー | キーは、レコメンデーションに表示される製品やコンテンツのタイプを決定します。例えば、製品カテゴリをキーにできます。[レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。 |
-| ![手順 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性を使用すると、表示したい製品についてさらに細かい情報を提供できます。例えば、ある価格帯の製品や、在庫のしきい値を満たしている品目を表示することができます。属性は、mbox 内または[フィード](/help/c-recommendations/c-products/feeds.md).<br>インクルージ [ョンルールの指定](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)を参照してください。 |
-| ![手順 4](/help/c-recommendations/assets/step4_red.png) | 除外 | 除外によって、レコメンデーションに表示しない特定の品目を決めることができます。<br>[除外](/help/c-recommendations/c-products/exclusions.md)を参照してください。 |
-| ![手順 5](/help/c-recommendations/assets/step5_red.png) | 購入の詳細 | 購入の詳細は、購入した品目や購入が完了した際の注文についての情報を提供します。 |
-
-## ベースとなる実装 {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
-
-ベースとなる実装では、どの商品やサービスがレコメンデーションに表示されるかを決定するパラメーターをページに渡す必要があります。
-
-[!DNL Recommendations] アクティビティの設定を開始する前に、商品データが [!DNL Recommendations] に提供される方法を理解し、どの方法が要件に最適かを判断する必要があります。
-
-[!DNL Recommendations] に商品やサービスの情報を提供する方法は 2 とおりあります。
-
-| メソッド | 説明 |
+| 手順 | 詳細 |
 |--- |--- |
-| 直接ページにパラメーターを渡す | この方法は、頻繁に変更される品目に適しています。しかし、ページを直接変更する必要があるため、多くの組織では IT 部門やページを実装する人が関与することが求められます。 |
-| Google フィードまたは CSV フィードによってパラメーターを渡す | この方法は、頻繁に変更されないコレクションに適しています。フィードを経由して商品情報を提供する場合、通常は実装や他のページのコードを変更する必要はありません。ただし、商品リストは静的なままなので、すばやい変更は難しくなります。詳しくは、[フィード](/help/c-recommendations/c-products/feeds.md)を参照してください。 |
+| ![手順 1](/help/c-recommendations/assets/step1_red.png) | [ [!DNL Adobe Target]](#implement-target)Web およびモバイルアプリケーションサーフェスに実装し、ユーザーの操作をキャプチャして推奨事項を提供します。 |
+| ![手順 2](/help/c-recommendations/assets/step2_red.png) | [ [!DNL Recommendations]  ](#rec-catalog) ユーザーにおすすめさせる製品またはコンテンツのカタログを設定します。 |
+| ![手順 3](/help/c-recommendations/assets/step3_red.png) | [行動情報とコンテキストを ](#pass-behavioral) 渡し [!DNL Adobe Target Recommendations] て、カスタマイズされた推奨内容を配信できるようにします。 |
+| ![手順 4](/help/c-recommendations/assets/step4_red.png) | [グローバルな除外 ](#exclusions) を設定します。 |
+| ![手順 5](/help/c-recommendations/assets/step5_red.png) | [ [!DNL Recommendations] 設定 ](#concept_C1E1E2351413468692D6C21145EF0B84) を構成します。 |
 
-上記の方法は、次の例のように個別に使用することも、組み合わせて使用することもできます。
+## Adobe ターゲットの実装 {#implement-target}
 
-## 例 1：ページとフィードの組み合わせ {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+[!DNL Target Recommendations] (または、以降の) .js 0.9.2 を実装する必要があり [!DNL Adobe Experience Platform Web SDK] ます。 詳しく [ は、ターゲットの実装を参照してください ](/help/c-implementing-target/implementing-target.md) 。
 
-ある一般的な [!DNL Recommendations] の実装オプションでは、ページパラメーターとフィードの両方が使用されています。
+## おすすめ候補カタログの設定 {#rec-catalog}
 
-この方法は、相対的に設定された商品カタログがあるものの、特定の季節の品目や特価の品目を強調したい小売店などに好まれます。ほとんどの顧客は主にフィードを経由して情報を提供し、特定の場合のみページの調整をおこないます。
+高画質なお勧め情報を提供するには、 [!DNL Target] 推奨される製品またはコンテンツについて知っておく必要があります。 通常、カタログには、推奨される項目に関する3種類の情報が含まれている必要があります。 ムービーを推奨する場合を考えてみましょう。 次のものが含まれます。
 
-頻繁に変更されない情報の提供には、フィードを使用します。CSV ファイルと Google フィードのどちらを使用する場合でも、次のパラメーターを使用します。
+1. レコメンデーションを受け取るユーザーに表示したいデータ。例えば、ムービーの名前を表示したり、ムービーポスターのサムネールイメージの URL を表示したりすることができます。
+1. マーケティングおよびマーチャンダイジング制御に便利なデータ。例えば、ムービーの定格を表示して、NC 17 のムービーを使用しないようにすることができます。
+1. アイテムが他のアイテムに類似しているかどうかを調べるために使用されるデータです。 例えば、ムービーとビデオの監督のジャンルを表示することができます。
 
-* 必須パラメーター
+[!DNL Target] には、カタログを作成するための複数の統合オプションが用意されています。 これらのオプションを組み合わせて使用して、カタログ内の様々なアイテムを更新したり、異なる頻度で様々なアイテム属性を更新することができます。
 
-   * `entity.id`
+| メソッド | その内容 | 使用するタイミング | 追加情報 |
+| --- | --- | --- | --- |
+| カタログフィード | 定期的に、アップロードと ingested のフィードを予約 [!DNL Analytics Product Classifications] するように設定します。 | (一度に複数の項目に関する情報を送信するために使用します)。 を使用して、頻繁に変更される情報を送信します。 | [フィードを参照してください ](/help/c-recommendations/c-products/feeds.md) 。 |
+| Entities API | 1つの項目について、毎分更新を送信する API を呼び出します。 | では、一度に1つのアイテムを更新することができます。 頻繁に変更される情報 (価格、在庫、在庫レベルなど) を送信する場合に使用します。 | [ENTITIES API 開発者向けドキュメントを参照してください ](https://developers.adobetarget.com/api/recommendations/#tag/Entities) 。 |
+| ページへの更新のパス | ページ上の JavaScript を使用して1つのアイテムについて、または配信 API を使用して、1つのアイテムを更新することができます。 | では、一度に1つのアイテムを更新することができます。 頻繁に変更される情報 (価格、在庫、在庫レベルなど) を送信する場合に使用します。 | 詳しくは、以下の項目ビュー/製品ページを参照してください。 |
 
-* 便利なパラメーター
+ほとんどのユーザーは、少なくとも1つのフィードを実装する必要があります。 これにより、「エンティティー API」または「ページ上」メソッドのいずれかを使用して、頻繁に変更される属性やアイテムの更新を使用して、フィードを補うようにすることができます。
 
-   * `entity.name`
-   * `entity.categoryId`
-   * `entity.brand`
-   * `entity.pageUrl`
-   * `entity.thumbnailUrl`
-   * `entity.message`
-   * すべてのカスタム属性
+## 行動情報とコンテキストの引き渡し {#pass-behavioral}
 
-フィードが設定されて [!DNL Recommendations] に渡されたら、頻繁に（つまり 1 日 2 回以上）変更する属性のページにパラメーターを渡します。
+実行する必要がある動作の情報とコンテキストは、ユーザーが実行する [!DNL Target] 操作によって異なります。これは、ユーザーが操作するページのタイプに関係することがよくあります。
 
-* 必須パラメーター
+### 項目ビュー/製品ページ
 
-   * `entity.id`
-   * `entity.categoryId`
+ユーザーが製品詳細ページなどの1つの項目を表示しているページでは、ビジターが表示する項目の id を渡す必要があります。 また、閲覧者が表示しているアイテムの最も細分化されたカテゴリを渡して、現在のカテゴリに対するフィルター選択を許可する必要があります。
 
-* 便利なパラメーター
-
-   * `entity.inventory`
-   * `entity.value`
-
-最後に実行されたデータセットが優先されます。フィードを渡してからページパラメーターを更新すると、フィードで渡された情報は上書きされ、ページパラメーターの変更事項が表示されます。
-
-## 例 2：商品（内容）詳細ページのすべてのパラメーターを渡す {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
-
-ページのすべてのパラメーターを渡すと、ページの更新によってすばやく更新することができます。組織によっては、IT 部門や Web デザインチームの関与が必要になります。
-
-この例は、とりわけ内容が常に変化するメディア企業にとって有用です。
-
-* 必須パラメーター
-
-   * `entity.id`
-   * `entity.categoryId`
-   * その他の全属性
-
-## サンプルコード {#section_6E8A73376F30468BB549F337C4C220B1}
-
-例えば、商品またはコンテンツページのヘッダーセクションで以下のコードを使用できます。
+製品ページには、すばやい変更属性を渡すこともできます。 例えば、price ( `value` ) および inventory/stock の各レベルを渡すことができます。
 
 ```
-function targetPageParams() {
- return {
-    "entity": {
-       "id": "32323",
-       "categoryId": "My Category",
-       "value": 105.56,
-       "inventory": 329
-    }
- }
-}
-```
-
-様々なタイプのページで使用できるコードの例については、[ページタイプに従った実装](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
-
-## ページタイプに従った実装 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
-
-ページのタイプは [!DNL Recommendations] の実装に影響します。
-
-例えば、製品ページ上で表示したいレコメンデーションのタイプと、カテゴリのページまたはホームページで表示したいレコメンデーションのタイプとは異なる場合があります。各ページで、mbox 呼び出しの前に特有の関数を実行すると、適切なレコメンデーションを表示することができます。
-
-この例で使用されている属性について詳しくは、[エンティティの属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)を参照してください。
-
-有効な JSON 形式である必要があります。
-
-後述の `targetPageParams` 関数は、ページの実装にタグ管理ソリューションを使用している場合に特に便利です。[!DNL Adobe Experience Platform]のタグは、at.js/mbox.jsへの参照と`targetPageParams`関数をページに配置し、値を設定できるようにします。 この関数は、at.js／mbox.js 呼び出しの前に置くか、at.js／mbox.js の Extra JavaScript セクションに置く必要があります。
-
-## すべてのページ {#section_A22061788BAB42BB82BA087DEC3AA4AD}
-
-レコメンデーションを含むすべてのページ上で、[!DNL at.js] または [!DNL mbox.js] への参照が必要です。レコメンデーションのあるすべてのページに以下のうちいずれかの参照を追加してください。
-
-```
-<script src="/help/at.js /></script>
-```
-
-```
-<script src="/help/mbox.js /></script>
-```
-
-この実装は、以下を満たしている必要があります。
-
-* [!DNL at.js] バージョン0.9.2（以降）
-
-[!DNL at.js] の実装について詳しくは、[at.js のデプロイ方法](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)を参照してください。
-
-## カテゴリページ {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
-
-カテゴリページでは、製品やコンテンツのレコメンデーションをそのカテゴリ内に制限したい場合が多いでしょう。カテゴリページの設定には、ページで使用するキーの設定が必要です。キーについて詳しくは、[レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)を参照してください。
-
-```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "categoryId": "My Category" 
-      } 
-   } 
-}
-```
-
-## 製品紹介ページ {#section_205B3953C9664125A17CA8574FA6B2A3}
-
-製品紹介ページでは、ある品目や、特定の価格や在庫レベルの品目をレコメンデーションしたい場合があります。また、カテゴリページに必要なキーの他に頻繁に変更される属性（価値や在庫など）を設定することもできます。
-
-```
+<script type="text/javascript">
 function targetPageParams() { 
    return { 
       "entity": { 
          "id": "32323", 
-         "categoryId": "My Category", 
-         "value": 105.56, 
+         "categoryId": "running-shoes", 
+         "value": 119.99, 
          "inventory": 329 
+      } 
+   } 
+}
+</script>
+```
+
+### カテゴリビューまたはカテゴリページ
+
+カテゴリページで、そのカテゴリ内の製品またはコンテンツに対する推奨事項を制限することができます。 そのためには、現在表示されているカテゴリの id を渡すようにします。
+
+```
+function targetPageParams() { 
+   return { 
+      "entity": { 
+         "categoryId": "running-shoes" 
       } 
    } 
 }
 ```
 
-## 買い物かごページ {#section_D37E48700F074556B925D0CA0291405E}
+### カート/カートビュー/チェックアウトページ
 
-買い物かごページでは、例えば既に買い物かごにある品目など、レコメンデーションからいくつかの品目を除外したい場合があるでしょう。
+カートページに、訪問者の現在のカートの内容に基づいておすすめのアイテムが表示されます。 そのためには、ビジターが現在使用しているカート内のすべてのアイテムの Id を特殊パラメーターで渡し `cartIds` ます。
 
 ```
-<script type="text/javascript">
 function targetPageParams() {
    return {
-      "excludedIds": [352, 223, 23432, 432, 553]
+      "cartIds": ["352", "223", "23432", "432", "553"]
       }
 }
-</script>
 ```
 
-## 「ありがとうございます」ページ {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+### ビジターのカートに既に存在するアイテムは除外します。
 
-「ありがとうございます」ページでは、別の品目のレコメンデーションをおこなわずに、注文の合計、注文 ID、購入した製品を表示することができます。2 つ目の mbox を実装し、注文情報を取得できます。
+サイト全体のページで、一部のアイテムを推奨設定から除外することができます。 例えば、ビジターの現在のカートに登録されているアイテムを推奨することはできません。 そのためには、特別なパラメーターを使用して、除外するすべての項目の Id を渡し `excludedIds` ます。
 
-* at.js を使用している場合は、[コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+```
+function targetPageParams() {
+   return {
+      "excludedIds": ["352", "223", "23432", "432", "553"]
+      }
+}
+```
 
-## 設定 {#concept_C1E1E2351413468692D6C21145EF0B84}
+### 購入/注文確認ページ
+
+購買イベントが発生した場合は、購入した品目の id を渡します。 [ ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) *[!DNL Target] タグマネージャーを使用せずに、実装内のトラックの変換を参照してください* 。
+
+## グローバル除外の設定 {#exclusions}
+
+ユーザーに対して推奨されていないグローバルレベルのアイテムは除外します。 [除外](/help/c-recommendations/c-products/exclusions.md)を参照してください。
+
+## 設定の構成 [!DNL Recommendations] {#concept_C1E1E2351413468692D6C21145EF0B84}
 
 設定を使用して [!DNL Recommendations] の実装を管理します。
 
-[!UICONTROL Recommendations設定]オプションにアクセスするには、[!DNL Adobe Experience Cloud]で[!DNL Target]を開き、**[!UICONTROL Recommendations]**/**[!UICONTROL 設定]**&#x200B;をクリックします。
+推奨設定オプションにアクセスするには、  でを開き [!DNL Target] [!DNL Adobe Experience Cloud] 、「 **[!UICONTROL 推奨事項 > 設定」をクリックし]** **** ます。
 
 ![](assets/recs_settings.png)
 
@@ -204,9 +128,9 @@ function targetPageParams() {
 
 | 設定 | 説明 |
 |--- |--- |
-| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target] によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意：このオプションは、管理ページで設 [!DNL Target]  定します。[!DNL Target]を開き、[!UICONTROL 管理] /[!UICONTROL Visual Experience Composer]をクリックします。 |
-| 業種 | 業種は、レコメンデーション条件の分類に使用されます。これによって、買い物かごページやメディアページに最適な条件など、特定のページにふさわしい条件を見つけやすくなります。 |
-| 非互換の条件をフィルター | このオプションを選択すると、選択されたページが必要なデータを渡す条件のみが表示されます。すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、このオプションのチェックを外します。<br>タグ管理ソリューションを使用している場合は、このオプションを無効にすることをお勧めします。<br>このオプションについて詳しくは、[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) を参照してください。 |
+| カスタムグローバル mbox | （オプション）[!DNL Target] アクティビティを提供するために使用するカスタムグローバル mbox を指定します。デフォルトでは、[!DNL Target] によって使用されるグローバル mbox が [!DNL Recommendations] に使用されます。<br>注意: このオプションは管理ページに設定されて [!DNL Target]  います。 を起動して [!DNL Target] 、「管理 >」をクリックし   ます。 |
+| 業種 | 業種は、レコメンデーション条件の分類に使用されます。この情報は、ショッピングカートページやメディアページに最適な条件など、特定のページにとって有用な条件を、チームのメンバーが検索できるようにするために役立ちます。 |
+| 非互換の条件をフィルター | このオプションを選択すると、選択されたページが必要なデータを渡す条件のみが表示されます。すべての条件が各ページで正しく実行されるわけではありません。 ページまたは mbox は、 `entity.id` `entity.categoryId` 現在のアイテムまたは現在の項目について、互換性のある項目についてのアドバイスを受ける必要があります。 通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、このオプションのチェックを外します。<br>タグ管理ソリューションを使用している場合は、このオプションを無効にすることをお勧めします。<br>このオプションについて詳しくは、[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) を参照してください。 |
 | デフォルトホストグループ | デフォルトホストグループを選択します。<br>ホストグループを使用して、カタログの利用可能な項目をさまざまな用途に分割できます。例えば、ホストグループは開発環境と実稼動環境、さまざまなブランド、またはさまざまな地域に使用できます。デフォルトでは、カタログ検索、コレクションおよび除外のプレビュー結果はデフォルトのホストグループに基づいています。（環境フィルターを使用して、結果をプレビューする別のホストグループを選択することもできます）デフォルトでは、項目の作成または更新時に環境 ID が指定されている場合を除き、新しく追加された項目はすべてのホストグループで使用できます。配信される Recommendations は、リクエストで指定したホストグループによって異なります。<br>商品が表示されていない場合は、適切なホストグループが使用されていることを確認してください。例えば、ステージング環境を使用するようにレコメンデーションを設定し、ホストグループをステージングに設定した場合、商品を表示するために、ステージング環境のコレクションを再作成する必要がある可能性があります。各環境でどの商品が利用できるかを確認するには、各環境でカタログ検索を利用します。選択した環境（ホストグループ）の Recommendations コレクションと除外のコンテンツをプレビューすることもできます。<br>**注意：** 選択した環境を変更した後、 「検索」をクリックして返された結果を更新する必要があります。<br>[!UICONTROL 環境]フィルターは [!DNL Target] UI の次の場所で利用できます。<ul><li>カタログ検索（Recommendations／カタログ検索）</li><li>「コレクションを作成」ダイアログボックス（[!UICONTROL Recommendations／コレクション／新規作成]）</li><li>「コレクションを更新」ダイアログボックス（[!UICONTROL Recommendations／コレクション／編集]）</li><li>「除外を作成」ダイアログボックス（[!UICONTROL Recommendations／除外／新規作成]）</li><li>「除外を更新」ダイアログボックス（[!UICONTROL Recommendations／除外／編集]）</li></ul>詳しくは、[ホスト](/help/administrating-target/hosts.md)を参照してください。 |
 | サムネールのベース URL | 商品カタログのベース URL を設定すると、商品のサムネールの指定でサムネール URL を渡す場合に、相対 URL を使用できます。<br>例：<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br> はサムネールのベース URL に対する相対 URL を設定します。 |
 | Recommendations API トークン | Download API などの Recommendations API 呼び出しで、このトークンを使用します。 |
