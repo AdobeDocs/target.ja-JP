@@ -5,9 +5,9 @@ title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
 
-* **2021年10月13日水曜日**
+* **2021年10月13日 水曜日（PT）**
 * **午前 8 時（PDT、UTC-7）**
 * **[詳細および登録については、ここをクリックしてください](https://adobe.ly/3CoUIVz)。**
 
-[!DNL Adobe Target]のシニアソリューションコンサルタントであるGentry Lin氏は、専門知識の分野に関するお客様の質問に回答します。
+[!DNL Adobe Target] のシニアソリューションコンサルタントである Gentry Lin 氏が、専門分野に関するお客様の質問に答えます。
 
 * 実装
 * パーソナライゼーション
-* コアWebオーサリングワークフロー
+* コア web オーサリングワークフロー
 * [!DNL Adobe Experience Cloud] 統合
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
