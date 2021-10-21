@@ -4,28 +4,26 @@ description: 'Adobe ターゲットで推奨事項を実装する方法につい
 title: 推奨事項の実装方法を教えてください。
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1279'
 ht-degree: 37%
 
 ---
 
-# ![高度なアドバイス ](/help/assets/premium.png) および実装に関する推奨事項
+# ![高度な ](/help/assets/premium.png) プランおよび導入 [!DNL Recommendations]
 
 に最初のアクティビティを設定する前に [!DNL Recommendations] [!DNL Adobe Target] 、以下の手順を実行します。
 
-| 手順 | 詳細 |
-|--- |--- |
-| ![手順 1](/help/c-recommendations/assets/step1_red.png) | [ [!DNL Adobe Target]](#implement-target)Web およびモバイルアプリケーションサーフェスに実装し、ユーザーの操作をキャプチャして推奨事項を提供します。 |
-| ![手順 2](/help/c-recommendations/assets/step2_red.png) | [ [!DNL Recommendations]  ](#rec-catalog) ユーザーにおすすめさせる製品またはコンテンツのカタログを設定します。 |
-| ![手順 3](/help/c-recommendations/assets/step3_red.png) | [行動情報とコンテキストを ](#pass-behavioral) 渡し [!DNL Adobe Target Recommendations] て、カスタマイズされた推奨内容を配信できるようにします。 |
-| ![手順 4](/help/c-recommendations/assets/step4_red.png) | [グローバルな除外 ](#exclusions) を設定します。 |
-| ![手順 5](/help/c-recommendations/assets/step5_red.png) | [ [!DNL Recommendations] 設定 ](#concept_C1E1E2351413468692D6C21145EF0B84) を構成します。 |
+1. [ [!DNL Target]](#implement-target)Web およびモバイルアプリケーションサーフェスに実装し、ユーザーの操作をキャプチャして推奨事項を提供します。
+1. [ [!DNL Recommendations]  ](#rec-catalog) ユーザーにおすすめさせる製品またはコンテンツのカタログを設定します。
+1. [行動情報とコンテキストを ](#pass-behavioral) 渡し [!DNL Target Recommendations] て、カスタマイズされた推奨内容を配信できるようにします。
+1. [グローバルな除外 ](#exclusions) を設定します。
+1. [ [!DNL Recommendations] 設定 ](#concept_C1E1E2351413468692D6C21145EF0B84) を構成します。
 
-## Adobe ターゲットの実装 {#implement-target}
+## 実装方法 [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] (または、以降の) .js 0.9.2 を実装する必要があり [!DNL Adobe Experience Platform Web SDK] ます。 詳しく [ は、ターゲットの実装を参照してください ](/help/c-implementing-target/implementing-target.md) 。
+[!DNL Target Recommendations] (または、以降の) .js 0.9.2 を実装する必要があり [!DNL Adobe Experience Platform Web SDK] ます。 [  [!DNL Target]](/help/c-implementing-target/implementing-target.md) 詳しくは、実装を参照してください。
 
 ## おすすめ候補カタログの設定 {#rec-catalog}
 
@@ -41,7 +39,7 @@ ht-degree: 37%
 | --- | --- | --- | --- |
 | カタログフィード | 定期的に、アップロードと ingested のフィードを予約 [!DNL Analytics Product Classifications] するように設定します。 | (一度に複数の項目に関する情報を送信するために使用します)。 を使用して、頻繁に変更される情報を送信します。 | [フィードを参照してください ](/help/c-recommendations/c-products/feeds.md) 。 |
 | Entities API | 1つの項目について、毎分更新を送信する API を呼び出します。 | では、一度に1つのアイテムを更新することができます。 頻繁に変更される情報 (価格、在庫、在庫レベルなど) を送信する場合に使用します。 | [ENTITIES API 開発者向けドキュメントを参照してください ](https://developers.adobetarget.com/api/recommendations/#tag/Entities) 。 |
-| ページへの更新のパス | ページ上の JavaScript を使用して1つのアイテムについて、または配信 API を使用して、1つのアイテムを更新することができます。 | では、一度に1つのアイテムを更新することができます。 頻繁に変更される情報 (価格、在庫、在庫レベルなど) を送信する場合に使用します。 | 詳しくは、以下の項目ビュー/製品ページを参照してください。 |
+| ページへの更新のパス | ページ上の JavaScript を使用して1つのアイテムについて、または配信 API を使用して、1つのアイテムを更新することができます。 | では、一度に1つのアイテムを更新することができます。 頻繁に変更される情報 (価格、在庫、在庫レベルなど) を送信する場合に使用します。 | 詳しくは [ 、以下の項目ビュー/製品ページを参照してください ](#items-product-pages) 。 |
 
 ほとんどのユーザーは、少なくとも1つのフィードを実装する必要があります。 これにより、「エンティティー API」または「ページ上」メソッドのいずれかを使用して、頻繁に変更される属性やアイテムの更新を使用して、フィードを補うようにすることができます。
 
@@ -49,7 +47,7 @@ ht-degree: 37%
 
 実行する必要がある動作の情報とコンテキストは、ユーザーが実行する [!DNL Target] 操作によって異なります。これは、ユーザーが操作するページのタイプに関係することがよくあります。
 
-### 項目ビュー/製品ページ
+### 項目ビュー/製品ページ {#items-product-pages}
 
 ユーザーが製品詳細ページなどの1つの項目を表示しているページでは、ビジターが表示する項目の id を渡す必要があります。 また、閲覧者が表示しているアイテムの最も細分化されたカテゴリを渡して、現在のカテゴリに対するフィルター選択を許可する必要があります。
 

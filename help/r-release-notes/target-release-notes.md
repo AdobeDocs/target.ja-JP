@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 57%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 57%
 
 | 機能 | 詳細 |
 | --- | --- |
-| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨される新しいアルゴリズム群。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
+| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨されるアルゴリズムを新しく追加しました。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (2021 年10月19日)
 

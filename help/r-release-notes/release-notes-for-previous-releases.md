@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '32512'
+source-wordcount: '32513'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 | 機能 | 詳細 |
 | --- | --- |
-| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨される新しいアルゴリズム群。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
+| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨されるアルゴリズムを新しく追加しました。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (2021 年10月19日)
 
