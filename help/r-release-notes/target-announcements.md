@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
@@ -15,18 +15,30 @@ ht-degree: 100%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク (11 月10日、2021)
 
-* **2021年10月13日 水曜日（PT）**
-* **午前 8 時（PDT、UTC-7）**
-* **[詳細および登録については、ここをクリックしてください](https://adobe.ly/3CoUIVz)。**
+* **2021年11月10日 (水)**
+* **8:00 a.m. (PST、UTC ~ 8 年)**
+* **[詳しくは、詳細情報および登録情報を参照してください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-[!DNL Adobe Target] のシニアソリューションコンサルタントである Gentry Lin 氏が、専門分野に関するお客様の質問に答えます。
+このような場合は、「Muti」 Anastasoaie () を使用するシニアプロダクトマネージャー [!DNL Adobe Target] が、それぞれの専門分野に関する疑問に答えることになります。
 
-* 実装
-* パーソナライゼーション
-* コア web オーサリングワークフロー
-* [!DNL Adobe Experience Cloud] 統合
+* [!DNL Target] ユーザーインターフェイス
+* [!DNL Target] 統合
+* [!UICONTROL エンタープライズ ] の権限と [!UICONTROL  ワークスペース]
+
+## [!DNL Adobe Target] コミュニティー Q&amp;A コーヒーブレイク (2021 年12月8日)
+
+* **水曜日、2021年12月8日**
+* **8:00 a.m. (PST、UTC ~ 8 年)**
+* **[詳しくは、詳細情報および登録情報を参照してください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert 氏 Calangiu、シニアプロダクトマネージャー [!DNL Adobe Target] は、次のような専門知識が含まれている質問に答えます。
+
+* [!DNL Target] 設定および管理 UI
+* [!UICONTROL ターゲット ] (A4T) 統合のための分析
+* [!DNL Adobe Audience Manager] (AEM) 統合
+* 一般的な [!DNL Target] UI
 
 ## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
 

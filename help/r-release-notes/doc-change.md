@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2830'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月21日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティー Q&amp;A コーヒーブレイク (11 月10日 ~ 2021)</li><li>[!DNL Adobe Target] コミュニティー Q&amp;A コーヒーブレイク (2021 年12月8日)</li></ul> |
 | 10月20日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 21.10.4 リリースについての情報を追加しました [!DNL Target Standard/Premium] (2021 年10月21日)。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | トピック全体を更新しました。 |
 | 10月19日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 21.10.3 リリースについての情報を追加しました [!DNL Target Standard/Premium] (2021 年10月19日)。 |
