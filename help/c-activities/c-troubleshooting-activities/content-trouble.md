@@ -4,7 +4,7 @@ description: ページに期待した内容が表示されない場合は、問�
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 無効な doctype を使用している場合、at.js は Target mbox を実行しません。a.js には HTML5 の doctype が必要です。
 
-## クエリーに [!DNL Target] よって、クエリーストリングパラメーターを使用した url が正しく処理されるようにします。 {#query-strings}
+## クエリーに [!DNL Target] よって、クエリーストリングパラメーターを使用して url が正しく処理されるようにします。 {#query-strings}
 
 アクティビティの URL によって、アクティビティ  をビジターに認定し、ユーザーにアクティビティの操作性を表示するページが決定されます。 アクティビティの作成時にメッセージが表示されると、完全な URL を入力しても必ずしもそのサイトページにコンテンツが配信されるわけではありません。特にクエリストリングパラメーターが含まれている Url については、このようになります
 
