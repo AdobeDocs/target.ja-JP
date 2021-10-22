@@ -2,12 +2,12 @@
 keywords: mboxのデバッグ;mboxのトラブルシューティング;mboxの問題;ちらつき;mboxDebug;mboxTrace;トークン;デバッガー;優先度;アクティビティ優先度;Adobe Experience Cloudデバッガー;orderConfirmPage mbox;SiteCatalystの購入mbox;トップセラー;トップセラー
 description: ページに期待した内容が表示されない場合は、問題の修正に役立つ提案を見つけます。Adobe Target でコンテンツ配信をデバッグする方法について説明します。
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
-feature: アクティビティ
+feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: ht
-source-wordcount: '1268'
-ht-degree: 100%
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 * [!DNL Target] リクエストのトラブルシューティングには、mboxTrace や mboxDebug を使用します。
 * Adobe Experience Cloud デバッガーは mboxDebug と同じ情報を入手できる使いやすいツールです。このツールを使用して [!DNL Target] リクエストのトラブルシューティングができます。
 
-ページで [!DNL Target] を設定して、[!DNL Target] が呼び出されていることと、cookie が設定されていることを確認するときは、mboxDebug が特に便利です。ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
+mboxDebug は、ページに設定して、 [!DNL Target] ターゲット要求が実行され、cookie が設定されていることを確認する場合に特に便利です。 ただし、mboxDebug は、コンテンツ配信のデバッグに役立つ詳細までは調べません。ページにアクティビティが表示されない場合や、意図していないコンテンツが表示される場合は、mboxTrace を使用してページの調査とデバッグを詳細におこないます。
 
 ## デバッグツールで使用するための認証トークンの取得 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -56,7 +56,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 | mboxTrace のオプション | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.js の場合は、新しいブラウザーウィンドウを表示したり mbox.js の場合のようにコンソールに出力したりするのではなく、ネットワークリクエストを検査し、「Preview」（Chrome）または「Response」（Firefox）の表示内容を確認する必要があります。 |
+| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>At .js においては、新しいブラウザーウィンドウをポップしたり、mbox のようにコンソールに出力したりするのではなく、ネットワーク要求を調べて、プレビュー (Chrome) または Response (Firefox) を確認する必要があります。 |
 | `?mboxTrace=json` | コンソールログにリテラル JSON 文字列として出力します。 |
 | `?mboxTrace=window` | ポップアップウィンドウに JSON 文字列として出力します。 |
 | `?mboxTrace=disable` | セッションモードのトレースをオフにします。 |
@@ -65,7 +65,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-出力に、コンテンツに関するきわめて詳しい情報が表示されます。mboxTrace は、キャンペーンまたはアクティビティとプロファイルの詳細を表示します。また、実行前のプロファイルのスナップショットと、実行後の変化を示すスナップショットも提供します。さらに、各場所で評価されたキャンペーンやアクティビティも表示します。
+出力には、コンテンツに関する詳細情報が表示されます。 mboxTrace には、キャンペーンまたはアクティビティとプロファイルに関する詳細情報が表示されます。また、実行前のプロファイルのスナップショットや、実行後に変更された内容のスナップショットも提供されます。 さらに、各場所で評価されたキャンペーンやアクティビティも表示します。
 
 情報によっては、一致するセグメント、一致しないセグメントおよびターゲット ID が含まれる場合もあります。
 
@@ -85,7 +85,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 クエリパラメーターには、`=console`、`=json`、または `=window` を含める必要はありません。mboxTrace の詳細が完了したら、`=disable` を追加して、**[!UICONTROL Enter]** キーを押すと、通常の表示モードに戻ります。
 
-サイトの通常の機能や外見は、mboxTrace の影響を受けません。訪問者には、通常のレコメンデーションのデザインが表示されます。
+サイトの通常の機能や外見は、mboxTrace の影響を受けません。利用者は、定期的な推奨事項のデザインを表示します。
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、[Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)を参照してください。
+詳しくは、 [ Adobe エクスペリエンスクラウドデバッガーを使用した「.js でのデバッグ」を参照してください ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) 。
 
 ## Recommendations にトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target は、IE 8 をサポートしていません。
 
 サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)」を参照してください。 
 
-## 要素が AEM パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない  {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## エレメントが Adobe エクスペリエンス Manager のパーソナル化の一部である場合は、ターゲットコンテンツがちらつきたり、表示されないことがあります。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーションのターゲット設定と Target アクティビティの両方に含まれていると、Target コンテンツがちらついたり表示されなかったりする場合があります。
 
-これを修正するには、Target が実行されているページで AEM パーソナライゼーションを無効にします。
+この問題を解決するには、ターゲットが実行されているページで、AEM パーソナル化を無効にすることができます。
 
 ## URL が無効なのでリダイレクトおよびリモートオファーを配信できない {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,9 +150,45 @@ DOM 要素が Adobe Experience Manager（AEM）パーソナライゼーション
 
 [!DNL Target] 応答をブラウザーまたは mboxTrace で確認できます。有効な URL について詳しくは、[https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) を参照してください。
 
-## Target リクエストがサイトで実行されません。
+## [!DNL Target] リクエストがサイトで実行されません。
 
 無効な doctype を使用している場合、at.js は Target mbox を実行しません。a.js には HTML5 の doctype が必要です。
+
+## クエリーに [!DNL Target] よって、クエリーストリングパラメーターを使用した url が正しく処理されるようにします。 {#query-strings}
+
+アクティビティの URL によって、アクティビティ  をビジターに認定し、ユーザーにアクティビティの操作性を表示するページが決定されます。 アクティビティの作成時にメッセージが表示されると、完全な URL を入力しても必ずしもそのサイトページにコンテンツが配信されるわけではありません。特にクエリストリングパラメーターが含まれている Url については、このようになります
+
+デフォルトでは、ビジュアルエクスペリエンスコンポーザー (VEC) によって、  視覚的なエクスペリエンスコンポーザー設定で指定されているページが開き [ ](/help/administrating-target/visual-experience-composer-set-up.md) ます。 また、アクティビティの作成時に別のページを指定することもできます。
+
+VEC を開いた後で別のページを表示するには、ギアの設定アイコンをクリックして、「 **** ページ配信」を選択し、「 **** [!UICONTROL  アクティビティ url」フィールドで目的の url を指定し ] ます。
+
+![ページ配信設定 UI の設定](assets/configure-page-delivery.png)
+
+ただし、URL にクエリ文字列パラメーターが含まれている場合はどうすればよいですか。 これにより、パーソナライズされたコンテンツを表示することができます。 このシナリオでは、対象となるユーザーに関係なく、ベース URL の他に、クエリパラメーターを定義するためのテンプレート規則も含めることができます。
+
+次のオプションを使用して、追加のテンプレートルールを含めることができます。
+
+### オプション 1: URL を複製し、テンプレートルールに「次を含む」オプションとして保存します。
+
+このオプションを使用すると、この URL がアクティビティに対応していることを確認できますが、この URL にはアタッチされたコーナーがあり、これによって、ベース URL を含む Url への追加レコードをレポートデータに反映させることができます。
+
+このシナリオでは、URL `https://shopping.mycart.com?type=Summers%20Offers` とその他のテンプレートルールに &quot;次の url が含まれています&quot; が or 演算子で区切られています。
+
+![テンプレートルール内の URL の複製](assets/option1.png)
+
+### オプション 2: クエリーストリングのみを使用して、URL &quot;含む&quot; 条件を制限します。
+
+このオプションでは、「前へ」オプションで説明したコーナーが適用されますが、条件設定はクエリーストリングのみに制限されます。
+
+このシナリオでは、URL `https://shopping.mycart.com?type=Summers%20Offers` とその他のテンプレートルールには、次のように or 演算子で区切られたクエリー文字列だけが含まれています。
+
+![テンプレートルールには、クエリーストリングのみが含まれています。](assets/option2.png)
+
+### オプション 3: 完全な URL を指定するのではなく、URL の特定の部分を活用してください。
+
+このシナリオでは、URL `https://shopping.mycart.com?type=Summers%20Offers`   [!UICONTROL  (大文字と小文字が区別され ] ます) > TYPE = Summers% 20offers を or 演算子で区切って入力します。
+
+![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
 
 ## トレーニングビデオ
 
