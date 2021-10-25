@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 57%
+source-wordcount: '413'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021 年 10 月 21 日**
+**最終更新日: 2021 年10月25日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -24,6 +24,14 @@ ht-degree: 57%
 >**mbox.js のサポート**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target]mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しはエラーなく失敗し、デフォルトコンテンツを提供することで [!DNL Target] アクティビティを実行しているページに影響を与えます。
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
+
+## [!DNL Target Standard/Premium] 21.10.5 (2021 年10月26日)
+
+このメンテナンスリリースには、次の機能強化が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [!UICONTROL Visual Experience Composer]（VEC） | Web コンポーネントのサポートが追加されました。 カスタムエレメントやカスタムエレメント内のエレメントについて、パーソナライズされたエクスペリエンスとキャンペーンを作成およびテストできます。 |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (2021 年10月21日)
 
