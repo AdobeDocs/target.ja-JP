@@ -4,7 +4,7 @@ description: Adobe のビジュアルエクスペリエンスコンポーザー 
 title: Visual エクスペリエンスコンポーザー (VEC) オプションはどのようにして使用しますか?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 71%
@@ -348,7 +348,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 * オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。
 
-## カスタムエレメントサポート (2021 年10月26日) {#custom}
+## カスタムエレメントサポート (2021 年10月28日) {#custom}
 
 VEC では、Web コンポーネントをサポートしているので、カスタム [ ](https://developer.mozilla.org/en-US/docs/Web/Web_Components) エレメントやカスタムエレメント内のエレメントについて、カスタマイズされたエクスペリエンスや機能を作成してテストすることができます。 この機能は、すべてのアクティビティタイプの VEC で使用でき [!DNL Target] ます。
 
