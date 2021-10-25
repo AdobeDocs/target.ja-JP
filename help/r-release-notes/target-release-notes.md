@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 53%
+source-wordcount: '420'
+ht-degree: 52%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 53%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer]（VEC） | Web コンポーネントのサポートが追加されました。 カスタムエレメントやカスタムエレメント内のエレメントについて、パーソナライズされたエクスペリエンスとキャンペーンを作成およびテストできます。 |
+| [!UICONTROL Visual Experience Composer]（VEC） | Web コンポーネントのサポートが追加されました [ ](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 。 カスタムエレメントやカスタムエレメント内のエレメントについて、パーソナライズされたエクスペリエンスとキャンペーンを作成およびテストできます。 |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (2021 年10月21日)
 
