@@ -1,22 +1,22 @@
 ---
 keywords: クライアントケア、cname、証明書プログラム、標準名、cookie、証明書、amc、adobe managed certificate、digicert; ドメイン制御検証、dcv
-description: Adobe クライアントケアを使用して、Adobe での  [!DNL Target]  ad ブロッキングの問題に対処するための CNAME (正規名) サポートを adobe で実装します。
+description: で  [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]  は、広告ブロッキングの問題を処理することができます。
 title: ターゲットで CNAME を使用するにはどうすればよいですか?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
 
-# CNAME および Target
+# CNAME と [!DNL Target]
 
 [!DNL Adobe]では、で CNAME (正規名) のサポートを実装するためのクライアントケアについて説明 [!DNL Adobe Target] しています。CNAME を使用すると、広告のブロックに関する問題や ITP に関連する (インテリジェント追跡防止) cookie ポリシーを処理することができます。 CNAME を使用すると、ユーザーが所有しているドメインではなく、が所有しているドメインに対して呼び出しが実行され [!DNL Adobe] ます。
 
-## ターゲットでの CNAME サポートの要求
+## での CNAME サポートの要求 [!DNL Target]
 
 1. SSL 証明書に必要なホスト名のリストを指定します (以下の FAQ を参照してください)。
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
    >[!IMPORTANT]
    >
-   >Adobe の認証局である DigiCert は、この手順が完了するまで証明書を発行することはできません。 そのため、 [!DNL Adobe] この手順が完了するまでは、CNAME 実装の要求を実行できません。
+   >[!DNL Adobe]の証明機関である DigiCert は、この手順が完了するまで証明書を発行することはできません。 そのため、 [!DNL Adobe] この手順が完了するまでは、CNAME 実装の要求を実行できません。
 
-1. [このフォームにご記入のうえ、 ](/help/assets/FPC_Request_Form.xlsx) [ Adobe クライアントケアチケットを開く際に、CNAME サポートを要求して ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ください。
+1. [このフォームにご記入のうえ、 ](/help/assets/FPC_Request_Form.xlsx) [ クライアントケアチケットを使用して  [!DNL Adobe]  CNAME サポートを依頼して ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ください。
 
-   * Adobe [!DNL Target] クライアントコード:
+   * [!DNL Adobe Target] client code:
    * SSL 証明書ホスト名 (例: `target.example.com target.example.org` ):
-   * SSL 証明書購入者 (Adobe は、FAQ を参照してください。
+   * SSL 証明書購入者 ( [!DNL Adobe] 推奨): Adobe、カスタマー
    * お客様が証明書を購入している場合は、「独自の証明書を取得する」 (BYOC) として、次の追加情報を記入します。
       * 証明書の構成 (例: Company Inc):
       * 証明書の組織単位 (オプション、例: マーケティング):
@@ -44,7 +44,7 @@ ht-degree: 1%
       * 証明書の状態/地域 (例: カリフォルニア):
       * 証明書の市区町村 (例: サンノゼ):
 
-1. [!DNL Adobe]が証明書を購入している場合は、 [!DNL Adobe] DigiCert と連携して、Adobe のプロダクションサーバー上に証明書を購入してデプロイします。
+1. [!DNL Adobe]が証明書を購入している場合は、 [!DNL Adobe] DigiCert と連携して、証明書を実働サーバー上に購入してデプロイし [!DNL Adobe] ます。
 
    ユーザーが証明書を購入した場合 (BYOC) は、 [!DNL Adobe] クライアントケアによって証明書署名要求 (CSR) が送信されます。 証明書を選択して証明書を購入した場合は、CSR を使用します。 証明書の発行後に、証明書のコピーと、すべての中間証明書をクライアントケアに送信して、デプロイすることが [!DNL Adobe] できます。
 
@@ -66,13 +66,13 @@ ht-degree: 1%
 
 ### 新しく作成した SSL 証明書の有効期限が切れるまでの時間を入力してください。
 
-アドビから購入された証明書はすべて1年有効になります。 [詳細については、DigiCert の「1年の証明書」を参照してください ](https://www.digicert.com/blog/position-on-1-year-certificates) 。
+すべて [!DNL Adobe] 購入した証明書は、1年についてのみ有効です。 [詳細については、DigiCert の「1年の証明書」を参照してください ](https://www.digicert.com/blog/position-on-1-year-certificates) 。
 
 ### どのホスト名を選択する必要がありますか? 1つのドメインに対して選択すべきホストホスト数を指定してください。
 
-[!DNL Target] CNAME 実装に必要なホスト名は、SSL 証明書と顧客の DNS において、ドメインごとに1つだけです。 各ドメインに1つのホスト名を推奨します。 サポートされているのは、ドメインごとに、1つの目的のためにより多くのホスト名が必要になる場合があります (ステージングでテストするなど)。
+[!DNL Target] CNAME 実装に必要なホスト名は、SSL 証明書と顧客の DNS において、ドメインごとに1つだけです。 [!DNL Adobe] 各ドメインに1つのホスト名を推奨します。 サポートされているのは、ドメインごとに、1つの目的のためにより多くのホスト名が必要になる場合があります (ステージングでテストするなど)。
 
-ほとんどのお客様は、次のようなホスト名を選択し `target.example.com` ます。 Adobe では、この練習を行うことをお勧めしますが、最終的には皆さんが選択することになります。 既存の DNS レコードのホスト名を要求しないでください。 これにより、競合が発生し、CNAME 要求の解決に時間がかかるようになり [!DNL Target] ます。
+ほとんどのお客様は、次のようなホスト名を選択し `target.example.com` ます。 [!DNL Adobe] この練習では以下のようにお勧めしますが、結局はこれから選択することが推奨されます。 既存の DNS レコードのホスト名を要求しないでください。 これにより、競合が発生し、CNAME 要求の解決に時間がかかるようになり [!DNL Target] ます。
 
 ### 既に CNAME を実装しているのは [!DNL Adobe Analytics] 、同じ証明書またはホスト名を使用できるかどうかを確認することができます。
 
@@ -80,8 +80,7 @@ ht-degree: 1%
 
 ### 現在実装され [!DNL Target] ている ITP 2. x?
 
-Apple インテリジェントトラッキング防止 (ITP) バージョン2.3 では、CNAME クローク緩和の機能が導入されました。これにより、Adobe Target CNAME 実装が検出され、cookie の有効期限が7日に短縮されます。 現時点 [!DNL Target] では、ITP の CNAME のクローク緩和については回避策はありません。 ITP について詳しくは、 [ Apple インテリジェントトラッキング防止 (ITP) x を参照してください ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) 。
-
+Apple インテリジェントトラッキング防止 (ITP) バージョン2.3 は、CNAME 実装を検出 [!DNL Adobe Target] し、cookie の有効期限を7日に減らすことができる、Cname クローク緩和の機能が導入されました。 現時点 [!DNL Target] では、ITP の CNAME のクローク緩和については回避策はありません。 ITP について詳しくは、 [ Apple インテリジェントトラッキング防止 (ITP) x を参照してください ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) 。
 
 ### CNAME 実装が展開されている場合、どのような種類のサービスの停止が予想されるか。
 
@@ -329,7 +328,7 @@ Apple インテリジェントトラッキング防止 (ITP) バージョン2.3 
 
    >[!NOTE]
    >
-   >この検証コマンドが DNS 検証で失敗しても、必要な DNS 変更が既に行われている場合は、DNS 更新が完全に伝播されるまで待つ必要がある場合もあります。 DNS レコードには TTL (time-to-live) が関連付けられています。これにより、 [ ](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) これらのレコードに対する dns 応答のキャッシュの有効期限を設定することができます。 そのため、少なくとも Ttl が経過しているということが必要な場合があります。 この `dig target.example.com` コマンドまたは「 [ G Suite」ツールボックスを使用して、特定の TTLs を検索することができ ](https://toolbox.googleapps.com/apps/dig/#CNAME) ます。 世界中の DNS 伝達を確認するには、whatsmydns.net を参照してください [ ](https://whatsmydns.net/#CNAME) 。
+   >この検証コマンドが DNS 検証で失敗しても、必要な DNS 変更が既に行われている場合は、DNS の更新が完全に伝播されるまで待つ必要がある場合もあります。 DNS レコードには TTL (time-to-live) が関連付けられています。これにより、 [ ](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) これらのレコードに対する dns 応答のキャッシュの有効期限を設定することができます。 そのため、少なくとも Ttl が経過しているということが必要な場合があります。 この `dig target.example.com` コマンドまたは「 [ G Suite」ツールボックスを使用して、特定の TTLs を検索することができ ](https://toolbox.googleapps.com/apps/dig/#CNAME) ます。 世界中の DNS 伝達を確認するには、whatsmydns.net を参照してください [ ](https://whatsmydns.net/#CNAME) 。
 
 ### CNAME でのオプトアウトリンクの使用方法
 

@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2865'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 93%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 月 27 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
 | 10月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 21.10.5 リリースについての情報を追加しました [!DNL Target Standard/Premium] (2021 年10月28日)。 |
 | 10 月 23 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 以下のセクションを追加しました。<ul><li>クエリーに [!DNL Target] よって、クエリーストリングパラメーターを使用した url が正しく処理されるようにします。</li></ul> |
 | 10月21日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティー Q&amp;A コーヒーブレイク (11 月10日 ~ 2021)</li><li>[!DNL Adobe Target] コミュニティー Q&amp;A コーヒーブレイク (2021 年12月8日)</li></ul> |
