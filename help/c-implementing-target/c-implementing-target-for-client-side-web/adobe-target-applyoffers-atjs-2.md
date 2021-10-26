@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;関数
-description: Adobe [!DNL Target] at.js JavaScriptライブラリに対してadobe.target.applyOffers()関数を使用し、応答に複数のオファーを適用します。 (at.js 2.x)
-title: adobe.target.applyOffers()関数の使用方法を教えてください。
+description: Adobe [!DNL Target] at.js JavaScript ライブラリを使用して、応答に複数のオファーを適用します。 (at.js 2.x)
+title: adobe.target.applyOffers() 関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: f057df3b20325c04e29f55a90e03934a9343a254
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 93%
 
 | キー | タイプ | 必須？ | 説明 |
 | --- | --- | --- | --- |
-| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。セレクターが指定されていない場合、[!DNL Target]は、使用するHTML要素がHTMLHEADであると見なします。 |
+| selector | 文字列 | × | [!DNL Target] がオファーコンテンツを配置する必要がある HTML 要素を特定するために使用される HTML 要素または CSS セレクター。セレクターが指定されていない場合、 [!DNL Target] は、使用するHTML要素がHTMLHEADであると仮定します。 |
 | 応答 | オブジェクト | ○ | `getOffers()` からのレスポンスオブジェクト。<br>下の「リクエスト」の表を参照してください。 |
 
 ## 応答
 
 >[!NOTE]
 >
->以下に示すすべてのフィールドで許容されるタイプについては、 [Delivery APIのドキュメント](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)を参照してください。
+>詳しくは、 [Delivery API ドキュメント](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) を参照してください。
 
 | フィールド名 | 説明 |
 | --- | --- |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## Promise ベースである `getOffers()` と `applyOffers()` をチェイニングする Promice の呼び出し例
+## と連携する Promise の呼び出し例 `getOffers()` および `applyOffers()`を使用する場合、これらの関数は Promise ベースです
 
 ```javascript
 adobe.target.getOffers({...})
@@ -116,3 +116,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+getOffers() の使用方法のその他の例については、 getOffers を参照してください。 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### ページ読み込み要求の例
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
