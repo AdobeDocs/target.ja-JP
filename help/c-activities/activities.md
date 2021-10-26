@@ -1,20 +1,19 @@
 ---
-keywords: アクティビティリスト;アクティビティ;アクティビティ;アクティビティタイプ；アクティビティの編集；アクティビティ操作；アクティビティ属性；アクティビティリストフィルタ；アクティビティ制限；パーソナライズ；パーソナライズ
-description: Adobe [!DNL Target] のアクティビティを使用して、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストする方法を学びます。
-title: コンテンツをパーソナライズし、ターゲットを使用してページデザインをテストする方法を教えてください。
-feature: アクティビティ
+keywords: アクティビティリスト；アクティビティ；アクティビティ；アクティビティ；アクティビティタイプ；アクティビティの編集；アクティビティアクション；アクティビティ属性；アクティビティリストフィルター；アクティビティ制限；パーソナライズ
+description: Adobe [!DNL Target] を使用すると、特定のオーディエンスに対するコンテンツのパーソナライズとページデザインのテストをおこなうことができます。
+title: Target でコンテンツやページデザインをパーソナライズしたり、テストしたりするにはどうすればよいですか？
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 1a51324bebbdbe959c06f77813bb6b3dfefd72c6
 workflow-type: tm+mt
-source-wordcount: '2097'
-ht-degree: 91%
+source-wordcount: '2064'
+ht-degree: 92%
 
 ---
 
 # アクティビティ
 
-[!DNL Adobe Target]のアクティビティを使用すると、特定のオーディエンスにコンテンツをパーソナライズし、ページデザインをテストできます。
+[!DNL Adobe Target] のアクティビティを使用すると、特定のオーディエンス対してコンテンツをパーソナライズし、ページのデザインをテストできます。
 
 例えば、夏用の婦人靴の情報をハイライトするランディングページと夏用の一般衣料をハイライトする別のランディングページの 2 つをテストするアクティビティを作成できます。アクティビティによって、これらの各ランディングページをいつ表示するかを制御する条件や、成功度の高いページを判断する指標を定義できます。アクティビティは、特定の条件が満たされたときに開始および終了するよう設定できます。例えば、具体的な日付の範囲による期間の設定や、アクティビティが承認されたときに開始し非アクティブになったときに終了する設定ができます。
 
@@ -22,17 +21,17 @@ ht-degree: 91%
 
 ## アクティビティのタイプ
 
-Target には、複数のアクティビティタイプがあります。次の表は、各アクティビティタイプの概要と学習に役立つリンクを示しています。目的に合わせて最適なアクティビティタイプを選択できるように、[Adobe Target アクティビティガイド](/help/c-activities/target-activities-guide.md)も作成しました。
+Target には、複数のアクティビティタイプがあります。次の表は、各アクティビティタイプの概要と学習に役立つリンクを示しています。目的に合わせて最適なアクティビティタイプを選択できるように、[Adobe Target Activities ガイド](/help/c-activities/target-activities-guide.md)も作成しました。
 
-| アクティビティのタイプ | 説明 |
+| アクティビティタイプ | 説明 |
 |--- |--- |
 | [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) | A/B テストでは、事前に設定したテスト期間中に複数のバージョンの Web サイトコンテンツを比較し、どのバージョンがコンバージョンを最も多く増やすことができるのかを見極めます。<br>**メモ：**[ A/B テストアクティビティ内に レコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
 | [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自動配分では、2 つ以上のエクスペリエンスの中から勝者を特定したうえで、自動的にその勝者に配分するトラフィックを増やすことでコンバージョンを促進します。その間もテストによる学習は続けられます。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
 | [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自動ターゲットでは、高度な機械学習を利用して、マーケティング担当者が定義した高パフォーマンスのエクスペリエンスを複数特定したうえで、個々の顧客プロファイルや同様のプロファイルを持つ過去の訪問者の行動を基にして、各訪問者に詳細にカスタマイズしたエクスペリエンスを配信しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。<br>**メモ：**[自動ターゲットアクティビティ内にレコメンデーションを](/help/c-recommendations/recommendations-as-an-offer.md)含めることができるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
 | [Analytics データの使用](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
-| [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多変量分析テスト（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
+| [多変量分析テスト](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
 | [エクスペリエンスのターゲット設定](/help/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/c-intro/intro.md#premium)が必要です。 |
-| [自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | 自動パーソナライゼーション（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![（Target Premium）](/help/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**メモ：** A/B テスト（自動配分と自動ターゲットを含む）アクティビティおよびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを組み込めるようになりました。[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
 
 ## アクティビティリスト {#section_DE8E2DB30D534962A931EF8BB48240F5}
@@ -52,7 +51,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | URL | URL は、名前の下に薄い色のテキストで表示されます。<br>アクティビティの URL は、アクティビティが表示される場所を示します。これにより、アクティビティをすばやく特定して、特定のページで既にテストが実行されているかどうかを判断できます。<br>テストが複数の URL で実行されている場合は、他に使用されている URL の数を示すリンクが表示されます。該当するアクティビティのすべての URL のリストを表示するには、このリンクをクリックします。<br>URL に基づいて検索できます。検索ボックスの横にあるドロップダウンリストを使用し、「[!UICONTROL URL を検索]」を選択します。 |
 | ステータス | アクティビティのステータスは、次のいずれかになります。<ul><li>**ライブ**：アクティビティは現在実行中です。</li><li>**ドラフト**： アクティビティの設定は開始していますが、アクティビティはまだ実行できる状態ではありません。</li><li>**スケジュール済み**：アクティビティは、指定された開始日時になるとアクティブ化されます。</li><li>**非アクティブ**：アクティビティは一時停止しているか、非アクティブになっています。</li><li>**同期中**： アクティビティは保存済みで、Target 配信ネットワークと同期中です。</li><li>**終了**： アクティビティの指定終了日時になり、アクティビティが提供されなくなりました。</li><li>**アーカイブ済み**： アクティビティはアーカイブされています。アーカイブ済みアクティビティをアクティブ化して、もう一度使用することができます。</li></ul>**メモ意**：API メソッドを使用した UI 外でのアクティビティのアクティブ化など、特定のアクションを実行する場合、更新が UI に反映されるまで最大 10 分かかる場合があります。 |
 | ソース | アクティビティが作成された場所を示します。<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager（AEM）</li><li>Adobe Mobile Services（AMS）</li></ul> |
-| 有効なオンデバイス判定 | オンデバイス判定の資格を持つアクティビティを作成すると、「オンデバイス判定の資格を持つ」というラベルがアクティビティの概要ページに表示されます。<br>このラベルが、アクティビティが常にオンデバイスの判定を介して配信されることを意味するわけではありません。at.js 2.5.0以降がオンデバイス判定を使用するように設定されている場合にのみ、このアクティビティはデバイス上で実行されます。 at.js 2.5.0以降がオンデバイスを使用するように設定されていない場合、このアクティビティは、at.jsから行われるサーバー呼び出しを介して配信されます。<br>「 [オンデバイスの判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)」を参照してください。 |
+| On-Device Decisioning の実施要件 | デバイス上判定の実施要件を満たすアクティビティを作成すると、デバイス上判定の実施要件を読み取るラベルがアクティビティの概要ページに表示されます。<br>このラベルは、アクティビティが常に On-Device Decisioning を通じて配信されることを意味しません。 at.js 2.5.0 以降がオンデバイス判定を使用するように設定されている場合にのみ、このアクティビティはデバイス上で実行されます。 at.js 2.5.0 以降がオンデバイスを使用するように設定されていない場合、このアクティビティは、at.js からおこなわれたサーバー呼び出しを介して引き続き配信されます。<br>詳しくは、 [オンデバイス判定](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | プロパティ | アクティビティの[プロパティ](/help/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。 |
 | 収益の推定上昇率 | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<br>計算式は次のとおりです。<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>短縮形の表記で小数点の前が 1 桁だけの場合、この番号は少数第 2 位までで四捨五入されます。例： $1.6M、$60K、$900、$8.5K、$205K<br>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、この列には「---」と表示されます。<br>詳しくは、「[売上高情報の予測](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
 | 最終更新日 | アクティビティが最後に更新された日付と更新者の名前。 |
@@ -109,7 +108,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 |--- |--- |
 | タイプ | A/B テスト：[手動](/help/c-activities/t-test-ab/test-ab.md)、[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自動パーソナライゼーション](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[エクスペリエンスターゲット設定](/help/c-activities/t-experience-target/experience-target.md)<br>[多変量分析テストレコメンデーション](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[](/help/c-recommendations/recommendations.md) |
 | ステータス | ライブ<br>ドラフト<br>スケジュール済み<br>非アクティブ<br>同期中<br>終了<br>アーカイブ済み |
-| 有効なオンデバイス判定 | はい<br>いいえ |
+| On-Device Decisioning の実施要件 | はい<br>いいえ |
 | レポートソース | Target<br>Analytics |
 | Experience Composer | 視覚的<br>フォームベース |
 | 指標のタイプ | コンバージョン<br>売上高<br>エンゲージメント |
@@ -144,7 +143,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 
 Visual Experience Composer の追加の制限事項については、[Visual Experience Composer の制限事項](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)の説明を参照してください。
 
-## [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}以外で更新されたアクティビティ用に[!DNL Target]に読み込まれた属性
+## に読み込まれた属性 [!DNL Target] （以外で更新されたアクティビティの場合） [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 [!DNL Target] で作成されたアクティビティが [!DNL Target] 以外（Adobe I/O など）で更新されると、次のアクティビティ属性が [!DNL Target] に再び読み込まれます。
 
@@ -166,22 +165,13 @@ Visual Experience Composer の追加の制限事項については、[Visual Exp
 
 以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
 
-### アクティビティのタイプ（9:03）  ![概要バッジ](/help/assets/overview.png)
+### アクティビティタイプ（9:03）![概要バッジ](/help/assets/overview.png)
 
-このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティのタイプについて説明しています。
+このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。
 
-* [!DNL Adobe Target] に含まれるアクティビティのタイプの説明
-* 目標達成に適したアクティビティのタイプの選択
-* すべてのアクティビティのタイプに適用される 3 ステップのガイドによるワークフローについての説明
+* [!DNL Adobe Target] に含まれるアクティビティタイプの説明
+* 目標達成に適したアクティビティタイプの選択
+* すべてのアクティビティタイプに適用される 3 ステップのガイドによるワークフローについての説明
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### アクティビティの管理(5:55) ![概要バッジ](/help/assets/overview.png)
-
-このビデオでは、アクティビティリストを使用してアクティビティを管理する方法を説明します。
-
-* 用語「*アクティビティ*」の定義
-* アクティビティリストでのアクティビティの検索
-* アクティビティの編集、非アクティブ化、コピーおよび削除
-
->[!VIDEO](https://video.tv.adobe.com/v/18550)
