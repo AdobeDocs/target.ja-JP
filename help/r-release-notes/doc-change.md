@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2875'
+source-wordcount: '2909'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 93%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10 月 29 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次のリリースに関する情報を追加しました。<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 リリースに関する情報を追加しました。 |
+|  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 次の節を追加しました。&quot;カスタム要素のサポート。&quot; |
 | 10 月 28 日 | [計画と実装 [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | 買い物かごベースのレコメンデーションに関する情報を追加しました。 |
 | 10 月 27 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
 | 10 月 25 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 21.10.5リリース（2021 年 10 月 29 日）。 |

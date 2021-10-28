@@ -1,13 +1,13 @@
 ---
-keywords: at.jsリリース；at.jsバージョン；リリースノート
-description: Adobe [!DNL Target] at.js JavaScriptライブラリの各バージョンでの変更点に関する詳細を表示します。
-title: at.jsの各バージョンには何が含まれますか。
+keywords: at.js リリース；at.js バージョン；リリースノート
+description: バージョンの各バージョンでの変更に関する詳細をAdobe [!DNL Target] at.js JavaScript ライブラリ。
+title: at.js の各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,19 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Targetチームは、at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.jsのメジャーバージョンを最新の更新にアップグレードしてください。
+>Target チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.js のいずれかのメジャーバージョンの最新の更新にアップグレードしてください。
 >
->at.jsをアップグレードするには、[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)のタグを使用することをお勧めします。 拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、アップグレードとして[!DNL Adobe Experience Platform]カタログで使用できるようになります。 詳しくは、『*タグの概要*』ガイドの「[拡張機能のアップグレード](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html)」を参照してください。
+>タグ [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.js をアップグレードするための推奨される方法です。 拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、 [!DNL Adobe Experience Platform] アップグレードとしてのカタログ 詳しくは、 [拡張機能のアップグレード](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 内 *タグの概要* ガイド。
 
-## at.js 2.6.1（2021年8月17日）
+## at.js バージョン 2.7.0（2021 年 10 月 29 日）
 
-* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」のバグを修正しました。
+このリリースで強化された機能は次のとおりです。
+
+* のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスおよびオファーを作成およびテストするために必要です。 この機能は、 [!DNL Target Standard/Premium] 21.10.5リリース。
+
+## at.js 2.6.1（2021 年 8 月 16 日）
+
+* オンデバイス判定を使用する際の「ハイブリッドモードでキャッシュされたアーティファクトがない」バグを修正しました。
 
 ## at.js 2.6.0（2021 年 7 月 16 日（PT））
 
@@ -36,7 +42,7 @@ ht-degree: 89%
 * `sessionId` cookie の有効期限は、すべてのネットワーク呼び出しで正しく延長されます。
 * [!UICONTROL 単一ページアプリケーション]（SPA）ビューキャッシュの初期化が正しく処理され、`viewsEnable` 設定に従うようになりました。
 
-## at.js 2.5.0（2021年5月14日）
+## at.js 2.5.0（2021 年 5 月 14 日）
 
 at.js のこのリリースには、次の機能強化および変更が含まれています。
 
@@ -45,39 +51,39 @@ at.js のこのリリースには、次の機能強化および変更が含ま�
 
 このリリースでは、Microsoft Internet Explorer 10 以降のバージョンのサポートも削除されます。
 
-## at.js 2.4.1（2021 年 3 月 23 日（PT））
+## at.js 2.4.1（2021 年 3 月 23 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
 * mbox リクエストに `targetPageParams` が含まれる問題を修正しました。 `targetPageParams` は `pageLoad` リクエストにのみ含まれる必要があります。 （TNT-40247）
-* [!DNL Adobe Experience Platform]拡張でのウィンドウおよびドキュメントグローバルの参照を最適化。 （TNT-37124）
+* 最適化されたウィンドウおよびドキュメントのグローバル変数で、 [!DNL Adobe Experience Platform] 拡張子。 （TNT-37124）
 
-## at.js 2.4.0（2021 年 1 月 14 日（PT））
+## at.js 2.4.0（2021 年 1 月 14 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の修正が含まれています。
 
 * 統合プロファイル／プラットフォーム ID のサポートを配信 API の customerId に追加しました。
 * 無効なスタイルタグ挿入を修正します。
 
-## at.js 2.3.3（2020年11月14日）
+## at.js 2.3.3（2020 年 11 月 14 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の修正が含まれています。
 
-* mboxクリックの追跡とA4Tに関連する問題を修正しました。 0nクリックで、Targetは、正しいmboxおよびmboxパラメーターを使用してDelivery API呼び出しを実行しました。 ただし、SDIDが[!DNL Analytics]呼び出しのSDIDと一致しなかったので、ヒットのステッチとコンバージョンはありませんでした。 （TNT-38372）
+* mbox クリックの追跡と A4T に関連する問題を修正しました。 0n クリックで、Target は、正しい mbox および mbox パラメーターと共に Delivery API 呼び出しを実行しました。 しかし、SDID は [!DNL Analytics] を呼び出したので、ヒットのステッチとコンバージョンはおこなわれませんでした。 （TNT-38372）
 
-## at.js 2.3.2（2020 年 7 月 24 日（PT））
+## at.js 2.3.2（2020 年 7 月 24 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の修正が含まれています。
 
 * スクリプトやコードが、ウィンドウまたはドキュメントにデフォルトのプロパティを追加した場合に発生するバグを修正しました。
 
-## at.js 1.8.2（2020年6月16日）
+## at.js 1.8.2（2020 年 6 月 16 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の修正が含まれています。
 
 * at.js 1 での CNAME とエッジの上書きを使用する場合の問題を修正しました。*x* でサーバードメインが正しく作成されず、その結果として [!DNL Target] リクエストが失敗することがありました。（TNT-35064）
 
-## at.js 2.3.1リリース（2020年6月16日）
+## at.js 2.3.1 リリース（2020 年 6 月 16 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
@@ -85,47 +91,47 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 * CNAME とエッジのオーバーライド（at.js 2）を使用する場合の問題を修正しました。*x* でサーバードメインが正しく作成されず、その結果として [!DNL Target] リクエストが失敗することがありました。（TNT-35065）
 * [!DNL Target]  拡張機能 v2 と [!DNL Adobe Analytics] [!DNL Launch] 拡張機能を使用すると、[!DNL Target] による [!DNL Analytics] `sendBeacon` 呼び出しが遅延する問題を修正しました。（TNT-36407、TNT-35990、TNT-36000）
 
-## at.js バージョン 2.3.0（2020 年 3 月 25日（PT））
+## at.js バージョン 2.3.0（2020 年 3 月 25日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* 配信されたTargetオファーを適用する際に、ページDOMに追加されたSCRIPTタグとSTYLEタグに対するコンテンツセキュリティポリシーナンスの設定をサポートします。 at.jsが適用されたオファーに対応するスクリプトおよびスタイルタグのナンスを設定できるように、お客様は`targetGlobalSettings.cspScriptNonce`および`targetGlobalSettings.cspStyleNonce`を設定できます。 詳しくは、[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)を参照してください。
-* Google Tag Managerデプロイメント用のGoogle Closureコンパイラーを使用してat.jsをコンパイルする際の問題を修正しました。
-* お客様の実装との競合を避けるために、at.jsチェックCookieの名前を`check`から`at_check`に変更しました。
+* 配信された Target オファーを適用する際の、ページ DOM に追加された SCRIPT タグと STYLE タグに対するコンテンツセキュリティポリシーナンスの設定をサポートします。 顧客が `targetGlobalSettings.cspScriptNonce` および `targetGlobalSettings.cspStyleNonce` at.js が適用されたオファーに対応するスクリプトおよびスタイルタグの nonce を設定できるようにします。 詳しくは、  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+* Google Tag Manager デプロイメント用のGoogle Closure コンパイラーを使用して at.js をコンパイルする際の問題を修正しました。
+* at.js チェック Cookie の名前を `check` から `at_check` を使用して、お客様の実装との競合を回避します。
 
-## at.js バージョン 1.8.1（2020 年 3 月 25日（PT））
+## at.js バージョン 1.8.1（2020 年 3 月 25日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
-* お客様の実装との競合を避けるために、at.jsチェックCookieの名前を`check`から`at_check`に変更しました。
+* at.js チェック Cookie の名前を `check` から `at_check` を使用して、お客様の実装との競合を回避します。
 
-## at.jsバージョン2.2.0（2019年10月11日）
+## at.js バージョン 2.2.0（2019 年 10 月 11 日）
 
-at.jsのこのリリースには、次の機能強化および修正が含まれています。
+at.js のこのリリースには、次の機能強化および修正が含まれています。
 
-* Adobe Analyticsコードがページ要素に存在しない場合に、クリック追跡でAnalytics for Target(A4T)のコンバージョンがレポートされない問題を修正しました。
-* WebページでExperience CloudIDサービス(ECID)v4.4とat.js 2.2の両方を使用する際のパフォーマンスを向上させました。
+* Adobe Analyticsコードがページ要素に存在しない場合に、クリック追跡で Analytics for Target(A4T) のコンバージョンがレポートされない問題を修正しました。
+* Web ページでExperience CloudID サービス (ECID)v4.4 と at.js 2.2 の両方を使用する際のパフォーマンスが向上しました。
 * 以前は、ECID は、at.js がエクスペリエンスを取得する前に、2 回のブロック呼び出しをおこなっていました。これが 1 回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
-* 送信される通知にデフォルトオファーのイベントトークンが含まれない、不正なプリフェッチされたビュー処理を修正しました。
+* 不正なプリフェッチされたビュー処理を修正しました。デフォルトオファーのイベントトークンが送信済み通知に含まれていませんでした。
 
    >[!NOTE]
    >
-   >このパフォーマンス強化を利用するには、ECID拡張機能をv4.4にアップグレードしてください。
+   >このパフォーマンス強化を利用するには、ECID 拡張機能を v4.4 にアップグレードしてください。
 
-* at.jsバージョン2.2では、`serverState`という新しい設定も提供されています。 この設定は、Targetのハイブリッド統合が実装される際のページパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、at.js v2.2 以降（クライアントサイド）と、配信 API または Target SDK（サーバーサイド）の両方を使用してエクスペリエンスを提供することを意味します。`serverState` には、at.js v2.2 以降で、サーバーサイドで取得したコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が備わっています。詳細情報は、[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) の「serverState」を参照してください。
+* at.js バージョン 2.2 では、 `serverState`. この設定は、Target のハイブリッド統合が実装される際に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、at.js v2.2 以降（クライアントサイド）と、配信 API または Target SDK（サーバーサイド）の両方を使用してエクスペリエンスを提供することを意味します。`serverState` には、at.js v2.2 以降で、サーバーサイドで取得したコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が備わっています。詳細情報は、[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) の「serverState」を参照してください。
 
-## at.jsバージョン1.8.0（2019年10月11日）
+## at.js バージョン 1.8.0（2019 年 10 月 11 日）
 
-at.jsのこのリリースには、次の機能強化および修正が含まれています。
+at.js のこのリリースには、次の機能強化および修正が含まれています。
 
-* WebページでExperience CloudIDサービス(ECID)v4.4とat.js 1.8の両方を使用する際のパフォーマンスを向上させました。
+* Web ページでExperience CloudID サービス (ECID)v4.4 と at.js 1.8 の両方を使用する際のパフォーマンスが向上しました。
 * 以前は、ECID は、at.js がエクスペリエンスを取得する前に、2 回のブロック呼び出しをおこなっていました。これが 1 回の呼び出しに短縮され、パフォーマンスが大幅に向上しました。
 
 >[!NOTE]
 >
->このパフォーマンス強化を利用するには、ECID拡張機能をv4.4にアップグレードしてください。
+>このパフォーマンス強化を利用するには、ECID 拡張機能を v4.4 にアップグレードしてください。
 
-## at.js バージョン 2.1.1（2019 年 7 月 24 日（PT））
+## at.js バージョン 2.1.1（2019 年 7 月 24 日）
 
 at.js のこのリリースはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
@@ -161,7 +167,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 * **at.js のサイズが最大 24％減少**：at.js のサイズが最大 24％小さくなります。ファイルサイズが小さくなることで、ページ読み込みパフォーマンスが向上し、ページへの at.js ダウンロード時間が短縮します。
 
-## at.js バージョン 2.0.1（2019 年 3 月 19 日（PT））
+## at.js バージョン 2.0.1（2019 年 3 月 19 日）
 
 これはメンテナンスリリースで、次の機能強化および修正が含まれています。
 
@@ -430,7 +436,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
 * at.js で訪問者 ID サービス用のタイムアウトを提供します。このタイムアウトは、サービス自体のタイムアウトとは独立したものです。
 * 一部のページでは at.js を使用し、別のページでは mbox.js を使用する、実装に影響のあった 0.9.0 の問題を修正します。
-* Adobe Analytics をアクティビティのレポートソースとして使用する場合、 mbox.js バージョン 61 （またはそれ以降）または at.js バージョン 0.9.1 （またはそれ以降）を使用しているのであれば、アクティビティを作成する際にトラッキングサーバーを指定する必要はありません。at.jsライブラリは、トラッキングサーバーの値を自動的に[!DNL Target]に送信します。 アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+* Adobe Analytics をアクティビティのレポートソースとして使用する場合、 mbox.js バージョン 61 （またはそれ以降）または at.js バージョン 0.9.1 （またはそれ以降）を使用しているのであれば、アクティビティを作成する際にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値をに自動的に送信します。 [!DNL Target]. アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 
 ## at.js バージョン 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -448,7 +454,7 @@ at.js バージョン 1.0 には、次の機能強化および修正が含まれ
 
    * 既存の拡張（AngularJS 拡張など）は `registerExtension()` の手法を使用するように更新する必要があります。
 
-* 新しいat.js通知API。
+* 新しい at.js 通知 API です。
 
    この通知システムの目的は、問題が発生した際に [!DNL at.js] がページ上でどう動作していたかについての理解を助けることです。VEC でよく見られる問題は、IT がページの変更をリリースすると VEC セレクターが壊れ、テストがコンテンツを正しく配信しなくなることです。この通知システムの目的は、この配信の問題をページに知らせることで、開発者がその情報にアクセスして [!DNL Adobe Analytics] のようなシステムに渡し、テストが壊れたという通知をビジネスオーナーに送信できるようにすることです。
 

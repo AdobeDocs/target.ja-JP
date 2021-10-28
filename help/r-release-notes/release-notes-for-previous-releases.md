@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '32472'
-ht-degree: 98%
+source-wordcount: '32575'
+ht-degree: 97%
 
 ---
 
@@ -23,55 +23,69 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 ## リリースノート - 2021 年
 
-### [!DNL Target Standard/Premium] 21.10.4 (2021 年10月21日)
+### at.js バージョン 2.7.0（2021 年 10 月 29 日）
 
-このメンテナンスリリースには、次の機能強化が含まれています。
+このリリースで強化された機能は次のとおりです。
+
+* のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスおよびオファーを作成およびテストするために必要です。 この機能は、 [!DNL Target Standard/Premium] 21.10.5リリース。
+
+### [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 29 日）
+
+このメンテナンスリリースで強化された機能は次のとおりです。
 
 | 機能 | 詳細 |
 | --- | --- |
-| カートに基づく推奨事項 | ビジターのカートの内容に基づいて推奨されるアルゴリズムを新しく追加しました。<br>詳細については、作成基準「カートベース」、 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 「カートビュー/チェックアウトページ」および「カート内に既に存在するアイテムを除外する」という推奨設定を参照してください [ ](/help/c-recommendations/plan-implement.md) 。 |
+| [!UICONTROL Visual Experience Composer]（VEC） | のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). パーソナライズされたエクスペリエンスとオファーを、カスタム要素およびカスタム要素内の要素で作成およびテストできます。<br>詳しくは、 [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.3 (2021 年10月19日)
+### [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 22 日）
+
+このメンテナンスリリースで強化された機能は次のとおりです。
+
+| 機能 | 詳細 |
+| --- | --- |
+| 買い物かごベースのRecommendations | 訪問者の買い物かごの内容に基づいてレコメンデーションを配信するためのアルゴリズムの新しいファミリーが追加されました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md) および「買い物かごへの追加/買い物かごの表示/チェックアウトページ」および「訪問者の買い物かごに既に存在する項目を除外」 [Recommendationsの計画と実装](/help/c-recommendations/plan-implement.md). |
+
+### [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 20 日）
 
 このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-*  [!DNL Analysis Workspace] [!UICONTROL  アクティビティレポートの「分析でビューを表示」ボタンをクリックして、の A4T パネル ] [!DNL Target] を開くことができない問題を修正していました。（TGT-42099、TGT-42100）
-*  フォームベースのエクスペリエンスコンポーザーを使用して、「デザインの編集」ボタンを使用して [!UICONTROL  、A/B テスト ] および [!UICONTROL  対象化 ] (XT) アクティビティ  を編集しているときに、「デザインを編集」ボタンが表示されない問題を修正しました。（TGT-41980）
-*  新しい推奨事項を作成する際に、互換性チェックボックスが検索条件を選択したときに表示されない問題を修正しました  。（TGT-42053）
-* 「 [!DNL Analytics] レポートソース (A4T) として選択できない場合に、アクセス許可が不足しているために間違ったエラーメッセージが表示されるように [!DNL Analytics] なります。 （TGT-41954）
-* UI でのキーボード操作を改善するための複数のアクセシビリティ修正を実装しました [!DNL Target] 。
+* お客様が [!UICONTROL A4T] パネル内 [!DNL Analysis Workspace] クリックして [!UICONTROL Analytics で表示] ボタンで [!DNL Target] アクティビティレポート。 （TGT-42099、TGT-42100）
+* 次の問題を修正しました： [!UICONTROL デザインを編集] ボタンを編集中に表示しない [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ [!UICONTROL フォームベースの Experience Composer]. （TGT-41980）
+* が [!UICONTROL 互換] 新しい作成時に条件選択で表示されないチェックボックス [!UICONTROL Recommendations] アクティビティ。 （TGT-42053）
+* 選択できない場合に表示される誤ったエラーメッセージを修正しました。 [!DNL Analytics] がないため (A4T)、レポートソースとして [!DNL Analytics] 権限。 （TGT-41954）
+* キーボード操作が [!DNL Target] UI
 
-### [!DNL Target Standard/Premium] 21.10.2 (2021 年10月13日)
+### [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 14 日）
 
-では、以下の機能強化が追加されてい [!DNL Target]  [!DNL Adobe Experience Platform Web SDK] ます。
+を使用する際に、次の機能が追加されました。 [!DNL Target] [!UICONTROL オーディエンス] と [!DNL Adobe Experience Platform Web SDK]:
 
-* [!DNL Target]ユーザーがソースで削除され、アクティビティでは使用できなくなったことを示す、警告アイコン、追加されたメッセージ、および UI 内の様々な場所に、メッセージが追加されました [!DNL Target] 。
+* の様々な場所に警告アイコン、ポップオーバーおよびメッセージが追加されました。 [!DNL Target] オーディエンスがソースで削除され、で使用できなくなったことを示す UI [!DNL Target] アクティビティ。
 
-   次の図は、アイコン、マイモニター、メッセージを表示する場所を示しています。
+   次の図に、アイコン、ポップオーバー、メッセージが表示される場所の一部を示します。
 
-   * [!UICONTROL アクティビティ ] リストページ
+   * [!UICONTROL アクティビティ] リストページ
 
-      ![「アクティビティリスト」ページのソースメッセージで削除された対象ユーザー](assets/deleted-at-source-audiences-list.png)
+      ![オーディエンスがアクティビティリストページのソースメッセージで削除されました](assets/deleted-at-source-audiences-list.png)
 
-   * アクティビティ [!UICONTROL  概要 ] ページ:
+   * アクティビティ [!UICONTROL 概要] ページ：
 
-      ![概要ページのソースメッセージで削除された対象ユーザーが削除されます。](assets/deleted-at-source-overview.png)
+      ![オーディエンスが概要ページのソースメッセージで削除されました](assets/deleted-at-source-overview.png)
 
-   * アクティビティ作成ワークフローのエクスペリエンスのステップ:
+   * [!UICONTROL エクスペリエンス] アクティビティ作成ワークフローのステップ：
 
-      ![[!UICONTROL エクスペリエンスページのソースメッセージで削除された対象ユーザー ]](assets/deleted-at-source-experiences.png)
+      ![オーディエンスが次のソースメッセージで削除されました： [!UICONTROL エクスペリエンス] ページ](assets/deleted-at-source-experiences.png)
 
-   * アクティビティ作成ワークフローのターゲットステップ:
+   * [!UICONTROL ターゲット設定] アクティビティ作成ワークフローのステップ：
 
-      ![対象ページのソースメッセージで対象ユーザーが削除されました。 ](assets/deleted-at-source-targeting.png)
+      ![オーディエンスが次のソースメッセージで削除されました： [!UICONTROL ターゲット設定] ページ](assets/deleted-at-source-targeting.png)
 
-   * アクティビティを作成するには、次の手順を実行します。
+   * [!UICONTROL 目標と設定] アクティビティ作成ワークフローのステップ：
 
-      ![[!UICONTROL 目標 &amp; 設定ページのソースメッセージで削除された対象ユーザー ]](assets/deleted-at-source-goals-settings.png)
+      ![オーディエンスが [!UICONTROL 目標と設定] ページ](assets/deleted-at-source-goals-settings.png)
 
-   * オーディエンスの絞り込み (   アクティビティ作成ワークフローのターゲットステップでの参加者の置き換え):
+   * オーディエンスの絞り込み ([!UICONTROL オーディエンスを置換] の [!UICONTROL ターゲット設定] （アクティビティ作成ワークフローの手順）:
 
-* 「配信先を結合」機能を使用しようとした場合、1つの対象ユーザーがソースで削除されると、 [!UICONTROL  保存 ] は無効になります。
+* オーディエンスを結合機能を使用しようとしたときに、いずれかのオーディエンスがソースから削除された場合、 [!UICONTROL 保存] は無効です。
 
 ### [!DNL Target Standard/Premium] 21.10.1（2021年10月6日（PT））
 
@@ -79,10 +93,10 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL オーディエンス UI の更新] | このリリースでは、ユーザーのユーザーエクスペリエンスを向上させるためのチームの継続的な取り組みの一環として、 [!DNL Adobe Target] [!DNL Target] UI の対象ユーザーとプロファイルのスクリプトページが更新されて   [!DNL Target] います。 このアップデートにより、以前には一貫性がないデザインパターンが統合および標準化され、次のような新しい機能強化が追加されます。<ul><li>同時に複数の視聴者を選択し、削除することができます。</li><li>更新された [ 対象ユーザービルダーのデザイン](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 対象ユーザー向け ] ライブラリルールビルダーの除外ルールのサポート</li><li>「他のユーザーの検索」フィルターを使用して、より高速な対象ユーザーを検出できます。</li><li>セッションの永続的な検索とフィルターのオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。 |
-| [!UICONTROL プロファイルスクリプト ] UI の更新 | [!UICONTROL また、Profile スクリプトライブラリも更新されており、最新のインターフェイスが ] 追加されています。これにより、生産性が向上します。<ul><li>複数のプロファイルスクリプトを同時に選択して削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内でのシンタックスの強調表示とエラーチェック</li><li>キーボードショートカットを使用した自動補完トークン (mbox またはプロファイル) パラメーター</li></ul>詳しくは、ビジターのプロファイルを参照してください [ ](/help/c-target/c-visitor-profile/visitor-profile.md) 。 |
-| ![プレミアムバッジ ](/help/assets/premium.png) の推奨基準の作成と編集 | [!UICONTROL 推奨条件の ] 作成と編集のワークフローが簡素化され、目的を達成するための適切な推奨アルゴリズムと設定を選択することが容易になりました。<br>詳しくは、条件の作成を参照してください [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 。 |
-| ![プレミアムバッジ ](/help/assets/premium.png) の推奨事項戻るウィンドウとアルゴリズムのリフレッシュレートの改善 | 「最新の表示」アルゴリズムと「トップ売り手」アルゴリズムは、6時間戻るウィンドウで実行できるようになりました。これで、最後にトレンドが表示されているコンテンツを取得することができます。 「6時間戻る」ウィンドウが選択されている場合は、お勧めの結果が一日中3-6 時間ごとに更新されます。<br>詳しくは、「 [ ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 作成条件」の「データソース」を参照してください ** 。 |
+| [!UICONTROL オーディエンス UI の更新] | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL オーディエンス] および [!UICONTROL プロファイルスクリプト] ページ [!DNL Target] UI この更新により、以前は一貫性がなかったデザインパターンを統合および標準化し、次のような新しい機能強化を追加しました。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>更新済み [audience builder のデザイン](/help/c-target/c-audiences/create-audience.md)</li><li>での除外ルールのサポート [!UICONTROL 対象ユーザ] ライブラリルールビルダー</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索およびフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。 |
+| [!UICONTROL プロファイルスクリプト] UI の更新 | この [!UICONTROL プロファイルスクリプト] ライブラリも更新され、更新されたインターフェイスといくつかの生産性の更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内での構文のハイライトとエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）のオートコンプリートパラメーター</li></ul>詳しくは、 [訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Premium バッジ](/help/assets/premium.png) Recommendations条件の作成と編集 | この [!UICONTROL Recommendations条件] 作成と編集ワークフローが合理化され、目標を達成するために適切なレコメンデーションアルゴリズムと設定を簡単に選択できるようになりました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium バッジ](/help/assets/premium.png) Recommendationsのルックバックウィンドウとアルゴリズムの更新率の改善 | 6 時間のルックバックウィンドウで「最も多く閲覧された」および「トップセラー」アルゴリズムを実行して、最近トレンドを示すコンテンツを取り込めるようになりました。 6 時間のルックバックウィンドウを選択すると、レコメンデーションの結果は 1 日を通して 3～6 時間ごとに更新されます。<br>詳しくは、 [データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *条件の作成*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1（2021年9月14日（PT））
 
@@ -771,7 +785,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | シングルページアプリケーションの Visual Experience Composer | シングルページアプリケーション（SPA）用の Visual Experience Composer（VEC）を使用すると、マーケティング担当者は、継続的な開発依存関係なく、マーケティング担当者が SPA 上のテストを作成し、コンテンツをパーソナライズできます。VEC は、React や Angular などの人気あるフレームワークの多くでアクティビティを作成するのに利用できます。（TGT-27916）<br>詳しくは、「[シングルページアプリケーション（SPA） Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)」および「[シングルページアプリケーションの統合](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)」を参照してください。<br>上記の記事に加えて、この機能に対処する SPA および at.js に関するトピックと、実装方法に関するトピックが多数あります。詳しくは、「[ドキュメントの変更](/help/r-release-notes/doc-change.md)」を参照してください。 |
-| ビジュアルエクスペリエンスコンポーザー | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>[AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)の挿入中に VEC の「前挿入」オプションと「後挿入」オプションを使用できるようになりました。「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」を参照してください。（TGT-32385）</li><li>Google Chrome のための [!DNL Adobe Target] VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトをロードして、作成と QA Web エクスペリエンスをすばやくできます。「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。（TGT-32746）</li></ul> |
+| Visual Experience Composer | Visual Experience Composer（VEC）には、次の機能強化が含まれていて、作業を迅速かつ効率的に行うことができます。<ul><li>[AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md)の挿入中に VEC の「前挿入」オプションと「後挿入」オプションを使用できるようになりました。「[Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)」を参照してください。（TGT-32385）</li><li>Google Chrome のための [!DNL Adobe Target] VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトをロードして、作成と QA Web エクスペリエンスをすばやくできます。「[Visual Experience Composerヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)」を参照してください。（TGT-32746）</li></ul> |
 | ![Premium バッジ](/help/assets/premium.png)<br>[!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスターゲット設定]アクティビティの Recommendations | [!UICONTROL A/B テスト]（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。これにより、次のようなまったく新しい機能が可能になります。<ul><li>同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。</li><li>複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。</li><li>[!UICONTROL 自動配分]を使用して、パフォーマンスが最も高い Recommendations エクスペリエンスにトラフィックを自動的にプッシュします。</li><li>[!UICONTROL 自動ターゲット]を使用して、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスに訪問者を動的に割り当てます。</li></ul>開始するには、VEC を使用して [!UICONTROL A/B テスト]または[!UICONTROL エクスペリエンスターゲット設定]アクティビティを作成し、[!UICONTROL 前挿入]、[!UICONTROL 後挿入]、[!UICONTROL 置換]などのアクションを使用して、エクスペリエンスに Recommendations を追加します。（RECS-6166）<br>詳しくは、「[オファーとしてのレコメンデーション](/help/c-recommendations/recommendations-as-an-offer.md)」を参照してください。 |
 | ![Premium badge](/help/assets/premium.png)<br>Target API でのエンタープライズパーミッション | [Adobe Target Admin API](https://developers.adobetarget.com/api/#admin-apis) では、Target UI と同じエンタープライズパーミッションをフル活用できるようになります。**2019 年 2 月 21 日**&#x200B;より、システム管理者は、任意のワークスペース内で、プログラムデータにプログラム的にアクセスしたり、アクティビティ、オファー、オーディエンスの作成および管理したりできます。これらのアクションは、以前はデフォルトのワークスペースのみに制限されていました。Automated Personalization（AP）アクティビティのサポートは、将来のリリースでおこなわれます。<br>**注意：**&#x200B;この機能に関する[既知の問題](/help/r-release-notes/known-issues-resolved-issues.md#api)があります。 |
 
@@ -1118,7 +1132,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p>Target UI およびコンテンツ配信用のブラウザーとして Microsoft Edge がサポートされるようになりました。 </p> <p>詳しくは、を参照してください。<a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> サポートされているブラウザ </a>（TGT-14102） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>紹介 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p>最近表示された項目の条件で、特定の<a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">環境</a>に固有の結果が返されるようになりました。別々の環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、各サイトでは、そのサイトで最近表示された項目のみが表示されます。同じ環境に属する 2 つのサイトがあり、訪問者がそれらのサイト間を移動した場合、訪問者には、両方のサイトで最近表示された共通の項目が表示されます。 </p></td> 
   </tr> 
  </tbody> 
@@ -1189,7 +1203,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      </ul> </p> <p>詳しくは、<a href="/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">カスタムパラメーター</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>紹介 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。（TGT-28483） </p> <p>詳しくは、<a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">フォームベースの Experience Composer</a> を参照してください。 </p> </li> 
@@ -1430,7 +1444,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
    <td colname="col1"> <p>オーディエンス </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
-      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。関連<a href="/help/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
+      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>開始日と終了日を指定せずに時間枠オーディエンスを作成できるようになりました。そうすることで、開始日と終了日をアクティビティレベルで管理しつつ、複数のアクティビティに同じオーディエンスを使用できるようになります（オーディエンスのコピーを作成する必要がなくなります）。詳しくは、<a href="/help/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">時間枠</a>を参照してください。（TGT-25975） </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>オーディエンスを選択／アクティビティのみのオーディエンスページでオーディエンスにマウスポインターを置くと、アクティビティのみのオーディエンスに対してコピーおよび編集機能を利用できます。この機能はこれまで、ライブラリオーディエンス専用でした。詳しくは、<a href="/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> アクティビティのみのオーディエンスの作成</a>を参照してください。（TGT-27410） </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>アクティビティのみのオーディエンスに複数のアクティビティをまたいで同じ名前を設定できるようになりました。以前は、名前が重複しているとタイムスタンプが追加されていました。例えば「Target on Weekday」というオーディエンスが重複していると、「Target on Weekday-1456732099201」という名前で保存されていました。 </p> <p>ライブラリオーディエンスの場合は引き続き一意の名前を使用する必要があります。（TGT-17967） </p> </li> 
      </ul> </p> </td> 
@@ -1452,7 +1466,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>紹介 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_63613AD2D744442AA12CD23F4DAC75B4"> 
       <li id="li_4DD5CF06D93A4083BCB34A4FFA293C89"> <p>レコメンデーションのカスタムアルゴリズムデータのアップロードステータスが UI に表示されるようになりました。<a href="/help/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">カスタム条件のアップロード</a>を参照してください。（TGT-23891） </p> </li> 
@@ -1698,7 +1712,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 9 月 27 日</b> </p> <p> <span class="filepath">at.js</span> バージョン 1.2.0 が、大部分のバグ修正を含むメンテナンスリリースとして公開されました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js のバージョンの詳細</a>を参照してください。 </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>クリック追跡の特殊なケースでのデフォルトのアクションを妨げていた問題を修正しました。（TNT-28089） </p> </li> 
@@ -1760,7 +1774,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 8 月 3 日</b> </p> <p> <span class="filepath">at.js</span> バージョン 1.1 がリリースされました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">at.js</span> バージョン 1.1 には、次の機能強化および修正が含まれています。 </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>レスポンストークンの処理を追加しました。詳しくは、<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">レスポンストークン</a>を参照してください。 </p> </li> 
@@ -1994,7 +2008,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath">at.js</span> バージョン 0.9.6 がリリースされました。詳しくは、<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js のダウンロード</a>を参照してください。 </p> <p><span class="filepath">at.js</span> バージョン 0.9.6 には、次の機能強化および修正が含まれています。 </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>A4T のリダイレクトオファーのサポート。<span class="filepath">at.js</span> バージョン 0.9.6 をダウンロードしてインストールすると、<span class="keyword">Target</span>（A4T）のレポートソースとして <span class="keyword">Adobe Analytics</span> を使用するアクティビティでリダイレクトオファーを使用できます。<span class="filepath">at.js</span> バージョン 0.9.6 のほかにも、リダイレクトオファーと A4T を使用するために実装が満たす必要があるその他の最小要件があります。詳細および追加の重要な情報については、<a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">リダイレクトオファー - A4T に関する FAQ</a> を参照してください。 </p> </li> 
@@ -2036,7 +2050,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>紹介 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p><b>動的なプロモーション：</b>Target Recommendations では、プロモーションの動的な一致をサポートするようになりました。 </p> <p>詳しくは、<a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">動的および静的インクルージョンルールの使用</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
@@ -2173,7 +2187,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>紹介 </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p>Recommendations の機能が次のように強化されました。 </p> <p> 
      <ul id="ul_9D3644890C0C472D8B485DE9A52898B3"> 
       <li id="li_1E5662348F6E4ABDB2B74FE3326F2FD3"> <p>閲覧数トップと購入数トップの CSV ダウンロードにバックアップアルゴリズムの結果の行が追加されました。バックアップレコメンデーションは「*,」で始まります。 </p> </li> 
@@ -2906,23 +2920,23 @@ target/r_release-notes-2015.xml
      </ul> </p> <p>詳しくは、<a href="/help/c-target/c-audiences/c-target-rules/browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local">ブラウザーオプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p class="Premium">過去の購入の除外 </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">過去の購入の除外 </p> </td> 
    <td colname="col2"> <p>Target は、訪問者のレコメンデーションから以前購入した品目を自動的に除外するようになりました。このオプションは、任意の条件で無効にできます。 </p> <p>このリリースより前から実行されているアクティビティで使用されているものを含め、あらかじめ用意されているすべての条件で、この設定が有効になっています。過去の購入を除外したくない場合、これらのアクティビティを編集する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p> 属性の重み付け </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> 属性の重み付け </p> </td> 
    <td colname="col2"> <p> Recommendations のランキングルールの条件が変更されました。この変更は、既存の Recommendations に影響します。 </p> <p> 属性の重み付けを使用して、アルゴリズムを「一押し」できます。これによりマーケティング担当者は、コンテンツカタログについての重要な説明またはメタデータを基にして、アルゴリズムに影響を与えることができます。レコメンデーションでより頻繁に表示されるように、セール品にはより大きな重み付けを適用します。その結果、非セール品は完全に除外されませんが、表示される頻度は低くなります。複数の重み付けを同じアルゴリズムに適用することができ、レコメンデーションの分割したトラフィックについて重み付けをテストできます。 </p> <p>これらの新しい重み付けは、すべてのアクティビティに自動的に適用されます。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p>フィード処理のための時間の設定 </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>フィード処理のための時間の設定 </p> </td> 
    <td colname="col2"> <p>フィードを更新する時間を指定します。 </p> <p>詳しくは、<a href="/help/c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local">フィードの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p>フィードリストを使用してフィードを実行しないように設定する </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>フィードリストを使用してフィードを実行しないように設定する </p> </td> 
    <td colname="col2"> <p>フィードを更新したくない場合に、フィードリストからフィードを実行しないように設定します。 </p> <p>詳しくは、<a href="/help/c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local">フィードの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p>コンテンツの類似性に基づいて新しい条件タイプを設定する </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>コンテンツの類似性に基づいて新しい条件タイプを設定する </p> </td> 
    <td colname="col2"> <p>次の用途に使用できる、品目ベースの条件です。 </p> <p> 
      <ul id="ul_86BDF2DE0FCE4665A2985D0C56E50A53"> 
       <li id="li_D83669F9019B431891E072C973B317D7">類似の属性を持つ現在の品目 </li> 
@@ -2937,11 +2951,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>アクティビティリストでの確認で最も関心のあるアクティビティを表示するのに役立つ、いくつかのフィルターが追加されました。 </p> <p><a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">アクティビティ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p>機能強化：業界関連の条件の設定 </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>機能強化：業界関連の条件の設定 </p> </td> 
    <td colname="col2"> <p>設定中に関係のないオプションは削除されました。以前は、メディアなど一部の業種向けの一部の設定オプションは、必ずしも関連があるとは限りませんでした。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p>新しいあらかじめ用意されている条件 </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>新しいあらかじめ用意されている条件 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_47E67312A04E414EB797F9AE2A1F7599"> 
       <li id="li_5EDF9006145B4498B2EAD95D642057C5">これに似たその他のビデオ </li> 
@@ -2999,11 +3013,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p> Automated Personalization および多変量分析テストアクティビティの編集時に、ワードプロセッサーのようなウィンドウでテキストおよび HTML を書式設定します。 </p> <p> この機能は、以前は A/B およびエクスペリエンスターゲット設定アクティビティでのみ利用できました。 </p> <p>これらのアクションは、HTML タグを追加したりスタイルを適用することで、リッチテキストの編集機能を提供します。任意のアクションに対するリッチテキストエディターでのこれらの変更は、ソースビューで確認できます。リッチテキストエディターの HTML ボタンを押すと、ソースビューを表示できます。リッチテキストエディターで追加されたスタイルは、お客様の Web サイトのスタイルに影響する可能性があります。この場合、ユーザーは、ソースビューに移動して、Web サイトのスタイルに合わせて修正することができます。 </p> <p><a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer のオプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p class="Premium">フォームベースのレコメンデーション </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">フォームベースのレコメンデーション </p> </td> 
    <td colname="col2"> <p> 電子メール、コンソール、キオスクなど、サイトでない場所向けのレコメンデーションアクティビティを作成します。 </p> <p>詳しくは、<a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">フォームベースの Experience Composer</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">紹介 </p> <p> デザインでの主要品目に関する情報の表示 </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> デザインでの主要品目に関する情報の表示 </p> </td> 
    <td colname="col2"> <p>Recommendations デザインで主要品目を表示します。 </p></td> 
   </tr> 
   <tr> 
@@ -3085,7 +3099,7 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>アクティビティをアーカイブに送信します。アーカイブしたアクティビティは、再度アクティブにすることができます。アーカイブのアクティビティは、デフォルトではアクティビティリストには表示されません。 </p> <p><a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">アクティビティ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>自動設定 </p> <p>オファーレベルのターゲット設定 </p> </td> 
+   <td colname="col1" class="premium"> <p>Automated Personalization </p> <p>オファーレベルのターゲット設定 </p> </td> 
    <td colname="col2"> <p>マーケティング担当者は、Automated Personalization のオファーにターゲットルールを適用できます。指定したグループのメンバーに対して特定のオファーが表示されるのを除外することができます。 </p> <p>詳しくは、<a href="/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local">AP オファーのターゲット設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -3093,11 +3107,11 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>デザインライブラリに、各デザインで使用されているライブアクティビティおよび非アクティブなアクティビティの数を表示します。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>推奨事項 Premium </p> <p>デザインに表示するカスタマイズした動的タイトル </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>デザインに表示するカスタマイズした動的タイトル </p> </td> 
    <td colname="col2"> <p>特定のデザインの使用時に表示するタイトルを選択します。このタイトルは、ページの訪問者に表示されるタイトルと一致させる必要はありません。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>推奨事項 Premium </p> <p>API トークン </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API トークン </p> </td> 
    <td colname="col2"> <p>Recommendations Premium からの Client API トークンを設定できます。 </p></td> 
   </tr> 
   <tr> 
