@@ -4,7 +4,7 @@ description: 'Adobe TargetでRecommendationsアクティビティを実装する
 title: Recommendations Activities の実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 802ed4cc03973ee61ff3e40930b137422868835b
+source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 31%
@@ -108,7 +108,7 @@ function targetPageParams() {
 
    複数のセッションをまたいで行動を見ると、訪問者の好みや好みに基づいて製品が強く「付き合う」という感覚がある場合、意味があります。 例えば、訪問者は Star Wars が好きで、同じ席で両方の映画を視聴したくない場合でも、Indiana Jones が好きになる可能性があります。 また、訪問者は、ボードゲーム「コードネーム」が好きで、ボードゲーム「アバロン」も好む場合があります。 
 
-単一のセッション内での訪問者の行動と複数のセッション間での訪問者の行動のどちらを見ても、 [!DNL Target] は、現在の買い物かご内の品目に基づいて、各訪問者に対してレコメンデーションをおこないます。
+[!DNL Target] は、1 回のセッション内での訪問者の行動と複数のセッションにわたる訪問者の行動のどちらを調べるかに関係なく、現在の買い物かご内の品目に基づいて各訪問者にレコメンデーションをおこないます。
 
 ### 訪問者の買い物かごに既にある項目を除外
 
