@@ -1,10 +1,10 @@
 ---
-user-guide-title: Adobe  [!DNL Target]  ガイド
+user-guide-title: Adobe [!DNL Target] ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
 source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
 ht-degree: 100%
 
