@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '32575'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -45,47 +45,47 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 | --- | --- |
 | 買い物かごベースのRecommendations | 訪問者の買い物かごの内容に基づいてレコメンデーションを配信するためのアルゴリズムの新しいファミリーが追加されました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md) および「買い物かごへの追加/買い物かごの表示/チェックアウトページ」および「訪問者の買い物かごに既に存在する項目を除外」 [Recommendationsの計画と実装](/help/c-recommendations/plan-implement.md). |
 
-### [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 20 日）
+### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日（PT））
 
 このメンテナンスリリースには、以下の機能強化、修正および変更が含まれています。
 
-* お客様が [!UICONTROL A4T] パネル内 [!DNL Analysis Workspace] クリックして [!UICONTROL Analytics で表示] ボタンで [!DNL Target] アクティビティレポート。 （TGT-42099、TGT-42100）
-* 次の問題を修正しました： [!UICONTROL デザインを編集] ボタンを編集中に表示しない [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ [!UICONTROL フォームベースの Experience Composer]. （TGT-41980）
-* が [!UICONTROL 互換] 新しい作成時に条件選択で表示されないチェックボックス [!UICONTROL Recommendations] アクティビティ。 （TGT-42053）
-* 選択できない場合に表示される誤ったエラーメッセージを修正しました。 [!DNL Analytics] がないため (A4T)、レポートソースとして [!DNL Analytics] 権限。 （TGT-41954）
-* キーボード操作が [!DNL Target] UI
+* [!DNL Target] アクティビティレポートで「[!UICONTROL Analytics で表示]」ボタンをクリックしても [!DNL Analysis Workspace] の [!UICONTROL A4T] パネルが開かない問題を修正しました。（TGT-42099、TGT-42100）
+* [!UICONTROL フォームベースのエクスペリエンスコンポーザー]を使用して「[!UICONTROL A/B テスト]」および「[!UICONTROL エクスペリエンスのターゲット設定]（XT）」アクティビティを編集しているときに「[!UICONTROL デザインを編集]」ボタンが表示されない問題を修正しました。（TGT-41980）
+* 新しい [!UICONTROL Recommendations] アクティビティの作成時に「[!UICONTROL 互換性]」チェックボックスが条件の選択に表示されない問題を修正しました。（TGT-42053）
+* [!DNL Analytics] の権限がないので [!DNL Analytics] をレポートソース（A4T）として選択できない場合に表示される誤ったエラーメッセージを修正しました。（TGT-41954）
+* アクセシビリティに関する複数の修正を実装して、[!DNL Target] UI 全体のキーボードナビゲーションを改善しました。
 
-### [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 14 日）
+### [!DNL Target Standard/Premium] 21.10.2（2021年10月13日（PT））
 
-を使用する際に、次の機能が追加されました。 [!DNL Target] [!UICONTROL オーディエンス] と [!DNL Adobe Experience Platform Web SDK]:
+[!DNL Target] [!UICONTROL オーディエンス]を [!DNL Adobe Experience Platform Web SDK] で使用する場合の次の機能拡張が追加されました。
 
-* の様々な場所に警告アイコン、ポップオーバーおよびメッセージが追加されました。 [!DNL Target] オーディエンスがソースで削除され、で使用できなくなったことを示す UI [!DNL Target] アクティビティ。
+* オーディエンスがソースで削除され [!DNL Target] アクティビティで使用できなくなったことを示す警告アイコン、ポップオーバーおよびメッセージが、[!DNL Target] UI の様々な場所に追加されました。
 
-   次の図に、アイコン、ポップオーバー、メッセージが表示される場所の一部を示します。
+   次の図は、アイコン、ポップオーバーおよびメッセージの表示場所をいくつか示しています。
 
-   * [!UICONTROL アクティビティ] リストページ
+   * [!UICONTROL アクティビティ]リストページ
 
-      ![オーディエンスがアクティビティリストページのソースメッセージで削除されました](assets/deleted-at-source-audiences-list.png)
+      ![ソースメッセージで削除されたオーディエンスの使用に関する警告が表示されているアクティビティリストページ](assets/deleted-at-source-audiences-list.png)
 
-   * アクティビティ [!UICONTROL 概要] ページ：
+   * アクティビティ[!UICONTROL 概要]ページ：
 
-      ![オーディエンスが概要ページのソースメッセージで削除されました](assets/deleted-at-source-overview.png)
+      ![ソースメッセージで削除されたオーディエンスの使用に関する警告が表示されている概要ページ](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL エクスペリエンス] アクティビティ作成ワークフローのステップ：
+   * アクティビティ作成ワークフローの[!UICONTROL エクスペリエンス]ステップ：
 
-      ![オーディエンスが次のソースメッセージで削除されました： [!UICONTROL エクスペリエンス] ページ](assets/deleted-at-source-experiences.png)
+      ![ソースメッセージで削除されたオーディエンスに関する警告の表示（[!UICONTROL エクスペリエンス]ページ）](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL ターゲット設定] アクティビティ作成ワークフローのステップ：
+   * アクティビティ作成ワークフローの[!UICONTROL ターゲティング]ステップ：
 
-      ![オーディエンスが次のソースメッセージで削除されました： [!UICONTROL ターゲット設定] ページ](assets/deleted-at-source-targeting.png)
+      ![ソースメッセージで削除されたオーディエンスに関する警告の表示（[!UICONTROL ターゲティング]ページ）](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL 目標と設定] アクティビティ作成ワークフローのステップ：
+   * アクティビティ作成ワークフローの[!UICONTROL 目標と設定]ステップ：
 
-      ![オーディエンスが [!UICONTROL 目標と設定] ページ](assets/deleted-at-source-goals-settings.png)
+      ![ソースメッセージで削除されたオーディエンスに関する警告の表示（[!UICONTROL 目標と設定]ページ）](assets/deleted-at-source-goals-settings.png)
 
-   * オーディエンスの絞り込み ([!UICONTROL オーディエンスを置換] の [!UICONTROL ターゲット設定] （アクティビティ作成ワークフローの手順）:
+   * オーディエンスの絞り込み（アクティビティ作成ワークフローの[!UICONTROL ターゲティング]ステップの「[!UICONTROL オーディエンスを置換]」）：
 
-* オーディエンスを結合機能を使用しようとしたときに、いずれかのオーディエンスがソースから削除された場合、 [!UICONTROL 保存] は無効です。
+* オーディエンスの結合機能を使用しようとしたときに、一方のオーディエンスがソースで削除されていた場合は、「[!UICONTROL 保存]」が無効になります。
 
 ### [!DNL Target Standard/Premium] 21.10.1（2021年10月6日（PT））
 
@@ -93,10 +93,10 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL オーディエンス UI の更新] | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL オーディエンス] および [!UICONTROL プロファイルスクリプト] ページ [!DNL Target] UI この更新により、以前は一貫性がなかったデザインパターンを統合および標準化し、次のような新しい機能強化を追加しました。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>更新済み [audience builder のデザイン](/help/c-target/c-audiences/create-audience.md)</li><li>での除外ルールのサポート [!UICONTROL 対象ユーザ] ライブラリルールビルダー</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索およびフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。 |
-| [!UICONTROL プロファイルスクリプト] UI の更新 | この [!UICONTROL プロファイルスクリプト] ライブラリも更新され、更新されたインターフェイスといくつかの生産性の更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプト用の新しいコードエディター</li><li>コードエディター内での構文のハイライトとエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）のオートコンプリートパラメーター</li></ul>詳しくは、 [訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Premium バッジ](/help/assets/premium.png) Recommendations条件の作成と編集 | この [!UICONTROL Recommendations条件] 作成と編集ワークフローが合理化され、目標を達成するために適切なレコメンデーションアルゴリズムと設定を簡単に選択できるようになりました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium バッジ](/help/assets/premium.png) Recommendationsのルックバックウィンドウとアルゴリズムの更新率の改善 | 6 時間のルックバックウィンドウで「最も多く閲覧された」および「トップセラー」アルゴリズムを実行して、最近トレンドを示すコンテンツを取り込めるようになりました。 6 時間のルックバックウィンドウを選択すると、レコメンデーションの結果は 1 日を通して 3～6 時間ごとに更新されます。<br>詳しくは、 [データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *条件の作成*. |
+| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。 |
+| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。 |
+| ![プレミアムバッジ](/help/assets/premium.png) Recommendations 条件の作成と編集 | [!UICONTROL Recommendations 条件]の作成と編集のワークフローが効率化され、目標を達成するための適切なレコメンデーションアルゴリズムと設定の選択が容易になりました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。 |
+| ![プレミアムバッジ](/help/assets/premium.png) Recommendations のルックバックウィンドウとアルゴリズム更新頻度の改善 | 6 時間のルックバックウィンドウで「最も多く閲覧」アルゴリズムや「トップセラー」アルゴリズムを実行することで、直近のトレンドとなっているコンテンツをキャプチャできるようになりました。6 時間のルックバックウィンドウを選択すると、レコメンデーション結果は 1 日で 3〜6 時間ごとに更新されます。<br>詳しくは、*条件の作成*&#x200B;の[データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)を参照してください。 |
 
 ### [!DNL Target Standard/Premium] 21.9.1（2021年9月14日（PT））
 
@@ -179,7 +179,7 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for  [!DNL Target]  の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
+| [!UICONTROL Analytics for Target]（A4T）でのリダイレクトのサポート | [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) を使用する場合、Platform Web SDK で [!DNL Target] リダイレクトがサポートされるようになりました。<br>詳しくは、[Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
 
 ### at.js バージョン 2.5.0（2021 年 5 月 13 日）
 
@@ -234,7 +234,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 * [!UICONTROL 自動ターゲット]（AT）および [!UICONTROL Automated Personalization]（AP）アクティビティ用の[!UICONTROL パーソナライゼーションインサイト]レポートが毎日作成されるようになりました。過去 15、30 および 60 日間の[!UICONTROL 自動セグメント]または[!UICONTROL 重要な属性]を提供するレポートを選択できます。45 日と 90 日のオプションが削除され、その他のルックバックウィンドウ設定を毎日実行できるようになりました。（TGT-39472）
 * アクティビティの[!UICONTROL 目標と設定]ページで顧客が「[!UICONTROL 依存関係を編集]」をクリックしても、現在の依存関係が表示されない問題を修正しました。（TGT-39340）
-* Workspace の[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。更新の前は、現在選択されているワークスペースのオーディエンスが表示されていました。更新後、[!UICONTROL デフォルトの Workspace] とそのオーディエンスが表示されます。現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。（TGT-38871）
+* ワークスペースの[!UICONTROL オーディエンスライブラリ]を更新する際の問題を修正しました。更新の前は、現在選択されているワークスペースのオーディエンスが表示されていました。更新後、[!UICONTROL デフォルトワークスペース]とそのオーディエンスが表示されます。現在のワークスペースとそのオーディエンスは、更新後も保持されるようになりました。（TGT-38871）
 * [!UICONTROL Recommendations] アクティビティをコピーしてから、後で条件シーケンスを変更して元のアクティビティを編集すると発生していた問題を修正しました。元のアクティビティで条件シーケンスを変更すると、コピーされたアクティビティに誤って適用されていました。（TGT-39155）
 * [!UICONTROL Recommendations] の除外で間違った製品数が表示される問題を修正しました。（TGT-39599）
 
@@ -253,7 +253,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 * [!UICONTROL Recommendations]で、業種を変更すると[!UICONTROL シーケンスを作成]ページがハングする問題を修正しました。（TGT-38160）
 * [!UICONTROL Automated Personalization]（AP）アクティビティーのオファーからオーディエンスを削除できない問題を修正しました。（TGT-39058）
 * 一部の顧客の[!UICONTROL オーディエンス情報]カードに間違った時間枠（開始日と終了日）が表示される問題を修正しました。（TGT-39150）
-* 一部の顧客が、[!UICONTROL デフォルトの Workspace] でアクティビティのリストを表示できない問題を修正しました。（TGT-38526）
+* 一部の顧客が、[!UICONTROL デフォルトワークスペース]でアクティビティのリストを表示できない問題を修正しました。（TGT-38526）
 
 ### at.js 2.4.0（2021 年 1 月 14 日）
 
@@ -359,7 +359,7 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 * 更新後にサイトの環境設定が保持されない問題を修正しました。（TGT-37239）
 * Scalable Vector Graphics（SVG）画像で[!UICONTROL 次の後に挿入]／ [!UICONTROL 画像]が正しく動作しない問題を修正しました。（TGT-37242）
 * [!UICONTROL 発行者]の役割を持つユーザーがドラフトアクティビティを削除できない問題を修正しました。（TGT-37358）
-* 「[!UICONTROL すべてのマイ Workspace]」が選択されている場合にアクティビティを編集できない問題を修正しました。（TGT-37276）
+* 「[!UICONTROL すべてのマイワークスペース]」が選択されている場合にアクティビティを編集できない問題を修正しました。（TGT-37276）
 
 ### Target Standard／Premium 20.5.1（2020 年 6 月 17 日）
 
@@ -1952,7 +1952,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポート：A/B、XT、Recommendations </p> </td> 
-   <td colname="col2"> <p>A/B、XT、Recommendations アクティビティのレポートには、信頼区間や上昇率を視覚的に確認できるビジュアル表現が含まれているので、より的確に勝者を見極めることができます。このビジュアル表現にカーソルを合わせると、実際の数値を確認できます。この機能は、Analytics をレポートソースに使用する（A4T）アクティビティでは利用できません。。 </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>A/B、XT、Recommendations アクティビティのレポートには、信頼区間や上昇率を視覚的に確認できるビジュアル表現が含まれているので、より的確に勝者を見極めることができます。このビジュアル表現にカーソルを合わせると、実際の数値を確認できます。この機能は、Analytics をレポートソースに使用する（A4T）アクティビティでは利用できません。 </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>詳しくは、<a href="/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティ </p> </td> 
