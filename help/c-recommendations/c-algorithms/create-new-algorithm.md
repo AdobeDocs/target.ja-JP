@@ -4,10 +4,10 @@ description: Adobe Recommendationsアクティビティの内容を制御して�
 title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
+source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 53%
+source-wordcount: '2797'
+ht-degree: 54%
 
 ---
 
@@ -75,12 +75,11 @@ ht-degree: 53%
 
    | アルゴリズムタイプ | 使用するタイミング | 利用可能なアルゴリズム |
    | --- | --- | --- |
-   | [!UICONTROL 買い物かごベース] | ユーザーの買い物かごの内容に基づいてレコメンデーションをおこないます。 | <ul><li>これらを閲覧した人がそれらを閲覧しました</li><li>これらを閲覧した人が購入したもの</li><li>これらを購入した人が購入したもの</li></ul>詳しくは、 [買い物かごベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *レコメンデーションキーに基づくレコメンデーションの設定*. |
+   | [!UICONTROL 買い物かごベース] | ユーザーの買い物かごの内容に基づいてレコメンデーションをおこないます。 | <ul><li>これらを閲覧した人がそれらを閲覧しました</li><li>これらを閲覧した人が購入したもの</li><li>これらを購入した人が購入したもの</li></ul> |
    | [!UICONTROL 人気度ベース] | サイト全体での品目の全体的な人気度に基づいて、またはユーザーのお気に入りまたは最も多く閲覧されたカテゴリ、ブランド、ジャンルなど内の品目の人気度に基づいてレコメンデーションをおこないます。 | <ul><li>サイト全体で最も多く閲覧された</li><li>カテゴリ別の最も多く閲覧された項目</li><li>品目属性別最も多く閲覧された品目</li><li>サイト全体のトップセラー</li><li>カテゴリ別のトップセラー</li><li>品目属性別トップセラー</li><li>Analytics 指標別の上位</li></ul> |
    | [!UICONTROL 項目ベース] | ユーザーが現在表示している品目や最近表示した品目に類似した品目を見つけることに基づいてレコメンデーションをおこないます。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ品目</li></ul> |
    | [!UICONTROL ユーザーベース] | ユーザーの行動に基づいてレコメンデーションをおこなう。 | <ul><li>最近表示された項目</li><li>お勧め</li></ul> |
-
-   |[!UICONTROL カスタム条件]|アップロードしたカスタムファイルに基づいてレコメンデーションを行います。|<ul><li>カスタムアルゴリズム</li></ul>|
+   | [!UICONTROL カスタム条件] | アップロードしたカスタムファイルに基づいてレコメンデーションをおこないます。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
    >[!NOTE]
    >
