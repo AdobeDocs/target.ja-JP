@@ -4,7 +4,7 @@ description: Adobe Recommendationsアクティビティの内容を制御して�
 title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ ht-degree: 53%
    | [!UICONTROL ユーザーベース] | ユーザーの行動に基づいてレコメンデーションをおこなう。 | <ul><li>最近表示された項目</li><li>お勧め</li></ul> |
 
    |[!UICONTROL カスタム条件]|アップロードしたカスタムファイルに基づいてレコメンデーションを行います。|<ul><li>カスタムアルゴリズム</li></ul>|
-
 
    >[!NOTE]
    >
