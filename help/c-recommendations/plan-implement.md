@@ -4,10 +4,10 @@ description: 'Adobe TargetでRecommendationsアクティビティを実装する
 title: Recommendations Activities の実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 31%
+source-wordcount: '1295'
+ht-degree: 37%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 31%
 
 ## 実装方法 [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] を実装する必要があります。 [!DNL Adobe Experience Platform Web SDK] または at.js 0.9.2（以降） 詳しくは、 [実装方法 [!DNL Target]](/help/c-implementing-target/implementing-target.md) を参照してください。
+[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See [Implement [!DNL Target]](/help/c-implementing-target/implementing-target.md) for more information.
 
-## Recommendationsカタログの設定 {#rec-catalog}
+## Set up your Recommendations catalog {#rec-catalog}
 
-高品質のレコメンデーションを提供するには、 [!DNL Target] は、レコメンデーションする製品またはコンテンツについて把握している必要があります。 通常、カタログには、レコメンデーションする品目に関する 3 種類の情報を含める必要があります。 映画をレコメンデーションするとします。 以下を含めます。
+To deliver high-quality recommendations, [!DNL Target] must know about the products or content that you want to recommend. Your catalog should usually include three types of information about the items you want to recommend. 映画をレコメンデーションするとします。 以下を含めます。
 
-1. レコメンデーションを受け取るユーザーに表示したいデータ。例えば、映画の名前と、映画のポスターのサムネール画像の URL を表示できます。
+1. レコメンデーションを受け取るユーザーに表示したいデータ。For example, you can display the name of the movie and a URL for a thumbnail image of the movie poster.
 1. マーケティングおよびマーチャンダイジング制御に便利なデータ。例えば、映画の評価を表示して、NC-17 映画をレコメンデーションしないようにすることができます。
-1. 他の品目との品目の類似性を判断するのに役立つデータ。 例えば、映画のジャンルや映画の監督を表示できます。
+1. Data that is useful for determining the similarity of items to other pieces of items. 例えば、映画のジャンルや映画の監督を表示できます。
 
 [!DNL Target] は、カタログに入力するための複数の統合オプションを提供します。 これらのオプションを組み合わせて使用して、カタログ内の異なる項目を更新したり、異なる頻度で異なる項目属性を更新したりできます。
 
 | メソッド | 内容 | 使用するタイミング | 追加情報 |
 | --- | --- | --- | --- |
 | カタログフィード | フィードのスケジュール設定 (CSV、Google Product XML、または [!DNL Analytics Product Classifications]) が毎日アップロードされ、取り込まれます。 | 一度に複数の項目に関する情報を送信する場合。 頻繁に変更されない情報を送信する場合。 | 詳しくは、 [フィード](/help/c-recommendations/c-products/feeds.md). |
-| エンティティ API | API を呼び出して、単一アイテムの最新の更新を送信します。 | 一度に 1 つの項目に関する更新が発生した場合に送信するためのものです。 頻繁に変更される情報（価格、在庫/在庫レベルなど）を送信する場合。 | 詳しくは、 [エンティティ API 開発者向けドキュメント](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| ページで更新を渡す | ページ上の JavaScript を使用するか Delivery API を使用して、単一のアイテムに関する最新の更新を送信します。 | 一度に 1 つの項目に関する更新が発生した場合に送信するためのものです。 頻繁に変更される情報（価格、在庫/在庫レベルなど）を送信する場合。 | 詳しくは、 [品目ビュー/製品ページ](#items-product-pages) 下 |
+| エンティティ API | Call an API to send to-the-minute updates for a single item. | 一度に 1 つの項目に関する更新が発生した場合に送信するためのものです。 頻繁に変更される情報（価格、在庫/在庫レベルなど）を送信する場合。 | See the [Entities API developer documentation](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
+| Pass updates on the page | Send to-the-minute updates for a single item using JavaScript on the page or using the Delivery API. | For sending updates as they happen about one item at a time. 頻繁に変更される情報（価格、在庫/在庫レベルなど）を送信する場合。 | 詳しくは、 [品目ビュー/製品ページ](#items-product-pages) 下 |
 
-ほとんどのお客様は、少なくとも 1 つのフィードを実装する必要があります。 その後、Entities API またはページ上の方法を使用して、頻繁に変更される属性や項目の更新でフィードを補完するよう選択できます。
+Most customers should implement at least one feed. You can then choose to complement your feed with updates for frequently changed attributes or items using either the Entities API or on-the-page method.
 
 ## 行動情報とコンテキストを渡す {#pass-behavioral}
 
@@ -68,9 +68,9 @@ function targetPageParams() {
 </script>
 ```
 
-### カテゴリビュー/カテゴリページ
+### Category views/category pages
 
-カテゴリページでは、レコメンデーションをそのカテゴリ内の製品やコンテンツに制限したい場合が多いでしょう。 これをおこなうには、現在表示されているカテゴリの ID を渡す必要があります。
+On a category page, you likely want to restrict your recommendations to products or content within that category. To do so, ensure you pass the identity of the currently viewed category.
 
 ```
 function targetPageParams() { 
@@ -84,7 +84,7 @@ function targetPageParams() {
 
 ### 買い物かごへの追加/買い物かごの表示/チェックアウトページ {#cart}
 
-買い物かごページでは、訪問者の現在の買い物かごの内容に基づいて品目をレコメンデーションできます。 そのためには、特別なパラメーターを使用して、訪問者の現在の買い物かごにあるすべての項目の ID を渡します `cartIds`.
+On a cart page, you can recommend items based on the contents of the visitor&#39;s current cart. To do so, pass the IDs of all items in the visitor&#39;s current cart using the special parameter `cartIds`.
 
 ```
 function targetPageParams() {
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-買い物かごベースのレコメンデーションロジックは、「[!UICONTROL お勧め]」ユーザーベースのアルゴリズムと[!UICONTROL これらを閲覧した人が購入したもの]&quot;および&quot;[!UICONTROL これらを購入した人が購入したもの]」項目ベースのアルゴリズム。
-
-[!DNL Target] は、協調フィルタリング手法を使用して訪問者の買い物かごの各項目の類似点を判断し、各項目のこれらの行動の類似点を組み合わせて結合リストを取得します。
-
-[!DNL Target] また、マーケターは、1 回のセッション内または複数のセッションにわたる訪問者の行動を確認するかどうかを選択できます。
-
-* **1 回のセッション内**:1 回のセッションでの他の訪問者の行動に基づきます。
-
-   1 つのセッション内の行動を見ると、使用状況、機会、イベントに基づいて製品が強く「付き合う」という意味がある場合に意味があります。 例えば、訪問者がプリンターを購入していて、インクや紙も必要になる場合があります。 または、訪問者はピーナッツバターを購入し、パンとゼリーも必要になる可能性があります。
-
-* **複数のセッションにわたる**:複数のセッションで他の訪問者がおこなった操作に基づきます。
-
-   複数のセッションをまたいで行動を見ると、訪問者の好みや好みに基づいて製品が強く「付き合う」という感覚がある場合、意味があります。 例えば、訪問者は Star Wars が好きで、同じ席で両方の映画を視聴したくない場合でも、Indiana Jones が好きになる可能性があります。 また、訪問者は、ボードゲーム「コードネーム」が好きで、ボードゲーム「アバロン」も好む場合があります。 
-
-[!DNL Target] は、1 回のセッション内での訪問者の行動と複数のセッションにわたる訪問者の行動のどちらを調べるかに関係なく、現在の買い物かご内の品目に基づいて各訪問者にレコメンデーションをおこないます。
+詳しくは、 [!UICONTROL 買い物かごベース] recommendations, 「 [買い物かごベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *レコメンデーションキーに基づくレコメンデーションの設定*.
 
 ### 訪問者の買い物かごに既にある項目を除外
 
@@ -122,7 +108,7 @@ function targetPageParams() {
 }
 ```
 
-### 購入/注文確認ページ
+### Purchases/order confirmation pages
 
 購入イベントが発生したら、購入した品目の ID を渡します。 詳しくは、 [コンバージョンの追跡](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) in *実装方法 [!DNL Target] タグマネージャーなし*.
 
