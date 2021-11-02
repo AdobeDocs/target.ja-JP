@@ -4,10 +4,10 @@ description: Adobe Recommendationsアクティビティの内容を制御して�
 title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2832'
+ht-degree: 53%
 
 ---
 
@@ -87,7 +87,9 @@ ht-degree: 54%
 
 1. 必要に応じて、 **項目属性** および **一致させるプロファイル属性**, a **レコメンデーションキー**, **フィルターキー**、または **Analytics 指標** をクリックして、アルゴリズムを設定します。
 
-レコメンデーションキーの選択について詳しくは、 [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+残りのアルゴリズム設定オプションは、選択したアルゴリズムによって異なります。 アルゴリズムの設定を完了するには、 [!UICONTROL レコメンデーションキー], [!UICONTROL フィルターキー], [!UICONTROL 共同発生基準], [!UICONTROL Analytics 指標]、または [!UICONTROL 項目属性] および [!UICONTROL 一致させるプロファイル属性].
+
+の選択に関する詳細 [!UICONTROL レコメンデーションキー]を参照してください。 [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL データソース] {#data-source}
 
