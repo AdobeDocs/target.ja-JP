@@ -4,9 +4,9 @@ description: Analytics for Analytics の実装要件について説明します�
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 9a1603cbbe773638693f5836b6cf7c62dc0b56b8
+source-git-commit: 00f7a31a1772d72d929f39a481d896ffbdf5bd2d
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '958'
 ht-degree: 26%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 26%
 * [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
 ### A4T でリダイレクトオファーを使用する場合に必要な要件
 
 A4T でリダイレクトオファーを使用する場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
@@ -56,6 +58,8 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 * Adobe Analytics：appMeasurement.js バージョン 2.1
 
 ダウンロードおよびデプロイの手順については、 [Analytics for Target の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
