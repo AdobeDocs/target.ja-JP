@@ -4,10 +4,10 @@ description: メンバーシップ ID や組織のロイヤルティプログラ
 title: mbox3rdPartyId にリアルタイムプロファイル同期を使用する方法
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: ht
+source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Target] プロファイルが mbox3rdPartyId に基づいて結合され、まだアクティビティ情報がある場合でも、[!DNL Adobe Experience Cloud] ID（EDID）が変更された場合（例えば、訪問者がデバイスを変更した場合など）は、[!DNL Adobe Analytics] の目標指標は追跡されません。同じ EDID で識別される訪問者（同じデバイスでページにアクセスした訪問者）の場合、[!DNL Analytics for Target]（A4T）は想定どおりに動作します。
+>[!DNL Adobe Analytics] 目標が追跡されない場合、 [!DNL Adobe Experience Cloud] ID(ECID) の変更（例えば、訪問者がデバイスを変更した場合）は、 [!DNL Target] プロファイルは、mbox3rdPartyId に基づいて結合され、アクティビティ情報が保持される場合があります。 同じ ECID で識別される訪問者（同じデバイスでページにアクセスした訪問者）の場合、 [!DNL Analytics for Target] (A4T) は期待どおりに動作します。
 
 ## 注意点 {#considerations}
 
