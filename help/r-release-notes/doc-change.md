@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2920'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 12 年 11 月 | [統合 [!DNL Recommendations] 電子メールで](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新しい紹介情報を追加しました。 |
 | 10 月 29 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次のリリースに関する情報を追加しました。<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 リリースに関する情報を追加しました。 |
 |  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 次の節を追加しました。&quot;カスタム要素のサポート。&quot; |

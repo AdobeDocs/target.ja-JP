@@ -4,30 +4,42 @@ description: 電子メールを Adobe [!DNL Target Recommendations], including u
 title: Recommendations と電子メールの統合方法
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-translation-type: ht
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
-workflow-type: ht
-source-wordcount: '1524'
-ht-degree: 100%
+source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 80%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations と電子メールの統合 
+# ![PREMIUM](/help/assets/premium.png)[!DNL Recommendations] と電子メールの統合 
 
-電子メールと [!UICONTROL Recommendations] を統合する方法に関する情報をまとめています。
+[!DNL Adobe Target] は、電子メールでのレコメンデーションの送信時のパーソナライゼーションをサポートします。
 
-ご使用の電子メールサービスプロバイダーが提供する機能によって、どの方法を使用するかが決まります。アカウントマネージャーまたはコンサルタントが、最適なオプションの選択を支援します。
+統合の 3 つの方法 [!DNL Target Recommendations] 電子メールサービスプロバイダー (ESP) を使用できます。 ESP の機能は、使用する方法を決定します。 アカウントマネージャーまたはコンサルタントが、最適なオプションの選択を支援します。
+
+| メソッド | 詳細 |
+| --- | --- |
+| [メソッド 1: [!DNL Adobe Target Delivery API]](#delivery-api) （推奨） | 以下を使用： [!DNL Adobe Target Delivery API] を使用して、レコメンデーションに対して顧客別/電子メール別のリクエストをおこないます。 |
+| [方法 2: [!DNL Adobe Rawbox API]](#rawbox) | 以下を使用： [!DNL Adobe Target Rawbox API] を使用して、レコメンデーションに対して顧客別/電子メール別のリクエストをおこないます。 |
+| [方法 3: [!DNL Recommendations Download API]](#download-api) | Recommendationsダウンロード API を使用して、CSV 形式の製品またはカテゴリのリストに関する一括レコメンデーションをリクエストします。 |
+
+メソッド 1 またはメソッド 2 を使用する場合、ESP は、顧客ごと/電子メールごとに外部 API を呼び出し、コンテンツが返されるのを待つ必要があります。 これらのメソッドは、すべての ESP でサポートされているわけではありません。ESP に問い合わせて、この統合パターンと互換性があるかどうかを確認します。
+
+メソッド 3 を使用すると、ESP は、製品 ID またはカテゴリ ID によるレコメンデーションのリストを電子メールのリストに参加させる必要があります。 このメソッドは、顧客の最後に閲覧した製品、最後に購入した製品、最も多く閲覧されたカテゴリなどの属性に基づくことができます。 ただし、ESP は、結合を実行するには、顧客プロファイルのこのデータにアクセスできる必要があります。 ESP に問い合わせて、このデータへのアクセス権があり、この統合パターンと互換性があるかどうかを確認します。
+
+レコメンデーションのオープンタイムパーソナライゼーションは、 [!DNL Adobe Target].
 
 >[!IMPORTANT]
 >
->次の容量ガイドラインは、以下で説明する配信 API オプションおよび rawbox 電子メールテンプレートオプション（オプション 1 と 2）に当てはまります。
+>以下の処理能力に関するガイドラインは、以下に説明する Delivery API および rawbox E メールテンプレートメソッド（メソッド 1 およびメソッド 2）に適用されます。
 >
->* リクエストのレートは、1 秒あたり 1,000 リクエスト、または 1 日のピークトラフィックの 25 倍のいずれか低い方に制限する必要があります。
->* 毎秒 200 リクエストのステップで毎分トラフィックをランプします
+>* リクエストのレートは、1 秒あたり 1,000 件のリクエストの下限に制限するか、1 日のピークトラフィックの 25 倍に制限する必要があります。
+>* 毎秒 200 リクエストのステップで毎分トラフィックをランプします.
+
 > 
 >料金制限を高くしたい場合は、担当のアカウントマネージャーにお問い合わせください。
 
-## オプション 1：配信 API の使用 {#section_9F00D271BABA4B7390B461F4C44EC319}
+## メソッド 1:配信 API の使用（推奨） {#delivery-api}
 
 Delivery API は、ビルド時の電子メールを操作する POST リクエストです。このオプションは、ビルド時の電子メール用に推奨される方法です。
 
@@ -68,7 +80,7 @@ curl -X POST \
 
 詳しくは、[Delivery API ドキュメント](https://developers.adobetarget.com/api/#server-side-delivery)を参照してください。
 
-## オプション 2：rawbox 電子メールテンプレートの使用 {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## 方法 2:rawbox 電子メールテンプレートの使用 {#rawbox}
 
 rawbox は、mbox リクエストに似ていますが、電子メールサービスプロバイダー（ESP）などの非 Web 環境用です。[!DNL mbox.js] または [!DNL at.js] を rawbox リクエストに使用できないので、手動でリクエストを作成する必要があります。次の例で、電子メールでの rawbox リクエストの操作方法を説明します。
 
@@ -80,7 +92,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
 [フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) オプションを使用して、[!DNL Recommendations] アクティビティを [!DNL Target] で設定します。場所には、ESP から来る rawbox リクエストで使用することにした mbox の名前を選択します。電子メールに使用したいルックアンドフィールを持つデザインを選択します。電子メールの構築時に、ESP は、生成中の各電子メールの各 rawbox に対して、[!DNL Target] サーバーを呼び出します。ESP には、電子メールを送信する際に、返された HTML を電子メールに含める手段が必要です。
 
-使用する電子メールシステムは、次のシナリオを処理できる必要があります。
+使用する電子メールシステムは、次のシナリオに対応できる必要があります。
 
 ### 有効な応答を受信したが、レコメンデーションが存在しない
 
@@ -93,7 +105,7 @@ rawbox は、mbox リクエストに似ていますが、電子メールサー�
 
    `//ERROR: application server timeout`
 
-* 電子メールアプリケーションが、このテキストを検索して、このエラーに対処できる必要があります。電子メールプロバイダーには、この事例に対処する複数のオプションがあります。
+* 電子メールアプリケーションは、そのテキストを検索し、エラーを処理できる必要があります。 電子メールプロバイダーには、この事例に対処する複数のオプションがあります。
 
    * 即座に別のサーバー呼び出しを試す（推奨、試行をカウントする必要がある可能性があります）。
    * 該当する電子メールを捨てて、次の電子メールに移る。
@@ -119,8 +131,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
 | `entity.event.detailsOnly` | true | `entity.id` を渡す場合、リクエストがその商品に関して集計されたページビュー数を増加させることを防ぎ、製品表示ベースのアルゴリズムを歪曲しないように、このパラメーターも渡すことを強くお勧めします。 |  |
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` は、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL である必要があります。 この URL は、画像またはその他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>E メールプロバイダーは、この値が返された場合に対処し、E メールにデフォルト HTML を挿入する必要があります。<br> **セキュリティのベストプラクティス**：`mboxDefault` URL で使用されるドメインが許可リストに含まれていない場合は、オープンリダイレクトの脆弱性のリスクにさらされる可能性があります。 サードパーティによるリダイレクターリンクまたは `mboxDefault` の不正使用を回避するために、アドビは「承認済みホスト」を使用してデフォルトのリダイレクト URL ドメインを許可リストに加えるすることをお勧めします。 Target は、ホストを使用して、リダイレクトを許可するドメインを許可リストに登録します。詳しくは、[ホスト [!DNL Target]](/help/administrating-target/hosts.md#allowlist)の&#x200B;*に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成*&#x200B;を参照してください。 |  |
-| `mboxHost` | *mbox_host* | これは、呼び出しが発生する際にデフォルト環境（ホストグループ）に追加されているドメインです。 |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` は、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL である必要があります。 この URL は、画像またはその他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>電子メールプロバイダーは、この値が返された場合に対処し、電子メールにデフォルトHTMLを挿入する必要があります。 <br> **セキュリティのベストプラクティス**：`mboxDefault` URL で使用されるドメインが許可リストに含まれていない場合は、オープンリダイレクトの脆弱性のリスクにさらされる可能性があります。 サードパーティによるリダイレクターリンクまたは `mboxDefault` の不正使用を回避するために、アドビは「承認済みホスト」を使用してデフォルトのリダイレクト URL ドメインを許可リストに加えるすることをお勧めします。 Target は、ホストを使用して、リダイレクトを許可するドメインを許可リストに登録します。詳しくは、[ホスト [!DNL Target]](/help/administrating-target/hosts.md#allowlist)の&#x200B;*に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成*&#x200B;を参照してください。 |  |
+| `mboxHost` | *mbox_host* | 呼び出しが実行されたときにデフォルト環境（ホストグループ）に追加されるドメイン。 |  |
 | `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるため、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。 <br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
 ### オプションのパラメーター：
@@ -137,12 +149,12 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |--- |--- |
 | //ERROR: | コンテンツを返すことができない場合にロードバランサーによって生成されます。 |
 | 成功 | `mboxNoRedirect` パラメーターが「true」に設定され、サーバーはレコメンデーションを返しません（つまり、mbox に合致しないか、サーバーキャッシュが初期化されません）。 |
-| bad request | `mbox` パラメーターがありません。<ul><li>`mboxDefault` または `mboxNoRedirect` パラメーターが指定されていません。</li><li>`mboxTrace` リクエストパラメーターは指定されていますが、`mboxNoRedirect` は指定されていません。</li><li>mbox 名が `-clicked` サフィックスで終わる場合に、`mboxTarget` パラメーターが指定されていません。</li></ul> |
+| bad request | `mbox` パラメーターがありません。<ul><li>`mboxDefault` または `mboxNoRedirect` パラメーターが指定されていません。</li><li>`mboxTrace` リクエストパラメーターは指定されていますが、`mboxNoRedirect` は指定されていません。</li><li>`mboxTarget`mbox 名が次の語句で終わる場合に、パラメーターが指定されていません `-clicked` サフィックス</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | リクエストに合致するものが存在しない場合に `mboxDefault` が指定されておらず、`mboxNoRedirect` パラメーターが指定されていません。 |
 | `Invalid mbox name:= MBOX_NAME` | `mbox` パラメーターに無効な文字が含まれていることを示します。 |
 | `Mbox name [MBOX_NAME] is too long` | `mbox` パラメーターが 250 文字より長いことを示します。 |
 
-## 方法 3：ダウンロード専用テンプレートの使用 {#section_518C279AF0094BE780F4EA40A832A164}
+## 方法 3:Recommendations Download API の使用 {#download-api}
 
 通常どおりにレコメンデーションを設定しますが、テンプレートと mbox の組み合わせの代わりに「**ダウンロードのみ**」を「プレゼンテーション」セクションで選択します。次に、作成したレコメンデーション ID を ESP に伝えます。ESP が、API を介してレコメンデーションデータにアクセスします。このデータには、特定のカテゴリまたはキー品目としてレコメンデーションすべき品目（放棄された買い物かごに含まれる品目など）が示されます。ESP はこのデータを保存して、独自の外観と操作性に結び付け、品目ごとの情報を表示してから電子メールで配信します。
 
