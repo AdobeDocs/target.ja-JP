@@ -4,9 +4,9 @@ description: Analytics を [!DNL Target] (A4T). A4T lets you use Analytics repor
 title: A4T を使用した上昇率と信頼性に関する情報はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ A4T でオフライン計算を実行することはできますが、[!DNL Anal
 
 ## A4T は、信頼性の計算をどのように扱いますか？ {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T は、バイナリ指標を使用する通常の t テストとは異なる方法で信頼性/p 値を計算します。 特に、A4T で使用される計算では、各ユーザーに対して 1 または 0 の連続した指標結果が得られるので、各エクスペリエンスの平方偏差（相対的には標準偏差）を正確に計算する必要があります。 極端な注文は考慮されません。 また、信頼性の計算では、複数のオファーに対してボンフェローニ補正は適用されません。
+[!DNL Adobe Analytics] はすべての指標を非バイナリとして扱うので、通常の t 検定でのバイナリ指標の使用とは異なる方法で信頼性/p 値を計算します。 特に、A4T で使用される計算では、各ユーザーが連続した指標の結果（各ユーザーに対して 1 または 0 だけではなく）を得られるので、各エクスペリエンスの平方偏差（相対的には標準偏差）を適切に計算する必要があります。 極端な注文は考慮されません。 また、信頼性の計算では、複数のオファーに対してボンフェローニ補正は適用されません。
 
 ## 上昇率および信頼性は Ad Hoc および Report Builder で機能しますか？そのままでは機能しない場合、自分自身で機能させることはできますか？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
