@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
+source-git-commit: 885510848b141b646971658e2fd20440d2344efc
 workflow-type: tm+mt
-source-wordcount: '2976'
-ht-degree: 97%
+source-wordcount: '3017'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 16 年 11 月 | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「Google Chrome SameSite cookie の実施ポリシーが VEC および EEC に与える影響」を更新しました。 の節に、ヘルパー拡張機能の最新バージョンに関する情報を記載しています。 |
+| 16 年 11 月 | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | へのリンクを含むファイルのアップロードに関する制限に関する情報を追加しました。 [顧客属性のデータファイルおよびデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 内 *Experience Cloud中央インターフェイスコンポーネントガイド*. |
+|  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「Google Chrome SameSite cookie の実施ポリシーが VEC および EEC に与える影響」を更新しました。 の節に、ヘルパー拡張機能の最新バージョンに関する情報を記載しています。 |
 |  | [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 「VEC ヘルパーブラウザー拡張機能の取得とインストール」の節を更新しました。 |
 | 12 年 11 月 | [統合 [!DNL Recommendations] 電子メールで](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新しい紹介情報を追加しました。 |
 | 10 月 29 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次のリリースに関する情報を追加しました。<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
