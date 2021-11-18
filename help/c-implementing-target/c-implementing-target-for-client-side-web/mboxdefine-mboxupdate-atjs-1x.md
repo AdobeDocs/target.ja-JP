@@ -1,14 +1,14 @@
 ---
 keywords: mbox定義;mbox定義;mbox 定義;mboxUpdate;mboxupdate;mbox update;at.js;関数
-description: Adobe [!DNL Target] at.js JavaScriptライブラリのmboxDefine()関数とmboxUpdate()関数を使用して、mboxを定義または更新します。 (at.js 1.x)
-title: mboxDefine()関数とmboxUpdate()関数の使用方法を教えてください。
+description: Adobeに対する mboxDefine() 関数と mboxUpdate() 関数の使用 [!DNL Target] at.js JavaScript ライブラリを使用して、mbox を定義または更新します。 (at.js 1.x)
+title: mboxDefine() 関数と mboxUpdate() 関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 86%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,11 @@ Adobe Target で mbox を定義し更新します。
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-nodeId と mbox 名の間の内部マッピングを作成しますが、リクエストを実行しません。`mboxUpdate()` () と共に使用されます。[!DNL at.js] から [!DNL mbox.js] への移行の多くを簡単にするために、[!DNL at.js] に組み込まれています。
+nodeId と mbox 名の間の内部マッピングを作成しますが、リクエストを実行しません。`mboxUpdate()` () と共に使用されます。組み込み [!DNL at.js] ～からの移行を容易にするために [!DNL mbox.js] （現在は非推奨）から [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-リクエストを実行し、`nodeId` () の `mboxDefine()` によって識別される要素にオファーを適用します。また、`mboxCreate` によって開始された mbox を更新するために使用できます。[!DNL at.js] から [!DNL mbox.js] への移行の多くを簡単にするために、[!DNL at.js] に組み込まれています。`mboxDefine()`／`mboxUpdate()` は、セレクターオプションを使用する [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) および [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) に置き換えられます。
+リクエストを実行し、`nodeId` () の `mboxDefine()` によって識別される要素にオファーを適用します。また、`mboxCreate` によって開始された mbox を更新するために使用できます。組み込み [!DNL at.js] ～からの移行を容易にするために [!DNL mbox.js] （現在は非推奨）から [!DNL at.js]. `mboxDefine()`／`mboxUpdate()` は、セレクターオプションを使用する [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) および [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) に置き換えられます。
 
 ## 例 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

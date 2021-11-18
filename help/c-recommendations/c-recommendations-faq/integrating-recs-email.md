@@ -4,10 +4,10 @@ description: 電子メールを Adobe [!DNL Target Recommendations], including u
 title: Recommendations と電子メールの統合方法
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 80%
+source-wordcount: '1712'
+ht-degree: 79%
 
 ---
 
@@ -82,7 +82,7 @@ curl -X POST \
 
 ## 方法 2:rawbox 電子メールテンプレートの使用 {#rawbox}
 
-rawbox は、mbox リクエストに似ていますが、電子メールサービスプロバイダー（ESP）などの非 Web 環境用です。[!DNL mbox.js] または [!DNL at.js] を rawbox リクエストに使用できないので、手動でリクエストを作成する必要があります。次の例で、電子メールでの rawbox リクエストの操作方法を説明します。
+rawbox は、mbox リクエストに似ていますが、電子メールサービスプロバイダー（ESP）などの非 Web 環境用です。お客様が [!DNL Adobe Experience Platform Web SDK] または [!DNL at.js] rawbox リクエストでを使用するには、手動でリクエストを作成する必要があります。 次の例で、電子メールでの rawbox リクエストの操作方法を説明します。
 
 >[!NOTE]
 >

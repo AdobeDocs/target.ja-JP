@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 100%
+source-wordcount: '4504'
+ht-degree: 98%
 
 ---
 
@@ -244,9 +244,9 @@ A4T に関連する次の問題が解決されました。
 
 新たにプロビジョニングしたテナントの場合、「実装」タブ（[!UICONTROL 管理／実装]）の「[!UICONTROL グローバル mBox の自動作成]」フィールドは、デフォルトでは「false」になります。
 
-プロビジョニング後に最初に mbox.js をダウンロードすると、ダウンロードした mbox.js ファイルと [!UICONTROL  のバックエンドでは、「]グローバル mbox 自動作成[!DNL Target]」フィールドが「true」になりますが、UI の[!UICONTROL 実装]ページでは、ページが更新されるまで表示は「false」のままになります（ページを更新すると「true」になります）。
+プロビジョニング後に at.js が初めてダウンロードされたとき、 [!UICONTROL グローバル mbox 自動作成] フィールドが、ダウンロードされた at.js ファイルの「true」に設定されている場合、 [!DNL Target] バックエンドに送信されますが、 [!UICONTROL 実装] ページが更新されるまで（ページが更新された後、ステータスは「true」になります）
 
- at.js は、新しくプロビジョニングされたテナント `global_mbox_autocreate = false` 用にダウンロードされます。mbox. js を最初にダウンロードした場合は、global\_mbox\_autocreate が「true」に設定され、at.js も `global_mbox_autocreate = true` と一緒にダウンロードされます。（TGT-15929）
+ at.js は、新しくプロビジョニングされたテナント `global_mbox_autocreate = false` 用にダウンロードされます。mbox.js（現在は非推奨）が最初にダウンロードされた場合、global\_mbox\_autocreate が「true」に設定され、at.js も `global_mbox_autocreate = true`. （TGT-15929）
 
 ### [!DNL Target] API でのエンタープライズ権限のサポート  {#api}
 
@@ -440,7 +440,7 @@ Target 17.4.1 リリース（2017 年 4 月 27 日（PT））で修正されま�
 
 ### at.js {#at-js-7}
 
-at.js の設定を更新した後、実装の詳細ページから at.js をダウンロードしようとすると、at.js ではなく mbox.js がダウンロードされます。（TGT-23069）
+at.js の設定を更新した後、実装の詳細ページから at.js をダウンロードしようとすると、at.js ではなく がダウンロードされます。（TGT-23069）
 
 Target 17.3.1 リリース（2017 年 3 月 30 日（PT））で修正されました。
 

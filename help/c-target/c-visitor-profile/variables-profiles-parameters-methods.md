@@ -1,14 +1,13 @@
 ---
 keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
-description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数、パラメータのリストを表示します。
-title: ターゲットで使用されるプロファイル、変数、パラメーター
-feature: オーディエンス
+description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数およびパラメーターのリストを表示します。
+title: Target で使用されるプロファイル、変数、パラメーターは何ですか？
+feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 88%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +29,7 @@ ht-degree: 88%
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
-| user.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)は非推奨となりました。 |
+| user.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは [whatismyip.com](https://www.whatismyip.com/)/など、いくつかの方法で入手できます。IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br>注意：user.header(&#39;x-cluster-client-ip&#39;) は非推奨（廃止予定）となりました。 |
 | user.header(&#39;host&#39;) | Web サイトのホスト名 |
 | user.header(&#39;cookie&#39;) | 訪問者の cookie データ |
 | user.header(&#39;user-agent&#39;) | 訪問者のブラウザーのユーザーエージェント |
@@ -43,7 +42,7 @@ ht-degree: 88%
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
-| profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメータを取得する正しい方法は、プロファイル.get(&#39;param_name&#39;)メソッドです。 |
+| profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、 profile.get(&#39;param_name&#39;) メソッドです。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
@@ -85,11 +84,11 @@ ht-degree: 88%
 | 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および[顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
-| mboxDebug | デバッグ情報にのみ使用されます。mbox.js が探すページ URL に追加されます。 |
+| mboxDebug | デバッグ情報にのみ使用されます。at.js が探すページ URL に追加されます。 |
 | mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
 
 ## 顧客属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 顧客属性は、プロファイルスクリプトで参照でき、形式 `crs.get('<Datasource Name>.<Attribute name>')`　設定されています。
 
-この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。`datasourceName`内のスペースは、API呼び出しから削除する必要があります。
+この属性は、プロファイルスクリプトでトークンとして、また、プロファイルスクリプトを使用せずにオファー内で直接使用可能になりました。トークンはフォームに含まれている必要があります。 `${crs.datasourceName.attributeName}` を参照してください。なお、 `datasourceName` は、任意の API 呼び出しから削除する必要があります。

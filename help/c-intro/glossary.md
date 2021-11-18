@@ -1,12 +1,12 @@
 ---
 description: Adobe  [!DNL Target]  で使用される様々な用語の意味よく使用される用語の定義を理解して、 [!DNL Target] をさらに活用しましょう。
 title: Target で使用されている用語と定義はどこで確認できますか？
-feature: 概要
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: ht
-source-wordcount: '2417'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -227,6 +227,10 @@ Visual Experience Composer が使用できない、または使用が実用的�
 **mbox**
 
 「マーケティングボックス」を指し、Web ページ上でコンテンツを表示し訪問者の行動を記録する場所のことです。中には、何も表示しない mbox もあります。そのような mbox は、Web サイト上で訪問者が実行する操作の進行状況の追跡や、訪問者が特定の成功指標を達成したかどうか（買い物かごにアイテムを追加したか、購入を完了したかなど）の追跡に使用されます。このような種類の mbox の 1 つとして「*コンバージョン mbox*」があります。
+
+**mbox.js**
+
+A [!DNL Target] 廃止された JavaScript 実装ライブラリ。
 
 **mbox パラメーター**
 

@@ -1,15 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;関数
-description: Adobe [!DNL Target] at.js JavaScriptライブラリのmboxCreate()関数を使用して、mboxDefaultクラス名を持つ最も近いDIVにオファーを適用します。 (at.js 1.x)
-title: mboxCreate()関数の使用方法
+description: Adobeに対する mboxCreate() 関数の使用 [!DNL Target] at.js JavaScript ライブラリを使用して、mboxDefault クラス名を持つ最も近い DIV にオファーを適用できます。 (at.js 1.x)
+title: mboxCreate() 関数の使用方法を教えてください。
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 85%
+source-wordcount: '205'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 85%
 >
 >この関数は at.js バージョン 1.*x* のみで使用できます。この関数は at.js 2.x のリリースで廃止されました。at.js 2.x で使用する場合、この関数はデフォルトコンテンツを返します。
 
-この関数は、[!DNL at.js] から [!DNL mbox.js] への移行の多くを簡単にするために、[!DNL at.js] に組み込まれています。新しく `mboxCreate()` に代わるものは、`adobe.target.applyOffer()`/`adobe.target.getOffer()` または Angular ディレクティブです。
+この関数は、 [!DNL at.js] ～からの移行を容易にするために [!DNL mbox.js] （現在は非推奨）から [!DNL at.js]. 新しく `mboxCreate()` に代わるものは、`adobe.target.applyOffer()`/`adobe.target.getOffer()` または Angular ディレクティブです。
 
 ## 例
 
