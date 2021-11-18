@@ -1,7 +1,7 @@
 ---
 keywords: Target;ホーム;人気のトピック;adobe target;standard;premium;target ドキュメント;adobe target ドキュメント;ホーム
 title: ' [!DNL Target] ドキュメントについて'
-description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
+description: Adobe  [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f

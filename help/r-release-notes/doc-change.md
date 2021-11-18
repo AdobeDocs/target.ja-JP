@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 95%
 | 12 年 11 月 | [統合 [!DNL Recommendations] 電子メールで](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新しい紹介情報を追加しました。 |
 | 10 月 29 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次のリリースに関する情報を追加しました。<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 リリースに関する情報を追加しました。 |
-|  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 次の節を追加しました。&quot;カスタム要素のサポート。&quot; |
+|  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 「カスタム要素のサポート」の節を追加しました。 |
 | 10 月 28 日 | [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのレコメンデーションに関する情報を追加しました。 |
 | 10 月 27 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
 | 10月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 リリース（2021年10月28 日（PT））に関する情報を追加しました。 |
-| 10 月 23 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 以下のセクションを追加しました。<ul><li>以下を確認します。 [!DNL Target] アクティビティは、クエリー文字列パラメーターを持つ URL を正しく処理します</li></ul> |
-| 10月21日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2021 年 11 月 10 日）</li><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2021 年 12 月 8 日）</li></ul> |
+| 10 月 23 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 以下のセクションを追加しました。<ul><li>[!DNL Target] アクティビティでクエリ文字列パラメーターを含む URL を正しく処理できることを確認します</li></ul> |
+| 10月21日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2021年11月10日（PT））</li><li>[!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2021年12月8日（PT））</li></ul> |
 | 10月20日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 リリース（2021年10月21 日（PT））に関する情報を追加しました。 |
 |  | [Recommendations の計画と実装](/help/c-recommendations/plan-implement.md) | トピック全体を更新しました。 |
 | 10月19日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.3 リリース（2021年10 月19 日（PT））に関する情報を追加しました。 |
@@ -137,7 +137,7 @@ ht-degree: 95%
 | 6 月 1 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 以下の FAQ を追加しました。<ul><li>CNAME でのオプトアウトリンクの使用方法</li></ul> |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | オプトアウトリンクを CNAME で使用する方法について説明するために、「オプトアウトリンク」の節を更新しました。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK] に関する情報を追加しました。 |
-|  | [ Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] 実装の手順</li></ul> |
+|  | [ Analytics for  [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] 実装の手順</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4T と Platform Web SDK でのリダイレクトオファーの使用に関する情報を追加しました。 |
 |  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK] での応答トークンの使用に関する情報を追加しました。<br>**注意**：この機能は、Platform Web SDK の今後のリリースで公開される予定です（日付は未定）。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0（2021 年 6 月 1 日）リリースに関する情報を追加しました。 |
