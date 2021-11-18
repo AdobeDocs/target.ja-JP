@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 18 年 11 月 | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 「mbox」行に、 [!UICONTROL Visual Experience Composer] (VEC) を使用しているページの ID を更新しました。*x* では現在サポートされていません。 |
 | 16 年 11 月 | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | へのリンクを含むファイルのアップロードに関する制限に関する情報を追加しました。 [顧客属性のデータファイルおよびデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 内 *Experience Cloud中央インターフェイスコンポーネントガイド*. |
 |  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「Google Chrome SameSite cookie の実施ポリシーが VEC および EEC に与える影響」を更新しました。 の節に、ヘルパー拡張機能の最新バージョンに関する情報を記載しています。 |
 |  | [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 「VEC ヘルパーブラウザー拡張機能の取得とインストール」の節を更新しました。 |
