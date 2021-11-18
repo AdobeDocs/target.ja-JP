@@ -4,10 +4,10 @@ description: でのコンテンツターゲティングに、顧客関係管理 
 title: 顧客属性とは何ですか？それらの使用方法を教えてください。
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 33%
+source-wordcount: '1575'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 * ファイルのアップロードに関する制限に注意してください。詳しくは、 [顧客属性のデータファイルおよびデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 内 *Experience Cloud中央インターフェイスコンポーネントガイド*. ベストプラクティスは次のとおりです。
 
    * 1 つの大きなファイル ( [指定した制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)) をクリックします。 複数の小さいファイルよりも、1 つの大きいファイルの方が望ましいです。
-   * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、ファイルが完全に処理されていることを確認してください。 次のバッチを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認します。
+   * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、ファイルが完全に処理されていることを確認してください。 バッチ内の次のファイルを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認します。
 
 * [!DNL Adobe] では、CRM データベースの顧客属性（訪問者プロファイル）データの 100%が [!DNL Experience Cloud] したがって、 [!DNL Target]. 現在の設計では、データのごく一部（大規模な実稼動バッチの 0.1%まで）がオンボーディングされない可能性があります。
 * から読み込まれた顧客属性データの有効期間 [!DNL Experience Cloud] から [!DNL Target] 訪問者プロファイルの有効期間に依存します（デフォルトでは 14 日）。 詳しくは、 [訪問者プロファイルの有効期間](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
