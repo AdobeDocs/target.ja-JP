@@ -5,9 +5,9 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1620'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 27%
    |  | `profile.thirdPartyId` | 訪問者のサードパーティ ID を返します。 |
    |  | `profile.categoryAffinity` | 訪問者のお気に入りのカテゴリを返します。 |
    |  | `profile.categoryAffinities` | 訪問者の上位 5 カテゴリの配列を文字列として返します。 |
-   | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 現在のアクティビティの詳細です。「option」は「offer」と同義です。 |
+   | アクティビティ | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 現在のアクティビティの詳細です。<br> オファーパラメーターの値は、エクスペリエンスレベルで評価されます。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | アクティビティでの地域ターゲット設定について詳しくは、[地域](/help/c-target/c-audiences/c-target-rules/geo.md)を参照してください。 |
    | トラフィック配分方法<br>( 次に適用： [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティのみ ) | `experience.trafficAllocationId` | 訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、「ターゲット」トラフィック配分からエクスペリエンスを受け取った場合は 1 を返します。 |
    |  | `experience.trafficAllocationType` | 「control」または「targeted」を返します。 |
