@@ -4,9 +4,9 @@ description: に動的データを渡す方法を説明します。 [!DNL Adobe 
 title: 動的データをオファーに渡す方法を教えてください。
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ ht-degree: 63%
 
 オファーのコンテンツで使用されるオファーパラメーター (offer.name、offer.id) の場合：
 
-そのオファーがエクスペリエンス上の複数のセットのいずれかである場合、最後に追加されたオファーの値によってパラメーターの値が設定されます。 つまり、これらのパラメーターはエクスペリエンスレベルで評価されます。
+そのオファーが 1 つのエクスペリエンスで設定された複数のオファーのいずれかである場合、最後に追加したオファーの値によってパラメーターの値が設定されます。 つまり、これらのパラメーターはエクスペリエンスレベルで評価されます。
