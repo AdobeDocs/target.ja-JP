@@ -5,10 +5,10 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 27%
+source-wordcount: '1631'
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 
    ![](assets/response_tokens-new.png)
 
-1. 次のような目的のレスポンストークンをアクティブにします。 `activity.id` および `option.id`.
+1. 次のような目的のレスポンストークンをアクティブにします。 `activity.id` および `offer.id`.
 
    デフォルトでは次のパラメーターを使用できます。
 
@@ -435,8 +435,8 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 >[!NOTE]
 >
 >この [!DNL Target] [!UICONTROL 管理] menu UI( 以前の [!UICONTROL 設定]) のデザインが一新され、パフォーマンスが向上し、新機能のリリースに要するメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 次のビデオの情報は正しいです。ただし、オプションの場所は若干異なります。
+>
+>ビデオでのメンション `option.name` および `option.id`（で置き換えられています） `offer.name` および `offer.id`、それぞれ。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
