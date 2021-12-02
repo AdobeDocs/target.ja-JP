@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 18 年 11 月 | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 「mbox」行に、 [!UICONTROL Visual Experience Composer] (VEC) を使用しているページの ID を更新しました。*x* では現在サポートされていません。 |
-| 16 年 11 月 | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | へのリンクを含むファイルのアップロードに関する制限に関する情報を追加しました。 [顧客属性のデータファイルおよびデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 内 *Experience Cloud中央インターフェイスコンポーネントガイド*. |
-|  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「Google Chrome SameSite cookie の実施ポリシーが VEC および EEC に与える影響」を更新しました。 の節に、ヘルパー拡張機能の最新バージョンに関する情報を記載しています。 |
+| 11月18日（PT） | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2 を使用するページの [!UICONTROL Visual Experience Composer] （VEC）で mbox がサポートされなくなったことを示すメモを Mbox 行に追加しました。*x*。 |
+| 11月16日（PT） | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 「*Experience Cloud 中央インターフェイスコンポーネントガイド*」の「[顧客属性のデータファイルとデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)」へのリンクとともにアップロードするファイルに関する制限についての情報を追加しました。 |
+|  | [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 「Google Chrome SameSite の cookie 実施ポリシーは VEC と EEC にどのような影響を与えますか？」の節を更新し、ヘルパー拡張機能の最新バージョンに関する情報を追加して更新しました。 |
 |  | [Visual Experience Composer ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 「VEC ヘルパーブラウザー拡張機能の取得とインストール」の節を更新しました。 |
-| 12 年 11 月 | [統合 [!DNL Recommendations] 電子メールで](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新しい紹介情報を追加しました。 |
+| 11月12日（PT） | [ [!DNL Recommendations] メールとの統合](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 新しい前置き情報を追加しました。 |
 | 10 月 29 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次のリリースに関する情報を追加しました。<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 リリースに関する情報を追加しました。 |
 |  | [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 「カスタム要素のサポート」の節を追加しました。 |
-| 10 月 28 日 | [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのレコメンデーションに関する情報を追加しました。 |
+| 10 月 28 日 | [レコメンデーションキーに基づくレコメンデーションのベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのレコメンデーションに関する情報を追加しました。 |
 | 10 月 27 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | トピック全体を更新しました。 |
 | 10月25日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 リリース（2021年10月28 日（PT））に関する情報を追加しました。 |
 | 10 月 23 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 以下のセクションを追加しました。<ul><li>[!DNL Target] アクティビティでクエリ文字列パラメーターを含む URL を正しく処理できることを確認します</li></ul> |
@@ -48,7 +48,7 @@ ht-degree: 96%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月4日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | Target Standard／Premium 21.10.1 リリース（2021年10月6日（PT））のプレリリースノートを更新しました。 |
-| 10 月 1 日 | [!DNL Adobe Analytics] へのアクティビティ情報の送信 | 事後セグメント化のために [!DNL Target] モバイルアプリのアクティビティ情報を [!DNL Analytics] に送信するうえで、説明されている手順が不要になったので、トピック全体を削除しました。 |
+| 9月30日（PT） | [!DNL Adobe Analytics] へのアクティビティ情報の送信 | 事後セグメント化のために [!DNL Target] モバイルアプリのアクティビティ情報を [!DNL Analytics] に送信するうえで、説明されている手順が不要になったので、トピック全体を削除しました。 |
 |  | [平均上昇率、上昇率範囲および信頼区間](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 上昇率の信頼区間の計算方法を説明する PDF ファイルを追加しました。 |
 |  | [Enterprise 権限の設定](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 「手順 5：`at_property` パラメーターを含めるように実装を更新する」の `targetPageParams` を `targetPageParamsAll` に変更しました。 |
 | 9月27日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク<ul><li>2021年10月13日 水曜日（PT）</li><li>午前 8 時（PDT、UTC-7）</li></ul></li></ul> |

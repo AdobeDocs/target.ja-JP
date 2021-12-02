@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ mboxTrace を使用すると、[!DNL Target] 応答に付属する追跡情報�
 
 | mboxTrace のオプション | 結果 |
 |--- |--- |
-| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.js の場合、mbox.js（現在は非推奨）と同様に、新しいブラウザーウィンドウを表示したりコンソールに出力したりする代わりに、ネットワークリクエストを調べ、プレビュー (Chrome) または応答 (Firefox) の下を確認する必要があります。 |
+| `?mboxTrace=console` | コンソールログにオブジェクトとして出力します。<br>at.js の場合、mbox.js（現在は非推奨）のように新しいブラウザーウィンドウを開いたりコンソールに出力したりする代わりに、ネットワークリクエストを調べて、「プレビュー」（Chrome）または「レスポンス」（Firefox）を確認する必要があります。 |
 | `?mboxTrace=json` | コンソールログにリテラル JSON 文字列として出力します。 |
 | `?mboxTrace=window` | ポップアップウィンドウに JSON 文字列として出力します。 |
 | `?mboxTrace=disable` | セッションモードのトレースをオフにします。 |
@@ -172,7 +172,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 このオプションを使用すると、その URL がアクティビティに適格であることは保証できますが、ベース URL を含む URL にレコードが追加されることで、レポートデータに影響を与える可能性があるコーナーケースが伴うことに注意が必要です。
 
-このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールには同じ URL  が含まれ（contains）、OR 演算子で区切られます。
+このシナリオでは、URL は `https://shopping.mycart.com?type=Summers%20Offers` であり、追加のテンプレートルールには同じ URL が含まれ（contains）、OR 演算子で区切られます。
 
 ![テンプレートルールに URL を複製](assets/option1.png)
 

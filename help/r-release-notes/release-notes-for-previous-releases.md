@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '32584'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 | 機能 | 詳細 |
 | --- | --- |
-| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、「買い物かごへの追加/買い物かごの表示/チェックアウトページ」および「訪問者の買い物かごに既に存在する項目を除外」 [Recommendationsの計画と実装](/help/c-recommendations/plan-implement.md)、「買い物かごベース」 [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)の「買い物かごベース」、[計画とレコメンデーションの実装](/help/c-recommendations/plan-implement.md)の「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日（PT））
 
@@ -1968,7 +1968,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target フォーラムの場所の変更 </p> </td> 
-   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
+   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2058,7 +2058,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 >[!NOTE]
 >
->Target 17.3.1 リリース（2017 年 3 月 30 日）で追加された、レポートで複数の指標を表示する機能は、予期しない動作が原因で削除されました。この機能は、今後のリリースで再び使用可能になる予定です。
+>Target 17.3.1 リリース（2017 年 3 月 30 日（PT））で追加された、レポートで複数の指標を表示する機能は、予期しない動作が原因で削除されました。この機能は、今後のリリースで再び使用可能になる予定です。
 
 この [!DNL Target] リリースには、以下の機能強化および修正が含まれています。
 
@@ -2469,10 +2469,10 @@ Adobe Target Standard／Premium 16.7.1（2016 年 7 月 21 日）リリースに
    <td colname="col1"> アクティビティの優先度設定 </td> 
    <td colname="col2"> <p>アクティビティの優先度を 0 から 999 の範囲で設定できるようになり、同じオーディエンスで同じ場所に複数のアクティビティが割り当てられている場合に表示するアクティビティを細かく制御することが可能になりました。 </p> <p>このオプションは、<span class="wintitle">管理</span>／<span class="wintitle">レポート</span>で有効にする必要があります。 </p> <p>細かい優先度のオプションは、A/B テスト、Automated Personalization、エクスペリエンスのターゲット設定、多変量分析テストアクティビティに適用されます。 </p> <p>詳しくは、次のトピックを参照してください。 </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
-      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B テスト：</b><a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
-      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization：</b><a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a> </li> 
-      <li id="li_84B893C214994246AB36E28E84C51460"><b>エクスペリエンスのターゲティング：</b><a href="/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
-      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>多変量分析テスト：</b><a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
+      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B テスト：</b> <a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
+      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization：</b> <a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a> </li> 
+      <li id="li_84B893C214994246AB36E28E84C51460"><b>エクスペリエンスのターゲティング：</b> <a href="/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
+      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>多変量分析テスト：</b> <a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目標と設定 </a> </li> 
       <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>アクティビティ：</b><a href="/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local">アクティビティの設定 </a> </li> 
      </ul> </p> </td> 
   </tr> 

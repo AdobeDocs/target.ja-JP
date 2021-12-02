@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2021 年 11 月 19 日 ( [変更内容を見る](r-release-notes/doc-change.md) )**
+**最終更新日：2021年11月18日（PT）（ [「変更内容」を参照](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -81,4 +81,4 @@ ht-degree: 99%
 
 | アドビ [!DNL Target] ソリューションヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
