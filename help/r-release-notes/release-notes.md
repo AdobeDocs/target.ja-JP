@@ -6,9 +6,9 @@ title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1153'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,27 +24,27 @@ ht-degree: 81%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js バージョン 2.7.0（2021 年 10 月 29 日）
+## at.js バージョン 2.7.0（2021年10月28日（PT））
 
 このリリースで強化された機能は次のとおりです。
 
-* のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスおよびオファーを作成およびテストするために必要です。 この機能は、 [!DNL Target Standard/Premium] 21.10.5リリース。
+* [Web コンポーネント](https://developer.mozilla.org/ja/docs/Web/Web_Components)のサポートを追加しました。このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成し、テストするために必要です。この機能は、[!DNL Target Standard/Premium] 21.10.5 リリースに含まれています。
 
-## [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 29 日）
-
-このメンテナンスリリースで強化された機能は次のとおりです。
-
-| 機能 | 詳細 |
-| --- | --- |
-| [!UICONTROL Visual Experience Composer]（VEC） | のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). パーソナライズされたエクスペリエンスとオファーを、カスタム要素およびカスタム要素内の要素で作成およびテストできます。<br>詳しくは、 [Visual Experience Composer のオプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 22 日）
+## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日（PT））
 
 このメンテナンスリリースで強化された機能は次のとおりです。
 
 | 機能 | 詳細 |
 | --- | --- |
-| 買い物かごベースのRecommendations | 訪問者の買い物かごの内容に基づいてレコメンデーションを配信するためのアルゴリズムの新しいファミリーが追加されました。<br>詳しくは、 [条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、「買い物かごへの追加/買い物かごの表示/チェックアウトページ」および「訪問者の買い物かごに既に存在する項目を除外」 [Recommendationsの計画と実装](/help/c-recommendations/plan-implement.md)、「買い物かごベース」 [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| [!UICONTROL Visual Experience Composer]（VEC） | [Web コンポーネント](https://developer.mozilla.org/ja/docs/Web/Web_Components)のサポートを追加しました。パーソナライズされたエクスペリエンスとオファーを、カスタム要素およびカスタム要素内の要素に対して作成し、テストできます。<br>詳しくは、「[Visual Experience Composer オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)」を参照してください。 |
+
+## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日（PT））
+
+このメンテナンスリリースで強化された機能は次のとおりです。
+
+| 機能 | 詳細 |
+| --- | --- |
+| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)の, 「買い物かごベース」、[計画とレコメンデーションの実装](/help/c-recommendations/plan-implement.md)の, 「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
 
 ## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日（PT））
 
@@ -94,8 +94,8 @@ ht-degree: 81%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:新しい [!UICONTROL オーディエンス] UI は一部のお客様のみご利用いただけます。 2022 年 1 月以降、すべてのお客様に対して段階的に更新が実施される予定です。 |
-| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**:新しい [!UICONTROL プロファイルスクリプト] UI は一部のお客様のみご利用いただけます。 2022 年 1 月以降、すべてのお客様に対して段階的に更新が実施される予定です。 |
+| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**メモ**：新しい [!UICONTROL Audiences] UI は一部のお客様のみご利用いただけます。このアップデートは、2022年1月からすべてのお客様に段階的に公開されます。  |
+| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**メモ**：新しい[!UICONTROL プロファイルスクリプト] UI は一部のお客様のみご利用いただけます。このアップデートは、2022年1月からすべてのお客様に段階的に公開されます。  |
 | ![プレミアムバッジ](/help/assets/premium.png) Recommendations 条件の作成と編集 | [!UICONTROL Recommendations 条件]の作成と編集のワークフローが効率化され、目標を達成するための適切なレコメンデーションアルゴリズムと設定の選択が容易になりました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。 |
 | ![プレミアムバッジ](/help/assets/premium.png) Recommendations のルックバックウィンドウとアルゴリズム更新頻度の改善 | 6 時間のルックバックウィンドウで「最も多く閲覧」アルゴリズムや「トップセラー」アルゴリズムを実行することで、直近のトレンドとなっているコンテンツをキャプチャできるようになりました。6 時間のルックバックウィンドウを選択すると、レコメンデーション結果は 1 日で 3〜6 時間ごとに更新されます。<br>詳しくは、*条件の作成*&#x200B;の[データソース](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)を参照してください。 |
 
