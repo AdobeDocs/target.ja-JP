@@ -4,9 +4,9 @@ title: Target で使用されている用語と定義はどこで確認できま
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Visual Experience Composer が使用できない、または使用が実用的�
 
 **mbox.js**
 
-A [!DNL Target] 廃止された JavaScript 実装ライブラリ。
+[!DNL Target] JavaScript 実装ライブラリ（非推奨）。
 
 **mbox パラメーター**
 
