@@ -5,9 +5,9 @@ title: Target に関するリソースや連絡先情報はどこで入手でき
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 * 同業者やアドビの専門家とつながる
 * Target の将来のリリースに関するアイデアに投票したり、自分自身のアイデアを投稿する
 
-ぜひ [Target コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)をご利用ください。
+ぜひ [Target コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)をご利用ください。
 
 ## 「Target の基本」ウェビナーシリーズ {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -48,7 +48,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 | [Target Premium Workspaces](https://helpx.adobe.com/jp/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018 年 9 月 4 日（PT） | 学習者<ul><li>Workspace（製品プロファイル）の作成</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは、[Enterprise ユーザー権限](/help/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
 | [Visual Experience Composer（VEC）](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/c-experiences/experiences.md)を参照してください。 |
 | [Adobe Target：Analytics と Target の統合（A4T）](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) |
-| [at.js：メリットと実装に関するベストプラクティス](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者 <ul><li>at.js ライブラリの仕組み</li><li>非推奨の mbox.js に対する at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul> |
+| [at.js：メリットと実装に関するベストプラクティス](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者 <ul><li>at.js ライブラリの仕組み</li><li>非推奨の mbox.js と比較した at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul> |
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、[Experience Cloud コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
+ご質問は、[Experience Cloud コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
@@ -85,7 +85,7 @@ Target を使用していて問題や疑問点が出てきた場合は、いく�
 
 ### 機能停止の場合 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（[!DNL https://status.adobe.com]）をご確認ください。Target を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれます。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
+機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com/ja)（[!DNL https://status.adobe.com]）をご確認ください。Target を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれます。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
 * 機能停止した時間
 * 発生状況の説明
@@ -104,7 +104,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
 * [チケットを開いてサポートからサポートを受ける](https://experienceleague.adobe.com/?support-solution=Target&amp;lang=ja#support)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
-* [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
+* [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/ja)
 
 今後の製品の機能強化に関する事前通知をご希望の方は、Adobe Priority Product Update にご登録ください。
 
@@ -116,7 +116,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)に、改良のアイデアや提案を投稿できます。「[!UICONTROL アイデア]」タブをクリックします。
+このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)に、改良のアイデアや提案を投稿できます。「[!UICONTROL アイデア]」タブをクリックします。
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
@@ -127,4 +127,4 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/jp/products/eula/third_party.html).
