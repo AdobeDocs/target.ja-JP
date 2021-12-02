@@ -5,9 +5,9 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 40%
 
 ### Analytics 指標別の上位
 
-「Top x」を表示します（x は任意）。 [!DNL Analytics] 指標。 mbox の行動データを使用する場合、「販売数トップ」または「閲覧数トップ」（x = 「販売数」または x = 「閲覧数」）のみを使用できます。 次の行動データを使用する場合： [!DNL Adobe Analytics]の場合は、x = &quot;買い物かごへの追加&quot;などの [!DNL Analytics] 指標。
+「上の x」を表示します。 *x* は任意です [!DNL Analytics] 指標。 mbox の行動データを使用する場合、「販売数トップ」または「閲覧数トップ」（x = 「販売数」または x = 「閲覧数」）を使用できます。 次の行動データを使用する場合： [!DNL Adobe Analytics]の場合は、x = &quot;買い物かごへの追加&quot;などの [!DNL Analytics] 指標。
 
 ## [!UICONTROL 項目ベース]
 
