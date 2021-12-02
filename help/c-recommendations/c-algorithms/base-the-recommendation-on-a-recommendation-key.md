@@ -5,9 +5,9 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3894'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 40%
 
 ## 買い物かごベース {#cart-based}
 
-この [!UICONTROL 買い物かごベース] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいてレコメンデーションされる品目を指定できます。
+この [!UICONTROL 買い物かごベース] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいてレコメンデーションされる品目を指定できます。 レコメンデーションキーは、mbox パラメーターを通じて提供されます `cartIds` コンマ区切り値で指定します。 最初の 10 個の値のみが考慮されます。
 
 買い物かごベースのレコメンデーションロジックは、「[!UICONTROL お勧め]」ユーザーベースのアルゴリズムと[!UICONTROL これらを閲覧した人が購入したもの]&quot;および&quot;[!UICONTROL これらを購入した人が購入したもの]」項目ベースのアルゴリズム。
 
