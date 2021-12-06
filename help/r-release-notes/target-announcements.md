@@ -4,9 +4,9 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -14,18 +14,6 @@ ht-degree: 100%
 # Target のお知らせとイベント
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
-
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2021年11月10日（PT））
-
-* **2021年11月10日（水）（PT）**
-*  **午前 8:00（米国太平洋標準時、UTC-8）**
-* **[詳細情報とユーザー登録](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696?profile.language=ja)**
-
-Cristinel &quot;Muti&quot; Anastasoaie 氏（[!DNL Adobe Target] シニアプロダクトマネージャー）が自身の専門分野に関する質問に答えます。
-
-* [!DNL Target] ユーザーインターフェイス
-* [!DNL Target] 統合
-* [!UICONTROL 企業における権限]と[!UICONTROL ワークスペース]
 
 ## [!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2021年12月8日（PT））
 
