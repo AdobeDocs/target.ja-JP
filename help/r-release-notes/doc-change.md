@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 製品ドキュメントへの重要な追加�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7 年 12 月 | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
 | 2 年 12 月 | [レコメンデーションキーに基づくレコメンデーションのベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのアルゴリズムが更新され、mbox パラメーター cartIds を使用してレコメンデーションキーがコンマ区切り値で提供されるようになりました。 最初の 10 個の値のみが考慮されます。 |
 | 11月18日（PT） | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2 を使用するページの [!UICONTROL Visual Experience Composer] （VEC）で mbox がサポートされなくなったことを示すメモを Mbox 行に追加しました。*x*。 |
 | 11月16日（PT） | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 「*Experience Cloud 中央インターフェイスコンポーネントガイド*」の「[顧客属性のデータファイルとデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)」へのリンクとともにアップロードするファイルに関する制限についての情報を追加しました。 |
