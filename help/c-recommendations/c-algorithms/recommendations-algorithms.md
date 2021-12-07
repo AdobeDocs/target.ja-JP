@@ -4,14 +4,14 @@ description: で使用されるアルゴリズムについて説明します。 
 title: Recommendationsアルゴリズムの背後にある科学については、どこで学ぶことができますか？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 1%
 
 ---
 
-# ![プレミアム](/help/assets/premium.png) Science Behind Recommendationsアルゴリズム
+# ![プレミアム](/help/assets/premium.png) Recommendationsアルゴリズムの背後にある科学
 
 で使用されるアルゴリズムの詳細な説明 [!DNL Adobe Target Recommendations]（モデルトレーニングのロジックと数学的な詳細、およびモデル提供のプロセスを含む）
 
