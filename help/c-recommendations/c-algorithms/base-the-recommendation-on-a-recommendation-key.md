@@ -5,7 +5,7 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ ht-degree: 40%
 * オフラインアルゴリズムを実行し、結果を使用してレコメンデーションを強化したいが、在庫切れの品目はレコメンデーションされないようにする必要がある。
 * 訪問者のお気に入りのカテゴリの品目のみに対象を絞りたい。
 
-## レコメンデーションキー
+## レコメンデーションキー {#keys}
 
 次のレコメンデーションキーは、 [!UICONTROL レコメンデーションキー] ドロップダウンリスト：
 

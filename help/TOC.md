@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: ht
-source-wordcount: '1535'
-ht-degree: 100%
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+workflow-type: tm+mt
+source-wordcount: '1540'
+ht-degree: 99%
 
 ---
 
@@ -378,6 +378,7 @@ ht-degree: 100%
       + [条件の作成](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Science Behind Recommendationsアルゴリズム](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
       + 動的および静的インクルージョンルールの使用 {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
