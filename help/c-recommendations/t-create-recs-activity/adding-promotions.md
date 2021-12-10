@@ -1,24 +1,23 @@
 ---
-keywords: プロモーション；プロモーション — 前；プロモーション — 後；プロモーション — 後；プロモーション — タイプ；アイテムのリスト；属性別プロモーション；コレクションのプロモーション
-description: プロモーション項目を追加し、Adobe [!DNL Target] Recommendationsデザイン内の配置を制御する方法を説明します。 静的なプロモーションおよび動的なプロモーションを追加できます。
-title: Recommendationsデザインでのプロモーション追加の方法
+keywords: プロモーション；プロモーション — 前；プロモーション — 後；プロモーションタイプ；項目のリスト；属性別にプロモート；コレクションをプロモート
+description: プロモーション項目を追加し、Adobe内での配置を制御する方法を説明します [!DNL Target] Recommendationsのデザイン。 静的なプロモーションおよび動的なプロモーションを追加できます。
+title: Recommendations Designs にプロモーションを追加する方法を教えてください。
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 50%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) プロモーションの追加
 
-プロモーション項目を追加して、Adobe Target Recommendations デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
+プロモーション項目を追加して、[!DNL Adobe Target Recommendations] デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 
 >[!IMPORTANT]
 >
->静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
+>静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、 [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 [!DNL Recommendations] アクティビティを作成するときは、[!DNL Recommendations] デザインにプロモーション項目を含めることができます。プロモーションは、デザインの使用可能なスロットを使用し、条件の結果およびバックアップレコメンデーションよりも優先されます。例えば、デザインに 6 つのスロットがあり、そのうち 2 つをプロモーションに使用した場合、条件に基づいてレコメンデーションされる項目に 4 つのスロットを使用できます。
 
@@ -26,7 +25,7 @@ ht-degree: 56%
 
 特定の項目をプロモーションしたり、動的に項目をプロモーションしたり、属性に基づいて項目をプロモーションすることができます。また、コレクションをプロモーションすることもできます。
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL プロモーション — 前] および [!UICONTROL プロモーション — 後] オプション [!DNL Target] UI](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ ht-degree: 56%
    ![「プロモーション - 前」オプションを追加](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    条件の結果の前と&#x200B;**&#x200B;後のどちらにもプロモーションを挿入できます。
+
 1. プロモーション項目に使用するデザインスロットの数を設定します。
 
    [!DNL Recommendations] デザインによりますが、最大で 20 個のスロットを使用できます。使用した各スロットは、条件に基づいて返されたレコメンデーションには使用できません。
@@ -53,28 +53,28 @@ ht-degree: 56%
 
    * 「**[!UICONTROL 属性別にプロモート]**」を選択し、プロモーションする項目の属性を定義するルールを追加します。
 
-      「属性別にプロモート」を選択すると、動的な一致を作成できます。詳しくは、[動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
+      次を選択した場合、 [!UICONTROL 属性別にプロモート]を使用すると、動的な一致を作成できます。 詳しくは、 [動的および静的インクルージョンルールの使用](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * 「**[!UICONTROL コレクションをプロモート]**」を選択し、プロモーションする項目のコレクションを選択します。
 
-      プロモーションに使用する新しいコレクションを作成できます。詳しくは、[コレクションの作成](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)を参照してください。
-   「**[!UICONTROL リスト項目]**」を「**[!UICONTROL プロモーションタイプ]**」として選択した場合は、必要に応じて「**[!UICONTROL 品目順のランダム化]**」チェックボックスをオンにできます。
+      プロモーションに使用する新しいコレクションを作成できます。詳しくは、 [コレクションの作成](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) を参照してください。
+   次を選択した場合： **[!UICONTROL 項目のリスト]** を **[!UICONTROL プロモーションタイプ]**&#x200B;を選択した場合、 **[!UICONTROL 項目の順序をランダム化]** 」チェックボックスをオンにします。
 
-   [!UICONTROL アイテム]のリストのデフォルトの並べ替え順は、ターゲットのUIまたはAPIで入力した順序に基づきます。 リストに、プロモーション用に設定したスロット数より多くの項目が含まれている場合、「[!UICONTROL 項目の順序をランダム化]」オプションを使用すると、デザインに表示されるプロモーション項目がランダム化されます。 このオプションを選択すると、[!DNL Target]によって、各ヒットに設定されたプロモーション全体から、テンプレート内のプロモーションに対して有効になっている項目がランダムに選択されます。
+   のデフォルトの並べ替え順 [!UICONTROL 項目のリスト] が [!DNL Target] UI または API。 リストに、プロモーション用に設定したスロット数より多くの項目が含まれている場合、 [!UICONTROL 項目の順序をランダム化] オプションは、デザインに表示されるプロモーション項目をランダム化します。 このオプションを選択すると、次の結果になります。 [!DNL Target] 各ヒットで設定されたプロモーション全体から、テンプレートでプロモーションが有効な項目をランダムに選択する。
 
-   エンティティに`entity.value`属性がない場合（製品を販売していない場合など）は、発行日などの`entity.value`属性に数値を渡すことができます。 この場合、最新の投稿日に基づいて、プロモーションされた項目を降順でプロモーションできます。 `entity.value`属性は重複型です。文字列は受け付けません。
+   エンティティに `entity.value` 属性（製品を販売していない場合など）は、 `entity.value` 属性（公開日など）。 この場合、最新の公開日に基づいて、昇格済みの項目を降順で昇格させることができます。 この `entity.value` 属性の型は double です。文字列は受け入れられません。
 
-   「**[!UICONTROL 属性でプロモート]**」または「**[!UICONTROL コレクションをプロモート]**」オプションを選択した場合、順序をランダム化するオプションは使用できません。
+   選択した **[!UICONTROL 属性別にプロモート]** または **[!UICONTROL コレクションを昇格]** 」オプションを使用する場合、順序をランダム化するオプションは適用されません。
 
-   「[!UICONTROL 属性でプロモート]」または「[!UICONTROL コレクション]をプロモート」オプションを使用して特定の項目をプロモートする場合、項目が表示されるデフォルト順序は、数値の降順の`entity.value`属性に基づきます。
+   を使用して特定の項目を昇格させる場合 [!UICONTROL 属性別にプロモート] または [!UICONTROL コレクションを昇格] オプションを指定した場合、デフォルトの表示順序は `entity.value` 属性。降順の数値順で指定します。
 
    次の表に、これらのオプションの違いを示します。
 
-   | プロモーションタイプ | デフォルトの並べ替え | バックアップの並べ替え | 動的フィルタリングオプション |
+   | プロモーションタイプ | デフォルトの並べ替え | バックアップの並べ替え | 動的フィルターオプション |
    | --- | --- | --- | --- |
-   | 項目のリスト | ターゲットUI/APIに入力された注文 | ランダム（UI/APIで選択された場合） | × |
-   | 属性別にプロモート | `entity.value` （降順） | リクエストごとにランダム化（`entity.value`属性が存在しない場合） | ○ |
-   | コレクションの更新 | `entity.value` （降順） | リクエストごとにランダム化（`entity.value`属性が存在しない場合） | × |
+   | [!UICONTROL 項目のリスト] | Target UI/API で入力された注文 | ランダム（UI/API 経由で選択された場合） | × |
+   | [!UICONTROL 属性別にプロモート] | `entity.value` （降順） | ランダム化なし | ○ |
+   | [!UICONTROL コレクションを昇格] | `entity.value` （降順） | ランダム化なし | × |
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
