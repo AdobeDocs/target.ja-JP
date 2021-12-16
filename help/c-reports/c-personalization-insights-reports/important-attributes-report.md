@@ -1,59 +1,58 @@
 ---
 keywords: ターゲット設定;AP レポート;自動パーソナライゼーションレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
-description: Adobe [!DNL Target] の重要な属性レポートの使用方法を説明します。このレポートは、パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示します。
+description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示すレポート。
 title: 重要な属性レポートとは何ですか。
-feature: レポート
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 重要な属性レポート
 
-自動パーソナライゼーション（AP）および自動ターゲット（AT）アクティビティのユーザーが利用できる 2 つの特殊なレポートの 1 つである重要な属性レポートについて説明します。
+次に関する情報： [!UICONTROL 重要な属性] レポート。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ
 
 >[!NOTE]
 >
->個人用設定インサイトレポートを使用する場合は、以下の点を考慮してください。
+>を使用する際は、次の点を考慮してください。 [!UICONTROL パーソナライゼーションインサイト] レポート：
 >
 >* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
-   >
-   >
-* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
-   >
-   >
-* [!UICONTROL 個人] 情報レポートは、レポート指標ドロップダウンリストから [!UICONTROL プライマリ] Golisが選択されている場合にのみ使用でき  ます。
-   >
-   >
-* パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/administrating-target/hosts.md)でのみサポートされています。
-   >
-   >
-* [!UICONTROL パーソナライゼーション] インサイトレポートは、  Livestatusにあり、アクティブ化され、少なくとも15日間トラフィックを受け取ったアクティビティに対してのみ生成されます。
+>
+>* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+>
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL プライマリ目標] が [!UICONTROL レポート指標] 」ドロップダウンリストから選択できます。
+>
+>* パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/administrating-target/hosts.md)でのみサポートされています。
+>
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL ライブ] のステータスと、少なくとも 15 日間アクティブ化され、トラフィックを受け取っていること。
 
 
 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
-## 重要な属性レポートへのアクセス {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 次にアクセス： [!UICONTROL 重要な属性] レポート {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL アクティビティ]**&#x200B;をクリックし、リストから目的の[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)または[自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md)アクティビティをクリックします。
+1. クリック **[!UICONTROL アクティビティ]**&#x200B;を選択し、目的のをクリックします。 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを選択します。
 
    多数のアクティビティが表示される場合は、[!UICONTROL 種類]、[!UICONTROL ステータス]、[!UICONTROL レポートソース]、[!UICONTROL Experience Composer]、[!UICONTROL 指標のタイプ]、[!UICONTROL アクティビティソース]のドロップダウンリストからオプションを選択して、リストにフィルターを適用できます。
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   [Automated Personalizationの概要](/help/c-reports/reports-ap.md)または[自動ターゲットの概要](/help/c-reports/auto-target-summary-report.md)レポートが表示され、アクティビティのパフォーマンスに関する情報が最初の画面アイコンで示されます。 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、さらに[!UICONTROL 概要]レポートのグラフィック表示用のグラフアイコンがあることに注意してください。
+   この [Automated Personalization概要](/help/c-reports/reports-ap.md) または [自動ターゲットの概要](/help/c-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加のアイコンは、 [!UICONTROL パーソナライゼーションインサイト] レポート： [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性].
 
-   ![](assets/personalization_insights.png)
+   ![Automated Personalizationアクティビティの概要レポート](assets/summary-report-ap.png)
+
+   注意： [!UICONTROL 自動ターゲット] には、 [!UICONTROL 概要] レポート。
+
+   ![自動ターゲットアクティビティの概要レポート](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過したら、パーソナライズされた十分なトラフィックがアクティビティにあると仮定して、[!UICONTROL 重要な属性]レポートを使用できるようになります。
+   >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過した後、アクティビティにパーソナライズされた十分なトラフィックがあると仮定すると、 [!UICONTROL 重要な属性] レポートが使用可能になっている。
 
-1. アクティビティをアクティブ化してから 15 日経ったら、**[!UICONTROL 重要な属性]**&#x200B;アイコンをクリックできます。
+1. アクティビティをアクティブ化してから 15 日経ったら、 **[!UICONTROL 重要な属性]** アイコン
 
    ![](assets/model_attribute_ranking.png)
 
