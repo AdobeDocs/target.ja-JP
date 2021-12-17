@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  製品ドキュメントへの重要な追加
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 12 月 18 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 重要な属性レポートを表示する際の日付範囲に関する次の注意を追加しました。<ul><li>この [!DNL Target] 現在、UI では、45 日と 90 日の日付範囲を選択できます。 ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。 使用パターンと、パフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されます。15 日、30 日、60 日。</li></ul> |
 | 12 月 7 日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
 | 12 月 2 日（PT） | [レコメンデーションキーのレコメンデーションに基づく](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのアルゴリズムが新しくなり、レコメンデーションキーが mbox パラメーター cartIds を使用してコンマ区切り値で提供されるようになりました。最初の 10 個の値のみが考慮されます。 |
 | 11 月 18 日（PT） | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2 を使用するページの [!UICONTROL Visual Experience Composer] （VEC）で mbox がサポートされなくなったことを示すメモを Mbox 行に追加しました。*x*。 |
@@ -152,7 +153,7 @@ ht-degree: 99%
 |  | [[!UICONTROL Experience Composer の強化]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)に関連する問題のトラブルシューティング | IP アドレスのリストを更新し、許可リストに加えました。 |
 | 5 月 12 日 | [[!DNL Target] リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 以下のプレリリースノートを追加しました。<ul><li>Adobe Experience Platform Web SDK（2021 年 5 月 17 日）</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5 月10 日 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。「[!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？」 |
-|  | [  [!DNL Target] using [!DNL Dynamic Tag Manager] （DTM）の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] のサポートが終了したことを表記しました。 代わりに、[!DNL Adobe] では、[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使って実装することをお勧めします。 |
+|  | [実装方法 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] のサポートが終了したことを表記しました。 代わりに、[!DNL Adobe] では、[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使って実装することをお勧めします。 |
 | 5 月 6 日 | [Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。<ul><li>[!UICONTROL Recommendations] のアクティビティ、オファー、プロモーションまたは条件の設定変更がサイトに反映されるまでに、どのくらい時間がかかりますか？</li><li>ユーザーの行動（製品 A のクリックや製品 B の購入など）が&#x200B;*その*&#x200B;ユーザーが受け取るレコメンデーションに反映されるまでにどのくらい時間がかかりますか？</li><li>ユーザーの行動（製品 A のクリックや製品 B の購入など）が&#x200B;*他の*&#x200B;ユーザーの受け取るレコメンデーションに反映されるまでに、どのくらい時間がかかりますか？</li></ul> |
 |  | [オンデバイス判定](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | アドビテクニカルブログの以下のブログ投稿へのリンクを追加しました。<ul><li>パート 1：エッジプラットフォームでの実験とパーソナライゼーションのための Adobe Target NodeJS SDK の実行（Akamai Edge Workers）</li></ul> |
 | 5 年 5 月 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021 年 5 月 12 日水曜日午前 8 時に開催される Adobe Target コミュニティ Q&amp;A コーヒーブレークに関する情報を追加しました。 |
