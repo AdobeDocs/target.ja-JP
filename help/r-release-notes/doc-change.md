@@ -20,7 +20,7 @@ ht-degree: 97%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 12 月 18 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 重要な属性レポートを表示する際の日付範囲に関する次の注意を追加しました。<ul><li>この [!DNL Target] 現在、UI では、45 日と 90 日の日付範囲を選択できます。 ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。 使用パターンと、パフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されます。15 日、30 日、60 日。</li></ul> |
-| 12 月 7 日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
+| 12 月7日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
 | 12 月 2 日（PT） | [レコメンデーションキーのレコメンデーションに基づく](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのアルゴリズムが新しくなり、レコメンデーションキーが mbox パラメーター cartIds を使用してコンマ区切り値で提供されるようになりました。最初の 10 個の値のみが考慮されます。 |
 | 11 月 18 日（PT） | [変更](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2 を使用するページの [!UICONTROL Visual Experience Composer] （VEC）で mbox がサポートされなくなったことを示すメモを Mbox 行に追加しました。*x*。 |
 | 11 月 16 日（PT） | [顧客属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 「*Experience Cloud 中央インターフェイスコンポーネントガイド*」の「[顧客属性のデータファイルとデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)」へのリンクとともにアップロードするファイルに関する制限についての情報を追加しました。 |
@@ -88,10 +88,10 @@ ht-degree: 97%
 | 8 月 6 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 リリースが遅れていることを示すメモを追加しました。 |
 |  | [[!UICONTROL 自動配分の]概要](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL 自動配分]アクティビティの途中で、レポートソースを変更できますか？</li></ul> |
 | 8 月 5 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 設定に関する情報を追加しました。 |
-| 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL ターゲット配信 API] リリースに関する情報を追加しました。 |
+| 8 月 4 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 配信 API] リリースに関する情報を追加しました。 |
 |  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の [!DNL Target Standard/Premium] 21.8.1 リリース（2021 年 8 月 4 日（PT））についての情報を追加しました。 |
 | 8 月 2 日（PT） | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>A4T を使用した自動配分アクティビティのトラフィック分配</li></ul> |
-|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL ターゲット配信 API] リリースに関する情報を追加しました。 |
+|  | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 今後の[!UICONTROL Target 配信 API] リリースに関する情報を追加しました。 |
 | 7 月 30 日 | [制限](/help/r-troubleshooting-target/target-limits.md) | 以下の節を更新しました。<ul><li>entity.id</li><li>productPurchasedId パラメーター</li></ul> |
 | 7 月 29 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク（2021 年 8 月 11 日 水曜日（PT））に関する情報を追加しました。 |
 |  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | グローバル mbox をカスタマイズした後、VEC で作成された影響を受けるアクティビティを編集して再保存する必要があることを示すために、重要な注意事項を更新しました。 |
