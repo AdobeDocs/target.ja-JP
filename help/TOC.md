@@ -4,9 +4,9 @@ breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
