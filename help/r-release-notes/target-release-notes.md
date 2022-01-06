@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2021年10月28日（PT）**
+**最終更新日：2022 年 1 月 6 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -24,6 +24,14 @@ ht-degree: 100%
 >**mbox.js のサポート終了**：2021 年 3 月 31 日（PT）をもって、[!DNL Adobe Target] mbox.js ライブラリのサポートは終了しました。 2021 年 3 月 31 日（PT）以降、mbox.js からのすべての呼び出しはエラーなく失敗し、デフォルトコンテンツを提供することで [!DNL Target] アクティビティを実行しているページに影響を与えます。
 >
 >サイトで発生する可能性のある問題を回避するには、 [!DNL Adobe Experience Platform Web SDK] または at.js JavaScript ライブラリの最新バージョンに移行します。詳しくは、[概要：クライアントサイド web に対する Target の実装](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)を参照してください。
+
+## [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 7 日）
+
+このリリースには、次の新機能が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| Target アクティビティでのオファーの決定の使用 | これで、 [!DNL Adobe Journey Optimizer] 決定を下す [!DNL Adobe Target] A/B テストおよびエクスペリエンスのターゲット設定 (XT) アクティビティを使用して、Web およびモバイルで訪問者に次に最適なオファーを決定し、配信します。<br>詳しくは、「オファーの決定の使用」を参照してください。<br>**注意**:この機能は、で使用できます。 [!DNL Target] offer decisioningにもアクセスでき、 [!DNL Target] AdobeExperience Platform Web SDK に基づく実装。 |
 
 ## at.js バージョン 2.7.0（2021年10月28日（PT））
 
