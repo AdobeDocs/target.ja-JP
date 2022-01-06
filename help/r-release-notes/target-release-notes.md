@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースで追加される新機能
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 86%
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 | 機能 | 詳細 |
 | --- | --- |
-| Target アクティビティでのオファーの決定の使用 | これで、 [!DNL Adobe Journey Optimizer] 決定を下す [!DNL Adobe Target] A/B テストおよびエクスペリエンスのターゲット設定 (XT) アクティビティを使用して、Web およびモバイルで訪問者に次に最適なオファーを決定し、配信します。<br>詳しくは、「オファーの決定の使用」を参照してください。<br>**注意**:この機能は、で使用できます。 [!DNL Target] offer decisioningにもアクセスでき、 [!DNL Target] AdobeExperience Platform Web SDK に基づく実装。 |
+| でのオファーの決定の使用 [!DNL Target] アクティビティ | これで、 [!DNL Adobe Journey Optimizer] 決定を下す [!DNL Target] [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティを使用して、Web およびモバイルで訪問者に次に最適なオファーを決定し、配信します。<br>詳しくは、 [オファーの決定を使用](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**注意**:この機能は、で使用できます。 [!DNL Target] offer decisioningにもアクセスでき、 [!DNL Target] Adobe Experience Platform Web SDK に基づく実装。 |
 
 ## at.js バージョン 2.7.0（2021年10月28日（PT））
 
