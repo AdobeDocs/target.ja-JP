@@ -4,13 +4,13 @@ description: バージョンの各バージョンでの変更に関する詳細�
 title: at.js の各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4280'
+source-wordcount: '4318'
 ht-degree: 88%
 
 ---
-
 
 # at.js のバージョンの詳細
 
@@ -22,11 +22,15 @@ ht-degree: 88%
 >
 >タグ [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.js をアップグレードするための推奨される方法です。 拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、 [!DNL Adobe Experience Platform] アップグレードとしてのカタログ 詳しくは、 [拡張機能のアップグレード](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 内 *タグの概要* ガイド。
 
-## at.js バージョン 2.7.0（2021 年 10 月 29 日）
+## at.js バージョン 2.8.0（2022 年 1 月 8 日）
+
+この [!DNL Target] at.js JavaScript ライブラリが機能使用状況およびパフォーマンスのテレメトリデータを収集するようになりました。 個人データは収集されません。 この機能のオプトアウトは、次の設定で使用できます。 `telemetryEnabled` 偽りを言う `targetGlobalSettings`. 詳しくは、 [targetGlobalSettings で telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+
+## at.js バージョン 2.7.0（2021年10月28日（PT））
 
 このリリースで強化された機能は次のとおりです。
 
-* のサポートを追加しました。 [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components). このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスおよびオファーを作成およびテストするために必要です。 この機能は、 [!DNL Target Standard/Premium] 21.10.5リリース。
+* [Web コンポーネント](https://developer.mozilla.org/ja/docs/Web/Web_Components)のサポートを追加しました。このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成し、テストするために必要です。この機能は、[!DNL Target Standard/Premium] 21.10.5 リリースに含まれています。
 
 ## at.js 2.6.1（2021 年 8 月 16 日）
 
@@ -105,7 +109,7 @@ at.js のこのリリースはメンテナンスリリースで、次の機能�
 
 * at.js チェック Cookie の名前を `check` から `at_check` を使用して、お客様の実装との競合を回避します。
 
-## at.js バージョン 2.2.0（2019 年 10 月 11 日）
+## at.js バージョン 2.2.0（2019年10月10日（PT））
 
 at.js のこのリリースには、次の機能強化および修正が含まれています。
 
@@ -120,7 +124,7 @@ at.js のこのリリースには、次の機能強化および修正が含ま�
 
 * at.js バージョン 2.2 では、 `serverState`. この設定は、Target のハイブリッド統合が実装される際に、ページのパフォーマンスを最適化するために使用できます。 ハイブリッド統合とは、at.js v2.2 以降（クライアントサイド）と、配信 API または Target SDK（サーバーサイド）の両方を使用してエクスペリエンスを提供することを意味します。`serverState` には、at.js v2.2 以降で、サーバーサイドで取得したコンテンツからエクスペリエンスを直接適用し、提供されるページの一部としてクライアントに返す機能が備わっています。詳細情報は、[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) の「serverState」を参照してください。
 
-## at.js バージョン 1.8.0（2019 年 10 月 11 日）
+## at.js バージョン 1.8.0（2019年10月10日（PT））
 
 at.js のこのリリースには、次の機能強化および修正が含まれています。
 

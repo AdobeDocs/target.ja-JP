@@ -1,14 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
-description: Adobe  [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target]  UI または REST API の targetGlobalSettings() 関数を使用します。
+description: Adobe [!DNL Target] at.js JavaScript ライブラリを使用して、 [!DNL Target] UI または REST API。
 title: targetGlobalSettings() 関数の使用方法
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: ht
-source-wordcount: '2332'
-ht-degree: 100%
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 98%
 
 ---
 
@@ -210,6 +210,12 @@ ht-degree: 100%
 * **タイプ**：以下の[ハイブリッドパーソナライゼーション](#server-state)を参照してください。
 * **デフォルト値**：以下の[ハイブリッドパーソナライゼーション](#server-state)を参照してください。
 * **説明**：以下の[ハイブリッドパーソナライゼーション](#server-state)を参照してください。
+
+### telemetryEnabled {#telemetry}
+
+* **タイプ**：ブール値
+* **デフォルト値**：true
+* **説明**:有効にした場合、 [!DNL Adobe] は、SDK 機能の使用状況とパフォーマンスのテレメトリデータを収集します。 個人データは収集されません。
 
 ### timeout
 

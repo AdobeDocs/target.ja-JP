@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
-workflow-type: ht
-source-wordcount: '1153'
-ht-degree: 100%
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,9 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js バージョン 2.7.0（2021年10月28日（PT））
+## at.js バージョン 2.8.0（2022 年 1 月 8 日）
 
-このリリースで強化された機能は次のとおりです。
-
-* [Web コンポーネント](https://developer.mozilla.org/ja/docs/Web/Web_Components)のサポートを追加しました。このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成し、テストするために必要です。この機能は、[!DNL Target Standard/Premium] 21.10.5 リリースに含まれています。
+この [!DNL Target] at.js JavaScript ライブラリが機能使用状況およびパフォーマンスのテレメトリデータを収集するようになりました。 個人データは収集されません。 この機能のオプトアウトは、次の設定で使用できます。 `telemetryEnabled` 偽りを言う `targetGlobalSettings`. 詳しくは、 [targetGlobalSettings で telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日（PT））
 
@@ -44,7 +42,7 @@ ht-degree: 100%
 
 | 機能 | 詳細 |
 | --- | --- |
-| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)の, 「買い物かごベース」、[計画とレコメンデーションの実装](/help/c-recommendations/plan-implement.md)の, 「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
+| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/c-recommendations/c-algorithms/create-new-algorithm.md)の「買い物かごベース」、[計画とレコメンデーションの実装](/help/c-recommendations/plan-implement.md)の「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
 
 ## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日（PT））
 

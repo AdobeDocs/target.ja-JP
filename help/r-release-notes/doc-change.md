@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  製品ドキュメントへの重要な追加
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 97%
+source-wordcount: '3223'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1 月 7 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 設定に関する情報を追加しました。 |
+|  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 次の節を追加しました。「機能使用状況データの収集。」 |
+|  | [使用するデータ [!DNL Target] 機械学習アルゴリズム](/help/c-activities/t-automated-personalization/ap-data.md) | 次を含むトピック全体を更新しました。<ul><li>新しいセクション：「機能をブロックする [!DNL Target] 機械学習アルゴリズム»</li><li>「システム名」の列と情報を複数のテーブルに追加しました。</li></ul> |
 | 1 月 7 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.1.1 リリースです。 |
 | 12 月 18 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 重要な属性レポートを表示する際の日付範囲に関する次の注意を追加しました。<ul><li>この [!DNL Target] 現在、UI では、45 日と 90 日の日付範囲を選択できます。 ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。 使用パターンと、パフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されます。15 日、30 日、60 日。</li></ul> |
 | 12 月7日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
