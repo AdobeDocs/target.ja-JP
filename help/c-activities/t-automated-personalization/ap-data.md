@@ -4,10 +4,10 @@ description: データAdobe [!DNL Target] を収集し、を使用してで機�
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 82031068246cd7d29278d2241e686a6c00ad319d
+source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 50%
+source-wordcount: '2085'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 50%
 
 ## 環境データ {#env}
 
-|属性名|属性の説明|サンプル値|システム名| | — | — | — | — | |ブラウザー — 曜日|訪問者がアクティビティにアクセスした曜日。|0 から 6。<br>（0 は日曜日）|ENV_DayOfWeek| |ブラウザー — 時間帯|訪問者がアクティビティにアクセスした時刻。|0 ～ 23<br>（0 は午前 0 時）|ENV_UserHour| |Browser - Hour of Week|訪問者がアクティビティにアクセスした時刻。|0 ～ 168<br>（日曜日午前 0 時は 0）|ENV_WeekHour| |ブラウザー — 言語設定|訪問者がアクティビティへのアクセスに使用したブラウザーで指定された言語。|英語<br>ドイツ語|ENV_Language| |Browser - Screen Width (px)|訪問者がアクティビティへのアクセスに使用したデバイスのブラウザー画面の幅（ピクセル単位）。|1、2、3 など|ENV_browserWidth| |ブラウザー — 時刻|訪問者がアクティビティにアクセスしたブラウザーの時刻。|0, 6, 12, 18<br>（0 は夜、6 は朝）<br>12 は午後、18 は夜 )|ENV_LocalTimePeriod| |ブラウザー — タイムゾーン|訪問者がアクティビティにアクセスしたときのタイムゾーン。|太平洋標準時<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |ブラウザー — タイプ|訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>その他|ENV_Browser| |Browser - Weekday/Weekend|訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の自由時間）。|土曜日と日曜日は週末です<br>月～金 0900 年～1800 年は勤務時間<br>月～金 1800 ～ 0900 は平日の自由時間です|ENV_UserHourType| |Browser - Window Height (px)|訪問者がアクティビティへのアクセスに使用したブラウザーのウィンドウの高さ（ピクセル単位）。|1、2、3 など|ENV_BrowserHeight| |Browser - Window Width (px)|訪問者がアクティビティへのアクセスに使用したブラウザーのウィンドウの幅（ピクセル単位）。|1、2、3 など|ENV_BrowserWidth| |Device - Screen Height (px)|訪問者がアクティビティへのアクセスに使用したデバイスの画面の高さ。|1、2、3 など|ENV_ScreenHeight| |Device - Screen Width (px)|訪問者がアクティビティへのアクセスに使用したデバイスの画面の幅。|1、2、3 など|ENV_ScreenWidth| |オペレーティングシステム|訪問者がアクティビティへのアクセスに使用したデバイス上のオペレーティングシステム。|Mac OS<br>Windows<br>Linux<br>ボットを検索<br>不明な OS|ENV_OperatingSystem| |オペレーティングシステム — バージョン|訪問者がアクティビティへのアクセスに使用したオペレーティングシステムのバージョン。|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion| |トラフィックソース — 参照ランディングページ URL|サイトにアクセスした訪問者が最初に閲覧したページ。|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
+|属性名|属性の説明|サンプル値|システム名| | — | — | — | — | |ブラウザー — 曜日|訪問者がアクティビティにアクセスした曜日。|0 から 6。<br>（0 は日曜日）|ENV_DayOfWeek| |ブラウザー — 時間帯|訪問者がアクティビティにアクセスした時刻。|0 ～ 23<br>（0 は午前 0 時）|ENV_UserHour| |Browser - Hour of Week|訪問者がアクティビティにアクセスした時刻。|0 ～ 168<br>（日曜日午前 0 時は 0）|ENV_WeekHour| |ブラウザー — 言語設定|訪問者がアクティビティへのアクセスに使用したブラウザーで指定された言語。|英語<br>ドイツ語|ENV_Language| |ブラウザー — 時刻|訪問者がアクティビティにアクセスしたブラウザーの時刻。|0, 6, 12, 18<br>（0 は夜、6 は朝）<br>12 は午後、18 は夜 )|ENV_LocalTimePeriod| |ブラウザー — タイムゾーン|訪問者がアクティビティにアクセスしたときのタイムゾーン。|太平洋標準時<br>東部時間<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |ブラウザー — タイプ|訪問者がアクティビティへのアクセスに使用したブラウザーのタイプ。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>その他|ENV_Browser| |Browser - Weekday/Weekend|訪問者がアクティビティにアクセスしたときの作業ステータス（週末、勤務時間、平日の自由時間）。|土曜日と日曜日は週末です<br>月～金 0900 年～1800 年は勤務時間<br>月～金 1800 ～ 0900 は平日の自由時間です|ENV_UserHourType| |Browser - Window Height (px)|訪問者がアクティビティへのアクセスに使用したブラウザーのウィンドウの高さ（ピクセル単位）。|1、2、3 など|ENV_BrowserHeight| |Browser - Window Width (px)|訪問者がアクティビティへのアクセスに使用したブラウザーのウィンドウの幅（ピクセル単位）。|1、2、3 など|ENV_BrowserWidth| |Device - Screen Height (px)|訪問者がアクティビティへのアクセスに使用したデバイスの画面の高さ。|1、2、3 など|ENV_ScreenHeight| |Device - Screen Width (px)|訪問者がアクティビティへのアクセスに使用したデバイスの画面の幅。|1、2、3 など|ENV_ScreenWidth| |オペレーティングシステム|訪問者がアクティビティへのアクセスに使用したデバイス上のオペレーティングシステム。|Mac OS<br>Windows<br>Linux<br>ボットを検索<br>不明な OS|ENV_OperatingSystem| |オペレーティングシステム — バージョン|訪問者がアクティビティへのアクセスに使用したオペレーティングシステムのバージョン。|Windows 10<br>Mac OS 10|ENV_OperatingSystemVersion| |トラフィックソース — 参照ランディングページ URL|サイトにアクセスした訪問者が最初に閲覧したページ。|`https://www.adobe.com/ecloud.html`|ENV_Referrer|
 
 ## 地理データ {#geo}
 
