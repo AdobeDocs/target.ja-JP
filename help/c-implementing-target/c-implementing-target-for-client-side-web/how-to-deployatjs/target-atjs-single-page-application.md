@@ -1,16 +1,16 @@
 ---
 keywords: シングルページアプリケーションの実装；シングルページアプリケーションの実装；spa;at.js 2.x;at.js；シングルページアプリケーション；シングルページアプリケーション；spa;SPA
-description: Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] ( シングルページアプリケーション (SPA) 用 )
+description: Adobe [!DNL Target] at.js 2.x の実装 [!DNL Target] ( シングルページアプリケーション (SPA) 用 )
 title: 実装可能か [!DNL Target] シングルページアプリケーション (SPA) の場合
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2764'
 ht-degree: 73%
 
 ---
-
 
 # シングルページアプリケーションの実装
 
@@ -70,7 +70,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    まず、at.js 2.x をインストールする必要があります。このバージョンの at.js は、SPA を考慮して開発されました。at.js および mbox.js（現在は非推奨）の以前のバージョンでは、Adobe Target Views およびSPA用 VEC はサポートされていません。
 
-   次の場所にあるAdobe Target UI を使用して、at.js 2.x をダウンロードします。 [!UICONTROL 管理/実装]. at.js 2.x は、 [!DNL Adobe Experience Platform]. ただし、 [!DNL Adobe Target] 拡張機能は現在最新ではなく、サポートされています。
+   次の場所にあるAdobe Target UI を使用して、at.js 2.x をダウンロードします。 [!UICONTROL 管理/実装]. at.js 2.x は、 [!DNL Adobe Experience Platform].
 
 1. サイトに at.js 2.x の最新の関数 `triggerView()` を実装します。
 
