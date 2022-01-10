@@ -1,11 +1,12 @@
 ---
 keywords: Visual Experience Composer オプション；Experience Composer オプション；エクスペリエンスオプション；オファーの決定；offer decisioning;ajo;Journey Optimizer
 description: で作成したオファーの決定を追加する方法を説明します。 [!DNL Adobe Journey Optimizer] を「 」アクティビティに追加します。
-title: 'オファーの決定の使用方法 '
+title: オファーの決定の使用方法
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >このトピックで説明するオファー判定機能は、2022 年 1 月 13 日にリリースされ、 [!DNL Target Standard/Premium] 22.1.1 リリースです。
 
-詳しくは、 [!DNL Adobe Journey Optimizer]を参照してください。 [Journey Optimizerの概要](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 内 *Journey Optimizer* ドキュメント。
+詳しくは、 [!DNL Adobe Journey Optimizer]を参照してください。 [Journey Optimizerの概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 内 *Journey Optimizer* ドキュメント。
 
 オファーの決定について詳しくは、 [決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 内 *[!DNL Journey Optimizer]ドキュメント*.
 
@@ -40,13 +41,18 @@ ht-degree: 0%
 
 ### スポーツマーチャンダイジング
 
-スポーツリーグのマーケターは、（デスクトップとモバイル Web サイトの両方で）ホームページのコンテンツをパーソナライズする必要がある。 訪問者の好きなチームに基づいてコンテンツをパーソナライズしたいと考え、最近のプレーヤーが、関連するフランチャイズ商品を購入するオファーを提示するように動いています。 例えば、次の各地域のパーソナライズされたエクスペリエンスを配信する場合は、次のようにします。Dortmund、Frankfurt、Bochum と、これらのチームの暗黙で明示的なファンであるユーザー向けのツールです。 指標として、商品サイトへの訪問回数とクリック数を確認します。
+スポーツリーグのマーケターは、（デスクトップとモバイル Web サイトの両方で）ホームページのコンテンツをパーソナライズする必要がある。 複数のディメンションに基づいてコンテンツをパーソナライズし、関連するフランチャイズ商品を購入するオファーを提示する必要がある場合。 興味の対象：
 
-A/B テストアクティビティ (50/50分割 ) をデフォルトエクスペリエンスとパーソナライズされたエクスペリエンス（各地域およびチームのオファーを含むオファー決定を含む）の間でデザインしたい。 このアクティビティを使用して、パーソナライズされたエクスペリエンスとコントロールのコンバージョンおよび上昇率を判断します。
+* 訪問者のお気に入りのチーム
+* 最近のアスリート/プレイヤーのアクティビティ（チームの動き、契約の更新、怪我など）
+
+例えば、次の各地域にパーソナライズされたエクスペリエンスを配信するとします。Dortmund、Frankfurt、Bochum と、これらのチームの暗黙で明示的なファンであるユーザー向けのツールです。 指標として、商品サイトへの訪問回数とクリック数を確認します。
+
+次の項目をデザインする： [!UICONTROL A/B テスト] アクティビティ (50/50分割 ) は、デフォルトエクスペリエンスとパーソナライズされたエクスペリエンス（各地域およびチーム向けのオファーを含むオファー決定を含む）の間でおこなわれます。 このアクティビティを使用して、パーソナライズされたエクスペリエンスとコントロールのコンバージョンおよび上昇率を判断します。
 
 ### ゲームストリーミングプラットフォーム
 
-スポーツ組織のマーケターは、様々な地域のデスクトップおよびモバイルユーザー向けのゲームストリーミングプラットフォーム用にパーソナライズされたオファーを提供したいと考えています。ドイツ、フランス、メキシコ、ブラジル。 訪問者がこれらの地域の 1 つからデスクトップまたはモバイル Web サイトにアクセスする場合、ローカル言語でのゲームストリーミング用のオファーと、ローカル通貨に対応する価格を提供する必要があります。
+ゲーム組織のマーケターは、様々な地域のデスクトップおよびモバイルユーザー向けのゲームストリーミングプラットフォーム用にパーソナライズされたオファーを提供したいと考えています。ドイツ、フランス、メキシコ、ブラジル。 訪問者がこれらの地域の 1 つからデスクトップまたはモバイル Web サイトにアクセスする場合、ローカル言語でのゲームストリーミング用のオファーと、ローカル通貨に対応する価格を提供する必要があります。
 
 In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする各地域に対してパーソナライズされたホームページのヒーローオファーを作成し、さらにデフォルトのホームページのヒーローを含むフォールバックオファーを作成できます。 その後、これらのオファーとその実施要件ルールを組み込んだオファーの決定を作成できます。 次に、 [!DNL Target]を使用する場合、 [!DNL Experience Targeting] (XT) アクティビティを作成してオファーの決定をデスクトップまたはモバイル Web サイトに挿入し、パーソナライズされたエクスペリエンスを訪問者に提供します。
 
@@ -105,11 +111,3 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 * [!DNL Target] レポートには、オファーの決定レベルのレポートは含まれません。
 
 * 視覚化 [QA リンク](/help/c-activities/c-activity-qa/activity-qa.md) 対象 [!DNL Target] オファーの決定を含むエクスペリエンスは、 [!DNL Adobe Journey Optimizer] を設定する必要があります。
-
-
-
-
-
-
-
-
