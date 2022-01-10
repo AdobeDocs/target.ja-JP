@@ -3,10 +3,10 @@ description: Adobe  [!DNL Target]  で使用される様々な用語の意味よ
 title: Target で使用されている用語と定義はどこで確認できますか？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Multivariate Testing（MVT）では、ページ上の要素内のオファーの
 **閲覧ページ数**
 
 エンゲージメント指標で、訪問で閲覧されたページの数を、訪問者がアクティビティの最初の表示 mbox を見た場所から計測します。
+
+**ページビュー**
+
+ページビューとは、アプリ画面ビュー、アプリ画面の状態、モバイル Web ページ、ソーシャルネットワークページなど、インターネットサイトのモバイルアプリ、ブラウザーアプリ、電子メール、Web ページの単一ビューを指します。 ページビューは、Web ページが読み込まれたり、更新されたりするたびに発生します。また、ターゲットコンテンツがレンダリングまたは生成されたり、電子メールが開かれたり表示されたりすると、アプリケーションが読み込まれます。
 
 **優先度**
 
