@@ -1,12 +1,12 @@
 ---
 keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
-description: Adobe  [!DNL Target]  製品ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。
+description: 次の項目に重要な追加や変更を加え、最新の状態に保つ [!DNL Adobe Target] ドキュメント。
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3223'
+source-wordcount: '3238'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 20 日）</li></ul> |
 | 1 月 7 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 設定に関する情報を追加しました。 |

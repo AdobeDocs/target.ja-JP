@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 94%
 
 ---
 
@@ -15,20 +15,19 @@ ht-degree: 100%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2021年12月8日（PT））
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 20 日）
 
-* **2021年12月8日（水）（PT）**
+* **2022 年 1 月 19 日（水）**
 * **午前 8:00（米国太平洋標準時、UTC -8）**
-* **[詳細情報とユーザー登録](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=ja)**
+* **[詳細情報とユーザー登録](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Robert Calangiu 氏（[!DNL Adobe Target] シニアプロダクトマネージャー）が自身の専門分野に関する質問に答えます。
+Jon Tehero、グループプロダクトマネージャ [!DNL Adobe Target]は、の専門知識に関する質問に答えます。
 
-* [!DNL Target] 設定と管理 UI
-* [!UICONTROL Analytics for Target]（A4T）統合
-* [!DNL Adobe Audience Manager]（AEM）統合
-* 一般的な [!DNL Target] UI
+* [!DNL Adobe Target] ～との統合 [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] UI
+* 一般的な [!DNL Adobe Target] トピック
 
-## ウェビナー：Adobe Target のオンデバンス判定により、遅延なしのパーソナライズとテストを実現
+## ウェビナー： のオンデバンス判定により、遅延なしのパーソナライズとテストを実現[!DNL Adobe Target]
 
 マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
 
