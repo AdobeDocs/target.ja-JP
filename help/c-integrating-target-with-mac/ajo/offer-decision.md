@@ -4,7 +4,7 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このトピックで説明するオファー判定機能は、2022 年 1 月 13 日にリリースされ、 [!DNL Target Standard/Premium] 22.1.1 リリースです。
+>このトピックで現在ベータ版で説明されているオファー決定機能で、一部のお客様のみが利用できます。
 
 詳しくは、 [!DNL Adobe Journey Optimizer]を参照してください。 [Journey Optimizerの概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 内 *Journey Optimizer* ドキュメント。
 

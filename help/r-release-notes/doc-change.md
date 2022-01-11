@@ -4,9 +4,9 @@ description: 次の項目に重要な追加や変更を加え、最新の状態�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3228'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 96%
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 設定に関する情報を追加しました。 |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 次の節を追加しました。「機能使用状況データの収集。」 |
 |  | [使用するデータ [!DNL Target] 機械学習アルゴリズム](/help/c-activities/t-automated-personalization/ap-data.md) | 次を含むトピック全体を更新しました。<ul><li>新しいセクション：「機能をブロックする [!DNL Target] 機械学習アルゴリズム»</li><li>「システム名」の列と情報を複数のテーブルに追加しました。</li></ul> |
-| 1 月 7 日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.1.1 リリースです。 |
 | 12 月 18 日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 重要な属性レポートを表示する際の日付範囲に関する次の注意を追加しました。<ul><li>この [!DNL Target] 現在、UI では、45 日と 90 日の日付範囲を選択できます。 ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。 使用パターンと、パフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されます。15 日、30 日、60 日。</li></ul> |
 | 12 月7日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
 | 12 月 2 日（PT） | [レコメンデーションキーのレコメンデーションに基づく](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのアルゴリズムが新しくなり、レコメンデーションキーが mbox パラメーター cartIds を使用してコンマ区切り値で提供されるようになりました。最初の 10 個の値のみが考慮されます。 |
