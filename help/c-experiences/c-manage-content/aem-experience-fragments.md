@@ -1,31 +1,29 @@
 ---
 keywords: エクスペリエンス;json;AEM, Adobe Experience Manager;Adobe Target へのエクスポート;エクスペリエンスフラグメント;フラグメント;XF
-description: Adobe  [!DNL Target]  アクティビティで AEM エクスペリエンスフラグメントを使用する方法を説明します。AEM の使いやすさと機能を、 [!DNL Target] の強力な AI 機能および ML 機能と組み合わせます。
-title: Adobe Experience Manager（AEM）エクスペリエンスフラグメントの使用方法
+description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクスペリエンスフラグメント [!DNL Adobe Target] アクティビティ。
+title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: b4c64f3fbc266b86cfffa6e5526a074b76b8b6ee
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 78%
 
 ---
 
 # AEM エクスペリエンスフラグメント
 
-[!DNL Adobe Experience Manager]（AEM）で作成したエクスペリエンスフラグメントを [!DNL Target] アクティビティで使用して最適化やパーソナライズを支援する方法について説明します。
+で作成したエクスペリエンスフラグメントを使用する [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを活用して、最適化やパーソナライゼーションを支援します。
 
 >[!NOTE]
 >
->この機能を使用するには、[!DNL Adobe Experience Manager]（[!DNL AEM]）の顧客である必要があります。 詳しくは、以下の「[要件](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)」を参照してください。
+>この機能を使用するには、 [!DNL Adobe Experience Manager] (AEM) 顧客。 詳しくは、 [要件](#section_AE6F0971E1574B3AA324003599B96E5A) 下
 
-## 概要 {#section_95A91830530F493B81C5C9CDB9B783EA}
-
-[!DNL AEM] で作成したエクスペリエンスフラグメントを [!DNL Target] アクティビティで使用すると、[!DNL AEM] の使いやすさと機能を、[!DNL Target] の強力な自動インテリジェンス（AI）機能および機械学習（ML）機能と組み合わせて、エクスペリエンスを大規模にテストおよびパーソナライズできます。
+で作成したエクスペリエンスフラグメントを使用する [!DNL AEM] in [!DNL Target] 「 」アクティビティでは、使いやすさと優れた機能を組み合わせることができます。 [!DNL AEM] に強力な人工知能 (AI) と機械学習 (ML) 機能を搭載 [!DNL Target] 大規模にエクスペリエンスをテストし、パーソナライズする。
 
 [!DNL AEM] では、パーソナライゼーション戦略に生かせるよう、すべてのコンテンツとアセットが一元化されます。[!DNL AEM] では、コードを記述しなくても、デスクトップ、タブレット、モバイルデバイス向けのコンテンツを 1 か所で簡単に作成できます。デバイスごとにページを作成する必要はありません。 [!DNL AEM] は、コンテンツを使用して各エクスペリエンスを自動的に調整します。
 
-[!DNL Target] では、行動、コンテキスト、オフラインの変数を組み込んだルールベースの手法と AI 駆動の機械学習手法を組み合わせ、それを土台にしてパーソナライズされたエクスペリエンスを幅広く提供できます。[!DNL Target] では、[A/B テスト](/help/c-activities/t-test-ab/test-ab.md)および[多変量分析](/help/c-activities/c-multivariate-testing/multivariate-testing.md)（MVT）アクティビティを簡単に設定および実行して、最適なオファー、コンテンツおよびエクスペリエンスを決定できます。
+[!DNL Target] では、行動、コンテキスト、オフラインの変数を組み込んだルールベースの手法と AI 駆動の機械学習手法を組み合わせ、それを土台にしてパーソナライズされたエクスペリエンスを幅広く提供できます。を使用 [!DNL Target]を使用すると、簡単にセットアップして [A/B テスト](/help/c-activities/t-test-ab/test-ab.md) および [多変量分析](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) アクティビティを使用して最適なオファー、コンテンツ、エクスペリエンスを決定する。
 
 エクスペリエンスフラグメントは、コンテンツ／エクスペリエンスの作成者と管理者を、[!DNL Target] を使用してビジネス成果を高める最適化／パーソナライゼーションの専門家と連携させる大きな一歩になります。
 
@@ -33,10 +31,12 @@ ht-degree: 100%
 
 [!DNL Target] 内でエクスペリエンスフラグメント機能のプロビジョニングが行われている必要があります。また、適切なサービスパックが適用された [!DNL AEM] 6.3 か、[!DNL AEM] 6.4 以降を使用する必要があります。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
-* [!DNL Adobe Experience Manager] 6.4（またはそれ以降）
+* [!DNL Adobe Experience Manager] 6.5.
+* [!DNL Adobe Experience Manager] 6.4.
 * [!DNL Adobe Experience Manager] 6.3 SP2（またはそれ以降）
 * [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] アカウント
-* 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+
+統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 ## [!DNL AEM] でのエクスペリエンスフラグメントの作成と設定 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
@@ -48,16 +48,16 @@ ht-degree: 100%
 
 * **Adobe I/O**：_管理ユーザーガイド_&#x200B;ドキュメントの [Adobe I/O を使用した Adobe Target との統合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html?lang=ja)。
 * **[!DNL AEM]6.3**：_Adobe Experience Manager 6.3_ ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja)。
-* **[!DNL AEM]6.4**：_Adobe Experience Manager 6.4_ ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja)。
+* **[!DNL AEM]6.4**：_Adobe Experience Manager 6.4_ ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)。
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja)。
 
 ### 手順 2：エクスペリエンスフラグメントを作成する
 
 エクスペリエンスフラグメントは [!DNL AEM] で作成されます。詳しくは、次を参照してください。
 
-* **[!DNL AEM]6.3**：*Adobe Experience Manager 6.3* ドキュメントの[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja)。
+* **[!DNL AEM]6.3**：*Adobe Experience Manager 6.3* ドキュメントの[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=ja)。
-* **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの[エクスペリエンスフラグメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/authoring/using/experience-fragments.html)。
+* **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの[エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=ja)。
 
 ### 手順 3：エクスペリエンスフラグメントを [!DNL Target] と共有するように [!DNL AEM] を設定する
 
@@ -74,9 +74,9 @@ ht-degree: 100%
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **[!DNL AEM]6.3**：*Adobe Experience Manager 6.3* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://helpx.adobe.com/jp/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)。
+* **[!DNL AEM]6.3**：*Adobe Experience Manager 6.3* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja)。
-* **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)。
+* **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en)。
 
 ## [!DNL Target] アクティビティでのエクスペリエンスフラグメントの使用 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -84,11 +84,10 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。インポートされたエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間は今後短縮される予定です。
-
->[!IMPORTANT]
+>* [!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。インポートされたエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間は今後短縮される予定です。
 >
->エクスペリエンスフラグメントは現在、HTML オファーとして [!DNL Target] にインポートされます。エクスペリエンスフラグメントの「プライマリ」バージョンは [!DNL AEM] に残ります。[!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+>* エクスペリエンスフラグメントが [!DNL Target] をHTMLオファー そのエクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+
 
 リスト内のエクスペリエンスフラグメントにカーソルを合わせ、[!UICONTROL 表示]アイコン（![表示アイコン](assets/icon_info.png)）をクリックして、公開オファー配信 URL やその [!DNL AEM] パスなど、エクスペリエンスフラグメントに関する追加情報を表示できます。
 
@@ -96,7 +95,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Target] の AI および ML 機能を最大限に活用するには、A/B テストの作成時に[自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)（[自動割り当て](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)）を選択します。
+>を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) をクリックします。
 
 **VEC を使用してエクスペリエンスフラグメントを使用するには：**
 
@@ -106,7 +105,7 @@ ht-degree: 100%
    * [!UICONTROL 後ろに挿入]
    * [!UICONTROL エクスペリエンスフラグメントに置き換え]
 
-   「[!UICONTROL エクスペリエンスフラグメント]」リストには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったすべてのコンテンツが表示されます。
+   この [!UICONTROL エクスペリエンスフラグメント] リストには、 [!DNL AEM] 現在は、内からネイティブで利用可能です。 [!DNL Target].
 
    >[!NOTE]
    >
@@ -133,7 +132,7 @@ ht-degree: 100%
 
    ![](assets/experience_fragment_list.png)
 
-   「[!UICONTROL エクスペリエンスフラグメント]」リストには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったすべてのコンテンツが表示されます。
+   この [!UICONTROL エクスペリエンスフラグメント] リストには、 [!DNL AEM] 現在は、内からネイティブで利用可能です。 [!DNL Target].
 
 1. 対象のエクスペリエンスフラグメントを選択し、「**[!UICONTROL 保存]**」をクリックします。
 1. アクティビティの設定を終了します。
@@ -141,10 +140,10 @@ ht-degree: 100%
 ## 注意点 {#considerations}
 
 * [!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。インポートされたエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間は今後短縮される予定です。
-* エクスペリエンスフラグメントは現在、HTML オファーとして [!DNL Target] にインポートされます。エクスペリエンスフラグメントの「プライマリ」バージョンは [!DNL AEM] に残ります。[!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
-* Adobe IO を使用してエクスペリエンスフラグメントを作成することはできません。前述のとおり、AEM を使用してエクスペリエンスフラグメントを作成する必要があります。
+* エクスペリエンスフラグメントが [!DNL Target] をHTMLオファー エクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+* エクスペリエンスフラグメントを作成するには、 [!DNL Adobe I/O]. 前述のように、AEMを使用してエクスペリエンスフラグメントを作成します。
 
-## トレーニングビデオ：Adobe Target での AEM エクスペリエンスフラグメントの使用 ![チュートリアルバッジ](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
+## トレーニングビデオ：でのAEMエクスペリエンスフラグメントの使用 [!DNL Adobe Target]
 
 次のビデオでは、エクスペリエンスフラグメントの設定方法と使用方法を示します。
 
@@ -154,4 +153,4 @@ ht-degree: 100%
 >
 >4:54 で取り上げた [!DNL AEM] ディープリンク機能は削除されました。
 
-詳しくは、*AEM Sites のビデオとチュートリアル*&#x200B;ページの [Adobe Target でのエクスペリエンスフラグメントの使用](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja)を参照してください。
+詳しくは、 [Adobe Targetでのエクスペリエンスフラグメントの使用](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja) の *AEM SitesのビデオとTutorials* ページ。
