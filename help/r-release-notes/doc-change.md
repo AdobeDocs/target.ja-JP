@@ -4,9 +4,9 @@ description: 次の項目に重要な追加や変更を加え、最新の状態�
 title: Target のドキュメントの更新点はどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3266'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1 月 19 日 | [at.js 1.*x* から at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) へのアップグレード | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。* parameters&quot; |
 | 1 月 13 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 実装手順を含むチュートリアルへのリンクを追加しました。 [!DNL Adobe Experience Cloud] Web SDK を使用します。 |
 | 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 20 日）</li></ul> |
 | 1 月 7 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
