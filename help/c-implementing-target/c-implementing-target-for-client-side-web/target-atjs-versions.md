@@ -5,10 +5,10 @@ title: at.js の各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4318'
-ht-degree: 88%
+source-wordcount: '4357'
+ht-degree: 87%
 
 ---
 
@@ -31,6 +31,13 @@ ht-degree: 88%
 このリリースで強化された機能は次のとおりです。
 
 * [Web コンポーネント](https://developer.mozilla.org/ja/docs/Web/Web_Components)のサポートを追加しました。このバージョンの at.js は、カスタム要素およびカスタム要素内の要素に対して、パーソナライズされたエクスペリエンスとオファーを作成し、テストするために必要です。この機能は、[!DNL Target Standard/Premium] 21.10.5 リリースに含まれています。
+
+## at.js 1.8.3（2021 年 9 月 22 日） {#183}
+
+このリリースには、次の変更が含まれています。
+
+* 削除された `reactor-window` および `reactor-document` [!DNL Adobe Experience Platform Launch] モジュールを使用して、 [!DNL Platform Launch] 次を持つお客様に対して正しく機能を構築 `window.default` または `document-default` 設定します。
+* at.js 1.8.3 で明示的な設定が可能に `Samesite=None` および `Secure` を設定して、サードパーティドメイン cookie が正しく設定されていることを確認します。
 
 ## at.js 2.6.1（2021 年 8 月 16 日）
 
