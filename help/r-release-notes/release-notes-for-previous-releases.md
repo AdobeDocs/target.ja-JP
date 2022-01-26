@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 >[!NOTE]
 >
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
+
+## リリースノート - 2022 年
+
+### [!DNL Target Standard/Premium] 22.1.2（2022 年 1 月 13 日）
+
+| 機能 | 詳細 |
+| --- | --- |
+| でのオファーの決定の使用 [!DNL Target] アクティビティ | これで、 [!DNL Adobe Journey Optimizer] 決定を下す [!DNL Adobe Target] A/B テストおよびエクスペリエンスのターゲット設定 (XT) アクティビティを使用して、Web およびモバイルで訪問者に次に最適なオファーを決定し、配信します。<br>**注意**:この機能は、で使用できます。 [!DNL Target] アクセス権を持つ顧客 [!DNL Offer Decisioning] およびが [!DNL Target] Adobe Experience Platform Web SDK に基づく実装。<br>詳しくは、 [オファーの決定を使用](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## リリースノート - 2021 年
 
@@ -37,7 +45,7 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 | --- | --- |
 | [!UICONTROL Visual Experience Composer]（VEC） | [Web コンポーネント](https://developer.mozilla.org/en-US/docs/Web/Web_Components)のサポートを追加しました。パーソナライズされたエクスペリエンスとオファーを、カスタム要素およびカスタム要素内の要素に対して作成し、テストできます。<br>詳しくは、「[Visual Experience Composer オプション](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)」を参照してください。 |
 
-## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日（PT））
+### [!DNL Target Standard/Premium] 21.10.4（2021年10月21日（PT））
 
 このメンテナンスリリースで強化された機能は次のとおりです。
 

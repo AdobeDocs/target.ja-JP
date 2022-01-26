@@ -4,9 +4,9 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 用途 [!DNL Adobe Target] と [!DNL Adobe Journey Optimizer] web およびモバイルでの訪問者に対し、次に最適なオファーを決定して配信するためのオファーの決定。
 
 で作成したオファーの決定を追加 [!DNL Adobe Journey Optimizer] から [!DNL Target] アクティビティ（手動） [!UICONTROL A/B テスト] または [!UICONTROL エクスペリエンスのターゲット設定]) を [!UICONTROL Visual Experience Composer] (VEC) または [!UICONTROL フォームベースのコンポーザー] を使用して、パーソナライズされたオファーをインバウンドチャネルで訪問者にテストし配信する [!DNL Target].
-
->[!NOTE]
->
->このトピックで現在ベータ版で説明されているオファー決定機能で、一部のお客様のみが利用できます。
 
 詳しくは、 [!DNL Adobe Journey Optimizer]を参照してください。 [Journey Optimizerの概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 内 *Journey Optimizer* ドキュメント。
 

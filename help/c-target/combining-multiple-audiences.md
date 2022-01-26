@@ -4,10 +4,10 @@ description: 複数のオーディエンス (Adobe Experience Cloudのオーデ�
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成することはできますか？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 72%
+source-wordcount: '937'
+ht-degree: 71%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 72%
 >[!NOTE]
 >
 >この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] は、このトピックで説明するように、そのまま使用することも、既存のオーディエンスと組み合わせて使用することもできます )。
+>
+>詳しくは、 [Adobe Experience Platformのオーディエンスを使用](/help/c-target/c-audiences/audiences.md#aep).
 
 「新規訪問者」オーディエンスと「Chrome ユーザー」オーディエンスがあるとします。特定のアクティビティについて、これらの既存のオーディエンスを結合して、Chrome ブラウザーを使用する新規訪問者をターゲティングします。第 3 オーディエンスを作成して[!UICONTROL オーディエンス]ライブラリに保存する代わりに、これらの 2 つのオーディエンスをアクティビティの作成時または既存のアクティビティの編集時に結合することができます。
 

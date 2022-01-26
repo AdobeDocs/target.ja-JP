@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 30%
+source-wordcount: '1044'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 30%
    >
    >この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] そのまま、またはとして使用できます [既存のオーディエンスとの組み合わせ](/help/c-target/combining-multiple-audiences.md).
    >
-   >ユーザーが [!UICONTROL 承認者] または [!DNL Target] 設定する [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-Time Customer Data Platform]) をクリックします。
+   >ユーザーが [!UICONTROL 承認者] または [!DNL Target] 設定する [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-time Customer Data Platform]) をクリックします。
+   >
+   >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](#aep).
 
 事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、&quot;の名前は変更できません。
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## 次のオーディエンスを使用： [!DNL Adobe Experience Platform] {#aep}
+
+で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP)、 [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
+
+接続により [!DNL Target] から [!DNL Real-time Customer Data Platform]では、以前にアクセスできなかった新しいセグメントをロック解除して、Web パーソナライゼーションを強化できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
+
+詳しくは、次のトピックを参照してください。
+
+* [宛先のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} *宛先の概要* ガイド
+* [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *宛先の概要* ガイド
+* [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+次の表に、様々な実装シナリオから発生するイベントのセグメント評価時間を示します。
+
+| シナリオ | エッジセグメント（ミリ秒評価） | ストリーミングセグメント（分単位の評価） | バッチセグメント評価 |
+| --- | --- | --- | --- |
+| Adobe Experience Platform SDK からのイベント/データ | ○ | ○ | 該当なし |
+| at.js からのイベント | × | ○ | 該当なし |
+| Target Mobile SDK からのイベント | × | ○ | 該当なし |
+| バッチアップロードからのイベント | × | × | ○ |
+| オフラインデータ（ストリーム）からのイベント | × | ○ | ○ |
 
 ## トレーニングビデオ：オーディエンスの使用 ![チュートリアルバッジ](/help/assets/tutorial.png)
 
