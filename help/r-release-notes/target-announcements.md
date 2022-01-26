@@ -5,9 +5,9 @@ title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 94%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 20 日）
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022年1月19日（PT））
 
-* **2022 年 1 月 19 日（水）**
+* **2022年1月19日（水）（PT）**
 * **午前 8:00（米国太平洋標準時、UTC -8）**
 * **[詳細情報とユーザー登録](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero、グループプロダクトマネージャ [!DNL Adobe Target]は、の専門知識に関する質問に答えます。
+Jon Tehero 氏（[!DNL Adobe Target] グループプロダクトマネージャー）が自身の専門分野に関する質問に答えます。
 
-* [!DNL Adobe Target] ～との統合 [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target][!DNL Adobe Journey Optimizer]（AJO）との統合
 * [!DNL Adobe Target] UI
-* 一般的な [!DNL Adobe Target] トピック
+* [!DNL Adobe Target] に関する一般的なトピック
 
-## ウェビナー： のオンデバンス判定により、遅延なしのパーソナライズとテストを実現[!DNL Adobe Target]
+## ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
 
 マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
 
