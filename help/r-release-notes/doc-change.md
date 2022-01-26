@@ -1,13 +1,13 @@
 ---
 keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
-description: 次の項目に重要な追加や変更を加え、最新の状態に保つ [!DNL Adobe Target] ドキュメント。
-title: Target のドキュメントの更新点はどこで確認できますか？
+description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。'
+title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 97%
 | --- | --- | --- |
 | 1 月 21 日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 リリースに関する情報を追加しました。 |
 | 1 月 19 日 | [at.js 1.*x* から at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) へのアップグレード | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。* parameters&quot; |
-| 1 月 13 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 実装手順を含むチュートリアルへのリンクを追加しました。 [!DNL Adobe Experience Cloud] Web SDK を使用します。 |
-| 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 20 日）</li></ul> |
-| 1 月 7 日 | [ リリースノート ](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
+| 1月12日（PT） | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |
+| 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022年1月19日（PT））</li></ul> |
+| 1月7日（PT） | [リリースノート](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 設定に関する情報を追加しました。 |
-|  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 次の節を追加しました。「機能使用状況データの収集。」 |
-|  | [使用するデータ [!DNL Target] 機械学習アルゴリズム](/help/c-activities/t-automated-personalization/ap-data.md) | 次を含むトピック全体を更新しました。<ul><li>新しいセクション：「機能をブロックする [!DNL Target] 機械学習アルゴリズム»</li><li>「システム名」の列と情報を複数のテーブルに追加しました。</li></ul> |
+|  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 「機能使用データの収集」の節を追加しました。 |
+|  | [ [!DNL Target] 機械学習アルゴリズム](/help/c-activities/t-automated-personalization/ap-data.md)で使用するデータ | 以下を含むトピック全体を更新しました。<ul><li>新しい節：「[!DNL Target] 機械学習アルゴリズムのブロック機能」 </li><li>「システム名」列と情報を複数のテーブルに追加しました。</li></ul> |
 | 12月17日 | [重要な属性レポート](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 重要な属性レポートを表示する際の日付範囲について、次の注記を追加しました。<ul><li>[!DNL Target] UI では現在、45 日および 90 日の日付範囲を選択できます。ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。 使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。 UI は、現在許可されている範囲（15 日、30 日および 60 日）を反映するように更新されます。</li></ul> |
 | 12 月7日（PT） | [Target のレコメンデーションアルゴリズムの背後にある科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新規トピックです。 |
 | 12 月 2 日（PT） | [レコメンデーションキーのレコメンデーションに基づく](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 買い物かごベースのアルゴリズムが新しくなり、レコメンデーションキーが mbox パラメーター cartIds を使用してコンマ区切り値で提供されるようになりました。最初の 10 個の値のみが考慮されます。 |
@@ -149,7 +149,7 @@ ht-degree: 97%
 | 6 月 1 日 | [CNAME と [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 以下の FAQ を追加しました。<ul><li>CNAME でのオプトアウトリンクの使用方法</li></ul> |
 |  | [プライバシー](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | オプトアウトリンクを CNAME で使用する方法について説明するために、「オプトアウトリンク」の節を更新しました。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK] に関する情報を追加しました。 |
-|  | [ Analytics for  [!DNL Target]  の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] 実装の手順</li></ul> |
+|  | [ Analytics for [!DNL Target] の実装](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 次の新しいセクションを追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] 実装の手順</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | A4T と Platform Web SDK でのリダイレクトオファーの使用に関する情報を追加しました。 |
 |  | [レスポンストークン](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK] での応答トークンの使用に関する情報を追加しました。<br>**注意**：この機能は、Platform Web SDK の今後のリリースで公開される予定です（日付は未定）。 |
 |  | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0（2021 年 6 月 1 日）リリースに関する情報を追加しました。 |
