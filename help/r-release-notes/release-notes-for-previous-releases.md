@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
+source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
-source-wordcount: '32655'
+source-wordcount: '32598'
 ht-degree: 99%
 
 ---
@@ -23,11 +23,9 @@ Target Standard／Premium、Target プラットフォーム および Target Jav
 
 ## リリースノート - 2022 年
 
-### [!DNL Target Standard/Premium] 22.1.2（2022 年 1 月 13 日）
+### [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 13 日）
 
-| 機能 | 詳細 |
-| --- | --- |
-| でのオファーの決定の使用 [!DNL Target] アクティビティ | これで、 [!DNL Adobe Journey Optimizer] 決定を下す [!DNL Adobe Target] A/B テストおよびエクスペリエンスのターゲット設定 (XT) アクティビティを使用して、Web およびモバイルで訪問者に次に最適なオファーを決定し、配信します。<br>**注意**:この機能は、で使用できます。 [!DNL Target] アクセス権を持つ顧客 [!DNL Offer Decisioning] およびが [!DNL Target] Adobe Experience Platform Web SDK に基づく実装。<br>詳しくは、 [オファーの決定を使用](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
+このリリースには、今後の統合に必要なバグ修正と前提条件機能が含まれています。
 
 ## リリースノート - 2021 年
 
