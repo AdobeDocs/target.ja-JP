@@ -4,9 +4,9 @@ breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
 source-git-commit: 89adab57c2f84d6d92056c9c445ca3102f181f38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 99%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Journey Optimizerの統合 {#ajo}
+   + Target と Adobe Journey Optimizer の統合 {#ajo}
       + [オファーの決定を使用](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md)
    + [Target と Adobe Audience Manager の統合](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
