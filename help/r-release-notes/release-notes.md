@@ -6,9 +6,9 @@ title: 現在のリリースに含まれる新機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 96%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
 
-## at.js バージョン 2.8.0（2022 年 1 月 8 日）
+## at.js バージョン 2.8.0（2022年1月7日（PT））
 
-この [!DNL Target] at.js JavaScript ライブラリが機能使用状況およびパフォーマンスのテレメトリデータを収集するようになりました。 個人データは収集されません。 この機能のオプトアウトは、次の設定で使用できます。 `telemetryEnabled` 偽りを言う `targetGlobalSettings`. 詳しくは、 [targetGlobalSettings で telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+[!DNL Target] at.js JavaScript ライブラリは、機能の使用状況とパフォーマンスのテレメトリデータを収集するようになりました。個人データは収集されません。 この機能をオプトアウトするには、`targetGlobalSettings` で `telemetryEnabled` を false に設定します。詳しくは、[targetGlobalSettings の telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) を参照してください。
 
 ## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日（PT））
 
