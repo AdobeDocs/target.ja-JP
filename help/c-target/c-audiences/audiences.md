@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
+source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 25%
+source-wordcount: '1105'
+ht-degree: 24%
 
 ---
 
@@ -107,9 +107,20 @@ Keep the following points in mind as you work with imported audiences:
 
 ## 次のオーディエンスを使用： [!DNL Adobe Experience Platform] {#aep}
 
-で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP)、 [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
+で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP)。 [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
 接続により [!DNL Target] から [!DNL Real-time Customer Data Platform]では、以前にアクセスできなかった新しいセグメントをロック解除して、Web パーソナライゼーションを強化できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
+
+この統合により、RTCDP での主な使用例のロックが解除されます。
+
+* 同じページ/次のヒットのパーソナライゼーション
+* 初回/不明なユーザーのパーソナライゼーション
+
+主な特長は次のとおりです。
+
+* RTCDP/との直接 Target 統合[!DNL Adobe Experience Platform] Edge 上 ( [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations カード] ガバナンスの執行を受けて
+* 統合プロファイルを使用したエッジセグメント化とエッジプロファイル
 
 詳しくは、次のトピックを参照してください。
 
@@ -117,6 +128,12 @@ Keep the following points in mind as you work with imported audiences:
 * [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} *宛先の概要* ガイド
 * [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *宛先の概要* ガイド
 * [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+### Adobe Targetのブログとビデオ：
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+
+### 追加情報
 
 次の表に、様々な実装シナリオから発生するイベントのセグメント評価時間を示します。
 
