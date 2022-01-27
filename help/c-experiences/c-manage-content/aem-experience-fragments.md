@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 61%
+source-wordcount: '1171'
+ht-degree: 60%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 61%
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEMas a Cloud Service**:
+* **AEMas a Cloud Service**: [エクスペリエンスフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
 * **[!DNL AEM]6.5**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* ドキュメント。
 * **[!DNL AEM]6.4**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank} *Adobe Experience Manager 6.4* ドキュメント。
 

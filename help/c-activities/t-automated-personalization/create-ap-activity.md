@@ -1,40 +1,39 @@
 ---
-keywords: 自動パーソナライゼーション；ap;オーディエンス；アンサンブル；ランダムフォレスト；残差分散；誤差分散；ライフタイム値
-description: Visual Experience Composer(VEC)を使用して、Adobe [!DNL Target] でAutomated Personalization(AP)アクティビティを作成する方法を説明します。
-title: Automated Personalizationアクティビティの作成方法
-feature: 自動パーソナライゼーション
+keywords: 自動パーソナライゼーション；ap；オーディエンス；アンサンブル；ランダムフォレスト；残差分散；誤差分散；全期間値
+description: 以下を作成する方法を説明します。 [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] Visual Experience Composer を使用する。
+title: 方法 [!UICONTROL Automated Personalization] 活動？
+feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2048'
 ht-degree: 91%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png)自動パーソナライゼーションアクティビティの作成
 
-[!DNL Adobe Target]の[!UICONTROL Automated Personalization] (AP)アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
+この [!UICONTROL Automated Personalization] (AP) でのアクティビティワークフロー [!DNL Adobe Target] は、他のアクティビティタイプのワークフローとは異なります。
 
-1. [!DNL Target] [!UICONTROL アクティビティ]リストから、**[!UICONTROL アクティビティを作成]**/**[!UICONTROL Automated Personalization]**&#x200B;をクリックします。
+1. 次の [!DNL Target] [!UICONTROL アクティビティ] リスト、クリック **[!UICONTROL アクティビティを作成]** > **[!UICONTROL Automated Personalization]**.
 
    ![アクティビティを作成：自動パーソナライゼーション](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. [!UICONTROL Visual Experience Composer](VEC)を使用するには、「**[!UICONTROL ビジュアル（デフォルト）]**」をクリックします。
+1. 次の手順で [!UICONTROL Visual Experience Composer] (VEC)、 **[!UICONTROL ビジュアル（デフォルト）]**.
 
    ![自動パーソナライゼーションアクティビティを作成ダイアログボックス](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   [!UICONTROL フォームベースのExperience Composer]を使用する場合は、「[!UICONTROL フォーム]」を選択します。 詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
+   を使用したい場合は、 [!UICONTROL フォームベースの Experience Composer]を選択します。 [!UICONTROL フォーム]. 詳しくは、[フォームベースの Experience Composer](/help/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >VECと[!UICONTROL フォームベースのExperience Composer]に加えて、[!DNL Target]には、[!UICONTROL 単一ページアプリのVEC]とモバイルアプリのVECをオファーします。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
+   >VEC および [!UICONTROL フォームベースの Experience Composer], [!DNL Target] オファー [!UICONTROL シングルページアプリケーション VEC] モバイルアプリ用の VEC と 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
    >前述の図の「[!UICONTROL ワークスペースを選択]」オプションは、[Target Premium](/help/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
 
-1. （条件付き）[!DNL Target] Premiumのお客様の場合は、[ワークスペース](/help/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
+1. （条件付き） [!DNL Target] Premium のお客様 [ワークスペースの選択](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. アクティビティ URL を確認または入力してから、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -44,7 +43,7 @@ ht-degree: 91%
 
    指定された URL のページが Visual Experience Composer で開きます。
 
-1. アクティビティに名前を付けるには、[**[!UICONTROL 名前]**]フィールドをクリックし、アクティビティ名を入力します。
+1. アクティビティに名前を付けるには、 **[!UICONTROL 名前]** フィールドにアクティビティ名を入力します。
 
    ![「名前」フィールド](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
@@ -142,7 +141,7 @@ ht-degree: 91%
    |--- |--- |
    | 名前 | アクティビティの名前を設定します。チームメンバーがアクティビティリストでアクティビティを認識できるように、十分にわかりやすい名前を付けます。上記の表を参照して、アクティビティ名で許可されていない文字を確認してください。 |
    | 目的 | （オプション）テストの目的を入力します。目的を設定しておくと、アクティビティの用途を覚えやすくなります。 |
-   | 優先度 | 優先度の UI とオプションは、設定によって変わります。従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。<br>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<br>このオプションが [!UICONTROL 管理] / [!UICONTROL レポート] （デフォルト）で有効になっていない場合は、次の優先度を指定します。低、中、高。<br>優先度の細かい設定を有効にするには、 [!UICONTROL 管理] / [!UICONTROL レポートをクリックし]、「詳細な  優先度を有効にする」オプションを「オン」の位置に切り替えます。<br>このオプションを有効にした場合は、0～999 の値を指定します。<ul><li>0 = 低</li><li>999 = 高</li></ul>Target Standard/Premium の以前のバージョンで作成されたアクティビティについては、低の優先度は 0 に、中は 5 に、高は 10 に変換されます。これらの値は必要に応じて調整できます。<br>**注意**： 優先度の詳細設定を使用した後でこのオプションを無効にするには、すべての優先度を 0、5、10 に戻す必要があります。 |
+   | 優先度 | 優先度の UI とオプションは、設定によって変わります。従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。<br>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<br>このオプションが [!UICONTROL 管理] > [!UICONTROL レポート] （デフォルト）次の優先度を指定します。「低」、「中」、「高」のいずれか。<br>優先度の詳細設定を有効にするには、 [!UICONTROL 管理] > [!UICONTROL レポート]、次に [!UICONTROL 詳細な優先度の有効化] オプションを「オン」位置に設定します。<br>このオプションを有効にした場合は、0～999 の値を指定します。<ul><li>0 = 低</li><li>999 = 高</li></ul>Target Standard/Premium の以前のバージョンで作成されたアクティビティについては、低の優先度は 0 に、中は 5 に、高は 10 に変換されます。これらの値は必要に応じて調整できます。<br>**注意**： 優先度の詳細設定を使用した後でこのオプションを無効にするには、すべての優先度を 0、5、10 に戻す必要があります。 |
    | 期間 | アクティビティの開始日と終了日を設定します。 |
    | 最適化目標 | 以下の 2 つのパラメーターを使用して最適化目標を指定します。<ul><li>このアクティビティで測定するもの</li><li>その目標が達成されたことを示すアクティビティ参加者によって取られるアクション。</li></ul>主な目標の右側にある 3 ドットメニューをクリックし、最適化目標に名前を付けることもできます。自動パーソナライゼーションのアクティビティは、コンバージョン、RPV および AOV を測定します。コンバージョンは、ページまたは mbox が表示されると達成されます。クリックを追跡することもできます。<br>また、主な目標はモデリング指標になり、モデリングシステムによってエクスペリエンスの成功を計算するために使用されます。<br>モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができます。例えば、自動パーソナライゼーションアクティビティは、多くの場合、クリック率の向上を目的に使用され、クリック率がモデリング目標として設定されます。しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。<br>複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。<br>成功指標の依存関係を設定する前に、両方（または複数）の成功指標を定義する必要があります。<br>「依存関係を追加」オプションを利用すると、ある成功指標に到達した場合、または到達しなかった場合に別の成功指標を増分するよう設定できます。<br>依存関係を追加する手順は次のとおりです。<ol><li>指標を追加したら、追加の目標の右側にある 3 ドットメニューで「[!UICONTROL 詳細設定]」をクリックします。</li><li>「[!UICONTROL レポート設定]」セクションの下部にある「[!UICONTROL 依存関係を追加]」オプションをクリックします。</li><li>目的の指標を左側のパネルから右側のパネルにドラッグ＆ドロップしてから、「[!UICONTROL 到達]」をクリックし、「[!UICONTROL 到達]」と「[!UICONTROL 未到達]」を切り替えて設定します。</li></ol>追加した依存関係は後で編集または削除できます。 |
    | コンバージョン指標 | デフォルトでは、コンバージョン指標は最適化目標指標と同じです。ただし、「[!UICONTROL 最適化目標と同じ]」オプションをオフにすれば、個別のコンバージョン指標を定義できます。 |

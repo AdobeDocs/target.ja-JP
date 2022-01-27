@@ -5,7 +5,7 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 73%
@@ -23,8 +23,8 @@ ht-degree: 73%
 | 機能 | 詳細 |
 | --- | --- |
 | [!DNL Adobe Experience Platform] オーディエンス [!DNL Target] | 使用して、 [!DNL Adobe Experience Platform] オーディエンス [!DNL Target]. この [!DNL Target] チーム [!DNL Experience Platform] [!DNL Destinations] チームと [!DNL Unified Profile Service] チームは、「同じページ/次のページのパーソナライゼーション」の使用例の一般リリースについてお知らせします。<br>で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP)、 [!DNL Adobe Experience Platform] は、企業が複数のエンタープライズソースから既知の匿名データを統合し、すべてのチャネルとデバイスにわたってリアルタイムにパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成するのに役立ちます。<br>詳しくは、 [Adobe Experience Platformのオーディエンスを使用](/help/c-target/c-audiences/audiences.md#aep) in *オーディエンスの作成*.<br>必ずAdobeのブログを読み、ビデオを見てください。 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}。 |
-| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li><li>のワークスペース間でオーディエンスを移動する機能 [!DNL Target Premium] 顧客。</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:この機能は、今後 6 週間以内に各地域のお客様に提供される予定です。 |
-| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**:この機能は、今後 6 週間以内に各地域のお客様に提供される予定です。 |
+| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li><li>のワークスペース間でオーディエンスを移動する機能 [!DNL Target Premium] 顧客。</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:この機能は、今後 8 週間以内に様々な地域のお客様に提供される予定です。 |
+| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**:この機能は、今後 8 週間以内に様々な地域のお客様に提供される予定です。 |
 
 ## [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 13 日）
 
