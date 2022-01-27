@@ -1,12 +1,12 @@
 ---
 keywords: 環境データ、セッションデータ、地理データ、地理データ、デバイスデータ、モバイルデータ、属性、プロファイル属性、パーソナライゼーションアルゴリズム、機械学習アルゴリズム、機械学習アルゴリズム
-description: データAdobe [!DNL Target] を収集し、を使用してで機械学習アルゴリズムを構築します。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ
+description: データAdobe [!DNL Target] はを収集し、を使用して機械学習アルゴリズムを構築します。
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2077'
 ht-degree: 51%
 
 ---
