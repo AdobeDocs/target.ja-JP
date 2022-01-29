@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3349'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1月28日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
 | 1 月 27 日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、 [!DNL AEM as a Cloud Service] および [!DNL Adobe I/0]. |
 | 1 月 26 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.2 リリースについての情報を追加しました。 |
 |  | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md) | 次に関する情報を追加しました： [!DNL Adobe Experience Platform] オーディエンス。 |

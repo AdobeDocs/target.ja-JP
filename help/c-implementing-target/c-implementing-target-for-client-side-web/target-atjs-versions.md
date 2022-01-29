@@ -5,10 +5,10 @@ title: at.js の各バージョンには何が含まれますか。
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
-ht-degree: 87%
+source-wordcount: '4390'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,15 @@ ht-degree: 87%
 >
 >タグ [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) は、at.js をアップグレードするための推奨される方法です。 拡張機能開発者は、拡張機能に新しい機能を継続的に追加し、頻繁にバグを修正します。 これらのアップデートは、拡張機能の新しいバージョンにパッケージ化され、 [!DNL Adobe Experience Platform] アップグレードとしてのカタログ 詳しくは、 [拡張機能のアップグレード](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 内 *タグの概要* ガイド。
 
-## at.js バージョン 2.8.0（2022 年 1 月 8 日）
+## at.js バージョン 2.8.1（2022年1月28日（PT））
 
-この [!DNL Target] at.js JavaScript ライブラリが機能使用状況およびパフォーマンスのテレメトリデータを収集するようになりました。 個人データは収集されません。 この機能のオプトアウトは、次の設定で使用できます。 `telemetryEnabled` 偽りを言う `targetGlobalSettings`. 詳しくは、 [targetGlobalSettings で telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+* 固定 `pageLoad` の target-global-mbox にマッピングされていません [!UICONTROL デバイス判定時] (ODD) ハイブリッド実行モード。
+* mbox リクエストの分析の詳細に関する問題を修正しました。
+* 開発依存関係をアップグレードし、セキュリティの脆弱性を修正しました。
+
+## at.js バージョン 2.8.0（2022年1月7日（PT））
+
+[!DNL Target] at.js JavaScript ライブラリは、機能の使用状況とパフォーマンスのテレメトリデータを収集するようになりました。個人データは収集されません。 この機能をオプトアウトするには、`targetGlobalSettings` で `telemetryEnabled` を false に設定します。詳しくは、[targetGlobalSettings の telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) を参照してください。
 
 ## at.js バージョン 2.7.0（2021年10月28日（PT））
 
