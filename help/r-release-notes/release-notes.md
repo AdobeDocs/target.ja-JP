@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれる機能
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 70%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用されます。）
+
+## Target Standard／Premium 22.2.1（2022 年 2 月 1 日） 
+
+このメンテナンスリリースには、新機能に対する次の修正および機能強化が含まれています [!UICONTROL オーディエンス] Target Standard/Premium 22.1.2 リリースで発表された UI で、今後 6 週間以内にすべての地域のお客様に公開されます。 これらの修正により、 [!DNL Adobe Target Standard/Premium].
+
+* インポートしたオーディエンスが [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]、および [!DNL Adobe Target Classic] がレポート用オーディエンスとして割り当てられなくなりました。 （TGT-43140）
+* 追加された [!UICONTROL 削除] オプション [!UICONTROL オーディエンス] 次のインポート済みオーディエンスのリスト： [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]、および [!DNL Adobe Target Classic]. また、一括削除機能も追加されました。 （TGT-42914）
 
 ## at.js バージョン 2.8.1（2022年1月28日（PT））
 
@@ -31,14 +38,6 @@ ht-degree: 70%
 | [!DNL Adobe Experience Platform] オーディエンス [!DNL Target] | 使用して、 [!DNL Adobe Experience Platform] オーディエンス [!DNL Target]. この [!DNL Target] チーム [!DNL Experience Platform] [!DNL Destinations] チームと [!DNL Unified Profile Service] チームは、「同じページ/次のページのパーソナライゼーション」の使用例の一般リリースについてお知らせします。<br>で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP)、 [!DNL Adobe Experience Platform] は、企業が複数のエンタープライズソースから既知の匿名データを統合し、すべてのチャネルとデバイスにわたってリアルタイムにパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成するのに役立ちます。<br>詳しくは、 [Adobe Experience Platformのオーディエンスを使用](/help/c-target/c-audiences/audiences.md#aep) in *オーディエンスの作成*.<br>必ずAdobeのブログを読み、ビデオを見てください。 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}。 |
 | [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li><li>のワークスペース間でオーディエンスを移動する機能 [!DNL Target Premium] 顧客。</li></ul>詳しくは、[オーディエンス](/help/c-target/target.md)を参照してください。<br>**注意**:この機能は、今後 8 週間以内に様々な地域のお客様に提供される予定です。 |
 | [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**:この機能は、今後 8 週間以内に様々な地域のお客様に提供される予定です。 |
-
-## [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 13 日）
-
-このリリースには、今後の統合に必要なバグ修正と前提条件機能が含まれています。
-
-## at.js バージョン 2.8.0（2022年1月7日（PT））
-
-[!DNL Target] at.js JavaScript ライブラリは、機能の使用状況とパフォーマンスのテレメトリデータを収集するようになりました。個人データは収集されません。 この機能をオプトアウトするには、`targetGlobalSettings` で `telemetryEnabled` を false に設定します。詳しくは、[targetGlobalSettings の telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) を参照してください。
 
 ## その他のリリースノートとバージョンの詳細
 
