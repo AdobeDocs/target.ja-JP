@@ -4,10 +4,10 @@ description: ページに期待した内容が表示されない場合は、問�
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ mboxDebug を使用するには、URL の末尾に mboxDebug パラメーター�
 | URL パラメーター | 目的 |
 |--- |--- |
 | `mboxDebug=1` | デバッガー<br>Target リクエストが定義された任意の URL にこのパラメーターを追加すると、ポップアップウィンドウが開き、有用なデバッグ詳細情報が表示されます。Cookie 情報、PCID およびセッション ID の値が記述され、 URL がすべて表示されます。Targe リクエストの URL をクリックすると、その [!DNL Target] リクエストに対する応答を表示できます。詳しくは、[mbox_debug.pdf](/help/assets/mbox_debug.pdf) を参照してください。 |
-| `mboxDebug=x-cookie` | cookie の変更 |
 | `mboxDisable=1` | ページ上の mbox を無効化 |
-| `mboxDebug=x-profile` | プロファイルセットを表示 |
-| `mboxDebug=x-time` | 各 [!DNL Target] リクエストに対する応答時間を表示します |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting のテスト<br>Geotargeting をこの URL パラメーターでテストします。この属性の値に IP アドレスを入力すると、Test&amp;Target のジオターゲティングがこの IP アドレスを評価し、キャンペーン内のジオターゲティングまたはセグメント化セットに一致させます。 |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 このシナリオでは、URL を `https://shopping.mycart.com?type=Summers%20Offers`、追加のテンプレートルールで「[!UICONTROL クエリ]」を[!UICONTROL タイプ] > [!UICONTROL 次と等しい (大文字と小文字を区別)] > type=Summers%20Offers とし、OR 演算子で区切ります。
 
 ![URL の特定の部分を活用するテンプレートルール](assets/option3.png)
+
+## での二重引用符のエスケープ [!DNL Target] プロファイル属性値が期待どおりに動作しません。 {#escape}
+
+ダブルコーテーションを含む値を [!DNL Target] プロファイル属性を使用する場合は、次に示すようにダブルエスケープする必要があります。
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## トレーニングビデオ
 
