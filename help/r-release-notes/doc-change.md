@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3378'
+ht-degree: 99%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 0%
 | 1 月 26 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.2 リリースについての情報を追加しました。 |
 |  | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md) | 次に関する情報を追加しました： [!DNL Adobe Experience Platform] オーディエンス。 |
 |  | [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md) | 次に関する情報を追加しました： [!DNL Adobe Experience Platform] オーディエンス。 |
-| 1 月 21 日 | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 リリースに関する情報を追加しました。 |
-| 1 月 19 日 | [at.js 1.*x* から at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) へのアップグレード | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。* parameters&quot; |
+| 1月21日（PT） | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 リリースに関する情報を追加しました。 |
+| 1月19日（PT） | [at.js 1.*x* から at.js 2.*x へのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
 | 1月12日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.1 リリースについての情報を追加しました。 |
 |  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |
 
