@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 24%
+source-wordcount: '1186'
+ht-degree: 22%
 
 ---
 
@@ -125,13 +125,10 @@ Keep the following points in mind as you work with imported audiences:
 詳しくは、次のトピックを参照してください。
 
 * [宛先のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} *宛先の概要* ガイド
 * [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *宛先の概要* ガイド
 * [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
-
-### Adobe Targetのブログとビデオ：
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ### 追加情報
 
@@ -144,6 +141,18 @@ Keep the following points in mind as you work with imported audiences:
 | Target Mobile SDK からのイベント | × | ○ | 該当なし |
 | バッチアップロードからのイベント | × | × | ○ |
 | オフラインデータ（ストリーム）からのイベント | × | ○ | ○ |
+
+### ビデオ：リアルタイム CDP と [!DNL Adobe Target]{#RTCDP}
+
+を使用して次回のヒットでのパーソナライズ方法を説明します。 [!DNL Real-time Customer Data Platform] および [!DNL Adobe Target]. この [!DNL Adobe Target] の宛先 [!DNL Real-time CDP] を使用すると、 [!DNL Experience Platform] セグメント [!DNL Adobe Target] ガバナンスとプライバシーのサポートを含む、同じページと次のページのパーソナライゼーション。
+
+詳しくは、 [リアルタイム CDP とAdobe Targetを使用した次回ヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} *PlatformTutorials* ガイド。
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Adobe Targetのブログとビデオ：
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## トレーニングビデオ：オーディエンスの使用 ![チュートリアルバッジ](/help/assets/tutorial.png)
 

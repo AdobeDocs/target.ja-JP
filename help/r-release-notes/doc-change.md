@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3412'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2 月 3 日 | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md#RTCDP) | 新しい節とビデオを追加しました。&quot;ビデオ：リアルタイム CDP と [!DNL Adobe Target].&quot; |
 | 2 月 2 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 次の節を追加しました。「での二重引用符のエスケープ [!DNL Target] プロファイル属性値が期待どおりに機能していません。」 |
 | 2 月 1 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.2.1 リリースです。 |
 
