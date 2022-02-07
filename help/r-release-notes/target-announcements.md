@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -15,17 +15,20 @@ ht-degree: 100%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022年1月19日（PT））
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 2 月 24 日）
 
-* **2022年1月19日（水）（PT）**
+* **2022 年 2 月 23 日水曜日**
 * **午前 8:00（米国太平洋標準時、UTC -8）**
-* **[詳細情報とユーザー登録](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[詳細情報とユーザー登録](https://adobe.ly/3skO6DV)**
 
-Jon Tehero 氏（[!DNL Adobe Target] グループプロダクトマネージャー）が自身の専門分野に関する質問に答えます。
+上級プロダクトマネージャーの Vishal Chordia は、次の専門知識に関するお客様の質問に回答します。
 
-* [!DNL Adobe Target][!DNL Adobe Journey Optimizer]（AJO）との統合
-* [!DNL Adobe Target] UI
-* [!DNL Adobe Target] に関する一般的なトピック
+* [!DNL Adobe Experience Platform]
+* オーディエンスベースのパーソナライゼーション
+* [!DNL Real-time Customer Data Platform]（RTCDP）の [!DNL Target] との統合
+* 一般的な [!DNL Target] トピック
+
+テクニカルサポートエンジニアの Mihnea Docea が Vishal を支援します。
 
 ## ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
 
