@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '3429'
+source-wordcount: '3449'
 ht-degree: 98%
 
 ---
@@ -15,36 +15,37 @@ ht-degree: 98%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## Adobe Target Standard/Premium 22.2.1（2022 年 2 月 1 日） 
+## Adobe Target Standard／Premium 22.2.1（2022 年 2 月 1 日（PT）） 
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2 月 7 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 2 月 24 日）</li></ul> |
-| 2 月 3 日 | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md#RTCDP) | 新しい節とビデオを追加しました。&quot;ビデオ：リアルタイム CDP と [!DNL Adobe Target].&quot; |
-| 2 月 2 日 | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 次の節を追加しました。「での二重引用符のエスケープ [!DNL Target] プロファイル属性値が期待どおりに機能していません。」 |
-| 2 月 1 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.2.1 リリースです。 |
+| 2 月 10 日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>Visual Experience Composer(VEC) によるサービスワーカーを使用した Web サイトの読み込み</li></ul> |
+| 2 月 7 日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 2 月 24 日）</li></ul> |
+| 2 月 3 日（PT） | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md#RTCDP) | 新しい節とビデオを追加しました。&quot;ビデオ：リアルタイム CDP と [!DNL Adobe Target].&quot; |
+| 2 月 2 日（PT） | [コンテンツ配信のトラブルシューティング](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 次の節を追加しました。「での二重引用符のエスケープ [!DNL Target] プロファイル属性値が期待どおりに機能していません。」 |
+| 2 月 1 日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 リリースに関する情報を追加しました。 |
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1（2022 年 1 月 13 日）
+## [!DNL Adobe Target Standard/Premium] 22.1.1（2022年1月12日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 1月31日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target Standard/Premium] 22.2.1 リリースです。 |
+| 1月31日（PT） | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 リリースに関するプレリリース情報を追加しました。 |
 | 1月28日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
-| 1 月 27 日 | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、 [!DNL AEM as a Cloud Service] および [!DNL Adobe I/0]. |
-| 1 月 26 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.2 リリースについての情報を追加しました。 |
-|  | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md) | 次に関する情報を追加しました： [!DNL Adobe Experience Platform] オーディエンス。 |
-|  | [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md) | 次に関する情報を追加しました： [!DNL Adobe Experience Platform] オーディエンス。 |
-| 1月21日（PT） | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 リリースに関する情報を追加しました。 |
-| 1月19日（PT） | [at.js 1.*x* から at.js 2.*x へのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
-| 1月12日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.1 リリースについての情報を追加しました。 |
+| 1 月 27 日（PT） | [AEM エクスペリエンスフラグメント](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、[!DNL AEM as a Cloud Service] および [!DNL Adobe I/0] に関する情報を追加しました。 |
+| 1 月 26 日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.2 リリースに関する情報を追加しました。 |
+|  | [オーディエンスの作成](/help/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
+|  | [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
+| 1 月 21 日（PT） | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 リリースに関する情報を追加しました。 |
+| 1 月 19 日（PT） | [at.js 1.*x* から at.js 2.*x へのアップグレード*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 次の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
+| 1月12日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.1 リリースに関する情報を追加しました。 |
 |  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |
 
 ## [!DNL Adobe Target Standard/Premium] 21.10.1（2021 年 10 月 6 日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022年1月19日（PT））</li></ul> |
+| 1 月 12 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 1 月 19 日（PT））</li></ul> |
 | 1月7日（PT） | [リリースノート](/help/r-release-notes/release-notes.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js バージョン 2.8.0 リリースに関する情報を追加しました。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 設定に関する情報を追加しました。 |
@@ -235,15 +236,15 @@ ht-degree: 98%
 | 2 月 10 日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 2021 年 2 月 24 日水曜日の Adobe Target Community Q&amp;A Coffee Break に関する情報を追加しました。 |
 | 2 月 8 日 | [Target モバイルのプレビュー](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe モバイル SDK バージョン 4 の AndroidManifest.xml ファイルに追加する必要があるコードスニペットを記載しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスには表示されず、API でのみ編集できます。同様に、Target UI でこれらの項目のいずれかを作成し、後で API を使用して編集した場合、その変更は Target UI には反映されません。API で編集した項目は、変更が失われるのを防ぐため、引き続き API を使用して編集する必要があります。</li></ul> |
-| 2 月 1 日 | [Automated Personalization 概要レポート](/help/c-reports/reports-ap.md) | 「よくある質問（FAQ）」の節を追加しました。 |
-| 1 月 27 日 | [リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md) | トピックを更新しました。 |
+| 2 月 1 日（PT） | [Automated Personalization 概要レポート](/help/c-reports/reports-ap.md) | 「よくある質問（FAQ）」の節を追加しました。 |
+| 1 月 27 日（PT） | [リダイレクトオファーの作成](/help/c-experiences/c-manage-content/offer-redirect.md) | トピックを更新しました。 |
 |  | [リモートオファーを作成](/help/c-experiences/c-manage-content/about-remote-offers.md) | トピックを更新しました。 |
-| 1 月 26 日 | [コンバージョン率](/help/c-reports/conversion-rate.md) | Target がスチューデントのt検定で「平方和」を使用する仕組みを明確にしました。 |
+| 1 月 26 日（PT） | [コンバージョン率](/help/c-reports/conversion-rate.md) | Target がスチューデントのt検定で「平方和」を使用する仕組みを明確にしました。 |
 | 1 月 22 日 | [コンバージョン率](/help/c-reports/conversion-rate.md#t-test) | 「Target がスチューデントのt検定を使うことを推奨する理由は何ですか？」の節を追加しました。 |
-| 1 月 21 日 | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 「A4T アクティビティレポートに、多数の「未指定」イベントが入った行が含まれる」の節を追加しました。 |
+| 1 月 21 日（PT） | [Analytics と Target の統合（A4T）のトラブルシューティング](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 「A4T アクティビティレポートに、多数の「未指定」イベントが入った行が含まれる」の節を追加しました。 |
 |  | [レポートの表示 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 「Analyticsレポートに「未指定」と表示されるのはなぜですか？これはどういう意味ですか？ 」の節を更新しました。 |
 | 1 月 20 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新規トピックです。 |
-| 1 月 19 日 | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target 21.1.1 リリース（2021 年 1 月 19 日）に関する情報を追加しました。 |
+| 1 月 19 日（PT） | [Target リリースノート（現行）](/help/r-release-notes/release-notes.md) | Target 21.1.1 リリース（2021 年 1 月 19 日）に関する情報を追加しました。 |
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` パラメーターのテキストを更新しました。 |
 |  | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | アクティブなプロモーションを使用した [!UICONTROL Recommendation] アクティビティをコピーする際の既知の問題を追加しました。重複アクティビティを変更すると元のアクティビティにも影響します（逆も同様です）。一時的な回避策が含まれます。 |
 |  | [リリースノート](/help/r-release-notes/release-notes.md)：21.1.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |

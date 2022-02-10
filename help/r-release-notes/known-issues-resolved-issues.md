@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
+
+### Visual Experience Composer(VEC) によるサービスワーカーを使用した Web サイトの読み込み
+
+VEC を使用して Service Worker を使用している Web サイトを開こうとするときには、現在いくつかの制限があります。 回避策の 1 つは、Chrome Developer Tools/「Application」タブで Service Workers を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にすることです。 （KB-2006）
 
 ### A4T を使用した自動配分アクティビティのトラフィック分配 {#aa-a4t}
 
