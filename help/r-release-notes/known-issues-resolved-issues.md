@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 98%
+source-wordcount: '4738'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,15 @@ ht-degree: 98%
 
 ### Visual Experience Composer(VEC) によるサービスワーカーを使用した Web サイトの読み込み
 
-VEC を使用して Service Worker を使用している Web サイトを開こうとするときには、現在いくつかの制限があります。 回避策の 1 つは、Chrome Developer Tools/「Application」タブで Service Workers を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にすることです。 （KB-2006）
+VEC を使用してを使用している Web サイトを開こうとすると、現在いくつかの制限があります [サービスワーカー](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW)。
+
+SW は、Web ページによってインストールされるドメインに対する要求を切り取るために使用できる Web テクノロジーです。 SW はページ訪問後も続き、その後の訪問時に自身をアクティブにします。 SW は、通過するリクエストと、どのリクエストがインターセプトされ、代わりにキャッシュから提供されるかを決定します。
+
+SW はキャッシュを制御できます。は、Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツ、および応答ヘッダーをキャッシュできます。これには、 [Target VEC ヘルパー拡張機能](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) は、X-Frame-Options のように、削除を試みます。SAMEORIGIN、CSP(Content-Security-Policy)、Set-Cookie のいずれかです。
+
+残念ながら、Web 要求を切り取る Chrome 拡張機能 API は、SW によって傍受および処理された要求を受け取りません。 したがって、Web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたので、Web ページは VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
+
+潜在的な回避策として、Chrome Developer Tools/「Application」タブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にすることができます。 （KB-2006）
 
 ### A4T を使用した自動配分アクティビティのトラフィック分配 {#aa-a4t}
 
