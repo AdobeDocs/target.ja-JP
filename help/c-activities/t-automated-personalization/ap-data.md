@@ -4,10 +4,10 @@ description: データAdobe [!DNL Target] はを収集し、を使用して機�
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 51%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 51%
 | URL パラメーター | URL | 現在表示されているページの URL および任意の URL パラメーター。 | カスタム — URL パラメーター — [URL パラメーター] |
 | 参照 URL | REF | 参照 URL および参照 URL の任意の URL パラメーター。 | カスタム — [参照 URL パラメーター] - [パラメーター値] |
 | Adobe Experience Cloud共有オーディエンス | AAM | 共有されているすべてのオーディエンス [!DNL Target] 他から [!DNL Adobe Experience Cloud] ソリューション ( 例： [!DNL Adobe Audience Manager] および [!DNL Adobe Analytics]、 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank})。 | カスタム —Experience Cloudオーディエンス — [オーディエンス名] |
-| Adobe Experience Platform RTCDP オーディエンス | UPS | と共有される AEP RTCDP オーディエンス [!DNL Target] 宛先を使用。<br>この機能は、まだ [!DNL Target] しかし、将来実装される予定です。 |  |
+| Adobe Experience Platform RTCDP オーディエンス | UPS | と共有される AEP RTCDP オーディエンス [!DNL Target] 宛先を使用。 |  |
 
 ## 機能のブロック [!DNL Target] 機械学習アルゴリズム
 
