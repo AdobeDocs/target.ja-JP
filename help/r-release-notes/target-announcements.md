@@ -5,9 +5,9 @@ title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 94%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 2 月 24 日）
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））
 
-* **2022 年 2 月 23 日水曜日**
+* **2022年2月23日 水曜日（PT）**
 * **午前 8:00（米国太平洋標準時、UTC -8）**
 * **[詳細情報とユーザー登録](https://adobe.ly/3skO6DV)**
 
-上級プロダクトマネージャーの Vishal Chordia は、次の専門知識に関するお客様の質問に回答します。
+シニアプロダクトマネージャーのビシャール コーディアが、以下の専門分野について、お客様のご質問にお答えします。
 
 * [!DNL Adobe Experience Platform]
 * オーディエンスベースのパーソナライゼーション
 * [!DNL Real-time Customer Data Platform]（RTCDP）の [!DNL Target] との統合
 * 一般的な [!DNL Target] トピック
 
-テクニカルサポートエンジニアの Mihnea Docea が Vishal を支援します。
+テクニカルサポートエンジニアのMihnea DoceaがVishalを支援します。
 
 ## ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
 
@@ -52,11 +52,11 @@ Adobe と HSBC によるこのウェビナーに参加して次のことを学�
 * AI と Analytics がどのようにしてその取り組みを加速し、ビジネスに明確で大きな影響を与えたか
 * HSBC がどのようにして 3,000 以上のアクティビティを提供し、大規模な成功プログラムを構築したか
 
-*McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020 年 5 月
+*McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
 
 ## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
 
-2021 年 3 月 31 日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
+2021年3月31日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
 * **[こちらからウェビナーの録画をご覧ください](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
 
