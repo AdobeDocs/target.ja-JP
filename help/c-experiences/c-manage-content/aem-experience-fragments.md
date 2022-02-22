@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: e991af90d58a8084ece9a8ff05acf85a68f077d3
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 60%
+source-wordcount: '1180'
+ht-degree: 59%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 60%
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEMas a Cloud Service**: [エクスペリエンスフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
+* **AEMas a Cloud Service**: [エクスペリエンスフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* ガイド。
 * **[!DNL AEM]6.5**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* ドキュメント。
 * **[!DNL AEM]6.4**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank} *Adobe Experience Manager 6.4* ドキュメント。
 
@@ -99,7 +99,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) をクリックします。
+>を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動ターゲット](/help/c-activities/auto-target/auto-target-to-optimize.md) をクリックします。
 
 **VEC を使用してエクスペリエンスフラグメントを使用するには：**
 
