@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
+source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3506'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li>「勝者なし」、「勝者」および「星」バッジを [!UICONTROL 自動配分] 使用するアクティビティ [!UICONTROL レポートソースとしての Analytics] (A4T)?</li></ul> |
+|  | [アクティビティのみのオーディエンスの作成](/help/c-target/creating-activity-only-audience.md) | 除外ルールに関する「考慮事項」の節に情報を追加しました。 |
 | 2月10日（PT） | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>Service Workers を使用している web サイトを Visual Experience Composer（VEC）読み込む</li></ul> |
 | 2月7日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））</li></ul> |
 | 2月3日（PT） | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#RTCDP) | 新しい節と「ビデオ：リアルタイム CDP と [!DNL Adobe Target] による次のヒットのパーソナライゼーション」のビデオを追加しました。 |
