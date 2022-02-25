@@ -4,7 +4,7 @@ description: Adobeでの自動配分 A/B アクティビティの結果の解釈
 title: 自動配分レポートの見方を教えてください。
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ ht-degree: 44%
 * 自動配分は、勝者エクスペリエンスが 60％の信頼性を集めた後にのみ、信頼性を表示し始めます。これらの信頼水準は、通常、通常の A/B テストが完了するまでにかかる時間の約半分で表示されます（ただし、保証はされません）。 通常の A/B テストを実行する期間を判断するには、 [サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html):プラグインコントロールのコンバージョン率（「ベースラインコンバージョン率」の場合）、「上昇率」の場合は「5%」、「信頼性」の場合は 95%。 通常、信頼性は、各エクスペリエンスがエクスペリエンスごとに必要なサンプルの少なくとも 50％ を蓄積した後に表示し始めます。これによって、信頼性が表示され始めるタイミングを把握できます。
 * レポートがボード全体で 0％を表示している場合、アクティビティに入るのが早すぎた可能性があります。
 
-## 「勝者なし」、「勝者」および「星」バッジを [!UICONTROL 自動配分] 使用するアクティビティ [!UICONTROL レポートソースとしての Analytics] (A4T)?
+### 「勝者なし」、「勝者」および「星」バッジを [!UICONTROL 自動配分] 使用するアクティビティ [!UICONTROL レポートソースとしての Analytics] (A4T)?
 
 現在、「まだ勝者がありません」と「勝者」のバッジは [!UICONTROL A4T] パネル内 [!DNL Analysis Workspace]. 同じレポートが [!DNL Target]. 勝者の「星」バッジが [!DNL Target] レポート [!UICONTROL 自動配分] A4T を使用するアクティビティは無視する必要があります。
 
