@@ -4,10 +4,10 @@ description: メンバーシップ ID や組織のロイヤルティプログラ
 title: mbox3rdPartyId にリアルタイムプロファイル同期を使用する方法
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 92%
+source-wordcount: '737'
+ht-degree: 84%
 
 ---
 
@@ -57,11 +57,13 @@ ht-degree: 92%
       * `customerIds` は、Delivery API ペイロードで直接設定する際に使用されるパラメーター名で、通常はサーバー側または IOT（Internet of Things）実装で使用されます。
       * `mbox3rdPartyId`／`thirdPartyId` とは異なり、この方法では複数の ID をリストとして送信できますが、[!DNL Target] では TnT ID ごとに 1 つの顧客 ID のみをサポートするので、既知のエイリアス（顧客属性 UI で設定されたエイリアス）を持つリストの最初の ID を使用します。
 
+   以下を使用できます。 `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] は、 [!DNL Adobe Experience Cloud] ソリューションを使用する必要がなく、顧客属性を使用したくない場合。 その他の場合は、 `setCustomerId`/`customerIds` 顧客 ID を送信する際に使用します。
+
    >[!IMPORTANT]
    >
    > 上記の両方の方法を 1 人の訪問者に交互に使用すると、未認証と認証済みの [!DNL Target] プロファイルが誤って結合される可能性があります。
    >
    >アドビでは、`mbox3rdPartyId`／`thirdPartyId` と `setCustomerID`／`customerIds` の両方を一緒に使用することはお勧めしません。
    >
-   >両方の方法を交互に使用する必要がある場合は、`setCustomerID`／`customerIds` で使用されるリストの最初の ID が `thirdPartyId`／`mbox3rdPartyId` で使用される ID であること、およびその逆も成り立つことを確認します。
+   >両方の方法を同じ意味で使用する必要がある場合、 `setCustomerID`/`customerIds` は、 `thirdPartyId`/`mbox3rdPartyId` その逆も同様だ。
 
