@@ -4,10 +4,10 @@ title: ' [!DNL Target] ドキュメントについて'
 description: Adobe  [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 99%
 
 ---
 
@@ -17,15 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。
 
-**最終更新日：2022年2月25日（PT）（[変更点を参照](r-release-notes/doc-change.md)）**
-
->[!NOTE]
->
->[!DNL Adobe Target] は最近、以下のレポートでリーダーに選ばれました。
->
->**[エクスペリエンス最適化プラットフォームに関する Forrester Wave レポート。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target は『The Forrester Wave：Experience Optimization Platforms, Q4 2020（エクスペリエンス最適化プラットフォーム 2020 年第 4 四半期）』でリーダーに選出されました。
->
->**[Gartner の「Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）」](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target は 2020 年度の『Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）』レポートで、3 回目のリーダーに選ばれました。
+**最終更新日：2022 年 3 月 8 日 ( [変更内容を見る](r-release-notes/doc-change.md) )**
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務機能に基づいて、意図したオーディエンスによって保護されています。
 

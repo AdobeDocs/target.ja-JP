@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 22%
+source-wordcount: '1333'
+ht-degree: 23%
 
 ---
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## 次のオーディエンスを使用： [!DNL Adobe Experience Platform] {#aep}
 
-で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP)。 [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
+[!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データが提供されます。この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} (RTCDP)。 [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
 接続により [!DNL Target] から [!DNL Real-time Customer Data Platform]では、以前にアクセスできなかった新しいセグメントをロック解除して、Web パーソナライゼーションを強化できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
 
@@ -132,13 +132,27 @@ Keep the following points in mind as you work with imported audiences:
 
 ### 追加情報
 
+次のオーディエンスを使用する際は、次の情報を考慮してください。 [!DNL Adobe Experience Platform]:
+
+#### パーソナライズ機能の使用例
+
+次の表に、 [!DNL Adobe Experience Platform Web SDK] at.js の使用と比較して：
+
+| 実装 | ソリューション/ユースケースが有効 |
+| --- | --- |
+| at.js | **ソリューション**:<ul><li>[!DNL Adobe Audience Manager] (AAM) および [!DNL Target]</li><li>[!DNL RTCDP] （Premium または Ultimate）および [!DNL Target]</li><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**ユースケース**:<ul><li>次セッションのパーソナライゼーション</li></ul> |
+| [!DNL Platform Web SDK] または [!DNL AEP Server-Side API] | **ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><li>Edge を使用した同じページのパーソナライゼーション</li><li>セグメントの共有時に適用されるガバナンス</li></ul>**ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul><li>Edge を使用した同じページのパーソナライゼーション</li><ul><li>[!DNL RTCDP] セグメント</li><li>セグメントの共有時に適用されるガバナンス</li></ul> |
+| 組み合わせ [!UICONTROL at.js] および [!DNL Platform Web SDK] | **ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li></ul><li>同じページのパーソナライゼーション</li><ul><li>を含むすべてのページ [!DNL Platform Web SDK]</li></ul></ul>**ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul> |
+
+#### セグメント評価時間
+
 次の表に、様々な実装シナリオから発生するイベントのセグメント評価時間を示します。
 
 | シナリオ | エッジセグメント（ミリ秒評価） | ストリーミングセグメント（分単位の評価） | バッチセグメント評価 |
 | --- | --- | --- | --- |
-| Adobe Experience Platform SDK からのイベント/データ | ○ | ○ | 該当なし |
-| at.js からのイベント | × | ○ | 該当なし |
-| Target Mobile SDK からのイベント | × | ○ | 該当なし |
+| イベント/データの取得元 [!DNL Adobe Experience Platform] SDK | ○ | ○ | 該当なし |
+| イベント元 [!UICONTROL at.js] | × | ○ | 該当なし |
+| イベント元 [!DNL Target Mobile] SDK | × | ○ | 該当なし |
 | バッチアップロードからのイベント | × | × | ○ |
 | オフラインデータ（ストリーム）からのイベント | × | ○ | ○ |
 

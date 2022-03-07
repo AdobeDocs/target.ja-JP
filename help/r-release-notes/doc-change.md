@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 99%
+source-wordcount: '3519'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月7日 | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#aep) | 「次のオーディエンスを使用」の下に新しい節を追加しました。 [!DNL Adobe Experience Platform]:&quot;<ul><li>パーソナライズ機能の使用例</li></ul> |
 | 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li>「勝者なし」、「勝者」および「星」バッジを [!UICONTROL 自動配分] 使用するアクティビティ [!UICONTROL レポートソースとしての Analytics] (A4T)?</li></ul> |
 |  | [アクティビティのみのオーディエンスの作成](/help/c-target/creating-activity-only-audience.md) | 除外ルールに関する「考慮事項」の節に情報を追加しました。 |
