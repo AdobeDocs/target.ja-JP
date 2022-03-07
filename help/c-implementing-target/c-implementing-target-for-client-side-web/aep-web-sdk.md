@@ -5,10 +5,10 @@ title: Experience PlatformWeb SDK を使用してを実装する方法を教え�
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
+source-git-commit: 7cded87ef6c9a61a6f259a8ea458c31a8c6c9e39
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 6%
+source-wordcount: '554'
+ht-degree: 8%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 6%
 | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | での QA URL の使用 [!DNL Adobe Target] 変更されないプレビューリンク、オプションのオーディエンスターゲティング、実際のアクティビティデータからセグメント化された QA レポートを使用して、簡単にエンドツーエンドのアクティビティ QA を実行できます。 [!UICONTROL アクティビティ QA] を [!DNL Target] アクティビティを開始する前に有効にしておく必要があります。<br>詳しくは、 [Target JavaScript ライブラリ QA モードの互換性](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) および [プレビュー URL](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [[!UICONTROL Analytics for Target]（A4T）](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) は、 [!DNL Analytics] コンバージョン指標およびオーディエンスセグメント。 A4T 統合により、 [!DNL Analytics] レポートを使用して結果を確認します。<br>詳しくは、 [サポートされるアクティビティのタイプ](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) および [Adobe Experience Platform Web SDK 実装の実装手順](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [オーディエンス](/help/c-target/target.md) | のオーディエンス [!DNL Adobe Target] ターゲットアクティビティでコンテンツとエクスペリエンスを表示する対象を決定します。<br>詳しくは、 [オーディエンスリストの使用](/help/c-target/c-audiences/audiences.md#use-list) および [複数のオーディエンスの結合](/help/c-target/combining-multiple-audiences.md). |
+| [オーディエンスを作成](/help/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データが提供されます。<ul>詳しくは、 [次のオーディエンスを使用： [!DNL Adobe Experience Platform]](/help/c-target/c-audiences/audiences.md#aep). |
 | [オファーの決定](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Adobe Journey Optimizerで作成したオファーの決定を Target アクティビティ（手動の A/B テストまたはエクスペリエンスのターゲット設定）に追加して、Web およびモバイルで訪問者にとって次に最適なオファーを決定し配信します。 |
 | [リダイレクトオファー - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | リダイレクトオファーを使用すると、訪問者のブラウザーは新しいページにリダイレクトされます。<br>詳しくは、 [を実行します。 [!DNL Adobe Experience Platform Web SDK] A4T のリダイレクトオファーをサポートしますか？](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [レスポンストークン](/help/administrating-target/response-tokens.md) | レスポンストークンを使用して、Target のデータをGoogle Analyticsや他のサードパーティ統合に送信できます。<br>詳しくは、 [Platform Web SDK を使用してGoogle Analyticsにデータを送信する](/help/administrating-target/response-tokens.md#platform-web-sdk) を参照して、このタスクを実行する方法のコードサンプルを確認してください。 |
