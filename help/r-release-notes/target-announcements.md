@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 100%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 3 月 30 日）
 
-* **2022年2月23日 水曜日（PT）**
-* **午前 8:00（米国太平洋標準時、UTC -8）**
-* **[詳細情報とユーザー登録](https://adobe.ly/3skO6DV)**
+* **2022 年 3 月 30 日水曜日**
+* **【午前】8 時 00 分(PDT、UTC -7)**
+* **[詳細情報とユーザー登録](https://adobe.ly/3sIS5Mg)**
 
-シニアプロダクトマネージャーのビシャール コーディアが、以下の専門分野について、お客様のご質問にお答えします。
+シニアソリューションコンサルタントの Ryan Pizzuto は、次の専門知識分野に関するお客様の質問に回答します。
 
-* [!DNL Adobe Experience Platform]
-* オーディエンスベースのパーソナライゼーション
-* [!DNL Real-time Customer Data Platform]（RTCDP）の [!DNL Target] との統合
-* 一般的な [!DNL Target] トピック
+* [!UICONTROL 自動ターゲット]
+* [!UICONTROL 自動パーソナライゼーション]
+* [!UICONTROL レコメンデーション]
+* 一般 [!UICONTROL Adobe Target] トピック
 
 テクニカルサポートエンジニアのMihnea DoceaがVishalを支援します。
 
