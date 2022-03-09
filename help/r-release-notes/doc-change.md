@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+source-git-commit: 36ed858c1f241e69e9aa1a8cadbe2c128f99665c
 workflow-type: tm+mt
-source-wordcount: '3561'
-ht-degree: 98%
+source-wordcount: '3582'
+ht-degree: 97%
 
 ---
 
@@ -19,12 +19,13 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 3月9日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 次の既知の問題を追加しました。<ul><li>フォームベースの Experience Composer で作成したアクティビティでアドホックオファーを持つ場所の削除</li></ul> |
-| 3月8日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 3 月 31 日）</li></ul> |
-| 3月7日 | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#aep) | 「次のオーディエンスを使用」の下に新しい節を追加しました。 [!DNL Adobe Experience Platform]:&quot;<ul><li>パーソナライズ機能の使用例</li></ul> |
-| 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li>「勝者なし」、「勝者」および「星」バッジを [!UICONTROL 自動配分] 使用するアクティビティ [!UICONTROL レポートソースとしての Analytics] (A4T)?</li></ul> |
-|  | [アクティビティのみのオーディエンスの作成](/help/c-target/creating-activity-only-audience.md) | 除外ルールに関する「考慮事項」の節に情報を追加しました。 |
+| 3月9日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 次の既知の問題を追加しました。<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul> |
+|  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/c-target/c-visitor-profile/3rd-party-id.md) | Updated following sentence regarding profile syncing: &quot;Updates are synced with the profile store every 5-10 minutes.&quot; |
+| 3月8日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク (March 30, 2022)</li></ul> |
+| 3月7日 | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#aep) | [!DNL Adobe Experience Platform]<ul><li>Personalization use cases</li></ul> |
+| 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [自動配分レポートの解釈](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li></li></ul> |
+|  | [アクティビティのみのオーディエンスの作成](/help/c-target/creating-activity-only-audience.md) | Added information in the &quot;Considerations&quot; section discussing exclude rules. |
 | 2月10日（PT） | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md) | 次の既知の問題を追加しました。<ul><li>Service Workers を使用している web サイトを Visual Experience Composer（VEC）読み込む</li></ul> |
 | 2月7日（PT） | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））</li></ul> |
 | 2月3日（PT） | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#RTCDP) | 新しい節と「ビデオ：リアルタイム CDP と [!DNL Adobe Target] による次のヒットのパーソナライゼーション」のビデオを追加しました。 |
@@ -160,7 +161,7 @@ ht-degree: 98%
 |  | [制限](/help/r-troubleshooting-target/target-limits.md) | 「Target API 呼び出し」の節のテキストを更新しました。 |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` キーの説明を更新しました。 |
 |  | [グローバル mbox のカスタマイズ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 新しい mbox を選択した後、変更が自動的に保存されることを明示するように、手順 1 を更新しました。 |
-|  | Experience CloudDevice Co-op | トピックを削除しました。この機能は廃止されました。 |
+|  | Experience Cloud Device Co-op | トピックを削除しました。この機能は廃止されました。 |
 | 6月29日 | [アクティビティ QA](/help/c-activities/c-activity-qa/activity-qa.md) | 次の節を追加しました。<ul><li>Target JavaScript ライブラリ [!UICONTROL QA モード]の互換性</li><li>プレビュー URL</li></ul> |
 | 6月24日 | [Target リリースノート（プレリリース）](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 リリース（2021年6月30日）のプレリリースノートを更新しました。 |
 | 6月16日 | [[!DNL Target] リリースノート（現行）](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK バージョン 1.0.0 リリースに関する情報を追加しました。 |
