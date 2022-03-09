@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IM
 残念ながら、web リクエストをインターセプトする Chrome 拡張機能 API は、SW によってインターセプトおよび処理されたリクエストを受信しません。したがって、web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたため、web ページが VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
 
 考えられる回避策として、Chrome 開発者ツール／アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。（KB-2006）
+
+### フォームベースの Experience Composer で作成したアクティビティでアドホックオファーを持つ場所の削除 {#ad-hoc}
+
+フォームベースの Experience Composer で作成したアクティビティで、アドホックオファー（アクティビティ内で作成されたオファー）を使用している場合は、その場所を削除しないでください。 場所を削除すると、アクティビティが破損する可能性があります。 この [!DNL Target] チームはこの修正に取り組んでいます。 回避策として、 [!UICONTROL オファーライブラリ] 場所と共に使用したり、必要に応じて新しいエクスペリエンスを作成したりできます。 （KB-2014）
 
 ### A4T を使用した自動配分アクティビティのトラフィック分配 {#aa-a4t}
 

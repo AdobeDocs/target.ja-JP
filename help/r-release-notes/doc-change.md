@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月9日 | [既知の問題と解決された問題](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 次の既知の問題を追加しました。<ul><li>フォームベースの Experience Composer で作成したアクティビティでアドホックオファーを持つ場所の削除</li></ul> |
 | 3月8日 | [Target のお知らせとイベント](/help/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 3 月 31 日）</li></ul> |
 | 3月7日 | [オーディエンスを作成](/help/c-target/c-audiences/audiences.md#aep) | 「次のオーディエンスを使用」の下に新しい節を追加しました。 [!DNL Adobe Experience Platform]:&quot;<ul><li>パーソナライズ機能の使用例</li></ul> |
 | 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
