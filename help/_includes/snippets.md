@@ -1,5 +1,5 @@
 ---
-source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '21'
 ht-degree: 0%
@@ -11,6 +11,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は、 [Target Premium](/help/c-intro/intro.md#premium) ライセンス。 この機能は、 [!DNL Target Standard].
+>この機能は、 [Target Premium](/help/main/c-intro/intro.md#premium) ライセンス。 この機能は、 [!DNL Target Standard].
 
 
