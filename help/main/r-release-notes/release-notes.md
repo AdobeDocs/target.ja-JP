@@ -5,39 +5,50 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 49%
 
 ---
 
 # Target リリースノート（現行）
 
-これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、Target API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
+これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、 [!DNL Target] API、SDK、 [!DNL Adobe Experience Platform Web SDK]、at.js およびその他のプラットフォームの変更も、該当する場合は含まれます。
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。
 
-## Target Standard／Premium 22.2.1（2022年2月1日（PT）） 
+## [!DNL Target Standard/Premium] 22.3.1（ちらつきリリース、日付決定）
 
-このメンテナンスリリースには、今後 6 週間以内にすべての地域のお客様に公開される Target Standard／Premium 22.1.2 リリースでの提供が発表された新しい[!UICONTROL オーディエンス] UI に対する以下の修正および機能強化が含まれています。これらの修正により、 [!DNL Adobe Target Standard/Premium] で作成されたオーディエンスの機能が調整されます。
+このリリースには、次の変更および機能強化が含まれています。
 
-* [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] および [!DNL Adobe Target Classic] からインポートしたオーディエンスをレポートオーディエンスとして割り当てることができない問題を修正しました。（TGT-43140）
-* [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] および [!DNL Adobe Target Classic] からインポートしたオーディエンスの[!UICONTROL オーディエンス]リストに「[!UICONTROL 削除]」オプションを追加しました。また、一括削除機能も追加しました。（TGT-42914）
+* スクリプトを編集、アクティブ化、非アクティブ化した後で、プロファイルスクリプトの編集が元の未編集スクリプトに戻る問題を修正しました。 プロファイルスクリプトは編集された状態のままになります。 （TGT-43249）
+* 次のエラーメッセージが [!DNL Target] ステータスが「ドラフト」のアクティビティで使用されているオーディエンスを移動する際の UI:「お客様のご要望は、完了できません。 問題が解決しない場合は、Adobeのクライアントケアにお問い合わせください。」 （TGT-43212）
+* 次の問題を修正しました： [!UICONTROL 次を含む] および [!UICONTROL 除外] アクティビティの編集時に結合オーディエンスで無効にするオプション。 （TGT-43422）
+* アクティビティの編集中に、一部のお客様が利用可能なオーディエンスのリストを表示できなかった問題を修正しました。 （TGT-43404）
+* 一部のお客様が「[!UICONTROL 除外する IP [!DNL Target] レポートデータ]&quot;リスト [!UICONTROL 管理] > [!UICONTROL レポート]. （TGT-43384）
+* オーディエンス条件で、任意の変数が「より大きい」、「より大きいか等しい」、「より小さい」または「より小さいか等しい」であることを確認できない負の数を使用する問題を修正しました。 （TGT-43367）
+* 顧客が [!UICONTROL オーディエンスの詳細] カードを使用して結合オーディエンスを作成できます。 （TGT-43303）
+* 次の問題を修正しました： [!DNL Target] UI または新規 [!UICONTROL オーディエンス] 一部の顧客に対して、UI が早めにタイムアウトする。 （TGT-42590 および TGT-43273）
 
-## at.js バージョン 2.8.1（2022年1月28日（PT））
+## [!DNL Target] Platform リリース（3 月 31 日）
 
-* [!UICONTROL オンデバイス判定]（ODD）ハイブリッド実行モードで `pageLoad` が target-global-mbox にマッピングされない問題を修正しました。
-* mbox リクエストの分析の詳細に関する問題を修正しました。
-* 開発用の依存コンポーネントをアップグレードして、セキュリティの脆弱性を修正しました。
+このリリースで強化された機能は次のとおりです。
 
-## [!DNL Target Standard/Premium] 22.1.2（2022年1月26日（PT））
+* クリック追跡指標では、Analytics をレポートソースに使用し (A4T)、クライアント側でイベントを処理するアクティビティの Delivery API リクエストに Analytics ペイロードが含まれます。 （TNT-43073）
 
-| 機能 | 詳細 |
-| --- | --- |
-| [!DNL Target] での [!DNL Adobe Experience Platform] オーディエンス | [!DNL Target] で [!DNL Adobe Experience Platform] オーディエンスを消費し使用できるようになりました。[!DNL Target] チーム、[!DNL Experience Platform] [!DNL Destinations] チームおよび [!DNL Unified Profile Service] チームから、「同一ページ ／次ページのパーソナライゼーション」ユースケースの一般公開についてお知らせします。<br>[!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データが提供されます。[!DNL Adobe Experience Platform] 上に構築された [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}（RTCP）は、企業が複数の企業ソースから既知および匿名のデータを集めて顧客プロファイルを作成するのに役立ちます。顧客プロファイルを使用すれば、パーソナライズされた顧客エクスペリエンスをすべてのチャネルとデバイスにわたってリアルタイムで提供できます。<br>詳しくは、*オーディエンスを作成*&#x200B;の [Adobe Experience Platform のオーディエンスを使用](/help/main/c-target/c-audiences/audiences.md#aep)および&#x200B;*宛先の概要*&#x200B;ガイドの[同じページおよび次のページのパーソナライゼーションの使用例](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} を参照してください。 |
-| [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/main/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターによるオーディエンス検出の迅速化</li><li>セッションの永続的な検索とフィルターオプション</li><li>[!DNL Target Premium] 顧客のワークスペース間でオーディエンスを移動する機能。</li></ul>詳しくは、[オーディエンス](/help/main/c-target/target.md)を参照してください。<br>**注意**：この機能は、今後 8 週間以内に様々な地域のお客様に公開される予定です。 |
-| [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**：この機能は、今後 8 週間以内に様々な地域のお客様に公開される予定です。 |
+## [!DNL Target Standard] オーディエンスの更新（3 月 28 日）
+
+このリリースには、次の更新が含まれています。
+
+* 新しい [!UICONTROL オーディエンス] UI はすべての [!DNL Target Standard] 顧客。
+
+## Target Standard/Premium の顧客エンジニアリングの修正（2022 年 3 月 23 日）
+
+このメンテナンスリリースで強化された機能は次のとおりです。
+
+* が返す機能を追加しました。 [!DNL Analytics] ペイロードデータ `prefetch` ビューと `pageLoad` 使用時のクリック指標 [!UICONTROL 配信 API] を使用するアクティビティで [!UICONTROL レポートソースとしての Analytics] (A4T)。 （TNT-43198）
+* ボットフィルタリングのユーザーエージェントリストが更新され、日本で一般的に使用されるブラウザータイプを許可するようになりました。 （TNT-43867）
 
 ## その他のリリースノートとバージョンの詳細
 

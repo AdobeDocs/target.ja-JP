@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
+source-wordcount: '4818'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ EEC の問題により、現在、EEC で PUT リクエストがサポートさ�
 
 [!DNL Adobe Experience Platform] セグメント名は、[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target]（AT）アクティビティの[!UICONTROL 重要な属性]レポートに表示されません。（上位 3813 項目）
 
-### [!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題が発生する場合があります
+### アーカイブ [!UICONTROL 自動ターゲット] アクティビティの原因が同期の問題である可能性がある
 
 非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。 この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。 これらは[!UICONTROL 非アクティブ]状態のままにします。 （TGT-40885）
 

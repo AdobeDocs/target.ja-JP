@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 59%
+source-wordcount: '1218'
+ht-degree: 57%
 
 ---
 
@@ -100,6 +100,8 @@ ht-degree: 59%
 >[!NOTE]
 >
 >を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) をクリックします。
+>
+>エクスペリエンスフラグメントは、 [!DNL Recommendations] アクティビティ。 ただし、レコメンデーションでエクスペリエンスフラグメントを使用するには、 [!UICONTROL A/B テスト] アクティビティ ( [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]) または [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティと [レコメンデーションをオファーとして含める](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **VEC を使用してエクスペリエンスフラグメントを使用するには：**
 

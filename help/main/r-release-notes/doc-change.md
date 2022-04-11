@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 97%
+source-wordcount: '3664'
+ht-degree: 96%
 
 ---
 
@@ -15,10 +15,21 @@ ht-degree: 97%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
+## Adobe Target Standard/Premium 22.3.1(2022 年 4 月 4 日～6 日；よろめき解放 )
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 4月4日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 リリースに関する情報を追加しました。 |
+
 ## Adobe Target Standard／Premium 22.2.1（2022年2月1日（PT）） 
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3 月 31 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースに関する [!DNL Target] Platform リリース。 |
+| 3月28日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target] Platform リリース。 |
+| 3月22日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースに関する [!DNL Target Standard/Premium] カスタマーエンジニアリング修正リリース。 |
+|  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 リリースに関するプレリリース情報を追加しました。 |
+| 3月17日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target Standard/Premium] カスタマーエンジニアリング修正リリース。 |
 | 3月9日 | [既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 次の既知の問題を追加しました。<ul><li>フォームベースの Experience Composer で作成したアクティビティでアドホックオファーを持つ場所の削除</li></ul> |
 |  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | プロファイルの同期に関する以下の文を更新しました。「更新は 5～10 分ごとにプロファイルストアと同期されます。」 |
 | 3月8日 | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 3 月 31 日）</li></ul> |
