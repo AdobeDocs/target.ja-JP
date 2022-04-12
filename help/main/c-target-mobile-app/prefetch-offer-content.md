@@ -5,10 +5,10 @@ title: モバイルアプリ用のオファーコンテンツをプリフェッ�
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 47%
 iOSおよび Android Mobile SDK でプリフェッチメソッドを使用する際は、次の制限を考慮してください。
 
 * プリフェッチコンテンツは、起動間で保持されません。プリフェッチコンテンツは、アプリケーションが稼働しているか `clearPrefetchCache()` 、メソッドが呼び出されるまでキャッシュされます。
-* プリフェッチ機能は、次の用にサポートされていません： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] トラフィック配分方法、 [!UICONTROL Automated Personalization] または [!UICONTROL Recommendations] アクティビティのタイプ、または [A/B または XT アクティビティ内の recommendations オファー](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 プリフェッチメソッド、パブリッククラス、コードサンプルなどについて詳しくは、以下のドキュメントを参照してください。
 
