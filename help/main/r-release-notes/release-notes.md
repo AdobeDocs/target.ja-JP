@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 49%
+source-wordcount: '701'
+ht-degree: 47%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 49%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、 [!DNL Target] API、SDK、 [!DNL Adobe Experience Platform Web SDK]、at.js およびその他のプラットフォームの変更も、該当する場合は含まれます。
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。
+
+## Target プラットフォームリリース（2022 年 4 月 14 日）
+
+このリリースには、次の更新が含まれています。
+
+* プロファイルスクリプトを使用して取り込む際に、IP アドレスの最後のオクテットが適切に不明化される問題を修正しました。 （TNT-44076）
 
 ## [!DNL Target Standard/Premium] 22.3.1（ちらつきリリース、日付決定）
 

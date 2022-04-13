@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '3664'
+source-wordcount: '3692'
 ht-degree: 96%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 4月4日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 リリースに関する情報を追加しました。 |
+| 4月13日 | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 4 月 28 日）</li></ul> |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースに関する [!DNL Target] Platform リリース。 |
+| 4月4日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を更新しました： [!DNL Target Standard/Premium] 22.3.1 リリースです。 |
 
 ## Adobe Target Standard／Premium 22.2.1（2022年2月1日（PT）） 
 

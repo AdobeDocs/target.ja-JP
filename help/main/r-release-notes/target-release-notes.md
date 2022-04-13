@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 今後のリリースには、どのような新機能および機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01c36c0288a15d68f99a6c2f136da9066ccf2e62
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 34%
+source-wordcount: '362'
+ht-degree: 37%
 
 ---
 
@@ -18,12 +18,6 @@ ht-degree: 34%
 **最終更新日：2022 年 4 月 13 日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
-
-## Target プラットフォームリリース（2022 年 4 月 14 日）
-
-このリリースには、次の更新が含まれています。
-
-* プロファイルスクリプトを使用して取り込む際に、IP アドレスの最後のオクテットが適切に不明化される問題を修正しました。 （TNT-44076）
 
 ## [!DNL Target Standard/Premium] 22.3.1（ちらつきリリース、日付決定）
 
