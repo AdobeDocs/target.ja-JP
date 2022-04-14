@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 96%
+source-wordcount: '3725'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4 月 15 日 | [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | の並べ替えの節に、との一貫しない VEC 動作に対処する方法を説明する情報を追加しました。 [!UICONTROL 移動] および [!UICONTROL 並べ替え] DOM 要素の遅延読み込みによるアクション。 |
 | 4月13日 | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 4 月 28 日）</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースに関する [!DNL Target] Platform リリース。 |
 | 4月4日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を更新しました： [!DNL Target Standard/Premium] 22.3.1 リリースです。 |
