@@ -4,10 +4,10 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 0%
 
 で作成したオファーの決定を追加 [!DNL Adobe Journey Optimizer] から [!DNL Target] アクティビティ（手動） [!UICONTROL A/B テスト] または [!UICONTROL エクスペリエンスのターゲット設定]) を [!UICONTROL Visual Experience Composer] (VEC) または [!UICONTROL フォームベースのコンポーザー] を使用して、パーソナライズされたオファーをインバウンドチャネルで訪問者にテストし配信する [!DNL Target].
 
-詳しくは、 [!DNL Adobe Journey Optimizer]を参照してください。 [Journey Optimizerの概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 内 *Journey Optimizer* ドキュメント。
+詳しくは、 [!DNL Adobe Journey Optimizer] オファーの決定については、 *[!DNL Journey Optimizer]* ドキュメント：
 
-オファーの決定について詳しくは、 [決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 内 *[!DNL Journey Optimizer]* ドキュメント。
+* [Journey Optimizer の概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## 前提条件
 
@@ -96,7 +98,7 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 ## メモと制限事項
 
-オファーの決定を扱う際は、次の注意事項と制限事項を考慮してください。
+オファーの決定を扱う際は、次の点に注意してください。
 
 * offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
