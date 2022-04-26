@@ -4,7 +4,7 @@ description: Adobeの変更パネルの使用方法を説明します [!DNL Targ
 title: 自分のページに対してどのような変更を行うことができますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: e65a830c7bb92b65ac999c135bed1687af177cc5
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 91%
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # 変更
 
-変更ページに関する情報 ( [!DNL Adobe Target] ページに対する変更を表示し、さらに変更（CSS セレクター、mbox、カスタムコード）を追加できます。
+次に関する情報： [!UICONTROL 変更] ページ内 [!DNL Adobe Target] ページに対する変更を表示し、さらに変更（CSS セレクター、mbox、カスタムコード）を追加できます。
 
 変更ページには、Visual Experience Composer(VEC) でページに対しておこなわれたすべての変更が表示され、ページの各要素をクリックして追加の変更を加えることができます。 [アクションの選択](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。さらに、CSS セレクター、mbox、カスタムコードなどのタイプの変更を加えることもできます。
 
