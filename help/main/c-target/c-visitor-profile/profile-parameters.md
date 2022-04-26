@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobeで使用で�
 title: プロファイル属性とは
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 49%
+source-wordcount: '2423'
+ht-degree: 48%
 
 ---
 
@@ -72,6 +72,9 @@ if (mbox.name == 'Track_Interest') {
 
 * コード内で、を使用して、プロファイルスクリプト属性を参照します（定義中のパラメーター自体も含む）。 `user.get('parameterName')`.
 * を使用すると、スクリプトを次回実行する際（次の mbox リクエストの発生時）にアクセスできる変数を保存できます。 `user.setLocal('variable_name', 'value')`. 変数を参照 `user.getLocal('variable_name')` します。このプロセスは、最後のリクエストの日時を参照する場合に役立ちます。
+
+   これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。
+
 * パラメーターおよび値の大文字と小文字は区別されます。 アクティビティまたはテスト中に受け取るパラメーターおよび値の大文字と小文字を一致させます。
 * その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
 * スクリプトを無効にした後も、パラメーターはプロファイルに残ります。 アクティビティのオーディエンスで使用されるパラメーターが既にプロファイルに含まれているユーザーは、そのアクティビティの対象となります。
