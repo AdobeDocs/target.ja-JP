@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 55%
+source-wordcount: '1324'
+ht-degree: 53%
 
 ---
 
@@ -150,11 +150,13 @@ ht-degree: 55%
 * エクスペリエンスフラグメントを作成するには、 [!DNL Adobe I/O]. 前述のように、AEMを使用してエクスペリエンスフラグメントを作成します。
 * AEMでエクスペリエンスフラグメントを更新する場合は、エクスペリエンスフラグメントを公開し、に書き出す必要があります。 [!DNL Target] 再び [!DNL Target] では、最新の変更を使用できます。
 
-## Target に書き出したエクスペリエンスフラグメントからの ClientLibs の削除
+## Target に書き出したエクスペリエンスフラグメントから ClientLibs と不要なHTMLを削除する
 
-エクスペリエンスフラグメントオファーを [!DNL Target] AEMが配信するページでは、ターゲットページに必要なすべてのクライアントライブラリが既に含まれています。 また、XF オファーの不要な HTML も必要ありません。
+エクスペリエンスフラグメントオファーを [!DNL Target] AEMが配信するページでは、ターゲットページに必要なすべてのクライアントライブラリが既に含まれています。 また、不要なHTML要素もオファーに含める必要はありません。
 
-詳しくは、 [このブログ投稿](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
+HTMLページ全体がエクスペリエンスフラグメントをラップして問題を引き起こす場合があります。 エクスペリエンスフラグメントが小さなHTMLであり、HTML、HEAD、本文などを含む完全なHTMLページではないことを確認します。
+
+詳しくは、次のブログ投稿を参照してください。 [AEM 6.5:Target に書き出したエクスペリエンスフラグメントからの ClientLibs の削除](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
 
 ## トレーニングビデオ：でのAEMエクスペリエンスフラグメントの使用 [!DNL Adobe Target]
 

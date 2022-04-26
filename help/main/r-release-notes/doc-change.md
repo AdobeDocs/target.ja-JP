@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 95%
+source-wordcount: '3817'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 4月26日 | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 以下の FAQ を追加しました。<ul><li>A4T アクティビティでリダイレクトオファーを使用する際に、トラフィック配分の不一致を最小限に抑えるには、どうすればよいですか？</li></ul> |
+| 4月26日 | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Targetを使用したリアルタイムパーソナライゼーション（2022 年 4 月 29 日）</li><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 5 月 25 日）</li></ul> |
+|  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 以下の FAQ を追加しました。<ul><li>A4T アクティビティでリダイレクトオファーを使用する際に、トラフィック配分の不一致を最小限に抑えるには、どうすればよいですか？</li></ul> |
+|  | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 次の節を追加しました。<ul><li>Target に書き出したエクスペリエンスフラグメントから ClientLibs と不要なHTMLを削除する</li></ul> |
 | 4月21日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target] 2022 年 4 月 18 日にプラットフォームリリースが予定されています。 |
 | 4月20日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 リリースに関するプレリリース情報を追加しました。 |
 | 4 月 15 日 | [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | の並べ替えの節に、との一貫しない VEC 動作に対処する方法を説明する情報を追加しました。 [!UICONTROL 移動] および [!UICONTROL 並べ替え] DOM 要素の遅延読み込みによるアクション。 |
