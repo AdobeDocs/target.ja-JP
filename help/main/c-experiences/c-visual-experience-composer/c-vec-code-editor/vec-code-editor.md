@@ -4,9 +4,9 @@ description: Adobeの変更パネルの使用方法を説明します [!DNL Targ
 title: 自分のページに対してどのような変更を行うことができますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e65a830c7bb92b65ac999c135bed1687af177cc5
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 91%
 
 ---
@@ -157,20 +157,6 @@ ht-degree: 91%
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* DOM ポーリングでの置き換え（`elementOnLoad` プラグイン使用）
-
-   この方法のメリットは、DOM 準備完了の前に置き換えが実行されることです。プラグインは、事前の非表示および表示の処理をおこないます。要素の ID が必要です。
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
