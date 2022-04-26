@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 57%
+source-wordcount: '1277'
+ht-degree: 55%
 
 ---
 
@@ -149,6 +149,12 @@ ht-degree: 57%
 * エクスペリエンスフラグメントが [!DNL Target] をHTMLオファー エクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
 * エクスペリエンスフラグメントを作成するには、 [!DNL Adobe I/O]. 前述のように、AEMを使用してエクスペリエンスフラグメントを作成します。
 * AEMでエクスペリエンスフラグメントを更新する場合は、エクスペリエンスフラグメントを公開し、に書き出す必要があります。 [!DNL Target] 再び [!DNL Target] では、最新の変更を使用できます。
+
+## Target に書き出したエクスペリエンスフラグメントからの ClientLibs の削除
+
+エクスペリエンスフラグメントオファーを [!DNL Target] AEMが配信するページでは、ターゲットページに必要なすべてのクライアントライブラリが既に含まれています。 また、XF オファーの不要な HTML も必要ありません。
+
+詳しくは、 [このブログ投稿](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
 
 ## トレーニングビデオ：でのAEMエクスペリエンスフラグメントの使用 [!DNL Adobe Target]
 
