@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 今後のリリースには、どのような新機能および機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: f5c9b6e4b9c37027049e3d8b2d0dc31002853df7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 50%
+source-wordcount: '241'
+ht-degree: 53%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 50%
 * このリリースでは、次の用にコンテンツをプリフェッチできます： [!UICONTROL 自動パーソナライゼーション] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ（以前はから返されていませんでした） [!DNL Target]) をクリックします。 AP/AT アクティビティが配信パス上にあり、コンテンツ配信に同じ場所を使用する他の AB/XT アクティビティよりも優先度が高い場合、プリフェッチ呼び出し（「実行」フローに対する変更なし）の場合にエンドユーザーに表示されるエクスペリエンスが変更されます。
 
 ## [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 29 日）
-
-このリリースは、次のように時間をずらして提供される予定です。
 
 このリリースには、次の修正が含まれています。
 
