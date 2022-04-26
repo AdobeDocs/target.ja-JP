@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
 workflow-type: tm+mt
-source-wordcount: '3751'
+source-wordcount: '3777'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月26日 | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 以下の FAQ を追加しました。<ul><li>A4T アクティビティでリダイレクトオファーを使用する際に、トラフィック配分の不一致を最小限に抑えるには、どうすればよいですか？</li></ul> |
 | 4月21日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target] 2022 年 4 月 18 日にプラットフォームリリースが予定されています。 |
 | 4月20日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 リリースに関するプレリリース情報を追加しました。 |
 | 4 月 15 日 | [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | の並べ替えの節に、との一貫しない VEC 動作に対処する方法を説明する情報を追加しました。 [!UICONTROL 移動] および [!UICONTROL 並べ替え] DOM 要素の遅延読み込みによるアクション。 |

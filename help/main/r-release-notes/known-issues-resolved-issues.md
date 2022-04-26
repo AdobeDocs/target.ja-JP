@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -77,9 +77,6 @@ EEC の問題により、現在、EEC で PUT リクエストがサポートさ�
 
 ### リダイレクトオファー {#redirect}
 
-リダイレクトオファーの既知の問題を以下に示します。
-
-* Analytics for Target（A4T）で設定されたアクティビティのリダイレクトオファーを使用すると、限られた数の顧客で、トラフィック分散の平方偏差の比率が高く報告されていました。
 * at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
 ### Visual Experience Composer（VEC）内のページの読み込みのキャンセル  {#cancel}

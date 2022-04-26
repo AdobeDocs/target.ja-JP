@@ -4,10 +4,10 @@ description: Analytics を使用して [!DNL Target] (A4T)。 A4T では、 [!DN
 title: A4T を使用したリダイレクトオファーに関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 62%
+source-wordcount: '1468'
+ht-degree: 55%
 
 ---
 
@@ -36,6 +36,21 @@ ht-degree: 62%
 ## 場合により A4T と Analytics の間でデータに相違があるのはなぜですか。
 
 データに多少相違があることが予想されます。詳しくは、[A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)を参照してください。
+
+## A4T アクティビティでリダイレクトオファーを使用する際に、トラフィック配分の不一致を最小限に抑えるには、どうすればよいですか？ {#discrepancies}
+
+限られた数のお客様が、 [!UICONTROL Analytics for Target] (A4T)。
+
+次の点に留意してください。
+
+* 順序が正しくありません [!DNL Target] および [!DNL Analytics] 呼び出しは、より高い分散度を引き起こす可能性があります。
+
+   この [!DNL Target] 呼び出しは [!DNL Analytics] を呼び出す（リダイレクトが発生する場合）ことをお勧めします。
+
+* A4T のリダイレクトアクティビティでリダイレクトオファーを使用していることを確認します。
+* 複数の [!DNL Target] （リダイレクトが発生する）ソースページの場所リクエスト [!DNL Adobe] では、最初の [!DNL Target] 場所のリクエスト。
+
+   最初の [!DNL Target] 場所のリクエストを使用すると、他のでアクティビティの選定がおこなわれる可能性が低くなります [!DNL Target] 場所のリクエストと、レポートでカウントされる情報を含んでいます。 リダイレクトされた訪問者は、エクスペリエンスが表示されないので、他のアクティビティのレポートでカウントされる必要はありません。
 
 ## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
