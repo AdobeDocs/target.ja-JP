@@ -5,7 +5,7 @@ title: Target に関するリソースや連絡先情報はどこで入手でき
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、[Experience Cloud コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
+ご質問は、[Experience Cloud コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
