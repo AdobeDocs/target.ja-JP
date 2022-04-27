@@ -5,7 +5,7 @@ title: ' [!DNL Target]  やその他のアドビ製品のステータスにつ�
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
