@@ -5,10 +5,10 @@ title: Enterprise ユーザー権限とは何ですか？また、それらの�
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -261,6 +261,22 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 残念ながら、アクティビティを別のワークスペースに移動させることはできません。ただし、レポートデータが持ち越されないことを確認して、アクティビティを任意のワークスペースにコピーできます。 詳しくは、[ワークスペースを使用している際にアクティビティをコピー／編集する](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)の「ワークスペースを使用している際にアクティビティをコピー／編集する」を参照してください。
 
 移行前に作成したアクティビティは、編集やプロパティの割り当てがおこなわれない限り、これまでと同じくデフォルトのワークスペースで実行されます。特定のワークスペースの下のアクティビティは、そのワークスペースに割り当てられたプロパティに従うので、移行前とは異なる動作をする場合があります。
+
+### オーディエンスを別のワークスペースに移動させることはできますか？ {#move-audience}
+
+はい、 [!UICONTROL その他のアクション] オプションを [!UICONTROL オーディエンス] ページ。
+
+1. 次をクリック： **[!UICONTROL その他のアクション]** ボタン（三つの省略記号）をクリックし、 **[!UICONTROL 移動]**.
+
+   ![その他のアクション/移動](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. 目的のワークスペースを **[!UICONTROL Workspace]** ドロップダウンリストから、 **[!UICONTROL 移動]**.
+
+   ![新しいワークスペースに移動する対象のオーディエンスを選択](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>オーディエンスを編集するには、適切な権限が必要です。 また、オーディエンスを他のアクティビティで使用しないでください。 オーディエンスが他のアクティビティで使用されていて、オーディエンスを別のワークステーションに移動する場合は、オーディエンスを使用している他のアクティビティから削除します。
 
 ### プロパティが割り当てられているにもかかわらず、プロパティが関連付けられていないことを示すエラーメッセージが表示されるのはなぜですか。
 
