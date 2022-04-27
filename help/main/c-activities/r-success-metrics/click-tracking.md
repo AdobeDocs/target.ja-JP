@@ -5,7 +5,7 @@ title: クリックの追跡とは
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
 ht-degree: 100%
 
