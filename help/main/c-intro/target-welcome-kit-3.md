@@ -5,7 +5,7 @@ title: テストとパーソナライゼーションのアイデアを作成す�
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
 ht-degree: 100%
 
