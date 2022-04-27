@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 今後のリリースには、どのような新機能および機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 71%
+source-wordcount: '188'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 このリリースには、次の修正が含まれています。
 
 * 3 つの買い物かごベースのアルゴリズムで、 [!DNL Target] バックエンド。 （TGT-43456）
-* 有効 [!DNL Target] T2E および PBA（ポリシーベースの認証）対応組織の UI トークンの更新 (TGT-42590)。
+* 有効 [!DNL Target] で有効になっている組織の UI トークンの更新 [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} およびポリシーベースの認証 (PBA)。 （TGT-42590）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
