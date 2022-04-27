@@ -4,32 +4,16 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 65%
+source-wordcount: '772'
+ht-degree: 69%
 
 ---
 
 # Target のお知らせとイベント
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
-
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 4 月 27 日）
-
-* **2022 年 4 月 27 日水曜日**
-* **【午前】8 時 00 分(PDT、UTC -7)**
-* **[詳細情報とユーザー登録](https://adobe.ly/371Uny2)**
-
-主要ソリューションコンサルタントの James McTiernan 氏は、次の専門知識に関するお客様の質問に回答します。
-
-* [!UICONTROL A/B テスト] アクティビティ
-* [!UICONTROL 多変量分析テスト] アクティビティ
-* [!UICONTROL Recommendations] アクティビティ
-* パーソナライゼーション
-* 一般 [!UICONTROL Adobe Target] トピック
-
-テクニカルサポートエンジニアのサイモン・チェンがジェームスを支援します。
 
 ## ウェビナー：Adobe Targetを使用したリアルタイムパーソナライゼーション（2022 年 4 月 29 日）
 

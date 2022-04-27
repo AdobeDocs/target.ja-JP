@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、 [!DNL Target] API、SDK、 [!DNL Adobe Experience Platform Web SDK]、at.js およびその他のプラットフォームの変更も、該当する場合は含まれます。
 
 括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。
+
+## [!DNL Target] プラットフォームリリース（2022 年 4 月 28 日）
+
+このリリースには、次の変更が含まれています。
+
+* このリリースでは、次の用にコンテンツをプリフェッチできます： [!UICONTROL 自動パーソナライゼーション] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ（以前はから返されていませんでした） [!DNL Target]) をクリックします。 AP/AT アクティビティが配信パス上にあり、コンテンツ配信に同じ場所を使用する他の AB/XT アクティビティよりも優先度が高い場合、プリフェッチ呼び出し（「実行」フローに対する変更なし）の場合にエンドユーザーに表示されるエクスペリエンスが変更されます。
 
 ## Target プラットフォームリリース（2022 年 4 月 14 日）
 
