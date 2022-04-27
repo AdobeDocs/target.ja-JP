@@ -5,7 +5,7 @@ title: Target で初めてアクティビティを作成する必要がありま
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1729'
 ht-degree: 100%
 
