@@ -6,7 +6,7 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
 ht-degree: 100%
 
