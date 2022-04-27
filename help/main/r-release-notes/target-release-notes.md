@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 今後のリリースには、どのような新機能および機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '180'
+ht-degree: 58%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 68%
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Target およびその他の Adobe Experience Cloud ソリューションの今後の製品強化に関する事前通知を受信するには、Adobe Priority Product Update にサインアップします。
+への今後の製品強化に関する事前通知を受け取るには、以下を実行します。 [!DNL Target] その他 [!DNL Adobe Experience Cloud] ソリューション，新規登録 [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
