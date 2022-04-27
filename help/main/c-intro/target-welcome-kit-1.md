@@ -5,7 +5,7 @@ title: Target を使い始めるにはどうすればよいですか。
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
