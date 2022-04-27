@@ -5,7 +5,7 @@ title: 多変量分析テストのベストプラクティスはどのような�
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
