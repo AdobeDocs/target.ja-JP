@@ -5,7 +5,7 @@ title: Adobe  [!DNL Target] インサイダーニュースレターとは
 feature: Release Notes, Overview
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2149'
 ht-degree: 100%
 
