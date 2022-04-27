@@ -5,7 +5,7 @@ title: 最適化とパーソナライゼーションに関する質問の回答�
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2754'
 ht-degree: 100%
 
