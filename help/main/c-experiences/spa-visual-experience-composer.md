@@ -5,7 +5,7 @@ title: シングルページアプリケーション Visual Experience Composer�
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3698'
 ht-degree: 100%
 
