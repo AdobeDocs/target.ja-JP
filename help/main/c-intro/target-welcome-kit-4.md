@@ -5,7 +5,7 @@ title: Target を使用する際のヒントとテクニックはどこで見つ
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2897'
 ht-degree: 100%
 
