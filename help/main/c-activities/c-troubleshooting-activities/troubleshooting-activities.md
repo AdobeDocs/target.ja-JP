@@ -5,7 +5,7 @@ title: アクティビティのトラブルシューティング方法
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
 ht-degree: 100%
 
