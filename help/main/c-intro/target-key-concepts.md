@@ -5,7 +5,7 @@ title: Target の使い方
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
 ht-degree: 100%
 
