@@ -5,7 +5,7 @@ title: A4T でのレポート表示に関する FAQ
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2543'
 ht-degree: 100%
 
