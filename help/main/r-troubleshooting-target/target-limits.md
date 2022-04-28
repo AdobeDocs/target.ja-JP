@@ -5,8 +5,8 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
 
@@ -192,7 +192,7 @@ ht-degree: 100%
    * プロファイルパラメーター：50
    * プロファイルパラメーター名の最大の長さは 128 です
    * プロファイルパラメーター値を NULL にすることはできません
-   * プロファイルパラメーター値の最大の長さは 256 です
+   * プロファイルパラメーター値の最大の長さは 5000 です
 
    **配信 API エンドポイント**：
 
@@ -203,7 +203,7 @@ ht-degree: 100%
    * プロファイルパラメーター：50
    * プロファイルパラメーター名の最大の長さは 128 です
    * プロファイルパラメーター値を NULL にすることはできません
-   * プロファイルパラメーター値の最大の長さは 256 です
+   * プロファイルパラメーター値の最大の長さは 5000 です
 
 
 
