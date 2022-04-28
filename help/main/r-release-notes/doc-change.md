@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3854'
 ht-degree: 94%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 94%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## Adobe Target Standard/Premium 22.3.1(2022 年 4 月 4 日～6 日；よろめき解放 )
+## Adobe Target Standard/Premium 22.4.1（4 月 29 日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 4 月 29 日 | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 以下の FAQ を追加しました。<ul><li>オーディエンスを別のワークスペースに移動させることはできますか？</li></ul> |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.4.1 および Target プラットフォーム（2022 年 4 月 28 日）リリースです。 |
+
+## Adobe Target Standard/Premium 22.3.1（4 月 5 日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
