@@ -5,10 +5,10 @@ title: Adobe Target の様々な文字、サイズ、その他の制限には何
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 ### アクティビティあたりのエクスペリエンス
 
-* **制限**：エクスペリエンスターゲット設定（XT）、A/B テスト、多変量分析テスト（MVT）および自動ターゲットアクティビティあたり 2,000 個のエクスペリエンス。
+* **制限**:1 回につき 2,000 個のエクスペリエンス [!UICONTROL エクスペリエンスのターゲット設定] (XT), [!UICONTROL A/B テスト], [!UICONTROL 多変量分析テスト] (MVT) および [!UICONTROL 自動ターゲット] アクティビティ。
 
    Automated Personalization（AP）アクティビティあたり 30,000 個のエクスペリエンス。
 
