@@ -4,7 +4,7 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
+source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 +Offer decisioning) または [!DNL Adobe Experience Platform] そして [!UICONTROL offer decisioning] アプリケーションサービスアドオン。
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO +Offer decisioning) または [!DNL Adobe Experience Platform] そして [!UICONTROL offer decisioning] アプリケーションサービスアドオン。
 
 ## 使用例
 
