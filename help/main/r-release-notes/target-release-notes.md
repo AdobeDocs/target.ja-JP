@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 今後のリリースには、どのような新機能および機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
+source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 58%
+source-wordcount: '525'
+ht-degree: 23%
 
 ---
 
@@ -15,16 +15,35 @@ ht-degree: 58%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022 年 4 月 27 日（PT）**
+**最終更新日：2022 年 5 月 5 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 29 日）
+## [!DNL Target Standard/Premium] 22.5.1 (stagger リリース；2022 年 5 月 10～12 日 )
 
-このリリースには、次の修正が含まれています。
+このリリースは、次のように時間をずらして提供される予定です。
 
-* 3 つの買い物かごベースのアルゴリズムで、 [!DNL Target] バックエンド。 （TGT-43456）
-* 有効 [!DNL Target] で有効になっている組織の UI トークンの更新 [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} およびポリシーベースの認証 (PBA)。 （TGT-42590）
+* **5 月 11 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **5 月 11 日**:アジア太平洋 (APAC) 地域
+* **5 月 13 日**:北米（北米）地域
+
+このリリースには、次の機能強化および修正が含まれています。
+
+* JavaScript エラーが発生し、一部のお客様が特定のアクティビティの詳細にアクセスできない問題を修正しました [!UICONTROL Automated Personalization] (AP) アクティビティ （TGT-43526）
+* 一部の顧客が AP アクティビティに特定のオファーを追加（または編集）できなかった問題を修正しました。 （TGT-43503）
+* の [!DNL Target] 次のエラーメッセージを表示した UI。「グローバル mbox が同期していない可能性があります。 再保存してみてください。」というエラーメッセージが表示されることがある問題を修正しました。この問題は UI の問題で、お客様の実装には影響しませんでした。 （TGT-43475）
+* 新しい [!UICONTROL オーディエンス] UI がデプロイされました。 （TGT-43433）
+* 顧客が重複を選択できる問題を修正しました [!DNL Adobe Audience Manager] (AAM) オーディエンスを編集する際に使用します。 （TGT-43430）
+* お客様が別のワークスペースでも重複したオーディエンスを作成できなかった問題を修正しました。 （TGT-43423）
+* アクティビティでアドホックオファーを持つ場所を、 [!UICONTROL フォームベースの Experience Composer]. （TGT-43315）
+* 画像オファーをクリックして UI を更新した後に、コードオファーにアクセスできない問題を修正しました。 （TGT-43566）
+* 指標のリストが [!DNL Target] を使用するアクティビティを作成する際の UI [!DNL Analytics for Target] (A4T) は、 [!DNL Adobe Analytics]. （TGT-43294）
+* 時々 [!UICONTROL 設定] ページリクエストが失敗しました。 例えば、[!UICONTROL レポートExperience Cloudソリューション]&quot; &quot;のオプション[!UICONTROL Analytics]&quot;から&quot;[!UICONTROL ターゲット]&quot;または&quot;[!UICONTROL アクティビティごとに選択]&quot;. （TGT-43272）
+* プロファイルスクリプトの変更が正しく更新されない場合がある問題を修正しました。 （TGT-43249）
+* オーディエンスを別のワークスペースに移動しようとすると次のエラーが発生する問題を修正しました。「お客様のご要望は、完了できません。 問題が解決しない場合は、AdobeClientCare にお問い合わせください。」 （TGT-43212）
+* シングルページアプリ (SPA) ページのカスタムコード変更の複製時にエラーが発生するエラーを修正しました。 （TGT-43137）
+* SPAでの「ページビュー数」指標の処理方法を変更しました。 ページ URL が [!DNL Target] UI に「ビュー」が表示されるようになりました。 （TGT-41200）
+* エクスペリエンスを複製してプロモーションを編集すると、元のプロモーションが影響を受ける問題を修正しました。 （TGT-41775）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
