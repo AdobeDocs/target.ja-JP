@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
 workflow-type: tm+mt
-source-wordcount: '3908'
+source-wordcount: '3919'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月10日 | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 リリースに関するプレリリース情報を追加しました。 |
 | 4 月 29 日 | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 以下の FAQ を追加しました。<ul><li>オーディエンスを別のワークスペースに移動させることはできますか？</li></ul> |
 |  | [[!UICONTROL 自動配分の]概要](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 次の FAQ を追加しました。<ul><li>以下が可能： [!UICONTROL 自動配分] アクティビティは、テストの過程でルックバックウィンドウを調整し、経時的なトレンドの変化を考慮に入れますか？</li><li>実行 [!UICONTROL 自動配分] 訪問者がアクティビティの資格を得る際に閲覧したものとは異なる勝者エクスペリエンスを再訪問者に表示しますか？</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.4.1 および Target プラットフォーム（2022 年 4 月 28 日）リリースです。 |
