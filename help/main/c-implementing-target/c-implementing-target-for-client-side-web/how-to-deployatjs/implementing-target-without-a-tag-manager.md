@@ -5,10 +5,10 @@ title: 実装可能か [!DNL Target] タグマネージャーがない場合、
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 51%
+source-wordcount: '1794'
+ht-degree: 48%
 
 ---
 
@@ -82,6 +82,20 @@ at.js の設定を編集するには、 **[!UICONTROL 編集]** をクリック�
 |--- |--- |
 | カスタムライブラリヘッダー | ライブラリの最上部に含めるカスタム JavaScript を追加します。 |
 | カスタムライブラリのフッター | ライブラリの最下部に含めるカスタム JavaScript を追加します。 |
+
+### オンデバイス判定を使用した実装方法
+
+バージョン 2.5.0 以降、at.js は On-Device Decisioning を提供します。 オンデバイス判定を使用して、 [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) および [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) (XT) ブラウザー上でのアクティビティ。 [!DNL Adobe Target] Edge ネットワーク。
+
+詳しくは、次を参照してください。
+
+* クライアント側： [at.js のオンデバイス判定](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* サーバー側： [オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* サーバー側： [オンデバイス判定](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
 
 ### プロファイル API
 
