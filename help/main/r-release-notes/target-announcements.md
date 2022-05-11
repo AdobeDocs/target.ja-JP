@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 69%
+source-wordcount: '1144'
+ht-degree: 30%
 
 ---
 
@@ -15,37 +15,121 @@ ht-degree: 69%
 
 [!DNL Adobe Target] スキルビルダーセッション、開発者チャット、ウェビナー、[!DNL Target] コーヒーブレイクセッションなど、今後のイベントに関するお知らせと情報です。
 
-## ウェビナー：Adobe Targetを使用したリアルタイムパーソナライゼーション（2022 年 4 月 29 日）
-
-* **2022 年 4 月 28 日木曜日**
-* **午後 1 時～午後 2 時。(EDT、UTC -4)**
-* **[詳細情報とユーザー登録](https://real-time.dxfieldmarketing.adobeevents.com/)**
-
-現在、これらの様々なプロファイルソースを使用してデジタルエクスペリエンスをパーソナライズするには、どうすればよいですか？ 将来の成功のために、チームをどのように位置づけますか？ すべての顧客インタラクションを最適化しながら、ブランドが顧客を真に知り、尊重できるメリットは何ですか。
-
-このセッションでは、以下の方法について説明します。 [!DNL Adobe Target] は、複数のソースをまたいでデータを組み合わせ、リアルタイムパーソナライゼーションに関する以下の点に関するギャップを埋めます。
-
-* パーソナライズ機能のパフォーマンスと速度が重要で、ビジネスの成長を促進する理由
-* チームがファーストパーティのデータ戦略を構築し、データの断片化の課題を解決する方法
-* パーソナライズされたエクスペリエンスをミリ秒単位で配信するためのエンドツーエンドのワークフロー
-* 関連するメッセージ、コンテンツ、オファーをリアルタイムで利用して顧客や見込み客を惹きつけるブランドのユースケースです。
-
 ## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 5 月 25 日）
 
 * **2022 年 5 月 25 日（水）**
 * **【午前】8 時 00 分(PDT、UTC -7)**
 * **[詳細情報とユーザー登録](https://adobe.ly/3LbOj4G)**
 
-Adobe Target Product Marketing チームの Brent Kostak と Drew Burns は、専門知識の分野に関するお客様の質問に答える予定です。 リアルタイムパーソナライゼーションの Web セミナーで取り上げた次のトピックに関する質問を投稿するようにお客様を招待します。
+ブレント・コスタックとドルー・バーンズ [!DNL Adobe Target] 製品マーケティングチームは、専門知識の分野に関するお客様の質問に回答します。 リアルタイムパーソナライゼーションの Web セミナー（以下のアクセス録画）で取り上げた次のトピックに関する質問を投稿するようにお客様を招待します。
 
-* Adobe TargetとReal-Time CDPを使用した共有オーディエンスの作成
+* での共有オーディエンスの作成 [!DNL Adobe Target] とReal-Time CDP
 * データの断片化に関する課題を解決するファーストパーティのデータ戦略の構築
 * ミリ秒でのパーソナライゼーションのためのエンドツーエンドのワークフローのデプロイ
 * 関連するメッセージ、コンテンツ、オファーをリアルタイムで配信して、エンゲージメントを促進
 
 また、テクニカルサポートエンジニアの Kai Motoyama 氏も、ディスカッションのスレッドに参加し、追加のサポートを提供します。
 
-## ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
+## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
+
+以下のウェビナーに登録して、顧客が [!DNL Adobe Target] パーソナライゼーションと最適化の目標を達成するには：
+
+### ディックのスポーツ用品：個人設定と小売での風景の変化
+
+* **2022 年 5 月 19 日（木）**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Shawn Wilkinson（e コマースパーソナライゼーションマネージャー）に参加して、 [!DNL Target] は、平均的な訪問者を再選手に変えるのに役立っています。
+
+Dick&#39;s Sporting Goods が 2 桁の成長を促す仕組みを説明します。
+
+* 小売業向けの高性能パーソナライゼーションプログラムの計画と立ち上げ方法
+* 組織全体での買い込みが、障害や障害を克服する上で不可欠な理由
+* Web およびモバイルにまたがるパーソナライゼーションおよび実験アクティビティを拡大/縮小することによる、ビジネス全体への全体的な影響
+* 分析データを使用して平均的な訪問者を再選手に変える小売りのヒントとテクニック
+
+### Adobe:パーソナライズ業界インサイダー — 金融サービスと保険
+
+* **2022 年 5 月 24 日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Christopher Young(Director、業界戦略金融サービス ) と James Capasso(AdobePremier Support) に参加して、企業が顧客エンゲージメントの中心にパーソナライゼーションを置きながら、需要の即時変化にどのように対応しているかを学びます。 金融サービス企業が、最近のインフレパターンや投資に関する状況を懸念している顧客を世界中のお客様に支援し、知らせる方法を学びます。 
+
+### シティナショナルバンク：デジタル最適化で上位 1%を達成する方法
+
+* **2022 年 5 月 26 日木曜日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+City National Bank が「デジタル化された関係銀行」の 1 つになった経緯を学ぶには、Heather Adkins(SVP Marketing Technology Manager) に参加してください。
+
+City National Bank の活用方法を学ぶ [!DNL Target] 移動先：
+
+* テストと実験、パーソナライゼーション、AI 自動化アクティビティの拡張
+* チャネルをまたいで勝者エクスペリエンスを推進し、真の関係を構築
+* パーソナライズされたオファーのエンゲージメントと採用を増やし、ビジネスの成長を促進
+* マルチチャネルキャンペーンを最適化して、価値創出までの時間と ROI を実現します。
+
+### Adobe:精度を備えたパーソナライゼーション — [!DNL Adobe Analytics] および [!DNL Target]
+
+* **2022 年 6 月 2 日木曜日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Jordan Ison( [!DNL Adobe]) を参照してください。
+
+* マーケター、開発者、製品チームが AI の「ブラックボックス」を開いて、将来のテストとパーソナライゼーション戦略を推進する方法
+* Web、モバイルアプリ、E メール、IoT、各デジタルタッチポイントを最適化して高いコンバージョンとエンゲージメントを実現する際の課題を解決
+* のステップバイステップのガイドツアー [!DNL Adobe Analytics] および [!DNL Target] パーソナライゼーション、ターゲティングおよびテスト用のワークフロー
+* 主要なビジュアライゼーションとセグメント化分析で、訪問者の行動を予測する属性と最も重要な属性を解除する上位の使用例
+
+### シティナショナルバンク：ヒーローにゼロ — パーソナライゼーションプログラムの開始とスケーリング
+
+* **2022 年 6 月 9 日木曜日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **詳細情報と登録情報は近日公開予定です**
+
+Heather Adkins（SVP マーケティングテクノロジー）に参加し、ブランドロイヤルティを向上させるための「リレーションシップバンク」になるためのベストプラクティスや、成功するパーソナライゼーションプログラムを構築および拡張するための人々とプロセスの促進方法を学びます。
+
+### Adobe:インパクトの大きい最適化の機会を明らかにする
+
+* **2022 年 6 月 16 日木曜日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Kaitlin White(Adobeの Product Marketing Manager) に参加し、次のような実証済みの戦略を共有して、パーソナライゼーションプログラムを開始します。
+
+* 新規リードや顧客を獲得するための標準の考え方
+* ユーザーの摩擦を修正して、より直感的なエクスペリエンスを実現
+* パーソナライゼーションの顧客親和性のタップ
+* また、お客様の組織でインパクトの大きいオポチュニティを見つけ出すのに役立つ、さらに多くのアイデアを提供します。
+
+### Adobe:パーソナライゼーション業界インサイダー — 小売 
+
+* **2022 年 6 月 21 日木曜日**
+* **午後 1 時～2 時。(EDT、UTC-4)**
+* **[詳細情報と登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+Michael Klein(Director、業界戦略小売 ) と Leina Betzer(AdobePremier Support) の協力を得て、特定の市場での商品やサービスに対する需要の増加と共に、消費者の買い付けパターンや行動の変化に伴う小売 e コマースの売り上げの急増について話し合います。
+
+## 過去のウェビナーとスキルビルダーセッションの録画
+
+最近のイベントの記録を登録および表示する：
+
+### を使用したリアルタイムパーソナライゼーション [!DNL Adobe Target]
+
+**[登録してウェビナー録画を表示](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+このセッションでは、以下の方法について説明します。 [!DNL Adobe Target] は、複数のソースをまたいでデータを組み合わせ、リアルタイムパーソナライゼーションに関する以下の点に関するギャップを埋めます。
+
+* パーソナライズ機能のパフォーマンスと速度が重要で、ビジネスの成長を促進する理由
+* チームがファーストパーティのデータ戦略を構築し、データの断片化の課題を解決する方法
+* パーソナライズされたエクスペリエンスをミリ秒単位で配信するためのエンドツーエンドのワークフロー
+* 関連するメッセージ、コンテンツ、オファーをリアルタイムで利用して顧客や見込み客を惹きつけるブランドのユニークなユースケース
+
+### ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
 
 マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
 
@@ -53,7 +137,7 @@ Adobe Target Product Marketing チームの Brent Kostak と Drew Burns は、�
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## ウェビナー：HSBC が Adobe [!DNL Target]と AI をどのように活用して大規模なパーソナライゼーションを迅速に最適化し提供を実現したか
+### ウェビナー：HSBC が Adobe [!DNL Target]と AI をどのように活用して大規模なパーソナライゼーションを迅速に最適化し提供を実現したか
 
 * **[こちらからウェビナーの録画をご覧ください](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
@@ -69,18 +153,9 @@ Adobe と HSBC によるこのウェビナーに参加して次のことを学�
 
 *McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
 
-## Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
-
-2021年3月31日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
+### Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
 
 * **[こちらからウェビナーの録画をご覧ください](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
 
-## [!DNL Adobe Target] の認識
-
-[!DNL Adobe Target] は最近、 Forrester と Gartner の両方から市場リーダーとして認められました。
-
-| 調査サービス | 詳細 |
-| --- | --- |
-| Forrester | **アドビは、Forrester Wave レポートで、エクスペリエンス最適化プラットフォーム分野のリーダーに選ばれました。**<br>&#x200B;アドビは、「The Forrester Wave：エクスペリエンス最適化プラットフォーム（2020 年第 4 四半期）」レポートで、この分野のソリューションである Adobe Target Premium が評価され、リーダーに選ばれました。アドビは、現在のオファーおよび市場プレゼンスの分野、およびレコメンデーションとプラットフォームエクスペリエンスの条件において、参加している全ベンダーのうち最高スコアを獲得しました。また、Target Premium は、エクスペリエンス最適化手法のイノベーションとサポートサービスの条件において、最高のスコアを獲得しました。このレポートは、エクスペリエンス最適化プラットフォームプロバイダー 10 社を、22 件の条件についておこなわれた綿密な評価に基づいています。<br>詳しくは、[Adobe ブログ](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)をご覧ください。 |
-| Gartner | **アドビは、パーソナライゼーションエンジン分野の Gartner Magic Quadrant で再びリーダーに選ばれました。**<br>&#x200B;アドビは、2020 年度の『Magic Quadrant for Personalization Engines（パーソナライゼーションエンジン分野のマジッククアドラント）』レポートで、3 回目のリーダーに選ばれました。パーソナライゼーションエンジン分野の Gartner Magic Quadrant では、ビジョンの完全性と実行能力の 2つのカテゴリにおいて、15 の条件に基づいてベンダーを評価しました。<br>[詳しくは、Adobe ブログをご覧ください](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+2021年3月31日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
