@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33051'
-ht-degree: 99%
+source-wordcount: '33448'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,38 @@ ht-degree: 99%
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2022年
+
+### [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 29 日）
+
+このリリースには、次の修正が含まれています。
+
+* 3 つの買い物かごベースのアルゴリズムで、 [!DNL Target] バックエンド。 （TGT-43456）
+* 有効 [!DNL Target] で有効になっている組織の UI トークンの更新 [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} およびポリシーベースの認証 (PBA)。 （TGT-42590）
+
+### [!DNL Target] プラットフォームリリース（2022 年 4 月 28 日）
+
+このリリースには、次の変更が含まれています。
+
+* このリリースでは、次の用にコンテンツをプリフェッチできます： [!UICONTROL 自動パーソナライゼーション] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ（以前はから返されていませんでした） [!DNL Target]) をクリックします。 AP/AT アクティビティが配信パス上にあり、コンテンツ配信に同じ場所を使用する他の AB/XT アクティビティよりも優先度が高い場合、プリフェッチ呼び出し（「実行」フローに対する変更なし）の場合にエンドユーザーに表示されるエクスペリエンスが変更されます。
+
+### [!DNL Target] Platform リリース（3 月 31 日）
+
+このリリースで強化された機能は次のとおりです。
+
+* クリック追跡指標では、Analytics をレポートソースに使用し (A4T)、クライアント側でイベントを処理するアクティビティの Delivery API リクエストに Analytics ペイロードが含まれます。 （TNT-43073）
+
+### [!DNL Target Standard] オーディエンスの更新（3 月 28 日）
+
+このリリースには、次の更新が含まれています。
+
+* 新しい [!UICONTROL オーディエンス] UI はすべての [!DNL Target Standard] 顧客。
+
+### Target Standard/Premium の顧客エンジニアリングの修正（2022 年 3 月 23 日）
+
+このメンテナンスリリースで強化された機能は次のとおりです。
+
+* が返す機能を追加しました。 [!DNL Analytics] ペイロードデータ `prefetch` ビューと `pageLoad` 使用時のクリック指標 [!UICONTROL 配信 API] を使用するアクティビティで [!UICONTROL レポートソースとしての Analytics] (A4T)。 （TNT-43198）
+* ボットフィルタリングのユーザーエージェントリストが更新され、日本で一般的に使用されるブラウザータイプを許可するようになりました。 （TNT-43867）
 
 ### Target Standard／Premium 22.2.1（2022年2月1日（PT）） 
 
@@ -47,6 +79,22 @@ ht-degree: 99%
 ### [!DNL Target Standard/Premium] 22.1.1（2022年1月12日（PT））
 
 このリリースには、バグ修正と、将来の統合の前提条件となる機能が含まれています。
+
+### Target プラットフォームリリース（2022 年 4 月 14 日）
+
+このリリースには、次の更新が含まれています。
+
+* プロファイルスクリプトを使用して取り込む際に、IP アドレスの最後のオクテットが適切に不明化される問題を修正しました。 （TNT-44076）
+
+### [!DNL Target Standard/Premium] 22.3.1（2022 年 4 月 6 日）
+
+このリリースには、次の変更および機能強化が含まれています。
+
+* 次の問題を修正しました： [!UICONTROL 次を含む] および [!UICONTROL 除外] アクティビティの編集時に結合オーディエンスで無効にするオプション。 （TGT-43422）
+* アクティビティの編集中に、一部のお客様が利用可能なオーディエンスのリストを表示できなかった問題を修正しました。 （TGT-43404）
+* 一部のお客様が「[!UICONTROL 除外する IP [!DNL Target] レポートデータ]&quot;リスト [!UICONTROL 管理] > [!UICONTROL レポート]. （TGT-43384）
+* オーディエンス条件で、任意の変数が「より大きい」、「より大きいか等しい」、「より小さい」または「より小さいか等しい」であることを確認できない負の数を使用する問題を修正しました。 （TGT-43367）
+* 顧客が [!UICONTROL オーディエンスの詳細] カードを使用して結合オーディエンスを作成できます。 （TGT-43303）
 
 ### at.js バージョン 2.8.0（2022年1月7日（PT））
 
