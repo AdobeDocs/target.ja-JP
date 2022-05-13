@@ -5,9 +5,9 @@ title: at.js の Cookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -111,7 +111,7 @@ Cookie にはいくつかのデフォルト設定があります。cookie の期
 | cookie 名 | mbox。 |
 | cookie ドメイン | コンテンツを提供するドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. |
 | サーバードメイン | `clientcode.tt.omtrdc.net`。アカウントのクライアントコードを使用します。 |
-| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、訪問者が最後にログインしてから 2 年間です。<br>この `deviceIdLifetime` の設定は上書き可能です： [at.js バージョン 2.3.1 以降](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 詳しくは、[targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。 |
+| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、最後にログインしてから 2 年です。<br>この `deviceIdLifetime` の設定は上書き可能です： [at.js バージョン 2.3.1 以降](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 詳しくは、[targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。 |
 | P3P ポリシー | ほとんどのブラウザーのデフォルト設定の要求に従って、cookie は P3P ポリシーに基づいて発行されます。P3P ポリシーはブラウザーに対して、cookie を扱うユーザーおよびその情報の使用方法を指示します。 |
 
 Cookie は、キャンペーンでの訪問者のエクスペリエンスを管理するための様々な値を保持します。
@@ -120,7 +120,7 @@ Cookie は、キャンペーンでの訪問者のエクスペリエンスを管�
 |--- |--- |
 | session ID | ユーザーセッションの一意の ID。デフォルトでは、30 分間存続します。 |
 | pc ID | 訪問者のブラウザーの半永久的な ID。14 日間存続します。 |
-| check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
+| at_check | 訪問者が cookie をサポートするかどうかを判別するために使用される簡単なテスト値。訪問者がページをリクエストするたびに設定されます。 |
 | disable | 訪問者の読み込み時間が [!DNL Adobe Experience Platform Web SDK] または at.js ファイル デフォルトでは、1 時間存続します。 |
 
 ## 影響 [!DNL Target] Apple WebKit 追跡の変更による Safari 訪問者の場合
