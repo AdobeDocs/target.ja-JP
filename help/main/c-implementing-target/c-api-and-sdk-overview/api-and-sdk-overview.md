@@ -5,7 +5,7 @@ title: 詳細はこちら [!DNL Target] サーバー側配信 API および SDK
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ ht-degree: 23%
 
 `/rest/v1/delivery`
 
-が [!DNL Target] Delivery API では、次の操作を実行できます。
+の使用 [!DNL Target] Delivery API では、次の操作を実行できます。
 
 * SPAやモバイルチャネルを含む Web をまたいでエクスペリエンスを提供します。また、接続された TV、キオスク、店内のデジタル画面など、ブラウザーベース以外の IoT デバイスも提供します。
 * HTTP/s 呼び出しをおこなうことのできる任意のサーバー側プラットフォームまたはアプリケーションからエクスペリエンスを提供します。

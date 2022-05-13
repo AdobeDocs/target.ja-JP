@@ -4,10 +4,10 @@ description: Adobeで除外を作成する方法を説明します [!DNL Target]
 title: Recommendations Activities での除外の使用方法を教えてください。
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 44%
 * レコメンデーションすべきでない製品（SKU がシステムに存在しても購入可能な品目ではない場合や、実際に何かを注文せずに購入をシミュレートする QA チームの偽の SKU である場合など）
 
 >[!IMPORTANT]
+>
+>除外ルールは、すべての環境にグローバルに適用されます。
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
