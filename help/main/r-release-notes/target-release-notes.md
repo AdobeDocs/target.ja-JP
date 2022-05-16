@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 31%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 0%
 * お客様が別のワークスペースでも重複したオーディエンスを作成できなかった問題を修正しました。 （TGT-43423）
 * アクティビティでアドホックオファーを持つ場所を、 [!UICONTROL フォームベースの Experience Composer]. （TGT-43315）
 * 画像オファーをクリックして UI を更新した後に、コードオファーにアクセスできない問題を修正しました。 （TGT-43566）
-* 指標のリストが [!DNL Target] を使用するアクティビティを作成する際の UI [!DNL Analytics for Target] (A4T) は、 [!DNL Adobe Analytics]. （TGT-43294）
 * スクリプトを編集、アクティブ化、非アクティブ化した後で、プロファイルスクリプトの編集が元の未編集スクリプトに戻る問題を修正しました。 プロファイルスクリプトは編集された状態のままになります。 （TGT-43249）
 * オーディエンスを別のワークスペースに移動しようとすると次のエラーが発生する問題を修正しました。「お客様のご要望は、完了できません。 問題が解決しない場合は、AdobeClientCare にお問い合わせください。」 （TGT-43212）
 * シングルページアプリ (SPA) ページのカスタムコード変更の複製時にエラーが発生するエラーを修正しました。 （TGT-43137）

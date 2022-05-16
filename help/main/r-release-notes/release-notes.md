@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '666'
+ht-degree: 52%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 0%
 * お客様が別のワークスペースでも重複したオーディエンスを作成できなかった問題を修正しました。 （TGT-43423）
 * アクティビティでアドホックオファーを持つ場所を、 [!UICONTROL フォームベースの Experience Composer]. （TGT-43315）
 * 画像オファーをクリックして UI を更新した後に、コードオファーにアクセスできない問題を修正しました。 （TGT-43566）
-* 指標のリストが [!DNL Target] を使用するアクティビティを作成する際の UI [!DNL Analytics for Target] (A4T) は、 [!DNL Adobe Analytics]. （TGT-43294）
 * スクリプトを編集、アクティブ化、非アクティブ化した後で、プロファイルスクリプトの編集が元の未編集スクリプトに戻る問題を修正しました。 プロファイルスクリプトは編集された状態のままになります。 （TGT-43249）
 * オーディエンスを別のワークスペースに移動しようとすると次のエラーが発生する問題を修正しました。「お客様のご要望は、完了できません。 問題が解決しない場合は、AdobeClientCare にお問い合わせください。」 （TGT-43212）
 * シングルページアプリ (SPA) ページのカスタムコード変更の複製時にエラーが発生するエラーを修正しました。 （TGT-43137）
