@@ -5,9 +5,9 @@ title: 既知の問題と解決された問題に関する情報はどこで入�
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,23 +25,23 @@ ht-degree: 98%
 
 ### Service Workers を使用している web サイトを Visual Experience Composer（VEC）読み込む
 
-現在、[Service Workers](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API){target=_blank}（SW）を使用している web サイトを VEC で開こうとすると、いくつかの制限があります。
+現在、[Service Workers](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API) {target=_blank}（SW）を使用している web サイトを VEC で開こうとすると、いくつかの制限があります。
 
 SW は、web ページによってインストールされているドメインのリクエストをインターセプトするために使用できる web テクノロジーです。SW はページの訪問中は存続し、以降の訪問時にはアクティブになります。SW は、どのリクエストを通過させ、どのリクエストをインターセプトし、代わりにキャッシュからサービスを提供するかを決定します。
 
-SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP(Content-Security-Policy)、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
+SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP（Content-Security-Policy）、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
 
 残念ながら、web リクエストをインターセプトする Chrome 拡張機能 API は、SW によってインターセプトおよび処理されたリクエストを受信しません。したがって、web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたため、web ページが VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
 
 考えられる回避策として、Chrome 開発者ツール／アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。（KB-2006）
 
-### フォームベースの Experience Composer で作成したアクティビティでアドホックオファーを持つ場所の削除 {#ad-hoc}
+### フォームベースの Experience Composer で作成したアクティビティでの、アドホックオファーがある場所の削除 {#ad-hoc}
 
-フォームベースの Experience Composer で作成したアクティビティで、アドホックオファー（アクティビティ内で作成されたオファー）を使用している場合は、その場所を削除しないでください。 場所を削除すると、アクティビティが破損する可能性があります。 この [!DNL Target] チームはこの修正に取り組んでいます。 回避策として、 [!UICONTROL オファーライブラリ] 場所と共に使用したり、必要に応じて新しいエクスペリエンスを作成したりできます。 （KB-2014）
+フォームベースの Experience Composer で作成したアクティビティで、アドホックオファー（アクティビティ内で作成されたオファー）を使用している場合は、その場所を削除しないでください。場所を削除すると、アクティビティが破損する可能性があります。[!DNL Target] チームはこの修正に取り組んでいます。回避策として、[!UICONTROL オファーライブラリ]場所と共に使用したり、必要に応じて新しいエクスペリエンスを作成したりできます。（KB-2014）
 
 ### A4T を使用した自動配分アクティビティのトラフィック分配 {#aa-a4t}
 
-場合によっては、[!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分]アクティビティのトラフィック分布は、各エクスペリエンスで報告されたコンバージョン率に基づいて発生するはずのトラフィック分布と異なることがあります。これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。 影響を受けるお客様には、影響を受けるアクティビティについて通知されます。
+場合によっては、[!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分]アクティビティのトラフィック分布は、各エクスペリエンスで報告されたコンバージョン率に基づいて発生するはずのトラフィック分布と異なることがあります。これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。影響を受けるお客様には、影響を受けるアクティビティについて通知されます。
 
 この問題が解決するまで、標準の [!DNL Target] レポートで[!UICONTROL 自動配分]を使用するか、[!DNL Analytics] レポートでの[!UICONTROL 自動配分]の代わりに、[!DNL Analytics] レポートで標準の A/B テストを使用します。（上位 131 項目）
 
@@ -55,13 +55,13 @@ SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IM
 
 EEC の問題により、現在、EEC で PUT リクエストがサポートされなくなり、504 タイムアウトエラーが発生します。（TGT-41493）
 
-### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートに は表示されません。
+### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートには表示されません。
 
 [!DNL Adobe Experience Platform] セグメント名は、[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target]（AT）アクティビティの[!UICONTROL 重要な属性]レポートに表示されません。（上位 3813 項目）
 
-### アーカイブ [!UICONTROL 自動ターゲット] アクティビティの原因が同期の問題である可能性がある
+### [!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題が発生する場合があります
 
-非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。 この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。 これらは[!UICONTROL 非アクティブ]状態のままにします。 （TGT-40885）
+非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。これらは[!UICONTROL 非アクティブ]状態のままにします。（TGT-40885）
 
 ### ページ配信 {#page-delivery}
 
@@ -277,7 +277,7 @@ at.js は、新しくプロビジョニングされたテナント用に `global
 * Target アクティビティで Analytics for Target（A4T）を使用している。
 * 拠点がアジア太平洋（APAC）地域にある。
 
-この問題がお客様の Target レポートに影響を与えたかどうかを判断するには、[ClientCare](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) にご連絡ください。
+この問題がお客様の Target レポートに影響を与えたかどうかを判断するには、[Client Care](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) にご連絡ください。
 
 ### Recommendations
 
@@ -409,7 +409,7 @@ Enterprise 権限の移行の一環として、Target Premium のすべてのユ
 
 ### at.js {#at-js-5}
 
-Target 17.4.1 リリース（2017年4月27日（PT））以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作をおこなうと、オファーコンテンツが配信されません。
+Target 17.4.1 リリース（2017年4月27日（PT））以降で at.js ライブラリを使用している場合に、Visual Experience Composer（VEC）を使用して画像の挿入操作を行うと、オファーコンテンツが配信されません。
 
 この問題は、at.js バージョン 0.9.7（2017年5月22日（PT））で修正されました。
 
@@ -429,7 +429,7 @@ Target 17.4.3 修正プログラムで修正されました。
 
 ### at.js {#at-js-6}
 
-Visual Experience Composer（VEC）と at.js を使用している場合に、移動および整列の操作をおこなうと、オファーが配信されなくなっていました。
+Visual Experience Composer（VEC）と at.js を使用している場合に、移動および整列の操作を行うと、オファーが配信されなくなっていました。
 
 この問題は、at.js バージョン 0.9.6 で修正されました。
 
