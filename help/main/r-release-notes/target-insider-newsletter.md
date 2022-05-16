@@ -20,7 +20,7 @@ Adobe Target Insider は、Adobe Target コミュニティのメンバーを対�
 
 >[!IMPORTANT]
 >
->[新規登録すると、Adobe Target Insider ニュースレターをインボックスで自動的に受け取ることができます。](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[新規登録すると、Adobe Target Insider ニュースレターをインボックスで自動的に受け取ることができます](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
 
 以前のニュースレターを見逃した場合は、次のリンクをクリックして、見落としがないようにしてください。
 
