@@ -1,25 +1,25 @@
 ---
 keywords: experience cloud debugger;mbox trace
-description: デバッグAdobe [!DNL Target] Adobe Experience Cloud Debugger を使用して、
-title: デバッグ [!DNL Target] Experience Cloud Debugger
+description: Adobe Experience Cloud Debugger を使用した Adobe  [!DNL Target]  のデバッグ。
+title: Experience Cloud Debugger を使用した  [!DNL Target]  のデバッグ
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# デバッグ [!DNL Target] Experience Cloud Debugger
+# Experience Cloud Debugger を使用した [!DNL Target] のデバッグ
 
-デバッグ [!DNL Adobe Target] の使用 [!DNL Adobe Experience Cloud Debugger].
+[!DNL Adobe Experience Cloud Debugger] を使用した [!DNL Adobe Target] のデバッグ。
 
 ## 拡張機能の追加
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## 基本 [!DNL Target] デバッグ
+## 基本的な [!DNL Target] のデバッグ
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -29,6 +29,6 @@ ht-degree: 9%
 
 ## その他のリソース
 
-+ [Chrome Store のAdobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Chrome ストアでの Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja)
 + [Target のトラブルシューティングのヘルプドキュメント](/help/main/r-troubleshooting-target/troubleshooting-target.md)
-+ [Experience Cloud Debuggerビデオ](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Experience Cloud Debugger ビデオの使用方法](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/experience-cloud/use-the-experience-cloud-debugger.html?lang=ja)
