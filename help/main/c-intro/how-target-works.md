@@ -1,19 +1,19 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;検索エンジンの最適化;検索エンジンの最適化;seo;エッジクラスター;セントラルクラスター;at.js;mbox.js;
-description: Adobe [!DNL Target] ( [!DNL Target] JavaScript ライブラリ (at.js およびExperience PlatformWeb SDK)、Adobeデータセンター、SEO テスト。
+description: ' [!DNL Target]  JavaScript ライブラリ（at.js および AEP Web SDK）、Adobe データセンター、SEO テストなど、Adobe  [!DNL Target]  の仕組みを説明します。'
 title: ' [!DNL Target] の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Adobe [!DNL Target] の仕組み
 
-[!DNL Adobe Target] の仕組みを学びます。これには、[!DNL Adobe Experience Platform Web SDK] および JavaScript ライブラリ（at.js と mbox.js）に関する情報も含まれます。この記事では、[!DNL Target] を使用して作成できる様々なアクティビティタイプについても紹介します。また、[!DNL Target] エッジネットワーク、検索エンジン最適化(SEO)、および [!DNL Target] によるボットの検出方法についても説明します。
+[!DNL Adobe Target] の仕組みを学びます。これには、[!DNL Adobe Experience Platform Web SDK] および JavaScript ライブラリ（at.js と mbox.js）に関する情報も含まれます。この記事では、[!DNL Target] を使用して作成できる様々なアクティビティタイプについても紹介します。また、[!DNL Target] エッジネットワーク、検索エンジン最適化（SEO）、および [!DNL Target] によるボットの検出方法についても説明します。
 
 ## [!DNL Target] Platform Web SDK および JavaScript ライブラリ {#libraries}
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 * [Adobe Experience Platform Web SDK 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja)
 * [Adobe Experience Platform を使用した [!DNL Target] の実装](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションをおこなう、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
+訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションを行う、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
 [!DNL Target] では、ページ上の各要素は、ページ全体に広がる単一のエクスペリエンスの一部です。各エクスペリエンスには、ページ上の複数の要素が含まれている可能性があります。
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 ### [!UICONTROL 自動配分]
 
-[!UICONTROL 自動配分は、2 つ以上のエクスペリエンスのうちの勝者を識別します。][!UICONTROL 自動配分は]、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。
+[!UICONTROL 自動配分は]、2 つ以上のエクスペリエンスのうちの勝者を識別します。[!UICONTROL 自動配分は]、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。
 
 詳細については、「[[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 
 詳細については、「[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。
 
-### [!UICONTROL 自動パーソナライゼーション]（AP）
+### [!UICONTROL Automated Personalization]（AP）
 
 Automated Personalization（AP）は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者のオファーのバリエーションを一致させます。エクスペリエンスの配信は、個別の顧客プロファイルに基づき、コンテンツをパーソナライズしてリフトを促します。
 
@@ -97,7 +97,7 @@ Recommendations のアクティビティは、以前のユーザーアクティ�
 
 各エッジクラスターには、訪問者のコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要な情報がすべて格納されます。ユーザーリクエストは最寄りのエッジクラスターに送信されます。
 
-詳しくは、『[Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
+詳しくは、『[Adobe Target セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
 [!DNL Target] ソリューションは、世界中のアドビが所有するデータセンターおよびアドビがリース契約を結んでいるデータセンターでホストされています。
 
