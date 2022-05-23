@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4041'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022 年 5 月 26 日）のプレリリースノートを追加しました。 |
 | 5 月 12 日 | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次のウェビナーの情報および登録リンクを追加しました。<ul><li>ディックのスポーツ用品：個人設定と小売での風景の変化</li><li>Adobe:パーソナライズ業界インサイダー — 金融サービスと保険</li><li>シティナショナルバンク：デジタル最適化で上位 1%を達成する方法</li><li>Adobe:精度を備えたパーソナライゼーション — [!DNL Adobe Analytics] および [!DNL Target]</li><li>シティナショナルバンク：ヒーローにゼロ — パーソナライゼーションプログラムの開始とスケーリング</li><li>Adobe:インパクトの大きい最適化の機会を明らかにする</li><li>Adobe:パーソナライゼーション業界インサイダー — 小売</li></ul>次のウェビナーの録画を追加しました。<ul><li>を使用したリアルタイムパーソナライゼーション [!DNL Adobe Target]</li></ul> |
 |  | [コンテンツセキュリティポリシー（CSP）指令](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 節を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target Standard/Premium] 22.5.1 および Target プラットフォーム（2022 年 5 月 11 日～13 日）リリースです。 |

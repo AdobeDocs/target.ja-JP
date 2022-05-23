@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 31%
+source-wordcount: '485'
+ht-degree: 30%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 31%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022 年 5 月 9 日**
+**最終更新日：2022 年 5 月 23 日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## at.js バージョン 2.9.0（2022 年 5 月 25 日）
+
+* ユーザーエージェントのクライアントヒントのサポートが追加されました。
+* 同じページ上の複数の mbox リクエストに異なるインプレッション ID があるバグを修正しました。
 
 ## [!DNL Target Standard/Premium] 22.5.1 (stagger リリース；2022 年 5 月 11 日～13 日 )
 
