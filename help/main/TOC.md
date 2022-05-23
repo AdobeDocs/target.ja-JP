@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 8f3eb3adcbd27a0f2592684266d9b6419151f890
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1560'
 ht-degree: 99%
 
 ---
@@ -137,6 +137,7 @@ ht-degree: 99%
          + [at.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [at.js 1.x から at.js 2.x へのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js の cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+         + [ユーザーエージェントとクライアントヒント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
       + グローバル mbox について {#global-mbox}
          + [グローバル mbox の概要について](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [グローバル mbox のカスタマイズ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
@@ -200,7 +201,7 @@ ht-degree: 99%
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
-      + [ A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A テスト](/help/main/c-activities/t-test-ab/aa-testing.md)
       + A/B テストの作成 {#create}
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
