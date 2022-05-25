@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33448'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 98%
 
 ## リリースノート - 2022年
 
-### [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 29 日）
+### [!DNL Target Standard/Premium] 22.4.1（2022年4月28日（PT））
+
+このリリースには、次の修正が含まれています：
+
+* 3 つの買い物かごベースのアルゴリズムによって [!DNL Target] バックエンドで同じ購入／購入条件が使用されていた問題を修正しました。（TGT-43456）
+* [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html?lang=ja){target=_blank} およびポリシーベースの認証（PBA）で有効化された組織に対して [!DNL Target] UI トークンを有効にしました。（TGT-42590）
+
+### [!DNL Target] プラットフォームリリース（2022年4月27日（PT））
 
 このリリースには、次の修正が含まれています。
 
-* 3 つの買い物かごベースのアルゴリズムで、 [!DNL Target] バックエンド。 （TGT-43456）
-* 有効 [!DNL Target] で有効になっている組織の UI トークンの更新 [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} およびポリシーベースの認証 (PBA)。 （TGT-42590）
+* このリリースでは、[!UICONTROL Automated Personalization]（AP）および[!UICONTROL 自動ターゲット]（AT）アクティビティ（以前は [!DNL Target] から返されていませんでした）用にコンテンツをプリフェッチできます。AP/AT アクティビティが配信パス上にあり、コンテンツ配信に同じ場所を使用する他の AB/XT アクティビティよりも優先度が高い場合、プリフェッチ呼び出し（「実行」フローに対する変更なし）ではエンドユーザーに表示されるエクスペリエンスが変更されます。
 
-### [!DNL Target] プラットフォームリリース（2022 年 4 月 28 日）
-
-このリリースには、次の変更が含まれています。
-
-* このリリースでは、次の用にコンテンツをプリフェッチできます： [!UICONTROL 自動パーソナライゼーション] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ（以前はから返されていませんでした） [!DNL Target]) をクリックします。 AP/AT アクティビティが配信パス上にあり、コンテンツ配信に同じ場所を使用する他の AB/XT アクティビティよりも優先度が高い場合、プリフェッチ呼び出し（「実行」フローに対する変更なし）の場合にエンドユーザーに表示されるエクスペリエンスが変更されます。
-
-### [!DNL Target] Platform リリース（3 月 31 日）
+### [!DNL Target] プラットフォームリリース（3 月 31 日）
 
 このリリースで強化された機能は次のとおりです。
 

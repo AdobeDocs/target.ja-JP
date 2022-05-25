@@ -4,9 +4,10 @@ description: 方法 [!DNL Adobe Target] は、ユーザーエージェントと�
 title: ユーザーエージェントとクライアントヒント
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # ユーザーエージェントとクライアントヒント
 
 [!DNL Adobe Target] はユーザーエージェントを使用して、訪問者をセグメント化とパーソナライゼーションの対象に認定します。
+
+>[!NOTE]
+>
+>この記事の情報は、次の場所に適用されます。 [at.js バージョン 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) （またはそれ以降）。
+
 
 Web ブラウザーがサーバーに対してリクエストをおこなうたびに、リクエストのヘッダーに含まれるのは、ブラウザーと、ブラウザーが実行される環境に関する情報です。 インターネットの初期の頃から、このデータは user-agent と呼ばれる単一の文字列に集計されていました。
 
@@ -158,11 +164,13 @@ Target の次の使用例には、クライアントヒントが必要です。
 
 #### Sec-CH-UA-Arch
 
-エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} オーディエンス属性：プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-arch')`
+エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} オーディエンス属性：プロファイルスクリプトを使用してユーザーに公開される。
+プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} オーディエンス属性：プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-bitness')`
+エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} オーディエンス属性：プロファイルスクリプトを使用してユーザーに公開される。
+プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Target の次の使用例には、クライアントヒントが必要です。
 
 #### Sec-CH-UA-Platform-Version
 
-エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} オーディエンス属性：プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-platform-version')`
+エントロピー：高度なドキュメント： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} オーディエンス属性：プロファイルスクリプトを使用してユーザーに公開される。
+プロファイルスクリプトの使用： `user.clientHint('sec-ch-ua-platform-version')`
 
 ## クライアントヒントをに渡す方法 [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ at.js 2.9.0 以降、ユーザーエージェントクライアントヒント�
 ### サーバー側 SDK
 
 サーバー側 SDK を使用してクライアントヒントを渡す方法について詳しくは、 [クライアントヒント](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} *Adobe Target SDK* ドキュメント。
-
-
-
-
-
-
-
-
-
-
-
-
