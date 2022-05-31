@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: f29d01b8851efee1ab0b412f8cba3692c68efc7b
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4110'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Target プラットフォームリリース（2022 年 5 月 26 日）と at.js 2.9.0 リリース（2022 年 5 月 28 日）に関する情報を追加しました。 |
+| 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 今後の [!DNL Adobe Target] コミュニティコーヒーブレーク（2022 年 6 月 29 日） |
+| 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target] プラットフォームリリース（2022 年 5 月 26 日）および at.js 2.9.0 リリース（2022 年 5 月 28 日）です。 |
 |  | [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 リリースに関する情報を追加しました。 |
 |  | [ユーザーエージェントとクライアントヒント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新規トピックです。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次のウェビナーの録画用リンクを追加しました。ディックのスポーツ用品：個人設定と小売業での変化する風景（2022 年 5 月 20 日） |
