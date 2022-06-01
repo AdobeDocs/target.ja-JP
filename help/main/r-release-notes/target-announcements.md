@@ -4,7 +4,7 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 お知らせと今後の情報 [!DNL Adobe Target] イベント ( [!DNL Target] コーヒー休憩セッション [!DNL Target] ウェビナーシリーズ [!DNL Target] スキルビルダーセッション、開発者チャットなど。 過去の記録へのリンクがある場合は含まれます。
 
-## Adobe Target Community Coffer Break（2022 年 6 月 29 日）
+## Adobe Target Community Coffee Break（2022 年 6 月 29 日）
 
 +++ここをクリック
 
