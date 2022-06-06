@@ -5,10 +5,10 @@ title: ユーザーを追加し、権限を管理する方法を教えてくだ�
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザーグループ]**&#x200B;をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
-1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
 
@@ -98,7 +98,7 @@ Adobe Admin Console で実行するタスクの場合は、次の手順でコン
    | 役割 | 説明 |
    |--- |--- |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
-   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。ライブアクティビティ内のオーディエンスを編集できます。 |
    | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
    | 発行者 | 監視者の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。ただし、発行者の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 

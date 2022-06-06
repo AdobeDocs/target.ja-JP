@@ -5,10 +5,10 @@ title: Enterprise 権限を設定する方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 68%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 63%
 新しい[!UICONTROL プロパティ]機能を使用し始める場合、すべてのユーザー管理は、[!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) で、ページ上部の「**[!UICONTROL ユーザー]**」タブをクリックした後、「**[!UICONTROL ユーザーを追加]**」をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
-1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/enterprise/help/users.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペース（製品プロファイル）の作成 {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -183,9 +183,9 @@ ht-degree: 63%
    | 役割 | 説明 |
    |--- |--- |
    | 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
-   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。ライブアクティビティ内のオーディエンスを編集できます。 |
    | 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
-   | 発行者 | 監視者の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。 ただし、発行者の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+   | 発行者 | 監視者の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。ただし、発行者の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 
    詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
@@ -195,7 +195,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->この [!DNL Target] [!UICONTROL 管理] menu UI( 以前の [!UICONTROL 設定]) のデザインが一新され、パフォーマンスが向上し、新機能のリリースに要するメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 以下のビデオの情報は、通常正しいです。ただし、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿されます。
+>パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL 管理]メニュー（以前の[!UICONTROL 設定]）のデザインが一新されました。以下のビデオの情報は、通常正しいです。ただし、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿される予定です。
 
 ### Adobe Target Workspaces の設定方法(6:55) ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
