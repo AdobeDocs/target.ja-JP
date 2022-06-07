@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 93%
+source-wordcount: '837'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 93%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] カスタマーエンジニアリング修正 (stagger リリース：（2022 年 6 月 7～9 日）
+
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
+
+* **6 月 8 日**:アジア太平洋 (APAC) 地域
+* **6 月 8 日**:アメリカ地域
+* **6 月 9 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* を持つ [!UICONTROL 編集者] 役割では、ライブアクティビティのオーディエンスを編集できなくなりました。 （TGT-43582）
+* 新しい [!UICONTROL オーディエンス] 過去にオーディエンスが保存された古いデータベースと、バックエンドから直接情報を取得する新しいアーキテクチャとの間で、一貫性のない状態が発生するのを防ぐためのページ。 （TGT-43552）
+* Target UI で「空」のコンテナが作成されると結合オーディエンスが保存されない場合がある問題を修正しました。 （TGT-43588）
 
 ## Target プラットフォームリリース（2022 年 5 月 26 日）
 
