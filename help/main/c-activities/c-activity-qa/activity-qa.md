@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 37%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 37%
    | `adobe_mc_sdid` |  |  | を [!DNL Supplemental Data Id] (SDID) および [!DNL Experience Cloud Org Id] デフォルトのページから新しいページに移動します。 これらの ID を渡すことで、許可される [!UICONTROL Analytics for Target] (A4T) [!DNL Target] リクエストを [!DNL Analytics] リクエストを新しいページで作成します。 |
 
 * この [!UICONTROL Target QA モード] UI には、複数ページアクティビティのエクスペリエンスの最初の URL のみが表示されます。 あなたがジャーニーテストを作成し、URL1 から URL2 に移動していると仮定します。 ただし、独立して URL2 にアクセスする場合は、URL1 に対して提供されたすべての URL パラメータをコピーし、 &quot;？&quot;を付けた後でそれらを URL2 に適用します。URL1に表示されるように。
+* アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティのアクティビティ QA プレビューリンクが読み込まれないことがあります。プレビューリンクを再試行します。この問題が繰り返し発生するのを防ぐために、アクティブに使用されなくなった保存済みアクティビティをアーカイブします。
 
 ## Target JavaScript ライブラリ [!UICONTROL QA モード]の互換性 {#compatibility}
 
@@ -109,7 +110,7 @@ ht-degree: 37%
 | [!UICONTROL A/B テスト] | ○ | ○ | ○ |
 | [!UICONTROL 自動配分] | ○ | ○ | ○ |
 | [!UICONTROL 自動ターゲット] | × | × | × |
-| [!UICONTROL 自動パーソナライゼーション]（AP） | × | × | × |
+| [!UICONTROL Automated Personalization]（AP） | × | × | × |
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
 | [!UICONTROL レコメンデーション] | ○ | ○ | ○ |
@@ -133,7 +134,7 @@ ht-degree: 37%
 | [!UICONTROL A/B テスト] | ○ | ○ | ○ |
 | [!UICONTROL 自動配分] | ○ | ○ | ○ |
 | [!UICONTROL 自動ターゲット] | ○ | ○ | ○ |
-| [!UICONTROL 自動パーソナライゼーション]（AP） | ○ | ○ | ○ |
+| [!UICONTROL Automated Personalization]（AP） | ○ | ○ | ○ |
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
 | [!UICONTROL レコメンデーション] | ○ | ○ | ○ |
