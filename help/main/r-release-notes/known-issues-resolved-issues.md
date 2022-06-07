@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4507'
+source-wordcount: '4506'
 ht-degree: 98%
 
 ---
@@ -90,15 +90,6 @@ MVT アクティビティでは、指標を確認した際、テーブルとグ�
 
 at.js の既知の問題を以下に示します。
 
-* 2.2.0 より前のバージョンの at.js を使用すると、Adobe Analytics コードがページ要素（ボタンなど）に存在しない場合、クリック追跡で Analytics for Target（A4T）のコンバージョンがレポートされません。at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
-* at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、ttMeta プラグインが正しく動作しない可能性があります。
-
-   回避策として、エクスペリエンスコンテンツに空白を使用します。（TNT-33366）
-
-   >[!NOTE]
-   >
-   >この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)するか、上記の回避策を 2.2.0 より前のバージョンの at.js にのみ使用してください。
-
 * Visual Experience Composer（VEC）にページを読み込む際、Target は、グローバル mbox の設定が有効かどうか、およびユーザーが VEC で Recommendation を適用しようとしている場所に entityID または categoryID があるかどうかを確認する必要があります。この情報を基に条件のリストがフィルタリングされます。デフォルトのリストではアルゴリズムがフィルタリングされていますが、[「互換性あり」チェックボックス](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md)を使用すると、すべてのアルゴリズムのリストを表示できます。
 
    at.js を使用している場合は、「互換性あり」チェックボックスが表示されないので、非互換のアルゴリズムを表示することはできません。
@@ -137,6 +128,18 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上記の既知の問題が解決されると、それらは以降の節に移動します。 必要に応じて、メモを追加します。
+
+### at.js
+
+* at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、ttMeta プラグインが正しく動作しない可能性があります。
+
+   回避策として、エクスペリエンスコンテンツに空白を使用します。
+
+   この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)するか、上記の回避策を 2.2.0 より前のバージョンの at.js にのみ使用してください。（TNT-33366）
+
+* 2.2.0 より前のバージョンの at.js を使用している場合、クリック追跡でコンバージョンがレポートされません。 [!UICONTROL Analytics for Target] (A4T) [!DNL Adobe Analytics] コードがページ要素（ボタンなど）に存在しない。
+
+   at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
 
 ### ジオターゲティング
 
