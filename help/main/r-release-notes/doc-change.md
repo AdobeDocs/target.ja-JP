@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 | 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [自動配分レポートの解釈](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li>[!UICONTROL レポートソースとしての Analytics]（A4T）を使用する[!UICONTROL 自動配分]アクティビティでは、「勝者なし」、「勝者」および「星」バッジを使用できますか？</li></ul> |
 |  | [アクティビティのみのオーディエンスの作成](/help/main/c-target/creating-activity-only-audience.md) | 除外ルールに関する「考慮事項」の節に情報を追加しました。 |
-| 2月10日（PT） | [既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 以下の既知の問題を追加しました。<ul><li>Service Workers を使用している web サイトを Visual Experience Composer（VEC）読み込む</li></ul> |
+| 2月10日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Visual Experience Composer(VEC) でのサービスワーカーを使用した Web サイトの読み込みに関する情報を追加しました。 |
 | 2月7日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））</li></ul> |
 | 2月3日（PT） | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 新しい節と「ビデオ：Real-time CDP と [!DNL Adobe Target] による次のヒットのパーソナライゼーション」のビデオを追加しました。 |
 | 2月2日（PT） | [コンテンツ配信のトラブルシューティング](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 「[!DNL Target] プロファイル属性値の二重引用符のエスケープが期待どおりに機能しない」の節を追加しました。 |

@@ -4,10 +4,10 @@ description: Visual Experience Composer(VEC) で一部の Web サイトを確実
 title: Visual Experience Composer(VEC) ヘルパー拡張の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 62%
 
 ---
 
@@ -25,6 +25,16 @@ ht-degree: 52%
 * Web サイトで iframe が使用されています。
 * Web サイトに at.js ライブラリがまだ実装されていません。
 * お客様の QA またはステージサイトは、外部では利用できません（サイトは内部）。
+* 現在、[Service Workers](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API) {target=_blank}（SW）を使用している web サイトを VEC で開こうとすると、いくつかの制限があります。
+
+SW は、web ページによってインストールされているドメインのリクエストをインターセプトするために使用できる web テクノロジーです。SW はページの訪問中は存続し、以降の訪問時にはアクティブになります。SW は、どのリクエストを通過させ、どのリクエストをインターセプトし、代わりにキャッシュからサービスを提供するかを決定します。
+
+SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP（Content-Security-Policy）、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
+
+残念ながら、web リクエストをインターセプトする Chrome 拡張機能 API は、SW によってインターセプトおよび処理されたリクエストを受信しません。したがって、web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたため、web ページが VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
+
+考えられる回避策として、Chrome 開発者ツール／アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。
+
 * Google Chrome 80 以降を、強化された SameSite cookie 実施ポリシーと共に使用している。 詳しくは、 [最近発表されたGoogle Chrome SameSite cookie の実施ポリシーが VEC と EEC にどのように影響するか](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 Chrome 用の VEC ヘルパーブラウザー拡張機能は、お客様が現在 [!DNL Target] [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) または Requestly などのサードパーティの拡張機能を使用できます。
