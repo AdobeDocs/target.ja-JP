@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -32,24 +32,24 @@ ht-degree: 83%
 * 新しい [!UICONTROL オーディエンス] 過去にオーディエンスが保存された古いデータベースと、バックエンドから直接情報を取得する新しいアーキテクチャとの間で、一貫性のない状態が発生するのを防ぐためのページ。 （TGT-43552）
 * Target UI で「空」のコンテナが作成されると結合オーディエンスが保存されない場合がある問題を修正しました。 （TGT-43588）
 
-## Target プラットフォームリリース（2022 年 5 月 26 日）
+## Target プラットフォームリリース（2022年5月25日（PT））
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 追加済み [ユーザーエージェントクライアントのヒント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) サポート。
-* レンダリング時にタイムアウトが断続的に発生する問題を修正しました [!UICONTROL オファーの決定] in [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ （TNT-44611）
+* [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) のサポートを追加しました。
+* [!UICONTROL Experience Targeting]（XT）アクティビティの[!UICONTROL オファーの決定]をレンダリングする際に、断続的にタイムアウトが発生していた問題を修正しました。（TNT-44611）
 
-## at.js バージョン 2.9.0（2022 年 5 月 27 日）
+## at.js バージョン 2.9.0（2022年5月27日（PT））
 
-* 追加済み [ユーザーエージェントクライアントのヒント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) サポート。
-* 同じページ上の複数の mbox リクエストに異なるインプレッション ID があるバグを修正しました。
+* [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) のサポートを追加しました。
+* 同じページ上の複数の mbox リクエストが異なるインプレッション ID を持っていたバグを修正しました。
 
 ## [!DNL Target Standard/Premium] 22.5.1（時差リリース、2022年5月11～13日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
 * **5月11日**：アジア太平洋（APAC）地域
-* **5 月 13 日**:アメリカ地域
+* **5月12日（PT）**：アメリカ地域
 * **5月13日**：ヨーロッパ、中東、アフリカ（EMEA）地域
 
 このリリースには、以下の機能強化および修正が含まれています。

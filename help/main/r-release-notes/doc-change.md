@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 97%
 | 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 今後の [!DNL Adobe Target] コミュニティコーヒーブレーク（2022 年 6 月 29 日） |
 | 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target] プラットフォームリリース（2022 年 5 月 26 日）および at.js 2.9.0 リリース（2022 年 5 月 28 日）です。 |
 |  | [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 リリースに関する情報を追加しました。 |
-|  | [ユーザーエージェントとクライアントヒント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新規トピックです。 |
-|  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次のウェビナーの録画用リンクを追加しました。ディックのスポーツ用品：個人設定と小売業での変化する風景（2022 年 5 月 20 日） |
-| 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022 年 5 月 26 日）のプレリリースノートを追加しました。 |
+|  | [User-agent と Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新規トピックです。 |
+|  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | ウェビナー「Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））」の録画へのリンクを追加しました。 |
+| 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022年5月25日（PT））のプレリリースノートを追加しました。 |
 | 5月11日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 以下のウェビナーに関する情報および登録リンクを追加しました。<ul><li>Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化</li><li>アドビ：パーソナライゼーション業界インサイダー - 金融サービスと保険</li><li>シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法</li><li>アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]</li><li>シティナショナルバンク：ゼロからのヒーロー - パーソナライゼーションプログラムの開始と拡大</li><li>アドビ：効果的な最適化の機会を探る</li><li>アドビ：パーソナライゼーション業界インサイダー - 小売</li></ul>以下のウェビナーの録画を追加しました。<ul><li>[!DNL Adobe Target] によるリアルタイムパーソナライゼーション</li></ul> |
 |  | [コンテンツセキュリティポリシー（CSP）指令](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 節を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 および Target プラットフォーム（2022年5月11～13日（PT））リリースに関する情報を追加しました。 |
@@ -127,7 +127,7 @@ ht-degree: 97%
 | 10月6日（PT） | [オーディエンスの作成： [!DNL Target]](/help/main/c-target/c-audiences/create-audience.md) | 更新された[!DNL Target] [!UICONTROL オーディエンス] UI を反映するようにテキストと画像を更新しました。[!UICONTROL オーディエンス]のトピック全体で同様の変更が行われました。 |
 |  | [条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) | 以下の節を更新しました。<ul><li>基本情報</li><li>データソース</li></ul> |
 |  | [カスタム条件のアップロード](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) | 新しいワークフローを反映するように手順を更新しました。 |
-|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.10.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1（2021年9月14日（PT））
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 |  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 「考慮事項」節を更新し、新しい情報を追加しました。 |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 「secureOnly」の節を更新しました。 |
 |  | [at.js に関するよくある質問](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 「at.js で HttpOnly および Secure の Cookie フラグが常に使用されるとは限らないのはなぜですか？」の FAQ を更新しました。 |
-| 9月14日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+| 9月14日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.9.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.8.1（2021年8月10日（PT））
 
@@ -160,7 +160,7 @@ ht-degree: 97%
 | 8月16日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md)<br>および<br>[at.js バージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1 のリリースノートを追加しました。 |
 |  | [オンデバイス判定](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 「ベストプラクティス」セクションを追加しました。 |
 | 8月11日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK バージョン 2.2.0 のリリースノートを追加しました。 |
-| 8月10日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+| 8月10日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.8.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.6.1（2021年6月30日（PT））
 
@@ -194,7 +194,7 @@ ht-degree: 97%
 |  | [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` キーの説明を更新しました。 |
 |  | [グローバル mbox のカスタマイズ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 新しい mbox を選択した後、変更が自動的に保存されることを明示するように、手順 1 を更新しました。 |
 |  | Experience Cloud Device Co-op | トピックを削除しました。この機能は廃止されました。 |
-| 6月30日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+| 6月30日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.6.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.5.1（2021年6月8日（PT））
 
@@ -213,7 +213,7 @@ ht-degree: 97%
 | 6月8日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 以降では、[!DNL Adobe Audience Manager]（AAM）パラメーターを渡すために 2.5.0 より古い Visitor API バージョンでは動作しないことを示すメモを追加しました。 |
 |  | [環境](/help/main/administrating-target/environments.md) | 「[!UICONTROL アクティブなアクティビティおよび非アクティブなアクティビティ]」を指定した場合、この環境のホストには非アクティブなアクティビティも表示されることを示すメモを追加しました。 |
 |  | [既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | 以下の既知の問題を追加しました。<ul><li>[!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートには表示されません。</li></ul> |
-| 6月7日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+| 6月7日（PT） | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.5.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.4.1（2021年4月19日（PT））
 
@@ -253,7 +253,7 @@ ht-degree: 97%
 |  | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization] のプレビューリンクのサポートが [at.js 2.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) で追加されました。 |
 |  | [動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 以下の新しい演算子に関する情報を追加しました。<ul><li>リストに含まれる</li><li> リストに含まれない</li><li>リストに項目が含まれる</li><li>リストに項目が含まれない</li><li>リストにすべての項目が含まれる</li><li>リストにすべての項目が含まれているわけではない</li></ul> |
 |  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ja)<br>（*Experience Cloud サービスおよび管理*&#x200B;ガイド） | 「セッション ID」に関する追加情報を追加しました。 |
-|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.4.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.2.1（2021年3月9日（PT））
 
@@ -275,7 +275,7 @@ ht-degree: 97%
 | 3月9日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>オファーの許容サイズ制限を更新しました。</li><li>categoryId パラメーターの文字制限を修正しました。</li></ul> |
 |  | [Target のエッジノードを許可リストに登録する](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] エッジ IP アドレスを更新しました。 |
 |  | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | entity.value を 10 進数形式にする必要があることを示すテキストを追加しました（例：15,99ではなく15.99）。 |
-|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.2.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |
 
 ## Adobe [!DNL Target] Standard／Premium 21.1.1（2021年1月19日（PT））
 
@@ -298,4 +298,4 @@ ht-degree: 97%
 | 1月19日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Target 21.1.1 リリース（2021年1月19日（PT））に関する情報を追加しました。 |
 |  | [制限](/help/main/r-troubleshooting-target/target-limits.md) | `productPurchasedID` パラメーターのテキストを更新しました。 |
 |  | [既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md) | アクティブなプロモーションを使用した [!UICONTROL Recommendation] アクティビティをコピーする際の既知の問題を追加しました。重複アクティビティを変更すると元のアクティビティにも影響します（逆も同様です）。一時的な回避策が含まれます。 |
-|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.1.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新もおこなっています。 |
+|  | [リリースノート](/help/main/r-release-notes/release-notes.md)：21.1.1 | このリリースには、機能強化および修正が含まれています。それらについての説明を読み、リリースノートからドキュメントへのリンクをたどることができます。このリリースでは、ヘルプ全体で多くのドキュメントの更新も行っています。 |

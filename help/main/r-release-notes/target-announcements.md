@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -108,11 +108,11 @@ Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target 
 
 パーソナライゼーションプログラムの規模を拡大するためのベストプラクティスについて説明します。Dick&#39;s Sporting Goods が [!DNL Adobe Target] を使用してトップアスリートやブランドとのエンゲージメントを図る方法を確認します。
 
-* [記録リンク](https://video.tv.adobe.com/v/343042){target=_blank}
+* [録画リンク](https://video.tv.adobe.com/v/343042) {target=_blank}
 
 +++ここをクリック
 
-Shawn Wilkinson（e コマースパーソナライゼーションマネージャー）に参加して、 [!DNL Target] はディックのスポーツグッズが、平均的な訪問者を再選手に変えるのを助けています。
+Shawn Wilkinson（eCommerce Personalization Manager）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
 
 Dick’s Sporting Goods がどのようにして 2 桁成長を実現しているのかを解き明かします。
 
@@ -127,7 +127,7 @@ Dick’s Sporting Goods がどのようにして 2 桁成長を実現してい�
 
 金融サービス企業がどのようにパーソナライゼーションを使用して、インフレパターンや投資戦略に備え、顧客をサポートし、情報を提供しているかについて説明します。
 
-[記録リンク](https://video.tv.adobe.com/v/343240){target=_blank}
+[録画リンク](https://video.tv.adobe.com/v/343240) {target=_blank}
 
 +++ここをクリック
 
@@ -137,7 +137,7 @@ Christopher Young（Director、Industry Strategy Financial Services）と James 
 
 部門横断的なパーソナライゼーション戦略を実現するためのツールキットとユースケースを紹介します。[!DNL Adobe Target] によって、CNB が業界の下位 26％から上位 1％になった方法をご覧ください。
 
-[記録リンク](https://video.tv.adobe.com/v/343344){target=_blank}
+[録画リンク](https://video.tv.adobe.com/v/343344) {target=_blank}
 
 +++ここをクリック
 
@@ -169,7 +169,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 ### ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
 
-[記録リンク](https://video.tv.adobe.com/v/328148){target=_blank}
+[録画リンク](https://video.tv.adobe.com/v/328148) {target=_blank}
 
 +++ここをクリック
 
