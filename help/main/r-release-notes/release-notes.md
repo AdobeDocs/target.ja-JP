@@ -5,9 +5,9 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '834'
 ht-degree: 89%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] カスタマーエンジニアリング修正 (stagger リリース：（2022 年 6 月 7～9 日）
+## [!DNL Target Standard/Premium] 22.6.1 (stagger リリース：（2022 年 6 月 7～9 日）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 

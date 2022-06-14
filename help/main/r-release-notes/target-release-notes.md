@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 62%
+source-wordcount: '241'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] カスタマーエンジニアリング修正 (stagger リリース：（2022 年 6 月 7～9 日）
+## [!DNL Target Standard/Premium] 22.6.1 (stagger リリース：（2022 年 6 月 7～9 日）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
