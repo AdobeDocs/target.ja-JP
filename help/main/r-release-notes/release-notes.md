@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,6 @@ ht-degree: 82%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* を持つ [!UICONTROL 編集者] 役割では、ライブアクティビティのオーディエンスを編集できなくなりました。 （TGT-43582）
 * 新しい [!UICONTROL オーディエンス] 過去にオーディエンスが保存された古いデータベースと、バックエンドから直接情報を取得する新しいアーキテクチャとの間で、一貫性のない状態が発生するのを防ぐためのページ。 （TGT-43552）
 * Target UI で「空」のコンテナが作成されると結合オーディエンスが保存されない場合がある問題を修正しました。 （TGT-43588）
 
