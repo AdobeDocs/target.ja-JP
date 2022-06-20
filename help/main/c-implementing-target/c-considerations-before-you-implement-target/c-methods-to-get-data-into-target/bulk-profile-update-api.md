@@ -5,10 +5,10 @@ title: データをに取り込む方法 [!DNL Target] プロファイル一括�
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ API を使用して、.csv ファイルをに送信します。 [!DNL Adobe Targ
 * 顧客属性では FTP アップロードを使用しますが、Target のプロファイル一括更新 API では HTTP POST API を使用します。
 * 顧客属性データは Analytics と共有できます。プロファイルの一括更新は Target のみで使用できます。
 * 顧客属性の場合は、Target がまだ認識していないユーザーのプロファイルも作成できます。プロファイル一括更新 API では、既存の Target プロファイルのみが更新されます。
-* 顧客属性の場合は Experience Cloud ID（ECID）を使用する必要があります。プロファイル一括更新 API では、TNT ID または `mbox3rdPartyId` が必要です。
+* 顧客属性には、Experience CloudID(ECID) と、CRM ID やロイヤルティ ID などのソース ID を使用する必要があります。
+* プロファイル一括更新 API では、TNT ID または `mbox3rdPartyId` が必要です。
 * 送信する `mbox3rdPartyID` には、プラス記号（+）とスラッシュ（/）を含めることはできません。
 
 ## 形式
