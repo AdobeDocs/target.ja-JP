@@ -4,8 +4,8 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
-workflow-type: ht
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
+workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 100%
 
@@ -245,7 +245,7 @@ else if (mbox.param("adobeQA"))
 | --- | --- |
 | `page.url` | 現在の URL。 |
 | `page.protocol` | このページに使用するプロトコル（http または https）。 |
-| `page.domain` | 現在の URL ドメイン（最初のスラッシュより前のすべて）。例えば、`http://www.acme.com/categories/men_jeans?color=blu e&size=small` の `www.acme.com`。 |
+| `page.domain` | 現在の URL ドメイン（最初のスラッシュより前のすべて）。例えば、`http://www.acme.com/categories/men_jeans?color=blue&size=small` の `www.acme.com`。 |
 | `page.query` | 現在のページのクエリ文字列。?の後のすべて。例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
 | `page.param(‘<par_name>’)` | `<par_name>` に示すパラメーターの値。現在の URL が Google の検索ページであり、`page.param('hl')` を入力していた場合、URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` の「en」が取得されます。 |
 | `page.referrer` | 上記と同じ一連の操作がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
