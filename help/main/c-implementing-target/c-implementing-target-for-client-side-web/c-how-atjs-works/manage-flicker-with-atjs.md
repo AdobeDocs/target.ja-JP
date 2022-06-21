@@ -5,10 +5,10 @@ title: at.js はどのようにしてちらつきを制御しますか。
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## at.js 2.x の triggerView() でのちらつき制御
 
-SPA でターゲットとなるコンテンツを表示するために `triggerView()` を使用する場合、ちらつき制御が初期設定で提供されます。つまり、事前に非表示にするロジックを手動で追加する必要はありません。代わりに、at.js 2.x では、ターゲットとなるコンテンツを適用する前にビューの表示が必要になる場所を事前に非表示にします。
+DOM の事前非表示は、最初のページ読み込みにのみ適用されます。 SPAの場合、DOM は `triggerView()` が呼び出されます。 SPAがコンテンツを DOM にレンダリングする時間と at.js の更新の間に、短いちらつきが生じる場合があります [!DNL Target] オファー。  ちらつきを最小限に抑えるには、 `triggerView` ページ読み込みコンテンツを変更するには、ページがレンダリングされたらすぐに「triggerView」を呼び出す必要があります。
 
 ## getOffer() および applyOffer() によるちらつき制御
 
