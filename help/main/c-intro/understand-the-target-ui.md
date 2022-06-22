@@ -4,10 +4,10 @@ description: を最大限に活用するために役立つ、ユーザーイン�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 46%
+source-wordcount: '1313'
+ht-degree: 45%
 
 ---
 
@@ -115,6 +115,11 @@ ht-degree: 46%
    * 自分と共有：誰かがあなたとオブジェクトを共有したとき。
    * コンテンツの更新：自分が作成またはフォローしているオブジェクトを誰かが編集、削除、またはコメントしたとき。
    * その他 :
+
+   >[!NOTE]
+   >
+   >「新しいリリース」と「コンテンツの更新」は、 [!DNL Target]. その他のカテゴリは、他のカテゴリソリューションにAdobeされます。
+
 
 1. 優先度が高いと見なすカテゴリを選択します。
 1. ブラウザーにアラートを表示する通知を選択します。
