@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
 source-wordcount: '4167'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月14日（PT） | [Recommendations の計画と実装](/help/main/c-recommendations/plan-implement.md) | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
+| 14月6日（PT） | [Recommendations の計画と実装](/help/main/c-recommendations/plan-implement.md) | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
 | 6月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
 
 ## Adobe Target Standard／Premium 22.5.1（時差リリース、2022年5月11～13日（PT））
@@ -27,8 +27,8 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 6月7日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
-| 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 今後の [!DNL Adobe Target] コミュニティコーヒーブレーク（2022 年 6 月 29 日） |
-| 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!DNL Target] プラットフォームリリース（2022 年 5 月 26 日）および at.js 2.9.0 リリース（2022 年 5 月 28 日）です。 |
+| 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次回の [!DNL Adobe Target] Community Coffee Break（2022年6月29日（PT）開催）に関する情報を追加しました |
+| 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] プラットフォームリリース（2022年5月25日（PT））および at.js 2.9.0 リリース（2022年5月27日（PT））に関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 リリースに関する情報を追加しました。 |
 |  | [User-agent と Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新規トピックです。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | ウェビナー「Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））」の録画へのリンクを追加しました。 |
@@ -76,7 +76,7 @@ ht-degree: 98%
 | 2月25日（PT） | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 以下の節を更新しました。<ul><li>[自動配分と自動ターゲット](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自動配分](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [自動配分レポートの解釈](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 新しい FAQ を追加しました。<ul><li>[!UICONTROL レポートソースとしての Analytics]（A4T）を使用する[!UICONTROL 自動配分]アクティビティでは、「勝者なし」、「勝者」および「星」バッジを使用できますか？</li></ul> |
 |  | [アクティビティのみのオーディエンスの作成](/help/main/c-target/creating-activity-only-audience.md) | 除外ルールに関する「考慮事項」の節に情報を追加しました。 |
-| 2月10日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Visual Experience Composer(VEC) でのサービスワーカーを使用した Web サイトの読み込みに関する情報を追加しました。 |
+| 2月10日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Visual Experience Composer（VEC）での Service Workers を使用した web サイトの読み込みに関する情報を追加しました。 |
 | 2月7日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年2月23日（PT））</li></ul> |
 | 2月3日（PT） | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 新しい節と「ビデオ：Real-time CDP と [!DNL Adobe Target] による次のヒットのパーソナライゼーション」のビデオを追加しました。 |
 | 2月2日（PT） | [コンテンツ配信のトラブルシューティング](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 「[!DNL Target] プロファイル属性値の二重引用符のエスケープが期待どおりに機能しない」の節を追加しました。 |

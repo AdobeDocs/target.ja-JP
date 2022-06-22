@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Target のお知らせとイベント
 
-お知らせと今後の情報 [!DNL Adobe Target] イベント ( [!DNL Target] コーヒー休憩セッション [!DNL Target] ウェビナーシリーズ [!DNL Target] スキルビルダーセッション、開発者チャットなど。 過去の記録へのリンクがある場合は含まれます。
+[!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Adobe Target Community Coffee Break（2022 年 6 月 29 日）
+## Adobe Target Community Coffee Break（2022年6月29日（PT）開催）
 
 +++ここをクリック
 
-* **2022 年 6 月 29 日（水）**
-* **午前 8 時～9 時。(PDT、UTC-7)**
+* **2022年6月29日（水）（PT）**
+* **午前 8:00 ～ 9:00（PDT、UTC-7）**
 * **[その他の情報および登録情報](https://adobe.ly/3wKhcQS) {target=_blank}**
 
-我々は、ジョーダン・イソン、ケイティ・マッキンニー、ジャスティン・リー、そしてAdobeソリューションズコンサルティングチームのカエラ・キュザックが参加し、彼らの専門知識の分野に関する直接のチャットを行います。 また、6/2/22 Personalization with Precision で取り上げたトピックに関する質問にも回答します。Adobe Analytics&amp;Target のウェビナー（詳しくは以下を参照）
+アドビソリューションコンサルティングチームのジョーダン アイソン、ケイティ マッキンニー、ジャスティン リー、カエラ キュザックが参加し、それぞれの専門分野について直接チャットします。また、2022/06/02 Personalization with Precision の Adobe Analytics &amp; Target ウェビナー（詳細は以下）で取り上げたトピックに関連する質問にも回答します。
 
 * マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
-* Web、モバイルアプリ、E メール、IoT および各デジタルタッチポイントを最適化して高いコンバージョンとエンゲージメントを実現する方法
-* Adobe AnalyticsとAdobe Targetのワークフローによるパーソナライゼーション、ターゲティング、テスト
-* 訪問者の行動を予測する属性と、主要なビジュアライゼーションやセグメント化分析で最も重要な属性を解決するユースケースについて
+* コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服する方法
+* パーソナライゼーション、ターゲティング、テストのための Adobe Analytics および Adobe Target のワークフロー
+* 訪問者の行動を予測する属性はどれか、およびキービジュアライゼーションおよびセグメンテーション分析に最も重要な属性はどれかを解き明かすユースケースの理解
 
 +++
 
@@ -89,7 +89,7 @@ Kaitlin White（Adobe Product Marketing Manager）が、パーソナライゼー
 
 ### アドビ：パーソナライゼーション業界インサイダー - 小売（2022年6月21日（PT））
 
-2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。業界の専門家が、労働者や旅行者の人生が正常に戻り始める間に、新しい消費者の傾向が形づくりを見ている方法を学びます。 
+2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。 
 
 +++ここをクリック
 
@@ -102,7 +102,7 @@ Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target 
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
-過去のイベントの記録にアクセスする：
+過去のイベントの録画にアクセス：
 
 ### Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））
 
@@ -131,7 +131,8 @@ Dick’s Sporting Goods がどのようにして 2 桁成長を実現してい�
 
 +++ここをクリック
 
-Christopher Young（Director、Industry Strategy Financial Services）と James Capasso（Target Consultant、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。+++ 
+Christopher Young（Director、Industry Strategy Financial Services）と James Capasso（Target Consultant、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。
++++ 
 
 ### シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法（2022年5月26日（PT））
 
@@ -167,7 +168,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 +++
 
-### ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
+### ウェビナー：[!DNL Adobe Target] のオンデバイス決定を使用して、待ち時間ゼロでパーソナライズとテストを行う
 
 [録画リンク](https://video.tv.adobe.com/v/328148) {target=_blank}
 
@@ -180,7 +181,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 ### ウェビナー：HSBC が Adobe [!DNL Target]と AI をどのように活用して大規模なパーソナライゼーションを迅速に最適化し提供を実現したか
 
-* **[記録リンク](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[録画リンク](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 +++ここをクリック
 
@@ -201,5 +202,5 @@ Adobe と HSBC によるこのウェビナーに参加して以下のことを�
 
 2021年3月31日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
-* **[記録リンク](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[録画リンク](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
 
