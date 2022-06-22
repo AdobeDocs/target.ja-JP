@@ -5,9 +5,9 @@ title: 既知の問題と解決された問題に関する情報はどこで入�
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,35 +127,35 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-上記の既知の問題が解決されると、それらは以降の節に移動します。 必要に応じて、メモを追加します。
+上記の既知の問題は解決されているため、次の節に移動します。必要に応じて、メモを追加します。
 
 ### at.js
 
 * at.js 2.1.1 以前（例えば、デフォルトのエクスペリエンス）を使用し、エクスペリエンスを変更せずに作成した場合、そのエクスペリエンスはレポート、Analytics for Target（A4T）、Adobe Analytics または Google Analytics でカウントされない場合があります。さらに、ttMeta プラグインが正しく動作しない可能性があります。
 
-   回避策として、エクスペリエンスコンテンツに空白を使用します。
+   回避策として、エクスペリエンスコンテンツで空白を使用します。
 
    この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)するか、上記の回避策を 2.2.0 より前のバージョンの at.js にのみ使用してください。（TNT-33366）
 
-* 2.2.0 より前のバージョンの at.js を使用している場合、クリック追跡でコンバージョンがレポートされません。 [!UICONTROL Analytics for Target] (A4T) [!DNL Adobe Analytics] コードがページ要素（ボタンなど）に存在しない。
+* ページ要素（ボタンなど）に [!DNL Adobe Analytics] コードが存在しない場合、2.2.0 より前のバージョンの at.js を使用しても、クリック追跡で [!UICONTROL Analytics for Target]（A4T）のコンバージョンがレポートされません。
 
-   at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
+   at.js 2.2.0. ではこの問題の修正が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)してください。
 
 ### ジオターゲティング
 
 2020年5月10日（PT）に Adobe は GEO プロバイダーファイルを更新し、これによっていくつかの不一致が発生しました。例えば、コンマを含む値が追加されたのに、既存のオーディエンスの値にはコンマがないというケースがありました。Adobe 配信サーバーのすべてがこの変更の影響を受けるわけではありません。その結果、2020年5月10日（PT）から 7月22日（PT）の間、これらの値を使用するオーディエンスで、適切な訪問者がすべて適格とされない場合があります。
 
-### のコピー [!UICONTROL Recommendations] アクティビティ
+### [!UICONTROL Recommendations] アクティビティのコピー
 
-をコピーする場合 [!UICONTROL Recommendations] アクティブなプロモーションを持つアクティビティ、重複アクティビティを変更した場合、現在のところ元のアクティビティにも影響します。逆も同様です。 （TGT-39155）
+アクティブなプロモーションで [!UICONTROL Recommendation] アクティビティをコピーする際、重複アクティビティを変更すると、現在のところ元のアクティビティにも影響します（逆の場合も同じです）。（TGT-39155）
 
-この問題は、 [!DNL Target Standard/Premium] 21.2.1 リリースです。
+この問題は、[!DNL Target Standard/Premium] 21.2.1 リリースで修正されました。
 
 ### Recommendations アクティビティの QA モード
 
 既知の問題により、アクティビティで使用される条件が項目ベースまたはカテゴリベースの場合、プレビューができなくなります。（TNT-37455）
 
-この問題は 2022 年 1 月に修正されました。 （TNT-37455）
+この問題は、2022年1月に修正されました。（TNT-37455）
 
 ### ページ配信 {#page-delivery}
 
