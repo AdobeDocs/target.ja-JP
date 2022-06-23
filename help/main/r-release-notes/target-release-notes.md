@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 71%
+source-wordcount: '203'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022年6月20日（PT）**
+**最終更新日：2022年6月23日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -24,7 +24,6 @@ ht-degree: 71%
 このリリースには、以下の機能強化および修正が含まれています。
 
 * [!UICONTROL 編集者]の役割を持つユーザーは、ライブアクティビティでオーディエンスを編集できなくなりました。 （TGT-43582）
-* から共有される顧客属性 [!DNL Adobe Experience Platform] から [!DNL Target] 内 [!DNL Platform] UI は [!DNL Target] UI （TGT-43150）
 * 顧客が感嘆符 (! ) をオーディエンスの名前の最初の文字（例：!London）として使用します。 （TGT-43643）
 * 一部のお客様のオーディエンス定義の詳細カードで、終了したアクティビティがまだライブであることが示されていた問題を修正しました。 （TGT-43527）
 
