@@ -4,9 +4,9 @@ description: ' [!DNL Target]  JavaScript ライブラリ（at.js および AEP W
 title: ' [!DNL Target] の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2565'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [!DNL Target] Web サイトとの統合（[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用）：
 
-* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) は、新しいクライアント側 JavaScript ライブラリです。The Experience Platform Web SDK を使用すると、[!DNL Adobe Experience Cloud] のお客様は、[!DNL Experience Platform] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **Adobe Experience Platform Web SDK:** この [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアント側 JavaScript ライブラリです。 The Experience Platform Web SDK を使用すると、[!DNL Adobe Experience Cloud] のお客様は、[!DNL Experience Platform] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
 * **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) にアップデートすることをお勧めします。
 * **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。
 

@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 95%
+source-wordcount: '514'
+ht-degree: 92%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 95%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) のサポートを追加しました。
+* 追加済み [ユーザーエージェントクライアントのヒント](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} のサポート。
 * [!UICONTROL Experience Targeting]（XT）アクティビティの[!UICONTROL オファーの決定]をレンダリングする際に、断続的にタイムアウトが発生していた問題を修正しました。（TNT-44611）
 
 ## at.js バージョン 2.9.0（2022年5月27日（PT））
 
-* [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) のサポートを追加しました。
+* 追加済み [ユーザーエージェントクライアントのヒント](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} のサポート。
 * 同じページ上の複数の mbox リクエストが異なるインプレッション ID を持っていたバグを修正しました。
 
 ## その他のリリースノートとバージョンの詳細

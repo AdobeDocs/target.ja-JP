@@ -5,10 +5,10 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 28%
+source-wordcount: '1680'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 | Target SDK | 推奨アクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDK の最新バージョンのダウンロードについて詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 内 *Platform Web SDK の概要* ガイド。 Platform Web SDK の各バージョンでの新機能について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 内 *Platform Web SDK の概要* ガイド。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDK の最新バージョンのダウンロードについて詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} *Platform Web SDK の概要* ガイド。 Platform Web SDK の各バージョンでの新機能について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 内 *Platform Web SDK の概要* ガイド。 |
 | [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、[at.js のダウンロード](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/) を参照してください。at.js の各バージョンでの新機能について詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js（現在は非推奨）に存在する内部メソッドを使用するプラグインの中には、配信されても失敗するものもあります。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -149,7 +149,7 @@ ht-degree: 28%
 
 ### ![at.js バッジ](/help/main/assets/atjs.png) カスタムイベントを使用する at.js
 
-[at.js カスタムイベント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)を使用して の応答をリッスンし、レスポンストークンを読み取ります。[!DNL Target]
+用途 [at.js カスタムイベント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank} で [!DNL Target] を応答し、レスポンストークンを読み取ります。
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 

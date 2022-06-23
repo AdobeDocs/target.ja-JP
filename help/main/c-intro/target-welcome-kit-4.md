@@ -4,9 +4,9 @@ description: テストおよびパーソナライゼーションに関する取�
 title: Target を使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2905'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 **役に立つ知識**：[!DNL Target] は異なるテクノロジーでもうまく動作するオープンで不可知的なプラットフォームなので、CRM や購入したデータを様々な方法で追加できます。つまり、組織に最も適した方法を選択できます。
 
-詳しくは、[Target へのデータの取り込み方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)を参照してください。
+詳しくは、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} を参照してください。
 
 ## ヒント 2：[!DNL Target]オーディエンスを他の Adobe Experience Cloud オーディエンスとブレンドすることで、より詳細にパーソナライズできます。
 

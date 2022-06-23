@@ -4,10 +4,10 @@ description: Adobeで除外を作成する方法を説明します [!DNL Target]
 title: Recommendations Activities での除外の使用方法を教えてください。
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 43%
+source-wordcount: '621'
+ht-degree: 42%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 43%
 
    ![](assets/exclusions_list.png)
 
-   [!UICONTROL 除外]リストビューで各除外について報告される「項目数」は、現在設定されているデフォルトの Recommendations [ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でその除外のルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](https://developer.adobe.com/target/implement/recommendations/)を参照してください。
+   [!UICONTROL 除外]リストビューで各除外について報告される「項目数」は、現在設定されているデフォルトの Recommendations [ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でその除外のルールに一致する製品の数です。詳しくは、 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ：デフォルトのホストグループを変更します。
 
 1. 「**[!UICONTROL 除外を作成]**」をクリックします。
 

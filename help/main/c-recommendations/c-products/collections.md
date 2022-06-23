@@ -4,10 +4,10 @@ description: コレクションのAdobe [!DNL Target] Recommendations。 コレ�
 title: Recommendationsアクティビティでコレクションを使用する方法を教えてください。
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
    ![ホバーアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](https://developer.adobe.com/target/implement/recommendations/)を参照してください。
+   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。詳しくは、 [設定](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ：デフォルトのホストグループを変更します。
 
 1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
 

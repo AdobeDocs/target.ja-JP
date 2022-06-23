@@ -4,9 +4,9 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **Target はどのブラウザーをサポートしていますか？**
 
-詳細については、「[サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/)」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+以下をお読みください。 [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} のマトリックスを参照してください。 Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

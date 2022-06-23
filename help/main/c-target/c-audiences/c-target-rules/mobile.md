@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: モバイルオプションに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 40%
+source-wordcount: '676'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.jsを使用する顧客は、[at.js バージョン 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) （以降）にアップグレードする必要があります。
+>Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（またはそれ以降）。
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択は、OR 演算子で結合されます。
 

@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
    回避策として、エクスペリエンスコンテンツで空白を使用します。
 
-   この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)するか、上記の回避策を 2.2.0 より前のバージョンの at.js にのみ使用してください。（TNT-33366）
+   この問題の修正は、at.js 2.2.0 に含まれていました。 [最新バージョンまたは at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} を使用するか、上記の回避策を 2.2.0 より前のバージョンの at.js に対してのみ使用してください。  （TNT-33366）
 
 * ページ要素（ボタンなど）に [!DNL Adobe Analytics] コードが存在しない場合、2.2.0 より前のバージョンの at.js を使用しても、クリック追跡で [!UICONTROL Analytics for Target]（A4T）のコンバージョンがレポートされません。
 
-   at.js 2.2.0. ではこの問題の修正が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)してください。
+   at.js 2.2.0 では、この問題が導入されました。 [最新の at.js バージョンにアップグレードしてください](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)この問題が発生した場合は {target=_blank}。
 
 ### ジオターゲティング
 

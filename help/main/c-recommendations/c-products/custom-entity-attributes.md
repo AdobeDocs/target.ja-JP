@@ -5,9 +5,9 @@ title: カスタムエンティティ属性の使用方法
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1400'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-詳しくは、 [Adobe Recommendations API ドキュメント](https://developer.adobe.com/target/implement/recommendations/) Delivery API と Save entities API の使用に関する情報を参照してください。
+詳しくは、 [Adobe Recommendations API ドキュメント](https://developer.adobe.com/target/implement/recommendations/){target=_blank} を参照してください。
 
 ## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

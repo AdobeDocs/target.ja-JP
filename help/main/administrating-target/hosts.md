@@ -5,10 +5,10 @@ title: ホストおよびその使用方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 97%
+source-wordcount: '1086'
+ht-degree: 94%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**：[!DNL Target] の ubox 機能を使用すると、[リダイレクター](https://developer.adobe.com/target/implement/email/working-with-redirectors/)を使用した場合の移動先であるドメインのリストも、この許可リストで管理できます。実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
+>**セキュリティのベストプラクティス**:の ubox 機能を使用する場合 [!DNL Target]の場合許可リスト、このは、 [リダイレクター](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} は移動可能です。 実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
 >
 >許可リストは、環境よりも優先されます。許可リスト機能を使用する前に、すべてのホストをクリアしてください。すると、許可リストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
 

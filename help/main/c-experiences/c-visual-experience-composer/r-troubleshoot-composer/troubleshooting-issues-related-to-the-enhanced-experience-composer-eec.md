@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 49%
+source-wordcount: '448'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![](assets/firefox_more_info_3.png)
 
-1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、[Target の TLS サポートポリシーについては、TLS (Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)を参照してください。現在までの状況（2018 年 9 月 12 日まで有効）を解決するには、TLS バージョンとドメインの設定について[カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} を参照してください。 現在までの状況（2018 年 9 月 12 日まで有効）を解決するには、TLS バージョンとドメインの設定について[カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 

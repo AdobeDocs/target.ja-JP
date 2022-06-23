@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1566'
 ht-degree: 99%
 
 ---
@@ -68,6 +68,102 @@ ht-degree: 99%
          + [ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
+   + 実装する前に {#before-implement}
+      + [実装する前に](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+      + [Target 実装の準備](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
+      + プライバシーとセキュリティ {#privacy}
+         + [プライバシーの概要](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
+         + [プライバシーとデータ保護規制](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Target の Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
+         + [Target の Cookie の削除](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Google Chrome SameSite cookie ポリシー](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Apple Intelligent Tracking Prevention（ITP）2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [コンテンツセキュリティポリシー（CSP）指令](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Target のエッジノードを許可リストに登録する](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+      + データを Target に送信する方法 {#methods}
+         + [メソッドの概要](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [ページのパラメーター](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [ページ内プロファイル属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [スクリプトプロファイル属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [データプロバイダー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
+         + [プロファイル一括更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
+         + [単一プロファイル更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
+         + [顧客属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
+         + [プロファイル API 設定](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
+      + [Target  セキュリティの概要](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [サポートされているブラウザー](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
+      + [TLS（Transport Layer Security）暗号化の変更](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
+      + [CNAME と Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   + クライアント側 web：Target の実装 {#client-side}
+      + [概要：Target をクライアント側 web に実装する](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + Adobe Experience Platform Web SDK の実装 {#aep-implementation}
+         + [AEP Web SDK の概要](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + at.js の実装 {#at-js-implementation}
+         + オンデバイス判定 {#on-device-decisioning}
+            + [オンデバイス判定の概要](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [サポートされる機能](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [ルールアーティファクト](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [トラブルシューティング](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+         + at.js の仕組み {#at-js}
+            + [at.js の仕組みの概要](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+            + [at.js によるちらつきの制御方法](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
+            + [at.js の統合](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
+         + at.js のデプロイ方法 {#deploy-at-js}
+            + [at.js のデプロイ方法](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+            + [Adobe Experience Platform を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [タグマネージャーを使用しない Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+            + [Dynamic Tag Manager（DTM）を使用した Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [シングルページアプリケーション（SPA）への Target の実装](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+         + at.js 関数 {#functions-overview}
+            + [at.ｊs 関数の概要](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
+            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
+            + [mboxDefine() と mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
+            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
+            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
+            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+            + [at.js カスタムイベント](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
+            + [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+            + [Target でのクラウドベースのインスタンスの使用](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+         + at.js に関するよくある質問 {#faq-at-js}
+            + [at.js の FAQ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+         + [at.js のバージョンの詳細](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+         + [at.js 1.x から at.js 2.x へのアップグレード](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+         + [at.js の cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+         + [User-agent と Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
+      + グローバル mbox について {#global-mbox}
+         + [グローバル mbox の概要について](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [グローバル mbox のカスタマイズ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [レガシー実装のグローバル mbox の使用](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [グローバル mbox へのパラメーターの受け渡し](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [グローバル mbox に関するよくある質問](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+   + モバイルアプリのための Target {#mobile-apps}
+      + [モバイルアプリのための Target の概要](c-target-mobile-app/target-mobile-app.md)
+      + [モバイルアプリにおける Target の仕組み](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
+      + [SDK での Target の有効化](c-target-mobile-app/mobile-enable-target-in-sdk.md)
+      + [iOS - Target の位置と成功指標の作成](c-target-mobile-app/mobile-create-location-and-metric.md)
+      + [iOS - カスタムユーザーデータの送信](c-target-mobile-app/mobile-custom-user-data.md)
+      + [Target モバイルのプレビュー](c-target-mobile-app/target-mobile-preview.md)
+      + [プリフェッチオファーコンテンツ](c-target-mobile-app/prefetch-offer-content.md)
+      + [Target  モバイルアプリに関する FAQ](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Location Service の使用](/help/main/c-target-mobile-app/use-location-service.md)
+   + サーバー側：Target の実装 {#server-side}
+      + [サーバー側：Target の実装の概要](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Target の従来の API から Adobe I/O への移行](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [オンデバイス判定](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
+   + [ハイブリッド実装](/help/main/c-implementing-target/hybrid-implementation.md)
+   + 電子メール：Target の実装 {#implement-email}
+      + [電子メール：Target の実装の概要](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [画像用 adbox の作成](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
+      + [電子メール画像 adbox のテスト](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
+      + [リダイレクターの使用](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 +  Target と Experience Cloud の統合 {#integrate}
    + Adobe Target のレポートソースとしての Adobe Analytics（A4T）{#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
