@@ -5,10 +5,10 @@ title: ' [!DNL Target]  はプライバシーとデータ保護規制にどの�
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ EU 一般データ保護規則（GDPR）、カリフォルニア州消費者プ�
 
 ## Adobe [!DNL Target] と [!DNL Adobe Experience Platform] のオプトイン {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] のタグを介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe ExperiencePlatform] で、拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択します。詳しくは、[実装方法 using  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) を使用した  [!DNL Target]  の実装を参照してください。
+[!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] のタグを介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`targetGlobalSettings` を使用し、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe ExperiencePlatform] で、拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択します。詳しくは、[実装方法 using  [!DNL Adobe Experience Platform] を使用した  [!DNL Target]  の実装を参照してください。](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 次のコードスニペットに、`optinEnabled=true` 設定を有効にする方法を示します。
 
@@ -133,7 +133,7 @@ window.targetGlobalSettings = {
 | ユーザー ID | 名前空間 ID タイプ | 名前空間 ID | 定義 |
 |--- |--- |--- |--- |
 | Experience Cloud ID（ECID） | Standard | 4 | [!UICONTROL Adobe Experience Cloud ID]（旧称：訪問者 ID または Experience Cloud ID）。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
-| TnT ID／Cookie ID（TNTID） | Standard | 9 | [!DNL Target]訪問者のブラウザーで cookie として設定される 識別子。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
+| TnT ID／Cookie ID（TNTID） | 標準 | 9 | [!DNL Target]訪問者のブラウザーで cookie として設定される 識別子。JavaScript API を利用して ID を見つけることができます（詳細は下記を参照してください）。 |
 | サードパーティ ID／CRM ID（THIRDPARTYID） | [!DNL Target]-特定の | 該当なし | 顧客の CRM やその他の一意の ID を [!DNL Target] に提供している場合。 |
 
 >[!NOTE]
@@ -148,7 +148,7 @@ GDPR および CCPA では、いつ同意の取得が必要となるかに関す
 
 [!DNL Target] では、お客様の同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] を介してオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。オプトインの管理には、[!DNL Adobe Experience Platform] を使用することをお勧めします。[!DNL Adobe Experience Platform] ではオプトインをきめ細かく制御でき、[!DNL Target] による処理が許可されるまでページ内の特定の要素を非表示にすることができるので、お客様の同意戦略の一環として役立ちます。
 
-GDPR、CCPA および [!DNL Adobe Experience Platform] について詳しくは、[アドビのプライバシーに関する JavaScript ライブラリと一般データ保護規則（GDPR）](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)を参照してください。また、前述の *Adobe Target と Adobe Experience Platform のオプトイン*&#x200B;の節も参照してください。
+GDPR、CCPA および [!DNL Adobe Experience Platform] について詳しくは、[アドビのプライバシーに関する JavaScript ライブラリと一般データ保護規則（GDPR）](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)を参照してください。また、前述の *Adobe Target と Adobe Experience Platform のオプトイン*&#x200B;の節も参照してください。
 
 ### `AdobePrivacy.js` は情報を GDPR API に送信しますか？ {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,7 +284,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 | フィールド | 説明 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して [!DNL Target] プロファイルにパラメーターがアップロードされました。詳しくは、[データを に送信する方法 [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)を参照してください。 |
+| Sample_Parameter | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して [!DNL Target] プロファイルにパラメーターがアップロードされました。詳しくは、 [データをに送信する方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | この標準的なフィールドには、ユーザーの最後の再訪問の日時が含まれています。 |
 | firstSessionStart | この標準的なフィールドには、ユーザーの初めてのセッションが開始された日時が含まれています。 |
 | user.sessionCountScript | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトでおこなったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
@@ -295,7 +295,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 ### [!DNL Target] は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)を参照してください。
+GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)を参照してください。
 
 ### データがサードパーティに共有または販売されるのを防ぐために何らかの処理を行う必要がありますか？
 

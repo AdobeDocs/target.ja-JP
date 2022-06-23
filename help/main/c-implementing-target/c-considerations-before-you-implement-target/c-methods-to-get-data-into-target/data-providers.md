@@ -5,10 +5,10 @@ title: データをに取り込む方法 [!DNL Target] データプロバイダ�
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 `window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
 
-各データプロバイダーの構造について詳しくは、[データプロバイダー](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)を参照してください。
+各データプロバイダーの構造について詳しくは、[データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)を参照してください。
 
 ## 使用例
 
@@ -44,11 +44,11 @@ at.js はデータをキャッシュしません。 データプロバイダー�
 
 ## コード例
 
-[データプロバイダー](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)にはいくつかの例が記載されています。
+[データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)にはいくつかの例が記載されています。
 
 ## 関連情報へのリンク
 
-ドキュメント：[データプロバイダー](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+ドキュメント：[データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
 ## トレーニングビデオ：
 

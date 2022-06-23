@@ -5,10 +5,10 @@ title: ホストおよびその使用方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1084'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->**セキュリティのベストプラクティス**：[!DNL Target] の ubox 機能を使用すると、[リダイレクター](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)を使用した場合の移動先であるドメインのリストも、この許可リストで管理できます。実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
+>**セキュリティのベストプラクティス**：[!DNL Target] の ubox 機能を使用すると、[リダイレクター](https://developer.adobe.com/target/implement/email/working-with-redirectors/)を使用した場合の移動先であるドメインのリストも、この許可リストで管理できます。実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
 >
 >許可リストは、環境よりも優先されます。許可リスト機能を使用する前に、すべてのホストをクリアしてください。すると、許可リストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
 
@@ -124,6 +124,6 @@ ht-degree: 100%
 
 あるドメインから [!DNL Target] へのリクエストが行われると、そのドメインがリストに表示されます。場合によっては、スパイダーエンジン、言語翻訳サイトまたはローカルディスクドライブからのドメインが表示されることがあります。表示されるドメインがチームで使用していないドメインである場合は、「[!UICONTROL 削除]」をクリックして、そのドメインを削除します。
 
-**[!DNL Target] リクエストで「/* no display - unauthorized mbox host */」が返される。**
+**マイ [!DNL Target] リクエストが返す/&#42; 表示なし — 許可されていない mbox ホスト &#42;/.**
 
-許可されていないホストで [!DNL Target] リクエストが行われた場合、「/* no display - unauthorized mbox host */」というレスポンスが返されます。
+次の場合、 [!DNL Target] リクエストが権限のないホストでおこなわれ、リクエストへの応答は/になります。&#42; 表示なし — 許可されていない mbox ホスト &#42;/.

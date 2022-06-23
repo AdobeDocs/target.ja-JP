@@ -5,10 +5,10 @@ title: 実装する前に知っておくべきこと
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 69%
 >
 >at.js または [!DNL Adobe Experience Platform Web SDK] は、Adobeカスタマーケアではサポートされていません。
 
-- [Target 実装の準備](prepare-to-implement-target.md)
-- [プライバシー](c-privacy/privacy.md)
-- [データを Target に送信する方法](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target  セキュリティの概要](target-security-overview.md)
-- [サポートされているブラウザー](supported-browsers.md)
-- [TLS（Transport Layer Security）暗号化の変更](tls-transport-layer-security-encryption.md)
-- [CNAME と Adobe Target](implement-cname-support-in-target.md)
-- [Target のエッジノードを許可リストに登録する](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Target 実装の準備](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Target のセキュリティの概要](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [TLS（Transport Layer Security）暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME と Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

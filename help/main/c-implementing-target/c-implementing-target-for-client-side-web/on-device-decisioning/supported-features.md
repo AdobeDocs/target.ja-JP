@@ -5,9 +5,9 @@ title: On-Device Decisioning でサポートされる機能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '476'
 ht-degree: 13%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 この [!DNL Adobe Target] JS SDK は、お客様がパフォーマンスと決定のためのデータの鮮度を柔軟に選択できるようにします。 つまり、機械学習を通じて最も関連性が高く、パーソナライズされたコンテンツを配信することが最も重要な場合は、ライブサーバー呼び出しをおこなう必要があります。 しかし、パフォーマンスがより重要な場合は、デバイス上およびメモリ内での判断が必要です。 オンデバイス判定が機能するようにするには、次の節で、サポートされる機能の一覧を参照してください。
 
-## サポートされるアクティビティのタイプ
+## サポートされているアクティビティのタイプ
 
 次の表に、どの [アクティビティタイプ](/help/main/c-activities/target-activities-guide.md) 作成者 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) または [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) は、オンデバイス判定でサポートされているか、サポートされていません。
 
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 ### オンデバイス判定のジオターゲティング
 
-地域ベースのオーディエンスを使用したオンデバイス判定アクティビティの待ち時間を最小限に抑えるために、Adobeでは、 [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). リクエストのコンテキストで地域オブジェクトを設定します。 つまり、ブラウザーを使用して、各訪問者の場所を特定する方法です。 例えば、設定したサービスを使用して、IP-to-Geo ルックアップを実行できます。 Google Cloud など、一部のホスティングプロバイダーは、各 `HttpServletRequest`.
+地域ベースのオーディエンスを使用したオンデバイス判定アクティビティの待ち時間を最小限に抑えるために、Adobeでは、 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). リクエストのコンテキストで地域オブジェクトを設定します。 つまり、ブラウザーを使用して、各訪問者の場所を特定する方法です。 例えば、設定したサービスを使用して、IP-to-Geo ルックアップを実行できます。 Google Cloud など、一部のホスティングプロバイダーは、各 `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-ただし、サーバーで IP-to-Geo 検索を実行できず、でオンデバイス判定を実行したい場合は、 [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 地域ベースのオーディエンスを含むリクエストもサポートされます。 このアプローチの欠点は、リモートの IP-to-Geo ルックアップを使用し、各 IP-to-Geo ルックアップに遅延が追加される点です `getOffers` 呼び出し。 この遅延は、 `getOffers` サーバーの近くにある CDN をヒットするので、サーバー側判定を使用してを呼び出します。 SDK が訪問者の IP アドレスの地域情報を取得するために、リクエストのコンテキストの地域オブジェクトに「ipAddress」フィールドのみを指定します。 「ipAddress」以外のフィールドを指定した場合、 [!DNL Target] SDK は解決のために位置情報メタデータを取得しません。
+ただし、サーバーで IP-to-Geo 検索を実行できず、でオンデバイス判定を実行したい場合は、 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 地域ベースのオーディエンスを含むリクエストもサポートされます。 このアプローチの欠点は、リモートの IP-to-Geo ルックアップを使用し、各 IP-to-Geo ルックアップに遅延が追加される点です `getOffers` 呼び出し。 この遅延は、 `getOffers` サーバーの近くにある CDN をヒットするので、サーバー側判定を使用してを呼び出します。 SDK が訪問者の IP アドレスの地域情報を取得するために、リクエストのコンテキストの地域オブジェクトに「ipAddress」フィールドのみを指定します。 「ipAddress」以外のフィールドを指定した場合、 [!DNL Target] SDK は解決のために位置情報メタデータを取得しません。
 
 ```javascript
 window.adobe.target.getOffers({ 

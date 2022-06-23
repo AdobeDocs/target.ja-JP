@@ -5,10 +5,10 @@ title: 使用可能な [!DNL Target] クラウドベースのインスタンス�
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 70%
+source-wordcount: '175'
+ht-degree: 67%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 70%
 
 この [!DNL at.js] JavaScript ライブラリでは、Cookie を使用してユーザーを追跡し、 [!DNL Target] は常に一貫したエクスペリエンスを提供します。 この [!DNL Target] JavaScript ライブラリが cookie を保存できない [!DNL Target] のリクエストが無効になっています。
 
-**解決策：**&#x200B;パブリックサフィックスリストに含まれているドメインを使用してクラウドベースのインスタンスを利用する必要がある場合は、`cookieDomain` 設定をカスタマイズすることをお勧めします。詳しくは、[targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+**解決策：**&#x200B;パブリックサフィックスリストに含まれているドメインを使用してクラウドベースのインスタンスを利用する必要がある場合は、`cookieDomain` 設定をカスタマイズすることをお勧めします。詳しくは、[targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。

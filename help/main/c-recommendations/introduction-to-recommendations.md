@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] の Recommendations アクティビティに�
 title: Recommendations アクティビティとは？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '2106'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2114'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ユーザーが表示および購入している品目を [!DNL Target] が認識するようにする必要があります。購入がコンテキストと関連しない場合、例えば、PDF のダウンロード、調査の完了、ニュースレターの登録、ビデオの視聴など、コンバージョンイベントの様々なタイプを追跡したほうがいい可能性があります。
 
-既に [!DNL Target] を使用してサイトで A/B テストアクティビティを実行している場合、既にこの手順を完了している可能性があります。または、既に [!DNL Adobe Analytics] を使用してサイト訪問およびコンバージョン行動をレポートしている場合、[!DNL Analytics] を行動データソースとして使用できます。そうでない場合、[[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) のタグなどのタグマネージャーを使用してこれを設定するのが最も簡単です。また、リアルタイム API を介してオフラインまたはアプリ内インタラクションを [!DNL Target] に送信することもできます。
+既に [!DNL Target] を使用してサイトで A/B テストアクティビティを実行している場合、既にこの手順を完了している可能性があります。または、既に [!DNL Adobe Analytics] を使用してサイト訪問およびコンバージョン行動をレポートしている場合、[!DNL Analytics] を行動データソースとして使用できます。そうでない場合、タグなどのタグマネージャーを使用してこれを設定するのが最も簡単です ( [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). また、リアルタイム API を介してオフラインまたはアプリ内インタラクションを [!DNL Target] に送信することもできます。
 
 ### 適切なコンテキストでのレコメンデーションの取得
 

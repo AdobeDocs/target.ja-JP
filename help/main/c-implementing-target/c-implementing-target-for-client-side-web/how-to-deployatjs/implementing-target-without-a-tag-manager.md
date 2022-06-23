@@ -5,10 +5,10 @@ title: 実装可能か [!DNL Target] タグマネージャーがない場合、
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 48%
+source-wordcount: '1824'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->タグ [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、 [!DNL Target] と at.js ライブラリに含まれています。 次の情報は、 [!DNL Adobe Experience Platform] 実装する [!DNL Target].
+>タグ [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) は、 [!DNL Target] と at.js ライブラリに含まれています。 次の情報は、 [!DNL Adobe Experience Platform] 実装する [!DNL Target].
 
 次の手順で [!UICONTROL 実装] ページ、クリック **[!UICONTROL 管理]** > **[!UICONTROL 実装]**.
 
@@ -32,7 +32,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->設定を上書きする際には、 [!DNL Target Standard/Premium] UI または REST API を使用します。 詳しくは、[targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) を参照してください。
+>設定を上書きする際には、 [!DNL Target Standard/Premium] UI または REST API を使用します。 詳しくは、[targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。
 
 ## アカウントの詳細
 
@@ -42,7 +42,7 @@ ht-degree: 48%
 | --- | --- |
 | [!UICONTROL クライアントコード] | クライアントコードは、[!DNL Target] API を使用する際に必要になることの多い、クライアント固有の一連の文字です。 |
 | [!UICONTROL IMS 組織 ID] | この ID は、実装を [!DNL Adobe Experience Cloud] アカウントと結び付けます。 |
-| [!UICONTROL オンデバイス判定] | オンデバイス判定を有効にするには、切り替えを「オン」の位置にスライドします。<br>オンデバイス判定を使用すると、A/B および [!UICONTROL エクスペリエンスのターゲット設定] (XT) キャンペーンをサーバー上で実行し、ほぼゼロの待ち時間でインメモリ判定を実行します。 詳しくは、 [オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 内 *[!DNL Adobe Target]SDK* ガイド。 |
+| [!UICONTROL オンデバイス判定] | オンデバイス判定を有効にするには、切り替えを「オン」の位置にスライドします。<br>オンデバイス判定を使用すると、A/B および [!UICONTROL エクスペリエンスのターゲット設定] (XT) キャンペーンをサーバー上で実行し、ほぼゼロの待ち時間でインメモリ判定を実行します。 詳しくは、 [オンデバイス判定の概要](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) 内 *[!DNL Adobe Target]SDK* ガイド。 |
 | [!UICONTROL 既存のすべてのオンデバイス判定対象アクティビティをアーティファクトに含めます。] | （条件付き）このオプションは、On-Device Decisioning を有効にした場合に表示されます。<br>オンデバイス判定の対象となるすべてのライブ Target アクティビティをアーティファクトに自動的に含める場合は、切り替えを「オン」の位置にスライドします。<br>この切り替えをオフにした場合、オンデバイス判定アクティビティを生成されたルールアーティファクトに含めるには、そのアクティビティを再作成してアクティブ化する必要があります。 |
 
 ## 実装方法
@@ -59,7 +59,7 @@ ht-degree: 48%
 | --- | --- |
 | ページ読み込みが有効（グローバル mbox を自動作成） | 各ページが読み込まれると自動的に実行されるように、グローバル mbox 呼び出しを at.js ファイルに埋め込むかどうかを選択します。 |
 | グローバル mbox | global mbox の名前を選択します。デフォルトでは、この名前は target-global-mbox です。<br>at.js を使用した mbox 名には、アンパサンド（&amp;）を含む特殊文字を使用できます。 |
-| タイムアウト（秒） | [!DNL Target] が定義された期間内にコンテンツの応答をしない場合、サーバー呼び出しはタイムアウトし、デフォルトコンテンツが表示されます。訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、[!DNL Target] がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意：**[visitorApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 設定では、[!DNL Target] が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。 |
+| タイムアウト（秒） | [!DNL Target] が定義された期間内にコンテンツの応答をしない場合、サーバー呼び出しはタイムアウトし、デフォルトコンテンツが表示されます。訪問者のセッション中、追加の呼び出しが引き続き試行されます。デフォルト値は 5 秒です。<br>at.js ライブラリは、`XMLHttpRequest` のタイムアウト設定を使用します。タイムアウトは、リクエストが実行されると開始され、[!DNL Target] がサーバーから応答を受け取ると停止します。詳しくは、Mozilla Developer Network の [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) を参照してください。<br>応答を受け取る前に指定されたタイムアウトが発生すると、デフォルトのコンテンツが表示され、訪問者はアクティビティの参加者としてカウントされる可能性があります。これは、[!DNL Target] エッジですべてのデータ収集がおこなわれるためです。リクエストが [!DNL Target] エッジに到達すると、訪問者はカウントされます。<br>タイムアウト設定を構成する際は、次の点を考慮してください。<ul><li>値が低すぎると、訪問者はアクティビティの参加者としてカウントされるものの、ほとんどの時間デフォルトのコンテンツが表示される可能性があります。</li><li>値が高すぎると、Web ページに空白の領域が表示されるか、長時間の本文の非表示を使用している場合は空白のページが表示される可能性があります。</li></ul>mbox の応答時間をよりよく把握するには、ブラウザーの開発者ツールの「ネットワーク」タブを確認してください。また、Catchpoint など、サードパーティの Web パフォーマンス監視ツールを使用することもできます。<br>**注意：**[visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 設定では、[!DNL Target] が訪問者 API の応答を長時間待たないようにします。この設定と、ここで説明している at.js のタイムアウト設定は相互に影響しません。 |
 | プロファイルの有効期間 | この設定は、訪問者プロファイルが保存される期間を決定します。デフォルトでは、プロファイルは 2 週間保存されます。この設定は、最大 90 日まで延長できます。<br>プロファイルの有効期間設定を変更するには、[ClientCare](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) にお問い合わせください。 |
 
 ### 主な実装方法
@@ -87,21 +87,16 @@ at.js の設定を編集するには、 **[!UICONTROL 編集]** をクリック�
 
 バージョン 2.5.0 以降、at.js は On-Device Decisioning を提供します。 オンデバイス判定を使用して、 [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) および [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) (XT) ブラウザー上でのアクティビティ。 [!DNL Adobe Target] Edge ネットワーク。
 
-詳しくは、次を参照してください。
+詳しくは、次のトピックを参照してください。
 
-* クライアント側： [at.js のオンデバイス判定](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* サーバー側： [オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* サーバー側： [オンデバイス判定](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [組織のオンデバイス判定を有効にする](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [クライアント側でのオンデバイス判定](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [サーバー側でのオンデバイス判定](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### プロファイル API
 
 API による一括更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 
-詳しくは、 [プロファイル API 設定](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+詳しくは、 [プロファイル API 設定](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### デバッガーツール
 
@@ -119,11 +114,11 @@ API による一括更新の認証を有効または無効にし、プロファ�
 * IP 全体の難読化
 * None
 
-詳しくは、[プライバシー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)を参照してください。
+詳しくは、[プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)を参照してください。
 
 >[!NOTE]
 >
->「レガシーブラウザーのサポート」オプションは、at.js バージョン 0.9.3 以前で使用できました。 このオプションは、at.js バージョン 0.9.4 で削除されました。at.js でサポートされているブラウザーのリストについては、 [サポートされているブラウザー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、Target はコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしました。 このオプションを有効にした場合、古いブラウザーで品質保証をおこない、優れた顧客体験を得ることをお勧めします。
+>「レガシーブラウザーのサポート」オプションは、at.js バージョン 0.9.3 以前で使用できました。 このオプションは、at.js バージョン 0.9.4 で削除されました。at.js でサポートされているブラウザーのリストについては、 [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、Target はコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしました。 このオプションを有効にした場合、古いブラウザーで品質保証をおこない、優れた顧客体験を得ることをお勧めします。
 
 ## at.js のダウンロード {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -131,9 +126,9 @@ API による一括更新の認証を有効または無効にし、プロファ�
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) は、 [!DNL Target] と at.js ライブラリに含まれています。 次の情報は、 [!DNL Adobe Experience Platform] 実装する [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) は、 [!DNL Target] と at.js ライブラリに含まれています。 次の情報は、 [!DNL Adobe Experience Platform] 実装する [!DNL Target].
 >
->* この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.js のいずれかのメジャーバージョンの最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
+>* この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.js のいずれかのメジャーバージョンの最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。
 
 
 ### を使用して at.js をダウンロードします。 [!DNL Target] インターフェイス {#section_1F5EE401C2314338910FC57F9592894E}
@@ -185,7 +180,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
    >[!IMPORTANT]
    >
-   >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)を参照してください。
+   >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。
 
    この URL を読み込むと、カスタマイズされた [!DNL at.js] ファイルのダウンロードが開始されます。
 
@@ -193,7 +188,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
 at.js は、Web サイトのすべてのページの `<head>` 要素で実装する必要があります。
 
-タグマネージャーを使用しない Target の一般的な実装 ( 例： [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 次のようになります。
+タグマネージャーを使用しない Target の一般的な実装 ( 例： [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 次のようになります。
 
 ```
 <!doctype html> 
@@ -252,7 +247,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 * HTML5 の Doctype( 例： `<!doctype html>`) を使用する必要があります。 サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
 * 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合は、 `<client code>` 独自のクライアントコードを使用して、 **[!UICONTROL 管理]** > **[!UICONTROL 実装] ページ。
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。この場所に、この情報を Target でパーソナライゼーションに最大限に使用できます。
-* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。または、これらの関数を [!UICONTROL ライブラリヘッダー] セクション [!UICONTROL at.js 設定の編集] ページに保存され、at.js ライブラリ自体の一部として保存されます。 これらの関数について詳しくは、[at.js 関数](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。または、これらの関数を [!UICONTROL ライブラリヘッダー] セクション [!UICONTROL at.js 設定の編集] ページに保存され、at.js ライブラリ自体の一部として保存されます。 これらの関数について詳しくは、[at.js 関数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードして、Target エクスペリエンスの構築時に構文とメソッドを使用できるようにします。
 * at.js はページの `<head>` に含めます。
 

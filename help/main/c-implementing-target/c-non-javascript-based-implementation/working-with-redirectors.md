@@ -5,10 +5,10 @@ title: リダイレクターの使用方法
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 71%
 
 * 最もコンバージョン率の高いランディングページの発見
 
-適切な設定の判断方法については、[JavaScript ベース以外の実装](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+適切な設定の判断方法については、[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/).
 
 ## リダイレクターの作成 {#redirector}
 
@@ -66,7 +66,7 @@ ht-degree: 71%
 1. 1 つの広告に対してさまざまな表示先をテストする場合、各バージョンごとに[リダイレクトオファー](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を作成します。
 1. キャンペーンを作成します。
 
-   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)」を参照してください。
+   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/)」を参照してください。
 1. キャンペーンで QA を完了します。
 
    リダイレクターの URL を含む `<a href>` を使用してダミーページを作成します。例：

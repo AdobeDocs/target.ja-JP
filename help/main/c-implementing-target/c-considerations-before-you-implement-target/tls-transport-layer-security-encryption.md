@@ -5,9 +5,9 @@ title: 方法 [!DNL Target] TLS を使用してセキュリティを提供する
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1148'
 ht-degree: 54%
 
 ---
@@ -56,7 +56,7 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 * Target レポートの訪問者数で、訪問者数に多少の低下がみられる可能性があることを知っておいてください。
 * TLS 1.2 をサポートしていない古いデバイスやブラウザーをターゲットにするために、特別に作成したオーディエンスを変更する必要が生じる場合があります。これらのデバイスやブラウザーへの配信は機能しなくなります。
 
-サポートされているブラウザーとそのバージョンについて詳しくは、 [サポートされているブラウザー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+サポートされているブラウザーとそのバージョンについて詳しくは、 [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/).
 
 ## Adobe [!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ Transport Layer Security（TLS）は、ネットワークを介してデータ�
 
 ## Experience Cloud・ソリューション・インタフェースへのアクセス {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Target Standard/Premium のインターフェイスは既に[最新の Web ブラウザー](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)を要件に定めているので、この変更で問題が生じる可能性はないと想定されます。Target に接続できない場合は、ブラウザーを最新バージョンにアップグレードしてください。
+Target Standard/Premium のインターフェイスは既に[最新の Web ブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/)を要件に定めているので、この変更で問題が生じる可能性はないと想定されます。Target に接続できない場合は、ブラウザーを最新バージョンにアップグレードしてください。
 
 ## ブラウザーで使用されている TLS のバージョンを確認する方法 {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

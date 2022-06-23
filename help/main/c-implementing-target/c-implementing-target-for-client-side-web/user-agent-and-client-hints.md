@@ -5,10 +5,10 @@ title: User Agent と Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この記事の情報は、[at.js バージョン 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)（またはそれ以降）に適用されます。
+>この記事の情報は、[at.js バージョン 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)（またはそれ以降）に適用されます。
 
 
 Web ブラウザーがサーバーに対してリクエストを行うたびに、リクエストのヘッダーに含まれているのは、ブラウザーおよびそのブラウザーが実行されている環境に関する情報です。インターネットの初期の頃から、このデータは、user-agent と呼ばれる単一の文字列で集計されています。
@@ -226,4 +226,4 @@ at.js 2.9.0 以降では、`getOffer/getOffers()` が呼び出されると、Use
 
 ### サーバーサイド SDK
 
-サーバーサイド SDK を使用して client hints を渡す方法について詳しくは、*Adobe Target SDK* ドキュメントの [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) {target=_blank} を参照してください。
+サーバー側 SDK を使用してクライアントヒントを渡す方法について詳しくは、 [クライアントヒント](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} の下 *オーディエンスのターゲティング* 内 *Adobe Target SDK* ドキュメント。

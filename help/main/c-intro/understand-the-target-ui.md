@@ -4,10 +4,10 @@ description: を最大限に活用するために役立つ、ユーザーイン�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 45%
+source-wordcount: '1373'
+ht-degree: 43%
 
 ---
 
@@ -92,7 +92,9 @@ ht-degree: 45%
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-すべての通知を既読としてマークしたり、パネルの下部にすべての通知を表示したりできます。
+個々の通知を既読としてマークするには、目的の通知にマウスポインターを置いてからチェックマークをクリックします。 すべての通知を既読としてマークするか、すべての通知を表示するには、 [!UICONTROL &quot;既読にする&quot;] または [!UICONTROL &quot;すべて表示&quot;] をクリックします。
+
+通知の上にマウスポインターを置いて、[!UICONTROL 通知]」アイコンをクリックし、通知を受け取るタイミングを選択します。5 分、15 分、1 時間、明日。
 
 ### 発表
 

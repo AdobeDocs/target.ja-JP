@@ -4,10 +4,10 @@ description: 電子メールを Adobe [!DNL Target Recommendations], including u
 title: レコメンデーションとメールの統合方法
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1713'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X POST \
 >
 >電子メール受信者（API 呼び出し）ごとに、`sessionId` と `tntId`（または `thirdPartyId`）の両方で一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるので、API 応答が遅くなったり失敗したりする可能性があります。
 
-詳しくは 、[配信 API ドキュメント](https://developers.adobetarget.com/api/#server-side-delivery) を参照してください。
+詳しくは 、[配信 API ドキュメント](https://developer.adobe.com/target/implement/delivery-api/) を参照してください。
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 

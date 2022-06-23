@@ -4,10 +4,10 @@ description: 訪問者によるページやその他の最適化されたコン�
 title: 訪問者プロファイルとは
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 39%
+source-wordcount: '112'
+ht-degree: 37%
 
 ---
 
@@ -24,6 +24,6 @@ If [!DNL Target] 他の [!DNL Adobe Experience Cloud] ソリューション [!DN
 - [訪問者プロファイルの有効期間](visitor-profile-lifetime.md)
 - [プロファイル属性](profile-parameters.md)
 - [カテゴリ親和性](category-affinity.md)
-- [顧客属性](working-with-customer-attributes.md)
+- [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 - [mbox3rdPartyID のリアルタイムプロファイル同期](3rd-party-id.md)
 - [プロファイルと変数の用語集](variables-profiles-parameters-methods.md)

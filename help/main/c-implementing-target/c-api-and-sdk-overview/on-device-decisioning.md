@@ -5,10 +5,10 @@ title: On-Device Decisioning とは
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,9 +16,12 @@ ht-degree: 10%
 
 オンデバイス判定機能を使用すると、 [!DNL Adobe Target] [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) サーバー上でのアクティビティと、ほぼゼロの待ち時間でメモリ内判定を実行する。 [!DNL Adobe Target] Edge ネットワーク。
 
-詳しくは、 [オンデバイス判定の概要](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 内 *[Adobe Target SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/)*.
+詳しくは、次のトピックを参照してください。
 
-## ウェビナー：[!DNL Adobe Target] からオンデバイスで決定し、待ち時間ゼロでパーソナライズとテストを行います。
+* [クライアント側でのオンデバイス判定](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [サーバー側でのオンデバイス判定](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
+
+## ウェビナー：[!DNL Adobe Target] のオンデバイス決定を使用して、待ち時間ゼロでパーソナライズとテストを行う
 
 これまで以上に、マーケターや、製品所有者、開発者は、サイトやアプリなど、顧客とつながるあらゆる場所での顧客エクスペリエンス全体を最適化しようと取り組んでいます。データのサイロや複雑な実装を備えた複数のツールが不十分です。
 
@@ -65,6 +68,6 @@ Adobeは、オンデバイス判定を使用する際に、次のベストプラ
 
 [ブログ投稿にアクセスするには、ここをクリックしてください](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
 
-## Adobe Tech Blog - パート 2：Edge Platform で実験とパーソナライゼーションをおこなうために [!DNL Adobe Target] NodeJS SDK を実行する（AWS Lambda@Edge）
+## Adobe Tech Blog - パート 2：Edge Platform で実験とパーソナライゼーションを行うために [!DNL Adobe Target] NodeJS SDK を実行する（AWS Lambda@Edge）
 
 [ブログ投稿にアクセスするには、ここをクリックしてください](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563).

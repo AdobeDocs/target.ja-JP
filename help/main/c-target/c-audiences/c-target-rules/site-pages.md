@@ -4,10 +4,10 @@ description: 訪問者をターゲットにする方法については、 [!DNL 
 title: サイトページに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 25%
+source-wordcount: '891'
+ht-degree: 24%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 25%
 
    この動作が要件を満たさない場合は、次のいずれかの操作を実行することを検討してください。
 
-   * パス [mbox パラメーター](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) から [!DNL Target] を使用して、ターゲティングの目的で使用します。
+   * パス [mbox パラメーター](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) から [!DNL Target] を使用して、ターゲティングの目的で使用します。
    * を使用します。 [A/B テストアクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) ランディングページアクティビティの代わりに使用します。 A/B テストアクティビティは、同じ訪問者のエクスペリエンスを切り替えません。
    * の使用 [訪問者プロファイル](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) 代わりに、
 

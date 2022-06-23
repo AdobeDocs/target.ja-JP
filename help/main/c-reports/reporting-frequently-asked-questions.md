@@ -4,10 +4,10 @@ description: Adobeに関するよくある質問と回答のリストの参照 [
 title: に関する質問への回答をどこで確認できるか [!DNL Target] 報告？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 33%
+source-wordcount: '1225'
+ht-degree: 32%
 
 ---
 
@@ -106,6 +106,6 @@ XT アクティビティには、常にコントロールエクスペリエン�
 * A/B テストと MVT テストのベストプラクティスは、トラフィックの分割を均等に保つことです。 テスト中にエクスペリエンス間のトラフィック配分 ( 例えば90/10から50/50) を変更すると、エクスペリエンス間で訪問者が不均等になる場合があります。 低いトラフィックエクスペリエンスは、「追いつかない」可能性があります。
 * 上記のベストプラクティスに従っており、時間の経過と共にトラフィックの分割が標準化されない場合は、次の点を確認する必要があります。
 
-   * 最新の at.js ライブラリを使用しているか。 現在のバージョンと関連するリリースノートについて詳しくは、 [at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   * 最新の at.js ライブラリを使用しているか。 現在のバージョンと関連するリリースノートについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    * リダイレクトテストですか？ ページでタグが実行されるタイミングが正しくない場合、特にを使用する際に、トラフィックが均等に分割される可能性があります [!DNL Analytics] を [!DNL Target] アクティビティ。 Analytics for Target(A4T) を使用したリダイレクトアクティビティでの不均等なトラフィック配分を修正する方法について詳しくは、 [リダイレクトオファー — A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

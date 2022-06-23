@@ -5,9 +5,9 @@ title: グローバル mbox のカスタマイズ方法
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '229'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 1. の実装 [!DNL at.js] ライブラリを参照してください。
 
-   詳しくは、 [at.js のデプロイ方法](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) を参照してください。
+   詳しくは、 [at.js のデプロイ方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) を参照してください。
 
 1. リリースへの移行のタイミングをはかります。
 

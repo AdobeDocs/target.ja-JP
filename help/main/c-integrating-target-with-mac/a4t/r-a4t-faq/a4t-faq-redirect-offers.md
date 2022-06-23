@@ -4,10 +4,10 @@ description: Analytics を使用して [!DNL Target] (A4T)。 A4T では、 [!DN
 title: A4T を使用したリダイレクトオファーに関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 55%
+source-wordcount: '1475'
+ht-degree: 56%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 ## 元のページとリダイレクトページでページビュー数がカウントされることがあるのはなぜですか？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-at.js バージョン 1.6.3 以降を使用する場合、両方のページでページビュー数をカウントすることは問題になりません。 この競合条件は、それ以前のバージョンを使用している場合にのみ影響します。Target チームがサポートを提供しているのは、at.js の最新バージョンとその 1 つ前のバージョンの 2 つです。必要に応じて at.js をアップグレードし、[サポート対象のバージョン](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を実行していることを確認してください。
+at.js バージョン 1.6.3 以降を使用する場合、両方のページでページビュー数をカウントすることは問題になりません。 この競合条件は、それ以前のバージョンを使用している場合にのみ影響します。Target チームがサポートを提供しているのは、at.js の最新バージョンとその 1 つ前のバージョンの 2 つです。必要に応じて at.js をアップグレードし、[サポート対象のバージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を実行していることを確認してください。
 
 at.js の以前のサポートされていないバージョンを使用している場合、最初のページでリダイレクトが実行される前に競合条件が生じ、Analytics の呼び出しが実行されることがあります。この状況では、元のページとリダイレクトページでのページビュー数がすべてカウントされる可能性があります。 こうしたケースでは、訪問者が最初のページを実際に閲覧しなくても、そのページでページビューが余分にカウントされます。
 

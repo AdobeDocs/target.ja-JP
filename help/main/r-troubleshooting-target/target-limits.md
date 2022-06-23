@@ -5,9 +5,9 @@ title: の様々な文字、サイズ、その他の制限 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 
    バッチ配信 API を使用する場合、バッチリクエストあたり 50 mbox が上限です。
 
-   Mobile Services SDK で[バッチ配信 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれる場合、API は次のエラーメッセージを返します。
+   Mobile Services SDK でバッチ配信 API を使用している場合は、mbox パラメーター 50 個、プロファイルパラメーター 50 個、他のパラメータータイプ 50 個が API 自体の上限になります。バッチ配信 API を使用して、これらの数を超えるリクエストを送信することはできません。リクエストにこれらの制限を超える値が含まれる場合、API は次のエラーメッセージを返します。
 
    「mboxParameters の数は 50 個を超えることはできません。」
 

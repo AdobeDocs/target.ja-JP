@@ -5,10 +5,10 @@ title: 実装方法 [!DNL Target] 自分のサイトで？
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 24%
+source-wordcount: '166'
+ht-degree: 21%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->タグ [!DNL Adobe Experience Platform] は、 [!DNL Target]. [!DNL Adobe Experience Platform] のタグは、[!DNL Adobe] の次世代タグ管理機能です。タグは、適切な顧客体験の実現に必要な分析、マーケティングおよび広告タグをデプロイおよび管理するためのシンプルな手段を提供します。詳しくは、 [実装方法 [!DNL Target] using [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+>タグ [!DNL Adobe Experience Platform] は、 [!DNL Target]. [!DNL Adobe Experience Platform] のタグは、[!DNL Adobe] の次世代タグ管理機能です。タグは、適切な顧客体験の実現に必要な分析、マーケティングおよび広告タグをデプロイおよび管理するためのシンプルな手段を提供します。詳しくは、 [実装方法 [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 1. 次の手順で [!UICONTROL 実装] ページ、クリック **[!UICONTROL 管理]** > **[!UICONTROL 実装]**.
 
-1. このページの設定に関する情報については、 [タグマネージャーを使用しない Target の実装](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+1. このページの設定に関する情報については、 [タグマネージャーを使用しない Target の実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ![実装ページ](/help/main/administrating-target/assets/implementation.png)

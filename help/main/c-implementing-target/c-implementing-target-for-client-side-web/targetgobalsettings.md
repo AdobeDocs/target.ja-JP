@@ -5,10 +5,10 @@ title: targetGlobalSettings() 関数の使用方法
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 98%
+source-wordcount: '2405'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 * **デフォルト値**：body { opacity:0 }
 * **説明**：`globalMboxAutocreate === true` の場合にのみ使用して、ちらつきの発生を最小限に抑えます。
 
-   詳しくは、「[at.js によるちらつきの制御方法](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)」を参照してください。
+   詳しくは、「[at.js によるちらつきの制御方法](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)」を参照してください。
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 98%
 
 * **タイプ**：ブール値
 * **デフォルト値**：false
-* **説明**：[!DNL Target] では、ユーザーの同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] を介したオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe Experience Platform] で、 拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択する必要があります。詳しくは、[Adobe Experience Platform ドキュメント ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)を参照してください。 この設定は、EU 一般データ保護規則（GDPR）やカリフォルニア州消費者プライバシー法（CCPA）など、プライバシーおよびデータ保護規則に関連するので、詳しくは[プライバシーおよびデータ保護規則](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)を参照してください。
+* **説明**：[!DNL Target] では、ユーザーの同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] を介したオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe Experience Platform] で、 拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択する必要があります。詳しくは、[Adobe Experience Platform ドキュメント ](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)を参照してください。 この設定は、EU 一般データ保護規則（GDPR）やカリフォルニア州消費者プライバシー法（CCPA）など、プライバシーおよびデータ保護規則に関連するので、詳しくは[プライバシーおよびデータ保護規則](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)を参照してください。
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ ht-degree: 98%
 * **デフォルト値**：true（at.js バージョン 1.6.2 以降）
 * **説明**：`<clientCode>.tt.omtrdc.net`ドメインまたは `mboxedge<clusterNumber>.tt.omtrdc.net` ドメインを使用する必要があるかどうかを示します。
 
-   この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは Cookie に保存されます。at.js 1.8.2 および at.js 2.3.1 より前のバージョンの at.js を使用している場合、現時点では、[CNAME](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) が機能しません。この問題が発生する場合は、[at.js を新しいサポート対象バージョンに更新](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)することを検討してください。
+   この値が true の場合、`mboxedge<clusterNumber>.tt.omtrdc.net` ドメインは Cookie に保存されます。at.js 1.8.2 および at.js 2.3.1 より前のバージョンの at.js を使用している場合、現時点では、[CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) が機能しません。この問題が発生する場合は、[at.js を新しいサポート対象バージョンに更新](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)することを検討してください。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 [!DNL Target] のハイブリッド統合が必要です。
 
 * **サーバー側**：新しい[配信 API](https://developers.adobetarget.com/api/delivery-api/) または [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs) を使用する必要があります。
-* **クライアント側**：[at.js バージョン 2.2 以降](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を使用する必要があります。
+* **クライアント側**：[at.js バージョン 2.2 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を使用する必要があります。
 
 ### コードサンプル
 

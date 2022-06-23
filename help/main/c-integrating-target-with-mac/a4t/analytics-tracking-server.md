@@ -4,10 +4,10 @@ description: 'Analytics を使用するアクティビティ用に Analytics ト
 title: Analytics トラッキングサーバーの使用方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 19%
+source-wordcount: '695'
+ht-degree: 26%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 以降を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。 at.js ライブラリは、トラッキングサーバーの値をに自動的に送信します。 [!DNL Target]. アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 >
->この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、[at.js のバージョンの詳細](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)を参照してください。
+>この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。
 
 からのデータを確実に取得するには、以下を実行します。 [!DNL Target] は、 [!DNL Analytics]A4T では、Modstats へのすべての呼び出しで Analytics トラッキングサーバーを送信する必要があります。 [!DNL Target]. 複数のトラッキングサーバーを使用する実装の場合、 [!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを判断します。
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 1. アクティビティを作成しているページから、 [!DNL Adobe Experience Platform Debugger].
 
-   デバッガーをまだインストールしていない場合は、 [Adobe Experience Platform Debugger の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=ja)を参照してください。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

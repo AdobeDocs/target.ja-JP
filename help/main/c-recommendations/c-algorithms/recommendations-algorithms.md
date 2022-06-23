@@ -5,9 +5,9 @@ title: Target のRecommendationsアルゴリズムの背後にある Science に
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](/help/main/c-recommendations/plan-implement.md#pass-behavioral) またはから [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](https://developer.adobe.com/target/implement/recommendations/) またはから [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **モデルトレーニング**:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](https://developer.adobe.com/target/implement/recommendations/).
 
 * **モデルトレーニング**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](/help/main/c-recommendations/plan-implement.md#pass-behavioral) またはから [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](https://developer.adobe.com/target/implement/recommendations/) またはから [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **モデルトレーニング**:
 

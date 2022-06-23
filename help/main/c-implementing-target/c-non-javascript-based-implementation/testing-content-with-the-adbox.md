@@ -5,10 +5,10 @@ title: 画像用 adbox の作成方法
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ adbox を使用して、Adobe Targetを使用したオフサイト実装で画�
 
 adbox は mbox と似ていますが、JavaScript ではなく URL によって制御されます。adbox は、「広告」mbox（adbox）をアカウントに読み込む特殊な adbox 用の URL を使用して作成されます。アクティビティでは、この adbox を mbox の代わりに使用します。電子メールなどの JavaScript を使用しない実装では、画像の直接参照ではなく adbox URL を使用します。
 
-適切な設定の判断方法については、[JavaScript ベース以外の実装](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+適切な設定の判断方法については、[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/).
 
 1. 次の adbox URL を作成します。
 
@@ -48,7 +48,7 @@ adbox は mbox と似ていますが、JavaScript ではなく URL によって�
 
 1. アクティビティを作成します。
 
-   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)」を参照してください。
+   目的に合わせた適切な設定については、「[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/)」を参照してください。
 1. アクティビティで QA を完了します。
 
    ダミーページを作成し、あらゆる環境のすべてのタイプのブラウザーで、エクスペリエンス、デフォルトコンテンツおよびレポートがすべて適切に機能するか確認することをお勧めします。

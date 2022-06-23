@@ -4,9 +4,9 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 でオファーの決定を使用するには [!DNL Target]に値を入力するには、以下が必要です。
 
-* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] を使用して実装 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] を使用して実装 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
    この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
@@ -100,7 +100,7 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 オファーの決定を扱う際は、次の点に注意してください。
 
-* offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
+* offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
 * Target とAdobe Journey Optimizerの統合では、 [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) および [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 この機能は、他のアクティビティタイプでは使用できません。
 
