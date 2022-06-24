@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practioner ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
+source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1209'
 ht-degree: 98%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Adobe Target Business Practioner ガイド {#using}
 
-+ [Adobe Target ガイドホーム](target-home.md)
++ [Adobe Target Business Practior ガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
    + [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md)
    + [Target リリースノート（現行）](r-release-notes/release-notes.md)
