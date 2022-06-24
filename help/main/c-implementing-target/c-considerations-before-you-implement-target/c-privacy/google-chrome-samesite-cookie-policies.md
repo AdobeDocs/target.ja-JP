@@ -5,10 +5,10 @@ title: ' [!DNL Target]  では、Googleの SameSite Cookie ポリシーをどの
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 99%
+source-wordcount: '1957'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Googleは、2020年初頭にリリースされる予定の Chrome 80 以降の�
 
 Chrome 80 以降、web 開発者は、web サイトをまたいで機能する cookie を明示的に指定する必要があります。これは、Googleが web 上のプライバシーとセキュリティを改善するために予定している、多くのお知らせの一つ目です。
 
-Facebook がプライバシーとセキュリティに関して苦境に立っている事実を踏まえ、Apple に加え、Google など他の主要企業は、迅速にこの機会を利用して、プライバシーとセキュリティのリーダーとしての新しい地位を確立しました。Apple は先陣を切り、今年初めの ITP 2.1 や最近の ITP 2.2 を通じて Cookie ポリシーの変更を発表しました。ITP 2.1 では、Apple はサードパーティ Cookie を完全にブロックし、ブラウザーで作成された Cookie を 7 日間のみに保持します。ITP 2.2 では、Cookie は 1 日のみ保持されます。Google の発表は、Apple の発表ほど積極的ではありませんが、これは同じ目標の達成に向けた第一歩です。Apple の方針について詳しくは、 [Apple インテリジェント・トラッキング防止機能（ITP）2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/) を参照してください。
+Facebook がプライバシーとセキュリティに関して苦境に立っている事実を踏まえ、Apple に加え、Google など他の主要企業は、迅速にこの機会を利用して、プライバシーとセキュリティのリーダーとしての新しい地位を確立しました。Apple は先陣を切り、今年初めの ITP 2.1 や最近の ITP 2.2 を通じて Cookie ポリシーの変更を発表しました。ITP 2.1 では、Apple はサードパーティ Cookie を完全にブロックし、ブラウザーで作成された Cookie を 7 日間のみに保持します。ITP 2.2 では、Cookie は 1 日のみ保持されます。Google の発表は、Apple の発表ほど積極的ではありませんが、これは同じ目標の達成に向けた第一歩です。Appleポリシーについて詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。
 
 ## Cookie とは何ですか？また、Cookie の使用方法も教えてください。
 

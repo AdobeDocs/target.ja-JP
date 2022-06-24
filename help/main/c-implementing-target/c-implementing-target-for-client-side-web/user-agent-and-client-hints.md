@@ -5,9 +5,9 @@ title: User Agent と Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->この記事の情報は、次の場所に適用されます。 [at.js バージョン 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（またはそれ以降）。
+>この記事の情報は、次の場所に適用されます。 [at.js バージョン 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（またはそれ以降）{target=_blank}。
 
 
 Web ブラウザーがサーバーに対してリクエストを行うたびに、リクエストのヘッダーに含まれているのは、ブラウザーおよびそのブラウザーが実行されている環境に関する情報です。インターネットの初期の頃から、このデータは、user-agent と呼ばれる単一の文字列で集計されています。

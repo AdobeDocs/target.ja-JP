@@ -4,9 +4,9 @@ description: Adobe Target を俯瞰的に見る。利用可能なアクティビ
 title: Target の概要はどこで確認できますか？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2536'
 ht-degree: 99%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 99%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]**（VEC）、非ビジュアルベースのインターフェイスである **[!UICONTROL フォームベースの Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。[詳細情報](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) |
-| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://developer.adobe.com/target/implement/server-side/) |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]**（VEC）、非ビジュアルベースのインターフェイスである **[!UICONTROL フォームベースの Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。[詳細情報](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}。 |
+| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://developer.adobe.com/target/implement/server-side/){target=_blank}。 |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
 ## アクティビティ要素

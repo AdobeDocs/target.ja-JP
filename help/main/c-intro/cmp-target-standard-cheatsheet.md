@@ -4,10 +4,10 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **モバイル SKU を使用しています。モバイルアクティビティを作成できますか？**
 
-モバイルによる最適化とパーソナライゼーションの場合、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/) を併用する必要があります。詳細については、「[モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/)」を参照してください。
+モバイルでの最適化とパーソナライゼーションの場合は、 [フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) と [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 詳細はこちらをご覧ください [モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API の詳細はどこで確認できますか？**
 
-API に関する詳細なドキュメントを用意してあります。「[Delivery API、NodeJS SDK、および Recommendations API のドキュメント](https://developer.adobe.com/target/implement/server-side/)」を参照してください。
+API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://developer.adobe.com/target/implement/server-side/){target=_blank}。

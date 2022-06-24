@@ -5,10 +5,10 @@ title: データをに取り込む方法 [!DNL Target] データプロバイダ�
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 `window.targetGlobalSettings.dataProviders` 設定は、データプロバイダーの配列です。
 
-各データプロバイダーの構造について詳しくは、[データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)を参照してください。
+各データプロバイダーの構造について詳しくは、 [データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 使用例
 
@@ -44,7 +44,7 @@ at.js はデータをキャッシュしません。 データプロバイダー�
 
 ## コード例
 
-[データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)にはいくつかの例が記載されています。
+以下にいくつかの例を示します。 [データプロバイダー](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 関連情報へのリンク
 

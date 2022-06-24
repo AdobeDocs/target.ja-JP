@@ -5,10 +5,10 @@ title: Experience PlatformWeb SDK を使用してを実装する方法を教え�
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 16%
 | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | リダイレクトオファーを使用すると、訪問者のブラウザーは新しいページにリダイレクトされます。<br>詳しくは、 [を実行します。 [!DNL Adobe Experience Platform Web SDK] A4T のリダイレクトオファーをサポートしますか？](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [レスポンストークン](/help/main/administrating-target/response-tokens.md) | レスポンストークンを使用して、Target のデータをGoogle Analyticsや他のサードパーティ統合に送信できます。<br>詳しくは、 [Platform Web SDK を使用してGoogle Analyticsにデータを送信する](/help/main/administrating-target/response-tokens.md#platform-web-sdk) を参照して、このタスクを実行する方法のコードサンプルを確認してください。 |
 | [シングルページアプリケーションの実装](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 内 *Platform Web SDK の概要* ガイド。 | [!UICONTROL Adobe Experience Platform Web SDK] は、シングルページアプリケーション (SPA) など、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能を提供します。 |
-| [TLS（Transport Layer Security）暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS(Transport Layer Security){target=_blank} は、最高のセキュリティ標準を維持し、顧客データの安全を高めるのに役立ちます。 |
+| [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} | TLS(Transport Layer Security){target=_blank} は、最高のセキュリティ標準を維持し、顧客データの安全を高めるのに役立ちます。 |

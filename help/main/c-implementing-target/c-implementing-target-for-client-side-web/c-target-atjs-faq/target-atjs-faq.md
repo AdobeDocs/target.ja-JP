@@ -5,10 +5,10 @@ title: at.js に関するよくある質問と回答
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2590'
-ht-degree: 94%
+source-wordcount: '2604'
+ht-degree: 92%
 
 ---
 
@@ -113,7 +113,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 同期 DTM 実装を介して at.js を導入する場合、ページの最上部にあるページ型ルールを通して、スニペットを非表示にすることができます。
 
-詳しくは、「[at.js によるちらつきの制御方法](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)」を参照してください。
+詳しくは、 [at.js によるちらつきの制御方法](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ## at.js は [!DNL Adobe Experience Manager] 統合（Experience Manager）と互換性がありますか？ {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ at.js を非同期で読み込む方法は、ブラウザーによるレンダ�
 
 ## どうしたら at.js を使用してページ読み込み時のちらつきを回避できますか？ {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target には、ページ読み込み時のちらつきを回避する方法がいくつか用意されています。詳しくは、「[at.js によるちらつきの回避](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)」を参照してください。
+Target には、ページ読み込み時のちらつきを回避する方法がいくつか用意されています。詳しくは、 [at.js によるちらつきの回避](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ## at.js のファイルサイズはどれくらいですか？ {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Safari の訪問者をサポートするには、「無効化」（ファース�
 
 [!DNL Target] のお客様は、[!DNL Target] でクラウドベースのインスタンスを使用してテストをおこなったり、簡単な概念実証に利用したりする場合があります。これらのドメインは、他の多くのドメインと同様に[パブリックサフィックスリスト](https://publicsuffix.org/list/public_suffix_list.dat)に含まれています。
 
-これらのドメインを使用する場合は、targetGlobalSettings() を使用して `cookieDomain` 設定をカスタマイズしない限り、最新のブラウザーでは Cookie が保存されません。詳しくは、「[Target でのクラウドベースのインスタンスの使用](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)」を参照してください。
+これらのドメインを使用する場合は、targetGlobalSettings() を使用して `cookieDomain` 設定をカスタマイズしない限り、最新のブラウザーでは Cookie が保存されません。詳しくは、 [Target でのクラウドベースのインスタンスの使用](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/){target=_blank}。
 
 ## at.js を使用する際に、IP アドレスを Cookie ドメインとして使用することはできますか。 {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-はい。[at.js バージョン 1.2 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)では使用可能です。ただし、[!DNL Adobe] では、常に最新バージョンを使用することを強くお勧めします。
+はい、 [at.js バージョン 1.2 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 ただし、[!DNL Adobe] では、常に最新バージョンを使用することを強くお勧めします。
 
 >[!NOTE]
 >
 >次の例は、at.js バージョン 1.2 以降を使用する場合は不要です。
 
-[targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) の使用方法によっては、at.js をダウンロードした後にコードを追加修正する必要があります。例えば、様々な Web サイトで [!DNL Target] の実装にそれぞれ若干異なる設定が必要で、これらの設定をカスタム JavaScript により動的に定義することができない場合、ファイルをダウンロードした後、各 Web サイトにアップロードする前に、カスタマイズを手動でおこなってください。
+使用方法に応じて [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} の場合は、at.js をダウンロードした後にコードを追加修正する必要が生じる可能性があります。 例えば、様々な Web サイトで [!DNL Target] の実装にそれぞれ若干異なる設定が必要で、これらの設定をカスタム JavaScript により動的に定義することができない場合、ファイルをダウンロードした後、各 Web サイトにアップロードする前に、カスタマイズを手動でおこなってください。
 
 次の例では、`targetGlobalSettings()` at.js 関数を使用して、IP アドレスをサポートするためのコードスニペットを挿入できます。
 
@@ -202,10 +202,10 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * ページが動的に作成されており、at.js が要素を見つけられない。
 * （ネットワークが低速なので）ページの作成に時間がかかり、at.js が DOM でセレクターを見つけられない。
 * アクティビティ[!UICONTROL が実行されているページの構造が変更されている。]Visual Experience Composer（VEC）でアクティビティを再度開くと、警告メッセージが表示されます。アクティビティを更新して、必要な要素がすべて見つかるようにします。
-* 基になるページが[!UICONTROL 単一ページアプリケーション]（SPA）の一部であるか、ページの下部に表示される要素がページに含まれていて、[!DNL at.js] の「セレクターポーリングメカニズム」でこれらの要素が見つからない。`selectorsPollingTimeout` の値を増やすと問題が解決する場合があります。詳しくは、[targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。
+* 基になるページが[!UICONTROL 単一ページアプリケーション]（SPA）の一部であるか、ページの下部に表示される要素がページに含まれていて、[!DNL at.js] の「セレクターポーリングメカニズム」でこれらの要素が見つからない。`selectorsPollingTimeout` の値を増やすと問題が解決する場合があります。詳しくは、 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 * いずれかのクリック追跡指標が、その指標が設定された URL に関係なく、それ自体をすべてのページに追加しようとしている。害はありませんが、この状況ではこれらのメッセージの多くが表示されます。
 
-   最良の結果を得るには、[!DNL at.js] の最新バージョンをダウンロードして使用してください。詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} および [at.js のダウンロード](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   最良の結果を得るには、[!DNL at.js] の最新バージョンをダウンロードして使用してください。詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} および [at.js のダウンロード](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。
 
 ## [!DNL Target] のサーバー呼び出しが送られる tt.omtrdc.net というドメインは何ですか？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 

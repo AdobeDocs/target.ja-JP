@@ -5,9 +5,9 @@ title: リダイレクターの使用方法
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 68%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 68%
 
 * 最もコンバージョン率の高いランディングページの発見
 
-適切な設定の判断方法については、[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/).
+適切な設定の判断方法については、 [JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/){target=_blank}。
 
 ## リダイレクターの作成 {#redirector}
 

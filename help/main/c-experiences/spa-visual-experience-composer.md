@@ -4,10 +4,10 @@ description: SPA VEC を Adobe  [!DNL Target]  で使用して、開発部門に
 title: シングルページアプリケーション Visual Experience Composer（SPA VEC）の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
-ht-degree: 99%
+source-wordcount: '3726'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
    ![実装の詳細ダイアログボックス](/help/main/c-experiences/assets/imp-200.png)
 
-   Adobe Target UI で[!UICONTROL 管理／実装]を選択し、at.js 2.x をダウンロードします。at.js 2.x は、[Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) のタグを使用してデプロイすることもできます。ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
+   Adobe Target UI で[!UICONTROL 管理／実装]を選択し、at.js 2.x をダウンロードします。at.js 2.x は、 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。 ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
 
 1. at.js 2.x の最新の関数を実装します。 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)サイト上の {target=_blank}。
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | ○ |
-| [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | ○ |
+| [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | ○ |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
 ## サポートされる機能 {#supported-features}

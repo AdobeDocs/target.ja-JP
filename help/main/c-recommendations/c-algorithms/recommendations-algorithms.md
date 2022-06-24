@@ -5,9 +5,9 @@ title: Target のRecommendationsアルゴリズムの背後にある Science に
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
 
 * **モデルトレーニング**:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](https://developer.adobe.com/target/implement/recommendations/).
+* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
 
 * **モデルトレーニング**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
 
 * **モデルトレーニング**:
 

@@ -5,10 +5,10 @@ title: 実装可能か [!DNL Target] シングルページアプリケーショ�
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2790'
-ht-degree: 73%
+source-wordcount: '2794'
+ht-degree: 72%
 
 ---
 
@@ -187,7 +187,7 @@ Adobe Target ビューとは何かを説明したので、Target でこの概念
 
 ## at.js 2.x のシステム図
 
-次の図は、ビューを使用した at.js 2 ワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.x で使用されている概念に関するより詳しい概要については、「[シングルページアプリケーションの実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)」を参照してください。
+次の図は、ビューを使用した at.js 2 ワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.x で使用されている概念に関するより詳しい概要については、 [シングルページアプリケーションの実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![at.js 2.x での Target のフロー](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ SPA に関するベストプラクティスは次のとおりです。
 * ビューのレンダリングが開始する前にカスタムイベントを発生させる
 * ビューのレンダリングが終了したらカスタムイベントを発生させる
 
-at.js 2.x に新しい API が追加されました。 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} 関数 `triggerView()` を使用して、ビューのレンダリングが開始したことを at.js に通知する必要があります。
+at.js 2.x に新しい API が追加されました。 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} 関数 `triggerView(){target=_blank}` を使用して、ビューのレンダリングが開始したことを at.js に通知する必要があります。
 
 カスタムイベント、at.js 2.x、Analytics を組み合わせる方法については、次の例を参照してください。この例では、HTML ページに訪問者 API、at.js 2.x、AppMeasurement がこの順に含まれていると仮定します。
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >`at-view-start` および `at-view-end` イベントを発生させる必要があります。これらのイベントは、at.js カスタムイベントには含まれていません。
 
-この例では JavaScript コードを使用していますが、タグマネージャーを使用する場合は、これらすべてを簡略化できます。例えば、 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+この例では JavaScript コードを使用していますが、タグマネージャーを使用する場合は、これらすべてを簡略化できます。例えば、 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。
 
 上記の手順に従う場合は、SPA 用の堅牢な A4T ソリューションが必要です。
 

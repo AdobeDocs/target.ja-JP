@@ -5,9 +5,9 @@ title: Target での CNAME の使用方法を教えてください。
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1195'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    [!DNL Adobe] 実装の準備が整うと、ClientCare から通知が届きます。
 
-1. を更新します。 `serverDomain` ([ドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} を新しい CNAME ホスト名に設定し、 `overrideMboxEdgeServer` から `false` ([ドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} を at.js 設定に追加します。
+1. を更新します。 `serverDomain` ([ドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} を新しい CNAME ホスト名に追加し、 `overrideMboxEdgeServer` から `false` ([ドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)at.js 設定の {target=_blank}){target=_blank}。
 
 ## よくある質問
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ### は現在の [!DNL Target] ITP 2.x の影響を受けますか？
 
-Apple Intelligent Tracking Prevention(ITP) バージョン 2.3 では、次の項目を検出できる CNAME Cloaking Mitigation 機能が導入されました。 [!DNL Adobe Target] CNAME 実装を参照し、cookie の有効期限を 7 日に短縮します。 現在 [!DNL Target] には、ITP の CNAME クローキング緩和の回避策はありません。 ITP について詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Apple Intelligent Tracking Prevention(ITP) バージョン 2.3 では、次の項目を検出できる CNAME Cloaking Mitigation 機能が導入されました。 [!DNL Adobe Target] CNAME 実装を参照し、cookie の有効期限を 7 日に短縮します。 現在 [!DNL Target] には、ITP の CNAME クローキング緩和の回避策はありません。 ITP について詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。
 
 ### CNAME 実装がデプロイされると、どのようなサービス中断が予想されますか？
 
@@ -335,7 +335,7 @@ Apple Intelligent Tracking Prevention(ITP) バージョン 2.3 では、次の�
 CNAME を使用している場合、オプトアウトリンクには次のコードが含まれている必要があります。 &quot;client=`clientcode` 次に例を示します。
 `https://my.cname.domain/optout?client=clientcode`.
 
-置換 `clientcode` クライアントコードを使用して、 [オプトアウト URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+置換 `clientcode` クライアントコードを使用して、 [オプトアウト URL](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 ## 既知の制限事項
 

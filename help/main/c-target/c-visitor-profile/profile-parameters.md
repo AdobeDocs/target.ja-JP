@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 99%
+source-wordcount: '2441'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバルmboxへのパラメーターの引き渡し](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) を参照してください。<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、 [グローバル mbox にパラメーターを渡す](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。以下の「プロファイルスクリプト属性」を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の[データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)を使用する必要があります。データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。 データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 

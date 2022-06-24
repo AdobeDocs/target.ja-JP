@@ -5,9 +5,9 @@ title: 詳細はこちら [!DNL Target] サーバー側配信 API および SDK
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ ht-degree: 21%
 
 ## Target Recommendations API
 
-リンク： [Target Recommendations API](https://developer.adobe.com/target/).
+リンク： [Target Recommendations API](https://developer.adobe.com/target/){target=_blank}。
 
 Recommendations API を使用すると、プログラムによる操作が可能です [!DNL Target] recommendations サーバー。 これらの API を様々なアプリケーションスタックと統合して、通常は [!DNL Target] ユーザーインターフェイス。

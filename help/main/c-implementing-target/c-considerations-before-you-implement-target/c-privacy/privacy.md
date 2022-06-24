@@ -5,10 +5,10 @@ title: ' [!DNL Target]  ではどのようにしてプライバシーに関す�
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 92%
+source-wordcount: '758'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 個々の機能使用状況データは、[!DNL Adobe] 内部で [!DNL Target] 機能が意図したとおりに実行されているかを確認する、または使用率が低い機能を特定する目的で収集されます。様々な待ち時間の測定値は、パフォーマンス上の問題に対処するために収集されます。個人データは収集されません。 
 
-SDK での使用状況データのレポートからオプトアウトするには、クライアント初期化オプションで `telemetryEnabled` を false に設定します。詳しくは、[targetGlobalSettings の telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。
+SDK での使用状況データのレポートからオプトアウトするには、クライアント初期化オプションで `telemetryEnabled` を false に設定します。詳しくは、 [targetGlobalSettings で telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## IP アドレスの収集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -68,4 +68,4 @@ IP アドレスが完全に不明化されている場合、地理特性と Geot
 
 ## プライバシーとデータ保護規制
 
-詳しくは、 [プライバシーとデータ保護規制](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} を参照してください。
+詳しくは、 [プライバシーとデータ保護規制](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} を参照してください。EU の一般データ保護規則 (GDPR){target=_blank}、カリフォルニア州消費者プライバシー法 (CCPA) およびその他の国際的なプライバシー要件、およびこれらの規制が組織およびAdobe Targetに与える影響について説明します。

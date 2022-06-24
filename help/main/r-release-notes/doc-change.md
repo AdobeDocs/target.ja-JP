@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 90%
+source-wordcount: '1050'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 14月6日（PT） | [Recommendations の計画と実装](https://developer.adobe.com/target/implement/recommendations/) | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
+| 14月6日（PT） | [Recommendationsの計画と実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
 | 6月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
 
 ## Adobe Target Standard／Premium 22.5.1（時差リリース、2022年5月11～13日（PT））
@@ -29,12 +29,12 @@ ht-degree: 90%
 | 6月7日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
 | 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次回の [!DNL Adobe Target] Community Coffee Break（2022年6月29日（PT）開催）に関する情報を追加しました |
 | 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] プラットフォームリリース（2022年5月25日（PT））および at.js 2.9.0 リリース（2022年5月27日（PT））に関する情報を追加しました。 |
-|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 2.9.0 リリースに関する情報を追加しました。 |
-|  | [User-agent と Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) | 新規トピックです。 |
+|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 リリースに関する情報を追加しました。 |
+|  | [User-agent と Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新規トピックです。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | ウェビナー「Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））」の録画へのリンクを追加しました。 |
 | 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022年5月25日（PT））のプレリリースノートを追加しました。 |
 | 5月11日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 以下のウェビナーに関する情報および登録リンクを追加しました。<ul><li>Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化</li><li>アドビ：パーソナライゼーション業界インサイダー - 金融サービスと保険</li><li>シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法</li><li>アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]</li><li>シティナショナルバンク：ゼロからのヒーロー - パーソナライゼーションプログラムの開始と拡大</li><li>アドビ：効果的な最適化の機会を探る</li><li>アドビ：パーソナライゼーション業界インサイダー - 小売</li></ul>以下のウェビナーの録画を追加しました。<ul><li>[!DNL Adobe Target] によるリアルタイムパーソナライゼーション</li></ul> |
-|  | [コンテンツセキュリティポリシー（CSP）指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/) | FAQ 節を追加しました。 |
+|  | [コンテンツセキュリティポリシー（CSP）指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | FAQ 節を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 および Target プラットフォーム（2022年5月11～13日（PT））リリースに関する情報を追加しました。 |
 
 ## Adobe Target Standard／Premium 22.4.1（4月28日（PT））
@@ -88,12 +88,12 @@ ht-degree: 90%
 | --- | --- | --- |
 | 1月31日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 リリースに関するプレリリース情報を追加しました。 |
 | 1月28日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
-|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 2.8.1 リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.8.1 リリースに関する情報を追加しました。 |
 | 1月27日（PT） | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、[!DNL AEM as a Cloud Service] および [!DNL Adobe I/0] に関する情報を追加しました。 |
 | 1月26日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.2 リリースに関する情報を追加しました。 |
 |  | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
 |  | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
-| 1月21日（PT） | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 1.8.3 リリースに関する情報を追加しました。 |
+| 1月21日（PT） | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 1.8.3 リリースに関する情報を追加しました。 |
 | 1月19日（PT） | [at.js 1.** から at.js 2.x へのアップグレード&#x200B;*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 以下の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
 | 1月12日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Target Standard／Premium 22.1.1 リリースに関する情報を追加しました。 |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |
+|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |

@@ -5,9 +5,9 @@ title: On-Device Decisioning でサポートされる機能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 ### オンデバイス判定のジオターゲティング
 
-地域ベースのオーディエンスを使用したオンデバイス判定アクティビティの待ち時間を最小限に抑えるために、Adobeでは、 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). リクエストのコンテキストで地域オブジェクトを設定します。 つまり、ブラウザーを使用して、各訪問者の場所を特定する方法です。 例えば、設定したサービスを使用して、IP-to-Geo ルックアップを実行できます。 Google Cloud など、一部のホスティングプロバイダーは、各 `HttpServletRequest`.
+地域ベースのオーディエンスを使用したオンデバイス判定アクティビティの待ち時間を最小限に抑えるために、Adobeでは、 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}。 リクエストのコンテキストで地域オブジェクトを設定します。 つまり、ブラウザーを使用して、各訪問者の場所を特定する方法です。 例えば、設定したサービスを使用して、IP-to-Geo ルックアップを実行できます。 Google Cloud など、一部のホスティングプロバイダーは、各 `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

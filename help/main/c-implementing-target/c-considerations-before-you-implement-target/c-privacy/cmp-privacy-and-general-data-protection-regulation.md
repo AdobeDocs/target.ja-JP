@@ -5,10 +5,10 @@ title: ' [!DNL Target]  はプライバシーとデータ保護規制にどの�
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 | フィールド | 説明 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して [!DNL Target] プロファイルにパラメーターがアップロードされました。詳しくは、 [データをに送信する方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイル更新 API を利用して [!DNL Target] プロファイルにパラメーターがアップロードされました。詳しくは、 [データをに送信する方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。 |
 | user.ReturnTimeOfDay | この標準的なフィールドには、ユーザーの最後の再訪問の日時が含まれています。 |
 | firstSessionStart | この標準的なフィールドには、ユーザーの初めてのセッションが開始された日時が含まれています。 |
 | user.sessionCountScript | [!DNL Target] プロファイル内の情報の多くが、データ管理者によってアップロードされるか、直接提供されます。この例では、プロファイルスクリプトが、この訪問者がデータ管理者のサイトでおこなったセッション数を増分しています。詳しくは、[プロファイルスクリプト属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)を参照してください。 |
@@ -295,7 +295,7 @@ Central Privacy Service からの要件に加えて、[!DNL Target] の有効な
 
 ### [!DNL Target] は IP の不明化に対応していますか？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、[プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)を参照してください。
+GDPR または CCPA 実装戦略の一部として使用するように選択した場合、[!DNL Target] は IP の不明化をサポートします。詳しくは、 [プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 ### データがサードパーティに共有または販売されるのを防ぐために何らかの処理を行う必要がありますか？
 

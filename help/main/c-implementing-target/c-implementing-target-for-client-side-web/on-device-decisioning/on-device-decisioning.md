@@ -5,9 +5,9 @@ title: オンデバイス判定は at.js JavaScript ライブラリとどのよ�
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 18%
 
 ---
@@ -35,7 +35,7 @@ Adobe Target JS SDK を使用すると、お客様は、パフォーマンスと
 * オーディエンスのターゲティング
 * 配分方法
 
-詳しくは、 [オンデバイス判定でサポートされる機能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+詳しくは、 [オンデバイス判定でサポートされる機能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 ## オンデバイス判定の仕組み
 
@@ -88,7 +88,7 @@ at.js 2.5.0 以降が実装され web プロパティにデプロイされる場
 
 オンデバイス判定では、オンデバイス判定の対象となるすべてのアクティビティを含んだ、キャッシュされたルールアーティファクトから決定が行われるので、エクスペリエンスとパーソナライゼーションアクティビティを超高速で配信できます。
 
-どのアクティビティがオンデバイス判定の対象となるかについて詳しくは、 [オンデバイス判定でサポートされる機能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+どのアクティビティがオンデバイス判定の対象となるかについて詳しくは、 [オンデバイス判定でサポートされる機能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 この判定方法は、[!DNL Target] からの決定を必要とするすべてのページでパフォーマンスが非常に重要な場合にのみ使用してください。さらに、この判定方法を選択した場合、オンデバイス判定の対象とならない [!DNL Target] アクティビティは配信も実行もされないことに注意してください。at.js ライブラリ 2.5.0 以降は、キャッシュされたルールアーティファクトのみを探して決定を下すように設定されています。
 
@@ -249,7 +249,7 @@ JSON ルールアーティファクトには、mbox がサーバー側アクテ�
 
 ### グローバル設定
 
-デフォルトの [!UICONTROL 判定方法] すべて [!DNL Target] 決定。 様々な判定方法は次のとおりです。 [!UICONTROL サーバー側のみ], [!UICONTROL オンデバイスのみ]、および [!UICONTROL ハイブリッド]. Target UI で選択された判定方法は、 `window.targetGlobalSettings` の下に `decisioningMethod` フィールドに入力します。 詳しくは、 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+デフォルトの [!UICONTROL 判定方法] すべて [!DNL Target] 決定。 様々な判定方法は次のとおりです。 [!UICONTROL サーバー側のみ], [!UICONTROL オンデバイスのみ]、および [!UICONTROL ハイブリッド]. Target UI で選択された判定方法は、 `window.targetGlobalSettings` の下に `decisioningMethod` フィールドに入力します。 詳しくは、 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ adobe.target.getOffers({
 
    最初の JSON ルールアーティファクトの生成には、最大 10 分かかる場合があります。
 
-1. の作成とアクティブ化 [オンデバイス判定でサポートされるアクティビティタイプ](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)をクリックし、オンデバイス判定の対象であることを確認します。
+1. の作成とアクティブ化 [オンデバイス判定でサポートされるアクティビティタイプ](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} を確認し、オンデバイス判定の対象であることを確認します。
 1. を **[!UICONTROL 判定方法]** どちらか **[!UICONTROL &quot;ハイブリッド&quot;]** または **[!UICONTROL &quot;On-device only&quot;]** at.js 設定 UI を使用します。
 1. ページに at.js 2.5.0 以降をダウンロードしてデプロイします。

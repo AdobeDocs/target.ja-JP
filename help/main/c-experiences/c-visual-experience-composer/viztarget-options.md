@@ -4,9 +4,9 @@ description: で使用可能なオプションの詳細 [!DNL Adobe Target] [!UI
 title: 使用方法 [!UICONTROL Visual Experience Composer] (VEC) オプション
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2936'
 ht-degree: 61%
 
 ---
@@ -380,9 +380,9 @@ VEC はをサポートしています。 [Web コンポーネント](https://dev
 
 >[!NOTE]
 >
->カスタム要素の VEC サポートは、 [at.js バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（以降）。 Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
+>カスタム要素の VEC サポートは、 [at.js バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（またはそれ以降）{target=_blank}。 Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
 >
->現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
 
 ほとんどの VEC アクションは、カスタムイベントとカスタムイベント内でサポートされますが、次の例外があります。
 

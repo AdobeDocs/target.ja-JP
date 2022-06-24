@@ -5,9 +5,9 @@ title: レガシー実装のグローバル mbox を使用できますか？
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 35%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 35%
 
 ### グローバル mbox が読み込まれない理由、ページ読み込み時にグローバル mbox を読み込む時間に遅延が発生する理由を調べます。
 
-at.js 参照が、ページ上で最初の JavaScript 呼び出しであることを確認します。 この問題に対する他の解決策については、 [グローバル mbox に関するよくある質問](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+at.js 参照が、ページ上で最初の JavaScript 呼び出しであることを確認します。 この問題に対する他の解決策については、 [グローバル mbox に関するよくある質問](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}。

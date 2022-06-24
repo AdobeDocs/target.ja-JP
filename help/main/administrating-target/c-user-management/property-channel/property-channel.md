@@ -5,9 +5,9 @@ title: Enterprise ユーザー権限とは何ですか？また、それらの�
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3152'
 ht-degree: 58%
 
 ---
@@ -251,7 +251,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
    今後のリリースで、`at_property` トークンがないページや、異なる `at_property` トークンがあるページでも、Target が機能するようになります。
 
-* [Adobe I/O の API 呼び出し](https://developer.adobe.com/target/)では、Enterprise ユーザーの権限機能がサポートされていません。
+* Enterprise ユーザー権限機能は、 [Adobe I/OAPI 呼び出し](https://developer.adobe.com/target/){target=_blank}。
 
 ## よくある質問 {#faqs}
 

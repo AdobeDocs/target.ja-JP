@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 45%
+source-wordcount: '454'
+ht-degree: 40%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 45%
 
    **修正：** 許可リスト上記の IP アドレスをします。
 
-* **問題：** IP アドレスは許可リストに加えるされましたが、お使いの Web サイトは TLS バージョン 1.2 をサポートしていません。 [!DNL Target] は現在、1.2 のデフォルト設定を使用しています。 [!DNL Target] 18.4.1（2018 年 4 月 26 日）では、デフォルトの設定で TLS 1.0 がサポートされていました。詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+* **問題：** IP アドレスは許可リストに加えるされましたが、お使いの Web サイトは TLS バージョン 1.2 をサポートしていません。 [!DNL Target] は現在、1.2 のデフォルト設定を使用しています。 [!DNL Target] 18.4.1（2018 年 4 月 26 日）では、デフォルトの設定で TLS 1.0 がサポートされていました。詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
    **解決策：**[!UICONTROL 次の質問（TLS 1.2 を使用しているサイトのセキュリティで保護されているページで、拡張 Visual Experience Composer が読み込まれません）を参照してください。]
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-上記の「 [!UICONTROL 拡張 Visual Experience Composer] 自分のサイトのセキュリティで保護されているページでは読み込まれません。」 上記の IP アドレスが許可リストに加えるされているにもかかわらず、お使いの web サイトが TLS バージョン 1.2 をサポートしていない場合。 [!DNL Target] は現在、1.2 のデフォルト設定を使用しています。 [!DNL Target] 18.4.1（2018 年 4 月 26 日）では、デフォルトの設定で TLS 1.0 がサポートされていました。詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+上記の「 [!UICONTROL 拡張 Visual Experience Composer] 自分のサイトのセキュリティで保護されているページでは読み込まれません。」 上記の IP アドレスが許可リストに加えるされているにもかかわらず、お使いの web サイトが TLS バージョン 1.2 をサポートしていない場合。 [!DNL Target] は現在、1.2 のデフォルト設定を使用しています。 [!DNL Target] 18.4.1（2018 年 4 月 26 日）では、デフォルトの設定で TLS 1.0 がサポートされていました。詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
@@ -66,7 +66,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![](assets/firefox_more_info_3.png)
 
-1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} を参照してください。 現在までの状況（2018 年 9 月 12 日まで有効）を解決するには、TLS バージョンとドメインの設定について[カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
+1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} を参照してください。 現在の状況（2018 年 9 月 12 日まで有効）を解決するには、{target=_blank} までお問い合わせください。 [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) を参照してください。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 

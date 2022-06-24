@@ -5,10 +5,10 @@ title: ブラウザーの機能 [!DNL Target] サポート？
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 41%
+source-wordcount: '351'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 41%
 
 [!DNL Adobe Target] アプリケーションとコンテンツ配信は様々なブラウザーとデバイスでテストされています。
 
-TLS について詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+TLS について詳しくは、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
 ## [!DNL Target]Standard／Premium インターフェイス {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -34,7 +34,7 @@ TLS について詳しくは、 [TLS(Transport Layer Security) 暗号化の変�
 | デバイスタイプ | ブラウザーのバージョン |
 |--- |--- |
 | Windows | <ul><li>Microsoft Internet Explorer 9 および 10. エミュレーションモードでテスト済み。<br>**注意**:IE 9 でのコンテンツ配信は、at.js 1.3.0 以降ではサポートされなくなりました。 IE 10、11、およびすべての古いバージョンでのコンテンツ配信は、at.js 2.5.0（以降）ではサポートされなくなりました。</li><li>Internet Explorer 11 <br>**注意**:IE 10、11、およびすべての古いバージョンでのコンテンツ配信は、at.js 2.5.0（以降）ではサポートされなくなりました。</li><li>Microsoft Edge</li><li>Chrome（最新、最新の 1 つ前）</li><li>Firefox（最新、最新の 1 つ前）</li></ul> |
-| Mac | <ul><li>Apple Safari（最新）<br>**注意**:Safari でファーストパーティ Cookie とサードパーティ Cookie がどのように処理されるかについて詳しくは、 [Target の Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/).</li><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
+| Mac | <ul><li>Apple Safari（最新）<br>**注意**:Safari でファーストパーティ Cookie とサードパーティ Cookie がどのように処理されるかについて詳しくは、 [Target の Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}。</li><li>Firefox（最新、最新の 1 つ前）</li><li>Chrome（最新、最新の 1 つ前）</li></ul> |
 | モバイル／タブレット | <ul><li>Apple iOS（最新）</li><li>Android デバイスおよびタブレット（Android 4 以降）</li><li>Microsoft Surface（Windows 8.1）</li></ul> |
 
 以下のことに注意してください。

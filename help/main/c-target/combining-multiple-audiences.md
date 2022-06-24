@@ -4,9 +4,9 @@ description: 複数のオーディエンス (Adobe Experience Cloudのオーデ�
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成することはできますか？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '939'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] は、このトピックで説明するように、そのまま使用することも、既存のオーディエンスと組み合わせて使用することもできます。
+>この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] は、このトピックで説明するように、そのまま使用することも、既存のオーディエンスと組み合わせて使用することもできます。
 >
 >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](/help/main/c-target/c-audiences/audiences.md#aep).
 

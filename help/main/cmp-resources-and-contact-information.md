@@ -4,10 +4,10 @@ description: ' Adobe  [!DNL Target] の機能の学習に役立つその他の�
 title: Target に関するリソースや連絡先情報はどこで入手できますか？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 99%
+source-wordcount: '1231'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [at.js のヒントと概要](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.js の仕組み](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)を参照してください。 |
+| [at.js のヒントと概要](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、 [at.js の仕組み](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/jp/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018 年 9 月 4 日（PT） | 学習者<ul><li>Workspace（製品プロファイル）の作成</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
 | [Visual Experience Composer（VEC）](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md)を参照してください。 |
 | [Adobe Target：Analytics と Target の統合（A4T）](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) |

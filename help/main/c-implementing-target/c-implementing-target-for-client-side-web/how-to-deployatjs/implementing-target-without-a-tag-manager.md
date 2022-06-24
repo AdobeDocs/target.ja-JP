@@ -5,10 +5,10 @@ title: 実装可能か [!DNL Target] タグマネージャーがない場合、
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 45%
+source-wordcount: '1848'
+ht-degree: 42%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->設定を上書きする際には、 [!DNL Target Standard/Premium] UI または REST API を使用します。 詳しくは、[targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。
+>設定を上書きする際には、 [!DNL Target Standard/Premium] UI または REST API を使用します。 詳しくは、 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## アカウントの詳細
 
@@ -96,7 +96,7 @@ at.js の設定を編集するには、 **[!UICONTROL 編集]** をクリック�
 
 API による一括更新の認証を有効または無効にし、プロファイル認証トークンを生成します。
 
-詳しくは、 [プロファイル API 設定](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+詳しくは、 [プロファイル API 設定](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}。
 
 ### デバッガーツール
 
@@ -114,11 +114,11 @@ API による一括更新の認証を有効または無効にし、プロファ�
 * IP 全体の難読化
 * None
 
-詳しくは、[プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)を参照してください。
+詳しくは、 [プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 >[!NOTE]
 >
->「レガシーブラウザーのサポート」オプションは、at.js バージョン 0.9.3 以前で使用できました。 このオプションは、at.js バージョン 0.9.4 で削除されました。at.js でサポートされているブラウザーのリストについては、 [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、Target はコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしました。 このオプションを有効にした場合、古いブラウザーで品質保証をおこない、優れた顧客体験を得ることをお勧めします。
+>「レガシーブラウザーのサポート」オプションは、at.js バージョン 0.9.3 以前で使用できました。 このオプションは、at.js バージョン 0.9.4 で削除されました。at.js でサポートされているブラウザーのリストについては、 [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}。<br>レガシーブラウザーは、CORS（クロスオリジンリソース共有）を完全にはサポートしない古いブラウザーです。こうしたブラウザーには、バージョン 11 より前の Internet Explorer およびバージョン 6 以下の Safari が含まれます。「レガシーブラウザーのサポート」を無効にした場合、Target はコンテンツを配信しなかったか、これらのブラウザーのレポートで訪問者をカウントしました。 このオプションを有効にした場合、古いブラウザーで品質保証をおこない、優れた顧客体験を得ることをお勧めします。
 
 ## at.js のダウンロード {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ API による一括更新の認証を有効または無効にし、プロファ�
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} は、 [!DNL Target] と at.js ライブラリに含まれています。 次の情報は、 [!DNL Adobe Experience Platform] 実装する [!DNL Target].
 >
->* この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.js のいずれかのメジャーバージョンの最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。
+>* この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。サポート対象のバージョンを実行していることを確認するには、at.js のいずれかのメジャーバージョンの最新の更新にアップグレードしてください。 各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 
 ### を使用して at.js をダウンロードします。 [!DNL Target] インターフェイス {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ API を使用して [!DNL at.js] をダウンロードするには：
 
    >[!IMPORTANT]
    >
-   >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を参照してください。
+   >Target チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
    この URL を読み込むと、カスタマイズされた [!DNL at.js] ファイルのダウンロードが開始されます。
 
@@ -247,7 +247,7 @@ at.js は、Web サイトのすべてのページの `<head>` 要素で実装す
 * HTML5 の Doctype( 例： `<!doctype html>`) を使用する必要があります。 サポートされていない doctype や古い doctype を使用すると、Target がリクエストを送信できなくなる可能性があります。
 * 事前接続とプリフェッチのオプションは、Web ページの読み込みを高速化するのに役立ちます。これらの設定を使用する場合は、 `<client code>` 独自のクライアントコードを使用して、 **[!UICONTROL 管理]** > **[!UICONTROL 実装] ページ。
 * データレイヤーがある場合、at.js が読み込まれる前にページの `<head>` でデータレイヤーについてできるだけ多く定義することが最適です。この場所に、この情報を Target でパーソナライゼーションに最大限に使用できます。
-* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。または、これらの関数を [!UICONTROL ライブラリヘッダー] セクション [!UICONTROL at.js 設定の編集] ページに保存され、at.js ライブラリ自体の一部として保存されます。 これらの関数について詳しくは、[at.js 関数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* 特殊な Target 関数（`targetPageParams()`、`targetPageParamsAll()`、データプロバイダー、および `targetGlobalSettings()` など）は、データレイヤーの後で、at.js が読み込まれる前に定義する必要があります。または、これらの関数を [!UICONTROL ライブラリヘッダー] セクション [!UICONTROL at.js 設定の編集] ページに保存され、at.js ライブラリ自体の一部として保存されます。 これらの関数について詳しくは、 [at.js 関数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 * jQuery などの JavaScript ヘルパーライブラリを使用する場合は、Target の前にそれらをインクルードして、Target エクスペリエンスの構築時に構文とメソッドを使用できるようにします。
 * at.js はページの `<head>` に含めます。
 

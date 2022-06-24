@@ -4,9 +4,9 @@ description: Adobeでパーソナライゼーションモデルを作成する�
 title: パーソナライゼーションアルゴリズムのデータをアップロードするにはどうすればよいですか？
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、でパーソナライゼーションモデルを構築する際に非常に重要になる可能性があります。 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) アクティビティ
 
-[!UICONTROL Automated Personalization]（AP）および [!UICONTROL 自動ターゲット] のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。のメソッドに加えて、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)、Experience Cloud共有オーディエンス (Adobe Analytics、Audience Management){target=_blank} およびアクティビティ内レポート用オーディエンスも使用されます。
+[!UICONTROL Automated Personalization]（AP）および [!UICONTROL 自動ターゲット] のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。のメソッドに加えて、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}、Experience Cloud共有オーディエンス (Adobe Analytics、Audience Management){target=_blank} およびアクティビティ内レポート用オーディエンスもアルゴリズムで使用されます。
 
 自動的に収集され、Automated Personalization および自動ターゲットのパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)」を参照してください。
 

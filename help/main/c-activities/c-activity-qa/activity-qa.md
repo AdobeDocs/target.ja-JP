@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1829'
 ht-degree: 38%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 38%
    また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
 
 * アクティビティの作成時に「URL が次の場合」を指定した場合 [フォームベースのコンポーザーの絞り込み](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [Visual Experience Composer のページ配信オプション )](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)に値を指定しない場合、QA URL は機能しません。 [!UICONTROL アクティビティ QA] URL パラメーターを追加します。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
-* at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/).
+* at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}。
 * アクティビティが複数のエクスペリエンスオーディエンス（同じアクティビティに含まれる米国と英国のサイトなど）を使用している場合、4 つの組み合わせ（Experience A/US サイト、Experience A/UK サイト、Experience B/US サイト、Experience B/UK サイト）に対して QA リンクが生成されません。 エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。英国の QA 担当者は、米国サイトを表示できません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。ほとんどの場合、すべてが期待どおりに動作します。 ただし、クエリ文字列パラメーターを再度エンコードしようとする場合は、ロードバランサーまたは Web サーバーを使用する必要があります。
 

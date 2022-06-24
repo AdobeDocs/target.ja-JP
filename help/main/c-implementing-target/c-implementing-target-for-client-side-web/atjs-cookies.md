@@ -5,10 +5,10 @@ title: at.js の Cookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 95%
+source-wordcount: '1852'
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Cookie にはいくつかのデフォルト設定があります。cookie の期
 | cookie 名 | mbox。 |
 | cookie ドメイン | コンテンツを提供するドメインの 2 番目および最上位のレベルです。会社のドメインなので、cookie はファーストパーティ cookie になります。例: `mycompany.com`. |
 | サーバードメイン | `clientcode.tt.omtrdc.net`。アカウントのクライアントコードを使用します。 |
-| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、最後にログインしてから 2 年です。<br>この `deviceIdLifetime` の設定は上書き可能です： [at.js バージョン 2.3.1 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). 詳しくは、[targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) を参照してください。 |
+| cookie の期間 | cookie が訪問者のブラウザーに残る期間は、最後にログインしてから 2 年です。<br>この `deviceIdLifetime` の設定は上書き可能です： [at.js バージョン 2.3.1 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 詳しくは、 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。 |
 | P3P ポリシー | ほとんどのブラウザーのデフォルト設定の要求に従って、cookie は P3P ポリシーに基づいて発行されます。P3P ポリシーはブラウザーに対して、cookie を扱うユーザーおよびその情報の使用方法を指示します。 |
 
 Cookie は、キャンペーンでの訪問者のエクスペリエンスを管理するための様々な値を保持します。
@@ -152,5 +152,5 @@ Apple の発表内容：
 
 | 影響を受ける機能 | 詳細 |
 |--- |--- |
-| オプトアウトのサポート | Apple の WebKit 追跡における変更により、オプトアウトのサポートが影響を受けます。<br>Target のオプトアウトでは、`clientcode.tt.omtrdc.net` ドメインの Cookie が使用されます。詳しくは、「[プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/)」を参照してください。<br>Target では、次の 2 種類のオプトアウトがサポートされます。<ul><li>クライアントごと（クライアントがオプトアウトリンクを管理します）。</li><li>アドビ経由。すべてのお客様のすべての Target 機能からユーザーをオプトアウトします。</li></ul>どちらの方法でもサードパーティ Cookie が使用されます。 |
+| オプトアウトのサポート | Apple の WebKit 追跡における変更により、オプトアウトのサポートが影響を受けます。<br>Target のオプトアウトでは、`clientcode.tt.omtrdc.net` ドメインの Cookie が使用されます。詳しくは、 [プライバシー](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。<br>Target では、次の 2 種類のオプトアウトがサポートされます。<ul><li>クライアントごと（クライアントがオプトアウトリンクを管理します）。</li><li>アドビ経由。すべてのお客様のすべての Target 機能からユーザーをオプトアウトします。</li></ul>どちらの方法でもサードパーティ Cookie が使用されます。 |
 | Target アクティビティ | お客様は、Target アカウントの[プロファイルの有効期間](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)を選択できます（最長 90 日）。問題として、アカウントのプロファイルの有効期間が 30 日を超過し、お客様のドメインがサイトを横断してユーザーを追跡するとマークされているという理由でファーストパーティ Cookie が消去された場合、Target の次の領域で Safari 訪問者に対する動作が影響を受けることが考えられます。<br>**Target レポート**： Safari ユーザーがアクティビティに参加してから 30 日後に戻り、コンバージョンを達成すると、そのユーザーは、2 人の訪問者と 1 つのコンバージョンとしてカウントされます。<br>この動作は、Analytics をレポートソースに使用する（A4T）アクティビティでも同じです。<br>**プロファイルおよびアクティビティメンバーシップ**：<ul><li>プロファイルデータは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li>アクティビティメンバーシップは、ファーストパーティ Cookie の有効期限が切れた時点で消去されます。</li><li> サードパーティ Cookie 実装またはファーストパーティおよびサードパーティ Cookie 実装を使用しているアカウントの Safari では、Target は動作しません。この動作は新しいものではありません。Safari では、サードパーティ Cookie を以前から許可していません。</li></ul><br>**提案**：顧客ドメインがセッションを横断して訪問者を追跡しているとマークされているか心配な場合、Target でプロファイルの有効期間を 30 日以下に設定するのが安全です。これにより、ユーザーは Safari と他のすべてのブラウザーで同様に追跡されます。 |

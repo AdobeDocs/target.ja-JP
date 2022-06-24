@@ -5,16 +5,16 @@ title: ' [!DNL Target]  では、コンテンツセキュリティポリシー�
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 90%
 
 ---
 
 # コンテンツセキュリティポリシー（CSP）指令
 
-[コンテンツセキュリティポリシー](https://en.wikipedia.org/wiki/Content_Security_Policy)（CSP）を [!DNL Adobe Target] の実装に使用する場合、[at.js 2.1 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を使用する際は以下の CSP 指令を追加する必要があります。
+次を使用する場合： [コンテンツセキュリティポリシー](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) を [!DNL Adobe Target] 実装する場合、を使用する際に次の CSP ディレクティブを追加する必要があります [at.js 2.1 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` と `*.tt.omtrdc.net` 許可リスト。[!DNL Target] エッジへのネットワークリクエストを許可するために必要です。
 * `style-src unsafe-inline`をインストールします。事前非表示およびちらつき制御に必要です。

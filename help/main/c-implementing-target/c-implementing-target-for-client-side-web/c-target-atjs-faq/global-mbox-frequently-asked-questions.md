@@ -5,10 +5,10 @@ title: グローバル mbox に関するよくある質問は何ですか。
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 64%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 アクティビティに URL ルールを追加することで、アクティビティの実行場所を制限できます。詳しくは、[類似のページに同じエクスペリエンスを組み込む](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を参照してください。
 
-また、 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} を選択し、 [!UICONTROL Visual Experience Composer] (VEC) を使用するか、フォームベースの Experience Composer でパラメーターを「絞り込み条件」として追加します。
+また、 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} を選択し、 [!UICONTROL Visual Experience Composer] (VEC){target=_blank} を使用するか、フォームベースの Experience Composer でパラメーターを「絞り込み条件」として追加します。
 
 ## 売上高データを [!DNL Target] グローバル mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ target-global-mbox で売上高と注文の情報を収集するには、「mbox
 
 `orderConfirmPage` の場合、`orderTotal`、`orderId`、および `productPurchasedId` を渡す必要があります。
 
-これらのパラメーターは、 `targetPageParams()`. 詳しくは、「[グローバル mbox にパラメーターを渡す](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)」を参照してください。
+これらのパラメーターは、 `targetPageParams()`. 詳しくは、 [グローバル mbox にパラメーターを渡す](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
 
 以下のように、注文確認ページが表示された場合のみ Target が target-global-mbox でコンバージョンをカウントするよう、コンバージョンページに対するターゲット設定を追加することもお勧めします。
 

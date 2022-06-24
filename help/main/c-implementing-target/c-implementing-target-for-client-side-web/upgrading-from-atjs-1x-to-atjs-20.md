@@ -5,10 +5,10 @@ title: at.js バージョン 1.x からバージョン 2.x にアップグレー
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 
 ## at.js 2.*x* のシステム図
 
-次の図は、ビューを使用した at.js 2.*x* のワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.*x* で使用されている概念に関するより詳しい概要については、[シングルページアプリケーションの実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)を参照してください。
+次の図は、ビューを使用した at.js 2.*x* のワークフローと、これが SPA 統合をどのように強化するかについて説明しています。at.js 2.*x*&#x200B;を参照してください。 [シングルページアプリケーションの実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) での Target のフロー
 
@@ -62,7 +62,7 @@ at.js の最新バージョンは、次世代のクライアント側のテク�
 
    または
 
-   Target UI を使用して at.js 2.*x* を手動でダウンロードし、[選択した方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)でデプロイします。
+   at.js 2.*x* Target UI の使用と、 [選択する方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}。
 
 ## 廃止された at.js 関数
 
@@ -72,7 +72,7 @@ at.js 2.*x* では、いくつかの関数が廃止されました。
 >
 >at.js 2.*x* がデプロイされているときにこれらの廃止された関数がサイトで引き続き使用されている場合、コンソールに警告が表示されます。アップグレードする際に推奨されるアプローチは、ステージング環境で at.js 2.*x* のデプロイメントをテストし、コンソールに記録されているすべての警告を確認し、廃止された関数を at.js 2.*x* で導入された新しい関数に変換することです。
 
-廃止された関数とそれらに対応する関数は、以下のとおりです。関数の完全なリストについては、[at.js 関数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)を参照してください。
+廃止された関数とそれらに対応する関数は、以下のとおりです。関数の完全なリストについては、 [at.js 関数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 
 >[!NOTE]
 >at.js 2.*x* では、`mboxDefault` としてマークされた要素は自動的に非表示にならなくなりました。したがって、サイト上またはタグマネージャーを介して、あらかじめ非表示にするロジックを手動で用意する必要があります。
@@ -365,10 +365,10 @@ at.js 1.*x* vst を使用できました。* mbox パラメーターを使用し
 | オーディエンス | ○ |
 | 顧客属性 | ○ |
 | AEM エクスペリエンスフラグメント | ○ |
-| [!DNL Adobe Experience Platform] 拡張 | [○](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] 拡張 | [はい](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | デバッガー | ○ |
 | Auditor | ルールはまだ at.js 2.*x* 向けに更新されていません。 |
-| Opt-In | × のオプトインサポート [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} は [at.js バージョン 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Opt-In | × のオプトインサポート [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} は [at.js バージョン 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 |
 | AEM Enhanced Personalization powered by Adobe Target | × |
 
 ### 機能

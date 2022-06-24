@@ -5,10 +5,10 @@ title: 画像用 adbox の作成方法
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 66%
+source-wordcount: '341'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ adbox を使用して、Adobe Targetを使用したオフサイト実装で画�
 
 adbox は mbox と似ていますが、JavaScript ではなく URL によって制御されます。adbox は、「広告」mbox（adbox）をアカウントに読み込む特殊な adbox 用の URL を使用して作成されます。アクティビティでは、この adbox を mbox の代わりに使用します。電子メールなどの JavaScript を使用しない実装では、画像の直接参照ではなく adbox URL を使用します。
 
-適切な設定の判断方法については、[JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/).
+適切な設定の判断方法については、 [JavaScript ベース以外の実装](https://developer.adobe.com/target/implement/email/){target=_blank}。
 
 1. 次の adbox URL を作成します。
 

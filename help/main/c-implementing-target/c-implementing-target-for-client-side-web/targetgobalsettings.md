@@ -5,10 +5,10 @@ title: targetGlobalSettings() 関数の使用方法
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 * **デフォルト値**：body { opacity:0 }
 * **説明**：`globalMboxAutocreate === true` の場合にのみ使用して、ちらつきの発生を最小限に抑えます。
 
-   詳しくは、「[at.js によるちらつきの制御方法](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)」を参照してください。
+   詳しくは、 [at.js によるちらつきの制御方法](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}。
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 95%
 
 * **タイプ**：ブール値
 * **デフォルト値**：false
-* **説明**：[!DNL Target] では、ユーザーの同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] を介したオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe Experience Platform] で、 拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択する必要があります。詳しくは、 [Adobe Experience Platformドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} を参照してください。 この設定は、EU 一般データ保護規則（GDPR）やカリフォルニア州消費者プライバシー法（CCPA）など、プライバシーおよびデータ保護規則に関連するので、詳しくは[プライバシーおよびデータ保護規則](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)を参照してください。
+* **説明**：[!DNL Target] では、ユーザーの同意管理戦略を支援できるように、[!DNL Adobe Experience Platform] を介したオプトイン機能がサポートされています。オプトイン機能を使用すると、[!DNL Target] タグを実行する方法とタイミングを制御できます。また、[!DNL Adobe Experience Platform] を介して [!DNL Target] タグを事前に承認するオプションも提供されています。[!DNL Target] の at.js ライブラリでオプトインを使用する機能を有効にするには、`optinEnabled=true` 設定を追加する必要があります。[!DNL Adobe Experience Platform] で、 拡張機能インストール表示の「[!UICONTROL GDPR オプトイン]」ドロップダウンリストから「有効」を選択する必要があります。詳しくは、 [Adobe Experience Platformドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} を参照してください。 この設定がプライバシーとデータ保護規制に関するものである場合、欧州連合の EU 一般データ保護規則 (GDPR){target=_blank} やカリフォルニア州消費者プライバシー法 (CCPA) などに関する詳細については、 [プライバシーとデータ保護規制](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}。
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 [!DNL Target] のハイブリッド統合が必要です。
 
 * **サーバー側**：新しい[配信 API](https://developers.adobetarget.com/api/delivery-api/) または [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs) を使用する必要があります。
-* **クライアント側**：[at.js バージョン 2.2 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)を使用する必要があります。
+* **クライアント側**:次を使用する必要があります。 [at.js バージョン 2.2 以降](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 ### コードサンプル
 
