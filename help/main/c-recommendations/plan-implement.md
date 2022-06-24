@@ -4,15 +4,17 @@ description: 'Adobe TargetでRecommendationsアクティビティを実装する
 title: Recommendations Activities の実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 975e0f777d13acd324cae66ae98606a985ec0792
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '96'
+ht-degree: 17%
 
 ---
 
 # ![プレミアム](/help/main/assets/premium.png) 計画と実装 [!DNL Recommendations]
 
-この記事は、 [Adobe Target Developer Guide](https://developer-stage.adobe.com/target/){target=_blank}。
+を使用する前に [!DNL Adobe Target Recommendations]に設定する場合は、複数の手順を実行する必要があります。
 
-詳しくは、 [Recommendationsの計画と実装](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank}。
+この [Adobe Target Developer Guide ポータル](https://developer.adobe.com/target/){target=_blank} には、 [!DNL Target] を使用し、 [!DNL Recommendations].
+
+詳細および詳しい手順については、 [Recommendationsの計画と実装](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank} *Adobe Target Developer Guide* ポータル。

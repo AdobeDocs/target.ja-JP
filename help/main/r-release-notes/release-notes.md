@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 91%
+source-wordcount: '589'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 91%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 22.6.2（2022 年 6 月 25 日）
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* [!UICONTROL 編集者]の役割を持つユーザーは、ライブアクティビティでオーディエンスを編集できなくなりました。 （TGT-43582）
+* 顧客が感嘆符 (! ) をオーディエンスの名前の最初の文字（例：!London）として使用します。 （TGT-43643）
+* 一部のお客様のオーディエンス定義の詳細カードで、終了したアクティビティがまだライブであることが示されていた問題を修正しました。 （TGT-43527）
 
 ## [!DNL Target Standard/Premium] 22.6.1 (stagger リリース：（2022 年 6 月 7～9 日）
 
