@@ -6,10 +6,10 @@ title: 実装方法 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 5%
+source-wordcount: '185'
+ht-degree: 2%
 
 ---
 
@@ -21,12 +21,19 @@ ht-degree: 5%
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
-* クライアントサイド。 [!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] (at.js).
-* Node.JS、JAVA、.NET、Python SDK の使用に関する実装に関する情報を含む、サーバー側。
-* ハイブリッド：クライアント側とサーバー側の実装を組み合わせて使用する場合に実装に役立つ情報です。
-* Recommendations、実装に役立つ情報 [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) 提供
-* モバイルアプリ.
-* 電子メール.
+* クライアント側：を使用したの実装に関する情報 [!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] (at.js).
+* サーバー側：Node.JS、JAVA、.NET および Python SDK の使用に関する実装に関する情報です。
+* ハイブリッド：クライアント側とサーバー側の実装の組み合わせを使用する場合の実装に関する情報です。
+* Recommendations:の実装に役立つ情報 [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) 提供
+* モバイルアプリ：を導入する際に役立つ情報 [!DNL Adobe Experience Platform Mobile] SDK.
+* 電子メール：の実装に役立つ情報 [!DNL Target] 電子メール内。
+
+詳しくは、 [Adobe Target Developer Guide ポータル](https://developer.adobe.com/target/){target=_blank}。
+
+>[!NOTE]
+>
+>以前に *Target の実装* このガイドの節 ( *Adobe Target Practionar ガイド*) が開発者ポータルに含まれるようになりました。
+
 
 
 
