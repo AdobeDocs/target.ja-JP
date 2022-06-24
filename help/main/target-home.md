@@ -1,17 +1,17 @@
 ---
 keywords: Target;ホーム;人気のトピック;Adobe Target;Target Standard;Target Premium;Target ドキュメント;Adobe Target ドキュメント;ホーム
-title: ' [!DNL Target] ドキュメントについて'
+title: Adobe Target Business Practioner ガイド
 description: Adobe  [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 90%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
-# [!DNL Adobe Target] ガイド
+# Adobe Target Business Practioner ガイド
 
 ![バナー](assets/target-home-banner-simple.png)
 
