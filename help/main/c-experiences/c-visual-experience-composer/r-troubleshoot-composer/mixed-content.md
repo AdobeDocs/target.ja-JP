@@ -1,13 +1,13 @@
 ---
 keywords: 混在コンテンツ;安全な;安全でない;chrome;トラブルシューティング;vec;visual experience composer;安全でない;http;https;firefox;internet explorer
-description: 安全なコンテンツと安全でないコンテンツが混在している場合、一部のブラウザーではページの表示がブロックされます。Chrome、Firefox および Edge で混合コンテンツを有効にする方法を説明します。
-title: ブラウザーで混在コンテンツを有効にする方法を教えてください。
+description: Chrome、Firefox および Edge で混合コンテンツを有効にする方法を説明します。 安全なコンテンツと安全でないコンテンツが混在しているので、ブラウザーがページの表示をブロックした場合に、混合コンテンツを有効にすることができます。
+title: ブラウザーで混合コンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!UICONTROL Visual Experience Composer]（VEC）[!DNL Target] 混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは複数の呼び出し（HTTPS と HTTP）が混在するサイトを開くことができます。
+[!UICONTROL Visual Experience Composer]（VEC）[!DNL Adobe Target] 混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは複数の呼び出し（HTTPS と HTTP）が混在するサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
