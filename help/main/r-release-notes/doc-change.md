@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1095'
 ht-degree: 85%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月24日（PT） | [Adobe Target Developer Guide ポータル](https://developer-stage.adobe.com/target/){target=_blank} | 起動済み *Adobe Target Developer Guide* すべてを統合するポータル [!DNL Target] 1 つの便利なポータルでコンテンツを開発する。 ポータルには、 [!DNL Target] および [!DNL Recommendations], [!DNL Target] SDK および [!DNL Target] API |
+| 6月24日（PT） | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | 起動済み *Adobe Target Developer Guide* すべてを統合 [!DNL Target] 1 つの便利なポータルでコンテンツを開発する。 ポータルには、 [!DNL Target] および [!DNL Recommendations], [!DNL Target] SDK および [!DNL Target] API |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.2 リリースです。 |
 | 14月6日（PT） | [Recommendationsの計画と実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
 | 6月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
