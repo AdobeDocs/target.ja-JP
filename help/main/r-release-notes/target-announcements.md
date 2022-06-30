@@ -4,7 +4,7 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 +++ここをクリック
 
-* **2022年6月21日木曜日（PT）**
+* **2022 年 8 月 11 日（木）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
 * **[その他の情報および登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
