@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 85%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## Adobe Target Standard/Premium 22.6.1(stagged リリース：（2022 年 6 月 7～9 日）
+## Adobe Target Standard／Premium 22.6.1（時差リリース：2022年6月7～9日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 6月24日（PT） | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | 起動済み *Adobe Target Developer Guide* すべてを統合 [!DNL Target] 1 つの便利なポータルでコンテンツを開発する。 ポータルには、 [!DNL Target] および [!DNL Recommendations], [!DNL Target] SDK および [!DNL Target] API |
-|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.2 リリースです。 |
-| 14月6日（PT） | [Recommendationsの計画と実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 次の節のコードサンプルを更新しました。<ul><li>買い物かごへの追加/買い物かごの表示/チェックアウトページ</li><li>訪問者の買い物かごに既にある項目を除外</li></ul> |
-| 6月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.2 リリースに関するリリースノートを追加しました。 |
+| 6月14日（PT） | [Recommendations の計画と実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 次のセクションのコードサンプルを更新しました。<ul><li>買い物かごへの追加／買い物かごの表示／チェックアウトページ</li><li>訪問者の買い物かごにすでに入っている品目を除く</li></ul> |
+| 6月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.5.1（時差リリース、2022年5月11～13日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月7日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリース前に [!DNL Target Standard/Premium] 22.6.1 リリースです。 |
+| 6月7日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 リリースに関するプレリリース情報を追加しました。 |
 | 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次回の [!DNL Adobe Target] Community Coffee Break（2022年6月29日（PT）開催）に関する情報を追加しました |
 | 5月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] プラットフォームリリース（2022年5月25日（PT））および at.js 2.9.0 リリース（2022年5月27日（PT））に関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 リリースに関する情報を追加しました。 |
