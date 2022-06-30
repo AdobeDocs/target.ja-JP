@@ -4,7 +4,7 @@ description: を最大限に活用するために役立つ、ユーザーイン�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 43%
@@ -41,7 +41,7 @@ ht-degree: 43%
 
 ![ヘルプ](/help/main/c-intro/assets/help.png)
 
-## 通知とお知らせ
+## 通知とお知らせ {#notifications-announcements}
 
 [!UICONTROL 通知]と[!UICONTROL お知らせ]パネルを使用すると、[!DNL Adobe Target] のすべてに関する最新情報を入手できます。アクティブ通知は、 [!DNL Adobe Experience Cloud] ソリューションと [!DNL Target] イベント。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 

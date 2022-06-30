@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,14 @@ ht-degree: 92%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 22.6.2（2022年6月24日（PT））
+## [!DNL Target Standard/Premium] 22.6.2（2022年6月30日（PT））
 
-このリリースには、以下の機能強化および修正が含まれています。
+このリリースには、次の機能、機能強化および修正が含まれています。
+
+| 機能 | 説明 |
+| --- | ---  |
+| 製品内通知 | 次の関連する製品内通知を取得します。<ul><li>**アクティビティ**:手動で、または開始日または終了日に達した場合に、アクティビティが承認または非アクティブ化されたときのすべてのアクティビティタイプに関する通知。 通知には、アクティビティの名前と、アクティビティの概要ページへのリンクが含まれます。</li><li>**プロファイルスクリプト** プロファイルスクリプトが手動または Target によって有効化または無効化された場合の通知。</li><li>**Recommendationsフィード**:Recommendationsフィードが手動または Target によってアクティブ化または非アクティブ化されたときの通知。 また、Recommendationsフィードに失敗した場合は通知も送信されます。</li></ul> デフォルトでは、製品管理者、発行者および承認者によって通知が受信されます。 通知は、通知設定内でExperience Cloud設定できます。<br>詳しくは、 [通知とお知らせ](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Adobe Target Developer Guide* | この *Adobe Target Developer Guide* すべてを統合 [!DNL Target] 開発者向けコンテンツを 1 つの便利なガイドで紹介します。 このガイドには、 [!DNL Target] および [!DNL Recommendations], [!DNL Target] SDK および [!DNL Target] API<br>詳しくは、 [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。 |
 
 * [!UICONTROL 編集者]の役割を持つユーザーは、ライブアクティビティでオーディエンスを編集できなくなりました。 （TGT-43582）
 * オーディエンス名の最初の文字として感嘆符（!）が使用されているオーディエンス（例：!London）を顧客が保存しようとすると、警告メッセージが表示されるようになりました。（TGT-43643）

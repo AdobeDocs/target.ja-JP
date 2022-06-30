@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -15,30 +15,42 @@ ht-degree: 100%
 
 [!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Adobe Target Community Coffee Break（2022年6月29日（PT）開催）
-
-+++ここをクリック
-
-* **2022年6月29日（水）（PT）**
-* **午前 8:00 ～ 9:00（PDT、UTC-7）**
-* **[その他の情報および登録情報](https://adobe.ly/3wKhcQS) {target=_blank}**
-
-アドビソリューションコンサルティングチームのジョーダン アイソン、ケイティ マッキンニー、ジャスティン リー、カエラ キュザックが参加し、それぞれの専門分野について直接チャットします。また、2022/06/02 Personalization with Precision の Adobe Analytics &amp; Target ウェビナー（詳細は以下）で取り上げたトピックに関連する質問にも回答します。
-
-* マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
-* コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服する方法
-* パーソナライゼーション、ターゲティング、テストのための Adobe Analytics および Adobe Target のワークフロー
-* 訪問者の行動を予測する属性はどれか、およびキービジュアライゼーションおよびセグメンテーション分析に最も重要な属性はどれかを解き明かすユースケースの理解
-
-+++
-
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
 
+### Adobe:Personalization Industry Insider — 小売（2022 年 8 月 11 日）
+
+2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。
+
++++ここをクリック
+
+* **2022年6月21日木曜日（PT）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
+Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
++++
+
+### 計画済みのウェビナーシリーズ
+
+近い将来に向けて、以下のウェビナーシリーズを予定しています。
+
+* 業界内関係者：パーソナライズ業界インサイダー：旅行と接客
+* 業界内関係者：パーソナライズ業界インサイダー：メディア&amp;エンターテインメント
+* スキルビルダー：新規、プレミアムユーザー/製品マネージャー、モバイルデベロッパー、マーケター、アナリスト、ビジネスユーザー
+
+で日付と登録情報を監視します。 [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank}。
+
+## 過去のウェビナーやスキルビルダーセッションの録画
+
+過去のイベントの録画にアクセス：
+
 ### アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
 
 機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
+
+* [録画リンク](https://analytics.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++ここをクリック
 
@@ -59,6 +71,8 @@ Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下
 
 「リレーションシップバンク」になってブランドロイヤルティを高めるためのベストプラクティスについて説明します。パーソナライゼーションプログラムの構築と拡張を成功させるために、人材とプロセスをどのように推進するかについて説明します。
 
+* [録画リンク](https://zero-to-hero.dxfieldmarketing.adobeevents.com/) {target=_blank}
+
 +++ここをクリック
 
 * **2022年6月9日木曜日（PT）**
@@ -71,6 +85,8 @@ Heather Adkins（SVP Marketing Technology）が、「リレーションシップ
 ### アドビ：効果的な最適化の機会を探る（2022年6月16日（PT））
 
 かつてないほどデジタル化が進んだニューノーマルを迎えるにあたり、組織は、あらゆる機会を活用して優れたデジタルエクスペリエンスを提供することが重要であることを説明します。「Good enough（十分に良い）」は、もはや本当の意味で十分ではありません。競争力を維持するためには、優れたエクスペリエンスが必要です。
+
+* [録画リンク](https://optimization.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++ここをクリック
 
@@ -86,23 +102,6 @@ Kaitlin White（Adobe Product Marketing Manager）が、パーソナライゼー
 * その他、組織で効果的な機会を探るのに役立つ多くのアイデア
 
 +++
-
-### アドビ：パーソナライゼーション業界インサイダー - 小売（2022年6月21日（PT））
-
-2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。 
-
-+++ここをクリック
-
-* **2022年6月21日木曜日（PT）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
-* **[その他の情報および登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
-
-Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
-+++
-
-## 過去のウェビナーやスキルビルダーセッションの録画
-
-過去のイベントの録画にアクセス：
 
 ### Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））
 
