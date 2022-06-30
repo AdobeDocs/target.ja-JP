@@ -1,12 +1,12 @@
 ---
-keywords: Target ユーザーインターフェイス;ユーザーインターフェイス;UI；お知らせ；イベント
+keywords: Target ユーザーインターフェイス;ユーザーインターフェイス;UI；お知らせ；イベント；通知
 description: を最大限に活用するために役立つ、ユーザーインターフェイスを把握し、より詳細な情報へのリンクを見つけます。 [!DNL Target].
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 44%
 
 ---
