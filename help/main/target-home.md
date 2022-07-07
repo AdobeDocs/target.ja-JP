@@ -1,17 +1,17 @@
 ---
 keywords: Target;ホーム;人気のトピック;Adobe Target;Target Standard;Target Premium;Target ドキュメント;Adobe Target ドキュメント;ホーム
-title: Adobe Target Business Practioner ガイド
-description: Adobe  [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
+title: Adobe Target ビジネス実践者ガイド
+description: Adobe  [!DNL Target]  を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Adobe Target Business Practioner ガイド
+# Adobe Target ビジネス実践者ガイド
 
 ![バナー](assets/target-home-banner-simple.png)
 
@@ -37,7 +37,7 @@ ht-degree: 88%
 - Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（ [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md) など）を統合する方法について説明します。
 - [Adobe Target のチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)：Target を最大限に活用するためのチュートリアルとビデオを提供します。
 - [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)：[!DNL Target] のアクティビティやの他の要素に影響する文字制限とその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報を含む、このガイドに含まれるトラブルシューティング情報へのリンクを提供します。
-- [モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}:方法を説明します [!DNL Target] は、モバイルアプリの最適化とパーソナライゼーションに使用できます。
+- [モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：モバイルアプリの最適化とパーソナライゼーションを行うために、[!DNL Target] をどのように使用できるかを説明します。
 - [リソースと連絡先情報](cmp-resources-and-contact-information.md)： [!DNL Target] の機能を学ぶ際に役立つ追加の資料や、[!DNL Adobe] への問い合わせ方法についての情報を提供します。
 
 ## マーケター {#marketers}
@@ -49,7 +49,7 @@ ht-degree: 88%
 
 ## 開発者 {#developers}
 
-- [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}:このポータルでは、 [!DNL Adobe Target] 開発者（実装する API や SDK ドキュメントを含む） [!DNL Target].
+- [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 
