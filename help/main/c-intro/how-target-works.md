@@ -5,9 +5,9 @@ title: ' [!DNL Target] の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 96%
 
 [!DNL Target] Web サイトとの統合（[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用）：
 
-* **Adobe Experience Platform Web SDK:** この [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアント側 JavaScript ライブラリです。 Experience PlatformWeb SDK を使用すると、 [!DNL Adobe Experience Cloud] で様々なサービスを操作する [!DNL Experience Cloud] ( [!DNL Target]){target=_blank} [!DNL Experience Platform] Edge ネットワーク。 Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobeでは、at.js を使用するすべてのお客様の実装を [at.js の最新バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。Experience Platform Web SDK を使用すると、[!DNL Adobe Experience Cloud] のお客様は、[!DNL Experience Platform] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）{target=_blank}を操作できます。Adobe では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。Adobe では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} にアップデートすることをお勧めします。
 * **mbox.js：** mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。
 
 サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、[Adobe Experience Platform のタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を使用して [!DNL Target] を実装することを検討してください。
@@ -131,7 +131,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 >
 >[!DNL Adobe Target] では現在、中国にはエッジクラスターを持っていません。中国の [!DNL Target] のお客様には、訪問者パフォーマンスは引き続き制限されます。国内のファイアウォールとエッジクラスターが不足しているため、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、 [ターゲット許可リストエッジノードの](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
