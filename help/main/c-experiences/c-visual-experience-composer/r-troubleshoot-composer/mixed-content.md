@@ -1,13 +1,13 @@
 ---
 keywords: 混在コンテンツ;安全な;安全でない;chrome;トラブルシューティング;vec;visual experience composer;安全でない;http;https;firefox;internet explorer
-description: Chrome、Firefox および Edge で混合コンテンツを有効にする方法を説明します。 安全なコンテンツと安全でないコンテンツが混在しているので、ブラウザーがページの表示をブロックした場合に、混合コンテンツを有効にすることができます。
+description: Chrome、Firefox、Edge で混合コンテンツを有効にする方法を説明します。安全なコンテンツと安全でないコンテンツが混在していることでブラウザーがページの表示をブロックする場合は、混合コンテンツを有効にすることができます。
 title: ブラウザーで混合コンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 >
 >混在コンテンツの許可によって影響が生じるのは VEC のみです。ライブ web サイトには影響しません。
 
-詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)を参照してください。
+詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/ja/docs/Web/Security/Mixed_content)を参照してください。
 
 ## Google Chrome で混在コンテンツを有効化 {#task_FF297A08F66E47A588C14FD67C037B3A}
 
