@@ -5,9 +5,9 @@ title: 既知の問題と解決された問題に関する情報はどこで入�
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ at.js の既知の問題を以下に示します。
 
 ### Analytics for [!DNL Target]（A4T）
 
-Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=ja#cja-workspace)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
+Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
 
 現在のすべての Analytics パッケージで、このモデルに Attribution IQ を追加できます。Attribution IQ にアクセスできない場合は、Reports &amp; Analytics の A4T データを使用してください。
 
@@ -135,11 +135,11 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 
    回避策として、エクスペリエンスコンテンツで空白を使用します。
 
-   この問題の修正は、at.js 2.2.0 に含まれていました。 [最新バージョンまたは at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} を使用するか、上記の回避策を 2.2.0 より前のバージョンの at.js に対してのみ使用してください。  （TNT-33366）
+   この問題の修正は、at.js 2.2.0 に含まれていました。[最新バージョンまたは at.js にアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}するか、2.2.0 より前のバージョンの at.js の場合のみ上記の回避策を使用してください。（TNT-33366）
 
 * ページ要素（ボタンなど）に [!DNL Adobe Analytics] コードが存在しない場合、2.2.0 より前のバージョンの at.js を使用しても、クリック追跡で [!UICONTROL Analytics for Target]（A4T）のコンバージョンがレポートされません。
 
-   at.js 2.2.0 では、この問題が導入されました。 [最新の at.js バージョンにアップグレードしてください](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)この問題が発生した場合は {target=_blank}。
+   at.js 2.2.0. ではこの問題が導入されました。この問題が発生した場合は、[最新の at.js バージョンにアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}してください。
 
 ### ジオターゲティング
 
