@@ -5,9 +5,9 @@ title: Target に関するドキュメントはどこで入手できますか？
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 | [Adobe Experience Platform Target のドキュメント](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} | [!DNL Adobe] の次世代タグ管理プラットフォーム、[!DNL Adobe Experience Platform] のタグを使用した [!DNL Target] の実装に関する情報です。[!DNL Target] を実装する場合は、この方法をお勧めします。 |
 | [アドビカスタマーケアの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
 | [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
-| [Adobe Target Developers Guide](https://developer.adobe.com/target/){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
+| [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
 | [Target Recommendations API](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | [!DNL Target] Recommendations サーバーとプログラムによってやり取りできる、[!UICONTROL Recommendations] API に関する情報です。これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
 | [Server Side Delivery API](https://developer.adobe.com/target/){target=_blank} | Adobe Target 配信 API を構成するリソースに関する情報です。 |
 | [ターゲットサーバーサイド SDK](https://adobetarget-sdks.gitbook.io/docs/) | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |
