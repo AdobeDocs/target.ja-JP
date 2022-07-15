@@ -5,9 +5,9 @@ title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,28 +19,28 @@ ht-degree: 95%
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
 
-### Adobe:Personalization Industry Insider — 小売（2022 年 8 月 11 日）
+### アドビ：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））
 
 2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。
 
 +++ここをクリック
 
-* **2022 年 8 月 11 日（木）**
+* **2022年8月11日（木）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
 * **[その他の情報および登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
 Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
 +++
 
-### 計画済みのウェビナーシリーズ
+### 予定されているウェビナーシリーズ
 
-近い将来に向けて、以下のウェビナーシリーズを予定しています。
+近日中に、以下のウェビナーシリーズを予定しています。
 
-* 業界内関係者：パーソナライズ業界インサイダー：旅行と接客
-* 業界内関係者：パーソナライズ業界インサイダー：メディア&amp;エンターテインメント
-* スキルビルダー：新規、プレミアムユーザー/製品マネージャー、モバイルデベロッパー、マーケター、アナリスト、ビジネスユーザー
+* 業界インサイダー：パーソナライズ業界インサイダー：旅行とホスピタリティ
+* 業界インサイダー：パーソナライズ業界インサイダー：メディア＆エンターテインメント
+* スキルビルダー：新規、プレミアムユーザー／製品マネージャー、モバイル開発者、マーケター、アナリスト、ビジネスユーザー
 
-で日付と登録情報を監視します。 [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank}。
+日付と登録情報については [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} をご覧ください。
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
