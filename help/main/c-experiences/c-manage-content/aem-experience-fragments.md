@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 53%
+source-wordcount: '1369'
+ht-degree: 52%
 
 ---
 
@@ -105,6 +105,10 @@ ht-degree: 53%
 
 **VEC を使用してエクスペリエンスフラグメントを使用するには：**
 
+>[!NOTE]
+>
+>で JSON 形式で書き出されたエクスペリエンスフラグメント [!DNL Target] は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTMLエクスペリエンスフラグメントのみがサポートされます。 JSON エクスペリエンスフラグメントを使用する場合は、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+
 1. [!DNL Target] の [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所をクリックし、目的のオプションを選択して「[!UICONTROL エクスペリエンスフラグメントを選択]」リストを表示します。
 
    * [!UICONTROL 前に挿入]
@@ -146,11 +150,11 @@ ht-degree: 53%
 ## 注意点 {#considerations}
 
 * [!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。インポートされたエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間は今後短縮される予定です。
-* エクスペリエンスフラグメントが [!DNL Target] をHTMLオファー エクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+* エクスペリエンスフラグメントが [!DNL Target] をHTMLまたは JSON オファーとして設定する。 エクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
 * エクスペリエンスフラグメントを作成するには、 [!DNL Adobe I/O]. 前述のように、AEMを使用してエクスペリエンスフラグメントを作成します。
 * AEMでエクスペリエンスフラグメントを更新する場合は、エクスペリエンスフラグメントを公開し、に書き出す必要があります。 [!DNL Target] 再び [!DNL Target] では、最新の変更を使用できます。
 
-## Target に書き出したエクスペリエンスフラグメントから ClientLibs と不要なHTMLを削除する
+## Target に書き出したエクスペリエンスフラグメントから ClientLibs と不要な HTML を削除する
 
 エクスペリエンスフラグメントオファーを [!DNL Target] AEMが配信するページでは、ターゲットページに必要なすべてのクライアントライブラリが既に含まれています。 また、不要なHTML要素もオファーに含める必要はありません。
 
