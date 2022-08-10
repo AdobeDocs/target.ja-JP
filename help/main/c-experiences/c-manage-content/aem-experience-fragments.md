@@ -4,9 +4,9 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 52%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 52%
 >
 >* [!DNL Target] は現在、読み込むエクスペリエンスフラグメントを 10 分ごとに検索します。インポートされたエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間は今後短縮される予定です。
 >
->* エクスペリエンスフラグメントが [!DNL Target] をHTMLオファー そのエクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+>* エクスペリエンスフラグメントが [!DNL Target] をHTMLまたは JSON オファーとして設定する。 そのエクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
 
 
 リスト内のエクスペリエンスフラグメントにカーソルを合わせ、[!UICONTROL 表示]アイコン（![表示アイコン](assets/icon_info.png)）をクリックして、公開オファー配信 URL やその [!DNL AEM] パスなど、エクスペリエンスフラグメントに関する追加情報を表示できます。
@@ -104,10 +104,6 @@ ht-degree: 52%
 >エクスペリエンスフラグメントは、 [!DNL Recommendations] アクティビティ。 ただし、レコメンデーションでエクスペリエンスフラグメントを使用するには、 [!UICONTROL A/B テスト] アクティビティ ( [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]) または [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティと [レコメンデーションをオファーとして含める](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **VEC を使用してエクスペリエンスフラグメントを使用するには：**
-
->[!NOTE]
->
->で JSON 形式で書き出されたエクスペリエンスフラグメント [!DNL Target] は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTMLエクスペリエンスフラグメントのみがサポートされます。 JSON エクスペリエンスフラグメントを使用する場合は、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 1. [!DNL Target] の [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所をクリックし、目的のオプションを選択して「[!UICONTROL エクスペリエンスフラグメントを選択]」リストを表示します。
 
@@ -135,6 +131,10 @@ ht-degree: 52%
    * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **多変量分析テスト（MVT）：** [多変量分析テストの作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations：** [Recommendations アクティビティの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>で JSON 形式で書き出されたエクスペリエンスフラグメント [!DNL Target] は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTMLエクスペリエンスフラグメントのみがサポートされます。 JSON エクスペリエンスフラグメントを使用する場合は、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 **フォームベースの Experience Composer を使用してエクスペリエンスフラグメントを使用するには：**
 
