@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ A4T に関連する次の問題が解決されました。
 1. 元の（影響を受けた）アクティビティを削除します。
 
 （TGT-38522、CSO 20201006007）
+
+### 自動ターゲットとAutomated Personalizationモデルの可用性インジケーター {#at-ap-model}
+
+自動ターゲットおよびAutomated Personalizationアクティビティのモデル可用性機能が、2022 年 6 月 1 日から 2022 年 7 月 19 日まで断続的に失敗しました。 つまり、自動ターゲットまたはAutomated Personalizationアクティビティでエクスペリエンスやオファーがパーソナライズされた状態で提供されている場合でも、Target レポートの UI に緑のチェックマークが表示されなかった可能性があります。
+
+注意： **パーソナライズされたモデル構築自体** は影響を受けず、モデルは期間中正常に構築されました。 このエラーの影響を受けたのは、モデルの可用性システムのみです。 **レポートデータにも影響はありませんでした**. つまり、エクスペリエンスとオファーのパフォーマンス（訪問、コンバージョンおよびコンバージョン率）は影響を受けませんでした。 パーソナライズされたモデルの可用性を示す緑のチェックマークのみが表示されなかった可能性があります。
 
 ### レポート {#conversions-audiences}
 
