@@ -4,9 +4,9 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner が [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Eng
 
 詳しくは、 [Adobe Experience Cloudブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 8 月 31 日）
 
 * **2022年8月31日 水曜日（PT）**
 * **午前 9:00 ～ 10:00（PDT、UTC-7）**
@@ -58,7 +58,7 @@ Gartner が [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Eng
 * 高度にパーソナライズされたエクスペリエンスの作成
 +++
 
-## [!DNL Adobe Target] スキルビルダー — モバイルエクスペリエンスの最適化（2022 年 9 月 7 日）
+### [!DNL Adobe Target] スキルビルダー — モバイルエクスペリエンスの最適化（2022 年 9 月 7 日）
 
 モバイルエクスペリエンスは、マーケティングチームとエンジニアリングチームが Web やアプリでのクロスチャネルパーソナライゼーションに対して製品主導の戦略をどのように活用しているかに関する革新を促進しています。 参加する [!DNL Adobe] スキルビルダーセッションと詳細 [!DNL Adobe Target] マーケター、デベロッパー、製品所有者が活発な製品コミュニティを構築できるよう、新しい潜在的なエンゲージメントと収益の増加をロック解除します。
 
@@ -70,7 +70,7 @@ Gartner が [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Eng
 
 +++
 
-## [!DNL Adobe Target] Skill Builders - AI 駆動型パーソナライゼーションとRecommendations（2022 年 9 月 16 日）
+### [!DNL Adobe Target] Skill Builders - AI 駆動型パーソナライゼーションとRecommendations（2022 年 9 月 16 日）
 
 実験とパーソナライゼーションの自動化は、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI をもたらし続けています。 参加する [!DNL Adobe] スキルビルダーセッションと使用方法の詳細 [!DNL Adobe Target] 製品およびコンテンツのレコメンデーションを使用して、競争に先立ち、すべてのエクスペリエンスで勝つ高度な AI 主導の使用例と機能。
 
