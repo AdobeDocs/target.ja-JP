@@ -4,18 +4,18 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1877'
 ht-degree: 70%
 
 ---
 
-# Target のお知らせとイベント
+# [!DNL Adobe Target] お知らせとイベント
 
 [!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Target が Gartner Magic Quadrant for Personalization Engines（2022 年）でリーダーに選出
+## [!DNL Target] Gartner Magic Quadrant for Personalization Engines（2022 年）のリーダーに
 
 Gartner が [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Engines(PE) のリーダーで、5 年連続です。 [!DNL Adobe] また、は、次の 3 つの主な使用例全体で、上位のスコアと大幅な前年比の増加を受け取りました。デジタルマーケティング、デジタルコマース、サービスとサポート。 [!DNL Target] また、評価されたすべてのベンダーの中で、テスト機能の最高スコアも獲得しました。
 
