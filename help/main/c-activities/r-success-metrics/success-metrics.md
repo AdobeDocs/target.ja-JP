@@ -4,9 +4,9 @@ description: 成功指標についてのAdobe [!DNL Target] これは、アク�
 title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 43%
 
 ---
@@ -27,7 +27,7 @@ In [!DNL Target]の場合、成功指標は、レポートおよび追跡の両�
 
 >[!NOTE]
 >
->を使用するアクティビティの場合 [レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 目標指標は常に「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]&quot;および&quot;[!UICONTROL すべてのインプレッション]」設定を使用します。 これは *not* 設定可能。
+>を使用するアクティビティの場合 [レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) の場合、目標指標は常に「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]&quot;および&quot;[!UICONTROL すべてのインプレッション]」設定を使用します。 これは *not* 設定可能。
 
 以下の成功指標を使用できます。
 
