@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+workflow-type: tm+mt
+source-wordcount: '1879'
+ht-degree: 70%
 
 ---
 
@@ -15,36 +15,111 @@ ht-degree: 100%
 
 [!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
+## Target が Gartner Magic Quadrant for Personalization Engines（2022 年）でリーダーに選出
+
+Gartner が [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Engines(PE) のリーダーで、5 年連続です。 [!DNL Adobe] また、は、次の 3 つの主な使用例全体で、上位のスコアと大幅な前年比の増加を受け取りました。デジタルマーケティング、デジタルコマース、サービスとサポート。 [!DNL Target] また、評価されたすべてのベンダーの中で、テスト機能の最高スコアも獲得しました。
+
+詳しくは、 [Adobe Experience Cloudブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
+
+* **2022年8月31日 水曜日（PT）**
+* **午前 9:00 ～ 10:00（PDT、UTC-7）**
+* **[登録情報](https://adobe.ly/3buoDUt){target=_blank}**
+
+先輩が加わります [!DNL Adobe] Premier Supportコンサルタント Moses Maxen がお客様に関するお話をします [!DNL Adobe Target] 最近の話題に関する質問 [8/11/22 Retail Personalization Industry Insiders ウェビナー](https://video.tv.adobe.com/v/346323){target=_blank} および [!DNL Target]:
+
+* 過去数カ月間に消費者の買い付けパターンや行動がシフトし、消費財を含む特定の市場での商品・サービスへの需要が高まり、小売りの e コマース売上が急増している
+* 関連する最適化とパーソナライゼーション戦略
+* [!DNL Target] 実装
+* [!DNL Adobe] Senseiの機能
+* コア UI ワークフロー
+
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
+
+### シェフコレクション：パーソナライゼーションのレシピ（2022 年 8 月 31 日）
+
+参加する [!DNL Adobe Target] [!DNL ]チームは、Target から最大限の価値を引き出す方法に関する新しいアイデアを提供します。 最新の eBook を元に、「シェフのコレクション：パーソナライゼーションのアイデア」を参照してください。
+
++++ここをクリック
+
+* **2022年8月30日（木）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form) {target=_blank}**
+
+お客様の「シェフ」の話や、お客様が自分の個人用キッチンで作った料理を調べていきます。
+
+次のアイデアを見てみましょう。
+
+* パーソナライゼーションを使用したロイヤルティの構築方法
+* 競争優位性の最適化
+* 高度にパーソナライズされたエクスペリエンスの作成
++++
+
+## [!DNL Adobe Target] スキルビルダー — モバイルエクスペリエンスの最適化（2022 年 9 月 7 日）
+
+モバイルエクスペリエンスは、マーケティングチームとエンジニアリングチームが Web やアプリでのクロスチャネルパーソナライゼーションに対して製品主導の戦略をどのように活用しているかに関する革新を促進しています。 参加する [!DNL Adobe] スキルビルダーセッションと詳細 [!DNL Adobe Target] マーケター、デベロッパー、製品所有者が活発な製品コミュニティを構築できるよう、新しい潜在的なエンゲージメントと収益の増加をロック解除します。
+
++++ここをクリック
+
+* **2022 年 9 月 6 日（木）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
++++
+
+## [!DNL Adobe Target] Skill Builders - AI 駆動型パーソナライゼーションとRecommendations（2022 年 9 月 16 日）
+
+実験とパーソナライゼーションの自動化は、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI をもたらし続けています。 参加する [!DNL Adobe] スキルビルダーセッションと使用方法の詳細 [!DNL Adobe Target] 製品およびコンテンツのレコメンデーションを使用して、競争に先立ち、すべてのエクスペリエンスで勝つ高度な AI 主導の使用例と機能。
+
++++ここをクリック
+
+* **2022 年 9 月 15 日（木）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
++++
+
+## 過去のウェビナーやスキルビルダーセッションの録画
+
+過去のイベントの記録にアクセスする（利用可能な場合）:
+
+### Real Time Loyalty Activation（2022 年 8 月 26 日）
+
+サプライチェーンの問題、サービス障害、スタッフ数の制限に伴うロイヤルティの向上は、旅行、接客業、ダイニングのブランドの多くが直面している課題です。 AI の時代には、業界を離れた必要なリソースを使用せずに、ブランドがエクスペリエンスをどのように拡張していくのか。 デジタルの進歩は、顧客の期待を高めるだけでなく、自動化を通じてチームを拡大するために、20～25 時間の高速化を実現しました。
+
++++ここをクリック
+
+* **2022年8月25日（木）**
+* **午後 10 時～11 時。(PDT、UTC-7)**
+* **[その他の情報および登録情報](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b) {target=_blank}**
+
+2022 年に、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
+
+調査するトピック：
+
+* デジタルの混乱と AI の上昇の加速
+* なぜアーリーアダプターがトップラインとボトムラインの両方の成長で勝利を収めているのか
+* 旅行でのパーソナライゼーションの自動化
+* 実行中のリアルタイム Loyalty Activation
++++
 
 ### アドビ：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））
 
 2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。
 
+* [録画リンク](https://video.tv.adobe.com/v/346323) {target=_blank}
+
 +++ここをクリック
 
 * **2022年8月11日（木）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **午後 1 時～2 時。()**
 * **[その他の情報および登録情報](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
 Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
 +++
-
-### 予定されているウェビナーシリーズ
-
-近日中に、以下のウェビナーシリーズを予定しています。
-
-* 業界インサイダー：パーソナライズ業界インサイダー：旅行とホスピタリティ
-* 業界インサイダー：パーソナライズ業界インサイダー：メディア＆エンターテインメント
-* スキルビルダー：新規、プレミアムユーザー／製品マネージャー、モバイル開発者、マーケター、アナリスト、ビジネスユーザー
-
-日付と登録情報については [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} をご覧ください。
-
-## 過去のウェビナーやスキルビルダーセッションの録画
-
-過去のイベントの録画にアクセス：
 
 ### アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
 
