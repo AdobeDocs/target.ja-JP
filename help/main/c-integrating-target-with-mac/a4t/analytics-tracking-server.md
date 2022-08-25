@@ -4,16 +4,16 @@ description: 'Analytics を使用するアクティビティ用に Analytics ト
 title: Analytics トラッキングサーバーの使用方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 25%
+source-wordcount: '683'
+ht-degree: 22%
 
 ---
 
-# Analytics トラッキングサーバーの使用
+# を使用します。 [!DNL Analytics] トラッキングサーバー
 
-古いバージョンの at.js を使用している場合、 [!DNL Adobe Analytics] 対象 [!DNL Adobe Target] (A4T)。
+古いバージョンの at.js を使用している場合は、 [!DNL Analytics] を使用するアクティビティのトラッキングサーバー [!DNL Adobe Analytics] 対象 [!DNL Adobe Target] (A4T)。
 
 >[!NOTE]
 >
@@ -21,21 +21,21 @@ ht-degree: 25%
 >
 >この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
-からのデータを確実に取得するには、以下を実行します。 [!DNL Target] は、 [!DNL Analytics]A4T では、Modstats へのすべての呼び出しで Analytics トラッキングサーバーを送信する必要があります。 [!DNL Target]. 複数のトラッキングサーバーを使用する実装の場合、 [!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを判断します。
+からのデータを確実に取得するには、以下を実行します。 [!DNL Target] は、 [!DNL Analytics]、A4T には [!DNL Analytics] Modstats へのすべての呼び出しで送信されるトラッキングサーバー [!DNL Target]. 複数のトラッキングサーバーを使用する実装の場合、 [!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを判断します。
 
-## Adobe Experience Platform Debugger を使用した Analytics トラッキングサーバーの取得
+## を取得 [!DNL Analytics] トラッキングサーバー [!DNL Adobe Experience Platform Debugger]
 
 デバッガーは、正しいトラッキングサーバーが選択されていることを確認するために、アクティビティが配信されるページ上で表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
 
 1. アクティビティを作成しているページから、 [!DNL Adobe Experience Platform Debugger].
 
-   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=ja)を参照してください。
-
-   ![](assets/Screen_DebuggerTrackServ.png)
+   デバッガーをまだインストールしていない場合は、 [Adobe Experience Platform Debugger の概要](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. クリック **[!UICONTROL Analytics]** をクリックします。
 
-   Analytics トラッキングサーバーは、 [!UICONTROL ホスト名] デバッガーの「 」セクションに表示されます。
+   ![](assets/Screen_DebuggerTrackServ.png)
+
+   この [!DNL Analytics] トラッキングサーバーが [!UICONTROL ホスト名] デバッガーの「 」セクションに表示されます。
 
    * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が現在のドメインと一致する場合、それはファーストパーティのトラッキングサーバーです。 例えば、 `adobe.com`, `adobe.com` はファーストパーティのトラッキングサーバーです。
    * **サードパーティトラッキングサーバー**:通常、サードパーティのトラッキングサーバーは `[company].sc.omtrdc.net` ここで、会社は会社の名前ですが、常に `sc.omtrdc.net`.
@@ -49,7 +49,7 @@ ht-degree: 25%
    >
    >選択 [!UICONTROL レポートソースとしての Analytics] アクティビティの [!UICONTROL トラッキングサーバー] フィールドを使用できます。
 
-## ブラウザーの開発者ツールを使用して、Analytics トラッキングサーバーを取得します
+## を取得 [!DNL Analytics] ブラウザーの開発者ツールを使用したトラッキングサーバー
 
 正しいトラッキングサーバーが選択されていることを確認するために、開発者ツールは、アクティビティが配信されるページ上に表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
 
@@ -59,7 +59,7 @@ ht-degree: 25%
 
 1. 次をクリック： **[!UICONTROL ネットワーク]** タブをクリックします。
 
-1. フィルター `/ss,` をクリックして、Analytics リクエストを表示します。
+1. フィルター `/ss,` 表示する [!DNL Analytics] リクエスト。
 
    ![/ss 検索を使用する Chrome 開発者ツール](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
