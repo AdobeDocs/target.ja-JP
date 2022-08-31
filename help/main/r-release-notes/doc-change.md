@@ -5,9 +5,9 @@ title: Target のドキュメントのアップデートはどこで確認でき
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## Adobe Target Standard/Premium 22.8.1 (stagged リリース：（2022 年 8 月 17～18 日）
+## Adobe Target Standard／Premium 22.8.1（時差リリース：2022年8月17～18日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 8月22日（PT） | [[!DNL Adobe Target] お知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のお知らせに関する情報を追加しました。<ul><li>[!DNL Target] Gartner Magic Quadrant for Personalization Engines（2022 年）のリーダーに</li></ul>今後の次のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 8 月 31 日）</li><li>シェフコレクション：パーソナライゼーションのレシピ（2022 年 8 月 31 日）</li><li>[!DNL Adobe Target] スキルビルダー — モバイルエクスペリエンスの最適化（2022 年 9 月 7 日）</li><li>[!DNL Adobe Target] Skill Builders - AI 駆動型パーソナライゼーションとRecommendations（2022 年 9 月 16 日）</li></ul>過去の次のウェビナーセッションの録画リンクを追加しました。<ul><li>アドビ：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））</li></ul> |
+| 8月22日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のお知らせに関する情報を追加しました。<ul><li>Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される</li></ul>以下に今後のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年8月31日（PT））</li><li>シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））</li><li>[!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化（2022年9月6日（PT））</li><li>[!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT））</li></ul>以下に過去のウェビナーセッションの録画リンクを追加しました。<ul><li>アドビ：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））</li></ul> |
 | 8月22日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.8.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.6.1（時差リリース：2022年6月7～9日（PT））
