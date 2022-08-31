@@ -6,9 +6,9 @@ title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 22.8.1(2022 年 8 月 18 日 (PT) 以降のリリース )
+## [!DNL Target Standard/Premium] 22.8.1（時差リリース 2022年8月17～18日（PT））
 
 このメンテナンスリリースには、バックエンドおよびローカライゼーションの修正が含まれています。
 
