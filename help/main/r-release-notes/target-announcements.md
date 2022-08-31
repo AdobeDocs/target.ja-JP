@@ -7,21 +7,21 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Target] お知らせとイベント
+# [!DNL Adobe Target] のお知らせとイベント
 
 [!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## [!DNL Target] が Gartner Magic Quadrant for Personalization Engines（2022）でリーダーに選出
+## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
 
-Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] また、は、次の 3 つの主な使用例全体で、上位のスコアと大幅な前年比の増加を受け取りました。デジタルマーケティング、デジタルコマース、サービスとサポート。 [!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアも獲得しました。
+Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアも獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank} を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク （2022 年 8 月 31 日）
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年8月31日（PT））
 
 * **2022年8月31日 水曜日（PT）**
 * **午前 9:00 ～ 10:00（PDT、UTC-7）**
