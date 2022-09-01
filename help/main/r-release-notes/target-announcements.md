@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target] のお知らせやイベントについて'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 100%
+source-wordcount: '1777'
+ht-degree: 93%
 
 ---
 
@@ -21,42 +21,11 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank} を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年8月31日（PT））
-
-* **2022年8月31日 水曜日（PT）**
-* **午前 9:00 ～ 10:00（PDT、UTC-7）**
-* **[登録情報](https://adobe.ly/3buoDUt){target=_blank}**
-
-シニア [!DNL Adobe] プレミアサポートコンサルタントの Moses Maxen が参加し、最近の [2022年8月11日の小売パーソナライゼーション業界インサイダーウェビナー](https://video.tv.adobe.com/v/346323){target=_blank} で取り上げられたトピックに関する [!DNL Adobe Target] の質問と、[!DNL Target] に関する以下の専門分野についてお話します。
-
-* 過去数カ月間に消費者の買い付けパターンや行動がシフトし、消費財を含む特定の市場での商品やサービスへの需要が高まったため、小売 eコマースの売上が急増しています
-* 関連する最適化とパーソナライゼーション戦略
-* [!DNL Target] 実装
-* [!DNL Adobe] Sensei の機能
-* コア UI ワークフロー
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
 
-### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
-
-[!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
-
-+++ここをクリック
-
-* **2022年8月30日（木）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
-* **[その他の情報および登録情報](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-お客様の「シェフ」の話や、お客様自身のパーソナライズされたキッチンで調理したものを掘り下げていきます。
-
-次のアイデアを見てみましょう。
-
-* パーソナライゼーションを使用したロイヤルティの構築方法
-* 競争上の優位性の最適化
-* 高度にパーソナライズされたエクスペリエンスの作成
-+++
 
 ### [!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化（2022年9月6日（PT））
 
@@ -86,6 +55,25 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 過去のイベントの録画にアクセス（利用可能な場合）：
 
+### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
+
+[!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の eBook を元に、「シェフのコレクション：パーソナライゼーションのアイデア」を参照してください。
+
++++ここをクリック
+
+* **2022年8月30日（木）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+お客様の「シェフ」の話や、お客様が自分の個人用キッチンで作った料理を調べていきます。
+
+次のアイデアを見てみましょう。
+
+* パーソナライゼーションを使用したロイヤルティの構築方法
+* 競争上の優位性の最適化
+* 高度にパーソナライズされたエクスペリエンスの作成
++++
+
 ### リアルタイムのロイヤルティアクティベーション（2022年8月25日（PT））
 
 サプライチェーンの問題、サービス障害、スタッフ数の制限でのロイヤルティの向上は、旅行、ホスピタリティ、ダイニングの各ブランドの多くが直面している課題です。 AI の時代に、業界を離れた必要なリソースなしで、ブランドはエクスペリエンスをどのように拡張していくのでしょうか。 デジタルの進歩は、顧客の期待を高めるだけでなく、自動化を通じてチームを拡大するために、20～25 倍の高速化を実現しました。
@@ -98,7 +86,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 2022年には、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
 
-確認するトピック：
+調査するトピック：
 
 * デジタルの混乱と AI 上昇の加速
 * 初期導入者がトップラインとボトムラインの成長の両方で成功している理由
@@ -135,7 +123,7 @@ Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target 
 
 Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下について説明します。
 
-* マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
+* マーケター、開発者、製品チームが AI の「ブラックボックス」を開いて、将来のテストとパーソナライゼーション戦略を推進する方法
 * コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
 * パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
 * どの属性が訪問者の行動を予測し、どの属性がキービジュアライゼーションおよびセグメンテーション分析に最も重要であるかを解き明かす上位のユースケース
@@ -188,7 +176,7 @@ Kaitlin White（Adobe Product Marketing Manager）が、パーソナライゼー
 
 Shawn Wilkinson（eCommerce Personalization Manager）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
 
-Dick’s Sporting Goods がどのようにして 2 桁成長を実現しているのかを解き明かします。
+Dick&#39;s Sporting Goods が 2 桁の成長を促す仕組みを説明します。
 
 * 小売向けの高性能なパーソナライゼーションプログラムの計画および開始方法
 * 組織全体の賛同を得ることが、障害を克服するために重要な理由
@@ -248,7 +236,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 +++ここをクリック
 
-マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
+マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データサイロと複雑な実装を備えた複数のツールでは、切り捨てられません。
 
 この録画ウェビナーでは、Adobe Target の製品エキスパートが、遅延なしでローカルで実行する重要なエクスペリエンス最適化に関するオンライン判定の動きが、新しいユースケースにどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 +++
@@ -259,17 +247,17 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 +++ここをクリック
 
-McKinsey Digital は、「今後 5 年間で想定されていた消費者と企業でのデジタルの採用が、8 週間で実現した」と報じました。*
+McKinsey Digital は、「消費者とビジネスのデジタルの採用は、約 8 週間で 5 年前から進んでいます」と報じています。 *
 
 消費者の需要は急速に高まっています。HSBC は Adobe Target を使用した最適化を採用し、新規顧客新しいカスタマージャーニーを迅速にテストおよびパーソナライズし、開発やローンチにかかる期間を 6 か月から 1 週間に短縮しました。
 
 Adobe と HSBC によるこのウェビナーに参加して以下のことを学習します。
 
-* HSBC の最適化とパーソナライゼーションの取り組みが、どのようにして組織の急速な変化を促したか
+* HSBC の最適化とパーソナライゼーションの取り組みが、組織の急速な変化にどのように貢献しているか
 * AI と Analytics がどのようにしてその取り組みを加速し、ビジネスに明確で大きな影響を与えたか
 * HSBC がどのようにして 3,000 以上のアクティビティを提供し、大規模な成功プログラムを構築したか
 
-*McKinseyの記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
+*McKinsey の記事：&quot;[COVID-19 のリカバリはデジタルになります](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020 年 5 月
 +++
 
 ### Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
