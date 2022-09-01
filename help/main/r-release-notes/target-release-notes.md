@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 追加された [!UICONTROL Cross-Domain] サードパーティ Cookie の設定を許可または無効にするために at.js 2.9.1（およびそれ以降）をダウンロードする際のオプション (TGT-43674)
+* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ Cookie の設定を許可または無効にする必要があります。 （TGT-43674）
 * 通知を [!DNL Target] アクティビティが有効、無効、目標値と上昇率のしきい値に達したことを顧客に通知する UI。 （TGT-35811）
 * API を使用して属性をブロックリストに登録する機能を [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] アクティビティ。
 * 次の問題を修正しました： [!UICONTROL 決定オファー] 内で正しく機能しない [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 （TGT-43866）
