@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022年9月1日**
+**最終更新日：2022年9月6日**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -31,7 +31,6 @@ ht-degree: 38%
 
 * 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ Cookie の設定を許可または無効にする必要があります。 （TGT-43674）
 * 通知を [!DNL Target] アクティビティが有効、無効、目標値と上昇率のしきい値に達したことを顧客に通知する UI。 （TGT-35811）
-* API を使用して属性をブロックリストに登録する機能を [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] アクティビティ。
 * 次の問題を修正しました： [!UICONTROL 決定オファー] 内で正しく機能しない [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 （TGT-43866）
 * 選択時にエラーメッセージが表示される問題を修正しました。 [!UICONTROL 要素をクリックしました] 作成時のコンバージョン目標 [!UICONTROL Multivariate Testing] (MVT) アクティビティ （TGT-43842）
 * が [!UICONTROL Impressions] 次の項目を含む、ダウンロードした CSV レポートファイル内の表示からの列： [!UICONTROL Automated Personalization] (AP) アクティビティ （TGT-43780）
