@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 40%
+ht-degree: 71%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 40%
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 22.9.1（2022 年 9 月 13 日～15 日の順にリリース）
+## [!DNL Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **9 月 14 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **9 月 14 日**:アメリカ地域
-* **9 月 15 日**:アジア太平洋 (APAC) 地域
+* **9月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **9月14日（PT）**：アメリカ地域
+* **9月15日（PT）**：アジア太平洋（APAC）地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ Cookie の設定を許可または無効にする必要があります。 （TGT-43674）
+* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ Cookie の設定を許可または無効にする必要があります。(TGT-43674)
 * 通知を [!DNL Target] アクティビティが有効、無効、目標値と上昇率のしきい値に達したことを顧客に通知する UI。 （TGT-35811）
-* 次の問題を修正しました： [!UICONTROL 決定オファー] 内で正しく機能しない [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 （TGT-43866）
-* 選択時にエラーメッセージが表示される問題を修正しました。 [!UICONTROL 要素をクリックしました] 作成時のコンバージョン目標 [!UICONTROL Multivariate Testing] (MVT) アクティビティ （TGT-43842）
-* が [!UICONTROL Impressions] 次の項目を含む、ダウンロードした CSV レポートファイル内の表示からの列： [!UICONTROL Automated Personalization] (AP) アクティビティ （TGT-43780）
-* エクスペリエンスを複製した後に、HTML/JSON オファーを編集できない問題を修正しました。 [!UICONTROL フォームベースの Experience Composer]. （TGT-43633）
-* ユーザーが [!UICONTROL A/B テスト] アクティビティを開きます。 （TGT-41910）
+* [!UICONTROL オファーの決定]が [!UICONTROL Visual Experience Composer]（VEC）内で正常に機能しない問題を修正しました。（TGT-43866）
+* [!UICONTROL 多変量分析テスト]（MVT）アクティビティを作成する際、「[!UICONTROL 要素をクリック]」のコンバージョン目標を選択するとエラーメッセージが表示される問題を修正しました。（TGT-43842）
+* [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティで、ダウンロードした CSV レポートファイル内に[!UICONTROL インプレッション]列が表示されない問題を修正しました。（TGT-43780）
+* [!UICONTROL フォームベースの Experience Composer] を使用する場合に、エクスペリエンスを複製した後に HTML／JSON オファーを編集できない問題を修正しました。（TGT-43633）
+* ユーザーが [!UICONTROL A/B テスト]アクティビティをデフォルト以外のワークスペースから別のデフォルトでないワークスペースにコピーできない問題を修正しました。（TGT-41910）
 * お客様が [!DNL Target] の UI [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティにレコメンデーションを含める。 （TGT-42331）
 * ネットワークタイムアウトアラートが [!DNL Target] パラメーターを取得する際の UI。 （TGT-43737）
 * 特定のドラッグ&amp;ドロップ操作がキーボードでアクセスできるよう UI を更新しました。 （TGT-42969）
