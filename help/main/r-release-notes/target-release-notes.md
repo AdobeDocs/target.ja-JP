@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 71%
@@ -29,7 +29,7 @@ ht-degree: 71%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ Cookie の設定を許可または無効にする必要があります。(TGT-43674)
+* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ cookie の設定を許可または無効にする必要があります。 （TGT-43674）
 * 通知を [!DNL Target] アクティビティが有効、無効、目標値と上昇率のしきい値に達したことを顧客に通知する UI。 （TGT-35811）
 * [!UICONTROL オファーの決定]が [!UICONTROL Visual Experience Composer]（VEC）内で正常に機能しない問題を修正しました。（TGT-43866）
 * [!UICONTROL 多変量分析テスト]（MVT）アクティビティを作成する際、「[!UICONTROL 要素をクリック]」のコンバージョン目標を選択するとエラーメッセージが表示される問題を修正しました。（TGT-43842）
