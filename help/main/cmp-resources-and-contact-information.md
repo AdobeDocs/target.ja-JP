@@ -1,12 +1,12 @@
 ---
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
-description: ' Adobe  [!DNL Target] の機能の学習に役立つその他のリソースと、 [!DNL Target]についてサポートが必要な場合にアドビに連絡する方法について説明します。'
+description: Adobe  [!DNL Target] の機能の学習に役立つその他のリソースと、 [!DNL Target]についてサポートが必要な場合にアドビに連絡する方法について説明します。
 title: Target に関するリソースや連絡先情報はどこで入手できますか？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1223'
 ht-degree: 98%
 
 ---
@@ -120,10 +120,10 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated.All Rights Reserved.
+* © 2022 Adobe Systems Incorporated.All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[利用条件](https://www.adobe.com/go/marketingcloud_terms_of_use_jp) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
+[利用規約](https://www.adobe.com/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
