@@ -1,13 +1,13 @@
 ---
 keywords: お知らせ;スキルビルダー;開発者チャット;coffee break;events;forrester;gartner;ウェビナー
 description: お知らせを読み、スキルビルダーセッションや、開発者と製品管理者のチャット、ウェビナーなどの Adobe [!DNL Target] イベントに登録してください。
-title: ' [!DNL Target] のお知らせやイベントについて'
+title: 入手方法 [!DNL Target] お知らせとイベント情報
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 93%
+source-wordcount: '1757'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 ## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
 
-Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアも獲得しました。
+Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価されたすべてのベンダーの中で、テスト機能の最高スコアを受け取りました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank} を参照してください。
 
@@ -26,24 +26,11 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
 
-
-### [!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化（2022年9月6日（PT））
-
-モバイルエクスペリエンスは、マーケティングチームとエンジニアリングチームが製品主導の戦略を活用して、web やアプリでのクロスチャネルパーソナライゼーションを行う方法のイノベーションを促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] がマーケター、デベロッパー、製品所有者の新しい潜在的なエンゲージメントと収益の増加を解き放ち、活発な製品コミュニティを構築する方法を学びましょう。
-
-+++ここをクリック
-
-* **2022年9月6日（木）（PT）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
-* **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT））
 
 実験とパーソナライゼーションの自動化は常に、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI を促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] の高度な AI 駆動のユースケースと機能を製品およびコンテンツの推奨事項とともに使用して、競争に先立ち、すべてのエクスペリエンスで勝つ方法を学びましょう。
 
-+++ここをクリック
++++詳細
 
 * **2022年9月15日（木）（PT）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
@@ -55,11 +42,23 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 過去のイベントの録画にアクセス（利用可能な場合）：
 
+### [!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化（2022年9月6日（PT））
+
+モバイルエクスペリエンスは、マーケティングチームとエンジニアリングチームが製品主導の戦略を活用して、web やアプリでのクロスチャネルパーソナライゼーションを行う方法のイノベーションを促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] がマーケター、デベロッパー、製品所有者の新しい潜在的なエンゲージメントと収益の増加を解き放ち、活発な製品コミュニティを構築する方法を学びましょう。
+
++++詳細
+
+* **2022年9月6日（木）（PT）**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
 [!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の eBook を元に、「シェフのコレクション：パーソナライゼーションのアイデア」を参照してください。
 
-+++ここをクリック
++++詳細
 
 * **2022年8月30日（木）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
@@ -78,7 +77,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 サプライチェーンの問題、サービス障害、スタッフ数の制限でのロイヤルティの向上は、旅行、ホスピタリティ、ダイニングの各ブランドの多くが直面している課題です。 AI の時代に、業界を離れた必要なリソースなしで、ブランドはエクスペリエンスをどのように拡張していくのでしょうか。 デジタルの進歩は、顧客の期待を高めるだけでなく、自動化を通じてチームを拡大するために、20～25 倍の高速化を実現しました。
 
-+++ここをクリック
++++詳細
 
 * **2022年8月25日（木）**
 * **午後 10:00～11:00（PDT、UTC-7）**
@@ -94,13 +93,13 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 * 実行中のリアルタイムのロイヤルティアクティベーション
 +++
 
-### アドビ：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））
+### [!DNL Adobe]:Personalization Industry Insider — 小売（2022 年 8 月 11 日）
 
 2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。
 
 * [録画リンク](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++ここをクリック
++++詳細
 
 * **2022年8月11日（木）**
 * **午後 1:00～2:00（）**
@@ -109,13 +108,13 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
 +++
 
-### アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
+### [!DNL Adobe]:精度を備えたパーソナライゼーション — [!DNL Adobe Analytics] および [!DNL Target] （2022 年 6 月 3 日）
 
 機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
 
 * [録画リンク](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++ここをクリック
++++詳細
 
 * **2022年6月2日木曜日（PT）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
@@ -136,7 +135,7 @@ Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下
 
 * [録画リンク](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++ここをクリック
++++詳細
 
 * **2022年6月9日木曜日（PT）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
@@ -145,13 +144,13 @@ Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下
 Heather Adkins（SVP Marketing Technology）が、「リレーションシップバンク」になってブランドロイヤルティを高めるためのベストプラクティスと、パーソナライゼーションプログラムの構築と拡張を成功させるために人材とプロセスをどのように推進するかについて説明します。
 +++
 
-### アドビ：効果的な最適化の機会を探る（2022年6月16日（PT））
+### [!DNL Adobe]:インパクトの大きい最適化オポチュニティの明らかに（2022 年 6 月 17 日）
 
 かつてないほどデジタル化が進んだニューノーマルを迎えるにあたり、組織は、あらゆる機会を活用して優れたデジタルエクスペリエンスを提供することが重要であることを説明します。「Good enough（十分に良い）」は、もはや本当の意味で十分ではありません。競争力を維持するためには、優れたエクスペリエンスが必要です。
 
 * [録画リンク](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++ここをクリック
++++詳細
 
 * **2022年6月16日木曜日（PT）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
@@ -172,7 +171,7 @@ Kaitlin White（Adobe Product Marketing Manager）が、パーソナライゼー
 
 * [録画リンク](https://video.tv.adobe.com/v/343042){target=_blank}
 
-+++ここをクリック
++++詳細
 
 Shawn Wilkinson（eCommerce Personalization Manager）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
 
@@ -185,13 +184,13 @@ Dick&#39;s Sporting Goods が 2 桁の成長を促す仕組みを説明します
 
 +++
 
-### アドビ：パーソナライゼーション業界インサイダー - 金融サービスと保険（2022年5月24日（PT））
+### [!DNL Adobe]:Personalization Industry Insider — 金融サービスと保険（2022 年 5 月 24 日）
 
 金融サービス企業がどのようにパーソナライゼーションを使用して、インフレパターンや投資戦略に備え、顧客をサポートし、情報を提供しているかについて説明します。
 
 [録画リンク](https://video.tv.adobe.com/v/343240){target=_blank}
 
-+++ここをクリック
++++詳細
 
 Christopher Young（Director、Industry Strategy Financial Services）と James Capasso（Target Consultant、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。
 +++ 
@@ -202,7 +201,7 @@ Christopher Young（Director、Industry Strategy Financial Services）と James 
 
 [録画リンク](https://video.tv.adobe.com/v/343344){target=_blank}
 
-+++ここをクリック
++++詳細
 
 Heather Adkins（SVP Marketing Technology Manager）が、シティナショナルバンクがどのようにして最も洗練された「デジタル対応リレーションシップバンク」のひとつになったのかについて説明します。
 
@@ -219,7 +218,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 **[登録してウェビナー録画を表示](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-+++ここをクリック
++++詳細
 
 このセッションでは、[!DNL Adobe Target] が複数のソースをまたいでデータを組み合わせ、リアルタイムパーソナライゼーションに関する以下の点に関するギャップを埋める方法に浮いて説明します。
 
@@ -234,7 +233,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 [録画リンク](https://video.tv.adobe.com/v/328148){target=_blank}
 
-+++ここをクリック
++++詳細
 
 マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データサイロと複雑な実装を備えた複数のツールでは、切り捨てられません。
 
@@ -245,7 +244,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 * **[録画リンク](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
-+++ここをクリック
++++詳細
 
 McKinsey Digital は、「消費者とビジネスのデジタルの採用は、約 8 週間で 5 年前から進んでいます」と報じています。 *
 
@@ -260,9 +259,9 @@ Adobe と HSBC によるこのウェビナーに参加して以下のことを�
 *McKinsey の記事：&quot;[COVID-19 のリカバリはデジタルになります](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020 年 5 月
 +++
 
-### Adobe [!DNL Target] スキルビルダー：開発者チャット、Adobe [!DNL Target] の mbox.js を at.js に移行€  {#skill-builder}
+###  [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行€  {#skill-builder}
 
-2021年3月31日（PT）に mbox.js の廃止が予定されているため、Adobe Target プロダクトマネージャーの David Son は最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
+2021年3月31日（PT）に mbox.js の廃止が予定されているので、Adobe Target プロダクトマネージャーの David Son は、最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
 * **[録画リンク](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**
 
