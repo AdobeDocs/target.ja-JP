@@ -4,16 +4,23 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: ht
-source-wordcount: '1194'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## [!DNL Adobe Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 8月22日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | 通知に関する情報を追加しました。 [!DNL Recommendations] フィードに失敗しました。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.8.1（時差リリース：2022年8月17～18日（PT））
 

@@ -4,10 +4,10 @@ description: を最大限に活用するために役立つ、ユーザーイン�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -55,11 +55,11 @@ ht-degree: 44%
 
 以下のセクションでは、各タブに関する情報と、通知とお知らせを設定する方法について説明します。
 
-###  通知 
+###  通知  {#notifications}
 
 [!DNL Target] イベント通知には、次のものが含まれます。
 
-* **アクティビティ**:手動で、または開始日または終了日に達した場合に、アクティビティが承認または非アクティブ化されたときのすべてのアクティビティタイプに関する通知。 通知には、アクティビティの名前と、アクティビティの概要ページへのリンクが含まれます。
+* **アクティビティ**：手動で、または開始日または終了日に達したことにより、アクティビティが承認または無効化されたときの、すべてのアクティビティタイプに関する通知。 通知には、アクティビティの名前と、アクティビティの概要ページへのリンクが含まれます。
 
    通知は設定可能で、デフォルトでは、アクティビティのワークスペースの製品管理者、発行者、承認者が [!DNL Target Premium] アカウント。 の場合 [!DNL Target Standard] アカウント、通知は、すべての発行者と承認者が受け取ります。
 
@@ -86,6 +86,7 @@ ht-degree: 44%
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 個々の通知を既読としてマークするには、目的の通知にマウスポインターを置いてからチェックマークをクリックします。 すべての通知を既読としてマークするか、すべての通知を表示するには、 [!UICONTROL &quot;既読にする&quot;] または [!UICONTROL &quot;すべて表示&quot;] をクリックします。
@@ -177,7 +178,7 @@ ht-degree: 44%
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-[!UICONTROL Recommendations] のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendationsは、顧客が知らない関連アイテムを表示するのに役立ちます。
+[!UICONTROL Recommendations] アクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations を使うと、顧客が知らなかったであろう関連商品を紹介するのに役立ちます。
 
 [!DNL Target]の [!UICONTROL Recommendations] に関する詳細および [!UICONTROL Recommendations] のユーザーインターフェイスに関する詳細は、 [Recommendations](/help/main/c-recommendations/recommendations.md) を参照してください。
 
