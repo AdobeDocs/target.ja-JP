@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 80%
+source-wordcount: '632'
+ht-degree: 78%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 80%
 * ネットワークタイムアウトアラートが [!DNL Target] パラメーターを取得する際の UI。 （TGT-43737）
 * 特定のドラッグ&amp;ドロップ操作がキーボードでアクセスできるよう UI を更新しました。 （TGT-42969）
 * テキスト文字列が適切にローカライズされるよう UI を更新しました。
+
+## at.js バージョン2.10.0（2022 年 9 月 14 日）
+
+* 追加された [!UICONTROL Cross-Domain] オプションを使用して、サードパーティ cookie の設定を許可または無効にする必要があります。 （TGT-43674）
 
 ## その他のリリースノートとバージョンの詳細
 
