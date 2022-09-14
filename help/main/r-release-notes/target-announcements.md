@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
-[!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の eBook を元に、「シェフのコレクション：パーソナライゼーションのアイデア」を参照してください。
+[!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
 
 +++詳細
 
@@ -68,7 +68,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 2022年には、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
 
-調査するトピック：
+確認するトピック：
 
 * デジタルの混乱と AI 上昇の加速
 * 初期導入者がトップラインとボトムラインの成長の両方で成功している理由
@@ -99,7 +99,7 @@ Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target 
 
 Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下について説明します。
 
-* マーケター、開発者、製品チームが AI の「ブラックボックス」を開いて、将来のテストとパーソナライゼーション戦略を推進する方法
+* マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
 * コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
 * パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
 * どの属性が訪問者の行動を予測し、どの属性がキービジュアライゼーションおよびセグメンテーション分析に最も重要であるかを解き明かす上位のユースケース
@@ -145,7 +145,7 @@ Kaitlin White（Adobe Product Marketing Manager）が、パーソナライゼー
 
 Shawn Wilkinson（eCommerce Personalization Manager）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
 
-Dick&#39;s Sporting Goods が 2 桁の成長を促す仕組みを説明します。
+Dick&#39;s Sporting Goods がどのようにして 2 桁成長を実現しているのかを解き明かします。
 
 * 小売向けの高性能なパーソナライゼーションプログラムの計画および開始方法
 * 組織全体の賛同を得ることが、障害を克服するために重要な理由
@@ -207,7 +207,7 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 +++詳細
 
-マーケター、製品所有者および開発者は、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを、これまで以上に求められています。データサイロと複雑な実装を備えた複数のツールでは、切り捨てられません。
+マーケター、製品所有者、開発者はこれまで以上に、サイト、アプリおよび顧客とつながるその他のあらゆる場所で、全体的な顧客体験を最適化することを求められています。データが分断された複数のサイロと、複雑な実装では、これを実現することはできません。
 
 この録画ウェビナーでは、Adobe Target の製品エキスパートが、遅延なしでローカルで実行する重要なエクスペリエンス最適化に関するオンライン判定の動きが、新しいユースケースにどのように影響し、お客様のサイトパフォーマンスを向上させるかを説明します。
 
@@ -219,17 +219,17 @@ Heather Adkins（SVP Marketing Technology Manager）が、シティナショナ�
 
 +++詳細
 
-McKinsey Digital は、「消費者とビジネスのデジタルの採用は、約 8 週間で 5 年前から進んでいます」と報じています。 *
+McKinsey Digital は、「今後 5 年間で想定されていた消費者と企業でのデジタルの採用が、8 週間で実現した」と報じました。*
 
 消費者の需要は急速に高まっています。HSBC は Adobe Target を使用した最適化を採用し、新規顧客新しいカスタマージャーニーを迅速にテストおよびパーソナライズし、開発やローンチにかかる期間を 6 か月から 1 週間に短縮しました。
 
 Adobe と HSBC によるこのウェビナーに参加して以下のことを学習します。
 
-* HSBC の最適化とパーソナライゼーションの取り組みが、組織の急速な変化にどのように貢献しているか
+* HSBC の最適化とパーソナライゼーションの取り組みが、どのようにして組織の急速な変化を促したか
 * AI と Analytics がどのようにしてその取り組みを加速し、ビジネスに明確で大きな影響を与えたか
 * HSBC がどのようにして 3,000 以上のアクティビティを提供し、大規模な成功プログラムを構築したか
 
-*McKinsey の記事：&quot;[COVID-19 のリカバリはデジタルになります](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020 年 5 月
+*McKinsey の記事：「[The COVID-19 recovery will be digital（COVID-19 からの復興の鍵はデジタルとなる）](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)」、2020年5月
 
 +++
 
