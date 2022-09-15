@@ -4,9 +4,9 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: 入手方法 [!DNL Target] お知らせとイベント情報
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1837'
 ht-degree: 86%
 
 ---
@@ -69,9 +69,13 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 モバイルエクスペリエンスは、マーケティングチームとエンジニアリングチームが製品主導の戦略を活用して、web やアプリでのクロスチャネルパーソナライゼーションを行う方法のイノベーションを促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] がマーケター、デベロッパー、製品所有者の新しい潜在的なエンゲージメントと収益の増加を解き放ち、活発な製品コミュニティを構築する方法を学びましょう。
 
+* [録画リンク](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
 [!DNL Adobe Target] [!DNL ] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
+
+* [録画リンク](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++詳細
 
