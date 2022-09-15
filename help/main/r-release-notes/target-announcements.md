@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: 入手方法 [!DNL Target] お知らせとイベント情報
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 97%
+source-wordcount: '1829'
+ht-degree: 86%
 
 ---
 
@@ -35,6 +35,29 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 * **2022年9月15日（木）（PT）**
 * **午後 1:00 ～ 2:00（EDT、UTC-4）**
 * **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+### AI を利用したパーソナライゼーションの微調整：の新機能 [!DNL Adobe Target] （2022 年 10 月 11 日）
+
+この特別な製品発表のウェビナーにご参加ください。
+
+大規模なパーソナライゼーションに関する「非常に大きな」画期的なニュースを、 [!DNL Adobe Target]:～の能力を高める新しいフィルタリングと知性 [!DNL Target] AI を利用したパーソナライゼーションアクティビティを微調整して、アクティビティごとに最も重要なビジネス指標に直接影響を与えます。
+
++++詳細
+
+この新製品の発表は、業界を問わず、過去数年間でパーソナライゼーションのラチェットアップが必要となったので、タイムリーで非常に重要なものです。 企業がカスタマージャーニーを通じて競争との差別化を大きく進める手段となりました。 パーソナライゼーションは、顧客サービスおよびロイヤリティの使用例に至るまで、顧客のファーストタッチから始まり、基本的なデータを獲得の使用例に活用し、「あらゆる場所で：」非常に効果的です。
+
+このセッションでは、 [!DNL Adobe Target]我々が話し合う新機能：
+
+* 内の拡張モデルコントロール [!UICONTROL Automated Personalization] および [!UICONTROL 自動ターゲット] アクティビティ
+* プロファイル属性および高価値セグメントを評価する機能のロック解除 [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
+* AI を利用したアルゴリズムを微調整することで、ブランドがより高速な速度と判定を実現する方法
+* 1 対 1 のパーソナライゼーションを実現するユースケース
+
+* **2022 年 10 月 11 日**
+* **午後 1:00 ～ 2:00（EDT、UTC-4）**
+* **[その他の情報および登録情報](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 +++
 
