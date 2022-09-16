@@ -4,7 +4,7 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: 入手方法 [!DNL Target] お知らせとイベント情報
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 86%
@@ -91,16 +91,16 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 サプライチェーンの問題、サービス障害、スタッフ数の制限でのロイヤルティの向上は、旅行、ホスピタリティ、ダイニングの各ブランドの多くが直面している課題です。 AI の時代に、業界を離れた必要なリソースなしで、ブランドはエクスペリエンスをどのように拡張していくのでしょうか。 デジタルの進歩は、顧客の期待を高めるだけでなく、自動化を通じてチームを拡大するために、20～25 倍の高速化を実現しました。
 
-+++詳細
+* +++詳細
 
-2022年には、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
+   2022年には、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
 
-確認するトピック：
+   確認するトピック：
 
-* デジタルの混乱と AI 上昇の加速
-* 初期導入者がトップラインとボトムラインの成長の両方で成功している理由
-* 旅行でのパーソナライゼーションの自動化
-* 実行中のリアルタイムのロイヤルティアクティベーション
+   * デジタルの混乱と AI 上昇の加速
+   * 初期導入者がトップラインとボトムラインの成長の両方で成功している理由
+   * 旅行でのパーソナライゼーションの自動化
+   * 実行中のリアルタイムのロイヤルティアクティベーション
 
 +++
 
@@ -110,9 +110,9 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 * [録画リンク](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++詳細
+* +++詳細
 
-Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
+   Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
 
 +++
 
