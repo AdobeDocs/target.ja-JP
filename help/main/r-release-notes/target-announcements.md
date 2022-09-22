@@ -1,13 +1,13 @@
 ---
 keywords: お知らせ;スキルビルダー;開発者チャット;coffee break;events;forrester;gartner;ウェビナー
 description: お知らせを読み、スキルビルダーセッションや、開発者と製品管理者のチャット、ウェビナーなどの Adobe [!DNL Target] イベントに登録してください。
-title: 入手方法 [!DNL Target] お知らせとイベント情報
+title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
 workflow-type: tm+mt
 source-wordcount: '1894'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 84%
 
 ## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
 
-Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価されたすべてのベンダーの中で、テスト機能の最高スコアを受け取りました。
+Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
-詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank} を参照してください。
+詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
@@ -91,7 +91,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   アイデアの参照先：
+   次のアイデアを参照します。
 
    * パーソナライゼーションを使用したロイヤルティの構築方法
    * 競争上の優位性の最適化
@@ -107,7 +107,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   2022年には、システムは、リアルタイムのロイヤリティアクティベーションで提供する継続的なインテリジェンスを提供する機能の転換点に達しました。
+   2022年には、システムは、リアルタイムのロイヤルティアクティベーションで配信するための継続的なインテリジェンスを提供する能力の転換点に到達しました。
 
    確認するトピック：
 
@@ -118,7 +118,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 +++
 
-### [!DNL Adobe]:Personalization Industry Insider — 小売（2022 年 8 月 11 日）
+### [!DNL Adobe]：パーソナライゼーション業界インサイダー - 小売（2022年8月11日（PT））
 
 2022年は、特定のビジネスを実行および運用する環境が、ダイナミックかつ急速に変化しています。労働者や旅行者が日常生活を取り戻しつつある中、業界の専門家が新しい消費者動向をどのように見ているかを説明します。
 
@@ -126,11 +126,11 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   Michael Klein（Director、Industry Strategy Retail）と Leina Betzer（Target Consultant、Adobe Premier Support）が、消費者の購買パターンや行動が変化し、特定の市場での商品やサービスに対する需要が高まる中、小売eコマースの売上が急増していることについて説明します。
+   Michael Klein （インダストリー戦略リテール担当ディレクター）と Leina Betzer（Adobe Premier サポート担当 Target コンサルタント）が、消費者の購買パターンや行動が変化し、特定市場での商品やサービスに対する需要が高まる中、小売 e コマースの売上が急増していることについて説明します。
 
 +++
 
-### [!DNL Adobe]:精度を備えたパーソナライゼーション — [!DNL Adobe Analytics] および [!DNL Target] （2022 年 6 月 3 日）
+### [!DNL Adobe]：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]（2022年6月2日（PT））
 
 機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
 
@@ -138,7 +138,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   Jordan Ison（[!DNL Adobe]、Principal Expert Solution Consultant）が、以下について説明します。
+   Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューションコンサルタント）が、以下について説明します。
 
    * マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
    * コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
@@ -155,11 +155,11 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   Heather Adkins（SVP Marketing Technology）が、「リレーションシップバンク」になってブランドロイヤルティを高めるためのベストプラクティスと、パーソナライゼーションプログラムの構築と拡張を成功させるために人材とプロセスをどのように推進するかについて説明します。
+   Heather Adkins（マーケティングテクノロジー担当 SVP）が、「リレーションシップバンク」になってブランドロイヤルティを高めるためのベストプラクティスと、パーソナライゼーションプログラムの構築と拡張を成功させるために人材とプロセスをどのように推進するかについて説明します。
 
 +++
 
-### [!DNL Adobe]:インパクトの大きい最適化オポチュニティの明らかに（2022 年 6 月 17 日）
+### [!DNL Adobe]：効果的な最適化の機会を探る（2022年6月16日（PT））
 
 かつてないほどデジタル化が進んだニューノーマルを迎えるにあたり、組織は、あらゆる機会を活用して優れたデジタルエクスペリエンスを提供することが重要であることを説明します。「Good enough（十分に良い）」は、もはや本当の意味で十分ではありません。競争力を維持するためには、優れたエクスペリエンスが必要です。
 
@@ -184,7 +184,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   Shawn Wilkinson（eCommerce Personalization Manager）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
+   Shawn Wilkinson（e コマースパーソナライゼーションマネージャー）が、Dick&#39;s Sporting Goods の平均的な訪問者をリピーターに変えるために [!DNL Target] がどのように役立っているかについて説明します。
 
    Dick&#39;s Sporting Goods がどのようにして 2 桁成長を実現しているのかを解き明かします。
 
@@ -195,7 +195,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 +++
 
-### [!DNL Adobe]:Personalization Industry Insider — 金融サービスと保険（2022 年 5 月 24 日）
+### [!DNL Adobe]：パーソナライゼーション業界インサイダー - 金融サービスと保険（2022年5月24日（PT））
 
 金融サービス企業がどのようにパーソナライゼーションを使用して、インフレパターンや投資戦略に備え、顧客をサポートし、情報を提供しているかについて説明します。
 
@@ -203,8 +203,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
    +++詳細
 
-   Christopher Young（Director、Industry Strategy Financial Services）と James Capasso（Target Consultant、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。
-
+   Christopher Young（ディレクター、Industry Strategy Financial Services）と James Capasso（Target コンサルタント、Adobe Premier Support）が、パーソナライゼーションを顧客エンゲージメントの中心に据えながら、ブランドが需要の急変に対応する方法を説明します。最近のインフレパターンや投資に関する状況に不安を感じている世界中の顧客に対して、金融サービス企業がどのように支援し、情報を提供しているかを説明します。
 
 +++
 
@@ -274,7 +273,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 +++
 
-###  [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行€  {#skill-builder}
+###  [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
 
 2021年3月31日（PT）に mbox.js の廃止が予定されているので、Adobe Target プロダクトマネージャーの David Son は、最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 

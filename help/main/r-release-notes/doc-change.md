@@ -20,7 +20,7 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 9 月 16 日 | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のウェビナーに関する情報を追加しました。<ul><li>AI を利用したパーソナライゼーションの微調整：の新機能 [!DNL Adobe Target] （2022 年 10 月 11 日）</li></ul> |
-| 9月13日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | 通知に関する情報を追加しました。 [!DNL Recommendations] フィードに失敗しました。 |
+| 9月13日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.8.1（時差リリース：2022年8月17～18日（PT））
