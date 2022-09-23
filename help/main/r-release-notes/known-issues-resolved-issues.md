@@ -4,10 +4,10 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '4617'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,10 +98,6 @@ at.js の既知の問題を以下に示します。
 Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
 
 現在のすべての Analytics パッケージで、このモデルに Attribution IQ を追加できます。Attribution IQ にアクセスできない場合は、Reports &amp; Analytics の A4T データを使用してください。
-
-### Target API
-
-Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自動配分アクティビティでCRUD操作を行うことはできません。
 
 ### レポート - ダウンロード可能な .csv レポートのデータと [!DNL Target] UI に表示されるレポートのデータに一貫性がない  {#csv}
 
