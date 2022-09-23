@@ -4,7 +4,7 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ ht-degree: 95%
 ## 既知の問題 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
-
-### フォームベースの Experience Composer で作成したアクティビティでの、アドホックオファーがある場所の削除 {#ad-hoc}
-
-フォームベースの Experience Composer で作成したアクティビティで、アドホックオファー（アクティビティ内で作成されたオファー）を使用している場合は、その場所を削除しないでください。場所を削除すると、アクティビティが破損する可能性があります。[!DNL Target] チームはこの修正に取り組んでいます。回避策として、[!UICONTROL オファーライブラリ]場所と共に使用したり、必要に応じて新しいエクスペリエンスを作成したりできます。（KB-2014）
 
 ### 拡張 Experience Composer（EEC）は、PUT リクエストをサポートしていません。
 
@@ -116,6 +112,10 @@ Adobe I/OのA/BアクティビティAPIのv3バージョンを使用して、自
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上記の既知の問題は解決されているため、次の節に移動します。必要に応じて、メモを追加します。
+
+### フォームベースの Experience Composer で作成したアクティビティでの、アドホックオファーがある場所の削除 {#ad-hoc}
+
+フォームベースの Experience Composer で作成したアクティビティで、アドホックオファー（アクティビティ内で作成されたオファー）を使用している場合は、その場所を削除しないでください。場所を削除すると、アクティビティが破損する可能性があります。[!DNL Target] チームはこの修正に取り組んでいます。回避策として、[!UICONTROL オファーライブラリ]場所と共に使用したり、必要に応じて新しいエクスペリエンスを作成したりできます。（KB-2014）
 
 ### 自動配分アクティビティと自動ターゲットアクティビティの Analytics for Target（A4T）指標
 
