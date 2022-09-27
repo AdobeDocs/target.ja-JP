@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022年7月9日（PT）**
+**最終更新日：2022年27月9日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 * 一部の顧客をアーカイブできない問題を修正しました [!UICONTROL A/B テスト] 使用するアクティビティ [!UICONTROL 自動ターゲット]. （TGT-40978）
 * 1 つのレポートグループ内の複数の場所で 1 つのオファーを自動的に使用する機能が追加されました。 （TGT-43974）
 * エクスペリエンスフラグメントをタイプ (HTMLまたは JSON) でフィルタリングする機能を [!UICONTROL オファー] リスト。 （TGT-43121）
-* 顧客が JSON を挿入できる問題を修正しました。 [!UICONTROL エクスペリエンスフラグメント] オファーを表示するようになりました。 JSON オファーは、 [!UICONTROL フォームベースのエクスペリエンス] 作成者 （TGT-43846）
+* 顧客が JSON を挿入できる問題を修正しました。 [!UICONTROL エクスペリエンスフラグメント] は、VEC を使用する際にオファーを提供します（これはサポートされていません）。 JSON オファーは、 [!UICONTROL フォームベースのエクスペリエンス] 作成者 （TGT-43846）
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
