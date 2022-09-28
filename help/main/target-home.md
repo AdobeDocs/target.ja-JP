@@ -34,7 +34,7 @@ ht-degree: 100%
 
 - [Target リリースノート](r-release-notes/release-notes.md)：現在のリリースに関する情報、[!DNL Target] に影響を与える既知の問題に関する情報、このドキュメントに関する重要な変更点の一覧、過去のリリースノートのアーカイブなどが含まれています。
 - [Target の概要](c-intro/intro.md)：[!DNL Target] ソリューションのコア概念について説明します。
-- Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（ [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md) など）を統合する方法について説明します。
+- Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md) など）を統合する方法について説明します。
 - [Adobe Target のチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)：Target を最大限に活用するためのチュートリアルとビデオを提供します。
 - [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)：[!DNL Target] のアクティビティやの他の要素に影響する文字制限とその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報を含む、このガイドに含まれるトラブルシューティング情報へのリンクを提供します。
 - [モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：モバイルアプリの最適化とパーソナライゼーションを行うために、[!DNL Target] をどのように使用できるかを説明します。
