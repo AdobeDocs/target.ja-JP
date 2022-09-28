@@ -4,10 +4,10 @@ description: Automated Personalization(AP) および自動ターゲット (AT) �
 title: パーソナライゼーションインサイトレポートの使用方法
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 57%
+source-wordcount: '909'
+ht-degree: 54%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 57%
 | ページパラメーター（「mbox パラメーター」） | ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。 | `Custom - Mbox Parameter - [parameter name]` |
 | 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 | `Custom - Customer Attributes - [parameter name]` |
 | 共有オーディエンス（Adobe Audience Manager または Adobe Analytics） | Adobe Audience Manager または Adobe Analytics で作成され、Target と共有されているオーディエンス。 | `Custom - Experience Cloud Segment - [segment name]` |
+| 共有オーディエンス (Adobe Experience Platform/リアルタイム CDP) | Adobe Experience Platform/リアルタイム CDP を通じて作成され、宛先を介して Target と共有されるオーディエンス。 | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| 共有属性 (Adobe Experience Platform/リアルタイム CDP) | Adobe Experience Platform/Real-time CDP を通じて作成され、宛先を介して Target と共有される属性。 この機能は現在ベータ版です。 | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | アクティビティ内レポート用オーディエンス／セグメント | 「目標と指標」の設定中に AP または自動ターゲットアクティビティで定義されたオーディエンス。 | `Custom - Reporting Segment - [segment name]` |
 
 ## よくある質問

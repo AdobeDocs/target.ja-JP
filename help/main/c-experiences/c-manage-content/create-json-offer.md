@@ -4,10 +4,10 @@ description: Adobeで JSON オファーを作成する方法を説明します [
 title: JSON オファーの作成方法
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## リアルタイム CDP プロファイル属性を使用した JSON オファーの例
+
+リアルタイム CDP プロファイル属性は、HTMLオファーおよび JSON オファーで使用するために、Target と共有できます。 （この機能は現在ベータ版であることに注意してください）。
+
+使用例：グレースは、オンラインマーケティング担当者がリアルタイムのパーソナライゼーションを提供するために、AEP/統合プロファイルに Target と属性値を共有して欲しいと考えています。 リアルタイム CDP プロファイル属性を使用すると、猶予は、トークン置換を使用して Target オファーに AEP 属性の値を表示できます。 例えば、Sarah は、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+上記の例では、デフォルト値の割り当てはオプションであることに注意してください。
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
