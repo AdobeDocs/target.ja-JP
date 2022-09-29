@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f567203808ef31191754773079450bc7a323dde7
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '525'
 ht-degree: 28%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 28%
 | 機能 | 詳細 |
 | --- | --- |
 | [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント | AEMエクスペリエンスフラグメント機能の更新内容は次のとおりです。<ul><li>AEMエクスペリエンスフラグメントを、 [!UICONTROL オファー] リスト。 （TGT-43121）</li><li>顧客が JSON を挿入できる問題を修正しました。 [!UICONTROL エクスペリエンスフラグメント] は、VEC を使用する際にオファーを提供します（これはサポートされていません）。 JSON オファーは、 [!UICONTROL フォームベースのエクスペリエンス] 作成者 （TGT-43846）</li></ul>詳しくは、 AEM [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| 新規 [!UICONTROL Visual Experience Composer] Google Chrome 用拡張機能 | 新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] Chrome 用 (VEC) 拡張機能は、Chrome Web Store で入手できます。<br>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。<br>以下のリンクは、Chrome Web Store の 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul> |
-| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]<br>（正確なリリース日は決定されます。） | 次の変更点に注意してください。<ul><li>バイナリ指標と最大化指標のサポートを [!UICONTROL Analytics for Target] A4T レポートの対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ</li><li>次のバイナリ指標警告メッセージを削除しました： [!UICONTROL 自動ターゲット] アクティビティ</li><li>2023 年 2 月 20 日まで、既存のアクティビティの動作が保持されました。 この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは停止されます</li><li>2023 年 2 月 20 日以降、のサポート `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは非推奨となります。</li></ul> |
+| 新規 [!UICONTROL Visual Experience Composer] Google Chrome 用拡張機能 | 新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] Chrome 用 (VEC) 拡張機能は、Chrome Web Store で入手できます。<br>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。<br>以下のリンクは、Chrome Web Store の 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]<br>（正確なリリース日は決定されます。） | 次の変更点に注意してください。<ul><li>バイナリ指標と最大化指標のサポートを [!UICONTROL Analytics for Target] A4T レポートの対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ</li><li>2023 年 2 月 20 日まで、既存のアクティビティの動作が保持されました。 この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは停止されます</li><li>2023 年 2 月 20 日以降、のサポート `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは非推奨となります。</li></ul> |
 
 * オーディエンスルールの情報が [!UICONTROL Audiences の絞り込み] 情報ウィンドウ。 （TGT-43917）
 * のパフォーマンスを向上しました [!DNL Target] UI ( [ターゲット設定ルールの推奨制限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). （TGT-43675）

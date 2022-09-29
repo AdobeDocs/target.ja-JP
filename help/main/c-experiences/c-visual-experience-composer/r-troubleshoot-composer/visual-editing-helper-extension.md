@@ -3,10 +3,10 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: で一部の Web サイトを確実に開けない理由を見つける [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 この [!UICONTROL ビジュアル編集ヘルパー] ブラウザー拡張機能を使用すると、VEC 内で確実に web サイトを読み込むことができます。
 title: 使用方法 [!UICONTROL ビジュアル編集ヘルパー] 拡張？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 28%
+source-wordcount: '568'
+ht-degree: 25%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 28%
 
    * VEC を使用した Web サイトの読み込みに失敗した場合、 [!UICONTROL ビジュアル編集ヘルパー] ブラウザー拡張機能。
    * at.js または alloy.js が Web サイトにまだ実装されていない場合、拡張機能のインストールを勧めるメッセージが VEC に表示されます。
-
-## この機能に関するその他のヘルプ
-
-* [Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
