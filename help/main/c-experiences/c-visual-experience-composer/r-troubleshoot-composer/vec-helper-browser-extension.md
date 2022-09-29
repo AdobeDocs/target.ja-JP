@@ -4,10 +4,10 @@ description: Visual Experience Composer(VEC) で一部の Web サイトを確実
 title: Visual Experience Composer(VEC) ヘルパー拡張の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 62%
+source-wordcount: '1058'
+ht-degree: 54%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 62%
 
 この [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)Google Chrome 用ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトを読み込み、作成と QA Web エクスペリエンスをすばやくできます。
 
->[!NOTE]
+VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefox を使用する場合、この拡張機能は不要です。
+
+>[!IMPORTANT]
 >
->VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefox を使用する場合、この拡張機能は不要です。
+>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。 詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## VEC で一部の Web サイトを確実に開けない理由
 
@@ -31,7 +33,7 @@ SW は、web ページによってインストールされているドメイン�
 
 SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP（Content-Security-Policy）、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
 
-残念ながら、web リクエストをインターセプトする Chrome 拡張機能 API は、SW によってインターセプトおよび処理されたリクエストを受信しません。したがって、web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたため、web ページが VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
+残念ながら、Web 要求を切り取る Chrome 拡張機能 API は、SW によって傍受および処理された要求を受け取りません。 したがって、Web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたので、Web ページは VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
 
 考えられる回避策として、Chrome 開発者ツール／アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。
 

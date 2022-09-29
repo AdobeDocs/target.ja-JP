@@ -4,14 +4,14 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング
+# に関連する問題のトラブルシューティング [!UICONTROL Visual Experience Composer] および [!UICONTROL 拡張 Experience Composer]
 
 表示の問題や、 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) および [!UICONTROL 拡張 Experience Composer] (EEC) を使用します。
 
