@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 98%
@@ -234,7 +234,7 @@ ht-degree: 98%
          + [拡張 Experience Composer のトラブルシューティング](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [ブラウザーで混在したコンテンツを有効化する](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [ページ修正のシナリオ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
+         + [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Visual Experience Composer 内で動作するカルーセルの作成](c-experiences/c-visual-experience-composer/vec-carousels.md)

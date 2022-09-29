@@ -4,7 +4,7 @@ description: Visual Experience Composer(VEC) で一部の Web サイトを確実
 title: Visual Experience Composer(VEC) ヘルパー拡張の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 54%
@@ -19,7 +19,7 @@ VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefo
 
 >[!IMPORTANT]
 >
->2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。 詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
+>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。 詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## VEC で一部の Web サイトを確実に開けない理由
 
