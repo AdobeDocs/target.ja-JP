@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [エクスペリエンスのパフォーマンスレポート（MVT）](c-reports/experience-performance-report.md)
    + [場所の貢献度レポート（MVT）](c-reports/location-contribution-report.md)
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
-   + [コンバージョン率](c-reports/conversion-rate.md)
    + [CSV ファイル内のデータのダウンロード](c-reports/downloading-data-in-csv-file.md)
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}

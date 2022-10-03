@@ -4,10 +4,10 @@ description: Adobe TargetでのAutomated Personalization Summary レポートの
 title: Automated Personalization Summary レポートの使用方法
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 39%
+source-wordcount: '673'
+ht-degree: 38%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 39%
 
 ![アクティビティレベルレポート](/help/main/c-reports/assets/box_plot_ap.png)
 
-上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[コンバージョン率について](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)を参照してください。
+上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## オファーレベルレポート {#section_CAA6409879E349C6906E2BE8156D87A1}
 

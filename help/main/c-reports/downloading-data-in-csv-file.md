@@ -4,7 +4,7 @@ description: Adobeからデータをダウンロードする方法 [!DNL Target]
 title: レポートデータを CSV ファイルでダウンロードする方法を教えてください。
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -40,7 +40,7 @@ CSV ファイル内のデータをダウンロードするには：
 
 >[!NOTE]
 >
->CSV レポートには、生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力または確認する Excel ファイル [Target で使用される統計指標](/help/main/assets/statistical-calculations.pdf).
+>CSV レポートには、生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。 これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力または確認する Excel ファイル [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 注文の詳細を CSV に書き出す {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

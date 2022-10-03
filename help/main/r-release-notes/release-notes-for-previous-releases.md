@@ -4,7 +4,7 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -2288,7 +2288,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>レポートのユーザーインターフェイスのデザインが一新されました。 </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Target レポートに、古いデータを削除するレポートデータのリセットオプションが追加されました。（TGT-5933） </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>レポートのカウント手法には、参加者（デフォルト）、訪問、アクティビティインプレッションがあります。（TGT-10002） </p> </li> 
-     </ul> </p> <p>詳しくは、<a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">レポート設定</a>と<a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">カウント手法</a>を参照してください。 </p> <p>ダウンロード可能な CSV レポートが次のように強化されました。 </p> <p> 
+     </ul> </p> <p>詳しくは、<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">レポート設定</a>と<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">カウント手法</a>を参照してください。 </p> <p>ダウンロード可能な CSV レポートが次のように強化されました。 </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>オファーレベルの CSV レポートに各オファーに関する詳細情報が含まれるようになりました。（TGT-18995） </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>ダウンロードしたオファーレベルの CSV ファイルに、<span class="wintitle">Automated Personalization </span>レポートのコントロールとターゲットセグメントに関するデータが含まれるようになりました。（TGT-22000） </p> </li> 
@@ -2954,7 +2954,7 @@ at.js を実装する際には、以下のことに注意してください。
   </tr> 
   <tr> 
    <td colname="col1"> 連続型変数に関する Target レポートでの信頼区間の表示 </td> 
-   <td colname="col2"> <p>売上高指標タイプ（RPV、AOV、Sales、Orders）、およびエンゲージメント指標に関する信頼区間の範囲を表示します。 </p> <p>例えば、RPV = 200.00 で信頼区間の範囲 = 50.00 の場合、これは RPV: 200.00 +/- 50.00 と表示されます。 </p> <p>この変更は、A/B、エクスペリエンスターゲット設定および多変量分析テストに適用されます。 </p> <p><a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local"> 信頼性レベルと信頼区間</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>売上高指標タイプ（RPV、AOV、Sales、Orders）、およびエンゲージメント指標に関する信頼区間の範囲を表示します。 </p> <p>例えば、RPV = 200.00 で信頼区間の範囲 = 50.00 の場合、これは RPV: 200.00 +/- 50.00 と表示されます。 </p> <p>この変更は、A/B、エクスペリエンスターゲット設定および多変量分析テストに適用されます。 </p> <p><a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 信頼性レベルと信頼区間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visual Experience Composer の URL ルールの強化 </td> 
@@ -3210,7 +3210,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> バイナリ指標の信頼区間 </td> 
-   <td colname="col2"> <p>Target ベースのデータを使用して更新されたレポートは、制御値と比較した上昇率の信頼区間を表示します。 </p> <p><a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local"> 信頼性レベルと信頼区間</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Target ベースのデータを使用して更新されたレポートは、制御値と比較した上昇率の信頼区間を表示します。 </p> <p><a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 信頼性レベルと信頼区間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ダウンロードした書き出しアクティビティレポートデータ </td> 

@@ -4,10 +4,10 @@ description: Analytics を [!DNL Target] (A4T)。 A4T では、 [!DNL Target]  �
 title: A4T を使用した上昇率と信頼性に関する情報はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 30%
+source-wordcount: '541'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 30%
 
 ## A4T でオフライン計算を実行することはできますか？ {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳細については、「[信頼水準および信頼区間](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)」の「Analytics for Target（A4T）でのオフライン計算の実行」を参照してください。
+A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 上昇率はどのように計算されますか？ {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ A4T でオフライン計算を実行することはできますが、[!DNL Anal
 
 ## 信頼性はどのように計算されますか？ {#section_97DB24D833E742988318CA65DA65DAD9}
 
-信頼水準は確率で、パーセンテージで表され、 `1 - p-value`( `p-value` は t 検定から計算されます。 詳しくは、 [コンバージョン率](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+信頼水準は確率で、パーセンテージで表され、 `1 - p-value`( `p-value` は t 検定から計算されます。 詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 計算指標で上昇率および信頼性が表示できないのはなぜですか？ {#lift-confidence}
 

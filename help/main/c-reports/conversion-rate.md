@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 各エクスペリエンスのコンバージ�
 title: コンバージョン率、上昇率および信頼水準を表示するには、どうすればよいですか？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 53%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 53%
 
 [ダウンロードした CSV レポート](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力または確認する Excel ファイル [Target で使用される統計指標](/help/main/assets/statistical-calculations.pdf).
+これらの計算指標を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力または確認する Excel ファイル [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 53%
 
 A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
 
-A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test)（バイナリ指標ではなく）連続変数の {target=_blank} 計算。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定計算を実行するには、t 統計の分母に使用される平方偏差を計算するために、「平方和」が必要です。 [このドキュメントでは、詳細を説明します](/help/main/assets/statistical-calculations.pdf) 使用される数式の数式。 平方和は、 [!DNL Analytics]. 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
+A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test)（バイナリ指標ではなく）連続変数の {target=_blank} 計算。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定計算を実行するには、t 統計の分母に使用される平方偏差を計算するために、「平方和」が必要です。 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用する数式の詳細について説明します。 平方和は、 [!DNL Analytics]. 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
 
 例えば、訪問者ごとのページビュー数に最適化する場合、指定した期間（おそらく数日）の訪問者ごとの合計ページビュー数のサンプルを書き出します（必要なデータポイントは数千個です）。 そのうえでそれぞれの値を 2 乗し、その総和を算出します（ここでは演算の順番が非常に重要です）。この「平方和」の値は、Complete Confidence Calculator で使用されます。これらの値には、このスプレッドシートの「売上高」セクションを使用します。
 

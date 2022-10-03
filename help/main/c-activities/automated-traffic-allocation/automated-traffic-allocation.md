@@ -4,9 +4,9 @@ description: Adobeでの自動配分アクティビティの使用方法を説�
 title: 自動配分アクティビティとは
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '3567'
+source-wordcount: '3568'
 ht-degree: 50%
 
 ---
@@ -99,7 +99,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] では、
 
 次の詳細指標設定はサポートされていません。 [!UICONTROL カウントを増分], [!UICONTROL リリースユーザ], [!UICONTROL 再入場を許可し、カウントを増分]、および [!UICONTROL 再入場を許可しないユーザーとバーをリリース].
 
-**頻繁な再訪問者は、エクスペリエンスのコンバージョン率を水増しさせる可能性がある。**
+**頻繁な再訪問者は、エクスペリエンスのコンバージョン率を水増しさせる可能性があります。**
 
 エクスペリエンス A を表示した訪問者が頻繁に再訪し、複数回のコンバージョンをおこなうと、エクスペリエンス A のコンバージョン率（CR）は、人為的に増加します。この結果を、訪問者がコンバージョンしたが頻繁に再訪しないエクスペリエンス B と比較します。 その結果、エクスペリエンス A の CR はエクスペリエンス B の CR よりも見た目が良いので、新しい訪問者は A に割り当てられる可能性が高くなります。参加者ごとに 1 回カウントする場合、A の CR と B の CR は同じになります。
 
