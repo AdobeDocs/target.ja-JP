@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [平均上昇率、上昇率範囲および信頼区間](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + 統計的手法 {#statistical-methodology}
+      + [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [自動ターゲット概要レポート](c-reports/auto-target-summary-report.md)
    + [Automated Personalization 概要レポート](c-reports/reports-ap.md)
    + パーソナライゼーションインサイトレポート {#insights}
