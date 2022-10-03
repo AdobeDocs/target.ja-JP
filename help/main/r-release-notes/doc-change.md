@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1268'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月3日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | の日付を更新しました [!DNL Target Standard/Premium] 22.10.1リリース。 |
 | 9月22日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 9 月 28 日）</li></ul> |
 | 9月15日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに関する情報を追加しました。<ul><li>AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））</li></ul> |
 | 9月13日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
