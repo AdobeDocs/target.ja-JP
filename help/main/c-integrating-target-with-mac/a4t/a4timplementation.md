@@ -4,9 +4,9 @@ description: Analytics を実装するために必要な手順に従います。
 title: Analytics を実装する方法 [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 23%
 
 ---
@@ -192,7 +192,7 @@ Adobeでは、実装を簡単にし、異なるシステム間の不一致を解
 
 ### 手順 10： Analytics を Target のレポートソースとして使用するためのオプションを有効にします。
 
-In [!DNL Target]をクリックし、 **[!UICONTROL 管理/Visual Experience Composer]** を選択し、 **[!UICONTROL アクティビティごとに選択]** または **[!UICONTROL Adobe Analytics]** をクリックしてオプションを有効にします。
+In [!DNL Target]をクリックし、 **[!UICONTROL 管理/レポート]** を選択し、 **[!UICONTROL アクティビティごとに選択]** または **[!UICONTROL Adobe Analytics]** をクリックしてオプションを有効にします。
 
 * **[!UICONTROL 「アクティビティごとに選択」を選択すると、各アクティビティの作成時に か かを選択できます。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 「Adobe 」を選択すると、作成したすべてのアクティビティのレポートソースが Analytics に設定されます。]**[!DNL Analytics]
