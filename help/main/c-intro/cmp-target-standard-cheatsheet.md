@@ -4,9 +4,9 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 構成および参照の機能を使用すれば、目的のページに移動してエクスペリエンスを作成できます。
 
-![](assets/vec2.png)
+![vec2 画像](assets/vec2.png)
 
 **Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）から、目的のエクスペリエンスに移動するにはどうすればよいですか？**
 
 ステップ 2 でエクスペリエンス名の前にあるサムネールをクリックすれば、対象のエクスペリエンスに移動できます。
 
-![](assets/thumbnail_experiences.png)
+![thumbnail_experiences 画像](assets/thumbnail_experiences.png)
 
 **以前まで Target Classic を利用していました。特定の用途で自分の mbox を利用することはできますか？**
 

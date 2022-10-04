@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 52%
+source-wordcount: '1379'
+ht-degree: 51%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 52%
    >
    >「[!UICONTROL エクスペリエンスフラグメントと交換]」オプションは、画像には使用できません。画像にこのオプションを使用する場合は、目的の画像を含むコンテナ要素をクリックします。
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list 画像](assets/experience_fragment_list.png)
 
 1. 目的のエクスペリエンスフラグメントを選択し、「**[!UICONTROL 完了]**」をクリックします。
 1. アクティビティの設定を終了します。
@@ -140,7 +140,7 @@ ht-degree: 52%
 
 1. [!DNL Target] の[フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所を選択し、「**[!UICONTROL エクスペリエンスフラグメントを変更]**」を選択して「[!UICONTROL エクスペリエンスフラグメントを選択]」リストを表示します。
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list 画像](assets/experience_fragment_list.png)
 
    この [!UICONTROL エクスペリエンスフラグメント] リストには、 [!DNL AEM] 現在は、内からネイティブで利用可能です。 [!DNL Target].
 

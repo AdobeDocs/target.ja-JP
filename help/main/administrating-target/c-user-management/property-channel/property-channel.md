@@ -5,9 +5,9 @@ title: Enterprise ユーザー権限とは何ですか？また、それらの�
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3171'
 ht-degree: 58%
 
 ---
@@ -105,13 +105,13 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 新しい [!UICONTROL 権限] 機能を使用すると、異なるプロジェクト（「製品プロファイル」と呼ばれる）を [!DNL Adobe Admin Console for Enterprise]) をクリックします。 プロジェクトを使用すると、1 人のユーザーに異なる権限を割り当てて、各プロジェクトに対するユーザーのアクセス権を指定できます。 これらの独特なプロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、次に示すように、顧客は、地域、環境（開発/ステージング/実稼動）、チャネルまたはその他のカスタム条件に基づいて、ユーザーに対する表示、編集および承認アクセスを制限できます。
 
-![](assets/permissions.png)
+![権限画像](assets/permissions.png)
 
 例えば、ある特定のユーザーが米国の Web サイトでの「承認」アクセス権を持つが、欧州のモバイルアプリでは「表示」アクセス権のみ持っているとします。この同じユーザーは、APAC 地域の Web およびモバイルプロパティで提供されるアクティビティについては、表示を含め、あらゆるアクセス権がありません。
 
 現在の [!DNL Target][!UICONTROL  権限]モデルには、次に示すように、3 つの権限の役割（監視者、編集者、承認者）があります。
 
-![](assets/permissions_1.png)
+![permissions_1 image](assets/permissions_1.png)
 
 各役割には、様々なレベルの権限があります。
 
@@ -124,17 +124,17 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 各ユーザーの役割は、次に示すように、[!DNL Target] タグを含むアカウントのすべてのページ、プロパティまたはサイトに適用されることに注意する必要があります。
 
-![](assets/permissions_2.png)
+![permissions_2 image](assets/permissions_2.png)
 
 新しい [!DNL Target][!UICONTROL  権限]モデルには、同じ 3 つの権限の役割（監視者、編集者、承認者）があります。ただし、次に示すように、ユーザーの権限の役割を各ページ、プロパティまたはサイトに個別に割り当てることができます。
 
-![](assets/permissions_3.png)
+![permissions_3 image](assets/permissions_3.png)
 
 この例では、Jan は、米国ホームページおよび米国サイトに対する承認者権限を持ち、フランスサイトに対する監視者権限を持ちます。
 
 さらに、Jan は、 [!DNL Target] 次に示すように、Sarah には表示する権限がありません。
 
-![](assets/permissions_4.png)
+![permissions_4 image](assets/permissions_4.png)
 
 この例では、Jan は、商品ページ、ロシアサイト、キャリアサイトを表示できません。
 
@@ -190,18 +190,18 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 * **ワークスペース（製品プロファイル）ドロップダウンリスト：**&#x200B;ワークスペースドロップダウンリストが、[!UICONTROL アクティビティ]、[!UICONTROL オーディエンス]、[!UICONTROL オファー]の各ページの上部に表示されます。目的のワークスペースを選択して、リストをフィルターし、選択したワークスペースのアイテムのみを表示します。
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_drop-down image](assets/workspace_drop-down.png)
 
 * **アクティビティの作成：** アクティビティを作成すると、現在選択されているワークスペースに作成されます。 最初のダイアログボックスにチャネル選択オプションが表示され、アクティビティ用の目的のチャネルを選択できます。Web、モバイルアプリ、電子メール、その他/API。
 
-   ![](assets/channel_options.png)
+   ![channel_options 画像](assets/channel_options.png)
 
 * **オーディエンスの作成：** オーディエンスを作成すると、現在選択されているワークスペースに作成されます。
 * **オーディエンスリスト：** ワークスペース間でオーディエンスを移動するには、 [!UICONTROL その他のアクション] > [!DNL Move] オプションを [!UICONTROL オーディエンス] ページ。
 * **オファーの作成：** オファーを作成すると、現在選択されているワークスペースに作成されます。
 * **プロパティページ（管理/プロパティ）:** 以下を使用して、 [!UICONTROL 検索] 検索ボックス [!UICONTROL プロパティ] リスト。
 
-   ![](assets/properties_list.png)
+   ![properties_list image](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 

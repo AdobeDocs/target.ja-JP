@@ -4,9 +4,9 @@ description: Adobe Targetのオファーライブラリを使用して、コー�
 title: コードおよび画像オファーを管理するにはどうすればよいですか？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 37%
 
 1. （オプション） **[!UICONTROL タイプ]** タイプ別にオファーをフィルターするドロップダウンリスト (HTMLオファー、 [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [リダイレクトオファー](/help/main/c-experiences/c-manage-content/offer-redirect.md), [リモートオファー](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)、および [フォルダー](/help/main/c-experiences/c-manage-content/create-content-folder.md)) をクリックします。
 
-   ![](assets/offers_filter.png)
+   ![offers_filter 画像](assets/offers_filter.png)
 
 1. （オプション） **[!UICONTROL ソース]** ドロップダウンリストを使用して、ソース (Adobe Target、Adobe Target Classic、Adobe Experience Manager) 別にオファーをフィルタリングできます。
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 
 例えば、次に示すHTMLオファー定義カードは、 [!UICONTROL コンテンツ] リストを開き、情報アイコンをクリックします。
 
-![](assets/offer-card-html.png)
+![offer-card-html 画像](assets/offer-card-html.png)
 
 以下の情報が表示されます。
 
@@ -79,11 +79,11 @@ ht-degree: 37%
 
 「[!UICONTROL オファーの使用状況]」タブをクリックし、各オファー定義のポップアップカードのコードオファーを参照しているアクティビティを表示します。この機能は画像オファーには適用されません。これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。次の情報が含まれます。 [!UICONTROL ライブアクティビティ] および [!UICONTROL 非アクティブなアクティビティ].
 
-![](assets/offer-card-usage.png)
+![offer-card-usage 画像](assets/offer-card-usage.png)
 
 以下に示すリダイレクトオファーのオファー定義カードの場合：
 
-![](assets/offer-card-redirect.png)
+![offer-card-redirect 画像](assets/offer-card-redirect.png)
 
 以下の情報が表示されます。
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 以下に示すリモートオファーのオファー定義カードの場合：
 
-![](assets/offer-card-remote.png)
+![offer-card-remote 画像](assets/offer-card-remote.png)
 
 以下の情報が表示されます。
 

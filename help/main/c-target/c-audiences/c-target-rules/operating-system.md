@@ -4,10 +4,10 @@ description: 特定のオペレーティングシステム (Linux、Macintosh、
 title: オペレーティングシステムに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 47%
 
 次の図に、Macintosh OS を使用する訪問者をターゲットにしたオーディエンスを示します。
 
-![](assets/target_os.png)
+![target_os イメージ](assets/target_os.png)
 
 ## トレーニングビデオ：オーディエンスの作成
 

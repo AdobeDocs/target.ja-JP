@@ -4,9 +4,9 @@ description: Adobe Recommendationsアクティビティの内容を制御して�
 title: Recommendationsで条件を作成する方法を教えてください。
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 53%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 53%
 
 次を選択した場合： **[!UICONTROL 項目ベース]**/ **[!UICONTROL 類似の属性を持つメディア]**&#x200B;の場合は、レコメンデーションを決定する際の特定の項目属性の重要度を増減させるルールを作成できます。 本などの項目については、*ジャンル*、*著者*、*シリーズ*&#x200B;などの属性の重要度を高くして、類似する本を推奨することができます。
 
-![](assets/ContentSimilarity.png)
+![ContentSimilarity 画像](assets/ContentSimilarity.png)
 
 コンテンツの類似性ではキーワードを使用して項目を比較しているため、*メッセージ*&#x200B;や&#x200B;*説明*&#x200B;などの一部の属性により比較に「邪魔」が入ることがあります。このような属性については、ルールを作成して無視することができます。
 
@@ -224,7 +224,7 @@ ht-degree: 53%
 1. レコメンデーションする商品の最小在庫数を設定します。
 1. 特定の基準を満たす場合のみ品目を表示するよう、レコメンデーションを設定します。
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Recs_InclusionRules の画像](assets/Recs_InclusionRules.png)
 
    一覧にある属性のいずれかが、1 つまたは複数の指定の条件を満たす、あるいは満たさない場合のみ、品目を含めるよう指定できます。
 
@@ -254,7 +254,7 @@ ht-degree: 53%
 
    例えば、完全なルールは、「カテゴリには、部分文字列の靴を含む」のようになります。
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting 画像](assets/Recs_AttributeWeighting.png)
 
 1. ルールに割り当てる重みを選択します。
 

@@ -4,9 +4,9 @@ description: Adobeで同じエクスペリエンスのバージョンを異な�
 title: A/B アクティビティで複数のエクスペリエンスバージョンを使用できますか？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL オーディエンスを追加]**」をクリックし、ターゲットにしたい最初のオーディエンスを選択します。各オーディエンスについて繰り返します。
 
-   ![](assets/exp-versions.png)
+   ![exp-versions 画像](assets/exp-versions.png)
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

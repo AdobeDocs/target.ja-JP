@@ -4,10 +4,10 @@ description: Adobeの「 URL にリダイレクト」オプションの使用方
 title: ページを別の URL にリダイレクトすることはできますか？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 リダイレクトオファーを作成する手順は次のとおりです。
 
 1. エクスペリエンスを作成します。
-1. エクスペリエンスの上にマウスポインターを置いて、「URL にリダイレクト」アイコン（![](assets/icon_redirect_url.png)）をクリックします。
+1. エクスペリエンスの上にマウスポインターを置いて、「URL にリダイレクト」アイコン (![icon_redirect_url イメージ](assets/icon_redirect_url.png)) をクリックします。
 
-   ![](assets/exp_actions.png)
+   ![exp_actions 画像](assets/exp_actions.png)
 
 1. URL を入力します。
 1. 必要に応じて、現在のクエリパラメーターを含めるオプションを選択します。

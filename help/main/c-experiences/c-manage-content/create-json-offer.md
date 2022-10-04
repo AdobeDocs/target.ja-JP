@@ -4,9 +4,9 @@ description: Adobeで JSON オファーを作成する方法を説明します [
 title: JSON オファーの作成方法
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 1. **[!UICONTROL 作成]**／**[!UICONTROL JSON オファー]**&#x200B;をクリックします。
 
-   ![](assets/offer-json.png)
+   ![offer-json 画像](assets/offer-json.png)
 
 1. オファー名を入力します。
 1. 「**[!UICONTROL コード]**」ボックスに JSON コードを入力するか貼り付けます。
@@ -137,7 +137,7 @@ adobe.target.getOffer({
 
 使用例：グレースは、オンラインマーケティング担当者がリアルタイムのパーソナライゼーションを提供するために、AEP/統合プロファイルに Target と属性値を共有して欲しいと考えています。 リアルタイム CDP プロファイル属性を使用すると、猶予は、トークン置換を使用して Target オファーに AEP 属性の値を表示できます。 例えば、Sarah は、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 上記の例では、デフォルト値の割り当てはオプションであることに注意してください。
 
@@ -145,4 +145,4 @@ adobe.target.getOffer({
 
 次の項目をフィルターできます。 [!UICONTROL オファー] ライブラリを JSON オファータイプ別に作成する場合は、 **[!UICONTROL タイプ]** 」ドロップダウンリストから、 **[!UICONTROL JSON]** チェックボックス。
 
-![](assets/offer-json-filter.png)
+![offer-json-filter 画像](assets/offer-json-filter.png)

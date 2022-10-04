@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34593'
-ht-degree: 96%
+source-wordcount: '34597'
+ht-degree: 95%
 
 ---
 
@@ -760,7 +760,7 @@ Target Standard／Premium 20.1.1 リリースはメンテナンスリリース�
 | --- | --- |
 | ![Premium バッジ ](/help/main/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。（TGT-33649）<br>[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md#status) を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud ID ライブラリ 4.3.0 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ja)を使用する必要があります。<br>詳しくは、 [at.js 2.x でのクロスドメイントラッキングサポート](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 |
-| Experience CloudID(ECID) ライブラリ 4.3 によるAppleの ITP 2.1 および ITP 2.2 の Target でのサポート | 現在、Target のお客様は、Adobeの CNAME 証明書プログラムを活用することで、Appleの ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、Target が ECID ライブラリ 4.3 とのシームレスな統合を導入し、サーバー側 Cookie を利用して ITP 2.1 および ITP 2.2 を緩和します。Target のお客様は、 [ECID ライブラリ 4.3 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) と Target の JavaScript ライブラリの組み合わせによって、今後の ITP リリースを緩和します。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br>詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。 |
+| Experience CloudID(ECID) ライブラリ 4.3 によるAppleの ITP 2.1 および ITP 2.2 の Target でのサポート | 現在、Target のお客様は、Adobeの CNAME 証明書プログラムを活用することで、Appleの ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、Target が ECID ライブラリ 4.3 とのシームレスな統合を導入し、サーバー側 Cookie を利用して ITP 2.1 および ITP 2.2 を緩和します。Target のお客様は、 [ECID ライブラリ 4.3 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) と Target の JavaScript ライブラリの組み合わせによって、今後の ITP リリースを緩和します。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br>詳しくは、 [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。 |
 
 **機能強化、修正、変更点**
 
@@ -2195,7 +2195,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * [!DNL Target] ユーザーインターフェイスが更新され、[!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用するアクティビティでリダイレクトオファーがサポートされるようになりました。この機能には、まもなく提供される [!DNL at.js] 0.9.6 が必要になります。
 * いくつかの場所で、[!DNL Target] ユーザーインターフェイスが更新されました。
 
-   * レポートおよびアクティビティで、一部のオプション（[!UICONTROL 編集]、[!UICONTROL 共有してフィード]、[!UICONTROL エクスペリエンスの URL を表示]など）にアクセスするには、[その [!UICONTROL 他のオプション]]アイコン（ ![](assets/icon_more_options.png)
+   * レポートおよびアクティビティで、一部のオプション（[!UICONTROL 編集]、[!UICONTROL 共有してフィード]、[!UICONTROL エクスペリエンスの URL を表示]など）にアクセスするには、[その [!UICONTROL 他のオプション]]アイコン（ ![icon_more_options image](assets/icon_more_options.png)
 
       と呼ばれていました）のリリース情報も含まれています。
    * [!UICONTROL オファー]ライブラリで、オファーはリストにカードとして表示されます。その他の小さな UI の変更が[!UICONTROL オファー]ライブラリ UI 全体に加えられました。

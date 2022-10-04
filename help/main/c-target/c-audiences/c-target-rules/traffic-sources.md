@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] を使用して、サイトに導いた検索�
 title: 検索エンジンや参照元サイトに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 64%
+source-wordcount: '270'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 64%
    1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. ドラッグ&amp;ドロップ **[!UICONTROL トラフィックソース]** を audience builder パネルにドラッグします。
 
-   ![](assets/target_traffic_source.png)
+   ![target_traffic_source image](assets/target_traffic_source.png)
 
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 

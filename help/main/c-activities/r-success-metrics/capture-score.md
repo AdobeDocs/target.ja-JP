@@ -4,9 +4,9 @@ description: 「スコアキャプチャのエンゲージメント」指標に�
 title: スコアキャプチャ指標とは
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 48%
 
 次の例は、猫の画像と犬の画像の 2 つのエクスペリエンスをテストするキャンペーンのスコアエンゲージメントの計算方法を示しています。
 
-![](assets/example_score.png)
+![example_score 画像](assets/example_score.png)
 
 この例では、最初の訪問者は猫のエクスペリエンスを体験します。グローバル [!DNL Target] リクエストは、ページの値に基づいてページスコアを渡します。 マーケターが、 `**any Target request**`に設定した場合、訪問スコアは、cat 画像の周囲での表示リクエストの後に表示されたリクエストに対して蓄積されます。
 
@@ -25,7 +25,7 @@ ht-degree: 48%
 
 獲得コストとアフィリエイトリンクの売上高を計算に入れるには、後続のページフローに示すように、adbox とリダイレクターを渡します。この例では、 [!DNL Target] 記事ページのリクエストには、既知の CPM を表すスコアが割り当てられます。
 
-![](assets/example_score2.png)
+![example_score2 画像](assets/example_score2.png)
 
 ## ページスコアの割り当て
 

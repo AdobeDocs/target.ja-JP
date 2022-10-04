@@ -5,10 +5,10 @@ title: Automated Personalization Activities の除外を管理する方法を教
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ AP アクティビティでテストするオファーに合わせてページ�
 
    [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。[!UICONTROL コンテンツを管理]には、除外したデフォルトのオファーを使用して作成されたエクスペリエンスがないことがわかります。
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
 **フォームベースの Experience Composer を使用してデフォルトのコンテンツを除外する方法は次のとおりです。**
 
@@ -130,14 +130,14 @@ AP アクティビティでテストするオファーに合わせてページ�
 
    テキスト／HTML コンテンツの場合：
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
    画像／ビデオコンテンツの場合：
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    [!UICONTROL コンテンツを管理]で、指定したオファーを基に作成されたエクスペリエンスを確認できます。[!UICONTROL コンテンツを管理]には、除外したデフォルトのオファーを使用して作成されたエクスペリエンスがないことがわかります。
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)

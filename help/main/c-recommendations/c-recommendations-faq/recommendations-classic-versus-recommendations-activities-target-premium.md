@@ -4,10 +4,10 @@ description: ' [!DNL Target] Premium の従来の Recommendations Classic アク
 title: ' [!DNL Target] Premium の従来の Recommendations Classic と Recommendations の違い'
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Target Recommendations] には、事前にパッケージ化された一連のルールや設定を含む条件ライブラリが含まれています。[!DNL Recommendations Classic] では、フォームへの入力や大量のルール一覧からの選択によって、各レコメンデーションを手動で構築していました。今は、事前に設定された条件セットから選択するだけで、[!DNL Recommendations] アクティビティを作成できるようになっています。現在もカスタムのレコメンデーションを作成することもできますが、条件ライブラリには、プロセスをシンプルにするために事前に構築され、理解できる言語が使用されているたくさんの一般的な設定が含まれています。こういった事前にパッケージ化された条件は、そのまま使用することも、特別なニーズに合わせてコピーして編集することもできます。
 
-![](assets/overview_criteria.png)
+![overview_criteria 画像](assets/overview_criteria.png)
 
 条件は事前に設定されており、業種、ページタイプ、実装によって分類されています。例えば、小売業界に適用され、製品ページに使用して、特定のカテゴリ（`entity.categoryID` パラメーターで定義されているもの）の製品を表示するための条件を探すことができます。
 
@@ -68,10 +68,10 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Recommendations Classic] には、6 つのターゲット設定オプションがありました。Recommendations アクティビティでは、Target の完全なターゲット設定オプションを利用できます。[!DNL Target] または他の [!DNL Adobe Experience Cloud] オーディエンス（[!DNL Audience Manager] や [!DNL Analytics] など）を使用してオーディエンスを定義し、各デザインを表示するアクティビティ参加者の割合と、コントロールを表示する割合を選択します。
 
-![](assets/overview_targeting.png)
+![overview_targeting 画像](assets/overview_targeting.png)
 
 ## レポート {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 [!DNL Target] の [!DNL Recommendations] では、[!DNL Target] や [!DNL Experience Cloud] の機能を活用する強化されたレポートを利用できます。[!DNL Recommendations] を使用しない場合と比較した上昇分を単に表示するのではなく、[!DNL Recommendations] アクティビティの完全な情報を表示できます。
 
-![](assets/overview_report.png)
+![overview_report image](assets/overview_report.png)

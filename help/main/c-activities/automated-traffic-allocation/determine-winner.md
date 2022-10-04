@@ -4,10 +4,10 @@ description: Adobeでの自動配分 A/B アクティビティの結果の解釈
 title: 自動配分レポートの見方を教えてください。
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 45%
 
 明らかな勝者が宣言されると、[!DNL Target] は、「勝者：エクスペリエンス X」と表示します。
 
-![](assets/winner.png)
+![勝者画像](assets/winner.png)
 
 >[!NOTE]
 >

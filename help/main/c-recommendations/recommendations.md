@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] の Recommendations アクティビティに�
 title: ' [!DNL Target]  Recommendations とは'
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 次の図に、Webページ上のレコメンデーションを示します。
 
-![](assets/velocity_example.png)
+![velocity_example 画像](assets/velocity_example.png)
 
 Recommendations では、サイト上の顧客のアクティビティに応じ、その顧客に製品を提案する方法を決定します。次に例を示します。
 

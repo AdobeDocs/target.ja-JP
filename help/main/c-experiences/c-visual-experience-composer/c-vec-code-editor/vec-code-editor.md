@@ -4,10 +4,10 @@ description: Adobeの変更パネルの使用方法を説明します [!DNL Targ
 title: 自分のページに対してどのような変更を行うことができますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 91%
+source-wordcount: '2185'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 [!UICONTROL 変更]ページには、VEC でページに対しておこなったすべての変更が表示されます。おこなった各変更は、「[!UICONTROL 変更]」リストに別個のアクションまたは要素として表示されます。
 
-![](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods 画像](assets/codeeditor_page_mods.png)
 
 変更ページを使用すると、VEC を使用してコンテンツの配信方法を設定するときに Target で選択されるセレクターに少し変更を加えることができます。コンテンツまたは HTML 属性を変更できます。コードを編集して、mbox 内に HTML オファーと同等のものを作成することもできます。
 
@@ -29,39 +29,39 @@ ht-degree: 91%
 
 * Visual Experience Composer でおこなったアクションの表示。
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange 画像](assets/codeeditor_viewchange.png)
 
 * 既存のアクションの編集。目的の変更の上にマウスポインターを置いて、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    変更を加えます。
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_changechange1 image](assets/codeeditor_changechange1.png)
 
-* 既存のアクションの削除の呼び出しの後におこなわれる場合です。目的の変更の上にマウスポインターを置いて、**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
+* 既存のアクションの削除. 目的の変更の上にマウスポインターを置いて、**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete image](assets/codeditor_delete.png)
 
 * 新しい変更の追加。「**[!UICONTROL 変更を追加]**」または + アイコンをクリックし、以下に示すように変更を指定します。
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    変更が 1 つ作成されたら、Target には、パネルの下部にある「変更を追加」ボタンの代わりに、変更パネルの上部に + アイコンが表示されることに注意してください。
 
 * 変更パネルを Target UI の側辺に沿って垂直に、または下部へ水平にドッキングします。[!UICONTROL ドック]アイコンをクリックして、2 つの設定の間の切り替えをおこないます。
 
-   ![](assets/codeditor_dock.png)
+   ![codeditor_dock image](assets/codeditor_dock.png)
 
    次の図に、画面の下部にドッキングされた変更パネルを示します。
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom 画像](assets/codeeditor_dock_bottom.png)
 
 ## 変更の追加 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. 選択したエクスペリエンスの [!UICONTROL 変更] ページを表示するには、VECで **[!UICONTROL 、変更]**&lt;/>アイコンをクリックします。
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ ht-degree: 91%
 
    [!UICONTROL 変更]ページが開き、左側のビジュアルモードと右側の変更パネルに画面が分割されます。[!UICONTROL ドック]アイコンをクリックして、変更パネルを Target UI の側辺に沿って垂直に、または下部へ水平にドッキングします。次の図のエクスペリエンス A は、これまで変更されたことがありません。
 
-   ![](assets/codeeditor_page.png)
+   ![codeeditor_page image](assets/codeeditor_page.png)
 
    エクスペリエンス B については、これまでの変更が右側の]変更[!UICONTROL パネルに表示されます。
 
-   ![](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods 画像](assets/codeeditor_page_mods.png)
 
 1. 変更を追加するには：
 
@@ -82,14 +82,14 @@ ht-degree: 91%
 
    次のような変更パネルが表示されます。
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. 「**[!UICONTROL 変更タイプ]**」ドロップダウンリストで、目的のタイプを選択します。
 
    | 変更タイプ | 詳細 |
    |--- |--- |
    | CSS セレクター | CSS 要素セレクターボックスで、変更する CSS 要素を指定し、アクションタイプ（「コンテンツを設定」または「属性を設定」）を選択して、必要な情報と目的のコンテンツを入力します。 |
-   | mbox | mbox 名と目的のコンテンツを指定します。<br>**注意**:at.js 2 を使用するページでは、VEC で mbox はサポートされなくなりました。*x*。<br>回避策として：<ul><li>at.js 2.*x*&#x200B;をクリックし、mbox の変更の代わりに CSS セレクターの変更を追加して、mbox が使用していたセレクターにコンテンツを追加します。 </li><li>フォームベースのアクティビティの使用 (mbox と at.js 1.*x* と at.js 2.*x*) をクリックします。</li><li>at.js 1.*x* （VEC 内）</li></ul> |
+   | mbox | mbox 名と目的のコンテンツを指定します。<br>**注意**:at.js 2 を使用するページでは、VEC で mbox はサポートされなくなりました。**。<br>回避策として：<ul><li>at.js 2.*x*&#x200B;をクリックし、mbox の変更の代わりに CSS セレクターの変更を追加して、mbox が使用していたセレクターにコンテンツを追加します。 </li><li>フォームベースのアクティビティの使用 (mbox と at.js 1.*x* と at.js 2.*x*) をクリックします。</li><li>at.js 1.*x* （VEC 内）</li></ul> |
    | カスタムコード | オプションの名前を指定し、「[!UICONTROL セクションに`<HEAD>` コードを追加]」チェックボックスを必要に応じて選択または選択解除して、カスタムコードを追加します。<br>「[!UICONTROL セクションに`<HEAD>` コードを追加]」を選択した場合、カスタムコードは `<head>` セクションに追加され、本文またはページの読み込みイベントを待たずに実行されます。`<script>` および  `<style>` の要素のみを追加します。`<div>` タグなどの要素を追加すると、残りの `<head>` 要素が `<body>` に表示される場合があります。at.js を使用している場合、すべてのオファーは非同期的に配信されます。<br>「[!UICONTROL セクションに`<HEAD>` コードを追加]」の選択を解除した場合、カスタムコードは `<body>` タグの直後に実行されます。すべてのコードを 1 つの `<div>` 内にラップして、DOM 構造を保持します。at.js を使用している場合、すべてのオファーは非同期的に配信されます。<br>**注意**：スクリプトは、非同期で実行されます。つまり、例えば `document.write` や類似のスクリプトメソッドは使用できません。<br>カスタムコードでは、非ビジュアルインターフェイスを使用して、VEC、フォームベースの Experience Composer、HTML オファーエディター内でアクションを表示および編集したり、新規で追加したりできます。パネルでは、エクスペリエンスのコードを見ながら、複雑なエクスペリエンスの構築、既存のエクスペリエンスの調整、問題のトラブルシューティングをおこなうことができます。<br>カスタムコードは、HTML、JavaScript および CSS の使用に慣れた上級ユーザー向けの機能です。コードビューでは、コードを変更して微調整したり、セレクターの問題を修正したりできます。新しいカスタムコードおよびアクションを追加することもできます。カスタムコードを複数追加し、オプションでそれぞれのカスタムコードに名前を付けることができます。<br>**注意**：カスタムコードは、現在、A/B テストおよびエクスペリエンスのターゲット設定（XT）のアクティビティでのみ利用できます。オーバーレイの場合とリダイレクトオファーが適用されている場合、カスタムコードは無効になります。<br>カスタムコードでは、次のような操作をおこなうことができます。<ul><li>ページ上部で実行するカスタムの JavaScript、HTML または CSS の追加</li><li>変更後に VEC によって生成されるコードの表示または編集</li><li>セレクターに対する HTML コンテンツの設定（CSS セレクターのみ）</li><li>HTML 要素に対する属性の設定</li><li>リージョナル mbox に配信するオファーコンテンツの追加</li><li>DOM 準備完了時の置き換え（jQuery 使用）</li><li>DOM 準備完了時の置き換え（jQuery 不使用）（Internet Explorer 8 は非対応）</li><li>DOM ポーリングでの置き換え（「elementOnLoad」プラグイン使用）</li><li>カスタムリダイレクト</li></ul>カスタムコードには次の特長があります。<ul><li>わかりやすさを考慮した行番号</li><li>HTML オファーの構文の誤りを防ぐのに役立つ構文情報</li><li>複数のカスタムコードを作成し、オプションでそれぞれに名前を指定できる機能複数のカスタムコードを作成すると、今後のデバッグが容易になります。例えば、複数の変更をおこなう単一のカスタムコードを作成するのではなく、変更ごとに別個のカスタムコードを作成し、それぞれにわかりやすい名前を付けることができます。別個のカスタムコードにすることで、変更がモジュール化され、扱いやすくなります。アクティビティで複数のカスタムコードを実行する場合は、作成した順に実行されるとは限らないことに注意してください。</li></ul>変更パネルは、ビジュアルモードとコードモードの画面に分割されます。両方のモードが同期された状態になります。ビジュアルモードで変更をおこなうと、コードビューの対応する行が変更されます。同様に、コードビューで変更を確定するたびに、ビジュアルエクスペリエンスに変更が表示されます。コードビューで任意の行をクリックすると、ビジュアルページで対応する要素が選択されます。<br>カスタムコードでは、HTML、スクリプトおよびスタイルをサポートしています。有効な HTML コードまたはスクリプトを追加または編集できます。 |
 
 1. 必要に応じて、さらに変更を加えます。
@@ -104,7 +104,7 @@ ht-degree: 91%
 
 カスタムコードパネルは、通常、ページの上部に JavaScript または CSS を追加するために使用されます。
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom image](assets/codeeditor_custom.png)
 
 「**[!UICONTROL カスタムコード]**」タブを使用して、次のことをおこなうことができます。
 
@@ -215,7 +215,7 @@ Target では、Target で変更されたページ上の要素に対して値「
 
 参照モードを使用して存在しないセレクターにアクセスしている可能性がります。警告メッセージに示されているように、コンテンツが想定どおりに表示されるようにするために、各エクスペリエンスを削除してから作成し直すことをお勧めします。
 
-![](assets/code_editor_2.png)
+![code_editor_2 image](assets/code_editor_2.png)
 
 ***要素を削除すると、「このアクションを削除すると、後続のアクションに影響する場合があります」という警告が表示されます。これはどういう意味ですか？*** 
 

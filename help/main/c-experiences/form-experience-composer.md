@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 非視覚的なエクスペリエンス作成�
 title: フォームベースの Experience Composer の使用方法を教えてください。
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 45%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 45%
 
    この [!UICONTROL フォームベースの Experience Composer] が開きます。
 
-   ![](assets/location_refinements.png)
+   ![location_refinements 画像](assets/location_refinements.png)
 
    この画面は、 [!UICONTROL Recommendations] アクティビティ。 [!UICONTROL Recommendations アクティビティには、エクスペリエンスは含まれません。]
 
@@ -46,13 +46,13 @@ ht-degree: 45%
 
 1. クリック **[!UICONTROL 絞り込み条件を追加]**、1 つ以上を選択 [audience](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) このアクティビティの場合は、 **[!UICONTROL 完了]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_refinements_2 image](assets/location_refinements_2.png)
 
    内 [!UICONTROL フォームベースの Experience Composer]の絞り込み条件は、完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが、 [アクティビティのみのオーディエンス](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. その場所に表示するコンテンツのタイプを選択します。
 
-   ![](assets/form_content.png)
+   ![form_content image](assets/form_content.png)
 
 1. 選択したコンテンツタイプに対して、コンテンツを指定します。
 
@@ -96,11 +96,11 @@ ht-degree: 45%
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
 
-   ![](assets/change_criteria.png)
+   ![change_criteria イメージ](assets/change_criteria.png)
 
    Target の 3 つの手順から成るガイド付きワークフローのターゲット設定ページから：
 
-   ![](assets/change_criteria_2.png)
+   ![change_criteria_2 イメージ](assets/change_criteria_2.png)
 
    **オファーの決定を追加：**
 

@@ -4,10 +4,10 @@ description: Adobeの多変量分析テスト (MVT) アクティビティで各�
 title: 多変量分析テスト (MVT) のエクスペリエンスをプレビューする方法
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 
    すべてのエクスペリエンスのリストが表示されます。
 
-   ![](assets/preview.png)
+   ![プレビュー画像](assets/preview.png)
 
 1. リストでエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
 

@@ -1,12 +1,12 @@
 ---
 keywords: analytics トラッキングサーバー；A4T;Adobe Experience Cloudデバッガー；Adobe Experience Platformデバッガー；レポートソース；開発者ツール
-description: 'Analytics を使用するアクティビティ用に Analytics トラッキングサーバーを指定する方法を説明します。 [!DNL Target] (A4T) を使用します。 '
+description: Analytics を使用するアクティビティ用に Analytics トラッキングサーバーを指定する方法を説明します。 [!DNL Target] (A4T) を使用します。
 title: Analytics トラッキングサーバーの使用方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 22%
 
 1. クリック **[!UICONTROL Analytics]** をクリックします。
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ の画像](assets/Screen_DebuggerTrackServ.png)
 
    この [!DNL Analytics] トラッキングサーバーが [!UICONTROL ホスト名] デバッガーの「 」セクションに表示されます。
 

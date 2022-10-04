@@ -4,9 +4,9 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
@@ -81,12 +81,12 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 
       * ソース URL の条件を「**[!UICONTROL Equals（等しい）]**」を「**[!UICONTROL Contains（含む）]**」に変更し、VEC で読み込もうとするアクティビティの URL を入力します。
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension image](assets/chrome_extension.png)
 
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/requestly.png)
+   ![要求画像](assets/requestly.png)
 
    これで、Visual Experience Composer でページをすばやく読み込むことができるはずです。
 
@@ -101,7 +101,7 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 1. 「**[!UICONTROL 追加]**」をクリックします。
 1. 「**[!UICONTROL Start（開始）]**」をクリックします。
 
-![](assets/firefox_extension.png)
+![firefox_extension image](assets/firefox_extension.png)
 
 拡張機能を設定したら、Target を開きます。たとえ拡張 Experience Composer を無効にしていても、Visual Experience Composer でページを読み込めるようになっているはずです。
 

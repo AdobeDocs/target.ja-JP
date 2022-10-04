@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] Recommendations アクティビティに関す�
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 [!UICONTROL 非互換の条件をフィルター]設定にアクセスするには、[!UICONTROL Recommendations]／[!UICONTROL 設定]をクリックします。
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter image](assets/recs_settings_filter.png)
 
 [!UICONTROL 非互換の条件をフィルター]設定が有効になっていない場合、 [!DNL Target]では、アルゴリズムピッカーに表示されるアルゴリズムのフィルタリングはおこなわれず、すべてのアルゴリズムが表示されます。
 
@@ -110,7 +110,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 [!UICONTROL 非互換の条件をフィルター]設定が有効になっている場合でも、条件の選択時に「[!UICONTROL 互換性あり]」チェックボックスをオフにすると、互換性のないアルゴリズムを表示できます。
 
-![](assets/compatible_checkbox.png)
+![compatible_checkbox 画像](assets/compatible_checkbox.png)
 
 [!DNL Target] で「[!UICONTROL 互換性あり]」チェックボックスが表示されない特殊なケースは次のとおりです。
 
@@ -126,7 +126,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 * コレクションを再保存し、数値が更新されるかどうかを確認します。再保存すると、コレクションは、そのコレクションを使用するすべてのアルゴリズムを再実行します。
 * 適切な環境にいるか確認します。確認のため、[!DNL /target/products.html#recsSettings] に移動してください（以下を参照）。
 
-   ![](assets/product_catalog.png)
+   ![product_catalog 画像](assets/product_catalog.png)
 
 * インデックスが最新か確認します。[!DNL /target/products.html#productSearch]に移動し、何時間前にインデックスが作成されたかを確認します（例：「3 時間前にインデックス作成」）。必要に応じてインデックスを更新できます。
 * エンティティがコレクションのルールに一致しなくなる変更をフィードまたはデータレイヤーに加えていないか確認します。大文字と小文字が一致しているかチェックしてください（大文字と小文字は区別されます）。
@@ -139,13 +139,13 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 「標準の属性の重み付け」は、コンテンツの類似性を含むほぼすべての条件タイプに適用されます。このタイプの重み付けでは、特定の属性値により多くの重みが適用されます。次の例では、出力レコメンデーションで、Nike 製品の重みが大きくなります。
 
-![](assets/attribute_weighting_example.png)
+![attribute_weighting_example image](assets/attribute_weighting_example.png)
 
 「コンテンツの類似性用の属性の重み付け」は、コンテンツの類似性の条件のみに適用されます。
 
 このタイプの重み付けはより動的で、現在の「レコメンデーションキー」（現在表示されている品目）に基づきます。次の例（ブランド x 16）では、Nike のスニーカーを閲覧していた訪問者には、Nike の競合他社のスニーカーよりも、Nike の他の製品がレコメンデーションされる可能性が高くなります。Adidas のスニーカーを閲覧していた訪問者には、Adidas の製品がレコメンデーションされる可能性が高くなります。
 
-![](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## [!DNL Target] でレコメンデーションを表示できないことがあるのはなぜですか？ {#section_DB3F40673AED42228E407C05437D99E9}
 

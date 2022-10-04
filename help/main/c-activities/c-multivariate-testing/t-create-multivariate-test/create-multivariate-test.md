@@ -4,9 +4,9 @@ description: 'Adobeでの Visual Experience Composer(VEC) の使用方法を説�
 title: 多変量分析テストの作成方法を教えてください。
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 87%
 
 ---
@@ -88,11 +88,11 @@ ht-degree: 87%
 
    以下の図は、アクティビティに十分なトラフィックがないことを示しています。
 
-   ![](assets/estimator.png)
+   ![推定画像](assets/estimator.png)
 
    以下の図は、アクティビティに十分なトラフィックがないことを示しています。
 
-   ![](assets/estimator2.png)
+   ![estimator2 image](assets/estimator2.png)
 
 1. クリック **[!UICONTROL 次へ]** 先に進む [!UICONTROL ターゲット設定] ページ。
 

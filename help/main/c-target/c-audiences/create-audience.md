@@ -4,9 +4,9 @@ description: カスタマイズしたオーディエンスを作成し、 [!DNL 
 title: オーディエンスを構築する方法を教えてください。
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 61%
 
 1. 上部のメニューバーで「**[!UICONTROL オーディエンス]**」をクリックします。
 
-   ![](assets/audiences_list.png)
+   ![audiences_list 画像](assets/audiences_list.png)
 
 1. 次の [!UICONTROL オーディエンス] リスト、クリック **[!UICONTROL オーディエンスを作成]**.
 

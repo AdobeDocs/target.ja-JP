@@ -4,10 +4,10 @@ description: 2 つのプロファイル属性を比較するためのオーデ�
 title: 2 つのプロファイル属性を比較して Audiences で使用できますか？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 58%
+source-wordcount: '431'
+ht-degree: 59%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 58%
 
 1. 最初の属性と比較する追加属性を選択します。
 
-   ![](assets/propensity_score_4.png)
+   ![propensity_score_4 image](assets/propensity_score_4.png)
 
 1. 「 **[!UICONTROL 完了]**」をクリックします。
 

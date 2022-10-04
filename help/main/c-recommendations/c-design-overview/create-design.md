@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] Recommendationsのデザインは、デフォ�
 title: Recommendationsでデザインを作成する方法を教えてください。
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 32%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 32%
 
 1. 作成するデザインのカードの上にマウスを移動し、 **[!UICONTROL コピー]** アイコン
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign の画像](assets/Card_CopyDesign.png)
 
    この [!UICONTROL デザインを作成] ダイアログボックスが表示されます。
 
-   ![](assets/createDesign.png)
+   ![createDesign 画像](assets/createDesign.png)
 
 1. 内 **[!UICONTROL 情報]** パネル、追加する **[!UICONTROL コンテンツ名]** デザインカードに表示するプレビュー画像（オプション）
 
@@ -104,7 +104,7 @@ ht-degree: 32%
 
 1. 「HTML デザイン」オプションがオフになっていることを確認します。
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. 次のコードは、デザインに貼り付けることのできるコードの例です。
 
@@ -169,7 +169,7 @@ ht-degree: 32%
 
 アルゴリズムを実行して結果が得られたら、応答は次のようになります。
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation 画像](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## JSON オブジェクトに関するその他のヒントとテクニック {#section_C305673C68944749969DB239E3221DC2}
 

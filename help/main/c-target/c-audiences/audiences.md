@@ -4,9 +4,9 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1505'
 ht-degree: 21%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 21%
 
 オーディエンスが [他のオーディエンスと組み合わされる](/help/main/c-target/combining-multiple-audiences.md) と結合オーディエンスは、アクティビティの作成に使用されます。両方のオーディエンスの使用情報には、新しく作成されたアクティビティが表示されます。
 
-![](assets/audience_definition_list_usage.png)
+![audience_definition_list_usage image](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

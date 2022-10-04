@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] は、 Automated Personalization(AP) アクテ�
 title: 方法 [!DNL Target] ランダムフォレストアルゴリズムを使用しますか？
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Target の Automated Personalization と自動ターゲットで使用されて�
 
 この分割によって、デシジョンツリーの第一の層が次のように形成されます。
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1 image](assets/decsion_tree_1.png)
 
 続いて、「最も予測的な変数は何か？」という質問が考慮されます。この例では変数が 2 つしかないので、この質問の答えは性別となります。同様の処理がおこなわれ、*それぞれのブランチ内*&#x200B;のデータが分割されます。まず、11111、22222、33333 のブランチを見てみましょう。これらの郵便番号で、男性と女性でコンバージョン率に差異がある場合は、リーフは男性と女性の 2 つになり、このブランチの処理はそれで完了します。44444 と 55555 のもう一方のブランチでは、女性と男性でコンバージョン率に統計的差異はなかったとします。この場合、1 つ目のブランチが最後の分割となります。
 
 この例のデシジョンツリーは、最終的に次のようになります。
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2 image](assets/decsion_tree_2.png)
 
 ## ランダムフォレストではデシジョンツリーをどのように使用しますか？ {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Target の Automated Personalization と自動ターゲットで使用されて�
 
 次の図には、自動ターゲットまたは Automated Personalization アクティビティでモデルが構築される仕組みが簡単にまとめられています。
 
-![](assets/random_forest_flow.png)
+![random_forest_flow 画像](assets/random_forest_flow.png)
 
 1. Target がエクスペリエンス／オファーをランダムに配信しながら訪問者のデータを収集します。
 1. 収集データがまとまった量になると、特徴量が作成されます。

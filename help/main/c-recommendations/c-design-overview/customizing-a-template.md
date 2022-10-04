@@ -4,10 +4,10 @@ description: オープンソースの Velocity デザイン言語を使用して
 title: Velocity を使用してデザインをカスタマイズする方法
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Velocity 変数について詳しくは、[https://velocity.apache.org/engine/re
 
 例えば、デザインに次のような内容を表示するとします。
 
-![](assets/velocity_example.png)
+![velocity_example 画像](assets/velocity_example.png)
 
 以下のコードが使用できます。
 
@@ -203,7 +203,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 結果は次のようなデザインになります。1 列が重要品目を表示しています。
 
-![](assets/rec_key.png)
+![rec_key 画像](assets/rec_key.png)
 
 [!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 

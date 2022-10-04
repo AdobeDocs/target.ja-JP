@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ Web サイトの CSP ヘッダーによって Target ライブラリがブロッ
 >
 >以下の情報に加えて、Google Chrome 用 [Adobe Target VEC ヘルパーブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を使用できます。
 
-![](assets/cps_headers.png)
+![cps_headers 画像](assets/cps_headers.png)
 
 次のように、Requestly ルールを設定して CSP ヘッダーを削除することで対処できます。
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 画像](assets/cps_headers_2.png)
 
 VEC 内でのリソースの読み込みを妨げているヘッダーに、同様の Requestly ルールを設定できます。
 

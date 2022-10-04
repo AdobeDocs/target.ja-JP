@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 38%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 38%
 
    サイト内を移動して他のページを確認すると、 [!UICONTROL アクティビティ QA] モードはスティッキーです。 この状況は、バージョン 2 の at.js 実装に当てはまります。*x* または後で。 at.js 1.*x* 実装の場合、この状況は、訪問者のブラウザーでサードパーティ Cookie がブロックされない場合にのみ当てはまります。
 
-1. アクティビティリンクの URL から生成されたレポートを表示するには、アクティビティの **[!UICONTROL レポート]** ページで、 **[!UICONTROL 設定]** アイコン (  ![](assets/icon_gear.png) ) を選択し、「 **[!UICONTROL QA モードトラフィック]** から **[!UICONTROL 環境]** 」ドロップダウンリストから選択できます。
+1. アクティビティリンクの URL から生成されたレポートを表示するには、アクティビティの **[!UICONTROL レポート]** ページで、 **[!UICONTROL 設定]** アイコン (  ![icon_gear 画像](assets/icon_gear.png) ) を選択し、「 **[!UICONTROL QA モードトラフィック]** から **[!UICONTROL 環境]** 」ドロップダウンリストから選択できます。
 
 ## 注意点 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

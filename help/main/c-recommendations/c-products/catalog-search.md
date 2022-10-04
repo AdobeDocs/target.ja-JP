@@ -4,9 +4,9 @@ description: Recommendationsカタログ検索を使用して、製品やコン�
 title: Recommendations Catalog 検索の使用方法
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 22%
 
 1. （オプション）検索フィールドで下向き矢印をクリックしたときに表示されるオプションメニューから検索オプションを選択して、検索を絞り込むことができます。
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenu 画像](assets/searchproductsmenu.png)
 
    次の検索オプションがあります。
 

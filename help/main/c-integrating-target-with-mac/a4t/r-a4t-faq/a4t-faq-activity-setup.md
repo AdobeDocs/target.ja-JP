@@ -4,10 +4,10 @@ description: Analytics を使用した場合のアクティビティの設定に
 title: A4T を使用したアクティビティ設定に関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 33%
+source-wordcount: '565'
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 1. In [!DNL Target]をクリックし、 **[!UICONTROL 管理]**.
 1. 「**[!UICONTROL レポートに使用する Experience Cloud ソリューション]**」ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
 
-![](assets/select-per-activity.png)
+![アクティビティごとに選択画像](assets/select-per-activity.png)
 
 アクティビティを作成および編集する&#x200B;**[!UICONTROL 目標と設定]**&#x200B;画面で、**[!UICONTROL レポートソース]**&#x200B;ドロップダウンリストが有効になります。
 

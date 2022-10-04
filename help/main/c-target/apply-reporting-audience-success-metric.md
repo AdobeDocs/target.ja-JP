@@ -4,10 +4,10 @@ description: 成功指標を選択する方法については、 [!DNL Adobe Tar
 title: 成功指標にレポート用オーディエンスを適用できますか？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 
 すべてのアクティビティについて、[!UICONTROL 適用先]ドロップダウンリストを使用して、オーディエンスを成功指標に適用できます。これにより、指標に達した後および後続のアクションについてのレポート値を表示できます。
 
-![](assets/success_metric.png)
+![success_metric 画像](assets/success_metric.png)
 
 例えば、ホームページから入ってコンバージョンページに到達するすべての訪問者に対するアクティビティを作成したとします。さらに、コンバージョンの前に $50 を超える商品をカートに追加した訪問者をドリルダウンするとします。
 
@@ -32,4 +32,4 @@ ht-degree: 54%
 
 レポートでセグメント化を表示するには、目的のオーディエンスを [!UICONTROL 対象ユーザ] アクティビティのレポートのドロップダウンリスト。
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown image](assets/reporting_audience_dropdown.png)

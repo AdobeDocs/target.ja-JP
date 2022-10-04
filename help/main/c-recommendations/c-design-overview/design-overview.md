@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] Recommendationsを使用して、レコメン�
 title: Recommendationsのデザインの使用方法
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 32%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 32%
 
 [!DNL Target] では、次の画像のように、レコメンデーションの詳細なデザインを配信できます。このデザインには HTML、JavaScript、CSS などが含まれます。このデザインは、4 x 1 デザインと呼ばれます。1 行に 4 つのスペース。
 
-![](assets/velocity_example.png)
+![velocity_example 画像](assets/velocity_example.png)
 
 Target では、電子メールメッセージ、IoT（モノのインターネット）デバイス、コンソール、音声サービス（Amazon Alexa または Google Home）の用途で利用できる JSON オブジェクトとしてレコメンデーションを送信することもできます。
 

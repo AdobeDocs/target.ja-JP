@@ -5,10 +5,10 @@ title: カスタムエンティティ属性の使用方法
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 カスタムエンティティ属性には、単一値または複数値を設定できます。エンティティ属性値は製品表示で表示されます。
 
-![](assets/multi-value_product.png)
+![multi_value_product 画像](assets/multi-value_product.png)
 
 単一値のカスタムエンティティ属性は、単一値の定義済みエンティティ属性と同じように構成されます。
 
@@ -93,11 +93,11 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 この生データの CSV は次のような形式です。
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw 画像](assets/multi-value_example_raw.png)
 
 このカタログはスプレッドシートでは次のようになります。
 
-![](assets/multi-value_example_excel.png)
+![multi_value_excel_image](assets/multi-value_example_excel.png)
 
 スプレッドシートソフトウェアは、.csv 形式に変換する際に、セルの内容に二重引用符を追加します。これにより、セル内のコンマが列区切り記号として認識されることを防ぎます。また、複数値のカスタム属性に含めた JSON 文字列値の前後にも二重引用符が追加されます。このため、生データのファイルを直接編集することはお勧めできません。次に例を示します。
 

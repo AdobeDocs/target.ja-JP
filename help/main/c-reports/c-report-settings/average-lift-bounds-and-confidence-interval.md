@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] レポート。アクティビティの上昇�
 title: 平均上昇率、上昇率範囲および信頼区間を表示するには、どうすればよいですか？
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ ht-degree: 62%
 
 上昇率範囲の計算式は次のとおりです。
 
-![](assets/lift_diagram.png)
+![lift_diagram 画像](assets/lift_diagram.png)
 
 上昇率範囲の数値の算出には、他にもいくつかの要素が考慮されます。
 
 * **t- value:** 当社95%信頼水準の重要な統計は1.96です。 [t- values](https://en.wikipedia.org/wiki/T-statistic)の詳細については、を参照してください。
 * **上昇率の平方偏差：**&#x200B;上昇率の平方偏差を求めるためには、エクスペリエンス N の成功指標の標準誤差と、コントロールエクスペリエンスの成功指標の標準誤差が必要です。計算式は次のとおりです（成功指標をコンバージョンとした場合の例です）。
 
-   ![](assets/lift_variance.png)
+   ![lift_variance 画像](assets/lift_variance.png)
 
 * **コンバージョン率／成功指標の標準誤差：**&#x200B;標準誤差の算出方法は、次のように、エクスペリエンス N とコントロールで同じです（成功指標をコンバージョンとした場合の例です）。詳しくは、[標準誤差の詳細](https://en.wikipedia.org/wiki/Standard_error)を参照してください。
 
-   ![](assets/standard_error.png)
+   ![standard_error 画像](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ ht-degree: 62%
 
 **エクスペリエンス A の標準誤差（コントロール）**
 
-![](assets/standard_error_A.png)
+![standard_error_A 画像](assets/standard_error_A.png)
 
 **エクスペリエンス B の標準誤差**
 
-![](assets/standard_error_B.png)
+![standard_error_B 画像](assets/standard_error_B.png)
 
 **エクスペリエンス B の上昇率の平方偏差**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B 画像](assets/lift_variance_B.png)
 
 **エクスペリエンス B の上昇率範囲**
 
 エクスペリエンス B の推定上昇率は次のとおりです。
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B 画像](assets/lift_bounds_B.png)
 
 以上の計算から、エクスペリエンス B の上昇率範囲は次のようになります。
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2 画像](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

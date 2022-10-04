@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 各エクスペリエンスのコンバージ�
 title: コンバージョン率、上昇率および信頼水準を表示するには、どうすればよいですか？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 
 次の図では、サンプルのアクティビティで使用されるチャートのヘッダーを示しています。これには、[!UICONTROL コンバージョン率]、[!UICONTROL 上昇率]、[!UICONTROL 信頼性]のヘッダーがあります。
 
-![](assets/conversion-rate.jpg)
+![コンバージョン率画像](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 53%
 
 例えば、次のようなコンバージョン率レポート列があるとします。
 
-![](assets/conversion-rate-detail.jpg)
+![conversion-rate-detail 画像](assets/conversion-rate-detail.jpg)
 
 最初の行は、コントロールエクスペリエンスです。15％のコンバージョン率で、3 つのコンバージョンがあることを表しています。2 行目のエクスペリエンス B は、15％のコンバージョン率で、プラスマイナス 15.65％の信頼区間、3 つのコンバージョンがあることを表しています。
 
@@ -62,7 +62,7 @@ ht-degree: 53%
 
 信頼性が 99.995％以上の場合は、100.00％に切り上げられます。
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report 画像](assets/conf_report.png)  ![conf_report_detail 画像](assets/conf_report_detail.png)
 
 ビジネス上の意思決定をおこなうのは、サンプルサイズが十分に大きくなり、1 つ以上のエクスペリエンスの信頼性を表す 4 本のバーが一定した値を一定期間維持し、安定した結果が得られるまで待つようにしてください。
 
@@ -75,7 +75,7 @@ ht-degree: 53%
 
 この *信頼区間* は、指標の真の値を特定の信頼水準で見つけ出す、一連の推定値です。 Target では、常に 95%の信頼区間が表示されます。 信頼区間は、コンバージョン率列にライトグレーの +/- のパーセンテージとして表示されます。下の例では、エクスペリエンス B の上昇率の信頼区間はプラスマイナス 15.65％です。
 
-![](assets/conversion_rate.png)
+![conversion_rate 画像](assets/conversion_rate.png)
 
 **例：** エクスペリエンスの観測 RPV は 10 ドルで、95%です **信頼区間** は 5 ～ 15 ドルです。 当社にとっては、真の RPV は$12 です。 次に、このテストを複数回実行した場合、計算した信頼区間の 95%の時間に、 _true_ $12 の RPV の値。
 

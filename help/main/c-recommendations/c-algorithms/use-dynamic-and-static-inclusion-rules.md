@@ -5,10 +5,10 @@ title: Recommendationsで動的および静的インクルージョンルール�
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 [条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)時に、**[!UICONTROL インクルージョンルール]**&#x200B;の「**[!UICONTROL フィルタールールを追加]**」をクリックします。 
 
-![](assets/inclusion_options_new.png)
+![inclusion_options_new image](assets/inclusion_options_new.png)
 
 利用できるオプションは、選択した業種とレコメンデーションキーによって変わります。
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 [プロモーションの作成](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)時に、「**[!UICONTROL 属性別にプロモート]**」、「**[!UICONTROL フィルタールールを追加]**」の順にクリックします。
 
-![](assets/inclusion_options.png)
+![inclusion_options 画像](assets/inclusion_options.png)
 
 ## フィルターのタイプ {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ ht-degree: 17%
 
 以前は、値が空の場合は何も結果が返されませんでした。次の図のように、「*x* が空の場合」ドロップダウンリストを使用することで、条件に空の値があった場合に実行する処理を選択できます。
 
-![](assets/empty_value.png)
+![empty_value 画像](assets/empty_value.png)
 
-処理を選択するには、歯車アイコン（![](assets/icon_gear.png)）にマウスポインターを置いてから、目的の処理を選択します。
+処理を選択するには、歯車アイコン (![icon_gear 画像](assets/icon_gear.png)) をクリックして、目的のアクションを選択します。
 
 | アクション | 利用できるマッチング | 詳細 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 17%
 >
 >データタイプが異なる属性に対して「次に等しい」および「等しくない」演算子を使用した動的な条件またはプロモーションでは、実行時に互換性がない可能性があります。用途 [!UICONTROL 値], [!UICONTROL 余白], [!UICONTROL 在庫]、および [!UICONTROL 環境] の値は、左側に事前定義済みの属性またはカスタム属性がある場合は、右側に賢明に表示されます。
 
-![](assets/left_right.png)
+![left_right 画像](assets/left_right.png)
 
 以下の表に、効果的なルールと実行時に互換性のない可能性のあるルールを示します。
 

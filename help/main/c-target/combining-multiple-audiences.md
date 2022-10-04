@@ -4,10 +4,10 @@ description: 複数のオーディエンス (Adobe Experience Cloudのオーデ�
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成することはできますか？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 67%
+source-wordcount: '960'
+ht-degree: 66%
 
 ---
 
@@ -55,7 +55,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
       例えば、前の例で、Safari ユーザーを結合オーディエンスに含める場合を考えてみます。以下の例のように、「Safari ブラウザー」オーディエンスを検索して、右側の「Firefox ブラウザー」ボックスにドラッグします。
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![combine_multiple_audiences3 の画像](assets/combine_multiple_audiences3.png)
 
       2 つのブラウザータイプオーディエンスの間の演算子は「AND」になっています。を選択します。 [!UICONTROL および] 」ドロップダウンリストから「OR」に変更して、Firefox または Safari を使用する新規訪問者の新しい結合オーディエンスを作成します。 すべての潜在的なオーディエンスメンバーを除外するルールを作成しないように注意してください。例えば、Firefox と Safari を同時に使用してページに訪問することはできません。
 
@@ -65,7 +65,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
    1. ルールに除外を追加するには、 **[!UICONTROL 除外]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![combine_multiple_audiences3a 画像](assets/combine_multiple_audiences3a.png)
 
       オーディエンスをドラッグ&amp;ドロップします。
 
@@ -86,12 +86,12 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 1. [アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![combine_multiple_audiences4 画像](assets/combine_multiple_audiences4.png)
 
 1. 歯車アイコンをクリックし、「**[!UICONTROL オーディエンスターゲティングを追加]**」をクリックします。
 1. 「**[!UICONTROL オーディエンス／ターゲット条件を追加]**」リンクをクリックして、[!UICONTROL オーディエンスを選択]ダイアログボックスを表示します。
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![combine_multiple_audiences5 画像](assets/combine_multiple_audiences5.png)
 
 1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 
@@ -101,7 +101,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
 1. While editing or creating an[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![combine_multiple_audiences6 の画像](assets/combine_multiple_audiences6.png)
 
 1. 「アクティビティの作成時に結合オーディエンスを作成」の[手順 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) を実行して結合オーディエンスを作成します。
 

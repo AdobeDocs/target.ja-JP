@@ -4,9 +4,9 @@ description: Adobeでのリモートオファーの使用方法を説明しま�
 title: リモートオファーを作成する方法を教えてください。
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 47%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 47%
 
 オファーはページのレンダリング後に実行されます。非表示の iframe でデータを収集し、フレームからコピーして、ページに挿入し、渡された値を読み込みます。
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2 image](assets/remote_offer_howitworks_2.jpeg)
 
 ## リモートオファー選択のマトリックス {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

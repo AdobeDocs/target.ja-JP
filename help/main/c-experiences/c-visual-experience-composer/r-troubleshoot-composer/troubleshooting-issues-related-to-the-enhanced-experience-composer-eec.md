@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 40%
+source-wordcount: '469'
+ht-degree: 36%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 40%
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error 画像](assets/EEC_error.png)
 
 このエラーメッセージが表示される理由と、問題の解決方法は次のとおりです。
 
@@ -56,17 +56,17 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 1. Firefox で対象の Web サイトを開きます。
 1. ブラウザーのアドレスバーにある&#x200B;**[!UICONTROL サイトの情報を表示します]**&#x200B;アイコンをクリックします。
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info 画像](assets/firefox_more_info.png)
 
 1. **[!UICONTROL 接続の詳細を表示]**／**[!UICONTROL 詳細を表示]**&#x200B;をクリックします。
 
-   ![](assets/firefox_more_info_2.png)
+   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
 
 1. 「技術情報」の下にある TLS バージョンを確認します。
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
 
-1. Web サイトが TLS 1.0 を示している場合、Target の TLS サポートポリシーの詳細については、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} を参照してください。 現在の状況（2018 年 9 月 12 日まで有効）を解決するには、{target=_blank} までお問い合わせください。 [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) を参照してください。
+1. Web サイトが TLS 1.0 を表示している場合は、 [TLS(Transport Layer Security) 暗号化の変更](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} を参照してください。 現在の状況（2018 年 9 月 12 日まで有効）を解決するには、{target=_blank} までお問い合わせください。 [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) を参照してください。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 

@@ -4,10 +4,10 @@ description: Adobeに十分なトラフィックがあるかどうかを知ら�
 title: 多変量分析テスト (MVT) アクティビティに必要なトラフィック量
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
    トラフィック見積もりが表示されます。「**[!UICONTROL トラフィック」アイコンをもう一度クリックすると、トラフィック見積もりを非表示にできます。]**
 
-   ![](assets/estimatorempty.png)
+   ![推定空間画像](assets/estimatorempty.png)
 
 1. 「標準的なコンバージョン率」、「推定訪問者数（日単位）」、「テスト期間」を入力します。
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
    トラフィック見積もりの上部付近に、入力した値に基づく計算結果が表示されます。
 
-   ![](assets/estimatorinsufficient.png)
+   ![推定不十分な画像](assets/estimatorinsufficient.png)
 
    数値を変更すると、見積もりも変更されます。例えば、数多くのエクスペリエンスをテストしており、コンバージョン率およびインプレッション数が非常に低い場合、トラフィック見積もりでは、テストを成功させるためにどの程度の期間の実行が必要かが示されます。トラフィック量が非常に低い場合、トラフィック見積もりは、テストの実行期間を希望の日数に抑えるため、エクスペリエンスの数を減らすよう提案することもあります。
 
@@ -59,4 +59,4 @@ ht-degree: 93%
 
    十分なトラフィックが確保されるという評価が得られるまで数字を調整し、それに応じて、テストをデザインします。
 
-   ![](assets/estimatorok.png)
+   ![推定画像](assets/estimatorok.png)

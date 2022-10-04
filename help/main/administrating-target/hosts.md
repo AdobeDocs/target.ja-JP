@@ -5,10 +5,10 @@ title: ホストおよびその使用方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 94%
+source-wordcount: '1089'
+ht-degree: 93%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 94%
 
 ホストは、[!DNL Target] リクエストが行われる任意のドメインです。Web サイトでは、通常、[!DNL Target] リクエストを送信する URL の `location.hostname` プロパティです。
 
-デフォルトでは、[!DNL Target] は、[!DNL Target] リクエストを行ったり [!DNL Target] レスポンスを受信できるホストを制限しません。新しいホストがリクエストを行うと、そのホストは自動的に機能します。このプロセスにより、不明なドメインや予期できないドメインでのテストも可能になります。このデフォルトの動作を上書きする場合は、許可リストまたはブロックリストを設定して、[!DNL Target] で機能するホストを制限することができます。
+デフォルトでは、[!DNL Target] は、[!DNL Target] リクエストを行ったり [!DNL Target] レスポンスを受信できるホストを制限しません。新しいホストがリクエストを行うと、そのホストは自動的に機能します。また、このプロセスにより、不明なドメインや予期できないドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、許可リストまたはブロックリストを設定して、[!DNL Target] で機能するホストを制限することができます。
 
 ホストを管理するには、**[!UICONTROL 管理]**／**[!UICONTROL ホスト]**&#x200B;をクリックします。
 
-![](assets/hosts_list.png)
+![hosts_list 画像](assets/hosts_list.png)
 
 ## ホストの認識 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

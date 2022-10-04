@@ -4,9 +4,9 @@ description: エクスペリエンスのターゲット設定とAdobeで使用�
 title: Target と Audiences に関する質問や回答はどこで確認できますか。
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 62%
 
 ---
@@ -80,7 +80,7 @@ URL 文字列で同じパラメーター名を複数回使用する場合、HTTP
 
 例えば、次の図では、Windows デバイスを使用するカリフォルニアのユーザーはエクスペリエンス A（Windows オーディエンス）とエクスペリエンス C（カリフォルニアオーディエンス）の両方の対象になります。ターゲットページではエクスペリエンス A の方がエクスペリエンス C より上に表示されるため、このユーザーにはエクスペリエンス A が表示されます。
 
-![](assets/audiences_order.png)
+![audiences_order 画像](assets/audiences_order.png)
 
 ## [!DNL Target]、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスライブラリに異なる名前を付けるのはなぜですか。 {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

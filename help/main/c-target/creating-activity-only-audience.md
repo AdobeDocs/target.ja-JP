@@ -4,9 +4,9 @@ description: アクティビティのみのオーディエンスをAdobeで作�
 title: 1 回だけ使用するオーディエンスを作成できますか？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 53%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 1. クリック **[!UICONTROL このアクティビティのみ]**.
 
-   ![](assets/activity-only-aud.png)
+   ![activity-only-aud 画像](assets/activity-only-aud.png)
 
 1. わかりやすいオーディエンスの名前を入力します。
 1. 目的の属性をオーディエンスビルダーにドラッグ&amp;ドロップします。

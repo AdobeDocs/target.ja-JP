@@ -4,9 +4,9 @@ description: Adobeでの自動配分アクティビティの使用方法を説�
 title: 自動配分アクティビティとは
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] では、
 
 次の図に、4 つのエクスペリエンスを扱うテストでこのアルゴリズムがどのように実行されるかを示します。
 
-![](assets/auto-allocate.png)
+![自動配分画像](assets/auto-allocate.png)
 
 この図は、明確な勝者が決定されるまで、複数ラウンドのアクティビティの有効期間にわたって各エクスペリエンスに配分されるトラフィックがどのように変化するかを示しています。
 

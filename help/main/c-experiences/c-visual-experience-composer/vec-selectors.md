@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンスのターゲット設定;ランディングページテスト
-description: '要素セレクターは、1 つ以上の要素を指定できる CSS 式です。 Adobe [!DNL Target] Visual Experience Composer(VEC)。 '
+description: 要素セレクターは、1 つ以上の要素を指定できる CSS 式です。 Adobe [!DNL Target] Visual Experience Composer(VEC)。
 title: Visual Experience Composer(VEC) で要素セレクターを使用できますか？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ CSS セレクターの基本的な情報については、Mozilla Developer Netw
 
 アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。クリック **[!UICONTROL 管理/Visual Experience Composer]**&#x200B;を選択してから、目的の CSS セレクターを選択します。
 
-![](assets/css_selectors.png)
+![css_selectors 画像](assets/css_selectors.png)
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ description: 開始日時と終了日時を使用して、特定の期間にサ�
 title: 特定の時間にサイトを訪問した訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. ドラッグ&amp;ドロップ **[!UICONTROL 時間枠]** を audience builder パネルにドラッグします。
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
 1. 次を指定： [!UICONTROL 開始] および [!UICONTROL 終了] オーディエンスの日付と時間。
 

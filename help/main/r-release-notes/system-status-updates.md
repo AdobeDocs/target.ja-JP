@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] の現在のステータスを表示すると�
 title: ' [!DNL Target]  やその他のアドビ製品のステータスについて'
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ソリューションの [!DNL Experience Cloud] ステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
 
-![](assets/system_status.png)
+![system_status イメージ](assets/system_status.png)
 
 ページの上部には、進行中のメンテナンスイベントに関する情報が表示され、各ソリューションのアップデートにサブスクライブするためのリンクがあります。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ページの下部には最近 7 日間のカレンダーがあり、日別に各ソリューションのステータスが表示されています。ステータスインジケーターの上にマウスポインターを置くと、詳細が表示されます。
 
-![](assets/system_status_indicator.png)
+![system_status_indicator 画像](assets/system_status_indicator.png)
 
 ## 事前通知
 

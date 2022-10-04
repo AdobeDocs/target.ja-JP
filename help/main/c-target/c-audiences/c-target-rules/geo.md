@@ -5,9 +5,9 @@ title: 場所に基づいて訪問者をターゲットに設定することは�
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '990'
 ht-degree: 50%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 50%
 
 次の図に、緯度 44°以上、経度 22°未満からアクティビティにアクセスするユーザーをターゲットにするオーディエンスを示します。
 
-![](assets/target_geo.png)
+![target_geo 画像](assets/target_geo.png)
 
 ## 精度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
@@ -142,7 +142,7 @@ AOL がトラフィックをプロキシする方法により、 [!DNL Target] �
 
    >[!NOTE]
    >
-   >`mboxOverride.browserIp` は at.js 1.*x* のみで使用できます。この機能は、at.js 2.*x*。
+   >`mboxOverride.browserIp` は at.js 1.*x* のみで使用できます。この機能は、at.js 2.**。
 
 * **at.js 2.*x***:IP アドレスを at.js 2.*x*、ブラウザー拡張機能/プラグイン（Chrome または Firefox 用の X-Forwarded-For ヘッダーなど）をインストールします。 この拡張機能を使用すると、ページリクエストで x-forwarded-for ヘッダーを渡すことができます。
 

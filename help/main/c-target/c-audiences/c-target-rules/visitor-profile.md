@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: 特定のプロファイルパラメーターに一致する訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
 
-   ![](assets/target_visitor_profile.png)
+   ![target_visitor_profile イメージ](assets/target_visitor_profile.png)
 
    訪問者プロファイルのパラメーターは mbox（プロファイル）を介して渡されます。新しい訪問者と再訪問者のいずれもターゲットに設定することができます。さらに、すべてのユーザーを含めることも可能です。
 

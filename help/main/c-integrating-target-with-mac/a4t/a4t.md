@@ -4,10 +4,10 @@ description: ' [!DNL Analytics]  for  [!DNL Target] （A4T）を使用して、 
 title: ' [!DNL Analytics]  for  [!DNL Target] （A4T）とは'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 以下の図に、使用可能な [!UICONTROL  目標指標を表示する]レポート指標[!UICONTROL ドロップダウンリストを含む、A4T レポートの]グラフ表示[!DNL Analytics]を示します。
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1 画像](assets/a4t_report_graph1.png)
 
 以下の図に、使用可能な [!UICONTROL  オーディエンスを表示する ]Audience[!UICONTROL  ドロップダウンリストを含む、A4T レポートの]グラフ表示[!DNL Analytics]を示します。
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2 イメージ](assets/a4t_report_graph2.png)
 
 以下の図に、A4T レポートの[!UICONTROL テーブル表示]を示します。
 
-![](assets/a4t_report_table.png)
+![a4t_report_table のイメージ](assets/a4t_report_table.png)
 
 [!DNL Analytics] ではなく [!DNL Target] でレポートを表示するには、レポートの上部にある「**[!UICONTROL Analytics で表示]**」をクリックします。
 
