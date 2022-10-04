@@ -4,10 +4,10 @@ description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼー�
 title: 重要な属性レポートとは何ですか。
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 83%
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   この [Automated Personalization概要](/help/main/c-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加のアイコンは、 [!UICONTROL パーソナライゼーションインサイト] レポート： [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性].
+   この [Automated Personalization概要](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加のアイコンは、 [!UICONTROL パーソナライゼーションインサイト] レポート： [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性].
 
-   ![Automated Personalizationアクティビティの概要レポート](assets/summary-report-ap.png)
+   ![Automated Personalizationアクティビティの概要レポート](/help/main/c-reports/assets/summary-report-ap.png)
 
    注意： [!UICONTROL 自動ターゲット] には、 [!UICONTROL 概要] レポート。
 
-   ![自動ターゲットアクティビティの概要レポート](assets/personalization_insights.png)
+   ![自動ターゲットアクティビティの概要レポート](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ ht-degree: 83%
 
 1. アクティビティをアクティブ化してから 15 日経ったら、 **[!UICONTROL 重要な属性]** アイコン
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 目的の日付範囲を選択します。
 
@@ -66,16 +66,15 @@ ht-degree: 83%
 
    これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始日」はグレー表示になっています。開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    使用可能な固定日付範囲には、[!UICONTROL 期間を選択]ドロップダウンリストからアクセスできます。
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 重要な属性]レポートデータを確認します。
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. （オプション）[CSV 形式のレポートをダウンロード](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)して、Excel や他のツールで分析をおこないます。
 
@@ -118,7 +117,7 @@ ht-degree: 83%
 
 **[!UICONTROL パーソナライゼーションインサイト]はどのように作成するのですか？**
 
-[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、[arXiv.org Web サイト](https://arxiv.org/abs/1706.07160)でアドビの研究部門の公表論文を参照してください。
+[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、Adobeの研究チームの公表論文を参照してください。 [arXiv.org Web サイト](https://arxiv.org/abs/1706.07160).
 
 **[!UICONTROL パーソナライゼーションインサイト]は売上高ベースのモデリング目標／主な目標に使用できますか？**
 
@@ -136,7 +135,7 @@ ht-degree: 83%
 * 特定のオファーやエクスペリエンスでモデルを作成しない、ボリュームの小さいアクティビティ。
 * 一部のオファーやエクスペリエンスに対して、他よりも早くモデルが作成された、ボリュームの小さいアクティビティ。例えば、追加のモデル が 22 日目に作成され、10 ～ 24 日のデータを調べる場合があります。
 * どの訪問者にどのオファー／エクスペリエンスが表示されるかを制限する特定のオファーにターゲットルールが設定されている。
-* インサイトレポートに信頼区間がない。ただし、コンバージョン率がだいたい同じ場合、モデルはトラフィックを提供してポイントが高くなることがありますが、「統計的に異なる」数ではありません。
+* インサイトレポートに信頼区間がない。ただし、コンバージョン率がほぼ近い場合、モデルはトラフィックを提供してポイント数が高くなる可能性がありますが、「統計的に異なる」数ではありません。
 
 トラフィックを提供するモデルがどのように機能するかを知ることは有用です。各個人は、それぞれの合計プロファイルに基づいて提供されます。ただし、インサイトレポートは、この動作を一般化して、人間が解釈しやすいものにします。結果として、セグメントは相互に排他的ではありません。同一人物が複数のセグメントに現れる可能性があるので、個々のセグメントでこのタイプの動作が表示されることになる可能性があります。
 

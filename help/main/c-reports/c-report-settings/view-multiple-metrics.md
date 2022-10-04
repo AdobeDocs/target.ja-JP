@@ -4,7 +4,7 @@ description: Adobe Targetを使用して、1 つのレポートに表示する�
 title: レポートに複数の指標を表示する方法を教えてください。
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 59%
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 * 複数の指標を表示する機能は、 [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md), [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)、および [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。
 * を使用するアクティビティのレポートに 20 個を超える指標を追加することはできません [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 アクティビティのレポートには、アクティビティ内の指標をいくつでも追加できます *not* A4T を使用します。
-* 複数の指標を選択した場合は、「[](/help/main/c-reports/downloading-data-in-csv-file.md)ダウンロード」オプションを使用して CSV 形式でレポートをダウンロードすることはできません。「[!UICONTROL ダウンロード]」オプションを利用するには、指標を 1 つだけ選択する必要があります。
+* 複数の指標を選択した場合は、「[](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)ダウンロード」オプションを使用して CSV 形式でレポートをダウンロードすることはできません。「[!UICONTROL ダウンロード]」オプションを利用するには、指標を 1 つだけ選択する必要があります。
 * 2015 年 7 月より前に作成されたアクティビティに対して、複数の指標を表示することはできません [!DNL Target] リリース（2015 年 7 月 31 日）。
 
 **複数の指標を選択してレポートに表示する方法は次のとおりです。**

@@ -4,7 +4,7 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポート </p> </td> 
-   <td colname="col2"> <p>範囲の算出方法を説明するツールチップなど、レポートの上昇率と範囲に関する情報が改善され、よりわかりやすく有用になりました。（TGT-28729） </p> <p>詳しくは、<a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">平均上昇率、上昇率範囲および信頼区間</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>範囲の算出方法を説明するツールチップなど、レポートの上昇率と範囲に関する情報が改善され、よりわかりやすく有用になりました。（TGT-28729） </p> <p>詳しくは、<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">平均上昇率、上昇率範囲および信頼区間</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization（AP）アクティビティと自動ターゲットアクティビティ </p> </td> 
@@ -3152,7 +3152,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>コンバージョンベースのレポート </p> </td> 
-   <td colname="col2"> <p> 最適化目標がコンバージョン指標の場合、オファー詳細レポートは、上昇率とインクリメンタルコンバージョンにおける上位の予測変数の影響を示すようになりました。このレポートは以前は売上高ベースのみでしたが、この機能により、売上高データのないアクティビティでも、関連性があり、すぐに使用できるインサイトを生成するようにします。 </p> <p>詳しくは、<a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">Automated Personalization レポート </a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 最適化目標がコンバージョン指標の場合、オファー詳細レポートは、上昇率とインクリメンタルコンバージョンにおける上位の予測変数の影響を示すようになりました。このレポートは以前は売上高ベースのみでしたが、この機能により、売上高データのないアクティビティでも、関連性があり、すぐに使用できるインサイトを生成するようにします。 </p> <p>詳しくは、<a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local">Automated Personalization レポート </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Target Standard と Adobe Campaign の電子メールの統合 </td> 

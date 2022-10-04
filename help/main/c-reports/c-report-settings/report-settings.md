@@ -4,10 +4,10 @@ description: 指標、オーディエンス、日付範囲など、Adobe Target�
 title: レポート設定の設定方法を教えてください。
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 69%
+source-wordcount: '1917'
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 69%
 1. 編集するプリセットを選択します。
 1. レポートの設定を必要に応じて編集します（指標、日付範囲、オーディエンス、詳細設定など）。
 
-   レポートの設定を編集した後に「[!UICONTROL 保存]」をクリックすると、プリセット名の後にアスタリスク（*）が表示され、プリセットが変更されたことを示します（下図を参照）。
+   次をクリックした後： [!UICONTROL 保存] レポートの設定を編集した後、アスタリスク ( &#42; ) は、次に示すように、プリセット名の後に表示され、プリセットが変更されたことを示します。
 
    ![アスタリスクを含むレポートプリセット](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ ht-degree: 69%
 
 ![ダウンロードアイコン](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-詳しくは、「[CSV ファイルでのデータのダウンロード](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)」を参照してください。
+詳しくは、「[CSV ファイルでのデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)」を参照してください。
 
 ## 更新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ ht-degree: 69%
 
 レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 
-詳しくは、[平均上昇率、上昇率範囲および信頼区間](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)を参照してください。
+詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 次の点に留意してください。
 

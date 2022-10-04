@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [レポートの概要](c-reports/reports.md)
    + レポート設定 {#settings}
       + [レポートの設定の概要](c-reports/c-report-settings/report-settings.md)
-      + [平均上昇率、上昇率範囲および信頼区間](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計的手法 {#statistical-methodology}
       + [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [自動ターゲット概要レポート](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization 概要レポート](c-reports/reports-ap.md)
+   + パーソナライゼーションレポート {#personalization-reports}
+      + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization 概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Automated Personalization のオファーレポートグループ](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + パーソナライゼーションインサイトレポート {#insights}
       + [パーソナライゼーションインサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動セグメントレポート](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要な属性レポート](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Automated Personalization のオファーレポートグループ](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [エクスペリエンスのパフォーマンスレポート（MVT）](c-reports/experience-performance-report.md)
-   + [場所の貢献度レポート（MVT）](c-reports/location-contribution-report.md)
+   + 多変量分析テストレポート {#multivariate-test-reports}
+      + [エクスペリエンスのパフォーマンスレポート（MVT）](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
-   + [CSV ファイル内のデータのダウンロード](c-reports/downloading-data-in-csv-file.md)
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)

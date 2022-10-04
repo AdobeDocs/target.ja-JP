@@ -4,8 +4,8 @@ description: Adobe Target で多変量分析テストアクティビティを作
 title: 多変量分析テストのベストプラクティスはどのようなものですか。
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* [場所の貢献度レポート](/help/main/c-reports/location-contribution-report.md)を頻繁に参照して、それぞれの場所とオファーのパフォーマンスを監視します。
-* [エクスペリエンスのパフォーマンスレポート](/help/main/c-reports/experience-performance-report.md)では、上位 5 件と下位 5 件のフィルターに表示されるデータに基づいて判断をおこないます。
+* [場所の貢献度レポート](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)を頻繁に参照して、それぞれの場所とオファーのパフォーマンスを監視します。
+* [エクスペリエンスのパフォーマンスレポート](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)では、上位 5 件と下位 5 件のフィルターに表示されるデータに基づいて判断をおこないます。
 
    [!UICONTROL すべて]のエクスペリエンスを表示フィルターでは、必要な情報を抽出するのが困難であり、またすべてのエクスペリエンスがグラフに表示されるわけではありません。[!UICONTROL すべて]のフィルターは、上位 5 件または下位 5 件に含まれていない特定のエクスペリエンスを確認する場合に使用します。
 

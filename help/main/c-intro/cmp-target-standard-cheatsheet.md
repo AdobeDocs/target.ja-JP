@@ -4,7 +4,7 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 **Visual Experience Composer（VEC）でページを読み込もうとすると、「ブラウザーでスクリプトをロードできるようにします」というメッセージが表示されます。どうすればこの問題を解消できますか？**
 
-これは、お客様のサイトに、HTTP と HTTPS リソースの両方を取得する混合コンテンツがあることが原因です。IT チームに、HTTPS への完全移行をおこなうよう要求してください。
+これは、サイトに混合コンテンツが存在するためです。これは、HTTP と HTTPS の両方のリソースを取得するサイトです。 IT チームに、HTTPS への完全移行をおこなうよう要求してください。
 
 移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
 
@@ -279,7 +279,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **オフラインでレポートの計算を実行することはできますか？**
 
-[レポートを CSV にエクスポートするオプションと、注文の詳細を CSV にダウンロードするオプション](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)を利用して、対象のレポートデータをダウンロードしてください。
+[レポートを CSV にエクスポートするオプションと、注文の詳細を CSV にダウンロードするオプション](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)を利用して、対象のレポートデータをダウンロードしてください。
 
 **レポートを評価するためにコントロールエクスペリエンスを変更したり、カウント手法を訪問者から訪問に変更したりできますか？**
 
@@ -315,4 +315,4 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **Target API の詳細はどこで確認できますか？**
 
-API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
+API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://developer.adobe.com/target/実装/サーバー側/){target=_blank}。

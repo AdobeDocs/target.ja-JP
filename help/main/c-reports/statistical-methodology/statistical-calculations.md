@@ -3,7 +3,7 @@ keywords: レポート，統計的手法，統計的計算，統計，平均，�
 description: 手動で使用する統計指標について説明します [!UICONTROL A/B テスト] アクティビティ [!DNL Adobe Target].
 title: 統計指標については、 [!UICONTROL A/B テスト] アクティビティ？
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ In [!DNL Target]，両側 **ウェルチ t 検定** は、テストエクスペ�
 
 ## オフラインでの計算の実行
 
-[ダウンロードした CSV レポート](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
+[ダウンロードした CSV レポート](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
 これらの統計量を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力する Excel ファイル。
