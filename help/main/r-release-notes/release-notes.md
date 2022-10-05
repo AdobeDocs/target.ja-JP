@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
-workflow-type: ht
-source-wordcount: '632'
-ht-degree: 100%
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 49%
 
 ---
 
@@ -18,31 +18,27 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
+## [!DNL Target] Standard/Premium 22.10.1（2022 年 10 月 6 日～7 日のタッグリリース）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **9月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **9月14日（PT）**：アメリカ地域
-* **9月15日（PT）**：アジア太平洋（APAC）地域
+* **10 月 5 日**:アジア太平洋 (APAC) 地域
+* **10 月 6 日**:アメリカ地域
+* **10 月 8 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
 
-このリリースには、以下の機能強化および修正が含まれています。
+このリリースには、次の新機能、機能強化および修正が含まれています。
 
-* at.js 2.10.0（およびそれ以降）のダウンロード時に、サードパーティ Cookie の設定を許可または無効にする[!UICONTROL クロスドメイン]オプションを追加しました。（TGT-43674）
-* [!DNL Recommendations] フィードの読み込みが失敗した場合に、顧客に通知する [!DNL Target] UI の通知を更新しました。（TGT-35811）
-* [!UICONTROL オファーの決定]が [!UICONTROL Visual Experience Composer]（VEC）内で正常に機能しない問題を修正しました。（TGT-43866）
-* [!UICONTROL 多変量分析テスト]（MVT）アクティビティを作成する際、「[!UICONTROL 要素をクリック]」のコンバージョン目標を選択するとエラーメッセージが表示される問題を修正しました。（TGT-43842）
-* [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティで、ダウンロードした CSV レポートファイル内に[!UICONTROL インプレッション]列が表示されない問題を修正しました。（TGT-43780）
-* [!UICONTROL フォームベースの Experience Composer] を使用する場合に、エクスペリエンスを複製した後に HTML／JSON オファーを編集できない問題を修正しました。（TGT-43633）
-* ユーザーが [!UICONTROL A/B テスト]アクティビティをデフォルト以外のワークスペースから別のデフォルトでないワークスペースにコピーできない問題を修正しました。（TGT-41910）
-* 顧客が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティで、レコメンデーションを含む [!DNL Recommendations] オブジェクト（デザイン、条件、コレクションなど）の使用状況を適切に表示し、また [!DNL Target] UI および [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できるように問題を修正しました。（TGT-42331）
-* パラメーターを取得するときにネットワークタイムアウトアラートが [!DNL Target] UI に表示される問題を修正しました。（TGT-43737）
-* 特定のドラッグ＆ドロップアクションにキーボードからアクセスできるように UI を更新しました。（TGT-42969）
-* テキスト文字列が適切にローカライズされるように UI を更新しました。
+| 機能 | 詳細 |
+| --- | --- |
+| [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント | AEMエクスペリエンスフラグメント機能の更新内容は次のとおりです。<ul><li>AEMエクスペリエンスフラグメントを、 [!UICONTROL オファー] リスト。 （TGT-43121）</li><li>顧客が JSON を挿入できる問題を修正しました。 [!UICONTROL エクスペリエンスフラグメント] は、VEC を使用する際にオファーを提供します（これはサポートされていません）。 JSON オファーは、 [!UICONTROL フォームベースのエクスペリエンス] 作成者 （TGT-43846）</li></ul>詳しくは、 AEM [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| 新規 [!UICONTROL Visual Experience Composer] Google Chrome 用拡張機能 | 新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] Chrome 用 (VEC) 拡張機能は、Chrome Web Store で入手できます。<br>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。<br>以下のリンクは、Chrome Web Store の 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]<br>（正確なリリース日は決定されます。） | 次の変更点に注意してください。<ul><li>バイナリ指標と最大化指標のサポートを [!UICONTROL Analytics for Target] A4T レポートの対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ</li><li>2023 年 2 月 20 日まで、既存のアクティビティの動作が保持されました。 この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは停止されます</li><li>2023 年 2 月 20 日以降、のサポート `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは非推奨となります。</li></ul> |
 
-## at.js バージョン 2.10.0（2022年9月13日（PT））
-
-* at.js 2.10.0（およびそれ以降）のダウンロード時に、サードパーティ Cookie の設定を許可または無効にする[!UICONTROL クロスドメイン]オプションを追加しました。（TGT-43674）
+* オーディエンスルールの情報が [!UICONTROL Audiences の絞り込み] 情報ウィンドウ。 （TGT-43917）
+* のパフォーマンスを向上しました [!DNL Target] UI ( [ターゲット設定ルールの推奨制限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). （TGT-43675）
+* 一部のコンポーネントが [!UICONTROL 変更] パネル [!UICONTROL エクスペリエンス] ページ (VEC でアクティビティを作成または編集する際、 [!UICONTROL 作成] から [!UICONTROL 参照] モード。 （TGT-43300）
+* 一部の顧客をアーカイブできない問題を修正しました [!UICONTROL A/B テスト] 使用するアクティビティ [!UICONTROL 自動ターゲット]. （TGT-40978）
+* 1 つのレポートグループ内の複数の場所で 1 つのオファーを自動的に使用する機能が追加されました。 （TGT-40689）
 
 ## その他のリリースノートとバージョンの詳細
 
