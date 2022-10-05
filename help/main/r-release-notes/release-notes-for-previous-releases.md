@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34597'
-ht-degree: 95%
+source-wordcount: '34887'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,32 @@ ht-degree: 95%
 >今月の Target リリース（プラットフォームおよび Target Standard／Premium）について詳しくは、[Target のリリースノート（現行）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)を参照してください。
 
 ## リリースノート - 2022年
+
+### [!DNL Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
+
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
+
+* **9月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **9月14日（PT）**：アメリカ地域
+* **9月15日（PT）**：アジア太平洋（APAC）地域
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* at.js 2.10.0（およびそれ以降）のダウンロード時に、サードパーティ Cookie の設定を許可または無効にする[!UICONTROL クロスドメイン]オプションを追加しました。（TGT-43674）
+* [!DNL Recommendations] フィードの読み込みが失敗した場合に顧客に通知する [!DNL Target] UI の通知を更新しました。（TGT-35811）
+* [!UICONTROL オファーの決定]が [!UICONTROL Visual Experience Composer]（VEC）内で正常に機能しない問題を修正しました。（TGT-43866）
+* [!UICONTROL 多変量分析テスト]（MVT）アクティビティを作成する際、「[!UICONTROL 要素をクリック]」のコンバージョン目標を選択するとエラーメッセージが表示される問題を修正しました。（TGT-43842）
+* [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティで、ダウンロードした CSV レポートファイル内に[!UICONTROL インプレッション]列が表示されない問題を修正しました。（TGT-43780）
+* [!UICONTROL フォームベースの Experience Composer] を使用する場合に、エクスペリエンスを複製した後に HTML／JSON オファーを編集できない問題を修正しました。（TGT-43633）
+* ユーザーが [!UICONTROL A/B テスト]アクティビティをデフォルト以外のワークスペースから別のデフォルトでないワークスペースにコピーできない問題を修正しました。（TGT-41910）
+* 顧客が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティで、レコメンデーションを含む [!DNL Recommendations] オブジェクト（デザイン、条件、コレクションなど）の使用状況を適切に表示し、また [!DNL Target] UI および [!DNL Recommendations] バックエンドから使用しなくなった条件オブジェクトを削除できるように問題を解決しました。（TGT-42331）
+* パラメーターを取得するときにネットワークタイムアウトアラートが [!DNL Target] UI に表示される問題を修正しました。（TGT-43737）
+* 特定のドラッグ＆ドロップアクションにキーボードからアクセスできるように UI を更新しました。（TGT-42969）
+* テキスト文字列が適切にローカライズされるように UI を更新しました。
+
+### at.js バージョン 2.10.0（2022年9月13日（PT））
+
+* at.js 2.10.0（およびそれ以降）のダウンロード時に、サードパーティ Cookie の設定を許可または無効にする[!UICONTROL クロスドメイン]オプションを追加しました。（TGT-43674）
 
 ### [!DNL Target Standard/Premium] 22.8.1（時差リリース 2022年8月17～18日（PT））
 

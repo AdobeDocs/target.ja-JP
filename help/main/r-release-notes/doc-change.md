@@ -4,16 +4,23 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 99%
+source-wordcount: '1320'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## [!DNL Adobe Target] Standard/Premium 22.10.1（2022 年 10 月 6 日～7 日のタッグリリース）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 10月4日（PT） | [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、 *Adobe Target A/B テストの計算* このサイトで以前にダウンロード可能だった pdf ファイル。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Adobe Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
 
