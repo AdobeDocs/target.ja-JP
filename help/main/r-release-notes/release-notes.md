@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dea956fe5d28200515a9638306a7d879585cb794
+source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 43%
+source-wordcount: '769'
+ht-degree: 81%
 
 ---
 
@@ -18,27 +18,26 @@ ht-degree: 43%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 22.10.1（2022 年 10 月 6 日～7 日のタッグリリース）
+## [!DNL Target] Standard／Premium 22.10.1（時差リリース 2022年10月10～13日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **10 月 5 日**:アジア太平洋 (APAC) 地域
-* **10 月 6 日**:アメリカ地域
-* **10 月 8 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **10月10日（PT）**：アジア太平洋（APAC）地域
+* **10月11日（PT）**：アメリカ地域
+* **10月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
 
-このリリースには、次の新機能、機能強化および修正が含まれています。
+このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント | AEMエクスペリエンスフラグメント機能の更新内容は次のとおりです。<ul><li>AEMエクスペリエンスフラグメントを、 [!UICONTROL オファー] リスト。 （TGT-43121）</li><li>顧客が JSON を挿入できる問題を修正しました。 [!UICONTROL エクスペリエンスフラグメント] は、VEC を使用する際にオファーを提供します（これはサポートされていません）。 JSON オファーは、 [!UICONTROL フォームベースのエクスペリエンス] 作成者 （TGT-43846）</li></ul>詳しくは、 AEM [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| 新規 [!UICONTROL Visual Experience Composer] Google Chrome 用拡張機能 | 新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] Chrome 用 (VEC) 拡張機能は、Chrome Web Store で入手できます。<br>2023 年 1 月から、現在の [!DNL Target] Googleでは Manifest V2 を使用した拡張機能が許可されないので、VEC ヘルパー拡張機能はGoogle Chrome では動作しなくなります。 新しい拡張機能をダウンロードして、で Web サイトの視覚的なオーサリングを続行します。 [!DNL Target] 新年から始まる。<br>以下のリンクは、Chrome Web Store の 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
-| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]<br>（正確なリリース日は決定されます。） | 次の変更点に注意してください。<ul><li>バイナリ指標と最大化指標のサポートを [!UICONTROL Analytics for Target] A4T レポートの対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ</li><li>2023 年 2 月 20 日まで、既存のアクティビティの動作が保持されました。 この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは停止されます</li><li>2023 年 2 月 20 日以降、のサポート `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは非推奨となります。</li></ul> |
+| [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント | AEMエクスペリエンスフラグメント機能の更新内容は次のとおりです。<ul><li>AEMエクスペリエンスフラグメントを、 [!UICONTROL オファー] リスト。 （TGT-43121）</li><li>未対応の VEC の使用時に、顧客が JSON [!UICONTROL エクスペリエンスフラグメント]オファーを挿入できる問題を修正しました。JSON オファーは、[!UICONTROL フォームベースの Experience] Composer を使用する場合にのみ挿入できます。（TGT-43846）</li></ul>詳しくは、 AEM [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Google Chrome 用の新しい [!UICONTROL Visual Experience Composer] 拡張機能 | Chrome 用の新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]（VEC）拡張機能は、Chrome web ストアで入手できます。<br>2023年1月以降、Google Chrome では、現在の [!DNL Target] VEC Helper 拡張機能が動作しなくなります。これは、Google がManifest V2 を使用した拡張機能を許可しないためです。新しい拡張機能をダウンロードすれば、新年から引き続き [!DNL Target] で web サイトを視覚的に作成できます。<br>以下のリンクは、Chrome web ストアの 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>詳しくは、 [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 | ドキュメントの更新 | 主なドキュメント更新内容は次のとおりです。<ul><li>新規および更新済み [Adobe Target管理およびレポート API ドキュメント](https://developer.adobe.com/target/administer/admin-api/){target=_blank} では、プロパティ、オファー、ホスト、環境、クライアント、オーディエンス、アクティビティなど、管理 API エンドポイントとレポート API エンドポイントの包括的な機能を提供しています。<br>この他の開発者向けコンテンツは、 [[!DNL Adobe Target] [!UICONTROL 開発者ガイド]](https://developer.adobe.com/target/){target=_blank}。</li><li>[A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>この記事では、 [!DNL Adobe Target].<br>この記事の情報は、 *Adobe Target A/B テストの計算* このサイトで以前にダウンロード可能だった pdf ファイル。</li></ul> |
 
-* オーディエンスルールの情報が [!UICONTROL Audiences の絞り込み] 情報ウィンドウ。 （TGT-43917）
-* のパフォーマンスを向上しました [!DNL Target] UI ( [ターゲット設定ルールの推奨制限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). （TGT-43675）
-* 一部のコンポーネントが [!UICONTROL 変更] パネル [!UICONTROL エクスペリエンス] ページ (VEC でアクティビティを作成または編集する際、 [!UICONTROL 作成] から [!UICONTROL 参照] モード。 （TGT-43300）
-* 一部の顧客をアーカイブできない問題を修正しました [!UICONTROL A/B テスト] 使用するアクティビティ [!UICONTROL 自動ターゲット]. （TGT-40978）
+* オーディエンスルールの情報が[!UICONTROL オーディエンスの絞り込み]情報ウィンドウに正しく表示されない問題を修正しました。（TGT-43917）
+* [ターゲティングルールの推奨制限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)に近づくオーディエンスを読み込む際の [!DNL Target] UI のパフォーマンスを改善しました。（TGT-43675）
+* [!UICONTROL 作成]モードから[!UICONTROL 参照]モードに切り替えた後、VEC でアクティビティを作成または編集する際に、一部のコンポーネントが[!UICONTROL エクスペリエンス]ページの[!UICONTROL 変更]パネルに正しく表示されない問題を修正しました。 （TGT-43300）
+* 一部の顧客が「[!UICONTROL 自動ターゲット]」を使用する [!UICONTROL A/B テスト]アクティビティをアーカイブできない問題を修正しました。（TGT-40978）
 * 1 つのレポートグループ内の複数の場所で 1 つのオファーを自動的に使用する機能が追加されました。 （TGT-40689）
 
 ## その他のリリースノートとバージョンの詳細
