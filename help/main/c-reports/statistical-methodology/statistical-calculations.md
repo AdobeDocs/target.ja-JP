@@ -3,7 +3,7 @@ keywords: レポート，統計的手法，統計的計算，統計，平均，�
 description: 手動で使用する統計指標について説明します [!UICONTROL A/B テスト] アクティビティ [!DNL Adobe Target].
 title: 統計指標については、 [!UICONTROL A/B テスト] アクティビティ？
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # A/Bn テストの統計指標
 
-このページでは、 [!DNL Adobe Target]. 次の定義が提供されています： [!UICONTROL コンバージョン率], [!UICONTROL コンバージョン率の信頼区間], [!UICONTROL 上昇率], [!UICONTROL 上昇率の信頼区間]、および [!UICONTROL 信頼性].
+この記事では、 [!DNL Adobe Target]. 次の定義が提供されています： [!UICONTROL コンバージョン率], [!UICONTROL コンバージョン率の信頼区間], [!UICONTROL 上昇率], [!UICONTROL 上昇率の信頼区間]、および [!UICONTROL 信頼性].
 
 >[!NOTE]
 >
