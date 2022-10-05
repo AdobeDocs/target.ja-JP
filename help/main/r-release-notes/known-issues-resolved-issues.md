@@ -5,9 +5,9 @@ title: 既知の問題と解決された問題に関する情報はどこで入�
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '4593'
+ht-degree: 100%
 
 ---
 
@@ -119,9 +119,9 @@ Analysis Workspaceで Target アクティビティのインプレッションと
 
 サポートされる目標指標とサポートされない目標指標のリストについては、[自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。（TNT-38409）
 
-### のトラフィック配分 [!DNL Auto-Allocate] A4T を使用するアクティビティ {#aa-a4t}
+### A4T を使用した [!DNL Auto-Allocate] アクティビティのトラフィック配分 {#aa-a4t}
 
-場合によっては、[!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分]アクティビティのトラフィック分布は、各エクスペリエンスで報告されたコンバージョン率に基づいて発生するはずのトラフィック分布と異なることがあります。これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。（上位 131 項目）
+場合によっては、[!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分]アクティビティのトラフィック分布は、各エクスペリエンスで報告されたコンバージョン率に基づいて発生するはずのトラフィック分布と異なることがあります。これは、再訪問者のトラフィックの割合が高いアクティビティでより頻繁に発生します。（TOP-131）
 
 ### at.js
 
@@ -155,9 +155,9 @@ Analysis Workspaceで Target アクティビティのインプレッションと
 
 [ページ配信](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)に「URL contains (/checkout, /cart)」などのテンプレートルールを追加する場合、ルールの先頭に余分なスペースが付加されます。これらの余分なスペースは外観上のもので、オーディエンス定義の作成とオファーの提供には影響しません。（TGT-35920）
 
-### 「処理中」ラベルを示す画像オファー
+### 「処理中」のラベルを示す画像オファー
 
-オファーページの画像オファーで、画像がアップロードされてから数時間、「処理中」のラベルが保持されることがあります。 ほとんどの場合、これはラベルのみに関する問題です。画像オファーは、引き続きアクティビティで使用して配信できます。（MCUI-10264、TGT-37458）
+オファーページの画像オファーで、画像がアップロードされてから数時間ラベルが「処理中」のままになる場合があります。ほとんどの場合、これはラベルのみに関する問題です。画像オファーは、引き続きアクティビティで使用して配信できます。（MCUI-10264、TGT-37458）
 
 この問題は、Target Standard／Premium 20.10.1 リリースで修正されました。
 
@@ -194,7 +194,7 @@ A4T に関連する次の問題が解決されました。
 
 ### 自動ターゲットレポート {#at-metrics}
 
-影響を受けた問題が解決されました [!DNL Adobe Target Premium] ユーザー [!UICONTROL 自動ターゲット] 9 月 15 日午後 2 時 30 分から報告(PDT)～10 月 6 日午前 9 時 25 分。(PDT)。 影響を受けたコンバージョン指標のレポートを表示する場合 (「[!UICONTROL ページが表示された]&quot;または&quot;[!UICONTROL mbox をクリック済み]」オプションを使用する場合は、コンバージョン率が誤ってレポートされます。 現時点では、配信に関する既知の問題はありません。
+9月15日午後2時30分（PDT）から 10月6日午前9時25分（PDT）の間、[!DNL Adobe Target Premium] ユーザーの[!UICONTROL 自動ターゲット]レポートに影響していた問題が解決されました。影響を受けたコンバージョン指標のレポート（「[!UICONTROL ページを閲覧]」または「[!UICONTROL mbox をクリック]」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。現時点では、配信に関する既知の問題はありません。
 
 レポートを再同期して修正するには：
 
@@ -230,7 +230,7 @@ A4T に関連する次の問題が解決されました。
 
 ### Google Chrome バージョン 80 以降を使用している場合に、Visual Experience Composer（VEC）または拡張 Experience Composer（EEC）でページが読み込まれない
 
-この既知の問題は、Chrome バージョン 80 以降の SameSite 属性を使用せずに Cookie のデフォルト動作を変更する Google の決定に関して発生しています。Chrome を変更する前に、SameSite 属性が&quot;SameSite=None&quot;でないすべての cookie をデフォルトにして、現在は&quot;SameSite=Lax&quot;に設定され、GETおよびPOSTリクエストに対する cookie の送信方法が変更されていました。 [SameSite のアップデート](https://www.chromium.org/updates/same-site)を参照してください。
+この既知の問題は、Chrome バージョン 80 以降の SameSite 属性を使用せずに Cookie のデフォルト動作を変更する Google の決定に関して発生しています。変更前は、Chrome で SameSite 属性を「SameSite=None」に設定せずにすべての cookie をデフォルトに設定していましたが、現在はデフォルトで「SameSite=Lax」に設定され、これにより GET および POST リクエストに対する Cookie の送信方法が変更されました。[SameSite のアップデート](https://www.chromium.org/updates/same-site)を参照してください。
 
 詳細と修正については、「最近発表された Google Chrome SameSite cookie 強制ポリシーが VEC および EEC に与える影響を教えてください。」を参照してください。[Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
@@ -402,7 +402,7 @@ Target 17.4.1 リリース（2017年4月27日（PT））以降で at.js ライ�
 
 ### レポート：A/B およびエクスペリエンスのターゲット設定（XT）アクティビティ
 
-4 月 27 日 (PST)9:00 と 5 月 5 日 (PST)6:00 の間、（他の指標に基づいていない）「ページを表示」コンバージョンアクションを使用して指標で作成または編集した A/B および XT アクティビティは、誤ってコンバージョンを記録した可能性があります。 この問題は解決しました。ただし、この影響を受けた期間におけるこれらのアクティビティの「ページが表示されました」コンバージョンアクションに関するレポートは、正確ではなく、残念ながら修正できない場合があります。 これらのアクティビティで「ページが表示されました」コンバージョンアクションに基づく決定をおこなう場合は、影響を受ける期間の前または後に記録されたデータのみを使用することをお勧めします。
+4月27日午後 9:00（PST）から 5月5日午前 6:00（PST）の期間において、「ページを閲覧」コンバージョンアクションを使用した任意の指標で作成または編集した（他の指標に基づいていない）A/B テストおよび XT アクティビティは、コンバージョンが不正確に記録されていた可能性があります。現在はこの問題は修正されていますが、対象期間中これらのアクティビティにおいて「ページを閲覧」コンバージョンアクションに関するレポートは不正確な可能性があり、修正することはできません。これらのアクティビティにおいて「ページを閲覧」コンバージョンアクションに基づく意思決定を行う際は、この対象期間以外の記録データのみを依拠することをお勧めします。
 
 他の指標のレポートデータは影響を受けていないので、引き続き使用できます。
 
