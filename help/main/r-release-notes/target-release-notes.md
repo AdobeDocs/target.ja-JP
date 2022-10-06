@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 76%
@@ -24,7 +24,7 @@ ht-degree: 76%
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
 * **10月10日（PT）**：アジア太平洋（APAC）地域
-* **10月11日（PT）**：アメリカ地域
+* **10月12日（PT）**：アメリカ地域
 * **10月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。

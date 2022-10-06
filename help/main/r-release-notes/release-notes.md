@@ -5,7 +5,7 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 81%
@@ -23,7 +23,7 @@ ht-degree: 81%
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
 * **10月10日（PT）**：アジア太平洋（APAC）地域
-* **10月11日（PT）**：アメリカ地域
+* **10月12日（PT）**：アメリカ地域
 * **10月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
