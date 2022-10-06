@@ -294,7 +294,7 @@ Gentry Lin や Brent Kostak と共に、[!DNL Adobe Target] のお客様がイ�
 
 +++
 
-###  [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
+### [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
 
 2021年3月31日（PT）に mbox.js の廃止が予定されているので、Adobe Target プロダクトマネージャーの David Son は、最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
 
