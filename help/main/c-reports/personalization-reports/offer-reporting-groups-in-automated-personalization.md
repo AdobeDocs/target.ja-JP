@@ -4,10 +4,10 @@ description: Adobeでのオファーレポートグループの使用方法を�
 title: Automated Personalization Activities でオファーレポートグループを使用できますか？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 62%
 
 1. の [!UICONTROL エクスペリエンス] AP アクティビティのページで、 **[!UICONTROL コンテンツを管理]** アイコン
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![コンテンツを管理アイコン](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. 「**[!UICONTROL Manage Content]**」ダイアログボックス上部の「[!UICONTROL Offers]」タブをクリックします。
 1. （条件付き）特定のオファーにマウスポインターを置いてから **[!UICONTROL Reporting Group]** のフォルダーアイコンをクリックして、特定のエクスペリエンスをレポートグループに追加します。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![レポートグループアイコン](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. （条件付き）複数のエクスペリエンスのチェックボックスをオンにしてからダイアログボックスの右上隅にある **[!UICONTROL Reporting Group]** のフォルダーアイコンをクリックして、エクスペリエンスを一括でレポートグループに追加します。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![レポートグループアイコン](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. （条件付き）選択したオファーを既存のレポートグループに割り当てるには、 **[!UICONTROL 既存]**&#x200B;を選択し、ドロップダウンリストから目的のレポートグループを選択して、 **[!UICONTROL 適用]**.
 
@@ -51,4 +51,4 @@ ht-degree: 62%
 
    選択したオファーをアサインする新しいレポートグループを作成するには、 「**[!UICONTROL 新規]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL 適用]**」をクリックします。
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![新しいレポートグループを作成するための新しいアイコン](/help/main/c-reports/assets/ap_reporting_groups.png)

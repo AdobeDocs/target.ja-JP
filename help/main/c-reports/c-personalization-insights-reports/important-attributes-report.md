@@ -4,10 +4,10 @@ description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼー�
 title: 重要な属性レポートとは何ですか。
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 1. アクティビティをアクティブ化してから 15 日経ったら、 **[!UICONTROL 重要な属性]** アイコン
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Adobe Targetレポートの重要な属性アイコン](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 目的の日付範囲を選択します。
 
@@ -66,15 +66,15 @@ ht-degree: 81%
 
    これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始日」はグレー表示になっています。開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Targetレポートのカレンダー](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    使用可能な固定日付範囲には、[!UICONTROL 期間を選択]ドロップダウンリストからアクセスできます。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![レポートの期間ドロップダウンリストを選択します](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 重要な属性]レポートデータを確認します。
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Adobe Targetの重要な属性レポート](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. （オプション）[CSV 形式のレポートをダウンロード](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)して、Excel や他のツールで分析をおこないます。
 

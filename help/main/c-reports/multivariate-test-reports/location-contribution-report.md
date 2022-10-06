@@ -4,34 +4,34 @@ description: 場所の貢献度レポートをAdobeに使用する方法を説�
 title: 多変量分析テストで場所の貢献度レポートを使用する方法を教えてください。
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 84%
+source-wordcount: '229'
+ht-degree: 61%
 
 ---
 
-# 場所の貢献度レポート（MVT）
+# [!UICONTROL 場所の貢献度レポート（MVT）]
 
-場所の貢献度レポートには、各要素および各オファーのパフォーマンスが表示されます。
+この [!UICONTROL 場所の貢献度] レポートには、各要素および各オファーのパフォーマンスが表示されます。
 
 レポートの上部には、レポートで使用されている指標、開始日、終了日、オーディエンスが表示されます。これらの要素は変更できます。
 
 >[!NOTE]
 >
->オーディエンスおよび指標の選択は、Analyticsがレポートソースとして使用されている場合にのみ利用できます。
+>オーディエンスと指標の選択は、次の場合にのみ使用できます。 [!DNL Analytics] は、レポートソースとして使用されます。
 
-場所の貢献度レポートには、2 つのテーブルが含まれています。
+この [!UICONTROL 場所の貢献度] レポートには 2 つのテーブルが含まれます。
 
 最初のテーブルには、各要素の相対的な影響度が表示されます。これは、オファーを追加した要素のうち、どの要素が最も高いコンバージョン率を達成しているかを示します。
 
-![](/help/main/c-reports/assets/locationcontributiontop.png)
+![Adobe Targetの場所の貢献度レポート](/help/main/c-reports/assets/locationcontributiontop.png)
 
 2 つ目のテーブルには、オファーレベルのレポートが表示されます。このテーブルには、各要素の各オファーのコンバージョン率、上昇率および信頼性が表示されます。これにより、どのオファーが最も効果的かを判断できます。2 番目の列には、オファーで選択した指標（コンバージョン率、RPV、AOV、購入回数またはエンゲージメント指標）および基準となる指標が表示されます。
 
-![](/help/main/c-reports/assets/locationcontributionbottom.png)
+![Adobe Targetの場所の貢献度レポート](/help/main/c-reports/assets/locationcontributionbottom.png)
 
-## トレーニングビデオ: MVTテストの作成![チュートリアルバッジ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：MVT テストの作成 ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
 このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。場所の貢献度レポートについては、8:45 から説明しています。
 

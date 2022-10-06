@@ -4,10 +4,10 @@ description: エクスペリエンスのパフォーマンスレポートをAdob
 title: 多変量分析テストでエクスペリエンスのパフォーマンスレポートを使用する方法を教えてください。
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 1 つ以上のエクスペリエンスを選択して、それらを比較できます。エクスペリエンスをクリックし、「**[!UICONTROL プレビュー]**」を選択して、エクスペリエンスをブラウザーのタブに表示します。
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Adobe Targetのエクスペリエンスのパフォーマンスレポート](/help/main/c-reports/assets/experienceperformancetable.png)
 
 レポートの上部には、レポートで使用されている指標、開始日、終了日、オーディエンスが表示されます。これらの要素は変更できます。
 

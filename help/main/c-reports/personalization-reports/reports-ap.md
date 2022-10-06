@@ -4,9 +4,9 @@ description: Adobe TargetでのAutomated Personalization Summary レポートの
 title: Automated Personalization Summary レポートの使用方法
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '679'
 ht-degree: 38%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 38%
 
 エクスペリエンスアルゴリズム（ランダムフォレストまたはコントロール）をクリックして、 [!UICONTROL オファーレベル] レポート。
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Adobe Targetのオファーレベルレポート](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 オファーは、レポートグループ内に表示できます。これらのレポートグループは、折りたたみと展開が可能です。ドロップダウンリストの「[!UICONTROL レポートグループ]」を選択して、オファー別ではなく、レポートグループ別にロールアップ情報を表示します。
 

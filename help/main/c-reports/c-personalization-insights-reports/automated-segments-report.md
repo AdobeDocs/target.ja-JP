@@ -4,9 +4,9 @@ description: 様々なセグメントがAdobe別に定義される仕組み [!DN
 title: 自動セグメントレポートとは
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
    この [Automated Personalization概要](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、 [!UICONTROL 概要] レポート。
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Adobe Targetのパーソナライゼーションインサイトレポート](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
    とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 自動セグメント]は、次の固定日付範囲でのみ使用できます。15 日、30 日、60 日。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始」がグレー表示になっています。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Targetレポートのカレンダー](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    使用可能な固定日付範囲には、[!UICONTROL 期間を選択]ドロップダウンリストからアクセスできます。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Adobe Targetの期間ドロップダウンリスト](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 自動セグメント]レポートデータを確認します。
 
