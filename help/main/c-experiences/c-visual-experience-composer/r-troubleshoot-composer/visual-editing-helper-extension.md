@@ -3,9 +3,9 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: で一部の Web サイトを確実に開けない理由を見つける [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 この [!UICONTROL ビジュアル編集ヘルパー] ブラウザー拡張機能を使用すると、VEC 内で確実に web サイトを読み込むことができます。
 title: 使用方法 [!UICONTROL ビジュアル編集ヘルパー] 拡張？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '595'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 25%
 * すべての iframe バスティングヘッダー（例： ） `X-Frame-Options` および `Content-Security-Policy`は、Web サイトから暗黙的に削除されます。 複雑な Requestly ルールを作成する必要はありません。
 * Web ページに [!DNL Target]at.js ライブラリがまだ含まれていない場合は、拡張機能を使用してライブラリを挿入することにより、Web サイトのエクスペリエンスを作成できます。その後に、プレビューリンクを使用してアクティビティを作成し、QA を実行できます。
 
-なお、 [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)の場合、拡張機能は at.js を挿入しませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
+の使用 [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)の場合、拡張機能は at.js を挿入しませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
 
 * [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) が [!UICONTROL 拡張 Experience Composer] (EEC)。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
@@ -56,6 +56,8 @@ ht-degree: 25%
 
    * VEC を使用した Web サイトの読み込みに失敗した場合、 [!UICONTROL ビジュアル編集ヘルパー] ブラウザー拡張機能。
    * at.js または alloy.js が Web サイトにまだ実装されていない場合、拡張機能のインストールを勧めるメッセージが VEC に表示されます。
+* 新しい拡張機能を使用しようとした場合は、 [古い拡張子](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) および [!DNL Target] web サイトの読み込みに失敗し、すべてのブラウザーデータを消去して、新しい拡張機能を無効にします。
+
 
 
 
