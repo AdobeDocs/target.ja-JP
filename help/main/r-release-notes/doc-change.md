@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 96%
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 96%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月10日（PT） | [[!UICONTROL ビジュアル編集ヘルパー] 拡張](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい記事。 |
+|  | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 「[VEC にページが表示されません（VEC のみ）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」セクションに追加します。 |
 | 10月4日（PT） | [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、 *Adobe Target A/B テストの計算* このサイトで以前にダウンロード可能だった pdf ファイル。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースに関するリリースノートを追加しました。 |
 

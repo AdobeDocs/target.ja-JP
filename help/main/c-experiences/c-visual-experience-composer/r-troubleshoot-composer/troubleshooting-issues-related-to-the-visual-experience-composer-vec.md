@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -105,7 +105,7 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 
 拡張機能を設定したら、Target を開きます。たとえ拡張 Experience Composer を無効にしていても、Visual Experience Composer でページを読み込めるようになっているはずです。
 
-## VEC にページが表示されません。（VEC のみ） {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC にページが表示されません。（VEC のみ） {#does-not-load}
 
 * ブラウザーがサポートされていません。
 * ブラウザーが、セキュリティで保護されているサイトのセキュリティで保護されていないページをブロックしています。
@@ -114,7 +114,11 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 * 入力した URL が無効です。
 * アカウント設定ページにデフォルト URL が入力されていません。
 
-この設定が有効になっていることを確認してから、Web サイトで at.js をダウンロードして更新します。
+   この設定が有効になっていることを確認してから、Web サイトで at.js をダウンロードして更新します。
+
+* を使用してみると、 [新規 [!UICONTROL ビジュアル編集ヘルパー] 拡張](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) その後、 [古い拡張子](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) および [!DNL Target] web サイトの読み込みに失敗し、すべてのブラウザーデータを消去して、新しい拡張機能を無効にします。
+
+* Web サイトを VEC で読み込めなかったり、予期せぬ動作が発生した場合は、で Web サイトを読み込む前に、ブラウザーで Web サイトの Cookie を受け入れるという問題が修正される可能性があります。 [!DNL Target].
 
 ## 参照モードを使用すると、VEC が壊れているように見えます。（VEC のみ） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
