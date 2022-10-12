@@ -5,9 +5,9 @@ title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 
 関連する JavaScript コードスニペットを使用して、プロファイルスクリプト属性を定義します。
 
-プロファイルスクリプトを使用して、複数の訪問にわたり、訪問者の属性を取得できます。プロファイルスクリプトは、サーバー側の JavaScript の形式を使用して、[!DNL Target] 内で定義するコードスニペットです。例えば、プロファイルスクリプトを使用して、訪問者がサイトを訪問する頻度や前回の訪問日時を取得できます。
+プロファイルスクリプトを使用して、複数の訪問にわたり、訪問者の属性を取得できます。プロファイルスクリプトは、サーバーサイドの JavaScript の形式を使用して、[!DNL Target] 内で定義するコードスニペットです。例えば、プロファイルスクリプトを使用して、訪問者がサイトを訪問する頻度や前回の訪問日時を取得できます。
 
 プロファイルスクリプトは、プロファイルパラメーターとは異なります。プロファイルパラメーターでは、[!DNL Target] の mbox コード実装を使用して、訪問者に関する情報を取得します。
 
@@ -109,11 +109,11 @@ if (mbox.name == 'Track_Interest') {
 
 プロファイルスクリプトが無効化されると、次に示すように、Target UI のプロファイルスクリプトの横に黄色の警告アイコンが表示されます。
 
-![profile_script_invalid image](assets/profile_script_invalid.png)
+![profile_script_invalid 画像](assets/profile_script_invalid.png)
 
 マウスポインターを重ねると、次のように、エラーの詳細が表示されます。
 
-![profile_script_hover image](assets/profile_script_hover.png)
+![profile_script_hover 画像](assets/profile_script_hover.png)
 
 システムがプロファイルスクリプトを無効にする一般的な理由は次のとおりです。
 
@@ -161,7 +161,7 @@ if (mbox.name == 'Track_Interest') {
 
    次に示すように、[!DNL Target] を使用してページをサイトに読み込むたびに [!DNL Target] からのレスポンスの一部として、指定したプロファイルスクリプトの値が含まれます。
 
-   ![debug_profile_script_1 image](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 画像](assets/debug_profile_script_1.png)
 
 * **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグします。**
 
@@ -171,7 +171,7 @@ if (mbox.name == 'Track_Interest') {
 
    これらのパラメーターを追加することで、プロファイルの実行前後のスナップショットを取得できるため、レスポンストークンよりもやや詳細な情報を提供します。また、使用可能なすべてのプロファイルも表示されます。
 
-   ![debug_profile_script_2 image](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2 画像](assets/debug_profile_script_2.png)
 
 ## プロファイルスクリプトの FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 
