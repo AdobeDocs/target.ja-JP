@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
-source-wordcount: '4593'
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+workflow-type: tm+mt
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ at.js の既知の問題を以下に示します。
 Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
 
 現在のすべての Analytics パッケージで、このモデルに Attribution IQ を追加できます。Attribution IQ にアクセスできない場合は、Reports &amp; Analytics の A4T データを使用してください。
-
-### レポート - ダウンロード可能な .csv レポートのデータと [!DNL Target] UI に表示されるレポートのデータに一貫性がない  {#csv}
-
-アクティビティユーザーが.複数の指標を使用している場合、csv ファイル形式でダウンロード用に生成されたレポートに一貫性がありません。ダウンロード可能なレポートは、レポート設定に基づいてのみ生成され、他の指標で使用される場合と同じ値を考慮します。
-
-信頼できる唯一の情報源は常に [!DNL Target] UIに表示されるレポートです。
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
