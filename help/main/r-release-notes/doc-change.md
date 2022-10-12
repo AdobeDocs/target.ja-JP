@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10月10日（PT） | [[!UICONTROL ビジュアル編集ヘルパー] 拡張](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい記事。 |
+| 10月10日（PT） | [[!UICONTROL Visual Editing Helper] 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい記事。 |
 |  | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 「[VEC にページが表示されません（VEC のみ）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」セクションに追加します。 |
-| 10月4日（PT） | [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、 *Adobe Target A/B テストの計算* このサイトで以前にダウンロード可能だった pdf ファイル。 |
+| 10月4日（PT） | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、以前このサイトでダウンロード可能だった *Adobe Target A/B テストの計算*&#x200B;の PDF ファイルに代わるものです。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Adobe Target] Standard／Premium 22.9.1（時差リリース 2022年9月13日～15日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10月3日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | の日付を更新しました [!DNL Target Standard/Premium] 22.10.1リリース。 |
+| 10月3日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースの日付を更新しました。 |
 | 9月22日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年9月28日（PT））</li></ul> |
 | 9月15日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに関する情報を追加しました。<ul><li>AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））</li></ul> |
 | 9月13日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
