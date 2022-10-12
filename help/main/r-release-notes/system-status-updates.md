@@ -5,9 +5,9 @@ title: ' [!DNL Target]  やその他のアドビ製品のステータスにつ�
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 97%
 
 [https://status.adobe.com](https://status.adobe.com)
 
-ソリューションの [!DNL Experience Cloud] ステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
+[!DNL Experience Cloud] ソリューションのステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
 
-![system_status イメージ](assets/system_status.png)
+![system_status 画像](assets/system_status.png)
 
 ページの上部には、進行中のメンテナンスイベントに関する情報が表示され、各ソリューションのアップデートにサブスクライブするためのリンクがあります。
 
