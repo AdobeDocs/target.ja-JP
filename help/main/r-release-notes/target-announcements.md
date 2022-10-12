@@ -4,9 +4,9 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
+source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1894'
 ht-degree: 100%
 
 ---
@@ -20,28 +20,6 @@ ht-degree: 100%
 Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
-
-
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレイク（2022年9月28日（PT））
-
-Gentry Lin や Brent Kostak と共に、[!DNL Adobe Target] のお客様がイベント固有の [!UICONTROL Target コミュニティ]ディスカッションスレッドに投稿した質問にリアルタイムで返信しましょう。このコーヒーブレークは、最近の [!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化ウェビナーのウェビナー Q&amp;A トークを拡張したものとなります。
-
-+++詳細
-
-* **2022年9月28日 水曜日**
-* **午前 8:00～9:00（PDT、UTC-7）**
-* **[登録リンク](https://adobe.ly/3pYkmMG){target=_blank}**
-
-[[!DNL Adobe Target]  モバイルエクスペリエンスの最適化に関するスキルビルダーエクスペディションシリーズのウェビナー](https://video.tv.adobe.com/v/347360){target=_blank} で取り上げたトピックについての質問や、Gentry と Brent の専門分野である [!DNL Target] についての質問を投稿してください。
-
-* [!UICONTROL A/B テスト]、[!UICONTROL 多変量分析テスト]（MVT）、[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティ、自動化されたテストとパーソナライゼーション
-* アクティビティ設定のワークフロー手順
-* バッチエクスペリエンスのプリフェッチ、モバイルの常時稼動パーソナライゼーションの有効化
-* 顧客体験、モバイル SDK および API、iOS および Android プラットフォームの実装全体にわたるテストとターゲティングのライフサイクル指標
-* コア web オーサリングワークフロー
-* [!DNL Adobe Experience Cloud] 統合
-
-+++
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
