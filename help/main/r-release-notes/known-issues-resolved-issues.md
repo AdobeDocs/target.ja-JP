@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ ht-degree: 100%
 
 以下の節では、[!DNL Target] の既知の問題について説明します。
 
-### 拡張 Experience Composer（EEC）は、PUT リクエストをサポートしていません。
-
-EEC の問題により、現在、EEC で PUT リクエストがサポートされなくなり、504 タイムアウトエラーが発生します。（TGT-41493）
-
-### [!DNL Adobe Experience Platform] セグメント名は[!UICONTROL 重要な属性]レポートには表示されません。
-
-[!DNL Adobe Experience Platform] セグメント名は、[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target]（AT）アクティビティの[!UICONTROL 重要な属性]レポートに表示されません。（上位 3813 項目）
-
 ### [!UICONTROL 自動ターゲット]アクティビティをアーカイブすると、同期の問題が発生する場合があります
 
 非アクティブな[!UICONTROL 自動ターゲット]アクティビティをアーカイブしようとすると、同期の問題が発生する可能性があります。この問題が解決されるまでは、[!UICONTROL 自動ターゲット]アクティビティをアーカイブしないでください。これらは[!UICONTROL 非アクティブ]状態のままにします。（TGT-40885）
-
-### リダイレクトオファー {#redirect}
-
-* at.js 実装でのアクティビティのリダイレクトは、プレビュー URL がループする原因となる可能性があります（オファーが繰り返し配信されます）。代わりに [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、プレビューと QA を実行できます。この問題は、実際のオファーの配信には影響しません。（TGT-23019）
 
 ### Visual Experience Composer（VEC）内のページの読み込みのキャンセル  {#cancel}
 
@@ -86,12 +74,6 @@ at.js の既知の問題を以下に示します。
 * at.js は、ファーストパーティ cookie が現在サポートされていないので、Cordova／ハイブリッドアプリで動作しない可能性があります。（TNT-26166）
 
    **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
-
-### 成功指標
-
-詳細オプション「カウントの増分方法」を「すべてのインプレッション」または「すべてのインプレッション（更新を除く）」に設定した成功指標を使用することはできません。これは、1 つの成功指標に別の指標が依存することになるためです。
-
-インプレッションの発生ごとに成功指標を増分するよう設定されている場合、訪問者がこの成功指標を訪問するたびに Target は訪問者数をカウントします。成功指標「メンバーシップ」はその後 0 に設定されるので、次のインプレッションでもカウントが発生することになります。このため、この指標の表示が別の指標の条件になっていると、Target ではユーザーが最初の指標を表示したことを認識できなくなります。
 
 ### Analytics for [!DNL Target]（A4T）
 

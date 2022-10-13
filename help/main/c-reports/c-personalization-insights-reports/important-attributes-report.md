@@ -4,9 +4,9 @@ description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼー�
 title: 重要な属性レポートとは何ですか。
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ ht-degree: 80%
 * モデルの学習に最も重要であった属性を把握します。
 * パーソナライゼーションモデルで使用される属性と、それらの重要度を確認します。
 * Target に追加のデータポイントを渡して、パーソナライゼーションに役立つ情報を拡充する機会を特定します。
+
+## 既知の問題
+
+次の問題は、現在、 [!DNL Target] エンジニアリングチーム。
+
+* [!DNL Adobe Experience Platform] セグメント名は、[!UICONTROL Automated Personalization]（AP）および [!UICONTROL Auto-Target]（AT）アクティビティの[!UICONTROL 重要な属性]レポートに表示されません。（上位 3813 項目）

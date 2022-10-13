@@ -4,10 +4,10 @@ description: 成功指標についてのAdobe [!DNL Target] これは、アク�
 title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 43%
+source-wordcount: '1267'
+ht-degree: 41%
 
 ---
 
@@ -77,8 +77,8 @@ In [!DNL Target]の場合、成功指標は、レポートおよび追跡の両�
 
 * [!UICONTROL Recommendations アクティビティ。]それ以外のすべてのアクティビティタイプには対応しています。
 * 次を使用する場合、 [レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
-* 「ページが表示された」の指標タイプ。
-* Visual Experience Composer（VEC）アクティビティの「要素をクリックしました」の指標タイプ。
+* 「ページが表示されました」指標タイプ。
+* Visual Experience Composer(VEC) アクティビティの「要素をクリックしました」指標タイプ。
 
 従属成功指標は次の場合にはコンバートされません。
 
@@ -106,6 +106,12 @@ In [!DNL Target]の場合、成功指標は、レポートおよび追跡の両�
 * 参加者ごとに 1 回
 * すべてのインプレッション（ページの更新を除く）
 * すべてのインプレッション
+
+## 既知の問題
+
+* 詳細オプション「カウントの増分方法」を「すべてのインプレッション」または「すべてのインプレッション（更新を除く）」に設定した成功指標を使用することはできません。これは、1 つの成功指標に別の指標が依存することになるためです。
+
+成功指標がインプレッションごとに増分するように設定されている場合、 [!DNL Target] は、訪問者がこの成功指標を訪問するたびに訪問者を再度カウントします。 [!DNL Target] 次に、成功指標「メンバーシップ」を 0 にリセットし、次のインプレッションで再度カウントできるようにします。 したがって、別の指標が最初にこの指標を表示する必要がある場合、 [!DNL Target] は、ユーザーが最初の指標を閲覧したことを認識しません。
 
 ## トレーニングビデオ： アクティビティ指標
 
