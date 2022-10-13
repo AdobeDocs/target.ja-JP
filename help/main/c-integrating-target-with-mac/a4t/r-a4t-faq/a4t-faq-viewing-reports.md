@@ -4,10 +4,10 @@ description: Analytics for  [!DNL Target] （A4T）でのレポート表示に�
 title: A4T でのレポート表示に関する FAQ
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 89%
+source-wordcount: '2638'
+ht-degree: 81%
 
 ---
 
@@ -15,17 +15,23 @@ ht-degree: 89%
 
 このトピックには、[!DNL Adobe Analytics] を [!DNL Adobe Target]（A4T）のレポートソースとして使用する場合のレポートの表示に関するよくある質問に対する回答が含まれています。
 
-## Analysis Workspace で [!DNL Target] アクティビティデータを表示できますか？ {#workspace}
+## 自分の [!DNL Target] アクティビティデータ [!DNL Analysis Workspace]? {#workspace}
 
 [!DNL Analysis Workspace] を使用して、[!DNL Target] アクティビティとエクスペリエンスを分析できます。この [Analytics for Target パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)では、最大 3 つの成功指標に対する上昇率と信頼性を確認できます。また、テーブルとビジュアライゼーションを使用して、より深く掘り下げることもできます。
 
-詳細と例については、Adobe Experience League が提供する [Analytics &amp; Target：分析のベストプラクティスチュートリアル](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)をご覧ください。
+詳細と例については、 [Analytics &amp; Target:分析のベストプラクティスチュートリアル](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)、で指定 [!UICONTROL Adobe Experience League].
 
-## Analysis Workspace でセグメントを適用できる場所はどこですか？ {#segmentation}
+## でセグメントを適用できる場所 [!DNL Analysis Workspace]? {#segmentation}
 
 一般的に、セグメントは、セグメントドロップゾーンのパネルの上部で使用されます。セグメントは、パネル内のすべてのテーブルとビジュアライゼーションに適用されます。この手法は、テストがユーザーのサブセットにどのように影響するか（例えば、このテストがイギリスにいる人々にどのように機能したか）を確認するのに最も役立ちます。
 
 セグメントは、直接フリーフォームテーブル内で階層化することもできますが、A4T パネル内で上昇率と信頼性の計算を正確に表示するには、テーブル全体にオーバーレイでセグメントを表示する必要があります。列レベルのセグメントは、現在、パネル内ではサポートされていません。
+
+## 「同じタッチ」Attribution IQモデルを [!DNL Analysis Workspace]?
+
+を使用する場合 [!DNL Target] アクティビティのインプレッション数とコンバージョン数 [!DNL Analysis Workspace]を使用する場合は、正確なカウントをおこなうために、「同じタッチ」Attribution IQモデルを指標に適用します。 [デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
+
+すべての現在 [!DNL Adobe Analytics] パッケージは、このモデルを [!UICONTROL Attribution IQ]. にアクセスできない場合 [!UICONTROL Attribution IQ]を使用する場合は、 [!UICONTROL Reports &amp; Analytics].
 
 ## 特定の [!DNL Target] アクティビティにヒットセグメントを適用すると、関連のないエクスペリエンスも返されます。なぜですか？ {#activity-segmentation}
 
@@ -33,7 +39,7 @@ ht-degree: 89%
 
 ヒットに存在するようなアクティビティについてセグメント化を行うと、そのアクティビティに含まれるすべてのエクスペリエンス&#x200B;*に加え*、そのヒットで持続する他のエクスペリエンスも返されます。
 
-## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？
+## 次を設定中： [!UICONTROL 目標指標]アクセスできない理由 [!UICONTROL 詳細設定]?
 
 [!DNL Analytics] をレポートソース（A4T）として使用するアクティビティの場合、目標指標は「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]」設定および「[!UICONTROL すべてのインプレッション]」設定を使用します。これらの設定は、*変更できません*。
 
@@ -56,17 +62,17 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 
 詳しくは、*Adobe Target チュートリアル*&#x200B;の [Analysis Workspace での自動ターゲットアクティビティに関する A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja)を参照してください。
 
-## Analysis Workspace の「アクティビティのインプレッション」と「アクティビティのコンバージョン」が Reports &amp; Analytics よりも高いのはなぜですか？ {#sametouch}
+## が [!DNL Analysis Workspace] 次よりも大きい [!UICONTROL Reports &amp; Analytics]? {#sametouch}
 
 [!DNL Reports & Analytics] では「アクティビティのインプレッション」と「アクティビティのコンバージョン」に同じタッチのアトリビューションモデルが適用されますが、[!DNL Analysis Workspace] では生の指標が表示されます。生の指標では、[!DNL Target] ディメンションの持続性により水増しが生じる場合があります。
 
 そのため、[!DNL Analysis Workspace] で[!UICONTROL アクティビティのインプレッション]と[!UICONTROL アクティビティのコンバージョン]を正確に評価するには、両方の指標に[!UICONTROL 同じタッチ]のアトリビューションモデルを適用する必要があります。モデルは、列設定の歯車をクリックして、[!UICONTROL デフォルト以外のアトリビューションモデル]を有効にしてから、[!UICONTROL 同じタッチ]を選択することで適用できます。アトリビューションについて詳しくは、*Analytics ツールガイド*&#x200B;の [Attribution IQ の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=ja)を参照してください。
 
-## アクティビティの設定中に Analytics 指標が選択されると、「アクティビティのコンバージョン」はどうなりますか？ {#section_F3EBACF85AF846E9B366A549AAB64356}
+## マーケティング担当者が選択する場合、「アクティビティコンバージョン」は何を意味しますか？ [!DNL Analytics] 指標を使用してアクティビティを設定しますか？ {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 アクティビティのコンバージョン指標として [!DNL Analytics] 指標が選択されると、「アクティビティのコンバージョン」は空になります。
 
-## Analytics レポートで「未指定」と表示されるのはなぜですか？これはどういう意味ですか？ {#unspecified}
+## で「未指定」と表示されるのはなぜですか？ [!DNL Analytics] レポート？ これはどういう意味ですか？ {#unspecified}
 
 他のレポートの場合、「未指定」は、データが分類ルールを満たしていなかったことを意味しますが、A4T の場合、これは発生しないはずです。「未指定」と表示される場合、分類サービスがまだ実行されていないことを意味します。アクティビティデータがレポートに表示されるまで、通常、24～72 時間かかります。その間、アクティビティはこのレポートに表示されませんが、これらのアクティビティに結び付けられたすべての訪問者データは、キャプチャされており、分類が完了すると表示されます。
 
@@ -74,9 +80,9 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 
 そのアクティビティで分類が実行されたにもかかわらず、レポートに「未指定」の行が表示される場合は、レポートで [!DNL Target] 指標以外の指標がデータ表示に使用されていないか確認してください。レポートで [!DNL Target] 固有の指標が使用されていない場合、「未指定」の行に含まれているのは、[!DNL Target] に関連付けられていない呼び出しのイベントです。その行には [!DNL Target] に関連付けられた情報（例：訪問者数、訪問回数、インプレッション数）は含まれていません。
 
-## アクティビティを非アクティブ化した後も [!DNL Target] 指標が Analytics に送信されるのはなぜですか？ {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## アクティビティを非アクティブ化した後も [!DNL Target] 指標が に送信されるのはなぜですか？[!DNL Analytics] {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-[!DNL Analytics] に送信される [!DNL Target] 変数には、デフォルトで 90 日間の有効期限があります。この有効期限は、必要に応じて、カスタマーケアで調整できます。この設定は、すべてのアクティビティでグローバルなので、1 つの事例のために調整することはしないでください。
+[!DNL Analytics] に送信される [!DNL Target] 変数には、デフォルトで 90 日間の有効期限があります。この有効期限は、必要に応じて、カスタマーケアで調整できます。この設定は、すべてのアクティビティでグローバルです。ただし、1 件に合わせて調整しないでください。
 
 有効期限が 90 日なのは、そのユーザーが A4T に対応した別の [!DNL Target] アクティビティを表示しなかった場合に限られます。そのため、それ以外の場合は、当初の有効期限後に [!DNL Target] 変数が [!DNL Analytics] に送信されることがあります。例えば、ユーザーが 45 日目にサイトに戻り、別のアクティビティを表示すると、A4T eVar 全体の値で、カウンターが 90 日にリセットされます。つまり、最初のキャンペーンは、1 日目から最大 45 + 90 = 135 日間残っていることになります。そのため、ユーザーが何度も繰り返し戻っていると、指標が [!DNL Analytics] に送信されたことを示す、かなり古いアクティビティに関するレポートを確認できることがあります。ユーザーが cookie を削除してサイトに戻らないと、そのアクティビティの数は減少しますが、表示は可能です。
 
@@ -123,7 +129,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 
 非アクティブ化後に A4T アクティビティのレポートのインプレッション数のソースになっているのは、QA モードのトラフィックである可能性があります。通常、Target では、非アクティブ化されたアクティビティのイベントはログに記録されません。しかし、Analytics では、このインプレッション数のデータが QA モードで収集されたかどうかを判定する手段がありません。そのため、Analytics から取得された Target アクティビティのレポートには、QA モードで収集されたインプレッション数が表示される可能性があります。アクティビティがアクティブでない場合でも、A4T レポートを確認する方法（QA モード）が必要なので、このような設計になっています。
 
-## Analytics と Analytics for Adobe Target（A4T）でユニーク訪問者数指標の計算方法が違うのはなぜですか？ {#section_0C3B648AB54041F9A2AA839D51791883}
+## 理由 [!DNL Analytics] および [!UICONTROL Adobe Target向け Analytics] (A4T) [!UICONTROL 実訪問者数] 指標の違いは何ですか？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
 A/B テストを実行する場合 ( [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼性指標）でテストの勝者を選択する場合、前提の 1 つは、固定期間があるということです。 テストは、その固定サンプルサイズを調べない限り、統計的に有効ではありません。
 
@@ -133,7 +139,7 @@ A/B テストを実行する場合 ( [ウェルチ t 検定](https://en.wikipedi
 
 時間を短縮できます。 [!DNL Target] 変数はセッションまで保持されます。ただし、同じセッション内でコンバージョンイベントが発生する可能性が低いテストでは、問題になります。
 
-## Analytics において、同一の訪問者が複数のエクスペリエンスでカウントされる場合があるのはなぜですか？ {#section_1397E972D31C4207A142E4D2D6D794A2}
+## で、同じ訪問者が複数のエクスペリエンスでカウントされることがあるのはなぜですか？ [!DNL Analytics]? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 [!DNL Analytics] で同一の訪問者が複数のエクスペリエンスでカウントされる理由は次のとおりです。
 
@@ -151,7 +157,7 @@ A/B テストを実行する場合 ( [ウェルチ t 検定](https://en.wikipedi
 
 ベストプラクティスは、アクティブ化の後に割合を変更するのではなく、既存のアクティビティを停止して、新しいアクティビティを作成することです。そうすると、新規訪問者が開始した新しいアクティビティのレポートと再訪問者からのデータのレポートで、レポートの不一致が生じることはありません。
 
-## Analytics では訪問はどのようにカウントされますか？ A4T を使用する自動ターゲットアクティビティでは、コンバージョンクレジットはどのように割り当てられますか？
+## 訪問のカウント方法： [!DNL Analytics] および [!UICONTROL 自動ターゲット] A4T を使用するアクティビティ
 
 訪問者が A4T アクティビティの対象となったり、コンテンツを表示したり、コンバージョンを行うと、[!DNL Target] はイベントデータを [!DNL Analytics] に送信します。このイベントデータにより、[!DNL Analytics] は、ページ上でコンバージョンイベントや他のクリックストリームイベントが発生した要因が、どの [!DNL Target] アクティビティやエクスペリエンスにあるのかを判定することができます。
 

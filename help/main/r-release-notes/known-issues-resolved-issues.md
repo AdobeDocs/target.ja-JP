@@ -4,9 +4,9 @@ description: 回避策の情報を含む、Adobe Target の既知の問題に関
 title: 既知の問題と解決された問題に関する情報はどこで入手できますか？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '4326'
+source-wordcount: '4229'
 ht-degree: 100%
 
 ---
@@ -74,12 +74,6 @@ at.js の既知の問題を以下に示します。
 * at.js は、ファーストパーティ cookie が現在サポートされていないので、Cordova／ハイブリッドアプリで動作しない可能性があります。（TNT-26166）
 
    **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
-
-### Analytics for [!DNL Target]（A4T）
-
-Analysis Workspaceで Target アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQ モデルを指標に適用します。[デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
-
-現在のすべての Analytics パッケージで、このモデルに Attribution IQ を追加できます。Attribution IQ にアクセスできない場合は、Reports &amp; Analytics の A4T データを使用してください。
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
