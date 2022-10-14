@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,23 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
+
+Drew Burns 氏（グループの製品マーケティングマネージャ） [!DNL Adobe Target]を選択すると、 [!DNL Target] 最近の拡張されたインテリジェンスと AI 機能の制御、およびすべてのパーソナライゼーションに関する最新のエキサイティングな発表に関する質問。
+
+* **10 月 26 日（水）**
+* **午前 9:00 ～ 10:00（PDT、UTC-7）**
+* **[登録情報](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
+
+現時点でスケジュールされているものはありません。
+
+## 過去のウェビナーやスキルビルダーセッションの録画
+
+過去のイベントの録画にアクセス（利用可能な場合）：
 
 ### AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））
 
@@ -31,38 +45,26 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 [!DNL Adobe Target] において、大規模なパーソナライゼーションに関する「非常に大きな」画期的なニュースをご紹介させていただきます。[!DNL Target] ユーザーが AI を活用したパーソナライゼーションアクティビティを微調整し、アクティビティ単位で最も重要なビジネス指標に直接影響を与える能力を強化するための新しいフィルタリングとインテリジェンスを提供します。
 
-+++詳細
+* [録画リンク](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-ここ数年、業界を問わずパーソナライゼーションのニーズが高まっており、今回の新製品発表はタイムリーかつ極めて重要であると考えています。パーソナライゼーションは、企業がカスタマージャーニーを通じて競合と決定的な差別化を図るための手段となっているのです。パーソナライゼーションは、訪問者のファーストタッチから始まり、獲得ユースケースでの基礎データの活用、カスタマーサービスやロイヤルティユースケースまで、「あらゆる場所」で高い効果を発揮することが可能です。
+   +++詳細
 
-今回のセッションでは、下記の内容とともに、[!DNL Adobe Target] の新機能を活用してコンバージョン率を著しく上昇させる方法を説明します。
+   ここ数年、業界を問わずパーソナライゼーションのニーズが高まっており、今回の新製品発表はタイムリーかつ極めて重要であると考えています。パーソナライゼーションは、企業がカスタマージャーニーを通じて競合と決定的な差別化を図るための手段となっているのです。パーソナライゼーションは、訪問者のファーストタッチから始まり、獲得ユースケースでの基礎データの活用、カスタマーサービスやロイヤルティユースケースまで、「あらゆる場所」で高い効果を発揮することが可能です。
 
-* [!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]アクティビティのモデルコントロール強化
-* [!DNL Adobe] の [!DNL Real-Time Customer Data Platform] からプロファイル属性および高価値セグメントを評価する機能のロック解除
-* ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
-* 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
+   今回のセッションでは、下記の内容とともに、[!DNL Adobe Target] の新機能を活用してコンバージョン率を著しく上昇させる方法を説明します。
 
-* **2022年10月11日 火曜日（PT）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
-* **[その他の情報および登録情報](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+   * [!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]アクティビティのモデルコントロール強化
+   * [!DNL Adobe] の [!DNL Real-Time Customer Data Platform] からプロファイル属性および高価値セグメントを評価する機能のロック解除
+   * ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
+   * 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
 
 +++
-
-## 過去のウェビナーやスキルビルダーセッションの録画
-
-過去のイベントの録画にアクセス（利用可能な場合）：
 
 ### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT））
 
 実験とパーソナライゼーションの自動化は常に、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI を促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] の高度な AI 駆動のユースケースと機能を製品およびコンテンツの推奨事項とともに使用して、競争に先立ち、すべてのエクスペリエンスで勝つ方法を学びましょう。
 
-+++詳細
-
-* **2022年9月15日（木）（PT）**
-* **午後 1:00 ～ 2:00（EDT、UTC-4）**
-* **[その他の情報および登録情報](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
+* [録画リンク](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] スキルビルダー - モバイルエクスペリエンスの最適化（2022年9月6日（PT））
 
