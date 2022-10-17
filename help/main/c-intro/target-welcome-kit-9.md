@@ -4,20 +4,20 @@ description: あなたは Adobe Target で初めてのアクティビティを�
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 83%
 
 ---
 
 # 第 9 章：次の手順とリソース
 
-最初のアクティビティの実行の基本について説明しました。アクティビティにより、[!DNL Adobe Target] を使って最適化やパーソナライズをおこなうことで、ビジネスの収益に影響を与える素晴らしい可能性がおわかりいただけたことでしょう。これはスタートに過ぎません。2 番目のアクティビティで何に焦点を当てるべきか考える時がきました。実行するアクティビティの優先順位付けされたリストを作成することを検討します。アクティビティを実行するごとにどれだけ迅速に顧客体験が向上し、ビジネスを成功に導くか驚かれることでしょう。
+最初のアクティビティの実行に関する基本事項を説明しました。 アクティビティにより、[!DNL Adobe Target] を使って最適化やパーソナライズをおこなうことで、ビジネスの収益に影響を与える素晴らしい可能性がおわかりいただけたことでしょう。これはスタートに過ぎません。2 つ目のアクティビティに焦点を当てるべきことを考える時ですか？ 実行するアクティビティの優先順位付けされたリストを作成することを検討します。アクティビティごとのアクティビティが顧客体験を向上させ、ビジネスを成功に導く速さに驚きます。
 
-テストや、パーソナライゼーション、および [!DNL Target] の使い方を学ぶには、いろいろな方法があります。以下のリソースのリストを確認し、その知識の構築を開始します。ウェビナーを視聴、Adobe Target のブログを読み、Adobe Summit に出席、Adobe Target のオンラインコミュニティに積極的に参加しましょう。お客様がプログラムを立ち上げて成功させられるよう、アドビがお手伝いいたします。いつでもご連絡ください。
+テストや、パーソナライゼーション、および [!DNL Target] の使い方を学ぶには、いろいろな方法があります。以下のリソースのリストを確認し、その知識の構築を開始します。ウェビナーを視聴、Adobe Target のブログを読み、Adobe Summit に出席、Adobe Target のオンラインコミュニティに積極的に参加しましょう。プログラムを起動し、成功への道筋を示すために、常にここにいるのを忘れないでください。 いつでもご連絡ください。
 
-[!DNL Target] を使用して最適化とパーソナライゼーションに関する知識をさらに深められるよう、貴重なリストを整理してまとめました。
+以下を使用して最適化とパーソナライゼーションに関するより多くの知識を得るのに役立つ、貴重な情報の整理されたリストを作成しました。 [!DNL Target].
 
 ## リソースリンク
 
@@ -42,7 +42,6 @@ ht-degree: 100%
 
 * **Adobe Target ホームページ**：[!DNL Adobe Target] のホームページ。当社の能力について学び、最新の成功事例をこちらでご覧ください。[Adobe Target](https://www.adobe.com/jp/marketing/target.html) を参照してください。
 * **ブログ**：[Target のブログ](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
-* **Experience League**：エクスペリエンスビジネスを始動、ターゲットコミュニティとつながり、探している回答を見つけるのに必要なガイドやイベントが用意されています。[Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
+* **Experience League**:エクスペリエンスビジネスを開始し、Target コミュニティと連携して、探している回答を見つけるために必要なガイド、イベント、トレーニングを確認します。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。ここで試験のスケジュールを設定、またはトレーニングコースを受けます。[トレーニングと資格認定](/help/main/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。[Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md)を参照してください。
-* **Adobe Target ニュースレター**：製品のアップデートや将来の計画、パーソナライゼーションや最適化のためのヒントとテクニック、ユーザー事例、今後のイベント、情報満載のホワイトペーパー、人気のブログ記事などの情報をお知らせします。[Target insider ニュースレター](/help/main/r-release-notes/target-insider-newsletter.md)を参照してください。
