@@ -4,10 +4,10 @@ description: Analytics を使用して [!DNL Target] (A4T)。 A4T は、 [!DNL T
 title: A4T でレポートを使用する方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 47%
+source-wordcount: '1312'
+ht-degree: 45%
 
 ---
 
@@ -77,7 +77,7 @@ In [!DNL Analysis Workspace]、 [!UICONTROL Analytics for Target] パネルを�
 
 ## Analytics for Adobe Target(A4T) でのオフライン計算の実行 {#section_B34BD016C8274C97AC9564F426B9607E}
 
-A4T でオフライン計算を実行することはできますが、[!DNL Analytics] でのデータエクスポートを含む手順が必要になります。
+A4T でオフライン計算を実行し、信頼区間と信頼区間を [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルに関する情報は含まれていますが、 [!DNL Analytics].
 
 A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test)（バイナリ指標ではなく）連続変数の {target=_blank} 計算。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定計算を実行するには、t 統計の分母に使用される平方偏差を計算するために、「平方和」が必要です。 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用する数式の詳細について説明します。 平方和は、 [!DNL Analytics]. 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
 

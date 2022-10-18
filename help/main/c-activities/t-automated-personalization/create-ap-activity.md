@@ -4,10 +4,10 @@ description: 以下を作成する方法を説明します。 [!UICONTROL Automa
 title: 方法 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >AP アクティビティではエクスペリエンスを 30,000 個まで作成できますが、エクスペリエンスが 5,000 個未満の場合にアクティビティは最高のパフォーマンスを発揮します。
+   >AP アクティビティではエクスペリエンスを 30,000 個まで作成できますが、エクスペリエンスが 5,000 個未満の場合にアクティビティは最高のパフォーマンスを発揮します。この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。
 
    [!UICONTROL エクスペリエンス]リストには、アクティビティ用に選択されたコンテンツの各部分と、それが割り当てられている場所が表示されます。
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
    ![コンテンツを管理ダイアログボックスの「除外グループ」タブ](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   AP テストでは 30,000 個までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのはエクスペリエンスが 10,000 個未満の場合です。
+   AP テストでは 30,000 個までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのはエクスペリエンスが 10,000 個未満の場合です。この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。
 
    アクティビティでまだ除外グループを使用していない場合は、「**除外グループを作成**」をクリックします。リストにフィルターを適用し、除外する組み合わせのみを表示できます。除外グループに名前を付け、「**保存**」をクリックします。
 

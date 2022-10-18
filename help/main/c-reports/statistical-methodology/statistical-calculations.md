@@ -3,20 +3,20 @@ keywords: レポート，統計的手法，統計的計算，統計，平均，�
 description: 手動で使用する統計指標について説明します [!UICONTROL A/B テスト] アクティビティ [!DNL Adobe Target].
 title: 統計指標については、 [!UICONTROL A/B テスト] アクティビティ？
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
-# A/Bn テストの統計指標
+# A/Bn テストでの統計計算
 
 この記事では、 [!DNL Adobe Target]. 次の定義が提供されています： [!UICONTROL コンバージョン率], [!UICONTROL コンバージョン率の信頼区間], [!UICONTROL 上昇率], [!UICONTROL 上昇率の信頼区間]、および [!UICONTROL 信頼性].
 
 >[!NOTE]
 >
->この記事の情報は、 *Adobe Target A/B テストの計算* このサイトで以前にダウンロード可能だった pdf ファイル。
+>この記事の情報は、以前このサイトでダウンロード可能だった *Adobe Target A/B テストの計算*&#x200B;の PDF ファイルに代わるものです。
 
 ![次を示すターゲットレポート [!UICONTROL コンバージョン率], [!UICONTROL 平均上昇率と信頼区間]、および [!UICONTROL 信頼性] A/B テストアクティビティの](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ In [!DNL Target]，両側 **ウェルチ t 検定** は、テストエクスペ�
 
 [ダウンロードした CSV レポート](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) には生データのみが含まれ、A/B テストで使用される訪問者あたりの売上高、上昇率、信頼性などの計算指標は含まれません。
 
-これらの統計量を計算するには、Target の [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力する Excel ファイル。
+これらの統計量を計算するには、 [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) アクティビティの値を入力する Excel ファイル。
