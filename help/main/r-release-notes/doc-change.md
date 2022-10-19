@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 |  | [Automated Personalization に関する FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP テストで最大 30,000 個のエクスペリエンスを作成できますが、10,000 個未満の個別のエクスペリエンスが使用された場合にアルゴリズムが最も高いパフォーマンスを発揮することを示すように、テキストを更新しました。 この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。 |
 | 10月14日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 登録に関する情報を [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 10 月 26 日）。 |
 | 10月10日（PT） | [[!UICONTROL Visual Editing Helper] 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい記事。 |
-|  | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 「[VEC にページが表示されません（VEC のみ）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」セクションに追加します。 |
+|  | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 「[VEC にページが表示されません（VEC のみ）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」の節を更新しました。 |
 | 10月4日（PT） | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、以前このサイトでダウンロード可能だった *Adobe Target A/B テストの計算*&#x200B;の PDF ファイルに代わるものです。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースに関するリリースノートを追加しました。 |
 
