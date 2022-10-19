@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ ht-degree: 63%
 
 | 機能 | 詳細 |
 | --- | --- |
-| 連続指標 | 売上高などの継続的な指標を [!UICONTROL 自動ターゲット] および [!UICONTROL 配分 — 配分] アクティビティ。<br>以前は、 [!UICONTROL 自動ターゲット] および [!UICONTROL 自動配分] モデルは、バイナリ（コンバージョンベース）の指標のみを扱うように最適化されています。 （TGT-43649 および TGT-43649） |
-| [!DNL Recommendations] わかりやすい名前 | わかりやすい名前を [!UICONTROL Analytics for Target] A4T レポート。 以前は、 [!DNL Target] リストに表示されたエクスペリエンス ID。 この強化により、A4T でのレポート作成を合理化できます。 (TGT-41853 |
+| 連続指標 | 売上高などの継続的な指標を [!UICONTROL 自動ターゲット] および [!UICONTROL 配分 — 配分] アクティビティ。<br>以前は、 [!UICONTROL 自動ターゲット] および [!UICONTROL 自動配分] モデルは、バイナリ（コンバージョンベース）の指標のみを扱うように最適化されています。 (TGT-43649および TGT-43649)<BR>この機能は、一部のお客様のみ利用できます。 この機能は、今後のリリースですべてのお客様が利用できるようになります。 |
+| [!DNL Recommendations] わかりやすい名前 | わかりやすい名前を [!UICONTROL Analytics for Target] A4T レポート。 以前は、 [!DNL Target] リストに表示されたエクスペリエンス ID のみ。 この強化により、 [!DNL Adobe Analytics] および [!DNL Target] お客様が A4T でレポートを合理化するのに役立ちます。 (TGT-41853 |
 
-* ツールチップを [!DNL Target] UI を使用して、顧客がオーディエンスビルダーをより効率的にナビゲートできるようにします。 （TGT-44139）
-* ユーザーが [!DNL Target] サポートされていない指標を使用しているので。 UI のメッセージは、アクティビティを複製してコンバージョン指標を更新するように顧客に指示します。 (TGT-43860、TGT-43861、および TGT-43650)
+* ツールチップを [!DNL Target] UI を使用して、顧客がオーディエンスビルダーをより効率的にナビゲートし、一般的でない機能の使用方法を学習します。 （TGT-44139）
+* ユーザーが [!DNL Target] サポートされていない指標を使用しているので。 UI のメッセージは、アクティビティを複製してコンバージョン指標を更新するように顧客に指示します。
+
+   このリリースでは `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは、新しいアクティビティでは非推奨となります。 既存のアクティビティでは、2023 年 2 月 7 日まで、これらの指標を引き続き使用できます。 (TGT-43860、TGT-43861、および TGT-43650)
+
 * にツールチップを追加しました。 [!DNL Target] 顧客が最適化条件を選択し、 [!UICONTROL 自動ターゲット] A4T を使用するアクティビティ （TGT-43713）
 
 ## その他のリリースノートとバージョンの詳細

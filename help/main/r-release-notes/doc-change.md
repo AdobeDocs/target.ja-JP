@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 93%
+source-wordcount: '1477'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 93%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月19日 | [カテゴリ親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 複数のカテゴリが 1 回の mbox 呼び出し内で渡される場合のスコアリングを説明する注意書きを追加しました。 |
 | 10月18日（PT） | [[!UICONTROL Automated Personalization アクティビティの作成]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP テストで最大 30,000 個のエクスペリエンスを作成できますが、10,000 個未満の個別のエクスペリエンスが使用された場合にアルゴリズムが最も高いパフォーマンスを発揮することを示すように、テキストを更新しました。 この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。 |
 |  | [Automated Personalization に関する FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP テストで最大 30,000 個のエクスペリエンスを作成できますが、10,000 個未満の個別のエクスペリエンスが使用された場合にアルゴリズムが最も高いパフォーマンスを発揮することを示すように、テキストを更新しました。 この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。 |
 | 10月14日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 登録に関する情報を [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 10 月 26 日）。 |

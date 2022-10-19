@@ -4,10 +4,10 @@ description: カテゴリ親和性については、 [!DNL Adobe Target] これ�
 title: カテゴリ親和性とは
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '830'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 68%
 * カテゴリが既にクリックされている（表示されている）場合、そのカテゴリをもう一度クリックしても、他のすべてのカテゴリから 1 が減算されることはありません
 * 6番目の新しいカテゴリがクリックされると、最初の5つのカテゴリの最も低いスコアカテゴリが計算から除外されます
 * セッションの終了時に、すべての値を2で除算します
+
+>[!NOTE]
+>
+>1 回の mbox 呼び出しで複数のカテゴリが渡される場合、 `categoryAffinities` は保証されていません。 最初に任意のカテゴリが記録され、スコア 10 を受け取る。
 
 ### 例：カテゴリ親和性のアルゴリズム
 
