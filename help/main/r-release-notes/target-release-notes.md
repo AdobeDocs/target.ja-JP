@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
+source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 63%
 
 ---
 
@@ -15,31 +15,28 @@ ht-degree: 100%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2022年10月5日（PT）**
+**最終更新日：2022年10月19日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 22.10.1（時差リリース 2022年10月10～13日（PT））
+## [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年25月10～27日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **10月10日（PT）**：アジア太平洋（APAC）地域
-* **10月12日（PT）**：アメリカ地域
-* **10月13日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **10月25日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **26月10日（PT）**：アジア太平洋（APAC）地域
+* **10月27日（PT）**：アメリカ地域
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!DNL Adobe Experience Manager]（AEM）エクスペリエンスフラグメント | AEM エクスペリエンスフラグメント機能の更新内容は次のとおりです。<ul><li>[!UICONTROL オファー]リストでタイプ（HTML または JSON）別に AEM エクスペリエンスフラグメントをフィルタリングできる機能が追加されました。（TGT-43121）</li><li>未対応の VEC の使用時に、顧客が JSON [!UICONTROL エクスペリエンスフラグメント]オファーを挿入できる問題を修正しました。JSON オファーは、[!UICONTROL フォームベースの Experience] Composer を使用する場合にのみ挿入できます。（TGT-43846）</li></ul>詳しくは、AEM [エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。 |
-| Google Chrome 用の新しい [!UICONTROL Visual Experience Composer] 拡張機能 | Chrome 用の新しい [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]（VEC）拡張機能は、Chrome web ストアで入手できます。<br>2023年1月以降、Google Chrome では、現在の [!DNL Target] VEC Helper 拡張機能が動作しなくなります。これは、Google がManifest V2 を使用した拡張機能を許可しないためです。新しい拡張機能をダウンロードすれば、新年から引き続き [!DNL Target] で web サイトを視覚的に作成できます。<br>以下のリンクは、Chrome web ストアの 2 つの拡張機能を示しています。<ul><li>[新しい拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[古い拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>詳しくは、[Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を参照してください。 |
-| ドキュメントの更新 | ドキュメントの主な更新内容は次のとおりです。<ul><li>新規および更新済みの [Adobe Target 管理 API およびレポート API ドキュメント](https://developer.adobe.com/target/administer/admin-api/){target=_blank}では、プロパティ、オファー、ホスト、環境、クライアント、オーディエンス、アクティビティなどの、管理 API エンドポイントとレポート API エンドポイントについて包括的に説明しています。<br>この開発者向けコンテンツとその追加コンテンツについては、[[!DNL Adobe Target] [!UICONTROL 開発者ガイド]](https://developer.adobe.com/target/){target=_blank}を参照してください。</li><li>[A/Bn テストの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>この記事では、[!DNL Adobe Target] の手動 A/Bn テストで使用される統計計算を詳しく説明しています。<br>この記事の情報は、このサイトで以前にダウンロード可能だった *Adobe Target A/B テストの計算*&#x200B;の PDF ファイルに代わるものです。</li></ul> |
+| 連続指標 | 売上高などの継続的な指標を [!UICONTROL 自動ターゲット] および [!UICONTROL 配分 — 配分] アクティビティ。<br>以前は、 [!UICONTROL 自動ターゲット] および [!UICONTROL 自動配分] モデルは、バイナリ（コンバージョンベース）の指標のみを扱うように最適化されています。 （TGT-43649 および TGT-43649） |
+| [!DNL Recommendations] わかりやすい名前 | わかりやすい名前を [!UICONTROL Analytics for Target] A4T レポート。 以前は、 [!DNL Target] リストに表示されたエクスペリエンス ID。 この強化により、A4T でのレポート作成を合理化できます。 (TGT-41853 |
 
-* オーディエンスルールの情報が[!UICONTROL オーディエンスの絞り込み]情報ウィンドウに正しく表示されない問題を修正しました。（TGT-43917）
-* [ターゲティングルールの推奨制限](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)に近づくオーディエンスを読み込む際の [!DNL Target] UI のパフォーマンスを改善しました。（TGT-43675）
-* [!UICONTROL 作成]モードから[!UICONTROL 参照]モードに切り替えた後、VEC でアクティビティを作成または編集する際に、一部のコンポーネントが[!UICONTROL エクスペリエンス]ページの[!UICONTROL 変更]パネルに正しく表示されない問題を修正しました。 （TGT-43300）
-* 一部の顧客が「[!UICONTROL 自動ターゲット]」を使用する [!UICONTROL A/B テスト]アクティビティをアーカイブできない問題を修正しました。（TGT-40978）
-* 1 つのレポートグループ内の複数の場所で 1 つのオファーを自動的に使用する機能が追加されました。 （TGT-40689）
+* ツールチップを [!DNL Target] UI を使用して、顧客がオーディエンスビルダーをより効率的にナビゲートできるようにします。 （TGT-44139）
+* ユーザーが [!DNL Target] サポートされていない指標を使用しているので。 UI のメッセージは、アクティビティを複製してコンバージョン指標を更新するように顧客に指示します。 (TGT-43860、TGT-43861、および TGT-43650)
+* にツールチップを追加しました。 [!DNL Target] 顧客が最適化条件を選択し、 [!UICONTROL 自動ターゲット] A4T を使用するアクティビティ （TGT-43713）
 
 ## その他のリリースノートとバージョンの詳細
 
