@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: 拡張 Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 39%
+source-wordcount: '469'
+ht-degree: 36%
 
 ---
 
@@ -71,7 +71,3 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 
 ご使用の環境でプロキシ IP がブロックされていないことを確認してください。
-
-## 既知の問題
-
-* EEC の問題により、現在、EEC で PUT リクエストがサポートされなくなり、504 タイムアウトエラーが発生します。（TGT-41493）
