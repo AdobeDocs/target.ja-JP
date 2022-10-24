@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク
+## [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク
 
-Drew Burns 氏（グループの製品マーケティングマネージャ） [!DNL Adobe Target]を選択すると、 [!DNL Target] 最近の拡張されたインテリジェンスと AI 機能の制御、およびすべてのパーソナライゼーションに関する最新のエキサイティングな発表に関する質問。
+ドリュー バーンズ（[!DNL Adobe Target] のグループ製品マーケティングマネージャー）が、 最近強化されたインテリジェンスと AI 機能の制御、およびすべてのパーソナライズ機能に関する最新のエキサイティングな発表について、皆さまの [!DNL Target] に関する質問に回答します。
 
-* **10 月 26 日（水）**
+* **10月26日 水曜日（PT）**
 * **午前 9:00 ～ 10:00（PDT、UTC-7）**
 * **[登録情報](https://adobe.ly/3e6gqHe){target=_blank}**
 
