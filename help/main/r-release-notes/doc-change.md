@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 92%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月19日 | [カテゴリ親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 複数のカテゴリが 1 回の mbox 呼び出し内で渡される場合のスコアリングを説明する注意書きを追加しました。 |
-| 10月18日（PT） | [[!UICONTROL Automated Personalization アクティビティの作成]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP テストで最大 30,000 個のエクスペリエンスを作成できますが、10,000 個未満の個別のエクスペリエンスが使用された場合にアルゴリズムが最も高いパフォーマンスを発揮することを示すように、テキストを更新しました。 この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。 |
-|  | [Automated Personalization に関する FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP テストで最大 30,000 個のエクスペリエンスを作成できますが、10,000 個未満の個別のエクスペリエンスが使用された場合にアルゴリズムが最も高いパフォーマンスを発揮することを示すように、テキストを更新しました。 この制限は、アクティビティで [!UICONTROL 重複の無効化] オプション。 |
-| 10月14日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 登録に関する情報を [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022 年 10 月 26 日）。 |
+| 10月18日（PT） | [[!UICONTROL Automated Personalization] アクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP テストでは最大 30,000 件までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 件未満の場合であることを明示するように、テキストを更新しました。アクティビティで「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、この同じ制限が適用されます。 |
+|  | [Automated Personalization に関する FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP テストでは最大 30,000 件までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 件未満の場合であることを明示するように、テキストを更新しました。アクティビティで「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、この同じ制限が適用されます。 |
+| 10月14日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレークに関する登録情報を追加しました（2022年10月26日（PT））。 |
 | 10月10日（PT） | [[!UICONTROL Visual Editing Helper] 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新しい記事。 |
 |  | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 「[VEC にページが表示されません（VEC のみ）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)」の節を更新しました。 |
 | 10月4日（PT） | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新規トピックです。<br>この記事の情報は、以前このサイトでダウンロード可能だった *Adobe Target A/B テストの計算*&#x200B;の PDF ファイルに代わるものです。 |

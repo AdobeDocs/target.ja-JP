@@ -57,7 +57,7 @@ at.js の既知の問題を以下に示します。
 * at.js バージョン 1.0 にアップグレードすると、at.js と Visitor API 2.2.0 とのインタラクションが原因で、Microsoft Explorer 11 ブラウザーでは mbox が実行されません。この問題が関係するのは、at.js バージョン 0.9.6 以降です。（TNT-27600）
 * at.js は、ファーストパーティ cookie が現在サポートされていないので、Cordova／ハイブリッドアプリで動作しない可能性があります。（TNT-26166）
 
-   **対処法**：&quot;x- only&quot; オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
+   **対処法**：「x- only」 オプションを有効にして at.js を設定し、ユーザーを管理するために呼び出しで `mboxThirdPartyId` を渡します。
 
 ## 解決された問題 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
