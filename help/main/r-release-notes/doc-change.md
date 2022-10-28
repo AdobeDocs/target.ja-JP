@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 リリースに関するリリースノートを追加しました。 |
-| 10月19日（PT） | [カテゴリ親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 複数のカテゴリが 1 回の mbox 呼び出し内で渡される場合のスコアリングを説明する注意書きを追加しました。 |
+| 10月19日（PT） | [カテゴリの親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 1 回の mbox 呼び出し内で複数のカテゴリが渡される場合のスコアリングを説明する注記を追加しました。 |
 | 10月18日（PT） | [[!UICONTROL Automated Personalization] アクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP テストでは最大 30,000 件までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 件未満の場合であることを明示するように、テキストを更新しました。アクティビティで「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、この同じ制限が適用されます。 |
 |  | [Automated Personalization に関する FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP テストでは最大 30,000 件までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 件未満の場合であることを明示するように、テキストを更新しました。アクティビティで「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、この同じ制限が適用されます。 |
 | 10月14日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレークに関する登録情報を追加しました（2022年10月26日（PT））。 |
