@@ -6,9 +6,9 @@ title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
-workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 83%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年25月10～27日（PT））
+## [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年10月25～27日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
 * **10月25日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **26月10日（PT）**：アジア太平洋（APAC）地域
+* **10月26日（PT）**：アジア太平洋（APAC）地域
 * **10月27日（PT）**：アメリカ地域
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!DNL Recommendations] | わかりやすい名前を [!UICONTROL Analytics for Target] A4T レポート。 以前は、 [!DNL Target] リストに表示されたエクスペリエンス ID のみ。 この強化により、 [!DNL Adobe Analytics] および [!DNL Target] お客様が A4T でレポートを合理化するのに役立ちます。 （TGT-41853） |
-| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]<br>( 一部のお客様をテストに利用できます。 今後のリリースで、すべてのお客様が利用できるようになります。) | 次の変更点に注意してください。<ul><li>[!UICONTROL Analytics for Target] A4T レポートで、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティのバイナリ指標と最大化指標のサポートを追加</li><li>2023 年 2 月まで既存のアクティビティの動作が保持されました。 この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは廃止されます</li><li>2023年2月20日以降（PT）、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`および  `entries` 指標のサポートは廃止されます。</li></ul> |
+| [!DNL Recommendations] | [!UICONTROL Analytics for Target] A4T レポートにわかりやすい名前を追加しました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853） |
+| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]<br>用に最適化された A4T 指標（一部のお客様がテストを利用できます。 今後のリリースで、すべてのお客様が利用できるようになります。) | 次の変更点に注意してください。<ul><li>[!UICONTROL Analytics for Target] A4T レポートで、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティのバイナリ指標と最大化指標のサポートを追加</li><li>2023年2月（PT）まで、既存のアクティビティの動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは廃止されます</li><li>2023年2月20日以降（PT）、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`および  `entries` 指標のサポートは廃止されます。</li></ul> |
 
-* ツールチップを [!DNL Target] UI を使用して、顧客がオーディエンスビルダーをより効率的にナビゲートし、一般的でない機能の使用方法を学習します。 （TGT-44139）
-* ユーザーが [!DNL Target] サポートされていない指標を使用しているので。 UI のメッセージは、アクティビティを複製してコンバージョン指標を更新するように顧客に指示します。
+* [!DNL Target] UI にツールチップを追加して、顧客がオーディエンスビルダーをより効率的にナビゲートし、なじみのない機能の使用方法を学習できるようにしました。（TGT-44139）
+* サポートされていない指標を使用しているために [!DNL Target] で無効にされたアクティビティを、顧客が編集できないようにする機能を追加しました。UI のメッセージは、顧客にアクティビティを複製してコンバージョン指標を更新するように指示します。
 
-   このリリースでは `averagetimespentonsite`, `bouncerate`、および `entries` 指標 [!DNL Target] アクティビティは、新しいアクティビティでは非推奨となります。 既存のアクティビティでは、2023 年 2 月までこれらの指標を引き続き使用できます。 (TGT-43860、TGT-43861、および TGT-43650)
+   このリリースでは、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`、および `entries` 指標は新しいアクティビティに対して非推奨になります。 既存のアクティビティでは、2023年2月までこれらの指標を引き続き使用できます。 （TGT-43860、TGT-43861、TGT-43650）
 
-* にツールチップを追加しました。 [!DNL Target] 顧客が最適化条件を選択し、 [!UICONTROL 自動ターゲット] A4T を使用するアクティビティ （TGT-43713）
+* [!DNL Target] UI にツールチップを追加しました。これにより、A4T を使用する[!UICONTROL 自動ターゲット]アクティビティの作成または編集中に顧客が最適化条件を選択できるようにします。（TGT-43713）
 
 ## [!DNL Target] Standard／Premium 22.10.1（時差リリース 2022年10月10～13日（PT））
 
