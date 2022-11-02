@@ -4,10 +4,10 @@ description: Adobeでのオファーレポートグループの使用方法を�
 title: Automated Personalization Activities でオファーレポートグループを使用できますか？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 52%
 >
 >オファーが特定のモデリンググループから削除または置換されると、その特定のオファーをモデリンググループからも削除した履歴トラフィックが表示されます。つまり、削除されたオファーは、 [!DNL Target] パーソナライゼーションモデルを参照してください。
 
-**レポートグループを設定するには：**
+## レポートグループの設定
 
 1. の **[!UICONTROL エクスペリエンス]** AP アクティビティのページで、 **[!UICONTROL コンテンツを管理]** アイコン
 
@@ -52,3 +52,17 @@ ht-degree: 52%
    選択したオファーをアサインする新しいレポートグループを作成するには、 「**[!UICONTROL 新規]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL 適用]**」をクリックします。
 
    ![新しいレポートグループを作成するための新しいアイコン](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## レポートグループのオファーを表示
+
+1. クリック **[!UICONTROL アクティビティ]**、目的の [!UICONTROL Automated Personalization] 「 」アクティビティを選択し、 **[!UICONTROL レポート]** タブを使用して、 [オファーレベル](/help/main/c-reports/personalization-reports/reports-ap.md) レポート。
+
+   多くのアクティビティがある場合、[!UICONTROL タイプ]ドロップダウンリストから [!UICONTROL Automated Personalization] を選択することで、リストをフィルターできます。
+
+1. クリック **[!UICONTROL 制御]** または **[!UICONTROL ターゲット]** をテーブルに表示して、レポートグループ内のグループ化されていないオファーおよびオファーを表示します。
+
+   ![オファーグループ：コントロールとターゲット](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+の使用に関する情報 [!UICONTROL Automated Personalization] レポート ( [!UICONTROL オファーレベル] レポートを参照 )、 [Automated Personalizationサマリレポート](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

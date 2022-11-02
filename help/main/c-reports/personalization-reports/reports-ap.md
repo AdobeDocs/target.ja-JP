@@ -4,10 +4,10 @@ description: Adobe TargetでのAutomated Personalization Summary レポートの
 title: Automated Personalization Summary レポートの使用方法
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 
 ![アクティビティレベルレポート](/help/main/c-reports/assets/box_plot_ap.png)
 
-上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、 [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## オファーレベルレポート {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -48,11 +48,11 @@ ht-degree: 38%
 
 ![Adobe Targetのオファーレベルレポート](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-オファーは、レポートグループ内に表示できます。これらのレポートグループは、折りたたみと展開が可能です。ドロップダウンリストの「[!UICONTROL レポートグループ]」を選択して、オファー別ではなく、レポートグループ別にロールアップ情報を表示します。
-
 >[!NOTE]
 >
->時計アイコンは、アルゴリズムモデルが構築中であることを示します。チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
+>時計アイコンは、アルゴリズムモデルが構築中であることを示します。 チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
+
+オファーは、 [レポートグループ](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)また、これらのレポートグループは、折りたたんだり展開したりできます。 クリック **[!UICONTROL 制御]** または **[!UICONTROL ターゲット]** を参照して、オファーではなく、レポートグループ別にロールアップ情報を表示します。
 
 ## 自動セグメント
 
