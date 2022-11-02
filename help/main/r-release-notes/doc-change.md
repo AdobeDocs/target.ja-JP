@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11月2日（PT） | 既知の問題と解決された問題 | ページを削除し、関連する問題を適切なページに移動して、情報がコンテキスト内に表示されるようにしました。 |
 | 10月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 リリースに関するリリースノートを追加しました。 |
 | 10月19日（PT） | [カテゴリの親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 1 回の mbox 呼び出し内で複数のカテゴリが渡される場合のスコアリングを説明する注記を追加しました。 |
 | 10月18日（PT） | [[!UICONTROL Automated Personalization] アクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP テストでは最大 30,000 件までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 件未満の場合であることを明示するように、テキストを更新しました。アクティビティで「[!UICONTROL 重複を許可しない]」オプションが有効になっている場合でも、この同じ制限が適用されます。 |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 3月22日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | リリースに関する [!DNL Target Standard/Premium] カスタマーエンジニアリング修正リリース情報を追加しました。 |
 |  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 リリースに関するプレリリース情報を追加しました。 |
 | 3月17日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] カスタマーエンジニアリング修正リリースに関するプレリリース情報を追加しました。 |
-| 3月9日（PT） | [既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 以下の既知の問題を追加しました。<ul><li>フォームベースの Experience Composer で作成したアクティビティでの、アドホックオファーがある場所の削除</li></ul> |
 |  | [mbox3rdPartyId のリアルタイムプロファイル同期](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | プロファイルの同期に関する「更新は 5～10 分ごとにプロファイルストアと同期されます」の文章を変更しました。 |
 | 3月8日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年3月30日（PT））</li></ul> |
 | 3月7日（PT） | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md#aep) | 「[!DNL Adobe Experience Platform] のオーディエンスを使用」の下に新しい節を追加しました。<ul><li>パーソナライズ機能の使用例</li></ul> |

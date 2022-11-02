@@ -4,10 +4,10 @@ description: Adobe間で予想されるデータの相違について説明し�
 title: Analytics と A4T の間で予期されるデータの相違とは
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 97%
+source-wordcount: '733'
+ht-degree: 96%
 
 ---
 
@@ -26,10 +26,6 @@ A4T では、Analytics と Target の両方のアクティビティレポート�
    Target でリダイレクトテストがトラフィックを 50/50（または 25/25/25/25 など）に分割するように設定されている場合、ユーザーの行動が均等に分割されないことがあります。不均等な分割が表示される場合は、単に 1 組のユーザーのグループが、他のグループに比べて、ランディングページ上での Analytics 呼び出しの実行により多く失敗したことを意味します。この 1 組のグループに対する Analytics 呼び出しの実行の失敗により、Target ヒットでそのユーザーが除外され、不均等が生まれます。
 
    アドビでは、今後も、Adobe Experience Platform 上の A4T に対するアドビチームの作業として、この問題に取り組んでいきます。アドビチームは、様々な時間にページ上で発生するこれらの様々なイベントに対処する方法の選定を進めています。
-
-   >[!NOTE]
-   >
-   >A4T によるリダイレクトを使用するお客様の数に制限があることにより、ステッチされていないヒットの割合が高く表示されるという既知の問題があります。[既知の問題と解決された問題](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)を参照してください。
 
 ## A4T を&#x200B;*利用しない*&#x200B;場合に予期されるデータの相違 {#expected-not-using-a4t}
 
