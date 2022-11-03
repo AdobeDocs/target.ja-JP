@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 98%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!DNL Recommendations] | [!UICONTROL Analytics for Target] A4T レポートにわかりやすい名前を追加しました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853） |
 | [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]<br>用に最適化された A4T 指標（一部のお客様がテストを利用できます。 今後のリリースで、すべてのお客様が利用できるようになります。) | 次の変更点に注意してください。<ul><li>[!UICONTROL Analytics for Target] A4T レポートで、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティのバイナリ指標と最大化指標のサポートを追加</li><li>2023年2月（PT）まで、既存のアクティビティの動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは廃止されます</li><li>2023年2月20日以降（PT）、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`および  `entries` 指標のサポートは廃止されます。</li></ul> |
 
 * [!DNL Target] UI にツールチップを追加して、顧客がオーディエンスビルダーをより効率的にナビゲートし、なじみのない機能の使用方法を学習できるようにしました。（TGT-44139）
