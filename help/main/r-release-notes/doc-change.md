@@ -5,9 +5,9 @@ title: Target のドキュメントのアップデートはどこで確認でき
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
