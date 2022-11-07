@@ -6,9 +6,9 @@ title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 * [!DNL Target] UI にツールチップを追加して、顧客がオーディエンスビルダーをより効率的にナビゲートし、なじみのない機能の使用方法を学習できるようにしました。（TGT-44139）
 * サポートされていない指標を使用しているために [!DNL Target] で無効にされたアクティビティを、顧客が編集できないようにする機能を追加しました。UI のメッセージは、顧客にアクティビティを複製してコンバージョン指標を更新するように指示します。
 
-   このリリースでは、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`、および `entries` 指標は新しいアクティビティに対して非推奨になります。 既存のアクティビティは、2023 年 5 月までこれらの指標を引き続き使用できます。
+   このリリースでは、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`、および `entries` 指標は新しいアクティビティに対して非推奨になります。 既存のアクティビティでは、2023年5月までこれらの指標を引き続き使用できます。
 
 * [!DNL Target] UI にツールチップを追加しました。これにより、A4T を使用する[!UICONTROL 自動ターゲット]アクティビティの作成または編集中に顧客が最適化条件を選択できるようにします。
 
