@@ -4,7 +4,7 @@ description: 以下を作成する方法を説明します。 [!UICONTROL Automa
 title: 方法 [!UICONTROL Automated Personalization] 活動？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 61%
@@ -88,7 +88,7 @@ ht-degree: 61%
 
 1. （条件付き）「**[!UICONTROL オファー]**」をクリックして、コンテンツを選択してレポートグループに割り当てたり、ターゲット設定によって特定のオファーの閲覧を特定の訪問者のみに許可したりします。
 
-   レポートグループについて詳しくは、 [Automated Personalizationのオファーレポートグループ](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   レポートグループについて詳しくは、 [Automated Personalizationのオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. （条件付き）「**[!UICONTROL 除外グループ]**」をクリックして、アクティビティから除外する要素の組み合わせを選択します。
 

@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: Target のドキュメントのアップデートはどこで確認できますか？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: ht
-source-wordcount: '1486'
-ht-degree: 100%
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11月8日（PT） | [A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 正確な結果を得るには、ページを再読み込みしてから、 [!DNL Adobe Target] [!UICONTROL サンプルサイズ計算ツール]. また、実際の [計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){target=_blank}。 |
+|  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | の説明を更新しました。 `adobe_mc_sdid` パラメーターを指定します。 |
+|  | [アクティビティのトラブルシューティング](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 次の新しい節を追加しました。「アクティビティのコンバージョン後、訪問者はどのエクスペリエンスにも含まれません。」 |
+|  | [カスタムパラメーター](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 選択した mbox が [!UICONTROL フィルター条件] ドロップダウンリストは、アクティビティの作成時には保存されません。 このオプションを使用すると、選択した mbox に基づいてパラメーターをフィルターできます。 |
+|  | [ターゲットの制限](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | プロファイルパラメーター値の最大長を修正しました。 上限は 256 文字です。 |
 | 11月2日（PT） | 既知の問題と解決された問題 | ページを削除し、関連する問題を適切なページに移動して、情報がコンテキスト内に表示されるようにしました。 |
 | 10月25日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 リリースに関するリリースノートを追加しました。 |
 | 10月19日（PT） | [カテゴリの親和性](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 1 回の mbox 呼び出し内で複数のカテゴリが渡される場合のスコアリングを説明する注記を追加しました。 |

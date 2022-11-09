@@ -4,7 +4,7 @@ description: Adobe TargetでのAutomated Personalization Summary レポートの
 title: Automated Personalization Summary レポートの使用方法
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 32%
@@ -52,7 +52,7 @@ ht-degree: 32%
 >
 >時計アイコンは、アルゴリズムモデルが構築中であることを示します。 チェックマークアイコンは、ベースアルゴリズムが確立されたことを示します。
 
-オファーは、 [レポートグループ](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)また、これらのレポートグループは、折りたたんだり展開したりできます。 クリック **[!UICONTROL 制御]** または **[!UICONTROL ターゲット]** を参照して、オファーではなく、レポートグループ別にロールアップ情報を表示します。
+オファーは、 [レポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)また、これらのレポートグループは、折りたたんだり展開したりできます。 クリック **[!UICONTROL 制御]** または **[!UICONTROL ターゲット]** を参照して、オファーではなく、レポートグループ別にロールアップ情報を表示します。
 
 ## 自動セグメント
 

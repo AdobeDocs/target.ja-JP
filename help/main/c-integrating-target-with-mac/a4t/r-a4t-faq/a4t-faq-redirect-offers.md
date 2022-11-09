@@ -4,10 +4,10 @@ description: Analytics を使用して [!DNL Target] (A4T)。 A4T では、 [!DN
 title: A4T を使用したリダイレクトオファーに関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 53%
+source-wordcount: '1456'
+ht-degree: 52%
 
 ---
 
@@ -70,7 +70,7 @@ at.js の以前のサポートされていないバージョンを使用して�
 
 | パラメーター | 説明 |
 |--- |--- |
-| `adobe_mc_sdid` | この `adobe_mc_sdid` パラメーターは、追加データ ID(SDID) およびExperience Cloud組織 ID をデフォルトページから新しいページに渡します。 これらの ID を使用すると、A4T はデフォルトページの Target リクエストと新しいページの Analytic リクエストを「ステッチ」できます。 |
+| `adobe_mc_sdid` | この `adobe_mc_sdid` パラメーターは、追加データ ID(SDID) およびExperience Cloud組織 ID をデフォルトページから新しいページに渡します。 これらの ID を使用すると、A4T はデフォルトページの Target リクエストと新しいページの Analytic リクエストを「ステッチ」できます。<br>URL で sdid を渡す形式は（ハイブリッドアプリの場合や、あるアプリから Web サイトまたはある Web サイトに）次のとおりです。 `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` パラメーターは、デフォルトのページの参照 URL を新しいページに渡します。AppMeasurement.js バージョン 2.1（またはそれ以降）で使用する場合、Analytics はこのパラメーター値を新しいページの参照 URL として使用します。 |
 
 訪問者 ID サービスがページに実装されていると、VEC とフォームベースの Experience Composer で組み込みのリダイレクトオファーを使用する場合に、これらのパラメーターがリダイレクト URL に自動的に追加されます。VEC またはフォームベースのコンポーザーでリダイレクトに独自のカスタムコードを使用している場合、必ずこれらのパラメーターをカスタムコードとともに渡す必要があります。
