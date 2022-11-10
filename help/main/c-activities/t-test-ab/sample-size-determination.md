@@ -4,9 +4,9 @@ description: A/B テストを実行する期間を説明します。 Adobeでの
 title: A/B テストを実行すべき期間はどのくらいですか？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3093'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ An [自動配分](/help/main/c-activities/automated-traffic-allocation/automated
 
 A/B テストを設定する前に、 [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Adobe Target サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Adobe Target サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja)
 
 結果を評価する前にアクティビティを実行する必要がある時間を確立するために、A/B テストを実行する前に適切なサンプルサイズ（訪問者数）を決定することが重要です。 統計的有意性が達成されるまでアクティビティを監視するだけで、信頼区間が大幅に過小評価され、テストの信頼性が低下します。 この場合、統計的に有意な結果が検出された時点でテストは停止して、勝者が宣言されます。ただし、結果が統計的に有意でない場合は、テストの続行が許可されます。この方法では、前向きな結果に大きく偏向して偽陽性率が高くなるので、テストの有効有意水準にゆがみが生じます。
 
