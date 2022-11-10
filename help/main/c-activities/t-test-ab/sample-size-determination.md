@@ -4,10 +4,10 @@ description: A/B テストを実行する期間を説明します。 Adobeでの
 title: A/B テストを実行すべき期間はどのくらいですか？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ An [自動配分](/help/main/c-activities/automated-traffic-allocation/automated
 
 マニュアルを使用する場合 [!UICONTROL A/B テスト] ではなくアクティビティ [!UICONTROL 自動配分]、 [!DNL Target] サンプルサイズ計算ツールを使用すると、テストを成功させるために必要なサンプルサイズを判断できます。 手動の A/B テストは固定水平線テストなので、計算ツールが役立ちます。 計算ツールを使用した [!UICONTROL 自動配分] アクティビティはオプションです。 [!UICONTROL 自動配分] が勝者を宣言します。 計算ツールを使用すると、必要なサンプルサイズを大まかに推定できます。 計算ツールの使い方について詳しくは、以降の節を参照してください。
 
-A/B テストを設定する前に、Adobe Targetにアクセスします [サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja).
+A/B テストを設定する前に、 [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Adobe Target サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ A/B テストを定義する 5 つのユーザー定義パラメーターがあ�
 
 >[!IMPORTANT]
 >
->正確な結果を得るには、パラメーター番号を変更する前にページを再読み込みする必要があります。
-
+>正確な結果を得るには、パラメーター番号を変更する前にページを再読み込みする必要があります。 パラメータ番号を変更するたびに、この処理を繰り返します。
 
 A/B テストの場合、統計的有意性、統計的検出力、最小信頼検出可能上昇率およびベースラインコンバージョン率は、アナリストが設定し、必要な訪問者数は、これらの数字から計算されます。この記事では、これらの要素について説明し、特定のテストでこれらの指標を決定する方法のガイドラインを示します。
 
