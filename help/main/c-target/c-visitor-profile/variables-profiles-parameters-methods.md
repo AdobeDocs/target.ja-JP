@@ -1,13 +1,13 @@
 ---
 keywords: 変数、プロファイル、パラメーター、組み込みプロファイル、メソッド、url変数、地域プロファイル、サードパーティプロファイル、mbox変数、campaign変数、顧客属性
 description: Adobe Targetのプロファイルスクリプトで役立つ様々なプロファイル、変数およびパラメーターのリストを表示します。
-title: Target で使用されるプロファイル、変数、パラメーターは何ですか？
+title: どのプロファイル、変数、パラメーターが使用されるか [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 83%
+source-wordcount: '634'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 83%
 | user.header(&#39;accept&#39;) | 訪問者の言語および文字エンコード |
 | user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
 | user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | を使用して設定した値を取得します `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | プロファイルスクリプト内で永続化されたプロファイル値を作成します。 これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。 |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、は、位置情報、訪問数などの「システム」プロファイルも参照します。 |
 | profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、 profile.get(&#39;param_name&#39;) メソッドです。 |
