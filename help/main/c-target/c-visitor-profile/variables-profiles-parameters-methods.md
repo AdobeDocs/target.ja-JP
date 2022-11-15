@@ -4,10 +4,10 @@ description: Adobe Targetのプロファイルスクリプトで役立つ様々�
 title: Target で使用されるプロファイル、変数、パラメーターは何ですか？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 85%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,8 @@ ht-degree: 85%
 | user.header(&#39;connection&#39;) | サーバー接続。例：keep-live |
 | user.header(&#39;referrer&#39;) | 訪問者の現在のページの Web サイト URL。Internet Explorer では動作しません。 |
 | user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、ジオロケーションや訪問回数などの「システム」プロファイルも参照します。 |
+| user.parameter | プロファイルスクリプトから作成されたプロファイル属性を保持します。また、は、位置情報、訪問数などの「システム」プロファイルも参照します。 |
 | profile.get(&#39;param_name&#39;) | プロファイルスクリプトで使用するプロファイルパラメーターを取得する正しい方法は、 profile.get(&#39;param_name&#39;) メソッドです。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  prefix. |
