@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
-workflow-type: ht
-source-wordcount: '1876'
-ht-degree: 100%
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+workflow-type: tm+mt
+source-wordcount: '1990'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,22 @@ ht-degree: 100%
 Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
+
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク (11月29日（PT）)
+
+* **2022 年 11 月 29 日**
+* **午前 8 時～9 時。(PST GMT-8)**
+* **[登録情報](https://adobe.ly/3UtQoxv){target=_blank}**
+
+Cristinel Anastasoaie 氏 ( [!DNL Adobe Target]次に関するご質問に対して回答する [!DNL Adobe Target] オンラインセミナ [AI 駆動型パーソナライゼーションとRecommendations](#AI).
+
+ウェビナーの録画を確認し、フォローアップの質問で包括的なインサイト、より深い説明、独自の使用例に対する戦略的な提案を必ずおこなってください。
+
+* リアルタイムのレコメンデーション、ワンクリックパーソナライゼーションアクティビティおよび自動オファーを最適化します
+* を使用して、AI 駆動型パーソナライゼーションアクティビティを作成し、開始します。 [!UICONTROL Visual Experience Composer] (VEC)
+* との統合 [!DNL Adobe Experience Platform] (AEP) を使用したリアルタイムセグメントおよびプロファイル属性共有
+
+[!DNL Adobe] テクニカルサポートエンジニアの Simon Chen が、お客様の質問に対する追加のインサイトと回答を提供します。
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
@@ -52,7 +68,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 +++
 
-### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT））
+### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT）） {#AI}
 
 実験とパーソナライゼーションの自動化は常に、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI を促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] の高度な AI 駆動のユースケースと機能を製品およびコンテンツの推奨事項とともに使用して、競争に先立ち、すべてのエクスペリエンスで勝つ方法を学びましょう。
 
