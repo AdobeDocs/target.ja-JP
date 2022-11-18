@@ -5,9 +5,9 @@ title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
    [!DNL Adobe] では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、[!DNL Adobe] は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
-* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、ベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、テストがこの時点に到達したかどうかを判断します。 [!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) が用意されています。[!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
    [!DNL Target] プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
 
