@@ -5,9 +5,9 @@ title: の様々な文字、サイズ、その他の制限 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 96%
 
 ---
@@ -271,7 +271,7 @@ ht-degree: 96%
 
 * **推奨制限**：2,000 文字。
 
-   エンコード後の文字列のサイズに基づきます。エンコード後の文字列は、生の文字列より大幅に長くなる可能性があります。文字列が長すぎる場合、Adobe Target に到達する前に失敗します。
+   エンコード後の文字列のサイズに基づきます。エンコード後の文字列は、生の文字列より大幅に長くなる可能性があります。文字列が大きすぎる場合、 [!DNL Adobe Target].
 
 ## スクリプトプロファイル
 
