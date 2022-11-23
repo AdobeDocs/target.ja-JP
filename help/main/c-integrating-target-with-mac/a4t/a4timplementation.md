@@ -4,9 +4,9 @@ description: Analytics を実装するために必要な手順に従います。
 title: Analytics を実装する方法 [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1162'
 ht-degree: 23%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 ### 手順 1:のプロビジョニングをリクエスト [!DNL Analytics] および [!DNL Target]
 
-A4T を実装する前に、 [!DNL Analytics] および [!DNL Target]. [プロビジョニングの依頼にこのフォームを使用します](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+A4T を実装する前に、 [!DNL Analytics] および [!DNL Target]. [プロビジョニングの依頼にこのフォームを使用します](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### 手順 2： ユーザー権限を設定します。
 
