@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '34833'
-ht-degree: 96%
+source-wordcount: '34849'
+ht-degree: 95%
 
 ---
 
@@ -3753,11 +3753,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics によって拡張された Adobe Target のレポート </td> 
-   <td colname="col2"> Adobe Analytics のお客様は、<a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> テストの設定処理</a>で、Analytics をデフォルトのレポートソース として選択できます。結果をフィルターする際に使用するすべての成功指標またはオーディエンスを選択する必要はなくなりました。レポート内で、Analytics で定義された成功指標またはオーディエンスセグメントを選択でき、拡張フィルターおよび最適化された結果の詳細な分析のために、過去に遡ってレポートに適用できます。 <p> <p>注意: この機能へのアクセスをリクエストするには、 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>にアクセスしてください。 </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics のお客様は、<a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> テストの設定処理</a>で、Analytics をデフォルトのレポートソース として選択できます。結果をフィルターする際に使用するすべての成功指標またはオーディエンスを選択する必要はなくなりました。レポート内で、Analytics で定義された成功指標またはオーディエンスセグメントを選択でき、拡張フィルターおよび最適化された結果の詳細な分析のために、過去に遡ってレポートに適用できます。 <p> <p>注意：この機能へのアクセスをリクエストするには、 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> マスターマーケティングプロファイルのリアルタイムオーディエンス </td> 
-   <td colname="col2"> ソリューション間で使用するために、訪問者 ID とデータを単一の実行可能なプロファイルに統合するマスターマーケティングプロファイルを活用できます。Adobe Analytics のセグメント作成プロセス中にチェックボックスを利用して、セグメントを Adobe Target のカスタムオーディエンスライブラリ内でも利用できるようにすることもできます。Analytics または Audience Manager で作成したセグメントは、Target の対象訪問者に対して使用できます。 <p> <p>注意: この機能へのアクセスをリクエストするには、 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>にアクセスしてください。 </p> </p> </td> 
+   <td colname="col2"> ソリューション間で使用するために、訪問者 ID とデータを単一の実行可能なプロファイルに統合するマスターマーケティングプロファイルを活用できます。Adobe Analytics のセグメント作成プロセス中にチェックボックスを利用して、セグメントを Adobe Target のカスタムオーディエンスライブラリ内でも利用できるようにすることもできます。Analytics または Audience Manager で作成したセグメントは、Target の対象訪問者に対して使用できます。 <p> <p>注意：この機能へのアクセスをリクエストするには、 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> エクスペリエンスのターゲット化アクティビティタイプ </td> 

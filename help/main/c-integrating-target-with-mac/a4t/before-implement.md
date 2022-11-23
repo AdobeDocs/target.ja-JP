@@ -4,10 +4,10 @@ description: Analytics for Analytics の実装要件について説明します�
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 24%
+source-wordcount: '995'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->A4T の使用を開始する前に、アカウントで統合のプロビジョニングを依頼する必要があります。 以下を使用： [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences) プロビジョニングの依頼。
+>A4T の使用を開始する前に、アカウントで統合のプロビジョニングを依頼する必要があります。 以下を使用： [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y)プロビジョニングのリクエストを {target=_blank} します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
@@ -97,7 +97,7 @@ at.js の場合、 [!DNL Experience Cloud Visitor ID Service]、および appMea
 
 ## 共有オーディエンス
 
-を [Marketing Cloud統合プロビジョニングフォーム](https://www.adobe.com/go/audiences)に関しては、 [!UICONTROL 共有オーディエンス] &quot;の下にリストされたオプション[!UICONTROL プロビジョニングをリクエストする機能]?」
+を [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 [!UICONTROL 共有オーディエンス] &quot;の下にリストされたオプション[!UICONTROL プロビジョニングをリクエストする機能]?」
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
