@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク (11月29日（PT）)
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（11月29日（PT））
 
-* **2022 年 11 月 29 日**
-* **午前 8 時～9 時。(PST GMT-8)**
+* **2022年11月29日 火曜日（PT）**
+* **午前 8:00～9:00（PST GMT-8）**
 * **[登録情報](https://adobe.ly/3UtQoxv){target=_blank}**
 
-Cristinel Anastasoaie 氏 ( [!DNL Adobe Target]次に関するご質問に対して回答する [!DNL Adobe Target] オンラインセミナ [AI 駆動型パーソナライゼーションとRecommendations](#AI).
+[!DNL Adobe Target] のシニアプロダクトマネージャーである Cristinel Anastasoaie が参加し、[AI 駆動型パーソナライゼーションとレコメンデーション](#AI)についての [!DNL Adobe Target] ウェビナーに関連するご質問にお答えします。
 
-ウェビナーの録画を確認し、フォローアップの質問で包括的なインサイト、より深い説明、独自の使用例に対する戦略的な提案を必ずおこなってください。
+ウェビナーの録画を確認してから、包括的なインサイト、より深い説明、独自のユースケースに対する戦略的な提案などを求めるフォローアップの質問をしてください。
 
-* リアルタイムのレコメンデーション、ワンクリックパーソナライゼーションアクティビティおよび自動オファーを最適化します
-* を使用して、AI 駆動型パーソナライゼーションアクティビティを作成し、開始します。 [!UICONTROL Visual Experience Composer] (VEC)
-* との統合 [!DNL Adobe Experience Platform] (AEP) を使用したリアルタイムセグメントおよびプロファイル属性共有
+* リアルタイムのレコメンデーション、ワンクリックパーソナライゼーションアクティビティおよび自動オファーの最適化
+* [!UICONTROL Visual Experience Composer]（VEC）を使用した AI 駆動型パーソナライゼーションアクティビティの作成と開始
+* [!DNL Adobe Experience Platform]（AEP）との統合によるセグメントとプロファイル属性のリアルタイム共有
 
-[!DNL Adobe] テクニカルサポートエンジニアの Simon Chen が、お客様の質問に対する追加のインサイトと回答を提供します。
+[!DNL Adobe] テクニカルサポートエンジニアの Simon Chen が、さらなるインサイトを提供し、ご質問にもお答えします。
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
