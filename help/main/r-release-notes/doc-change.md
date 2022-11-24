@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | へのリンクを更新しました。 [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
-| 11月16日（PT） | [Adobe Targetのお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（11 月 29 日）</li></ul> |
+| 11月16日（PT） | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））</li></ul> |
 | 11月8日（PT） | [A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 正確な結果を得るには、ページを再読み込みしてから、[!DNL Adobe Target] [!UICONTROL サンプルサイズ計算ツール]のパラメーター数値を変更する必要があるという重要な注記を追加しました。また、実際の[計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){target=_blank}に注記を追加しました。 |
 |  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | テーブルの `adobe_mc_sdid` パラメーターの説明を更新しました。 |
 |  | [アクティビティのトラブルシューティング](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 「アクティビティのコンバージョン後、訪問者はどのエクスペリエンスにも含まれない」という新しい節を追加しました。 |
