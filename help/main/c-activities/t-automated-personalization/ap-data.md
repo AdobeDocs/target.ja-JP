@@ -4,9 +4,9 @@ description: データAdobe [!DNL Target] はを収集し、を使用して機�
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2029'
 ht-degree: 51%
 
 ---
@@ -48,9 +48,7 @@ ht-degree: 51%
 
 機能は次の場所からブロックできます： [!DNL Target] 機械学習アルゴリズムを使用して、どのような場合でも使用できないようにする [!UICONTROL 自動ターゲット] または [!UICONTROL Automated Personalization] モデルまたはアクティビティ。
 
-フィーチャのカテゴリをブロックするには [!DNL Target] 機械学習アルゴリズム、連絡先 [Adobeカスタマーケア](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 上記の [ システムプレフィックス ] を使用して、ブロックするフィーチャカテゴリを指定します。
-
-1 つ以上の特定のフィーチャをブロックするには [!DNL Target] 機械学習アルゴリズム、連絡先 [Adobeカスタマーケア](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 次に示すシステム名を使用して、ブロックする特定の機能名を指定します。 以下の節には、属性名、説明、サンプル値を含む、様々なデータタイプに関する詳細情報が含まれています。
+詳しくは、 [モデル API(ブロックリストに加える) の概要](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target Developer Guide*.
 
 ## デバイスとモバイルデータ {#device-mobile}
 
