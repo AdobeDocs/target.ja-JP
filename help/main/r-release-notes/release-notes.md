@@ -5,14 +5,14 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1055'
 ht-degree: 94%
 
 ---
 
-# Target リリースノート（現行）
+# [!DNL Target]リリースノート（現行）
 
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
