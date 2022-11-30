@@ -1,13 +1,13 @@
 ---
 keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
 description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。'
-title: ドキュメントの更新の参照先 [!DNL Target]?
+title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 | --- | --- | --- |
 | 11月28日（PT） | [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target Developer Guide*. | 新しいモデル API。<br>機能は次の場所からブロックできます： [!DNL Target] 機械学習アルゴリズムを使用して、どのような場合でも使用できないようにする [!UICONTROL 自動ターゲット] または [!UICONTROL Automated Personalization] モデルまたはアクティビティ。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | モデル API リリース（2022 年 11 月 24 日）に関する情報を追加しました。 |
-| 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | へのリンクを更新しました。 [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
+| 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。  |
 | 11月16日（PT） | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））</li></ul> |
 | 11月8日（PT） | [A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 正確な結果を得るには、ページを再読み込みしてから、[!DNL Adobe Target] [!UICONTROL サンプルサイズ計算ツール]のパラメーター数値を変更する必要があるという重要な注記を追加しました。また、実際の[計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){target=_blank}に注記を追加しました。 |
 |  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | テーブルの `adobe_mc_sdid` パラメーターの説明を更新しました。 |
@@ -45,7 +45,7 @@ ht-degree: 95%
 | 10月3日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースの日付を更新しました。 |
 | 9月22日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年9月28日（PT））</li></ul> |
 | 9月15日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに関する情報を追加しました。<ul><li>AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））</li></ul> |
-| 9月13日（PT） | [ [!DNL Target]  UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
+| 9月13日（PT） | [ [!DNL Target] UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.8.1（時差リリース：2022年8月17～18日（PT））
