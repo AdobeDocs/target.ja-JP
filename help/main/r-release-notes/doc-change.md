@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、 [!DNL Target] location リクエスト（mbox リクエスト）を使用します。 IP-to-geo 解決は、新しいセッションの最初の呼び出しでおこなわれます。 つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
 | 11月28日（PT） | [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target Developer Guide*. | 新しいモデル API。<br>機能は次の場所からブロックできます： [!DNL Target] 機械学習アルゴリズムを使用して、どのような場合でも使用できないようにする [!UICONTROL 自動ターゲット] または [!UICONTROL Automated Personalization] モデルまたはアクティビティ。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | モデル API リリース（2022 年 11 月 24 日）に関する情報を追加しました。 |
 | 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。  |
