@@ -51,7 +51,7 @@ ht-degree: 21%
    >
    >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](#aep).
 
-事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、「」の名前は変更できません。
+事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、&quot;の名前は変更できません。
 
 元々 [!DNL Experience Cloud] または [!DNL Adobe Experience Platform], [!DNL Target] でオーディエンスを参照する場合に警告を表示します。 [!DNL Target] 次の場所で後で削除されたアクティビティ： [!DNL Experience Cloud] または [!DNL Adobe Experience Platform].
 

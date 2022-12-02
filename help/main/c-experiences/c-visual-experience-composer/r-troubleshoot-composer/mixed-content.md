@@ -5,7 +5,7 @@ title: ブラウザーで混合コンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 

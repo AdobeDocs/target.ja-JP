@@ -8,7 +8,7 @@ exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 売上高の上昇予測は、主な目標の指標から取得される訪問あたりの売上高（RPV）を基に算出されます。
 
-上昇予測は、（&lt;勝者エクスペリエンス RPV> - &lt;コントロールエクスペリエンス RPV>） * &lt;該当アクティビティでの合計訪問者数> で計算します。
+推定上昇率は、次の式を使用して計算されます。(&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 算出された数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。例：$1.6M、$60K、$900、$8.5K、$205K
 

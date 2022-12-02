@@ -5,7 +5,7 @@ title: 自動ターゲットアクティビティのトラブルシューティ�
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 100%
 

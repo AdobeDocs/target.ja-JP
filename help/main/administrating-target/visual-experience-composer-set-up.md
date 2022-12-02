@@ -8,7 +8,7 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 50%
+ht-degree: 58%
 
 ---
 
@@ -103,6 +103,6 @@ Web サイトを開く際に、 [!UICONTROL 拡張 Experience Composer] (EEC)。
 
 >[!NOTE]
 >
->この [!DNL Target] [!UICONTROL 管理] menu UI( 以前の [!UICONTROL 設定]) のデザインが一新され、パフォーマンスが向上し、新機能のリリースに要するメンテナンス時間が短縮され、製品全体でのユーザーエクスペリエンスが向上しました。 次のビデオの情報は、通常正しいです。ただし、オプションの場所が若干異なる場合があります。 更新されたビデオは間もなく投稿されます。
+>パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL 管理]メニュー（以前の[!UICONTROL 設定]）のデザインが一新されました。次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

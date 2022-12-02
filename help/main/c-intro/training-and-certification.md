@@ -5,7 +5,7 @@ title: トレーニングクラスと認定制度はどこで見つけること�
 feature: Overview
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 

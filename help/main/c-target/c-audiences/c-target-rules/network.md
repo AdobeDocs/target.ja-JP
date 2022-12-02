@@ -26,19 +26,19 @@ ht-degree: 78%
 
       | 一般名 | ISP 名 | ドメイン名 | サンプルの IP アドレス |
       |---|---|---|---|
-      | Cablevision | Cablevision Systems Corp. | *.optonline.net | 68.196.130.239 |
-      | CenturyLink | Qwest Communications Company, LLC | *.centurylink.net | 64.40.65.0 |
-      | Charter Communications | Charter Communications | *.charter.com | 71.85.225.124 |
-      | Comcast | Comcast Cable Communications, Inc. | *.comcast.net | 76.27.24.28 |
-      | Cox | Cox Communications Inc. | *cox.net | 68.224.174.22 |
-      | Speakeasy | MegaPath Corporation | *.speakeasy.net | 66.93.240.0 |
-      | Time Warner | Time Warner Cable Internet LLC | *.res.rr.com | 72.229.28.185 |
-      | Verizon FiOS | MCI Communications Services, Inc.（商号：Verizon Business） | *.fios.verizon.net | 173.68.112.34 |
-      | Vivint | Smartrove Inc. | *.vivintwireless.net | 170.72.26.105 |
-      | AT&amp;T Wireless | AT | *.mycingular.net |  |
+      | Cablevision | Cablevision Systems Corp. | &#42;.optonline.net | 68.196.130.239 |
+      | CenturyLink | Qwest Communications Company, LLC | &#42;.centurylink.net | 64.40.65.0 |
+      | Charter Communications | Charter Communications | &#42;.charter.com | 71.85.225.124 |
+      | Comcast | Comcast Cable Communications, Inc. | &#42;.comcast.net | 76.27.24.28 |
+      | Cox | Cox Communications Inc. | &#42;cox.net | 68.224.174.22 |
+      | Speakeasy | MegaPath Corporation | &#42;.speakeasy.net | 66.93.240.0 |
+      | Time Warner | Time Warner Cable Internet LLC | &#42;.res.rr.com | 72.229.28.185 |
+      | Verizon FiOS | MCI Communications Services, Inc.（商号：Verizon Business） | &#42;.fios.verizon.net | 173.68.112.34 |
+      | Vivint | Smartrove Inc. | &#42;.vivintwireless.net | 170.72.26.105 |
+      | AT&amp;T Wireless | AT | &#42;.mycingular.net |  |
       | Sprint mobile | Sprint Personal Communications Systems | IP アドレス |  |
       | T-Mobile | T-Mobile USA, Inc. | IP アドレス | 208.54.86.0 |
-      | Verizon Wireless | Cellco Partnership DBA Verizon Wireless | *.myvzw.com | 70.195.74.199 |
+      | Verizon Wireless | Cellco Partnership DBA Verizon Wireless | &#42;.myvzw.com | 70.195.74.199 |
 
       >[!NOTE]
       >

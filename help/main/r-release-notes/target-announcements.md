@@ -5,7 +5,7 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（11月29日（PT））
+## [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））
 
 * **2022年11月29日 火曜日（PT）**
 * **午前 8:00～9:00（PST GMT-8）**

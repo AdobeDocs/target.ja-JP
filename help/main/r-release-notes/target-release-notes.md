@@ -5,7 +5,7 @@ title: 次回のリリースではどのような新機能や機能強化が追�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]<br>用に最適化された A4T 指標（一部のお客様がテストを利用できます。 今後のリリースで、すべてのお客様が利用できるようになります。) | 次の変更点に注意してください。<ul><li>[!UICONTROL Analytics for Target] A4T レポートで、[!UICONTROL 自動配分]アクティビティと[!UICONTROL 自動ターゲット]アクティビティの非バイナリ指標と最大化指標を新たにサポート</li><li>2023年2月（PT）まで、既存のアクティビティの動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは廃止されます</li><li>2023年2月20日以降（PT）、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`および  `entries` 指標のサポートは廃止されます。</li></ul> |
+| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]<br>用に最適化された A4T 指標（一部のお客様がテストを利用できます。 今後のリリースで、すべてのお客様が利用できるようになります。) | 次の変更点に注意してください。<ul><li>[!UICONTROL Analytics for Target] A4T レポートで、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティの非バイナリ指標と最大化指標のサポートを追加</li><li>2023年2月（PT）まで、既存のアクティビティの動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、アクティビティは廃止されます</li><li>2023年2月20日以降（PT）、[!DNL Target] アクティビティの `averagetimespentonsite`、`bouncerate`および  `entries` 指標のサポートは廃止されます。</li></ul> |
 
 * [!DNL Target] UI にツールチップを追加して、顧客がオーディエンスビルダーをより効率的にナビゲートし、なじみのない機能の使用方法を学習できるようにしました。（TGT-44139）
 * サポートされていない指標を使用しているために [!DNL Target] で無効にされたアクティビティを、顧客が編集できないようにする機能を追加しました。UI のメッセージは、顧客にアクティビティを複製してコンバージョン指標を更新するように指示します。

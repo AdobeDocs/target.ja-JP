@@ -5,7 +5,7 @@ title: ' [!DNL Analytics]  for  [!DNL Target] （A4T）とは'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 100%
 

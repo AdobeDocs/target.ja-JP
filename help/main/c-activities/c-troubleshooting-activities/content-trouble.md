@@ -127,7 +127,7 @@ Target は、IE 8 をサポートしていません。
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)」を参照してください。{target=_blank}。
+サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)」を参照してください。{target=_blank}.
 
 ## 要素が Adobe Experience Manager パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

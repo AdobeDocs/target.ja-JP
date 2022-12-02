@@ -4,7 +4,7 @@ title: Target で使用されている用語と定義はどこで確認できま
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2493'
 ht-degree: 100%
 

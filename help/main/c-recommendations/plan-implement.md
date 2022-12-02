@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;設定;環境設定;業種;非互換の条件をフィルター;デフォルトホストグループ;サムネールのベース URL;Recommendation API トークン
-description: 'Adobe TargetでRecommendationsアクティビティを実装する方法を説明します。 '
+description: Adobe TargetでRecommendationsアクティビティを実装する方法を説明します。
 title: Recommendations Activities の実装方法
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 17%
+ht-degree: 26%
 
 ---
 

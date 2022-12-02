@@ -5,7 +5,7 @@ title: 一般的な A/B テストのエラーを回避する方法を教えて�
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3898'
 ht-degree: 100%
 

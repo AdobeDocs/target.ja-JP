@@ -3,7 +3,8 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web サイトを確実に開くことができない可能性がある理由を明らかにします。[!UICONTROL Visual Editing Helper] ブラウザー拡張機能を使用すると、VEC 内に web サイトを確実に読み込むことができます。'
 title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
@@ -57,7 +58,3 @@ Chrome 用の [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] �
    * 読み込みに失敗した VEC を使用して web サイトを読み込もうとすると、[!UICONTROL Visual Editing Helper] ブラウザー拡張機能のインストールを勧めるメッセージが表示されます。
    * at.js または alloy.js が web サイトにまだ実装されていない場合、この拡張機能のインストールを勧めるメッセージが VEC に表示されます。
 * 新しい拡張機能を使用してから[古い拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に戻り、[!DNL Target] が web サイトの読み込みに失敗した場合は、すべてのブラウザー データを消去し、新しい拡張機能を無効にします。
-
-
-
-

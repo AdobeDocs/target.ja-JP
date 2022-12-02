@@ -3,7 +3,8 @@ keywords: レポート，統計的手法，統計的計算，統計，平均，�
 description: 手動で使用する統計指標について説明します [!UICONTROL A/B テスト] アクティビティ [!DNL Adobe Target].
 title: 統計指標については、 [!UICONTROL A/B テスト] アクティビティ？
 feature: Reports
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%

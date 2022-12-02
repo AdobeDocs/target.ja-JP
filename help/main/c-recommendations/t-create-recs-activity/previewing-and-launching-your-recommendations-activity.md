@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations；オファー；プレビュー；ローンチ；ステータス；条件；アルゴリズム
-description: 'Adobe [!DNL Target] Recommendationsアクティビティを使用して、アクティビティを開始する前に結果が使用可能であることを確認します。 '
+description: Adobe [!DNL Target] Recommendationsアクティビティを使用して、アクティビティを開始する前に結果が使用可能であることを確認します。
 title: Recommendationsアクティビティのプレビューと開始方法を教えてください。
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

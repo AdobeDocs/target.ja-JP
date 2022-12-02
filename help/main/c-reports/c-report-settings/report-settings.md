@@ -192,7 +192,7 @@ ht-degree: 67%
 
 レポートには様々なデータポイントと視覚表現があり、アクティビティの上昇率範囲や信頼区間を把握する一助になります。こうした情報を参考にすれば、より的確に勝者を見極めることができます。
 
-詳しくは、 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+詳しくは、 [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 次の点に留意してください。
 
