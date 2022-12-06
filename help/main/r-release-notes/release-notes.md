@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## モデル API リリース（2022 年 11 月 24 日）
+## モデル API リリース（2022年11月23日（PT））
 
-新しい [!DNL Adobe Target] モデル API(ブロックリストAPI とも呼ばれます ) を使用すると、の機械学習モデルで使用される機能のリストを表示および管理できます。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ
+新しい [!DNL Adobe Target] Models API（Blocklist API とも呼ばれる）を使用すると、ユーザーは [!UICONTROL Automated Personalization]（AP）と[!UICONTROL 自動ターゲット]（AT）アクティビティの機械学習モデルで使用する機能のリストを表示および管理できます。
 
-詳しくは、 [モデル API の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target Developer Guide*.
+詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Models API の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}を参照してください。
 
 ## [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年10月25～27日（PT））
 
