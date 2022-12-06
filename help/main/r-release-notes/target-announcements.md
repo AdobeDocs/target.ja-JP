@@ -4,42 +4,26 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 100%
+source-wordcount: '1873'
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Target] のお知らせとイベント
 
-[!DNL Target] Coffee Break セッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、今後の [!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
+お知らせと情報： [!DNL Adobe Target] イベント ( [!DNL Target] コーヒー休憩セッション [!DNL Target] ウェビナーシリーズ [!DNL Target] スキルビルダーセッション、開発者チャットなど。 過去の録画がある場合は、そのリンクも含まれます。
 
 ## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
 
-Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
+Gartner が選出 [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Engines(PE) のリーダーで、5 年連続です。 [!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価されたすべてのベンダーの中で、テスト機能の最高スコアを受け取りました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
-## [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））
-
-* **2022年11月29日 火曜日（PT）**
-* **午前 8:00～9:00（PST GMT-8）**
-* **[登録情報](https://adobe.ly/3UtQoxv){target=_blank}**
-
-[!DNL Adobe Target] のシニアプロダクトマネージャーである Cristinel Anastasoaie が参加し、[AI 駆動型パーソナライゼーションとレコメンデーション](#AI)についての [!DNL Adobe Target] ウェビナーに関連するご質問にお答えします。
-
-ウェビナーの録画を確認してから、包括的なインサイト、より深い説明、独自のユースケースに対する戦略的な提案などを求めるフォローアップの質問をしてください。
-
-* リアルタイムのレコメンデーション、ワンクリックパーソナライゼーションアクティビティおよび自動オファーの最適化
-* [!UICONTROL Visual Experience Composer]（VEC）を使用した AI 駆動型パーソナライゼーションアクティビティの作成と開始
-* [!DNL Adobe Experience Platform]（AEP）との統合によるセグメントとプロファイル属性のリアルタイム共有
-
-[!DNL Adobe] テクニカルサポートエンジニアの Simon Chen が、さらなるインサイトを提供し、ご質問にもお答えします。
-
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
-以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Adobe Target] の使用方法を参照してください。
+以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Target] の使用方法を参照してください。
 
 現時点でスケジュールされているものはありません。
 
@@ -284,6 +268,6 @@ Gartner は最新の Magic Quadrant for Personalization Engines（PE）で [!DNL
 
 ### [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
 
-2021年3月31日（PT）に mbox.js の廃止が予定されているので、Adobe Target プロダクトマネージャーの David Son は、最近、開発者チャットを主催し、mbox.js から at.js に移行するメリットについて話し合いました。
+2021 年 3 月 31 日に mbox.js が廃止されたのに伴い、Adobe Target Product Manager の David Son は開発者チャットを開催し、mbox.js を at.js に移行するメリットについて話し合いました。
 
 * **[録画リンク](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
