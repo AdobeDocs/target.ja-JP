@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、 [!DNL Target] location リクエスト（mbox リクエスト）を使用します。 IP-to-geo 解決は、新しいセッションの最初の呼び出しでおこなわれます。 つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
+| 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
 | 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。 | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Models API リリース（2022年11月23日）に関する情報を追加しました。 |
 | 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Experience Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。  |
