@@ -4,10 +4,10 @@ description: 指標、オーディエンス、日付範囲など、Adobe Target�
 title: レポート設定の設定方法を教えてください。
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 67%
+source-wordcount: '1959'
+ht-degree: 66%
 
 ---
 
@@ -145,9 +145,14 @@ ht-degree: 67%
 
 上昇率の計算と比較に使用するコントロールエクスペリエンスを選択します。
 
-### 環境
+### 環境 {#environment}
 
 レポートに使用する環境（ホストグループ）を選択します。詳しくは、[ホスト](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
+
+>[!NOTE]
+>
+>組織が [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) で指標データを送信 [!DNL Target]の場合、AEP Datastream の環境は、 [!DNL Target] レポート設定。
+
 
 ### レポートデータをリセット
 
