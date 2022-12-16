@@ -5,19 +5,19 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Target] のお知らせとイベント
 
-お知らせと情報： [!DNL Adobe Target] イベント ( [!DNL Target] コーヒー休憩セッション [!DNL Target] ウェビナーシリーズ [!DNL Target] スキルビルダーセッション、開発者チャットなど。 過去の録画がある場合は、そのリンクも含まれます。
+[!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
 ## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
 
-Gartner が選出 [!DNL Adobe Target] 最新の Magic Quadrant for Personalization Engines(PE) のリーダーで、5 年連続です。 [!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価されたすべてのベンダーの中で、テスト機能の最高スコアを受け取りました。
+Gartner は、最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
@@ -268,6 +268,6 @@ Gartner が選出 [!DNL Adobe Target] 最新の Magic Quadrant for Personalizati
 
 ### [!DNL Adobe Target] スキルビルダー：開発者チャット、 [!DNL Adobe Target] の mbox.js を at.js に移行 {#skill-builder}
 
-2021 年 3 月 31 日に mbox.js が廃止されたのに伴い、Adobe Target Product Manager の David Son は開発者チャットを開催し、mbox.js を at.js に移行するメリットについて話し合いました。
+2021年3月31日（PT）に mbox.js が非推奨（廃止予定）となったことを踏まえ、Adobe Target プロダクトマネージャーの David Son は、開発者チャットを主催して、mbox.js から at.js に移行するメリットについて話し合いました。
 
 * **[録画リンク](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
