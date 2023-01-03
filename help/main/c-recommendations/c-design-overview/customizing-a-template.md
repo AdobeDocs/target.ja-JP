@@ -4,10 +4,10 @@ description: オープンソースの Velocity デザイン言語を使用して
 title: Velocity を使用してデザインをカスタマイズする方法
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 99%
+source-wordcount: '1066'
+ht-degree: 78%
 
 ---
 
@@ -21,22 +21,24 @@ Velocity について詳しくは、[https://velocity.apache.org](https://veloci
 
 すべての Velocity 論理、構文、その他を、レコメンデーションデザインに使用できます。つまりこれは、*for* ループ、*if* ステートメント、およびその他のコードを JavaScript ではなく Velocity を使用して作成できることを意味します。
 
-`productPage` mbox または CSV アップロード内の [!DNL Recommendations] に送られた変数は、すべてデザインで表示できます。これらの値は次の構文で参照されます。
+に送信されたエンティティ属性 [!DNL Recommendations] 内 `productPage` 「複数値」属性を除き、mbox または CSV アップロードをデザインに表示できます。 任意のタイプの属性を送信できます。しかしながら [!DNL Target] は、テンプレートが繰り返し可能な配列として「複数値」型の属性を渡しません ( 例： `entityN.categoriesList`) をクリックします。
+
+これらの値は次の構文で参照されます。
 
 ```
 $entityN.variable
 ```
 
-変数名は、*$* 文字で始まり、Velocity テンプレート言語（VTL）識別子が続く構成の Velocity 短縮形表記法に従う必要があります。VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
+エンティティの属性名は、先頭の *$* 文字に続いて、Velocity Template Language(VTL) 識別子が表示されます。 VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
 
-Velocity 変数名は、次の文字に制限されます。
+Velocity エンティティの属性名は、次の文字タイプに制限されます。
 
 * アルファベット（a-z、A-Z）
 * 数字（0-9）
 * ハイフン（-）
 * アンダースコア（_）
 
-次の変数は Velocity 配列として利用できるので、繰り返し処理したり、インデックスで参照したりできます。
+次の属性は Velocity 配列として使用できます。 繰り返し処理したり、インデックスで参照したりできます。
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Velocity 変数について詳しくは、[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables) を参照してください。
+Velocity 変数（属性）について詳しくは、 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある $ は \ でエスケープする必要があります。例： `\${user.script_name}`
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->変数名の終わりを示すタグの前で、変数値の後にテキストを追加する場合は、正式な表記を使用して変数名を囲むことができます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
+>属性名が終了したことを示すタグの前で、属性の値の後にテキストを追加する場合は、正式な表記を使用して属性名を囲むことができます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
-また、デザインで `algorithm.name` と `algorithm.dayCount` を変数として使用できるので、1 つのデザインで複数の条件をテストでき、条件名をデザインに動的に表示できます。これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの変数はまた `dayCount`（「過去 2 日間のトップセラー」などのように、データがその条件で使用された日数）の表示にも使用できます。
+また、 `algorithm.name` および `algorithm.dayCount` をデザインのエンティティ属性として使用すると、1 つのデザインを使用して複数の条件をテストでき、条件名をデザインに動的に表示できます。 これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの属性を使用して、 `dayCount` (「過去 2 日間のトップセラー」などのように、データが条件で使用された日数。
 
 ## Velocity テンプレートでの数値の操作
 
 デフォルトでは、Velocity テンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として扱うには、次の手順に従います。
 
 1. ダミー変数を宣言し、任意の整数または倍精度値に初期化します。
-1. 使用するエンティティ属性が空白でないことを確認します（Target Recommendations のテンプレートパーサーでテンプレートを検証および保存するために必要です）。
+1. 使用するエンティティ属性が空白でないことを確認します ( [!DNL Target Recommendations]「 」テンプレートパーサーを使用して検証および保存します )。
 1. 手順 1 で作成したダミー変数の `parseInt` または `parseDouble` メソッドにエンティティ属性を渡し、文字列を整数値または倍精度値に変換します。
 1. 新しい数値に対して数学演算または比較を実行します。
 
@@ -214,7 +216,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 次のコードは、条件付き販売価格の例にある 1 行を示しています。
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 次のコードは、販売価格の完全な条件の例です。
@@ -222,9 +224,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
