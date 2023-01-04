@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 52%
 
 * での JSON オファーのサポートを追加しました。 [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用したアクティビティ （TGT-41460）
 * AEMタグでオファーを検索およびフィルタリングする機能を追加しました。 （TGT-43837）
-* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが追加されました。 現在は、「[!UICONTROL HTMLXF]&quot;.
+* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが追加されました。 現在は、「[!UICONTROL HTMLXF].&quot; （TGT-44132）
 * オファー情報ツールチップに、エクスペリエンスフラグメントオファーメタデータを表示する機能が追加されました。 （TGT-43838）
 * 45 日間および 90 日間のカレンダーオプションを AP から削除し、 [!UICONTROL 自動ターゲット] [!UICONTROL パーソナライゼーションインサイト] および [!UICONTROL 重要な属性] レポート [!DNL Target] UI 使用パターンおよびパフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されました。15 日、30 日、60 日。 （TGT-39357）
 * 次の項目を変更する機能を削除しました： [!UICONTROL 最適化目標と同じ] 設定 [!UICONTROL 目標と設定] ページを開きます。 （TGT-43923）
