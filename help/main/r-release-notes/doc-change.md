@@ -20,7 +20,7 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 12月21日（PT） | [Velocity を使用したデザインのカスタマイズ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | エンティティの属性がに送信されることを明確にしました [!DNL Recommendations] 内 `productPage` 「複数値」属性を除き、mbox または CSV アップロードをデザインに表示できます。 |
-| 12月20日（PT） | [[!UICONTROL Automated Personalization のオファーレポートグループ]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 「注意事項」の下のレポートグループに関する情報を追加しました。 |
+| 12月20日（PT） | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) のオファーレポートグループ | 「注意事項」の下のレポートグループに関する情報を追加しました。 |
 | 12月14日（PT） | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 「環境」の節に、[!DNL Adobe Experience Platform]（AEP）を使用して指標データを [!DNL Target] に送信することに関しての注記を追加しました。 |
 | 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
 | 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。 | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
@@ -49,7 +49,7 @@ ht-degree: 98%
 | 10月3日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースの日付を更新しました。 |
 | 9月22日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2022年9月28日（PT））</li></ul> |
 | 9月15日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに関する情報を追加しました。<ul><li>AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））</li></ul> |
-| 9月13日（PT） | [ [!DNL Target] UI について](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
+| 9月13日（PT） | [ [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) について | [!DNL Recommendations] フィードが失敗したときの通知に関する情報を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.8.1（時差リリース：2022年8月17～18日（PT））
