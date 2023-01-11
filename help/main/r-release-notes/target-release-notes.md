@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 52%
+source-wordcount: '333'
+ht-degree: 61%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 52%
 ## [!DNL Target] Standard/Premium 23.1.1（2023 年 1 月 26 日）
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
-
-| 機能 | 詳細 |
-| --- | --- |
-| AEMコンテンツフラグメント<br>（この機能の正確なリリース日は決定されます） | で作成したコンテンツフラグメントを使用する [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを活用して、最適化やパーソナライゼーションを支援します。<br>でAEMで作成したコンテンツフラグメントを使用する [!DNL Target] アクティビティを使用すると、AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせることができます。 [!DNL Target] 大規模にエクスペリエンスをテストし、パーソナライズする。 |
 
 * での JSON オファーのサポートを追加しました。 [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用したアクティビティ （TGT-41460）
 * AEMタグでオファーを検索およびフィルタリングする機能を追加しました。 （TGT-43837）
