@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 98%
@@ -123,7 +123,7 @@ ht-degree: 98%
    + 自動ターゲット {#auto-target}
       + [自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [自動ターゲットのトラブルシューティングと FAQ](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [自動ターゲットに関する FAQ とトラブルシューティング](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [レポートと自動ターゲット](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
