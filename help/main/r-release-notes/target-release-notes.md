@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
+source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '561'
+ht-degree: 37%
 
 ---
 
@@ -19,16 +19,24 @@ ht-degree: 61%
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.1.1（2023 年 1 月 26 日）
+## [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 26 日）
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 * での JSON オファーのサポートを追加しました。 [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用したアクティビティ （TGT-41460）
-* AEMタグでオファーを検索およびフィルタリングする機能を追加しました。 （TGT-43837）
-* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが追加されました。 現在は、「[!UICONTROL HTMLXF].&quot; （TGT-44132）
+* 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) AP アクティビティ用。
+* のエクスペリエンス名 [!DNL Recommendations] アクティビティがわかりやすい名前で表示されるようになり、 [!DNL Adobe Analytics] それを [!DNL Target] UI （TGT-41853）
+* 「500 エラー」が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティにレコメンデーションを含める。 この問題は、 [!DNL Target] から条件オブジェクトを適切に削除できませんでした [!DNL Target] UI および [!DNL Recommendations] 使用されなくなったバックエンド。 （TGT-44383）
+* 場所を [!UICONTROL オファーレベル] 報告する [!UICONTROL Automated Personalization] アクティビティ。 この変更により、レポートが読みやすくなります。 （TGT-44294）
+* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが [!UICONTROL Visual Experience Composer] (VEC) ワークフロー。 現在は、「[!UICONTROL HTMLXF].&quot; （TGT-44132）
 * オファー情報ツールチップに、エクスペリエンスフラグメントオファーメタデータを表示する機能が追加されました。 （TGT-43838）
 * 45 日間および 90 日間のカレンダーオプションを AP から削除し、 [!UICONTROL 自動ターゲット] [!UICONTROL パーソナライゼーションインサイト] および [!UICONTROL 重要な属性] レポート [!DNL Target] UI 使用パターンおよびパフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されました。15 日、30 日、60 日。 （TGT-39357）
-* 次の項目を変更する機能を削除しました： [!UICONTROL 最適化目標と同じ] 設定 [!UICONTROL 目標と設定] ページを開きます。 （TGT-43923）
+* を変更する機能を禁止 [!UICONTROL 最適化目標と同じ] 設定 [!UICONTROL 目標と設定] ページを開きます。 （TGT-43923）
+* のデフォルトの職場での問題を修正しました。 [!DNL Target] ～からアップグレードする際のバックエンド [!DNL Target Standard] から [!DNL Target Premium]. （TGT-44081 および TGT-44306）
+* リンクを変更しました。 [!UICONTROL 実装] ページ ([!UICONTROL 管理] > [!UICONTROL 実装]) を参照してください。Node.js、Java、.NET および Python 詳しくは、 [Target SDK の概要](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* を使用する際にファイルのアップロードに関する問題を修正しました [!DNL Scene7] および [!DNL Target].
+* アクセシビリティの強化 [!DNL Target] 内部のユーザビリティ監査の結果を使用して、障碍のあるユーザー向けの UI。 これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの強化、UI の一部をズームして、より使いやすくしたり、キーボードフォーカスを向上したりする機能などが含まれます。   （TGT-42759）
+* の [!DNL Target] UI
 
 ## その他のリリースノートとバージョンの詳細
 
