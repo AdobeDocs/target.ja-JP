@@ -4,10 +4,10 @@ description: エクスペリエンスのターゲット設定とAdobeで使用�
 title: Target と Audiences に関する質問や回答はどこで確認できますか。
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 62%
+source-wordcount: '969'
+ht-degree: 61%
 
 ---
 
@@ -37,14 +37,17 @@ Target では、アクティビティの作成時にオーディエンス URL �
 
 URL に対するオーディエンスのターゲティングの他に、クエリで指定できる特定の値を指定することもできます。
 
+オーディエンス URL のターゲティングと、を介した URL のターゲティングが追加されました。 [!UICONTROL テンプレートルール] を URL ターゲティングとして評価する（以下の URL ターゲティングを参照）。
+
 ### URL のターゲティング
 
-URL ターゲティングを適用するには、オーディエンスの作成時に「ルールを追加」をクリックし、「サイトページ」をクリックして、最初のドロップダウンリストからオプションを選択し（「現在のページ」、「前のページ」、「ランディングページ」）、2 番目のドロップダウンリストから URL を選択します。
+オーディエンスの作成時に URL ターゲティングを適用するには、 [!UICONTROL ルールを追加]をクリックし、 [!UICONTROL サイトのページ]」で、最初のドロップダウンリストからオプションを選択します ([!UICONTROL 現在のページ], [!UICONTROL 前のページ]または [!UICONTROL ランディングページ]) を選択します。 [!UICONTROL URL] 2 番目のドロップダウンリストから、評価基準を指定してから、目的の URL を指定します。
 
 ![サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL ターゲティングは、URL を評価する一連のルールに変換します。
 
+* URL = `example.com/path1?query=something`
 * URL domain = `example.com`
 * パス= path1/path2/path3
 * queryStringParam1 = test123
