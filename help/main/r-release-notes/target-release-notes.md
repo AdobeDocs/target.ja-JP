@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 37%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2023年1月4日（PT）**
+**最終更新日：2023年1月12日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -24,7 +24,7 @@ ht-degree: 37%
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 * での JSON オファーのサポートを追加しました。 [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用したアクティビティ （TGT-41460）
-* 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) AP アクティビティ用。
+* 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) AP アクティビティ用。 （TGT-44341）
 * のエクスペリエンス名 [!DNL Recommendations] アクティビティがわかりやすい名前で表示されるようになり、 [!DNL Adobe Analytics] それを [!DNL Target] UI （TGT-41853）
 * 「500 エラー」が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティにレコメンデーションを含める。 この問題は、 [!DNL Target] から条件オブジェクトを適切に削除できませんでした [!DNL Target] UI および [!DNL Recommendations] 使用されなくなったバックエンド。 （TGT-44383）
 * 場所を [!UICONTROL オファーレベル] 報告する [!UICONTROL Automated Personalization] アクティビティ。 この変更により、レポートが読みやすくなります。 （TGT-44294）
