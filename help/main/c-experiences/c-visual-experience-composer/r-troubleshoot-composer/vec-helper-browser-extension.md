@@ -4,10 +4,10 @@ description: Visual Experience Composer（VEC）で一部の web サイトを確
 title: Visual Experience Composer(VEC) ヘルパー拡張の使用方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 66%
+source-wordcount: '1108'
+ht-degree: 56%
 
 ---
 
@@ -19,15 +19,17 @@ VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefo
 
 >[!IMPORTANT]
 >
->2023年1月以降、Google Chrome では、現在の [!DNL Target] VEC Helper 拡張機能が動作しなくなります。これは、Google がManifest V2 を使用した拡張機能を許可しないためです。新しい拡張機能をダウンロードすれば、新年から引き続き [!DNL Target] で web サイトを視覚的に作成できます。詳しくは、[Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を参照してください。
+>現在の [!DNL Target] この記事に記載されている VEC ヘルパー拡張機能は、Manifest v2 を使用して作成されました。 Googleは最近、Manifest v2 を使用して作成された新しい拡張機能を許可しなくなると発表しました。
+>
+>既存の拡張機能は、Google Chrome で引き続き機能します。 将来、 [!DNL Adobe] このトピックに記載されているヘルパー拡張機能は非推奨となり、お客様は新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). この拡張機能が機能しなくなると、この記事のリリースノートおよびテキストで通知されます。 ただし、Manifest v3 のセキュリティ強化のため、 [!DNL Adobe] では、引き続き Web サイトを視覚的にオーサリングするために、新しい拡張機能をダウンロードすることをお勧めします。 [!DNL Target].
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 
 * Web サイトには厳格なセキュリティポリシーがあります。
 * Web サイトで iframe が使用されています。
 * Web サイトに at.js ライブラリがまだ実装されていません。
-* お客様の QA またはステージサイトは、外部では利用できません（サイトは内部）。
-* 現在、[Service Workers](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API) {target=_blank}（SW）を使用している web サイトを VEC で開こうとすると、いくつかの制限があります。
+* 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
+* VEC を使用してを使用している Web サイトを開こうとすると、現在いくつかの制限があります [サービスワーカー](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API){target=_blank} (SW)。
 
 SW は、web ページによってインストールされているドメインのリクエストをインターセプトするために使用できる web テクノロジーです。SW はページの訪問中は存続し、以降の訪問時にはアクティブになります。SW は、どのリクエストを通過させ、どのリクエストをインターセプトし、代わりにキャッシュからサービスを提供するかを決定します。
 
