@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 37%
+ht-degree: 52%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 37%
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
-* での JSON オファーのサポートを追加しました。 [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用したアクティビティ （TGT-41460）
+* フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460）
 * 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) AP アクティビティ用。 （TGT-44341）
 * のエクスペリエンス名 [!DNL Recommendations] アクティビティがわかりやすい名前で表示されるようになり、 [!DNL Adobe Analytics] それを [!DNL Target] UI （TGT-41853）
 * 「500 エラー」が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティにレコメンデーションを含める。 この問題は、 [!DNL Target] から条件オブジェクトを適切に削除できませんでした [!DNL Target] UI および [!DNL Recommendations] 使用されなくなったバックエンド。 （TGT-44383）
 * 場所を [!UICONTROL オファーレベル] 報告する [!UICONTROL Automated Personalization] アクティビティ。 この変更により、レポートが読みやすくなります。 （TGT-44294）
-* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが [!UICONTROL Visual Experience Composer] (VEC) ワークフロー。 現在は、「[!UICONTROL HTMLXF].&quot; （TGT-44132）
-* オファー情報ツールチップに、エクスペリエンスフラグメントオファーメタデータを表示する機能が追加されました。 （TGT-43838）
-* 45 日間および 90 日間のカレンダーオプションを AP から削除し、 [!UICONTROL 自動ターゲット] [!UICONTROL パーソナライゼーションインサイト] および [!UICONTROL 重要な属性] レポート [!DNL Target] UI 使用パターンおよびパフォーマンスを向上させるために、これらの日付範囲は非推奨（廃止予定）となりました。 UI が更新され、現在許可されている範囲が反映されました。15 日、30 日、60 日。 （TGT-39357）
+* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが [!UICONTROL Visual Experience Composer] (VEC) ワークフロー。 オプションは「[!UICONTROL HTML XF]」になりました。（TGT-44132）
+* オファー情報ツールチップでエクスペリエンスフラグメントオファーのメタデータを表示する機能を追加しました。（TGT-43838）
+* [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
 * を変更する機能を禁止 [!UICONTROL 最適化目標と同じ] 設定 [!UICONTROL 目標と設定] ページを開きます。 （TGT-43923）
 * のデフォルトの職場での問題を修正しました。 [!DNL Target] ～からアップグレードする際のバックエンド [!DNL Target Standard] から [!DNL Target Premium]. （TGT-44081 および TGT-44306）
 * リンクを変更しました。 [!UICONTROL 実装] ページ ([!UICONTROL 管理] > [!UICONTROL 実装]) を参照してください。Node.js、Java、.NET および Python 詳しくは、 [Target SDK の概要](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
