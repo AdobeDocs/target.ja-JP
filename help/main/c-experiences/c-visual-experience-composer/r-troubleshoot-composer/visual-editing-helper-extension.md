@@ -4,7 +4,7 @@ description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web �
 title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 82%
@@ -32,7 +32,7 @@ Chrome 用の [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] �
 * すべての iframe バスティングヘッダー（`X-Frame-Options` や `Content-Security-Policy` など）は、web サイトから暗黙的に削除されます。複雑な Requestly ルールを作成する必要はありません。
 * Web ページに [!DNL Target] at.js ライブラリがまだ含まれていない場合は、この拡張機能を使用してライブラリを挿入することにより、web サイトのエクスペリエンスを作成できます。その後に、アクティビティを作成し、プレビューリンクを使用してアクティビティの QA を実行できます。
 
-[拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) を使用すると、拡張機能では at.js は挿入されませんが、SameSite Cookie 機能は引き続き存在します。Web ページに at.js を挿入するには、EEC をオフにします。
+   [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) を使用すると、拡張機能では at.js は挿入されませんが、SameSite Cookie 機能は引き続き存在します。Web ページに at.js を挿入するには、EEC をオフにします。
 
 * [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL 拡張 Experience Composer]（EEC）がなくてもサポートされます。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
