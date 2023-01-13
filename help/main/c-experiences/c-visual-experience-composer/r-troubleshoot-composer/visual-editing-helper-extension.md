@@ -1,13 +1,13 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: vec;visual experience composer; vec;iframe;extension;browser;faq
 description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web サイトを確実に開くことができない可能性がある理由を明らかにします。[!UICONTROL Visual Editing Helper] ブラウザー拡張機能を使用すると、VEC 内に web サイトを確実に読み込むことができます。'
 title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Google Chrome の [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helpe
 
 >[!IMPORTANT]
 >
->この新しい拡張機能は、以前の [Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に代わるものです。
+>この新しい拡張機能は、以前の [Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に代わるものです。この記事の上部にある重要な注意事項を参照してください。
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 
@@ -40,7 +40,7 @@ Chrome 用の [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] �
 
 ## [!UICONTROL Visual Editing Helper] ブラウザー拡張機能の取得とインストール
 
-1. Chrome web ストアの [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ブラウザー拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}に移動します。
+1. 次に移動： [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome Web Store のブラウザー拡張機能](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. **[!UICONTROL Chrome に追加]**／**[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. この拡張機能を使用するには、VEC または QA モードで、Chrome ブラウザーのツールバーにある「[!UICONTROL Visual Editing Helper]」ブラウザー拡張機能アイコン（![Visual Editing 拡張機能アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）をクリックします。
@@ -58,3 +58,13 @@ Chrome 用の [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] �
    * 読み込みに失敗した VEC を使用して web サイトを読み込もうとすると、[!UICONTROL Visual Editing Helper] ブラウザー拡張機能のインストールを勧めるメッセージが表示されます。
    * at.js または alloy.js が web サイトにまだ実装されていない場合、この拡張機能のインストールを勧めるメッセージが VEC に表示されます。
 * 新しい拡張機能を使用してから[古い拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に戻り、[!DNL Target] が web サイトの読み込みに失敗した場合は、すべてのブラウザー データを消去し、新しい拡張機能を無効にします。
+
+## よくある質問
+
+### 拡張機能がアクティブな場合、の外部で使用された場合は何も実行しませんか。 [!DNL Adobe Target] または [!UICONTROL Adobe Journey Optimizer] (AJO)?
+
+この拡張機能は、対象の Web サイトが [!DNL Adobe] 製品 ([!DNL Target], [!DNL AJO]) をクリックします。 このフローの外部では、拡張機能はヘッダーの追加、削除、変更を試みず、Web サイト内にコードを挿入しようとしません。
+
+### 拡張機能がでアクティブな場合の動作 [!DNL Adobe Target] VEC?
+
+Web サイトが [!DNL Adobe] 製品 ([!DNL Target], [!DNL AJO]) の場合、拡張機能は（拡張機能に付属の）コードを Web サイトに挿入し、ヘルパーファイルをからダウンロードします。 [!DNL Adobe] CDN でビジュアルオーサリングを有効にします。

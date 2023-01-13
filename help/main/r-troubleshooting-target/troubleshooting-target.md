@@ -4,9 +4,9 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
@@ -159,4 +159,5 @@ ht-degree: 88%
 * [Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。[Visual Experience Composer（VEC）を参照](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) してください。

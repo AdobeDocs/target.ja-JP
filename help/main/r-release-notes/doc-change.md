@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1864'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1月13日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | よくある質問の節を追加しました。 |
 | 1月12日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 現在の [!UICONTROL Visual Experience Composer] ヘルパー拡張機能。 |
 |  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | オーディエンス URL のターゲティングと URL のターゲティングが [!UICONTROL テンプレートルール] は URL ターゲティングとして評価されます。 |
 |  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 22.13.3リリースのプレリリースノートを追加しました。 |
