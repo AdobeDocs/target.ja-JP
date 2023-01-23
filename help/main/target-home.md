@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 
 ## 開発者  {#developers}
 
-- [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}:このポータルでは、 [!DNL Adobe Target] 開発者（実装する API や SDK ドキュメントを含む） [!DNL Target].
+- [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 

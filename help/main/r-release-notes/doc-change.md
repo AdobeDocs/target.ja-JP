@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
 source-wordcount: '1864'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 96%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 1月13日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | よくある質問の節を追加しました。 |
-| 1月12日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 現在の [!UICONTROL Visual Experience Composer] ヘルパー拡張機能。 |
-|  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | オーディエンス URL のターゲティングと URL のターゲティングが [!UICONTROL テンプレートルール] は URL ターゲティングとして評価されます。 |
-|  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 22.13.3リリースのプレリリースノートを追加しました。 |
+| 1月12日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 現在の [!UICONTROL Visual Experience Composer] ヘルパー拡張機能のステータスを説明する重要な注記を更新しました。 |
+|  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | [!UICONTROL テンプレートルール]によって追加されたオーディエンス URL ターゲティングと URL ターゲティングが、URL ターゲティングとして評価されることを説明する情報を追加しました。 |
+|  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) |  22.13.3 リリースに関するプレリリースノートを追加しました。 |
 | 12月21日（PT） | [Velocity を使用したデザインのカスタマイズ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 「複数値」属性を除いて、`productPage` mbox または CSV アップロードで [!DNL Recommendations] に送信されたエンティティ属性をデザインに表示できることを明確にしました。 |
 | 12月20日（PT） | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) のオファーレポートグループ | 「注意事項」の下のレポートグループに関する情報を追加しました。 |
 | 12月14日（PT） | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 「環境」の節に、[!DNL Adobe Experience Platform]（AEP）を使用して指標データを [!DNL Target] に送信することに関しての注記を追加しました。 |
 | 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
-| 11月28日（PT） | [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 内 *Adobe Target Developer Guide*. | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
+| 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | Models API リリース（2022年11月23日）に関する情報を追加しました。 |
-| 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | へのリンクを更新しました。 [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
+| 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Experience Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。  |
 | 11月16日（PT） | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））</li></ul> |
-| 11月8日（PT） | [A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 正確な結果を得るには、ページを再読み込みしてから、[!DNL Adobe Target] [!UICONTROL サンプルサイズ計算ツール]のパラメーター数値を変更する必要があるという重要な注記を追加しました。また、実際の [計算機](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){target=_blank}. |
+| 11月8日（PT） | [A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 正確な結果を得るには、ページを再読み込みしてから、[!DNL Adobe Target] [!UICONTROL サンプルサイズ計算ツール]のパラメーター数値を変更する必要があるという重要な注記を追加しました。また、実際の[計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){target=_blank}に注記を追加しました。 |
 |  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | テーブルの `adobe_mc_sdid` パラメーターの説明を更新しました。 |
 |  | [アクティビティのトラブルシューティング](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 「アクティビティのコンバージョン後、訪問者はどのエクスペリエンスにも含まれない」という新しい節を追加しました。 |
 |  | [カスタムパラメーター](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 「[!UICONTROL フィルター条件]」ドロップダウンリストから選択した mbox は、アクティビティの作成時には保存されないという注記を追加しました。このオプションを使用すると、選択した mbox に基づいてパラメーターをフィルター処理できます。 |
@@ -143,7 +143,7 @@ ht-degree: 96%
 | 1月26日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.2 リリースに関する情報を追加しました。 |
 |  | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
 |  | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
-| 1月21日（PT） | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}をインストールします。 | at.js 1.8.3 リリースに関する情報を追加しました。 |
+| 1月21日（PT） | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 1.8.3 リリースに関する情報を追加しました。 |
 | 1月19日（PT） | [at.js 1.*x* から at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 以下の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
 | 1月12日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.1 リリースに関する情報を追加しました。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |

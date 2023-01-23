@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 52%
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 * フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460）
-* 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) AP アクティビティ用。 （TGT-44341）
-* のエクスペリエンス名 [!DNL Recommendations] アクティビティがわかりやすい名前で表示されるようになり、 [!DNL Adobe Analytics] それを [!DNL Target] UI （TGT-41853）
-* 「500 エラー」が [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティにレコメンデーションを含める。 この問題は、 [!DNL Target] から条件オブジェクトを適切に削除できませんでした [!DNL Target] UI および [!DNL Recommendations] 使用されなくなったバックエンド。 （TGT-44383）
-* 場所を [!UICONTROL オファーレベル] 報告する [!UICONTROL Automated Personalization] アクティビティ。 この変更により、レポートが読みやすくなります。 （TGT-44294）
-* 「[!UICONTROL エクスペリエンスフラグメント]」オプションが [!UICONTROL Visual Experience Composer] (VEC) ワークフロー。 オプションは「[!UICONTROL HTML XF]」になりました。（TGT-44132）
+* AP アクティビティ用に [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)を実装しました。（TGT-44341）
+* [!DNL Recommendations] アクティビティのエクスペリエンス名がわかりやすい名前で表示されるようになり、顧客は [!DNL Adobe Analytics] のデータと [!DNL Target] UI のデータをより適切に関連付けることができます。（TGT-41853）
+* 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
+* [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
+* [!UICONTROL Visual Experience Composer]（VEC）ワークフローの「[!UICONTROL エクスペリエンスフラグメント]」オプションの名前を変更しました。オプションは「[!UICONTROL HTML XF]」になりました。（TGT-44132）
 * オファー情報ツールチップでエクスペリエンスフラグメントオファーのメタデータを表示する機能を追加しました。（TGT-43838）
 * [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
-* を変更する機能を禁止 [!UICONTROL 最適化目標と同じ] 設定 [!UICONTROL 目標と設定] ページを開きます。 （TGT-43923）
-* のデフォルトの職場での問題を修正しました。 [!DNL Target] ～からアップグレードする際のバックエンド [!DNL Target Standard] から [!DNL Target Premium]. （TGT-44081 および TGT-44306）
-* リンクを変更しました。 [!UICONTROL 実装] ページ ([!UICONTROL 管理] > [!UICONTROL 実装]) を参照してください。Node.js、Java、.NET および Python 詳しくは、 [Target SDK の概要](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-* を使用する際にファイルのアップロードに関する問題を修正しました [!DNL Scene7] および [!DNL Target].
-* アクセシビリティの強化 [!DNL Target] 内部のユーザビリティ監査の結果を使用して、障碍のあるユーザー向けの UI。 これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの強化、UI の一部をズームして、より使いやすくしたり、キーボードフォーカスを向上したりする機能などが含まれます。   （TGT-42759）
-* の [!DNL Target] UI
+* アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
+* [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
+* サポート対象のすべての SDK（Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の[!UICONTROL 実装]ページ（[!UICONTROL 管理]／[!UICONTROL 実装]）のリンクを変更をしました。詳しくは、[Target SDK の開始方法](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
+* [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
+* 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
+* [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
 
 ## その他のリリースノートとバージョンの詳細
 
