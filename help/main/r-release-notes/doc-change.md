@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
 workflow-type: tm+mt
 source-wordcount: '1926'
 ht-degree: 98%
@@ -21,7 +21,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | 1月25日（PT） | [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md) | での JSON オファーのサポートを示した [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用するアクティビティが利用できるようになりました。 |
 |  | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク:エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース</li></ul> |
-|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 リリースに関するリリースノートを追加しました。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Adobe Target] Standard／Premium 22.10.1（時差リリース 2022年10月10～13日（PT））
 
