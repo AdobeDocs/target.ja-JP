@@ -4,10 +4,10 @@ description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼー�
 title: 重要な属性レポートとは何ですか。
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 80%
+source-wordcount: '1724'
+ht-degree: 79%
 
 ---
 
@@ -60,10 +60,6 @@ ht-degree: 80%
 
    とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 重要な属性]は、次の固定日付範囲でのみ使用できます。15 日、30 日、60 日。
 
-   >[!NOTE]
-   >
-   >[!DNL Target] UI では現在、45 日および 90 日の日付範囲を選択できます。ただし、 [!DNL Target] バックエンドはこれら 2 つの範囲を処理しません。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。UI は、現在許可されている範囲（15 日、30 日および 60 日）を反映するように更新されます。
-
    これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始日」はグレー表示になっています。開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
    ![Adobe Targetレポートのカレンダー](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
@@ -105,7 +101,7 @@ ht-degree: 80%
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 **[!UICONTROL 自動セグメント]レポートと[!UICONTROL 重要な属性]レポートの情報は、CSV ダウンロードの情報と同じですか？**
 

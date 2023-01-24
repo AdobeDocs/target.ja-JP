@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 96%
+source-wordcount: '588'
+ht-degree: 93%
 
 ---
 
@@ -23,13 +23,15 @@ ht-degree: 96%
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
-* フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460）
-* 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) （一部の顧客の AP アクティビティ） この機能は、初期テストフェーズの後、すべてのお客様が利用できます。 （TGT-44341）
-* [!UICONTROL Analytics for Target] A4T レポートにわかりやすい名前を追加しました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853）
+| 機能 | 詳細 |
+| --- | --- |
+| Automated Personalization（AP） | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。<br>詳しくは、 [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md). （TGT-41460） |
+| Recommendations | のわかりやすい名前 [!UICONTROL Analytics for Target] A4T レポートが使用できるようになりました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853） |
+| アクティビティ QA | 実装済み [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md) （一部の顧客の AP アクティビティ） この機能は、初期テストフェーズの後、すべてのお客様が利用できます。 （TGT-44341） |
+
 * 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
 * [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
 * [!UICONTROL Visual Experience Composer]（VEC）ワークフローの「[!UICONTROL エクスペリエンスフラグメント]」オプションの名前を変更しました。オプションは「[!UICONTROL HTML XF]」になりました。（TGT-44132）
-* オファー情報ツールチップでエクスペリエンスフラグメントオファーのメタデータを表示する機能を追加しました。（TGT-43838）
 * [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
 * アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
 * [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）

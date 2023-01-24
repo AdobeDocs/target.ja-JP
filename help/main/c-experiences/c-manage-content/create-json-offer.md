@@ -1,13 +1,13 @@
 ---
 keywords: リモートオファー;リモートオファーの作成
-description: Adobeで JSON オファーを作成する方法を説明します [!DNL Target] フォームベースの Experience Composer で使用する場合。 JSON オファーは、SPAフレームワークまたはサーバー側統合に役立ちます。
+description: Adobeで JSON オファーを作成する方法を説明します [!DNL Target] フォームベースの Experience Composer で使用する場合。
 title: JSON オファーの作成方法
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 38%
+source-wordcount: '529'
+ht-degree: 29%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 38%
 
 で JSON オファーを作成 [!UICONTROL オファーライブラリ] in [!DNL Adobe Target] ( [!UICONTROL フォームベースの Experience Composer].
 
-JSON オファーは、フォームベースのアクティビティで使用できるので、 [!DNL Target]SPAフレームワークまたはサーバー側統合での使用のために、オファーを JSON 形式で送信するには、の判定が必要です。
+JSON オファーは、フォームベースのアクティビティで使用できるので、 [!DNL Target] SPAフレームワークまたはサーバー側の統合での使用のために、オファーを JSON 形式で送信するには、判定が必要です。
 
 ## JSON の考慮事項
 
 JSON オファーを使用する際は次の点を考慮してください。
 
-* JSON オファーは現在、 [!UICONTROL A/B テスト] および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ
+* JSON オファーは現在、 [!UICONTROL A/B テスト]、Automated Personalization(AP) および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ
 * JSON オファーは、 [フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md) のみ。
-* JSON オファーは、サーバー側 API、Mobile SDK または NodeJS SDK を使用している場合は直接取得できます。
-* ブラウザーでは、JSON オファーは、at.js 1.2.3 以降と [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} を `setJson` アクション。
+* JSON オファーは、 [Server Side API と Mobile Node.js、Java、.NET、Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* ブラウザーでは、JSON オファーは、at.js 1.2.3 以降を介して、 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} を使用してアクションをフィルタリングする `setJson` アクション。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
-* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}。
+* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
 ## JSON オファーの作成 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -44,7 +44,7 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 ## JSON の例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON オファーは、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md). 現時点で JSON オファーを使用できる方法は、直接の API 呼び出しのみとなっています。
+JSON オファーは、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md). 現在、JSON オファーを使用できる方法は、直接の API/SDK 呼び出しのみです。
 
 次に例を示します。
 
@@ -68,7 +68,7 @@ success コールバックに渡すアクションは、オブジェクトの配
 }
 ```
 
-アクション配列は次のような構成になります。
+actions 配列は次の構造を持ちます。
 
 ```json
 [ 
@@ -133,13 +133,13 @@ adobe.target.getOffer({
 
 ## リアルタイム CDP プロファイル属性を使用した JSON オファーの例
 
-リアルタイム CDP プロファイル属性は、HTMLオファーおよび JSON オファーで使用するために、Target と共有できます。 （この機能は現在ベータ版であることに注意してください）。
+リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] HTMLオファーと JSON オファーで使用する （この機能は現在ベータ版であることに注意してください）。
 
-使用例：グレースは、オンラインマーケティング担当者がリアルタイムのパーソナライゼーションを提供するために、AEP/統合プロファイルに Target と属性値を共有して欲しいと考えています。 リアルタイム CDP プロファイル属性を使用すると、猶予は、トークン置換を使用して Target オファーに AEP 属性の値を表示できます。 例えば、Sarah は、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
+使用例：グレースは、オンラインマーケターとして、AEP/統合プロファイルに属性値を共有させたいと考えています。 [!DNL Target] リアルタイムパーソナライゼーションを提供するために。 リアルタイム CDP プロファイル属性を使用すると、猶予は、 [!DNL Target] トークン置換を使用したオファー 例えば、Sarah は、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
-上記の例では、デフォルト値の割り当てはオプションであることに注意してください。
+デフォルト値の割り当てはオプションです。
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
