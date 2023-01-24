@@ -4,10 +4,10 @@ description: 使用方法を学ぶ [!DNL Adobe Experience Manager] のエクス�
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) エクスペリエンスフラグメント？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 51%
+source-wordcount: '1380'
+ht-degree: 57%
 
 ---
 
@@ -50,18 +50,18 @@ ht-degree: 51%
 
 詳しくは、次を参照してください。
 
-* **AEMas a Cloud Service**: [Adobe Targetとの統合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} *Experience Manageras a Cloud Service* ガイド。
-* **Adobe I/O**: [AdobeI/0 を使用したAdobe Targetとの統合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html?lang=ja){target=_blank} *管理ユーザーガイド* ドキュメント。
-* **[!DNL AEM]6.5**: [Adobe AnalyticsとAdobe Targetのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja){target=_blank} *Adobe Experience Manager 6.5* ドキュメント。
-* **[!DNL AEM]6.4**: [Adobe AnalyticsとAdobe Targetのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja){target=_blank} *Adobe Experience Manager 6.4* ドキュメント。
+* **AEMas a Cloud Service**: [Adobe Targetとの統合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} 内 *Experience Manageras a Cloud Service* ガイド。
+* **Adobe I/O**：[管理ユーザーガイド](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html?lang=ja)ドキュメントの {target=_blank}Adobe I/O を使用した Adobe Target との統合&#x200B;**。
+* **[!DNL AEM]6.5**：[Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja) ドキュメントの {target=_blank}Adobe Analytics と Adobe Target へのオプトイン&#x200B;**。
+* **[!DNL AEM]6.4**：[Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja) ドキュメントの {target=_blank}Adobe Analytics と Adobe Target へのオプトイン&#x200B;**。
 
 ### 手順 2：エクスペリエンスフラグメントを作成する
 
 エクスペリエンスフラグメントは [!DNL AEM] で作成されます。詳しくは、次を参照してください。
 
-* **AEMas a Cloud Service**: [エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* ガイド。
-* **[!DNL AEM]6.5**: [エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=ja){target=_blank} *Adobe Experience Manager 6.5* ドキュメント。
-* **[!DNL AEM]6.4**: [エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=ja){target=_blank} *Adobe Experience Manager 6.4* ドキュメント。
+* **AEMas a Cloud Service**: [エクスペリエンスフラグメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} 内 *Experience Manageras a Cloud Service* ガイド。
+* **[!DNL AEM]6.5**：[Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=ja) ドキュメントの{target=_blank}エクスペリエンスフラグメント&#x200B;**。
+* **[!DNL AEM]6.4**：[Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=ja) ドキュメントの{target=_blank}エクスペリエンスフラグメント&#x200B;**。
 
 ### 手順 3：エクスペリエンスフラグメントを [!DNL Target] と共有するように [!DNL AEM] を設定する
 
@@ -78,9 +78,9 @@ ht-degree: 51%
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEMas a Cloud Service**: [エクスペリエンスフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* ガイド。
-* **[!DNL AEM]6.5**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* ドキュメント。
-* **[!DNL AEM]6.4**: [エクスペリエンスフラグメントの Target への書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank} *Adobe Experience Manager 6.4* ドキュメント。
+* **AEMas a Cloud Service**: [エクスペリエンスフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} 内 *Experience Manageras a Cloud Service* ガイド。
+* **[!DNL AEM]6.5**：[Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en) ドキュメントの {target=_blank}Target へのエクスペリエンスフラグメントの書き出し&#x200B;**。
+* **[!DNL AEM]6.4**：[Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja) ドキュメントの {target=_blank}Target へのエクスペリエンスフラグメントの書き出し&#x200B;**。
 
 ## [!DNL Target] アクティビティでのエクスペリエンスフラグメントの使用 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -92,6 +92,8 @@ ht-degree: 51%
 >
 >* エクスペリエンスフラグメントが [!DNL Target] をHTMLまたは JSON オファーとして設定する。 そのエクスペリエンスフラグメントの「プライマリ」バージョンは、 [!DNL AEM]. [!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
 
+
+フィルターおよび検索条件は、 [!UICONTROL HTMLXF] および [!UICONTROL JSON XF] に書き出されるエクスペリエンスフラグメントタイプを区別するのに役立ちます。 [!DNL Target].
 
 リスト内のエクスペリエンスフラグメントにカーソルを合わせ、[!UICONTROL 表示]アイコン（![表示アイコン](assets/icon_info.png)）をクリックして、公開オファー配信 URL やその [!DNL AEM] パスなど、エクスペリエンスフラグメントに関する追加情報を表示できます。
 
@@ -160,7 +162,7 @@ ht-degree: 51%
 
 HTMLページ全体がエクスペリエンスフラグメントをラップして問題を引き起こす場合があります。 エクスペリエンスフラグメントが小さなHTMLであり、HTML、HEAD、本文などを含む完全なHTMLページではないことを確認します。
 
-詳しくは、次のブログ投稿を参照してください。 [AEM 6.5:Target に書き出したエクスペリエンスフラグメントからの ClientLibs の削除](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
+詳しくは、次のブログ投稿を参照してください。 [AEM 6.5:Target に書き出したエクスペリエンスフラグメントからの ClientLibs の削除](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## トレーニングビデオ：でのAEMエクスペリエンスフラグメントの使用 [!DNL Adobe Target]
 
