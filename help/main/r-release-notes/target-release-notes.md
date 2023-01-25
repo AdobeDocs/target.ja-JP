@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回のリリースではどのような新機能や機能強化が追加されますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 89%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 89%
 
 | 機能 | 詳細 |
 | --- | --- |
-| Automated Personalization（AP） | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。<br>詳しくは、 [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md). （TGT-41460） |
+| [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md) Automated Personalization(AP) でのサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
 | Recommendations | のわかりやすい名前 [!UICONTROL Analytics for Target] A4T レポートが使用できるようになりました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853） |
-| AEM エクスペリエンスフラグメント | 次の項目を区別する機能を追加しました。 [!DNL Adobe Experience Manager] に書き出されるフラグメント (AEM XF) タイプ [!DNL Target]. 「エクスペリエンスフラグメント」オプションの代わりに、 [!DNL Target] では、「HTMLXF」と「JSON XF」でフィルタリングおよび検索できます。 <br>[詳しくは、AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)を参照してください。（TGT-44132） |
+| [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 次の項目を区別する機能を追加しました。 [!DNL Adobe Experience Manager] に書き出されるフラグメント (AEM XF) タイプ [!DNL Target]. 「エクスペリエンスフラグメント」オプションの代わりに、 [!DNL Target] では、「HTMLXF」と「JSON XF」でフィルタリングおよび検索できます。 （TGT-44132） |
 
 * 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
 * [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
