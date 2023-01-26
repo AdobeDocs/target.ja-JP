@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースに含まれているもの
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
+source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 91%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 91%
 | 機能 | 詳細 |
 | --- | --- |
 | [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md) Automated Personalization(AP) でのサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
-| Recommendations | のわかりやすい名前 [!UICONTROL Analytics for Target] A4T レポートが使用できるようになりました。 以前は、[!DNL Target] にはエクスペリエンス ID のみがリストされていました。この機能強化により、[!DNL Adobe Analytics] と [!DNL Target] の間でレポートが調整され、顧客が A4T でレポート作成を合理化するのに役立ちます。（TGT-41853） |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 次の項目を区別する機能を追加しました。 [!DNL Adobe Experience Manager] に書き出されるフラグメント (AEM XF) タイプ [!DNL Target]. 「エクスペリエンスフラグメント」オプションの代わりに、 [!DNL Target] では、「HTMLXF」と「JSON XF」でフィルタリングおよび検索できます。 （TGT-44132） |
 
 * 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
