@@ -27,7 +27,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 1月13日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | よくある質問の節を追加しました。 |
+| 1月13日（PT） | [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 「よくある質問」の節を追加しました。 |
 | 1月12日（PT） | [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 現在の [!UICONTROL Visual Experience Composer] ヘルパー拡張機能のステータスを説明する重要な注記を更新しました。 |
 |  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | [!UICONTROL テンプレートルール]によって追加されたオーディエンス URL ターゲティングと URL ターゲティングが、URL ターゲティングとして評価されることを説明する情報を追加しました。 |
 |  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) |  22.13.3 リリースに関するプレリリースノートを追加しました。 |
