@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
+source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1938'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 1月31日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 名に使用できる文字と使用できない文字のリストを追加しました。 |
 | 1月25日（PT） | [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md) | での JSON オファーのサポートを示した [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用するアクティビティが利用できるようになりました。 |
 |  | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク:エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 リリースに関するリリースノートを追加しました。 |

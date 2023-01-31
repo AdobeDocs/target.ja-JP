@@ -5,10 +5,10 @@ title: の様々な文字、サイズ、その他の制限 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
+source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 96%
+source-wordcount: '1387'
+ht-degree: 93%
 
 ---
 
@@ -159,9 +159,21 @@ ht-degree: 96%
 
 * **上限**：128 文字。
 
-### mbox 名
+### mbox 名 {#mbox-names}
 
 * **上限**：250 文字。
+
+Delivery API(at.js 2.*x*)、バッチ mbox V2 および AEP Web SDK(alloy.js) 統合、mbox 名 *can* には、英数字 (A ～ Z、a ～ z、0 ～ 9) と、次の文字のいずれかを含めます。
+
+```
+- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+```
+
+at.js 1.*x* 統合， mbox 名 *できません* には、次の文字のいずれかが含まれます。
+
+```
+' " %22 %27 < > %3C %3E 
+```
 
 ### mbox パラメーター {#mbox-parameters}
 
