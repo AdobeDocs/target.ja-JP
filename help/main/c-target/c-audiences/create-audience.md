@@ -4,10 +4,10 @@ description: カスタマイズしたオーディエンスを作成し、 [!DNL 
 title: オーディエンスを構築する方法を教えてください。
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ ht-degree: 61%
    既存のオーディエンスをコピーするには、 [!UICONTROL オーディエンス] リストで、 **[!UICONTROL その他のアクション]** アイコン（省略記号アイコン）をクリックし、 **[!UICONTROL 複製]**. これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. 一意のわかりやすいオーディエンスの名前とオプションの説明を入力します。
+
+   オーディエンス名を次の文字で始めることはできません。
+
+   `=  +  -  !  @`
+
+   オーディエンス名に次の文字シーケンスを含めることはできません。
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. 目的の属性を **[!UICONTROL 属性]** リストを表示します。
 
    ![属性をドラッグ&amp;ドロップ](assets/drag-attribute.png)

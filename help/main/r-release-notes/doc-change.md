@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1978'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 97%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 2月2日（PT） | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 以下の節が更新されました。<ul><li>参照モードを使用すると、VEC が壊れているように見えます</li></ul> |
+|  | [Target でのオーディエンスの構築](/help/main/c-target/c-audiences/create-audience.md) | オーディエンス名で使用できない文字と文字のシーケンスのリストを追加しました。 |
 | 1月31日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 名に使用できる文字と使用できない文字のリストを追加しました。 |
 | 1月25日（PT） | [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md) | での JSON オファーのサポートを示した [!UICONTROL Automated Personalization] (AP) フォームベースの Experience Composer を使用するアクティビティが利用できるようになりました。 |
 |  | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク:エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース</li></ul> |
