@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 79%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -122,4 +122,8 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 
 ## 参照モードを使用すると、VEC が壊れているように見えます。（VEC のみ） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-参照モードの使用中に、target.js を含まない URL またはフレームバスターヘッダーを含む URL にアクセスすると、Visual Experience Composer が壊れているように表示されます。ブラウザーのセキュリティ上の問題により、Target はこれらの URL にアクセスできません。
+参照モードを使用しているときに、 [!DNL Target] ライブラリが実装されている ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) または frame-buster ヘッダーが含まれている場合、VEC が壊れているように見えます。 ブラウザーのセキュリティ上の問題により、 [!DNL Target] ページが読み込まれると、に移動した URL に正しくアクセスできないか、VEC URL の更新に一貫性がありません。
+
+この問題は、VEC が `<iframe>`. ブラウザーの現在のセキュリティメカニズムにより、 [!DNL Target] 同一オリジンポリシーが原因で、特定のフレームの要素にアクセスできない UI。 ブラウザーは、スクリプトが異なる接触チャネルを持つフレームにアクセスしようとし、そのフレームに `location.href`.
+
+新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （推奨）または [古い拡張子](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 注入する [!DNL Target] をページにライブラリして、最適に参照できるようにします。
