@@ -4,7 +4,7 @@ description: カスタマイズしたオーディエンスを作成し、 [!DNL 
 title: オーディエンスを構築する方法を教えてください。
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
    オーディエンス名に次の文字シーケンスを含めることはできません。
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. 目的の属性を **[!UICONTROL 属性]** リストを表示します。
 
