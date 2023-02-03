@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 86%
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **1 月 25 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **1 月 25 日**:アジア太平洋 (APAC) 地域
-* **1 月 27 日**:アメリカ地域
+* **1月25日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **1月25日（PT）**：アジア太平洋（APAC）地域
+* **1月26日（PT）**：アメリカ地域
 
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md) Automated Personalization(AP) でのサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
-| [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 次の項目を区別する機能を追加しました。 [!DNL Adobe Experience Manager] に書き出されるフラグメント (AEM XF) タイプ [!DNL Target]. 「エクスペリエンスフラグメント」オプションの代わりに、 [!DNL Target] では、「HTMLXF」と「JSON XF」でフィルタリングおよび検索できます。 （TGT-44132） |
+| Automated Personalization（AP）での [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)のサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
+| [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL Target] に書き出された [!DNL Adobe Experience Manager] フラグメント（AEM XF）タイプ間を区別できる機能を追加しました。「エクスペリエンスフラグメント」オプションの代わりに、[!DNL Target] で「HTML XF」および「JSON XF」によるフィルタリングと検索ができるようになりました。（TGT-44132） |
 
 * 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
 * [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
 * [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
 * アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
 * [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
-* を許可するよう変更しました。 [!DNL Analytics] ドット文字「。」を含むレポートスイート 彼らの名前で使用される [!DNL Target] 作成する UI [!DNL Analytics] 分類フィード。
+* 名前にドット文字「.」を含む [!DNL Analytics] レポートスイートを[!DNL Target] UI で使用して、[!DNL Analytics] 分類フィードを作成できるように変更しました。
 * サポート対象のすべての SDK（Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の[!UICONTROL 実装]ページ（[!UICONTROL 管理]／[!UICONTROL 実装]）のリンクを変更をしました。詳しくは、[Target SDK の開始方法](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 * [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
 * 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
