@@ -4,9 +4,9 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: ht
-source-wordcount: '1931'
+source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -20,20 +20,6 @@ ht-degree: 100%
 Gartner は、最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
-
-## [!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク
-
-* **エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース**
-* **2023年2月1日 水曜日（PT）**
-* **午前 8:00～9:00（PST、GMT-8）**
-* **[登録](https://adobe.ly/3IWsAiX){target=_blank}**
-
-[!DNL Adobe Target] の製品マーケティングマネージャーである Brent Kostak が参加し、このスレッドで [!DNL Target] の「エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース」に関連する質問について直接チャットします。
-
-* [!DNL Target] でのアクティビティ設定のワークフロー
-* モバイルエクスペリエンスのテストとターゲティングのカスタマーライフサイクル指標
-* Web およびアプリでのクロスチャネルパーソナライゼーションに対する AI/ML の活用
-* iOS および Android プラットフォームをサポートする柔軟な実装のためのモバイル SDK および API
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
