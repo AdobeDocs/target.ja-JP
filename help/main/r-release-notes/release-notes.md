@@ -2,21 +2,28 @@
 keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;修正;バグ修正;アップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
-title: 現在のリリースに含まれているもの
+title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 93%
 
 ---
 
-# [!DNL Target]リリースノート（現行）
+# [!DNL Target] リリースノート（最新）
 
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## at.js バージョン2.10.1（2023 年 2 月 3 日）
+
+* オンデバイス判定の際、名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、期待したエクスペリエンスを返さなかった問題を修正しました。
+* at.js 2.6.0 で、( `mboxDisable` が有効になっている。
+
+すべての at.js リリースについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## [!DNL Target] Standard／Premium 22.13.3（2023年1月25〜26日（PT）） 
 
@@ -57,8 +64,8 @@ ht-degree: 100%
 
 | リソース | 詳細 |
 |--- |--- |
-| ドキュメントの変更点 | リリースノートに含まれない可能性のある、このガイドの更新点に関する詳細情報を表示します。<br>詳しくは、[ドキュメントの変更](/help/main/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)を参照してください。 |
-| 以前のリリースのリリースノート | 以前のリリースの Target Standard および Target Premium の新機能および機能拡張に関する情報を確認してください。<br>詳しくは、「[以前のリリースのドキュメントの変更](/help/main/r-release-notes/release-notes-for-previous-releases.md)」を参照してください。 |
+| ドキュメントの変更点 | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。<br>詳しくは、[ドキュメントの変更](/help/main/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)を参照してください。 |
+| 以前のリリースのリリースノート | 以前のリリースの Target Standard および Target Premium の新機能および機能拡張に関する情報を確認できます。<br>詳しくは、「[以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)」を参照してください。 |
 | Adobe Experience Cloud リリースノート | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。<br>詳しくは、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
