@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,19 @@ ht-degree: 0%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 14 日）
+
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
+
+* **2 月 14 日**:アメリカ地域
+* **2 月 15 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **2 月 15 日**:アジア太平洋 (APAC) 地域
+
+このリリースには、次の修正が含まれています。
+
+* Automated Personalization(AP) アクティビティでプロパティが指定されている場合でも、次のエラーメッセージが表示される問題を修正しました。「エラー：少なくとも 1 つのプロパティがデフォルト以外のワークスペースに属している必要がある&quot;(TGT-44607)
+* サーバー側のRecommendationsフィードに影響を与える可能性があるセキュリティの問題を修正しました。 （TGT-43769）
 
 ## at.js バージョン2.10.1（2023 年 2 月 3 日）
 

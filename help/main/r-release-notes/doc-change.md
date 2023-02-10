@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月10日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 リリースに関するリリースノートを追加しました。 |
 | 2月8日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1 のリリースノートを追加しました。 |
 | 2月2日（PT） | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 以下の節が更新されました。<ul><li>参照モードを使用すると、VEC が壊れているように見える</li></ul> |
 |  | [Target でのオーディエンスの構築](/help/main/c-target/c-audiences/create-audience.md) | オーディエンス名で使用できない文字と文字シーケンスのリストを追加しました。 |
