@@ -7,8 +7,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 84%
 * Automated Personalization(AP) アクティビティでプロパティが指定されている場合でも、次のエラーメッセージが表示される問題を修正しました。「エラー：少なくとも 1 つのプロパティがデフォルト以外のワークスペースに属している必要がある&quot;(TGT-44607)
 * サーバー側のRecommendationsフィードに影響を与える可能性があるセキュリティの問題を修正しました。 （TGT-43769）
 
-## at.js バージョン2.10.1（2023 年 2 月 3 日）
+## at.js バージョン 2.10.1（2023年2月2日（PT））
 
-* オンデバイス判定の際、名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、期待したエクスペリエンスを返さなかった問題を修正しました。
+* 名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、オンデバイス判定で期待したエクスペリエンスを返さなかったというバグを修正しました。
 * at.js 2.6.0 で導入された、( `mboxDisable` が有効になっている。
 
-すべての at.js リリースについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 
 ## [!DNL Target] Standard／Premium 22.13.3（2023年1月25〜26日（PT）） 
 
