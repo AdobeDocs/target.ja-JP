@@ -4,7 +4,7 @@ description: Adobeの変更パネルの使用方法を説明します [!DNL Targ
 title: 自分のページに対してどのような変更を行うことができますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 87%
@@ -139,17 +139,17 @@ ht-degree: 87%
 
 * DOM 準備完了時の置き換え（jQuery 使用）
 
-次の JQuery の使用例では、顧客の Web サイトで jQuery がページ上で使用可能であると仮定しています ( [!DNL Target] オファーを実行します。
+   次の JQuery の使用例では、顧客の Web サイトで jQuery がページ上で使用可能であると仮定しています ( [!DNL Target] オファーを実行します。
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * DOM 準備完了時の置き換え（jQuery 不使用）（Internet Explorer 8 は非対応）
 
