@@ -4,10 +4,10 @@ description: オープンソースの Velocity デザイン言語を使用して
 title: Velocity を使用してデザインをカスタマイズする方法
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 78%
+source-wordcount: '1067'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 
 Velocity について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) を参照してください。
 
-すべての Velocity 論理、構文、その他を、レコメンデーションデザインに使用できます。つまりこれは、*for* ループ、*if* ステートメント、およびその他のコードを JavaScript ではなく Velocity を使用して作成できることを意味します。
+レコメンデーションのデザインには、Velocity の論理、構文、その他すべてを使用できます。つまりこれは、*for* ループ、*if* ステートメント、およびその他のコードを JavaScript ではなく Velocity を使用して作成できることを意味します。
 
 に送信されたエンティティ属性 [!DNL Recommendations] 内 `productPage` 「複数値」属性を除き、mbox または CSV アップロードをデザインに表示できます。 任意のタイプの属性を送信できます。しかしながら [!DNL Target] は、テンプレートが繰り返し可能な配列として「複数値」型の属性を渡しません ( 例： `entityN.categoriesList`) をクリックします。
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Velocity 変数（属性）について詳しくは、 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある $ は \ でエスケープする必要があります。例： `\${user.script_name}`
+デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある$を `\` （バックスラッシュ）。 次に例を示します。
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
@@ -71,7 +73,7 @@ Velocity 変数（属性）について詳しくは、 [https://velocity.apache.
 
 ![velocity_example 画像](assets/velocity_example.png)
 
-以下のコードが使用できます。
+この場合は以下のようなコードを使用します。
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
@@ -128,14 +130,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 デフォルトでは、Velocity テンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として扱うには、次の手順に従います。
 
-1. ダミー変数を宣言し、任意の整数または倍精度値に初期化します。
+1. ダミー変数を宣言し、任意の整数値または double 値に初期化します。
 1. 使用するエンティティ属性が空白でないことを確認します ( [!DNL Target Recommendations]「 」テンプレートパーサーを使用して検証および保存します )。
 1. 手順 1 で作成したダミー変数の `parseInt` または `parseDouble` メソッドにエンティティ属性を渡し、文字列を整数値または倍精度値に変換します。
 1. 新しい数値に対して数学演算または比較を実行します。
 
 ### 例：割引価格の計算
 
-値引きを適用するために、品目の表示価格を 0.99 ドル減らすとします。この結果を得るには、次の方法を使用できます。
+値引きを適用するために、品目の表示価格を 0.99 ドル減らすとします。これを実行するには、以下のアプローチを使用します。
 
 ```
 #set( $double = 0.1 )
@@ -148,9 +150,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 例：項目の評価に基づく表示する星の数の選択
+### 例：項目の評価に応じて表示する星の数の選択
 
-項目の顧客評価の平均値に基づいて適切な数の星を表示するとします。 この結果を得るには、次の方法を使用できます。
+項目の顧客評価の平均値に基づいて適切な数の星を表示するとします。 これを実行するには、以下のアプローチを使用します。
 
 ```
 #set( $double = 0.1 )
@@ -175,7 +177,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ### 例：項目の長さ（分）に基づく時間と分単位での時間の計算
 
-分単位で保存したムービーの長さを時間と分の単位で表示するとします。この結果を得るには、次の方法を使用できます。
+分単位で保存したムービーの長さを時間と分の単位で表示するとします。これを実行するには、以下のアプローチを使用します。
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -219,7 +221,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 <span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
-次のコードは、販売価格の完全な条件の例です。
+以下のコードは、販売価格の条件全体の例です。
 
 ```
 <div class="price"> 
@@ -237,7 +239,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-エンティティ表示の動的サイズ変更を制御するために Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
+エンティティ表示の動的サイズ変更を制御する Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 
