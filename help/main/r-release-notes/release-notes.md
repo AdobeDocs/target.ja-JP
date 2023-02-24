@@ -1,5 +1,5 @@
 ---
-keywords: リリースノート；新機能；リリース；更新；更新；リリース；機能強化；修正；バグ修正；更新
+keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;機能強化;修正;バグ修正;アップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
 title: 現在のリリースの内容
@@ -7,8 +7,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 0%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 14 日）
+## [!DNL Target] Standard／Premium 22.14.5（2023年2月13～25日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **2 月 14 日**:アメリカ地域
-* **2 月 15 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **2 月 15 日**:アジア太平洋 (APAC) 地域
+* **2月13日（PT）**：アメリカ地域
+* **2月15日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **2月15日（PT）**：アジア太平洋（APAC）地域
 
-このリリースには、次の修正が含まれています。
+このリリースには、以下の修正が含まれています。
 
-* Automated Personalization(AP) アクティビティでプロパティが指定されている場合でも、次のエラーメッセージが表示される問題を修正しました。「エラー：少なくとも 1 つのプロパティがデフォルト以外のワークスペースに属している必要がある&quot;(TGT-44607)
-* サーバー側のRecommendationsフィードに影響を与える可能性があるセキュリティの問題を修正しました。 （TGT-43769）
+* Automated Personalization（AP）アクティビティでプロパティが指定されていても、次のエラーメッセージが表示される問題を修正しました。「エラー：少なくとも 1 つのプロパティがデフォルト以外のワークスペースに属している必要があります」（TGT-44607）
+* サーバーサイドの Recommendations フィードに影響を与える可能性があるセキュリティの問題を修正しました。（TGT-43769）
 
 ## at.js バージョン 2.10.1（2023年2月2日（PT））
 
 * 名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、オンデバイス判定で期待したエクスペリエンスを返さなかったというバグを修正しました。
-* at.js 2.6.0 で導入された、( `mboxDisable` が有効になっている。
+* `mboxDisable` が有効であった場合でも、at.js で配信呼び出しが実行されていた at.js 2.6.0 で導入されたバグを修正しました。
 
 すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 
