@@ -16,7 +16,7 @@ ht-degree: 98%
 + [Adobe Target Business Practior ガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
    + [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md)
-   + [Target リリースノート（現行）](r-release-notes/release-notes.md)
+   + [Target リリースノート（最新）](r-release-notes/release-notes.md)
    + [Target リリースノート（プレリリース）](r-release-notes/target-release-notes.md)
    + [Target ドキュメントの概要](/help/main/r-release-notes/target-documentation.md)
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
@@ -311,7 +311,7 @@ ht-degree: 98%
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [オファーとしてのレコメンデーション ](c-recommendations/recommendations-as-an-offer.md)
+   + [ オファーとしての Recommendations ](c-recommendations/recommendations-as-an-offer.md)
    + よくある質問 {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Recommendations と電子メールの統合](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
