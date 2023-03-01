@@ -4,10 +4,10 @@ description: Adobeでパーソナライゼーションモデルを作成する�
 title: パーソナライゼーションアルゴリズムのデータをアップロードするにはどうすればよいですか？
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 65%
+source-wordcount: '293'
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 65%
 
 CRM 情報や顧客のチャーン傾向スコアなどのオフラインデータは、でパーソナライゼーションモデルを構築する際に非常に重要になる可能性があります。 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) アクティビティ
 
-[!UICONTROL Automated Personalization]（AP）および [!UICONTROL 自動ターゲット] のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。のメソッドに加えて、 [データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}、Experience Cloud共有オーディエンス (Adobe Analytics、Audience Management){target=_blank} およびアクティビティ内レポート用オーディエンスもアルゴリズムで使用されます。
+[!UICONTROL Automated Personalization]（AP）および [!UICONTROL 自動ターゲット] のパーソナライゼーションアルゴリズムにデータを入力する方法はいくつかあります。のメソッドに加えて、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} また、アクティビティ内レポート用オーディエンスもアルゴリズムで使用されます。
 
 自動的に収集され、Automated Personalization および自動ターゲットのパーソナライゼーションアルゴリズムで使用されるデータについて詳しくは、「[Automated Personalization のデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)」を参照してください。
 
@@ -23,9 +23,9 @@ CRM 情報や顧客のチャーン傾向スコアなどのオフラインデー�
 
 Target のパーソナライゼーションアルゴリズムのデータをアップロードするためのベストプラクティスを以下に示します。
 
-* Target のパーソナライゼーションアルゴリズムで使用できる高品質データが増えれば増えるほど、AP および自動ターゲットアクティビティで結果として生成されるモデルの品質が向上します。
+* Target のパーソナライゼーションアルゴリズムで使用できる高品質のデータが多いほど、AP および自動ターゲットアクティビティで生成されるモデルの品質が高くなります。
 * 同じ目的を果たす複数のプロファイルスクリプトまたは属性の使用を制限します。
-* セッション ID などの固有の ID は、必要ない限り渡しません。
-* Target で自動的に収集されるデータ（[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)）を確認し、重複する情報を送信しないようにします。例えば、Target では IPアドレスを使用して訪問者の郵便番号を推定します。この情報を別個の変数として渡す必要はありません。
-* 同じ属性／変数に複数の値を渡しません。複数の変数が連結されている場合、Target のパーソナライゼーションアルゴリズムでは各文字列を一意の値として扱い、パーソナライゼーションの情報の値を小さくします。
-* 覚えやすく意味のある命名規則を使用して、[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)をわかりやすくします。
+* 必要がない場合は、セッション ID などの一意の ID を渡さないでください。
+* Target が自動的に収集するデータ ( [Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)) を使用して、重複する情報を送信しないようにします。 例えば、Target では IPアドレスを使用して訪問者の郵便番号を推定します。この情報を別個の変数として渡す必要はありません。
+* 同じ属性／変数に複数の値を渡しません。複数の変数が連結されている場合、Target のパーソナライゼーションアルゴリズムは各文字列を一意の値として扱い、パーソナライゼーションのための情報の値を減らします。
+* 覚えやすく意味のある命名規則を使用して、 [パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) もっと理解しやすく。

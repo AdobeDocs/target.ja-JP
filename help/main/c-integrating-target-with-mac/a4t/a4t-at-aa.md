@@ -4,9 +4,9 @@ description: 自動配分と自動ターゲットアクティビティをAdobe�
 title: A4T は自動配分と自動ターゲットアクティビティをサポートしますか？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 6235324c7a8952cca3a238b1948351ddc454862f
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1246'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ A4T 統合を使用すると、次のことが可能になります。
 * 用途 [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)のマルチアームバンディット機能を使用して、トラフィックを勝者エクスペリエンスに導くことができます。
 * 用途 [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)のアンサンブル機械学習アルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択できます。 自動ターゲットは、 [!DNL Adobe Analytics] 目標指標と [!DNL Adobe Analytics]「豊富なレポートおよび分析機能」を参照してください。
 
-次の条件を満たしていることを確認します。 [A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用するために A4T が実装されました。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 次を使用する場合： `analyticsLogging = client_side`を使用する場合、 `sessionId` 値 [!DNL Analytics]. 詳しくは、 [Analytics for Target(A4T) レポート](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} *Adobe Target SDK* ガイド。
+次の条件を満たしていることを確認します。 [A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用するために A4T が実装されました。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 次を使用する場合： `analyticsLogging = client_side`を使用する場合、 `sessionId` 値 [!DNL Analytics]. 詳しくは、 [Analytics for Target(A4T) レポート](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 内 *Adobe Target SDK* ガイド。
 
 開始するには
 

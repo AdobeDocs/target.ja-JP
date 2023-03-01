@@ -4,10 +4,10 @@ description: Analytics を使用するアクティビティ用に Analytics ト�
 title: Analytics トラッキングサーバーの使用方法を教えてください。
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 22%
+source-wordcount: '685'
+ht-degree: 21%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 22%
 >
 >at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
 >
->この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+>この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、 [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 からのデータを確実に取得するには、以下を実行します。 [!DNL Target] は、 [!DNL Analytics]、A4T には [!DNL Analytics] Modstats へのすべての呼び出しで送信されるトラッキングサーバー [!DNL Target]. 複数のトラッキングサーバーを使用する実装の場合、 [!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを判断します。
 
 ## を取得 [!DNL Analytics] トラッキングサーバー [!DNL Adobe Experience Platform Debugger]
 
-デバッガーは、正しいトラッキングサーバーが選択されていることを確認するために、アクティビティが配信されるページ上で表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
+デバッガーは、正しいトラッキングサーバーが選択されていることを確認するために、アクティビティが配信されるページ上で表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
 1. アクティビティを作成しているページから、 [!DNL Adobe Experience Platform Debugger].
 
@@ -51,7 +51,7 @@ ht-degree: 22%
 
 ## を取得 [!DNL Analytics] ブラウザーの開発者ツールを使用したトラッキングサーバー
 
-正しいトラッキングサーバーが選択されていることを確認するために、開発者ツールは、アクティビティが配信されるページ上に表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアにお問い合わせください。
+正しいトラッキングサーバーが選択されていることを確認するために、開発者ツールは、アクティビティが配信されるページ上に表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
 1. アクティビティを作成しているページで、ブラウザーの開発者ツールを開きます (Google Chrome で、右上隅の縦並びの省略記号/その他のツール/開発者ツールをクリックします )。
 

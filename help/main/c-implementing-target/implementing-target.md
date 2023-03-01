@@ -6,10 +6,10 @@ title: 実装方法 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 を使用する前に [!DNL Adobe Target]を使用する場合は、サイトに実装する必要があります。
 
-この [Adobe Target Developer Guide ポータル](https://developer.adobe.com/target/){target=_blank} には、導入の前に知っておく必要のある情報が含まれています [!DNL Target].
+この [Adobe Target Developer Guide ポータル](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} は、導入の前に知っておく必要がある情報を含んでいます [!DNL Target].
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -28,11 +28,11 @@ ht-degree: 6%
 * **モバイルアプリ**:を導入する際に役立つ情報 [!DNL Adobe Experience Platform Mobile] SDK.
 * **電子メール**:の実装に役立つ情報 [!DNL Target] 電子メール内。
 
-詳しくは、 [Adobe Target Developer Guide ポータル](https://developer.adobe.com/target/){target=_blank}。
+詳しくは、 [Adobe Target Developer Guide ポータル](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 >[!NOTE]
 >
->以前に *Target の実装* このガイドの節 ( *Adobe Target Practionar ガイド*) が [開発者ポータル](https://developer.adobe.com/target/){target=_blank}。
+>以前に *Target の実装* このガイドの節 ( *Adobe Target Practionar ガイド*) が [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 
 

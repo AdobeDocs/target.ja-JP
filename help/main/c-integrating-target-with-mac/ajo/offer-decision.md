@@ -4,10 +4,10 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 でオファーの決定を使用するには [!DNL Target]に値を入力するには、以下が必要です。
 
-* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] を使用して実装 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] を使用して実装 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 1. 内 **[!UICONTROL オファーの決定を追加]** ダイアログボックスで、目的のサンドボックスと配置を選択します。
 
-   A [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} [!DNL Adobe Experience Platform] では、インスタンスを仮想環境に分割できます。 例えば、実稼動環境とステージング環境があるとします。 A [配置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} [!DNL Adobe Journey Optimizer] を使用すれば、適切なオファーコンテンツを適切な場所に表示できます。
+   A [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] を使用すれば、適切なオファーコンテンツを適切な場所に表示できます。
 
    ![オファーの決定を追加ダイアログボックスのサンドボックスドロップダウンリストとプレースメントドロップダウンリスト](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 オファーの決定を扱う際は、次の点に注意してください。
 
-* offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。 この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
+* offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
 * Target とAdobe Journey Optimizerの統合では、 [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) および [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 この機能は、他のアクティビティタイプでは使用できません。
 

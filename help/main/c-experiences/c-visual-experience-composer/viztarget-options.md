@@ -4,10 +4,10 @@ description: で使用可能なオプションの詳細 [!DNL Adobe Target] [!UI
 title: 使用方法 [!UICONTROL Visual Experience Composer] (VEC) オプション
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2936'
-ht-degree: 61%
+source-wordcount: '2923'
+ht-degree: 62%
 
 ---
 
@@ -204,7 +204,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 要素で使用する事前定義 CSS クラスを指定します。複数の要素が選択されている場合は、複数の CSS クラスをスペースで区切ります。
 
-[!UICONTROL A/B]、[!UICONTROL 自動パーソナライゼーション]、[!UICONTROL 多変量分析]の各テストアクティビティで使用できます。
+[!UICONTROL A/B]、[!UICONTROL Automated Personalization]、[!UICONTROL 多変量分析]の各テストアクティビティで使用できます。
 
 ### [!UICONTROL リンク]
 
@@ -218,7 +218,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
 
 ### [!UICONTROL オファーの決定]
 
-を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、offer decisioningを使用するお客様に最適なオファーとエクスペリエンスを提示します。
+を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、顧客に最適なオファーとエクスペリエンスを提示するoffer decisioning。
 
 **注意：** このオプションは、編集または作成時に使用できます [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -250,7 +250,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL オファーの決定]
 
-を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、offer decisioningを使用するお客様に最適なオファーとエクスペリエンスを提示します。
+を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、顧客に最適なオファーとエクスペリエンスを提示するoffer decisioning。
 
 **注意：** このオプションは、編集または作成時に使用できます [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -282,7 +282,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ### [!UICONTROL オファーの決定]
 
-を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、offer decisioningを使用するお客様に最適なオファーとエクスペリエンスを提示します。
+を追加します。 [作成されたオファー [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} を使用して、顧客に最適なオファーとエクスペリエンスを提示するoffer decisioning。
 
 **注意：** このオプションは、編集または作成時に使用できます [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) または [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 このオプションは、他のアクティビティタイプでは使用できません。
 
@@ -372,7 +372,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ## 注意点 {#considerations}
 
-* オファーにHTMLコンテンツが含まれる場合、「at.js によるHTMLコンテンツを使用したオファーのレンダリング方法」( [at.js の仕組み](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} を参照してください。
+* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html) の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。{target=_blank}
 
 ## カスタム要素のサポート {#custom}
 
@@ -380,9 +380,9 @@ VEC はをサポートしています。 [Web コンポーネント](https://dev
 
 >[!NOTE]
 >
->カスタム要素の VEC サポートは、 [at.js バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（またはそれ以降）{target=_blank}。 Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
+>カスタム要素の VEC サポートは、 [at.js バージョン](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
 >
->現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+>現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ほとんどの VEC アクションは、カスタムイベントとカスタムイベント内でサポートされますが、次の例外があります。
 

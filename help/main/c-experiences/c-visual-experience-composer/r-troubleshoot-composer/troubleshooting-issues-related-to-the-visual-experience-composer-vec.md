@@ -4,10 +4,10 @@ description: Adobeで発生することのある問題のトラブルシュー�
 title: Visual Experience Composer に関連する問題のトラブルシューティング方法を教えてください。
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 68%
+source-wordcount: '975'
+ht-degree: 67%
 
 ---
 
@@ -122,7 +122,7 @@ Visual Experience Composer も拡張 Experience Composer も動作しない場�
 
 ## 参照モードを使用すると、VEC が壊れているように見えます。（VEC のみ） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-参照モードを使用しているときに、 [!DNL Target] ライブラリが実装されている ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) または frame-buster ヘッダーが含まれている場合、VEC が壊れているように見えます。 ブラウザーのセキュリティ上の問題により、 [!DNL Target] ページが読み込まれると、に移動した URL に正しくアクセスできないか、VEC URL の更新に一貫性がありません。
+参照モードを使用しているときに、 [!DNL Target] ライブラリが実装されている ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) または frame-buster ヘッダーが含まれている場合、VEC が壊れているように見えます。 ブラウザーのセキュリティ上の問題により、 [!DNL Target] ページが読み込まれると、に移動した URL に正しくアクセスできないか、VEC URL の更新に一貫性がありません。
 
 この問題は、VEC が `<iframe>`. ブラウザーの現在のセキュリティメカニズムにより、 [!DNL Target] 同一オリジンポリシーが原因で、特定のフレームの要素にアクセスできない UI。 ブラウザーは、スクリプトが異なる接触チャネルを持つフレームにアクセスしようとし、そのフレームに `location.href`.
 

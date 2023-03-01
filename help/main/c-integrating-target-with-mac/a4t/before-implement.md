@@ -4,10 +4,10 @@ description: Analytics for Analytics の実装要件について説明します�
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 26%
+source-wordcount: '988'
+ht-degree: 24%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->A4T の使用を開始する前に、アカウントで統合のプロビジョニングを依頼する必要があります。 以下を使用： [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y)プロビジョニングのリクエストを {target=_blank} します。
+>A4T の使用を開始する前に、アカウントで統合のプロビジョニングを依頼する必要があります。 以下を使用： [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} プロビジョニングの依頼。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
 >[!NOTE]
 >
->以下の要件で、 *最小* at.js のバージョンは、A4T の実装に必要です。 この [!DNL Target] チームが管理しているのは 2 つのバージョンのみ [!DNL at.js] — 現在のバージョンと 2 番目の最新バージョン。 必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+>以下の要件で、 *最小* at.js のバージョンは、A4T の実装に必要です。 この [!DNL Target] チームが管理しているのは 2 つのバージョンのみ [!DNL at.js] — 現在のバージョンと 2 番目の最新バージョン。 必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### A4T でリダイレクトオファーを使用 *しない* 場合に必要な要件
 
@@ -41,7 +41,7 @@ ht-degree: 26%
 * [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### A4T でリダイレクトオファーを使用する場合に必要な要件
 
@@ -59,7 +59,7 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 ダウンロードおよびデプロイの手順については、 [Analytics for Target の実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -97,7 +97,7 @@ at.js の場合、 [!DNL Experience Cloud Visitor ID Service]、および appMea
 
 ## 共有オーディエンス
 
-を [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 [!UICONTROL 共有オーディエンス] &quot;の下にリストされたオプション[!UICONTROL プロビジョニングをリクエストする機能]?」
+を [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}に関しては、 [!UICONTROL 共有オーディエンス] &quot;の下にリストされたオプション[!UICONTROL プロビジョニングをリクエストする機能]?」
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

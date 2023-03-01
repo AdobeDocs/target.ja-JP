@@ -4,10 +4,10 @@ description: データAdobe [!DNL Target] はを収集し、を使用して機�
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 51%
+source-wordcount: '2026'
+ht-degree: 53%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 51%
 | --- | --- | --- | --- |
 | ページのパラメーター | BOX | への呼び出しで渡されるカスタムページパラメーター（「mbox パラメーター」） [!DNL Target]. | カスタム — mbox パラメーター — [パラメーター名] |
 | [!DNL Target]プロファイル | PRO | に直接アップロードされるカスタムプロファイル属性 [!DNL Target] API またはページパラメーターを介したプロファイルおよび [!DNL Target] プロファイルスクリプト。 | カスタム — 訪問者プロファイル — [属性名] |
-| 顧客属性 | CRS | にアップロードされた顧客属性 [!DNL Target] 経由のプロファイル [Adobe Experience Cloud Customer Attributes Service](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}。 | カスタム — 訪問者プロファイル — [属性名] |
+| 顧客属性 | CRS | にアップロードされた顧客属性 [!DNL Target] 経由のプロファイル [Adobe Experience Cloud Customer Attributes Service](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | カスタム — 訪問者プロファイル — [属性名] |
 | URL パラメーター | URL | 現在表示されているページの URL および任意の URL パラメーター。 | カスタム — URL パラメーター — [URL パラメーター] |
 | 参照 URL | REF | 参照 URL および参照 URL の任意の URL パラメーター。 | カスタム — [参照 URL パラメーター] - [パラメーター値] |
-| Adobe Experience Cloud共有オーディエンス | AAM | 共有されているすべてのオーディエンス [!DNL Target] 他から [!DNL Adobe Experience Cloud] ソリューション ( 例： [!DNL Adobe Audience Manager] および [!DNL Adobe Analytics]、 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank})。 | カスタム —Experience Cloudオーディエンス — [オーディエンス名] |
+| Adobe Experience Cloud共有オーディエンス | AAM | 共有されているすべてのオーディエンス [!DNL Target] 他から [!DNL Adobe Experience Cloud] ソリューション ( 例： [!DNL Adobe Audience Manager] および [!DNL Adobe Analytics]、 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}) をクリックします。 | カスタム —Experience Cloudオーディエンス — [オーディエンス名] |
 | Adobe Experience Platform Real-time CDP オーディエンス | UPS | と共有された AEP リアルタイム CDP オーディエンス [!DNL Target] 宛先を使用。 |  |
 | Adobe Experience Platform Real-time CDP 属性 | AEP | と共有される AEP リアルタイム CDP 属性 [!DNL Target] 宛先を使用。 この機能は現在ベータ版です。 |  |
 
 ## 機能のブロック [!DNL Target] 機械学習アルゴリズム
 
-機能は次の場所からブロックできます： [!DNL Target] 機械学習アルゴリズムを使用して、どのような場合でも使用できないようにする [!UICONTROL 自動ターゲット] または [!UICONTROL Automated Personalization] モデルまたはアクティビティ。
+機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、 [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target Developer Guide*.
+詳しくは、 [モデル API(ブロックリストに加える) の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} 内 *Adobe Target Developer Guide*.
 
 ## デバイスとモバイルデータ {#device-mobile}
 
