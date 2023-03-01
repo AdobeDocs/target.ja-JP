@@ -4,9 +4,9 @@ description: Analytics を実装するために必要な手順に従います。
 title: Analytics を実装する方法 [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1156'
 ht-degree: 24%
 
 ---
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-ペイロードは、その後、 [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 自動配分と自動ターゲットアクティビティの場合は、sessionId も転送する必要があります。 詳しくは、 [Analytics for Target(A4T) レポート](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 内 *Adobe Target SDK* ガイド。
+ペイロードは、その後、 [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 自動配分と自動ターゲットアクティビティの場合は、sessionId も転送する必要があります。 詳しくは、 [Analytics for Target(A4T) レポート](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 内 *Adobe Target SDK* ガイド。
 
-グローバル設定は望ましくなく、よりオンデマンドな方法が望ましい場合は、at.js 関数を使用します [getOffers()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} 通り抜けて **analyticsLogging:&quot;client_side&quot;**. 分析ペイロードは、この呼び出しに対してのみ返され、 [!DNL Target] バックエンドはペイロードをに転送しません。 [!DNL Analytics]. このアプローチを続けることで、すべての at.js [!DNL Target] リクエストは、デフォルトではペイロードを返しますが、必要に応じて指定された場合にのみ返します。
+グローバル設定は望ましくなく、よりオンデマンドな方法が望ましい場合は、at.js 関数を使用します [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} 通り抜けて **analyticsLogging:&quot;client_side&quot;**. 分析ペイロードは、この呼び出しに対してのみ返され、 [!DNL Target] バックエンドはペイロードをに転送しません。 [!DNL Analytics]. このアプローチを続けることで、すべての at.js [!DNL Target] リクエストは、デフォルトではペイロードを返しますが、必要に応じて指定された場合にのみ返します。
 
 次に例を示します。
 

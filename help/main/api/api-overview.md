@@ -5,10 +5,10 @@ title: 入手方法 [!DNL Target] API および SDK のドキュメント
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 を使用する前に [!DNL Adobe Target]を使用する場合は、サイトに実装する必要があります。
 
-この [Adobe Target Developer Guide ポータル](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} は、導入の前に知っておく必要がある情報を含んでいます [!DNL Target].
+この [Adobe Target Developer Guide ポータル](https://developer.adobe.com/target/){target=_blank} は、導入の前に知っておく必要がある情報を含んでいます [!DNL Target].
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -33,4 +33,4 @@ ht-degree: 1%
 * レポート API。
 * レコメンデーション API
 
-詳しくは、 [Target API の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} ポータル。
+詳しくは、 [Target API の概要](https://developer.adobe.com/target/before-administer/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} ポータル。

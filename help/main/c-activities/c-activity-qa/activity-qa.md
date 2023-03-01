@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1881'
 ht-degree: 36%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 36%
    また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
 
 * アクティビティの作成時に「URL が次の場合」を指定した場合 [フォームベースのコンポーザーの絞り込み](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [Visual Experience Composer のページ配信オプション )](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)に値を指定しない場合、QA URL は機能しません。 [!UICONTROL アクティビティ QA] URL パラメーターを追加します。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
-* at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+* at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * アクティビティが複数のエクスペリエンスオーディエンス（同じアクティビティに含まれる米国と英国のサイトなど）を使用している場合、4 つの組み合わせ（Experience A/US サイト、Experience A/UK サイト、Experience B/US サイト、Experience B/UK サイト）に対して QA リンクが生成されません。 エクスペリエンス A とエクスペリエンス B に対する 2 つだけが生成されます。オーディエンス条件を満たすユーザーにのみ、該当のページが表示されます。英国の QA 担当者は、米国サイトを表示できません。
 * `at_preview` すべてのパラメーターと値は、既にURLエンコードされています。ほとんどの場合、すべてが期待どおりに動作します。 ただし、クエリ文字列パラメーターを再度エンコードしようとする場合は、ロードバランサーまたは Web サーバーを使用する必要があります。
 
@@ -104,9 +104,9 @@ ht-degree: 36%
 
 [!DNL Target] は、次の JavaScript ライブラリをサポートしています。
 
-* [at.js 1.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}
-* [at.js 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}
-* [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}
+* [at.js 1.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
 次の表に、様々なアクティビティタイプと、 [!UICONTROL アクティビティ QA] モードは、各ライブラリでサポートされています。
 

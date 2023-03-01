@@ -4,9 +4,9 @@ description: データAdobe [!DNL Target] はを収集し、を使用して機�
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2023'
 ht-degree: 53%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 53%
 
 機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、 [モデル API(ブロックリストに加える) の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} 内 *Adobe Target Developer Guide*.
+詳しくは、 [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 内 *Adobe Target Developer Guide*.
 
 ## デバイスとモバイルデータ {#device-mobile}
 

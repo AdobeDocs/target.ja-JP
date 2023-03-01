@@ -4,10 +4,10 @@ description: Adobeで JSON オファーを作成する方法を説明します [
 title: JSON オファーの作成方法
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 27%
+source-wordcount: '529'
+ht-degree: 29%
 
 ---
 
@@ -23,10 +23,10 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 * JSON オファーは現在、 [!UICONTROL A/B テスト]、Automated Personalization(AP) および [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ
 * JSON オファーは、 [フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md) のみ。
-* JSON オファーは、 [Server Side API と Mobile Node.js、Java、.NET、Python SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* ブラウザーでは、JSON オファーは、at.js 1.2.3 以降を介して、 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} を使用してアクションをフィルタリングする `setJson` アクション。
+* JSON オファーは、 [Server Side API と Mobile Node.js、Java、.NET、Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* ブラウザーでは、JSON オファーは、at.js 1.2.3 以降を介して、 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} を使用してアクションをフィルタリングする `setJson` アクション。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
-* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
 ## JSON オファーの作成 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
