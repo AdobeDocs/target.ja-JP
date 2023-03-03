@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 97%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard／Premium 22.13.3（2023年1月25日（PT）） 
+## [!DNL Target] Standard／Premium 22.13.3（2023年1月25日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2月23日（PT） | [at.js 2.*x* Platform Web SDK へ](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | 新しいチュートリアルを追加しました。 |
-| 2 月 21 日 | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | IP アドレスのリストを更新許可リストし、 [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
-|  | [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery の使用例では、顧客の Web サイトがページ上で jQuery を使用できると仮定していることを、 [!DNL Target] オファーを実行します。 |
+| 2月23日（PT） | [at.js 2.*x* から Platform Web SDK への Target の移行](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ja){target=_blank} | 新しいチュートリアルを追加しました。 |
+| 2月21日（PT） | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank}で、すべての地域の許可リストに対する IP アドレスのリストを更新しました。 |
+|  | [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery を使用した例では、[!DNL Target] がオファーを実行する際に、顧客の web サイトのページで jQuery が使用可能であることを前提としていることを説明するテキストを追加しました。 |
 | 2月10日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 リリースに関するリリースノートを追加しました。 |
 | 2月8日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1 のリリースノートを追加しました。 |
 | 2月2日（PT） | [Visual Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 以下の節が更新されました。<ul><li>参照モードを使用すると、VEC が壊れているように見える</li></ul> |
