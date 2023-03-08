@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 69%
 
 ---
 
@@ -18,51 +18,27 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 22.14.5（2023年2月13～25日（PT））
+## [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 9 日）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **2月13日（PT）**：アメリカ地域
-* **2月15日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **2月15日（PT）**：アジア太平洋（APAC）地域
+* **3 月 9 日**:アメリカ地域
+* **3 月 9 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **3 月 9 日**:アジア太平洋 (APAC) 地域
 
-このリリースには、以下の修正が含まれています。
-
-* Automated Personalization（AP）アクティビティでプロパティが指定されていても、次のエラーメッセージが表示される問題を修正しました。「エラー：少なくとも 1 つのプロパティがデフォルト以外のワークスペースに属している必要があります」（TGT-44607）
-* サーバーサイドの Recommendations フィードに影響を与える可能性があるセキュリティの問題を修正しました。（TGT-43769）
-
-## at.js バージョン 2.10.1（2023年2月2日（PT））
-
-* 名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、オンデバイス判定で期待したエクスペリエンスを返さなかったというバグを修正しました。
-* `mboxDisable` が有効であった場合でも、at.js で配信呼び出しが実行されていた at.js 2.6.0 で導入されたバグを修正しました。
-
-すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
-
-## [!DNL Target] Standard／Premium 22.13.3（2023年1月25〜26日（PT）） 
-
-このリリースは、以下の時差スケジュールに従って利用できるようになります。
-
-* **1月25日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **1月25日（PT）**：アジア太平洋（APAC）地域
-* **1月26日（PT）**：アメリカ地域
-
-このリリースには、以下の新機能、拡張機能および修正が含まれています。
+このリリースには、次の新機能および機能強化が含まれています。
 
 | 機能 | 詳細 |
 | --- | --- |
-| Automated Personalization（AP）での [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)のサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
-| [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL Target] に書き出された [!DNL Adobe Experience Manager] フラグメント（AEM XF）タイプ間を区別できる機能を追加しました。「エクスペリエンスフラグメント」オプションの代わりに、[!DNL Target] で「HTML XF」および「JSON XF」によるフィルタリングと検索ができるようになりました。（TGT-44132） |
+| 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] | [!DNL Target] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。<P>サポートされる指標に関して、次の時間的制約があることに注意してください。<ul><li>[!DNL Target] 2023 年 9 月 10 日まで、既存のアクティビティの以前の動作を保持していました。 この日以降、サポートされていない指標を使用するアクティビティは、既存のアクティビティを新しい動作に強制的に移行するために、終了します。</li></ul>詳しくは、 [サポートされる目標指標](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *自動配分と自動ターゲットアクティビティに対する A4T のサポート*. |
+| [!UICONTROL 自動配分] using [!UICONTROL Analytics for Target] (A4T) | 新しいチュートリアル：<ul><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL 自動ターゲット] using [!UICONTROL Analytics for Target] (A4T) | 新しいチュートリアル：<ul><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
 
-* 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
-* [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
-* [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
-* アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
-* [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
-* 名前にドット文字「.」を含む [!DNL Analytics] レポートスイートを[!DNL Target] UI で使用して、[!DNL Analytics] 分類フィードを作成できるように変更しました。
-* サポート対象のすべての SDK（Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の[!UICONTROL 実装]ページ（[!UICONTROL 管理]／[!UICONTROL 実装]）のリンクを変更をしました。詳しくは、[Target SDK の開始方法](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
-* [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
-* 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
-* [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
+## at.js バージョン 2.10.2（2023 年 3 月 7日）
+
+* 次の問題を修正しました： `trackEvent` 関数を使用して、常にエラーを返します。
+
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 
 ## その他のリリースノートとバージョンの詳細
 

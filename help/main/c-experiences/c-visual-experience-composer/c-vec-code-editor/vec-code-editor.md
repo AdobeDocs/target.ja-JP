@@ -4,10 +4,10 @@ description: Adobeの変更パネルの使用方法を説明します [!DNL Targ
 title: 自分のページに対してどのような変更を行うことができますか？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 87%
+source-wordcount: '2250'
+ht-degree: 86%
 
 ---
 
@@ -210,6 +210,10 @@ Target では、Target で変更されたページ上の要素に対して値「
 同じ URL をターゲットとする 2 つのアクティビティに対してカスタムコード機能を使用する場合、両方のアクティビティからページに対して JavaScript が挿入されます。Target は、配信されるコンテンツの順序を自動的に判断します。コードが、配置に依存しないようにしてください。コード内で競合が発生しないようにする必要があります。
 
 ## トラブルシューティング カスタムコード {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+
+**を使用する場合、カスタムコードは実行されません `triggerView`.**
+
+VEC のカスタムコードオファーは、 `triggerView()` が `{page: false}` を選択します。
 
 **ページの構造上の変更によってアクションを適用できなかったことを示す警告が表示されました。これはどういう意味ですか？** 
 

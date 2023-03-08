@@ -4,16 +4,27 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## ## [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 9 日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 3月8日（PT） | [[!UICONTROL 自動配分と自動ターゲットアクティビティに対する A4T のサポート]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | のサポート対象（およびサポート対象外）の指標に関する情報を追加しました。 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] 使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) |
+|  | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank} | 次の新しいチュートリアルが追加されました。<ul><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
+|  | [アクティビティを編集またはドラフトとして保存](/help/main/c-activities/edit-activity.md) | 「ベストプラクティス」の節を追加しました。 |
+|  | [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | カスタムコードのトラブルシューティングの節に次の注意事項を追加しました。<ul><li>VEC のカスタムコードオファーは、 `triggerView()` が `{page: false}` を選択します。</li></ul> |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | at.js 2.10.2 リリースに関する情報を追加しました。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.15.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 22.13.3（2023年1月25日（PT））
 
