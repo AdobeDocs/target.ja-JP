@@ -4,10 +4,10 @@ description: JavaScript ライブラリ（AEP Web SDK at.js）、アドビデー
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 100%
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -17,14 +17,14 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 ## [!DNL Adobe Target] JavaScript ライブラリ {#libraries}
 
-[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用し、[!DNL Target] が web サイトと統合します。
+[!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用して、[!DNL Target] を web サイトに統合することが可能です。
 
-* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] Edge ネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} にアップデートすることをお勧めします。
+* **[!DNL Adobe Experience Platform Web SDK]:** この [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアント側 JavaScript ライブラリです。 [!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様が実装を [at.js の最新バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
 >
->mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。Experience Platform Web SDK（推奨）または最新バージョンの at.js にアップグレードします。
+>mbox.js library ライブラリは、[!DNL Target] のレガシー実装ライブラリです。mbox.js ライブラリは、2021年3月31日（PT）以降はサポートされなくなります。Experience Platform Web SDK（推奨）または最新バージョンの at.js にアップグレードしてください。
 
 サイトの各ページの [!DNL Experience Platform Web SDK] または at.js を参照します。例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加できます。または、[Adobe Experience Platform のタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を使用して [!DNL Target] を実装することを検討してください。
 
@@ -35,7 +35,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションを行う、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
-[!DNL Target] では、ページ上の各要素は、ページ全体に広がる単一のエクスペリエンスの一部です。各エクスペリエンスには、ページ上の複数の要素が含まれている可能性があります。
+[!DNL Target] では、ページ上の各要素は、ページ全体に広がる単一のエクスペリエンスの一部です。各エクスペリエンスでは、ページ上に複数の要素を含めることができます。
 
 訪問者に表示されるコンテンツは、作成するアクティビティタイプによって異なります。
 
@@ -60,13 +60,13 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 ### [!UICONTROL 自動ターゲット]（AT）
 
-[!UICONTROL 自動ターゲット]では、高度な機械学習を使用して、パフォーマンスの高いマーケティング担当者が定義した複数のエクスペリエンスから選択します。[!UICONTROL 自動ターゲット]は、各訪問者に最適なエクスペリエンスを提供します。エクスペリエンスの配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づきます。[!UICONTROL 自動ターゲット]を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
+[!UICONTROL 自動ターゲット]では、高度な機械学習を使用して、マーケターが定義した、パフォーマンスの高い複数のエクスペリエンスから選択しますから選択します。[!UICONTROL 自動ターゲット]は、各訪問者に最適なエクスペリエンスを提供します。エクスペリエンスの配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づきます。[!UICONTROL 自動ターゲット]を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 詳細については、[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 
 ### [!UICONTROL Automated Personalization]（AP）
 
-[!UICONTROL Automated Personalization]（AP）は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者のオファーのバリエーションを一致させます。エクスペリエンスの配信は、個別の顧客プロファイルに基づき、コンテンツをパーソナライズしてリフトを促します。
+[!UICONTROL Automated Personalization]（AP）は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者にマッチするオファーの各種バリエーションを判断します。個別の顧客プロファイルを基準とするエクスペリエンスの配信により、コンテンツをパーソナライズして販売を促進することが可能です。
 
 詳しくは、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
 
@@ -74,7 +74,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 [!UICONTROL エクスペリエンスのターゲット設定]（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-[!UICONTROL エクスペリエンスのターゲット設定]（ジオターゲティングを含む）は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。訪問者がサイトを表示すると、[!UICONTROL エクスペリエンスのターゲット設定]（XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。条件に一致した場合、その訪問者はアクティビティに組み込まれて、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
+[!UICONTROL エクスペリエンスのターゲット設定]（ジオターゲティングを含む）は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。訪問者がサイトを表示すると、[!UICONTROL エクスペリエンスのターゲット設定]（XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。条件に一致した場合、その訪問者は該当アクティビティの対象となり、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
 詳しくは、[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)を参照してください。
 
@@ -96,9 +96,9 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 応答時間を改善するために、[!DNL Target] Edge はアクティビティロジック、キャッシュされたプロファイル、およびオファー情報のみをホストします。
 
-アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API、およびマーケティング担当者向けのユーザーインターフェイスは、アドビの中央クラスターに格納されます。その後、最新情報が [!DNL Target] Edge に送信されます。中央クラスターとエッジクラスターは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。また、1:1 モデリングが各エッジに保存されるので、複雑なリクエストもエッジ上で処理できます。
+アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API、およびマーケティング担当者向けのユーザーインターフェイスは、アドビの中央クラスターに格納されます。その後、最新情報が [!DNL Target] Edge に送信されます。中央クラスターとエッジクラスターは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。また、1:1 モデリングがすべて各エッジに保存されるので、複雑なリクエストもエッジ上で処理できます。
 
-各エッジクラスターには、訪問者のコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要な情報がすべて格納されます。ユーザーリクエストは最寄りのエッジクラスターに送信されます。
+各エッジクラスターには、訪問者のコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要な情報がすべて格納されます。訪問者のリクエストは、最寄りのエッジクラスターに転送されます。
 
 詳しくは、『[Adobe Target セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)』ホワイトペーパーを参照してください。
 
@@ -110,7 +110,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 1 か所ですべてのターゲティングリクエストに応答するのではなく、訪問者に最も近いエッジクラスターでリクエストを処理します。このプロセスにより、ネットワークやインターネットでの通信時間の影響を緩和できます。
 
-![各種のターゲットサーバーを示すマップ](/help/main/c-intro/assets/target-servers.png)
+![各種の Target サーバーを示すマップ](/help/main/c-intro/assets/target-servers.png)
 
 [!DNL Target] 中央クラスターは、以下を含む、Amazon ウェブサービス（AWS）でホストされています。
 
@@ -132,9 +132,9 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。国内のファイアウォールとエッジクラスターが不足しているため、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
+>[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。中国内のファイアウォールおよびエッジクラスター不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}を参照してください。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、 [ターゲット許可リストエッジノードの](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -147,7 +147,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 [!DNL Adobe] は、パフォーマンスを最適化し、安全性を保つことで、ユーザーエクスペリエンスを保護します。
 
 * [!DNL Adobe] は、アドビのサービスレベル契約で保証された業界標準に基づくパフォーマンスベンチマークを保証します。
-* Edge ネットワークによって、タイムリーなデータ配信を実現しています。
+* エッジネットワークによって、タイムリーなデータ配信を実現しています。
 * [!UICONTROL アドビ]では、アプリケーションをセキュリティ保護するための多層型アプローチを使用し、お客様に対して最高レベルの可用性と信頼性を確保しています。
 
 * [!DNL Target] コンサルティングは、導入支援と継続的な製品サポートを行っています。
@@ -165,11 +165,11 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
 ガイドラインは[Google ウェブマスター向け公式ブログ](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)の投稿として公表されています。この投稿は 2012 年のものですが、この問題に関する Google からの最新の発言であり、ガイドラインは現在でも通用します。
 
-* **クロークなし**：クロークとは、ユーザーに対して1 連のコンテンツを表示し、検索エンジンボットには別のコンテンツを表示することです。クロークは、ボットを特別に識別し、異なるコンテンツを意図的にフィードすることで実行されます。
+* **クロークなし**：クロークとは、ユーザーに対して特定のコンテンツを表示し、検索エンジンボットには別のコンテンツを表示することです。クロークは、ボットを特別に識別し、異なるコンテンツを意図的にフィードすることで実行されます。
 
    [!DNL Target] は、プラットフォームとしては検索エンジンボットを他のユーザーと同様に扱うよう設定されています。その結果、ボットがランダムに選択され、テストのバリエーションを「確認」した場合、そのボットをアクティビティに含めることができます。
 
-* **rel=&quot;canonical&quot; を使用する**：バリエーションを付けるために、異なる URL を使用して A/B テストを設定する必要が出ることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに含ませます。例えば、[!DNL Adobe] がバリエーションごとに異なる URL を使用してホームページをテストするとします。ホームページの次の canonical タグは、各バリエーションの `<head>` タグ内に配置されます。
+* **rel=&quot;canonical&quot; を使用する**：バリエーションを付けるために、異なる URL を使用して A/B テストを設定する必要が出ることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに追加する必要があります。例えば、[!DNL Adobe] がバリエーションごとに異なる URL を使用してホームページをテストするとします。ホームページの次の canonical タグは、各バリエーションの `<head>` タグ内に配置されます。
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -179,7 +179,7 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
    [!DNL Adobe] では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、[!DNL Adobe] は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
-* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) が用意されています。[!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、ベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、テストがこの時点に到達した時期を判断します。 [!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
    [!DNL Target] プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
 
@@ -195,7 +195,7 @@ Google によると、これらのガイドラインに従えば、「テスト�
 
 Google は例として、「ユーザーに表示される組み合わせに関連しないキーワードでサイトの元来のページが読み込まれる場合、そのサイトを Google のインデックスから外すことがあります」と記述しています。
 
-[!UICONTROL アドビ]は、テストのバリエーション内で意図せず元のコンテンツの意味を変更するのは難しいと感じています。ただし、[!UICONTROL アドビ]では、ページのキーワードテーマに注意して、それらのテーマを維持することをお勧めします。ページ内容を変更、特に関連のあるキーワードを追加したり削除したりすると、自然検索でのその URL のランキングが変わってしまう場合があります。[!DNL Adobe] では、テストプロトコルの一環として、SEO パートナーに協力を仰ぐことをお勧めします。
+[!UICONTROL アドビ]は、テストのバリエーション内で意図せず元のコンテンツの意味を変更するのは難しいと感じています。ただし、[!UICONTROL アドビ]では、ページのキーワードテーマに注意して、それらのテーマを維持することをお勧めします。ページ内容を変更、特に関連のあるキーワードを追加したり削除したりすると、オーガニック検索でのその URL のランキングが変わってしまう場合があります。[!DNL Adobe] では、テストプロセスの一環として、SEO パートナーに協力を仰ぐことをお勧めします。
 
 ## ボット {#bots}
 
@@ -212,7 +212,7 @@ Adobe [!DNL Target] は、[DeviceAtlas](https://deviceatlas.com/device-data/user
 * 訪問者プロファイルの作成または取得
 * プロファイル属性の記録またはプロファイルスクリプトの実行
 * [!DNL Adobe Audience Manager]（AAM）セグメントの検索（該当する場合）
-* [!UICONTROL Recommendations]、[!UICONTROL 自動ターゲット]、[!UICONTROL 自動パーソナライゼーション]または[!UICONTROL 自動配分]の各アクティビティにおけるパーソナライズされたコンテンツのモデリングおよび提供時のボットトラフィックの使用する
+* [!UICONTROL Recommendations]、[!UICONTROL 自動ターゲット]、[!UICONTROL Automated Personalization]または[!UICONTROL 自動配分]の各アクティビティにおけるパーソナライズされたコンテンツのモデリングおよび提供時のボットトラフィックの使用する
 * レポート用のアクティビティ訪問の記録
 * [!DNL Adobe Experience Cloud] プラットフォームに送信されたログデータ
 
