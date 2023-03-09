@@ -4,9 +4,9 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1382'
 ht-degree: 3%
 
 ---
@@ -76,25 +76,25 @@ A4T 統合を使用すると、次のことが可能になります。
 
 | Metric name | 現在は次のサポートはありません： |
 | --- | --- |
-| [!UICONTROL averagedepth] | コンバージョン率、RPV |
-| [!UICONTROL averagetimespentonsite] | コンバージョン率、RPV |
-| [!UICONTROL 跳ね返る] | コンバージョン率、RPV |
-| [!UICONTROL bounces] | コンバージョン率、RPV |
-| [!UICONTROL エントリ] | コンバージョン率、RPV |
-| [!UICONTROL 出口] | コンバージョン率、RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL リロード] | RPV |
-| [!UICONTROL 訪問者数] | コンバージョン率、RPV |
-| [!UICONTROL 訪問回数] | RPV |
+| [!UICONTROL averagedepth] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL averagetimespentonsite] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL 跳ね返る] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL bounces] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL エントリ] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL 出口] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL pageviews] | 指標値を最大化 |
+| [!UICONTROL リロード] | 指標値を最大化 |
+| [!UICONTROL 訪問者数] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL 訪問回数] | 指標値を最大化 |
 
 ### 影響 [!UICONTROL 自動ターゲット] アクティビティ
 
 | Metric name | 現在は次のサポートはありません： |
 | --- | --- |
-| [!UICONTROL cartremovals] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL 訪問者数] | コンバージョン率、RPV |
-| [!UICONTROL 訪問回数] | RPV |
+| [!UICONTROL cartremovals] | 指標値を最大化 |
+| [!UICONTROL pageviews] | 指標値を最大化 |
+| [!UICONTROL 訪問者数] | コンバージョン率、指標値を最大化 |
+| [!UICONTROL 訪問回数] | 指標値を最大化 |
 
 ## 制限事項と注意事項
 
