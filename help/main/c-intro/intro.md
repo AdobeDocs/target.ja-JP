@@ -5,10 +5,10 @@ landing-page-description: Webサイト、モバイルサイト、アプリ、ソ
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] は [!DNL Target] の高度なバージョンで、[!DNL Target Standard] にプレミアム機能を追加するためのライセンスが必要になります。
 
-このヘルプガイドのすべての [!DNL Target Premium] 記事には、各ページの上部に Premium バッジが表示されます。
+すべて [!DNL Target Premium] Target ガイドの記事には、各ページの上部にある Premium バッジ、または影響を受けるテキストの近くにあるインラインの Premium バッジが含まれています。 Premium バッジには、このセクションへのリンクが含まれています。
 
-![Premium バッジ](/help/main/assets/premium.png)
-
-Target Premium には次のような機能があります。
+[!DNL Target Premium] には、次の機能が含まれています。
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Target Premium には次のような機能があります。
 ### Enterprise ユーザーの権限
 
 [エンタープライズユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)機能を使用すると、様々なプロジェクト（ [!DNL Adobe Admin Console for Enterprise] では「製品プロファイル」と呼ばれます）を作成できます。[!UICONTROL エンタープライズユーザー権限]では、1 人のユーザーに異なる権限を割り当て、そのユーザーのアクセス権限をプロジェクトごとに指定できます。これらの各プロジェクトは、[!DNL Adobe Analytics] でのレポートスイートの動作方法と比較できます。各プロジェクトは、プロパティのセットに適用する特定の役割を持つ特定のユーザーを持つことができます。その結果、顧客は、ユーザーに対して閲覧、編集、承認および公開のアクセスを制限することができます。地域、環境（開発／ステージ／実稼動）、チャネル、その他のカスタム条件に基づいて、ユーザーを制限できます。
+
+## ベータ版の機能 {#beta}
+
+[!BADGE ベータ]{type=Informative}
+
+この [!DNL Adobe Target] チームは、多くの場合、一部のお客様向けの機能をテスト用およびフィードバック用にオンにしてから、今後のリリースですべてのお客様向けにこれらの機能を有効にします。
+
+の記事 [!DNL Target] ベータ版機能を説明するガイドには、各ページの上部にあるベータバッジや、影響を受けるテキストの近くにあるインラインのベータバッジが含まれています。 ベータバッジはクリック可能で、この節へのリンクが含まれています。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
