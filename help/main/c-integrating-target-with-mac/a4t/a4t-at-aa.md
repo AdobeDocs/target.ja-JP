@@ -4,10 +4,10 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 3%
+source-wordcount: '1292'
+ht-degree: 2%
 
 ---
 
@@ -62,39 +62,18 @@ A4T 統合を使用すると、次のことが可能になります。
 * [!DNL Adobe Analytics] コンバージョン指標と考えることができます
 * [!DNL Adobe Analytics] つのカスタムイベント
 
-[!DNL Target] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。
+[!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] では、2 項イベントに基づく指標を選択する必要があります。 2 項イベントは発生しないか、発生しません。 2 項イベントには、クリック、コンバージョン、注文などが含まれます。 この種のイベントは、ベルヌーイ、バイナリ、個別のイベントとも呼ばれます。
 
-* **二項イベントに基づく指標**:2 項イベントは発生しないか、発生しません。 2 項イベントには、クリック、コンバージョン、注文などが含まれます。 この種のイベントは、ベルヌーイ、バイナリ、個別のイベントとも呼ばれます。
+[!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] は、連続指標の最適化をサポートしていません。 継続的な指標には、売上高、注文された製品数、セッション期間、セッションでのページビュー数などが含まれます。 サポートされていないタイプの指標は、非二項指標や非ベルヌーイ指標とも呼ばれます。
 
-* **連続イベントに基づく指標**. 継続的な指標には、売上高、注文された製品数、セッション期間、セッションでのページビュー数などが含まれます。 この種のイベントは、非二項指標や非ベルヌーイ指標とも呼ばれます。
+次の指標タイプは、主な目標指標としてサポートされていません。
 
->[!IMPORTANT]
->
->現在 [!DNL Adobe Target Standard/Premium] 22.15.1リリース（2023 年 3 月 9 日）、 [!DNL Target] は、現在サポートされていない指標（以下の表に示す）を使用して、既存のアクティビティを引き続きサポートします。 ただし、2023 年 9 月 10 日以降、これらの指標は既存のアクティビティではサポートされなくなり、サポートされていない指標を使用するすべてのアクティビティは、既存のアクティビティを新しい動作に強制的に移行するために廃止されます。
+* [!DNL Adobe Target] エンゲージメントと売上高の指標
+* [!DNL Adobe Analytics] エンゲージメントと売上高の指標
 
-### 影響 [!UICONTROL 自動配分] アクティビティ
+   次の項目を選択できます。 [!DNL Analytics] 主な目標指標としてのエンゲージメントまたは売上高指標： [!DNL Target] すべてのエンゲージメントと売上高の指標を特定および除外できない [!DNL Analytics]. 2 次元のコンバージョン指標またはカスタムイベントのみを選択します： [!DNL Analytics].
 
-| Metric name | 現在は次のサポートはありません： |
-| --- | --- |
-| [!UICONTROL averagedepth] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL averagetimespentonsite] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL 跳ね返る] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL bounces] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL エントリ] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL 出口] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL pageviews] | 指標値を最大化 |
-| [!UICONTROL リロード] | 指標値を最大化 |
-| [!UICONTROL 訪問者数] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL 訪問回数] | 指標値を最大化 |
-
-### 影響 [!UICONTROL 自動ターゲット] アクティビティ
-
-| Metric name | 現在は次のサポートはありません： |
-| --- | --- |
-| [!UICONTROL cartremovals] | 指標値を最大化 |
-| [!UICONTROL pageviews] | 指標値を最大化 |
-| [!UICONTROL 訪問者数] | コンバージョン率、指標値を最大化 |
-| [!UICONTROL 訪問回数] | 指標値を最大化 |
+* [!DNL Adobe Analytics] 計算指標
 
 ## 制限事項と注意事項
 
