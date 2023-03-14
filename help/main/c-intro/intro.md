@@ -5,10 +5,10 @@ landing-page-description: Webサイト、モバイルサイト、アプリ、ソ
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 89%
 
 [!DNL Target Premium] は [!DNL Target] の高度なバージョンで、[!DNL Target Standard] にプレミアム機能を追加するためのライセンスが必要になります。
 
-すべて [!DNL Target Premium] Target ガイドの記事には、各ページの上部にある Premium バッジ、または影響を受けるテキストの近くにあるインラインの Premium バッジが含まれています。 Premium バッジには、このセクションへのリンクが含まれています。
+すべて [!DNL Target Premium] 記事 [!DNL Target] ガイドには [!UICONTROL プレミアム] バッジを各ページの先頭または影響を受けるテキストの近くにインラインで配置します。 この [!UICONTROL プレミアム] バッジはクリック可能で、このセクションへのリンクが含まれます。
 
-[!DNL Target Premium] には、次の機能が含まれています。
+**[!DNL Target Premium]には、次の機能が含まれています。**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ ht-degree: 89%
 
 [!BADGE ベータ]{type=Informative}
 
-この [!DNL Adobe Target] チームは、多くの場合、一部のお客様向けの機能をテスト用およびフィードバック用にオンにしてから、今後のリリースですべてのお客様向けにこれらの機能を有効にします。
+この [!DNL Adobe Target] チームは、多くの場合、一部のお客様に対して、テストやフィードバックを目的とした新機能を提供します。 テスト期間が終了すると、これらの機能は将来のすべてのお客様に対して有効になります [!DNL Target Standard/Premium] リリースおよびリリースノートで発表されました。
 
 の記事 [!DNL Target] ベータ版機能を説明するガイドには、各ページの上部にあるベータバッジや、影響を受けるテキストの近くにあるインラインのベータバッジが含まれています。 ベータバッジはクリック可能で、この節へのリンクが含まれています。
 

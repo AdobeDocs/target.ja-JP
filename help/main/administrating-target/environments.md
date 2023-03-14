@@ -5,10 +5,10 @@ title: 環境とは何ですか？また、環境の使用方法を教えてく�
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 60%
+source-wordcount: '682'
+ht-degree: 58%
 
 ---
 
@@ -67,9 +67,7 @@ When a [!DNL Target] 新しい Web サイトまたはドメインからリクエ
 >
 >削除できない [!UICONTROL 実稼動] 環境の名前を変更できます。
 
-## Recommendations：環境（ホストグループ）別にコレクションと除外をフィルター
-
-![Premium バッジ](/help/main/assets/premium.png)
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium に含まれる機能を参照してください。"}
 
 選択した環境（ホストグループ）の Recommendations コレクションと除外のコンテンツをプレビューできます。
 
