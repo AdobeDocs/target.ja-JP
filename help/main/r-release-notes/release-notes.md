@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含�
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 69%
+source-wordcount: '705'
+ht-degree: 56%
 
 ---
 
@@ -33,6 +33,21 @@ ht-degree: 69%
 | 最適化された A4T 指標： [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] | [!DNL Target] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。<P>サポートされる指標に関して、次の時間的制約があることに注意してください。<ul><li>[!DNL Target] 2023 年 9 月 10 日まで、既存のアクティビティの以前の動作を保持していました。 この日以降、サポートされていない指標を使用するアクティビティは、既存のアクティビティを新しい動作に強制的に移行するために、終了します。</li></ul>詳しくは、 [サポートされる目標指標](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *自動配分と自動ターゲットアクティビティに対する A4T のサポート*. |
 | [!UICONTROL 自動配分] using [!UICONTROL Analytics for Target] (A4T) | 新しいチュートリアル：<ul><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
 | [!UICONTROL 自動ターゲット] using [!UICONTROL Analytics for Target] (A4T) | 新しいチュートリアル：<ul><li>[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
+
+このリリースには、以下の修正が含まれています。
+
+* を使用したカスタム Web コンポーネントのオーサリングの更新 [!UICONTROL Visual Experience Composer] (VEC):
+
+   * オーサリングプロセスを改善し、VEC でのシャドウ DOM 要素の選択を修正し、 [!DNL Target] シャドウルートを作成する際の実装タイプ。 これで、VEC でのシャドウ DOM 要素の選択が、どの Web サイトでも機能するようになりました。
+   * VEC で#Shadow DOM を使用してHTML要素を読み込めなかった問題を修正しました。 （TGT-35801）
+   * ShadowDOM を使用するSPA Web サイトでの VEC の問題を修正しました。 （TGT-43169）
+   * 最適化目標の問題を修正しました。ShadowDOM の CSS セレクターを正しく識別しなかった「要素をクリックしました」。
+
+>[!NOTE]
+>
+>VEC で作成した変更を確実に配信するには、 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) のバージョンが 2.8 より大きい場合にのみ有効です。
+
+**既知の問題**:を使用する際のシャドウルート要素のクリック追跡 [!DNL Adobe Experience Platform Web SDK] が正しく機能していません。 （TNT-47012）
 
 ## at.js バージョン 2.10.2（2023 年 3 月 7日）
 
