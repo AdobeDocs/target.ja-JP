@@ -2,17 +2,18 @@
 keywords: 統合;役割;ユーザー権限;admin console
 description: Adobe Targetで目的の役割を持つすべてのAdobe I/Oに対して、既存のワークスペース統合へのアクセス権を付与する方法を説明します。
 title: ワークスペースに対するAdobe I/Oアクセス権を付与し、役割を割り当てる方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
+# ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て
 
 [!UICONTROL エンタープライズ権限]を使用すると、[!DNL Target] のお客様は、単一の組織を使用できますが、その様々なチームやワークフロー用にワークスペースに分割できます。
 
