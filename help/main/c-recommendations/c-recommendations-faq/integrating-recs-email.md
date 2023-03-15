@@ -2,16 +2,17 @@
 keywords: 電子メール;ESP;電子メールサービスプロバイダー;rawbox;delivery API;ダウンロード専用テンプレート;電子メールテンプレート;バッチ処理;ビルド時の電子メール
 description: 電子メールを Adobe [!DNL Target Recommendations], including using the [!DNL Target] 配信 API、rawbox テンプレート、ダウンロード専用テンプレートと統合する方法について説明します。
 title: レコメンデーションとメールの統合方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 99%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!DNL Recommendations] とメールの統合
+# [!DNL Recommendations] メールとの統合
 
 [!DNL Adobe Target] は、メールでのレコメンデーションの送信時パーソナライゼーションをサポートします。
 
@@ -25,7 +26,7 @@ ht-degree: 99%
 
 メソッド 1 またはメソッド 2 を使用する場合は、ESP が顧客ごと／メールごとに外部 API を呼び出し、コンテンツが返されるのを待つ必要があります。これらのメソッドは、すべての ESP でサポートされているわけではありません。ESP に問い合わせて、この統合パターンと互換性があるかどうかを確認してください。
 
-メソッド 3 を使用する場合は、ESP が製品 ID またはカテゴリ ID ごとのレコメンデーションのリストをメールのリストに結合する必要があります。このメソッドは、顧客が最後に閲覧した製品、最後に購入した製品、最も多く閲覧したカテゴリなどの属性に基づくことができます。 ただし、結合を行うためには、ESP が顧客プロファイルのこのデータにアクセスできる必要があります。ESP に問い合わせて、このデータへのアクセス権があり、この統合パターンと互換性があるかどうかを確認します。
+メソッド 3 を使用する場合は、ESP が製品 ID またはカテゴリ ID ごとのレコメンデーションのリストをメールのリストに結合する必要があります。このメソッドは、顧客の最後に閲覧した製品、最後に購入した製品、最も多く閲覧されたカテゴリなどの属性に基づくことができます。  ただし、結合を行うためには、ESP が顧客プロファイルのこのデータにアクセスできる必要があります。ESP に問い合わせて、このデータへのアクセス権があり、この統合パターンと互換性があるかどうかを確認します。
 
 オープンタイムでのレコメンデーションのパーソナライゼーションは、[!DNL Adobe Target] ではサポートされていません。
 
@@ -77,7 +78,7 @@ curl -X POST \
 >
 >電子メール受信者（API 呼び出し）ごとに、`sessionId` と `tntId`（または `thirdPartyId`）の両方で一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるので、API 応答が遅くなったり失敗したりする可能性があります。
 
-詳しくは、 [Delivery API ドキュメント](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} を参照してください。
+詳しくは 、[配信 API ドキュメント](https://developer.adobe.com/target/implement/delivery-api/) を参照してください。{target=_blank}
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 
@@ -124,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | パラメーター | 値 | 説明 | 検証 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Recommendations で使用されるクライアントのコード。この値はアドビコンサルタントから入手できます。 |  |
+| `client_code` | *client_code* | Recommendationsで使用されるクライアントのコード。 この値はアドビコンサルタントから入手できます。 |  |
 | `mbox` | *mboxName* | ターゲット設定に使用される mbox 名。 | すべての mbox 呼び出しと同じ検証。<br>上限 250 文字.<br>次の文字を含めることはできません：`', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | 無効 | 非 Web 環境において応答で cookie を設定しないようにします。 |  |
 | `entity.id`<br>（特定のタイプの条件が必要：view/view、view/bought、bought/bought） | *entity_id* | 買い物かごで放棄された商品や以前の購入など、レコメンデーションが基にする productId。<br>条件で必須の場合、rawbox 呼び出しには `entity.id` を含める必要があります。 |  |
@@ -132,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>（特定のタイプの条件が必要：カテゴリ別で最も多く閲覧されたものおよびカテゴリ別のトップセラー） | *category_id* | あるカテゴリのトップセラーなど、レコメンデーションが基にするカテゴリ。<br>条件で必須の場合、rawbox 呼び出しには `entity.categoryId` を含める必要があります。 |  |
 | `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` パラメーターがない場合、`mboxDefault` は、レコメンデーションが使用できない場合にデフォルトコンテンツを返す絶対 URL である必要があります。 この URL は、画像またはその他の静的コンテンツにすることができます。<br>`mboxNoRedirect` パラメーターがある場合、`mboxDefault` には、`no_content` など、レコメンデーションがないことを示す任意のテキストを指定できます。<br>メールプロバイダーは、この値が返された場合に対処し、メールにデフォルトの HTML を挿入する必要があります。<br> **セキュリティのベストプラクティス**：`mboxDefault` URL で使用されるドメインが許可リストに含まれていない場合は、オープンリダイレクトの脆弱性のリスクにさらされる可能性があります。 サードパーティによるリダイレクターリンクまたは `mboxDefault` の不正使用を回避するために、アドビは「承認済みホスト」を使用してデフォルトのリダイレクト URL ドメインを許可リストに加えるすることをお勧めします。 Target は、ホストを使用して、リダイレクトを許可するドメインを許可リストに登録します。詳しくは、[ホスト [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)の&#x200B;*に mbox 呼び出しを送信する権限のあるホストを指定する許可リストの作成*&#x200B;を参照してください。 |  |
 | `mboxHost` | *mbox_host* | 呼び出しが発生したときにデフォルト環境（ホストグループ）に追加されるドメインです。 |  |
-| `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しない場合、新しい tntId が生成され、応答の一部として返されます。それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるため、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。 <br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
+| `mboxPC` | 空 | （訪問者のプロファイルを使用するレコメンデーションに必要）<br>「thirdPartyId」を指定しなかった場合、新しい tntId が生成され、応答の一部として返されます。 それ以外の場合は、空です。<br>**注意**：電子メール受信者（API 呼び出し）ごとに、`mboxSession` および `mboxPC` の一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるため、API の応答が遅くなったり失敗したりする可能性があります。 | 1 &lt; Length &lt; 128<br>「.」（ドット）を複数含めることはできません。 <br>プロファイルのロケーションサフィックスにのみ、ドットを使用できます。 |
 
 ### オプションのパラメーター：
 

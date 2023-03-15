@@ -2,16 +2,17 @@
 keywords: 自動パーソナライゼーション；ap；オーディエンス；アンサンブル；ランダムフォレスト；マルチアームバンディット；トンプソンサンプリング；ml；機械学習
 description: AdobeでのAutomated Personalization(AP) アクティビティの使用方法を説明します [!DNL Target] 高度な機械学習を使用して、各訪問者に異なるオファーのバリエーションを一致させる
 title: Automated Personalization(AP) アクティビティとは
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 89%
+source-wordcount: '1048'
+ht-degree: 84%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) Automated Personalization(AP)
+# Automated Personalization（AP）
 
 [!UICONTROL Automated Personalization] (AP) アクティビティ [!DNL Adobe Target] オファーやメッセージを組み合わせ、高度な機械学習を使用して個々の顧客プロファイルに基づいて様々なオファーのバリエーションを各訪問者に一致させ、コンテンツをパーソナライズして上昇率を高めます。
 
@@ -31,7 +32,7 @@ ht-degree: 89%
 |---|---|
 | マルチアームバンディット | 調査学習とその学習の活用のバランスの最適化のためのマルチアームバンディットアプローチです。 |
 | ランダムフォレスト | ランダムフォレストは、優れた機械学習手法です。データサイエンス分野においては、訪問者と訪問の属性に基づいて大量のデシジョンツリーを構築することで機能するアンサンブル分類または回帰手法を指します。Target では、個々の訪問者がコンバージョンに至る可能性が最も高い（または訪問あたりの売上高が最も高い）と予想されるエクスペリエンスを決定するためにランダムフォレストが使用されます。Target でのランダムフォレストについて詳しくは、[ランダムフォレストアルゴリズム](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)を参照してください。 |
-| トンプソンサンプリング | トンプソンサンプリングの目的は、全体的に最良の（パーソナライズされていない）エクスペリエンスを最小限の「コスト」で特定することです。トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。詳しくは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)を参照してください。 |
+| トンプソンサンプリング | トンプソンサンプリングの目的は、全体的に最適な（パーソナライズされていない）エクスペリエンスを最小限に抑えながら、そのエクスペリエンスを見つける「コスト」を最小限に抑えることです。 トンプソンサンプリングでは、2 つのエクスペリエンスに統計的な差異がない場合でも、必ず勝者が選定されます。詳しくは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)を参照してください。 |
 
 [!UICONTROL Automated Personalization] を利用する際は、次の点を考慮してください。
 
@@ -47,7 +48,7 @@ ht-degree: 89%
 
 **訪問者の行動の変化にパーソナライゼーションモデルが対応します。**
 
-* マルチアームバンディットにより、モデルは常にトラフィックのごく一部を利用して、アクティビティの全期間にわたって学習を続け、それまでに学習したトレンドの乱用を防止します。
+* マルチアームバンディットを使用すると、モデルは常にトラフィックのごく一部を「消費」してアクティビティの全期間にわたって学習を継続し、以前に学習したトレンドの過度の活用を防ぐことができます。
 * Target が変化し続けるユーザーの好みを常に活用できるように、24 時間ごとに訪問者の最新の行動データを使用して基になるモデルを再構築します。
 * アルゴリズムによって個々の訪問者の勝者エクスペリエンスを特定できなかった場合は、総合的なパフォーマンスが最も高いエクスペリエンスを表示する方式に自動的に切り替わります。その間もパーソナライズされた勝者の特定は続行されます。最もパフォーマンスが高いエクスペリエンスは、[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling)によって割り出されます。
 
@@ -61,7 +62,7 @@ ht-degree: 89%
 
 **Target は、パーソナライゼーションモデルを構築するために、[!DNL Adobe Experience Cloud] のすべての共有オーディエンスを自動的に使用します。**
 
-* オーディエンスをモデルに追加するために何か特別な作業をおこなう必要はありません。[!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
+* オーディエンスをモデルに追加するために特別な作業をおこなう必要はありません。[!DNL Experience Cloud Audiences] と [!DNL Target] を併用する方法について詳しくは、「[Experience Cloud オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)」を参照してください。
 
 **パーソナライゼーションモデルを構築するために、オフラインデータや傾向スコアなどのカスタムデータをアップロードできます。**
 

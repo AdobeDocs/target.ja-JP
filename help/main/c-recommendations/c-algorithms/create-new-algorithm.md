@@ -2,16 +2,17 @@
 keywords: 条件；アルゴリズム；業種；ページタイプ；レコメンデーションキー；レコメンデーションキー；レコメンデーションロジック；データ範囲；ルックバックウィンドウ；部分設計；代替レコメンデーション；属性の重み付け；現在のカテゴリ；カスタム属性；最後の閲覧項目；最後の閲覧；最後の閲覧
 description: Adobe Recommendationsアクティビティの内容を制御して、アクティビティに最適なレコメンデーションを表示する条件の作成方法を説明します。
 title: Recommendationsで条件を作成する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 条件を作成
+# 条件の作成
 
 の条件 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] コンテンツの制御 [!UICONTROL Recommendations] アクティビティ。 アクティビティに最適なレコメンデーションを表示するために、条件を作成します。これらの条件では、訪問者のアクションを使用して、表示するコンテンツまたは製品を決定します。
 

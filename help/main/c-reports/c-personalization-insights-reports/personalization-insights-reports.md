@@ -2,16 +2,17 @@
 keywords: ターゲット設定;AP レポート;Automated Personalization レポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;自動セグメント;FAQ;よくある質問;重要な属性
 description: Automated Personalization(AP) および自動ターゲット (AT) アクティビティ用の特殊なレポートの使用方法 — 自動セグメントと重要な属性。
 title: パーソナライゼーションインサイトレポートの使用方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 54%
+source-wordcount: '908'
+ht-degree: 48%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) パーソナライゼーションインサイトレポート
+# パーソナライゼーションインサイトレポート
 
 [!UICONTROL Automated Personalization]（AP）および自動ターゲット（AT）アクティビティのユーザーは、[!UICONTROL 自動セグメント]レポートと重要な属性レポートの 2 つの特殊なレポートを使用できます。
 
@@ -47,15 +48,15 @@ ht-degree: 54%
 
 [!UICONTROL パーソナライゼーションインサイト]レポートで表される属性のうち、AP モデルまたは自動ターゲットモデルで使用されるものは、次の 2 種類です。
 
-* **で自動的に収集される属性：**[!DNL Target]Target では基本データセットを使用して、パーソナライゼーションインサイトに反映される AP アクティビティおよび AT アクティビティのパーソナライゼーションアルゴリズムを構築します。データ型、属性の例、[!UICONTROL パーソナライゼーションインサイト]の命名規則について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。これらの属性は考慮はされますが、個々のアクティビティの最終モデルでは、これらの属性がすべて使用されるとは限らないことに注意してください。
-* **Target に渡される属性：**[Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)を参照してください。
+* **で自動的に収集される属性：**[!DNL Target]Target では基本データセットを使用して、パーソナライゼーションインサイトに反映される AP アクティビティおよび AT アクティビティのパーソナライゼーションアルゴリズムを構築します。データ型、属性の例、[!UICONTROL パーソナライゼーションインサイト]の命名規則について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。これらの属性は考慮されますが、個々のアクティビティのモデルでは、最終モデルでこれらの属性のすべてが使用されるわけではないことに注意してください。
+* **Target に渡される属性：** 詳しくは、 [Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] には、追加のデータをに渡す方法が多数用意されています。 [!DNL Target] AP および AT アクティビティのパーソナライゼーションアルゴリズムの構築に使用するベースデータセットをエンリッチメントするには：
 
 | データタイプ | 説明 | データタイプの命名規則 |
 |--- |--- |--- |
 | プロファイル属性（プロファイルスクリプト、プロファイル更新 API、ページ内プロファイル属性など） | Target のユーザープロファイルに追加したすべての情報。<br>この情報は、プロファイルスクリプトや、プロファイル更新 API を使用してアップロードされた情報、「profile」というプレフィックスが付いた in-mbox プロファイルパラメーターから取得できます。 | `Custom - Profile - [parameter name]` |
-| ページパラメーター（「mbox パラメーター」） | ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。 | `Custom - Mbox Parameter - [parameter name]` |
+| ページパラメーター（mbox パラメーター） | ページコードを介して直接渡される名前と値のペアで、今後の使用のために訪問者のプロファイルに保管されることはありません。 | `Custom - Mbox Parameter - [parameter name]` |
 | 顧客属性 | 顧客属性を利用すると、FTP を介して訪問者のプロファイルデータを Experience Cloud にアップロードできます。アップロード後は、データを Adobe Analytics と Adobe Target で利用できます。 | `Custom - Customer Attributes - [parameter name]` |
 | 共有オーディエンス（Adobe Audience Manager または Adobe Analytics） | Adobe Audience Manager または Adobe Analytics で作成され、Target と共有されているオーディエンス。 | `Custom - Experience Cloud Segment - [segment name]` |
 | 共有オーディエンス (Adobe Experience Platform/リアルタイム CDP) | Adobe Experience Platform/リアルタイム CDP を通じて作成され、宛先を介して Target と共有されるオーディエンス。 | `Custom - Adobe Experience Platform Segment - [segment name]` |

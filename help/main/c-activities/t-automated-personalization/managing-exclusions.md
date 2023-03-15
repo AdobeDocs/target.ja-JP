@@ -2,27 +2,28 @@
 keywords: 重複；重複を許可；重複するオファーを除外；自動パーソナライゼーション；重複するオファーを許可しない；除外；デフォルトコンテンツ；除外グループ；
 description: 除外のAdobe [!DNL Target] Automated Personalization(AP) アクティビティ 除外グループを作成し、重複するオファー、特定のエクスペリエンスおよびデフォルトコンテンツを除外します。
 title: Automated Personalization Activities の除外を管理する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '999'
 ht-degree: 88%
 
 ---
 
-# ![Premium バッジ](/help/main/assets/premium.png) 除外の管理
+# 除外の管理
 
 での除外グループの作成、重複オファーの除外、特定のエクスペリエンスの除外、デフォルトコンテンツの除外により、除外を管理します。 [!UICONTROL Automated Personalization] (AP) アクティビティ [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) アクティビティ
 
 ## 除外グループの作成 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
-自動パーソナライゼーション（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
+Automated Personalization（AP）アクティビティで除外グループを作成し、指定したオファーを含むエクスペリエンスが自動的に除外されるようにします。
 
 除外グループは、複数の場所における同一のエクスペリエンスで、不適切なオファーが提示されないようにできる便利な機能です。例えば、全商品を対象とした 20％割引と 15％割引の 2 つのオファーがあるとします。この 2 つのオファーが、同一のエクスペリエンスの訪問者に提示されないようにする必要があります。その場合はこの 2 つのオファーを除外グループに追加することで対処できます。
 
-また、どのオーディエンスが AP アクティビティの特定のオファーを表示できるかを制限できます。詳しくは、[Target の自動パーソナライゼーションオファー](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
+また、どのオーディエンスが AP アクティビティの特定のオファーを表示できるかを制限できます。詳しくは、[Target のAutomated Personalizationオファー](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)を参照してください。
 
 **除外グループを作成する手順は次のとおりです。**
 
@@ -54,7 +55,7 @@ ht-degree: 88%
 
 ## 重複するオファーの除外 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-オファーライブラリからのオファーが[!UICONTROL 自動パーソナライゼーション]アクティビティの複数のロケーションで使用される場合に重複しないようにします。
+オファーライブラリからのオファーが[!UICONTROL Automated Personalization]アクティビティの複数のロケーションで使用される場合に重複しないようにします。
 
 例えば、ページ上で 6 つのロケーションと 12 件のオファーがあるアクティビティがあるとします。同じオファーがアクティビティ内の 1 つまたは複数のロケーションに配置される場合があります。この機能では、同一アクティビティ内の別の場所で、重複するオファーが同時に表示されるのを防ぐことができます。
 
@@ -64,7 +65,7 @@ ht-degree: 88%
 
 ## 特定のエクスペリエンスの除外 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-特定のオファーの組み合わせを自動パーソナライゼーションアクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
+特定のオファーの組み合わせをAutomated Personalizationアクティビティから除外したい場合は、特定のエクスペリエンスを除外できます。
 
 効果的ではない組み合わせがある場合や、テスト対象のエクスペリエンスの数を制限し、アクティビティのトラフィック要件を下げたい場合もあるでしょう。
 
@@ -92,7 +93,7 @@ ht-degree: 88%
 
 ## デフォルトコンテンツの除外 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-デフォルトのコンテンツを、自動パーソナライゼーションアクティビティから除外したい場合もあるでしょう。この設定方法は、除外グループの作成方法とは異なります。この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
+デフォルトのコンテンツを、Automated Personalizationアクティビティから除外したい場合もあるでしょう。この設定方法は、除外グループの作成方法とは異なります。この方法を使用すれば、ある場所の 1 つのオファー（デフォルトのコンテンツとは異なる）のみを AP アクティビティに含めることができます。
 
 AP アクティビティでテストするオファーに合わせてページの他の部分のデザインを変更したい場合は、デフォルトのコンテンツを除外する方法が効果的です。例えば、テスト対象のオファーのカラーパレットを一致させたい場合は、ページの背景色を変更し、デフォルトの背景色を除外します。
 

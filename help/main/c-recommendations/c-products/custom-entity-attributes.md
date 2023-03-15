@@ -2,17 +2,18 @@
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
 description: 単一値および複数値のカスタムエンティティ属性を使用して、Adobe内の項目に関する追加情報を定義する方法を説明します [!DNL Target] Recommendationsカタログ
 title: カスタムエンティティ属性の使用方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 89%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) カスタムエンティティの属性
+# カスタムエンティティの属性
 
 単一値および複数値のカスタムエンティティ属性を [!DNL Adobe Target Recommendations] ：カタログ内の項目に関する追加情報を定義します。
 
@@ -36,7 +37,7 @@ ht-degree: 87%
 
 複数値のカスタムエンティティ属性は、有効な JSON 配列として送信する必要があります。
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 [!DNL Recommendations] で使用できる有効な JSON 配列の例を以下に示します。
 
@@ -126,7 +127,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-詳しくは、 [Adobe Recommendations API ドキュメント](https://developer.adobe.com/target/implement/recommendations/){target=_blank} を参照してください。
+Delivery API と Save entities API の使用については、[Adobe Recommendations API のドキュメント](https://developer.adobe.com/target/implement/recommendations/){target=_blank}を参照してください。
 
 ## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

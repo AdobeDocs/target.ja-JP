@@ -2,16 +2,17 @@
 keywords: 環境データ、セッションデータ、地理データ、地理データ、デバイスデータ、モバイルデータ、属性、プロファイル属性、パーソナライゼーションアルゴリズム、機械学習アルゴリズム、機械学習アルゴリズム
 description: データAdobe [!DNL Target] はを収集し、を使用して機械学習アルゴリズムを構築します。
 title: 機械学習アルゴリズムを構築するために収集されるデータは何ですか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2022'
 ht-degree: 53%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) 使用するデータ [!DNL Target] 機械学習アルゴリズム
+# [!DNL Target]機械学習アルゴリズムで使用するデータ
 
 [!DNL Adobe Target] は、様々なデータを自動的に収集し、使用して [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ 訪問者が AP または AT アクティビティに入ると、情報のスナップショットが一連の「トレーニングレコード」（パーソナライゼーションアルゴリズムが学習する訪問者データ）に渡されます。
 

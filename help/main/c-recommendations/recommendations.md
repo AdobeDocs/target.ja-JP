@@ -2,16 +2,17 @@
 keywords: Recommendations;Recommendations の条件;Recommendations アルゴリズム;Recommendations アクティビティ;条件;Recommendations のターゲティング:recs
 description: Adobe  [!DNL Target] の Recommendations アクティビティについて説明します。これらのアクティビティでは、以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のあるコンテンツを自動的に表示します。
 title: ' [!DNL Target]  Recommendations とは'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations 
+# Recommendations
 
 [!DNL Adobe Target Recommendations] のアクティビティは、以前のユーザーアクティビティ、環境設定、またはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。[!DNL Target Recommendations] は、訪問者が知らなかったであろう関連項目へと訪問者を誘導できます。[!DNL Recommendations] は、適切なタイミング、適切な場所で訪問者に関連コンテンツを提供できます。
 
@@ -56,10 +57,10 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 | カタログ | カタログは、製品セット（エンティティ）全体を表します。カタログには多数のコレクションを含めることができます。これにより、商品を論理的なグループにまとめて整理できます。 |
 | コレクション | コレクションは、1 つの製品カテゴリなど、類似した項目や関連項目のセットを指します。しかし、どのような品目でも、ビジネス上で適切なカテゴリグループ分けすることができます。例えば、ある価格帯や色の製品、ある地域で特に興味がもたれそうな品目などです。詳しくは、[コレクション](/help/main/c-recommendations/c-products/collections.md) を参照してください。 |
 | 条件 | 条件とは、事前に定義されている訪問者の行動に基づいて、どの商品をレコメンデーションするかを決定するルールです。<br>条件の例をいくつか挙げます。 <ul><li>これを購入した人が他に購入したもの</li><li>これを閲覧した人が他に閲覧したもの</li><li>類似の属性を持つ品目</li><li>最後に購入された品目</li><li>お気に入りのカテゴリ</li></ul>  詳しくは、[条件](/help/main/c-recommendations/c-algorithms/algorithms.md)を参照してください。 |
-| デザイン | デザインは、[!DNL Recommendations] アクティビティでの Recommendations の外観（行、列、テーブル、グリッドなど）を定義します。この記事の上部の図は、4 x 1 のデザインを示しています。詳しくは、[ブックマークの作成](/help/main/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
+| デザイン | デザインは、[!DNL Recommendations] アクティビティでの Recommendations の外観（行、列、テーブル、グリッドなど）を定義します。この記事の上部の図は、4 x 1 のデザインを示しています。詳しくは、[デザインの作成](/help/main/c-recommendations/c-design-overview/create-design.md)を参照してください。 |
 | 場所 | 場所とは、パーソナライゼーションと最適化の目的でアクティビティを実行する Web ページ、モバイルアプリ、電子メール上の特定のコンテンツ領域を指します。 |
-| オーディエンス | オーディエンスは、ターゲットアクティビティが表示される、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、[オーディエンス](/help/main/c-target/target.md)を参照してください。 |
-| オファーとしてのレコメンデーション  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
+| オーディエンス | オーディエンスは、ターゲット設定されたアクティビティを表示する対象となる、類似アクティビティ参加者のグループです。オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。オーディエンス機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。詳しくは、[オーディエンス](/help/main/c-target/target.md)を参照してください。 |
+|  オファーとしての Recommendations  | A/B テスト（自動配分と自動ターゲットを含む）およびエクスペリエンスのターゲット設定（XT）アクティビティに Recommendations を含めることができる機能。詳細については、「[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。 |
 
 ## トレーニングビデオ：アクティビティタイプ ![概要バッジ](/help/main/assets/overview.png)
 
@@ -67,12 +68,12 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 * [!DNL Adobe Target] に含まれるアクティビティタイプの説明
 * 目標達成に適したアクティビティタイプの選択
-* すべてのアクティビティタイプに適用される 3 ステップのガイドによるワークフローについての説明
+* すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Adobe Target Basics ウェビナー：Recommendations の概要 ![チュートリアルバッジ](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-*Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細な調査が含まれています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、段階を追って[!DNL Recommendations]アクティビティを構築するための [!DNL Target]UI についても詳しく見ていきます。
+*Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細に説明しています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、[!DNL Recommendations] アクティビティを作成するための、[!DNL Target] の UI での手順の概要も説明しています。
 
 [Recommendations の概要](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

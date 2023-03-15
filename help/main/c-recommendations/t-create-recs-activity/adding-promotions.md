@@ -2,16 +2,17 @@
 keywords: プロモーション；プロモーション — 前；プロモーション — 後；プロモーションタイプ；項目のリスト；属性別にプロモート；コレクションをプロモート
 description: プロモーション項目を追加し、Adobe内での配置を制御する方法を説明します [!DNL Target] Recommendationsのデザイン。 静的なプロモーションおよび動的なプロモーションを追加できます。
 title: Recommendations Designs にプロモーションを追加する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) プロモーションの追加
+# プロモーションの追加
 
 プロモーション項目を追加して、[!DNL Adobe Target Recommendations] デザインでの配置を制御します。静的なプロモーションおよび動的なプロモーションを追加できます。
 

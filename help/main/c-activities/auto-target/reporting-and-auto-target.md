@@ -2,15 +2,16 @@
 keywords: 自動ターゲット、ターゲティング、トラフィック配分、よくある質問、faq、トラブルシューティング、トラブルシューティング、レポート、自動ターゲット概要レポート、概要レポート、自動セグメント、重要な属性
 description: 解釈の仕方を学ぶ [!UICONTROL 自動ターゲット] アクティビティレポート [!DNL Target].
 title: データのデータを変換する方法 [!UICONTROL 自動ターゲット] 報告？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) レポートおよび [!UICONTROL 自動ターゲット]
+# レポートと[!UICONTROL 自動ターゲット]
 
 の解釈方法に関する情報 [!UICONTROL 自動ターゲットの概要] レポート [!DNL Adobe Target]( [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性] レポート。
 

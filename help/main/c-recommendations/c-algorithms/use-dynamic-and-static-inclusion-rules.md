@@ -2,17 +2,18 @@
 keywords: インクルージョンルール;包含条件;レコメンデーション;新しい条件の作成;プロモーション;動的フィルター;動的;空の値;フィルタールールの無視;静的フィルター;値でフィルター;エンティティ属性のマッチング;プロファイル属性のマッチング;パラメーターのマッチング;値でフィルター;静的フィルター
 description: Adobe [!DNL Target] Recommendationsを参照してください。 より良い結果を得るには、より動的なフィルタールールまたは静的なフィルタールールを追加します。
 title: Recommendationsで動的および静的インクルージョンルールを使用する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2093'
 ht-degree: 16%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 動的および静的インクルージョンルールの使用
+# 動的および静的インクルージョンルールの使用
 
 条件とプロモーションのインクルージョンルールを [!DNL Adobe Target] 動的または静的なフィルタールールを追加して、レコメンデーションの結果を高めることができます。
 

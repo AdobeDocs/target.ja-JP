@@ -2,16 +2,17 @@
 keywords: Recommendations;レコメンデーションアルゴリズム;Recommendations アクティビティ;Recommendations Classic
 description: ' [!DNL Target] Premium の従来の Recommendations Classic アクティビティと Recommendations アクティビティの違いを理解するのに役立つ情報を確認します。'
 title: ' [!DNL Target] Premium の従来の Recommendations Classic と Recommendations の違い'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!DNL Target] Premium の Recommendations Classic アクティビティと Recommendations アクティビティの比較
+# Recommendations の Classic アクティビティとRecommendationsアクティビティ [!DNL Target] プレミアム
 
 Recommendations Classic と Target Premium の Recommendations アクティビティのどちらを使用するかを選択する際に役立つ情報です。
 
@@ -27,7 +28,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Target] の [!DNL Recommendations] アクティビティは、主に次の点で [!DNL Recommendations Classic] より強化されています。
 
-## オファーとしてのレコメンデーション 
+##  オファーとしての Recommendations 
 
 [!UICONTROL A/B テスト]（ [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティに Recommendations を含めることができるようになりました。
 
@@ -40,7 +41,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 開始するには、 [!UICONTROL A/B テスト]または [!UICONTROL エクスペリエンスのターゲット設定]アクティビティを [!UICONTROL Visual Experience Composer] を使用して作成し、[!UICONTROL 前に挿入]、[!UICONTROL 後ろに挿入]、または [!UICONTROL 次で置換]アクションを使用して Recommendations をエクスペリエンスに追加します。
 
-詳細については、「[オファーとしてのレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
+詳細については、「[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)」をご覧ください。
 
 ## 条件 {#section_117709846DAA404580EBE879FFCBD9BA}
 

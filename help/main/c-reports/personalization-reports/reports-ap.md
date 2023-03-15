@@ -2,16 +2,17 @@
 keywords: ターゲット設定、AP レポート、自動パーソナライゼーションレポート、アクティビティレベルレポート、オファーレベルレポート、オファー詳細レポート、faq
 description: Adobe TargetでのAutomated Personalization Summary レポートの解釈方法を説明します。 このレポートから、自動セグメントレポートと重要な属性レポートに切り替えることができます。
 title: Automated Personalization Summary レポートの使用方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 32%
 
 ---
 
-# ![Premium](/help/main/assets/premium.png) Automated Personalization 概要レポート
+# Automated Personalization 概要レポート
 
 のユーザーは、特殊なサマリレポートを使用できます。 [!UICONTROL Automated Personalization] アクティビティ [!DNL Adobe Target].
 

@@ -2,16 +2,17 @@
 keywords: レコメンデーションフィード；フィード；SAINT;ftp;csv；分類；analytics 分類
 description: フィードがエンティティをAdobeにインポートする方法を説明します [!DNL Target] Recommendationsを CSV ファイル、Google製品検索フィード形式、Analytics 製品分類の 3 つを使用します。
 title: でのフィードの使用方法 [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2511'
 ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) フィード
+# フィード
 
 フィードを使用して [!DNL Adobe Target Recommendations] に読み込んだエンティティを取得できます。エンティティは、CSV ファイル、Google Product Search フィード形式および Adobe Analytics の製品分類を使用して送信できます。
 
@@ -339,7 +340,7 @@ Analytics の製品分類は、レコメンデーションで使用できる唯�
 
 ## トレーニングビデオ
 
-以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
+以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
 ### Recommendations のフィードの説明（3:01）![概要バッジ](/help/main/assets/overview.png)
 

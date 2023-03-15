@@ -2,16 +2,17 @@
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター
 description: Recommendationsカタログ検索を使用して、製品やコンテンツを検索したり、コレクションや除外を作成したり、カタログから項目を削除したりする方法を説明します。
 title: Recommendations Catalog 検索の使用方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) カタログ検索
+# カタログ検索
 
 この [!UICONTROL カタログ検索] ページ内 [!DNL Adobe Recommendations] は、カタログ内の製品やコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的な作業は、項目を検索することです。 また、環境の変更、検索結果のコレクションまたは除外への保存、フィルターファセットの追加、テーブル内の列の変更、新しい検索ファセットの追加などをおこなうことができます。
 
