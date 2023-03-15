@@ -2,16 +2,17 @@
 keywords: ランダムフォレスト；デシジョンツリー；ap;Automated Personalization
 description: Adobe [!DNL Target] は、 Automated Personalization(AP) アクティビティと自動ターゲットアクティビティの両方でランダムフォレストアルゴリズムを使用します。
 title: 方法 [!DNL Target] ランダムフォレストアルゴリズムを使用しますか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 94%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) ランダムフォレストアルゴリズム
+# ランダムフォレストアルゴリズム
 
 Target の Automated Personalization と自動ターゲットで使用されている主要パーソナライゼーションアルゴリズムは、ランダムフォレストです。ランダムフォレストのようなアンサンブル手法は、複数の学習アルゴリズムを使用して、どの構成学習アルゴリズムを使用した場合よりも優れた予測パフォーマンスを実現します。Automated Personalization のランダムフォレストアルゴリズムは、トレーニング時に多数のデシジョンツリーを構成することで機能する分類手法または回帰手法です。
 

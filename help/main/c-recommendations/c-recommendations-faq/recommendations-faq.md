@@ -2,16 +2,17 @@
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
 description: Adobe [!DNL Target] Recommendations アクティビティに関するよくある質問と回答のリストを表示します。
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3399'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations FAQ
+# Recommendations FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] アクティビティに関するよくある質問（FAQ）のリストです。
 
@@ -94,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には、 [非互換の条件をフィルター](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを制御できます。
+[!DNL Target] には[互換性のない条件をフィルタリング](https://developer.adobe.com/target/implement/recommendations/){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >

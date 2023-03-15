@@ -2,16 +2,17 @@
 keywords: レポート；自動ターゲット；自動ターゲット；AT；レポート
 description: Adobe Targetでの自動ターゲットの概要レポートの解釈方法を説明します。 このレポートから、自動セグメントレポートと重要な属性レポートに切り替えることができます。
 title: 自動ターゲット概要レポートの使用方法
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 51%
+source-wordcount: '688'
+ht-degree: 52%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) 自動ターゲット概要レポート
+# 自動ターゲット概要レポート
 
 の解釈方法に関する情報 [!UICONTROL 自動ターゲットの概要] レポート [!DNL Adobe Target].
 

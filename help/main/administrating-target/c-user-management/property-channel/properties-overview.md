@@ -2,17 +2,18 @@
 keywords: ユーザーの追加;プロジェクト;ユーザーグループ;プロパティ;ワークスペース;プロパティの管理;プロパティ;at_property;役割;権限
 description: ユーザーをAdobe Targetに追加する方法を学ぶワークスペース、ユーザーグループ、プロパティを作成する。実装を更新する。役割と権限を指定します。
 title: Enterprise 権限を設定する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 67%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Enterprise 権限の設定
+# Enterprise 権限の設定
 
 ユーザーを [!DNL Target] 実装；ワークスペース、ユーザーグループ、プロパティを作成する。を更新します。 [!DNL Target] を含める実装 `at_property` パラメータ；役割と権限を指定します。
 

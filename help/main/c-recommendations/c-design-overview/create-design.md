@@ -2,16 +2,17 @@
 keywords: recommendations デザイン;デザインの作成;デザインのコピー
 description: Adobe [!DNL Target] Recommendationsのデザインは、デフォルトのデザインを使用するか、ページのレイアウトに最適に合うようにカスタムデザインを作成します。
 title: Recommendationsでデザインを作成する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 32%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) デザインの作成
+# デザインの作成
 
 デザインによって、レコメンデーションがページに表示される方法が定義されます。
 

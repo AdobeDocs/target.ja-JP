@@ -2,16 +2,17 @@
 keywords: 自動パーソナライゼーション；ap；オーディエンス；アンサンブル；ランダムフォレスト；残差分散；誤差分散；全期間値
 description: 以下を作成する方法を説明します。 [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer].
 title: 方法 [!UICONTROL Automated Personalization] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1853'
 ht-degree: 61%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)Automated Personalizationアクティビティの作成
+# [!UICONTROL Automated Personalization] アクティビティの作成
 
 の作成 [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
 

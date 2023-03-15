@@ -2,16 +2,17 @@
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；プロモーション；動的フィルタリング；動的；エンティティ属性の一致
 description: Adobeで動的にフィルタリングする方法を説明します [!DNL Target] Recommendationsを使用する場合は、見込み品目のプールと、ユーザーが操作した特定の品目を比較します。
 title: Recommendationsアクティビティで一致するエンティティ属性でフィルタリングする方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) エンティティ属性のマッチング
+# エンティティ属性のマッチング
 
 で動的にフィルタリング [!DNL Adobe Target] [!DNL Recommendations] 推定レコメンデーション品目のプールを、ユーザーが操作した特定の品目と比較することで実現します。
 

@@ -2,19 +2,20 @@
 keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
 description: 個別のワークスペース（製品プロファイル）を作成し、個々のページ、プロパティまたは Web サイトに対して様々な役割および権限をユーザーに割り当てる方法について説明します。
 title: Enterprise ユーザー権限とは何ですか？また、それらの権限の使用方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3169'
+source-wordcount: '3168'
 ht-degree: 58%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Enterprise ユーザーの権限
+# Enterprise ユーザーの権限
 
-エンタープライズユーザー権限は、管理する企業全体のユーザーに対するアクセスを正式に行う手段です。 [!DNL Adobe Target]. ユーザーの追加先 [!DNL Target]、役割に基づいて権限を割り当て、様々な部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用にワークスペースを作成します。 ユーザーに [!UICONTROL 監視者], [!UICONTROL 編集者]または [!UICONTROL 承認者].
+Enterprise ユーザーの権限 は、管理する企業全体のユーザーに対する正式なアクセス手段です [!DNL Adobe Target]. ユーザーの追加先 [!DNL Target]、役割に基づいて権限を割り当て、様々な部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用にワークスペースを作成します。 ユーザーに [!UICONTROL 監視者], [!UICONTROL 編集者]または [!UICONTROL 承認者].
 
 ## Enterprise ユーザーの権限へのアクセス権があるかどうかを判断する
 

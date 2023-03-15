@@ -1,17 +1,18 @@
 ---
-keywords: ターゲット設定;AP レポート;自動パーソナライゼーションレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
+keywords: ターゲット設定;AP レポート;Automated Personalizationレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
 description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示すレポート。
 title: 重要な属性レポートとは何ですか。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 79%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 重要な属性レポート
+# 重要な属性レポート
 
 次に関する情報： [!UICONTROL 重要な属性] レポート。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ
 

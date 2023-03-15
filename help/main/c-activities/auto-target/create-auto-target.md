@@ -2,16 +2,17 @@
 keywords: 自動ターゲットの作成；A/B テスト；自動ターゲットアクティビティ；新しい A/B アクティビティ；自動ターゲット；パーソナライズされたエクスペリエンスの自動ターゲット；パーソナライズ；最適化
 description: Adobeでの Visual Experience Composer(VEC) の使用方法を説明します [!DNL Target] 自動ターゲット A/B テストアクティビティを [!DNL Target] — 有効なページ。
 title: 自動ターゲットアクティビティを作成する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 49%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) 自動ターゲットアクティビティの作成
+# 自動ターゲットアクティビティの作成
 
 以下を使用： [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] をクリックして、 [!UICONTROL 自動ターゲット] [!UICONTROL A/B テスト] 直接に [!DNL Target] — 有効なページと、 [!DNL Target].
 

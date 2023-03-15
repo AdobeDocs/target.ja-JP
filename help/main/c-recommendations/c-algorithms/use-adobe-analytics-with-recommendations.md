@@ -2,16 +2,17 @@
 keywords: 行動データソース；analytics；レコメンデーション；条件；製品変数
 description: 使用方法を学ぶ [!DNL Adobe Analytics] を行動データソースとして使用し、 [!DNL Analytics] in [!DNL Target Recommendations].
 title: 使用方法 [!DNL Adobe Analytics] と [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) 用途 [!DNL Adobe Analytics] と [!DNL Recommendations]
+# 用途 [!DNL Adobe Analytics] と [!DNL Recommendations]
 
 使用 [!DNL Adobe Analytics] 行動データソースにより、クライアントは、 [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] アクティビティ。 この機能は、特に [!DNL Target Recommendations] 設定が新しく、 [!DNL Analytics] には、使用する履歴データが多数あります。
 

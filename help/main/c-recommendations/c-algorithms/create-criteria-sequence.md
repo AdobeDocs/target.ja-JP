@@ -2,16 +2,17 @@
 keywords: 条件のシーケンス；複数の条件；アルゴリズム；条件；レコメンデーション条件；シーケンス；返される項目の制限数；スロットレベル制御；スロット
 description: Adobeに表示される項目をより詳細に制御するために、最大 5 つの条件のシーケンスを設定する方法を説明します [!DNL Target] Recommendationsアクティビティ。
 title: Recommendationsで条件のシーケンスを作成する方法を教えてください。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 条件のシーケンスの作成
+# 条件のシーケンスの作成
 
 最大 5 つの条件のシーケンスを使用して、[!UICONTROL Recommendations] アクティビティで表示される項目をより詳細に制御します。また、返される項目の数を制限することもできます（「スロットレベル制御」と呼ばれる場合もあります）。
 

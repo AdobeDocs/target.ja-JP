@@ -2,16 +2,17 @@
 keywords: エクスペリエンスのプレビュー;エクスペリエンスURL;URLの生成;エクスペリエンスのURLの表示
 description: エクスペリエンスプレビュー URL をAdobeに使用する方法を説明します [!DNL Target] Automated Personalizationアクティビティを使用して、アクティビティがライブになる前に、サイト上で直接エクスペリエンスコンテンツを確認します。
 title: Automated Personalization Activities で Experience Preview URL を使用するにはどうすればよいですか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![プレミアム](/help/main/assets/premium.png) エクスペリエンスプレビュー URL を使用したAutomated Personalizationアクティビティのプレビュー
+# エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う
 
 のエクスペリエンスプレビュー URL を生成できます [!DNL Target] [!UICONTROL Automated Personalization] アクティビティを使用して、プレビューおよび QA 目的でアクティビティをライブにする前に、サイト上で直接エクスペリエンスコンテンツを確認します。 エクスペリエンスプレビュー URL は、ターゲティングをバイパスして、特定のエクスペリエンスを強制的に表示します。
 

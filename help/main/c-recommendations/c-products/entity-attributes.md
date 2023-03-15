@@ -1,17 +1,18 @@
 ---
 keywords: エンティティ;エンティティの属性;レコメンデーションへの情報の転送;行動データ, データカウンター;相対 URL の定義;在庫レベルの表示;価格の定義;利益幅の定義;カスタム属性
 description: エンティティの属性を使用して製品やコンテンツの情報をに渡す方法を説明します。 [!DNL Target] Recommendations。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: エンティティ属性の使用方法
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1078'
 ht-degree: 54%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) エンティティの属性
+# エンティティの属性
 
 エンティティの属性を使用して、製品やコンテンツの情報をに渡します。 [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->at.js 2.*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 製品またはコンテンツの情報をに渡すには [!DNL Recommendations] at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}。 例については、 [Recommendationsの計画と実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
+>at.js 2.*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 製品またはコンテンツの情報をに渡すには [!DNL Recommendations] at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 例えば、次のコードでは、Women&#39;s カテゴリが複数のサブカテゴリに分割されています。
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 mbox 配信の場合、最も長い属性名がキーに使用されます。同じ長さの場合、最後の属性が使用されます。上記の例では、カテゴリキーは Womens です。:Outerwear:ジャケット：カバン。
