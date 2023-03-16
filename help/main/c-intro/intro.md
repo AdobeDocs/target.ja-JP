@@ -2,10 +2,11 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動ターゲット;自動ターゲット;権限;Adobe Target とは;
 description: Adobeの基本 [!DNL Target] 標準およびAdobe [!DNL Target] プレミアム。 [!DNL Target]  Premium には、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
+short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 88%

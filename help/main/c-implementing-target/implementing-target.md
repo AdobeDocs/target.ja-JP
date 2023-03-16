@@ -2,11 +2,12 @@
 keywords: 実装;実装する
 description: 基本的な概念を理解し、 [!DNL Target] はインフラストラクチャと連携し、訪問者の追跡方法を理解します。
 landing-page-description: Adobe Targetの使用を開始する前に、サイトに実装する必要があります。
+short-description: Before you start using Adobe Target, you must implement it on your site.
 title: 実装方法 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%
