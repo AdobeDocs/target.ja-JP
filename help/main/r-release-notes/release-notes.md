@@ -8,8 +8,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 69%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 9 日）
+## [!DNL Target]Standard／Premium 22.15.1（2023年3月8日、9日）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **3 月 9 日**:アメリカ地域
-* **3 月 9 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **3 月 9 日**:アジア太平洋 (APAC) 地域
+* **3月8日**：アメリカ地域
+* **3月9日**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **3月9日**：アジア太平洋（APAC）地域
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **既知の問題**:を使用する際のシャドウルート要素のクリック追跡 [!DNL Adobe Experience Platform Web SDK] が正しく機能していません。 （TNT-47012）
 
-## at.js バージョン 2.10.2（2023 年 3 月 7日）
+## at.js バージョン 2.10.2（2023年3月7日（PT））
 
-* 次の問題を修正しました： `trackEvent` 関数を使用して、常にエラーを返します。
+* `trackEvent` 関数が常にエラーを返す問題を修正しました。
 
 すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 
