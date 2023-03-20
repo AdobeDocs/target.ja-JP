@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 49%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 49%
 * 更新された [!DNL Target] 新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). （TGT-44459）
 * でのサーバーサイドリクエストフォージェリ (SSRF) の試行を防ぐためのセキュリティの強化 [!DNL Recommendations] フィード。 （TGT-43769）
 * お客様が [!DNL Recommendations] 画像名にが含まれる場合にデザイン [GB18030文字](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. （TGT-44614）
-* 一部の [GB18030文字](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 逃げ出す [!UICONTROL 変更] 編集中のパネル [!UICONTROL テキスト/HTML] 活動の [!UICONTROL エクスペリエンス] ページ。
+* 一部の [GB18030文字](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 逃げ出す [!UICONTROL 変更] 編集中のパネル [!UICONTROL テキスト/HTML] 活動の [!UICONTROL エクスペリエンス] ページ。 （TGT-44600）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
 
 
