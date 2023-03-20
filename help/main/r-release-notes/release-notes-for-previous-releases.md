@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
 workflow-type: tm+mt
-source-wordcount: '35729'
-ht-degree: 96%
+source-wordcount: '35989'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,39 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!DNL Target]Standard／Premium 22.15.1（2023年3月8日、9日）
+
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
+
+* **3月8日**：アメリカ地域
+* **3月9日**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **3月9日**：アジア太平洋（APAC）地域
+
+>[!NOTE]
+>
+>以降に修正された問題により、「 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]「 」（3 月 8 日と 9 日にリリースされた機能）は一時的に削除されました。 さらに内部テストがおこなわれた後、この機能は今後数週間以内に再びリリースされます。
+
+このリリースには、以下の修正が含まれています。
+
+* を使用したカスタム Web コンポーネントのオーサリングの更新 [!UICONTROL Visual Experience Composer] (VEC):
+
+   * オーサリングプロセスを改善し、VEC でのシャドウ DOM 要素の選択を修正し、 [!DNL Target] シャドウルートを作成する際の実装タイプ。 これで、VEC でのシャドウ DOM 要素の選択が、どの Web サイトでも機能するようになりました。
+   * VEC で#Shadow DOM を使用してHTML要素を読み込めなかった問題を修正しました。 （TGT-35801）
+   * ShadowDOM を使用するSPA Web サイトでの VEC の問題を修正しました。 （TGT-43169）
+   * 最適化目標の問題を修正しました。ShadowDOM の CSS セレクターを正しく識別しなかった「要素をクリックしました」。
+
+>[!NOTE]
+>
+>VEC で作成した変更を確実に配信するには、 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) のバージョンが 2.8 より大きい場合にのみ有効です。
+
+**既知の問題**:を使用する際のシャドウルート要素のクリック追跡 [!DNL Adobe Experience Platform Web SDK] が正しく機能していません。 （TNT-47012）
+
+### at.js バージョン 2.10.2（2023年3月7日（PT））
+
+* `trackEvent` 関数が常にエラーを返す問題を修正しました。
+
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
 
 ### [!DNL Target] Standard／Premium 22.14.5（2023年2月13～15日（PT））
 
