@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
+source-git-commit: 1cc630f12f4b9dc1d9c5700bc6174b40d4f0dae2
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 49%
+source-wordcount: '738'
+ht-degree: 48%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 この記事には、プレリリース情報が含まれています。リリース日、機能などの情報は、予告なく変更されることがあります。
 
-**最終更新日：2023年20月4日（PT）**
+**最終更新日：2023年27月4日（PT）**
 
 最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによっては同じになる可能性があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
@@ -32,7 +32,7 @@ ht-degree: 49%
 | 機能 | 詳細 |
 |--- |--- |
 | ヘッドレスパーソナライゼーションと実験のためのAEMコンテンツフラグメント | 用途 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント] in [!DNL Target] アクティビティ。 AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] 大規模にエクスペリエンスをテストし、パーソナライズする。 |
-| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標 | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul> |
+| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023 年 3 月 30 日） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul> |
 | [!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動配分] | 更新されたチュートリアル：<ul><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li></ul> |
 | [!UICONTROL Analytics for Target]（A4T）を使用した[!UICONTROL 自動ターゲット] | 更新されたチュートリアル：<ul><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
 
