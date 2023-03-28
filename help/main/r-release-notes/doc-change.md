@@ -5,7 +5,7 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 100%
 
@@ -107,11 +107,11 @@ ht-degree: 100%
 | 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次回の [!DNL Adobe Target] Community Coffee Break（2022年6月29日（PT）開催）に関する情報を追加しました |
 | 5月25日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] プラットフォームリリース（2022年5月25日（PT））および at.js 2.9.0 リリース（2022年5月27日（PT））に関する情報を追加しました。 |
 |  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 リリースに関する情報を追加しました。 |
-|  | [User-agent と Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新規トピックです。 |
+|  | [User-agent と Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}をインストールします。 | 新規トピックです。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | ウェビナー「Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））」の録画へのリンクを追加しました。 |
 | 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022年5月25日（PT））のプレリリースノートを追加しました。 |
 | 5月11日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 以下のウェビナーに関する情報および登録リンクを追加しました。<ul><li>Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化</li><li>アドビ：パーソナライゼーション業界インサイダー - 金融サービスと保険</li><li>シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法</li><li>アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]</li><li>シティナショナルバンク：ゼロからのヒーロー - パーソナライゼーションプログラムの開始と拡大</li><li>アドビ：効果的な最適化の機会を探る</li><li>アドビ：パーソナライゼーション業界インサイダー - 小売</li></ul>以下のウェビナーの録画を追加しました。<ul><li>[!DNL Adobe Target] によるリアルタイムパーソナライゼーション</li></ul> |
-|  | [コンテンツセキュリティポリシー（CSP）指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | FAQ 節を追加しました。 |
+|  | [コンテンツセキュリティポリシー（CSP）指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}をインストールします。 | FAQ 節を追加しました。 |
 |  | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 および Target プラットフォーム（2022年5月11～13日（PT））リリースに関する情報を追加しました。 |
 
 ## Adobe Target Standard／Premium 22.4.1（4月28日（PT））
@@ -164,7 +164,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | 1月31日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 リリースに関するプレリリース情報を追加しました。 |
 | 1月28日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
-|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.8.1 リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}をインストールします。 | at.js 2.8.1 リリースに関する情報を追加しました。 |
 | 1月27日（PT） | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、[!DNL AEM as a Cloud Service] および [!DNL Adobe I/0] に関する情報を追加しました。 |
 | 1月26日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.2 リリースに関する情報を追加しました。 |
 |  | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |

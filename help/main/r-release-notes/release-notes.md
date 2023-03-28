@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->以降に修正された問題により、「 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット]「 」（3 月 8 日と 9 日にリリースされた機能）は一時的に削除されました。 さらに内部テストがおこなわれた後、この機能は今後数週間以内に再びリリースされます。
+>その後修正された問題により、3月8日と 9日にリリースした「[!UICONTROL 自動割り当て]および[!UICONTROL 自動ターゲット]向けに最適化された A4T 指標」機能を一時的に削除しました。さらに内部テストを行った後に、今後数週間以内にこの機能を再びリリースする予定です。
 
 このリリースには、以下の修正が含まれています。
 
-* を使用したカスタム Web コンポーネントのオーサリングの更新 [!UICONTROL Visual Experience Composer] (VEC):
+* [!UICONTROL Visual Experience Composer]（VEC）を使用したカスタム web コンポーネント作成の更新：
 
-   * オーサリングプロセスを改善し、VEC でのシャドウ DOM 要素の選択を修正し、 [!DNL Target] シャドウルートを作成する際の実装タイプ。 これで、VEC でのシャドウ DOM 要素の選択が、どの Web サイトでも機能するようになりました。
-   * VEC で#Shadow DOM を使用してHTML要素を読み込めなかった問題を修正しました。 （TGT-35801）
-   * ShadowDOM を使用するSPA Web サイトでの VEC の問題を修正しました。 （TGT-43169）
-   * 最適化目標の問題を修正しました。ShadowDOM の CSS セレクターを正しく識別しなかった「要素をクリックしました」。
+   * 作成プロセスを改善し、VEC でのシャドウ DOM 要素の選択を修正して、シャドウルートの作成時に [!DNL Target] 実装タイプに依存しないようにしました。これで、VEC でシャドウ DOM 要素を選択すると、どの web サイトでも機能するようになります。
+   * VEC で #シャドウ DOM を使用して HTML 要素を読み込めない問題を修正しました。（TGT-35801）
+   * シャドウ DOM を使用する SPA web サイトでの VEC の問題を修正しました。（TGT-43169）
+   * シャドウ DOM で CSS セレクターを正しく識別しなかった最適化目標：「要素をクリック」の問題を修正しました。
 
 >[!NOTE]
 >
->VEC で作成した変更を確実に配信するには、 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) のバージョンが 2.8 より大きい場合にのみ有効です。
+>VEC で作成した変更を確実に配信するには、バージョン 2.8 以上の [!DNL Target] SDK（[at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja){target=_blank}（alloy.js））を使用していることを確認します。
 
-**既知の問題**:を使用する際のシャドウルート要素のクリック追跡 [!DNL Adobe Experience Platform Web SDK] が正しく機能していません。 （TNT-47012）
+**既知の問題**：[!DNL Adobe Experience Platform Web SDK] を使用している場合、シャドウルート要素のクリックトラッキングが正しく機能しません。（TNT-47012）
 
 ## at.js バージョン 2.10.2（2023年3月7日（PT））
 
