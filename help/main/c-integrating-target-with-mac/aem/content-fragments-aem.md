@@ -2,17 +2,23 @@
 keywords: エクスペリエンス；json;AEM;Adobe Experience Manager;Adobe Target への書き出し；コンテンツフラグメント；フラグメント；CF;CF
 description: 使用方法を学ぶ [!DNL Adobe Experience Manager] [!UICONTROL コンテンツフラグメント] in [!DNL Adobe Target] アクティビティ。
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント]?
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: cdb0e3f3e1ebb2f9076d3994aed533bd7c296fad
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 4%
 
 ---
 
 # AEM [!UICONTROL コンテンツフラグメント]
 
 用途 [!UICONTROL コンテンツフラグメント] (CF) を [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを活用して、最適化やパーソナライゼーションを支援します。
+
+>[!NOTE]
+>
+>この機能は 2023 年 4 月 7 日にリリースされる予定です。
+
 
 >[!NOTE]
 >
@@ -35,7 +41,7 @@ AEMの詳細を確認するには [!UICONTROL コンテンツフラグメント]
 
 ## の設定と操作 [!UICONTROL コンテンツフラグメント] in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-書き出す [!UICONTROL コンテンツフラグメント] 使用する [!DNL Target] アクティビティの場合は、AEMで事前の手順を実行する必要があります。 詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+書き出す [!UICONTROL コンテンツフラグメント] 使用する [!DNL Target] アクティビティの場合は、AEMで事前の手順を実行する必要があります。 詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} 内 *Experience Manageras a Cloud Service文書*. このリンクは、リリース日（2023 年 4 月 7 日）に利用可能になります。
 
 デザイン、作成、キュレーション、公開について詳しくは、 [!UICONTROL コンテンツフラグメント]を参照してください。 [[!UICONTROL コンテンツフラグメント]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
 
