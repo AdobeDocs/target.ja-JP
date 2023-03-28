@@ -6,7 +6,7 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
