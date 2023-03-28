@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
+source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2197'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2月23日（PT） | [at.js 2.*x* から Platform Web SDK への Target の移行](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ja){target=_blank} | 新しいチュートリアルを追加しました。 |
 | 2月21日（PT） | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank}で、すべての地域の許可リストに対する IP アドレスのリストを更新しました。 |
 |  | [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery を使用した例では、[!DNL Target] がオファーを実行する際に、顧客の web サイトのページで jQuery が使用可能であることを前提としていることを説明するテキストを追加しました。 |
 | 2月10日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 リリースに関するリリースノートを追加しました。 |

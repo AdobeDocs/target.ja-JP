@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 98%
+source-wordcount: '1239'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,12 @@ ht-degree: 98%
    + Target と Adobe Journey Optimizer の統合 {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Target とAdobe Experience Managerの統合](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Target とAdobe Experience Managerの統合 {#aem}
+      + [Target とAdobe Experience Manager (AEM) の統合](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
+         + [AEMエクスペリエンスフラグメントとコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Target と Adobe Audience Manager の統合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform との統合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 98%
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
       + [コンテンツの検索](c-experiences/c-manage-content/filter-and-search-content.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM エクスペリエンスフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Experience とコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
 + レポート {#reports}
    + [レポートの概要](c-reports/reports.md)
    + レポート設定 {#settings}
