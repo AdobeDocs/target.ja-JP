@@ -5,9 +5,9 @@ title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 [!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用して、[!DNL Target] を web サイトに統合することが可能です。
 
-* **[!DNL Adobe Experience Platform Web SDK]:** この [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアント側 JavaScript ライブラリです。 [!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様が実装を [at.js の最新バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} にアップデートすることをお勧めします。
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 >
 >[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。中国内のファイアウォールおよびエッジクラスター不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、 [ターゲット許可リストエッジノードの](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -179,7 +179,7 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
    [!DNL Adobe] では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、[!DNL Adobe] は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
-* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、ベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) を使用して、テストがこの時点に到達した時期を判断します。 [!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
+* **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)が用意されています。[!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
    [!DNL Target] プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
 
