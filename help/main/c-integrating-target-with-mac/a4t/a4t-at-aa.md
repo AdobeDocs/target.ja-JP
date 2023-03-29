@@ -4,14 +4,14 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 2%
+source-wordcount: '1175'
+ht-degree: 5%
 
 ---
 
-# A4T のサポート対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ
+# [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート
 
 この [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 統合：別名 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) サポート [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。
 
@@ -84,9 +84,6 @@ A4T 統合を使用すると、次のことが可能になります。
 * を使用する場合 [!DNL Adobe Analytics] レポートソースとして [!UICONTROL 自動配分] または [!UICONTROL 自動ターゲット]を使用する場合、常に [!DNL Analytics].
 * レポートソースを次から変更することはできません： [!DNL Analytics] から [!DNL Target] または、アクティビティがアクティブ化された後のアクティビティ。
 * 計算指標は主な目標指標としてサポートされていませんが、多くの場合、カスタムイベントを主な目標指標として選択する代わりに、意図した結果を得ることができます。 例えば、「訪問者ごとのフォームの完了」などの指標を最適化する場合は、「フォームの完了」に対応するカスタムイベントを主な目標指標として選択します。 [!DNL Target] トラフィックの偏在を考慮して、訪問ごとにコンバージョン指標を自動的に正規化するので、計算指標を使用して標準化を実行する必要はありません。
-* を使用する場合 [!DNL Adobe Analytics] レポートソースとして [!UICONTROL 自動配分] または [!UICONTROL 自動ターゲット] アクティビティの [!DNL Analytics].
-* レポートソースを次から変更することはできません： [!DNL Analytics] から [!DNL Target] または、アクティビティがアクティブ化された後のアクティビティ。
-* 計算指標は主な目標指標としてサポートされていませんが、多くの場合、カスタムイベントを主な目標指標として選択する代わりに、意図した結果を得ることができます。 例えば、「訪問者ごとのフォームの完了」などの指標を最適化する場合は、「フォームの完了」に対応するカスタムイベントを主な目標指標として選択します。 [!DNL Target] 訪問者ごとにコンバージョン指標を自動的に標準化し、 [!UICONTROL 自動配分] アクティビティの作成時に使用する必要があるので、計算指標を使用して正規化を実行する必要はありません。
 
 ### 自動配分 {#aa}
 
@@ -109,13 +106,13 @@ A4T 統合を使用すると、次のことが可能になります。
 
 豊富な分析機能は [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]( デフォルトの [!UICONTROL Analytics for Target] 正しく解釈するには、パネルが必要です [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。 実験アクティビティ ( 手動の A/B および [!UICONTROL 自動配分]) とパーソナライゼーションアクティビティ ([!UICONTROL 自動ターゲット]) をクリックします。
 
-### での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ
+### [!DNL Analysis Workspace] での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定
 
 このチュートリアルでは、分析に推奨される変更について順を追って説明します [!UICONTROL 自動配分] アクティビティ [!DNL Analysis Workspace].
 
-詳しくは、 [自動配分アクティビティ用にAnalysis Workspaceで A4T レポートを設定する方法](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Adobe TargetTutorials*.
+詳しくは、 [自動配分アクティビティ用にAnalysis Workspaceで A4T レポートを設定する方法](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} in *Adobe TargetTutorials*.
 
-### での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ
+### [!DNL Analysis Workspace] での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定
 
 このチュートリアルでは、分析に推奨される変更について順を追って説明します [!UICONTROL 自動ターゲット] アクティビティ [!DNL Analysis Workspace].
 
