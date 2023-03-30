@@ -6,9 +6,9 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
+source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 59%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 59%
 
 | 機能 | 詳細 |
 |--- |--- |
-| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023 年 3 月 30 日） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul>詳しくは、 [A4T のサポート対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<P>この機能と共に、次のチュートリアルが更新されました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
+| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023 年 3 月 30 日） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul>詳しくは、 [A4T のサポート対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>この機能と共に、次のチュートリアルが更新されました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
 
 * オーディエンスとアクティビティの同期が強化され、 [!DNL Adobe Experience Platform] および [!DNL Adobe Audience Manager] は [!DNL Target] UI を迅速に実行できます。 （TGT-44568）
 * ユーザーが [!UICONTROL デフォルトの URL] under [!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL デフォルトの URL]. この変更により、お客様はデフォルトの URL を空の文字列に戻すことができます。これは、初回設定後は、以前は使用できませんでした。 （TGT-44577）
