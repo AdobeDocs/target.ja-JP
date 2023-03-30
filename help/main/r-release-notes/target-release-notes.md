@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、Adobe Target の次�
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 | 機能 | 詳細 |
 |--- |--- |
-| ヘッドレスパーソナライゼーションと実験のためのAEMコンテンツフラグメント | 用途 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント] in [!DNL Target] アクティビティ。 AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] 大規模にエクスペリエンスをテストし、パーソナライズする。 |
+| ヘッドレスパーソナライゼーションと実験のためのAEMコンテンツフラグメント | 用途 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント] in [!DNL Target] アクティビティ。 AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] ヘッドレスなパーソナライゼーションと実験を支援する |
 
 ## その他のリリースノートとバージョンの詳細
 
