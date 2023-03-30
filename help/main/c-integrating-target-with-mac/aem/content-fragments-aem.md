@@ -1,19 +1,21 @@
 ---
-keywords: エクスペリエンス；json;AEM;Adobe Experience Manager;Adobe Target への書き出し；コンテンツフラグメント；フラグメント；CF;CF
+keywords: エクスペリエンス；json;aem;adobe experience manager;adobe target への書き出し；コンテンツフラグメント；フラグメント；CF;cf；ヘッドレス；パーソナライゼーション；実験
 description: 使用方法を学ぶ [!DNL Adobe Experience Manager] [!UICONTROL コンテンツフラグメント] in [!DNL Adobe Target] アクティビティ。
 title: 使用方法 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '760'
 ht-degree: 4%
 
 ---
 
 # AEM [!UICONTROL コンテンツフラグメント]
 
-用途 [!UICONTROL コンテンツフラグメント] (CF) を [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを活用して、最適化やパーソナライゼーションを支援します。
+用途 [!UICONTROL コンテンツフラグメント] (CF) を [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを使用して、ヘッドレスなパーソナライゼーションと実験を支援します。
+
+ヘッドレスパーソナライゼーションと実験のためのAEMコンテンツフラグメント
 
 >[!NOTE]
 >
