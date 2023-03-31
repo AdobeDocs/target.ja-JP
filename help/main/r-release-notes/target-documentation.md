@@ -4,10 +4,10 @@ description: アクセス [!DNL Adobe Target] オンラインヘルプ、チュ�
 title: のドキュメントとリソースはどこで確認できますか？ [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: c56454bafa3e8363e24de389a62903de08a3c070
+source-git-commit: 37d11aa3ed5ef7ae69c616fdee80f3ffa5c20d35
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
