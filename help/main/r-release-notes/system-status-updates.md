@@ -1,13 +1,13 @@
 ---
 keywords: システム更新;トラブルシューティング;メンテナンス;システムステータス;更新ステータス
-description: Adobe  [!DNL Target] の現在のステータスを表示すると、発生する可能性のある問題がシステムの更新によるものなのか、定期メンテナンスによるものかなのかを判断するのに役立ちます。
-title: ' [!DNL Target]  やその他のアドビ製品のステータスについて'
+description: ステータスの表示 [!DNL Adobe Target] 発生する可能性のある問題が、システムの更新によるものか、定期メンテナンスによるものかを判断するのに役立ちます。
+title: ステータスを表示するには、 [!DNL Target] およびその他 [!DNL Adobe] 製品？
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ ht-degree: 100%
 
 ## システムステータスの更新
 
-[!UICONTROL アドビのシステムステータス] ページを使用して、現在のステータスと他 [!DNL Target] [!DNL Adobe] の製品および [!DNL Adobe Experience Cloud] ソリューションを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+以下を使用： [!UICONTROL Adobeシステムステータス] ステータスを表示するページ [!DNL Target] その他 [!DNL Adobe] 製品と [!DNL Adobe Experience Cloud] ソリューション このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
-次の URL に移動することで、[!UICONTROL システムステータス]ページにアクセスします。
+>[!NOTE]
+>
+>製品内通知は、毎月の [!DNL Target] リリースの間、常に表示されますが、マイナーアップデートが発生した場合は、このページに記載されます。
 
-[https://status.adobe.com](https://status.adobe.com)
+1. 次にアクセス： [[!UICONTROL システムステータス]](https://status.adobe.com/ja){target=_blank}.
 
-[!DNL Experience Cloud] ソリューションのステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
+1. [!DNL Experience Cloud] ソリューションのステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
 
-![system_status 画像](assets/system_status.png)
+   ![system_status 画像](assets/system_status.png)
 
-ページの上部には、進行中のメンテナンスイベントに関する情報が表示され、各ソリューションのアップデートにサブスクライブするためのリンクがあります。
+   ページの上部には、進行中のメンテナンスイベントに関する情報が表示され、個々のソリューションのアップデートの購読を管理するためのリンクが含まれています。
 
-上の図では [!DNL Adobe Analytics]、メンテナンス [!DNL Adobe Target] [!DNL Adobe Campaign] アップデート中です。その他のすべての製品およびソリューションは、通常どおり機能していました。使用時に問題が発生した場合は、必ずこのページを確認 [!DNL Target] してください。
+   上の図では、 [!DNL Adobe Advertising], [!DNL Adobe Analytics]、および [!DNL Adobe Audience Manager] および他のソリューションが最近、メンテナンスの更新を完了しました。 その他のすべての製品およびソリューションは、通常どおり機能していました。使用時に問題が発生した場合は、必ずこのページを確認 [!DNL Target] してください。
 
-製品内通知は、毎月の [!DNL Target] リリースの間、常に表示されますが、マイナーアップデートが発生した場合は、このページに記載されます。
-
-ページの下部には最近 7 日間のカレンダーがあり、日別に各ソリューションのステータスが表示されています。ステータスインジケーターの上にマウスポインターを置くと、詳細が表示されます。
-
-![system_status_indicator 画像](assets/system_status_indicator.png)
+1. （オプション）製品、地域または日付範囲でリストをフィルターします。 次をクリック： [!UICONTROL メジャー], [!UICONTROL 軽微], [!UICONTROL 潜在的な]または [!UICONTROL メンテナンス] 結果をさらに絞り込むためのリンクです。
 
 ## 事前通知
 
