@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '843'
+ht-degree: 63%
 
 ---
 
@@ -45,8 +45,6 @@ ht-degree: 59%
 * 新しい [!DNL Recommendations] フィードが [!UICONTROL Analytics 分類] と、名前にドットが含まれるレポートスイートが表示されます。 （TGT-44598）
 * 更新された [!DNL Target] 新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). （TGT-44459）
 * でのサーバーサイドリクエストフォージェリ (SSRF) の試行を防ぐためのセキュリティの強化 [!DNL Recommendations] フィード。 （TGT-43769）
-* お客様が [!DNL Recommendations] 画像名にが含まれる場合にデザイン [GB18030文字](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. （TGT-44614）
-* 一部の [GB18030文字](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 逃げ出す [!UICONTROL 変更] 編集中のパネル [!UICONTROL テキスト/HTML] 活動の [!UICONTROL エクスペリエンス] ページ。 （TGT-44600）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
 
 ## at.js バージョン 2.10.2（2023年3月7日（PT））
