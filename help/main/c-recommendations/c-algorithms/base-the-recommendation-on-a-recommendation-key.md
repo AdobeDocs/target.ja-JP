@@ -5,9 +5,9 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ ht-degree: 37%
 
 ### 品目属性別トップセラー
 
-（情報はまもなく公開されます）
+サイトで最も購入された品目やメディアに類似した品目やメディアをレコメンドします。
+
+このアルゴリズムを使用すると、「名前」や「ブランド」など、レコメンデーションのベースにする品目属性を選択できます。
+
+次に、「お気に入りのブランド」、「買い物かごに追加された最後の項目」、「最も多く閲覧された番組」など、訪問者のプロファイルに保存されて一致させるプロファイル属性を選択します。
 
 ### Analytics 指標別の上位
 
