@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 96%
+source-wordcount: '2294'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月3日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 4 月 12 日（水）に予定されているコーヒー休憩。 |
 | 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 最適化された A4T 指標のリリース ( [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。 |
 |  | [[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 「サポートされる目標指標」の節を更新し、次に対してサポートされる（およびサポートされない）指標に関する情報を追加しました。 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] 使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) |
 |  | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank} | 次のチュートリアルを更新しました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
