@@ -4,9 +4,9 @@ description: で作成したオファーの決定を追加する方法を説明�
 title: オファーの決定の使用方法
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1016'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 * [Journey Optimizer の概要](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [決定管理について](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## 前提条件
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 1. 内 **[!UICONTROL オファーの決定を追加]** ダイアログボックスで、目的のサンドボックスと配置を選択します。
 
-   A [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] を使用すれば、適切なオファーコンテンツを適切な場所に表示できます。
+   A [サンドボックス](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] を使用すれば、適切なオファーコンテンツを適切な場所に表示できます。
 
    ![オファーの決定を追加ダイアログボックスのサンドボックスドロップダウンリストとプレースメントドロップダウンリスト](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ In [!DNL Adobe Journey Optimizer]を使用すると、ターゲットとする�
 
 * offer decisioningの統合は、で機能します。 [!DNL Target] に基づく実装 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. この機能は、 [!DNL Target] at.js またはその他の [!DNL Target] SDK.
 
-* Target とAdobe Journey Optimizerの統合では、 [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) および [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 この機能は、他のアクティビティタイプでは使用できません。
+* この [!DNL Target]/[!DNL Adobe Journey Optimizer] 統合のサポート [手動 [!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md#types) および [[!UICONTROL エクスペリエンスのターゲット設定]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) アクティビティのみ。 この機能は、他のアクティビティタイプでは使用できません。
 
-* text/html コンテンツタイプのオファーは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURL は、フォームベースの Experience Composer を通じてのみサポートされます。この場合、クライアントはコンテンツを明示的に取得し、構成します。
+* 次を使用することはできません： [[!UICONTROL レポートソースとしての Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) を使用します。 選択 [!DNL Target] を [!UICONTROL 目標と設定] アクティビティのオファーの決定を使用する場合は、アクティビティの設定時にページを開きます。
+
+* text/html コンテンツタイプのオファーは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURL は、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) クライアントがコンテンツの明示的な取得と作成をおこなう場合にのみ使用します。
 
 * [!DNL Target] レポートには、オファーの決定レベルのレポートは含まれません。
 

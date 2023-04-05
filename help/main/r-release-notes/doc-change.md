@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月5日（PT） | [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | を示すテキストを追加しました。 [!UICONTROL レポートソースとしての Analytics] (A4t) は、オファーの決定を使用するアクティビティではサポートされません。 |
 | 4月3日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 4 月 12 日（水）に予定されているコーヒー休憩。 |
 |  | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | すべてをするメモを許可リスト追加しました [!DNL Adobe Analytics] IP アドレスブロック。 |
 | 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 最適化された A4T 指標のリリース ( [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。 |
