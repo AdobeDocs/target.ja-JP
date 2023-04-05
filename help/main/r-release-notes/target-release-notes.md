@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 61%
 
 | 機能 | 詳細 |
 |--- |--- |
-| AEM [!UICONTROL コンテンツフラグメント] ヘッドレスパーソナライゼーションと実験の場合 | 用途 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL コンテンツフラグメント] in [!DNL Target] アクティビティ。 AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] ヘッドレスなパーソナライゼーションと実験を支援する |
+| AEM [!UICONTROL コンテンツフラグメント] ヘッドレスパーソナライゼーションと実験の場合 | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント] を [!DNL Target] アクティビティで使用します。AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] ヘッドレスなパーソナライゼーションと実験を支援する |
 
 ## その他のリリースノートとバージョンの詳細
 
