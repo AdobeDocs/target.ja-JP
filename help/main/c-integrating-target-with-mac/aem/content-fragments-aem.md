@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experi
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## [!DNL AEM] での[!UICONTROL コンテンツフラグメント]の設定と使用 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!UICONTROL コンテンツフラグメント]を書き出して [!DNL Target] アクティビティで使用するには、AEM でいくつかの準備手順を実行する必要があります。詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank} 内 *Experience Manageras a Cloud Service文書*. このリンクは、リリース日（2023 年 4 月 7 日）に利用可能になります。
+[!UICONTROL コンテンツフラグメント]を書き出して [!DNL Target] アクティビティで使用するには、AEM でいくつかの準備手順を実行する必要があります。詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank} 内 *Experience Manageras a Cloud Service文書*. このリンクは、リリース日（2023 年 4 月 13 日）に利用可能になります。
 
 [!UICONTROL コンテンツフラグメント]のデザイン、作成、キュレーション、公開について詳しくは、[[!UICONTROL コンテンツフラグメント]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ja){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ja){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja){target=_blank}を参照してください。
 
