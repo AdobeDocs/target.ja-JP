@@ -4,9 +4,9 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 88%
 * [AnalyticsとTargetの統合のトラブルシューティング](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。「[Adobe Target のレポートソースとしての Adobe Analytics（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md)」を参照してください。
 * A4T に関するよくある質問
-   * [A4T での水増しされた訪問と訪問者カウントの最小化](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [初期プロビジョニング - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [アクティビティの設定- A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [レポートの表示 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -74,7 +73,7 @@ ht-degree: 88%
    * [分類 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## Audiencesとターゲット
+## オーディエンスとターゲット
 
 * [Target の最適化とパーソナライゼーションに関する FAQ](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
 * [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)

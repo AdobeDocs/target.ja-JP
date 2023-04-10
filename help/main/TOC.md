@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 95%
+source-wordcount: '1230'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,6 @@ ht-degree: 95%
       + [A4T レポート](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics と Target の統合（A4T）のトラブルシューティング {#troubleshoot-a4t}
          + [A4T のトラブルシューティング](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [A4T での水増しされた訪問と訪問者カウントの最小化](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T に関するよくある質問 {#a4t-faq}
          + [初期プロビジョニング - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [アクティビティの設定 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -97,9 +96,9 @@ ht-degree: 95%
    + Target とAdobe Experience Managerの統合 {#aem}
       + [Target とAdobe Experience Manager (AEM) の統合](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
-         + [AEMエクスペリエンスフラグメントとコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Target と Adobe Audience Manager の統合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform との統合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
