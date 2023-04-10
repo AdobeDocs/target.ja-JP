@@ -1,13 +1,13 @@
 ---
-keywords: Target のトラブルシューティング;Target のトラブルシューティング
+keywords: target のトラブルシューティング；target のトラブルシューティング；問題の解決
 description: トラブルシューティング、よくある質問（FAQ）、その他の便利なトピックなど、Adobe Target の問題を解決するのに役立つトピックのリストをご確認ください。
 title: Target のトラブルシューティング方法
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 87%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 88%
    * [上昇率と信頼性 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [指標、セグメント、レポートの共有- A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [水増しされた訪問および訪問者のカウント - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [分類 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
