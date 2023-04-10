@@ -4,18 +4,16 @@ description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experi
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 92%
+source-wordcount: '744'
+ht-degree: 89%
 
 ---
 
 # AEM [!UICONTROL コンテンツフラグメント]
 
 用途 [!UICONTROL コンテンツフラグメント] (CF) を [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを使用して、ヘッドレスなパーソナライゼーションと実験を支援します。
-
-ヘッドレスパーソナライゼーションと実験のための AEM コンテンツフラグメント
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ ht-degree: 92%
 >
 >[!DNL Target] で AEM [!UICONTROL コンテンツフラグメント]を使用する際は、次の点を考慮してください。
 > 
->* この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
+>* この機能を使用するには、 [!DNL Adobe Experience Manager as a Cloud Service] 顧客。 詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
 >
 >* この機能は、[!UICONTROL A/B テスト]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]、[!UICONTROL Automated Personalization]（AP）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）のアクティビティタイプで使用できます。この機能は、[!UICONTROL 多変量分析テスト]（MVT）および [!UICONTROL Recommendations] アクティビティでは使用できません。
 >
->* [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで[!UICONTROL コンテンツフラグメント]を使用できます。[!UICONTROL Visual Experience Composer]（VEC）を使用して[!UICONTROL コンテンツフラグメント]を使用することはできません。
+>* [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで[!UICONTROL コンテンツフラグメント]を使用できます。
 
 
 AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクスペリエンスフラグメント]について詳しくは、[AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)を参照してください。
 
 ## 要件 {#requirements}
 
-[!DNL Target] 内の[!UICONTROL コンテンツフラグメント]機能を使用してプロビジョニングする必要があります。また、[!DNL AEM] as a Cloud Service を使用してください。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+[!DNL Target] 内の[!UICONTROL コンテンツフラグメント]機能を使用してプロビジョニングする必要があります。また、 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
