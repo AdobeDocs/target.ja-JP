@@ -3,10 +3,10 @@ keywords: AEM;Experience Manager;Adobe Experience Manager;統合;エクスペリ
 description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experience Manager]  エクスペリエンスフラグメントおよびコンテンツフラグメントを使用する方法について説明します。'
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の使用方法?'
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 84%
+source-wordcount: '383'
+ht-degree: 77%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 84%
 
 [!DNL Target] で AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]を使用する際は、次の点を考慮してください。
 * これらの機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。各フラグメントタイプ（[エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)または[コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)）の要件を満たしていることを確認します。
-* これらの機能は、[!UICONTROL A/B テスト]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]、[!UICONTROL Automated Personalization]（AP）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）のアクティビティタイプで使用できます。この機能はでは使用できません [!UICONTROL 多変量分析テスト] (MVT) および [!UICONTROL Recommendations] アクティビティ。
-* [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)（VEC）または[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して、[!DNL Target] アクティビティ内で[!UICONTROL エクスペリエンスフラグメント]を使用できます。
-* [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) でのみ[!UICONTROL コンテンツフラグメント]を使用できます。
+* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプで使用できます。
+
+   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプでは使用できません。
+
+   * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
+
+* 消費可能 [!UICONTROL エクスペリエンスフラグメント] in [!DNL Target] アクティビティ [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) および [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで[!UICONTROL コンテンツフラグメント]を使用できます。
 
 ## [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の差異
 

@@ -3,26 +3,36 @@ keywords: エクスペリエンス;json;AEM, Adobe Experience Manager;Adobe Targ
 description: ' [!DNL Adobe Target]  アクティビティで [!DNL Adobe Experience Manager] [!UICONTROL エクスペリエンスフラグメント]を使用する方法を説明します。'
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL エクスペリエンスフラグメント]の使用方法?'
 feature: Integrations
-source-git-commit: 0135831b56c48b0adca49e843c5ddd6574358aa4
-workflow-type: ht
-source-wordcount: '1346'
-ht-degree: 100%
+source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+workflow-type: tm+mt
+source-wordcount: '1352'
+ht-degree: 72%
 
 ---
 
 # AEM [!UICONTROL エクスペリエンスフラグメント]
 
-[!DNL Adobe Experience Manager]（AEM）で作成した[!UICONTROL エクスペリエンスフラグメント]（XF）を [!DNL Target] アクティビティで使用して、最適化またはパーソナライゼーションを支援します。
+用途 [!UICONTROL エクスペリエンスフラグメント] (XF) が [!DNL Adobe Experience Manager] (AEM) [!DNL Target] アクティビティを活用して最適化とパーソナライゼーションを支援します。
 
->[!NOTE]
->
->[!DNL Target] で AEM [!UICONTROL エクスペリエンスフラグメント]を使用する際は、次の点を考慮してください。
-> 
->* この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
->* この機能は、[!UICONTROL A/B テスト]、[!UICONTROL 自動配分]、[!UICONTROL 自動ターゲット]、[!UICONTROL Automated Personalization]（AP）および[!UICONTROL エクスペリエンスのターゲット設定]（XT）のアクティビティタイプで使用できます。この機能は、[!UICONTROL 多変量分析テスト]（MVT）および [!UICONTROL Recommendations] アクティビティでは使用できません。
->
->* [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)（VEC）または[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して、[!DNL Target] アクティビティ内で[!UICONTROL エクスペリエンスフラグメント]を使用できます。
+## 注意点
 
+[!DNL Target] で AEM [!UICONTROL エクスペリエンスフラグメント]を使用する際は、次の点を考慮してください。
+
+* この機能を使用するには、[!DNL Adobe Experience Manager]（AEM）の顧客である必要があります。詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
+* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプで使用できます。
+
+   * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 自動ターゲット]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプでは使用できません。
+
+   * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
+
+* 消費可能 [!UICONTROL エクスペリエンスフラグメント] in [!DNL Target] アクティビティ [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) および [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテンツフラグメントについて詳しくは、[AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)を参照してください。
 
@@ -33,7 +43,7 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 * [!DNL Adobe Experience Manager ] as a Cloud Service
 * [!DNL Adobe Experience Manager] 6.5
 * [!DNL Adobe Experience Manager] 6.4
-* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] アカウント。
+* [!DNL Adobe Target Standard] または [!DNL Adobe Target Premium] アカウント
 
 [!DNL Adobe Experience Manager] 6.3 および 6.4 は提供終了となり、サポート対象外になりました（拡張サポートを購入した顧客を除く）。
 
@@ -60,7 +70,7 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 * **[!DNL AEM]6.5**：[Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=ja) ドキュメントの{target=_blank}エクスペリエンスフラグメント&#x200B;**。
 * **[!DNL AEM]6.4**：[Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=ja) ドキュメントの{target=_blank}エクスペリエンスフラグメント&#x200B;**。
 
-### 手順 3：エクスペリエンスフラグメントを [!DNL Target] と共有するように [!DNL AEM] を設定する
+### 手順 3：エクスペリエンスフラグメントを [!DNL AEM][!UICONTROL  と共有するように ][!DNL Target] を設定する
 
 1. [!DNL AEM] 内で目的のエクスペリエンスフラグメントまたはそれを含むフォルダーを選択し、「**[!UICONTROL プロパティ]**」をクリックします。
 2. 「**[!UICONTROL クラウドサービス]**」タブをクリックし、**[!UICONTROL クラウドサービスの設定]**&#x200B;ドロップダウンリストから「**[!UICONTROL Adobe Target]**」を選択します。
@@ -69,7 +79,7 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 
 3. 「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
-### 手順 4：エクスペリエンスフラグメントを公開し、[!DNL Target] に書き出す
+### 手順 4:を公開します。 [!UICONTROL エクスペリエンスフラグメント] を書き出し、 [!DNL Target]
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
@@ -79,28 +89,28 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 
 ## [!DNL Target] アクティビティでの[!UICONTROL エクスペリエンスフラグメント]の使用 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
-上記のタスクを実行すると、エクスペリエンスフラグメントが [!DNL Target] の[!UICONTROL オファー]ページに表示されます。
+前のタスクを実行した後、 [!UICONTROL エクスペリエンスフラグメント] が [!UICONTROL オファー] ページ内 [!DNL Target].
 
-[!DNL Target] は現在、読み込む[!UICONTROL エクスペリエンスフラグメント]を 10 分ごとに検索します。読み込んだエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間枠は今後短縮される予定です。
+[!DNL Target] は現在、読み込む[!UICONTROL エクスペリエンスフラグメント]を 10 分ごとに検索します。読み込まれた [!UICONTROL エクスペリエンスフラグメント] は、 [!DNL Target] 10 分以内に、しかし、今後はこの時間枠が短くなるはずです。
 
-エクスペリエンスフラグメントは、HTML または JSON オファーとして [!DNL Target] に読み込まれます。エクスペリエンスフラグメントの「プライマリ」バージョンは [!DNL AEM] にあります。[!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+この [!UICONTROL エクスペリエンスフラグメント] 次にインポート： [!DNL Target] をHTMLまたは JSON オファーとして設定する。 この [!UICONTROL エクスペリエンスフラグメント] 「プライマリ」バージョンは [!DNL AEM]. 次の項目は編集できません： [!UICONTROL エクスペリエンスフラグメント] in [!DNL Target].
 
 [!UICONTROL HTML XF] と [!UICONTROL JSON XF] でフィルタリングおよび検索すると、[!DNL Target] に書き出されるエクスペリエンスフラグメントタイプを区別できます。
 
 ![エクスペリエンスフラグメントタイプでのフィルタリング：Target UI の HTML または JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-リスト内のエクスペリエンスフラグメントにポインタを合わせ、「[!UICONTROL 表示]」アイコン（![情報アイコン](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png)）をクリックすると、[!UICONTROL 名前]、[!UICONTROL タイプ]、[!UICONTROL オファー ID]、[!UICONTROL オファーパス]、最終変更情報など、エクスペリエンスフラグメントに関する追加情報が表示されます。「[!UICONTROL オファーの使用状況]」タブをクリックして、このオファーを参照するアクティビティを表示します。
+次の項目にマウスポインターを置くと、 [!UICONTROL エクスペリエンスフラグメント] リストで、 [!UICONTROL 表示] アイコン ![情報アイコン](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) 詳しい情報を見るには [!UICONTROL エクスペリエンスフラグメント]( [!UICONTROL 名前], [!UICONTROL タイプ], [!UICONTROL オファー ID], [!UICONTROL オファーパス]、および最後の変更情報。 「[!UICONTROL オファーの使用状況]」タブをクリックして、このオファーを参照するアクティビティを表示します。
 
 ![エクスペリエンスフラグメント情報ポップアップ](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-[Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)（VEC）または[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して、[!DNL Target] アクティビティ内で[!UICONTROL エクスペリエンスフラグメント]を使用できます。
+消費可能 [!UICONTROL エクスペリエンスフラグメント] in [!DNL Target] アクティビティ [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) および [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 
 >[!TIP]
 >
 >次のような場合に、[!UICONTROL エクスペリエンスフラグメント]で人工知能、機械学習、Recommendations を使用します。
 >
->* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、A/B テストの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
+>* を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティの作成中に
 >
 >* [!UICONTROL エクスペリエンスフラグメント]は、[!DNL Recommendations] アクティビティではサポートされていません。ただし、Recommendations に[!UICONTROL エクスペリエンスフラグメント]を使用するには、[!UICONTROL A/B テスト]アクティビティ（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）または[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティを作成し、[Recommendations をオファーとして含める](/help/main/c-recommendations/recommendations-as-an-offer.md)ことができます。
 
@@ -121,7 +131,7 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-1. 目的のエクスペリエンスフラグメントを選択し、「**[!UICONTROL 完了]**」をクリックします。
+1. 目的のを選択します。 [!UICONTROL エクスペリエンスフラグメント]を選択し、「 **[!UICONTROL 完了]**.
 1. アクティビティの設定を終了します。
 
    各タイプのアクティビティを設定する方法について詳しくは、次のトピックを参照してください。
@@ -133,9 +143,9 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
    * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **A/B テストまたは XT アクティビティのRecommendations：** [オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
-   [!DNL Target] で JSON として書き出された[!UICONTROL エクスペリエンスフラグメント]は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTML [!UICONTROL エクスペリエンスフラグメント]のみがサポートされます。JSON [!UICONTROL エクスペリエンスフラグメント]を使用する場合は、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して作成されたアクティビティで使用します。
+   [!DNL Target] で JSON として書き出された[!UICONTROL エクスペリエンスフラグメント]は、VEC を使用して作成されたアクティビティでは使用できません。VEC ベースのアクティビティでは、HTML [!UICONTROL エクスペリエンスフラグメント]のみがサポートされます。JSON を使用する場合 [!UICONTROL エクスペリエンスフラグメント]を使用する場合は、 [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
-**フォームベースの Experience Composer で[!UICONTROL エクスペリエンスフラグメント]を使用するには：**
+**消費する [!UICONTROL エクスペリエンスフラグメント] の使用 [!UICONTROL フォームベースの Experience Composer]:**
 
 1. [!DNL Target] の[フォームベース Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) でエクスペリエンスを作成または編集する際に、[!DNL AEM] コンテンツを挿入するページ上の場所を選択し、「**[!UICONTROL エクスペリエンスフラグメントを変更]**」を選択して「[!UICONTROL エクスペリエンスフラグメントを選択]」リストを表示します。
 
@@ -143,21 +153,21 @@ AEM [!UICONTROL エクスペリエンスフラグメント]およびコンテン
 
    [!UICONTROL エクスペリエンスフラグメント]リストには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったコンテンツが表示されます。
 
-1. 目的のエクスペリエンスフラグメントを選択し、「**[!UICONTROL 保存]**」をクリックします。
+1. 目的のを選択します。 [!UICONTROL エクスペリエンスフラグメント]を選択し、「 **[!UICONTROL 保存]**.
 1. アクティビティの設定を終了します。
 
-## 注意点 {#considerations}
+## 追加情報
 
-* [!DNL Target] は現在、読み込む[!UICONTROL エクスペリエンスフラグメント]を 10 分ごとに検索します。読み込んだエクスペリエンスフラグメントは 10 分以内に [!DNL Target] で使用可能になります。ただし、この時間枠は今後短縮される予定です。
-* エクスペリエンスフラグメントは、HTML または JSON オファーとして [!DNL Target] に読み込まれます。エクスペリエンスフラグメントの「プライマリ」バージョンは [!DNL AEM] にあります。[!DNL Target] 内のエクスペリエンスフラグメントは編集できません。
+* [!DNL Target] は現在、読み込む[!UICONTROL エクスペリエンスフラグメント]を 10 分ごとに検索します。読み込まれた [!UICONTROL エクスペリエンスフラグメント] は、 [!DNL Target] 10 分以内に、しかし、今後はこの時間枠が短くなるはずです。
+* この [!UICONTROL エクスペリエンスフラグメント] 次にインポート： [!DNL Target] をHTMLまたは JSON オファーとして設定する。 この [!UICONTROL エクスペリエンスフラグメント] 「プライマリ」バージョンは [!DNL AEM]. 次の項目は編集できません： [!UICONTROL エクスペリエンスフラグメント] in [!DNL Target].
 * [!DNL Adobe I/O] を使用して[!UICONTROL エクスペリエンスフラグメント]を作成することはできません。前述のとおり、[!UICONTROL エクスペリエンスフラグメント]は AEM を使用して作成してください。
-* AEM でエクスペリエンスフラグメントを更新する場合は、エクスペリエンスフラグメントを公開して [!DNL Target] に再度書き出し、[!DNL Target] が最新の変更を使用できるようにする必要があります。
+* 次の場合、 [!UICONTROL エクスペリエンスフラグメント] AEM [!UICONTROL エクスペリエンスフラグメント] は、公開され、に書き出される必要があります [!DNL Target] 再び [!DNL Target] では、最新の変更を使用できます。
 
 ## [!UICONTROL Target] に書き出した[!UICONTROL エクスペリエンスフラグメント]から ClientLibs と不要な HTML の削除
 
-AEM で配信されるページで [!DNL Target] を使用してエクスペリエンスフラグメントオファーを使用する場合、ターゲットページには必要なすべてのクライアントライブラリが既に含まれています。また、オファー内の不要な HTML 要素も必要ありません。
+を使用する場合 [!UICONTROL エクスペリエンスフラグメント] 次を含むオファー [!DNL Target] AEMが配信するページでは、ターゲットページに必要なすべてのクライアントライブラリが既に含まれています。 また、オファー内の不要な HTML 要素も必要ありません。
 
-HTML ページ全体でエクスペリエンスフラグメントをラップし、問題を引き起こす場合があります。エクスペリエンスフラグメントが HTML の小さな断片であり、HTML、HEAD、BODY などを含む完全な HTML ページではないことを確認します。
+HTMLページ全体で [!UICONTROL エクスペリエンスフラグメント] 問題を引き起こす。 次を確認します。 [!UICONTROL エクスペリエンスフラグメント] は小さなHTMLで、HTML、HEAD、BODY などを含む完全なHTMLページではありません。
 
 詳しくは、次ののブログ投稿（[AEM 6.5：Target に書き出された[!UICONTROL エクスペリエンスフラグメント]からの ClientLibs の削除](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}）を参照してください。
 
