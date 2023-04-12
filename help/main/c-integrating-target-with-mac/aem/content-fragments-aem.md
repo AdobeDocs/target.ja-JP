@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフ
 badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 82%
+source-wordcount: '790'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->この機能は、2023 年 4 月 12 日にプレリリース機能として使用できるようになり、2023 年 4 月 26 日に GA（一般リリース）リリースで使用できるようになります。
+>この機能は、2023 年 4 月 13 日にプレリリース機能として使用できます。 プレリリース機能として、次を使用してテストできます。 [!UICONTROL コンテンツフラグメント] 開発環境とステージング環境を使用するものの、実稼動環境では使用しないもの。
+>
+>この機能は、2023 年 4 月 27 日に GA（一般公開）リリースで利用できるようになります。
 
 ## 注意点
 
@@ -50,7 +52,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## [!DNL AEM] での[!UICONTROL コンテンツフラグメント]の設定と使用 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!UICONTROL コンテンツフラグメント]を書き出して [!DNL Target] アクティビティで使用するには、AEM でいくつかの準備手順を実行する必要があります。詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank} 内 *Experience Manageras a Cloud Service文書*. このリンクは、リリース日（2023 年 4 月 13 日）に利用可能になります
+[!UICONTROL コンテンツフラグメント]を書き出して [!DNL Target] アクティビティで使用するには、AEM でいくつかの準備手順を実行する必要があります。詳しくは、 [コンテンツフラグメントのAdobe Targetへの書き出し](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank} 内 *Experience Manageras a Cloud Service文書*.
 
 [!UICONTROL コンテンツフラグメント]のデザイン、作成、キュレーション、公開について詳しくは、[[!UICONTROL コンテンツフラグメント]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ja){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ja){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja){target=_blank}を参照してください。
 
