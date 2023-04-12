@@ -2,14 +2,14 @@
 keywords: リリースノート;新機能;リリース;アップデート;アップデート;リリース;機能強化;機能強化;修正;バグ修正;アップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
-short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
+short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 56%
+source-wordcount: '803'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 23.3.1（2023 年 3 月 29 日～30 日）
+## [!DNL Target] Standard／Premium 23.3.1（2023年3月28～30日（PT））
 
 このリリースは、次のように時間をずらして使用できます。
 
@@ -31,20 +31,20 @@ ht-degree: 56%
 
 | 機能 | 詳細 |
 |--- |--- |
-| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023 年 3 月 30 日） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul>詳しくは、 [A4T のサポート対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>この機能により、次のチュートリアルが更新されました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
+| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023年3月30日（PT）） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul>詳しくは、 [A4T のサポート対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>この機能により、次のチュートリアルが更新されました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
 
-* オーディエンスとアクティビティの同期が強化され、 [!DNL Adobe Experience Platform] および [!DNL Adobe Audience Manager] は [!DNL Target] UI を迅速に実行できます。 （TGT-44568）
-* ユーザーが [!UICONTROL デフォルトの URL] under [!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL デフォルトの URL]. この変更により、お客様はデフォルトの URL を空の文字列に戻すことができます。これは、初回設定後は、以前は使用できませんでした。 （TGT-44577）
-* 標準のオーディエンス（予約名のオーディエンス）を顧客が編集または削除できない制限を削除しました。 （TGT-44655）
-* 「[!UICONTROL 完了]「 」オプションは、編集ボックスをロードする際に、 [!DNL Target] 作成時の UI [結合オーディエンス](/help/main/c-target/combining-multiple-audiences.md). （TGT-44079）
-* 修正された [!UICONTROL 言語] の下部にあるリンク [!UICONTROL オーディエンス] ページで[!UICONTROL アカウント通信環境設定]」ページに貼り付けます。 （TGT-43562）
-* お客様が [!UICONTROL A/B テスト] 選択後のアクティビティ [!UICONTROL Adobe Analytics] のオプション [!UICONTROL 管理] > [!UICONTROL レポート] > [!UICONTROL レポートExperience Cloudソリューション]. （TGT-44844）
-* 顧客が [!UICONTROL 多変量分析テスト] 内から多くのエクスペリエンスを持つアクティビティ [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 この [DOM パス](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) が VEC の最下部にある場合、顧客が最後のエクスペリエンスを表示できないことがありました。 （TGT-44578）
-* ページで認証が必要な場合、またはリダイレクトを呼び出す場合に、VEC の参照 URL に現在のページが反映されない問題を修正しました。このページは通常のブラウザーセッションで表示されます。 （TGT-44350）
-* 顧客が [!UICONTROL 非互換の条件をフィルター] 設定 [!UICONTROL Recommendations] > [!UICONTROL 設定]. （TGT-44398）
+* [!DNL Adobe Experience Platform] および [!DNL Adobe Audience Manager] で作成した項目が [!DNL Target] UI でより迅速に使用できるように、オーディエンスとアクティビティの同期を強化しました。（TGT-44568）
+* ユーザーが [!UICONTROL デフォルトの URL] under [!UICONTROL 管理] > [!UICONTROL Visual Experience Composer] > [!UICONTROL デフォルトの URL]. この変更により、お客様はデフォルトの URL を空の文字列に戻すことができます。以前は初回設定後にはできませんでした。（TGT-44577）
+* お客様が標準のオーディエンス（予約済みの名前を持つオーディエンス）を編集または削除できないようにする制限を削除しました。（TGT-44655）
+* [結合されたオーディエンス](/help/main/c-target/combining-multiple-audiences.md)を作成する際に、読み込みスピナーが [!DNL Target] UI に表示されている間、「[!UICONTROL 完了]」オプションを無効にしました。（TGT-44079）
+* [!UICONTROL オーディエンス]ページの下部にある[!UICONTROL 言語]リンクを修正して、「[!UICONTROL アカウント通信環境設定]」ページに正しくリンクするようにしました。（TGT-43562）
+* [!UICONTROL 管理]／[!UICONTROL レポート]／[!UICONTROL Experience Cloud のレポートソリューション]で「[!UICONTROL Adobe Analytics]」オプションを選択した後、お客様が [!UICONTROL A/B テスト]アクティビティを作成できない場合があるという問題を解決しました。（TGT-44844）
+* [!UICONTROL Visual Experience Composer]（VEC）内からの多くのエクスペリエンスを含む[!UICONTROL 多変量分析テスト]アクティビティで、お客様が最後のエクスペリエンスを表示できない問題を修正しました。VEC の下部にある [DOM パス](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)により、お客様が最後のエクスペリエンスを表示できないことがありました。（TGT-44578）
+* ページで認証を必要とするか、リダイレクトを呼び出す場合に、VEC の参照 URL が、通常のブラウザーセッションで表示される現在のページを反映しない問題を修正しました。（TGT-44350）
+* お客様が [!UICONTROL Recommendations]／[!UICONTROL 設定]で[!UICONTROL 互換性のない条件をフィルター]設定を変更できない問題を修正しました。（TGT-44398）
 * POSTリクエストの [!DNL Recommendations] フィードが [!UICONTROL Analytics 分類] と、名前にドットが含まれるレポートスイートが表示されます。 （TGT-44598）
-* 更新された [!DNL Target] 新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). （TGT-44459）
-* でのサーバーサイドリクエストフォージェリ (SSRF) の試行を防ぐためのセキュリティの強化 [!DNL Recommendations] フィード。 （TGT-43769）
+* [!DNL Target] UI のリンクを更新して、新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)をポイントするようにしました。（TGT-44459）
+* [!DNL Recommendations] フィードでのサーバーサイドリクエストフォージェリ（SSRF）の試行を防ぐためのセキュリティを強化しました。（TGT-43769）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
 
 ## at.js バージョン 2.10.2（2023年3月7日（PT））
