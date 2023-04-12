@@ -4,10 +4,10 @@ description: の今後のリリースに含まれる新機能、機能強化お�
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 64%
+source-wordcount: '272'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 この記事には、今後のリリースに関するプレリリース情報が含まれています [!DNL Adobe Target] リリース（SDK、API、JavaScript ライブラリを含む）。
 
-**最終更新日：2023年3月30日（PT）**
+**最終更新日：2023年4月12日（PT）**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ ht-degree: 64%
 
 ## [!DNL Adobe Experience Manager] (AEM) および [!DNL Adobe Target] [!UICONTROL コンテンツフラグメント] リリース（2023 年 4 月 13 日）
 
+>[!NOTE]
+>
+>この機能は、2023 年 4 月 12 日にプレリリース機能として使用できるようになり、2023 年 4 月 26 日に GA（一般リリース）リリースで使用できるようになります。
+
 このリリースには、次の新機能が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
-| AEM [!UICONTROL コンテンツフラグメント] ヘッドレスパーソナライゼーションと実験の場合 | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント] を [!DNL Target] アクティビティで使用します。AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] ヘッドレスなパーソナライゼーションと実験を支援する |
+| AEM [!UICONTROL コンテンツフラグメント] ヘッドレスパーソナライゼーションと実験の場合 | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント] を [!DNL Target] アクティビティで使用します。AEMの使いやすさと機能を、の強力な人工知能 (AI) および機械学習 (ML) 機能と組み合わせる [!DNL Target] ヘッドレスなパーソナライゼーションと実験を支援する<P>詳しくは、 [AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## その他のリリースノートとバージョンの詳細
 

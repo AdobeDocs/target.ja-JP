@@ -2,12 +2,13 @@
 keywords: エクスペリエンス;json;AEM;Adobe Experience Manager;Adobe Target への書き出し;コンテンツフラグメント;フラグメント;CF;cf;headless;personalization;experimentation
 description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experience Manager] [!UICONTROL  コンテンツフラグメント]を使用する方法について説明します。'
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePrerelease: label="Prerelease"
 feature: Integrations
-source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
+source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 84%
+source-wordcount: '779'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->この機能は 2023 年 4 月 13 日にリリースされます。
+>この機能は、2023 年 4 月 12 日にプレリリース機能として使用できるようになり、2023 年 4 月 26 日に GA（一般リリース）リリースで使用できるようになります。
 
 ## 注意点
 
