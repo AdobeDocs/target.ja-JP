@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '1984'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,28 @@ Matthew Bailie と Georgia Frailey（両社のシニアソリューションコ�
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Target] の使用方法を参照してください。
 
-現時点でスケジュールされているものはありません。
+### 毎回パーソナライズされた顧客体験を提供する
+
+* **2023年4月27 日木曜日（PT）**
+* **午前 9 時～10 時。(BST、GMT +1)、午後 10 時～11 時。(CEST、GMT +2)**
+* **[登録情報](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+顧客の先を行く [!DNL Adobe Target]は強力なテストとパーソナライゼーション機能を備えています。 Web、モバイルおよびデジタルデバイスにわたって動的にコンテキストに沿ったエクスペリエンスを提供し、顧客のあらゆる場所にいることを確認します。
+
++++詳細
+
+このウェビナーでは、次の内容を扱います。
+
+* パーソナライゼーションが戦略の重要な要素である理由
+* 異なるアクティビティタイプの識別と使用
+* スポットライト — 業界の使用例
+* Recommendationsでのパーソナライゼーションの促進
+* のデモ [!DNL Target] ユーザインタフェース、ハイライト表示
+   * オーディエンスの作成
+   * 設定 [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ
+   * 設定 [!UICONTROL 自動ターゲット] および [!UICONTROL 自動パーソナライゼーション] アクティビティ
+
++++
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
