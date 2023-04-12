@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3215'
 ht-degree: 57%
 
 ---
@@ -258,7 +258,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 企業権限に関する FAQ を次に示します。
 
-### ユーザーに複数の役割と権限がある場合はどうなりますか？
+### ユーザーに複数の役割と権限がある場合はどうなりますか？ [#multiple-roles]
 
 ユーザーに複数の役割と権限がある場合は、hirer 権限を持つ役割が適用されます。 例えば、ユーザーが [!UICONTROL 監視者] および [!UICONTROL 承認者] 役割、 [!UICONTROL 承認者] の役割が適用されます。
 

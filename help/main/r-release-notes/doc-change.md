@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 94%
+source-wordcount: '2386'
+ht-degree: 93%
 
 ---
 
@@ -15,10 +15,12 @@ ht-degree: 94%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.3.1（2023 年 3 月 29 日～30 日）
+## [!DNL Target] Standard／Premium 23.3.1（2023年3月28～30日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月12日（PT） | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルがトレーニングに使用したくない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？</li></ul> |
+|  | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 以下の FAQ を追加しました。<ul><li>ユーザーに複数の役割と権限がある場合はどうなりますか？</li></ul> |
 | 4月5日（PT） | [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | を示すテキストを追加しました。 [!UICONTROL レポートソースとしての Analytics] (A4t) は、オファーの決定を使用するアクティビティではサポートされません。 |
 | 4月3日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 4 月 12 日（水）に予定されているコーヒー休憩。 |
 |  | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | すべてをするメモを許可リスト追加しました [!DNL Adobe Analytics] IP アドレスブロック。 |
