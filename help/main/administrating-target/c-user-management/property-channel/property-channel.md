@@ -1,27 +1,27 @@
 ---
-keywords: ワークスペース;プロパティの管理;権限;製品設定;製品プロファイル;役割;プロジェクト
+keywords: ワークスペース；プロパティの管理；権限；製品設定；製品プロファイル；役割；プロジェクト；監視者；編集者；承認者；発行者
 description: 個別のワークスペース（製品プロファイル）を作成し、個々のページ、プロパティまたは Web サイトに対して様々な役割および権限をユーザーに割り当てる方法について説明します。
 title: Enterprise ユーザー権限とは何ですか？また、それらの権限の使用方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 58%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # Enterprise ユーザーの権限
 
-Enterprise ユーザーの権限 は、管理する企業全体のユーザーに対する正式なアクセス手段です [!DNL Adobe Target]. ユーザーの追加先 [!DNL Target]、役割に基づいて権限を割り当て、様々な部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用にワークスペースを作成します。 ユーザーに [!UICONTROL 監視者], [!UICONTROL 編集者]または [!UICONTROL 承認者].
+Enterprise ユーザーの権限 は、管理する企業全体のユーザーに対する正式なアクセス手段です [!DNL Adobe Target]. ユーザーの追加先 [!DNL Target]、役割に基づいて権限を割り当て、様々な部門、グローバルな場所、チャネル、その他の論理グループに基づいてチーム用にワークスペースを作成します。 ユーザーに [!UICONTROL 監視者], [!UICONTROL 編集者], [!UICONTROL 承認者]または [!UICONTROL 発行者].
 
 ## Enterprise ユーザーの権限へのアクセス権があるかどうかを判断する
 
 >[!NOTE]
 >
->プロパティと権限 の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>[!UICONTROL プロパティと権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
 >お使いの [!DNL Target] 実装では、at.js の任意のバージョンを使用できます。
 
@@ -89,10 +89,10 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 | 役割 | 説明 |
 |--- |--- |
-| 承認者 | アクティビティの作成、編集、アクティブ化、停止ができます。 |
-| 編集者 | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
-| 監視者 | アクティビティを表示できますが、作成または編集はできません。 |
-| 発行者 | 監視者の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。ただし、発行者の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+| [!UICONTROL 承認者] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+| [!UICONTROL 編集者] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+| [!UICONTROL 監視者] | アクティビティを表示できますが、作成または編集はできません。 |
+| [!UICONTROL 発行者] | 次に類似 [!UICONTROL 監視者] 役割（アクティビティを表示できますが、作成または編集はできません）。 ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 
 ### チャネル
 
@@ -257,6 +257,10 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 ## よくある質問 {#faqs}
 
 企業権限に関する FAQ を次に示します。
+
+### ユーザーに複数の役割と権限がある場合はどうなりますか？
+
+ユーザーに複数の役割と権限がある場合は、hirer 権限を持つ役割が適用されます。 例えば、ユーザーが [!UICONTROL 監視者] および [!UICONTROL 承認者] 役割、 [!UICONTROL 承認者] の役割が適用されます。
 
 ### アクティビティを別のワークスペースに移動させることはできますか？
 
