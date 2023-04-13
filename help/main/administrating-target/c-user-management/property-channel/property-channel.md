@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3216'
 ht-degree: 57%
 
 ---
@@ -23,7 +23,7 @@ Enterprise ユーザーの権限 は、管理する企業全体のユーザー�
 >
 >[!UICONTROL プロパティと権限] の機能は [!DNL Target] Premium ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
->お使いの [!DNL Target] 実装では、at.js の任意のバージョンを使用できます。
+>お使いの [!DNL Target] 実装は、at.js の任意のバージョンまたは [!DNL Adobe Experience Platform Web SDK].
 
 保有しているライセンスが Standard か Premium かどうかは、[!DNL Target] の UI 上部の「[!UICONTROL 管理]」リンクをクリックすることで確認できます。
 
