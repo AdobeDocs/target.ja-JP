@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 20%
+source-wordcount: '895'
+ht-degree: 21%
 
 ---
 
@@ -94,8 +94,6 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 ## とのリアルタイム CDP プロファイル属性の共有 [!DNL Target] {#rtcdp-profile-attributes}
 
 リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] HTMLオファーと JSON オファーで使用する （この機能は現在ベータ版であることに注意してください）。
-
-詳しくは、 [とのリアルタイム CDP プロファイル属性の共有 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 使用例：グレースは、オンラインマーケターとして、AEP/統合プロファイルに属性値を共有させたいと考えています。 [!DNL Target] リアルタイムパーソナライゼーションを提供するために。 リアルタイム CDP プロファイル属性を使用すると、猶予は、 [!DNL Target] トークン置換を使用したオファー 例えば、Sarah は、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
