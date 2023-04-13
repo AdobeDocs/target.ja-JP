@@ -4,9 +4,9 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '909'
 ht-degree: 17%
 
 ---
@@ -38,13 +38,27 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 ### パーソナライズ機能の使用例
 
-次の表に、 [!DNL Adobe Experience Platform Web SDK] at.js の使用と比較して：
+以下の節では、異なる実装方法を使用する場合に使用できるパーソナライゼーションの使用例のタイプ（次のセッションまたは同じページ）を示します。
 
-| 実装 | ソリューション/ユースケースが有効 |
+#### at.js の実装
+
+| 解決策 | 使用例が有効 |
 | --- | --- |
-| at.js | **ソリューション**:<ul><li>[!DNL Adobe Audience Manager] (AAM) および [!DNL Target]</li><li>[!DNL RTCDP] （Premium または Ultimate）および [!DNL Target]</li><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**ユースケース**:<ul><li>次セッションのパーソナライゼーション</li></ul> |
-| [!DNL Platform Web SDK] または [!DNL AEP Server-Side API] | **ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><li>Edge を使用した同じページのパーソナライゼーション</li><li>セグメントの共有時に適用されるガバナンス</li></ul>**ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul><li>Edge を使用した同じページのパーソナライゼーション</li><ul><li>[!DNL RTCDP] セグメント</li><li>セグメントの共有時に適用されるガバナンス</li></ul> |
-| 組み合わせ [!UICONTROL at.js] および [!DNL Platform Web SDK] | **ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li></ul><li>同じページのパーソナライゼーション</li><ul><li>を含むすべてのページ [!DNL Platform Web SDK]</li></ul></ul>**ソリューション**:<ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul>**使用例**:<ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM) および [!DNL Target]</li><li>[!DNL RTCDP] （Premium または Ultimate）および [!DNL Target]</li><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul> | 次セッションのパーソナライゼーション |
+
+#### Adobe Experience Platform Web SDK または AEP サーバー側 API の実装
+
+| 解決策 | 使用例が有効 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul> | <ul><li>次セッションのパーソナライゼーション</li><li>Edge を使用した同じページのパーソナライゼーション</li><li>セグメントの共有時に適用されるガバナンス</li></ul> |
+| <ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul> | <ul><li>次セッションのパーソナライゼーション</li><ul><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul><li>Edge を使用した同じページのパーソナライゼーション</li><ul><li>[!DNL RTCDP] セグメント</li><li>セグメントの共有時に適用されるガバナンス</li></ul> |
+
+#### 組み合わせ [!UICONTROL at.js] および [!DNL Platform Web SDK] 実装
+
+| 解決策 | 使用例が有効 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任意の SKU）および [!DNL Target]</li></ul> | <ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li></ul><li>同じページのパーソナライゼーション</li><ul><li>を含むすべてのページ [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul> | <ul><li>次セッションのパーソナライゼーション</li><ul><li>を含むすべてのページ [!UICONTROL at.js]</li><li>[!DNL AAM] セグメント</li><li>を介したサードパーティセグメント [!DNL AAM]</li></ul> |
 
 ### セグメント評価時間
 
@@ -105,6 +119,6 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Targetのブログとビデオ：
+### Adobe Targetのブログとビデオ：同じページで拡張されたパーソナライゼーション
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
