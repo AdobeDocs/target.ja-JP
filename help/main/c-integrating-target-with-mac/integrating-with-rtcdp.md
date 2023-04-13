@@ -4,14 +4,14 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '904'
+ht-degree: 17%
 
 ---
 
-# Real-time Customer Data Platform との統合
+# 統合対象 [!DNL Real-time Customer Data Platform]
 
 [!DNL Adobe Experience Platform] 上に構築された [!DNL Real-time Customer Data Platform]（RTCDP）は、企業が顧客プロファイルを作成するために複数の企業ソースから既知および匿名のデータを収集するのに役立ちます。顧客プロファイルを使用すれば、パーソナライズされた顧客エクスペリエンスをすべてのチャネルおよびデバイスにわたってリアルタイムに提供できます。
 
@@ -36,29 +36,6 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 * [!UICONTROL Target Edge Destinations カード] ガバナンスと政策の執行を伴う
 * リアルタイム CDP セグメントと共有プロファイル属性
 
-### リアルタイム CDP プロファイル属性機能の制限と考慮事項
-
-次の点に留意してください。
-
-* 特定のオファー内の属性は、同じ AEP サンドボックスからのものである必要があります。 （つまり、1 つのオファーに異なる AEP サンドボックスの属性を含めることはできません）。
-* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルと AEP プロファイル ( つまり、属性を [!DNL Target] または AEP プロファイルから )
-* オファーを定義する際に、属性に明示的な値がない場合に備えて、リアルタイム CDP プロファイル属性にデフォルト値を割り当てることができます。 例えば、同意またはガバナンスポリシーがパーソナライゼーションサービスで使用される属性をブロックする場合は、代わりにデフォルト値を使用できます。
-* 共有すると、の人工知能/機械学習パーソナライゼーションモデルでリアルタイム CDP プロファイル属性が使用されます。 [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティ。
-
->[!NOTE]
->
->リアルタイム CDP プロファイル属性機能は、現在、ベータ版では、HTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### 詳細情報へのリンク
-
-詳しくは、次のトピックを参照してください。
-
-* [宛先のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 内 *Adobe Experience Platformリリースノート*
-* [同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド。
-* [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 内 *宛先の概要* ガイド
-* [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 内 *宛先の概要* ガイド
-* [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 内 *宛先の概要* ガイド
-
 ### パーソナライズ機能の使用例
 
 次の表に、 [!DNL Adobe Experience Platform Web SDK] at.js の使用と比較して：
@@ -81,11 +58,36 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 | バッチアップロードからのイベント | × | × | ○ |
 | オフラインデータ（ストリーム）からのイベント | × | ○ | ○ |
 
+### 詳細情報へのリンク
+
+詳しくは、次のトピックを参照してください。
+
+* [宛先のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 内 *Adobe Experience Platformリリースノート*
+* [同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド。
+* [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 内 *宛先の概要* ガイド
+* [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 内 *宛先の概要* ガイド
+* [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 内 *宛先の概要* ガイド
+
 ## とのリアルタイム CDP プロファイル属性の共有 [!DNL Target] {#rtcdp-profile-attributes}
 
-リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] (HTMLオファーで使用 ) [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md). （この機能は現在ベータ版であることに注意してください）。
+リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] (HTMLオファーで使用 ) [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-使用例：オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供するために。 リアルタイム CDP プロファイル属性を使用すると、 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
+### リアルタイム CDP プロファイル属性機能の制限と考慮事項
+
+>[!NOTE]
+>
+>リアルタイム CDP プロファイル属性機能は、現在、ベータ版では、HTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+次の点に留意してください。
+
+* 特定のオファー内の属性は、同じ AEP サンドボックスからのものである必要があります。 （つまり、1 つのオファーに異なる AEP サンドボックスの属性を含めることはできません）。
+* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルと AEP プロファイル ( つまり、属性を [!DNL Target] または AEP プロファイルから )
+* オファーを定義する際に、属性に明示的な値がない場合に備えて、リアルタイム CDP プロファイル属性にデフォルト値を割り当てることができます。 例えば、同意またはガバナンスポリシーがパーソナライゼーションサービスで使用される属性をブロックする場合は、代わりにデフォルト値を使用できます。
+* 共有すると、の人工知能/機械学習パーソナライゼーションモデルでリアルタイム CDP プロファイル属性が使用されます。 [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティ。
+
+### 使用例
+
+オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供するために。 リアルタイム CDP プロファイル属性を使用すると、 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
