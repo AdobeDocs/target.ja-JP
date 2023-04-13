@@ -1,19 +1,19 @@
 ---
 keywords: Real-time Customer Data Platform;rtcdp；パーソナライゼーション；aep オーディエンス；adobe experience platform オーディエンス；プロファイル属性
-description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）統合を使用して、より豊富な顧客データとよりインパクトのあるパーソナライゼーションを提供する方法を説明します。'
-title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
+description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] （RTCDP）統合を使用して、より豊富な顧客データとよりインパクトのあるパーソナライゼーションを提供する方法を説明します。'
+title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: b31fc335c2066f74ec9aebe835a2c47822a49e5a
+source-git-commit: 9db63ccce0d4f62f968cc99250f3ed3dec03a977
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '982'
 ht-degree: 8%
 
 ---
 
-# 統合対象 [!DNL Real-time Customer Data Platform]
+# 統合対象 [!DNL Real-Time Customer Data Platform]
 
-ビルド元 [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) は、企業が既知のデータと匿名データを複数のエンタープライズソースから統合する際に役立ちます。 RTCDP を使用すると、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされたカスタマーエクスペリエンスを提供するために使用できる顧客プロファイルを作成できます。
+ビルド元 [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP) は、企業が既知のデータと匿名データを複数のエンタープライズソースから統合する際に役立ちます。 RTCDP を使用すると、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされたカスタマーエクスペリエンスを提供するために使用できる顧客プロファイルを作成できます。
 
 RTCDP の詳細については、 [Real-time Customer Data Platformの概要](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}.
 
@@ -21,9 +21,9 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 使用 [audiences](/help/main/c-target/c-audiences/audiences.md) 次で作成： [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} (RTCDP): [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
-接続により [!DNL Target] から [!DNL Real-time Customer Data Platform]を使用すると、web パーソナライゼーションを強化できます。 この統合により、以前はアクセスできなかった可能性のある新しいセグメントのロックを解除できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成したオーディエンスとプロファイル属性の使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
+接続により [!DNL Target] から [!DNL Real-Time Customer Data Platform]を使用すると、web パーソナライゼーションを強化できます。 この統合により、以前はアクセスできなかった可能性のある新しいセグメントのロックを解除できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成したオーディエンスとプロファイル属性の使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
 
-この統合により、リアルタイム CDP での主なユースケースのロックが解除されます。
+この統合により、Real-Time CDPの主なユースケースのロックが解除されます。
 
 * 同じページ/次のヒットのパーソナライゼーション
 * 初回/不明なユーザーのパーソナライゼーション
@@ -32,7 +32,7 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 主な特長は次のとおりです。
 
-* 直接 [!DNL Target] リアルタイム CDP/との統合[!DNL Adobe Experience Platform] Edge 上 ( [!DNL Audience Core services] - AAM)
+* 直接 [!DNL Target] Real-Time CDP/との統合[!DNL Adobe Experience Platform] Edge 上 ( [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target Edge Destinations カード] ガバナンスと政策の執行を伴う
 * リアルタイム CDP セグメントと共有プロファイル属性
 
@@ -46,7 +46,7 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) および [!DNL Target]</li><li>[!DNL RTCDP] （Premium または Ultimate）および [!DNL Target]</li><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul> | 次セッションのパーソナライゼーション |
 
-#### Adobe Experience Platform Web SDK またはExperience Platformサーバー側 API の実装
+#### [!DNL Adobe Experience Platform Web SDK] または [!DNL Experience Platform Server-Side API] 実装
 
 | 解決策 | 使用例が有効 |
 | --- | --- |
@@ -82,26 +82,26 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 * [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 内 *宛先の概要* ガイド
 * [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド
 
-## とのリアルタイム CDP プロファイル属性の共有 [!DNL Target] {#rtcdp-profile-attributes}
+## Real-Time CDPプロファイル属性の共有先 [!DNL Target] {#rtcdp-profile-attributes}
 
-リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] (HTMLオファーで使用 ) [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+Real-Time CDPプロファイル属性はと共有できます [!DNL Target] (HTMLオファーで使用 ) [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-### リアルタイム CDP プロファイル属性機能の制限と考慮事項
+### Real-Time CDPプロファイル属性機能の制限と考慮事項
 
 >[!NOTE]
 >
->リアルタイム CDP プロファイル属性機能は、ベータ版でHTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+>Real-Time CDPのプロファイル属性機能は、ベータ版ではHTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 次の点に留意してください。
 
-* 特定のオファー内の属性は、同じExperience PlatformSandbox からのものである必要があります。 ( つまり、1 つのオファーに異なるExperience Platformサンドボックスの属性を含めることはできません )。
-* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルとExperience Platformプロファイル。 ( つまり、属性を [!DNL Target] またはExperience Platformプロファイルから )
-* オファーを定義する際に、属性に明示的な値がない場合に備えて、リアルタイム CDP プロファイル属性にデフォルト値を割り当てることができます。 例えば、同意またはガバナンスポリシーがパーソナライゼーションサービスで使用される属性をブロックする場合は、代わりにデフォルト値を使用できます。
-* 共有すると、の人工知能/機械学習パーソナライゼーションモデルでリアルタイム CDP プロファイル属性が使用されます。 [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティ。
+* 特定のオファー内の属性は、同じオファーの属性である必要があります [!UICONTROL Experience Platform] サンドボックス。 ( つまり、1 つのオファーに異なる [!UICONTROL Experience Platform] サンドボックス )
+* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルと [!UICONTROL Experience Platform] プロファイル。 ( つまり、属性を [!DNL Target] または [!UICONTROL Experience Platform] profile.)
+* オファーを定義する際に、 [!UICONTROL Real-Time CDP Profile Attributes]を指定します。 例えば、同意またはガバナンスポリシーがパーソナライゼーションサービスで使用される属性をブロックする場合は、代わりにデフォルト値を使用できます。
+* 共有時、 [!UICONTROL Real-Time CDP Profile Attributes] は、 [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティ。
 
-### 使用例
+### JSON のサンプルの使用例
 
-オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供する。 リアルタイム CDP プロファイル属性を使用すると、 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
+オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供する。 次を使用： [!UICONTROL Real-Time CDP Profile Attributes]に値を指定しない場合、 [!UICONTROL Experience Platform] 属性 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
 AEP/統合プロファイル属性を共有する JSON オファーを作成するには、以下を実行します。 [!DNL Target]:
 
@@ -119,14 +119,14 @@ AEP/統合プロファイル属性を共有する JSON オファーを作成す�
 
 次のビデオおよびブログ投稿では、Target と RTCDP を使用した拡張パーソナライゼーションの詳細を説明しています。
 
-### ビデオ：リアルタイム CDP と [!DNL Adobe Target]{#RTCDP}
+### ビデオ：Real-Time CDPとを使用した次回ヒットのパーソナライゼーション [!DNL Adobe Target]{#RTCDP}
 
-を使用して次回のヒットでのパーソナライズ方法を説明します。 [!DNL Real-time Customer Data Platform] および [!DNL Adobe Target]. この [!DNL Adobe Target] の宛先 [!DNL Real-time CDP] を使用すると、 [!DNL Experience Platform] セグメント [!DNL Adobe Target] ガバナンスとプライバシーをサポートする、同じページのパーソナライゼーションと次のページのパーソナライゼーション。
+を使用して次回のヒットでのパーソナライズ方法を説明します。 [!DNL Real-Time Customer Data Platform] および [!DNL Adobe Target]. この [!DNL Adobe Target] の宛先 [!DNL Real-Time CDP] を使用すると、 [!DNL Experience Platform] セグメント [!DNL Adobe Target] ガバナンスとプライバシーをサポートする、同じページのパーソナライゼーションと次のページのパーソナライゼーション。
 
-詳しくは、 [リアルタイム CDP とAdobe Targetを使用した次回ヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 内 *PlatformTutorials* ガイド。
+詳しくは、 [Real-Time CDPとAdobe Targetを使用した次のヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 内 *PlatformTutorials* ガイド。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Targetのブログとビデオ：同じページで拡張されたパーソナライゼーション
+### [!DNL Adobe Target] ブログとビデオ：同じページで拡張されたパーソナライゼーション
 
 [[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] および [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
