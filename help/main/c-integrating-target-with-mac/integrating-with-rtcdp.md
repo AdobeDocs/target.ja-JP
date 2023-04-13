@@ -1,13 +1,13 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;パーソナライゼーション;aep オーディエンス;adobe experience platform オーディエンス
+keywords: Real-time Customer Data Platform;rtcdp；パーソナライゼーション；aep オーディエンス；adobe experience platform オーディエンス；プロファイル属性
 description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）統合を使用して、より豊富な顧客データとよりインパクトのあるパーソナライゼーションを提供する方法を説明します。'
 title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
+source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 19%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
