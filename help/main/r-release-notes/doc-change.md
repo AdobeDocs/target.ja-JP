@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2432'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月13日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target] Standard/Premium 23.4.1 リリース（2023 年 4 月 26 日～ 27 日）です。 |
 | 4月12日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供する</li></ul> |
 |  | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルがトレーニングに使用したくない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？</li></ul> |
 |  | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 以下の FAQ を追加しました。<ul><li>ユーザーに複数の役割と権限がある場合はどうなりますか？</li></ul> |
