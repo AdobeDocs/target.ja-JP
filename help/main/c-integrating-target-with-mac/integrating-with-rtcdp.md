@@ -4,16 +4,16 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
+source-git-commit: b31fc335c2066f74ec9aebe835a2c47822a49e5a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 17%
+source-wordcount: '992'
+ht-degree: 8%
 
 ---
 
 # 統合対象 [!DNL Real-time Customer Data Platform]
 
-[!DNL Adobe Experience Platform] 上に構築された [!DNL Real-time Customer Data Platform]（RTCDP）は、企業が顧客プロファイルを作成するために複数の企業ソースから既知および匿名のデータを収集するのに役立ちます。顧客プロファイルを使用すれば、パーソナライズされた顧客エクスペリエンスをすべてのチャネルおよびデバイスにわたってリアルタイムに提供できます。
+ビルド元 [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) は、企業が既知のデータと匿名データを複数のエンタープライズソースから統合する際に役立ちます。 RTCDP を使用すると、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされたカスタマーエクスペリエンスを提供するために使用できる顧客プロファイルを作成できます。
 
 RTCDP の詳細については、 [Real-time Customer Data Platformの概要](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank}.
 
@@ -21,7 +21,7 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 使用 [audiences](/help/main/c-target/c-audiences/audiences.md) 次で作成： [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。 この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} (RTCDP): [!DNL Adobe Experience Platform]は、企業が複数のエンタープライズソースから既知の匿名データを統合するのに役立ちます。 このプロセスでは、すべてのチャネルとデバイスにわたって、リアルタイムでパーソナライズされた顧客体験を提供するために使用できる顧客プロファイルを作成できます。
 
-[!DNL Target] と [!DNL Real-time Customer Data Platform] を接続することで、お客様は、以前は [!DNL Target] でアクセスできなかった可能性のある新しいセグメントを解放し、お客様の web 訪問の最初のページでミリ秒単位のリアルタイムのパーソナライゼーションを可能にすることで、web パーソナライゼーションを充実させることができます。で作成したオーディエンスとプロファイル属性の使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
+接続により [!DNL Target] から [!DNL Real-time Customer Data Platform]を使用すると、web パーソナライゼーションを強化できます。 この統合により、以前はアクセスできなかった可能性のある新しいセグメントのロックを解除できます [!DNL Target] 顧客の web 訪問の最初のページでリアルタイムのミリ秒パーソナライゼーションを有効にする。 で作成したオーディエンスとプロファイル属性の使用 [!DNL Adobe Experience Platform] を使用すると、利用可能なデータポイントを拡張して、より豊富なパーソナライゼーションを実現できます。
 
 この統合により、リアルタイム CDP での主なユースケースのロックが解除されます。
 
@@ -46,7 +46,7 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) および [!DNL Target]</li><li>[!DNL RTCDP] （Premium または Ultimate）および [!DNL Target]</li><li>[!DNL RTCDP] （任意の SKU）、 [!DNL AAM]、および [!DNL Target]</li></ul> | 次セッションのパーソナライゼーション |
 
-#### Adobe Experience Platform Web SDK または AEP サーバー側 API の実装
+#### Adobe Experience Platform Web SDK またはExperience Platformサーバー側 API の実装
 
 | 解決策 | 使用例が有効 |
 | --- | --- |
@@ -80,7 +80,7 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 * [同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド。
 * [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 内 *宛先の概要* ガイド
 * [Adobe Target接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 内 *宛先の概要* ガイド
-* [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 内 *宛先の概要* ガイド
+* [同じページおよび次のページのパーソナライゼーションの使用例に対するパーソナライゼーションの宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド
 
 ## とのリアルタイム CDP プロファイル属性の共有 [!DNL Target] {#rtcdp-profile-attributes}
 
@@ -90,22 +90,30 @@ RTCDP の詳細については、 [Real-time Customer Data Platformの概要](ht
 
 >[!NOTE]
 >
->リアルタイム CDP プロファイル属性機能は、現在、ベータ版では、HTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+>リアルタイム CDP プロファイル属性機能は、ベータ版でHTMLオファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 次の点に留意してください。
 
-* 特定のオファー内の属性は、同じ AEP サンドボックスからのものである必要があります。 （つまり、1 つのオファーに異なる AEP サンドボックスの属性を含めることはできません）。
-* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルと AEP プロファイル ( つまり、属性を [!DNL Target] または AEP プロファイルから )
+* 特定のオファー内の属性は、同じExperience PlatformSandbox からのものである必要があります。 ( つまり、1 つのオファーに異なるExperience Platformサンドボックスの属性を含めることはできません )。
+* 特定のオファー内の属性は、別のソースから取得できます。すなわち、 [!DNL Target] プロファイルとExperience Platformプロファイル。 ( つまり、属性を [!DNL Target] またはExperience Platformプロファイルから )
 * オファーを定義する際に、属性に明示的な値がない場合に備えて、リアルタイム CDP プロファイル属性にデフォルト値を割り当てることができます。 例えば、同意またはガバナンスポリシーがパーソナライゼーションサービスで使用される属性をブロックする場合は、代わりにデフォルト値を使用できます。
 * 共有すると、の人工知能/機械学習パーソナライゼーションモデルでリアルタイム CDP プロファイル属性が使用されます。 [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティ。
 
 ### 使用例
 
-オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供するために。 リアルタイム CDP プロファイル属性を使用すると、 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
+オンラインマーケターは、AEP/統合プロファイルで属性値を共有したい [!DNL Target] リアルタイムパーソナライゼーションを提供する。 リアルタイム CDP プロファイル属性を使用すると、 [!DNL Target] トークン置換を使用したオファー 例えば、顧客が好む色に応じて、 `${aep.profile.favoriteColor}`、またはトークンを使用したロイヤリティ層とロイヤルティポイントの値 `${aep.loyalty.tier}` および `${aep.loyalty.points}`.
 
-![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+AEP/統合プロファイル属性を共有する JSON オファーを作成するには、以下を実行します。 [!DNL Target]:
 
-デフォルト値の割り当てはオプションです。
+1. While [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md)、 **[!UICONTROL ソースを選択]** リスト、選択 **[!UICONTROL Adobe Experience Platform]**.
+1. 次の **[!UICONTROL プロファイルサンドボックス名を選択]** リストで、目的のサンドボックスを選択します。
+1. 次の **[!UICONTROL プロファイル属性を選択]** リストで、目的の属性を選択します。
+1. （オプション） **[!UICONTROL デフォルト値を挿入]** リストで、目的の値を選択します。
+1. 「**[!UICONTROL 追加]**」をクリックします。
+
+   次の図に、2 つのプロファイル属性を示します。 `loyalty.tier` および `loyalty.points` が JSON オファーに追加されました。
+
+   ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 ## ビデオおよびブログ投稿
 
