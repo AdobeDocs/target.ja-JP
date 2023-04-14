@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '2432'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 92%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 4月13日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target] Standard/Premium 23.4.1 リリース（2023 年 4 月 26 日～ 27 日）です。 |
-| 4月12日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供する</li></ul> |
+| 4月12日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供する</li></ul> |
 |  | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルがトレーニングに使用したくない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？</li></ul> |
 |  | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 以下の FAQ を追加しました。<ul><li>ユーザーに複数の役割と権限がある場合はどうなりますか？</li></ul> |
 |  | [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新規トピックです。この機能は、テスト目的で「プレリリース」ステータスになっています。 |
-| 4月5日（PT） | [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | を示すテキストを追加しました。 [!UICONTROL レポートソースとしての Analytics] (A4t) は、オファーの決定を使用するアクティビティではサポートされません。 |
-| 4月3日（PT） | [[!DNL Adobe Target] のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 4 月 12 日（水）に予定されているコーヒー休憩。 |
-|  | [Target のエッジノードを許可リストに登録する](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | すべてをするメモを許可リスト追加しました [!DNL Adobe Analytics] IP アドレスブロック。 |
-| 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 最適化された A4T 指標のリリース ( [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] を使用すると、バイナリイベントに基づいて指標を選択したり、 [!UICONTROL A4T] 対象 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。 |
-|  | [[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 「サポートされる目標指標」の節を更新し、次に対してサポートされる（およびサポートされない）指標に関する情報を追加しました。 [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] 使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) |
+| 4月5日（PT） | [オファーの決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | [!UICONTROL レポートソースとしての Analytics]（A4t）は、オファーの決定を使用するアクティビティではサポートされていないことを示すテキストを追加しました。 |
+| 4月3日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年4月12日水曜日（PT）に予定されている [!UICONTROL Adobe Target コミュニティ]のコーヒーブレイクに関する情報を追加しました。 |
+|  | [Target のエッジノードを許可リストに登録](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | [!DNL Adobe Analytics] のすべての IP アドレスブロックを許可リストに登録するためのメモを追加しました。 |
+| 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]機能用に最適化された A4T 指標のリリースに関するリリースノートを更新しました。これにより、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティに [!UICONTROL A4T] を使用する際に、二項イベントに基づく指標または連続イベントに基づく指標を選択できます。 |
+|  | [[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新された「サポート対象の目標指標」の節には、[!UICONTROL Analytics for Target]（A4T）を使用した[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用のサポート対象（およびサポート対象外）の指標に関する情報が含まれます。 |
 |  | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank} | 次のチュートリアルを更新しました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
-|  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次の項目に関する情報を追加しました。 [!DNL Adobe Experience Manager] (AEM) および [!DNL Adobe Target] [!UICONTROL コンテンツフラグメント] リリース。 (2023 年 4 月 7 日) |
+|  | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Adobe Experience Manager]（AEM）および [!DNL Adobe Target] [!UICONTROL コンテンツフラグメント]のリリースに関する情報を追加しました。（2023年4月6日（PT）） |
 | 3月28日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.3.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target]Standard／Premium 22.15.1（2023年3月8日、9日）
