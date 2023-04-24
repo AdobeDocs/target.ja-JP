@@ -4,10 +4,10 @@ description: トラブルシューティング、よくある質問（FAQ）、�
 title: Target のトラブルシューティング方法
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 87%
+source-wordcount: '508'
+ht-degree: 82%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 87%
 
 ## グローバル mbox
 
-* [グローバル mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [グローバル mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## ホスト／環境
 
@@ -108,23 +108,23 @@ ht-degree: 87%
 
 ### 一般的な実装
 
-* [サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Targetでのクラウドベースインスタンスの使用](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [サポートされているブラウザー](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Targetでのクラウドベースインスタンスの使用](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### グローバル mbox
 
-* [グローバルmbox FAQ](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [グローバルmbox FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js FAQ](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [at.js FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。
 
 ## モバイルアプリ
 
-* [モバイルアプリ用 Target に関する FAQ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## レポート
 
@@ -133,11 +133,11 @@ ht-degree: 87%
 
 ## 検索エンジン最適化（SEO）
 
-* [検索エンジン最適化（SEO）対応テスト](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## セキュリティ
 
-* [コンテンツセキュリティポリシー（CSP）指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## システムステータス
 

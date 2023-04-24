@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 69%
+source-wordcount: '336'
+ht-degree: 57%
 
 ---
 
@@ -36,9 +36,8 @@ ht-degree: 69%
 
 | リソース | 詳細 |
 |--- |--- |
-| [リリースノート：[!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja){target=_blank} | Platform Web SDK の各バージョンの変更点に関する詳細です。 |
-| [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
+|[リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja)|Platform Web SDK の各バージョンでの変更の詳細です。| |[at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|各バージョンの [!DNL Adobe Target] at.js JavaScript ライブラリ。|
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

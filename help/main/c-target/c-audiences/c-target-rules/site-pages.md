@@ -4,10 +4,10 @@ description: 訪問者をターゲットにする方法については、 [!DNL 
 title: サイトページに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 25%
+source-wordcount: '891'
+ht-degree: 24%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 25%
 
    この動作が要件を満たさない場合は、次のいずれかの操作を実行することを検討してください。
 
-   * パス [mbox パラメーター](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} を [!DNL Target] を使用して、ターゲティングの目的で使用します。
+   * パス [mbox パラメーター](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} から [!DNL Target] を使用して、ターゲティングの目的で使用します。
    * を使用します。 [A/B テストアクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) ランディングページアクティビティの代わりに使用します。 A/B テストアクティビティは、同じ訪問者のエクスペリエンスを切り替えません。
    * の使用 [訪問者プロファイル](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) 代わりに、
 
@@ -137,7 +137,7 @@ ht-degree: 25%
    * 0.7 で終わる
    * 0.8 で終わる。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ: オーディエンスの作成
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

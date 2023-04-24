@@ -5,7 +5,7 @@ title: レコメンデーションキーに基づくレコメンデーション�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ ht-degree: 37%
 
 ## 買い物かごベース {#cart-based}
 
-この [!UICONTROL 買い物かごベース] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいてレコメンデーションされる品目を指定できます。 レコメンデーションキーは、を通じて提供されます。 [mbox パラメーター `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} コンマ区切り値で指定します。 最初の 10 個の値のみが考慮されます。
+この [!UICONTROL 買い物かごベース] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいてレコメンデーションされる品目を指定できます。 レコメンデーションキーは、を通じて提供されます。 [mbox パラメーター `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} コンマ区切り値で指定します。 最初の 10 個の値のみが考慮されます。
 
 買い物かごベースのレコメンデーションロジックは、「[!UICONTROL お勧め]」ユーザーベースのアルゴリズムと[!UICONTROL これらを閲覧した人が購入したもの]&quot;および&quot;[!UICONTROL これらを購入した人が購入したもの]」項目ベースのアルゴリズム。
 

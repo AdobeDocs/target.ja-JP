@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2842'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **データを入力**:収集した訪問者のビューおよび購入の形式の行動データ [Target の実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **モデルトレーニング**:
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](https://developer.adobe.com/target/実装/レコメンデーション/){target=_blank}.
+* **データを入力**:前述のように、このアルゴリズムは、純粋にカタログデータに基づいています ( [!DNL Target] 経由 [カタログフィード、エンティティ API、またはページ上の更新から](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **モデルトレーニング**:
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
 これらの手順の詳細は次のとおりです。
 
-* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **データを入力**:これは、品目 — 品目協調フィルタリング (CF) メソッドと同じです。 [!UICONTROL 両方をお勧めします] および買い物かごベースのアルゴリズムは、ユーザーが収集した閲覧と購入の形式で、行動データを使用します。 [Target の実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **モデルトレーニング**:
 

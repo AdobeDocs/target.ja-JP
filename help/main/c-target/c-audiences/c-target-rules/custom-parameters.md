@@ -4,10 +4,10 @@ description: カスタムパラメーターをに渡す方法を説明します�
 title: カスタムパラメーターに基づいて訪問者をターゲット設定することはできますか？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 43%
+source-wordcount: '495'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 カスタムパラメーターは、 [!DNL Adobe Target]. mbox に対して mbox パラメーターを渡す場合、または `targetPageParams` 関数で指定した場合、これらのパラメーターはオーディエンスで使用するためにここに表示されます。
 
-詳しくは、 [グローバル mbox にパラメーターを渡す](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
+詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 

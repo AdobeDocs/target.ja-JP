@@ -4,10 +4,10 @@ description: JavaScript ライブラリ（AEP Web SDK at.js）、アドビデー
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+workflow-type: tm+mt
+source-wordcount: '2565'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 [!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用して、[!DNL Target] を web サイトに統合することが可能です。
 
-* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} にアップデートすることをお勧めします。
+* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} にアップデートすることをお勧めします。
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
-* [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja)
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [ [!DNL Target] を使用した  [!DNL Adobe Experience Platform] の実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションを行う、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
@@ -134,7 +134,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 >
 >[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。中国内のファイアウォールおよびエッジクラスター不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}を参照してください。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

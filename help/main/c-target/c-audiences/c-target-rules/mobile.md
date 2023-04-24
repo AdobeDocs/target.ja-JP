@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: モバイルオプションに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 39%
+source-wordcount: '673'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（またはそれ以降）{target=_blank}。
+>Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択は、OR 演算子で結合されます。
 
@@ -79,7 +79,7 @@ iOS 12.2（またはそれ以降）の更新は、次のモデルの識別に影
 
 モバイルルールを使用して、macOS上で Safari バージョン 14.0.2（またはそれ以降）を実行しているデバイスをターゲットにする場合、Appleのユーザーエージェントと DeviceAtlas に関する既知の問題が原因で、 [!DNL Target] は、MacおよびiPadデバイス上の Safari を誤って識別します。 この問題は、今後対応する予定です。
 
-## トレーニングビデオ：オーディエンスの作成
+## トレーニングビデオ: オーディエンスの作成
 
 このビデオでは、オーディエンスのカテゴリの使用について説明しています。
 

@@ -5,9 +5,9 @@ title: ' [!DNL Target]  Recommendations に関する質問と回答'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '3399'
+source-wordcount: '3400'
 ht-degree: 91%
 
 ---
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には[互換性のない条件をフィルタリング](https://developer.adobe.com/target/implement/recommendations/){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
+[!DNL Target] には[互換性のない条件をフィルタリング](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >

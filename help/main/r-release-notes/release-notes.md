@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 93%
 
 ---
 
@@ -51,14 +51,14 @@ ht-degree: 100%
 
 * `trackEvent` 関数が常にエラーを返す問題を修正しました。
 
-すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}を参照してください。
 
 ## その他のリリースノートとバージョンの詳細
 
 | リソース | 詳細 |
 |--- |--- |
-| [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja){target=_blank} | Platform Web SDK の各バージョンの変更点に関する詳細です。 |
-| [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
+
+|[リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja)|Platform Web SDK の各バージョンでの変更の詳細です。| |[at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|各バージョンの [!DNL Adobe Target] at.js JavaScript ライブラリ。|
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート
 

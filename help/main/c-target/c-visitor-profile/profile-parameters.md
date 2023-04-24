@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 100%
+source-wordcount: '2455'
+ht-degree: 93%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 100%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバル mbox にパラメーターを渡す](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}を参照してください。<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。以下の「プロファイルスクリプト属性」を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
-関連する JavaScript コードスニペットを使用して、プロファイルスクリプト属性を定義します。
+プロファイルスクリプトの属性は、関連する JavaScript コードスニペットを使用して定義します。
 
 プロファイルスクリプトを使用して、複数の訪問にわたり、訪問者の属性を取得できます。プロファイルスクリプトは、サーバーサイドの JavaScript の形式を使用して、[!DNL Target] 内で定義するコードスニペットです。例えば、プロファイルスクリプトを使用して、訪問者がサイトを訪問する頻度や前回の訪問日時を取得できます。
 
@@ -70,12 +70,12 @@ if (mbox.name == 'Track_Interest') {
 
 次の事項に注意してください。
 
-* コード内で、`user.get('parameterName')` を使用して、プロファイルスクリプト属性をいくつか参照します（定義中のパラメーター自体も含む）。
-* `user.setLocal('variable_name', 'value')` を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。変数を参照 `user.getLocal('variable_name')` します。このプロセスは、最後のリクエストの日時を参照する場合に便利です。
+* `user.get('parameterName')` を含むコード内で、プロファイルスクリプト属性（それ自体を含む）を参照します。
+* `user.setLocal('variable_name', 'value')` を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。`user.getLocal('variable_name')` の変数を参照します。このプロセスは、最後のリクエストの日時を参照する場合に便利です。
 
    これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。
 
-* パラメーターと値は、大文字と小文字を区別します。オーディエンスまたはテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
+* パラメーターと値は、大文字と小文字を区別します。アクティビティやテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
 * その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
 * スクリプトを無効にした後も、パラメーターはプロファイルに残ります。ユーザーのプロファイルに、アクティビティのオーディエンスで使用されているパラメーターが含まれている場合、そのユーザーはそのアクティビティに適格となります。
 * アクティビティで使用されている間はプロファイルスクリプトを削除できません。
@@ -83,7 +83,7 @@ if (mbox.name == 'Track_Interest') {
 
 ## プロファイルスクリプト情報カードの表示 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-オファー情報カードに似たプロファイルスクリプト情報ポップアップカードを表示できます。これらのプロファイルスクリプト情報カードでは、選択したプロファイルスクリプトを参照しているアクティビティのリストやその他の有用なメタデータが表示されます。
+プロファイルスクリプトの情報については、オファー情報カードと同様のポップアップカードを表示できます。これらのプロファイルスクリプト情報カードでは、選択したプロファイルスクリプトを参照しているアクティビティのリストやその他の有用なメタデータが表示されます。
 
 例えば、次のプロファイルスクリプト情報カードは、[!UICONTROL 情報]リストから目的のプロファイルスクリプトのアイコン（[!UICONTROL オーディエンス]／[!UICONTROL プロファイルスクリプト]）をクリックします。
 
@@ -93,11 +93,11 @@ if (mbox.name == 'Track_Interest') {
 
 「**[!UICONTROL 詳細を表示]**」をクリックして、選択したプロファイルスクリプトを参照するオーディエンスとアクティビティを確認します。
 
-![プロファイルスクリプト情報カード／「スクリプトの使用状況」タブ](assets/profile_script_info_card_usage_tab.png)
+![プロファイルスクリプト情報カード／「スクリプトのスクリプトの使用状況」タブ](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->次の状況では、選択したプロファイルスクリプトを参照するアクティビティは「[!UICONTROL スクリプトの使用]」タブに表示されません。
+>次の状況では、選択したプロファイルスクリプトを参照するアクティビティは「[!UICONTROL スクリプトの使用状況]」タブに表示されません。
 >
 > * アクティビティのステータスが[!UICONTROL ドラフト]の場合。
 > * アクティビティで使用されるコンテンツまたはオファーが、スクリプト変数（アクティビティ内のインラインオファーまたはオファーライブラリ内のオファー）を使用する場合。
@@ -132,7 +132,7 @@ if (mbox.name == 'Track_Interest') {
 * 実行回数を制限しないで for ループや while ループを使用することはせず、有限回数の for ループを使用します。
 * 文字列の長さは 1,300 文字、ループ回数は 50 回を超えないようにします。
 * JavaScript 命令は 2,000 個を超えないようにします。[!DNL Target] には、スクリプトあたり 2,000 の JavaScript 命令という制限がありますが、これを手作業で JavaScript を読んで単純に計算することはできません。例えば、Rhino は、すべての関数呼び出しと「新規」呼び出しを 100 個の命令として処理します。また、すべてのエントリデータのサイズ（URL 値など）は、命令数に影響を与える可能性があります。
-* スクリプトのパフォーマンスだけでなく、組み合わされたすべてのスクリプトのパフォーマンスにも注意してください。ベストプラクティスとして、[!DNL Adobe] では、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、手順が 2,000 を超えるスクリプトは自動的に無効になることです。アクティブなプロファイルスクリプトの数は 300 を超えないようにしてください。各スクリプトは、mbox が 1 回呼び出されるたびに実行されます。必要なスクリプトだけを実行します。
+* スクリプトのパフォーマンスだけでなく、すべてのスクリプトを組み合わせた総合的なパフォーマンスにも注意してください。ベストプラクティスとして、[!DNL Adobe] では、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、手順が 2,000 を超えるスクリプトは自動的に無効になることです。アクティブなプロファイルスクリプトの数は 300 を超えないようにしてください。各スクリプトは、mbox が 1 回呼び出されるたびに実行されます。必要なスクリプトだけを実行します。
 * 正規表現では、先頭にドットとアスタリスクを置く（例：`/.*match/`、`/a|.*b/`）のはほとんど必要ありません。正規表現検索は、文字列のすべての位置から開始（`^` でバインドされている場合を除く）されるので、ドットとアスタリスクは既に想定されています。そうした正規表現が十分な長さ（数百文字以下）の入力データに一致すると、スクリプトの実行は中断されます。
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
 * 次の推奨事項を参考にして、プロファイルスクリプトの複雑さを制限できます。プロファイルスクリプトで実行できる命令の数は制限されています。
@@ -143,7 +143,7 @@ if (mbox.name == 'Track_Interest') {
    * 正規表現を使用しないか、単純な正規表現のみを使用します。単純な式でも、評価には多くの命令を受けることができます。
    * 再帰を避けます。
    * プロファイルスクリプトを [!DNL Target] に追加する前に、パフォーマンステストを行う必要があります。すべてのプロファイルスクリプトは、すべての mbox リクエストで実行されます。プロファイルスクリプトが正しく実行されない場合、mbox リクエストの実行に時間がかかり、トラフィックとコンバージョンに影響が及ぶ可能性があります。
-   * プロファイルスクリプトが複雑すぎる場合は、代わりに、[レスポンストークン](/help/main/administrating-target/response-tokens.md)の使用を検討します。
+   * プロファイルスクリプトが複雑になりすぎた場合は、代わりに、[レスポンストークン](/help/main/administrating-target/response-tokens.md)の使用を検討します。
 
 * 詳細は、JS Rhino エンジンのドキュメントを参照してください。
 
@@ -163,7 +163,7 @@ if (mbox.name == 'Track_Interest') {
 
    ![debug_profile_script_1 画像](assets/debug_profile_script_1.png)
 
-* **mboxTrace デバッグツールを使用してプロファイルスクリプトをデバッグします。**
+* **mboxTrace デバッグツールを使用して、プロファイルスクリプトをデバッグする**
 
    このメソッドでは、[!UICONTROL デバッガーツール]セクションの&#x200B;**[!UICONTROL Target]**／**[!UICONTROL 管理]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
 
@@ -177,13 +177,13 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の[データを Target に送信する方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}を使用する必要があります。データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 
 スクリプトプロファイルパラメーターを効率的に使用するには、JavaScript に関する基本的な知識が必要です。このセクションは、この機能を使用してわずか数分で生産性を高めるためのクイックリファレンスの役割を担います。
 
-スクリプトプロファイルパラメーターは、「mbox/プロファイル」タブの下にあります。JavaScript の種類（文字列、整数、配列など）を返す JavaScript プログラムを記述できます。
+スクリプトプロファイルパラメーターは、「mbox/プロファイル」タブに表示されます。JavaScript の種類（文字列、整数、配列など）を返す JavaScript プログラムを記述できます。
 
 ### スクリプトプロファイルパラメーターの例 {#examples}
 
@@ -246,23 +246,23 @@ else if (mbox.param("adobeQA"))
 | `page.url` | 現在の URL。 |
 | `page.protocol` | このページに使用するプロトコル（http または https）。 |
 | `page.domain` | 現在の URL ドメイン（最初のスラッシュより前のすべて）。例えば、`http://www.acme.com/categories/men_jeans?color=blue&size=small` の `www.acme.com`。 |
-| `page.query` | 現在のページのクエリ文字列。?の後のすべて。例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
-| `page.param(‘<par_name>’)` | `<par_name>` に示すパラメーターの値。現在の URL が Google の検索ページであり、`page.param('hl')` を入力していた場合、URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` の「en」が取得されます。 |
-| `page.referrer` | 上記と同じ一連の操作がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
+| `page.query` | 現在のページのクエリ文字列。？の後のすべて。 例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
+| `page.param('<par_name>')` | `<par_name>` に示すパラメーターの値。現在の URL がGoogleの検索ページであり、 `page.param('hl')`を使用する場合、URL の「en」が取得されます。 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.referrer` | 上記と同じ一連の処理がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
 | `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。 |
 | `mbox.name` | アクティブな mbox の名前。 |
-| `mbox.param(‘<par_name>’)` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
-| `profile.get(‘<par_name>’)` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile.gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。`profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
-| `user.get(‘<par_name>’)` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
+| `mbox.param('<par_name>')` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
+| `profile.get('<par_name>')` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」という名前のプロファイルパラメーターを設定した場合、値は「profile.gender」を使用して抽出できます。 「`profile.<par_name>`&quot;現在の訪問者に設定。値が設定されていない場合は null を返します。 `profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
+| `user.get('<par_name>')` | 「`user.<par_name>`&quot;現在の訪問者に設定。値が設定されていない場合は null を返します。 |
 | `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
 | `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
 | `user.isFirstSession` | 訪問者の最初のセッションの場合は true が返されます。 |
-| `user.browser` | HTTP ヘッダーにユーザーエージェントが返されます。例えば、Safari ユーザーのみを対象とするターゲット式 を作成できます。`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
+| `user.browser` | HTTP ヘッダーにユーザーエージェントが返されます。例えば、Safari ユーザーのみを対象とするターゲット式を作成できます（`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }`）。 |
 
 ### 共通演算子
 
 
-すべての標準 JavaScript 演算子が存在し、使用可能です。JavaScript 演算子は、文字列および数字（他のデータタイプも同様）に使用できます。簡単な説明：
+すべての標準 JavaScript 演算子が存在し、使用可能です。JavaScript 演算子は、文字列および数字（他のデータタイプも同様）に使用できます。以下はその簡単な説明です。
 
 | 演算子 | 説明 |
 | --- | --- |
@@ -272,8 +272,8 @@ else if (mbox.param("adobeQA"))
 | `>` | 左辺の変数が右辺の変数より大きいことを示します。変数が等しい場合は false に評価されます。 |
 | `<=` | `<` と同様に、変数が等しい場合を除いて true に評価されます。 |
 | `>=` | `>` と同様に、変数が等しい場合を除いて true に評価されます。 |
-| `&&` | 論理演算子「AND」の左右に式を書いた場合は、両辺の式がともに true の場合にのみ true になります（そうでなければ false になります）。 |
-| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
+| `&&` | 論理積 (ANDs) を使用して、左右の式を論理積 (AND) します。両辺の式が true の場合にのみ true になります（そうでない場合は false になります）。 |
+| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでない場合は false になります）。 |
 | `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコードします。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
 ## トレーニングビデオ：プロファイルスクリプト ![チュートリアルバッジ](/help/main/assets/tutorial.png)

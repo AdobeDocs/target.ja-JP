@@ -4,7 +4,7 @@ description: Adobe Targetのプロファイルスクリプトで役立つ様々�
 title: どのプロファイル、変数、パラメーターが使用されるか [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 78%
@@ -82,7 +82,7 @@ ht-degree: 78%
 | mbox.param(&#39;param_name&#39;) |  |
 | リクエストごとに自動的に渡されるパラメーター：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 発注 mbox と共に渡されるパラメーター：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}。 |
+| mbox3rdPartyId | 顧客 ID と Target の mboxPCID を同期するための mbox パラメーター。顧客 ID は、CRM ID やメンバーシップ ID など、会社が訪問者を追跡するために使用する ID です。そのため、この ID は、プロファイル API および [顧客属性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | mbox の呼び出しごとに、ページに値が割り当てられます。 |
 | mboxDebug | デバッグ情報にのみ使用されます。at.js が探すページ URL に追加されます。 |
 | mboxOverride.browserIp | 実際の場所とは異なる地域を設定して、別の場所でどのように表示されるかをテストできます。<br>**注意：** mboxOverride パラメーターは、アクティビティをテストするときにのみ使用し、実稼動環境で使用しないでください。任意のmboxOverrideパラメーターを使用すると、Analytics for [Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する際にレポートの相違が生じる可能性があります。アクティビティをテスト中に [アクティビティQAモード](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して、アクティビティが本番環境にプッシュされる前に期待どおりに動作することを確認してください。 |
