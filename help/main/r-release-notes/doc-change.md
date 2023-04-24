@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2463'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 93%
 |  | [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新規トピックです。この機能は、テスト目的で「プレリリース」ステータスになっています。 |
 | 4月5日（PT） | [オファーの決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | [!UICONTROL レポートソースとしての Analytics]（A4t）は、オファーの決定を使用するアクティビティではサポートされていないことを示すテキストを追加しました。 |
 | 4月3日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年4月12日水曜日（PT）に予定されている [!UICONTROL Adobe Target コミュニティ]のコーヒーブレイクに関する情報を追加しました。 |
-|  | [Target のエッジノードを許可リストに登録](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | [!DNL Adobe Analytics] のすべての IP アドレスブロックを許可リストに登録するためのメモを追加しました。 |
+|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | [!DNL Adobe Analytics] のすべての IP アドレスブロックを許可リストに登録するためのメモを追加しました。 |
 | 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]機能用に最適化された A4T 指標のリリースに関するリリースノートを更新しました。これにより、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティに [!UICONTROL A4T] を使用する際に、二項イベントに基づく指標または連続イベントに基づく指標を選択できます。 |
 |  | [[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新された「サポート対象の目標指標」の節には、[!UICONTROL Analytics for Target]（A4T）を使用した[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用のサポート対象（およびサポート対象外）の指標に関する情報が含まれます。 |
 |  | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank} | 次のチュートリアルを更新しました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |

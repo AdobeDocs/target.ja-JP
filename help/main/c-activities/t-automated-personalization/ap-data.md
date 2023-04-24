@@ -5,9 +5,9 @@ title: 機械学習アルゴリズムを構築するために収集されるデ�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 53%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 53%
 
 機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、 [モデル API(ブロックリストに加える) の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 内 *Adobe Target Developer Guide*.
+詳しくは、 [モデル API(ブロックリストに加える) の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} 内 *Adobe Target Developer Guide*.
 
 ## デバイスとモバイルデータ {#device-mobile}
 

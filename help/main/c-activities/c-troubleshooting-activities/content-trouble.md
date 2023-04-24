@@ -4,10 +4,10 @@ description: ページに期待した内容が表示されない場合は、問�
 title: コンテンツ配信のトラブルシューティング方法を教えてください。
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 96%
+source-wordcount: '1667'
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、 [Adobe Experience Cloud Debugger を使用した at.js のデバッグ](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+詳しくは、 [Adobe Experience Cloud Debugger を使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Recommendations にトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target は、IE 8 をサポートしていません。
 
 ## Target の Cookie が設定されない {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)」を参照してください。{target=_blank} を参照してください。
+サイトにサブドメイン（[!DNL us.domain.com] など）がある場合で Target の cookie を（[!DNL domain.com] ではなく）[!DNL us.domain.com] に設定する必要がある場合、`cookieDomain` 設定を上書きする必要があります。詳しくは、「[targetGlobalSettings（）](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html)」を参照してください。{target=_blank} を参照してください。
 
 ## 要素が Adobe Experience Manager パーソナライゼーションにも含まれていると、Target のコンテンツがちらつく、または表示されない。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 追加のテンプレートルールを含めるには、次のオプションを使用できます。
 
-### オプション 1：URL を複製し、「contains」オプションを使用してテンプレートルールに保持する。
+### オプション 1:URL をレプリケートし、「次を含む」オプションを使用して、テンプレートルールに保持します。
 
 このオプションを使用すると、その URL がアクティビティに適格であることは保証できますが、ベース URL を含む URL にレコードが追加されることで、レポートデータに影響を与える可能性があるコーナーケースが伴うことに注意が必要です。
 
@@ -173,7 +173,7 @@ URL にクエリ文字列パラメーターが含まれている場合はどう�
 
 ![テンプレートルールに URL を複製](assets/option1.png)
 
-### オプション 2：クエリ文字列のみを使用して、URL の「contains」条件を制限する。
+### オプション 2:クエリ文字列のみを使用して、URL の「contains」条件を制限します。
 
 前のオプションで説明したコーナーケースはこのオプションでも当てはまりますが、ここでは、条件付き設定はクエリ文字列にのみに限られます。
 

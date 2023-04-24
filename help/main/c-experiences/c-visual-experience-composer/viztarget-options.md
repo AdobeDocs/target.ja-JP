@@ -4,9 +4,9 @@ description: で使用可能なオプションの詳細 [!DNL Adobe Target] [!UI
 title: 使用方法 [!UICONTROL Visual Experience Composer] (VEC) オプション
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2923'
 ht-degree: 62%
 
 ---
@@ -372,7 +372,7 @@ A/B テスト（自動配分および自動ターゲットなど）およびエ�
 
 ## 注意点 {#considerations}
 
-* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。{target=_blank}
+* オファーに HTML コンテンツが含まれる場合、詳しくは、[at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html) の「at.js による HTML コンテンツを使用したオファーのレンダリング方法」を参照してください。{target=_blank}
 
 ## カスタム要素のサポート {#custom}
 
@@ -380,9 +380,9 @@ VEC はをサポートしています。 [Web コンポーネント](https://dev
 
 >[!NOTE]
 >
->カスタム要素の VEC サポートは、 [at.js バージョン](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (or later){target=_blank}. Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
+>カスタム要素の VEC サポートは、 [at.js バージョン](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Web サイトに必要なバージョンがデプロイされていることを確認します。 を使用している場合、 [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)また、必要なバージョンの at.js をデプロイする必要があります。 上記の VEC オプションは表示されず、サポートされていないバージョンの at.js で使用できます。
 >
->現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+>現在、カスタム要素の VEC サポートは、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ほとんどの VEC アクションは、カスタムイベントとカスタムイベント内でサポートされますが、次の例外があります。
 

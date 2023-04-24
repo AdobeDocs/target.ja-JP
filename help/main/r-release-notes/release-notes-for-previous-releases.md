@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '35948'
+source-wordcount: '35960'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->VEC で作成した変更を確実に配信するには、バージョン 2.8 以上の [!DNL Target] SDK（[at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja){target=_blank}（alloy.js））を使用していることを確認します。
+>VEC で作成した変更を確実に配信するには、バージョン 2.8 以上の [!DNL Target] SDK（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja){target=_blank}（alloy.js））を使用していることを確認します。
 
 **既知の問題**：[!DNL Adobe Experience Platform Web SDK] を使用している場合、シャドウルート要素のクリックトラッキングが正しく機能しません。（TNT-47012）
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 * `trackEvent` 関数が常にエラーを返す問題を修正しました。
 
-すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}を参照してください。
 
 ### [!DNL Target] Standard／Premium 22.14.5（2023年2月13～15日（PT））
 
@@ -70,7 +70,7 @@ ht-degree: 95%
 * 名前にドットの付いたパラメーターを含むオーディエンスルールが関与するアクティビティが、オンデバイス判定で期待したエクスペリエンスを返さなかったというバグを修正しました。
 * `mboxDisable` が有効であった場合でも、at.js で配信呼び出しが実行されていた at.js 2.6.0 で導入されたバグを修正しました。
 
-すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
+すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}を参照してください。
 
 ### [!DNL Target] Standard／Premium 22.13.3（2023年1月25〜26日（PT）） 
 
@@ -93,7 +93,7 @@ ht-degree: 95%
 * アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
 * [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
 * 名前にドット文字「.」を含む [!DNL Analytics] レポートスイートを[!DNL Target] UI で使用して、[!DNL Analytics] 分類フィードを作成できるように変更しました。
-* サポート対象のすべての SDK（Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の[!UICONTROL 実装]ページ（[!UICONTROL 管理]／[!UICONTROL 実装]）のリンクを変更をしました。詳しくは、[Target SDK の開始方法](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}を参照してください。
+* サポート対象のすべての SDK（Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の[!UICONTROL 実装]ページ（[!UICONTROL 管理]／[!UICONTROL 実装]）のリンクを変更をしました。詳しくは、[Target SDK の開始方法](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}を参照してください。
 * [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
 * 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。

@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe  [!DNL Target]  を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '530'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2023年4月19日（PT）（[変更点を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2023年4月24日（PT）（[変更点を参照](r-release-notes/doc-change.md)）**
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務に基づいて、オーディエンス別に分かれています。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 - Target と Adobe Experience Cloud の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md) など）を統合する方法について説明します。
 - [Adobe Target のチュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)：Target を最大限に活用するためのチュートリアルとビデオを提供します。
 - [Target のトラブルシューティング](r-troubleshooting-target/troubleshooting-target.md)：[!DNL Target] のアクティビティやその他の要素に影響する文字制限とその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報を含む、このガイドに含まれるトラブルシューティング情報へのリンクを提供します。
-- [モバイルアプリのための Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：モバイルアプリの最適化とパーソナライゼーションを行うために、[!DNL Target] をどのように使用できるかを説明します。
+- [モバイルアプリのための Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}：モバイルアプリの最適化とパーソナライゼーションを行うために、[!DNL Target] をどのように使用できるかを説明します。
 - [リソースと連絡先情報](cmp-resources-and-contact-information.md)： [!DNL Target] の機能を学ぶ際に役立つ追加の資料や、[!DNL Adobe] への問い合わせ方法についての情報を提供します。
 
 ## マーケター {#marketers}
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 開発者  {#developers}
 
-- [Adobe Target 開発者ガイド](https://developer.adobe.com/target/){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
+- [Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 
@@ -68,4 +68,4 @@ ht-degree: 0%
 
 | Adobe [!DNL Target] ソリューションに関するヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Target コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Target コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |

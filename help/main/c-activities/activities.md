@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] を使用すると、特定のオーディエ�
 title: Target を使用してコンテンツをパーソナライズし、ページデザインをテストする方法を教えてください。
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2073'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | URL | URL は、名前の下に薄い色のテキストで表示されます。<br>アクティビティの URL は、アクティビティが表示される場所を示します。これにより、アクティビティをすばやく特定して、特定のページで既にテストが実行されているかどうかを判断できます。<br>テストが複数の URL で実行されている場合は、他に使用されている URL の数を示すリンクが表示されます。該当するアクティビティのすべての URL のリストを表示するには、このリンクをクリックします。<br>URL に基づいて検索できます。検索ボックスの横にあるドロップダウンリストを使用し、「[!UICONTROL URL を検索]」を選択します。 |
 | ステータス | アクティビティのステータスは、次のいずれかになります。<ul><li>**ライブ**：アクティビティは現在実行中です。</li><li>**ドラフト**： アクティビティの設定は開始していますが、アクティビティはまだ実行できる状態ではありません。</li><li>**スケジュール済み**：アクティビティは、指定された開始日時になるとアクティブ化されます。</li><li>**非アクティブ**：アクティビティは一時停止しているか、非アクティブになっています。</li><li>**同期中**： アクティビティは保存済みで、Target 配信ネットワークと同期中です。</li><li>**終了**： アクティビティの指定終了日時になり、アクティビティが提供されなくなりました。</li><li>**アーカイブ済み**： アクティビティはアーカイブされています。アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul>**メモ**：API メソッドを使用して UI 外でアクティビティをアクティブ化するなどの、特定のアクションを実行した場合は、更新内容が UI に反映されるまで最大 10 分かかる場合があります。 |
 | ソース | アクティビティが作成された場所を示します。<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager（AEM）</li><li>Adobe Mobile Services（AMS）</li></ul> |
-| オンデバイス判定の対象 | オンデバイス判定の対象となるアクティビティを作成すると、オンデバイス判定の対象となるラベルがアクティビティの概要ページに表示されます。<br>このラベルは、アクティビティが常にオンデバイス判定経由で配信されるとは限りません。 at.js 2.5.0 以降がオンデバイス判定を使用するように設定されている場合にのみ、このアクティビティはデバイス上で実行されます。 at.js 2.5.0 以降がオンデバイスを使用するように設定されていない場合、このアクティビティは、at.js からおこなわれるサーバー呼び出しを介して引き続き配信されます。<br>詳しくは、 [オンデバイス判定](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}. |
+| オンデバイス判定の対象 | オンデバイス判定の対象となるアクティビティを作成すると、オンデバイス判定の対象となるラベルがアクティビティの概要ページに表示されます。<br>このラベルは、アクティビティが常にオンデバイス判定経由で配信されるとは限りません。 at.js 2.5.0 以降がオンデバイス判定を使用するように設定されている場合にのみ、このアクティビティはデバイス上で実行されます。 at.js 2.5.0 以降がオンデバイスを使用するように設定されていない場合、このアクティビティは、at.js からおこなわれるサーバー呼び出しを介して引き続き配信されます。<br>詳しくは、 [オンデバイス判定](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
 | プロパティ | アクティビティの[プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。 |
 | 収益の推定上昇率 | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<br>計算式は次のとおりです。<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>短縮形の表記で小数点の前が 1 桁だけの場合、この番号は少数第 2 位までで四捨五入されます。例： $1.6M、$60K、$900、$8.5K、$205K<br>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、この列には「---」と表示されます。<br>詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
 | 最終更新日 | アクティビティが最後に更新された日付と更新者の名前。 |

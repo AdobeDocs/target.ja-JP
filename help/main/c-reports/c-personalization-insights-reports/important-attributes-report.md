@@ -5,9 +5,9 @@ title: 重要な属性レポートとは何ですか。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1855'
 ht-degree: 73%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 73%
 
 この [!UICONTROL モデル API]は API とも呼ばれブロックリスト、の機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ 1 つ以上の属性を、AP または AT アクティビティでモデルが使用するのを除外する場合は、モデル API を使用して、これらの属性を「」に追加できまブロックリストす。
 
-詳しくは、 [モデル API の概要](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+詳しくは、 [モデル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### [!UICONTROL 自動セグメント]レポートと[!UICONTROL 重要な属性]レポートの情報は、CSV ダウンロードの情報と同じですか？
 

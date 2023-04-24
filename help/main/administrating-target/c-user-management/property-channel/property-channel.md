@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 57%
 
 ---
@@ -252,7 +252,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
    今後のリリースで、`at_property` トークンがないページや、異なる `at_property` トークンがあるページでも、Target が機能するようになります。
 
-* [Adobe I/O の API 呼び出し](https://developer.adobe.com/target/){target=_blank}では、Enterprise ユーザーの権限機能がサポートされていません。
+* Adobe I/O の API 呼び出しでは、Enterprise ユーザーの権限機能がサポートされていません。
 
 ## よくある質問 {#faqs}
 

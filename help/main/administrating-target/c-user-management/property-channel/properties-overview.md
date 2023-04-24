@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 67%
+source-wordcount: '1448'
+ht-degree: 66%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 67%
 
 ### ワークスペース ID の取得 {#workspace-id}
 
-Enterprise 権限を活用するには、ワークスペース ID を渡す必要があります。 [Target API](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Enterprise 権限を活用するには、ワークスペース ID を渡す必要があります。 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. [Adobe Admin Console ](https://adminconsole.adobe.com)で 、[!UICONTROL 「製品」] タブをクリックし、左側のメニューで製品をクリックして、PLC（ワークスペース）」リストを表示します。
 1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
@@ -159,7 +159,7 @@ Enterprise 権限を活用するには、ワークスペース ID を渡す必�
       </script>
       ```
 
-      at.js を使用してこれをおこなう方法について詳しくは、 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      at.js を使用してこれをおこなう方法について詳しくは、 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## 手順 6:役割と権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

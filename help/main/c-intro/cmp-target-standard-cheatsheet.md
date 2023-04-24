@@ -4,9 +4,9 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2750'
 ht-degree: 97%
 
 ---
@@ -33,7 +33,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **Target はどのブラウザーをサポートしていますか？**
 
-詳細については、「[サポートされているブラウザー](https://developer.adobe.com/target/before-implement/supported-browsers/)」のマトリックスを参照してください。{target=_blank}Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)」のマトリックスを参照してください。{target=_blank}Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -305,14 +305,8 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 ご迷惑をおかけして大変申し訳ありません。トラブルシューティングについては、トラブルシューティングに関する様々なトピックへのリンクについては、「[Target のトラブルシューティング](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)」を参照してください。
 
-## Target モバイルアプリ {#section_07BA89F2C38747158ECD5B153274AEAF}
-
-**モバイル SKU を使用しています。モバイルアクティビティを作成できますか？**
-
-モバイルでの最適化とパーソナライゼーションの場合は、 [フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) と [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
-
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API の詳細はどこで確認できますか？**
 
-API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://developer.adobe.com/target/実装/サーバー側/){target=_blank}.
+API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

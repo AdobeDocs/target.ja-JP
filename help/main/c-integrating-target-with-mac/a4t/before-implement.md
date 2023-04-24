@@ -4,10 +4,10 @@ description: Analytics for Analytics の実装要件について説明します�
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 26%
+source-wordcount: '988'
+ht-degree: 24%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->以下の要件で、 *最小* at.js のバージョンは、A4T の実装に必要です。 この [!DNL Target] チームが管理しているのは 2 つのバージョンのみ [!DNL at.js] — 現在のバージョンと 2 番目の最新バージョン。 必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>以下の要件で、 *最小* at.js のバージョンは、A4T の実装に必要です。 この [!DNL Target] チームが管理しているのは 2 つのバージョンのみ [!DNL at.js] — 現在のバージョンと 2 番目の最新バージョン。 必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### A4T でリダイレクトオファーを使用 *しない* 場合に必要な要件
 
@@ -41,7 +41,7 @@ ht-degree: 26%
 * [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### A4T でリダイレクトオファーを使用する場合に必要な要件
 
@@ -59,7 +59,7 @@ A4T でリダイレクトオファーを使用する場合は、次のバージ�
 
 ダウンロードおよびデプロイの手順については、 [Analytics for Target の実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
