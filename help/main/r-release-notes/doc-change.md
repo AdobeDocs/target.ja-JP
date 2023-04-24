@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2502'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 4月24日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のAdobe Target Community Coffee Break Q&amp;A に関する情報を追加しました。<ul><li>認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション</li></ul> |
-| 3月28日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 リリースに関するリリースノートを追加しました。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.3.1（2023年3月28～30日（PT））
 
