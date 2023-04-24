@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 95%
+source-wordcount: '2152'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,29 @@ ht-degree: 95%
 Gartner は、最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
+
+## [!UICONTROL Adobe Target Community] コーヒーブレーク Q&amp;A:認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション
+
+* **2023年4月26日水曜日（PT）**
+* **【午後】1 時 00 分(EDT、UTC-4)**
+* **[登録情報](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+結合 [!DNL Adobe Target] Brent Kostak 氏、マーケティングマネージャ： [!DNL Target] および [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) は、規制対象の業界におけるエンゲージメント、収益、および顧客の忠誠度の向上を促進します。
+
++++詳細
+
+ブランドは、特定の顧客のニーズや行動に基づいて、高度にパーソナライズされ、関連性の高いエクスペリエンスを提供する必要があります。 マーケティングテクノロジーの cookie を持たない将来に関する質問を投げかけ、規制対象の業界は、より堅牢な顧客エンゲージメントフレームワークを採用し、各顧客インタラクションを適切なコンテンツやオファーに最適化しようとしています。
+
+金融サービス、保険、小売、旅行、接客業、通信業界をまたいだ企業は、認証済みの環境で最適化とパーソナライゼーションを行う際に、どのようにベストプラクティスを採用できますか。 常連客のエンゲージメントとリテンションに関するモバイルアプリの重要性を把握し、ブランドがデジタルセルフサービスを有効にしたり、パーソナライズされたエクスペリエンスで新機能の採用を増やしたりするにはどうすればよいですか。
+
+このセッションでは、以下の方法について説明します。 [!DNL Target] および [!DNL Real-Time Customer Data Platform] は、規制対象の業界におけるエンゲージメント、売上高、および顧客の忠誠度の向上を促します。
+
+* チームが匿名の訪問者と認証済みの訪問者の両方に対してパーソナライズされたエクスペリエンスを提供する方法
+* パーソナライゼーションを使用した消費者の権限とプライバシー標準について
+* ID の匿名化による、認証済み訪問者に対するパーソナライズされたコンテンツおよびオファー
+* Web およびモバイルにまたがる、認証済みのセキュアなサイトのユースケース
+
++++
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 

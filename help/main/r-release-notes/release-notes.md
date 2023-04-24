@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
@@ -19,39 +19,14 @@ ht-degree: 97%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 23.3.1（2023年3月28～30日（PT））
+## [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 26 日～27 日）
 
-このリリースは、以下の時差スケジュールに従って利用できます。
-
-* **3月28日**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **3月29日**：アジア太平洋（APAC）地域
-* **3月30日**：アメリカ地域
-
-このリリースには、以下の新機能、拡張機能および修正が含まれています。
+このリリースには、セキュリティの更新と次の新機能が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
-| [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]の最適化された A4T 指標<p>（リリース日：2023年3月30日（PT）） | [!DNL Target] では、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用の [!UICONTROL A4T] を使用すると、二項イベントに基づいて指標を選択したり、継続イベントに基づいて指標を選択したりできます。<P>サポートされる指標には、次の変更点があることに注意してください。<ul><li>[!DNL Target]2023年9月9日（PT）まで、既存のアクティビティの以前の動作が維持されます。この日以降、既存のアクティビティを新しい動作に強制的に移行するため、サポートされていない指標を使用しているアクティビティは廃止されます。</li></ul>詳しくは、[[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)に対する A4T のサポートの「サポート対象の目標指標」を参照してください。<br>この機能により、次のチュートリアルが更新されました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
-
-* [!DNL Adobe Experience Platform] および [!DNL Adobe Audience Manager] で作成した項目が [!DNL Target] UI でより迅速に使用できるように、オーディエンスとアクティビティの同期を強化しました。（TGT-44568）
-* ユーザーが[!UICONTROL 管理]／[!UICONTROL Visual Experience Composer]／[!UICONTROL デフォルト URL] で[!UICONTROL デフォルト URL] を削除できるように UI を強化しました。この変更により、お客様はデフォルトの URL を空の文字列に戻すことができます。以前は初回設定後にはできませんでした。（TGT-44577）
-* お客様が標準のオーディエンス（予約済みの名前を持つオーディエンス）を編集または削除できないようにする制限を削除しました。（TGT-44655）
-* [結合されたオーディエンス](/help/main/c-target/combining-multiple-audiences.md)を作成する際に、読み込みスピナーが [!DNL Target] UI に表示されている間、「[!UICONTROL 完了]」オプションを無効にしました。（TGT-44079）
-* [!UICONTROL オーディエンス]ページの下部にある[!UICONTROL 言語]リンクを修正して、「[!UICONTROL アカウント通信環境設定]」ページに正しくリンクするようにしました。（TGT-43562）
-* [!UICONTROL 管理]／[!UICONTROL レポート]／[!UICONTROL Experience Cloud のレポートソリューション]で「[!UICONTROL Adobe Analytics]」オプションを選択した後、お客様が [!UICONTROL A/B テスト]アクティビティを作成できない場合があるという問題を解決しました。（TGT-44844）
-* [!UICONTROL Visual Experience Composer]（VEC）内からの多くのエクスペリエンスを含む[!UICONTROL 多変量分析テスト]アクティビティで、お客様が最後のエクスペリエンスを表示できない問題を修正しました。VEC の下部にある [DOM パス](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)により、お客様が最後のエクスペリエンスを表示できないことがありました。（TGT-44578）
-* ページで認証を必要とするか、リダイレクトを呼び出す場合に、VEC の参照 URL が、通常のブラウザーセッションで表示される現在のページを反映しない問題を修正しました。（TGT-44350）
-* お客様が [!UICONTROL Recommendations]／[!UICONTROL 設定]で[!UICONTROL 互換性のない条件をフィルター]設定を変更できない問題を修正しました。（TGT-44398）
-* 名前にドットが含まれるレポートスイートで [!UICONTROL Analytics 分類]を使用すると、[!DNL Recommendations] フィードを作成する POST リクエストが失敗する問題を修正しました。（TGT-44598）
-* [!DNL Target] UI のリンクを更新して、新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)をポイントするようにしました。（TGT-44459）
-* [!DNL Recommendations] フィードでのサーバーサイドリクエストフォージェリ（SSRF）の試行を防ぐためのセキュリティを強化しました。（TGT-43769）
-* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
-
-## at.js バージョン 2.10.2（2023年3月7日（PT））
-
-* `trackEvent` 関数が常にエラーを返す問題を修正しました。
-
-すべての at.js リリースについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}を参照してください。
+| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、 [AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**注意**:この機能は、2023 年 4 月 13 日以降、プレリリース機能として使用できます。 プレリリース機能として、次を使用してテストできます。 [!UICONTROL コンテンツフラグメント] 開発環境とステージング環境を使用するものの、実稼動環境を使用しないもの。 この機能は、2023 年 4 月 27 日にすべてのお客様が利用できるようになります。 |
+| Real-Time CDPプロファイル属性の共有先 [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] はと共有できます [!DNL Target] HTMLと JSON オファーで使用する<P>詳しくは、 [Real-Time CDPプロファイル属性の共有先 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
 
 ## その他のリリースノートとバージョンの詳細
 
