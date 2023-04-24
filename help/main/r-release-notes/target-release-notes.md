@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
+source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 69%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 71%
 | 機能 | 詳細 |
 |--- |--- |
 | ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、 [AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**注意**:この機能は、2023 年 4 月 13 日以降、プレリリース機能として使用できます。 プレリリース機能として、次を使用してテストできます。 [!UICONTROL コンテンツフラグメント] 開発環境とステージング環境を使用するものの、実稼動環境を使用しないもの。 この機能は、2023 年 4 月 27 日にすべてのお客様が利用できるようになります。 |
-| Real-Time CDPプロファイル属性の共有先 [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] はと共有できます [!DNL Target] HTMLと JSON オファーで使用する<P>詳しくは、 [Real-Time CDPプロファイル属性の共有先 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| Real-Time CDPプロファイル属性の共有先 [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] はと共有できます [!DNL Target] HTMLと JSON オファーで使用する<P>詳しくは、 [Real-Time CDPプロファイル属性の共有先 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
 
 ## その他のリリースノートとバージョンの詳細
 
