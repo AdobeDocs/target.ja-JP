@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 75%
+source-wordcount: '374'
+ht-degree: 72%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 75%
 |--- |--- |
 | ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。 |
 | [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>**注意**:この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
-| [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target Developer Guide* は次の場所に移動されました： *Adobe Experience League*. 移動先 *Experience League* テキストを追加言語にローカライゼーションする際に役立ち、 *Experience League* 両方のガイドから検索結果を提供し、さらに多くの利点を提供する。<P>以前の場所からのリダイレクトは、今後数日間に実装されます。 ブックマークしている場合は更新してください。 |
+| [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
