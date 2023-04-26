@@ -5,9 +5,9 @@ title: Analytics と  [!DNL Target]  の統合（A4T）のトラブルシュー�
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->レポートに正しくデータが表示され、分類が完了していない新しいアクティビティが追加されたので、「未指定」に戻ることがあります。 レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかりることに注意してください。
+>新しいアクティビティが追加され、その分類が完了していないために、レポートに正しくデータが表示された後に「未指定」に戻ることがあります。レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかりることに注意してください。
 >
 >「未指定」と表示されていても、データは失われていません。分類が実行された後、データはアクティビティまたはエクスペリエンスに適切に割り当てられます。
 
@@ -43,11 +43,11 @@ ht-degree: 90%
 
 データとともに表示する指標に応じて、レｒポートに「[!UICONTROL 未指定]」のイベント行が表示されることがあります。
 
-通常、この行は、[!DNL Target] 固有ではない（例：[!UICONTROL ページビュー数]、[!UICONTROL 訪問回数]、[!UICONTROL ユニーク訪問者数]など）、レポートの一般的な指標を選択した場合に表示されます。この場合、 [!UICONTROL &quot;未指定&quot;] 行にすべてを含む [!UICONTROL ページビュー数], [!UICONTROL 訪問回数]、および [!UICONTROL 実訪問者数] それは [!DNL Target] アクティビティ。
+通常、この行は、[!DNL Target] 固有ではない（例：[!UICONTROL ページビュー数]、[!UICONTROL 訪問回数]、[!UICONTROL ユニーク訪問者数]など）、レポートの一般的な指標を選択した場合に表示されます。この場合「[!UICONTROL 未指定]」行には、[!DNL Target] アクティビティに関連付けられていない[!UICONTROL ページビュー]、[!UICONTROL 訪問回数]、[!UICONTROL ユニーク訪問者]のすべてが含まれています。
 
-その行には [!DNL Target]関連情報（訪問者数、訪問数、インプレッション数など）。 詳しくは、 [レポートにおける「未指定」、「なし」、「その他」および「不明」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja) 内 *Analytics テクニカルノート*.
+その行には [!DNL Target] 関連情報（訪問者数、訪問数、インプレッション数など）が含まれることはありません。詳しくは、*Analytics テクニカルノート*&#x200B;にある レポートにある[「未指定」、「なし」、「その他」、「不明」をご覧ください](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja)。
 
-次を選択した場合、 [!DNL Target] — レポート内の特定の指標 [!UICONTROL &quot;未指定&quot;] 行が表示されません。 レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
+レポート内で [!DNL Target] 固有の指標を選択した場合、その「[!UICONTROL 未指定]」行は表示されません。レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
 
 ## 売上高指標の推定上昇率に正しいデータが表示されません。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
