@@ -2,12 +2,11 @@
 keywords: エクスペリエンス;json;AEM;Adobe Experience Manager;Adobe Target への書き出し;コンテンツフラグメント;フラグメント;CF;cf;ヘッドレス;パーソナライゼーション;実験
 description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experience Manager] [!UICONTROL  コンテンツフラグメント]を使用する方法について説明します。'
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -15,12 +14,6 @@ ht-degree: 100%
 # AEM [!UICONTROL コンテンツフラグメント]
 
 [!DNL Adobe Experience Manager]（AEM）で作成した[!UICONTROL コンテンツフラグメント]（CF）を [!DNL Target] アクティビティで使用して、ヘッドレスパーソナライゼーションと実験を支援します。
-
->[!NOTE]
->
->この機能は、2023年4月12日（PT）にプレリリース機能として使用できます。プレリリース機能として、開発環境とステージング環境を使用して[!UICONTROL コンテンツフラグメント]を実験できますが、実稼動環境は使用できません。
->
->この機能は、2023年4月26日（PT）の GA（一般提供）リリースで使用できるようになります。
 
 ## 注意点
 

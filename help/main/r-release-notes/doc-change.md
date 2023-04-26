@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2600'
 ht-degree: 92%
 
 ---
@@ -15,10 +15,13 @@ ht-degree: 92%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 26 日～27 日）
+## [!DNL Target] Standard／Premium 23.4.1（2023年4月25～27日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 4月26日（PT） | [AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
+|  | [[!UICONTROL AEM コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
+|  | [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target Developer Guide* は次の場所に移動されました： *Adobe Experience League*. 移動先 *Experience League* テキストを追加言語にローカライゼーションする際に役立ち、 *Experience League* 両方のガイドから検索結果を提供し、さらに多くの利点を提供する。<P>以前の場所からのリダイレクトは、今後数日間に実装されます。 ブックマークしている場合は更新してください。 |
 | 4月24日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のAdobe Target Community Coffee Break Q&amp;A に関する情報を追加しました。<ul><li>認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 リリースに関するリリースノートを追加しました。 |
 
@@ -27,9 +30,9 @@ ht-degree: 92%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 4月19日（PT） | [場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | メモの情報を更新しました。 |
-| 4月13日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target] Standard/Premium 23.4.1 リリース（2023 年 4 月 26 日～ 27 日）です。 |
-| 4月12日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供する</li></ul> |
-|  | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルがトレーニングに使用したくない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？</li></ul> |
+| 4月13日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] Standard／Premium 23.4.1 リリース（2023年4月25～27日（PT））に関する情報を追加しました。 |
+| 4月12日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供しましょう</li></ul> |
+|  | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。これらの属性をトレーニングモデルから削除できますか？</li></ul> |
 |  | [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 以下の FAQ を追加しました。<ul><li>ユーザーに複数の役割と権限がある場合はどうなりますか？</li></ul> |
 |  | [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新規トピックです。この機能は、テスト目的で「プレリリース」ステータスになっています。 |
 | 4月5日（PT） | [オファーの決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | [!UICONTROL レポートソースとしての Analytics]（A4t）は、オファーの決定を使用するアクティビティではサポートされていないことを示すテキストを追加しました。 |

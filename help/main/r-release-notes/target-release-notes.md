@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 78%
+source-wordcount: '362'
+ht-degree: 75%
 
 ---
 
@@ -29,15 +29,16 @@ ht-degree: 78%
 
 | 機能 | 詳細 |
 |--- |--- |
-| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。<P>**メモ**：この機能は、2023年4月12日（PT）以降、プレリリース機能として使用できます。プレリリース機能として、開発環境とステージング環境を使用して[!UICONTROL コンテンツフラグメント]を実験できますが、実稼動環境は使用できません。この機能は、2023 年 4 月 27 日にすべてのお客様が利用できるようになります。 |
-| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
+| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。 |
+| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>**注意**:この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
+| [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target Developer Guide* は次の場所に移動されました： *Adobe Experience League*. 移動先 *Experience League* テキストを追加言語にローカライゼーションする際に役立ち、 *Experience League* 両方のガイドから検索結果を提供し、さらに多くの利点を提供する。<P>以前の場所からのリダイレクトは、今後数日間に実装されます。 ブックマークしている場合は更新してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
 | リソース | 詳細 |
 |--- |--- |
-
-|[リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja)|Platform Web SDK の各バージョンでの変更の詳細です。| |[at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|各バージョンの [!DNL Adobe Target] at.js JavaScript ライブラリ。|
+| [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) | Platform Web SDK の各バージョンの変更点に関する詳細です。 |
+| [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
 ## プレリリース情報 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
