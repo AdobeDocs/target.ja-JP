@@ -8,7 +8,7 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->この機能は、2023 年 4 月 13 日にプレリリース機能として使用できます。 プレリリース機能として、次を使用してテストできます。 [!UICONTROL コンテンツフラグメント] 開発環境とステージング環境を使用するものの、実稼動環境では使用しないもの。
+>この機能は、2023年4月12日（PT）にプレリリース機能として使用できます。プレリリース機能として、開発環境とステージング環境を使用して[!UICONTROL コンテンツフラグメント]を実験できますが、実稼動環境は使用できません。
 >
->この機能は、2023 年 4 月 27 日に GA（一般公開）リリースで利用できるようになります。
+>この機能は、2023年4月26日（PT）の GA（一般提供）リリースで使用できるようになります。
 
 ## 注意点
 
 [!DNL Target] で AEM [!UICONTROL コンテンツフラグメント]を使用する際は、次の点を考慮してください。
 
-* この機能を使用するには、 [!DNL Adobe Experience Manager as a Cloud Service] 顧客。 詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
-* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプで使用できます。
+* この機能を使用するには、[!DNL Adobe Experience Manager as a Cloud Service] の顧客である必要があります。詳しくは、次の[要件](#section_AE6F0971E1574B3AA324003599B96E5A)を参照してください。
+* [!UICONTROL エクスペリエンスフラグメント]と[!UICONTROL コンテンツフラグメント]は、次のアクティビティタイプで使用できます。
 
    * [[!UICONTROL A/B テスト]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -35,10 +35,10 @@ ht-degree: 86%
    * [[!UICONTROL Automated Personalization]（AP）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL エクスペリエンスのターゲット設定]（XT）](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL エクスペリエンスフラグメント] および [!UICONTROL コンテンツフラグメント] は、次のアクティビティタイプでは使用できません。
+* [!UICONTROL エクスペリエンスフラグメント]と[!UICONTROL コンテンツフラグメント]は、次のアクティビティタイプでは使用できません。
 
    * [[!UICONTROL 多変量分析テスト] （MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL レコメンデーション]](/help/main/c-recommendations/recommendations.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで[!UICONTROL コンテンツフラグメント]を使用できます。[!UICONTROL Visual Experience Composer]（VEC）を使用して [!DNL Target] アクティビティで[!UICONTROL コンテンツフラグメント]を使用することは&#x200B;*できません*。
 
@@ -46,7 +46,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## 要件 {#requirements}
 
-[!DNL Target] 内の[!UICONTROL コンテンツフラグメント]機能を使用してプロビジョニングする必要があります。また、 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+[!DNL Target] 内の[!UICONTROL コンテンツフラグメント]機能を使用してプロビジョニングする必要があります。また、[[!DNL AEM]  as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} を使用してください。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
@@ -78,7 +78,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 >
 >次のような場合に、[!UICONTROL コンテンツフラグメント]で人工知能、機械学習、Recommendations を使用します。
 >
->* を完全に使用するには [!DNL Target] AI および ML 機能では、 [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) または [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 作成中に [!UICONTROL A/B テスト] アクティビティ。
+>* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、[!UICONTROL A/B テスト]アクティビティの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
 >
 >* [!UICONTROL コンテンツフラグメント]は、[!DNL Recommendations] アクティビティではサポートされていません。ただし、Recommendations に[!UICONTROL コンテンツフラグメント]を使用するには、[!UICONTROL A/B テスト]アクティビティ（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）または[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティを作成し、[Recommendations をオファーとして含める](/help/main/c-recommendations/recommendations-as-an-offer.md)ことができます。
 

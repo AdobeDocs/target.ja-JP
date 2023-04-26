@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 57%
+ht-degree: 78%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 57%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 26 日～27 日）
+## [!DNL Target] Standard／Premium 23.4.1（2023年4月25～27日（PT））
 
 このリリースには、セキュリティの更新と次の新機能が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
-| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、 [AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**注意**:この機能は、2023 年 4 月 13 日以降、プレリリース機能として使用できます。 プレリリース機能として、次を使用してテストできます。 [!UICONTROL コンテンツフラグメント] 開発環境とステージング環境を使用するものの、実稼動環境を使用しないもの。 この機能は、2023 年 4 月 27 日にすべてのお客様が利用できるようになります。 |
-| Real-Time CDPプロファイル属性の共有先 [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] はと共有できます [!DNL Target] HTMLと JSON オファーで使用する<P>詳しくは、 [Real-Time CDPプロファイル属性の共有先 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
+| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。<P>**メモ**：この機能は、2023年4月12日（PT）以降、プレリリース機能として使用できます。プレリリース機能として、開発環境とステージング環境を使用して[!UICONTROL コンテンツフラグメント]を実験できますが、実稼動環境は使用できません。この機能は、2023 年 4 月 27 日にすべてのお客様が利用できるようになります。 |
+| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
 
 ## その他のリリースノートとバージョンの詳細
 
