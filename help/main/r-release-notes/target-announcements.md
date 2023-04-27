@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 90%
+source-wordcount: '1843'
+ht-degree: 100%
 
 ---
 
@@ -21,55 +21,11 @@ Gartner は、最新の Magic Quadrant for Personalization Engines（PE）で [!
 
 詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
 
-## [!UICONTROL Adobe Target Community] コーヒーブレーク Q&amp;A:認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション
-
-* **2023年4月26日水曜日（PT）**
-* **【午後】1 時 00 分(EDT、UTC-4)**
-* **[登録情報](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
-
-結合 [!DNL Adobe Target] Brent Kostak 氏、マーケティングマネージャ： [!DNL Target] および [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) は、規制対象の業界におけるエンゲージメント、収益、および顧客の忠誠度の向上を促進します。
-
-+++詳細
-
-ブランドは、特定の顧客のニーズや行動に基づいて、高度にパーソナライズされ、関連性の高いエクスペリエンスを提供する必要があります。 マーケティングテクノロジーの cookie を持たない将来に関する質問を投げかけ、規制対象の業界は、より堅牢な顧客エンゲージメントフレームワークを採用し、各顧客インタラクションを適切なコンテンツやオファーに最適化しようとしています。
-
-金融サービス、保険、小売、旅行、接客業、通信業界をまたいだ企業は、認証済みの環境で最適化とパーソナライゼーションを行う際に、どのようにベストプラクティスを採用できますか。 常連客のエンゲージメントとリテンションに関するモバイルアプリの重要性を把握し、ブランドがデジタルセルフサービスを有効にしたり、パーソナライズされたエクスペリエンスで新機能の採用を増やしたりするにはどうすればよいですか。
-
-このセッションでは、以下の方法について説明します。 [!DNL Target] および [!DNL Real-Time Customer Data Platform] は、規制対象の業界におけるエンゲージメント、売上高、および顧客の忠誠度の向上を促します。
-
-* チームが匿名の訪問者と認証済みの訪問者の両方に対してパーソナライズされたエクスペリエンスを提供する方法
-* パーソナライゼーションを使用した消費者の権限とプライバシー標準について
-* ID の匿名化による、認証済み訪問者に対するパーソナライズされたコンテンツおよびオファー
-* Web およびモバイルにまたがる、認証済みのセキュアなサイトのユースケース
-
-+++
-
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Target] の使用方法を参照してください。
 
-### 毎回パーソナライズされた顧客体験を提供しましょう
-
-* **2023年4月27日木曜日（PT）**
-* **午前 9:00～10:00（BST、GMT +1）、午前 10:00～11:00（CEST、GMT +2）**
-* **[登録情報](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
-
-[!DNL Adobe Target] の強力なテスト機能とパーソナライズ機能を使用して、顧客の一歩先を行きましょう。Web、モバイル、デジタルデバイス全体で動的にコンテキストに応じたエクスペリエンスを提供することで、顧客がどこにいても確実に対応できます。
-
-+++詳細
-
-このウェビナーの内容は次のとおりです。
-
-* パーソナライズ機能があらゆる戦略の重要な部分である理由
-* 異なるアクティビティタイプの識別と使用
-* スポットライト - 業界のユースケース
-* パーソナライズ機能を促進するための推奨事項
-* [!DNL Target] ユーザーインターフェイスのデモ。ハイライトは次のとおりです
-   * オーディエンスの作成
-   * [!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティの設定
-   * [!UICONTROL 自動ターゲット]および[!UICONTROL 自動パーソナライゼーション]アクティビティの設定
-
-+++
+現時点でスケジュールされているものはありません。
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
