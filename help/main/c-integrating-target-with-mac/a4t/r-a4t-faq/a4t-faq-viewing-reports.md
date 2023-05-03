@@ -4,10 +4,10 @@ description: Analytics for  [!DNL Target] （A4T）でのレポート表示に�
 title: A4T でのレポート表示に関する FAQ
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
-ht-degree: 72%
+source-wordcount: '2714'
+ht-degree: 70%
 
 ---
 
@@ -154,7 +154,7 @@ ht-degree: 72%
 
 ## 理由 [!DNL Analytics] および [!UICONTROL Adobe Target向け Analytics] (A4T) [!UICONTROL 実訪問者数] 指標の違いは何ですか？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++回答 A/B テストを実行すると、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼性指標）でテストの勝者を選択する場合、前提の 1 つは、固定期間があるということです。 テストは、その固定サンプルサイズを調べない限り、統計的に有効ではありません。
++++回答 A/B テストを実行すると、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （信頼性指標）テストの勝者を選択する場合、前提の 1 つは、一定の期間が存在するということです。 テストは、その固定サンプルサイズを調べない限り、統計的に有効ではありません。
 
 [!UICONTROL ユニーク訪問者]指標が [!DNL Analytics] と [!DNL Target] で異なるのは、実際のテストよりも短い時間を対象として計算した場合のみです。サンプルサイズに達していない場合、テストは信頼性に劣ります。 詳しくは、[Evan Miller の web サイト](https://www.evanmiller.org/index.html)の [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)（英語）を参照してください。
 
@@ -198,5 +198,19 @@ ht-degree: 72%
 * レポート期間外にコンバージョンが発生した場合、そのコンバージョンは [!DNL Analytics] に表示されません。
 * [!UICONTROL 自動ターゲット]アクティビティのトラフィックの「ターゲット」部分で、訪問者がセッションから次のセッションへと移るときに、異なるエクスペリエンスが表示されることがあります。例えば、訪問者のプロファイルやコンテキストが変更され、[!DNL Target] の機械学習アルゴリズムが、「新しいエクスペリエンスにしたほうが、その訪問者はコンバージョンする可能性が高い」と判断した場合などです。訪問者がエクスペリエンスから次のエクスペリエンスに移動すると、訪問回数は、表示されるエクスペリエンスごとに増加します。これは、通常の A/B テストのアクティビティとは異なる動作です。通常は、1 人の訪問者の複数の訪問をまたいでエクスペリエンスが追跡されます。
 * 1 人の訪問者の複数の訪問をまたいで複数のエクスペリエンスが表示される場合、コンバージョンは常に訪問者が最後に閲覧したエクスペリエンスに関連付けられます。また、前述のように、訪問回数は、訪問者が閲覧したエクスペリエンスごとに増加します。つまり、[!DNL Adobe Analytics] レポートの「[!UICONTROL ターゲット]」ディメンションの下でエクスペリエンスを表示するときは、エクスペリエンスごとのコンバージョン率が人為的に下げられている可能性があります。
+
++++
+
+## アクティビティのインプレッションを [!DNL Analysis Workspace] 使用時 [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+
++++回答
+
+アクティビティのインプレッションをで表示するには [!DNL Analysis Workspace]:
+
+1. 内 [!DNL Target] UI、クリック **[!UICONTROL Analytics で表示]**.
+1. を **[!UICONTROL アクティビティのインプレッション]** 列を [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} レポート。
+1. の **[!UICONTROL アクティビティのインプレッション]** 列で、 [!UICONTROL ギア] アイコン
+1. クリック **[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**.
+1. 選択 **[!UICONTROL 同じタッチモデル]** > **[!UICONTROL 適用]**.
 
 +++
