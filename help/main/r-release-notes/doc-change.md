@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 91%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月3日（PT） | [レポートの表示 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 以下の FAQ を追加しました。<ul><li>アクティビティのインプレッションを [!DNL Analysis Workspace] 使用時 [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
+|  | [プロファイル属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 「landing.URL」行に情報を追加しました。 |
 | 4月26日（PT） | [AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
 |  | [[!UICONTROL AEM コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
 |  | [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を両方からまたがってオファーするには *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |

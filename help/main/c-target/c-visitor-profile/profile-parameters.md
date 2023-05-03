@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2455'
-ht-degree: 93%
+source-wordcount: '2499'
+ht-degree: 92%
 
 ---
 
@@ -249,7 +249,7 @@ else if (mbox.param("adobeQA"))
 | `page.query` | 現在のページのクエリ文字列。？の後のすべて。 例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
 | `page.param('<par_name>')` | `<par_name>` に示すパラメーターの値。現在の URL がGoogleの検索ページであり、 `page.param('hl')`を使用する場合、URL の「en」が取得されます。 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | 上記と同じ一連の処理がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
-| `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。 |
+| `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。<P>ランディングページの URL を期待どおりに動作させるには、 `context` > `browser` > `host`.<P>また、セッションの最初の呼び出しで参照 URL を持つことはできません。 以降の呼び出しでは、 `referringURL` は、現在のセッションでユーザーが訪問した以前の URL です。<!-- KB-2092 --> |
 | `mbox.name` | アクティブな mbox の名前。 |
 | `mbox.param('<par_name>')` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
 | `profile.get('<par_name>')` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」という名前のプロファイルパラメーターを設定した場合、値は「profile.gender」を使用して抽出できます。 「`profile.<par_name>`&quot;現在の訪問者に設定。値が設定されていない場合は null を返します。 `profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
@@ -260,7 +260,6 @@ else if (mbox.param("adobeQA"))
 | `user.browser` | HTTP ヘッダーにユーザーエージェントが返されます。例えば、Safari ユーザーのみを対象とするターゲット式を作成できます（`if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }`）。 |
 
 ### 共通演算子
-
 
 すべての標準 JavaScript 演算子が存在し、使用可能です。JavaScript 演算子は、文字列および数字（他のデータタイプも同様）に使用できます。以下はその簡単な説明です。
 
