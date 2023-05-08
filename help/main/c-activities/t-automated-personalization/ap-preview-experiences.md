@@ -5,14 +5,14 @@ title: VEC でAutomated Personalization Experiences をプレビューするに�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# !Visual Experience Composer でのAutomated Personalizationのエクスペリエンスのプレビュー
+# Visual Experience Composer でのAutomated Personalizationのエクスペリエンスのプレビュー
 
 理由： [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) アクティビティでは、ページ上で複数のオファーを比較します。各エクスペリエンスのページをプレビューできると便利です。
 
