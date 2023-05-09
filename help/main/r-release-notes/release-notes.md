@@ -8,8 +8,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 83%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 0%
 |--- |--- |
 | ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。 |
 | [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>**注意**:この機能は、2023 年 5 月 10 日にすべてのお客様が利用できるようになります。 |
-| [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を両方からまたがってオファーするには *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |
+| [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を両方からまたがってオファーするには *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
 | リソース | 詳細 |
 |--- |--- |
 | [リリースノート：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) | Platform Web SDK の各バージョンの変更点に関する詳細です。 |
-| [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
+| [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | [!DNL Adobe Target] at. js JavaScript ライブラリの各バージョンの変更点についての詳細です。 |
 
 ## ドキュメントの変更、過去のリリースノートおよび Experience Cloud リリースノート
 

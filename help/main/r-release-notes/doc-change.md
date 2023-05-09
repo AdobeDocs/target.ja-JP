@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 90%
 |  | [プロファイル属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 「landing.URL」行に情報を追加しました。 |
 | 4月26日（PT） | [AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
 |  | [[!UICONTROL AEM コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | この [!UICONTROL AEM Content Fragments] すべての [!DNL Target customers]. |
-|  | [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を両方からまたがってオファーするには *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |
-| 4月24日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のAdobe Target Community Coffee Break Q&amp;A に関する情報を追加しました。<ul><li>認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション</li></ul> |
+|  | [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | この *Adobe Target Developer Guide* は次の場所に移動されました： *[!UICONTROL Adobe Experience League]*. 移動先 *[!UICONTROL Experience League]* は、追加言語でのテキストのローカライゼーションを支援し、 *Experience League* 検索結果を両方からまたがってオファーするには *[!UICONTROL Adobe Target Business Practioner ガイド]* そして *[!UICONTROL Adobe Target Developer Guide]*、にはその他の利点があります。<P>前の場所からにリダイレクトされます。 *[!UICONTROL Experience League]* 自動的に。 必要に応じてブックマークを更新してください。 |
+| 4月24日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次の Adobe Target コミュニティコーヒーブレーク Q＆A に関する情報を追加しました。<ul><li>認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.3.1（2023年3月28～30日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 4月19日（PT） | [場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | メモの情報を更新しました。 |
+| 4月19日（PT） | [[!UICONTROL 場所の貢献度]レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | メモの情報を更新しました。 |
 | 4月13日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] Standard／Premium 23.4.1 リリース（2023年4月25～27日（PT））に関する情報を追加しました。 |
 | 4月12日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のウェビナーに登録するためのリンクを追加しました。<ul><li>毎回パーソナライズされた顧客体験を提供しましょう</li></ul> |
 |  | [重要な属性レポート](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 以下の FAQ を追加しました。<ul><li>モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。これらの属性をトレーニングモデルから削除できますか？</li></ul> |
@@ -39,7 +39,7 @@ ht-degree: 90%
 |  | [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新規トピックです。この機能は、テスト目的で「プレリリース」ステータスになっています。 |
 | 4月5日（PT） | [オファーの決定の使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | [!UICONTROL レポートソースとしての Analytics]（A4t）は、オファーの決定を使用するアクティビティではサポートされていないことを示すテキストを追加しました。 |
 | 4月3日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年4月12日水曜日（PT）に予定されている [!UICONTROL Adobe Target コミュニティ]のコーヒーブレイクに関する情報を追加しました。 |
-|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | [!DNL Adobe Analytics] のすべての IP アドレスブロックを許可リストに登録するためのメモを追加しました。 |
+|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | [!DNL Adobe Analytics] のすべての IP アドレスブロックを許可リストに登録するためのメモを追加しました。 |
 | 3月30日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]機能用に最適化された A4T 指標のリリースに関するリリースノートを更新しました。これにより、[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティに [!UICONTROL A4T] を使用する際に、二項イベントに基づく指標または連続イベントに基づく指標を選択できます。 |
 |  | [[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新された「サポート対象の目標指標」の節には、[!UICONTROL Analytics for Target]（A4T）を使用した[!UICONTROL 自動配分]および[!UICONTROL 自動ターゲット]アクティビティ用のサポート対象（およびサポート対象外）の指標に関する情報が含まれます。 |
 |  | [Adobe Target チュートリアル](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank} | 次のチュートリアルを更新しました。<ul><li>[ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank}</li><li>[ [!DNL Analysis Workspace]  での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}</li></ul> |
@@ -59,7 +59,7 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2月21日（PT） | [Target のエッジノードを許可リストに登録する](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | [Adobe Target 開発者ガイド](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}で、すべての地域の許可リストに対する IP アドレスのリストを更新しました。 |
+| 2月21日（PT） | [Target のエッジノードを許可リストに登録する](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | [Adobe Target 開発者ガイド](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}で、すべての地域の許可リストに対する IP アドレスのリストを更新しました。 |
 |  | [変更](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery を使用した例では、[!DNL Target] がオファーを実行する際に、顧客の web サイトのページで jQuery が使用可能であることを前提としていることを説明するテキストを追加しました。 |
 | 2月10日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 リリースに関するリリースノートを追加しました。 |
 | 2月8日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1 のリリースノートを追加しました。 |
@@ -82,7 +82,7 @@ ht-degree: 90%
 | 12月20日（PT） | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) のオファーレポートグループ | 「注意事項」の下のレポートグループに関する情報を追加しました。 |
 | 12月14日（PT） | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 「環境」の節に、[!DNL Adobe Experience Platform]（AEP）を使用して指標データを [!DNL Target] に送信することに関しての注記を追加しました。 |
 | 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
-| 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
+| 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html?lang=ja){target=_blank} | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
 |  | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | Models API リリース（2022年11月23日）に関する情報を追加しました。 |
 | 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。 |
 | 11月16日（PT） | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））</li></ul> |
@@ -122,10 +122,10 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月30日（PT） | [Adobe Target 開発者ガイド](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 開発者ガイド*&#x200B;が公開され、すべての [!DNL Target] 開発者向けコンテンツが 1 つの便利なポータルにまとめられました。ポータルには、[!DNL Target] と [!DNL Recommendations]、[!DNL Target] SDK、および [!DNL Target] API の実装に関する情報が掲載されています。 |
+| 6月30日（PT） | [Adobe Target 開発者ガイド](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | *Adobe Target 開発者ガイド*&#x200B;が公開され、すべての [!DNL Target] 開発者向けコンテンツが 1 つの便利なポータルにまとめられました。ポータルには、[!DNL Target] と [!DNL Recommendations]、[!DNL Target] SDK、および [!DNL Target] API の実装に関する情報が掲載されています。 |
 |  | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.2 リリースに関するリリースノートを追加しました。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 過去のウェビナーセッションの録画リンクを追加しました。 |
-| 6月14日（PT） | [Recommendations の計画と実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} | 次のセクションのコードサンプルを更新しました。<ul><li>買い物かごへの追加／買い物かごの表示／チェックアウトページ</li><li>訪問者の買い物かごにすでに入っている品目を除く</li></ul> |
+| 6月14日（PT） | [Recommendations の計画と実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} | 次のセクションのコードサンプルを更新しました。<ul><li>買い物かごへの追加／買い物かごの表示／チェックアウトページ</li><li>訪問者の買い物かごにすでに入っている品目を除く</li></ul> |
 | 6月7日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 リリースに関するリリースノートを追加しました。 |
 
 ## Adobe Target Standard／Premium 22.5.1（時差リリース、2022年5月11～13日（PT））
@@ -135,12 +135,12 @@ ht-degree: 90%
 | 6月7日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 リリースに関するプレリリース情報を追加しました。 |
 | 5月31日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 次回の [!DNL Adobe Target] Community Coffee Break（2022年6月29日（PT）開催）に関する情報を追加しました |
 | 5月25日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target] プラットフォームリリース（2022年5月25日（PT））および at.js 2.9.0 リリース（2022年5月27日（PT））に関する情報を追加しました。 |
-|  | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.9.0 リリースに関する情報を追加しました。 |
-|  | [User-agent と Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank}をインストールします。 | 新規トピックです。 |
+|  | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.9.0 リリースに関する情報を追加しました。 |
+|  | [User-agent と Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html?lang=ja){target=_blank}をインストールします。 | 新規トピックです。 |
 |  | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | ウェビナー「Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化（2022年5月19日（PT））」の録画へのリンクを追加しました。 |
 | 5月23日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | at.js バージョン 2.9.0（2022年5月25日（PT））のプレリリースノートを追加しました。 |
 | 5月11日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md#webinar-series) | 以下のウェビナーに関する情報および登録リンクを追加しました。<ul><li>Dick&#39;s Sporting Goods：パーソナライゼーションと小売業界の変化</li><li>アドビ：パーソナライゼーション業界インサイダー - 金融サービスと保険</li><li>シティナショナルバンク：デジタル最適化でトップ 1％を達成する方法</li><li>アドビ：精度の高いパーソナライゼーション - [!DNL Adobe Analytics] および [!DNL Target]</li><li>シティナショナルバンク：ゼロからのヒーロー - パーソナライゼーションプログラムの開始と拡大</li><li>アドビ：効果的な最適化の機会を探る</li><li>アドビ：パーソナライゼーション業界インサイダー - 小売</li></ul>以下のウェビナーの録画を追加しました。<ul><li>[!DNL Adobe Target] によるリアルタイムパーソナライゼーション</li></ul> |
-|  | [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank}をインストールします。 | FAQ 節を追加しました。 |
+|  | [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=ja){target=_blank}をインストールします。 | FAQ 節を追加しました。 |
 |  | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 および Target プラットフォーム（2022年5月11～13日（PT））リリースに関する情報を追加しました。 |
 
 ## Adobe Target Standard／Premium 22.4.1（4月28日（PT））
@@ -193,12 +193,12 @@ ht-degree: 90%
 | --- | --- | --- |
 | 1月31日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 リリースに関するプレリリース情報を追加しました。 |
 | 1月28日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 リリースに関する情報を追加しました。 |
-|  | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}をインストールします。 | at.js 2.8.1 リリースに関する情報を追加しました。 |
+|  | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}をインストールします。 | at.js 2.8.1 リリースに関する情報を追加しました。 |
 | 1月27日（PT） | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | トピックを更新し、[!DNL AEM as a Cloud Service] および [!DNL Adobe I/0] に関する情報を追加しました。 |
 | 1月26日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.2 リリースに関する情報を追加しました。 |
 |  | [オーディエンスの作成](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
 |  | [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] オーディエンスに関する情報を追加しました。 |
-| 1月21日（PT） | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 1.8.3 リリースに関する情報を追加しました。 |
-| 1月19日（PT） | [at.js 1.*x* から at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 以下の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
+| 1月21日（PT） | [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 1.8.3 リリースに関する情報を追加しました。 |
+| 1月19日（PT） | [at.js 1.*x* から at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | 以下の節を追加しました。「at.js 2.*x* では、vst を使用したオーディエンスの作成はサポートされていません。サポートされていません」 |
 | 1月12日（PT） | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.1 リリースに関する情報を追加しました。 |
-|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |
+|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Web SDK で [!DNL Adobe Experience Cloud] を実装する手順を示すチュートリアルへのリンクを追加しました。 |

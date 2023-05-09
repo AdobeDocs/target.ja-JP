@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
 source-wordcount: '2499'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}を参照してください。<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。以下の「プロファイルスクリプト属性」を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の[データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を使用する必要があります。データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 
@@ -246,14 +246,14 @@ else if (mbox.param("adobeQA"))
 | `page.url` | 現在の URL。 |
 | `page.protocol` | このページに使用するプロトコル（http または https）。 |
 | `page.domain` | 現在の URL ドメイン（最初のスラッシュより前のすべて）。例えば、`http://www.acme.com/categories/men_jeans?color=blue&size=small` の `www.acme.com`。 |
-| `page.query` | 現在のページのクエリ文字列。？の後のすべて。 例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
-| `page.param('<par_name>')` | `<par_name>` に示すパラメーターの値。現在の URL がGoogleの検索ページであり、 `page.param('hl')`を使用する場合、URL の「en」が取得されます。 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | 現在のページのクエリ文字列。「?」の後のすべて。例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
+| `page.param('<par_name>')` | `<par_name>` に示すパラメーターの値。現在の URL が Google の検索ページであり、`page.param('hl')` を入力していた場合、URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` の「en」が取得されます。 |
 | `page.referrer` | 上記と同じ一連の処理がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
 | `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。<P>ランディングページの URL を期待どおりに動作させるには、 `context` > `browser` > `host`.<P>また、セッションの最初の呼び出しで参照 URL を持つことはできません。 以降の呼び出しでは、 `referringURL` は、現在のセッションでユーザーが訪問した以前の URL です。<!-- KB-2092 --> |
 | `mbox.name` | アクティブな mbox の名前。 |
 | `mbox.param('<par_name>')` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
-| `profile.get('<par_name>')` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」という名前のプロファイルパラメーターを設定した場合、値は「profile.gender」を使用して抽出できます。 「`profile.<par_name>`&quot;現在の訪問者に設定。値が設定されていない場合は null を返します。 `profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
-| `user.get('<par_name>')` | 「`user.<par_name>`&quot;現在の訪問者に設定。値が設定されていない場合は null を返します。 |
+| `profile.get('<par_name>')` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。`profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
+| `user.get('<par_name>')` | 現在の訪問者に設定された「`user.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。 |
 | `user.categoryAffinity` | 最適なカテゴリーの名前が返されます。 |
 | `user.categoryAffinities` | 最適なカテゴリーを持つ配列が返されます。 |
 | `user.isFirstSession` | 訪問者の最初のセッションの場合は true が返されます。 |
@@ -271,8 +271,8 @@ else if (mbox.param("adobeQA"))
 | `>` | 左辺の変数が右辺の変数より大きいことを示します。変数が等しい場合は false に評価されます。 |
 | `<=` | `<` と同様に、変数が等しい場合を除いて true に評価されます。 |
 | `>=` | `>` と同様に、変数が等しい場合を除いて true に評価されます。 |
-| `&&` | 論理積 (ANDs) を使用して、左右の式を論理積 (AND) します。両辺の式が true の場合にのみ true になります（そうでない場合は false になります）。 |
-| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでない場合は false になります）。 |
+| `&&` | 論理演算子「AND」の左右に式を書いた場合は、両辺の式がともに true の場合にのみ true になります（そうでなければ false になります）。 |
+| `||` | 論理演算子「OR」の左右に式を書いた場合は、いずれかの辺の式が true の場合にのみ true になります（そうでなければ false になります）。 |
 | `//` | ターゲットのブール演算子（配列ソース、配列ターゲット）のすべての要素がソースに含まれているかどうかをチェックします。<br>`//`は、ターゲット（regexp に対応）からサブ文字列を抽出し、`Array/*String*/ decode(String encoding, String regexp, String target)`にデコードします。<br>この機能では、定数の文字列値、グループ化（`condition1 || condition2) && condition3`）および正規表現（`/[^a-z]$/.test(landing.referring.url)`）の使用もサポートされています。 |
 
 ## トレーニングビデオ：プロファイルスクリプト ![チュートリアルバッジ](/help/main/assets/tutorial.png)
