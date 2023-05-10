@@ -4,9 +4,9 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 A4T 統合を使用すると、次のことが可能になります。
 
 * 以下を使用： [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) マルチアームバンディット機能を使用して、トラフィックを勝者エクスペリエンスに導くことができます。
-* 以下を使用： [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 各訪問者に最適なエクスペリエンスを選択するためのアンサンブル機械学習アルゴリズム。 [!UICONTROL 自動ターゲット] を使用しながら、ユーザーのプロファイル、行動、コンテキストに基づいて最適なエクスペリエンスを選択します。 [!DNL Adobe Analytics] 目標指標と [!DNL Adobe Analytics]「豊富なレポートおよび分析機能」を参照してください。
+* 以下を使用： [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アンサンブルの機械学習アルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択します。 [!UICONTROL 自動ターゲット] は、 [!DNL Adobe Analytics] の目標指標と豊富なレポートおよび分析機能 [!DNL Adobe Analytics].
 
-次の条件を満たしていることを確認します。 [A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用するために A4T が実装されました。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 次を使用する場合： `analyticsLogging = client_side`を使用する場合、 `sessionId` 値 [!DNL Analytics]. 詳しくは、 [Analytics for Target(A4T) レポート](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 内 *Adobe Target SDK* ガイド。
+次の条件を満たしていることを確認します。 [A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用するために A4T が実装されました。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 次を使用する場合、 `analyticsLogging = client_side`を使用する場合、 `sessionId` 値 [!DNL Analytics]. 詳しくは、 [Analytics for Target(A4T) レポート](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 内 *Adobe Target Developer Guide*.
 
 開始するには
 
