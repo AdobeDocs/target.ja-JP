@@ -4,7 +4,7 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # [!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]アクティビティに対する A4T のサポート
 
-この [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 統合：別名 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) サポート [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。
+この [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 統合：別名 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、サポート [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ。
 
 A4T 統合を使用すると、次のことが可能になります。
 
