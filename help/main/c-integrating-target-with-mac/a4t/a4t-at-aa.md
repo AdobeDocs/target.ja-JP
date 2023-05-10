@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Target のレポートソースとしての Analytics
+keywords: A4T;A4T;Target のレポートソースとしての Analytics;Target の分析
 description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ [!DNL Target] を使用 [!DNL Analytics] を使用します (A4T)。
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1268'
 ht-degree: 7%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 7%
 
 A4T 統合を使用すると、次のことが可能になります。
 
-* 用途 [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)のマルチアームバンディット機能を使用して、トラフィックを勝者エクスペリエンスに導くことができます。
-* 用途 [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)のアンサンブル機械学習アルゴリズムを使用して、各訪問者に最適なエクスペリエンスを選択できます。 [!UICONTROL 自動ターゲット] を使用しながら、ユーザーのプロファイル、行動、コンテキストに基づいて最適なエクスペリエンスを選択します。 [!DNL Adobe Analytics] 目標指標と [!DNL Adobe Analytics]「豊富なレポートおよび分析機能」を参照してください。
+* 以下を使用： [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) マルチアームバンディット機能を使用して、トラフィックを勝者エクスペリエンスに導くことができます。
+* 以下を使用： [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 各訪問者に最適なエクスペリエンスを選択するためのアンサンブル機械学習アルゴリズム。 [!UICONTROL 自動ターゲット] を使用しながら、ユーザーのプロファイル、行動、コンテキストに基づいて最適なエクスペリエンスを選択します。 [!DNL Adobe Analytics] 目標指標と [!DNL Adobe Analytics]「豊富なレポートおよび分析機能」を参照してください。
 
 次の条件を満たしていることを確認します。 [A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用するために A4T が実装されました。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 次を使用する場合： `analyticsLogging = client_side`を使用する場合、 `sessionId` 値 [!DNL Analytics]. 詳しくは、 [Analytics for Target(A4T) レポート](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 内 *Adobe Target SDK* ガイド。
 
@@ -110,7 +110,7 @@ A4T 統合を使用すると、次のことが可能になります。
 
 * **トレーニング頻度**: [!UICONTROL 自動配分] モデルは、通常どおり、1 時間ごとにトレーニングを続けます。
 * **アトリビューションモデル**: [!DNL Target] は [!DNL Adobe Analytics] のデフォルト属性モデル[!UICONTROL  自動配分] A4T を使用するアクティビティに関連付けられています。
-* **信頼性**:次の条件で使用される信頼性の数式： [!UICONTROL 自動配分] アクティビティが、 [!DNL Adobe Analytics] [!UICONTROL A4T] パネル。 [ここで説明するように](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自動配分] 通常よりも控えめな信頼区間を使用する [!UICONTROL A/B テスト] アクティビティ。 この保守的な信頼水準は、データに対する繰り返しの評価（ピーク）を補います。 その結果、 [!DNL Adobe Analytics] は、 [!UICONTROL 自動配分] アルゴリズム。 しかし、どのエクスペリエンスがよりユニークな訪問者を送信しているかに基づいて、アルゴリズムが最適なエクスペリエンスを決定できます。
+* **信頼性**:次の条件で使用される信頼性の数式： [!UICONTROL 自動配分] アクティビティは、デフォルトで [!DNL Adobe Analytics] [!UICONTROL A4T] パネル。 [ここで説明するように](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自動配分] 通常よりも控えめな信頼区間を使用する [!UICONTROL A/B テスト] アクティビティ。 この保守的な信頼水準は、データに対する繰り返しの評価（ピーク）を補います。 その結果、 [!DNL Adobe Analytics] は、 [!UICONTROL 自動配分] アルゴリズム。 しかし、どのエクスペリエンスがよりユニークな訪問者を送信しているかに基づいて、アルゴリズムが最適なエクスペリエンスを決定できます。
 * **勝者ステータス**:現在、 [「まだ勝者がありません」と「勝者」バッジ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) は [!UICONTROL A4T] パネル内 [!DNL Analysis Workspace]. 同じレポートが [!DNL Target]. 勝者の「星」バッジが [!DNL Target] レポート [!UICONTROL 自動配分] A4T を使用するアクティビティは無視する必要があります。 このバッジは、通常の信頼性の計算を反映し、 [!UICONTROL 自動配分].
 
 ### 自動ターゲット {#at}
