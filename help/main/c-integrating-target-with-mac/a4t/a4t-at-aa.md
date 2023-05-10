@@ -4,7 +4,7 @@ description: 作成方法を学ぶ [!UICONTROL 自動配分] および [!UICONTR
 title: A4T は [!UICONTROL 自動配分] および [!UICONTROL 自動ターゲット] アクティビティ？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ A4T 統合を使用すると、次のことが可能になります。
 
 開始するには
 
-1. を作成する際に、 [!UICONTROL A/B テスト] アクティビティ、 **[!UICONTROL ターゲット設定]** ページで、次のいずれかのオプションを **[!UICONTROL トラフィック配分方法]**:
+1. While [作成 [!UICONTROL A/B テスト] アクティビティ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)、 **[!UICONTROL ターゲット設定]** ページで、次のいずれかのオプションを **[!UICONTROL トラフィック配分方法]**:
 
    * [!UICONTROL 最良のエクスペリエンスに自動配分]
    * [!UICONTROL パーソナライズされたエクスペリエンスの自動ターゲット]
