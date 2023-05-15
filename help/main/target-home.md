@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 96%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2023年5月3日（PT）（[変更点を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2023年5月3日（PT）（[変更点を確認](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
->このガイドに加えて、次の手順を実行します。 [!DNL Adobe Target] ガイドも利用できます。
+>このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 >
->- [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
+>- [*Adobe Target デベロッパーガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
 >
 >- [*Adobe Target チュートリアル*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank}
 >
->リリース情報については、 [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) 」を参照してください。
+>リリース情報については、[Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md)を参照してください。
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務に基づいて、オーディエンス別に分かれています。
 

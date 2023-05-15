@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
 source-wordcount: '2499'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ else if (mbox.param("adobeQA"))
 | `page.query` | 現在のページのクエリ文字列。「?」の後のすべて。例えば、`http://www.acme.com/categories/mens_jeans?color=blue&size=small` の `blue&size=small`。 |
 | `page.param('<par_name>')` | `<par_name>` に示すパラメーターの値。現在の URL が Google の検索ページであり、`page.param('hl')` を入力していた場合、URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search` の「en」が取得されます。 |
 | `page.referrer` | 上記と同じ一連の処理がリファラーとランディングに適用されます（referrer.url はリファラーの URL アドレスになります）。 |
-| `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。<P>ランディングページの URL を期待どおりに動作させるには、 `context` > `browser` > `host`.<P>また、セッションの最初の呼び出しで参照 URL を持つことはできません。 以降の呼び出しでは、 `referringURL` は、現在のセッションでユーザーが訪問した以前の URL です。<!-- KB-2092 --> |
+| `landing.url`、`landing.protocol`、`landing.query`、および `landing.param` | ページのものと同様ですが、ランディングページ用です。<P>ランディングページ URL が期待どおりに機能するには、`context`／`browser`／`host`を設定します。<P>また、セッションの最初の呼び出しで参照 URL を使用することはできません。以降の呼び出しでは、`referringURL` が実際にユーザーが現在のセッションでアクセスした前の URL であることを確認します。<!-- KB-2092 --> |
 | `mbox.name` | アクティブな mbox の名前。 |
 | `mbox.param('<par_name>')` | アクティブな mbox 内で指定した名前の mbox パラメーター。 |
 | `profile.get('<par_name>')` | `<par_name>` の名前のクライアントが作成したユーザープロファイルパラメーター。例えば、ユーザーが「gender」と名前を付けたプロファイルパラメーターを設定した場合、値は「profile. gender」を使用して抽出できます。現在の訪問者に設定された「`profile.<par_name>`」の値を返します。値が設定されていない場合は null が返されます。`profile.get(<par_name>)` は関数呼び出しとして認定されます。 |
