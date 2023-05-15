@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年4月24日（PT）**
+**最終更新日：2023年5月15日（PT）**
 
 >[!NOTE]
 >
@@ -23,15 +23,13 @@ ht-degree: 100%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 23.4.1（2023年4月25～27日（PT））
+## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 24 日）
 
-このリリースには、セキュリティの更新と次の新機能が含まれています。
+このリリースには、次の新機能、機能強化および修正が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
-| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。 |
-| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。<p>**メモ**：この機能は、2023年5月9日（PT）にすべてのお客様が使用できるようになります。 |
-| [*Adobe Target デベロッパーガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | *Adobe Target デベロッパーガイド*&#x200B;は、*[!UICONTROL Adobe Experience League]* に移動されました。*[!UICONTROL Experience League]* への移行により、追加言語でのテキストのローカライゼーションが簡単になり、*Experience League* 内の検索が統合されて、*[!UICONTROL Adobe Target ビジネス実践者ガイド]*&#x200B;と *[!UICONTROL Adobe Target デベロッパーガイド]*&#x200B;の両方からの検索結果が提供され、追加のメリットが得られます。<P>以前の場所から *[!UICONTROL Experience League]* へと自動的にリダイレクトされます。必要に応じてブックマークを更新してください。 |
+| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 
