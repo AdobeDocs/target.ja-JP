@@ -7,8 +7,8 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '449'
 ht-degree: 100%
 
 ---
