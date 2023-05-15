@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5 月 5 日 | [Adobe Target API の認証の設定](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 秘密鍵証明書から OAuth サーバー間秘密鍵証明書に移行する必要があることを説明する注記を追加しました。 |
 | 5月3日（PT） | [レポートの表示 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Analytics for Target]（A4T）を使用している場合、[!DNL Analysis Workspace] でアクティビティのインプレッションを追跡するにはどうすればよいですか？</li></ul> |
 |  | [プロファイル属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 「landing.URL」行に追加情報を追加しました。 |
 | 4月26日（PT） | [AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM コンテンツフラグメント]機能を、すべての [!DNL Target customers] で利用できるようになりました。 |
