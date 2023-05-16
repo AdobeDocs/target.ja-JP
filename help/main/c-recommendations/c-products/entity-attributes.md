@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: エンティティ属性の使用方法
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 54%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->at.js 2.*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 製品またはコンテンツの情報をに渡すには [!DNL Recommendations] at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>at.js 2.*x*, `mboxCreate` （次の例で使用）はサポートされなくなりました。 製品またはコンテンツの情報をに渡すには [!DNL Recommendations] at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ mbox が商品ページにある場合、商品 ID とカテゴリ ID の両方�
 
 この必須パラメーターで商品を識別します。様々な商品の品目を識別してそのデータを共有するために、この英数字 ID は、使用するすべての [!DNL Adobe Experience Cloud] 製品（[!DNL Analytics] を含む）で同じにする必要があります。
 
-この `entity.id` 値は *not* には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスラッシュ、アンパサンド、疑問符、パーセント記号、コンマ、その他の句読点が含まれます。 ハイフンとアンダースコアを使用できます。 `entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
+この `entity.id` 値は *not* には、REST API 呼び出しで渡される際に URL エンコーディングが必要なスペース、スラッシュ、アンパサンド、疑問符、パーセント記号、コンマ、その他の句読点が含まれます。 ハイフンとアンダースコアを使用できます。 `entity.id` 値に無効な句読点を含めると、一部の [!DNL Recommendations] 機能が正常に動作しなくなることがあります。
 
 例：`'entity.id=67833'`
 
