@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
 workflow-type: tm+mt
-source-wordcount: '2680'
-ht-degree: 98%
+source-wordcount: '2731'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 5月16日（PT） | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 「スペース」は `entity.id` 値。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新済み `viewsEnabled` 説明。 |
+|  | [シングルページアプリケーションの実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 以下の更新を行いました。<ul><li>「Adobe Targetビューの実装」の手順 2 の後に注意書きを追加しました。</li><li>「最初のページ読み込みの操作の順序」の手順 2「Target リクエストを実行」を更新しました。</li></ul> |
 | 5 月 5 日 | [Adobe Target API の認証の設定](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 秘密鍵証明書から OAuth サーバー間秘密鍵証明書に移行する必要があることを説明する注記を追加しました。 |
 | 5月3日（PT） | [レポートの表示 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 以下の FAQ を追加しました。<ul><li>[!UICONTROL Analytics for Target]（A4T）を使用している場合、[!DNL Analysis Workspace] でアクティビティのインプレッションを追跡するにはどうすればよいですか？</li></ul> |
 | 4月26日（PT） | [AEM [!UICONTROL エクスペリエンスフラグメント]および[!UICONTROL コンテンツフラグメント]の概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM コンテンツフラグメント]機能を、すべての [!DNL Target customers] で利用できるようになりました。 |
