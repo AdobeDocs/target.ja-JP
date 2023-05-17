@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 96%
