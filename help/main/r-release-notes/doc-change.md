@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2749'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月17日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 5 月 24 日（水）の Q&amp;A コーヒーブレーク。 |
 | 5月16日（PT） | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 「スペース」は `entity.id` 値。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新済み `viewsEnabled` 説明。 |
 |  | [シングルページアプリケーションの実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 以下の更新を行いました。<ul><li>「Adobe Targetビューの実装」の手順 2 の後に注意書きを追加しました。</li><li>「最初のページ読み込みの操作の順序」の手順 2「Target リクエストを実行」を更新しました。</li></ul> |

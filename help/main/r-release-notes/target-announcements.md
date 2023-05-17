@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 100%
+source-wordcount: '1850'
+ht-degree: 94%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 100%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Gartner Magic Quadrant for Personalization Engines（2022）のリーダーに [!DNL Target] が選出される
+## [!UICONTROL Adobe Target コミュニティ] Q＆A コーヒーブレーク
 
-Gartner は、最新の Magic Quadrant for Personalization Engines（PE）で [!DNL Adobe Target] を 5 年連続でリーダーに選出しました。[!DNL Adobe] はまた、デジタルマーケティング、デジタルコマース、サービスとサポートの 3 つの主要なユースケース全体で、トップスコアと大幅な前年比の増加を達成しました。[!DNL Target] は、評価対象となったすべてのベンダーの中で、テスト機能での最高スコアを獲得しました。
+* **2023 年 5 月 24 日（水）**
+* **8:00-9:午前 0 時。(PT、UTC-7)**
+* **[登録情報](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-詳しくは、[Adobe Experience Cloud のブログ投稿](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}を参照してください。
+我々は、Ryan Roberts、Gentry Lin、Ryan Pizzuto の [!UICONTROL Adobe Targetコンサルティング] チームと Mihnea Docea of the [!UICONTROL Adobeテクニカルサポートエンジニアリング] チーム（にサインインする） [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} このスレッドで直接あなたと話をする [!DNL Adobe Target] ～に関するご質問に関するご質問 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023 年。
+
+任意の [オンデマンドのAdobe Target Summit セッションの録画](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} 事前に、このチャットにフォローアップの質問を持って来てください。
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
