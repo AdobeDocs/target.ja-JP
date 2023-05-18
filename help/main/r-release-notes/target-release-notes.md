@@ -5,9 +5,9 @@ title: 次回の  [!DNL Target]  リリースには、どのような新機能�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 94%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 24 日）
+## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 
-このリリースには、次の新機能、機能強化および修正が含まれています。
+このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
