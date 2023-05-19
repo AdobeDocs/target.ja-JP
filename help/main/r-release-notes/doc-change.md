@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2759'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 | 5月17日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 5 月 24 日（水）の Q&amp;A コーヒーブレーク。 |
 | 5月16日（PT） | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 「スペース」は `entity.id` 値。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新済み `viewsEnabled` 説明。 |

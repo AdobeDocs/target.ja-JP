@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年5月15日（PT）**
+**最終更新日：2023年5月19日（PT）**
 
 >[!NOTE]
 >
@@ -25,11 +25,35 @@ ht-degree: 100%
 
 ## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
+
+5 月 23 日：ヨーロッパ、中東、アフリカ (EMEA) 地域 5 月 24 日：アジア太平洋 (APAC) 地域 5 月 25 日：アメリカ地域
+
 このリリースには、以下の新機能、拡張機能および修正が含まれています。
 
 | 機能 | 詳細 |
 |--- |--- |
 | [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
+
+* 特定の顧客が、「次より大きい」または「次より小さい」演算子を使用して訪問者プロファイルを含むオーディエンスを作成できなかった問題を修正しました。 （TGT-45271）
+
+## [!DNL Target] Standard／Premium 23.5.2（2023 年 5 月 31 日）
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* プロファイル API 認証トークンの生成時に空のページが表示される問題を修正しました。 （TGT-45387）
+* 画像が [!UICONTROL デザインを作成] パネル ( 画像名に GB 18030文字が含まれる場合 ) （TGT-44614）
+* レポートで [!UICONTROL 自動パーソナライゼーション] 解析中にフリーズするアクティビティ （TGT-44820）
+
+## [!DNL Target] Standard/Premium 23.5.3（日付は未定）
+
+このリリースには、次の機能拡張が含まれています。
+
+| 機能 | 詳細 |
+|--- |--- |
+| [!UICONTROL QA モード] 対象 [!UICONTROL Automated Personalization] アクティビティ | [!DNL Adobe Target] [!UICONTROL QA モード] は現在、 [!UICONTROL Automated Personalization] アクティビティ、置き換え [!UICONTROL リンクをプレビュー] 機能。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
+
+* を使用する際のパフォーマンスが向上しました。 [!UICONTROL 重複を許可しない] オプション [除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] アクティビティ。
 
 ## その他のリリースノートとバージョンの詳細
 
