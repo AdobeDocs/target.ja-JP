@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 68%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 68%
 |--- |--- |
 | [!UICONTROL QA モード] 対象 [!UICONTROL Automated Personalization] アクティビティ | [!DNL Adobe Target] [!UICONTROL QA モード] は現在、 [!UICONTROL Automated Personalization] アクティビティ、置き換え [!UICONTROL リンクをプレビュー] 機能。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
 
-* を使用する際のパフォーマンスが向上しました。 [!UICONTROL 重複を許可しない] オプション [除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] アクティビティ。
+* 次の間の重複機能（読み込み時間の短縮を含む）を禁止するパフォーマンスの強化 [除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] アクティビティ。
 
 ## その他のリリースノートとバージョンの詳細
 
