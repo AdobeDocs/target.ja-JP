@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 90%
 
 ---
 
@@ -113,7 +113,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 * *宛先の概要*&#x200B;ガイドの[Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank}
 * *宛先の概要*&#x200B;ガイドの[属性のマッピング](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}
 
-## ビデオおよびブログ投稿
+## ビデオおよびブログ投稿 {#videos-blogs}
 
 次のビデオとブログ投稿では、Target と RTCDP を使用した高度なパーソナライゼーションについて詳しく説明しています。
 
@@ -124,6 +124,30 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 詳しくは、*Platform チュートリアル*&#x200B;ガイドの[Real-Time CDP と Adobe Target による次のヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja){target=_blank}を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### ビデオ：の設定 [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform]
+
+設定方法を学ぶ [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform] セグメントとプロファイル属性の送信を開始するには [!DNL Real-Time CDP] から [!DNL Target].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+
+### ビデオ：セグメントとプロファイル属性のアクティブ化
+
+次の場所からセグメントとプロファイル属性をアクティブ化する方法を説明します。 [!DNL Adobe Real-Time Customer Data Platform] から [!DNL Adobe Target] web サイト、モバイルアプリ、その他のデジタルプロパティにパーソナライズされたコンテンツをリアルタイムで表示する。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+
+### ビデオ：用途 [!DNL Real-Time CDP] セグメント [!DNL Target]
+
+使用方法を学ぶ [!DNL Real-Time Customer Data Platform] セグメント [!DNL Adobe Target] を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+
+### ビデオ：用途 [!DNL Real-Time CDP] のプロファイル属性 [!DNL Adobe Target]
+
+使用方法を学ぶ [!DNL Adobe Real-Time Customer Data Platform] のプロファイル属性 [!DNL Adobe Target] を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] のブログとビデオ：同じページの強化されたパーソナライゼーション
 

@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 96%
+source-wordcount: '2783'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月22日（PT） | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) との統合 | 次の新しいビデオを追加しました。<ul><li>の設定 [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform]</li><li>セグメントとプロファイル属性のアクティブ化</li><li>用途 [!DNL Real-Time CDP] セグメント [!DNL Target]</li><li>用途 [!DNL Real-Time CDP] のプロファイル属性 [!DNL Adobe Target]</li></ul> |
 | 5月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 | 5月17日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!UICONTROL Adobe Target Community] 2023 年 5 月 24 日（水）の Q&amp;A コーヒーブレーク。 |
 | 5月16日（PT） | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 「スペース」は `entity.id` 値。 |
