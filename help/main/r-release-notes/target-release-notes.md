@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 54%
 | [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
 
 * 特定の顧客が、「次より大きい」または「次より小さい」演算子を使用して訪問者プロファイルを含むオーディエンスを作成できなかった問題を修正しました。 （TGT-45271）
+* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
+* 今後の UI の更新のために、様々な場所に Target UI が更新されました（更新がリリースされるまで、変更は機能フラグの背後にあります）。
 
 ## [!DNL Target] Standard／Premium 23.5.2（2023 年 5 月 31 日）
 
