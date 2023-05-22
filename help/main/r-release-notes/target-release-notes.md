@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
+source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 68%
+source-wordcount: '519'
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年5月19日（PT）**
+**最終更新日：2023年5月22日（PT）**
 
 >[!NOTE]
 >
@@ -44,6 +44,10 @@ ht-degree: 68%
 * プロファイル API 認証トークンの生成時に空のページが表示される問題を修正しました。 （TGT-45387）
 * 画像が [!UICONTROL デザインを作成] パネル ( 画像名に GB 18030文字が含まれる場合 ) （TGT-44614）
 * レポートで [!UICONTROL 自動パーソナライゼーション] 解析中にフリーズするアクティビティ （TGT-44820）
+* 特定の顧客のデフォルトワークスペースの Target UI にアクティビティが表示されない問題を修正しました。 （TGT-45286）
+* 「重複を許可しない」フラグの動作を更新しました。 繰り返しオファーの除外フラグは更新され、デフォルトコンテンツオファー（API v3、v4 の場合）が繰り返しオファーを許可し、オプションがデフォルトコンテンツオファーを参照し、テンプレートが定義されていない場合は重複オプションを許可します。 （TNT-46617）
+* URL にクエリパラメーターが追加され、Visual Experience Composer(VEC) でページが読み込めなくなる問題を修正しました。 （TGT-44873）
+* エクスペリエンスのテキスト/HTMLで、一部の文字が正しくエスケープされなかった問題を修正しました。 （TGT-44600）
 
 ## [!DNL Target] Standard/Premium 23.5.3（日付は未定）
 
