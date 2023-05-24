@@ -7,7 +7,7 @@ exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 24%
 
    この動作が要件を満たさない場合は、次のいずれかの操作を実行することを検討してください。
 
-   * パス [mbox パラメーター](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} から [!DNL Target] を使用して、ターゲティングの目的で使用します。
+   * パス [mbox パラメーター](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} から [!DNL Target] を使用して、ターゲティングの目的で使用します。
    * を使用します。 [A/B テストアクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) ランディングページアクティビティの代わりに使用します。 A/B テストアクティビティは、同じ訪問者のエクスペリエンスを切り替えません。
    * の使用 [訪問者プロファイル](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) 代わりに、
 

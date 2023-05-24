@@ -8,7 +8,7 @@ exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -104,9 +104,9 @@ ht-degree: 73%
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}.
 
-### モデルがトレーニングに使用したくない属性が 1 つ以上表示されます。 これらの属性をトレーニングモデルから削除できますか？ {#models-api}
+### モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。これらの属性をトレーニングモデルから削除できますか？ {#models-api}
 
 この [!UICONTROL モデル API]は API とも呼ばれブロックリスト、の機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ 1 つ以上の属性を、AP または AT アクティビティでモデルが使用するのを除外する場合は、モデル API を使用して、これらの属性を「」に追加できまブロックリストす。
 

@@ -30,7 +30,7 @@ ht-degree: 34%
 * を使用する前に満たす必要がある前提条件がいくつかあります。 [!UICONTROL 顧客属性] の機能 [!DNL People] サービス。 詳しくは、「顧客属性をアップロードするための前提条件」( [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) 内 *Experience Cloudサービスと管理に関するドキュメント*.
 * ファイルのアップロードに関する制限に注意してください。詳しくは、 [顧客属性のデータファイルおよびデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja) 内 *Experience Cloud中央インターフェイスコンポーネントガイド*. ベストプラクティスは次のとおりです。
 
-   * 1 つの大きなファイル ( [指定した制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)) をクリックします。 複数の小さいファイルよりも、1 つの大きいファイルの方が望ましいです。
+   * 1 つの大きなファイル ( [指定した制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)) をクリックします。 複数の小さいファイルよりも、1 つの大きいファイルの方が望ましいです。
    * アップロードを複数のファイルに分割する必要がある場合は、新しいファイルを送信する前に、ファイルが完全に処理されていることを確認してください。 バッチ内の次のファイルを送信する前に、バッチ内の各ファイルが完全に処理されていることを確認します。
 
 * [!DNL Adobe] では、CRM データベースの顧客属性（訪問者プロファイル）データの 100%が [!DNL Experience Cloud] したがって、 [!DNL Target]. 現在の設計では、データのごく一部（大規模な実稼動バッチの 0.1%まで）がオンボーディングされない可能性があります。

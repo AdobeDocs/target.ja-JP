@@ -63,7 +63,7 @@ CSV ファイル内のデータをダウンロードするには：
 
    [!UICONTROL A/B テスト]、[!UICONTROL エクスペリエンスターゲット設定]（XT）、[!UICONTROL 多変量分析テスト]（MVT）の各アクティビティの[!UICONTROL 注文の詳細]レポートでは、[!UICONTROL エクスペリエンス]列にエクスペリエンス `localId` が含まれています。これは、オファートークン `$campaign.recipe.id` からの出力値です。
 
-   [!UICONTROL 自動パーソナライゼーション]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。[!UICONTROL  の別の場所で見られるように、現在の]アルゴリズム名[!DNL Target]列は、「コントロール」と「ターゲット」の用語に置き換えられています。
+   [!UICONTROL Automated Personalization]（AP）アクティビティについては、[!UICONTROL エクスペリエンス]列はありません。[!UICONTROL  の別の場所で見られるように、現在の]アルゴリズム名[!DNL Target]列は、「コントロール」と「ターゲット」の用語に置き換えられています。
 
    [!UICONTROL Recommendations] アクティビティに対する影響はありませんでした。
 

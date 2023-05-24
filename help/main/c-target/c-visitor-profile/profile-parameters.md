@@ -5,8 +5,8 @@ title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '2466'
 ht-degree: 100%
 
 ---

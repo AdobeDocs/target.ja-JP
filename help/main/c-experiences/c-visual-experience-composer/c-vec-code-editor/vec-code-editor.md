@@ -7,7 +7,7 @@ exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
 source-wordcount: '2250'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -213,7 +213,7 @@ Target では、Target で変更されたページ上の要素に対して値「
 
 **を使用する場合、カスタムコードは実行されません `triggerView`.**
 
-VEC のカスタムコードオファーは、 `triggerView()` が `{page: false}` を選択します。
+オプションとして `{page: false}` を使用して `triggerView()` が呼び出される場合、VEC のカスタムコードオファーは再レンダリングされません。
 
 **ページの構造上の変更によってアクションを適用できなかったことを示す警告が表示されました。これはどういう意味ですか？** 
 

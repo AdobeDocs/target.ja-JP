@@ -5,7 +5,7 @@ title: ' [!DNL Adobe Target] のドキュメントとリソースはどこで検
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 | [アドビカスタマーケアの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
 | [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
 | [Adobe Target 開発者ガイド](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | Adobe Target 開発者サイトに関する情報は、クライアントサイドアプリケーション、サーバーサイドアプリケーション、モバイルアプリケーション、IoT などに [!DNL Target] を実装するのに役立ちます。[!DNL Target] データをサードパーティのソリューションに書き出すこともできます。 |
-| [Target Recommendations API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/recommendations-apis/overview.html?lang=ja){target=_blank} | [!DNL Target] Recommendations サーバーとプログラムによってやり取りできる、[!UICONTROL Recommendations] API に関する情報です。これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
-| [Server Side Delivery API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} | Adobe Target 配信 API を構成するリソースに関する情報です。 |
+| [Target Recommendations API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/recommendations-apis/overview.html?lang=ja){target=_blank}をインストールします。 | [!DNL Target] Recommendations サーバーとプログラムによってやり取りできる、[!UICONTROL Recommendations] API に関する情報です。これらの API は様々なアプリケーションスタックと統合して、通常 [!DNL Target] UI からおこなわれる関数を実行できます。 |
+| [Server Side Delivery API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}をインストールします。 | Adobe Target 配信 API を構成するリソースに関する情報です。 |
 | [ターゲットサーバーサイド SDK](https://adobetarget-sdks.gitbook.io/docs/) | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |
 | [Adobe Experience Platform モバイル SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | モバイルアプリに [!DNL Target] を実装する方法に関する情報です。 |
 

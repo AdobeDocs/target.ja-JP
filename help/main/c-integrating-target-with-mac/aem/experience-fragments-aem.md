@@ -5,7 +5,7 @@ title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL エクスペリエ
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 100%
 

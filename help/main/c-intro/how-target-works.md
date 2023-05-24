@@ -5,7 +5,7 @@ title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2565'
 ht-degree: 100%
 

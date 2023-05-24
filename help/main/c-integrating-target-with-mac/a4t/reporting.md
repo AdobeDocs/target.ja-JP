@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 45%
 
 ---
@@ -79,7 +79,7 @@ In [!DNL Analysis Workspace]、 [!UICONTROL Analytics for Target] パネルを�
 
 A4T でオフライン計算を実行し、信頼区間と信頼区間を [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel ファイルに関する情報は含まれていますが、 [!DNL Analytics].
 
-A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test)（バイナリ指標ではなく）連続変数の {target=_blank} 計算。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定計算を実行するには、t 統計の分母に使用される平方偏差を計算するために、「平方和」が必要です。 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用する数式の詳細について説明します。 平方和は、 [!DNL Analytics]. 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
+A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} バイナリ指標ではなく、連続変数の計算を行います。 Analytics では、訪問者は常に追跡され、実行されたすべてのアクションがカウントされます。したがって、訪問者が複数回買い物をした場合や成功指標を複数回訪問した場合、これらの追加のヒット数もカウントされます。この場合、指標は連続型変数になります。ウェルチの t 検定計算を実行するには、t 統計の分母に使用される平方偏差を計算するために、「平方和」が必要です。 [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md) では、使用する数式の詳細について説明します。 平方和は、 [!DNL Analytics]. 平方和のデータを取得するには、サンプルの期間を対象に、最適化する指標で訪問者レベルのエクスポートを実行する必要があります。
 
 例えば、訪問者ごとのページビュー数に最適化する場合、指定した期間（おそらく数日）の訪問者ごとの合計ページビュー数のサンプルを書き出します（必要なデータポイントは数千個です）。 そのうえでそれぞれの値を 2 乗し、その総和を算出します（ここでは演算の順番が非常に重要です）。この「平方和」の値は、Complete Confidence Calculator で使用されます。これらの値には、このスプレッドシートの「売上高」セクションを使用します。
 
@@ -91,7 +91,7 @@ A4T の場合、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s
 
    各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) の「Data Warehouse の説明」を参照してください。
 
-   | フィールド | 説明 |
+   | フィールド | 手順 |
    |--- |--- |
    | リクエスト名 | リクエストの名前を指定します。 |
    | レポート日 | 期間と精度を指定します。<br>最初のリクエストでは 1 時間以内または 1 日以内のデータを選択することをお勧めします。Data Warehouse のファイルは、リクエストする期間が長いほど処理に時間がかかります。そのため、最初は短い期間のデータをリクエストして、ファイルが想定どおりの結果を返すかどうかを確認することをお勧めします。その後リクエストマネージャーに移動してリクエストを複製し、2 回目はより長い期間のデータをリクエストします。また、精度を「なし」以外に切り替えると、ファイルサイズが大幅に増加します。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |

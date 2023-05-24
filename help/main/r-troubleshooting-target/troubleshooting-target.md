@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 82%
 
 * [at.js FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
 * [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。
 
 ## モバイルアプリ
@@ -137,7 +137,7 @@ ht-degree: 82%
 
 ## セキュリティ
 
-* [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=ja)
 
 ## システムステータス
 

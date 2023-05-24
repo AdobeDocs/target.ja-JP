@@ -72,7 +72,7 @@ ht-degree: 100%
 
 **部分的なデータヒット：** ユーザーは、呼び出しを [!DNL Analytics] 送信するまでに十分な長さのページにとどまり、適切なMCIDが [!DNL Target] あることがあります。このシナリオは、部分的なデータヒットとなります（[!DNL Analytics] ページビューのないヒット）。ユーザーがサイトを再訪し、[!DNL Analytics] コードのあるページを表示すると、再訪問者として適切にカウントされます。ページに [!DNL Analytics] コードしかない場合、これらのヒットは失われてしまいます。このヒットのデータは、一定の指標（訪問数）を水増しし、他の指標（1 訪問あたりのページビュー数、1 訪問あたりの時間など）を下げてしまうため、そういったデータを望まないクライアントもいます。また、ページビューのないヒットも含まれます。ただし、このデータを保持する正当な理由もあります。
 
-部分的なデータヒットを最小限に抑えるには、ページの読み込みを高速化したり、ライブラリの最新バージョンに更新したり、それらのヒットを除外した[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を作成したりします。この手順の詳細については、*Analytics コンポーネントガイド*&#x200B;の[仮想レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)を参照してください。
+部分的なデータヒットを最小限に抑えるには、ページの読み込みを高速化したり、ライブラリの最新バージョンに更新したり、それらのヒットを除外した[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を作成したりします。この手順の詳細については、*Analytics コンポーネントガイド*&#x200B;の[仮想レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を参照してください。
 
 次の図では、仮想レポートスイートのセグメント定義を示しています。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 **親なしヒット：** Analytics が呼び出される前にユーザーがページを離れてしまい、Target が適切な MCID を受け取らないこともありえます。これらのヒットは、Adobe が「親なし」ヒットと呼ぶものです。これらのヒットは、ほとんど戻ってくることのない顧客を表し、訪問数と訪問者数を不適切に水増しします。
 
-こういった「親なし」ヒットを最小限に抑えるには、上で説明しているように、こうしたヒットを除外する[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)を作成することができます。
+こういった「親なし」ヒットを最小限に抑えるには、上で説明しているように、こうしたヒットを除外する[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja)を作成することができます。
 
 ## [!DNL Target] レポートの意味は何ですか？ {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

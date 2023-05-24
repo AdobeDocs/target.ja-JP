@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には[互換性のない条件をフィルタリング](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
+[!DNL Target] には[互換性のない条件をフィルタリング](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >

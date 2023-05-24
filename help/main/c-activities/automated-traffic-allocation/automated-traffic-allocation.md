@@ -6,7 +6,7 @@ feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3565'
+source-wordcount: '3563'
 ht-degree: 50%
 
 ---
@@ -29,7 +29,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] では、
 
 での通常の A/B テスト [!DNL Target] は、対抗と対照の一対比のみを表示します。 例えば、アクティビティにエクスペリエンスがある場合は、次のようになります。A、B、C、D（A は制御、通常） [!DNL Target] A/B テストでは、A 対 B、A 対 C、A 対 D が比較されます。
 
-このようなテストでは、 [!DNL Target]、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test)p 値ベースの信頼性を生成する場合は {target=_blank}。 その後、この信頼値を使用して、対抗が対照と十分に異なるかどうかを特定します。しかし、 [!DNL Target] は、「最良」のエクスペリエンスを見つけるために必要な暗黙の比較（B と C、B と D、C と D）を自動的に実行しません。 その結果、マーケティング担当者は、「最良の」エクスペリエンスを判断するために結果を手動で分析する必要があります。
+このようなテストでは、 [!DNL Target]、 [ウェルチ t 検定](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} p 値ベースの信頼性を生み出すために使用します。 その後、この信頼値を使用して、対抗が対照と十分に異なるかどうかを特定します。しかし、 [!DNL Target] は、「最良」のエクスペリエンスを見つけるために必要な暗黙の比較（B と C、B と D、C と D）を自動的に実行しません。 その結果、マーケティング担当者は、「最良の」エクスペリエンスを判断するために結果を手動で分析する必要があります。
 
 [!UICONTROL 自動配分は、エクスペリエンス全体に対してすべての暗黙の比較を実行し、「真」の勝者を見つけます。]このテストには「対照」エクスペリエンスという概念がありません。
 
@@ -222,7 +222,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] では、
 
 ## トレーニングビデオ {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
-以下のビデオは、この記事で説明する概念についてさらに詳しく説明しています。
+以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
 ### アクティビティワークフロー - ターゲット設定（2:14）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 

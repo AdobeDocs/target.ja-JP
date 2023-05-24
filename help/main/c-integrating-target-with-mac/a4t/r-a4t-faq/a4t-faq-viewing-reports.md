@@ -201,7 +201,7 @@ ht-degree: 70%
 
 +++
 
-## アクティビティのインプレッションを [!DNL Analysis Workspace] 使用時 [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+## [!UICONTROL Analytics for Target]（A4T）を使用している場合、[!DNL Analysis Workspace] でアクティビティのインプレッションを追跡するにはどうすればよいですか？ {#activity-impressions}
 
 +++回答
 

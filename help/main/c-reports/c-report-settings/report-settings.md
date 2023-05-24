@@ -6,7 +6,7 @@ feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1957'
 ht-degree: 66%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->組織が [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) で指標データを送信 [!DNL Target]の場合、AEP Datastream の環境は、 [!DNL Target] レポート設定。
+>組織が [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) への指標データの送信先 [!DNL Target]の場合、AEP Datastream の環境は、 [!DNL Target] レポート設定。
 
 
 ### レポートデータをリセット

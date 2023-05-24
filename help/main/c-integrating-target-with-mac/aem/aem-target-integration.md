@@ -5,7 +5,7 @@ title: ' [!DNL Target]  を Adobe Experience Manager（AEM）の統合方法を�
 feature: Integrations
 exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
 source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 

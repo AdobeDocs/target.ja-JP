@@ -23,7 +23,7 @@ CSS セレクターの基本的な情報については、Mozilla Developer Netw
 
 >[!NOTE]
 >
->要素クラスは、A/B テスト、自動パーソナライゼーションおよび多変量分析テストアクティビティでセレクターとして使用することができます。
+>要素クラスは、A/B テスト、Automated Personalizationおよび多変量分析テストアクティビティでセレクターとして使用することができます。
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 

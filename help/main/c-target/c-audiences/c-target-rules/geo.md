@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 41%
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 41%
    * [!UICONTROL DMA]
    * [!UICONTROL 携帯電話会社]
 
-   訪問者の地域情報は、 [!DNL Target] location リクエスト（mbox リクエスト）を使用します。 IP-to-geo 解決は、新しいセッションの最初の呼び出しでおこなわれます。 つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。
+   訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。
 
    の場合 [!UICONTROL 携帯電話会社], [!DNL Target] は、（IP アドレスのブロックを所有する）IP アドレス登録データを使用して、 [モバイル国コード (MCC) およびモバイルネットワークコード (MNC)](https://www.mcc-mnc.com).
 

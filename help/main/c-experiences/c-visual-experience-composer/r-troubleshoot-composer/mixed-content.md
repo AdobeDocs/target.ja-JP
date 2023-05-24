@@ -17,7 +17,7 @@ ht-degree: 100%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!UICONTROL Visual Experience Composer]（VEC）[!DNL Adobe Target] 混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは複数の呼び出し（HTTPS と HTTP）が混在するサイトを開くことができます。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは複数の呼び出し（HTTPS と HTTP）が混在するサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 

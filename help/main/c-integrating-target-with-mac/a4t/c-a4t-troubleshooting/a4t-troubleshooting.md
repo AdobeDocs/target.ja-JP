@@ -5,7 +5,7 @@ title: Analytics と  [!DNL Target]  の統合（A4T）のトラブルシュー�
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 100%
 

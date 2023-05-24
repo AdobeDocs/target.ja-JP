@@ -9,7 +9,7 @@ exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -127,7 +127,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-Delivery API と Save entities API の使用については、[Adobe Recommendations API のドキュメント](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}を参照してください。
+Delivery API と Save entities API の使用については、[Adobe Recommendations API のドキュメント](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
 
 ## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

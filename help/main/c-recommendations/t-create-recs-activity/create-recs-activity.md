@@ -8,7 +8,7 @@ exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -79,7 +79,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。お使いの Recommendations の設定（[!UICONTROL Recommendations]／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、**[!UICONTROL 互換性]**&#x200B;オプションが表示されない場合があります。詳しくは、 [設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、アクティビティで互換性のない条件を有効にしたい場合は、「**[!UICONTROL 互換性あり]**」チェックボックスのチェックを外します。お使いの Recommendations の設定（[!UICONTROL Recommendations]／**[!UICONTROL 設定]**／**[!UICONTROL 非互換の条件をフィルター]**）によっては、**[!UICONTROL 互換性]**&#x200B;オプションが表示されない場合があります。詳しくは、 [設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}.
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

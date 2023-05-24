@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} (or later){target=_blank}.
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択は、OR 演算子で結合されます。
 

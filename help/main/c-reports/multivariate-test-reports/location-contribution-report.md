@@ -6,12 +6,12 @@ feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '298'
+ht-degree: 37%
 
 ---
 
-# [!UICONTROL 場所の貢献度レポート（MVT）]
+# [!UICONTROL 場所の貢献度]レポート（MVT）
 
 この [!UICONTROL 場所の貢献度] レポートには、各要素および各オファーのパフォーマンスが表示されます。
 

@@ -118,7 +118,7 @@ ht-degree: 36%
 | [!UICONTROL Automated Personalization]（AP） | × | × | × |
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
-| [!UICONTROL レコメンデーション] | ○ | ○ | ○ |
+| [!UICONTROL Recommendations] | ○ | ○ | ○ |
 
 >[!NOTE]
 >
@@ -146,5 +146,5 @@ ht-degree: 36%
 | [!UICONTROL Automated Personalization]（AP） | ○ | ○ | ○ |
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
-| [!UICONTROL レコメンデーション] | ○ | ○ | ○ |
+| [!UICONTROL Recommendations] | ○ | ○ | ○ |
 
