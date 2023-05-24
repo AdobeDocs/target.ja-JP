@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 94%
 
 ## [!UICONTROL Adobe Target コミュニティ] Q＆A コーヒーブレーク
 
-* **2023 年 5 月 24 日（水）**
-* **8:00-9:午前 0 時。(PT、UTC-7)**
+* **2023年5月24日水曜日（PT）**
+* **午前 8:00-9:00（PT、UTC-7）**
 * **[登録情報](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-我々は、Ryan Roberts、Gentry Lin、Ryan Pizzuto の [!UICONTROL Adobe Targetコンサルティング] チームと Mihnea Docea of the [!UICONTROL Adobeテクニカルサポートエンジニアリング] チーム（にサインインする） [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} このスレッドで直接あなたと話をする [!DNL Adobe Target] ～に関するご質問に関するご質問 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023 年。
+[!UICONTROL Adobe Target コンサルティング]チームの Ryan Roberts、Gentry Lin、Ryan Pizzuto と、[!UICONTROL Adobe テクニカルサポートエンジニア]チームの Mihnea Docea が参加します。チームの参加者はすべて、[Adobe Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank}にログインして、直接チャットすることができます。[!DNL Target] @ [!UICONTROL Adobe Summit] 2023 に関するご質問に関連する [!DNL Adobe Target] の質問については、このスレッドで質問してください。
 
-任意の [オンデマンドのAdobe Target Summit セッションの録画](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} 事前に、このチャットにフォローアップの質問を持って来てください。
+事前に[オンデマンドの Adobe Target Summit セッションの録画](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}を確認して、フォローアップの質問をこのチャットに送信してください。
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
