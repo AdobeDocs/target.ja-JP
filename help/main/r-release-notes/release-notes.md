@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 83%
 
 ---
 
@@ -19,14 +19,17 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 23.4.1（2023年4月25～27日（PT））
+## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 
-このリリースには、セキュリティの更新と次の新機能が含まれています。
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-| 機能 | 詳細 |
-|--- |--- |
-| ヘッドレスパーソナライゼーションと実験のための AEM [!UICONTROL コンテンツフラグメント] | [!DNL Adobe Experience Manager]（AEM）[!UICONTROL コンテンツフラグメント]を [!DNL Target] アクティビティで使用します。AEM の使いやすさと機能を、[!DNL Target] の強力な人工知能（AI）および機械学習（ML） 機能と組み合わせると、ヘッドレスパーソナライゼーションと実験を支援できます。<P>詳しくは、[AEM [!UICONTROL コンテンツフラグメント]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)を参照してください。 |
-| [*Adobe Target デベロッパーガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} | *Adobe Target デベロッパーガイド*&#x200B;は、*[!UICONTROL Adobe Experience League]* に移動されました。*[!UICONTROL Experience League]* への移行により、追加言語でのテキストのローカライゼーションが簡単になり、*Experience League* 内の検索が統合されて、*[!UICONTROL Adobe Target ビジネス実践者ガイド]*&#x200B;と *[!UICONTROL Adobe Target デベロッパーガイド]*&#x200B;の両方からの検索結果が提供され、追加のメリットが得られます。<P>以前の場所から *[!UICONTROL Experience League]* へと自動的にリダイレクトされます。必要に応じてブックマークを更新してください。 |
+5 月 23 日：ヨーロッパ、中東、アフリカ (EMEA) 地域 5 月 24 日：アジア太平洋 (APAC) 地域 5 月 25 日：アメリカ地域
+
+このリリースには、次の新しい機能強化および修正が含まれています。
+
+* 特定の顧客が、「次より大きい」または「次より小さい」演算子を使用して訪問者プロファイルを含むオーディエンスを作成できなかった問題を修正しました。 （TGT-45271）
+* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
+* 今後の UI の更新のために、様々な場所に Target UI が更新されました（更新がリリースされるまで、変更は機能フラグの背後にあります）。
 
 ## その他のリリースノートとバージョンの詳細
 
