@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '621'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 83%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target] Standard／Premium 23.5.2（2023 年 5 月 31 日）
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* プロファイル API 認証トークンの生成時に空のページが表示される問題を修正しました。 （TGT-45387 および TGT-45423）
+* 画像が [!UICONTROL デザインを作成] パネル ( 画像名に GB 18030文字が含まれる場合 ) （TGT-44614）
+* エクスペリエンスのテキスト/HTMLで、一部の GB 18030記号文字が誤ってエスケープされていた問題を修正しました。 （TGT-44600）
+* レポートで [!UICONTROL 自動パーソナライゼーション] 解析中にフリーズするアクティビティ （TGT-44820）
+* アクティビティを検索できない問題を修正しました。 [!UICONTROL アクティビティ] アクティビティ名に角括弧 ( [ または ] ) をクリックします。 （TGT-44777）
+* アクティビティの目的に特殊文字が含まれる場合に、アクティビティを同期できない問題を修正しました。 （TGT-44982）
+* でアクティビティが表示されない問題を修正しました。 [!DNL Target] 特定の顧客のデフォルトワークスペースの UI。 （TGT-45286）
+* 「重複を許可しない」フラグの動作を更新しました。 繰り返しオファーの除外フラグは更新され、デフォルトコンテンツオファー（API v3、v4 の場合）が繰り返しオファーを許可し、オプションがデフォルトコンテンツオファーを参照し、テンプレートが定義されていない場合は重複オプションを許可します。 （TNT-46617）
+* URL にクエリパラメーターが追加され、ページが [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 （TGT-44873）
+* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
 
 ## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 
