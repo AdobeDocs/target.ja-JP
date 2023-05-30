@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 57%
+source-wordcount: '654'
+ht-degree: 59%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 57%
 ## [!DNL Target] Standard／Premium 23.5.2（2023 年 5 月 31 日）
 
 このリリースには、以下の機能強化および修正が含まれています。
+
+| 機能 | 詳細 |
+|--- |--- |
+| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
 
 * プロファイル API 認証トークンの生成時に空のページが表示される問題を修正しました。 （TGT-45387 および TGT-45423）
 * 画像が [!UICONTROL デザインを作成] パネル ( 画像名に GB 18030文字が含まれる場合 ) （TGT-44614）
