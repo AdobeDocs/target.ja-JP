@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2870'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 5月30日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 リリースに関するリリースノートを追加しました。 |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のコーヒーブレークイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6 月 7 日）</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6 月 21 日）</li></ul> |
 | 5月23日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要な注意を更新しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.1 リリースに関するリリースノートを追加しました。 |
