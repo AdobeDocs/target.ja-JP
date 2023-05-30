@@ -4,7 +4,7 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 92%
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 * **2023 年 6 月 21 日（水）**
 * **8:00-9:午前 0 時。(PDT、UTC-7)**
-* **[詳細情報]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[詳細情報](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 Adobe Targetの専門家ラモン・チェスペデスとケビン・ジェミソンが加わります この AMA(Ask Me Anything) イベントでは、専門家がログインし、最近の5/24ウェビナーで取り上げられたトピックに関するご質問に対する回答を用意します。 [パーソナライゼーションによる成長促進のジャーニー](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
