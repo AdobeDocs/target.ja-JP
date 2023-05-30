@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Adobe Targetの専門家ラモン・チェスペデスとケビン・ジェミ�
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
 過去のイベントの録画にアクセス（利用可能な場合）：
+
+### パーソナライゼーションによる成長促進のジャーニー
+
+Adobeのカスタマーサクセスマネージャー、Ramon Cespedes が提供する、パーソナライゼーションを提供する組織の能力を強化します。
+
+主要アナリストレポートでは、パーソナライゼーションに優れた企業は、同業者に比べて 40%多くの売上高を生み出していることを示しています。 新しく、関連性が高く、パーソナライズされたエクスペリエンスのニーズをクリックごとに満たすには、適切なフレームワークと戦略が必要です。 このウェビナーでは、Adobeの専門家と協力して、データ駆動型のフレームワークを利用して組織のパーソナライゼーションプログラムを構築し、成功を導く方法を学びます。
+
+* [録画リンク](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### AI を利用したパーソナライゼーションの微調整：[!DNL Adobe Target] の新機能（2022年10月11日（PT））
 
