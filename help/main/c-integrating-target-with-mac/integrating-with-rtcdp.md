@@ -5,9 +5,9 @@ title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -84,8 +84,8 @@ Real-Time CDP プロファイル属性は、HTML オファーおよび [JSON オ
 
 次の点に留意してください。
 
-* 特定のオファー内の属性は、同じ [!UICONTROL Experience Platform] サンドボックスからの属性である必要があります（つまり、オファーには異なる [!UICONTROL Experience Platform] サンドボックスからの属性を含めることはできません）。
-* 特定のオファー内の属性は、様々なソース（[!DNL Target] プロファイルと [!UICONTROL Experience Platform] プロファイル）から取得できます（つまり、属性が [!DNL Target] または [!UICONTROL Experience Platform] プロファイルのいずれかから取得されたかに関係なく、属性を結合できます）。
+* 特定のオファー内の属性は、同じ [!UICONTROL Experience Platform] サンドボックスからの属性である必要があります。（つまり、オファーには異なる [!UICONTROL Experience Platform] サンドボックスからの属性を含めることはできません）。
+* 特定のオファー内の属性は、様々なソース（[!DNL Target] プロファイルと [!UICONTROL Experience Platform] プロファイル）から取得できます。（つまり、属性が [!DNL Target] または [!UICONTROL Experience Platform] プロファイルのいずれかから取得されたかに関係なく、属性を結合できます）。
 * オファーを定義する際、属性に明示的な値がない場合に備えて、[!UICONTROL Real-Time CDP プロファイル属性]にデフォルト値を割り当てることができます。例えば、パーソナライゼーションサービスで使用されている属性が同意ポリシーやガバナンスポリシーによってブロックされている場合は、代わりにデフォルト値を使用できます。
 
 ### JSON サンプルのユースケース
@@ -111,7 +111,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 * *Adobe Experience Platform リリースノート*&#x200B;の[宛先リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank}
 * *宛先の概要*&#x200B;ガイドの[同じページと次のページのパーソナライゼーションに対するパーソナライゼーションの宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank}。
 * *宛先の概要*&#x200B;ガイドの[Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank}
-* *宛先の概要*&#x200B;ガイドの[属性のマッピング](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}
+* *宛先の概要*&#x200B;ガイドの[属性のマッピング。](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}
 
 ## ビデオおよびブログ投稿 {#videos-blogs}
 
@@ -125,27 +125,27 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### ビデオ：の設定 [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform]
+### ビデオ：[!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先の設定
 
-設定方法を学ぶ [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform] セグメントとプロファイル属性の送信を開始するには [!DNL Real-Time CDP] から [!DNL Target].
+[!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先を設定して、[!DNL Real-Time CDP] から [!DNL Target] へのセグメントとプロファイル属性の送信を開始する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### ビデオ：セグメントとプロファイル属性のアクティブ化
 
-次の場所からセグメントとプロファイル属性をアクティブ化する方法を説明します。 [!DNL Adobe Real-Time Customer Data Platform] から [!DNL Adobe Target] web サイト、モバイルアプリ、その他のデジタルプロパティにパーソナライズされたコンテンツをリアルタイムで表示する。
+[!DNL Adobe Real-Time Customer Data Platform] から [!DNL Adobe Target] までのセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
-### ビデオ：用途 [!DNL Real-Time CDP] セグメント [!DNL Target]
+### ビデオ：[!DNL Target] での [!DNL Real-Time CDP] セグメントの使用
 
-使用方法を学ぶ [!DNL Real-Time Customer Data Platform] セグメント [!DNL Adobe Target] を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供します。
+[!DNL Adobe Target] での [!DNL Real-Time Customer Data Platform] セグメントを使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
-### ビデオ：用途 [!DNL Real-Time CDP] のプロファイル属性 [!DNL Adobe Target]
+### ビデオ：[!DNL Adobe Target] での [!DNL Real-Time CDP] プロファイル属性の使用
 
-使用方法を学ぶ [!DNL Adobe Real-Time Customer Data Platform] のプロファイル属性 [!DNL Adobe Target] を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供します。
+[!DNL Adobe Target] での [!DNL Adobe Real-Time Customer Data Platform] プロファイル属性を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
