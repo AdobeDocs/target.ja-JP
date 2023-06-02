@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 83%
 
 | 機能 | 詳細 |
 |--- |--- |
-| [!UICONTROL QA モード] 対象 [!UICONTROL Automated Personalization] アクティビティ | [!DNL Adobe Target] [!UICONTROL QA モード] は現在、 [!UICONTROL Automated Personalization] アクティビティ、置き換え [!UICONTROL リンクをプレビュー] 機能。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
+| [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL QA モード] | [!UICONTROL プレビューリンク]機能に代わって、[!UICONTROL Automated Personalization] アクティビティで [!DNL Adobe Target] [!UICONTROL QA モード]が使用できるようになりました。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
 
-* 次の間の重複機能（読み込み時間の短縮を含む）を禁止するパフォーマンスの強化 [除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] アクティビティ。
+* [!UICONTROL Automated Personalization] アクティビティで[除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)を行う際に、重複機能（読み込み時間の短縮を含む）を許可しないパフォーマンスの強化。
 
 ## その他のリリースノートとバージョンの詳細
 

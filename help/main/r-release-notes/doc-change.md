@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '2890'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 | 5月30日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 リリースに関するリリースノートを追加しました。 |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) との統合 | 共有に関する情報を記事に追加しました [!UICONTROL Real-Time CDP Profile Attributes] と [!DNL Target] HTMLと JSON オファーで使用する |
 |  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のコーヒーブレークイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6 月 7 日）</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6 月 21 日）</li></ul> |
-| 5月23日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要な注意を更新しました。 |
+| 5月23日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要なメモを更新しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.1 リリースに関するリリースノートを追加しました。 |
 
@@ -30,8 +30,8 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 5月22日（PT） | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) との統合 | 次の新しいビデオを追加しました。<ul><li>の設定 [!DNL Adobe Target] の宛先 [!DNL Real-Time Customer Data Platform]</li><li>セグメントとプロファイル属性のアクティブ化</li><li>用途 [!DNL Real-Time CDP] セグメント [!DNL Target]</li><li>用途 [!DNL Real-Time CDP] のプロファイル属性 [!DNL Adobe Target]</li></ul> |
-|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要な注意を更新しました。 |
+| 5月22日（PT） | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) との統合 | 次の新しいビデオを追加しました。<ul><li>[!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先の設定</li><li>セグメントとプロファイル属性のアクティブ化</li><li>[!DNL Target] での [!DNL Real-Time CDP] セグメントの使用</li><li>[!DNL Adobe Target] での [!DNL Real-Time CDP] プロファイル属性の使用</li></ul> |
+|  | [Target のエッジノードを許可リストに加える](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要なメモを更新しました。 |
 | 5月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 | 5月17日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年5月24日水曜日（PT）の [!UICONTROL Adobe Target コミュニティ] Q&amp;A のコーヒーブレイクに関する情報を追加しました。 |
 | 5月16日（PT） | [エンティティの属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 「スペース」は `entity.id` 値では使用できないことを示しました。 |
@@ -100,7 +100,7 @@ ht-degree: 97%
 | 12月20日（PT） | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) のオファーレポートグループ | 「注意事項」の下のレポートグループに関する情報を追加しました。 |
 | 12月14日（PT） | [レポート設定](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 「環境」の節に、[!DNL Adobe Experience Platform]（AEP）を使用して指標データを [!DNL Target] に送信することに関しての注記を追加しました。 |
 | 11月29日（PT） | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 次の段落を追加して、テキストを明確にしました。<ul><li>訪問者の地域情報は、[!DNL Target] 場所リクエスト（mbox リクエスト）の発信元 IP アドレスから決定されます。IP-to-geo 解決は、新しいセッションの最初の呼び出しに対して行われます。つまり、訪問者の IP アドレスが訪問のセッション中に変更された場合でも、地域情報は最初の呼び出しの IP アドレスに基づきます。</li></ul> |
-| 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html?lang=ja){target=_blank} | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
+| 11月28日（PT） | *Adobe Target 開発者ガイド*&#x200B;の [Models API（ブロックリストへの登録）の概要](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html?lang=ja){target=_blank}。 | 新しい Models API。<br>機能は [!DNL Target] 機械学習アルゴリズムからブロックし、[!UICONTROL 自動ターゲット]または [!UICONTROL Automated Personalization] モデルまたはアクティビティで使用されないようにすることができます。 |
 |  | [Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | Models API リリース（2022年11月23日）に関する情報を追加しました。 |
 | 11月23日（PT） | [at.js を使用して Analytics for Target（A4T）を実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}へのリンクを更新しました。 |
 | 11月16日（PT） | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントの登録情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレイク（11月29日（PT））</li></ul> |
@@ -174,7 +174,7 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 4月26日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>ウェビナー：Adobe Targetを使用したリアルタイムパーソナライゼーション（2022年4月28日（PT））</li><li>[!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2022年5月25日（PT））</li></ul> |
+| 4月26日（PT） | [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントの情報を追加しました。<ul><li>ウェビナー：Adobe Targetを使用したリアルタイムパーソナライゼーション（2022年4月28日（PT））</li><li>[!DNL Adobe Target] コミュニティ Q ＆ A コーヒーブレイク（2022年5月25日（PT））</li></ul> |
 |  | [リダイレクトオファー - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 以下の FAQ を追加しました。<ul><li>A4T アクティビティでリダイレクトオファーを使用する際に、トラフィック配分の不一致を最小限に抑えるには、どうすればよいですか？</li></ul> |
 |  | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 以下の節を追加しました。<ul><li>Target に書き出したエクスペリエンスフラグメントから ClientLibs と不要な HTML を削除する</li></ul> |
 | 4月21日（PT） | [Target リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 2022年4月17日（PT）に予定されている [!DNL Target] プラットフォームリリースに関する情報を追加しました。 |
