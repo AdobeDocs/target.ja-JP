@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '2890'
-ht-degree: 98%
+source-wordcount: '2931'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6 月 6 日 | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を更新しました。<ul><li>の登録リンクを更新しました。 [!DNL Adobe Target Recommendations] コーヒーブレーク（2023 年 6 月 7 日水曜日）</li><li>最近の Web セミナー「認証済み環境のモバイルエクスペリエンスの最適化とパーソナライゼーション」に関する情報を追加し、録画へのリンクを追加しました。</li></ul> |
 | 5月30日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 リリースに関するリリースノートを追加しました。 |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) との統合 | 共有に関する情報を記事に追加しました [!UICONTROL Real-Time CDP Profile Attributes] と [!DNL Target] HTMLと JSON オファーで使用する |
 |  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のコーヒーブレークイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6 月 7 日）</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6 月 21 日）</li></ul> |

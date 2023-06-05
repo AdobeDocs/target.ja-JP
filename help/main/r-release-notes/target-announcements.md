@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 87%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 * **2023 年 6 月 7 日（水）**
 * **8:00-9:午前 0 時。(PDT、UTC-7)**
-* **[詳細情報](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[詳細情報](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 私たちは、 [!DNL Adobe Target] エキスパート：ビル・オージンガ、ジョン・モスボー、ジャスティン・パトリック、エリック・ティボー。 この AMA(Ask Me Anything) イベントでは、エキスパートがログインし、 [!DNL Target Recommendations] 機能。
 
@@ -44,6 +44,21 @@ Adobe Targetの専門家ラモン・チェスペデスとケビン・ジェミ�
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
 過去のイベントの録画にアクセス（利用可能な場合）：
+
+### 認証済み環境向けの Mobile Experience Optimization とパーソナライゼーション（2023 年 4 月 27 日）
+
+ブランドは、特定の顧客のニーズと行動に基づいて、高度にパーソナライズされた適切なエクスペリエンスを提供する必要があります。マーケティングテクノロジーにおける Cookie のない将来について疑問を呈する規制対象の業界は、適切なコンテンツとオファーのために各顧客インタラクションを最適化しながら、より堅牢な顧客エンゲージメントフレームワークを採用しようとしています。
+
+金融機関と保険、小売、旅行とホスピタリティ、通信業のブランドは、認証済み環境内での最適化とパーソナライゼーションのベストプラクティスをどのように採用できるでしょうか？常連客のエンゲージメントと維持のためのモバイルアプリの重要性を理解した上で、ブランドがデジタルセルフサービスを実現したり、パーソナライズされたエクスペリエンスで新機能の採用を増やしたりするにはどうすればよいでしょうか？
+
+このセッションでは、[!DNL Adobe Target] と [!DNL Real-Time CDP] で規制対象の業界におけるエンゲージメント、収益および顧客の忠誠度を向上させる方法について説明します。
+
+* チームが匿名の訪問者と認証済みの訪問者の両方に対してパーソナライズされたエクスペリエンスを提供する方法
+* パーソナライゼーションを使用した消費者権限とプライバシー標準について
+* ID の匿名化による、認証済みの訪問者に対するパーソナライズされたコンテンツおよびオファー
+* Web およびモバイルにまたがる、認証済みのセキュアなサイトの他に類を見ないユースケース
+
+[録画リンク](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### パーソナライゼーションによる成長促進のジャーニー
 
