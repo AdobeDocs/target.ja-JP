@@ -4,10 +4,10 @@ description: エクスペリエンスのターゲット設定とAdobeで使用�
 title: Target と Audiences に関する質問や回答はどこで確認できますか。
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 61%
+source-wordcount: '962'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ URL に対するオーディエンスのターゲティングの他に、クエ�
 
 オーディエンス URL のターゲティングと、を介した URL のターゲティングが追加されました。 [!UICONTROL テンプレートルール] を URL ターゲティングとして評価する（以下の URL ターゲティングを参照）。
 
-### URL のターゲティング
+### URL のターゲティング {#url-targeting}
 
 オーディエンスの作成時に URL ターゲティングを適用するには、 [!UICONTROL ルールを追加]をクリックし、 [!UICONTROL サイトのページ]」で、最初のドロップダウンリストからオプションを選択します ([!UICONTROL 現在のページ], [!UICONTROL 前のページ]または [!UICONTROL ランディングページ]) を選択します。 [!UICONTROL URL] 2 番目のドロップダウンリストから、評価基準を指定してから、目的の URL を指定します。
 
@@ -47,11 +47,10 @@ URL に対するオーディエンスのターゲティングの他に、クエ�
 
 URL ターゲティングは、URL を評価する一連のルールに変換します。
 
-* URL = `example.com/path1?query=something`
-* URL domain = `example.com`
-* パス= path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* ドメイン = `example.com`
+* パス = `path1/path2/path3`
+* クエリ = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## 複雑な URL 文字列を作成する場合、はを実行します。 [!DNL Target] URL 全体を評価しますか？
 
