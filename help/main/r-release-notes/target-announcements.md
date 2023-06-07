@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
+source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 88%
+source-wordcount: '2104'
+ht-degree: 90%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 88%
 ## [!UICONTROL Adobe Target Community] Q&amp;A コーヒーブレーク
 
 次のコーヒーブレークに関する情報：
-
-### [!DNL Adobe Target Recommendations] コーヒーブレーク
-
-* **2023 年 6 月 7 日（水）**
-* **8:00-9:午前 0 時。(PDT、UTC-7)**
-* **[詳細情報](https://shorturl.at/irzD5){target=_blank}**
-
-私たちは、 [!DNL Adobe Target] エキスパート：ビル・オージンガ、ジョン・モスボー、ジャスティン・パトリック、エリック・ティボー。 この AMA(Ask Me Anything) イベントでは、エキスパートがログインし、 [!DNL Target Recommendations] 機能。
 
 ### パーソナライゼーションプログラム対応ウェビナーのフォローアップ
 
