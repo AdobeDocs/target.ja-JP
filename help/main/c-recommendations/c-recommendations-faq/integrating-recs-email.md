@@ -5,7 +5,7 @@ title: レコメンデーションとメールの統合方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 96%
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >電子メール受信者（API 呼び出し）ごとに、`sessionId` と `tntId`（または `thirdPartyId`）の両方で一意の値を必ず指定してください。これらのフィールドに一意の値を指定しないと、単一のプロファイル内で多くのイベントが生成されるので、API 応答が遅くなったり失敗したりする可能性があります。
 
-詳しくは 、[配信 API ドキュメント](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html) を参照してください。{target=_blank}
+詳しくは 、[配信 API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html) を参照してください。{target=_blank}
 
 ## オプション 2：rawbox メールテンプレートの使用 {#rawbox}
 

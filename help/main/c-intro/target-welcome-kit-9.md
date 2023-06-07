@@ -4,10 +4,10 @@ description: あなたは Adobe Target で初めてのアクティビティを�
 title: Target をより効果的に使用するための追加リソースはどこで見つけられますか？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 83%
+source-wordcount: '690'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 83%
 ## その他のリソース
 
 * **Adobe Target ホームページ**：[!DNL Adobe Target] のホームページ。当社の能力について学び、最新の成功事例をこちらでご覧ください。[Adobe Target](https://www.adobe.com/jp/marketing/target.html) を参照してください。
-* **ブログ**：[Target のブログ](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
+* **ブログ**：[Target のブログ](https://blog.adobe.com/en/topics/target)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
 * **Experience League**:エクスペリエンスビジネスを開始し、Target コミュニティと連携して、探している回答を見つけるために必要なガイド、イベント、トレーニングを確認します。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。ここで試験のスケジュールを設定、またはトレーニングコースを受けます。[トレーニングと資格認定](/help/main/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。[Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md)を参照してください。

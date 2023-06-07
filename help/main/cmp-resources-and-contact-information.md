@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] の機能の学習に役立つその他のリ�
 title: Target に関するリソースや連絡先情報はどこで入手できますか？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 98%
+source-wordcount: '1211'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、[Experience Cloud コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)で Adobe Target の専門家に問い合わせるか、Twitter （ [@AdobeExpCare](https://twitter.com/adobeexpcare)）でお尋ねください。
+ご質問は、 [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
@@ -101,7 +101,7 @@ Target を使用していて問題や疑問点が出てきた場合は、いく�
 Adobe Experience Cloud カスタマーケアチームによるサポートを、以下のような様々な手段でご利用いただけます。
 
 * [Experience Cloud ヘルプページでアドバイス、ヒント、よくある質問を確認する](https://helpx.adobe.com/jp/marketing-cloud.html)
-* [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/adobeexpcare)
+* 次の日に尋ねる [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [チケットを開いてサポートからサポートを受ける](https://experienceleague.adobe.com/?support-solution=Target&amp;lang=ja#support)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/ja)
