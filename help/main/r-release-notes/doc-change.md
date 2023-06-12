@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 95%
+source-wordcount: '1146'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6 月 13 日 | [Adobe Targetの Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新された記事 ( *Experience Cloud中央インターフェイスコンポーネントガイド* 使用する Cookie の説明 [!DNL Target]. |
 | 6 月 6 日 | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を更新しました。<ul><li>の登録リンクを更新しました。 [!DNL Adobe Target Recommendations] コーヒーブレーク（2023 年 6 月 7 日水曜日）</li><li>最近の Web セミナー「認証済み環境のモバイルエクスペリエンスの最適化とパーソナライゼーション」に関する情報を追加し、録画へのリンクを追加しました。</li></ul> |
 |  | [成功指標へのレポート用オーディエンスの適用](/help/main/c-target/apply-reporting-audience-success-metric.md) | 「考慮事項」節を更新し、「例」節を追加しました。 |
 |  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 「URL のターゲット設定」の節を更新しました。 |
