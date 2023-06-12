@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.5.4（6 月 28 日～27 日）
+## [!DNL Target] Standard／Premium 23.5.4（6月27～28日（PT））
 
 このリリースには、次の機能拡張が含まれています。
 

@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 92%
 |  | [成功指標へのレポート用オーディエンスの適用](/help/main/c-target/apply-reporting-audience-success-metric.md) | 「考慮事項」節を更新し、「例」節を追加しました。 |
 |  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 「URL のターゲット設定」の節を更新しました。 |
 | 5月30日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 リリースに関するリリースノートを追加しました。 |
-|  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) との統合 | 共有に関する情報を記事に追加しました [!UICONTROL Real-Time CDP Profile Attributes] と [!DNL Target] HTMLと JSON オファーで使用する |
-|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のコーヒーブレークイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6 月 7 日）</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6 月 21 日）</li></ul> |
+|  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) との統合 | HTML オファーと JSON オファーで使用するための [!UICONTROL Real-Time CDP プロファイル属性]の [!DNL Target] との共有に関する情報を含む記事を更新しました。 |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下に今後のコーヒーブレイクイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6月7日（PT））</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6月21日（PT））</li></ul> |
 | 5月23日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | 重要なメモを更新しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースのプレリリースノートを更新しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.1 リリースに関するリリースノートを追加しました。 |
