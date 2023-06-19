@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 32%
+source-wordcount: '861'
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 32%
 * **ターゲティングオーディエンス：** 異なるタイプの訪問者に異なるコンテンツを配信するために使用します。
 * **レポート用オーディエンス：** 異なるタイプの訪問者が同じコンテンツにどのように反応するかを判断するために使用され、テスト結果を分析できます。
 
-   [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [ Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する場合は、[!DNL Analytics] 内でレポート用オーディエンスを設定する必要があります。
+  [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [ Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する場合は、[!DNL Analytics] 内でレポート用オーディエンスを設定する必要があります。
 
 ## 以下を使用： [!UICONTROL オーディエンス] リスト {#use-list}
 
@@ -43,13 +43,13 @@ ht-degree: 32%
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] そのまま、またはとして使用できます [既存のオーディエンスとの組み合わせ](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >ユーザーが [!UICONTROL 承認者] または [!DNL Target] 設定する [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-time Customer Data Platform]) をクリックします。
-   >
-   >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](#aep).
+  >[!NOTE]
+  >
+  >この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] そのまま、またはとして使用できます [既存のオーディエンスとの組み合わせ](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >ユーザーが [!UICONTROL 承認者] または [!DNL Target] 設定する [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-time Customer Data Platform]) をクリックします。
+  >
+  >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](#aep).
 
 事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、&quot;の名前は変更できません。
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 [!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データがを取得できます。
 
 詳しくは、 [次のオーディエンスを使用： [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## HTMLと JSON オファーでのリアルタイム CDP プロファイル属性の使用
+
+リアルタイム CDP プロファイル属性は、HTMLオファーおよび JSON オファーで使用するために Target と共有できます。 詳しくは、との統合を参照してください。 [!DNL Real-Time Customer Data Platform].
+
+詳しくは、 [コンテンツを管理](/help/main/c-experiences/c-manage-content/manage-content.md) および [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## トレーニングビデオ：オーディエンスの使用 ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
