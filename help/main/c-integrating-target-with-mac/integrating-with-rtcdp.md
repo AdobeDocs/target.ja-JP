@@ -4,9 +4,9 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1060'
 ht-degree: 95%
 
 ---
@@ -77,10 +77,6 @@ RTCDP について詳しくは、[Real-time Customer Data Platform の概要](ht
 Real-Time CDP プロファイル属性は、HTML オファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)で使用するために [!DNL Target] と共有できます。
 
 ### Real-Time CDP プロファイル属性機能の制限と考慮事項
-
->[!NOTE]
->
->Real-Time CDP プロファイル属性機能は、HTML オファーおよび [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)のベータ版で使用できます。
 
 次の点に留意してください。
 

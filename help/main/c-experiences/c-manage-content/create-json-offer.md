@@ -4,9 +4,9 @@ description: Adobeで JSON オファーを作成する方法を説明します [
 title: JSON オファーの作成方法
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '458'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## リアルタイム CDP プロファイル属性を使用した JSON オファーの例
 
-リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] HTMLオファーと JSON オファーで使用する （この機能は現在ベータ版であることに注意してください）。
+リアルタイム CDP プロファイル属性は、と共有できます。 [!DNL Target] HTMLオファーと JSON オファーで使用する
 
 詳しくは、 [とのリアルタイム CDP プロファイル属性の共有 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
