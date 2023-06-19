@@ -6,7 +6,7 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 * URL にクエリパラメーターが追加され、[!UICONTROL Visual Experience Composer]（VEC）でページが読み込めなくなる問題を修正しました。（TGT-44873）
 * [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
 
-## Real-Time CDPプロファイル属性の共有先 [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] （2023 年 6 月 14 日）
+## Real-Time CDPプロファイル属性の共有先 [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] （2023 年 6 月 14 日）
 
 このリリースで強化された機能は次のとおりです。
 
