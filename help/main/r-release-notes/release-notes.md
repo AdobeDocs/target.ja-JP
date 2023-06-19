@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 100%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-| 機能 | 詳細 |
-|--- |--- |
-| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
-
 * Profile API 認証トークンの生成時に空のページが表示される問題を修正しました。（TGT-45387 および TGT-45423）
 * 画像名に GB 18030 文字が含まれている場合、[!UICONTROL デザインを作成]パネルに画像が表示されない問題を修正しました。（TGT-44614）
 * エクスペリエンスのテキスト／HTML で、一部の GB 18030 記号文字が正しくエスケープされなかった問題を修正しました。（TGT-44600）
@@ -37,6 +33,14 @@ ht-degree: 100%
 * 「重複を許可しない」フラグの動作を更新しました。除外された繰り返しオファーのフラグが更新され、デフォルトコンテンツオファー（API v3、v4 の場合）の場合は繰り返しオファーを許可し、オプションがデフォルトコンテンツオファーを参照していてテンプレートが定義されていない場合は重複オプションを許可するようになりました。（TNT-46617）
 * URL にクエリパラメーターが追加され、[!UICONTROL Visual Experience Composer]（VEC）でページが読み込めなくなる問題を修正しました。（TGT-44873）
 * [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
+
+## Real-Time CDPプロファイル属性の共有先 [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] （2023 年 6 月 14 日）
+
+このリリースで強化された機能は次のとおりです。
+
+| 機能 | 詳細 |
+|--- |--- |
+| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
 
 ## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 

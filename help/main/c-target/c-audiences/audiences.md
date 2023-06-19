@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 30%
+source-wordcount: '818'
+ht-degree: 32%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 [!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データがを取得できます。
 
 詳しくは、 [次のオーディエンスを使用： [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## HTMLと JSON オファーでのリアルタイム CDP プロファイル属性の使用
-
-リアルタイム CDP プロファイル属性は、HTMLオファーおよび JSON オファーで使用するために Target と共有できます。 詳しくは、との統合を参照してください。 [!DNL Real-Time Customer Data Platform].
-
-詳しくは、 [コンテンツを管理](/help/main/c-experiences/c-manage-content/manage-content.md) および [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## トレーニングビデオ：オーディエンスの使用 ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
