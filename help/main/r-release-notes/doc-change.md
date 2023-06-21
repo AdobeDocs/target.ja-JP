@@ -5,9 +5,9 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 90%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6 月 13 日 | [Adobe Targetの Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新された記事 ( *Experience Cloud中央インターフェイスコンポーネントガイド* 使用する Cookie の説明 [!DNL Target]. |
-|  | [Java SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
-|  | [Python SDK を初期化する](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
-| 6 月 6 日 | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を更新しました。<ul><li>の登録リンクを更新しました。 [!DNL Adobe Target Recommendations] コーヒーブレーク（2023 年 6 月 7 日水曜日）</li><li>最近の Web セミナー「認証済み環境のモバイルエクスペリエンスの最適化とパーソナライゼーション」に関する情報を追加し、録画へのリンクを追加しました。</li></ul> |
-|  | [成功指標へのレポート用オーディエンスの適用](/help/main/c-target/apply-reporting-audience-success-metric.md) | 「考慮事項」節を更新し、「例」節を追加しました。 |
-|  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 「URL のターゲット設定」の節を更新しました。 |
+| 6月13日（PT） | [Adobe Target の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=ja){target=_blank} | [!DNL Target] で使用される Cookie について説明した *Experience Cloud 中央インターフェイスコンポーネントガイド*&#x200B;の記事を更新しました。 |
+|  | [Java SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
+|  | [Python SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
+| 6月6日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を更新しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレイク（2023年6月7日水曜日（PT））の登録リンクを更新しました</li><li>最近のウェビナー「認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション」に関する情報を追加し、録画へのリンクを追加しました。</li></ul> |
+|  | [成功指標へのレポート用オーディエンスの適用](/help/main/c-target/apply-reporting-audience-success-metric.md) | 「考慮事項」の節を更新し、「例」の節を追加しました。 |
+|  | [ターゲットとオーディエンスに関する FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 「URL ターゲティング」の節を更新しました。 |
 | 5月30日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 リリースに関するリリースノートを追加しました。 |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) との統合 | HTML オファーと JSON オファーで使用するための [!UICONTROL Real-Time CDP プロファイル属性]の [!DNL Target] との共有に関する情報を含む記事を更新しました。 |
 |  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下に今後のコーヒーブレイクイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレーク（6月7日（PT））</li><li>パーソナライゼーションプログラム対応ウェビナーのフォローアップ（6月21日（PT））</li></ul> |
