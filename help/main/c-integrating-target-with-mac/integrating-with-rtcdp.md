@@ -4,7 +4,7 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] （RTCDP）
 title: ' [!DNL Target] と [!DNL Real-Time Customer Data Platform] の統合方法'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 95%
@@ -108,7 +108,7 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 * *宛先の概要*&#x200B;ガイドの[同じページと次のページのパーソナライゼーションに対するパーソナライゼーションの宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank}。
 * *宛先の概要*&#x200B;ガイドの[Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank}
 * *宛先の概要*&#x200B;ガイドの[属性のマッピング。](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank}
-* [エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} 内 *宛先の概要* ガイド。
+* [エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} 内 *宛先の概要* ガイド。
 * [を使用した同じページおよび次のページのパーソナライゼーション [!DNL Adobe Target] およびカスタムパーソナライゼーションの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} ( *宛先の概要* ガイド。
 
 ## ビデオおよびブログ投稿 {#videos-blogs}
