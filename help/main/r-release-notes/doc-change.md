@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 286cc7cab27f952208e5dacf6cc0b01129d199b9
+source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月26日（PT） | [モバイルアプリのための Target](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html){target=_blank} | 実装へのリンクを追加しました。 [!DNL Adobe Experience Cloud] モバイルアプリのチュートリアル |
+| 6月26日（PT） | [モバイルアプリのための Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ja){target=_blank} | 実装へのリンクを追加しました。 [!DNL Adobe Experience Cloud] モバイルアプリのチュートリアル |
 | 6月13日（PT） | [Adobe Target の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=ja){target=_blank} | [!DNL Target] で使用される Cookie について説明した *Experience Cloud 中央インターフェイスコンポーネントガイド*&#x200B;の記事を更新しました。 |
 |  | [Java SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
 |  | [Python SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
