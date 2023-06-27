@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 98%
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -19,42 +19,21 @@ ht-degree: 98%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 23.5.2（2023年5月31日（PT））
-
-このリリースには、以下の機能強化および修正が含まれています。
-
-* Profile API 認証トークンの生成時に空のページが表示される問題を修正しました。（TGT-45387 および TGT-45423）
-* 画像名に GB 18030 文字が含まれている場合、[!UICONTROL デザインを作成]パネルに画像が表示されない問題を修正しました。（TGT-44614）
-* エクスペリエンスのテキスト／HTML で、一部の GB 18030 記号文字が正しくエスケープされなかった問題を修正しました。（TGT-44600）
-* 分析中に[!UICONTROL 自動パーソナライゼーション]アクティビティのレポートがフリーズする問題を修正しました。（TGT-44820）
-* アクティビティ名に角括弧（[!UICONTROL  または ]）が含まれている場合、[アクティビティ]ページでアクティビティを検索できない問題を修正しました。（TGT-44777）
-* アクティビティの目標に特殊文字が含まれる場合、アクティビティを同期できない問題を修正しました。（TGT-44982）
-* 特定の顧客のデフォルトワークスペースの [!DNL Target] UI にアクティビティが表示されない問題を修正しました。（TGT-45286）
-* 「重複を許可しない」フラグの動作を更新しました。除外された繰り返しオファーのフラグが更新され、デフォルトコンテンツオファー（API v3、v4 の場合）の場合は繰り返しオファーを許可し、オプションがデフォルトコンテンツオファーを参照していてテンプレートが定義されていない場合は重複オプションを許可するようになりました。（TNT-46617）
-* URL にクエリパラメーターが追加され、[!UICONTROL Visual Experience Composer]（VEC）でページが読み込めなくなる問題を修正しました。（TGT-44873）
-* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
-
-## Real-Time CDPプロファイル属性の共有先 [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] （2023 年 6 月 14 日）
-
-このリリースで強化された機能は次のとおりです。
-
-| 機能 | 詳細 |
-|--- |--- |
-| [!DNL Target] と共有される Real-Time CDP プロファイル属性 | [!UICONTROL Real-Time CDP プロファイル属性]は、HTML オファーと JSON オファーで使用するために [!DNL Target] と共有できます。<P>詳しくは、[Real-Time CDP プロファイル属性の [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。 |
-
-## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
+## [!DNL Target] Standard／Premium 23.6.1（6月27～29日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-5月23日（PT）：ヨーロッパ、中東、アフリカ（EMEA）地域
-5月24日（PT）：アジア太平洋（APAC）地域
-5月25日（PT）：アメリカ地域
+* **6月27日**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **6月28日**：アジア太平洋（APAC）地域
+* **6月29日**：アメリカ地域
 
-このリリースには、以下の新しい機能強化および修正が含まれています。
+このリリースには、次の機能拡張が含まれています。
 
-* 特定の顧客が、「次よりも大きい」または「次よりも小さい」演算子を使用して訪問者プロファイルを含むオーディエンスを作成できなかった問題を修正しました。（TGT-45271）
-* [!DNL Target] UI 全体で様々なローカライゼーションの修正を行いました。
-* 今後の UI の更新に備え、様々な場所で Target UI を更新しました（アップデートがリリースされるまで、変更は機能フラグの背後にあります）。
+| 機能 | 詳細 |
+|--- |--- |
+| [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL QA モード] | [!UICONTROL プレビューリンク]機能に代わって、[!UICONTROL Automated Personalization] アクティビティで [!DNL Adobe Target] [!UICONTROL QA モード]が使用できるようになりました。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
+
+* [!UICONTROL Automated Personalization] アクティビティで[除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)を行う際に、重複機能（読み込み時間の短縮を含む）を許可しないパフォーマンスの強化。
 
 ## その他のリリースノートとバージョンの詳細
 

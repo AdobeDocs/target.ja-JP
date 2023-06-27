@@ -4,16 +4,24 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## [!DNL Target] Standard/Premium 23.6.1（2023 年 6 月 28 日～29 日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 6月27日（PT） | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | アクティビティ QA は、 [!UICONTROL Automated Personalization] (AP) アクティビティ プレビューリンクに関する情報を削除しました。 |
+|  | プレビュー URL | すべてのアクティビティタイプでアクティビティ QA がサポートされるようになったので、このトピックは削除され、 [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) トピック。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.6.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 

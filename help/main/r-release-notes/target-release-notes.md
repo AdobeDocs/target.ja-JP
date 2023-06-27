@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1578308c3f374f2d96f6b790111a0914ac973d71
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年5月24日（PT）**
+**最終更新日：2023年6月26日（PT）**
 
 >[!NOTE]
 >

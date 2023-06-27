@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1215'
 ht-degree: 95%
 
 ---
@@ -141,7 +141,6 @@ ht-degree: 95%
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [エクスペリエンスのプレビュー URL で Automated Personalization アクティビティのプレビューを行う](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
