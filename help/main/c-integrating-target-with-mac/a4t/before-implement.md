@@ -1,108 +1,108 @@
 ---
-keywords: Recommendations
-description: Analytics for Analytics の実装要件について説明します。 [!DNL Target] (A4T) と、この統合を実装する前に考慮すべき事項について説明します。
+keywords: レコメンデーション
+description: Analytics for  [!DNL Target] （A4T）の実装要件と、この統合を実装する前に考慮すべき事項について学びます。
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
 # at.js を使用して Analytics for Target（A4T）を実装する前に
 
-を有効にする際、データ収集プロセスでいくつかの変更がおこなわれます。 [!DNL Adobe Analytics] レポートソースとして [!DNL Adobe Target] (A4T)。
+[!DNL Adobe Target]（A4T）のレポートソースとして [!DNL Adobe Analytics] を有効にすると、データ収集プロセスでいくつかの変更が発生します。
 
-この統合を使用する前に、以下の節を確認し、レポートプロセスへの影響を検討してください。
+この統合の使用を決定する前に、以降の節を確認し、レポートプロセスへの影響を検討してください。
 
 >[!NOTE]
 >
->この記事は、at.js の実装にのみ適用されます。
+>この記事は、at.js 実装のみを対象としています。
 
-## 導入に必要な条件 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
+## 実装の必要システム構成 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->A4T の使用を開始する前に、アカウントで統合のプロビジョニングを依頼する必要があります。 以下を使用： [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} プロビジョニングの依頼。
+>A4T の使用を開始する前に、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。[Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}を使用して、プロビジョニングを依頼します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
 >[!NOTE]
 >
->以下の要件で、 *最小* at.js のバージョンは、A4T の実装に必要です。 この [!DNL Target] チームが管理しているのは 2 つのバージョンのみ [!DNL at.js] — 現在のバージョンと 2 番目の最新バージョン。 必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>次の要件は、A4T を実装するために必要な at.js の&#x200B;*最小*&#x200B;バージョンを表示します。[!DNL Target] チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
 ### A4T でリダイレクトオファーを使用 *しない* 場合に必要な要件
 
 この統合で、A4T でのリダイレクトオファーを使用しない場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js バージョン 1.8.0
+* [!DNL Experience Cloud Visitor ID Service]：visitorAPI.js バージョン 1.8.0
 * [!DNL Adobe Target]: at.js バージョン 0.9.1
 * Adobe Analytics：appMeasurement.js バージョン 1.7.0
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+[!DNL Platform Web SDK] を使用した A4T の実装については、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} を参照してください。
 
 ### A4T でリダイレクトオファーを使用する場合に必要な要件
 
 A4T でリダイレクトオファーを使用する場合は、次のバージョン以降のライブラリを実装する必要があります。リストされている順序は、操作の順序です。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js バージョン 2.3.0
+* [!DNL Experience Cloud Visitor ID Service]：visitorAPI.js バージョン 2.3.0
 
-   >[!NOTE]
-   >
-   >at.js 1.8.0+ および at.js 2.x+ は、Adobe Audience Manager（AAM）パラメーターを渡す際、2.5.0 よりも古いバージョンの訪問者 API では動作しなくなりました。
+  >[!NOTE]
+  >
+  >at.js 1.8.0+ および at.js 2.x+ は、Adobe Audience Manager（AAM）パラメーターを渡す際、2.5.0 よりも古いバージョンの訪問者 API では動作しなくなりました。
 
 * [!DNL Adobe Target]: at.js バージョン 1.6.2
 
 * Adobe Analytics：appMeasurement.js バージョン 2.1
 
-ダウンロードおよびデプロイの手順については、 [Analytics for Target の実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+ダウンロードおよびデプロイメントの手順については、[Analytics for Target 実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)に記載されています。
 
-を使用した A4T の実装に関する情報 [!DNL Platform Web SDK]を参照してください。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+[!DNL Platform Web SDK] を使用した A4T の実装については、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} を参照してください。
 
-## 導入の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
+## 実装の前に知っておくべきこと {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* この統合は、「 [!DNL Analytics] を使用します。 この文書に書かれた実装の変更をおこなっても、既存のアクティビティは影響を受けません。
-* 設定のプロセス [!DNL Analytics] レポートソースとして [!DNL Target] には、いくつかの実装手順と、その後のプロビジョニング手順が含まれます。 実装前に、以下の手順をすべて読んでおくことをお勧めします。これらの手順を完了すると、次の操作を実行する準備が整います。 [!DNL Analytics] を使用できます。 プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
-* この [!DNL Visitor ID service] 共有を作成 [!DNL Visitor ID] 横に [!DNL Adobe Experience Cloud]. ただし、 [!DNL Target] mboxPC id または [!DNL Audience Manager] UUID の場合、 [!DNL Analytics] は新しい訪問者を識別します。 を適切に設定した場合、 [!DNL Analytics] 訪問者は、以前の [!DNL Analytics] ID。 同様に、 [!DNL Target] mboxPCid は元の状態のまま残り、 [!DNL Target] 訪問者プロファイルデータは、 [!DNL Visitor ID service].
-* この [!DNL Visitor ID service] は、 [!DNL Analytics] および [!DNL Target] ページコード。 必ず `VisitorAPI.js` は、他のすべてのタグの上に表示されます [!DNL Experience Cloud] ソリューション
+* [!DNL Analytics] をレポートソースとして使用することを選択すると、新しいアクティビティで統合が有効になります。この文書に書かれた実装の変更をおこなっても、既存のアクティビティは影響を受けません。
+* [!DNL Analytics] を [!DNL Target] のレポートソースとして設定するプロセスには、いくつかの実装ステップと、それに続くプロビジョニングのステップが含まれます。実装前に、以下の手順をすべて読んでおくことをお勧めします。これらの手順を完了すると、[!DNL Analytics] が有効になったときにレポートソースとして使用できるようになります。プロビジョニングのプロセスには、最大で 5 営業日かかる場合があります。
+* [!DNL Visitor ID service] は、[!DNL Adobe Experience Cloud] をまたいで共有 [!DNL Visitor ID] を作成します。[!DNL Target] mboxPC ID や [!DNL Audience Manager] UUID は置き換えませんが、[!DNL Analytics] が新しい訪問者を識別する方法を置き換えます。適切に設定されている場合、[!DNL Analytics] の再訪問者も古い [!DNL Analytics] ID で識別される必要があります。同様に、[!DNL Target] mboxPCid は元の状態のままなので、[!DNL Visitor ID service] にアップグレードしても [!DNL Target] 訪問者プロファイルデータは失われません。
+* [!DNL Visitor ID service] は、[!DNL Analytics] および [!DNL Target] ページコードの前に実行する必要があります。他のすべての [!DNL Experience Cloud] ソリューションのタグの上に `VisitorAPI.js` が表示されていることを確認してください。
 
 ## 遅延 {#section_9489BE6FD21641A4844E591711E3F813}
 
-この統合を有効にすると、で 5～10 分の待ち時間が余分に発生します。 [!DNL Analytics]. この待ち時間の増加により、 [!DNL Analytics] および [!DNL Target] を同じヒットに保存し、アクティビティをページおよびサイトセクションで分類できます。
+この統合を有効にすると、[!DNL Analytics] で 5～10 分の待ち時間が追加で発生します。この追加の待ち時間により、[!DNL Analytics] と [!DNL Target] のデータを同じヒットに格納できるため、ページおよびサイトセクションによってアクティビティを分類できるようになりました。
 
-この増加は、 [!DNL Analytics] ライブストリームおよびリアルタイムレポートを含むサービスおよびツール。次のシナリオで適用されます。
+この追加の待ち時間は、ライブストリームやリアルタイムレポートなど、すべての [!DNL Analytics] サービスおよびツールに反映され、以下のシナリオで適用されます。
 
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
-* コンバージョン指標、ファイナライズされたデータおよびデータフィードの現在のデータに関しては、すべてのヒットが 5 ～ 7 分延長されます。
+* コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5～7 分遅延します。
 
-待ち時間は、 [!DNL Experience Cloud] 訪問者 ID サービス（この統合を完全に実装していない場合でも）。
+この統合を完全に実装していなくても、[!DNL Experience Cloud] 訪問者 ID サービスを実装すると追加の待ち時間が発生します。
 
 ## 追加の ID {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-すべて [!DNL Target] コンテンツの配信や目標指標の記録をおこなうために A4T アクティビティで使用される呼び出しには、対応する [!DNL Analytics] A4T が正しく機能するために追加の ID を共有するヒット。
+コンテンツを配信したり目標指標を記録したりするために A4T アクティビティで使用されるすべての [!DNL Target] 呼び出しには、A4T が正しく機能するための補足 ID を共有する、対応する [!DNL Analytics] ヒットが必要です。
 
-からのデータを含むヒット [!DNL Analytics] および [!DNL Target] には、追加のデータ ID が含まれています。 この ID は、 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) を `sdid` パラメーター。 例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
+[!DNL Analytics] および [!DNL Target] からのデータを含むヒットには、追加のデータ ID が含まれています。この ID は、[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja) で `sdid` パラメーターとして確認できます。例えば、`sdid=2F3C18E511F618CC-45F83E994AEE93A0` のようになります。この ID は、次の条件が満たされると常に生成されます。
 
 * 訪問者 ID サービスが導入されている
 
-条件 [トラブルシューティング](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を使用する場合は、必ず、追加の ID がに存在することを確認してください。 [!DNL Analytics] ヒット数。
+[トラブルシューティング](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)を行う場合は、[!DNL Analytics] のヒットに追加の ID が存在することを確認してください。
 
-## クライアント側分析ログ {#client-side}
+## クライアントサイド分析ログ {#client-side}
 
-at.js の場合、 [!DNL Experience Cloud Visitor ID Service]、および appMeasurement.js がページ上にある場合、 [!DNL Analytics]、および [!DNL Target] ページから正しい追加の ID が含まれている限り、バックエンドで reporting and analytics 目的でイベントを正しくステッチします。 A4T が正しく機能するために、追加の操作を管理および実行する必要はありません。
+at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js がページ上にある場合、ページから正しい追加の ID が含まれている限り、[!DNL Analytics] および [!DNL Target] は、レポートおよび分析目的で、バックエンドでイベントを正しくスティッチします。A4T が正しく機能するための、追加の操作を管理および実行する必要はありません。
 
-分析データの送信方法とタイミングをより詳細に制御する必要がある場合は、 [!DNL Target] から [!DNL Analytics] レポート目的で使用します。 社内で使用する社内分析ツールがある場合があります。 ただし、分析データをに送信する必要もあります。 [!DNL Analytics] 社内分析製品を使用して、組織の他のメンバーが引き続きを使用できるようにする [!DNL Analytics] ビジュアルレポートソースとして。 詳しくは、 [手順 7:サイトのすべてのページから at.js を参照します。](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target の実装* を参照してください。
+レポートの目的で、[!DNL Target] に関連する分析データをいつどのように [!DNL Analytics] に送信するかを、より詳細に制御したい場合があります。内部目的で使用する社内分析ツールがある場合があります。ただし、組織の他のメンバーがビジュアルレポートソースとして [!DNL Analytics] を引き続き使用できるように、社内の分析製品経由で [!DNL Analytics] に分析データを送信したい場合もあります。詳しくは、*Analytics for Target 実装*&#x200B;の[ステップ 7：サイトのすべてのページから at.js を参照](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)を参照してください。
 
 ## 共有オーディエンス
 
-を [Marketing Cloud統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}に関しては、 [!UICONTROL 共有オーディエンス] &quot;の下にリストされたオプション[!UICONTROL プロビジョニングをリクエストする機能]?」
+[Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} に入力する場合、「[!UICONTROL プロビジョニングをリクエストする機能]」の下にリストされている [!UICONTROL 共有オーディエンス]に関する以下の重要情報にご注意ください。
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-リクエスト時 [!UICONTROL 共有オーディエンス]、 [!UICONTROL ターゲット] および [!UICONTROL Adobe Audience Manager] (AAM) で情報を共有する場合。この場合、オーディエンス。
+[!UICONTROL 共有オーディエンス]をリクエストするとき、[!UICONTROL ターゲット]および [!UICONTROL Adobe Audience Manager]（AAM）を有効にして情報を共有します。この場合はオーディエンスです。
 
 >[!IMPORTANT]
 >
->この [!UICONTROL ターゲット] AAMには追加費用がかかります。 お客様には、 [!UICONTROL ターゲット] AAMでを呼び出します。
+>[!UICONTROL ターゲット] と AAM の統合には追加の費用がかかります。AAMの [!UICONTROL ターゲット]呼び出し毎に請求されます。
