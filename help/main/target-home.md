@@ -1,11 +1,11 @@
 ---
 keywords: Target;ホーム;人気のトピック;Adobe Target;Target Standard;Target Premium;Target ドキュメント;Adobe Target ドキュメント
 title: Adobe Target ビジネス実践者ガイド
-description: Adobe  [!DNL Target]  を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
+description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 - [アナリスト](#analysts)
 - [QA エンジニア](#qa)
 
-## [!DNL Target] のすべてのユーザー  {#all}
+## [!DNL Target] のすべてのユーザー {#all}
 
 マーケター、デベロッパー、管理者、アナリスト、品質保証エンジニア。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 - [エクスペリエンスとオファー](c-experiences/experiences.md)：訪問者がアクティビティのオーディエンス条件を満たすときに表示できるコンテンツの指定方法について説明します。
 - [Recommendations](c-recommendations/recommendations.md)：[!DNL Recommendations] がユーザーの以前のアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示する方法を説明します。
 
-## 開発者  {#developers}
+## 開発者 {#developers}
 
 - [Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
 
