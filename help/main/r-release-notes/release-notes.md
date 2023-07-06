@@ -7,7 +7,7 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **6月27日**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **6月28日**：アジア太平洋（APAC）地域
-* **6月29日**：アメリカ地域
+* **6月27日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **6月28日（PT）**：アジア太平洋（APAC）地域
+* **6月29日（PT）**：アメリカ地域
 
 このリリースには、次の機能拡張が含まれています。
 
