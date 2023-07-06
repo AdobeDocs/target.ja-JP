@@ -5,9 +5,9 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 95%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.6.1（2023 年 6 月 28 日～29 日）
+## [!DNL Target] Standard／Premium 23.6.1（2023年6月27～29日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月27日（PT） | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | アクティビティ QA は、 [!UICONTROL Automated Personalization] (AP) アクティビティ プレビューリンクに関する情報を削除しました。 |
-|  | プレビュー URL | すべてのアクティビティタイプでアクティビティ QA がサポートされるようになったので、このトピックは削除され、 [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) トピック。 |
+| 6月27日（PT） | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | アクティビティ QA を、[!UICONTROL Automated Personalization]（AP）アクティビティを含む、すべてのターゲットアクティビティタイプで使用できるようになりました。プレビューリンクに関する情報を削除しました。 |
+|  | プレビュー URL | すべてのアクティビティタイプでアクティビティ QA がサポートされるようになったので、このトピックを削除し、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) トピックにリダイレクトするようにしました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.6.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.5.1（2023年5月23～25日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 6月26日（PT） | [モバイルアプリのための Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ja){target=_blank} | 実装へのリンクを追加しました。 [!DNL Adobe Experience Cloud] モバイルアプリのチュートリアル |
-| 6月13日（PT） | [Adobe Target の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=ja){target=_blank} | [!DNL Target] で使用される Cookie について説明した *Experience Cloud 中央インターフェイスコンポーネントガイド*&#x200B;の記事を更新しました。 |
+| 6月26日（PT） | [モバイルアプリのための Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ja){target=_blank} | モバイルアプリでの [!DNL Adobe Experience Cloud] の実装チュートリアルへのリンクを追加しました。 |
+| 6月12日（PT） | [Adobe Target の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=ja){target=_blank} | [!DNL Target] で使用される Cookie について説明した *Experience Cloud 中央インターフェイスコンポーネントガイド*&#x200B;の記事を更新しました。 |
 |  | [Java SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
 |  | [Python SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=ja){target=_blank} | 「環境」パラメーターに関する情報を追加しました。 |
 | 6月6日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次のイベントに関する情報を更新しました。<ul><li>[!DNL Adobe Target Recommendations] コーヒーブレイク（2023年6月7日水曜日（PT））の登録リンクを更新しました</li><li>最近のウェビナー「認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション」に関する情報を追加し、録画へのリンクを追加しました。</li></ul> |
