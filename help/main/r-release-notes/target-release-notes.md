@@ -1,11 +1,11 @@
 ---
 keywords: リリースノート;リリース;更新;今後のリリース;機能強化;新機能;修正;アップデート;プレリリース
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の次回のリリースに含まれている新機能、機能強化および修正について説明します。
-title: 次回の  [!DNL Target]  リリースには、どのような新機能や機能強化が含まれていますか？
+title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **6月27日**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **6月28日**：アジア太平洋（APAC）地域
-* **6月29日**：アメリカ地域
+* **6月27日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **6月28日（PT）**：アジア太平洋（APAC）地域
+* **6月29日（PT）**：アメリカ地域
 
 このリリースには、次の機能拡張が含まれています。
 
