@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '1263'
-ht-degree: 100%
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
+workflow-type: tm+mt
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 7月10日（PT） | [注意点と既知の制限事項](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 次に関する情報を *Target 配信 API* HTTP/2 での小文字のヘッダー名の強制に関するドキュメント。 |
 | 6月27日（PT） | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | アクティビティ QA を、[!UICONTROL Automated Personalization]（AP）アクティビティを含む、すべてのターゲットアクティビティタイプで使用できるようになりました。プレビューリンクに関する情報を削除しました。 |
 |  | プレビュー URL | すべてのアクティビティタイプでアクティビティ QA がサポートされるようになったので、このトピックを削除し、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) トピックにリダイレクトするようにしました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.6.1 リリースに関するリリースノートを追加しました。 |
