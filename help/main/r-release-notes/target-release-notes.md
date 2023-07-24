@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 74%
 
 ---
 
@@ -23,21 +23,20 @@ ht-degree: 100%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 23.6.1（6月27～29日（PT））
+## [!DNL Target] Standard/Premium 23.7.1（7 月 25 ～ 27 日）
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **6月27日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **6月28日（PT）**：アジア太平洋（APAC）地域
-* **6月29日（PT）**：アメリカ地域
+* **7 月 24 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **7 月 25 日**:アジア太平洋 (APAC) 地域
+* **7 月 27 日**:アメリカ地域
 
-このリリースには、次の機能拡張が含まれています。
+このリリースには、以下の機能強化および修正が含まれています。
 
-| 機能 | 詳細 |
-|--- |--- |
-| [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL QA モード] | [!UICONTROL プレビューリンク]機能に代わって、[!UICONTROL Automated Personalization] アクティビティで [!DNL Adobe Target] [!UICONTROL QA モード]が使用できるようになりました。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
+* 検索機能の向上 [DOM パスを使用した要素の移動](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 内 [!UICONTROL Visual Experience Composer] (VEC) に変更され、シャドウ DOM 要素が含まれるようになりました。 （TGT-45262）
+* が [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) の設定が正しく機能しない問題を修正しました。 （TGT-45202）
+* 次のエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできない問題を修正しました。「ユーザーは、レポートへのアクセスを許可されていません。」 （TGT-45724 および TGT-45747）
 
-* [!UICONTROL Automated Personalization] アクティビティで[除外の管理](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)を行う際に、重複機能（読み込み時間の短縮を含む）を許可しないパフォーマンスの強化。
 
 ## その他のリリースノートとバージョンの詳細
 
