@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ ht-degree: 74%
 * 検索機能の向上 [DOM パスを使用した要素の移動](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 内 [!UICONTROL Visual Experience Composer] (VEC) に変更され、シャドウ DOM 要素が含まれるようになりました。 （TGT-45262）
 * が [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) の設定が正しく機能しない問題を修正しました。 （TGT-45202）
 * 次のエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできない問題を修正しました。「ユーザーは、レポートへのアクセスを許可されていません。」 （TGT-45724 および TGT-45747）
-
 
 ## その他のリリースノートとバージョンの詳細
 
