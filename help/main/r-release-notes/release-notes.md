@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 81%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 81%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Adobe Target] エッジで計画されたインフラストラクチャのアップグレード {#edge}
+
+エッジインフラストラクチャのアップグレードを計画する場合、許可リストに追加の IP またはドメインが必要です。 エッジデプロイメント 41～48 の NAT および IP/domains を確認し、許可リストに登録します。 インフラストラクチャのアップグレードは 2023 年 8 月 9 日から始まります。
+&quot;
+
+詳しくは、 [ターゲット許可リストエッジノードの](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} 内 *Adobe Target Developer Guide*.
 
 ## [!DNL Target] Standard/Premium 23.7.1（7 月 24 日～ 26 日）
 
