@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 7月20日（PT） | [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | 次の FAQ を *Adobe Target Developer Guide*:サイトが外部ドメインの iFrame として埋め込まれるのを許可または防ぐ方法を教えてください。 |
+| 7月20日（PT） | [コンテンツセキュリティポリシー（CSP）指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=ja){target=_blank} | *Adobe Target 開発者ガイド*&#x200B;に「自分のサイトが外部ドメインに iFrame として埋め込まれることを許可または禁止するにはどうすればよいですか？」という FAQ を追加しました。 |
 | 7月10日（PT） | [考慮事項と既知の制限事項](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=ja){target=_blank} | 小文字のヘッダー名を適用する HTTP/2 に関する情報を *Target 配信 API* ドキュメントに追加しました。 |
 | 6月27日（PT） | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | アクティビティ QA を、[!UICONTROL Automated Personalization]（AP）アクティビティを含む、すべてのターゲットアクティビティタイプで使用できるようになりました。プレビューリンクに関する情報を削除しました。 |
 |  | プレビュー URL | すべてのアクティビティタイプでアクティビティ QA がサポートされるようになったので、このトピックを削除し、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) トピックにリダイレクトするようにしました。 |
