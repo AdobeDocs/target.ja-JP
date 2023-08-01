@@ -5,9 +5,9 @@ title: 次回の [!DNL Target] リリースには、どのような新機能や�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 74%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.7.1（7 月 24 日～ 26 日）
+## [!DNL Target] Standard／Premium 23.7.1（7月24～26日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **7 月 24 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **7 月 25 日**:アジア太平洋 (APAC) 地域
-* **7 月 27 日**:アメリカ地域
+* **7月24日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **7月25日（PT）**：アジア太平洋（APAC）地域
+* **7月26日（PT）**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 検索機能の向上 [DOM パスを使用した要素の移動](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 内 [!UICONTROL Visual Experience Composer] (VEC) に変更され、シャドウ DOM 要素が含まれるようになりました。 （TGT-45262）
-* が [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) の設定が正しく機能しない問題を修正しました。 （TGT-45202）
-* 次のエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできない問題を修正しました。「ユーザーは、レポートへのアクセスを許可されていません。」 （TGT-45724 および TGT-45747）
+* シャドウ DOM 要素を含めるために、[!UICONTROL Visual Experience Composer]（VEC）で [DOM パスを使用して要素をナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)する際の検索を改善しました。（TGT-45262）
+* [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定が正しく機能しない問題を修正しました。（TGT-45202）
+* 「ユーザーは、レポートへのアクセスを許可されていません」というエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできなくなる問題を修正しました。（TGT-45724 および TGT-45747）
 
 ## その他のリリースノートとバージョンの詳細
 
