@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 98%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.7.1（2023 年 7 月 24 日～26 日）
+## [!DNL Target] Standard／Premium 23.7.1（2023年7月24～26日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 7月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md#edge) | 2023 年 8 月 10 日に予定されているエッジインフラストラクチャのアップグレード計画に関する情報を追加しました。 |
-|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | エッジデプロイメント 41～48 の NAT および IP/domains を更新しました。 |
+| 7月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md#edge) | 2023年8月9日（PT）に予定されているエッジインフラストラクチャのアップグレードに関する情報を追加しました。 |
+|  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | エッジデプロイメント 41～48 の NAT と IP／ドメインを更新しました。 |
 | 7 月 25 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.7.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.6.1（2023年6月27～29日（PT））
