@@ -7,9 +7,9 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 73%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Adobe Target] エッジで計画されたインフラストラクチャのアップグレード {#edge}
+## [!DNL Adobe Target] エッジで予定されているインフラストラクチャのアップグレード {#edge}
 
-エッジインフラストラクチャのアップグレードを計画する場合、許可リストに追加の IP またはドメインが必要です。 エッジデプロイメント 41～48 の NAT および IP/domains を確認し、許可リストに登録します。 インフラストラクチャのアップグレードは 2023 年 8 月 9 日から始まります。
+予定されているエッジインフラストラクチャのアップグレードでは、追加の IP またはドメインを許可リストに登録する必要があります。エッジデプロイメント 41～48 の NAT と IP／ドメインを確認して許可リストに登録します。インフラストラクチャのアップグレードは、2023年8月9日（PT）に開始されます。
 &quot;
 
-詳しくは、 [ターゲット許可リストエッジノードの](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} 内 *Adobe Target Developer Guide*.
+詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
 
-## [!DNL Target] Standard/Premium 23.7.1（7 月 24 日～ 26 日）
+## [!DNL Target] Standard／Premium 23.7.1（7月24～26日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-* **7 月 24 日**:ヨーロッパ、中東、アフリカ (EMEA) 地域
-* **7 月 25 日**:アジア太平洋 (APAC) 地域
-* **7 月 27 日**:アメリカ地域
+* **7月24日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **7月25日（PT）**：アジア太平洋（APAC）地域
+* **7月26日（PT）**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 検索機能の向上 [DOM パスを使用した要素の移動](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 内 [!UICONTROL Visual Experience Composer] (VEC) に変更され、シャドウ DOM 要素が含まれるようになりました。 （TGT-45262）
-* が [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) の設定が正しく機能しない問題を修正しました。 （TGT-45202）
-* 次のエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできない問題を修正しました。「ユーザーは、レポートへのアクセスを許可されていません。」 （TGT-45724 および TGT-45747）
+* シャドウ DOM 要素を含めるために、[!UICONTROL Visual Experience Composer]（VEC）で [DOM パスを使用して要素をナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)する際の検索を改善しました。（TGT-45262）
+* [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定が正しく機能しない問題を修正しました。（TGT-45202）
+* 「ユーザーは、レポートへのアクセスを許可されていません」というエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできなくなる問題を修正しました。（TGT-45724 および TGT-45747）
 
 ## その他のリリースノートとバージョンの詳細
 
