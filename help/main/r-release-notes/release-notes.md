@@ -6,8 +6,8 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
+source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 ## [!DNL Adobe Target] エッジで予定されているインフラストラクチャのアップグレード {#edge}
 
 予定されているエッジインフラストラクチャのアップグレードでは、追加の IP またはドメインを許可リストに登録する必要があります。エッジデプロイメント 41～48 の NAT と IP／ドメインを確認して許可リストに登録します。インフラストラクチャのアップグレードは、2023年8月9日（PT）に開始されます。
-&quot;
+
 
 詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
 
