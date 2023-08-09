@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 100%
+source-wordcount: '2133'
+ht-degree: 94%
 
 ---
 
@@ -15,23 +15,31 @@ ht-degree: 100%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## [!UICONTROL Adobe Target コミュニティ] Q＆A コーヒーブレーク
-
-今後のコーヒーブレークに関する情報：
-
-### パーソナライゼーションプログラム対応ウェビナーのフォローアップ
-
-* **2023年6月21日（水）（PT）**
-* **午前 8:00-9:00（PDT、UTC-7）**
-* **[詳細情報](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-Adobe Target のエキスパートである Ramon Cespedes と Kevin Jemison が参加します。この AMA（Ask Me Anything）イベントでは、エキスパートがログインし、最近の 5月24日（PT）の[パーソナライゼーションによる成長推進のジャーニー](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}についてのウェビナーで取り上げたトピックに関連する質問にお答えします。
-
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Target] の使用方法を参照してください。
 
-現時点でスケジュールされているものはありません。
+### ピークシーズンの対応状況で ROI への最大の影響を戦略化
+
+* **2023年8月17日（木）**
+* **午前 8:00-9:00（PDT、UTC-7）**
+* **[登録はこちらから](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+魅力的な顧客体験を提供して、コンバージョン率を高めます。 ピークシーズンに備えていますか？ 今回、最適なパフォーマンスと最大の ROI を達成する方法に関するエキスパートヒントをご利用いただけます。
+
++++詳細を見る
+
+Macy&#39;s Inc. MarTech &amp; AdTech Solutions, Macy&#39;s Inc.Adobeカスタマーサクセスマネージャーの John Magnusson 氏と、Directorの Katherine Klein 氏にご参加いただき、ピークシーズン対応プログラムに大きく影響する戦略を学んでください。
+
+このリファレンスには次のトピックが含まれます。
+
+* ダッシュボードの効果的な作成と主要指標のレポート
+* 各マーケティングチャネルの影響の検証
+* 顧客の行動と買い物の動向に深く掘り下げる
+* 低品質な顧客体験を特定し、テストを通じて改善する
+* サイトのコンバージョンを促進するオポチュニティの領域を明らかにする
+
++++
 
 ## 過去のウェビナーやスキルビルダーセッションの録画
 
