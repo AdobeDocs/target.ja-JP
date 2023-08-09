@@ -4,16 +4,24 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 97%
+source-wordcount: '1503'
+ht-degree: 94%
 
 ---
 
 # ドキュメントの変更点
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
+
+## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 10 日）
+
+| 日付 | トピック | 変更点 |
+| --- | --- | --- |
+| 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | トピックを更新し、の現在のバージョンに関する情報を追加しました [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023 年 8 月 18 日に予定されている次のウェビナーに関する情報を追加しました。 *ピークシーズンの対応状況で ROI への最大の影響を戦略化*. |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.8.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.7.1（2023年7月24～26日（PT））
 

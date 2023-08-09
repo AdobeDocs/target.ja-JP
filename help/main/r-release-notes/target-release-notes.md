@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年7月24日（PT）**
+**最終更新日：2023年8月9日（PT）**
 
 >[!NOTE]
 >
@@ -23,19 +23,15 @@ ht-degree: 100%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 23.7.1（7月24～26日（PT））
-
-このリリースは、以下の時差スケジュールに従って利用できるようになります。
-
-* **7月24日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **7月25日（PT）**：アジア太平洋（APAC）地域
-* **7月26日（PT）**：アメリカ地域
+## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 10 日）
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* シャドウ DOM 要素を含めるために、[!UICONTROL Visual Experience Composer]（VEC）で [DOM パスを使用して要素をナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)する際の検索を改善しました。（TGT-45262）
-* [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定が正しく機能しない問題を修正しました。（TGT-45202）
-* 「ユーザーは、レポートへのアクセスを許可されていません」というエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできなくなる問題を修正しました。（TGT-45724 および TGT-45747）
+* アクティビティが正しく同期されない場合がある問題を修正しました (「[!UICONTROL ステータス]」列 [!UICONTROL アクティビティ] リストページに表示されます。 （TGT-46010 および TGT-44831）
+* 「[!UICONTROL Analytics で表示]」リンクが [!UICONTROL レポート] 使用するアクティビティのページ [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-45808）
+* 表内の値の表示を調整し、小数点以下の数字ではなくパーセンテージで表示するようにしました。 例えば、.08 ではなく 8%を指定します。 （TGT-45548）
+* キーボードフォーカスを使用して [!UICONTROL 目標と設定] ～のページ [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ （TGT-44526）
+* 「[!UICONTROL オーディエンスを追加]」ダイアログが表示されます。 （TGT-44525）
 
 ## その他のリリースノートとバージョンの詳細
 

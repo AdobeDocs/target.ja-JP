@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36971'
+source-wordcount: '37043'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!DNL Target] Standard／Premium 23.7.1（7月24～26日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* シャドウ DOM 要素を含めるために、[!UICONTROL Visual Experience Composer]（VEC）で [DOM パスを使用して要素をナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)する際の検索を改善しました。（TGT-45262）
+* [オーバーレイを変更](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定が正しく機能しない問題を修正しました。（TGT-45202）
+* 「ユーザーは、レポートへのアクセスを許可されていません」というエラーメッセージが表示された後、一部のお客様がアクティビティレポートをダウンロードできなくなる問題を修正しました。（TGT-45724 および TGT-45747）
 
 ### [!DNL Target] Standard／Premium 23.6.1（6月27～29日（PT））
 
@@ -182,7 +190,7 @@ ht-degree: 96%
 
 新しい [!DNL Adobe Target] Models API（Blocklist API とも呼ばれる）を使用すると、ユーザーは [!UICONTROL Automated Personalization]（AP）と[!UICONTROL 自動ターゲット]（AT）アクティビティの機械学習モデルで使用する機能のリストを表示および管理できます。
 
-詳しくは、 [モデル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} 内 *Adobe Target Developer Guide*.
+詳しくは、 [モデル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} （内） *Adobe Target Developer Guide*.
 
 ### [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年10月25～27日（PT））
 
@@ -327,7 +335,7 @@ ht-degree: 96%
 
 このリリースで強化された機能は次のとおりです。
 
-* クリック追跡指標では、Analytics をレポートソースに使用し (A4T)、クライアント側でイベントを処理するアクティビティの Delivery API リクエストに Analytics ペイロードが含まれます。 （TNT-43073）
+* クリック追跡指標では、Analytics をレポートソースに使用 (A4T) し、クライアント側でイベントを処理するアクティビティの Delivery API リクエストに Analytics ペイロードが含まれます。 （TNT-43073）
 
 ### [!DNL Target Standard] オーディエンスの更新（3 月 28 日）
 
@@ -359,7 +367,7 @@ ht-degree: 96%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!DNL Target] での [!DNL Adobe Experience Platform] オーディエンス | [!DNL Target] で [!DNL Adobe Experience Platform] オーディエンスを消費し使用できるようになりました。この [!DNL Target] チーム [!DNL Experience Platform] [!DNL Destinations] チームと [!DNL Unified Profile Service] チームは、「同じページ/次のページのパーソナライゼーション」の使用例の一般リリースについてお知らせします。<br>[!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データが提供されます。この [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Create audiences*.<br>Be sure to read the Adobe blog and watch the video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
+| [!DNL Target] での [!DNL Adobe Experience Platform] オーディエンス | [!DNL Target] で [!DNL Adobe Experience Platform] オーディエンスを消費し使用できるようになりました。The [!DNL Target] チーム [!DNL Experience Platform] [!DNL Destinations] チームと [!DNL Unified Profile Service] チームは、「同じページ/次のページのパーソナライゼーション」の使用例の一般リリースについてお知らせします。<br>[!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データが提供されます。The [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Create audiences*.<br>Be sure to read the Adobe blog and watch the video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
 | [!UICONTROL オーディエンス] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL オーディエンス]ページと[!UICONTROL プロファイルスクリプト]ページが更新されました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、次のような新しい機能強化が追加されています。<ul><li>複数のオーディエンスを同時に選択および削除する機能</li><li>[オーディエンスビルダーのデザイン](/help/main/c-target/c-audiences/create-audience.md)の更新</li><li>[!UICONTROL オーディエンス]ライブラリルールビルダーでの除外ルールのサポート</li><li>新しい「オーディエンスソース」フィルターにより、オーディエンスの検出を高速化</li><li>セッションの永続的な検索とフィルターオプション</li><li>[!DNL Target Premium] 顧客のワークスペース間でオーディエンスを移動する機能。</li></ul>詳しくは、[オーディエンス](/help/main/c-target/target.md)を参照してください。<br>**注意**：この機能は、今後 8 週間以内に様々な地域のお客様に公開される予定です。 |
 | [!UICONTROL プロファイルスクリプト] UI の更新 | また、[!UICONTROL プロファイルスクリプト]ライブラリも更新され、更新されたインターフェイスのほか、生産性向上のための更新が含まれています。<ul><li>複数のプロファイルスクリプトを同時に選択および削除する機能</li><li>プロファイルスクリプトの新しいコードエディター</li><li>コードエディター内での構文のハイライト表示とエラーチェック</li><li>キーボードショートカットを使用したトークン（mbox またはプロファイル）パラメーターのオートコンプリート</li></ul>詳しくは、[訪問者プロファイル](/help/main/c-target/c-visitor-profile/visitor-profile.md)を参照してください。<br>**注意**：この機能は、今後 8 週間以内に様々な地域のお客様に公開される予定です。 |
 
@@ -377,11 +385,11 @@ ht-degree: 96%
 
 このリリースには、次の変更および機能強化が含まれています。
 
-* 次の問題を修正しました： [!UICONTROL 次を含む] および [!UICONTROL 除外] アクティビティの編集時に結合オーディエンスで無効にするオプション。 （TGT-43422）
+* 次の問題を修正しました： [!UICONTROL 次を含む] および [!UICONTROL 除外] アクティビティの編集時に結合オーディエンスに対して無効にするオプション。 （TGT-43422）
 * アクティビティの編集中に、一部のお客様が利用可能なオーディエンスのリストを表示できなかった問題を修正しました。 （TGT-43404）
 * 一部のお客様が「[!UICONTROL 除外する IP [!DNL Target] レポートデータ]&quot;リスト [!UICONTROL 管理] > [!UICONTROL レポート]. （TGT-43384）
 * オーディエンス条件で、任意の変数が「より大きい」、「より大きいか等しい」、「より小さい」または「より小さいか等しい」であることを確認できない負の数を使用する問題を修正しました。 （TGT-43367）
-* 顧客が [!UICONTROL オーディエンスの詳細] カードを使用して結合オーディエンスを作成できます。 （TGT-43303）
+* お客様が [!UICONTROL オーディエンスの詳細] カードを使用して結合オーディエンスを作成できます。 （TGT-43303）
 
 ### at.js バージョン 2.8.0（2022年1月7日（PT））
 
@@ -636,12 +644,12 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 
 | 機能 | 詳細 |
 | --- | --- |
-| オンデバイス判定 | オンデバイス判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネルをまたいで、ほぼゼロ遅延で提供することができます。<br>顧客インサイトとユーザーの満足度においては、スピードとパフォーマンスが重要です。<br>オンデバイス判定を使用すると、A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルし、CDN 経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSON オブジェクトを生成できます。また、オンデバイス判定は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されているので、[!DNL Target] ユーザーは迅速に分析を入手でき、エクスペリエンスの繰り返しを短期間でおこなうことができます。<br>詳しくは、*を参照してください。[at.js のオンデバイス判定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank} and [Introduction to on-device decisioning](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} （サーバー側） |
+| オンデバイス判定 | オンデバイス判定機能を使用すると、マーケターと製品開発者は、実験と機械学習に基づくパーソナライゼーションを、ユーザーのデバイス内から、チャネルをまたいで、ほぼゼロ遅延で提供することができます。<br>顧客インサイトとユーザーの満足度においては、スピードとパフォーマンスが重要です。<br>オンデバイス判定を使用すると、A/B テストやエクスペリエンスのターゲット設定（XT）アクティビティタイプで主要なパーソナライゼーションおよび実験の手順をコンパイルし、CDN 経由で顧客のデバイスに読み込まれる「optimization artifacts:」 JSON オブジェクトを生成できます。また、オンデバイス判定は [!DNL Adobe Experience Cloud] 製品とネイティブに接続されているので、[!DNL Target] ユーザーは迅速に分析を入手でき、エクスペリエンスの繰り返しを短期間でおこなうことができます。<br>詳しくは、*を参照してください。[at.js のオンデバイス判定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank} and [Introduction to on-device decisioning](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} （サーバー側）。 |
 
 このリリースには、以下の機能強化、修正および変更が含まれています。
 
 * [!UICONTROL 平均上昇率の信頼区間]と[!UICONTROL 信頼性]が[!DNL Auto-Target]レポートの[!UICONTROL 合計]行に表示されない問題を修正しました。測定値は、すべてのエクスペリエンスで正しく表示されていました。（TGT-37301）
-* 影響を受けた問題を修正しました [!DNL Adobe Target Premium] ユーザー [!UICONTROL 自動ターゲット] 9 月 15 日午後 2 時 30 分から報告(PDT)～10 月 6 日午前 9 時 25 分。(PDT)。 影響を受けたコンバージョン指標のレポート（「[!UICONTROL ページを閲覧]」または「[!UICONTROL mbox をクリック]」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。現時点では、配信に関する既知の問題はありません。
+* 影響を受けた問題を修正しました [!DNL Adobe Target Premium] ユーザー [!UICONTROL 自動ターゲット] 9 月 15 日午後 2 時 30 分 (PDT) から 10 月 6 日午前 9 時 25 分 (PDT) までのレポート。 影響を受けたコンバージョン指標のレポート（「[!UICONTROL ページを閲覧]」または「[!UICONTROL mbox をクリック]」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。現時点では、配信に関する既知の問題はありません。
 * [!UICONTROL カタログ検索]テーブルの選択可能な「[!UICONTROL 最終更新日]」列と「[!UICONTROL 最終更新日]」フィルターが追加されました。この機能強化により、個々の項目を開いて最終更新日を確認する必要がなくなり、項目が最後に更新された日時でフィルタリングできるため、時間と労力を節約できます。
 
   ![「最終更新日」列とフィルターの図](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -732,7 +740,7 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | Analytics for Target（A4T）[!UICONTROL 自動配分]アクティビティのサポート | [!UICONTROL 自動割り当て]アクティビティで、[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) がサポートされるようになりました。<br>この統合により、 [!UICONTROL 自動割り当て]マルチアームバンディット機能を使用して勝者エクスペリエンスへとトラフィックを促しながら、 [!UICONTROL Adobe Analytics] の目標指標や [!UICONTROL Adobe Analytics] のレポートおよび分析機能を使用できるようになります。<br>既に [A4T の実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用する場合は、設定が完了しています。<br>詳しくは、[自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。 |
-| 自動ターゲットおよび Automated Personalization アクティビティのトラフィック配分方法の応答トークン | 2 [レスポンストークン](/help/main/administrating-target/response-tokens.md) に追加されました [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティを使用して、訪問者が「コントロール」トラフィックと「ターゲット」トラフィックのどちらに割り当てられた結果特定のエクスペリエンスを受け取ったかを判定できます。<ul><li>`experience.trafficAllocationId` 訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、「ターゲット」トラフィック配分からエクスペリエンスを受け取った場合は 1 を返します。</li><li>`experience.trafficAllocationType` は、「control」または「targeted」を返します。</li></ul>コントロールトラフィックとターゲットトラフィックの比較について詳しくは、[Automated Personalization または自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
+| 自動ターゲットおよび Automated Personalization アクティビティのトラフィック配分方法の応答トークン | 2 [レスポンストークン](/help/main/administrating-target/response-tokens.md) 次に追加されました： [!UICONTROL 自動ターゲット] および [!UICONTROL Automated Personalization] アクティビティを使用して、訪問者が「コントロール」トラフィックと「ターゲット」トラフィックのどちらに割り当てられた結果特定のエクスペリエンスを受け取ったかを判定できます。<ul><li>`experience.trafficAllocationId` 訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、「ターゲット」トラフィック配分からエクスペリエンスを受け取った場合は 1 を返します。</li><li>`experience.trafficAllocationType` は、「control」または「targeted」を返します。</li></ul>コントロールトラフィックとターゲットトラフィックの比較について詳しくは、[Automated Personalization または自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
 | [!UICONTROL 発行者]の役割 | この新しい役割は、現在の[!UICONTROL オブザーバー]の役割に似ています（アクティビティを閲覧できますが、作成または編集はできません）。ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standard ユーザー**：*ユーザー*&#x200B;の[役割と権限を指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)します。 </li><li>**Target Premium ユーザー**：[手順 6：役割と権限の指定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)は、*エンタープライズ権限の設定*&#x200B;でおこないます。</li></ul> |
 | [!DNL Analysis Workspace]<br> における A4T のサポート（2020 年 6 月 25 日） | [!UICONTROL Anaytics for Target]（A4T）が [!DNL Analysis Workspace] でサポートされるようになりました。[!UICONTROL Analytics for Target（A4T）パネル]では、[!DNL Analysis Workspace] での [!DNL Adobe Target] のアクティビティとエクスペリエンスを分析できます。<br>詳しくは、*Analytics ツールガイド*&#x200B;の&#x200B;*A4T レポート*&#x200B;および[Analytics for Target（A4T）パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)の [Analytics のレポート](/help/main/c-integrating-target-with-mac/a4t/reporting.md) を参照してください。 |
 
@@ -975,7 +983,7 @@ Target Standard／Premium 20.1.1 リリースはメンテナンスリリース�
 | --- | --- |
 | ![Premium バッジ ](/help/main/assets/premium.png)<br>A/B テストおよびエクスペリエンスターゲット設定（XT）アクティビティの Recommendations | Recommendations オファー（アルゴリズム）ステータスは、Recommendations オファーを含む A/B テストおよび XT アクティビティの概要ページに表示されます。ステータスには、「結果の準備ができました」、「結果の準備ができていません」および「フィードエラー」があります。（TGT-33649）<br>[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md#status) を参照してください。 |
 | Experience Cloud ID（ECID）ライブラリによる at.js 2.0 以降のクロスドメイントラッキングサポート | 以前は、クロスドメイントラッキングは at.js 2.*x* ではサポートされていませんでした。このリリースでは、at.js 2.0 以降を使用するお客様は、ECID ライブラリ経由でクロスドメイントラッキングを使用できるようになりました。クロスドメイントラッキングを機能させるには、ECID ライブラリが、at.js 2.0 以降と共にページにインストールされている必要があります。[Experience Cloud ID ライブラリ 4.3.0 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ja)を使用する必要があります。<br>詳しくは、 [at.js 2.x でのクロスドメイントラッキングサポート](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}. |
-| Experience CloudID(ECID) ライブラリ 4.3 によるAppleの ITP 2.1 および ITP 2.2 の Target でのサポート | 現在、Target のお客様は、Adobeの CNAME 証明書プログラムを活用することで、Appleの ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、Target が ECID ライブラリ 4.3 とのシームレスな統合を導入し、サーバー側 Cookie を利用して ITP 2.1 および ITP 2.2 を緩和します。Target のお客様は、 [ECID ライブラリ 4.3 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ja) と Target の JavaScript ライブラリの組み合わせによって、今後の ITP リリースを緩和します。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br>詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
+| Experience CloudID(ECID) ライブラリ 4.3 によるAppleの ITP 2.1 および ITP 2.2 の Target でのサポート | 現在、Target のお客様は、Adobeの CNAME 証明書プログラムを活用することで、Appleの ITP 2.1 および ITP 2.2 を緩和できます。<br>このリリースでは、Target は、ECID ライブラリ 4.3 とのシームレスな統合を導入しました。ECID ライブラリ 4.3 は、サーバー側 Cookie を利用して ITP 2.1 および ITP 2.2 を緩和します。Target のお客様に [ECID ライブラリ 4.3 以降](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ja) と Target の JavaScript ライブラリの組み合わせによって、今後の ITP リリースを緩和します。 ECID ライブラリでは、ブラウザーによって導入される、常に変化する cookie ポリシーに対する堅牢なソリューションを提供する機能強化が引き続き公開されます。<br>詳しくは、 [Apple Intelligent Tracking Prevention(ITP)2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **機能強化、修正、変更点**
 
@@ -1119,7 +1127,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 
 | 機能／拡張機能 | 説明 |
 | --- | --- |
-| at.js バージョン 2.0.0<br>（2019 年 2 月 19 日） | at.js 2.x がリリースされました。<br>最新バージョンの at.js には、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットが用意されています。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。<br>以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。<ul><li>ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。</li><li>従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。</li><li>単純な 1 行のコードと一度限りの開発者セットアップで、マーケターは、単一ページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。</li></ul>at.js 2.x では、次の新しい関数が導入されています。<ul><li>getOffers（）</li><li>applyOffers（）</li><li>triggerView（）</li></ul>at.js 2 x の導入に伴い、次の関数が廃止されました。<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>詳しくは、 [at.js 1.x から at.js 2.x へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} and [at.js functions](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (GDPR){target=_blank}の場合、現在 at.js 1.7.0 を使用している必要があります。オプトインサポートは at.js 2.x ではサポートされていません。 |
+| at.js バージョン 2.0.0<br>（2019 年 2 月 19 日） | at.js 2.x がリリースされました。<br>最新バージョンの at.js には、次世代クライアント側テクノロジーでのパーソナライゼーションを実行するためにビジネスを均等化する豊富な機能セットが用意されています。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。<br>以前のバージョンでは利用できない、at.js 2.x を使用するメリットを紹介します。<ul><li>ページ読み込み時にすべてのオファーをキャッシュして、単一のサーバーコールに対する複数のサーバー呼び出しを減らす機能。</li><li>従来のサーバー呼び出しで発生する遅延時間なしで、キャッシュ経由でオファーが即座に表示されるため、サイトでのエンドユーザーのエクスペリエンスが著しく向上します。</li><li>単純な 1 行のコードと一度限りの開発者セットアップで、マーケターは、単一ページアプリケーション上の Visual Experience Composer（VEC）を介して A/B およびエクスペリエンス（XT）アクティビティを作成して実行できます。</li></ul>at.js 2.x では、次の新しい関数が導入されています。<ul><li>getOffers（）</li><li>applyOffers（）</li><li>triggerView（）</li></ul>at.js 2 x の導入に伴い、次の関数が廃止されました。<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>詳しくは、 [at.js 1.x から at.js 2.x へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} and [at.js functions](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (GDPR){target=_blank}を使用している場合、現在 at.js 1.7.0 を使用している必要があります。at.js 2.x では、Opt-in サポートはサポートされていません。 |
 | at.js バージョン 1.7.0<br>（2019 年 2 月 14 日） | at.js 1.7.0 を使用できます。<br>このリリースでは、Adobe Opt-in サポートが導入されています。Adobe Opt-In は、アドビソリューションと同意管理プラットフォームの統合を簡略化する方法です。<br>Adobeオプトインについて詳しくは、 [プライバシーと一般データ保護規則](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (GDPR){target=_blank}.<br>This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.<br>**Note**: If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}. |
 
 ### [!DNL Target] Standard／Premium 19.2.1（2019 年 2 月 19 日） {#target-19-2-1}
