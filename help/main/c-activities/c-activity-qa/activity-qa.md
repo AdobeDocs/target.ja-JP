@@ -1,13 +1,13 @@
 ---
-keywords: qa;qa モード；アクティビティ qa;qa url;qa url；プレビュー url；プレビュー url
+keywords: qa;qa モード；アクティビティ qa;qa url;qa url；プレビュー url;URL のプレビュー
 description: Adobe [!DNL Target] QA URL を使用すると、変更されることのないプレビューリンク、オプションのオーディエンスターゲティング、ライブアクティビティデータからセグメント化された QA レポートを含む、エンドツーエンドの簡単なアクティビティ QA を実行できます。
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 38%
+source-wordcount: '1724'
+ht-degree: 36%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 38%
 
 での QA URL の使用 [!DNL Adobe Target] 変更されないプレビューリンク、オプションのオーディエンスターゲティング、実際のアクティビティデータからセグメント化された QA レポートを使用して、簡単にエンドツーエンドのアクティビティ QA を実行できます。
 
-[!UICONTROL アクティビティ QA] を [!DNL Target] アクティビティを開始する前に有効にしておく必要があります。 この [!UICONTROL アクティビティ QA] には次の機能が含まれます。
+[!UICONTROL アクティビティ QA] を [!DNL Target] アクティビティを開始する前に有効にしておく必要があります。 The [!UICONTROL アクティビティ QA] には次の機能が含まれます。
 
 * エクスペリエンスやアクティビティが更新されても変更されることがなく、再生成の必要がないリンクをチームのメンバーと共有できる. この機能を使用すると、ユーザージャーニー全体にわたってアクティビティを完全にテストできます。
-* 考慮するオーディエンス条件を任意で選択できるので、マーケティング担当者は、オーディエンス条件を満たさなくてもターゲット条件をテストしたり無視したりして、エクスペリエンスのデザインの QA をおこなえる.
-* QA レポートが取り込まれることで、マーケティング担当者は、指標が想定どおりに増分され、QA レポートのデータが実稼動環境のレポートとは別に保持されていることを確認できます（A4T 以外のレポートの場合）。
+* 考慮するオーディエンス条件を任意で選択できるので、マーケターは、オーディエンス条件を満たさなくてもターゲット条件をテストしたり無視したりして、エクスペリエンスのデザインの QA を行えます。
+* QA レポートが取り込まれることで、マーケターは、指標が想定どおりに増分され、QA レポートのデータが実稼動環境のレポートとは別に保持されていることを確認できます（A4T 以外のレポートの場合）。
 * エクスペリエンスを単独で、または配信条件 ( ページ/[!DNL Target] リクエスト/オーディエンス ) で利用できます。
-* ユーザージャーニー全体を QA の対象にできます。QA リンクを使用してサイトに 1 回アクセスすれば、アクティビティ QA 内でサイト全体を閲覧することができます。セッションを終了するか、 [QA Target ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引き出す [!UICONTROL アクティビティ QA]. この機能は、複数の Web ページにまたがるアクティビティがある場合に役立ちます。
+* ユーザージャーニー全体を QA の対象にできます。QA リンクを使用してサイトに 1 回アクセスすれば、アクティビティ QA 内でサイト全体を閲覧することができます。セッションを終了するか、 [QA Target ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引きずり出す [!UICONTROL アクティビティ QA]. この機能は、複数の Web ページにまたがるアクティビティがある場合に役立ちます。
 
   >[!NOTE]
   >
@@ -41,7 +41,7 @@ ht-degree: 38%
 
      この設定を「オフ」にした場合は、ユーザーがリンクをクリックすると、ルールに一致するかどうかに関係なく、エクスペリエンスが表示されます。QA を実行する際は、このオーディエンスのターゲット設定を考慮するかしないかを切り替えることができます。
 
-   * **他のすべてのアクティビティのデフォルトコンテンツを表示：** このオプションを「オン」に切り替えると、他のすべてのアクティビティのデフォルトコンテンツが表示されます。 例えば、同じページ上の他のすべてのライブアクティビティを考慮せずに、プレビューが単独で表示されます。[!DNL Target] リクエスト。
+   * **その他のすべてのアクティビティのデフォルトコンテンツを表示：** このオプションを「オン」に切り替えると、他のすべてのアクティビティのデフォルトコンテンツが表示されます。 例えば、同じページ上の他のすべてのライブアクティビティを考慮せずに、プレビューが単独で表示されます。[!DNL Target] リクエスト。
 
      「オフ」にした場合は、以下の点を考慮します。
 
@@ -67,9 +67,11 @@ ht-degree: 38%
 * [!UICONTROL アクティビティ QA は、アーカイブされたアクティビティまたは終了日を過ぎたアクティビティに対してコンテンツを表示しません。]終了したアクティビティを非アクティブ化する場合は、次の目的でアクティビティを再度保存する必要があります。 [!UICONTROL アクティビティ QA] を有効にします。
 * にインポートされたアクティビティ [!DNL Target Standard/Premium] （から） [!DNL Target Classic]（例えば）は QA URL をサポートしていません。
 * In [!UICONTROL 自動配分] および [!UICONTROL Recommendations] アクティビティの場合、 [!UICONTROL アクティビティ QA].
-* [!UICONTROL アクティビティ QA] 定着です。 Web サイトを [!UICONTROL アクティビティ QA]、 [!DNL Target] セッションは期限切れにする必要があります。期限切れにするか、 [!DNL Target] 解放する [!UICONTROL アクティビティ QA] サイトを一般的な訪問者と同じように表示するには、まずを参照してください。 以下を使用： [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引き出す [!UICONTROL アクティビティ QA].
+* [!UICONTROL アクティビティ QA] 定着です。 で Web サイトを参照した後 [!UICONTROL アクティビティ QA]、 [!DNL Target] セッションは期限切れにする必要があります。期限切れにするか、 [!DNL Target] 解放する [!UICONTROL アクティビティ QA] サイトを一般的な訪問者と同じように表示するには、まずを参照してください。
 
-  また、空の値（など）を `at_preview_token` 使用してサイト上のページを読み込むことで、手動で自分を除外 `https://www.mysite.com/?at_preview_token=`することもできます。
+   * **at.js 2.*x***：サイトに at.js 2.*x* デプロイ済み、使用 [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引きずり出す [!UICONTROL アクティビティ QA]. 次の箇条書きで説明するように、空の値を使用してサイト上のページを読み込むと、は機能します。 *not* at.js 2.*x* がデプロイされている。
+
+   * **at.js 1.*x***：サイトに at.js 1.*x* デプロイ済み（を使用する以外） [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)また、 `at_preview_token` 空の値を持つパラメーター ( 例： `https://www.mysite.com/?at_preview_token=`) をクリックします。
 
 * アクティビティの作成時に「URL が次の場合」を指定した場合 [フォームベースのコンポーザーの絞り込み](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [Visual Experience Composer のページ配信オプション )](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)に値を指定しない場合、QA URL は機能しません。 [!UICONTROL アクティビティ QA] URL パラメーターを追加します。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
 * at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
@@ -90,9 +92,9 @@ ht-degree: 38%
   | `at_preview_evaluate_as_true_audience_ids` | 文字列 | 空 | アンダースコア区切り (「_」) の segmentId のリストで、（ターゲティングとレポートのレベルで）常に「true」として評価される必要があるもの [!DNL Target] リクエスト。 |
   | `_AT_Debug` | 文字列 | ウィンドウまたはコンソール | コンソールログまたは新規ウィンドウです。 |
   | `adobe_mc_ref` |  |  | デフォルトのページの参照 URL を新しいページに渡します。バージョン2.1以降で `AppMeasurement.js` 使用する場合、このパラメーター値 [!DNL Adobe Analytics] を新しいページの参照URLとして使用します。 |
-  | `adobe_mc_sdid` |  |  | を [!DNL Supplemental Data Id] (SDID) および [!DNL Experience Cloud Org Id] デフォルトのページから新しいページに移動します。 これらの ID を渡すことで、許可される [!UICONTROL Analytics for Target] (A4T) [!DNL Target] リクエストを [!DNL Analytics] リクエストを新しいページで作成します。 |
+  | `adobe_mc_sdid` |  |  | を渡します。 [!DNL Supplemental Data Id] (SDID) および [!DNL Experience Cloud Org Id] デフォルトのページから新しいページに移動します。 これらの ID を渡すことで、許可される [!UICONTROL Analytics for Target] (A4T) を使用して、 [!DNL Target] リクエストをデフォルトページに [!DNL Analytics] リクエストを新しいページに追加します。 |
 
-* この [!UICONTROL Target QA モード] UI には、複数ページアクティビティのエクスペリエンスの最初の URL のみが表示されます。 あなたがジャーニーテストを作成し、URL1 から URL2 に移動していると仮定します。 ただし、独立して URL2 にアクセスする場合は、URL1 に対して提供されたすべての URL パラメータをコピーし、 &quot;？&quot;を付けた後でそれらを URL2 に適用します。URL1に表示されるように。
+* The [!UICONTROL Target QA モード] UI には、複数ページアクティビティのエクスペリエンスの最初の URL のみが表示されます。 あなたがジャーニーテストを作成し、URL1 から URL2 に移動していると仮定します。 ただし、独立して URL2 にアクセスする場合は、URL1 に対して提供されたすべての URL パラメータをコピーし、 &quot;？&quot;を付けた後でそれらを URL2 に適用します。URL1に表示されるように。
 * アカウントに保存されたアクティビティが多すぎると、保存されたアクティビティのアクティビティ QA プレビューリンクが読み込まれないことがあります。プレビューリンクを再試行します。この問題が繰り返し発生するのを防ぐために、アクティブに使用されなくなった保存済みアクティビティをアーカイブします。
 
 ## Target JavaScript ライブラリ [!UICONTROL QA モード]の互換性 {#compatibility}
@@ -101,9 +103,9 @@ ht-degree: 38%
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja)
 
-次の表に、様々なアクティビティタイプと、 [!UICONTROL アクティビティ QA] モードは、各ライブラリでサポートされています。
+次の表に、様々なアクティビティのタイプと、 [!UICONTROL アクティビティ QA] モードは、各ライブラリでサポートされています。
 
 | アクティビティタイプ | at.js 1.x | at.js 2.x | Platform Web SDK |
 | --- | --- | --- | --- |
