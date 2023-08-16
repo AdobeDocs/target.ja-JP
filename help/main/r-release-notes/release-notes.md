@@ -7,9 +7,9 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,17 @@ ht-degree: 75%
 
 予定されているエッジインフラストラクチャのアップグレードでは、追加の IP またはドメインを許可リストに登録する必要があります。エッジデプロイメント 41～48 の NAT と IP／ドメインを確認して許可リストに登録します。インフラストラクチャのアップグレードは、2023年8月9日（PT）に開始されます。
 
-
 詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
 
-## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 10 日）
+##  [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* アクティビティが正しく同期されない場合がある問題を修正しました (「[!UICONTROL ステータス]」列 [!UICONTROL アクティビティ] リストページに表示されます。 （TGT-46010 および TGT-44831）
-* 「[!UICONTROL Analytics で表示]」リンクが [!UICONTROL レポート] 使用するアクティビティのページ [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-45808）
-* 表内の値の表示を調整し、小数点以下の数字ではなくパーセンテージで表示するようにしました。 例えば、.08 ではなく 8%を指定します。 （TGT-45548）
-* キーボードフォーカスを使用して [!UICONTROL 目標と設定] ～のページ [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティ （TGT-44526）
-* 「[!UICONTROL オーディエンスを追加]」ダイアログが表示されます。 （TGT-44525）
+* [!UICONTROL アクティビティ]リストページの「[!UICONTROL ステータス]」列に表示されるように、アクティビティが適切に同期されない場合がある問題を修正しました。（TGT-46010 および TGT-44831）
+* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用するアクティビティの[!UICONTROL レポート]ページに、「[!UICONTROL Analytics で表示]」リンクが表示されない場合がある問題を修正しました。（TGT-45808）
+* テーブル内の値の表示を、小数点以下の数値ではなくパーセンテージで表示するように調整しました。例えば、.08 ではなく 8％で表示します。（TGT-45548）
+* お客様がキーボードフォーカスを使用して、[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティの[!UICONTROL 目標と設定]ページの次の要素に移動できない問題を修正しました。（TGT-44526）
+* アクティビティの作成中に「[!UICONTROL オーディエンスを追加]」ダイアログを開いた後にキーボードのフォーカスが失われる問題を修正しました。（TGT-44525）
 
 ## その他のリリースノートとバージョンの詳細
 
