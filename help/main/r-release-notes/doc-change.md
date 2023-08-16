@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 92%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 10 日）
+## [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 8 月 15 日 | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 空の値でサイト上のページを読み込むとが実行することを説明する情報を追加しました *not* at.js 2.*x* がデプロイされている。 |
 |  | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 「信頼性」の定義を更新しました。 |
 |  | [オファー](/help/main/c-experiences/c-manage-content/manage-content.md) | 画像オファーが [!UICONTROL Enterprise ユーザーの権限] モデル。 |
-| 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | トピックを更新し、の現在のバージョンに関する情報を追加しました [!DNL Adobe Experience Platform Mobile SDK]. |
-| 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | トピックを更新し、の現在のバージョンに関する情報を追加しました [!DNL Adobe Experience Platform Mobile SDK]. |
-|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023 年 8 月 18 日に予定されている次のウェビナーに関する情報を追加しました。 *ピークシーズンの対応状況で ROI への最大の影響を戦略化*. |
+| 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=ja){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK] の現在のバージョンに関する情報を含むトピックを更新しました。 |
+| 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=ja){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK] の現在のバージョンに関する情報を含むトピックを更新しました。 |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年8月17日（PT）に予定されている&#x200B;*ピークシーズンに備えて ROI 効果を最大化するための戦略化*&#x200B;のウェビナーに関する情報を追加しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.8.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.7.1（2023年7月24～26日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023 年 8 月 18 日に予定されている次のウェビナーに関する情報を追加しました。 *ピークシーズンの対応状況で ROI への最大の影響を戦略化*. |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年8月17日（PT）に予定されている&#x200B;*ピークシーズンに備えて ROI 効果を最大化するための戦略化*&#x200B;のウェビナーに関する情報を追加しました。 |
 | 8月7日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js のサポート対象バージョンに関する情報を明確にしました。 |
 | 7月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md#edge) | 2023年8月9日（PT）に予定されているエッジインフラストラクチャのアップグレードに関する情報を追加しました。 |
 |  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | エッジデプロイメント 41～48 の NAT と IP／ドメインを更新しました。 |
