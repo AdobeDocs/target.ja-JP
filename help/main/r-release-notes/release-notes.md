@@ -25,7 +25,7 @@ ht-degree: 100%
 
 詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
 
-##  [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
+## [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
 
 このリリースには、以下の機能強化および修正が含まれています。
 
