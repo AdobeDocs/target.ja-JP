@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4742b1fd801b8143f45f719dfef9d46344843c2a
+source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
 workflow-type: tm+mt
 source-wordcount: '1762'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -71,9 +71,13 @@ ht-degree: 35%
 
    * **at.js 2.*x***：サイトに at.js 2.*x* デプロイ済み、使用 [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引きずり出す [!UICONTROL アクティビティ QA]. 次の箇条書きで説明するように、空の値を使用してサイト上のページを読み込むと、は機能します。 *not* at.js 2.*x* がデプロイされている。
 
-   * **at.js 1.*x***：サイトに at.js 1.*x* デプロイ済み（を使用する以外） [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)また、 `at_preview_token` 空の値を持つパラメーター ( 例： `https://www.mysite.com/?at_preview_token=`) をクリックします。
+   * **at.js 1.*x***：サイトに at.js 1.*x* デプロイ済み（を使用する以外） [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)また、 `at_preview_token` パラメーターの値が空です。 例：
 
-   * **[!DNL Adobe Experience Platform Web SDK]**：サイトの [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} デプロイ済みの場合、 `at_qa_mode` 空の値を持つパラメーター ( 例： `https://www.mysite.com/?at_qa_mode=`) をクリックします。
+     `https://www.mysite.com/?at_preview_token=`
+
+   * **[!DNL Adobe Experience Platform Web SDK]**：サイトの [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} デプロイ済みの場合、 `at_qa_mode` パラメーターの値が空です。 例：
+
+     `https://www.mysite.com/?at_qa_mode=`
 
 * アクティビティの作成時に「URL が次の場合」を指定した場合 [フォームベースのコンポーザーの絞り込み](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) または [Visual Experience Composer のページ配信オプション )](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)に値を指定しない場合、QA URL は機能しません。 [!UICONTROL アクティビティ QA] URL パラメーターを追加します。 この問題に対処するには、QA URL をクリックしてサイトに移動し、追加されたパラメーターを URL から削除してから新しい URL を読み込みます。
 * at.js 1.*x*, [!UICONTROL アクティビティ QA] Safari またはサードパーティ cookie をブロックする別のブラウザーを使用している場合、モードはスティッキーではありません。 その場合、移動先の各 URL にプレビューパラメーターを追加する必要があります。 を実装している場合も同じことが言えます。 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
