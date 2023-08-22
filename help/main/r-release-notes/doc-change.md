@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 8 月 15 日 | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 空の値でサイト上のページを読み込むとが実行することを説明する情報を追加しました *not* at.js 2.*x* がデプロイされている。 |
+| 8月15日 | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 空の値を含むページをサイトに読み込んでもブラウザーから QA cookie が削除され&#x200B;*ない*&#x200B;ことを明確にする情報を追加しました（at.js 2.*x* がデプロイされている場合）。 |
 |  | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 「信頼性」の定義を更新しました。 |
-|  | [オファー](/help/main/c-experiences/c-manage-content/manage-content.md) | 画像オファーが [!UICONTROL Enterprise ユーザーの権限] モデル。 |
+|  | [オファー](/help/main/c-experiences/c-manage-content/manage-content.md) | 画像オファーが[!UICONTROL エンタープライズユーザー権限]モデルの一部ではないことを説明するメモを追加しました。 |
 | 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=ja){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK] の現在のバージョンに関する情報を含むトピックを更新しました。 |
 | 8月9日（PT） | [Target モバイルのプレビュー](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=ja){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK] の現在のバージョンに関する情報を含むトピックを更新しました。 |
 |  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2023年8月17日（PT）に予定されている&#x200B;*ピークシーズンに備えて ROI 効果を最大化するための戦略化*&#x200B;のウェビナーに関する情報を追加しました。 |
