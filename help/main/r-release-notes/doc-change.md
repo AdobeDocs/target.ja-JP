@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 100%
+source-wordcount: '1665'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 8月29日（PT） | [オンデバイス判定でサポートされる機能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | オンデバイス判定 (ODD) のクライアントサイドでのターゲティングでサポートされる地域属性のリストを追加しました。 |
+|  | [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | オンデバイス判定 (ODD) サーバーサイドを使用する際のターゲティングでサポートされる地域属性のリストを追加しました。 |
+|  | [Web ビューを使用したネイティブアプリでの AEP Mobile SDK による Target の実装](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 新しい記事。 |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 今後のAdobe Targetコミュニティコーヒーブレーク（2023 年 8 月 30 日）に関する情報を追加しました。「ピークシーズン対応による ROI への最大の影響に向けた戦略化」ウェビナーのフォローアップ |
 | 8月15日 | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 空の値を含むページをサイトに読み込んでもブラウザーから QA cookie が削除され&#x200B;*ない*&#x200B;ことを明確にする情報を追加しました（at.js 2.*x* がデプロイされている場合）。 |
 |  | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 「信頼性」の定義を更新しました。 |
 |  | [オファー](/help/main/c-experiences/c-manage-content/manage-content.md) | 画像オファーが[!UICONTROL エンタープライズユーザー権限]モデルの一部ではないことを説明するメモを追加しました。 |
