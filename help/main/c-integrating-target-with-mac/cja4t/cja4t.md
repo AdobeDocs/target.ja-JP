@@ -5,28 +5,23 @@ title: 説明 [!DNL Adobe Customer Journey Analytics] 対象： [!DNL Target] (C
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
+source-git-commit: dd92d5ac7db123e583df5f4927601a4bea2127bb
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 17%
+source-wordcount: '921'
+ht-degree: 14%
 
 ---
 
 # [!DNL Adobe Customer Journey Analytics] レポートソースとして [!DNL Adobe Target] (CJA4T)
 
-[!DNL Customer Journey Analytics for Target] (CJA4T) は、 [Customer Journey Analytics(CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} コンバージョン指標を使用します。 CJA4T 統合により、 [!DNL Customer Journey Analytics] レポートを使用して結果を確認します。 次を使用する場合、 [!DNL Customer Journey Analytics] をアクティビティのレポートソースとして使用する場合、そのアクティビティのすべてのレポートは、 [!DNL Customer Journey Analytics] データ収集を行います。
+The [!DNL Customer Journey Analytics for Target] (CJA4T) 統合 [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} および [!DNL Target] は、最適化プログラム用の強力な分析および時間節約ツールを提供します。
 
-## 概要
-
-[!DNL Customer Journey Analytics] と [!DNL Target] を統合する [!DNL Customer Journey Analytics for Target] では、組織の最適化プログラムに適した強力な分析機能と時間節約ツールを利用できます。
-
-[!DNL Target] で [!DNL Customer Journey Analytics] データを使用するメリットには主に次の 3 つがあります。
+を使用する主なメリット [!DNL Customer Journey Analytics] のデータ [!DNL Target] は次のとおりです。
 
 * マーケターは動的に適用できます [!DNL Customer Journey Analytics] 成功指標 [!DNL Target] アクティビティレポートをいつでも作成できます。 アクティビティを実行する前にすべての項目を指定する必要がありません。
 * 1 つのデータソースで、2 つの異なるシステムでデータを収集する場合に生じる相違を最小限に抑えます。
-* 既存の [!DNL Customer Journey Analytics] 実装は、必要なすべてのデータを収集します。 レポート用のデータを収集する目的のためだけにページに mbox を実装する必要はありません。
 
-CJA4T の使用を検討している場合は、次の点に注意してください。
+CJA4T 統合の使用を検討している場合は、次の点に注意してください。
 
 * [!DNL Customer Journey Analytics] を [!DNL Target] のレポートソースとして使用するには、利用者および企業が [!DNL Customer Journey Analytics] と [!DNL Target] の両方にアクセスできる必要があります。どちらかのソリューションへのアクセス権が必要な場合は、組織の管理者またはアカウント担当者にお問い合わせください。
 * 次の手順で、 [!DNL Target] アクティビティと [!DNL Customer Journey Analytics] レポートを作成するには、「[!UICONTROL 承認者]&quot;または&quot;[!UICONTROL 編集者]「 」の役割 [!DNL Target].
@@ -37,12 +32,12 @@ CJA4T の使用を検討している場合は、次の点に注意してくだ�
 * どちらか 1 つのレポートソースを選びます。1 つのアクティビティのデータを複数のレポートソースに対して収集することはできません。
 * 次の場合、 [!DNL Customer Journey Analytics] レポートソースとして、レポート用のサンドボックスを指定するよう求められます。 設定時には、アクセス権のあるサンドボックスのみが表示されます。
 * 任意の既存 [!DNL Target] アクティビティは引き続き使用 [!DNL Target] データ収集の影響を受けず、CJA4T を有効にしても影響を受けません。
-* CJA4T は、 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. Analytics Data Connector のサポートは、今後、予定されています。
-* タイミングに関する質問については、 [遅延に関する考慮事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#latency){target=_blank} in *よくある質問* （内） *AdobeCustomer Analytics ガイド*.
+* CJA4T は、 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. のサポート [!DNL Analytics Data Connector] は将来の予定です。
+* タイミングに関するご質問は、 [遅延に関する考慮事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *よくある質問* （内） *AdobeCustomer Analytics ガイド*.
 
-## サポートされているアクティビティのタイプ
+## サポートされているアクティビティのタイプ {#supported-activities}
 
-を使用する場合、次のアクティビティタイプがサポートされます [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} or [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}:
+を使用する場合、次のアクティビティタイプがサポートされます [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} or the [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} JavaScript ライブラリ：
 
 | アクティビティのタイプ | CJA4T との互換性 |
 |--- |--- |
@@ -58,7 +53,7 @@ CJA4T の使用を検討している場合は、次の点に注意してくだ�
 
 の作成 [!DNL Target] を使用するアクティビティ [!DNL Customer Journey Analytics] レポートソースは、通常の [!DNL Target] アクティビティ。
 
-1. 次から： **[!UICONTROL アクティビティ]** リスト、クリック **[!UICONTROL アクティビティを作成]**」をクリックし、（上記のサポートされているアクティビティのグラフに従って）アクティビティのタイプを選択して、アクティビティの設定を開始します。
+1. 次から： **[!UICONTROL アクティビティ]** リスト、クリック **[!UICONTROL アクティビティを作成]**&#x200B;を選択してから、( [上のサポートされているアクティビティグラフ](#supported-activities)) をクリックし、アクティビティの設定を開始します。
 1. 次に、 **[!UICONTROL 目標と設定]** 3 ステップのアクティビティ作成ワークフローの「 」ページで、「 」を選択します。 **[!DNL Customer Journey Analytics]** を使用します。
 
    ![Customer Journey Analyticsをレポートソースオプションとして使用する](/help/main/c-integrating-target-with-mac/cja4t/assets/cja-as-reporting-source.png)
@@ -75,7 +70,7 @@ CJA4T の使用を検討している場合は、次の点に注意してくだ�
 
 1. アクティビティの目標を指定します。
 
-   各アクティビティの目標として使用する成功指標を選択する必要があります。 次のいずれかを選択できます。 [!DNL Target] コンバージョン指標を使用するか、 [!DNL Customer Journey Analytics] 指標。
+   各アクティビティの目標として使用する成功指標を選択します。 次のいずれかを選択できます。 [!DNL Target] コンバージョン指標を使用するか、 [!DNL Customer Journey Analytics] 指標。
 
    ![「目標Customer Journey Analytics」の「指標」オプションを使用](/help/main/c-integrating-target-with-mac/cja4t/assets/goal-metric.png)
 
@@ -99,7 +94,7 @@ CJA4T の使用を検討している場合は、次の点に注意してくだ�
 
    詳しくは、 [データセットの追加と設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#add-dataset){target=_blank} in *接続の作成* （内） *Adobe Customer Journey Analyticsガイド*.
 
-1. 「キー」フィールドを「キー」に、「一致するキー」フィールドを次のパスに、ルックアップデータセットを設定します。
+1. を使用してルックアップデータセットを設定します。 [!UICONTROL キー] フィールドに「key」、「一致するキー」フィールドに次のパスを入力します。
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID
