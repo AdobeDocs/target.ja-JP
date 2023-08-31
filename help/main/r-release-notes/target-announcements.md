@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+workflow-type: tm+mt
+source-wordcount: '2241'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,38 @@ ht-degree: 100%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2023 年 8 月 30 日）
+
+* **トピック：「ピークシーズンの準備で最大限の ROI 効果を得るための戦略化」ウェビナーフォローアップ**
+* **2023年8月30日 水曜日（PT）**
+* **午前 8:00-9:00（PDT、UTC-7）**
+* **[登録はこちらから](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] エキスパートの John Magnusson と John Mosbaugh は、「ピークシーズン対応による ROI インパクトを最大化するための戦略化」ウェビナー（2023 年 8 月 17 日）で取り上げられたトピックに関する質問に答えるため、この ask-me-any イベントで利用できます。
+
++++詳細を見る
+
+このリファレンスには次のトピックが含まれます。
+
+* ダッシュボードの効果的な作成方法と主要指標のレポート方法
+* 各マーケティングチャネルの影響の調査
+* 顧客行動と買い物の動向をより深く掘り下げる
+* 低品質な顧客体験を特定し、テストを通じて改善する
+* サイトのコンバージョンを促進するオポチュニティの領域を明らかにする
+
++++
+
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
 以下のウェビナーに登録して、お客様のパーソナライゼーションおよび最適化の目標を達成するための [!DNL Target] の使用方法を参照してください。
 
-### ピークシーズンに備えて ROI 効果を最大化するための戦略化
+現時点でスケジュールされているものはありません。
 
-* **2023年8月17日（木）**
-* **午前 8:00-9:00（PDT、UTC-7）**
-* **[登録はこちらから](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## 過去のウェビナーやスキルビルダーセッションの録画
+
+過去のイベントの録画にアクセス（利用可能な場合）：
+
+### ピークシーズンに備えて ROI 効果を最大化するための戦略化
 
 魅力的な顧客体験を提供して、コンバージョン率を高めます。お客様のビジネスはピークシーズンの準備が整っていますか？是非ご参加ください。今回、最適なパフォーマンスを実現し、ROI を最大化する方法について、エキスパートヒントをご利用いただけます。
 
@@ -40,10 +63,6 @@ ht-degree: 100%
 * サイトのコンバージョンを推進する機会のある領域の明確化
 
 +++
-
-## 過去のウェビナーやスキルビルダーセッションの録画
-
-過去のイベントの録画にアクセス（利用可能な場合）：
 
 ### 認証済み環境向けのモバイルエクスペリエンスの最適化とパーソナライゼーション（2023年4月26日（PT））
 
