@@ -5,9 +5,9 @@ title: 説明 [!DNL Adobe Customer Journey Analytics] 対象： [!DNL Target] (C
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
+source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '919'
 ht-degree: 14%
 
 ---
@@ -23,7 +23,7 @@ The [!DNL Customer Journey Analytics for Target] (CJA4T) 統合 [Adobe Customer 
 
 ## 注意点
 
-CJA4T 統合を使用する前に、以下を検討します。
+CJA4T 統合を使用する前に、次の情報を考慮してください。
 
 * [!DNL Customer Journey Analytics] を [!DNL Target] のレポートソースとして使用するには、利用者および企業が [!DNL Customer Journey Analytics] と [!DNL Target] の両方にアクセスできる必要があります。どちらかのソリューションへのアクセス権が必要な場合は、組織の管理者またはアカウント担当者にお問い合わせください。
 * 次の手順で、 [!DNL Target] アクティビティと [!DNL Customer Journey Analytics] レポートを作成するには、「[!UICONTROL 承認者]&quot;または&quot;[!UICONTROL 編集者]「 」の役割 [!DNL Target].
