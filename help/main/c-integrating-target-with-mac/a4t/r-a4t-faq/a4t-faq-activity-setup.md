@@ -4,16 +4,16 @@ description: Analytics を使用した場合のアクティビティの設定に
 title: A4T を使用したアクティビティ設定に関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
 # アクティビティの設定 - A4T FAQ
 
-このトピックには、アクティビティの設定と使用に関するよくある質問に対する回答が含まれています [!DNL Analytics] レポートソースとして [!DNL Target] (A4T)。
+このトピックには、アクティビティの設定と使用に関するよくある質問に対する回答が含まれています。 [!DNL Analytics] レポートソースとして [!DNL Target] (A4T)。
 
 ## レポートソースとしての Analytics（A4T）がサポートされるのは、どのアクティビティタイプですか？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -23,7 +23,7 @@ ht-degree: 24%
 
 ## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？
 
-+++ [!DNL Analytics] レポートソースとして (A4T)、目標指標は「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]&quot;および&quot;[!UICONTROL すべてのインプレッション]」設定を使用します。 これらの設定は、*変更できません*。
++++次を使用するアクティビティに対する回答： [!DNL Analytics] レポートソースとして (A4T)、目標指標は「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]&quot;および&quot;[!UICONTROL すべてのインプレッション]」設定を使用します。 これらの設定は、*変更できません*。
 
 詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」（[指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)）を参照してください。
 
@@ -32,13 +32,13 @@ ht-degree: 24%
 ## アクティビティを作成しました。データが表示されないのはなぜですか？ {#section_9F8092BE4225442896F926540292F221}
 
 
-+++回答：アクティビティが作成されると、 [!DNL Target] は分類ファイルをに送信します。 [!DNL Analytics]. ただし [!DNL Analytics] は、データを取得して処理する際に、分類ファイルが更新されるまで、レポートには表示されません。 この処理には、最大 24 時間かかる場合があります。 48 時間経過してもデータが表示されない場合は、[カスタマーケアにお問い合わせ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)ください。または、アクティビティを開始したことがわかっている場合は、数日前に事前にアクティビティを作成して、アクティビティを保存する際に分類が送信されるようにしておきます。 こうすることで、開始時にレポートにデータが表示されます。でデータが処理されるまでに 45 ～ 90 分かかることに注意してください。 [!DNL Analytics].
++++回答アクティビティが作成されると、 [!DNL Target] は分類ファイルをに送信します。 [!DNL Analytics]. ただし [!DNL Analytics] は、データを取得して処理する際に、分類ファイルが更新されるまで、レポートには表示されません。 この処理が完了するまでに 24 ～ 72 時間かかる場合があります。 72 時間後にデータが表示されない場合、 [ClientCare にお問い合わせください。](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). または、アクティビティを開始したことがわかっている場合は、数日前に事前にアクティビティを作成して、アクティビティを保存する際に分類が送信されるようにしておきます。 こうすることで、開始時にレポートにデータが表示されます。でデータが処理されるまでに 45 ～ 90 分かかることに注意してください。 [!DNL Analytics].
 
 +++
 
 ## アクティビティを作成する際に Analytics をレポートソースとして選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++回答： [!UICONTROL レポート設定] オプション [!UICONTROL 管理].
++++回答： [!UICONTROL レポート設定] のオプション [!UICONTROL 管理].
 
 1. In [!DNL Target]をクリックし、 **[!UICONTROL 管理]**.
 1. 「**[!UICONTROL レポートに使用する Experience Cloud ソリューション]**」ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
