@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1733'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 91%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 9月1日（PT） | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 「レポートのデフォルト環境を設定する」の注記を更新しました。 |
 | 8月30日（PT） | [プライバシー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 新しい節「Adobe Experience Platform Web SDK を使用する場合のデータストリームレベルの IP 難読化」を追加しました。 |
 |  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 次の FAQ のレポートにデータが表示されるのを期待する時間枠を修正しました。「アクティビティを作成しました。 データが表示されないのはなぜですか？」 |
 | 8月29日（PT） | [オンデバイス判定でサポートされる機能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | オンデバイス判定 (ODD) のクライアントサイドでのターゲティングでサポートされる地域属性のリストを追加しました。 |
