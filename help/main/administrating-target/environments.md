@@ -5,9 +5,9 @@ title: 環境とは何ですか？また、環境の使用方法を教えてく�
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 57%
 
 ---
@@ -50,7 +50,7 @@ When a [!DNL Target] 新しい Web サイトまたはドメインからリクエ
 >
 >[!DNL Recommendations] ユーザーは、ホストのホストグループを切り替える場合、行動データベースおよび製品データベースを再構築する必要があります。
 >
->次を指定した場合、 [Adobe Experience Platform datastream のデフォルト環境](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}の場合、この環境はの設定よりも優先されます。 [!DNL Target Recommendations].
+>次を指定した場合、 [のデフォルト環境 [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}の場合、この設定が [!DNL Target].
 
 ## 環境名の変更 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
