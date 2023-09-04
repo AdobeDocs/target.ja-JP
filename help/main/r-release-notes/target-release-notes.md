@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年8月9日（PT）**
+**最終更新日：2023年9月4日（PT）**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ ht-degree: 100%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
+## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 7 日）
+
+このリリースは、以下の時差スケジュールに従って利用できます。
+
+* **9月6日（PT）**：アメリカ地域
+* **9月7日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **9月11日（PT）**：アジア太平洋（APAC）地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* [!UICONTROL アクティビティ]リストページの「[!UICONTROL ステータス]」列に表示されるように、アクティビティが適切に同期されない場合がある問題を修正しました。（TGT-46010 および TGT-44831）
-* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用するアクティビティの[!UICONTROL レポート]ページに、「[!UICONTROL Analytics で表示]」リンクが表示されない場合がある問題を修正しました。（TGT-45808）
-* テーブル内の値の表示を、小数点以下の数値ではなくパーセンテージで表示するように調整しました。例えば、.08 ではなく 8％で表示します。（TGT-45548）
-* お客様がキーボードフォーカスを使用して、[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティの[!UICONTROL 目標と設定]ページの次の要素に移動できない問題を修正しました。（TGT-44526）
-* アクティビティの作成中に「[!UICONTROL オーディエンスを追加]」ダイアログを開いた後にキーボードのフォーカスが失われる問題を修正しました。（TGT-44525）
+* レポートデータの不一致が [!DNL Target] UI と [!DNL Adobe Analytics] の UI [!UICONTROL 自動配分] を使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46112）
+* タイムアウトエラーを回避するため、Target Delivery API に対するPUT呼び出しのタイムアウトを 15 秒に増やしました。 （TGT-46091）
+* レポート名が正しく表示されない問題を修正しました。 [!UICONTROL テーブル表示] そして [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性] レポート。 （TGT-46040）
+* 拡張された [!UICONTROL Visual Experience Composer] (VEC) で Lightning DOM（Web コンポーネント）をサポートします。 （TGT-45422）
+* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 （TGT-45983）
+* VEC で CSS セレクターを指定する機能が追加されました。 （TGT-45958 および TGT-46017）
+* VEC でシングルページアプリケーション (SPA) ページを開き、参照モードに切り替えると、戻る矢印と進む矢印が正しく機能しなかった問題を修正しました。 （TGT-45956）
+* シングルページアプリケーション (SPA)Web サイトを閲覧する際に、URL が一貫して更新されない問題を修正しました。 （TGT-45417）
 
 ## その他のリリースノートとバージョンの詳細
 
