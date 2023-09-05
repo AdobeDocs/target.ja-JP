@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '37043'
+source-wordcount: '37230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,22 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!DNL Adobe Target] エッジで予定されているインフラストラクチャのアップグレード {#edge}
+
+予定されているエッジインフラストラクチャのアップグレードでは、追加の IP またはドメインを許可リストに登録する必要があります。エッジデプロイメント 41～48 の NAT と IP／ドメインを確認して許可リストに登録します。インフラストラクチャのアップグレードは、2023年8月9日（PT）に開始されます。
+
+詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
+
+### [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* [!UICONTROL アクティビティ]リストページの「[!UICONTROL ステータス]」列に表示されるように、アクティビティが適切に同期されない場合がある問題を修正しました。（TGT-46010 および TGT-44831）
+* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用するアクティビティの[!UICONTROL レポート]ページに、「[!UICONTROL Analytics で表示]」リンクが表示されない場合がある問題を修正しました。（TGT-45808）
+* テーブル内の値の表示を、小数点以下の数値ではなくパーセンテージで表示するように調整しました。例えば、.08 ではなく 8％で表示します。（TGT-45548）
+* お客様がキーボードフォーカスを使用して、[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティの[!UICONTROL 目標と設定]ページの次の要素に移動できない問題を修正しました。（TGT-44526）
+* アクティビティの作成中に「[!UICONTROL オーディエンスを追加]」ダイアログを開いた後にキーボードのフォーカスが失われる問題を修正しました。（TGT-44525）
 
 ### [!DNL Target] Standard／Premium 23.7.1（7月24～26日（PT））
 
