@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 66%
 
 * レポートデータの不一致が [!DNL Target] UI と [!DNL Adobe Analytics] の UI [!UICONTROL 自動配分] を使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46112）
 * タイムアウトエラーを回避するため、Target Delivery API に対するPUT呼び出しのタイムアウトを 15 秒に増やしました。 （TGT-46091）
-* レポート名が正しく表示されない問題を修正しました。 [!UICONTROL テーブル表示] そして [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性] レポート。 （TGT-46040）
-* 拡張された [!UICONTROL Visual Experience Composer] (VEC) で Lightning DOM（Web コンポーネント）をサポートします。 （TGT-45422）
-* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 （TGT-45983）
-* VEC でシングルページアプリケーション (SPA) ページを開き、参照モードに切り替えると、戻る矢印と進む矢印が正しく機能しなかった問題を修正しました。 （TGT-45956）
 * シングルページアプリケーション (SPA)Web サイトを閲覧する際に、URL が一貫して更新されない問題を修正しました。 （TGT-45417）
 
 ## その他のリリースノートとバージョンの詳細

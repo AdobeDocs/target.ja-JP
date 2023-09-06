@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 92%
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9月5日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.1 リリースに関するリリースノートを追加しました。 |
+| 9月6日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
 
