@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2023 年 8 月 30 日）
+## [!DNL Adobe Target] コミュニティ Q&amp;A コーヒーブレーク（2023年8月30日（PT））
 
-* **トピック：「ピークシーズンの準備で最大限の ROI 効果を得るための戦略化」ウェビナーフォローアップ**
+* **トピック：「ピークシーズンに備えて ROI 効果を最大化するための戦略化」ウェビナーフォローアップ**
 * **2023年8月30日 水曜日（PT）**
 * **午前 8:00-9:00（PDT、UTC-7）**
 * **[登録はこちらから](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] エキスパートの John Magnusson と John Mosbaugh は、「ピークシーズン対応による ROI インパクトを最大化するための戦略化」ウェビナー（2023 年 8 月 17 日）で取り上げられたトピックに関する質問に答えるため、この ask-me-any イベントで利用できます。
+[!DNL Adobe Target] エキスパートの John Magnusson と John Mosbaugh は、Ask Me Anything イベントで、「ピークシーズンに備えて ROI 効果を最大化するための戦略化」ウェビナー（2023年8月17日（PT））で取り上げられたトピックに関連する質問に答えます。
 
 +++詳細を見る
 
-このリファレンスには次のトピックが含まれます。
+次のトピックが含まれます。
 
-* ダッシュボードの効果的な作成方法と主要指標のレポート方法
-* 各マーケティングチャネルの影響の調査
-* 顧客行動と買い物の動向をより深く掘り下げる
-* 低品質な顧客体験を特定し、テストを通じて改善する
-* サイトのコンバージョンを促進するオポチュニティの領域を明らかにする
+* ダッシュボードの効果的な作成と主要指標のレポート方法
+* 各マーケティングチャネルの影響の検証
+* お客様の行動と買い物の傾向の徹底的な掘り下げ
+* 低品質な顧客体験の特定と、テストを通じた改善
+* サイトのコンバージョンを推進する機会のある領域の明確化
 
 +++
 
