@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 92%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9月1日（PT） | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 「レポートのデフォルト環境を設定する」の注記を更新しました。 |
-| 8月30日（PT） | [プライバシー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 新しい節「Adobe Experience Platform Web SDK を使用する場合のデータストリームレベルの IP 難読化」を追加しました。 |
-|  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 次の FAQ のレポートにデータが表示されるのを期待する時間枠を修正しました。「アクティビティを作成しました。 データが表示されないのはなぜですか？」 |
-| 8月29日（PT） | [オンデバイス判定でサポートされる機能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | オンデバイス判定 (ODD) のクライアントサイドでのターゲティングでサポートされる地域属性のリストを追加しました。 |
-|  | [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | オンデバイス判定 (ODD) サーバーサイドを使用する際のターゲティングでサポートされる地域属性のリストを追加しました。 |
+| 9月1日（PT） | [環境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 「レポート用のデフォルト環境を設定」のメモを更新しました。 |
+| 8月30日（PT） | [プライバシー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html?lang=ja#aep){target=_blank} | 新しい節「Adobe Experience Platform Web SDK を使用する場合のデータストリームレベルの IP 難読化」を追加しました。 |
+|  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 次の FAQ のレポートにデータが表示されると予想される時間枠を修正しました。「アクティビティを作成しました。データが表示されないのはなぜですか？」 |
+| 8月29日（PT） | [オンデバイス判定でサポートされる機能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html?lang=ja){target=_blank} | クライアントサイドでオンデバイス判定（ODD）を使用する場合のターゲティングでサポートされる地域属性のリストを追加しました。 |
+|  | [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja){target=_blank} | サーバーサイドでオンデバイス判定（ODD）を使用する場合のターゲティングでサポートされる地域属性のリストを追加しました。 |
 |  | [Web ビューを使用したネイティブアプリでの AEP Mobile SDK による Target の実装](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=ja){target=_blank} | 新しい記事。 |
-|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 今後のAdobe Targetコミュニティコーヒーブレーク（2023 年 8 月 30 日）に関する情報を追加しました。「ピークシーズン対応による ROI への最大の影響に向けた戦略化」ウェビナーのフォローアップ |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 今後の Adobe Target コミュニティコーヒーブレーク（2023年8月30日（PT））に関する次の情報を追加しました：「ピークシーズンに備えて ROI 効果を最大化するための戦略化」ウェビナーのフォローアップ。 |
 | 8月15日 | [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 空の値を含むページをサイトに読み込んでもブラウザーから QA cookie が削除され&#x200B;*ない*&#x200B;ことを明確にする情報を追加しました（at.js 2.*x* がデプロイされている場合）。 |
 |  | [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 「信頼性」の定義を更新しました。 |
 |  | [オファー](/help/main/c-experiences/c-manage-content/manage-content.md) | 画像オファーが[!UICONTROL エンタープライズユーザー権限]モデルの一部ではないことを説明するメモを追加しました。 |
