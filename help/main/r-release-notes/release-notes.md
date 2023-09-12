@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 23.9.2（2023 年 9 月 13 日～14 日）
+## [!DNL Target] Standard／Premium 23.9.2（2023年9月12日～14日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できます。
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 * 変更された [!DNL Analytics] 新しい [!DNL Analytics] API バージョン 2.0。 （TGT-45345）
 * 影響を受けた問題を修正しました [!UICONTROL Automated Personalization] (AP) 一部のお客様向けのアクティビティ ( [!DNL Target] バックエンドに追加し、期待したエクスペリエンスをプレビューリンクで配信します。 （TGT-46202）
 
-## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 7 日）
+## [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できます。
 
@@ -42,9 +42,9 @@ ht-degree: 78%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* レポートデータの不一致が [!DNL Target] UI と [!DNL Adobe Analytics] の UI [!UICONTROL 自動配分] を使用するアクティビティ [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46112）
-* タイムアウトエラーを回避するため、Target Delivery API に対するPUT呼び出しのタイムアウトを 15 秒に増やしました。 （TGT-46091）
-* シングルページアプリケーション (SPA)Web サイトを閲覧する際に、URL が一貫して更新されない問題を修正しました。 （TGT-45417）
+* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する[!UICONTROL 自動配分]アクティビティの [!DNL Target] UI と [!DNL Adobe Analytics] UI でレポートデータが不一致になる問題を修正しました。（TGT-46112）
+* タイムアウトエラーを回避するために、Target 配信 API への PUT 呼び出しのタイムアウトを 15 秒に増加しました。（TGT-46091）
+* 単一ページアプリケーション（SPA）web サイトを参照する際に URL が一貫して更新されない問題を修正しました。（TGT-45417）
 
 ## その他のリリースノートとバージョンの詳細
 
