@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
+source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 90%
+source-wordcount: '319'
+ht-degree: 64%
 
 ---
 
@@ -23,32 +23,15 @@ ht-degree: 90%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard／Premium 23.9.2（2023年9月12日～14日（PT））
-
-このリリースは、以下の時差スケジュールに従って利用できます。
-
-* **9月12日（PT）**：アメリカ地域
-* **9月13日（PT）**：アジア太平洋（APAC）地域
-* **9月14日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+## [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 19 日）
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 変更された [!DNL Analytics] 新しい [!DNL Analytics] API バージョン 2.0。 （TGT-45345）
-* 影響を受けた問題を修正しました [!UICONTROL Automated Personalization] (AP) 一部のお客様向けのアクティビティ ( [!DNL Target] バックエンドに追加し、期待したエクスペリエンスをプレビューリンクで配信します。 （TGT-46202）
-
-## [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
-
-このリリースは、以下の時差スケジュールに従って利用できます。
-
-* **9月6日（PT）**：アメリカ地域
-* **9月7日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **9月11日（PT）**：アジア太平洋（APAC）地域
-
-このリリースには、以下の機能強化および修正が含まれています。
-
-* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する[!UICONTROL 自動配分]アクティビティの [!DNL Target] UI と [!DNL Adobe Analytics] UI でレポートデータが不一致になる問題を修正しました。（TGT-46112）
-* タイムアウトエラーを回避するために、Target 配信 API への PUT 呼び出しのタイムアウトを 15 秒に増加しました。（TGT-46091）
-* 単一ページアプリケーション（SPA）web サイトを参照する際に URL が一貫して更新されない問題を修正しました。（TGT-45417）
+* Visual Experience Composer(VEC) が拡張され、Lightning DOM（Web コンポーネント）がサポートされました。 （TGT-45422）
+* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 （TGT-45983）
+* VEC の問題を修正しました [!UICONTROL オーバーレイ] シャドウ DOM で要素をサポートする機能です。 （TGT-46217）
+* VEC でシングルページアプリケーション (SPA) ページを開き、参照モードに切り替えると、戻る矢印と進む矢印が正しく機能しなかった問題を修正しました。 （TGT-45956）
+* VEC での読み込み時に一部の Web ページが失敗する問題を修正しました。
 
 ## その他のリリースノートとバージョンの詳細
 
