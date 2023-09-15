@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 92%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 変更された [!DNL Analytics] 新しい [!DNL Analytics] API バージョン 2.0。 （TGT-45345）
-* 影響を受けた問題を修正しました [!UICONTROL Automated Personalization] (AP) 一部のお客様向けのアクティビティ ( [!DNL Target] バックエンドに追加し、期待したエクスペリエンスをプレビューリンクで配信します。 （TGT-46202）
+* [!DNL Analytics] API を新しい [!DNL Analytics] API バージョン 2.0 に変更しました。（TGT-45345）
+* [!DNL Target] バックエンドでのアクティビティのタイムリーな同期や、プレビューリンクで予期されるエクスペリエンスの提供など、一部のお客様の [!UICONTROL Automated Personalization]（AP）アクティビティに影響していた問題を修正しました。（TGT-46202）
 
 ## [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
 

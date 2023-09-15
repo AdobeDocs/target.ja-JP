@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
 workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 9月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 23.9.3 リリースです。 |
+| 9月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 リリースに関するプレリリースノートを追加しました。 |
 | 9月12日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.2 リリースに関するリリースノートを追加しました。 |
 |  | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン2.10.3のリリースノートを追加しました。 |
-| 9月11日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | リリースノートを追加しました。 [!DNL Target Standard/Premium] 23.9.2 リリースです。 |
+| 9月11日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.2 リリースに関するプレリリースノートを追加しました。 |
 | 9月6日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
