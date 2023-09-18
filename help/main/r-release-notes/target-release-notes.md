@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 77%
+source-wordcount: '509'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年9月15日（PT）**
+**最終更新日：2023年9月18日（PT）**
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ ht-degree: 77%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 拡張された [!UICONTROL Visual Experience Composer] (VEC) で Lightning DOM（Web コンポーネント）をサポートします。 （TGT-45422）
-* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 （TGT-45983）
+* 拡張された [!UICONTROL Visual Experience Composer] (VEC) で Lightning Web コンポーネント (Light DOM) をサポートします。 （TGT-45422）
+* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 また、VEC の URL が修正され、アンカーのリンクをクリックすると更新されるようになりました。 （TGT-45983）
 * VEC の問題を修正しました [!UICONTROL オーバーレイ] 機能を使用して、シャドウ DOM で要素をサポートするようになりました。 （TGT-45202 および TGT-45262）
 * VEC でシングルページアプリケーション (SPA) ページを開き、 [!UICONTROL 参照] モードで戻る矢印と進む矢印が正しく機能しない問題を修正しました。 （TGT-45956）
 * VEC で一部の Web ページを読み込めなかった問題を修正しました。 （TGT-45983）

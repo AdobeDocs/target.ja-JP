@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 79%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 100%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 19 日）
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* 拡張された [!UICONTROL Visual Experience Composer] (VEC) で Lightning Web コンポーネント (Light DOM) をサポートします。 （TGT-45422）
+* VEC アクションが正しくない順序で適用される問題を修正しました。 場合によっては、VEC が一部の変更を非同期で適用し、要素に追加の変更を適用した後にその要素が表示されるとエラーが発生していました。 [!UICONTROL 挿入] アクション。 また、VEC の URL が修正され、アンカーのリンクをクリックすると更新されるようになりました。 （TGT-45983）
+* VEC の問題を修正しました [!UICONTROL オーバーレイ] 機能を使用して、シャドウ DOM で要素をサポートするようになりました。 （TGT-45202 および TGT-45262）
+* VEC でシングルページアプリケーション (SPA) ページを開き、 [!UICONTROL 参照] モードで戻る矢印と進む矢印が正しく機能しない問題を修正しました。 （TGT-45956）
+* VEC で一部の Web ページを読み込めなかった問題を修正しました。 （TGT-45983）
 
 ## [!DNL Target] Standard／Premium 23.9.2（2023年9月12日～14日（PT））
 
