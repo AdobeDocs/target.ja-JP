@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target] （CJA4T）
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ CJA4T 統合を使用する前に、次の情報を考慮してください。
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) アカウントを所有している場合、*ユーザー*&#x200B;の[役割および権限の指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)を参照してください。
    * [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを所有している場合は、*Enterprise ユーザーの権限*&#x200B;で[役割と権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)を参照してください。
 
+* の役割に属している必要があります [!DNL Adobe Experience Platform] 設置する [!DNL Target] ～との活動 [!DNL Customer Journey Analytics] を使用します。 詳しくは、 [での役割の追加 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *権限の設定* （内） *データアーキテクトおよびエンジニア向けチュートリアル。*
 * 設定に応じて、アクティビティごとまたは組織レベルでレポートを変更できます。詳しくは、*Target でのレポートの設定*&#x200B;で[レポートクラウドソリューション](/help/main/administrating-target/reporting.md#solution)を参照してください。
 * どちらか 1 つのレポートソースを選びます。1 つのアクティビティのデータを複数のレポートソースに収集することはできません。
 * [!DNL Customer Journey Analytics] をレポートソースとして設定すると、レポート用のサンドボックスを指定するよう求められます。 設定時には、アクセスできるサンドボックスのみが表示されます。
