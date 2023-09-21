@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] QA URL を使用すると、変更されるこ�
 title: QA アクティビティの方法
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 35%
 
 [!UICONTROL アクティビティ QA] 定着です。 で Web サイトを参照した後 [!UICONTROL アクティビティ QA]、 [!DNL Target] セッションは期限切れにする必要があります。期限切れにするか、 [!DNL Target] 解放する [!UICONTROL アクティビティ QA] サイトを一般的な訪問者と同じように表示するには、まずを参照してください。
 
-* **at.js 2.*x***：サイトに at.js 2.*x* デプロイ済み、使用 [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引きずり出す [!UICONTROL アクティビティ QA]. 次の箇条書きで説明するように、空の値を使用してサイト上のページを読み込むと、は機能します。 *not* at.js 2.*x* がデプロイされている。
+* **at.js 2.*x***：サイトに at.js 2.*x* デプロイ済み、使用 [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 無理に引きずり出す [!UICONTROL アクティビティ QA]. 次の箇条書きで説明するように、空の値を使用してサイト上のページを読み込むと、は機能します。 *not* at.js 2.*x* がデプロイされている場合）。
 
 * **at.js 1.*x***：サイトに at.js 1.*x* デプロイ済み（を使用する以外） [Target QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)また、 `at_preview_token` パラメーターの値が空です。 例：
 
@@ -124,4 +124,3 @@ ht-degree: 35%
 | [!UICONTROL エクスペリエンスのターゲット設定]（XT） | ○ | ○ | ○ |
 | [!UICONTROL 多変量分析テスト] （MVT） | ○ | ○ | ○ |
 | [!UICONTROL Recommendations] | ○ | ○ | ○ |
-

@@ -1,19 +1,19 @@
 ---
 keywords: アクティビティ url;url；別の url
-description: Adobe Targetを使用してテストを設計した場合に、テストで使用され、開くページを決定するアクティビティ URL を指定する方法について説明します。
+description: テストで使用され、を使用してテストが設計された場合に表示されるページを決定するアクティビティ URL を指定する方法について説明します。 [!DNL Adobe Target].
 title: A/B アクティビティのアクティビティ URL とは何ですか？
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6bca763d24649349dbc7cdf6e5f2dbc4ac0a480d
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '316'
+ht-degree: 64%
 
 ---
 
 # アクティビティ URL
 
-アクティビティ URL は、Adobe Targetを使用して設計されたテストで、テストで使用され、開くページを指定します。
+アクティビティ URL は、Adobe Targetを使用して設計されたテストで使用され、そのテストで表示されるページを指定します。
 
 アクティビティ作成中にアクティビティ URL の入力を求められたら、URL を指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL 作成]**」をクリックします。
 
@@ -23,31 +23,30 @@ ht-degree: 73%
 
 ## 異なる URL の指定
 
-デフォルトでは、 [!UICONTROL Visual Experience Composer] は、 [Visual Experience Composer の設定](/help/main/administrating-target/visual-experience-composer-set-up.md)
-. アクティビティ作成中に、異なるページを指定することもできます。
+デフォルトでは、 [!UICONTROL Visual Experience Composer] をクリックして、 [Visual Experience Composer の設定](/help/main/administrating-target/visual-experience-composer-set-up.md). アクティビティ作成中に、異なるページを指定することもできます。
 
-[!UICONTROL Visual Experience Composer] を開いた後に異なるページを表示するには、**[!UICONTROL 設定]**&#x200B;の歯車アイコンをクリックして、「**[!UICONTROL ページ配信」を選択します。]**「アクティビティ URL」フィールドに URL を入力します。
+1. ページの後に別のページを表示するには [!UICONTROL Visual Experience Composer] 開く ( **[!UICONTROL エクスペリエンス]** ページで、 **[!UICONTROL 設定]** 歯車アイコンをクリックし、「 **[!UICONTROL ページ配信]**.
 
-![ページ配信ダイアログボックス](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+1. URL を **[!UICONTROL URL]** フィールドに入力します。
 
-アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]**」をクリックします。
+   ![ページ配信ダイアログボックス](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-追加のルールは、以下のいずれかに基づいています。
+1. （条件付き）アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]**」をクリックします。
 
-* URL
-* ドメイン
-* パス
-* ハッシュ（#）フラグメント
-* クエリ
-* mbox パラメーター
+   追加のルールは、以下のいずれかに基づいています。
 
-追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。追加したすべてのルールは、AND を使用してお互いに評価されます。
+   * URL
+   * ドメイン
+   * パス
+   * ハッシュ（#）フラグメント
+   * クエリ
+   * mbox パラメーター
 
-終了したら「**[!UICONTROL 保存]**」をクリックします。
+   追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。追加したすべてのルールは、AND を使用してお互いに評価されます。
 
->[!NOTE]
->
->Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
+1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+
+Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
 
 デフォルトでは、バナーの回転など JavaScript を含む要素については、[!UICONTROL Visual Experience Composer] で変更できません。**[!UICONTROL Visual Experience Composer]** を使用してこのような要素を変更するには、「[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
 

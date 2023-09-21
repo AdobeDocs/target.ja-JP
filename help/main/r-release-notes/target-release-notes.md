@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ ht-degree: 75%
 * [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する[!UICONTROL 自動配分]アクティビティの [!DNL Target] UI と [!DNL Adobe Analytics] UI でレポートデータが不一致になる問題を修正しました。（TGT-46112）
 * タイムアウトエラーを回避するために、Target 配信 API への PUT 呼び出しのタイムアウトを 15 秒に増加しました。（TGT-46091）
 * 単一ページアプリケーション（SPA）web サイトを参照する際に URL が一貫して更新されない問題を修正しました。（TGT-45417）
+
+## [!DNL Target] Standard／Premium 23.5.2（日付未定）
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* 以下に対して最適化条件の選択を有効にしました： [!DNL Adobe Analytics] 指標。
+* Sling ジョブを使用した外部オーディエンスの同期を有効にしました。
+* 名前にドット文字を含む SC レポートスイートがサポートされない問題を修正しました。
+* 顧客が組み込みのオーディエンスを削除および編集できる機能を有効にしました。
+
+## [!DNL Target] Standard／Premium 23.5.3（日付未定）
+
+このリリースには、次の機能拡張が含まれています。
+
+| 機能 | 詳細 |
+|--- |--- |
+| [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL QA モード] | [!UICONTROL プレビューリンク]機能に代わって、[!UICONTROL Automated Personalization] アクティビティで [!DNL Adobe Target] [!UICONTROL QA モード]が使用できるようになりました。<P>詳しくは、[アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) を参照してください。 |
 
 ## その他のリリースノートとバージョンの詳細
 

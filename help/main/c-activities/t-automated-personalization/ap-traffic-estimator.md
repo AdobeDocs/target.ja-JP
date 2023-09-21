@@ -1,38 +1,38 @@
 ---
-keywords: トラフィック見積もり；自動パーソナライゼーション；ap；トラフィックの見積もり；自動ターゲット
-description: Adobe [!DNL Target] トラフィック見積もりを使用して、Automated Personalizationアクティビティを成功させるのに十分なトラフィックがあるかどうかを判断します。
-title: アクティビティを成功させるには、どのくらいのトラフィックが必要ですか？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: トラフィック見積もり；自動パーソナライゼーション；ap；トラフィックの見積もり
+description: 以下を使用します。 [!DNL Adobe Target] [!UICONTROL トラフィック見積もり] 十分なトラフィックがあるかどうかを判断するには、 [!UICONTROL Automated Personalization] アクティビティが成功しました。
+title: を成功させるために必要なトラフィック量 [!UICONTROL Automated Personalization] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 13%
+source-wordcount: '779'
+ht-degree: 12%
 
 ---
 
 # 成功のために必要なトラフィックの見積もり
 
-この [!DNL Adobe Target] [!UICONTROL トラフィック見積もり] は、 [!UICONTROL Automated Personalization] アクティビティが成功しました。
+The [!DNL Adobe Target] [!UICONTROL トラフィック見積もり] は、 [!UICONTROL Automated Personalization] (AP) アクティビティが成功しました。
 
-理由： [!UICONTROL Automated Personalization] アクティビティでは複数のオファーの組み合わせを使用します。意味のある結果を得るために必要なトラフィック量を把握することが重要です。 この [!UICONTROL トラフィック見積もり] は、ページに関する統計とテスト中のエクスペリエンスの数を使用して、アクティビティを成功させるために必要なトラフィック量とテスト期間を見積もります。
+理由： [!UICONTROL Automated Personalization] アクティビティでは複数のオファーの組み合わせを使用します。意味のある結果を得るために必要なトラフィック量を把握することが重要です。 The [!UICONTROL トラフィック見積もり] は、ページに関する統計とテスト中のエクスペリエンスの数を使用して、アクティビティを成功させるために必要なトラフィック量とテスト期間を見積もります。
 
-この [!UICONTROL トラフィック見積もり] は、ページの推定ページインプレッション数と通常のコンバージョン率を比較することで、パーソナライズされたモデルを生成するのに十分なトラフィックがあるかどうかを判断します。 アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。このプロセスにより、パーソナライズされたコンテンツを取得し、どのコンテンツを配信するかを学習するのに十分な時間を確保できます。
+The [!UICONTROL トラフィック見積もり] は、ページの推定ページインプレッション数と通常のコンバージョン率を比較することで、パーソナライズされたモデルを生成するのに十分なトラフィックがあるかどうかを判断します。 アクティビティの成功のためには、パーソナライズされたコンテンツがアクティビティ期間の 50％以内または 14 日以内（どちらか短い方）に準備されるようなサンプルサイズにするのが理想的です。このプロセスにより、パーソナライズされたコンテンツを取得し、どのコンテンツを配信するかを学習するのに十分な時間を確保できます。
 
-次の点に注意してください。 [!DNL Target] パーソナライゼーションアルゴリズムが構築されるまで、エクスペリエンスをランダムに提供します。 各オファーのモデルが準備でき、 [!DNL Target] は、パーソナライズされたコンテンツの配信を開始できます。 モデルが準備完了になった後にのみ指標の上昇が期待されるので、視覚的な表示によって、適切に予想を立てることができます。以下を使用： [!UICONTROL トラフィック見積もり] 内 [!UICONTROL Visual Experience Composer] (VEC) を使用して、モデルの準備が整った時点に関するガイドラインを取得できます。
+次の点に注意してください。 [!DNL Target] パーソナライゼーションアルゴリズムが構築されるまで、エクスペリエンスをランダムに提供します。 各オファーのモデルが準備でき、 [!DNL Target] は、パーソナライズされたコンテンツの配信を開始できます。 上昇はモデルの準備が整った後にのみ予想されるので、視覚的な表示によって適切な期待を設定できます。 以下を使用します。 [!UICONTROL トラフィック見積もり] （内） [!UICONTROL Visual Experience Composer] (VEC) を使用して、モデルの準備が整った時点に関するガイドラインを取得できます。
 
 ## トラフィック見積もりの使用
 
-1. 次の [!UICONTROL Visual Experience Composer]をクリックし、 **[!UICONTROL トラフィック]**.
+1. 次から： [!UICONTROL エクスペリエンス] ページ [!UICONTROL Visual Experience Composer] 内 [!UICONTROL Automated Personalization] 「 」アクティビティで、  **[!UICONTROL トラフィック]** アイコン。
 
    ![トラフィックアイコン](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   この [!UICONTROL トラフィック見積もり] が開きます。 次をクリックできます。 **[!UICONTROL トラフィック]** 再び隠す [!UICONTROL トラフィック見積もり].
+   The [!UICONTROL トラフィック見積もり] が開きます。 次をクリックできます。 **[!UICONTROL トラフィック]** 再び隠す [!UICONTROL トラフィック見積もり].
 
    ![トラフィック見積もりユーザーインターフェイス](assets/ap_est.png)
 
-1. 標準コンバージョン率（このアクティビティで期待できるコンバージョン率）、アクティビティの 1 日あたりの推定インプレッション数、テスト期間を指定します。
+1. 標準コンバージョン率（このアクティビティで期待されるコンバージョン率）、アクティビティの 1 日あたりの推定インプレッション数、テスト期間を指定します。
 
    | 指標 | 説明 |
    | --- | --- |
@@ -41,17 +41,17 @@ ht-degree: 13%
    | **[!UICONTROL 1 日あたりの推定訪問数]** | この指標は、ターゲットの条件に基づいて、アクティビティを表示できる訪問者の 1 日あたりの訪問数を示します。 この指標は、分析データに基づいて設定できます。 この数は、個別訪問者数ではなく、訪問数にする必要があります。 |
    | **[!UICONTROL テスト期間]** | アクティビティを実行する日数です。 |
 
-   この [!UICONTROL トラフィック見積もり] では、これらの指標を使用して、テストを正常に実行するために必要な調整を判断します。
+   The [!UICONTROL トラフィック見積もり] では、これらの指標を使用して、テストを正常に実行するために必要な調整を判断します。
 
    の上部付近 [!UICONTROL トラフィック見積もり]入力した値が計算され、結果が表示されます。
 
-   ![値と結果が表示されたトラフィックの推定](assets/ap_est_no.png)
+   ![値と結果が表示されたトラフィックの推定値](assets/ap_est_no.png)
 
    数値を変更すると、見積もりも変更されます。例えば、多くの組み合わせをテストしていて、コンバージョン率とインプレッション数が低すぎる場合、 [!UICONTROL トラフィック見積もり] は、テストを正常に実行するために必要な時間を示します。 また、トラフィックが少ない場合は、 [!UICONTROL トラフィック見積もり] では、オファーの組み合わせの数を減らして、目的の日数でテストを実行できます。
 
    十分なトラフィックがない場合は、次の点を考慮してください。
 
-   * 使用を検討する [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) の代わりのアクティビティ [!UICONTROL Automated Personalization] 1 つのエクスペリエンスのバリエーションで、複数のオファーの変更を含むエクスペリエンスを作成する場合。
+   * 使用を検討してください。 [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) の代わりのアクティビティ [!UICONTROL Automated Personalization] 1 つのエクスペリエンスのバリエーションで、複数のオファーの変更を含むエクスペリエンスを作成する場合。
    * 内でのオファーの組み合わせの数を減らす [!UICONTROL Automated Personalization] アクティビティ。
    * アクティビティの実行期間を長くします。
 

@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2934,10 +2934,6 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 19 日）リリースに
    <td colname="col2"> <p>A/B アクティビティで、それぞれ異なるオーディエンスをターゲットとする複数のバージョンをエクスペリエンス内に設定することができるようになりました。 </p> <p>詳しくは、<a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> エクスペリエンスの複数オーディエンスへのTarget </a> 設定を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> QA／プレビュー URL </td> 
-   <td colname="col2"> <p>プレビュー URL がフォームベースの Experience Composer で使用できるようになりました。 </p> <p>詳しくは、<a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">エクスペリエンスの URL を表示</a>を参照してください。 </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1" class="premium"> Recommendations のカスタムアルゴリズム </td> 
    <td colname="col2"> <p>カスタムアルゴリズムマッピングは CSV ファイルとしてアップロード可能です。XML ベースの API を使用する必要はなくなりました。 </p> <p><a href="/help/main/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">カスタム条件のアップロード</a>を参照してください。 </p> </td> 
   </tr> 
@@ -3725,7 +3721,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer 実装 </p> </td> 
-   <td colname="col2"> <p>フライアウトメニューやミニカートなど、マウスポインターを置いたときにのみ表示されるコンテンツを、Visual Experience Composer での編集作業で選択できるようになりました。 </p> <p>詳しくは、「<a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local">エクスペリエンス</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>フライアウトメニューやミニ買い物かごなど、マウスポインターを置いたときにのみ表示されるコンテンツを、Visual Experience Composer での編集作業で選択できるようになりました。 </p> <p>詳しくは、「<a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local">エクスペリエンス</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Automated Personalization：トラフィック見積もり </p> </td> 
