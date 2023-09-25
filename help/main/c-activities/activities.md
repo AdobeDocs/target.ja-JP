@@ -4,10 +4,10 @@ description: アクティビティのAdobe [!DNL Target] を使用すると、�
 title: コンテンツをパーソナライズし、ページデザインをテストする方法 [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
 workflow-type: tm+mt
-source-wordcount: '2465'
-ht-degree: 45%
+source-wordcount: '2487'
+ht-degree: 44%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 45%
 [!UICONTROL アクティビティ]リストは、[!DNL Target] を開いたときのデフォルトのビューです。このページからアクティビティを作成し、既存のアクティビティを管理できます。
 
 [!DNL Target] UI の上部にある「[!UICONTROL アクティビティ]」タブをクリックして[!UICONTROL アクティビティ]リストを表示することもできます。
+
+>[!NOTE]
+>
+>次の図と表に、現在ベータ版がリリースされる、更新されたアクティビティリスト UI の機能を示します。
+
 
 ![アクティビティリスト](/help/main/c-activities/assets/activities-list-new.png)
 
