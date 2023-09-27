@@ -1,21 +1,21 @@
 ---
 keywords: Mvt;多変量分析テスト;多変量分析テスト作成;多変量分析テストの作成;mvt 作成;mvt 作成;mvt の方法;多変量分析テスト方法
-description: 'Adobeでの Visual Experience Composer(VEC) の使用方法を説明します [!DNL Target] : [!DNL Target] — 有効なページ。'
-title: 多変量分析テストの作成方法を教えてください。
+description: の使用方法を学ぶ [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] を作成するには、 [!UICONTROL 多変量分析テスト] (MVT)。
+title: 作成方法 [!UICONTROL 多変量分析テスト]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '535'
+ht-degree: 62%
 
 ---
 
 # 多変量分析テストの作成
 
-[!DNL Adobe Target] の [!DNL Target]Visual Experience Composer[!UICONTROL （VEC）を使用すると、Target に対応したページで適切なテストを作成し、] 内でページの一部を変更する作業が簡単におこなえます。
+The [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] 作りやすくする [!UICONTROL 多変量分析テスト] 内でページの一部を変更する [!DNL Target].
 
-この [!DNL Target] ポイント&amp;クリックエディターを使用して、任意の場所を選択し、複数のオファーを追加できます。
+The [!DNL Target] ポイント&amp;クリックエディターを使用して、任意の場所を選択し、複数のオファーを追加できます。
 
 [!UICONTROL 多変量分析テスト]（MVT）では、ページ本位のレポートが生成されます。つまり、テストは特定の URL に対して実行され、そのページに対して設計されたエクスペリエンスが表示されます。
 
@@ -25,23 +25,13 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、Target アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Automated Personalization]は、[Target Premium 機能](/help/main/c-intro/intro.md#premium)です。
-   >
    >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
-1. 必要に応じて、「**[!UICONTROL ビジュアル (デフォルト)]**」を選択します。
+1. （条件付き）配信タイプを選択します。 [!UICONTROL Web], [!UICONTROL モバイル], [!UICONTROL 電子メール]または [!UICONTROL その他/API].
 
-   ![多変量分析テストアクティビティを作成ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) 顧客 [ワークスペースの選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
-   >
-   >前述の図の「[!UICONTROL ワークスペースを選択]」オプションは、[Target Premium](/help/main/c-intro/intro.md) の機能です。このオプションが表示されない場合、お客様の組織は Target Standard ライセンスを所有しています。
-
-1. （条件付き）Target Premium のお客様の場合、[ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)します。
-
-1. テストするページの [URL を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)し、「**[!UICONTROL 次へ]**」をクリックします。
+1. [URL を指定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) テストするページのをクリックし、 **[!UICONTROL 次へ]**.
 
    >[!NOTE]
    >
@@ -49,7 +39,7 @@ ht-degree: 87%
 
    ブラウザーで混合コンテンツを有効にするように求めるメッセージが表示された場合は、メッセージの指示に従います。ブラウザーで混合コンテンツを有効にした後、再度手順 1 から開始します。
 
-   Visual Experience Composer が開きます。
+   The [!UICONTROL Visual Experience Composer] が開きます。
 
 1. アクティビティ名を入力します。
 
@@ -63,6 +53,21 @@ ht-degree: 87%
    | `+` | プラス |
    | `-` | マイナス |
    | `@` | アットマーク |
+
+   アクティビティ名に次の文字シーケンスを含めることはできません。
+
+   | 文字シーケンス | 説明 |
+   |--- |--- |
+   | ;= | セミコロン、等しい |
+   | ;+ | セミコロン、プラス |
+   | ;- | セミコロン、マイナス |
+   | ;@ | セミコロン、アットマーク |
+   | ,= | コンマ、等しい |
+   | ,+ | コンマ、プラス |
+   | ,- | コンマ、マイナス |
+   | ,@ | コンマ、アットマーク |
+   | `[`&quot; | 開き角括弧、二重引用符 |
+   | &quot;`]` | 二重引用符、閉じ角括弧 |
 
 1. [それぞれの場所でオファーを作成します](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
@@ -94,7 +99,7 @@ ht-degree: 87%
 
    ![estimator2 image](assets/estimator2.png)
 
-1. クリック **[!UICONTROL 次へ]** 先に進む [!UICONTROL ターゲット設定] ページ。
+1. クリック **[!UICONTROL 次へ]** 先に進む [!UICONTROL ターゲット設定] ページに貼り付けます。
 
 1. アクティビティに参加する資格のある訪問者のオーディエンスおよび割合を選択します。
 
@@ -114,7 +119,7 @@ ht-degree: 87%
 
 ## トレーニングビデオ：多変量分析テストの作成(9:25) ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
-このビデオでは、Target の 3 ステップのガイドによるワークフローを使用して、多変量分析テストを計画し、作成する方法についてデモをおこないます。
+このビデオでは、 [!DNL Target] 3 ステップのガイドによるワークフロー
 
 * 多変量分析テストの定義と設計
 * 多変量分析テストの作成

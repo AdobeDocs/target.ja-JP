@@ -1,21 +1,21 @@
 ---
 keywords: 多変量分析；mvt；プレビュー；エクスペリエンス
-description: Adobeの多変量分析テスト (MVT) アクティビティで各エクスペリエンスをプレビューする方法を説明します [!DNL Target] Visual Experience Composer(VEC) を使用して、
-title: 多変量分析テスト (MVT) のエクスペリエンスをプレビューする方法
+description: 各エクスペリエンスを [!UICONTROL 多変量分析テスト] (MVT) アクティビティ： [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
+title: のエクスペリエンスをプレビューする方法 [!UICONTROL 多変量分析テスト] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 67%
+ht-degree: 38%
 
 ---
 
-# 多変量分析テストのエクスペリエンスのプレビュー
+# のエクスペリエンスのプレビュー [!UICONTROL 多変量分析テスト]
 
 理由： [!UICONTROL 多変量分析テスト] in [!DNL Adobe Target] ページ上で複数のエクスペリエンスを比較すると、各エクスペリエンスのページをプレビューできると便利です。
 
-1. Visual Experience Composer(VEC) で、 **[!UICONTROL プレビュー]**.
+1. 次から： [!UICONTROL Visual Experience Composer] (VEC)、 **[!UICONTROL プレビュー]**.
 
    すべてのエクスペリエンスのリストが表示されます。
 
@@ -31,8 +31,8 @@ ht-degree: 67%
 
    >[!NOTE]
    >
-   >多変量分析テストを作成する際、テストから 10％を超えるエクスペリエンスを除外することができるようになりました。ただし、分析にはオフラインレポートを使用しなければならないという警告に同意する必要があります。
+   >多変量分析テストを作成する場合、分析にオフラインレポートを使用する必要があるという警告を確認したら、テストから 10%以上のエクスペリエンスを除外できます。
 
    多変量分析テストには、デフォルトで、すべてのエクスペリエンスが組み込まれます。除外したエクスペリエンスを組み込むには、除外したエクスペリエンスを選択して、「**[!UICONTROL 含める]**」をクリックします。
 
-「**[!UICONTROL プレビューモードを終了]**」をクリックして Experience Composer に戻り、必要な変更をおこなうか、または「**[!UICONTROL 続行」をクリックしてテスト概要に移動します。]**
+1. クリック **[!UICONTROL プレビューモードを終了]** に戻る [!UICONTROL Visual Experience Composer] 変更を加えるか、 **[!UICONTROL 続行]** をクリックして、テスト概要に移動します。

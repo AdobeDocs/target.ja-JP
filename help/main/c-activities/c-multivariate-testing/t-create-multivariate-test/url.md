@@ -1,13 +1,13 @@
 ---
 keywords: 多変量分析テスト；アクティビティ URL
-description: Adobe Targetを使用して多変量分析テストアクティビティを設計した際に、テストで使用され、開くページを決定するアクティビティ URL を指定する方法について説明します。
-title: 多変量分析 (MVT) アクティビティのアクティビティ URL とは
+description: テストで使用され、 [!UICONTROL 多変量分析テスト] アクティビティは [!DNL Adobe Target].
+title: アクティビティ URL とは [!UICONTROL 多変量分析テスト] (MVT) アクティビティ
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ VEC を開いた後に異なるページを表示するには、「**[!UICONTROL
 * クエリ
 * パラメーター
 
-追加のルールは、AND または OR を使用してアクティビティ URL と結合できます。追加したすべてのルールは、AND を使用してお互いに評価されます。
+追加のルールを、AND または OR でアクティビティ URL に結合できます。 追加するすべてのルールは、AND を使用して互いに評価されます。
 
 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
->Target Standard の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。
+> の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
 
 デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。**[!UICONTROL Visual Experience Composer]** を使用してこのような要素を変更するには、「[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
 
