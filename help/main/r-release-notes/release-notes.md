@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 75%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 100%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 2 日～ 4 日）
+
+このリリースは、以下の時差スケジュールに従って利用できます。
+
+* **10月2日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **10月3日（PT）**：アメリカ地域
+* **10月4日（PT）**：アジア太平洋（APAC）地域
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [!UICONTROL アクティビティ] UI の更新<P>および<P>[!UICONTROL フィード] UI の更新 | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] および [!DNL Recommendations] [!UICONTROL フィード] ページ ( [!DNL Target] UI この更新により、新しい機能強化を追加しながら、以前は一貫性がなかったデザインパターンを統合し、標準化します。<P>詳しくは、 [アクティビティ](/help/main/c-activities/activities.md) および [フィード](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] 実装パターン | The *at.js を使用したRecommendations実装パターン* 記事は、 [!DNL Adobe Target Recommendations] at.js JavaScript ライブラリを使用する場合の実装を参照してください。<P>Target パターンについて詳しくは、 [実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} （内） *Adobe Target Developer Guide*.<P>新しいRecommendationsの実装パターンは、次の記事で構成されています。<ul><li>[at.js を使用したRecommendations実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[データ収集の設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[エクスペリエンスをレンダリング](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+
+* 追加済み [!UICONTROL Visual Experience Composer] (VEC) 動的フレームワークの機能強化。 （TGT-44064）
+* 選択された日付が `getViewInAnalyticsId` リクエストが正しく更新されませんでした。 この修正により、 [!DNL Analytics] 日付範囲と指標レポートの設定が変更された際のレポート内のリンク。 （TGT-46246）
 
 ## [!DNL Target] Standard／Premium 23.9.3（2023年9月18日（PT））
 
