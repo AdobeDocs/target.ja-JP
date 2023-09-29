@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
+source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 89%
+source-wordcount: '683'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年9月28日（PT）**
+**最終更新日：2023年9月29日（PT）**
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 89%
 このリリースには、以下の機能強化および修正が含まれています。
 
 * 追加済み [!UICONTROL Visual Experience Composer] (VEC) 動的フレームワークの機能強化。 （TGT-44064）
-* 選択された日付が `getViewInAnalyticsId` リクエストが正しく更新されませんでした。 （TGT-46246）
+* 選択された日付が `getViewInAnalyticsId` リクエストが正しく更新されませんでした。 この修正により、 [!DNL Analytics] 日付範囲と指標レポートの設定が変更された際のレポート内のリンク。 （TGT-46246）
 
 ## [!DNL Target] Standard／Premium 23.9.3（2023年9月18日（PT））
 
