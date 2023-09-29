@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 82%
+source-wordcount: '852'
+ht-degree: 70%
 
 ---
 
@@ -35,7 +35,8 @@ ht-degree: 82%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL アクティビティ] UI の更新<P>[!UICONTROL フィード] UI の更新 | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] および [!DNL Recommendations] [!UICONTROL フィード] ページ ( [!DNL Target] UI この更新により、新しい機能強化を追加しながら、以前は一貫性がなかったデザインパターンを統合し、標準化します。 |
+| [!UICONTROL アクティビティ] UI の更新<P>および<P>[!UICONTROL フィード] UI の更新 | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] および [!DNL Recommendations] [!UICONTROL フィード] ページ ( [!DNL Target] UI この更新により、新しい機能強化を追加しながら、以前は一貫性がなかったデザインパターンを統合し、標準化します。<P>詳しくは、 [アクティビティ](/help/main/c-activities/activities.md) および [フィード](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] 実装パターン | The *at.js を使用したRecommendations実装パターン* パターンは、 [!DNL Adobe Target Recommendations] at.js JavaScript ライブラリを使用する場合の実装を参照してください。<P>Target パターンについて詳しくは、 [実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} （内） *Adobe Target Developer Guide*.<P>新しいRecommendationsの実装パターンは、次の記事で構成されています。<ul><li>[at.js を使用したRecommendations実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[データ収集の設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[エクスペリエンスをレンダリング](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 
 * 追加済み [!UICONTROL Visual Experience Composer] (VEC) 動的フレームワークの機能強化。 （TGT-44064）
 * 選択された日付が `getViewInAnalyticsId` リクエストが正しく更新されませんでした。 この修正により、 [!DNL Analytics] 日付範囲と指標レポートの設定が変更された際のレポート内のリンク。 （TGT-46246）
