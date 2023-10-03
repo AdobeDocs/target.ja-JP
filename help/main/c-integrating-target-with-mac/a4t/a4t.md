@@ -5,9 +5,9 @@ title: ' [!DNL Analytics]  for  [!DNL Target] （A4T）とは'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 |--- |--- |--- |
 | [手動トラフィック分割を使用した A/B アクティビティ](/help/main/c-activities/t-test-ab/test-ab.md) | ○ |  |
 | [自動配分を使用した A/B アクティビティ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) を参照してください。 |
-| [自動ターゲットを使用した A/B アクティビティ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | ○ (at.js)<P>いいえ (Platform Web SDK) | 自動ターゲットアクティビティの A4T のサポートは、現在、at.js でのみサポートされています。 |
+| [自動ターゲットを使用した A/B アクティビティ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | ○ (at.js)<P>×（Platform Web SDK） | 「自動ターゲット」アクティビティの A4T サポートは、現在 at.js でのみサポートされています。 |
 | [エクスペリエンスのターゲット設定（XT）](/help/main/c-activities/t-experience-target/experience-target.md) | ○ |  |
 | [多変量分析テスト（MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mbox ベースの目標指標の目標が必要です。[!UICONTROL 要素貢献度]レポートは現在、[!DNL Analytics] の指標をサポートしていません。 |
 | [Automated Personalization（AP）アクティビティ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × |  |
