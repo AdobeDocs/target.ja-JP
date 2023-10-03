@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 80%
+source-wordcount: '784'
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年10月2日（PT）**
+**最終更新日：2023年10月3日（PT）**
 
 >[!NOTE]
 >
@@ -23,7 +23,13 @@ ht-degree: 80%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.9.4（日付は未定）
+## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4 日～6 日）
+
+このリリースは、以下の時差スケジュールに従って利用できます。
+
+* **10月4日（PT）**：アジア太平洋（APAC）地域
+* **10月5日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **10月6日（PT）**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 

@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 81%
+source-wordcount: '804'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,13 @@ ht-degree: 81%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 23.9.4（日付は未定）
+## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4 日～6 日）
+
+このリリースは、以下の時差スケジュールに従って利用できます。
+
+* **10月4日（PT）**：アジア太平洋（APAC）地域
+* **10月5日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **10月6日（PT）**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 

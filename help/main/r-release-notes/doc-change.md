@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 93%
+source-wordcount: '2016'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 93%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月4日（PT） | [アクティビティ](/help/main/c-activities/activities.md) | テキストと画像が更新され、 [!DNL Target] 23.9.4 リリースです。 |
+|  | [フィード](/help/main/c-recommendations/c-products/feeds.md) | テキストと画像が更新され、 [!DNL Target] 23.9.4 リリースです。 |
 | 10月2日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 リリースに関するリリースノートを追加しました。 |
 |  | [[!DNL Recommendations] 実装パターン](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | 新しい *at.js を使用したRecommendations実装パターン* 記事は、 [!DNL Adobe Target Recommendations] at.js JavaScript ライブラリを使用する場合の実装を参照してください。<P>に関する一般的な情報 [!DNL Target] パターン、詳しくは、 [実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} （内） *Adobe Target Developer Guide*.<P>新しいRecommendationsの実装パターンは、次の記事で構成されています。<ul><li>[at.js を使用したRecommendations実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[データ収集の設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[エクスペリエンスをレンダリング](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 9 月 30 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 リリースに関するプレリリースノートを追加しました。 |
