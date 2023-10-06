@@ -1,13 +1,13 @@
 ---
-keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス；platform web sdk
+keywords: レスポンストークン；トークン；プラグイン；at.js；レスポンス；platform web sdk;google analytics
 description: レスポンストークンの使用方法については、 [!DNL Adobe Target] を追加しました。
 title: レスポンストークンとは何ですか？それらの使用方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 27%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 27%
 
 ## データをGoogle Analyticsに送信
 
-次の節では、を送信する方法について説明します。 [!DNL Target] データをGoogle Analyticsに送信します。 レスポンストークンから送信されたデータは、他のサードパーティ統合にも送信できます。
+次の節では、を送信する方法について説明します。 [!DNL Target] データをGoogle Analytics4. レスポンストークンから送信されたデータは、他のサードパーティ統合にも送信できます。
 
 ### ![AEP バッジ](/help/main/assets/platform.png) Platform Web SDK を使用してGoogle Analyticsにデータを送信する
 
