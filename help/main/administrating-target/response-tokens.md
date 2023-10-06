@@ -5,7 +5,7 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: e1eec21db0f71189b9cce683f855db4d6b105466
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 27%
@@ -228,52 +228,33 @@ Google Analyticsは、HTMLページに次のコードを追加することで、
 >
 >レスポンストークンのキーと値のペアが「 `alloy("sendEvent"` オブジェクト。
 
-```
-<script type="text/javascript"> 
-   (function(i, s, o, g, r, a, m) { 
-   i['GoogleAnalyticsObject'] = r; 
-   i[r] = i[r] || function() { 
-   (i[r].q = i[r].q || []).push(arguments) 
-   }, i[r].l = 1 * new Date(); 
-   
-   
-   a = s.createElement(o), 
-   m = s.getElementsByTagName(o)[0]; 
-   a.async = 1; 
-   a.src = g; 
-   m.parentNode.insertBefore(a, m) 
-   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-   ga('create', 'Google Client Id', 'auto'); 
-</script> 
+```javascript
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
 <script type="text/javascript">
-   alloy("sendEvent", {
-   
-   
-   })
-   .then(({ renderedPropositions, nonRenderedPropositions }) => {
-   // concatenate all the propositions
-   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
-   // extractResponseTokens() extract the meta from item -> meta
-   const tokens = extractResponseTokens(propositions);
-   const activityNames = []; 
-   const experienceNames = []; 
-   const uniqueTokens = distinct(tokens); 
-   
-   
-   uniqueTokens.forEach(token => { 
-   activityNames.push(token["activity.name"]); 
-   experienceNames.push(token["experience.name"]); 
-   }); 
-   
-   
-   ga('send', 'event', { 
-   eventCategory: "target", 
-   eventAction: experienceNames, 
-   eventLabel: activityNames 
-   }); 
-   
-   
-   });
+    alloy("sendEvent", {
+ 
+ 
+    })
+    .then(({ renderedPropositions, nonRenderedPropositions }) => {
+        // concatenate all the propositions
+        const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+        // extractResponseTokens() extract the meta from item -> meta
+        const tokens = extractResponseTokens(propositions);
+        const activityNames = [];
+        const experienceNames = [];
+        const uniqueTokens = distinct(tokens);
+    
+    
+        uniqueTokens.forEach(token => {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+ 
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
 </script>
 ```
 
@@ -338,64 +319,51 @@ Google Analyticsは、HTMLページに次のコードを追加することで、
 次のコードを使用すると、デバッグにGoogle Analyticsできます。
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+  
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+      var tokens = e.detail.responseTokens;
+  
+      if (isEmpty(tokens)) {
+        return;
+      }
+  
+      var activityNames = [];
+      var experienceNames = [];
+      var uniqueTokens = distinct(tokens);
+  
+      uniqueTokens.forEach(function(token) {
+        activityNames.push(token["activity.name"]);
+        experienceNames.push(token["experience.name"]);
+      });
+  
+      gtag('config', 'TAG_ID');
+      gtag('event', 'action_name', {'eventCategory': 'target',
+          'eventAction': experienceNames, 'eventLabel': activityNames
+      });
+    });
+  
+    function isEmpty(val) {
+      return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+  
+    function key(obj) {
+       return Object.keys(obj)
+      .map(function(k) { return k + "" + obj[k]; })
+      .join("");
+    }
+  
+    function distinct(arr) {
+      var result = arr.reduce(function(acc, e) {
+        acc[key(e)] = e;
+        return acc;
+      }, {});
+  
+      return Object.keys(result)
+      .map(function(k) { return result[k]; });
+    }
+</script>
 ```
 
 ### ttMeta プラグインと同等のを使用したデバッグ
