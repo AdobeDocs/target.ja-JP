@@ -5,10 +5,10 @@ title: レスポンストークンとは何ですか？それらの使用方法�
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 レスポンストークンを使用すると、 [!DNL Adobe Target] をブランドの web ページに追加します。 この情報には、アクティビティ、オファー、エクスペリエンス、ユーザープロファイル、地域情報などに関する詳細が含まれます。 これらの詳細は、内部またはサードパーティのツールと共有したり、デバッグに使用したりするための追加の応答データを提供します。
 
-レスポンストークンを使用すると、使用する変数（キーと値のペア）を選択し、 [!DNL Target] 応答。 変数を有効にするには、スイッチを使用します。この変数は、 [!DNL Target] 応答。ネットワーク呼び出しで検証できます。 レスポンストークンは [!UICONTROL プレビュー] モード。
+レスポンストークンを使用すると、使用する変数（キーと値のペア）を選択し、それらを [!DNL Target] 応答。 変数を有効にするには、スイッチを使用します。この変数は、 [!DNL Target] 応答。ネットワーク呼び出しで検証できます。 レスポンストークンは [!UICONTROL プレビュー] モード。
 
 プラグインとレスポンストークンの主な違いは、プラグインは配信時に実行されるページに JavaScript を配信することです。 ただし、レスポンストークンは、イベントリスナーを使用して読み取り、処理できるオブジェクトを配信します。 レスポンストークンのアプローチはより安全で、サードパーティ統合の開発と保守を容易にします。
 
@@ -26,8 +26,8 @@ ht-degree: 26%
 
 | Target SDK | 推奨アクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDK の最新バージョンのダウンロードについて詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 内 *Platform Web SDK の概要* ガイド。 Platform Web SDK の各バージョンでの新機能について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) 内 *Platform Web SDK の概要* ガイド。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、 [at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js（現在は非推奨）に存在する内部メソッドを使用するプラグインの中には、配信されても失敗するものもあります。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDK の最新バージョンのダウンロードについて詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} （内） *Platform Web SDK の概要* ガイド。 Platform Web SDK の各バージョンでの新機能について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) （内） *Platform Web SDK の概要* ガイド。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。at.js の最新バージョンのダウンロードについて詳しくは、 [at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}.<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。at.js にはなく、mbox.js（現在は非推奨）に存在する内部メソッドを使用するプラグインの中には、配信されても失敗するものもあります。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,8 +35,8 @@ ht-degree: 26%
 
    詳しくは、以下を参照してください。
 
-   * **Platform Web SDK**:詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 内 *Platform Web SDK の概要* ガイド。
-   * **at.js**:詳しくは、 [at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **Platform Web SDK**：詳しくは、 [SDK のインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) （内） *Platform Web SDK の概要* ガイド。
+   * **at.js**：詳しくは、 [at.js のダウンロード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. In [!DNL Target]をクリックし、 **[!UICONTROL 管理]** > **[!UICONTROL レスポンストークン]**.
 
@@ -78,7 +78,7 @@ ht-degree: 26%
 
 ## 応答をリッスンし、レスポンストークンを読み取ります。
 
-リッスンするプロセス [!DNL Target] の応答と読み取りのレスポンストークンは、 [!DNL Platform Web SDK] または at.js の実装
+リッスンするプロセス [!DNL Target] の応答と読み取りのレスポンストークンは、 [!DNL Platform Web SDK] または at.js の実装。
 
 ### ![Adobe Experience Platform Web SDK バッジ](/help/main/assets/platform.png) [!DNL Platform Web SDK] Handle オブジェクトクラスの使用 {#platform-web-sdk}
 
@@ -88,7 +88,7 @@ ht-degree: 26%
 
 | オブジェクト | 情報 |
 | --- | --- |
-| タイプ — Personalization.decision | 決定が [!DNL Target] またはOffer decisioningプロバイダー。 |
+| タイプ — Personalization.decision | が決定したかどうか [!DNL Target] またはOffer decisioningプロバイダー。 |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] は、レスポンストークンのメタデータと値をページに提供します。 |
 | メタ | ページに渡されるメタデータ。 |
 | データ | ページに渡されるメタデータの値。 |
@@ -186,11 +186,11 @@ ht-degree: 26%
 
 **[!DNL Target Classic] プラグインとレスポンストークンの両方を同時に有効にすることはできますか？**
 
-プラグインとレスポンストークンは同時に使用できます。ただし、プラグインは今後非推奨となります。
+プラグインとレスポンストークンは並行して利用できますが、今後、プラグインは非推奨となる予定です。
 
 **すべての [!DNL Target] 応答または唯一の [!DNL Target] アクティビティを配信する応答**
 
-レスポンストークンは [!DNL Target] アクティビティを配信する応答。
+レスポンストークンは、 [!DNL Target] アクティビティを配信する応答。
 
 **マイ [!DNL Target Classic] プラグインに JavaScript が含まれていました。 レスポンストークンを使用してこの機能を複製するにはどうすればよいですか？**
 
@@ -218,7 +218,7 @@ ht-degree: 26%
 
 ## データをGoogle Analyticsに送信
 
-次の節では、を送信する方法について説明します [!DNL Target] データからGoogle Analyticsへ レスポンストークンから送信されたデータは、他のサードパーティ統合にも送信できます。
+次の節では、を送信する方法について説明します。 [!DNL Target] データをGoogle Analyticsに送信します。 レスポンストークンから送信されたデータは、他のサードパーティ統合にも送信できます。
 
 ### ![AEP バッジ](/help/main/assets/platform.png) Platform Web SDK を使用してGoogle Analyticsにデータを送信する
 
@@ -282,64 +282,50 @@ Google Analyticsは、HTMLページに次のコードを追加することで、
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+        var tokens = e.detail.responseTokens;
+
+        if (isEmpty(tokens)) {
+            return;
+        }
+
+        var activityNames = [];
+        var experienceNames = [];
+        var uniqueTokens = distinct(tokens);
+
+        uniqueTokens.forEach(function(token) {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
+
+    function isEmpty(val) {
+        return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+
+    function key(obj) {
+        return Object.keys(obj)
+        .map(function(k) { return k + "" + obj[k]; })
+        .join("");
+    }
+
+    function distinct(arr) {
+        var result = arr.reduce(function(acc, e) {
+            acc[key(e)] = e;
+            return acc;
+        }, {});
+
+        return Object.keys(result)
+        .map(function(k) { return result[k]; });
+    }
 </script>
 ```
 
@@ -464,13 +450,13 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 </script>
 ```
 
-## ![at.js](/help/main/assets/atjs.png) トレーニングビデオ：レスポンストークンと at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/main/assets/atjs.png) トレーニングビデオ：レスポンストークンおよび at.js カスタムイベント {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 次のビデオでは、レスポンストークンと at.js カスタムイベントを使用してからプロファイル情報を共有する方法を説明します。 [!DNL Target] をサードパーティ製システムに追加する。
 
 >[!NOTE]
 >
->パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL 管理]メニュー（以前の[!UICONTROL 設定]）のデザインが一新されました。次のビデオの情報は正しいです。ただし、オプションの場所は若干異なります。
+>パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL 管理]メニュー（以前の[!UICONTROL 設定]）のデザインが一新されました。次のビデオに示す情報は正しいですが、オプションの位置は若干異なります。
 >
 >ビデオでのメンション `option.name` および `option.id`（で置き換えられています） `offer.name` および `offer.id`、それぞれ。
 
