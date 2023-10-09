@@ -9,7 +9,7 @@ exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 88%
 
 [Adobe Customer Journey Analytics（CJA）](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=ja){target=_blank} と [!DNL Target] を統合する [!DNL Customer Journey Analytics for Target]（CJA4T）では、組織の最適化プログラムに適した強力な分析機能と時間節約ツールを利用できます。
 
-を使用する主なメリット [!DNL Customer Journey Analytics] レポートソースとして [!DNL Target] は次のとおりです。
+[!DNL Customer Journey Analytics] を [!DNL Target] のレポートソースとして使用する主なメリットは次のとおりです。
 
 * マーケターは、[!DNL Customer Journey Analytics] の成功指標を [!DNL Target] のアクティビティレポートにいつでも動的に適用できます。アクティビティを実行する前にすべての項目を指定する必要はありません。
-* を活用する [!DNL Customer Journey Analytics] 機能 ( 例： [実験パネル](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}を使用して、Web サイトのパーソナライゼーションをさらに分析できます。
-* レポートのソースを 1 つにする [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} および [!DNL Target]. 両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] web パーソナライゼーションの全体像を把握できます。
+* [実験パネル](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=ja){target=_blank}などの [!DNL Customer Journey Analytics] 機能を活用して、web サイトのパーソナライゼーションをさらに分析します。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=ja){target=_blank} および [!DNL Target] のレポートを単一のソースで作成します。両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] に接続すると、web パーソナライゼーションの全体像を把握できます。
 
 ## 注意点
 
@@ -37,8 +37,8 @@ CJA4T 統合を使用する前に、次の情報を考慮してください。
 * どちらか 1 つのレポートソースを選びます。1 つのアクティビティのデータを複数のレポートソースに収集することはできません。
 * [!DNL Customer Journey Analytics] をレポートソースとして設定すると、レポート用のサンドボックスを指定するよう求められます。 設定時には、アクセスできるサンドボックスのみが表示されます。
 * 既存の [!DNL Target] アクティビティは引き続き [!DNL Target] のデータ収集を使用するので、CJA4T を有効にしても影響を受けません。
-* CJA4T を使用するには、推奨される実装方法は次のとおりです。 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. 現在、 [!DNL Adobe Experience Platform Web SDK] 実装済みの場合は、 [[!DNL Adobe Analytics] ソース接続](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) データを [!DNL Adobe Experience Platform].
-* タイミングに関するご質問は、 [遅延に関する考慮事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ja#latency){target=_blank} in *よくある質問* （内） *[!DNL Adobe Customer Analytics]ガイド*.
+* CJA4T を使用するには、[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} を使用する実装方法が推奨されます。現在 [!DNL Adobe Experience Platform Web SDK] が実装されていない場合は、[[!DNL Adobe Analytics] ソース接続](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja)を作成してデータを [!DNL Adobe Experience Platform] に取り込むこともできます。
+* タイミングに関するご質問は、*[!DNL Adobe Customer Analytics]ガイド*&#x200B;の&#x200B;*よくある質問*&#x200B;内の[遅延に関する考慮事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ja#latency){target=_blank}を参照してください。
 
 ## サポートされているアクティビティのタイプ {#supported-activities}
 

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 81%
 
 | 機能 | 詳細 |
 | --- | --- |
-| [!UICONTROL アクティビティ] UI の更新<P>および<P>[!UICONTROL フィード] UI の更新 | の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] および [!DNL Recommendations] [!UICONTROL フィード] ページ ( [!DNL Target] UI この更新により、新しい機能強化を追加しながら、以前は一貫性がなかったデザインパターンを統合し、標準化します。<P>詳しくは、 [アクティビティ](/help/main/c-activities/activities.md) および [フィード](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 実装パターン | The *at.js を使用したRecommendations実装パターン* 記事は、 [!DNL Adobe Target Recommendations] at.js JavaScript ライブラリを使用する場合の実装を参照してください。<P>詳しくは、 [at.js を使用したRecommendations実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} （内） *Adobe Target Developer Guide*. |
+| [!UICONTROL アクティビティ] UI の更新<P>および<P>[!UICONTROL フィード] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL アクティビティ]ページと [!DNL Recommendations] [!UICONTROL フィード]ページを更新しました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。<P>詳しくは、[アクティビティ](/help/main/c-activities/activities.md)および[フィード](/help/main/c-recommendations/c-products/feeds.md)を参照してください。 |
+| [!DNL Recommendations] 実装パターン | *at.js を使用した Recommendations 実装パターン*&#x200B;の記事は、at.js JavaScript ライブラリを使用する場合の [!DNL Adobe Target Recommendations] 実装の理解と作成に役立ちます。<P>詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [at.js を使用した Recommendations 実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=ja){target=_blank}を参照してください。 |
 
-* 追加済み [!UICONTROL Visual Experience Composer] (VEC) 動的フレームワークの機能強化。 （TGT-44064）
-* 選択された日付が `getViewInAnalyticsId` リクエストが正しく更新されませんでした。 この修正により、 [!DNL Analytics] 日付範囲と指標レポートの設定が変更された際のレポート内のリンク。 （TGT-46246）
+* 動的フレームワーク用の [!UICONTROL Visual Experience Composer]（VEC）の機能強化を追加しました。（TGT-44064）
+* `getViewInAnalyticsId` リクエストで選択された日付が正しく更新されない問題を修正しました。この修正により、日付範囲と指標レポート設定が変更された場合に、レポートで [!DNL Analytics] リンクを再計算できるようになります。（TGT-46246）
 
 ## [!DNL Target] Standard／Premium 23.9.3（2023年9月18日（PT））
 
