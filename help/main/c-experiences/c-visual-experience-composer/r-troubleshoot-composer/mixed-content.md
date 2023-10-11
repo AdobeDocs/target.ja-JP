@@ -1,13 +1,13 @@
 ---
 keywords: 混在コンテンツ;安全な;安全でない;chrome;トラブルシューティング;vec;visual experience composer;安全でない;http;https;firefox;internet explorer
-description: Chrome、Firefox、Edge で混合コンテンツを有効にする方法を説明します。安全なコンテンツと安全でないコンテンツが混在していることでブラウザーがページの表示をブロックする場合は、混合コンテンツを有効にすることができます。
-title: ブラウザーで混合コンテンツを有効にする方法
+description: で混合コンテンツを有効にする方法を説明します。 [!DNL Chrome], [!DNL Firefox]、および [!DNL Edge].
+title: ブラウザーで混在するコンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは複数の呼び出し（HTTPS と HTTP）が混在するサイトを開くことができます。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは混合コンテンツ（HTTPS と HTTP）を持つサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -27,19 +27,19 @@ ht-degree: 100%
 
 Web サイトが安全でない（HTTP）ドメインで実行されている場合は、VEC によるアクティブな混在コンテンツの読み込みを許可する必要があります。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >混在コンテンツの許可によって影響が生じるのは VEC のみです。ライブ web サイトには影響しません。
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/ja/docs/Web/Security/Mixed_content)を参照してください。
 
-## Google Chrome で混在コンテンツを有効化 {#task_FF297A08F66E47A588C14FD67C037B3A}
+## での混在するコンテンツの有効化 [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-安全な接続を介してサイトに訪問している場合は、Web ページ上のコンテンツが安全に転送されたかどうかを Chrome が確認します。
+安全な接続を介してサイトに訪問する場合は、 [!DNL Chrome] web ページ上のコンテンツが安全に送信されたことを確認します。
 
-Google Chrome ヘルプの[安全でないコンテンツを含むページ](https://support.google.com/chrome/answer/1342714?hl=ja)に関する説明を参照してください。
+参照：[安全でないサイトに関する警告を管理する](https://support.google.com/chrome/answer/99020?hl=ja)」( Google Chrome ヘルプ ) を参照してください。
 
-最新バージョンの Chrome（バージョン 79.0.3945.117 以降）で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
+VEC をの最新バージョンで使用している場合 [!DNL Chrome] （バージョン 79.0.3945.117 以降）、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
 
 1. ロック（注意）アイコン、**[!UICONTROL サイト設定]**&#x200B;の順にクリックします。
 
@@ -51,12 +51,12 @@ Google Chrome ヘルプの[安全でないコンテンツを含むページ](htt
 
 1. VEC ページをリロードします。
 
-## Firefox で混在コンテンツを有効化する {#task_5448763B8DC941FD80F84041AEF0A14D}
+## での混在するコンテンツの有効化 [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Firefox では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、[!DNL Target] を使用するように永久的に変更することをお勧めします。サイトの訪問者は、これらの手順を完了する必要はありません。
+デフォルトでは、 [!DNL Firebox] は、安全なコンテンツと安全でないコンテンツが混在するページをブロックします。 この設定を恒久的に変更して、 [!DNL Target]. サイトの訪問者は、これらの手順を完了する必要はありません。
 
 1. Firefox で、アドレスバーに`about:config`を入力します。
-1. Firefox に表示された警告メッセージを確認します。
+1. 次の手順で表示された警告メッセージを確認 [!DNL Firefox].
 
    ![Firefox 警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -70,20 +70,18 @@ Firefox では、安全なコンテンツと安全でないコンテンツが混
 
    ![Firefox のセキュリティ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-この設定を変更した後、コンピューターを再起動します。
+1. この設定を変更した後、コンピューターを再起動します。
 
-## Microsoft Edge で混合コンテンツを有効化
+## での混在するコンテンツの有効化 [!DNL Microsoft Edge]
 
-安全な接続を介してサイトに訪問している場合は、Web ページ上のコンテンツが安全に転送されたかどうかを Edge が確認します。
+安全な接続を介してサイトに訪問する場合は、 [!DNL Edge] web ページ上のコンテンツが安全に送信されたことを確認します。
 
-最新バージョンの Edge で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
+VEC をの最新バージョンで使用している場合 [!DNL Edge]を更新する場合は、サイトの設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
 
-1. ロック（注意）アイコン、**[!UICONTROL サイトの権限]**&#x200B;の順にクリックします。
+1. In [!DNL Edge]をクリックし、 **[!DNL Microsoft Edge]** メニューバーで、 **[!UICONTROL 設定]**&#x200B;を選択し、次に **Cookie とサイトの権限**.
 
-   ![Microsoft Edge でのサイト権限](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+1. スクロールして **[!UICONTROL 安全でないコンテンツ]**.
 
-1. スクロールして&#x200B;**[!UICONTROL 安全でないコンテンツ]**&#x200B;に移動し、ドロップダウンリストを使用して「ブロック (デフォルト)」を「許可」に変更します。
-
-   ![安全でないコンテンツ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+1. クリック **[!UICONTROL 安全でないコンテンツ]**&#x200B;を選択し、次に **[!UICONTROL 追加]** 次の **[!UICONTROL 許可]**&#x200B;安全でないコンテンツを許可するサイトを追加し、「 **[!UICONTROL 追加]**.
 
 1. VEC ページをリロードします。
