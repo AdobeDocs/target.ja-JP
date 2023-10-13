@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 97%
 | 10月11日（PT） | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | の A4T サポートに関する情報を更新しました。 [!DNL Adobe Experience Platform Web SDK]. |
 | 10月10日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.0 のリリースノートを追加しました。 |
 | 10月6日（PT） | [レスポンストークン](/help/main/administrating-target/response-tokens.md) | すべてのコードサンプルを更新しました。 |
-|  | [ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} | のチュートリアル全体を更新しました。 *[!UICONTROL Adobe TargetTutorials]* ガイド。 |
-| 10月4日（PT） | [アクティビティ](/help/main/c-activities/activities.md) | テキストと画像が更新され、 [!DNL Target] 23.9.4 リリースです。 |
-|  | [フィード](/help/main/c-recommendations/c-products/feeds.md) | テキストと画像が更新され、 [!DNL Target] 23.9.4 リリースです。 |
+|  | [ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} | *[!UICONTROL Adobe Target チュートリアル]*&#x200B;ガイドのチュートリアル全体を更新しました。 |
+| 10月4日（PT） | [アクティビティ](/help/main/c-activities/activities.md) | [!DNL Target] 23.9.4 リリースに含まれる UI の更新を反映するために、テキストと画像を更新しました。 |
+|  | [フィード](/help/main/c-recommendations/c-products/feeds.md) | [!DNL Target] 23.9.4 リリースに含まれる UI の更新を反映するために、テキストと画像を更新しました。 |
 | 10月2日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 リリースに関するリリースノートを追加しました。 |
 |  | [[!DNL Recommendations] 実装パターン](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=ja){target=_blank} | at.js *のアーティクルを使った新しい* Recommendations の実装パターンは、at.js JavaScript ライブラリを使うときに、[!DNL Adobe Target Recommendations] の実装を理解して作成するのに役立ちます。<P>[!DNL Target] パターンに関する一般的な情報については、*Adobe Target 開発者ガイド*&#x200B;の[実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html?lang=ja){target=_blank}を参照してください。<P>新しい Recommendations の実装パターンは、次の記事で構成されています。<ul><li>[at.js を使用した Recommendations 実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=ja){target=_blank}</li><ul><li>[SDK の初期化](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html?lang=ja){target=_blank}</li><li>[データ収集の設定](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html?lang=ja){target=_blank}</li><li>[エクスペリエンスのレンダリング](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=jp){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=jp){target=_blank}</li></ul></ul> |
 | 9月30日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 リリースに関するプレリリースノートを追加しました。 |

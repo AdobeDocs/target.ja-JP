@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4 日～6 日）
+## [!DNL Target] Standard／Premium 23.9.4（2023年10月4日～6日（PT））
 
 このリリースは、以下の時差スケジュールに従って利用できます。
 
