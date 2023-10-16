@@ -6,10 +6,10 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -125,5 +125,12 @@ CJA4T 統合を使用する前に、次の情報を考慮してください。
    * アクティビティ ID
 
    ![Customer Journey Analytics の「名前」および「ID」オプション](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. 次を使用するには： [!DNL Target] ディメンション [!UICONTROL 実験] パネルで、次のコンテキストラベルを設定します。
+
+   * の場合 [!UICONTROL アクティビティ名]、「Experimentation Experiment」を使用します。
+   * [!UICONTROL エクスペリエンス名]、「実験バリアント」を使用します。
+
+   ![実験パネルのコンテキストラベル](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. 他のフィールドの設定を終了し、完了したら「**[!UICONTROL 保存して続行]**」をクリックします。
