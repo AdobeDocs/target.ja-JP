@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 45%
+source-wordcount: '785'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 45%
 
 ## 特定のエクスペリエンスのコントロールとしての指定
 
-1. を作成する際に、 [[!UICONTROL Automated Personalization] アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) または [[!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)、必要に応じてエクスペリエンスを設定します。
+1. を作成または編集する際に、 [[!UICONTROL Automated Personalization] アクティビティ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) または [[!UICONTROL 自動ターゲット] アクティビティ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)、必要に応じてエクスペリエンスを設定します。
 1. [!UICONTROL ターゲット設定]ページ（3 ステップのガイドによるワークフローの手順 2）で、目的のエクスペリエンスをコントロールとして選択します。
 1. コントロールエクスペリエンスおよび他のエクスペリエンスの目的のトラフィック配分を指定します。
 
