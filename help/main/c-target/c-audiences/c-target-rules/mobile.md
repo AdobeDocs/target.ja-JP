@@ -1,19 +1,19 @@
 ---
 keywords: ターゲット設定;mobile;target mobile;deviceAtlas;iPhone;iPhoneモデル;device Atlas;displaywidth;display width;display height;デバイスの種類;displayHeight;phone;タブレット;デバイスモデル
-description: でオーディエンスを作成する方法を説明します。 [!DNL Adobe Target] モバイルデバイスをターゲット設定します。
+description: でオーディエンスを作成する方法を説明します。 [!DNL Adobe Target] モバイルデバイスをターゲットに設定します。
 title: モバイルオプションに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
 
 # モバイル
 
-でのオーディエンスの作成 [!DNL Adobe Target] を追加します。
+でのオーディエンスの作成 [!DNL Adobe Target] を使用して、モバイルデバイス、デバイスの種類、デバイスのベンダー、画面の寸法などのパラメーターに基づいてモバイルデバイスをターゲット設定します。
 
 例えば、電話を使用してページにアクセスするユーザーに対しては、コンピューターを使用して訪問した場合とは異なるコンテンツを表示したい場合があります。 この場合、 [!UICONTROL モバイル] オーディエンスを選択し、 **[!UICONTROL 携帯電話]** オプション。 その後、電話の種類、画面のサイズ（ピクセル単位）など、重要な特定の詳細を追加できます。
 
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} (or later){target=_blank}.
+>Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} （またはそれ以降）。
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択は、OR 演算子で結合されます。
 
@@ -73,7 +73,7 @@ ht-degree: 39%
 
 iOS 12.2 で導入された新しい変更により、で定義されたルールを使用したオーディエンスの作成 [!UICONTROL デバイスのマーケティング名] および [!UICONTROL デバイスモデル] 「 iPhone Models 」を指定する処理が影響を受けます。 [!DNL Target] は、iOS 12.2（以降）がインストールされた iPhones を持つユーザーをターゲットにできなくなりました。 ただし、ユーザーがiOS 12.2（またはそれ以降）を持っていない場合、iPhoneモデルのターゲティングは引き続き正しく機能します。
 
-iOS 12.2（またはそれ以降）の更新は、次のモデルの識別に影響しません。これらのモデルはiOS 12.2 へのアップグレードをサポートしていないからです。iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina ディスプレイ、iPad Retina（第 4 世代）、iPod Touch 4、および iPod Touch 5。
+iOS 12.2（またはそれ以降）の更新は、iOS 12.2 へのアップグレードをサポートしていないので、次のモデルの識別に影響しません。 iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad 2、iPad/Retina ディスプレイ、iPad（第 4 世代）、iPodTouch 4、iPodPodTouch5.
 
 ### Safari 14.0.2 以降を実行するデバイスのターゲティング
 
