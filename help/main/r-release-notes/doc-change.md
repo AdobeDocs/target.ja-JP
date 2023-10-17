@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 100%
+source-wordcount: '2095'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 17月10日（PT） | [レポートの FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 次の FAQ を更新しました。「アクティビティのレポートにデータがないのはなぜですか？ &quot; |
 | 10月11日（PT） | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK] の A4T サポートに関する情報を更新しました。 |
 | 10月10日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.0 のリリースノートを追加しました。 |
 | 10月6日（PT） | [レスポンストークン](/help/main/administrating-target/response-tokens.md) | すべてのコードサンプルを更新しました。 |
