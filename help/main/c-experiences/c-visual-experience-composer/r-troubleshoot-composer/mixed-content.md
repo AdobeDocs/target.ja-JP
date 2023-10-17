@@ -1,13 +1,13 @@
 ---
 keywords: 混在コンテンツ;安全な;安全でない;chrome;トラブルシューティング;vec;visual experience composer;安全でない;http;https;firefox;internet explorer
-description: で混合コンテンツを有効にする方法を説明します。 [!DNL Chrome], [!DNL Firefox]、および [!DNL Edge].
-title: ブラウザーで混在するコンテンツを有効にする方法
+description: ' [!DNL Chrome]、 [!DNL Firefox]、 [!DNL Edge] で混在したコンテンツを有効にする方法について説明します。'
+title: ブラウザーで混在したコンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは混合コンテンツ（HTTPS と HTTP）を持つサイトを開くことができます。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -33,13 +33,13 @@ Web サイトが安全でない（HTTP）ドメインで実行されている場
 
 詳しくは、*Mozilla Developer Network*（MDN）の Web サイトにある[混在コンテンツ](https://developer.mozilla.org/ja/docs/Web/Security/Mixed_content)を参照してください。
 
-## での混在するコンテンツの有効化 [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
+## [!DNL Google Chrome] で混在したコンテンツを有効にする {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-安全な接続を介してサイトに訪問する場合は、 [!DNL Chrome] web ページ上のコンテンツが安全に送信されたことを確認します。
+安全な接続を介してサイトにアクセスしている場合は、[!DNL Chrome] は web ページ上のコンテンツが安全に送信されたことを確認します。
 
-参照：[安全でないサイトに関する警告を管理する](https://support.google.com/chrome/answer/99020?hl=ja)」( Google Chrome ヘルプ ) を参照してください。
+Google Chrome ヘルプの[安全でないサイトに関する警告の管理](https://support.google.com/chrome/answer/99020?hl=ja)を参照してください。
 
-VEC をの最新バージョンで使用している場合 [!DNL Chrome] （バージョン 79.0.3945.117 以降）、サイト設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
+最新バージョンの [!DNL Chrome]（バージョン 79.0.3945.117 以降）で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
 
 1. ロック（注意）アイコン、**[!UICONTROL サイト設定]**&#x200B;の順にクリックします。
 
@@ -51,12 +51,12 @@ VEC をの最新バージョンで使用している場合 [!DNL Chrome] （バ�
 
 1. VEC ページをリロードします。
 
-## での混在するコンテンツの有効化 [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
+## [!DNL Mozilla Firefox] で混在したコンテンツを有効にする {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-デフォルトでは、 [!DNL Firebox] は、安全なコンテンツと安全でないコンテンツが混在するページをブロックします。 この設定を恒久的に変更して、 [!DNL Target]. サイトの訪問者は、これらの手順を完了する必要はありません。
+[!DNL Firebox] では、安全なコンテンツと安全でないコンテンツが混在しているページは、デフォルトではブロックされます。この設定は、[!DNL Target] を使用するように永続的に変更することをお勧めします。サイトの訪問者は、これらの手順を完了する必要はありません。
 
-1. Firefox で、アドレスバーに`about:config`を入力します。
-1. 次の手順で表示された警告メッセージを確認 [!DNL Firefox].
+1. Firefox で、アドレスバーに「`about:config`」と入力します。
+1. [!DNL Firefox] で表示される警告メッセージを確認します。
 
    ![Firefox 警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -72,16 +72,16 @@ VEC をの最新バージョンで使用している場合 [!DNL Chrome] （バ�
 
 1. この設定を変更した後、コンピューターを再起動します。
 
-## での混在するコンテンツの有効化 [!DNL Microsoft Edge]
+## [!DNL Microsoft Edge] で混在したコンテンツを有効にする
 
-安全な接続を介してサイトに訪問する場合は、 [!DNL Edge] web ページ上のコンテンツが安全に送信されたことを確認します。
+安全な接続を介してサイトにアクセスしている場合は、[!DNL Edge] は web ページ上のコンテンツが安全に送信されたことを確認します。
 
-VEC をの最新バージョンで使用している場合 [!DNL Edge]を更新する場合は、サイトの設定を更新する必要があります。 サイトの訪問者は、これらの手順を完了する必要はありません。
+最新バージョンの [!DNL Edge] で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
 
-1. In [!DNL Edge]をクリックし、 **[!DNL Microsoft Edge]** メニューバーで、 **[!UICONTROL 設定]**&#x200B;を選択し、次に **Cookie とサイトの権限**.
+1. [!DNL Edge] でメニューバーの **[!DNL Microsoft Edge]**、「**[!UICONTROL 設定]**」、「**Cookie とサイトの権限**」の順にクリックします。
 
-1. スクロールして **[!UICONTROL 安全でないコンテンツ]**.
+1. 「**[!UICONTROL 安全でないコンテンツ]**」までスクロールします。
 
-1. クリック **[!UICONTROL 安全でないコンテンツ]**&#x200B;を選択し、次に **[!UICONTROL 追加]** 次の **[!UICONTROL 許可]**&#x200B;安全でないコンテンツを許可するサイトを追加し、「 **[!UICONTROL 追加]**.
+1. 「**[!UICONTROL 安全でないコンテンツ]**」、**[!UICONTROL 許可]**&#x200B;の横にある「**[!UICONTROL 追加]**」の順にクリックし、安全でないコンテンツを許可するサイトを追加して、「**[!UICONTROL 追加]**」を選択します。
 
 1. VEC ページをリロードします。
