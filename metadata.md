@@ -7,7 +7,7 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/target.ja-JP
 index: true
 source-git-commit: e68fafde622d2478dcebe67df6d3a65e137b5dc3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
