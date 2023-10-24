@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
+source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
 workflow-type: tm+mt
-source-wordcount: '37213'
+source-wordcount: '37635'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,43 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!DNL Target] Standard／Premium 23.9.4（2023年10月4日～6日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+| 機能 | 詳細 |
+| --- | --- |
+| [!UICONTROL アクティビティ] UI の更新<P>および<P>[!UICONTROL フィード] UI の更新 | [!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL アクティビティ]ページと [!DNL Recommendations] [!UICONTROL フィード]ページを更新しました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。<P>詳しくは、[アクティビティ](/help/main/c-activities/activities.md)および[フィード](/help/main/c-recommendations/c-products/feeds.md)を参照してください。 |
+| [!DNL Recommendations] 実装パターン | *at.js を使用した Recommendations 実装パターン*&#x200B;の記事は、at.js JavaScript ライブラリを使用する場合の [!DNL Adobe Target Recommendations] 実装の理解と作成に役立ちます。<P>詳しくは、*Adobe Target 開発者ガイド*&#x200B;の [at.js を使用した Recommendations 実装パターンの概要](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=ja){target=_blank}を参照してください。 |
+
+* 動的フレームワーク用の [!UICONTROL Visual Experience Composer]（VEC）の機能強化を追加しました。（TGT-44064）
+* `getViewInAnalyticsId` リクエストで選択された日付が正しく更新されない問題を修正しました。この修正により、日付範囲と指標レポート設定が変更された場合に、レポートで [!DNL Analytics] リンクを再計算できるようになります。（TGT-46246）
+
+### [!DNL Target] Standard／Premium 23.9.3（2023年9月18日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* Lightning web コンポーネント（Light DOM）をサポートするために [!UICONTROL Visual Experience Composer]（VEC）を強化しました。（TGT-45422）
+* VEC アクションが正しくない順序で適用される問題を修正しました。場合によっては、VEC で一部の変更を非同期的に適用し、要素に追加の変更を行うと、[!UICONTROL 挿入]アクションの後にその要素が表示された場合に、エラーが発生することがありました。また、アンカーリンクをクリックすると更新されるようになった VEC の URL の修正も行っています。（TGT-45983）
+* VEC の[!UICONTROL オーバーレイ]機能に関する問題を修正しました。これにより、シャドウ DOM の要素をサポートするようになりました。（TGT-45202 および TGT-45262）
+* VEC で単一ページアプリケーション（SPA）ページを開いて[!UICONTROL 参照]モードに移行すると、戻る矢印と進む矢印が正しく機能しなくなる問題を修正しました。（TGT-45956）
+* 一部の web ページが VEC で読み込めない問題を修正しました。（TGT-45983）
+
+### [!DNL Target] Standard／Premium 23.9.2（2023年9月12日～14日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* [!DNL Analytics] API を新しい [!DNL Analytics] API バージョン 2.0 に変更しました。（TGT-45345）
+* [!DNL Target] バックエンドでのアクティビティのタイムリーな同期や、プレビューリンクで予期されるエクスペリエンスの提供など、一部のお客様の [!UICONTROL Automated Personalization]（AP）アクティビティに影響していた問題を修正しました。（TGT-46202）
+
+### [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する[!UICONTROL 自動配分]アクティビティの [!DNL Target] UI と [!DNL Adobe Analytics] UI でレポートデータが不一致になる問題を修正しました。（TGT-46112）
+* タイムアウトエラーを回避するために、Target 配信 API への PUT 呼び出しのタイムアウトを 15 秒に増加しました。（TGT-46091）
+* 単一ページアプリケーション（SPA）web サイトを参照する際に URL が一貫して更新されない問題を修正しました。（TGT-45417）
 
 ### [!DNL Adobe Target] エッジで予定されているインフラストラクチャのアップグレード {#edge}
 
@@ -189,7 +226,7 @@ ht-degree: 96%
 | Automated Personalization（AP）での [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md)のサポート | フォームベースの Experience Composer を使用して、[!UICONTROL Automated Personalization]（AP）アクティビティで JSON オファーのサポートを追加しました。（TGT-41460） |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL Target] に書き出された [!DNL Adobe Experience Manager] フラグメント（AEM XF）タイプ間を区別できる機能を追加しました。「エクスペリエンスフラグメント」オプションの代わりに、[!DNL Target] で「HTML XF」および「JSON XF」によるフィルタリングと検索ができるようになりました。（TGT-44132） |
 
-* 推奨事項を含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
+* レコメンデーションを含む [!UICONTROL A/B テスト]および[!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティで「500 エラー」が発生する問題を修正しました。この問題は、[!DNL Target] が [!DNL Target] UI や [!DNL Recommendations] バックエンドから使用されていない条件オブジェクトを削除できなかったことが原因です。（TGT-44383）
 * [!UICONTROL Automated Personalization]アクティビティの[!UICONTROL オファー レベル]レポートに表示されるオファー名から場所を削除しました。この変更により、レポートが読みやすくなります。 （TGT-44294）
 * [!DNL Target] UI の AP および[!UICONTROL 自動ターゲット][!UICONTROL パーソナライゼーションインサイト]と[!UICONTROL 重要な属性]レポートから 45 日間と 90 日間のカレンダーオプションを削除しました。使用パターンおよびパフォーマンス向上のため、これらの日付範囲は非推奨（廃止予定）になりました。現在許可されている範囲（15 日、30 日および 60 日）を反映するように UI を更新しました。（TGT-39357）
 * アクティビティがライブになった後、[!UICONTROL 目標と設定]ページで[!UICONTROL 最適化目標と同じ]設定を変更する機能を無効にしました。（TGT-43923）
@@ -433,7 +470,7 @@ ht-degree: 96%
 
 | 機能 | 詳細 |
 | --- | --- |
-| 買い物かごベースの推奨事項 | 訪問者の買い物かごの内容に基づいて推奨事項を提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)の「買い物かごベース」、[計画とレコメンデーションの実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}の「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
+| 買い物かごベースのレコメンデーション | 訪問者の買い物かごの内容に基づいてレコメンデーションを提供する、新しいアルゴリズムファミリーが追加されました。<br>詳しくは、[条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)の「買い物かごベース」、[計画とレコメンデーションの実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}の「買い物かごの追加／買い物かごの表示／チェックアウトページ」および「訪問者の買い物かごに既に存在する項目の除外」、[レコメンデーションキーに基づくレコメンデーションベース](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)の「買い物かごベース」を参照してください。 |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日（PT））
 
