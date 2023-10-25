@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 69%
+source-wordcount: '370'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 69%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年10月24日（PT）**
+**最終更新日：2023年10月25日（PT）**
 
 >[!NOTE]
 >
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!UICONTROL アクティビティ] ページユーザーインターフェイスの更新（2023 年 10 月 26 日）
+
+の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] ページの [!DNL Target] UI この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。
+
+10 月 25 日（水）より、お客様の割合が新しい UI にアクセスし、数日後に追加のお客様がアクセスできるようになります。
+
+詳しくは、 [アクティビティ](/help/main/c-activities/activities.md).
 
 ## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 25 日）
 

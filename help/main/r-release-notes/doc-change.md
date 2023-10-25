@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2126'
 ht-degree: 99%
 
 ---
@@ -15,10 +15,11 @@ ht-degree: 99%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.10.1（2023 年 10 月 25 日）
+## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 25 日）
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 10月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 次に関する情報を追加しました： [!UICONTROL アクティビティ] ページユーザーインターフェイスの更新（2023 年 10 月 26 日） |
 | 10月24日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
