@@ -19,13 +19,13 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 24月10日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 リリースに関するリリースノートを追加しました。 |
+| 10月24日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.9.1（2023年9月6日～11日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 17月10日（PT） | [レポートの FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 次の FAQ を更新しました。「アクティビティのレポートにデータがないのはなぜですか？ &quot; |
+| 10月17日（PT） | [レポートの FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 次の FAQ を更新しました。「アクティビティのレポートにデータがないのはなぜでしょうか。」 |
 | 10月11日（PT） | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] （A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK] の A4T サポートに関する情報を更新しました。 |
 | 10月10日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.0 のリリースノートを追加しました。 |
 | 10月6日（PT） | [レスポンストークン](/help/main/administrating-target/response-tokens.md) | すべてのコードサンプルを更新しました。 |
