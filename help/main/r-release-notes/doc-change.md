@@ -15,7 +15,7 @@ ht-degree: 99%
 
 このページでは、[!DNL Adobe Target] 製品キュメントに加えられた重要な変更を一覧表示します。
 
-## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 25 日）
+## [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |

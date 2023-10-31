@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 59%
 
 詳しくは、 [アクティビティ](/help/main/c-activities/activities.md).
 
-## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 25 日）
+## [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 新しい [!UICONTROL アクティビティ] UI で [!UICONTROL Visual Experience Composer] (VEC) が開き、 `selectorCriteria` 新しいアクティビティを作成する際に使用します。 （TGT-46586）
-* 一部のお客様が [!UICONTROL コンポーザー] モードを使用している必要があります。 （TGT-46470）
-* カスタム属性を使用する場合に汎用の優先セレクターを指定する機能が追加されました。 （TGT-46545）
-* 時に [!UICONTROL 自動ターゲット] を使用するレポート [!UICONTROL Analytics for Target] (A4T) [!DNL Target] UI( レポートが [!DNL Adobe Analysis Workspace]. （TGT-46494）
-* Target UI の様々なローカライズされた文字列を更新しました。 （TGT-18899）
+* 新しい[!UICONTROL アクティビティ]の UI が強化され、新しいアクティビティの作成時に [!UICONTROL Visual Experience Composer]（VEC）が `selectorCriteria` のデフォルト設定で開くようになりました。（TGT-46586）
+* VEC の使用時に一部のお客様が[!UICONTROL コンポーザー]モードで要素を編集できない問題を修正しました。（TGT-46470）
+* カスタム属性を使用する際に、汎用的な優先セレクターを指定する機能を追加しました。（TGT-46545）
+* [!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動ターゲット]レポートが、[!DNL Adobe Analysis Workspace] で正しく表示される場合でも、[!DNL Target] UI で表示されない場合がある問題を修正しました。（TGT-46494）
+* Target UI の様々なローカライズされた文字列を更新しました。（TGT-18899）
 
 ## その他のリリースノートとバージョンの詳細
 
