@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 88%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!UICONTROL アクティビティ] ページユーザーインターフェイスの更新（2023 年 10 月 26 日）
+## [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））
 
-の一部として [!DNL Adobe Target] のユーザーエクスペリエンスを改善するためのチームの継続的な取り組み [!DNL Target] ユーザー、このリリースでは [!UICONTROL アクティビティ] ページの [!DNL Target] UI この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。
+[!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL アクティビティ]ページを更新しました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。
 
-10 月 25 日（水）より、お客様の割合が新しい UI にアクセスし、数日後に追加のお客様がアクセスできるようになります。
+10月25日水曜日（PT）から、一部のお客様が新しい UI にアクセスできるようになり、今後数日以内にさらに多くのお客様が新しい UI にアクセスできるようになります。
 
-詳しくは、 [アクティビティ](/help/main/c-activities/activities.md).
+詳しくは、[アクティビティ](/help/main/c-activities/activities.md)を参照してください。
 
 ## [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
 
