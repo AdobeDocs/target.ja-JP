@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2160'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10 月 29 日 | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.2 リリースに関する詳細を追加しました。 |
+| 11月8日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースノートのプレリリースノートを追加 [!DNL Target Standard/Premium] 23.11.1リリース。 |
+| 10月28日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.2 リリースに関する詳細を追加しました。 |
 | 10月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））に関する情報を追加しました |
 | 10月24日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 リリースに関するリリースノートを追加しました。 |
 
