@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
+source-git-commit: 4d32ae98c90b881e14b33a76ad51ea7662aeebc4
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2023年10月25日（PT）**
+**最終更新日：2023 年 11 月 8 日**
 
 >[!NOTE]
 >
@@ -23,23 +23,22 @@ ht-degree: 100%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））
+## [!DNL Target] Standard/Premium 23.11.1（2023 年 11 月 14 日）
 
-[!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL アクティビティ]ページを更新しました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。
+このリリースは、以下の時差スケジュールに従って利用できるようになります。
 
-10月25日水曜日（PT）から、一部のお客様が新しい UI にアクセスできるようになり、今後数日以内にさらに多くのお客様が新しい UI にアクセスできるようになります。
+* **11 月 14 日**：アジア太平洋 (APAC) 地域
+* **11 月 15 日**：南北アメリカ地域
+* **11 月 15 日**：ヨーロッパ、中東、アフリカ (EMEA) 地域
 
-詳しくは、[アクティビティ](/help/main/c-activities/activities.md)を参照してください。
+このリリースには、以下の修正が含まれています。
 
-## [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
-
-このリリースには、以下の機能強化および修正が含まれています。
-
-* 新しい[!UICONTROL アクティビティ]の UI が強化され、新しいアクティビティの作成時に [!UICONTROL Visual Experience Composer]（VEC）が `selectorCriteria` のデフォルト設定で開くようになりました。（TGT-46586）
-* VEC の使用時に一部のお客様が[!UICONTROL コンポーザー]モードで要素を編集できない問題を修正しました。（TGT-46470）
-* カスタム属性を使用する際に、汎用的な優先セレクターを指定する機能を追加しました。（TGT-46545）
-* [!UICONTROL Analytics for Target]（A4T）を使用する[!UICONTROL 自動ターゲット]レポートが、[!DNL Adobe Analysis Workspace] で正しく表示される場合でも、[!DNL Target] UI で表示されない場合がある問題を修正しました。（TGT-46494）
-* Target UI の様々なローカライズされた文字列を更新しました。（TGT-18899）
+* 拡張された [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能を使用して、 [!UICONTROL Automated Personalization] アクティビティ。 （TGT-46627）
+* にツールチップを追加しました。 [!DNL Target] トラフィックがコントロールエクスペリエンスに割り当てられていない場合に、アクティビティレポートにデータが表示されない可能性がある理由を理解するのに役立つ UI です。 ツールチップには、詳細情報へのリンクが含まれます。 [アクティビティのレポートにデータがないのはなぜですか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)をインストールします。（TGT-46610）
+* アクティビティが [!UICONTROL アクティビティ] 数名のお客様向けのページ。 （TGT-46830）
+* 一部のお客様が、 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46557）
+* 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが、 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46731）
+* 次の期間にデータを取り込めない問題を修正しました： [!UICONTROL 上昇率] および [!UICONTROL 信頼性] 正しく表示する [!DNL Target] を使用するアクティビティの UI [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46592、TGT-46554、TGT-46586）
 
 ## その他のリリースノートとバージョンの詳細
 
