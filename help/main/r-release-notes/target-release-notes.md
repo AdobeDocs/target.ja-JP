@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 54%
 
 ---
@@ -31,12 +31,11 @@ ht-degree: 54%
 * **11 月 15 日**：南北アメリカ地域
 * **11 月 15 日**：ヨーロッパ、中東、アフリカ (EMEA) 地域
 
-このリリースには、以下の修正が含まれています。
+このリリースには、以下の機能強化および修正が含まれています。
 
 * 拡張された [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) サポートする機能 [重複するオファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) エクスペリエンスの [!UICONTROL Automated Personalization] アクティビティ。 （TGT-46627）
 * にツールチップを追加しました。 [!DNL Target] トラフィックがコントロールエクスペリエンスに割り当てられていない場合に、アクティビティレポートにデータが表示されない可能性がある理由を理解するのに役立つ UI です。 ツールチップには、詳細情報へのリンクが含まれます。 [アクティビティのレポートにデータがないのはなぜですか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)をインストールします。（TGT-46610）
 * アクティビティが [!UICONTROL アクティビティ] 数名のお客様向けのページ。 （TGT-46830）
-
 * を使用しているアクティビティに影響を与えた次の問題を修正しました。 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) をレポートソースとして使用する場合：
    * 一部の顧客がレポートデータを表示できない問題を修正しました。 （TGT-46557）
    * 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが正しく機能しない問題を修正しました。 （TGT-46731）
