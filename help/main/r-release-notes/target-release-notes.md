@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: 82b75b8ef293b3243c0b2528020dced4654b2688
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 53%
+source-wordcount: '386'
+ht-degree: 56%
 
 ---
 
@@ -36,9 +36,11 @@ ht-degree: 53%
 * 拡張された [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能を使用して、 [!UICONTROL Automated Personalization] アクティビティ。 （TGT-46627）
 * にツールチップを追加しました。 [!DNL Target] トラフィックがコントロールエクスペリエンスに割り当てられていない場合に、アクティビティレポートにデータが表示されない可能性がある理由を理解するのに役立つ UI です。 ツールチップには、詳細情報へのリンクが含まれます。 [アクティビティのレポートにデータがないのはなぜですか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)をインストールします。（TGT-46610）
 * アクティビティが [!UICONTROL アクティビティ] 数名のお客様向けのページ。 （TGT-46830）
-* 一部のお客様が、 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46557）
-* 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが、 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46731）
-* 次の期間にデータを取り込めない問題を修正しました： [!UICONTROL 上昇率] および [!UICONTROL 信頼性] 正しく表示する [!DNL Target] を使用するアクティビティの UI [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 （TGT-46592、TGT-46554、TGT-46586）
+
+* を使用しているアクティビティに影響を与えた次の問題を修正しました。 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) をレポートソースとして使用する場合：
+   * 一部の顧客がレポートデータを表示できない問題を修正しました。 （TGT-46557）
+   * 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが正しく機能しない問題を修正しました。 （TGT-46731）
+   * 次の期間にデータを取り込めない問題を修正しました： [!UICONTROL 上昇率] および [!UICONTROL 信頼性] 正しく表示する [!DNL Target] UI （TGT-46592、TGT-46554、TGT-46586）
 
 ## その他のリリースノートとバージョンの詳細
 
