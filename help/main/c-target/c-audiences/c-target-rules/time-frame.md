@@ -4,10 +4,10 @@ description: 開始日時と終了日時を使用して、特定の期間にサ�
 title: 特定の時間にサイトを訪問した訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 44%
 
    ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
-1. 次を指定： [!UICONTROL 開始] および [!UICONTROL 終了] オーディエンスの日付と時間。
+1. 次を指定します。 [!UICONTROL 開始] および [!UICONTROL 終了] オーディエンスの日付と時間。
 
    アクティビティのスケジュールによってターゲティングを開始するには、開始日を空欄にしておきます。アクティビティの停止日時までターゲティングを続けるには停止日を空欄にしておきます。
 
@@ -31,7 +31,11 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >開始日/終了日のタイムゾーンは、GMT+/- NNとして表示されます。NN（ここでNN: NNはGMTからのオフセットであり、訪問者のタイムゾーンではなくアカウントレベルのタイムゾーンを反映しています。例えば、カリフォルニアのタイムゾーンは、GMT -08:00 と表示されます。
+   >次の点に留意してください。
+   >
+   >* 開始日/終了日のタイムゾーンは、GMT+/- NNとして表示されます。NN（ここでNN: NNはGMTからのオフセットであり、訪問者のタイムゾーンではなくアカウントレベルのタイムゾーンを反映しています。例えば、カリフォルニアのタイムゾーンは、GMT -08:00 と表示されます。
+   >
+   >* [!DNL Target] 時間オーディエンスは、夏時間 (DST) の変更を考慮しません。 DST の変更を考慮するには、オーディエンスを手動で更新する必要があります。
 
 1. （条件付き）クリック **[!UICONTROL 頻度を設定]** を使用して、繰り返しパターンを設定します（曜日と時刻を含む）。
 

@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 98%
+source-wordcount: '2210'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 98%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 11 月 11 日 | [Recommendations API リファレンス](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | The [!DNL Adobe Target] [!DNL Recommendations] API は [!DNL Adobe Developer] web サイト。 必要に応じて、ブックマークを更新してください。 |
+|  | [時間枠](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | を追加しました。 [!DNL Target] 時間オーディエンスは、夏時間 (DST) の変更を考慮しません。 DST の変更を考慮するには、オーディエンスを手動で更新する必要があります。 |
 | 11月8日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースノートのプレリリースノートを追加 [!DNL Target Standard/Premium] 23.11.1リリース。 |
 | 10月28日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.2 リリースに関する詳細を追加しました。 |
 | 10月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））に関する情報を追加しました |
