@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 54%
+ht-degree: 76%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 54%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 23.11.1（2023 年 11 月 14 日）
+## [!DNL Target] Standard／Premium 23.11.1（2023年11月13～14日（PT））
 
 このリリースは、次の日に予定されています。
 
-* **11 月 14 日**：アジア太平洋 (APAC) 地域
-* **11 月 15 日**：南北アメリカ地域
-* **11 月 15 日**：ヨーロッパ、中東、アフリカ (EMEA) 地域
+* **11月13日（PT）**：アジア太平洋（APAC）地域
+* **11月14日（PT）**：南北アメリカ地域
+* **11月14日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
 * 拡張された [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) サポートする機能 [重複するオファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) エクスペリエンスの [!UICONTROL Automated Personalization] アクティビティ。 （TGT-46627）
-* にツールチップを追加しました。 [!DNL Target] トラフィックがコントロールエクスペリエンスに割り当てられていない場合に、アクティビティレポートにデータが表示されない可能性がある理由を理解するのに役立つ UI です。 ツールチップには、詳細情報へのリンクが含まれます。 [アクティビティのレポートにデータがないのはなぜですか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)をインストールします。（TGT-46610）
-* アクティビティが [!UICONTROL アクティビティ] 数名のお客様向けのページ。 （TGT-46830）
+* コントロールエクスペリエンスにトラフィックが割り当てられていない場合、アクティビティレポートでデータが使用できない理由をお客様が理解できるように、[!DNL Target] UI にツールチップを追加しました。ツールチップには、次の詳細情報へのリンクが含まれます。[アクティビティのレポートにデータがないのはなぜでしょうか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)（TGT-46610）
+* 一部のお客様の[!UICONTROL アクティビティ]ページにアクティビティが正しく表示されない問題を修正しました。（TGT-46830）
 * を使用しているアクティビティに影響を与えた次の問題を修正しました。 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) をレポートソースとして使用する場合：
    * 一部の顧客がレポートデータを表示できない問題を修正しました。 （TGT-46557）
    * 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが正しく機能しない問題を修正しました。 （TGT-46731）
