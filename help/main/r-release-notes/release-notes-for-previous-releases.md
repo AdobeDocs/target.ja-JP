@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '37687'
+source-wordcount: '37759'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））
+
+[!DNL Target] ユーザーのユーザーエクスペリエンスを向上させるための [!DNL Adobe Target] チームの継続的な取り組みの一環として、このリリースでは [!DNL Target] UI の[!UICONTROL アクティビティ]ページを更新しました。この更新では、以前は一貫性がなかったデザインパターンが統合および標準化されたほか、新しい機能強化が追加されています。
+
+10月25日水曜日（PT）から、一部のお客様が新しい UI にアクセスできるようになり、今後数日以内にさらに多くのお客様が新しい UI にアクセスできるようになります。
+
+詳しくは、[アクティビティ](/help/main/c-activities/activities.md)を参照してください。
 
 ### [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
 
