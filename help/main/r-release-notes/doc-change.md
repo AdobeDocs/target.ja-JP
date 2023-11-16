@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
 source-wordcount: '2227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 11 月 11 日 | [Recommendations API リファレンス](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | The [!DNL Adobe Target] [!DNL Recommendations] API は [!DNL Adobe Developer] web サイト。 必要に応じて、ブックマークを更新してください。 |
-|  | [時間枠](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | を追加しました。 [!DNL Target] 時間オーディエンスは、夏時間 (DST) の変更を考慮しません。 DST の変更を考慮するには、オーディエンスを手動で更新する必要があります。 |
-| 11月8日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後のリリースノートのプレリリースノートを追加 [!DNL Target Standard/Premium] 23.11.1リリース。 |
+| 11月11日（PT） | [Recommendations API リファレンス](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | [!DNL Adobe Target] [!DNL Recommendations] API は、[!DNL Adobe Developer] web サイトに移動しました。必要に応じてブックマークを更新してください。 |
+|  | [時間枠](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | [!DNL Target] の時間のオーディエンスには夏時間（DST）の変更が考慮されていないというメモを追加しました。DST の変更を考慮するには、オーディエンスを手動で更新する必要があります。 |
+| 11月8日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後の [!DNL Target Standard/Premium] 23.11.1 リリースに関するプレリリースノートを追加しました。 |
 | 10月28日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.2 リリースに関する詳細を追加しました。 |
 | 10月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））に関する情報を追加しました |
 | 10月24日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 リリースに関するリリースノートを追加しました。 |
@@ -37,7 +37,7 @@ ht-degree: 97%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 10月17日（PT） | [レポートの FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 次の FAQ を更新しました。「アクティビティのレポートにデータがないのはなぜでしょうか。」 |
-| 10月11日（PT） | [[!DNL Adobe Analytics] レポートソースとして [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK] の A4T サポートに関する情報を更新しました。 |
+| 10月11日（PT） |  [!DNL Adobe Target]  のレポートソースとしての [[!DNL Adobe Analytics] （A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK] の A4T サポートに関する情報を更新しました。 |
 | 10月10日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.0 のリリースノートを追加しました。 |
 | 10月6日（PT） | [レスポンストークン](/help/main/administrating-target/response-tokens.md) | すべてのコードサンプルを更新しました。 |
 |  | [ [!DNL Analysis Workspace]  での[!UICONTROL 自動配分]アクティビティ用 A4T レポートの設定](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} | *[!UICONTROL Adobe Target チュートリアル]*&#x200B;ガイドのチュートリアル全体を更新しました。 |
