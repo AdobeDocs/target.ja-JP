@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 100%
+source-wordcount: '2261'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 10月24日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 リリースに関するリリースノートを追加しました。 |
+| 11月16日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 次の注意事項を追加しました。「通常、更新は 1 時間未満でおこなわれますが、反映されるまでに 24 時間かかる場合があります。」 |
+| 11 月 14 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 23.10.2（2023年10月24日（PT））
 
