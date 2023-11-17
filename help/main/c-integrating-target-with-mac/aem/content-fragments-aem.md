@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experi
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## 要件 {#requirements}
 
-[!DNL Target] 内の[!UICONTROL コンテンツフラグメント]機能を使用してプロビジョニングする必要があります。また、[[!DNL AEM]  as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} を使用してください。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+を使用する必要があります。 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank}. アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
@@ -74,7 +74,6 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 >* [!DNL Target] の AI 機能と ML 機能を最大限に活用するには、[!UICONTROL A/B テスト]アクティビティの作成時、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)または[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を選択してください。
 >
 >* [!UICONTROL コンテンツフラグメント]は、[!DNL Recommendations] アクティビティではサポートされていません。ただし、Recommendations に[!UICONTROL コンテンツフラグメント]を使用するには、[!UICONTROL A/B テスト]アクティビティ（[!UICONTROL 自動配分]と[!UICONTROL 自動ターゲット]を含む）または[!UICONTROL エクスペリエンスのターゲット設定]（XT）アクティビティを作成し、[Recommendations をオファーとして含める](/help/main/c-recommendations/recommendations-as-an-offer.md)ことができます。
-
 
 **[!UICONTROL フォームベースの Experience Composer] を使用して[!UICONTROL コンテンツフラグメント]を使用するには：**
 
