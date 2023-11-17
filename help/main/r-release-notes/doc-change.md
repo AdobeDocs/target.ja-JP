@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 96%
+source-wordcount: '2356'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 96%
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
 | 11 月 18 日 | [管理者の最初の手順](/help/main/administrating-target/start-target.md) | 次の重要な注意事項を追加しました。<ul><li>次の条件を持つユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] では、 [!UICONTROL 管理] 次のページ [!DNL Target]、それらに関係なく [!DNL Target] 役割。 を使用しないユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] は、特定の [!DNL Target] これらの変更を行うロール。1.</li></ul> |
+|  | [制限](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 節を更新し、 [!DNL Target] at.js 2.*x* そして [!DNL Adobe Experience Platform Web SDK]. |
+|  | [配信 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 現在の Delivery API ドキュメントにリダイレクトを追加し、従来のドキュメント (`http://developers.adobetarget.com/api/delivery-api/`) をクリックします。 必要に応じてブックマークを更新してください。 |
 | 11月16日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 次の注意事項を追加しました。「通常、更新は 1 時間未満でおこなわれますが、反映されるまでに 24 時間かかる場合があります。」 |
 | 11 月 14 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 リリースに関するリリースノートを追加しました。 |
 
