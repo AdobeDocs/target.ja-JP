@@ -5,9 +5,9 @@ title: の様々な文字、サイズ、その他の制限 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **上限**：256 文字。
 
-  これより長い値は、at.js 1.*x* を通じてクロスドメイントラッキングを使用している場合です。at.js 2.*x* または [!DNL Adobe Experience Platform Web SDK]に設定すると、エラーメッセージが表示されます（値は自動的に切り捨てられません）。
+  at.js 1.*x* を通じてクロスドメイントラッキングを使用している場合です。at.js 2.*x* または [!DNL Adobe Experience Platform Web SDK]. 値は自動的に切り捨てられません。
 
 ### in-mbox プロファイル名
 
