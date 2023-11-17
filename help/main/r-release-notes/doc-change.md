@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 98%
+source-wordcount: '2314'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11 月 18 日 | [管理者の最初の手順](/help/main/administrating-target/start-target.md) | 次の重要な注意事項を追加しました。<ul><li>次の条件を持つユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] では、 [!UICONTROL 管理] 次のページ [!DNL Target]、それらに関係なく [!DNL Target] 役割。 を使用しないユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] は、特定の [!DNL Target] これらの変更を行うロール。1.</li></ul> |
 | 11月16日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 次の注意事項を追加しました。「通常、更新は 1 時間未満でおこなわれますが、反映されるまでに 24 時間かかる場合があります。」 |
 | 11 月 14 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 リリースに関するリリースノートを追加しました。 |
 
