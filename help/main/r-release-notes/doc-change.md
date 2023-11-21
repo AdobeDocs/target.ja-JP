@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2373'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 11月21日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.3 のリリースノートを追加しました。 |
 | 11 月 18 日 | [管理者の最初の手順](/help/main/administrating-target/start-target.md) | 次の重要な注意事項を追加しました。<ul><li>次の条件を持つユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] では、 [!UICONTROL 管理] 次のページ [!DNL Target]、それらに関係なく [!DNL Target] 役割。 を使用しないユーザー [!UICONTROL 製品管理者] または [!UICONTROL システム管理者] 権限 [!DNL Adobe Admin Console] は、特定の [!DNL Target] これらの変更を行うロール。1.</li></ul> |
 |  | [制限](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 節を更新し、 [!DNL Target] at.js 2.*x* そして [!DNL Adobe Experience Platform Web SDK]. |
 |  | [配信 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 現在の Delivery API ドキュメントにリダイレクトを追加し、従来のドキュメント (`http://developers.adobetarget.com/api/delivery-api/`) をクリックします。 必要に応じてブックマークを更新してください。 |
