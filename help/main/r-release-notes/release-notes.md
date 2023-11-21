@@ -7,9 +7,9 @@ title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 82%
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 拡張された [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) サポートする機能 [重複するオファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) エクスペリエンスの [!UICONTROL Automated Personalization] アクティビティ。 （TGT-46627）
+* [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能が強化され、[!UICONTROL Automated Personalization] アクティビティのエクスペリエンスに対する[重複オファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)がサポートされました。（TGT-46627）
 * コントロールエクスペリエンスにトラフィックが割り当てられていない場合、アクティビティレポートでデータが使用できない理由をお客様が理解できるように、[!DNL Target] UI にツールチップを追加しました。ツールチップには、次の詳細情報へのリンクが含まれます。[アクティビティのレポートにデータがないのはなぜでしょうか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)（TGT-46610）
 * 一部のお客様の[!UICONTROL アクティビティ]ページにアクティビティが正しく表示されない問題を修正しました。（TGT-46830）
-* を使用しているアクティビティに影響を与えた次の問題を修正しました。 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) をレポートソースとして使用する場合：
-   * 一部の顧客がレポートデータを表示できない問題を修正しました。 （TGT-46557）
-   * 時に [!UICONTROL Analytics で表示] アクティビティレポートページのリンクが正しく機能しない問題を修正しました。 （TGT-46731）
-   * 次の期間にデータを取り込めない問題を修正しました： [!UICONTROL 上昇率] および [!UICONTROL 信頼性] 正しく表示する [!DNL Target] UI （TGT-46592、TGT-46554、TGT-46586）
+* [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）をレポートソースとして使用するアクティビティに影響を与える、次の問題を修正しました。
+   * 一部の顧客がレポートデータを表示できない問題を修正しました。（TGT-46557）
+   * アクティビティレポートページの [!UICONTROL Analytics で表示]リンクが正しく機能しないことがある問題を修正しました。（TGT-46731）
+   * [!UICONTROL 上昇率]と[!UICONTROL 信頼性]のデータが [!DNL Target] UI に正しく表示されない問題を修正しました。（TGT-46592、TGT-46554、TGT-46586）
 
 ## その他のリリースノートとバージョンの詳細
 
