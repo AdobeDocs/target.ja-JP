@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフ
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## 要件 {#requirements}
 
-を使用する必要があります。 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank}. アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+[[!DNL AEM]  を as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} 使用している必要があります。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
