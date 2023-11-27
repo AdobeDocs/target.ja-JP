@@ -3,13 +3,14 @@ keywords: CJA4T;Customer Journey Analytics;Customer Journey Analytics for Target
 description: ' [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target] （A4T）を使用して、 [!DNL Customer Journey Analytics] コンバージョン指標およびオーディエンスセグメントに基づいた悪てティビティを作成し、 [!DNL Customer Journey Analytics]  レポートを使用して結果を調べます。'
 title: ' [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target] （CJA4T）とは'
 feature: Integrations
+badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="ベータ版の機能について [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: ht
-source-wordcount: '1050'
-ht-degree: 100%
+source-git-commit: 16b325431224dfb6cd3e580937f6a3989d0ca577
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
