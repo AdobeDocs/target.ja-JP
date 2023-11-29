@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2023 年 11 月 21 日（PT）（[変更内容を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2023 年 11 月 21 日（[変更内容を参照](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
