@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 98%
+source-wordcount: '2480'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 12 月 2 日 | [Adobe Target Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 従来の API ドキュメントを次の記事に移動しました。<ul><li>[Adobe Target Profile API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target Single Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target一括プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11月29日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=ja){target=_blank} | 方法の違いを明確にしました [!DNL Target] は、ユーザーのプロファイルを作成する際に顧客属性を処理します [!DNL Target] は、 [!UICONTROL プロファイル一括更新 API] v1 に対する v2。 |
 | 11 月 21 日 | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.3 のリリースノートを追加しました。 |
 | 11 月 17 日 | [管理者の最初の手順](/help/main/administrating-target/start-target.md) | 次の重要な注意点を追加しました。<ul><li>[!DNL Adobe Admin Console] の[!UICONTROL 製品管理者]権限または[!UICONTROL システム管理者]権限を持つユーザーは、[!DNL Target] の役割に関係なく、[!DNL Target] の[!UICONTROL 管理]ページのすべての設定を編集または変更できます。[!DNL Adobe Admin Console] の[!UICONTROL 製品管理者]権限または[!UICONTROL システム管理者]権限を持たないユーザーがこれらの変更を行うには、特定の [!DNL Target] の役割が必要です。1</li></ul> |
