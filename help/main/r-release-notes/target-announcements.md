@@ -4,16 +4,35 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # [!DNL Adobe Target] のお知らせとイベント
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
+
+## [!DNL Adobe Target Community] コーヒーブレーク
+
+* **機械学習と AI のレポートと分析**
+* **2023年12月6日（水）（PT）**
+* **午前 8:00～9:00(PST -8 GMT)**
+* **[登録はこちらから](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+結合 [!DNL Adobe Target] 機械学習と AI のレポートと分析について話し合うための ask-me-any イベントで、Brent Kostak、Cristinel Anastasoie、Drew Burns、Marisol St. John の専門家が参加しました。 [!DNL Adobe Target].
+
++++詳細このディスカッションでは、次のトピックに焦点を当てます。
+
+* ML と AI に興奮していますか？また、アクティビティのレポートの成功をより深く理解したいとお考えですか？
+* コンテンツ、オファー、メッセージにリアルタイムパーソナライゼーションを使用できる新しいアイデアや使用例を探していますか？
+* サーバー側テスト用のフォームベースのアクティビティを作成する際のベストプラクティスを知りたい場合は、
+* 内でのアクティビティの分析と測定を改善したいとお考えですか？ [!UICONTROL Analytics for Target] (A4T) レポート
+* 認証済みおよび既知の顧客体験に対するテストとパーソナライゼーションを使用して、A/B テストを超えて拡張する方法をチームは興味を持っていますか。
+
++++
 
 ## [!DNL Adobe Target] ウェビナーシリーズ {#webinar-series}
 
@@ -87,9 +106,9 @@ ht-degree: 100%
 
 +++
 
-### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションと推奨事項（2022年9月15日（PT）） {#AI}
+### [!DNL Adobe Target] スキルビルダー - AI 駆動型パーソナライゼーションとレコメンデーション（2022年9月15日（PT）） {#AI}
 
-実験とパーソナライゼーションの自動化は常に、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI を促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] の高度な AI 駆動のユースケースと機能を製品およびコンテンツの推奨事項とともに使用して、競争に先立ち、すべてのエクスペリエンスで勝つ方法を学びましょう。
+実験とパーソナライゼーションの自動化は常に、マーケティング、エンジニアリング、製品の各チームに最高レベルのコンバージョンと ROI を促進しています。[!DNL Adobe] スキルビルダーセッションに参加して、[!DNL Adobe Target] の高度な AI 駆動のユースケースと機能を製品およびコンテンツのレコメンデーションとともに使用して、競争に先立ち、すべてのエクスペリエンスで勝つ方法を学びましょう。
 
 * [録画リンク](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
