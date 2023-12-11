@@ -5,9 +5,9 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 12月4日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 「機械学習と AI のレポート&amp;分析」に登録情報を追加しました。 [!DNL Adobe Target Community] コーヒーブレークセッション：2023 年 12 月 6 日（水）。 |
-| 12 月 2 日 | [Adobe Target Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 従来の API ドキュメントを次の記事に移動しました。<ul><li>[Adobe Target Profile API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target Single Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target一括プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
-| 11月29日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=ja){target=_blank} | 方法の違いを明確にしました [!DNL Target] は、ユーザーのプロファイルを作成する際に顧客属性を処理します [!DNL Target] は、 [!UICONTROL プロファイル一括更新 API] v1 に対する v2。 |
+| 12月4日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 「機械学習および AI レポートと分析」の [!DNL Adobe Target Community] コーヒーブレークセッション（2023年12月6日水曜日（PT））に関する登録情報を追加しました。 |
+| 12月1日（PT） | [Adobe Target プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} | 従来の API ドキュメントを次の記事に移動しました。<ul><li>[Adobe Target プロファイル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}</li><li>[Adobe Target 単一プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html?lang=ja){target=_blank}</li><li>[Adobe Target プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?lang=ja){target=_blank}</li></ul> |
+| 11月29日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=ja){target=_blank} | [!UICONTROL プロファイル一括更新 API] v2 を使用する場合、[!DNL Target] でまだ確認していないユーザーのプロファイルを作成する際に、[!DNL Target] で顧客属性を処理する方法と v1 の違いを明確にしました。 |
 | 11 月 21 日 | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js 2.11.3 のリリースノートを追加しました。 |
 | 11 月 17 日 | [管理者の最初の手順](/help/main/administrating-target/start-target.md) | 次の重要な注意点を追加しました。<ul><li>[!DNL Adobe Admin Console] の[!UICONTROL 製品管理者]権限または[!UICONTROL システム管理者]権限を持つユーザーは、[!DNL Target] の役割に関係なく、[!DNL Target] の[!UICONTROL 管理]ページのすべての設定を編集または変更できます。[!DNL Adobe Admin Console] の[!UICONTROL 製品管理者]権限または[!UICONTROL システム管理者]権限を持たないユーザーがこれらの変更を行うには、特定の [!DNL Target] の役割が必要です。1</li></ul> |
 |  | [制限](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | [!DNL Target] が at.js で切り捨てを処理する方法に関する情報を含むセクションを更新しました。*x* と [!DNL Adobe Experience Platform Web SDK]。 |
@@ -179,5 +179,5 @@ ht-degree: 95%
 |  | [Target でのオーディエンスの構築](/help/main/c-target/c-audiences/create-audience.md) | オーディエンス名で使用できない文字と文字シーケンスのリストを追加しました。 |
 | 1月31日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 名に使用できる文字と使用できない文字のリストを追加しました。 |
 | 1月25日（PT） | [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer.md) | フォームベースの Experience Composer を使用した [!UICONTROL Automated Personalization]（AP）アクティビティでの JSON オファーのサポートが利用可能になったことを示しました。 |
-|  | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q&amp;A Coffee Break：エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース</li></ul> |
+|  | [Adobe Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 以下のイベントに関する情報を追加しました。<ul><li>[!DNL Adobe Target] コミュニティ Q＆A コーヒーブレーク：エクスペリエンスの最適化のためのモバイルおよび認証済みのユースケース</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 リリースに関するリリースノートを追加しました。 |
