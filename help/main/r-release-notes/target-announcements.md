@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,21 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target Community] コーヒーブレーク
 
-* **機械学習と AI のレポートと分析**
+* **機械学習および AI レポートと分析**
 * **2023年12月6日（水）（PT）**
-* **午前 8:00～9:00(PST -8 GMT)**
-* **[登録はこちらから](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+* **午前 8:00～9:00（PST、GMT-8）**
+* **[登録はこちらから](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81?profile.language=ja){target=_blank}**
 
-結合 [!DNL Adobe Target] 機械学習と AI のレポートと分析について話し合うための ask-me-any イベントで、Brent Kostak、Cristinel Anastasoie、Drew Burns、Marisol St. John の専門家が参加しました。 [!DNL Adobe Target].
+[!DNL Adobe Target] のエキスパートである Brent Kostak、Cristinel Anastasoaie、Drew Burns、Marisol St. John の Ask Me Anything イベントに参加し、[!DNL Adobe Target] での機械学習および AI レポートと分析について話し合います。
 
-+++詳細このディスカッションでは、次のトピックに焦点を当てます。
++++詳細
+このディスカッションでは、次のトピックに焦点を当てます。
 
-* ML と AI に興奮していますか？また、アクティビティのレポートの成功をより深く理解したいとお考えですか？
-* コンテンツ、オファー、メッセージにリアルタイムパーソナライゼーションを使用できる新しいアイデアや使用例を探していますか？
-* サーバー側テスト用のフォームベースのアクティビティを作成する際のベストプラクティスを知りたい場合は、
-* 内でのアクティビティの分析と測定を改善したいとお考えですか？ [!UICONTROL Analytics for Target] (A4T) レポート
-* 認証済みおよび既知の顧客体験に対するテストとパーソナライゼーションを使用して、A/B テストを超えて拡張する方法をチームは興味を持っていますか。
+* ML と AI に興味があり、自分の活動の成功をレポートすることについてより深く理解したいと考えていますか？
+* コンテンツ、オファー、メッセージングにリアルタイムのパーソナライゼーションを使用できる、新しいアイデアやユースケースをお探しですか？
+* サーバーサイドテスト用のフォームベースのアクティビティを作成するためのベストプラクティスを知りたいですか？
+* [!UICONTROL Analytics for Target]（A4T）レポート内のアクティビティ分析と測定を改善したいと考えていますか？
+* お客様のチームは、A/B テストを超えて、認証済みおよび既知の顧客体験に関するテストとパーソナライゼーションを拡張する方法に興味がありますか？
 
 +++
 
