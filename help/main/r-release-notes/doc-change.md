@@ -5,9 +5,9 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 12月13日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 次に関する情報を追加しました： [!DNL Adobe Target] 2024 年パーソナライゼーション成熟度ウェビナーシリーズ |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} | 次の 2 つの新しいオプション設定が追加されました。 <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
+| 12月13日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 2024 パーソナライゼーション成熟度ウェビナーシリーズに関する情報を追加しました。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ja){target=_blank} | 次の 2 つの新しいオプション設定を追加しました。 <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12月4日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 「機械学習および AI レポートと分析」の [!DNL Adobe Target Community] コーヒーブレークセッション（2023年12月6日水曜日（PT））に関する登録情報を追加しました。 |
 | 12月1日（PT） | [Adobe Target プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} | 従来の API ドキュメントを次の記事に移動しました。<ul><li>[Adobe Target プロファイル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}</li><li>[Adobe Target 単一プロファイル更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html?lang=ja){target=_blank}</li><li>[Adobe Target プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?lang=ja){target=_blank}</li></ul> |
 | 11月29日（PT） | [プロファイル一括更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=ja){target=_blank} | [!UICONTROL プロファイル一括更新 API] v2 を使用する場合、[!DNL Target] でまだ確認していないユーザーのプロファイルを作成する際に、[!DNL Target] で顧客属性を処理する方法と v1 の違いを明確にしました。 |
