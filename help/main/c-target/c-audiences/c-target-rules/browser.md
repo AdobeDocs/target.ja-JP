@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 51%
 
 ---
 
@@ -141,29 +141,29 @@ iPad または iPhone をターゲットにするオーディエンスがある�
 
 今後は、次の設定を使用できます。
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致する] [!DNL Apple]
+* ブラウザーの一致の場合 [!DNL Apple]: [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致する] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL タブレット] > [!UICONTROL true]
+* ブラウザーがタブレットに一致する場合： [!UICONTROL モバイル] > [!UICONTROL タブレット] > [!UICONTROL true]
 
   ![モバイルはタブレットです](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!DNL true]
+* ブラウザーがiPadに一致する場合： [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!DNL true]
+* ブラウザーがiPhoneに一致する場合： [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 条件が無効な場合など、他にも多くの設定が使用可能です。 否定条件の例を次に示します。
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!UICONTROL false]
+* ブラウザーがiPhoneと一致しない場合： [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!UICONTROL false]
 
   ![携帯電話ではありません](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!UICONTROL false].
+* ブラウザーがiPadと一致しない場合： [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!UICONTROL false].
 
   ![タブレットではありません](/help/main/r-release-notes/assets/tablet-false.png)
 
