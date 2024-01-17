@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ iPad または iPhone をターゲットにするオーディエンスがある�
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL タブレット]
+* [!UICONTROL モバイル] > [!UICONTROL タブレット] > [!UICONTROL true]
 
   ![モバイルはタブレットです](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad]
+* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone]
+* [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
