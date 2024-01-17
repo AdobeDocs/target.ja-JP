@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 50%
+source-wordcount: '421'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2024年1月16日（PT）**
+**最終更新日：2024年1月17日（PT）**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 50%
 
 | 廃止 | 詳細 |
 |--- |--- |
-| [!DNL iPad] および [!DNL iPhone] 廃止される [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスを作成する際に使用します。<p>廃止日：<P>2024 年 4 月 31 日 | [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)( 特定の [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページを訪問したとき。<P><B>2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] タイプのドロップダウンリスト（オーディエンスのカテゴリを作成する場合）</b><P>iPad または iPhone をターゲットにするオーディエンスがある場合は、 [!UICONTROL ブラウザー] 属性内で設定を変更する場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日より前にこれらの設定を変更する必要があります。<P>今後は、次の設定を使用する必要があります。<ul><li>[!UICONTROL モバイル] > [!UICONTROL タブレット]<P>![モバイルはタブレットです](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] および [!DNL iPhone] 廃止される [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスを作成する際に使用します。<p>廃止日：<P>2024 年 4 月 31 日 | [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)( 特定の [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページを訪問したとき。<P><B>2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] タイプのドロップダウンリスト（オーディエンスのカテゴリを作成する場合）</b><P>iPad または iPhone をターゲットにするオーディエンスがある場合は、 [!UICONTROL ブラウザー] 属性内で設定を変更する場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日より前にこれらの設定を変更する必要があります。<p>代替設定の例については、 [ブラウザーオーディエンス属性からのiPadおよびiPhoneの廃止（2024 年 4 月 31 日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 23 日および 25 日）
 
