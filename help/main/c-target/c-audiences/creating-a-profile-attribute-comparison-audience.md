@@ -4,16 +4,16 @@ description: 2 つのプロファイル属性を比較するためのオーデ�
 title: 2 つのプロファイル属性を比較して Audiences で使用できますか？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 59%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
 # プロファイル属性比較オーディエンスの作成
 
-でオーディエンスを定義 [!DNL Adobe Target] を使用して、 [オーディエンスライブラリ](/help/main/c-target/c-audiences/audiences.md) または [アクティビティのみのオーディエンス](/help/main/c-target/creating-activity-only-audience.md). より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
+でのオーディエンスの定義 [!DNL Adobe Target] 2 つのプロファイル属性を [オーディエンスライブラリ](/help/main/c-target/c-audiences/audiences.md) または [アクティビティのみのオーディエンス](/help/main/c-target/creating-activity-only-audience.md). より大きい、より小さい、または等しい演算子を使用して、2 つの異なるプロファイル属性の値を動的に比較するオーディエンスを定義します。
 
 >[!NOTE]
 >
@@ -28,16 +28,16 @@ ht-degree: 59%
 * 次の 90 日間にダイニングルーム用の家具を購入する可能性
 * 次の 90 日間にリビング用の家具を購入する可能性
 
-ダイニングルーム用の家具を購入する傾向が、リビング用の家具を購入する傾向よりも高くなるように定義されたオーディエンスを作成できます。[!DNL Target] は、特定の訪問者のダイニングルームとリビングの傾向スコアを動的に比較して、その訪問者が前述のオーディエンスに該当するかどうかを判断します。
+ダイニングルーム用の家具を購入する傾向が、リビング用の家具を購入する傾向よりも高くなるように定義されたオーディエンスを作成できます。[!DNL Target] 次に、特定の訪問者のダイニングルームとリビングルームの傾向スコアを動的に比較して、その訪問者がこのオーディエンスに該当するかどうかを判断します。
 
-詳しくは、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}.
+詳しくは、 [データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## プロファイル属性比較オーディエンスの作成 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. クリック **[!UICONTROL オーディエンス]** > **[!UICONTROL オーディエンスを作成]**.
 1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. ドラッグ&amp;ドロップ **[!UICONTROL 訪問者プロファイル]** を audience builder パネルにドラッグします。
-1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、属性を選択します。
+1. **[!UICONTROL Visitor Profile]** ドロップダウンリストから、属性を選択します。
 
    ![傾向スコア 1](assets/propensity_score_1.png)
 
@@ -45,7 +45,7 @@ ht-degree: 59%
 
    ![傾向スコア 2](assets/propensity_score_2.png)
 
-1. **[!UICONTROL 比較書式を選択]**&#x200B;ドロップダウンリストから、「**[!UICONTROL 属性]**」を選択します。
+1. **[!UICONTROL Choose Comparison Type]** ドロップダウンリストから、**[!UICONTROL Attribute]** を選択します。
 
    「static value」の比較タイプを使用すると、訪問者プロファイル属性を特定の値と比較できます。
 
@@ -59,7 +59,7 @@ ht-degree: 59%
 
    ![propensity_score_4 image](assets/propensity_score_4.png)
 
-1. 「 **[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## トレーニングビデオ ![概要バッジ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

@@ -1,15 +1,15 @@
 ---
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
-description: 単一値および複数値のカスタムエンティティ属性を使用して、Adobe内の項目に関する追加情報を定義する方法を説明します [!DNL Target] Recommendationsカタログ
+description: 単一値および複数値のカスタムエンティティ属性を使用して、Adobe内の項目に関する追加情報を定義する方法を説明します。 [!DNL Target] Recommendationsカタログ。
 title: カスタムエンティティ属性の使用方法
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 89%
+source-wordcount: '1454'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
 
 カスタムエンティティ属性には、単一値または複数値を設定できます。エンティティ属性値は製品表示で表示されます。
 
-![multi_value_product 画像](assets/multi-value_product.png)
+![multi_value_product イメージ](assets/multi-value_product.png)
 
 単一値のカスタムエンティティ属性は、単一値の定義済みエンティティ属性と同じように構成されます。
 
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 ## 複数値の属性の実装 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-複数値のカスタムエンティティ属性は、フィード (CSV)、 `targetPageParams`、および製品をアップロードする Delivery API です。 新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は値なしと見なされます。
+複数値のカスタムエンティティ属性は、フィード (CSV)、 `targetPageParams`、および製品をアップロードする Delivery API です。 新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列 ( [] ) は、値を持たないものとして扱われます。
 
 二重引用符は、エスケープする必要があります。例えば、`"[""test"", ""value""]"` は CSV で使用できる有効な JSON 配列です。
 
@@ -71,7 +71,7 @@ ht-degree: 89%
 
 ### targetPageParams の使用
 
-次の例は、`targetPageParams`
+次の例は、 `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### CSV の使用
+### CSV を使用
 
 CSV ファイルの管理は、テキストエディターで生データの形式でおこなうか、スプレッドシートソフトウェアを利用します。
 
@@ -127,18 +127,18 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-Delivery API と Save entities API の使用については、[Adobe Recommendations API のドキュメント](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}を参照してください。
+詳しくは、 [Adobe Recommendations API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} Delivery API と Save entities API の使用に関する情報を参照してください。
 
 ## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
-アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールで複数値のカスタム属性に演算子を適用する場合、リストの値のうち少なくとも 1 つが演算を通過する場合（ブール演算子 OR **）、結果は true ** になります。
+アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールで複数値のカスタム属性に演算子を適用する場合、リストの値のうち少なくとも 1 つが演算を通過する場合（ブール演算子 *OR*）、結果は *true* になります。
 
-次の例では、ルールは「`message contains abc`」です。
+次の例では、ルールは次のようになります。 `message contains abc`.
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。
 * 例 2：`entity.genre = ["abcde","de","ef"]`。結果は true になります。1 つの値に `abc` が含まれています。
 
-否定演算子の場合、すべての属性値が通過する必要があります（ブール演算子 *AND*）。例えば、演算子が`notEquals` の場合、いずれかの値が一致する場合結果は *false* になります。
+否定演算子の場合、すべての属性値が通過する必要があります（ブール演算子 *AND*）。例えば、演算子が `notEquals`の場合、結果は *false* いずれかの値が一致する場合。
 
 アルゴリズムインクルージョンルール、カタログルールおよび除外ルールでの演算子の動作については、以降の節を参照してください。
 
@@ -160,7 +160,7 @@ Delivery API と Save entities API の使用については、[Adobe Recommendat
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true となります。どの値も `abc` に等しくありません。
 * 例 2：`entity.genre = ["abc", "de", "ef"]`。値は false となります。1 つの値が `abc` と等しいです。
-* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 値は true となります。`abc` がリストのどの値にも等しくありません。
+* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 値は true となります。`abc` がリストのどの要素にも等しくありません。
 
 ### 次を含む
 

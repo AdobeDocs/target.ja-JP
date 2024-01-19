@@ -1,18 +1,18 @@
 ---
 keywords: ターゲット設定;AP レポート;Automated Personalization レポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;自動セグメント;FAQ, よくある質問
 description: 様々なセグメントがAdobe別に定義される仕組み [!DNL Target] パーソナライゼーションモデルは、自動セグメントレポートを表示して、アクティビティ内のオファーやエクスペリエンスに応答します。
-title: 自動セグメントレポートとは
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+title: 自動セグメントレポートとは何ですか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 73%
+source-wordcount: '2166'
+ht-degree: 71%
 
 ---
 
-# [!UICONTROL 自動セグメントレポート]
+# [!UICONTROL 自動セグメント] レポート
 
 次に関する情報： [!UICONTROL 自動セグメント] レポート。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ
 
@@ -22,14 +22,13 @@ ht-degree: 73%
 >
 >* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 >
->* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、コンバージョンの最適化目標を使用する AP および AT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
->* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL プライマリ目標] が [!UICONTROL レポート指標] 」ドロップダウンリストから選択できます。
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL プライマリ目標] が次の中から選択されている： [!UICONTROL レポート指標] 」ドロップダウンリストから選択できます。
 >
->* パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [デフォルト環境](/help/main/administrating-target/hosts.md) のみ。
 >
 >* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL ライブ] のステータスと、少なくとも 15 日間アクティブ化され、トラフィックを受け取っていること。
-
 
 AP／AT アクティビティでのオファーやエクスペリエンスへの反応は、訪問者によって異なります。このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
@@ -37,11 +36,11 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. クリック **[!UICONTROL アクティビティ]**&#x200B;を選択し、目的のをクリックします。 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを選択します。
 
-   多数のアクティビティがある場合、 [!UICONTROL タイプ], [!UICONTROL ステータス], [!UICONTROL プロパティ], [!UICONTROL レポートソース], [!UICONTROL Experience Composer], [!UICONTROL 指標タイプ]、および [!UICONTROL アクティビティソース] 」ドロップダウンリストを使用します。
+   多くのアクティビティがある場合、 [!UICONTROL タイプ], [!UICONTROL ステータス], [!UICONTROL プロパティ], [!UICONTROL レポートソース], [!UICONTROL Experience Composer], [!UICONTROL 指標タイプ]、および [!UICONTROL アクティビティソース] 」ドロップダウンリストを使用します。
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   この [Automated Personalization概要](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、 [!UICONTROL 概要] レポート。
+   The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットには、 [!UICONTROL 概要] レポート。
 
    ![Adobe Targetのパーソナライゼーションインサイトレポート](/help/main/c-reports/assets/personalization_insights.png)
 
@@ -55,7 +54,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. 目的の日付範囲を選択します。
 
-   とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 自動セグメント]は、次の固定日付範囲でのみ使用できます。15 日、30 日、60 日。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始」がグレー表示になっています。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
+   とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 自動セグメント]は、15 日、30 日、60 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始」がグレー表示になっています。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
    ![Adobe Targetレポートのカレンダー](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
@@ -113,7 +112,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}.
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **自動セグメントとは何ですか？**
 
@@ -145,15 +144,15 @@ AP および AT アクティビティでは、オファーごとに 1 つのモ�
 
 **[!UICONTROL パーソナライゼーションインサイト]をカスタムの日付範囲で表示できますか？**
 
-パーソナライゼーションインサイトレポート ( 両方 [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性]) は、次の固定日付範囲でのみ使用できます。15 日、30 日、60 日。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。これらの期間は任意の終了日に対して選択できます（期間を満たすのに十分なデータがアクティビティにある場合）。
+パーソナライゼーションインサイトレポート ( 両方 [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性]) は、15 日、30 日、60 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。これらの期間は任意の終了日に対して選択できます（期間を満たすのに十分なデータがアクティビティにある場合）。
 
 **[!UICONTROL パーソナライゼーションインサイト]はどのように作成するのですか？**
 
-[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、Adobeの研究チームの公表論文を参照してください。 [arXiv.org Web サイト](https://arxiv.org/abs/1706.07160).
+[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、Adobeの研究チームの公表論文を参照してください。 [arXiv.org web サイト](https://arxiv.org/abs/1706.07160).
 
 **[!UICONTROL 自動セグメント]レポートの合計訪問者トラフィックデータが、AP または AT の概要／パフォーマンスレポートに一致しないのはなぜですか？**
 
-この [!UICONTROL パーソナライゼーションインサイト] レポートには、Target のパーソナライゼーションモデルで選択されたコンテンツの一部を閲覧した訪問者のみが含まれます（つまり、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません）。 このトラフィックタイプは、「パーソナライズされた」トラフィックと呼ばれます。 AP/AT の概要パフォーマンスレポートには、制御トラフィックと「ターゲット」トラフィックが含まれます。 ターゲットトラフィックには、パーソナライズされたトラフィックのほか、勝者モデル全体を使用して提供されたトラフィックや、学習の継続に使用されるランダム提供のトラフィックも含まれます。
+The [!UICONTROL パーソナライゼーションインサイト] レポートには、Target のパーソナライゼーションモデルで選択されたコンテンツの一部を閲覧した訪問者のみが含まれます（つまり、制御トラフィックや、勝者モデル全体で提供されるトラフィックは考慮されません）。 このトラフィックタイプは、「パーソナライズされた」トラフィックと呼ばれます。 AP/AT の概要パフォーマンスレポートには、制御トラフィックと「ターゲット」トラフィックが含まれます。 ターゲットトラフィックには、パーソナライズされたトラフィックのほか、勝者モデル全体を使用して提供されたトラフィックや、学習の継続に使用されるランダム提供のトラフィックも含まれます。
 
 **自動セグメントは相互排他的ですか？**
 
@@ -165,7 +164,7 @@ AP および AT アクティビティでは、オファーごとに 1 つのモ�
 
 **パーソナライゼーションインサイトの情報を活用するには、他にどのような方法がありますか？**
 
-* ターゲットにする新しいオーディエンスを発見：パフォーマンスの高い特定の自動セグメントが表示された場合は、オーディエンスを作成して、そのセグメントを他のレポートで再利用できるようにすることを検討できます。
+* ターゲットにする新しいオーディエンスの発見：特定の自動セグメントのパフォーマンスが優れている場合は、オーディエンスの作成を検討して、他のレポートでそのセグメントを再利用できます。
 * どのタイプの訪問者がどのエクスペリエンスに反応するかに関する仮説をテストします。
 * どのようなコンテンツがどのような種類の訪問者に対して機能したか、どのようなオファーがどの訪問者に効果的であったかについてのインサイトを得ます。
 * パフォーマンスの悪いコンテンツを特定します。

@@ -2,13 +2,13 @@
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
 description: Adobe [!DNL Target] Recommendations アクティビティに関するよくある質問と回答のリストを表示します。
 title: ' [!DNL Target]  Recommendations に関する質問と回答'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 * 以前に除外した項目を現在は含める必要がある場合、その項目は次回のアルゴリズム実行時（12～24 時間）に含められます。
 
-   こうした状況が発生するのは、[!DNL Target] がオンラインとオフラインの両方で除外を適用するからです。 項目を新たに除外すると、オンラインでの除外はすばやく適用されます。 項目を新しく含めると、オンラインでの除外はすぐになくなりますが、オフラインでの除外は次のアルゴリズムが実行されるまでなくなりません。
+  こうした状況が発生するのは、[!DNL Target] がオンラインとオフラインの両方で除外を適用するからです。 項目を新たに除外すると、オンラインでの除外はすばやく適用されます。 項目を新しく含めると、オンラインでの除外はすぐになくなりますが、オフラインでの除外は次のアルゴリズムが実行されるまでなくなりません。
 
 * 以前に項目が含まれていたが、現在は除外する必要がある場合、その項目は、フィードソースに応じて上記の「項目属性が更新されました...」タイムラインに従って除外されます（mbox または API を使用する場合は 15 分、フィードを使用する場合は 12〜24 時間）。
 
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には[互換性のない条件をフィルタリング](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
+[!DNL Target] には、 [非互換の条件をフィルター](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを制御します。
 
 >[!NOTE]
 >
@@ -127,9 +127,9 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 * コレクションを再保存し、数値が更新されるかどうかを確認します。再保存すると、コレクションは、そのコレクションを使用するすべてのアルゴリズムを再実行します。
 * 適切な環境にいるか確認します。確認のため、[!DNL /target/products.html#recsSettings] に移動してください（以下を参照）。
 
-   ![product_catalog 画像](assets/product_catalog.png)
+  ![product_catalog 画像](assets/product_catalog.png)
 
-* インデックスが最新か確認します。移動 [!DNL /target/products.html#productSearch] また、何時間前にインデックスが作成されたかを確認します（例：「3 時間前にインデックス作成」）。 必要に応じてインデックスを更新できます。
+* インデックスが最新か確認します。移動： [!DNL /target/products.html#productSearch] また、何時間前にインデックスが作成されたかを確認します（例：「3 時間前にインデックス作成」）。 必要に応じてインデックスを更新できます。
 * エンティティがコレクションのルールに一致しなくなる変更をフィードまたはデータレイヤーに加えていないか確認します。大文字と小文字が一致しているかチェックしてください（大文字と小文字は区別されます）。
 * フィードが適切に実行されているか確認します。FTP ディレクトリ、パスワードなどを変更したユーザーはいますか？
 * [!DNL Target] は、（顧客のページやアプリで）配信の更新をできるだけ早くおこなうようにします。 一方で、 [!DNL Target] はマーケターの UI に何らかの表示をする必要もあります。[!DNL Target] では、UI の更新が同期されるのを待つために、配信の更新を遅延させません。[mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) を使用すると、リクエスト受信時のシステムの状況を確認できます。
@@ -214,19 +214,19 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 * 結果の準備がまだ整っていない。
 
-   この状況は通常、新しく作成したアクティビティを最初に保存するとき、またはアクティビティで使用するコレクション、条件、プロモーションに設定の変更が加えられた後に発生します。
+  この状況は通常、新しく作成したアクティビティを最初に保存するとき、またはアクティビティで使用するコレクション、条件、プロモーションに設定の変更が加えられた後に発生します。
 
 * 結果の準備は整っているが、リクエストされたアルゴリズムとキーの組み合わせに対し、最も近いエッジサーバーではまだキャッシュされていない。
 
-   リクエストがキャッシュ処理を開始するので、この問題は、数ページをリロードした後や、数分後に解決する必要があります。
+  リクエストがキャッシュ処理を開始するので、この問題は、数ページをリロードした後や、数分後に解決する必要があります。
 
 * 結果の準備は整っているが、指定されたキー値には使用できない。
 
-   この状況は、通常、最新のアルゴリズムの実行にカタログに追加された項目のレコメンデーションをリクエストしたときに発生し、次のアルゴリズムの実行後に解決されます。
+  この状況は、通常、最新のアルゴリズムの実行にカタログに追加された項目のレコメンデーションをリクエストしたときに発生し、次のアルゴリズムの実行後に解決されます。
 
 * テンプレートの部分レンダリングが無効になっているため、テンプレートに入力するのに十分な結果が得られない。
 
-   この状況は通常、考えられる結果から多くの項目を積極的にフィルタリングする動的なインクルージョンルールがある場合に発生します。状況を回避するには、バックアップを有効にしてインクルージョンルールをバックアップに適用しない、または積極的でないフィルタリング条件を使用して順次条件を使用します。
+  この状況は通常、考えられる結果から多くの項目を積極的にフィルタリングする動的なインクルージョンルールがある場合に発生します。状況を回避するには、バックアップを有効にしてインクルージョンルールをバックアップに適用しない、または積極的でないフィルタリング条件を使用して順次条件を使用します。
 
 ## 最近閲覧した項目に基づくレコメンデーションは、1 人の訪問者に対して複数のデバイスにわたって保持されますか？ {#persist-across-devices}
 
@@ -244,7 +244,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
-[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、[[!DNL Recommendations Classic] versus [!DNL Recommendations] の  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)アクティビティを参照してください。
+[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [[!DNL Recommendations Classic] 対比 [!DNL Recommendations] アクティビティ [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 
@@ -276,7 +276,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 >
 >この例は、パラメーターのマッチングを使用し、`priorDate60` 値を mbox パラメーターとして渡すことで実現することもできます。
 
-### 使用時の既知の問題 [!DNL Recommendations] アクティビティ？
+### を使用する際の既知の問題 [!DNL Recommendations] アクティビティ？
 
 [!UICONTROL Recommendations] アクティビティの既知の問題は次のとおりです。
 

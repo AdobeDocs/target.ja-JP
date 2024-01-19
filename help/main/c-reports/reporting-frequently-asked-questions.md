@@ -4,10 +4,10 @@ description: Adobeに関するよくある質問と回答のリストの参照 [
 title: に関する質問への回答をどこで確認できるか [!DNL Target] 報告？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 27%
 
 XT アクティビティには、常にコントロールエクスペリエンスがある必要があります。[!UICONTROL A/B テスト]アクティビティと同様の方法で XT アクティビティを使用している場合（かなり一般的なシナリオ）、コントロールエクスペリエンスデータが使用されます。レポートで有用でないとわかった場合、コントロールエクスペリエンスデータを無視できます。
 
-## 他の [!DNL Target] ソリューションと比較して [!DNL Adobe Experience Cloud] の訪問数が低いのはなぜでしょうか。 {#section_7E626FDB417E41B8B58BBF30FB207409}
+## の訪問数が低いのはなぜですか？ [!DNL Target] 他よりも [!DNL Adobe Experience Cloud] ソリューション？ {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 次によって報告される指標の数値（訪問など） [!DNL Target] が、常に他の [!DNL Experience Cloud] ソリューションにはいくつかの理由があります。
 
@@ -87,12 +87,12 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 アクティビティのレポートの環境を変更するには：
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的のアクティビティをクリックし、「**[!UICONTROL レポート」タブをクリックします。]**
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的のアクティビティをクリックし、「**[!UICONTROL レポート]**」タブをクリックします。
 1. 歯車アイコンをクリックし、レポート設定を変更します。
 
    ![A/B 設定ダイアログボックス](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. **[!UICONTROL Environment]** ドロップダウンリストで **[!UICONTROL 、「Production]**」を選択します。
+1. **[!UICONTROL 環境]**&#x200B;ドロップダウンリストから、「**[!UICONTROL 実稼動]**」を選択します。
 
    開発環境を選択していると、レポートのデータが使用できない場合があります。
 
@@ -104,7 +104,7 @@ XT アクティビティには、常にコントロールエクスペリエン�
 
 アクティビティのコンテンツがユーザーに配信されたのにそのレポートにデータがない場合は、トラフィックを含むエクスペリエンスをコントロールエクスペリエンスとして使用するようにしてください。
 
-1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的のアクティビティをクリックし、「**[!UICONTROL レポート」タブをクリックします。]**
+1. 「**[!UICONTROL アクティビティ]**」をクリックし、リストで目的のアクティビティをクリックし、「**[!UICONTROL レポート]**」タブをクリックします。
 1. 歯車アイコンをクリックし、レポート設定を変更します。
 
 1. 次から： **[!UICONTROL 制御]** ドロップダウンリストから、トラフィックを受け取るエクスペリエンスを選択します。
@@ -125,6 +125,6 @@ XT アクティビティには、常にコントロールエクスペリエン�
 * A/B テストと MVT テストのベストプラクティスは、トラフィックの分割を均等に保つことです。 テスト中にエクスペリエンス間のトラフィック配分 ( 例えば90/10から50/50) を変更すると、エクスペリエンス間で訪問者が不均等になる場合があります。 低いトラフィックエクスペリエンスは、「追いつかない」可能性があります。
 * 上記のベストプラクティスに従っており、時間の経過と共にトラフィックの分割が標準化されない場合は、次の点を確認する必要があります。
 
-   * 最新の at.js ライブラリを使用しているか。 現在のバージョンと関連するリリースノートについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}.
+   * 最新の at.js ライブラリを使用しているか。 現在のバージョンと関連するリリースノートについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}.
 
    * リダイレクトテストですか？ ページでタグが実行されるタイミングが正しくない場合、特にを使用する際に、トラフィックが均等に分割される可能性があります [!DNL Analytics] を [!DNL Target] アクティビティ。 Analytics for Target(A4T) を使用したリダイレクトアクティビティでの不均等なトラフィック配分を修正する方法について詳しくは、 [リダイレクトオファー — A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

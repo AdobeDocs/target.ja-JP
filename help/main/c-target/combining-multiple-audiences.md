@@ -1,13 +1,13 @@
 ---
 keywords: オーディエンス、オーディエンスルール、結合、オーディエンス、exclusion、除外の追加、exclude、結合オーディエンス、アドホックオーディエンス、アドホックオーディエンス
-description: 複数のオーディエンス (Adobe Experience Cloudのオーディエンス、 [!DNL Target] オーディエンス ) をオンフライで作成し、アドホックオーディエンスを作成する必要があります。
+description: 複数のオーディエンス (Adobe Experience Cloudのオーディエンスと [!DNL Target] オーディエンス ) をオンフライで作成し、アドホックオーディエンスを作成する必要があります。
 title: 複数のオーディエンスを組み合わせて新しいオーディエンスを作成することはできますか？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 65%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] は、このトピックで説明するように、そのまま使用することも、既存のオーディエンスと組み合わせて使用することもできます。
+>The [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] は、このトピックで説明するように、そのまま使用することも、既存のオーディエンスと組み合わせて使用することもできます。
 >
 >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](/help/main/c-target/c-audiences/audiences.md#aep).
 
 「新規訪問者」オーディエンスと「Chrome ユーザー」オーディエンスがあるとします。特定のアクティビティについて、これらの既存のオーディエンスを結合して、Chrome ブラウザーを使用する新規訪問者をターゲティングします。第 3 オーディエンスを作成して[!UICONTROL オーディエンス]ライブラリに保存する代わりに、これらの 2 つのオーディエンスをアクティビティの作成時または既存のアクティビティの編集時に結合することができます。
 
-もう 1 つの例として、すべてのロイヤルティ顧客をターゲットに設定できます。 例えば、特定の [!DNL Audience Manager] ロイヤリティステータスのオーディエンスと [!DNL Target] オーディエンスは、現在のセッション中にロイヤルティプログラムに登録した人で構成されます。 これら 2 つのオーディエンスを組み合わせる方が、3 つ目の永続的なオーディエンスを作成するよりも簡単です。
+もう 1 つの例として、すべてのロイヤルティ顧客をターゲットに設定できます。 例えば、特定の [!DNL Audience Manager] ロイヤリティステータスのオーディエンスと、 [!DNL Target] オーディエンスは、現在のセッション中にロイヤルティプログラムに登録した人で構成されます。 これら 2 つのオーディエンスを組み合わせる方が、3 つ目の永続的なオーディエンスを作成するよりも簡単です。
 
 AND および OR 演算子を使用して、最大 20 個のオーディエンスを組み合わせることができます。
 
@@ -39,7 +39,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
 1. **[!UICONTROL オーディエンスを選択]**&#x200B;ページで、結合オーディエンスの構成要素として使用するオーディエンスの横にあるチェックボックスをオンにします。
 
-   以下を使用： [!UICONTROL オーディエンスを検索] 」ボックスを使用して、目的のオーディエンスの検索を絞り込みます。
+   以下を使用します。 [!UICONTROL オーディエンスを検索] 」ボックスを使用して、目的のオーディエンスの検索を絞り込みます。
 
    ![ステップの結果](assets/combine_multiple_audiences1.png)
 
@@ -49,7 +49,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
 1. （条件付き）必要に応じて新しい結合オーディエンスを編集します。
 
-   [!UICONTROL オーディエンスを編集]ダイアログボックスでは、追加するオーディエンスの構成要素を左側から新しい結合オーディエンスにドラッグ＆ドロップできます。また、除外ルールを追加したり、オーディエンスを除外したりすることもできます。
+   The [!UICONTROL オーディエンスを編集] ダイアログボックスで、追加のオーディエンス構築要素を左側から新しい結合オーディエンスにドラッグ&amp;ドロップできます。 また、除外ルールを追加したり、オーディエンスを除外したりすることもできます。
 
    1. ドラッグ&amp;ドロップ機能を使用して、既存のセクション内にオーディエンスをレベル 2 の構成要素として追加します。
 
@@ -69,7 +69,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
       オーディエンスをドラッグ&amp;ドロップします。
 
-      例えば、新規訪問者から米国の訪問者を除外するには、Market を次のようにドラッグします。米国のオーディエンスを追加しました。
+      例えば、新規訪問者から米国の訪問者を除外するには、 Market: United States オーディエンスをボックスにドラッグします。
 
       この結合オーディエンスには、Safari または Firefox を使用するすべてのサイト訪問者が含まれます（San Francisco からの訪問者を除く）。
 
@@ -77,19 +77,19 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
       例えば、Firefox を使用する訪問者を除く、すべての新規サイト訪問者を含む結合オーディエンスを作成できます。Firefox を使用する訪問者の除外は、複数のブラウザー（Safari、Chrome、Internet Explorer）を明示的に含み、Firefox を含まない結合オーディエンスを作成するよりも簡単で、すばやくおこなえます。
 
-1. 結合オーディエンスのわかりやすい名前を入力し、 **[!UICONTROL 完了]**.
+1. 結合オーディエンスのわかりやすい名前を入力し、「 **[!UICONTROL 完了]**.
 
 ## 指標のターゲティングで使用する結合オーディエンスを作成 {#section_A42E795AFCBD4575809C5942039910F0}
 
 アクティビティの[!UICONTROL 目標と設定]ページで、指標のターゲティングで使用する結合オーディエンスをアドホックに作成できます。例えば、結合オーディエンスによるコンバージョンに基づいてターゲティングを作成するには、以下の手順に従います。
 
-1. [アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を編集または作成中に、**[!UICONTROL 目標と設定]** ページでで、成功指標の&#x200B;**[!UICONTROL コンバージョン]**&#x200B;を選択し、アクションとして「**[!UICONTROL Mbox を表示]**」を選択します。
+1. を編集または作成する際に、 [アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)、 **[!UICONTROL 目標と設定]** ページ、選択 **[!UICONTROL コンバージョン]** 成功指標で、「 **[!UICONTROL Mbox が表示された]** を選択します。
 1. 目的の mbox を「**[!UICONTROL mbox を検索]**」フィールドで選択します。
 
    ![combine_multiple_audiences4 画像](assets/combine_multiple_audiences4.png)
 
-1. 歯車アイコンをクリックし、「**[!UICONTROL オーディエンスターゲティングを追加]**」をクリックします。
-1. 「**[!UICONTROL オーディエンス／ターゲット条件を追加]**」リンクをクリックして、[!UICONTROL オーディエンスを選択]ダイアログボックスを表示します。
+1. 歯車アイコンをクリックしてから、「**[!UICONTROL オーディエンスのターゲット設定を追加]**」をクリックします。
+1. 「**[!UICONTROL オーディエンス / ターゲット条件を追加]**」リンクをクリックして、[!UICONTROL オーディエンスを選択]ダイアログボックスを表示します。
 
    ![combine_multiple_audiences5 画像](assets/combine_multiple_audiences5.png)
 
@@ -99,7 +99,7 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
 アクティビティの[!UICONTROL 目標と設定]ページで、レポートで使用する結合オーディエンスをアドホックに作成できます。
 
-1. While editing or creating an[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)の編集時または作成時に、**[!UICONTROL 目標と設定]**&#x200B;ページで、「**[!UICONTROL レポート対象のオーディエンス]**」の下の[!UICONTROL オーディエンスを追加]アイコンをクリックして、[!UICONTROL オーディエンスを選択]ページを表示します。
+1. を編集または作成する際に、 [アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)、 **[!UICONTROL 目標と設定]** ページで、 **[!UICONTROL オーディエンスを追加]** 下のアイコン [!UICONTROL レポート用のオーディエンス] 表示する [!UICONTROL オーディエンスを選択] ページに貼り付けます。
 
    ![combine_multiple_audiences6 の画像](assets/combine_multiple_audiences6.png)
 
@@ -109,17 +109,17 @@ AND および OR 演算子を使用して、最大 20 個のオーディエン�
 
 既存のアクティビティの編集時に結合オーディエンスをアドホックに作成することができます。
 
-1. [!UICONTROL アクティビティ]ページで、目的のアクティビティの上にマウスポインターを置いて、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
+1. [!UICONTROL アクティビティ]ページで、目的のアクティビティの上にカーソルを移動し、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    または
 
-   目的のアクティビティをクリックして開き、「**[!UICONTROL アクティビティ を編集]**」をクリックします。
+   目的のアクティビティをクリックして開き、「**[!UICONTROL アクティビティを編集]**」をクリックします。
 
 1. 次をクリック： **[!UICONTROL 設定]** > **[!UICONTROL オーディエンス]** > **[!UICONTROL 複数のオーディエンス]**.
 
    ![設定／オーディエンス／複数のオーディエンス](assets/combine_multiple_audiences7.png)
 
-1. アクティビティの現在のオーディエンスの横にある、その他のオプションアイコン（縦並びの省略記号）をクリックし、「**[!UICONTROL オーディエンスを変更]**」をクリックします。
+1. アクティビティの現在のオーディエンスの横にあるその他のオプションアイコン（縦並びの省略記号）をクリックして「**[!UICONTROL オーディエンスを変更]**」をクリックします。
 
    ![オーディエンスを変更](assets/combine_multiple_audiences8.png)
 

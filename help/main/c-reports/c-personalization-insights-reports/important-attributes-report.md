@@ -1,14 +1,14 @@
 ---
 keywords: ターゲット設定;AP レポート;Automated Personalizationレポート;自動ターゲット;自動的なターゲット;自動ターゲットレポート;自動的なターゲットのレポート;パーソナライゼーション;インサイト;FAQ;よくある質問;重要な属性
-description: 使用方法 [!UICONTROL 重要な属性] パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示すレポート。
+description: の使用方法を学ぶ [!UICONTROL 重要な属性] パーソナライゼーションモデルに影響を与えた上位の属性とその相対的重要度を示すレポート。
 title: 重要な属性レポートとは何ですか。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 74%
+source-wordcount: '1871'
+ht-degree: 67%
 
 ---
 
@@ -22,14 +22,13 @@ ht-degree: 74%
 >
 >* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 >
->* [!UICONTROL パーソナライゼーションインサイトレポートは、コンバージョン最適化目標を使用する AP および AT アクティビティについてのみ使用できます。]アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、コンバージョンの最適化目標を使用する AP および AT アクティビティでのみ使用できます。 アクティビティがライブになった後で最適化目標が売上高からコンバージョンに変更されたアクティビティもサポートされません。
 >
 >* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL プライマリ目標] が [!UICONTROL レポート指標] 」ドロップダウンリストから選択できます。
 >
->* パーソナライゼーションインサイトレポートは、[デフォルト環境](/help/main/administrating-target/hosts.md)でのみサポートされています。
+>* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [デフォルト環境](/help/main/administrating-target/hosts.md) のみ。
 >
 >* [!UICONTROL パーソナライゼーションインサイト] レポートは、 [!UICONTROL ライブ] のステータスと、少なくとも 15 日間アクティブ化され、トラフィックを受け取っていること。
-
 
 異なるアクティビティでは、モデルによるパーソナライゼーションの決定にとって重要な属性も多かれ少なかれ異なります。このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
 
@@ -41,7 +40,7 @@ ht-degree: 74%
 
 1. 「**[!UICONTROL レポート]**」をクリックします。
 
-   この [Automated Personalization概要](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加のアイコンは、 [!UICONTROL パーソナライゼーションインサイト] レポート： [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性].
+   The [Automated Personalization Summary](/help/main/c-reports/personalization-reports/reports-ap.md) または [自動ターゲットの概要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 最初の画面アイコンで表される、アクティビティのパフォーマンスに関する情報を提供するレポートが表示されます。 2 つの追加のアイコンは、 [!UICONTROL パーソナライゼーションインサイト] レポート： [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性].
 
    ![Automated Personalizationアクティビティの概要レポート](/help/main/c-reports/assets/summary-report-ap.png)
 
@@ -51,15 +50,15 @@ ht-degree: 74%
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過した後、アクティビティにパーソナライズされた十分なトラフィックがあると仮定すると、 [!UICONTROL 重要な属性] レポートが使用可能になっている。
+   >[!UICONTROL 重要な属性]レポートは、アクティビティを有効にしてから 15 日以上経過するまでは使用できません。この初期期間中は、このレポートにアクセスできません。また、[!UICONTROL 重要な属性]アイコンをクリックすることもできません。15 日が経過した後、アクティビティにパーソナライズされた十分なトラフィックがあると仮定して、 [!UICONTROL 重要な属性] レポートが使用可能になっている。
 
-1. アクティビティをアクティブ化してから 15 日経ったら、 **[!UICONTROL 重要な属性]** アイコン
+1. アクティビティをアクティブ化してから 15 日経ったら、 **[!UICONTROL 重要な属性]** アイコン。
 
    ![Adobe Targetレポートの重要な属性アイコン](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 目的の日付範囲を選択します。
 
-   とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 重要な属性]は、次の固定日付範囲でのみ使用できます。15 日、30 日、60 日。
+   とは異なり、 [!UICONTROL 概要] レポート（パフォーマンスレポート） [!UICONTROL パーソナライゼーションインサイト]を含む [!UICONTROL 重要な属性]は、15 日、30 日、60 日の固定日付範囲でのみ使用できます。
 
    これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「開始日」はグレー表示になっています。開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
@@ -85,14 +84,14 @@ ht-degree: 74%
 
 | 要素 | 詳細 |
 |--- |--- |
-| 棒グラフ | 画面上部にある多色の横向き棒グラフでは、これらの相対的重要度スコアを視覚化し、表内の各属性の横にあるドットの色にマッピングさせることができます。棒グラフの特定の色にマウスポインターを置くと、その色で表される属性が表示されます。上位 100 個の属性の重要度スコアを加算すると 100% になります。Target のパーソナライゼーションモデルで使用できる属性を追加する方法について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| 棒グラフ | 画面上部にある多色の横向き棒グラフでは、これらの相対的重要度スコアを視覚化し、表内の各属性の横にあるドットの色にマッピングさせることができます。棒グラフの特定の色にマウスポインターを置くと、その色で表される属性が表示されます。上位 100 個の属性の重要度スコアを加算すると 100% になります。Target のパーソナライゼーションモデルで使用できる属性をさらに追加する方法について詳しくは、 [Target のパーソナライゼーションアルゴリズムのデータのアップロード](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | モデル属性ランキンググラフ | モデル属性ランキングには、各訪問者にどのようなコンテンツを表示するかを Target のパーソナライゼーションモデルで決定するうえで最も重要であった上位 10 個の属性が含まれています。重要度スコアは、このアクティビティにおける Target のパーソナライゼーションモデルにとって特定の属性がどの程度重要であったかを、上位 100 個の属性を基準にして示します。 |
 
 ## 重要な属性に関する FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-の使用に関するよくある質問に対する回答については、次の FAQ を参照してください [!UICONTROL 重要な属性] レポート。
+の使用に関するよくある質問に対する回答については、次の FAQ を参照してください。 [!UICONTROL 重要な属性] レポート。
 
-### 自分のアクティビティにまだパーソナライゼーションインサイトレポートを使用できません。これはなぜですか？
+### 自分のアクティビティにまだパーソナライゼーションインサイトレポートを使用できません。 なぜ？
 
 お客様のアクティビティにまだ[!UICONTROL パーソナライゼーションインサイト]レポートを使用できない場合は、次のように、いくつかの理由があります。
 
@@ -100,19 +99,19 @@ ht-degree: 74%
 * 指定した期間中、アクティビティに十分なトラフィックがありませんでした。15 日が経過したら、パーソナライゼーションモデルを構築できるだけの[パーソナライズされた十分なトラフィック](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)がアクティビティにあると仮定して、自動セグメントレポートと重要な属性レポートを使用できるようになります。
 * お客様のアクティビティに売上高最適化目標があります。現時点では、[!UICONTROL パーソナライゼーションインサイト]は、コンバージョン最適化目標のアクティビティにのみ使用できます。今後のリリースで、売上高最適化目標のアクティビティもサポートする予定です。
 
-### 属性とは何ですか？
+### 属性とは
 
 属性は、訪問者または訪問者の特定の訪問に関する情報で、トラフィックのパーソナライズ方法を知るためにパーソナライゼーションアルゴリズムで使用されます。例えば、ブラウザータイプ、場所、訪問時刻などが属性になります。
 
-[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}.
+[!DNL Target] でパーソナライゼーションモデルで使用される属性について詳しくは、[Target のパーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。新しい属性を Target にアップロードして Target のパーソナライゼーションモデルで使用する方法について詳しくは、 [データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ### モデルでトレーニングに使用する必要がない属性が 1 つ以上表示されます。これらの属性をトレーニングモデルから削除できますか？ {#models-api}
 
-この [!UICONTROL モデル API]は API とも呼ばれブロックリスト、の機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ 1 つ以上の属性を、AP または AT アクティビティでモデルが使用するのを除外する場合は、モデル API を使用して、これらの属性を「」に追加できまブロックリストす。
+The [!UICONTROL モデル API]は API とも呼ばれブロックリストに加える、の機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 [!UICONTROL Automated Personalization] (AP) および [!UICONTROL 自動ターゲット] (AT) アクティビティ 1 つ以上の属性を、AP または AT アクティビティでモデルが使用するのを除外する場合は、モデル API を使用して、これらの属性を「」に追加できまブロックリストに加えるす。
 
 詳しくは、 [モデル API の概要](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
-### [!UICONTROL 自動セグメント]レポートと[!UICONTROL 重要な属性]レポートの情報は、CSV ダウンロードの情報と同じですか？
+### 情報が [!UICONTROL 自動セグメント] および [!UICONTROL 重要な属性] は、CSV ダウンロードのと同じレポートを表示しますか？
 
 いいえ、UI レポートには、限定された情報のみ含まれています。CSV ダウンロードには、追加の詳細情報が含まれています。自動セグメントインサイトレポートのダウンロードには、UI に含まれている上位セグメント以外のセグメントのほか、オファーやエクスペリエンスに対するこれらのセグメントのパフォーマンスが含まれています。重要な属性レポートには、上位 100 個の訪問者属性とそれらの相対的重要度が含まれていますが、UI には上位 10 個の訪問者属性のみ含まれます。
 
@@ -120,9 +119,9 @@ ht-degree: 74%
 
 パーソナライゼーションインサイトレポート（[!UICONTROL 自動セグメント]と[!UICONTROL 重要な属性]の両方）は、15 日、30 日、45 日、60 日、90 日の固定日付範囲でのみ使用できます。これらの固定日付範囲を使用すると、[!UICONTROL パーソナライゼーションインサイト]で十分に広い範囲のデータを使用して、アクティビティにおける短期的なパターンからインサイトを得る危険性を減らすことができます。これらの期間は任意の終了日に対して選択できます（期間を満たすのに十分なデータがアクティビティにある場合）。
 
-### [!UICONTROL パーソナライゼーションインサイト]はどのように作成するのですか？
+### の仕組み [!UICONTROL パーソナライゼーションインサイト] 作成済み？
 
-[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、Adobeの研究チームの公表論文を参照してください。 [arXiv.org Web サイト](https://arxiv.org/abs/1706.07160).
+[!UICONTROL パーソナライゼーションインサイト]は、MAGIX（Model Agnostic Globally Interpretable Explanations）と呼ばれる、アドビの特許出願中の手法を使用して作成されます。MAGIX について詳しくは、Adobeの研究チームの公表論文を参照してください。 [arXiv.org web サイト](https://arxiv.org/abs/1706.07160).
 
 ### 次に該当 [!UICONTROL パーソナライゼーションインサイト] 売上高ベースのモデリング目標/主な目標に使用できますか？
 
@@ -132,7 +131,7 @@ ht-degree: 74%
 
 レポートの「属性重要度ランキング」の重要度スコアを見れば、すべての訪問者を識別済みのセグメントに分類する方法をアルゴリズムで決定したとき、学習に使用された変数のうち最も重要であったものがわかります。モデルで使用された上位 100 個の属性には、パーセントスコアが割り当てられています。
 
-### コンバージョン率の低いオファー／エクスペリエンスでも、特定の自動セグメントの他のオファー／エクスペリエンスより多くのトラフィックを獲得することがあるのはなぜですか？
+### コンバージョン率の低いオファー/エクスペリエンスでも、特定の自動セグメントの他のオファー/エクスペリエンスより多くのトラフィックを獲得することがあるのはなぜですか？
 
 自動セグメント内のコンバージョン率の低いオファーやエクスペリエンスの方が訪問数が多い場合、考えられる理由は、以下のようにいくつかあります。
 
@@ -144,7 +143,7 @@ ht-degree: 74%
 
 トラフィックを提供するモデルがどのように機能するかを知ることは有用です。各個人は、それぞれの合計プロファイルに基づいて提供されます。ただし、インサイトレポートは、この動作を一般化して、人間が解釈しやすいものにします。結果として、セグメントは相互に排他的ではありません。同一人物が複数のセグメントに現れる可能性があるので、個々のセグメントでこのタイプの動作が表示されることになる可能性があります。
 
-### パーソナライゼーションインサイトの情報を活用するには、他にどのような方法がありますか？
+### パーソナライゼーションインサイトでこの情報を活用する方法は何ですか？
 
 * ターゲットとなる新しいオーディエンスを発見します。パフォーマンスが特に良い特定の自動セグメントが見つかったら、そのセグメントを他のレポートで再利用できるようにオーディエンスを作成することを検討するとよいでしょう。
 * どのようなタイプの訪問者がどのエクスペリエンスに反応するかについての仮説を検証します。

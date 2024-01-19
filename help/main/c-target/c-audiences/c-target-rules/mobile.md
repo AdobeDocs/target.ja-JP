@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: モバイルオプションに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -27,22 +27,22 @@ ht-degree: 39%
 
 | パラメーター | タイプ | 説明 |
 |--- |--- |--- |
-| devicePixelRatio | 文字列 | ブラウザー上の物理的なピクセルとデバイスに依存しないピクセル（dips）の比率。例：「1.5」や「2」 |
+| devicePixelRatio | 文字列 | ブラウザー上の物理ピクセルとデバイスに依存しないピクセル (dips) の比率です。 例：「1.5」や「2」 |
 | screenOrientation | 文字列 | デバイスとブラウザーの JavaScript エンジンは、デバイスオリエンテーションに対応します。横または縦にすることができます。 |
 | webGLRenderer | 文字列 | グラフィックドライバーのブラウザーレンダラーです。 |
 
 >[!NOTE]
 >
->Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} （またはそれ以降）。
+>Mobile SDK を使用しているお客様は、この機能を適用するために何もする必要はありません。 at.js を使用するお客様は、 [at.js バージョン 1.5.0 へのアップグレード](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} （またはそれ以降）。
 
 複数のモバイルデバイスプロパティを選択できます。複数の選択は、OR 演算子で結合されます。
 
 （at.js または Mobile SDK を使用していない）カスタム統合を使用しているユーザーは、これらのパラメーターを手動で収集して mbox パラメーターとして渡すことができます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
+1. Adobe Analytics の [!DNL Target] インタフェース、クリック **[!UICONTROL オーディエンス]** > **[!UICONTROL オーディエンスを作成]**.
 1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. ドラッグ&amp;ドロップ **[!UICONTROL モバイル]** を audience builder パネルにドラッグします。
-1. 「**[!UICONTROL 選択]**」をクリックし、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 選択]**」をクリックして、次のいずれかのオプションを選択します。
 
    * デバイスのマーケティング名
    * デバイスモデル
@@ -59,7 +59,7 @@ ht-degree: 39%
    >[地域設定](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)を使用してモバイルデバイスの通信事業者にターゲット設定できます。
 
 1. （オプション）オーディエンス用の追加のルールを設定します。
-1. 「 **[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 以下の図に、Google製のモバイルデバイスを使用する訪問者をターゲティングするオーディエンスを示します。
 

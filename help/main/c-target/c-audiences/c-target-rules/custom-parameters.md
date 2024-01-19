@@ -4,10 +4,10 @@ description: カスタムパラメーターをに渡す方法を説明します�
 title: カスタムパラメーターに基づいて訪問者をターゲット設定することはできますか？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 43%
+source-wordcount: '491'
+ht-degree: 37%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 43%
 
 カスタムパラメーターは、 [!DNL Adobe Target]. mbox に対して mbox パラメーターを渡す場合、または `targetPageParams` 関数で指定した場合、これらのパラメーターはオーディエンスで使用するためにここに表示されます。
 
-詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}.
+詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 mbox パラメーターに基づいてカスタムオーディエンスを作成しているときに、`mboxParameter` で `mboxName` の入力が求められなくなりました。mbox 名はオプションになりました。この変更により、複数の mbox のパラメーターを使用することや、まだエッジで記録されていないパラメーターを参照することができます。
 
-1. [!DNL Target] インターフェイスで、**[!UICONTROL オーディエンス]**／**[!UICONTROL オーディエンスを作成]**&#x200B;をクリックします。
+1. Adobe Analytics の [!DNL Target] インタフェース、クリック **[!UICONTROL オーディエンス]** > **[!UICONTROL オーディエンスを作成]**.
 1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. ドラッグ&amp;ドロップ **[!UICONTROL カスタム]** を Audience Builder に貼り付けます。
 
@@ -48,8 +48,8 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
    * 次よりも小さいか等しい
    * パラメーターが存在する
    * パラメーターが存在しません
-   * パラメータ値が存在する
-   * パラメータ値が存在しません
+   * パラメーター値が存在する
+   * パラメーター値が存在しません
    * パラメーターまたは値が存在しない
    * 最初に、
    * 次の語句で終わる
@@ -58,18 +58,18 @@ mbox パラメーターに基づいてカスタムオーディエンスを作成
 
 1. 新しい行に各値を入力します。
 1. （オプション）オーディエンス用の追加のルールを設定します。
-1. 「 **[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
-オーディエンスの[ポップアップカード内の定義の詳細](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)には、「Rules」セクションにパラメーター名が表示されます。****&#x200B;フィルタリングに使用する mbox への参照はありません。
+オーディエンスの [定義の詳細ポップアップカード](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) には、 **[!UICONTROL ルール]** 」セクションに入力します。 フィルタリングに使用する mbox への参照はありません。
 
 >[!NOTE]
 >
->( [!DNL Target] 18.5.1 リリース（2018 年 5 月 23 日）では、mbox 名はオーディエンスの定義ポップアップカードに表示されません。 カスタムオーディエンスを再度保存すると、mbox 名がカードに表示されます。
+>以前に作成されたカスタムオーディエンスの場合 [!DNL Target] 18.5.1 リリース（2018 年 5 月 23 日）では、mbox 名はオーディエンスの定義ポップアップカードに表示されません。 カスタムオーディエンスを再度保存すると、mbox 名がカードに表示されます。
 
 ## 注意点 {#considerations}
 
 * オーディエンスおよびアクティビティは、特定の mbox 用に評価されます。例えば、グローバル mbox が特定のパラメーターを渡すが、リージョナル mbox は渡さない場合、そのパラメーターをターゲットにしたアクティビティ/オーディエンスは、リージョナル mbox では対象になりません。
-* ターゲティングは、mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId、mboxVersion などの内部 mbox パラメーターで評価されません。
+* ターゲティングは、mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId、mboxVersion などの内部 mbox パラメーターでは評価されません。
 
 ## トレーニングビデオ：オーディエンスの作成 ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 

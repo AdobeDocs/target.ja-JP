@@ -4,10 +4,10 @@ description: 訪問者のプロファイルに保存され、Adobe [!DNL Target]
 title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2456'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、[グローバル mbox にパラメーターを渡す](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}を参照してください。<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、Profile Update API メソッドを使用して渡すことができます。詳しくは、[ [!DNL Adobe Target]  API ドキュメントのプロファイルの更新](https://developers.adobetarget.com/api/#updating-profiles)を参照してください。 |
    | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客が支払った合計金額など）を保存することができ、mbox リクエストごとに実行されます。以下の「プロファイルスクリプト属性」を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -73,7 +73,7 @@ if (mbox.name == 'Track_Interest') {
 * `user.get('parameterName')` を含むコード内で、プロファイルスクリプト属性（それ自体を含む）を参照します。
 * `user.setLocal('variable_name', 'value')` を使用すると、スクリプトを次回実行するとき（次の mbox リクエストの発生時）にアクセスされる可能性がある変数を保存できます。`user.getLocal('variable_name')` の変数を参照します。このプロセスは、最後のリクエストの日時を参照する場合に便利です。
 
-   これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。
+  これらの値は、プロファイルスクリプトと同様に保持されますが、設定されたスクリプト内でのみアクセスできます。
 
 * パラメーターと値は、大文字と小文字を区別します。アクティビティやテストの実行中に受け取るパラメーターおよび値の大文字と小文字を一致させてください。
 * その他の JavaScript 構文については、後述の「スクリプトプロファイルパラメーターに関する JavaScript リファレンス」を参照してください。
@@ -101,7 +101,6 @@ if (mbox.name == 'Track_Interest') {
 >
 > * アクティビティのステータスが[!UICONTROL ドラフト]の場合。
 > * アクティビティで使用されるコンテンツまたはオファーが、スクリプト変数（アクティビティ内のインラインオファーまたはオファーライブラリ内のオファー）を使用する場合。
-
 
 ## 特定の状況での Target によるプロファイルスクリプトの無効化 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -135,9 +134,9 @@ if (mbox.name == 'Track_Interest') {
 * スクリプトのパフォーマンスだけでなく、すべてのスクリプトを組み合わせた総合的なパフォーマンスにも注意してください。ベストプラクティスとして、[!DNL Adobe] では、命令数の合計が 5,000 未満となるようにすることをお勧めします。命令数がカウントされているかどうかは不明ですが、注意すべき重要な点は、手順が 2,000 を超えるスクリプトは自動的に無効になることです。アクティブなプロファイルスクリプトの数は 300 を超えないようにしてください。各スクリプトは、mbox が 1 回呼び出されるたびに実行されます。必要なスクリプトだけを実行します。
 * 正規表現では、先頭にドットとアスタリスクを置く（例：`/.*match/`、`/a|.*b/`）のはほとんど必要ありません。正規表現検索は、文字列のすべての位置から開始（`^` でバインドされている場合を除く）されるので、ドットとアスタリスクは既に想定されています。そうした正規表現が十分な長さ（数百文字以下）の入力データに一致すると、スクリプトの実行は中断されます。
 * すべてを実行してもうまくいかない場合は、スクリプトを try ～ catch 文で囲みます。
-* 次の推奨事項を参考にして、プロファイルスクリプトの複雑さを制限できます。プロファイルスクリプトで実行できる命令の数は制限されています。
+* 次のレコメンデーションを参考にして、プロファイルスクリプトの複雑さを制限できます。プロファイルスクリプトで実行できる命令の数は制限されています。
 
-   ベストプラクティスは次のとおりです。
+  ベストプラクティスは次のとおりです。
 
    * プロファイルスクリプトをできるだけ小さく、簡単にします。
    * 正規表現を使用しないか、単純な正規表現のみを使用します。単純な式でも、評価には多くの命令を受けることができます。
@@ -157,27 +156,27 @@ if (mbox.name == 'Track_Interest') {
 
 * **プロファイルスクリプトをレスポンストークンとして追加し、プロファイルスクリプトをデバッグする**
 
-   [!DNL Target] で&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックし、デバッグするプロファイルスクリプトを有効にします。
+  [!DNL Target] で&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL レスポンストークン]**&#x200B;をクリックし、デバッグするプロファイルスクリプトを有効にします。
 
-   次に示すように、[!DNL Target] を使用してページをサイトに読み込むたびに [!DNL Target] からのレスポンスの一部として、指定したプロファイルスクリプトの値が含まれます。
+  次に示すように、[!DNL Target] を使用してページをサイトに読み込むたびに [!DNL Target] からのレスポンスの一部として、指定したプロファイルスクリプトの値が含まれます。
 
-   ![debug_profile_script_1 画像](assets/debug_profile_script_1.png)
+  ![debug_profile_script_1 画像](assets/debug_profile_script_1.png)
 
 * **mboxTrace デバッグツールを使用して、プロファイルスクリプトをデバッグする**
 
-   このメソッドでは、[!UICONTROL デバッガーツール]セクションの&#x200B;**[!UICONTROL Target]**／**[!UICONTROL 管理]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
+  このメソッドでは、[!UICONTROL デバッガーツール]セクションの&#x200B;**[!UICONTROL Target]**／**[!UICONTROL 管理]**／**[!UICONTROL 実装]**／**[!UICONTROL 認証トークンを生成]**&#x200B;をクリックして生成できる認証トークンが必要です。
 
-   その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の「?」の後に追加します。
+  その後、2 つのパラメーター `mboxTrace=window&authorization=YOURTOKEN` をページ URL の「?」の後に追加します。
 
-   これらのパラメーターを追加することで、プロファイルの実行前後のスナップショットを取得できるため、レスポンストークンよりもやや詳細な情報を提供します。また、使用可能なすべてのプロファイルも表示されます。
+  これらのパラメーターを追加することで、プロファイルの実行前後のスナップショットを取得できるため、レスポンストークンよりもやや詳細な情報を提供します。また、使用可能なすべてのプロファイルも表示されます。
 
-   ![debug_profile_script_2 画像](assets/debug_profile_script_2.png)
+  ![debug_profile_script_2 画像](assets/debug_profile_script_2.png)
 
 ## プロファイルスクリプトの FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **プロファイルスクリプトを使用してデータレイヤーにあるページから情報を取得できますか？**
 
-プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データを渡すには、mbox リクエストまたは他の[データを Target に送信する方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ja){target=_blank}を使用する必要があります。データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
+プロファイルスクリプトはサーバー側で実行されるので、プロファイルスクリプトを使用してページを直接読み取ることはできません。データは、mbox リクエストまたは他の [データを Target に送信する方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. データを [!DNL Target] に送信した後は、プロファイルスクリプトを使用して、データを mbox パラメーターまたはプロファイルパラメーターとして読み取ることができます。
 
 ## スクリプトプロファイルパラメーターに関する JavaScript リファレンス
 

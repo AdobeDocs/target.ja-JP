@@ -4,10 +4,10 @@ description: オーディエンスの使用方法については、 [!DNL Adobe 
 title: オーディエンスリストの使用方法
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 32%
+source-wordcount: '802'
+ht-degree: 26%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 32%
 * [アクティビティ固有のオーディエンスの作成](/help/main/c-target/creating-activity-only-audience.md) そして、ターゲットにします。
 * [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) アドホックオーディエンスを作成するには
 
-また、 [!DNL Adobe Analytics] でのリアルタイムのターゲティングとパーソナライゼーションのための [!DNL Target] その他 [!DNL Adobe Experience Cloud] アプリケーション。 詳しくは、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) 内 *Experience Cloud中央インターフェイスコンポーネント* ガイド。
+また、 [!DNL Adobe Analytics] でのリアルタイムのターゲティングとパーソナライゼーションのための [!DNL Target] その他 [!DNL Adobe Experience Cloud] アプリケーション。 詳しくは、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) （内） *Experience Cloud中央インターフェイスコンポーネント* ガイド。
 
 オーディエンスのタイプは次の 2 つです。 [!DNL Target]:
 
 * **ターゲティングオーディエンス：** 異なるタイプの訪問者に異なるコンテンツを配信するために使用します。
 * **レポート用オーディエンス：** 異なるタイプの訪問者が同じコンテンツにどのように反応するかを判断するために使用され、テスト結果を分析できます。
 
-  [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。レポートソースとして [ Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用する場合は、[!DNL Analytics] 内でレポート用オーディエンスを設定する必要があります。
+  [!DNL Target] では、レポートソースとして [!DNL Target] を使用する場合にのみ、レポート用オーディエンスを設定できます。次を使用する場合、 [レポートソースとしてのAdobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、 [!DNL Analytics].
 
-## 以下を使用： [!UICONTROL オーディエンス] リスト {#use-list}
+## 以下を使用します。 [!UICONTROL オーディエンス] リスト {#use-list}
 
 [!UICONTROL オーディエンス]リストにアクセスするには、上部のメニューバーで「**[!UICONTROL オーディエンス]**」をクリックします。
 
-![オーディエンスリスト](assets/audiences_list.png)
+![[!UICONTROL オーディエンス] リスト](assets/audiences_list.png)
 
-この [!UICONTROL オーディエンス] リストには、アクティビティで使用できるオーディエンスが含まれます。 以下を使用： [!UICONTROL オーディエンス] リストを使用して、オーディエンスを作成、編集、複製、コピー、組み合わせることができます。 リストには、オーディエンスが作成されたソースも表示されます。
+The [!UICONTROL オーディエンス] リストには、アクティビティで使用できるオーディエンスが含まれます。 以下を使用します。 [!UICONTROL オーディエンス] リストを使用して、オーディエンスを作成、編集、複製、コピー、組み合わせることができます。 リストには、オーディエンスが作成されたソースも表示されます。
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
@@ -45,26 +45,26 @@ ht-degree: 32%
 
   >[!NOTE]
   >
-  >この [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] そのまま、またはとして使用できます [既存のオーディエンスとの組み合わせ](/help/main/c-target/combining-multiple-audiences.md).
+  >The [!DNL Adobe Experience Platform] ソースは、すべての [!DNL Target] のお客様が [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}. 次の場所から利用可能なオーディエンス： [!DNL Adobe Experience Platform] そのまま、またはとして使用できます [既存のオーディエンスとの組み合わせ](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >ユーザーが [!UICONTROL 承認者] または [!DNL Target] 設定する [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-time Customer Data Platform]) をクリックします。
+  >ユーザーが [!UICONTROL 承認者] または以下のステータス以上 [!DNL Target] 設定するには [!DNL Target] [!UICONTROL 宛先] AEP/RTCDP のカード ([!DNL Real-time Customer Data Platform]) をクリックします。
   >
   >詳しくは、 [Adobe Experience Platformのオーディエンスを使用](#aep).
 
-事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、&quot;の名前は変更できません。
+事前定義済みのオーディエンス (「[!UICONTROL 新規訪問者]&quot;および&quot;[!UICONTROL 再訪問者]、「」の名前は変更できません。
 
-元々 [!DNL Experience Cloud] または [!DNL Adobe Experience Platform], [!DNL Target] でオーディエンスを参照する場合に警告を表示します。 [!DNL Target] 次の場所で後で削除されたアクティビティ： [!DNL Experience Cloud] または [!DNL Adobe Experience Platform].
+元々で作成されたオーディエンスを操作する場合 [!DNL Experience Cloud] または [!DNL Adobe Experience Platform], [!DNL Target] でオーディエンスを参照する場合に警告を表示します。 [!DNL Target] 次の場所で後で削除されたアクティビティ： [!DNL Experience Cloud] または [!DNL Adobe Experience Platform].
 
 * オーディエンスが [!DNL Experience Cloud] または [!DNL Adobe Experience Platform]( 両方の [!UICONTROL 対象ユーザ] リストとオーディエンスピッカーが表示されます。 ツールチップ [!DNL Target] また、UI は、オーディエンスが [!DNL Experience Cloud] または [!DNL Adobe Experience Platform].
 * 複数のオーディエンスを削除済みのオーディエンスに結合しようとした場合、または削除済みのオーディエンスを参照しているアクティビティを保存しようとした場合、警告メッセージが表示されます。
 
 カスタムプロファイルパラメーターおよび `user.` パラメーターをターゲット設定することもできます。オーディエンスを作成する際に、アクティビティのターゲット設定に使用する属性をオーディエンスビルダーウィンドウにドラッグします。 目的の属性が表示されない場合、その属性は mbox で実行されていません。 他のカスタム mbox パラメーターは、[!UICONTROL カスタムパラメーター]ドロップダウンリストに表示されます。
 
-以下を使用： [!UICONTROL フィルター] ボタンを使用してフィルターを適用します。 [!UICONTROL オーディエンス] ソース別のリスト： [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]、および [!DNL Adobe Experience Platform].
+以下を使用します。 [!UICONTROL フィルター] ボタンを使用してフィルターを適用します。 [!UICONTROL オーディエンス] ソース別のリスト： [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]、および [!DNL Adobe Experience Platform].
 
 ![「フィルター」オプション ( [!UICONTROL オーディエンス] リスト](assets/filters.png)
 
-以下を使用： [!UICONTROL オーディエンスを検索] ボックスで [!UICONTROL オーディエンス] リスト。 オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
+以下を使用します。 [!UICONTROL オーディエンスを検索] ボックスで [!UICONTROL オーディエンス] リスト。 オーディエンス名の一部で検索したり、特定の文字列を引用符で囲んだりすることも可能です。
 
 [!UICONTROL オーディエンス]リストは、オーディエンス名または最終更新日付で並べ替えることができます。名前や日付で並べ替える場合は、列見出しをクリックし、昇順または降順でオーディエンスを表示するよう選択します。
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## [!DNL Adobe Experience Platform] のオーディエンスの使用 {#aep}
 
-[!DNL Adobe Experience Platform] で作成されたオーディエンスを使用すると、よりインパクトのあるパーソナライゼーションにつながる豊富な顧客データがを取得できます。
+で作成されたオーディエンスの使用 [!DNL Adobe Experience Platform] より効果的なパーソナライゼーションにつながる、より豊富な顧客データを提供します。
 
 詳しくは、 [次のオーディエンスを使用： [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

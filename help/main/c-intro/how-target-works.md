@@ -4,10 +4,10 @@ description: JavaScript ライブラリ（AEP Web SDK at.js）、アドビデー
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2507'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 [!DNL Experience Platform Web SDK] または JavaScript ライブラリを使用して、[!DNL Target] を web サイトに統合することが可能です。
 
-* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
-* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} にアップデートすることをお勧めします。
+* **[!DNL Adobe Experience Platform Web SDK]：**[Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} は、新しいクライアントサイド JavaScript ライブラリです。[!DNL Experience Platform Web SDK] を使用すると、[!DNL Adobe Experience Cloud] のお客様は [!DNL Experience Platform] エッジネットワークを介して、[!DNL Experience Cloud] の様々なサービス（[!DNL Target] など）を操作できます。[!DNL Adobe] では、新しい [!DNL Target] ユーザー全員に、[!DNL Experience Platform Web SDK] を実装することを推奨します。
+* **at.js：** at.js ライブラリは、[!DNL Target] の新しい実装ライブラリです。at.js ライブラリは、Web 実装のページ読み込み時間を改善し、シングルページアプリケーション向けのより優れた実装オプションを提供します。at.js は、頻繁にアップデートされ、新しい機能が追加されます。[!DNL Adobe] では、at.js を使用するすべてのお客様に、実装を[最新バージョンの at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} にアップデートすることをお勧めします。
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
-* [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Target] を使用した  [!DNL Adobe Experience Platform] の実装](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 拡張](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
+* [ [!DNL Target] を使用した  [!DNL Adobe Experience Platform] の実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
-訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケティング担当者が制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションを行う、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
+訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、リクエストがターゲティングシステムに送信されます。このリクエストは、その訪問者に提供するコンテンツを決定するのに役立ちます。このプロセスはリアルタイムで発生します。ページが読み込まれるたびに、コンテンツへのリクエストが作成され、システムで処理されます。コンテンツは、マーケターが制御するアクティビティおよびエクスペリエンスのルールによって管理され、個々のサイト訪問者がターゲットになります。各サイト訪問者が最も反応する、インタラクションを行う、または最終的に購入する可能性が最も高いコンテンツが提供されます。コンテンツをパーソナライズすることで、応答率、獲得率および売上高を最大化できます。
 
 [!DNL Target] では、ページ上の各要素は、ページ全体に広がる単一のエクスペリエンスの一部です。各エクスペリエンスでは、ページ上に複数の要素を含めることができます。
 
@@ -72,7 +72,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 ### [!UICONTROL エクスペリエンスのターゲット設定]（XT）
 
-[!UICONTROL エクスペリエンスのターゲット設定]（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
+[!UICONTROL エクスペリエンスのターゲット設定]（XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
 [!UICONTROL エクスペリエンスのターゲット設定]（ジオターゲティングを含む）は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。訪問者がサイトを表示すると、[!UICONTROL エクスペリエンスのターゲット設定]（XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。条件に一致した場合、その訪問者は該当アクティビティの対象となり、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
@@ -96,7 +96,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 応答時間を改善するために、[!DNL Target] Edge はアクティビティロジック、キャッシュされたプロファイル、およびオファー情報のみをホストします。
 
-アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API、およびマーケティング担当者向けのユーザーインターフェイスは、アドビの中央クラスターに格納されます。その後、最新情報が [!DNL Target] Edge に送信されます。中央クラスターとエッジクラスターは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。また、1:1 モデリングがすべて各エッジに保存されるので、複雑なリクエストもエッジ上で処理できます。
+アクティビティおよびコンテンツのデータベース、[!DNL Analytics] データ、API およびマーケター向けのユーザーインターフェイスは、アドビの中央クラスターに格納されます。その後、最新情報が [!DNL Target] Edge に送信されます。中央クラスターとエッジクラスターは自動的に同期され、キャッシュされたアクティビティデータが継続的に更新されます。また、1:1 モデリングがすべて各エッジに保存されるので、複雑なリクエストもエッジ上で処理できます。
 
 各エッジクラスターには、訪問者のコンテンツリクエストに応答し、そのリクエストに関する分析データを追跡するために必要な情報がすべて格納されます。訪問者のリクエストは、最寄りのエッジクラスターに転送されます。
 
@@ -132,9 +132,9 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。中国内のファイアウォールおよびエッジクラスター不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケティング担当者が、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
+>[!DNL Adobe Target] では現在、中国にエッジクラスターはありません。中国における [!DNL Target] のお客様への訪問者パフォーマンスは引き続き制限されます。中国内のファイアウォールおよびエッジクラスター不足により、[!DNL Target] がデプロイされたサイトのエクスペリエンスに影響が及ぶ可能性があります。エクスペリエンスのレンダリング速度が低下し、ページの読み込みに影響する可能性があります。また、マーケターが、[!DNL Target] のオーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -167,25 +167,25 @@ Google はユーザーに対し、テストを推奨しています。Google は
 
 * **クロークなし**：クロークとは、ユーザーに対して特定のコンテンツを表示し、検索エンジンボットには別のコンテンツを表示することです。クロークは、ボットを特別に識別し、異なるコンテンツを意図的にフィードすることで実行されます。
 
-   [!DNL Target] は、プラットフォームとしては検索エンジンボットを他のユーザーと同様に扱うよう設定されています。その結果、ボットがランダムに選択され、テストのバリエーションを「確認」した場合、そのボットをアクティビティに含めることができます。
+  [!DNL Target] は、プラットフォームとしては検索エンジンボットを他のユーザーと同様に扱うよう設定されています。その結果、ボットがランダムに選択され、テストのバリエーションを「確認」した場合、そのボットをアクティビティに含めることができます。
 
 * **rel=&quot;canonical&quot; を使用する**：バリエーションを付けるために、異なる URL を使用して A/B テストを設定する必要が出ることがあります。これらの場合、元来の（コントロール）URL を参照する `rel="canonical"` タグをすべてのバリエーションに追加する必要があります。例えば、[!DNL Adobe] がバリエーションごとに異なる URL を使用してホームページをテストするとします。ホームページの次の canonical タグは、各バリエーションの `<head>` タグ内に配置されます。
 
-   `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **302（一時的な）リダイレクトを使う**：テストでバリエーションのページに異なる URL を使用する場合、Google では、302 リダイレクトを使用してトラフィックを直接テストバリエーションにリダイレクトすることを勧めています。302リダイレクトは、リダイレクトが一時的であり、テストが実行中の間のみアクティブとなることを検索エンジンに通知します。
 
-   302 リダイレクトは、サーバーサイドのリダイレクトであり、[!DNL Target] は他の大多数の最適化プロバイダーと同様、クライアントサイドの機能を使用します。このため、リダイレクトは [!DNL Target] が Google の推奨事項に完全に準拠していない領域になります。ただし、これが影響するのは、ほんの一部のテストのみです。[!DNL Target] でテストを実行するための標準的なアプローチでは、1 つの URL 内でコンテンツの変更を呼び出すため、リダイレクトの必要はありません。クライアントのテストバリエーションを表すように複数の URL を使う必要が出ることもあります。この場合、[!DNL Target]は JavaScript `window.location` コマンドを使用します。このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが 301 と 302 のどちらであるかを明示的に示しません。
+  302 リダイレクトは、サーバーサイドのリダイレクトであり、[!DNL Target] は他の大多数の最適化プロバイダーと同様、クライアントサイドの機能を使用します。このため、リダイレクトは [!DNL Target] が Google のレコメンデーションに完全に準拠していない領域になります。ただし、これが影響するのは、ほんの一部のテストのみです。[!DNL Target] でテストを実行するための標準的なアプローチでは、1 つの URL 内でコンテンツの変更を呼び出すため、リダイレクトの必要はありません。クライアントのテストバリエーションを表すように複数の URL を使う必要が出ることもあります。この場合、[!DNL Target]は JavaScript `window.location` コマンドを使用します。このコマンドは、テストのバリエーションをユーザーに指示します。テストのバリエーションは、リダイレクトが 301 と 302 のどちらであるかを明示的に示しません。
 
-   [!DNL Adobe] では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、[!DNL Adobe] は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
+  [!DNL Adobe] では、検索エンジンのガイドラインに完全に合致する実行可能なソリューションを引き続き探しています。テストに別々の URL を使用する必要があるクライアントの場合、[!DNL Adobe] は、正規タグを適切に実装することで、このアプローチに伴うリスクが軽減されると確信しています。
 
 * **実験を必要な期間のみ実行する**：[!DNL Adobe] では、「必要な期間」を統計的優位差が達成されるまでの期間と考えます。[!DNL Target] には、テストがこの時点に到達したかどうかを判断するためのベストプラクティスと [!DNL Adobe Target] [サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)が用意されています。[!DNL Adobe] では、勝者テストのハードコード実装をテストワークフローに組み込み、適切なリソースを割り当てることをお勧めします。
 
-   [!DNL Target] プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
+  [!DNL Target] プラットフォームを使用して勝者テストを「公開」することは、恒久的なソリューションとしては推奨されません。勝者テストが 100％ のユーザーに対して 100％ の時間公開されている場合、このアプローチは、勝者テストをハードコーディングするプロセスが完了している間使用できます。
 
-   テストが変更した点に留意することも大切です。単純にページ上のボタンの色や、その他の文字ベースでない小さなアイテムを更新しても、オーガニックランキングには大きな影響はありません。ただし、文字の変更はハードコードする必要があります。
+  テストが変更した点に留意することも大切です。単純にページ上のボタンの色や、その他の文字ベースでない小さなアイテムを更新しても、オーガニックランキングには大きな影響はありません。ただし、文字の変更はハードコードする必要があります。
 
-   テストしているページへのアクセスのしやすさに留意することも大切です。検索エンジンからアクセスできず、オーガニック検索でランク付けするように設計されていないページの場合は、上記の考慮事項は一切適用されません。例えば、電子メールキャンペーン専用のランディングページがあります。
+  テストしているページへのアクセスのしやすさに留意することも大切です。検索エンジンからアクセスできず、オーガニック検索でランク付けするように設計されていないページの場合は、上記の考慮事項は一切適用されません。例えば、メールキャンペーン専用のランディングページがあります。
 
 Google によると、これらのガイドラインに従えば、「テストがサイトの検索結果に及ぼす影響はほとんどあるいはまったくない。」とのことです。
 

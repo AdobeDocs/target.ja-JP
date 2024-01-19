@@ -2,12 +2,12 @@
 keywords: Recommendations;導入,導入,ウェビナー;デモ
 description: Adobe  [!DNL Target] の Recommendations アクティビティについて説明します。これらのアクティビティでは、以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のあるコンテンツを自動的に表示します。
 title: Recommendations アクティビティとは？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2086'
 ht-degree: 91%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 91%
 
 ![デジタルファーストブランドを示すレコメンデーション](/help/main/c-recommendations/assets/intro-2.png)
 
-マーケティング担当者は、[!DNL Adobe Target] を使用して、幅広い業種、お客様のタイプおよびチャネルにわたってパーソナライズされたエクスペリエンスを推進します。
+マーケターは、[!DNL Adobe Target] を使用して、幅広い業種、お客様のタイプおよびチャネルにわたってパーソナライズされたエクスペリエンスを推進します。
 
 [!DNL Adobe Target] は、パーソナライズされたコンテンツをあらゆる場所に配信します。
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 
 優れたレコメンデーションは、関連性が高く、パーソナライズされている必要があります。これは、つまり、関連性とパーソナライゼーションを実現するための 3 つの要素が必要ということです。
 
-* レコメンデーションされた品目の関連性を高めるための&#x200B;**マーケティング担当者の制御**。マーケティング担当者の場合、価値のあるコンテキストを提供し、製品やコンテンツのどの属性が考慮すべきレコメンデーションモデルに関連しているかを把握します。ビデオサイトを運営している場合は、ユーザーが同じ監督の映画を見たいと思うかもしれませんが、おそらく同じスタジオが制作した映画を見たいとは思わないでしょう。 [!DNL Target] を使用すると、このドメインの知識でアルゴリズムを強化して制御できます。
+* レコメンデーションされた品目の関連性を高めるための&#x200B;**マーケターの制御**。マーケターの場合、価値のあるコンテキストを提供し、製品やコンテンツのどの属性が考慮すべきレコメンデーションモデルに関連しているかを把握します。ビデオサイトを運営している場合は、ユーザーが同じ監督の映画を見たいと思うかもしれませんが、おそらく同じスタジオが制作した映画を見たいとは思わないでしょう。 [!DNL Target] を使用すると、このドメインの知識でアルゴリズムを強化して制御できます。
 * カタログおよびインタラクションイベントの何百万もの品目の意味を理解するための&#x200B;**洗練されたモデル**。[!DNL Target] には、10 年以上の経験に基づいて構築された洗練された機械学習機能が備わっており、年間数十億ものレコメンデーションを扱っています。
 * レコメンデーションをユーザーにとってタイムリーで関連性の高いものにするための&#x200B;**ユーザーコンテキスト**。誰かが見たばかりのビデオや買い物かごに追加したばかりのシャツをレコメンデーションしたくない場合。 Target のリッチなユーザープロファイルをレコメンデーションで使用して、パーソナライゼーションを確実におこなうことができます。
 
@@ -105,7 +105,7 @@ ht-degree: 91%
 
 ユーザーが表示および購入している品目を [!DNL Target] が認識するようにする必要があります。購入がコンテキストと関係がない場合、PDFのダウンロード、調査の完了、ニュースレターの購読、ビデオの視聴など、様々なタイプのコンバージョンイベントを追跡する必要が生じる場合があります。
 
-既に [!DNL Target] を使用してサイトで A/B テストアクティビティを実行している場合、既にこの手順を完了している可能性があります。または、既に [!DNL Adobe Analytics] を使用してサイト訪問およびコンバージョン行動をレポートしている場合、[!DNL Analytics] を行動データソースとして使用できます。そうでない場合、タグなどのタグマネージャーを使用してこれを設定するのが最も簡単です ( [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. にオフラインまたはアプリ内インタラクションを送信することもできます。 [!DNL Target] リアルタイム API を介して送信されます。
+既に [!DNL Target] を使用してサイトで A/B テストアクティビティを実行している場合、既にこの手順を完了している可能性があります。または、既に [!DNL Adobe Analytics] を使用してサイト訪問およびコンバージョン行動をレポートしている場合、[!DNL Analytics] を行動データソースとして使用できます。そうでない場合、タグなどのタグマネージャーを使用してこれを設定するのが最も簡単です ( [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. にオフラインまたはアプリ内インタラクションを送信することもできます。 [!DNL Target] リアルタイム API を介して送信されます。
 
 ### 適切なコンテキストでのレコメンデーションの取得
 

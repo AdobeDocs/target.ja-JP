@@ -1,20 +1,20 @@
 ---
 keywords: コレクション;ターゲット設定
-description: コレクションのAdobe [!DNL Target] Recommendations。 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
+description: Adobeでのコレクションの使用方法を学ぶ [!DNL Target] Recommendations。 コレクションは、レコメンデーションに使用できる商品または品目のセットです。
 title: Recommendationsアクティビティでコレクションを使用する方法を教えてください。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 53%
 
 ---
 
 # コレクション
 
-コレクションは、レコメンデーションに使用できる商品または品目のセットです。コレクションは、そのコレクションの一部となる項目で満たす必要がある条件を指定することで定義されます。
+コレクションは、レコメンデーションに使用できる商品または品目のセットです。 コレクションは、そのコレクションの一部となる項目で満たす必要がある条件を指定することで定義されます。
 
 一般的に、コレクションは、単一の製品コレクションなどの同一または関連する品目のセットです。ただし、どの品目も、ビジネスに適したカテゴリにグループ化できます。例えば、特定の価格帯の製品や色の製品、特定の地域で興味を引く可能性の高い品目などです。
 
@@ -38,23 +38,23 @@ ht-degree: 60%
 
 レコメンデーションに表示したい製品やコンテンツを整理するために、コレクションを作成します。
 
-1. **[!UICONTROL Recommendations]**／**[!UICONTROL コレクション]**&#x200B;をクリックして、既存のコレクションのリストを表示します。
+1. クリック **[!UICONTROL Recommendations]** > **[!UICONTROL コレクション]** ：既存のコレクションのリストを表示します。
 
    ![コレクションリスト](assets/collections_list.png)
 
-   この [!UICONTROL コレクション] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、 [!UICONTROL コレクションを作成] 」ボタンをクリックします。 コレクションを選択し、目的のアイコンをクリックして、既存のコレクションを編集、コピーおよび削除することもできます。
+   The [!UICONTROL コレクション] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、 [!UICONTROL コレクションを作成] 」ボタンをクリックします。 コレクションを選択し、目的のアイコンをクリックして、既存のコレクションを編集、コピーおよび削除することもできます。
 
-   ![ホバーアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   ![カーソルを合わせたアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。デフォルトのホストグループを変更するには、[設定](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja)を参照してください。{target=_blank}
+   [!UICONTROL コレクション]リストビューで各コレクションについて報告される「項目数」は、現在設定されているデフォルトの Recommendations[ ホストグループ](/help/main/administrating-target/hosts.md)（環境）内でそのコレクションのルールに一致する製品の数です。詳しくは、 [設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} デフォルトのホストグループを変更する場合。
 
-1. 「**[!UICONTROL コレクションを作成]**」をクリックします。
+1. クリック **[!UICONTROL コレクションを作成]**.
 
-1. （条件付き）コレクションの作成（または更新）時に、環境を&#x200B;**[!UICONTROL 環境]**&#x200B;フィルターから選択して、その環境のコレクションのコンテンツをプレビューします。デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き） **[!UICONTROL 環境]** コレクションの作成（または更新）中にフィルターを適用して、その環境のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
    ![コレクションの作成](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. コレクションの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+1. タイプ a **[!UICONTROL 名前]** コレクション用。
 
    オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を入力することもできます。
 
@@ -80,7 +80,7 @@ ht-degree: 60%
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションの上にマウスポインターを置いて、適切なアイコンをクリックします。編集、コピー、削除を行います。
+リスト内の目的のコレクションの上にマウスポインターを置き、適切なアイコン（編集、コピーまたは削除）をクリックします。
 
 ![コレクションのアイコンにマウスポインターを置く](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 

@@ -4,9 +4,9 @@ description: Adobe Target を俯瞰的に見る。利用可能なアクティビ
 title: Target の概要はどこで確認できますか？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2524'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 ## 機能とアクティビティ
 
-テストとパーソナライゼーションは、 [!DNL Target] オファーと、 [!DNL Target]. 「テスト」という用語は、「最適化」と同じ意味で使用され、「パーソナライゼーション」と「ターゲティング」と同じ意味で使用される場合があります。
+テストとパーソナライゼーションは、次の 2 種類の機能です。 [!DNL Target] オファーと、 [!DNL Target]. 「テスト」という用語は、「最適化」と同じ意味で使用され、「パーソナライゼーション」と「ターゲティング」と同じ意味で使用される場合があります。
 
 テストアクティビティでは、デジタルエクスペリエンスの 1 つのバリエーションと 1 つ以上のバリエーションを比較し、ほとんどの訪問者が望ましい行動をとった原因が何かを特定します。[!DNL Target] は次のテスト機能があります：A/B テスト、多変量分析テスト（MVT）、自動配分。
 
@@ -52,8 +52,8 @@ ht-degree: 84%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]**（VEC）、非ビジュアルベースのインターフェイスである **[!UICONTROL フォームベースの Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。[詳細情報](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}. |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]**（VEC）、非ビジュアルベースのインターフェイスである **[!UICONTROL フォームベースの Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 
 ## アクティビティ要素
@@ -76,7 +76,7 @@ ht-degree: 84%
 | --- | --- |
 | [!UICONTROL Visual Experience Composer]（VEC） | サイトコンテキストでパーソナライズされたエクスペリエンスおよびオファーを簡単に作成およびテストできる、WYSIWYG ユーザーインターフェイスです。Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ＆ドロップ、入れ替え、変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
 | [!UICONTROL フォームベースの Experience Composer] | Visual Experience Composer を使用できない場合や、実用的な場合に、A/B テスト、エクスペリエンスターゲット設定、Automated Personalization、Recommendationsアクティビティで使用するエクスペリエンスを作成する際に役立つ、非視覚的なエクスペリエンスおよびオファー作成インターフェイス。 例えば、フォームベースのコンポーザーを使用して、電子メールの配信、キオスクおよび音声アシスタント用のエクスペリエンスおよびオファーを作成できます。[詳細情報](/help/main/c-experiences/form-experience-composer.md) |
-| [!UICONTROL シングルページアプリケーション（SPA）Visual Experience Composer] | SPA 用 VEC を使用すると、継続的な開発に依存せずに、マーケティング担当者が自ら SPA でテストを作成したりコンテンツをパーソナライズしたりすることができます。VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスターゲット設定（XT）アクティビティを作成することが可能です。[詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
+| [!UICONTROL シングルページアプリケーション（SPA）Visual Experience Composer] | SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular などの人気あるフレームワークで A/B テストやエクスペリエンスターゲット設定（XT）アクティビティを作成することが可能です。[詳細情報](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## ガバナンスと管理
 
@@ -111,7 +111,7 @@ ht-degree: 84%
 
 ### 結果に悪影響を与える可能性がある意見
 
-* 効果に悪影響を与える可能性のある意見。最高の有料人物の意見 (HIPPO)、態度、バイアス。 たとえば、CEO は検索ボックスのサイズを小さくして、各ページのスペースを広げたいと考えています。検索回数が減らないかを確認するためにテストする必要があります。
+* 効果に悪影響を与える可能性のある意見。最高の有料人物の意見 (HIPPO)、態度、バイアス。 たとえば、CEO は検索ボックスのサイズを小さくして、各ページのスペースを広げたいと考えています。検索回数が減らないかを確認するために、テストを行う必要があります。
 * 意見に基づいて行動しているか。私はそのテストの見た目が気に入らない。 お客様は、このエクスペリエンスを全く気に入りません。 直感は役に立ちますが、A/B テストは、常に目を離すとは限らないことを何度も証明しています。
 * 直観とともに最適化の理念も持ち合わせてますか？どのエクスペリエンスが優れたかを見て楽しみです。 テストを行うのに十分なオプションはありますか？
 
