@@ -1,20 +1,20 @@
 ---
 keywords: ajo;adobe journey optimizer;adobe journey optimizer target 統合；レコメンデーション；target レコメンデーション；統合
-description: 用途 [!DNL Adobe Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer].
+description: 統合 [!DNL Adobe Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer].
 title: 使用方法 [!DNL Target Recommendations] を使用してカスタマージャーニーで [!DNL Adobe Journey Optimizer]?
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: bb6c83ff393656a634e1e8ddcb02b14dc8d4c8d2
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 6%
 
 ---
 
-# [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer] 統合
+# 統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]
 
 この記事では、の統合を設定するのに役立つ使用例と情報を説明します。 [!DNL Adobe Target Recommendation] および [!DNL Adobe Journey Optimizer] つながり、状況に応じて、パーソナライズされたエクスペリエンスを顧客に提供するのに役立ちます。
 
