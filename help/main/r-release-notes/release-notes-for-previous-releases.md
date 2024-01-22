@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '38027'
+source-wordcount: '38230'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,24 @@ ht-degree: 95%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2023年
+
+### [!DNL Target] Standard／Premium 23.11.1（2023年11月13～14日（PT））
+
+このリリースは、次の日に予定されています。
+
+* **11月13日（PT）**：アジア太平洋（APAC）地域
+* **11月14日（PT）**：南北アメリカ地域
+* **11月14日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能が強化され、[!UICONTROL Automated Personalization] アクティビティのエクスペリエンスに対する[重複オファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)がサポートされました。（TGT-46627）
+* コントロールエクスペリエンスにトラフィックが割り当てられていない場合、アクティビティレポートでデータが使用できない理由をお客様が理解できるように、[!DNL Target] UI にツールチップを追加しました。ツールチップには、次の詳細情報へのリンクが含まれます。[アクティビティのレポートにデータがないのはなぜでしょうか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)（TGT-46610）
+* 一部のお客様の[!UICONTROL アクティビティ]ページにアクティビティが正しく表示されない問題を修正しました。（TGT-46830）
+* [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）をレポートソースとして使用するアクティビティに影響を与える、次の問題を修正しました。
+   * 一部の顧客がレポートデータを表示できない問題を修正しました。（TGT-46557）
+   * アクティビティレポートページの [!UICONTROL Analytics で表示]リンクが正しく機能しないことがある問題を修正しました。（TGT-46731）
+   * [!UICONTROL 上昇率]と[!UICONTROL 信頼性]のデータが [!DNL Target] UI に正しく表示されない問題を修正しました。（TGT-46592、TGT-46554、TGT-46586）
 
 ### [!UICONTROL アクティビティ]ページのユーザーインターフェイスの更新（2023年10月25日（PT））
 

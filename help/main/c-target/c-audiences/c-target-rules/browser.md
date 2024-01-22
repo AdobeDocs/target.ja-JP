@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] タイプのドロップダウンリスト（オーディエンスのカテゴリを作成する場合） 回避策の設定については、 [ブラウザーオーディエンス属性からのiPadおよびiPhoneの廃止（2024 年 4 月 31 日）](#deprecation) 下
 
 ブラウザーをターゲットにするには、2 つの方法があります。
 
@@ -126,3 +130,90 @@ ht-degree: 73%
 * オーディエンスカテゴリの定義
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## ブラウザーオーディエンス属性からの iPad と iPhone の非推奨（廃止予定）（2024年4月30日（PT）） {#deprecation}
+
+[!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)（ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用しているユーザーを含む）
+
+2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] タイプのドロップダウンリスト（オーディエンスのカテゴリを作成する場合）
+
+[!UICONTROL ブラウザー]属性を使用して iPad または iPhone をターゲットに設定するオーディエンスがある場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024年4月30日（PT）までにこれらの設定を変更する必要があります。
+
+今後は、次の設定を使用できます。
+
+* **ブラウザーの一致の場合[!DNL Apple]**: [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致する] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **ブラウザー一致タブレットの場合**: [!UICONTROL モバイル] > [!UICONTROL タブレット] > [!UICONTROL true]
+
+  ![モバイルはタブレットです](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **ブラウザがiPadに一致する場合**: [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPad] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **ブラウザがiPhoneに一致する場合**: [!UICONTROL モバイル] > [!UICONTROL デバイスのマーケティング名] [!UICONTROL 一致する] [!DNL iPhone] を含む And コンテナ [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+条件が無効な場合など、他にも多くの設定が使用可能です。 否定条件の例を次に示します。
+
+* **ブラウザーがiPhoneと一致しません**: [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL 携帯電話] 次に該当 [!UICONTROL false]
+
+  ![携帯電話ではありません](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **ブラウザーがiPadと一致しません**: [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致しない] [!UICONTROL Apple] OR コンテナが [!UICONTROL モバイル] > [!UICONTROL タブレット] 次に該当 [!UICONTROL false].
+
+  ![タブレットではありません](/help/main/r-release-notes/assets/tablet-false.png)
+
+次を使用する場合、 `user.browserType` JavaScript セグメントでは、次の変更がおこなわれます。
+
+>[!NOTE]
+>
+>2024 年 1 月 24 日には、以下の追加がリリースされる予定です。 これらの追加により、次の変更が可能になります。
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType はiPhone**:
+
+  置換：
+
+  `user.browserType=="iphone"`
+
+  次を使用：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType がiPhoneではありません**:
+
+  置換：
+
+  `user.browserType!="iphone"`
+
+  次を使用：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType はiPad**:
+
+  置換：
+
+  `user.browserType=="ipad"`
+
+  次を使用：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType がiPadではありません**:
+
+  置換：
+
+  `user.browserType!="ipad"`
+
+  次を使用：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`

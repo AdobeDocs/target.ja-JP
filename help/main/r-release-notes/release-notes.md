@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -19,23 +19,28 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target] Standard／Premium 23.11.1（2023年11月13～14日（PT））
+## ブラウザーオーディエンス属性からの iPad と iPhone の非推奨（廃止予定）（2024年4月30日（PT））
+
+| 非推奨（廃止予定） | 詳細 |
+|--- |--- |
+| [!DNL iPad] と [!DNL iPhone] は、オーディエンスの作成時に使用する[ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)から非推奨（廃止予定）になります。<p>非推奨日（廃止予定日）：<P>2024年4月30日（PT） | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用するユーザーなど、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P><B>2024年4月30日（PT）以降、iPad と iPhone は、オーディエンスのカテゴリを作成する際に使用可能な[!UICONTROL ブラウザー]タイプのプルダウンリストから削除されます。</b><P>[!UICONTROL ブラウザー]属性を使用して iPad または iPhone をターゲットに設定するオーディエンスがある場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024年4月30日（PT）までにこれらの設定を変更する必要があります。<p>代替設定の例については、 [ブラウザーオーディエンス属性からのiPadおよびiPhoneの廃止（2024 年 4 月 31 日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+
+## [!DNL Target] Standard／Premium 24.1.1（2024年1月22日、23日、25日（PT））
 
 このリリースは、次の日に予定されています。
 
-* **11月13日（PT）**：アジア太平洋（APAC）地域
-* **11月14日（PT）**：南北アメリカ地域
-* **11月14日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **1月22日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **1月23日（PT）**：アジア太平洋（APAC）地域
+* **1月25日（PT）**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* [アクティビティ QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能が強化され、[!UICONTROL Automated Personalization] アクティビティのエクスペリエンスに対する[重複オファーの禁止](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)がサポートされました。（TGT-46627）
-* コントロールエクスペリエンスにトラフィックが割り当てられていない場合、アクティビティレポートでデータが使用できない理由をお客様が理解できるように、[!DNL Target] UI にツールチップを追加しました。ツールチップには、次の詳細情報へのリンクが含まれます。[アクティビティのレポートにデータがないのはなぜでしょうか？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)（TGT-46610）
-* 一部のお客様の[!UICONTROL アクティビティ]ページにアクティビティが正しく表示されない問題を修正しました。（TGT-46830）
-* [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）をレポートソースとして使用するアクティビティに影響を与える、次の問題を修正しました。
-   * 一部の顧客がレポートデータを表示できない問題を修正しました。（TGT-46557）
-   * アクティビティレポートページの [!UICONTROL Analytics で表示]リンクが正しく機能しないことがある問題を修正しました。（TGT-46731）
-   * [!UICONTROL 上昇率]と[!UICONTROL 信頼性]のデータが [!DNL Target] UI に正しく表示されない問題を修正しました。（TGT-46592、TGT-46554、TGT-46586）
+* [!UICONTROL Analytics for Target] (A4T) 売上高目標指標を含むアクティビティで、列名に「売上高」が表示されず、売上高指標がレポートの ($) 形式で表示されませんでした。 これは化粧上の問題で、修正されました。 （TGT-46995）
+* レポートの日付間隔が正しく機能しない問題を修正しました。（TGT-47396）
+* お客様が「[!UICONTROL その他のアクション]」アイコンを使用してアクティビティをアクティブ化または非アクティブ化した後、[!UICONTROL すべてのアクティビティ]ページに正しくないステータスが表示される問題を修正しました。（TGT-47367）
+* 次の問題を修正しました： [!UICONTROL 重要な属性] 1 人の顧客に対して表示しないレポート。 （TGT-47272）
+* 1 人の顧客が「認証が必要」を有効にしようとすると、「無効なペイロード」メッセージが表示される問題を修正しました。 （TGT-47195）
+* [!DNL Target] UI の多数のローカライズされた文字列を更新しました。
 
 ## その他のリリースノートとバージョンの詳細
 
