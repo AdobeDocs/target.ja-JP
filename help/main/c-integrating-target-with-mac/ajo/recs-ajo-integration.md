@@ -7,16 +7,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 6%
+source-wordcount: '572'
+ht-degree: 3%
 
 ---
 
 # 統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]
 
-この記事では、の統合を設定するのに役立つ使用例と情報を説明します。 [!DNL Adobe Target Recommendation] および [!DNL Adobe Journey Optimizer] つながり、状況に応じて、パーソナライズされたエクスペリエンスを顧客に提供するのに役立ちます。
+この記事では、の統合を設定するのに役立つ使用例と情報を説明します。 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer] つながり、状況に応じて、パーソナライズされたエクスペリエンスを顧客に提供するのに役立ちます。
+
+この統合により、より多くのコンバージョンを促進し、パーソナライズされたレコメンデーションを含む電子メールメッセージの影響を確認できます。
 
 ## 前提条件
 
@@ -30,15 +32,24 @@ ht-degree: 6%
 
 ## 使用例
 
-次に、統合の使用例を 2 つ示します。 [!DNL Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer]:
+以下は、統合の使用例の一部です [!DNL Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer]:
 
-* **[!DNL Customer Journey Optimizer]買い物かごが放棄された後にパーソナライズされた電子メールを送信**：この使用例は、Web サイトに訪問する顧客が品目を買い物かごに入れて、購入プロセスを完了せずにサイトを離れた場合に基づきます。
+* **[!DNL A Journey Optimizer]買い物かごが放棄された後にパーソナライズされた電子メールを送信**：この使用例は、Web サイトに訪問する顧客が品目を買い物かごに入れて、購入プロセスを完了せずにサイトを離れた場合に基づきます。
 
   例えば、訪問者が衣料品会社の Web サイトを訪問し、2 枚の冬用コートと 1 枚のトレーナーを買い物かごに入れたとします。 その後、訪問者は気が散って Web サイトを離れるか、購入が不明でブラウザーまたはアプリを閉じます。
 
-  指定した期間の後、おそらく数時間または 1 日後に、 [!DNL Adobe Journey Optimizer] に電話をかける [!DNL Target Recommendations] をクリックして、放棄された買い物かごの内容を判断します。 [!DNL Adobe Journey Optimizer] 次に、この訪問者にパーソナライズされた電子メールを、購入プロセスが完了していないこと、および破棄された品目への画像やリンクをリマインダーとして送信します。
+  指定した期間の後、おそらく数時間または 1 日後に、 [!DNL Adobe Journey Optimizer] に電話をかける [!DNL Target Recommendations] を使用して、放棄された買い物かごの内容を判断するには [買い物かごベースのレコメンデーション](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) アルゴリズム。 [!DNL Adobe Journey Optimizer] 次に、この訪問者にパーソナライズされた電子メールを、購入プロセスが完了していないこと、および破棄された品目への画像やリンクをリマインダーとして送信します。
 
-* **[!DNL Customer Journey Optimizer]は、ユーザープロファイルを使用してサイト訪問後に電子メールを送信します**：この使用例は、Web サイトにアクセスし、様々な品目を表示して、買い物かごに品目を入れずにサイトを離れた顧客に基づいています。
+* **[!DNL Adobe Journey Optimizer]サイト訪問後に電子メールを送信して、どの項目が閲覧されたかを訪問者に通知します。**：この使用例は、Web サイトに訪問し、様々な品目を表示して、買い物かごに品目を入れずにサイトを離れた訪問者に基づいています。
 
-  指定した期間が経過した後、 [!DNL Adobe Journey Optimizer] に電話をかける [!DNL Target Recommendations] 訪問者が訪問者の [!DNL Adobe Experience Cloud Identifier] (EDID)。 [!DNL Adobe Journey Optimizer] 次に、この訪問者にパーソナライズされた電子メールを、購入プロセスが完了していないこと、および破棄された品目への画像やリンクをリマインダーとして送信します。
+  指定した期間が経過した後、 [!DNL Adobe Journey Optimizer] に電話をかける [!DNL Target Recommendations] 訪問者の [!DNL Adobe Experience Cloud Identifier] (EDID)、訪問者の [!DNL Target] プロファイル、および [ユーザーベース](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) アルゴリズム。 [!DNL Adobe Journey Optimizer] 次に、この訪問者に画像と表示された項目へのリンクを含むパーソナライズされた電子メールを送信して、訪問者が Web サイトに戻って購入できるようにします。
+
+  このシナリオでは、 [!UICONTROL Experience Cloud訪問者 ID] (ECID) およびユーザーの [!DNL Target] プロファイルは、最近表示されたアルゴリズムに基づいてレコメンデーションを生成するために使用されます。
+
+  例えば、訪問者が小売 Web サイトを訪問し、複数の腕時計を表示したとします。 この訪問者の [!DNL Target] プロファイルが更新され、表示された様々なウォッチのリストが表示されます。 ECID と訪問者の [!DNL Target] プロファイル、 [!DNL Target] レコメンデーションをに送信します。 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 次に、最近閲覧されたアルゴリズムを使用して、この訪問者が閲覧した腕時計の画像とリンクを含む電子メールを送信します。
+
+* **[!DNL Adobe Journey Optimizer]サイト訪問後に電子メールを送信して、人気の高い項目を提案する**：このユースケースは、Web サイトにアクセスする訪問者に基づいたものですが、特定の項目は表示しません。
+
+  例えば、訪問者が特定の腕時計を表示しないとします。 訪問者がサイト内をクリックして、カテゴリページやブログエントリを閲覧しただけの場合もあります。 その結果、 [!DNL Target] プロファイルには、最近表示された項目に関する特定の情報はありません。 この状況では、 [!DNL Target Recommendations] は、 [代替レコメンデーション](/help/main/c-recommendations/c-algorithms/backup-recs.md) そのため [!DNL Adobe Journey Optimizer] は、画像とリンクを含む電子メールを Web サイト上で人気のある品目に送信して、訪問者が Web サイトに戻って購入できるようにします。
+
 

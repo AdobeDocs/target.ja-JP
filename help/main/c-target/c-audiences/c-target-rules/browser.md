@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ ht-degree: 55%
 
 [!UICONTROL ブラウザー]属性を使用して iPad または iPhone をターゲットに設定するオーディエンスがある場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024年4月30日（PT）までにこれらの設定を変更する必要があります。
 
+### を使用して作成されたオーディエンス [!DNL Target] UI
+
 今後は、次の設定を使用できます。
 
 * **ブラウザーの一致の場合[!DNL Apple]**: [!UICONTROL モバイル] > [!UICONTROL デバイスのベンダー] [!UICONTROL 一致する] [!DNL Apple]
@@ -167,16 +169,19 @@ ht-degree: 55%
 
   ![タブレットではありません](/help/main/r-release-notes/assets/tablet-false.png)
 
-次を使用する場合、 `user.browserType` JavaScript セグメントでは、次の変更がおこなわれます。
+### プロファイルスクリプトを使用して作成されたオーディエンス
+
+次を使用する場合、 `user.browserType` JavaScript セグメントでの使用については、 [プロファイルと変数の用語集](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)に変更を加える場合は、次の変更を行う必要があります。
 
 >[!NOTE]
 >
->2024 年 1 月 24 日には、以下の追加がリリースされる予定です。 これらの追加により、次の変更が可能になります。
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>次のプロファイルは、2024 年 1 月 24 日現在、今後数日以内にリリースされる予定です。 The [最新のリリースノート](/help/main/r-release-notes/release-notes.md) これらのプロファイルが使用可能になると、が更新されます。
 
+これらのプロファイルでは、次の変更が可能です。
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType はiPhone**:
 
