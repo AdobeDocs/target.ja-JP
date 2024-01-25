@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 96%
+source-wordcount: '1258'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
 | --- | --- | --- |
 | 1月24日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.4 のリリースノートを追加しました。 |
 |  | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 2 つの新しいプロファイルがまだ利用できないと発表しました。 これらのメモは、これらのプロファイルが利用可能になると更新されます。 |
+|  | [at.js に関するよくある質問](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 環境での at.js に関する FAQ を追加しました。 この実装は、テストされていないか、推奨されていません。 |
 | 1月22日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | iPadとiPhoneの廃止に関する重要な情報を、 [!UICONTROL ブラウザー] 2024 年 4 月 30 日より前に、お客様の部分の変更を必要とするオーディエンス属性。 |
 |  | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 以下の新しいセクションを追加しました。 <ul><li>ブラウザーオーディエンス属性からの iPad と iPhone の非推奨（廃止予定）（2024年4月30日（PT））</li></ul> |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 リリースに関するリリースノートを追加しました。 |
