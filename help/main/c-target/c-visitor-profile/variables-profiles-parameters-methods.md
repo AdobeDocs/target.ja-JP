@@ -4,7 +4,7 @@ description: Adobe Targetのプロファイルスクリプトで役立つ様々�
 title: どのプロファイル、変数、パラメーターが使用されるか [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
+source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 69%
@@ -48,8 +48,8 @@ ht-degree: 69%
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | 訪問者デバイスはタブレットです。<P>**注意**：このプロファイルは、非推奨（廃止予定）のレガシーブラウザーであるiPadオーディエンスカテゴリに代わるものです。 詳しくは、 [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) を参照してください。 |
-| profile.mobile.isMobilePhone | 訪問者デバイスが携帯電話です。<P>**注意**：このプロファイルは、非推奨（廃止予定）のレガシーブラウザーであるiPhoneオーディエンスカテゴリに代わるものです。 詳しくは、 [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) を参照してください。 |
+| profile.mobile.isTablet | 訪問者デバイスはタブレットです。<P>**注意**：このプロファイルは、非推奨（廃止予定）のレガシーブラウザーであるiPadオーディエンスカテゴリに代わるものです。 詳しくは、 [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) を参照してください。 |
+| profile.mobile.isMobilePhone | 訪問者デバイスが携帯電話です。<P>**注意**：このプロファイルは、非推奨（廃止予定）のレガシーブラウザーであるiPhoneオーディエンスカテゴリに代わるものです。 詳しくは、 [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) を参照してください。 |
 | parameter= | mbox に渡された追加の値を示す一般的な用語で、通常は名前と値のペアです。`profile.parameter` か `user.parameter` を使用しない限り、永続的ではありません。 |
 
 ## URL 変数 {#section_8F25958273164EBAA6DC659302993FD3}
