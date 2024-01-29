@@ -4,10 +4,10 @@ description: Adobe Targetのプロファイルスクリプトで役立つ様々�
 title: どのプロファイル、変数、パラメーターが使用されるか [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 74%
+source-wordcount: '653'
+ht-degree: 70%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 74%
 | profile.browserTime | 訪問者のブラウザーのローカル時間。システム時間については、プロファイルスクリプトで新しい日付オブジェクトを作成します。 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | 訪問者デバイスはタブレットです。<P>このプロファイルは、廃止されたレガシー [ブラウザーはiPadオーディエンスカテゴリです](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | 訪問者デバイスが携帯電話です。<P>このプロファイルは、廃止されたレガシー [ブラウザーはiPhoneオーディエンスカテゴリです](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | mbox に渡された追加の値を示す一般的な用語で、通常は名前と値のペアです。`profile.parameter` か `user.parameter` を使用しない限り、永続的ではありません。 |
 
 ## URL 変数 {#section_8F25958273164EBAA6DC659302993FD3}
