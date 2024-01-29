@@ -1,13 +1,13 @@
 ---
-keywords: エクスペリエンス；json;aem;adobe experience manager;adobe target への書き出し；コンテンツフラグメント；フラグメント；CF;cf；ヘッドレス；パーソナライゼーション；実験
+keywords: エクスペリエンス;json;AEM;Adobe Experience Manager;Adobe Target への書き出し;コンテンツフラグメント;フラグメント;CF;cf;ヘッドレス;パーソナライゼーション;実験
 description: ' [!DNL Adobe Target]  アクティビティで  [!DNL Adobe Experience Manager] [!UICONTROL  コンテンツフラグメント]を使用する方法について説明します。'
 title: ' [!DNL Adobe Experience Manager] （AEM）[!UICONTROL コンテンツフラグメント]の使用方法?'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ AEM [!UICONTROL コンテンツフラグメント]および[!UICONTROL エクス
 
 ## 要件 {#requirements}
 
-[[!DNL AEM]  を as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank} 使用している必要があります。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+[[!DNL AEM]  を as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} 使用している必要があります。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
