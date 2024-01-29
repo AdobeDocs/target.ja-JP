@@ -4,9 +4,9 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ ht-degree: 37%
 
 [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)（ページの訪問時に特定のブラウザーまたはブラウザーオプションを使用しているユーザーを含む）
 
-2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] タイプのドロップダウンリスト（オーディエンスのカテゴリを作成する場合）
+2024 年 4 月 30 日以降、iPadとiPhoneは、使用可能な [!UICONTROL ブラウザー] 次に示すドロップダウンリストを入力 [!DNL Target] オーディエンスのカテゴリを作成する際の UI。
 
-「ブラウザー： iPad」や「ブラウザー： iPhone」などの組み込みオーディエンスは、新しいオーディエンス定義に自動的に移動されます。 「user.browserType」を使用するプロファイルスクリプトは、 *not* 自動的に更新される：手動で更新しない場合は、ユーザー認定が期待どおりに発生しない可能性があります。
+を使用して作成された組み込みオーディエンス [!DNL Target] 「ブラウザー： iPad」や「ブラウザー： iPhone」などの UI は、新しいオーディエンス定義に自動的に移動されます。 ただし、今後は、次の設定を使用する必要があります。 [以下に説明します](#ui).
 
-iPad または iPhone をターゲットにするオーディエンスがある場合は、 [!UICONTROL ブラウザー] 属性内にある場合、これらのオーディエンスが引き続き期待どおりに機能するように、2024 年 4 月 30 日より前にこれらの設定を変更する必要があります。
+次を使用する場合、 `user.browserType` を使用して、iPhoneまたはiPad( 例： `user.browserType == 'iphone'` または `user.browserType != 'ipad'`) の場合、これらのプロファイルスクリプトは次のように変更する必要があります。 [次に示す](#profile-scripts) 2024 年 4 月 30 日より前に更新され、これらのオーディエンスが引き続き期待どおりに機能するようになります。
 
-### を使用して作成されたオーディエンス [!DNL Target] UI
+### を使用して作成されたオーディエンス [!DNL Target] UI {#ui}
 
 今後は、次の設定を使用できます。
 
@@ -171,7 +171,7 @@ iPad または iPhone をターゲットにするオーディエンスがある�
 
   ![タブレットではありません](/help/main/r-release-notes/assets/tablet-false.png)
 
-### プロファイルスクリプトを使用して作成されたオーディエンス
+### プロファイルスクリプトを使用して作成されたオーディエンス {#profile-scripts}
 
 次を使用する場合、 `user.browserType` を使用するオーディエンスの場合は、 [プロファイルと変数の用語集](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)に変更を加える場合は、次の変更を行う必要があります。
 
