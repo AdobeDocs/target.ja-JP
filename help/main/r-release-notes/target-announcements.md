@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,26 @@ ht-degree: 100%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Adobe Target 2024 パーソナライゼーション成熟度ウェビナーシリーズ
+## Adobe Target コミュニティ Q&amp;A コーヒーブレーク
+
+* **考えられるウェビナーフォローアップの質問（パーソナライゼーション成熟度シリーズの第 1 部）**
+* **2024年2月7日（PT）**
+* **8:00 ～ 9:00(PST -8 GMT)**
+* **[登録情報](https://shorturl.at/gknVY){target=_blank}**
+
++++詳細
+
+結合 [!DNL Adobe Target] Brent Kostak、Ryan Roberts、Drew Burns の専門家は、お客様の質問に対してリアルタイムで回答を提供し、次の期間にカバーされたコンテンツに関する質問に対して答えを提供します。 [パート 1 [!DNL Adobe Target] 「可能な芸術」に関するウェビナーシリーズ](#maturity-series)」では、以下のトピックについて専門家が取り上げています。
+
+* 各 [!DNL Target] 能力は、規模に応じたパーソナライゼーションの実行に戦略的な役割を果たします
+* AI 機能を大規模に構成している主な使用例
+* AI を利用したパーソナライゼーションを特定の目標に対して有効化するための機械学習の制御方法
+
+もし元のウェビナーを見逃したのなら [録音を聞く](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 パーソナライゼーション成熟度ウェビナーシリーズ {#maturity-series}
 
 このライブウェビナーシリーズでは、顧客が [!DNL Adobe Experience Platform] で実験とパーソナライゼーションのジャーニーを拡張するにつれて、主要な [!DNL Adobe Target] の機能、ユースケース、AI を活用したパーソナライゼーションを実現するためのヒントに焦点を当てます。
 
@@ -34,6 +53,8 @@ ht-degree: 100%
    * **10:00～11:00（PST、GMT-8）**
 
      パーソナライゼーションの成熟度の中核となるのは、人工知能と機械学習です。[!DNL Adobe Target] では、これらのテクノロジーを活用してユーザーの行動を理解し、好みを予測し、コンテンツを動的に調整します。AI と ML の機能を活用して、ブランドが静的な A/B テストやルールベースのパーソナライゼーションを超えて、動的でコンテキストに応じた関連性の高いエクスペリエンスを提供する方法について説明します。
+
+     [録音を聞く。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高パフォーマンスのレコメンデーション**
    * **2024年2月13日火曜日（PT）**
