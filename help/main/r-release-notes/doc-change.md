@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月5日（PT） | [Analytics をレポートソースとして使用するアクティビティの作成](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | を使用する際に、別々のワークスペースから 2 つのアクティビティに同じアクティビティ名を使用できないことを示すテキストを追加しました。 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 |
+|  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | を使用する際に、別々のワークスペースから 2 つのアクティビティに同じアクティビティ名を使用できないことを示すテキストを追加しました。 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 |
 | 1月24日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.4 のリリースノートを追加しました。 |
 |  | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 2 つの新しいプロファイルがまだ使用できません。これらのメモは、これらのプロファイルが使用可能になると更新されます。 |
 |  | [at.js に関するよくある質問](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=ja){target=_blank} | Ionic アプリ環境での at.js に関する FAQ を追加しました。この実装は、テストされていないか、推奨されていません。 |

@@ -4,10 +4,10 @@ description: Analytics を使用した場合のアクティビティの設定に
 title: A4T を使用したアクティビティ設定に関する FAQ はどこで確認できますか？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 22%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 22%
 
 このトピックには、アクティビティの設定と使用に関するよくある質問に対する回答が含まれています。 [!DNL Analytics] レポートソースとして [!DNL Target] (A4T)。
 
-## レポートソースとしての Analytics（A4T）がサポートされるのは、どのアクティビティタイプですか？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## サポートされるアクティビティのタイプ [!DNL Analytics] レポートソース (A4T) として使用する場合は、 {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++回答完全なリストについては、 [Adobe TargetのレポートソースとしてのAdobe Analytics(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## A4T レポートを使用する際に、別々のワークスペースから 2 つのアクティビティに同じアクティビティ名を使用できますか？
+
++++回答
+
+別々の [workspaces](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) A4T レポートを使用している
+
+これは [!DNL Target] レポートソースとして、2 つのアクティビティに同じアクティビティ名を使用することは、 [!UICONTROL Analytics for Target] を使用します。
 
 +++
 
@@ -41,7 +51,7 @@ ht-degree: 22%
 +++回答： [!UICONTROL レポート設定] のオプション [!UICONTROL 管理].
 
 1. In [!DNL Target]をクリックし、 **[!UICONTROL 管理]**.
-1. 「**[!UICONTROL レポートに使用する Experience Cloud ソリューション]**」ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
+1. **[!UICONTROL レポートに使用する Experience Cloud ソリューション]**&#x200B;ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
 
 ![アクティビティごとに選択画像](assets/select-per-activity.png)
 
