@@ -4,10 +4,10 @@ description: でオーディエンスを作成する方法を説明します。 
 title: ブラウザータイプに基づいて訪問者をターゲットに設定することはできますか？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 35%
 
 次を使用する場合、 `user.browserType` を使用して、iPhoneまたはiPad( 例： `user.browserType == 'iphone'` または `user.browserType != 'ipad'`) の場合、これらのプロファイルスクリプトは次のように変更する必要があります。 [次に示す](#profile-scripts) 2024 年 4 月 30 日より前に更新され、これらのオーディエンスが引き続き期待どおりに機能するようになります。
 
-プロファイルスクリプトを使用する JavaScript オーディエンスは、 [!DNL Target Classic] UI これらのオーディエンスは、API 経由でのみ変更できます。 新しい [!DNL Target Standard/Premium] UI
+JavaScript オーディエンスは、Target 式を使用する従来のオーディエンスで、 [!DNL Target Classic] UI これらのオーディエンスは、API 経由でのみ変更できます。 アクティビティで従来のオーディエンスを引き続き使用する場合にのみ、これらのオーディエンスを更新する必要があります。
 
 ### を使用して作成されたオーディエンス [!DNL Target] UI {#ui}
 
@@ -175,7 +175,7 @@ ht-degree: 35%
 
 ### プロファイルスクリプトを使用して作成されたオーディエンス {#profile-scripts}
 
-次を使用する場合、 `user.browserType` 従来の [!DNL Target Classic] プロファイルスクリプトを使用するオーディエンス ( [プロファイルと変数の用語集](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)に変更を加える場合は、次の変更を行う必要があります。
+次を使用する場合、 `user.browserType` 従来の [!DNL Target Classic] オーディエンスまたはプロファイルスクリプトでは、変更に次の内容を含める必要があります。
 
 >[!NOTE]
 >

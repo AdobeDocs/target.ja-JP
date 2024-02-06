@@ -4,10 +4,10 @@ description: Adobe Targetのプロファイルスクリプトで役立つ様々�
 title: どのプロファイル、変数、パラメーターが使用されるか [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 69%
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | ユーザーエージェント |
+| user.browserType | ブラウザーのタイプ（Safari、Chrome など）を返します。 |
 | user.header | すべての `user.header` プロファイルは、mbox リクエストヘッダーデータから組み込まれます |
 | user.header(&#39;x-forwarded-for&#39;) | 訪問者がいるネットワーク接続の公開される IP アドレス。<br>これは、例えば、複数の方法で取得できます。 [whatismyip.com](https://www.whatismyip.com/). IP アドレスは、10.、192.168. または 172 から始まる NAT アドレス（内部アドレス）ではありません。<br>注意： user.header(&#39;x-cluster-client-ip&#39;) は非推奨（廃止予定）となりました。 |
 | user.header(&#39;host&#39;) | Web サイトのホスト名 |
