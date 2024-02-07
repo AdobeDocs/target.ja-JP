@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 ## 使用例
 
-以下は、統合の使用例の一部です [!DNL Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer]:
+これらは、 [!DNL Target Recommendations] 次を使用 [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]買い物かごが放棄された後にパーソナライズされた電子メールを送信**：この使用例は、Web サイトに訪問する顧客が品目を買い物かごに入れて、購入プロセスを完了せずにサイトを離れた場合に基づきます。
 
