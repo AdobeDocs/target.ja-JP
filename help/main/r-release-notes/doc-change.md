@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 95%
+source-wordcount: '1361'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月8日（PT） | [プリフェッチ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 新しい節「Analytics for Target(A4T) を使用した場合の clickTrack 指標による mbox のプリフェッチ」を追加しました。 |
 | 2月5日（PT） | [Analytics をレポートソースとして使用するアクティビティの作成](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | を使用する際に、別々のワークスペースから 2 つのアクティビティに同じアクティビティ名を使用できないことを示すテキストを追加しました。 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 |
 |  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | を使用する際に、別々のワークスペースから 2 つのアクティビティに同じアクティビティ名を使用できないことを示すテキストを追加しました。 [!UICONTROL Analytics for Target] (A4T) をレポートソースとして使用する場合。 |
 |  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2024 年 2 月 8 日に予定されているAdobe Targetコミュニティコーヒーブレークに関する情報を追加しました。 |
