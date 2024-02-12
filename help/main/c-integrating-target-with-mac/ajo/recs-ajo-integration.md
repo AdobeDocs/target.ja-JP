@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,6 @@ ht-degree: 3%
 
 * **[!DNL Adobe Journey Optimizer]サイト訪問後に適格訪問者に一括電子メールを送信して、人気の高い品目を提案する**：このユースケースは、Web サイトにアクセスする訪問者に基づいたものですが、特定の項目は表示しません。 特定のオーディエンスの資格を持つすべてのユーザーに対して、次のように E メールが一括で送信されます。
 
-  訪問者が特定のウォッチポイントを表示しないとします。 おそらく、訪問者は単にサイトをクリックして、カテゴリページやブログエントリを閲覧しただけでしょう。 その結果、 [!DNL Target] プロファイルには、最近表示された項目に関する特定の情報はありません。 この状況では、 [!DNL Target Recommendations] は、 [代替レコメンデーション](/help/main/c-recommendations/c-algorithms/backup-recs.md) そのため [!DNL Adobe Journey Optimizer] は、Web サイトで人気のある商品へのリンクを含む電子メールを送信して、訪問者に戻って購入してもらうことができます。
+  訪問者が特定のウォッチポイントを表示しないとします。 おそらく、訪問者は単にサイトをクリックして、カテゴリページやブログエントリを閲覧しただけでしょう。 その結果、 [!DNL Target] プロファイルには、最近表示された項目に関する特定の情報はありません。 この状況では、 [!DNL Target Recommendations] はを使用します [代替レコメンデーション](/help/main/c-recommendations/c-algorithms/backup-recs.md) そのため [!DNL Adobe Journey Optimizer] は、Web サイトで人気のある商品へのリンクを含む電子メールを送信して、訪問者に戻って購入してもらうことができます。
 
 
