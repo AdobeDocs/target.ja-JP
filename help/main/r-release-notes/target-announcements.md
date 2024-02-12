@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 95%
+source-wordcount: '2353'
+ht-degree: 99%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-## Adobe Target コミュニティ Q&amp;A コーヒーブレーク
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **考えられるウェビナーフォローアップの質問（パーソナライゼーション成熟度シリーズの第 1 部）**
-* **2024年2月7日（PT）**
-* **8:00 ～ 9:00(PST -8 GMT)**
-* **[登録情報](https://shorturl.at/gknVY){target=_blank}**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
-+++詳細
++++Details
 
-結合 [!DNL Adobe Target] Brent Kostak、Ryan Roberts、Drew Burns の専門家は、お客様の質問に対してリアルタイムで回答を提供し、次の期間にカバーされたコンテンツに関する質問に対して答えを提供します。 [パート 1 [!DNL Adobe Target] 「可能な芸術」に関するウェビナーシリーズ](#maturity-series)」では、以下のトピックについて専門家が取り上げています。
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* 各 [!DNL Target] 能力は、規模に応じたパーソナライゼーションの実行に戦略的な役割を果たします
-* AI 機能を大規模に構成している主な使用例
-* AI を利用したパーソナライゼーションを特定の目標に対して有効化するための機械学習の制御方法
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-もし元のウェビナーを見逃したのなら [録音を聞く](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Adobe Target 2024 パーソナライゼーション成熟度ウェビナーシリーズ {#maturity-series}
 
