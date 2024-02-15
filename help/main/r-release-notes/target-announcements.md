@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ If you missed the original webinar, [listen to the recording](https://experience
 
      パーソナライゼーションの成熟度の中核となるのは、人工知能と機械学習です。[!DNL Adobe Target] では、これらのテクノロジーを活用してユーザーの行動を理解し、好みを予測し、コンテンツを動的に調整します。AI と ML の機能を活用して、ブランドが静的な A/B テストやルールベースのパーソナライゼーションを超えて、動的でコンテキストに応じた関連性の高いエクスペリエンスを提供する方法について説明します。
 
-     [録音を聞く。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [詳しくは、こちらの録音をお聞きください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高パフォーマンスのレコメンデーション**
    * **2024年2月13日火曜日（PT）**
