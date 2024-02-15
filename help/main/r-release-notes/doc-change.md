@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 97%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 2月8日（PT） | [プリフェッチ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 新しい節「Analytics for Target(A4T) を使用した場合の clickTrack 指標による mbox のプリフェッチ」を追加しました。 |
+| 2月8日（PT） | [プリフェッチ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=ja){target=_blank} | 新しい節「Analytics for Target（A4T）を使用した際の clickTrack 指標による mbox のプリフェッチ」を追加しました。 |
 | 2月5日（PT） | [Analytics をレポートソースとして使用するアクティビティの作成](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する際、別々のワークスペースの 2 つのアクティビティに同じアクティビティ名を使用できないことを指定するテキストを追加しました。 |
 |  | [アクティビティの設定 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | [!UICONTROL Analytics for Target]（A4T）をレポートソースとして使用する際、別々のワークスペースの 2 つのアクティビティに同じアクティビティ名を使用できないことを指定するテキストを追加しました。 |
-|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2024 年 2 月 8 日に予定されているAdobe Targetコミュニティコーヒーブレークに関する情報を追加しました。 |
+|  | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 2024年2月7日（PT）に予定されている Adobe Target コミュニティのコーヒーブレイクに関する情報を追加しました。 |
 | 1月24日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} | at.js バージョン 2.11.4 のリリースノートを追加しました。 |
 |  | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 2 つの新しいプロファイルがまだ使用できません。これらのメモは、これらのプロファイルが使用可能になると更新されます。 |
 |  | [at.js に関するよくある質問](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=ja){target=_blank} | Ionic アプリ環境での at.js に関する FAQ を追加しました。この実装は、テストされていないか、推奨されていません。 |
