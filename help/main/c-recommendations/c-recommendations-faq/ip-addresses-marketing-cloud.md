@@ -2,21 +2,38 @@
 keywords: IP アドレス;IP アドレス;許可リスト;ファイアウォール;recs;フィード;サーバー;Adobe Experience Cloud;Recommendations
 description: ' [!DNL Target]  Recommendations のフィード処理サーバーで使用される IP アドレスのリストが表示されるので、アドビのサーバーから生じる IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。'
 title: Recommendations のフィード処理サーバーが使用する IP アドレス
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 54%
 
 ---
 
-# Recommendations フィード処理サーバーで使用される IP アドレス
+# が使用する IP アドレス [!DNL Recommendations] フィード処理サーバー
 
-[!DNL Adobe Target] [!DNL Recommendations]のフィード処理サーバーで使用される IP アドレスのリストが表示されるので、アドビのサーバーから生じる IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。
+で使用される IP アドレスのリスト [!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーを使用して、次の場所から発生した IP アドレスを許可するようにファイアウォールを設定する [!DNL Adobe] サーバー。
+
+>[!IMPORTANT]
+>
+>2023 年 2 月 23 日： [!DNL Target] チームは現在、ダウンロード用に NAT ゲートウェイアドレスを更新しています [!DNL Recommendations] フィード。 IP許可リストに加えるを実装する場合は、次の新しいAWSホ許可リストに加えるストを必ずしてください。 既存のホストは、将来廃止される予定です。 9 台のホストがすべて稼働します。
 
 [!DNL Target] [!UICONTROL Recommendations] アクティビティでは、顧客の FTP サーバーにアクセスする際に、以下の AWS ホストを使用します。
+
+**新しいホスト**:
+
+| 場所 | ホスト |
+| --- | --- |
+| オレゴン | `52.40.124.129` |
+| オレゴン | `54.148.219.69` |
+| オレゴン | `54.189.208.212` |
+| オレゴン | `44.230.236.35` |
+| オレゴン | `54.190.78.243` |
+| オレゴン | `52.41.73.133` |
+
+**既存のホスト**:
 
 | 場所 | ホスト |
 | --- | --- |
@@ -25,7 +42,3 @@ ht-degree: 100%
 | オレゴン | `52.41.252.205` |
 
 [!DNL Target] [!UICONTROL Recommendations] API も同じ AWS ホストを使用します。
-
->[!NOTE]
->
->これらの IP アドレスの最終更新日は、2021 年 3 月 16 日（PT）です。 以前は、FTP サーバーにアクセスするサーバーは、192.243.242.0/24 の IP アドレスの CIDR ブロックにありました。 Recommendations API をホストするサーバーは、192.243.224.0/20 の IP アドレスの CIDR ブロックに含まれていました。
