@@ -4,10 +4,10 @@ description: お知らせを読み、スキルビルダーセッションや、�
 title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 100%
+source-wordcount: '2527'
+ht-degree: 93%
 
 ---
 
@@ -15,24 +15,26 @@ ht-degree: 100%
 
 [!DNL Target] コーヒーブレークセッション、[!DNL Target] ウェビナーシリーズ、[!DNL Target] スキルビルダーセッション、開発者チャットなど、[!DNL Adobe Target] イベントに関するお知らせと情報。過去の録画がある場合は、そのリンクも含まれます。
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target コミュニティ Q&amp;A コーヒーブレーク
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
-* **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **高パフォーマンスのRecommendationsウェビナーフォローアップに関する質問（パーソナライゼーション成熟度シリーズの第 2 部）**
+* **2024年2月28日（PT）**
+* **8:00～9:00（PST、GMT-8）**
+* **[登録情報](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++Details
++++詳細
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+結合 [!DNL Adobe Target] エキスパート Cristinel Anastasoie、Brent Kostak、Timothy Furlow(Target Recommendationsのエキスパート&amp; Senior Manager of Personalization &amp; Optimization at Lenovo) が、対象となるコンテンツに関するお客様の質問にリアルタイムで回答します。 [パート 2 [!DNL Adobe Target] 「高性能Recommendations」のウェビナーシリーズ](#maturity-series)」では、以下のトピックについて専門家が取り上げています。
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+* 顧客がブランドとの関係を構築するにつれ、より精度の高いアダプティブレコメンデーションを実現する、より高度な機能です。
+* 非技術的なユーザーやマーケターがアルゴリズムの設定と管理を完全に制御する方法。
+* AI とカスタム機能を推奨と共に使用して、クリック数の削減と売上高の増加に大きな影響を与える使用例を解放する方法。
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+元のウェビナーを見逃した場合は、[こちらの録音をお聞きください](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}。
 
-+++-->
+3/12/24で発表されるウェビナーシリーズ第 3 部 ( 以下、「[AI Powered Recommendationsのロック解除](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+
++++
 
 ## Adobe Target 2024 パーソナライゼーション成熟度ウェビナーシリーズ {#maturity-series}
 
@@ -42,7 +44,7 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 * **上位のユースケースを学ぶ**：インテリジェントな最適化のためのブループリントを使用してビジョンを現実に変え、ルールベースの実験や A/B テストを超えて [!DNL Adobe Target] の顧客を成熟させます。
 * **独自の機能を最大化**：ROI、収益、コンバージョンを最大化するための高パフォーマンスのレコメンデーションを使用して、成功に向けたエクスペリエンスを調整します。
-* **パーソナライゼーション戦略を進める**：ビジネスへの影響を拡大し、新しいセグメント／オーディエンスの共感を呼び、最適化されたエクスペリエンスを実現するためにパーソナライゼーションモデルを微調整するための AI／ML の高度なテクニックを深く掘り下げます。
+* **高度なパーソナライゼーション戦略**: AI/ML の高度な技術を深く掘り下げて、ビジネスインパクトを拡大し、新しいセグメント/オーディエンスとの共鳴、パーソナライゼーションモデルの微調整を行い、最適化されたエクスペリエンスを実現します。
 
 * **[登録はこちらから](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -61,6 +63,8 @@ If you missed the original webinar, [listen to the recording](https://experience
    * **10:00～11:00（PST、GMT-8）**
 
      レコメンデーションアルゴリズムでビジネスに変革をもたらし、エンゲージメントと収益を促進する方法について説明します。パーソナライズされた製品の提案からコンテンツのレコメンデーションまで、ジャーニーを通じてユーザーをシームレスにガイドする機能は、ビジネスの大幅な成長を実現することに直接貢献します。
+
+     [詳しくは、こちらの録音をお聞きください。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI を活用したパーソナライゼーションの実現**
    * **2024年3月12日火曜日（PT）**
