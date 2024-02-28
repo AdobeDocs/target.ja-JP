@@ -5,9 +5,9 @@ title: プロファイル属性とは？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] のプロファイル属性は、訪問者に固有のパラメーターです。プロファイル属性は訪問者のプロファイルに保存され、アクティビティで使用可能な訪問者に関する情報を提供します。
 
-ユーザープロファイルには、web ページ訪問者の人口統計情報と行動情報が含まれます。この情報には、年齢、性別、購入した製品、最終訪問時間などが含まれます。 [!DNL Target] は、この情報を使用して、その訪問者に提供するコンテンツをパーソナライズします。
+ユーザープロファイルには、web ページ訪問者の人口統計情報と行動情報が含まれます。この情報には、年齢、性別、購入した製品、最終訪問時間などが含まれます。[!DNL Target] は、この情報を使用して、その訪問者に提供するコンテンツをパーソナライズします。
 
 訪問者が web サイトを閲覧したり、別のセッションに戻ったりすると、プロファイルの保存済みプロファイル属性を使用してコンテンツをターゲット設定したり、セグメントフィルターの情報を記録したりできます。
 
@@ -33,8 +33,8 @@ ht-degree: 96%
 
    | パラメータータイプ | 説明 |
    |--- |--- |
-   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。詳しくは、 [グローバル mbox にパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank} （内） *Target 開発者ガイド*...<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性をに渡す必要がある場合 [!DNL Target]を使用して、 [!UICONTROL プロファイル更新 API] メソッド。 詳しくは、 [プロファイルを更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank} （内） *Target 開発者ガイド*. |
-   | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計（消費者が支払った合計金額など）を保存でき、mbox リクエストごとに実行されます。 詳しくは、 *プロファイルスクリプト属性* 下 |
+   | mbox | mbox を作成するときに、ページコードを介して直接渡されます。*Target 開発者ガイド*&#x200B;の[グローバル mbox にパラメーターを渡す](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ja){target=_blank}を参照してください。<P>**メモ**：[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 件を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update API] メソッドを使用して渡してください。詳しくは、*Target 開発者ガイド*&#x200B;の[プロファイルの更新](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ja){target=_blank}を参照してください。 |
+   | プロファイル | JavaScript コードスニペットにより直接定義されます。これらのスニペットは、現在の合計数（顧客の支出合計額など）を保存することができ、mbox リクエストごとに実行されます。以下の&#x200B;*プロファイルスクリプト属性*&#x200B;を参照してください。 |
 
 ## プロファイルスクリプト属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
