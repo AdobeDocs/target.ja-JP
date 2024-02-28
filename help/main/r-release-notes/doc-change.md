@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 94%
+source-wordcount: '1471'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 2月28日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次に関する情報を追加しました： [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）リリースです。 |
 | 2月26日（PT） | [[!DNL Adobe Target]  のお知らせとイベント](/help/main/r-release-notes/target-announcements.md) | 今後の [!UICONTROL Adobe Target Community] コーヒーブレーク（2024 年 2 月 28 日）。 |
 | 2月23日（PT） | [が使用する IP アドレス [!DNL Recommendations] フィード処理サーバー](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 次の重要な注意事項と、する必要がある新しい IP アドレスを追加しまし許可リストに加えるた。<P>**重要**: [!DNL Target] チームは現在、ダウンロード用に NAT ゲートウェイアドレスを更新しています [!DNL Recommendations] フィード。 IP許可リストに加えるを実装する場合は、次の新しいAWSホ許可リストに加えるストを必ずしてください。 既存のホストは 2024 年 6 月 30 日に廃止される予定です。 スムーズな移行を実現するには、9 つのアド許可リストに加えるレスをすべてします。 既存のアドレスを削除する緊急度はありません。 |
 | 2月8日（PT） | [プリフェッチ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=ja){target=_blank} | 新しい節「Analytics for Target（A4T）を使用した際の clickTrack 指標による mbox のプリフェッチ」を追加しました。 |

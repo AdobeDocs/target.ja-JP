@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 76%
 
 ---
 
@@ -15,13 +15,28 @@ ht-degree: 100%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2024年1月22日（PT）**
+**最終更新日：2024年2月28日（PT）**
 
 >[!NOTE]
 >
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
+
+このリリースは、次の日に予定されています。
+
+* **3月4日**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **3月5日**：アジア太平洋（APAC）地域
+* **3月6日**：アメリカ地域
+
+このリリースには、以下の機能強化および修正が含まれています。
+
+* アクティビティ内の一意のセレクターの数を計算するロジックを修正しました。 （TGT-47878）
+* 次の問題を修正しました： [!UICONTROL 多変量分析] (MVT) アクティビティが [!UICONTROL Analytics for Target] (A4T) レポートが正しく表示されない問題を修正しました。 （TGT-47490）
+* トラフィックのないエクスペリエンスがコントロールエクスペリエンスとして使用された場合にレポートに表示される警告メッセージを改善しました。 （TGT-47537）
+* バックエンドおよびローカリゼーションに関する修正を多く追加しました。
 
 ## その他のリリースノートとバージョンの詳細
 
