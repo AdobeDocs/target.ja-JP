@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 63%
 
 ---
 
@@ -19,28 +19,26 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## ブラウザーオーディエンス属性からの iPad と iPhone の非推奨（廃止予定）（2024年4月30日（PT））
+## の更新 `Browser:iPad` および `Browser:iPhone` in [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 31 日）
 
-| 非推奨（廃止予定） | 詳細 |
+| 更新 | 詳細 |
 |--- |--- |
-| [!DNL iPad] と [!DNL iPhone] は、オーディエンスの作成時に使用する[ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)から非推奨（廃止予定）になります。<p>非推奨日（廃止予定日）：<P>2024年4月30日（PT） | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用するユーザーなど、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P><B>2024年4月30日（PT）以降、iPad と iPhone は、オーディエンスのカテゴリを作成する際に使用可能な[!UICONTROL ブラウザー]タイプのプルダウンリストから削除されます。</b><P>「ブラウザー：iPad」や「ブラウザー：iPhone」など、[!DNL Target] UI を使用して作成された組み込みオーディエンスは、新しいオーディエンス定義に自動的に移行されます。<p>手動で変更する必要がある代替設定の例については、[ブラウザーオーディエンス属性からの iPad と iPhone の非推奨（廃止予定）（2024年4月30日（PT））](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)を参照してください。 |
+| [!UICONTROL Browser:iPad] および [!UICONTROL Browser:iPhone] 更新： [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスを作成する際に使用します。 | [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)( 特定の [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページを訪問したとき。<P>の使用を開始する [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4～6 日）:Target UI を使用して作成された組み込みオーディエンス ( 例： `Browser:iPad` および `Browser:iPhone` の適切なターゲティングを実行するために更新されます [!DNL iPad] および [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` および `profile.mobile.isTablet`.<P>この更新では、お客様側での操作は必要ありません。<p><B>重要</b>：顧客が [!DNL iPad] および [!DNL iPhone] プロファイルスクリプト（および JavaScript セグメント）では、手動での変更は、 **2024 年 4 月 31 日**. 手動で変更する必要がある代替設定の例については、 [の更新 [!DNL iPad] および [!DNL iPhone] in [!UICONTROL Browser] オーディエンス属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!DNL Target] Standard／Premium 24.1.1（2024年1月22日、23日、25日（PT））
+## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
 
 このリリースは、次の日に予定されています。
 
-* **1月22日（PT）**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **1月23日（PT）**：アジア太平洋（APAC）地域
-* **1月25日（PT）**：アメリカ地域
+* **3月4日**：ヨーロッパ、中東、アフリカ（EMEA）地域
+* **3月5日**：アジア太平洋（APAC）地域
+* **3月6日**：アメリカ地域
 
 このリリースには、以下の機能強化および修正が含まれています。
 
-* 売上高目標指標を含む [!UICONTROL Analytics for Target]（A4T）アクティビティでは、レポートに列名として「売上高」が表示されず、売上高指標が（$）形式で表示されませんでした。これは、表面上の問題で、既に修正されています。（TGT-46995）
-* レポートの日付間隔が正しく機能しない問題を修正しました。（TGT-47396）
-* お客様が「[!UICONTROL その他のアクション]」アイコンを使用してアクティビティをアクティブ化または非アクティブ化した後、[!UICONTROL すべてのアクティビティ]ページに正しくないステータスが表示される問題を修正しました。（TGT-47367）
-* [!UICONTROL 重要な属性]レポートが 1 人のお客様に対して表示されない問題を修正しました。（TGT-47272）
-* 1 人のお客様が「認証が必要」を有効にしようとした際に「無効なペイロード」メッセージが表示される問題を修正しました。（TGT-47195）
-* [!DNL Target] UI の多数のローカライズされた文字列を更新しました。
+* アクティビティ内の一意のセレクターの数を計算するロジックを修正しました。 （TGT-47878）
+* 次の問題を修正しました： [!UICONTROL Multivariate] (MVT) アクティビティが [!UICONTROL Analytics for Target] (A4T) レポートが正しく表示されない問題を修正しました。 （TGT-47490）
+* トラフィックのないエクスペリエンスがコントロールエクスペリエンスとして使用された場合にレポートに表示される警告メッセージを改善しました。 （TGT-47537）
+* バックエンドおよびローカリゼーションに関する修正を多く追加しました。
 
 ## その他のリリースノートとバージョンの詳細
 
