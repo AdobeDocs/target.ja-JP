@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: エンティティ属性の使用方法
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 53%
+source-wordcount: '1070'
+ht-degree: 49%
 
 ---
 
@@ -95,19 +95,19 @@ The `entity.id` 値は *not* には、REST API 呼び出しで渡される際に
 
 複数値（コンマ区切りリスト）をサポート。
 
-現在のページのカテゴリです。entity.categoryID には、サブセクションのカーディガン（女性、女性：セーター、女性など）のように、複数のカテゴリを含めることができます:sweaters:カーディガン )。 複数のカテゴリはコンマで区切る必要があります。
+現在のページのカテゴリです。entity.categoryID には、サブセクションのカーディガン ( 例えば、 `womens`, `womens:sweaters`, `womens:sweaters:cardigans`) をクリックします。 複数のカテゴリはコンマで区切る必要があります。
 
 The `categoryId` の値は 250 文字に制限されます。
 
 >[!NOTE]
 >
->[!UICONTROL カテゴリ]ページでカテゴリに基づいてレコメンデーションを表示するには、1 つの `categoryId` のみ、特定のレコメンデーションの表示に使用される mbox に渡すことができます。`categoryId` の値は、[!UICONTROL 商品詳細]ページで渡される `entity.categoryId`の値と完全に一致する必要があります。
+>内のカテゴリに基づくレコメンデーションを表示するには [!UICONTROL Category] ページ、1 つのみ `categoryId` を、その特定のレコメンデーションの表示に使用される mbox に渡すことができます。 の値 `categoryId` は、次の値と完全に一致する必要があります： `entity.categoryId` 渡された [!UICONTROL Product Detail] ページに貼り付けます。
 
 例：
 
-* 商品詳細ページの例：女性、女性：セーター、女性:sweaters:心（臓）
-* カテゴリページ「セーター」の例：女性:セーター
-* カテゴリページ「カーディガン」の例：女性:sweaters:心（臓）
+* 製品の詳細ページの例： `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* カテゴリページセーターの例： `womens:sweaters`
+* カテゴリページのカーディガンの例： `womens:sweaters:cardigans`
 
 カテゴリベースのレコメンデーションの場合、カテゴリ値はコンマで区切られます。 コンマで区切られた値はカテゴリになります。また、別の区切り文字（コロン（:）など）を使用してカテゴリ値内のサブカテゴリを区切ることで、サブカテゴリを定義できます。
 
@@ -117,7 +117,7 @@ The `categoryId` の値は 250 文字に制限されます。
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-mbox 配信の場合、最も長い属性名がキーに使用されます。同じ長さの場合、最後の属性が使用されます。上記の例では、カテゴリキーは Womens です。:Outerwear:ジャケット：カバン。
+mbox 配信の場合、最も長い属性名がキーに使用されます。同じ長さの場合、最後の属性が使用されます。上記の例では、カテゴリキーは `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
