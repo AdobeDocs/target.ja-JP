@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 79%
+source-wordcount: '1518'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 79%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Adobe Experience Platform Visual Editing Helper] 対象： [!DNL Google Chrome]. |
 | 3 月 14 日 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 夏時間 (DST) に対応するために、時間ベースのオーディエンスを再保存するための情報を追加しました。 |
 | 3月6日（PT） | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 次の節の情報を更新しました：「 [!DNL iPad] および [!DNL iPhone] in [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日）」と呼ばれる変数です。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | セクション全体を更新しました：「 `Browser:iPad` および `Browser:iPhone` in [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日）」と呼ばれる変数です。 |

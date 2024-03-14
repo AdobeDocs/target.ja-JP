@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 63%
+source-wordcount: '570'
+ht-degree: 57%
 
 ---
 
@@ -24,6 +24,14 @@ ht-degree: 63%
 | 更新 | 詳細 |
 |--- |--- |
 | [!UICONTROL Browser:iPad] および [!UICONTROL Browser:iPhone] 更新： [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスを作成する際に使用します。 | [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)( 特定の [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページを訪問したとき。<P>の使用を開始する [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4～6 日）:Target UI を使用して作成された組み込みオーディエンス ( 例： `Browser:iPad` および `Browser:iPhone` の適切なターゲティングを実行するために更新されます [!DNL iPad] および [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` および `profile.mobile.isTablet`.<P>この更新では、お客様側での操作は必要ありません。<p><B>重要</b>：顧客が [!DNL iPad] および [!DNL iPhone] プロファイルスクリプト（および JavaScript セグメント）では、手動での変更は、 **2024 年 4 月 31 日**. 手動で変更する必要がある代替設定の例については、 [の更新 [!DNL iPad] および [!DNL iPhone] in [!UICONTROL Browser] オーディエンス属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+## [!UICONTROL Visual Editing Helper] 拡張機能（2023 年 3 月 14 日）
+
+このリリースには、次の機能強化および修正が含まれています [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 拡張 [!DNL Google Chrome]:
+
+* 顧客の Web サイトでオーサリングを実行する際の iFrame の読み込みメカニズムが強化されました。
+* でのオーサリングの実行中に、拡張機能で Cookie が重複する問題を修正しました。 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
+* を使用しているお客様向けに、at.js をダウンロードするための依存関係を削除しました。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
 
