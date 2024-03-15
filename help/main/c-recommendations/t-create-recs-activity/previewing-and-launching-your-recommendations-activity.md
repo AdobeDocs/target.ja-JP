@@ -1,39 +1,39 @@
 ---
 keywords: Recommendations；オファー；プレビュー；ローンチ；ステータス；条件；アルゴリズム
-description: Adobe [!DNL Target] Recommendationsアクティビティを使用して、アクティビティを開始する前に結果が使用可能であることを確認します。
+description: Adobeのプレビュー方法 [!DNL Target] Recommendationsアクティビティを使用して、アクティビティを開始する前に結果が使用可能であることを確認します。
 title: Recommendationsアクティビティのプレビューと開始方法を教えてください。
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
+source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 17%
+source-wordcount: '1416'
+ht-degree: 15%
 
 ---
 
 # Recommendations アクティビティのプレビューと起動
 
-次の [!UICONTROL Recommendations], [!UICONTROL A/B テスト]または [!UICONTROL エクスペリエンスのターゲット設定] (XT) 次を含むアクティビティ： [Recommendationsオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用する場合、アクティビティを開始する前に、レコメンデーションをプレビューして、結果が使用可能であることを確認する必要があります。 [!DNL Target Recommendations] では、レコメンデーションを複数の方法でプレビューできます。
+次の [!UICONTROL Recommendations], [!UICONTROL A/B Test]または [!UICONTROL Experience Targeting] (XT) 次を含むアクティビティ： [Recommendationsオファー](/help/main/c-recommendations/recommendations-as-an-offer.md)を使用する場合、アクティビティを開始する前に、レコメンデーションをプレビューして、結果が使用可能であることを確認する必要があります。 [!DNL Target Recommendations] では、レコメンデーションを複数の方法でプレビューできます。
 
 ## Recommendationsアルゴリズムのステータスの確認
 
 アクティビティの作成後、 [!DNL Recommendations] は、レコメンデーションを生成するためのアルゴリズムを実行します。 このアルゴリズムの実行には数時間かかる場合があります。
 
-アルゴリズムの実行が [!UICONTROL アクティビティ] 概要図。条件のステータスが表示されます。 次の図に、 [!DNL Recommendations] アクティビティの [!UICONTROL 概要] ページ：
+アルゴリズムの実行が [!UICONTROL Activity] 概要図。条件のステータスが表示されます。 次の図に、 [!DNL Recommendations] アクティビティの [!UICONTROL Overview] ページ：
 
 ![Recommendationsアクティビティの概要ページ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-以下の図は、 [!UICONTROL A/B テスト] または XT アクティビティの [!UICONTROL 概要] ページ：
+以下の図は、 [!UICONTROL A/B Test] または XT アクティビティの [!UICONTROL Overview] ページ：
 
 ![A/B テストの概要ページ](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
 ステータスの結果には次のものが含まれます（下図を参照）。
 
-* [!UICONTROL 結果の準備ができました]:アルゴリズムが結果を返したことを示します
-* [!UICONTROL 結果の準備ができていません]:アルゴリズムの実行が完了していないことを示します。
-* [!UICONTROL フィードエラー]:カスタム条件フィードファイルを取得できなかったことを示します。
+* [!UICONTROL Results Ready]：アルゴリズムが返した結果を示します
+* [!UICONTROL Results Not Ready]：アルゴリズムの実行が完了していないことを示します。
+* [!UICONTROL Feed Failure]：カスタム条件フィードファイルを取得できなかったことを示します。
 
-![結果ダイアログボックス](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![[ 結果 ] ダイアログボックス](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## アルゴリズムの実行にはどのくらいの時間がかかりますか？
 
@@ -50,16 +50,16 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 [!DNL Adobe Analytics] を行動データソースとして使用する条件を作成した場合は、選択されているレポートスイートとルックバックウィンドウが他の条件でも使用されているかどうかに応じて、条件が使用可能になる時間が異なります。
 
 * **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この期間は、[!DNL Analytics] システム負荷に依存します。
-* **既に利用可能なレポートスイートを使用して新しい条件または編集した条件**:新しい条件の作成時または既存の条件の編集時に、選択されたレポートスイートが既に [!DNL Target Recommendations]で指定したデータ範囲よりも小さいか等しい場合、データは直ちに使用可能になり、1 回限りのセットアップは不要です。 この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
-* **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL 表示の親和性]レコメンデーションの場合、ユーザーが製品を表示すると、製品表示トラッキングコールがほぼリアルタイムで [!DNL Analytics] に渡されます。この [!DNL Analytics] データが次にプッシュされる： [!DNL Target] 翌日早々に [!DNL Target] は 12 時間以内にアルゴリズムを実行します。
+* **既に利用可能なレポートスイートを使用して新しい条件または編集した条件**：新しい条件の作成時、または既存の条件の編集時に、選択されたレポートスイートが既に [!DNL Target Recommendations]で指定したデータ範囲よりも小さいか等しい場合、データは直ちに使用可能になり、1 回限りのセットアップは不要です。 この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
+* **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、 [!UICONTROL Viewed Affinity] レコメンデーションでは、ユーザーが製品を表示する際に、製品表示トラッキングコールが [!DNL Analytics] リアルタイムに近い The [!DNL Analytics] データが次にプッシュされる： [!DNL Target] 翌日早々に [!DNL Target] は 12 時間以内にアルゴリズムを実行します。
 
 >[!NOTE]
 >
->[!UICONTROL 最近表示された項目] では、オフラインアルゴリズムの実行が不要で、結果をすぐに使用できます。 [!UICONTROL 最も多く閲覧された] および [!UICONTROL トップセラー] mbox データに基づくアルゴリズムは、通常、必要な計算が単純なので、非常に迅速に結果を生成します。 これらは、デザインの変更をプレビューしたり、行動データが正しく収集されていることを確認したりする場合に適したオプションです。
+>[!UICONTROL Recently Viewed Items] では、オフラインアルゴリズムの実行が不要で、結果をすぐに使用できます。 [!UICONTROL Top Viewed] および [!UICONTROL Top Sellers] mbox データに基づくアルゴリズムは、通常、必要な計算が単純なので、非常に迅速に結果を生成します。 これらは、デザインの変更をプレビューしたり、行動データが正しく収集されていることを確認したりする場合に適したオプションです。
 
 ## QA リンクを使用したRecommendationsのプレビュー
 
-アルゴリズムの結果の準備が整ったら、 [QA リンク](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能 [!DNL Adobe Target]. QA リンクは [!UICONTROL アクティビティ QA] アクティビティの概要ページの「 」セクションで、以下の操作をおこないます。
+アルゴリズムの結果の準備が整ったら、 [QA リンク](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能 [!DNL Adobe Target]. QA リンクは [!UICONTROL Activity QA] アクティビティの概要ページの「 」セクションで、以下の操作をおこないます。
 
 ![アクティビティ QA リンク](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
@@ -73,18 +73,17 @@ QA リンクを使用すると、ページ上のレコメンデーションを�
 
 >[!NOTE]
 >
->* Target QA モードは「定着」で、cookie に保存されます。 QA モードを終了しないと、サイト全体で QA 結果が表示され続けます。 QA モードを終了するには、 [ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Target QA モードは「固定」で、Cookie に保存されます。 QA モードを終了しないと、サイト全体で QA 結果が表示され続けます。 QA モードを終了するには、 [ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* QA モードの場合、サイトの閲覧はプロファイルの [!UICONTROL 最近表示された項目] または [!UICONTROL 最近購入された品目]. この動作は、生産行動データの意図しない汚染を防ぐために設計によって行われます。 次の結果をプレビューするには： [!UICONTROL 最近表示された項目] または [!UICONTROL ユーザーベースのRecommendations] 条件を選択し、まず QA モード以外でサイトを参照し、次に同じセッションを使用して QA モードのリンクを開きます。
-
+>* QA モードの場合、サイトの閲覧はプロファイルの [!UICONTROL Recently Viewed Items] または [!UICONTROL Recently Purchased Items]. この動作は、生産行動データの意図しない汚染を防ぐために設計によって行われます。 次の結果をプレビューするには： [!UICONTROL Recently Viewed Items] または [!UICONTROL User-Based Recommendations] 条件を選択し、まず QA モード以外でサイトを参照し、次に同じセッションを使用して QA モードのリンクを開きます。
 
 ## CSV ダウンロードを使用したレコメンデーションのプレビュー
 
-場合によっては、レコメンデーションされる特定の品目を監査する必要があります。 これは、のようなアルゴリズムを使用する場合に特に役立ちます。 [!UICONTROL これを閲覧した人が他に閲覧したもの]：ユーザーが現在表示している品目に応じて異なる品目セットがレコメンデーションされ、カタログに数千または数百万の異なる品目が含まれる場合があります。
+場合によっては、レコメンデーションされる特定の品目を監査する必要があります。 これは、のようなアルゴリズムを使用する場合に特に役立ちます。 [!UICONTROL People Who Viewed This, Viewed That]：ユーザーが現在表示している品目に応じて異なる品目セットがレコメンデーションされ、カタログに数千または数百万の異なる品目が含まれる場合があります。
 
-結果は [!UICONTROL 結果の準備ができました] ステータスは、アクティビティ内の 1 つ以上のアルゴリズムに対して表示されます。
+結果は、 [!UICONTROL Results Ready] ステータスは、アクティビティ内の 1 つ以上のアルゴリズムに対して表示されます。
 
-プレビュー用の結果をダウンロードするには、アクティビティの概要ページの右上隅にあるメニューアイコンをクリックし、 **[!UICONTROL データをダウンロード]**.
+プレビュー用の結果をダウンロードするには、アクティビティの概要ページの右上隅にあるメニューアイコンをクリックし、 **[!UICONTROL Download data]**.
 
 ![データオプションをダウンロード](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -92,23 +91,27 @@ CSV ファイルがダウンロードされます。 それを開いて、レコ
 
 ![推奨品目の CSV ファイル](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-左から右に、レコメンデーションされた品目のリストが表示されます。この場合は、最も頻繁に表示されます。 レコメンデーションは環境別に分けられます。この場合、実稼動環境にのみレコメンデーションが含まれます。 このアルゴリズムでは、キー値に基づく制限は適用されていないので、アスタリスク (*) の付いた行にはレコメンデーションの完全なセットが含まれます。 キー値に基づく他のアルゴリズムタイプの場合： [!UICONTROL これを閲覧した人が他に閲覧したもの]の場合、キー値（「この」項目）は最左の列に、レコメンデーション項目（「その」項目）は Recommendation_X 列に左から右にリストされます。
+左から右に、レコメンデーションされた品目のリストが表示されます。この場合は、最も頻繁に表示されます。 レコメンデーションは環境別に分けられます。この場合、実稼動環境にのみレコメンデーションが含まれます。
+
+アスタリスク (*) が行の最初の値である場合は、バックアップ項目を示します。 アルゴリズムの推奨品目（条件）でデザインのすべてのスロットを埋めることができない場合は、バックアップ品目が表示されます。 販売数トップなどの人気アルゴリズムの場合、CSV ファイルには各環境の非バックアップ行が 0 または 1 行しかありません。これは、これらのアルゴリズムタイプには「閲覧や購入の有無に関係なく、顧客に最も人気のある製品を表示」などの「キー」がないからです。 したがって、ビュービュービューなどの他のキーベースのアルゴリズムとは異なり、行の最初の値はキーではなく、レコメンデーション品目のリストの最初の項目です。
+
+キー値に基づく他のアルゴリズムタイプの場合： [!UICONTROL People Who Viewed This, Viewed That]の場合、キー値（「この」項目）は最左の列に、レコメンデーション項目（「その」項目）は Recommendation_X 列に左から右にリストされます。
 
 >[!NOTE]
 >
->結果のダウンロードは、 [!UICONTROL ユーザーベースのRecommendations] アルゴリズム。 結果のダウンロードは、 [!UICONTROL 最近表示した項目] レコメンデーションロジック。
+>結果のダウンロードは、 [!UICONTROL User-Based Recommendations] アルゴリズム。 結果のダウンロードは、 [!UICONTROL Recently-Viewed Items] レコメンデーションロジック。
 
 ## Recommendationsアクティビティのアクティブ化
 
-次の [!UICONTROL アクティビティの概要] 」タブで、ステータスの横にあるドロップダウン矢印をクリックし、「 **[!UICONTROL 有効化]**.
+次から： [!UICONTROL Activity Overview] 」タブで、ステータスの横にあるドロップダウン矢印をクリックし、「 **[!UICONTROL Activate]**.
 
-![有効化オプション](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+![「有効化」オプション](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
 
-ステータスが [!UICONTROL 有効化中]:
+ステータスが [!UICONTROL Activating]:
 
-![アクティブ化中](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
+![有効化中](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
 
-数秒から数分後に、ステータスが「 [!UICONTROL ライブ]:
+数秒から数分後に、ステータスがに切り替わります。 [!UICONTROL Live]:
 
 ![ライブ](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
 
@@ -116,7 +119,7 @@ CSV ファイルがダウンロードされます。 それを開いて、レコ
 
 ## Recommendations設定の変更時の中断の回避
 
-変更 [!DNL Recommendations] ライブアクティビティのコレクション、条件、プロモーションまたはデザイン設定が原因で、アルゴリズムの結果が無効になり、アルゴリズムのステータスが「 [!UICONTROL 結果の準備ができていません].
+変更中 [!DNL Recommendations] ライブアクティビティのコレクション、条件、プロモーションまたはデザイン設定が原因で、アルゴリズムの結果が無効になり、アルゴリズムのステータスが「 [!UICONTROL Results Not Ready].
 
 ライブアクティビティを中断しないように、ライブアクティビティを変更する際は次の方法を取ることをお勧めします。
 
