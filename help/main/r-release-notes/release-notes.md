@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 57%
+source-wordcount: '552'
+ht-degree: 59%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 57%
 
 * 顧客の Web サイトでオーサリングを実行する際の iFrame の読み込みメカニズムが強化されました。
 * でのオーサリングの実行中に、拡張機能で Cookie が重複する問題を修正しました。 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
-* を使用しているお客様向けに、at.js をダウンロードするための依存関係を削除しました。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
 
