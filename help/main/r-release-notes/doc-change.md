@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: a470b414705135885b0671cb2008315848703724
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 78%
+source-wordcount: '1573'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 78%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 3月22日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | エッジノード 31 ～ 38 への参照が削除されました。このノードは存在しなくなったからです。 が最新許可リストに加えるであることを確認します。 |
+|  | [サードパーティ Cookie の廃止が Target(at.js) に与える影響](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Googleでのサードパーティ cookie の廃止予定が、お客様にとってどのような意味を持つかを説明する新しいブログ投稿です。 [!DNL Adobe Target] at.js の実装。 |
 | 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | リリースノートを追加しました。 [!DNL Adobe Experience Platform Visual Editing Helper] 対象： [!DNL Google Chrome]. |
 | 3 月 14 日 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 夏時間 (DST) に対応するために、時間ベースのオーディエンスを再保存するための情報を追加しました。 |
 | 3月6日（PT） | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 次の節の情報を更新しました：「 [!DNL iPad] および [!DNL iPhone] in [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日）」と呼ばれる変数です。 |
@@ -122,3 +124,4 @@ ht-degree: 78%
 | 7月25日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md#edge) | 2023年8月9日（PT）に予定されているエッジインフラストラクチャのアップグレードに関する情報を追加しました。 |
 |  | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} | エッジデプロイメント 41～48 の NAT と IP／ドメインを更新しました。 |
 | 7 月 25 日 | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.7.1 リリースに関するリリースノートを追加しました。 |
+
