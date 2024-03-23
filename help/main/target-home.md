@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 0b690563d9719b3374f5a6be16a75990e629ab2b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2024年3月14日（PT）（[変更内容を確認](r-release-notes/doc-change.md)）**
+**最終更新日：2024年3月22日（PT）（[変更内容を確認](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -76,3 +76,4 @@ ht-degree: 100%
 | Adobe [!DNL Target] ソリューションに関するヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
 | <ul><li>[Adobe Target のラーニングとサポート](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ja)</li><li>[Target API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[Target コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[Experience Cloud ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ja)</li><li>[アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+
