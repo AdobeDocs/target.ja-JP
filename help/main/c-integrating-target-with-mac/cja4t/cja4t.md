@@ -7,7 +7,7 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 * マーケターは、[!DNL Customer Journey Analytics] の成功指標を [!DNL Target] のアクティビティレポートにいつでも動的に適用できます。アクティビティを実行する前にすべての項目を指定する必要はありません。
 * マーケターは、 [!DNL Customer Journey Analytics] 機能 ( 例： [実験パネル](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}を使用して、Web サイトのパーソナライゼーションをさらに分析できます。
-*マーケターは、 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} および [!DNL Target]. 両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] に接続すると、web パーソナライゼーションの全体像を把握できます。
+* マーケターは、 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} および [!DNL Target]. 両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] に接続すると、web パーソナライゼーションの全体像を把握できます。
 
 ## 注意点
 
