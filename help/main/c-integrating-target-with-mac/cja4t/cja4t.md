@@ -7,7 +7,7 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -37,7 +37,7 @@ ht-degree: 64%
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) アカウントを所有している場合、*ユーザー*&#x200B;の[役割および権限の指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)を参照してください。
    * [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを所有している場合は、*Enterprise ユーザーの権限*&#x200B;で[役割と権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)を参照してください。
 
-* [!DNL Customer Journey Analytics] をレポートソースとして [!DNL Target] アクティビティを設定するには、[!DNL Adobe Experience Platform] の役割に属している必要があります。詳しくは、*データアーキテクトおよびエンジニア向けチュートリアル*&#x200B;の&#x200B;*権限の設定*&#x200B;の [ [!DNL Adobe Experience Platform] での役割の追加](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank}を参照してください。
+* [!DNL Customer Journey Analytics] をレポートソースとして [!DNL Target] アクティビティを設定するには、[!DNL Adobe Experience Platform] の役割に属している必要があります。詳しくは、*データアーキテクトおよびエンジニア向けチュートリアル*&#x200B;の&#x200B;*権限の設定*&#x200B;の [ [!DNL Adobe Experience Platform] での役割の追加](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}を参照してください。
 * 設定に応じて、アクティビティごとまたは組織レベルでレポートを変更できます。詳しくは、*Target でのレポートの設定*&#x200B;で[レポートクラウドソリューション](/help/main/administrating-target/reporting.md#solution)を参照してください。
 * どちらか 1 つのレポートソースを選びます。1 つのアクティビティのデータを複数のレポートソースに収集することはできません。
 * [!DNL Customer Journey Analytics] をレポートソースとして設定すると、レポート用のサンドボックスを指定するよう求められます。 設定時には、アクセスできるサンドボックスのみが表示されます。
