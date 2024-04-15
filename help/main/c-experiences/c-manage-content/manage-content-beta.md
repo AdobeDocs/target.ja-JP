@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 886ca4c924c83d182597d298eb4724a79a24faa2
+source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '597'
 ht-degree: 29%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->この記事には、現在ベータ版プログラムの一部である Target 機能に関する情報が含まれています。 Adobe Target チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、今後、これらの機能はすべての顧客に対して有効になります [!DNL Target Standard/Premium] のリリースとリリースは、リリースノートで発表されました。
+>この記事には、に関する情報が含まれています [!DNL Target] 現在ベータ版プログラムの一部である機能。 この [!DNL Adobe Target] チームは、多くの場合、一部のお客様に対して、テストやフィードバックの目的で新機能を有効にします。 テスト期間が完了すると、今後、これらの機能はすべての顧客に対して有効になります [!DNL Target Standard/Premium] のリリースとリリースは、リリースノートで発表されました。
 
 1. クリック **[!UICONTROL Offers]** をクリックしてライブラリを開きます。
 
