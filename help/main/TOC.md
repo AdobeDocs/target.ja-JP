@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Adobe Target ビジネス実践者ガイド {#using}
 
-+ [Adobe Target Business Practior ガイドホーム](target-home.md)
++ [Adobe Target実務担当者ガイドホーム](target-home.md)
 + Target リリースノート {#release-notes}
    + [Target のお知らせとイベント](/help/main/r-release-notes/target-announcements.md)
    + [Target リリースノート（最新）](r-release-notes/release-notes.md)
@@ -89,19 +89,19 @@ ht-degree: 92%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Customer Journey Analytics(CJA4T) の統合 {#cja4t} {#hidden}
-      + [Target のレポートソースとしてのAdobe Customer Journey Analytics(CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
-   + Target とAdobe Journey Optimizer(AJO) の統合 {#ajo}
+   + Target とAdobe Customer Journey Analyticsの統合（CJA4T） {#cja4t} {#hidden}
+      + [Target のレポートソースとしてのAdobe Customer Journey Analytics（CJA4T）](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
+   + Target とAdobe Journey Optimizer（AJO）の統合 {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [の統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Target とAdobe Experience Manager (AEM) の統合 {#aem}
+   + Target とAdobe Experience Manager（AEM）の統合 {#aem}
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
-         + [AEMエクスペリエンスフラグメントとコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+      + エクスペリエンスフラグメントおよびコンテンツフラグメント {#fragments}
+         + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM Content Fragments](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Target とAdobe Audience Manager (AAM) の統合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+         + [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+   + [Target とAdobe Audience Manager（AAM）の統合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform との統合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
 + アクティビティ {#activities}
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + オファー {#offers}
       + [オファーの概要](c-experiences/c-manage-content/manage-content.md)
+      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [オファーフォルダーの作成](c-experiences/c-manage-content/create-content-folder.md)
       + [コンテンツのアップロード](c-experiences/c-manage-content/assets-upload.md)
       + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect.md)
@@ -255,7 +256,7 @@ ht-degree: 92%
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
       + [コンテンツの検索](c-experiences/c-manage-content/filter-and-search-content.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM Experience とコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
 + レポート {#reports}
    + [レポートの概要](c-reports/reports.md)
    + レポート設定 {#settings}
@@ -264,7 +265,7 @@ ht-degree: 92%
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計的手法 {#statistical-methodology}
-      + [A/Bn テストの統計指標](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + パーソナライゼーションレポート {#personalization-reports}
       + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)
