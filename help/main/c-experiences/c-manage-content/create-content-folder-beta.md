@@ -3,10 +3,13 @@ keywords: コンテンツ;フォルダーの作成;アセット;フォルダー�
 description: でのフォルダーの作成方法 [!UICONTROL Offers] 図書館？
 title: でフォルダーを作成する方法を説明します [!UICONTROL Offers] コードオファー、画像オファーおよび他のフォルダーを保持するライブラリ。
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 

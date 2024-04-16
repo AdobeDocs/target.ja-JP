@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1232'
 ht-degree: 92%
 
 ---
@@ -249,6 +249,7 @@ ht-degree: 92%
       + [オファーの概要](c-experiences/c-manage-content/manage-content.md)
       + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [オファーフォルダーの作成](c-experiences/c-manage-content/create-content-folder.md)
+      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
       + [コンテンツのアップロード](c-experiences/c-manage-content/assets-upload.md)
       + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect.md)
       + [リモートオファーを作成](c-experiences/c-manage-content/about-remote-offers.md)
