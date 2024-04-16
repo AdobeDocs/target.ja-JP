@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 92%
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -247,10 +247,11 @@ ht-degree: 92%
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + オファー {#offers}
       + [オファーの概要](c-experiences/c-manage-content/manage-content.md)
-      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [オファーフォルダーの作成](c-experiences/c-manage-content/create-content-folder.md)
-      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
+      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
       + [コンテンツのアップロード](c-experiences/c-manage-content/assets-upload.md)
+      + [画像オファーのアップロードまたは削除](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect.md)
       + [リモートオファーを作成](c-experiences/c-manage-content/about-remote-offers.md)
       + [JSON オファーの作成](c-experiences/c-manage-content/create-json-offer.md)

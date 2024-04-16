@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # オファーフォルダーの作成
 
 でのフォルダーの作成 [!DNL Adobe Target] [!UICONTROL Offer] コードオファー、画像オファーおよびサブフォルダー構造を作成するその他のフォルダーを格納するライブラリ。
+
+>[!NOTE]
+>
+>この記事には、の更新に関する情報が含まれています [!DNL Target] 現在ベータ版プログラムに含まれているユーザーインターフェイス。 この [!DNL Adobe Target] チームは、多くの場合、一部のお客様に対して、テストやフィードバックの目的で新機能を有効にします。 テスト期間が完了すると、今後、これらの機能はすべての顧客に対して有効になります [!DNL Target Standard/Premium] のリリースとリリースは、リリースノートで発表されました。
 
 コードオファーと画像オファーのフォルダーを作成するプロセスは少し異なります。 詳しくは、次の節を参照してください。
 
