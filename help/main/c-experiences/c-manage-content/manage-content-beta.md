@@ -7,10 +7,10 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
+source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 6%
+source-wordcount: '994'
+ht-degree: 17%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 6%
 
 ### その他のアクション
 
+コードオファーと画像オファーで使用できるアクションは、わずかに異なります。 詳しくは以下のセクションで説明されています。
+
+#### [!UICONTROL Code Offer] オプション
+
 「」をクリックします **[!UICONTROL More actions]** 各オファー名の横にあるアイコン（水平省略記号）をクリックすると、アクティビティに対してクイックアクションを実行できるメニューが開きます。 使用できるアクションは次のとおりです（権限とオファーのステータスによって異なります）。 [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete]、および [!UICONTROL Move].
 
 ![Target オファーライブラリの「その他のアクション」オプション](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
@@ -80,6 +84,8 @@ ht-degree: 6%
 権限によっては、一部のオプションのアイコンが表示されない場合があります。 例えば、次を含むユーザー [!UICONTROL Observer] 権限にはを使用する権限がありません [!UICONTROL Copy] オプション。
 
 オファーおよびフォルダーに対して実行できるタスクについて詳しくは、を参照してください。 [アセットライブラリ内のコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] オプション
 
 の目的の画像オファーまたはフォルダーにカーソルを合わせて、追加のタスクを実行します。 [!UICONTROL Image Offers] タブをクリックしてから、目的のアイコンをクリックします。
 
@@ -100,68 +106,64 @@ ht-degree: 6%
 >
 >画像オファーはの一部ではありません [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデル。
 
-<!--
+## オファー定義の表示 {#section_6B059DD121434E6292CAB393507D010E}
 
-## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
+のポップアップカードにオファー定義の詳細を表示できます [!UICONTROL Offers] オファーを開かないライブラリ。
 
-You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
+例えば、HTMLオファーに対して次に示すオファー定義カードには、 [!UICONTROL Content] リストに追加したら、情報アイコンをクリックします。
 
-For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
+![offer-card-html 画像](assets/offer-card-html.png)
 
-![offer-card-html image](assets/offer-card-html.png)
+以下の情報が表示されます。
 
-The following information is available:
+* 名前
+* ソース
+* タイプ
+* オファー ID
+* オファーパス
+* 最終変更日
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer path 
-* Last Modified
+「」をクリックします [!UICONTROL Offer Usage] タブをクリックして、各オファーの定義ポップアップカードでコードオファーを参照するアクティビティを表示します。 この機能は画像オファーには適用されません。これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。次の情報が含まれます [!UICONTROL Live Activities] および [!UICONTROL Inactive Activities].
 
-Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
+![オファーカードの使用状況画像](assets/offer-card-usage.png)
 
-![offer-card-usage image](assets/offer-card-usage.png)
+以下に示すリダイレクトオファーのオファー定義カードの場合：
 
-The following offer definition card for a Redirect offer:
+![オファーカードのリダイレクト画像](assets/offer-card-redirect.png)
 
-![offer-card-redirect image](assets/offer-card-redirect.png)
+以下の情報が表示されます。
 
-The following information is available:
+* 名前
+* ソース
+* タイプ
+* オファー ID
+* オファーパス
+* 最終変更日
+* リダイレクト URL
+* すべての URL パラメーターを含める（オンまたはオフ）
+* mbox セッション ID を渡す（オンまたはオフ）
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL 
-* Include all URL parameters (On or Off) 
-* Pass mbox session ID (On or Off)
+以下に示すリモートオファーのオファー定義カードの場合：
 
-The following offer definition card for a Remote offer:
+![offer-card-remote 画像](assets/offer-card-remote.png)
 
-![offer-card-remote image](assets/offer-card-remote.png)
+以下の情報が表示されます。
 
-The following information is available:
+* 名前
+* ソース
+* タイプ
+* オファー ID
+* オファーパス
+* 最終変更日
+* リダイレクト URL のタイプ
+* 絶対 URL または相対 URL
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL Type 
-* Absolute or Relative URL
+## トレーニングビデオ：コンテンツリポジトリ ![概要バッジ](/help/main/assets/overview.png)
 
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+このビデオでは、オファーの管理について説明します。
 
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
+* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
+* カスタム HTML オファー
+* Visual Experience Composer のカスタム HTML オファー
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
