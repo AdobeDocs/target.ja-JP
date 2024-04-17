@@ -1,14 +1,14 @@
 ---
 keywords: コンテンツ；コンテンツの更新；アセット；コンテンツのアップロード；アセットのアップロード；コンテンツの削除
 description: 画像オファーとして使用する画像をアップロードまたは削除する方法を説明します。
-title: オファーライブラリにコンテンツをアップロードまたは削除するにはどうすればよいですか？
+title: へのコンテンツのアップロードまたは削除方法 [!UICONTROL Offers] 図書館？
 feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 13%
 
 ---
