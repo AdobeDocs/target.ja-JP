@@ -6,7 +6,7 @@ feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
+source-git-commit: 26cb9d6a2359714f41acaf91c6e26a7e0ac93238
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 21%
