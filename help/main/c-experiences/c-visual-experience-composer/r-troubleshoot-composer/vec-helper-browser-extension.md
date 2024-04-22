@@ -1,27 +1,29 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: Visual Experience Composer（VEC）で一部の web サイトを確実に開くことができない可能性がある理由を明らかにします。VEC ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトを読み込むことができます。
-title: Visual Experience Composer(VEC) ヘルパー拡張の使用方法を教えてください。
+description: で一部の web サイトを確実に開くことができない可能性がある理由を明らかにします [!UICONTROL Visual Experience Composer] （VEC）。 VEC Helper ブラウザー拡張機能を使用すると、VEC 内に web サイトを確実に読み込むことができます。
+title: の使用方法 [!UICONTROL Visual Experience Composer] （VEC）ヘルパー拡張機能？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 56%
+source-wordcount: '1088'
+ht-degree: 48%
 
 ---
 
-# Visual Experience Composer ヘルパー拡張機能
+# [!UICONTROL Visual Experience Composer] ヘルパー拡張機能
 
-この [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)Google Chrome 用ヘルパーブラウザー拡張機能を使用すると、VEC 内で確実に Web サイトを読み込み、作成と QA Web エクスペリエンスをすばやくできます。
+この [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）のヘルパーブラウザー拡張機能 [!DNL Google Chrome] では、VEC 内に web サイトを確実に読み込んで、web エクスペリエンスを迅速に作成および QA できます。
 
-VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefox を使用する場合、この拡張機能は不要です。
+VEC Helper ブラウザーはです [!DNL Chrome] 拡張機能。 を使用する場合、この拡張機能は必要ありません [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
->現在の [!DNL Target] この記事に記載されている VEC ヘルパー拡張機能は、Manifest v2 を使用して作成されました。 Googleは最近、Manifest v2 を使用して作成された新しい拡張機能を許可しなくなると発表しました。
+>現在 [!DNL Target] この記事で説明する VEC ヘルパー拡張機能は、Manifest v2 を使用して作成されました。 Googleは最近、2024 年 6 月より、Manifest v2 を使用して作成された新しい拡張機能を使用できなくなると発表しました。 詳しくは、 [Manifest V2 サポートのタイムラインのお知らせ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} から [!DNL Google] 日 *開発者向け Chrome* サイト。
 >
->既存の拡張機能は、Google Chrome で引き続き機能します。 将来、 [!DNL Adobe] このトピックに記載されているヘルパー拡張機能は非推奨となり、お客様は新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). この拡張機能が機能しなくなると、この記事のリリースノートおよびテキストで通知されます。 ただし、Manifest v3 のセキュリティ強化のため、 [!DNL Adobe] では、引き続き Web サイトを視覚的にオーサリングするために、新しい拡張機能をダウンロードすることをお勧めします。 [!DNL Target].
+>既存の拡張機能は、Google Chrome でも引き続き機能します。 2024 年 6 月以降、 [!DNL Adobe] は、このトピックに記載されているヘルパー拡張機能の無効化を開始し、新しいに移行する必要があります [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>
+この拡張機能が機能を停止する際には、リリースノート、製品内アナウンスおよびこの記事のテキストで通知されます。 ただし、Manifest v3 のセキュリティ強化により、 [!DNL Adobe] で web サイトの視覚的な作成を続行するには、新しい拡張機能をダウンロードする必要があります [!DNL Target].
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 
@@ -29,40 +31,40 @@ VEC ヘルパーブラウザーは、Chrome 拡張機能です。 Mozilla Firefo
 * Web サイトで iframe が使用されています。
 * Web サイトに at.js ライブラリがまだ実装されていません。
 * 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
-* VEC を使用してを使用している Web サイトを開こうとすると、現在いくつかの制限があります [サービスワーカー](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API){target=_blank} (SW)。
+* 現在、を使用している web サイトを VEC で開こうとすると、いくつかの制限があります [サービスワーカー](https://developer.mozilla.org/ja-JP/docs/Web/API/Service_Worker_API){target=_blank} （SW）。
 
 SW は、web ページによってインストールされているドメインのリクエストをインターセプトするために使用できる web テクノロジーです。SW はページの訪問中は存続し、以降の訪問時にはアクティブになります。SW は、どのリクエストを通過させ、どのリクエストをインターセプトし、代わりにキャッシュからサービスを提供するかを決定します。
 
 SW はキャッシュを制御できます。Web ページ自体、JS、CSS、IMG、AJAXリクエストなどの静的リソース、コンテンツおよび応答ヘッダーをキャッシュできます。これには、SAMEORIGIN、CSP（Content-Security-Policy）、Set-Cookie など、X-Frame-Options のような [Target VEC ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)が削除しようとするものを含みます。
 
-残念ながら、Web 要求を切り取る Chrome 拡張機能 API は、SW によって傍受および処理された要求を受け取りません。 したがって、Web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたので、Web ページは VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
+残念ながら、web リクエストをインターセプトする Chrome 拡張機能 API は、SW によってインターセプトおよび処理されたリクエストを受信しません。 したがって、web ページリクエストが SW によってキャッシュから提供された場合、X-Frame-Options ヘッダーまたは CSP ヘッダーもキャッシュされたため、web ページが VEC 内に読み込まれないので、拡張機能ではヘッダーと Cookie を修正できません。
 
-考えられる回避策として、Chrome 開発者ツール／アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。
+考えられる回避策として、Chrome 開発者ツール/アプリケーションタブで「Service Workers」を無効にし、「Service Workers」セクションの下にある「Bypass for network」チェックボックスを有効にします。
 
-* Google Chrome 80 以降を、強化された SameSite cookie 実施ポリシーと共に使用している。 詳しくは、 [最近発表されたGoogle Chrome SameSite cookie の実施ポリシーが VEC と EEC にどのように影響するか](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+* 拡張された SameSite cookie 強制ポリシーを使用してGoogle Chrome 80 以降を使用している。 詳しくは、を参照してください [最近発表されたGoogle Chrome SameSite cookie 実施ポリシーが VEC および EEC に与える影響](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Chrome 用の VEC ヘルパーブラウザー拡張機能は、お客様が現在 [!DNL Target] [拡張 Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) または Requestly などのサードパーティの拡張機能を使用できます。
+Chrome 用の VEC Helper ブラウザー拡張機能は、顧客がに依存するようになったサイト読み込みの問題を解決します [!DNL Target] [Experience Composer の強化](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) またはサードパーティの拡張機能（Requestly など）。
 
-## VEC ヘルパー拡張機能を使用するメリット
+## VEC Helper 拡張機能を使用するメリット
 
-* すべての iframe バスティングヘッダー（X-Frame-Options や Content-Security-Policy など）は、Web サイトから暗黙的に削除されます。複雑な Requestly ルールを作成する必要はありません。
+* すべての iframe バスティングヘッダー（X-Frame-Options や Content-Security-Policy など）は、Web サイトから暗黙的に削除されます。複雑な Requestly ルールを作成する必要はなくなります。
 * Web ページに [!DNL Target]at.js JavaScript ライブラリがまだ含まれていない場合は、拡張機能を使用してライブラリを挿入することにより、Web サイトのエクスペリエンスを作成できます。その後に、プレビューリンクを使用してアクティビティを作成し、QA を実行できます。
 
-   拡張 Experience Composer(EEC) を使用すると、拡張機能は at.js を挿入しませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
+  なお、拡張 Experience Composer （EEC）を使用する場合、拡張機能は at.js を挿入しませんが、SameSite Cookie 機能は引き続き存在します。 Web ページに at.js を挿入するには、EEC をオフにします。
 
-* [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)は、[!UICONTROL 拡張 Experience Composer]（EEC）がなくてもサポートされます。
+* [モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) がサポートされていない [!UICONTROL Enhanced Experience Composer] （EEC）。
 * [!DNL Target]が初めてのお客様は、自社の IT 開発者がまだ Web サイトに[!DNL Target]を実装していない場合でも、拡張機能を使用して[!DNL Target]を試すことができます。
 * 複数のお客様の Web サイトおよび[!DNL Target]アカウントにサービスを提供するパートナーは、サードパーティツールで複数のルールを管理するのではなく、VEC 読み込みをサポートする 1 つのシンプルなメカニズムを利用できるようになりました。
 
 ## VEC ヘルパーブラウザー拡張の取得とインストール
 
-1. 次に移動： [Chrome Web Store のAdobe Target VEC ヘルパーブラウザー拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. **[!UICONTROL Chrome に追加 / 拡張機能を追加]**&#x200B;をクリックします。
+1. に移動します。 [Chrome ウェブストアのAdobe Target VEC Helper ブラウザー拡張機能](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. **[!UICONTROL Add to Chrome > Add Extension]** をクリックします。
 1. [!DNL Target] で VEC を開きます。
 1. 拡張機能を使用するには、VEC または [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で、Chrome ブラウザーのツールバーにある「VEC ヘルパーブラウザー拡張」アイコン（ ![「VEC ヘルパー」アイコン](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ）をクリックします。
-1. （条件付き） **[!UICONTROL Target ライブラリを挿入]** ウェブページにまだ [!DNL Target] at.js JavaScript ライブラリ。
+1. （条件付き）をスライド **[!UICONTROL Inject Target Libraries]** web ページにがまだ含まれていない場合は、「オン」の位置に切り替えます [!DNL Target] at.js JavaScript ライブラリ。
 
-   「[!UICONTROL Target ライブラリを挿入]」設定が有効になっている VEC ヘルパーを次の図に示します。
+   次の図に、を持つ VEC ヘルパーを示します [!UICONTROL Inject Target Libraries] 有効な設定：
 
    ![VEC ヘルパー 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -70,19 +72,19 @@ Chrome 用の VEC ヘルパーブラウザー拡張機能は、お客様が現�
 
    ![VEC ヘルパー 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. （条件付き） **[!UICONTROL Cookie]** 自動的に `SameSite=None` 属性ブラウザの修正。
+1. （条件付き）をスライド **[!UICONTROL Cookies]** 「オン」位置に切り替えて、を自動的に追加します `SameSite=None` 属性ブラウザーの修正。
 
-   ![VEC ヘルパー拡張機能での cookie の切り替え](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   ![VEC ヘルパー拡張機能の cookie の切り替え](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    `SameSite=None` 属性に関するブラウザーの修正について詳しくは、「Google Chrome の SameSite cookie 実施ポリシーは、VEC および EEC にどのような影響を与えますか？」の節を参照してください。[Visual Experience Composer と拡張 Experience Composer に関連する問題のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)。
 
 ## メモ
 
-* デフォルトでは、拡張機能の「 [!UICONTROL Target ライブラリを挿入] 」フラグがオフになっています。[!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
+* この [!UICONTROL Inject Target libraries] 拡張機能のフラグは、デフォルトではオフになっています。 [!DNL Target]向けにまだ実装されていないサイトで VEC を使用する場合は、このフラグを有効にすることができます。
 
-   このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定し、at.js で既に実装されている Web サイトを開くと、at.js が既に読み込まれていることを示すメッセージが表示されます。 Adobeでは、ほとんどのお客様は既にページに at.js が実装されており、デフォルト設定の「off」を使用していると予想されます。
+  このフラグはグローバル設定です。 このフラグは、VEC で開かれているすべての Web サイトに対して有効または無効になります。例えば、このフラグを「on」に設定して、at.js で既に実装されている web サイトを開くと、at.js が既に読み込まれているというメッセージが届きます。 Adobeでは、ほとんどのお客様が既に at.js をページに実装しており、「off」のデフォルト設定を使用していることを想定しています。
 
-* 拡張機能は、 [!DNL Target UI] in [!UICONTROL 管理/実装].
+* この拡張機能は、から利用可能な最新バージョンの at.js を読み込みます。 [!DNL Target UI] 。対象： [!UICONTROL Administration > Implementation].
 * 拡張機能を使用して [QA モード](/help/main/c-activities/c-activity-qa/activity-qa.md)で at.js を挿入する場合は、別の Chrome タブを開く必要があります。この Chrome タブは、アクティビティを作成したのと同じ[!DNL Adobe Experience Cloud]組織に対して認証される必要があります。
 * 次のメッセージにより、さらに情報が提供されます。
 
