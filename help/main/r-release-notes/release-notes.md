@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 59%
+source-wordcount: '604'
+ht-degree: 53%
 
 ---
 
@@ -19,20 +19,26 @@ ht-degree: 59%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## の更新 `Browser:iPad` および `Browser:iPhone` in [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 31 日）
+## [!UICONTROL Visual Experience Composer] ヘルパー拡張機能（2024 年 4 月 23 日）
+
+レガシー [!DNL Target] Visual Experience Composer ヘルパー拡張機能は、Manifest V2 を使用して作成されました。 [!DNL Google] 2024 年 6 月以降、Manifest V2 を使用して作成した拡張機能は許可されなくなると発表しました。 詳しくは、を参照してください [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] では、お客様に新しいバージョンに移行することをお勧めします [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) できるだけ早く。
+
+## の更新 `Browser:iPad` および `Browser:iPhone` 。対象： [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日）
 
 | 更新 | 詳細 |
 |--- |--- |
-| [!UICONTROL Browser:iPad] および [!UICONTROL Browser:iPhone] 更新： [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスを作成する際に使用します。 | [!DNL Adobe Target] 以下が可能です。 [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)( 特定の [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページを訪問したとき。<P>の使用を開始する [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4～6 日）:Target UI を使用して作成された組み込みオーディエンス ( 例： `Browser:iPad` および `Browser:iPhone` の適切なターゲティングを実行するために更新されます [!DNL iPad] および [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` および `profile.mobile.isTablet`.<P>この更新では、お客様側での操作は必要ありません。<p><B>重要</b>：顧客が [!DNL iPad] および [!DNL iPhone] プロファイルスクリプト（および JavaScript セグメント）では、手動での変更は、 **2024 年 4 月 31 日**. 手動で変更する必要がある代替設定の例については、 [の更新 [!DNL iPad] および [!DNL iPhone] in [!UICONTROL Browser] オーディエンス属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+| [!UICONTROL Browser:iPad] および [!UICONTROL Browser:iPhone] 更新日時 [ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) オーディエンスの作成時に使用されます。 | [!DNL Adobe Target] 次のことができます [複数のカテゴリ属性のいずれかに対するターゲット](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)特定のを使用する訪問者を含む [ブラウザーまたはブラウザーのオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md) 訪問者がページにアクセスしたタイミング。<P>の概要 [!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））:Target UI を使用して作成された組み込みオーディエンス（例：） `Browser:iPad` および `Browser:iPhone` は、適切なターゲティングを実行するように更新されます [!DNL iPad] および [!DNL iPhone] 使用 `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` および `profile.mobile.isTablet`.<P>この更新は、顧客側でのアクションは必要ありません。<p><B>重要</b>：で適切なターゲティングを実行する顧客 [!DNL iPad] および [!DNL iPhone] プロファイルスクリプト（および JavaScript セグメント）では、顧客は次の手順で手動で変更する必要があります。 **2024 年 4 月 30 日（Pt）**. 手動で変更する必要がある代替設定の例については、を参照してください。 [の更新 [!DNL iPad] および [!DNL iPhone] 。対象： [!UICONTROL Browser] オーディエンス属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!UICONTROL Visual Editing Helper] 拡張機能（2024 年 3 月 14 日）
+## [!UICONTROL Visual Editing Helper] 延長（2024 年 3 月 14 日（Pt））
 
-このリリースには、次の機能強化および修正が含まれています [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 拡張 [!DNL Google Chrome]:
+このリリースには、向けの以下の機能強化および修正が含まれています [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) の拡張機能 [!DNL Google Chrome]:
 
-* 顧客の Web サイトでオーサリングを実行する際の iFrame の読み込みメカニズムが強化されました。
-* でのオーサリングの実行中に、拡張機能で Cookie が重複する問題を修正しました。 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
+* 顧客の web サイトでオーサリングを実行する際の iFrame 読み込みメカニズムを強化しました。
+* でオーサリングを実行する際に、拡張機能で cookie が重複する問題を修正しました [!UICONTROL Visual Experience Composer] （VEC）。
 
-## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
+## [!DNL Target] Standard/Premium 24.3.1 （2024 年 3 月 4～6 日（PT））
 
 このリリースは、次の日に予定されています。
 
@@ -43,9 +49,9 @@ ht-degree: 59%
 このリリースには、以下の機能強化および修正が含まれています。
 
 * アクティビティ内の一意のセレクターの数を計算するロジックを修正しました。 （TGT-47878）
-* 次の問題を修正しました： [!UICONTROL Multivariate] (MVT) アクティビティが [!UICONTROL Analytics for Target] (A4T) レポートが正しく表示されない問題を修正しました。 （TGT-47490）
-* トラフィックのないエクスペリエンスがコントロールエクスペリエンスとして使用された場合にレポートに表示される警告メッセージを改善しました。 （TGT-47537）
-* バックエンドおよびローカリゼーションに関する修正を多く追加しました。
+* 原因となった問題を修正しました [!UICONTROL Multivariate] で設定された（MVT）アクティビティ [!UICONTROL Analytics for Target] （A4T）レポートが正しく表示されない。 （TGT-47490）
+* トラフィックのないエクスペリエンスをコントロールエクスペリエンスとして使用する場合に、レポートに表示される警告メッセージを改善しました。 （TGT-47537）
+* バックエンドおよびローカライゼーションに関する多くの修正を追加しました。
 
 ## その他のリリースノートとバージョンの詳細
 
