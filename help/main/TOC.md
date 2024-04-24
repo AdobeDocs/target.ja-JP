@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
+source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1239'
 ht-degree: 91%
 
 ---
@@ -89,8 +89,8 @@ ht-degree: 91%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Customer Journey Analyticsの統合（CJA4T） {#cja4t} {#hidden}
-      + [Target のレポートソースとしてのAdobe Customer Journey Analytics（CJA4T）](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
+   + Target とAdobe Customer Journey Analyticsの統合 {#cja} {#hidden}
+      + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Target とAdobe Journey Optimizer（AJO）の統合 {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [の統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
