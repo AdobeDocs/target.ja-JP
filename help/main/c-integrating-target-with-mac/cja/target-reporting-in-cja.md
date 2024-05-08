@@ -3,14 +3,11 @@ keywords: customer journey analytics;target の customer journey analytics;custo
 description: 使用方法 [!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics] アクティビティの作成基準 [!DNL Customer Journey Analytics] コンバージョン指標とオーディエンスセグメントおよび使用 [!DNL Customer Journey Analytics] 結果を調べるレポート。
 title: について [!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 58%
+source-wordcount: '1005'
+ht-degree: 57%
 
 ---
 
