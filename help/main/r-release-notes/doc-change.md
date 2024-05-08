@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 72%
+source-wordcount: '1723'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 72%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 5月8日（PT） | [[!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 新しい記事：についての情報を追加しました [!DNL Target] との統合 [!DNL Adobe Customer Journey Analytics]. |
 | 4月30日（PT） | [に関連した問題のトラブルシューティング [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | EEC プロキシに使用されるAdobeのサーバーの IP アドレスのリストを許可リストに更新しました。 |
 | 4 月 24 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | Manifest V2 を使用して作成された拡張機能の無効化を開始するためのGoogleのプランを説明する情報を追加しました。 [!DNL Adobe] では、お客様に新しいに移行することをお勧めします [!UICONTROL Visual Editing Helper] できるだけ早く延長します。 |
 | 4 月 24 日 | [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | この記事に記載されている拡張機能を含む、Manifest V2 を使用して作成された拡張機能の無効化を開始するために、Googleの計画について説明しているページ上部の重要なメモを更新しました。 [!DNL Adobe] では、お客様に新しいに移行することをお勧めします [!UICONTROL Visual Editing Helper] できるだけ早く延長します。 |
