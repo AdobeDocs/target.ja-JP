@@ -1,68 +1,84 @@
 ---
-keywords: レポート；レポート；レポート；experience cloud ソリューション；タイムゾーン；タイムゾーン；通貨；IP の除外；売上高の推定上昇率；売上高の上昇；詳細な優先度；詳細設定
-description: 用途 [!DNL Target] または、Adobe Analyticsをレポートソースとして指定し、デフォルトのタイムゾーンと通貨の形式を指定し、レポートから除外する IP アドレスを追加するなどをおこないます。
-title: Target でレポートを設定する方法を教えてください。
+keywords: レポート；レポート；レポート；experience cloud ソリューション；タイムゾーン；タイムゾーン；通貨；IP を除外；推定される収益向上；収益；収益向上；詳細な優先度；詳細な設定
+description: 使用方法 [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] レポートソースとして、デフォルトのタイムゾーンと通貨形式の指定、レポートから除外する IP アドレスの追加などを行います。
+title: でのレポートの設定方法 [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 31%
+source-wordcount: '761'
+ht-degree: 22%
 
 ---
 
-# Target でのレポートの設定
+# でのレポートの設定 [!DNL Target]
 
-で使用する一般設定を指定します。 [!DNL Adobe Target] レポートを作成し、 [!DNL Target] アカウント。
+で使用する一般設定を指定する [!DNL Adobe Target] 全体に適用されるレポート [!DNL Target] アカウント。
 
-次の手順で [!UICONTROL レポート] 設定ページで、「 **[!UICONTROL 管理]** > **[!UICONTROL レポート].**
+にアクセスするには [!UICONTROL Reporting] 設定ページ、 **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 このページでは、次の設定を指定できます。
 
-* レポートに使用するAdobe Experience Cloudソリューション
-* レポートに使用するタイムゾーン。
+* レポートに使用するAdobe Experience Cloud ソリューション
+* レポートに使用するタイムゾーン
 * レポートに使用する通貨
 * レポートから除外する IP アドレス
-* レポートで売上高の推定上昇率を表示するかどうか
+* レポートで収益向上の見込みを表示するかどうか
 * 詳細な優先度を有効にするかどうか
 
 >[!NOTE]
 >
->除外するタイムゾーン、通貨および IP アドレスは、 [!DNL Target] レポート。 これらの設定は、 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を使用します。
+>設定を除外するタイムゾーン、通貨、IP アドレスは、を使用するアクティビティに適用されます。 [!DNL Target] レポート。 これらの設定は、を使用するアクティビティには適用されません [Analytics for Target （A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) または [!DNL Customer Journey Analytics] をレポートソースとして使用します。
 
 ![レポートページ](/help/main/administrating-target/assets/reporting.png)
 
-## Reporting Cloud ソリューション {#solution}
+## レポートクラウドソリューション {#solution}
 
 結果およびレポートで使用されるデータを決定するオプションを設定します。
 
-アクティビティのレポートソースを選択します（次のいずれか）。 [!DNL Target] または [!DNL Adobe Analytics]. アクティビティごとにレポートソースを選択することもできます。
+次のいずれかの方法で、アクティビティのレポートソースを選択します [!DNL Target], [!DNL Adobe Analytics]、または [!DNL Adobe Customer Journey Analytics]. アクティビティの作成時に、3 つのパートから成るガイド付きワークフローの一部として、アクティビティごとにレポートソースを選択することもできます。
 
 レポートソースを選択する際には、次の点に注意してください。
 
-* ここでレポートソースを **[!DNL Target]** に設定した場合、 をレポートソースとして使用するアクティビティをアクティブ化することはできません。[!DNL Analytics]レポートソースをに変更する必要があります。 [!DNL Target] 」をクリックします。または、レポートソースを **[!UICONTROL アクティビティごとに選択]** in **[!UICONTROL 管理] > [!UICONTROL レポート]**.
-* レポートソースが **[!DNL Analytics]** ここでは、 [!DNL Target] をレポートソースとして ( レポートソースは **[!UICONTROL アクティビティごとのターゲット])**. レポートソースをに変更する必要があります。 [!DNL Analytics] 」をクリックします。または、レポートエンジンを **[!UICONTROL アクティビティごとに選択]** in **[!UICONTROL 管理] > [!UICONTROL レポート]**.
-* レポートソースが **[!UICONTROL アクティビティごとに選択]** ここでは、選択したレポートソースでサポートされるアクティビティを作成、アクティブ化および非アクティブ化できます。 サポートされているアクティビティのマトリックスについては、 [サポートされるアクティビティのタイプ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe TargetのレポートソースとしてのAdobe Analytics(A4t)*.
-* [!UICONTROL Automated Personalization] (AP) アクティビティの作成、アクティブ化および非アクティブ化は、選択したレポートソースに関係なく許可されます。 Automated Personalizationアクティビティは、 [Adobe TargetのレポートソースとしてのAdobe Analytics(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 次を指定した場合でも、 [!DNL Analytics] をレポートソースとして使用する場合 [!DNL Target] は、 Automated Personalizationアクティビティのレポートソースとして使用されます。 詳しくは、 [サポートされるアクティビティのタイプ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe TargetのレポートソースとしてのAdobe Analytics(A4t)*.
+* **[!DNL Adobe Target]**：レポートソースがに設定されている場合 **[!DNL Target]** ここでは、を使用するアクティビティを作成またはアクティブ化することはできません [!DNL Analytics] または [!DNL Customer Journey Analytics] をレポートソースとして使用します。 レポートソースをに変更する必要があります **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**：レポートソースがに設定されている場合 **[!DNL Analytics]** ここでは、を使用するアクティビティを作成またはアクティブ化することはできません [!DNL Target] または [!DNL Customer Journey Analytics] をレポートソースとして使用します。 レポートソースをに変更する必要があります **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**：レポートソースがに設定されている場合 **[!DNL Customer Journey Analytics]** ここでは、を使用するアクティビティを作成またはアクティブ化することはできません [!DNL Target] または [!DNL Analytics] をレポートソースとして使用します。 レポートソースをに変更する必要があります **[!UICONTROL Select per activity]**.
+* **アクティビティごとに選択**：レポートソースがに設定されている場合 **[!UICONTROL Select per activity]** ここでは、選択したレポートソースでサポートされているアクティビティを作成してアクティブ化できます。
+
+レポートソースを決定する際は、次の情報を考慮してください。
+
+* **[!DNL Analytics]**：を使用したサポート対象アクティビティのマトリックス用 [!DNL Analytics] レポートソース（A4T）については、を参照してください。 [サポートされるアクティビティタイプ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 。対象： *Adobe TargetのレポートソースとしてのAdobe Analytics（A4t）*.
+
+  [!UICONTROL Automated Personalization] （AP）アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 [!UICONTROL Automated Personalization] を選択した場合、アクティビティはサポートされません [Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+  指定しても [!DNL Analytics] レポートソースとして、 [!DNL Target] は、のレポートソースとして使用されます。 [!DNL Automated Personalization] アクティビティ。
+
+* **[!DNL Customer Journey Analytics]**：を使用したサポート対象アクティビティのマトリックス用 [!DNL Target] でのレポート [!DNL Customer Journey Analytics]を参照してください [サポートされるアクティビティタイプ](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) 。対象： *[!DNL Target]でのレポート[!DNL Adobe Customer Journey Analytics]*.
+
+  [!UICONTROL Automated Personalization] （AP）、 [!UICONTROL Auto-Allocate]、および [!UICONTROL Auto-Target] アクティビティの作成とアクティブ化は、選択したレポートソースに関係なく許可されます。 これらのアクティビティは、を選択した場合はサポートされません [レポートソースとしてのAdobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
+  指定しても [!DNL Customer Journey Analytics] レポートソースとして、 [!DNL Target] は、のレポートソースとして使用されます。 [!DNL Automated Personalization] アクティビティ。
+
+  を指定する場合 [!DNL Customer Journey Analytics] のレポートソースとして [!UICONTROL Auto-Allocate] または [!UICONTROL Auto-Target] アクティビティ、 [!DNL Target] または [!DNL Analytics] をレポートソースとして使用できます。
 
 ## レポートのタイムゾーン
 
-レポートに使用するタイムゾーンを指定します。
+レポートに使用するタイムゾーンを指定
 
-## レポート用の通貨
+## レポートの通貨
 
 レポートに使用する通貨を指定します。
 
 ## 除外する IP [!DNL Target] レポートデータ
 
-レポートデータから除外する IP アドレスを指定します。 例えば、社内の住所を除外することは、レポートデータが Web サイトでの顧客のインタラクションを反映する良い方法です。
+レポートデータから除外する IP アドレスを指定します。 例えば、内部会社アドレスを除外することは、レポートデータが web サイトでの顧客インタラクションを反映していることを確認するための優れた方法です。
 
-各 IP アドレスを新しい行に入力します。
+新しい行に各 IP アドレスを入力します。
 
 ## 収益の推定上昇率を表示
 
-目標の金額を入力する場合は、売上高の推定上昇率を表示するように選択できます。 [!DNL Target] では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。デフォルトでは、上昇予測機能は無効になっています。
+目標に対する金額を入力した場合の、売上高の推定上昇率を表示するように選択できます。 [!DNL Target] では、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測できます。デフォルトでは、上昇予測機能は無効になっています。
 
 のみ [!DNL Experience Cloud] 管理者ユーザーは、この機能を有効または無効にできます。 上昇予測機能が無効になっている場合、対応するフィールドはインターフェイスに表示されません。この機能を無効にしても、独自の予測に使用したデータをはじめ、データを失うことはありません。予測は、この機能が有効であるかどうかにかかわらず、収集したデータに基づいて計算されます。
 
@@ -72,6 +88,6 @@ ht-degree: 31%
 
 0~999 の優先度の数値エントリを許可します。
 
-優先度の UI とオプションは、設定によって変わります。従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。
+設定によって、優先度の UI とオプションは異なります。 従来の「低」、「中」、「高」の各設定も使用できますが、0 から 999 の値を入力して詳細な優先度を設定することもできます。
 
 優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。

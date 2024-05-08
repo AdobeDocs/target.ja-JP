@@ -1,24 +1,24 @@
 ---
 keywords: Recommendations;設定;名前;目的;優先度;期間;レポート設定;他のメタデータ
-description: Adobe TargetでのRecommendationsアクティビティの説明と制御に使用する設定を行う方法について説明します。
-title: どうすればRecommendations Activity を設定できますか？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Adobe TargetのRecommendations アクティビティを記述および制御するために使用する設定を行う方法について説明します。
+title: Recommendations アクティビティの設定は、どうすればよいですか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 84%
+source-wordcount: '581'
+ht-degree: 50%
 
 ---
 
 # Recommendations アクティビティの設定
 
-の説明と制御に使用できる設定に関する情報 [!UICONTROL Recommendations] アクティビティ [!DNL Adobe Target].
+の説明と制御に使用できる設定に関する情報 [!UICONTROL Recommendations] でのアクティビティ [!DNL Adobe Target].
 
 ![Recommendations 目標と設定ページ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-次のセクションでは、[!UICONTROL Recommendations] アクティビティで使用可能な設定について説明します。
+以下のセクションでは、で使用可能な設定について説明します [!UICONTROL Recommendations] アクティビティ。
 
 ## 名前
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-[!UICONTROL Recommendations Classic] の別のアクティビティとして既に存在する [!UICONTROL Recommendation] アクティビティ名を指定すると、新しいアクティビティは、新しい名前で再同期されます。新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、 [!DNL Target Standard/Premium] および [!UICONTROL Recommendations Classic].
+を指定した場合、 [!UICONTROL Recommendations] 内の別のアクティビティに既に存在するアクティビティ名 [!UICONTROL Recommendations Classic]を選択すると、新しいアクティビティが新しい名前で再同期されます。 新しい名前は、一意なものにするために、元の名前にタイムスタンプが追加されたものになります。この新しい名前は、[!DNL Target Standard/Premium] と [!UICONTROL Recommendations Classic] の両方で表示されます。
 
 ## 目的
 
@@ -55,7 +55,24 @@ ht-degree: 84%
 
 ## レポート設定
 
-* **レポートソース：** レポートソースを選択します。 [!DNL Adobe Target] または [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). アクティビティがライブになった後でレポートソースを変更しないでください。アクティビティがライブになった後にレポートソースを変更すると、レポートの整合性が失われます。
+* **レポートソース :** どのソリューション データを収集するかを指定します。
+
+   * [!DNL Adobe Target]
+   * [!DNL Adobe Analytics]
+   * [!DNL Adobe Customer Journey Analytics]
+
+  でレポートソリューションが指定されている場合 [アカウント設定](/help/main/administrating-target/reporting.md)：指定したソリューションが使用され、この設定は表示されません。
+
+  アクティビティがライブになった後は、レポートの一貫性を維持するためにレポートソースを変更することはできません。
+
+  **[!DNL Adobe Analytics]**：を参照 [[!DNL Adobe Analytics] のレポートソースとしての [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) レポートソリューションの違いとそれぞれの利点について説明します。
+
+  選択時 [!DNL Analytics] のレポートソースとしての [!DNL Target] （A4T）の場合は、 [!DNL Analytics] 受信するレポートスイート [!DNL Target] アクティビティデータ。 これを行うには、まず [!DNL Analytics] アカウントが関連付けられている会社を選択し、アクティビティに適したレポートスイートを選択します。 に接続するようにプロビジョニングされているレポートスイートのみ [!DNL Target] を選択できます。 目的のレポートスイートが表示されない場合は、まずログアウトして、に再度ログインしてみてください [!DNL Adobe Experience Cloud] を再度実行してください。 それでもリストにレポートスイートが表示されない場合は、に連絡してください [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+  [!DNL Analytics for Target] （A4T）結果を正しくレポートするには、トラッキングサーバーが必要です。 デフォルトのトラッキングサーバーはに表示されます。 [!UICONTROL Tracking Server] フィールド。 複数のトラッキングサーバーを使用する場合、このフィールドに正しいトラッキングサーバーを含めてください。 参照： [Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
+
+  **[!DNL Adobe Customer Journey Analytics]**：を参照 [[!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) 間の統合について詳しくは、 [!DNL Adobe Customer Journey Analytics] および [!DNL Target].
+
 * **目標指標：**&#x200B;アクティビティが成功したかどうかを判定する成功指標を選択します。
 * **追加の指標：**&#x200B;レポートに使用する追加の成功指標を設定します。
 * **レポート対象のオーディエンス：**&#x200B;レポートをフィルタリングする際に使用できるオーディエンスを定義します。
@@ -64,7 +81,7 @@ ht-degree: 84%
 
 アクティビティに関するメモを入力します。
 
-## トレーニングビデオ：アクティビティの設定(3:02) ![チュートリアルバッジ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：アクティビティ設定（3:02） ![チュートリアルバッジ](/help/main/assets/tutorial.png)
 
 このビデオでは、アクティビティの設定について説明します。
 

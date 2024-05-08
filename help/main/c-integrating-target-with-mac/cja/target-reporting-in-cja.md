@@ -4,10 +4,10 @@ description: 使用方法 [!DNL Target] でのレポート [!DNL Adobe Customer 
 title: について [!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 57%
 ## [!DNL Customer Journey Analytics] をレポートソースとして使用するアクティビティの作成
 
 [!DNL Customer Journey Analytics] をレポートソースとして使用する [!DNL Target] アクティビティの作成は、通常の [!DNL Target] アクティビティの設定と似ています。
+
+>[!TIP]
+>
+>次のように指定することもできます [!DNL Target] でのレポートの使用 [!DNL Customer Journey Analytics] アカウントで作成したすべてのアクティビティ（**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**）に設定します。 詳しくは、を参照してください *レポートクラウドソリューション* 。対象： [でのレポートの設定 [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. から **[!UICONTROL Activities]** リスト、クリック **[!UICONTROL Create Activity]**&#x200B;を選択してから、 [上記のサポートされているアクティビティグラフ](#supported-activities)）を選択して、アクティビティの設定を開始します。
 1. 次の場所に移動すると、 **[!UICONTROL Goals & Settings]** 3 部構成のアクティビティ作成ワークフローのページで、次の項目を選択します **[!DNL Customer Journey Analytics]** をレポートソースとして使用します。
