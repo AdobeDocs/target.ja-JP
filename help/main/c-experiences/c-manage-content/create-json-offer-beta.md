@@ -3,11 +3,12 @@ keywords: json オファー；json オファーの作成
 description: で使用する JSON オファーをで作成する方法を説明します [!UICONTROL Form-Based Experience Composer].
 title: JSON オファーを作成するには
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ JSON オファーを使用する際は次の点を考慮してください。
 
 1. クリック **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![オファー/「コードオファー」タブ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![オファー/「コードオファー」タブ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. クリック **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. クリック **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json 画像](assets/offer-json.png)
+   ![offer-json 画像](assets/offer-json-new.png)
 
 1. オファー名を入力します。
+1. （条件付き）がある場合 [[!DNL Target] Premium アカウント](/help/main/c-intro/intro.md#premium)、目的のを選択します [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. （条件付き）目的のプロファイル属性を選択します。
 1. に JSON コードを入力または貼り付けます **[!UICONTROL Code]** ボックス。
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
 ## JSON の例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-success コールバックに渡すアクションは、オブジェクトの配列です。次のコンテンツを含む単一の JSON オファーがあるとします。
+success コールバックに渡すアクションは、オブジェクトの配列です。1 つの JSON オファーがあり、そこに次のコンテンツがあるとします。
 
 ```json
 { 
@@ -139,6 +142,6 @@ Real-time CDP プロファイル属性は、と共有できます [!DNL Target] 
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-次をフィルタリングできます [!UICONTROL Offers] 「」をクリックし、JSON オファータイプ別にライブラリ化します。 **[!UICONTROL Type]** ドロップダウンリストを選択し、 **[!UICONTROL JSON]** チェックボックス。
+次をフィルタリングできます [!UICONTROL Offers] 「」をクリックし、JSON オファータイプ別にライブラリ化します。 **[!UICONTROL Show filters]** アイコンをクリックし、 **[!UICONTROL JSON]** チェックボックス。
 
-![offer-json-filter 画像](assets/offer-json-filter.png)
+![offer-json-filter 画像](assets/offer-json-filter-new.png)
