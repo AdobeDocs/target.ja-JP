@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 76%
+source-wordcount: '285'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2024年2月28日（PT）**
+**最終更新日：2024年5月8日（PT）**
 
 >[!NOTE]
 >
@@ -23,20 +23,17 @@ ht-degree: 76%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target] Standard/Premium 24.3.1（2024 年 3 月 4 日～6 日）
+## [!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics] （2024 年 5 月 8 日（PT））
 
-このリリースは、次の日に予定されています。
+～間の統合 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} および [!DNL Target] は、組織の最適化プログラムに適した強力な分析ツールと時間節約ツールを提供します。
 
-* **3月4日**：ヨーロッパ、中東、アフリカ（EMEA）地域
-* **3月5日**：アジア太平洋（APAC）地域
-* **3月6日**：アメリカ地域
+[!DNL Customer Journey Analytics] を [!DNL Target] のレポートソースとして使用する主なメリットは次のとおりです。
 
-このリリースには、以下の機能強化および修正が含まれています。
+* マーケターは、[!DNL Customer Journey Analytics] の成功指標を [!DNL Target] のアクティビティレポートにいつでも動的に適用できます。アクティビティを実行する前にすべての項目を指定する必要はありません。
+* マーケターは以下を活用できます [!DNL Customer Journey Analytics] などの機能 [実験パネル](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}を使用して、web サイトのパーソナライゼーションをさらに分析できます。
+* マーケターは、のレポートソースを 1 つにまとめることができます [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} および [!DNL Target]. 両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] に接続すると、web パーソナライゼーションの全体像を把握できます。
 
-* アクティビティ内の一意のセレクターの数を計算するロジックを修正しました。 （TGT-47878）
-* 次の問題を修正しました： [!UICONTROL 多変量分析] (MVT) アクティビティが [!UICONTROL Analytics for Target] (A4T) レポートが正しく表示されない問題を修正しました。 （TGT-47490）
-* トラフィックのないエクスペリエンスがコントロールエクスペリエンスとして使用された場合にレポートに表示される警告メッセージを改善しました。 （TGT-47537）
-* バックエンドおよびローカリゼーションに関する修正を多く追加しました。
+詳しくは、を参照してください [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## その他のリリースノートとバージョンの詳細
 
