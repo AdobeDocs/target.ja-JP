@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + オファー {#offers}
       + [オファーの概要](c-experiences/c-manage-content/manage-content.md)
-      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [オファーフォルダーの作成](c-experiences/c-manage-content/create-content-folder.md)
-      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [コンテンツのアップロード](c-experiences/c-manage-content/assets-upload.md)
-      + [画像オファーのアップロードまたは削除](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [画像オファーベータ版のアップロードまたは削除](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect.md)
-      + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [リダイレクトオファーベータ版を作成](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [リモートオファーを作成](c-experiences/c-manage-content/about-remote-offers.md)
-      + [リモートオファーベータ版を作成](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [リモートオファーベータ版を作成](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON オファーの作成](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON オファーベータ版を作成](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [JSON オファーベータ版を作成](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
-      + [ライブラリベータ版でのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [ライブラリベータ版でのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [コンテンツの検索](c-experiences/c-manage-content/filter-and-search-content.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)

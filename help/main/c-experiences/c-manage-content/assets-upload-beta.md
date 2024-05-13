@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # 画像オファーのアップロードまたは削除
 
-画像はにアップロードできます [!UICONTROL Image Offers] リストの場所 [!DNL Adobe Target] をアクティビティの画像オファーとして使用します。 アクティビティで不要になった画像オファーを削除することもできます。
+画像はにアップロードできます [!UICONTROL Image Offers] のページ [!DNL Adobe Target] をアクティビティの画像オファーとして使用します。 アクティビティで不要になった画像オファーを削除することもできます。
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ ht-degree: 13%
 
 1. クリック **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![オファー/画像オファー](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![オファー/画像オファー](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. クリック **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. 追加する項目を参照して選択し、をクリックします **[!UICONTROL Open]**.
