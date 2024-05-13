@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
+source-git-commit: 5931aef4a16e6e9777112fdda4b3277f8e6f7386
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 90%
@@ -259,7 +259,7 @@ ht-degree: 90%
       + [JSON オファーの作成](c-experiences/c-manage-content/create-json-offer.md)
       + [JSON オファーベータ版を作成](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
-      + [ライブラリベータ版でのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta)
+      + [ライブラリベータ版でのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [コンテンツの検索](c-experiences/c-manage-content/filter-and-search-content.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
