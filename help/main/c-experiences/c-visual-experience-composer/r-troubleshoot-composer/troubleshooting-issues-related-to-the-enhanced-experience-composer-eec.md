@@ -4,10 +4,10 @@ description: Adobeで発生する場合がある問題のトラブルシュー�
 title: Experience Composer の強化に関連する問題をトラブルシューティングする方法
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ ht-degree: 25%
 
 IT チームに次の IP アドレスを許可リストに加えるするように依頼してください。
 
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
@@ -66,7 +75,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![firefox_more_info_3 画像](assets/firefox_more_info_3.png)
 
-1. Web サイトで TLS 1.0 が表示されている場合は、を参照してください。 [TLS （Transport Layer Security）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}に連絡してください [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) （TLS バージョンとドメインを使用した設定）。
+1. Web サイトで TLS 1.0 が表示されている場合は、を参照してください。 [TLS （Transport Layer Security）暗号化の変更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} target の TLS サポートポリシーに関する情報。 今のところ状況を修正するには（2018 年 9 月 12 日まで有効）{target=_blank}に連絡してください [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) （TLS バージョンとドメインを使用した設定）。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 
