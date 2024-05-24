@@ -5,9 +5,9 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
-workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2350'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **上位のユースケースを学ぶ**：インテリジェントな最適化のためのブループリントを使用してビジョンを現実に変え、ルールベースの実験や A/B テストを超えて [!DNL Adobe Target] の顧客を成熟させます。
 * **独自の機能を最大化**：ROI、収益、コンバージョンを最大化するための高パフォーマンスのレコメンデーションを使用して、成功に向けたエクスペリエンスを調整します。
-* **高度なパーソナライゼーション戦略**: AI/ML の高度な技術を深く掘り下げて、ビジネスインパクトを拡大し、新しいセグメント/オーディエンスとの共鳴、パーソナライゼーションモデルの微調整を行い、最適化されたエクスペリエンスを実現します。
+* **パーソナライゼーション戦略を進める**：AI/ML の高度なテクニックを深く掘り下げて、ビジネスへの影響を拡大し、新しいセグメントやオーディエンスの共感を呼び、最適化されたエクスペリエンスの実現に向けてパーソナライゼーションモデルを微調整します。
 
 * **[登録はこちらから](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -133,7 +133,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   今回のセッションでは、下記の内容とともに、[!DNL Adobe Target] の新機能を活用してコンバージョン率を著しく上昇させる方法を説明します。
 
-   * [!UICONTROL Automated Personalization] および[!UICONTROL 自動ターゲット]アクティビティのモデルコントロール強化
+   * [!UICONTROL Automated Personalization] および [!UICONTROL Auto-Target] アクティビティ内のモデル制御の強化
    * [!DNL Adobe] の [!DNL Real-Time Customer Data Platform] からプロファイル属性および高価値セグメントを評価する機能のロック解除
    * ブランドが AI 搭載アルゴリズムを微調整することで、より速いスピードと意思決定を実現する方法
    * 1 対 1 のパーソナライゼーションを実現する他に類を見ないユースケース
@@ -156,7 +156,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   コースマップ：
 
-   * [!UICONTROL A/B テスト]、[!UICONTROL 多変量分析テスト]（MVT）、（XT）、自動化されたテストとパーソナライゼーション
+   * [!UICONTROL A/B Test]、[!UICONTROL Multivariate Testing]（MVT）、（XT）、自動化されたテストとパーソナライゼーション
    * アクティビティ設定のワークフロー手順
    * バッチエクスペリエンスのプリフェッチ、モバイルの常時稼動パーソナライゼーションの有効化
    * 顧客体験全体にわたるテストとターゲティングのライフサイクル指標
