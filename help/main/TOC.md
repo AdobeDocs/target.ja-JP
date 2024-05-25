@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
+source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 90%
@@ -64,7 +64,7 @@ ht-degree: 90%
          + [Enterprise ユーザーの権限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 権限の設定](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [ワークスペースに対する Adobe I/O 統合のアクセス権の付与と役割の割り当て](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [レコメンデーション](/help/main/administrating-target/reommendations-settings.md)
+   + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
 +  Target と Experience Cloud の統合 {#integrate}
