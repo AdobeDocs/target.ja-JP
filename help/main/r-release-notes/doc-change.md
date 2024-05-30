@@ -5,9 +5,9 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1741'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 87%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
-| 5月17日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | を使用する際に許可リストに加えるできる IP アドレスを追加しました。 [!UICONTROL Enhanced Experience Composer]. |
-| 5月8日（PT） | [[!DNL Target] でのレポート [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 新しい記事：についての情報を追加しました [!DNL Target] との統合 [!DNL Adobe Customer Journey Analytics]. |
-| 4月30日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | EEC プロキシに使用されるAdobeのサーバーの IP アドレスのリストを許可リストに更新しました。 |
-| 4 月 24 日 | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | Manifest V2 を使用して作成された拡張機能の無効化を開始するためのGoogleのプランを説明する情報を追加しました。 [!DNL Adobe] では、お客様に新しいに移行することをお勧めします [!UICONTROL Visual Editing Helper] できるだけ早く延長します。 |
-| 4 月 24 日 | [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | この記事に記載されている拡張機能を含む、Manifest V2 を使用して作成された拡張機能の無効化を開始するために、Googleの計画について説明しているページ上部の重要なメモを更新しました。 [!DNL Adobe] では、お客様に新しいに移行することをお勧めします [!UICONTROL Visual Editing Helper] できるだけ早く延長します。 |
-| 4月9日（PT） | [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) に関連する問題のトラブルシューティング | 以下の節が更新されました。<ul><li>VEC にページが表示されません。（VEC のみ）</li></ul>以下の新しいセクションを追加しました。<ul><li>での CSS の競合に起因する問題 [!UICONTROL Visual Experience Composer]</li></ul> |
-|  | [パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 考慮事項の節を更新しました。 |
-| 3月22日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | エッジノード 31 ～ 38 への参照が削除されました。このノードは存在しなくなったためです。 許可リストが最新であることを確認してください。 |
-|  | [Target （at.js）に対するサードパーティ cookie の廃止の影響](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Googleがサードパーティ cookie の廃止を計画していることについて、ユーザーに対して何を意味するかを説明する新しいブログ投稿 [!DNL Adobe Target] at.js の実装。 |
-| 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | のリリースノートを追加しました [!DNL Adobe Experience Platform Visual Editing Helper] （用） [!DNL Google Chrome]. |
-| 3 月 14 日 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 夏時間（DST）を考慮して時間ベースのオーディエンスを再保存するためのメモに情報を追加しました。 |
-| 3月6日（PT） | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 次の節の情報を更新しました：「の更新 [!DNL iPad] および [!DNL iPhone] 。対象： [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日（PT））」を参照してください。 |
-|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | セクション全体を更新：「の更新 `Browser:iPad` および `Browser:iPhone` 。対象： [!UICONTROL Browser] オーディエンス属性（2024 年 4 月 30 日（PT））」を参照してください。 |
+| 5月17日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | [!UICONTROL Enhanced Experience Composer] を使用する際に許可リストに登録できる IP アドレスを追加しました。 |
+| 5月8日（PT） |  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート | 新しい記事：[!DNL Target] と [!DNL Adobe Customer Journey Analytics] の統合に関する情報を追加しました。 |
+| 4月30日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | EEC プロキシで使用されるアドビのサーバーの IP アドレスのリストを許可リストに更新しました。 |
+| 4月23日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | Manifest V2 を使用して作成された拡張機能の無効化を開始するという Google のプランを説明する情報を追加しました。[!DNL Adobe] では、お客様ができるだけ早く新しい [!UICONTROL Visual Editing Helper] 拡張機能に移行することをお勧めします。 |
+| 4月23日（PT） | [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | この記事で文書化されている拡張機能を含む、Manifest V2 を使用して作成された拡張機能の無効化を開始するという Google のプランを説明するページ上部の重要なメモを更新しました。[!DNL Adobe] では、お客様ができるだけ早く新しい [!UICONTROL Visual Editing Helper] 拡張機能に移行することをお勧めします。 |
+| 4月9日（PT） | [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) に関連する問題のトラブルシューティング | 以下の節が更新されました。<ul><li>VEC にページが表示されません。（VEC のみ）</li></ul>以下の新しい節を追加しました。<ul><li>[!UICONTROL Visual Experience Composer] での CSS の競合で発生する問題</li></ul> |
+|  | [パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 「考慮事項」の節を更新しました。 |
+| 3月22日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | エッジノード 31 ～ 38 は存在しなくなったので、このノードへの参照を削除しました。許可リストが最新であることを確認してください。 |
+|  | [Target（at.js）に対するサードパーティ cookie の非推奨（廃止予定）の影響](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Google が予定しているサードパーティ cookie の非推奨（廃止予定）が、[!DNL Adobe Target] at.js の実装に与える影響を説明する新しいブログ投稿です。 |
+| 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Google Chrome] の [!DNL Adobe Experience Platform Visual Editing Helper] に関するリリースノートを追加しました。 |
+| 3月14日（PT） | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 夏時間（DST）を考慮して時間ベースのオーディエンスを再保存するよう、メモに情報を追加しました。 |
+| 3月6日（PT） | [ブラウザー](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 「[!UICONTROL Browser] オーディエンス属性の [!DNL iPad] と [!DNL iPhone] の更新（2024年4月30日（PT）」の節の情報を更新しました。 |
+|  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | 「[!UICONTROL Browser] オーディエンス属性の `Browser:iPad` と `Browser:iPhone` のアップデート（2024年4月30日（PT）」の節全体を更新しました。 |
 |  | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 リリースに関するリリースノートを追加しました。 |
 
 ## [!DNL Target] Standard／Premium 24.1.1（2024年1月22日、23日、25日（PT））
