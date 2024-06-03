@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
-workflow-type: ht
-source-wordcount: '1741'
-ht-degree: 100%
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
+workflow-type: tm+mt
+source-wordcount: '1783'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日付 | トピック | 変更点 |
 | --- | --- | --- |
+| 6月3日（PT） | [優先度](/help/main/c-activities/priority.md) | 複数のコンテンツからのものであることを示すなど、トピック全体を更新しました [!UICONTROL Form-Based Experience Composer] および VEC アクティビティで配信できます。 以前は、フォームベースのワークフローから 1 つのアクティビティのみが配信できました。 を配信できるフォームベースのアクティビティの数に制限がなくなりました。 |
 | 5月17日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | [!UICONTROL Enhanced Experience Composer] を使用する際に許可リストに登録できる IP アドレスを追加しました。 |
 | 5月8日（PT） |  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート | 新しい記事：[!DNL Target] と [!DNL Adobe Customer Journey Analytics] の統合に関する情報を追加しました。 |
 | 4月30日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | EEC プロキシで使用されるアドビのサーバーの IP アドレスのリストを許可リストに更新しました。 |

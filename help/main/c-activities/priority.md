@@ -4,10 +4,10 @@ description: 方法 [!DNL Adobe Target] ページに配信するアクティビ�
 title: 方法 [!DNL Target] 異なるアクティビティに優先度を割り当てますか？
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 37%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 33%
 
 [!DNL Adobe Target] ページに配信するアクティビティ（1 つまたは複数）を、対象によって異なる方法で決定します [!DNL Target] インターフェイスとアクティビティ作成関数（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) または [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md)）を使用しています。
 
-## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] のみ、または [!UICONTROL Form-Based Experience Composer] グローバルの使用 [!DNL Target] リクエストのみ {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] のみ、または [!UICONTROL Form-Based Experience Composer] グローバルの使用 [!DNL Target] リクエストのみ {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-を使用している場合 [!DNL Target Standard/Premium] また、VEC でのみ、複数のアクティビティのコンテンツを同じ呼び出しで返すことができます。 アクティビティは、次の決定フローを使用して配信されます。
+会社が VEC のみを使用している場合、複数のアクティビティのコンテンツを同じ呼び出しで返すことができます。 アクティビティは、次の決定フローを使用して配信されます。
 
 1. この [!DNL Target] サーバーコールの送信先 [!DNL Target] URL に関する情報と共に使用します。
 1. [!DNL Target] その URL で実行されているすべてのアクティビティを取り込みます。
@@ -39,24 +39,20 @@ ht-degree: 33%
    * 1 つのアクティビティだけがオーディエンスターゲティングを持つ場合、そのアクティビティが表示されます。
    * ターゲティングがすべてまたは何も設定されていない場合は、最初に承認されたアクティビティが表示されます。
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] および [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
-
->[!NOTE]
->
->この情報は、で作成された、を実行するすべてのアクティビティにも適用されます。 [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] および [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 会社が次を使用している場合 [!UICONTROL Form-Based Experience Composer] *および* VEC、複数のコンテンツ [!UICONTROL Form-Based Experience Composer] および VEC アクティビティで配信できます。 以前は、フォームベースのワークフローから 1 つのアクティビティのみが配信できました。 を配信できるフォームベースのアクティビティの数に制限がなくなりました。
 
 アクティビティの配信は、次の決定フローを使用して決定されます。
 
 1. [!DNL Target] サーバーコールの送信先 [!DNL Target] に関する情報を使用 [!DNL Target] リクエストと URL。
-1. [!DNL Target Standard/Premium] その中で実行されているすべてのアクティビティを取り込む [!DNL Target] リクエスト。
+1. [!DNL Target] その中で実行されているすべてのアクティビティを取り込む [!DNL Target] リクエスト。
 1. [!DNL Target] は訪問者をアクティビティに一致させようとします。
 
    訪問者がに既に入っている場合 [!UICONTROL A/B Test] または [!UICONTROL Multivariate Test] アクティビティは、コンバージョンするまでそのテストに一致します。 以前に [!UICONTROL Experience Targeting] アクティビティは、もう一度一致する必要があります。 オーディエンスルールを満たす場合、訪問者は、これらのアクティビティおよび特定のエクスペリエンスに分類されます。
 
 1. フォームベースのアクティビティが最も優先度が高い場合、そのアクティビティコンテンツは、VEC アクティビティから一致するすべてのアクティビティコンテンツと共に返されます。
-1. VEC アクティビティが最も優先度が高い場合、一致するすべての VEC アクティビティのコンテンツが返されますが、返されません [!DNL Target Classic] またはフォームベースのアクティビティコンテンツが返されます。
+1. VEC アクティビティが最も優先度が高い場合、一致するすべての VEC アクティビティのコンテンツが返されますが、フォームベースのアクティビティコンテンツは返されません。
 
    ページ上で実行されるすべてのアクティビティの結果がカウントされ、レポートに反映されます。
 
@@ -66,11 +62,7 @@ ht-degree: 33%
 
 ターゲットアクティビティの双方が同じ優先度の場合、最後に表示されたアクティビティが表示されます。このページに初めて訪問する訪問者の場合は、最後にアクティブ化されたアクティビティが表示されます。
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] 非大域を使用 [!DNL Target] リクエスト {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
-
->[!NOTE]
->
->この情報は、で作成された、を実行するすべてのアクティビティにも適用されます。 [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] 非大域を使用 [!DNL Target] リクエスト {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 を使用している場合 [!DNL Target] グローバル以外の要求 [!DNL Target] リクエスト フォームベースのコンポーザーでは、呼び出しごとに 1 つのアクティビティのコンテンツのみを返すことができます。 アクティビティの配信は、次の決定フローを使用して決定されます。
 
@@ -91,11 +83,6 @@ ht-degree: 33%
 >
 >設定に応じて、優先度の値が変わります。の従来の設定を使用できます [!UICONTROL Low], [!UICONTROL Medium]、または [!UICONTROL High]または、0～999 の細かい優先度を有効にすることもできます。 詳しくは、を参照してください [アクティビティの設定](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**2 [!DNL Target Classic] 非グローバルを使用するアクティビティ [!DNL Target] リクエスト**
-
-* アクティビティ 1:homePageHero、offer1、優先度 – 高
-* アクティビティ 2:homePageHero、offer2、優先度 – 低
-
 応答：offer1
 
 **2 つのアクティビティでは、 [!UICONTROL Visual Experience Composer] 様々なセレクター用**
@@ -111,23 +98,6 @@ ht-degree: 33%
 * アクティビティ 2: target-global-mbox、selector1、visualExpCompOffer2、priority high
 
 応答：visualExpCompOffer1、visualExpCompOffer2
-
->[!NOTE]
->
->これは、上記の 2 番目のユースケースと同じ応答です。理由は次のとおりです [!DNL Target Classic] はセレクターの競合を処理しませんでした。 [!DNL Target Standard/Premium] セレクターが DOM と視覚的な両方で競合する可能性がある場合の、そのような動作やその他のユースケースをキャプチャします（通常はエクスペリエンスエディターレベルまたはアクティビティシミュレーションモードで行われます）。
-
-**2 つのアクティビティでは、で作成されたオファーを使用します。 [!UICONTROL Visual Experience Composer] および 2 [!DNL Target Classic] activities**
-
-* アクティビティ 1: target-global-mbox、selector1、visualExpCompOffer1、medium high
-* アクティビティ 2: target-global-mbox、selector2、visualExpCompOffer2、priority low
-* アクティビティ 1:target-global-mbox、offer1、優先度 – 高
-* アクティビティ 2:target-global-mbox、offer2、priority low
-
-応答：offer1、visualExpCompOffer2、visualExpCompOffer1
-
->[!NOTE]
->
->結合された応答の順序は次のとおりです [!DNL Target Classic] コンテンツが最初に表示されます。 1 つのみ [!DNL Target Classic] 応答はユースケース 1 と同様に処理され、 [!UICONTROL Visual Experience Composer] 優先度が逆の順序になっているオファーの応答。
 
 ## トレーニングビデオ：アクティビティの設定（3:02）
 
