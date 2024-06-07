@@ -5,7 +5,7 @@ description: Adobe [!DNL Target] を使用して顧客のエクスペリエン�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 
