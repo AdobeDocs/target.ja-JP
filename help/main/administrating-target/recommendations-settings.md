@@ -2,14 +2,16 @@
 keywords: recommendations;recommendations の実装；クライアントコード；認証トークン；industry vertical；互換性のないモードのフィルター；デフォルトホストグループ；サムネールベース；認証トークンの生成；認証トークン；
 description: の設定方法を説明します [!DNL Adobe Target Recommendations].
 title: Recommendationsを設定するにはどうすればよいですか？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 8%
 
 ---
 
