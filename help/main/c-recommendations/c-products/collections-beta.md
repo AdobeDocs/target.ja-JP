@@ -4,11 +4,12 @@ description: で製品または項目のコレクションを使用する方法�
 title: Recommendations アクティビティでコレクションを使用する方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
-exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
+hide: true
+hidefromtoc: true
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 41%
+source-wordcount: '843'
+ht-degree: 30%
 
 ---
 
@@ -20,13 +21,13 @@ ht-degree: 41%
 
 コレクションは、製品や論理的な格納場所を整理するために使用できます。例えば、ある地域で使用できる項目があり、別の地域では使用できない項目がある場合、訪問者の地域で使用できない項目を除外するコレクションを作成できます。 また、コレクションを使用すると、季節的な品目やビジネスに適した任意の整理パラメーターによる整理をおこなえます。
 
-レコメンデーション内の各条件に対して生成される[代替レコメンデーション](/help/main/c-recommendations/c-algorithms/backup-recs.md)でもこのコレクションが使用されるので、コレクション内の品目だけが代替レコメンデーションに含まれます。コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
+[バックアップの推奨事項](/help/main/c-recommendations/c-algorithms/backup-recs.md) レコメンデーション内の各条件に対して生成された場合も、このコレクションを使用するので、コレクション内の項目のみがバックアップレコメンデーションに含まれます。 コレクションを使用すると、ある位置での表示に適切な商品だけを、確実に表示させることができます。
 
 コレクションは、各条件が実行されるたびに、再構築または更新されます。
 
 品目をコレクションにグループ分けし、各カタログに個別のレコメンデーションを作成できます。
 
-包含条件を使用するとコレクションと同様のことができますが、包含条件はアクティビティを作成する都度設定する必要があります。コレクションを使用すると、品目のセットを一度で作成でき、再度設定する必要なく使用したいときに使用できます。
+包含条件を使用するとコレクションと同様のことができますが、包含条件はアクティビティを作成する都度設定する必要があります。コレクションを使用すると、一連の項目を 1 回だけ作成し、適切な場合は、もう一度設定しなくてもいつでも使用できます。
 
 を作成または編集する場合 [!DNL Recommendations] アクティビティの場合、コレクション名がの横に表示されます [!UICONTROL Criteria] アクティビティ図のラベル。
 
@@ -40,23 +41,21 @@ ht-degree: 41%
 
 1. クリック **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** 既存のコレクションのリストを表示します。
 
-   ![コレクションリスト](assets/collections_list.png)
+   ![コレクションリスト](assets/collections-list.png)
 
-   この [!UICONTROL Collections] 既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、 [!UICONTROL Create Collection] ボタン。 目的のコレクションにカーソルを合わせて目的のアイコンをクリックして、既存のコレクションを編集、コピーおよび削除することもできます。
-
-   ![ホバーアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   この [!UICONTROL Collections] 既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、 [!UICONTROL Create Collection] ボタン。 目的のコレクションの横にある省略記号アイコンをクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除することもできます。
 
    で各コレクションに対して報告された「項目数」 [!UICONTROL Collections] リスト表示は、設定されたデフォルトのRecommendations内で、そのコレクションのルールに一致する商品の数です [ホスト グループ](/help/main/administrating-target/hosts.md) （環境）。 参照： [設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} デフォルトのホストグループを変更する
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 
-1. （条件付き）から環境を選択 **[!UICONTROL Environment]** コレクションを作成（または更新）する際にフィルタリングし、その環境のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
-
-   ![コレクションの作成](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![コレクションの作成](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. A を入力 **[!UICONTROL Name]** をコレクションに追加します。
 
    オプションのを入力することもできます **[!UICONTROL Description]**.
+
+1. （条件付き）を選択 [0.9511122](/help/main/administrating-target/environments.md) から **[!UICONTROL Environment]** コレクションを作成（または更新）する際にフィルタリングし、その環境のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. コレクションの構築に使用するルールを設定します。
 
@@ -64,11 +63,11 @@ ht-degree: 41%
 
    ルールを追加し、複数のパラメーターを使用して、コレクションを定義することができます。複数のルールを AND 演算子で結合します。 コレクションが適用されるには、指定したすべてのルールに合致する必要があります。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
-## 詳細検索を使用したコレクションの作成
+## を使用したコレクションの作成 [!UICONTROL Advanced Search]
 
-また、で詳細検索を使用してコレクションを作成することもできます [カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]）に設定します。
+を使用してコレクションを作成することもできます。 [!UICONTROL Advanced Search] 日 [カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]）に設定します。
 
 ![ダイアログとして保存](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -76,25 +75,25 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->詳細検索機能では大文字と小文字は区別されません。ただし、配信時に返される商品は、大文字と小文字が区別される検索に基づきます。この違いが混乱を招くこともあります。詳細検索機能による結果を基にしてコレクションを作成する際は、大文字と小文字の区別を考慮してください。例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。
+>この [!UICONTROL Advanced Search] 機能では大文字と小文字が区別されません。ただし、配信時に返される製品は大文字と小文字を区別した検索に基づいています。 この違いが混乱を招くこともあります。を使用して結果に基づいてコレクションを作成する場合は、大文字と小文字を区別するようにしてください [!UICONTROL Advanced Search] 機能。 例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションにポインタを合わせ、適切なアイコン（編集、コピー、削除）をクリックします。
+「」をクリックします **省略記号** アイコン リスト内の目的のコレクションの横にある、適切なアイコン（編集、コピー、削除）をクリックします。
 
-![コレクションのホバーアイコン](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![ホバーアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
 既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様の除外を作成できます。
 
 コレクションは、アカウント全体で利用できることに注意してください。 コレクションを削除する前に、このことを考慮してください。 削除したコレクションは復元できません。
 
-## Recommendations アクティビティでのコレクションの使用
+## でのコレクションの使用 [!DNL Recommendations] activity
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
 1. クリック **[!UICONTROL Activities]** および [新しいRecommendationsの作成](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティするか、既存のアクティビティを編集します。
 
-1. 条件およびデザインを選択した後、 [!UICONTROL Options] 目的のコレクションを選択すると、ページが表示されます。
+1. 条件およびデザインを選択した後、 [!UICONTROL Options] ページが表示され、目的のコレクションを選択します。
 
    ![コレクションオプションを選択](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 

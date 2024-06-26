@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 90%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 90%
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Target とAdobe Customer Journey Analyticsの統合 {#cja}
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Target とAdobe Journey Optimizer（AJO）の統合 {#ajo}
+   + Target とAdobe Journey Optimizerの統合（AJO） {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [の統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
@@ -273,7 +273,7 @@ ht-degree: 90%
       + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 統計的手法 {#statistical-methodology}
       + [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + パーソナライゼーションレポート {#personalization-reports}
+   + Personalization レポート {#personalization-reports}
       + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)
    + パーソナライゼーションインサイトレポート {#insights}
@@ -298,6 +298,7 @@ ht-degree: 90%
       + [カタログ検索](c-recommendations/c-products/catalog-search.md)
       + [カタログ検索ベータ版](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [コレクション](c-recommendations/c-products/collections.md)
+      + [コレクションベータ版](/help/main/c-recommendations/c-products/collections-beta.md)
       + [除外](c-recommendations/c-products/exclusions.md)
    + 条件 {#criteria}
       + [条件の概要](c-recommendations/c-algorithms/algorithms.md)
