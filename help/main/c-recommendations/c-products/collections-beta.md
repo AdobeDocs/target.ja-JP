@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 30%
@@ -83,7 +83,7 @@ ht-degree: 30%
 
 ![ホバーアイコン：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様の除外を作成できます。
+既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様のコレクションを作成できます。
 
 コレクションは、アカウント全体で利用できることに注意してください。 コレクションを削除する前に、このことを考慮してください。 削除したコレクションは復元できません。
 
