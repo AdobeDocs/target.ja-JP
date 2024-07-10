@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 30%
+source-wordcount: '707'
+ht-degree: 27%
 
 ---
 
@@ -65,17 +65,17 @@ ht-degree: 30%
 
 1. **[!UICONTROL Create]** をクリックします。
 
-## を使用したコレクションの作成 [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-を使用してコレクションを作成することもできます。 [!UICONTROL Advanced Search] 日 [カタログ検索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ページ （[!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]）に設定します。
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![ダイアログとして保存](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例えば、「id > 次を含む」を使用して検索を作成した後、 [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->この [!UICONTROL Advanced Search] 機能では大文字と小文字が区別されません。ただし、配信時に返される製品は大文字と小文字を区別した検索に基づいています。 この違いが混乱を招くこともあります。を使用して結果に基づいてコレクションを作成する場合は、大文字と小文字を区別するようにしてください [!UICONTROL Advanced Search] 機能。 例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## コレクションの編集、コピー、削除
 
@@ -100,12 +100,3 @@ ht-degree: 30%
 1. （条件付き）既存のコレクション設定を変更するには、 **[!UICONTROL Experiences]** ページ（3 つのパートから成るガイド付きワークフローのステップ 2）、レコメンデーションを配置した場所をクリックし、をクリックします **[!UICONTROL Change Collection]**&#x200B;を選択してから、目的のコレクションを選択します。
 
    ![コレクション オプションを変更](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![チュートリアルバッジ](/help/main/assets/tutorial.png)
-
-このビデオには、次の情報が含まれています。
-
-* コレクションの作成
-* 除外の作成
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
