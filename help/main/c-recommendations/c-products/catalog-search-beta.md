@@ -1,21 +1,22 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター；recommendations
-description: の使用方法を学ぶ [!DNL Recommendations] [!UICONTROL Catalog Search] 製品やコンテンツを検索するには、コレクションや除外を作成し、カタログから項目を削除します。
+description: の使用方法を学ぶ [!DNL Recommendations] [!UICONTROL Catalog Search] 製品やコンテンツを見つけるには、カタログから項目を削除するなどの操作を実行します。
 title: の使用方法 [!DNL Recommendations] [!UICONTROL Catalog Search]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
+source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '539'
 ht-degree: 23%
 
 ---
 
 # [!UICONTROL Catalog Search]
 
-この [!UICONTROL Catalog Search] のページ [!DNL Adobe Recommendations] は、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 また、環境の変更、コレクションまたは除外への検索結果の保存、フィルターファセットの追加、テーブル内の列の変更、新しい検索ファセットの追加なども行えます。
+この [!UICONTROL Catalog Search] のページ [!DNL Adobe Recommendations] は、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
 
 カタログは、製品セット（エンティティ）全体を表します。カタログには多数のコレクションを含めることができるので、商品を論理的なグループにまとめて整理できます。
 
@@ -25,11 +26,7 @@ ht-degree: 23%
 
 ![カタログ検索ページ](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
-## 項目を検索
-
-簡易検索または詳細検索を使用して、カタログ内の項目を見つけることができます。
-
-### 簡易検索の実行
+## 簡易検索の実行
 
 1. 検索語句を「」に入力します **[!UICONTROL Search In]** フィールド。
 
@@ -37,68 +34,47 @@ ht-degree: 23%
 
    次の検索オプションがあります。
 
-   * ALL - OR ロジックを使用して、他のすべての検索条件を適用して検索します。
-   * 名前
-   * ブランド
-   * カテゴリ
    * ID
+   * 名前
    * メッセージ
 
-1. 検索結果の項目をスクロールして、サムネールやその他の製品情報を表示できるようになりました。
-
-   次の図は、「すべて」オプションを使用した「bike」の結果を示しています。
-
-   ![自転車のカタログ検索](/help/main/c-recommendations/c-products/assets/bike-results.png)
-
-   「製品」のとなりに表示されている数字は、指定された環境での有効数の中で検索語句に一致した製品の数です。
-
-   検索のオートコンプリート機能を使用できることに注意してください。 次の図では、「bik」と入力すると、「bike」という単語を含むすべての製品が返されます。
-
-   ![オートコンプリートを検索](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
+1. 検索結果の項目をスクロールして、サムネールやその他の製品情報を表示します。
 
    >[!NOTE]
    >
-   >数値を使用してカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型とみなされます。
+   > 数値を使用してカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型とみなされます。
    >
    >現在、属性のタイプを変更できる機能はありません。 変更をおこなうには、[顧客のイシューを開く](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)、タイプを文字列から数値に変更する必要がある属性を参照します。
 
-1. また、フィルターを使用して、目的の製品を見つけることもできます。 次の例では、を展開します。 [!UICONTROL Collections] ファセットと「バイクツール」を選択すると、カタログ内のすべてのバイクツールが表示されます。
+   また、フィルターを使用して、目的の製品を見つけることもできます。 例えば、 **[!UICONTROL Show Filters]** アイコン （ ![フィルターアイコンを表示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）、展開 [!UICONTROL Collections] ファセットを開き、1 つ以上のコレクションを選択すると、カタログ内の選択したコレクションに属するすべての製品が表示されます。
 
-   ![自転車工具](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
+<!-- ### Perform an advanced search {#advanced-search}
 
-1. 検索語（「chain」など）を入力すると、結果リストをさらに検索できます。
+You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
 
-   ![チェーンを検索](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
+1. Click the **[!UICONTROL Advanced Search]** link.
 
-### 詳細検索の実行 {#advanced-search}
+   ![Advanced Search page](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
-次を使用できます [!UICONTROL Advanced Search] を使用して検索結果をさらに絞り込んだり、検索結果を [collection](/help/main/c-recommendations/c-products/collections.md) または [除外](/help/main/c-recommendations/c-products/exclusions.md).
+1. Use the drop-down lists to specify the parameter, operator, and values for your search.
 
-1. 「」をクリックします **[!UICONTROL Advanced Search]** リンク。
+1. (Optional) Click **[!UICONTROL Add Rule]** to add an additional search rule.
 
-   ![「詳細検索」ページ](/help/main/c-recommendations/c-products/assets/advances-search.png)
+   Each additional search rule is joined with the AND operator.
 
-1. ドロップダウンリストを使用して、検索のパラメーター、演算子、値を指定します。
+1. Click **[!UICONTROL Search]**.
 
-1. （任意）クリック **[!UICONTROL Add Rule]** 検索ルールを追加します。
+1. (Optional) Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
-   追加された各検索ルールは、AND 演算子で結合されます。
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-1. **[!UICONTROL Search]** をクリックします。
-
-1. （任意）クリック **[!UICONTROL Save As]**&#x200B;を選択し、 **[!UICONTROL Collection]** または **[!UICONTROL Exclusion]**.
-
-   ![別名で保存オプション](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   詳しくは、を参照してください [詳細検索に基づくコレクションまたは除外の作成](#save-as) 下。
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.-->
 
 ## 項目の詳細の表示
 
 ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を、その詳細を表示することで表示できます。
 
 1. 詳細を表示するには、検索結果内の項目をクリックします。
-
-   ![製品の詳細](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## カタログからのアイテムの削除
 
@@ -114,62 +90,54 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、に従って更新されます [指定されたスケジュール](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は、通常、1 時間で完了します。更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
+カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は通常、1 時間以内に完了します。 更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
-## 詳細検索に基づいたコレクションまたは除外の作成 {#save-as}
+<!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
 
-次を作成できます [コレクション](/help/main/c-recommendations/c-products/collections.md) または [除外数](/help/main/c-recommendations/c-products/exclusions.md) 使用 [!UICONTROL Advanced Search] 日 [!UICONTROL Catalog Search] ページ （[!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]）に設定します。
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. を実行 [詳細検索](#advanced-search).
+1. Perform an [advanced search](#advanced-search).
 
-1. クリック **[!UICONTROL Save As]**&#x200B;を選択し、 **[!UICONTROL Collection]** または **[!UICONTROL Exclusion]**.
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
-   ![別名で保存オプション](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >この [!UICONTROL Advanced Search] 機能では大文字と小文字が区別されません。ただし、配信時に返される製品は大文字と小文字を区別した検索に基づいています。 この違いが混乱を招くこともあります。を使用して結果に基づいてコレクションや除外を作成する場合は、大文字と小文字を区別するようにしてください [!UICONTROL Advanced Search] 機能。 例えば、最初に「Holiday」と検索すると、「Holiday」または「holiday」を含む結果が返されます。その後、「holiday」を含む商品を返すことを目的としたカタログを作成すると、「holiday」を含む商品のみが返されます。「Holiday」を含む商品は返されません。除外も同様に処理されます。
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
 
 ## 環境の変更
 
 [環境](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理して、管理と環境別レポートを容易にできます。
 
-1. 「環境」リンクをクリックします。
+1. 「フィルターを表示」アイコン（ ![フィルターアイコンを表示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）に設定します。
 
-   ![環境リンク](/help/main/c-recommendations/c-products/assets/environment.png)
+1. から目的の環境を選択します **[!UICONTROL Environment]** ドロップダウンリスト。
 
-1. 目的の環境を選択します。
+<!-- ## Modify the Catalog Search page (filters and columns)
 
-## カタログ検索ページの変更（フィルターと列）
+You can temporarily modify the available filters and columns on the [!UICONTROL Catalog Search] page for the current session.
 
-で使用可能なフィルターと列は、一時的に変更できます [!UICONTROL Catalog Search] 現在のセッションのページ。
+### Modify filters
 
-### フィルターを変更
+You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
-さらにフィルターファセットをに追加できます [!UICONTROL Catalog Search] ページ。
+1. In the **[!UICONTROL Filters]** panel, click **[!UICONTROL Modify]**.
 
-1. が含まれる **[!UICONTROL Filters]** パネル、クリック **[!UICONTROL Modify]**.
+   ![Modify filters link](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-   ![「フィルターを変更」リンク](/help/main/c-recommendations/c-products/assets/modify-filters.png)
+1. Select the desired search facets (ID, name, message, etc.), then click **[!UICONTROL Save]**.
 
-1. 目的の検索ファセット（ID、名前、メッセージなど）を選択し、 **[!UICONTROL Save]**.
+   ![Add filters](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
-   ![フィルターを追加](/help/main/c-recommendations/c-products/assets/add-filters.png)
+Keep in mind that the additional filter facets are available in the current session only.-->
 
-追加のフィルターファセットは、現在のセッションでのみ使用できます。
-
-### 列を変更
+## 列を変更
 
 でアクティブな列を一時的に変更できます [!UICONTROL Catalog Search] ページ。
 
-1. 「」をクリックします **[!UICONTROL Columns]** リンク。
+1. 「」をクリックします **[!UICONTROL Customize Table]** アイコン （  ![「テーブルをカスタマイズ」アイコン](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ）に設定します。
 
-   ![列オプション](/help/main/c-recommendations/c-products/assets/columns.png)
-
-1. （条件付き）アクティブな列の順序を並べ替えるには、列を **[!UICONTROL Active Columns]** セクションを目的の順序で並べ替えます。
-
-1. （条件付き）から項目をドラッグ&amp;ドロップ **[!UICONTROL Active Columns]** に **[!UICONTROL Inactive Columns]** （およびその逆）を必要に応じて設定します。
-
-   また、アクティブなセクションから非アクティブなセクションに移動する列の横にある削除アイコン（x）をクリックすることもできます。
+1. 表示または非表示にする列を選択または選択解除します。
 
 加えた変更は、現在のセッションにのみ適用されることに注意してください。
