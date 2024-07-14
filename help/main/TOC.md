@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 88%
+source-wordcount: '1291'
+ht-degree: 87%
 
 ---
 
@@ -315,6 +315,7 @@ ht-degree: 88%
       + [カスタム条件ベータ版のアップロード](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 動的および静的インクルージョンルールの使用 {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [動的および静的インクルージョンルールのベータ版を使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [パラメーターのマッチング](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
