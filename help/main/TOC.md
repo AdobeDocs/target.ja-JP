@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 90%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -90,15 +90,15 @@ ht-degree: 90%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Customer Journey Analyticsの統合 {#cja}
+   + Target とAdobe Customer Journey Analytics {#cja} の統合
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Target とAdobe Journey Optimizerの統合（AJO） {#ajo}
+   + Target とAdobe Journey Optimizer（AJO） {#ajo} ールの統合
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [の統合 [!DNL Adobe Target Recommendations] および [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Target とAdobe Experience Manager（AEM）の統合 {#aem}
+   + Target とAdobe Experience Manager（AEM） {#aem} ールの統合
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + エクスペリエンスフラグメントおよびコンテンツフラグメント {#fragments}
+      + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
          + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -271,7 +271,7 @@ ht-degree: 90%
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 統計的手法 {#statistical-methodology}
+   + 統計手法 {#statistical-methodology}
       + [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization レポート {#personalization-reports}
       + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
@@ -303,11 +303,16 @@ ht-degree: 90%
       + [除外ベータ版](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 条件 {#criteria}
       + [条件の概要](c-recommendations/c-algorithms/algorithms.md)
+      + [ 条件の概要ベータ版 ](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [条件の作成](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [条件のベータ版を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [条件シーケンスの作成（ベータ版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [レコメンデーションキーベータ版に基づくレコメンデーションのベース](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target のレコメンデーションアルゴリズムの背後にある科学](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [カスタム条件ベータ版のアップロード](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 動的および静的インクルージョンルールの使用 {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
