@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1305'
 ht-degree: 87%
 
 ---
@@ -317,9 +317,13 @@ ht-degree: 87%
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [動的および静的インクルージョンルールのベータ版を使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [エンティティ属性のマッチングベータ版](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [プロファイル属性のマッチング ベータ版](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [パラメーターのマッチング](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [パラメーターマッチング ベータ版](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [静的フィルター](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [静的フィルターベータ版](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
       + [複数値の属性の扱い](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Adobe Analytics を Recommendations と併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
