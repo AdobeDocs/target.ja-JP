@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 87%
+source-wordcount: '1320'
+ht-degree: 86%
 
 ---
 
@@ -325,8 +325,11 @@ ht-degree: 87%
          + [静的フィルター](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [静的フィルターベータ版](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
+      + [代替レコメンデーションの使用](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [複数値の属性の扱い](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [複数値の属性ベータ版の操作](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Adobe Analytics を Recommendations と併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Recommendations ベータ版でAdobe Analyticsを使用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
