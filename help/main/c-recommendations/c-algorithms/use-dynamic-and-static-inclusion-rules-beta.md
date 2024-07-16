@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 43986f4b83d0165b03046f52afd3cd6b5b42ab65
+source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1825'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 
    ![ フィルタールールを追加 ](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. 動的インクルージョンルールと静的インクルージョンルールのどちらを使用するかを選択するには、「レコメンデーションに従う他のルール **ボックスの** 静的フィルター」をクリックし、「静的フィルター」ドロップダウンリストから目的のオプションを選択します。
+1. 「レコメンデーションに従う他のルール **ボックスの** 静的フィルター」ドロップダウンリストをクリックし、「[!UICONTROL Static Filter]」ドロップダウンリストから目的のオプションを選択します。
 
    ![ 静的フィルターのドロップダウンリスト ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
