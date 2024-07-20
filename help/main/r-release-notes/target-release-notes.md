@@ -5,7 +5,7 @@ title: 次回の [!DNL Target] リリースには、どのような新機能や�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 

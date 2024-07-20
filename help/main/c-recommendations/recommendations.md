@@ -2,17 +2,17 @@
 keywords: Recommendations;Recommendations の条件;Recommendations アルゴリズム;Recommendations アクティビティ;条件;Recommendations のターゲティング:recs
 description: Adobe  [!DNL Target] の Recommendations アクティビティについて説明します。これらのアクティビティでは、以前のユーザーアクティビティやその他のアルゴリズムに基づいて、顧客が興味を持つ可能性のあるコンテンツを自動的に表示します。
 title: ' [!DNL Target]  Recommendations とは'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
-# Recommendations
+# レコメンデーション
 
 [!DNL Adobe Target Recommendations] のアクティビティは、以前のユーザーアクティビティ、環境設定、またはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品やコンテンツを自動的に表示します。[!DNL Target Recommendations] は、訪問者が知らなかったであろう関連項目へと訪問者を誘導できます。[!DNL Recommendations] は、適切なタイミング、適切な場所で訪問者に関連コンテンツを提供できます。
 
@@ -33,11 +33,11 @@ ht-degree: 99%
 
 次の図に、Webページ上のレコメンデーションを示します。
 
-![velocity_example 画像](assets/velocity_example.png)
+![velocity_example 画像 ](assets/velocity_example.png)
 
 Recommendations では、サイト上の顧客のアクティビティに応じ、その顧客に製品を提案する方法を決定します。次に例を示します。
 
-| 目的のアクション | 推奨 |
+| 目的のアクション | レコメンデーション |
 |--- |--- |
 | リュックサックを購入した顧客に、ハイキングシューズやトレッキングポールの購入を勧めます。 | 「これを購入した人が他に購入したもの」という条件を使用して、よく一緒に購入される品目を表示するレコメンデーションを作成します。 |
 | 訪問者が視聴しているメディア内容に類似した内容を勧めることで、訪問者がより長い時間メディアサイトに滞在するようにします。 | 「これを閲覧した人が他に閲覧したもの」という条件を使用して、他のビデオを提案するレコメンデーションを作成します。 |
@@ -72,7 +72,7 @@ Recommendations では、サイト上の顧客のアクティビティに応じ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics ウェビナー：Recommendations の概要 ![チュートリアルバッジ](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Targetの基本ウェビナー：Recommendationsの概要 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 *Recommendations の概要*&#x200B;ウェビナーには、[!DNL Adobe Target Recommendations] の値をどのように活用するかについての詳細に説明しています。この[!DNL Target]アクティビティが商品やコンテンツを自動的に表示する方法を見ていきます。これは、以前の訪問に基づきリアルタイムに提案を最適化することで、顧客の興味を引く可能性があります。さらに、[!DNL Recommendations] アクティビティを作成するための、[!DNL Target] の UI での手順の概要も説明しています。
 

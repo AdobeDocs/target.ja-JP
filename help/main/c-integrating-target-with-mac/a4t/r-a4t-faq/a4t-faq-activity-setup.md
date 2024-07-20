@@ -1,23 +1,24 @@
 ---
 keywords: FAQ;よくある質問;analytics for target;A4T;アクティビティの設定
-description: Analytics を使用した場合のアクティビティの設定に関する質問への回答を見つけます。 [!DNL Target] (A4T)。 A4T では、 [!DNL Target]  アクティビティに Analytics のレポート機能を使用できます。
-title: A4T を使用したアクティビティ設定に関する FAQ はどこで確認できますか？
+description: Analytics for  [!DNL Target]  （A4T）使用時のアクティビティ設定に関する質問への回答を示します。 A4T では、 [!DNL Target]  アクティビティに Analytics のレポート機能を使用できます。
+title: A4T のアクティビティ設定に関する FAQ はどこで見つけることができますか？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 18%
+source-wordcount: '596'
+ht-degree: 13%
 
 ---
 
 # アクティビティの設定 - A4T FAQ
 
-このトピックには、アクティビティの設定と使用に関するよくある質問に対する回答が含まれています。 [!DNL Analytics] レポートソースとして [!DNL Target] (A4T)。
+このトピックには、アクティビティの設定と、[!DNL Analytics] を [!DNL Target] （A4T）のレポートソースとして使用する方法に関するよくある質問に対する回答が含まれています。
 
-## サポートされるアクティビティのタイプ [!DNL Analytics] レポートソース (A4T) として使用する場合は、 {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## レポートソース（A4T）として [!DNL Analytics] サポートされているアクティビティタイプは何ですか？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++回答完全なリストについては、 [Adobe TargetのレポートソースとしてのAdobe Analytics(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++回答
+完全なリストについては、[Adobe Target for Source レポート （A4T）としてのAdobe Analyticsの「サポートされているアクティビティタイプ」を参照してください ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 +++
 
@@ -25,15 +26,16 @@ ht-degree: 18%
 
 +++回答
 
-別々の [workspaces](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) A4T レポートを使用している
+A4T レポートを使用している、別の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) からの 2 つのアクティビティに同じアクティビティ名を使用しないでください。
 
-これは [!DNL Target] レポートソースとして、2 つのアクティビティに同じアクティビティ名を使用することは、 [!UICONTROL Analytics for Target] を使用します。
+[!DNL Target] をレポートソースとして使用する場合はサポートされますが、[!UICONTROL Analytics for Target] をレポートソースとして使用する場合、2 つのアクティビティに同じアクティビティ名を使用することはできません。
 
 +++
 
 ## 目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？
 
-+++次を使用するアクティビティに対する回答： [!DNL Analytics] レポートソースとして (A4T)、目標指標は「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]&quot;および&quot;[!UICONTROL すべてのインプレッション]」設定を使用します。 これらの設定は、*変更できません*。
++++回答
+[!DNL Analytics] をレポートソースとして使用するアクティビティ（A4T）の場合、目標指標は「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これらの設定は、*変更できません*。
 
 詳しくは、「目標指標を設定する際に、詳細設定オプションにアクセスできないのはなぜですか？」（[指標の定義 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)）を参照してください。
 
@@ -42,40 +44,44 @@ ht-degree: 18%
 ## アクティビティを作成しました。データが表示されないのはなぜですか？ {#section_9F8092BE4225442896F926540292F221}
 
 
-+++回答アクティビティが作成されると、 [!DNL Target] は分類ファイルをに送信します。 [!DNL Analytics]. ただし [!DNL Analytics] は、データを取得して処理する際に、分類ファイルが更新されるまで、レポートには表示されません。 この処理が完了するまでに 24 ～ 72 時間かかる場合があります。 72 時間後にデータが表示されない場合、 [ClientCare にお問い合わせください。](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). または、アクティビティを開始したことがわかっている場合は、数日前に事前にアクティビティを作成して、アクティビティを保存する際に分類が送信されるようにしておきます。 こうすることで、開始時にレポートにデータが表示されます。でデータが処理されるまでに 45 ～ 90 分かかることに注意してください。 [!DNL Analytics].
++++回答
+アクティビティを作成すると、[!DNL Target] は分類ファイルを [!DNL Analytics] に送信します。 [!DNL Analytics] はデータをキャプチャして処理していますが、分類ファイルが更新されるまで、レポートにそのことが表示されません。 この処理が完了するまでに 24～72 時間かかる場合があります。 72 時間経ってもデータが表示されない場合は、[Client Care にお問い合わせください ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 または、アクティビティを起動したことが分かっている場合は、数日前にそのアクティビティを作成しておくと、アクティビティを保存したときに分類が送信されます。 こうすることで、開始時にレポートにデータが表示されます。データが [!DNL Analytics] で処理されるまでに 45～90 分かかることに注意してください。
 
 +++
 
-## アクティビティを作成する際に Analytics をレポートソースとして選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## アクティビティを作成する際に、レポートソースとして Analytics を選択できないのはなぜですか？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++回答： [!UICONTROL レポート設定] のオプション [!UICONTROL 管理].
++++回答
+[!UICONTROL Reporting Settings] のオプションは [!UICONTROL Administration] で変更できます。
 
-1. In [!DNL Target]をクリックし、 **[!UICONTROL 管理]**.
-1. **[!UICONTROL レポートに使用する Experience Cloud ソリューション]**&#x200B;ドロップダウンリストで、「**[!UICONTROL アクティビティごとに選択]**」を選択します。
+1. [!DNL Target] で、「**[!UICONTROL Administration]**」をクリックします。
+1. 「**[!UICONTROL Experience Cloud solution used for reporting]**」ドロップダウンリストで、「**[!UICONTROL Select per Activity]**」をクリックします。
 
-![アクティビティごとに選択画像](assets/select-per-activity.png)
+![ アクティビティごとの選択画像 ](assets/select-per-activity.png)
 
-アクティビティを作成および編集する&#x200B;**[!UICONTROL 目標と設定]**&#x200B;画面で、**[!UICONTROL レポートソース]**&#x200B;ドロップダウンリストが有効になります。
+アクティビティの作成と編集を行う **[!UICONTROL Goal & Settings]** 画面で、「**[!UICONTROL Reporting Source]**」ドロップダウンリストが有効になります。
 
-常に [!DNL Analytics] レポートソースとして、 **[!UICONTROL Adobe Analytics]** を、 [!UICONTROL 管理].
-
-+++
-
-## 訪問者は、A4T を使用する自動ターゲットアクティビティで、異なる訪問でのターゲットエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか？
-
-+++回答次は、訪問の間に訪問者の visitorId が変更されないと仮定して当てはまります。
-
-トラフィック配分の割合をアクティビティ中に調整した場合、訪問者は、ターゲットエクスペリエンスとコントロールエクスペリエンスの間を移動できる可能性があります。
-
-割合がアクティビティ中に調整されない場合、最初にコントロールを表示した訪問者は常にコントロールに送信されます。 ターゲット設定されたエクスペリエンスに送信された訪問者は、常にターゲット設定されたエクスペリエンスに送信されます。
-
-* トラフィックのターゲット「バケット」に入った後、機械学習モデルが新しい訪問に関連すると判断した場合は、訪問者を訪問とは別のエクスペリエンスに送信して、その訪問を訪問できます。
-* エクスペリエンスの割り当ては、訪問者の visitorId の決定論的な擬似ランダムハッシュに基づいているので、トラフィックのコントロール「バケット」に割り当てられた後、常に同じエクスペリエンスが表示されます。
+[!DNL Analytics] を常にレポートソースとして使用するには、[!UICONTROL Administration] のドロップダウンリストから「**[!UICONTROL Adobe Analytics]**」を選択します。
 
 +++
 
-## 二項式を使用できますか？ [!DNL Analytics] 指標の最適化目標として [!UICONTROL 自動配分] アクティビティ？ {#binomial}
+## 訪問者は、A4T を使用する自動ターゲットアクティビティの異なる訪問で、ターゲット設定されたエクスペリエンスと制御されたエクスペリエンスを切り替えることができますか？
 
-+++回答： [!DNL Analytics] 指標の最適化目標として [!UICONTROL 自動配分] アクティビティ。 回避策として、同じ目標を達成し、それを最適化目標指標として使用するカスタムイベントを定義できます。
++++回答
+次に示すのは、訪問者の visitorId が訪問から次の訪問までの間に変化しない場合です。
+
+トラフィック配分の割合がアクティビティの半ばで調整されると、訪問者がターゲットエクスペリエンスとコントロールエクスペリエンスの間を移動する可能性があります。
+
+アクティビティの途中で割合が調整されない場合、最初にコントロールを表示した訪問者は常にコントロールに送信されます。 ターゲット設定されたエクスペリエンスに送信された訪問者は、常にターゲット設定されたエクスペリエンスに送信されます。
+
+* ターゲット設定された「バケット」に入った訪問者は、機械学習モデルが別のエクスペリエンスが新しい訪問に関連していると判断した場合に、訪問から訪問へと別のエクスペリエンスに送信されます。
+* エクスペリエンスの割り当ては訪問者の visitorId の決定論的擬似ランダムハッシュに基づいているので、トラフィックのコントロール「バケット」に割り当てられた後、訪問者には常に同じエクスペリエンスが表示されます。
+
++++
+
+## セグメントを最適化目標として適用した 2 項 [!DNL Analytics] 指標を [!UICONTROL Auto-Allocate] アクティビティで使用することはできますか？ {#binomial}
+
++++回答
+セグメントを最適化目標として適用した [!DNL Analytics] 指標は [!UICONTROL Auto-Allocate] アクティビティでは使用できません。 回避策として、同じ目的を達成するカスタムイベントを定義し、それを最適化目標指標として使用できます。
 
 +++

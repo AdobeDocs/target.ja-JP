@@ -5,7 +5,7 @@ title: ' [!DNL Target] のドキュメントのアップデートはどこで確
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 

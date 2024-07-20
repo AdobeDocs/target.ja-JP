@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;自動ターゲット;自動ターゲット;権限;Adobe Target とは;
-description: Adobeの基本を学ぶ [!DNL Target] 標準およびAdobe [!DNL Target] プレミアム。 [!DNL Target] Premium には、標準製品では利用できない高度な機能が含まれています。
+description: Adobe [!DNL Target] Standard およびAdobe [!DNL Target] Premium の基本について説明します。 [!DNL Target] Premium には、標準製品では利用できない高度な機能が含まれています。
 landing-page-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 short-description: Webサイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの収益を最大化するように顧客体験をパーソナライズします。
 title: Target とは？
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] は、A/B テストやルールベースのターゲティングアクティビティを視覚的に作成および管理するのに役立つ、[!DNL Adobe Target] のフロントエンドです。[!DNL Target Standard] は、の内外でのカスタムコードの挿入をサポートしています。 [!UICONTROL Visual Experience Composer] （VEC）ワークフロー。 [!DNL Target Standard] は、デジタルプロパティの実装戦略を簡易化します。 各ページに 1 行のコードを記述するだけで、サイトとの通信を管理できます。 [!DNL Target].
+[!DNL Target Standard] は、A/B テストやルールベースのターゲティングアクティビティを視覚的に作成および管理するのに役立つ、[!DNL Adobe Target] のフロントエンドです。[!DNL Target Standard] では、[!UICONTROL Visual Experience Composer] （VEC）ワークフロー内外でのカスタムコードの挿入をサポートしています。 [!DNL Target Standard] は、デジタルプロパティの実装戦略を簡素化します。 各ページに 1 行のコードを記述するだけで、サイトと [!DNL Target] ージの間で必要なすべての通信を管理できます。
 
 [!DNL Target Standard] には、業界のベストプラクティスが組み込まれています。[!DNL Target Standard] は、初心者と経験者の両方のユーザー向けに設計されています。[!DNL Adobe Experience Cloud] を使用している他のチームメンバーと簡単にデータや結果を共有し、コラボレーションすることが可能です。
 
@@ -31,7 +31,7 @@ ht-degree: 73%
 
 [!DNL Target Premium] は [!DNL Target] の高度なバージョンで、[!DNL Target Standard] にプレミアム機能を追加するためのライセンスが必要になります。
 
-すべて [!DNL Target Premium] 内の記事 [!DNL Target] ガイドには、が含まれています [!UICONTROL Premium] バッジ （各ページの上部、または影響を受けるテキストの近くのインライン） この [!UICONTROL Premium] バッジはクリック可能で、この節へのリンクが含まれています。
+[!DNL Target] ガイドのすべて [!DNL Target Premium] 記事には、各ページの上部または影響を受けるテキストの近くのインラインに [!UICONTROL Premium] バッジが含まれます。 [!UICONTROL Premium] バッジはクリック可能で、この節へのリンクが含まれています。
 
 **[!DNL Target Premium]には、次の機能が含まれます。**
 
@@ -39,17 +39,17 @@ ht-degree: 73%
 
 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、パーソナライズされたエクスペリエンスと、デジタルエクスペリエンスのコンバージョン率の向上を促す、高度な機械学習アルゴリズムを提供します。
 
-[!UICONTROL Automated Personalization] サイト上の訪問者のアクティビティを記録して、訪問者のプロファイルを構築することで、コンテンツのターゲットを類似する訪問者に設定できます。 AP は、個人と母数全体の両方について、コンテンツに対する応答を追跡します。次に、AP は洗練されたモデリングアプローチを使用して、自動的に個々のユーザーをターゲットに設定します。AP は、各訪問者に関するすべての情報を考慮します。
+[!UICONTROL Automated Personalization] は、サイト上の訪問者のアクティビティを記録して、類似する訪問者にコンテンツのターゲットを設定できるよう、訪問者のプロファイルを構築します。 AP は、個人と母数全体の両方について、コンテンツに対する応答を追跡します。次に、AP は洗練されたモデリングアプローチを使用して、自動的に個々のユーザーをターゲットに設定します。AP は、各訪問者に関するすべての情報を考慮します。
 
-[!UICONTROL Automated Personalization] それ自体で学習し、人間による分析を最小限に抑える必要があります。 AP は完全に自動化され、継続的に学習します。システムはモデルを構築し、個別の訪問者が最も関心を持つ可能性が高い商品は何かを、自動的に学習します。訪問者がサイトで何らかの操作をおこなうと、情報が収集され、訪問者プロファイルに保存されます。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
+自 [!UICONTROL Automated Personalization] で学び、人間による分析を最小限に抑える必要があります。 AP は完全に自動化され、継続的に学習します。システムはモデルを構築し、個別の訪問者が最も関心を持つ可能性が高い商品は何かを、自動的に学習します。訪問者がサイトで何らかの操作をおこなうと、情報が収集され、訪問者プロファイルに保存されます。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
 
 ### 自動ターゲット
 
-[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)では、高度な機械学習を使用して、マーケターが定義した複数の高パフォーマンスのエクスペリエンスを特定します。[!UICONTROL Auto-Target] 次に、各訪問者に最適なエクスペリエンスが提供されます。 配信は、個別の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいています。[!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
+[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)では、高度な機械学習を使用して、マーケターが定義した複数の高パフォーマンスのエクスペリエンスを特定します。次に [!UICONTROL Auto-Target] 各訪問者に最適なエクスペリエンスが提供されます。 配信は、個別の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいています。[!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 ### Recommendations
 
-[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。[!UICONTROL Recommendations] 顧客が関心を持ちそうな商品を積極的に紹介することが重要です。
+[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) のアクティビティは、以前のユーザーアクティビティを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。顧客 [!UICONTROL Recommendations] 関心を持ちそうな商品を積極的に紹介します。
 
 レコメンデーションでは、サイトでの顧客のアクティビティを基にして、その顧客に製品を提案する方法を決定します。次に例を示します。
 
@@ -67,14 +67,14 @@ ht-degree: 73%
 
 ###  オファーとしての Recommendations 
 
-[オファーとしてのRecommendations](/help/main/c-recommendations/recommendations-as-an-offer.md) レコメンデーションを内に含めることができます [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]、および [!UICONTROL Experience Targeting] （XT） アクティビティ。
+[ オファーとしてRecommendations](/help/main/c-recommendations/recommendations-as-an-offer.md) を使用すると、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティ内にレコメンデーションを組み込むことができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
 * 同じアクティビティ内の Recommendations と非 Recommendations のコンテンツをテストおよびターゲット設定します。
 * 複数の Recommendations の順序など、Recommendations のページ配置を簡単に試行します。
-* を使用して、トラフィックを最もパフォーマンスの高いレコメンデーションエクスペリエンスに自動的にプッシュします [!UICONTROL Auto-Allocate].
-* を使用し、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます [!UICONTROL Auto-Target].
+* [!UICONTROL Auto-Allocate] を使用して、最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックを自動的にプッシュします。
+* [!UICONTROL Auto-Target] を使用し、個人プロファイルに基づいて、カスタマイズされた Recommendations エクスペリエンスへと訪問者を動的に割り当てます。
 
 ### Enterprise ユーザーの権限
 
@@ -84,9 +84,9 @@ ht-degree: 73%
 
 [!BADGE ベータ]{type=Informative}
 
-この [!DNL Adobe Target] チームは、多くの場合、一部のお客様に対して、テストやフィードバックの目的で新機能を有効にします。 テスト期間が完了すると、今後、これらの機能はすべての顧客に対して有効になります [!DNL Target Standard/Premium] のリリースとリリースは、リリースノートで発表されました。
+[!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
 
-の記事 [!DNL Target] Betaの機能について説明するガイドには、各ページの上部にあるBeta バッジや、影響を受けるテキストの近くのインラインが含まれます。 Beta バッジはクリック可能で、この節へのリンクが含まれています。
+Betaの機能 [!DNL Target] 説明するガイドの記事には、各ページの上部にあるBeta バッジや、影響を受けるテキストの近くのインラインが含まれます。 Beta バッジはクリック可能で、この節へのリンクが含まれています。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -98,7 +98,7 @@ ht-degree: 73%
 
 詳しくは、『[Recommendations Classic ドキュメント](/help/main/assets/adobe-recommendations-classic.pdf)』を参照してください。
 
-## Experience League:Adobe [!DNL Target] ウェルカムキット {#kit}
+## Experience League:Adobe[!DNL Target] ウェルカムキット {#kit}
 
 このウェルカムキットで、[!DNL Adobe Target] の最適化およびパーソナライゼーションプログラムを構築します。ウェルカムキットには、最初の [!DNL Target] アクティビティの準備と開始に役立つ重要な情報、ツール、リソースが含まれています。キットには、短期的な優先課題と長期的な最適化戦略のアイデアが含まれています。
 

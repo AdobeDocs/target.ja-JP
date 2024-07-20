@@ -1,7 +1,7 @@
 ---
 keywords: Recommendations Classic
-description: レガシーAdobe Recommendations Classic ドキュメントのPDFをダウンロードします。
-title: Adobe Recommendations Classic のドキュメントはどこで入手できますか？
+description: 従来のAdobe Recommendations Classic ドキュメントのPDFをダウンロードします。
+title: Adobe Recommendations Classic に関するドキュメントはどこで参照できますか？
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。最高のために [!DNL Recommendations] エクスペリエンス、アップグレード [!DNL Recommendations] 使用可能なアクティビティ [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] はレガシー製品で、新規のお客様にはライセンスが付与されなくなりました。[!DNL Recommendations] を最大限に活用するには、[Adobe Target Premium](/help/main/c-intro/intro.md) で利用できる [!DNL Recommendations] アクティビティにアップグレードしてください。
 
 Recommendations を使用すると、顧客が知らなかった品目を表示し、Web サイトの売上を促進できます。
 

@@ -5,9 +5,9 @@ title: ' [!DNL Analytics]  for  [!DNL Target] （A4T）とは'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
-workflow-type: ht
-source-wordcount: '1144'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 [!DNL Analytics] をアクティビティのレポートソースとして使用しているときは、そのアクティビティのレポート作成とセグメント化はすべて [!DNL Analytics] に基づいて行われます。
 
-すべての [!DNL Analytics] 指標（計算指標を含む）は、[!DNL Analytics] の [!DNL Target] および [!UICONTROL Target アクティビティ] レポートで利用できます（ただし 1 つだけ例外があります）。[!UICONTROL 上昇率と信頼性]の計算指標はサポートされていません。同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
+すべての [!DNL Analytics] 指標（計算指標を含む）は、[!DNL Analytics] の [!DNL Target] および [!UICONTROL Target Activities] レポートで利用できます（ただし 1 つだけ例外があります）。 [!UICONTROL Lift & Confidence] の計算指標はサポートされていません。 同様に、[!DNL Analytics] で利用可能な任意のセグメントも、両方のソリューションに適用できます。アクティビティの開始後、またはアクティビティが完了した後でも、[!DNL Target] のレポートに指標やオーディエンスを適用できます。
 
 顧客の指標や [!DNL Analytics] に組み込まれている計算指標を含む、すべての指標を利用できます。
 
@@ -39,7 +39,7 @@ A4T の使用を検討している場合は、次の点に注意してくださ�
 * レポートソースはアクティビティごとに設定されます。[!DNL Target] はレポートに使用するデータを引き続き収集するので、[!DNL Target] によって収集されたデータをアクティビティのベースにしたい場合は、[!DNL Target] のデータを利用できます。
 * どちらか 1 つのレポートソースを選びます。両方のソースから 1 つのアクティビティのデータを収集することはできません。
 * A4T を使用する場合は、アクティビティに使用できる成功指標はすべて [!DNL Analytics] の指標です。ただし、at.js を使用している場合は目標指標は mbox の呼び出しをベースにすることができます。例えば、[!DNL Analytics] のクリック追跡コードを実装する代わりに、Target が備えているクリック追跡機能を A4T で使用できます。
-* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。例えば、[!DNL Target] で[!UICONTROL 訪問者]指標を使った場合、使用されるのは [!DNL Analytics] の[!UICONTROL 訪問者]指標であり、[!DNL Target] の[!UICONTROL 訪問者]指標ではありません。その場合、Target の訪問者指標は[!UICONTROL 参加者]と呼ばれます。この違いは、特に基本的なトラフィック指標（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ページビュー]）とコンバージョン指標において重要です。
+* [!DNL Target] UI で A4T アクティビティのレポートを表示すると、[!DNL Analytics] のデータが表示されます。例えば、[!DNL Target] で [!UICONTROL Visitor] 指標を使用する場合、現在 [!UICONTROL Entrants] と呼ばれている [!DNL Target] [!UICONTROL Visitors] 指標ではなく、[!DNL Analytics] [!UICONTROL Visitor] 指標を使用しています。 この違いは、特に基本的なトラフィック指標（[!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views]）とコンバージョン指標において重要です。
 * 既存の [!DNL Target] アクティビティは引き続き [!DNL Target] のデータ収集を使用するので、A4T を有効にしても影響を受けません。
 * A4T を使用する場合、使用できる mbox ベースの指標は 1 つだけです。
 * [!DNL Target] から [!DNL Analytics] へのサーバー間コールによって、アクティビティとエクスペリエンスの情報が [!DNL Analytics] に送られます。この統合によって、[!DNL Target] または [!DNL Analytics] に追加のサーバーコールが生じることはありません。
@@ -60,7 +60,7 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 | [自動配分を使用した A/B アクティビティ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | ○ | [自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。 |
 | [自動ターゲットを使用した A/B アクティビティ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | ○ | 「自動ターゲット」アクティビティに対する A4T のサポートが、[!DNL Platform Web SDK] と at.js の両方でサポートされるようになりました。 |
 | [エクスペリエンスのターゲット設定（XT）](/help/main/c-activities/t-experience-target/experience-target.md) | ○ |  |
-| [多変量分析テスト（MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ | [!UICONTROL 要素貢献度]レポートを取得するには、mbox ベースの目標指標の目標が必要です。[!UICONTROL 要素貢献度]レポートは現在、[!DNL Analytics] の指標をサポートしていません。 |
+| [多変量分析テスト（MVT）](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | ○ | [!UICONTROL Element Contribution] レポートを取得するには、mbox ベースの目標指標の目標が必要です。 [!UICONTROL Element Contribution] レポートは現在、[!DNL Analytics] の指標をサポートしていません。 |
 | [Automated Personalization（AP）アクティビティ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | × |  |
 | [Recommendations アクティビティ](/help/main/c-recommendations/recommendations.md) | ○ |  |
 | [リダイレクトオファーを使用するすべてのアクティビティ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | ○ |
@@ -69,27 +69,27 @@ A4T と at.js および [!DNL Adobe Experience Platform Web SDK] の実装の詳
 
 ## A4T レポートの例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-[!DNL Target] で A4T レポートを表示するには、「**[!UICONTROL アクティビティ]**」をクリックし、[!DNL Analytics] をレポートソースとして使用する目的のアクティビティをリストから選択して、「**[!UICONTROL レポート]**」タブをクリックします。
+[!DNL Target] で A4T レポートを表示するには、「**[!UICONTROL Activities]**」をクリックし、[!DNL Analytics] をレポートソースとして使用する目的のアクティビティをリストから選択して、「**[!UICONTROL Reports]**」タブをクリックします。
 
 >[!NOTE]
 >
->[!UICONTROL アクティビティ]ページの最上部にある[!UICONTROL レポートソース]ドロップダウンリストを使用して、A4T を使用するアクティビティのみを表示できます。
+>[!UICONTROL Activities] ページの上部にある [!UICONTROL Reporting Source] ドロップダウンリストを使用して、A4T を使用するアクティビティのみを表示できます。
 
-レポートの右上隅にある適切なアイコンをクリックすることで、レポートの[!UICONTROL テーブル表示]と[!UICONTROL グラフ表示]を切り替えることができます。
+レポートの右上隅にある適切なアイコンをクリックすることで、レポートの [!UICONTROL Table View] と [!UICONTROL Graph View] を切り替えることができます。
 
-使用可能な [!DNL Analytics] 目標指標を表示する「[!UICONTROL レポート指標]」ドロップダウンリストを含んだ、A4T レポートの[!UICONTROL グラフ表示]を次の図に示します。
+使用可能な [!DNL Analytics] 目標指標を表示する「[!UICONTROL Report Metric]」ドロップダウンリストを含んだ、A4T レポートの [!UICONTROL Graph View] を次の図に示します。
 
 ![a4t_report_graph1 画像](assets/a4t_report_graph1.png)
 
-使用可能な [!DNL Analytics] オーディエンスを表示する「[!UICONTROL オーディエンス]」ドロップダウンリストを含んだ、A4T レポートの[!UICONTROL グラフ表示]を次の図に示します。
+使用可能な [!DNL Analytics] オーディエンスを表示する [!UICONTROL Audience] ドロップダウンリストを含んだ、A4T レポートの [!UICONTROL Graph View] を次の図に示します。
 
 ![a4t_report_graph2 画像](assets/a4t_report_graph2.png)
 
-A4T レポートの[!UICONTROL テーブル表示]を次の図に示します。
+A4T レポートの [!UICONTROL Table View] を次の図に示します。
 
 ![a4t_report_table 画像](assets/a4t_report_table.png)
 
-[!DNL Analytics] ではなく [!DNL Target] でレポートを表示するには、レポートの上部にある「**[!UICONTROL Analytics で表示]**」をクリックします。
+レポートを [!DNL Target] ではなく [!DNL Analytics] で表示するには、レポートの上部にある **[!UICONTROL View in Analytics]** をクリックします。
 
 ## 「Analytics＆Target：分析のベストプラクティス」チュートリアル {#section_3438E6E77A464424B717A4FD333B84B2}
 

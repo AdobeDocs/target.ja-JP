@@ -5,9 +5,9 @@ title: 顧客属性およびその使用方法とは
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1575'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1513'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 顧客属性と [!DNL Target] を使用する際は次の点に注意してください。
 
-* [!DNL People] サービスの[!UICONTROL 顧客属性]機能を使用するには、いくつかの前提条件を満たしておく必要があります。詳しくは、*Experience Cloud サービスおよび管理ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
+* [!DNL People] サービスの [!UICONTROL Customer attributes] 機能を使用するには、いくつかの前提条件を満たしておく必要があります。 詳しくは、*Experience Cloud サービスおよび管理ドキュメント*&#x200B;の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#section_BD38693AFBF34926BA28E964963B4EA0)の「顧客属性をアップロードするための前提条件」を参照してください。
 * 「*Experience Cloud 中央インターフェイスコンポーネントガイド*」の「[顧客属性のデータファイルとデータソースについて](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)」に記載されている通り、ファイルのアップロードに関する制限についてご注意ください。ベストプラクティスは次のとおりです。
 
    * 単一の大きなファイル（[指定された制限](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ja)の範囲内）をアップロードします。複数の小さなファイルよりも、単一の大きなファイルの方が望ましいです。
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 ## 人物サービスでの顧客属性へのアクセス
 
-1. [!DNL Adobe Experience Cloud] で、「メニュー」アイコン（![「メニュー」アイコン](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックしてから、「**[!UICONTROL 人物]**」をクリックしてください。
+1. [!DNL Adobe Experience Cloud] で、メニューアイコン（![ メニューアイコン ](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)）をクリックしてから **[!UICONTROL People]** をクリックします。
 
    ![人物](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. 次に「**[!UICONTROL 顧客属性]**」タブをクリックします。
+1. 「**[!UICONTROL Customer Attributes]**」タブをクリックします。
 
    ![「顧客属性」タブ](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -81,8 +81,8 @@ ht-degree: 100%
 
    使用するデータファイルは、ファイルのアップロード要件に準拠し、100 MB を超えないようにする必要があります。 ファイルが大きすぎる場合、または定期的にアップロードする必要があるデータがある場合は、代わりに FTP でファイルをアップロードすることができます。
 
-   * **HTTPS：**.csv データファイルをドラッグ＆ドロップするか、「**[!UICONTROL 参照]**」をクリックしてファイルシステムからアップロードしてください。
-   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=ja)します。まず、アドビが指定した FTP サーバーのパスワードを入力します。パスワードを指定したら、「**[!UICONTROL 完了]**」をクリックします。
+   * **HTTPS:** .csv データファイルをドラッグ&amp;ドロップするか、「**[!UICONTROL Browse]**」をクリックしてファイルシステムからアップロードしてください。
+   * **FTP：** FTP リンクをクリックして [FTP 経由でファイルをアップロード](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=ja)します。まず、アドビが指定した FTP サーバーのパスワードを入力します。パスワードを指定し、「**[!UICONTROL Done]**」をクリックします。
 
    CSV、ZIP または GZIP ファイルを FTP サーバーに転送します。このファイル転送が正常に完了したら、同じ名前と `.fin` 拡張子の新しいファイルを作成します。この空のファイルをサーバーに転送します。これにより転送が完了したことを示し、[!DNL Experience Cloud] がデータファイルの処理を開始します。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    検証プロセスでは、アップロードした属性（文字列、整数、数値など）に表示名と説明を設定できます。各属性を適切なデータタイプ、表示名、説明に対応付けます。
 
-   スキーマの検証が完了したら、「**[!UICONTROL 保存]**」をクリックします。ファイルのアップロード時間はサイズによって異なります。
+   スキーマの検証が完了したら、「**[!UICONTROL Save]**」をクリックします。 ファイルのアップロード時間はサイズによって異なります。
 
    ![スキーマの検証](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 1. 購読を設定し、属性ソースを有効にします。
 
-   「**[!UICONTROL 購読を追加]**」をクリックして、これらの属性を登録するソリューションを選択します。[購読の構成](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=ja)は、[!DNL Experience Cloud] とソリューションの間のデータフローを設定します。属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
+   「**[!UICONTROL Add Subscription]**」をクリックして、これらの属性を登録するソリューションを選択します。 [購読の構成](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=ja)は、[!DNL Experience Cloud] とソリューションの間のデータフローを設定します。属性ソースを有効化すると、購読しているソリューションでデータが利用できるようになります。アップロードした顧客レコードは、Web サイトまたはアプリケーションから入ってくる ID 信号と照合されます。
 
    ![ソリューションの設定](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 ### ターゲットオーディエンスを作成する
 
-[!DNL Target] では、オーディエンスの作成時に「訪問者プロファイル」セクションから顧客属性を選択できます。リスト内の顧客属性はすべて先頭に &lt; data_source_name > が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
+[!DNL Target] では、オーディエンスの作成時に「[!UICONTROL Visitor Profile]」セクションから顧客属性を選択できます。 リスト内の顧客属性はすべて先頭に &lt; data_source_name > が付きます。これらの属性を、必要に応じて他のデータ属性と組み合わせることで、オーディエンスを構築します。
 
 ![Target オーディエンス](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 

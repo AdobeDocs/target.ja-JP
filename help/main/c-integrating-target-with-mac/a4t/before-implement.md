@@ -5,9 +5,9 @@ title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -97,12 +97,12 @@ at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js �
 
 ## 共有オーディエンス
 
-[Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} に入力する場合、「[!UICONTROL プロビジョニングをリクエストする機能]」の下にリストされている [!UICONTROL 共有オーディエンス]に関する以下の重要情報にご注意ください。
+[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} に入力する場合、「[!UICONTROL For which capabilities are you requesting provisioning]?」の下にリストされている [!UICONTROL Shared Audiences] オプションに関する以下の重要事項にご注意ください。
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-[!UICONTROL 共有オーディエンス]をリクエストするとき、[!UICONTROL ターゲット]および [!UICONTROL Adobe Audience Manager]（AAM）を有効にして情報を共有します。この場合はオーディエンスです。
+[!UICONTROL Shared Audiences] をリクエストするとき、[!UICONTROL Target] と [!UICONTROL Adobe Audience Manager] （AAM）を有効にして情報を共有します。この場合はオーディエンスです。
 
 >[!IMPORTANT]
 >
->[!UICONTROL ターゲット] と AAM の統合には追加の費用がかかります。AAMの [!UICONTROL ターゲット]呼び出し毎に請求されます。
+>[!UICONTROL Target] とAAMの統合には追加の費用がかかります。 AAMの [!UICONTROL Target] 呼び出し毎に請求されます。

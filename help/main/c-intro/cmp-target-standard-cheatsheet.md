@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 97%
+source-wordcount: '2721'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **Target はどのブラウザーをサポートしていますか？**
 
-詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)」のマトリックスを参照してください。{target=_blank}Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+詳しくは、[ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} マトリックスを参照してください。 Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 **特定のステップに留まってアクティビティ（オファーのテキストやカスタムコードなど）を編集しながら、別のタブで QA を実行することはできますか？**
 
-これも可能です。その際は、[「保存」オプションを使用することで、特定のステップに留まったまま段階的に変更を加えることができます](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+これも可能です。単に [ 保存オプションを使用して、手順を離れることなく増分変更を行うことができます ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
 **作成したばかりのアクティビティのプレビューを確認し、QA を実行するにはどうすればよいですか？**
 
@@ -166,7 +166,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 **Visual Experience Composer（VEC）でページを読み込もうとすると、「ブラウザーでスクリプトをロードできるようにします」というメッセージが表示されます。どうすればこの問題を解消できますか？**
 
-これは、サイトに混合コンテンツが存在するためです。これは、HTTP と HTTPS の両方のリソースを取得するサイトです。 IT チームに、HTTPS への完全移行をおこなうよう要求してください。
+これは、サイトに混在したコンテンツがあり、HTTP リソースと HTTPS リソースの両方を取得するサイトであるためです。 IT チームに、HTTPS への完全移行をおこなうよう要求してください。
 
 移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
 
@@ -180,7 +180,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 また、「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡し、また、[アドビのプロキシサーバーも許可リストに登録](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)します。
+[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡して [許可リストAdobeのプロキシ サーバーにも連絡する必要がある可能性 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) あります。
 
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
@@ -212,13 +212,13 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 構成および参照の機能を使用すれば、目的のページに移動してエクスペリエンスを作成できます。
 
-![vec2 画像](assets/vec2.png)
+![vec2 画像 ](assets/vec2.png)
 
 **Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）から、目的のエクスペリエンスに移動するにはどうすればよいですか？**
 
 ステップ 2 でエクスペリエンス名の前にあるサムネールをクリックすれば、対象のエクスペリエンスに移動できます。
 
-![thumbnail_experiences 画像](assets/thumbnail_experiences.png)
+![thumbnail_experience 画像 ](assets/thumbnail_experiences.png)
 
 **以前まで Target Classic を利用していました。特定の用途で自分の mbox を利用することはできますか？**
 
@@ -287,7 +287,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **レポートのデータの見方を教えてください。**
 
-レポートは、[信頼区間のバー、上昇率範囲、有意性／信頼度、複数の指標の選択、表、グラフ、実行期間の平均など](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)の機能によって、できるだけ直感的に理解できる仕組みになっているので、効果的な分析を簡単におこなえます。また、[Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)アクティビティを使用している場合、Analytics を参照してさらに詳細な分析をオーディエンスに掛けられます。
+[ 信頼区間バー、上昇率範囲、有意性/信頼性および複数の指標の選択、テーブルおよびグラフ表示、実行中の平均など ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) の機能を使用して、強力で簡単なレポート分析を可能にするために、レポートをできるだけ直感的にするように努めました。 また、[Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)アクティビティを使用している場合、Analytics を参照してさらに詳細な分析をオーディエンスに掛けられます。
 
 ## レスポンストークン {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -303,10 +303,10 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **トラブルシューティング用のガイドはありますか？**
 
-ご迷惑をおかけして大変申し訳ありません。トラブルシューティングについては、トラブルシューティングに関する様々なトピックへのリンクについては、「[Target のトラブルシューティング](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)」を参照してください。
+ご迷惑をおかけして大変申し訳ありません。多くのトラブルシューティングトピックへのリンクについては、[Troubleshooting Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) を参照してください。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API の詳細はどこで確認できますか？**
 
-API に関する詳細なドキュメントを用意してあります。詳しくは、 [Delivery API、NodeJS SDK、およびRecommendations API のドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+API に関する詳細なドキュメントを用意してあります。[ 配信 API、NodeJS SDK およびRecommendations API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} を参照してください。

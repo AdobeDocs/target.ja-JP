@@ -6,26 +6,26 @@ feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 83%
 
 ---
 
 # システムステータスの更新と事前通知
 
-[!UICONTROL アドビのシステムステータス] ページとアドビの通知を使用して [!DNL Adobe]、製品と [!DNL Adobe Experience Cloud] ソリューションのステータスに気をつけてください。アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
+[!UICONTROL Adobe System Status] のページとアドビの通知を使用して、製品と [!DNL Adobe Experience Cloud] ソリューションのステータス [!DNL Adobe] 把握します。 アクティブな通知によって、停止イベントおよびメンテナンスイベントが警告されます。
 
 ## システムステータスの更新
 
-[!UICONTROL アドビのシステムステータス]ページを使用して、[!DNL Target] およびその他の [!DNL Adobe] 製品と [!DNL Adobe Experience Cloud] ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+[!UICONTROL Adobe System Status] ページを使用して、[!DNL Target] およびその他の [!DNL Adobe] 製品と [!DNL Adobe Experience Cloud] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
 >[!NOTE]
 >
 >製品内通知は、毎月の [!DNL Target] リリースの間、常に表示されますが、マイナーアップデートが発生した場合は、このページに記載されます。
 
-1. [[!UICONTROL システムステータス]](https://status.adobe.com/ja){target=_blank}にアクセスします。
+1. [[!UICONTROL System Status]](https://status.adobe.com/ja){target=_blank} にアクセスします。
 
-1. [!DNL Experience Cloud] ソリューションのステータスを確認するには、[!DNL Target] 「[!UICONTROL Experience Cloud]」タブをクリックします。
+1. [!DNL Target] を含む [!DNL Experience Cloud] ソリューションのステータスを確認するには、「[!UICONTROL Experience Cloud]」タブをクリックします。
 
    ![system_status 画像](assets/system_status.png)
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    上記の図では、[!DNL Adobe Advertising]、[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager] およびその他のソリューションが最近メンテナンスアップデートを完了しました。その他のすべての製品およびソリューションは、通常どおり機能していました。使用時に問題が発生した場合は、必ずこのページを確認 [!DNL Target] してください。
 
-1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。[!UICONTROL メジャー]、[!UICONTROL マイナー]、[!UICONTROL 潜在的]または[!UICONTROL メンテナンス]のリンクをクリックすると、結果をさらにフィルタリングできます。
+1. （オプション）製品、地域または日付範囲別にリストをフィルタリングします。[!UICONTROL Major]、[!UICONTROL Minor]、[!UICONTROL Potential] または [!UICONTROL Maintenance] のリンクをクリックすると、結果をさらにフィルタリングできます。
 
 ## 事前通知
 

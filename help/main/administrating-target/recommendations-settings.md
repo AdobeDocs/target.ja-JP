@@ -1,6 +1,6 @@
 ---
 keywords: recommendations;recommendations の実装；クライアントコード；認証トークン；industry vertical；互換性のないモードのフィルター；デフォルトホストグループ；サムネールベース；認証トークンの生成；認証トークン；
-description: の設定方法を説明します [!DNL Adobe Target Recommendations].
+description: ' [!DNL Adobe Target Recommendations] の設定を行う方法を説明します。'
 title: Recommendationsを設定するにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Administration & Configuration
@@ -15,20 +15,20 @@ ht-degree: 8%
 
 ---
 
-# の設定： [!DNL Recommendations]
+# [!DNL Recommendations] の設定
 
-の設定を行う方法を説明します [!DNL Adobe Target Recommendations].
+[!DNL Adobe Target Recommendations] の設定を行う方法を説明します。
 
-にアクセスするには [!DNL Recommendations] 設定オプション、開く [!DNL Target] が含まれる [!DNL Adobe Experience Cloud]を選択し、 [!UICONTROL Administration] > [!UICONTROL Recommendations].
+「[!DNL Recommendations] 設定」オプションにアクセスするには、[!DNL Adobe Experience Cloud] で [!DNL Target] を開き、[!UICONTROL Administration] > [!UICONTROL Recommendations] をクリックします。
 
 次の設定を行うことができます。
 
 * クライアントコードを指定
-* の認証トークンを生成 [!DNL Target] API
+* [!DNL Target] API 用の認証トークンの生成
 * 業種または業種を指定してください
 * 互換性のない条件のフィルタリング
 * 既定のホスト グループを指定してください
 * サムネールのベース URL を指定
 * カスタム属性キーの設定
 
-詳しくは、を参照してください [Recommendationsの計画と実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} が含まれる **[!DNL Adobe Target]開発者ガイド**.
+詳しくは、『 **[!DNL Adobe Target]開発者用ガイド [Recommendationsの計画と実装 ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} を参照してください**。

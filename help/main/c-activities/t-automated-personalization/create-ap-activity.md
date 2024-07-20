@@ -1,52 +1,52 @@
 ---
-keywords: 自動パーソナライゼーション；ap
-description: 以下を作成する方法を説明します。 [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer].
-title: 作成方法 [!UICONTROL Automated Personalization] 活動？
+keywords: automated personalization;ap
+description: '[!UICONTROL Visual Experience Composer] を使用して、で [!UICONTROL Automated Personalization] （AP）アクティビティを作成する方法  [!DNL Adobe Target]  説明します。'
+title: '[!UICONTROL Automated Personalization] アクティビティの作成方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 43%
+source-wordcount: '1743'
+ht-degree: 29%
 
 ---
 
 # [!UICONTROL Automated Personalization] アクティビティの作成
 
-の作成 [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
+[!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Adobe Target] に [!UICONTROL Automated Personalization] （AP）アクティビティを作成します。
 
-The [!UICONTROL Automated Personalization] (AP) でのアクティビティワークフロー [!DNL Target] は、他のアクティビティタイプのワークフローとは異なります。
+[!DNL Target] の [!UICONTROL Automated Personalization] （AP）アクティビティワークフローは、他のアクティビティタイプのワークフローとは異なります。
 
-1. 次から： [!DNL Target] [!UICONTROL アクティビティ] リスト、クリック **[!UICONTROL アクティビティを作成]** > **[!UICONTROL Automated Personalization]**.
+1. [!DNL Target] [!UICONTROL Activities] リストで、**[!UICONTROL Create Activity]**/**[!UICONTROL Automated Personalization]** をクリックします。
 
    ![アクティビティを作成：Automated Personalization](/help/main/c-activities/t-automated-personalization/assets/ap-create-new.png)
 
-1. 次の手順で [!UICONTROL Visual Experience Composer] (VEC)、 **[!UICONTROL ビジュアル]**.
+1. [!UICONTROL Visual Experience Composer] （VEC）を使用するには、「**[!UICONTROL Visual]**」をクリックします。
 
-   次の手順で [!UICONTROL フォームベースの Experience Composer]を選択します。 [!UICONTROL フォーム]. 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
-
-   >[!NOTE]
-   >
-   >VEC および [!UICONTROL フォームベースの Experience Composer], [!DNL Target] は、 [!UICONTROL シングルページアプリケーション VEC]. 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
-   >
-   >VEC のトラブルシューティングについて詳しくは、 [Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-
-1. （条件付き） [ワークスペースを選択](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-
-1. アクティビティ URL を確認または入力して、「 **[!UICONTROL 作成]**.
+   [!UICONTROL Form-Based Experience Composer] を使用するには、「[!UICONTROL Form]」を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
-   >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] の両方が一致します。
+   >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は [!UICONTROL Single Page Application VEC] を提供します。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >
+   >VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md) を参照してください。
 
-   指定した URL のページが VEC で開きます。
+1. （条件付き） [ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-1. 次をクリック： **[!UICONTROL 名前]** 「 」フィールドにアクティビティ名を入力します。
+1. アクティビティ URL を確認または入力し、「**[!UICONTROL Create]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >[!DNL Target] は URL プロトコル（[!DNL https] と [!DNL http]）を区別しません。 その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] の両方が一致します。
+
+   指定された URL のページが VEC で開きます。
+
+1. 「**[!UICONTROL Name]**」フィールドをクリックし、アクティビティ名を入力します。
 
    ![「名前」フィールド](/help/main/c-activities/t-automated-personalization/assets/ap-new-name.png)
 
-   アクティビティ名の先頭に次の文字を使用することはできません。
+   アクティビティ名は、次の文字で始めることはできません：
 
    | 文字 | 説明 |
    |--- |--- |
@@ -55,101 +55,101 @@ The [!UICONTROL Automated Personalization] (AP) でのアクティビティワ�
    | `-` | マイナス |
    | `@` | アットマーク |
 
-   アクティビティ名に次の文字シーケンスを含めることはできません。
+   アクティビティ名には、次の文字シーケンスを含めることはできません：
 
    | 文字シーケンス | 説明 |
    |--- |--- |
-   | ;= | セミコロン、等しい |
+   | ;= | セミコロン、次と等しい |
    | ;+ | セミコロン、プラス |
-   | ;- | セミコロン、マイナス |
-   | ;@ | セミコロン、アットマーク |
-   | ,= | コンマ、等しい |
+   | ;- | セミコロン マイナス |
+   | ;@ | セミコロン、アットサイン |
+   | ,= | コンマ、次と等しい |
    | ,+ | コンマ、プラス |
-   | ,- | コンマ、マイナス |
-   | ,@ | コンマ、アットマーク |
-   | `[`&quot; | 開き角括弧、二重引用符 |
+   | ,- | コンマ，マイナス |
+   | ,@ | コンマ、アットサイン |
+   | `[`&quot; | 左角括弧、二重引用符 |
    | &quot;`]` | 二重引用符、閉じ角括弧 |
 
 1. 「[Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)」で説明しているとおりにページ要素を変更します。
 
-   アセットマネージャーから一度に複数の画像を選択できます。これにより、各画像がアクティビティ用に設定されたページをすばやく表示できます。 また、オファー内のテキスト要素を容易に編集することもできます。要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
+   アセットマネージャーから一度に複数の画像を選択できます。これにより、アクティビティ用に設定された各画像を含むページをすばやく表示できます。 また、オファー内のテキスト要素を容易に編集することもできます。要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
 
-1. 「**[!UICONTROL コンテンツを管理]**」をクリックして、使用可能な組み合わせを設定します。
+1. 「**[!UICONTROL Manage Content]**」をクリックして、使用可能な組み合わせを設定します。
 
    ![「コンテンツを管理」オプション](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   画面上部に 3 つのオプションが表示されるダイアログボックスが表示されます。 [!UICONTROL エクスペリエンス], [!UICONTROL オファー]、および [!UICONTROL 除外グループ].
+   画面上部に、[!UICONTROL Experiences]、[!UICONTROL Offers]、[!UICONTROL Exclusion Groups] の 3 つのオプションがダイアログボックスに表示されます。
 
    ![コンテンツを管理ダイアログボックス](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
-   >AP アクティビティではエクスペリエンスを 30,000 個まで作成できますが、エクスペリエンスが 5,000 個未満の場合にアクティビティは最高のパフォーマンスを発揮します。この制限は、アクティビティで [!UICONTROL 重複を許可しない] オプション。
+   >1 つの AP アクティビティで作成できるエクスペリエンスは最大 30,000 個ですが、このアクティビティのパフォーマンスが最も高いのは、使用されるエクスペリエンスが 5,000 件未満の場合です。 アクティビティで「[!UICONTROL Disalow Duplicates]」オプションが有効になっていても、この同じ制限が適用されます。
 
-   The [!UICONTROL エクスペリエンス] リストには、アクティビティ用に選択されたコンテンツの各部分と、それが割り当てられている場所が表示されます。
+   [!UICONTROL Experiences] のリストには、アクティビティ用に選択された各コンテンツと、そのコンテンツが割り当てられている場所が表示されます。
 
-   特定のエクスペリエンスを除外するには、対象のエクスペリエンスにマウスポインターを置いてから [!UICONTROL 除外] アイコン。
+   目的のエクスペリエンスにカーソルを合わせて「[!UICONTROL Exclude]」アイコンをクリックすると、特定のエクスペリエンスを除外できます。
 
    ![除外アイコンにマウスポインターを置く](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   複数のエクスペリエンスのチェックボックスをオンにしてから「 [!UICONTROL 除外] アイコンをクリックします。
+   エクスペリエンスをバッチで除外または含めるには、関連するエクスペリエンスのチェックボックスをオンにし、ダイアログボックスの右上隅にある「[!UICONTROL Exclude]」アイコンをクリックします。
 
    ![一括除外オプション](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   このリスト表示では、[!UICONTROL ステータス]ドロップダウンリストをクリックすることでフィルターを適用し、除外済みのアクティビティまたは追加済みのアクティビティのみを表示できます。
+   [!UICONTROL Status] のドロップダウンリストをクリックすると、このリスト表示をフィルタリングして、除外されたアクティビティのみを表示したり、含まれたアクティビティのみを表示したりできます。
 
-1. （条件付き）「**[!UICONTROL オファー]**」をクリックして、コンテンツを選択してレポートグループに割り当てたり、ターゲット設定によって特定のオファーの閲覧を特定の訪問者のみに許可したりします。
+1. （条件付き） **[!UICONTROL Offers]** をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にのみターゲティング付きの特定のオファーを表示させます。
 
-   レポートグループについて詳しくは、 [Automated Personalizationのオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
+   レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
 
-1. （条件付き）クリック **[!UICONTROL 除外グループ]** ：アクティビティから除外する要素の組み合わせを選択します。
+1. （条件付き）「**[!UICONTROL Exclusion Groups]**」をクリックして、アクティビティから除外する要素の組み合わせを選択します。
 
    ![コンテンツを管理ダイアログボックスの「除外グループ」タブ](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   AP テストでは 30,000 個までエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのはエクスペリエンスが 10,000 個未満の場合です。この制限は、アクティビティで [!UICONTROL 重複を許可しない] オプション。
+   AP テストでは最大 30,000 個のエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 個未満の場合です。 アクティビティで「[!UICONTROL Disalow Duplicates]」オプションが有効になっていても、この同じ制限が適用されます。
 
-   アクティビティでまだ除外グループを使用していない場合は、「**除外グループを作成**」をクリックします。リストにフィルターを適用し、除外する組み合わせのみを表示できます。除外グループに名前を付けて、「 **保存**.
+   アクティビティでまだ除外グループを使用していない場合は、「**除外グループを作成**」をクリックします。リストにフィルターを適用し、除外する組み合わせのみを表示できます。除外グループに名前を付け、「**保存**」をクリックします。
 
    既存の除外グループを編集するには、編集するグループにマウスポインターを置いてから鉛筆アイコンをクリックします。
 
-1. アクティビティのコンテンツの設定が終了したら、「**[!UICONTROL 完了]**」をクリックします。
+1. アクティビティのコンテンツの設定が完了したら、「**[!UICONTROL Done]**」をクリックします。
 
-1. The **ターゲット設定** 他の [!DNL Target] アクティビティのタイプ。 ここでは、オーディエンスを選択し、 **[!UICONTROL カスタム配分]** ドロップダウンリストから、 **次へ**.
+1. **ターゲティング** ステップは、他の [!DNL Target] アクティビティタイプを使用したことがある場合によく見られます。 ここでは、オーディエンスを選択し、**[!UICONTROL Custom Allocation]** ドロップダウンリストをクリックしてコントロールエクスペリエンスを表示する訪問者の割合を指定してから、「**次へ** をクリックできます。
 
-   [!UICONTROL カスタム配分]ドロップダウンリストで、以下のオプションを選択できます。
+   「[!UICONTROL Custom Allocation]」ドロップダウンリストを使用すると、次のオプションから選択できます。
 
    ![トラフィック配分目標ドロップダウンリスト](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **[!UICONTROL パーソナライゼーションアルゴリズムの評価(50/50)]:** 目標がアルゴリズムをテストする場合は、コントロールとターゲットアルゴリズムの間で訪問者の50/50%の分割を使用します。 この配分により、上昇率を最も正確に推定できます。「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
-   * **[!UICONTROL パーソナライゼーショントラフィックの最大化(90/10)]:** 「常時稼動」アクティビティを作成することを目標としている場合は、訪問者の 10%をコントロールに配置します。 このオプションを使用すると、時間の経過と共に学習を続行するのに十分なデータをアルゴリズムに保持できます。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率の精度が低下するということです。 目標に関係なく、このオプションは、特定のエクスペリエンスをコントロールとして使用する場合の推奨トラフィック分割です。
-   * **[!UICONTROL カスタム配分]:** 必要に応じて、割合を手動で分割します。
+   * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** アルゴリズムをテストすることが目標の場合は、コントロールとターゲットアルゴリズムの間で訪問者を 50/50% 分割して使用します。 この配分により、上昇率を最も正確に推定できます。「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
+   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 「常時稼動」アクティビティを作成することを目標としている場合は、訪問者の 10% をコントロールに配置します。 このオプションにより、アルゴリズムが時間の経過と共に学習を継続するのに十分なデータが得られます。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率が何であるかについての精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、目標に関係なく、このオプションは推奨されるトラフィック分割です。
+   * **[!UICONTROL Custom Allocation]:** 必要に応じて割合を手動で分割します。
 
-1. （条件付き）[!UICONTROL コントロール]ドロップダウンリストから、[コントロールとして使用する特定のエクスペリエンスを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)するか、[!UICONTROL ランダムエクスペリエンス]を選択します。
+1. （条件付き） [!UICONTROL Control] ドロップダウンリストから、[ コントロールとして使用する特定のエクスペリエンスを選択 ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) または [!UICONTROL Random Experience.] を選択します
 
    コントロールエクスペリエンスは、自動テストによってどれだけの上昇率を実現するかを判断するための比較となります。
 
-   [!UICONTROL Automated Personalizationは、常にコントロールグループに基づいてパフォーマンスを測定します。]少なくとも訪問者の 10％はコントロールグループに配分することをお勧めします。目標が、提供されたデータに対するパーソナライゼーションアルゴリズムのパーソナライゼーション（ランダムに提供されるコントロールなど）が無い場合に50/50%のトラフィック分割でこの目標を達成できます。 パーソナライズされるトラフィックの量を最大化し、アクティビティが生成する正確な上昇率を把握することにあまり関心がない場合は、コントロールとパーソナライゼーションアルゴリズムの間で10/90%のトラフィック分割が、この目標を達成する最も迅速かつ正確な方法です。
+   [!UICONTROL Automated Personalization] は、常にコントロール母集団に対するパフォーマンスを測定します。 少なくとも訪問者の 10％はコントロールグループに配分することをお勧めします。与えられたデータに対するパーソナライゼーションアルゴリズムが、パーソナライゼーションをおこなわない場合（ランダムに提供されたコントロールなど）よりも高いパフォーマンスを発揮するかどうかをテストすることが目標の場合、コントロールとパーソナライゼーションアルゴリズムの間で 50/50% のトラフィックを分割するのが、この目標を達成するための最速かつ最も正確な方法です。 パーソナライズされるトラフィックの量を最大化し、アクティビティで発生する正確な上昇率についてそれほど関心がない場合は、コントロールとパーソナライゼーションアルゴリズムの間で 10/90% のトラフィック配分を行うことが、この目標を達成するための最も速く最も正確な方法です。
 
    >[!NOTE]
    >
-   >In [!UICONTROL Automated Personalization] アクティビティ、エントリ条件（URL ターゲット設定、テンプレートルール、オーディエンスターゲット）は、リクエストごとに評価されます。 以前のバージョンでは、エントリ条件はセッションごとに 1 度評価されていました。
+   >[!UICONTROL Automated Personalization] のアクティビティでは、エントリ条件（URL ターゲティング、テンプレートルール、オーディエンスターゲット）がリクエストごとに評価されます。 以前のバージョンでは、エントリ条件はセッションごとに 1 度評価されていました。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、**[!UICONTROL 目標と設定]**&#x200B;ページを表示します。
-1. 次の設定を使用してアクティビティを構成し、「**[!UICONTROL 保存して閉じる]**」をクリックします。
+1. 「**[!UICONTROL Next]**」をクリックすると、**[!UICONTROL Goals & Settings]** のページが表示されます。
+1. 次の設定でアクティビティを設定し、「**[!UICONTROL Save & Close]**」をクリックします。
 
    | 設定 | 説明 |
    |--- |--- |
-   | [!UICONTROL 名前] | アクティビティの名前を設定します。チームメンバーが [!UICONTROL アクティビティ] リスト。 上記の表を参照して、アクティビティ名で許可されていない文字を確認してください。 |
-   | [!UICONTROL 目的] | （オプション）テストの目的を入力します。目的を設定しておくと、アクティビティの用途を覚えやすくなります。 |
-   | [!UICONTROL 優先度] | 設定に応じて、 [!DNL Target] の UI とオプション [!UICONTROL 優先度] 変化する。 従来の設定の [!UICONTROL 低], [!UICONTROL 中]または [!UICONTROL 高]または、0 ～ 999 の詳細な優先度を有効にすることもできます。<P>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<P>このオプションが [!UICONTROL 管理] > [!UICONTROL レポート] （デフォルト）次の優先度を指定します。 [!UICONTROL 低], [!UICONTROL 中]または [!UICONTROL 高].<P>優先度の詳細設定を有効にするには、 [!UICONTROL 管理] > [!UICONTROL レポート]、次に [!UICONTROL 詳細な優先度の有効化] オプションを「オン」位置に設定します。<P>このオプションを有効にした場合は、0 ～ 999 の値を指定します。<ul><li>0 = 低</li><li>999 = 高</li></ul>以前のバージョンので作成されたアクティビティの場合 [!DNL Target Standard/Premium], [!UICONTROL 低] 優先度は 0 に変換され、 [!UICONTROL 中] 優先度は 5 に変換され、 [!UICONTROL 高] 優先度が 10 に変換されます。 これらの値は必要に応じて調整できます。<P>**注意**： 優先度の詳細設定を使用した後でこのオプションを無効にするには、すべての優先度を 0、5、10 に戻す必要があります。 |
-   | [!UICONTROL 期間] | アクティビティの開始日と終了日を設定します。次の項目を選択できます。 [!UICONTROL 有効化時] または、特定の日時を指定できます。 |
-   | [!UICONTROL 最適化目標] | 以下の 2 つのパラメーターを使用して最適化目標を指定します。<ul><li>このアクティビティで測定するもの</li><li>その目標が達成されたことを示すアクティビティ参加者によって取られるアクション。</li></ul>右側の 3 つのドットを選択し、最適化目標に名前を付けることができます。 [!UICONTROL マイプライマリ目標]. [!UICONTROL Automated Personalization] アクティビティを測定可能 [!UICONTROL コンバージョン] または [!UICONTROL 売上高]. コンバージョンは、ページを表示するか、mbox を表示することで達成できます。 クリックを追跡することもできます。<P>また、主な目標は、モデリングシステムがエクスペリエンスの成功を計算するために使用するモデリング指標になります。<P>モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができます。例えば、多くの場合、 [!UICONTROL Automated Personalization] アクティビティを使用してクリック率を向上させます。これはモデリングの目標として設定されます。 しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。<P>複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。<P>成功指標の依存関係を設定する前に、両方（または複数）の成功指標を定義する必要があります。<P>「[!UICONTROL 依存関係を追加]」オプションを利用すると、ある成功指標に到達した場合、または到達しなかった場合に別の成功指標を増分するよう設定できます。<P>依存関係を追加する手順は次のとおりです。<ol><li>指標を追加したら、 **[!UICONTROL 詳細設定]** 右の三点メニューの下で [!UICONTROL 追加の目標].</li><li>「[!UICONTROL レポート設定]」セクションの下部にある「**[!UICONTROL 依存関係を追加]**」オプションをクリックします。</li><li>目的の指標を左側のパネルから右側のパネルにドラッグ＆ドロップしてから、「[!UICONTROL 到達]」をクリックし、「[!UICONTROL 到達]」と「[!UICONTROL 未到達]」を切り替えて設定します。 </li></ol>追加した依存関係は後で編集または削除できます。 |
-   | [!UICONTROL コンバージョン指標] | デフォルトでは、コンバージョン指標は最適化目標指標と同じです。 ただし、「[!UICONTROL 最適化目標と同じ]」オプションをオフにすれば、個別のコンバージョン指標を定義できます。 |
-   | [!UICONTROL 追加の指標] | 使用する他のレポート指標を追加します。 コンバージョンまたは売上高指標を追加できます。<P>**注意**: [!UICONTROL エンゲージメント] 指標は、追加の指標としてサポートされていません。 The [!DNL Target] UI で [!UICONTROL エンゲージメント] 指標を使用するが、レポートに正確にデータが表示されない。 |
-   | [!UICONTROL レポート対象のオーディエンス] | オーディエンスを追加して、レポートでオーディエンスによるフィルタリングを可能にします。デフォルトでは、レポートにすべての認定訪問者の結果が表示されます。オーディエンスを追加して結果をフィルタリングすると、訪問者をさらに絞り込むことができます。<P>**注意**：他のアクティビティタイプとは異なり、 [!UICONTROL Automated Personalization] 使用できません [!UICONTROL Adobe Analytics] を作成します (A4T)。 |
-   | [!UICONTROL メモ] | 自分や他のチームメンバーに役立つ、アクティビティに関する情報を入力します。 The [!UICONTROL メモ] ウィンドウはサイズ変更可能です。 |
+   | [!UICONTROL Name] | アクティビティの名前を設定します。アクティビティに、チームメンバーが [!UICONTROL Activities] ータリストでアクティビティを認識できるような、わかりやすい名前を付けます。 上記の表を参照して、アクティビティ名で許可されていない文字を確認してください。 |
+   | [!UICONTROL Objective] | （オプション）テストの目的を入力します。目的を設定しておくと、アクティビティの用途を覚えやすくなります。 |
+   | [!UICONTROL Priority] | の [!DNL Target] UI とオプションは、設定によっ [!UICONTROL Priority] 異なります。 従来の設定である [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] を使用するか、0～999 の細かい優先度を有効にすることができます。<P>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<P>[!UICONTROL Administration] > [!UICONTROL Reporting] （デフォルト）でこのオプションが有効になっていない場合は、優先度を [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] のいずれかに指定します。<P>詳細な優先度を有効にするには、[!UICONTROL Administration]/[!UICONTROL Reporting] をクリックし、「[!UICONTROL Enable Fine-Grained Priorities]」オプションを「オン」の位置に切り替えます。<P>このオプションが有効な場合は、0～999 の値を指定します。<ul><li>0 = 低</li><li>999 = 高</li></ul>以前のバージョンの [!DNL Target Standard/Premium] で作成されたアクティビティの場合、[!UICONTROL Low] の優先度は 0 に変換され、[!UICONTROL Medium] の優先度は 5 に変換され、[!UICONTROL High] の優先度は 10 に変換されます。 これらの値は必要に応じて調整できます。<P>**注意**：詳細設定プライオリを使用した後でこのオプションを無効にするには、すべての優先度を 0、5、10 に戻す必要があります。 |
+   | [!UICONTROL Duration] | アクティビティの開始日と終了日を設定します。 [!UICONTROL When Activated] を選択するか、特定の日時を指定できます。 |
+   | [!UICONTROL Optimization Goal] | 以下の 2 つのパラメーターを使用して最適化目標を指定します。<ul><li>このアクティビティで測定するもの</li><li>その目標が達成されたことを示すアクティビティ参加者によって取られるアクション。</li></ul>[!UICONTROL My Primary Goal] の右側の 3 つのドットを選択して、最適化目標に名前を付けることができます。 アクティビティ [!UICONTROL Automated Personalization]、[!UICONTROL Conversion] または [!UICONTROL Revenue] を測定できます。 コンバージョンを実行するには、ページを表示するか、mbox を表示します。 クリックを追跡することもできます。<P>主な目標は、エクスペリエンスの成功を計算するためにモデリングシステムで使用されるモデリング指標にもなります。<P>モデリングの目標に達した後も、訪問者をアクティビティ内にとどめて、追跡の対象とすることができます。例えば、多くの場合、クリック率の向上を目的に、モデリング目標として [!UICONTROL Automated Personalization] アクティビティを設定します。 しかし、クリック率の向上が最終的にどのようにコンバージョンにつながっているかを確認することが重要なので、最終的なコンバージョンまで追跡することが欠かせません。<P>複数の指標の依存関係を指定したり、指標に到達したらカウントを増分するか、指標に到達しなかったらカウントを増分するかを柔軟に選択したりできます。<P>成功指標の依存関係を設定する前に、両方（または複数）の成功指標を定義する必要があります。<P>[!UICONTROL Add Dependency] オプションを使用すると、別の成功指標に到達した場合または到達していない場合に、成功指標を増分できます。<P>依存関係を追加する手順は次のとおりです。<ol><li>指標を追加したら、[!UICONTROL Additional Goal] の右側にある「。..」メニューの下の「**[!UICONTROL Advanced Settings]**」をクリックします。</li><li>[!UICONTROL Reporting Settings] セクションの下部にある「**[!UICONTROL Add Dependency]**」オプションをクリックします。</li><li>目的の指標を左側のペインから右側のペインにドラッグ&amp;ドロップし、「[!UICONTROL Reached]」をクリックして [!UICONTROL Reached] と [!UICONTROL Not Reached] の設定を切り替えます。</li></ol>追加した依存関係は後で編集または削除できます。 |
+   | [!UICONTROL Conversion Metric] | デフォルトでは、コンバージョン指標は最適化目標指標と同じです。 ただし、「コンバージョン」オプションのチェックを外すことで、別のコンバージョン指標を定義 [!UICONTROL Same as Optimization Goal] きます。 |
+   | [!UICONTROL Additional Metrics] | 使用するレポート指標を追加します。 コンバージョンまたは売上高指標を追加できます。<P>**メモ**:[!UICONTROL Engagement] の指標は、追加の指標としてはサポートされていません。 [!DNL Target] UI では [!UICONTROL Engagement] 指標を選択できる場合がありますが、レポートにデータが正確に表示されません。 |
+   | [!UICONTROL Audiences for Reporting] | オーディエンスを追加して、レポートでオーディエンスによるフィルタリングを可能にします。デフォルトでは、レポートにすべての認定訪問者の結果が表示されます。オーディエンスを追加して結果をフィルタリングすると、訪問者をさらに絞り込むことができます。<P>**注意**：他のアクティビティタイプと異なり、[!UICONTROL Automated Personalization] は [!UICONTROL Adobe Analytics] をレポートソースとして使用できません（A4T）。 |
+   | [!UICONTROL Notes] | 自分または他のチーム メンバーに役立つ、アクティビティに関する情報を入力します。 [!UICONTROL Notes] ペインはサイズ変更可能です。 |
 
-   指標に名前を付けたり、名前を変更したりする場合、次の文字は使用できません。
+   指標に名前を付けたり、指標の名前を変更したりする場合、次の文字は使用できません。
 
    | 文字 | 説明 |
    |--- |--- |
@@ -162,6 +162,6 @@ The [!UICONTROL Automated Personalization] (AP) でのアクティビティワ�
    | - | マイナス |
    | @ | アットマーク |
 
-次をクリックした後： **[!UICONTROL 保存して閉じる]**、アクティビティの [!UICONTROL 概要] ページが表示されます。 クリック **エクスペリエンスをプレビュー** を使用して、エクスペリエンスが提供されたときの外観をプレビューできます。 ポップアップが表示されます。このポップアップを使用して、サイト上の AP エクスペリエンスへのリンクを表示および共有して、 [!UICONTROL Target] [!UICONTROL Visual Experience Composer] (VEC) を参照してください。 プレビューを共有するには、メッセージに表示されたリンクを共有する必要があります。リンクをクリックしてブラウザーから直接 URL をコピーしても、機能しません。 リンクをコピーすると、URL には、メッセージ内のリンクからページにアクセスした場合にのみページを正しく表示するパラメーターが含まれます。
+「**[!UICONTROL Save & Close]**」をクリックすると、アクティビティの [!UICONTROL Overview] ページが表示されます。 **エクスペリエンスをプレビュー** をクリックして、配信時のエクスペリエンスの外観をプレビューします。 サイト上の AP エクスペリエンスへのリンクを表示および共有して、[!UICONTROL Target] [!UICONTROL Visual Experience Composer] （VEC）外のエクスペリエンスの「真のプレビュー」を取得するために使用できるポップアップが表示されます。 プレビューを共有するには、メッセージに表示されたリンクを共有する必要があります。リンクをクリックしてブラウザーから直接 URL をコピーすると、機能しません。 リンクをコピーすると、URL には、メッセージ内のリンクからページにアクセスした場合にのみページを正しく表示するパラメーターが含まれます。
 
 詳しくは、「[Automated Personalizationレポート](/help/main/c-reports/personalization-reports/reports-ap.md)」を参照してください。

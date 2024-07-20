@@ -1,6 +1,6 @@
 ---
 keywords: 複数値のエンティティ属性;カスタムエンティティ属性;有効な JSON;エンティティ属性値, JSON 配列;複数値
-description: 単一値および複数値のカスタムエンティティ属性を使用して、Adobe内の項目に関する追加情報を定義する方法を説明します。 [!DNL Target] Recommendationsカタログ。
+description: 1 つまたは複数値のカスタムエンティティ属性を使用して、Adobe [!DNL Target] Recommendations カタログ内の項目に関する追加情報を定義する方法について説明します。
 title: カスタムエンティティ属性の使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 # カスタムエンティティの属性
 
-単一値および複数値のカスタムエンティティ属性を [!DNL Adobe Target Recommendations] ：カタログ内の項目に関する追加情報を定義します。
+カタログ内の項目に関する追加情報を定義する [!DNL Adobe Target Recommendations] は、1 つまたは複数値のカスタムエンティティ属性を使用します。
 
 ## 制限 {#limits}
 
@@ -29,7 +29,7 @@ ht-degree: 83%
 
 カスタムエンティティ属性には、単一値または複数値を設定できます。エンティティ属性値は製品表示で表示されます。
 
-![multi_value_product イメージ](assets/multi-value_product.png)
+![multi-value_product image](assets/multi-value_product.png)
 
 単一値のカスタムエンティティ属性は、単一値の定義済みエンティティ属性と同じように構成されます。
 
@@ -63,7 +63,7 @@ ht-degree: 83%
 
 ## 複数値の属性の実装 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-複数値のカスタムエンティティ属性は、フィード (CSV)、 `targetPageParams`、および製品をアップロードする Delivery API です。 新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列 ( [] ) は、値を持たないものとして扱われます。
+複数値のカスタムエンティティ属性は、フィード（CSV）、`targetPageParams`、配信 API を使用して製品をアップロードする場合にサポートされます。 新しい値によって現在の値は置き換えられます。新しい値が現在の値の後には追加されることはありません。空の配列（[]）は、値がないものとして扱われます。
 
 二重引用符は、エスケープする必要があります。例えば、`"[""test"", ""value""]"` は CSV で使用できる有効な JSON 配列です。
 
@@ -71,7 +71,7 @@ ht-degree: 83%
 
 ### targetPageParams の使用
 
-次の例は、 `targetPageParams`
+次の例は、`targetPageParams` の使用方法を示しています
 
 ```javascript
 function targetPageParams() { 
@@ -88,17 +88,17 @@ function targetPageParams() {
 }
 ```
 
-### CSV を使用
+### CSV の使用
 
 CSV ファイルの管理は、テキストエディターで生データの形式でおこなうか、スプレッドシートソフトウェアを利用します。
 
 この生データの CSV は次のような形式です。
 
-![multi-value_example_raw 画像](assets/multi-value_example_raw.png)
+![multi-value_example_raw 画像 ](assets/multi-value_example_raw.png)
 
 このカタログはスプレッドシートでは次のようになります。
 
-![multi_value_excel_image](assets/multi-value_example_excel.png)
+![multi-value_example_excel 画像 ](assets/multi-value_example_excel.png)
 
 スプレッドシートソフトウェアは、.csv 形式に変換する際に、セルの内容に二重引用符を追加します。これにより、セル内のコンマが列区切り記号として認識されることを防ぎます。また、複数値のカスタム属性に含めた JSON 文字列値の前後にも二重引用符が追加されます。このため、生データのファイルを直接編集することはお勧めできません。次に例を示します。
 
@@ -109,7 +109,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 ### API の使用
 
-複数値の属性を渡すには、Delivery API を mbox パラメーターで、エスケープされた JSON 配列を含む文字列値として使用します。
+複数値の属性は、mbox パラメーターの配信 API を使用して、エスケープされた JSON 配列を含む文字列値として渡すことができます。
 
 ```javascript
 "execute": {
@@ -127,20 +127,20 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-詳しくは、 [Adobe Recommendations API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} Delivery API と Save entities API の使用に関する情報を参照してください。
+配信 API と保存エンティティ API の使用について詳しくは ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}[Adobe Recommendations API ドキュメント } を参照してください。
 
-## 複数値の属性で演算子を使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 複数値の属性での演算子の使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 アルゴリズムインクルージョンルール、カタログルール、エクスクルージョンルールで複数値のカスタム属性に演算子を適用する場合、リストの値のうち少なくとも 1 つが演算を通過する場合（ブール演算子 *OR*）、結果は *true* になります。
 
-次の例では、ルールは次のようになります。 `message contains abc`.
+次の例では、ルールは `message contains abc` です。
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値にも `abc` は含まれていません。
 * 例 2：`entity.genre = ["abcde","de","ef"]`。結果は true になります。1 つの値に `abc` が含まれています。
 
-否定演算子の場合、すべての属性値が通過する必要があります（ブール演算子 *AND*）。例えば、演算子が `notEquals`の場合、結果は *false* いずれかの値が一致する場合。
+否定演算子の場合、すべての属性値が通過する必要があります（ブール演算子 *AND*）。例えば、演算子が `notEquals` の場合、いずれかの値が一致すると、結果は *false* になります。
 
-アルゴリズムインクルージョンルール、カタログルールおよび除外ルールでの演算子の動作については、以降の節を参照してください。
+アルゴリズムインクルージョンルール、カタログルールおよび除外ルールでの演算子の動作については、次の節を参照してください。
 
 ### 次と等しい
 
@@ -150,7 +150,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` に等しくありません。
 * 例 2：`entity.genre = ["abc", "de", "ef"]`。結果は true になります。1 つの値が `abc` に等しいです。
-* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 結果は false になります。`abc` がリストのどの要素にも等しくありません。
+* ケース 3:`entity.genre = ["abcde", "de", "ef"]`。 結果は false になります。`abc` がリストのどの要素にも等しくありません。
 
 ### 次と等しくない
 
@@ -160,7 +160,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は true となります。どの値も `abc` に等しくありません。
 * 例 2：`entity.genre = ["abc", "de", "ef"]`。値は false となります。1 つの値が `abc` と等しいです。
-* 例 3: `entity.genre = ["abcde", "de", "ef"]`. 値は true となります。`abc` がリストのどの要素にも等しくありません。
+* ケース 3:`entity.genre = ["abcde", "de", "ef"]`。 値は true となります。`abc` がリストのどの要素にも等しくありません。
 
 ### 次を含む
 
@@ -188,7 +188,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 * 例 1：`entity.genre = ["ab", "bc", "de"]`。結果は false になります。どの値も `abc` で始まっていません。
 * 例 2：`entity.genre = ["abcde", "de", "ef"]`。結果は true になります。1つの値が `abc` で始まっています。
-* 例 3: `entity.genre = ["ab", "de", "abc"]`. 結果は true になります。1つの値が `abc` （リストの最初の要素である必要はありません）で始まっています。
+* ケース 3:`entity.genre = ["ab", "de", "abc"]`。 結果は true になります。1つの値が `abc` （リストの最初の要素である必要はありません）で始まっています。
 
 ### 次の語句で終わる
 
@@ -203,7 +203,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。
 
-処理の後、属性値のいずれかが入力値以上であれば結果は true になります。
+処理後、入力値と同じかそれ以上の属性値を使用すると、true が返されます。
 
 例：`price greater than or equal to 100`
 
@@ -214,7 +214,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 属性値は倍精度に変換されます。変換できない属性は、ルールの実行中はスキップされます。
 
-処理の後、属性値のいずれかが入力値以下であれば結果は true になります。
+処理後、入力値より小さいか等しい属性値は、すべて true になります。
 
 例：`price less than or equal to 100`
 
@@ -241,7 +241,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 
 ### 動的な範囲にある（項目ベースのアルゴリズムでのみ使用可能、数値のみ）
 
-数値の属性値のいずれかが指定された範囲にある場合、結果は true になります。
+指定した範囲内に数値属性値がある場合、true が返されます。
 
 例：`price dynamically ranges in 80% to 120% of 100`
 
@@ -252,9 +252,9 @@ CSV ファイルの管理は、テキストエディターで生データの形�
 >
 >*倍精度*&#x200B;は Java のデータ型です。数値が必要な演算子の場合、倍精度に変換すると、数値以外の値は結果の判定から除外されます。
 
-## デザインの複数値の属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## デザインにおける複数値の属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-複数値の属性は、設計で参照される場合、コンマ区切りのリストとして表示されます。
+複数値の属性は、デザインで参照される場合、コンマ区切りリストとして表示されます。
 
 例：
 

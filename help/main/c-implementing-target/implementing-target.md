@@ -1,39 +1,39 @@
 ---
 keywords: 実装;実装する
-description: 基本的な概念を理解し、 [!DNL Target] はインフラストラクチャと連携し、訪問者の追跡方法を理解します。
+description: 基本的な概念を理解し、の仕組みとインフラスト  [!DNL Target]  クチャとの統合を理解し、訪問者の追跡方法を理解します。
 landing-page-description: Adobe Targetの使用を開始する前に、サイトに実装する必要があります。
 short-description: Adobe Targetの使用を開始する前に、サイトに実装する必要があります。
-title: 実装方法 [!DNL Target]?
+title: ' [!DNL Target] の実装方法'
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 10%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 # Target の実装
 
-を使用する前に [!DNL Adobe Target]を使用する場合は、サイトに実装する必要があります。
+[!DNL Adobe Target] を使用する前に、サイトに実装する必要があります。
 
-この [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} は、導入の前に知っておく必要がある情報を含んでいます [!DNL Target].
+](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}0}Adobe Target デベロッパーガイド } には、[!DNL Target] を実装する前に知っておく必要のある情報が含まれています。[
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
-* **クライアント側**:を使用したの実装に関する情報 [!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] (at.js).
-* **サーバーサイド**:Node.JS、JAVA、.NET および Python SDK の使用に関する実装に関する情報です。
-* **ハイブリッド**:クライアント側とサーバー側の実装の組み合わせを使用する場合の実装に関する情報です。
-* **Recommendations**:の実装に役立つ情報 [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) 提供
-* **モバイルアプリ**:を導入する際に役立つ情報 [!DNL Adobe Experience Platform Mobile] SDK.
-* **電子メール**:の実装に役立つ情報 [!DNL Target] 電子メール内。
+* **クライアントサイド**:[!DNL Adobe Experience Platform Web SDK] または [!DNL Target Web SDK] （at.js）を使用したの実装に関する情報
+* **サーバーサイド**:Node.JS、JAVA、.NET、Python SDK の使用に関する実装の情報
+* **ハイブリッド**：クライアントサイド実装とサーバーサイド実装を組み合わせて使用する場合の実装に関する情報。
+* **Recommendations**: [Target Premium](/help/main/c-intro/intro.md#premium) 製品である [!DNL Recommendations] の実装に役立つ情報です。
+* **モバイルアプリ**:[!DNL Adobe Experience Platform Mobile] SDK を使用してを実装する際に役立つ情報です。
+* **メール**：メールへの [!DNL Target] の実装に役立つ情報。
 
-詳しくは、 [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}.
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。
 
 >[!NOTE]
 >
->以前に *Target の実装* このガイドの節 ( *Adobe Target Practionar ガイド*) が [開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}.
+>このガイド（*Adobe Target実践者ガイド* の「Target の実装 *」の節に以前に含まれていた情報はすべて、* 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} に含まれるようになりました [。
 
 
 

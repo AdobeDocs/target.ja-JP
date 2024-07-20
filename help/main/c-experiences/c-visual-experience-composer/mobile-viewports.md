@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1350'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 > * サイトがレスポンシブで、デスクトップページと同じ要素が異なる設定でモバイルページに使用されている場合、モバイルビューポートを使用します。別の構造を持つ別のモバイルサイト（`m.mysite.com` など）がある場合は、[複数ページアクティビティ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)を使用します。
 >
 >* リダイレクトオファーのオーバーレイと重複する場合、モバイルビューポートは利用できません。
-
 
 ビューポートは、画面いっぱいに広げられた web ページの長方形のサイズで定義されます。ビューポートは、ブラウザーウィンドウのサイズからスクロールバーとツールバーを引いたサイズです。ブラウザーは、「CSS ピクセル」を使用します。Retina ディスプレイを備えたデバイスなど、多くのデバイスでは、ビューポートは、宣伝されているデバイスの解像度より小さくなります。
 
@@ -98,14 +97,14 @@ ht-degree: 100%
 
 エクスペリエンスの作成時に使用可能にするモバイルビューポートを設定します。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL Visual Experience Composer]** をクリックします。
-1. **[!UICONTROL モバイルビューポート設定]**&#x200B;セクションで、「**[!UICONTROL 追加]**」をクリックします。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Visual Experience Composer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Mobile viewports configuration]**」セクションで、「**[!UICONTROL Add]**」をクリックします。
 
    ![ビューポートの追加](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    または
 
-   既存のモバイルビューポートの設定を変更するには、そのビューポートを選択して、[!UICONTROL 編集]（鉛筆）アイコンをクリックします。
+   既存のモバイルビューポートの設定を変更するには、そのビューポートを選択して、[!UICONTROL Edit] （鉛筆）アイコンをクリックします。
 
 1. モバイルビューポートの名前を入力します。
 
@@ -127,7 +126,7 @@ ht-degree: 100%
 
    [拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) を使用してオペレーティングシステムを選択する場合、[!DNL Target] は、ページを表示する際にデバイスをエミュレートします。例えば、レスポンシブサイトで Android のルックアンドフィールが iOS と異なる場合、[!DNL Target] はその動作を模倣します。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL Save]** をクリックします。
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ ht-degree: 100%
 [!DNL Target] アクティビティにモバイルビューポートを追加して、モバイル画面用のレスポンシブエクスペリエンスを作成します。
 
 1. [目的のアクティビティ](/help/main/c-activities/activities.md)を作成します。
-1. [!UICONTROL Visual Experience Composer]（VEC）で、「**[!UICONTROL 設定]**」（歯車）アイコンをクリックし、「**[!UICONTROL モバイルビューポートを追加]**」を選択します。
+1. [!UICONTROL Visual Experience Composer] （VEC）で、**[!UICONTROL Settings]** 歯車アイコンをクリックし、「**[!UICONTROL Add Mobile Viewports]**」を選択します。
 
    ![「モバイルビューポートを追加」オプション](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. 「**[!UICONTROL デバイス]**」アイコンをクリックし、モバイルビューポートの設定が必要な各デバイスを有効にします。
+1. **[!UICONTROL Devices]** アイコンをクリックし、モバイルビューポートの設定が必要な各デバイスを有効にします。
 
    ![モバイルビューポートを有効にする](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ ht-degree: 100%
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### Visual Experience Composer（2／2）（7：29）![概要バッジ](/help/main/assets/overview.png)
+### Visual Experience Composer （2/2）（7:29） ![ 概要バッジ ](/help/main/assets/overview.png)
 
 以下のデモビデオには、Visual Experience Composer を使用したモバイルビューポートとの連携に関する情報が含まれています。
 

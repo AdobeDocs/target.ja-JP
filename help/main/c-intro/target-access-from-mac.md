@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud;新規登録;言語;デフォルトの UI 言語;デフォルトの言語
-description: アクセス方法を説明します [!DNL Target] Adobe Experience Cloudから、デフォルトのビューを設定し、 [!DNL Target] UI とドキュメント。
+description: Adobe Experience Cloudからアクセスする方法  [!DNL Target]  デフォルトのビューを設定する方法、 [!DNL Target] UI とドキュメントの言語を変更する方法について説明します。
 title: Adobe Experience Cloud から [!DNL Target] にアクセスする方法
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 94%
+source-wordcount: '399'
+ht-degree: 74%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 94%
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/) に新規登録します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL アプリアイコン]**&#x200B;をクリックしてから、**[!UICONTROL Target]** をクリックします。
+1. ナビゲーションバーの **[!UICONTROL App icon]** をクリックしてから、「**[!UICONTROL Target]**」をクリックします。
 
    また、メインウィンドウの[!DNL Target]パネルをクリックして、[!DNL Target]（またはアクセス権のある他の [!DNL Adobe Experience Cloud] ソリューション）にアクセスすることもできます。
 
    ![アプリケーションアイコン](/help/main/c-intro/assets/appmenu-new.png)
 
-1. （オプション）[!DNL Target] を [!DNL Experience Cloud] にログインした際のデフォルトビューとして設定するには、プロファイルのアバターの下にある「**[!UICONTROL プロファイルを編集]**」をクリックして、ランディングページを設定します。
+1. （オプション） [!DNL Target] を [!DNL Experience Cloud] にログインした際のデフォルトビューとして設定するには、プロファイルのアバターの下にある「**[!UICONTROL Edit Profile]**」をクリックして、ランディングページを設定します。
 
    ![ランディングページ](/help/main/c-intro/assets/pagepref-new.png)
 
-## [!DNL Target] UI のデフォルト言語の変更  {#language}
+## [!DNL Target] UI のデフォルト言語の変更 {#language}
 
-1. [!DNL Adobe Experience Cloud ] または [!DNL Target] に新規登録した後、自分のプロフィールのアバターをクリックしてから、「**[!UICONTROL 環境設定を編集]**」をクリックします。
+1. [!DNL Adobe Experience Cloud] または [!DNL Target] にサインインした後、自分のプロフィールのアバターをクリックしてから、[**[!UICONTROL Edit Preferences]**] をクリックします。
 
    ![プロファイルを編集](/help/main/c-intro/assets/change-language.png)
 
-1. 「**[!UICONTROL アドビアカウント]**」をクリックして、[!DNL Adobe] プロファイルにアクセスします。
+1. 「**[!UICONTROL Adobe Account]**」をクリックして、[!DNL Adobe] プロファイルにアクセスします。
 
    ![アドビアカウント](/help/main/c-intro/assets/adobe-account.png)
 
-1. 上部のメニューバーで「**[!UICONTROL 通知]**」タブをクリックし、左側の「**[!UICONTROL 環境設定]**」タブをクリックします。
+1. 上部のメニューバーで「**[!UICONTROL Notifications]**」タブをクリックし、左側の「**[!UICONTROL Preferences]**」タブをクリックします。
 
    ![優先言語](/help/main/c-intro/assets/prefered-language.png)
 
@@ -60,11 +60,11 @@ ht-degree: 94%
    * 繁体字中国語
    * 韓国語
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL Save]** をクリックします。
 
 1. [!DNL Adobe Experience Cloud]または[!DNL Target]からログアウトして、再度ログインして変更内容を有効にします。
 
-## [!DNL Target] 製品ドキュメントの言語の変更  {#doc-lang}
+## [!DNL Target] 製品ドキュメントの言語の変更 {#doc-lang}
 
 お使いのオペレーティングシステムやブラウザーの設定で、優先言語を検出し、その言語のドキュメント（使用できる場合）を表示する必要があります。[!DNL Target] ドキュメントは、自動的に翻訳され、英語ドキュメントの変更後数時間以内に英語バージョンと同期されます。
 

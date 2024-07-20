@@ -1,6 +1,6 @@
 ---
 keywords: 概要およびリファレンス
-description: 訪問者によるページやその他の最適化されたコンテンツの場所の使用状況に関する情報を含む訪問者プロファイルについて説明します。
+description: 訪問者によるページの使用方法や他の最適化されたコンテンツの場所に関する情報を含む、訪問者プロファイルについて説明します。
 title: 訪問者プロファイルとは
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # 訪問者プロファイル
 
-の訪問者プロファイル [!DNL Adobe Target] 訪問者がページやその他の最適化されたコンテンツの場所をどのように使用しているかに関する情報を含みます。
+[!DNL Adobe Target] の訪問者プロファイルには、訪問者によるページの使用方法や、最適化されたその他のコンテンツの場所に関する情報が含まれています。
 
-次の場合 [!DNL Target] が他の [!DNL Adobe Experience Cloud] ソリューション [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] は、ソリューション間で訪問者情報を共有します。
+[!DNL Target] を [!DNL Adobe Analytics] などの他の [!DNL Adobe Experience Cloud] ソリューションと併用する場合、[!DNL Experience Cloud Audiences] はソリューション間で訪問者情報を共有します。
 
-デフォルトでは、 [!DNL Target] プロファイル情報は、単一のファーストパーティ cookie に保存されます。 サードパーティ Cookie も処理するように、この設定を簡単に変更できます。
+デフォルトで [!DNL Target]、プロファイル情報は単一のファーストパーティ cookie に保存されます。 サードパーティ Cookie も処理するように、この設定を簡単に変更できます。
 
 詳しくは以下のセクションで説明されています。
 

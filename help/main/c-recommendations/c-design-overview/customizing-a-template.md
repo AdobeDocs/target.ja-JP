@@ -2,13 +2,13 @@
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
 description: オープンソースの Velocity デザイン言語を使用して、Adobe  [!DNL Target]  Recommendations のレコメンデーションデザインをカスタマイズする方法を説明します。
 title: Velocity を使用してデザインをカスタマイズする方法
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 76%
+source-wordcount: '1064'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Velocity について詳しくは、[https://velocity.apache.org](https://veloci
 
 レコメンデーションのデザインには、Velocity の論理、構文、その他すべてを使用できます。つまりこれは、*for* ループ、*if* ステートメント、およびその他のコードを JavaScript ではなく Velocity を使用して作成できることを意味します。
 
-に送信されたエンティティ属性 [!DNL Recommendations] 内 `productPage` 「複数値」属性を除き、mbox または CSV アップロードをデザインに表示できます。 任意のタイプの属性を送信できます。しかしながら [!DNL Target] は、テンプレートが繰り返し可能な配列として「複数値」型の属性を渡しません ( 例： `entityN.categoriesList`) をクリックします。
+`productPage` mbox または CSV アップロードで [!DNL Recommendations] に送信されたエンティティ属性は、「複数値」属性を除き、デザインに表示できます。 任意のタイプの属性を送信できます。ただし、[!DNL Target] は「複数値」タイプの属性を、テンプレートが繰り返し処理できる配列として渡しません（例：`entityN.categoriesList`）。
 
 これらの値は次の構文で参照されます。
 
@@ -30,16 +30,16 @@ Velocity について詳しくは、[https://velocity.apache.org](https://veloci
 $entityN.variable
 ```
 
-エンティティの属性名は、先頭の *$* 文字に続いて、Velocity Template Language(VTL) 識別子が表示されます。 VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
+エンティティ属性名は、Velocity の略記法に従う必要があります。略記法は、先頭の *$* 文字と、その後に続く Velocity テンプレート言語（VTL）識別子で構成されます。 VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
 
-Velocity エンティティの属性名は、次の文字タイプに制限されます。
+Velocity エンティティの属性名は、次のタイプの文字に制限されます。
 
 * アルファベット（a-z、A-Z）
 * 数字（0-9）
 * ハイフン（-）
 * アンダースコア（_）
 
-次の属性は Velocity 配列として使用できます。 繰り返し処理したり、インデックスで参照したりできます。
+次の属性を Velocity 配列として使用できます。 繰り返し処理したり、インデックスで参照したりできます。
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,9 +60,9 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Velocity 変数（属性）について詳しくは、 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Velocity 変数（属性）について詳しくは、[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables) を参照してください。
 
-デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある$を `\` （バックスラッシュ）。 次に例を示します。
+デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある$を `\` （バックスラッシュ）でエスケープする必要があります。 次に例を示します。
 
 `\${user.script_name}`
 
@@ -72,7 +72,7 @@ Velocity 変数（属性）について詳しくは、 [https://velocity.apache.
 
 例えば、デザインに次のような内容を表示するとします。
 
-![velocity_example 画像](assets/velocity_example.png)
+![velocity_example 画像 ](assets/velocity_example.png)
 
 この場合は以下のようなコードを使用します。
 
@@ -123,16 +123,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->属性名が終了したことを示すタグの前で、属性の値の後にテキストを追加する場合は、正式な表記を使用して属性名を囲むことができます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
+>属性名の終わりを示すタグの前で、属性の値の後にテキストを追加する場合は、正式な表記を使用して属性名を囲むことができます。 例えば、`${entity1.thumbnailUrl}.gif` のようになります。
 
-また、 `algorithm.name` および `algorithm.dayCount` をデザインのエンティティ属性として使用すると、1 つのデザインを使用して複数の条件をテストでき、条件名をデザインに動的に表示できます。 これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの属性を使用して、 `dayCount` (「過去 2 日間のトップセラー」などのように、データが条件で使用された日数。
+また、`algorithm.name` と `algorithm.dayCount` をデザインのエンティティ属性として使用することもできます。これにより、1 つのデザインを使用して複数の条件をテストしたり、デザインに条件名を動的に表示したりできます。 これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの属性を使用して、`dayCount` （「過去 2 日間のトップセラー」など、条件で使用されたデータの日数）を表示することもできます。
 
 ## Velocity テンプレートでの数値の操作
 
 デフォルトでは、Velocity テンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として扱うには、次の手順に従います。
 
 1. ダミー変数を宣言し、任意の整数値または double 値に初期化します。
-1. 使用するエンティティ属性が空白でないことを確認します ( [!DNL Target Recommendations]「 」テンプレートパーサーを使用して検証および保存します )。
+1. 使用するエンティティ属性が空白でないことを確認します（[!DNL Target Recommendations] のテンプレートパーサーでテンプレートを検証および保存するために必要です）。
 1. 手順 1 で作成したダミー変数の `parseInt` または `parseDouble` メソッドにエンティティ属性を渡し、文字列を整数値または倍精度値に変換します。
 1. 新しい数値に対して数学演算または比較を実行します。
 
@@ -193,7 +193,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 他の推奨商品と並べて重要品目を表示するようにデザインを変更することができます。例えば、レコメンデーションの隣に参考のため現在の品目を表示してみてはどうでしょうか。
 
-これをおこなうには、`$entity` 属性ではなく、`$key` 属性を使用するデザインに列を作成します。例えば、重要列のコードは次のようになります。
+これを行う際のレコメンデーションは、`$entity` 属性ではなく、`$key` 属性を使用するデザインに列を作成することです。例えば、重要列のコードは次のようになります。
 
 ```
 <div class="at-table-column"> 
@@ -208,9 +208,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 結果は次のようなデザインになります。1 列が重要品目を表示しています。
 
-![rec_key 画像](assets/rec_key.png)
+![rec_key image](assets/rec_key.png)
 
-[!DNL Recommendations] アクティビティを作成していて、重要品目が「最後に購入された品目」など訪問者のプロファイルから取得されている場合、[!DNL Target] は、[!UICONTROL Visual Experience Composer]（VEC）に商品をランダムに表示します。これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
+[!DNL Recommendations] アクティビティの作成時に、主要項目が訪問者のプロファイルから取得された項目（「最後に購入された項目」など）の場合 [!DNL Target]、[!UICONTROL Visual Experience Composer] （VEC）にランダムな製品が表示されます。 これは、アクティビティをデザインしている間は、プロファイルを利用できないためです。訪問者がページを表示すると、期待された重要品目が表示されます。
 
 ## 文字列値での置換の実行 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-エンティティ表示の動的サイズ変更を制御する Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップレコメンデーションが意味をなさず、[!UICONTROL テンプレートの部分レンダリングが有効]の場合のシナリオに最適です。
+エンティティ表示の動的サイズ変更を制御する Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップのレコメンデーションが理解できず、[!UICONTROL Partial Template Rendering] が有効になっているシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 

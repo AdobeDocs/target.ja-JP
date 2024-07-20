@@ -7,14 +7,14 @@ role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
 # Dynamic Media Classic（旧称 Scene7）の設定
 
-[!DNL Adobe Target] を [!DNL Adobe Dynamic Media Classic]（旧称  [!DNL Scene7]）と統合して、[!UICONTROL コンテンツライブラリ]でデジタルアセット管理（DAM）を実現できます。
+[!DNL Adobe Target] を [!DNL Adobe Dynamic Media Classic] （旧称 [!DNL Scene7]）と統合して、[!UICONTROL Content Library] でデジタルアセット管理（DAM）を実現できます。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 100%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-この機能が設定されていない場合は、アクティビティ作成ワークフロー内で、「[!UICONTROL 画像オファーを交換]」オプションを利用することはできません。この機能が設定されたら、画像オファーを交換／変更するオプションを     [Visual Experience Composer とフォームベースの Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で利用できます。以降は、[!DNL Adobe Experience Cloud] からアップロードした画像を含んだ画像オファーを  [!DNL Target] アクティビティで利用できます。
+この機能が設定されていない場合は、アクティビティ作成ワークフロー内で [!UICONTROL Swap Image offer] のオプションを利用することはできません。 この設定が完了すると、画像オファーを入れ替える/変更するオプションが [Visual Experience Composer （VEC）とフォームベースの Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) の両方で使用できるようになります。 以降は、[!DNL Adobe Experience Cloud] からアップロードした画像を含んだ画像オファーを  [!DNL Target] アクティビティで利用できます。
 
 アクティビティの作成中に、オファーやカスタムコードで公開画像 URL を直接参照したい場合は、各自の Web サーバーに画像を展開し、コードで独自の URL を使用する必要があります。[!DNL Experience Cloud] にアップロードされた画像の公開済み URL を取得して、直接使用したり、[!DNL Target] を使用するターゲティングワークフロー以外で使用したりすることはできません。契約内容にあるように、この機能は許可されません。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 [!DNL Dynamic Media Classic]（[!DNL Scene7]）と統合するには、次の情報を指定する必要があります。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL Scene7 設定]**&#x200B;をクリックします。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Scene7 Configuration]**&#x200B;をクリックします。
 
    ![Scene7 ページ](/help/main/administrating-target/assets/scene7.png)
 
@@ -50,4 +50,4 @@ ht-degree: 100%
 
    **パスワード：**[!DNL Dynamic Media Classic]（[!DNL Scene7]）へのログインに使用するパスワード
 
-1. 「**[!UICONTROL 送信]**」をクリックします。
+1. **[!UICONTROL Submit]** をクリックします。

@@ -2,13 +2,13 @@
 keywords: recommendations;よくある質問;faq
 description: Adobe  [!DNL Target]  Recommendations デザインに関するよくある質問（FAQ）とその回答のリストを確認します。
 title: ' [!DNL Target]  Recommendations デザインに関する質問への回答'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 * 品目の価格を 2 つの異なるエンティティ属性に渡すことができます。最初の `entity.value` は、数値の比較（価格比較ルールなど）に使用します。2 番目は、適切にレンダリングできるようにエンティティの値を文字列として格納するカスタム属性（`entity.displayValue` など）である必要があります。
 
-   例：
+  例：
 
-   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
+  `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## カテゴリがデザインに表示されないのはなぜですか？`$entity1.categoryId` を使用しています。{#section_073309B8051049C7953D396A93EA0713}
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 既存のエンティティの値を空白で置き換えるにはどのようにすればよいですか（プロモーションが終了して、品目の entity.message をクリアする必要がある場合など）？ {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript で改行なしスペースを送信することで可能と思われます。開発者に `\u00A0` を値として送信してもらいます。（例：`entity.message=\u00A0`）。値が存在しない場合に null の代わりにその値をデフォルトにすることも検討してください。
+JavaScript で改行なしスペースを送信することで可能と思われます。開発者に `\u00A0` を値として送信してもらいます。例：`entity.message=\u00A0`。 値が存在しない場合に null の代わりにその値をデフォルトにすることも検討してください。
 
 ## [!DNL Recommendations] デザインでプロファイルスクリプトを使用できますか？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

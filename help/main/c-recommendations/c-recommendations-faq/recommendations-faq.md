@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3471'
-ht-degree: 90%
+source-wordcount: '3448'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 [!DNL Adobe Target] [!DNL Recommendations] アクティビティに関するよくある質問（FAQ）のリストです。
 
-## 数値を使用してカスタム属性を検索すると、[!UICONTROL カタログ検索]で正しい結果が表示されないのはなぜですか？
+## 数値 [!UICONTROL Catalog Search] 使用してカスタム属性を検索すると、正しい結果が表示されないのはなぜですか？
 
 数値を使用してカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型とみなされます。
 
@@ -59,16 +59,16 @@ ht-degree: 90%
 * プロモーション設定の変更は、オンサイトに反映されるまでに最大 5 時間かかる場合があります。
 * 他の条件設定に対する変更は、次のアルゴリズムが実行されるまで反映されない場合があります。
 
-   * 一部の条件設定（「動的インクルージョンルールの追加」など）は、即座に反映されます。
-   * その他の条件設定（「動的インクルージョンルールの削除」、ルックバックウィンドウの変更など）は、次のアルゴリズムが実行されるまで組み込むことができません。
+   * 一部の条件設定（「動的な包含ルールの追加」など）は、即座に反映されます。
+   * その他の条件設定（「動的な包含ルールの削除」、ルックバックウィンドウの変更など）は、次のアルゴリズムが実行されるまで組み込むことができません。
    * これらの変更によってアルゴリズムの実行がトリガーされますが、完了するまでに最大 24 時間かかる場合があります。 アルゴリズムも 12〜24 時間ごとにスケジュールどおりに実行されます。
 
-## ユーザーの行動（製品 A をクリックして製品 B を購入するなど）がレコメンデーションに反映されるまでにかかる時間 *その* ユーザーが受け取る？
+## ユーザーの行動（製品 A のクリックや製品 B の購入など）がレコメンデーション（その *のユーザーが受け取る* に反映されるまでに、どのくらい時間がかかりますか？
 
 * 現在閲覧／購入されている製品／コンテンツは、同じページビュー／[!DNL Target] コンテンツリクエストでユーザーが受け取るレコメンデーションに影響を与えます。
-* 「最後に閲覧した製品」、「最も多く閲覧された製品」、全体的な閲覧/購入履歴などの過去のユーザー行動は、そのリクエストで更新され、ユーザーが次のページビューで受け取るレコメンデーションに影響します。[!DNL Target] コンテンツリクエスト。 例えば、「最近表示された項目」や「お勧め」アルゴリズムは、製品の表示/購入ごとに更新され、後続のコンテンツリクエストに反映されます。
+* 「最後に閲覧された製品」、「最も多く閲覧された製品」、全体的な閲覧/購入履歴などの過去のユーザー行動はこのリクエストで更新され、ユーザーが次のページビュー/[!DNL Target] コンテンツリクエストで受け取るレコメンデーションに影響を与えます。 例えば、「最近閲覧した項目」や「お勧め」アルゴリズムは、製品の閲覧や購入ごとに更新され、以降のコンテンツリクエストに反映されます。
 
-## ユーザーの行動（製品 A をクリックして製品 B を購入するなど）がレコメンデーションに反映されるまでにかかる時間 *その他* ユーザーが受け取るもの？
+## ユーザーの行動（製品 A のクリックや製品 B の購入など）がレコメンデーション（その他 *のユーザーが受け取るレコメンデーション* に反映されるまでに、どのくらい時間がかかりますか？
 
 集計中のユーザの行動は、12～24 時間ごとに実行されるアルゴリズムごとに、オフラインアルゴリズム処理に組み込まれます。
 
@@ -95,25 +95,25 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox におけるカテゴリ ID の格納場所を使用する場合は、適用可能なすべての条件が条件ピッカーに表示されます。
 
-[!DNL Target] には、 [非互換の条件をフィルター](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを制御します。
+[!DNL Target] には [ 互換性のない条件をフィルタリング ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 設定を使用して、アルゴリズムピッカーのインテリジェントフィルタリングを管理できます。
 
 >[!NOTE]
 >
->この設定は、[!UICONTROL Visual Experience Composer]（VEC）で作成されたアクティビティのみに適用されます。この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
+>この設定は、[!UICONTROL Visual Experience Composer] （VEC）で作成されたアクティビティのみに適用されます。 この設定は、フォームベースの Experience Composer で作成されたアクティビティには適用されません（[!DNL Target] には場所のコンテキストがありません）。
 
-[!UICONTROL 非互換の条件をフィルター]設定にアクセスするには、[!UICONTROL Recommendations]／[!UICONTROL 設定]をクリックします。
+[!UICONTROL Filter Incompatible Criteria] の設定にアクセスするには、[!UICONTROL Recommendations]/[!UICONTROL Settings] をクリックします。
 
-![recs_settings_filter image](assets/recs_settings_filter.png)
+![recs_settings_filter 画像 ](assets/recs_settings_filter.png)
 
-[!UICONTROL 非互換の条件をフィルター]設定が有効になっていない場合、 [!DNL Target]では、アルゴリズムピッカーに表示されるアルゴリズムのフィルタリングはおこなわれず、すべてのアルゴリズムが表示されます。
+[!UICONTROL Filter Incompatible Criteria] 設定が有効になっていない場合、[!DNL Target] ではアルゴリズムピッカーに表示されるアルゴリズムのフィルタリングはおこなわれず、すべてのアルゴリズムが表示されます。
 
-「[!UICONTROL 非互換の条件をフィルター]」設定が有効になっている場合、VEC アクティビティでは、 [!DNL Target] が選択した場所から entityId とカテゴリ ID を読み取り、`currentItem|currentCategory` に基づいてアルゴリズムを表示します（それぞれの値が該当の場所に存在している場合）。 そのためデフォルトでは、選択した場所で互換性のあるアルゴリズムのみがアルゴリズムピッカーに表示されます。
+[!UICONTROL Filter Incompatible Criteria] 設定が有効な場合、VEC アクティビティでは、[!DNL Target] が選択された場所から entityId とカテゴリ ID を読み取り、`currentItem|currentCategory` に基づいてアルゴリズムを表示します（それぞれの値が該当の場所に存在している場合）。 そのためデフォルトでは、選択した場所で互換性のあるアルゴリズムのみがアルゴリズムピッカーに表示されます。
 
-[!UICONTROL 非互換の条件をフィルター]設定が有効になっている場合でも、条件の選択時に「[!UICONTROL 互換性あり]」チェックボックスをオフにすると、互換性のないアルゴリズムを表示できます。
+[!UICONTROL Filter Incompatible Criteria] 設定が有効な場合でも、条件の選択時に「[!UICONTROL Compatible]」チェックボックスの選択を解除することで、互換性のないアルゴリズムを表示できます。
 
-![compatible_checkbox 画像](assets/compatible_checkbox.png)
+![compatible_checkbox 画像 ](assets/compatible_checkbox.png)
 
-[!DNL Target] で「[!UICONTROL 互換性あり]」チェックボックスが表示されない特殊なケースは次のとおりです。
+次のリストには、「[!UICONTROL Compatible]」チェックボックスが表示され [!DNL Target] い特殊なケースが含まれています。
 
 * entityId とカテゴリ ID の両方が場所に存在しており、フィルタリング対象がない。
 * [!DNL mbox.js] のバージョン 55 以前を使用している。
@@ -127,12 +127,12 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 * コレクションを再保存し、数値が更新されるかどうかを確認します。再保存すると、コレクションは、そのコレクションを使用するすべてのアルゴリズムを再実行します。
 * 適切な環境にいるか確認します。確認のため、[!DNL /target/products.html#recsSettings] に移動してください（以下を参照）。
 
-  ![product_catalog 画像](assets/product_catalog.png)
+  ![product_catalog image](assets/product_catalog.png)
 
-* インデックスが最新か確認します。移動： [!DNL /target/products.html#productSearch] また、何時間前にインデックスが作成されたかを確認します（例：「3 時間前にインデックス作成」）。 必要に応じてインデックスを更新できます。
+* インデックスが最新か確認します。[!DNL /target/products.html#productSearch] に移動し、何時間前にインデックスが作成されたかを確認します（例：「3 時間前にインデックス作成」）。 必要に応じてインデックスを更新できます。
 * エンティティがコレクションのルールに一致しなくなる変更をフィードまたはデータレイヤーに加えていないか確認します。大文字と小文字が一致しているかチェックしてください（大文字と小文字は区別されます）。
 * フィードが適切に実行されているか確認します。FTP ディレクトリ、パスワードなどを変更したユーザーはいますか？
-* [!DNL Target] は、（顧客のページやアプリで）配信の更新をできるだけ早くおこなうようにします。 一方で、 [!DNL Target] はマーケターの UI に何らかの表示をする必要もあります。[!DNL Target] では、UI の更新が同期されるのを待つために、配信の更新を遅延させません。[mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) を使用すると、リクエスト受信時のシステムの状況を確認できます。
+* [!DNL Target] は、（顧客のページやアプリに）配信の更新をできる限り早く反映します。 一方で、 [!DNL Target] はマーケターの UI に何らかの表示をする必要もあります。[!DNL Target] では、UI の更新が同期されるのを待つために、配信の更新を遅延させません。[mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) を使用すると、リクエスト受信時のシステムの状況を確認できます。
 
 ## 一般的な属性の重み付けと、コンテンツの類似性用の属性の重み付けには、どのような違いがありますか？  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -144,7 +144,7 @@ mbox におけるカテゴリ ID の格納場所を使用する場合は、適�
 
 「コンテンツの類似性属性の重み付け」は、コンテンツの類似性条件にのみ適用されます。
 
-このタイプの重み付けは、より動的で、現在の「レコメンデーションキー」（現在表示されている品目）に基づいています。 次の例（ブランド x 16）では、訪問者が Nike スニーカーを表示していた場合、その訪問者は、競合他社のスニーカーよりも、他の Nike 製品（必ずしもスニーカーだけではなく）をレコメンデーションする可能性が高くなります。 Adidas のスニーカーを閲覧していた訪問者には、Adidas の製品がレコメンデーションされる可能性が高くなります。
+このタイプの重み付けは、より動的で、現在の「レコメンデーションキー」（現在表示されている項目）に基づいています。 次の例（ブランド x 16）では、訪問者が Nike のスニーカーを閲覧していた場合、その訪問者は競合他社のスニーカーではなく、他の Nike 製品（必ずしもスニーカーだけでなく）をレコメンデーションされる可能性が高くなります。 Adidas のスニーカーを閲覧していた訪問者には、Adidas の製品がレコメンデーションされる可能性が高くなります。
 
 ![content_similarity_example image](assets/content_similarity_example.png)
 
@@ -244,14 +244,14 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
-[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [[!DNL Recommendations Classic] 対比 [!DNL Recommendations] アクティビティ [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) の [[!DNL Recommendations Classic]  とアクティビ  [!DNL Recommendations]  ティの比較」を参照してください。
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 
 メディアやパブリッシングの一部の顧客は、レコメンデーションされるアイテムに最新の記事またはビデオのみを含めたいと考えています。 例えば、[!DNL Target] の顧客が次のアプローチを使用して、公開後 60 日未満の記事をレコメンデーションしたとしましょう。
 
 1. 記事の公開日を YYMMDDD 形式でカスタムエンティティ属性として渡す。
-1. 今日の日付 — 60 日のプロファイルスクリプトを作成します（YYYYMMDD 形式も使用）。
+1. 今日の日付–60 日のプロファイルスクリプトを作成します（YYYYMMDD 形式も含む）。
 1. `publish date > today's date minus 60 days` となるように、条件に動的インクルージョンフィルターを使用する。
 
 ### 公開日をカスタムエンティティ属性として渡します。
@@ -276,9 +276,9 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 >
 >この例は、パラメーターのマッチングを使用し、`priorDate60` 値を mbox パラメーターとして渡すことで実現することもできます。
 
-### を使用する際の既知の問題 [!DNL Recommendations] アクティビティ？
+### [!DNL Recommendations] アクティビティを使用する際の既知の問題を教えてください。
 
-[!UICONTROL Recommendations] アクティビティの既知の問題は次のとおりです。
+[!UICONTROL Recommendations] アクティビティの既知の問題を以下に示します。
 
 * [!DNL Target]が getOffer() で JSON オファーを返すと、Recommendations は JSON のタイプで返します。ただし、JSON Recommendations デザインを返すと、Recommendation は HTML のタイプを返します。
 * フィードまたは API を介して更新されなくなってから 60 日が経過すると、期限切れのエンティティの有効期限が正確に切れます。ただし、有効期限が切れた後も、期限切れのエンティティはカタログ検索インデックスから削除されません。フィードまたは API を介して削除されたエンティティも、現在はカタログ検索インデックスから削除されていません。（IRI-857）

@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 100%
 >* Experience Cloud 訪問者 ID サービス：visitorAPI.js バージョン 2.3.0 以降。
 >* Adobe Analytics：appMeasurement.js バージョン 2.1。
 >* Adobe Target：at.js バージョン 0.9.6 以降（A4T でリダイレクトオファーを使用している場合はバージョン 1.1.0 を除く）。
-
 
 ## 変更内容 {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -56,7 +55,7 @@ ht-degree: 100%
 | ![手順 1](assets/step1_icon.png) | [!DNL Target] で選択したレポートスイートが、アクティビティが表示されるページと同じであることを確認します。 |
 | ![手順 2](assets/step2_icon.png) | VisitorAPI. js、AppMeasurement.js、at.js ライブラリが A4T 互換バージョンになっていることを確認します。導入に必要な条件について詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)を参照してください。 |
 | ![手順 3](assets/step3_icon.png) | ページを離れるときに [!DNL Target] と [!DNL Analytics] のすべての呼び出しで SDID が設定されることと、それらが一致していることを確認します。<br/>ネットワーク分析やデバッグツールを使用して、`mboxMCSDID` の呼び出しの [!DNL Target] パラメーターが [!DNL Analytics] の呼び出しの SDID パラメーターと一致していることを確認します。 |
-| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)を参照してください。 |
+| ![手順 4](assets/step4_icon.png) | サイトで実装ライブラリが正しい順序で読み込まれることを確認します。詳しくは、[Analytics for Target の実装 ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) を参照してください。 |
 
 ## 部分的なデータの部分を見るにはどうすればよいですか？ {#section_89B663E2824A4805AB934153508A0F4B}
 

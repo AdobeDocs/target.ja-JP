@@ -11,6 +11,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は、 [Target Premium](/help/main/c-intro/intro.md#premium) ライセンス。 この機能は、 [!DNL Target Standard].
+>この機能は、[Target Premium](/help/main/c-intro/intro.md#premium) ライセンスの一部として利用できます。 この機能は、[!DNL Target Standard] では使用できません。
 
 

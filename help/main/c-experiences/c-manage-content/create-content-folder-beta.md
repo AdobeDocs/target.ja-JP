@@ -1,66 +1,67 @@
 ---
 keywords: コンテンツ;フォルダーの作成;アセット;フォルダーの移動;フォルダーのコピー;フォルダーの削除;フォルダーのダウンロード;フォルダー
-description: でのフォルダーの作成方法 [!UICONTROL Offers] 図書館？
-title: でフォルダーを作成する方法を説明します [!UICONTROL Offers] コードオファー、画像オファーおよび他のフォルダーを保持するライブラリ。
+description: '[!UICONTROL Offers] ライブラリでフォルダーを作成するにはどうすればよいですか？'
+title: コード、画像オファー、その他のフォルダーを保持するフォルダーを [!UICONTROL Offers] ライブラリで作成する方法を説明します。
 feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+exl-id: 3959641b-e436-4890-86ec-72abf173540d
+source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # オファーフォルダーの作成
 
-でのフォルダーの作成 [!DNL Adobe Target] [!UICONTROL Offer] コードオファー、画像オファーおよびサブフォルダー構造を作成するその他のフォルダーを格納するライブラリ。
+[!DNL Adobe Target] [!UICONTROL Offer] ライブラリに、コードオファー、画像オファーおよびその他のフォルダーを保持するフォルダーを作成して、サブフォルダー構造を作成します。
 
 >[!NOTE]
 >
->この記事には、の更新に関する情報が含まれています [!DNL Target] 現在ベータ版プログラムに含まれているユーザーインターフェイス。 この [!DNL Adobe Target] チームは、多くの場合、一部のお客様に対して、テストやフィードバックの目的で新機能を有効にします。 テスト期間が完了すると、今後、これらの機能はすべての顧客に対して有効になります [!DNL Target Standard/Premium] のリリースとリリースは、リリースノートで発表されました。
+>この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
 
 コードオファーと画像オファーのフォルダーを作成するプロセスは少し異なります。 詳しくは、次の節を参照してください。
 
 ## [!UICONTROL Code Offer] フォルダー
 
-1. クリック **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
 
-   ![「コードオファー」タブ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
+   ![ 「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. クリック **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
 
 1. フォルダーのわかりやすい名前を指定します。
 
-1. （条件付き）がある場合 [Target Premium](/help/main/c-intro/intro.md#premium) アカウントと使用 [ワークスペース](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)ワークスペースを選択します。
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを持ち [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を使用する場合は、ワークスペースを選択します。
 
 1. **[!UICONTROL Create]** をクリックします。
 
-オファーとフォルダーで実行できるタスクについては、を参照してください。 [アセットライブラリ内のコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md).
+オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。
 
 ## [!UICONTROL Image Offer] フォルダー
 
-1. クリック **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-   ![「画像オファー」タブ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![ 「画像オファー」タブ ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
 
-1. クリック **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. 説明を指定 **[!UICONTROL Title]** フォルダーの場合。
+1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
+1. フォルダーの説明 **[!UICONTROL Title]** を指定します。
 
    例えば、保持するコンテンツのタイプを含めることができます。
 
-   名前に次の文字を含めることはできません：パーセント記号 `%`，スラッシュ `/`，バックスラッシュ `\`, コロン `:`, アスタリスク `*`，疑問符 `?`、二重引用符 `"`，角括弧 `[`，角括弧 `]`、プラス記号： `+`、パイプ： `|`、期間： `.`、番号記号： `#`、中括弧： `{`、中括弧 `}`, キャレット `^`、またはセミコロン `;`. ハイフン（ `- `）を使用します。
+   名前には、パーセント記号 `%`、スラッシュ `/`、バックスラッシュ `\`、コロン `:`、アスタリスク `*`、疑問符 `?`、二重引用符 `"`、角括弧 `[`、角括弧 `]`、プラス記号：`+`、パイプ：`|`、ピリオド：`.`、中括弧：`#`、中括弧：`{`、中括弧 `}`、キャレット `^`、セミコロン `;` を含めることはできません。 これらの文字の代わりにハイフン（`- `）を使用できます。
 
-1. （オプション）説明を指定します **[!UICONTROL Name]**.
-1. （オプション）「」を選択します **[!UICONTROL Private]** フォルダーをプライベートにして、ユーザーだけがフォルダーとその内容を表示できるようにする場合は、このチェック ボックスをオンにします。
+1. （オプション）説明 **[!UICONTROL Name]** を指定します。
+1. （オプション）「**[!UICONTROL Private]**」チェックボックスをオンにして、フォルダーを非公開にし、フォルダーとその内容のみが表示されるようにします。
 
-1. （オプション）「」を選択します **[!UICONTROL Reorder-able in List View]** チェック ボックスをオンにして、他のユーザーがフォルダ内の位置を並べ替えられるように指定します [!UICONTROL List View].
+1. （オプション） [**[!UICONTROL Reorder-able in List View]**] チェック ボックスをオンにして、他のユーザーが [!UICONTROL List View] 内のフォルダの位置を並べ替えられるように指定します。
 
 1. **[!UICONTROL Create]** をクリックします。
 
 >[!NOTE]
 >
->画像オファーはの一部ではありません [Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデル。
+>画像オファーは、「[ エンタープライズユーザー権限 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) モデルには含まれていません。
 
-オファーとフォルダーで実行できるタスクについては、を参照してください。 [アセットライブラリ内のコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working.md).
+オファーおよびフォルダーに対して実行できるタスクについては、「[ アセットライブラリのコンテンツの操作 ](/help/main/c-experiences/c-manage-content/assets-working.md)」を参照してください。

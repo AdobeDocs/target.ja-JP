@@ -1,78 +1,78 @@
 ---
-keywords: analytics トラッキングサーバー；A4T;Adobe Experience Cloudデバッガー；Adobe Experience Platformデバッガー；レポートソース；開発者ツール
-description: Analytics を使用するアクティビティ用に Analytics トラッキングサーバーを指定する方法を説明します。 [!DNL Target] (A4T) を使用します。
-title: Analytics トラッキングサーバーの使用方法を教えてください。
+keywords: analytics トラッキングサーバー；A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger；レポートソース；デベロッパーツール
+description: 旧バージョンの at.js を使用している場合に、Analytics for [!DNL Target]  （A4T）を使用するアクティビティ用に Analytics トラッキングサーバーを指定する方法を説明します。
+title: Analytics トラッキングサーバーの使用方法
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 21%
+source-wordcount: '638'
+ht-degree: 14%
 
 ---
 
-# を使用します。 [!DNL Analytics] トラッキングサーバー
+# [!DNL Analytics] トラッキングサーバーの使用
 
-古いバージョンの at.js を使用している場合は、 [!DNL Analytics] を使用するアクティビティのトラッキングサーバー [!DNL Adobe Analytics] 対象 [!DNL Adobe Target] (A4T)。
+古いバージョンの at.js を使用している場合は、[!DNL Adobe Analytics] for [!DNL Adobe Target] （A4T）を使用するアクティビティの [!DNL Analytics] トラッキングサーバーを指定する必要があります。
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Goals & Settings] のページの「[!UICONTROL Tracking Server]」フィールドを空白にできます。
 >
->この [!DNL Target] チームは at.js 1.*x* と at.js 2.*x* 間のマッピングについて説明します。at.js のメジャーバージョンのいずれかの最新の更新にアップグレードして、サポート対象のバージョンを実行していることを確認してください。 詳しくは、 [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>[!DNL Target] チームは、両方の at.js 1.*x* と at.js 2 の両方について示しています。*x* を通じてクロスドメイントラッキングを使用している場合です。サポート対象のバージョンを使用するには、at.js のいずれかのメジャーバージョンの最新アップデートにアップグレードしてください。 詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。
 
-からのデータを確実に取得するには、以下を実行します。 [!DNL Target] は、 [!DNL Analytics]、A4T には [!DNL Analytics] Modstats へのすべての呼び出しで送信されるトラッキングサーバー [!DNL Target]. 複数のトラッキングサーバーを使用する実装の場合、 [!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを判断します。
+[!DNL Target] からのデータが [!DNL Analytics] の正しい場所に送信されるようにするために、A4T では、[!DNL Target] からの Modstats へのすべての呼び出しで [!DNL Analytics] トラッキングサーバーを送信する必要があります。 複数のトラッキングサーバーを使用する実装の場合は、[!DNL Adobe Experience Platform Debugger] またはブラウザーの開発者ツールを使用して、アクティビティに適したトラッキングサーバーを決定します。
 
-## を取得 [!DNL Analytics] トラッキングサーバー [!DNL Adobe Experience Platform Debugger]
+## [!DNL Adobe Experience Platform Debugger] を使用した [!DNL Analytics] トラッキングサーバーの取得
 
-デバッガーは、正しいトラッキングサーバーが選択されていることを確認するために、アクティビティが配信されるページ上で表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
+アクティビティが配信されるページでデバッガーを表示して、正しいトラッキングサーバーを選択していることを確認してください。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
 
-1. アクティビティを作成しているページから、 [!DNL Adobe Experience Platform Debugger].
+1. アクティビティを作成するページから [!DNL Adobe Experience Platform Debugger] を開きます。
 
-   デバッガーをまだインストールしていない場合は、 [Adobe Experience Platform Debugger の概要](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debuggerの概要 ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) を参照してください。
 
-1. クリック **[!UICONTROL Analytics]** をクリックします。
+1. 左側のナビゲーションメニューの「**[!UICONTROL Analytics]**」をクリックします。
 
-   ![Screen_DebuggerTrackServ の画像](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ 画像 ](assets/Screen_DebuggerTrackServ.png)
 
-   この [!DNL Analytics] トラッキングサーバーが [!UICONTROL ホスト名] デバッガーの「 」セクションに表示されます。
+   [!DNL Analytics] トラッキングサーバーは、デバッガーの [!UICONTROL Hostname] セクションにあります。
 
-   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が現在のドメインと一致する場合、それはファーストパーティのトラッキングサーバーです。 例えば、 `adobe.com`, `adobe.com` はファーストパーティのトラッキングサーバーです。
-   * **サードパーティトラッキングサーバー**:通常、サードパーティのトラッキングサーバーは `[company].sc.omtrdc.net` ここで、会社は会社の名前ですが、常に `sc.omtrdc.net`.
-   * **CNAME 実装**: `sstats.adobe.com` は、https（セキュリティで保護された）リクエストに対する CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
-
-1. フィールドの内容すべてをコピーします。
-
-1. アクティビティの「**[!UICONTROL 目標および設定]****[!UICONTROL 」画面の「]**&#x200B;レポート設定&#x200B;**[!UICONTROL 」セクションで、「トラッキングサーバー]**」フィールドにトラッキングサーバーの情報を貼り付けます。
-
-   >[!NOTE]
-   >
-   >選択 [!UICONTROL レポートソースとしての Analytics] アクティビティの [!UICONTROL トラッキングサーバー] フィールドを使用できます。
-
-## を取得 [!DNL Analytics] ブラウザーの開発者ツールを使用したトラッキングサーバー
-
-正しいトラッキングサーバーが選択されていることを確認するために、開発者ツールは、アクティビティが配信されるページ上に表示される必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
-
-1. アクティビティを作成しているページで、ブラウザーの開発者ツールを開きます (Google Chrome で、右上隅の縦並びの省略記号/その他のツール/開発者ツールをクリックします )。
-
-   ![Chrome 開発者ツール](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
-
-1. 次をクリック： **[!UICONTROL ネットワーク]** タブをクリックします。
-
-1. フィルター `/ss,` 表示する [!DNL Analytics] リクエスト。
-
-   ![/ss 検索を使用する Chrome 開発者ツール](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
-
-   トラッキングサーバーは、リクエストのホスト名です。
-
-   * **ファーストパーティトラッキングサーバー**:リクエストのホスト名が現在のドメインと一致する場合、それはファーストパーティのトラッキングサーバーです。 例えば、 `adobe.com`, `adobe.com` はファーストパーティのトラッキングサーバーです。
-   * **サードパーティトラッキングサーバー**:通常、サードパーティのトラッキングサーバーは `[company].sc.omtrdc.net` ここで、会社は会社の名前ですが、常に `sc.omtrdc.net`.
-   * **CNAME 実装**: `sstats.adobe.com` は、https（セキュリティで保護された）リクエストに対する CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http（非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
+   * **ファーストパーティトラッキングサーバー**：リクエストのホスト名が使用中のドメインと一致する場合、それはファーストパーティトラッキングサーバーです。 例えば、`adobe.com` を使用している場合、`adobe.com` はファーストパーティトラッキングサーバーです。
+   * **サードパーティトラッキングサーバー**：通常、サードパーティトラッキングサーバーは `[company].sc.omtrdc.net` です。会社は会社の名前ですが、常に `sc.omtrdc.net` で終わります。
+   * **CNAME 実装**:`sstats.adobe.com` は、https （セキュア）リクエスト用の CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http （非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
 
 1. フィールドの内容すべてをコピーします。
 
-1. アクティビティの「**[!UICONTROL 目標および設定]****[!UICONTROL 」画面の「]**&#x200B;レポート設定&#x200B;**[!UICONTROL 」セクションで、「トラッキングサーバー]**」フィールドにトラッキングサーバーの情報を貼り付けます。
+1. アクティビティの **[!UICONTROL Goal & Settings]** 画面の「**[!UICONTROL Reporting Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
 
    >[!NOTE]
    >
-   >選択 [!UICONTROL レポートソースとしての Analytics] アクティビティの [!UICONTROL トラッキングサーバー] フィールドを使用できます。
+   >[!UICONTROL Tracking Server] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。
+
+## ブラウザーの開発者ツールを使用して [!DNL Analytics] トラッキングサーバーを取得する
+
+正しいトラッキングサーバーを確実に選択するために、アクティビティが配信されるページで開発者ツールを表示する必要があります。 アカウントごとにデフォルトのトラッキングサーバーを指定することもできます。デフォルトを指定または変更するには、カスタマーケアへのお問い合わせ。
+
+1. アクティビティを作成するページから、ブラウザーのデベロッパーツールを開きます（Google Chromeで、右上隅にある 3 つの縦並びの省略記号（その他のツール/デベロッパーツール）をクリックします）。
+
+   ![Chrome デベロッパーツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+
+1. 「**[!UICONTROL Network]**」タブをクリックします。
+
+1. [!DNL Analytics] リクエストを表示する `/ss,` をフィルタリングします。
+
+   ![/ss 検索を使用したChrome デベロッパーツール ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+
+   トラッキングサーバーはリクエストのホスト名です。
+
+   * **ファーストパーティトラッキングサーバー**：リクエストのホスト名が使用中のドメインと一致する場合、それはファーストパーティトラッキングサーバーです。 例えば、`adobe.com` を使用している場合、`adobe.com` はファーストパーティトラッキングサーバーです。
+   * **サードパーティトラッキングサーバー**：通常、サードパーティトラッキングサーバーは `[company].sc.omtrdc.net` です。会社は会社の名前ですが、常に `sc.omtrdc.net` で終わります。
+   * **CNAME 実装**:`sstats.adobe.com` は、https （セキュア）リクエスト用の CNAME ファーストパーティトラッキングサーバーの例です。 `stats.adobe.com` は、http （非セキュア）ページに対する CNAME ファーストパーティリクエストの例です。
+
+1. フィールドの内容すべてをコピーします。
+
+1. アクティビティの **[!UICONTROL Goal & Settings]** 画面の「**[!UICONTROL Reporting Settings]**」セクションで、トラッキングサーバー情報を **[!UICONTROL Tracking Server]** フィールドに貼り付けます。
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Tracking Server] フィールドを使用できるようにするには、アクティビティの「[!UICONTROL Analytics as the Reporting Source]」を選択します。

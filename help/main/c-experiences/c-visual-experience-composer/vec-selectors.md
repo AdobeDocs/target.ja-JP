@@ -1,13 +1,13 @@
 ---
 keywords: エクスペリエンスのターゲット設定;ランディングページテスト
-description: 要素セレクターは、1 つ以上の要素を指定できる CSS 式です。 Adobe [!DNL Target] Visual Experience Composer(VEC)。
-title: Visual Experience Composer(VEC) で要素セレクターを使用できますか？
+description: 要素セレクターは、1 つ以上の要素を識別できる CSS 式です。 Adobe [!DNL Target] Visual Experience Composer （VEC）で要素セレクターを使用する方法を説明します。
+title: Visual Experience Composer （VEC）で要素セレクターを使用できますか？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 79%
+source-wordcount: '403'
+ht-degree: 85%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 CSS セレクターの基本的な情報については、Mozilla Developer Network（MDN）にある[セレクター](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)についてのドキュメントを参照してください。
 
-アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。クリック **[!UICONTROL 管理/Visual Experience Composer]**&#x200B;を選択してから、目的の CSS セレクターを選択します。
+アカウント設定で、要素クラスを使用するか、または要素 ID を使用するかを設定できます。「**[!UICONTROL Administration > Visual Experience Composer]**」をクリックして、優先 CSS セレクターを選択します。
 
-![css_selectors 画像](assets/css_selectors.png)
+![css_selectors image](assets/css_selectors.png)
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ CSS セレクターの基本的な情報については、Mozilla Developer Netw
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 
-## Adobe [!DNL Target] 要素のセレクターを生成します {#section_D89D954BCBFB486CA081BE183776A475}
+## Element [!DNL Target] でAdobeのセレクターを生成する方法 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target では、シンプルなアルゴリズムを使用してセレクターが作成されます。以下では、生成のロジックについて簡単に説明します。
 

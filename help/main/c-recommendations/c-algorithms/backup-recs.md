@@ -1,7 +1,7 @@
 ---
 keywords: レコメンデーション;代替;予備
-description: 代替レコメンデーションの使用方法についてAdobe [!DNL Target] Recommendations。 十分なレコメンデーション品目がないレコメンデーションには、バックアップアルゴリズムの結果が表示されます。
-title: Recommendationsで代替レコメンデーションを使用する方法を教えてください。
+description: Adobe [!DNL Target] Recommendationsでのバックアップの推奨事項の使用方法を説明します。 レコメンデーションで十分な推奨項目がない場合、バックアップアルゴリズムの結果が表示されます。
+title: Recommendationsでの代替レコメンデーションの使用方法を教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
@@ -14,13 +14,13 @@ ht-degree: 78%
 
 # 代替レコメンデーションの使用
 
-代替レコメンデーション機能 ( [!DNL Adobe Target]を使用する場合、十分なレコメンデーション品目がないレコメンデーションは、デフォルトコンテンツを表示しません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
+[!DNL Adobe Target] の代替レコメンデーション機能を使用する場合、十分なレコメンデーション項目を持たないレコメンデーションには、デフォルトコンテンツが表示されません。 その代わりに、レコメンデーションには代替アルゴリズムの結果が表示されます。
 
 代替レコメンデーションを使用しない場合、表示に十分な品目がレコメンデーションになければ、ユーザーにデフォルトコンテンツが表示されます。
 
 >[!NOTE]
 >
->追加情報は、 [条件を作成の「コンテンツ」セクション](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) トピック。 [!UICONTROL Partial Design Rendering] および [!UICONTROL Show Backup Recommendations] オプションを組み合わせるか、個別に選択します。
+>追加情報は、条件の作成の [ コンテンツ ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) トピックに記載されています。これには、「[!UICONTROL Partial Design Rendering]」オプションと「[!UICONTROL Show Backup Recommendations]」オプションを同時にまたは個別に使用した際に確認できる結果を説明するマトリックスが含まれます。
 
 代替レコメンデーション機能では、アルゴリズムのデータが使用された後の残りのスロットに、常にそのサイトの最多閲覧品目が挿入されます。例えば、テンプレートにレコメンデーション品目が 5 つ表示されるよう設定されていて、*購入の親和性*&#x200B;のアルゴリズムを使用しているとします。ここで、5 つのスロットのうち 2 つ分のデータしかない場合は、代替レコメンデーション機能により、最多閲覧品目が残りの 3 つのスロットに挿入されます。
 
@@ -49,4 +49,4 @@ ht-degree: 78%
 
 代替レコメンデーションの使用については、初期セットアップ時に導入チームと話し合っていただくことになります。導入後に代替レコメンデーション機能の設定を変更する場合は、アカウント担当者までお問い合わせください。
 
-デザインの部分レンダリングを有効にする場合 ( [コンテンツ設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) が有効になっておらず、テンプレートが表示されない場合は、代わりに代替レコメンデーションまたはデフォルトコンテンツが表示されます。
+部分デザインレンダリングを有効にする（[ コンテンツ設定 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) を参照）が有効になっておらず、テンプレートが表示されない場合は、代わりにバックアップのレコメンデーションまたはデフォルトコンテンツが表示されます。

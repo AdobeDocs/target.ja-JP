@@ -7,20 +7,20 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 51%
+source-wordcount: '173'
+ht-degree: 64%
 
 ---
 
-# が使用する IP アドレス [!DNL Recommendations] フィード処理サーバー
+# [!DNL Recommendations] フィード処理サーバーで使用される IP アドレス
 
-で使用される IP アドレスのリスト [!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーを使用して、次の場所から発生した IP アドレスを許可するようにファイアウォールを設定する [!DNL Adobe] サーバー。
+[!DNL Adobe Target] [!DNL Recommendations] フィード処理サーバーで使用される IP アドレスのリストが表示されるので、[!DNL Adobe] サーバーからの IP アドレスを許可するようにファイアウォールを設定する際に役立ちます。
 
 >[!IMPORTANT]
 >
->The [!DNL Target] チームは現在、ダウンロード用に NAT ゲートウェイアドレスを更新しています [!DNL Recommendations] フィード。 IP許可リストに加えるを実装する場合は、次の新しいAWSホ許可リストに加えるストを必ずしてください。 既存のホストは 2024 年 6 月 30 日に廃止される予定です。 スムーズな移行を実現するには、9 つのアド許可リストに加えるレスをすべてします。 既存のアドレスを削除する緊急度はありません。
+>[!DNL Target] チームは現在、[!DNL Recommendations] フィードをダウンロードするための NAT ゲートウェイ アドレスを更新しています。 IP 許可リストを実装する場合は、次の新しい AWS ホストを必ず許可リストに登録してください。既存のホストは 2024年6月30日（PT）に廃止される予定です。スムーズな移行を実現するには、9 つのアドレスをすべて許可リストに登録します。既存のアドレスを緊急に削除する必要はありません。
 
-[!DNL Target] [!UICONTROL Recommendations] アクティビティでは、顧客の FTP サーバーにアクセスする際に、以下の AWS ホストを使用します。
+[!DNL Target] [!UICONTROL Recommendations] アクティビティでは、顧客の FTP サーバーにアクセスする際に、次のAWS ホストを使用します。
 
 **新しいホスト**:
 
@@ -41,4 +41,4 @@ ht-degree: 51%
 | オレゴン | `44.232.167.82` |
 | オレゴン | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] API も同じ AWS ホストを使用します。
+[!DNL Target] [!UICONTROL Recommendations] API も同じAWS ホストを使用します。

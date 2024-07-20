@@ -5,9 +5,9 @@ title: 成功指標とは
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
-workflow-type: ht
-source-wordcount: '1267'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1188'
+ht-degree: 82%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 [!DNL Target] では、成功指標は、レポートおよびトラッキングの両方に最適なオプションを用いて事前設定されます。
 
-デフォルトでは、コンバージョンイベントは「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]」に設定されています。コンバージョンは 1 回だけカウントされます。リピートコンバージョンはカウントされず、訪問者にはアクティビティコンテンツが常に表示されます。
+デフォルトでは、コンバージョンイベントは「[!UICONTROL Increment count & keep user in activity]」に設定されています。 コンバージョンは 1 回だけカウントされます。リピートコンバージョンはカウントされず、訪問者にはアクティビティコンテンツが常に表示されます。
 
-「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]」に設定されている売上高指標では、同一の訪問者による最初の注文についてのみ注文の詳細が記録されます。以降の注文については、コンバージョン数は加算されますが、RPV／AOV／販売額に売上高が加算されることはなく、[!UICONTROL 注文の詳細]レポートにも含まれません。
+「[!UICONTROL Increment count & keep user in activity]」に設定されている売上高指標では、同じ訪問者による最初の注文についてのみ注文の詳細が記録されます。 以降の注文については、コンバージョン数は加算されますが、RPV/AOV/販売額に売上高が加算されることはなく、[!UICONTROL Order Details] レポートにも含まれません。
 
 >[!NOTE]
 >
->[レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)（A4T）を使用するアクティビティの場合、目的指標は常に「[!UICONTROL カウントを増分、アクティビティでユーザーを保持]」および「[!UICONTROL すべてのインプレッション]」設定を使用します。これは設定可能ではあり&#x200B;*ません*。
+>[ レポートソースとしての Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティの場合、目標指標は常に「[!UICONTROL Increment Count & Keep User in Activity]」設定と「[!UICONTROL On Every Impression]」設定を使用します。 これは設定可能ではあり&#x200B;*ません*。
 
 以下の成功指標を使用できます。
 
@@ -45,25 +45,25 @@ ht-degree: 100%
 
 カスタムの成功指標も作成できます。
 
-成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。例えば、[!UICONTROL コンバージョン]指標を選択し、訪問者あたり 1 回カウントされるように設定してから、訪問者が特定のページ（または一連のページ）を閲覧、特定の [!DNL Target] リクエストを閲覧または特定のリンクをクリック、のいずれの場合に成功とするかを設定します。
+成功指標を選択し、目的を達成するために訪問者がとるアクションを選択します。例えば、[!UICONTROL Conversion] 定の指標を選択し、訪問者あたり 1 回カウントされるように設定してから、訪問者が特定のページ（または一連のページ）を閲覧、特定の [!DNL Target] リクエストを閲覧または特定のリンクをクリック、のいずれの場合に成功とするかを設定します。
 
-有効になっている場合は、[!UICONTROL 1 つのコンバージョンフィールドの予測値（Estimated Value）]（[!UICONTROL ページスコア]指標では利用できません）には他の指標の値ではなく、目標に関する値が示されます。この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。すべての売上高指標（[!UICONTROL 訪問者あたり売上高]、[!UICONTROL 平均注文額]、[!UICONTROL 合計販売額]および[!UICONTROL 注文]）について、予測には[!UICONTROL 訪問者あたり売上高]が使用されます。データタイプは通貨です。詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
+有効になっている場合は、「[!UICONTROL Estimated Value of one conversion]」フィールド（[!UICONTROL Page Score] 指標では使用できません）には他の指標の値ではなく、目標に関する値が示されます。 この値を使用することで、[!DNL Target] は売上の推定上昇率を計算できます。このフィールドはオプションですが、このオプションがないと売上高以外の指標に関する売上の増分は計算できません。すべての売上高指標（[!UICONTROL Revenue per Visitor]、[!UICONTROL Average Order Value]、[!UICONTROL Total Sales] および [!UICONTROL Orders]）について、予測には [!UICONTROL Revenue per Visitor] が使用されます。 データタイプは通貨です。詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。
 
 アクティビティに対して選択した成功指標は、そのアクティビティのレポートを表示するときに、レポート設定で利用できます。
 
-[!UICONTROL カスタムスコア]および [!UICONTROL 1 訪問者あたりの売上高]など、一部の指標では、合計注文額や注文 ID などの情報を渡すようにカスタマイズされた実装が必要です。
+[!UICONTROL Custom Scoring] や [!UICONTROL Revenue Per Visitor] などの一部の指標では、合計注文額や注文 ID などの情報を渡すようにカスタマイズされた実装が必要です。
 
 ## 詳細設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 詳細設定を使用して、成功の測定方法を管理します。依存関係の追加、アクティビティでユーザーを保持するか削除するかの選択、参加者ごとに 1 回指標をカウントするか、すべてのインプレッションで指標をカウントするかの選択などのオプションがあります。
 
-「[!UICONTROL 詳細設定]」オプションにアクセスし、**[!UICONTROL 縦並びの省略記号]**／**[!UICONTROL 詳細設定]**&#x200B;をクリックします。
+[!UICONTROL Advanced Settings] のオプションにアクセスするには、**[!UICONTROL vertical ellipses]**/**[!UICONTROL Advanced Settings]** をクリックします。
 
 ![詳細設定メニュー](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] をレポートソースとして使用する場合、設定は [!DNL Analytics] サーバーによって管理されます。「[!UICONTROL 詳細設定]」オプションは、利用できません。詳しくは、[Adobe Target（A4T）のレポートソースとしての Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
+>[!DNL Adobe Analytics] をレポートソースとして使用する場合、設定は [!DNL Analytics] サーバーによって管理されます。[!UICONTROL Advanced Settings] オプションは使用できません。 詳しくは、[Adobe Target（A4T）のレポートソースとしての Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。
 
 ### 依存関係の追加
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 依存関係機能は、次の場合はサポートされて&#x200B;*いません*。
 
-* [!UICONTROL Recommendations] アクティビティ。それ以外のすべてのアクティビティタイプには対応しています。
+* [!UICONTROL Recommendations] 個のアクティビティ。 それ以外のすべてのアクティビティタイプには対応しています。
 * [Analytics をレポートソース（A4T）として](/help/main/c-integrating-target-with-mac/a4t/a4t.md)使用している場合。
 * 「ページが表示されました」指標タイプ。
 * Visual Experience Composer（VEC）アクティビティの「要素がクリックされました」指標タイプ。
@@ -91,13 +91,13 @@ ht-degree: 100%
 
 | ユーザーがこの目標指標に達した後 | オプション |
 |--- |--- |
-| [!UICONTROL カウントを増分、アクティビティでユーザーを保持] | カウントの増分方法を指定します。<ul><li>参加者ごとに 1 回（デフォルト）</li><li>すべてのインプレッション（ページの更新を除く）</li><li>すべてのインプレッション</li></ul> |
-| [!UICONTROL カウントを増分、ユーザーをリリース、再エントリを許可] | 訪問者がアクティビティに再度入ったときに表示されるエクスペリエンスを選択します。<ul><li>同じエクスペリエンス（デフォルト）</li><li>ランダムエクスペリエンス</li><li>未表示のエクスペリエンス</li></ul> |
-| [!UICONTROL カウントを増分、ユーザーをリリース、再エントリを許可しない] | アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。<ul><li>同じエクスペリエンス（トラッキングなし）（デフォルト）</li><li>デフォルト／他のアクティビティのコンテンツ</li></ul> |
+| [!UICONTROL Increment Count & Keep User in Activity] | カウントの増分方法を指定します。<ul><li>参加者ごとに 1 回（デフォルト）</li><li>すべてのインプレッション（ページの更新を除く）</li><li>すべてのインプレッション</li></ul> |
+| [!UICONTROL Increment Count, Release user, & Allow Reentry] | 訪問者がアクティビティに再度入ったときに表示されるエクスペリエンスを選択します。<ul><li>同じエクスペリエンス（デフォルト）</li><li>ランダムエクスペリエンス</li><li>未表示のエクスペリエンス</li></ul> |
+| [!UICONTROL Increment Count, Release User, & Bar from Reentry] | アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。<ul><li>トラッキングなしの同じエクスペリエンス（デフォルト）</li><li>デフォルト／他のアクティビティのコンテンツ</li></ul> |
 
 >[!NOTE]
 >
->指標を「[!UICONTROL カウントを増分]」オプション（上記）のいずれかに設定すると、指標カウントは訪問者レベルのみで、参加者ごとに正しく 1 回増分されます。指標カウントは、訪問レベルで新しいセッションが始まるたびに、訪問ごとに 1 ずつ増分します。
+>指標を [!UICONTROL Increment Count] のオプション（上記）のいずれかに設定すると、指標カウントは訪問者レベルのみで、参加者ごとに正しく 1 回増分されます。 指標カウントは、訪問レベルで新しいセッションが始まるたびに、訪問ごとに 1 ずつ増分します。
 
 ### カウントの増分方法：
 

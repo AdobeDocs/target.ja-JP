@@ -6,8 +6,8 @@ feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 94%
 
 ---
 
@@ -44,10 +44,10 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 | トピック／ランタイム／録画日 | 学習内容 |
 |--- |--- |
-| [at.js のヒントと概要](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、 [at.js の仕組み](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| [at.js のヒントと概要](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019 年 6 月 26 日（PT） | 学習者<ul><li>at.js を使用する利点</li><li>at.js の設定</li><li>ちらつき処理</li><li>at.js のデバッグ</li><li>既知の問題</li><li>FAQ</li></ul>詳しくは、[at.js の仕組み ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} を参照してください。 |
 | [Target Premium Workspaces](https://helpx.adobe.com/jp/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018 年 9 月 4 日（PT） | 学習者<ul><li>Workspace（製品プロファイル）の作成</li><li>プロパティの作成</li><li>ユーザーの追加</li><li>実装の更新</li></ul>詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。 |
 | [Visual Experience Composer（VEC）](https://helpx.adobe.com/jp/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 学習者<ul><li>VEC の仕組み</li><li>VEC で一般的な問題を回避する方法</li><li>VEC で使用できる回避策</li></ul>このガイドについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md)を参照してください。 |
-| [Adobe Target：Analytics と Target の統合（A4T）](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドについて詳しくは、[Adobe TargetのレポートソースとしてのAdobe Analytics（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) |
+| [Adobe Target：Analytics と Target の統合（A4T）](https://helpx.adobe.com/jp/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018 年 1 月 | 学習者<ul><li>統合を設定し、統合が機能することを検証する方法 </li><li>統合の仕組み</li><li>Analytics での使用に最適なレポートの詳細</li><li>A4T に関するよくある質問への回答</li></ul>このガイドの詳細については、[Adobe Targetのレポート SourceとしてのAdobe Analytics（A4T） ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) を参照してください。 |
 | [at.js：メリットと実装に関するベストプラクティス](https://helpx.adobe.com/jp/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 学習者 <ul><li>at.js ライブラリの仕組み</li><li>非推奨の mbox.js と比較した at.js のメリット</li><li>at.js によるちらつきの制御方法</li><li>at.js でのエラー処理</li><li>デバッグ手法</li><li>既知の問題と今後のロードマップ</li></ul> |
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Target コミュニティは、Adobe Target のすべての情報を集めたワ
 
 Target を使用していて問題や疑問点が出てきた場合は、いくつかの方法でお問い合わせいただけます。
 
-ご質問は、 [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank}.
+ご不明な点については、[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} のAdobe Targetの専門家にお問い合わせください。
 
 技術的な問題やバグ報告については、カスタマーケアまでご連絡ください。カスタマーケアに電話でお問い合わせの際は、1-800-497-0335 までおかけください。米国以外のフリーダイヤルの電話番号は、[Adobe Digital Marketing カスタマーケア地域別電話番号ページ](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)をご覧ください。製品選択メニューで 3 を押すと、Target チームの担当者につながります。
 
@@ -74,8 +74,8 @@ Target を使用していて問題や疑問点が出てきた場合は、いく�
 
 | 情報 | 詳細 |
 | --- | --- |
-| 概要 | 問題全体の概要 |
-| アカウント情報 | 会社名<br>管理番号<br>キャンペーン名<br>キャンペーンのタイプ<br>Report Suite/Report Suite ID（Target から SiteCatalyst への統合に関する場合） |
+| まとめ | 問題全体の概要 |
+| アカウント情報 | 会社名 <br> 管理者番号 <br> キャンペーン名 <br> キャンペーンのタイプ <br> レポートスイート/レポートスイート ID （Target とSiteCatalystの統合に関する場合） |
 | 再現の手順 | 再現に必要な URL や期待される結果など、できるだけ詳しい内容を含めます。<br>Target に慣れていないユーザーでも指示に従って問題を再現できるような十分な説明にします。 |
 | 優先度 | P1（重要度高）～ P4（重要度低）を選択します。 |
 | ビジネスへの影響 | ビジネスにどのような影響があるかを説明します。例えば、この問題が原因で収益が減少しているか、製品が使用できなくなっているか、実行可能な回避策があるかなどです。 |
@@ -115,14 +115,14 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ### フィードバック {#section_8154D6D712054220A90D85FA8E92933E}
 
-このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)に、改良のアイデアや提案を投稿できます。「[!UICONTROL アイデア]」タブをクリックします。
+このソリューションに対するご提案やフィードバックをお待ちしております。[Adobe Target Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)に、改良のアイデアや提案を投稿できます。「[!UICONTROL Ideas]」タブをクリックします。
 
 ### 法的事項 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2023 Adobe Systems Incorporated.All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[利用規約](https://www.adobe.com/legal/terms.html)
+[ 利用条件 ](https://www.adobe.com/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 

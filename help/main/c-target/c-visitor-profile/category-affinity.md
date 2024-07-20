@@ -5,9 +5,9 @@ title: カテゴリ親和性とは
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 97%
 
 ---
 
@@ -104,15 +104,15 @@ ht-degree: 100%
 
 ### カテゴリ親和性を使用するオーディエンスの作成 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. **[!UICONTROL オーディエンス]**&#x200B;リストから、「**[!UICONTROL オーディエンスを作成]**」をクリックします。
+1. **[!UICONTROL Audiences]** リストで、「**[!UICONTROL Create Audience]**」をクリックします。
 
    または
 
    既存のオーディエンスをコピーするには、オーディエンスのリストから目的のオーディエンスにマウスポインターを置き、コピーアイコンをクリックします。これにより、そのオーディエンスを編集して類似のオーディエンスを作成することができます。
 
 1. わかりやすいオーディエンスの名前を入力します。
-1. **[!UICONTROL + ルールを追加]**／**[!UICONTROL 訪問者プロファイル]**&#x200B;をクリックします。
-1. **[!UICONTROL 訪問者プロファイル]**&#x200B;ドロップダウンリストから、**[!UICONTROL カテゴリーの親和性]**&#x200B;を選択します。
+1. **[!UICONTROL + Add Rule]**／**[!UICONTROL Visitor Profile]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Visitor Profile]**」ドロップダウン・リストから「**[!UICONTROL Category Affinity]**」を選択します。
 
    ![訪問者プロファイル／カテゴリ親和性](assets/affinity.png)
 
@@ -138,8 +138,8 @@ ht-degree: 100%
    * 次と等しい
 
 1. 新しい値はそれぞれ別の行（例えば、「靴」）に指定します。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL Save]** をクリックします。
 
 ### アクティビティにおけるカテゴリ親和性オーディエンスの使用 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-カテゴリの親和性オーディエンスはどのアクティビティでも使用できます。3 ステップのガイドによるワークフローの[!UICONTROL ターゲット]のステップで、目的のオーディエンスを選んでください。
+カテゴリの親和性オーディエンスはどのアクティビティでも使用できます。3 ステップのガイドによるワークフローの [!UICONTROL Target] のステップで、目的のオーディエンスを選択します。

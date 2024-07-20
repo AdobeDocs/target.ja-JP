@@ -1,14 +1,14 @@
 ---
 keywords: 製品;コレクション
-description: Adobe [!DNL Target] Recommendations。 エンティティは、 [!DNL Target]（記事、映画、製品など）。
+description: Adobe [!DNL Target] Recommendationsのエンティティについて説明します。 エンティティとは、記事、ムービー、製品など  [!DNL Target] 使用を推奨する項目を指します。
 title: エンティティの使用方法
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 74%
+source-wordcount: '114'
+ht-degree: 76%
 
 ---
 

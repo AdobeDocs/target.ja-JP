@@ -1,74 +1,74 @@
 ---
-keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；プロモーション；動的フィルタリング；動的；プロファイル属性の一致
-description: Adobeで動的にフィルタリングする方法を説明します [!DNL Target] Recommendationsを比較することを推奨します。
-title: Recommendationsアクティビティで一致するプロファイル属性でフィルタリングする方法を教えてください。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的；動的フィルタリング；動的；プロファイル属性のマッチング
+description: 項目（エンティティ）をユーザーのプロファイルの値と比較することで、Adobe [!DNL Target] Recommendationsを動的にフィルタリングする方法を説明します。
+title: Recommendations アクティビティでプロファイル属性のマッチングを使用してフィルタリングするにはどうすればよいですか。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 7%
+source-wordcount: '483'
+ht-degree: 9%
 
 ---
 
 # プロファイル属性のマッチング
 
-で動的にフィルタリング [!DNL Adobe Target] [!DNL Recommendations] 品目（エンティティ）とユーザーのプロファイルの値を比較する方法を示します。
+ユーザーのプロファイルの値に対して項目（エンティティ）を比較することで、[!DNL Adobe Target] [!DNL Recommendations] で動的にフィルタリングします。
 
-用途 [!UICONTROL プロファイル属性のマッチング] サイズやお気に入りのブランドなど、訪問者のプロファイルに保存された値に一致するレコメンデーションを表示する場合に、
+サイズやお気に入りのブランドなど、訪問者のプロファイルに保存されている値に一致するお勧めを表示する場合は、[!UICONTROL Profile Attribute Matching] を使用します。
 
 >[!NOTE]
 >
->この [インクルージョンルールの作成と使用のプロセス](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) の条件とプロモーションは、の使用例や例と同様に似ています。
+>条件やプロモーションに対する [ インクルージョンルールの作成プロセスと使用プロセス ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) は、ユースケースと例と同様です。
 
-以下のシナリオで、 [!UICONTROL プロファイル属性のマッチング]:
+次のシナリオは、[!UICONTROL Profile Attribute Matching] の使用方法を示しています。
 
-* メガネを販売する会社は、訪問者が好きなフレームカラーを「くるみ」として店に入れています。 その特定の訪問者に対して、「クルミ」の色に一致する眼鏡フレームのみを返すように設定することをお勧めします。
-* 訪問者が会社の Web サイトをナビゲートする際の訪問者の服のサイズ（小、中、大など）に対して、プロファイルパラメーターを定義できます。 レコメンデーションは、そのプロファイルパラメーターに合わせて設定し、ユーザーの希望する衣料品のサイズに限定した商品を返すことができます。
+* 眼鏡を販売する会社が、訪問者が好きなフレームの色を「くるみ」として保存しています。 特定の訪問者に対しては、カラーで「クルミ」に一致する眼鏡フレームのみを返すようレコメンデーションが設定されます。
+* プロファイルパラメーターは、訪問者が会社の web サイトを移動する際に、その訪問者の衣料品のサイズ（小、Medium、大など）に対して定義できます。 レコメンデーションは、そのプロファイルパラメーターに一致するように設定でき、ユーザーの好みの衣料品サイズに固有の製品のみを返すことができます。
 
 ## プロファイル属性のマッチングの例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL プロファイル属性のマッチング] では、以下の例に示すように、訪問者のプロファイルの属性に一致する項目のみをレコメンデーションできます。
+以下の例に示 [!UICONTROL Profile Attribute Matching] ように、訪問者のプロファイルの属性に一致する項目のみをレコメンデーションできます。
 
-### ユーザーのお気に入りのブランドから品目をレコメンデーション
+### ユーザーのお気に入りのブランドからの推奨項目
 
-例えば、 [!UICONTROL プロファイル属性のマッチング] オプションを使用して、ブランドがに保存されている値やテキストと等しい品目のみをレコメンデーションするルールを作成できます。 `profile.favoritebrand`. このようなルールでは、ある訪問者が特定のブランドのランニングショーツを閲覧している場合は、その訪問者のお気に入りのブランド（その訪問者のプロファイルの `profile.favoritebrand` に保存されている値）と一致する品目のみがレコメンデーションされます。
+例えば、「[!UICONTROL Profile Attribute Matching]」オプションを使用して、ブランドが `profile.favoritebrand` に格納されている値またはテキストと等しい項目のみを推奨するルールを作成できます。 このようなルールでは、ある訪問者が特定のブランドのランニングショーツを閲覧している場合は、その訪問者のお気に入りのブランド（その訪問者のプロファイルの `profile.favoritebrand` に保存されている値）と一致する品目のみがレコメンデーションされます。
 
-![お気に入りのブランド](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
+![ お気に入りのブランド ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-### ジョブと求職者との一致
+### 求職者とジョブのマッチング
 
-求職者とのマッチングを試みているとします 求職者と同じ都市にいるジョブのみをレコメンデーションしたい場合。
+求職者に見合う仕事にしようとしているとしましょう。 求職者と同じ市区町村にあるジョブのみをレコメンデーションします。
 
-次の例に示すように、インクルージョンルールを使用して、訪問者のプロファイルから求人情報の検索場所をジョブリストに一致させることができます。
+次の例に示すように、インクルージョンルールを使用して、求職者の場所を訪問者のプロファイルから求人情報に一致させることができます。
 
-![ユーザーの市区町村](/help/main/c-recommendations/c-algorithms/assets/city.png)
+![ ユーザーの市区町村 ](/help/main/c-recommendations/c-algorithms/assets/city.png)
 
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-### サイズに基づく品目のレコメンデーション
+### サイズに応じた推奨項目
 
-プロファイル属性のマッチングがレコメンデーションに与える影響の視覚的な例については、電気ファンを販売する Web サイトを考えてみましょう。
+プロファイル属性のマッチングが Recommendations に与える影響の視覚的な例については、扇風機を販売する web サイトを検討してください。
 
-訪問者がこの Web サイト上の様々なファンの画像をクリックすると、各ページが `entity.size` 画像内のファンのサイズが小さいか大きいかに基づくパラメーター。
+訪問者がこの web サイト上のファンの様々な画像をクリックすると、各ページは、画像内のファンのサイズが小さいか大きいかに基づいて `entity.size` パラメーターの値を設定します。
 
-追跡するプロファイルスクリプトを作成し、 `entity.size` は「小」と「大」のどちらに設定されているかを比較して選択します。
+`entity.size` の値が small と large に設定された回数を追跡およびカウントするプロファイルスクリプトを作成したとします。
 
-その後訪問者がホームページに戻ると、小さいファンと大きいファンのどちらがクリックされたかに基づいて、フィルターされたレコメンデーションが表示されます。
+その後、訪問者がホームページに戻ると、小さなファンまたは大きなファンのどちらをクリックしたかに基づいてフィルタリングされたレコメンデーションが表示されます。
 
-Recommendationsは、Web サイトでのより多くの小規模なファンの閲覧に基づいています。
+Recommendationsは、Web サイトで多くの小さなファンを見ることに基づいています。
 
-![小さなファンのレコメンデーション](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![ 小規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendationsは、Web サイトでのより多くの大きなファンの表示に基づいています。
+Recommendationsは、Web サイトでより多くの大きなファンを見ることに基づいています。
 
-![大ファンのレコメンデーション](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![ 大規模なファンの推奨事項 ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

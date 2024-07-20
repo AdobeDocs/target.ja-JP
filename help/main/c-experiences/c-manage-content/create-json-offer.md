@@ -1,6 +1,6 @@
 ---
 keywords: json オファー；json オファーの作成
-description: で使用する JSON オファーをで作成する方法を説明します [!UICONTROL Form-Based Experience Composer].
+description: '[!UICONTROL Form-Based Experience Composer] で使用する JSON オファーをで作成する方法を説明します。'
 title: JSON オファーを作成するには
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -13,38 +13,38 @@ ht-degree: 29%
 
 # JSON オファーの作成
 
-での JSON オファーの作成 [!UICONTROL Offer Library] 。対象： [!DNL Adobe Target] で使用する [!UICONTROL Form-Based Experience Composer].
+[!UICONTROL Form-Based Experience Composer] で使用する JSON オファーを [!DNL Adobe Target] の [!UICONTROL Offer Library] で作成します。
 
-JSON オファーをフォームベースのアクティビティで使用すると、次のユースケースを実現できます [!DNL Target] SPA フレームワークまたはサーバーサイド統合で使用するために、JSON 形式でオファーを送信するには、決定が必要です。
+JSON オファーをフォームベースのアクティビティで使用すると、SPA フレームワークまたはサーバーサイド統合で使用するために JSON 形式でオファーを送信する際に [!DNL Target] ーザー決定が必要になるユースケースを可能にできます。
 
 ## JSON の考慮事項
 
 JSON オファーを使用する際は次の点を考慮してください。
 
-* JSON オファーは現在、次の場合にのみ使用できます [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Experience Targeting] （XT） アクティビティ。
-* JSON オファーは次で使用できます [フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md) のみ。
-* JSON オファーは、 [サーバーサイド API と Mobile Node.js、Java、.NET、Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}.
-* ブラウザーでは、JSON オファーは、at.js 1.2.3 （またはそれ以降）経由でのみ、を使用して取得できます [getOffer （）](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} を使用してアクションをフィルタリングする `setJson` アクション。
+* JSON オファーは現在、[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Experience Targeting] （XT）アクティビティでのみ使用できます。
+* JSON オファーは、[ フォームベースのアクティビティ ](/help/main/c-experiences/form-experience-composer.md) でのみ使用できます。
+* JSON オファーは、[ サーバーサイド API および Mobile Node.js、Java、.NET、Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} を使用している場合に直接取得できます。
+* ブラウザーでは、JSON オファーは、at.js 1.2.3 （またはそれ以降）経由でのみ取得でき、`setJson` アクションを使用してアクションをフィルタリングすることで [getOffer （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} を使用できます。
 * JSON オファーは、文字列ではなくネイティブの JSON オブジェクトとして配信されます。これらのオブジェクトを利用する際に、オブジェクトを文字列として処理し、JSON オブジェクトに変換する必要はなくなりました。
-* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は、を使用してオファーを明示的に取得するコードを記述する必要があります。 [getOffer （）](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON オファーはビジュアルオファーではないので、他のオファー（HTML オファーなど）とは異なり自動的に適用されることはありません。開発者は、[getOffer （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} を使用してオファーを明示的に取得するコードを記述する必要があります。
 
 ## JSON オファーの作成 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. クリック **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
 
-   ![オファー/「コードオファー」タブ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![ オファー/「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. クリック **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. **[!UICONTROL Create]**／**[!UICONTROL JSON Offer]**&#x200B;をクリックします。
 
-   ![offer-json 画像](assets/offer-json.png)
+   ![offer-json 画像 ](assets/offer-json.png)
 
 1. オファー名を入力します。
-1. に JSON コードを入力または貼り付けます **[!UICONTROL Code]** ボックス。
+1. **[!UICONTROL Code]** ボックスに JSON コードを入力または貼り付けます。
 1. **[!UICONTROL Save]** をクリックします。
 
 ## JSON の例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON オファーは、を使用して作成されたアクティビティでのみサポートされます [フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md). 現在、JSON オファーを使用できる唯一の方法は、直接の API/SDK 呼び出しを介することです。
+JSON オファーは、[ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用して作成されたアクティビティでのみサポートされます。 現在、JSON オファーを使用できる唯一の方法は、直接の API/SDK 呼び出しを介することです。
 
 次に例を示します。
 
@@ -81,7 +81,7 @@ success コールバックに渡すアクションは、オブジェクトの配
 ]
 ```
 
-JSON オファーを抽出するには、アクションを反復処理し、 `setJson` 次に、コンテンツ配列を反復処理します。
+JSON オファーを抽出するには、アクションを反復処理し、`setJson` アクションを含むアクションを見つけて、コンテンツ配列を反復処理します。
 
 ## ユースケース {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -133,12 +133,12 @@ adobe.target.getOffer({
 
 ## Real-time CDP プロファイル属性を使用した JSON オファーの例
 
-Real-time CDP プロファイル属性は、と共有できます [!DNL Target] HTMLオファーと JSON オファーで使用します。
+Real-time CDP プロファイル属性は、HTMLオファーと JSON オファーで使用するために [!DNL Target] と共有できます。
 
-詳しくは、を参照してください [Real-time CDP プロファイル属性のとの共有 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+詳しくは、[Real-time CDP プロファイル属性の  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) との共有を参照してください。
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-次をフィルタリングできます [!UICONTROL Offers] 「」をクリックし、JSON オファータイプ別にライブラリ化します。 **[!UICONTROL Type]** ドロップダウンリストを選択し、 **[!UICONTROL JSON]** チェックボックス。
+「**[!UICONTROL Type]**」ドロップダウンリストをクリックし、「**[!UICONTROL JSON]**」チェックボックスを選択すると、JSON オファータイプで [!UICONTROL Offers] ライブラリをフィルタリングできます。
 
-![offer-json-filter 画像](assets/offer-json-filter.png)
+![offer-json-filter 画像 ](assets/offer-json-filter.png)

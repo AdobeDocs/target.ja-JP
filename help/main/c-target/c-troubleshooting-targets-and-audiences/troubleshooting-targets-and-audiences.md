@@ -1,13 +1,13 @@
 ---
 keywords: トラブルシューティング、よくある質問、FAQ、FAQ、ターゲット、オーディエンス
-description: エクスペリエンスのターゲット設定とAdobeで使用されるオーディエンスに関するよくある質問 (FAQ) を表示します [!DNL Target] アクティビティ。
-title: Target と Audiences に関する質問や回答はどこで確認できますか。
+description: Adobeアクティビティで使用されるエクスペリエンスのターゲティングとオーディエンスに関するよくある質問（FAQ）  [!DNL Target]  表示します。
+title: ターゲットとオーディエンスに関する質問と回答
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 62%
+source-wordcount: '955'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 62%
 
 エクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）のリストです。
 
-## 方法 [!DNL Target] ターゲティングで URL を評価しますか？ {#url}
+## ターゲティング [!DNL Target]URL をどのように評価しますか？ {#url}
 
-Target では、アクティビティの作成時にオーディエンス URL のターゲティングを使用するか、オーディエンスの作成時に URL のターゲティングを使用するかによって、URL の評価方法が異なります。
+Target での URL の評価は、アクティビティの作成時にオーディエンス URL ターゲティングを使用するか、オーディエンスの作成時に URL ターゲティングを使用するかによって異なります。
 
 次の URL について考えてみます。
 
@@ -25,25 +25,25 @@ Target では、アクティビティの作成時にオーディエンス URL �
 
 ### オーディエンス URL のターゲティング
 
-オーディエンス URL のターゲット設定を適用するには、アクティビティの作成時に、エクスペリエンスページ（3 ステップのガイドによるワークフローの手順 1）の歯車アイコンをクリックし、「ページ配信」をクリックして URL を指定します。
+アクティビティの作成時にオーディエンス URL ターゲティングを適用するには、エクスペリエンス ページ（3 ステップのガイドによるワークフローの 1 つ）で、歯車アイコンをクリックし、「ページ配信」をクリックして、目的の URL を指定します。
 
-![ページ配信 URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![ ページ配信 URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-オーディエンス URL のターゲティングでは、完全に一致する URL を探します。 URL が一致する場合、Target ではそれ以上のロジックは考慮されません。 上記の URL で、アクティビティが `www.example.com`オーディエンス URL のターゲティングはクエリに依存しないので、では、次の URL に対して URL が一致します。
+オーディエンス URL のターゲティングは、完全に一致する URL を検索します。 URL が一致する場合、Target はそれ以上のロジックを考慮しません。 上記の URL でアクティビティが `www.example.com` に実行されるように設定されている場合、オーディエンス URL ターゲティングはクエリに依存しないので、この URL は次の URL と一致します。
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-URL に対するオーディエンスのターゲティングの他に、クエリで指定できる特定の値を指定することもできます。
+URL でのオーディエンスのターゲティングに加えて、クエリに含めることができる特定の値を指定することもできます。
 
-オーディエンス URL のターゲティングと、を介した URL のターゲティングが追加されました。 [!UICONTROL テンプレートルール] を URL ターゲティングとして評価する（以下の URL ターゲティングを参照）。
+[!UICONTROL Template Rules] で追加されたオーディエンス URL ターゲティングと URL ターゲティングが、URL ターゲティングとして評価されます（以下の URL ターゲティングを参照）。
 
-### URL のターゲティング {#url-targeting}
+### URL ターゲティング {#url-targeting}
 
-オーディエンスの作成時に URL ターゲティングを適用するには、 [!UICONTROL ルールを追加]をクリックし、 [!UICONTROL サイトのページ]」で、最初のドロップダウンリストからオプションを選択します ([!UICONTROL 現在のページ], [!UICONTROL 前のページ]または [!UICONTROL ランディングページ]) を選択します。 [!UICONTROL URL] 2 番目のドロップダウンリストから、評価基準を指定してから、目的の URL を指定します。
+URL ターゲティングを適用するには、オーディエンスの作成時に「[!UICONTROL Add Rule]」をクリックし、「[!UICONTROL Site Pages]」をクリックします。最初のドロップダウンリスト（[!UICONTROL Current Page]、[!UICONTROL Previous Page] または [!UICONTROL Landing Page]）からオプションを選択し、2 番目のドロップダウンリストから「[!UICONTROL URL]」を選択してエバリュエーターを指定し、目的の URL を指定します。
 
-![サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![ サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL ターゲティングは、URL を評価する一連のルールに変換します。
 
@@ -52,21 +52,21 @@ URL ターゲティングは、URL を評価する一連のルールに変換し
 * パス = `path1/path2/path3`
 * クエリ = `queryStringParam1=test123&queryStringParam2=test7`
 
-## 複雑な URL 文字列を作成する場合、はを実行します。 [!DNL Target] URL 全体を評価しますか？
+## 複雑な URL 文字列を作成する場合、URL 全体 [!DNL Target] 評価しますか？
 
-URL 文字列で同じパラメーター名を複数回使用する場合、HTTP は最初のパラメーター名を考慮し、同じ名前を持つ後続のパラメーターを無視します。
+URL 文字列で同じパラメーター名を複数回使用する場合、HTTP は最初のパラメーター名を考慮し、後続の同じ名前のパラメーターは無視します。
 
-例えば、次の URL 文字列の場合、
+例えば、次の URL 文字列の場合：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-の最初のインスタンス `Category` パラメーターが評価され、2 番目の `Category` パラメーターは無視されます。
+`Category` パラメーターの最初のインスタンスが評価され、2 番目の `Category` パラメーターは無視されます。
 
-次に示すように、複数の値を 1 つのカテゴリに関連付けることをお勧めします。
+ベストプラクティスは、次に示すように、1 つのカテゴリに複数の値を関連付けることです。
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## オーディエンスを構築する際、事前設計されたオーディエンスがなぜ [!DNL Target] ライブラリが他のカテゴリで見つかりましたか？ {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## オーディエンスを構築する場合、[!DNL Target] ライブラリの下にある事前定義済みのオーディエンスが他のカテゴリに含まれるのはなぜですか？ {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 ターゲットライブラリカテゴリの事前設計されたオーディエンスは、従来のオーディエンスで、他のカテゴリに存在します。例として、従来のターゲットライブラリ／新しい訪問者のオーディエンスは、同等の訪問者プロファイル／新しい訪問者に更新されています。
 
@@ -74,17 +74,17 @@ URL 文字列で同じパラメーター名を複数回使用する場合、HTTP
 
 ## トラフィックはオーディエンス間でどのように分割されますか。 {#section_067EEFB956E7465CBF77EC86834470AB}
 
-デフォルトでは、トラフィックはエクスペリエンス間で等しく分割されます。しかし、対象の比率を各エクスペリエンスに設定できます。この場合、乱数が生成され、その乱数を使用して、表示するエクスペリエンスが選択されます。結果の割合が指定したターゲットと完全に一致しないこともありますが、トラフィックが多いほど、エクスペリエンスがターゲットに近い割合で分割されます。
+デフォルトでは、トラフィックはエクスペリエンス間で等しく分割されます。ただし、エクスペリエンスごとにパーセンテージのターゲットを指定できます。 この場合、乱数が生成され、その乱数を使用して、表示するエクスペリエンスが選択されます。結果の割合が指定したターゲットと完全に一致しないこともありますが、トラフィックが多いほど、エクスペリエンスがターゲットに近い割合で分割されます。
 
 ## ユーザーが、複数のオーディエンスを対象とする複数のエクスペリエンスを含んだアクティビティの資格を満たす場合、どのエクスペリエンスが表示されますか。 {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-そのユーザーは、アクティビティの[!UICONTROL ターゲット]ページに表示される最初のエクスペリエンス／オーディエンスの対象になります。
+ユーザーは、アクティビティの [!UICONTROL Target] ページに表示される最初のエクスペリエンス/オーディエンスに該当します。
 
 例えば、次の図では、Windows デバイスを使用するカリフォルニアのユーザーはエクスペリエンス A（Windows オーディエンス）とエクスペリエンス C（カリフォルニアオーディエンス）の両方の対象になります。ターゲットページではエクスペリエンス A の方がエクスペリエンス C より上に表示されるため、このユーザーにはエクスペリエンス A が表示されます。
 
-![audiences_order 画像](assets/audiences_order.png)
+![audiences_order 画像 ](assets/audiences_order.png)
 
-## [!DNL Target]、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスライブラリに異なる名前を付けるのはなぜですか。 {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## [!DNL Target]、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスの名前が異なるのはなぜですか？ {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 [!DNL Target] で名前を付けられたオーディエンスは一意ですが、[!DNL AAM] および [!DNL Audience Library] では、複数のオーディエンスに同じ名前を付けることができます（異なるフォルダーにある場合）。[!DNL AAM] または [!DNL Audience Library] のオーディエンスに対応するオーディエンス名が [!DNL Target] で検出された場合、[!DNL Target] はその名前に「#&lt;number>」を追加します。
 
@@ -94,15 +94,15 @@ URL 文字列で同じパラメーター名を複数回使用する場合、HTTP
 
 「新しい訪問者」および「再訪問者」など、一部の Target オーディエンスは事前定義されています。これらの事前定義されたオーディエンスは、ユーザーが名前を変更することはできません。
 
-## すべてのプロファイルパラメーターが [!DNL Target] ユーザーインターフェイス？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## [!DNL Target] ユーザーインターフェイスにすべてのプロファイルパラメーターが表示されないのはなぜですか。 {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合、[!UICONTROL Profile Update] API メソッドを使用して渡すことができます。詳しくは、Adobe Target API ドキュメントの [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) を参照してください。
+[!DNL Target] には、mbox 呼び出しごとに 50 個の独自のプロファイル属性という制限があります。50 個を超えるプロファイル属性を [!DNL Target] に渡す必要がある場合は、[!UICONTROL Profile Update] API メソッドを使用して渡すことができます。 詳しくは、Adobe Target API ドキュメントの [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) を参照してください。
 
 ## 訪問者に、提供されないはずの AP アクティビティのエクスペリエンスが表示されるのはなぜですか。 {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Automated Personalizationアクティビティは、セッションごとに評価されます。特定のエクスペリエンスに対する条件を満たしたアクティブなセッションがあり、そこに新しいオファーが追加されると、ユーザーには、以前まで表示されていたオファーとともに新しいコンテンツが表示されます。こうしたユーザーは、それまでに対象のエクスペリエンスの条件を満たしていたので、セッションの有効期間中は引き続きそのエクスペリエンスが表示されます。ページ訪問のたびにアクティビティを評価したい場合は、エクスペリエンスのターゲット設定（XT）のアクティビティタイプを使用してください。
 
-## API を介してオーディエンスに加えられた変更が [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## API を使用して作成されたオーディエンスに対して行われた変更が [!DNL Target] UI に反映されないのはなぜですか？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 オファーやプロファイルスクリプトとは異なり、Target Standard で作成されたオーディエンスに API で加えられた変更は、現時点では、Target UI には反映されません。
 

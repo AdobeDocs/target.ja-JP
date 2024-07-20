@@ -5,7 +5,7 @@ title: ' [!DNL Target]  のお知らせやイベント情報について'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 100%
 

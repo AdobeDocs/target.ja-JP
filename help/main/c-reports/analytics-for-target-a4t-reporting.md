@@ -1,12 +1,12 @@
 ---
 keywords: analytics for target;A4T;レポートソースとしての analytics
-description: Analytics を使用して [!DNL Target] (A4T)。 A4T 統合により、お客様のAdobeで使用できる堅牢なAdobe Analyticsレポートにアクセスできます [!DNL Target] アクティビティ。
-title: Analytics を使用する方法 [!DNL Target] (A4T) レポート
+description: Analytics for  [!DNL Target]  （A4T）の使用方法について説明します。 A4T 統合により、Adobeアクティビティの堅牢なAdobe Analytics レポート  [!DNL Target]  アクセスできます。
+title: Analytics for [!DNL Target]  （A4T） レポートの使用方法？
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '86'
 ht-degree: 65%
 
 ---

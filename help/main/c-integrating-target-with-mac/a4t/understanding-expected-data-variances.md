@@ -1,13 +1,13 @@
 ---
 keywords: データの相違;analytics;差異;相違;A4T;analytics for target;レポートソースとしての analytics;食い違い;不整合
-description: Adobe間で予想されるデータの相違について説明します [!DNL Target] および Analytics を [!DNL Target] (A4T)：データの相違を完全に排除します。
+description: ' [!DNL Target]  Analytics for [!DNL Target]  （A4T）を使用しない場合にAdobeと Analytics の間で予期されるデータの相違について説明します。これにより、データの相違を完全に排除します。'
 title: Analytics と A4T の間で予期されるデータの相違とは
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 96%
+source-wordcount: '730'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,9 @@ A4T では、Analytics と Target の両方のアクティビティレポート�
 
 * A4T では、Target ヒット（ページの上部）が発生しても、Analytics ヒット（ページの下部）が発生しない可能性があります。例えば、訪問者がページを読み込んだが、Analytics 呼び出しがトリガーされる前にブラウザーを閉じるとします。この場合、A4T は Target ヒットをデータから除外します。実際の Analytics 呼び出しが存在しない場合に Target ヒット（ページの先頭）を Analytics ヒットとしてカウントすると、Analytics のデータセットとの不一致を生み出します（訪問者の膨張など）。
 
-   Target でリダイレクトテストがトラフィックを 50/50（または 25/25/25/25 など）に分割するように設定されている場合、ユーザーの行動が均等に分割されないことがあります。不均等な分割が表示される場合は、単に 1 組のユーザーのグループが、他のグループに比べて、ランディングページ上での Analytics 呼び出しの実行により多く失敗したことを意味します。この 1 組のグループに対する Analytics 呼び出しの実行の失敗により、Target ヒットでそのユーザーが除外され、不均等が生まれます。
+  Target でリダイレクトテストがトラフィックを 50/50（または 25/25/25/25 など）に分割するように設定されている場合、ユーザーの行動が均等に分割されないことがあります。不均等な分割が表示される場合は、単に 1 組のユーザーのグループが、他のグループに比べて、ランディングページ上での Analytics 呼び出しの実行により多く失敗したことを意味します。この 1 組のグループに対する Analytics 呼び出しの実行の失敗により、Target ヒットでそのユーザーが除外され、不均等が生まれます。
 
-   アドビでは、今後も、Adobe Experience Platform 上の A4T に対するアドビチームの作業として、この問題に取り組んでいきます。アドビチームは、様々な時間にページ上で発生するこれらの様々なイベントに対処する方法の選定を進めています。
+  アドビでは、今後も、Adobe Experience Platform 上の A4T に対するアドビチームの作業として、この問題に取り組んでいきます。アドビチームは、様々な時間にページ上で発生するこれらの様々なイベントに対処する方法の選定を進めています。
 
 ## A4T を&#x200B;*利用しない*&#x200B;場合に予期されるデータの相違 {#expected-not-using-a4t}
 

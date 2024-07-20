@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 95%
 
 ### at.js
 
-* [at.js FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [at.js FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=ja)
 * [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。

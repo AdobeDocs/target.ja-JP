@@ -6,8 +6,8 @@ feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 100%
+source-wordcount: '1523'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Target には、複数のアクティビティタイプがあります。次の�
 | [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 自動ターゲットでは、高度な機械学習を使用して、マーケターが定義したパフォーマンスの高い複数のエクスペリエンスを特定します。 自動ターゲットアクティビティは、コンテンツをパーソナライズしコンバージョンを促進するために、訪問者個人の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。<br>**メモ：**[自動ターゲットアクティビティ内にレコメンデーションを](/help/main/c-recommendations/recommendations-as-an-offer.md)含めることができるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [Analytics データの使用](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)（A4T） | レポートソースとして [!DNL Adobe Analytics] を使用するようアクティビティを設定することができます。このタイプのアクティビティでは、[!DNL Adobe Experience Cloud] アカウントを [!DNL Analytics] と [!DNL Target] の両方にリンクする必要があります。 |
 | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing（MVT）では、ページ上の要素内のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせと、アクティビティの成功に最も効果が高い要素を特定します。 |
-| [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
+| [エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md) | エクスペリエンスのターゲット設定（XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。<br>**メモ：**[エクスペリエンスターゲット設定アクティビティ内にレコメンデーション](/help/main/c-recommendations/recommendations-as-an-offer.md)を組み込めるようになりました。この機能を使用するには、[Target Premium ライセンス](/help/main/c-intro/intro.md#premium)が必要です。 |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![（Target Premium）](/help/main/assets/premium.png) | Automated Personalization（AP）では、オファーやメッセージを組み合わせて、高度な機械学習を使用することで、個々の顧客プロファイルに合わせて各訪問者に様々なバリエーションを表示しながら、コンテンツをパーソナライズしてコンバージョンを促進していきます。 |
 | [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![（Target Premium）](/help/main/assets/premium.png) | レコメンデーションでは、Web サイトでのユーザーのアクティビティを基にして、そのユーザーに商品を提案する方法を決定します。<br>例えば、リュックサックを購入した顧客に対して、ハイキングシューズやトレッキング用のステッキの購入を提案できます。特定の商品を購入した顧客が購入している他の商品を特定できるアルゴリズムを使用して、多くの場合同時に購入されている商品を示すレコメンデーションを作成できます。また、特定のビデオを視聴した訪問者が視聴している他のビデオを特定できるアルゴリズムを使用して、訪問者が視聴したビデオと似たビデオを提案することで、訪問者がメディアサイト上でより多くの時間滞在するように誘導することもできます。<br>**メモ：** A/B テスト（自動配分と自動ターゲットを含む）アクティビティおよびエクスペリエンスターゲット設定（XT）アクティビティ内にレコメンデーションを組み込めるようになりました。[ オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)を参照してください。 |
 
@@ -107,7 +107,7 @@ Web ページをテストする場合は、場所の様々なオファーを使�
 
 以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
 
-### アクティビティタイプ（9:03）![概要バッジ](/help/main/assets/overview.png)
+### アクティビティタイプ（9:03） ![ 概要バッジ ](/help/main/assets/overview.png)
 
 このビデオでは、[!DNL Target Standard/Premium] で利用できるアクティビティタイプについて説明しています。
 

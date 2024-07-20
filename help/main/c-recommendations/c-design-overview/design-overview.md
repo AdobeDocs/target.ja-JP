@@ -1,30 +1,30 @@
 ---
 keywords: レコメンデーションのデザイン;テンプレート;デザインの作成;配信;出力
-description: Adobe [!DNL Target] Recommendationsを使用して、レコメンデーションがページに表示される方法を定義します（1X4、1X6、2X2 など）。
-title: Recommendationsのデザインの使用方法
+description: Adobe [!DNL Target] Recommendationsでデザインを使用して、レコメンデーションがページ上でどのように表示されるかを定義する方法を説明します（1X4、1X6、2X2 など）。
+title: Recommendationsでのデザインの使用方法
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 32%
+source-wordcount: '201'
+ht-degree: 19%
 
 ---
 
 # デザインの概要
 
-のデザイン [!DNL Adobe Target Recommendations] レコメンデーションがページに表示される方法を定義します。 デザインでは、レコメンデーションのレイアウトと形式を定義して、訪問者のエンゲージメント、コンバージョンおよび売上高を改善します。
+[!DNL Adobe Target Recommendations] のデザインは、ページ上でのレコメンデーションの表示方法を定義します。 デザインは、訪問者のエンゲージメント、コンバージョンおよび売上高を向上させるために、レコメンデーションのレイアウトと形式を定義します。
 
-[!DNL Recommendations] には、いくつかのデフォルト（事前ビルド）デザインが付属していますが、独自のデザインを作成することもできます。
+[!DNL Recommendations] くつかのデフォルト（ビルド前）デザインが用意されていますが、独自のデザインを作成することもできます。
 
-[!DNL Target] では、次の画像のように、レコメンデーションの詳細なデザインを配信できます。このデザインには HTML、JavaScript、CSS などが含まれます。このデザインは、4 x 1 デザインと呼ばれます。1 行に 4 つのスペース。
+次の図に示 [!DNL Target] ように、レコメンデーションの完全なルックアンドフィールを提供できます。 デザインには、HTML、JavaScript、CSS を含めることができます。 このデザインは 4 x 1 デザインと呼ばれ、1 行に 4 つのスペースがあります。
 
-![velocity_example 画像](assets/velocity_example.png)
+![velocity_example 画像 ](assets/velocity_example.png)
 
 Target では、電子メールメッセージ、IoT（モノのインターネット）デバイス、コンソール、音声サービス（Amazon Alexa または Google Home）の用途で利用できる JSON オブジェクトとしてレコメンデーションを送信することもできます。
 
-デザインは、次の事項を決定するのに役立ちます。
+デザインは、次の項目を判断するのに役立ちます。
 
-* レコメンデーションに表示する品目の数
-* 項目を（行、列、グリッド、またはテーブルに）表示する方法
-* 訪問者に対して、指定した数の項目のみの表示を制限するか、訪問者が複数の項目をスクロールできるようにしますか。
+* レコメンデーションに表示する項目数
+* 項目の表示方法（行、列、グリッド、またはテーブル）
+* 指定した数の項目のみを表示するように訪問者を制限するか、複数の項目をスクロールできるようにするか。

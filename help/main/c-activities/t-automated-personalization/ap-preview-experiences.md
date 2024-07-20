@@ -1,22 +1,22 @@
 ---
-keywords: Automated Personalization;ap;preview；エクスペリエンスの除外
-description: 各エクスペリエンスを [!UICONTROL Automated Personalization] (AP) でのアクティビティ [!DNL Adobe Target] の使用 [!UICONTROL Visual Experience Composer] (VEC) を参照してください。
-title: プレビュー方法 [!UICONTROL Automated Personalization] VEC のエクスペリエンス？
+keywords: Automated Personalization;ap；プレビュー；エクスペリエンスを除外
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、の [!UICONTROL Automated Personalization] （AP）アクティビティの各エクスペリエンスをプレビュ  [!DNL Adobe Target]  する方法について説明します。'
+title: VEC で [!UICONTROL Automated Personalization] エクスペリエンスをプレビューするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 35%
+source-wordcount: '237'
+ht-degree: 18%
 
 ---
 
-# でエクスペリエンスをプレビュー [!UICONTROL Automated Personalization] アクティビティ [!UICONTROL Visual Experience Composer] (VEC)
+# [!UICONTROL Visual Experience Composer] （VEC）での [!UICONTROL Automated Personalization] アクティビティのエクスペリエンスのプレビュー
 
-理由： [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) アクティビティでは、ページ上で複数のオファーを比較できます。各エクスペリエンスのページをプレビューできると便利です。
+[!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティではページ上で複数のオファーを比較するので、各エクスペリエンスのページをプレビューできると便利です。
 
-1. 次から： [!UICONTROL Visual Experience Composer] (VEC)、 **[!UICONTROL プレビュー]**.
+1. [!UICONTROL Visual Experience Composer] （VEC）から、「**[!UICONTROL Preview]**」をクリックします。
 
    ![プレビューアイコン](/help/main/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -24,24 +24,24 @@ ht-degree: 35%
 
    ![エクスペリエンスをプレビュー](/help/main/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
-1. リスト内の特定のエクスペリエンスをクリックして、そのエクスペリエンスを表示します。
+1. リスト内の特定のエクスペリエンスをクリックすると、そのエクスペリエンスが表示されます。
 
-1. （条件付き）1 つ以上のエクスペリエンスをアクティビティから除外するには、「**[!UICONTROL 除外]**」アイコンをクリックします。
+1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、「**[!UICONTROL Exclude]**」アイコンをクリックします。
 
    ![除外アイコン](/help/main/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   The [!UICONTROL コンテンツを管理] ダイアログボックスが表示されます。
+   [!UICONTROL Manage Content] ダイアログボックスが表示されます。
 
    ![コンテンツを管理ダイアログボックス](/help/main/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
-   エクスペリエンスを除外するには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL 除外]**」アイコンをクリックします。
+   エクスペリエンスを除外するには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL Exclude]**」アイコンをクリックします。
 
-   複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスをオンにして、 **[!UICONTROL 除外]** アイコンをクリックします。
+   複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスをオンにし、リストの右上にある **[!UICONTROL Exclude]** のアイコンをクリックします。
 
-   デフォルトでは、すべてのエクスペリエンスが [!UICONTROL Automated Personalization] アクティビティ。 除外したエクスペリエンスを含めるには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL 含める]**」アイコンをクリックします。
+   デフォルトでは、すべてのエクスペリエンスが [!UICONTROL Automated Personalization] アクティビティに含まれています。 除外されたエクスペリエンスを含めるには、エクスペリエンスの上にマウスポインターを置いて、「**[!UICONTROL Include]**」アイコンをクリックします。
 
-   除外した複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスをオンにして、 **[!UICONTROL 次を含む]** アイコンをクリックします。
+   除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスをオンにし、リストの右上にある「エクス **[!UICONTROL Include]** リエンス」アイコンをクリックします。
 
-1. クリック **[!UICONTROL 作成]** に戻る [!UICONTROL Visual Experience Composer] 追加の変更を加えるか、 **[!UICONTROL 次へ]** に行く [!UICONTROL ターゲット設定] 手順
+1. 「**[!UICONTROL Compose]**」をクリックして [!UICONTROL Visual Experience Composer] に戻り、追加の変更を加えます。または、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Targeting] の手順に進みます。

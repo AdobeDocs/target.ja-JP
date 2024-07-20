@@ -6,8 +6,8 @@ feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '895'
+ht-degree: 82%
 
 ---
 
@@ -21,26 +21,26 @@ ht-degree: 100%
 
 ## クリックの追跡のセットアップ {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. アクティビティの[!UICONTROL 目標と設定]ページで目標を設定する際に、**[!UICONTROL コンバージョン]**&#x200B;成功指標を選択します。
-1. アクションの場合、「**[!UICONTROL 要素をクリック]**」を選択し、「**[!UICONTROL 要素を選択]**」をクリックします。
+1. アクティビティの [!UICONTROL Goals & Settings] ページで目標を設定する際に、**[!UICONTROL Conversion]** の成功指標を選択します。
+1. アクションの場合は、「**[!UICONTROL Clicked an element]**」を選択し、「**[!UICONTROL Select elements]**」をクリックします。
 
-   [!UICONTROL Visual Experience Composer]（VEC）でページが開きます。
+   [!UICONTROL Visual Experience Composer] （VEC）にページが開きます。
 
 1. 追跡する要素を選択します。
 
    要素の選択に関するヒントについては、次の「*注意点*」の節を参照してください。
 
-1. 画面上部にある「**[!UICONTROL 保存]**」をクリックして、選択を保存します。
+1. 画面上部にある「**[!UICONTROL Save]**」をクリックして、選択を保存します。
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
 ## 選択された要素パネル {#selected-elements}
 
-[!UICONTROL A/B テスト]、[!UICONTROL エクスペリエンスのターゲット設定]（XT）、[!UICONTROL Automated Personalization]（AP）および[!UICONTROL 多変量分析テスト]（MVT）アクティビティの場合、[!UICONTROL 選択された要素]パネルの右側に、クリックの追跡用に選択されたすべての要素が一覧表示されます。
+[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Test] （MVT）アクティビティの場合、右側のクリックの追跡用に選択された要素が [!UICONTROL Selected Elements] パネルにリストされます。
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL 選択された要素]パネルの要素にマウスポインターを置くと、いくつかの操作を適用できます。以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL Selected Elements] パネルの要素にマウスポインターを置くと、いくつかの操作を適用できます。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ### 選択された要素のポップアップ
 
-クリックの追跡用の複数の要素を選択したら、アクティビティの[!UICONTROL 目標と設定]ステップの[!UICONTROL 選択した要素]リンクをクリックして、クリックの追跡用に選択した要素の完全なリストを表示します。リストには、要素への完全な DOM パスが含まれています。選択された要素がクリックの追跡用に使用されていることを検証できます。
+クリックの追跡に複数の要素を選択した後、アクティビティの [!UICONTROL Goals & Settings] のステップで「[!UICONTROL Elements Selected]」リンクをクリックすると、クリックの追跡に選択された要素の完全なリストを表示できます。 リストには、要素への完全な DOM パスが含まれています。選択された要素がクリックの追跡用に使用されていることを検証できます。
 
 ![選択された要素リンク](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -66,32 +66,32 @@ ht-degree: 100%
 
 * DOM パス機能は、クリックの追跡を設定するときに使用できます。ページで要素をクリックすると、VEC オプションメニューが表示されます。また、対応する DOM パスがページの下部に表示されます。DOM パスを使用すると、選択した要素に関する情報（タイプ、ID、クラス）をすばやく確認したり、DOM パスを上下に移動して目的の要素を選択したりできます。
 
-   ![DOM パスの解説](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM パスの解説](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   アクティビティ作成ワークフローのステップ 1 でエクスペリエンスを作成するときと同様に、ページ下部の DOM パスセレクターで要素を選択できます。DOM パスから要素を選択すると、VEC 内の対応する要素が「選択済み」と表示されます。選択した要素の選択を解除するには、DOM パスセレクターの要素を再度クリックするか、VEC 内の「選択済み」ボックスをクリックします。
+  アクティビティ作成ワークフローのステップ 1 でエクスペリエンスを作成するときと同様に、ページ下部の DOM パスセレクターで要素を選択できます。DOM パスから要素を選択すると、VEC 内の対応する要素が「選択済み」と表示されます。選択した要素の選択を解除するには、DOM パスセレクターの要素を再度クリックするか、VEC 内の「選択済み」ボックスをクリックします。
 
-   詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
+  詳しくは、*Visual Experience Composer のオプション*&#x200B;の [DOM パスを使用した要素のナビゲート](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)を参照してください。
 
-* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。この異なるページは、[複数ページ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)と [!DNL at.js] を実装する必要があります。
+* 異なるページを参照して、コンテンツを変更しないページのクリックを追跡できます。[ 複数ページ機能 ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を使用して、この異なるページをアクティビティに含め、[!DNL at.js] れを実装する必要があります。
 * 1 つ以上の要素を選択した場合、参加者が選択した要素のいずれかをクリックすると、クリックがカウントされます。各項目を個別にカウントする場合、要素ごとに個別の成功指標を設定します。ページ上の複数の要素をクリックして 1 つの項目をカウントするには、CSS 要素セレクターを編集して複数の要素と一致させます。
 * 追跡する要素のレベルを選択していることを確認してください。例えば、ボタンを指定する場合、ボタンテキストでなくリンクを選択していることを確認します。
 * クリックイベントは、そのクリックと同じページの [!DNL Target] に送信されます。
-* クリック追跡指標が [!UICONTROL Analytics for Target]（A4T）アクティビティの目標指標の場合は、訪問者がページの読み込みから 60 秒以内にこの要素をクリックしないと、指標は追跡されません。
+* クリック追跡指標が [!UICONTROL Analytics for Target] （A4T）アクティビティの目標指標の場合は、訪問者がページの読み込みから 60 秒以内にこの要素をクリックしないと、指標は追跡されません。
 * 次に示すエスケープ文字がセレクターに含まれる要素では、クリックの追跡は機能しません。
 
-   | 文字 | 説明 |
-   |---|---|
-   | # | 番号記号またはハッシュ |
-   | : | コロン |
-   | 。 | ピリオド |
-   | $ | ドル記号 |
-   | `[ ]` | 角括弧 |
+  | 文字 | 説明 |
+  |---|---|
+  | # | 番号記号またはハッシュ |
+  | : | コロン |
+  | 。 | ピリオド |
+  | $ | ドル記号 |
+  | `[ ]` | 角括弧 |
 
 * [!DNL at.js] のクリック追跡に加えて [!DNL Analytics] AppMeasurement も使用した場合、[!DNL at.js] のクリック追跡によって他のすべてのクリックイベントハンドラーがキャンセルされます。その結果、AppMeasurement のクリックハンドラーは実行されなくなります。
 
-   [!DNL at.js] では、基になる要素が `A`（リンク）タグまたは `FORM` タグの場合にクリックの追跡のための特別な処理が実行されます。
+  [!DNL at.js] では、基になる要素が `A`（リンク）タグまたは `FORM` タグの場合にクリックの追跡のための特別な処理が実行されます。
 
-   クリックの追跡イベントが [!DNL at.js]（リンク）タグまたは `A` タグに付加されている場合、次の手順が `FORM` によって実行されます。
+  クリックの追跡イベントが [!DNL at.js]（リンク）タグまたは `A` タグに付加されている場合、次の手順が `FORM` によって実行されます。
 
    1. `event.preventDefault()` を呼び出す。
 
@@ -102,7 +102,7 @@ ht-degree: 100%
       * `A`（リンク）タグ：デフォルトの動作では、HREF 属性に定義されている URL に移動します。
       * `FORM` タグ：デフォルトの動作では、フォームを送信します。
 
-   このデフォルトの動作により、[!DNL Analytics] のクリックの追跡が妨げられることがあります。[!DNL Analytics] を使用している場合は、[!DNL Target] ではなく [!DNL Analytics] を使用してクリックの追跡を行う必要があります。
+  このデフォルトの動作により、[!DNL Analytics] のクリックの追跡が妨げられることがあります。[!DNL Analytics] を使用している場合は、[!DNL Target] ではなく [!DNL Analytics] を使用してクリックの追跡を行う必要があります。
 
 * クリックの追跡は、ページおよびアクティビティ URL が異なるプロパティに属しているページには記録されません。エンタープライズユーザー権限は [!DNL Target Premium] の機能です。詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 このビデオでは、クリックの追跡の成功指標の作成について説明します。
 
 * 「目標」指標の理解
-* [!UICONTROL コンバージョン]、[!UICONTROL 売上高]、[!UICONTROL エンゲージメント]の各指標の理解と作成
+* [!UICONTROL Conversion]、[!UICONTROL Revenue]、[!UICONTROL Engagement] の指標の理解と作成
 * クリック追跡指標の構築
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

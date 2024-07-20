@@ -1,7 +1,7 @@
 ---
 keywords: カタログ検索；カタログ；検索；除外；コレクション；フィルター；recommendations
-description: の使用方法を学ぶ [!DNL Recommendations] [!UICONTROL Catalog Search] 製品やコンテンツを見つけるには、カタログから項目を削除するなどの操作を実行します。
-title: の使用方法 [!DNL Recommendations] [!UICONTROL Catalog Search]?
+description: ' [!DNL Recommendations] [!UICONTROL Catalog Search] を使用して、製品やコンテンツを検索したり、カタログから項目を削除したりする方法を説明します。'
+title: ' [!DNL Recommendations] [!UICONTROL Catalog Search] の使い方'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 hide: true
@@ -16,21 +16,21 @@ ht-degree: 23%
 
 # [!UICONTROL Catalog Search]
 
-この [!UICONTROL Catalog Search] のページ [!DNL Adobe Recommendations] は、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
+[!DNL Adobe Recommendations] の [!UICONTROL Catalog Search] ページは、カタログ内の製品またはコンテンツを見つけるのに役立ちます。 このページで実行できる最も基本的なタスクは、項目を検索することです。 さらに、環境の変更、ファセットのフィルタリング、テーブル内の列の変更、新しい検索ファセットの追加などを行うことができます。
 
 カタログは、製品セット（エンティティ）全体を表します。カタログには多数のコレクションを含めることができるので、商品を論理的なグループにまとめて整理できます。
 
 ## アクセス [!UICONTROL Catalog Search]
 
-にアクセスするには [!UICONTROL Catalog Search] ページ、クリック **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+[!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL Catalog Search]** をクリックします。
 
-![カタログ検索ページ](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+![ カタログ検索ページ ](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## 簡易検索の実行
 
-1. 検索語句を「」に入力します **[!UICONTROL Search In]** フィールド。
+1. 検索語句を「**[!UICONTROL Search In]**」フィールドに入力します。
 
-1. （オプション）の下向き矢印をクリックしたときに表示されるオプション メニューから検索オプションを選択して、検索を絞り込むことができます [!UICONTROL Search In] フィールド。
+1. （オプション）検索フィールドの下向き矢印をクリックしたときに表示されるオプション メニューから検索オプションを選択して、検索を絞り込むことがで [!UICONTROL Search In] ます。
 
    次の検索オプションがあります。
 
@@ -46,7 +46,7 @@ ht-degree: 23%
    >
    >現在、属性のタイプを変更できる機能はありません。 変更をおこなうには、[顧客のイシューを開く](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)、タイプを文字列から数値に変更する必要がある属性を参照します。
 
-   また、フィルターを使用して、目的の製品を見つけることもできます。 例えば、 **[!UICONTROL Show Filters]** アイコン （ ![フィルターアイコンを表示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）、展開 [!UICONTROL Collections] ファセットを開き、1 つ以上のコレクションを選択すると、カタログ内の選択したコレクションに属するすべての製品が表示されます。
+   また、フィルターを使用して、目的の製品を見つけることもできます。 例えば、「**[!UICONTROL Show Filters]**」アイコン（![ 「フィルターを表示」アイコン ](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）をクリックし、[!UICONTROL Collections] ファセットを展開して 1 つ以上のコレクションを選択すると、選択したコレクションに属するすべての製品がカタログに表示されます。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ ID、名前、メッセージ、カテゴリなど、個々の項目の詳細を
 
 ## カタログを更新
 
-カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、に従って更新されます [指定されたスケジュール](/help/main/c-recommendations/c-products/feeds.md#steps).
+カタログのインデックスは、最初のフィードをアップロードすると自動的に作成され、[ 指定されたスケジュール ](/help/main/c-recommendations/c-products/feeds.md#steps) に従って更新されます。
 
 カタログは、フィードファイル、API または mbox の更新を介して更新を受け取ると、自動的に更新されます。更新は通常、1 時間以内に完了します。 更新が進行中の場合、最も新しく更新を開始した時間が表示されます。更新が進行中でない場合、最も新しく更新を開始および終了した時間が表示されます。
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## 環境の変更
 
-[環境](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理して、管理と環境別レポートを容易にできます。
+[ 環境 ](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
 
-1. 「フィルターを表示」アイコン（ ![フィルターアイコンを表示](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ）に設定します。
+1. 「フィルターを表示」アイコン（![ フィルターを表示アイコン ](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）をクリックします。
 
-1. から目的の環境を選択します **[!UICONTROL Environment]** ドロップダウンリスト。
+1. **[!UICONTROL Environment]** ドロップダウンリストから目的の環境を選択します。
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 列を変更
 
-でアクティブな列を一時的に変更できます [!UICONTROL Catalog Search] ページ。
+[!UICONTROL Catalog Search] ページ上のアクティブな列を一時的に変更できます。
 
-1. 「」をクリックします **[!UICONTROL Customize Table]** アイコン （  ![「テーブルをカスタマイズ」アイコン](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ）に設定します。
+1. **[!UICONTROL Customize Table]** アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/c-recommendations/c-products/assets/icon-customize-table.png)）をクリックします。
 
 1. 表示または非表示にする列を選択または選択解除します。
 

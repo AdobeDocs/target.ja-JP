@@ -5,8 +5,8 @@ feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 100%
+source-wordcount: '2480'
+ht-degree: 98%
 
 ---
 
@@ -146,7 +146,7 @@ Digital Asset Manager。Target でコンテンツとして使用されるアイ�
 
 **拡張 Experience Composer**
 
-[!UICONTROL 拡張 Experience Composer] は、まだ [!UICONTROL  実装に含まれていない iframe バスティングサイトまたはページのエクスペリエンスの編集を支援する、]Visual Experience Composer[!DNL Target] の拡張です。[!UICONTROL Visual Experience Composer] でページを開くうえで問題がある場合は、[!UICONTROL 拡張 Experience Composer] を試してみてください。
+[!UICONTROL Enhanced Experience Composer] は [!UICONTROL Visual Experience Composer] の拡張機能で、iframe バスティングサイトまたはまだ [!DNL Target] 実装が含まれていないページのエクスペリエンスを編集するのに役立ちます。 [!UICONTROL Visual Experience Composer] でページを開く際に問題が発生した場合は、[!UICONTROL Enhanced Experience Composer] を試してください。
 
 **Enterprise ユーザーの権限**
 
@@ -170,7 +170,7 @@ Digital Asset Manager。Target でコンテンツとして使用されるアイ�
 
 **エクスペリエンスのターゲット設定**
 
-エクスペリエンスのターゲット設定（XT）では、マーケティング担当者が定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
+エクスペリエンスのターゲット設定（XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
 ## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
@@ -196,7 +196,7 @@ Visual Experience Composer が使用できない、または使用が実用的�
 
 アクティビティの成功を示すコンバージョンまたは結果。ベストプラクティスは、必ず何らかの意味で向上が図れる目標を設定してからテストを実行することです。
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## 時間 {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **ホスト**
 

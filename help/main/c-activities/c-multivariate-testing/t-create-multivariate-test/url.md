@@ -1,33 +1,33 @@
 ---
 keywords: 多変量分析テスト；アクティビティ URL
-description: テストで使用され、 [!UICONTROL 多変量分析テスト] アクティビティは [!DNL Adobe Target].
-title: アクティビティ URL とは [!UICONTROL 多変量分析テスト] (MVT) アクティビティ
+description: テストで使用され、[!UICONTROL Multivariate Test] しいアクティビティが  [!DNL Adobe Target] を使用して設計されたときに開くページを決定するアクティビティ URL を指定する方法を説明します。
+title: '[!UICONTROL Multivariate Test] （MVT）アクティビティのアクティビティ URL とは何ですか？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 77%
+source-wordcount: '278'
+ht-degree: 34%
 
 ---
 
 # アクティビティ URL
 
-アクティビティ URL は、[!UICONTROL 多変量分析テスト]（MVT）で使用され、[!DNL Adobe Target] でテストが設計された場合に表示されるページを指定します。
+アクティビティ URL は、[!UICONTROL Multivariate Test] （MVT）で使用され、テストが [!DNL Adobe Target] でデザインされる際に開くページを決定します。
 
-[アクティビティ作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中にアクティビティ URL の入力を求められたら、URL を指定します。`https://` を含む完全な URL を入力して、「**[!UICONTROL 次へ]**」をクリックします。
+[アクティビティ作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)中にアクティビティ URL の入力を求められたら、URL を指定します。完全な URL （`https://` を含む）を入力し、「**[!UICONTROL Next]**」をクリックします。
 
 >[!NOTE]
 >
 >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `https://www.adobe.com`] と [!DNL `http://www.adobe.com`] の両方が一致します。
 
-デフォルトでは、[!UICONTROL Visual Experience Composer]（VEC）は [Visual Experience Composer 設定](/help/main/administrating-target/visual-experience-composer-set-up.md)で指定されているページを開きます。アクティビティ作成中に、異なるページを指定することもできます。
+デフォルトでは、[!UICONTROL Visual Experience Composer] （VEC）は [Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
 
-VEC を開いた後に異なるページを表示するには、「**[!UICONTROL 設定]**」アイコンをクリックして「**[!UICONTROL ページ配信]**」を選択し、URL を指定します。
+VEC が開いた後に別のページを表示するには、**[!UICONTROL Configure]** アイコンをクリックして「**[!UICONTROL Page Delivery]**」を選択し、URL を指定します。
 
 ![ページ配信ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
-アクティビティにさらにページまたはセクションを追加するには、「**[!UICONTROL テンプレートルールを追加]**」をクリックします。
+「**[!UICONTROL Add Template Rule]**」をクリックして、アクティビティにさらにページまたはセクションを追加します。
 
 追加のルールは、以下のいずれかに基づいています。
 
@@ -38,15 +38,15 @@ VEC を開いた後に異なるページを表示するには、「**[!UICONTROL
 * クエリ
 * パラメーター
 
-追加のルールを、AND または OR でアクティビティ URL に結合できます。 追加するすべてのルールは、AND を使用して互いに評価されます。
+追加のルールは、AND または OR を使用してアクティビティ URL に結合できます。 追加したすべてのルールは、AND で相互に評価されます。
 
-終了したら「**[!UICONTROL 保存]**」をクリックします。
+完了したら「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
-> の JavaScript コードを含まないサイトの URL を入力すると、ページ要素を選択できません。[!DNL Target]
+>[!DNL Target] JavaScript コードを含まないサイトの URL を入力した場合は、ページ要素を選択できません。
 
-デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。**[!UICONTROL Visual Experience Composer]** を使用してこのような要素を変更するには、「[!UICONTROL JavaScript を使用してレンダリング]」をオフにします。
+デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。[!UICONTROL Visual Experience Composer] を使用してこれらの要素を変更できるようにする場合は、**[!UICONTROL Render using JavaScript]** をオフに切り替えることができます。
 
 >[!NOTE]
 >

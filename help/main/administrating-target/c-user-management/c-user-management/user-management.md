@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
-workflow-type: ht
-source-wordcount: '897'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 66%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!UICONTROL プロパティ]と[!UICONTROL 権限]の機能は [!DNL Target Premium] ソリューションの一部です。[!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
+>[!UICONTROL Properties] と [!UICONTROL Permissions] の機能は [!DNL Target Premium] ソリューションの一部です。 [!DNL Target] Premium ライセンスのない [!DNL Target] Standard では利用できません。
 >
->組織が保有しているライセンスが [!UICONTROL Standard] か [!UICONTROL Premium] かどうかは、[!DNL Target] UI の上部の[!UICONTROL 管理]リンクをクリックすることで確認できます。
+>組織が [!UICONTROL Standard] ライセンスまたは [!UICONTROL Premium] ライセンスを持っているかどうかを確認するには、[!DNL Target] UI の上部にある [!UICONTROL Administration] リンクをクリックします。
 >
->* **[!DNL Target][!UICONTROL Standarrd] のお客様**：[!UICONTROL ユーザー] タブ（[!UICONTROL 管理／ユーザー]）が表示される（「**[!UICONTROL プロパティ]**」タブは表示されない）場合、組織のライセンスは [!DNL Target][!UICONTROL Standard] です。[!DNL Target][!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
+>* **[!DNL Target][!UICONTROL Standard] のお客様**: 「[!UICONTROL Users]」タブ（[!UICONTROL Administration > Users]）が表示され、「**[!UICONTROL Properties]**」タブが表示されない場合、組織の [!UICONTROL Standard] ライセンスは [!DNL Target] です。 [!DNL Target] [!UICONTROL Standard] のお客様は、[!DNL Adobe Admin Console] でユーザーを追加したり、権限を割り当てたりする際は、この記事の手順に従ってください。
 >
->* **[!DNL Target]Premium のお客様**：「[!UICONTROL ユーザー]」タブと「[!UICONTROL プロパティ]」タブ（[!UICONTROL 管理／プロパティ]）が表示された場合、組織のライセンスは [!DNL Target] Premium です。[!DNL Target] Premium のお客様が [!DNL Adobe Admin Console] でユーザーの追加や権限の割り当てを行う際は、[Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
+>* **[!DNL Target]Premium のお客様**:「[!UICONTROL Users]」タブと「[!UICONTROL Properties]」タブ（[!UICONTROL Administration > Properties]）が表示された場合、組織のライセンスは [!DNL Target] Premium です。 [!DNL Target] Premium のお客様が [!DNL Adobe Admin Console] でユーザーの追加や権限の割り当てを行う際は、[Enterprise ユーザーの権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) と [Enterprise 権限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)の設定の手順に従ってください。
 >
 >ユーザーと権限の管理方法について詳しくは、[製品およびプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)の&#x200B;*エンタープライズおよびチームユーザーガイド*&#x200B;を参照してください。
 
 [!DNL Adobe Target] を初めて使用するときには、[!DNL Adobe Experience Cloud] アカウントのところに、「Adobe.com」で終わる ID があらかじめ表示されています。これらの ID は [!DNL Adobe] チームのメンバーのもので、新しいアカウントや [!DNL Adobe Target] の使い方について疑問点があるときに、メンバーに質問をすることができます。質問があるときは、通常の方法で Adobe チームにご連絡ください。
 
-新しいユーザーは、[!DNL Adobe Experience Cloud] のアカウントを使ってログインしてから [!DNL Target] にログインするまでは、[!UICONTROL ユーザー]ページに表示されません。
+新しいユーザーは、[!DNL Adobe Experience Cloud] アカウントを使用してログインしてから、[!DNL Target] にログインするまでは、[!UICONTROL Users] ページに表示されません。
 
-デフォルトでは、すべての [!DNL Target] ユーザーはまず[!UICONTROL 監視者]権限を持ちます。
+デフォルトでは、すべての [!DNL Target] ユーザーはまず [!UICONTROL Observer] の権限を持ちます。
 
-管理者ユーザーは、「[!UICONTROL ユーザー]」リストを見るとわかります。アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
+管理者ユーザーは、[!UICONTROL Users] リストを見るとわかります。 アクセスレベルの変更が必要な場合は、いずれかのシステム管理者ユーザーにお問い合わせください。
 
 ## [!DNL Target]内からユーザー情報を表示する
 
 ワークスペースごとの役割やメールアドレスなど、[!DNL Target] UI で現在のユーザーのリストを表示できます。
 
-[!UICONTROL ユーザー]ページを表示するには、**[!UICONTROL 管理]**／**[!UICONTROL ユーザー]**&#x200B;をクリックします。
+[!UICONTROL Users] ページを表示するには、**[!UICONTROL Administration]**/**[!UICONTROL Users]** をクリックします。
 
 ![Target 内からのユーザーリスト](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 [!DNL Adobe Admin Console] で実行するタスクの場合は、次の手順でコンソールにアクセスします。
 
-1. [!DNL Target] 内から、**[!UICONTROL 管理]**／**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザー管理]**&#x200B;をクリックします。
+1. [!DNL Target] 内から、**[!UICONTROL Administration]**/**[!UICONTROL Users]**/**[!UICONTROL Users Management]** をクリックします。
 
    または
 
@@ -64,23 +64,23 @@ ht-degree: 100%
 
 ユーザー管理操作は、すべて [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザー]**&#x200B;をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
+1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、**[!UICONTROL Users]**/**[!UICONTROL Users]** をクリックして、新しいユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## ユーザーグループの作成 {#user-groups}
 
 開発者、アナリスト、マーケター、エグゼクティブなどのユーザーグループを作成し、複数の [!DNL Adobe] 製品とワークスペースに権限を割り当てることができます。新しいチームメンバーに様々な [!DNL Adobe] 製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するのと同じくらいに簡単です。
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で&#x200B;**[!UICONTROL ユーザー]**／**[!UICONTROL ユーザーグループ]**&#x200B;をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
+1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)、**[!UICONTROL Users]**/**[!UICONTROL User Groups]** をクリックして、新しいユーザーグループを作成するか、既存のユーザーグループを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## 役割および権限の指定 {#roles-permissions}
 
-システム管理者のみ、[!DNL Target] のユーザーの役割を指定できます。例えば、[!UICONTROL Standard] の承認者ユーザーは、[!DNL Experience Cloud] の管理者権限を併せ持たない限り、監視者を承認者に変更することはできません。
+システム管理者のみ、[!DNL Target] のユーザーの役割を指定できます。例えば、[!UICONTROL Standard] の承認者ユーザーは、の管理者権限を併せ持たない限り、監視者を承認者 [!DNL Experience Cloud] 変更できません。
 
 システム管理者ユーザーはシステムにユーザーを追加する必要があります。ユーザーは自動的には追加されません。ユーザーのアカウントを登録する前に、[!DNL Experience Cloud] から招待メールを送信して、メールアドレスを確認する必要があります。
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) で「**[!UICONTROL 製品]**」をクリックしてから、目的の製品名を選択します。
+1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) 「**[!UICONTROL Products]**」をクリックしてから、目的の商品名を選択します。
 
    ![「製品」タブ](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -88,20 +88,20 @@ ht-degree: 100%
 
    ![デフォルトのワークスペース](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-   「[!UICONTROL ユーザー]」タブにワークスペースのすべてのユーザーが表示されます。
+   「[!UICONTROL Users]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
    ![設定ユーザー](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. [!UICONTROL 製品の役割]列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（[!UICONTROL 承認者]、[!UICONTROL 編集者]、[!UICONTROL 監視者]、[!UICONTROL 発行者]）を選択してください。
+1. [!UICONTROL Product Role] 列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（[!UICONTROL Approver]、[!UICONTROL Editor]、[!UICONTROL Observer]、[!UICONTROL Publisher]）を選択します。
 
    ![製品の役割ドロップダウンリスト](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 役割 | 説明 |
    |--- |--- |
-   | [!UICONTROL 承認者] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
-   | [!UICONTROL 編集者] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
-   | [!UICONTROL 監視者] | アクティビティを表示できますが、作成または編集はできません。 |
-   | [!UICONTROL 発行者] | [!UICONTROL 監視者]の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。ただし、[!UICONTROL 発行者]の役割には、アクティビティをアクティブ化する追加の権限があります。 |
+   | [!UICONTROL Approver] | アクティビティの作成、編集、アクティブ化、停止ができます。 |
+   | [!UICONTROL Editor] | アクティビティの作成および編集（アクティブでない場合に限る）はできますが、アクティビティの開始を承認することはできません。 |
+   | [!UICONTROL Observer] | アクティビティを表示できますが、作成または編集はできません。 |
+   | [!UICONTROL Publisher] | [!UICONTROL Observer] の役割と同様です（アクティビティを表示できますが、作成または編集はできません）。 ただし、[!UICONTROL Publisher] の役割には、アクティビティをアクティブ化する追加の権限があります。 |
 
 詳しくは、*Enterprise ユーザーガイド*&#x200B;の [Admin Console での製品の権限およびロールの管理](https://helpx.adobe.com/jp/enterprise/help/manage-permissions-and-roles.html)を参照してください。
 
@@ -117,6 +117,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL 管理]メニュー（以前の[!UICONTROL 設定]）のデザインが一新されました。次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。更新されたビデオは間もなく投稿される予定です。
+>パフォーマンスを向上、新機能のリリースに要するメンテナンス時間を短縮、製品全体でのユーザーエクスペリエンスが向上するため、[!DNL Target] [!UICONTROL Administration] メニュー（以前の [!UICONTROL Setup]）のデザインが一新されました。 次のビデオの情報は、一般的には正確ですが、オプションの場所が若干異なる場合があります。更新されたビデオは間もなく投稿される予定です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)

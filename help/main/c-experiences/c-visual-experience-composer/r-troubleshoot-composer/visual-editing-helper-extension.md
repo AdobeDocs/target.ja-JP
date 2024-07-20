@@ -5,7 +5,7 @@ title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 100%
 

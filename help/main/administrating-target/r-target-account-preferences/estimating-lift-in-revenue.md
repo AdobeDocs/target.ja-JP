@@ -1,24 +1,24 @@
 ---
 keywords: 売上高上昇;売上高;売上高上昇の予測;上昇率の計算;予測値
-description: テスト中も傾向が継続する場合は、すべての訪問者が勝者エクスペリエンスを見たときに得られる上昇率を予測します。
-title: 売上高上昇の予測方法
+description: すべての訪問者に勝者エクスペリエンスが表示された場合、およびテスト中にトレンドが継続する場合に達成される可能性がある上昇率を予測します。
+title: 売上高上昇を予測するには？
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # 売上高上昇の予測
 
-用途 [!DNL Adobe Target] を使用して、すべてのユーザーが勝者エクスペリエンスを表示する場合に到達する売上高上昇を予測します。
+[!DNL Adobe Target] を使用して、すべてのユーザーが勝者エクスペリエンスを表示した場合に達成される収益上昇率を見積もります。
 
 >[!NOTE]
 >
->推定上昇率は次の場合には使用できません： [!UICONTROL エクスペリエンスのターゲット設定] (XT) アクティビティに関する情報です。
+>現時点では、[!UICONTROL Experience Targeting] （XT）アクティビティの推定上昇率は使用できません。
 
 デフォルトでは、上昇予測機能はオフになっています。この機能は、アカウントの環境設定で有効にすることができます。この機能の有効化と無効化は、Experience Cloud の管理者ユーザーだけがおこなえます。上昇予測機能が無効になっている場合、対応するフィールドはインターフェイスに表示されません。この機能を無効にしても、独自の予測に使用したデータをはじめ、データを失うことはありません。予測は、この機能が有効であるかどうかにかかわらず、収集したデータに基づいて計算されます。
 
@@ -30,7 +30,7 @@ ht-degree: 84%
 
 売上高の上昇予測は、主な目標の指標から取得される訪問あたりの売上高（RPV）を基に算出されます。
 
-推定上昇率は、次の式を使用して計算されます。(&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+推定上昇率は、次の数式を使用して計算されます。（&lt; 勝者エクスペリエンスの RPV> - &lt; コントロールエクスペリエンスの RPV&lt;） &#42;&lt; アクティビティ内の訪問者の合計数 >
 
 算出された数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。例：$1.6M、$60K、$900、$8.5K、$205K
 

@@ -1,37 +1,37 @@
 ---
 keywords: Visual Experience Composer;Visual Experience Composer のベストプラクティス;Visual Experience Composer の制限事項;Visual Experience Composer の注意事項;VEC のベストプラクティス;VEC
-description: Adobe Targetで Visual Experience Composer(VEC) を使用する際に、エクスペリエンスを期待どおりに動作させるためのベストプラクティスを説明します。
+description: Adobe Targetで Visual Experience Composer （VEC）を使用する際にエクスペリエンスが期待どおりに動作するように、ベストプラクティスを説明します。
 title: Visual Experience Composer のベストプラクティスと制限事項
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
 # Visual Experience Composer のベストプラクティスと制限事項
 
-以下のベストプラクティスは、エクスペリエンスを期待どおりに動作させるために役立ちます。また、 [!DNL Adobe Target].
+以下のベストプラクティスは、エクスペリエンスを期待どおりに動作させるために役立ちます。[!DNL Adobe Target] で Visual Experience Composer （VEC）を使用する際に注意しておく必要があるその他のヒントと制限事項もあります。
 
 これらのベストプラクティスに従うことで、設計したエクスペリエンスで予期しない問題が発生する可能性を低減できます。
 
 ## ベストプラクティス {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**at.js 参照を `<head>` 」セクションに追加します。**
+**at.js の参照をページの `<head>` セクションの先頭に配置します。**
 
-訪問者 API サービスも使用する場合、at.js の上に訪問者 API スクリプトを配置します。
+Visitor API サービスも使用する場合は、at.js の上に visitor API スクリプトを配置します。
 
 **拡張 Experience Composer は、アカウントレベル（アカウントで作成されるすべてのアクティビティで有効化）または個々のアクティビティレベルにて有効化が可能。**
 
-アカウントレベルで拡張 Experience Composer を有効にするには、 [!UICONTROL 管理/Visual Experience Composer]をクリックし、スイッチをオンの位置に切り替えます。
+アカウントレベルで拡張 Experience Composer を有効にするには、「[!UICONTROL Administration > Visual Experience Composer]」をクリックし、スイッチを「オン」の位置に切り替えます。
 
-Visual Experience Composer でアクティビティを作成する際に拡張 Experience Composer をアクティビティレベルで有効にするには、[!UICONTROL 設定／URL] をクリックし、スイッチをオンの位置に切り替えます。
+Visual Experience Composer でアクティビティを作成する際にアクティビティレベルで拡張 Experience Composer を有効にするには、「[!UICONTROL Configure > URL]」をクリックして、スイッチを「オン」の位置に切り替えます。
 
-**サイトのセ許可リストキュリティで保護されているページに拡張 Visual Experience Composer が読み込めない場合、特定の IP アドレスをできます。**
+**拡張 Visual Experience Composer がサイト上の保護されたページに読み込まれない場合は、特定の IP アドレスを許可リストに加えるできます。**
 
-拡張 Visual Experience Composer の読み込みの問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトの訪問者は、これらの IP アドレスを許可リストに加えるする必要はありません。
+拡張 Visual Experience Composer の読み込み時の問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらの IP アドレスの許可リストに加えるは必要ありません。
 
 米国：52.55.99.45、54.80.158.92 および 54.204.197.253
 
@@ -217,7 +217,7 @@ mbox がオファーを含む場合、mbox が正しく実装されていない�
 
 実稼動環境以外（ステージング環境など）のサイトで拡張 Experience Composer を使用している場合、サイトで RIP をブロックしていると、タイムアウトが発生したり、アクセス拒否エラーが発生したりする場合があります。
 
-**複数のページを追加するときに、エクスペリエンスパネルとページパネルの両方が同時に開くので、最適化のためにサイトを表示する Visual Experience Composer の幅が狭まる。その結果、リフロー可能なサイトが狭いスペース内で予想とは異なるレイアウトで表示される場合がある。**
+**複数のページを追加するときに、エクスペリエンスパネルとページパネルの両方が同時に開くので、最適化のためにサイトを表示する Visual Experience Composer の幅が狭まる。その結果、リフロー可能なサイトの表示が、縮小された領域で期待されるとは異なる場合があります。**
 
 対応策として、上部の左の山形アイコンをクリックし、エクスペリエンスパネルとページパネルを閉じてください。
 
@@ -229,7 +229,7 @@ CSS プロパティが後に続くコンテナの外側に要素を移動する�
 
 **mbox ではオファーの置き換えのみを使用できる。**
 
-「分類の編集」や「整列」などのアクションは mbox 内では使用できません。
+クラスの編集や並べ替えなどのアクションは、mbox 内では使用できません。
 
 **同じ要素を整列して移動してはならない。**
 

@@ -1,7 +1,7 @@
 ---
 keywords: 除外
-description: で除外を作成する方法を説明します [!DNL Target Recommendations] 製品やコンテンツが訪問者に推薦されるのを防ぐ。
-title: で除外を使用する方法 [!UICONTROL Recommendations] 活動？
+description: で除外を作成して、製品やコンテンツが訪問者  [!DNL Target Recommendations]  推奨されないようにする方法を説明します。
+title: 除外を [!UICONTROL Recommendations] アクティビティで使用する方法
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # 除外
 
-での除外の作成 [!DNL Adobe Target Recommendations] 製品やコンテンツが訪問者に推薦されるのを防ぐ。 除外とは、訪問者に推奨すべきでない製品またはコンテンツのサブセットです。
+[!DNL Adobe Target Recommendations] で除外を作成して、製品やコンテンツが訪問者に推奨されないようにします。 除外とは、訪問者に推奨すべきでない製品またはコンテンツのサブセットです。
 
-除外は、アカウント全体で利用できます。 コレクションとは異なり、コレクションの作成時にエクスペリエンスごとに特定のコレクションを指定します。 [!UICONTROL Recommendations] アクティビティ、除外は、アカウント全体のすべてのアクティビティに適用されます。 アクティビティの作成時に除外グループを割り当てるオプションはありません。
+除外は、アカウント全体で利用できます。 [!UICONTROL Recommendations] アクティビティを作成する際にエクスペリエンスごとに特定のコレクションを指定するコレクションとは異なり、除外はアカウント全体のすべてのアクティビティに適用されます。 アクティビティの作成時に除外グループを割り当てるオプションはありません。
 
 除外を使用する時間の例を次に示します。
 
@@ -28,27 +28,27 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->除外ルールはすべてのユーザーにグローバルに適用されます [環境](/help/main/administrating-target/environments.md).
+>除外ルールはすべての [ 環境 ](/help/main/administrating-target/environments.md) にグローバルに適用されます。
 >
 >静的および動的な除外ルールは、マーケティングに役立つ便利な機能です。詳細な情報、例、および使用例については、[動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)を参照してください。
 
 ## 除外の作成
 
-1. クリック **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** 既存の除外のリストを表示します。
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** をクリックして、既存の除外のリストを表示します。
 
-   ![exclusions_list 画像](assets/exclusions-list.png)
+   ![exclusions_list image](assets/exclusions-list.png)
 
-   で除外ごとに報告される「項目数」 [!UICONTROL Exclusions] リスト表示は、設定されたデフォルトのRecommendations内で、その除外のルールに一致する製品の数です [ホスト グループ](/help/main/administrating-target/hosts.md) （環境）。 参照： [プランと実装 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} が含まれる *Adobe Target開発者ガイド* デフォルトホストグループの変更方法については、を参照してください。
+   [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更する方法については、*Adobe Target開発者ガイド* の [ 計画と実装  [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} を参照してください。
 
-1. （条件付き）をクリック [!UICONTROL Filter] アイコンをクリックしてから、目的のを選択します [0.9511122](/help/main/administrating-target/environments.md) から **[!UICONTROL Environment]** 除外を作成（または更新）するときにドロップダウンリストを使用して、その環境での除外の内容をプレビューできます。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. [!UICONTROL Filter] （条件付き）除外アイコンをクリックし、除外の作成（または更新）時に目的の [ 環境 ](/help/main/administrating-target/environments.md) を **[!UICONTROL Environment]** ドロップダウンリストから選択して、その環境での除外のコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
    ![除外を作成](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
-   ![除外を作成ダイアログボックス](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
+   ![ 除外を作成ダイアログボックス ](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. 除外を入力 **[!UICONTROL Name]** オプションで説明を入力します。
+1. 除外 **[!UICONTROL Name]** を入力し、オプションで説明を入力します。
 
 1. ルールビルダーを使用して除外を作成します。
 
@@ -70,15 +70,15 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 除外の編集、コピー、削除
 
-「」をクリックします **省略記号** アイコン リスト内の目的の除外の横にある、適切なアイコン（編集、コピー、削除）をクリックします。
+リスト内の目的の除外の横にある **省略記号** アイコンをクリックし、適切なアイコン（編集、コピー、削除）をクリックします。
 
-![オプション：編集、コピー、削除](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+![ オプション：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 
 既存の除外をコピーして重複する除外を作成し、それを変更できます。 このオプションを使用すると、同様の除外を少ない労力で作成できます。
 
 除外は、アカウント全体で利用できることに注意してください。 除外を削除する前に、次の点に注意してください。 削除した除外は復元できません。
 
-## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![チュートリアルバッジ](/help/main/assets/tutorial.png)
+## トレーニングビデオ：Recommendationsでコレクションと除外を作成（7:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
 このビデオには、次の情報が含まれています。
 

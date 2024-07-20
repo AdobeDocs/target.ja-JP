@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * [!DNL Target] の分類が完全に処理されていない。
 
-   レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかります。
+  レポートを分類するには、通常、最初の保存から 24 ～ 72 時間かかります。
 
 * レポートスイートにはデータが全く含まれていないが、[!DNL Target] はヒットの分類を試行した。[!DNL Target] は最初のヒットが発生するまで、データの分類をおこなうことができません。
 
-   レポートスイートで、少なくとも 1 つはヒットがあったことを確認してください。
+  レポートスイートで、少なくとも 1 つはヒットがあったことを確認してください。
 
 * [!DNL Target] から [!DNL Analytics] への分類呼び出しが失敗した。
 
-   [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
+  [カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
 「未指定」行を「Analytics for Target」ディメンションで分類し、アクティビティ ID が含まれていない場合は、すべてが正しく分類されています。アクティビティ ID がリストに表示される場合は、分類の問題が存在していることを示します。
 
@@ -41,13 +41,13 @@ ht-degree: 100%
 
 ## A4T アクティビティレポートに、多くの「未指定」イベントが含まれる行が含まれています。 {#added_unspecified_events}
 
-データとともに表示する指標に応じて、レｒポートに「[!UICONTROL 未指定]」のイベント行が表示されることがあります。
+データとともに表示する指標に応じて、レポートに「[!UICONTROL Unspecified]」イベント行が表示されることがあります。
 
-通常、この行は、[!DNL Target] 固有ではない（例：[!UICONTROL ページビュー数]、[!UICONTROL 訪問回数]、[!UICONTROL ユニーク訪問者数]など）、レポートの一般的な指標を選択した場合に表示されます。この場合「[!UICONTROL 未指定]」行には、[!DNL Target] アクティビティに関連付けられていない[!UICONTROL ページビュー]、[!UICONTROL 訪問回数]、[!UICONTROL ユニーク訪問者]のすべてが含まれています。
+通常、この行は、[!DNL Target] 固有ではない（[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors] など）、レポートの一般的な指標を選択した場合に表示されます。 この場合、[!UICONTROL "Unspecified"] の行には、[!DNL Target] のアクティビティに関連付けられていない、すべての [!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors] が含まれます。
 
 その行には [!DNL Target] 関連情報（訪問者数、訪問数、インプレッション数など）が含まれることはありません。詳しくは、*Analytics テクニカルノート*&#x200B;にある レポートにある[「未指定」、「なし」、「その他」、「不明」をご覧ください](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja)。
 
-レポート内で [!DNL Target] 固有の指標を選択した場合、その「[!UICONTROL 未指定]」行は表示されません。レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
+レポート内で [!DNL Target] 固有の指標を選択した場合、そ [!UICONTROL "Unspecified"] 行は表示されません。 レポート全体がこの特性を持つことを回避する唯一の方法は、そのページから送信されるすべてのリクエストで、一般的でも必要でもない、[!DNL Target] 呼び出しを設定することです。
 
 ## 売上高指標の推定上昇率に正しいデータが表示されません。 {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ ht-degree: 100%
 
 ## Analytics レポートにアクティビティが表示されません。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。詳しくは、[Analytics トラッキングサーバーの使用](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)を参照し、Analytics トラッキングサーバーが正しく設定されていることを確認してください。
+A4T アクティビティには Analytics トラッキングサーバーの指定が必要です。Analytics トラッキングサーバーが正しく設定されていることを確認するには、[Analytics トラッキングサーバーの使用 ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) を参照してください。
 
 >[!NOTE]
 >
->at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL 目標および設定]ページの「[!UICONTROL トラッキングサーバー]」フィールドを空白にできます。
+>at.js バージョン 0.9.1 （またはそれ以降）を使用している場合は、アクティビティの作成中にトラッキングサーバーを指定する必要はありません。at.js ライブラリは、トラッキングサーバーの値を自動的に [!DNL Target] へ送信します。アクティビティの作成時には、[!UICONTROL Goals & Settings] のページの「[!UICONTROL Tracking Server]」フィールドを空白にできます。
 
 ## Analytics セグメントが Target に表示されません。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 

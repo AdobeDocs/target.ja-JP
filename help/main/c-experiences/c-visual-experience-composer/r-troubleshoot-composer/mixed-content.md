@@ -5,9 +5,9 @@ title: ブラウザーで混在したコンテンツを有効にする方法
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 安全なコンテンツと安全でないコンテンツが混在している場合、最新のブラウザーではページの表示がブロックされたり、警告メッセージが表示されたりする場合があります。
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer]（VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）が混合コンテンツを含むページを開こうとすると、警告メッセージが表示されます。 このメッセージでは、ブラウザーでブロックを無効にする方法を示します。ブロックを無効にすると、HTTP サイトまたは（HTTPS と HTTP の）コンテンツが混在するサイトを開くことができます。
 
 ![混在コンテンツの警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -41,11 +41,11 @@ Google Chrome ヘルプの[安全でないサイトに関する警告の管理](
 
 最新バージョンの [!DNL Chrome]（バージョン 79.0.3945.117 以降）で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
 
-1. ロック（注意）アイコン、**[!UICONTROL サイト設定]**&#x200B;の順にクリックします。
+1. ロック（注意）アイコン、「**[!UICONTROL Site settings]**」の順にクリックします。
 
    ![サイト設定](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. スクロールして&#x200B;**[!UICONTROL 安全でないコンテンツ]**&#x200B;に移動し、ドロップダウンリストを使用して「ブロック (デフォルト)」を「許可」に変更します。
+1. スクロールして **[!UICONTROL Insecure content]** に移動し、ドロップダウンリストを使用して「ブロック （デフォルト）」を「許可」に変更します。
 
    ![安全でないコンテンツ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -78,10 +78,10 @@ Google Chrome ヘルプの[安全でないサイトに関する警告の管理](
 
 最新バージョンの [!DNL Edge] で VEC を使用している場合は、サイト設定を更新する必要があります。サイトの訪問者は、これらの手順を完了する必要はありません。
 
-1. [!DNL Edge] でメニューバーの **[!DNL Microsoft Edge]**、「**[!UICONTROL 設定]**」、「**Cookie とサイトの権限**」の順にクリックします。
+1. [!DNL Edge] で、メニューバーの「**[!DNL Microsoft Edge]**」をクリック **[!UICONTROL Settings]**、「**Cookie とサイト権限**」をクリックします。
 
-1. 「**[!UICONTROL 安全でないコンテンツ]**」までスクロールします。
+1. **[!UICONTROL Insecure content]** までスクロールします。
 
-1. 「**[!UICONTROL 安全でないコンテンツ]**」、**[!UICONTROL 許可]**&#x200B;の横にある「**[!UICONTROL 追加]**」の順にクリックし、安全でないコンテンツを許可するサイトを追加して、「**[!UICONTROL 追加]**」を選択します。
+1. [**[!UICONTROL Insecure content]**] をクリックし、[**[!UICONTROL Allow]**] の横にある [**[!UICONTROL Add]**] をクリックして、セキュリティで保護されていないコンテンツを許可するサイトを追加し、[**[!UICONTROL Add]**] をクリックします。
 
 1. VEC ページをリロードします。

@@ -5,9 +5,9 @@ title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2507'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 訪問者に表示されるコンテンツは、作成するアクティビティタイプによって異なります。
 
-### [!UICONTROL A/B テスト]
+### [!UICONTROL A/B Test]
 
 基本的な A/B テストで表示されるコンテンツは、アクティビティに割り当てたエクスペリエンスからランダムに選択されます。各エクスペリエンスにトラフィック配分の割合を割り当てることができます。このランダムなトラフィック分割の結果、トラフィックの割合が均等化するまでの初期のトラフィック量が多くなる場合があります。例えば、2 つのエクスペリエンスを作成した場合、最初のエクスペリエンスはランダムに選択されます。トラフィック量がほとんどない場合は、訪問者の割合が一方のエクスペリエンスに偏っている可能性があります。トラフィックが増えるにしたがって、割合は等しくなります。
 
@@ -52,41 +52,41 @@ JavaScript ライブラリ（[!DNL Adobe Experience Platform Web SDK] と mbox.j
 
 詳細については、「[A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
-### [!UICONTROL 自動配分]
+### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL 自動配分は]、2 つ以上のエクスペリエンスのうちの勝者を識別します。[!UICONTROL 自動配分は]、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。
+[!UICONTROL Auto-Allocate] は、2 つ以上のエクスペリエンスのうちの勝者を識別します。 [!UICONTROL Auto-Allocate] は、より多くのトラフィックを勝者エクスペリエンスに自動的に再割り当てするので、テストの実行と学習を継続しながらコンバージョンを増やすのに役立ちます。
 
-詳細については、「[[!UICONTROL 自動配分]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)」を参照してください。
+詳細は、[[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) を参照してください。
 
-### [!UICONTROL 自動ターゲット]（AT）
+### [!UICONTROL Auto-Target] （時）
 
-[!UICONTROL 自動ターゲット]では、高度な機械学習を使用して、マーケターが定義した、パフォーマンスの高い複数のエクスペリエンスから選択しますから選択します。[!UICONTROL 自動ターゲット]は、各訪問者に最適なエクスペリエンスを提供します。エクスペリエンスの配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づきます。[!UICONTROL 自動ターゲット]を使用して、コンテンツをパーソナライズし、コンバージョンを促進します。
+[!UICONTROL Auto-Target] では、高度な機械学習を使用して、マーケターが定義した、パフォーマンスの高い複数のエクスペリエンスから選択します。 [!UICONTROL Auto-Target] は、各訪問者に最適なエクスペリエンスを提供します。 エクスペリエンスの配信は、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づきます。[!UICONTROL Auto-Target] を使用してコンテンツをパーソナライズし、コンバージョンを促進します。
 
 詳細については、[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)を参照してください。
 
-### [!UICONTROL Automated Personalization]（AP）
+### [!UICONTROL Automated Personalization] （AP）
 
-[!UICONTROL Automated Personalization]（AP）は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者にマッチするオファーの各種バリエーションを判断します。個別の顧客プロファイルを基準とするエクスペリエンスの配信により、コンテンツをパーソナライズして販売を促進することが可能です。
+[!UICONTROL Automated Personalization] （AP）は、オファーやメッセージを組み合わせ、高度な機械学習を使用して各訪問者にマッチするオファーの各種バリエーションを判断します。 個別の顧客プロファイルを基準とするエクスペリエンスの配信により、コンテンツをパーソナライズして販売を促進することが可能です。
 
 詳しくは、[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)を参照してください。
 
-### [!UICONTROL エクスペリエンスのターゲット設定]（XT）
+### [!UICONTROL Experience Targeting] （XT）
 
-[!UICONTROL エクスペリエンスのターゲット設定]（XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
+[!UICONTROL Experience Targeting] （XT）では、マーケターが定義した一連のルールや条件を基にして、特定のオーディエンスにコンテンツを配信します。
 
-[!UICONTROL エクスペリエンスのターゲット設定]（ジオターゲティングを含む）は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。訪問者がサイトを表示すると、[!UICONTROL エクスペリエンスのターゲット設定]（XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。条件に一致した場合、その訪問者は該当アクティビティの対象となり、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
+ジオターゲティングを含む [!UICONTROL Experience Targeting] は、特定のオーディエンスに特定のエクスペリエンスまたはコンテンツをターゲット設定するルールを定義する際に有効です。 アクティビティで複数のルールを定義して、様々なオーディエンスに異なるコンテンツのバリエーションを提供します。訪問者がサイトを表示すると、[!UICONTROL Experience Targeting] （XT）は、その訪問者を評価して、設定した条件を満たしているかどうかを判断します。 条件に一致した場合、その訪問者は該当アクティビティの対象となり、条件が一致したオーディエンス用に設計されたエクスペリエンスが表示されます。単一のアクティビティ内で、複数のオーディエンスに対してエクスペリエンスを作成できます。
 
 詳しくは、[エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)を参照してください。
 
-### [!UICONTROL 多変量分析テスト] （MVT）
+### [!UICONTROL Multivariate Test] （MVT）
 
-[!UICONTROL 多変量分析テスト]（MVT）はページ上の要素のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせを特定します。MVT は、アクティビティの成功に最も影響を与える要素を特定するのに役立ちます。
+[!UICONTROL Multivariate Testing] （MVT）はページ上の要素のオファーの組み合わせを比較し、特定のオーディエンスに対して最も効果が高い組み合わせを特定します。 MVT は、アクティビティの成功に最も影響を与える要素を特定するのに役立ちます。
 
 詳しくは、[多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)を参照してください。
 
 ### [!UICONTROL Recommendations]
 
-[!UICONTROL Recommendations] アクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。Recommendations を使うと、顧客が知らなかったであろう関連商品を紹介するのに役立ちます。
+[!UICONTROL Recommendations] のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 Recommendations を使うと、顧客が知らなかったであろう関連商品を紹介するのに役立ちます。
 
 詳細については、[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) を参照してください。
 
@@ -148,15 +148,14 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 
 * [!DNL Adobe] は、アドビのサービスレベル契約で保証された業界標準に基づくパフォーマンスベンチマークを保証します。
 * エッジネットワークによって、タイムリーなデータ配信を実現しています。
-* [!UICONTROL アドビ]では、アプリケーションをセキュリティ保護するための多層型アプローチを使用し、お客様に対して最高レベルの可用性と信頼性を確保しています。
-
+* [!UICONTROL Adobe] では、アプリケーションをセキュリティ保護するための多層型アプローチを使用し、お客様に対して最高レベルの可用性と信頼性を確保しています。
 * [!DNL Target] コンサルティングは、導入支援と継続的な製品サポートを行っています。
 
 ## 検索エンジン最適化（SEO）対応テスト {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] はテストのための検索エンジンガイドラインに従っています。
 
-Google はユーザーに対し、テストを推奨しています。Google はドキュメントの中で、A/B テストおよび[!UICONTROL 多変量分析テスト]が、特定のガイドラインに従っていれば、オーガニック検索エンジンのランキングは損なわれないと述べています。
+Google はユーザーに対し、テストを推奨しています。Googleはドキュメントの中で、A/B テストおよび [!UICONTROL Multivariate Testing] テストが、特定のガイドラインに従っていれば、オーガニック検索エンジンのランキングは損なわれないと述べています。
 
 詳しくは、次の Google のリソースを参照してください。
 
@@ -195,7 +194,7 @@ Google によると、これらのガイドラインに従えば、「テスト�
 
 Google は例として、「ユーザーに表示される組み合わせに関連しないキーワードでサイトの元来のページが読み込まれる場合、そのサイトを Google のインデックスから外すことがあります」と記述しています。
 
-[!UICONTROL アドビ]は、テストのバリエーション内で意図せず元のコンテンツの意味を変更するのは難しいと感じています。ただし、[!UICONTROL アドビ]では、ページのキーワードテーマに注意して、それらのテーマを維持することをお勧めします。ページ内容を変更、特に関連のあるキーワードを追加したり削除したりすると、オーガニック検索でのその URL のランキングが変わってしまう場合があります。[!DNL Adobe] では、テストプロセスの一環として、SEO パートナーに協力を仰ぐことをお勧めします。
+テストのバリエーション内 [!UICONTROL Adobe] 意図せず元のコンテンツの意味を変更するのは難しいと感じています。 [!UICONTROL Adobe] だし、ページのキーワードテーマに注意して、それらのテーマを維持することをお勧めします。 ページ内容を変更、特に関連のあるキーワードを追加したり削除したりすると、オーガニック検索でのその URL のランキングが変わってしまう場合があります。[!DNL Adobe] では、テストプロセスの一環として、SEO パートナーに協力を仰ぐことをお勧めします。
 
 ## ボット {#bots}
 
@@ -212,11 +211,11 @@ Adobe [!DNL Target] は、[DeviceAtlas](https://deviceatlas.com/device-data/user
 * 訪問者プロファイルの作成または取得
 * プロファイル属性の記録またはプロファイルスクリプトの実行
 * [!DNL Adobe Audience Manager]（AAM）セグメントの検索（該当する場合）
-* [!UICONTROL Recommendations]、[!UICONTROL 自動ターゲット]、[!UICONTROL Automated Personalization]または[!UICONTROL 自動配分]の各アクティビティにおけるパーソナライズされたコンテンツのモデリングおよび提供時のボットトラフィックの使用する
+* [!UICONTROL Recommendations]、[!UICONTROL Auto-Target]、[!UICONTROL Automated Personalization]、[!UICONTROL Auto-Allocate] の各アクティビティにおけるパーソナライズされたコンテンツのモデリングおよび提供時のボットトラフィックの使用
 * レポート用のアクティビティ訪問の記録
 * [!DNL Adobe Experience Cloud] プラットフォームに送信されたログデータ
 
-既知のボットトラフィックに [!UICONTROL Analytics for Target]（A4T）を使用する場合、[!DNL Target] は次を実行しません。
+既知のボットトラフィックに [!UICONTROL Analytics for Target] （A4T）を使用する場合、[!DNL Target] は次を実行しません。
 
 * [!DNL Analytics] にイベントを送信
 
