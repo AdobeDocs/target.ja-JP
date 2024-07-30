@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1323'
 ht-degree: 86%
 
 ---
@@ -333,6 +333,7 @@ ht-degree: 86%
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
+      + [デザインの作成](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
    + アクティビティ {#recommendations-activity}

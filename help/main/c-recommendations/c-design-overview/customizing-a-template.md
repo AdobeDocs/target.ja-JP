@@ -1,26 +1,26 @@
 ---
 keywords: カスタムデザイン;velocity;小数点;コンマ;デザインのカスタマイズ
-description: オープンソースの Velocity デザイン言語を使用して、Adobe  [!DNL Target]  Recommendations のレコメンデーションデザインをカスタマイズする方法を説明します。
+description: オープンソース  [!DNL Velocity]  デザイン言語を使用して、 [!DNL Target] Recommendationsのレコメンデーションデザインをカスタマイズする方法を説明します。
 title: Velocity を使用してデザインをカスタマイズする方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 73%
+source-wordcount: '1049'
+ht-degree: 62%
 
 ---
 
-# Velocity を使用したデザインのカスタマイズ
+# [!DNL Velocity] を使用したデザインのカスタマイズ
 
-オープンソースの Velocity デザイン言語を使用して、[!DNL Adobe Target Recommendations] のレコメンデーションデザインをカスタマイズします。
+オープンソースの [!DNL Velocity] デザイン言語を使用して、[!DNL Adobe Target Recommendations] のレコメンデーションデザインをカスタマイズします。
 
-## Velocity の概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] の概要 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Velocity について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) を参照してください。
+[!DNL Velocity] について詳しくは、[https://velocity.apache.org](https://velocity.apache.org) を参照してください。
 
-レコメンデーションのデザインには、Velocity の論理、構文、その他すべてを使用できます。つまりこれは、*for* ループ、*if* ステートメント、およびその他のコードを JavaScript ではなく Velocity を使用して作成できることを意味します。
+レコメンデーショ [!DNL Velocity] デザインには、すべてのロジック、構文などを使用できます。 つまり、JavaScriptではなく [!DNL Velocity] を使用して、*for* ループ、*if* ステートメント、その他のコードを作成できます。
 
 `productPage` mbox または CSV アップロードで [!DNL Recommendations] に送信されたエンティティ属性は、「複数値」属性を除き、デザインに表示できます。 任意のタイプの属性を送信できます。ただし、[!DNL Target] は「複数値」タイプの属性を、テンプレートが繰り返し処理できる配列として渡しません（例：`entityN.categoriesList`）。
 
@@ -30,7 +30,7 @@ Velocity について詳しくは、[https://velocity.apache.org](https://veloci
 $entityN.variable
 ```
 
-エンティティ属性名は、Velocity の略記法に従う必要があります。略記法は、先頭の *$* 文字と、その後に続く Velocity テンプレート言語（VTL）識別子で構成されます。 VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
+エンティティ属性名は [!DNL Velocity] 先頭の *$* 文字と [!DNL Velocity] Template Language （VTL）識別子で構成される短縮表記に従う必要があります。 VTL 識別子は、アルファベット文字（a-z または A-Z）で始まる必要があります。
 
 Velocity エンティティの属性名は、次のタイプの文字に制限されます。
 
@@ -39,7 +39,7 @@ Velocity エンティティの属性名は、次のタイプの文字に制限�
 * ハイフン（-）
 * アンダースコア（_）
 
-次の属性を Velocity 配列として使用できます。 繰り返し処理したり、インデックスで参照したりできます。
+次の属性を [!DNL Velocity] 配列として使用できます。 繰り返し処理したり、インデックスで参照したりできます。
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Velocity 変数（属性）について詳しくは、[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables) を参照してください。
+[!DNL Velocity] 変数（属性）について詳しくは、[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables) を参照してください。
 
 デザインでプロファイルスクリプトを使用する場合は、スクリプト名の前にある$を `\` （バックスラッシュ）でエスケープする必要があります。 次に例を示します。
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 また、`algorithm.name` と `algorithm.dayCount` をデザインのエンティティ属性として使用することもできます。これにより、1 つのデザインを使用して複数の条件をテストしたり、デザインに条件名を動的に表示したりできます。 これによって、訪問者に「トップセラー」や「この商品を見た人はこんな商品を買っています」といった内容を表示することができます。これらの属性を使用して、`dayCount` （「過去 2 日間のトップセラー」など、条件で使用されたデータの日数）を表示することもできます。
 
-## Velocity テンプレートでの数値の操作
+## [!DNL Velocity] テンプレートでの数値の操作
 
-デフォルトでは、Velocity テンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として扱うには、次の手順に従います。
+デフォルトでは、[!DNL Velocity] テンプレートは、すべてのエンティティ属性を文字列値として扱います。 数学演算を実行したり、別の数値と比較したりするために、エンティティ属性を数値として扱うことができます。 エンティティ属性を数値として扱うには、次の手順に従います。
 
 1. ダミー変数を宣言し、任意の整数値または double 値に初期化します。
 1. 使用するエンティティ属性が空白でないことを確認します（[!DNL Target Recommendations] のテンプレートパーサーでテンプレートを検証および保存するために必要です）。
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## テンプレートサイズのカスタマイズと空白値の確認 {#default}
 
-エンティティ表示の動的サイズ変更を制御する Velocity スクリプトを使用し、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空の HTML 要素が作成されるのを回避します。このスクリプトは、バックアップのレコメンデーションが理解できず、[!UICONTROL Partial Template Rendering] が有効になっているシナリオに最適です。
+エンティティ表示の動的サイズ変更を制御する [!DNL Velocity] スクリプトを使用して、以下のテンプレートを 1 対多の結果に対応させて、[!DNL Recommendations] から返されたエンティティが十分でない場合に空のHTML要素が作成されるのを回避します。 このスクリプトは、バックアップのレコメンデーションが理解できず、[!UICONTROL Partial Template Rendering] が有効になっているシナリオに最適です。
 
 以下の HTML スニペットは、4x2 デフォルトデザインの既存の HTML 部分を置き換えます（ここでは、簡潔にするために CSS は含まれません）。
 

@@ -1,14 +1,14 @@
 ---
 keywords: recommendations;よくある質問;faq
-description: Adobe  [!DNL Target]  Recommendations デザインに関するよくある質問（FAQ）とその回答のリストを確認します。
-title: ' [!DNL Target]  Recommendations デザインに関する質問への回答'
+description: よくある質問（FAQ）とそのデザインに関する回答  [!DNL Target Recommendations]  す。
+title: デザインに関する  [!DNL Target Recommendations] の質問への回答
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 95%
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 ## カテゴリがデザインに表示されないのはなぜですか？`$entity1.categoryId` を使用しています。{#section_073309B8051049C7953D396A93EA0713}
 
-カテゴリ ID は、デザインには表示できません。複数のカテゴリを保存できるので、システムはどのカテゴリを表示すればよいかわかりません。
+カテゴリ ID は、デザインには表示できません。複数のカテゴリを格納できるので、システムはどのカテゴリを表示するかわからない。
 
 ## すぐに更新されるようにするには、どのようにデザインを変更する必要がありますか？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ ht-degree: 95%
 
 ## デザインに表示する主要な情報をどのようにして取り込むことができますか？例えば、主要商品のカテゴリを表示したい場合、Velocity デザインのコードにどのような値を設定したらよいですか？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-`$key. *`値`*`パラメーターは、デザイン内で表示するほとんどの主要商品の情報を取り込みます。例えば、主要商品のサムネールを表示したい場合、`$key.thumbnailURL` を使用します。
+`$key. *`値`*`パラメーターは、デザイン内で表示するほとんどの主要商品の情報を取り込みます。例えば、主要製品のサムネールを表示する場合は、`$key.thumbnailURL` を使用します。
 
 ## Velocity のどのバージョンが使用されますか？ {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 バージョン 1.7 で、追加のツールやライブラリアドインは使用していません。Velocity の基本的な機能を使用できます。
 
-## 既存のエンティティの値を空白で置き換えるにはどのようにすればよいですか（プロモーションが終了して、品目の entity.message をクリアする必要がある場合など）？ {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 既存のエンティティの値を空白で置き換えるにはどのようにすればよいですか例えば、プロモーションが終了すると、項目の `entity.message` をクリアする必要があります。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 JavaScript で改行なしスペースを送信することで可能と思われます。開発者に `\u00A0` を値として送信してもらいます。例：`entity.message=\u00A0`。 値が存在しない場合に null の代わりにその値をデフォルトにすることも検討してください。
 
