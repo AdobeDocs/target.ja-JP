@@ -4,7 +4,7 @@ description: のアクティビティを使用して  [!DNL Target]  特定の�
 title: ' [!DNL Target] を使用してコンテンツをパーソナライズし、ページのデザインをテストするにはどうすればよいですか？'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 36%
@@ -71,16 +71,17 @@ ht-degree: 36%
 ![ フィルターオプション ](/help/main/c-activities/assets/show-filters-options.png)
 
 メニューでは、次の属性でアクティビティをフィルタリングできます。
-|属性|詳細|
-| — | — |
-|[!UICONTROL Type]|[ アクティビティの種類 ](#types) でフィルターします。|
-|[!UICONTROL Status]|アクティビティの状態でフィルターします。|
-|[!UICONTROL Reporting Source]|レポート ソースでフィルター処理します。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md):[!UICONTROL Analytics for Target] （A4T）をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target] をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics] をレポートソースとして使用するアクティビティを表示します。</li></ul>|
-|[!UICONTROL Experience Composer]|アクティビティの作成中に Experience Composer が使用されたフィルター：<ul><li>[ ビジュアル ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md):[!UICONTROL Visual Experience Composer] （VEC）を使用して作成されたアクティビティを表示します。</li><li>[ フォームベース ](/help/main/c-experiences/form-experience-composer.md):[!UICONTROL Form-Based Experience Composer] を使用して作成されたアクティビティを表示します。</li></ul>|
-|[!UICONTROL Metrics Type]|アクティビティの作成中に [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) が選択されたフィルター。<ul><li>コンバージョン</li><li>売上高</li><li>エンゲージメント</li></ul>|
-|[!UICONTROL Decisioning Method]|各アクティビティで使用される判定方法でフィルタリングします<ul><li>[ サーバー側 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja)：サーバー側判定を使用するアクティビティを表示します。</li><li>[ クライアント側 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：クライアント側判定を使用するアクティビティを表示します。</li></ul>|
-|[!UICONTROL Activity Source]|各アクティビティの作成に使用されるアクティビティソースでフィルタリングします。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)</li><li>[Adobe Mobile サービス](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|アクティビティが作成された [ プロパティ ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) でフィルタリングします。|
+
+| 属性 | 詳細 |
+| --- | --- |
+| [!UICONTROL Type] | [ アクティビティタイプ ](#types) でフィルタリングします。 |
+| [!UICONTROL Status] | アクティビティステータスでフィルタリングします。 |
+| [!UICONTROL Reporting Source] | レポートソースでフィルタリングします。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md):[!UICONTROL Analytics for Target] （A4T）をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target] をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics] をレポートソースとして使用するアクティビティを表示します。</li></ul> |
+| [!UICONTROL Experience Composer] | アクティビティの作成中に Experience Composer が使用されたフィルター：<ul><li>[ ビジュアル ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md):[!UICONTROL Visual Experience Composer] （VEC）を使用して作成されたアクティビティを表示します。</li><li>[ フォームベース ](/help/main/c-experiences/form-experience-composer.md):[!UICONTROL Form-Based Experience Composer] を使用して作成されたアクティビティを表示します。</li></ul> |
+| [!UICONTROL Metrics Type] | アクティビティの作成中に [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) が選択されたフィルター。<ul><li>コンバージョン</li><li>売上高</li><li>エンゲージメント</li></ul> |
+| [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法でフィルタリングします<ul><li>[ サーバー側 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja)：サーバー側判定を使用するアクティビティを表示します。</li><li>[ クライアント側 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：クライアント側判定を使用するアクティビティを表示します。</li></ul> |
+| [!UICONTROL Activity Source] | 各アクティビティの作成に使用されるアクティビティソースでフィルタリングします。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)</li><li>[Adobe Mobile サービス](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | アクティビティが作成された [ プロパティ ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) でフィルタリングします。 |
 
 ## クイックアクションの実行 {#quick-actions}
 
