@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
 
@@ -18,8 +18,9 @@ ht-degree: 100%
 ## アップデート
 
 |日付|トピック|変更|
-|7月10日（PT）|[プロキシ設定（Java）](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|次の新しい節を追加しました：オンデバイス判定|
-|6月3日（PT）|[優先度](/help/main/c-activities/priority.md)|複数の [!UICONTROL Form-Based Experience Composer] および VEC アクティビティからのコンテンツが配信可能なことを示すなど、トピック全体を更新しました。以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。配信できるフォームベースのアクティビティ数に制限がなくなりました。|
+|8 月 1 日|[Recommendationsの FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|次の FAQ を追加しました：「[!DNL Target] API を使用して UI で作成されたビジュアルオファー [!DNL Target] 管理できますか？」|
+|7 月 10 日|[ プロキシ設定（Java） ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|新しい節を追加：オンデバイス判定|
+|6 月 3 日|[ 優先度 ](/help/main/c-activities/priority.md)|トピック全体を更新しました（複数の [!UICONTROL Form-Based Experience Composer] および VEC アクティビティのコンテンツが配信可能であることを示すことを含む）。 以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。配信できるフォームベースのアクティビティ数に制限がなくなりました。|
 |5月17日（PT）|[[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング|[!UICONTROL Enhanced Experience Composer] を使用する際に許可リストに登録できる IP アドレスを追加しました。|
 |5月8日（PT）| [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート|新しい記事：[!DNL Target] と [!DNL Adobe Customer Journey Analytics] の統合に関する情報を追加しました。|
 |4月30日（PT）|[[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング|EEC プロキシで使用されるアドビのサーバーの IP アドレスのリストを許可リストに更新しました。|

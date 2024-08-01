@@ -1,20 +1,24 @@
 ---
 keywords: トラブルシューティング;よくある質問;FAQ;レコメンデーション;特殊文字;属性の重み付け;コンテンツの類似性
-description: Adobe [!DNL Target] Recommendations アクティビティに関するよくある質問と回答のリストを表示します。
-title: ' [!DNL Target]  Recommendations に関する質問と回答'
+description: アクティビティに関するよくある質問と回答のリスト  [!DNL Target Recommendations]  表示します。
+title: ' [!DNL Recommendations] に関する質問と回答'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
-ht-degree: 86%
+source-wordcount: '3485'
+ht-degree: 85%
 
 ---
 
 # Recommendations FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] アクティビティに関するよくある質問（FAQ）のリストです。
+
+## UI で作成され [!DNL Target] ビジュアルオファーを [!DNL Target] API を使用して管理できますか。
+
+いいえ。[!DNL Target] UI で作成されたビジュアルオファーを含む [!DNL Recommendations] アクティビティは、[!DNL Target] API を使用して管理できません。 これらのアクティビティは [!UICONTROL Activities] リストに表示されますが、読み取りや更新はできません（GET/PUTを使用）。
 
 ## 数値 [!UICONTROL Catalog Search] 使用してカスタム属性を検索すると、正しい結果が表示されないのはなぜですか？
 
