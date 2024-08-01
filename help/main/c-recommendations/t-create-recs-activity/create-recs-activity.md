@@ -5,7 +5,7 @@ title: Recommendations アクティビティを作成するにはどうすれば
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 55%
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
 
-1. **[!UICONTROL Recommendations]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Recommendations]** をクリックします。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Recommendations]** をクリックします。
 
 1. 必要に応じて「**[!UICONTROL Visual (Default)]**」を選択します。
 
