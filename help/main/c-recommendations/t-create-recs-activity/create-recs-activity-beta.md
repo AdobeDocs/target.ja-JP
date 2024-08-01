@@ -1,24 +1,25 @@
 ---
 keywords: レコメンデーションの作成;レコメンデーションのアクティビティ;新しいレコメンデーション;レコメンデーションの概要
-description: Adobe [!DNL Target] Visual Experience Composer （VEC）を使用して、 [!DNL Target] 対応ページでRecommendations アクティビティを直接作成する方法を説明します。
-title: Recommendations アクティビティを作成するにはどうすればよいですか？
+description: ' [!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用してアクティビティを作成する方法  [!DNL Recommendations]  説明します。'
+title: アクティビティの作成方法  [!DNL Recommendations]  教えてください。
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
-exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
+hide: true
+hidefromtoc: true
 source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 55%
+source-wordcount: '1214'
+ht-degree: 52%
 
 ---
 
-# Recommendations アクティビティの作成
+# [!DNL Recommendations] アクティビティの作成
 
-Target の Visual Experience Composer（VEC）を使用すると、Target を有効にしたページ上に Recommendations アクティビティを作成し、Target 内でページの一部を変更することができます。
+[!DNL Target] [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!DNL Target] 対応ページで [!DNL Recommendations] アクティビティを直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
 
-1. **[!UICONTROL Recommendations]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Recommendations]** をクリックします。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Recommendations]** をクリックします。
 
-1. 必要に応じて「**[!UICONTROL Visual (Default)]**」を選択します。
+1. 必要に応じて「**[!UICONTROL Visual]**」を選択します。
 
    ![Recommendations アクティビティを作成ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
@@ -26,23 +27,23 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >VEC およびフォームベースの Experience Composer に加えて、Target はシングルページアプリケーション VEC およびモバイルアプリ向け VEC を提供します。様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
+   >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は [!UICONTROL Single Page Application] VEC を提供します。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前の図の [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織はTarget Standard ライセンスを保有しています。
+   >前の図の [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織は [!UICONTROL Target Standard] ライセンスを保有しています。
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
-1. アクティビティ URL を指定し、「**[!UICONTROL Next]**」をクリックします。
+1. アクティビティ URL を指定し、「**[!UICONTROL Create]**」をクリックします。
 
    >[!NOTE]
    >
    >[!DNL Target] は URL プロトコル（[!DNL https] および [!DNL http]）を区別しません。その結果、[!DNL `http://www.adobe.com`] と [!DNL `https://wwww.adobe.com`] の両方が一致します。
 
-   アクティビティ URL は、レコメンデーションが表示されるページです。
+   アクティビティ URL は、Recommendations が表示されるページです。
 
-   「[!UICONTROL Next]」をクリックすると、VEC が開いてページが表示されます。 現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
+   「[!UICONTROL Create]」をクリックすると、VEC が開いてページが表示されます。 現在の要素をレコメンデーションで置き換えたり、レコメンデーションを挿入したりすることができます。
 
 1. ページ上の要素をクリックし、その要素がある場所にレコメンデーションがある場合は、「**[!UICONTROL Replace w/ Recommendations]**」、「**[!UICONTROL Insert Recommendations Before]**」または「**[!UICONTROL Insert Recommendations After]**」をクリックします。
 
