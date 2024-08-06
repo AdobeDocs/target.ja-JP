@@ -4,10 +4,10 @@ description: Adobeでアクティビティの変更ログにアクセスし  [!D
 title: アクティビティの変更ログを確認するにはどうすればよいですか？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 5c963e97dae11326396a5c1c5e32d19f4d463c74
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 49%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
@@ -15,10 +15,8 @@ ht-degree: 49%
 
 変更ログ [!DNL Adobe Target] には、誰がアクティビティを変更し、いつ変更したかが記録されます。
 
-1. アクティビティを開き、「**[!UICONTROL Change Log]**」をクリックします。
+「[!UICONTROL Change Lob]」タブにアクセスするには、「**[!UICONTROL Activities]**」をクリックし、リストから目的のアクティビティをクリックして、左側のレールの「**[!UICONTROL Change Log]**」をクリックします。
 
-   ![アクティビティの変更ログ](/help/main/c-activities/assets/change_log.png)
+実行されたアクション、アクションが実行された日付、アクションを実行したユーザーは、アクティビティが作成、更新、アクティブ化または非アクティブ化されるたびに一覧表示されます。 アクティビティで使用されるカスタムターゲットとオファーへの変更も一覧表示されます。
 
-   アクティビティが作成、更新、アクティブ化、非アクティブ化された日付とユーザーが一覧表示されます。アクティビティで使用したカスタムターゲットとオファーに関する変更も一覧表示されます。「ステータス」列には、アクションの完了、保留または失敗が表示されます。
-
-   ステータスの変更を確認するには、ページを更新します。
+ステータスの変更を確認するには、ページを更新します。

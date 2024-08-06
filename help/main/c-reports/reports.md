@@ -1,37 +1,37 @@
 ---
 keywords: レポート；ip アドレスをブロック；ip アドレスからの訪問者をブロック；レポートをダウンロード；csv；レポート
-description: Adobeのレポート機能を使用して、アクティビティのパフォーマ  [!DNL Target]  スを確認する方法を説明します。 ROI を向上させるために、データに基づいてより優れた意思決定を行います。
+description: のレポート機能を習得  [!DNL Adobe Target] て意思決定を強化し、ROI を向上させることで、アクティビティを最適化します。
 title: レポートの表示方法
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: a7a03cba466fbe7abfc8eb1f80292e1a2de7fe2d
+source-git-commit: 5c963e97dae11326396a5c1c5e32d19f4d463c74
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 32%
 
 ---
 
 # レポート
 
-レポートは、データに基づいた意思決定を支援する、[!DNL Adobe Target] アクティビティの進行状況と結果に関する情報を提供します。 レポートデータは、アクティビティを終了するタイミングの決定に役立ち、どのエクスペリエンスのオファーが勝者かを示し、次のアクションを決定するために必要なインサイトや知識を提供できます。
+レポートは、データに基づいた意思決定を支援する、[!DNL Adobe Target] アクティビティの進行状況と結果に関する情報を提供します。 レポートデータは、アクティビティを終了するタイミングの決定に役立ち、どのエクスペリエンスまたはオファーが勝者かを示し、次のアクションを決定するために必要なインサイトや知識を提供できます。
 
 ## レポートを表示 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
 1. をクリック **[!UICONTROL Activities]** し、リストから目的のアクティビティをクリックします。
 
-   アクティビティが多数ある場合は、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type] および [!UICONTROL Activity Source] の各ドロップダウンリストからオプションを選択してリストをフィルタリングできます。
+   アクティビティが多数ある場合は、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Method] および [!UICONTROL Activity Source] の各ドロップダウンリストからオプションを選択してリストをフィルタリングできます。
 
-   例えば、「[!UICONTROL Type]」ドロップダウンリストから「[!UICONTROL A/B Test]」と「[!UICONTROL Experience Targeting]」、「[!UICONTROL Status]」ドロップダウンリストから「[!UICONTROL Live]」を選択して、アクティブ状態の A/B テストとエクスペリエンスのターゲット設定アクティビティのみを表示できます。
+   例えば、「[!UICONTROL Type]」ドロップダウンリストから「[!UICONTROL A/B Test]」と「[!UICONTROL Experience Targeting]」を選択し、「[!UICONTROL Status]」ドロップダウンリストから「[!UICONTROL Live]」を選択すると、アクティブ状態の [!UICONTROL A/B Test] アクティビティと [!UICONTROL Experience Targeting] アクティビティのみが表示されます。
 
    次の図は、[!UICONTROL A/B Test] と [!UICONTROL Experience Targeting] の 2 つのタイプが選択された [!UICONTROL Type] ドロップダウンリストを示しています。 A/B テストの 3 つのタイプ（手動、[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)）がデフォルトで選択されていることに注意してください。必要に応じて、1 つ以上のタイプの選択を解除できます。
 
    ![タイプによるレポートのフィルタリング](/help/main/c-reports/assets/report_filters-new.png)
 
-1. 「**[!UICONTROL Reports]**」タブをクリックします。
+1. リストから目的のアクティビティを選択します。
+
+1. 左側のレールで「**[!UICONTROL Reports]**」タブをクリックします。
 
    各レポートには、レポートを理解しやすくするための凡例が含まれます。
-
-   ![レポートの凡例](/help/main/c-reports/assets/report_menu_bar-new.png)
 
    この凡例には、以下の情報が表示されます。
 
@@ -58,9 +58,9 @@ ht-degree: 42%
 
    | レポートタイプ | 表示 |
    | --- | --- |
-   | [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | **[!UICONTROL Automated Segments]** または **[!UICONTROL Important Attributes]** のアイコンをクリックします。<ul><li>[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/AT アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) では、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで異なる属性がより重要（または重要でないかを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
-   | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)（AP） | [Automated Personalizationの概要レポート ](/help/main/c-reports/personalization-reports/reports-ap.md) に加えて、「**[!UICONTROL Automated Segments]**」アイコンまたは「**[!UICONTROL Important Attributes]**」アイコンをクリックすることもできます。<ul><li>[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) は、AP/AT アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。</li><li>[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) では、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで異なる属性がより重要（または重要でないかを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
-   | [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | [ エクスペリエンスパフォーマンスレポート ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) に加えて、[ 場所の投稿 ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) アイコンをクリックして、レポートを切り替えて場所による投稿を表示できます。 |
+   | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | **[!UICONTROL Automated Segments]** または **[!UICONTROL Important Attributes]** のアイコンをクリックします。<ul><li>[[!UICONTROL Automated Segments] レポートは ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)[!UICONTROL Automated Personalization] ーザーまたは [!UICONTROL Auto-Target] ーザーアクティビティのオファーおよびエクスペリエンスに対する様々な訪問者の反応を示します。 このレポートでは、[!DNL Target] のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファーとエクスペリエンスにどのように応答したかを示します。</li><li>[[!UICONTROL Important Attributes] のレポートでは ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより重要（または重要でないかを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
+   | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP） | [[!UICONTROL Automated Personalization Summary] のレポートに加えて ](/help/main/c-reports/personalization-reports/reports-ap.md) 「**[!UICONTROL Automated Segments]**」アイコンまたは「**[!UICONTROL Important Attributes]**」アイコンをクリックすることもできます。<ul><li>[[!UICONTROL Automated Segments] レポートは ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)[!UICONTROL Automated Personalization] ーザーまたは [!UICONTROL Auto-Target] ーザーアクティビティのオファーおよびエクスペリエンスに対する様々な訪問者の反応を示します。 このレポートでは、[!DNL Target] のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファーとエクスペリエンスにどのように応答したかを示します。</li><li>[[!UICONTROL Important Attributes] のレポートでは ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより重要（または重要でないかを示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。</li></ul> |
+   | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | [[!UICONTROL Experience Performance] レポートに加えて ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)[[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) アイコンをクリックして、レポートを切り替えて場所による貢献度を表示することもできます。 |
 
 ## 特定のアクティビティタイプに関するその他のレポート情報 {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -68,12 +68,12 @@ ht-degree: 42%
 
 | アクティビティのタイプ | 詳細 |
 |--- |--- |
-| [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md) | [!DNL Target] で使用している上昇率、信頼性、統計的アプローチを理解するには、「[A/Bテストのプラン](/help/main/c-activities/t-test-ab/sample-size-determination.md)」を参照してください。 |
-| [自動配分レポートの解釈](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | [!DNL Target] UI で上昇率や信頼性を含む重要な指標を調べることで、[!UICONTROL Auto-Allocate] A/B アクティビティの結果を解釈します。 |
-| [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)（AT） | AT アクティビティの [!UICONTROL Summary] レポートに関する情報。 詳しくは、「[自動ターゲットの概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)」を参照してください。<br>AT アクティビティと AP アクティビティの 2 つの [!UICONTROL Personalization Insights] レポートに関する情報：[!UICONTROL Automated Segments] レポートと [!UICONTROL Important Attributes] レポート。 詳しくは、「[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
-| [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)（AP） | AP アクティビティに関する、[!UICONTROL Activity Level] レポートと [!UICONTROL Offer Level] レポートの 2 つの [!UICONTROL Automated Personalization Summary] レポートの情報。 詳しくは、「[Automated Personalization概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)」を参照してください。<br>AT アクティビティと AP アクティビティの 2 つの [!UICONTROL Personalization Insights] レポートに関する情報：[!UICONTROL Automated Segments] レポートと [!UICONTROL Important Attributes] レポート。 詳しくは、「[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
-| [多変量分析テスト](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | MVT アクティビティには、[!UICONTROL Experience Performance] レポートと [!UICONTROL Location Contribution] レポートの 2 つのレポートに関する情報です。 詳しくは、「[エクスペリエンスのパフォーマンスレポート（MVT）](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) 」と「[場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)」を参照してください。 |
-| [Adobe Target のレポートソースとしての Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T） | レポートソース [!DNL Adobe Analytics] としての使用に関する情報 [!DNL Target] です。A4T では、[!DNL Target] アクティビティの [!DNL Analytics] レポートにアクセスできます。詳しくは、「[Analytics for Target（A4T）レポート](/help/main/c-reports/analytics-for-target-a4t-reporting.md)」を参照してください。 |
+| [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md) | [!DNL Target] で使用している上昇率、信頼性、統計的アプローチを理解するには、「[A/Bテストのプラン](/help/main/c-activities/t-test-ab/sample-size-determination.md)」を参照してください。 |
+| [ 報告書 [!UICONTROL Auto-Allocate] 解釈 ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | [!DNL Target] UI で上昇率や信頼性を含む重要な指標を調べることで、[!UICONTROL Auto-Allocate] A/B アクティビティの結果を解釈します。 |
+| [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) （時） | AT アクティビティの [!UICONTROL Summary] レポートに関する情報。 詳しくは、[[!UICONTROL Auto-Target Summary] Report](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) を参照してください。<br>AT アクティビティと AP アクティビティの 2 つの [!UICONTROL Personalization Insights] レポートに関する情報：[!UICONTROL Automated Segments] レポートと [!UICONTROL Important Attributes] レポート。 詳しくは、「[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
+| [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) （AP） | AP アクティビティに関する、[!UICONTROL Activity Level] レポートと [!UICONTROL Offer Level] レポートの 2 つの [!UICONTROL Automated Personalization Summary] レポートの情報。 詳しくは、「[Automated Personalization概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)」を参照してください。<br>AT アクティビティと AP アクティビティの 2 つの [!UICONTROL Personalization Insights] レポートに関する情報：[!UICONTROL Automated Segments] レポートと [!UICONTROL Important Attributes] レポート。 詳しくは、「[パーソナライゼーションインサイトレポート](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)」を参照してください。 |
+| [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) （MVT） | MVT アクティビティには、[!UICONTROL Experience Performance] レポートと [!UICONTROL Location Contribution] レポートの 2 つのレポートに関する情報です。 詳しくは、「[エクスペリエンスのパフォーマンスレポート（MVT）](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) 」と「[場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)」を参照してください。 |
+| [[!DNL Adobe Analytics] Adobe Targetのレポート用Sourceとして ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T） | [!DNL Adobe Analytics] を [!DNL Target] （A4T）のレポートソースとして使用する方法に関する情報です。 A4T では、[!DNL Target] アクティビティの [!DNL Analytics] レポートにアクセスできます。詳しくは、「[Analytics for Target（A4T）レポート](/help/main/c-reports/analytics-for-target-a4t-reporting.md)」を参照してください。 |
 |  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート | 最適化プログラムに適した強力な分析機能と時間節約ツールを提供する ](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics){target=_blank}0}Adobe Customer Journey Analytics} と [!DNL Target] の統合に関する情報です。[ |
 
 ## 指定された IP アドレスからのレポート データをブロックする
