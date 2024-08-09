@@ -3,7 +3,7 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 4e5c3c1f93459619ff4d016af47f7f8ba9b16c2d
+source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 85%
@@ -22,7 +22,7 @@ ht-degree: 85%
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
    + [以前のリリースのリリースノート](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target のアクティビティ、オファーおよびRecommendations UI 更新Beta プログラム](/help/main/r-release-notes/refresh-ui-beta.md)
+   + [Target のアクティビティ、オファーおよびRecommendations UI 更新Beta プログラム](/help/main/refresh-ui-beta.md)
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
