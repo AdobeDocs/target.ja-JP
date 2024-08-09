@@ -6,22 +6,24 @@ badgePremium: label="ベータ" type="Informative" url="https://experienceleague
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities]、[!UICONTROL Offers] および [!UICONTROL Recommendations] UI 更新Beta プログラム
 
-この記事のこのリンクを使用して、[!UICONTROL Activities]、[!UICONTROL Offers] および [!UICONTROL Recommendations] の [!DNL Adobe Target] UI 更新に関するBeta プログラムの一部として更新されたドキュメントにアクセスします。
+これらのリンクを使用して、[!UICONTROL Activities]、[!UICONTROL Offers] および [!UICONTROL Recommendations] の [!DNL Adobe Target] UI を更新するためのBeta プログラムの一環として、更新されたドキュメントにアクセスします。
 
 >[!NOTE]
 >
->これらの記事の情報は、Beta プログラム中に頻繁に更新されます。
+>[!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
+>
+>これらの記事の情報は、Beta プログラム中に予告なく頻繁に更新されます。
 
-+++ アクティビティ （クリックして展開）
++++アクティビティ（クリックして展開）
 
 + [アクティビティの概要](c-activities/activities.md){target=_blank}
 + [Target のアクティビティタイプ](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ ht-degree: 76%
 
 +++
 
-+++ オファー（クリックして展開）
++++オファー（クリックして展開）
 
 + [オファーの概要](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [オファーフォルダーの作成](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
