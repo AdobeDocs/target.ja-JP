@@ -6,7 +6,7 @@ badgePremium: label="ベータ" type="Informative" url="https://experienceleague
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
+source-git-commit: 878ad2a0cce193e5905824fe02d7380c5cff7136
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 71%
@@ -23,7 +23,9 @@ ht-degree: 71%
 >
 >これらの記事の情報は、Beta プログラム中に予告なく頻繁に更新されます。
 
-+++アクティビティ（クリックして展開）
+## アクティビティ
+
++++クリックして展開
 
 + [アクティビティの概要](c-activities/activities.md){target=_blank}
 + [Target のアクティビティタイプ](c-activities/target-activities-guide.md){target=_blank}
@@ -107,7 +109,9 @@ ht-degree: 71%
 
 +++
 
-+++オファー（クリックして展開）
+## オファー
+
++++クリックして展開
 
 + [オファーの概要](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [オファーフォルダーの作成](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
