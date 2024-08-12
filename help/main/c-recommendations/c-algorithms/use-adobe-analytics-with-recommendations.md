@@ -1,24 +1,24 @@
 ---
 keywords: 行動データソース；analytics;recommendations；条件；製品変数
 description: ' [!DNL Adobe Analytics]  を行動データソースとして使用し、から表示ベースや購入ベースの行動データを使用する方法を説明します  [!DNL Analytics] in [!DNL Target Recommendations]。'
-title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations] の使用方法'
+title: ' [!DNL Adobe Analytics]  [!DNL Target Recommendations]の使用方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Recommendations] での [!DNL Adobe Analytics] の使用
+# [!DNL Adobe Analytics] での[!DNL Recommendations] の使用
 
-[!DNL Adobe Analytics] を行動データソースとして使用すると、クライアントは [!DNL Recommendations] アクティビティの [!DNL Analytics] からビューベースまたは購入ベースの行動データ [!DNL Adobe Target] 使用できます。 この機能は、[!DNL Target Recommendations] 設定が新しく、使用する履歴データが多 [!DNL Analytics] 場合に特に便利です。
+[!DNL Adobe Analytics] を行動データのソースとして使用すると、[!DNL Adobe Target] の [!DNL Recommendations] アクティビティにおいて [!DNL Analytics] のビューや購入ベースの行動データを使用できるようになります。この機能は、[!DNL Target Recommendations] の設定が新しく、使用する履歴データを[!DNL Analytics]が多く所有している場合に特に便利です。
 
 [!DNL Analytics] を行動データソースとして使用すると、ユーザーの行動に関する豊富な情報のソースとして機能できます。 この情報には、[!DNL Analytics] とのみ共有されるサードパーティのソースやフィードからのデータが含まれる場合があります。
 
-[!DNL Recommendations] では [ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を行う際に、使用するデータソースを [!UICONTROL mboxes] と [!UICONTROL Analytics] の 2 つのラジオボタンから選択できます。 条件を作成するには、[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria] をクリックします。 詳しくは、[ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を参照してください。
+[!DNL Recommendations] では [ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を行う際に、使用するデータソースを [!UICONTROL mboxes] と [!UICONTROL Analytics] の 2 つのラジオボタンから選択できます。 条件を作成するには、[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria] をクリックします。 詳しくは、 [条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
 
 ![ 行動データソースのボタン ](assets/behavioral-data-source.png)
 
@@ -49,11 +49,11 @@ recommendations の行動データソースとして [!DNL Analytics] を使用�
 >
 >コンテンツサイトの場合、それぞれのコンテンツ部分を「製品」として扱い、そのコンテンツに関する関連属性を属性として渡す必要があります。 このような属性には、作成者名、公開日、コンテンツタイトル、リリース月などが含まれます。 カテゴリレベルまたはカテゴリタイプの精度は、ユースケースの要件に基づいて、ビジネスで決定する必要があります。
 
-product 変数の設定方法について詳しくは、『 [Adobe Analyticsの実装 *ガイドの* products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) を参照してください。 このドキュメントのメモの一部は、デプロイするチームの裁量が必要です（例：カテゴリ）。 このアクティビティを行う前に、[!DNL Adobe] に相談することを常にお勧めします。
+product 変数の設定方法について詳しくは、『 [Adobe Analyticsの実装 *ガイドの* products](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/page-vars/products) を参照してください。 このドキュメントのメモの一部は、デプロイするチームの裁量が必要です（例：カテゴリ）。 このアクティビティを行う前に、[!DNL Adobe] に相談することを常にお勧めします。
 
 ### 注意点
 
-デ [!DNL Analytics] タは毎日のフィードで送信されます。 行動の結果がサイトの Recommendations の結果内に反映されるまでに、最大 24 時間かかる場合があります。 すべての条件 [!DNL Recommendations] 設定と同様に、このデータソースもテストでき、テストする必要があります。
+[!DNL Analytics] データは毎日のフィードで送信されます。 行動の結果がサイトの Recommendations の結果内に反映されるまでに、最大 24 時間かかる場合があります。 すべての条件 [!DNL Recommendations] 設定と同様に、このデータソースもテストでき、テストする必要があります。
 
 どのデータソースを使用するかを迅速に決定するには、ユーザーが毎日生成するオーガニックデータが多く、履歴データに対する依存関係が少ない場合、[!DNL Target] mbox を行動データソースとして使用すると適しています。 最近生成された有機データの可用性が低い場合、[!DNL Analytics] のデータを基にバンキングする場合は、行動データソースとして [!DNL Analytics] を使用するのが適しています。
 
@@ -82,7 +82,7 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 1. 「**[!UICONTROL Next]**」をクリックして **[!UICONTROL Mapping]** 設定に進み、フィールド列ヘッダーを適切な [!UICONTROL Recommendations] フィールド名にマッピングします。
 
-   ![ マッピングセクション ](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
+   ![Mapping section](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. **[!UICONTROL Save]** をクリックします。
 
@@ -96,4 +96,4 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 ### [!DNL Analytics] フィードアプローチを使用してプロファイル属性に一致するエンティティパラメーターなどの動的な包含ルールを使用できますか？
 
-はい、できます。 この方法は、スタンドアロンで使用する場合 [!DNL Target] 同様です。 ただし、この場合は、タイミング要因に注意する必要があります。 プロファイル変数と一致すると想定されるエンティティ変数は、ページのずっと後に表示される可能性があるデータレイヤーに依存します。
+はい、できます。 この方法は、[!DNL Target] を単体で使用する場合と同様です。 ただし、この場合は、タイミング要因に注意する必要があります。 プロファイル変数と一致すると想定されるエンティティ変数は、ページのずっと後に表示される可能性があるデータレイヤーに依存します。
