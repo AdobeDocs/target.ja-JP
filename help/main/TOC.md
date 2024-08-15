@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 75c6760b57242222dc97a7bf61b6323f682b9da9
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 85%
+source-wordcount: '1356'
+ht-degree: 84%
 
 ---
 
@@ -96,6 +96,9 @@ ht-degree: 85%
    + Target とAdobe Journey Optimizer（AJO） {#ajo} ールの統合
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + Adobe Journey Optimizerのユースケース {#use-cases}
+         + [マスタリングの最適化 – Adobe Journey Optimizerの主なユースケース](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Target とAdobe Experience Manager（AEM） {#aem} ールの統合
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
