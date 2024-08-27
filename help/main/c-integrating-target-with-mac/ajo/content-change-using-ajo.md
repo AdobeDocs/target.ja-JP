@@ -6,9 +6,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 このユースケースは、[!DNL Adobe Target] で使い慣れたタスク、[A/B テストアクティビティを使用した A/B テスト ](/help/main/c-activities/t-test-ab/test-ab.md) ただし [!DNL Journey Optimizer] を使用する方法を示すように設計されています。
 
-## シナリオ
+## 考えられるシナリオ
 
-あるアパレル会社は、様々な画像をテストし、プロファイル属性からユーザーの名を使用してキャンペーンランディングページをパーソナライズすることで、コンバージョンを向上させました。
+* あるアパレル会社は、様々な画像をテストし、プロファイル属性からユーザーの名を使用してキャンペーンランディングページをパーソナライズすることで、コンバージョンを向上させました。
+
+* ある e コマース企業は、キャンペーンランディングページで様々な製品説明や画像をテストしたところ、ゴールドロイヤルティメンバーのコンバージョン率が高く、売上の増加につながることがわかりました。
 
 ## メリットと価値
 
@@ -29,13 +31,13 @@ ht-degree: 1%
 * **データに基づく意思決定**: データを活用して、コンテンツ戦略全体で十分な情報に基づいた意思決定を行い、最大限の影響を与えます。
 * **パーソナライズされたユーザーエクスペリエンス**：すべてのオーディエンスセグメントに固有の好みやニーズに合わせてコンテンツをカスタマイズします。
 
-## 詳しい手順
+## 手順
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、*Journey Optimizer ドキュメント [Web コンテンツの編集 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} を参照してください*。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、*Journey Optimizer ドキュメント [Web コンテンツの編集 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} を参照してください*。 ページ下部のビデオは特に役立ちます。
 
-様々な画像をテストし、ユーザーの名を使用してメッセージをパーソナライズすることで、web ページを最適化するには、次の手順を実行します。
+様々な画像をテストし、プロファイルスクリプトを使用してユーザーの名を使用したメッセージをパーソナライズすることで、web ページを最適化するには、次の手順を実行します。
 
 1. [!DNL Adobe Journey Optimizer] で、左側のパネルから **キャンペーン** をクリックして、[!UICONTROL Campaigns] のページを表示します。
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 1. （条件付き） **[!UICONTROL Audience]** のセクションで、「**[!UICONTROL Select Audience]**」をクリックして目的のオーディエンスを選択します。
 
-   このユースケースでは、すべての訪問者に対してキャンペーンをアクティブ化することを選択しました（デフォルト）。
+   このユースケースでは、[!UICONTROL All Visitors] 用のキャンペーンのアクティブ化（デフォルト）を選択しました。
 
 1. 「**[!UICONTROL Action]**」セクションで、「**[!UICONTROL Action]**」ドロップダウンリストから「**[!UICONTROL Web]**」を選択し、新しい web 設定を選択または作成します。
 
@@ -111,6 +113,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >[3}Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}Web コンテンツを編集 **
->[](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank}2}Journey Optimizer ドキュメント } のチュートリアルビデオ **
+>[](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}2}Journey Optimizer ドキュメント } のチュートリアルビデオ **
 >[キャンペーン ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} を *Journey Optimizer Tutorialsに作成*
 

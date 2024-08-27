@@ -6,16 +6,16 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# [!DNL Adobe Journey Optimizer] での最適化の上位のユースケース - web チャネルとコードベースチャネル
+# [!DNL Adobe Journey Optimizer] での上位の最適化のユースケース - web チャネルとコードベースチャネル
 
-[!DNL Adobe Journey Optimizer] で最も効果的な最適化のユースケースを効果的に実装する方法を確認します。
+Web チャネルとコードベースチャネルの [!DNL Adobe Journey Optimizer] で最も効果的な最適化のユースケースを効果的に実装する方法を説明します。
 
 ## 前提条件
 
