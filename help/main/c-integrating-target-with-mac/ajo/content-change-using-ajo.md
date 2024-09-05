@@ -6,9 +6,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 1%
 
 このユースケースは、[!DNL Adobe Journey Optimizer] でコンテンツの変更を効果的に A/B テストするための秘密鍵のロックを解除するのに役立ちます。
 
-このユースケースは、[!DNL Adobe Target] で使い慣れたタスク、[A/B テストアクティビティを使用した A/B テスト ](/help/main/c-activities/t-test-ab/test-ab.md) ただし [!DNL Journey Optimizer] を使用する方法を示すように設計されています。
+このユースケースでは、[!DNL Adobe Target] の代わりに [!DNL Journey Optimizer] を使用して、[A/B テスト アクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md) による A/B テストなど、使い慣れたタスクを実行する方法を示します。
 
-## 考えられるシナリオ
-
-* あるアパレル会社は、様々な画像をテストし、プロファイル属性からユーザーの名を使用してキャンペーンランディングページをパーソナライズすることで、コンバージョンを向上させました。
-
-* ある e コマース企業は、キャンペーンランディングページで様々な製品説明や画像をテストしたところ、ゴールドロイヤルティメンバーのコンバージョン率が高く、売上の増加につながることがわかりました。
+このユースケースは、[!DNL Adobe Target]、[A/B テスト アクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md) を使用した A/B テストを使用し、[!DNL Journey Optimizer] を使用して、実行した可能性のある使い慣れたタスクを実行する方法を示すように設計されています。
 
 ## メリットと価値
 
@@ -31,11 +27,19 @@ ht-degree: 1%
 * **データに基づく意思決定**: データを活用して、コンテンツ戦略全体で十分な情報に基づいた意思決定を行い、最大限の影響を与えます。
 * **パーソナライズされたユーザーエクスペリエンス**：すべてのオーディエンスセグメントに固有の好みやニーズに合わせてコンテンツをカスタマイズします。
 
+## 考えられるシナリオ
+
+* あるアパレル会社は、様々な画像をテストし、コールトゥアクションのテキストでユーザーの名を使用してキャンペーンランディングページをパーソナライズすることでコンバージョンを向上させました。
+
+* ある e コマース企業は、キャンペーンランディングページで様々な製品説明や画像をテストすることで、ゴールドロイヤルティメンバーのコンバージョン率が高く、売上の増加につながることがわかりました。
+
 ## 手順
 
 >[!NOTE]
 >
->この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、*Journey Optimizer ドキュメント [Web コンテンツの編集 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} を参照してください*。 ページ下部のビデオは特に役立ちます。
+>この節の手順では、画像を変更し、プロファイル属性を使用してテキストメッセージをパーソナライズするために必要な手順を重点的に説明します。 [!DNL Journey Optimizer] Web Designer で使用可能なオプションについて詳しくは、*Journey Optimizer ドキュメント [Web コンテンツの編集 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} を参照してください*。
+>
+>ページ下部のビデオは特に役立ちます。
 
 様々な画像をテストし、プロファイルスクリプトを使用してユーザーの名を使用したメッセージをパーソナライズすることで、web ページを最適化するには、次の手順を実行します。
 
@@ -53,7 +57,7 @@ ht-degree: 1%
 
 1. （条件付き） **[!UICONTROL Audience]** のセクションで、「**[!UICONTROL Select Audience]**」をクリックして目的のオーディエンスを選択します。
 
-   このユースケースでは、[!UICONTROL All Visitors] 用のキャンペーンのアクティブ化（デフォルト）を選択しました。
+   この使用例では、[!UICONTROL All Visitors] のキャンペーン（デフォルト）をアクティブ化できます。
 
 1. 「**[!UICONTROL Action]**」セクションで、「**[!UICONTROL Action]**」ドロップダウンリストから「**[!UICONTROL Web]**」を選択し、新しい web 設定を選択または作成します。
 
@@ -67,9 +71,23 @@ ht-degree: 1%
 
    ![LUMA web サイトの Yoga ランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 実験を作成してどのコンテンツがより効果的かをテストするには、[**[!UICONTROL Create Experiment]**] をクリックします。
+1. パフォーマンスの高いコンテンツを判別するための実験を作成するには、「実 **[!UICONTROL Create Experiment]**」をクリックします。
 
-   コンテンツ実験を使用すると、メッセージコンテンツ、件名、送信者を変更して、複数の処理を定義し、オーディエンスに最適な組み合わせを決定できます。 詳しくは、{3[Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} コンテンツ実験の作成 *を参照してください。*
+   コンテンツ実験を使用すると、メッセージコンテンツ、件名、送信者を変更して、複数の処理を定義したり、オーディエンスに最適な組み合わせを決定したりできます。 詳しくは、{3[Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} コンテンツ実験の作成 *を参照してください。*
+
+1. 成功指標を選択し、「アクション」をクリックします。
+
+   ヘルプ アイコンをクリックすると、詳細と関連記事へのリンクが表示されます。
+
+1. 「**[!UICONTROL Add Treatment]**」をクリックし、「**[!UICONTROL Create]**」をクリックします。
+
+   このユースケースでは、各実験の分布を 50% のままにすることができます。
+
+1. [!UICONTROL Campaign] の詳細ページの [**[!UICONTROL Action]**] で、[**[!UICONTROL Edit Content]**] をクリックします。
+
+1. 処理 B の下の「Web」をクリックします。
+
+   このユースケースでは、元のエクスペリエンスを A/B テストの最初のエクスペリエンスとして使用する場合、[!UICONTROL Treatment A] を変更しません。
 
 1. 右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
 
@@ -89,7 +107,7 @@ ht-degree: 1%
 
    プロファイル属性について詳しくは、*Journey Optimizer ドキュメントの [ パーソナライゼーションエディターの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} を参照してください*。
 
-1. 「名」プロファイル属性を検索して選択し、必要に応じてテキストを調整して、「**[!UICONTROL Save]**」をクリックします。
+1. 「」を検索し、「+」記号をクリックして「名」プロファイル属性を追加し、必要に応じてテキストを調整して、「**[!UICONTROL Save]**」をクリックします。
 
    ![ 名前のプロファイル属性を追加 ](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
@@ -103,7 +121,7 @@ ht-degree: 1%
 
 ## レポートの表示
 
-「レポート」ボタンをクリックしてから、目的のレポート期間をクリックします。
+「[!UICONTROL Reports]」ボタンをクリックしてから、目的のレポート期間をクリックします。
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
