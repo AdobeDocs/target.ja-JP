@@ -6,9 +6,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ Web チャネルとコードベースチャネルの [!DNL Adobe Journey Optimiz
 これらのユースケースは、web チャネルとコードベースチャネルに関連します。
 
 * [ [!DNL Adobe Journey Optimizer] の A/B テストによるコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Web ページへのコンポーネントの追加または非表示](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
