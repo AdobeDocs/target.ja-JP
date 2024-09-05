@@ -6,9 +6,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ ht-degree: 1%
 
    ![LUMA web サイトの Yoga ランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. コールトゥアクションボタンを追加するには、右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
+1. 要素の非表示を追加するには、右側のパネルで「**[!UICONTROL Edit Web Page]**」をクリックします。
 
-1. 「」をクリックします
+1. 非表示にする要素をクリックし、右側のパネルの「[!UICONTROL Hide]」ボタンをクリックします。
+
+   右側のパネルには、選択した要素に対して実行できるオプションが表示されます。 これらのオプションは、選択した要素によって異なります。
+
+   ![ 要素を非表示ボタン ](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. 左上隅の戻る矢印をクリックして、web デザイナーに戻ります。
 
