@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '384'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 86%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 9月11日（PT） | [ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 「役割と権限の指定」に次の注意を追加しました。<P> [!DNL Target] でアクティビティを表示するには、ユーザーは、少なくとも [!UICONTROL Observer] の役割を持つワークスペースに直接割り当てられている必要があります。 ユーザーグループのみを介した割り当ては不十分です。 デフォルトワークスペースへのアクセス権をユーザーに付与することを一般的にお勧めします。 |
 | 8月1日（PT） | [Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 次の FAQ を追加しました。「[!DNL Target] API を使用して UI で作成され [!DNL Target] ビジュアルオファーを管理できますか？」 |
 | 7月10日（PT） | [ プロキシ設定（Java） ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | 次の節を追加しました：オンデバイス判定 |
 | 6月3日（PT） | [優先度](/help/main/c-activities/priority.md) | 複数の [!UICONTROL Form-Based Experience Composer] および VEC アクティビティからのコンテンツが配信できることを示すなど、トピック全体を更新しました。以前は、フォームベースのワークフローから配信できるアクティビティは 1 つのみでした。配信できるフォームベースのアクティビティ数に制限がなくなりました。 |

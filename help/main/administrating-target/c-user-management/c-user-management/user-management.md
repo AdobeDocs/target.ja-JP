@@ -5,10 +5,10 @@ title: ユーザーを追加し、 [!DNL Target Standard]  アカウントの権
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 66%
 システム管理者のみ、[!DNL Target] のユーザーの役割を指定できます。例えば、[!UICONTROL Standard] の承認者ユーザーは、の管理者権限を併せ持たない限り、監視者を承認者 [!DNL Experience Cloud] 変更できません。
 
 システム管理者ユーザーはシステムにユーザーを追加する必要があります。ユーザーは自動的には追加されません。ユーザーのアカウントを登録する前に、[!DNL Experience Cloud] から招待メールを送信して、メールアドレスを確認する必要があります。
+
+>[!NOTE]
+>
+>[!DNL Target] でアクティビティを表示するには、ユーザーは、少なくとも [!UICONTROL Observer] の役割を持つワークスペースに直接割り当てられている必要があります。 ユーザーグループのみを介した割り当ては不十分です。 デフォルトワークスペースへのアクセス権をユーザーに付与することを一般的にお勧めします。
 
 1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) 「**[!UICONTROL Products]**」をクリックしてから、目的の商品名を選択します。
 
