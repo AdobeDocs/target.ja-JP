@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 90%
 
 ---
 
@@ -19,29 +19,11 @@ ht-degree: 100%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Adobe Customer Journey Analytics] での [!DNL Target] レポート（2024年5月8日（PT））
+## at.js バージョン 2.11.6（2024年9月29日（PT））
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics){target=_blank} と [!DNL Target] の統合では、組織の最適化プログラムに適した強力な分析機能と時間節約ツールを利用できます。
+* [!UICONTROL Visual Experience Composer] （VEC）または [!UICONTROL Form-Based Experience Composer] 内のリダイレクトオファーで [!DNL Target] が正しく動作しない問題を修正しました。
 
-[!DNL Customer Journey Analytics] を [!DNL Target] のレポートソースとして使用する主なメリットは次のとおりです。
-
-* マーケターは、[!DNL Customer Journey Analytics] の成功指標を [!DNL Target] のアクティビティレポートにいつでも動的に適用できます。アクティビティを実行する前にすべての項目を指定する必要はありません。
-* マーケターは、[実験パネル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}などの [!DNL Customer Journey Analytics] 機能を活用して、web サイトのパーソナライゼーションをさらに分析できます。
-* マーケターは、[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} および [!DNL Target] のレポートを単一のソースで作成できます。両方のパーソナライゼーション製品を [!DNL Customer Journey Analytics] に接続すると、web パーソナライゼーションの全体像を把握できます。
-
-詳しくは、[Adobe Customer Journey Analytics での Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)を参照してください。
-
-## [!UICONTROL Visual Experience Composer] ヘルパー拡張機能（2024年4月23日（PT））
-
-従来の [!DNL Target] Visual Experience Composer ヘルパー拡張機能は、Manifest V2 を使用して作成されました。[!DNL Google] では、2024年6月以降、Manifest V2 を使用して作成された拡張機能を許可しなくなると発表しました。詳しくは、[[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)を参照してください。
-
-[!DNL Adobe] では、お客様ができるだけ早く新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)に移行することをお勧めします。
-
-## [!UICONTROL Browser] オーディエンス属性の `Browser:iPad` と `Browser:iPhone` の更新（2024年4月30日（PT））
-
-| アップデート | 詳細 |
-|--- |--- |
-| オーディエンスの作成時に使用される[ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)で [!UICONTROL Browser:iPad] と [!UICONTROL Browser:iPhone] が更新されました。 | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用する訪問者など、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P>[!DNL Target] Standard／Premium 24.3.1（2024年3月4～6日（PT））以降、`Browser:iPad` や `Browser:iPhone` などのターゲット UI を使用して作成された組み込みオーディエンスは、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`、`profile.mobile.isTablet` を使用して [!DNL iPad] と [!DNL iPhone] に対して適切なターゲティングを実行するように更新されます。<P>このアップデートでは、お客様側でのアクションは必要ありません。<p><B>重要</b>：お客様がプロファイルスクリプト（および JavaScript セグメント）で [!DNL iPad] と [!DNL iPhone] を適切にターゲティングを実行するには、**2024年4月30日（PT）**&#x200B;までにお客様が手動で変更を行う必要があります。手動で変更する必要がある代替設定の例については、[[!UICONTROL Browser] オーディエンス属性の  [!DNL iPad]  と  [!DNL iPhone]  のアップデート](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)を参照してください。 |
+at.js リリースについて詳しくは、*Adobe Target開発者ガイド [ の ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}at.js のバージョンの詳細* を参照してください。
 
 ## その他のリリースノートとバージョンの詳細
 
