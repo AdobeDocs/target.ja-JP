@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Target] の様々な文字、サイズ、その他の制限
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 77%
+source-wordcount: '1704'
+ht-degree: 76%
 
 ---
 
@@ -251,7 +251,9 @@ ht-degree: 77%
 
 ### オファー数
 
-* **推奨制限**：50,000 個の合計オファー。
+* **制限**:150,000 個の合計オファー。
+
+  150,000 件のオファーの制限を超えると、アクティビティ同期エラーが発生します。
 
 ### オファーサイズ {#offer-size}
 
