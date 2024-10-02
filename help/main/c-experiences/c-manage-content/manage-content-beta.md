@@ -7,7 +7,7 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 74dbbb2f56e62c2c5595497c7ae1e264f9ffd9d4
+source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 8%
@@ -37,7 +37,7 @@ ht-degree: 8%
 | 検索フィールド | **[!UICONTROL Search in]** のフィールドを使用すると、オファーをすばやく検索したり、[!UICONTROL Offers] ライブラリに表示されるオファーの数を減らしたりできます。 [!UICONTROL Offer Name]、[!UICONTROL AEM Paths] または [!UICONTROL AEM Tags] で検索できます。 |
 | [!UICONTROL Create Folder] | 「**[!UICONTROL Create Folder]**」をクリックして、コードオファー、画像オファーおよびサブフォルダー構造を作成するその他のフォルダーを格納するフォルダーを [!UICONTROL Offer] ライブラリに作成します。<P>詳しくは、[ オファーフォルダーの作成 ](/help/main/c-experiences/c-manage-content/create-content-folder.md) を参照してください。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 「**[!UICONTROL Create Offer]**」をクリックして、オファーを作成します。<P>様々なオファータイプの作成について詳しくは、以下を参照してください。 <ul><li>HTML オファー</li><li>[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| 一括操作チェックボックス<P>![ 一括操作アイコン ](/help/main/assets/icons/Selection.svg) | [!UICONTROL Bulk Operations] のチェックボックスをクリックして、すべてのアクティビティまたは選択したアクティビティで一括操作を実行します。<P>（権限とオファーのステータスに応じて）使用可能なアクションのリストについては、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。 |
+| 一括操作チェックボックス<P>![ 一括操作アイコン ](/help/main/assets/icons/Rectangle.svg) | [!UICONTROL Bulk Operations] のチェックボックスをクリックして、すべてのオファーまたは選択したオファーで一括操作を実行します。<P>（権限とオファーのステータスに応じて）使用可能なアクションのリストについては、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。 |
 | [!UICONTROL Name] | 各オファーの名前。<P>各オファー名の横にある **[!UICONTROL Quick Info]** のアイコン ![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ポップアップカードにそのオファーの詳細情報（オファー ID、タイプ、オファーの日付、最終変更日、変更者など）が表示されます。<p>各オファー名の横にある **[!UICONTROL More Actions]** のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてメニューを開き、アクティビティに対してクイックアクションを実行できます。 （権限とオファーのステータスに応じて） [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]、[!UICONTROL Move] のアクションを使用できます。 各アクションについて詳しくは、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。<P>テーブルのヘッダーをクリックすると、名前の昇順または降順でアルファベット順にリストを並べ替えることができます。 |
 | [!UICONTROL Type] | オファータイプ：[!UICONTROL HTML Offers]、[[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md)。 |
 | [!UICONTROL Source] | オファーが作成された場所（[!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Adobe Experience Manager]）を表示します。 |
