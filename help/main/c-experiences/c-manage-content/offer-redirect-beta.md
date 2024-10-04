@@ -1,16 +1,16 @@
 ---
-keywords: リダイレクトオファー;リダイレクトオファーの作成;HTML オファーの追加;リダイレクト時にすべての URL パラメーターを渡す;リダイレクト時に mboxSessionId を渡す (リダイレクト先が別のドメインの場合にのみ必要)
-description: ブラウザーが新しいページにリダイレクトする  [!DNL Target]  めのリダイレクトオファーの作成方法を説明します。
+keywords: リダイレクトオファー；リダイレクトオファーの作成；HTML オファーの追加；リダイレクトですべての URL パラメーターを渡す
+description: ブラウザーが新しいページにリダイレクトするリダイレクトオファーを作成する方法を説明します。
 title: リダイレクトオファーの作成方法
 feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 >
 >* AJAX mbox では、リダイレクトオファーを使用できません（`mboxUpdate`）。
 >
->* Analytics をレポートソースとして使用（A4T）するアクティビティでリダイレクトオファーを使用する場合は、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
+>* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 >
 >* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を参照してください。
 
@@ -43,13 +43,7 @@ ht-degree: 31%
 ## [!UICONTROL Code Offers] ページからのリダイレクトオファーの作成
 
 1. 「**[!UICONTROL Offers]**」をクリックして、「**[!UICONTROL Code Offers]**」タブを選択します。
-
-   ![ 「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. **[!UICONTROL Create Offer]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
-
-   ![ リダイレクトオファーを作成ダイアログボックス ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. オファーのわかりやすい名前を入力します。
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
@@ -64,7 +58,7 @@ ht-degree: 31%
 
 1. 目的のオプションを選択してリダイレクトオファーをカスタマイズします。
 
-   * **すべての URL パラメーターを含める：** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、切り替えスイッチをスライドしてこのオプションを有効にします。
+   * **すべての URL パラメーターを含める：** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、このオプションを有効にします。
 
      例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL で動的なパラメーターを渡して、ユーザーが電子メール、バナー広告、検索広告経由でサイトに到達したか、または別の経路でサイトに到達したかを追跡する必要もあります。このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
 
@@ -81,17 +75,8 @@ ht-degree: 31%
 ## [!UICONTROL Form-Based Experience Composer] を使用したリダイレクトオファーの作成
 
 1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
-
-   ![ フォームベースの Experience Composer の「コンテンツ」セクション ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. [**[!UICONTROL Default Content]**] ドロップダウンリストをクリックし、[**[!UICONTROL Change Redirect Offer]**] をクリックします。
-
-   ![ リダイレクトオファーオプションの変更 ](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
-
-   ![ リダイレクトオファーを作成ダイアログボックス ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. オファーのわかりやすい名前を入力します。
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
@@ -131,11 +116,7 @@ ht-degree: 31%
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
 1. 「**[!UICONTROL Content]**」セクションのドロップダウンリストをクリックして、「**[!UICONTROL Change Redirect Offer]**」をクリックします。
-
-   ![ リダイレクトオファーオプションの変更 ](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. [!UICONTROL Select Remote Offer] ダイアログボックスで目的のリダイレクトオファーを選択し、「**[!UICONTROL Done]**」をクリックします。
-
 1. アクティビティの設定を終了します。
 
 ## トレーニングビデオ：フォームベースの Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)

@@ -1,16 +1,16 @@
 ---
 keywords: コンテンツ;アセット;コンテンツの管理;オファー;アセットの管理;選択モードを入力;選択モード
-description: '[!UICONTROL Offers] ライブラリを使用してコードおよび画像オファーを効率的に管理する方法を説明します。 ワークフローを効率化しプロジェクトを強化するためのベストプラクティスとヒントを説明します。'
+description: '[!UICONTROL Offers] ライブラリを使用してコードおよび画像オファーを効率的に管理する方法を説明します。'
 title: コードと画像オファーの管理方法
 feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 

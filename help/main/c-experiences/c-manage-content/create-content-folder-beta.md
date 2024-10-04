@@ -7,9 +7,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 8%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 8%
 
    ![ 「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Create Folder]」をクリックします。
 
 1. フォルダーのわかりやすい名前を指定します。
 
-1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを持ち [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を使用する場合は、ワークスペースを選択します。
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) アカウントを持ち [workspaces](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を使用する場合、ワークスペースを選択します。
 
 1. **[!UICONTROL Create]** をクリックします。
 
@@ -44,9 +44,8 @@ ht-degree: 8%
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Image Offers]**&#x200B;をクリックします。
 
-   ![ 「画像オファー」タブ ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. **[!UICONTROL Create]**／**[!UICONTROL Folder]**&#x200B;をクリックします。
+
 1. フォルダーの説明 **[!UICONTROL Title]** を指定します。
 
    例えば、保持するコンテンツのタイプを含めることができます。
@@ -54,9 +53,9 @@ ht-degree: 8%
    名前には、パーセント記号 `%`、スラッシュ `/`、バックスラッシュ `\`、コロン `:`、アスタリスク `*`、疑問符 `?`、二重引用符 `"`、角括弧 `[`、角括弧 `]`、プラス記号：`+`、パイプ：`|`、ピリオド：`.`、中括弧：`#`、中括弧：`{`、中括弧 `}`、キャレット `^`、セミコロン `;` を含めることはできません。 これらの文字の代わりにハイフン（`- `）を使用できます。
 
 1. （オプション）説明 **[!UICONTROL Name]** を指定します。
-1. （オプション）「**[!UICONTROL Private]**」チェックボックスをオンにして、フォルダーを非公開にし、フォルダーとその内容のみが表示されるようにします。
+1. （オプション）「**[!UICONTROL Private]**」を選択して、フォルダーがプライベートになり、フォルダーとその内容のみが表示されるようにします。
 
-1. （オプション） [**[!UICONTROL Reorder-able in List View]**] チェック ボックスをオンにして、他のユーザーが [!UICONTROL List View] 内のフォルダの位置を並べ替えられるように指定します。
+1. （オプション） **[!UICONTROL Reorder-able in List View]** を選択して、他のユーザーが [!UICONTROL List View] 内のフォルダーの位置を並べ替えることができることを指定します。
 
 1. **[!UICONTROL Create]** をクリックします。
 
