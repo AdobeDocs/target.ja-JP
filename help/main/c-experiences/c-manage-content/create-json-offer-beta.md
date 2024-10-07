@@ -6,10 +6,10 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '421'
+ht-degree: 26%
 
 ---
 
@@ -33,13 +33,7 @@ JSON オファーを使用する際は次の点を考慮してください。
 ## JSON オファーの作成 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
-
-   ![ オファー/「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. **[!UICONTROL Create Offer]**／**[!UICONTROL JSON Offer]**&#x200B;をクリックします。
-
-   ![offer-json 画像 ](assets/offer-json-new.png)
-
 1. オファー名を入力します。
 1. （条件付き） [[!DNL Target] Premium アカウント ](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) を選択します。
 1. （条件付き）目的のプロファイル属性を選択します。
@@ -143,6 +137,4 @@ Real-time CDP プロファイル属性は、HTMLオファーと JSON オファ�
 
 ## JSON オファータイプによるオファーのフィルタリング {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL Show filters]** アイコンをクリックし、「**[!UICONTROL JSON]**」チェックボックスをオンにすると、JSON オファータイプで [!UICONTROL Offers] ライブラリをフィルタリングできます。
-
-![offer-json-filter 画像 ](assets/offer-json-filter-new.png)
+**[!UICONTROL Show filters]** のアイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックし、「**[!UICONTROL JSON Offers]**」チェックボックスを選択すると、JSON オファータイプで [!UICONTROL Offers] ライブラリをフィルタリングできます。

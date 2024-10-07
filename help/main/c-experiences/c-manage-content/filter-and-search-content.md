@@ -4,14 +4,14 @@ description: Adobeオファーライブラリでコードおよび画像オフ�
 title: オファーライブラリのコンテンツを検索するには
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '235'
+ht-degree: 8%
 
 ---
 
-# コンテンツの検索
+# コンテンツの検索とフィルタリング
 
 [!DNL Adobe Target] の [!UICONTROL Offers] ライブラリ内のキーワードでアセットを検索します。
 
