@@ -4,10 +4,10 @@ description: Analytics for  [!DNL Target] （A4T）でのレポート表示に�
 title: A4T でのレポート表示に関する FAQ
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 65%
+source-wordcount: '2539'
+ht-degree: 64%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 65%
 
 +++
 
-## [!DNL Analysis Workspace] で「同一タッチ」Attribution IQモデルを適用できますか？
+## [!DNL Analysis Workspace] で使用されるAttribution IQモデルはどれですか？
 
 +++回答
-[!DNL Analysis Workspace] で [!DNL Target] アクティビティのインプレッションとコンバージョンを使用する場合は、正確なカウントを確保するために、「同一タッチ」Attribution IQモデルを指標に適用します。 [デフォルト以外のアトリビューションモデル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ja)を適用するには、指標を右クリックして&#x200B;**列設定を変更し、デフォルト以外のアトリビューションモデルを使用を有効にしてから、同一タッチモデルを選択**&#x200B;します。このモデルを適用しない場合、指標は誇張されて表示されます。
-
-現在のすべての [!DNL Adobe Analytics] パッケージで、このモデルを [!UICONTROL Attribution IQ] で追加できます。 [!UICONTROL Attribution IQ] へのアクセス権がない場合は、[!UICONTROL Reports & Analytics] の A4T データを使用してください。
+[!DNL Analysis Workspace] で [!DNL Target] アクティビティのインプレッションとコンバージョンを使用する場合、正確なカウントを確保するために、「同一タッチ」Attribution IQモデルが指標に適用されるデフォルトのモデルです。 このモデルは 99% のケースでうまく機能します。 ただし、Attribution IQでこの標準アトリビューションを上書きできます。
 
 +++
 
