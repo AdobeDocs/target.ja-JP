@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 82%
+source-wordcount: '1394'
+ht-degree: 81%
 
 ---
 
@@ -123,8 +123,11 @@ ht-degree: 82%
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [A/B テストベータ版の作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [アクティビティ URL ベータ版](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [エクスペリエンスベータ版を追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [オーディエンスの選択](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [オーディエンスの選択（ベータ版）](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics データの使用](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
