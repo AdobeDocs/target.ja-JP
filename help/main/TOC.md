@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 83%
+source-wordcount: '1385'
+ht-degree: 82%
 
 ---
 
@@ -115,11 +115,13 @@ ht-degree: 83%
    + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
+      + [A/B テストの概要ベータ版](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
       + [A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A テスト](/help/main/c-activities/t-test-ab/aa-testing.md)
       + A/B テストの作成 {#create}
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [A/B テストベータ版の作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [オーディエンスの選択](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
