@@ -6,7 +6,8 @@ badgePremium: label="ベータ" type="Informative" url="https://experienceleague
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 78%
@@ -30,19 +31,19 @@ ht-degree: 78%
 * [アクティビティの概要](c-activities/activities.md){target=_blank}
 * [Target のアクティビティタイプ](c-activities/target-activities-guide.md){target=_blank}
 * A/B テスト {#abtest}
-   * [A/B テストの概要](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [A/B テストの概要](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [ A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/A テスト](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * A/B テストの作成 {#create}
-      * [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [オーディエンスの選択](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [Analytics データの使用](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 自動配分 {#auto-allocate}
    * [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
@@ -180,4 +181,3 @@ ht-degree: 78%
    * [Recommendations Classic ドキュメント](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
