@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + 自動配分 {#auto-allocate}
       + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [自動配分レポートのベータ版の解釈](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自動配分を使用すると、手動テストよりも迅速にテスト結果を入手し、売上高を増やすことができます](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自動ターゲット {#auto-target}
       + [自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [自動ターゲットの概要ベータ版](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [自動ターゲットアクティビティベータ版を作成](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自動ターゲットに関する FAQ とトラブルシューティング](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [レポートと自動ターゲット](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}

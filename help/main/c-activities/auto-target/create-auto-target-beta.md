@@ -1,28 +1,27 @@
 ---
-keywords: A/B の作成；A/B テスト；A/B アクティビティ；新しい a/b アクティビティ；a/b の作成
-description: '[!UICONTROL Visual Experience Composer] （VEC）をマスターして、A/B テスト アクティビティを  [!DNL Target] が有効なページで直接作成します。'
-title: A/B テストの作成方法
-feature: A/B Tests
+keywords: 自動ターゲットの作成；A/B テスト；自動ターゲットアクティビティ；新しい A/B アクティビティ；自動ターゲット；パーソナライズされたエクスペリエンスの自動ターゲット；パーソナライズされた；最適化
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [!UICONTROL Auto-Target] A/B テスト アクティビティを作成する方法を説明します。'
+title: '[!UICONTROL Auto-Target] アクティビティの作成方法'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
+feature: Auto-Target
 hide: true
 hidefromtoc: true
 source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 17%
+source-wordcount: '919'
+ht-degree: 19%
 
 ---
 
-# A/B テストアクティビティの作成
+# [!UICONTROL Auto-Target] アクティビティの作成
 
-[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を活用して、[!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページで直接作成したり、[!DNL Target] 内のページセクションを変更したりします。
+[!DNL Adobe Target] の [!UICONTROL Visual Experience Composer] （VEC）を使用して、[!UICONTROL Auto-Target] [!UICONTROL A/B Test] アクティビティを [!DNL Target] 対応ページに直接作成したり、[!DNL Target] 内のページの一部を変更したりします。
 
 >[!NOTE]
 >
->[!UICONTROL Manual] （デフォルト）の [!UICONTROL A/B Test] アクティビティ（この記事で説明）に加えて、[!DNL Target] では、さらに 2 種類の [!UICONTROL A/B Test] アクティビティ（[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target]）が提供されます。
->
->[A/B テストの概要 ](/help/main/c-activities/t-test-ab/test-ab.md#types) の *A/B テスト アクティビティのタイプ* を参照してください。
+>[!UICONTROL Auto-Target] は、[!DNL Target Premium] ソリューションの一部として利用できます。 この機能は、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では使用できません。このライセンスで提供される高度な機能について詳しくは、[Target Premium](/help/main/c-intro/intro.md) を参照してください。
 
-手動 [!UICONTROL A/B Test] アクティビティを作成するには：
+[!UICONTROL Auto-Target] アクティビティを作成するには：
 
 1. **[!UICONTROL Activities]** リストで、**[!UICONTROL Create Activity]**/**[!UICONTROL A/B Test]** をクリックします。
 
@@ -108,11 +107,11 @@ ht-degree: 17%
 
    例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
 
-1. **[!UICONTROL Traffic Allocation]** コントロールをクリックし、次に示すように、右側のパネルで目的のトラフィック配分方法を選択します。
+1. **[!UICONTROL Traffic Allocation]** コントロールをクリックし、右側のパネルで目的のトラフィック配分方法を選択します。 このシナリオでは、「**[!UICONTROL Auto-Taget for personalized experiences]**」をクリックします。
 
    ![ トラフィック配分方法の設定 ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   目的のトラフィック配分方法を選択します。
+   次のトラフィック割り当て方法を使用できます。
 
    * **[!UICONTROL Manual (Default)]**：各エクスペリエンスを表示するエントリの割合を指定します。 この割合は、全エクスペリエンス間で均等に配分することも、エクスペリエンスごとに大きく（または小さく）設定することもできます。全エクスペリエンスの合計が 100％になるようにします。
 
@@ -125,6 +124,10 @@ ht-degree: 17%
 1. オーディエンス、エクスペリエンスの選択、トラフィック配分の選択に満足したら、「**[!UICONTROL Next]**」をクリックして、3 つの手順から成るガイド付きワークフローの 3 番目のステップに進みます。
 
 1. アクティビティの[目標と設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)を指定します。
+
+   >[!NOTE]
+   >
+   >このアクティビティで [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用する場合は、[A4T による自動配分と自動ターゲットアクティビティのサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) を参照してください。
 
 1. **[!UICONTROL Save & Close]** または **[!UICONTROL Save]** をクリックします。
 
