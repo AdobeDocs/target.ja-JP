@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 76%
+source-wordcount: '420'
+ht-degree: 77%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 76%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 10月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 リリースに関するリリースノートを追加しました。 |
 | 9月30日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md) | 許可されるオファー数を更新しました。 |
 | 9月30日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.6 リリースに関する情報を追加しました。 |
 | 9月11日（PT） | [ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 「役割と権限の指定」に次の注意を追加しました。<P> [!DNL Target] でアクティビティを表示するには、ユーザーは、少なくとも [!UICONTROL Observer] の役割を持つワークスペースに直接割り当てられている必要があります。 ユーザーグループのみを介した割り当ては不十分です。 デフォルトワークスペースへのアクセス権をユーザーに付与することを一般的にお勧めします。 |
