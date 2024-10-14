@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 77%
+source-wordcount: '447'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 77%
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
 | 10月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 リリースに関するリリースノートを追加しました。 |
+|  | [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | プライベート Chrome web ストアでの拡張機能の使用に関する重要な情報を追加しました。 |
+|  | [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | プライベート Chrome web ストアでの拡張機能の使用に関する重要な情報を追加しました。 |
 | 9月30日（PT） | [制限](/help/main/r-troubleshooting-target/target-limits.md) | 許可されるオファー数を更新しました。 |
 | 9月30日（PT） | [at.js のバージョンの詳細](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.6 リリースに関する情報を追加しました。 |
 | 9月11日（PT） | [ユーザー](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 「役割と権限の指定」に次の注意を追加しました。<P> [!DNL Target] でアクティビティを表示するには、ユーザーは、少なくとも [!UICONTROL Observer] の役割を持つワークスペースに直接割り当てられている必要があります。 ユーザーグループのみを介した割り当ては不十分です。 デフォルトワークスペースへのアクセス権をユーザーに付与することを一般的にお勧めします。 |
