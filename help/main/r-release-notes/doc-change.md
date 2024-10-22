@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '459'
 ht-degree: 72%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 72%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 10月22日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 次の重要な情報を追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` 範囲の最適化</li></ul> |
 | 10月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 リリースに関するリリースノートを追加しました。 |
 |  | [[!UICONTROL Visual Experience Composer] ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | プライベート Chrome web ストアでの拡張機能の使用に関する重要な情報を追加しました。 |
 |  | [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | プライベート Chrome web ストアでの拡張機能の使用に関する重要な情報を追加しました。 |
