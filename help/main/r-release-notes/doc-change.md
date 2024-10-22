@@ -1,13 +1,13 @@
 ---
-keywords: ターゲットドキュメントの変更ログ;ドキュメントの更新;新しいトピック;編集;アップデート;更新
+keywords: ターゲットドキュメントの変更ログ；ドキュメントの更新；新しいトピック；編集；アップデート；更新；変更
 description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や変更について、常に最新の情報を把握します。'
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 72%
+source-wordcount: '460'
+ht-degree: 69%
 
 ---
 
