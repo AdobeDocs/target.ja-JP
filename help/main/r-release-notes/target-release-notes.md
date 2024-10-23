@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ffd4cd4c39fca828f265ddfc50e9af297d9300cf
+source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 26%
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 2024 年 7 月 22 日（PT）から 2024 年 8 月 15 日（PT）の間に、[!DNL Target] チームは `__view__` の範囲を最適化し、アクティビティのインプレッション、訪問および訪問者レポートの精度を高めました。 この最適化は、自動レンダリングされた提案のレポートデータを自動的に取得することを目的としており、ほとんどのアカウントに対して透過的である必要があります。
 
-新規の [!DNL Adobe Experience Platform Web SDK] ユーザーはすべて、この最適化を有効にします。 ただし、at.js から移行したお客様で、以下の実装手順に従っていないお客様は、最適化を無効にしています。 アドビでは、これらのお客様に、2025 年 2 月 3 日までに実装を確認することをお勧めします。 この日以降、すべてのお客様に対して最適化を有効にします。 以下に示すように、までに実装のレビューと調整を行わないと、レポートに影響を与える可能性があります。 実装が影響を受けるかどうかを確認する必要がある場合や、実装を調整するためにより多くの時間が必要な場合は、[!DNL Adobe Client Care] にお問い合わせください。
+新規の [!DNL Adobe Experience Platform Web SDK] ユーザーはすべて、この最適化を有効にします。 ただし、at.js から移行したお客様で、以下の実装手順に従っていないお客様は、最適化を無効にしています。 アドビでは、これらのお客様に、2025 年 2 月 3 日までに実装を確認することをお勧めします。 この日以降、すべてのお客様に対して最適化を有効にします。 以下に示すように、までに実装のレビューと調整を行わないと、レポートに影響を与える可能性があります。 実装が影響を受けるかどうかを確認する必要がある場合や、実装を調整するためにより多くの時間が必要な場合は、[!DNL Adobe Customer Care] にお問い合わせください。
 
 手動の提案レンダリングを行う場合にこの最適化を活用するには、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（または対応する [!DNL Launch] アクションをヘルパーとして）を使用してエクスペリエンスをレンダリングする際に、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ールをレビューして通知を送信していることを確認します。
 
