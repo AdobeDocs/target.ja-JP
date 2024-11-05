@@ -7,20 +7,20 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 19%
 
 ---
 
 # リモートオファーを作成
 
-リモートオファーを使用して [!DNL Adobe Target] 外のコンテンツをホストすると、[!DNL Target] ーザーはこのコンテンツを参照し、ユーザーの web サイトに配信できます。 このコンテンツは、使いやすさやセキュリティ上の理由から、コンテンツ管理システム（CMS）または別のシステムに格納できます。
+リモートオファーを使用して、[!DNL Adobe Target] 外でコンテンツをホストすると、[!DNL Target] ーザーはこのコンテンツを参照してユーザーの web サイトに配信できます。 このコンテンツは、使いやすさやセキュリティ上の理由から、コンテンツ管理システム（CMS）または別のシステムに格納できます。
 
 >[!NOTE]
 >
->この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
+>この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、[ リリースノート ](/help/main/r-release-notes/release-notes.md) で発表されます。
 
 リモートオファーは、[!UICONTROL Offers]/[!UICONTROL Code Offers] ページ、または [Forms ベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) で作成できます。 [!UICONTROL Visual Experience Composer] （VEC）内でリモートオファーを作成または適用することはできません。 コンテンツは [!DNL Target] リクエストの場所に挿入されるので、これらの場所は、グローバル [!DNL Target] リクエストには適していない可能性が高くなります。
 
@@ -70,14 +70,15 @@ ht-degree: 19%
 ## [!UICONTROL Form-Based Experience Composer] を使用したリモートオファーの作成
 
 1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
 
-1. [**[!UICONTROL Default Content]**] ドロップダウンリストをクリックし、[**[!UICONTROL Change Remote Offer]**] をクリックします。
-
-1. **[!UICONTROL Create]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
+1. **[!UICONTROL Create Offer]**／**[!UICONTROL Remote Offer]**&#x200B;をクリックします。
 
 1. オファーのわかりやすい名前を入力します。
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
+
+1. （条件付き） [Target Premium アカウント ](/help/main/c-intro/intro.md#premium) をお持ちの場合は、目的の [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) を選択します。
 
 1. リダイレクト URL のタイプを指定します。
 
@@ -85,7 +86,7 @@ ht-degree: 19%
 
 1. リモートオファーのリモート URL を指定します。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
 ## リダイレクト URL のタイプ：[!UICONTROL Onsite Cached] または [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ ht-degree: 19%
 
 ## アクティビティでのリモートオファーの使用
 
-[!UICONTROL Form-Based Experience Composer] を使用してリモートオファーを適用する必要があります。 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリモートオファーを適用することはできません。
+[!UICONTROL Form-Based Experience Composer] を使用したリモートオファーの適用 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリモートオファーを適用することはできません。
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] は、[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations] の各アクティビティで使用するエクスペリエンスを作成する際に、そのエクスペリエンスが使用できない、または実用的でない場合に役立つ、非視覚的なエクスペリ [!UICONTROL Visual Experience Composer] ンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL Form-Based Experience Composer] を使用して、リモートオファーを使用するエクスペリエンスを作成できます。
 
@@ -121,9 +122,9 @@ ht-degree: 19%
 
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
-1. 「**[!UICONTROL Content]**」セクションのドロップダウンリストをクリックして、「**[!UICONTROL Change Remote Offer]**」をクリックします。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Remote Offer]**」をクリックします。
 
-1. [!UICONTROL Select Remote Offer] ダイアログボックスで目的のリモートオファーを選択し、「**[!UICONTROL Done]**」をクリックします。
+1. [!UICONTROL Change Remote Offer] ダイアログボックスで目的のリモートオファーを選択し、**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** をクリックします。
 
 1. アクティビティの設定を終了します。
 
@@ -141,7 +142,7 @@ ht-degree: 19%
 
 3. 呼び出 `mboxCreate` には、動的コンテンツのレンダリングに必要なパラメーターが含まれます。
 
-4. [!DNL Target] は、動的コンテンツの場所とそのパラメーターを含む URL を返します。 mbox 領域に iFrame を設定します。
+4. [!DNL Target] は、動的コンテンツの場所とそのパラメーターを含んだ URL を返します。 mbox 領域に iFrame を設定します。
 
 5. ブラウザーが URL をリクエストし、ページでレンダリングします。
 
@@ -158,13 +159,3 @@ ht-degree: 19%
 | オファーへの JavaScript の追加 | ○ | ○ |
 | オファーの URL | 絶対または相対 | 相対 |
 | リクエストするコンピューター | Adobe サーバー | 訪問者の Cookie を処理する訪問者のコンピューター |
-
-## トレーニングビデオ：フォームベースの Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
-
-このビデオでは、リモートオファーの作成に使用できる [!UICONTROL Form-Based Experience Composer] のデモを紹介します。
-
-* [!UICONTROL Form-Based Experience Composer] を使用したアクティビティの作成
-* [!UICONTROL Form-Based Experience Composer] と [!UICONTROL Visual Experience Composer] を使用するタイミングについて
-* 場所のターゲット設定の調整
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

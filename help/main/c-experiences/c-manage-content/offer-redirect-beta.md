@@ -1,26 +1,26 @@
 ---
 keywords: リダイレクトオファー；リダイレクトオファーの作成；HTML オファーの追加；リダイレクトですべての URL パラメーターを渡す
-description: ブラウザーが新しいページにリダイレクトするリダイレクトオファーを作成する方法を説明します。
+description: リダイレクトオファーを作成して、ブラウザーを新しいページにシームレスにガイドする方法を説明します。
 title: リダイレクトオファーの作成方法
 feature: Experiences and Offers
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 30%
+source-wordcount: '1077'
+ht-degree: 24%
 
 ---
 
 # リダイレクトオファーの作成
 
-ブラウザーが新しいページにリダイレクトするように、[!DNL Adobe Target] でリダイレクトオファーを作成します。
+リダイレクトオファーを作成して、ブラウザーを新しいページにシームレスにガイドする方法を説明します。
 
 >[!NOTE]
 >
->この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
+>この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、[ リリースノート ](/help/main/r-release-notes/release-notes.md) で発表されます。
 
 ページ内でコンテンツの一部を変更するのではなく、まったく異なる 2 つのページをテストすることができます。この場合、A/B テストではページ A とページ B を比較します。デフォルトのページ A を指すエクスペリエンスと、ページ B にリダイレクトするエクスペリエンスの 2 つを使用して [!UICONTROL A/B Test] アクティビティを設定します。オファーは、訪問者を別のページにリダイレクトするように設定されます。
 
@@ -30,7 +30,7 @@ ht-degree: 30%
 >
 >* AJAX mbox では、リダイレクトオファーを使用できません（`mboxUpdate`）。
 >
->* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。詳しくは、[リダイレクトオファー - A4T に関する FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
+>* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用するアクティビティでリダイレクトオファーを使用する場合、実装が特定の最小要件を満たす必要があります。 また、知っておくべき重要な情報があります。[ リダイレクトオファー – A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) を参照してください。
 >
 >* リダイレクトするエクスペリエンスの設定については、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)を参照してください。
 
@@ -58,25 +58,25 @@ ht-degree: 30%
 
 1. 目的のオプションを選択してリダイレクトオファーをカスタマイズします。
 
-   * **すべての URL パラメーターを含める：** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、このオプションを有効にします。
+   * **[!UICONTROL Include all URL parameters]:** 前のページに存在するすべての URL パラメーターを、リダイレクトされたページに反映する場合は、このオプションを有効にします。
 
-     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL で動的なパラメーターを渡して、ユーザーが電子メール、バナー広告、検索広告経由でサイトに到達したか、または別の経路でサイトに到達したかを追跡する必要もあります。このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
+     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
 
-   * **mbox セッション ID を渡す：** 別のドメインにリダイレクトするには必須です。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
+   * **[!UICONTROL Pass mbox session ID]:** 別のドメインにリダイレクトする必要があります。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
 
      ファーストパーティおよびサードパーティの Cookie 設定を使用する場合、ドメインを横断する際に mbox セッション ID を渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
 1. **[!UICONTROL Create]** をクリックします。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >これらのテストを開始する前に、実装コンサルタントに問い合わせてください。
 
 ## [!UICONTROL Form-Based Experience Composer] を使用したリダイレクトオファーの作成
 
 1. [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用してアクティビティを作成する際に、「**[!UICONTROL Content]**」セクションを表示する場所を選択します。
-1. [**[!UICONTROL Default Content]**] ドロップダウンリストをクリックし、[**[!UICONTROL Change Redirect Offer]**] をクリックします。
-1. **[!UICONTROL Create]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
+1. **[!UICONTROL Create Offer]**／**[!UICONTROL Redirect Offer]**&#x200B;をクリックします。
 1. オファーのわかりやすい名前を入力します。
 
    わかりやすい名前を指定すると、作成者や他のユーザーが [!UICONTROL Assets] ライブラリでオファーをすばやく見つけやすくなります。
@@ -89,25 +89,25 @@ ht-degree: 30%
 
 1. 目的のオプションを選択してリダイレクトオファーをカスタマイズします。
 
-   * **すべての URL パラメーターを含める：** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、切り替えスイッチをスライドしてこのオプションを有効にします。
+   * **[!UICONTROL Include all URL parameters]:** 前のページに存在するすべての URL パラメーターをリダイレクトされたページに反映する場合は、切り替えスイッチをスライドしてこのオプションを有効にします。
 
-     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL で動的なパラメーターを渡して、ユーザーが電子メール、バナー広告、検索広告経由でサイトに到達したか、または別の経路でサイトに到達したかを追跡する必要もあります。このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
+     例えば、男性向け商品のページから男性向けシャツカテゴリのページにユーザーを直接リダイレクトする場合などです。また、URL の動的パラメーターを渡す必要もあります。この方法は、ユーザーがメール、バナー広告、検索広告またはオーガニックを介してサイトに到達したかどうかを追跡する方法であるからです。 このオプションを有効にすると、URL ボックスに入力したすべてのものがリク `https://www.mycompany.com/mensShirts.html` ストされたときに、ページ `https://www.mycompany.com/mens.html?emailId=123` のリダイレクトオファーが自動的に `https://www.mycompany.com/mensShirts.html?emailId=123` になります。
 
-   * **mbox セッション ID を渡す：** 別のドメインにリダイレクトするには必須です。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
+   * **[!UICONTROL Pass mbox session ID]:** 別のドメインにリダイレクトする必要があります。 `sessionId` をリダイレクトに自動的に含める場合は、切り替えスイッチをスライドしてこのオプションを有効にします。 このオプションは、メールまたはドメイン間のクリックをテストする場合にのみ必要です。 この `sessionId` を使用して訪問者の Cookie を照合し、訪問者を引き続き追跡して適切なコンテンツが表示されるようにします。
 
      ファーストパーティおよびサードパーティの Cookie 設定を使用する場合、ドメインを横断する際に mbox セッション ID を渡す必要はありません。 この値はサードパーティ Cookie に保持されているため、URL に含める必要がないからです。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >これらのテストを開始する前に、実装コンサルタントに問い合わせてください。
 
 ## アクティビティでのリダイレクトオファーの使用
 
-[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) を使用してリダイレクトオファーを適用する必要があります。 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリダイレクトオファーを適用することはできません。
+[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) を使用してリダイレクトオファーを適用します。 現在、[!UICONTROL Visual Experience Composer] （VEC）を使用してリダイレクトオファーを適用することはできません。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] は、Visual Experience Composer が使用できない、または使用が実用的でない場合に、[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、および [!UICONTROL Recommendations] アクティビティで使用するエクスペリエンスを作成するのに便利な、非視覚的なエクスペリエンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL Form-Based Experience Composer] を使用して、リダイレクトオファーを使用するエクスペリエンスを作成できます。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] は、[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）、[!UICONTROL Recommendations] の各アクティビティで使用するエクスペリエンスを作成する際に、そのエクスペリエンスが使用できない、または実用的でない場合に役立つ、非視覚的なエクスペリ [!UICONTROL Visual Experience Composer] ンスおよびオファー作成インターフェイスです。 例えば、[!UICONTROL Form-Based Experience Composer] を使用して、リダイレクトオファーを使用するエクスペリエンスを作成できます。
 
 1. [!UICONTROL Form-Based Experience Composer] でアクティビティを作成または編集します。
 
@@ -115,16 +115,6 @@ ht-degree: 30%
 
 1. 目的の場所を指定し、必要に応じてオーディエンスの絞り込みを追加します。
 
-1. 「**[!UICONTROL Content]**」セクションのドロップダウンリストをクリックして、「**[!UICONTROL Change Redirect Offer]**」をクリックします。
-1. [!UICONTROL Select Remote Offer] ダイアログボックスで目的のリダイレクトオファーを選択し、「**[!UICONTROL Done]**」をクリックします。
+1. 「**[!UICONTROL Content]**」ドロップダウンリストをクリックし、**[!UICONTROL List]** アイコン（![ リスト ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてから「**[!UICONTROL Change Redirect Offer]**」をクリックします。
+1. [!UICONTROL Select Redirect Offer] ダイアログボックスで目的のリダイレクトオファーを選択し、「**[!UICONTROL Add]**」をクリックします。
 1. アクティビティの設定を終了します。
-
-## トレーニングビデオ：フォームベースの Composer![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
-
-このビデオでは、リダイレクトオファーの作成に使用できる [!UICONTROL Form-Based Experience Composer] のデモを紹介します。
-
-* [!UICONTROL Form-Based Experience Composer] を使用したアクティビティの作成
-* [!UICONTROL Form-Based Experience Composer] と [!UICONTROL Visual Experience Composer] のどちらを使用するべきかを理解する
-* 場所のターゲット設定の調整
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

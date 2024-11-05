@@ -7,20 +7,20 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 8%
 
 ---
 
 # オファーフォルダーの作成
 
-[!DNL Adobe Target] [!UICONTROL Offer] ライブラリに、コードオファー、画像オファーおよびその他のフォルダーを保持するフォルダーを作成して、サブフォルダー構造を作成します。
+[!DNL Adobe Target] [!UICONTROL Offer] ライブラリに、コードオファーや画像オファーを格納するフォルダーを作成します。 フォルダーを作成してサブフォルダー構造を作成することもできます。
 
 >[!NOTE]
 >
->この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
+>この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、[ リリースノート ](/help/main/r-release-notes/release-notes.md) で発表されます。
 
 コードオファーと画像オファーのフォルダーを作成するプロセスは少し異なります。 詳しくは、次の節を参照してください。
 
@@ -28,9 +28,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL Offers]**／**[!UICONTROL Code Offers]**&#x200B;をクリックします。
 
-   ![ 「コードオファー」タブ ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. 「**[!UICONTROL Create Folder]」をクリックします。
+1. **[!UICONTROL Create Folder]** をクリックします。
 
 1. フォルダーのわかりやすい名前を指定します。
 
@@ -54,7 +52,6 @@ ht-degree: 8%
 
 1. （オプション）説明 **[!UICONTROL Name]** を指定します。
 1. （オプション）「**[!UICONTROL Private]**」を選択して、フォルダーがプライベートになり、フォルダーとその内容のみが表示されるようにします。
-
 1. （オプション） **[!UICONTROL Reorder-able in List View]** を選択して、他のユーザーが [!UICONTROL List View] 内のフォルダーの位置を並べ替えることができることを指定します。
 
 1. **[!UICONTROL Create]** をクリックします。
