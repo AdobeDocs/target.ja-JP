@@ -7,10 +7,10 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 9%
+source-wordcount: '866'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target Standard/Premium] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
+>この記事では、現在Beta プログラムの一部である [!DNL Target] ユーザーインターフェイスのアップデートについて説明します。 [!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、[ リリースノート ](/help/main/r-release-notes/release-notes.md) で発表されます。
 
 [!UICONTROL Offers] ライブラリを表示するには、[!DNL Target] UI の上部にある「**[!UICONTROL Offers]**」タブをクリックします。
 
@@ -33,14 +33,16 @@ ht-degree: 9%
 | 要素 | 説明 |
 |--- |--- |
 | 左側のナビゲーションパネル | [!UICONTROL Code Offers] または [!UICONTROL Image Offers] の表示を切り替えます。 |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ フィルターを表示/フィルターアイコンを非表示 ](/help/main/assets/icons/RailLeft.svg) | **[!UICONTROL Show Folders]** アイコンまたは **[!UICONTROL Hide Folders]** アイコンをクリックして、オファーフォルダー構造を表示するか、フォルダー構造を表示しないかを切り替えます。<P>詳しくは、[ オファーフォルダーの作成 ](/help/main/c-experiences/c-manage-content/create-content-folder.md) を参照してください。 |
 | [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | **[!UICONTROL Show filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Source]、[!UICONTROL AEM Type] でオファーをフィルタリングします。<P>詳しくは、以下の [ オファーリストにフィルターを適用 ](#filters) を参照してください。 |
 | 検索フィールド | **[!UICONTROL Search in]** のフィールドを使用すると、オファーをすばやく検索したり、[!UICONTROL Offers] ライブラリに表示されるオファーの数を減らしたりできます。 [!UICONTROL Offer Name]、[!UICONTROL AEM Paths] または [!UICONTROL AEM Tags] で検索できます。 |
 | [!UICONTROL Create Folder] | 「**[!UICONTROL Create Folder]**」をクリックして、コードオファー、画像オファーおよびサブフォルダー構造を作成するその他のフォルダーを格納するフォルダーを [!UICONTROL Offer] ライブラリに作成します。<P>詳しくは、[ オファーフォルダーの作成 ](/help/main/c-experiences/c-manage-content/create-content-folder.md) を参照してください。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 「**[!UICONTROL Create Offer]**」をクリックして、オファーを作成します。<P>様々なオファータイプの作成について詳しくは、以下を参照してください。 <ul><li>HTML オファー</li><li>[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | 一括操作チェックボックス<P>![ 一括操作アイコン ](/help/main/assets/icons/Rectangle.svg) | [!UICONTROL Bulk Operations] のチェックボックスをクリックして、すべてのオファーまたは選択したオファーで一括操作を実行します。<P>（権限とオファーのステータスに応じて）使用可能なアクションのリストについては、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。 |
-| [!UICONTROL Name] | 各オファーの名前。<P>各オファー名の横にある **[!UICONTROL Quick Info]** のアイコン ![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ポップアップカードにそのオファーの詳細情報（オファー ID、タイプ、オファーの日付、最終変更日、変更者など）が表示されます。<p>各オファー名の横にある **[!UICONTROL More Actions]** のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてメニューを開き、アクティビティに対してクイックアクションを実行できます。 （権限とオファーのステータスに応じて） [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]、[!UICONTROL Move] のアクションを使用できます。 各アクションについて詳しくは、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。<P>テーブルのヘッダーをクリックすると、名前の昇順または降順でアルファベット順にリストを並べ替えることができます。 |
+| [!UICONTROL Name] | 各オファーの名前。<P>各オファー名の横にある **[!UICONTROL Quick Info]** アイコン ![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ポップアップカードにそのオファーの詳細情報（オファー ID、タイプ、オファーの最終変更日、変更者など）が表示されます。<p>各オファー名の横にある **[!UICONTROL More Actions]** のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてメニューを開き、アクティビティに対してクイックアクションを実行できます。 （権限とオファーのステータスに応じて） [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]、[!UICONTROL Move] のアクションを使用できます。 各アクションについて詳しくは、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。<P>テーブルのヘッダーをクリックすると、名前の昇順または降順でアルファベット順にリストを並べ替えることができます。 |
 | [!UICONTROL Type] | オファータイプ：[!UICONTROL HTML Offers]、[[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md)。 |
 | [!UICONTROL Source] | オファーが作成された場所（[!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Adobe Experience Manager]）を表示します。 |
+| [!UICONTROL Last updated] | オファーが最後に変更された日時とユーザーを表示します。<P>テーブルのヘッダーをクリックして、日付順で昇順または降順にリストを並べ替えます。 |
 
 ## オファーライブラリへのフィルターの適用 {#filters}
 
@@ -64,18 +66,18 @@ ht-degree: 9%
 
 ### その他のアクション
 
-コードオファーと画像オファーで使用できるアクションは、わずかに異なります。 詳しくは以下のセクションで説明されています。
+[!UICONTROL Code Offers] で使用できるアクションと [!UICONTROL Image Offers] で使用できるアクションは、多少異なります。 詳しくは以下のセクションで説明されています。
 
 #### [!UICONTROL Code Offer] オプション
 
 各オファー名の横にある **[!UICONTROL More actions]** のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてメニューを開き、アクティビティに対してクイックアクションを実行できます。
 
-（権限とオファーのステータスに応じて） [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]、[!UICONTROL Move] のアクションを使用できます。
+使用できるアクションは次のとおりです（権限とオファーのステータスによって異なります）。
 
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move] （例えば、1 つ以上の項目をフォルダーに移動するには、目的の項目の **[!UICONTROL Move]** アイコンをクリックし、目的のフォルダーをクリックしてから、「**[!UICONTROL Drop]**」をクリックします。）
+* [!UICONTROL Move] （例えば、1 つ以上の項目をフォルダーに移動するには、目的の項目の横にある「**[!UICONTROL Move]**」をクリックし、目的のフォルダーをクリックして「**[!UICONTROL Move]**」をクリックします。）
 
 権限によっては、一部のオプションのアイコンが表示されない場合があります。 例えば、[!UICONTROL Observer] の権限を持つユーザーは [!UICONTROL Copy] オプションを使用する権限を持っていません。
 
@@ -108,11 +110,8 @@ ht-degree: 9%
 以下の情報が表示されます。
 
 * [!UICONTROL Name]
-* [!UICONTROL Source]
 * [!UICONTROL Offer ID]
 * [!UICONTROL Type]
 * [!UICONTROL Last Modified]
-* [!UICONTROL Offer path]
-
 
 [!UICONTROL View Full Details] リンクをクリックして、各オファーの定義ポップアップカードでコードオファーを参照するオファーの属性とアクティビティを表示します。 この機能は画像オファーには適用されません。これにより、オファーの編集中に他のアクティビティに影響が及ぶことを防止できます。情報には、[!UICONTROL Live Activities] と [!UICONTROL Inactive Activities] の詳細が含まれます。
