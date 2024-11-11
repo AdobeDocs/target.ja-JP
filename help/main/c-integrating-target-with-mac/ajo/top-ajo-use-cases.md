@@ -1,28 +1,29 @@
 ---
 keywords: 最適化；パーソナライゼーション；adobe journey optimizer;ajo；ユースケース；シナリオ；web；コードベース
-description: ' [!DNL Adobe Journey Optimizer] で最も効果的な最適化のユースケースを効果的に実装する方法を説明します。'
+description: 最大の効果を得るために、Adobe Journey Optimizerで最適化の上位のユースケースを実装する方法を説明します。
 title: Web チャネルとコードベース  [!DNL Adobe Journey Optimizer]  チャネルにおける最適化の上位のユースケース
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '176'
+ht-degree: 6%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] での上位の最適化のユースケース - web チャネルとコードベースチャネル
 
-Web チャネルとコードベースチャネルの [!DNL Adobe Journey Optimizer] で最も効果的な最適化のユースケースを効果的に実装する方法を説明します。
+Web チャネルとコードベースチャネルへの影響を最大限に高めるために、[!DNL Adobe Journey Optimizer] で上位の最適化のユースケースを実装する方法を説明します。 デジタルマーケティングの取り組みを強化するための実用的な戦略とベストプラクティスを発見します。
 
 ## 前提条件
 
 次のユースケースを実行するには、以下が必要です。
 
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
-* これらのユースケースには、[!DNL Adobe Target] ライセンスは必要ありません。 これらのユースケースは、[!DNL Journey Optimizer] を使用して、で使い慣れたタスクを実行する方法を示すよう [!DNL Target] 設計されています。 これらのユースケースでは、[!DNL Journey Optimizer] で同じ結果を得る方法を検討し、理解できます。
+* これらのユースケースには、[!DNL Adobe Target] ライセンスは必要ありません。 これらのユースケースは、[!DNL Journey Optimizer] を使用して [!DNL Target] で使い慣れたタスクを実行する方法を示しており、[!DNL Journey Optimizer] を使用して同じ結果を調査および達成できます。
 
 ## 使用例
 

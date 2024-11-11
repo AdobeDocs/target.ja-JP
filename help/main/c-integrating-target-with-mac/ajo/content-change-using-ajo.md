@@ -6,9 +6,10 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 このユースケースは、[!DNL Adobe Journey Optimizer] でコンテンツの変更を効果的に A/B テストするための秘密鍵のロックを解除するのに役立ちます。
 
-このユースケースでは、[!DNL Adobe Target] の代わりに [!DNL Journey Optimizer] を使用して、[A/B テスト アクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md) による A/B テストなど、使い慣れたタスクを実行する方法を示します。
-
-このユースケースは、[!DNL Adobe Target]、[A/B テスト アクティビティ ](/help/main/c-activities/t-test-ab/test-ab.md) を使用した A/B テストを使用し、[!DNL Journey Optimizer] を使用して、実行した可能性のある使い慣れたタスクを実行する方法を示すように設計されています。
+このユースケースでは、[!DNL Adobe Target] の代わりに [!DNL Journey Optimizer] を使用して、[!DNL Adobe Target] で [A/B テスト アクティビティを使用した A/B テストなど ](/help/main/c-activities/t-test-ab/test-ab.md) 使い慣れたタスクを実行する方法を示します。
 
 ## メリットと価値
 
@@ -31,7 +30,7 @@ ht-degree: 1%
 
 * あるアパレル会社は、様々な画像をテストし、コールトゥアクションのテキストでユーザーの名を使用してキャンペーンランディングページをパーソナライズすることでコンバージョンを向上させました。
 
-* ある e コマース企業は、キャンペーンランディングページで様々な製品説明や画像をテストすることで、ゴールドロイヤルティメンバーのコンバージョン率が高く、売上の増加につながることがわかりました。
+* ある e コマース企業は、キャンペーンランディングページで様々な製品の説明と画像をテストすることで、ゴールドロイヤルティメンバーのコンバージョン率が高く、売上の増加につながることがわかりました。
 
 ## 手順
 
@@ -41,17 +40,13 @@ ht-degree: 1%
 >
 >ページ下部のビデオは特に役立ちます。
 
-様々な画像をテストし、プロファイルスクリプトを使用してユーザーの名を使用したメッセージをパーソナライズすることで、web ページを最適化するには、次の手順を実行します。
+様々な画像をテストし、プロファイルスクリプトを使用してユーザーの名を使用したメッセージをパーソナライズすることで、web ページを最適化します。
 
-1. [!DNL Adobe Journey Optimizer] で、左側のパネルから **キャンペーン** をクリックして、[!UICONTROL Campaigns] のページを表示します。
-
-   ![ 「キャンペーン」タブがハイライト表示されたAdobe Journey Optimizerランディングページ ](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. [!DNL Journey Optimizer] で、左側のパネルから **キャンペーン** をクリックして、[!UICONTROL Campaigns] のページを表示します。
 
 1. [!UICONTROL Campaigns] ページの右上隅にある「**[!UICONTROL Create Campaign]**」をクリックします。
 
 1. 「**[!UICONTROL Scheduled - Marketing]**」（デフォルト）を選択し、「**作成** をクリックして、[!UICONTROL Campaign] の詳細ページを表示します。
-
-   ![Adobe Journey Optimizerのキャンペーン詳細ページ ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. 「**[!UICONTROL Properties]**」セクションでは、キャンペーンのわかりやすい名前と説明（オプション）を入力します。
 
@@ -133,4 +128,3 @@ ht-degree: 1%
 >[3}Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}Web コンテンツを編集 **
 >[](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}2}Journey Optimizer ドキュメント } のチュートリアルビデオ **
 >[キャンペーン ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} を *Journey Optimizer Tutorialsに作成*
-
