@@ -4,9 +4,9 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 85%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 85%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2024年
+
+### at.js バージョン 2.11.6（2024年9月29日（PT））
+
+* [!UICONTROL Visual Experience Composer] （VEC）または [!UICONTROL Form-Based Experience Composer] 内のリダイレクトオファーで [!DNL Target] が正しく動作しない問題を修正しました。
+
+at.js リリースについて詳しくは、*Adobe Target開発者ガイド [ の ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}at.js のバージョンの詳細* を参照してください。
 
 ### [!DNL Adobe Customer Journey Analytics] での [!DNL Target] レポート（2024年5月8日（PT））
 
@@ -408,7 +414,7 @@ ht-degree: 85%
 | *Adobe Target 開発者ガイド* | *Adobe Target 開発者ガイド*&#x200B;は、すべての [!DNL Target] 開発者コンテンツを 1 つの便利なガイドにまとめたものです。ガイドには、[!DNL Target] と [!DNL Recommendations]、[!DNL Target] SDK、[!DNL Target] API の実装に関する情報が掲載されています。<br> 詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。 |
 
 * [!UICONTROL Editor] の役割を持つユーザーは、ライブアクティビティでオーディエンスを編集できなくなりました。 （TGT-43582）
-* オーディエンス名の最初の文字として感嘆符（!）が使用されているオーディエンス（例：!London）を顧客が保存しようとすると、警告メッセージが表示されるようになりました。（TGT-43643）
+* オーディエンス名の最初の文字として感嘆符（!）が使用されているオーディエンス（例：!London）を顧客が保存しようとすると、警告メッセージが表示されるようになりました。 （TGT-43643）
 * 一部のお客様のオーディエンス定義の詳細カードで、終了したアクティビティがまだライブであると示されていた問題を修正しました。 （TGT-43527）
 
 ### [!DNL Target Standard/Premium] 22.6.1（時差リリース：2022年6月7～9日（PT））
@@ -1293,7 +1299,7 @@ at.js 2.1.0 に、以下の魅力的な機能が追加されました。
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | ターゲット設定<br>2019 年 1 月 25 日 | プロファイルスクリプト、プロファイルパラメーターなど、プロファイルスクリプトまたはその他の入力ソースによって返される小数値と小数値の比較が、「等しい」比較の関数と一致するように変更されました。<br>詳しくは、[Target とオーディエンス](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) の FAQ を参照してください。 |
-| プロファイルスクリプト<br>2019 年 1 月 17 日 | パフォーマンス上の理由から、256 文字以下の戻り値を返すことをお勧めします。<br>文字列戻り値の場合、戻り値のサイズが 2048 文字を超えると、スクリプトはシステムによって無効になります。<br>配列の戻り値の場合、配列の連結された値のサイズが2048文字を超えると、スクリプトはシステムによって無効になります。<br>文字制限およびその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメータなど）について詳しくは、これらの制限は、Target のアクティビティやその他の要素に影響を与えます。 「[制限](/help/main/r-troubleshooting-target/target-limits.md)」を参照ください。 |
+| プロファイルスクリプト<br>2019 年 1 月 17 日 | パフォーマンス上の理由から、256 文字以下の戻り値を返すことをお勧めします。<br>文字列戻り値の場合、戻り値のサイズが 2048 文字を超えると、スクリプトはシステムによって無効になります。<br>配列の戻り値の場合、配列の連結された値のサイズが2048文字を超えると、スクリプトはシステムによって無効になります。<br>Target のアクティビティやその他の要素に影響する文字制限やその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）について詳しくは、[ 制限 ](/help/main/r-troubleshooting-target/target-limits.md) を参照してください。 |
 | at.js<br>2019 年 1 月 16 日 | at.js 1.6.4 はメンテナンスリリースで、以下の問題に対応しています。<ul><li>Microsoft Internet Explorer 11 で、重複するオファーが適用される競合条件のマニフェストを修正しました。（TNT-31374）</li><li>クリックトークンおよび HTML オファーを使用したデフォルトオファーがある場合にクリック追跡が実行される問題を修正しました。（TNT-31493）</li><li>各 Target リクエストで mboxEdgeCluster cookie を拡張しました。これは、mboxEdgeOverride が有効な場合にのみ使用されます。（TNT-31485）</li></ul> |
 
 ### [!DNL Target] Standard／Premium 19.1.1（2019 年 1 月 22 日）  {#release-19-1-1-previous}
@@ -2093,7 +2099,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
 この [!DNL Target] リリースには、お客様向けの以下の機能強化、修正および変更が含まれています。
 
-* インポートしたオーディエンス（Target Classic、Experience Cloud など）をオーディエンスライブラリから削除できます。アクティブなアクティビティに使用されているオーディエンスを削除しようとすると、Target から警告が出力されます。（TGT-25171）
+* 読み込んだオーディエンス（Target Classic、Experience Cloudなど）はオーディエンスライブラリから削除できます。 アクティブなアクティビティに使用されているオーディエンスを削除しようとすると、Target から警告が出力されます。（TGT-25171）
 * Target Classic からインポートされたオーディエンスには、オーディエンスライブラリ内で Adobe Target Classic というラベルが付けられます。これまで、UI において Target Standard／Premium と Target Classic は区別されませんでした。（TGT-27093）
 * コレクションが（最近表示された項目を含む）すべての条件に適用されるようになりました。（TGT-26646）
 * オーディエンスライブラリとオファーライブラリ内でワークスペースによるフィルターを適用できるようになりました（Enterprise ユーザーの権限を持つ Target Premium ユーザーの場合）。（TGT-26813）
@@ -2368,7 +2374,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 
   [!DNL Target] のページで断続的な操作をおこない、セッションがタイムアウトすると、ユーザーは再ログインを求められ、[!DNL Target] UI の直前のページに移動します。
 
-* ユーザーが閲覧対象を変更し（エクスペリエンスの変更、ページの切り替え、オーディエンスの切り替え、「次へ」のクリックなど）、変更を保存し忘れた場合に、カスタムコードの変更内容が失われる問題を修正しました。変更の保存を促すメッセージが表示されるようになりました。（TGT-23766）
+* ユーザーが閲覧（エクスペリエンスの変更、ページの切り替え、オーディエンスの切り替え、「次へ」のクリックなど）し、変更を保存し忘れると、カスタムコードの変更が失われる問題を修正しました。 変更の保存を促すメッセージが表示されるようになりました。（TGT-23766）
 * アクティビティをアーカイブ化したときに、「アクティビティを更新しています」ではなく、「アクティビティをアーカイブしました」と表示されるようになりました。（KB-1517）
 * Target UI 内の次の場所のドロップダウンメニューがオートコンプリート機能に置き換えられ、処理速度とパフォーマンスが向上しました（TGT-22939）。
 
@@ -2559,7 +2565,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
 * [!DNL Target] ユーザーインターフェイスが更新され、レポートソースとして [!UICONTROL Analytics for Target] （A4T）を使用するアクティビティのリダイレクトオファーをサポートするようになりました。 この機能には、まもなく提供される [!DNL at.js] 0.9.6 が必要になります。
 * いくつかの場所で、[!DNL Target] ユーザーインターフェイスが更新されました。
 
-   * レポートおよびアクティビティで、一部のオプション（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs] など） にアクセスするには、[!UICONTROL More Options] アイコン（![icon_more_options 画像 ](assets/icon_more_options.png) をクリックします。
+   * レポートやアクティビティで、一部のオプション（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs] など）は、[!UICONTROL More Options] のアイコン（![icon_more_options 画像 ](assets/icon_more_options.png) をクリックするとアクセスできるようになりました
 
      と呼ばれていました）のリリース情報も含まれています。
    * [!UICONTROL Offers] ライブラリで、オファーがカードではなくリストに表示されるようになりました。 その他のマイナーな UI の変更は、[!UICONTROL Offers] ライブラリ UI 全体で行われました。
