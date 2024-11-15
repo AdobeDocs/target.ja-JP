@@ -4,10 +4,10 @@ description: アクティビティを使用して、特定のオーディエン�
 title: ' [!DNL Target] を使用してコンテンツをパーソナライズし、ページのデザインをテストするにはどうすればよいですか？'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 28%
+source-wordcount: '2313'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 | 属性 | 詳細 |
 | --- | --- |
 | [!UICONTROL Type] | [ アクティビティタイプ ](#types) でフィルタリングします。 |
-| [!UICONTROL Status] | アクティビティステータスでフィルタリングします。 |
+| [!UICONTROL Status] | アクティビティステータスでフィルタリングします。<ul><li>**[!UICONTROL Live]**：アクティビティは現在実行中です。</li><li>**[!UICONTROL Draft]**: アクティビティの設定が開始されましたが、アクティビティは [ ドラフトモード ](/help/main/c-activities/edit-activity.md) で、まだ実行する準備が整っていません。</li><li>**[!UICONTROL Scheduled]**：指定された開始日時に達すると、アクティビティをアクティブ化する準備が整います。</li><li>**[!UICONTROL Inactive]**: アクティビティが一時停止または非アクティブ化されました。</li><li>**[!UICONTROL Syncing]**: アクティビティが保存され、[!DNL Target] 配信ネットワークに同期されています。</li><li>**[!UICONTROL Ended]**：指定されたアクティビティの終了日時に達し、アクティビティは提供されなくなりました。</li><li>**[!UICONTROL Archived]**：アクティビティがアーカイブされました。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul> |
 | [!UICONTROL Reporting Source] | レポートソースでフィルタリングします。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md):[!UICONTROL Analytics for Target] （A4T）をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target] をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics] をレポートソースとして使用するアクティビティを表示します。</li></ul> |
 | [!UICONTROL Experience Composer] | アクティビティの作成中に Experience Composer が使用されたフィルター：<ul><li>[ ビジュアル ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md):[!UICONTROL Visual Experience Composer] （VEC）を使用して作成されたアクティビティを表示します。</li><li>[ フォームベース ](/help/main/c-experiences/form-experience-composer.md):[!UICONTROL Form-Based Experience Composer] を使用して作成されたアクティビティを表示します。</li></ul> |
 | [!UICONTROL Metrics Type] | アクティビティの作成中に [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) が選択されたフィルター。<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ ht-degree: 28%
 | [!UICONTROL Edit] | アクティビティを変更します。どのアクティビティも編集できます。<P>アクティビティを編集できる様々な方法について詳しくは、[ アクティビティを編集またはドラフトとして保存 ](/help/main/c-activities/edit-activity.md) を参照してください。 |
 | [!UICONTROL Deactivate] | ライブまたは日時指定のアクティビティを停止します。非アクティブ化されたアクティビティは、再アクティブ化またはアーカイブできます。<P>アクティビティを非アクティブ化またはアーカイブした後に再度アクティブ化した場合、非アクティブ化またはアーカイブ以前からアクティビティに含まれていた訪問者は、再アクティブ化の後も引き続きアクティビティに含まれます。非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
 | [!UICONTROL Activate] | 非アクティブなアクティビティまたはアクティブ化する準備が整ったアクティビティを開始します。 |
-| [!UICONTROL Archive] | アクティビティをアーカイブに送信します。デフォルトでは、アーカイブされたアクティビティは [!UICONTROL Activities] リストに表示されなくなります。 アクティビティリストのフィルターを変更して、アーカイブ済みアクティビティが含まれるようにして、表示されるようにします。アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。<P>アクティビティをディアクティベートまたはアーカイブしてから、後で再アクティベートすると、ある訪問者が、アクティベートを解除またはアーカイブする前にそのアクティビティにあった場合、その訪問者は再アクティベート後も引き続きそのアクティビティの対象となります。 非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
+| [!UICONTROL Archive] | アクティビティをアーカイブに送信します。デフォルトでは、アーカイブされたアクティビティは [!UICONTROL Activities] リストに表示されなくなります。 [!UICONTROL Activities] リストのフィルターを変更してアーカイブされたアクティビティを含めると、アクティビティを表示できます。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。<P>アクティビティをディアクティベートまたはアーカイブしてから、後で再アクティベートすると、ある訪問者が、アクティベートを解除またはアーカイブする前にそのアクティビティにあった場合、その訪問者は再アクティベート後も引き続きそのアクティビティの対象となります。 非アクティブ化またはアーカイブと再アクティブ化までの間に記録されるコンバージョン指標は、アクティビティによるものとはされません。 |
 | [!UICONTROL Copy] | アクティビティをコピーします。どのアクティビティもコピーできます。アクティビティをコピーすると、同じ名前に「Copy」と付いた、新しいアクティビティが作成されます。例えば、「ブラウザーオファー」というテストは、「ブラウザーオファー Copy」という名前でコピーされます。<P>ビジュアルオファーは、アクティビティと共にコピーされます。元のアクティビティに影響を与えることなく、コピー内で安全にオファーを編集できます。唯一の例外は、コンテンツ／アセットフォルダー内に保存したオファーおよび画像です。 |
 | [!UICONTROL Delete] | ドラフトまたはアクティビティを削除します。<P>**注意**：削除されたアクティビティは復元できません。 このアクティビティが再び必要になることがない場合を除き、[!UICONTROL Archive] のアクションを使用します。 その後、必要に応じてアクティビティを再アクティブ化できます。 |
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 [!UICONTROL Activity] リストに関する次の詳細に注意してください。
 
-* アーカイブされたアクティビティと終了したアクティビティは、[!UICONTROL Activities] リストには表示されません。 これらのアクティビティを表示するには、リストの上部にある [ フィルターアイコン ](#filters) （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）を使用してアクティビティをフィルタリングします。
+* [!UICONTROL Archived] アクティビティと [!UICONTROL Ended] アクティビティは、[!UICONTROL Activities] リストには表示されません。 これらのアクティビティを表示するには、リストの上部にある [ フィルターアイコン ](#filters) （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）を使用してアクティビティをフィルタリングします。
 * [!DNL Target Classic] で最初に作成されたアクティビティが非アクティブ化または削除されると、[!DNL Target Standard/Premium] から削除されます。 最初に [!DNL Target Classic] で作成した削除されたアクティビティは、[!DNL Target Standard/Premium] の [!UICONTROL Archive] フォルダーには送信されません。 アーカイブ済みフォルダー機能は、[!DNL Target Standard/Premium] で作成されたアクティビティにのみ適用されます。
 * [!UICONTROL Automated Personalization] （AP）、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] 以外のすべてのアクティビティタイプでは、データソースとして [!DNL Target] または [!DNL Adobe Analytics] のいずれかを使用できます。 [!UICONTROL Automated Personalization]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] は *常に* データ [!DNL Target] 使用します。
 * アクティビティは複数のチャネルで利用可能です。
@@ -115,7 +115,7 @@ ht-degree: 28%
 
 ## 制限事項 {#section_049D4684403A4E07B998067EB8E9BE56}
 
-各 Target アクティビティには、次のコンテンツの制限があります。
+各 [!DNL Target] アクティビティには、次のコンテンツ制限があります。
 
 | 項目 | 制限 |
 |--- |--- |
@@ -129,11 +129,11 @@ ht-degree: 28%
 
 アクティビティ内のこれらの項目の数を増やすと、アクティビティを [!DNL Target] 間で同期するのに要する時間も長くなります。
 
-V[!UICONTROL Visual Experience Composer] VEC のその他の制限については、[Visual Experience Composer の制限事項 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) を参照してください。
+[!UICONTROL Visual Experience Composer] （VEC）のその他の制限については、[Visual Experience Composer の制限事項 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) を参照してください。
 
 ## [!DNL Target] 以外で更新されたアクティビティの属性を [!DNL Target] に読み込む {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 [!DNL Target] で作成されたアクティビティが [!DNL Target] の外部から更新された場合（例：API を使用）、`thirdpartyId`、`startDate`、`endDate`、`status`、`priority` および `marketingCloudMetadata(remoteModifiedBy)` のアクティビティ属性が [!DNL Target] にインポートされます。
 
-このインポートジョブは、アクティビティページが開かれたときに、最大 10 分の遅延で実行されます。
+このインポートジョブは、[!UICONTROL Activities] ータリストが開かれたときに、最大 10 分の遅延で実行されます。
 
