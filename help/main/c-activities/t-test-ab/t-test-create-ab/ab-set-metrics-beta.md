@@ -5,7 +5,8 @@ title: A/B アクティビティで目標指標を設定するにはどうすれ
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 61%
@@ -18,7 +19,7 @@ ht-degree: 61%
 
 成功指標について詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
-1. **[!UICONTROL Goals & Settings]** のページの「**[!UICONTROL Reporting Settings]**」セクションで、[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) を選択します
+1. **[!UICONTROL Goals & Settings]** ページの「**[!UICONTROL Reporting Settings]**」セクションで、「[ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を選択します。
 
    「[!UICONTROL Select Metrics]」オプションには、アクティビティに対して選択できる成功指標が一覧表示されます。 成功指標は次のカテゴリに分類されます。
 

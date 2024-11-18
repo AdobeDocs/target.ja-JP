@@ -5,9 +5,10 @@ title: 1 つの A/B アクティビティで複数のエクスペリエンスバ
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 52%
 
 1. エクスペリエンスを選択し、**[!UICONTROL Configure]**/**[!UICONTROL Multiple Audiences]** をクリックします。
 
-1. エクスペリエンスオーディエンス パネルの **[!UICONTROL Add Audience]** アイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
+1. ター [!UICONTROL Experience Audiences] ットウィンドウの **[!UICONTROL Add Audience]** のアイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

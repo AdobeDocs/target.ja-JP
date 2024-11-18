@@ -5,9 +5,10 @@ title: A/B アクティビティ内のアクティビティ URL は何ですか�
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 40%
 
 デフォルトでは、[!UICONTROL Visual Experience Composer] は [Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
 
-1. [!UICONTROL Visual Experience Composer] ージを開いた後に別のページを表示するには、**[!UICONTROL Experiences]** のページで、ページの上部にある [**[!UICONTROL Configure]**] をクリックし、[**[!UICONTROL Page Delivery]**] を選択します。
+1. （条件付き） [!UICONTROL Visual Experience Composer] ージを開いた後に別のページを表示するには、**[!UICONTROL Experiences]** のページで、ページ上部の「**[!UICONTROL Configure]**」をクリックし、「**[!UICONTROL Page Delivery]**」を選択します。
 
 1. **[!UICONTROL URL]** フィールドに URL を指定します。
 
@@ -40,6 +41,7 @@ ht-degree: 40%
    * ハッシュ（#）フラグメント
    * クエリ
    * mbox パラメーター
+   * カスタム
 
    追加のルールは、AND または OR を使用してアクティビティ URL に結合できます。 追加したすべてのルールは、AND を使用してお互いに評価されます。
 

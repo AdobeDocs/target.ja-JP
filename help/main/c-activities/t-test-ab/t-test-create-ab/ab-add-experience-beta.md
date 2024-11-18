@@ -1,13 +1,14 @@
 ---
 keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
-description: '[!UICONTROL Visual Experience Composer] （VEC）を使用したアクティビティへのエクスペリエンス追加のマスター。'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、アクティビティにエクスペリエンスを追加します。'
 title: A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---

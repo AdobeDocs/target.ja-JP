@@ -5,7 +5,8 @@ title: A [!DNL Target] A/B アクティビティで目標と設定を指定す�
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -54,7 +55,7 @@ ht-degree: 30%
 | 設定 | 説明 |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | このオプションを使用すると、以前に別の成功指標に到達したユーザーのみを成功指標に到達するものとしてカウントできます。 例えば、アクティビティのコンバージョンが、訪問者がオファーをクリックした場合、または、コンバージョンする前に特定のページに到達する場合にのみ有効になることがあります。 複数の指標への依存関係を設定できるほか、カウントを増やすために指標に到達する必要があるかどうかを柔軟に選択できます。 両方（または複数）の成功指標を定義してから、成功指標を別の成功指標に依存させます。 [!UICONTROL Add Dependency] オプションを使用すると、別の成功指標に到達した場合または到達していない場合に、成功指標を増分できます。 依存関係を追加する手順は次のとおりです。<ul><li>指標を追加したら、「[!UICONTROL Advanced Settings]」をクリックします。</li><li>[!UICONTROL Add Dependency] のオプションをクリックします。</li><li>目的の指標を左のペインから右のペインにドラッグ&amp;ドロップし、「[!UICONTROL Reached]」をクリックして [!UICONTROL Reached] と [!UICONTROL  Not Reached] の設定を切り替えます。</li><li>追加した依存関係は後で編集または削除できます。</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | ユーザーが目標指標に到達した後の動作には、3 つのオプションがあります。<ul><li>カウントの増分方法を指定するには、「[!UICONTROL Increment Count & Keep User in Activity]」を選択します。</li><li>「[!UICONTROL Increment Count, Release User & Allow Reentry]」を選択し、ユーザーがアクティビティに再度入った場合に表示されるエクスペリエンスを指定します。</li><li>[!UICONTROL Increment Count, Release User & Bar from Reentry] を選択して、アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | ユーザーが目標指標に到達した後の動作には、3 つのオプションがあります。<ul><li>カウントの増分方法を指定するには、「**[!UICONTROL Increment Count & Keep User in Activity]**」を選択します。</li><li>「**[!UICONTROL Increment Count, Release User & Allow Reentry]**」を選択し、ユーザーがアクティビティに再度入った場合に表示されるエクスペリエンスを指定します。</li><li>**[!UICONTROL Increment Count, Release User & Bar from Reentry]** を選択して、アクティビティのコンテンツの代わりにユーザーに表示する内容を指定します。</li></ul> |
 | [!UICONTROL How will the count be incremented?] | カウントの増加方法について、以下の 3 つのオプションがあります。<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 詳細設定について詳しくは、「[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)」を参照してください。

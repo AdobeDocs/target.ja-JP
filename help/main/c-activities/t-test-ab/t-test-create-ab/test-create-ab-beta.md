@@ -1,11 +1,12 @@
 ---
 keywords: A/B の作成；A/B テスト；A/B アクティビティ；新しい a/b アクティビティ；a/b の作成
-description: '[!UICONTROL Visual Experience Composer] （VEC）をマスターして、A/B テスト アクティビティを  [!DNL Target] が有効なページで直接作成します。'
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、A/B テスト アクティビティを  [!DNL Target] 対応ページに直接作成します。'
 title: A/B テストの作成方法
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ ht-degree: 17%
 
       [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
-      * 他のアクティビティで再利用できる、[!UICONTROL Audience Library] に保存されたオンデマンドオーディエンスを作成します
-      * [!UICONTROL Audience Library] に保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します
+      * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 

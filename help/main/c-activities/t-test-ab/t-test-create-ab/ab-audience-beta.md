@@ -5,10 +5,11 @@ title: A [!DNL Target] A/B アクティビティでオーディエンスを選�
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ ht-degree: 12%
 
 1. （条件付き） **オーディエンスを組み合わせる** をクリックして [ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) します。
 
-1. （条件付き）オーディエンスにまだ含まれていない新しいオーディ [!UICONTROL Audience Library] ンスを作成するには、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
+1. （条件付き）オーディエンスにまだ含まれていない新しいオーディ [!UICONTROL Audience Library] ンスを作成するには、**オーディエンスを作成** をクリックし、オーディエンスを定義して、「**[!UICONTROL Done]**」をクリックします。
 
-   * 他のアクティビティで再利用できる、[!UICONTROL Audience Library] に保存されたオンデマンドオーディエンスを作成します
-   * [!UICONTROL Audience Library] に保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します
+   [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
+
+   * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+   * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
 
 1. 右側のパネルで「**[!UICONTROL Visitor Percentage]**」をクリックし、条件を満たす訪問者をアクティビティに含める割合を指定します。
 
@@ -51,7 +54,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
+>オーディエンスは、オーディエンスリストを開いたときにバックグラウンドで自動的に読み込まれ、読み込まれたオーディ [!UICONTROL Audience] ンスが 10 分以上前になっている。
 
 ## オーディエンスの情報の表示
 
@@ -64,4 +67,3 @@ ht-degree: 12%
 オーディエンスを編集またはコピーするには、[!UICONTROL Add Audience] ダイアログボックスで、目的のオーディエンスの横にある [!UICONTROL More Actions] のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/More.svg)）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
 
 オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成し、編集を加えてから、新しいオーディエンスとして保存できます。
-
