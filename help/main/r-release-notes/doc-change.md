@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 63%
+source-wordcount: '529'
+ht-degree: 62%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 63%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 11月20日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Target エッジ IP アドレスのリストを許可リストに更新しました。 |
 | 11月19日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 「[!DNL Adobe Experience Platform Web SDK] `__view__` スコープの最適化（2024 年 10 月 22 日（PT））」の節に次の重要なメモを追加しました。<ul><li>重要：2025 年 2 月 3 日までに実装のレビューを完了して問題を解決できない場合は、6 か月の 1 回限りの延長をリクエストできます。 リクエストが 2025 年 1 月 31 日までに送信されていることを確認します。 Adobeがリクエストを確認し、決定します。</li><ul> |
 | 10月22日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 次の重要な情報を追加しました。<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` 範囲の最適化</li></ul> |
 | 10月14日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 リリースに関するリリースノートを追加しました。 |
