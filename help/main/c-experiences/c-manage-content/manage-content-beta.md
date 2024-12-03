@@ -7,9 +7,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 | 左側のナビゲーションパネル | [!UICONTROL Code Offers] または [!UICONTROL Image Offers] の表示を切り替えます。 |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ フィルターを表示/フィルターアイコンを非表示 ](/help/main/assets/icons/RailLeft.svg) | **[!UICONTROL Show Folders]** アイコンまたは **[!UICONTROL Hide Folders]** アイコンをクリックして、オファーフォルダー構造を表示するか、フォルダー構造を表示しないかを切り替えます。<P>詳しくは、[ オファーフォルダーの作成 ](/help/main/c-experiences/c-manage-content/create-content-folder.md) を参照してください。 |
 | [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | **[!UICONTROL Show filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Source]、[!UICONTROL AEM Type] でオファーをフィルタリングします。<P>詳しくは、以下の [ オファーリストにフィルターを適用 ](#filters) を参照してください。 |
-| 検索フィールド | **[!UICONTROL Search in]** のフィールドを使用すると、オファーをすばやく検索したり、[!UICONTROL Offers] ライブラリに表示されるオファーの数を減らしたりできます。 [!UICONTROL Offer Name]、[!UICONTROL AEM Paths] または [!UICONTROL AEM Tags] で検索できます。 |
+| 検索フィールド | **[!UICONTROL Search in]** のフィールドを使用すると、オファーをすばやく検索したり、[!UICONTROL Offers] ライブラリに表示されるオファーの数を減らしたりできます。 [!UICONTROL Offer Name]、[!UICONTROL AEM Paths] または [!UICONTROL AEM Tags] で検索できます。 検索オプションは、セッションで固定されます。 |
 | [!UICONTROL Create Folder] | 「**[!UICONTROL Create Folder]**」をクリックして、コードオファー、画像オファーおよびサブフォルダー構造を作成するその他のフォルダーを格納するフォルダーを [!UICONTROL Offer] ライブラリに作成します。<P>詳しくは、[ オファーフォルダーの作成 ](/help/main/c-experiences/c-manage-content/create-content-folder.md) を参照してください。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 「**[!UICONTROL Create Offer]**」をクリックして、オファーを作成します。<P>様々なオファータイプの作成について詳しくは、以下を参照してください。 <ul><li>HTML オファー</li><li>[JSON オファー ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ リダイレクトオファー ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ リモートオファー ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | 一括操作チェックボックス<P>![ 一括操作アイコン ](/help/main/assets/icons/Rectangle.svg) | [!UICONTROL Bulk Operations] のチェックボックスをクリックして、すべてのオファーまたは選択したオファーで一括操作を実行します。<P>（権限とオファーのステータスに応じて）使用可能なアクションのリストについては、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。 |
@@ -55,6 +55,8 @@ ht-degree: 8%
 * **[!UICONTROL Source]**:[!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Adobe Experience Manager]。
 
 * **AEM タイプ**: [ コンテンツフラグメント ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) および [ エクスペリエンスフラグメント ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)。 様々なフラグメントタイプについて詳しくは、[AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
+
+フィルターは、セッションで固定されます。
 
 ## クイックアクションの実行 {#quick-actions}
 
