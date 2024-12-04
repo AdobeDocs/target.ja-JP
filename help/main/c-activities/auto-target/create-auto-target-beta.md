@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 19%
+source-wordcount: '909'
+ht-degree: 20%
 
 ---
 
@@ -75,7 +76,7 @@ ht-degree: 19%
 
 1. ページ上の要素を変更して、新しいエクスペリエンスを作成します。
 
-   この [!UICONTROL Visual Experience Composer] では、新しいアクティビティを作成した後、左側に「エクスペリエンス A」と「エクスペリエンス B」という 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 フォーカスは「エクスペリエンス B」タブにあり、必要に応じて変更できます。 エクスペリエンス B は、テストに追加できる代替エクスペリエンスです。 テストウィンドウの上部にあるエクスペリ [!UICONTROL Add] ンスアイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、複数のエクスペリ [!UICONTROL Experiences] ンスをテストに追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
+   [!UICONTROL Visual Experience Composer] では、新しいアクティビティを作成した後、左側に「[!UICONTROL Experience A]」および「[!UICONTROL Experience B]」の 2 つのタブが表示されます。 コントロールエクスペリエンスは [!UICONTROL Experience A] のとおりです。 フォーカスは「[!UICONTROL Experience B]」タブにあり、必要に応じて変更できます。 テストに追加できる代替エクスペリエンスは [!UICONTROL Experience B] のとおりです。 テストウィンドウの上部にあるエクスペリ [!UICONTROL Add] ンスアイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、複数のエクスペリ [!UICONTROL Experiences] ンスをテストに追加できます。 デフォルトのサイトエクスペリエンスをオプションとして使用しない場合は、エクスペリエンス A をアクティビティから削除できます。
 
    [!UICONTROL Visual Experience Composer] でのエクスペリエンスの追加および変更について詳しくは、[ エクスペリエンスの追加 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) を参照してください。 エクスペリエンス B を変更するには、ステップ 2 から始めます。
 
@@ -100,8 +101,8 @@ ht-degree: 19%
 
       [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
 
-      * 他のアクティビティで再利用できる、[!UICONTROL Audience Library] に保存されたオンデマンドオーディエンスを作成します
-      * [!UICONTROL Audience Library] に保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します
+      * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ージに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します
+      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] に保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します
 
    1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
@@ -109,7 +110,7 @@ ht-degree: 19%
 
 1. **[!UICONTROL Traffic Allocation]** コントロールをクリックし、右側のパネルで目的のトラフィック配分方法を選択します。 このシナリオでは、「**[!UICONTROL Auto-Taget for personalized experiences]**」をクリックします。
 
-   ![ トラフィック配分方法の設定 ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![ トラフィック配分方法の設定 ](/help/main/c-activities/assets/auto-target.png)
 
    次のトラフィック割り当て方法を使用できます。
 
