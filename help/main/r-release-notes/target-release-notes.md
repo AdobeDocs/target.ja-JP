@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -29,7 +29,7 @@ ht-degree: 22%
 
 * **一括オファー管理**：複数のオファーを同時に選択および削除します。
 
-* **コードエディターのアップグレード**：構文のハイライト表示と行番号を備えたHTMLおよび JSON エディターを更新しました。
+* **[!UICONTROL Code Editor]アップグレード**：構文のハイライト表示と行番号を含むHTMLおよび JSON エディターを更新しました。
 
 * **オファーカードの改善**：情報に簡単にアクセスできるよう、クイック情報と詳細カードが強化されました。
 

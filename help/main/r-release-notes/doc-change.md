@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 61%
+source-wordcount: '576'
+ht-degree: 58%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 61%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 12 月 10 日 | ベストプラクティスと制限事項に [[!UICONTROL Visual Experience Composer] いて ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 以下の制限事項を追加しました。<ul><li>並べ替える [!UICONTROL Button] 要素は選択できません。<P>並べ替え用に [!UICONTROL Button] 要素を直接選択することはできません。 並べ替えを有効にするには、大きいコンテナ内にボタンを配置します。</li></ul> |
 | 12月3日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後の [!UICONTROL Offers Library] ユーザーインターフェイスの更新に関するプレリリースノートを追加しました。 |
 | 11月20日（PT） | [Target のエッジノードを許可リストに登録](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Target エッジ IP アドレスのリストを許可リストに更新しました。 |
 | 11月19日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 「[!DNL Adobe Experience Platform Web SDK] `__view__` スコープの最適化（2024 年 10 月 22 日（PT））」の節に次の重要なメモを追加しました。<ul><li>重要：2025 年 2 月 3 日までに実装のレビューを完了して問題を解決できない場合は、6 か月の 1 回限りの延長をリクエストできます。 リクエストが 2025 年 1 月 31 日までに送信されていることを確認します。 Adobeがリクエストを確認し、決定します。</li><ul> |
