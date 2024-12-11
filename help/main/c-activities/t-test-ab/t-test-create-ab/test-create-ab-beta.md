@@ -6,9 +6,9 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '881'
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 17%
 
    [!UICONTROL Visual Experience Composer] が開き、URL で指定したページが表示されます。
 
-1. VEC の上部にある「**[!UICONTROL Untitled Activity]**」をクリックし、表示されたスペースでアクティビティの名前を指定します。
+1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
 
    アクティビティ名は、次の文字で始めることはできません：
 

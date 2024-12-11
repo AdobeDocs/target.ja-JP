@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 22%
+source-wordcount: '744'
+ht-degree: 21%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2024年12月3日（PT）**
+**最終更新日：2024年12月11日（PT）**
 
 >[!NOTE]
 >
@@ -36,6 +36,10 @@ ht-degree: 22%
 * **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
 
 2025 年 1 月 9 日（PT）以降、[!DNL Target] のすべてのお客様が新しい UI にアクセスできるようになり、必要に応じて現在のバージョンの UI に戻すオプションが追加されました。
+
+次に、このリリースでの変更点を紹介する短いビデオを示します。
+
+![UI 更新ビデオを提供 ](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` 範囲の最適化（2024 年 10 月 22 日（PT））
 
