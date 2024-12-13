@@ -4,7 +4,7 @@ description: Adobeで [!UICONTROL Visual Experience Composer] （VEC）を使用
 title: '[!UICONTROL Multivariate Test] （MVT）での組み合わせの作成方法'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 56%
@@ -64,3 +64,4 @@ VEC を使用したオファーの作成および編集について詳しくは�
 * テストする要素を 3 つ以上選択します。3 つ未満の場合は、一連の A/B テストを実行します。
 * 各要素の代替値は、互いに大きく異なる必要があります。
 * 各要素に、同じ数の代替オプションを指定することをお勧めします（必須ではありません）。
+
