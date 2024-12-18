@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: d0eddda6-3ff5-4f80-aa16-87a6a9990170
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 ## トラフィック見積もりを使用
 
-1. [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Experiences] ページで、エクスペリエンス ページの左上隅にある **[!UICONTROL Traffic]** アイコン ![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
+1. [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Experiences] ページで、[!UICONTROL Experiences] ページの左上隅にある **[!UICONTROL Traffic]** アイコン ![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
 
    [!UICONTROL Traffic Estimator] が開きます。
 

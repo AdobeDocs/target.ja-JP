@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 29%
 
 ---
@@ -74,9 +74,7 @@ ht-degree: 29%
 
    アセットマネージャーから一度に複数の画像を選択できます。これにより、アクティビティ用に設定された各画像を含むページをすばやく表示できます。 また、オファー内のテキスト要素を容易に編集することもできます。要素を編集すると、その要素が変更されたことを示すバーが要素上に表示されます。
 
-1. 「**[!UICONTROL Manage Content]**」をクリックして、使用可能な組み合わせを設定します。
-
-   ![「コンテンツを管理」オプション](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. **[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
    画面上部に、[!UICONTROL Experiences]、[!UICONTROL Offers]、[!UICONTROL Exclusion Groups] の 3 つのオプションがダイアログボックスに表示されます。
 
