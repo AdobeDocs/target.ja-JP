@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2024年12月11日（PT）**
+**最終更新日：2025年1月7日（PT）**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 21%
 
 [!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムを使用して、一貫性のないデザインパターンを標準化し、次のような新しい機能強化を導入しています。
 
-* **一括オファー管理**：複数のオファーを同時に選択および削除します。
+* **一括オファー管理**：複数のオファーを同時に選択、削除または移動します。
 
 * **[!UICONTROL Code Editor]アップグレード**：構文のハイライト表示と行番号を含むHTMLおよび JSON エディターを更新しました。
 
@@ -36,6 +36,8 @@ ht-degree: 21%
 * **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
 
 2025 年 1 月 9 日（PT）以降、[!DNL Target] のすべてのお客様が新しい UI にアクセスできるようになり、必要に応じて現在のバージョンの UI に戻すオプションが追加されました。
+
+詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。
 
 次に、このリリースでの変更点を紹介する短いビデオを示します。
 

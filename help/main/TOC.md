@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 78%
+source-wordcount: '1420'
+ht-degree: 80%
 
 ---
 
@@ -271,21 +271,13 @@ ht-degree: 78%
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + オファー {#offers}
       + [オファーの概要](c-experiences/c-manage-content/manage-content.md)
-      + [オファーの概要ベータ版](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [オファーフォルダーの作成](c-experiences/c-manage-content/create-content-folder.md)
-      + [オファーフォルダー作成（ベータ版）](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [コンテンツのアップロード](c-experiences/c-manage-content/assets-upload.md)
-      + [画像オファーベータ版のアップロードまたは削除](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [リダイレクトオファーの作成](c-experiences/c-manage-content/offer-redirect.md)
-      + [リダイレクトオファーベータ版を作成](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [リモートオファーを作成](c-experiences/c-manage-content/about-remote-offers.md)
-      + [リモートオファーベータ版を作成](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON オファーの作成](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON オファーベータ版を作成](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
-      + [ライブラリベータ版でのコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [コンテンツの検索とフィルタリング](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [コンテンツの検索とフィルタリング（ベータ版）](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
 + レポート {#reports}

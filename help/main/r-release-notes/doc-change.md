@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 57%
+source-wordcount: '624'
+ht-degree: 55%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 57%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 1月7日（PT） | [Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md) | [!UICONTROL Offers Library] ユーザーインターフェイスの更新（2025 年 1 月 9 日（PT）に予定）のリリースノートを追加しました。 すべてのオファー記事が更新され、UI の変更が反映されました。 |
 | 12 月 10 日 | ベストプラクティスと制限事項に [[!UICONTROL Visual Experience Composer] いて ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 以下の制限事項を追加しました。<ul><li>並べ替える [!UICONTROL Button] 要素は選択できません。<P>並べ替え用に [!UICONTROL Button] 要素を直接選択することはできません。 並べ替えを有効にするには、大きいコンテナ内にボタンを配置します。</li></ul> |
 |  | [adobe.target.triggerView （viewName、options） - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | 以下のセクションを追加しました。<ul><li>例：Adobe Visual Editing Helper 拡張機能を使用した `triggerView()` の最適な互換性</li></ul> |
 | 12月3日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 今後の [!UICONTROL Offers Library] ユーザーインターフェイスの更新に関するプレリリースノートを追加しました。 |

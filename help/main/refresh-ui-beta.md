@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
@@ -96,24 +96,6 @@ ht-degree: 62%
    * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
-
-## オファー
-
-+++クリックして展開
-
-* [オファーの概要](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [オファーフォルダーの作成](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [ コンテンツをアップロード ](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [ 画像オファーのアップロードまたは削除 ](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [リダイレクトオファーの作成](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [リモートオファーを作成](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [JSON オファーの作成](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [ライブラリ内のコンテンツの操作](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [コンテンツの検索](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [動的データをオファーに渡す](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM エクスペリエンスおよびコンテンツフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
 
 ## レコメンデーション
 
