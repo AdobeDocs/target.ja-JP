@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 31%
+source-wordcount: '842'
+ht-degree: 32%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 31%
 * **オファーカードの改善**：情報に簡単にアクセスできるよう、クイック情報と詳細カードが強化されました。
 
 * **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
-
-2025 年 1 月 9 日（PT）以降、[!DNL Target] のすべてのお客様が新しい UI にアクセスできるようになり、必要に応じて現在のバージョンの UI に戻すオプションが追加されました。
 
 詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。
 

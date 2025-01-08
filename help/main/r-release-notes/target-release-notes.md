@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 21%
+source-wordcount: '731'
+ht-degree: 22%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 21%
 * **オファーカードの改善**：情報に簡単にアクセスできるよう、クイック情報と詳細カードが強化されました。
 
 * **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
-
-2025 年 1 月 9 日（PT）以降、[!DNL Target] のすべてのお客様が新しい UI にアクセスできるようになり、必要に応じて現在のバージョンの UI に戻すオプションが追加されました。
 
 詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。
 

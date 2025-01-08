@@ -4,10 +4,10 @@ description: '[!UICONTROL Offers] ライブラリを使用してコードおよ�
 title: コードと画像オファーの管理方法
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 7%
+source-wordcount: '812'
+ht-degree: 8%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 7%
 [!UICONTROL Offers] ライブラリを表示するには、[!DNL Target] UI の上部にある「**[!UICONTROL Offers]**」タブをクリックします。
 
 ![オファーページ](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->この記事では、2025 年 1 月 9 日（PT）にリリースされた更新された [!UICONTROL Offers] UI について説明します。 従来の [!UICONTROL Offers] UI を使用する場合は、オンの位置に切り替 [!UICONTROL Switch to the Old Experience] ます。
 
 [!UICONTROL Offers] ライブラリには、[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] （AEM）、[!DNL Adobe Mobile Services] （AMS）および API を使用して設定されたオファーが含まれています。 [!DNL Target Classic] またはその他のソリューションで作成されたオファーは [!DNL Target Standard/Premium] で編集可能です。
 
