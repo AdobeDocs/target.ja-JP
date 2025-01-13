@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 32%
+source-wordcount: '856'
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 * **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
 
-詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。
+詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。 この節のすべてのオファー記事が更新され、これらの UI の変更が反映されました。
 
 次に、このリリースでの変更点を紹介する短いビデオを示します。
 
