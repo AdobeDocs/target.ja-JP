@@ -7,10 +7,10 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 29%
+source-wordcount: '1844'
+ht-degree: 25%
 
 ---
 
@@ -76,9 +76,7 @@ ht-degree: 29%
 
 1. **[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、使用可能な組み合わせを設定します。
 
-   画面上部に、[!UICONTROL Experiences]、[!UICONTROL Offers]、[!UICONTROL Exclusion Groups] の 3 つのオプションがダイアログボックスに表示されます。
-
-   ![コンテンツを管理ダイアログボックス](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   画面上部に、[!UICONTROL Experiences] と [!UICONTROL Offers] の 2 つのオプションがダイアログボックスに表示されます。
 
    >[!NOTE]
    >
@@ -86,37 +84,60 @@ ht-degree: 29%
 
    [!UICONTROL Experiences] のリストには、アクティビティ用に選択された各コンテンツと、そのコンテンツが割り当てられている場所が表示されます。
 
-   目的のエクスペリエンスにカーソルを合わせて「[!UICONTROL Exclude]」アイコンをクリックすると、特定のエクスペリエンスを除外できます。
+   特定のエクスペリエンスを除外するには、目的のエクスペリエンスの横にあるチェックボックスを選択し、「エクスペリ [!UICONTROL Exclude] ンス」アイコンをクリックします。
 
-   ![除外アイコンにマウスポインターを置く](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
-
-   エクスペリエンスをバッチで除外または含めるには、関連するエクスペリエンスのチェックボックスをオンにし、ダイアログボックスの右上隅にある「[!UICONTROL Exclude]」アイコンをクリックします。
-
-   ![一括除外オプション](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
-
-   [!UICONTROL Status] のドロップダウンリストをクリックすると、このリスト表示をフィルタリングして、除外されたアクティビティのみを表示したり、含まれたアクティビティのみを表示したりできます。
+   エクスペリエンスをバッチで除外または含めるには、関連するエクスペリエンスのチェックボックスをオンにし、「エクスペリ [!UICONTROL Exclude] ンス」アイコンをクリックします。
 
 1. （条件付き） **[!UICONTROL Offers]** をクリックしてコンテンツを選択し、レポートグループに割り当てるか、特定の訪問者にのみターゲティング付きの特定のオファーを表示させます。
 
    レポートグループについて詳しくは、「[Automated Personalizationのオファーレポートグループ ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)」を参照してください。
 
-1. （条件付き）「**[!UICONTROL Exclusion Groups]**」をクリックして、アクティビティから除外する要素の組み合わせを選択します。
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![コンテンツを管理ダイアログボックスの「除外グループ」タブ](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   AP テストでは最大 30,000 個のエクスペリエンスを作成できますが、アルゴリズムが最高のパフォーマンスを発揮するのは、使用される個別のエクスペリエンスが 10,000 個未満の場合です。 アクティビティで「[!UICONTROL Disalow Duplicates]」オプションが有効になっていても、この同じ制限が適用されます。
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   アクティビティでまだ除外グループを使用していない場合は、「**除外グループを作成**」をクリックします。リストにフィルターを適用し、除外する組み合わせのみを表示できます。除外グループに名前を付け、「**保存**」をクリックします。
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   既存の除外グループを編集するには、編集するグループにマウスポインターを置いてから鉛筆アイコンをクリックします。
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. アクティビティのコンテンツの設定が完了したら、「**[!UICONTROL Done]**」をクリックします。
 
-1. **ターゲティング** ステップは、他の [!DNL Target] アクティビティタイプを使用したことがある場合によく見られます。 ここでは、オーディエンスを選択し、**[!UICONTROL Custom Allocation]** ドロップダウンリストをクリックしてコントロールエクスペリエンスを表示する訪問者の割合を指定してから、「**次へ** をクリックできます。
+1. [!UICONTROL Visual Experience Composer] の上部にある「**[!UICONTROL Targeting]**」をクリックして、3 ステップのガイドによるワークフローの次のステップに進みます。
 
-   「[!UICONTROL Custom Allocation]」ドロップダウンリストを使用すると、次のオプションから選択できます。
+   **ターゲティング** ステップは、他の [!DNL Target] アクティビティタイプを使用したことがある場合によく見られます。 ここでは、オーディエンスを選択し、各エクスペリエンスを表示する訪問者の割合を指定できます。
 
-   ![トラフィック配分目標ドロップダウンリスト](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   フロー図が開きます。
+
+   ![AP テストターゲティング手順 ](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   フロー図は、オーディエンスとそのトラフィックの割合を割り当て、トラフィックの割り当て方法を選択し、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示しています。
+
+1. （条件付き）アクティビティに別のオーディエンスを選択するには、**[!UICONTROL All Visitors]** のコントロールをクリックします。
+
+   [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
+
+   右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
+
+   1. オーディエンスを変更するには **右側のフレームで**[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
+
+      **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
+
+      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
+
+      * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
+
+   1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
+
+   例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
+
+1. **[!UICONTROL Traffic Allocation]** コントロールをクリックして、次のオプションから選択します。
+
+   ![ トラフィック配分目標オプション ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** アルゴリズムをテストすることが目標の場合は、コントロールとターゲットアルゴリズムの間で訪問者を 50/50% 分割して使用します。 この配分により、上昇率を最も正確に推定できます。「ランダムエクスペリエンス」をコントロールとして使用する場合にお勧めします。
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 「常時稼動」アクティビティを作成することを目標としている場合は、訪問者の 10% をコントロールに配置します。 このオプションにより、アルゴリズムが時間の経過と共に学習を継続するのに十分なデータが得られます。 ここでのトレードオフは、トラフィックの大部分をパーソナライズする代わりに、正確な上昇率が何であるかについての精度が低くなることです。 特定のエクスペリエンスをコントロールとして使用する場合、目標に関係なく、このオプションは推奨されるトラフィック分割です。

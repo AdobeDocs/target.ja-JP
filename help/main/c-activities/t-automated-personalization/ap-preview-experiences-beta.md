@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 13%
+source-wordcount: '191'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +30,6 @@ ht-degree: 13%
 
    矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
 
-1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択し、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** のアイコン ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、「**[!UICONTROL Exclude]**」をクリックします。
+1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択して、「**[!UICONTROL Exclude]**」をクリックします。
 
-1. （条件付き）除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスを選択し、含めるエクスペリエンスの横にある **[!UICONTROL More Actions]** のアイコン ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックして、「**[!UICONTROL Include]**」をクリックします。
+1. （条件付き）除外された複数のエクスペリエンスを含めるには、目的のエクスペリエンスのチェックボックスを選択し、「**[!UICONTROL Include]**」をクリックします。
