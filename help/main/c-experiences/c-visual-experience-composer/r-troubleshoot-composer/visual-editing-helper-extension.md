@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web �
 title: '[!UICONTROL Visual Editing Helper] 拡張機能の使用方法'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 94%
+source-wordcount: '672'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 94%
 >[!IMPORTANT]
 >
 >* この新しい拡張機能は、以前の [Target VEC Helper ブラウザー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)に代わるものです。この記事の上部にある重要なメモを参照してください。Manifest v3 のセキュリティ強化のため、[!DNL Target] では、[!DNL Adobe] で web サイトを視覚的に引き続き作成するために、この新しい拡張機能をダウンロードする必要があります。
->
->* この新しい拡張機能は、現在、プライベート Chrome Web ストアをサポートしていません。 この機能は、2025 年 1 月末までにサポートされる予定です。 Chromeの非公開 Web ストアを使用して拡張機能をアップロードする場合は、代わりに [ 従来の [!UICONTROL Visual Experience Composer] helper 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) を使用します。
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 

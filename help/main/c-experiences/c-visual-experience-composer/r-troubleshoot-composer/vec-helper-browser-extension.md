@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer]（VEC）で一部の web �
 title: '[!UICONTROL Visual Experience Composer] （VEC）ヘルパー拡張機能の使用方法？'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 53%
+source-wordcount: '1043'
+ht-degree: 55%
 
 ---
 
@@ -22,8 +22,6 @@ VEC Helper ブラウザーは [!DNL Chrome] 拡張機能です。 [!DNL Mozilla 
 >* この記事で説明している従来の [!DNL Target] VEC Helper 拡張機能は、Manifest V2 を使用して作成されました。 [!DNL Google] では、2024年6月以降、Manifest V2 を使用して作成された拡張機能を許可しなくなると発表しました。詳しくは、*Chrome for Developers* サイトの [!DNL Google] にある [Manifest V2 support timeline announcement](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} を参照してください。
 >
 >* 2024 年 6 月以降、[!DNL Google] は、このトピックで説明している拡張機能を含め、Manifest V2 を使用して作成された拡張機能の無効化を開始します。 [!DNL Adobe] では、お客様ができるだけ早く新しい [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)に移行することをお勧めします。
->
->* プライベート Chrome Web ストアを使用しているお客様は、2025 年 1 月末までに [ 新しい [!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) でこのユースケースのサポートが実装されるまで、このバージョンの拡張機能を引き続き使用する必要があります。
 
 ## VEC で一部の web サイトを確実に開くことができない理由
 

@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 22%
+source-wordcount: '769'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,13 @@ ht-degree: 22%
 
 ## [!UICONTROL Offers Library] ユーザーインターフェイスの更新（2025 年 1 月 9 日（PT））
 
-[!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムを使用して、一貫性のないデザインパターンを標準化し、次のような新しい機能強化を導入しています。
+[!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。
+
+>[!NOTE]
+>
+>すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、Target 顧客の初期グループを新しいオファー UI にアップグレードしました。 後続のステージでは、残りのお客様をアップグレードします。
+
+この更新では、最新の [!DNL Adobe Spectrum] デザインシステムを使用して、一貫性のないデザインパターンを標準化し、次のような新しい機能強化を導入しています。
 
 * **一括オファー管理**：複数のオファーを同時に選択、削除または移動します。
 
