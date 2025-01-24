@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -166,8 +166,10 @@ ht-degree: 80%
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
       + [除外の管理ベータ版](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization ベータ版のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Automated Personalizationまたは自動ターゲットアクティビティベータ版のコントロールを選択します](c-activities/t-automated-personalization/experience-as-control-beta.md)
+      + [Automated Personalizationに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
