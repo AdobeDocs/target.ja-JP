@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1449'
 ht-degree: 79%
 
 ---
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
       + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
          + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [アクティビティ（ベータ版）の作成](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [アクティビティ URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [アクティビティ URL - ベータ版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [エクスペリエンスベータ版の作成](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [エクスペリエンスターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [エクスペリエンスのターゲット設定ベータ版でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [目標と設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [指標の設定](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多変量分析テスト {#multivariate-test}

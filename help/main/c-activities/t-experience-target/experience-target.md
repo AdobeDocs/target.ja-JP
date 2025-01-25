@@ -4,10 +4,10 @@ description: での [!UICONTROL Experience Targeting] （XT）アクティビテ
 title: '[!UICONTROL Experience Targeting] （XT）アクティビティとは'
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 46%
+source-wordcount: '432'
+ht-degree: 40%
 
 ---
 
@@ -40,13 +40,3 @@ Web サイトでアウトドア用品を特集するとします。A/B テスト
 * 適確なコンテンツが適切なオーディエンスに配信されるように、エクスペリエンスを並べ替える方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### アクティビティタイプ（9:03）
-
-このビデオでは、[!DNL Target] で利用できるアクティビティタイプについて説明しています。[!UICONTROL Experience Targeting] の説明は 5:15 から始まります。
-
-* [!DNL Target] に含まれるアクティビティタイプの説明
-* 目標達成に適したアクティビティタイプの選択
-* すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)
