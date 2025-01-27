@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 21%
+source-wordcount: '1105'
+ht-degree: 14%
 
 ---
 
@@ -15,13 +15,53 @@ ht-degree: 21%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年1月7日（PT）**
+**最終更新日：2025年1月27日（PT）**
 
 >[!NOTE]
 >
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!UICONTROL Activities] ユーザーインターフェイスの更新（2025 年 2 月 6 日）
+
+[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!UICONTROL Activities] ユーザーインターフェイスの一般公開についてお知らせします。
+
+>[!NOTE]
+>
+>2 月 6 日（水）以降、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+
+この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
+
+* アクティビティ結果に対するより優れたインサイトを得るためにレポートの設計を変更
+* [!UICONTROL Audit] ページを更新し、[!DNL Audit API] から情報を取得して、リアルタイムのインサイトを得るようになりました
+* へのカスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応
+* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面
+* セッション持続の検索とフィルターオプション
+* ブラウザープロバイダーによる最新のセキュリティ更新と最新のユーザーインターフェイスをサポートし、[!UICONTROL Visual Editing Composer] を完全に再構築
+* セキュリティの向上とファーストパーティ cookie のサポートの改善を目的として、Manifest V3 をサポートする [!DNL Chrome] 拡張機能を更新しました
+
+![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## [!DNL Recommendations] ユーザーインターフェイスの更新（2025 年 2 月 7 日）
+
+[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!DNL Recommendations] ユーザーインターフェイスの一般公開についてお知らせします。
+
+>[!NOTE]
+>
+>2 月 7 日（木）より、お客様は徐々に新しい [!UICONTROL Recommendations] UI にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+
+この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
+
+* 製品カタログの検索に、製品をリアルタイムで同期できる更新されたデータベースが追加されました
+* API 経由で作成された [!UICONTROL Recommendation] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]）が UI で使用できるようになりました
+* 設定は、[!UICONTROL Administration] の節で統合しました
+* カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応
+* 構文のハイライト表示と行番号を含むHTMLおよび JSON コードエディターを更新しました
+* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面
+* セッション持続の検索とフィルターオプション
+
+![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## [!UICONTROL Offers Library] ユーザーインターフェイスの更新（2025 年 1 月 9 日（PT））
 
