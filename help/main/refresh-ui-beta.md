@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '407'
+ht-degree: 51%
 
 ---
 
@@ -54,7 +54,15 @@ ht-degree: 56%
    * [アクティビティ（ベータ版）の作成](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
    * [アクティビティ URL - ベータ版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [エクスペリエンスベータ版の作成](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
-   * [ エクスペリエンスのターゲット設定ベータ版でのエクスペリエンスの切り替え ](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+   * [エクスペリエンスのターゲット設定ベータ版でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* 多変量分析テスト（MVT） {#mvt}
+   * [テストベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [アクティビティ URL ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [組み合わせベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [多変量分析テストベータ版のエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [テストベータ版を成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [テスト概要ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [ 指標の設定ベータ版 ](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 

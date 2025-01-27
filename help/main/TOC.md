@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 79%
+source-wordcount: '1481'
+ht-degree: 77%
 
 ---
 
@@ -190,13 +190,20 @@ ht-degree: 79%
       + [多変量分析テストの計画](c-activities/c-multivariate-testing/plan-mvt.md)
       + 多変量分析テストの作成 {#create-mvt}
          + [テストの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [テストベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [アクティビティ URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [アクティビティ URL ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [組み合わせの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [組み合わせベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [多変量分析テストベータ版のエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [テストベータ版を成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [テスト概要ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目標と設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [指標の設定](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [指標の設定ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations アクティビティ](c-activities/recommendations-activity.md)
    + [アクティビティを編集またはドラフトとして保存](c-activities/edit-activity.md)
