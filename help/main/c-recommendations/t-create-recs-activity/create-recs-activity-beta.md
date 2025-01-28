@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 52%
 
 ---
@@ -21,19 +21,15 @@ ht-degree: 52%
 
 1. 必要に応じて「**[!UICONTROL Visual]**」を選択します。
 
-   ![Recommendations アクティビティを作成ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   フォームベースの Experience Composer を使用する場合は、「[!UICONTROL Form]」を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
+   [!UICONTROL Form-Based Experience Composer] を使用する場合は、「[!UICONTROL Form]」を選択します。 詳しくは、[フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を参照してください。
 
    >[!NOTE]
    >
    >VEC と [!UICONTROL Form-Based Experience Composer] に加えて、[!DNL Target] は [!UICONTROL Single Page Application] VEC を提供します。 様々なコンポーザーについて詳しくは、[エクスペリエンスとオファー](/help/main/c-experiences/experiences.md)を参照してください。
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
-   >
-   >前の図の [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織は [!UICONTROL Target Standard] ライセンスを保有しています。
 
-1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
+1. （条件付き） [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
 
 1. アクティビティ URL を指定し、「**[!UICONTROL Create]**」をクリックします。
 

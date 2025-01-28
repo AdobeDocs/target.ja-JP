@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '693'
 ht-degree: 27%
 
 ---
@@ -41,15 +42,11 @@ ht-degree: 27%
 
 1. **[!UICONTROL Recommendations]**/**[!UICONTROL Collections]** をクリックして、既存のコレクションのリストを表示します。
 
-   ![コレクションリスト](assets/collections-list.png)
-
-   [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 目的のコレクションの横にある省略記号アイコンをクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除することもできます。
+   [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 また、目的のコレクションの横にある「その他のアクション」アイコン（![ その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除できます。
 
    [!UICONTROL Collections] のリスト表示で各コレクションに対して報告される「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でそのコレクションのルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
-
-   ![コレクションの作成](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. コレクションの **[!UICONTROL Name]** を入力します。
 
@@ -79,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## コレクションの編集、コピー、削除
 
-リスト内の目的のコレクションの横にある **省略記号** アイコンをクリックし、適切なアイコン（編集、コピー、削除）をクリックします。
-
-![ ホバーアイコン：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+リスト内の目的のコレクションの横にある ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!DNL Delete]）をクリックします。
 
 既存のコレクションをコピーして重複するコレクションを作成し、後で変更できます。 これにより、少ない労力で同様のコレクションを作成できます。
 
@@ -95,8 +90,4 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 条件とデザインを選択すると、[!UICONTROL Options] のページが表示され、目的のコレクションを選択できます。
 
-   ![ コレクションオプションを選択 ](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL Experiences]** のページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、レコメンデーションを配置した場所をクリックし、「**[!UICONTROL Change Collection]**」をクリックして目的のコレクションを選択します。
-
-   ![ コレクションを変更オプション ](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. （条件付き）既存のコレクション設定を変更するには、**[!UICONTROL Experiences]** のページ（3 つのパートから成るガイド付きワークフローのステップ 1）で、レコメンデーションを配置した場所をクリックし、「**[!UICONTROL Change Collection]**」をクリックして目的のコレクションを選択します。

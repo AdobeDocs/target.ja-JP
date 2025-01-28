@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 20%
 
 ---
@@ -45,13 +46,11 @@ ht-degree: 20%
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** をクリックして、[!UICONTROL Designs] ライブラリを表示します。
 
 
-1. 作成するデザインのカードの上にマウスポインターを置き、**[!UICONTROL Copy]** アイコンをクリックします。
-
-   ![Card_CopyDesign 画像 ](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. 作成するデザインの「その他のアクション」アイコン ![ 「その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Copy]**」をクリックします。
 
    [!UICONTROL Create Design] ダイアログボックスが表示されます。
 
-1. **[!UICONTROL Information]** パネルで、デザイン **[!UICONTROL Content Name]** ードに表示する画像とオプションのプレビュー画像を追加します。
+1. デザイン カードに表示する **[!UICONTROL  Name]** とオプションのプレビュー画像を入力します。
 
    デフォルトのデザインを使用する場合は、デザイン名と「コピー」が「**[!UICONTROL Content Name]**」フィールドに表示されます。 名前は編集できます。また、デザインカードに表示する画像を選択することもできます。
 
@@ -65,7 +64,7 @@ ht-degree: 20%
    >
    >デザインで参照できるエンティティの最大数は、ハードコーディングの場合もループの場合も 99 です。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
 ### カスタムデザインの作成
 
@@ -73,21 +72,21 @@ ht-degree: 20%
 
 1. **[!UICONTROL Create Design]** をクリックします。
 
-   既存のデザインを基に新しいカスタムデザインを作成する場合は、目的のデザインの上にマウスポインターを置いて、「[!UICONTROL Copy]」アイコンをクリックします。 その後、コピーを編集して新しいカスタムデザインを作成できます。
+   既存のデザインを基に新しいカスタムデザインを作成する場合は、作成するデザインの [!UICONTROL More Actions] のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「[!UICONTROL Copy]」をクリックします。 その後、コピーを編集して新しいカスタムデザインを作成できます。
 
-1. **[!UICONTROL Content Name]** とオプションのプレビュー画像を追加します。
+1. **[!UICONTROL Name]** とオプションのプレビュー画像を追加します。
 
 1. （条件付き）必要に応じてデザイン **[!UICONTROL Code]** を編集します。
 
    詳しくは、上記の手順 4 の情報を参照してください。
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
 ## デザインの編集、コピー、削除
 
 デフォルトデザインは編集またはコピーできないことに注意してください。コピーできるのは、デフォルトデザインのみです。
 
-[!UICONTROL Design] ライブラリで目的のデザインの上にマウスポインターを置き、適切なアイコン（編集、コピー、削除）をクリックします。
+編集または削除するデザインの [!UICONTROL More Actions] アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
 
 既存のデザインをコピーして複製デザインを作成し、修正することができます。 このプロセスにより、少ない労力で同様のデザインを作成できます。
 

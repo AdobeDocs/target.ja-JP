@@ -5,10 +5,10 @@ title: Recommendations を他のアクティビティタイプでオファーと
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 63%
+source-wordcount: '507'
+ht-degree: 64%
 
 ---
 
@@ -33,11 +33,9 @@ ht-degree: 63%
    >
    >A/B テストの場合、パフォーマンスが最も高い Recommendations にトラフィックを自動的にプッシュする[自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)オプション、または訪問者をプロファイルに基づいて詳細にカスタマイズされた Recommendations エクスペリエンスに動的に割り当てる[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md) オプションを選択できます。
 
-1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、**[!UICONTROL Insert Before]**、**[!UICONTROL Insert After]** または **[!UICONTROL Replace With]** のアクションを選択して、「[!UICONTROL Recommendation]」を選択します。
+1. [ エクスペリエンス ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) の作成中に、レコメンデーションをオファーとして追加する要素をクリックし、「**[!UICONTROL Replace Content]**」をクリックして「**[!UICONTROL Recommendation]**」を選択します。
 
-   次の図に、「[!UICONTROL Insert After > Recommendation]」オプションを示します。
-
-   ![Recommendations をオファーとして挿入](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Recommendations をオファーとして挿入](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. ページタイプ別の一般的な Recommendations 条件を表示するには、次のオプションから選択します。
 

@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 77%
+source-wordcount: '1493'
+ht-degree: 76%
 
 ---
 
@@ -363,12 +363,14 @@ ht-degree: 77%
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
-      + [デザインの作成](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [デザインベータ版の作成](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
    + アクティビティ {#recommendations-activity}
       + [Recommendations アクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Recommendations アクティビティベータ版を作成](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [条件のベータ版を選択](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

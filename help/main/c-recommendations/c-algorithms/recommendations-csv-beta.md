@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 34%
+source-wordcount: '606'
+ht-degree: 35%
 
 ---
 
@@ -45,15 +46,13 @@ CSV ファイルをアップロードして、[!DNL Adobe Target] でレコメ�
 
 1. **[!UICONTROL Upload CSV]** セクションで、CSV ファイルの **[!UICONTROL Location]** を選択します。
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+アップロードを成功させるには、CSV ファイルが正しくフォーマットされている必要があります。「**[!UICONTROL Download the CSV template]**」をクリックすると、正しい形式の CSV ファイルを取得できます。
 
-   次の 2 つの場所のオプションがあります。
+次の 2 つの場所のオプションがあります。
 
-   * **FTP:** FTP サーバーから CSV ファイルをアップロードするには、「**[!UICONTROL FTP]**」を選択してから必要な情報を入力します。 FTPS プロトコルを使用する SSL を使用して、CSV ファイルを安全に転送できます。
-
-     ![CSV ファイルをアップロードするための FTP オプション ](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** URL から CSV ファイルをアップロードするには、「**[!UICONTROL URL]**」を選択してからフィード URL を入力します。
+    * **FTP:** FTP サーバーから CSV ファイルをアップロードするには、**[!UICONTROL FTP]**を選択してから、必要な情報を入力します。 FTPS プロトコルを使用する SSL を使用して、CSV ファイルを安全に転送できます。
+    
+    * **URL:**URL から CSV ファイルをアップロードするには、「**[!UICONTROL URL]**」を選択してから、フィード URL を入力します。
 
 1. **[!UICONTROL Create]** をクリックします。
 

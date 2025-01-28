@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b25516a9b348fa845e9336f4dccfc2d8fb3344b4
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 47%
 
 ---
 
@@ -94,7 +94,6 @@ ht-degree: 50%
       * [条件の作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [条件のシーケンスの作成](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [レコメンデーションキーに基づくレコメンデーションの設定](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}
-      * [Target のレコメンデーションアルゴリズムの背後にある科学](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
       * [カスタム条件のアップロード](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * 動的および静的インクルージョンルールの使用 {#dynamic-static}{target="_blank"}
          * [動的および静的インクルージョンルールの使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
@@ -112,11 +111,11 @@ ht-degree: 50%
       * [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * アクティビティ {#recommendations-activity}
-      * [Recommendations アクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [Recommendations アクティビティベータ版の作成 ](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [ 条件のベータ版を選択 ](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
    * [ オファーとしての Recommendations](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * よくある質問 {#recommendations-faq}
       * [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

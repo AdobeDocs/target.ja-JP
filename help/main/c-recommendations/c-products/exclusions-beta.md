@@ -5,10 +5,11 @@ title: 除外を [!UICONTROL Recommendations] アクティビティで使用す�
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -36,23 +37,17 @@ ht-degree: 18%
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** をクリックして、既存の除外のリストを表示します。
 
-   ![exclusions_list image](assets/exclusions-list.png)
-
    [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更する方法については、*Adobe Target開発者ガイド* の [ 計画と実装  [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} を参照してください。
 
-1. [!UICONTROL Filter] （条件付き）除外アイコンをクリックし、除外の作成（または更新）時に目的の [ 環境 ](/help/main/administrating-target/environments.md) を **[!UICONTROL Environment]** ドロップダウンリストから選択して、その環境での除外のコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
-
-   ![除外を作成](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. （条件付き）除外を作成（または更新）し ](/help/main/assets/icons/Filter.svg) その環境の除外のコンテンツをプレビューするには、**[!UICONTROL Show Filters]** のアイコン（![ フィルターアイコンを表示 ](/help/main/administrating-target/environments.md)）をクリックして、除外の作成 [ または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
-
-   ![ 除外を作成ダイアログボックス ](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. 除外 **[!UICONTROL Name]** を入力し、オプションで説明を入力します。
 
 1. ルールビルダーを使用して除外を作成します。
 
-   ルールリストでパラメーターを選択して、オペレーターを選択してから、1 つ以上の値を入力して製品を特定します。複数の値はコンマで区切ります。
+   [!UICONTROL Rules] リストでパラメーターを選択し、演算子を選択してから、製品を識別する値を 1 つ以上入力します。 複数の値はコンマで区切ります。
 
 1. **[!UICONTROL Create]** をクリックします。
 
@@ -70,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 除外の編集、コピー、削除
 
-リスト内の目的の除外の横にある **省略記号** アイコンをクリックし、適切なアイコン（編集、コピー、削除）をクリックします。
-
-![ オプション：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+リスト内の目的の除外の横にある「その他のアクション」アイコン ![ 「その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、適切なアイコン（[!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]）をクリックします。
 
 既存の除外をコピーして重複する除外を作成し、それを変更できます。 このオプションを使用すると、同様の除外を少ない労力で作成できます。
 

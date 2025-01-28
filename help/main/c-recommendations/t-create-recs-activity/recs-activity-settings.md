@@ -5,10 +5,10 @@ title: Recommendations アクティビティの設定は、どうすればよい
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 50%
+source-wordcount: '588'
+ht-degree: 46%
 
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 50%
 
 [!DNL Adobe Target] の [!UICONTROL Recommendations] ーザーアクティビティを説明および制御するために使用できる設定に関する情報です。
 
-![Recommendations 目標と設定ページ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 次の節では、[!UICONTROL Recommendations] アクティビティで使用できる設定について説明します。
 
 ## 名前
 
-アクティビティを特定しやすいわかりやすい名前を設定します。
+その他のアクション アイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから、「**[!UICONTROL Rename]**」をクリックして、ユーザーとチームがアクティビティを識別するのに役立つ説明的な名前を指定します。
 
 次の文字はアクティビティ名として入力できません。
 

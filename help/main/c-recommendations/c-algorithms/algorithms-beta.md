@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 8%
 
 ---
@@ -34,8 +35,6 @@ ht-degree: 8%
 ## アルゴリズムのタイプ {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 選択するアルゴリズムタイプによって、使用可能なアルゴリズムが決まります。
-
-![ 条件ページ ](assets/criteria-page-new.png)
 
 次の表に、様々なアルゴリズムタイプとそれに付随するアルゴリズムを説明します。
 
@@ -75,11 +74,9 @@ ht-degree: 8%
 
 [!UICONTROL Name] 列で目的の条件をクリックすると、条件の詳細を表示できます。
 
-![条件カードにマウスポインターを置く](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+「**[!UICONTROL Attributes]**」セクションと「詳細」セクションでは、[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]、最終変更日（アルゴリズムを変更した日付とユーザー）など、選択した基準に関する一般的な情報を表示できます。
 
-「**[!UICONTROL Algorithm Info]**」タブでは、[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]、最終変更日（アルゴリズムを変更した日付とユーザー）など、選択した基準に関する一般的な情報を表示できます。
-
-「**[!UICONTROL Algorithm Usage]**」セクションでは、選択した条件を参照するアクティビティのリストを表示できます。
+「**[!UICONTROL Usage]**」セクションでは、選択した条件を参照するアクティビティのリストを表示できます。
 
 >[!NOTE]
 >

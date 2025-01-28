@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 38%
 
 [!UICONTROL Feeds] リスト（**[!UICONTROL Recommendations]**/**[!UICONTROL Feeds]**）には、作成したフィードに関する情報が表示されます。
 
-![フィードページ](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 [!UICONTROL Feeds] ページには、次の列が含まれます。
 
 * **名前**：作成中に指定されたフィードの名前。フィードの名前を編集するには、フィード自体を編集する必要があります。新しい名前でフィードを保存すると、フィードが更新されます。
@@ -48,11 +46,11 @@ ht-degree: 38%
 * **スケジュール**：フィードの更新スケジュール（[!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks] または [!UICONTROL Never]）を表示します。
 * **最終更新**：フィードが最後に更新された日時と、フィードを更新したユーザーの名前を表示します。
 
-[!UICONTROL Customize Table] アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/c-recommendations/c-products/assets/customize-table-icon.png)）をクリックして、表示する列を選択または選択解除します。
+[!UICONTROL Customize Table] アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
 
-[!UICONTROL Information] アイコンをクリックすると、最終アップロード日とフィードの URL を表示するカードが表示されます。
+[!UICONTROL Information] アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、前回のアップロード日とフィードの URL を表示するカードを表示します。
 
-省略記号アイコンをクリックして、[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
+[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg)[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. [!DNL Target] インターフェイス内から、**[!UICONTROL Recommendations]**/**[!UICONTROL Feeds]**/**[!UICONTROL Create Feed]** をクリックします。
 
-   ![フィードを作成ダイアログボックス](assets/CreateFeed.png)
-
 1. フィードにわかりやすい名前を指定します。
 1. **[!UICONTROL Source Type]** を選択します。
 
@@ -261,8 +257,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Next]** 矢印をクリックして [!UICONTROL Schedule] のオプションを表示します。
 
-   ![ステップの結果](assets/CreateFeedSchedule.png)
-
 1. 更新オプションを選択します。
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    このオプションは、ブラウザーで使用されるタイムゾーンに基づいています。別のタイムゾーンの時間を使用したい場合、タイムゾーンに応じて時間を計算する必要があります。
 
 1. **[!UICONTROL Next]** 矢印をクリックして [!UICONTROL Mapping] のオプションを表示し、データを [!DNL Target] 定義にマッピングする方法を指定します。
-
-   ![ステップの結果](assets/CreatFeedMapping.png)
 
 1. （オプション）フィードを環境（ホストグループ）に所属させたい場合、ホストグループを選択します。
 

@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 23%
+source-wordcount: '508'
+ht-degree: 24%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 23%
 
 ## アクセス [!UICONTROL Catalog Search]
 
-[!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL Catalog Search]** をクリックします。
+1. [!UICONTROL Catalog Search] ページにアクセスするには、**[!UICONTROL Recommendations]**/**[!UICONTROL Catalog Search]** をクリックします。
 
-![ カタログ検索ページ ](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. （任意）検索にフィルターを適用するには、「**[!UICONTROL Show Filters]**」アイコン（![ 「フィルターを表示」アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。 [!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory] および [!UICONTROL Value] でフィルタリングできます。
 
 ## 簡易検索の実行
 
@@ -45,8 +45,6 @@ ht-degree: 23%
    > 数値を使用してカスタム属性に対してカタログ検索を実行すると、カスタム属性は数値ではなく文字列型とみなされます。
    >
    >現在、属性のタイプを変更できる機能はありません。 変更をおこなうには、[顧客のイシューを開く](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)、タイプを文字列から数値に変更する必要がある属性を参照します。
-
-   また、フィルターを使用して、目的の製品を見つけることもできます。 例えば、「**[!UICONTROL Show Filters]**」アイコン（![ 「フィルターを表示」アイコン ](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）をクリックし、[!UICONTROL Collections] ファセットを展開して 1 つ以上のコレクションを選択すると、選択したコレクションに属するすべての製品がカタログに表示されます。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [ 環境 ](/help/main/administrating-target/environments.md) を使用すると、サイトと実稼動前の環境を整理し、管理と環境別レポートを容易にできます。
 
-1. 「フィルターを表示」アイコン（![ フィルターを表示アイコン ](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）をクリックします。
+1. 「フィルターを表示」アイコン（![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）をクリックします。
 
 1. **[!UICONTROL Environment]** ドロップダウンリストから目的の環境を選択します。
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 列を変更
 
-[!UICONTROL Catalog Search] ページ上のアクティブな列を一時的に変更できます。
+[!UICONTROL Catalog Search] ページのアクティブな列を変更できます。
 
-1. **[!UICONTROL Customize Table]** アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/c-recommendations/c-products/assets/icon-customize-table.png)）をクリックします。
+1. **[!UICONTROL Customize Table]** アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/assets/icons/ColumnSetting.svg)）をクリックします。
 
 1. 表示または非表示にする列を選択または選択解除します。
 
-加えた変更は、現在のセッションにのみ適用されることに注意してください。
+加えた変更は、セッションをまたいで永続的に適用されます。
