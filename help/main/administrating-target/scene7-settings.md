@@ -5,9 +5,9 @@ title: Dynamic Media Classic（Scene7）統合を設定するにはどうすれ�
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 85%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 85%
 [!DNL Dynamic Media Classic]（[!DNL Scene7]）と統合するには、次の情報を指定する必要があります。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Scene7 Configuration]**&#x200B;をクリックします。
-
-   ![Scene7 ページ](/help/main/administrating-target/assets/scene7.png)
 
 1. 以下の [!DNL Dynamic Media Classic] アカウント情報を指定します。
 

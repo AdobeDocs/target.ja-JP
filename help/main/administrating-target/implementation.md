@@ -1,13 +1,13 @@
 ---
 keywords: 実装;実装する
-description: サイトにAdobeを実装する方法  [!DNL Target]  説明します。 グローバル設定、実装方法（AEP Web SDK または at.js）などを設定します。
+description: サイトにAdobeを実装する方法  [!DNL Target]  説明します。 グローバルな設定や実装方法（AEP Web SDKまたは at.js）などを指定します。
 title: をサイト  [!DNL Target]  実装する方法
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 10%
 
 ---
@@ -25,5 +25,3 @@ ht-degree: 10%
 1. [!UICONTROL Implementation] ページにアクセスするには、**[!UICONTROL Administration]**/**[!UICONTROL Implementation]** をクリックします。
 
 1. このページの設定に適用される情報については、[ タグマネージャーを使用しない Target の実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank} を参照してください。
-
-![ 実装ページ ](/help/main/administrating-target/assets/implementation.png)

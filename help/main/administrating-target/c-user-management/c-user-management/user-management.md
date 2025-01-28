@@ -5,9 +5,9 @@ title: ユーザーを追加し、 [!DNL Target Standard]  アカウントの権
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 63%
 ワークスペースごとの役割やメールアドレスなど、[!DNL Target] UI で現在のユーザーのリストを表示できます。
 
 [!UICONTROL Users] ページを表示するには、**[!UICONTROL Administration]**/**[!UICONTROL Users]** をクリックします。
-
-![Target 内からのユーザーリスト](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ ht-degree: 63%
 
 1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) 「**[!UICONTROL Products]**」をクリックしてから、目的の商品名を選択します。
 
-   ![「製品」タブ](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. 目的のワークスペース（デフォルトのワークスペースなど）をクリックします。
-
-   ![デフォルトのワークスペース](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    「[!UICONTROL Users]」タブには、そのワークスペース内のすべてのユーザーが表示されます。
 
-   ![設定ユーザー](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. [!UICONTROL Product Role] 列の各ユーザーのドロップダウンリストを使用して、目的の権限の役割（[!UICONTROL Approver]、[!UICONTROL Editor]、[!UICONTROL Observer]、[!UICONTROL Publisher]）を選択します。
-
-   ![製品の役割ドロップダウンリスト](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 役割 | 説明 |
    |--- |--- |

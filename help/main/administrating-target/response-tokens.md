@@ -5,9 +5,9 @@ title: 応答トークンとその使用方法
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 22%
 
 | Target SDK | 提案されたアクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDK の最新バージョンのダウンロードについて詳しくは、『 *Platform Web SDK 概要* ガイドの [SDK のインストール ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} を参照してください。 Platform Web SDK の各バージョンの新機能について詳しくは、『 [Platform Web SDK 概要 *ガイドの ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) リリースノート* を参照してください。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 *ガイドの* リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) を参照してください。 |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。最新バージョンの at.js のダウンロードについて詳しくは、[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank} を参照してください。 at.js の各バージョンの新機能について詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -35,12 +35,10 @@ ht-degree: 22%
 
    詳しくは、以下を参照してください。
 
-   * **Platform Web SDK**: [Platform Web SDK 概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) ガイドの *SDK のインストール* を参照してください。
+   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) ガイドの *SDKのインストール* を参照してください。
    * **at.js**:[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank} を参照してください。
 
 1. [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Response Tokens]** をクリックします。
-
-   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. `activity.id` や `offer.id` など、目的の応答トークンを有効化します。
 
@@ -71,8 +69,6 @@ ht-degree: 22%
 1. （条件付き）プロファイルパラメーターを応答トークンとして使用するが、[!DNL Target] リクエストを通じてパラメーターが渡されたことがなく、そのため [!DNL Target] UI に読み込まれていない場合は、「[!UICONTROL Add Response Token]」ボタンを使用して、プロファイルを UI に追加できます。
 
    「**[!UICONTROL Add Response Token]**」をクリックし、トークン名を入力して「**[!UICONTROL Activate]**」をクリックします。
-
-   ![response_token_create image](assets/response_token_create.png)
 
 1. アクティビティを作成します。
 
@@ -220,9 +216,9 @@ ht-degree: 22%
 
 次の節では、データをGoogle Analytics 4 に送信 [!DNL Target] る方法について説明します。 応答トークンから送信されたデータは、他のサードパーティ統合環境に送信することもできます。
 
-### ![AEP バッジ ](/help/main/assets/platform.png)Platform Web SDK を使用してGoogle Analyticsにデータを送信
+### ![AEP バッジ ](/help/main/assets/platform.png)Platform Web SDKを介したGoogle Analyticsへのデータの送信
 
-Google Analyticsページに次のコードを追加することで、Platform Web SDK バージョン 2.6.0 （またはそれ以降）経由でHTMLデータを送信できます。
+Google Analyticsページに次のコードを追加すると、Platform Web SDK バージョン 2.6.0 （またはそれ以降）を介してHTMLを送信できます。
 
 >[!NOTE]
 >

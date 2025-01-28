@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 49%
 
 ---
@@ -191,18 +191,12 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 * **Workspace（製品プロファイル）ドロップダウンリスト：** Workspaceドロップダウンリストは、「[!UICONTROL Activities]」、「[!UICONTROL Audiences]」、「[!UICONTROL Offers]」ページの上部に表示されます。 目的のワークスペースを選択して、リストをフィルターし、選択したワークスペースのアイテムのみを表示します。
 
-  ![workspace_drop-down image](assets/workspace_drop-down.png)
-
 * **アクティビティの作成：** アクティビティを作成すると、現在選択しているワークスペースに作成されます。 最初のダイアログボックスにチャネル選択オプションが表示され、アクティビティに必要なチャネル（Web、モバイルアプリ、メール、その他/API）を選択できます。
-
-  ![channel_options 画像 ](assets/channel_options.png)
 
 * **オーディエンスの作成：** オーディエンスを作成すると、現在選択しているワークスペースに作成されます。
 * **オーディエンスリスト：** オーディ [!UICONTROL Audiences] ンスページの [!UICONTROL More Actions]/[!DNL Move] オプションを使用して、ワークスペース間でオーディエンスを移動できます。
 * **オファーの作成：** オファーを作成すると、現在選択しているワークスペースに作成されます。
 * **プロパティページ（管理/プロパティ）:**[!UICONTROL Search] のボックスを使用して、[!UICONTROL Property] リストを検索できます。
-
-  ![properties_list image](assets/properties_list.png)
 
 ## 注意事項 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -234,14 +228,14 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
    * [!DNL Target Standard/Premium] 内で作成されたアクティビティ、オーディエンスおよびコードオファーは、顧客が権限で有効になった後で使用できます。 （メモ：お客様は [!DNL Target Premium] の権利を付与されている必要があります。）
    * プロパティは、デフォルトのWorkspaceで既存のアクティビティに追加できます。ただし、この方法は変更される可能性があります。
-   * （エンタープライズ権限が有効になった後に） Target Premium 内で作成された新しいリソース（アクティビティ、コードオファー、オーディエンスなど）のみが、権限による制限に使用できます。
+   * （エンタープライズ権限が有効になった後に）Target Premium内で作成された新しいリソース（アクティビティ、コードオファー、オーディエンスなど）のみが、権限による制限に使用できます。
    * 外部リソースは、デフォルトのワークスペースのユーザーのみ利用できます。デフォルトのワークスペースのユーザーの役割はグローバルに適用されます（Target のすべてのリクエストとリソースに適用されます）。
 
 * 次のリソースは、新しい Enterprise 権限モデルに&#x200B;*含まれません*。
 
    * 画像オファー
    * 条件ライブラリ、デザインライブラリ、カタログ、Recommendations 設定を含むすべての Recommendations。
-   * エンタープライズ権限を有効にする前に Target Premium 内で作成された既存のリソース（アクティビティ、コードオファー、オーディエンスなど）は、コピーできますが、他のワークスペースに移動することはできません。
+   * エンタープライズ権限を有効にする前にTarget Premium内で作成された既存のリソース（アクティビティ、コードオファー、オーディエンスなど）は、コピーできますが、他のワークスペースに移動することはできません。
    * アクティビティ、オーディエンス、コードオファー、画像オファー、または次のソリューションやメソッドを使用して作成されたその他のリソースは、Enterprise Permissions モデルでは制御できませんが、デフォルトのWorkspace（Target Classic、Adobe Experience Manager（AEM）、Adobeモバイルサービスおよび API を使用して作成されたリソース）の一部です。 API を利用して作成されたリソースには、アクティビティ、オーディエンス、コードオファー、画像オファーが含まれます。
    * 画像オファー（`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` に保存されたアセットは、現在、エンタープライズ権限モデルで制御できません。
    * clickTracking とリダイレクトは、宛先リンクまたは宛先ページがアクティビティに含まれるプロパティの一部である場合に機能します。 また、`targetPageParams()` 関数を使用する場合、clickTracking が機能しないことがあります。 関数には、`targetPageParamsAll()` を使用することをお勧めします。

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 51%
+source-wordcount: '415'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 51%
 >[!DNL Adobe Target] チームは、多くの場合、テストやフィードバックの目的で、一部のお客様に対して新機能を有効にします。 テスト期間が完了すると、これらの機能は今後の [!DNL Target] リリースですべてのお客様に対して有効になり、リリースノートで発表されます。
 >
 >これらの記事の情報は、Beta プログラム中に予告なく頻繁に更新されます。
+
+## 管理
+
++++クリックして展開
+
+* [Target の管理：概要ベータ版 ](administrating-target/administrating-target-beta.md)
++++
 
 ## アクティビティ
 

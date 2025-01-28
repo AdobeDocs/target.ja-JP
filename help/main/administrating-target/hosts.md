@@ -5,9 +5,9 @@ title: ホストおよびその使用方法について
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 62%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 62%
 デフォルトでは、[!DNL Target] は、[!DNL Target] リクエストを行ったり [!DNL Target] レスポンスを受信できるホストを制限しません。新しいホストがリクエストを行うと、そのホストは自動的に機能します。このプロセスにより、不明なドメインや予期できないドメインでのテストも可能になります。 このデフォルトの動作を上書きする場合は、許可リストまたはブロックリストを設定して、[!DNL Target] で機能するホストを制限することができます。
 
 ホストを管理するには、**[!UICONTROL Administration]**/**[!UICONTROL Hosts]** をクリックします。
-
-![hosts_list image](assets/hosts_list.png)
 
 ## ホストの認識 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

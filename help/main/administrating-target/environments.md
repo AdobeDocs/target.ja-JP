@@ -5,10 +5,10 @@ title: 環境の概要と使用方法
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 50%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 50%
 新しい web サイトまたはドメインから [!DNL Target] リクエストを受信すると、これらの新しいドメインは常に [!UICONTROL Production] 環境に表示されます。 [!UICONTROL Production] 環境では設定を変更できないので、不明なサイトや新しいサイトには、アクティブで準備完了のコンテンツのみが表示されます。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
 
 環境を管理するには、**[!UICONTROL Administration]**/**[!UICONTROL Environments]** をクリックします。
-
-![ 環境リスト ](/help/main/administrating-target/assets/environments.png)
 
 ## 環境の追加 {#section_32097D0993724DF3A202D164D3F18674}
 
@@ -75,7 +73,7 @@ ht-degree: 50%
 
 {{premium-note}}
 
-環境を使用して、カタログで使用可能な項目を用途に応じて分けることができます。 例えば、[!UICONTROL Development] と [!UICONTROL Production] の環境、異なるブランド、異なる地域にホストグループを使用できます。 デフォルトでは、カタログ検索、コレクションおよび除外のプレビュー結果はデフォルトのホストグループに基づいています。（環境フィルターを使用して、結果をプレビューする別のホストグループを選択することもできます）デフォルトでは、項目の作成または更新時に環境 ID を指定しない限り、新しく追加された項目はすべてのホストグループで使用できます。
+環境を使用して、カタログで使用可能な項目を用途に応じて分けることができます。 例えば、[!UICONTROL Development] と [!UICONTROL Production] の環境、異なるブランド、異なる地域にホストグループを使用できます。 デフォルトでは、カタログ検索、コレクションおよび除外のプレビュー結果はデフォルトのホストグループに基づいています。（環境フィルターを使用して、別のホストグループを選択して結果をプレビューすることもできます）。 デフォルトでは、項目の作成または更新時に環境 ID を指定しない限り、新しく追加された項目はすべてのホストグループで使用できます。
 
 >[!NOTE]
 >
