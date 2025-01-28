@@ -4,9 +4,9 @@ description: アクティビティを使用して、特定のオーディエン�
 title: ' [!DNL Target] を使用してコンテンツをパーソナライズし、ページのデザインをテストするにはどうすればよいですか？'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2234'
 ht-degree: 26%
 
 ---
@@ -48,9 +48,10 @@ ht-degree: 26%
 | [!UICONTROL Property] | アクティビティの[プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。<P>エンタープライズユーザー権限は ](/help/main/c-intro/intro.md#premium)0}Target Premium} 機能です。[ |
 | [!UICONTROL Estimated Lift in Revenue] | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<P>以下の数式を使用して計算します。<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>この数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。例：$1.6M、$60K、$900、$8.5K、$205K<P>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、このコラムには「---」と表示されます。<P>詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
 | [!UICONTROL Source] | アクティビティが作成された場所を示します：[!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、[Adobeモバイルサービス ](https://developer.adobe.com/client-sdks/documentation/)。 |
-| [!UICONTROL Location] | アクティビティの URL は、アクティビティが表示される場所を示します。この列を使用すると、アクティビティをすばやく識別して、特定のページで既にアクティビティが実行されているかどうかを判断できます。<P>1 つのアクティビティを複数の URL で実行する場合、リンクには、使用される URL の数が表示されます。 該当するアクティビティのすべての URL のリストを表示するには、このリンクをクリックします。<P>URL に基づいて検索できます。 検索ボックスの横にあるドロップダウンリストを使用して、「[!UICONTROL URL]」を選択します。 |
 | [!UICONTROL Author] | アクティビティを作成したユーザーの名前。 |
 | [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法：[ サーバーサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja) または [ クライアントサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
+
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
 ## アクティビティのタイプ {#types}
 
