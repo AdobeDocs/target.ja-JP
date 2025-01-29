@@ -39,7 +39,7 @@ ht-degree: 14%
 
    [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更する方法については、*Adobe Target開発者ガイド* の [ 計画と実装  [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} を参照してください。
 
-1. （条件付き）除外を作成（または更新）し ](/help/main/assets/icons/Filter.svg) その環境の除外のコンテンツをプレビューするには、**[!UICONTROL Show Filters]** のアイコン（![ フィルターアイコンを表示 ](/help/main/administrating-target/environments.md)）をクリックして、除外の作成 [ または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）除外を作成（または更新）し ![](/help/main/assets/icons/Filter.svg) その環境の除外のコンテンツをプレビューするには、**[!UICONTROL Show Filters]** のアイコン（ フィルターアイコンを表示 ](/help/main/administrating-target/environments.md)）をクリックして、除外の作成 [ または更新）時に **[!UICONTROL Environment]** ドロップダウンリストから目的の（環境）を選択します。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 
