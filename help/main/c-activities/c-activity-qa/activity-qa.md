@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] QA URL を使用して、変更されないプ�
 title: アクティビティを QA するにはどうすればよいですか？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ ht-degree: 27%
 
 1. アクティビティの [!UICONTROL Overview] ページで、「**[!UICONTROL Activity QA]**」をクリックします。
 
-   ![アクティビティ QA リンク](assets/qa_link.png)
-
 1. 以下の設定を指定します。
-
-   ![QA リンク設定オプション](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** オーディエンスマッチングの動作を確認したい場合があります。 アクティビティのルックアンドフィールを確認したい場合もあります。 この設定を「オン」にすると、ターゲット条件を満たすテスターのみがエクスペリエンスの表示対象になります。エクスペリエンスのターゲット設定（XT）アクティビティでは、単一のアクティビティ URL が提供されます。表示されるエクスペリエンスは、ユーザーがどのターゲットルールに一致するかによって決まります。
 

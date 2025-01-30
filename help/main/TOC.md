@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1496'
 ht-degree: 76%
 
 ---
@@ -212,6 +212,7 @@ ht-degree: 76%
    + [アクティビティの設定](c-activities/activity-settings.md)
    + 成功指標 {#success-metrics}
       + [成功指標](c-activities/r-success-metrics/success-metrics.md)
+      + [成功指標ベータ版](c-activities/r-success-metrics/success-metrics-beta.md)
       + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
       + [スコアキャプチャ](c-activities/r-success-metrics/capture-score.md)
    + [アクティビティの変更ログ](c-activities/change-log.md)
