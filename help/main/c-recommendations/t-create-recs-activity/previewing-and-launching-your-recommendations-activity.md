@@ -4,10 +4,10 @@ description: アクティビティを開始する前に、Adobe [!DNL Target] Re
 title: Recommendations アクティビティをプレビューして開始するにはどうすればよいですか？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ ht-degree: 16%
 
 条件のステータスが一覧表示される [!UICONTROL Activity] の概要図で、アルゴリズムの実行が完了したかどうかを確認できます。 次の図は、[!DNL Recommendations] のアクティビティの [!UICONTROL Overview] ページのアクティビティ図のステータスを示しています。
 
-![Recommendations アクティビティの概要ページ ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-次の図は、[!UICONTROL A/B Test] または XT アクティビティの [!UICONTROL Overview] ページのステータスを示しています。
-
-![A/B テストの概要ページ ](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Recommendations アクティビティの概要ページ ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 ステータス結果には、次の図が含まれます。
 
@@ -45,7 +41,7 @@ ht-degree: 16%
 
 mbox が行動データソースとして選択される場合、一旦作成されると、条件は即座に実行されます。使用される行動データの量とカタログのサイズに応じて、アルゴリズムの実行には最大で 12 時間かかります。条件の設定を変更すると、通常、アルゴリズムが再実行されます。行った変更によっては、再実行が完了するまで以前に計算したレコメンデーションを使用できない場合や、大規模な変更の場合、再実行が完了するまでバックアップまたはデフォルトコンテンツのみを使用できる場合があります。 アルゴリズムが変更されない場合、選択されたデータ範囲に応じて 12 ～ 48 時間ごとに、[!DNL Target] によって自動的に再実行されます。
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 [!DNL Adobe Analytics] を行動データソースとして使用する条件を作成した場合は、選択されているレポートスイートとルックバックウィンドウが他の条件でも使用されているかどうかに応じて、条件が使用可能になる時間が異なります。
 
@@ -59,9 +55,7 @@ mbox が行動データソースとして選択される場合、一旦作成さ
 
 ## QA リンクを使用したRecommendationsのプレビュー
 
-アルゴリズムで結果の準備が整ったら、[!DNL Adobe Target] の [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能を使用して、その結果をプレビューできます。 QA リンクは、アクティビティの概要ページの「[!UICONTROL Activity QA]」セクションで使用できます。
-
-![アクティビティ QA リンク](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+アルゴリズムで結果の準備が整ったら、[!DNL Adobe Target] の [QA リンク ](/help/main/c-activities/c-activity-qa/activity-qa.md) 機能を使用して、その結果をプレビューできます。 QA リンクは、[!UICONTROL Activity] の概要ページの「[!UICONTROL Activity Location]」セクションで使用できます。
 
 >[!NOTE]
 >
@@ -103,17 +97,11 @@ CSV ファイルがダウンロードされます。 これを開いて、推奨
 
 ## Recommendations アクティビティのアクティベート
 
-「[!UICONTROL Activity Overview]」タブで、ステータスの横のドロップダウン矢印をクリックし、「**[!UICONTROL Activate]**」を選択します。
+「[!UICONTROL Activity Overview]」タブで、「ステータス」ドロップダウン矢印をクリックし、「**[!UICONTROL Activate]**」を選択します。
 
-![ アクティベートオプション ](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
-
-ステータスが「[!UICONTROL Activating]」になります。
-
-![ アクティブ化 ](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
+[!UICONTROL Recommendations] アクティビティが現在「[!UICONTROL Inactive]」状態の場合、ドロップダウンリストには「[!UICONTROL Inactive]」というラベルが付きます。
 
 数秒から数分後に、ステータスが [!UICONTROL Live] に切り替わります。
-
-![ ライブ ](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
 
 同じドロップダウンリストを使用して、アクティビティをディアクティベートまたはアーカイブすることもできます。
 
