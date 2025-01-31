@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 76%
+source-wordcount: '1519'
+ht-degree: 75%
 
 ---
 
@@ -261,8 +261,11 @@ ht-degree: 76%
    + [エクスペリエンスとオファーの概要](c-experiences/experiences.md)
    + Visual Experience Composer（VEC）{#vec}
       + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [Visual Experience Composer 概要ベータ版](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Visual Experience Composer オプションベータ版](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [類似のページに同じエクスペリエンスを組み込む](c-experiences/c-visual-experience-composer/temtest.md)
+      + [類似のページベータ版に同じエクスペリエンスを含める](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [複数ページアクティビティ](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [アクティビティの衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 変更 {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 76%
          + [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [URL ベータ版にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Visual Experience Composer 内で動作するカルーセルの作成](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [フォームベースの Experience Composer](c-experiences/form-experience-composer.md)
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)

@@ -4,10 +4,10 @@ description: Adobeで複数ページのアクティビティを作成する方�
 title: 複数ページアクティビティの作成方法
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -27,21 +27,13 @@ ht-degree: 68%
 
 テストにページを追加するには：
 
-1. **[!UICONTROL Configure]** 歯車アイコンをクリックします。
+1. **[!UICONTROL Configure]** アイコン（![ 設定アイコン ](/help/main/assets/icons/Setting.svg)）をクリックします。
 1. **[!UICONTROL Add Additional Pages]** をクリックします。
 
-   画面の左側に、ナビゲーションバーが表示されます。
+   画面の左側に [!UICONTROL Pages] ペインが表示されます。
 
-   ![multipage_nav 画像 ](assets/multipage_nav.png)
+1. ページを指定し、デフォルトのページを設定します。
 
-1. このナビゲーションバーを使用してページを指定し、デフォルトページを設定します。
+   「**[!UICONTROL Add Page]**」（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックしてページを追加し、ページ名と URL を指定して「**[!UICONTROL Save]**」をクリックします。
 
-   「**[!UICONTROL Add Page]**」をクリックして、ページを追加します。
-
-   縦並びの省略記号アイコンをクリックして、アクションメニューを表示します。
-
-   ![multipage_menu 画像 ](assets/multipage_menu.png)
-
-   このメニューを使用して、ページの名前変更、複数ページアクティビティからのリダイレクトテストの実行、ページの削除をおこないます。
-
-1. Visual Experience Composer を使用して、各ページでのオファーの外観をデザインします。
+1. [!UICONTROL Visual Experience Composer] を使用して、各ページでのオファーの外観をデザインします。
