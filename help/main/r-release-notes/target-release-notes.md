@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1132'
 ht-degree: 14%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年1月27日（PT）**
+**最終更新日：2025年1月31日（PT）**
 
 >[!NOTE]
 >
@@ -23,13 +23,20 @@ ht-degree: 14%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!UICONTROL Activities] ユーザーインターフェイスの更新（2025 年 2 月 6 日）
+## Target Standard／Premium 25.2.1（2025年2月6日（PT）） 
+
+このリリースには、次のアップデートが含まれています。
+
+* [!UICONTROL Activities] ユーザーインターフェイスの更新
+* [!DNL Recommendations] ユーザーインターフェイスの更新
+
+### [!UICONTROL Activities] ユーザーインターフェイスの更新
 
 [!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!UICONTROL Activities] ユーザーインターフェイスの一般公開についてお知らせします。
 
 >[!NOTE]
 >
->2 月 6 日（水）以降、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+>2 月 6 日（木）より、お客様は徐々に新しい [!UICONTROL Activities] UI にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
@@ -43,13 +50,13 @@ ht-degree: 14%
 
 ![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] ユーザーインターフェイスの更新（2025 年 2 月 6 日）
+### [!DNL Recommendations] ユーザーインターフェイスの更新
 
 [!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!DNL Recommendations] ユーザーインターフェイスの一般公開についてお知らせします。
 
 >[!NOTE]
 >
->2 月 6 日（水）以降、お客様は新しい [!UICONTROL Recommendations] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+>2 月 6 日（木）より、お客様は徐々に新しい [!UICONTROL Recommendations] UI にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
@@ -63,7 +70,11 @@ ht-degree: 14%
 
 ![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## [!UICONTROL Offers Library] ユーザーインターフェイスの更新（2025 年 1 月 9 日（PT））
+## Target Standard/Premium 25.1.1 （2025 年 1 月 9 日）
+
+このリリースには、次のアップデートが含まれています。
+
+### [!UICONTROL Offers Library] ユーザーインターフェイスの更新
 
 [!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。
 

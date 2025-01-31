@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 30%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!UICONTROL Offers Library] ユーザーインターフェイスの更新（2025 年 1 月 9 日（PT））
+## Target Standard/Premium 25.1.1 （2025 年 1 月 9 日）
+
+このリリースには、次のアップデートが含まれています。
+
+### [!UICONTROL Offers Library] ユーザーインターフェイスの更新
 
 [!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。
 

@@ -7,10 +7,11 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 43%
+source-wordcount: '768'
+ht-degree: 40%
 
 ---
 
@@ -31,8 +32,15 @@ ht-degree: 43%
 ## 特定のエクスペリエンスのコントロールとしての指定
 
 1. [[!UICONTROL Automated Personalization] アクティビティまたは [[!UICONTROL Auto-Target] のアクティビティを作成または編集する際に ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 必要に応じ ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) エクスペリエンスを設定します。
-1. [!UICONTROL Targeting] ページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、コントロールとして目的のエクスペリエンスを選択します。
-1. コントロールエクスペリエンスおよび他のエクスペリエンスの目的のトラフィック配分を指定します。
+1. [!UICONTROL Targeting] ページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、コントロールエクスペリエンスをクリックすると、右側のパネルに [!UICONTROL Control] のオプションが表示されます。
+
+   ![ コントロールペイン ](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. [!UICONTROL Control] ドロップダウンリストから「[!UICONTROL Random Experience]」を選択するか、コントロールに使用するエクスペリエンスを選択します。
+
+1. [!UICONTROL Traffic Allocation] コントロールをクリックし、コントロールエクスペリエンスと他のエクスペリエンスに必要なトラフィックの配分を指定します。
+
+   ![ トラフィック配分レール ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    特定のエクスペリエンスコントロールの場合、10％～ 30％をお勧めします。
 
