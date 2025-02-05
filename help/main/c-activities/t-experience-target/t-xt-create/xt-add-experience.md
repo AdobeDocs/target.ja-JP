@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VE
 title: '[!UICONTROL Experience Targeting] アクティビティでエクスペリエンスを作成するにはどうすればよいですか？'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 36%
+source-wordcount: '897'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 36%
 
    [[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 中、3 つのパートから成るガイド付きワークフロー（[!UICONTROL Experiences]）のステップ 1 では、[!UICONTROL All Visitors] オーディエンスを持つデフォルトの [!UICONTROL Experience A] が表示されます。
 
-   ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![すべての訪問者オーディエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    すべての変更が [!UICONTROL Experience A] に適用されます。 次の手順で、「**[!UICONTROL Add Experience Targeting]**」をクリックして、追加のエクスペリエンスを作成します。
 
@@ -29,15 +29,13 @@ ht-degree: 36%
    >
    >デフォルトでは、バナーの回転など JavaScript を含む要素については、VEC で変更できません。JavaScriptを無効にして、VEC を使用してこれらの要素を変更できます。
 
-1. 追加のエクスペリエンスを作成するには、「**[!UICONTROL Add Experience Targeting]**」をクリックします。
-
-   ![エクスペリエンスのターゲットを追加リンク](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+1. 追加のエクスペリエンスを作成するには、「追加」ボタン（![ 追加ボタン ](/help/main/assets/icons/Add.svg)） **[!UICONTROL Add]** クリックします。
 
    [!UICONTROL Add Audience] ダイアログボックスが表示されます。 エクスペリエンスをオーディエンスにターゲットするには、エクスペリエンスを追加する前に、オーディエンスを選択します。
 
    オーディエンスライブラリには、[!DNL Target] の一部として事前にビルドされた一般的なオーディエンスを含め、以前に定義したオーディエンスが含まれています。ライブラリからオーディエンスを選択するか、[新しいオーディエンスを作成](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)します。
 
-   既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+   既存のオーディエンスを選択できるだけでなく、新しいオーディエンスを作成しなくても、複数のオーディエンスを組み合わせて、オンデマンドで組み合わせたオーディエンスを作成できます。 詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
    オーディエンスを作成する際に、場所を選択し、その場所のパラメーターを指定できます。 [!UICONTROL Custom] （[!UICONTROL Create Audience]/[!UICONTROL Custom]）で場所を選択し、必要なパラメーターを指定します。
 
@@ -45,11 +43,9 @@ ht-degree: 36%
    >
    >オーディエンスは、オーディエンスリストを開いたときにバックグラウンドで自動的に読み込まれ、読み込まれたオーディエンスが 10 分以上前のものです。
 
-1. エクスペリエンスのターゲットとするオーディエンスを 1 つ以上選択し、「**[!UICONTROL Done]**」をクリックします。
+1. エクスペリエンスのターゲットとするオーディエンスを 1 つ以上選択し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
-   ![エクスペリエンス B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
-
-   エクスペリエンス B が前の図に表示され、このエクスペリエンスは米国の訪問者オーディエンスをターゲットにしています。
+   エクスペリエンス B が前の図に表示され、このエクスペリエンスが適切なオーディエンスをターゲットにしています。
 
 1. このエクスペリエンスで変更する要素を選択し、上記の手順 1 で説明したように必要な変更を行います。
 
@@ -59,7 +55,7 @@ ht-degree: 36%
 
    アクティビティ図が表示されます。
 
-   ![XT ターゲット設定の図](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![XT ターゲット設定の図](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -67,38 +63,28 @@ ht-degree: 36%
 
 1. （条件付き）アクティビティを作成または編集する際に、オーディエンスとエクスペリエンスのペア [!UICONTROL Experience Targeting] ドラッグ&amp;ドロップして、ペアを目的の順序に配置します。
 
-   訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。
+   並べ替えアイコン（![ 並べ替えアイコン ](/help/main/assets/icons/Reorder.svg)）をクリックして「[!UICONTROL Experiences]」列を右側に表示し、必要に応じてエクスペリエンスを並べ替えます。
 
-   ![エクスペリエンスの移動](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   訪問者は、上位のエクスペリエンスから順番に条件を満たしているかどうかが評価されます。
 
    [!UICONTROL Experience Targeting] は順序が問題であると想定します。 訪問者が最初のオーディエンスとエクスペリエンスのペアに当てはまる場合は、最初のエクスペリエンスが配信されます。
 
-   例えば、[!UICONTROL Experience Targeting] アクティビティの作成時に、注文が重要であることを認識していなかったとします。 その場合、エクスペリエンス B または C の条件に該当すると思っていた訪問者が、エクスペリエンス A に該当することになっていることに後で気が付くことがあります。こうした問題が生じるのは、各オーディエンスが相互に排他的ではなく、適切な順番になっていないことが原因です。例えば、エクスペリエンス A が米国、エクスペリエンス B がサンフランシスコ、エクスペリエンス C がカリフォルニアになっているとします。このシナリオでは、米国のすべてのユーザーは、サンフランシスコやカリフォルニア州の他の場所にいる場合でも、エクスペリエンス A の対象となります。 アクティビティ全体を再作成せずに、オーディエンスとエクスペリエンスのペアを最も制限が高い状態から最も制限が少ない状態（サンフランシスコ/カリフォルニア/米国）に並べ替えることができます。
+   例えば、[!UICONTROL Experience Targeting] アクティビティの作成時に、注文が重要であることを認識していなかったとします。 テストを通じて、エクスペリエンス B または C の対象と思われる訪問者が、代わりにエクスペリエンス A の対象となることに気づくでしょう。これは、オーディエンスが相互に排他的ではなく、適切な順序でもないためである可能性があります（例えば、エクスペリエンス A は米国、エクスペリエンス B はサンフランシスコ、エクスペリエンス C はカリフォルニア）。 このシナリオでは、米国のすべてのユーザーは、サンフランシスコやカリフォルニア州の他の場所にいる場合でも、エクスペリエンス A の対象となります。 アクティビティ全体を再作成せずに、オーディエンスとエクスペリエンスのペアを最も制限が高い状態から最も制限が少ない状態（サンフランシスコ/カリフォルニア/米国）に並べ替えることができます。
 
    [!UICONTROL All Visitors] オーディエンスがある場合は、それが図の最初のオーディエンスでないことを確認します。 「[!UICONTROL All Visitors]」をターゲットにしたエクスペリエンスを [!UICONTROL Experience Targeting] アクティビティの最後のエクスペリエンスとして使用すると、他のエクスペリエンスに分類されていない訪問者を「キャッチ」できます。
 
-## エクスペリエンスの名前の変更または編集
+## エクスペリエンスの名前変更、編集、複製または削除
 
-[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスで [!UICONTROL Edit] アイコン（縦並びの省略記号）をクリックし、必要に応じて次のオプションから選択できます。
+[!UICONTROL Experience Targeting] アクティビティのダイアグラムでエクスペリエンスをクリックすると、右側に「エクスペリ [!UICONTROL Experiences] ンス」列が表示されます。
 
-* [!UICONTROL Rename]
-* [!UICONTROL Edit]
+![名前の変更および編集オプション](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
-![名前の変更および編集オプション](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+必要に応じて、次のオプションから選択します。
 
-## エクスペリエンスを削除する
-
-**[!UICONTROL Experiences]** ページ（3 ステップのガイドによるワークフローの最初のステップ）で、縦並びの省略記号/**[!UICONTROL Delete]** をクリックします。
-
-![エクスペリエンスを削除](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
-
-## エクスペリエンスの複製
-
-[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスをコピーすると、エクスペリエンス全体を再作成しなくても、エクスペリエンスに小さな変更を加えることができます。
-
-**[!UICONTROL Experiences]** ページ（3 ステップのガイドによるワークフローの最初のステップ）で、縦並びの省略記号/**[!UICONTROL Duplicate]** をクリックします。
-
-![エクスペリエンスを複製](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+* **[!UICONTROL Rename]**: [!UICONTROL Name] フィールドに目的の名前を入力します。
+* **[!UICONTROL Edit]**：編集アイコン（![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックして、必要な変更を行います。
+* **[!UICONTROL Duplicate]**:[!UICONTROL Experience Targeting] アクティビティのエクスペリエンスをコピーすると、エクスペリエンス全体を再作成しなくても、エクスペリエンスに小さな変更を加えることができます。 [!UICONTROL Duplicate] アイコン（複製アイコン ![ をクリックし ](/help/main/assets/icons/Duplicate.svg) 必要に応じてエクスペリエンスを編集します。
+* **[!UICONTROL Delete]**: [!UICONTROL Delete] のアイコン（![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）をクリックして、削除を確認します。
 
 ## トレーニングビデオ：
 

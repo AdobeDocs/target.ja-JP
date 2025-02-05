@@ -4,7 +4,7 @@ description: プロファイルの進化に応じて、訪問者が an [!DNL Ado
 title: 訪問者は [!UICONTROL Experience Targeting] アクティビティのエクスペリエンスを切り替えることができますか？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 43%
@@ -31,24 +31,24 @@ ht-degree: 43%
 
   例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、ドイツに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。ドイツから Web サイトを表示した後、この訪問者は、エクスペリエンス B（ドイツの訪問者）に切り替えます。
 
-  ![優先度：米国 > ドイツ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![優先度：米国 > ドイツ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **訪問者は、現在のオーディエンスの選定を停止し、優先度の低いエクスペリエンスの選定を開始した場合も、エクスペリエンスを切り替えます。**
 * **訪問者が現在のエクスペリエンスの資格を停止し、別のエクスペリエンスの資格を得ない場合、デフォルトコンテンツが表示されます。**
 
   例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、フランスに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。フランスから web サイトを表示した後も、この訪問者は元のエクスペリエンスに残ります。
 
-  ![優先度：米国 > ドイツ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![優先度：米国 > ドイツ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **「すべての訪問者」をターゲットにしたエクスペリエンスを [!UICONTROL Experience Targeting] アクティビティの最後のエクスペリエンスとして使用すると、他のエクスペリエンスの対象となっていない訪問者を「キャッチ」できます。 「すべての訪問者」をターゲットにしたエクスペリエンスが順序の最後でない場合、このエクスペリエンスより下にリストされた他のターゲットエクスペリエンスが引き続き評価されます。**
 
   例えば、次のアクティビティの設定で、訪問者が米国から Web サイトにアクセスし、その後、ドイツに旅行して Web サイトに 2 回目の訪問をしました。最初の訪問中、この訪問者はエクスペリエンス A（米国の訪問者）の資格を得ます。ドイツから web サイトを表示した後、この訪問者はエクスペリエンス A （米国訪問者）に残ります。
 
-  ![優先度：米国 > すべての訪問者](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+  ![優先度：米国 > すべての訪問者](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-refresh.png)
 
   これが望ましくない場合、次の例に示すように、ターゲットオーディエンスの正反対として明示的に定義された新しいオーディエンスを作成できます。
 
-  ![優先度：米国 > 米国以外](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+  ![優先度：米国 > 米国以外](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
 * **単一エクスペリエンスの [!UICONTROL Experience Targeting] アクティビティでは、訪問者は、そのエクスペリエンスに配置したオーディエンスの資格を失った場合でも、エクスペリエンスに残ります。**
 
@@ -56,10 +56,10 @@ ht-degree: 43%
 
   別のオプションとして、次に示すように、100% のトラフィック配分で、目的のオーディエンスをターゲットにした [!UICONTROL A/B Test] アクティビティを作成できます。
 
-  ![優先度 1 エクスペリエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
+  ![優先度 1 エクスペリエンス](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-refresh.png)
 
 * **エクスペリエンスの優先度は、[!DNL Target] UI に表示される順序（トップダウン）で定義されます。**
 
   これは、訪問者が複数のオーディエンスの資格を得る可能性があるシナリオで覚えておくべき重要な点です。例えば、2 つのエクスペリエンス（1 つは「米国」、もう 1 つは「ニューヨーク」）をターゲットにした場合、ニューヨークにいる訪問者は両方のオーディエンスに該当します。 したがって、[!DNL Target] UI で「米国」エクスペリエンスより前に、「ニューヨーク」エクスペリエンスが定義されていることを確認する必要があります。 これにより、次の例に示すように、よりターゲットを絞った「ニューヨーク」エクスペリエンスが優先されます。
 
-  ![優先度：ニューヨーク > 米国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+  ![優先度：ニューヨーク > 米国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-refresh.png)

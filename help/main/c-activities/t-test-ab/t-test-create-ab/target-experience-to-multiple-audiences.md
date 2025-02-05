@@ -1,13 +1,13 @@
 ---
 keywords: 複数オーディエンス;エクスペリエンスバージョン;ターゲットエクスペリエンスバージョン
-description: ' [!DNL Adobe Target] A/B アクティビティで、同じエクスペリエンスのバージョンを異なるオーディエンスにターゲット設定する方法を説明します。'
+description: A/B アクティビティで、同じエクスペリエンスのバージョンを使用して様々なオーディエンスセグメントをターゲットにする方法を説明します。
 title: 1 つの A/B アクティビティで複数のエクスペリエンスバージョンを使用できますか？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ ht-degree: 53%
 
    複数のバージョンを持つエクスペリエンスを設定する際に、次の手順のようにして各バージョンのオーディエンスを選択します。
 
-1. エクスペリエンスを選択し、**[!UICONTROL Configure]**/**[!UICONTROL Audiences]**/**[!UICONTROL Multiple Audiences]** をクリックします。
+1. エクスペリエンスを選択し、**[!UICONTROL Configure]**/**[!UICONTROL Multiple Audiences]** をクリックします。
 
-   ![「複数のオーディエンス」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. 「**[!UICONTROL Add Audience]**」をクリックして、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
-
-   ![exp-versions 画像 ](assets/exp-versions.png)
+1. ター [!UICONTROL Experience Audiences] ットウィンドウの **[!UICONTROL Add Audience]** のアイコン ![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックし、ターゲットにする最初のオーディエンスを選択します。 各オーディエンスについて繰り返します。
 
    オーディエンスがまだ存在しない場合は、「[オーディエンスを作成](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)」をクリックして設定します。
 

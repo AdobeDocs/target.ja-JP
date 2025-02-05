@@ -4,10 +4,10 @@ description: 極端な値をAdobeのレポートに影響から除外して  [!D
 title: レポートから極端な値を除外するにはどうすればよいですか？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ ht-degree: 65%
 
 **レポートから極端な値を除外するには：**
 
-1. 売上高またはエンゲージメントの指標タイプを含むアクティビティを開き、「**[!UICONTROL Reports]**」タブをクリックします。
-1. 歯車アイコンをクリックして、[**[!UICONTROL Settings]**] ダイアログ ボックスを表示します。
-
-   ![ステップの結果](assets/exclude_extreme_values.png)
+1. [!UICONTROL Revenue] または [!UICONTROL Engagement] の指標タイプを含むアクティビティを開き、「**[!UICONTROL Reports]**」タブをクリックします。
+1. レポート設定（![ レポート設定アイコン ](/help/main/assets/icons/Setting.svg)）アイコンをクリックして、**[!UICONTROL Settings]** ダイアログボックスを表示します。
 
 1. 必要に応じて、**[!UICONTROL Exclude Extreme Values]** 切り替えスイッチを「オン」または「オフ」の位置にスライドさせます。
 1. **[!UICONTROL Save]** をクリックします。

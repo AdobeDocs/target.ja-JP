@@ -1,84 +1,67 @@
 ---
 keywords: オーディエンス;オーディエンスの選択;オーディエンスの選択;セレクター
-description: オーディエンスは、どのサイト訪問者にAdobeアクティビティ  [!DNL Target]  入力するかを決定します。
+description: オーディエンス条件に基づいて、どのサイト訪問者がAdobe [!DNL Target]  アクティビティに参加するかを定義します。
 title: A [!DNL Target] A/B アクティビティでオーディエンスを選択するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 66%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # オーディエンスの選択
 
-オーディエンスは、[!DNL Adobe Target] アクティビティに入力するサイト訪問者を決定します。
+オーディエンスは、[!DNL Adobe Target] アクティビティに入力される選定訪問者を決定します。
 
->[!NOTE]
->
->既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
+[ アクティビティを作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 時の 3 つの部分から成るガイド付きワークフローの [!UICONTROL Targeting] の手順には、オーディエンスとそのトラフィックの割合を割り当てる手順、トラフィックの割り当て方法を選択する手順、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示すフロー図が表示されます。
 
-1. [!UICONTROL Audience] のボックスで、**[!UICONTROL Edit]** アイコン（縦並びの省略記号）をクリックし、「**[!UICONTROL Replace Audience]**」をクリックします。
+![A/B テストのターゲット設定手順](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![「オーディエンスを置換」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+フロー図のすべてのオプションについて詳しくは、「[A/B テストアクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)」を参照してください。
 
-   デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは、オーディエンスライブラリから選択できます。また、アクティビティのみのオーディエンスを作成することもできます。オーディエンスライブラリには、[!DNL Target] の一部として事前に作成された一般的なオーディエンスなど、以前に定義されたオーディエンスが含まれています。
+## アクティビティのオーディエンスの選択
 
-1. 目的のオーディエンスを選択または作成します。
+1. アクティビティの別のオーディエンスを選択するには、**[!UICONTROL All Visitors]** のコントロールをクリックします。
 
-   * ライブラリからオーディエンスを選択
-   * [複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [新しいオーディエンスの作成](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [ アクティビティのみのオーディエンスの作成 ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
 
    特定のオーディエンスのターゲティングを使用しない A/B テストの場合は、デフォルトの [!UICONTROL All Visitors] を選択します。
 
-   次に示すように、[!UICONTROL Add Audience] ールダイアログボックスで目的のオーディエンスにカーソルを合わせて、オーディエンスを編集またはコピーすることもできます。
+   右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
 
-   オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成して編集し、新しいオーディエンスとして保存できます。このホバー機能は、他のタイプのアクティビティでも利用できます。
+1. オーディエンスを変更するには **右側のフレームで**[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
 
-   ![オーディエンスにマウスポインターを置く](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
 
-   オーディエンスの作成時に、場所（mbox）を選択して、その場所のパラメーターを指定できます。「[!UICONTROL Custom Parameters]」で mbox を選択し、必要なパラメーターを指定します。
+   デフォルトでは、すべての訪問者がオーディエンスです。ただし、オーディエンスを変更することができます。オーディエンスは [!UICONTROL Audience Library] ージから選択するか、アクティビティのみのオーディエンスを作成できます。 [!UICONTROL Audience Library] には、[!DNL Target] の一部として事前に作成された一般的なオーディエンスなど、以前に定義されたオーディエンスが含まれています。
 
-   >[!NOTE]
-   >
-   >オーディエンスリストを開いたときに、インポートされたオーディエンスが 10 分以上経っている場合は、オーディエンスがバックグラウンドで自動的にインポートされます。
+1. （条件付き） **オーディエンスを組み合わせる** をクリックして [ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) します。
 
-1. （条件付き）アクティビティに含める選定訪問者の割合を指定します。
+1. （条件付き）オーディエンスにまだ含まれていない新しいオーディ [!UICONTROL Audience Library] ンスを作成するには、**オーディエンスを作成** をクリックし、オーディエンスを定義して、「**[!UICONTROL Done]**」をクリックします。
 
-   例えば、すべての訪問者の 50％を含めることを選択できます。
+   [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) の間に、次のオプションから選択できます。
 
-   ![オーディエンスの割合](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+   * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
 
-   また、Target で[自動的にトラフィックを割り当てる](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)こともできます。
+1. 右側のパネルで「**[!UICONTROL Visitor Percentage]**」をクリックし、条件を満たす訪問者をアクティビティに含める割合を指定します。
 
-## トレーニングビデオ
+1. オーディエンスに満足したら、「**[!UICONTROL Next]**」をクリックして、3 ステップのガイドによるワークフローの 3 ステップ目に移動します。
 
-以下のビデオは、この記事で説明した概念についてさらに詳しく説明しています。
+>[!NOTE]
+>
+>オーディエンスは、オーディエンスリストを開いたときにバックグラウンドで自動的に読み込まれ、読み込まれたオーディ [!UICONTROL Audience] ンスが 10 分以上前になっている。
 
-### Adobe Target での オーディエンス の使用(6:21) ![概要バッジ](/help/main/assets/overview.png)
+## オーディエンスの情報の表示
 
-このビデオでは、[!DNL Target Standard/Premium] におけるオーディエンスの使用方法を説明します。
+1. [!UICONTROL Add Audiences] ダイアログボックスで、オーディエンスの横にある **[!UICONTROL Information]** アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、ソースや属性など、そのオーディエンスに関する詳細が表示されます。
 
-* 用語「オーディエンス」の説明
-* 最適化のためにオーディエンスを使用する 2 つの方法の説明
-* オーディエンスリストでのオーディエンスの検索
-* アクティビティのオーディエンスへのターゲット設定
-* アクティビティの受動的なレポート用でのオーディエンスの使用
+1. 「**[!UICONTROL View Full Details]**」をクリックすると、オーディエンスに関する追加の詳細が表示されます。 詳細には、オーディエンスの属性、オーディエンスの説明、ワークスペース、タイプ、ソースおよび、このオーディエンスを参照するアクティビティのリストが含まれます。 アクティビティの名前、ステータス、ワークスペース、オーディエンスの最終変更日時や変更者など、各オーディエンスに関する情報を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## オーディエンスの編集またはコピー
 
-### アクティビティワークフロー – ターゲティング（2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
+オーディエンスを編集またはコピーするには、[!UICONTROL Add Audience] ダイアログボックスで、目的のオーディエンスの横にある [!UICONTROL More Actions] のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/More.svg)）をクリックし、「[!UICONTROL Edit]」または「[!UICONTROL Copy]」をクリックします。
 
-このビデオでは、オーディエンスのセットアップに関する情報が説明されています。
-
-* オーディエンスのアクティビティへの割り当て
-* トラフィックの増減調整
-* トラフィック配分方法の選択
-* 様々なエクスペリエンスへのトラフィック配分
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-詳しくは、[オーディエンス](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)を参照してください。
+オーディエンスのコピーは、既存のオーディエンスと同様のオーディエンスを作成したい場合に便利です。オーディエンスのコピーを作成し、編集を加えてから、新しいオーディエンスとして保存できます。

@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer] （VEC） in を使用し�
 title: '[!UICONTROL Experience Targeting] アクティビティの作成方法'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,15 +25,13 @@ ht-degree: 38%
 
 1. [!UICONTROL Activities] リストで、**[!UICONTROL Create Activity]**/**[!UICONTROL Experience Targeting]** をクリックします。
 
-   ![アクティビティを作成／エクスペリエンスのターゲット設定](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
-   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Automated Personalization] は [Target Premium 機能 ](/help/main/c-intro/intro.md#premium) です。
+   >利用可能なアクティビティタイプは、[!DNL Target] アカウントによって異なります。一部のアクティビティタイプがリストに表示されない可能性があります。例えば、[!UICONTROL Automated Personalization] は [Target Premium機能 ](/help/main/c-intro/intro.md#premium) です。
    >
    >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
-1. 必要に応じて「**[!UICONTROL Visual (Default)]**」を選択します。
+1. 必要に応じて「**[!UICONTROL Visual]**」を選択します。
 
    [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) を使用する場合は、「[!UICONTROL Form]」を選択します。
 
@@ -45,7 +43,7 @@ ht-degree: 38%
 
 1. （条件付き） [!DNL Target Premium] の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-   [!UICONTROL Choose Workplace] のオプションは [Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
+   「[!UICONTROL Choose Workplace]」オプションは ](/help/main/c-intro/intro.md)1}Target Premium} 機能です。 [このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
 
 1. [ アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -53,11 +51,7 @@ ht-degree: 38%
 
    VEC が開き、URL で指定したページが表示されます。
 
-   ![VEC 内のエクスペリエンスのターゲット設定アクティビティ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. 用意されている領域に、アクティビティの名前を入力します。
-
-   ![「名前」フィールド](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
 
    アクティビティ名は、次の文字で始めることはできません：
 

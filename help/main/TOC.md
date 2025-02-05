@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 75%
    + [システムステータスの更新と事前通知](r-release-notes/system-status-updates.md)
    + [ドキュメントの変更点](r-release-notes/doc-change.md)
    + [以前のリリースのリリースノート](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target のアクティビティ、オファーおよびRecommendations UI 更新Beta プログラム](/help/main/refresh-ui-beta.md)
 + はじめに {#introduction}
    + [Target の概要](c-intro/intro.md)
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 75%
    + [Target の最適化とパーソナライゼーションに関する FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target の管理 {#administer}
    + [Target の管理：概要](administrating-target/administrating-target.md)
-   + [Target の管理：概要ベータ版](administrating-target/administrating-target-beta.md)
    + [管理者の最初の手順](administrating-target/start-target.md)
    + [Visual Experience Composer の設定](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + レポート {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 75%
    + [Target のアクティビティタイプ](c-activities/target-activities-guide.md)
    + A/B テスト {#abtest}
       + [A/B テストの概要](c-activities/t-test-ab/test-ab.md)
-      + [A/B テストの概要ベータ版](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B テストを実行すべき期間はどのくらいですか？](c-activities/t-test-ab/sample-size-determination.md)
       + [A/B テストの一般的な 10 の落とし穴と回避方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A テスト](/help/main/c-activities/t-test-ab/aa-testing.md)
       + A/B テストの作成 {#create}
          + [A/B テストの作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [A/B テストベータ版の作成](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [アクティビティ URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [アクティビティ URL ベータ版](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [エクスペリエンスの追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [エクスペリエンスベータ版を追加](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [オーディエンスの選択](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [オーディエンスの選択（ベータ版）](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目標と設定](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Goals and settings beta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Analytics データの使用](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [指標の設定](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [指標の設定ベータ版](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B テストの複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [A/B テストベータ版の複数のエクスペリエンスオーディエンス](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 自動配分 {#auto-allocate}
       + [自動配分の概要](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [自動配分アクティビティの作成](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [自動配分レポートの解釈](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [自動配分レポートのベータ版の解釈](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自動配分を使用すると、手動テストよりも迅速にテスト結果を入手し、売上高を増やすことができます](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自動ターゲット {#auto-target}
       + [自動ターゲットの概要](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [自動ターゲットの概要ベータ版](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [自動ターゲットアクティビティの作成](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [自動ターゲットアクティビティベータ版を作成](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自動ターゲットに関する FAQ とトラブルシューティング](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [レポートと自動ターゲット](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization の概要](c-activities/t-automated-personalization/automated-personalization.md)
       + [ランダムフォレストアルゴリズム](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization アクティビティの作成](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Automated Personalization アクティビティベータ版を作成](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Target のパーソナライゼーションアルゴリズムのデータのアップロードを参照してください ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target パーソナライゼーションアルゴリズムのデータ収集](c-activities/t-automated-personalization/ap-data.md)
       + [成功のために必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [成功ベータ版に必要なトラフィックの見積もり](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Automated Personalization テスト用のエクスペリエンスのプレビュー ](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Automated Personalization テストベータ版のエクスペリエンスのプレビュー](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
-      + [Target のAutomated Personalizationオファー](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Target Automated Personalization オファーベータ版](c-activities/t-automated-personalization/ap-target-offers-beta.md)
+      + [Target の Automated Personalization オファー](c-activities/t-automated-personalization/ap-target-offers.md)
       + [除外の管理](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [除外の管理ベータ版](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Automated Personalization ベータ版のオファーレポートグループ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Automated Personalizationまたは自動ターゲットアクティビティベータ版のコントロールを選択します](c-activities/t-automated-personalization/experience-as-control-beta.md)
-      + [Automated Personalizationに関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Automated Personalization に関する FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization のトラブルシューティング](c-activities/t-automated-personalization/ap-trouble.md)
    + エクスペリエンスのターゲット設定 {#experience-targeting}
       + [エクスペリエンスのターゲット設定の概要](c-activities/t-experience-target/experience-target.md)
       + エクスペリエンスのターゲット設定アクティビティの作成 {#create-targeting}
          + [アクティビティの作成](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [アクティビティ（ベータ版）の作成](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [アクティビティ URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [アクティビティ URL - ベータ版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [エクスペリエンスの作成](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [エクスペリエンスベータ版の作成](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [エクスペリエンスターゲット設定でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [エクスペリエンスのターゲット設定ベータ版でのエクスペリエンスの切り替え](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [目標と設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [指標の設定](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多変量分析テスト {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 75%
       + [多変量分析テストの計画](c-activities/c-multivariate-testing/plan-mvt.md)
       + 多変量分析テストの作成 {#create-mvt}
          + [テストの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [テストベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [アクティビティ URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [アクティビティ URL ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [組み合わせの作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [組み合わせベータ版を作成](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [多変量分析テストのエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [多変量分析テストベータ版のエクスペリエンスのプレビュー](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [テストを成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [テストベータ版を成功させるために必要なトラフィックの見積もり](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [テスト概要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [テスト概要ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目標と設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [指標の設定](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [指標の設定ベータ版](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations アクティビティ](c-activities/recommendations-activity.md)
    + [アクティビティを編集またはドラフトとして保存](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 75%
    + [アクティビティの設定](c-activities/activity-settings.md)
    + 成功指標 {#success-metrics}
       + [成功指標](c-activities/r-success-metrics/success-metrics.md)
-      + [成功指標ベータ版](c-activities/r-success-metrics/success-metrics-beta.md)
       + [クリックの追跡](c-activities/r-success-metrics/click-tracking.md)
       + [スコアキャプチャ](c-activities/r-success-metrics/capture-score.md)
    + [アクティビティの変更ログ](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 75%
    + [エクスペリエンスとオファーの概要](c-experiences/experiences.md)
    + Visual Experience Composer（VEC）{#vec}
       + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Visual Experience Composer 概要ベータ版](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [Visual Experience Composer オプションベータ版](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [類似のページに同じエクスペリエンスを組み込む](c-experiences/c-visual-experience-composer/temtest.md)
-      + [類似のページベータ版に同じエクスペリエンスを含める](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [複数ページアクティビティ](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [アクティビティの衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 変更 {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 75%
          + [Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Visual Experience Composer ヘルパー拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [URL ベータ版にリダイレクト](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Visual Experience Composer 内で動作するカルーセルの作成](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [フォームベースの Experience Composer](c-experiences/form-experience-composer.md)
    + [シングルページアプリケーション（SPA）Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 75%
       + [エンティティの属性](c-recommendations/c-products/entity-attributes.md)
       + [カスタムエンティティの属性](c-recommendations/c-products/custom-entity-attributes.md)
       + [フィード](c-recommendations/c-products/feeds.md)
-      + [フィード ベータ版](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [カタログ検索](c-recommendations/c-products/catalog-search.md)
-      + [カタログ検索ベータ版](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [コレクション](c-recommendations/c-products/collections.md)
-      + [コレクションベータ版](/help/main/c-recommendations/c-products/collections-beta.md)
       + [除外](c-recommendations/c-products/exclusions.md)
-      + [除外ベータ版](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 条件 {#criteria}
       + [条件の概要](c-recommendations/c-algorithms/algorithms.md)
-      + [ 条件の概要ベータ版 ](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [条件の作成](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [条件のベータ版を作成](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [条件のシーケンスの作成](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [条件シーケンスの作成（ベータ版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [レコメンデーションキーベータ版に基づくレコメンデーションのベース](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target のレコメンデーションアルゴリズムの背後にある科学](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [カスタム条件ベータ版のアップロード](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 動的および静的インクルージョンルールの使用 {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [動的および静的インクルージョンルールのベータ版を使用](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [エンティティ属性のマッチングベータ版](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [プロファイル属性のマッチング ベータ版](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [パラメーターのマッチング](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [パラメーターマッチング ベータ版](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [静的フィルター](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [静的フィルターベータ版](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [代替レコメンデーションの使用](c-recommendations/c-algorithms/backup-recs.md)
-      + [代替レコメンデーションの使用](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [複数値の属性の扱い](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [複数値の属性ベータ版の操作](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Adobe Analytics を Recommendations と併用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [Recommendations ベータ版でAdobe Analyticsを使用する](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + デザイン {#recommendations-design}
       + [デザインの概要](c-recommendations/c-design-overview/design-overview.md)
       + [デザインの作成](c-recommendations/c-design-overview/create-design.md)
-      + [デザインベータ版の作成](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [デザイン FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity を使用したデザインのカスタマイズ](c-recommendations/c-design-overview/customizing-a-template.md)
    + アクティビティ {#recommendations-activity}
       + [Recommendations アクティビティの作成](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [Recommendations アクティビティベータ版を作成](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [条件の選択](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [条件のベータ版を選択](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [プロモーションの追加](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations アクティビティの設定](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations アクティビティのプレビューと起動](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

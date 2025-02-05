@@ -1,14 +1,14 @@
 ---
 keywords: 重複；重複を許可；重複するオファーを除外；Automated Personalization；重複するオファーを許可しない；除外；デフォルトコンテンツ；除外グループ；
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] （AP）アクティビティの除外を管理します。 除外グループを作成し、重複オファー、特定のエクスペリエンスおよびデフォルトコンテンツを除外します。'
+description: '[!UICONTROL Automated Personalization] （AP）アクティビティの除外を管理します。'
 title: '[!UICONTROL Automated Personalization] アクティビティで除外を管理するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 42%
 
 ---
@@ -27,9 +27,11 @@ ht-degree: 42%
 
 **除外グループを作成する手順は次のとおりです。**
 
-1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、ヘッダーバーの「**[!UICONTROL Manage Content]**」をクリックします。
+1. [AP アクティビティの作成または編集 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 中に、**[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
 
-   ![コンテンツを管理リンク](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   [!UICONTROL Manage Content] ダイアログボックスが表示されます。
+
+1. 「**[!UICONTROL Experiences]**」タブをクリックします。
 
 1. [!UICONTROL Manage Content] ダイアログボックスで、「**[!UICONTROL Exclusion Groups]**」をクリックします。
 

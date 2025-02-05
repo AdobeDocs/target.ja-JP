@@ -5,9 +5,9 @@ title: '[!UICONTROL Automated Personalization] アクティビティでオファ
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 16%
 
 ---
@@ -33,26 +33,17 @@ ht-degree: 16%
 
 ## レポートグループの設定
 
-1. AP アクティビティの **[!UICONTROL Experiences]** ページで、**[!UICONTROL Manage Content]** アイコンをクリックします。
-
-   ![ コンテンツを管理アイコン ](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. AP アクティビティの **[!UICONTROL Experiences]** ページで、**[!UICONTROL Manage Content]** アイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします
 1. [[!UICONTROL Manage Content]] ダイアログ ボックスの上部にある [**[!UICONTROL Offers]**] タブをクリックします。
-1. （条件付き）目的のオファーにカーソルを合わせ、**[!UICONTROL Reporting Group]** フォルダーアイコンをクリックすることで、特定のエクスペリエンスをレポートグループに追加します。
+1. （条件付き）目的のオファーの [!UICONTROL More Actions] のアイコン（その他のアクションアイコン ![）をクリックしたあと ](/help/main/assets/icons/MoreSmall.svg) 「**[!UICONTROL Reporting Group]**」をクリックして、特定のエクスペリエンスをレポートグループに追加します。
 
-   ![ レポートグループアイコン ](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. （条件付き）バッチでは、関連するエクスペリエンスのチェックボックスを選択してから、ダイアログボックスの下部にある「**[!UICONTROL Reporting Group]**」をクリックして、レポートグループにエクスペリエンスを含めます。
 
-1. （条件付き）バッチで、関連するエクスペリエンスのチェックボックスを選択したあと、ダイアログボックスの右上隅にある **[!UICONTROL Reporting Group]** フォルダーアイコンをクリックして、レポートグループにエクスペリエンスを含めます。
-
-   ![ レポートグループアイコン ](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. 選択したオファーを既存のレポートグループに割り当てるには、「**[!UICONTROL Existing]**」を選択し、ドロップダウンリストから目的のレポートグループを選択して、「**[!UICONTROL Apply]**」をクリックします。
+1. 選択したオファーを既存のレポートグループに割り当てるには、「**[!UICONTROL Existing]**」を選択し、ドロップダウンリストから目的のレポートグループを選択して、「**[!UICONTROL Confirm]**」をクリックします。
 
    または
 
-   選択したオファーを割り当てるレポートグループを作成するには、「**[!UICONTROL New]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL Apply]**」をクリックします。
-
-   ![ 新しいレポートグループを作成するための新しいアイコン ](/help/main/c-reports/assets/ap_reporting_groups.png)
+   選択したオファーを割り当てるレポートグループを作成するには、「**[!UICONTROL New]**」を選択し、新しいレポートグループに名前を付けて、「**[!UICONTROL Confirm]**」をクリックします。
 
 [!UICONTROL Location] リストを使用して、場所でオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用すると、レポートグループでオファーをフィルタリングできます。 [!UICONTROL Report Group] リストを使用して [!UICONTROL Unassigned Offers] をフィルタリングし、現在どのレポートグループにも割り当てられていないオファーにレポートグループを割り当てることもできます。
 
@@ -81,5 +72,3 @@ ht-degree: 16%
    ![ オファーグループ：コントロールとターゲット ](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 [!UICONTROL Automated Personalization] レポート （[!UICONTROL Offer Level] レポートを含む）の使用方法については、[Automated Personalizationの概要レポート ](/help/main/c-reports/personalization-reports/reports-ap.md) を参照してください。
-
-

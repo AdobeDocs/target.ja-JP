@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] [!UICONTROL Multivariate Test] アクティ�
 title: '[!UICONTROL Multivariate Test] （MVT）アクティビティで目標指標を設定するにはどうすればよいですか？'
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 63%
@@ -20,7 +20,7 @@ ht-degree: 63%
 1. アクティビティの目標を指定します。
 1. [成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を選択します。
 
-   ![指標リストを設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![指標リストを設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    [!UICONTROL Select Metrics] のページには、アクティビティに対して選択できる成功指標が一覧表示されます。 成功指標は次のカテゴリに分類されます。
 
@@ -41,7 +41,7 @@ ht-degree: 63%
    詳しくは、[成功指標](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)を参照してください。
 
 1. （オプション）さらに指標を追加します。
-1. 指標の設定が完了したら、「**[!UICONTROL Continue]**」をクリックします。
+1. 指標の設定が完了したら、「**[!UICONTROL Save and Close]**」をクリックします。
 
 指標に名前を付けたり、指標の名前を変更したりする場合、次の文字は使用できません。
 

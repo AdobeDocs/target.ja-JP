@@ -4,10 +4,10 @@ description: 各Adobeと各オファーのパフォーマンスを示す要素  
 title: '[!UICONTROL Multivariate Test] のアクティビティで [!UICONTROL Location Contribution] レポートを使用する方法'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ ht-degree: 39%
 
 最初のテーブルには、各要素の相対的な影響度が表示されます。次の表に、オファーを追加した結果、最もコンバージョンが多かった要素を示します。
 
-![Adobe Targetの場所の貢献度レポート ](/help/main/c-reports/assets/locationcontributiontop.png)
-
 2 つ目のテーブルには、オファーレベルのレポートが表示されます。このテーブルには、各要素の各オファーのコンバージョン率、上昇率および信頼性が表示されます。次の表は、最も成功したオファーを判断するのに役立ちます。 2 番目の列には、オファーで選択した指標（コンバージョン率、RPV、AOV、購入回数またはエンゲージメント指標）および基準となる指標が表示されます。
 
-![Adobe Targetの場所の貢献度レポート ](/help/main/c-reports/assets/locationcontributionbottom.png)
+## トレーニングビデオ: MVTテストの作成
 
-## トレーニングビデオ：MVT テストの作成 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
-
-このビデオでは、Target で 3 ステップのガイドによるワークフローを使用して多変量分析テストを作成する方法を説明します。場所の貢献度レポートについては、8:45 から説明しています。
+このビデオでは、[!DNL Target] の 3 ステップのガイド付きワークフローを使用して多変量分析テストを作成する方法を説明します。 場所の貢献度レポートについては、8:45 から説明しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

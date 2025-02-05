@@ -4,10 +4,10 @@ description: テストで使用され、[!UICONTROL Experience Targeting] アク
 title: '[!UICONTROL Experience Targeting] （XT）アクティビティの [!UICONTROL Activity URL] とは何ですか。'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 39%
 
 1. （条件付き） VEC が開いた後に別のページを表示するには、「**[!UICONTROL Configure]**」をクリックして「**[!UICONTROL Page Delivery]**」を選択し、「[!UICONTROL URL]」フィールドで URL を指定します。
 
-   ![ページ配信ダイアログボックス](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >1 つ以上のエクスペリエンスに対してページに変更を加えた後、URL を変更すると、エクスペリエンスは新しいページを使用してリセットされ、おこなった変更が失われます。
 
-1. （条件付き） **[!UICONTROL Add Template Rule]** をクリックして、アクティビティにさらにページまたはセクションを追加します。
+1. （条件付き） **[!UICONTROL Add Rule]** をクリックして、アクティビティにさらにページまたはセクションを追加します。
 
    追加のルールは、以下のいずれかに基づいています。
 

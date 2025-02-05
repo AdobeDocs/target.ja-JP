@@ -5,16 +5,16 @@ title: ' [!DNL Target] Recommendationsでの条件の使用方法？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 17%
+source-wordcount: '496'
+ht-degree: 8%
 
 ---
 
-# 条件
+# [!UICONTROL Criteria]
 
-[!DNL Adobe Target] [!DNL Recommendations] の条件は、事前に定義された訪問者の行動に基づいて、どの製品やコンテンツをレコメンデーションするかを決定するルールです。 条件は、人気のあるトレンド、訪問者の現在および過去の行動、類似の製品およびコンテンツに基づくことができます。 複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
+[!DNL Adobe Target] [!DNL Recommendations] の [!UICONTROL Criteria] は、事前に定義された訪問者の行動に基づいて、どの製品やコンテンツをレコメンデーションするかを決定するルールです。 条件は、人気のあるトレンド、訪問者の現在および過去の行動、類似の製品およびコンテンツに基づくことができます。 複数の条件を追加することで、複数のレコメンデーションタイプを相互にテストすることができます。
 
 次の節では、条件キーと、各キーに使用できるレコメンデーションロジックの詳細について説明します。 詳しくは、リンクをクリックしてください。
 
@@ -24,26 +24,24 @@ ht-degree: 17%
 
 | 業種 | 目標 |
 |--- |--- |
-| 小売／e コマース | 購入をもたらすコンバージョン |
-| リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
-| メディア／投稿 | エンゲージメント |
+| [!UICONTROL Retail/Ecommerce] | 購入をもたらすコンバージョン |
+| [!UICONTROL Lead Generation/B2B/Financial Services] | 購入を伴わないコンバージョン |
+| [!UICONTROL Media/Publishing] | エンゲージメント |
 
-その他の条件オプションは、選択した業種に応じて変わります。 **[!UICONTROL Recommendations > Settings]** のページで既定の業種を設定することも、各条件に対して業種を指定することもできます。
+その他の条件オプションは、選択した業種に応じて変わります。 デフォルトの業種は、**[!UICONTROL Administration]>[!UICONTROL Recommendations]** ページで設定することも、各条件に対して業種を指定することもできます。
 
 ## アルゴリズムのタイプ {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-選択するアルゴリズムタイプによって、使用可能なアルゴリズムが決まります。 いくつかのアルゴリズムタイプがあり、[!DNL Recommendations] アクティビティを設定すると、条件カードとして表されます。
-
-![ 条件ページ ](assets/criteria-page.png)
+選択するアルゴリズムタイプによって、使用可能なアルゴリズムが決まります。
 
 次の表に、様々なアルゴリズムタイプとそれに付随するアルゴリズムを説明します。
 
 | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>これらを閲覧した人は、これらを閲覧しました</li><li>これらを閲覧した人が購入しました</li><li>これらを購入した人が、それらを購入しました</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース *の ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) 買い物かごベース* を参照してください。 |
-| [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>サイト全体で最も多く閲覧された</li><li>カテゴリ別で最も多く閲覧された</li><li>品目属性別で最も多く閲覧された</li><li>サイト全体のトップセラー</li><li>カテゴリ別トップセラー</li><li>品目属性別の上位セラー</li><li>Analytics 指標で上位に表示</li></ul> |
-| [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ項目</li></ul> |
-| [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>最近表示された項目</li><li>あなたにお勧め</li></ul> |
+| [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース *の ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) 買い物かごベース* を参照してください。 |
+| [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
+| [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
+| [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
 | [!UICONTROL Custom Criteria] | アップロードしたカスタムファイルに基づいてお勧めを紹介します。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
 各アルゴリズムについて詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
@@ -70,22 +68,14 @@ ht-degree: 17%
 
 1. **[!UICONTROL Recommendation Key]** リストからカスタムプロファイル属性（例：[!UICONTROL Last Show Added to Watchlist]）を選択します。
 
-   ![ 新しい条件を作成ダイアログボックス ](assets/custom-key1.png)
-
 ## 条件情報の表示 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-ポップアップカードにマウスポインターを置いてから、条件カードの情報アイコンをクリックすると、条件を開くことなくポップアップカードの条件の詳細を表示できます。
+[!UICONTROL Name] 列で目的の条件をクリックすると、条件の詳細を表示できます。
 
-![条件カードにマウスポインターを置く](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
+「**[!UICONTROL Attributes]**」セクションと「詳細」セクションでは、[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]、最終変更日（アルゴリズムを変更した日付とユーザー）など、選択した基準に関する一般的な情報を表示できます。
 
-「**[!UICONTROL Algorithm Info]**」タブをクリックすると、名前、説明、業種、ページタイプ、レコメンデーションキー、レコメンデーションロジック、アルゴリズム ID など、選択した基準に関する一般的な情報が表示されます。
-
-![「アルゴリズム情報」タブ](/help/main/c-recommendations/c-algorithms/assets/criteria_info.png)
-
-「**[!UICONTROL Algorithm Usage]**」タブをクリックして、選択した条件を参照するアクティビティのリストを表示します。 カードには、アクティブ、非アクティブ、ドラフトの各アクティビティが一覧表示されます。 「ライブアクティビティ/非アクティブなアクティビティ/ドラフトアクティビティ」ドロップダウンリストをクリックして、その条件を参照するアクティビティのリスト全体を表示します。 アクティビティリンクをクリックすると、編集するアクティビティを開くことができます。
-
-![ アルゴリズム使用状況タブ ](/help/main/c-recommendations/c-algorithms/assets/criteria_usage.png)
+「**[!UICONTROL Usage]**」セクションでは、選択した条件を参照するアクティビティのリストを表示できます。
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 機能は、現在、Recommendations アクティビティでのみサポートされています。 この機能は現在、[ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md) を含む A/B テスト、自動配分、自動ターゲット、エクスペリエンスのターゲット設定（XT）アクティビティではサポートされていません。
+>[!UICONTROL Algorithm Usage] 機能は現在、[!DNL Recommendations] アクティビティでのみサポートされています。 この機能は、現在、（オファーとしてのレコメンデーション [ を含む [!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティではサポートされてい ](/help/main/c-recommendations/recommendations-as-an-offer.md) せん。

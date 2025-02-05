@@ -4,9 +4,9 @@ description: Adobe Targetを使用して、レポートで表示する複数の�
 title: レポートで複数の指標を表示するにはどうすればよいですか？
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 12%
 1. レポートを表示するには、「**[!UICONTROL Activities]**」をクリックし、リストから目的のアクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックします。
 1. 「**[!UICONTROL Report Metric]**」ドロップダウンリストをクリックして、「[!UICONTROL Shown Metrics]」リストと「[!UICONTROL Hidden Metrics]」リストを表示します。
 
-   ![multiple_metrics image](assets/multiple_metrics.png)
-
    [!UICONTROL Search] ボックスを使用すると、[!UICONTROL Shown Metrics] リストに追加できる指標をすばやく見つけることができます。
 
    レポートの [!UICONTROL Table View] モードと [!UICONTROL Graph View] モードの両方から複数の指標を選択できます。
@@ -46,10 +44,6 @@ ht-degree: 12%
 1. 終了したら「**[!UICONTROL Save]**」をクリックします。
 1. （条件付き） [!UICONTROL Table View] でレポートを表示している間、任意の指標の列見出しにマウスポインターを置くと、青い矢印が表示されます。 矢印をクリックしてテーブルを展開し、その指標の [!UICONTROL Lift] と [!UICONTROL Confidence] を表示します。
 
-   ![multiple_metrics_table 画像 ](assets/multiple_metrics_table.png)
-
    指標と列は、一度に 1 つのみ展開できます。再度矢印をクリックすると、列が折りたたまれます。
 
-1. （条件付き）レポートをグラフ表示で表示している間、ドロップダウンリストから表示する個々の指標を選択できます。
-
-   ![multiple_metrics_graph image](assets/multiple_metrics_graph.png)
+1. （条件付き） [!UICONTROL Graph View] でレポートを表示している際に、ドロップダウンリストから表示する個々の指標を選択できます。

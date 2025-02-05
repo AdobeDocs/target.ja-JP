@@ -1,20 +1,20 @@
 ---
 keywords: インクルージョンルール；インクルージョン条件；レコメンデーション；プロモーション；動的；動的フィルタリング；動的；エンティティ属性のマッチング
-description: ユーザーがやり取りした特定のアイテムに対して、可能性のあるアイテムのプールを比較することで、Adobe [!DNL Target] Recommendationsを動的にフィルタリングする方法を説明します。
+description: 潜在的な項目のプールを  [!DNL Target Recommendations]  ユーザーがやり取りした特定の項目と比較することで、で動的にフィルタリングする方法を説明します。
 title: Recommendations アクティビティでエンティティ属性のマッチングでフィルタリングするにはどうすればよいですか？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
 
 # エンティティ属性のマッチング
 
-ユーザーがやり取りした特定の項目に、可能性のあるレコメンデーション項目のプールを比較することで、[!DNL Adobe Target] [!DNL Recommendations] で動的にフィルタリングします。
+ユーザーがやり取りした特定の項目に、可能性のあるレコメンデーション項目のプールを比較することで、[!DNL Adobe Target Recommendations] で動的にフィルタリングします。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ブランドランディングページの mbox が `entity.brand=brandA` を返した場合、ブランド A 製品のみが返され、そのページに表示されます。 同様に、ブランド B のブランドランディングページでは、ブランド B の製品のみが返されます。 このタイプの動的インクルージョンルールでは、ユーザーは、各ブランド名に一致するコレクションや静的フィルターを指定するのではなく、すべてのブランドページにわたって関連するブランド結果を返す 1 つのレコメンデーションルールのみを指定する必要があります。
 
-これを機能させるには、ランディングページの mbox で `entity.brand` を配信する必要があります。
+このプロセスを機能させるには、ランディングページの mbox で `entity.brand` を配信する必要があります。
 
 ## エンティティ属性のマッチングの例
 
@@ -58,7 +58,7 @@ Brand A 製品を使用するページにアクセスすると、ページは `e
 
 例えば、あなたがアパレル小売業者で、ユーザーに対して価格を高く、したがって、より収益性の高い商品を検討するよう促すとします。 「次に等しい」演算子と「次の範囲内に等しい」演算子を使用して、同じカテゴリおよび同じブランドの高価な商品を宣伝できます。 例えば、靴小売業者は、次のサンプルに示すように、ランニングシューズを見ている訪問者をアップセルする取り組みの中で、より高価なランニングシューズを宣伝することができます。
 
-![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![ アップセル ](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,8 @@ value - is between - 100% and 1000% of - current item's - value
 
 動的フィルターと静的フィルターを混在させて、プライベートラベルの製品を宣伝できます。 例えば、会社のホームブランドのトナーカートリッジを宣伝して、トナーを見ている訪問者にとってより収益性の高い販売を促進することができます。また、次のサンプルのように、会社のホームブランドのペンを宣伝して、ペンを見ている訪問者にとってより収益性の高い販売を促進することができます。
 
-![ ハウスブランド ](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![ ハウスブランド ](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+）
 
 ```
 Entity Attribute Matching

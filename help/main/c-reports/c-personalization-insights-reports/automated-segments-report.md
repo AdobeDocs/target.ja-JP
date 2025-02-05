@@ -5,10 +5,10 @@ title: 自動セグメントレポートとは
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 60%
+source-wordcount: '2066'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->Personalization Insights レポートを使用する場合は、次の点を考慮してください。
+>[!UICONTROL Personalization Insights] レポートを使用する場合は、次の点を考慮してください。
 >
 >* AP および AT アクティビティは、[!DNL Target Premium] ソリューションの一部です。これらは、[!DNL Target Premium] ライセンスのない [!DNL Target Standard] には付属していません。
 >
@@ -36,13 +36,11 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. 「**[!UICONTROL Activities]**」をクリックし、目的の [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) または [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティをリストからクリックします。
 
-   アクティビティが多数ある場合は、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Property]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type] および [!UICONTROL Activity Source] の各ドロップダウンリストからオプションを選択してリストをフィルタリングできます。
+   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する ](/help/main/c-reports/personalization-reports/reports-ap.md)0}Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 [2 つの追加アイコンは、自動セグメントと重要な属性の 2 つのパーソナライゼーションインサイトレポートを表しています。自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
-
-   ![Adobe TargetのPersonalization インサイトレポート ](/help/main/c-reports/assets/personalization_insights.png)
+   アクティビティのパフォーマンスに関する情報を提供する ](/help/main/c-reports/personalization-reports/reports-ap.md)0}Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 [2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
 
    >[!IMPORTANT]
    >
@@ -50,23 +48,15 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. アクティビティをアクティベートしてから 15 日後に、**[!UICONTROL Automated Segments]** のアイコンをクリックできます。
 
-   ![ 自動セグメントアイコン ](/help/main/c-reports/assets/icon-automated-sements.png)
-
 1. 目的の日付範囲を選択します。
 
    [!UICONTROL Summary] レポート（パフォーマンスレポート）とは異なり、[!UICONTROL Automated Segments] を含む [!UICONTROL Personalization Insights] は、15 日、30 日および 60 日の固定日付範囲でのみ使用できます。 これらの固定日付範囲を使用 [!UICONTROL Personalization Insights] ると、十分な範囲のデータを使用して、アクティビティの短時間のみ有効なパターンからインサイトを導き出す可能性を低くすることができます。 日付範囲について決定できるのは、「終了日」と「期間」の 2 つです。「スタート」が灰色表示になっていることがわかります。 開始日は、選択した終了日と期間に基づいて自動的に変わります。
 
-   ![Adobe Target レポートのカレンダー ](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   使用可能な固定日付範囲には、「[!UICONTROL Choose Duration]」ドロップダウンリストからアクセスできます。
-
-   ![Adobe Targetの期間ドロップダウンリスト ](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   使用可能な固定日付範囲には、「[!UICONTROL Preset Date Range]」ドロップダウンリストからアクセスできます。
 
 1. [!UICONTROL Automated Segments] レポートデータを確認します。
 
-   ![自動セグメントレポート](/help/main/c-reports/assets/automated_segments_report.png)
-
-1. （オプション）[CSV 形式のレポートをダウンロード](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)して、Excel や他のツールで分析をおこないます。
+1. （任意）「**[!UICONTROL Download]**」（![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして [ レポートを CSV 形式でダウンロード ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) し、Excel やその他のツールで分析します。
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ title: Automated Personalization概要レポートの使用方法
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 13%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 13%
 
 1. 「**[!UICONTROL Activities]**」をクリックし、リストから目的の [!UICONTROL Automated Personalization] アクティビティをクリックして、「**[!UICONTROL Reports]**」タブをクリックします。
 
-   アクティビティが多数ある場合は、アクティビテ [!UICONTROL Type] ドロップダウンリストから「[!UICONTROL Automated Personalization]」を選択してリストをフィルタリングできます。
+   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
-1. （任意） **[!UICONTROL Download]** のアイコンをクリックして、使用可能なすべての成功指標に分類された概要ビューをダウンロードします（例：コントロールトラフィックとターゲットトラフィックの比較）。
+1. （任意） **[!UICONTROL Download]** （![ ダウンロードアイコン ](/help/main/assets/icons/Download.svg)）アイコンをクリックして、使用可能なすべての成功指標に分類された概要ビュー（例えば、コントロールトラフィックとターゲットトラフィックの比較）をダウンロードします。
 
 [!UICONTROL Automated Personalization] は次のレポートを提供します。
 
@@ -37,8 +37,6 @@ ht-degree: 13%
 
 [!UICONTROL Activity Level] レポートでは、[!UICONTROL Automated Personalization] アルゴリズムを使用しての集計パフォーマンスを、ランダムに提供されるコンテンツ（コントロール）と比較します。
 
-![アクティビティレベルレポート](/help/main/c-reports/assets/box_plot_ap.png)
-
 上昇率、信頼性、トレンド、期間などを含む、A/B テストの結果を解釈する標準ルールは、依然として適用されます。結果の解釈について詳しくは、[A/Bn テストでの統計計算 ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) を参照してください。
 
 ## オファーレベルレポート {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ ht-degree: 13%
 ランダムフォレストエクスペリエンスの [!UICONTROL Offer Level] レポートでは、アルゴリズムが適用された各オファーのパフォーマンスを、ランダムに提供される同じオファー（コントロール）と比較します。 したがって、このビューでは、オファーを相互に比較しないでください。
 
 エクスペリエンスアルゴリズム（ランダムフォレストまたはコントロール）をクリックして、[!UICONTROL Offer Level] レポートを表示します。
-
-![Adobe Targetのオファーレベルレポート ](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ ht-degree: 13%
 
 [!UICONTROL Automated Segments] アイコンをクリックします。 このレポートは、AP/AT アクティビティのオファー/エクスペリエンスに対する様々な訪問者の反応を示します。 このレポートは、Target のパーソナライゼーションモデルで定義された様々な自動セグメントがアクティビティのオファー／エクスペリエンスにどう反応しているかを示します。
 
-![ 自動セグメントアイコン ](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 詳しくは、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を参照してください。
 
 ## 重要な属性
 
 [!UICONTROL Important Attributes] アイコンをクリックします。 このレポートでは、モデルがどのようにパーソナライズを決定するかについて、様々なアクティビティで様々な属性がより多く（または少なく）重要である様子を示します。 このレポートは、モデルに影響を及ぼした上位の属性とそれら属性の相対的重要性を示します。
-
-![ 重要な属性アイコン ](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 詳しくは、[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を参照してください。
 

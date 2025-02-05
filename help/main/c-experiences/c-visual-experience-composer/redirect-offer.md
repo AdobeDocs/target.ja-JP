@@ -4,10 +4,10 @@ description: Adobeで訪問者を同じページにコンテンツを表示す�
 title: ページを別の URL にリダイレクトできますか？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '472'
+ht-degree: 66%
 
 ---
 
@@ -31,16 +31,13 @@ ht-degree: 68%
 リダイレクトオファーを作成する手順は次のとおりです。
 
 1. エクスペリエンスを作成します。
-1. マウスをエクスペリエンスの上に置き、「URL にリダイレクト」アイコン（![icon_redirect_url image](assets/icon_redirect_url.png)）をクリックします。
-
-   ![exp_actions 画像 ](assets/exp_actions.png)
-
-1. URL を入力します。
+1. [!UICONTROL Experiences] のフレームで、目的のエクスペリエンスの「**[!UICONTROL More Actions]**」アイコン ![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックします。
+1. **[!UICONTROL Redirect to URL]** をクリックします。
+1. URL にリダイレクト ダイアログボックスに、URL を入力します。
 1. 必要に応じて、現在のクエリパラメーターを含めるオプションを選択します。
 
    このオプションを選択すると、訪問者の URL の ? の後にある要素が、リダイレクト時にリダイレクト URL に追加されます。
 
-   このオプションはデフォルトで選択されています。
 1. （オプション）追加のルールを作成します。
 
    追加のルールは、以下のいずれかに基づいています。

@@ -4,30 +4,28 @@ description: Adobeアクティビティのデータを CVS 形式でダウンロ
 title: レポートデータを CSV ファイルでダウンロードするにはどうすればよいですか？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # CSV ファイル内のデータのダウンロード
 
-.csv 形式のデータをダウンロードして、Excel、Access またはその他のデータ分析プログラムにすばやくインポートできます。
+データを.csv 形式でダウンロードして、[!DNL Excel]、[!DNL Access] またはその他のデータ分析プログラムに素早く読み込むことができます。
 
 CSV ファイル内のデータをダウンロードするには：
 
 1. をクリック **[!UICONTROL Activities]** し、リストから目的のアクティビティをクリックします。
 
-   アクティビティが多数ある場合は、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type] および [!UICONTROL Activity Source] の各ドロップダウンリストからオプションを選択してリストをフィルタリングできます。
+   アクティビティが多数ある場合は、フィルター（![ フィルターアイコン ](/help/main/assets/icons/Filter.svg)）アイコンをクリックし、「[!UICONTROL Type]」、「[!UICONTROL Status]」、「[!UICONTROL Reporting Source]」、「[!UICONTROL Experience Composer]」、「[!UICONTROL Metrics Type]」、「[!UICONTROL Activity Source]」の各ドロップダウンリストからオプションを選択してリストをフィルタリングします。
 
 1. 「**[!UICONTROL Reports]**」タブをクリックします。
-1. **[!UICONTROL Download]** アイコンをクリックし、ダウンロードするレポートタイプを選択して、Excel や他のツールで分析します。
+1. **[!UICONTROL Download]** （ダウンロードアイコン ![ アイコンをクリックし ](/help/main/assets/icons/Download.svg) から、ダウンロードするレポートタイプを選択して、Excel や他のツールで分析します。
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![ ダウンロードオプション ](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

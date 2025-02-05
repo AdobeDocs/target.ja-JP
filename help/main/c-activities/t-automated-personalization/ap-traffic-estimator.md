@@ -1,13 +1,13 @@
 ---
 keywords: トラフィック見積もり；automated personalization;ap；トラフィックの見積もり
-description: ' [!DNL Adobe Target] [!UICONTROL Traffic Estimator] を使用して、[!UICONTROL Automated Personalization] アクティビティを成功させるために十分なトラフィックがあるかどうかを判断します。'
+description: '[!UICONTROL Traffic Estimator] を使用して、[!UICONTROL Automated Personalization] のアクティビティが成功するだけの十分なトラフィックがあるかどうかを評価します。'
 title: '[!UICONTROL Automated Personalization] アクティビティを成功させるにはどの程度のトラフィックが必要ですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 11%
 
 ## トラフィック見積もりを使用
 
-1. [!UICONTROL Automated Personalization] アクティビティ内の [!UICONTROL Visual Experience Composer] の [!UICONTROL Experiences] ページで、**[!UICONTROL Traffic]** アイコンをクリックします。
+1. [!UICONTROL Automated Personalization] アクティビティの [!UICONTROL Visual Experience Composer] の [!UICONTROL Experiences] ページで、[!UICONTROL Experiences] ページの左上隅にある **[!UICONTROL Traffic]** アイコン ![ トラフィック見積もりアイコン ](/help/main/assets/icons/Gauge2.svg)）をクリックします。
 
-   ![トラフィックアイコン](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   [!UICONTROL Traffic Estimator] が開きます。
 
-   [!UICONTROL Traffic Estimator] が開きます。 もう一度 **[!UICONTROL Traffic]** をクリックすると、[!UICONTROL Traffic Estimator] ージを非表示にすることができます。
+   ![ トラフィック見積もりユーザーインターフェイス ](assets/ap-est.png)
 
-   ![ トラフィック見積もりユーザーインターフェイス ](assets/ap_est.png)
+   アイコンをもう一度クリックすると、ア [!UICONTROL Traffic Estimator] ットを非表示にできます。
 
 1. 一般的なコンバージョン率（または、このアクティビティから予測されるコンバージョン率）、1 日あたりの推定アクティビティインプレッション数、およびテスト期間を指定します。
 
@@ -45,19 +45,19 @@ ht-degree: 11%
 
    [!UICONTROL Traffic Estimator] の上部付近で、入力した値が計算され、結果が表示されます。
 
-   ![ 値と結果を表示したトラフィックの見積もり ](assets/ap_est_no.png)
+   ![ 値と結果を表示したトラフィックの見積もり ](assets/ap-est-no.png)
 
    数値を変更すると、見積もりも変更されます。例えば、テストする組み合わせが多く、コンバージョン率とインプレッション数が低すぎる場合、テストを成功させるためには、テストを実行する必要がある期間を [!UICONTROL Traffic Estimator] に示します。 または、トラフィックが少ない場合は、オファーの組み合わせの数を減らして、目的の日数で [!UICONTROL Traffic Estimator] ストを実行できるようにすることも可能です。
 
    十分なトラフィックがない場合は、次の点を考慮してください。
 
-   * [!UICONTROL Automated Personalization] の代わりに [ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
+   * [!UICONTROL Automated Personalization] の代わりに [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティを使用して、1 つのエクスペリエンスのバリエーション内で、複数のオファーの変更を含むエクスペリエンスを作成することを検討してください。
    * [!UICONTROL Automated Personalization] アクティビティ内のオファーの組み合わせの数を減らします。
    * アクティビティの実行期間を長くします。
 
    [!UICONTROL Traffic Estimator] が十分なトラフィックがあることを示すまで数値を調整し、それに応じてテストを設計します。
 
-   ![ 十分なトラフィックメッセージを示すトラフィック見積もり ](assets/ap_est_yes.png)
+   ![ 十分なトラフィックメッセージを示すトラフィック見積もり ](assets/ap-est-yes.png)
 
    トラフィックが十分な場合、[!UICONTROL Traffic] のアイコンは緑色のチェックを示します。 トラフィックが不十分な場合は、赤の警告ラベルが表示されます。
 

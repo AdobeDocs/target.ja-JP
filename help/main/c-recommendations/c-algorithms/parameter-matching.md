@@ -5,14 +5,14 @@ title: Recommendations アクティビティでパラメーターの一致でフ
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '332'
 ht-degree: 13%
 
 ---
 
-# パラメーターのマッチング
+# [!UICONTROL Parameter Matching]
 
 リクエスト（API または mbox）の値に対して項目（エンティティ）を比較することで動的にフィルタリングします。
 
@@ -32,9 +32,9 @@ ht-degree: 13%
 
 ## パラメーターのマッチングの例
 
-次の例に示すように、ページのパラメーターまたは訪問者のパラメーターに一致するコンテンツ（デバイスのサイズや位置情報など）をレコメンデーションで [!UICONTROL Parameter Matching] ます。
+次の例に示 [!UICONTROL Parameter Matching] ように、ページパラメーターまたは訪問者のパラメーターに一致するコンテンツ（デバイスディメンションや位置情報など）をレコメンデーションできます。
 
-[!DNL Target] 呼び出 [!DNL Recommendations] で送信されたパラメーター値と一致させることができます。 この場合、[!DNL Target] は、[!DNL Target] 呼び出しで送信された画面の高さと幅のパラメーターに基づいて、訪問者がモバイルデバイスを使用していることを検出し、モバイルデバイスである項目のみをレコメンデーションします。
+[!DNL Target] 呼び出 [!DNL Recommendations] で送信されたパラメーター値と一致させることができます。 この場合、[!DNL Target] は、[!DNL Target] 呼び出しで送信された画面の高さと幅のパラメーターに基づいて、訪問者がモバイルデバイスを使用していることを検出し、モバイルデバイスの項目のみを推奨します。
 
 次の Target 呼び出し例について考えてみます。
 

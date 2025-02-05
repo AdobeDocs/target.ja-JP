@@ -4,10 +4,10 @@ description: Adobeで [!UICONTROL Visual Experience Composer] （VEC）を使用
 title: '[!UICONTROL Multivariate Test] （MVT）での組み合わせの作成方法'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '470'
+ht-degree: 54%
 
 ---
 
@@ -27,33 +27,25 @@ VEC を使用したオファーの作成および編集について詳しくは�
 
 1 つの場所で複数の画像オファーをテストし、どの画像が最も成功しているかを判断します。
 
-1. ページ上の画像をクリックし、「**[!UICONTROL Change Image]**」を選択します。
+1. ページ上の画像をクリックし、「**[!UICONTROL Change Image Offer]**」を選択します。
 
-   ![「画像を変更」オプション](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. テストに含める画像をすべて選択し、「**[!UICONTROL Save]**」をクリックします。
-
-   ![画像を追加するのに使用されるコンテンツを選択ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. [!UICONTROL Image Offer] ダイアログボックスで、テストに含めるすべての画像を選択し、「**[!UICONTROL Add]**」をクリックします。
 
 各画像は、その場所での別々のエクスペリエンスになります。
 
 ## HTML オファー {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-複数のテキスト／HTML オファーを場所内でテストし、どのオファーが最も大きな成功を収めているか判断します。
+複数の HTML オファーを特定の場所でテストして、どのオファーが最も効果が高いかを判断します。
 
-1. ページでテキスト/HTMLオファーをクリックし、「**[!UICONTROL Change Text/HTML]**」をクリックします。
+1. ページでHTMLオファーをクリックし、「**[!UICONTROL Change HTML Offer]**」をクリックします。
 
-   ![テキスト／HTML を変更](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. 「**[!UICONTROL Create Offer]**」をクリックし、「**[!UICONTROL HTML Offer]**」をクリックしてオファーに名前を付け、HTMLオファーのコードを入力または貼り付けて、「**[!UICONTROL Create]**」をクリックします。
 
-1. 「**[!UICONTROL Add Text/HTML Offer]**」をクリックして、オファーに名前を付け、テキスト/HTMLオファーのコードを入力または貼り付けます。
-
-   ![オファーを編集](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
-   追加のテキスト／HTMLオファーを追加します。
+   追加で組み込む HTML オファーに対して同じ手順を繰り返します。
 
 1. **[!UICONTROL Save]** をクリックします。
 
-各テキスト／HTML オファーは、その場所の個別のエクスペリエンスになります。
+各 HTML オファーは、その場所での別々のエクスペリエンスになります。
 
 ## ベストプラクティス {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -64,4 +56,3 @@ VEC を使用したオファーの作成および編集について詳しくは�
 * テストする要素を 3 つ以上選択します。3 つ未満の場合は、一連の A/B テストを実行します。
 * 各要素の代替値は、互いに大きく異なる必要があります。
 * 各要素に、同じ数の代替オプションを指定することをお勧めします（必須ではありません）。
-

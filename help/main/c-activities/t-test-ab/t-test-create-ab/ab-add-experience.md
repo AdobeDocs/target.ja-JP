@@ -1,13 +1,13 @@
 ---
 keywords: ターゲット設定;エクスペリエンス;エクスペリエンスの追加;エクスペリエンス追加
-description: ' [!DNL Adobe Target] で [!UICONTROL Visual Experience Composer] （VEC）を使用する方法を説明します。'
-title: A [!DNL Target] A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
+description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して、アクティビティにエクスペリエンスを追加します。'
+title: A/B アクティビティにエクスペリエンスを追加するにはどうすればよいですか？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: 6fa1b428e7955bae976649c42d3eb9b2ddc2c79f
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 43%
+source-wordcount: '387'
+ht-degree: 28%
 
 ---
 
@@ -17,13 +17,9 @@ ht-degree: 43%
 
 エクスペリエンスについて詳しくは、[エクスペリエンス](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)を参照してください。
 
-1. VEC の **[!UICONTROL Experiences]** ページで、「**[!UICONTROL Add Experience]**」をクリックします。
+1. VEC の **[!UICONTROL Experiences]** ページで、[!UICONTROL Experiences] ペインの上部にある [!UICONTROL Add] アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。
 
-   ![「エクスペリエンスを追加」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
-
-   >[!NOTE]
-   >
-   >オーディエンスに対してエクスペリエンスをターゲット設定する場合は、エクスペリエンスを追加する前にオーディエンスを選択する必要があります。オーディエンスを選択するように促すメッセージが表示されます。
+   VEC では、新しいアクティビティを作成した後、左側に「エクスペリエンス A」と「エクスペリエンス B」という 2 つのタブが表示されます。エクスペリエンス A はコントロールエクスペリエンスです。 複数のエクスペリエンスをテストに追加できます。
 
 1. 変更する要素を選択し、必要な変更を行います。
 
@@ -37,15 +33,13 @@ ht-degree: 43%
    >
    >メインページ以外のソースから画像を提供する場合（例えば、`akamai.net` 上でホストされている画像を `example.com` で提供する場合）、フロー図内のページのサムネールには画像が表示されません。
 
-1. エクスペリエンスのデザインが完了したら、「**[!UICONTROL Save]**」をクリックします。
+1. エクスペリエンスのデザインが完了したら、「**[!UICONTROL Next]**」をクリックします。
 
 ## エクスペリエンス名を変更
 
-1. [!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] （XT）アクティビティのエクスペリエンスで **[!UICONTROL Rename Experience]** アイコンをクリックして、エクスペリエンスに新しい名前を付けます。
+1. エクスペリエンスの横にある **[!UICONTROL Rename Experience]** アイコン ![ 名前を変更アイコン ](/help/main/assets/icons/Rename.svg)）をクリックして、エクスペリエンスに新しい名前を付けます。
 
-   ![エクスペリエンス名を変更](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
-
-2. 新しい名前を指定します。
+2. 新しい名前を指定し、「**[!UICONTROL Save]**」をクリックします。
 
    エクスペリエンスに名前を付けたり、名前を変更したりする場合、次の文字は使用できません。
 
@@ -62,46 +56,22 @@ ht-degree: 43%
 
 ## URL にリダイレクト
 
-1. [!UICONTROL A/B Test] または [!UICONTROL Experience Targeting] （XT）アクティビティ内のエクスペリエンスで **[!UICONTROL More]** アイコン（垂直省略記号）アイコンをクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Redirect to URL]**」をクリックします。
 
    詳しくは、[URL にリダイレクト](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)を参照してください。
-
-   **注意**：エクスペリエンスに名前を付けたり、名前を変更したりする場合、以下の文字は使用できません。
-
-   | 文字 | 説明 |
-   |--- |--- |
-   | / | フォワードスラッシュ |
-   | ? | 疑問符 |
-   | # | 番号記号 |
-   | : | コロン |
-   | = | イコール |
-   | + | プラス |
-   | - | マイナス |
-   | @ | アットマーク |
 
 1. エクスペリエンスのリダイレクト先の URL を指定します。
 
 1. （条件付き） **[!UICONTROL Include Current Query Parameters]** チェックボックスをオンにします。
 
+1. **[!UICONTROL Save]** をクリックします。
+
 ## エクスペリエンスの複製
 
-[!UICONTROL A/B Test] でエクスペリエンスをコピーすると、エクスペリエンスを最初から再作成しなくても、小規模な変更を加えることができます。
+[!UICONTROL A/B Test] でエクスペリエンスをコピーすると、エクスペリエンスを再作成せずに小規模な変更を加えることができます。
 
-1. **[!UICONTROL Experiences]** ページ（3 ステップのガイドによるワークフローの最初のステップ）で、縦並びの省略記号アイコン/**[!UICONTROL Duplicate]** をクリックします。
-
-   ![「エクスペリエンスを複製」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** アイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Duplicate]**」をクリックします。
 
 ## エクスペリエンスを削除する
 
-1. **[!UICONTROL Experiences]** ページ（3 ステップのガイドによるワークフローの最初のステップ）で、縦並びの省略記号アイコン/**[!UICONTROL Duplicate]** をクリックします。
-
-   ![「エクスペリエンスを削除」オプション](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
-
-## トレーニングビデオ：[!UICONTROL Visual Experience Composer] の使用
-
-次のビデオでは、[!UICONTROL Visual Experience Composer] のオプションの使用方法について説明しています。 (7:17)
-
-* ページのコンテンツの変更
-* ページのレイアウトの変更
-
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+1. **[!UICONTROL Experiences]** ウィンドウで、エクスペリエンスの横にある **[!UICONTROL More]** のアイコン ![ 詳細アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「**[!UICONTROL Delete]**」をクリックします。次に、「**[!UICONTROL Delete]**」をクリックしてアクションを確定します。

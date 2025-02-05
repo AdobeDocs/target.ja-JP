@@ -1,28 +1,28 @@
 ---
 keywords: recommendations フィード；フィード；SAINT;ftp;csv；分類；analytics 分類
-description: CSV ファイル  [!DNL Adobe Target] [!DNL Recommendations]Google Product Search フィード形式、および商品分類を使用して、にエンティティをインポートする方法について説  [!DNL Analytics]  します。
+description: CSV ファイル、フィード形式  [!DNL Adobe Target] [!DNL Recommendations] および製品分類を使用して、にエンティティをインポートする方法をフィ  [!DNL Google Product Search]  ドで説明  [!DNL Analytics]  ます。
 title: '[!UICONTROL Feeds] の使用方法  [!DNL Target Recommendations]'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 45%
+source-wordcount: '2417'
+ht-degree: 38%
 
 ---
 
 # フィード
 
-フィードを使用して、[!DNL Adobe Target] [!DNL Recommendations] にエンティティを読み込みます。 エンティティは、CSV ファイル、Google Product Search フィード形式および [!DNL Adobe Analytics] の商品分類を使用して送信できます。
+フィードを使用して、[!DNL Adobe Target] [!DNL Recommendations] にエンティティを読み込みます。 エンティティは、CSV ファイル、[!DNL Google Product Search] フィード形式および [!DNL Adobe Analytics] の製品分類を使用して送信できます。
 
 ## フィードの概要 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-フィードを使用すると、ページ上で利用できない情報や、ページから直接送信することが安全でない情報（余白や COGS など）を使用して mbox データを [ エンティティ ](/help/main/c-recommendations/c-products/products.md) 渡したり補強したりできます。
+フィードを使用すると、ページ上で利用できない情報や、ページから直接送信することが安全でない情報を使用して、[ エンティティ ](/help/main/c-recommendations/c-products/products.md) を渡したり、mbox データを補強したりできます。 例えば、マージン、売上原価（COGS）などがあります。
 
-フィードを使用すると、製品 ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な項目情報を [!DNL Recommendations] に渡すことができます。
+フィードを使用すると、製品 ID、カテゴリ、名前、メッセージ、その他の属性など、詳細な項目情報を [!DNL Recommendations] に渡すこともできます。
 
-[!DNL Target] Product Classifications ファイルまたはGoogle Product Search ファイルから、[!DNL Recommendations] サーバーに送信する列を選択できます。
+[!DNL Target] の製品分類ファイルまたは [!DNL Recommendations] サーバー [!DNL Google Product Search] 送信するファイルから、列を選択できます。
 
 各項目に関するこれらのデータは、次の目的で使用できます。
 
@@ -31,24 +31,24 @@ ht-degree: 45%
 * 異なるコレクションへの項目の並べ替え
 * 推奨事項への除外の適用
 
-項目の説明は、フィードまたは mbox を使用して [!DNL Target] に渡すことができます。 エンティティフィードと mbox の両方でデータが収集される場合、どちらか最新のほうが使用されます。通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
+項目の説明は、フィードまたは mbox を使用して [!DNL Target] に渡すことができます。 エンティティフィ [!DNL Target] ドと mbox の両方を使用してデータを収集した場合は、最新のデータが優先されます。 通常、mbox のほうが頻繁に閲覧されるので、mbox のデータが最新になります。まれにエンティティフィードのデータと mbox のデータが同時に収集されたものである場合、mbox のデータが使用されます。
 
 [!UICONTROL Feeds] リスト（**[!UICONTROL Recommendations]**/**[!UICONTROL Feeds]**）には、作成したフィードに関する情報が表示されます。
-
-![フィードページ](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
 [!UICONTROL Feeds] ページには、次の列が含まれます。
 
 * **名前**：作成中に指定されたフィードの名前。フィードの名前を編集するには、フィード自体を編集する必要があります。新しい名前でフィードを保存すると、フィードが更新されます。
-* **タイプ**：タイプには、[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[Google 製品フィード](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)および [Analytics 分類](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)が含まれます。
 * **ステータス**：フィードの現在の[ステータス](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **スケジュール**：フィードの更新スケジュール（[!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks] または [!UICONTROL Never]）を表示します。
+* **タイプ**：タイプには [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)、[Analytics 分類 ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A) が含まれます。
 * **項目**：フィード内の項目数を表示します。
-* **最終更新日**：フィードが最後に更新された日時とフィードを更新した人物の名前を表示します。[!UICONTROL Last Updated] フィードに「未定義」と表示される場合、フィードは [!DNL Recommendations Classic] から受信されるので、[!DNL Target Premium Recommendations] 内から変更することはできません。
+* **スケジュール**：フィードの更新スケジュール（[!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks] または [!UICONTROL Never]）を表示します。
+* **最終更新**：フィードが最後に更新された日時と、フィードを更新したユーザーの名前を表示します。
 
-情報アイコンをクリックして、最終アップロード日とフィードの URL を表示するカードを表示します。
+[!UICONTROL Customize Table] アイコン（![ テーブルアイコンをカスタマイズ ](/help/main/assets/icons/ColumnSetting.svg)）をクリックして、表示する列を選択または選択解除します。
 
-省略記号アイコンをクリックして、[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
+[!UICONTROL Information] アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、前回のアップロード日とフィードの URL を表示するカードを表示します。
+
+[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg)[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
 
 >[!IMPORTANT]
 >
@@ -59,13 +59,13 @@ ht-degree: 45%
 
 ## Sourceタイプ
 
-エンティティは、CSV ファイル、Google Product Search フィード形式および [!DNL Adobe Analytics] の商品分類を使用して送信できます。
+エンティティは、CSV ファイル、[!DNL Google Product Search] フィード形式および [!DNL Adobe Analytics] の製品分類を使用して送信できます。
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 [!DNL Adobe] 独自の CSV アップロード形式を使用して.csv ファイルを作成できます。 このファイルには、製品の予約済み属性とカスタム属性に関する表示情報が含まれています。個々の環境に合った属性をアップロードするためには、ヘッダー行の `CustomN` を、使用する属性名に変更します。以下の例では、`entity.Custom1` が `entity.availability` に変更されています。このファイルを [!DNL Recommendations] サーバーに一括アップロードできます。
 
-.csv 形式は、Google フィード形式よりも次の点で優れています。
+.csv 形式を使用すると、[!DNL Google] フィード形式よりも次の利点があります。
 
 * .csv 形式では、フィールドマッピングは必要ありません。
 * .csv 形式は、複数値の属性をサポートします（以下の例を参照）。
@@ -73,7 +73,7 @@ ht-degree: 45%
 
 ページに mbox がない場合や、サイトで利用できない項目を含む表示情報を追加する場合は、バルクアップロード方法を使用して表示情報を送信します。 例えば、サイトに公開されていない可能性のある在庫情報の送信などができます。
 
-.csv ファイル、Google製品フィード、または [!DNL Analytics] Product 分類フィードを使用してアップロードされたデータは、データベース内の既存のエンティティ属性値を上書きします。 Mbox リクエストで価格情報を送信し、ファイルで異なる価格値を送信した場合、mbox リクエストで送信された値は、ファイル内の値で上書きされます。この例外は、`categoryId` エンティティの属性で、この場合、カテゴリの値は上書きされる代わりに 250 文字制限まで追加されます。
+.csv ファイル、Google Product Feed または [!DNL Analytics] Product Classification Feed を使用してアップロードされたデータは、データベース内の既存のエンティティ属性値を上書きします。 Mbox リクエストで価格情報を送信し、ファイルで異なる価格値を送信した場合、mbox リクエストで送信された値は、ファイル内の値で上書きされます。この例外は、`categoryId` エンティティの属性で、この場合、カテゴリの値は上書きされる代わりに 250 文字制限まで追加されます。
 
 >[!IMPORTANT]
 >
@@ -93,7 +93,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->既存の値を空白の値で上書きできません。その場所に別の値を渡して、上書きします。 セール価格の場合、一般的な解決策は、実際の「NULL」または他のメッセージを渡すことです。 次に、テンプレートルールを記述して、その値の品目を除外します。
+>既存の値を空白の値で上書きできません。その場所に別の値を渡して、既存の値を上書きします。 セール価格の場合、一般的な解決策は、実際の「NULL」または他のメッセージを渡すことです。 次に、テンプレートルールを記述して、その値の品目を除外します。
 
 商品のエンティティが正常にアップロードされてから約 2 時間後に、この商品が管理者インターフェイスで使用できるようになります。
 
@@ -111,31 +111,31 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-フィードのタイプが Google による製品検索の場合は、Google の形式が使用されます。これは、[!DNL Adobe] 独自の CSV アップロード形式とは異なります。
+[!DNL Google Product Search] フィードタイプでは、[!DNL Google] 形式が使用されます。 これは、[!DNL Adobe] 独自の CSV アップロード形式とは異なります。
 
-Google 製品フィードを利用している場合は、それをインポートファイルとして使用できます。
-
->[!NOTE]
->
->Google データを使用する必要はありません。[!DNL Recommendations] では、Googleと同じフォーマットを使用します。 この方法を使用して、あらゆるデータをアップロードしたり、スケジューリング機能を使用したりできます。ただし、ファイルをセットアップする際に、Google によってあらかじめ定義された属性名を保持する必要があります。
-
-ほとんどの小売業者は商品をGoogleにアップロードするので、訪問者がGoogleの商品検索を使用すると、商品が表示されます。 [!DNL Recommendations] では、Google の仕様に厳密に従ったエンティティフィードを使用します。エンティティフィードは、.xml、.txt または.tsv 経由で [!DNL Recommendations] に送信でき、[Googleで定義された属性 ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US) を使用できます。 結果は [Google のショッピングページ](https://www.google.com/prdhp)で検索できます。
+既存の [!DNL Google Product Feed] がある場合は、それをインポートファイルとして使用できます。
 
 >[!NOTE]
 >
->Google フィードコンテンツをホストするサーバーで POST メソッドを有効にする必要があります。
+>[!DNL Google] データを使用する必要はありません。 [!DNL Recommendations] は [!DNL Google] と同じ形式を使用します。 この方法を使用して、あらゆるデータをアップロードしたり、スケジューリング機能を使用したりできます。ただし、ファイルを設定する際には、[!DNL Google] の定義済み属性名を保持する必要があります。
 
-URL または FTP 経由でGoogleに送信する.xml または.txt フィードを既に設定しているた [!DNL Recommendations]、エンティティフィードはその商品データを受け入れ、それを使用して Recommendations カタログを構築します。 フィードの場所を指定すると、recommendations サーバーでデータが取得されます。
+ほとんどの小売業者は商品を [!DNL Google] にアップロードするので、訪問者が [!DNL Google] の製品検索を使用すると、商品が表示されます。 [!DNL Recommendations] は、エンティティフィードの場合は正確に [!DNL Google] の仕様に従います。 エンティティフィードは、.xml、.txt または.tsv 経由で [!DNL Recommendations] に送信でき、[Googleで定義された属性 ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US) を使用できます。 結果は [[!DNL Google]  買い物ページ ](https://www.google.com/prdhp) で検索できます。
 
-エンティティフィードのアップロードにGoogle製品検索を使用する場合、レコメンデーションをページに表示したり、表示に基づいてアルゴリズム配信のために製品ビューを追跡したりするには、ページに製品ページ mbox が必要です。
+>[!NOTE]
+>
+>[!DNL Google] フィードコンテンツをホストしているサーバーでPOSTメソッドが許可されている必要があります。
 
-Google フィードは、カスタム属性での複数の値には対応していません。
+ユーザー [!DNL Recommendations]URL または FTP 経由で.xml または.txt フィードを [!DNL Google] に送信するように既に設定しているので、エンティティフィードはその製品データを受け入れ、それを使用して Recommendations カタログを構築します。 フィードの場所を指定すると、recommendations サーバーでデータが取得されます。
+
+エンティティフィードのアップロードに [!DNL Google Product Search] を使用する場合、そこにレコメンデーションを表示したり、表示に基づいてアルゴリズム配信のために製品ビューを追跡したりするには、ページに製品ページの mbox が必要です。
+
+[!DNL Google] フィードでは、カスタム属性に対して複数の値をサポートしていません。
 
 フィードは、保存して有効化した時点で実行されます。 フィードを保存した時点で実行され、その後 1 時間後に毎日が実行されます。
 
-Google Product Search フィードの .xml ファイルのコードのサンプルは次のとおりです。
+[!DNL Google Product Search] フィードの.xml ファイルのサンプルコードを以下に示します。
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -202,7 +202,7 @@ Google Product Search フィードの .xml ファイルのコードのサンプ�
 </feed> 
 ```
 
-Google Product Search フィードの .tsv ファイルのコードのサンプルは次のとおりです。
+[!DNL Google Product Search] フィードの.tsv ファイルのサンプルコードを次に示します。
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 製品の分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics] 製品の分類は、レコメンデーションに使用できる唯一の分類です。 この分類ファイルについて詳しくは、[Analytics コンポーネント ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ガイドの *分類について* を参照してください。 レコメンデーションに必要な情報の一部が現在の実装で利用できない場合があるので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
+[!DNL Adobe Analytics] 製品の分類は、レコメンデーションに使用できる唯一の分類です。 この分類ファイルについて詳しくは、[Analytics コンポーネント ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ガイドの *分類について* を参照してください。 レコメンデーションに必要な情報の一部が現在の実装で利用できない場合があるので、分類ファイルに追加する場合は、このユーザーガイドに従ってください。
 
 >[!IMPORTANT]
 >
@@ -227,9 +227,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 フィードを作成して、製品やサービスについての情報を [!DNL Recommendations] に挿入します。
 
-1. Target インターフェイス内で、**[!UICONTROL Recommendations]**/**[!UICONTROL Feeds]**/**[!UICONTROL Create Feed]** をクリックします。
-
-   ![フィードを作成ダイアログボックス](assets/CreateFeed.png)
+1. [!DNL Target] インターフェイス内から、**[!UICONTROL Recommendations]**/**[!UICONTROL Feeds]**/**[!UICONTROL Create Feed]** をクリックします。
 
 1. フィードにわかりやすい名前を指定します。
 1. **[!UICONTROL Source Type]** を選択します。
@@ -257,8 +255,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Next]** 矢印をクリックして [!UICONTROL Schedule] のオプションを表示します。
 
-   ![ステップの結果](assets/CreateFeedSchedule.png)
-
 1. 更新オプションを選択します。
 
    * [!UICONTROL Daily]
@@ -272,15 +268,13 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Next]** 矢印をクリックして [!UICONTROL Mapping] のオプションを表示し、データを [!DNL Target] 定義にマッピングする方法を指定します。
 
-   ![ステップの結果](assets/CreatFeedMapping.png)
-
 1. （オプション）フィードを環境（ホストグループ）に所属させたい場合、ホストグループを選択します。
 
    デフォルトでは、フィードはすべてのホストグループに所属しています。これで、このフィードの品目はどの環境でも利用できるようになります。詳しくは、[ホスト](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)を参照してください。
 
 1. **[!UICONTROL Save]** をクリックします。
 
-フィードを作成または編集すると、フィードは直ちに実行されます。 設定したパラメーターに従ってフィードが更新されます。 情報が使用可能になるまで、ある程度の時間がかかります。 まず、フィードの同期が実行され、処理をおこなってインデックスが構築された上で、発行されて使用可能になります。現在のステータスは、フィード リストの [ フィードのステータス ](/help/main/c-recommendations/c-products/feeds.md#status) に表示されます。 処理が終了する前に [!DNL Target] を閉じても構いません。処理は継続されます。
+フィードを作成または編集すると、フィードは直ちに実行されます。 設定したパラメーターに従ってフィードが更新されます。 情報が使用可能になるまで、ある程度の時間がかかります。 まず、フィードの同期が実行され、処理をおこなってインデックスが構築された上で、発行されて使用可能になります。現在のステータスは、フ [!UICONTROL Feeds] ームリストの [ フィードステータス ](/help/main/c-recommendations/c-products/feeds.md#status) に表示されます。 処理が終了する前に [!DNL Target] を閉じても構いません。処理は継続されます。
 
 インデックス構築中は、個々の値のインデックスが作成されるまでは、製品とフィードのヘッダーが表示されます。これにより、製品を検索および表示して、インデックス作成が完了する前にコレクション、除外、デザインおよびアクティビティを作成できるようになります。
 

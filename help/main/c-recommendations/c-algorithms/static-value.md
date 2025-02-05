@@ -5,16 +5,16 @@ title: Recommendations のアクティビティで静的値を使用してフィ
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 99%
+source-wordcount: '235'
+ht-degree: 76%
 
 ---
 
-# 静的フィルター
+# [!UICONTROL Static Filter]
 
-[!DNL Adobe Target] [!DNL Recommendations] のインクルージョンルールを使用して、1 つ以上の静的値を手動で入力し、フィルタリングします。
+[!DNL Adobe Target Recommendations] のインクルージョンルールを使用して、1 つ以上の静的値を手動で入力し、フィルタリングします。
 
 例えば、Motion Picture Association（MPA）のレーティングが「G」または「PG」のコンテンツのみをレコメンデーションできます。
 
@@ -26,6 +26,4 @@ ht-degree: 99%
 
 ## G または PG レーティングのコンテンツのレコメンデーション
 
-MPA レーティングが「G」または「PG」のコンテンツのみ（「R」および「NC17」のコンテンツを除く）をレコメンデーションするインクルージョンルールを静的値で作成するには、次に示すように、「movie-rating equals g-rated」（movie-rating が g-rated に等しい）および「movie-rating equals pg-rated」（movie-rating が pg-rated に等しい）フィルタールールを作成します。
-
-![映画のレーティングの例](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+MPA のレーティングが「G」または「PG」のみのコンテンツ（「R」および「NC17」のコンテンツを除外）をレコメンデーションするために、静的な値を含むインクルージョンルールを作成するには、「映画のレーティングが g レートのいずれかと等しい」および「映画のレーティングが pg レートのいずれかと等しい」というフィルタリングルールを作成します。

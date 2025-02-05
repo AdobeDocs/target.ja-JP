@@ -1,14 +1,14 @@
 ---
 keywords: 条件；アルゴリズム；業界の垂直方向；ページタイプ；レコメンデーションキー；レコメンデーションロジック；ロジック；データ範囲；ルックバックウィンドウ；行動データソース；部分的な設計；バックアップレコメンデーション；インクルージョンルール；属性の重み付け；現在のカテゴリ；カスタム属性；最後に購入された項目；最後に表示された項目；最も多く表示された項目；最も多く表示された項目；人気度；最後に購入された項目；最に表示されたされた；お気に入入り；最近表示
-description: Adobe Recommendations アクティビティのコンテンツを制御する条件を作成して、アクティビティに最も適したレコメンデーションを表示する方法について説明します。
-title: Recommendationsで条件を作成するにはどうすればよいですか？
+description: アクティビティのコンテンツを制御する条件を作成して  [!DNL Recommendations]  アクティビティに最も適したレコメンデーションを表示する方法を説明します。
+title: ' [!DNL Recommendations] で [!UICONTROL Criteria] を作成するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: b5fbf23e9c2dfd76565fd6287ae07df2b7df2e21
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 50%
+source-wordcount: '2554'
+ht-degree: 48%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 50%
 
 1. **[!UICONTROL Create Criteria]**／**[!UICONTROL Create Criteria]**&#x200B;をクリックします。
 
-   ![新しい条件の作成](assets/CreateNewCriteria_full-new.png)
-
 1. 以下の節で説明する情報を設定します。
 
 ## [!UICONTROL Basic Information] {#info}
@@ -41,8 +39,6 @@ ht-degree: 50%
 1. **[!UICONTROL Criteria Name]** を入力します。
 
    これは、条件の説明に使用される「内部」名です。例えば、条件を「利幅の高い商品」と呼びたいが、正式に表示されるタイトルにはそれを使いたくないという場合があります。公開されるタイトルを設定するには、次の手順を参照してください。
-
-   ![ 基本情報セクション ](assets/basic-information.png)
 
 1. この条件を使用するレコメンデーションに対してページに表示する、公開 **[!UICONTROL Display Title]** を入力します。
 
@@ -56,17 +52,17 @@ ht-degree: 50%
 
    | 業種 | 目標 |
    |--- |--- |
-   | 小売／e コマース | 購入をもたらすコンバージョン |
-   | リードジェネレーション／B2B／金融サービス | 購入を伴わないコンバージョン |
-   | メディア／投稿 | エンゲージメント |
+   | [!UICONTROL Retail/Ecommerce] | 購入をもたらすコンバージョン |
+   | [!UICONTROL Lead Generation/B2B/Financial Services] | 購入を伴わないコンバージョン |
+   | [!UICONTROL Media/Publishing] | エンゲージメント |
 
-   その他の条件オプションは、選択した業種によって異なります。
+   その他の条件オプションは、選択した業種に応じて変わります。
 
 1. **[!UICONTROL Page Type]** を選択します。
 
    複数のページタイプを選択できます。
 
-   業種とページタイプをともに使用して、保存した条件を分類し、他の [!DNL Recommendations] アクティビティで簡単に再利用できるようにします。
+   業界の垂直方向とページのタイプを組み合わせると、保存した条件を分類するのに役立ち、他の [!DNL Recommendations] アクティビティで条件を簡単に再利用できます。
 
 ## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
@@ -74,12 +70,12 @@ ht-degree: 50%
 
    ![ 推奨されるアルゴリズムの節 ](assets/recommended-algorithm.png)
 
-   | アルゴリズムタイプ | 使用するタイミング | 使用可能なアルゴリズム |
-   | --- | --- | --- |
-   | [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 | <ul><li>これらを閲覧した人は、これらを閲覧しました</li><li>これらを閲覧した人が購入しました</li><li>これらを購入した人が、それらを購入しました</li></ul> |
-   | [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 | <ul><li>サイト全体で最も多く閲覧された</li><li>カテゴリ別で最も多く閲覧された</li><li>品目属性別で最も多く閲覧された</li><li>サイト全体のトップセラー</li><li>カテゴリ別トップセラー</li><li>品目属性別の上位セラー</li><li>Analytics 指標で上位に表示</li></ul> |
-   | [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 | <ul><li>これを閲覧した人が他に閲覧したもの</li><li>これを閲覧した人が購入したもの</li><li>これを購入した人が他に購入したもの</li><li>類似の属性を持つ項目</li></ul> |
-   | [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>最近表示された項目</li><li>あなたにお勧め</li></ul> |
+   | アルゴリズムタイプ | 使用すべき/使用可能なアルゴリズム |
+   | --- | --- |
+   | [!UICONTROL Cart-Based] | ユーザーの買い物かごの中身に基づいてお勧めを紹介します。 <ul><li>[!UICONTROL People Who Viewed These, Also Viewed] </li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul> |
+   | [!UICONTROL Popularity-Based] | サイト全体でのアイテムの全体的な人気度に基づいて、またはユーザーのお気に入りのカテゴリや最も多く閲覧されたカテゴリ、ブランド、ジャンルなどのアイテムの人気度に基づいて、レコメンデーションを作成します。 <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
+   | [!UICONTROL Item-Based] | ユーザーが現在表示している項目または最近表示した項目に類似した項目を見つけることに基づいてお勧めを紹介します。 <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
+   | [!UICONTROL User-Based] | ユーザーの行動に基づいてお勧めを紹介します。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
    | [!UICONTROL Custom Criteria] | アップロードしたカスタムファイルに基づいてお勧めを紹介します。 | <ul><li>カスタムアルゴリズム</li></ul> |
 
    >[!NOTE]
@@ -92,51 +88,9 @@ ht-degree: 50%
 
 レコメンデーシ [!UICONTROL Recommendation Key] ンの選択について詳しくは、[ レコメンデーションキーに基づくレコメンデーションのベース ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) を参照してください。
 
-## [!UICONTROL Data Source] {#data-source}
-
-1. [!UICONTROL Adobe Target] または [!UICONTROL Analytics] から目的の **[!UICONTROL Behavioral Data Source]** を選択します。
-
-   >[!NOTE]
-   >
-   >「[!UICONTROL Behavioral Data Source]」セクションは、実装で [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用している場合にのみ表示されます。
-
-   ![ 行動データのSourceセクション ](assets/data-source.png)
-
-   [!UICONTROL Analytics] を選択した場合は、目的のレポートスイートを選択します。
-
-   条件で [!DNL Adobe Analytics] を行動データソースとして使用する場合、作成後、条件を使用できるまでの時間は、選択したレポートスイートとルックバックウィンドウが他の条件にも使用されたかどうかで異なります（下図を参照）。
-
-   * **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この時間枠は、[!DNL Analytics] のシステム負荷によって異なります。
-   * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
-   * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL Viewed Affinity] のレコメンデーションでは、ユーザーが製品を閲覧すると、製品ビューのトラッキングコールがにリアルタイムに近い [!DNL Analytics] で渡されます。 [!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
-
-   詳しくは、[Target RecommendationsでAdobe Analyticsを使用する ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
-
-1. **[!UICONTROL Lookback Window]** を設定して、表示するレコメンデーションを決定する際に使用できる、過去のユーザー行動データの時間範囲を決定します。 このオプションは、類似属性とカスタムアルゴリズムを持つ項目を除く、すべてのアルゴリズムで使用できます。
-
-   ![ ルックバックウィンドウのスライダー ](assets/data-range.png)
-
-   サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。[!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
-
-   データ量が多くない場合や、訪問者の行動が頻繁に変化しない場合は、範囲を長くすることもできます。ただし、多くのサイトでは、ウィンドウが短いほど、レコメンデーションの品質が高くなります。
-
-   有効なデータ範囲は、次のとおりです。
-
-   | ルックバックウィンドウオプション | 更新された頻度（ホバーしたときに表示） | サポートされるアルゴリズム |
-   | --- | --- | --- |
-   | 6 時間 | アルゴリズムは 3～6 時間ごとに実行されます | 選択した [!UICONTROL Behavioral Data Source] が [!DNL Adobe Target] の場合の [!UICONTROL Popularity-Based] アルゴリズム |
-   | 1 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | [!UICONTROL Popularity-Based] アルゴリズム |
-   | 2 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
-   | 1 週間 | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
-   | 2 週間 | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>すべての [!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
-   | 1 か月（30 日） | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
-   | 2 か月（61 日） | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
-
 ## [!UICONTROL Backup Content] {#content}
 
 [!UICONTROL Backup Content] のルールは、推奨項目数が [recommendations のデザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を満たさない場合の動作を決定します。 [!DNL Recommendations] の条件で返されるレコメンデーションは、デザインで要求されるレコメンデーションよりも少なくなる可能性があります。 例えば、デザインに 4 つのアイテムのスロットがあるものの、条件によって 2 つのアイテムしか推奨されない場合は、残りのスロットを空のままにするか、バックアップ レコメンデーションを使用して余分なスロットを埋めるか、レコメンデーションを表示しないように選択できます。
-
-![Content セクション ](assets/content.png)
 
 1. （オプション） **[!UICONTROL Partial Design Rendering]** トグルを「オン」の位置にスライドさせます。
 
@@ -171,21 +125,59 @@ ht-degree: 50%
 
    詳しくは、以下の [ インクルージョンルールの指定 ](#inclusion) を参照してください。
 
+## [!UICONTROL Data Source] {#data-source}
+
+1. [!UICONTROL Adobe Target] または [!UICONTROL Analytics] から目的の **[!UICONTROL Behavioral Data Source]** を選択します。
+
+   >[!NOTE]
+   >
+   >「[!UICONTROL Behavioral Data Source]」セクションは、実装で [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用している場合にのみ表示されます。
+
+   ![ 行動データのSourceセクション ](assets/data-source.png)
+
+   [!UICONTROL Analytics] を選択した場合は、目的のレポートスイートを選択します。
+
+   条件で [!DNL Adobe Analytics] を行動データソースとして使用する場合、作成後、条件を使用できるまでの時間は、選択したレポートスイートとルックバックウィンドウが他の条件にも使用されたかどうかで異なります（下図を参照）。
+
+   * **1 回限りのレポートスイート設定**：指定されたデータ範囲のルックバックウィンドウで最初にレポートスイートが使用されると、[!DNL Target Recommendations] は、選択されたレポートスイートの行動データを [!DNL Analytics] から完全にダウンロードするまで 2 ～ 7 日間かかる可能性があります。この時間枠は、[!DNL Analytics] のシステム負荷によって異なります。
+   * **新しい条件または既に使用可能なレポートスイートを使用して編集した条件**：新しい条件を作成したり既存の条件を編集したりする場合、選択されたレポートスイートが選択されたデータ範囲以下のデータ範囲で既に [!DNL Target Recommendations] で使用されていれば、データは即座に使用でき、1 回限りの設定は必要ありません。この場合、または選択されたレポートスイートまたはデータ範囲が変更されずにアルゴリズムの設定が編集されると、12 時間以内にアルゴリズムが実行または再実行されます。
+   * **進行中のアルゴリズム実行**：毎日の [!DNL Analytics] から [!DNL Target Recommendations] へのデータフロー。例えば、[!UICONTROL Viewed Affinity] のレコメンデーションでは、ユーザーが製品を閲覧すると、製品ビューのトラッキングコールがにリアルタイムに近い [!DNL Analytics] で渡されます。 [!DNL Analytics] データが翌日早くに [!DNL Target] にプッシュされ、[!DNL Target] が 12 時間以内にアルゴリズムを実行します。
+
+   詳しくは、[Target RecommendationsでAdobe Analyticsを使用する ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) を参照してください。
+
+1. **[!UICONTROL Lookback Window]** を設定して、表示するレコメンデーションを決定する際に使用できる、過去のユーザー行動データの時間範囲を決定します。 このオプションは、[!UICONTROL Items with Similar Attributes] と [!UICONTROL Custom Algorithms] を除くすべてのアルゴリズムで使用できます。
+
+   ![ ルックバックウィンドウのスライダー ](assets/data-range.png)
+
+   サイトのトラフィックが多く、行動が頻繁に変わる場合は、データの範囲を狭めます。[!DNL Recommendations] は、範囲を狭くするほどマーケットやビジネスの変化に反応しやすくなります。例えば、範囲を狭く設定した場合、訪問者が新学期やクリスマスなどの季節の製品の購入を始めると、[!DNL Recommendations] は訪問者の行動の変化を検知して季節に適した品目をレコメンデーションするようになります。
+
+   データ量が多くない場合や、訪問者の行動が頻繁に変化しない場合は、範囲を長くすることもできます。ただし、多くのサイトでは、ウィンドウが短いほど、レコメンデーションの品質が高くなります。
+
+   有効なデータ範囲は、次のとおりです。
+
+   | ルックバックウィンドウオプション | 更新された頻度（ホバーしたときに表示） | サポートされるアルゴリズム |
+   | --- | --- | --- |
+   | 6 時間 | アルゴリズムは 3～6 時間ごとに実行されます | 選択した [!UICONTROL Behavioral Data Source] が [!DNL Adobe Target] の場合の [!UICONTROL Popularity-Based] アルゴリズム |
+   | 1 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | [!UICONTROL Popularity-Based] アルゴリズム |
+   | 2 日 | アルゴリズムは 12 ～ 24 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
+   | 1 週間 | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
+   | 2 週間 | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>すべての [!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
+   | 1 か月（30 日） | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
+   | 2 か月（61 日） | アルゴリズムは 24 ～ 48 時間ごとに実行されます | <ul><li>[!UICONTROL Popularity-Based] アルゴリズム</li><li>[!UICONTROL Item-Based] アルゴリズム</li><li>[!UICONTROL User-Based] アルゴリズム</li><li>[!UICONTROL Cart-Based] アルゴリズム</li></ul> |
+
 ## コンテンツの類似性 {#similarity}
 
 [!UICONTROL Content Similarity] ルールを使用して、項目またはメディアの属性に基づいてお勧めを紹介します。
 
 >[!NOTE]
 >
->アルゴリズムタイプおよびアルゴリズムとして **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** を選択した場合は、コンテンツの類似性ルールを設定するオプションがあります。
+>[!UICONTROL Algorithm Type] および [!UICONTROL Algorithm] として **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** を選択した場合は、コンテンツの類似性ルールを設定するオプションがあります。
 
 コンテンツの類似性では、アイテム属性キーワードを比較し、複数の項目に共通するキーワードの数に基づいてレコメンデーションを作成します。コンテンツの類似性に基づくレコメンデーションでは、過去のデータがなくても質の高い結果が得られます。
 
-コンテンツの類似性によるレコメンデーションの生成は、新しい項目について特に有効です。新しい項目は過去の動作に基づく「*○○を表示した人*」などのロジックを使用したレコメンデーションでは通常は表示されません。また、コンテンツの類似性を使用すると、過去の購入などの履歴データがない新規訪問者に対する便利なレコメンデーションを生成することもできます。
+コンテンツの類似性を使用したレコメンデーションの生成は、新しいアイテムでは特に効果的です。新しいアイテムでは、過去の行動に基づいて *これを閲覧したユーザー、これも閲覧したユーザー* およびその他のロジックを使用したレコメンデーションに表示されない可能性が高くなります。 また、コンテンツの類似性を使用すると、過去の購入などの履歴データがない新規訪問者に対する便利なレコメンデーションを生成することもできます。
 
 **[!UICONTROL Item-Based]**/**[!UICONTROL Media with Similar Attributes]** を選択する場合は、レコメンデーションを決定する際の特定の項目属性の重要性を増減させるルールを作成することもできます。 本などの項目については、*ジャンル*、*著者*、*シリーズ*&#x200B;などの属性の重要度を高くして、類似する本を推奨することができます。
-
-![ContentSimilarity image](assets/ContentSimilarity.png)
 
 コンテンツの類似性ではキーワードを使用して項目を比較しているため、*メッセージ*&#x200B;や&#x200B;*説明*&#x200B;などの一部の属性により比較に「邪魔」が入ることがあります。このような属性については、ルールを作成して無視することができます。
 
@@ -198,8 +190,6 @@ ht-degree: 50%
 ## インクルージョンルール {#inclusion}
 
 いくつかのオプションを使用して、レコメンデーションに表示する品目を絞り込むことができます。条件やプロモーションの作成時にインクルージョンルールを使用できます。
-
-![ インクルージョンルール ](/help/main/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 インクルージョンルールはオプションです。ただし、これらの詳細を設定すると、レコメンデーションに表示される項目をさらに制御できるようになります。詳細を設定するたびに、表示基準をより詳細に絞り込むことができます。
 
@@ -224,8 +214,6 @@ ht-degree: 50%
 1. レコメンデーションする商品の価格帯を設定します。
 1. レコメンデーションする商品の最小在庫数を設定します。
 1. 特定の基準を満たす場合のみ品目を表示するよう、レコメンデーションを設定します。
-
-   ![Recs_InclusionRules 画像 ](assets/Recs_InclusionRules.png)
 
    一覧にある属性のいずれかが、1 つまたは複数の指定の条件を満たす、あるいは満たさない場合のみ、品目を含めるよう指定できます。
 
@@ -255,24 +243,12 @@ ht-degree: 50%
 
    例えば、完全なルールは、「カテゴリに部分文字列シューズが含まれる」のようになります。
 
-   ![Recs_AttributeWeighting 画像 ](assets/Recs_AttributeWeighting.png)
-
 1. ルールに割り当てる重みを選択します。
 
    オプションの範囲は 0 ～ 100（25 単位の増分）です。
 
 1. 必要に応じて、その他のルールを追加します。
 
-終了したら、「**[!UICONTROL Save]**」をクリックします。
+終了したら、「**[!UICONTROL Create]**」をクリックします。
 
 新しい [!UICONTROL Recommendations] アクティビティを作成する場合、または既存のアクティビティを編集する場合、「**[!UICONTROL Save criteria for later]**」チェックボックスはデフォルトで選択されています。 他のアクティビティで条件を使用したくない場合、保存する前にチェックボックスをオフにします。
-
-## トレーニングビデオ：Recommendationsで条件を作成（12:33） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
-
-このビデオには、次の情報が含まれています。
-
-* 条件の作成
-* 条件のシーケンスの作成
-* カスタム条件のアップロード
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

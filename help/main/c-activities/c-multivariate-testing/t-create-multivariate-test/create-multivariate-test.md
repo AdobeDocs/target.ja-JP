@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）を使用して [
 title: '[!UICONTROL Multivariate Test] の作成方法'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 56%
+source-wordcount: '724'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,15 @@ ht-degree: 56%
 
 1. **[!UICONTROL Create Activity]**／**[!UICONTROL Multivariate Test]**&#x200B;をクリックします。
 
-   ![多変量分析テストを作成](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
-
    >[!NOTE]
    >
    >[!DNL Target] で使用できる様々なアクティビティタイプおよびその違いについて詳しくは、[アクティビティ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)を参照してください。ニーズに最も適したアクティビティタイプを決定するのに役立つ情報については、[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md)を参照してください。
 
 1. （条件付き）配信タイプ（[!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]、[!UICONTROL Other/API]）を選択します。
 
-1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
+1. （条件付き） [Target Premium](/help/main/c-intro/intro.md#premium) のお客様は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) してください。
 
-1. テストするページの [URL を指定 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Next]**」をクリックします。
+1. テストするページの [URL を指定 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) し、「**[!UICONTROL Create]**」をクリックします。
 
    >[!NOTE]
    >
@@ -41,9 +39,8 @@ ht-degree: 56%
 
    [!UICONTROL Visual Experience Composer] が開きます。
 
-1. アクティビティ名を入力します。
-
-   ![アクティビティ名フィールド](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+1. 
+   1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
 
    アクティビティ名は、次の文字で始めることはできません：
 
@@ -71,8 +68,6 @@ ht-degree: 56%
 
 1. [それぞれの場所でオファーを作成します](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
-   ![テキスト / HTML を編集ダイアログボックス](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
    以下の種類のオファーを追加できます。
 
    * HTML
@@ -81,35 +76,45 @@ ht-degree: 56%
 
 1. 「**[!UICONTROL Preview]**」をクリックして [ エクスペリエンスをプレビュー ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) します。
 
-   ![エクスペリエンスをプレビュー](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+1. **[!UICONTROL Show Experiences]** アイコン（![ エクスペリエンスを表示アイコン ](/help/main/assets/icons/WebPages.svg)）をクリックして、左側のフレームにすべてのエクスペリエンスのリストを表示します。
 
-   各エクスペリエンスを表示し、テストに組み込まないエクスペリエンスを除外できます。1 つ以上のエクスペリエンスを除外するには、対象のチェックボックスを選択して、「**[!UICONTROL Exclude]** 除」をクリックします。
+1. リスト内の特定のエクスペリエンスをクリックすると、そのエクスペリエンスが表示されます。
 
-   ![エクスペリエンスを除外](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. （条件付き） 1 つ以上のエクスペリエンスをアクティビティから除外するには、エクスペリ **[!UICONTROL Manage Content]** ンス アイコン（![ エクスペリエンスを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックして、[!UICONTROL Manage Experiences] ダイアログボックスを表示します。
+
+1. （条件付き） [!UICONTROL Manage Experiences] ダイアログボックスで、除外するエクスペリエンスの横にある **[!UICONTROL More Actions]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックし、「**[!UICONTROL Exclude]**」をクリックします。
+
+   矛盾するバリエーションを表示するエクスペリエンスや、デザイン的にバランスのとれていないエクスペリエンスなどを除外します。
+
+1. （条件付き）複数のエクスペリエンスを除外するには、目的のエクスペリエンスのチェックボックスを選択して、「**[!UICONTROL Exclude]**」をクリックします。
 
 1. [トラフィック見積もりを使用](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)して、テスト計画の実行可能性をテストします。
 
-   ![トラフィックインジケーター](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   以下の図は、アクティビティに十分なトラフィックがないことを示しています。
-
-   ![ 推定画像 ](assets/estimator.png)
-
-   以下の図は、アクティビティに十分なトラフィックがないことを示しています。
-
-   ![estimator2 画像 ](assets/estimator2.png)
-
 1. 「**[!UICONTROL Next]**」をクリックして、[!UICONTROL Targeting] のページに進みます。
 
-1. アクティビティに参加する資格のある訪問者のオーディエンスおよび割合を選択します。
+   **ターゲティング** ステップは、他の [!DNL Target] アクティビティタイプを使用したことがある場合によく見られます。 ここでは、オーディエンスを選択し、各エクスペリエンスを表示する訪問者の割合を指定できます。
 
-   ![MVT アクティビティのターゲット設定ページ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   フロー図は、オーディエンスとそのトラフィックの割合を割り当て、トラフィックの割り当て方法を選択し、アクティビティ内の各エクスペリエンスのトラフィックの割り当てを指定する手順を示しています。
+
+1. （条件付き）アクティビティに別のオーディエンスを選択するには、**[!UICONTROL All Visitors]** のコントロールをクリックします。
+
+   [!UICONTROL All Visitors] オーディエンスがデフォルトとして設定されます。 別のオーディエンスを選択すると、その名前が一番左のコントロールに表示されます。
+
+   右側のフレームが表示されます。ここでは、オーディエンスを追加または削除したり、アクティビティの訪問者の割合を割り当てたりできます。
+
+   1. オーディエンスを変更するには **右側のフレームで**[!UICONTROL Replace] アイコン（![ 置換アイコン ](/help/main/assets/icons/Retweet.svg)）をクリックします。
+   1. [!UICONTROL Add Audience] のダイアログボックスで [ 目的のオーディエンスを選択 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) し、「**[!UICONTROL Assign Audience]**」をクリックします。
+
+      **オーディエンスを組み合わせる** をクリックして、[ 複数のオーディエンスを組み合わせたオーディエンスを作成 ](/help/main/c-target/combining-multiple-audiences.md) できます。
+
+      [!UICONTROL Audience Library] ージにない新しいオーディエンスを作成する必要がある場合は、「**オーディエンスを作成**」をクリックします。 [ オーディエンスを作成ワークフロー ](/help/main/c-target/c-audiences/audiences.md) 中に、次のいずれかのオプションを選択できます。
+
+      * **[!UICONTROL Audience Library]**:[!UICONTROL Audience Library] ーザーに保存され、他のアクティビティで再利用できるオンデマンドオーディエンスを作成します。
+      * **[!UICONTROL This activity only]**:[!UICONTROL Audience Library] ーザーに保存されず、現在のアクティビティでのみ使用できる [ アクティビティ固有のオーディエンス ](/help/main/c-target/creating-activity-only-audience.md) を作成します。
+
+   1. 右側のフレームで「**[!UICONTROL Visitor Percentage]**」をクリックし、アクティビティにエントリする選定訪問者の割合を選択します。
 
    例えば、すべての訪問者の 50％に参加を制限したり、カリフォルニア州のオーディエンスの 45％に参加を制限したりできます。
-
-   >[!NOTE]
-   >
-   >既存のオーディエンスの選択に加え、新規のオーディエンスを作成する代わりに、複数のオーディエンスを結合してアドホックな結合オーディエンスを作成することができます。詳しくは、[複数のオーディエンスの結合](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)を参照してください。
 
 1. [ テストの概要を確認し ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 必要な変更を加えて、「**[!UICONTROL Next]**」をクリックします。
 

@@ -1,32 +1,30 @@
 ---
 keywords: 行動データソース；analytics;recommendations；条件；製品変数
-description: ' [!DNL Adobe Analytics]  を行動データソースとして使用し、から表示ベースや購入ベースの行動データを使用する方法を説明します  [!DNL Analytics] in [!DNL Target Recommendations]。'
+description: ' [!DNL Target Recommendations] で  [!DNL Adobe Analytics]  を行動データソースとして使用する方法を説明します。'
 title: ' [!DNL Adobe Analytics]  [!DNL Target Recommendations]の使用方法'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 92%
 
 ---
 
 # [!DNL Adobe Analytics] での[!DNL Recommendations] の使用
 
-[!DNL Adobe Analytics] を行動データのソースとして使用すると、[!DNL Adobe Target] の [!DNL Recommendations] アクティビティにおいて [!DNL Analytics] のビューや購入ベースの行動データを使用できるようになります。この機能は、[!DNL Target Recommendations] の設定が新しく、使用する履歴データを[!DNL Analytics]が多く所有している場合に特に便利です。
+[!DNL Adobe Analytics] を行動データソースとして使用すると、クライアントは [!DNL Adobe Target Recommendations] アクティビティの [!DNL Analytics] ーザーからビューベースおよび購入ベースの行動データを使用できます。 この機能は、[!DNL Target Recommendations] 設定が新しく、使用する履歴データが多 [!DNL Analytics] 場合に特に便利です。
 
 [!DNL Analytics] を行動データソースとして使用すると、ユーザーの行動に関する豊富な情報のソースとして機能できます。 この情報には、[!DNL Analytics] とのみ共有されるサードパーティのソースやフィードからのデータが含まれる場合があります。
 
 [!DNL Recommendations] では [ 条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) を行う際に、使用するデータソースを [!UICONTROL mboxes] と [!UICONTROL Analytics] の 2 つのラジオボタンから選択できます。 条件を作成するには、[!UICONTROL Recommendations]/[!UICONTROL Criteria]/[!UICONTROL Create Criteria]/[!UICONTROL Create Criteria] をクリックします。 詳しくは、 [条件の作成 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)を参照してください。
 
-![ 行動データソースのボタン ](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >これら 2 つのボタンがアカウントに表示されない場合は、[ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。
 
-## Target における Analytics データのユースケース
+## [!DNL Target] でのデータの [!DNL Analytics] 用
 
 recommendations の行動データソースとして [!DNL Analytics] を使用すると、[!DNL Target] のすべてのエンティティパラメーターを使用してエンティティページにタグ付けしなくても、特定の使用例をデプロイできます。 それには特定の前提条件が必要ですが、その機能がシームレスに動作するためには、「製品変数」を使用できることが最も重要です。 通常の eVar および Prop では、このハンドシェイクが [!DNL Analytics] と [!DNL Target] の間で自動的に発生するだけでは不十分です。
 
@@ -63,13 +61,9 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
 
 1. [!DNL Target] で [**[!UICONTROL Recommendations]**] をクリックし、[**[!UICONTROL Feeds]**] タブをクリックします。
 
-   ![フィード](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. **[!UICONTROL Create Feed]** をクリックします。
 
 1. **[!UICONTROL Analytics Classifications]** を選択し、レポートスイートを指定します。
-
-   ![Analytics Classifications オプション ](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. 「**[!UICONTROL Next]**」をクリックして **[!UICONTROL Schedule]** の設定に進み、「フィードの頻度を選択」をクリックします。
 
@@ -81,8 +75,6 @@ product 変数の設定方法について詳しくは、『 [Adobe Analyticsの�
    フィードを処理する時刻を選択することもできます。
 
 1. 「**[!UICONTROL Next]**」をクリックして **[!UICONTROL Mapping]** 設定に進み、フィールド列ヘッダーを適切な [!UICONTROL Recommendations] フィールド名にマッピングします。
-
-   ![Mapping section](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. **[!UICONTROL Save]** をクリックします。
 
