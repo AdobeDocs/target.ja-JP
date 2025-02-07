@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
@@ -23,45 +23,17 @@ ht-degree: 33%
 
 1. [!UICONTROL Create Activity] ダイアログボックスで「**[!UICONTROL Form]**」を選択します。
 
-1. （条件付き） [Target Premium ユーザーの場合 ](/help/main/c-intro/intro.md#premium)、「**[!UICONTROL Choose Workspace]**」ドロップダウンリストから [ ワークスペース ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) を選択します。
+1. （条件付き）ワークスペースとプロパティを選択します。
 
-   「[[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)」オプションは [Target Premium](/help/main/c-intro/intro.md) 機能であり、組織が [!UICONTROL Target Standard] ライセンスを保有している場合は表示されない可能性があります。
-
-1. プロパティを選択します。
-
-1. **[!UICONTROL Create]** をクリックします。
+1. **[!UICONTROL Next]** をクリックします。
 
    [!UICONTROL Form-Based Experience Composer] が開きます。
 
+   ![location_refinements 画像 ](assets/location_refinements.png)
+
    この画面は、[!UICONTROL Recommendations] しいアクティビティを作成している場合は異なります。 [!UICONTROL Recommendations] アクティビティには、エクスペリエンスは含まれません。
 
-1. 
-   1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
-
-   アクティビティ名は、次の文字で始めることはできません：
-
-   | 文字 | 説明 |
-   |--- |--- |
-   | `=` | イコール |
-   | `+` | プラス |
-   | `-` | マイナス |
-   | `@` | アットマーク |
-
-   アクティビティ名には、次の文字シーケンスを含めることはできません：
-
-   | 文字シーケンス | 説明 |
-   |--- |--- |
-   | ;= | セミコロン、次と等しい |
-   | ;+ | セミコロン、プラス |
-   | ;- | セミコロン マイナス |
-   | ;@ | セミコロン、アットサイン |
-   | ,= | コンマ、次と等しい |
-   | ,+ | コンマ、プラス |
-   | ,- | コンマ，マイナス |
-   | ,@ | コンマ、アットサイン |
-   | `[`&quot; | 左角括弧、二重引用符 |
-   | &quot;`]` | 二重引用符、閉じ角括弧 |
-
+1. 「[!UICONTROL Untitled Activity]」をクリックして、アクティビティに名前を付けます。
 1. 場所を選択します。
 
    [!UICONTROL Select Location] ボックス内をクリックすると、使用可能な場所のリストが表示されます。 これらの場所のいずれかを選択します。
@@ -74,9 +46,13 @@ ht-degree: 33%
 
 1. 「**[!UICONTROL Add Audience Refinements]**」をクリックし、このアクティビティに 1 つ以上の [ オーディエンス ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) を選択して、「**[!UICONTROL Done]**」をクリックします。
 
+   ![location_refinements_2 画像 ](assets/location_refinements_2.png)
+
    [!UICONTROL Form-based Experience Composer] では、絞り込みは、完全なオーディエンス機能に置き換えられました。 既存のアクティビティの絞り込みが、[ アクティビティのみのオーディエンス ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) に移行されました。
 
 1. その場所に表示するコンテンツのタイプを選択します。
+
+   ![form_content image](assets/form_content.png)
 
 1. 選択したコンテンツタイプに対して、コンテンツを指定します。
 
@@ -120,7 +96,11 @@ ht-degree: 33%
 
    フォームベースの Experience Composer で Recommendations の条件を選択する際には、選択した条件カードへの直接リンクが追加されるようになったので、条件をすばやく容易に編集できます。
 
-   [!DNL Target] の 3 ステップのガイド付きワークフローの [!UICONTROL Targeting] ページから：
+   ![change_criteria 画像 ](assets/change_criteria.png)
+
+   Target の 3 つの手順から成るガイド付きワークフローのターゲット設定ページから：
+
+   ![change_criteria_2 画像 ](assets/change_criteria_2.png)
 
    **オファーの決定を追加：**
 

@@ -3,10 +3,8 @@ keywords: アクティビティ url;url；別の url
 description: テストページを定義し、正確なテスト設計を確実に行うための [!UICONTROL Activity URL] の設定方法を説明します。
 title: A/B アクティビティ内のアクティビティ URL は何ですか？
 feature: A/B Tests
-hide: true
-hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 32%
