@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 14%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 14%
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
-* アクティビティ結果に対するより優れたインサイトを得るためにレポートの設計を変更
+* [ レポートの再設計 ](/help/main/administrating-target/reporting.md) により、アクティビティ結果に対するより優れたインサイトが得られます。
 * [!UICONTROL Audit] ページを更新し、[!DNL Audit API] から情報を取得して、リアルタイムのインサイトを得るようになりました
-* へのカスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応
-* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面
-* セッション持続の検索とフィルターオプション
-* ブラウザープロバイダーによる最新のセキュリティ更新と最新のユーザーインターフェイスをサポートし、[!UICONTROL Visual Editing Composer] を完全に再構築
-* セキュリティの向上とファーストパーティ cookie のサポートの改善を目的として、Manifest V3 をサポートする [!DNL Chrome] 拡張機能を更新しました
+* [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) を使用して、様々なチームニーズに柔軟に対応
+* [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセス
+* [セッション持続の検索とフィルターオプション](/help/main/c-activities/activities.md)
+* ブラウザー [ プロバイダーによる最新のセキュリティ更新と最新のユーザーインターフェイスをサポートする、完全に再構築された [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+* [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました
 
 ![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ ht-degree: 14%
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
-* 製品カタログの検索に、製品をリアルタイムで同期できる更新されたデータベースが追加されました
-* API 経由で作成された [!UICONTROL Recommendation] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]）が UI で使用できるようになりました
-* 設定は、[!UICONTROL Administration] の節で統合しました
+* [ 製品カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md) にデータベースが更新され、製品をリアルタイムで同期できるようになりました
+* [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]） [API 経由で作成されたもの）が UI で使用できるようになりました ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendationsの設定 ](/help/main/administrating-target/recommendations-settings.md) は、[!UICONTROL Administration] の節で統合されました
 * カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応
-* 構文のハイライト表示と行番号を含むHTMLおよび JSON コードエディターを更新しました
+* HTMLおよび JSON コードエディターが更新され、[ 構文のハイライト表示と行番号 ](/help/main/c-experiences/c-manage-content/create-json-offer.md) が追加されました。
 * 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面
 * セッション持続の検索とフィルターオプション
 

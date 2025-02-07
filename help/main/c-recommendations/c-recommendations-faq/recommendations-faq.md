@@ -5,16 +5,20 @@ title: ' [!DNL Recommendations] に関する質問と回答'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 85%
+source-wordcount: '3506'
+ht-degree: 84%
 
 ---
 
 # Recommendations FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] アクティビティに関するよくある質問（FAQ）のリストです。
+
+## API を使用 [!DNL Recommendations] て作成したオブジェクトは [!DNL Target] UI に表示されますか。
+
+はい、API を使用して作成された [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]）が UI で使用できるようになりました。
 
 ## UI で作成され [!DNL Target] ビジュアルオファーを [!DNL Target] API を使用して管理できますか。
 

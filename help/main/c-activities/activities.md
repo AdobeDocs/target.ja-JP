@@ -4,9 +4,9 @@ description: アクティビティを使用して、特定のオーディエン�
 title: ' [!DNL Target] を使用してコンテンツをパーソナライズし、ページのデザインをテストするにはどうすればよいですか？'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 26%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 26%
 
 | 要素 | 説明 |
 |--- |--- |
-| [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | フィルターにアクセスするには、リストの上部付近にある **[!UICONTROL Show Filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source] および [!UICONTROL Properties] でアクティビティをフィルタリングします。<P>詳しくは、以下の [ リストにフィルターを適用する ](#filters) を参 [!UICONTROL Activities] してください。 |
-| 検索フィールド | アクティビティをすばやく見つけたり、[!UICONTROL Activity] リストに表示されるアクティビティの数を減らしたりします。 ドロップダウンを使用して、[!UICONTROL Activity Name]、[!UICONTROL URL] または [!UICONTROL ID] で検索できます。 |
+| [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | フィルターにアクセスするには、リストの上部付近にある **[!UICONTROL Show Filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source] および [!UICONTROL Properties] でアクティビティをフィルタリングします。<P>設定するフィルターは、現在のセッション全体で永続的です。<P>詳しくは、以下の [ リストにフィルターを適用する ](#filters) を参 [!UICONTROL Activities] してください。 |
+| 検索フィールド | アクティビティをすばやく見つけたり、[!UICONTROL Activity] リストに表示されるアクティビティの数を減らしたりします。 ドロップダウンを使用して、[!UICONTROL Activity Name]、[!UICONTROL URL] または [!UICONTROL ID] で検索できます。<P>設定する検索オプションは、現在のセッション全体で永続的です。 |
 | [!UICONTROL Create Activity] | アクティビティを作成します。<P>様々なアクティビティタイプの作成について詳しくは、以下を参照してください。 <ul><li>[[!UICONTROL A/B Test] アクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[[!UICONTROL Auto-Allocate] アクティビティの作成 ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[[!UICONTROL Auto-Target] アクティビティの作成 ](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[[!UICONTROL Automated Personalization] アクティビティの作成 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[ アクティビティの作成 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[[!UICONTROL Recommendations] アクティビティの作成 ](/help/main/c-recommendations/recommendations.md)</li></ul>各タイプについて詳しくは、以下の [ アクティビティタイプ ](#types) を参照してください。 |
 | [!UICONTROL Create mobile preview link]<P>![ その他のアクションメニュー ](/help/main/assets/icons/MoreVertical.svg) | [ モバイルプレビューリンク ](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) を使用すると、モバイルアプリアクティビティのエンドツーエンドの簡単な QA を実行できます。<P>**その他のオプション** アイコンをクリックし、**モバイルプレビューリンクを作成** を選択したあと、モバイルでテストするアクティビティを選択します。 |
 | テーブルをカスタマイズ<P>![ 「テーブルをカスタマイズ」アイコン ](/help/main/assets/icons/ColumnSetting.svg) | ページの右上にある **[!UICONTROL Customize Table]** アイコンをクリックし、目的の列を選択または選択解除して、[!UICONTROL Activity] リストに表示する列を変更します。<P>変更内容はアカウントに適用され、[!DNL Target] からログアウトした後もアクティブです。 |
