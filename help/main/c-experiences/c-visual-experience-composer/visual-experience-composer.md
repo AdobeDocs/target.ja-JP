@@ -4,16 +4,20 @@ description: Adobe Targetでの Visual Experience Composer （VEC）の使用に
 title: Visual Experience Composer （VEC）の使用方法
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 59%
+source-wordcount: '1130'
+ht-degree: 57%
 
 ---
 
 # Visual Experience Composer（VEC）
 
 [!DNL Adobe Target] での [!UICONTROL Visual Experience Composer] （VEC）の使用に関する情報です。
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 11 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
 
 VEC は、サイトコンテキストのパーソナライズされたエクスペリエンスやオファーを簡単に作成およびテストできる、WYSIWYGのユーザーインターフェイスです。 Web ページ（またはオファー）またはモバイル Web ページのレイアウトやコンテンツをドラッグ&amp;ドロップ、入れ替えおよび変更することで、[!DNL Target] アクティビティのエクスペリエンスおよびオファーを作成できます。
 

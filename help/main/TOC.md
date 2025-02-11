@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1263'
 ht-degree: 89%
 
 ---
@@ -229,6 +229,7 @@ ht-degree: 89%
    + Visual Experience Composer（VEC）{#vec}
       + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Visual Experience Composer の変更点](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [類似のページに同じエクスペリエンスを組み込む](c-experiences/c-visual-experience-composer/temtest.md)
       + [複数ページアクティビティ](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [アクティビティの衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)

@@ -5,10 +5,10 @@ title: Visual Experience Composer （VEC）の設定方法
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 50%
+source-wordcount: '679'
+ht-degree: 49%
 
 ---
 
@@ -55,7 +55,12 @@ iframe バスティングのサイトおよび混合コンテンツを使用し�
 
 エクスペリエンススナップショットを有効にすると、アクティビティワークフローダイアグラムでエクスペリエンスのサムネールが生成されます。スナップショットを無効にすると、一部のユーザーでパフォーマンスが向上する場合があります。
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"}
+## モバイルビューポート設定
+
+>[!NOTE]
+>
+>[!UICONTROL Mobile Viewport Configuration] 設定は [Target Premium](/help/main/c-intro/intro.md#premium) 機能です。
+
 
 エクスペリエンスのプレビュー時に、使用するデバイスを追加できます。各デバイスにはオーディエンスが関連付けられています。
 
