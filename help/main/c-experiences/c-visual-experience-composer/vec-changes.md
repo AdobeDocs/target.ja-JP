@@ -4,9 +4,9 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 11 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 1%
 
 [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 11 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC の以前のバージョンと更新されたバージョンの違いについて説明します。
 
+>[!IMPORTANT]
+>
+>更新された [!UICONTROL Visual Editing Composer] には、Chrome Web ストアで使用できる [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 必要です。
+
 VEC は、既存のアクティビティを作成または編集すると表示されます。
 
 ![Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## 主な変更点
+## VEC の大幅な変更
 
 以下の節では、以前のバージョンと比較して、更新された VEC の主な変更点について説明します。
 
@@ -99,4 +103,6 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 更新された VEC に対して行われた UI の概要を次の図に示します。 上の図は更新された VEC UI を示し、下の図は前の UI を示しています。 矢印は、様々な要素が移動した場所を示します。
 
-![VEC の比較 – 以前の UI と新しい ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+（画像をクリックすると、ブラウザーの全幅に展開できます）。
+
+![VEC の比較 – 以前の UI と新しい ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
