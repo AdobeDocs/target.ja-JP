@@ -4,7 +4,7 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 11 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 1%
@@ -57,11 +57,11 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ### [!UICONTROL Properties] パネル（新規）
 
-新しい [!UICONTROL Properties] パネルでは、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTML要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
+新しい [!UICONTROL Properties] パネルを使用すると、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTMLの要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
 
 ![ プロパティパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-パネルの上部にあるアイコンをクリックして、HTMLコードの編集、要素の削除、複製、非表示を行います。 変更が [!UICONTROL Modifications] ールパネルに表示されます。
+パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、要素を削除、複製、非表示にしたりします。 変更が [!UICONTROL Modifications] ールパネルに表示されます。
 
 [!UICONTROL Properties] パネルは、右側のパネルで折りたたみ可能です。 パネルの右側にある [!UICONTROL Show/Hide Properties] アイコン ![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] のパネルを折りたたんだり表示したりします。
 
