@@ -1,10 +1,10 @@
 ---
-keywords: visual experience composer オプション；experience composer オプション；experience options；テキストの編集；html の編集；テキストまたは html の編集；背景色の編集；要素の挿入；リンクの編集；visual experience composer リンク；css クラスの編集；オファーの交換；画像の交換；画像の交換；項目の削除；項目の非表示；項目の非表示；項目の並べ替え；要素の移動；要素のサイズ変更；要素の拡大；選択；移動；移動；リンク；元ににする；やり直す；やりす/やりす；カスタムイベント；web コンポーネント；オファー決定；offer decisioning
+keywords: visual experience composer オプション；experience composer オプション；エクスペリエンスオプション；テキストの編集；html の編集；テキスト/html の編集；背景色の編集；要素の挿入；リンク；visual experience composer リンク；css クラスの編集；オファーの交換；画像の交換；画像の交換；項目の削除；項目の非表示；項目の非表示；要素の移動；要素のサイズ変更；選択；移動；リンク；移動；取り消し；やり直し；カスタムイベント；web コンポーネント；offer decisioning;offer decisioning
 description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VEC）で利用できるオプションを確認します。'
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法？'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 11 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
+>[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 12 日（PT））リリースには、VEC の更新バージョンが含まれています。 更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
 
 
 様々な [!UICONTROL Visual Experience Composer] （VEC）アクションが適切なメニューオプションにグループ化され、ジョブの迅速化と効率化を実現します。
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 * 基本（ディバイダー、HTML、画像）。
 * テキスト（見出し、段落、リンク）。
-* 動的（[ レコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTMLオファー）。
+* 動的（[ レコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
 
 画像上部のメニューでは、次の操作を実行できます。
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 フレームの上部にあるアイコンを使用すると、次の操作を実行できます。
 
-* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の [HTMLを編集 ](#html) を参照してください。
+* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の [HTMLの編集 ](#html) を参照してください。
 * 画像を複製します（![ 複製アイコン ](/help/main/assets/icons/Code.svg)）。
 * 画像を削除します（![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）。
 * 画像を非表示にします（![ 非表示アイコン ](/help/main/assets/icons/VisibilityOff.svg)）。
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 * 基本（ディバイダー、HTML、画像）。
 * テキスト（見出し、段落、リンク）。
-* 動的（[ レコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTMLオファー）。
+* 動的（[ レコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md)、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、HTML オファー）。
 
 [!UICONTROL Show Modifications] アイコン（![ 変更を表示アイコン ](/help/main/assets/icons/History.svg)）をクリックして、エクスペリエンスの変更を表示します。
 
@@ -88,7 +88,7 @@ ht-degree: 14%
 * テキストの属性（太字、斜体、下線、取り消し線）を設定します（![ テキスト属性を選択アイコン ](/help/main/assets/icons/Text.svg)）。
 * テキストの整列（左、中央、右、両端揃え）（![ テキストの整列アイコン ](/help/main/assets/icons/TextAlignCenter.svg)）を設定します。
 * リンクを挿入します（![ リンクを挿入アイコン ](/help/main/assets/icons/Link.svg)）。
-* コンテンツをHTMLオファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) または [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md）に置き換えます。
+* コンテンツをHTML オファー、[ エクスペリエンスフラグメント ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) または [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md）に置き換えます。
 * HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。
 * パーソナライゼーションを追加（![Personalizationを追加アイコン ](/help/main/assets/icons/PersonalizationField.svg)）。
 * 画像を削除します（![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）。
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 フレームの上部にあるアイコンを使用すると、次の操作を実行できます。
 
-* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の [HTMLを編集 ](#html) を参照してください。
+* HTMLを編集します（![HTMLを挿入アイコン ](/help/main/assets/icons/Code.svg)）。 詳しくは、以下の [HTMLの編集 ](#html) を参照してください。
 * テキストを複製します（![ 複製アイコン ](/help/main/assets/icons/Code.svg)）。
 * テキストを削除します ![ 削除アイコン ](/help/main/assets/icons/Delete.svg)）。
 * テキストを非表示にします（![ 非表示アイコン ](/help/main/assets/icons/VisibilityOff.svg)）。
@@ -119,7 +119,7 @@ ht-degree: 14%
 
 HTML コードだけでなく、カスタム JavaScript を編集および挿入することもできます。
 
-[!UICONTROL A/B] アクティビティと [!UICONTROL Experience Targeting] アクティビティでテキストとHTMLを編集する場合は、いくつかのリッチテキスト書式設定オプションを使用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。HTMLを変更する際に、HTMLのコードビューとリッチ編集ビューを切り替えることができます。
+[!UICONTROL A/B] アクティビティと [!UICONTROL Experience Targeting] アクティビティでテキストとHTMLを編集する際には、いくつかのリッチテキスト書式設定オプションを使用できます。 フォントの選択、フォントスタイルの選択、テキストの整列方法の変更およびその他の標準的なテキスト書式オプションの設定が可能です。HTMLを変更する際に、HTMLのコードビューとリッチ編集ビューを切り替えることができます。
 
 次の HTML5 タグをネストできます。
 
