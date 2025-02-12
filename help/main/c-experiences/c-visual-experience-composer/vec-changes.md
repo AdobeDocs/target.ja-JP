@@ -4,16 +4,16 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 11 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Visual Experience Composer]の変更点
 
-[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 11 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC の以前のバージョンと更新されたバージョンの違いについて説明します。
+[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 12 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC の以前のバージョンと更新されたバージョンの違いについて説明します。
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ![ コンポーネントパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-新しいコンポーネントを追加するには、挿入するコンポーネントを編集キャンバスの既存のページ要素の上にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
+新しいコンポーネントを追加するには、挿入するコンポーネントをコンポーネントパネルからデザインキャンバスの既存のページ要素にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
 
 以前の VEC バージョンと比較して、選択した要素をコンポーネントで置き換えることはできません。
 

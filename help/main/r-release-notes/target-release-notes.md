@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1156'
 ht-degree: 14%
 
 ---
@@ -40,16 +40,16 @@ ht-degree: 14%
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
-* [ レポートの再設計 ](/help/main/administrating-target/reporting.md) により、アクティビティ結果に対するより優れたインサイトが得られます。
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) ページで、[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から情報を取得して、リアルタイムのインサイトを得るようになりました
-* [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) を使用して、様々なチームニーズに柔軟に対応
-* [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセス
-* [セッション持続の検索とフィルターオプション](/help/main/c-activities/activities.md)
-* ブラウザー [ プロバイダーによる最新のセキュリティ更新と最新のユーザーインターフェイスをサポートする、完全に再構築された [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+* [ レポートの設計を刷新 ](/help/main/administrating-target/reporting.md) し、アクティビティ結果に対するより優れたインサイトを提供します。
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) ページでは、[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から情報を取得して、リアルタイムのインサイトを得るようになりました。
+* [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) をに使用して、様々なチームニーズに柔軟に対応。
+* [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセスできます。
+* [ セッションの永続的な検索とフィルターオプション ](/help/main/c-activities/activities.md)。
+* ブラウザー [ プロバイ [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ーからの最新のセキュリティアップデートと最新のユーザーインターフェイスをサポートする、完全に再構築されたサービス。 詳しくは、「[Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) オプション」を参照してください。
 
-  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
+  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
 
-* [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました
+* [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました。
 
 ![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -63,13 +63,13 @@ ht-degree: 14%
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
-* [ 製品カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md) にデータベースが更新され、製品をリアルタイムで同期できるようになりました
-* [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]） [API 経由で作成されたもの）が UI で使用できるようになりました ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Recommendations 設定 ](/help/main/administrating-target/recommendations-settings.md) は、[!UICONTROL Administration] の節で統合されました
-* カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応
+* [ 製品カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md) にデータベースが更新され、製品をリアルタイムで同期できるようになりました。
+* [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]、[!UICONTROL Exclusions]） [API 経由で作成されたもの ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) が UI で使用できるようになりました。
+* [Recommendations 設定 ](/help/main/administrating-target/recommendations-settings.md) は、[!UICONTROL Administration] の節で統合されました。
+* カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応。
 * HTMLおよび JSON コードエディターが更新され、[ 構文のハイライト表示と行番号 ](/help/main/c-experiences/c-manage-content/create-json-offer.md) が追加されました。
-* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面
-* セッション持続の検索とフィルターオプション
+* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面。
+* セッションの永続的な検索とフィルターオプション。
 
 ![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
