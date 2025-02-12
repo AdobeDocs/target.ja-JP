@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 35%
+source-wordcount: '187'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 35%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
-| 2月11日（PT） | [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | VEC の以前のバージョンと更新されたバージョンの違いを説明する新しい記事を追加しました。 |
+| 2月12日（PT） | [ サポートされているブラウザー ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | [!DNL Adobe Experience Platform Web SDK] を使用した Target 実装で、どのブラウザーがサポートされているかに関する情報を追加しました。 |
+|  | [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | VEC の以前のバージョンと更新されたバージョンの違いを説明する新しい記事を追加しました。 |
 |  | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 ユーザーインターフェイスのアップデート（2025 年 2 月 12 日（PT）に予定）のリリースノートを追加しました。 多くの記事が更新され、UI の変更が反映されました。 |
 
 ### [!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（Pt））
