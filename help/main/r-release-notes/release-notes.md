@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 21%
+source-wordcount: '1277'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## Target Standard／Premium 25.2.1（2025年2月12日（PT）） 
+## Target Standard／Premium 25.2.1（2025年2月17日（PT）） 
 
 このリリースには、次のアップデートが含まれています。
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->2 月 12 日（PT）より、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+>2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 
@@ -41,9 +41,12 @@ ht-degree: 21%
 * [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) をに使用して、様々なチームニーズに柔軟に対応。
 * [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセスできます。
 * [ セッションの永続的な検索とフィルターオプション ](/help/main/c-activities/activities.md)。
-* ブラウザー [ プロバイ [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ーからの最新のセキュリティアップデートと最新のユーザーインターフェイスをサポートする、完全に再構築されたサービス。 詳しくは、「[Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) オプション」を参照してください。
+* ブラウザー [ プロバイ [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ーからの最新のセキュリティアップデートと最新のユーザーインターフェイスをサポートする、完全に再構築されたサービス。
 
-  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、[Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) を参照してください。
+  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、以下を参照してください。
+
+   * [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 * [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました。
 
@@ -55,7 +58,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->2 月 12 日（PT）より、お客様は新しい [!UICONTROL Recommendations] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+>2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Recommendations] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
 
 この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
 

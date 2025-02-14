@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VE
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法？'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Visual Experience Composer のオプション
 
-[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 12 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、更新された UI とそのオプションについて説明します。
+[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、更新された UI とそのオプションについて説明します。
 
 >[!IMPORTANT]
 >
