@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 31%
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 ## アップデート
 
-### [!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 12 日（PT））
+### [!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
