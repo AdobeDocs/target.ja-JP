@@ -4,9 +4,9 @@ description: 要素セレクターは、1 つ以上の要素を識別できる C
 title: Visual Experience Composer （VEC）で要素セレクターを使用できますか？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ CSS セレクターの基本的な情報については、Mozilla Developer Netw
 
 CSS セレクターを使用するタイミングと一意の ID を使用するタイミングについて詳しくは、[Visual Experience Composer のベストプラクティスと制限事項](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)を参照してください。
 
-## Element [!DNL Target] でAdobeのセレクターを生成する方法 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe [!DNL Target] が要素のセレクターを生成する方法 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target では、シンプルなアルゴリズムを使用してセレクターが作成されます。以下では、生成のロジックについて簡単に説明します。
 
@@ -91,8 +91,6 @@ Target では、シンプルなアルゴリズムを使用してセレクター�
    ```
 
    セレクター：`#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   詳しくは、[CSS-Tricks Web ページの：nth-of-type についての解説](https://css-tricks.com/almanac/selectors/n/nth-of-type/)を参照してください。
 
 上記のプロセスでは、次の点に注意してください。
 

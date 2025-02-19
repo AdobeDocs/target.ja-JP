@@ -4,9 +4,9 @@ description: テストおよびパーソナライゼーションに関する取�
 title: Target を使用する際のヒントとテクニックはどこで見つけることができますか？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 72%
 
 詳しい手順については、[複数のオーディエンスの組み合わせ](/help/main/c-target/combining-multiple-audiences.md)を参照してください。
 
-**役に立つ知識**：[!DNL Adobe Audience Manager] オーディエンスは、 [!DNL Target] で自動的に使用できます。しかし、[!DNL Adobe Analytics] オーディエンスの共有には、手動による設定が少し必要です。[!DNL Analytics] でのオーディエンス構築プロセス中に、「これをExperience Cloudオーディエンスにする」というラベルの付いたボックスを選択するだけです。 次に、[!DNL Target] から、「Experience Cloudオーディエンスを読み込む」をクリックします。
+**役に立つ知識**：[!DNL Adobe Audience Manager] オーディエンスは、 [!DNL Target] で自動的に使用できます。しかし、[!DNL Adobe Analytics] オーディエンスの共有には、手動による設定が少し必要です。[!DNL Analytics] でのオーディエンス構築プロセス中に、「これをExperience Cloud オーディエンスにする」というラベルの付いたボックスを選択するだけです。 次に、[!DNL Target] から、「Experience Cloud オーディエンスを読み込む」をクリックします。
 
 ## ヒント 3： [!DNL Target] からデータをエクスポートして、サードパーティ製ツールで使用できます。
 
@@ -79,7 +79,7 @@ Web サイト上の複数のページをまたいで発生するカスタマー�
 
 エクスペリエンスバージョンを使用すると、1 つのテストを必要な数のオーディエンスに対して実行できます。例えば、米国、英国、米国のお客様向けの画像と通貨のバリエーションを含む、送料無料のバナー広告を作成できます。3 つの異なるオーディエンスに対してテストを実行する必要はありません。
 
-詳しい手順については、[A/B テストでの複数のエクスペリエンスオーディエンス](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)および[Adobe Target のエクスペリエンスバージョン](https://helpx.adobe.com/jp/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)を参照してください。
+詳しい手順については、[A/B テストでの複数のエクスペリエンスオーディエンス ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) を参照してください。
 
 ## ヒント 8：類似ページ上でアクティビティエクスペリエンスを複製することで、時間を節約できます。
 

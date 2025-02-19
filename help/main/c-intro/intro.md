@@ -6,10 +6,10 @@ short-description: Webサイト、モバイルサイト、アプリ、ソーシ�
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 73%
 
 ###  オファーとしての Recommendations 
 
-[ オファーとしてRecommendations](/help/main/c-recommendations/recommendations-as-an-offer.md) を使用すると、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティ内にレコメンデーションを組み込むことができます。
+[ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md) では、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができます。
 
 この機能により、次のようなことがおこなえるようになります。
 
@@ -98,11 +98,11 @@ Betaの機能 [!DNL Target] 説明するガイドの記事には、各ページ�
 
 詳しくは、『[Recommendations Classic ドキュメント](/help/main/assets/adobe-recommendations-classic.pdf)』を参照してください。
 
-## Experience League:Adobe[!DNL Target] ウェルカムキット {#kit}
+## Experience League:Adobe [!DNL Target] ウェルカムキット {#kit}
 
 このウェルカムキットで、[!DNL Adobe Target] の最適化およびパーソナライゼーションプログラムを構築します。ウェルカムキットには、最初の [!DNL Target] アクティビティの準備と開始に役立つ重要な情報、ツール、リソースが含まれています。キットには、短期的な優先課題と長期的な最適化戦略のアイデアが含まれています。
 
-[Adobe Target ウェルカムキット](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target ウェルカムキット](/help/main/c-intro/target-welcome-kit.md)
 
 ## トレーニングビデオ：アクティビティタイプ（9:03）![概要バッジ](/help/main/assets/overview.png)
 
