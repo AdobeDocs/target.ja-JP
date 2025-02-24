@@ -1,13 +1,13 @@
 ---
 keywords: 連絡先;法的事項;テクニカルサポート;テクニカルサポート;サポート;service;機能;請求;フィードバック
-description: Adobe  [!DNL Target] の機能の学習に役立つその他のリソースと、 [!DNL Target]についてサポートが必要な場合にアドビに連絡する方法について説明します。
+description: ' Adobe  [!DNL Target] の機能の学習に役立つその他のリソースと、 [!DNL Target]についてサポートが必要な場合にアドビに連絡する方法について説明します。'
 title: Target に関するリソースや連絡先情報はどこで入手できますか？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Target を使用していて問題や疑問点が出てきた場合は、いく�
 | 情報 | 詳細 |
 | --- | --- |
 | まとめ | 問題全体の概要 |
-| アカウント情報 | 会社名 <br> 管理者番号 <br> キャンペーン名 <br> キャンペーンのタイプ <br> レポートスイート/レポートスイート ID （Target とSiteCatalystの統合に関する場合） |
+| アカウント情報 | 会社名 <br> 管理者番号 <br> キャンペーン名 <br> キャンペーンのタイプ <br> レポートスイート/レポートスイート ID （Target と SiteCatalyst の統合に関する場合） |
 | 再現の手順 | 再現に必要な URL や期待される結果など、できるだけ詳しい内容を含めます。<br>Target に慣れていないユーザーでも指示に従って問題を再現できるような十分な説明にします。 |
 | 優先度 | P1（重要度高）～ P4（重要度低）を選択します。 |
 | ビジネスへの影響 | ビジネスにどのような影響があるかを説明します。例えば、この問題が原因で収益が減少しているか、製品が使用できなくなっているか、実行可能な回避策があるかなどです。 |
@@ -124,6 +124,6 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 [ 利用条件 ](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/jp/products/eula/third_party.html).
