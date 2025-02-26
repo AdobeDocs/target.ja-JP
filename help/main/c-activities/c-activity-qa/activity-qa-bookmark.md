@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] QA ブックマークレットを使用して�
 title: アクティビティ QA ブックマークレットの使用方法
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 13%
@@ -61,12 +61,13 @@ javascript:(
         var isSet = document.cookie.split(';').some(function (cookie) {
             return cookie.trim().startsWith(AT_QA_MODE);
         });
-        if (isSet) {
-            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
-            var url = window.location.href.split('at_preview_token',2)[0];
-            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
+        if (isSet) {            
+            document.cookie = AT_QA_MODE + ';domain='+window.location.hostname+";Path=/; Max-Age=-0;";
+            var token = window.location.href.indexOf("?at_preview_token")<0? "&at_preview_token" : "?at_preview_token";
+            var url = window.location.href.split(token,2)[0];
+            window.open(url, '_self', 'noreferrer');
         }
-    })();
+    })(); 
 ```
 
 ## アクティビティ QA ブックマークレットの使用
