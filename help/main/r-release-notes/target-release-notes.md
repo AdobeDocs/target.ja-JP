@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 15%
+source-wordcount: '1389'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年2月13日（PT）**
+**最終更新日：2025年2月26日（PT）**
 
 >[!NOTE]
 >
@@ -23,7 +23,28 @@ ht-degree: 15%
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## Target Standard／Premium 25.2.1（2025年2月17日（PT）） 
+## [!DNL Target Standard/Premium] 25.2.3 （2025 年 2 月 26 日（PT））
+
+このリリースには、次のアップデートが含まれています。
+
+* 一部のアクティビティについて、25.2.1 リリース [!DNL Target] 後のアクティビティの更新を妨げる問題を解決しました。 （TGT-51781）
+* アクティビティ作成プロセスをキャンセルすると（[!UICONTROL Add Audience] ではなく [!UICONTROL Cancel] を選択すると）、すべてのインステートオーディエンスの変更が削除される問題を解決しました。 （TGT-51769 および TGT-51770）
+* 一部のアクティビティ（特にカスタムコードが使用された場合）で [!UICONTROL Visual Experience Composer] （VEC）の読み込みに失敗した問題を修正しました。  問題により、VEC で空白の画面が表示されたり、[!DNL Target] UI が古いバージョンに戻ったりすることがありました。 （TGT-51758）
+* オーディエンスのページ配信を編集した後に変更が破棄される問題を修正しました。 （TGT-51756）
+* [!UICONTROL Goals & Settings] ページで指標タイプを変更すると、すべての非指標オーディエンス（ページおよびエクスペリエンスオーディエンス）がアクティビティから削除される問題を修正しました。 （TGT-51753）
+* アクティビティの編集中に [!UICONTROL Cancel] をクリックすると、[!UICONTROL Activity Details] ページではなく Target UI が [!UICONTROL Activities List] に移動する問題を修正しました。 （TGT-51731）
+* 顧客が [!UICONTROL Export Reports to CSV] オプションを使用してレポートをダウンロードできない問題を解決しました。 （TGT-51708）
+* フォームベースの Experience Composer で、[!DNL Target Premium] 機能である [!UICONTROL Properties] を使用していると [!DNL Target Standard] 顧客が誤って表示される問題を修正しました。 （TGT-51678）
+* 新しいオファーを作成する際に [!DNL Adobe Experience Platform] 属性が表示されない問題を修正しました。 （TGT-51665）
+* [!DNL Recommendations] インベントリのすべてのアクティブなフィルターをクイック検索に移動し、UI を [!UICONTROL Filter] レールではなく [!UICONTROL Catalog Search] に合わせました。 （TGT-50723）
+
+## at.js バージョン 2.11.7 （2025 年 2 月 26 日）
+
+このリリースには、次のアップデートが含まれています。
+
+* `localStorage` が利用できない場合のテレメトリのロギングを修正しました。 テレメトリは、ブラウザーで無効に `localStorage` っている一部のお客様に問題を引き起こしていました。
+
+## [!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））
 
 このリリースには、次のアップデートが含まれています。
 
@@ -76,7 +97,7 @@ ht-degree: 15%
 
 ![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## Target Standard/Premium 25.1.1 （2025 年 1 月 9 日）
+## [!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（Pt））
 
 このリリースには、次のアップデートが含まれています。
 
