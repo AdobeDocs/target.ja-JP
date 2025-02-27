@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 100%
 
 ---
@@ -207,16 +207,14 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 機械学習モデルとデータインサイトが、マーケター、開発者、製品所有者に新しい扉を開き、重要なパーソナライズされたエクスペリエンスで消費者を魅了するように、人工知能がいかに消費者の期待を再定義し続けるかについて説明します。パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] + [!DNL Adobe Target] ワークフローについて手順ごとに説明します。
 
-* [録画リンク](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++詳細
 
-  +++詳細
+Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューションコンサルタント）が、以下について説明します。
 
-  Jordan Ison（[!DNL Adobe]、プリンシパルエキスパートソリューションコンサルタント）が、以下について説明します。
-
-   * マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
-   * コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
-   * パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
-   * どの属性が訪問者の行動を予測し、どの属性がキービジュアライゼーションおよびセグメンテーション分析に最も重要であるかを解き明かす上位のユースケース
+* マーケター、開発者、製品チームが AI の「ブラックボックス」を開き、将来のテストとパーソナライゼーション戦略を推進する方法
+* コンバージョンとエンゲージメントを高めるために、web、モバイルアプリ、メール、IoT、各デジタルタッチポイントの最適化の課題を克服
+* パーソナライゼーション、ターゲット設定、テストのための [!DNL Adobe Analytics] と [!DNL Target] のワークフローについて手順ごとのガイドツアー
+* どの属性が訪問者の行動を予測し、どの属性がキービジュアライゼーションおよびセグメンテーション分析に最も重要であるかを解き明かす上位のユースケース
 
 +++
 
