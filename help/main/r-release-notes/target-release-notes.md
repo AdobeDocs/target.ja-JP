@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1402'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 13%
 このリリースには、次のアップデートが含まれています。
 
 * `localStorage` が利用できない場合のテレメトリのロギングを修正しました。 テレメトリは、ブラウザーで無効に `localStorage` っている一部のお客様に問題を引き起こしていました。
+
+このリリースおよび以前の at.js リリースについて詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））
 
