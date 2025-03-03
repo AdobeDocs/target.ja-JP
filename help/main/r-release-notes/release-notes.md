@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1669'
 ht-degree: 19%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 19%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.3.1 （2025 年 3 月 3 日）
+
+このリリースには、次の修正および更新が含まれています。
+
+* 結合されたオーディエンスには、サブグループを含めることができ、それぞれに複数のオーディエンスを含めることができます。 このリリースでは、サブグループオーディエンスが [!UICONTROL Rules] ダイアログボックスに表示されない問題を修正しました。 （TGT-51813）
+* 古いアクティビティを開く際に、一部のエクスペリエンスオーディエンスが [!UICONTROL All Visitors] に置き換えられた問題を修正しました。 （TGT-51812）
+* アクティビティのみのオーディエンスを含むアクティビティを編集できない問題を修正しました。 （TGT-51807）
+* 更新された [!DNL Target] UI でページ先頭の変更を編集できない問題を修正しました。 （TGT-51797）
+* エクスペリエンスを複製し、別のエクスペリエンスを削除してから、アクティビティを保存しようとすると発生していた null エラーを解決しました。 （TGT-51796）
+* アクティビティを作成する [!UICONTROL Targeting] の手順で、オーディエンスの情報パネルにオーディエンス除外ルールが表示されない問題を解決しました。 （TGT-51579）
+* エラーメッセージを韓国語にローカライズしました。 （TGT-51701 および TGT-51699）
 
 ## [!DNL Target Standard/Premium] 25.2.3 （2025 年 2 月 26 日（PT））
 

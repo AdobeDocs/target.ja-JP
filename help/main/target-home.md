@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025年2月26日（PT）（[変更点を参照](r-release-notes/doc-change.md)）**
+**最終更新日：2025年3月3日（PT）（[変更内容を確認](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
