@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1696'
 ht-degree: 13%
 
 ---
@@ -15,13 +15,27 @@ ht-degree: 13%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年3月3日（PT）**
+**最終更新日：2025年3月5日（PT）**
 
 >[!NOTE]
 >
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!DNL Target Standard/Premium] 25.3.2 （2025 年 3 月 6 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* アクティビティのみのオーディエンスを持つアクティビティをコピーしたときに、新しいアクティビティを作成できず、元のアクティビティのオーディエンスが誤って使用されていた問題を修正しました。 （TGT-51855）
+* アクティビティのみのオーディエンスを含む [!UICONTROL Experience Targeting] （XT） アクティビティを編集できない問題を修正しました。 （TGT-51846）
+* [!UICONTROL Visual Experience Composer] （VEC）が最初の編集でエクスペリエンスに変更を正しく適用できなかった問題を修正しました。 （TGT-51843）
+* VEC 内の特定の要素をクリックすると「ID」エラーがトリガーされる問題を修正しました。 （TGT-51814）
+* アクティビティ作成時の VEC のエラー処理を更新しました。 （TGT-51759）
+* [!UICONTROL Modifications] パネルに表示が見つからない場合、アクティビティの保存時に「無効なユーザー入力」エラーが発生する問題を修正しました。 （TGT-51827）
+* Recommendations 条件を作成できない問題を修正しました。 （TGT-51834）
+* 別の URL にリダイレクトする前に確認メッセージを追加しました。 （TGT-51703）
+* オファーおよびフォルダー内のGraphQL統合テストの問題を修正しました。 （TGT-51839）
 
 ## [!DNL Target Standard/Premium] 25.3.1 （2025 年 3 月 3 日）
 
