@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 13%
+source-wordcount: '469'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年3月5日（PT）**
+**最終更新日：2025年3月6日（PT）**
 
 >[!NOTE]
 >
@@ -48,149 +48,6 @@ ht-degree: 13%
 * エクスペリエンスを複製し、別のエクスペリエンスを削除してから、アクティビティを保存しようとすると発生していた null エラーを解決しました。 （TGT-51796）
 * アクティビティを作成する [!UICONTROL Targeting] の手順で、オーディエンスの情報パネルにオーディエンス除外ルールが表示されない問題を解決しました。 （TGT-51579）
 * エラーメッセージを韓国語にローカライズしました。 （TGT-51701 および TGT-51699）
-
-## [!DNL Target Standard/Premium] 25.2.3 （2025 年 2 月 26 日（PT））
-
-このリリースには、次のアップデートが含まれています。
-
-* 一部のアクティビティについて、25.2.1 リリース [!DNL Target] 後のアクティビティの更新を妨げる問題を解決しました。 （TGT-51781）
-* アクティビティ作成プロセスをキャンセルすると（[!UICONTROL Add Audience] ではなく [!UICONTROL Cancel] を選択すると）、すべてのインステートオーディエンスの変更が削除される問題を解決しました。 （TGT-51769 および TGT-51770）
-* 一部のアクティビティ（特にカスタムコードが使用された場合）で [!UICONTROL Visual Experience Composer] （VEC）の読み込みに失敗した問題を修正しました。  問題により、VEC で空白の画面が表示されたり、[!DNL Target] UI が古いバージョンに戻ったりすることがありました。 （TGT-51758）
-* オーディエンスのページ配信を編集した後に変更が破棄される問題を修正しました。 （TGT-51756）
-* [!UICONTROL Goals & Settings] ページで指標タイプを変更すると、すべての非指標オーディエンス（ページおよびエクスペリエンスオーディエンス）がアクティビティから削除される問題を修正しました。 （TGT-51753）
-* アクティビティの編集中に [!UICONTROL Cancel] をクリックすると、[!UICONTROL Activity Details] ページではなく Target UI が [!UICONTROL Activities List] に移動する問題を修正しました。 （TGT-51731）
-* 顧客が [!UICONTROL Export Reports to CSV] オプションを使用してレポートをダウンロードできない問題を解決しました。 （TGT-51708）
-* フォームベースの Experience Composer で、[!DNL Target Premium] 機能である [!UICONTROL Properties] を使用していると [!DNL Target Standard] 顧客が誤って表示される問題を修正しました。 （TGT-51678）
-* 新しいオファーを作成する際に [!DNL Adobe Experience Platform] 属性が表示されない問題を修正しました。 （TGT-51665）
-* [!DNL Recommendations] インベントリのすべてのアクティブなフィルターをクイック検索に移動し、UI を [!UICONTROL Filter] レールではなく [!UICONTROL Catalog Search] に合わせました。 （TGT-50723）
-
-## at.js バージョン 2.11.7 （2025 年 2 月 26 日）
-
-このリリースには、次のアップデートが含まれています。
-
-* `localStorage` が利用できない場合のテレメトリのロギングを修正しました。 テレメトリは、ブラウザーで無効に `localStorage` っている一部のお客様に問題を引き起こしていました。
-
-このリリースおよび以前の at.js リリースについて詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} を参照してください。
-
-## [!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））
-
-このリリースには、次のアップデートが含まれています。
-
-* [!UICONTROL Activities] ユーザーインターフェイスの更新
-* [!DNL Recommendations] ユーザーインターフェイスの更新
-
-### [!UICONTROL Activities] ユーザーインターフェイスの更新
-
-[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!UICONTROL Activities] ユーザーインターフェイスの一般公開についてお知らせします。
-
->[!NOTE]
->
->2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
-
-この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
-
-* [ レポートの設計を刷新 ](/help/main/administrating-target/reporting.md) し、アクティビティ結果に対するより優れたインサイトを提供します。
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) ページでは、[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から情報を取得して、リアルタイムのインサイトを得るようになりました。
-* [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) をに使用して、様々なチームニーズに柔軟に対応。
-* [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセスできます。
-* [ セッションの永続的な検索とフィルターオプション ](/help/main/c-activities/activities.md)。
-* ブラウザー [ プロバイ [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ーからの最新のセキュリティアップデートと最新のユーザーインターフェイスをサポートする、完全に再構築されたサービス。
-
-  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、以下を参照してください。
-
-   * [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-   * [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-* [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました。
-
-![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
-
-### [!DNL Recommendations] ユーザーインターフェイスの更新
-
-[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!DNL Recommendations] ユーザーインターフェイスの一般公開についてお知らせします。
-
->[!NOTE]
->
->2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Recommendations] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
-
-この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
-
-* [ 製品カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md) にデータベースが更新され、製品をリアルタイムで同期できるようになりました。
-* [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]、[!UICONTROL Exclusions]） [API 経由で作成されたもの ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) が UI で使用できるようになりました。
-* [Recommendations 設定 ](/help/main/administrating-target/recommendations-settings.md) は、[!UICONTROL Administration] の節で統合されました。
-* カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応。
-* HTMLおよび JSON コードエディターが更新され、[ 構文のハイライト表示と行番号 ](/help/main/c-experiences/c-manage-content/create-json-offer.md) が追加されました。
-* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面。
-* セッションの永続的な検索とフィルターオプション。
-
-![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
-
-## [!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（Pt））
-
-このリリースには、次のアップデートが含まれています。
-
-### [!UICONTROL Offers Library] ユーザーインターフェイスの更新
-
-[!DNL Adobe Target] ユーザーのユーザーエクスペリエンスを向上させるために、このリリースでは [!UICONTROL Offers Library] ユーザーインターフェイスが更新されました。
-
->[!NOTE]
->
->すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、Target 顧客の初期グループを新しいオファー UI にアップグレードしました。 後続のステージでは、残りのお客様をアップグレードします。
-
-この更新では、最新の [!DNL Adobe Spectrum] デザインシステムを使用して、一貫性のないデザインパターンを標準化し、次のような新しい機能強化を導入しています。
-
-* **一括オファー管理**：複数のオファーを同時に選択、削除または移動します。
-
-* **[!UICONTROL Code Editor]アップグレード**：構文のハイライト表示と行番号を含むHTMLおよび JSON エディターを更新しました。
-
-* **オファーカードの改善**：情報に簡単にアクセスできるよう、クイック情報と詳細カードが強化されました。
-
-* **永続的な検索とフィルター**：セッション永続的な検索とフィルターオプションを追加します。
-
-詳しくは、[ オファー ](/help/main/c-experiences/c-manage-content/manage-content.md) とこの節のサブ記事を参照してください。
-
-次に、このリリースでの変更点を紹介する短いビデオを示します。
-
-![UI 更新ビデオを提供 ](/help/main/r-release-notes/assets/offers-video-v2.gif)
-
-## [!DNL Adobe Experience Platform Web SDK] `__view__` 範囲の最適化（2024 年 10 月 22 日（PT））
-
-2024 年 7 月 22 日（PT）から 2024 年 8 月 15 日（PT）の間に、[!DNL Target] チームは `__view__` の範囲を最適化し、アクティビティのインプレッション、訪問および訪問者レポートの精度を高めました。 この最適化は、自動レンダリングされた提案のレポートデータを自動的に取得することを目的としており、ほとんどのアカウントに対して透過的である必要があります。
-
-新規の [!DNL Adobe Experience Platform Web SDK] ユーザーはすべて、この最適化を有効にします。 ただし、at.js から移行したお客様で、以下の実装手順に従っていないお客様は、最適化を無効にしています。 アドビでは、これらのお客様に、2025 年 2 月 3 日までに実装を確認することをお勧めします。 この日以降、すべてのお客様に対して最適化を有効にします。 以下に示すように、までに実装のレビューと調整を行わないと、レポートに影響を与える可能性があります。 実装が影響を受けるかどうかを確認する必要がある場合や、実装を調整するためにより多くの時間が必要な場合は、[!DNL Adobe Customer Care] にお問い合わせください。
-
->[!IMPORTANT]
->
->2025 年 2 月 3 日までに実装レビューを完了して問題を解決できない場合は、1 回の 6 か月の延長をリクエストできます。 リクエストが 2025 年 1 月 31 日までに送信されていることを確認します。 Adobeはリクエストを確認し、決定します。
-
-手動の提案レンダリングを行う場合にこの最適化を活用するには、エクスペリエンスを手動でレンダリングした後や、`applyPropositions` メソッド（または対応する [!DNL Launch] アクションをヘルパーとして）を使用してエクスペリエンスをレンダリングする際に、[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ールをレビューして通知を送信していることを確認します。
-
-エクスペリエンスを手動でレンダリングする場合の最も一般的なシナリオは次のとおりです。
-
-* JSON オファーの使用
-* [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) で作成されたアクティビティでのカスタム決定範囲の使用
-* グローバル `__view__` スコープを使用する [!UICONTROL Form-Based Experience Composer] を使用して作成されたアクティビティを取得する場合、`renderDecisions: true` を使用しない
-
-*データ収集* ガイドの [ パーソナライズされたコンテンツのレンダリング ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} に記載されているように通知が実装されていない場合、[!DNL Target] および [Analytics for Target レポート ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）でレポートデータが欠落している可能性があります。 特定のシナリオでは、レポートデータが取得されないので、誤ったトラフィック分割に気付く場合があります。 または、他のシナリオで、同じイベントを繰り返しレポートする場合もあります。
-
-実装に応じて、[!DNL Analytics] および A4T レポートの影響を確認します。
-
-[!DNL Platform Web SDK] では、エクスペリエンスとパーソナライゼーションのレンダリングに対して、次の 2 つの実装タイプをサポートしています。
-
-* **パーソナライゼーションと測定のための 1 回の呼び出し**
-
-  最初にお勧めしたのは、[!DNL Platform Web SDK] のシングルコールアプローチは廃止される予定で、スプリットコールアプローチに置き換わることです。 Adobeでは、新しい実装ではすべて新しい分割呼び出しアプローチを使用することをお勧めします。また、既存のお客様には、分割呼び出し方法に移行することをお勧めします。
-
-  シングルコールアプローチを引き続き使用すると、[!DNL Analytics] レポートに次のような予期しない変更が表示される場合があります。
-
-   * 潮が引込む。
-   * A4T と [!UICONTROL Page View] のヒットが結び付けられていないので、[!DNL Analytics] eVar とイベントを使用して A4T レポートの特定の分類や相関関係を実行することが困難になります。
-
-* **分割呼び出し（ページイベントの上下とも呼ばれます）。**
-
-  この実装タイプは、[!DNL Adobe] が推奨する新しい [ 分割呼び出し実装アプローチ ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} です。 このアプローチでは、新しい最適化は [!DNL Analytics] や A4T レポートには影響しません。
-
-ご不明な点については、[Adobe カスタマーケア ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) にお問い合わせください。 （KB-2179）
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)

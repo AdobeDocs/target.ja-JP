@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
-ht-degree: 84%
+source-wordcount: '39655'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,94 @@ ht-degree: 84%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2025年
+
+### [!DNL Target Standard/Premium] 25.3.1 （2025 年 3 月 3 日）
+
+このリリースには、次の修正および更新が含まれています。
+
+* 結合されたオーディエンスには、サブグループを含めることができ、それぞれに複数のオーディエンスを含めることができます。 このリリースでは、サブグループオーディエンスが [!UICONTROL Rules] ダイアログボックスに表示されない問題を修正しました。 （TGT-51813）
+* 古いアクティビティを開く際に、一部のエクスペリエンスオーディエンスが [!UICONTROL All Visitors] に置き換えられた問題を修正しました。 （TGT-51812）
+* アクティビティのみのオーディエンスを含むアクティビティを編集できない問題を修正しました。 （TGT-51807）
+* 更新された [!DNL Target] UI でページ先頭の変更を編集できない問題を修正しました。 （TGT-51797）
+* エクスペリエンスを複製し、別のエクスペリエンスを削除してから、アクティビティを保存しようとすると発生していた null エラーを解決しました。 （TGT-51796）
+* アクティビティを作成する [!UICONTROL Targeting] の手順で、オーディエンスの情報パネルにオーディエンス除外ルールが表示されない問題を解決しました。 （TGT-51579）
+* エラーメッセージを韓国語にローカライズしました。 （TGT-51701 および TGT-51699）
+
+### [!DNL Target Standard/Premium] 25.2.3 （2025 年 2 月 26 日（PT））
+
+このリリースには、次のアップデートが含まれています。
+
+* 一部のアクティビティについて、25.2.1 リリース [!DNL Target] 後のアクティビティの更新を妨げる問題を解決しました。 （TGT-51781）
+* アクティビティ作成プロセスをキャンセルすると（[!UICONTROL Add Audience] ではなく [!UICONTROL Cancel] を選択すると）、すべてのインステートオーディエンスの変更が削除される問題を解決しました。 （TGT-51769 および TGT-51770）
+* 一部のアクティビティ（特にカスタムコードが使用された場合）で [!UICONTROL Visual Experience Composer] （VEC）の読み込みに失敗した問題を修正しました。  問題により、VEC で空白の画面が表示されたり、[!DNL Target] UI が古いバージョンに戻ったりすることがありました。 （TGT-51758）
+* オーディエンスのページ配信を編集した後に変更が破棄される問題を修正しました。 （TGT-51756）
+* [!UICONTROL Goals & Settings] ページで指標タイプを変更すると、すべての非指標オーディエンス（ページおよびエクスペリエンスオーディエンス）がアクティビティから削除される問題を修正しました。 （TGT-51753）
+* アクティビティの編集中に [!UICONTROL Cancel] をクリックすると、[!UICONTROL Activity Details] ページではなく Target UI が [!UICONTROL Activities List] に移動する問題を修正しました。 （TGT-51731）
+* 顧客が [!UICONTROL Export Reports to CSV] オプションを使用してレポートをダウンロードできない問題を解決しました。 （TGT-51708）
+* フォームベースの Experience Composer で、[!DNL Target Premium] 機能である [!UICONTROL Properties] を使用していると [!DNL Target Standard] 顧客が誤って表示される問題を修正しました。 （TGT-51678）
+* 新しいオファーを作成する際に [!DNL Adobe Experience Platform] 属性が表示されない問題を修正しました。 （TGT-51665）
+* [!DNL Recommendations] インベントリのすべてのアクティブなフィルターをクイック検索に移動し、UI を [!UICONTROL Filter] レールではなく [!UICONTROL Catalog Search] に合わせました。 （TGT-50723）
+
+### at.js バージョン 2.11.7 （2025 年 2 月 26 日）
+
+このリリースには、次のアップデートが含まれています。
+
+* `localStorage` が利用できない場合のテレメトリのロギングを修正しました。 テレメトリは、ブラウザーで無効に `localStorage` っている一部のお客様に問題を引き起こしていました。
+
+このリリースおよび以前の at.js リリースについて詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} を参照してください。
+
+### Target Standard／Premium 25.2.1（2025年2月17日（PT）） 
+
+このリリースには、次のアップデートが含まれています。
+
+* [!UICONTROL Activities] ユーザーインターフェイスの更新
+* [!DNL Recommendations] ユーザーインターフェイスの更新
+
+#### [!UICONTROL Activities] ユーザーインターフェイスの更新
+
+[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!UICONTROL Activities] ユーザーインターフェイスの一般公開についてお知らせします。
+
+>[!NOTE]
+>
+>2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Activities] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+
+この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
+
+* [ レポートの設計を刷新 ](/help/main/administrating-target/reporting.md) し、アクティビティ結果に対するより優れたインサイトを提供します。
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) ページでは、[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から情報を取得して、リアルタイムのインサイトを得るようになりました。
+* [ カスタマイズ可能なリスト表示 ](/help/main/c-activities/activities.md) をに使用して、様々なチームニーズに柔軟に対応。
+* [ 強化されたクイック情報画面と詳細画面 ](/help/main/c-activities/activities.md) で情報に簡単にアクセスできます。
+* [ セッションの永続的な検索とフィルターオプション ](/help/main/c-activities/activities.md)。
+* ブラウザー [ プロバイ [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ーからの最新のセキュリティアップデートと最新のユーザーインターフェイスをサポートする、完全に再構築されたサービス。
+
+  更新された VEC が以前のバージョンとどのように異なるかについて詳しくは、以下を参照してください。
+
+   * [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [ 更新  [!DNL Chrome]  拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Manifest V3 のサポートにより、セキュリティの向上とファーストパーティ cookie のサポートの改善が実現しました。
+
+![ アクティビティの更新 ](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations] ユーザーインターフェイスの更新
+
+[!DNL Adobe Target] UI の最新化に向けた取り組みが続く中、更新された [!DNL Recommendations] ユーザーインターフェイスの一般公開についてお知らせします。
+
+>[!NOTE]
+>
+>2 月 17 日（PT）以降、お客様は新しい [!UICONTROL Recommendations] UI に徐々にアクセスできるようになります。 すべてのお客様にシームレスなロールアウトを確実に行えるように、このリリースは制御された段階でデプロイされます。 最初のステージでは、[!DNL Target] のお客様の初期グループを新しい [!UICONTROL Activities] UI にアップグレードします。 後続のステージでは、残りのお客様をアップグレードします。
+
+この更新では、最新の [!DNL Adobe Spectrum] デザインシステムに基づいて、以前は一貫性がなかったデザインパターンが標準化されるほか、次のような新しい機能強化が追加されています。
+
+* [ 製品カタログ検索 ](/help/main/c-recommendations/c-products/catalog-search.md) にデータベースが更新され、製品をリアルタイムで同期できるようになりました。
+* [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]、[!UICONTROL Exclusions]） [API 経由で作成されたもの ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) が UI で使用できるようになりました。
+* [Recommendations 設定 ](/help/main/administrating-target/recommendations-settings.md) は、[!UICONTROL Administration] の節で統合されました。
+* カスタマイズ可能なリスト表示により、様々なチームニーズに柔軟に対応。
+* HTMLおよび JSON コードエディターが更新され、[ 構文のハイライト表示と行番号 ](/help/main/c-experiences/c-manage-content/create-json-offer.md) が追加されました。
+* 情報に容易にアクセスするための拡張されたクイック情報画面と詳細画面。
+* セッションの永続的な検索とフィルターオプション。
+
+![Recommendations UI の更新 ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1 （2025 年 1 月 9 日）
 
