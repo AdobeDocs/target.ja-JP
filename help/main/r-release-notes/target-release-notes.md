@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 36%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 36%
 * アクティビティのみのオーディエンスが [!UICONTROL Audiences] ールパネルに表示されず、編集や再利用ができない問題を修正しました。 （TGT-51860）
 * [!DNL Target Standard] 顧客が [!UICONTROL Analytics for Target] （A4T）レポートを使用してアクティビティを作成できなかった問題を修正しました。 （TGT-51854）
 * バッチの作成および編集操作中にペイロードからローカル ID カウンターを除外する問題を修正しました。 （TGT-51867）
-* [!DNL Axe Developer Hub] の統合、対象範囲の改善、レポート、チームの共同作業、手動テストのサポート、コンプライアンス標準、ユーザーエクスペリエンスにより、アクセシビリティレポートを強化しました。
 
 ## [!DNL Target Standard/Premium] 25.3.2 （2025 年 3 月 6 日（PT））
 
