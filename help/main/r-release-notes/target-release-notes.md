@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
+source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 37%
+source-wordcount: '620'
+ht-degree: 33%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 37%
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!DNL Target Standard/Premium] 25.3.5 （2025 年 3 月 11 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* 更新 [!UICONTROL Visual Experience Composer] （VEC）で、パンくずリストがエディターの下部に常に表示されず、要素を正確に選択するのが困難になる問題を修正しました。 （TGT-51844）
+* [!UICONTROL Modifications] ールパネルでユーザーがオファーを変更できない問題を修正しました。 （TGT-51800）
+* [!UICONTROL ClickTrack] モードを含め、エクスペリエンスとオーディエンスの左側のパネルにアクションが正しく表示されない問題を修正しました。 （TGT-51895）
+* [!UICONTROL ClickTrack] セレクターが正しいオーディエンスページに適用されない問題を解決しました。 （TGT-51871）
 
 ## [!DNL Target Standard/Premium] 25.3.4 （2025 年 3 月 7 日（PT））
 
