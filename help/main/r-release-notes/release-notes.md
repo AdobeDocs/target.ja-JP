@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 43%
+source-wordcount: '704'
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,6 @@ ht-degree: 43%
 
 このリリースには、次の修正および更新が含まれています。
 
-* 更新 [!UICONTROL Visual Experience Composer] （VEC）で、パンくずリストがエディターの下部に常に表示されず、要素を正確に選択するのが困難になる問題を修正しました。 （TGT-51844）
 * [!UICONTROL Modifications] ールパネルでユーザーがオファーを変更できない問題を修正しました。 （TGT-51800）
 * [!UICONTROL ClickTrack] モードを含め、エクスペリエンスとオーディエンスの左側のパネルにアクションが正しく表示されない問題を修正しました。 （TGT-51895）
 * [!UICONTROL ClickTrack] セレクターが正しいオーディエンスページに適用されない問題を解決しました。 （TGT-51871）
