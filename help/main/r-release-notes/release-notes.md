@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 45%
+source-wordcount: '837'
+ht-degree: 39%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 45%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.3.6 （2025 年 3 月 14 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* 同じ [!UICONTROL ClickTrack] セレクターが複数回使用されている場合に、[!UICONTROL Click Tracking] が有効になっている [!UICONTROL Visual Experience Composer] （VEC）アクティビティの「無効なユーザー入力」エラーを解決しました。 （TGT-51921）
+* 場所を共有している VEC アクティビティ（HEAD セレクターなど）と同一のオファーでの「無効なユーザー入力」エラーを修正しました。 （TGT-51879）
+* エクスペリエンスの変更がオーディエンス間で共有される問題を修正しました。 （TGT-51815）
+* セグメント ID の競合が原因でアクティビティを作成する際に発生する検証エラーを解決しました。 このエラーは、匿名セグメントを使用し [!DNL Target] 既存のアクティビティが検出されたときに発生しました。 （TGT-51784）
+* [!DNL Target] がオーディエンスの除外ルールを使用してアクティビティを保存できなかった問題を解決しました。 （TGT-51581）
+* デフォルトのワークスペースにアクセスせずに、顧客がフォルダーを作成、削除、移動できなかった問題を解決しました。 （TGT-51499）
+* 指標リストを取得する際にGET リクエストが失敗する問題 [!DNL Analytics] 修正しました。 （TGT-51106）
 
 ## [!DNL Target Standard/Premium] 25.3.5 （2025 年 3 月 11 日（PT））
 
