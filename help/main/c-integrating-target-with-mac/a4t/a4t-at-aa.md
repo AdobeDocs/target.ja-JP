@@ -4,9 +4,9 @@ description: レポートソース（A4T）として  [!DNL Target]  を使用�
 title: A4T は [!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティをサポートしていますか？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1146'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,10 @@ A4T 統合により、次のことが可能になります。
 * [!DNL Adobe Target] のコンバージョン指標
 * [!DNL Adobe Analytics] のコンバージョン指標
 * [!DNL Adobe Analytics] カスタムイベント
+
+>[!NOTE]
+>
+>[!UICONTROL Use an Analytics Metric] を選択したら、「[!UICONTROL Maximize Unique Visitor Conversion Rate]」を選択して使用可能な [!DNL Adobe Analytics] コンバージョン指標を表示し、「[!UICONTROL Maximize Metric Value per Visitor]」を選択してカスタムイベント [!DNL Adobe Analytics] 調べます。
 
 [!DNL Target] を使用すると、二項イベントに基づいて指標を選択したり、連続イベントに基づいて指標を選択したりできます。連続イベントの場合は、[!UICONTROL Auto-Allocate] アクティビティと [!UICONTROL Auto-Target] アクティビティに [!UICONTROL A4T] を使用します。
 
@@ -131,12 +135,12 @@ A4T 統合により、次のことが可能になります。
 
 このチュートリアルでは、[!DNL Analysis Workspace] での [!UICONTROL Auto-Allocate] アクティビティ分析に推奨される変更について、順番に説明します。
 
-詳しくは、*Adobe Target Tutorials[ の「自動配分アクティビティ用にAnalysis Workspaceで A4T レポートを設定する方法 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} を参照してください*。
+詳しくは、*Adobe Target チュートリアル [Analysis Workspaceでの自動配分アクティビティに関する A4T レポートの設定 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ja){target=_blank} を参照してください*。
 
 ### [!DNL Analysis Workspace] での [!UICONTROL Auto-Target] アクティビティ用 A4T レポートの設定
 
 このチュートリアルでは、[!DNL Analysis Workspace] での [!UICONTROL Auto-Target] アクティビティ分析に推奨される変更について、順番に説明します。
 
-詳しくは、*Adobe Target Tutorials[ 「自動ターゲットアクティビティに関する A4T レポートをAnalysis Workspaceで設定する方法 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank}」を参照してください*
+詳しくは、*Adobe Target チュートリアル [Analysis Workspaceでの自動ターゲットアクティビティに関する A4T レポートの設定 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ja){target=_blank} を参照してください*。
 
 
