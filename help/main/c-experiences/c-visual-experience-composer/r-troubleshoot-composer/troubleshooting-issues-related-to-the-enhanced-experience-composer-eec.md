@@ -4,9 +4,9 @@ description: 特定の条件下でAdobe拡張 Experience Composer （EEC）で�
 title: Experience Composer の強化に関連する問題をトラブルシューティングする方法
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 23%
 
 ---
@@ -102,7 +102,7 @@ IT チームに次の IP アドレスを許可リストに加えるするよう�
 
 ### 従来の IP アドレス
 
-次の従来の IP アドレスは、通知が届くまで引き続き許可リストに加えるする必要があります。
+次の従来の IP アドレスは、追加の通知が届くまで引き続き許可リストに加えるされる必要があります。
 
 34.254.77.200
 54.73.207.147
