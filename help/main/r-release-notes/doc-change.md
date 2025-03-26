@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 40%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 42%
 |--- |--- |--- |
 | 3月26日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.7 リリースに関するリリースノートを追加しました。 |
 |  | [Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | API を使用して作成されたオブジェクトが [!DNL Target] UI[!DNL Recommendations] 使用できることを示すために、FAQ を更新しました。 |
+|  | [コレクション](/help/main/c-recommendations/c-products/collections.md) | 次の注意を追加しました：収集ルールは、条件の実行後に生成されたレコメンデーション項目に適用されます。 これらは、出力内のエンティティ Recommendations （ER）にのみ影響し、キーには影響しません。 |
 | 3月19日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | IP アドレスを許可リストに更新しました。 |
 | 3月18日（PT） | [!UICONTROL Auto-Allocate] および [!UICONTROL Auto-Target] アクティビティに対する [A4T のサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *サポートされる目標指標* セクションにメモを追加しました。 |
 | 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 リリースに関するリリースノートを追加しました。 |

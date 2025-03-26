@@ -1,14 +1,14 @@
 ---
 keywords: コレクション;ターゲット設定
 description: ' [!DNL Target Recommendations] で製品または項目のコレクションを使用する方法を説明します。'
-title: Recommendations アクティビティでコレクションを使用する方法
+title: Recommendations アクティビティでコレクションを使用するには
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 27%
+source-wordcount: '716'
+ht-degree: 26%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] レコメンデーションキーを使用する場合、コレクションは適用されません。
+>* コレクションルールは、条件の実行後に生成されるレコメンデーション項目に適用されます。 これらは、出力内のエンティティ Recommendations （ER）にのみ影響し、キーには影響しません。
+>
+>* [!UICONTROL Recently Viewed Items] レコメンデーションキーを使用する場合、コレクションは適用されません。
 
 ## コレクションの作成 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ ht-degree: 27%
 
    [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 また、目的のコレクションの横にある「その他のアクション」アイコン（![ その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除できます。
 
-   [!UICONTROL Collections] のリスト表示で各コレクションに対して報告される「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でそのコレクションのルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 
@@ -84,7 +86,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 上記のいずれかの方法を使用して、コレクションを作成します。
 
-1. 「**[!UICONTROL Activities]**」をクリックして [Recommendationsを新規作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
+1. 「**[!UICONTROL Activities]**」をクリックして [ 新しい Recommendations を作成 ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) アクティビティを作成するか、既存のアクティビティを編集します。
 
 1. 条件とデザインを選択すると、[!UICONTROL Options] のページが表示され、目的のコレクションを選択できます。
 
