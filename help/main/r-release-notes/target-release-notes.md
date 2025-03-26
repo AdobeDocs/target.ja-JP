@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 30%
+source-wordcount: '1047'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,30 @@ ht-degree: 30%
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!DNL Target Standard/Premium] 25.3.7 （2025 年 3 月 26 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* ページが変更後に削除された場合に、複数ページのアクティビティの保存がブロックされる問題を修正しました。 （TGT-51988）
+* アクティビティの編集中に発生したエラーを解決しました：`default message [Invalid optionLocalIds: xx]]`。 （TGT-51985）
+* アクティビティに新しい変更を追加すると、既存の変更が削除される問題を解決しました。 （TGT-51981）
+* アクティビティの作成または編集中にオーディエンスを「[!UICONTROL All visitors]」に置き換えると、「重複したオーディエンスは許可されません」というエラーが発生していた問題を修正しました。 （TGT-51978）
+* [!UICONTROL A/B Test] アクティビティの保存時に「ユーザー入力が無効です」エラーが発生する問題を修正しました。 （TGT-51976）
+* 計算指標が [!UICONTROL Goals & Settings] ページに正しく表示されない問題を解決しました。 （TGT-51975）
+* `pageviews` 指標の [!DNL Analytics] 設定で `companyName` と `reportSuite` に一致しない問題を解決しました。 （TGT-51965）
+* アクティビティのエクスペリエンスを切り替えると変更が削除される問題を修正しました。 （TGT-51945）
+* ページオーディエンスを削除するとセレクターも削除される問題 [!UICONTROL ClickTrack] 解決しました。 （TGT-51935）
+* [!UICONTROL Overview] ページを開いた後にアクティビティを編集できなくなる問題を修正しました。 （TGT-51931）
+* アクティビティの作成中に `[Unused optionLocalIds: 0]]` エラーが発生する問題を修正しました。 （TGT-51920）
+* テキストスタイルの変更を削除した後、一部の変更が正しく翻訳されない問題を修正しました。 （TGT-51876）
+* ター [!UICONTROL Form-Based Experience Composer] ットでターゲットオーディエンスが正しく更新されない問題を解決しました。 （TGT-51845）
+* アクティビティのナビゲーション中に [!UICONTROL Visual Experience Composer] の URL が正しく更新されない問題を修正しました。 （TGT-51832）
+* アクティビティを作成してオファーを追加する際に正しく表示されているにもかかわらず、[!UICONTROL Offers] UI にオファーが表示されない問題を修正しました。 （TGT-51805）
+* 一部のアクティビティで、パーソナライズされたコンテンツやターゲットコンテンツを配信できない場合に、デフォルトコンテンツを表示するフォールバック画面が欠落していた問題を解決しました。 （TGT-51638）
+* ライブオファーおよび特定のフォルダーが [!UICONTROL Offers] UI に正しく表示されない問題を解決しました。 （TGT-51628）
+* 一部の URL 文字列と goURL が正しくローカライズされない問題を解決しました。 （TGT-35741）
+* 役割（[!UICONTROL Approver]、[!UICONTROL Editor] および [!UICONTROL Observer]）が [!DNL Target] UI に正しくローカライズされない問題を修正しました。 （TGT-29925）
 
 ## [!DNL Target Standard/Premium] 25.3.6 （2025 年 3 月 14 日（PT））
 

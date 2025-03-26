@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 41%
+source-wordcount: '393'
+ht-degree: 43%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 41%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 3月26日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.7 リリースに関するリリースノートを追加しました。 |
 | 3月19日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | IP アドレスを許可リストに更新しました。 |
 | 3月18日（PT） | [!UICONTROL Auto-Allocate] および [!UICONTROL Auto-Target] アクティビティに対する [A4T のサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *サポートされる目標指標* セクションにメモを追加しました。 |
 | 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 リリースに関するリリースノートを追加しました。 |
