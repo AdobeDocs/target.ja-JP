@@ -5,9 +5,9 @@ title: ' [!DNL Recommendations] に関する質問と回答'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3444'
 ht-degree: 84%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 84%
 
 ## API を使用 [!DNL Recommendations] て作成したオブジェクトは [!DNL Target] UI に表示されますか。
 
-はい、API を使用して作成された [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]）が UI で使用できるようになりました。
+はい。API を使用して作成された [!UICONTROL Recommendations] オブジェクト（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections] および [!UICONTROL Exclusions]）は UI で使用でき、API または [!DNL Target] UI を使用して編集できます。
 
 ## UI で作成され [!DNL Target] ビジュアルオファーを [!DNL Target] API を使用して管理できますか。
 
@@ -291,6 +291,5 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 * [!DNL Target]が getOffer() で JSON オファーを返すと、Recommendations は JSON のタイプで返します。ただし、JSON Recommendations デザインを返すと、Recommendation は HTML のタイプを返します。
 * フィードまたは API を介して更新されなくなってから 60 日が経過すると、期限切れのエンティティの有効期限が正確に切れます。ただし、有効期限が切れた後も、期限切れのエンティティはカタログ検索インデックスから削除されません。フィードまたは API を介して削除されたエンティティも、現在はカタログ検索インデックスから削除されていません。（IRI-857）
 * A/B およびエクスペリエンスのターゲット設定アクティビティの Recommendations オファーに、Recommendations トレイのプレビューが表示されない（TGT-33426）
-* API を使用して作成されたコレクション、除外、条件、デザインは、Target ユーザーインターフェイスには表示されず、API でのみ編集できます。同様に、Target UI でこれらの項目のいずれかを作成し、後で API を使用して編集すると、その変更は Target UI に反映されません。API で編集した項目は、変更が失われるのを防ぐため、引き続き API を使用して編集する必要があります。（TGT-35777）
 * API で作成された Recommendations アクティビティはユーザーインターフェイスで確認できますが、API からのみ編集できます。
 * 条件リスト（カード）表示に表示されるカスタム条件フィードのステータスは、10 分ごとに更新され、まれに 10 分より古いものが表示される場合があります。カスタム条件の編集ビューに表示されるステータスはリアルタイムで取得され、常に最新の状態になります。（TGT-35896、TGT-36173）
