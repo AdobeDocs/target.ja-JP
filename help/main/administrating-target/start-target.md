@@ -5,10 +5,10 @@ title: ' [!DNL Target] の管理を開始するにはどうすればよいです
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 40%
+source-wordcount: '443'
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 40%
 
 [!DNL Adobe Admin Console] のシステム管理者が、あなたを招待して参加 [!DNL Target] せるユーザーとして追加する必要があります。 システム管理者は、ユーザーを 1 つ以上の役割固有のグループに追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、*Experience Cloudおよびコアサービスのヘルプ [Experience Cloudユーザーと製品の管理 ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) を参照してくだ* い。
+詳しくは、{2[Experience Cloudとコアサービスのヘルプ ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud ユーザーおよび製品の管理 *を参照してください。*
 
 システム管理者がこれらの手順を実行すると、招待メールが届きます。
 
@@ -58,6 +58,10 @@ ht-degree: 40%
 
 次の手順は、[!DNL Target Standard] と [!DNL Target Premium] でユーザーを設定することです。 詳しくは、[ユーザー管理](/help/main/administrating-target/c-user-management/user-management.md)を参照してください。
 
->[!IMPORTANT]
->
->[!DNL Adobe Admin Console] の [!UICONTROL Product Admin] 権限または [!UICONTROL System Admin] 権限を持つユーザーは、[!DNL Target] の役割に関係なく、[!DNL Target] の [!UICONTROL Administration] ページのすべての設定を編集または変更できます。[!DNL Adobe Admin Console] で [!UICONTROL Product Admin] 権限または [!UICONTROL System Admin] 権限を持たないユーザーは、これらの変更を行うために特定の [!DNL Target] の役割が必要です。
+## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
+
+**2025 年 4 月 22 日（PT）より前**:[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、[!DNL Target] ーザーの役割に関係なく ](/help/main/administrating-target/administrating-target.md)[!DNL Target] の [[!UICONTROL Administration] ページのすべての設定を編集または変更できます。
+
+**2025 年 4 月 22 日（PT）より**:[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるのは、[!UICONTROL Product] 管理者と [!UICONTROL Solutions] 管理者のみです。[!DNL Target] ワークスペースでの役割には関係ありません。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
+
+この更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。

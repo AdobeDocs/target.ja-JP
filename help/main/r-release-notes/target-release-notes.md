@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca14a94365e75704622e76ac13aab324fc836e09
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 43%
+source-wordcount: '501'
+ht-degree: 38%
 
 ---
 
@@ -22,6 +22,14 @@ ht-degree: 43%
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## Target 権限の更新（2025 年 4 月 22 日（PT））
+
+この今後の更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。
+
+2025 年 4 月 22 日（PT）より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、ワークスペースでの役割に関係なく、[!UICONTROL Administration] セクションの設定を更新でき [!DNL Target] ようになります。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
+
+詳しくは、[Target の管理 ](/help/main/administrating-target/start-target.md) を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.4.1 （2025 年 4 月 2 日（Pt））
 
