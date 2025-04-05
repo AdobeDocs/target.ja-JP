@@ -6,15 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 49%
+
 ---
 
 # Enterprise ユーザーの権限
 
 エンタープライズユーザー権限は、[!DNL Adobe Target] への企業全体のユーザーアクセスを正式に管理する手段です。 [!DNL Target] にユーザーを追加し、その役割に基づいて権限を割り当て、異なる部署、世界規模での所在地、チャネルおよび他の論理グループに基づいて、チーム用にワークスペースを作成します。 ユーザーに [!UICONTROL Observer]、[!UICONTROL Editor]、[!UICONTROL Approver] または [!UICONTROL Publisher] の役割を割り当てることができます。
+
+{{permissions-update}}
 
 ## エンタープライズユーザー権限へのアクセス権があるかどうかを判断します
 
@@ -80,7 +83,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
 ### ユーザーグループ
 
-開発者、アナリスト、マーケター、エグゼクティブなどのユーザーグループを作成できます。 その後、複数のAdobe製品およびワークスペースに権限を割り当てることができます。 新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
+開発者、アナリスト、マーケター、エグゼクティブなどのユーザーグループを作成できます。 その後、複数のAdobe製品とワークスペースに権限を割り当てることができます。 新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
 ### 役割と権限 {#roles-permissions}
 
@@ -213,7 +216,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
 
    * Visual Experience Composer
    * レポート
-   * Scene7設定
+   * Scene7 の設定
    * 実装
    * プロパティ
    * ホスト
@@ -235,7 +238,7 @@ Web プロパティは、Web サイト（群）を意味し、複数のルール
    * 画像オファー
    * 条件ライブラリ、デザインライブラリ、カタログ、Recommendations 設定を含むすべての Recommendations。
    * エンタープライズ権限を有効にする前にTarget Premium内で作成された既存のリソース（アクティビティ、コードオファー、オーディエンスなど）は、コピーできますが、他のワークスペースに移動することはできません。
-   * アクティビティ、オーディエンス、コードオファー、画像オファー、または次のソリューションやメソッドを使用して作成されたその他のリソースは、Enterprise Permissions モデルでは制御できませんが、デフォルトのWorkspace（Target Classic、Adobe Experience Manager（AEM）、Adobeモバイルサービスおよび API を使用して作成されたリソース）の一部です。 API を利用して作成されたリソースには、アクティビティ、オーディエンス、コードオファー、画像オファーが含まれます。
+   * アクティビティ、オーディエンス、コードオファー、画像オファー、または次のソリューションやメソッドを使用して作成されたその他のリソースは、Enterprise Permissions モデルでは制御できませんが、デフォルトのWorkspace（Target Classic、Adobe Experience Manager（AEM）、Adobe Mobile Services および API を使用して作成されたリソース）の一部です。 API を利用して作成されたリソースには、アクティビティ、オーディエンス、コードオファー、画像オファーが含まれます。
    * 画像オファー（`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` に保存されたアセットは、現在、エンタープライズ権限モデルで制御できません。
    * clickTracking とリダイレクトは、宛先リンクまたは宛先ページがアクティビティに含まれるプロパティの一部である場合に機能します。 また、`targetPageParams()` 関数を使用する場合、clickTracking が機能しないことがあります。 関数には、`targetPageParamsAll()` を使用することをお勧めします。
 

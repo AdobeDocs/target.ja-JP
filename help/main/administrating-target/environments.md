@@ -1,11 +1,11 @@
 ---
 keywords: 環境；トラブルシューティング；ベストプラクティス；ubox；リダイレクト；リダイレクト；ホワイトリスト；ブラックリスト；ブロックリスト 許可リストに加える
-description: Adobe内の環境を使用して、サイトと実稼動前の環境を整理し、管理  [!DNL Target]  分離されたレポートを容易にする方法について説明します。
+description: Adobeの環境を使用して、サイト  [!DNL Target]  実稼動前の環境を整理し、管理と環境別レポートを容易にする方法を説明します。
 title: 環境の概要と使用方法
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -21,6 +21,8 @@ ht-degree: 47%
 デフォルトの環境である環境の 1 つは、[!UICONTROL Production] という名前が事前に付けられています。 このデフォルトの環境は、名前を変更した場合でも削除できません。[!DNL Target] では、この環境で、最終的な承認済みのアクティビティとテストを扱うことを前提としています。
 
 新しい web サイトまたはドメインから [!DNL Target] リクエストを受信すると、これらの新しいドメインは常に [!UICONTROL Production] 環境に表示されます。 [!UICONTROL Production] 環境では設定を変更できないので、不明なサイトや新しいサイトには、アクティブで準備完了のコンテンツのみが表示されます。 ホスト管理では、アクティビティを有効化する前に、テスト、ステージングおよび開発環境を使って新しいアクティビティとコンテンツの質を容易に確保することもできます。
+
+{{permissions-update}}
 
 環境を管理するには、**[!UICONTROL Administration]**/**[!UICONTROL Environments]** をクリックします。
 

@@ -5,7 +5,7 @@ title: ' [!DNL Target] でのレポートの設定方法'
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
@@ -15,6 +15,8 @@ ht-degree: 22%
 # [!DNL Target] でのレポートの設定
 
 [!DNL Target] アカウント全体に適用される [!DNL Adobe Target] レポートで使用する一般設定を構成します。
+
+{{permissions-update}}
 
 [!UICONTROL Reporting] 設定ページにアクセスするには、**[!UICONTROL Administration]**/**[!UICONTROL Reporting]をクリックします。**
 

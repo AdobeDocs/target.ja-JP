@@ -5,7 +5,7 @@ title: 応答トークンとその使用方法
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ ht-degree: 22%
 レスポンストークンを使用すると、使用する変数を（キーと値のペアで）選択し、[!DNL Target] 応答の一部として送信できるようにします。 スイッチを使用して変数を有効にすると、変数は [!DNL Target] 応答で送信され、ネットワーク呼び出しで検証できます。 レスポンストークンは [!UICONTROL Preview] モードでも機能します。
 
 プラグインとレスポンストークンの主な違いは、配信時に実行されるページにJavaScriptを配信する点です。 ただし、応答トークンはオブジェクトを配信し、このオブジェクトはイベントリスナーを使用して読み取り、操作できます。 応答トークンのアプローチは、より安全で、サードパーティ統合の開発とメンテナンスを容易にします。
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -80,11 +82,11 @@ ht-degree: 22%
 
 メタデータオブジェクトとデータオブジェクトを持つ Handle オブジェクトクラスを使用して、[!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
 
-次のレスポンスの例では、[!DNL Platform Web SDK] のカスタム・イベント・ハンドラをHTML・ページに直接追加します（コードで使用するオブジェクトについて説明した表）。
+次の応答例では、[!DNL Platform Web SDK] のカスタムイベントハンドラーをHTMLページに直接追加します（コードで使用されるオブジェクトについて説明した表）。
 
 | オブジェクト | 情報 |
 | --- | --- |
-| タイプ - Personalization.decision | [!DNL Target] ーザーまたはOffer decisioningプロバイダーによって決定されたかどうか。 |
+| タイプ - Personalization.decision | [!DNL Target] またはOffer Decisioningのプロバイダーによって決定されたかどうか。 |
 | DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target] は、応答トークンのメタデータと値をページに提供します。 |
 | メタ | ページに渡されるメタデータ。 |
 | データ | ページに渡されるメタデータの値。 |
@@ -214,11 +216,11 @@ ht-degree: 22%
 
 ## Google Analyticsへのデータの送信
 
-次の節では、データをGoogle Analytics 4 に送信 [!DNL Target] る方法について説明します。 応答トークンから送信されたデータは、他のサードパーティ統合環境に送信することもできます。
+次の節では、Google Analytics 4 にデータ [!DNL Target] 送信する方法について説明します。 応答トークンから送信されたデータは、他のサードパーティ統合環境に送信することもできます。
 
-### ![AEP バッジ ](/help/main/assets/platform.png)Platform Web SDKを介したGoogle Analyticsへのデータの送信
+### ![AEP バッジ ](/help/main/assets/platform.png)Platform Web SDKを介してGoogle Analyticsにデータを送信する
 
-Google Analyticsページに次のコードを追加すると、Platform Web SDK バージョン 2.6.0 （またはそれ以降）を介してHTMLを送信できます。
+Google Analyticsページに次のコードを追加すると、Platform Web SDK バージョン 2.6.0 （またはそれ以降）を介してHTMLからデータを送信できます。
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ Google Analyticsページに次のコードを追加すると、Platform Web SDK
 </script>
 ```
 
-### ![at.js バッジ ](/help/main/assets/atjs.png)at.js を使用してGoogle Analyticsにデータを送信する {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js バッジ ](/help/main/assets/atjs.png)at.js を使用したGoogle Analyticsへのデータの送信 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 次のコードを HTML ページに追加することで、Google Analytics に at.js を介してデータを送信できます。
 
@@ -312,7 +314,7 @@ Google Analyticsページに次のコードを追加すると、Platform Web SDK
 
 ### ![at.js バッジ ](/help/main/assets/atjs.png)Google Analyticsとデバッグ
 
-次のコードでは、Google Analyticsを使用したデバッグが可能です。
+次のコードを使用すると、Google Analyticsを使用してデバッグできます。
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
