@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '549'
 ht-degree: 40%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 40%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 4 月 8 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 以下の今後のリリースに関するプレリリースノートを追加しました。<UL><li>[!DNL Target Standard/Premium] 25.4.2 （2025 年 4 月 8 日（PT））</li><li>[!DNL Target Standard/Premium] 25.4.3 （2025 年 4 月 10 日（PT））</li></ul> |
 | 4月4日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | 2025 年 4 月 22 日（PT）に予定されている今後の [!DNL Target] 権限の更新に関するリリースノートを更新しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 2025 年 4 月 22 日（PT）に予定されている今後の [!DNL Target] 権限の更新に関するプレリリースノートを更新しました。 |
 |  | [管理者の最初の手順](/help/main/administrating-target/start-target.md#admin-permissions) | 次の節を追加しました：「[!UICONTROL Administration] 設定の編集に必要な権限」 |
