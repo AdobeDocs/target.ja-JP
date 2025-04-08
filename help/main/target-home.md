@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
+source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 96%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025年4月7日（PT）（[変更点を確認](r-release-notes/doc-change.md)）**
+**最終更新日：2025年4月8日（PT）（[変更点を確認](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
 >このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 >
->- [*Adobe Target デベロッパーガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
+>- [*Adobe Target 開発者ガイド*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
 >- [*Adobe Target チュートリアル*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja){target=_blank}
 >
 >リリース情報については、[Target リリースノート（現行）](/help/main/r-release-notes/release-notes.md)を参照してください。
@@ -56,7 +56,7 @@ ht-degree: 96%
 
 ## 開発者 {#developers}
 
-- [Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}：このポータルでは、[!DNL Target] を実装するための API および SDK ドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを掲載しています。
+- [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}: This portal provides resources and guides for [!DNL Adobe Target] developers, including API and SDK documentation to implement [!DNL Target].
 
 ## Target と Adobe Experience Cloud の管理者 {#admins}
 
