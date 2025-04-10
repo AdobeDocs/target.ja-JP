@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
+source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 30%
+source-wordcount: '744'
+ht-degree: 28%
 
 ---
 
@@ -31,6 +31,16 @@ ht-degree: 30%
 
 詳しくは、[Target の管理 ](/help/main/administrating-target/start-target.md) を参照してください。
 
+## [!DNL Target Standard/Premium] 25.4.4 （2025 年 4 月 15 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* アクティビティで重複オプションを解決する際にユーザーをガイドするエラーメッセージを追加しました。 （TGT-51927）
+* リダイレクトオファーを使用してページまたはエクスペリエンスを削除する際に、クリックトラックセレクターが削除されない問題を修正しました。 （TGT-51952）
+* [!DNL Target] がアクティビティ URL で「#」文字を正しく検出できない問題を修正しました。 （TGT-52093）
+* [!UICONTROL Automated Personalization] （AP）アクティビティでオファーレベルのターゲティングを編集する際に、オーディエンス定義が表示されない問題を修正しました。 （TGT-52148）
+* UI で、オーディエンスの絞り込みとアクティビティのターゲット設定オーディエンスが反転していた問題を修正しました。 （TGT-52158）
+
 ## [!DNL Target Standard/Premium] 25.4.3 （2025 年 4 月 10 日（PT））
 
 このリリースには、次の修正および更新が含まれています。
@@ -51,7 +61,6 @@ ht-degree: 30%
 * [!UICONTROL Visual Experience Composer] （VEC）内でエクスペリエンス URL 全体が [!UICONTROL Browse mode] に表示されない問題を修正しました。 （TGT-52101）
 * アクティビティを編集するとページ配信で URL の末尾に「/」が追加され、レンダリングが無効になる問題を修正しました。 （TGT-52114）
 * [!UICONTROL Form-Based Experience Composer] の [!UICONTROL Activity QA] リンクが [!DNL Adobe Experience Cloud] ホームページに誤ってリダイレクトされる問題を修正しました。 （TGT-52055）
-* アクティビティで重複オプションを解決する際にユーザーをガイドするエラーメッセージを追加しました。 （TGT-51927）
 * 保存して再度開いた後に、[!UICONTROL A/B Test] アクティビティに追加された追加のページが保持されない問題を修正しました。 （TGT-51994）
 * 顧客がインラインスタイルセクションのスタイルを削除できない問題を修正しました。 （TGT-52070）
 * 従来の UI と同様に、[!UICONTROL Activity QA] 定ダイアログボックスでの [ オーディエンス定義カード ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) へのアクセス権が復元されました。 （TGT-52056）
