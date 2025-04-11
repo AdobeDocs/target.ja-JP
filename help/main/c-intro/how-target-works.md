@@ -4,10 +4,10 @@ description: 'JavaScript ライブラリ（AEP Web SDK at.js）、サーバー�
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -40,7 +40,7 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [ [!DNL Target] を使用した  [!DNL Adobe Experience Platform] の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 
@@ -100,6 +100,13 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 ## [!DNL Target] がサーバーコールの使用状況をカウントする方法 {#usage}
 
 [!DNL Target] は、顧客に価値を提供するサーバー呼び出しのみをカウントします。 次の表に、エンドポイント、単一の mbox、バッチ mbox 呼び出し、実行、プリフェッチおよび通知呼び出しの [!DNL Target] のカウント方法を示します。
+
+次の表に示すように、次の情報は、サーバー呼び出し [!DNL Target] 使用されるカウント方法を理解するのに役立ちます。
+
+* **1 回カウント**:API 呼び出しごとに 1 回カウントされます
+* **mbox の数をカウント**：単一の API 呼び出しのペイロード内の配列の下にある mbox の数をカウントします
+* **無視**：まったくカウントされない
+* **ビュー数をカウント（1 回）**：ペイロード内の配列の下のビューの数をカウントします。 通常の実装では、ビュー通知の通知配列の下には 1 つのビューしかなく、これはほとんどの実装で 1 回のカウントと同等になります
 
 | エンドポイント | 取得タイプ | オプション | カウント方法 |
 |--- |--- |--- |-- |
@@ -162,7 +169,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 >
 >現在、[!DNL Target] には中国にEdge クラスターがないため、同地域の [!DNL Target] のお客様は訪問者パフォーマンスに制限を感じています。 ファイアウォールが存在せず、Edge クラスターが存在しない場合は、サイトエクスペリエンスに影響を与え、レンダリングやページの読み込み時間が遅くなる可能性があります。 また、マーケターが、[!DNL Target] オーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに登録する](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}を参照してください。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
