@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 34%
 
 ---
 
@@ -18,6 +18,33 @@ ht-degree: 52%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.4.3 （2025 年 4 月 11 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* 特定の [!UICONTROL Experience Targeting] （XT）アクティビティで、お客様がオーディエンス情報ポップアップを開くことができないエラーを修正しました。 （TGT-52049）
+* [!UICONTROL Visual Experience Composer] （VEC）で行われた変更に続いて、オーディエンス設定が「[!UICONTROL All Visitors]」に戻る問題を修正しました。 （TGT-52132）
+* 特定のアクティビティに対してオーディエンスの絞り込みが表示されない問題を修正しました（TGT-52057）
+* お客様がデフォルトワークスペースに [!UICONTROL Experience Fragment] を挿入できない問題を修正しました。 （TGT-52073）
+* オファーが「コンテンツが見つかりません」と表示され、[!UICONTROL Automated Personalization] （AP）アクティビティの [!UICONTROL Offers] ページに表示されない問題を修正しました。 （TGT-52150）
+* アクティビティ内で重複オーディエンスを許可する機能を追加しました。 （TGT-51200）
+* 編集後に XT アクティビティの [!UICONTROL Goals & Settings] ページに間違った mbox 名が表示される問題を修正しました。 （TGT-52026）
+* `experiences/optionLocations` に表示さ `defaultContent` ていないにもかかわらず、オプションに表示される問題を修正しました。 （TGT-52036）
+* 空の文字列が null 値に変換されないようにする問題を修正しました。 （TGT-52037）
+* 顧客が編集後に [!UICONTROL Goals & Settings] ページで [!UICONTROL Reporting Settings] の [!UICONTROL Optimization Goal] を再設定する必要がある問題を修正しました。 （TGT-52071）
+* ページ配信ルールを持たないアクティビティで、[!UICONTROL Overview] のページに複数のルールが表示される問題を修正しました。 （TGT-52084）
+* 基本多言語平面外の文字（絵文字など）を使用してオファーを保存しようとしたユーザーに対するエラーメッセージを追加しました。 （TGT-52105）
+* アクティビティを開くと、「このアクティビティは、ソースで削除された 1 つ以上のオーディエンスを使用しています」というエラーメッセージがトリガーされる問題を修正しました。 （TGT-52120）
+* 編集中に、更新された [!UICONTROL Visual Experience Composer] （VEC）にクリックトラック指標が表示されない問題を修正しました。 （TGT-52152）
+* アクティビティの場所としてクエリパラメーターを含む URL において、アクティビティの [!UICONTROL Overview] ールページにクエリパラメーターが表示されない問題を修正しました。 （TGT-51635）
+* [!UICONTROL Visual Experience Composer] （VEC）内でエクスペリエンス URL 全体が [!UICONTROL Browse mode] に表示されない問題を修正しました。 （TGT-52101）
+* アクティビティを編集するとページ配信で URL の末尾に「/」が追加され、レンダリングが無効になる問題を修正しました。 （TGT-52114）
+* [!UICONTROL Form-Based Experience Composer] の [!UICONTROL Activity QA] リンクが [!DNL Adobe Experience Cloud] ホームページに誤ってリダイレクトされる問題を修正しました。 （TGT-52055）
+* 保存して再度開いた後に、[!UICONTROL A/B Test] アクティビティに追加された追加のページが保持されない問題を修正しました。 （TGT-51994）
+* 顧客がインラインスタイルセクションのスタイルを削除できない問題を修正しました。 （TGT-52070）
+* 従来の UI と同様に、[!UICONTROL Activity QA] 定ダイアログボックスでの [ オーディエンス定義カード ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) へのアクセス権が復元されました。 （TGT-52056）
+* 更新された UI では、変更を加えずにページやオーディエンスを保存することができませんでした。 顧客がアクティビティに新しいページやオーディエンスを追加しても、変更を加えない場合、保存時に変更さ [!DNL Target] ていないオーディエンスは破棄されます。 この動作をユーザーに通知するために、関連する場所に通知が追加されました。 （TGT-52104）
 
 ## [!DNL Target Standard/Premium] 25.4.1 （2025 年 4 月 2 日（Pt））
 
