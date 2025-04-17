@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 34%
+source-wordcount: '1188'
+ht-degree: 30%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 34%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.4.4 （2025 年 4 月 17 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* アクティビティで重複オプションを解決する際にユーザーをガイドするエラーメッセージを追加しました。 （TGT-51927）
+* リダイレクトオファーを使用してページまたはエクスペリエンスを削除する際に、`ClickTrack` セレクターが削除されない問題を修正しました。 （TGT-51952）
+* 空の `ClickTrack` セレクターを許可することで発生する問題を修正しました。 [!DNL Target] では、セレクターフィールドを空白にすることはできないという要件が追加されました。 （TGT-52107）
+* 重複した名前の指標が正しく許可されない問題を修正しました。 指標に一意の名前が必要になりました。 （TGT-52201）
+* [!UICONTROL Automated Personalization] （AP）アクティビティでオファーレベルのターゲティングを編集する際に、オーディエンス定義が表示されない問題を修正しました。 （TGT-52148）
+* [!UICONTROL Editor] 権限を持つお客様がアクティビティを保存できない問題を修正しました。 （TGT-52227）
+* オプション `OptionLocalIDs` 変更されていないときに、が正しく増分されなくなりました。 （TGT-52139）
+* アクティビティを作成しようとすると「無効な `optionLocalIds`」メッセージが表示される問題を修正しました。 （TGT-52154）
+* アクティビティに対して定義され `OptionLocalIDs` アクティビティと、エクスペリエンスの定義に使用されるアクティビティとの間の不一致が修正されました。 （TGT-52215）
+* A/B アクティビティを作成しようとすると検証エラーが発生する問題を修正しました。 （TGT-51923）
 
 ## [!DNL Target Standard/Premium] 25.4.3 （2025 年 4 月 11 日（PT））
 
@@ -85,7 +100,7 @@ ht-degree: 34%
 |--- |--- |
 | [ドキュメントの変更点](/help/main/r-release-notes/doc-change.md) | リリースノートに記載されていない、このガイドの更新点に関する詳細情報を表示します。 |
 | [以前のリリースのリリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 以前のリリースの Target Standard および Target Premium の新機能および拡張機能に関する情報を確認できます。 |
-| [Adobe Experience Cloud のリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
+| [Adobe Experience Cloud リリースノート ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja){target=_blank} | Adobe Experience Cloud ソリューションの最新のリリースノートが表示されます。 |
 
 ## プレリリース情報 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -93,5 +108,5 @@ ht-degree: 34%
 
 | リソース | 詳細 |
 |--- |--- |
-| [アドビ優先製品アップデート](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | [!DNL Target] およびその他の [!DNL Adobe Experience Cloud] ソリューションに対する今後の製品の機能強化に関する事前通知を受信します。 |
+| [Adobe 優先製品のアップデート](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | [!DNL Target] およびその他の [!DNL Adobe Experience Cloud] ソリューションに対する今後の製品の機能強化に関する事前通知を受信します。 |
 | [Target リリースノート - プレリリース](/help/main/r-release-notes/target-release-notes.md){target=_blank} | プレリリース情報など、当月の Target リリースに関する情報です。 |
