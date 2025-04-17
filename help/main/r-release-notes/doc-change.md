@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 38%
+source-wordcount: '647'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 38%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 4月17日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 リリースに関するリリースノートを追加しました。 |
 | 4月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 リリースに関するリリースノートを追加しました。 |
 |  | [ 仕組  [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 「[!DNL Target] がサーバーコールの使用状況をカウントする方法」の節を追加しました。 |
 | 4月9日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 25.4.4 リリースのプレリリースノートの日付を更新しました。 |
@@ -43,7 +44,7 @@ ht-degree: 38%
 | 3月19日（PT） | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) に関連する問題のトラブルシューティング | IP アドレスを許可リストに更新しました。 |
 | 3月18日（PT） | [!UICONTROL Auto-Allocate] および [!UICONTROL Auto-Target] アクティビティに対する [A4T のサポート ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *サポートされる目標指標* セクションにメモを追加しました。 |
 | 3月14日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 リリースに関するリリースノートを追加しました。 |
-| 3月14日（PT） | [ サポートされているブラウザー ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | サポートされるブラウザーを更新し、「ビジュアル編集要件」の節を追加しました。 |
+| 3月14日（PT） | [サポートされているブラウザー](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | サポートされるブラウザーを更新し、「ビジュアル編集要件」の節を追加しました。 |
 | 3月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.5 リリースに関するリリースノートを追加しました。 |
 | 3月7日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.4 リリースに関するリリースノートを追加しました。 |
 | 3月6日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.2 リリースに関するリリースノートを追加しました。 |
@@ -59,7 +60,7 @@ ht-degree: 38%
 |  | [アクティビティ QA ブックマークレット](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2.x のアクティビティ QA ブックマークレットを更新しました。 |
 | 2月13日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 ユーザーインターフェイスのアップデートリリースを 2025 年 2 月 17 日（PT）に変更しました。 |
 | 2月12日（PT） | [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | [!DNL Target Standard/Premium] 25.2.1 リリース（2025 年 2 月 12 日（PT））で導入された更新された VEC を説明するために、トピック全体を更新しました。 |
-|  | [ サポートされているブラウザー ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | [!DNL Adobe Experience Platform Web SDK] を使用した Target 実装で、どのブラウザーがサポートされているかに関する情報を追加しました。 |
+|  | [サポートされているブラウザー](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | [!DNL Adobe Experience Platform Web SDK] を使用した Target 実装で、どのブラウザーがサポートされているかに関する情報を追加しました。 |
 |  | [Visual Experience Composer の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | VEC の以前のバージョンと更新されたバージョンの違いを説明する新しい記事を追加しました。 |
 |  | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 ユーザーインターフェイスのアップデート（2025 年 2 月 17 日（PT）に予定）のリリースノートを追加しました。 多くの記事が更新され、UI の変更が反映されました。 |
 
