@@ -6,46 +6,44 @@ short-description: Webサイト、モバイルサイト、アプリ、ソーシ�
 title: Target とは？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 52%
 
 ---
 
-# Target の概要
+# [!DNL Target] の概要
 
-[!DNL Adobe Target] は、顧客体験をカスタマイズおよびパーソナライズするために必要なすべてを提供する [!DNL Adobe Experience Cloud] ソリューションです。[!DNL Target] は、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化するのに役立ちます。
+[!DNL Adobe Experience Cloud] の一部である [!DNL Adobe Target] は、web、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルにわたって顧客体験をパーソナライズする包括的なツールを提供します。
 
-[!DNL Adobe Target] ソリューションは、[!DNL Target Standard] または [!DNL Target Premium] としてライセンスを取得できます。
+[!DNL Target] は、売上高を最大化するのに役立ち、[!DNL Target Standard] または [!DNL Target Premium] としてライセンスを取得できます。
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] は、A/B テストやルールベースのターゲティングアクティビティを視覚的に作成および管理するのに役立つ、[!DNL Adobe Target] のフロントエンドです。[!DNL Target Standard] では、[!UICONTROL Visual Experience Composer] （VEC）ワークフロー内外でのカスタムコードの挿入をサポートしています。 [!DNL Target Standard] は、デジタルプロパティの実装戦略を簡素化します。 各ページに 1 行のコードを記述するだけで、サイトと [!DNL Target] ージの間で必要なすべての通信を管理できます。
+[!DNL Target Standard] は [!DNL Adobe Target] のフロントエンドで、A/B テストやルールベースのターゲティングアクティビティを視覚的に作成および管理できます。 [!DNL Target] は、[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) （VEC）ワークフローの内外でのカスタムコードの挿入をサポートしています。 [!DNL Target Standard] は、デジタルプロパティの実装戦略を簡易化し、各ページに 1 行のコードを記述して、サイトと [!DNL Target] イト間のすべての通信を管理します。
 
-[!DNL Target Standard] には、業界のベストプラクティスが組み込まれています。[!DNL Target Standard] は、初心者と経験者の両方のユーザー向けに設計されています。[!DNL Adobe Experience Cloud] を使用している他のチームメンバーと簡単にデータや結果を共有し、コラボレーションすることが可能です。
+業界のベストプラクティスが [!DNL Target Standard] に統合されており、初心者と経験者の両方のユーザーに適しています。 [!DNL Adobe Experience Cloud] を使用して、データや結果を共有したり、チームメンバーと共同作業したりすることが簡単にできます。
 
-## Target Premium {#premium}
+## [!DNL Target Premium] {#premium}
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] は [!DNL Target] の高度なバージョンで、[!DNL Target Standard] にプレミアム機能を追加するためのライセンスが必要になります。
-
-[!DNL Target] ガイドのすべて [!DNL Target Premium] 記事には、各ページの上部または影響を受けるテキストの近くのインラインに [!UICONTROL Premium] バッジが含まれます。 [!UICONTROL Premium] バッジはクリック可能で、この節へのリンクが含まれています。
+[!DNL Target Premium] は高度なバージョンで、[!DNL Target Standard] にプレミアム機能を追加するためのライセンスが必要になります。 [!DNL Target] ガイドのすべて [!DNL Target Premium] 記事には、各ページの上部または影響を受けるテキストの近くのインラインに [!UICONTROL Premium] バッジが含まれます。 [!UICONTROL Premium] バッジをクリックすると、この節へのリンクが表示されます。
 
 **[!DNL Target Premium]には、次の機能が含まれます。**
 
-### Automated Personalization
+### [!UICONTROL Automated Personalization]
 
-[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、パーソナライズされたエクスペリエンスと、デジタルエクスペリエンスのコンバージョン率の向上を促す、高度な機械学習アルゴリズムを提供します。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) （AP）は、高度な機械学習アルゴリズムを使用して、パーソナライズされたエクスペリエンスを提供し、デジタルインタラクションのコンバージョン率を向上させます。
 
-[!UICONTROL Automated Personalization] は、サイト上の訪問者のアクティビティを記録して、類似する訪問者にコンテンツのターゲットを設定できるよう、訪問者のプロファイルを構築します。 AP は、個人と母数全体の両方について、コンテンツに対する応答を追跡します。次に、AP は洗練されたモデリングアプローチを使用して、自動的に個々のユーザーをターゲットに設定します。AP は、各訪問者に関するすべての情報を考慮します。
+AP は、訪問者のアクティビティを記録して、類似の訪問者にコンテンツをターゲットにするためのプロファイルを構築します。 AP は、洗練されたモデリングを使用して、個人および母集団のコンテンツに対する応答を追跡し、訪問者に関する既知のすべての情報に基づいて、各訪問者を自動的にターゲットにします。
 
-自 [!UICONTROL Automated Personalization] で学び、人間による分析を最小限に抑える必要があります。 AP は完全に自動化され、継続的に学習します。システムはモデルを構築し、個別の訪問者が最も関心を持つ可能性が高い商品は何かを、自動的に学習します。訪問者がサイトで何らかの操作をおこなうと、情報が収集され、訪問者プロファイルに保存されます。システムに最適なモデルを提供するよう複数のアルゴリズムを使用できます。
+AP は完全に自動化され、人間による分析を最小限に抑えながら継続的に学習します。 モデルを構築して、訪問者が興味を持つ可能性の高い製品を判断し、訪問者プロファイルの情報を収集および保存します。 複数のアルゴリズムを使用することで、システムに最適なモデルが得られます。
 
-### 自動ターゲット
+### [!UICONTROL Auto-Target]
 
-[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)では、高度な機械学習を使用して、マーケターが定義した複数の高パフォーマンスのエクスペリエンスを特定します。次に [!UICONTROL Auto-Target] 各訪問者に最適なエクスペリエンスが提供されます。 配信は、個別の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいています。[!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
+[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) では、高度な機械学習を使用して、マーケターが定義した高パフォーマンスのエクスペリエンスを特定します。 次に、個々の顧客プロファイルと、類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 [!UICONTROL Auto-Target] は、コンテンツをパーソナライズし、コンバージョンを促進します。
 
 ### Recommendations
 
