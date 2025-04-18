@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 67%
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
+
+## [!DNL Target Standard/Premium] 25.4.5 （2025 年 4 月 24 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* アクティビティを編集または保存する際に、複数のエクスペリエンスオーディエンスが表示される問題を修正しました。 （TGT-52134）
+* [!DNL Recommendations] アクティビティをアクティブ化した後、顧客の web サイトにレコメンデーションが表示されない問題を修正しました。 （TGT-52164）
+* オプション `OptionLocalIDs` 変更されていないときに、が誤って増分されることはなくなりました。 （TGT-52187）
+* ダウンロードしたレポートファイルで、レポート UI に存在するデータが正しく表示されるようになりました。 （TGT-52068）
+* Target が web サイトの URL に「#」文字を認識できない問題を修正しました。 （TGT-52093）
+* ページ配信ルールを追加した後、バッチ操作が失敗しなくなりました。 （TGT-52097）
+* [!DNL Target] が web サイトの URL からすべてのクエリパラメーターをトリミングする問題を修正しました。 （TGT-52100）
+* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
 
 ## Target 権限の更新（2025 年 4 月 22 日（PT））
 
