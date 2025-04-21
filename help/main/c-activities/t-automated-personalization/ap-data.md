@@ -5,9 +5,9 @@ title: 機械学習アルゴリズムを構築するために収集されるデ�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 52%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 52%
 | 顧客属性 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} 経由で [!DNL Target] プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
 | URL パラメーター | URL | 現在表示されているページの URL および URL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター ] |
 | 参照 URL | 参照 | 参照 URL と参照 URL の任意の URL パラメーター。 | カスタム - [ 参照 URL パラメーター ] - [ パラメーター値 ] |
-| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Adobe Experience Cloud] ソリューションの [!DNL Target] と共有されるすべてのオーディエンス（[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} を介した [!DNL Adobe Audience Manager] や [!DNL Adobe Analytics] など）。 | カスタム -Experience Cloudオーディエンス - [ オーディエンス名 ] |
+| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Adobe Experience Cloud] ソリューションの [!DNL Target] と共有されるすべてのオーディエンス（[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} を介した [!DNL Adobe Audience Manager] や [!DNL Adobe Analytics] など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
 | [!DNL Adobe Experience Platform Real-time CDP] オーディエンス | UPS | [!UICONTROL Destinations] を介して [!DNL Target] と共有される Platform Real-time CDP オーディエンス。 |  |
-| [!DNL Adobe Experience Platform Real-time CDP] 属性 | AEP | [!UICONTROL Destinations] を介して [!DNL Target] と共有される Platform Real-time CDP 属性。 |  |
+
 
 ## [!DNL Target] 機械学習アルゴリズムのブロック機能
 
