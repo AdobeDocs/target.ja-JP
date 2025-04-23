@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 39%
+source-wordcount: '700'
+ht-degree: 38%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 39%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
+| 4月23日（PT） | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) との統合 | *Real-Time CDP プロファイル属性機能の制限と考慮事項* の節に次の内容を追加しました。 <ul><li>[!DNL Target] は、オファーで使用されるプロファイル属性 [!DNL Adobe Experience Platform] 「文字列」データタイプのみをサポートします。 「Map」タイプと「Array」タイプの属性は、まだサポートされていません。</li></ul> |
 | 4月17日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 リリースに関するリリースノートを追加しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 リリースのプレリリースノートの日付を追加しました。 |
 | 4月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 リリースに関するリリースノートを追加しました。 |
