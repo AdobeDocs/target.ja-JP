@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ ht-degree: 31%
 * アクティビティ内でオファーを作成する際に、顧客がワークスペースを選択できなかった問題を修正しました。 （TGT-52289）
 * 別のエクスペリエンスに切り替えると、あるエクスペリエンスからの変更が正しく表示されない問題を修正しました。 （TGT-52184）
 * アクティビティを開いたときに、[!DNL Target] UI にデフォルトオファーが正しく表示されない問題を修正しました。 （TGT-52198）
+
+## [!DNL Target Standard/Premium] 25.4.5 （2025 年 4 月 25 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* Web サイトの URL に「#」文字が認識され [!DNL Target] い問題を修正しました。 （TGT-52093）
+* [!UICONTROL Automated Personalization] （AP）アクティビティ用に更新された UI で、オーディエンスをクリアしたり組み合わせオーディエンスを編集したりできない問題を修正しました。 （TGT-52149）
+* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
 
 ## Target 権限の更新（2025 年 4 月 22 日（PT））
 
