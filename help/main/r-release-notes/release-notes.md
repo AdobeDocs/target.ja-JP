@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 30%
+source-wordcount: '1677'
+ht-degree: 24%
 
 ---
 
@@ -18,6 +18,42 @@ ht-degree: 30%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.4.5 （2025 年 4 月 25 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* [!UICONTROL Activity] 設定ページと [!UICONTROL Reporting] の概要ページの間でオーディエンスのリストに不一致が生じる問題を修正しました。 （TGT-52203）
+* 無効なユーザー入力エラーが原因で、アクティビティに新しいページを追加できない問題を修正しました。 （TGT-52263）
+* オプションが変更されていない場合に、`OptionLocalIDs` が誤って増分される問題を修正しました。 （TGT-52187）
+* オプションが変更されていないときに、`location` と `OptionLocalIDs` が誤って増加する問題を修正しました。 （TGT-52188）
+* アクティビティの [!UICONTROL Overview] ページ上の場所が正しくない問題を修正しました。 （TGT-52182）
+* 無効な場所に対して無効なセレクター警告が表示されなかった問題を修正しました。 （TGT-52110）
+* ダウンロードしたレポートファイルでレポート UI に存在するデータが正しく表示される問題を修正しました。 （TGT-52068）
+* ページ配信ルールを追加した後、バッチ操作が失敗しないように問題を修正しました。 （TGT-52097）
+* [!DNL Target] が web サイトの URL からすべてのクエリパラメーターをトリミングする問題を修正しました。 （TGT-52100）
+* 従来の UI と更新された [!DNL Target] UI の両方で、お客様がアクティビティを作成できなかったコンソールエラーを解決しました。 （TGT-52181）
+* 顧客が新しいページを追加できず、無効なユーザー入力エラーが発生する問題を修正しました。 （TGT-52258）
+* ページを追加してから「[!UICONTROL Experiences]」タブに戻ると変更が消える問題を修正しました。 （TGT-52264）
+* 顧客が [!UICONTROL Experience Targeting] （XT）アクティビティのオーディエンスを変更できなかった問題を修正しました。 （TGT-52191）
+* サポートされていない UI ルールが原因で XT アクティビティを編集できないエラーを修正しました。 （TGT-52273）
+* 更新 [!UICONTROL Visual Experience Composer] （VEC）で、パンくずリストがエディターの下部に常に表示されず、要素を正確に選択するのが困難になる問題を修正しました。 （TGT-52169）
+* [!UICONTROL Audience] ドロップダウンリストで、ページネーションが原因ですべてのオーディエンスを表示できなかった問題を修正しました。 （TGT-52204）
+* [!UICONTROL Automated Personalization] （AP）アクティビティに新しいオファーを追加する際に、無効なユーザー入力メッセージが表示される問題を修正しました。 （TGT-52210）
+* 顧客が A4T にアクセスできない場合でも、[!UICONTROL Analytics for Target] （A4T）が誤ってレポートソースとして選択される問題を修正しました。 （TGT-52226）
+* [!UICONTROL View a Page] URL 指標を使用してアクティビティを保存できない問題を修正しました。 （TGT-52260）
+* アクティビティ内でオファーを作成する際に、顧客がワークスペースを選択できなかった問題を修正しました。 （TGT-52289）
+* 顧客がすべてのワークスペースでアクティビティを作成できなかった問題を修正しました。 （Tgt-52218）
+* 別のエクスペリエンスに切り替えると、あるエクスペリエンスからの変更が正しく表示されない問題を修正しました。 （TGT-52184）
+* アクティビティを開いたときに、[!DNL Target] UI にデフォルトオファーが正しく表示されない問題を修正しました。 （TGT-52198）
+
+## Target 権限の更新（2025 年 4 月 22 日（PT））
+
+この今後の更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。
+
+2025 年 4 月 22 日（PT）より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、ワークスペースでの役割に関係なく、[!UICONTROL Administration] セクションの設定を更新でき [!DNL Target] ようになります。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
+
+詳しくは、[Target の管理 ](/help/main/administrating-target/start-target.md) を参照してください。
 
 ## [!DNL Target Standard/Premium] 25.4.4 （2025 年 4 月 17 日（PT））
 
