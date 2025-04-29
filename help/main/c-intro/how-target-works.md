@@ -4,10 +4,10 @@ description: 'JavaScript ライブラリ（AEP Web SDK at.js）、サーバー�
 title: ' [!DNL Target]  の仕組み'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -40,7 +40,7 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Target] を使用した  [!DNL Adobe Experience Platform] の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 
@@ -97,33 +97,36 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 
 詳細については、[Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) を参照してください。
 
-## [!DNL Target] がサーバーコールの使用状況をカウントする方法 {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] は、顧客に価値を提供するサーバー呼び出しのみをカウントします。 次の表に、エンドポイント、単一の mbox、バッチ mbox 呼び出し、実行、プリフェッチおよび通知呼び出しの [!DNL Target] のカウント方法を示します。
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-次の表に示すように、次の情報は、サーバー呼び出し [!DNL Target] 使用されるカウント方法を理解するのに役立ちます。
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **1 回カウント**:API 呼び出しごとに 1 回カウントされます。
-* **mbox の数をカウント**：単一の API 呼び出しのペイロード内の配列の下にある mbox の数をカウントします。
-* **無視**：まったくカウントされません。
-* **ビュー数をカウント（1 回）**：ペイロード内の配列の下のビューの数をカウントします。 通常の実装では、ビュー通知の通知配列の下には 1 つのビューしかなく、これはほとんどの実装で 1 回カウントするのと同等になります。
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| エンドポイント | 取得タイプ | オプション | カウント方法 |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | 単一の | [!UICONTROL execute] | 1 回カウント |
-| `rest/v2/batchmbox` | バッチ | [!UICONTROL execute] | mbox の数をカウント |
-|  | バッチ | [!UICONTROL prefetch] | 無視する |
-|  | バッチ | [!UICONTROL notifications] | mbox の数をカウント |
-| `/ubox/[raw\|image\|page]` | 単一の | [!UICONTROL execute] | 1 回カウント |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | 単一の | [!UICONTROL execute]／[!UICONTROL pageLoad] | 1 回カウント |
-|  | 単一の | [!UICONTROL prefetch]／[!UICONTROL pageLoad] | 無視する |
-|  | 単一の | [!UICONTROL prefetch]／[!UICONTROL views] | 無視する |
-|  | バッチ | [!UICONTROL execute]／[!UICONTROL mboxes] | mbox の数をカウント |
-|  | バッチ | [!UICONTROL prefetch]／[!UICONTROL mboxes] | 無視する |
-|  | バッチ | [!UICONTROL notifications]／[!UICONTROL views] | 表示数を（1 回だけ）カウント |
-|  | バッチ | [!UICONTROL notifications]／[!UICONTROL pageLoad] | 1 回カウント |
-|  | バッチ | [!UICONTROL notifications] > type （[!UICONTROL conversions]） | 1 回カウント |
-|  | バッチ | [!UICONTROL notifications]／[!UICONTROL mboxes] | mbox の数をカウント |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## エッジネットワーク {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ AWS でホストされる [!DNL Target] のエッジクラスターには、以�
 >
 >現在、[!DNL Target] には中国にEdge クラスターがないため、同地域の [!DNL Target] のお客様は訪問者パフォーマンスに制限を感じています。 ファイアウォールが存在せず、Edge クラスターが存在しない場合は、サイトエクスペリエンスに影響を与え、レンダリングやページの読み込み時間が遅くなる可能性があります。 また、マーケターが、[!DNL Target] オーサリング UI を使用する際に遅延が発生することがあります。
 
-必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに加える](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}を参照してください。
+必要に応じて、[!DNL Target] のエッジクラスターを許可リストに追加できます。詳しくは、[Target のエッジノードを許可リストに登録する](https://experienceleague.adobe.com/ja/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}を参照してください。
 
 ## ユーザーエクスペリエンスの保護 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

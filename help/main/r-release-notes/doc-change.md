@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target]  ドキュメントへの重要な追加や�
 title: ' [!DNL Target] のドキュメントのアップデートはどこで確認できますか？'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '704'
 ht-degree: 39%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 39%
 | 4月17日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 リリースに関するリリースノートを追加しました。 |
 |  | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 リリースのプレリリースノートの日付を追加しました。 |
 | 4月11日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 リリースに関するリリースノートを追加しました。 |
-|  | [ 仕組  [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 「[!DNL Target] がサーバーコールの使用状況をカウントする方法」の節を追加しました。 |
 | 4月9日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 25.4.4 リリースのプレリリースノートの日付を更新しました。 |
 | 4月8日（PT） | [CNAME と Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | 次の更新がおこなわれました。<ul><li>すべての証明書は RSA SHA-256 で、キーはデフォルトで RSA 2048 ビットです。 2048 ビットを超えるキーサイズについては、カスタマーケアを通じて明示的にリクエストする必要があります。 （以前に述べた 2048 ビットを超えるキーサイズはサポートされていませんでした。）</li><li>bash スクリプトを更新しました。</li><li>検証出力コードスニペットを更新しました。</li></ul> |
 | 4 月 8 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | 次の今後のリリースに関するプレリリースノートを追加しました。<UL><li>[!DNL Target Standard/Premium] 25.4.3 （2025 年 4 月 10 日（PT））</li></ul> |
