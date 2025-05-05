@@ -25,11 +25,11 @@ ht-degree: 3%
 
 [!DNL Target Recommendations] と [!DNL Adobe Journey Optimizer] の統合を使用するには、以下が必要です。
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) は、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} を使用して実装されます。
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) は、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} を使用して実装されます。
 
   この機能は、[!DNL Target Standard] ライセンスでは使用できません。また、at.js や他の [!DNL Target] SDK を使用して [!DNL Target] を実装する場合にも使用できません。
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target=_blank}。
 
 ## サンプルユースケース
 

@@ -44,7 +44,7 @@ ht-degree: 26%
 
    [!UICONTROL Collections] ページには、既存のコレクションのリストが表示されます。 新しいコレクションを作成するには、「[!UICONTROL Create Collection]」ボタンをクリックします。 また、目的のコレクションの横にある「その他のアクション」アイコン（![ その他のアクション」アイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしたあと目的のオプションをクリックすると、既存のコレクションを編集、コピー、削除できます。
 
-   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+   [!UICONTROL Collections] リスト表示の各コレクションについて報告された「項目数」は、設定されたデフォルトの Recommendations [ ホストグループ ](/help/main/administrating-target/hosts.md) （環境）内のそのコレクションのルールに一致する製品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 

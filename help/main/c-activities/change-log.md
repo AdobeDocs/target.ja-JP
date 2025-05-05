@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # アクティビティの変更ログ
 
-[!DNL Adobe Target] [!UICONTROL Change Log] は、変更内容、変更を加えたユーザー、変更が発生したタイミングなど、アクティビティのアクションを記録します。 [!UICONTROL Change Log] ページには、リアルタイムのインサイトを得るために [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から値が入力されます。
+[!DNL Adobe Target] [!UICONTROL Change Log] は、変更内容、変更を加えたユーザー、変更が発生したタイミングなど、アクティビティのアクションを記録します。 [!UICONTROL Change Log] ページには、リアルタイムのインサイトを得るために [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} から値が入力されます。
 
 [!UICONTROL Change Log] のページにアクセスするには：
 

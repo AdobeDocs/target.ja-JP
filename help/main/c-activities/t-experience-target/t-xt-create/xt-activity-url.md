@@ -23,7 +23,7 @@ ht-degree: 38%
    >
    >デフォルトでは、VEC または [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) は、[Visual Experience Composer 設定 ](/help/main/administrating-target/visual-experience-composer-set-up.md) で指定されているページを開きます。 アクティビティ作成中に、異なるページを指定することもできます。
    >
-   >[[!DNL Target] at.js JavaScript ライブラリまたは  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} を含まないサイトの URL を指定した場合、ページ要素を選択できません。
+   >[[!DNL Target] at.js JavaScript ライブラリまたは  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank} を含まないサイトの URL を指定した場合、ページ要素を選択できません。
 
 1. （条件付き） VEC が開いた後に別のページを表示するには、「**[!UICONTROL Configure]**」をクリックして「**[!UICONTROL Page Delivery]**」を選択し、「[!UICONTROL URL]」フィールドで URL を指定します。
 

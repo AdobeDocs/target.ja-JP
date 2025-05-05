@@ -127,7 +127,7 @@ CSV ファイルの管理は、テキストエディターで生データの形�
   }
 ```
 
-配信 API と保存エンティティ API の使用について詳しくは [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}Adobe Recommendations API ドキュメント &rbrace; を参照してください。
+配信 API と保存エンティティ API の使用について詳しくは [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}Adobe Recommendations API ドキュメント &rbrace; を参照してください。
 
 ## 複数値の属性での演算子の使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

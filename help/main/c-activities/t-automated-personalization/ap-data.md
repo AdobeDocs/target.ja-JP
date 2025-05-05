@@ -41,7 +41,7 @@ ht-degree: 52%
 | 顧客属性 | CRS | [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja){target=_blank} 経由で [!DNL Target] プロファイルにアップロードされた顧客属性。 | カスタム – 訪問者プロファイル - [ 属性名 ] |
 | URL パラメーター | URL | 現在表示されているページの URL および URL パラメーター。 | カスタム - URL パラメーター – [URL パラメーター ] |
 | 参照 URL | 参照 | 参照 URL と参照 URL の任意の URL パラメーター。 | カスタム - [ 参照 URL パラメーター ] - [ パラメーター値 ] |
-| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Adobe Experience Cloud] ソリューションの [!DNL Target] と共有されるすべてのオーディエンス（[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} を介した [!DNL Adobe Audience Manager] や [!DNL Adobe Analytics] など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
+| [!DNL Adobe Experience Cloud] 共有オーディエンス | AAM | 他の [!DNL Adobe Experience Cloud] ソリューションの [!DNL Target] と共有されるすべてのオーディエンス（[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target=_blank} を介した [!DNL Adobe Audience Manager] や [!DNL Adobe Analytics] など）。 | カスタム - Experience Cloud オーディエンス - [ オーディエンス名 ] |
 | [!DNL Adobe Experience Platform Real-time CDP] オーディエンス | UPS | [!UICONTROL Destinations] を介して [!DNL Target] と共有される Platform Real-time CDP オーディエンス。 |  |
 
 
@@ -49,7 +49,7 @@ ht-degree: 52%
 
 機能は機械学習アルゴリズム [!DNL Target] ブロックし、[!UICONTROL Automated Personalization] ーザーや [!UICONTROL Auto-Target] のモデルまたはアクティビティで使用されないようにすることができます。
 
-詳しくは、*[!DNL Adobe Target]開発者ガイドの [Models API （ブロックリストへの登録）の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} を参照してください*。
+詳しくは、*[!DNL Adobe Target]開発者ガイドの [Models API （ブロックリストへの登録）の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} を参照してください*。
 
 ## デバイスとモバイルデータ {#device-mobile}
 

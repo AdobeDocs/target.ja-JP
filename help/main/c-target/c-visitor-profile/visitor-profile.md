@@ -24,6 +24,6 @@ ht-degree: 38%
 - [訪問者プロファイルの有効期間](visitor-profile-lifetime.md)
 - [プロファイル属性](profile-parameters.md)
 - [カテゴリ親和性](category-affinity.md)
-- [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
 - [mbox3rdPartyID のリアルタイムプロファイル同期](3rd-party-id.md)
 - [プロファイルと変数の用語集](variables-profiles-parameters-methods.md)

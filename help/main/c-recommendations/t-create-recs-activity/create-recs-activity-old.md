@@ -77,7 +77,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
    >[!NOTE]
    >
-   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendationsの設定（**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**/**[!UICONTROL Filter Incompatible Criteria]**）によっては、「[!UICONTROL Compatible]」オプションが表示されない場合があります。 詳しくは、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+   >すべてのページですべての条件が正しく実行されるわけではありません。現在の品目／現在のカテゴリーのレコメンデーションと互換性を持たせるために、ページや mbox には `entity.id` か `entity.categoryId` を渡す必要があります。通常は、互換性のある条件のみを表示するようにします。ただし、互換性のない条件をアクティビティで使用できるようにする場合は、「**[!UICONTROL Compatible]**」チェックボックスをオフにします。 Recommendationsの設定（**[!UICONTROL Recommendations]**/**[!UICONTROL Settings]**/**[!UICONTROL Filter Incompatible Criteria]**）によっては、「[!UICONTROL Compatible]」オプションが表示されない場合があります。 詳しくは、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
    ![条件を選択ダイアログボックス](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

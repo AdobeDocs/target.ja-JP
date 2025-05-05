@@ -85,7 +85,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!IMPORTANT]
 >
->**Security best practices**: If you use ubox functionality of [!DNL Target], this allowlist also controls the list of domains to which your [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} can navigate. 実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
+>**Security best practices**: If you use ubox functionality of [!DNL Target], this allowlist also controls the list of domains to which your [redirectors](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ja){target=_blank} can navigate. 実装の一部として ubox を使用する場合は、リダイレクト先のドメインを必ず追加してください。許可リストが指定されない場合、[!DNL Adobe] は、リダイレクト URL を検証できず、悪意のあるリダイレクトの可能性から保護できません。
 >
 >許可リストは、環境よりも優先されます。許可リスト機能を使用する前に、すべてのホストをクリアしてください。すると、許可リストで許可されているホストのみがホストリストに表示されます。その後、ホストを必要な環境に移動できます。
 

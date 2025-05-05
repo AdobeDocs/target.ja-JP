@@ -42,6 +42,6 @@ ht-degree: 78%
 
 * **Adobe Target ホームページ**：[!DNL Adobe Target] のホームページ。当社の能力について学び、最新の成功事例をこちらでご覧ください。[Adobe Target](https://www.adobe.com/jp/marketing/target.html) を参照してください。
 * **ブログ**：[Target のブログ](https://blog.adobe.com/en/topics/target)に従って、最新のニュース、ヒント、成功事例を常に参照してください。
-* **Experience League**: エクスペリエンスビジネスを始動、Target コミュニティとつながり、探している回答を見つけるのに必要なガイドやイベントが用意されています。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/?lang=ja#home)を参照してください。
+* **Experience League**: エクスペリエンスビジネスを始動、Target コミュニティとつながり、探している回答を見つけるのに必要なガイドやイベントが用意されています。 [Adobe Experience League のホームページ](https://experienceleague.adobe.com/ja?lang=ja#home)を参照してください。
 * **Adobe Target 認定制度**：新しい Adobe Target 試験で Adobe Certified expert のステータスを獲得します。ここで試験のスケジュールを設定、またはトレーニングコースを受けます。[トレーニングと資格認定](/help/main/c-intro/training-and-certification.md)を参照してください。
 * **Adobe Target のリリースノート**：各 [!DNL Target Standard] および [!DNL Target Premium] リリースの機能、拡張機能および修正点に関する情報です。また、該当する場合は、Target API、SDK、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。[Target リリースノート（最新）](/help/main/r-release-notes/release-notes.md)を参照してください。

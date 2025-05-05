@@ -28,8 +28,8 @@ ht-degree: 22%
 
 | Target SDK | 提案されたアクション |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 *ガイドの* リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) を参照してください。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。最新バージョンの at.js のダウンロードについて詳しくは、[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank} を参照してください。 at.js の各バージョンの新機能について詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank} | Platform Web SDK バージョン 2.6.0 以降を使用していることを確認します。 Platform Web SDKの最新バージョンのダウンロードについて詳しくは、『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja){target=_blank} ガイドの *SDKのインストール* を参照してください。 Platform Web SDKの各バージョンの新機能について詳しくは、『 [Platform Web SDKの概要 *ガイドの* リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ja) を参照してください。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} | 必ず at.js バージョン 1.1 以降を使用します。最新バージョンの at.js のダウンロードについて詳しくは、[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。 at.js の各バージョンの新機能について詳しくは、[at.js のバージョンの詳細 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} を参照してください。<br>at.js を使用する場合は、プラグインを廃止しレスポンストークンを使用することをお勧めします。mbox.js （現在は非推奨）には存在し、at.js には存在しない内部メソッドに依存する一部のプラグインは、配信されますが失敗します。 |
 
 ## レスポンストークンの使用 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 22%
 
    詳しくは、以下を参照してください。
 
-   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) ガイドの *SDKのインストール* を参照してください。
-   * **at.js**:[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank} を参照してください。
+   * **Platform Web SDK**:『 [Platform Web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja) ガイドの *SDKのインストール* を参照してください。
+   * **at.js**:[at.js のダウンロード ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ja){target=_blank} を参照してください。
 
 1. [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Response Tokens]** をクリックします。
 
@@ -147,7 +147,7 @@ ht-degree: 22%
 
 ### ![at.js バッジ ](/help/main/assets/atjs.png) カスタムイベントを使用した at.js
 
-[at.js カスタムイベント ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
+[at.js カスタムイベント ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ja){target=_blank} を使用して [!DNL Target] 応答をリッスンし、応答トークンを読み取ります。
 
 以下のコードサンプルは、[!DNL at.js] カスタムイベントハンドラーを HTML ページに直接追加します。
 

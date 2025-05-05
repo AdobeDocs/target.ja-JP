@@ -111,7 +111,7 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 詳しくは、以下のトレーニングビデオを参照してください。
 
-詳しくは、[Adobe Experience Cloud Debugger を使用した at.js のデバッグ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank} を参照してください。
+詳しくは、[Adobe Experience Cloud Debugger を使用した at.js のデバッグ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ja){target=_blank} を参照してください。
 
 ## Recommendations にトップセラーが表示されない {#section_3920C857270A406C80BE6CBAC8221ECD}
 

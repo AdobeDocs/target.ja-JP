@@ -135,13 +135,13 @@ IT チームに次の IP アドレスを許可リストに加えるするよう�
 
   **Remedy:** 上記の IP アドレスを許可リストに加えるします。
 
-* **問題：** IP アドレスは許可リストに加えるされていますが、web サイトでは TLS バージョン 1.2 がサポートされていません。[!DNL Target] では現在、デフォルトの設定 1.2 を使用しています。[!DNL Target] 18.4.1 （2018 年 4 月 25 日（PT））より前のデフォルト設定では、TLS 1.0 がサポートされていました。詳しくは、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} を参照してください。
+* **問題：** IP アドレスは許可リストに加えるされていますが、web サイトでは TLS バージョン 1.2 がサポートされていません。[!DNL Target] では現在、デフォルトの設定 1.2 を使用しています。[!DNL Target] 18.4.1 （2018 年 4 月 25 日（PT））より前のデフォルト設定では、TLS 1.0 がサポートされていました。詳しくは、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank} を参照してください。
 
   **解決策：** 次の質問を参照してください（[!UICONTROL Enhanced Visual Experience Composer] は、TLS 1.2 を使用するサイト上のセキュリティで保護されたページに読み込まれません）。
 
 ## TLS 1.0 を使用しているサイトのセキュリティで保護されているページで、EEC が読み込まれません。（EEC のみ） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-上記の「[!UICONTROL Enhanced Visual Experience Composer] は、サイトのセキュリティで保護されたページに読み込まれません」というエラーメッセージが表示される場合があります。 上記の IP アドレスを許可リストに加えるしても、web サイトで TLS バージョン 1.2 がサポートされていない場合。[!DNL Target] では現在、デフォルト設定の 1.2 を使用しています。[!DNL Target] 18.4.1 （2018 年 4 月 25 日（PT））より前のデフォルト設定では、TLS 1.0 がサポートされていました。詳しくは、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} を参照してください。
+上記の「[!UICONTROL Enhanced Visual Experience Composer] は、サイトのセキュリティで保護されたページに読み込まれません」というエラーメッセージが表示される場合があります。 上記の IP アドレスを許可リストに加えるしても、web サイトで TLS バージョン 1.2 がサポートされていない場合。[!DNL Target] では現在、デフォルト設定の 1.2 を使用しています。[!DNL Target] 18.4.1 （2018 年 4 月 25 日（PT））より前のデフォルト設定では、TLS 1.0 がサポートされていました。詳しくは、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank} を参照してください。
 
 Firefox を使用して、Web サイトの TLS バージョンをチェックする方法は次のとおりです（他のブラウザーでの手順も同様です）。
 
@@ -158,7 +158,7 @@ Firefox を使用して、Web サイトの TLS バージョンをチェックす
 
    ![firefox_more_info_3 画像 ](assets/firefox_more_info_3.png)
 
-1. Web サイトで TLS 1.0 が表示されている場合は、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} を参照して、Target の TLS サポートポリシーについて確認してください。 今のところ状況を修正するには（2018 年 9 月 12 日（PT）まで有効） {target=_blank} [ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) に問い合わせて、TLS バージョンとドメインの設定を確認します。
+1. Web サイトで TLS 1.0 が表示されている場合は、[TLS （Transport Layer Security）暗号化の変更 ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ja){target=_blank} を参照して、Target の TLS サポートポリシーについて確認してください。 今のところ状況を修正するには（2018 年 9 月 12 日（PT）まで有効） {target=_blank} [ カスタマーケア ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) に問い合わせて、TLS バージョンとドメインの設定を確認します。
 
 ## プロキシが有効なサイトを読み込む際に、タイムアウトまたは「アクセスが拒否されました」というエラーが表示されます。（EEC のみ） {#section_60CBB9022DC449F593606C0E6252302D}
 

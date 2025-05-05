@@ -31,7 +31,7 @@ ht-degree: 97%
 | [ターゲットサーバーサイド SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} | SDK を使用してサーバーサイドで [!DNL Target] をデプロイする方法を説明します。 |
 | [Adobe Experience Platform モバイル SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja) | モバイルアプリに [!DNL Target] を実装する方法に関する情報です。 |
 
-上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)にアクセスしてください。このコミュニティでは、次のことが可能です。
+上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)にアクセスしてください。このコミュニティでは、次のことが可能です。
 
 * [!DNL Target] が提供する機能の詳細情報
 * 同業者や [!DNL Adobe] の専門家とつながる

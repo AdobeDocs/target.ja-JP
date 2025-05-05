@@ -108,7 +108,7 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 1. **[!UICONTROL Tools]**／**[!UICONTROL Data Warehouse]**&#x200B;をクリックします。
 1. 「**[!UICONTROL Data Warehouse Request]**」タブで、フィールドに入力します。
 
-   各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) の「Data Warehouse の説明」を参照してください。
+   各フィールドについて詳しくは、[Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ja) の「Data Warehouse の説明」を参照してください。
 
    | フィールド | 手順 |
    |--- |--- |
@@ -128,8 +128,8 @@ A4T では、（バイナリ指標ではなく）連続変数に対して [Welch
 
 [!DNL Data Warehouse] について詳しくは、[!DNL Analytics] のヘルプドキュメントの以下のリンクを参照してください。
 
-* [Data Warehouseリクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data Warehouseリクエストの作成 ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ja)
+* [Data Warehouseのベストプラクティス ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ja)
 
 ## カウント手法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

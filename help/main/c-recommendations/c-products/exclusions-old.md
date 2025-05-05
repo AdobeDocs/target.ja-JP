@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+   [!UICONTROL Exclusions] のリスト表示の各除外について報告された「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でその除外のルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 1. **[!UICONTROL Create Exclusion]** をクリックします。
 

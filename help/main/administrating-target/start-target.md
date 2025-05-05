@@ -20,7 +20,7 @@ ht-degree: 32%
 
 [!DNL Adobe Admin Console] のシステム管理者が、あなたを招待して参加 [!DNL Target] せるユーザーとして追加する必要があります。 システム管理者は、ユーザーを 1 つ以上の役割固有のグループに追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、&lbrace;2[Experience Cloudとコアサービスのヘルプ ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud ユーザーおよび製品の管理 *を参照してください。*
+詳しくは、&lbrace;2[Experience Cloudとコアサービスのヘルプ ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)Experience Cloud ユーザーおよび製品の管理 *を参照してください。*
 
 システム管理者がこれらの手順を実行すると、招待メールが届きます。
 

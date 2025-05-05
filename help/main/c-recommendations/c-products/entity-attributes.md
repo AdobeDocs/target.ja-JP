@@ -31,7 +31,7 @@ at.js 1 を使用している場合、一般的に、ディスプレイ情報 mb
 
 >[!NOTE]
 >
->at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank} を使用します。 例については、[Recommendationsの計画と実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+>at.js 2.*x*、`mboxCreate` （次の例で使用）はサポートされなくなりました。 at.js を使用して製品またはコンテンツの情報を [!DNL Recommendations] に渡す方法 2.*x* の場合は、[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=ja){target=_blank} を使用します。 例については、[Recommendationsの計画と実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

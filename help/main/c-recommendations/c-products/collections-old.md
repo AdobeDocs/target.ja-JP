@@ -46,7 +46,7 @@ ht-degree: 41%
 
    ![ ホバーアイコン：編集、コピー、削除 ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL Collections] のリスト表示で各コレクションに対して報告される「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でそのコレクションのルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を参照してください。
+   [!UICONTROL Collections] のリスト表示で各コレクションに対して報告される「Number of Items」は、設定されたデフォルトのRecommendations [host group](/help/main/administrating-target/hosts.md) （environment）内でそのコレクションのルールに一致する商品の数です。 デフォルトのホストグループを変更するには、[ 設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を参照してください。
 
 1. **[!UICONTROL Create Collection]** をクリックします。
 

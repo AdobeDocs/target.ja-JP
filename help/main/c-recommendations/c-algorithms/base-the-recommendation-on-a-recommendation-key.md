@@ -34,7 +34,7 @@ ht-degree: 27%
 
 ## 買い物かごベース {#cart-based}
 
-[!UICONTROL Cart-Based] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいて、アイテムをレコメンデーションできます。 レコメンデーションキーは、コンマ区切り値の [mbox パラメーター `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} を介して提供されます。 最初の 10 個の値のみが考慮されます。
+[!UICONTROL Cart-Based] アルゴリズムタイプを使用すると、訪問者の現在の買い物かごの内容に基づいて、アイテムをレコメンデーションできます。 レコメンデーションキーは、コンマ区切り値の [mbox パラメーター `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} を介して提供されます。 最初の 10 個の値のみが考慮されます。
 
 買い物かごベースのレコメンデーションロジックは、「[!UICONTROL Recommended For You]」ユーザーベースのアルゴリズムと、「[!UICONTROL People Who Viewed These, Bought Those]」および「[!UICONTROL People Who Bought These, Bought Those]」項目ベースのアルゴリズムに似ています。
 

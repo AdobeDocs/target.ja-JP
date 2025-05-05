@@ -33,4 +33,4 @@ API[!DNL Adobe Target]、タイプに応じてグループ化できます。
 * レポート API。
 * レコメンデーション API
 
-詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} の [Target API の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank} を参照してください。
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ja){target=_blank} の [Target API の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。

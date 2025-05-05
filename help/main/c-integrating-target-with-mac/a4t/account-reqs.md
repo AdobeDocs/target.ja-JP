@@ -28,13 +28,13 @@ ht-degree: 35%
 
 あなたの[!DNL Analytics]および[!DNL Target]のユーザーアカウントは Adobe ID にリンクされている必要があります。
 
-詳しくは、[ 組織とアカウントのリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en) を参照してください。
+詳しくは、[ 組織とアカウントのリンク ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
 
 ### Experience Cloud グループのメンバーシップを設定します。
 
 あなたは[!DNL Analytics] と [!DNL Target]にアクセスできる 1 つ以上の[!DNL Experience Cloud]グループのメンバーでなければなりません。
 
-詳しくは、[Experience Cloudユーザーと製品の管理 ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) を参照してください。
+詳しくは、[Experience Cloudユーザーと製品の管理 ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) を参照してください。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
