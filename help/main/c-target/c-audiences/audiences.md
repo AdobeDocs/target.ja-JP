@@ -21,7 +21,7 @@ ht-degree: 22%
 * [ アクティビティ固有のオーディエンスを作成し ](/help/main/c-target/creating-activity-only-audience.md) ターゲット設定します
 * [ 複数のオーディエンスの結合 ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) によるアドホックオーディエンスの作成
 
-また、[!DNL Adobe Analytics] で収集したオーディエンスデータを使用して、[!DNL Target] やその他の [!DNL Adobe Experience Cloud] アプリケーションでリアルタイムのターゲティングやパーソナライゼーションを行うこともできます。 *Experience Cloudの中央インターフェイスコンポーネント ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) ガイドの [Experience Cloudオーディエンス* を参照してください。
+また、[!DNL Adobe Analytics] で収集したオーディエンスデータを使用して、[!DNL Target] やその他の [!DNL Adobe Experience Cloud] アプリケーションでリアルタイムのターゲティングやパーソナライゼーションを行うこともできます。 *Experience Cloudの中央インターフェイスコンポーネント [&#128279;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) ガイドの Experience Cloudオーディエンス* を参照してください。
 
 オーディエンスには次の 2 種類があり [!DNL Target] す。
 

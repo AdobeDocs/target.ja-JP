@@ -43,7 +43,7 @@ ht-degree: 33%
 
 1. （条件付き） [!DNL Target Premium] の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-   「[!UICONTROL Choose Workplace]」オプションは ](/help/main/c-intro/intro.md)1}Target Premium} 機能です。 [このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
+   「[!UICONTROL Choose Workplace]」オプションは [&#128279;](/help/main/c-intro/intro.md)1&rbrace;Target Premium&rbrace; 機能です。 このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
 
 1. [ アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
 

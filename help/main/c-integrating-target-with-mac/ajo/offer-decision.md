@@ -106,7 +106,7 @@ ht-degree: 0%
 
 * アクティビティでオファーの決定を使用している場合は、[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）を使用できません。 アクティビティでオファーの決定を使用する場合は、アクティビティの設定時に [!UICONTROL Goals and Settings] ページでレポートソースとして「[!DNL Target]」を選択します。
 
-* text/html コンテンツタイプのオファーでは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURL は、クライアントがコンテンツの明示的な取得と構成を担当する場合にのみ ](/help/main/c-experiences/form-experience-composer.md) フォームベースの Experience Composer[ を通じてサポートされます。
+* text/html コンテンツタイプのオファーでは、deliveryURL コンテンツ配信をサポートしていません。 deliveryURL は、クライアントがコンテンツの明示的な取得と構成を担当する場合にのみ [&#128279;](/help/main/c-experiences/form-experience-composer.md) フォームベースの Experience Composer を通じてサポートされます。
 
 * [!DNL Target] レポートは、オファーの決定レベルのレポートを提供しません。
 

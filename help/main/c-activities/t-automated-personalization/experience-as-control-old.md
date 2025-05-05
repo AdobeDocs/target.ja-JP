@@ -29,7 +29,7 @@ ht-degree: 43%
 
 ## 特定のエクスペリエンスのコントロールとしての指定
 
-1. [[!UICONTROL Automated Personalization] アクティビティまたは [[!UICONTROL Auto-Target] のアクティビティを作成または編集する際に ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 必要に応じ ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) エクスペリエンスを設定します。
+1. [&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) [!UICONTROL Automated Personalization] アクティビティまたは [[!UICONTROL Auto-Target] のアクティビティを作成または編集する際に ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 必要に応じ  エクスペリエンスを設定します。
 1. [!UICONTROL Targeting] ページ（3 つのパートから成るガイド付きワークフローのステップ 2）で、コントロールとして目的のエクスペリエンスを選択します。
 1. コントロールエクスペリエンスおよび他のエクスペリエンスの目的のトラフィック配分を指定します。
 

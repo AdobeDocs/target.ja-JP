@@ -13,7 +13,7 @@ ht-degree: 50%
 
 ---
 
-#  オファーとしての Recommendations 
+# オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができるようになりました。
 
@@ -55,7 +55,7 @@ ht-degree: 50%
 
 1. 「**[!UICONTROL Create Criteria]**」をクリックするか、既存の [ 条件 ](/help/main/c-recommendations/c-algorithms/algorithms.md) を選択し、「**[!UICONTROL Next]**」をクリックして [!UICONTROL Select Design] 定ダイアログボックスを表示します。
 
-1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL  Next]**」をクリックします。
+1. 「**[!UICONTROL Create Design]**」をクリックするか、既存の [ デザイン ](/help/main/c-recommendations/c-design-overview/design-overview.md) を選択して、「**[!UICONTROL &#x200B; Next]**」をクリックします。
 
 1. [!UICONTROL Options] ダイアログボックスで、次の設定を行います。
 

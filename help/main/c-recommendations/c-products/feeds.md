@@ -48,7 +48,7 @@ ht-degree: 38%
 
 [!UICONTROL Information] アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックして、前回のアップロード日とフィードの URL を表示するカードを表示します。
 
-[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg)[!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
+[!UICONTROL More Actions] アイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmallList.svg) [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy] および [!UICONTROL Delete] のアクションにアクセスします。
 
 >[!IMPORTANT]
 >

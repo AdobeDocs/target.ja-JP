@@ -252,7 +252,7 @@ mbox パラメーターに基づいて Recommendations の条件、プロモー�
 
 ## [!DNL Recommendations Premium] の [!DNL Adobe Recommendations Classic] で作成したアルゴリズムを使用できますか？
 
-[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) の [[!DNL Recommendations Classic]  とアクティビ  [!DNL Recommendations]  ティの比較」を参照してください。
+[!DNL Recommendations Classic] で作成されたアルゴリズムは、[!DNL Recommendations Premium] ではサポートされていません。 [!DNL Target Premium] ではレガシーアルゴリズムを使用できますが、[!DNL Target Premium] UI でアクティビティを非アクティブ化または削除する際に、アルゴリズムによって同期の問題が発生する可能性があります。この 2 つのソリューションの違いについて詳しくは、 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) の [!DNL Recommendations Classic]  とアクティビ  [!DNL Recommendations]  ティの比較」を参照してください。
 
 ## 新しい記事またはビデオのみをレコメンデーションするにはどうすればよいですか？ {#recommend-new-articles}
 

@@ -63,7 +63,7 @@ AP は完全に自動化され、人間による分析を最小限に抑えな�
 
   「これを閲覧した人が購入したもの」という条件を使用して、レコメンデーションの最初の製品を表示する代わりに、多くの顧客がある製品の閲覧後に購入した他の商品を表示します。
 
-###  オファーとしての Recommendations 
+### オファーとしての Recommendations 
 
 [ オファーとしてのレコメンデーション ](/help/main/c-recommendations/recommendations-as-an-offer.md) では、[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] および [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができます。
 

@@ -28,7 +28,7 @@ Recommendations Classic と Target Premium の Recommendations アクティビ�
 
 [!DNL Target] の [!DNL Recommendations] アクティビティは、主に次の点で [!DNL Recommendations Classic] より強化されています。
 
-##  オファーとしての Recommendations 
+## オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティに Recommendations を含めることができます。
 

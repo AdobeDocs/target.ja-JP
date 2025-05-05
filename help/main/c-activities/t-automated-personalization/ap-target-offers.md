@@ -30,7 +30,7 @@ ht-degree: 22%
 
 ## ターゲット設定ルールの設定
 
-1. ターゲット設定したいオファーを含む ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)0}Automated Personalization アクティビティを作成または編集します。[
+1. ターゲット設定したいオファーを含む [&#128279;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)0&rbrace;Automated Personalization アクティビティを作成または編集します。
 1. [!UICONTROL Visual Experience Composer] でアクティビティのオファーを設定したら、**[!UICONTROL Manage Content]** のアイコン（![ コンテンツを管理アイコン ](/help/main/assets/icons/Experience.svg)）をクリックします。
 
    [!UICONTROL Manage Content] ダイアログボックスが表示されます。

@@ -40,7 +40,7 @@ ht-degree: 56%
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する ](/help/main/c-reports/personalization-reports/reports-ap.md)0}Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 [2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。
+   アクティビティのパフォーマンスに関する情報を提供する [&#128279;](/help/main/c-reports/personalization-reports/reports-ap.md)0&rbrace;Automated Personalizationの概要 [ 自動ターゲットの概要 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) レポートが、最初の画面アイコンで表示されます。 2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。
 
 
    [!UICONTROL Auto-Target] には、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフアイコンがあります。
@@ -98,7 +98,7 @@ ht-degree: 56%
 
 この [!UICONTROL Models API] はブロックリスト API とも呼ばれ、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT） アクティビティの機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 モデルが AP または AT アクティビティに使用する 1 つ以上の属性を除外する場合は、Models API を使用して、それらの属性を「ブロックリスト」に追加できます。
 
-詳しくは、*Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} の [Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank} を参照してください。
+詳しくは、*Adobe Target開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} の Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank} を参照してください。
 
 ### [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートの情報は、CSV ダウンロードの情報と同じですか？
 

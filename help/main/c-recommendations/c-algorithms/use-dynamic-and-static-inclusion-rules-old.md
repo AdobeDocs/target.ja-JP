@@ -102,7 +102,7 @@ ht-degree: 16%
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Profile Attribute Matching] と [!UICONTROL Parameter Matching] のデフォルト設定は、このアクションです。<br>このオプションではルールを無視するよう指定します。例えば、3 つのフィルタールールがあり、3 つ目のルールでは何も値が返されなかった場合は、何も結果を返さないのではなく、値が空だった 3 つ目のルールのみを無視できます。 |
 | [!UICONTROL Do not show any results for this criteria]<br> （条件のみ） | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<br> このアクションは、このオプションを追加す [!DNL Target] 前の空の値の処理方法です。この条件に対する結果は表示されません。 |
-| [!UICONTROL Do not promote any items<br> （プロモーションのみ） ] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<br> このアクションは、このオプションを追加す [!DNL Target] 前の空の値の処理方法です。この条件に対する結果は表示されません。 |
+| [!UICONTROL Do not promote any items<br> （プロモーションのみ） &#x200B;] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | [!UICONTROL Entity Attribute Matching] のデフォルト設定はこのアクションです。<br> このアクションは、このオプションを追加す [!DNL Target] 前の空の値の処理方法です。この条件に対する結果は表示されません。 |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching] および [!UICONTROL Parameter Matching] | 値が空だった場合に静的値を使用するよう設定できます。 |
 
 ## 注意事項 {#caveats}

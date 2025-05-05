@@ -52,7 +52,7 @@ ht-degree: 26%
 
    また、オプションで **[!UICONTROL Description]** を入力することもできます。
 
-1. （条件付き）コレクションを作成（または更新 ](/help/main/administrating-target/environments.md) する際に、**[!UICONTROL Environment]** フィルターから [ 環境）を選択して、その環境内のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
+1. （条件付き）コレクションを作成（または更新 [&#128279;](/help/main/administrating-target/environments.md) する際に、**[!UICONTROL Environment]** フィルターから  環境）を選択して、その環境内のコレクションのコンテンツをプレビューします。 デフォルトでは、デフォルトのホストグループの結果が表示されます。
 
 1. コレクションの構築に使用するルールを設定します。
 

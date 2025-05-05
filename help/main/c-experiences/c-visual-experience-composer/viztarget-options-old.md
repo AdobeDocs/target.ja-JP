@@ -178,7 +178,7 @@ HTML コードだけでなく、カスタム JavaScript を編集および挿入
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**

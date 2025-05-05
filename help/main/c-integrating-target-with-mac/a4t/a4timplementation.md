@@ -58,13 +58,13 @@ A4T を実装する前に、[!DNL Analytics] と [!DNL Target] をプロビジ�
 
 訪問者 ID サービスを使用すると、ソリューションをまたいでユーザー [!DNL Adobe Experience Cloud] 識別できます。 を実装するか、Experience Cloudの訪問者 ID を必要なバージョンに移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-[2}Experience Cloud訪問者 ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) ドキュメントの Target へのExperience CloudID サービスの実装 *を参照してください。*
+[2&rbrace;Experience Cloud訪問者 ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) ドキュメントの Target へのExperience CloudID サービスの実装 *を参照してください。*
 
 ### 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 
 appMeasurement.js を実装するか、必要なバージョンに移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-新規実装については、{Analytics 実装ガイド ](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) の *0}JavaScript実装の概要* を参照してください。[
+新規実装については、{Analytics 実装ガイド [&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) の *0}JavaScript実装の概要* を参照してください。
 
 移行については、[Analytics 実装ガイド ](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) の *JavaScriptのAppMeasurementへの移行* を参照してください。
 
@@ -116,7 +116,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-その後、ペイロードは [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) を介して Analytics に転送できます。 自動配分および自動ターゲット アクティビティの場合、sessionId を転送する必要もあります。 詳しくは、*Adobe Target SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} ガイドの [Analytics for Target （A4T）レポート* を参照してください。
+その後、ペイロードは [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) を介して Analytics に転送できます。 自動配分および自動ターゲット アクティビティの場合、sessionId を転送する必要もあります。 詳しくは、*Adobe Target SDK[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} ガイドの Analytics for Target （A4T）レポート* を参照してください。
 
 グローバル設定を使用しない場合でよりオンデマンドのアプローチを使用したい場合は、at.js 関数 [getOffers （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} を使用して **analyticsLogging: &quot;client_side&quot;** を渡します。 Analytics のペイロードはこの呼び出しにのみ返され、[!DNL Target] のバックエンドはペイロードを [!DNL Analytics] に転送しません。 このアプローチに従うと、すべての at.js [!DNL Target] リクエストは、デフォルトでペイロードを返しますが、必要に応じて指定した場合にのみ返されます。
 

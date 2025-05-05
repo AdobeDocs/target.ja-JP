@@ -38,7 +38,7 @@ A/B テストを設定する際は、各エクスペリエンスを表示する�
 | アクティビティタイプ | 説明 |
 | --- | --- |
 | [!UICONTROL Manual A/B Test] | 複数のエクスペリエンスを比較して、事前に指定したテスト期間内で最もコンバージョンが向上したエクスペリエンスを確認します。<P>この節では、手動の [!UICONTROL A/B Test] アクティビティを設定する方法について説明しますが、他のタイプの [!UICONTROL A/B Test] アクティビティの手順も似ています。 |
-| [!UICONTROL Auto-Allocate] | 2 つ以上のエクスペリエンスの中から勝者を特定し、その勝者にトラフィックをリダイレクトすることで、テストの実行や学習に合わせてコンバージョンを増やします。<P>[!UICONTROL Auto-Allocate] アクティビティを使用するメリットについては、[A/B テストを実行する必要がある期間 *および [ 自動配分の概要 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) の* 自動配分 ](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) を参照してください。 |
+| [!UICONTROL Auto-Allocate] | 2 つ以上のエクスペリエンスの中から勝者を特定し、その勝者にトラフィックをリダイレクトすることで、テストの実行や学習に合わせてコンバージョンを増やします。<P>[!UICONTROL Auto-Allocate] アクティビティを使用するメリットについては、[&#128279;](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)A/B テストを実行する必要がある期間 *および [ 自動配分の概要 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) の* 自動配分  を参照してください。 |
 | ![Premium バッジ ](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | では、高度な機械学習を使用して、マーケターが定義した複数の高パフォーマンスのエクスペリエンスを特定することで、コンテンツをパーソナライズしコンバージョンを促進します。 次に、個々の顧客プロファイルと類似する訪問者の過去の行動に基づいて、訪問者に最適なエクスペリエンスが提供されます。<P>詳しくは、「[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)」を参照してください。 |
 
 これらの [!UICONTROL A/B Test] アクティビティのうちどれを使用するかについて詳しくは、インタラクティブな [Adobe Target アクティビティガイドのPDFを参照してください ](/help/main/c-activities/target-activities-guide.md)。

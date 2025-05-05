@@ -151,13 +151,13 @@ ht-degree: 48%
 
 ## ダウンロード {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-レポート データを [!DNL .csv] 形式でダウンロードして、Excel、Access](/help/main/assets/icons/Download.svg) またはその他のデータ分析プログラムにすばやくインポートするには、**[!UICONTROL Download]** ール （![ ダウンロード アイコン） アイコンをクリックします。
+レポート データを [!DNL .csv] 形式でダウンロードして、Excel、Access![&#128279;](/help/main/assets/icons/Download.svg) またはその他のデータ分析プログラムにすばやくインポートするには、**[!UICONTROL Download]** ール （ ダウンロード アイコン） アイコンをクリックします。
 
 詳しくは、「[CSV ファイルでのデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)」を参照してください。
 
 ## 更新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-ページ全体 ](/help/main/assets/icons/Refresh.svg) その設定または日付範囲を更新せずに、レポートのテーブルおよびグラフ表示を更新するには、**[!UICONTROL Refresh]** 新アイコン ![ 更新アイコン）をクリックします。
+ページ全体 ![&#128279;](/help/main/assets/icons/Refresh.svg) その設定または日付範囲を更新せずに、レポートのテーブルおよびグラフ表示を更新するには、**[!UICONTROL Refresh]** 新アイコン  更新アイコン）をクリックします。
 
 ## その他のオプション {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -170,7 +170,7 @@ ht-degree: 48%
 * **テーブル表示**:**[!UICONTROL Table View]** （![ テーブル表示アイコン ](/help/main/assets/icons/Table.svg)）アイコンをクリックして、レポートをテーブルとして表示します。
 * **グラフ表示**:**[!UICONTROL Graph View]** （![ グラフ表示アイコン ](/help/main/assets/icons/GraphTrend.svg)）アイコンをクリックして、レポートをグラフとして表示します。
 * **自動セグメント**:（[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Automated Segments] （![ 自動セグメントアイコン ](/help/main/assets/icons/AutomatedSegment.svg)）アイコンをクリックして、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を表示します。
-* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![ アイコンをクリックして ](/help/main/assets/icons/ViewList.svg)[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
+* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![ アイコンをクリックして ](/help/main/assets/icons/ViewList.svg) [ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
 
 ## 平均上昇率、上昇率範囲および信頼区間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 

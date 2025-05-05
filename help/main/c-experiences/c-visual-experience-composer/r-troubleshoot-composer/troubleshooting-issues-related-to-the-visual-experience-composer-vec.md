@@ -43,7 +43,7 @@ Web サイト（特に単一ページアプリ）で、ページからページ�
 
 >[!NOTE]
 >
->[!DNL Google Chrome] に、次の情報に加えて ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] 拡張機能を使用できます。
+>[!DNL Google Chrome] に、次の情報に加えて [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) [!DNL Adobe Target] [!UICONTROL Visual Editing Helper] 拡張機能を使用できます。
 
 
 >[!NOTE]

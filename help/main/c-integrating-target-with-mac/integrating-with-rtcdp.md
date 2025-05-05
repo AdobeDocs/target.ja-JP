@@ -105,10 +105,10 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 詳しくは、次のトピックを参照してください。
 
-* [2}Adobe Experience Platform リリースノートの ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank} 宛先リリースノート **
+* [2&rbrace;Adobe Experience Platform リリースノートの ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja#destinations){target=_blank} 宛先リリースノート **
 * *宛先の概要* ガイドの [ 同じページと次のページのパーソナライゼーションに対するパーソナライゼーションの宛先の設定 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja){target=_blank}。
-* *宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank} ガイドの [Adobe Target接続*
-* *宛先の概要 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank} ガイドの [ 属性のマッピング*。
+* *宛先の概要 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja){target=_blank} ガイドの Adobe Target接続*
+* *宛先の概要 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja#map-attributes){target=_blank} ガイドの  属性のマッピング*。
 * *宛先の概要* ガイドの [ エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ja){target=_blank}。
 * *宛先の概要* ガイドの [ よくある質問」の  [!DNL Adobe Target]  およびカスタム Personalizationの宛先を使用した、同じページおよび次のページのパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=ja#same-next-page-personalization){target=_blank}。
 

@@ -20,7 +20,7 @@ ht-degree: 3%
 
 {{permissions-update}}
 
-](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}0}Adobe Target デベロッパーガイド } には、[!DNL Target] を実装する前に知っておく必要のある情報が含まれています。[
+[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}0&rbrace;Adobe Target デベロッパーガイド &rbrace; には、[!DNL Target] を実装する前に知っておく必要のある情報が含まれています。
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->このガイド（*Adobe Target実践者ガイド* の「Target の実装 *」の節に以前に含まれていた情報はすべて、* 開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} に含まれるようになりました [。
+>このガイド（*Adobe Target実践者ガイド* の「Target の実装 *」の節に以前に含まれていた情報はすべて、* 開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} に含まれるようになりました 。
 
 
 

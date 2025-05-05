@@ -68,7 +68,7 @@ ht-degree: 89%
    + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
-+  Target と Experience Cloud の統合 {#integrate}
++ Target と Experience Cloud の統合 {#integrate}
    + Adobe Target のレポートソースとしての Adobe Analytics（A4T）{#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
       + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)
@@ -91,9 +91,9 @@ ht-degree: 89%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Customer Journey Analytics {#cja} の統合
+   + Target とAdobe Customer Journey Analytics の統合 {#cja}
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Target とAdobe Journey Optimizer（AJO） {#ajo} ールの統合
+   + Target とAdobe Journey Optimizer（AJO） ールの統合 {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Adobe Journey Optimizerのユースケース {#use-cases}
@@ -101,7 +101,7 @@ ht-degree: 89%
          + [Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Web ページへのコンポーネントの追加または非表示](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Target とAdobe Experience Manager（AEM） {#aem} ールの統合
+   + Target とAdobe Experience Manager（AEM） ールの統合 {#aem}
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
          + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)

@@ -31,7 +31,7 @@ ht-degree: 78%
 
 * **Adobe Target チュートリアル**：基本を学んだり、スキルを磨きます。[Adobe Target チュートリアルのページ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja)を参照してください。
 * **Adobe Target オンデマンドトレーニング**：ご利用いただける様々な Target コースをご覧ください。[Adobe のトレーニングとチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)のページを参照してください。
-* **Adobe Target ビデオ：**[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。[Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
+* **Adobe Target ビデオ：**&#x200B;[!DNL Target] のビデオを視聴して、 成功事例やソリューションの機能をご覧ください。[Adobe Target Standard および Premium のトレーニングビデオ](/help/main/c-intro/target-standard-premium-training-videos.md)を参照してください
 * **ウェビナーシリーズ**：Adobe Target の基本。Adobe Target ユーザーに対する最適化の基本を検討する、お客様向けサクセスウェビナーシリーズにご参加ください。[「Target の基本」ウェビナーシリーズ](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)を参照してください。
 * **Adobe のサポートの Offie Hour**：「Office Hours」は、Adobe のヘルプチームが率いるイニシアチブです。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。[Adobe のサポートの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)を参照してください。
 * **Adobe Summit**：デジタルマーケター向けの、年間最大のプロフェッショナルなイベントに参加しましょう。

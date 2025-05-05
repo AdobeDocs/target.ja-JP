@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. パフォーマンスの高いコンテンツを判別するための実験を作成するには、「実 **[!UICONTROL Create Experiment]**」をクリックします。
 
-   コンテンツ実験を使用すると、メッセージコンテンツ、件名、送信者を変更して、複数の処理を定義したり、オーディエンスに最適な組み合わせを決定したりできます。 詳しくは、{3[Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} コンテンツ実験の作成 *を参照してください。*
+   コンテンツ実験を使用すると、メッセージコンテンツ、件名、送信者を変更して、複数の処理を定義したり、オーディエンスに最適な組み合わせを決定したりできます。 詳しくは、&lbrace;3[Journey Optimizer ドキュメントの ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} コンテンツ実験の作成 *を参照してください。*
 
 1. 成功指標を選択し、「アクション」をクリックします。
 
