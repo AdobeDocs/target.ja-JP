@@ -94,7 +94,7 @@ AP または自動ターゲット モデルで使用される [!UICONTROL Person
 
 ## トレーニングビデオ：Personalization Insights レポートの使用 ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/328271?captions=jpn)
 
 詳しくは、[Adobe TargetでのPersonalization Insights レポートの使用 ](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html) を参照してください。
 

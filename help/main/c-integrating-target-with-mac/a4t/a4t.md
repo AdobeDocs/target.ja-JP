@@ -107,7 +107,7 @@ A4T レポートの [!UICONTROL Table View] を次の図に示します。
 * A4T の仕組みの説明
 * A4T を使用する前に必要な前提条件の理解
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/3421727?captions=jpn)
 
 ### Analytics と Adobe Targetの統合（A4T）（40:33）![チュートリアルバッジ](/help/main/assets/tutorial.png)
 

@@ -17,15 +17,15 @@ ht-degree: 100%
 
 ## 拡張機能の追加
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34063/?quality=12&captions=jpn)
 
 ## 基本的な [!DNL Target] のデバッグ
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34064/?quality=12&captions=jpn)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34065/?quality=12&captions=jpn)
 
 ## その他のリソース
 

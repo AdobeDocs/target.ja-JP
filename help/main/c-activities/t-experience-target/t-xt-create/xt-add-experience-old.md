@@ -112,7 +112,7 @@ ht-degree: 36%
 * 様々な地域のオーディエンスに場所固有のコンテンツを配信する方法を説明します
 * 適確なコンテンツが適切なオーディエンスに配信されるように、エクスペリエンスを並べ替える方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38305?captions=jpn)
 
 ### アクティビティタイプ（9:03）
 
@@ -122,7 +122,7 @@ ht-degree: 36%
 * 目標達成に適したアクティビティタイプの選択
 * すべてのアクティビティタイプを対象とする、ガイド付き 3 ステップワークフローの説明
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30014?captions=jpn)
 
 ### [!UICONTROL Visual Experience Composer] の使用
 
@@ -131,4 +131,4 @@ ht-degree: 36%
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)

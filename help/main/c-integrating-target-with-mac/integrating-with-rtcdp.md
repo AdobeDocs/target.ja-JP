@@ -128,25 +128,25 @@ AEP／統合プロファイル属性を [!DNL Target] と共有するための J
 
 [!DNL Real-Time Customer Data Platform] での [!DNL Adobe Target] の宛先を設定して、[!DNL Real-Time CDP] から [!DNL Target] へのセグメントとプロファイル属性の送信を開始する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449794/?learn=on&captions=jpn)
 
 ### ビデオ：セグメントとプロファイル属性のアクティブ化
 
 [!DNL Adobe Real-Time Customer Data Platform] から [!DNL Adobe Target] までのセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447356/?learn=on&captions=jpn)
 
 ### ビデオ：[!DNL Target] での [!DNL Real-Time CDP] セグメントの使用
 
 [!DNL Adobe Target] での [!DNL Real-Time Customer Data Platform] セグメントを使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446828/?learn=on&captions=jpn)
 
 ### ビデオ：[!DNL Adobe Target] での [!DNL Real-Time CDP] プロファイル属性の使用
 
 [!DNL Adobe Target] での [!DNL Adobe Real-Time Customer Data Platform] プロファイル属性を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451894/?learn=on&captions=jpn)
 
 ### [!DNL Adobe Target] のブログとビデオ：同じページの強化されたパーソナライゼーション
 

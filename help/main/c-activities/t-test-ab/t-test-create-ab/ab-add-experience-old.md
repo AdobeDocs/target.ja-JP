@@ -104,4 +104,4 @@ ht-degree: 43%
 * ページのコンテンツの変更
 * ページのレイアウトの変更
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29948?captions=jpn)

@@ -65,4 +65,4 @@ ht-degree: 49%
 
 この機能を使用できるシナリオと詳細情報については、次のビデオを視聴してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328272?captions=jpn)

@@ -437,6 +437,6 @@ VEC の 3 ステップのガイドによるアクティビティ作成ワーク�
 
 ## トレーニングビデオ：Adobe Target での SPA VEC の使用
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/35062?captions=jpn)
 
 詳しくは、[Adobe Target でのシングルページアプリケーション Visual Experience Composer（SPA VEC）の使用](https://helpx.adobe.com/jp/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)を参照してください。

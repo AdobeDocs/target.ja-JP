@@ -174,7 +174,7 @@ ht-degree: 96%
 * レスポンシブ Web サイト用のエクスペリエンスのプレビューおよび構築
 * オーバーレイを使用した要素のタイプのハイライト
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30036?captions=jpn)
 
 ### Adobe Target のアカウント環境設定![概要バッジ](/help/main/assets/overview.png)
 

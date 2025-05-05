@@ -76,4 +76,4 @@ After creating a search using "id > contains," for example, you can then click [
 * コレクションの作成
 * 除外の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn)
