@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d1b9dfdbf811eee99d4e33a8fcc012c4825c0e6f
+source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 63%
+source-wordcount: '176'
+ht-degree: 86%
 
 ---
 
@@ -15,21 +15,13 @@ ht-degree: 63%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025年4月28日（PT）**
+**最終更新日：2025年5月5日（PT）**
 
 >[!NOTE]
 >
 >リリース日、機能などの情報は、予告なく変更されることがあります。
 >
 >最新のリリースに関する情報を確認するには、[Target リリースノート](release-notes.md)を参照してください。これらのページの情報は、リリースのタイミングによって異なる場合があります。括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
-
-## [!DNL Target Standard/Premium] 25.4.6 （2025 年 4 月 29 日（PT））
-
-このリリースには、次の修正および更新が含まれています。
-
-* Web サイトの URL に「#」文字が認識され [!DNL Target] い問題を修正しました。 （TGT-52093）
-* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
-* `getAudience`sV3 エラー（「オーディエンスが見つかりません」というエラー）により、お客様がアクティビティを編集またはコピーできない問題を修正しました。 他のユーザーが削除した可能性があります。&quot;） （TGT-52223）
 
 ## その他のリリースノートとバージョンの詳細
 
