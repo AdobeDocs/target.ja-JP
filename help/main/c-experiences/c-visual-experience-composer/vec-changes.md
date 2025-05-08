@@ -4,10 +4,10 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 17 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: f9f914c11dbff64d902a3fd8d6bf96237d1f4aae
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 1%
+source-wordcount: '650'
+ht-degree: 0%
 
 ---
 
@@ -17,51 +17,55 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->更新された [!UICONTROL Visual Editing Composer] には、Chrome Web ストアで使用できる [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 必要です。
+>更新された [!UICONTROL Visual Editing Composer] には、[!DNL Chrome Web Store] で使用できる [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 必要です。
 
 VEC は、既存のアクティビティを作成または編集すると表示されます。
 
-![Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![Visual Experience Composer（VEC）](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## VEC の大幅な変更
 
 以下の節では、以前のバージョンと比較して、更新された VEC の主な変更点について説明します。
 
-### [!UICONTROL Experiences] パネル
+### [!UICONTROL Experiences] レール
 
-以前のバージョンと同様に、[!UICONTROL Experiences] パネルは VEC の左側に残ります。 [!UICONTROL Experiences] パネルを折りたたむことはできません。
+以前のバージョンと同様に、[!UICONTROL Experiences] レールは VEC の左側に残ります。 [!UICONTROL Experiences] レールを折りたたむことはできません。
 
 ![ エクスペリエンスパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-エクスペリ [!UICONTROL Experiences] ンスパネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ![&#128279;](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ）をクリックします。
+[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ![）をクリックします。
 
-### [!UICONTROL Components] パネル（新規）
+### [!UICONTROL Components] レール（新規）
 
 Web ページに多数のコンポーネントを追加し、必要に応じて新しい [!UICONTROL Components] パネルを使用して編集できます。
 
 ![ コンポーネントパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-新しいコンポーネントを追加するには、挿入するコンポーネントをコンポーネントパネルからデザインキャンバスの既存のページ要素にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
+新しいコンポーネントを追加するには、挿入するコンポーネントを [!UICONTROL Components] パネルから [!UICONTROL Design] キャンバス内の既存のページ要素にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
 
 以前の VEC バージョンと比較して、選択した要素をコンポーネントで置き換えることはできません。
 
-### [!UICONTROL Modifications] パネル
+### [!UICONTROL Modifications] レール
 
-[!UICONTROL Modifications] パネルを開くには、[!UICONTROL Components] パネルの [!UICONTROL Show Modifications] アイコン（![ 変更パネルを表示 ](/help/main/assets/icons/History.svg)）をクリックします。 [!UICONTROL Modifications] パネルの位置が、編集キャンバスの右側から左側に変更されました。
+[!UICONTROL Modifications] レールを開くには、[!UICONTROL Components] レールの [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。 [!UICONTROL Modifications] レールの位置が、編集キャンバスの右側から左側に変更されました。
 
-![変更パネル](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![ 変更パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
-[!UICONTROL Modifications] パネルには、[!UICONTROL Visual Experience Composer] （VEC）内のページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、mbox、カスタムコードなど）を行うことができます。
+[!UICONTROL Modifications] レールには、VEC でページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、mbox、カスタムコードなど）を行うことができます。
 
 [!UICONTROL More Options] のアイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmall.svg) 変更を追加、すべての変更を削除、またはすべての無効な変更を削除します。 一括操作を実行するには、「[!UICONTROL Select]」をクリックします（[!UICONTROL Apply to All Pages] または [!UICONTROL Delete]）。
 
-### [!UICONTROL Properties] パネル（新規）
+[!UICONTROL Modifications] レールを再度表示するには、[!UICONTROL Modifications] レールの [!UICONTROL Hide Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
 
-新しい [!UICONTROL Properties] パネルを使用すると、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTMLの要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
+### [!UICONTROL Properties] レール（新規）
+
+[!UICONTROL Properties] パネルを使用すると、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTMLの要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
 
 ![ プロパティパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、要素を削除、複製、非表示にしたりします。 変更が [!UICONTROL Modifications] ールパネルに表示されます。
+パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、要素を削除、複製、非表示にしたりします。 変更が [!UICONTROL Modifications] パネルに表示されます。
+
+![ プロパティアイコン ](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
 [!UICONTROL Properties] パネルは、右側のパネルで折りたたみ可能です。 パネルの右側にある [!UICONTROL Show/Hide Properties] アイコン ![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] のパネルを折りたたんだり表示したりします。
 
@@ -71,13 +75,13 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ![ アクティビティ設定オプション ](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-オプションによって、複数ページまたは複数のオーディエンスアクティビティの有効化/無効化、プロパティの割り当て（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 機能）、ページ配信ルールの編集を行うことができます。
+様々なオプションによって、プロパティの割り当て、ページ配信ルールの編集、サイトの環境設定の指定、追加ページの追加、複数ページまたは複数のオーディエンスアクティビティの有効化または無効化を行うことができます。 [!UICONTROL Properties] の割り当ては、[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) の機能です。
 
 位置と機能は、以前の VEC UI と同様です。
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] モード
 
-デザインキャンバスの上部に表示されている [!UICONTROL Design]/[!UICONTROL Browse] の切り替えを使用して、デザインモードと参照モードを切り替えます。
+デザイ [!UICONTROL Properties] レールの上部に表示されている [!UICONTROL Design]/[!UICONTROL Browse] の切り替えを使用して、デザインモードと参照モードを切り替えます。
 
 ![ デザインと参照の切り替え ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -93,7 +97,7 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ### [!UICONTROL Design] キャンバス
 
-[!UICONTROL Design] キャンバスでは、画面に合わせる、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]、[!UICONTROL Mobile Portrait] などのビューポートを選択できます。 デフォルトでは、キャンバスは、「[ 管理 ](/help/main/administrating-target/visual-experience-composer-set-up.md)」セクションで定義されたビューポートと共に、ページを画面に合わせます。
+[!UICONTROL Design] キャンバスでは、画面に合わせる、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]、[!UICONTROL Mobile Portrait] などのビューポートを選択できます。
 
 ![ ビューポート オプション ](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
