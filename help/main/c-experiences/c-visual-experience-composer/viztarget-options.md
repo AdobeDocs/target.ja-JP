@@ -17,7 +17,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->更新された [!UICONTROL Visual Editing Composer] には ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Chrome web ストアで利用可能な [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能が必要です。
+>更新された [!UICONTROL Visual Editing Composer] には [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Chrome web ストアで利用可能な [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 拡張機能が必要です。
 
 VEC は、既存のアクティビティを作成または編集すると表示されます。
 
@@ -52,7 +52,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 * **[!UICONTROL Properties]**: アクティビティにプロパティを割り当てるか、アクティビティからプロパティを削除します。 [!UICONTROL Properties] は（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 機能です。 詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 * **[!UICONTROL Page Delivery]**：サイトの類似のページに同じエクスペリエンスを組み込みます。 ページテンプレートを使用してページに構造を提供するか、ページに類似の要素が含まれている場合は、類似した構造のページ要素またはドメイン全体でのバリエーションをテストします。 詳しくは、[ 類似のページに同じエクスペリエンスを組み込む ](/help/main/c-experiences/c-visual-experience-composer/temtest.md) を参照してください。
-* **[!UICONTROL Site Preferences]**: サイトの環境設定を設定して、[!DNL Target] が CSS セレクターを生成する方法を指定します。 詳しくは、[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md) の設定の _CSS セレクター_ を参照し [ ください。
+* **[!UICONTROL Site Preferences]**: サイトの環境設定を設定して、[!DNL Target] が CSS セレクターを生成する方法を指定します。 詳しくは、[!UICONTROL Visual Experience Composer][&#128279;](/help/main/administrating-target/visual-experience-composer-set-up.md) の設定の _CSS セレクター_ を参照し  ください。
 * **追加のページ**：アクティビティにページを追加して、複数ページのアクティビティを作成します。このアクティビティでは、各ページに固有のデザインを使用して、複数ページにわたるストーリーを作成できます。 詳しくは、[ 複数ページアクティビティ ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) を参照してください。
 * **単一オーディエンス**：アクティビティに単一のオーディエンスを使用します。
 * **複数のオーディエンス**：アクティビティに複数のオーディエンスを割り当てます。 オーディエンスを追加アイコン（![ アイコンを追加 ](/help/main/assets/icons/Add.svg)）をクリックし、リストから 1 つ以上のオーディエンスを選択します。 また、[!UICONTROL Add Audiences] ダイアログボックスでは [ オーディエンスを組み合わせる ](/help/main/c-target/combining-multiple-audiences.md) または [ 新しいオーディエンスを作成 ](/help/main/c-target/c-audiences/create-audience.md) することもできます。
