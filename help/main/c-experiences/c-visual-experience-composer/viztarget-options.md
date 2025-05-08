@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] （VE
 title: '[!UICONTROL Visual Experience Composer] （VEC）オプションの使用方法？'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 042c060aeb9434fd6bb4f9333093f3a1a8508ac9
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->更新された [!UICONTROL Visual Editing Composer] には [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Chrome web ストアで利用可能な [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 拡張機能が必要です。
+>更新された [!UICONTROL Visual Editing Composer] には ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)Chrome web ストアで利用可能な [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能が必要です。
 
 VEC は、既存のアクティビティを作成または編集すると表示されます。
 
@@ -27,13 +27,13 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 次の節では、[!UICONTROL A/B Test] アクティビティの更新された VEC で使用できるオプションについて説明します。 オプションは、アクティビティタイプによって異なります。
 
-### [!UICONTROL Experiences] パネル
+### [!UICONTROL Experiences] レール
 
-[!UICONTROL Experiences] パネルが VEC の左側のパネルに表示されます。
+[!UICONTROL Experiences] のレールが VEC の左側のレールに表示されます。
 
 ![ エクスペリエンスパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-エクスペリ [!UICONTROL Experiences] ンスパネルを使用して、エクスペリエンスを表示、作成、名前変更または削除できます。
+[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを表示、作成、名前変更または削除できます。
 
 [!UICONTROL Experiences] パネルでは、次のオプションを使用できます。
 
@@ -52,7 +52,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 * **[!UICONTROL Properties]**: アクティビティにプロパティを割り当てるか、アクティビティからプロパティを削除します。 [!UICONTROL Properties] は（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 機能です。 詳しくは、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を参照してください。
 * **[!UICONTROL Page Delivery]**：サイトの類似のページに同じエクスペリエンスを組み込みます。 ページテンプレートを使用してページに構造を提供するか、ページに類似の要素が含まれている場合は、類似した構造のページ要素またはドメイン全体でのバリエーションをテストします。 詳しくは、[ 類似のページに同じエクスペリエンスを組み込む ](/help/main/c-experiences/c-visual-experience-composer/temtest.md) を参照してください。
-* **[!UICONTROL Site Preferences]**: サイトの環境設定を設定して、[!DNL Target] が CSS セレクターを生成する方法を指定します。 詳しくは、[!UICONTROL Visual Experience Composer][&#128279;](/help/main/administrating-target/visual-experience-composer-set-up.md) の設定の _CSS セレクター_ を参照し  ください。
+* **[!UICONTROL Site Preferences]**: サイトの環境設定を設定して、[!DNL Target] が CSS セレクターを生成する方法を指定します。 詳しくは、[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md) の設定の _CSS セレクター_ を参照し [ ください。
 * **追加のページ**：アクティビティにページを追加して、複数ページのアクティビティを作成します。このアクティビティでは、各ページに固有のデザインを使用して、複数ページにわたるストーリーを作成できます。 詳しくは、[ 複数ページアクティビティ ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) を参照してください。
 * **単一オーディエンス**：アクティビティに単一のオーディエンスを使用します。
 * **複数のオーディエンス**：アクティビティに複数のオーディエンスを割り当てます。 オーディエンスを追加アイコン（![ アイコンを追加 ](/help/main/assets/icons/Add.svg)）をクリックし、リストから 1 つ以上のオーディエンスを選択します。 また、[!UICONTROL Add Audiences] ダイアログボックスでは [ オーディエンスを組み合わせる ](/help/main/c-target/combining-multiple-audiences.md) または [ 新しいオーディエンスを作成 ](/help/main/c-target/c-audiences/create-audience.md) することもできます。
@@ -73,7 +73,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 アクションをやり直すには、「 取り消し/取り [!UICONTROL Redo] し」ボタングループを展開し、「取り [!UICONTROL Redo] し」を選択します。
 
-### [!UICONTROL Components] パネル
+### [!UICONTROL Components] レール
 
 Web ページに多数のコンポーネントを追加し、必要に応じて新しい [!UICONTROL Components] パネルを使用して編集できます。
 
@@ -81,7 +81,7 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 >[!NOTE]
 >
->この領域に [!UICONTROL Components] パネルではなく [!UICONTROL Modifications] パネルが表示されている場合は、**[!UICONTROL Show Components]** アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更パネルを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
+>[!UICONTROL Components] パネルの代わりにこの領域に [!UICONTROL Modifications] パネルが表示されている場合は、**[!UICONTROL Show Components]** アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
 
 新しいコンポーネントをエクスペリエンスに追加するには：
 
@@ -107,19 +107,19 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
    以前の VEC バージョンと比較して、選択した要素をコンポーネントで置き換えることはできません。
 
-### [!UICONTROL Modifications] パネル
+### [!UICONTROL Modifications] レール
 
-[!UICONTROL Modifications] パネルを開くには、[!UICONTROL Components] パネルの [!UICONTROL Show Modifications] アイコン（![ 変更パネルを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
+[!UICONTROL Modifications] レールを開くには、[!UICONTROL Components] レールの [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
 
-![変更パネル](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![ 変更パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->[!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更パネルを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
+>[!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
 
-[!UICONTROL Modifications] パネルには、[!UICONTROL Visual Experience Composer] （VEC）内のページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、mbox、カスタムコードなど）を行うことができます。
+[!UICONTROL Modifications] レールには、[!UICONTROL Visual Experience Composer] （VEC）でページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、mbox、カスタムコードなど）を行うことができます。
 
-パネルヘッダーの **[!UICONTROL More Options]** ![ アイコン（その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加したり、すべての変更を削除したり、無効な変更をすべて削除したりします。 一括操作を実行するには、「[!UICONTROL Select]」をクリックします（[!UICONTROL Apply to All Pages] または [!UICONTROL Delete]）。
+パネルヘッダーの **[!UICONTROL More Options]**![ のアイコン（その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、変更を追加したり、すべての変更を削除したり、無効な変更をすべて削除したりします。 一括操作を実行するには、「[!UICONTROL Select]」をクリックします（[!UICONTROL Apply to All Pages] または [!UICONTROL Delete]）。
 
 各変更の横にある **[!UICONTROL More Options]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックして、情報を表示したり、変更を削除したり、変更をさらに表示したり可能にします。
 
@@ -141,19 +141,19 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 >
 >使用できるオプションは、作成または編集しているアクティビティタイプおよび要素によって異なります。 [!UICONTROL A/B Test] アクティビティでの画像とオファーの編集について詳しくは、以下の [[!UICONTROL Design] キャンバスを使用した要素の編集 ](#design) を参照してください。
 
-### [!UICONTROL Properties] パネル
+### [!UICONTROL Properties] レール
 
-[!UICONTROL Properties] パネルを使用すると、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTML要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
+[!UICONTROL Properties] パネルを使用すると、ページ上で選択した要素のプロパティを変更できます。これらの要素がHTMLの要素であるか、レコメンデーションやオファーなど、[!DNL Target] ージに固有のオブジェクトであるかに関係なく、プロパティを変更できます。
 
 ![ プロパティパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、要素を削除、複製、非表示にしたりします。 変更が [!UICONTROL Modifications] ールパネルに表示されます。
+パネルの上部にあるアイコンをクリックして、HTML コードを編集したり、要素を削除、複製、非表示にしたりします。 変更が [!UICONTROL Modifications] パネルに表示されます。
 
 [!UICONTROL Properties] パネルは、右側のパネルで折りたたみ可能です。 パネルの右側にある [!UICONTROL Show/Hide Properties] アイコン ![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] のパネルを折りたたんだり表示したりします。
 
 ## [!UICONTROL Design] キャンバスを使用した要素の編集 {#design}
 
-次の節では、[!UICONTROL Design] キャンバスで画像とテキストを編集する方法について説明します。 デザインキャンバスは、コンポーネント パネル、変更パネル、プロパティパネルと共に、アクティビティのエクスペリエンスを容易に作成できる強力なツールを提供します。
+次の節では、[!UICONTROL Design] キャンバスで画像とテキストを編集する方法について説明します。 デザインキャンバスは、コンポーネント、変更およびプロパティ パネルと共に、アクティビティのエクスペリエンスを容易に作成できる強力なツールを提供します。
 
 ### 画像オプション
 
@@ -467,7 +467,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -499,7 +499,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -531,7 +531,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ja){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -621,7 +621,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -629,9 +629,9 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ja){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
