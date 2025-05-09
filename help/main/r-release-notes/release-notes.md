@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 52%
+source-wordcount: '874'
+ht-degree: 36%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 52%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.5.2 （2025 年 5 月 8 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* [!UICONTROL Product Administrator] および [!UICONTROL System Administrator] の権限を持つ [!DNL Target] ユーザーは、[!DNL Target] での役割に関係なく、[!UICONTROL Administration] ページのすべての設定を編集できるようになりました。 これらの権限を持たないユーザーは、これらの設定に読み取り専用でアクセスできます。 この更新により、[ 管理設定 ](/help/main/administrating-target/administrating-target.md) に対するアクセス制御が強化されます。 （TGT-48179）
+* アクティビティ [ サイト環境設定 ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) を保存できないキャッシュの問題を修正しました。 （TGT-52213）
+* VEC にサイトを読み込んだ後、お客様が [!UICONTROL Site Preferences] セクションの ID とクラスによる選択を有効にできなかった問題を修正しました。 有効にした後も、[!UICONTROL Site Preferences] 設定は自動的に無効に戻りました。 （TGT-52207）
+* [ ページ配信 ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URL がスラッシュ（/）で終わる場合に、[!UICONTROL Visual Experience Composer] （VEC）で正しいページを表示できなかった問題を修正しました。 （TGT-52237）
+* エクスペリエンスを変更する際に、カスタムコードの変更を削除できない問題を修正しました。 （TGT-52240）
+* VEC でのHTMLの変更により、既存のページ要素がオーバーレイされる問題を修正しました。 （TGT-52265）
+* 既存のカスタムコードがエディターに表示されないので、更新された VEC のカスタムコードを編集できない問題を修正しました。 （TGT-52272）
+* Recommendations アクティビティを保存する際に、「重複した名前は許可されません」というエラーメッセージが表示される問題を修正しました。 （TGT-52318）
+* 更新された VEC で、顧客がテキスト要素を編集したり、コンテナオブジェクトを削除したりできない問題を修正しました。 （TGT-52348）
+* アクティビティ [!UICONTROL Overview] ーザーページに [!DNL Customer Journey Analytics] が正しく表示されない問題を修正しました。 （TGT-52359）
+* レポートグループが [!UICONTROL Automated Personalization] （AP）アクティビティに保持されない問題を修正しました。 （TGT-52368）
+* Offer Decisioning を含むアクティビティを保存できない問題を修正しました。 （TGT-52390）
+* デフォルトのオファーが選択されても、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Test] （MVT）アクティビティに他のオファーコンテンツが表示される問題を修正しました。 （TGT-52372）
+* 組織への完全なアクセスと、特定の組織へのユーザーアクセスを OR でチェックするGET権限ロジックを修正しました。 （TGT-52374）
+* [!UICONTROL Show Only Selected] が有効になっている場合でも、[!UICONTROL Managed Content] と [!UICONTROL Reporting Audiences] のオーディエンスを選択した後にオーディエンス名が表示されない問題を修正しました。 （TGT-52393）
 
 ## [!DNL Target Standard/Premium] 25.5.1 （2025 年 5 月 5 日）
 

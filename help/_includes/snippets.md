@@ -1,7 +1,7 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2025 年 4 月 22 日（PT）より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、ワークスペースでの役割に関係なく、[!UICONTROL Administration] セクションの設定を更新でき [!DNL Target] ようになります。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。 詳しくは、[[!UICONTROL Administration] 設定の編集に必要な権限 ](/help/main/administrating-target/start-target.md#admin-permissions) を参照してください。
+>[!UICONTROL Product Administrator] および [!UICONTROL System Administrator] の権限を持つ [!DNL Target] ユーザーは、[!DNL Target] での役割に関係なく、[!UICONTROL Administration] ページ上のすべての設定を編集できます。 これらの権限を持たないユーザーは、これらの設定に読み取り専用でアクセスできます。
 
 
