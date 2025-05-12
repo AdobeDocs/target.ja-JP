@@ -4,10 +4,10 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 95%
+source-wordcount: '2678'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target の機能の使用方法に関するよくある質問のリスト�
 
 **Target はどのブラウザーをサポートしていますか？**
 
-詳しくは、[ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank} マトリックスを参照してください。 Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -180,7 +180,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 また、「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でブロックを解除できます。
 
-[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡して [許可リストAdobeのプロキシ サーバーにも連絡する必要がある可能性 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) あります。
+[拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) が役に立つケースと、そのメリットも確認してください。IT 部門に連絡して [Adobeのプロキシ サーバーを許可リストする必要がある場合 ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) あります。
 
 **レスポンシブサイトを運営しています。アクティビティの作成中に重要なデバイスでの表示を確認するには、どうすればよいですか？**
 
@@ -212,13 +212,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 構成および参照の機能を使用すれば、目的のページに移動してエクスペリエンスを作成できます。
 
-![vec2 画像 ](assets/vec2.png)
-
-**Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）から、目的のエクスペリエンスに移動するにはどうすればよいですか？**
-
-ステップ 2 でエクスペリエンス名の前にあるサムネールをクリックすれば、対象のエクスペリエンスに移動できます。
-
-![thumbnail_experience 画像 ](assets/thumbnail_experiences.png)
+![ デザインと参照の切り替え ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **以前まで Target Classic を利用していました。特定の用途で自分の mbox を利用することはできますか？**
 
@@ -258,7 +252,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,4 +303,4 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **Target API の詳細はどこで確認できますか？**
 
-API に関する詳細なドキュメントを用意してあります。[ 配信 API、NodeJS SDK およびRecommendations API ドキュメント ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} を参照してください。
+API に関する詳細なドキュメントを用意してあります。「[Delivery API、NodeJS SDK、および Recommendations API のドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}」を参照してください。
