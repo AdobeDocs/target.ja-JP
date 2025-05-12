@@ -4,9 +4,9 @@ description: '[!UICONTROL Visual Experience Composer] （VEC） in を使用し�
 title: '[!UICONTROL Experience Targeting] アクティビティの作成方法'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '396'
 ht-degree: 33%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 33%
 
 1. （条件付き） [!DNL Target Premium] の顧客の場合は、[ ワークスペースを選択 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) します。
 
-   「[!UICONTROL Choose Workplace]」オプションは [&#128279;](/help/main/c-intro/intro.md)1&rbrace;Target Premium&rbrace; 機能です。 このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
+   「[!UICONTROL Choose Workplace]」オプションは ](/help/main/c-intro/intro.md)1}Target Premium} 機能です。 [このオプションが表示されない場合、組織が [!DNL Target Standard] ライセンスを保有している場合。
 
 1. [ アクティビティ URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) を指定し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -51,7 +51,7 @@ ht-degree: 33%
 
    VEC が開き、URL で指定したページが表示されます。
 
-1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
+1. アクティビティに名前を付けるには、「[!UICONTROL Untitled Activity]」の横にある **[!UICONTROL Edit]** のアイコン ![ 編集アイコン ](/help/main/assets/icons/Edit.svg)）をクリックし、アクティビティのわかりやすい名前を指定して、「**[!UICONTROL Save]**」をクリックします。
 
    アクティビティ名は、次の文字で始めることはできません：
 
