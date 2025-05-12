@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 55%
 
 新しい [!UICONTROL Properties] 機能の使用を開始する際は、すべてのユーザー管理を [!DNL Adobe Admin Console for Enterprise] で実行する必要があります。 ただし、[!DNL Target] のすべての既存のユーザーは、[!DNL Target] から [!DNL Admin Console for Enterprise] に移行されます。
 
-1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)、ページ上部の「**[!UICONTROL Users]**」タブをクリックして、新しいユーザーを作成したり、既存のユーザーを編集し **[!UICONTROL Add Users]** りします。
+1. [Admin Consoleで ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)、ページ上部の「**[!UICONTROL Users]**」タブ/ **[!UICONTROL Add Users]** をクリックして、新規ユーザーを作成するか、既存のユーザーを編集します。
 1. *Enterprise ユーザーガイド*&#x200B;の [Experience Cloud でのユーザーとグループの管理](https://helpx.adobe.com/jp/enterprise/help/users.html)の手順に従ってください。
 
 ## 手順 2：ワークスペースの作成（製品プロファイル） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -77,14 +77,14 @@ ht-degree: 55%
 
    これらのワークスペースを使用して、地域別、ビジネスユニット別、サイトセクション別または選択したその他の方法で、様々なチームにアクセス権を分割できます。ユーザーは複数のワークスペースに属すことができ、各ワークスペースで異なる役割を持つことができます。
 
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成の作成と管理](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 >[!NOTE]
 >ワークスペース設定について詳しくは、以下のトレーニングビデオをご覧ください。
 
 ### ワークスペース ID の取得 {#workspace-id}
 
-[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} で Enterprise 権限を活用するには、Workspace ID を渡す必要があります。
+[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} の Enterprise 権限を活用するには、ワークスペース IDを渡す必要があります。
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com) で [[!UICONTROL Products]] タブをクリックし、左メニューで商品をクリックして PLC （Workspace）一覧を表示します。
 1. 目的のPLC（ワークスペース）をクリックし、次に示す URL で「プロファイル」 ID を探します。
@@ -95,12 +95,12 @@ ht-degree: 55%
 
 開発者、アナリスト、マーケティング担当者、エグゼクティブなどのユーザーグループを作成して、複数のアドビ製品およびワークスペースにわたって権限を割り当てることができます。新しいチームメンバーに様々なアドビ製品にわたるすべての適切な権限を割り当てることは、特定のユーザーグループに追加するくらいに簡単です。
 
-1. Admin Consoleで、ページ上部の「**[!UICONTROL Users]**」タブをクリックして、新しいユーザーグループを作成するか、既存のグループを編集します **[!UICONTROL User Groups]**
-1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/jp/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
+1. Admin Consoleで、ページ上部の「**[!UICONTROL Users]**」タブをクリックして、新しいユーザーグループを作成するか、既存のグループを編集し **[!UICONTROL User Groups]** す。
+1. *Enterprise ユーザーガイド*&#x200B;の[製品構成のユーザーおよびグループを管理する](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)の手順に従ってください。
 
 ## 手順 4.プロパティの作成 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-プロパティは、特定の名前と値のペアを任意の呼び出し（Target 呼び出し、API 呼び出しなど）のパラメーターとして追加することで有効になります。 to Target.
+プロパティを有効にするには、任意の呼び出し（[!DNL Target] 呼び出し、api 呼び出しなど）を持つパラメーターとして、特定の名前と値のペアを追加 [!DNL Target] ます。
 
 プロパティは、特定のチャネル（web、モバイル、メール、API/その他）に属しています。
 
@@ -133,7 +133,7 @@ ht-degree: 55%
 
    [!DNL Target] で、**[!UICONTROL Administration]**/**[!UICONTROL Properties]** をクリックして、[!UICONTROL Properties] リストを表示します。
 
-   1. 表示する目的のプロパティの [!UICONTROL Last Updated] 列にマウスポインターを置き、「[!UICONTROL Code]」アイコンをクリックします。
+   1. 表示する目的のプロパティの「[!UICONTROL Last Updated]」列にマウスポインターを置き、[!UICONTROL Code] アイコン（![ コードアイコン ](/help/main/assets/icons/Code.svg)）をクリックします。
 
       ![プロパティホバーコード](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -145,7 +145,7 @@ ht-degree: 55%
 
    * **[!DNL Adobe Experience Platform] 内のタグの「カスタムパラメーター」を使用：**
 
-     詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=ja#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
+     詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) ドキュメントの *mbox パラメーターの追加* を参照してください。
 
    * **targetPageParamsAll （）関数を使用：** 次のコードを `<head>` タグ内の at.js 参照の上に配置します。
 
@@ -159,7 +159,7 @@ ht-degree: 55%
      </script>
      ```
 
-     at.js を使用してこれを行う方法について詳しくは、[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=ja){target=_blank} を参照してください。
+     at.js を使用してこれを行う方法について詳しくは、[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank} を参照してください。
 
 ## 手順 6：役割と権限の指定 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -210,7 +210,7 @@ ht-degree: 55%
 
 * デフォルトのワークスペースの概要を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3421733?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Adobe Targetでプロパティを作成する方法（3:05） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 

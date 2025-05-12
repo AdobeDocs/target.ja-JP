@@ -5,10 +5,10 @@ title: User Management の設定方法を教えてください。
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 61%
+source-wordcount: '208'
+ht-degree: 64%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 61%
 * **Target Premium のお客様：**&#x200B;組織が [!DNL Target] Premium ライセンスを保有している場合は、Target UI で以下を確認できます：
 
    * 「[!UICONTROL Properties]」タブ（[!UICONTROL Administration]/[!UICONTROL Properties]）が表示されます。
-   * また、「[!UICONTROL Users]」タブ（[!UICONTROL Administration]/[!UICONTROL Users]）も表示されます。
+   * 「[!UICONTROL Users]」タブ *[!UICONTROL Administration]/[!UICONTROL Users]）は表示され* せん。
 
      [!DNL Target] Premium のお客様が [!DNL Adobe Admin Console] でユーザーの追加や権限の割り当てを行う際は、[Enterprise ユーザー権限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)と[Enterprise 権限の設定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)の手順に従ってください。
 
-次の図に、[!DNL Target] Premium アカウントの [!UICONTROL Administration] ページを示します。 なお、「[!UICONTROL Properties]」タブと「[!UICONTROL Users]」タブは次の場所にあります。
+次の図に、[!DNL Target Premium] アカウントの [!UICONTROL Administration] ページを示します。
 
 ![「管理」タブ](/help/main/administrating-target/assets/premium.png)
