@@ -20,7 +20,7 @@ ht-degree: 32%
 
 [!DNL Adobe Admin Console] のシステム管理者が、あなたを招待して参加 [!DNL Target] せるユーザーとして追加する必要があります。 システム管理者は、ユーザーを 1 つ以上の役割固有のグループに追加する必要があります。 これらのタスクは両方とも、[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、{2[Experience Cloudとコアサービスのヘルプ ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud ユーザーおよび製品の管理 *を参照してください。*
+詳しくは、&lbrace;2[Experience Cloudとコアサービスのヘルプ ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud ユーザーおよび製品の管理 *を参照してください。*
 
 システム管理者がこれらの手順を実行すると、招待メールが届きます。
 
@@ -60,7 +60,7 @@ ht-degree: 32%
 
 ## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
 
-**2025 年 4 月 22 日（PT）より前**:[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、[!DNL Target] ーザーの役割に関係なく ](/help/main/administrating-target/administrating-target.md)[!DNL Target] の [[!UICONTROL Administration] ページのすべての設定を編集または変更できます。
+**2025 年 4 月 22 日（PT）より前**:[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、[!DNL Target] ーザーの役割に関係なく [&#128279;](/help/main/administrating-target/administrating-target.md) [!DNL Target] の [!UICONTROL Administration] ページのすべての設定を編集または変更できます。
 
 **2025 年 4 月 22 日（PT）より**:[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるのは、[!UICONTROL Product] 管理者と [!UICONTROL Solutions] 管理者のみです。[!DNL Target] ワークスペースでの役割には関係ありません。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 
