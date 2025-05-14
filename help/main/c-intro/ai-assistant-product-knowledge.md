@@ -3,9 +3,8 @@ keywords: ai アシスタント；人工知能アシスタント
 description: ' [!DNL AI Assistant] を使用して製品  [!DNL Target]  関する知識を得る方法を説明します。'
 title: 製品の知識を得るために  [!DNL AI Assistant] in [!DNL Target]  を使用する方法
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: f1f1eb08367b26206df74a3b81af0750e6180b9f
+exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
+source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -61,19 +60,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant] の [!DNL Adobe Experience Platform] アプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441025/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの応答を検証
 
 [!DNL Adobe Experience Platform] で提供される応答を検証および検証する方法 [!DNL AI Assistant] ついて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441739/?learn=on&#x26;enablevpops&captions=jpn)
-
-
-
-
-
-
-
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
