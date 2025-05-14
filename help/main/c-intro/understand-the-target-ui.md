@@ -4,10 +4,10 @@ description: ユーザーインターフェイスに慣れ、 [!DNL Target] を�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 31%
+source-wordcount: '1388'
+ht-degree: 28%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 31%
 
 ユーザーインターフェイスは、[!DNL Adobe Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。以下の概要は、[!DNL Target] に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
 
-[!DNL Target] UI の上部のヘッダーには、ソリューションの様々な機能を移動するのに役立つタブとオプションが含まれています。 また、組織と [!DNL Adobe Experience Cloud] ソリューションの切り替え、ヘルプと通知の取得、[!DNL Adobe] プロファイルの管理、[!DNL Target] からのログアウトを行うこともできます。
+## [!DNL Target] UI ヘッダー
+
+[!DNL Target] UI の上部のヘッダーには、ソリューションの様々な機能を移動するのに役立つタブとオプションが含まれています。 また、組織や [!DNL Adobe Experience Cloud] ソリューションの切り替え、Beta プログラムに参加している場合のフィードバックの提供、AI アシスタントへのアクセス、ヘルプと通知の受け取り、[!DNL Adobe] プロファイルの管理、[!DNL Target] からのログアウトを行うこともできます。
 
 ![Target ヘッダー](/help/main/c-intro/assets/target-header.png)
 
-左側のタブを使って [!DNL Target] の様々な機能にアクセスできます。これについては後ほど説明します。 タブに進める前に、まず、右側のオプションについて説明します。
+左側のタブを使って [!DNL Target] の様々な機能にアクセスできます。これについては後ほど説明します。 タブについて説明する前に、まず、右側のオプションについて説明します。
 
-## 組織
+### [!UICONTROL Organization]
 
 *組織*&#x200B;とは、管理者がグループおよびユーザーを設定し、[!DNL Adobe Experience Cloud] でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての [!DNL Experience Cloud] 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
 
@@ -29,19 +31,25 @@ ht-degree: 31%
 
 ![組織ドロップダウンリスト](/help/main/c-intro/assets/organizations.png)
 
-## Apps
+### [!UICONTROL Beta Feedback]
 
-アプリ切り替えボタンをクリックすると、自分がアクセス権を持っている [!DNL Adobe Experience Cloud] ソリューションにすばやくアクセスできます。
+（条件付き） [!DNL Target] Betaの公式プログラムに参加している場合は、「[!UICONTROL Beta Feedback]」アイコンが表示される場合があります。
 
-![アプリ切り替えツール](/help/main/c-intro/assets/apps.png)
+![Beta フィードバックアイコン ](/help/main/c-intro/assets/beta-feedback.png)
 
-## ヘルプ
+フィードバックの説明を入力し、該当するファイルやスクリーンショット、必要に応じて追加の詳細を含めて、「**[!UICONTROL Submit]**」をクリックします。
 
-ヘルプアイコンを使用すると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。サポートチケットの作成、サポート用電話番号の検索、Twitterでの質問、または [!DNL Target] チームの活動状況を知らせるフィードバックの提供が [!DNL Target] 能です。
+### [!DNL AI Assistant] （2025 年 5 月 20 日（PT）リリース予定）
+
+（条件付き）組織で AI アシスタントを使用する権限が付与されている場合は、AI アシスタント アイコンをクリックします。
+
+### ヘルプ
+
+ヘルプアイコンを使用すると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。サポートチケットの作成、サポート用電話番号の検索、Twitter での質問、[!DNL Target] に関するフィードバックの提供により、[!DNL Target] チームの活動状況を把握できます。
 
 ![ヘルプ](/help/main/c-intro/assets/help.png)
 
-## 通知とお知らせ {#notifications-announcements}
+### 通知とお知らせ {#notifications-announcements}
 
 [!UICONTROL Notifications] と [!UICONTROL Announcements] のパネルを使用すると、[!DNL Adobe Target] のすべてに関する最新情報を入手できます。 プロアクティブ通知は、ソリューションと [!DNL Target] イベントのステータス [!DNL Adobe Experience Cloud] 常に把握するのに役立ちます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
@@ -55,7 +63,7 @@ ht-degree: 31%
 
 次の節では、各タブの情報と、通知とお知らせの設定方法について説明します。
 
-### 通知 {#notifications}
+#### 通知 {#notifications}
 
 イベント通知に [!DNL Target]、次のものが含まれます。
 
@@ -93,7 +101,7 @@ ht-degree: 31%
 
 通知の上にマウスポインターを置き、「[!UICONTROL Remind me]」アイコンをクリックしてから、通知を受け取るタイミング（5 分、15 分、1 時間、明日）を選択することで、リマインダーに再び通知を送信するように設定することもできます。
 
-### 発表
+#### 発表
 
 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
@@ -117,8 +125,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >「新しいリリース」と「コンテンツの更新」は、[!DNL Target] に適用される唯一の通知カテゴリです。 その他のカテゴリは、他のAdobeソリューションにも当てはまります。
-
+   >「新しいリリース」と「コンテンツの更新」は、[!DNL Target] に適用される唯一の通知カテゴリです。 その他のカテゴリは、他のAdobe ソリューションに当てはまります。
 
 1. 優先度が高いと見なすカテゴリを選択します。
 1. ブラウザーにアラートを表示する通知を選択します。
@@ -132,7 +139,13 @@ ht-degree: 31%
    * デイリーダイジェスト
    * 週刊ダイジェスト
 
-## プロファイル
+### アプリ切り替えツール
+
+アプリ切り替えボタンをクリックすると、自分がアクセス権を持っている [!DNL Adobe Experience Cloud] ソリューションにすばやくアクセスできます。
+
+![アプリ切り替えツール](/help/main/c-intro/assets/apps.png)
+
+### プロファイル
 
 [!DNL Adobe Experience Cloud] の環境設定を編集したり、[!DNL Target] からサインアウトしたりするには、プロファイルのアバターをクリックします。また、[!DNL Adobe] プロファイルにアクセスや編集することもできます。
 

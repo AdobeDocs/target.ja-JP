@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 86%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 86%
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
    + [Target の UI について](/help/main/c-intro/understand-the-target-ui.md)
-   + Adobe Target AI アシスタント {#ai-assistant}
-      + [AI アシスタントを有効にする](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI アシスタント {#assistant-ai}
+      + [AI アシスタントの概要](/help/main/c-intro/ai-assistant.md)
+      + [AI アシスタントを有効にする](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI アシスタントを使用して製品の知識を得る](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
