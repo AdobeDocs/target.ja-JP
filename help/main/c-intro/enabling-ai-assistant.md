@@ -1,6 +1,6 @@
 ---
 keywords: ai アシスタント；人工知能アシスタント
-description: '[!DNL  Adobe Target] を有効にする方法  [!DNL AI Assistant]  説明します。'
+description: '[!DNL &#x200B; Adobe Target] を有効にする方法  [!DNL AI Assistant]  説明します。'
 title: ' [!DNL AI Assistant] in [!DNL Target] を有効にするにはどうすればよいですか？'
 feature: Overview
 source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
