@@ -1,19 +1,19 @@
 ---
 keywords: ai アシスタント；人工知能アシスタント
 description: ' [!DNL AI Assistant] を使用して概念を操作および理解する方法  [!DNL Target]  説明します。'
-title: ' [!DNL AI Assistant] in [!DNL Target] の使用方法'
+title: ' [!DNL AI Assistant] in [!DNL Target] を有効にするにはどうすればよいですか？'
 feature: Overview
 hide: true
 hidefromtoc: true
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-source-git-commit: 3ff1ff8fc09bc1fc4d808d1c5763cf35ad968668
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Target] での [!DNL Adobe Experience Platform] [!DNL AI Assistant] の使用
+# [!DNL Adobe Target] で [!DNL Adobe Experience Platform] [!DNL AI Assistant] を有効にする
 
 [!DNL Adobe Experience Platform] の [!DNL AI Assistant] は、[!DNL Adobe] の概念をナビゲートして理解するために使用できるユーザーインターフェイス機能です。 [!DNL AI Assistant] は、[!DNL Adobe Target] を含む [!DNL Adobe Experience Cloud] 全体の複数の製品で利用できます。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 [!DNL AI Assistant] にアクセスするには、組織がまず追加の法的条項に同意する必要があります。 次に、これらの条件のガイダンスについて、Adobe アカウントチームにお問い合わせください。
 
-詳しくは、*[!DNL Experience Platform]* ドキュメントの [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank} を参照してください。
+詳しくは、*[!DNL Experience Platform]* ドキュメントの [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} を参照してください。
 
 ## [!UICONTROL AI Assistant] のユーザー権限の有効化
 
@@ -66,10 +66,18 @@ ht-degree: 1%
 
 | トピック | 説明 |
 | --- | --- |
-| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target=_blank} | [!DNL AI Assistant] 機能について説明します。 チュートリアルビデオが含まれています。 |
-| [ アクセ  [!DNL AI Assistant]  イン  [!DNL Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank} | 組織とそのユーザーの [!DNL AI Assistant] にアクセスする方法を説明します。 |
-| [ の質問ガイド  [!DNL AI Assistant]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/questions){target=_blank} | クエリのクエリ時に使用できる質問の例 [!DNL AI Assistant] 表示します。 |
-| [[!DNL AI Assistant] UI ガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | [!DNL Adobe Experience Platform] UI での [!DNL AI Assistant] の使用方法について説明します。 |
-| [ におけるプライバシー、セキュリティ、ガバナンス  [!DNL AI Assistant]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/privacy){target=_blank} | プライバシー、セキュリティ、ガバナンスを前面に据えて [!DNL AI Assistant] in [!DNL Adobe Experience Platform] を構築する方法を説明します。 [!DNL AI Assistant] に期待できる、顧客の信頼に焦点を当てた機能について説明します。 |
-| [FAQ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/faq){target=_blank} | [!DNL AI Assistant] に関するよくある質問への回答を紹介しています。 |
-| [[!DNL Adobe Experience Platform]  リリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/latest){target=_blank} | [!DNL AI Assistant] など、[!DNL Adobe Experience Platform] の既存の機能およびドキュメントのアップデートについてお読みください。 |
+| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | [!DNL AI Assistant] 機能について説明します。 チュートリアルビデオが含まれています。 |
+| [ アクセ  [!DNL AI Assistant]  イン  [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 組織とそのユーザーの [!DNL AI Assistant] にアクセスする方法を説明します。 |
+| [ の質問ガイド  [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank} | クエリのクエリ時に使用できる質問の例 [!DNL AI Assistant] 表示します。 |
+| [[!DNL AI Assistant] UI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | [!DNL Adobe Experience Platform] UI での [!DNL AI Assistant] の使用方法について説明します。 |
+| [ におけるプライバシー、セキュリティ、ガバナンス  [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank} | プライバシー、セキュリティ、ガバナンスを前面に据えて [!DNL AI Assistant] in [!DNL Adobe Experience Platform] を構築する方法を説明します。 [!DNL AI Assistant] に期待できる、顧客の信頼に焦点を当てた機能について説明します。 |
+| [FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | [!DNL AI Assistant] に関するよくある質問への回答を紹介しています。 |
+| [[!DNL Adobe Experience Platform]  リリースノート ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | [!DNL AI Assistant] など、[!DNL Adobe Experience Platform] の既存の機能およびドキュメントのアップデートについてお読みください。 |
+
+## トレーニングビデオ
+
+### AI アシスタントにアクセスする
+
+[!DNL Adobe Experience Platform] 内で [!DNL AI Assistant] のアクセス権と権限を設定する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)

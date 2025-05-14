@@ -3,10 +3,10 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Adobe Experience Cloud からの Target へのアクセス](c-intro/target-access-from-mac.md)
    + [Target の主要概念](c-intro/target-key-concepts.md)
    + [Target の UI について](/help/main/c-intro/understand-the-target-ui.md)
-   + [AI アシスタントの使用](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI アシスタント {#ai-assistant}
+      + [AI アシスタントを有効にする](/help/main/c-intro/ai-assistant.md)
+      + [AI アシスタントを使用して製品の知識を得る](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target ウェルカムキット {#welcome}
       + [Target ウェルカムキットの概要](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：はじめに](/help/main/c-intro/target-welcome-kit-1.md)
@@ -56,7 +58,7 @@ ht-degree: 89%
    + [ホスト](administrating-target/hosts.md)
    + [環境](/help/main/administrating-target/environments.md)
    + [レスポンストークン](administrating-target/response-tokens.md)
-   + ユーザー管理 {#manage-users}
+   + ユーザーの管理 {#manage-users}
       + [ユーザー管理](administrating-target/c-user-management/user-management.md)
       + ユーザー {#users}
          + [ユーザーの概要](administrating-target/c-user-management/c-user-management/user-management.md)
@@ -68,8 +70,8 @@ ht-degree: 89%
    + [レコメンデーション](/help/main/administrating-target/recommendations-settings.md)
 + Target の実装 {#implement-target}
    + [Target の実装の概要](c-implementing-target/implementing-target.md)
-+ Target と Experience Cloud の統合 {#integrate}
-   + Adobe Target のレポートソースとしての Adobe Analytics（A4T）{#a4t}
++ Target とExperience Cloudの統合 {#integrate}
+   + Target のレポートソースとしてのAdobe Analytics（A4T） {#a4t}
       + [A4T の概要](c-integrating-target-with-mac/a4t/a4t.md)
       + [実装する前に](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target の実装](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -91,23 +93,23 @@ ht-degree: 89%
          + [指標、オーディエンス、レポートの共有 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [以前の SiteCatalyst の Test&amp;Target への統合 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T を使用する場合と使用しない場合とでの Target と Analytics 間での予想されるデータの相違](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Target とAdobe Customer Journey Analytics の統合 {#cja}
+   + Target とAdobe Customer Journey Analyticsの統合 {#cja}
       + [Adobe Customer Journey Analyticsでの Target レポート](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Target とAdobe Journey Optimizer（AJO） ールの統合 {#ajo}
+   + Target とAdobe Journey Optimizerの統合（AJO） {#ajo}
       + [オファーの決定を使用](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrate [!DNL Adobe Target Recommendations] and [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
-      + Adobe Journey Optimizerのユースケース {#use-cases}
+      + Adobe Journey Optimizerの使用例 {#use-cases}
          + [Adobe Journey Optimizerの最適化の上位の使用例 – web およびコードベースチャネル](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizerの A/B テストを通じたコンテンツの変更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Web ページへのコンポーネントの追加または非表示](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Target とAdobe Experience Manager（AEM） ールの統合 {#aem}
+   + Target とAdobe Experience Managerの統合（AEM） {#aem}
       + [Target とAEMの統合の概要](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + エクスペリエンスフラグメントとコンテンツフラグメント {#fragments}
+      + エクスペリエンスフラグメントおよびコンテンツフラグメント {#fragments}
          + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメントの概要](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM エクスペリエンスフラグメント](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM コンテンツフラグメント](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Target とAdobe Audience Manager（AAM）の統合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Target とAdobe Audience Managerの統合（AAM）](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform との統合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Target と Adobe Campaign の統合](c-integrating-target-with-mac/campaign-and-target.md)
 + アクティビティ {#activities}
@@ -226,7 +228,7 @@ ht-degree: 89%
       + [ターゲットとオーディエンスに関する FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + エクスペリエンスとオファー {#experiences}
    + [エクスペリエンスとオファーの概要](c-experiences/experiences.md)
-   + Visual Experience Composer（VEC）{#vec}
+   + Visual Experience Composer（VEC） {#vec}
       + [Visual Experience Composer の概要](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer のオプション](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Visual Experience Composer の変更点](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
@@ -262,7 +264,7 @@ ht-degree: 89%
       + [ライブラリ内のコンテンツの操作](c-experiences/c-manage-content/assets-working.md)
       + [コンテンツの検索とフィルタリング](c-experiences/c-manage-content/filter-and-search-content.md)
       + [動的データをオファーに渡す](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM エクスペリエンスフラグメントおよびコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEMのエクスペリエンスとコンテンツフラグメント](c-experiences/c-manage-content/aem-experience-fragments.md)
 + レポート {#reports}
    + [レポートの概要](c-reports/reports.md)
    + レポート設定 {#settings}
@@ -270,12 +272,12 @@ ht-degree: 89%
       + [レポートでの複数の指標の表示](c-reports/c-report-settings/view-multiple-metrics.md)
       + [極端な値の除外](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [CSV ファイル内のデータのダウンロード](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 統計手法 {#statistical-methodology}
+   + 統計的手法 {#statistical-methodology}
       + [A/Bn テストでの統計計算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization レポート {#personalization-reports}
       + [自動ターゲット概要レポート](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 概要レポート](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + パーソナライゼーションインサイトレポート {#insights}
+   + Personalization Insights レポート {#insights}
       + [パーソナライゼーションインサイトレポートの概要](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自動セグメントレポート](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要な属性レポート](c-reports/c-personalization-insights-reports/important-attributes-report.md)
@@ -284,7 +286,7 @@ ht-degree: 89%
       + [場所の貢献度レポート（MVT）](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target（A4T）レポート](c-reports/analytics-for-target-a4t-reporting.md)
    + [レポートの FAQ](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
++ レコメンデーション {#recommendations}
    + [Recommendations の概要](c-recommendations/recommendations.md)
    + [Recommendations の概要](c-recommendations/introduction-to-recommendations.md)
    + [Recommendations の計画と実装](c-recommendations/plan-implement.md)
@@ -303,7 +305,7 @@ ht-degree: 89%
       + [レコメンデーションキーに基づくレコメンデーションの設定](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Target のレコメンデーションアルゴリズムの背後にある科学](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [カスタム条件のアップロード](c-recommendations/c-algorithms/recommendations-csv.md)
-      + 動的および静的インクルージョンルールの使用 {#dynamic-static}
+      + 動的および静的インクルージョンルール {#dynamic-static}
          + [動的および静的インクルージョンルールの使用](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [エンティティ属性のマッチング](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [プロファイル属性のマッチング](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
