@@ -4,10 +4,10 @@ description: ユーザーインターフェイスに慣れ、 [!DNL Target] を�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 28%
+source-wordcount: '1387'
+ht-degree: 26%
 
 ---
 
@@ -39,25 +39,25 @@ ht-degree: 28%
 
 フィードバックの説明を入力し、該当するファイルやスクリーンショット、必要に応じて追加の詳細を含めて、「**[!UICONTROL Submit]**」をクリックします。
 
-### [!DNL AI Assistant] （2025 年 5 月 20 日（PT）リリース予定）
+### [!DNL AI Assistant]
 
-（条件付き）組織で AI アシスタントを使用する権限が付与されている場合は、AI アシスタント アイコンをクリックします。
+（条件付き） [!DNL AI Assistant] を使用する権限が組織から付与されている場合は、「[!DNL AI Assistant]」アイコンをクリックします。
+
+詳しくは、[Adobe Experience Platform AI アシスタントの概要 ](/help/main/c-intro/ai-assistant.md) を参照してください。
 
 ### ヘルプ
 
-ヘルプアイコンを使用すると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。サポートチケットの作成、サポート用電話番号の検索、Twitter での質問、[!DNL Target] に関するフィードバックの提供により、[!DNL Target] チームの活動状況を把握できます。
+[!UICONTROL Help] アイコン（![ ヘルプアイコン ](/help/main/assets/icons/HelpOutline.svg)）をクリックすると、[!DNL Target] をより効果的に使用するために、情報、ビデオ、ブログなどにアクセスできます。 サポートチケットの作成、サポート用電話番号の検索、Twitter での質問、[!DNL Target] に関するフィードバックの提供により、[!DNL Target] チームの活動状況を把握できます。
 
 ![ヘルプ](/help/main/c-intro/assets/help.png)
 
-### 通知とお知らせ {#notifications-announcements}
+### リクエスト、通知、お知らせ {#notifications-announcements}
 
-[!UICONTROL Notifications] と [!UICONTROL Announcements] のパネルを使用すると、[!DNL Adobe Target] のすべてに関する最新情報を入手できます。 プロアクティブ通知は、ソリューションと [!DNL Target] イベントのステータス [!DNL Adobe Experience Cloud] 常に把握するのに役立ちます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
+[!UICONTROL Requests]、[!UICONTROL Notifications]、[!UICONTROL Announcements] の各パネルを使用すると、[!DNL Adobe Target] のすべてに関する最新情報を入手できます。 プロアクティブ通知は、ソリューションと [!DNL Target] イベントのステータス [!DNL Adobe Experience Cloud] 常に把握するのに役立ちます。 プロアクティブ通知では、停止イベントおよびメンテナンスイベントを警告します。
 
-ヘッダーのベルアイコンをクリックして、通知を表示します。
+ヘッダーの [!UICONTROL Notifications] アイコン（![ 通知アイコン ](/help/main/assets/icons/Bell.svg)）をクリックして、通知を表示します。
 
-![ 通知とお知らせのベルのアイコン ](assets/bell-icon.png)
-
-パネルには、[!UICONTROL Notifications] と [!UICONTROL Announcements] のタブが含まれています。
+パネルには、[!UICONTROL Requests]、[!UICONTROL Notifications] および [!UICONTROL Announcements] のタブが含まれています。
 
 ![ 通知 ](assets/notifications.png)
 
