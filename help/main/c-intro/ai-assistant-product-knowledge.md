@@ -3,12 +3,11 @@ keywords: ai アシスタント；人工知能アシスタント
 description: ' [!DNL AI Assistant] を使用して製品  [!DNL Target]  関する知識を得る方法を説明します。'
 title: 製品の知識を得るために  [!DNL AI Assistant] in [!DNL Target]  を使用する方法
 feature: Overview
-badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 9%
 
 [!DNL AI Assistant] にアクセスするには：
 
-1. [ の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md) ください。
+1. [ の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
 
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
    * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
@@ -61,10 +60,10 @@ ht-degree: 9%
 
 [!DNL AI Assistant] の [!DNL Adobe Experience Platform] アプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441025/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの応答を検証
 
 [!DNL Adobe Experience Platform] で提供される応答を検証および検証する方法 [!DNL AI Assistant] ついて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441739/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

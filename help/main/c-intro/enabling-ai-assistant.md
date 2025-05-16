@@ -1,13 +1,13 @@
 ---
 keywords: ai アシスタント；人工知能アシスタント
-description: '[!DNL &#x200B; Adobe Target] を有効にする方法  [!DNL AI Assistant]  説明します。'
+description: '[!DNL  Adobe Target] を有効にする方法  [!DNL AI Assistant]  説明します。'
 title: ' [!DNL AI Assistant] in [!DNL Target] を有効にするにはどうすればよいですか？'
-badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 feature: Overview
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 [!DNL AI Assistant] にアクセスするには、組織がまず追加の法的条項に同意する必要があります。 次に、これらの条件のガイダンスについて、Adobe アカウントチームにお問い合わせください。
 
-詳しくは、*[!DNL Experience Platform]* ドキュメントの [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/access){target=_blank} を参照してください。
+詳しくは、*[!DNL Experience Platform]* ドキュメントの [Access [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} を参照してください。
 
 ## [!UICONTROL AI Assistant] のユーザー権限を有効にする
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 1. [!DNL Target] の「**[!UICONTROL Administration]**」タブに移動します。
 1. 左側のメニューで、「**[!UICONTROL Users]**」を選択します。
 1. リストから管理するユーザーを見つけるか、検索バーを使用して見つけます。
-1. [!UICONTROL Target AI Assistant] へのアクセス権を付与したいユーザーの「**[!UICONTROL AI Permissions]**」列にポインタを合わせます。
+1. [!UICONTROL Target AI Assistant] へのアクセス権を付与したいユーザーの **[!UICONTROL AI Permissions]** 列にポインタを合わせます。
 
    権限ポップアップが表示されます。
 
