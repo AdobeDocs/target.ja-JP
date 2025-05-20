@@ -4,9 +4,9 @@ description: ' [!DNL AI Assistant] を使用して製品  [!DNL Target]  関す�
 title: 製品の知識を得るために  [!DNL AI Assistant] in [!DNL Target]  を使用する方法
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 6%
 
 ---
@@ -23,12 +23,18 @@ ht-degree: 6%
 * アクティビティを保存する際にエラーが発生します。 これはどういう意味ですか？
 * at.js 実装をAEP Web SDKにアップグレードする必要がありますか？
 
-[!DNL AI Assistant] にアクセスするには：
+## アクセス [!DNL AI Assistant]
+
+製品に関する知識を得るために [!DNL AI Assistant] にアクセスするには：
 
 1. [ の有効化  [!DNL Adobe Experience Platform] [!DNL AI Assistant] で前提条件のタスクを完了していることを確認し  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) ください。
 
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
    * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
+
+## AI アシスタントを使用して製品の知識を獲得
+
+製品に関する知識を得るために [!DNL AI Assistant] にアクセスするには：
 
 1. [!DNL Target] 内から、UI の右上隅にある **[!DNL AI Assistant]アイコン** クリックします。
 
@@ -60,10 +66,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant] の [!DNL Adobe Experience Platform] アプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441025/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの応答を検証
 
 [!DNL Adobe Experience Platform] で提供される応答を検証および検証する方法 [!DNL AI Assistant] ついて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441739/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
