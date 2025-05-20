@@ -75,7 +75,7 @@ Target で AI アシスタントを使用してテキストスニペットをカ
 
 ### AI アシスタントを使用したコンテンツ生成の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn">https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn)
 
 
 
