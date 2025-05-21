@@ -4,9 +4,9 @@ description: ' [!DNL AI Assistant] を使用して製品  [!DNL Target]  関す�
 title: 製品の知識を得るために  [!DNL AI Assistant] in [!DNL Target]  を使用する方法
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 6%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 6%
    >
    >AI が生成する応答は、不正確であったり、誤解を招いたりする可能性があります。必ず応答とソースを再確認してください。
 
-1. （任意） AI アシスタントにフィードバックを提供します。
+1. （任意）フィードバックを [!DNL AI Assistant] に提供します。
 
-   * サムズアップアイコン（![ サムズアップアイコン ](/help/main/assets/icons/ThumbUp.svg)）をクリックすると、応答が正しいこ [!DNL AI Assistant] がわかります。
-   * サムズダウンアイコン（![ サムズダウンアイコン ](/help/main/assets/icons/ThumbDown.svg)）をクリックすると、応答が正しくな [!DNL AI Assistant] ことがわかります。
-   * レポート結果アイコン（![ レポート結果アイコン ](/help/main/assets/icons/Flag.svg)）をクリックして、問題を [!DNL AI Assistant] に報告します。
+   * サムズアップ（![ サムズアップアイコン ](/help/main/assets/icons/ThumbUp.svg)）アイコンをクリックして、応答が正しいことを [!DNL AI Assistant] 認します。
+   * サムズダウン（![ サムズダウンアイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックすると、応答が正しくな [!DNL AI Assistant] ことを確認できます。
+   * 「レポート結果」（![ レポート結果アイコン ](/help/main/assets/icons/Flag.svg)）アイコンをクリックすると、[!DNL AI Assistant] ーザーに問題を報告できます。
 
 ## トレーニングビデオ
 
@@ -66,10 +66,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant] の [!DNL Adobe Experience Platform] アプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441025/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの応答を検証
 
 [!DNL Adobe Experience Platform] で提供される応答を検証および検証する方法 [!DNL AI Assistant] ついて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441739/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

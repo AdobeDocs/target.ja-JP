@@ -4,10 +4,10 @@ description: ユーザーインターフェイスに慣れ、 [!DNL Target] を�
 title: ' [!DNL Target] UI の使用方法'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 26%
+source-wordcount: '1355'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 *組織*&#x200B;とは、管理者がグループおよびユーザーを設定し、[!DNL Adobe Experience Cloud] でのシングルサインオンを制御するために使用するエンティティです。組織は、すべての [!DNL Experience Cloud] 製品およびソリューションをまたいだログイン会社のように機能します。ほとんどの場合、組織は、会社名です。ただし、会社は多数の組織を持つことができます。
 
-会社に複数の組織がある場合は、[!UICONTROL Organization] のドロップダウンリストで目的の組織を選択します。
+会社に複数の組織がある場合は、[!UICONTROL Organization] のドロップダウンリストから目的の組織を選択します。
 
 ![組織ドロップダウンリスト](/help/main/c-intro/assets/organizations.png)
 
@@ -63,6 +63,12 @@ ht-degree: 26%
 
 次の節では、各タブの情報と、通知とお知らせの設定方法について説明します。
 
+#### [!UICONTROL Requests]
+
+製品とソリューション、他のユーザーとのコラボレーション、その他の関連する更新に関する重要な情報を [!UICONTROL Requests] のパネルで受け取ることがで [!DNL Adobe] ます。
+
+オブジェクトの承認リクエストまたはオブジェクトへのアクセス権の付与リクエストが送信されると、そのリクエストが [!UICONTROL Requests] のパネルに表示されます。
+
 #### 通知 {#notifications}
 
 イベント通知に [!DNL Target]、次のものが含まれます。
@@ -97,9 +103,9 @@ ht-degree: 26%
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-目的の通知にカーソルを合わせてチェックマークをクリックすると、個々の通知を既読としてマークできます。 パネルの下部にある「[!UICONTROL "Mark as Read"]」または「[!UICONTROL "View All"]」をクリックして、すべての通知を読み取り済みまたは表示することができます。
+個々の通知を読み取り済みとしてマークするには、目的の通知にカーソルを合わせて [!UICONTROL Mark as Read] ールアイコン（![ 読み取りとしてマーク ](/help/main/assets/icons/CheckmarkCircle.svg) アイコン（）をクリックします。 パネルの下部にある「[!UICONTROL Mark as Read]」または「[!UICONTROL View All]」をクリックして、すべての通知を読み取り済みまたは表示することができます。
 
-通知の上にマウスポインターを置き、「[!UICONTROL Remind me]」アイコンをクリックしてから、通知を受け取るタイミング（5 分、15 分、1 時間、明日）を選択することで、リマインダーに再び通知を送信するように設定することもできます。
+通知の上にマウスポインターを置き、通知アイコン（![ 再通知アイコン ](/help/main/assets/icons/Clock.svg)）をクリックすると、リマインダーが再度 [!UICONTROL Snooze] 信されるように設定することもできます。 通知を受信する時間を、5 分、15 分、1 時間または明日から選択できます。
 
 #### 発表
 
@@ -111,33 +117,31 @@ ht-degree: 26%
 
 通知の環境設定を編集するには：
 
-1. 歯車アイコン、「**[!UICONTROL Notifications]**」の順にクリックします。
-1. [**[!UICONTROL Target]**] で、[**[!UICONTROL Customize]**] をクリックします。
-1. 通知を受信するカテゴリを選択または選択解除します。
+1. [!UICONTROL Edit Preferences] （環境設定を編集アイコン ![ アイコンをクリックし ](/help/main/assets/icons/Setting.svg) 左パネルで「**[!UICONTROL Notifications]**」をクリックします。
+1. 「**[!UICONTROL Target]**」で、通知方法を選択します。
 
-   * リクエスト：オブジェクトの承認リクエストまたはオブジェクトへのアクセス権の付与リクエストが送信された場合。 このカテゴリの登録を解除することはできません。
-   * 自分に割り当て：誰かがあなたにオブジェクトを割り当てたとき。
-   * メンション：誰かがコメントであなたにメンションを行ったとき。
-   * 新しいリリース：自分がアクセス権を持っている製品またはサービスに対して新しいリリースが利用可能な場合。
-   * 自分と共有：誰かがあなたとオブジェクトを共有したとき。
-   * コンテンツの更新：作成またはフォローしたオブジェクトに対して誰かが編集、削除、コメントを加えた場合。
-   * その他 :
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. 優先度が高いと見なすカテゴリを選択します。
 
    >[!NOTE]
    >
-   >「新しいリリース」と「コンテンツの更新」は、[!DNL Target] に適用される唯一の通知カテゴリです。 その他のカテゴリは、他のAdobe ソリューションに当てはまります。
+   >[!DNL Target] に適用される通知カテゴリは&quot;[!UICONTROL New releases]&quot;と&quot;[!UICONTROL Updates on content]&quot;のみです。 その他のカテゴリは、他の [!DNL Adobe] ソリューションに適用されます。
 
-1. 優先度が高いと見なすカテゴリを選択します。
 1. ブラウザーにアラートを表示する通知を選択します。
 
    これらのアラートは、ブラウザーの右上隅に数秒間表示されます。 優先度の高いカテゴリ、すべてのカテゴリを表示するか、すべての通知ポップアップを非表示にするかを選択できます。 また、通知を閉じるまで表示しておくかどうかを設定したり、通知期間を設定したりすることもできます。
 
 1. 通知メールの受信頻度を選択します。
 
-   * メールを送信しない
-   * インスタント通知
-   * デイリーダイジェスト
-   * 週刊ダイジェスト
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. ワークスペース用のSlack通知を設定します。
 
 ### アプリ切り替えツール
 
@@ -157,25 +161,19 @@ ht-degree: 26%
 
 **[!UICONTROL Activities]** リストは、[!DNL Target] を開いたときのデフォルトのビューです。 このページからアクティビティを作成し、既存のアクティビティを管理できます。
 
-![アクティビティリスト](/help/main/c-intro/assets/activities-list.png)
-
 [!DNL Target] で利用可能なアクティビティの種類に関する詳細、およびアクティビティリストのユーザーインターフェイスに関する詳細は、[ アクティ [!UICONTROL Activity] ティ ](/help/main/c-activities/activities.md) を参照してください。
 
 ## オーディエンス
 
 「**[!UICONTROL Audiences]**」タブをクリックすると、[!UICONTROL Audiences] リストが表示されます。このリストで、オーディエンスを作成し、既存のオーディエンスを管理できます。
 
-![オーディエンスリスト](/help/main/c-intro/assets/audience-list.png)
-
-オーディエンスは、ターゲット設定されたアクティビティを表示する類似アクティビティ参加者のグループです。 オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。[!UICONTROL Audience] 機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に定義された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
+オーディエンスは、ターゲット設定されたアクティビティを表示する類似アクティビティ参加者のグループです。 オーディエンスは、新規訪問者、再訪問者、中西部からの再訪問者など、同じ特性を持つ人々のグループです。 [!UICONTROL Audience] 機能を使用すると、様々なコンテンツやエクスペリエンスを特定のオーディエンスにターゲット設定することで、的確なメッセージを最適な対象者にタイミングよく表示し、デジタルマーケティングを最適化できます。 訪問者がターゲットオーディエンスに当てはまる場合は、[!DNL Target] により、アクティビティ作成時に定義された条件に基づいて、そのユーザーに表示するエクスペリエンスが決定されます。
 
 [!DNL Target] のオーディエンスタイプに関する詳細およびオーディエンスリストのユーザーインターフェイスに関する詳細は、[ オーディ [!UICONTROL Audience] ンスの作成 ](/help/main/c-target/c-audiences/create-audience.md) を参照してください。
 
 ## オファー
 
 「**[!UICONTROL Offers]**」タブをクリックして [!UICONTROL Offers] リストを表示します。このリストで、エクスペリエンスやオファーを作成し、既存のエクスペリエンスやオファーを管理できます。
-
-![オファーリスト](/help/main/c-intro/assets/offers.png)
 
 エクスペリエンスは、オファー、画像、テキスト、ボタン、ビデオ、ページ上のこれらの様々な要素の組み合わせ、Web ページ全体、購入ファネルやその他のページの論理的シーケンスを形成するページのセットである可能性があります。また、音声アシスタント応答、カスタマーサービスのスクリプト、自動販売機のパーソナライズされたフレーバーであることもあります。[!DNL Target] アクティビティのエクスペリエンスをテストまたはパーソナライズします。
 
@@ -187,9 +185,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->Recommendations アクティビティは、 [!DNL Target Premium] ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。詳細情報は、*ターゲットの紹介*&#x200B;の [Target Premium](/help/main/c-intro/intro.md#premium) を参照してください。
-
-![Recommendations](/help/main/c-intro/assets/recommendations.png)
+>[!UICONTROL Recommendations] アクティビティは、 [!DNL Target Premium] ソリューションの一部です。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では、[!UICONTROL Recommendations] のアクティビティは使用できません。 詳細情報は、*ターゲットの紹介*&#x200B;の [Target Premium](/help/main/c-intro/intro.md#premium) を参照してください。
 
 [!UICONTROL Recommendations] のアクティビティは、以前のユーザーアクティビティまたはその他のアルゴリズムを基にして、顧客が興味を持つ可能性のある製品またはコンテンツを自動的に表示します。 Recommendations を使うと、顧客が知らなかったであろう関連商品を紹介するのに役立ちます。
 
@@ -199,8 +195,10 @@ ht-degree: 26%
 
 「**[!UICONTROL Administration]**」タブをクリックして、[!UICONTROL Administration] ページにアクセスします。
 
-![管理ページ](/help/main/c-intro/assets/administration.png)
-
-[!UICONTROL Administration] のページでは、[!UICONTROL Visual Experience Composer] （VEC）、レポート、[!DNL Scene7] 設定、実装、ホスト、環境、応答トークン、ユーザーの設定を含む [!DNL Target] ータを管理できます。
+[!UICONTROL Administration] のページでは、[!UICONTROL Visual Experience Composer] （VEC）、レポート、[!DNL Scene7] 設定、実装、ホスト、環境、応答トークン、ユーザー、推奨事項の設定などの [!DNL Target] ータを管理できます。
 
 詳細およびユーザーインターフェイスについては、[Target の管理の概要](/help/main/administrating-target/administrating-target.md)を参照してください。
+
+## Visual Experience Composer（VEC）
+
+[!DNL Target] の UI に加えて、VEC UI についても熟知しておく必要があります。 詳しくは、[[!DNL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) を参照してください。
