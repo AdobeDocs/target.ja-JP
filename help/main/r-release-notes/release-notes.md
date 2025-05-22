@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 32%
+source-wordcount: '1372'
+ht-degree: 26%
 
 ---
 
@@ -18,6 +18,32 @@ ht-degree: 32%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.5.3 （2025 年 5 月 22 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* [!UICONTROL Activities] ータリストの名前検索機能が複数単語クエリで正しく動作しない問題を修正しました。 （TGT-52529）
+* [!UICONTROL Automated Personalization] （AP）アクティビティからエクスペリエンスを除外できない問題を修正しました。 （TGT-52383）
+* AP アクティビティでコンテンツを管理する際に、「[!UICONTROL Contains]」オプションが [!UICONTROL Filter Rules] に表示されない問題を修正しました。 （TGT-52384）
+* 特に [!DNL Target] の内部システムの `optionLocalId` 値を使用して、デフォルトのオファーを追跡およびレポートする方法に関連する、[!UICONTROL Automated Personalization] （AP）アクティビティのレポートの不整合を修正しました。
+* QA リンクで、目的のアクティビティエクスペリエンスを配信できない問題を修正しました。 （TGT-52163）
+* [!UICONTROL Approver] の権限を持つユーザーがライブアクティビティの編集を誤ってブロックされ、「アクセスが拒否されました」というエラーメッセージが表示される問題を修正しました。 （TGT-52416）
+* 更新された [!DNL Target] UI で、特定のアクティビティのオーディエンスの絞り込みが表示されない問題を修正しました。 （TGT-52057）
+* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
+* アドホックオファーを生成すると、オファーが重複する問題を修正しました。 （TGT-51938）
+* オファーの更新がブロックされ、誤って「無効なユーザー」エラーが表示されていた問題を修正しました。 （TGT-52361）
+* 既存のアクティビティを保存すると「無効なユーザー入力」エラーが発生する問題を修正しました。 （TGT-52422）
+* コードを変更していない場合でも、保存時に「無効なユーザー入力」エラーがトリガーされ、既存のHTML オファーの編集がブロックされていた問題を修正しました。 （TGT-52351）
+* Web サイトの URL に「#」文字が認識され [!DNL Target] い問題を修正しました。 （TGT-52093）
+* [!DNL Recommendations] アクティビティを編集してプロモーションを追加または更新できない問題を修正しました。これにより、保存が失敗し、プロモーションが重複していました。 （TGT-52343）
+* [!DNL Recommendations] アクティビティの条件やデザインを変更できず、「invalid JSON: unrecognized property name」エラーが発生する問題を修正しました。 （TGT-52375）
+* [!DNL Recommendations] アクティビティの [!UICONTROL Visual Experience Composer] （VEC）でシーケンス条件が正しく表示されない問題を修正しました。 （TGT-52435）
+* [!DNL Adobe Experience Platform Web SDK] を使用する際に、SPA ページでビューが正しく識別されない問題を修正しました。 （TGT-52106）
+* バッチ操作ペイロードに含まれているにもかかわらず、オンデバイス判定（ODS）の詳細が正しく保存されない問題を修正しました。 （TGT-52406）
+* アクティビティに `audienceMetadata` フィールドを追加し、編集中に読み取り、更新できるようにしました。 （TGT-51004）
+* オーディエンスの期間が無効な場合にユーザーに警告するエラーメッセージを追加しました。 （TGT52522）
+* 様々なタイプの重複オーディエンスをサポートするようにアクティビティ構造を更新しました。 （TGT-51200）
 
 ## [!DNL Adobe Target] [!DNL AI Assistant] リリース（2025 年 5 月 16 日）
 
