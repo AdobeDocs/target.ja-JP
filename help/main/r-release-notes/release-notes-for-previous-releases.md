@@ -496,7 +496,7 @@ at.js リリースについて詳しくは、*Adobe Target開発者ガイド [ �
 
 予定されているエッジインフラストラクチャのアップグレードでは、追加の IP またはドメインを許可リストに登録する必要があります。エッジデプロイメント 41～48 の NAT と IP／ドメインを確認して許可リストに登録します。インフラストラクチャのアップグレードは、2023年8月9日（PT）に開始されます。
 
-詳しくは、*Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} の [Target のエッジノードの許可リストに加える* を参照してください。
+詳しくは、*Adobe Target開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ja){target=_blank} の Target のエッジノードの許可リストに加える* を参照してください。
 
 ### [!DNL Target] Standard／Premium 23.8.1（2023年8月9日（PT））
 
@@ -664,7 +664,7 @@ at.js リリースについて詳しくは、*Adobe Target開発者ガイド [ �
 * アクティビティがライブになった後、[!UICONTROL Goals & Settings] ページで [!UICONTROL Same as Optimization Goal] 設定を変更する機能を無効にしました。 （TGT-43923）
 * [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
 * 名前にドット文字「.」を含む [!DNL Analytics] レポートスイートを[!DNL Target] UI で使用して、[!DNL Analytics] 分類フィードを作成できるように変更しました。
-* サポート対象のすべての SDK （Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の [!UICONTROL Implementation] ページ（[!UICONTROL Administration]/[!UICONTROL Implementation]）のリンクを変更をしました。 詳しくは、{2[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} の「Target SDK の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。[
+* サポート対象のすべての SDK （Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の [!UICONTROL Implementation] ページ（[!UICONTROL Administration]/[!UICONTROL Implementation]）のリンクを変更をしました。 詳しくは、&lbrace;2[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} の「Target SDK の概要 [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を参照してください。
 * [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
 * 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
@@ -675,7 +675,7 @@ at.js リリースについて詳しくは、*Adobe Target開発者ガイド [ �
 
 ブロックリストに加える新しい [!DNL Adobe Target] Models API （^API とも呼ばれる）を使用すると、[!UICONTROL Automated Personalization] （AP）と [!UICONTROL Auto-Target] （AT）アクティビティの機械学習モデルで使用する機能のリストを表示および管理できます。
 
-詳しくは、*Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} の [Models API の概要* を参照してください。
+詳しくは、*Adobe Target開発者ガイド [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} の Models API の概要* を参照してください。
 
 ### [!DNL Target] Standard／Premium 22.10.3（時差リリース 2022年10月25～27日（PT））
 
@@ -1225,7 +1225,7 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 | 機能／拡張機能 | 説明 |
 | --- | --- |
 | [!UICONTROL Auto-Allocate] アクティビティに対する Analytics for Target （A4T）のサポート | [!UICONTROL Auto-Allocate] アクティビティで [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) がサポートされるようになりました。<br> この統合により、[!UICONTROL Auto-Allocate] のマルチアームバンディット機能を使用して勝者エクスペリエンスへとトラフィックを促しながら、[!UICONTROL Adobe Analytics] の目標指標やレポートおよび分析機能を使用す [!UICONTROL Adobe Analytics] ことができます。<br>A/B テストおよびエクスペリエンスのターゲティングアクティビティで使用するように、既に [A4T を実装 ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) している場合は、これで完了です。<br>詳しくは、[自動配分と自動ターゲットアクティビティに対する A4T のサポート](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)を参照してください。 |
-| 自動ターゲットおよび Automated Personalization アクティビティのトラフィック配分方法の応答トークン | 訪問者が特定のエクスペリエンスを「コントロール ](/help/main/administrating-target/response-tokens.md) トラフィックと「ターゲット」トラフィックのどちらに割り当てられたか結果として受け取ったかを判断できるように、[!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] のアクティビティに 2 つの [ 応答トークン」が追加されました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、訪問者が「ターゲット」トラフィック分配からエクスペリエンスを受け取った場合は 1 を返します。</li><li>`experience.trafficAllocationType` は、「control」または「targeted」を返します。</li></ul>コントロールトラフィックとターゲットトラフィックの比較について詳しくは、[Automated Personalization または自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
+| 自動ターゲットおよび Automated Personalization アクティビティのトラフィック配分方法の応答トークン | 訪問者が特定のエクスペリエンスを「コントロール [&#128279;](/help/main/administrating-target/response-tokens.md) トラフィックと「ターゲット」トラフィックのどちらに割り当てられたか結果として受け取ったかを判断できるように、[!UICONTROL Auto-Target] と [!UICONTROL Automated Personalization] のアクティビティに 2 つの  応答トークン」が追加されました。<ul><li>`experience.trafficAllocationId` は、訪問者が「コントロール」トラフィックからエクスペリエンスを受け取った場合は 0 を、訪問者が「ターゲット」トラフィック分配からエクスペリエンスを受け取った場合は 1 を返します。</li><li>`experience.trafficAllocationType` は、「control」または「targeted」を返します。</li></ul>コントロールトラフィックとターゲットトラフィックの比較について詳しくは、[Automated Personalization または自動ターゲットアクティビティのコントロールを選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。 |
 | [!UICONTROL Publisher] 役割 | この新しい役割は、現在の [!UICONTROL Observer] の役割に似ています（アクティビティを閲覧できますが、作成または編集はできません）。 ただし、[!UICONTROL Publisher] の役割には、アクティビティをアクティブ化する追加の権限があります。<br>詳しくは、次を参照してください。 <ul><li>**Target Standard ユーザー**：*ユーザー*&#x200B;の[役割と権限を指定](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)します。 </li><li>**Target Premium ユーザー**：[手順 6：役割と権限の指定](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)は、*エンタープライズ権限の設定*&#x200B;でおこないます。</li></ul> |
 | [!DNL Analysis Workspace]<br> における A4T のサポート（2020 年 6 月 25 日） | [!UICONTROL Anaytics for Target] （A4T）が [!DNL Analysis Workspace] でサポートされるようになりました。 [!UICONTROL Analytics for Target (A4T) panel] を使用すると、[!DNL Analysis Workspace] での [!DNL Adobe Target] のアクティビティとエクスペリエンスを分析できます。<br>詳しくは、*Analytics ツールガイド*&#x200B;の&#x200B;*A4T レポート*&#x200B;および[Analytics for Target（A4T）パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja)の [Analytics のレポート](/help/main/c-integrating-target-with-mac/a4t/reporting.md) を参照してください。 |
 
@@ -3440,7 +3440,7 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 19 日）リリースに
    <td colname="col1" class="premium"> Recommendations の CSV ダウンロード </td> 
    <td colname="col2"> <p>CSV ダウンロードでは、エンティティ Recommendations を持たない環境（例：
  <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>）を含むすべての環境用に、行が含まれるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
