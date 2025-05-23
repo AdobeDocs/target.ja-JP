@@ -33,7 +33,7 @@ ht-degree: 80%
 
 **どのブラウザーがサポートされて [!DNL Target] ますか？**
 
-詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +252,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
