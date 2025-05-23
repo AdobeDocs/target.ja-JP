@@ -4,36 +4,36 @@ description: Adobe Target での機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 96%
+source-wordcount: '2623'
+ht-degree: 80%
 
 ---
 
 # Target の最適化とパーソナライゼーションに関する FAQ
 
-Adobe Target の機能の使用方法に関するよくある質問のリストです。補足情報や詳細情報のリンクも紹介します。
+[!DNL Adobe Target] の機能の使用方法に関するよくある質問のリストです。詳細情報の情報やリンクも紹介します。
 
 ## 一般情報 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**他の利用者が Adobe Target をどのように有効活用しているのかを知ることはできますか？**
+**他の顧客が [!DNL Target] をどのように有効活用しているのかを知ることはできますか？**
 
 お客様の成功事例については、[こちら](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x)でいくつか紹介しています。他のお客様がどのように Target を利用して最適化やパーソナライゼーションを強化し、ビジネス目標を達成しているのかを確認できます。
 
 これらの顧客事例の一部では、Adobe Target Premium の機能を使用しているのでご注意ください。
 
-**Target の最新機能の詳細はどこで確認できますか？**
+**最新の [!DNL Target] 機能について知るには、どこを参照してください。**
 
 最新リリースの詳細については、「[リリースノート](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)」を参照してください。「[過去のリリース](/help/main/r-release-notes/release-notes-for-previous-releases.md)」すべての情報もオンラインで確認できます。
 
-**Target に関する疑問の答えや詳細を確認できるアドビのコミュニティやフォーラムはありますか？**
+**[!DNL Target] に関 [!DNL Adobe] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
 
 [ Target コミュニティフォーラム](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)をご覧ください。このフォーラムでは、アドビによるサポートも受けられますが、Adobe Target をご利用しているお客様同士が助け合うよう奨励しています。コミュニティやフォーラムの成功は、メンバーが活発に参加するかどうかで決まります。コミュニティの一員になり、他の利用者の疑問に答えたり、ご自分の疑問の答えを探したりしてください。
 
-**Target はどのブラウザーをサポートしていますか？**
+**どのブラウザーがサポートされて [!DNL Target] ますか？**
 
-詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
+詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -99,7 +99,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブアクティビティのみです。終了日に達したら、そのアクティビティのステータスは終了になります。
 
-**3 ステップのガイドによるワークフロー全体ではなく、ターゲット設定のステップのみに変更を加えることはできますか？**
+**編集用に 3 ステップのガイド付きワークフロー全体を実行するのではなく、[!UICONTROL Targeting] ステップのみを変更することはできますか？**
 
 [アクティビティの概要ページから直接対象の手順に移動し、](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)「保存して閉じる」オプションを使用してその手順を終了します。
 
@@ -111,7 +111,7 @@ Target の指標依存関係の機能を利用すれば可能です。[他の成
 
 [強力な QA モード機能](/help/main/c-activities/c-activity-qa/activity-qa.md)を利用して、QA を実行できます。QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
 
-**Target の判定機能を利用し、シングルページアプリケーション（SPA）またはサーバー側の統合で使用できるエクスペリエンスやオファーを受け取るには、どうすればよいですか？**
+**[!DNL Target] の意思決定機能を使用して、単一ページアプリケーション（SPA）またはサーバーサイド統合で使用できるエクスペリエンス/オファーを受け取るにはどうすればよいですか？**
 
 その場合は、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
@@ -128,7 +128,7 @@ Target の 3 ステップのガイドによるワークフローのステップ 
 
 ## オーディエンス {#section_FA6314777ABC46D8B198D6F388051460}
 
-**特定のアクティビティ専用のオーディエンスセグメントを作成できますか？オーディエンスライブラリには再利用の要素がないので、そのようなオーディエンスは作成できないように見えます。**
+**特定のアクティビティ専用のオーディエンスセグメントを作成できますか？再利用の要素がないため、[!UICONTROL Audience Library] ーム内にそのようなオーディエンスを作成する必要はないと感じています**。
 
 特定のアクティビティ専用のオーディエンスを定義するには、[アクティビティのみのオーディエンス機能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)を利用してください。
 
@@ -150,12 +150,12 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 その場合は、[Target の 3 ステップのガイドによるワークフローのステップ 2（ターゲット設定ページ）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)で、割合による配分調整を使用して、アクティビティの設定方法を指定できます。
 
-**Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
+**また、[!DNL Adobe Analytics] もあり、[!DNL Target] で活用したいと思っています。 この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -164,17 +164,17 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 その場合、[テンプレートルール](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)を利用して、指定された単一の URL のエクスペリエンスを作成し続けながら、構成が共通する多数のページをアクティビティに追加します。
 
-**Visual Experience Composer（VEC）でページを読み込もうとすると、「ブラウザーでスクリプトをロードできるようにします」というメッセージが表示されます。どうすればこの問題を解消できますか？**
+**[!UICONTROL Visual Experience Composer] （VEC）にページを読み込もうとすると、「ブラウザーがスクリプトを読み込むことを許可」メッセージにうんざりします。 どうすればこの問題を解消できますか？**
 
 これは、サイトに混在したコンテンツがあり、HTTP リソースと HTTPS リソースの両方を取得するサイトであるためです。 IT チームに、HTTPS への完全移行をおこなうよう要求してください。
 
 移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
 
-**Target at.js ライブラリが実装されていなくても、サイトで Visual Experience Composer（VEC）を使用できますか？**
+**[!DNL Target] at.js ライブラリがまだデプロイされていない場合でも、サイトで [!UICONTROL Visual Experience Composer] （VEC）を試すことはできますか？**
 
 [拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) でページを読み込んでみてください。
 
-**Visual Experience Composer（VEC）内でサイトが読み込まれないのはなぜですか？**
+**[!UICONTROL Visual Experience Composer] （VEC）内でサイトが読み込まれないのはなぜですか？**
 
 ヘルプページの「[トラブルシューティング情報](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)」を参照してください。記載されている方法で問題を解消できなかった場合、[アドビサポート](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)までお問い合わせください。
 
@@ -186,7 +186,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 その場合、[モバイルビューポート](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)機能を利用します。この機能は、拡張 Experience Composer が有効になっている場合のみ利用できます。
 
-**複数のドメインがあります。拡張 Experience Composer を有効にする必要があるドメインと、無効にする必要があるドメインがあるのですが、これはどうすれば設定できますか？**
+**複数のドメインがあります。1 つのドメインで [!UICONTROL Enhanced Experience Composer] を有効にする必要があり、その他のドメインでは無効にする必要があります。 これはどうすれば設定できますか？**
 
 いつでも、[アクティビティレベルで拡張 Experience Composer オプション](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)を利用して、デフォルト設定を上書きできます（セットアップ／Visual Experience Composer）。
 
@@ -198,7 +198,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 その場合、[複数のエクスペリエンスバージョン機能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)を使用すると簡単に設定できます。この種のテストでは、提供時の微妙な違いにご注意ください。
 
-**Visual Experience Composer（VEC）での変更内容を確認するには、どうすればよいですか？**
+**[!UICONTROL Visual Experience Composer] （VEC）で行った変更を確認するにはどうすればよいですか？**
 
 変更内容は、「[コードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)」に常に表示されます。「変更」タブには、オファーに適用した CSS セレクターまたは mbox が表示されます。
 
@@ -208,13 +208,13 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 それを行う方法の 1 つは、[カスタムコードエディター](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)の利用です。該当の JavaScript をセクションに設置すると配信されます。必要に応じて、head 内や body 最上部で配信することもできます。
 
-**Visual Experience Composer（VEC）内でログインページ以降に進めなかったり、特定の URL がない深部に埋め込まれたページに移動したりできないのはなぜですか？**
+**[!UICONTROL Visual Experience Composer] （VEC）内のログインページや、内部に深く埋め込まれたページに移動して、特定の URL を持たないのはなぜですか？**
 
-構成および参照の機能を使用すれば、目的のページに移動してエクスペリエンスを作成できます。
+[!UICONTROL Compose] 機能と [!UICONTROL Browse] 機能を使用して目的のページに移動し、エクスペリエンスの作成を開始します。
 
 ![ デザインと参照の切り替え ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-**以前まで Target Classic を利用していました。特定の用途で自分の mbox を利用することはできますか？**
+**私は以前 [!DNL Target Classic] ユーザーでした。 特定の用途で自分の mbox を利用することはできますか？**
 
 「[フォームベースの手法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)」でアクティビティを作成してください。
 
@@ -240,19 +240,19 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 [デバッガー](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)を利用し、[アクティビティの衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)を確認してください。
 
-**Target の判定機能を利用し、シングルページアプリケーション（SPA）またはサーバー側の統合で使用できるエクスペリエンスやオファーを受け取ることはできますか？**
+**[!UICONTROL Target] の意思決定機能を使用して、単一ページアプリケーション（SPA）またはサーバーサイド統合で使用できるエクスペリエンス/オファーを受け取ることはできますか？**
 
 その場合は、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
 
 ## レポート（Analytics for Target - A4T を含む） {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Adobe Analytics も利用しているのですが、Target と連携させて活用することはできますか？この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
+**また、[!DNL Adobe Analytics] もあり、[!DNL Target] で活用したいと思っています。 この 2 つを統合することで、主にどのような機能を利用できるようになりますか？**
 
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -261,7 +261,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 その場合は、3 ステップのガイドによるアクティビティワークフローのステップ 3 の目標と設定ページで利用できる[レポート対象のオーディエンス機能](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)が最適です。
 
-対象のセグメントを 50 個追加したり、アプリケーションポイント（アクティビティのエントリまたは特定の指標）を追加したりして、データを多角的に分析できます。
+このようなセグメントを 50 個追加するオプションと、アプリケーションポイント（[!UICONTROL Activity Entry] または特定の指標）を追加して、強力な方法で多角的に分析できます。
 
 この場合 Target では、対象のオーディエンスを追加した時点からデータを収集します。そのため、テストの実施前にセグメントを追加していなかった場合は、このような分析はおこなえません。
 
@@ -269,13 +269,13 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **このプロセスを簡略化するには、どうすればよいですか？**
 
-そのためにあるのが [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。Adobe Analytics を利用している場合は、ソースとして Analytics を選択すればこの問題を解消できます。あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
+そのためにあるのが [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)です。[!DNL Adobe Analytics] がある場合は、ソースを [!DNL Analytics] として選択するだけで、この制限がなくなります。 あらゆる時点、あらゆるオーディエンスを対象に分析を実行できるようになり、事前にレポート用オーディエンスを定義する必要もなくなります。
 
 **オフラインでレポートの計算を実行することはできますか？**
 
-[レポートを CSV にエクスポートするオプションと、注文の詳細を CSV にダウンロードするオプション](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)を利用して、対象のレポートデータをダウンロードしてください。
+Reports ページの [Export Reports to CSV および Download Order Details to CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) オプションを使用して、目的のレポートデータをダウンロードします。
 
-**レポートを評価するためにコントロールエクスペリエンスを変更したり、カウント手法を訪問者から訪問に変更したりできますか？**
+**レポート評価のコントロールエクスペリエンスを変更したり、カウント方法を [!UICONTROL Visitors] から [!UICONTROL Visits] に変更したりできますか？**
 
 [ レポートページの設定歯車](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)を使用してこれらの変更をおこないます。これらの設定で、計算方法がどう変わるかについて確認してください。
 
@@ -285,21 +285,21 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 ## レスポンストークン {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Google Analytics や ClickTale などのサードパーティシステムとの統合をおこない、エンドユーザーに提供されたアクティビティの情報を渡して分析に生かすことはできますか？**
+**[!DNL Google Analytics] や [!DNL ClickTal]e などのサードパーティシステムと統合して、エンドユーザーに配信したアクティビティ情報を分析に渡すことはできますか？**
 
 これに関しては、[レスポンストークン](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)機能を使用してください。
 
 ## トラブルシューティング {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**Adobe Target の利用ステータスを把握するには、どうすればよいですか？**
+**[!DNL Target] の可用性ステータスを知るにはどうすればよいですか？**
 
-[アドビシステムステータスページ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)を使用して、アドビ製品および Target を含む Experience Cloud ソリューションのステータスを表示します。このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+[Adobeのシステムステータス ページ ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) を使用して、[!DNL Adobe] 製品のステータスと [!DNL Target] を含む [!DNL Experience Cloud] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
 **トラブルシューティング用のガイドはありますか？**
 
 ご迷惑をおかけして大変申し訳ありません。多くのトラブルシューティングトピックへのリンクについては、[Troubleshooting Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) を参照してください。
 
-## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## [!DNL Target] API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API の詳細はどこで確認できますか？**
 
