@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d8bdd7f00911136f3089cef135928153a86096a9
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1670'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 ![Target UI のバージョン切り替え ](/help/main/r-release-notes/assets/toggle.png)
 
-ロールアウトが完了すると、切り替えスイッチが削除され、すべてのユーザーは更新された UI に永続的に移行します。 進行中の問題の解決により終了日は確定していませんが、この機能はすぐに廃止される予定なので、事前に計画することをお勧めします。
+ロールアウトが完了すると、切り替えが削除され、すべてのユーザーは更新済み UI に永続的に移行します **2025 年 6 月 22 日（PT）**。 この機能は間もなく廃止される予定なので、Adobeでは、事前に計画することをお勧めします。
 
 **UI の切り替え動作の制限**
 
