@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,13 @@ ht-degree: 20%
 更新された UI について詳しくは、次のリソースを参照してください。
 
 * [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  [!UICONTROL Activities]、[!UICONTROL Recommendations]、[!UICONTROL Visual Experience Composer] （VEC）に関する [!DNL Target] の主な UI の変更点の概要を説明します。
+
 * [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  [!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更点の概要を説明します。
+
 * [ [!DNL Target] UI について](/help/main/c-intro/understand-the-target-ui.md)
 
   [!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
@@ -53,7 +59,7 @@ ht-degree: 20%
 
 * [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  この記事では、更新された UI とそのオプションについて説明します。
+  この記事では、更新された VEC UI とそのオプションについて説明します。
 
 ## [!DNL Target Standard/Premium] 25.5.3 （2025 年 5 月 22 日（PT））
 
