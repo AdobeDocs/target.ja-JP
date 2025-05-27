@@ -62,6 +62,6 @@ ht-degree: 100%
 
 **2025 年 4 月 22 日（PT）より前:**[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
-**2025 年 4 月 22 日（PT）より**:[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるのは、[!UICONTROL Product] 管理者と [!UICONTROL Solutions] 管理者のみです。[!DNL Target] ワークスペースでの役割には関係ありません。 この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
+**2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 
 この更新により、[!DNL Target] インスタンス設定の組織管理が強化され、様々なテストやパーソナライゼーションチームにわたるアクティビティの配信に影響を与える可能性のある、誤った更新を防ぐことができます。
