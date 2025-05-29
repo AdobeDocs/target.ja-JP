@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.5.4 （2025 年 5 月 29 日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* QA モードで URL を追加または編集できない問題を修正しました。 （TGT-51941）
+* [!UICONTROL Reports]/[!UICONTROL Report Settings] （![ レポート設定アイコン ](/help/main/assets/icons/Setting.svg)）の下に QA モードトラフィック設定を追加して、従来の [!DNL Target] UI の機能と連携するようにしました。 （TGT-52228 および TGT-52329）
+* フォームベースのアクティビティで誤った QA リンクが生成される問題を修正しました。 アクティビティ URL/場所の最後に意図しない「1」が含まれていましたが、正確なリンクを確保するために削除されました。 （TGT-52355 および TGT-52358）
+* フォームベースのアクティビティで誤った QA リンクが生成される問題を修正しました。 アクティビティ URL の URL の先頭に意図しない `http://pid-ppc` が含まれていましたが、正確なリンクを確保するために削除されました。 （TGT-52557）
+* フォームベースのアクティビティ [!DNL Target] 無効な QA リンクが生成される問題を修正しました。 （TGT-52528 および TGT-52603）
+* 変更したアクティビティの保存が処理されているように見えても完了せず、[!DNL Target] にエラーメッセージが表示されない問題を修正しました。 （TGT-52461）
+* 更新された [!UICONTROL Visual Experience Composer] （VEC）が `at_property` 値の自動検出に失敗した問題を修正しました。 （TGT-52347）
+* フォーム要素の操作中に VEC で [!UICONTROL Browse] モードと [!UICONTROL Design] モードに切り替えると、いずれか一方のみが変更される場合に、2 つの変更が記録される問題を修正しました。 （TGT-52455）
+* セレクターが無効、既に使用されている、または表示されないというエラーにより、更新された VEC で [!UICONTROL Clicked an Element] 設定を選択できない問題を修正しました。 （TGT-52467）
+* 更新された VEC で [!UICONTROL Recommendation Offer] ボックスを追加すると、重複（ゴースト）ボックスが表示される問題を修正しました。 エクスペリエンス A と B を切り替えると、繰り返しゴーストボックスが追加される。 （TGT-52505 および TGT-52519）
+* 更新された [!DNL Target] UI で、[!UICONTROL Offer] メニューを通じて行われたHTML オファーに対する変更が、関連するアクティビティに反映されなかった問題を修正しました。 この動作は、従来の UI と一致するようになりました。ここでは、更新 [!UICONTROL Offer] メニューとアクティビティの間で更新が正しく同期されます。 （TGT-52540 および TGT-52541）
+* [!UICONTROL Offers Library] 内の [!UICONTROL Experience Fragments] の最近の更新が、アクティビティ内で使用しようとすると反映されない問題を修正しました。 （TGT-52659）
+* 確認メッセージの簡体字中国語翻訳におけるローカライゼーションの問題を修正しました。 以前のバージョンでは、場所の名前に引用符が含まれておらず、顧客のスタイルガイドとは異なる非公式な言語が使用されていました。 更新された翻訳では、適切な句読点と正式なトーンを使用するようになりました。 （TGT-52364）
 
 ## Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） {#toggle}
 
