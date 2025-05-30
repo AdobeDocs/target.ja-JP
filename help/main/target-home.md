@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 5d36a47a6cdd4d87345bd83f6060b4245d271d6b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 33%
+source-wordcount: '625'
+ht-degree: 30%
 
 ---
 
@@ -47,10 +47,14 @@ ht-degree: 33%
 
 このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
+
+>[!IMPORTANT]
+>
+>新しい [!DNL Target] UI のロールアウトは 2025 年 5 月 27 日（PT）に完了しました。 すべてのお客様が最新の UI バージョンにアクセスできるようになりました。 2025 年 6 月 22 日（PT）以降、UI バージョンの切り替えが削除されます。 すべてのユーザーは新しいインターフェイスに永続的に移行しますが、以前のバージョンに戻すオプションはありません。 詳しくは、「[Target UI バージョンの切り替えの廃止 ](/help/main/r-release-notes/release-notes.md#toggle)」を参照してください。
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務に基づいて、オーディエンス別に分かれています。
 
