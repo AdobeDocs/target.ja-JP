@@ -47,8 +47,8 @@ ht-degree: 30%
 
 このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
 
