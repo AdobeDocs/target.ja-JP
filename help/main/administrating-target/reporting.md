@@ -5,7 +5,7 @@ title: ' [!DNL Target] でのレポートの設定方法'
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
