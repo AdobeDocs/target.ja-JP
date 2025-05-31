@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5d36a47a6cdd4d87345bd83f6060b4245d271d6b
+source-git-commit: f624da04eb62b40989237c92f5bc88530603bd10
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 30%
+source-wordcount: '614'
+ht-degree: 31%
 
 ---
 
@@ -18,6 +18,14 @@ ht-degree: 30%
 **最終更新日：2025 年 5 月 29 日（PT）（[ ドキュメントの更新：変更点を参照 ](r-release-notes/doc-change.md)）**
 
 >[!BEGINTABS]
+
+>[!TAB  重要 ]
+
+**Target UI が完全にロールアウトされるようになりました**
+
+2025 年 5 月 27 日（PT）現在、すべてのお客様が新しい [!DNL Target] UI にアクセスできます。 2025 年 6 月 22 日（PT）以降、UI の切り替えが削除され、すべてのユーザーが更新された UI に永続的に移行します。元に戻すオプションはありません。
+
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 
 >[!TAB 最新情報]
 
@@ -47,14 +55,10 @@ ht-degree: 30%
 
 このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
-
->[!IMPORTANT]
->
->新しい [!DNL Target] UI のロールアウトは 2025 年 5 月 27 日（PT）に完了しました。 すべてのお客様が最新の UI バージョンにアクセスできるようになりました。 2025 年 6 月 22 日（PT）以降、UI バージョンの切り替えが削除されます。 すべてのユーザーは新しいインターフェイスに永続的に移行しますが、以前のバージョンに戻すオプションはありません。 詳しくは、「[Target UI バージョンの切り替えの廃止 ](/help/main/r-release-notes/release-notes.md#toggle)」を参照してください。
 
 以下のセクションでは、このガイドに記載されている便利なリンクを示しています。一般的な職務に基づいて、オーディエンス別に分かれています。
 
