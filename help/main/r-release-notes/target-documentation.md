@@ -32,5 +32,5 @@ ht-degree: 86%
 | [アドビカスタマーケアの営業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | アドビのサポートチームによるイニシアチブ、「Office Hours」に関する情報です。これらのセッションは、[!DNL Adobe Experience Cloud] を含む [!DNL Target] ソリューションに関して、参加者が成功を収めるためのヒントとテクニックを紹介することを目的としています。 |
 | [「Target の基本」ウェビナーシリーズ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | コミュニティでお客様に提供されるカスタマーサクセスウェビナーシリーズの 1 つである「 [!DNL Target]の基本」ウェビナーシリーズの登録情報と以前のセッションへのリンク。 |
 
-上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)にアクセスしてください。このコミュニティでは、次のことが可能です。
+上記のリソースに加えて、[Adobe Experience League Target コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)にアクセスしてください。このコミュニティでは、次のことが可能です。
 
