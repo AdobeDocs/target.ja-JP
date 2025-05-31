@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f624da04eb62b40989237c92f5bc88530603bd10
+source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 31%
+source-wordcount: '625'
+ht-degree: 29%
 
 ---
 
@@ -51,12 +51,13 @@ ht-degree: 31%
 
 [![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
->[!TAB Target ドキュメント ]
+>[!TAB  ターゲットリソース ]
 
-このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
+**包括的な [!DNL Target] 資源**
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/overview){target=_blank}
+ステップバイステップの UI ガイド、開発者向けリソース（SDK と API を含む）、チュートリアル、ビデオ、ウェビナー、活発なコミュニティフォーラムなど、複数の形式の [!DNL Target] ドキュメント。
+
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 
 >[!ENDTABS]
 
