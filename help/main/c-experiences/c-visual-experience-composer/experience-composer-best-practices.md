@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer] （VEC）の使用時に�
 title: ベストプラクティス [!UICONTROL Visual Experience Composer] 制限事項
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ Visual Experience Composer でアクティビティを作成する際にアク�
 
 拡張 Visual Experience Composer の読み込み時の問題は、次の IP アドレスを許可リストに加えるすることで解決できます。 これらの IP アドレスは、拡張 Experience Composer プロキシで使用されるアドビのサーバーのものです。これらは、アクティビティの編集にのみ必要です。サイトへの訪問者は、これらの IP アドレスの許可リストに加えるは必要ありません。
 
-米国：52.55.99.45、54.80.158.92 および 54.204.197.253
+米国：52.55.99.45、54.80.158.92、54.204.197.253
 
-ヨーロッパ、中東、アフリカ（EMEA）：52.51.238.221、52.210.199.44 および 54.72.56.50
+ヨーロッパ、中東、アフリカ（EMEA）:52.51.238.221、52.210.199.44、54.72.56.50
 
-アジア太平洋（APAC）：52.193.67.35、54.199.198.109 および 54.199.241.57
+アジア太平洋（APAC）:52.193.67.35、54.199.198.109、54.199.241.57
 
 ### トップレベルの要素と、適切なテスト／ターゲット候補になりそうなその他の要素に一意の ID を使用する。
 
@@ -225,6 +225,18 @@ mbox がオファーを含む場合、mbox が正しく実装されていない�
 
 VEC を使用する際は、次の制限事項を考慮してください。
 
+### Chrome拡張機能ポリシーの変更に伴う VEC 互換性の処理。
+
+Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} の [V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
+
+互換性を確保するために、ページが [!DNL Target] iframe 内に読み込まれる際には、これらのスクリプトを条件付きで無効にする必要があります。 このプロセスは、VEC 読み込み時に [!DNL Target] によって挿入される `window.adobeVecExtension` オブジェクトの存在を確認することで、安全に実行できます。
+
+次のコードスニペットは、VEC で web ページが読み込まれない原因となる可能性がある iframe バスティングコードの例です。
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### CSS プロパティが続くコンテナの外部に要素を移動することはできません。
 
 CSS プロパティが後に続くコンテナの外側に要素を移動することはできません。
@@ -293,7 +305,7 @@ mbox 要素内で画像をスワップした後、mbox 要素のサイズに従�
 </script>
 ```
 
-### コンテンツライブラリ（Scene7）から画像を挿入し、HTMLを編集すると、画像の URL が壊れます。
+### コンテンツライブラリ（Scene7）から画像を挿入してHTMLを編集すると、画像の URL が壊れます。
 
 「customHeaderMessage」 div 内に、任意のダミーテキストの入ったアンカー要素を追加します。
 
