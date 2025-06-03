@@ -120,7 +120,7 @@ A4T 統合により、次のことが可能になります。
 ### 自動配分 {#aa}
 
 * **トレーニング頻度**：通常どおり、[!UICONTROL Auto-Allocate] モデルは 1 時間ごとにトレーニングを続けます。
-* **アトリビューションモデル**:[!DNL Target] は、A4T を使用する [!UICONTROL  Auto-Allocate] アクティビティに [!DNL Adobe Analytics] のデフォルトのアトリビューションモデルを使用します。
+* **アトリビューションモデル**:[!DNL Target] は、A4T を使用する [!UICONTROL &#x200B; Auto-Allocate] アクティビティに [!DNL Adobe Analytics] のデフォルトのアトリビューションモデルを使用します。
 * **信頼性**:[!UICONTROL Auto-Allocate] のアクティビティで使用される信頼性の数式が、[!DNL Adobe Analytics] の [!UICONTROL A4T] ントロールパネルにデフォルトで表示される数式と異なります。 [ ここで説明しているように ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[!UICONTROL Auto-Allocate] では、通常の [!UICONTROL A/B Test] アクティビティよりも保守的な信頼区間を使用します。 これらの保守的な信頼性レベルは、データでの繰り返しの評価（ピーク）を補います。 その結果、[!DNL Adobe Analytics] のデフォルトレポートには、[!UICONTROL Auto-Allocate] アルゴリズムで使用される間隔と比較して、狭い信頼区間が表示されます。 そうは言っても、どのエクスペリエンスがよりユニークな訪問者が送信されているかに基づいて、アルゴリズムによってどのエクスペリエンスが好まれるかを判断できます。
 * **勝者のステータス**：現在、[ 「まだ勝者がありません」および「勝者」バッジ ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) は [!DNL Analysis Workspace] の [!UICONTROL A4T] パネルでは使用できません。 これらのバッジは、同じレポートを [!DNL Target] で表示した場合にも利用できません。A4T を使用する [!UICONTROL Auto-Allocate] アクティビティの [!DNL Target] レポートで表示される勝者の「星」バッジは無視する必要があります。 このバッジは、[!UICONTROL Auto-Allocate] で使用される計算ではなく、通常の信頼性の計算を反映しています。
 
