@@ -40,7 +40,7 @@ ht-degree: 100%
    >
    >アカウントをリンクしないと、[!DNL Target] にアクセスできません。
 
-   すべて [!UICONTROL Experience Cloud] 製品がリンクページに表示されます。`Link Target` をクリックし、[!DNL Target] のユーザー名とパスワードを入力して Target にアクセスします[!DNL Target]。
+   すべて [!UICONTROL Experience Cloud] 製品がリンクページに表示されます。`Link Target` をクリックし、[!DNL Target] のユーザー名とパスワードを入力して [!DNL Target] にアクセスします。
 1. **[!UICONTROL Continue to Experience Cloud]** をクリックします。
 
    この時点では、リンクできる権限を持ったグループはまだ設定されていません。
