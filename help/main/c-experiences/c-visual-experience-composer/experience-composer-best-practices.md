@@ -122,7 +122,7 @@ VEC では、リンクを更新するプロキシサーバーを使用して、�
 
 つまり、テキストを持つ要素を追加し、別の操作でその要素を異なるテキストに編集した場合、コードエディターには、両方の操作が別々の要素として表示されます。要素を編集した場合は、作成した元の要素を変更した新しい要素が作成され、その新しい要素に編集したテキストが設定されます。その後、元の要素を削除すると、編集されたテキストは、編集された要素を見付けることができないので、表示されません。2 つ目の要素は要素のリストには引き続き含まれていますが、変更元の要素が存在しなくなっているので、ページ上での効果がなくなります。
 
-[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) で使用される [ 要素セレクターを参照してください。
+[!UICONTROL Visual Experience Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) で使用される  要素セレクターを参照してください。
 
 +++
 
@@ -302,7 +302,7 @@ VEC を使用する際は、次の制限事項を考慮してください。
 ### 拡張機能ポリシーの変更に伴う VEC[!DNL Chrome] 互換性の処理。 {#ext}
 
 +++詳細
-Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} の [V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
+Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} の V3 マニフェストポリシーが更新されたため、ブラウザーによって解析される前に、拡張機能で元の DOM を変更できなくなりました。 その結果、特定のセキュリティスクリプト（iframe バスティング実装など）によって、VEC へのページの読み込みがブロックされる場合があります。
 
 互換性を確保するために、ページが [!DNL Target] iframe 内に読み込まれる際には、これらのスクリプトを条件付きで無効にする必要があります。 このプロセスは、VEC 読み込み時に [!DNL Target] によって挿入される `window.adobeVecExtension` オブジェクトの存在を確認することで、安全に実行できます。
 
