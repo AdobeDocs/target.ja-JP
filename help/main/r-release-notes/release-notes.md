@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 18%
+source-wordcount: '1105'
+ht-degree: 28%
 
 ---
 
@@ -19,23 +19,30 @@ ht-degree: 18%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## [!DNL Target Standard/Premium] 25.5.4 （2025 年 5 月 29 日（PT））
+## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日（PT））
 
 このリリースには、次の修正および更新が含まれています。
 
-* QA モードで URL を追加または編集できない問題を修正しました。 （TGT-51941）
-* [!UICONTROL Reports]/[!UICONTROL Report Settings] （![ レポート設定アイコン ](/help/main/assets/icons/Setting.svg)）の下に QA モードトラフィック設定を追加して、従来の [!DNL Target] UI の機能と連携するようにしました。 （TGT-52228 および TGT-52329）
-* フォームベースのアクティビティで誤った QA リンクが生成される問題を修正しました。 アクティビティ URL/場所の最後に意図しない「1」が含まれていましたが、正確なリンクを確保するために削除されました。 （TGT-52355 および TGT-52358）
-* フォームベースのアクティビティで誤った QA リンクが生成される問題を修正しました。 アクティビティ URL の URL の先頭に意図しない `http://pid-ppc` が含まれていましたが、正確なリンクを確保するために削除されました。 （TGT-52557）
-* フォームベースのアクティビティ [!DNL Target] 無効な QA リンクが生成される問題を修正しました。 （TGT-52528 および TGT-52603）
-* 変更したアクティビティの保存が処理されているように見えても完了せず、[!DNL Target] にエラーメッセージが表示されない問題を修正しました。 （TGT-52461）
-* 更新された [!UICONTROL Visual Experience Composer] （VEC）が `at_property` 値の自動検出に失敗した問題を修正しました。 （TGT-52347）
-* フォーム要素の操作中に VEC で [!UICONTROL Browse] モードと [!UICONTROL Design] モードに切り替えると、いずれか一方のみが変更される場合に、2 つの変更が記録される問題を修正しました。 （TGT-52455）
-* セレクターが無効、既に使用されている、または表示されないというエラーにより、更新された VEC で [!UICONTROL Clicked an Element] 設定を選択できない問題を修正しました。 （TGT-52467）
-* 更新された VEC で [!UICONTROL Recommendation Offer] ボックスを追加すると、重複（ゴースト）ボックスが表示される問題を修正しました。 エクスペリエンス A と B を切り替えると、繰り返しゴーストボックスが追加される。 （TGT-52505 および TGT-52519）
-* 更新された [!DNL Target] UI で、[!UICONTROL Offer] メニューを通じて行われたHTML オファーに対する変更が、関連するアクティビティに反映されなかった問題を修正しました。 この動作は、従来の UI と一致するようになりました。ここでは、更新 [!UICONTROL Offer] メニューとアクティビティの間で更新が正しく同期されます。 （TGT-52540 および TGT-52541）
-* [!UICONTROL Offers Library] 内の [!UICONTROL Experience Fragments] の最近の更新が、アクティビティ内で使用しようとすると反映されない問題を修正しました。 （TGT-52659）
-* 確認メッセージの簡体字中国語翻訳におけるローカライゼーションの問題を修正しました。 以前のバージョンでは、場所の名前に引用符が含まれておらず、顧客のスタイルガイドとは異なる非公式な言語が使用されていました。 更新された翻訳では、適切な句読点と正式なトーンを使用するようになりました。 （TGT-52364）
+* QA リンクで、関連するアクティビティに対して正しいエクスペリエンスが提供されなかった問題を修正しました。 （TGT-52163 および TGT-52790）
+* QA リンクで、関連するオーディエンス ID が欠落していた問題を修正しました。 （TGT-52722）
+* 設定されたページ配信 URL 条件が正確に満たされた場合にのみエクスペリエンスが配信される問題を修正しました。 （TGT-52696）
+* お客様が [!DNL Recommendations] デザインテンプレートを作成できない問題を修正しました。 テンプレートを作成しようとすると、「スクリプト内でエンティティ変数が少なくとも 1 つ使用されている必要があります」というエラーがトリガーされました。 （TGT-52395）
+* Velocity 配列を使用して [!DNL Recommendations] デザインを保存できない問題を修正しました。 「スクリプト内で使用されるエンティティ変数が 1 つ以上あるはずです」というエラーメッセージが誤ってトリガーされていました。 （TGT-52734）
+* 内部 web ページのページを読み込めない場合に、[!UICONTROL Visual Experience Composer] （VEC）で変更にアクセスできない問題を修正しました。 （TGT-52488 &amp;TGT-52470）
+* VEC の小さい画面サイズで [!UICONTROL Modifications] パネルが表示されない問題を修正しました。 （TGT-52470）
+* 更新された VEC で、[!UICONTROL Browse] モードから [!UICONTROL Design] モードに切り替えるとコンソールエラーが発生し、それ以上のインタラクションが妨げられる問題を修正しました。 （TGT-52532）
+* VEC で、特定の要素をクリックすると意図せずサイズが拡大される問題を修正しました。 （TGT-52497）
+* VEC で特定のページ要素の読み込みまたは認識に失敗し、ボタンやバナーの選択などのインタラクションが発生したり、アクティビティの正確なイベント追跡が中断されたりする問題を修正しました。 （TGT-52663）
+* [!UICONTROL Automated Personalization] （AP）アクティビティで、お客様がオファーを削除できない問題を修正しました。 （TGT-52690）
+* 複数ページアクティビティでアクティビティの選定動作に一貫性がなかった問題を修正しました。 （TGT-52694）
+* アクティビティの [!UICONTROL Overview] ページに [!UICONTROL Activity Location] の無効な URL が表示される問題を修正しました。 （TGT-52695）
+* 更新された [!DNL Target] UI で、アクティビティの場所に重複するエントリが表示される問題を修正しました。 （TGT-52693）
+* `getAudiencesV3` エラーをトリガーして、顧客がアクティビティを編集またはコピーできなかった問題を修正しました。 （TGT-52709）
+* [!UICONTROL Experience Fragments] またはHTML オファーをアクティビティに追加する際に、「無効なペイロードです」エラーが発生する問題を修正しました。 （TGT-52779 および TGT-52773）
+* 更新された [!DNL Target] UI で、無効な入力エラーが原因で E[!UICONTROL xperience Fragments] が正しく表示されなかった問題を修正しました。 （TGT-52701）
+* 無効なユーザーエラーが原因で、お客様が [!UICONTROL Form-based Experience Composer] でアクティビティを編集できない問題を修正しました。 （TGT-52470）
+* 以前の翻訳で基本多言語平面外の文字が使用されていた韓国語のローカライゼーションの問題を修正しました。 更新された翻訳では、意図した意味を正確に伝える適切な文字を使用しています。 （TGT-52508 および TGT-52509）
+* 韓国語ローカライゼーションの問題を修正しました。アクティビティの開始日と終了日を選択する際に、「日付」の翻訳が一貫していませんでした。 （TGT-52510）
 
 ## Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） {#toggle}
 
@@ -68,80 +75,6 @@ ht-degree: 18%
 * [[!UICONTROL Visual Experience Composer] の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新バージョンの違いについて説明します。
 
 * [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
-
-## [!DNL Target Standard/Premium] 25.5.3 （2025 年 5 月 22 日（PT））
-
-このリリースには、次の修正および更新が含まれています。
-
-* [!UICONTROL Activities] ータリストの名前検索機能が複数単語クエリで正しく動作しない問題を修正しました。 （TGT-52529）
-* [!UICONTROL Automated Personalization] （AP）アクティビティからエクスペリエンスを除外できない問題を修正しました。 （TGT-52383）
-* AP アクティビティでコンテンツを管理する際に、「[!UICONTROL Contains]」オプションが [!UICONTROL Filter Rules] に表示されない問題を修正しました。 （TGT-52384）
-* 特に [!DNL Target] の内部システムの `optionLocalId` 値を使用して、デフォルトのオファーを追跡およびレポートする方法に関連する、[!UICONTROL Automated Personalization] （AP）アクティビティのレポートの不整合を修正しました。
-* QA リンクで、目的のアクティビティエクスペリエンスを配信できない問題を修正しました。 （TGT-52163）
-* [!UICONTROL Approver] の権限を持つユーザーがライブアクティビティの編集を誤ってブロックされ、「アクセスが拒否されました」というエラーメッセージが表示される問題を修正しました。 （TGT-52416）
-* 更新された [!DNL Target] UI で、特定のアクティビティのオーディエンスの絞り込みが表示されない問題を修正しました。 （TGT-52057）
-* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
-* アドホックオファーを生成すると、オファーが重複する問題を修正しました。 （TGT-51938）
-* オファーの更新がブロックされ、誤って「無効なユーザー」エラーが表示されていた問題を修正しました。 （TGT-52361）
-* 既存のアクティビティを保存すると「無効なユーザー入力」エラーが発生する問題を修正しました。 （TGT-52422）
-* コードを変更していない場合でも、保存時に「無効なユーザー入力」エラーがトリガーされ、既存のHTML オファーの編集がブロックされていた問題を修正しました。 （TGT-52351）
-* Web サイトの URL に「#」文字が認識され [!DNL Target] い問題を修正しました。 （TGT-52093）
-* [!DNL Recommendations] アクティビティを編集してプロモーションを追加または更新できない問題を修正しました。これにより、保存が失敗し、プロモーションが重複していました。 （TGT-52343）
-* [!DNL Recommendations] アクティビティの条件やデザインを変更できず、「invalid JSON: unrecognized property name」エラーが発生する問題を修正しました。 （TGT-52375）
-* [!DNL Recommendations] アクティビティの [!UICONTROL Visual Experience Composer] （VEC）でシーケンス条件が正しく表示されない問題を修正しました。 （TGT-52435）
-* [!DNL Adobe Experience Platform Web SDK] を使用する際に、SPA ページでビューが正しく識別されない問題を修正しました。 （TGT-52106）
-* バッチ操作ペイロードに含まれているにもかかわらず、オンデバイス判定（ODS）の詳細が正しく保存されない問題を修正しました。 （TGT-52406）
-* アクティビティに `audienceMetadata` フィールドを追加し、編集中に読み取り、更新できるようにしました。 （TGT-51004）
-* オーディエンスの期間が無効な場合にユーザーに警告するエラーメッセージを追加しました。 （TGT52522）
-* 様々なタイプの重複オーディエンスをサポートするようにアクティビティ構造を更新しました。 （TGT-51200）
-
-## [!DNL Adobe Target] [!DNL AI Assistant] リリース（2025 年 5 月 16 日）
-
-[!DNL Adobe Target] 年に [!DNL AI Assistant] の立ち上げをお知らせします。 この強力なユーザーインターフェイス機能は、[!DNL Target] の概念を簡単にナビゲートして理解できるように設計されています。 [!DNL Target] を含む [!DNL Adobe Experience Cloud] の複数の製品で利用でき、エクスペリエンスに革命を起こすために [!DNL AI Assistant] ここにあります。
-
-[!DNL AI Assistant] in [!UICONTROL Target] は、[!DNL Experience Platform] しいアプリケーションやサービスを使用してワークフローを高速化するために使用できる対話型ツールです。 [!DNL AI Assistant] を使用すると、全体的な生産性が向上し、製品に関する知識をより深く理解できます
-
-ま [!DNL Target]、[!DNL AI Assistant] の第 1 段階では、ドキュメントに基づいた非常に貴重な製品知識 [!DNL Experience League] 提供します。 プロファイルスクリプトの設定、エラーのトラブルシューティング、AEP Web SDKへのアップグレードの検討な [!DNL AI Assistant] について説明しました。
-
-詳しくは、[Adobe Experience Platform AI アシスタントの概要 ](/help/main/c-intro/ai-assistant.md) を参照してください。
-
-## [!DNL Target Standard/Premium] 25.5.2 （2025 年 5 月 8 日（PT））
-
-このリリースには、次の修正および更新が含まれています。
-
-* [!UICONTROL Product Administrator] および [!UICONTROL System Administrator] の権限を持つ [!DNL Target] ユーザーは、[!DNL Target] での役割に関係なく、[!UICONTROL Administration] ページのすべての設定を編集できるようになりました。 これらの権限を持たないユーザーは、これらの設定に読み取り専用でアクセスできます。 この更新により、[ 管理設定 ](/help/main/administrating-target/administrating-target.md) に対するアクセス制御が強化されます。 （TGT-48179）
-* アクティビティ [ サイト環境設定 ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) を保存できないキャッシュの問題を修正しました。 （TGT-52213）
-* VEC にサイトを読み込んだ後、お客様が [!UICONTROL Site Preferences] セクションの ID とクラスによる選択を有効にできなかった問題を修正しました。 有効にした後も、[!UICONTROL Site Preferences] 設定は自動的に無効に戻りました。 （TGT-52207）
-* [ ページ配信 ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URL がスラッシュ（/）で終わる場合に、[!UICONTROL Visual Experience Composer] （VEC）で正しいページを表示できなかった問題を修正しました。 （TGT-52237）
-* エクスペリエンスを変更する際に、カスタムコードの変更を削除できない問題を修正しました。 （TGT-52240）
-* VEC でのHTMLの変更により、既存のページ要素がオーバーレイされる問題を修正しました。 （TGT-52265）
-* 既存のカスタムコードがエディターに表示されないので、更新された VEC のカスタムコードを編集できない問題を修正しました。 （TGT-52272）
-* Recommendations アクティビティを保存する際に、「重複した名前は許可されません」というエラーメッセージが表示される問題を修正しました。 （TGT-52318）
-* 更新された VEC で、顧客がテキスト要素を編集したり、コンテナオブジェクトを削除したりできない問題を修正しました。 （TGT-52348）
-* アクティビティ [!UICONTROL Overview] ーザーページに [!DNL Customer Journey Analytics] が正しく表示されない問題を修正しました。 （TGT-52359）
-* レポートグループが [!UICONTROL Automated Personalization] （AP）アクティビティに保持されない問題を修正しました。 （TGT-52368）
-* Offer Decisioning を含むアクティビティを保存できない問題を修正しました。 （TGT-52390）
-* デフォルトのオファーが選択されても、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Test] （MVT）アクティビティに他のオファーコンテンツが表示される問題を修正しました。 （TGT-52372）
-* 組織への完全なアクセスと、特定の組織へのユーザーアクセスを OR でチェックするGET権限ロジックを修正しました。 （TGT-52374）
-* [!UICONTROL Show Only Selected] が有効になっている場合でも、[!UICONTROL Managed Content] と [!UICONTROL Reporting Audiences] のオーディエンスを選択した後にオーディエンス名が表示されない問題を修正しました。 （TGT-52393）
-
-## [!DNL Target Standard/Premium] 25.5.1 （2025 年 5 月 5 日）
-
-このリリースには、次の修正および更新が含まれています。
-
-* 更新された UI で、特定のアクティビティに対してオーディエンスの絞り込みが表示されない問題を修正しました。 （TGT-52057）
-* アクティビティで結合オーディエンスを使用できない問題を修正しました。 （TGT-52346）
-* 同じワークスペースのアクティビティ専用オーディエンスを使用して、デフォルト以外のワークスペースに新しいアクティビティを作成できなかった問題を修正しました。 （TGE-52349）
-* 新しいオーディエンスを作成および選択した後、アクティビティのみのオーディエンスが更新された UI に表示されない問題を修正しました。 （TGT=52091）
-* アクティビティで重複したオーディエンスを使用できない問題を修正しました。 （TGT-51200 および TGT-52057）
-* 更新された UI で、オーディエンスの絞り込みとアクティビティオーディエンスが元に戻される問題を修正しました。 （TGT-52158）
-* ユーザー入力エラー「このユーザーにはデフォルト以外のワークスペースは許可されていません」が原因で新しいアクティビティを作成できない問題を修正しました。 （TGT-52267）
-* デフォルトのワークスペースとデフォルト以外のワークスペースの両方で、更新された UI にオファーが表示されない問題を修正しました。 [!DNL Target] では、両方のワークスペースのオファーを表示するようになりました。 （TGT-52339）
-* アクティビティを編集し、変更され [!DNL Target]web サイト要素を変更した場合に、顧客に警告しなかった問題を修正しました。 （TGT-52100）
-* アドホックオファーを使用してオファーを編集すると、既存のオファーが更新されるのではなく、新しいオファーが作成される問題を修正しました。 （TGT-52135）
-* オファーをフォルダーに移動する際に、「無効なペイロード」エラーが発生する問題を修正しました。 （TGT-52325）
-* オファーをフォルダーに移動する際に、ユーザー入力エラーが発生する問題を修正しました。 （TGT-52296）
-* 各アクティビティに `audienceMetadata` フィールドを追加し、アクティビティの編集時に読み取られ、更新されていることを確認しました。 （TGT-51004）
 
 ## その他のリリースノートとバージョンの詳細
 
