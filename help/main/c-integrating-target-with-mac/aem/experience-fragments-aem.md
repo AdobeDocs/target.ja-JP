@@ -58,8 +58,8 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 詳しくは、次を参照してください。
 
-* **AEM as a Cloud Service**: [4&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} ガイドの &lbrace;Adobe Targetとの統合 *。*
-* **Adobe Developer**: [ 管理ユーザーガイド ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
+* **AEM as a Cloud Service**: [4&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} ガイドの &lbrace;Adobe Targetとの統合 *。*
+* **Adobe Developer**: [ 管理ユーザーガイド ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ja){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja){target=_blank}。
 
@@ -84,7 +84,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEM as a Cloud Service**: [5&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} ガイドの &lbrace;Adobe Targetへの [!UICONTROL Experience Fragments] の書き出し *。*
+* **AEM as a Cloud Service**: [5&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} ガイドの &lbrace;Adobe Targetへの [!UICONTROL Experience Fragments] の書き出し *。*
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 
