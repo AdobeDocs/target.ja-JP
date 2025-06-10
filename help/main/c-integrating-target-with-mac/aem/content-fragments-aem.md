@@ -4,10 +4,10 @@ description: アクティビティでの使用方法  [!DNL Adobe Experience Man
 title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL Content Fragments] の使用方法？'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 21%
+source-wordcount: '569'
+ht-degree: 15%
 
 ---
 
@@ -35,19 +35,19 @@ ht-degree: 21%
 
 * [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで [!UICONTROL Content Fragments] を使用できます。 [!UICONTROL Visual Experience Composer] （VEC *を使用して [!DNL Target] アクティビティで [!UICONTROL Content Fragments] を使用する* 使用できません）。
 
-AEM [!UICONTROL Content Fragments] と [!UICONTROL Experience Fragments] について詳しくは、[AEM [!UICONTROL Experience Fragments] と [!UICONTROL Content Fragments] の概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
+AEM [!UICONTROL Content Fragments] および [!UICONTROL Experience Fragments] について詳しくは、[AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] の概要 ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) を参照してください。
 
 ## 要件 {#requirements}
 
-[[!DNL AEM]  を as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} 使用している必要があります。アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
+[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja){target=_blank} を使用している必要があります。 アカウント担当者が、この機能を利用するための条件を満たすお手伝いをいたします。
 
 統合の有効化と認証の詳細情報については、[Adobe Target カスタマーケア](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)にお問い合わせください。
 
 ## [!DNL AEM] での [!UICONTROL Content Fragments] の設定と使用 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!UICONTROL Content Fragments] をエクスポートして [!DNL Target] アクティビティで使用するには、AEMでいくつかの準備手順を実行する必要があります。 詳しくは、[Experience Manager as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank}の Adobe Target へのコンテンツフラグメントの書き出し&#x200B;**&#x200B;を参照してください。
+[!UICONTROL Content Fragments] を書き出して [!DNL Target] アクティビティで使用するには、AEMでいくつかの準備手順を実行する必要があります。 詳しくは、{2[Experience Manager as a Cloud Service ドキュメントの ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ja){target=_blank}Adobe Targetへのコンテンツフラグメントの書き出し *を参照してください。*
 
-[!UICONTROL Content Fragments] のデザイン、作成、キュレーション、公開について詳しくは、[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja)Experience Managerのas a Cloud Serviceに関するドキュメントの [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ja){target=_blank} および [ コンテンツフラグメントの操作 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ja){target=_blank} を参照してくだ {target=_blank} い。
+[!UICONTROL Content Fragments] のデザイン、作成、キュレーション、公開について詳しくは、[Experience Manager as a Cloud Service ドキュメントの [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ja){target=_blank} および [ コンテンツフラグメントの操作 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ja){target=_blank} を参照してくだ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ja){target=_blank} い。
 
 ## [!DNL Target] アクティビティでの [!UICONTROL Content Fragments] の使用 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -61,9 +61,7 @@ AEM [!UICONTROL Content Fragments] と [!UICONTROL Experience Fragments] につ�
 
 ![コンテンツフラグメントタイプでのフィルタリング：Target UI の HTML または JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-リスト内の [!UICONTROL Content Fragment] にポインタを合わせ、「[!UICONTROL View]」アイコン ![ 情報アイコン ](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) をクリックすると、[!UICONTROL AEM path] や [!UICONTROL AEM deep link] など、[!UICONTROL Content Fragment] に関する追加情報が表示されます。 「[!UICONTROL Offer Usage]」タブをクリックして、このオファーを参照するアクティビティを表示します。
-
-![コンテンツフラグメント情報ポップアップ](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
+リスト内の [!UICONTROL Experience Fragment] にポインタを合わせ、「[!UICONTROL View]」アイコン ![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg) をクリックすると、[!UICONTROL Name]、[!UICONTROL Type]、[!UICONTROL Offer ID]、[!UICONTROL Offer path]、最終変更情報など、[!UICONTROL Content Fragment] に関する追加情報が表示されます。 [!UICONTROL [!UICONTROL View Full Details]] をクリックして、このオファーを参照するアクティビティを表示します。
 
 [ フォームベースの Experience Composer](/help/main/c-experiences/form-experience-composer.md) のみを使用して、[!DNL Target] アクティビティで [!UICONTROL Content Fragments] を使用できます。 [Visual Experience Composer *VEC* を使用して [!DNL Target] アクティビティで [!UICONTROL Content Fragments] を使用することはできません ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 [!UICONTROL Content Fragments] は [!DNL Target] で JSON として書き出され、VEC を使用して作成されたアクティビティでは使用できません。
 

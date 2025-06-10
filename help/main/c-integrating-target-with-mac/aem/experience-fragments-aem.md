@@ -4,9 +4,9 @@ description: アクティビティでの使用方法  [!DNL Adobe Experience Man
 title: ' [!DNL Adobe Experience Manager]  （AEM） [!UICONTROL Experience Fragments] の使用方法？'
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 32%
 
 ---
@@ -58,8 +58,8 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 詳しくは、次を参照してください。
 
-* **AEM as a Cloud Service**: [4&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} ガイドの &lbrace;Adobe Targetとの統合 *。*
-* **Adobe Developer**: [ 管理ユーザーガイド ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ja){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
+* **AEM as a Cloud Service**: [4}Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} ガイドの {Adobe Targetとの統合 *。*
+* **Adobe Developer**: [ 管理ユーザーガイド ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} ドキュメントの *Adobe I/O を使用したAdobe Targetとの統合*。
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Adobe Analytics と Adobe Target へのオプトイン](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ja){target=_blank}。
 
@@ -84,7 +84,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 [!DNL AEM] のバージョンに応じて、次のリンクを参照して手順を確認してください。
 
-* **AEM as a Cloud Service**: [5&rbrace;Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} ガイドの &lbrace;Adobe Targetへの [!UICONTROL Experience Fragments] の書き出し *。*
+* **AEM as a Cloud Service**: [5}Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} ガイドの {Adobe Targetへの [!UICONTROL Experience Fragments] の書き出し *。*
 * **[!DNL AEM]6.5**：*Adobe Experience Manager 6.5* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 * **[!DNL AEM]6.4**：*Adobe Experience Manager 6.4* ドキュメントの [Target へのエクスペリエンスフラグメントの書き出し](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ja){target=_blank}。
 
@@ -118,11 +118,11 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
 1. [!DNL Target] の場合、[Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) でエクスペリエンスを作成または編集する際に、コンテンツを挿入するページ上の場所をクリックし、**[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** をクリックして [!DNL AEM] エクスペリ [!UICONTROL Experience Fragment] ンスダイアログボックスを表示します。
 
-   [!UICONTROL Experience Fragment] リストには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったコンテンツが表示されます。
+   [!UICONTROL Experience Fragment] ダイアログボックスには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったコンテンツが表示されます。
 
    >[!NOTE]
    >
-   >[!UICONTROL Swap with Experience Fragment] オプションは、画像には使用できません。 画像にこのオプションを使用する場合は、目的の画像を含むコンテナ要素をクリックします。
+   >[!UICONTROL Replace Content] オプションは、画像には使用できません。 画像にこのオプションを使用する場合は、目的の画像を含むコンテナ要素をクリックします。
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
@@ -134,7 +134,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
    * **A/B テスト：** [A/B テストの作成](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動配分：** [自動配分](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自動ターゲット：** [自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalizationアクティビティ（AP）：**&#x200B;[Automated Personalizationアクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Automated Personalizationアクティビティ（AP）：**[Automated Personalizationアクティビティの作成](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **エクスペリエンスターゲット設定（XT）：** [エクスペリエンスのターゲット設定アクティビティの作成](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **A/B テストまたは XT アクティビティのRecommendations：** [オファーとしての Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
@@ -146,7 +146,7 @@ AEM [!UICONTROL Experience Fragments] および [!UICONTROL Content Fragments] �
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-   [!UICONTROL Experience Fragment] リストには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったコンテンツが表示されます。
+   [!UICONTROL Experience Fragment] ダイアログボックスには、[!DNL AEM] で作成され、[!DNL Target] 内からネイティブで使用可能になったコンテンツが表示されます。
 
 1. 目的の [!UICONTROL Experience Fragment] を選択し、「**[!UICONTROL Add]**」をクリックします。
 1. アクティビティの設定を終了します。
@@ -170,10 +170,10 @@ HTML ページ全体で [!UICONTROL Experience Fragment] をラップし、問�
 
 次のビデオでは、[!UICONTROL Experience Fragments] の設定方法と使用方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/38085?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >
 >4:54 で取り上げた [!DNL AEM] ディープリンク機能は削除されました。
 
-詳しくは、*AEM Sitesのビデオとチュートリアル [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja) ページの Adobe Targetでの [!UICONTROL Experience Fragments] の使用* を参照してください。
+詳しくは、*AEM Sitesのビデオとチュートリアル ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ja) ページの [Adobe Targetでの [!UICONTROL Experience Fragments] の使用* を参照してください。

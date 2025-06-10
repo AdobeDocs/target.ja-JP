@@ -5,21 +5,31 @@ title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけ�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Target UI に関する FAQ を更新しました
+# [!DNL Target] UI の更新に関する FAQ
 
-更新された [!DNL Adobe Target] UI に関するよくある質問への回答と、詳細に関する役立つヒントやリンクを紹介します。
+2025 年に新しく導入された [!DNL Adobe Target] の更新されたユーザーインターフェイスは、合理化された直感的なエクスペリエンスを導入し、すべての役割での操作性と効率を向上させます。 この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 
 ## 更新された [!DNL Target] UI に関する詳細情報はどこで入手できますか？
 
 +++詳細
-{{updated-ui}}
+更新された [!DNL Target] UI の詳細については、次のリソースを参照してください。
+
+* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!UICONTROL Activities]、[!UICONTROL Recommendations] および [!UICONTROL Visual Experience Composer] （VEC）の [!DNL Target] の主な UI の変更点の概要を説明します。
+
+* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更点の概要を説明します。
+
+* [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
+
+* [[!UICONTROL Visual Experience Composer] の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新バージョンの違いについて説明します。
+
+* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
 +++
 
@@ -50,7 +60,7 @@ UI バージョンの切り替えは、切り替えボタンを使用して、�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) ターゲット UI バージョン切り替えの非推奨（2025 年 5 月 23 日（PT））* を参照してください。
+詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
 
 ++++
 
@@ -61,7 +71,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) ターゲット UI バージョン切り替えの非推奨（2025 年 5 月 23 日（PT））* を参照してください。
+詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
 
 +++
 
