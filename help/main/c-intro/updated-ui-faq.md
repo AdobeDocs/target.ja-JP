@@ -5,9 +5,9 @@ title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけ�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 * **拡張 Experience Composer （EEC）**：詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング *のパブリック IP でアクセスできない内部 QA URL を EEC が読み込まない ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) を参照してください*
 * **[!UICONTROL Recommendations]**: [Recommendations フィード処理サーバーで使用される IP アドレス ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) を参照してください。
-
-+++
-
-## [!UICONTROL Browse] が機能しない、または参照できない問題が発生しました。 他の顧客 [!DNL Adobe] 同様の動作が見られますか？
-
-+++詳細
-ムティ助けてくれ。
 
 +++
 
