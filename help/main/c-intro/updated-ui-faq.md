@@ -5,9 +5,9 @@ title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけ�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ UI バージョンの切り替えは、切り替えボタンを使用して、�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
+>[!NOTE]
+>
+>特殊なケースで、6 月 22 日以降に切り替えスイッチを保持する必要があるお客様は、Adobe カスタマーケアにお問い合わせください。
+
+
 詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
 
 ++++
@@ -85,21 +90,23 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 ## 従来のオファーの作成と更新された UI の違いは何ですか？ 追加の属性が必要かどうか。
 
 +++詳細
-ムティ助けてくれ。
+[!UICONTROL Offer Library] UI では、すべてのオファーに一貫した属性定義が必要です。 アクティビティ専用（アドホック）オファーを作成する場合、ユーザーはオファー名も指定する必要があります。 この情報は [!UICONTROL Form-based Experience Composer] に表示されるので、コードやコンテンツを確認しなくても、オファーを識別しやすくなります。
 
 +++
 
 ## 更新された UI のオファープレビューリンクはどうなりましたか？
 
 +++詳細
-ムティ助けてくれ。
+プレビューリンク [!UICONTROL Experience Fragment]、[!UICONTROL Quick Info] ポップオーバーで使用できます。このポップオーバーは、選択したフラグメントに対応する情報アイコン（![ 情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると表示されます。
 
 +++
 
 ## 更新された UI で既存のアクティビティを編集する際に、[!UICONTROL Enhanced Experience Composer] を無効にする必要があります。 他の顧客 [!DNL Adobe] 同様の動作が見られますか？
 
 +++詳細
-ムティ助けてくれ。
+はい。 [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] を使用する場合、[!UICONTROL Enhanced Experience Composer] （EEC）を無効にする必要がある可能性があります。
+
+詳しくは、[Visual Editing Helper 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)を参照してください。
 
 +++
 
@@ -113,7 +120,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 +++
 
-## 参照が機能しない、または参照できる問題が発生しました。 他の顧客 [!DNL Adobe] 同様の動作が見られますか？
+## [!UICONTROL Browse] が機能しない、または参照できない問題が発生しました。 他の顧客 [!DNL Adobe] 同様の動作が見られますか？
 
 +++詳細
 ムティ助けてくれ。
@@ -123,7 +130,9 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 ## 新しい Recommendations UI では、環境はデフォルトでステージングにリセットされますか。
 
 +++詳細
-ムティ助けてくれ。
+環境のデフォルトは、顧客が最後に使用した環境になります。 環境を切り替えるには、[!UICONTROL Catalog Search] UI の右上隅にある [!UICONTROL Environment] セレクターを使用します。
+
+![ 環境スイッチ ](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
