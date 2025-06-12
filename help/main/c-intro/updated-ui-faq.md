@@ -3,9 +3,7 @@ keywords: target ユーザーインターフェイス；ユーザーインター
 description: 更新されたユーザーインターフェイス  [!DNL Target] 関する質問と回答。
 title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけることができますか？
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
