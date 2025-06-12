@@ -4,9 +4,9 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1b000b2c063ad3ace641ef2b2e08c53affd646e7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '668'
 ht-degree: 26%
 
 ---
@@ -29,9 +29,15 @@ ht-degree: 26%
 
 >[!TAB 最新情報]
 
+**Target 25.6.2 はライブです！**
+
+このリリースでは、更新された [!DNL Target] UI および [!UICONTROL Visual Experience Composer] （VEC）の修正と機能強化に重点を置いています。
+
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+
 **[!DNL Target]UI の更新に関する FAQ**
 
-2025 年 6 月 6 日（PT）にリリースされたこの更新では、新しい UI の改善と主なドキュメントの機能強化が行われています。 この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
 
 [![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

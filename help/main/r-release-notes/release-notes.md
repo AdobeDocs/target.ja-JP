@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 26%
+source-wordcount: '1701'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,38 @@ ht-degree: 26%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* 更新された [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対処するため、[ 新しい FAQ 記事 ](/help/main/c-intro/updated-ui-faq.md) を追加しました。
+* [!UICONTROL Page Delivery] の「[!UICONTROL URL - does not contain]」ルールが機能せず、ブロックする必要があった場合でもコンテンツを表示できる問題を修正しました。 （TGT-52754）
+* 「ページ URL の重複は許可され [!UICONTROL Page Delivery] せん。 （TGT-52765）
+* エクスペリエンスフラグメントを含む URL[!UICONTROL Page Delivery] オーディエンスが#で誤って追加されて作成される問題を修正しました。 （TGT-52786）
+* [!UICONTROL Goals and Settings] ページでアクティビティをコピーし、設定を編集すると、[!DNL Target] UI が応答しなくなる問題を修正しました。 （TGT-52797）
+* 更新された [!UICONTROL Visual Experience Composer] （VEC）で、[!UICONTROL A/B Test] アクティビティ内の追加のページを同じ URL に誤ってリダイレクトしていた問題を修正しました。 （TGT-51838）
+* アクティビティを編集する際に、[!UICONTROL Goals and Settings] ページの指標に対する変更が保存されない問題を修正しました。 （TGT-52799）
+* Web エディターの読み込み中に新しいエクスペリエンスを追加すると、新しいエクスペリエンスで以前のエクスペリエンスのコンテンツが重複する問題を修正しました。 （TGT-51397）
+* 従来の Target UI で以前に使用できた機能である、`<head>` タグ外でカスタムコードを使用する機能を復元しました。 （TGT-52304 および TGT-52300）
+* アクティビティの作成時にデフォルトワークスペースを選択する際の、不要な検証を削除しました。 必須プロパティの検証は、デフォルトのワークスペースには適用されませんが、デフォルト以外のワークスペースには適用されます。 （TGT-52449）
+* 更新された [!UICONTROL Visual Experience Composer] （VEC）で、`triggerView()` 呼び出しが検出されない問題を修正しました。 （TGT-52575）
+* 更新された [!UICONTROL Visual Experience Composer] （VEC）で、ユーザーが [!UICONTROL Single Page Application] （SPA）ビューに変更を追加できなかった問題を修正しました。 （TGT-52556）
+* 更新された [!DNL Target] UI で、顧客がオファーの詳細を表示できない問題を修正しました。 （TGT-52607）
+* [!UICONTROL Offers Library] ージのオファーに対して行った更新が、更新された [!UICONTROL Visual Experience Composer] （VEC）に反映されない問題を修正しました。 （TGT-52637）
+* アクティビティの作成時にオファーのセクションが正しく表示されない問題を修正しました。 （TGT-52773）
+* `optionGroups` で参照されているすべての `optionLocalIds` がオプション配列に存在することを確認するための検証を追加しました。 無効な参照は、アクティビティの作成中に自動的に削除されます。 （TGT-52687）
+* 新しいオファーを追加した後、レポートのグループと除外が保持されない問題を修正しました。 （TGT-52728）
+* [!UICONTROL Activity QA] ボタンのないアクティビティで空のオプションセレクターが表示される問題を修正しました。 （TGT-52733）
+* QA リンクでコンテンツを適切にレンダリングできない問題を修正しました。 （TGT-52718）
+* 要素をエクスペリエンスフラグメントに置き換えても、QA 環境に変更が正しく反映されない問題を修正しました。 （TGT-52762）
+* ユーザーがエクスペリエンスフラグメントを追加しようとすると、「無効な入力」エラーが発生する、更新された [!UICONTROL Visual Experience Composer] （VEC）の問題を修正しました。 （TGT-52701）
+* 更新された [!UICONTROL Visual Experience Composer] （VEC）でオーディエンスターゲティングを編集すると、「オーディエンスを編集」モーダルが空に表示される問題を修正しました。 （TGT-52749）
+* 選択したワークスペースでエンティティにアクセスできない場合に、ユーザーに通知するメッセージを追加しました。 （TGT-52767）
+* UI で、条件に環境 ID を手動で割り当てることができない問題を修正しました。 代わりに、[!UICONTROL Product Catalog Search] ホストグループの ID がデフォルトで使用されます。 この修正により、条件の変更がデフォルトだけでなく、すべての環境に適用されるようになりました。 （TGT-52817）
+* レコメンデーションを使用する [!UICONTROL Experience Targeting] （XT）アクティビティで「[!UICONTROL Download Recommendations data]」オプションが見つからない問題を修正しました。 （TGT-52730 および TGT-52756）
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日（PT））
 
