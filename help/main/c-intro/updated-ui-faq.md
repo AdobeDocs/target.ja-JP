@@ -3,9 +3,9 @@ keywords: target ユーザーインターフェイス；ユーザーインター
 description: 更新されたユーザーインターフェイス  [!DNL Target] 関する質問と回答。
 title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけることができますか？
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # [!DNL Target] UI の更新に関する FAQ
 
 2025 年に新しく導入された [!DNL Adobe Target] の更新されたユーザーインターフェイスは、合理化された直感的なエクスペリエンスを導入し、すべての役割での操作性と効率を向上させます。 この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+
+## 「Target UI バージョン」トグルの廃止に関するタイムラインが更新されました。
+
++++詳細
+はい。 新しいタイムラインと重要な情報は、[ 更新： [!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） ](/help/main/r-release-notes/release-notes.md#revised) で確認できます。
+
++++
 
 ## 更新された [!DNL Target] UI に関する詳細情報はどこで入手できますか？
 
@@ -60,8 +67,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 >[!NOTE]
 >
->特殊なケースで、6 月 22 日以降に切り替えスイッチを保持する必要があるお客様は、Adobe カスタマーケアにお問い合わせください。
-
+>特殊なケースで、6 月 22 日以降に切り替えスイッチを保持する必要があるお客様は、Adobe カスタマーケアにお問い合わせください。 詳しくは、[ 更新： [!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） ](/help/main/r-release-notes/release-notes.md#revised) を参照してください。
 
 詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
 

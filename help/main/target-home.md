@@ -4,9 +4,9 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 26%
 
 ---
@@ -15,19 +15,25 @@ ht-degree: 26%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025 年 6 月 16 日（PT）（[ 変更点を見る ](r-release-notes/doc-change.md)）**
+**最終更新日：2025 年 6 月 17 日（PT）（[ 変更点を見る ](r-release-notes/doc-change.md)）**
 
 >[!BEGINTABS]
 
->[!TAB  重要な情報 ]
+>[!TAB  注意！]
 
-**[!DNL Target]UI バージョンの切り替えの廃止**
+**更新：[!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT））**
 
-2025 年 5 月 27 日（PT）現在、すべてのお客様が新しい [!DNL Target] UI にアクセスできます。 2025 年 6 月 22 日（PT）以降、UI の切り替えが削除され、すべてのユーザーが更新された UI に永続的に移行されます。元に戻すオプションはありません。
+[!DNL Target] チームは、UI バージョンの切り替えの廃止のタイムラインを調整しました。
 
-[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB 最新情報]
+>[!TAB  新機能 ]
+
+**UI バージョンの切り替えの廃止に関する情報を更新しました**
+
+[!DNL Target] チームは、UI バージョンの切り替えの廃止のタイムラインを調整しました。
+
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **Target 25.6.2 はライブです！**
 

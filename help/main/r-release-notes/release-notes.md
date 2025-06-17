@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## 更新：[!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） {#revised}
+
+2025 年 6 月 17 日（PT）をもって、すべての IMS 組織は、特定のユーザーまたは組織全体について、更新された [!DNL Target] UI で有効にして、新しいエクスペリエンスのテストを開始する必要があります。
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、[!DNL Target] チームは廃止のタイムラインを調整しました。
+
+* **2025 年 6 月 30 日**: [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) は、「UI バージョン」切り替えを有効にしたすべての IMS 組織のデフォルトのエクスペリエンスになります。
+
+   * 現在レガシー UI を表示しているお客様には、デフォルトで、ログイン時に更新された UI が表示されるようになりました。
+   * UI バージョンの切り替えは 7 月末まで引き続き使用でき、必要に応じてユーザーを切り替えることができます。
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] では、更新された [!DNL Target] UI の使用を強くお勧めします。 ブロッカーの問題が発生した場合にのみ、従来の UI に戻します。 切り替えに関する重要な情報については、以前のリリースのリリースノートの [[!DNL Target] UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) を参照してください。
+
+* **2025 年 7 月 15 日～7 月 30 日**:UI バージョンの切り替えは、段階的に永続的に無効になります。 影響を受ける IMS 組織は、レガシー UI に戻すことができなくなります。
+
+   * 例外はケースバイケースでレビューされます。
+   * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
+
+ご不明な点がある場合や ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、[Adobe カスタマーケアにお問い合わせください。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
@@ -49,8 +71,6 @@ ht-degree: 21%
 * UI で、条件に環境 ID を手動で割り当てることができない問題を修正しました。 代わりに、[!UICONTROL Product Catalog Search] ホストグループの ID がデフォルトで使用されます。 この修正により、条件の変更がデフォルトだけでなく、すべての環境に適用されるようになりました。 （TGT-52817）
 * レコメンデーションを使用する [!UICONTROL Experience Targeting] （XT）アクティビティで「[!UICONTROL Download Recommendations data]」オプションが見つからない問題を修正しました。 （TGT-52730 および TGT-52756）
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日（PT））
 
 このリリースには、次の修正および更新が含まれています。
@@ -76,7 +96,11 @@ ht-degree: 21%
 * 以前の翻訳で基本多言語平面外の文字が使用されていた韓国語のローカライゼーションの問題を修正しました。 更新された翻訳では、意図した意味を正確に伝える適切な文字を使用しています。 （TGT-52508 および TGT-52509）
 * 韓国語ローカライゼーションの問題を修正しました。アクティビティの開始日と終了日を選択する際に、「日付」の翻訳が一貫していませんでした。 （TGT-52510）
 
-## Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） {#toggle}
+## [!DNL Target] UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） {#toggle}
+
+>[!IMPORTANT]
+>
+>[!DNL Target] チームは、UI バージョンの切り替えの廃止のタイムラインを調整しました。 詳しくは、[ 更新： [!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） ](#revised) を参照してください。
 
 新しい [!DNL Target] ユーザーインターフェイスのロールアウトは、**2025 年 5 月 27 日（PT）** までに完了します。 その時点で、すべてのお客様が最新の UI バージョンにアクセスできます。
 
