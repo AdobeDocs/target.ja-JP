@@ -33,7 +33,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 ![ エクスペリエンスパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ![）をクリックします。
+[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ![&#128279;](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ）をクリックします。
 
 ### [!UICONTROL Components] レール（新規）
 
