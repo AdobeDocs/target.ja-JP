@@ -4,9 +4,9 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 17 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 ![ エクスペリエンスパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ![&#128279;](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ）をクリックします。
+[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ![）をクリックします。
 
 ### [!UICONTROL Components] レール（新規）
 
@@ -42,8 +42,6 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 ![ コンポーネントパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 新しいコンポーネントを追加するには、挿入するコンポーネントを [!UICONTROL Components] パネルから [!UICONTROL Design] キャンバス内の既存のページ要素にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
-
-以前の VEC バージョンと比較して、選択した要素をコンポーネントで置き換えることはできません。
 
 ### [!UICONTROL Modifications] レール
 
