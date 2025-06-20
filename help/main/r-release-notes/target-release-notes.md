@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: 71f88ad173599b3a582a1d2c261ba8a562cf734a
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 29%
+source-wordcount: '537'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025 年 6 月 19 日（PT）**
+**最終更新日：2025 年 6 月 20 日（PT）**
 
 >[!NOTE]
 >
@@ -31,15 +31,17 @@ ht-degree: 29%
 
 * レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Visual Experience Composer] （VEC） UI に [!UICONTROL Rearrange] オプションを追加しました。 （TGT-46957）
 * あるワークスペースから別のワークスペースにアクティビティをコピーすると、「null であってはならない」や「エラーが発生しました」などのエラーがトリガーされる問題を修正しました。 （TGT-52474）
-* 特定のアクティビティに対して [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートが生成されない問題を修正しました。 （TNT-52904）
+* 特定のアクティビティに対して [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートが生成されない問題を修正しました。 （TGT-52904）
 * 更新された VEC で、[!UICONTROL Automated Personalization] （AP）アクティビティのデフォルトのコンテンツ処理がレガシー UI と一致しなかった問題を修正しました。 グループが明示的に追加されていない場合、システムは「デフォルトコンテンツ」という名前のデフォルト `optionGroup` を `optionGroupLocalId = 0` で自動的に追加するようになりました。 このグループにはデフォルトのオプション（例：`optionLocalId: 0`）が含まれています。 デフォルトコンテンツが削除されると、対応するオプショングループも削除されます。 （TGT-52651）
-* [!UICONTROL Multivariate Test] （MVT）アクティビティで、以前に削除したエクスペリエンスの `experienceLocalId` を再利用することが誤って禁止されていた問題を修正しました。 （TNT-52672）
+* [!UICONTROL Multivariate Test] （MVT）アクティビティで、以前に削除したエクスペリエンスの `experienceLocalId` を再利用することが誤って禁止されていた問題を修正しました。 （TGT-52672）
 * スラッシュ（/）などの無効な文字が原因で、アクティビティの場所の URL にクエリパラメーターを表示できなかった問題を修正しました。 （TNT52845）
 * バックエンド API を介した [!DNL A/B Test] アクティビティの更新の検証エラーメッセージを改善しました。 重複した場所名が存在する場合、`locations.selectors` に「重複した名前は許可されません」とメッセージが明確に表示されるようになりました。 （TGT-52589）
-* リクエストペイロードで認識されないプロパティが原因で、ライブ [!UICONTROL Recommendations] アクティビティを更新する際に発生していたエラーを修正しました。 「無効な JSON」が正しく処理されるようになりました。 認識できないプロパティ名」エラーが発生しました。 （TNT52723）
-* [!UICONTROL Recommendations] アクティビティを保存する際に「400 無効なリクエスト」エラーが発生するバックエンドの検証エラーを修正しました。 （TNT-52716）
+* リクエストペイロードで認識されないプロパティが原因で、ライブ [!UICONTROL Recommendations] アクティビティを更新する際に発生していたエラーを修正しました。 「無効な JSON」が正しく処理されるようになりました。 認識できないプロパティ名」エラーが発生しました。 （TGT-52723）
+* [!DNL Recommendations] デザインを作成できない問題を修正しました。 [!UICONTROL Create] をクリックすると、「スクリプト内でエンティティ変数が少なくとも 1 つ使用されている必要があります」というメッセージがトリガーされます。 （TGT-52395 および TGT-52899）
+* [!DNL Recommendations] デザインを変更せずに再保存するとブロックされる問題を修正しました。 （TGT-52879）
+* [!UICONTROL Recommendations] アクティビティを保存する際に「400 無効なリクエスト」エラーが発生するバックエンドの検証エラーを修正しました。 （TGT-52716）
 * [!UICONTROL Form-Based Experience Composer] で、「[!UICONTROL Location]」ドロップダウン内の特殊文字を含む mbox にカーソルを合わせると、エディターが空白になり、「Element で「querySelector」を実行できませんでした」トリガーされる問題を修正しました。 エラーが表示されます。（TGT-52717）
-* 新しい「PARTIALLY_IMPORTED」インジケーターにより、フィードステータスの精度が向上しました。 以前は、ファイル内のすべての行が読み込まれていない場合でも、フィードは「成功」とマークされていましたが、これは誤解を招くものでした。
+* 新しい「PARTIALLY_IMPORTED」インジケーターにより、フィードステータスの精度が向上しました。 以前は、ファイル内のすべての行が読み込まれていない場合でも、フィードは「成功」とマークされていましたが、これは誤解を招くものでした。 （TGT-52892）
 * AP V2 への移行後に、`/admin/rest/ui/v1/campaigns` への特定の API 呼び出しでクライアントサイドエラー（HTTP 4xx）が返されるエラーを修正しました。 （TGT-52721）
 
 ## その他のリリースノートとバージョンの詳細
