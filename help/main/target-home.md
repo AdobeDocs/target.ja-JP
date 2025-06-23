@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025 年 6 月 19 日（PT）（[ 変更点を見る ](r-release-notes/doc-change.md)）**
+**最終更新日：2025 年 6 月 20 日（PT）（[ 変更点を見る ](r-release-notes/doc-change.md)）**
 
 >[!BEGINTABS]
 
@@ -35,7 +35,7 @@ ht-degree: 26%
 
 [![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
-**Target 25.6.2 はライブです！**
+**Target 25.6.3 はライブです！**
 
 このリリースでは、更新された [!DNL Target] UI および [!UICONTROL Visual Experience Composer] （VEC）の修正と機能強化に重点を置いています。
 

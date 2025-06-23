@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 19%
+source-wordcount: '2330'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 19%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Visual Experience Composer] （VEC） UI に [!UICONTROL Rearrange] オプションを追加しました。 （TGT-46957）
+* あるワークスペースから別のワークスペースにアクティビティをコピーすると、「null であってはならない」や「エラーが発生しました」などのエラーがトリガーされる問題を修正しました。 （TGT-52474）
+* 特定のアクティビティに対して [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートが生成されない問題を修正しました。 （TGT-52904）
+* 更新された VEC で、[!UICONTROL Automated Personalization] （AP）アクティビティのデフォルトのコンテンツ処理がレガシー UI と一致しなかった問題を修正しました。 グループが明示的に追加されていない場合、システムは「デフォルトコンテンツ」という名前のデフォルト `optionGroup` を `optionGroupLocalId = 0` で自動的に追加するようになりました。 このグループにはデフォルトのオプション（例：`optionLocalId: 0`）が含まれています。 デフォルトコンテンツが削除されると、対応するオプショングループも削除されます。 （TGT-52651）
+* [!UICONTROL Multivariate Test] （MVT）アクティビティで、以前に削除したエクスペリエンスの `experienceLocalId` を再利用することが誤って禁止されていた問題を修正しました。 （TGT-52672）
+* エクスペリエンスフラグメントを含むアクティビティをコピーまたは編集できない問題を修正しました。 これが次のエラーをトリガーしました：`Enum "AemOfferType" cannot represent value: "html"`。 （TGT-52635）
+* スラッシュ（/）などの無効な文字が原因で、アクティビティの場所の URL にクエリパラメーターを表示できなかった問題を修正しました。 （TNT52845）
+* バックエンド API を介した [!DNL A/B Test] アクティビティの更新の検証エラーメッセージを改善しました。 重複した場所名が存在する場合、`locations.selectors` に「重複した名前は許可されません」とメッセージが明確に表示されるようになりました。 （TGT-52589）
+* リクエストペイロードで認識されないプロパティが原因で、ライブ [!UICONTROL Recommendations] アクティビティを更新する際に発生していたエラーを修正しました。 「無効な JSON」が正しく処理されるようになりました。 認識できないプロパティ名」エラーが発生しました。 （TGT-52723）
+* [!DNL Recommendations] デザインを作成できない問題を修正しました。 [!UICONTROL Create] をクリックすると、「スクリプト内でエンティティ変数が少なくとも 1 つ使用されている必要があります」というメッセージがトリガーされます。 （TGT-52395 および TGT-52899）
+* [!DNL Recommendations] デザインを変更せずに再保存するとブロックされる問題を修正しました。 （TGT-52879）
+* [!UICONTROL Recommendations] アクティビティを保存する際に「400 無効なリクエスト」エラーが発生するバックエンドの検証エラーを修正しました。 （TGT-52716）
+* [!UICONTROL Form-Based Experience Composer] で、「[!UICONTROL Location]」ドロップダウン内の特殊文字を含む mbox にカーソルを合わせると、エディターが空白になり、「Element で「querySelector」を実行できませんでした」トリガーされる問題を修正しました。 エラーが表示されます。（TGT-52717）
+* 新しい「PARTIALLY_IMPORTED」インジケーターにより、フィードステータスの精度が向上しました。 以前は、ファイル内のすべての行が読み込まれていない場合でも、フィードは「成功」とマークされていましたが、これは誤解を招くものでした。 （TGT-52892）
+* AP V2 への移行後に、`/admin/rest/ui/v1/campaigns` への特定の API 呼び出しでクライアントサイドエラー（HTTP 4xx）が返されるエラーを修正しました。 （TGT-52721）
 
 ## 更新：[!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） {#revised}
 
@@ -39,7 +59,7 @@ ht-degree: 19%
    * 例外はケースバイケースでレビューされます。
    * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
 
-ご不明な点がある場合や [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、Adobe カスタマーケアにお問い合わせください。
+ご不明な点がある場合や ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、[Adobe カスタマーケアにお問い合わせください。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
