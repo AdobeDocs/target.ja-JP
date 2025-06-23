@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 75%
+source-wordcount: '217'
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025 年 6 月 20 日（PT）**
+**最終更新日：2025 年 6 月 23 日（PT）**
 
 >[!NOTE]
 >
@@ -25,9 +25,13 @@ ht-degree: 75%
 >
 >* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日（PT））
+## [!DNL Target Standard/Premium] 25.6.4（2025年6月26日（PT））
 
-[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+このリリースには、次の修正および更新が含まれています。
+
+* レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Visual Experience Composer] （VEC） UI に [!UICONTROL Rearrange] オプションを追加しました。 （TGT-46957）
+* [!UICONTROL Automated Personalization] （AP）アクティビティのレポートデータを取得する際に発生していたヌルポインター例外を修正しました。 （TGT-52362）
+* [!DNL Recommendations] アクティビティを編集できない問題を修正しました。 （TGT-52823）
 
 ## その他のリリースノートとバージョンの詳細
 
