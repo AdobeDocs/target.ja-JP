@@ -4,16 +4,16 @@ description: ' [!DNL Adobe Target]  を使用して任意の要素に対する�
 title: クリックの追跡とは
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 82%
+source-wordcount: '858'
+ht-degree: 75%
 
 ---
 
 # クリックの追跡
 
-[!DNL Adobe Target] では、任意の要素に対するクリックを成功指標として追跡できます。
+[!DNL Adobe Target] では、任意の要素に対するクリックを成功指標として追跡できます。 クリックの追跡とは、web ページまたはエクスペリエンス内の要素に対するユーザーのインタラクション、特にクリックを監視および記録するプロセスを指します。 これは、A/B テスト、多変量分析テスト、パーソナライゼーションアクティビティでのエンゲージメントとパフォーマンスの測定における重要な部分です。
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ ht-degree: 82%
 
    要素の選択に関するヒントについては、次の「*注意点*」の節を参照してください。
 
-1. 画面上部にある「**[!UICONTROL Save]**」をクリックして、選択を保存します。
+1. 画面上部にある「**[!UICONTROL Done]**」をクリックして、選択を保存します。
 
 選択した要素をアクティビティ参加者がクリックすると、そのクリックはコンバージョンとしてカウントされます。
 
 ## 選択された要素パネル {#selected-elements}
 
-[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Test] （MVT）アクティビティの場合、右側のクリックの追跡用に選択された要素が [!UICONTROL Selected Elements] パネルにリストされます。
+[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] （XT）、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Test] （MVT）アクティビティの場合、左側のクリックの追跡用に選択された要素が [!UICONTROL Selected Elements] パネルにリストされます。
 
 ![選択された要素パネル](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL Selected Elements] パネルの要素にマウスポインターを置くと、いくつかの操作を適用できます。 以下の表で、要素で実行できる各操作を説明します。
+[!UICONTROL Tracked Components] ントロールパネルで要素をクリックすると、いくつかのアクションを適用できます。 以下の表で、要素で実行できる各操作を説明します。
 
 | アクション | 説明 |
 | --- | --- |
-| 情報 | 要素タイプおよびセクターへの完全な DOM パスを表示します。 |
-| 編集 | CSS セクターを編集できます。 |
-| 削除 | 要素を削除します。 |
+| [!UICONTROL Tracked actions] | 要素アクションを表示します。 |
+| [!UICONTROL CSS selector] | CSS セクターを編集できます。 |
+| [!DNL Delete] | 要素を削除します。 |
 
 ### 要素を追加
 
-セレクターへの DOM パスが既にわかっている場合は、パネルの上部にあるプラスアイコンをクリックして、手動で追加できます。
-
-![要素を追加アイコン](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### 選択された要素のポップアップ
-
-クリックの追跡に複数の要素を選択した後、アクティビティの [!UICONTROL Goals & Settings] のステップで「[!UICONTROL Elements Selected]」リンクをクリックすると、クリックの追跡に選択された要素の完全なリストを表示できます。 リストには、要素への完全な DOM パスが含まれています。選択された要素がクリックの追跡用に使用されていることを検証できます。
-
-![選択された要素リンク](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+セレクターへの DOM パスが既にわかっている場合は、パネルの上部にある [!UICONTROL Add Component] アイコンをクリックして、手動で追加できます。
 
 ## 注意点 {#considerations}
 
 要素の選択時にいくつか検討すべき事項があります。
 
 * DOM パス機能は、クリックの追跡を設定するときに使用できます。ページで要素をクリックすると、VEC オプションメニューが表示されます。また、対応する DOM パスがページの下部に表示されます。DOM パスを使用すると、選択した要素に関する情報（タイプ、ID、クラス）をすばやく確認したり、DOM パスを上下に移動して目的の要素を選択したりできます。
-
-  ![DOM パスの解説](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   アクティビティ作成ワークフローのステップ 1 でエクスペリエンスを作成するときと同様に、ページ下部の DOM パスセレクターで要素を選択できます。DOM パスから要素を選択すると、VEC 内の対応する要素が「選択済み」と表示されます。選択した要素の選択を解除するには、DOM パスセレクターの要素を再度クリックするか、VEC 内の「選択済み」ボックスをクリックします。
 
