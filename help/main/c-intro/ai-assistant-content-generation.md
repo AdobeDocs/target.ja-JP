@@ -1,22 +1,22 @@
 ---
 keywords: ai アシスタント；人工知能アシスタント；コンテンツ生成；コンテンツアクセラレーター；コンテンツ生成；コンテンツの生成
-description: ' [!DNL AI Assistant] でコンテンツを生成する方法を説明します。'
-title: ' [!DNL AI Assistant] in [!DNL Target]  を使用してコンテンツを生成する方法'
+description: ' [!DNL AI Assistant] を使用して魅力的なコンテンツを生成する方法を説明します。'
+title: ' [!DNL AI Assistant] in [!DNL Target]  を使用して魅力的なコンテンツを生成する方法'
 feature: Overview
 badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#beta newtab=true" tooltip=" [!DNL Adobe Target] のベータ版機能とは"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
 # コンテンツ生成に [!DNL Adobe Target] の [!DNL AI Assistant] を使用
 
-[!DNL Adobe Target] で [!DNL AI Assistant] を使用すると、テキストスニペットをカスタマイズし、オーディエンスに直接話す人工知能（AI）を使用して画像を選択し、エンゲージメントとインタラクションを高めることで、アクティビティの有効性を高めることができます。
+[!DNL Adobe Target] の [!DNL AI Assistant] を使用すると、オーディエンスと直接対話する人工知能（AI）を使用してエクスペリエンスで使用するようにテキストスニペットをカスタマイズし、エンゲージメント、インタラクション、コンバージョンを高めることで、アクティビティの有効性を高めることができます。
 
 [!DNL AI Assistant] の機能を [!DNL Adobe Target] 用して、ジェネレーティブ AI によって強化されたアクティビティ コンテンツを強化します。
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## テキストを生成
 
-[!DNL AI Assistant] を使用してテキストを生成するには：
+[!DNL AI Assistant] を使用して魅力的なテキストを生成するには：
 
 1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) （VEC）内から、VEC UI の右側のパネルにある **[!UICONTROL Show Content Assistant]** ール ![ コンテンツアシスタントアイコンを表示 ](/help/main/assets/icons/MagicWand.svg)）アイコンをクリックします。
 
@@ -52,8 +52,13 @@ ht-degree: 1%
 1. **[!UICONTROL Text Settings]** アイコンをクリックして、テキストのトーンとコミュニケーション戦略を指定します。
 
    * **コミュニケーション方法**：生成テキストに最適なコミュニケーションスタイルを選択します。
+
+     オプションには、[!UICONTROL None]、[!UICONTROL Urgent]、[!UICONTROL FOMO] （欠落恐怖）、[!UICONTROL Social Proof]、[!UICONTROL Scarcity]、[!UICONTROL Incentive]、[!UICONTROL Exclusivity]、[!UICONTROL Gameification]、[!UICONTROL Informative] および [!UICONTROL Education & Insights] があります。
+
    * **言語**：テキストに必要な言語を選択します。 [!DNL AI Assistant] は現在、英語でのみ利用できます。
    * **トーン**：テキストのトーンは、オーディエンスの共感を呼ぶはずです。 有益な情報を伝えたい、エキサイティングな内容を伝えたい、遊び心がある、説得力がある内容を伝えたいなど、目的に応じてメッセージを調整で [!DNL AI Assistant] ます。
+
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling] および [!UICONTROL Conversational] があります。
 
 1. スライダーを使用して、テキストの長さ（[!UICONTROL Shorter Text]～[!UICONTROL Larger Text]）を選択します。
 
@@ -67,9 +72,9 @@ ht-degree: 1%
 
    ![ 生成テキストを使用した AI アシスタント ](/help/main/c-intro/assets/ai-text-done.png)
 
-1. （条件次第）取り消しアイコン（取り消しアイコン ![）をクリックして ](/help/main/assets/icons/Undo.svg) 変更を元に戻します。
+1. （条件付き） [!UICONTROL Undo] 動アイコン（取り消しアイコン ![）をクリックして ](/help/main/assets/icons/Undo.svg) 変更を元に戻します。
 
-1. （任意） AI アシスタントにフィードバックを提供します。
+1. （任意） [!DNL AI Assistant] ーザーにフィードバックを提供します。
 
    * サムズアップアイコン（![ サムズアップ ](/help/main/assets/icons/ThumbUp.svg)）をクリックすると、バリエーションが気に入 [!DNL AI Assistant] ていることが表示されます。
    * サムズダウン （![ サムズダウンアイコン ](/help/main/assets/icons/ThumbDown.svg)）アイコンをクリックして、バリエーションが気に入らないことを [!DNL AI Assistant] に知らせます。
@@ -92,4 +97,4 @@ ht-degree: 1%
 
 ### AI アシスタントを使用したコンテンツ生成の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn">https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
