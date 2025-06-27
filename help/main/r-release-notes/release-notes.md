@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
+source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
 workflow-type: tm+mt
-source-wordcount: '2311'
-ht-degree: 17%
+source-wordcount: '2731'
+ht-degree: 15%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 17%
 これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## [!DNL Target Standard/Premium] 25.6.4（2025年6月27日（PT））
+
+このリリースには、次の修正および更新が含まれています。
+
+* レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Visual Experience Composer] （VEC） UI に [!UICONTROL Rearrange] オプションを追加しました。 （TGT-46957 および TGT-52876）
+* [!UICONTROL A/B Test] アクティビティでバリアントエクスペリエンス（エクスペリエンス B など）に加えた変更が保持されない問題を修正しました。 エクスペリエンスを切り替えると、バリアントに対する変更が消えます。 この問題は、コントロールエクスペリエンスには影響しませんでした。 （TGT-52664）
+* 特定の顧客がアクティビティを作成または保存できない一方で、他の顧客が問題なく同じアクションを実行できる問題を修正しました。 複数のアカウントで問題が矛盾していました。（TGT-52842）
+* 更新された VEC で、ユーザーが [!UICONTROL Page Load event] （レガシー UI に存在していた機能）に変更を移動できなかった問題を修正しました。 （TGT-52617）
+* 更新された UI で、変更を作成する際に [!DNL Target] で [!UICONTROL page load] イベントが表示されない問題を修正しました。更新はビューにのみ適用されます。 （TGT-52604）
+* 一部のアクティビティの変更が、更新された VEC に正しく表示されない問題を修正しました。 （TGT-52818）
+* [!UICONTROL Automated Personalization] （AP）アクティビティのレポートデータを取得する際に発生していたヌルポインター例外を修正しました。 （TGT-52362）
+* [!UICONTROL Automated Personalization] （AP）アクティビティで、オファーレベルの詳細が.CSV ファイルに表示されない問題を修正しました。 （TGT-52675）
+* 更新された VEC で変更を適用すると、期待される [!UICONTROL Experience Fragment] を含め、変更内容が最初は正しく表示される問題を修正しました。 ただし、エクスペリエンスを切り替えたり、追加の編集を行ったりすると、セレクターの問題が原因で一部の変更が適用されません。 （TGT-52679）
+* 既存のアクティビティを複製して新しいアクティビティを作成した場合、複製されたアクティビティの QA リンクで、元のアクティビティのページ URL が誤って保持される問題を修正しました。 （TGT-52775）
+* 更新された VEC で [!UICONTROL On-device Decisioning] が意図せず使用できない問題を修正しました。 （TGT-52371）
+* 製品 [!DNL Recommendations] ーディエンスアクティビティを編集できない問題を修正しました。 Target UI を使用して VEC にアクセスしようとすると、[!UICONTROL Overview] ページにエラーが表示され、編集できませんでした。 （TGT-52823）
+* エクスペリエンス名が 50 文字を超えた場合に、[!DNL Recommendations] アクティビティを保存できない問題を修正しました。 （TGT-52619）
+* 新しい UI で条件を変更した後、顧客が Recommendations アクティビティを保存できない問題を修正しました。 この問題は権限に関連していると考えられ、類似の役割を持つすべてのユーザーに影響するわけではありません。 （TGT-52816）
+* [!UICONTROL Editor] の役割を持つユーザーが [!DNL Recommendations] アクティビティを編集できない問題を修正しました。 デザインを変更し、アクティビティを保存しようとすると、ユーザーが関連するワークスペースで既にその役割を持っている場合でも、「[editor]」権限が必要であるという 403 Forbidden エラーが発生しました。 （TGT-52836）
 
 ## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日（PT））
 
@@ -58,7 +78,7 @@ ht-degree: 17%
    * 例外はケースバイケースでレビューされます。
    * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
 
-ご不明な点がある場合や [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、Adobe カスタマーケアにお問い合わせください。
+ご不明な点がある場合や ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、[Adobe カスタマーケアにお問い合わせください。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
