@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **トーン**：テキストのトーンは、オーディエンスの共感を呼ぶはずです。 有益な情報を伝えたい、エキサイティングな内容を伝えたい、遊び心がある、説得力がある内容を伝えたいなど、目的に応じてメッセージを調整で [!DNL AI Assistant] ます。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling] および [!UICONTROL Conversational] があります。
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling] および [!UICONTROL Conversational] があります。
 
 1. スライダーを使用して、テキストの長さ（[!UICONTROL Shorter Text]～[!UICONTROL Larger Text]）を選択します。
 
