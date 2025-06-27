@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '581'
 ht-degree: 27%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025 年 6 月 26 日**
+**最終更新日：2025 年 6 月 27 日**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ ht-degree: 27%
 * [!UICONTROL A/B Test] アクティビティでバリアントエクスペリエンス（エクスペリエンス B など）に加えた変更が保持されない問題を修正しました。 エクスペリエンスを切り替えると、バリアントに対する変更が消えます。 この問題は、コントロールエクスペリエンスには影響しませんでした。 （TGT-52664）
 * 特定の顧客がアクティビティを作成または保存できない一方で、他の顧客が問題なく同じアクションを実行できる問題を修正しました。 複数のアカウントで問題が矛盾していました。（TGT-52842）
 * 更新された VEC で、ユーザーが [!UICONTROL Page Load event] （レガシー UI に存在していた機能）に変更を移動できなかった問題を修正しました。 （TGT-52617）
+* 更新された UI で、変更を作成する際に [!DNL Target] で [!UICONTROL page load] イベントが表示されない問題を修正しました。更新はビューにのみ適用されます。 （TGT-52604）
 * 一部のアクティビティの変更が、更新された VEC に正しく表示されない問題を修正しました。 （TGT-52818）
 * [!UICONTROL Automated Personalization] （AP）アクティビティのレポートデータを取得する際に発生していたヌルポインター例外を修正しました。 （TGT-52362）
 * [!UICONTROL Automated Personalization] （AP）アクティビティで、オファーレベルの詳細が.CSV ファイルに表示されない問題を修正しました。 （TGT-52675）
