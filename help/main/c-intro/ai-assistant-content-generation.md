@@ -7,9 +7,9 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,11 @@ ht-degree: 1%
 
    * **トーン**：テキストのトーンは、オーディエンスの共感を呼ぶはずです。 有益な情報を伝えたい、エキサイティングな内容を伝えたい、遊び心がある、説得力がある内容を伝えたいなど、目的に応じてメッセージを調整で [!DNL AI Assistant] ます。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling] および [!UICONTROL Conversational] があります。
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling] および [!UICONTROL Conversational] があります。
 
 1. スライダーを使用して、テキストの長さ（[!UICONTROL Shorter Text]～[!UICONTROL Larger Text]）を選択します。
+
+1. （任意）「Brand Assets」をクリックして、生成中に追加のコンテンツコンテキスト用にブランドアセットをアップロードまたは切り替えます。
 
 1. 「**[!UICONTROL Generate]**」をクリックして、テキストバリエーションのリストを作成します。
 
@@ -98,4 +100,4 @@ ht-degree: 1%
 
 ### AI アシスタントを使用したコンテンツ生成の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn">https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

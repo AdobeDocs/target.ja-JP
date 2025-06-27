@@ -6,16 +6,16 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 15%
+source-wordcount: '2725'
+ht-degree: 14%
 
 ---
 
 # [!DNL Target] リリースノート（最新）
 
-これらのリリースノートは、[!DNL Adobe Target Standard] と [!DNL Target Premium] の各リリースの機能、機能強化および修正点について説明します。また、該当する場合は、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、JavaScript ライブラリ（at.js）およびその他のプラットフォームの変更に関するリリースノートも含まれます。
+[!DNL Adobe Target] の最新の機能、機能強化および修正点について説明します。 これらのリリースノートでは、[!DNL Target] API、SDK、A[!DNL dobe Experience Platform Web SDK]、at.js、その他のプラットフォームコンポーネントのアップデート（該当する場合）についても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
@@ -78,7 +78,7 @@ ht-degree: 15%
    * 例外はケースバイケースでレビューされます。
    * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
 
-ご不明な点がある場合や [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、Adobe カスタマーケアにお問い合わせください。
+ご不明な点がある場合や ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、[Adobe カスタマーケアにお問い合わせください。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
