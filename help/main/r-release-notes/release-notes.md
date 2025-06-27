@@ -78,7 +78,7 @@ ht-degree: 15%
    * 例外はケースバイケースでレビューされます。
    * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
 
-ご不明な点がある場合や ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、[Adobe カスタマーケアにお問い合わせください。
+ご不明な点がある場合や [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、Adobe カスタマーケアにお問い合わせください。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
