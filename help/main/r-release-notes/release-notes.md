@@ -6,7 +6,7 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
+source-git-commit: 34693e5c94328b5f1ad1d692d6a986cadb6349c4
 workflow-type: tm+mt
 source-wordcount: '3112'
 ht-degree: 12%
@@ -19,7 +19,9 @@ ht-degree: 12%
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
 
-## 必要な、時間に依存する重要な更新 {#time-sensitive}
+## 必要となる、時間に依存する更新 {#time-sensitive}
+
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
