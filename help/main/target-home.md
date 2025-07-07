@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
+source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025 年 6 月 27 日（PT）（[ 変更点を見る ](r-release-notes/doc-change.md)）**
+**最終更新日：2025 年 7 月 7 日（PT）（[ 変更点を参照 ](r-release-notes/doc-change.md)）**
 
 >[!BEGINTABS]
 
@@ -89,7 +89,7 @@ ht-degree: 26%
 - [[!DNL Target]  リリースノート ](r-release-notes/release-notes.md)：現在のリリースに関する情報、[!DNL Target] に影響を与える既知の問題に関する情報、このドキュメントの重要な変更点のリスト、過去のリリースノートのアーカイブが含まれています。
 - [ 概要  [!DNL Target]](c-intro/intro.md):[!DNL Target] の中心概念について説明します。
 - [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
-- [[!UICONTROL AI Assistant] の概要 ](/help/main/c-intro/ai-assistant.md): A[!DNL dobe Experience Platform] の [!DNL AI Assistant] は、[!DNL Adobe Target] の概念をナビゲートして理解するために使用できるユーザーインターフェイス機能です。
+- [[!UICONTROL AI Assistant] の概要 ](/help/main/c-intro/ai-assistant.md): A[!DNL AI Assistant] の [!DNL dobe Experience Platform] は、[!DNL Adobe Target] の概念をナビゲートして理解するために使用できるユーザーインターフェイス機能です。
 - [!DNL Target] と [!DNL Adobe Experience Cloud] の統合：[!DNL Target] と他の [!DNL Experience Cloud] ソリューション（[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) （A4T）、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)、[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md) など）を統合する方法について説明します。
 - [[!DNL Adobe Target]  チュートリアル ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ja):[!DNL Target] を最大限に活用するためのチュートリアルとビデオを提供します。
 - [ トラブルシューティング  [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md):[!DNL Target] のアクティビティやその他の要素に影響する文字制限とその他の制限（オファーサイズ、オーディエンス、プロファイル、値、パラメーターなど）に関する情報を含む、このガイドに含まれるトラブルシューティング情報へのリンクを提供します。
@@ -105,7 +105,7 @@ ht-degree: 26%
 
 ## 開発者 {#developers}
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}：このガイドでは、[!DNL Target] を実装するための API およびSDKのドキュメントなど、[!DNL Adobe Target] 開発者向けのリソースやガイドを提供します。
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}：このガイドでは、[!DNL Adobe Target] を実装するための API およびSDKのドキュメントなど、[!DNL Target] 開発者向けのリソースやガイドを提供します。
 
 ## [!DNL Target] と [!DNL Adobe Experience Cloud] の管理者 {#admins}
 
