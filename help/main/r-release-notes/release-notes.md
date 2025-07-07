@@ -6,28 +6,82 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 14%
+source-wordcount: '3112'
+ht-degree: 12%
 
 ---
 
 # [!DNL Target] リリースノート（最新）
 
-[!DNL Adobe Target] の最新の機能、機能強化および修正点について説明します。 これらのリリースノートでは、[!DNL Target] API、SDK、A[!DNL dobe Experience Platform Web SDK]、at.js、その他のプラットフォームコンポーネントのアップデート（該当する場合）についても説明します。
+[!DNL Adobe Target] の最新の機能、機能強化および修正点について説明します。 これらのリリースノートでは、[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js、その他のプラットフォームコンポーネントのアップデート（該当する場合）についても説明します。
 
 （括弧内の問題番号は [!DNL Adobe] 内部で使用するためのものです。）
+
+## 必要な、時間に依存する重要な更新 {#time-sensitive}
+
+[!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
+
+### [!DNL Target] UI バージョンの切り替えの廃止
+
++++詳細を表示
+[!DNL Target] チームでは、トグルボタンを使用して、更新された [!DNL Target] UI とレガシーバージョンを切り替えられる一時機能を提供しています。 このオプションは、UI ロールアウトの最終フェーズでのみ使用できます。
+
+![Target UI のバージョン切り替え ](/help/main/r-release-notes/assets/toggle.png)
+
+ロールアウトが完了すると、切り替えスイッチが削除され、すべてのユーザーは更新された UI に永続的に移行します。 [!DNL Adobe] では、この機能はすぐに廃止される予定なので、事前に計画することをお勧めします。
+
+#### 廃止タイムライン
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、[!DNL Target] チームは廃止のタイムラインを調整しました。
+
+* **2025 年 6 月 17 日**：すべての IMS 組織は、特定のユーザーまたは組織全体について、更新された [!DNL Target] UI で新しいエクスペリエンスのテストを開始できるように有効化されました。
+
+* **2025 年 6 月 30 日**: [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) は、「UI バージョン」切り替えを有効にしたすべての IMS 組織のデフォルトのエクスペリエンスになりました。
+
+   * 現在レガシー UI を表示しているお客様には、デフォルトで、ログイン時に更新された UI が表示されるようになりました。
+   * UI バージョンの切り替えは 7 月末まで引き続き使用でき、必要に応じてユーザーを切り替えることができます。
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] では、更新された [!DNL Target] UI の使用を強くお勧めします。 [ 切り替えスイッチの動作の制限 ](#limitations) により、ブロッカーの問題が発生した場合にのみ、従来の UI に戻します。
+
+* **2025 年 7 月 15 日～7 月 30 日**:UI バージョンの切り替えは、段階的に永続的に無効になります。 影響を受ける IMS 組織は、レガシー UI に戻すことができなくなりました。
+
+   * 例外はケースバイケースでレビューされます。
+   * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ許可されます。
+
+ご不明な点がある場合や [ この移行中に問題が発生する可能性がある場合は、](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe カスタマーケアにお問い合わせください。
+
+#### UI の切り替え動作の制限 {#limitations}
+
+次の情報は、バージョン切り替えを使用する際に注意する必要がある制限事項を示しています。
+
+* **新しいアクティビティの表示**：レガシー UI に切り替えた場合、更新された UI で作成されたアクティビティは表示されません。
+* **既存のアクティビティの編集**：更新された UI の使用中に既存のアクティビティ（元々はレガシー UI で作成したもの）に加えられた変更が、web サイトに公開されます。 ただし、これらの更新は、戻してもレガシー UI には表示されません。レガシー UI から最後に作成された更新のみが表示されます。
+* **アクティビティ詳細の一貫性**：使用する UI に関係なく、最新の変更がライブ web サイトに反映されます。 ただし、レガシー UI に表示されるのは、そのバージョン内で行われた最新の変更のみです。 更新された UI で編集されたアクティビティが、レガシー UI で表示されるものとは異なる表示になる場合は、混乱を招く可能性があります。
+
+#### 更新された UI について学ぶための追加リソース
+
+* [[!DNL Target] UI 更新 FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!DNL Target]、[!UICONTROL Activities] および [!UICONTROL Recommendations] （VEC）の [!UICONTROL Visual Experience Composer] の主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!DNL Target] の [!UICONTROL Offers Library] での主な UI の変更点の概要を説明します。
+* [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [[!UICONTROL Visual Experience Composer] の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新バージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
+
++++
 
 ## [!DNL Target Standard/Premium] 25.6.4（2025年6月27日（PT））
 
 このリリースには、次の修正および更新が含まれています。
 
-* レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Visual Experience Composer] （VEC） UI に [!UICONTROL Rearrange] オプションを追加しました。 （TGT-46957 および TGT-52876）
+* レガシー VEC で使用可能な機能と連携するために、更新された [!UICONTROL Rearrange] （VEC） UI に [!UICONTROL Visual Experience Composer] オプションを追加しました。 （TGT-46957 および TGT-52876）
 * [!UICONTROL A/B Test] アクティビティでバリアントエクスペリエンス（エクスペリエンス B など）に加えた変更が保持されない問題を修正しました。 エクスペリエンスを切り替えると、バリアントに対する変更が消えます。 この問題は、コントロールエクスペリエンスには影響しませんでした。 （TGT-52664）
 * 特定の顧客がアクティビティを作成または保存できない一方で、他の顧客が問題なく同じアクションを実行できる問題を修正しました。 複数のアカウントで問題が矛盾していました。（TGT-52842）
 * 更新された VEC で、ユーザーが [!UICONTROL Page Load event] （レガシー UI に存在していた機能）に変更を移動できなかった問題を修正しました。 （TGT-52617）
-* 更新された UI で、変更を作成する際に [!DNL Target] で [!UICONTROL page load] イベントが表示されない問題を修正しました。更新はビューにのみ適用されます。 （TGT-52604）
+* 更新された UI で、変更を作成する際に [!UICONTROL page load] で [!DNL Target] イベントが表示されない問題を修正しました。更新はビューにのみ適用されます。 （TGT-52604）
 * 一部のアクティビティの変更が、更新された VEC に正しく表示されない問題を修正しました。 （TGT-52818）
 * [!UICONTROL Automated Personalization] （AP）アクティビティのレポートデータを取得する際に発生していたヌルポインター例外を修正しました。 （TGT-52362）
 * [!UICONTROL Automated Personalization] （AP）アクティビティで、オファーレベルの詳細が.CSV ファイルに表示されない問題を修正しました。 （TGT-52675）
@@ -58,34 +112,12 @@ ht-degree: 14%
 * 新しい「PARTIALLY_IMPORTED」インジケーターにより、フィードステータスの精度が向上しました。 以前は、ファイル内のすべての行が読み込まれていない場合でも、フィードは「成功」とマークされていましたが、これは誤解を招くものでした。 （TGT-52892）
 * AP V2 への移行後に、`/admin/rest/ui/v1/campaigns` への特定の API 呼び出しでクライアントサイドエラー（HTTP 4xx）が返されるエラーを修正しました。 （TGT-52721）
 
-## 更新：[!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） {#revised}
-
-2025 年 6 月 17 日（PT）をもって、すべての IMS 組織は、特定のユーザーまたは組織全体について、更新された [!DNL Target] UI で有効にして、新しいエクスペリエンスのテストを開始する必要があります。
-
-最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、[!DNL Target] チームは廃止のタイムラインを調整しました。
-
-* **2025 年 6 月 30 日**: [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) は、「UI バージョン」切り替えを有効にしたすべての IMS 組織のデフォルトのエクスペリエンスになります。
-
-   * 現在レガシー UI を表示しているお客様には、デフォルトで、ログイン時に更新された UI が表示されるようになりました。
-   * UI バージョンの切り替えは 7 月末まで引き続き使用でき、必要に応じてユーザーを切り替えることができます。
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe] では、更新された [!DNL Target] UI の使用を強くお勧めします。 ブロッカーの問題が発生した場合にのみ、従来の UI に戻します。 切り替えに関する重要な情報については、以前のリリースのリリースノートの [[!DNL Target] UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT）） ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) を参照してください。
-
-* **2025 年 7 月 15 日～7 月 30 日**:UI バージョンの切り替えは、段階的に永続的に無効になります。 影響を受ける IMS 組織は、レガシー UI に戻すことができなくなります。
-
-   * 例外はケースバイケースでレビューされます。
-   * トグルの非推奨（廃止予定）への遅延は、ブロッカーの問題が解決されている間、短期間（数日）のみ付与されます。
-
-ご不明な点がある場合や [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) この移行中に問題が発生する可能性がある場合は、Adobe カスタマーケアにお問い合わせください。
-
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日（PT））
 
 このリリースには、次の修正および更新が含まれています。
 
-* 更新された [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対処するため、[ 新しい FAQ 記事 ](/help/main/c-intro/updated-ui-faq.md) を追加しました。
-* [!UICONTROL Page Delivery] の「[!UICONTROL URL - does not contain]」ルールが機能せず、ブロックする必要があった場合でもコンテンツを表示できる問題を修正しました。 （TGT-52754）
+* 更新された [ UI と ](/help/main/c-intro/updated-ui-faq.md) （VEC）に関するよくある質問に対処するため、[!DNL Target] 新しい FAQ 記事 [!UICONTROL Visual Experience Composer] を追加しました。
+* [!UICONTROL URL - does not contain] の「[!UICONTROL Page Delivery]」ルールが機能せず、ブロックする必要があった場合でもコンテンツを表示できる問題を修正しました。 （TGT-52754）
 * 「ページ URL の重複は許可され [!UICONTROL Page Delivery] せん。 （TGT-52765）
 * エクスペリエンスフラグメントを含む URL[!UICONTROL Page Delivery] オーディエンスが#で誤って追加されて作成される問題を修正しました。 （TGT-52786）
 * [!UICONTROL Goals and Settings] ページでアクティビティをコピーし、設定を編集すると、[!DNL Target] UI が応答しなくなる問題を修正しました。 （TGT-52797）
@@ -99,7 +131,7 @@ ht-degree: 14%
 * 更新された [!DNL Target] UI で、顧客がオファーの詳細を表示できない問題を修正しました。 （TGT-52607）
 * [!UICONTROL Offers Library] ージのオファーに対して行った更新が、更新された [!UICONTROL Visual Experience Composer] （VEC）に反映されない問題を修正しました。 （TGT-52637）
 * アクティビティの作成時にオファーのセクションが正しく表示されない問題を修正しました。 （TGT-52773）
-* `optionGroups` で参照されているすべての `optionLocalIds` がオプション配列に存在することを確認するための検証を追加しました。 無効な参照は、アクティビティの作成中に自動的に削除されます。 （TGT-52687）
+* `optionLocalIds` で参照されているすべての `optionGroups` がオプション配列に存在することを確認するための検証を追加しました。 無効な参照は、アクティビティの作成中に自動的に削除されます。 （TGT-52687）
 * 新しいオファーを追加した後、レポートのグループと除外が保持されない問題を修正しました。 （TGT-52728）
 * [!UICONTROL Activity QA] ボタンのないアクティビティで空のオプションセレクターが表示される問題を修正しました。 （TGT-52733）
 * QA リンクでコンテンツを適切にレンダリングできない問題を修正しました。 （TGT-52718）
@@ -108,7 +140,7 @@ ht-degree: 14%
 * 更新された [!UICONTROL Visual Experience Composer] （VEC）でオーディエンスターゲティングを編集すると、「オーディエンスを編集」モーダルが空に表示される問題を修正しました。 （TGT-52749）
 * 選択したワークスペースでエンティティにアクセスできない場合に、ユーザーに通知するメッセージを追加しました。 （TGT-52767）
 * UI で、条件に環境 ID を手動で割り当てることができない問題を修正しました。 代わりに、[!UICONTROL Product Catalog Search] ホストグループの ID がデフォルトで使用されます。 この修正により、条件の変更がデフォルトだけでなく、すべての環境に適用されるようになりました。 （TGT-52817）
-* レコメンデーションを使用する [!UICONTROL Experience Targeting] （XT）アクティビティで「[!UICONTROL Download Recommendations data]」オプションが見つからない問題を修正しました。 （TGT-52730 および TGT-52756）
+* レコメンデーションを使用する [!UICONTROL Download Recommendations data] （XT）アクティビティで「[!UICONTROL Experience Targeting]」オプションが見つからない問題を修正しました。 （TGT-52730 および TGT-52756）
 
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日（PT））
 
@@ -165,9 +197,9 @@ ht-degree: 14%
 
 ### 更新された UI に関する詳細情報
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!UICONTROL Activities]、[!UICONTROL Recommendations] および [!UICONTROL Visual Experience Composer] （VEC）の [!DNL Target] の主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!DNL Target]、[!UICONTROL Activities] および [!UICONTROL Recommendations] （VEC）の [!UICONTROL Visual Experience Composer] の主な UI の変更点の概要を説明します。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!DNL Target] の [!UICONTROL Offers Library] での主な UI の変更点の概要を説明します。
 
 * [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
 
