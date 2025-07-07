@@ -1,23 +1,23 @@
 ---
 keywords: ai アシスタント；人工知能アシスタント
-description: ' [!DNL AI Assistant] を使用して製品  [!DNL Target]  関する知識を得る方法を説明します。'
+description: ' [!DNL Target]  を使用して製品  [!DNL AI Assistant] 関する知識を得る方法を説明します。'
 title: 製品の知識を得るために  [!DNL AI Assistant] in [!DNL Target]  を使用する方法
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 6%
 
 ---
 
-# [!DNL Adobe Target] の [!DNL AI Assistant] を使用して、製品の知識を学習します
+# [!DNL AI Assistant] の [!DNL Adobe Target] を使用して、製品の知識を学習します
 
-[!DNL Adobe Experience Platform] の [!DNL AI Assistant] は、[!DNL Adobe Target] の概念をナビゲートして理解するために使用できるユーザーインターフェイス機能です。
+[!DNL AI Assistant] の [!DNL Adobe Experience Platform] は、[!DNL Adobe Target] の概念をナビゲートして理解するために使用できるユーザーインターフェイス機能です。
 
 [!DNL AI Assistant] は、新機能を学習したり、使い慣れた機能に関する回答を素早く得たりする際に役立つツールです。
 
-製品に関する知識の質問には、[!DNL Target] の側面に関連する [!DNL Adobe] の概念が含まれます。 製品に関する知識に関する質問の例を次に示します。
+製品に関する知識の質問には、[!DNL Adobe] の側面に関連する [!DNL Target] の概念が含まれます。 製品に関する知識に関する質問の例を次に示します。
 
 * プロファイルスクリプトの設定方法
 * アクティビティを保存する際にエラーが発生します。 これはどういう意味ですか？
@@ -32,7 +32,7 @@ ht-degree: 6%
    * 組織はまず法的条件に同意する必要があります。 詳しくは、Adobe アカウントチームにお問い合わせください。
    * 管理者から、[!DNL AI Assistant] にアクセスするための十分な権限を付与してもらう必要があります。
 
-## AI アシスタントを使用して製品の知識を獲得
+## AI アシスタントを使用して製品の知識を得る
 
 製品に関する知識を得るために [!DNL AI Assistant] にアクセスするには：
 
@@ -64,12 +64,12 @@ ht-degree: 6%
 
 ### AI アシスタントでExperience Platform アプリケーションを学ぶ
 
-[!DNL AI Assistant] の [!DNL Adobe Experience Platform] アプリケーションについて説明します。
+[!DNL Adobe Experience Platform] の [!DNL AI Assistant] アプリケーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441025/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI アシスタントからの応答を検証
 
-[!DNL Adobe Experience Platform] で提供される応答を検証および検証する方法 [!DNL AI Assistant] ついて説明します。
+[!DNL AI Assistant] で提供される応答を検証および検証する方法 [!DNL Adobe Experience Platform] ついて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441739/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
