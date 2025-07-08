@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## [!DNL Target Standard/Premium] 25.7.1（2025年7月8日（PT））
 
-このリリースには、次の修正および更新が含まれています。
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
 
 * アクティビティのみのオーディエンスの絞り込みが、アクティビティが保存される前であっても、場所から削除された直後に UI から消える問題を修正しました。 この動作は、期待される機能およびツールヒントのガイダンスと矛盾しており、「このライブラリの未使用のオーディエンスは、アクティビティが保存されると削除されます」と記載されています。 （TGT-52982）
 * [!UICONTROL All Visitors] 以外のオーディエンスをアクティビティに割り当てようとした際の問題を修正しました。 保存すると、「リクエストを完了できません。 問題が解決しない場合は、Adobe クライアントケアにお問い合わせください。」 （TGT-53008）
