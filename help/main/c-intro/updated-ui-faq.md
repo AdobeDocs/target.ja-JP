@@ -4,9 +4,9 @@ description: 更新されたユーザーインターフェイス  [!DNL Target] 
 title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけることができますか？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 「Target UI バージョン」トグルの非推奨（廃止予定）のタイムラインが更新されましたか？
 
 +++詳細
-はい。 新しいタイムラインと重要な情報は、[ 更新： [!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） ](/help/main/r-release-notes/release-notes.md#revised) で確認できます。
+はい。 新しいタイムラインと重要な情報は、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) で確認できます。
 
 +++
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 +++詳細
 更新された [!DNL Target] UI の詳細については、次のリソースを参照してください。
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!UICONTROL Activities]、[!UICONTROL Recommendations] および [!UICONTROL Visual Experience Composer] （VEC）の [!DNL Target] の主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!DNL Target]、[!UICONTROL Activities] および [!UICONTROL Recommendations] （VEC）の [!UICONTROL Visual Experience Composer] の主な UI の変更点の概要を説明します。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!DNL Target] の [!UICONTROL Offers Library] での主な UI の変更点の概要を説明します。
 
 * [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
 
@@ -39,14 +39,12 @@ ht-degree: 0%
 
 +++
 
-## 更新された UI は、現在、[!UICONTROL Standard] および [!UICONTROL Premium] のすべての [!DNL Target] ユーザーが使用できますか？
+## 更新された UI は、現在、[!DNL Target] および [!UICONTROL Standard] のすべての [!UICONTROL Premium] ユーザーが使用できますか？
 
 +++詳細
 更新された UI は、すべての [!DNL Target] のお客様（[!UICONTROL Standard] および [!UICONTROL Premium]）が利用できます。 アップグレードされたライセンスや SKU は必要ありません。
 
-新しい [!DNL Target] UI のロールアウトは 2025 年 5 月 27 日（PT）に完了しました。 その時点で、すべてのお客様が最新の UI バージョンにアクセスできます。
-
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) ターゲット UI バージョン切り替えの非推奨（2025 年 5 月 23 日（PT））* を参照してください。
+一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
@@ -55,22 +53,18 @@ ht-degree: 0%
 +++詳細
 [!DNL Target] チームは、新しい UI のロールアウトに関連する問題に積極的に取り組んでいます。 アップデートと継続的な改善について詳しくは、リリースノートを参照してください。
 
-一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) ターゲット UI バージョン切り替えの非推奨（2025 年 5 月 23 日（PT））* を参照してください。
+一時的な UI バージョン切り替えのロールアウトと非推奨（廃止予定）について詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
 ## お客様がレガシー UI を使用したい場合、UI バージョンの切り替えスイッチをアカウントに残すように申請することはできますか？
 
 +++詳細
-UI バージョンの切り替えは、切り替えボタンを使用して、更新された [!DNL Target] UI とレガシーバージョンを切り替えるための一時的な機能です。 このオプションは、UI ロールアウトの最終フェーズでのみ使用できます。 ロールアウトが完了すると、切り替えが削除され、すべてのユーザーは 2025 年 6 月 22 日（PT）に更新された UI に永続的に移行します。
+UI バージョンの切り替えは、切り替えボタンを使用して、更新された [!DNL Target] UI とレガシーバージョンを切り替えるための一時的な機能です。 このオプションは、UI ロールアウトの最終フェーズでのみ使用できます。 ロールアウトが完了すると、切り替えスイッチが削除され、すべてのユーザーは更新された UI に永続的に移行します。
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
->[!NOTE]
->
->特殊なケースで、6 月 22 日以降に切り替えスイッチを保持する必要があるお客様は、Adobe カスタマーケアにお問い合わせください。 詳しくは、[ 更新： [!DNL Target] UI バージョンの切り替えの廃止（2025 年 6 月 17 日（PT）） ](/help/main/r-release-notes/release-notes.md#revised) を参照してください。
-
-詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
+詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 ++++
 
@@ -81,7 +75,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
-詳しくは、[ 以前のリリースのリリースノート *の ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)Target UI バージョンの切り替えの廃止（2025 年 5 月 23 日（PT））* を参照してください。
+詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
 
 +++
 
@@ -120,7 +114,7 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 +++詳細
 許可リストに加えるできる IP アドレスの詳細については、次の記事を参照してください。
 
-* **拡張 Experience Composer （EEC）**：詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング *のパブリック IP でアクセスできない内部 QA URL を EEC が読み込まない ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) を参照してください*
+* **拡張 Experience Composer （EEC）**：詳しくは、[ 拡張 Experience Composer に関連する問題のトラブルシューティング ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) のパブリック IP でアクセスできない内部 QA URL を EEC が読み込まない *を参照してください*
 * **[!UICONTROL Recommendations]**: [Recommendations フィード処理サーバーで使用される IP アドレス ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) を参照してください。
 
 +++
@@ -128,13 +122,13 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 ## 新しい Recommendations UI では、環境はデフォルトでステージングにリセットされますか。
 
 +++詳細
-環境のデフォルトは、顧客が最後に使用した環境になります。 環境を切り替えるには、[!UICONTROL Catalog Search] UI の右上隅にある [!UICONTROL Environment] セレクターを使用します。
+環境のデフォルトは、顧客が最後に使用した環境になります。 環境を切り替えるには、[!UICONTROL Environment] UI の右上隅にある [!UICONTROL Catalog Search] セレクターを使用します。
 
 ![ 環境スイッチ ](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
-## [!DNL Adobe Analytics] と [!DNL Target] を接続する場合の複雑さはどの程度 [!DNL Customer Journey Analytics] すか。
+## [!DNL Adobe Analytics] と [!DNL Customer Journey Analytics] を接続する場合の複雑さはどの程度 [!DNL Target] すか。
 
 +++詳細
 [!DNL Adobe Analytics] （AA）または [!DNL Customer Journey Analytics] （CJA）を [!DNL Target] と統合する場合、現在の設定に応じて、中程度の労力から高度な労力に至る可能性があります。 [!DNL Adobe Experience Platform] を使用し、[!DNL Platform Web SDK] を実装している場合は、統合をより効率的に行うことができます。 ただし、at.js またはAppMeasurementを使用するレガシー実装では、次のような追加設定が必要になる場合があります。
