@@ -4,9 +4,9 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a527cc60552a47f65a079009400049b738adf811
+source-git-commit: 54e97914f5d1f61dc04bc8afb34eac2899933a90
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1888'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 11%
 * [!UICONTROL Targeting] の手順から [!UICONTROL Experiences] に戻る際に、HTML オファーを使用して行った変更が見つからない場合があるお客様への動作を明確にしました。 この顧客の場合、影響を受ける web サイトは、ページの読み込みごとに変更される複数の DOM セレクターを動的に生成しました。 その結果、エディターを再度開くと、変更に元々使用されていたセレクターが見つからなくなり、変更が見つからないか無効のように見えます。 これは設計どおりの動作です。 エディターで変更が視覚的に保持されるように、ページの再読み込み時に変更されない、安定した一貫性のあるセレクターをクライアントで使用することをお勧めします。 （TGT-52874）
 * 除外されたエクスペリエンスの一部であるオファーを削除または非アクティブ化しようとすると、「無効なユーザー入力」エラーがトリガーされる問題を修正しました。 この問題は、含まれているエクスペリエンスでオファーが積極的に使用されていなかったにもかかわらず発生しました。 （TGT-52917）
 * ユーザーが別の指標を選択した後でも、[!UICONTROL Revenue] の手順の [!UICONTROL Goals & Settings] 指標ドロップダウンが誤って [!UICONTROL Revenue per Visit] （RPVISIT）にデフォルト設定される問題を修正しました。  指標の設定パネルを折りたたんで再展開すると、以前に選択した値がリセットされる問題が発生しました。 （TGT-52811 および TGT-52878）
-* ブロックされた問題を修正しました
 * [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Testing] （MVT）アクティビティにおけるオファーの命名とコンテンツの翻訳に関連するアクティビティ作成ワークフローの問題をいくつか修正しました。
 
   対処された主な問題：
