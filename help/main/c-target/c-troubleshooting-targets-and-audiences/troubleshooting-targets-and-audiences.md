@@ -1,13 +1,13 @@
 ---
 keywords: トラブルシューティング、よくある質問、FAQ、FAQ、ターゲット、オーディエンス
-description: Adobeアクティビティで使用されるエクスペリエンスのターゲティングとオーディエンスに関するよくある質問（FAQ）  [!DNL Target]  表示します。
+description: Adobe アクティビティで使用されるエクスペリエンスのターゲット設定とオーディエンスに関するよくある質問（FAQ）  [!DNL Target]  表示します。
 title: ターゲットとオーディエンスに関する質問と回答
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Target での URL の評価は、アクティビティの作成時にオーデ�
 
 ### オーディエンス URL のターゲティング
 
-アクティビティの作成時にオーディエンス URL ターゲティングを適用するには、エクスペリエンス ページ（3 ステップのガイドによるワークフローの 1 つ）で、歯車アイコンをクリックし、「ページ配信」をクリックして、目的の URL を指定します。
+アクティビティの作成時にオーディエンス URL ターゲティングを適用するには、**[!UICONTROL Experiences]** のページ（3 つの手順から成るガイド付きワークフローの 1 つ **[!UICONTROL Configure]** で、![ アイコン（「設定」アイコン ](/help/main/assets/icons/Setting.svg)）をクリックし、「**[!UICONTROL Page Delivery]**」をクリックして目的の URL を指定します。
 
 ![ ページ配信 URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ URL でのオーディエンスのターゲティングに加えて、クエリ�
 
 ### URL ターゲティング {#url-targeting}
 
-URL ターゲティングを適用するには、オーディエンスの作成時に「[!UICONTROL Add Rule]」をクリックし、「[!UICONTROL Site Pages]」をクリックします。最初のドロップダウンリスト（[!UICONTROL Current Page]、[!UICONTROL Previous Page] または [!UICONTROL Landing Page]）からオプションを選択し、2 番目のドロップダウンリストから「[!UICONTROL URL]」を選択してエバリュエーターを指定し、目的の URL を指定します。
+URL ターゲティングを適用するには、オーディエンスの作成時に、「**[!UICONTROL Site Pages]**」をクリックして [!UICONTROL Create Audiences] ウィンドウにドロップし、「**[!UICONTROL Site Pages]**」をクリックして、最初のドロップダウンリスト（[!UICONTROL Current Page]、[!UICONTROL Previous Page] または [!UICONTROL Landing Page]）からオプションを選択し、2 番目のドロップダウンリストから「[!UICONTROL URL]」を選択して、評価基準を指定し、目的の URL を指定します。
 
 ![ サイトページ/現在のページ/URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,9 +80,7 @@ URL 文字列で同じパラメーター名を複数回使用する場合、HTTP
 
 ユーザーは、アクティビティの [!UICONTROL Target] ページに表示される最初のエクスペリエンス/オーディエンスに該当します。
 
-例えば、次の図では、Windows デバイスを使用するカリフォルニアのユーザーはエクスペリエンス A（Windows オーディエンス）とエクスペリエンス C（カリフォルニアオーディエンス）の両方の対象になります。ターゲットページではエクスペリエンス A の方がエクスペリエンス C より上に表示されるため、このユーザーにはエクスペリエンス A が表示されます。
-
-![audiences_order 画像 ](assets/audiences_order.png)
+例えば、エクスペリエンス/オーディエンスに Windows がエクスペリエンス A として、iOSがエクスペリエンス B として、カリフォルニアがエクスペリエンス C としてリストされるとします。Windows デバイスを使用するカリフォルニア州のユーザーは、エクスペリエンス A （Windows オーディエンス）とエクスペリエンス C （カリフォルニアオーディエンス）の両方に該当します。 ターゲットページではエクスペリエンス A の方がエクスペリエンス C より上に表示されるため、このユーザーにはエクスペリエンス A が表示されます。
 
 ## [!DNL Target]、Adobe Audience Manager（AAM）およびコアサービスのオーディエンスライブラリの同じオーディエンスの名前が異なるのはなぜですか？ {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
