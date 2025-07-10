@@ -850,7 +850,7 @@ at.js リリースについて詳しくは、[Adobe Target開発者ガイド ](h
 * アクティビティがライブになった後、[!UICONTROL Same as Optimization Goal] ページで [!UICONTROL Goals & Settings] 設定を変更する機能を無効にしました。 （TGT-43923）
 * [!DNL Target Standard] から [!DNL Target Premium] へのアップグレード時に、[!DNL Target] バックエンドのデフォルトワークプレースで発生する問題を修正しました。（TGT-44081 および TGT-44306）
 * 名前にドット文字「.」を含む [!DNL Analytics] レポートスイートを[!DNL Target] UI で使用して、[!DNL Analytics] 分類フィードを作成できるように変更しました。
-* サポート対象のすべての SDK （Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の [!UICONTROL Implementation] ページ（[!UICONTROL Administration]/[!UICONTROL Implementation]）のリンクを変更をしました。 詳しくは、{2[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} の「Target SDK の概要 [ を参照してください。](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
+* サポート対象のすべての SDK （Node.js、Java、.NET、および Python）でオンデバイス決定の使用方法を説明するページを指すように、「オンデバイス決定による実装方法」の [!UICONTROL Implementation] ページ（[!UICONTROL Administration]/[!UICONTROL Implementation]）のリンクを変更をしました。 詳しくは、&lbrace;2[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ja){target=_blank} の「Target SDK の概要 [ を参照してください。](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}
 * [!DNL Scene7] および [!DNL Target] を使用する際のファイルのアップロードに関する問題を修正しました。
 * 内部のユーザビリティ監査の結果を使用して、障害のあるユーザー向けの [!DNL Target] UI のアクセシビリティを強化しました。これらのアクセシビリティの強化には、以前はキーボードからアクセスできなかった機能へのアクセス、代替テキストの機能強化、UI の一部をより使いやすくするためのズーム機能、キーボードフォーカスの改善などが含まれます。   （TGT-42759）
 * [!DNL Target] UI 全体でさまざまなローカライゼーションの修正を行いました。
@@ -3626,7 +3626,7 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 19 日）リリースに
    <td colname="col1" class="premium"> Recommendations の CSV ダウンロード </td> 
    <td colname="col2"> <p>CSV ダウンロードでは、エンティティ Recommendations を持たない環境（例：
  <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>）を含むすべての環境用に、行が含まれるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
