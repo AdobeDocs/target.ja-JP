@@ -7,16 +7,16 @@ badgeBeta: label="ベータ" type="Informative" url="https://experienceleague.ad
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
-# コンテンツ生成に [!DNL Adobe Target] の [!DNL AI Assistant] を使用
+# コンテンツ生成に [!DNL AI Assistant] の [!DNL Adobe Target] を使用
 
-[!DNL AI Assistant] を使用して、エンゲージメントとコンバージョン [!DNL Adobe Target] 促進します。 ジェネレーティブ AI を活用して、オーディエンスの共感を呼び、アクティビティ コンテンツを強化する、パーソナライズされた効果的なテキストを作成します。
+[!DNL Adobe Target] を使用して、エンゲージメントとコンバージョン [!DNL AI Assistant] 促進します。 ジェネレーティブ AI を活用して、オーディエンスの共感を呼び、アクティビティ コンテンツを強化する、パーソナライズされた効果的なテキストを作成します。
 
 ## 前提条件
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    例えば、季節限定の夏休みのセールには、「夏物セールを宣伝する魅力的なヒーローテキストを書く」と入力します。
 
-   シンプルなプロンプトを魅力的で長 [!DNL AI Assistant] 形式の広告コピーに変換して、エキサイティングな NYC アドベンチャーを実現する方法については、以下の [ バリエーションの例 ](#variations) を参照してください。
+   シンプルなプロンプトを魅力的で長 [ 形式の広告コピーに変換して、エキサイティングな NYC アドベンチャーを実現する方法については、以下の ](#variations) バリエーションの例 [!DNL AI Assistant] を参照してください。
 
 1. **[!UICONTROL Text Settings]** アイコンをクリックして、テキストのトーンとコミュニケーション戦略を指定します。
 
@@ -59,11 +59,11 @@ ht-degree: 1%
 
    * **トーン**：テキストのトーンは、オーディエンスの共感を呼ぶはずです。 有益な情報を伝えたい、エキサイティングな内容を伝えたい、遊び心がある、説得力がある内容を伝えたいなど、目的に応じてメッセージを調整で [!DNL AI Assistant] ます。
 
-     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling] および [!UICONTROL Conversational] があります。
+     オプションには、[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling] および [!UICONTROL Conversational] があります。
 
-1. スライダーを使用して、テキストの長さ（[!UICONTROL Shorter Text]～[!UICONTROL Larger Text]）を選択します。
+1. スライダーを使用して、テキストの長さを短くしたり長くしたりできます。
 
-1. （任意）「Brand Assets」をクリックして、生成中に追加のコンテンツコンテキスト用にブランドアセットをアップロードまたは切り替えます。
+1. （任意）「**[!UICONTROL Brand Assets]**」をクリックして、生成中に追加のコンテンツコンテキストのブランドアセットをアップロードまたは切り替えます。
 
 1. 「**[!UICONTROL Generate]**」をクリックして、テキストバリエーションのリストを作成します。
 
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### AI アシスタントを使用したコンテンツ生成の作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn">https://video.tv.adobe.com/v/3434636/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
