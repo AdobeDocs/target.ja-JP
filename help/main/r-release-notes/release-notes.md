@@ -6,7 +6,7 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2c7a915d6dadcf38daa397dbdc2f86fb007a951e
+source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
 workflow-type: tm+mt
 source-wordcount: '2514'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
@@ -75,7 +75,7 @@ ht-degree: 13%
 
 +++
 
-## [!DNL Target Standard/Premium] 25.7.1（2025年7月9日（PT））
+## [!DNL Target Standard/Premium] 25.7.1（2025年7月11日（PT））
 
 最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
 
