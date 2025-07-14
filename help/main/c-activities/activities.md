@@ -4,10 +4,10 @@ description: アクティビティを使用して、特定のオーディエン�
 title: ' [!DNL Target] を使用してコンテンツをパーソナライズし、ページのデザインをテストするにはどうすればよいですか？'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '2237'
-ht-degree: 26%
+source-wordcount: '2291'
+ht-degree: 25%
 
 ---
 
@@ -23,30 +23,30 @@ ht-degree: 26%
 
 [!UICONTROL Activities] リストは、[!DNL Target] を開いたときのデフォルトのビューです。 このページからアクティビティを作成し、既存のアクティビティを管理できます。
 
-また、[!DNL Target] UI の上部にある「[!UICONTROL Activities]」タブをクリックして、[!UICONTROL Activities] リストを表示することもできます。
+また、[!UICONTROL Activities] UI の上部にある「[!UICONTROL Activities]」タブをクリックして、[!DNL Target] リストを表示することもできます。
 
 [!UICONTROL Activities] リストには、[!DNL Target] 実装のすべてのアクティビティの概要が表示され、様々なアクションを実行できます。
 
-次の表に、[!DNL Target] UI の [!UICONTROL Activities] リストの様々な要素を示します。
+次の表に、[!UICONTROL Activities] UI の [!DNL Target] リストの様々な要素を示します。
 
 | 要素 | 説明 |
 |--- |--- |
-| [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | フィルターにアクセスするには、リストの上部付近にある **[!UICONTROL Show Filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source] および [!UICONTROL Properties] でアクティビティをフィルタリングします。<P>設定するフィルターは、現在のセッション全体で永続的です。<P>詳しくは、以下の [ リストにフィルターを適用する ](#filters) を参 [!UICONTROL Activities] してください。 |
+| [!UICONTROL Show filters] アイコン<P>![ フィルターアイコンを表示 ](/help/main/assets/icons/Filter.svg) | フィルターにアクセスするには、リストの上部付近にある **[!UICONTROL Show Filters]** アイコンをクリックして、[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source] および [!UICONTROL Properties] でアクティビティをフィルタリングします。<P>設定するフィルターは、現在のセッション全体で永続的です。<P>詳しくは、以下の [ リストにフィルターを適用する [!UICONTROL Activities] を参 ](#filters) してください。 |
 | 検索フィールド | アクティビティをすばやく見つけたり、[!UICONTROL Activity] リストに表示されるアクティビティの数を減らしたりします。 ドロップダウンを使用して、[!UICONTROL Activity Name]、[!UICONTROL URL] または [!UICONTROL ID] で検索できます。<P>設定する検索オプションは、現在のセッション全体で永続的です。 |
 | [!UICONTROL Create Activity] | アクティビティを作成します。<P>様々なアクティビティタイプの作成について詳しくは、以下を参照してください。 <ul><li>[[!UICONTROL A/B Test] アクティビティの作成 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[[!UICONTROL Auto-Allocate] アクティビティの作成 ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[[!UICONTROL Auto-Target] アクティビティの作成 ](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[[!UICONTROL Automated Personalization] アクティビティの作成 ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[[!UICONTROL Experience Targeting] アクティビティの作成 ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[ アクティビティの作成 ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[[!UICONTROL Recommendations] アクティビティの作成 ](/help/main/c-recommendations/recommendations.md)</li></ul>各タイプについて詳しくは、以下の [ アクティビティタイプ ](#types) を参照してください。 |
-| [!UICONTROL Create mobile preview link]<P>![ その他のアクションメニュー ](/help/main/assets/icons/MoreVertical.svg) | [ モバイルプレビューリンク ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/mobile-apps/target-mobile-preview) を使用すると、モバイルアプリアクティビティのエンドツーエンドの簡単な QA を実行できます。<P>**その他のオプション** アイコンをクリックし、**モバイルプレビューリンクを作成** を選択したあと、モバイルでテストするアクティビティを選択します。 |
-| テーブルをカスタマイズ<P>![ 「テーブルをカスタマイズ」アイコン ](/help/main/assets/icons/ColumnSetting.svg) | ページの右上にある **[!UICONTROL Customize Table]** アイコンをクリックし、目的の列を選択または選択解除して、[!UICONTROL Activity] リストに表示する列を変更します。<P>変更内容はアカウントに適用され、[!DNL Target] からログアウトした後もアクティブです。 |
+| [!UICONTROL Create mobile preview link]<P>![ その他のアクションメニュー ](/help/main/assets/icons/MoreVertical.svg) | [ モバイルプレビューリンク ](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) を使用すると、モバイルアプリアクティビティのエンドツーエンドの簡単な QA を実行できます。<P>**その他のオプション** アイコンをクリックし、**モバイルプレビューリンクを作成** を選択したあと、モバイルでテストするアクティビティを選択します。 |
+| テーブルをカスタマイズ<P>![ 「テーブルをカスタマイズ」アイコン ](/help/main/assets/icons/ColumnSetting.svg) | ページの右上にある [!UICONTROL Activity] アイコンをクリックし、目的の列を選択または選択解除して、**[!UICONTROL Customize Table]** リストに表示する列を変更します。<P>変更内容はアカウントに適用され、[!DNL Target] からログアウトした後もアクティブです。 |
 | 一括操作チェックボックス<P>![ 一括操作アイコン ](/help/main/assets/icons/Rectangle.svg) | すべてのアクティビティまたは選択したアクティビティで一括操作を実行します。<P>（権限とアクティビティのステータスに応じて）使用可能なアクションのリストについては、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。 |
 | [!UICONTROL Type] | アクティビティタイプ。 [!UICONTROL Type] 列を使用すると、タイプ別に各アクティビティをすばやく識別できます。 <ul><li>**AB-M**：手動 [!UICONTROL A/B Test]</li><li>**AB-AA**: [!UICONTROL Auto-Allocate]</li><li>**AB-AT**: [!UICONTROL Auto-Target]</li><li>**AP**: [!UICONTROL Automated Personalization]</li><li>**XT**: [!UICONTROL Experience Targeting]</li><li>**MVT**: [!UICONTROL Multivariate Test]</li><li>**REC**: [!UICONTROL Recommendations]</li></ul>各タイプについて詳しくは、以下の [ アクティビティタイプ ](#types) を参照してください。 |
 | [!UICONTROL Name] | アクティビティの名前。 各アクティビティ名の横にある **[!UICONTROL Quick Info]** アイコン ![ クイック情報アイコン ](/help/main/assets/icons/InfoOutline.svg)）をクリックすると、[!UICONTROL Activity ID]、[!UICONTROL Activity Objective]、[!UICONTROL Activity Location]、[!UICONTROL Goal]、[!UICONTROL Status] など、ポップアップカードにそのアクティビティに関する詳細情報が表示されます。<P>各アクティビティ名の横にある **[!UICONTROL More actions]** のアイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmallList.svg)）をクリックしてメニューを開き、アクティビティに対してクイックアクションを実行できます。 （権限とアクティビティのステータスに応じて） [!UICONTROL Edit]、[!UICONTROL Activate]、[!UICONTROL Deactivate]、[!UICONTROL Copy]、[!UICONTROL Delete] および [!UICONTROL Archive] のアクションを使用できます。<P>各アクションについて詳しくは、以下の [ クイックアクションの実行 ](#quick-actions) を参照してください。<P>テーブルのヘッダーをクリックすると、名前の昇順または降順でアルファベット順にリストを並べ替えることができます。 |
-| [!UICONTROL Status] | アクティビティのステータスは、次のいずれかになります。<ul><li>**[!UICONTROL Live]**：アクティビティは現在実行中です。</li><li>**[!UICONTROL Draft]**: アクティビティの設定が開始されましたが、アクティビティは [ ドラフトモード ](/help/main/c-activities/edit-activity.md) で、まだ実行する準備が整っていません。</li><li>**[!UICONTROL Scheduled]**：指定された開始日時に達すると、アクティビティをアクティブ化する準備が整います。</li><li>**[!UICONTROL Inactive]**: アクティビティが一時停止または非アクティブ化されました。</li><li>**[!UICONTROL Syncing]**: アクティビティが保存され、[!DNL Target] 配信ネットワークに同期されています。</li><li>**[!UICONTROL Ended]**：指定されたアクティビティの終了日時に達し、アクティビティは提供されなくなりました。</li><li>**[!UICONTROL Archived]**：アクティビティがアーカイブされました。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul>**注意**: API メソッドを使用して [!DNL Target] UI 外でアクティビティをアクティブ化するなどの、特定のアクションを実行した場合は、更新内容が [!DNL Target] UI に反映されるまで最大 10 分かかる場合があります。 |
+| [!UICONTROL Status] | アクティビティのステータスは、次のいずれかになります。<ul><li>**[!UICONTROL Live]**：アクティビティは現在実行中です。</li><li>**[!UICONTROL Scheduled]**：指定された開始日時に達すると、アクティビティをアクティブ化する準備が整います。</li><li>**[!UICONTROL Inactive]**: アクティビティが一時停止または非アクティブ化されました。</li><li>**[!UICONTROL Ended]**：指定されたアクティビティの終了日時に達し、アクティビティは提供されなくなりました。</li><li>**[!UICONTROL Archived]**：アクティビティがアーカイブされました。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul>**注意**: API メソッドを使用して [!DNL Target] UI 外でアクティビティをアクティブ化するなどの、特定のアクションを実行した場合は、更新内容が [!DNL Target] UI に反映されるまで最大 10 分かかる場合があります。 |
 | [!UICONTROL Last Updated] | アクティビティが最後に更新された日時。<P>テーブルのヘッダーをクリックして、日付順で昇順または降順にリストを並べ替えます。 |
 | [!UICONTROL Priority] | アクティビティの優先度。<P>優先度は、同じロケーションの同じオーディエンスに複数のアクティビティが割り当てられた場合に使用されます。ロケーションに 2 つ以上のアクティビティが割り当てられている場合、優先度の最も高いものが表示されます。<P>[ 設定 ](/help/main/administrating-target/reporting.md) によって、の [!DNL Target] UI とオプションは異な [!UICONTROL Priority] ます。 従来の設定である [!UICONTROL Low]、[!UICONTROL Medium]、[!UICONTROL High] を使用するか、0～999 の細かい優先度を有効にすることができます。<P>優先度の設定について詳しくは、[ 目標と設定 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) の *アクティビティ設定* の *優先度* を参照してください。 |
-| [!UICONTROL Property] | アクティビティの[プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。<P>エンタープライズユーザー権限は [&#128279;](/help/main/c-intro/intro.md#premium)0&rbrace;Target Premium&rbrace; 機能です。 |
+| [!UICONTROL Property] | アクティビティの[プロパティ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を表示します。<P>エンタープライズユーザー権限は [0}Target Premium} 機能です。](/help/main/c-intro/intro.md#premium) |
 | [!UICONTROL Estimated Lift in Revenue] | 100％のオーディエンスが勝者エクスペリエンスを閲覧した場合に予測される売上高の増加を表示します。<P>以下の数式を使用して計算します。<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>この数字は、短縮形の表記で小数点の前が 1 桁だけの場合、最大で小数第 1 位に丸められます。例：$1.6M、$60K、$900、$8.5K、$205K<P>勝者となる十分なデータがない、またはコストの見積もりがないアクティビティの場合、このコラムには「---」と表示されます。<P>詳しくは、「[売上高情報の予測](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)」を参照してください。 |
-| [!UICONTROL Source] | アクティビティが作成された場所を示します：[!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)、[Adobeモバイルサービス ](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL Source] | アクティビティが作成された場所を示します：[!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja) または [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL Author] | アクティビティを作成したユーザーの名前。 |
-| [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法：[ サーバーサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja) または [ クライアントサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=ja)。 |
+| [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法：[ サーバーサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja) または [ クライアントサイド ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
 
 <!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
@@ -73,13 +73,22 @@ ht-degree: 26%
 | 属性 | 詳細 |
 | --- | --- |
 | [!UICONTROL Type] | [ アクティビティタイプ ](#types) でフィルタリングします。 |
-| [!UICONTROL Status] | アクティビティステータスでフィルタリングします。<ul><li>**[!UICONTROL Live]**：アクティビティは現在実行中です。</li><li>**[!UICONTROL Draft]**: アクティビティの設定が開始されましたが、アクティビティは [ ドラフトモード ](/help/main/c-activities/edit-activity.md) で、まだ実行する準備が整っていません。</li><li>**[!UICONTROL Scheduled]**：指定された開始日時に達すると、アクティビティをアクティブ化する準備が整います。</li><li>**[!UICONTROL Inactive]**: アクティビティが一時停止または非アクティブ化されました。</li><li>**[!UICONTROL Syncing]**: アクティビティが保存され、[!DNL Target] 配信ネットワークに同期されています。</li><li>**[!UICONTROL Ended]**：指定されたアクティビティの終了日時に達し、アクティビティは提供されなくなりました。</li><li>**[!UICONTROL Archived]**：アクティビティがアーカイブされました。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul> |
+| [!UICONTROL Status] | アクティビティステータスでフィルタリングします。<ul><li>**[!UICONTROL Live]**：アクティビティは現在実行中です。</li><li>**[!UICONTROL Scheduled]**：指定された開始日時に達すると、アクティビティをアクティブ化する準備が整います。</li><li>**[!UICONTROL Inactive]**: アクティビティが一時停止または非アクティブ化されました。</li><li>**[!UICONTROL Ended]**：指定されたアクティビティの終了日時に達し、アクティビティは提供されなくなりました。</li><li>**[!UICONTROL Archived]**：アクティビティがアーカイブされました。 アーカイブ済みアクティビティをアクティブ化して、再度使用することができます。</li></ul>非推奨（廃止予定）の [!UICONTROL Save as Draft] と [!UICONTROL Syncing] のステータスについて詳しくは、この表の下のメモを参照してください。 |
 | [!UICONTROL Reporting Source] | レポートソースでフィルタリングします。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md):[!UICONTROL Analytics for Target] （A4T）をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target] をレポートソースとして使用するアクティビティを表示します。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics] をレポートソースとして使用するアクティビティを表示します。</li></ul> |
 | [!UICONTROL Experience Composer] | アクティビティの作成中に Experience Composer が使用されたフィルター：<ul><li>[ ビジュアル ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md):[!UICONTROL Visual Experience Composer] （VEC）を使用して作成されたアクティビティを表示します。</li><li>[ フォームベース ](/help/main/c-experiences/form-experience-composer.md):[!UICONTROL Form-Based Experience Composer] を使用して作成されたアクティビティを表示します。</li></ul> |
 | [!UICONTROL Metrics Type] | アクティビティの作成中に [ 成功指標 ](/help/main/c-activities/r-success-metrics/success-metrics.md) が選択されたフィルター。<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
-| [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法でフィルタリングします。<ul><li>[ サーバー側 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja)：サーバー側判定を使用するアクティビティを表示します。</li><li>[ クライアント側 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=ja)：クライアント側判定を使用するアクティビティを表示します。</li></ul> |
+| [!UICONTROL Decisioning Method] | 各アクティビティで使用される判定方法でフィルタリングします。<ul><li>[ サーバー側 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja)：サーバー側判定を使用するアクティビティを表示します。</li><li>[ クライアント側 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：クライアント側判定を使用するアクティビティを表示します。</li></ul> |
 | [!UICONTROL Activity Source] | 各アクティビティの作成に使用されるアクティビティソースでフィルタリングします。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ja)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL Property] | アクティビティが作成された [ プロパティ ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) でフィルタリングします。 |
+
+
+>[!NOTE]
+>
+>**更新された UI でアクティビティ状態を更新**：ユーザーインターフェイスの最新の更新により、[!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は使用できなくなりました。 これは、すべてのアクティビティの作成と編集が、GraphQL レイヤーを使用してバックエンド [!DNL Target] 配信システム内で直接行われ、より合理化され効率的なプロセスが確保されるからです。
+>
+>以前は、アクティビティは、まず [!DNL Target] UI に保存されてから、これらの中間状態を必要とする [!DNL Target] 配信システムに同期されていました。 現在は該当しないので、これらの状態は削除されました。
+>
+>[!DNL Adobe] では、一部のお客様が [!UICONTROL Save as Draft] 機能に関心を持っていることを理解しています。 このフィードバックをお待ちしておりますが、この機能は現在サポートされていません。
 
 ## クイックアクションの実行 {#quick-actions}
 
@@ -101,7 +110,7 @@ ht-degree: 26%
 [!UICONTROL Activity] リストに関する次の詳細に注意してください。
 
 * [!UICONTROL Archived] アクティビティと [!UICONTROL Ended] アクティビティは、[!UICONTROL Activities] リストには表示されません。 これらのアクティビティを表示するには、リストの上部にある [ フィルターアイコン ](#filters) （![ フィルターを表示アイコン ](/help/main/assets/icons/Filter.svg)）を使用してアクティビティをフィルタリングします。
-* [!DNL Target Classic] で最初に作成されたアクティビティが非アクティブ化または削除されると、[!DNL Target Standard/Premium] から削除されます。 最初に [!DNL Target Classic] で作成した削除されたアクティビティは、[!DNL Target Standard/Premium] の [!UICONTROL Archive] フォルダーには送信されません。 アーカイブ済みフォルダー機能は、[!DNL Target Standard/Premium] で作成されたアクティビティにのみ適用されます。
+* [!DNL Target Classic] で最初に作成されたアクティビティが非アクティブ化または削除されると、[!DNL Target Standard/Premium] から削除されます。 最初に [!DNL Target Classic] で作成した削除されたアクティビティは、[!UICONTROL Archive] の [!DNL Target Standard/Premium] フォルダーには送信されません。 アーカイブ済みフォルダー機能は、[!DNL Target Standard/Premium] で作成されたアクティビティにのみ適用されます。
 * [!UICONTROL Automated Personalization] （AP）、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] 以外のすべてのアクティビティタイプでは、データソースとして [!DNL Target] または [!DNL Adobe Analytics] のいずれかを使用できます。 [!UICONTROL Automated Personalization]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target] は *常に* データ [!DNL Target] 使用します。
 * アクティビティは複数のチャネルで利用可能です。
 
@@ -131,7 +140,7 @@ ht-degree: 26%
 
 ## [!DNL Target] 以外で更新されたアクティビティの属性を [!DNL Target] に読み込む {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
-[!DNL Target] で作成されたアクティビティが [!DNL Target] の外部から更新された場合（例：API を使用）、`thirdpartyId`、`startDate`、`endDate`、`status`、`priority` および `marketingCloudMetadata(remoteModifiedBy)` のアクティビティ属性が [!DNL Target] にインポートされます。
+[!DNL Target] で作成されたアクティビティが [!DNL Target] の外部から更新された場合（例：API を使用）、[!DNL Target]、`thirdpartyId`、`startDate`、`endDate`、`status` および `priority` のアクティビティ属性が `marketingCloudMetadata(remoteModifiedBy)` にインポートされます。
 
 このインポートジョブは、[!UICONTROL Activities] ータリストが開かれたときに、最大 10 分の遅延で実行されます。
 

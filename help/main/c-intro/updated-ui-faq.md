@@ -4,9 +4,9 @@ description: 更新されたユーザーインターフェイス  [!DNL Target] 
 title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけることができますか？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 UI バージョンの切り替えスイッチの使用には、新しいアクティビティの表示、既存のアクティビティの編集、アクティビティの詳細の一貫性など、いくつかの制限があります。
 
 詳しくは、[ 知っておくべき時間依存の更新 ](/help/main/r-release-notes/release-notes.md#time-sensitive) を参照してください。
+
++++
+
+## [!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は引き続き使用できますか。
+
++++詳細
+
+
+ユーザーインターフェイスの最新の更新では、[!UICONTROL Save as Draft] と [!UICONTROL Syncing] の状態は使用できなくなりました。 詳しくは、[ の ](/help/main/c-activities/activities.md#filters) アクティビティリストにフィルターを適用する *[!UICONTROL Activities overview]* で、ステータスを参照してください。
 
 +++
 

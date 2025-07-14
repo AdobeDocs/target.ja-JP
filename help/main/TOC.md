@@ -3,9 +3,9 @@ user-guide-title: Adobe Target ビジネス実践者ガイド
 breadcrumb-title: Target ガイド
 user-guide-description: web サイトやモバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益を最大化するために、顧客のエクスペリエンスを調整およびパーソナライズする方法について説明します。
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1283'
 ht-degree: 85%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 85%
          + [指標の設定](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [多変量分析テストのトラブルシューティング](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations アクティビティ](c-activities/recommendations-activity.md)
-   + [アクティビティを編集またはドラフトとして保存](c-activities/edit-activity.md)
+   + [アクティビティの編集](c-activities/edit-activity.md)
    + [優先度](c-activities/priority.md)
    + [アクティビティの設定](c-activities/activity-settings.md)
    + 成功指標 {#success-metrics}
