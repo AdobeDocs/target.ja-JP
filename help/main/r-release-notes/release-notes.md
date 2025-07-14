@@ -1,14 +1,14 @@
 ---
-keywords: リリースノート；新機能；リリース；アップデート；アップデート；リリース；機能強化；機能強化；修正；バグ修正；アップデート、現在のアップデート
+keywords: リリースノート；新機能；リリース；アップデート；アップデート；リリース；機能強化；機能強化；修正；バグ修正；アップデート；現在のアップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
 short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 13%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
@@ -105,8 +105,8 @@ ht-degree: 13%
 * 既存のアクティビティをコピーし、レポートソースを [!DNL Adobe Analytics] （A4T）に変更すると、「無効なユーザー入力」エラーが発生する問題を修正しました。 [!DNL Analytics]、`restart_same_experience`、`restart_random_experience` など、`restart_new_experience` レポートと互換性のない特定の指標アクションが元のアクティビティから保持された場合に、このエラーがトリガーされました。 （TGT-52900）
 * [!DNL Adobe Analytics] の手順で、[!UICONTROL Goals & Settings] （A4T）をレポートソースとして選択する際に、顧客がアクティビティを作成または保存できなかった問題を修正しました。 この問題は、特に [!UICONTROL Custom Event] 定の指標（「カスタムイベント 16」など）を選択する際に発生し、「無効なユーザー入力」というエラーが発生していました。 （TGT-52910）
 * 「[!UICONTROL View in Analytics]」リンクをクリックすると、対象の [!DNL Analytics] ダッシュボードではなくホームページにユーザーがリダイレクトされる問題を修正しました。 （TGT-53092 および TGT-53093）
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 更新された [!DNL Recommendations] UI で [!UICONTROL Overview] アクティビティを表示しているときに、[!UICONTROL Goals & Settings] （A4T）がレポートソースとして選択されている場合、「[!DNL Adobe Analytics]」セクションの読み込みに失敗する問題を修正しました。 次のエラーメッセージが表示されました：「エラーが発生しました。 要求を完了できません。 問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-52999）
 
 +++
 
@@ -132,8 +132,7 @@ ht-degree: 13%
 **ローカリゼーション**
 
 +++詳細を見る
-* 「プレビューエクスペリエンス」文字列の韓国語ロケール（ko-KR）のコンテキスト翻訳の問題を修正しました。 （TGT-52928）
-* 複数のテキスト文字列の簡体字中国語（zh_CN）翻訳で識別される用語の不一致を修正しました。 （TGT-52954 および TGT-52955）
+* 新しい UI のローカライゼーション文字列が、フランス語（fr_FR）、ドイツ語（de_DE）、イタリア語（it_IT）、韓国語（ko_KO）、簡体字中国語（zh_CN）に更新されました。
 
 +++
 
@@ -145,6 +144,7 @@ ht-degree: 13%
 * [!DNL Recommendations] UI で、単一のルールで作成されたプロモーションが、ルールのロジックに関係なく、誤って解釈され、「項目のリスト」プロモーションタイプとして表示される問題を修正しました。 （TGT-53063）
 * 更新された [!UICONTROL Overview]UI を使用する際に、[!UICONTROL Download Recommendations Data] を含む [!UICONTROL Experience Targeting] （XT）アクティビティで「[!DNL Recommendations]」ボタンが表示されない問題を修正しました。 （TGT-52730 および TGT-52756）
 * 以前は、Recommendations UI には、フィードから正常に読み込まれたエンティティ数のみが表示されていました。 ただし、バックエンドメッセージの形式には、読み込まれたエンティティの数と、形式のエンティティの合計数の両方が含まれます（`# of entities imported / # of total entities`）。 この不一致により、ユーザーには UI の最初の値（読み込まれたカウント）のみが表示され、混乱が生じていました。 UI に両方の数値が表示されるようになりました。 （TGT-53073）
+* レコメンデーションを使用してフォームベースの A/B アクティビティで「[!UICONTROL Promote by attribute]」プロモーションを設定する際に、顧客がフィルタリングルールを保存できない問題を修正しました。 アクティビティを保存して再度開くと、フィルタールールが見つからず、アクティビティを正常に保存できませんでした。 （TGT-53057）
 
 +++
 
