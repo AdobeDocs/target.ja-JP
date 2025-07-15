@@ -4,10 +4,10 @@ description: 既存のアクティビティを編集する様々な方法につ�
 title: アクティビティを編集するには
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 28%
+source-wordcount: '883'
+ht-degree: 24%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->ワークスペースは、[!DNL Target Premium] ソリューションの一部として利用できるプロパティと権限機能に含まれています。[!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
+>ワークスペースは、[!UICONTROL Properties and Permissions] ソリューションの一部として使用できる [!DNL Target Premium] 機能の一部です。 [!DNL Target Premium] ライセンスのない [!DNL Target Standard] では利用できません。
 
 多国籍組織に属している場合、欧州向け Web ページ、プロパティまたはサイトのワークスペースと、米国向け Web ページ、プロパティまたはサイトの別のワークスペースがあるかもしれません。複数ブランドを取り扱う組織に属している場合、ブランドごとに別のワークスペースがあるかもしれません。
 
 ワークスペースとエンタープライズユーザー権限機能について詳しくは、[ エンタープライズユーザー権限 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) を参照してください。
 
-環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」または「コ **[!UICONTROL Edit]** ー」をクリックします。
+お使いの環境で [!UICONTROL Enterprise User Permissions] を有効にしている場合、アクティビティを同じワークスペースまたは別のワークスペースにコピーできます。 現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」をクリックします。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
