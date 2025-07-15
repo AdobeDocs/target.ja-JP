@@ -4,9 +4,9 @@ description: 既存のアクティビティを編集する様々な方法につ�
 title: アクティビティを編集するには
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 28%
 
 ワークスペースとエンタープライズユーザー権限機能について詳しくは、[ エンタープライズユーザー権限 ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) を参照してください。
 
-環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」をクリックします。
+環境内で Enterprise ユーザーの権限が有効になっている場合は、同一または別のワークスペースにアクティビティをコピーできます。現時点では、アクティビティを別のワークスペースに移すことはできません。アクティビティを別のワークスペースにコピーするには、[!UICONTROL Activities] のページで、コピーするアクティビティの横にある **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **コピー**]」または「コ **[!UICONTROL Edit]** ー」をクリックします。
 
 ワークスペースでコピー／編集機能を使用する際の重要なポイントは次のとおりです。
 
