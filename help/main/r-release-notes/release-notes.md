@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
@@ -30,9 +30,9 @@ ht-degree: 13%
 +++詳細を表示
 [!DNL Target] チームでは、トグルボタンを使用して、更新された [!DNL Target] UI とレガシーバージョンを切り替えられる一時機能を提供しています。 このオプションは、UI ロールアウトの最終フェーズでのみ使用できます。
 
-![Target UI のバージョン切り替え ](/help/main/r-release-notes/assets/toggle.png)
+![Target UI バージョンの切替スイッチ](/help/main/r-release-notes/assets/toggle.png)
 
-ロールアウトが完了すると、切り替えスイッチが削除され、すべてのユーザーは更新された UI に永続的に移行します。 [!DNL Adobe] では、この機能はすぐに廃止される予定なので、事前に計画することをお勧めします。
+ロールアウトが完了すると、切り替えが削除され、すべてのユーザーは更新された UI に恒久的に移行します。 [!DNL Adobe] では、この機能はすぐに廃止される予定なので、事前に計画することをお勧めします。
 
 #### 廃止タイムライン
 
@@ -56,22 +56,107 @@ ht-degree: 13%
 
 ご不明な点がある場合や [ この移行中に問題が発生する可能性がある場合は、](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe カスタマーケアにお問い合わせください。
 
-#### UI の切り替え動作の制限 {#limitations}
+#### UI の切替スイッチの動作の制限 {#limitations}
 
 次の情報は、バージョン切り替えを使用する際に注意する必要がある制限事項を示しています。
 
-* **新しいアクティビティの表示**：レガシー UI に切り替えた場合、更新された UI で作成されたアクティビティは表示されません。
-* **既存のアクティビティの編集**：更新された UI の使用中に既存のアクティビティ（元々はレガシー UI で作成したもの）に加えられた変更が、web サイトに公開されます。 ただし、これらの更新は、戻してもレガシー UI には表示されません。レガシー UI から最後に作成された更新のみが表示されます。
-* **アクティビティ詳細の一貫性**：使用する UI に関係なく、最新の変更がライブ web サイトに反映されます。 ただし、レガシー UI に表示されるのは、そのバージョン内で行われた最新の変更のみです。 更新された UI で編集されたアクティビティが、レガシー UI で表示されるものとは異なる表示になる場合は、混乱を招く可能性があります。
+* **新しいアクティビティの表示**：更新された UI で作成したアクティビティは、レガシー UI に戻すと表示されなくなります。
+* **既存のアクティビティの編集**：更新された UI の使用中に、既存のアクティビティ（元々はレガシー UI で作成したもの）に加えられた変更が web サイトに公開されます。 ただし、これらの更新は、元の場所に戻した場合はレガシー UI に表示されず、レガシー UI から最後に作成された更新のみが表示されます。
+* **アクティビティ詳細の一貫性**：使用する UI に関係なく、最新の変更がライブ web サイトに反映されます。 ただし、レガシー UI に表示されるのは、そのバージョン内で行われた最新の変更のみです。 更新後の UI で編集されたアクティビティが、従来の UI で表示されたアクティビティと異なる場合は、この状況が原因で混乱が生じる可能性があります。
 
 #### 更新された UI について学ぶための追加リソース
 
-* [[!DNL Target] UI 更新 FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
-* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!DNL Target]、[!UICONTROL Activities] および [!UICONTROL Recommendations] （VEC）の [!UICONTROL Visual Experience Composer] の主な UI の変更点の概要を説明します。
-* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!DNL Target] の [!UICONTROL Offers Library] での主な UI の変更点の概要を説明します。
-* [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
-* [[!UICONTROL Visual Experience Composer] の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新バージョンの違いについて説明します。
-* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!UICONTROL Activities]、[!UICONTROL Recommendations]、[!UICONTROL Visual Experience Composer]（VEC）の [!DNL Target] での主な UI の変更の概要について説明します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更の概要について説明します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2（2025年7月18日（PT））
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* 未保存の変更でアクティビティの編集をキャンセルする際に、次の追加の確認警告を追加しました。「このアクティビティを保存しますか？ 保存しないと、すべての変更が失われます。」 このメッセージは、誤ってデータが失われるのを防ぐのに役立ちます。 （TGT-52865）
+* 従来の機能を [!UICONTROL Priority] の [!UICONTROL Goals & Settings] スライダーに復元し、従来の UI でサポートされている、数値を直接入力できるようになりました。 （TGT-53185 および TGT-53219）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+* カスタムオーディエンスを含むアクティビティを保存または編集できない問題を修正しました。 お客様に、「リクエストを完了できません。 問題が解決しない場合は、[!DNL Adobe Client Care] にお問い合わせください。」 特定のアクティビティに対して、変更を保存しようとした場合、または変更せずに保存しようとした場合。 （TGT-53189）
+
++++
+
+**[!UICONTROL Analytics for Target]（A4T）**
+
++++詳細を見る
+* 顧客が [!UICONTROL Goals & Settings] ページで特定のアクティビティのレポートを表示すると、[!UICONTROL View in Analytics] リンクが誤って実稼動環境ではなく QA 環境を指す問題を修正しました。 （TGT-53163）
+
++++
+
+**[!UICONTROL Experiences]および[!UICONTROL Offers]**
+
++++詳細を見る
+* カスタムコードを使用して `triggerView` を呼び出すと、無限ループが発生する問題を修正しました。 （TGT-52885）
+* アクティビティに定義された `LocalIds` ークフローとエクスペリエンス定義で使用される `LocalIds` ークフローの間で不一致が発生する問題を修正しました。 （TGT-52669）
+* アクティビティの [!UICONTROL Overview] 定ページに指標名が見つからず、正しい指標名ではなく「オファー」のみが表示される問題を修正しました。 （TGT-53054）
+
++++
+
+**フォームベースの Experience Composer**
+
++++詳細を見る
+* [!UICONTROL Form-Based Experience Composer] で、アクティビティを保存できず、「未定義のプロパティを読み取れません（「マップ」を読み取ります）」というエラーメッセージがトリガーされる問題を修正しました。 （TGT-53145）
+
++++
+
+**Recommendations**
+
++++詳細を見る
+* [!UICONTROL Catalog Search] から製品をクリックすると、「製品の詳細を取得できませんでした」というエラーが表示され、閉じるオプションなしでモーダルを開く問題を修正しました。 （TGT-53082）
+* [ のアクティビティで、コレクションやプロモーションを変更する際に ](/help/main/c-recommendations/recommendations-as-an-offer.md) オファーとしてのレコメンデーション [!UICONTROL A/B Test] が正しく更新されない問題を修正しました。 （TGT-52884）
+* 実稼動環境で、更新された UI でエンティティをクリックすると、「製品の詳細を取得できませんでした」というエラーが表示される問題を修正しました。 この問題が解決しない場合は、[!DNL Adobe Client Care] にお問い合わせください。」 （TGT-53071）
+
++++
+
+**レポート**
+
++++詳細を見る
+* 注文詳細を CSV ファイルに保存すると、ファイルが空になる問題を修正しました。 （TGT-52225）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+* [!UICONTROL Goals & Settings] ページで、複数のエクスペリエンスで使用されるセレクターが選択済みとして一貫してハイライト表示されなかった問題を解決しました。 （TGT-53062）
+* アクティビティを編集できず、「未定義のプロパティを読み取れません（「マップ」を読み取ります）」というエラーメッセージがトリガーされる問題を修正しました。 （TGT-53161）
+
++++
+
+**ワークスペース**
+
++++詳細を見る
+* ワークスペースを切り替える際のアドホックオファーの処理を改善しました。
+   * デフォルトのワークスペースからデフォルト以外のワークスペースに（またはデフォルト以外のワークスペース間で）切り替える場合、アドホックオファーは正しくコピーされるようになりました。 初期化時に、Workspace コンテキストが更新され、新しい ID がオファーに割り当てられて一意性が確保されます。
+   * 同じワークスペース内に留まる場合、変更は行われません。 （TGT-53079）
+* 顧客が [ 異なるワークスペース間でアクティビティをコピー ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) できない問題を修正しました。 （TGT-52753 および TGT-47094）
+* ワークスペース間でプロパティを変更する際の問題を修正しました。
+   * デフォルトのワークスペースからデフォルト以外のワークスペースに切り替えても、対象のワークスペースに現在のプロパティが存在する場合、そのプロパティは保持されます。
+   * [!UICONTROL Properties] リストに警告が表示され（一部のプロパティに互換性がないことを示す可能性があります）、顧客が「[!UICONTROL Add]」または「[!UICONTROL Remove]」をクリックしてから「[!UICONTROL Save]」をクリックすると、宛先ワークスペースに存在しないすべてのプロパティが削除されます。 顧客が [!UICONTROL Cancel] をクリックすると、宛先ワークスペースに存在しない場合でも、すべてのプロパティが残ります。 （TGT-47094）
+   * 同じワークスペースを使用する場合や、デフォルト以外のワークスペースからデフォルトまたは別のワークスペースに切り替える場合は、すべてがそのまま残ります。 （TGT-53078）
+* アクティビティの元のワークスペースコンテキストを尊重するようにエンティティ検証ロジックを更新しました。 [!UICONTROL Experience Fragments] （XF）などのエンティティは、アクティビティが最初に作成されたワークスペースに基づいて検証されるようになりました。 例えば、XF がデフォルトワークスペースに存在し、アクティビティがワークスペース X からワークスペース Y にコピーされる場合でも、XF が元の（デフォルト）ワークスペースで有効であれば、検証は成功します。 （TGT-53196）
+* アクティビティの複製中にアドホックオーディエンスをコピーするサポートが強化されました。
+   * 指標、レポート、ページ、アクティビティのみのタイプなどのアドホックオーディエンスは、次のシナリオで自動的にコピーされるようになりました。
+      * デフォルトワークスペースからデフォルト以外のワークスペースにアクティビティをコピーする場合。
+      * 同じワークスペース内でアクティビティをコピーする場合。 （TGT-53197）
 
 +++
 
@@ -114,10 +199,10 @@ ht-degree: 13%
 
 +++詳細を表示
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* すべてのコンテンツオプションが削除された後、[!UICONTROL Manage Content] 機能が場所の状態を適切に検証しなかった問題を修正しました。 これにより、アクティビティ設定を保存または続行しようとすると、動作の不一致やエラーが発生する可能性があります。 （TGT-52801）
-* 新しいページを追加し、異なるエクスペリエンス内の特定の要素を削除する際に、「無効な入力」エラーが発生する問題を修正しました。 このエラーは、特にエクスペリエンス間の切り替えや共有ページ構造の変更を行う際に、要素の操作中に重複 `LocalIds` が生成されることが原因でトリガーされました。 （TGT-52720）
+* すべてのコンテンツオプションが削除された後、[!UICONTROL Manage Content] 機能が場所の状態を適切に検証しなかった問題を修正しました。 この問題により、アクティビティ設定を保存または続行しようとすると、動作に一貫性がなくなる、またはエラーが発生する可能性があります。 （TGT-52801）
+* 新しいページを追加し、異なるエクスペリエンス内の特定の要素を削除する際に、「無効な入力」エラーが発生する問題を修正しました。 このエラーは、特にエクスペリエンス間の切り替えや共有ページ構造の変更を行う際に、要素の操作中に重複 `LocalIds` が生成されるとトリガーされます。 （TGT-52720）
 * [!UICONTROL Generate Adhoc Offer] 機能を使用すると、[!UICONTROL Manage Content] パネルに未定義の場所が表示される問題を修正しました。 （TGT-53076 および TGT-53070）
-* [!UICONTROL Targeting] の手順から [!UICONTROL Experiences] に戻る際に、HTML オファーを使用して行った変更が見つからない場合があるお客様への動作を明確にしました。 この顧客の場合、影響を受ける web サイトは、ページの読み込みごとに変更される複数の DOM セレクターを動的に生成しました。 その結果、エディターを再度開くと、変更に元々使用されていたセレクターが見つからなくなり、変更が見つからないか無効のように見えます。 これは設計どおりの動作です。 エディターで変更が視覚的に保持されるように、ページの再読み込み時に変更されない、安定した一貫性のあるセレクターをクライアントで使用することをお勧めします。 （TGT-52874）
+* [!UICONTROL Targeting] の手順から [!UICONTROL Experiences] に戻る際に、HTML オファーを使用して行った変更が見つからない場合があるお客様への動作を明確にしました。 この顧客の場合、影響を受ける web サイトは、ページの読み込みごとに変更される複数の DOM セレクターを動的に生成しました。 その結果、エディターを再度開くと、変更に元々使用されていたセレクターが見つからなくなり、変更が見つからないか無効のように見えます。 このシナリオは設計どおりに動作しています。 エディターで変更が視覚的に保持されるように、ページの再読み込み時に変更されない、安定した一貫性のあるセレクターをクライアントで使用することをお勧めします。 （TGT-52874）
 * 除外されたエクスペリエンスの一部であるオファーを削除または非アクティブ化しようとすると、「無効なユーザー入力」エラーがトリガーされる問題を修正しました。 この問題は、含まれているエクスペリエンスでオファーが積極的に使用されていなかったにもかかわらず発生しました。 （TGT-52917）
 
 +++
@@ -174,7 +259,7 @@ ht-degree: 13%
 * カスタムコードの変更が正しく保存されず、同じアクティビティ内の複数のエクスペリエンスに意図せずミラーリングされる問題を修正しました。 また、特定のアクティビティを開いたり更新したりする際にアクセスの問題が発生し、空白の画面が表示されていました。 これらの問題が解決され、安定したアクティビティ編集と正確なエクスペリエンス分離が実現しました。 （TGT-52594）
 * ユーザーが [!UICONTROL Browse Mode] ージ内で別の URL を参照できない問題を修正しました。 これにより、テスターとエディターは同じアクティビティセッション内の代替ページを検証またはプレビューできませんでした。 （TGT-53052）
 * アクティビティの作成中に複数の [!UICONTROL Visual Experience Composer] （VEC）インスタンスが同時に開く問題を修正しました。 この問題は、ユーザーが [!UICONTROL Enhanced Experience Composer] （EEC）を無効にし、[!UICONTROL Page Delivery] の手順で web サイトの URL から末尾のスラッシュを削除した場合に発生しました。 （TGT-52782）
-* ユーザーが別の指標を選択した後でも、[!UICONTROL Revenue] の手順の [!UICONTROL Goals & Settings] 指標ドロップダウンが誤って [!UICONTROL Revenue per Visit] （RPVISIT）にデフォルト設定される問題を修正しました。  指標の設定パネルを折りたたんで再展開すると、以前に選択した値がリセットされる問題が発生しました。 （TGT-52811 および TGT-52878）
+* ユーザーが別の指標を選択した後でも、[!UICONTROL Revenue] の手順の [!UICONTROL Goals & Settings] 指標ドロップダウンが誤って [!UICONTROL Revenue per Visit] （RPVISIT）にデフォルト設定される問題を修正しました。  この問題は、指標の設定パネルを折りたたんで再度展開すると、以前に選択した値がリセットされる際に発生していました。 （TGT-52811 および TGT-52878）
 * [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Testing] （MVT）アクティビティにおけるオファーの命名とコンテンツの翻訳に関連するアクティビティ作成ワークフローの問題をいくつか修正しました。
 
   対処された主な問題：
