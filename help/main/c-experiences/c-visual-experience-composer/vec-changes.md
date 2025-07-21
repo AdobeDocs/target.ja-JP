@@ -4,10 +4,10 @@ description: Adobe Target 25.2.1 リリース（2025 年 2 月 17 日（PT））
 title: 新しい Visual Experience Composer （VEC）には、どのような変更が導入されていますか。
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 0%
+source-wordcount: '876'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新された [!UICONTROL Visual Editing Composer] には、[!DNL Chrome Web Store] で使用できる [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 拡張機能 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 必要です。
+>更新された [!UICONTROL Visual Editing Composer] には、[!DNL Adobe Experience Cloud] で使用できる [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 拡張機能 [!DNL Chrome Web Store] 必要です。
 
 VEC は、既存のアクティビティを作成または編集すると表示されます。
 
@@ -33,7 +33,7 @@ VEC は、既存のアクティビティを作成または編集すると表示�
 
 ![ エクスペリエンスパネル ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ![&#128279;](/help/main/assets/icons/MoreSmall.svg) アイコン（その他のアクションアイコン ）をクリックします。
+[!UICONTROL Experiences] パネルを使用して、エクスペリエンスを作成、名前変更または削除できます。 **[!UICONTROL Add]** アイコン（![ 追加アイコン ](/help/main/assets/icons/Add.svg)）をクリックして、新しいエクスペリエンスを追加します。 エクスペリ [!UICONTROL More Actions] ンスを複製、削除、リダイレクトするには、アクショ ![ アイコン（その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックします。
 
 ### [!UICONTROL Components] レール（新規）
 
@@ -43,17 +43,29 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 新しいコンポーネントを追加するには、挿入するコンポーネントを [!UICONTROL Components] パネルから [!UICONTROL Design] キャンバス内の既存のページ要素にドラッグします。 次に、を選択して、選択した要素のの前にコンポーネントを挿入します。
 
+>[!NOTE]
+>
+>[!UICONTROL Modifications] パネルの代わりにこの領域に [!UICONTROL Components] パネルが表示されている場合は、**[!UICONTROL Show Components]** アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）をクリックします。 [!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
+>
+>[!UICONTROL Components] パネルを折りたたみ、[!UICONTROL Design] キャンバスを拡大するには、[!UICONTROL Components] パネルが開いている間に、（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)） アイコンをクリックします。
+
 ### [!UICONTROL Modifications] レール
 
-[!UICONTROL Modifications] レールを開くには、[!UICONTROL Components] レールの [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。 [!UICONTROL Modifications] レールの位置が、編集キャンバスの右側から左側に変更されました。
+[!UICONTROL Modifications] レールを開くには、[!UICONTROL Show Modifications] レールの ![ アイコン（](/help/main/assets/icons/History.svg) 変更レールを表示 [!UICONTROL Components]）をクリックします。 [!UICONTROL Modifications] レールの位置が、編集キャンバスの右側から左側に変更されました。
 
 ![ 変更パネル ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components] アイコン（![ コンポーネントを表示アイコン ](/help/main/assets/icons/Add.svg)）と [!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）は、適切なオプションを表示する切り替えとして機能します。
+>
+>[!UICONTROL Modifications] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、[!UICONTROL Modifications] レールが開いている状態で、[!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
 
 [!UICONTROL Modifications] レールには、VEC でページに加えられたすべての変更が表示され、追加の変更（CSS セレクター、mbox、カスタムコードなど）を行うことができます。
 
 [!UICONTROL More Options] のアイコン（その他のアクションアイコン ![）をクリックして ](/help/main/assets/icons/MoreSmall.svg) 変更を追加、すべての変更を削除、またはすべての無効な変更を削除します。 一括操作を実行するには、「[!UICONTROL Select]」をクリックします（[!UICONTROL Apply to All Pages] または [!UICONTROL Delete]）。
 
-[!UICONTROL Modifications] レールを再度表示するには、[!UICONTROL Modifications] レールの [!UICONTROL Hide Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
+[!UICONTROL Modifications] レールを再度表示するには、[!UICONTROL Hide Modifications] レールの ![ アイコン（](/help/main/assets/icons/History.svg) 変更レールを表示 [!UICONTROL Modifications]）をクリックします。
 
 ### [!UICONTROL Properties] レール（新規）
 
@@ -79,7 +91,7 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] モード
 
-デザイ [!UICONTROL Properties] レールの上部に表示されている [!UICONTROL Design]/[!UICONTROL Browse] の切り替えを使用して、デザインモードと参照モードを切り替えます。
+デザイ [!UICONTROL Design] レールの上部に表示されている [!UICONTROL Browse]/[!UICONTROL Properties] の切り替えを使用して、デザインモードと参照モードを切り替えます。
 
 ![ デザインと参照の切り替え ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -87,7 +99,7 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ### [!UICONTROL Undo]／[!UICONTROL Redo]
 
-取り消しアイコン（![ 取り [!UICONTROL Undo] しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックして、加えた変更を取り消すことができます。
+取り消しアイコン（[!UICONTROL Undo] 取り ![ しアイコン ](/help/main/assets/icons/Undo.svg)）をクリックして、加えた変更を取り消すことができます。
 
 ![VEC の取り消しアイコン ](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
@@ -111,14 +123,14 @@ Web ページに多数のコンポーネントを追加し、必要に応じて�
 
 ## 更新された UI に関する詳細情報
 
-* [[!DNL Target Standard/Premium] 25.2.1 （2025 年 2 月 17 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2):[!UICONTROL Activities]、[!UICONTROL Recommendations] および [!UICONTROL Visual Experience Composer] （VEC）の [!DNL Target] の主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium]  25.2.1（2025年2月17日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：[!UICONTROL Activities]、[!UICONTROL Recommendations]、[!UICONTROL Visual Experience Composer]（VEC）の [!DNL Target] での主な UI の変更の概要について説明します。
 
-* [[!DNL Target Standard/Premium] 25.1.1 （2025 年 1 月 9 日（PT））リリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1):[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更点の概要を説明します。
+* [[!DNL Target Standard/Premium]  25.1.1（2025年1月9日（PT））リリースノート](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：[!UICONTROL Offers Library] の [!DNL Target] での主な UI の変更の概要について説明します。
 
-* [ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md):[!DNL Target] に慣れるのに役立つ概要と、より詳細な情報と手順を説明するリンクを提供します。
+* [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 
-* [[!UICONTROL Visual Experience Composer] の変更点 ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015 年 2 月 17 日（PT））では、更新された [!UICONTROL Visual Experience Composer] （VEC）が導入されています。 この記事では、VEC のレガシーバージョンと更新バージョンの違いについて説明します。
+* [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 
-* [[!UICONTROL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
+* [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
 
-* [[!DNL Target] UI 更新 FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者を問わず、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+* [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md)：この FAQ では、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切替スイッチの非推奨（廃止予定）など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer]（VEC）に関するよくある質問について説明します。マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
