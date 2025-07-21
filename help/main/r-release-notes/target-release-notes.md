@@ -4,7 +4,7 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target]
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
+source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -33,6 +33,8 @@ ht-degree: 34%
 
 +++詳細を見る
 * ビルダークラスの `buildViews` メソッドが、割り当てられた最も高い `viewMaxLocalId` ではなく、ビューの合計数に誤って `viewLocalId` を設定する問題を修正しました。 （TGT-53207）
+
++++
 
 **フォームベースの Experience Composer**
 
