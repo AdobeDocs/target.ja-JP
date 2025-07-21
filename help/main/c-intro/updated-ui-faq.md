@@ -4,9 +4,9 @@ description: 更新されたユーザーインターフェイス  [!DNL Target] 
 title: 更新された  [!DNL Target] UI に関する FAQ はどこで見つけることができますか？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1112'
 ht-degree: 11%
 
 ---
@@ -79,11 +79,11 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 
 +++
 
-## [!UICONTROL Components] と [!UICONTROL Modifications] のレールを折りたたんで、[!UICONTROL Design] のパネルを拡大することはできますか？ {#collapse}
+## [!UICONTROL Components]、[!UICONTROL Modifications]、[!UICONTROL Properties] の各レールを折りたたんで、[!UICONTROL Design] パネルを拡大することはできますか？ {#collapse}
 
 +++詳細
 
-はい。両方のレールを折りたたむと、[!UICONTROL Design] キャンバスを展開して編集を容易にすることができます。 その方法を次に示します。
+はい、これらのレールを折りたたむと、[!UICONTROL Design] のキャンバスを展開して編集を容易にすることができます。 その方法を次に示します。
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ UI バージョンの切り替えスイッチの使用には、新しいアク�
 **[!UICONTROL Modifications] パネルを折りたたむ**
 
 [!UICONTROL Modifications] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、[!UICONTROL Modifications] レールが開いている状態で、[!UICONTROL Show Modifications] アイコン（![ 変更レールを表示 ](/help/main/assets/icons/History.svg)）をクリックします。
+
+**[!UICONTROL Properties] パネルを折りたたむ**
+
+[!UICONTROL Properties] レールを折りたたんだり、[!UICONTROL Design] キャンバスを拡大したりするには、レールの右側にある [!UICONTROL Show/Hide Properties] アイコン（![ プロパティアイコン ](/help/main/assets/icons/Propertie.svg)）をクリックして、[!UICONTROL Properties] レールを折りたたんだり表示したりします。
 
 +++
 
