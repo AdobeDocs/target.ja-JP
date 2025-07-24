@@ -127,7 +127,7 @@ ht-degree: 97%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムは、行動データを、（Target を実装 [ または ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}3}Adobe Analytics[ から収集したユーザーの表示および購入の形式で使用します。](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}
+* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムは、行動データを、（Target を実装 [ または ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}3&rbrace;Adobe Analytics[ から収集したユーザーの表示および購入の形式で使用します。](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}
 
 * **モデルトレーニング**:
 
