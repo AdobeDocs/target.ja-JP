@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2739'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
+* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
 
 * **モデルトレーニング**:
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**：前述のように、このアルゴリズムは、純粋にカタログデータに基づいています（[ カタログフィード、エンティティ API を介して、またはページ上の更新から [!DNL Target] に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}。
+* **入力データ**：前述のように、このアルゴリズムは、純粋にカタログデータに基づいています（[!DNL Target] カタログフィード、エンティティ API を介して、またはページ上の更新から [ に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 * **モデルトレーニング**:
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムはどちらも、Target の実装時 [ または ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}Adobe Analytics[ から収集されたユーザーの閲覧および購入の形式で行動データを使用します](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
+* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムは、行動データを、（Target を実装 [ または ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}3}Adobe Analytics[ から収集したユーザーの表示および購入の形式で使用します。](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}
 
 * **モデルトレーニング**:
 
