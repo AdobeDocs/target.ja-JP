@@ -65,7 +65,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
+* **入力データ**:[Target を実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} または [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} から収集した訪問者のビューおよび購入の形式の行動データ。
 
 * **モデルトレーニング**:
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**: 前述のように、このアルゴリズムは、純粋にカタログデータに基づいています[ カタログフィード、エンティティ API を介して、またはページ上の更新から [!DNL Target]に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **入力データ**: 前述のように、このアルゴリズムは、純粋にカタログデータに基づいています[ カタログフィード、エンティティ API を介して、またはページ上の更新から [!DNL Target]に取り込みます ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank}.
 
 * **モデルトレーニング**:
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 これらの手順の詳細は次のとおりです。
 
-* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムはどちらも、[ Target の実装時](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} または [Adobe Analytics から収集されたユーザーの閲覧および購入の形式](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} で行動データを使用します。
+* **入力データ**：これは、品目協調フィルタリング （CF） メソッドと同じです。 [!UICONTROL Both Recommended For You] および買い物かごベースのアルゴリズムはどちらも、[ Target の実装時](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ja){target=_blank} または [Adobe Analytics から収集されたユーザーの閲覧および購入の形式](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} で行動データを使用します。
 
 * **モデルトレーニング**:
 
