@@ -5,10 +5,10 @@ title: ' [!DNL Target] の管理を開始するにはどうすればよいです
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## [!DNL Target] に招待される {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。システム管理者は、ユーザーを 1 つ以上の役割固有のグループに追加する必要があります。 これらのタスクは両方とも、[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com) で実行されます。
+[!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。システム管理者は、1 つ以上の役割固有の製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、[Experience Cloudとコアサービスのヘルプ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) Experience Cloud *ユーザー*&#x200B;および製品の管理 を参照してください。
+詳しくは、[ ユーザーグループの管理 ](https://helpx.adobe.com/enterprise/using/users.html) を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 
