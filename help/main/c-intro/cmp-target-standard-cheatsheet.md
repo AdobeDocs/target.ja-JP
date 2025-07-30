@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;FQA;よくある質問;参照シート;早わかりシート
-description: Adobe Target での機能の使用方法に関するよくある質問のリストです。詳細情報のリンクも紹介します。
+description: ' [!DNL Target] の機能の使用方法に関するよくある質問のリストです。詳細情報の情報やリンクも紹介します。'
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 80%
+source-wordcount: '2693'
+ht-degree: 72%
 
 ---
 
 # Target の最適化とパーソナライゼーションに関する FAQ
 
-[!DNL Adobe Target] の機能の使用方法に関するよくある質問のリストです。詳細情報の情報やリンクも紹介します。
+[!DNL Adobe Target] 機能の使用に関するよくある質問への回答を示します。 より深いインサイトを得るための直接リンクを使用して、実験を最適化し、エクスペリエンスをパーソナライズし、役立つリソースにアクセスする方法について説明します。
 
 ## 一般情報 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**更新された [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関する情報はどこで入手できますか？**
+
++++詳細を見る
+
+ユーザーインターフェイスは、[!DNL Target] を最大限に活用できるよう、論理的かつユーザーにわかりやすい形式で配置されています。以下の概要は、[!DNL Target] と VEC に慣れるのに役立ち、より詳細な情報と手順を説明するリンクを提供します。
+
+詳しくは、[ [!DNL Target] UI について ](/help/main/c-intro/understand-the-target-ui.md) を参照してください。
+
++++
+
 **他の顧客が [!DNL Target] をどのように有効活用しているのかを知ることはできますか？**
 
-お客様の成功事例については、[こちら](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x)でいくつか紹介しています。他のお客様がどのように Target を利用して最適化やパーソナライゼーションを強化し、ビジネス目標を達成しているのかを確認できます。
++++詳細を表示
+実際の [ カスタマーサクセスストーリー ](https://www.adobe.com/jp/marketing-cloud/target/resources.html#x) を調べ、組織が [!DNL Target] をどのように活用して最適化を高め、エクスペリエンスをパーソナライズし、測定可能なビジネス成果を達成しているかを確認します。
 
-これらの顧客事例の一部では、Adobe Target Premium の機能を使用しているのでご注意ください。
++++
 
 **最新の [!DNL Target] 機能について知るには、どこを参照してください。**
 
-最新リリースの詳細については、「[リリースノート](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)」を参照してください。「[過去のリリース](/help/main/r-release-notes/release-notes-for-previous-releases.md)」すべての情報もオンラインで確認できます。
++++詳細を表示
+最新のリリース [!DNL Target] 常に更新します。
 
-**[!DNL Target] に関 [!DNL Adobe] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
+* **最新リリース**：新機能、機能強化、バグ修正について詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+* **今後のリリース**:[[!DNL Target]  リリースノート（プレリリース） ](/help/main/r-release-notes/target-release-notes.md) にアクセスすると、次のリリースをプレビューできます。
+* **以前のバージョン**：履歴の更新と変更については、[ 以前のリリースのリリースノート ](/help/main/r-release-notes/release-notes-for-previous-releases.md) を参照してください。
 
-[ Target コミュニティフォーラム](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)をご覧ください。このフォーラムでは、アドビによるサポートも受けられますが、Adobe Target をご利用しているお客様同士が助け合うよう奨励しています。コミュニティやフォーラムの成功は、メンバーが活発に参加するかどうかで決まります。コミュニティの一員になり、他の利用者の疑問に答えたり、ご自分の疑問の答えを探したりしてください。
++++
+
+**[!DNL Adobe] に関 [!DNL Target] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
+
++++詳細を表示
+[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
+
++++
 
 **どのブラウザーがサポートされて [!DNL Target] ますか？**
 
-詳細については、「[サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank}」のマトリックスを参照してください。Target Standard/Premium Experience Cloud インターフェイスのサポートと、エンドユーザーのデスクトップ／デバイスでのブラウザーサポートの 2 種類があるのでご注意ください。
++++詳細を表示
+詳しくは、[ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja){target=_blank} マトリックスを参照してください。 デスクトップ/デバイスでの [!DNL Target Standard/Premium] インターフェイスのサポートとエンドユーザーブラウザーのサポートの 2 つの側面があることに注意してください。
+
++++
 
 ## アクティビティ {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -41,7 +65,7 @@ ht-degree: 80%
 
 [A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（手動ターゲット設定オプション）と[サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)の使用が最適です。
 
-**アクティビティはいつまで実行する必要がありますか？**
+**アクティビティを停止するタイミングはどのように判断すればよいですか？**
 
 データが不十分な段階でアクティビティを停止してしまうと、間違った結論が導かれる恐れがあります。[よくあるミスと、それを回避する方法](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F)を確認してください。また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
 
@@ -155,7 +179,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -170,7 +194,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 
 移行が完了するまでは、「[ブラウザーで混在したコンテンツを有効化する](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)」の手順に従い、ブラウザーに混合するコンテンツの読み込みを許可してください。これは最新のブラウザーのセキュリティ機能です。
 
-**[!DNL Target] at.js ライブラリがまだデプロイされていない場合でも、サイトで [!UICONTROL Visual Experience Composer] （VEC）を試すことはできますか？**
+**[!UICONTROL Visual Experience Composer] at.js ライブラリがまだデプロイされていない場合でも、サイトで [!DNL Target] （VEC）を試すことはできますか？**
 
 [拡張 Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) でページを読み込んでみてください。
 
@@ -252,7 +276,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -273,7 +297,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 **オフラインでレポートの計算を実行することはできますか？**
 
-Reports ページの [Export Reports to CSV および Download Order Details to CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) オプションを使用して、目的のレポートデータをダウンロードします。
+Rep[orts ページの ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)Export Reports to CSV および Download Order Details to CSV オプションを使用して、目的のレポートデータをダウンロードします。
 
 **レポート評価のコントロールエクスペリエンスを変更したり、カウント方法を [!UICONTROL Visitors] から [!UICONTROL Visits] に変更したりできますか？**
 
@@ -293,7 +317,7 @@ Reports ページの [Export Reports to CSV および Download Order Details to 
 
 **[!DNL Target] の可用性ステータスを知るにはどうすればよいですか？**
 
-[Adobeのシステムステータス ページ ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) を使用して、[!DNL Adobe] 製品のステータスと [!DNL Target] を含む [!DNL Experience Cloud] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
+[Adobeのシステムステータス ページ ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) を使用して、[!DNL Adobe] 製品のステータスと [!DNL Experience Cloud] を含む [!DNL Target] ソリューションのステータスを表示します。 このページは、発生した問題がシステムの更新によるものか、または日常のメンテナンスによるものかを判断するのに役立ちます。
 
 **トラブルシューティング用のガイドはありますか？**
 
