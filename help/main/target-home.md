@@ -4,7 +4,7 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: e32674d98ff116f21de354d8f295bce6960d9a3b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 29%
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 [!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。
 
-**最終更新日：2025 年 7 月 24 日（PT）（[ 変更点を参照 ](r-release-notes/doc-change.md)）**
+**最終更新日：2025 年 7 月 29 日（PT）（[ 変更点を参照 ](r-release-notes/doc-change.md)）**
 
 >[!BEGINTABS]
 
@@ -124,5 +124,5 @@ ht-degree: 29%
 
 | Adobe [!DNL Target] ソリューションに関するヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
 

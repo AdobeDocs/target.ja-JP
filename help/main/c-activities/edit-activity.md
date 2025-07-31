@@ -4,10 +4,10 @@ description: 既存のアクティビティを編集する様々な方法につ�
 title: アクティビティを編集するには
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 1. **[!UICONTROL Activities]** のページで、編集するアクティビティの横にある **[!UICONTROL More Actions]** アイコン ![ その他のアクションアイコン ](/help/main/assets/icons/MoreSmall.svg)）をクリックし、「[!UICONTROL **編集**]」をクリックします。
 
-   Target によって、[!UICONTROL Visual Experience Composer] （VEC）でアクティビティが開かれて、[!UICONTROL Experiences] のページが表示されます（3 ステップのガイド付きワークフローの最初のステップ）。
+   アクティビティが [!DNL Target] （VEC）に開 [!UICONTROL Visual Experience Composer] れ、[!UICONTROL Experiences] のページが表示されます（3 ステップのガイド付きワークフローの最初のステップ）。
 
 1. [VEC オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)を使用して、目的に応じてアクティビティを編集します。
 
@@ -44,22 +44,6 @@ ht-degree: 24%
 
    * **[!UICONTROL Save & Close]:** 「**[!UICONTROL Save and Close]**」をクリックして変更を保存し、アクティビティの [!UICONTROL Overview] ページを表示します。
    * **保存：** **[!UICONTROL More Actions]** のアイコン（![ その他のアクション アイコン ](/help/main/assets/icons/MoreSmallListVert.svg)）をクリックしてから「**[!UICONTROL Save]**」を選択すると、変更が保存され、VEC に残って引き続き変更を行うことができます。 保存が完了するまで待ってから次の変更作業に移ってください。保存が完了すると VEC が再読み込みされ、変更内容が反映されます。
-
-## [!DNL Recommendations Classic] で作成された従来のアクティビティの操作 {#classic}
-
-[!UICONTROL Activities] リストには、[!DNL Recommendations Classic] を含む様々なソースで作成されたアクティビティが表示されます。 [!DNL Recommendations Classic] で作成した従来のアクティビティを使用する場合、次のアクションを使用できます。
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-[!DNL Recommendations] アクティビティを直接編集することはできません。アクティビティを編集する場合、[!DNL Target Premium] を使用してアクティビティのコピーを作成してから、新しく作成したアクティビティを保存する必要があります。この新しく作成したアクティビティは、必要に応じて編集できます。
-
-## ドラフトフォームでのアクティビティの保存 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-ドラフトとして保存機能は使用できなくなりました。 詳しくは、*[!UICONTROL Status]* アクティビティリストへのフィルターの適用 [ の ](/help/main/c-activities/activities.md#filters) を参照してください。
 
 ## ワークスペースを使用する際のアクティビティのコピー/編集 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ ht-degree: 24%
 
         この問題を解決するには、[!UICONTROL Add/Remove] をクリックして、対象のワークスペースで使用可能なプロパティのみが選択対象として表示されるようにします。
 
-   * **オーディエンスとオファー**：元のワークスペースのすべてのオーディエンスとオファーを置換する必要があります。 または、[!UICONTROL Audiences] ページまたは [!UICONTROL Offers] ページからコピーして、アクティビティ内の対応するリストから適切な項目を選択することもできます。
+   * **オーディエンスとオファー**：アクティビティを新しいワークスペースにコピーすると、関連するすべてのオーディエンスとオファーが、元のワークスペースから `Entity Name Copy <Date>` の形式で複製されます。
 
-   * **必要な手動変更**：必要なすべての手動変更は、最後の手順（[!UICONTROL Save & Close]）にまとめられています。 更新が必要なエンティティのリストがポップアップに表示されるので、アクティビティの設定を完了する前に、必要な調整がすべて行われていることを確認できます。
+     動作の詳細：
 
-     ![Workspaceの検証に関する警告 ](/help/main/c-activities/assets/work-space-validation.png)
+      * コピーしたオーディエンスとオファーは、アクティビティを保存して再び開くまで、[!UICONTROL Audiences] ーディエンスと [!UICONTROL Offers] リストに表示されません。
+      * これらのエンティティは、コピー後すぐに編集することはできません。 ユーザーには、最初の編集セッション中に、これらの項目に関する空のコンテンツが VEC に表示される場合があります。
+      * 顧客は、必要に応じて、コピーしたオーディエンスやオファーを宛先ワークスペースの他のユーザーに置き換えることができます。
 
-環境で [!UICONTROL Enterprise User Permissions] 機能が有効になっていない場合、コピーする前にすべてのアクティビティが編集モードで開きます。
+     このプロセスにより、カスタマイズの柔軟性を維持しながら、ワークスペース間のアクティビティの複製がよりスムーズになります。
+
+     アクティビティをコピーする際、現在のワークスペースまたはデフォルトワークスペースのいずれにも保存されていない結合オーディエンス、非ターゲットオーディエンスおよびオファーは、手動で置き換える必要があります。
+
+     これらの結合されたオーディエンス、非ターゲットオーディエンスおよびオファーを手動で置き換えると、コピーされたアクティビティでは、有効でアクセス可能なエンティティのみが使用され、編集や配信中のエラーが回避されます。
+
+     ![ 警告メッセージ ](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>環境で [!UICONTROL Enterprise User Permissions] 機能が有効になっていない場合、コピーする前にすべてのアクティビティが編集モードで開きます。
+
+## ドラフトフォームでのアクティビティの保存 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+[!UICONTROL Save as Draft] 機能は使用できなくなりました。 詳しくは、*[!UICONTROL Status]* アクティビティリストへのフィルターの適用 [ の ](/help/main/c-activities/activities.md#filters) を参照してください。
+
+## [!DNL Recommendations Classic] で作成された従来のアクティビティの操作 {#classic}
+
+[!UICONTROL Activities] リストには、[!DNL Recommendations Classic] を含む様々なソースで作成されたアクティビティが表示されます。 [!DNL Recommendations Classic] で作成した従来のアクティビティを使用する場合、次のアクションを使用できます。
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+[!DNL Recommendations] アクティビティを直接編集することはできません。アクティビティを編集する場合、[!DNL Target Premium] を使用してアクティビティのコピーを作成してから、新しく作成したアクティビティを保存する必要があります。この新しく作成したアクティビティは、必要に応じて編集できます。
