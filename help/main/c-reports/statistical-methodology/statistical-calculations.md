@@ -1,13 +1,13 @@
 ---
 keywords: レポート；統計手法；統計計算；統計；平均；コンバージョン率；訪問者あたりの売上高；rpv；信頼区間；上昇率；ウェルチ t テスト；オフライン計算
-description: ' [!DNL Adobe Target] の手動 [!UICONTROL A/B Test] ータアクティビティで使用される統計計算について説明します。'
+description: '[!UICONTROL A/B Test] の手動  [!DNL Adobe Target] ータアクティビティで使用される統計計算について説明します。'
 title: '[!UICONTROL A/B Test] アクティビティで使用される統計計算を学ぶにはどうすればよいですか？'
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 2%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ### 訪問者あたりのコンバージョン率と売上高（RPV）キャンペーン
 
-次の図に、[!DNL Target] レポートの [!UICONTROL Conversion Rate]、[!UICONTROL Confidence Interval of Conversion Rate]、および [!UICONTROL Conversions] 数を示します。 例えば、最初の行は、エクスペリエンス A の場合、[!UICONTROL Conversion Rate] は 25.81% で、[!UICONTROL Confidence Interval] は±7.7% で、32 のコンバージョンが記録されたことを示しています。 124 人の訪問者がエクスペリエンスを閲覧した場合、これは 32/124 = 25.81% に等しくなります。
+次の図に、[!UICONTROL Conversion Rate] レポートの [!UICONTROL Confidence Interval of Conversion Rate]、[!UICONTROL Conversions]、および [!DNL Target] 数を示します。 例えば、最初の行は、エクスペリエンス A の場合、[!UICONTROL Conversion Rate] は 25.81% で、[!UICONTROL Confidence Interval] は±7.7% で、32 のコンバージョンが記録されたことを示しています。 124 人の訪問者がエクスペリエンスを閲覧した場合、これは 32/124 = 25.81% に等しくなります。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
-実験の各体験 **ν&#x200B;</sub>*のコンバージョン率または* 平均***μ<sub>ν* は、指標の合計と、その指標に割り当てられた単位数 *N<sub>ν</sub>* との比率として定義されます。
+実験の各体験 **ν** のコンバージョン率または *平均 <sub></sub>*&#x200B;μ&#x200B;*ν* は、指標の合計と、その指標に割り当てられた単位数 *N<sub>ν</sub>* との比率として定義されます。
 
 <p style="text-align:center;"><img width="125px" src="img/mean_definition.png"></p>
 
@@ -51,6 +51,8 @@ ht-degree: 2%
 
 実験を実行する場合、特定のエクスペリエンスのコンバージョン率は、「true」のコンバージョン率の *推定* です。 この推定値の不確実性を定量化するには、信頼区間 [!DNL Target] 使用します。 [!DNL Target] は常に 95% の信頼区間をレポートします。つまり、計算された信頼区間の 95% には、最終的にエクスペリエンスの真のコンバージョン率が含まれます。
 
+現在リードしているエクスペリエンス、もしくは勝者のエクスペリエンスの横には「信頼性」の数値もレポートされます。この数値は、リードするエクスペリエンスの [!UICONTROL Confidence] が 60% に達するまでの間のみレポートされます。 アクティビティに 2 つのエクスペリエンスが存在する場合、この数は、他のエクスペリエンスよりも当該のエクスペリエンスのパフォーマンスが優れている信頼水準を表します。 アクティビティに 3 つ以上のエクスペリエンスが存在する場合、この数は、定義された「コントロール」エクスペリエンスよりも当該のエクスペリエンスのパフォーマンスが優れている信頼水準を表します。 「コントロール」エクスペリエンスが勝者である場合、「信頼性」の数値はレポートされません。
+
 コンバージョン率 *μ<sub>ν</sub>* の 95% の信頼区間は、値の範囲として定義されます。
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
@@ -69,7 +71,7 @@ ht-degree: 2%
 
 ## 上昇率
 
-次の図は、[!DNL Target] レポートの [!UICONTROL Lift] と [!UICONTROL Confidence Interval of Lift] を示しています。 数値はリフト範囲の平均を表し、矢印はリフトが正か負かを反映します。 信頼性が 95% を超えるまで、矢印はグレーで表示されます。 信頼性がしきい値を通過した後、矢印は正または負の上昇率に基づいて緑または赤になります。
+次の図は、[!UICONTROL Lift] レポートの [!UICONTROL Confidence Interval of Lift] と [!DNL Target] を示しています。 数値はリフト範囲の平均を表し、矢印はリフトが正か負かを反映します。 信頼性が 95% を超えるまで、矢印はグレーで表示されます。 信頼性がしきい値を通過した後、矢印は正または負の上昇率に基づいて緑または赤になります。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
