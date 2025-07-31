@@ -4,10 +4,10 @@ description: ' [!DNL Target] の機能の使用方法に関するよくある質
 title: 最適化とパーソナライゼーションに関する質問の回答はどこで見つけることができますか？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
+source-git-commit: 2e993336859f096f5685e2929041f83db216d3b8
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 72%
+source-wordcount: '2678'
+ht-degree: 58%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 72%
 **[!DNL Adobe] に関 [!DNL Target] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
 
 +++詳細を表示
-[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
+[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
 
 +++
 
@@ -63,92 +63,132 @@ ht-degree: 72%
 
 **統計的有意性に優れた手法で、コントロールエクスペリエンスを使用しながら勝者と敗者のエクスペリエンスを見極めることはできますか？**
 
-[A/B テスト](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（手動ターゲット設定オプション）と[サンプルサイズ計算ツール](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)の使用が最適です。
++++詳細を表示
+最良の結果を得るには、[A/B テスト ](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) （手動ターゲティングオプション）と [ サンプルサイズ計算ツール ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) を使用します。
+
++++
 
 **アクティビティを停止するタイミングはどのように判断すればよいですか？**
 
-データが不十分な段階でアクティビティを停止してしまうと、間違った結論が導かれる恐れがあります。[よくあるミスと、それを回避する方法](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F)を確認してください。また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
++++詳細を表示
+アクティビティを早めに停止すると、誤った結論が導き出される可能性があります。 [ 一般的な落とし穴とその回避方法 ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) に注意します。 また、「[A/B テストを実行すべき期間はどのくらいですか？](/help/main/c-activities/t-test-ab/sample-size-determination.md)」も参照してください。
 
-**期間が短い場合は、アクティビティをどのように実行すればよいですか？**
++++
 
-**テストを実施して目標に合わせた最適化をおこなうことはできますか？**
+**時間帯が小さい場合にアクティビティを実行し、テスト中に目標に合わせて最適化するにはどうすればよいですか？**
 
-[レポートを参照して勝者のエクスペリエンスを見極めてください。](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9)
++++詳細を表示
+[ 勝者エクスペリエンスを決定するレポート ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9) を参照してください。
+
++++
 
 **一定のレベルのパーソナライゼーションを中核に据えてアクティビティを実行することはできますか？**
 
-[自動ターゲット](/help/main/c-activities/auto-target/auto-target-to-optimize.md)オプションをチェックします。
++++詳細を表示
+[ 自動ターゲット ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) アクティビティタイプを確認します。
+
++++
 
 **ニーズに合ったアクティビティタイプを見極めるには、どうすればよいですか？**
 
-詳細については、「[Target アクティビティタイプ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。Adobe Target の各オプションがどのようなシナリオに適しているのかについて解説しています。
++++詳細を表示
+詳細については、「[Target アクティビティガイド ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)」を参照してください。[!DNL Target] の各オプションがどのようなシナリオに適しているのかについて解説しています。
 
 また、[Recommendations アクティビティ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)も検討してください。
 
++++
+
 **効果が高いページ要素の組み合わせを把握したり、各要素がどの程度の効果を発揮しているのかを確認したりするためには、どうすればよいですか？**
 
-お客様のニーズに対応できる可能性があるため、[全因子多変量分析（MVT）アクティビティ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)と要素の貢献度分析を確認してください。
++++詳細を表示
+要素貢献度分析を使用した [ 完全な要因多変量分析（MVT）アクティビティ ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) を確認して、ニーズを満たしているかどうかを確認してください。
 
 ただし、MVT アクティビティではトラフィック要件は厳しくなります。
 
-**構成が異なる複数のページにまたがるアクティビティを実行できますか？**
++++
 
-**複数の場所（チェックアウトプロセスの各ページなど）でオファーを適用できますか？**
+**ページ構造が異なる複数のページにまたがるアクティビティを実行できますか？ 異なる場所（チェックアウトファネルなど）にオファーを適用することはできますか？**
 
-エクスペリエンス内で複数ページを使用できる[複数ページアクティビティ機能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)をお試しださい。
++++詳細を表示
+エクスペリエンス内で複数のページを使用できる [ 複数ページアクティビティ機能 ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) を試します。
+
++++
 
 **目標（プライマリまたはセカンダリ）の達成後はユーザーに再度そのアクティビティを表示することはせず、別のアクティビティを表示するようにするには、どうすればよいですか？**
 
-あらゆる目標で利用できる「[詳細設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974)」オプションを使用すれば、簡単に実現できます。各オプションを利用し、ユーザーが目標に達した後の処理方法や、カウントを増分する方法を指定できます。
++++詳細を表示
+これは、すべての目標で使用できる [ 詳細設定 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) オプションを使用することで簡単に実現できます。 各オプションを利用し、ユーザーが目標に達した後の処理方法や、カウントを増分する方法を指定できます。
 
 このケースでは、「カウントを増分、ユーザーをリリース、再入場を許可しない」と「デフォルト / 他のアクティビティのコンテンツ」を選択することで対処できます。他のオプションもチェックしてみてください。
 
-**アクティビティで複数の目標を作成しました。レポートや分析のために、ファネルとして一連の目標の流れを作成することはできますか？**
++++
 
-**例えば、特定のファネルの数値を追跡するために、ユーザーが目標 A を達成した後に目標 B を追跡したいと考えています。**
+**アクティビティで複数の目標を作成しました。レポートや分析の目的で、ファネルとして目標のチェーンを作成できますか？ 例えば、特定のファネルの数値を追跡できるように、ユーザーが目標 A を達成した場合に目標 B を検討したいとします。**
 
-Target の指標依存関係の機能を利用すれば可能です。[他の成功指標の依存関係](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)を追加するだけです。「到達」、「未到達」などのオプションを利用したり、様々な方法で指標を結合し、あらゆる組み合わせを作成したりできます。
++++詳細を表示
+[!DNL Target] には、[!UICONTROL Metrics Dependency] 機能を使用してこれを実現する堅牢な方法があります。 [他の成功指標の依存関係](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)を追加するだけです。「到達」、「未到達」などのオプションを利用したり、様々な方法で指標を結合し、あらゆる組み合わせを作成したりできます。
+
++++
 
 **目標達成のためにアクティビティを適切に設定するには、どうすればよいですか？**
 
-そのためにあるのが[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)です。
++++詳細を表示
+ここに [ 目標 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) があります。
 
-まず、何を重視して最適化をおこなうかを把握します。売上高、コンバージョン、エンゲージメントなどが考えられます。これらの各オプションは目標のセクションで利用できます。それぞれのオプションで、目標達成の条件と見なすサイトでのユーザー行動を定義できます。
+まず、何を重視して最適化をおこなうかを把握します。それは [!UICONTROL Revenue] ですか、[!UICONTROL Conversion] ですか、それとも [!UICONTROL Engagement] ですか。 これらの各オプションは目標のセクションで利用できます。それぞれのオプションで、目標達成の条件と見なすサイトでのユーザー行動を定義できます。
 
-この設定は、プライマリ目標設定（3 ステップのガイドによるワークフローのステップ 3）で指定できます。他の目標を追加し、レポートのデータの質を高めることもできます。
+これは、3 つのパートから成るガイド付きワークフローの手順 3 の [!UICONTROL Primary Goal] 設定で可能になります。 追加の目標を追加することもできます。これにより、レポートの改善に役立ちます。
+
++++
 
 **スケジュールを設定し、特定の日時にアクティビティを開始して終了させることはできますか？**
 
-3 ステップのガイドによるワークフローの[目標と設定ステップのスケジュール設定機能](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)で、開始日時と終了日時を指定できます。
++++詳細を表示
+開始日と終了日を指定して、3 つの部分で構成されるアクティビティワークフローの [ の手順で [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) スケジュール機能を使用します。
 
-忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブアクティビティのみです。終了日に達したら、そのアクティビティのステータスは終了になります。
+忘れずにアクティビティを有効にしてください。指定したスケジュールが適用されるのは、ライブアクティビティのみです。終了日に達すると、アクティビティは [!UICONTROL Ended] の状態になります。
+
++++
 
 **編集用に 3 ステップのガイド付きワークフロー全体を実行するのではなく、[!UICONTROL Targeting] ステップのみを変更することはできますか？**
 
-[アクティビティの概要ページから直接対象の手順に移動し、](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)「保存して閉じる」オプションを使用してその手順を終了します。
++++詳細を表示
+これを簡単に行うには、[[!UICONTROL Activity Overview] のページから目的の手順を直接入力し ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 「[!UICONTROL Save and Close]」オプションを使用してその手順から終了します。
+
++++
 
 **特定のステップに留まってアクティビティ（オファーのテキストやカスタムコードなど）を編集しながら、別のタブで QA を実行することはできますか？**
 
-これも可能です。単に [ 保存オプションを使用して、手順を離れることなく増分変更を行うことができます ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
++++詳細を表示
+これは可能です。 単に [[!UICONTROL Save] オプションを使用して、手順を離れることなく増分変更を行います ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+
++++
 
 **作成したばかりのアクティビティのプレビューを確認し、QA を実行するにはどうすればよいですか？**
 
-[強力な QA モード機能](/help/main/c-activities/c-activity-qa/activity-qa.md)を利用して、QA を実行できます。QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
++++詳細を表示
+[ 強力な QA モード機能 ](/help/main/c-activities/c-activity-qa/activity-qa.md) を使用して QA を実行します。 QA チームでリンクを共有して、レポートを含めたエンドツーエンドのアクティビティ QA を実行することもできます。これにより、アクティビティをライブにした後、テストでの想定どおりに進めることができます。
+
++++
 
 **[!DNL Target] の意思決定機能を使用して、単一ページアプリケーション（SPA）またはサーバーサイド統合で使用できるエクスペリエンス/オファーを受け取るにはどうすればよいですか？**
 
-その場合は、[フォームベースのアクティビティ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)と [JSON オファー](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)を利用することで対処できます。
++++詳細を表示
+目標を達成するために [JSON オファー ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) を使用した [ フォームベースのアクティビティ ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) の機能を使用します。
 
-**2 つのアクティビティを設定しました。訪問者にどちらが表示されるのかを把握するには、どうすればよいですか？**
++++
 
 **アクティビティに優先順位を設定することはできますか？**
 
-Target の 3 ステップのガイドによるワークフローのステップ 3 で、優先度設定を使用して[アクティビティの優先度を設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)できます。
++++詳細を表示
+[!UICONTROL Priority] の 3 つのパートから成るガイド付きワークフロー（[!DNL Target] 目標と設定ページ）のステップ 3 で使用できる  設定を使用して、[ アクティビティの優先度を定義 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) します。
 
 2 つのオプションがあります。
 
 * デフォルトは 3 つのレベル（低／中／高）
-* カスタムは 0 ～ 999 の範囲。カスタムの場合は、詳細な優先度機能（管理／Visual Experience Composer）を有効にします。
+* カスタムは 0 ～ 999 の範囲。カスタムの場合は、[!UICONTROL Fine-Grained Priorities] 機能を有効にします（[!UICONTROL Administration]/[!UICONTROL Visual Experience Composer]）。
+
++++
 
 ## オーディエンス {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -179,7 +219,7 @@ mbox と[カスタムオーディエンス](/help/main/c-target/c-audiences/c-ta
 以下の製品情報を参照してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## エクスペリエンス {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -276,7 +316,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
