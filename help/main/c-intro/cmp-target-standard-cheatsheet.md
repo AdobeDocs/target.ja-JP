@@ -48,7 +48,7 @@ ht-degree: 38%
 **[!DNL Adobe] に関 [!DNL Target] る回答や詳細情報を見つけられるコミュニティやフォーラムはありますか？**
 
 +++詳細を表示
-[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
+[!DNL Target]Target コミュニティフォーラム [ で ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja){target=_blank} の実務担当者の仲間とつながります。 専門知識を共有し、質問し、[!DNL Target] を使用している他のユーザーと共同作業してパーソナライゼーションと実験を推進します。 繁栄する社会は積極的な参加にかかっています。 あなたの洞察と経験は、他の人が成功するのに役立ちます。 ジャンプして投稿し、必要な回答を見つけます。
 
 +++
 
@@ -233,7 +233,7 @@ ht-degree: 38%
 製品の以下の側面を確認してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -380,7 +380,7 @@ CSS セレクターは Sizzle セレクターです。このセクションで�
 製品の以下の側面を確認してください。
 
 * [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja)
 * [オーディエンス](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
