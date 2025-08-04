@@ -21,7 +21,7 @@ ht-degree: 15%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE  重要 ]{type=Informative}
+[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
