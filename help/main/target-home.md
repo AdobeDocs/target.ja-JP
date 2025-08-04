@@ -4,10 +4,10 @@ title: Adobe Target ビジネス実践者ガイド
 description: Adobe [!DNL Target] を使用して顧客のエクスペリエンスをパーソナライズし、web サイト、モバイルサイト、アプリ、その他のデジタルチャネルでの収益を最大化する方法について説明します。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: bc5be9a922c5c853c3fb466102cb8fb622e4494e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 29%
+source-wordcount: '648'
+ht-degree: 30%
 
 ---
 
@@ -29,23 +29,11 @@ ht-degree: 29%
 
 >[!TAB  新機能 ]
 
-**UI バージョンの切り替えの廃止に関する情報を更新しました**
-
-[!DNL Target] チームは、UI バージョンの切り替えの廃止のタイムラインを調整しました。
-
-[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**Target 25.7.3 はライブです！**
+**Target 25.7.4 はライブです！**
 
 このリリースでは、更新された [!DNL Target] UI および [!UICONTROL Visual Experience Composer] （VEC）の修正と機能強化に重点を置いています。
 
 [![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**[!DNL Target]UI の更新に関する FAQ**
-
-この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
-
-[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB  更新された Target UI]
 
@@ -54,6 +42,12 @@ ht-degree: 29%
 この UI は、明確で効率が高くなるように設計されており、[!DNL Target] を最大限に活用するのに役立ちます。 詳細な記事や手順を説明する説明への直接リンクを使用して、迅速に作業を開始するのに役立つリソースを確認します。
 
 [![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]t UI の更新に関する FAQ**
+
+この FAQ は、ナビゲーションの変更、機能の場所、一時的な UI バージョンの切り替えスイッチの廃止など、新しい [!DNL Target] UI と [!UICONTROL Visual Experience Composer] （VEC）に関するよくある質問に対応しています。 マーケター、開発者、管理者のいずれであっても、この FAQ はスムーズに移行し、更新された UI を最大限に活用するのに役立ちます。
+
+[![ 詳細情報アイコン ](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB AI アシスタント ]
 
@@ -124,5 +118,5 @@ ht-degree: 29%
 
 | Adobe [!DNL Target] ソリューションに関するヘルプ | [!DNL Adobe Experience Cloud] リソース |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target]  ラーニングとサポート ](https://helpx.adobe.com/jp/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API ドキュメント](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ja){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)</li><li>[[!DNL Experience Cloud] ヘルプホーム](https://helpx.adobe.com/jp/support/experience-cloud.html)</li><li>[[!DNL Adobe]  トレーニングとチュートリアル ](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)</li></ul> |  |
 
