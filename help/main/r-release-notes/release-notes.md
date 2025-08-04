@@ -2,13 +2,13 @@
 keywords: リリースノート；新機能；リリース；アップデート；アップデート；リリース；機能強化；機能強化；修正；バグ修正；アップデート；現在のアップデート
 description: SDK、API、JavaScript ライブラリなど、 [!DNL Adobe Target] の現在のリリースに含まれている新機能、機能強化および修正について説明します。
 landing-page-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
-short-description: ' [!DNL Adobe Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
+short-description: ' [!DNL Target] の現在のリリースに含まれる新機能、機能強化、修正点について説明します。'
 title: 現在のリリースの内容
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 ## 必要となる、時間に依存する更新 {#time-sensitive}
 
-[!BADGE &#x200B; 重要 &#x200B;]{type=Informative}
+[!BADGE  重要 ]{type=Informative}
 
 [!DNL Adobe Target] および実装に関する、時間的制約のある更新については、[!DNL Adobe] では、[!UICONTROL Experience League] を通じて詳細なリリースノートとドキュメントを提供しています。 実装に関連する主なハイライトを次に示します。
 
@@ -62,7 +62,7 @@ ht-degree: 15%
 
 * **新しいアクティビティの表示**：更新された UI で作成したアクティビティは、レガシー UI に戻すと表示されなくなります。
 * **既存のアクティビティの編集**：更新された UI の使用中に、既存のアクティビティ（元々はレガシー UI で作成したもの）に加えられた変更が web サイトに公開されます。 ただし、これらの更新は、元の場所に戻した場合はレガシー UI に表示されず、レガシー UI から最後に作成された更新のみが表示されます。
-* **アクティビティ詳細の一貫性**：使用する UI に関係なく、最新の変更がライブ web サイトに反映されます。 ただし、レガシー UI に表示されるのは、そのバージョン内で行われた最新の変更のみです。 更新後の UI で編集されたアクティビティが、従来の UI で表示されたアクティビティと異なる場合は、この状況が原因で混乱が生じる可能性があります。
+* **アクティビティ詳細の一貫性**：使用する UI に関係なく、最新の変更はライブ web サイトに反映されます。 ただし、レガシー UI に表示されるのは、そのバージョン内で行われた最新の変更のみです。 更新後の UI で編集されたアクティビティが、従来の UI で表示されたアクティビティと異なる場合は、この状況が原因で混乱が生じる可能性があります。
 
 #### 更新された UI について学ぶための追加リソース
 
@@ -72,6 +72,66 @@ ht-degree: 15%
 * [ [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md)について：[!DNL Target] に慣れるための概要と、より詳細な情報と手順を説明するリンクを提供します。
 * [[!UICONTROL Visual Experience Composer] の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)：[!DNL Adobe Target Standard/Premium] 25.2.1 リリース（2015年2月17日（PT））では、更新された [!UICONTROL Visual Experience Composer]（VEC）が導入されています。この記事では、VEC のレガシーバージョンと更新されたバージョンの違いについて説明します。
 * [[!UICONTROL Visual Experience Composer] オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：この記事では、更新された VEC UI とそのオプションについて説明します。
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.4 （2025 年 8 月 1 日（PT））
+
+このリリースでは、主に複雑な顧客のカスタマイズによって発生した最近の問題が解決されています。このリリースには、次の修正および改善点が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* ライブアクティビティを保存しようとすると（変更を加えない場合も含む）、「無効なユーザー入力」エラーが発生する問題を修正しました。 GraphQLの応答は、LocalId の重複の問題を示しています。 （TGT-53329 および TGT-53373 および TGT-53195）
+* 更新された VEC でリダイレクトエクスペリエンスを作成できない問題を修正しました。 リダイレクト URL は無視され、元のページが代わりに表示されました。 （TGT-53306）
+
++++
+
+**ローカリゼーション**
+
++++詳細を見る
+* [!UICONTROL Create Criteria] モーダルのローカライゼーションの問題を修正しました。[!UICONTROL Choose Price Rule] ドロップダウンリストで「次の値の間」オプションを選択すると、[!UICONTROL Inclusion Rules] セクションで文字列「to」がローカライズ解除されていました。 （TGT-49754）
+* フィード作成ウィザードの [!UICONTROL All host groups] ドロップダウンリスト内の文字列「[!UICONTROL Environment]」が正しくローカライズされていないローカライゼーションの問題を修正しました。 （TGT-46737）
+
++++
+
+**QA**
+
++++詳細を見る
+* QA 環境が複数のタブに渡ってデータを読み込めず、インターフェイスを使用できない問題を修正しました。 （TGT-53377）
+* QA 環境でアクティビティを作成できない問題を修正しました。 プロセスは正常に完了せずに [!UICONTROL Activities] ページにリダイレクトされました。 （TGT-53328）
+
++++
+
+**Recommendations**
+
++++詳細を見る
+* [!DNL Recommendations] でコレクションを作成する際に「ディープラーニング」オペランドにマウスポインターを置くと、ページがクラッシュする問題を修正しました。 （TGT-53305）
+* 更新された UI の [!UICONTROL Catalog Search] のフィルター候補が不正確な問題を修正しました。 （TGT-52007）
+* [!DNL Recommendations] UI で、「値が存在する」または「値が存在しない」演算子を使用すると（非表示にする必要がある）オペランド フィルターが表示される問題を修正しました。 （TGT-53012）
+
++++
+
+**Visual Experience Composer（VEC）**
+
++++詳細を見る
+* Automated Personalization（AP）アクティビティの編集中に [!UICONTROL Manage Content] をクリックしてから [!UICONTROL Done] をクリックすると、ページが空白になり応答しなくなる問題を修正しました。 （TGT-53047 および TGT-52993）
+* [!UICONTROL Viewed an mbox] の [!UICONTROL Goals & Settings] コンバージョン指標を選択すると、ページがクラッシュする問題を修正しました。 （TGT-53346、TGT-53343、TGT-53348）
+* [!UICONTROL Redirect to URL] 機能が期待どおりに機能しない（有効な URL でもリダイレクトが発生しない）問題を修正しました。 （TGT-53307）
+
++++
+
+**ワークスペース**
+
++++詳細を見る
+* ワークスペース間でアクティビティをコピーする際に、「オーディエンスコピー」のエントリが重複して ID が競合する問題を修正しました。 オーディエンスが、一意の ID、Workspace コンテキスト、結合オーディエンスの再帰処理（最大 5 レベル）でコピーされるようになりました。 （TGT-53081）
+* ワークスペースが「[!UICONTROL All Workspaces]」に設定されている場合に、デフォルトワークスペースに既に存在するアクティビティをコピーすると、次の誤ったエラーが発生する問題を修正しました。
+
+  「デフォルトでないワークスペースには、少なくとも 1 つのプロパティを含める必要があります。」
+
+  コピーはデフォルトのワークスペース内にあるので、プロパティは必要ありません。 プロパティを追加して保存しようとすると、2 回目のエラーが発生します。
+
+  「無効なユーザー入力」
 
 +++
 
@@ -137,7 +197,6 @@ ht-degree: 15%
 **Visual Experience Composer（VEC）**
 
 +++詳細を見る
-
 * VEC で、ビューに変更を適用すると重複が発生し、「無効なユーザー入力」エラーがトリガーされる問題を修正しました。 （TGT-52886）
 * VEC で画像オファーを設定する際の、[!UICONTROL Undo] および [!UICONTROL Insert Before] オプションの [!UICONTROL Insert After] 機能の問題を修正しました。
 
