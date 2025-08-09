@@ -21,7 +21,7 @@ ht-degree: 43%
 
 | 日付 | トピック | 変更点 |
 |--- |--- |--- |
-| 8月5日（PT） | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | *データ収集* ガイドの *Adobe Experience Platform Web SDK* 記事全体を移動し、[!DNL Target] に関連するすべての情報を 1 つの開発者ガイドにまとめました。 これにより、コンテンツを整理し、参照しやすくすることができます。 |
+| 8月5日（PT） | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | *データ収集* ガイドの *Adobe Experience Platform Web SDK* 記事全体を移動し、[!DNL Target] に関連するすべての情報を 1 つの開発者ガイドにまとめました。 これにより、コンテンツを整理し、参照しやすくすることができます。 |
 | 8月4日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.7.4 リリースに関するリリースノートを追加しました。 |
 |  | [[!DNL Target] UI の更新に関する FAQ](/help/main/c-intro/updated-ui-faq.md#options) | 次の FAQ を追加しました。「更新された VEC で並べ替え、サイズ変更、移動、非表示、削除のオプションを処理する方法と、これらのオプションが従来の VEC とどのように異なりますか？」 |
 | 7月29日（PT） | [ アクティビティの編集 ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | *ワークスペースを使用する際のアクティビティのコピー/編集* の下の「オーディエンスとオファー」セクションを更新します。 |
