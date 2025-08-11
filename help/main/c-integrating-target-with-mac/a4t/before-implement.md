@@ -4,10 +4,10 @@ description: Analytics for  [!DNL Target] （A4T）の実装要件と、この�
 title: A4T を実装する前に知っておくべきこと
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 94%
+source-wordcount: '957'
+ht-degree: 87%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この記事は、at.js 実装のみを対象としています。
+>この記事は、at.js 実装にのみ適用されます。 [!UICONTROL Analytics for Target] を使用した [!DNL Adobe Experience Platform Web SDK] （A4T）の実装については、[Experience Platform Web SDKのAdobe Analytics for Target （A4T）のログ ](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank} を参照してください。
 
 ## 実装の必要システム構成 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->A4T の使用を開始する前に、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。[Marketing Cloud 統合プロビジョニングフォーム](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}を使用して、プロビジョニングを依頼します。
+>A4T の使用を開始する前に、事前にアカウントで統合のプロビジョニングを依頼しておく必要があります。[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} を使用して、プロビジョニングを依頼します。
 
 この A4T 統合では、A4T でリダイレクトオファーを使用するかどうかに応じて、次のバージョン以降のライブラリを実装する必要があります。
 
 >[!NOTE]
 >
->次の要件は、A4T を実装するために必要な at.js の&#x200B;*最小*&#x200B;バージョンを表示します。[!DNL Target] チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、[at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
+>次の要件は、A4T を実装するために必要な at.js の&#x200B;*最小*&#x200B;バージョンを表示します。[!DNL Target] チームがサポートを提供しているのは、[!DNL at.js] の最新バージョンとその 1 つ前のバージョンの 2 つのみです。必要に応じて [!DNL at.js] をアップグレードし、サポート対象のバージョンを使用するようにしてください。各バージョンについて詳しくは、 [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja){target=_blank}を参照してください。
 
 ### A4T でリダイレクトオファーを使用 *しない* 場合に必要な要件
 
@@ -97,7 +97,7 @@ at.js、[!DNL Experience Cloud Visitor ID Service] および appMeasurement.js �
 
 ## 共有オーディエンス
 
-[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} に入力する場合、「[!UICONTROL For which capabilities are you requesting provisioning]?」の下にリストされている [!UICONTROL Shared Audiences] オプションに関する以下の重要事項にご注意ください。
+[Marketing Cloud統合プロビジョニングフォーム ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} に入力する場合、「[!UICONTROL Shared Audiences]?」の下にリストされている [!UICONTROL For which capabilities are you requesting provisioning] オプションに関する以下の重要事項にご注意ください。
 
 ![リクエストフォーム](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
