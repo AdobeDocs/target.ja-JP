@@ -4,10 +4,10 @@ description: Adobe Target の以前のリリースに含まれる機能、拡張
 title: 以前のリリースにはどのような機能が含まれていますか。
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: 00c52d362f3d3a4f3bf9c90475dc8ad4c1f88311
 workflow-type: tm+mt
-source-wordcount: '45007'
-ht-degree: 96%
+source-wordcount: '48946'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,357 @@ ht-degree: 96%
 >今月の Target リリース（プラットフォームおよび Target Standard/Premium）について詳しくは、[Target のリリースノート（最新）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) を参照してください。
 
 ## リリースノート - 2025年
+
+### [!DNL Target Standard/Premium] 25.7.4 （2025 年 8 月 1 日（PT））
+
+このリリースでは、主に複雑な顧客のカスタマイズによって発生した最近の問題が解決されています。このリリースには、次の修正および改善点が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* ライブアクティビティを保存しようとすると（変更を加えない場合も含む）、「無効なユーザー入力」エラーが発生する問題を修正しました。 GraphQLの応答は、LocalId の重複の問題を示しています。 （TGT-53329 および TGT-53373 および TGT-53195）
+* 更新された VEC でリダイレクトエクスペリエンスを作成できない問題を修正しました。 リダイレクト URL は無視され、元のページが代わりに表示されました。 （TGT-53306）
+
++++
+
+**ローカリゼーション**
+
++++詳細を見る
+* [!UICONTROL Create Criteria] モーダルのローカライゼーションの問題を修正しました。[!UICONTROL Choose Price Rule] ドロップダウンリストで「次の値の間」オプションを選択すると、[!UICONTROL Inclusion Rules] セクションで文字列「to」がローカライズ解除されていました。 （TGT-49754）
+* フィード作成ウィザードの [!UICONTROL All host groups] ドロップダウンリスト内の文字列「[!UICONTROL Environment]」が正しくローカライズされていないローカライゼーションの問題を修正しました。 （TGT-46737）
+
++++
+
+**QA**
+
++++詳細を見る
+* QA 環境が複数のタブに渡ってデータを読み込めず、インターフェイスを使用できない問題を修正しました。 （TGT-53377）
+* QA 環境でアクティビティを作成できない問題を修正しました。 プロセスは正常に完了せずに [!UICONTROL Activities] ページにリダイレクトされました。 （TGT-53328）
+
++++
+
+**Recommendations**
+
++++詳細を見る
+* [!DNL Recommendations] でコレクションを作成する際に「ディープラーニング」オペランドにマウスポインターを置くと、ページがクラッシュする問題を修正しました。 （TGT-53305）
+* 更新された UI の [!UICONTROL Catalog Search] のフィルター候補が不正確な問題を修正しました。 （TGT-52007）
+* [!DNL Recommendations] UI で、「値が存在する」または「値が存在しない」演算子を使用すると（非表示にする必要がある）オペランド フィルターが表示される問題を修正しました。 （TGT-53012）
+
++++
+
+**Visual Experience Composer（VEC）**
+
++++詳細を見る
+* Automated Personalization（AP）アクティビティの編集中に [!UICONTROL Manage Content] をクリックしてから [!UICONTROL Done] をクリックすると、ページが空白になり応答しなくなる問題を修正しました。 （TGT-53047 および TGT-52993）
+* [!UICONTROL Viewed an mbox] の [!UICONTROL Goals & Settings] コンバージョン指標を選択すると、ページがクラッシュする問題を修正しました。 （TGT-53346、TGT-53343、TGT-53348）
+* [!UICONTROL Redirect to URL] 機能が期待どおりに機能しない（有効な URL でもリダイレクトが発生しない）問題を修正しました。 （TGT-53307）
+
++++
+
+**ワークスペース**
+
++++詳細を見る
+* ワークスペース間でアクティビティをコピーする際に、「オーディエンスコピー」のエントリが重複して ID が競合する問題を修正しました。 オーディエンスが、一意の ID、Workspace コンテキスト、結合オーディエンスの再帰処理（最大 5 レベル）でコピーされるようになりました。 （TGT-53081）
+* ワークスペースが「[!UICONTROL All Workspaces]」に設定されている場合に、デフォルトワークスペースに既に存在するアクティビティをコピーすると、次の誤ったエラーが発生する問題を修正しました。
+
+  「デフォルトでないワークスペースには、少なくとも 1 つのプロパティを含める必要があります。」
+
+  コピーはデフォルトのワークスペース内にあるので、プロパティは必要ありません。 プロパティを追加して保存しようとすると、2 回目のエラーが発生します。
+
+  「無効なユーザー入力」
+
++++
+
+### [!DNL Target Standard/Premium] 25.7.3（2025年7月24日（PT））
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* ビルダークラスの `buildViews` メソッドが、割り当てられた最も高い `viewMaxLocalId` ではなく、ビューの合計数に誤って `viewLocalId` を設定する問題を修正しました。 （TGT-53207）
+* 更新された [!DNL Target] UI で、[!UICONTROL Automated Personalization] （AP）アクティビティの削除されたオファーが元の名前ではなく `Deleted option with ID: X` として表示される問題を修正しました（例：レガシー UI に表示される `Offer Name [Deleted]`）。 この修正により、削除されたオファーの意味のあるラベル付けが復元され、明確さが向上し、レポートがより正確で使いやすくなりました。 （TGT-52921）
+* [!DNL Target] フロントエンドから [!DNL Target] Central に移行された一部のアクティビティで、以前に修正された同期のバグが原因で、一貫性のない指標設定が使用されていた問題を修正しました。 特に、最初にコンバージョン指標を使用し、後で Analytics ベースの指標に更新されたアクティビティでは、`primaryMetricType` および `successCriteria` フィールドに古い値が保持されていました。 （TGT-52643）
+* HTMLの変更に `contentEditable` 属性が意図せず含まれたので、QA プレビューページのコンテンツ全体が編集可能になる問題を修正しました。 これにより、ユーザーはページ上のテキストをクリックして編集できるようになり、QA 中にレイアウトの問題と混乱が発生する可能性がありました。 （TGT-53247）
+* 変更を [!DNL Page Load] から [!UICONTROL View] に移動すると、変更が複製され、[!UICONTROL Page Load] にも表示されながら、[!UICONTROL View] のまま残る問題を修正しました。 さらに、[!UICONTROL View] から変更を削除すると、[!UICONTROL Page Load] からも誤って削除されます。 （TGT-53270）
+
++++
+
+**API**
+
++++詳細を見る
+* 削除されたオプションが正しく保存されているのに、既存の API エンドポイントからアクセスできない、バックエンドの永続性レイヤーの問題を修正しました。 その結果、フロントエンドアプリケーションは、削除されたオプションに意味のある名前を取得できず、履歴レポートビューに影響を与えていました。 この修正により、保持された削除済みオプションのデータを UI で適切に表示できるようになりました。 （TGT-52973）
+* 削除されたアクティビティオプションを JCR ベースのアクティビティから [!DNL Target] Central に転送できるように、新しい移行エンドポイントが実装されました。 この機能により、システム間で一貫したトラッキングとレポートが可能になります。 この機能により、削除されたオプションが [!DNL Target] のフロントエンドとバックエンドにわたって保持および同期され、履歴レポートとデータの整合性が向上します。 （TGT-53217）
+* 以前に削除したアクティビティオプションをセカンダリデータベースから復元できる新しい API エンドポイントが導入されました。 この機能は、`RemovedCampaignElements` クラスと `RemovedOptionInfo` クラスで提供される既存のインフラストラクチャを活用し、削除されたオプションをアクティブなアクティビティにシームレスに再統合します。 （TGT-52903）
+* API の制限 [!DNL Recommendations] より、指標名が 25 文字を超えるアクティビティを開いたり編集したりできない問題を修正しました。 この修正により、文字制限を超える指標名との互換性が確保され、影響を受けるアクティビティへのフルアクセスが復元されます。 （TGT-52839）
+
++++
+
+**フォームベースの Experience Composer**
+
++++詳細を見る
+* [!UICONTROL Form-Based Experience Composer] で、**[!UICONTROL Manage Content]** （AP）アクティビティを作成または編集する際に、コンテン ![ アイコン（](/help/main/assets/icons/Experience.svg) コンテンツを管理アイコン [!UICONTROL Automated Personalization]）をクリックした後にエディターがクラッシュする問題を修正しました。 （TGT-53047）
+
++++
+
+**Recommendations**
+
++++詳細を見る
+* リストの下部までスクロール [!UICONTROL Catalog Search] ると、従来の UI と一貫した動作が復元され、追加の結果を読み込めない問題を修正しました。 （TGT-53088）
+* [!UICONTROL Criteria Details] ダイアログボックスからの項目の削除がブロックされる問題を修正しました。 （TGT-53245）
+* 名前のない製品を開いたり操作したりできない問題を修正しました。 この問題は、名前のない結果を返した環境を選択すると、製品の詳細にアクセスできなくなる場合に発生しました。 （TGT-53007）
+* 特定の製品を選択すると [!UICONTROL Catalog Search] ページがクラッシュして空白の画面が表示される問題を修正しました。 （TGT-53087）
+* ユーザーが [!DNL Recommendation] UI で site_cart_z1 [!DNL Target] アクティビティを編集できない問題を修正しました。 アクティビティを開こうとすると、[!UICONTROL Overview] ページにエラーがトリガーされ、エディターへのアクセスがブロックされました。 （TGT-53221）
+
++++
+
+**レポート**
+
++++詳細を見る
+* レポートソースを [!DNL Customer Journey Analytics] または [!DNL Analytics] から [!DNL Target] に切り替える際に、アクティビティデータベースのサンドボックスフィールドがクリアされない問題を修正しました。 以前は、UI は正しく sandbox: null を送信していましたが、バックエンドはこの値を無視し、古いサンドボックスデータを保持していました。 null を受信した場合、バックエンドはサンドボックス フィールドを適切にクリアするようになりました。 （TGT-52798）
+* [!UICONTROL Automated Personalization] （AP）アクティビティでの正確な履歴レポートをサポートするために、削除されたオプション永続性レイヤーを Target バックエンドに再実装しました。 以前は、オプションを削除すると、その名前が失われるので、過去のパフォーマンスデータを解釈するのが難しかったです。
+
+  **主な改善点**:
+
+   * 削除されたオプションは、既存の `RemovedCampaignElements` および `RemovedOptionInfo` インフラストラクチャを使用して追跡されるようになりました。
+   * オプションが AP アクティビティから削除されても、そのメタデータ（ID や名前など）は保持されます。
+   * レポート UI で、履歴指標と共に元のオプション名（`Option Name [Deleted]` など）を表示できるようになり、明確さと使いやすさが向上しました。
+
+  この更新により、オプションがアクティビティから削除された後も、一貫した意味のあるレポートが確実に作成されます。 （TGT-52986）
+
++++
+
+**Visual Experience Composer（VEC）**
+
++++詳細を見る
+* VEC で、ビューに変更を適用すると重複が発生し、「無効なユーザー入力」エラーがトリガーされる問題を修正しました。 （TGT-52886）
+* VEC で画像オファーを設定する際の、[!UICONTROL Undo] および [!UICONTROL Insert Before] オプションの [!UICONTROL Insert After] 機能の問題を修正しました。
+
+  以前は、特にレガシー [!UICONTROL Insert Before] UI で作成されたアクティビティで、画像オファーに対する [!UICONTROL Insert After] や [!DNL Target] のアクションの取り消しによって、動作に一貫性がなかったり、変更を適切に元に戻せませんでした。 この問題は解決され、これらの変更に対して取り消しアクションが確実に機能するようになりました。 （TGT-52809）
+
+* `contentEditable` 属性が意図せずに true に設定され、保存されたHTML コンテンツに保持される問題を修正しました。 この更新により、意図しない編集動作を行わずに、よりクリーンで期待どおりのHTML出力が得られます。 （TGT-52319）
+* 削除されたオプションが恒久的に失われるのを防ぎ、サービス間で一貫した動作を確保するために、UI のオプションと関連マイクロサービスにソフト削除機能が実装されました。
+
+  **主な変更点**:
+
+   * オプションは完全に削除されなくなりました。 代わりに、パラメーター XML オブジェクト内で、新しく deleted:true フラグが付きます。
+   * このフラグは、削除されたオプションをレンダリングから除外し、エッジサービスに送信されないようにするために、更新された [!DNL Target] UI でのみ使用されます。
+   * 削除されたオプションは、編集中、アクティビティペイロードの一部として残るので、存在しないオプションの顧客への配信を避けながら、トレーサビリティを確保できます。
+
+  この更新により、データの整合性が向上し、分散システムでの削除を管理するためのベストプラクティスに従います。 （TGT-52726）
+
++++
+
+**ワークスペース**
+
++++詳細を見る
+* デフォルト以外のワークスペースからデフォルトワークスペースへ、またはデフォルト以外のワークスペース間でアクティビティをコピーする際の問題を修正しました。 競合を防ぐために、オファーはトラッキングと命名の強化によって複製されるようになりました。
+
+  **主な改善点**:
+   * オファーは、更新された ID とメタデータを使用して宛先ワークスペースで再作成されます。
+   * コピーしたオファーは、「オファー名のコピー」の形式に、一意性を確保するために乱数またはタイムスタンプを付けて、名前が変更されます。
+   * 新しい ID が反映されるように、オファーとアクティビティの状態が更新されます。
+   * この機能により、コピーアクションを繰り返す際に、同一の「オファーコピー」名が複数あることに起因するエラーを防止できます。
+   * オファーは、宛先ワークスペースのオファーリストに即座には表示されない場合がありますが、適切に処理および表示されます。
+
+  この更新により、複数のワークスペースにわたってオファーを管理する際の信頼性とトレーサビリティが向上します。 （TGT-53080）
+
++++
+
+### [!DNL Target Standard/Premium] 25.7.2（2025年7月18日（PT））
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* 未保存の変更でアクティビティの編集をキャンセルする際に、次の追加の確認警告を追加しました。「このアクティビティを保存しますか？ 保存しないと、すべての変更が失われます。」 このメッセージは、誤ってデータが失われるのを防ぐのに役立ちます。 （TGT-52865）
+* 従来の機能を [!UICONTROL Priority] の [!UICONTROL Goals & Settings] スライダーに復元し、従来の UI でサポートされている、数値を直接入力できるようになりました。 （TGT-53185 および TGT-53219）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+* カスタムオーディエンスを含むアクティビティを保存または編集できない問題を修正しました。 お客様に、「リクエストを完了できません。 問題が解決しない場合は、[!DNL Adobe Client Care] にお問い合わせください。」 特定のアクティビティに対して、変更を保存しようとした場合、または変更せずに保存しようとした場合。 （TGT-53189）
+
++++
+
+**[!UICONTROL Analytics for Target]（A4T）**
+
++++詳細を見る
+* 顧客が [!UICONTROL Goals & Settings] ページで特定のアクティビティのレポートを表示すると、[!UICONTROL View in Analytics] リンクが誤って実稼動環境ではなく QA 環境を指す問題を修正しました。 （TGT-53163）
+
++++
+
+**[!UICONTROL Experiences]および[!UICONTROL Offers]**
+
++++詳細を見る
+* カスタムコードを使用して `triggerView` を呼び出すと、無限ループが発生する問題を修正しました。 （TGT-52885）
+* アクティビティに定義された `LocalIds` ークフローとエクスペリエンス定義で使用される `LocalIds` ークフローの間で不一致が発生する問題を修正しました。 （TGT-52669）
+* アクティビティの [!UICONTROL Overview] 定ページに指標名が見つからず、正しい指標名ではなく「オファー」のみが表示される問題を修正しました。 （TGT-53054）
+
++++
+
+**フォームベースの Experience Composer**
+
++++詳細を見る
+* [!UICONTROL Form-Based Experience Composer] で、アクティビティを保存できず、「未定義のプロパティを読み取れません（「マップ」を読み取ります）」というエラーメッセージがトリガーされる問題を修正しました。 （TGT-53145）
+
++++
+
+**Recommendations**
+
++++詳細を見る
+* [!UICONTROL Catalog Search] から製品をクリックすると、「製品の詳細を取得できませんでした」というエラーが表示され、閉じるオプションなしでモーダルを開く問題を修正しました。 （TGT-53082）
+* [ のアクティビティで、コレクションやプロモーションを変更する際に ](/help/main/c-recommendations/recommendations-as-an-offer.md) オファーとしてのレコメンデーション [!UICONTROL A/B Test] が正しく更新されない問題を修正しました。 （TGT-52884）
+* 実稼動環境で、更新された UI でエンティティをクリックすると、「製品の詳細を取得できませんでした」というエラーが表示される問題を修正しました。 この問題が解決しない場合は、[!DNL Adobe Client Care] にお問い合わせください。」 （TGT-53071）
+
++++
+
+**レポート**
+
++++詳細を見る
+* 注文詳細を CSV ファイルに保存すると、ファイルが空になる問題を修正しました。 （TGT-52225）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+* [!UICONTROL Goals & Settings] ページで、複数のエクスペリエンスで使用されるセレクターが選択済みとして一貫してハイライト表示されなかった問題を解決しました。 （TGT-53062）
+* アクティビティを編集できず、「未定義のプロパティを読み取れません（「マップ」を読み取ります）」というエラーメッセージがトリガーされる問題を修正しました。 （TGT-53161）
+
++++
+
+**ワークスペース**
+
++++詳細を見る
+* ワークスペースを切り替える際のアドホックオファーの処理を改善しました。
+   * デフォルトのワークスペースからデフォルト以外のワークスペースに（またはデフォルト以外のワークスペース間で）切り替える場合、アドホックオファーは正しくコピーされるようになりました。 初期化時に、Workspace コンテキストが更新され、新しい ID がオファーに割り当てられて一意性が確保されます。
+   * 同じワークスペース内に留まる場合、変更は行われません。 （TGT-53079）
+* 顧客が [ 異なるワークスペース間でアクティビティをコピー ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) できない問題を修正しました。 （TGT-52753 および TGT-47094）
+* ワークスペース間でプロパティを変更する際の問題を修正しました。
+   * デフォルトのワークスペースからデフォルト以外のワークスペースに切り替えても、対象のワークスペースに現在のプロパティが存在する場合、そのプロパティは保持されます。
+   * [!UICONTROL Properties] リストに警告が表示され（一部のプロパティに互換性がないことを示す可能性があります）、顧客が「[!UICONTROL Add]」または「[!UICONTROL Remove]」をクリックしてから「[!UICONTROL Save]」をクリックすると、宛先ワークスペースに存在しないすべてのプロパティが削除されます。 顧客が [!UICONTROL Cancel] をクリックすると、宛先ワークスペースに存在しない場合でも、すべてのプロパティが残ります。 （TGT-47094）
+   * 同じワークスペースを使用する場合や、デフォルト以外のワークスペースからデフォルトまたは別のワークスペースに切り替える場合は、すべてがそのまま残ります。 （TGT-53078）
+* アクティビティの元のワークスペースコンテキストを尊重するようにエンティティ検証ロジックを更新しました。 [!UICONTROL Experience Fragments] （XF）などのエンティティは、アクティビティが最初に作成されたワークスペースに基づいて検証されるようになりました。 例えば、XF がデフォルトワークスペースに存在し、アクティビティがワークスペース X からワークスペース Y にコピーされる場合でも、XF が元の（デフォルト）ワークスペースで有効であれば、検証は成功します。 （TGT-53196）
+* アクティビティの複製中にアドホックオーディエンスをコピーするサポートが強化されました。
+   * 指標、レポート、ページ、アクティビティのみのタイプなどのアドホックオーディエンスは、次のシナリオで自動的にコピーされるようになりました。
+      * デフォルトワークスペースからデフォルト以外のワークスペースにアクティビティをコピーする場合。
+      * 同じワークスペース内でアクティビティをコピーする場合。 （TGT-53197）
+
++++
+
+### [!DNL Target Standard/Premium] 25.7.1（2025年7月11日（PT））
+
+最近の問題（主に複雑な顧客のカスタマイズに関連）が特定されたので、このリリースには次の修正と更新が含まれています。
+
+**アクティビティ**
+
++++詳細を見る
+* [!UICONTROL Activity QA] URL に不要なクエリパラメーター `at_preview_evaluate_as_true_audience_ids` が含まれていた問題を修正しました。 （TGT-52907）
+* プレビュー URL に、ユーザーが明示的に入力したオーディエンス以外の追加オーディエンスが誤って含まれる問題を修正しました。 QA リンクまたはプレビューリンクを生成する際に、指定されたオーディエンスのみが適用されるように、この動作が修正されました。 （TGT-52912）
+* トラフィック配分の設定中に最初に [!UICONTROL Auto-Target] （AA）を選択した場合、ユーザーが [!UICONTROL Auto-Allocate] （AT） アクティビティを作成できない問題を修正しました。 この問題により、バックエンドの検証エラーが発生し、アクティビティを保存できなくなりました。 （TGT-53096）
+
++++
+
+**オーディエンス**
+
++++詳細を見る
+* [!UICONTROL Approver] の役割を持つユーザーが、アクティビティのみのオーディエンスの絞り込みを追加または保存できない問題を修正しました。 これを試みると、ユーザーにはアクティビティを承認および管理するための十分な権限がある場合でも、「[ エディター ]」権限が必要であるという 403 Forbidden エラーが発生しました。 （TGT-52984）
+* [!UICONTROL Remove Audience Refinement] オプションを使用してアクティビティ固有のオーディエンスを削除すると、オーディエンスが同じアクティビティ内で再選択するためにオーディエンスリストに表示されなくなる問題を修正しました。 この動作により、同じオーディエンスをゼロから再作成しない限り、ユーザーは同じオーディエンスを再度追加できませんでした。 （TGT-52979）
+* アクティビティのみのオーディエンスの絞り込みが、アクティビティが保存される前であっても、場所から削除された直後に UI から消える問題を修正しました。 この動作は、期待される機能およびツールヒントのガイダンスと矛盾しており、「このライブラリの未使用のオーディエンスは、アクティビティが保存されると削除されます」と記載されています。 （TGT-52982）
+* [!UICONTROL All Visitors] 以外のオーディエンスをアクティビティに割り当てようとした際の問題を修正しました。 保存すると、「リクエストを完了できません。 問題が解決しない場合は、[!UICONTROL Adobe Client Care] にお問い合わせください。」 （TGT-53008）
+* アクティビティエディター内で新しいオーディエンスを作成して割り当てた後に、アクティビティの保存がブロックされる問題を修正しました。 表示されたエラーメッセージは「リクエストを完了できません。 問題が解決しない場合は、[!UICONTROL Adobe Client Care] にお問い合わせください。」 （TGT-52977）
+
++++
+
+**[!UICONTROL Analytics for Target]（A4T）**
+
++++詳細を見る
+* 既存のアクティビティをコピーし、レポートソースを [!DNL Adobe Analytics] （A4T）に変更すると、「無効なユーザー入力」エラーが発生する問題を修正しました。 [!DNL Analytics]、`restart_same_experience`、`restart_random_experience` など、`restart_new_experience` レポートと互換性のない特定の指標アクションが元のアクティビティから保持された場合に、このエラーがトリガーされました。 （TGT-52900）
+* [!DNL Adobe Analytics] の手順で、[!UICONTROL Goals & Settings] （A4T）をレポートソースとして選択する際に、顧客がアクティビティを作成または保存できなかった問題を修正しました。 この問題は、特に [!UICONTROL Custom Event] 定の指標（「カスタムイベント 16」など）を選択する際に発生し、「無効なユーザー入力」というエラーが発生していました。 （TGT-52910）
+* 「[!UICONTROL View in Analytics]」リンクをクリックすると、対象の [!DNL Analytics] ダッシュボードではなくホームページにユーザーがリダイレクトされる問題を修正しました。 （TGT-53092 および TGT-53093）
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 更新された [!DNL Recommendations] UI で [!UICONTROL Overview] アクティビティを表示しているときに、[!UICONTROL Goals & Settings] （A4T）がレポートソースとして選択されている場合、「[!DNL Adobe Analytics]」セクションの読み込みに失敗する問題を修正しました。 次のエラーメッセージが表示されました：「エラーが発生しました。 要求を完了できません。 問題が解決しない場合は、アドビのカスタマーケアにお問い合わせください。」 （TGT-52999）
+
++++
+
+**[!UICONTROL Experiences]および[!UICONTROL Offers]**
+
++++詳細を表示
+<!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
+* すべてのコンテンツオプションが削除された後、[!UICONTROL Manage Content] 機能が場所の状態を適切に検証しなかった問題を修正しました。 この問題により、アクティビティ設定を保存または続行しようとすると、動作に一貫性がなくなる、またはエラーが発生する可能性があります。 （TGT-52801）
+* 新しいページを追加し、異なるエクスペリエンス内の特定の要素を削除する際に、「無効な入力」エラーが発生する問題を修正しました。 このエラーは、特にエクスペリエンス間の切り替えや共有ページ構造の変更を行う際に、要素の操作中に重複 `LocalIds` が生成されるとトリガーされます。 （TGT-52720）
+* [!UICONTROL Generate Adhoc Offer] 機能を使用すると、[!UICONTROL Manage Content] パネルに未定義の場所が表示される問題を修正しました。 （TGT-53076 および TGT-53070）
+* [!UICONTROL Targeting] の手順から [!UICONTROL Experiences] に戻る際に、HTML オファーを使用して行った変更が見つからない場合があるお客様への動作を明確にしました。 この顧客の場合、影響を受ける web サイトは、ページの読み込みごとに変更される複数の DOM セレクターを動的に生成しました。 その結果、エディターを再度開くと、変更に元々使用されていたセレクターが見つからなくなり、変更が見つからないか無効のように見えます。 このシナリオは設計どおりに動作しています。 エディターで変更が視覚的に保持されるように、ページの再読み込み時に変更されない、安定した一貫性のあるセレクターをクライアントで使用することをお勧めします。 （TGT-52874）
+* 除外されたエクスペリエンスの一部であるオファーを削除または非アクティブ化しようとすると、「無効なユーザー入力」エラーがトリガーされる問題を修正しました。 この問題は、含まれているエクスペリエンスでオファーが積極的に使用されていなかったにもかかわらず発生しました。 （TGT-52917）
+
++++
+
+**フォームベースの Experience Composer**
+
++++詳細を見る
+* フォームベースのアクティビティで、エクスペリエンスを複製し、複製されたエクスペリエンスの 1 つでカスタムコードを編集すると、すべての複製されたエクスペリエンスにこれらの変更が意図せず適用される問題を修正しました。 各エクスペリエンスは、複製後に独自のカスタムコードを保持するようになりました。 （TGT-51600）
+
++++
+
+**ローカリゼーション**
+
++++詳細を見る
+* 新しい UI のローカライゼーション文字列が、フランス語（fr_FR）、ドイツ語（de_DE）、イタリア語（it_IT）、韓国語（ko_KO）、簡体字中国語（zh_CN）に更新されました。
+
++++
+
+**[!DNL Recommendations]**
+
++++詳細を見る
+* 新しい [!DNL Recommendations] フィード [ ステータス ](/help/main/c-recommendations/c-products/feeds.md#status):[!UICONTROL Partial Import Failed] を追加しました。 （KB-2215）
+* [!DNL Recommendations] を使用してアクティビティを追加する場合に、アクティビティ作成ワークフローに影響す [!UICONTROL promotions] 問題を修正しました。 ユーザーが「[!UICONTROL Promote by Attribute]」を選択してフィルタールール（[!UICONTROL Parameter Matching] など）を追加した場合、アクティビティを保存して再編集した後、選択したルールタイプとオペランドの値が保持されませんでした。 再度開くと、フィルタールールのタイプが予期せず変更され、オペランド値が欠落することがありました。 （TGT-53059）
+* [!DNL Recommendations] UI で、単一のルールで作成されたプロモーションが、ルールのロジックに関係なく、誤って解釈され、「項目のリスト」プロモーションタイプとして表示される問題を修正しました。 （TGT-53063）
+* 更新された [!UICONTROL Overview]UI を使用する際に、[!UICONTROL Download Recommendations Data] を含む [!UICONTROL Experience Targeting] （XT）アクティビティで「[!DNL Recommendations]」ボタンが表示されない問題を修正しました。 （TGT-52730 および TGT-52756）
+* 以前は、Recommendations UI には、フィードから正常に読み込まれたエンティティ数のみが表示されていました。 ただし、バックエンドメッセージの形式には、読み込まれたエンティティの数と、形式のエンティティの合計数の両方が含まれます（`# of entities imported / # of total entities`）。 この不一致により、ユーザーには UI の最初の値（読み込まれたカウント）のみが表示され、混乱が生じていました。 UI に両方の数値が表示されるようになりました。 （TGT-53073）
+* レコメンデーションを使用してフォームベースの A/B アクティビティで「[!UICONTROL Promote by attribute]」プロモーションを設定する際に、顧客がフィルタリングルールを保存できない問題を修正しました。 アクティビティを保存して再度開くと、フィルタールールが見つからず、アクティビティを正常に保存できませんでした。 （TGT-53057）
+
++++
+
+**レポート**
+
++++詳細を見る
+* [!UICONTROL Export order details to CSV] ページから「[!UICONTROL Reports]」を選択すると、空のファイルがダウンロードされる問題を修正しました。 この問題は、有効な注文データがアクティビティに存在する場合でも発生していました。 （TGT-52225）
+* 新しいレポートオーディエンスを作成して割り当てた後にアクティビティを保存しようとする際の問題を修正しました。 返されたエラーメッセージは「アクセスが拒否されました。 この操作を実行するには、[ エディター ]」のすべての権限が必要です。 この問題は、ユーザーが承認者レベルのアクセス権を持っているにもかかわらず発生しました。 （TGT-53103）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を見る
+* ビューに変更を適用すると、ビューが複製され、アクティビティが「無効なユーザー入力」エラーを返す問題を解決しました。 この修正により、重複や検証エラーがトリガーされずに、ビューの変更が正しく適用されます。 （TGT-52886）
+* カスタムコードの変更が間違ったエクスペリエンスに対して正しく表示されない問題を修正しました。 具体的には、あるエクスペリエンス向けの変更が別のエクスペリエンスで示されたため、混乱が生じ、ライブアクティビティの設定が誤る可能性がありました。 （TGT-52776）
+* 新しい VEC UI でカスタムコードの変更を編集または保存できない問題を修正しました。 具体的には、
+
+   * カスタムコードブロックを編集して保存した後、変更内容が UI や QA プレビューに反映されませんでした。
+   * アクティビティを閉じて再び開かない限り、変更を削除できない場合がありました。
+   * 回避策として、ユーザーはコードをコピーし、変更を削除した後、更新されたコンテンツを使用して手動でコードを再作成する必要がありました。 （TGT-53072）
+
+* カスタムコードを編集および保存すると、[!UICONTROL Modifications] パネルが応答しなくなる問題を修正しました。 （TGT-53075）
+* バリアントエクスペリエンスでカスタムコードに対して行った変更が、意図せず [!UICONTROL Control] スタムエクスペリエンスに反映される問題を修正しました。 これにより、配信動作に意図しない変更が生じました。 [!UICONTROL Control] エクスペリエンスが、他のエクスペリエンスで行われたカスタムコードの編集から分離されたままになりました。 （TGT-52413）
+* エディターが完全に読み込まれる前にユーザーが 2 番目のエクスペリエンスをクリックした場合、あるエクスペリエンス（エクスペリエンス B など）に加えられた変更が意図せず別のエクスペリエンス（エクスペリエンス A）に複製される問題を修正しました。 また、最初に選択したエクスペリエンスに変更がなかった場合、この動作によって変更が失われる可能性もあります。 （TGT-52597）
+* アクティビティ作成の [!UICONTROL Modifications] のステップで行われた変更が一貫して保存されなかった問題を修正しました。 場合によっては、すべての手順を完了して「[!UICONTROL Save]」をクリックしても、保存プロセス中に目に見えるエラーが発生しなかったにもかかわらず、「[!UICONTROL Modifications]」セクションで追加されたカスタムスクリプトがライブサイトに反映されないことがあります。 （TGT-52661）
+* カスタムコードの変更が正しく保存されず、同じアクティビティ内の複数のエクスペリエンスに意図せずミラーリングされる問題を修正しました。 また、特定のアクティビティを開いたり更新したりする際にアクセスの問題が発生し、空白の画面が表示されていました。 これらの問題が解決され、安定したアクティビティ編集と正確なエクスペリエンス分離が実現しました。 （TGT-52594）
+* ユーザーが [!UICONTROL Browse Mode] ージ内で別の URL を参照できない問題を修正しました。 これにより、テスターとエディターは同じアクティビティセッション内の代替ページを検証またはプレビューできませんでした。 （TGT-53052）
+* アクティビティの作成中に複数の [!UICONTROL Visual Experience Composer] （VEC）インスタンスが同時に開く問題を修正しました。 この問題は、ユーザーが [!UICONTROL Enhanced Experience Composer] （EEC）を無効にし、[!UICONTROL Page Delivery] の手順で web サイトの URL から末尾のスラッシュを削除した場合に発生しました。 （TGT-52782）
+* ユーザーが別の指標を選択した後でも、[!UICONTROL Revenue] の手順の [!UICONTROL Goals & Settings] 指標ドロップダウンが誤って [!UICONTROL Revenue per Visit] （RPVISIT）にデフォルト設定される問題を修正しました。  この問題は、指標の設定パネルを折りたたんで再度展開すると、以前に選択した値がリセットされる際に発生していました。 （TGT-52811 および TGT-52878）
+* [!UICONTROL Automated Personalization] （AP）および [!UICONTROL Multivariate Testing] （MVT）アクティビティにおけるオファーの命名とコンテンツの翻訳に関連するアクティビティ作成ワークフローの問題をいくつか修正しました。
+
+  対処された主な問題：
+
+   * 同じ名前の複数のHTML オファー（「エクスペリエンス」など）を作成すると、「オファー名の重複は許可されていません」エラーがトリガーされますが、UI に競合を引き起こしているオファーが明確に示されませんでした。
+   * 右のパネルを使用してオファーの名前を変更すると、UI 内の名前が更新されますが、変更が「[!UICONTROL Manage Content]」タブまたは「[!UICONTROL Offers]」タブに反映されなかったので、永続的な検証エラーが発生します。
+   * MVT アクティビティでは、名前を変更した後に重複した名前エラーが保持されませんでしたが、更新されたオファー名がタブ間で一貫して反映されることはできませんでした。 （TGT-52933）
+
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4（2025年6月27日（PT））
 
@@ -451,7 +802,7 @@ ht-degree: 96%
    * [Visual Experience Composer の変更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
    * [Visual Experience Composer のオプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-* セキュリティを強化し、ファーストパーティ Cookie のサポートを改善するために、Manifest V3 をサポートする [!DNL Chrome] 拡張機能[&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)が更新されました。
+* セキュリティを強化し、ファーストパーティ Cookie のサポートを改善するために、Manifest V3 をサポートする [!DNL Chrome] 拡張機能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)が[更新されました。
 
 ![アクティビティの更新](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -575,7 +926,7 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 | アップデート | 詳細 |
 |--- |--- |
-| オーディエンスの作成時に使用される[ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)で [!UICONTROL Browser:iPad] と [!UICONTROL Browser:iPhone] が更新されました。 | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用する訪問者など、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P>[!DNL Target] Standard／Premium 24.3.1（2024年3月4～6日（PT））以降、`Browser:iPad` や `Browser:iPhone` などのターゲット UI を使用して作成された組み込みオーディエンスは、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`、`profile.mobile.isTablet` を使用して [!DNL iPad] と [!DNL iPhone] に対して適切なターゲティングを実行するように更新されます。<P>このアップデートでは、お客様側でのアクションは必要ありません。<p><B>重要</b>：お客様がプロファイルスクリプト（および JavaScript セグメント）で [!DNL iPad] と [!DNL iPhone] を適切にターゲティングを実行するには、**2024年4月30日（PT）**&#x200B;までにお客様が手動で変更を行う必要があります。手動で変更する必要がある代替設定の例については、[[!UICONTROL Browser] オーディエンス属性の  [!DNL iPad]  と  [!DNL iPhone]  のアップデート](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)を参照してください。 |
+| オーディエンスの作成時に使用される[ブラウザー属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)で [!UICONTROL Browser:iPad] と [!UICONTROL Browser:iPhone] が更新されました。 | [!DNL Adobe Target] を使用すると、ページを訪問した際に特定の[ブラウザーやブラウザーオプション](/help/main/c-target/c-audiences/c-target-rules/browser.md)を使用する訪問者など、[いくつかのカテゴリ属性のいずれかをターゲットに設定](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)できます。<P>[!DNL Target] Standard／Premium 24.3.1（2024年3月4～6日（PT））以降、`Browser:iPad` や `Browser:iPhone` などのターゲット UI を使用して作成されたビルトインのオーディエンスは、`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`、`profile.mobile.isTablet` を使用して [!DNL iPad] と [!DNL iPhone] に対して適切なターゲティングを実行するように更新されます。<P>このアップデートでは、お客様側でのアクションは必要ありません。<p><B>重要</b>：お客様がプロファイルスクリプト（および JavaScript セグメント）で [!DNL iPad] と [!DNL iPhone] を適切にターゲティングを実行するには、**2024年4月30日（PT）**&#x200B;までにお客様が手動で変更を行う必要があります。手動で変更する必要がある代替設定の例については、[[!UICONTROL Browser] オーディエンス属性の  [!DNL iPad]  と  [!DNL iPhone]  のアップデート](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)を参照してください。 |
 
 ### [!UICONTROL Visual Editing Helper] 拡張機能（2024年3月14日（PT））
 
@@ -718,7 +1069,7 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 
 * Profile API 認証トークンの生成時に空のページが表示される問題を修正しました。（TGT-45387 および TGT-45423）
 * 画像名に GB 18030 文字が含まれている場合、[!UICONTROL Create Design] パネルに画像が表示されない問題を修正しました。（TGT-44614）
-* エクスペリエンスのテキスト／HTML で、一部の GB 18030 記号文字が正しくエスケープされなかった問題を修正しました。（TGT-44600）
+* エクスペリエンスのテキスト／HTML で、一部の GB 18030 シンボル文字が正しくエスケープされなかった問題を修正しました。（TGT-44600）
 * 分析中に [!UICONTROL Auto Personalization] アクティビティのレポートがフリーズする問題を修正しました。（TGT-44820）
 * アクティビティ名に角括弧（[または]）が含まれている場合、[!UICONTROL Activity] ページでアクティビティを検索できない問題を修正しました。（TGT-44777）
 * アクティビティの目標に特殊文字が含まれる場合、アクティビティを同期できない問題を修正しました。（TGT-44982）
@@ -994,7 +1345,7 @@ at.js リリースについて詳しくは、*Adobe Target 開発者ガイド*&#
 このリリースには、次の修正が含まれています：
 
 * 3 つの買い物かごベースのアルゴリズムによって [!DNL Target] バックエンドで同じ購入／購入条件が使用されていた問題を修正しました。（TGT-43456）
-* [Business ID アカウント](https://helpx.adobe.com/jp/enterprise/using/identity.html?lang=ja){target=_blank}およびポリシーベースの認証（PBA）で有効化された組織に対して [!DNL Target] UI トークンを有効にしました。（TGT-42590）
+* [Business ID アカウント](https://helpx.adobe.com/enterprise/using/identity.html?lang=ja){target=_blank}およびポリシーベースの認証（PBA）で有効化された組織に対して [!DNL Target] UI トークンを有効にしました。（TGT-42590）
 
 ### [!DNL Target] プラットフォームリリース（2022年4月27日（PT））
 
@@ -1320,7 +1671,7 @@ at.js のこのリリースはメンテナンスリリースで、次の修正�
 このリリースには、次の機能強化、修正および変更が含まれています。
 
 * [!DNL Auto-Target] レポートの [!UICONTROL Total] 行に [!UICONTROL Average Lift Confidence Interval] と [!UICONTROL Confidence] が表示されない問題を修正しました。測定値は、すべてのエクスペリエンスで正しく表示されていました。（TGT-37301）
-* 9 月 15 日午後 2 時 30 分（PDT）から 10 月 6 日午前 9 時 25 分（PDT）の間、[!DNL Adobe Target Premium] ユーザーの [!UICONTROL Auto-Target] レポートに影響していた問題を修正しました。影響を受けたコンバージョン指標のレポート（「[!UICONTROL Viewed a page]」または「[!UICONTROL Clicked on mbox]」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。現時点では、配信に関する既知の問題はありません。
+* 9 月 15 日午後 2 時（PDT）から 9 月 15 日午前 9[!DNL Adobe Target Premium] （PDT）の間、[!UICONTROL Auto-Target] ユーザーの :30 レポートに影響し :25 問題を修正しました。 影響を受けたコンバージョン指標のレポート（「[!UICONTROL Viewed a page]」または「[!UICONTROL Clicked on mbox]」オプションを使用して設定）を表示すると、コンバージョン率が誤ってレポートされます。現時点では、配信に関する既知の問題はありません。
 * [!UICONTROL Catalog Search] テーブルに選択可能な [!UICONTROL Last Updated At] 列と [!UICONTROL Last Updated At] フィルターを追加しました。この機能強化により、個々の項目を開いて最終更新日を確認する必要がなくなり、項目が最後に更新された日時でフィルタリングできるため、時間と労力を節約できます。
 
   ![「最終更新日」列とフィルターの図](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -1693,7 +2044,7 @@ at.js のこのバージョンおよび過去のバージョンについて詳�
 | Visual Experience Composer（VEC） | **新しい VEC メニューオプション**：VEC でページ要素をクリックすると、その要素のタイプで利用可能なメニューのオプションが表示されます。<ul><li>[!UICONTROL Styles > Background] オプションを使用して、選択された要素の背景画像および色を変更できるようになりました。（TGT-15001）</li></ul>[Visual Experience オプション](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)の&#x200B;*スタイル*&#x200B;を参照してください。<br>**クリックの追跡の改善**：VEC およびシングルページアプリケーション（SPA）VEC 内のクリックの追跡の設定手順を改善しました。<ul><li>クリックの追跡で使用する要素を選択する際に、すべての使用可能な要素の名前が右側の変更パネルに表示され、すばやく簡単に目的の要素を選択できます。</li><li>3 ステップのガイドによるアクティビティワークフローの [!UICONTROL Goals & Settings] ページに、クリックの追跡用に選択した要素の数が表示されます。この数にマウスポインターを置くと、すべての選択された要素の名前が表示されます。（TGT-33878）</li></ul>[クリックの追跡](/help/main/c-activities/r-success-metrics/click-tracking.md)を参照してください。 |
 | シングルページアプリケーション Visual Experience Composer （SPA VEC） | **ガイドによるワークフロー**：新しいガイドによるワークフローを使用すると、シングルページアプリ用にアクティビティを正常に実行するには、ページ配信ルール設定をどのように設定する必要があるかを理解できます。（TGT-33718）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) を参照してください。<br>**クローンの変更**：SPA VEC を使用した変更を定義して、シングルページアプリの他のビューで使用するために、その変更をクローンできるようになりました。（TGT-33882）<br>[シングルページアプリケーション（SPA）の Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md) を参照してください。 |
 | ![Premium バッジ](/help/main/assets/premium.png) Automated Personalization（AP）と自動ターゲット | **特定のエクスペリエンスをコントロールとして**：AP または自動ターゲットアクティビティを作成する際、コントロールとして使用するエクスペリエンスを選択できます。この機能を使用すると、アクティビティで設定されたトラフィック配分率に基づいて、コントロールトラフィック全体を特定のエクスペリエンスにルーティングできます。その後、そのエクスペリエンスへのコントロールトラフィックに対するパーソナライズされたトラフィックのパフォーマンスレポートを評価できます。現在のコントロール オプション（ランダムに提供されるエクスペリエンス）は、引き続き使用できます。（TGT-32801、TGT-26572、&amp; TGT-26571）<br>[Automated Personalization アクティビティまたは自動ターゲットアクティビティ用のコントロールの選択](/help/main/c-activities/t-automated-personalization/experience-as-control.md)を参照してください。<br>**パーソナライゼーションインサイトレポート**：訪問者がコンテンツの特定の部分を特定の場所で表示する際に、属性の名前がマーケターにとってわかりやすくなり、より有用な情報が提供されます。（TGT-33421、TGT-34957）<br>[Target パーソナライゼーションアルゴリズムのデータ収集](/help/main/c-activities/t-automated-personalization/ap-data.md)を参照してください。 |
-| ![Premium バッジ](/help/main/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」を使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
+| ![Premium バッジ](/help/main/assets/premium.png) Recommendations | 「最近表示したアイテム」ロジックを作成する際、「以前購入された品目をレコメンデーション」切替スイッチを使用できます。（TGT-34030）<br>詳しくは、「条件の作成」の[最近表示された項目](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)を参照してください。 |
 | Google Chrome SameSite cookie ポリシー | Google は、先日、Chrome 76（2019 年 7 月 30 日リリース予定）から、開発者はどの cookie が Web サイトで機能できるか、およびどの cookie がユーザーを追跡できるかを厳密に指定する必要があると発表しました。<br>業界はお客様向けにより安全な Web を作成する方向に進んでおり、Target では、訪問者のプライバシーに対する期待を満たし、超えると同時に、パーソナライズされたエクスペリエンスを配信することに全力で取り組んでいます。<br>[Google Chrome SameSite cookie ポリシー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=ja){target=_blank}を参照してください。 |
 
 ### at.js バージョン 2.1.0（2019 年 6 月 3 日） {#atjs-210}
@@ -2667,7 +3018,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルのバッチおよびプリフェッチ配信 </p> </td> 
-   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ja" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>更新日：2017 年 10 月 12 日</b> </p> <p> エンドユーザーがコンテンツを見た時間や方法、さらにはコンテンツを見たかどうかに関係なく、複数の mbox のコンテンツを、1 回の呼び出しでプリフェッチしてデバイスにローカルにキャッシュできます。 </p> <p>この機能を使用するには、4.14 以降の適切なバージョンの Adobe Mobile SDK をダウンロードしてインストールする必要があります。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">オファーコンテンツのプリフェッチ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アクティビティ </p> </td> 
@@ -2991,7 +3342,7 @@ Recommendations ダウンロード API を使用して、スプレッドシー�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target フォーラムの場所の変更 </p> </td> 
-   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ja" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
+   <td colname="col2"> <p> Target フォーラムが新しい<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">アドビコミュニティプラットフォーム</a>に移動しました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3625,7 +3976,7 @@ Adobe Target Standard／Premium 16.5.1（2016 年 5 月 19 日）リリースに
    <td colname="col1" class="premium"> Recommendations の CSV ダウンロード </td> 
    <td colname="col2"> <p>CSV ダウンロードでは、エンティティ Recommendations を持たない環境（例：
  <code>
-       &#x200B;# environment: 1724 
+       # environment: 1724 
      </code>）を含むすべての環境用に、行が含まれるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -4410,7 +4761,7 @@ target/r_release-notes-2015.xml
 
 **既知の問題**
 
-* Analytics が Target のレポートソースとして使用されている場合に、Target Standard／Premium での多変量テストに対する Target ベースの変換イベントが報告されません。この問題は、まもなく修正される予定です。
+* Analytics が Target のレポートソースとして使用されている場合に、Target Standard／Premium での多変量テストに対する Target ベースのコンバージョンイベントが報告されません。この問題は、まもなく修正される予定です。
 
 ### Adobe [!DNL Target] 15.2.1（2015 年 2 月 19 日）  {#section_9AA19B060D814E08A673FB752E21D0C3}
 
