@@ -56,7 +56,7 @@ ht-degree: 42%
 | 6 月 26 日 | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.4 リリースに関するプレリリースノートを追加しました。 |
 | 6月20日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するリリースノートを追加しました。 |
 | 6月19日（PT） | [[!DNL Target] リリースノート（プレリリース）](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 25.6.3 リリースに関するプレリリースノートを追加しました。 |
-| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [[!DNL Target]  レポート | 「[!DNL Customer Journey Analytics] でアクティビティレポートを作成および表示する」の節を新しく追加しました。 |
+| 6月16日（PT） |  [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) での [!DNL Target]  レポート | 「[!DNL Customer Journey Analytics] でアクティビティレポートを作成および表示する」の節を新しく追加しました。 |
 |  | [Adobe Targetの cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/target){target=_blank} | `sessionId` に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P>セッション ID には、スペース、疑問符（? ）、中括弧（{ }）、またはスラッシュ（/）のいずれかを使用できます。 長さは 1 ～ 128 文字にする必要があります。 |
 |  | [Adobe Target配信 API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | `sessionId` に中括弧（{}）を含めることができないことを追加するようにテキストを更新しました。<P> セッション ID には、スペース、疑問符（? ）、中括弧（{ }）、またはスラッシュ（/）のいずれかを使用できます。 長さは 1 ～ 128 文字にする必要があります。 |
 | 6月12日（PT） | [[!DNL Target] リリースノート（最新）](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.6.2 リリースに関するリリースノートを追加しました。 |
