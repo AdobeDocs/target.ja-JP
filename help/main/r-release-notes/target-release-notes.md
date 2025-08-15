@@ -4,10 +4,10 @@ description: SDK、API、JavaScript ライブラリなど、 [!DNL Target] の�
 title: 次回の [!DNL Target] リリースには、どのような新機能や機能強化が含まれていますか？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 64bfa3710450ee9609592610e210a950e0403339
+source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 69%
+source-wordcount: '340'
+ht-degree: 37%
 
 ---
 
@@ -15,19 +15,34 @@ ht-degree: 69%
 
 この記事には、SDK、API、JavaScript ライブラリなど、次回の [!DNL Adobe Target] リリースのプレリリース情報が含まれています。
 
-**最終更新日：2025 年 8 月 14 日**
+**最終更新日：2025 年 8 月 15 日**
 
 >[!NOTE]
 >
->* リリース日、機能などの情報は、予告なく変更されることがあります。
+>* リリース日、機能などの情報は、予告なく変更されることがあります。この記事の情報は、特にリリース前に頻繁に更新されます。
 >
 >* 最新のリリースに関する情報を確認するには、[Target リリースノート ](release-notes.md) を参照してください。
 >
 >* 括弧内の問題番号は [!DNL Adobe] 内部で使用されます。
 
-## [!DNL Target Standard/Premium] 25.8.2 （2025 年 8 月 14 日（PT））
+## [!DNL Target Standard/Premium] 25.8.3 （2025 年 8 月 21 日（PT））
 
-[!DNL Target Standard/Premium] 25.8.2 （2025 年 8 月 14 日（PT））はライブです。 詳しくは、[[!DNL Target]  リリースノート（最新） ](/help/main/r-release-notes/release-notes.md) を参照してください。
+このリリースには、次の更新および修正が含まれています。
+
+**Recommendations**
+
++++詳細を表示
+* **Recs UI で、カスタム条件の CSV ダウンロードが 404 エラーを返す問題を修正しました**：顧客がアクティビティ作成プロセスでカスタム条件の CSV をダウンロードできない問題を修正しました。
+* **[!UICONTROL Catalog Search]** での一貫性のない画像読み込みを修正：のサムネールと画像がアクティビティ作成プロセスで一貫して読み込まれない問題を修正しました [!UICONTROL  Catalog Search]。 「サムネール URL」列が表示されず、ナビゲーションまたは検索アクションの後に一部の製品画像が部分的に読み込まれたか、まったく読み込まれなかった場合に、画像が表示されませんでした。 （TGT-52778）
+
++++
+
+**[!UICONTROL Visual Experience Composer]（VEC）**
+
++++詳細を表示
+* **アクティビティ作成プロセスで、AP アクティビティの [!UICONTROL Targeting] ステップへの進行がブロックされる問題を修正しました**：アクティビティ作成プロセスで、2 つの場所を追加しない限り、顧客が [!UICONTROL Targeting] （AP）アクティビティの [!UICONTROL Automated Personalization] ステップに進むことができない問題を修正しました。 この動作は、複数のオファーを含む 1 つの場所で十分だった以前のエクスペリエンスとは異なります。 要件が修正され、お客様は AP ワークフローの一部として引き続き単一場所の設定を使用できるようになりました。 （TGT-53426）
+
++++
 
 ## その他のリリースノートとバージョンの詳細
 
