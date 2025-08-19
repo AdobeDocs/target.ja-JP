@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] を使用する前に、サイトに実装する必要があります。
 
-[0}Adobe Target デベロッパーガイド } には、](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を実装する前に知っておく必要のある情報が含まれています。[!DNL Target]
+[0&rbrace;Adobe Target デベロッパーガイド &rbrace; には、](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank} を実装する前に知っておく必要のある情報が含まれています。[!DNL Target]
 
 開発者ポータルには、次の実装タイプに関する情報が含まれています。
 

@@ -20,7 +20,7 @@ ht-degree: 53%
 複数のトラフィックソースを組み合わせて複雑なターゲットルールを作成できます。
 
 1. [!DNL Target] インターフェイスで、**[!UICONTROL Audiences]**/**[!UICONTROL Create Audience]** をクリックします。
-1. 
+1. &#x200B;
    1. オーディエンスに名前を付け、オプションで説明を追加します。
 1. **[!UICONTROL Traffic Sources]** をオーディエンスビルダーペインにドラッグ&amp;ドロップします。
 

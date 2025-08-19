@@ -160,7 +160,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### シェフのコレクション：パーソナライゼーションのレシピ（2022年8月30日（PT））
 
-[!DNL Adobe Target] [!DNL] チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
+[!DNL Adobe Target]  チームに参加して、Target から最大限の価値を引き出す方法に関する新しいアイデアを得ましょう。最新の電子ブック「シェフのコレクション：パーソナライゼーションのアイデア」に基づいています。
 
 * [録画リンク](https://video.tv.adobe.com/v/346970/){target=_blank}
 

@@ -30,7 +30,7 @@ ht-degree: 30%
 
 ## ターゲット設定ルールの設定
 
-1. ターゲット設定したいオファーを含む [0}Automated Personalization アクティビティ } を作成します。](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)
+1. ターゲット設定したいオファーを含む [0&rbrace;Automated Personalization アクティビティ &rbrace; を作成します。](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)
 1. [!UICONTROL Visual Experience Composer] ール内のアクティビティに対してオファーを設定したら、「設 **[!UICONTROL Manage Content]**」をクリックします。
 
    ![コンテンツを管理](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)

@@ -12,7 +12,7 @@ ht-degree: 66%
 
 ---
 
-#  オファーとしての Recommendations 
+# オファーとしての Recommendations 
 
 [!UICONTROL A/B Test] （[!UICONTROL Auto-Allocate] と [!UICONTROL Auto-Target] を含む）アクティビティおよび [!UICONTROL Experience Targeting] （XT）アクティビティにレコメンデーションを含めることができるようになりました。
 

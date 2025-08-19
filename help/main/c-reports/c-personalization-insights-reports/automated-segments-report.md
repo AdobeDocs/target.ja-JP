@@ -40,7 +40,7 @@ AP／AT アクティビティでのオファーやエクスペリエンスへの
 
 1. **[!UICONTROL Reports]** をクリックします。
 
-   アクティビティのパフォーマンスに関する情報を提供する [0}Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
+   アクティビティのパフォーマンスに関する情報を提供する [0&rbrace;Automated Personalizationの概要 ](/help/main/c-reports/personalization-reports/reports-ap.md) 自動ターゲットの概要 [ レポートが、最初の画面アイコンで表示されます。 ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)2 つの追加のアイコンは、2 つの [!UICONTROL Personalization Insights] レポートを表しています。**[!UICONTROL Automated Segments]** （![ 自動セグメントレポート ](/help/main/assets/icons/AutomatedSegment.svg)）と **[!UICONTROL Important Attributes]** （![ 重要な属性アイコン ](/help/main/assets/icons/ViewList.svg)）です。 自動ターゲットでは、[!UICONTROL Summary] レポートをグラフィカルに表示するための追加のグラフ アイコンがあります。
 
    >[!IMPORTANT]
    >

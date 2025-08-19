@@ -170,7 +170,7 @@ ht-degree: 48%
 * **テーブル表示**:**[!UICONTROL Table View]** （![ テーブル表示アイコン ](/help/main/assets/icons/Table.svg)）アイコンをクリックして、レポートをテーブルとして表示します。
 * **グラフ表示**:**[!UICONTROL Graph View]** （![ グラフ表示アイコン ](/help/main/assets/icons/GraphTrend.svg)）アイコンをクリックして、レポートをグラフとして表示します。
 * **自動セグメント**:（[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Automated Segments] （![ 自動セグメントアイコン ](/help/main/assets/icons/AutomatedSegment.svg)）アイコンをクリックして、[ 自動セグメントレポート ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) を表示します。
-* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![ アイコンをクリックして ](/help/main/assets/icons/ViewList.svg)[ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
+* **重要な属性**: （[!DNL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT）アクティビティでのみ使用可能） **[!UICONTROL Important Attributes]** （重要な属性アイコン ![ アイコンをクリックして ](/help/main/assets/icons/ViewList.svg) [ 重要な属性レポート ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) を表示します。
 
 ## 平均上昇率、上昇率範囲および信頼区間 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 

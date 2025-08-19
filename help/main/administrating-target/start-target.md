@@ -60,7 +60,7 @@ ht-degree: 91%
 
 ## [!UICONTROL Administration] 設定の編集に必要な権限 {#admin-permissions}
 
-**2025 年 4 月 22 日（PT）より前:**[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
+**2025 年 4 月 22 日（PT）より前:**&#x200B;[!DNL Adobe Admin Console] の [!UICONTROL Approvers] 権限を持つユーザーは、 [!DNL Target] の役割に関係なく [!DNL Target] の [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) ページのすべての設定を編集または変更できます。
 
 **2025 年 4 月 22 日（PT）**&#x200B;より、[!UICONTROL Product] と [!UICONTROL Solutions] の管理者のみが、[!DNL Target] ワークスペースでの役割に関係なく、[[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) セクションの設定を更新できるようになります。この権限を持たないユーザーは、[!UICONTROL Administration] のセクションに読み取り専用でアクセスできます。
 

@@ -46,7 +46,7 @@ ht-degree: 80%
 
 * 訪問者の顧客 ID を [!DNL Target] に送信するには、次の 2 つの方法があります。
 
-   1.  `mbox3rdPartyId`/`thirdPartyId`.
+   1. `mbox3rdPartyId`/`thirdPartyId`.
 
       * `mbox3rdPartyId` は、`targetPageParams` または `targetPageParamsAll` を使用する場合のパラメーター名です。
       * `thirdPartyId` は、Delivery API ペイロードに直接設定したパラメーター名です。

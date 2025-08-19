@@ -29,7 +29,7 @@ ht-degree: 31%
 
    追加のルールは、以下のいずれかに基づいています。
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

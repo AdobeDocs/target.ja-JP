@@ -58,7 +58,7 @@ A4T を実装する前に、[!DNL Analytics] と [!DNL Target] をプロビジ�
 
 訪問者 ID サービスを使用すると、ソリューションをまたいでユーザー [!DNL Adobe Experience Cloud] 識別できます。 を実装するか、必要なバージョンのExperience Cloud訪問者 ID に移行します。 詳しくは、[実装する前に](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)の「導入に必要な条件」を参照してください。
 
-[2}Experience Cloud訪問者 ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) ドキュメントの Target のExperience Cloud ID サービスの実装 *を参照してください。*
+[2&rbrace;Experience Cloud訪問者 ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) ドキュメントの Target のExperience Cloud ID サービスの実装 *を参照してください。*
 
 ### 手順 4： AppMeasurement for JavaScript または s_code を更新します。
 

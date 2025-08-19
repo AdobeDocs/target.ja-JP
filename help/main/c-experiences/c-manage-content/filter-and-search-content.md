@@ -35,7 +35,7 @@ ht-degree: 1%
 
    次の項目でフィルタリングできます。
 
-   *  を使用します&#x200B;**[!UICONTROL File Type]**。
+   * を使用します&#x200B;**[!UICONTROL File Type]**。
       * [!UICONTROL Images]
       * [!UICONTROL Documents]
       * [!UICONTROL Multimedia]

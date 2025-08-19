@@ -35,7 +35,7 @@ ht-degree: 33%
 
    この画面は、[!UICONTROL Recommendations] しいアクティビティを作成している場合は異なります。 [!UICONTROL Recommendations] アクティビティには、エクスペリエンスは含まれません。
 
-1. 
+1. &#x200B;
    1. **[!UICONTROL Rename]** アイコン（名前を変更アイコン ![ をクリックし ](/help/main/assets/icons/MoreSmallListVert.svg) 「名前を **[!UICONTROL Rename]** 更」をクリックしてアクティビティの名前を指定し、「名前を変更」をクリックし **[!UICONTROL Save]** す。
 
    アクティビティ名は、次の文字で始めることはできません：

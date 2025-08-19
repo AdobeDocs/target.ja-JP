@@ -30,7 +30,7 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
    >
    >問題がある VEC のトラブルシューティング情報については、[Visual Experience Composer のトラブルシューティング](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)を参照してください。
    >
-   >前の図の [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織はTarget Standard ライセンスを保有しています。
+   >前の図の [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) のオプションは、[Target Premium](/help/main/c-intro/intro.md) 機能です。 このオプションが表示されない場合、組織はTarget Standard ライセンスを保有しています。
 
 1. （条件付き）[Target Premium](/help/main/c-intro/intro.md#premium) のお客様の場合、[ワークスペース](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)を選択します。
 
