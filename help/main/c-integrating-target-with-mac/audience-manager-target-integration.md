@@ -19,5 +19,5 @@ ht-degree: 0%
 
 ## ビデオ：[!DNL Target] と [!DNL Adobe Audience Manager] の統合（3:06）
 
->[!VIDEO](https://video.tv.adobe.com/v/35151)
+>[!VIDEO](https://video.tv.adobe.com/v/3421745?captions=jpn)
 

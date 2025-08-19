@@ -68,7 +68,7 @@ ht-degree: 64%
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)
 
 ### アクティビティワークフロー – ターゲティング（2:14） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 

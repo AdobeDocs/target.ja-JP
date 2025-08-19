@@ -121,4 +121,4 @@ Keep the following points in mind as you work with imported audiences:
 * アクティビティのオーディエンスへのターゲット設定
 * アクティビティの受動的なレポート用でのオーディエンスの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/29956?captions=jpn)

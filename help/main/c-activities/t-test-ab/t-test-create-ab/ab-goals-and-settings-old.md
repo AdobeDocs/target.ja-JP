@@ -87,4 +87,4 @@ ht-degree: 33%
 * Adobe Target での A/B アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)

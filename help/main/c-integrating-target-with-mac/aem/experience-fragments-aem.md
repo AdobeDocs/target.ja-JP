@@ -170,7 +170,7 @@ HTML ページ全体で [!UICONTROL Experience Fragment] をラップし、問�
 
 次のビデオでは、[!UICONTROL Experience Fragments] の設定方法と使用方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38085?captions=jpn)
 
 >[!NOTE]
 >

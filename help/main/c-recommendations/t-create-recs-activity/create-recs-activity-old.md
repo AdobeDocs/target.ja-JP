@@ -178,4 +178,4 @@ Target の Visual Experience Composer（VEC）を使用すると、Target を有
 
 ## トレーニングビデオ：Recommendations アクティビティの作成（7:15） ![ チュートリアルバッジ ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33952?captions=jpn)

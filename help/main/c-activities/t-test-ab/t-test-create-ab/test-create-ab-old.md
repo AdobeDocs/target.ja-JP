@@ -132,4 +132,4 @@ ht-degree: 35%
 * [!UICONTROL A/B Test] での [!DNL Adobe Target] アクティビティの作成
 * 手動分割または自動トラフィック配分によるトラフィックの配分
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/29958?captions=jpn)

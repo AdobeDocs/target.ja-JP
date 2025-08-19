@@ -88,4 +88,4 @@ CSV ファイルをアップロードして、[!DNL Adobe Target] でレコメ�
 * 条件のシーケンスの作成
 * カスタム条件のアップロード
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35341?quality=12&captions=jpn)

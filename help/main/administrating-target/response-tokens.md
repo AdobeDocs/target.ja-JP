@@ -426,4 +426,4 @@ ttMeta プラグインと同様のデバッグ機能は、HTML ページに次�
 >
 >このビデオでは `option.name` と `option.id` について説明していますが、それぞれ `offer.name` と `offer.id` に置き換えられています。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/34066?captions=jpn)
