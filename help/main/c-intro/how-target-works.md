@@ -35,12 +35,12 @@ Target と web サイトの統合（[!DNL Experience Platform Web SDK] または
 >
 >mbox.js ライブラリは [!DNL Target] のレガシー実装で、2021 年 3 月 31 日（PT）以降はサポートされなくなります。 [!UICONTROL Experience Platform Web SDK] （推奨）または at.js の最新バージョンへのアップグレード。
 
-サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
+サイトの各ページの [!UICONTROL Experience Platform Web SDK] または at.js を参照します。 例えば、グローバルヘッダーにこれらのライブラリのいずれかを追加します。 または、[Adobe Experience Platformのタグ ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home){target=_blank} を使用して [!DNL Target] を実装します。
 
 次のリソースには、[!DNL Experience Platform Web SDK] または at.js の実装に役立つ詳細情報が含まれています。
 
 * [[!DNL Adobe Experience Platform Web SDK] 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ja){target=_blank}
-* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [ [!DNL Adobe Experience Platform]を使用した  [!DNL Target]  の実装](https://experienceleague.adobe.com/ja/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 訪問者が [!DNL Target] 用に最適化されたページをリクエストするたびに、ターゲティングシステムにリアルタイムリクエストが送信され、提供するコンテンツが決定されます。 このリクエストは、マーケターが制御するアクティビティやエクスペリエンスの管理の下で、ページが読み込まれるたびに行われ、実行されます。 コンテンツは、個々のサイト訪問者をターゲットにし、応答率、獲得率、売上高を最大化します。 パーソナライズされたコンテンツは、訪問者の反応、インタラクション、購入を保証するのに役立ちます。
 

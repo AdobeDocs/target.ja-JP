@@ -52,7 +52,7 @@ ht-degree: 80%
 
 | 実装タイプ | 詳細 |
 | --- | --- |
-| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、または非視覚的なインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
+| クライアント側 | [!DNL Target] の実装では、[!DNL Target] はアクティビティに直接関連付けられたエクスペリエンスをクライアントブラウザーへと直接配信します。ブラウザーは、表示するエクスペリエンスを決定して表示します。クライアントサイドでは、WYSIWYG エディターである **[!UICONTROL Visual Experience Composer]** （VEC）、または非視覚的なインターフェイスである **[!UICONTROL Form-based Experience Composer]** を使用して、テストエクスペリエンスとパーソナライゼーションエクスペリエンスを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja){target=_blank} |
 | サーバーサイド | このタイプの [!DNL Target] 実装では、クライアントデバイスがサーバーを通じてエクスペリエンスをリクエストし、サーバーは [!DNL Target] にリクエストを送信すると、[!DNL Target] がサーバーに応答を返し、サーバーはクライアントデバイスにどのエクスペリエンスを配信するかを決定します。エクスペリエンスは、ブラウザーで表示する必要はありません。電子メールやキオスクに表示したり、音声アシスタントを使用したり、非視覚的なエクスペリエンスや非ブラウザーベースのデバイスを使用したりして、表示できます。サーバーはクライアントと [!DNL Target] の間に位置するので、より優れたコントロールおよびセキュリティが必要であったり、サーバーで実行したい複雑なバックエンド処理がある場合、このタイプの実装も理想的です。[詳細情報](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} |
 | ハイブリッド実装 | この実装では、特定の使用事例に最も適した実装アプローチを選択します。例えば、クライアントサイドの実装を使用してホームページのヒーローバナー内のオファーで A/B テストを実行したり、サーバーサイドの実装を使用してクライアントブラウザーに表示する内部検索結果やスマートカーダッシュボードに表示するエクスペリエンス、音声アシスタントから配信する音声応答を決定したりできます。 |
 

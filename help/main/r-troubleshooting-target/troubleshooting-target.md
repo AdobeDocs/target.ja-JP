@@ -96,7 +96,7 @@ ht-degree: 96%
 
 ## グローバル mbox
 
-* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [グローバル mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
 
 ## ホスト／環境
 
@@ -109,22 +109,22 @@ ht-degree: 96%
 ### 一般的な実装
 
 * [サポートされているブラウザー](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ja)
-* [Targetでのクラウドベースインスタンスの使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Targetでのクラウドベースインスタンスの使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=ja)
 
 ### グローバル mbox
 
-* [グローバルmbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [グローバルmbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ja)
 
 ### at.js
 
 * [at.js FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=ja)
-* [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Adobe Experience Cloud デバッガーを使用した at.js のデバッグ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ja)
 * [at.js のバージョンの詳細](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ja)
 * アドビカスタマーケアチーム主導による取り組みの 1 つである「Office Hours」のビデオ。
 
 ## モバイルアプリ
 
-* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [モバイルアプリ用 Target に関する FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=ja)
 
 ## レポート
 
@@ -133,7 +133,7 @@ ht-degree: 96%
 
 ## 検索エンジン最適化（SEO）
 
-* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [検索エンジン最適化（SEO）対応テスト](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ja)
 
 ## セキュリティ
 

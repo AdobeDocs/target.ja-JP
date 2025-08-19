@@ -25,17 +25,17 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 ビューとは何かをさらに説明するために、React で実装された架空のオンライン e コマースサイトを操作して、いくつかのビューの例を見てみましょう。 下のリンクをクリックして、このサイトを新しいブラウザータブで開きます。
 
-**リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+**リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/)**
 
 ![ホームサイト](/help/main/c-experiences/assets/home.png)
 
 ホームサイトに移動すると、イースターセールで使われるヒーロー画像と、サイトで販売されている最新製品を確認できます。この場合、ビューはホームサイト全体として定義できます。この点については、後述の「Adobe Target ビューの実装」セクションで詳しく説明します。
 
-**リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+**リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products)**
 
 ![製品サイト](/help/main/c-experiences/assets/product-site.png)
 
-製品への関心が増してきたところで、製品のリンクをクリックします。ホームサイトと同様、製品サイト全体をビューとして定義できます。このビューには `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products` のパス名と同様に「products」という名前を付けられます。
+製品への関心が増してきたところで、製品のリンクをクリックします。ホームサイトと同様、製品サイト全体をビューとして定義できます。このビューには `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products` のパス名と同様に「products」という名前を付けられます。
 
 ![製品サイト 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
 「Load More」ボタンをクリックすると、サイトに掲載されている他の製品を見ることができます。この場合、web サイトの URL は変化しません。ただし、ここにあるビューは、上に示されている製品の 2 列目のみを表示できます。例えば、表示名を「PRODUCT-PAGE-2」にします。
 
-**リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+**リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/checkout)**
 
 ![チェックアウトページ](/help/main/c-experiences/assets/checkout.png)
 
@@ -67,7 +67,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
    Adobe Target UI を使用して at.js 2.x を [!UICONTROL Administration > Implementation] からダウンロードします。 at.js 2.x は、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ja){target=_blank} のタグを使用してデプロイすることもできます。ただし、Adobe Target の拡張機能は現在最新ではなく、サポートされていません。
 
-1. サイトに at.js 2.x の最新の関数 [triggerView （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} を実装します。
+1. サイトに at.js 2.x の最新の関数 [triggerView （） ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=ja){target=_blank} を実装します。
 
    A/B または XT テストを実行する SPA のビューを定義したら、パラメーターとして渡されたビューを使用して at.js 2.x の `triggerView()` 関数を実装します。 これにより、マーケターは VEC を使用し、定義されたビューに対して A/B テストと XT テストを設計して実行できます。これらのビューに対して `triggerView()` 関数が定義されていない場合、VEC はビューを検出しません。そのため、マーケターは VEC を使用して A/B テストや XT テストを設計して実行できません。
 
@@ -81,7 +81,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
 
    次に、模擬 e コマース SPA 用に React で `triggerView()` 関数を呼び出す方法について、いくつかの例を見てみましょう。
 
-   **リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+   **リンク： [ホームサイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+   **リンク： [製品サイト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products)**
 
    それでは、もう少し複雑な例を見てみましょう。 例えば、ユーザーが「さらに読み込む」ボタンをクリックした後に価格ラベルの色を赤に変更して、2 行目にある製品をパーソナライズすることをマーケターが希望しているとしましょう。
 
@@ -141,7 +141,7 @@ SPA の Adobe Target VEC は、ビューと呼ばれる新しい概念を活用�
    }
    ```
 
-   **リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+   **リンク： [チェックアウト](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/checkout)**
 
    ![React チェックアウト](/help/main/c-experiences/assets/react6.png)
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target（A4T）](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | ○ |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | ○ |
-| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | ○ |
+| [顧客属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ja){target=_blank} | ○ |
 | [AEM エクスペリエンスフラグメント](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | ○ |
 
 ## サポートされる機能 {#supported-features}
@@ -389,10 +389,10 @@ VEC の 3 ステップのガイドによるアクティビティ作成ワーク�
 
 以下の変更が加えられました。
 
-* 次の URL にあるホームビューの背景色が変更されました。[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)
-* 次の URL にある製品ビューのボタンの色が変更されました。[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)
+* 次の URL にあるホームビューの背景色が変更されました。[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/)
+* 次の URL にある製品ビューのボタンの色が変更されました。[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products)
 
-上記の例を念頭に置いて、[!UICONTROL Page Delivery] の設定を、SPA で [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) のみを含むように設定すると、どうなるでしょうか？（at.js 2.*x* を使用）
+上記の例を念頭に置いて、[!UICONTROL Page Delivery] の設定を、SPA で [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/) のみを含むように設定すると、どうなるでしょうか？（at.js 2.*x* を使用）
 
 ![ページ配信ダイアログボックス](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ VEC の 3 ステップのガイドによるアクティビティ作成ワーク�
 
 **ユーザージャーニー #1**
 
-* ユーザーが直接 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) に移動します。
-* at.js 2.*x* は、Edgeに対してクエリを実行し、URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) に対してアクティビティを実行する必要があるかどうかを確認します。
+* ユーザーが直接 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/) に移動します。
+* at.js 2.*x* は、Edgeに対してクエリを実行し、URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/) に対してアクティビティを実行する必要があるかどうかを確認します。
 * 手順 6 で、Target Edge は、ブラウザーでキャッシュできるように、ホームおよび製品ビューに対するアクションを返します。
 
-**結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
+**結果**：ユーザーのホームビューに緑の背景色が表示されます。ユーザーがその後 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) に移動すると、製品ビューでアクションがブラウザーにキャッシュされるので、ボタンの背景色が青くなります。
 
-注意：[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) に移動したユーザーは、ページ読み込みをトリガーしませんでした。
+注意：[https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) に移動したユーザーは、ページ読み込みをトリガーしませんでした。
 
 **ユーザージャーニー #2**
 
-* ユーザーが直接 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) に移動します。
-* at.js 2.*x* は、Edgeに対してクエリを実行し、URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) に対してアクティビティを実行する必要があるかどうかを確認します。
-* [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) に適合するアクティビティはありません。
+* ユーザーが直接 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) に移動します。
+* at.js 2.*x* は、Edgeに対してクエリを実行し、URL [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) に対してアクティビティを実行する必要があるかどうかを確認します。
+* [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) に適合するアクティビティはありません。
 * 適合するアクティビティがないので、トリガーする at.js 2.*x* 用にキャッシュされるアクションおよびビューはありません。
 
-**結果**：製品ビュー用に `triggerView()` を定義し、SPA VEC を使用して製品ビューに対してアクションを行っても、ページ配信設定に [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) を含むルールを作成していないので、実行されたアクションは表示されません。
+**結果**：製品ビュー用に `triggerView()` を定義し、SPA VEC を使用して製品ビューに対してアクションを行っても、ページ配信設定に [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ja#/products) を含むルールを作成していないので、実行されたアクションは表示されません。
 
 ### ベストプラクティス
 

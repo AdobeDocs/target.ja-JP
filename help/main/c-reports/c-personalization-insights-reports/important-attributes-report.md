@@ -98,7 +98,7 @@ ht-degree: 58%
 
 この [!UICONTROL Models API] はブロックリスト API とも呼ばれ、[!UICONTROL Automated Personalization] （AP）および [!UICONTROL Auto-Target] （AT） アクティビティの機械学習モデルで使用される属性（機能とも呼ばれます）のリストを表示および管理できます。 モデルが AP または AT アクティビティに使用する 1 つ以上の属性を除外する場合は、Models API を使用して、それらの属性を「ブロックリスト」に追加できます。
 
-詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の *Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank} を参照してください。
+詳しくは、[Adobe Target開発者ガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ja){target=_blank} の *Models API の概要* を参照してください。 API を使用して属性をブロックするには、[Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ja){target=_blank} を参照してください。
 
 ### [!UICONTROL Automated Segments] および [!UICONTROL Important Attributes] レポートの情報は、CSV ダウンロードの情報と同じですか？
 

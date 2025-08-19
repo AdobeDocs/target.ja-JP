@@ -39,7 +39,7 @@ ht-degree: 20%
 
 このビデオでは、コンテンツの管理について説明します。
 
-* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)と Target コンテンツライブラリの間の接続
+* [Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ja)と Target コンテンツライブラリの間の接続
 * カスタム HTML オファー
 * Visual Experience Composer のカスタム HTML オファー
 

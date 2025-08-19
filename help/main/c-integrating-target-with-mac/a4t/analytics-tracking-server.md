@@ -29,7 +29,7 @@ ht-degree: 15%
 
 1. アクティビティを作成するページから [!DNL Adobe Experience Platform Debugger] を開きます。
 
-   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html) を参照してください。
+   デバッガーをまだインストールしていない場合は、[Adobe Experience Platform Debugger overview](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ja) を参照してください。
 
 1. 左側のナビゲーションメニューの「**[!UICONTROL Analytics]**」をクリックします。
 

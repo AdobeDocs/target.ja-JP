@@ -221,7 +221,7 @@ A4T レポートで指標を標準化するには、いくつかのオプショ�
 [!DNL Analysis Workspace] でアクティビティのインプレッションを表示するには：
 
 1. [!DNL Target] UI で、「**[!UICONTROL View in Analytics]**」をクリックします。
-1. **[!UICONTROL Activity Impressions]**&#x200B;[[!DNL Analytics Workspace] レポートに ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} 列を追加します。
+1. **[!UICONTROL Activity Impressions]**&#x200B;[[!DNL Analytics Workspace] レポートに ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja){target=_blank} 列を追加します。
 1. **[!UICONTROL Activity Impressions]** 列で、[!UICONTROL Gear] アイコンをクリックします。
 1. **[!UICONTROL Use non-default attribution model]** をクリックします。
 1. **[!UICONTROL Same Touch Model]**/**[!UICONTROL Apply]** を選択します。

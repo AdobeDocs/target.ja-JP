@@ -20,7 +20,7 @@ ht-degree: 91%
 
 [!DNL Adobe Admin Console] のシステム管理者が、[!DNL Target] に参加するよう招待してユーザーとして追加する必要があります。システム管理者は、1 つ以上の役割固有の製品プロファイル（ユーザーのグループ）にあなたを追加する必要があります。 これらのタスクは両方とも、[Adobe Admin Console](https://adminconsole.adobe.com) で実行されます。
 
-詳しくは、[ ユーザーグループの管理 ](https://helpx.adobe.com/enterprise/using/users.html) を参照してください。
+詳しくは、[ ユーザーグループの管理 ](https://helpx.adobe.com/jp/enterprise/using/users.html) を参照してください。
 
 ステム管理者がこれらの手順を実行すると、招待メールが届きます。
 

@@ -29,7 +29,7 @@ ht-degree: 3%
 
   この機能は、[!DNL Target Standard] ライセンスでは使用できません。また、at.js や他の [!DNL Target] SDK を使用して [!DNL Target] を実装する場合にも使用できません。
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank} をクリックしてレポートスイートを変更することもできます。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target=_blank} をクリックしてレポートスイートを変更することもできます。
 
 ## サンプルユースケース
 
